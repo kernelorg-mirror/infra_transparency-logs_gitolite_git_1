@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2514457707425989473=="
+Content-Type: multipart/mixed; boundary="===============7979780203222812877=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 05 Dec 2024 09:23:19 -0000
-Message-Id: <173339059977.1250944.15092268062379834859@gitolite.kernel.org>
+Date: Thu, 05 Dec 2024 09:27:46 -0000
+Message-Id: <173339086694.1255054.1537263524160119414@gitolite.kernel.org>
 
---===============2514457707425989473==
+--===============7979780203222812877==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 6a4e8158934d5c1e89377f95bab103f7a8109b11
-    new: 279c489443ba11d16abde1a20eeb4e12ea280193
+    old: 279c489443ba11d16abde1a20eeb4e12ea280193
+    new: 66aa1dfedc1244360f6983b504f5868c6a1daef1
     log: |
-         4e50d06b1e61afc2a396cc94a9ee776732b0f3b5 drop powerpc crypto kconfig patch
-         279c489443ba11d16abde1a20eeb4e12ea280193 drop a bunch of drm imx patches
+         66aa1dfedc1244360f6983b504f5868c6a1daef1 drop perf-stat-uniquify-event-name-improvements.patch
          
 
---===============2514457707425989473==
+--===============7979780203222812877==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1733390623 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1733390894 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1733390593-465f2dd2e6504586778294933e068d92e52aecaf
+nonce 1733390864-b27a316973138e642e4aaaab9f72d291df678e24
 
-6a4e8158934d5c1e89377f95bab103f7a8109b11 279c489443ba11d16abde1a20eeb4e12ea280193 refs/heads/master
+279c489443ba11d16abde1a20eeb4e12ea280193 66aa1dfedc1244360f6983b504f5868c6a1daef1 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdRcR8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AxMP/3ivbBfHgSKmCmj4VWj9
-T/IqtHYeXHWeuoR77i9gGDPddPVfQ1SMkhNuvVuWjbTl/ZFT/872h95BbQbeLdRA
-FH7cvXUie4U6yJEMYeW1hWsQJzysboC+CS2M4xtxHTBDcszpM/YsJuy46vr6Anjc
-shjl3k7TMUVdifCn3CQjlQQMIyR1CDl3CkIq8/06z9V6kQZnymJ6uUxUHTboiPdm
-odr+fLVSBIoCd/heCQEIiD9Y4Sfqqp4HRV9BfC/exAnWcvI1uicF9KObqBL3mDfv
-K7u0utHP6jRhMn2hz94x/S8hx1DKYijO8r8n4a8o9stDz5hgm9PKSd1AkfRvyJf6
-2G3wbAWVAKsdC/5hqrmoGqw4oR/G5FXKeryYUFoGplAh5hU25aFGYsF0+CzWWjn4
-GL4hOVSo7m2yUiR2fYf03cVYRxL68n1aWgFqSC1nOnypGnjXhuD3y7iBtd9oyb5N
-9YZl81SixxE2Oh9gsbq7CK5mYmDODCntfkNF7h7r+W/REgtI6s8vsgzAt1Z8glxT
-Or9d9FQl8D2FXYqHXTs/18FaxWQEyYMfpHoZLeFTl6H5Cz7HtBYGZA7tHjlHVERU
-FuLvQyaVp3+FLgbvoS8tbZpbKsVPjrsqWgQWUZqXMDPzGWh5DdM68QW12x3RvjOU
-5yx4Y5xMCRvTFLo5owdCJbEC
-=yNJa
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdRci4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wZoP/i9KHT0ms+nYlte9ZeF7
+slmMM3IhHC9VmqlYjcZp6ZQUS5M6jKNi7ZkkylDguCF1fViotBLAUe9+sPurfZ8Z
+Rwf5uTcZWkKlfASgPcBiBX7Vc7wDvgF0G+eRLvXQYePEkuYVzVG28STHRkSTagAq
+fZqAzloB68WS0fKjl0wm0IJ2jyZwq6tHTI7PkIowvEq4fN4y2eGufnu6JM55XfDN
+k94/H1R3XtBhLQMPyGqbhMODrceIf7u1CKsEBmgc6R6LolPC8qZjaWJ3gwnzEL6p
+ZtYoAOkofrwnHMnMEAwk4kOXnuXHIiMPIvgQLyQqP4AhxIGhw2r2AdNxqSnt7dR3
+3sPBdmRvg3eD/8RmTHyd4XXoIxiHOAhpx9Bm6i8wPbftTBK+7yKR7XqlY0ibjXFL
+KfIx0ceWCEH5siXULtfwkzNga4MYmMVj/DPNh/LhIv3VbZjvy6DHhcxoZgpnffhw
+K65jAeMpdTGcaeTe2yCx02q5w9eqH9kCOA7J6ZrT9JGhnlnpAk617HzR4Lsm9mla
+1/XKEjmfoUNJ6SaDF/R6p+O64f/DeOAQU6vfP9cKr+XUIbc715frui0dXGq2JIxU
+SOBJUii+c+Yf4FElbXHiFsmminFwqvhZKXNjpB+Z9nqGo7DY83PolwwOe3WcF4NR
+/MOMn+/wxUJEIZIlZdgta7J9
+=XW0h
 -----END PGP SIGNATURE-----
 
---===============2514457707425989473==--
+--===============7979780203222812877==--
