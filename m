@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1502815362812667689=="
+Content-Type: multipart/mixed; boundary="===============7441536056015906969=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Thu, 05 Dec 2024 08:46:04 -0000
-Message-Id: <173338836459.1221123.14939625819603031568@gitolite.kernel.org>
+Date: Thu, 05 Dec 2024 08:46:37 -0000
+Message-Id: <173338839721.1221599.17845809879073037651@gitolite.kernel.org>
 
---===============1502815362812667689==
+--===============7441536056015906969==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: a35672819f8d85e2ae38b80d40b923e3ef81e4ea
     new: 152d00a913969514967ad3f962b3b1c8983eb2d7
     log: revlist-a35672819f8d-152d00a91396.txt
 
---===============1502815362812667689==
+--===============7441536056015906969==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f029c409c3d17feb7a2715ea80efdedda809724b Merge branch 'net-add-negotiation-of-in
 ac98b3132402e1b892c16f87d766f21ef18dd344 selftests/net: call sendmmsg via udpgso_bench.sh
 152d00a913969514967ad3f962b3b1c8983eb2d7 r8169: simplify setting hwmon attribute visibility
 
---===============1502815362812667689==--
+--===============7441536056015906969==--
