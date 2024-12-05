@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6191344606129135560=="
+Content-Type: multipart/mixed; boundary="===============3718905327332588257=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 05 Dec 2024 22:30:44 -0000
-Message-Id: <173343784444.2164720.6552914994278973602@gitolite.kernel.org>
+Date: Thu, 05 Dec 2024 22:30:48 -0000
+Message-Id: <173343784847.2164857.13913577871459292556@gitolite.kernel.org>
 
---===============6191344606129135560==
+--===============3718905327332588257==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 5eb7de8cd58e73851cd37ff8d0666517d9926948
     new: 896d8946da97332d4dc80fa1937d8dd6b1c35ad4
     log: revlist-5eb7de8cd58e-896d8946da97.txt
 
---===============6191344606129135560==
+--===============3718905327332588257==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ dc1b157b828dfe412c776ac1dd8db158f6016b39 tracing: Fix archs that still call trac
 9d6a414ad31e8eb296cd6f2c1834b2c6994960a0 Merge tag 'trace-v6.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 896d8946da97332d4dc80fa1937d8dd6b1c35ad4 Merge tag 'net-6.13-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============6191344606129135560==--
+--===============3718905327332588257==--
