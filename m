@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0798190902896040175=="
+Content-Type: multipart/mixed; boundary="===============4301568292207054102=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Thu, 05 Dec 2024 22:48:59 -0000
-Message-Id: <173343893919.2179017.12106721329467559885@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Thu, 05 Dec 2024 22:49:03 -0000
+Message-Id: <173343894312.2179156.4100945515784627859@gitolite.kernel.org>
 
---===============0798190902896040175==
+--===============4301568292207054102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 896d8946da97332d4dc80fa1937d8dd6b1c35ad4
     log: revlist-feffde684ac2-896d8946da97.txt
 
---===============0798190902896040175==
+--===============4301568292207054102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -172,4 +172,4 @@ dc1b157b828dfe412c776ac1dd8db158f6016b39 tracing: Fix archs that still call trac
 9d6a414ad31e8eb296cd6f2c1834b2c6994960a0 Merge tag 'trace-v6.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 896d8946da97332d4dc80fa1937d8dd6b1c35ad4 Merge tag 'net-6.13-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============0798190902896040175==--
+--===============4301568292207054102==--
