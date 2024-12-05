@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4561133485597896063=="
+Content-Type: multipart/mixed; boundary="===============5816515566197190655=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 05 Dec 2024 02:13:26 -0000
-Message-Id: <173336480634.888076.738513617167525104@gitolite.kernel.org>
+Date: Thu, 05 Dec 2024 02:13:46 -0000
+Message-Id: <173336482613.888386.14263618790457454944@gitolite.kernel.org>
 
---===============4561133485597896063==
+--===============5816515566197190655==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: 803fd1ad4915de2033c8e4c482cab507fa79b76e
-    new: 8ca57be0070faa4c616a829ca7a74933272b5750
-    log: revlist-803fd1ad4915-8ca57be0070f.txt
+  - ref: refs/heads/6.13/scsi-fixes
+    old: e7d3b4079d01c60568a45237224df4447f140189
+    new: 6918141d815acef056a0d10e966a027d869a922d
+    log: revlist-e7d3b4079d01-6918141d815a.txt
 
---===============4561133485597896063==
+--===============5816515566197190655==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1733364816 -0500
+pusher 75C5DE3D 1733364838 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1733364787-5365901c776b4160a4febd9b960a32fb22fea424
+nonce 1733364809-17ef046df8fb292bbd7d6fd7584913fb306c682a
 
-803fd1ad4915de2033c8e4c482cab507fa79b76e 8ca57be0070faa4c616a829ca7a74933272b5750 refs/tags/mkp-scsi-fixes
+e7d3b4079d01c60568a45237224df4447f140189 6918141d815acef056a0d10e966a027d869a922d refs/heads/6.13/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmdRDFAACgkQ7ulgGnXF
-3j2tPw//dsvaTanP7DG7GeqQjraKnQdR6aVxvrmEsWlk0oXz7Feu1M2QjaFsyIN6
-pTahg88iiJrmrLA6yBWCvoGIC0Mb1yoxB0ZbgPQNqcp4ikaC9aGuBhAhVdFDpTxc
-pMaxFk9CtyqHJEt0w+fVadXtI6aHn8vIn7Iy89c/RRwnjQyH0GNzGOSrgrkyIY+k
-vQKi/ta9bjtRDoGhatcF6F8B/1TBKwT142aKNA02eqYA9jV6n3PP4SDPke8Obv3E
-bD/r3GxaceeP+8Cm9vpx15moh78qHO55RPgD3/YpiuQ28EFyB0uOHLOnVcwL+Eu8
-B4sMuCzxGp+XDgRwkJ/YxRm/ZaL0g2LO2gBHbrga5jje3mgeN/LgKLQW/QEMUNTv
-vF1zVzVP1Mh+XGZbJbp8H16OHaAcIa0WSc0HPTDZhjv26xJIBIVUV8hcohTyA9pW
-sO8p4UIWjcU/c9adPNER1nfyiVvMK4fBlCmW6oSUDsoeS4c+TIRPFGJIQIFFfr1/
-o8AsdNRQjmtcc/gECI3ygdSQCNIA17UlS2ZRbXq7JkxXvs48hSrMf55r/S5gDIhH
-y9gPkCC6N68/Dvr/bVEiiaEGXRLdI8IF7k6qU1YOXOVhNugKFLKA9Li9sB0wpuJ6
-92rphilIXOSnPROdhqXJ4YjdUZhZ23JvJ56BMmVziCzsWKRZPmA=
-=E7sm
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmdRDGYACgkQ7ulgGnXF
+3j0y0w/+O4gVKY8VDf6n6bWEuAPC+SkhZclruA8W6aIs1h5H9FkokUcy36f9ff1E
+4ClHMJKlgTKdqwiIOxQec6l7gmx4qhI0p/FMaHhA4Qg3+vwK81Vx/NU4qHOZpoH4
+wY8NZ4iCFUyqjhWOUuStpfJihLu4YZvrvQ5WQ2aUL9iNNtpzOjKR9JJvYgAx24jy
+69ngSLibluTFjcqWtxJggXg+ZZe/UQ4PRrNNeIH3hT654SVKBg41fAWaLj7r7gmu
+rqoWsndtw4tMqDGeeiI1WPudUG47j6go6h2c7yloqQXN4Aqn1Tsmx754VwLR3Fuv
+zLnmhc1a6wV8O92KmhwJAkL0En3kBcncIvbsaz+x2W3UG282jwlPh1gx/10pbcTe
+/49WycUnk1OTuminzVqRyeCXsmVnIIarI7LxhLTgToqhD1RejUrY30l5bco3YIoI
+7k9dL46tcJ9rmXFlbn52PBhsSIa0EC+NPqHHQ2sNprFtrVpaRJI0leeC8ZshBrbO
+anHQgBXu9cKj+cNwrIaUL5splbRu+N5mjHsixkkK59A327ht5d50OthFZH5zUK0A
+aRbDumavIkvW2pE+hX9MPvtCZfsPdkoRZ5AKQZdc0Wk/LsE0WMl+aeB8aajnuutO
+ntXn2gL81Ohth0MCYEr/ac1+JBpq1qodJIYhBTDWBwC0iAhHC6o=
+=R+3s
 -----END PGP SIGNATURE-----
 
---===============4561133485597896063==
+--===============5816515566197190655==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-803fd1ad4915-8ca57be0070f.txt
+Content-Disposition: attachment; filename=revlist-e7d3b4079d01-6918141d815a.txt
 
 3f5eb062e8aa335643181c480e6c590c6cedfd22 scsi: mpt3sas: Diag-Reset when Doorbell-In-Use bit is set during driver load time
 6050471545eecec214ca9ceb38a63e98e9003338 scsi: mpt3sas: Update driver version to 51.100.00.00
@@ -75,4 +75,4 @@ f10593ad9bc36921f623361c9e3dd96bd52d85ee scsi: sg: Fix slab-use-after-free read 
 b1aee7f034615b6824d2c70ddb37ef9fc23493b7 scsi: storvsc: Do not flag MAINTENANCE_IN return of SRB_STATUS_DATA_OVERRUN as an error
 6918141d815acef056a0d10e966a027d869a922d scsi: scsi_debug: Fix hrtimer support for ndelay
 
---===============4561133485597896063==--
+--===============5816515566197190655==--
