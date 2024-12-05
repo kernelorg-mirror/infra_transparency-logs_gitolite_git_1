@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 05 Dec 2024 10:58:35 -0000
-Message-Id: <173339631526.1428291.1333632485170081942@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Thu, 05 Dec 2024 10:59:51 -0000
+Message-Id: <173339639183.1429348.11900824350944264270@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/main
-    old: 7b998e073ff217f140acb59bc38e822e3cdf7612
-    new: 750e51603395e755537da08f745864c93e3ce741
-    log: |
-         750e51603395e755537da08f745864c93e3ce741 net: avoid potential UAF in default_operstate()
-         
+  - ref: refs/tags/juno-fix-6.13
+    old: 0000000000000000000000000000000000000000
+    new: d9fa886bf897a1fa9944dc8de94714b879997f57
