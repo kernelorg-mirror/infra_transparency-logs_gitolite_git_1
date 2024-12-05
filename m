@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 05 Dec 2024 16:04:37 -0000
-Message-Id: <173341467761.1838452.12482881236929448693@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Thu, 05 Dec 2024 16:08:28 -0000
+Message-Id: <173341490865.1841832.1700771370919102209@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/for-next
-    old: 31a2e892abb75481274140d89d1ed18d5ada0afa
-    new: d2068877e6ee14e968f4befdb91a5f4ae4bde6e9
+  - ref: refs/heads/hwmon-next
+    old: 6f4193955461ed4121f67005e3a076c5d21e5ba2
+    new: 4e8097c96613cc511052a392ebd658b7cf6ec62b
     log: |
-         8e22ea5fb8498c52fcc20bbe2070c3aef1a3dff2 ASoC: dt-bindings: mediatek,mt8188-mt6359: Add compatible for mt8390 evk
-         5a56323a54b7febcfe82cc5eda840a176647b7cd ASoC: dt-bindings: mediatek,mt8188-mt6359: Allow DL_SRC/UL_SRC dai-links
-         d2068877e6ee14e968f4befdb91a5f4ae4bde6e9 Merge remote-tracking branch 'asoc/for-6.14' into asoc-next
+         f8d1ff0af8bf17b96d3dcd6afc59c4e95ec0f6d9 hwmon: (tmp108) Drop of_match_ptr() protection
+         a1c230fb8826ac25095cb6e09c8f7ec0e39d9c50 hwmon: (isl28022) Drop explicit initialization of struct i2c_device_id::driver_data to 0
+         4e8097c96613cc511052a392ebd658b7cf6ec62b hwmon: Initialize i2c_device_id structures by name
          
