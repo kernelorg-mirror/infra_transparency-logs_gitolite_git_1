@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Thu, 05 Dec 2024 14:39:25 -0000
-Message-Id: <173340956595.1763223.7139576552706696808@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Thu, 05 Dec 2024 14:41:51 -0000
+Message-Id: <173340971154.1766654.7697710974963462506@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/ipsec-fixes
-    old: 2a36d935be935499f02f4bb2c472a9c4d05a528c
-    new: b246a597d30b32327e39fea5a95beeee567b13fd
+  - ref: refs/heads/master
+    old: 231d5c2bb11092b421c616ea88a8d2bd8c2b0792
+    new: 19cfc589c16255ae9a831deb16202ba74e38fa01
     log: |
-         8d3f46e03fa80becd7da1cc8a947119526059db3 xfrm: fix inversion dependency warning while enabling IPsec tunnel
-         e1ce0a6873c2ecbf67068d4ae0bacc24c188163f xfrm: return early if policy is offloaded in packet mode
-         b246a597d30b32327e39fea5a95beeee567b13fd xfrm: Support ESN context update to hardware for TX
+         0f32789155905d29b49f594e4571cdd9fa6d4494 test/init-mem: zero the ringbuf memory
+         a6e6b57ca64097c7ff4341bbacb2bf5a1e5c0a7f test/fallocate: check for EOPNOTSUPP too (6.4)
+         ddd46b211546e846bf1905d9f23054d39374d346 Merge branch 'master' of https://github.com/jirislaby/liburing
+         19cfc589c16255ae9a831deb16202ba74e38fa01 Merge branch '64' of https://github.com/jirislaby/liburing
          
