@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6871381632271730413=="
+Content-Type: multipart/mixed; boundary="===============3885040041132833033=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 05 Dec 2024 22:56:52 -0000
-Message-Id: <173343941260.2188542.3162732813663008773@gitolite.kernel.org>
+Date: Thu, 05 Dec 2024 22:57:11 -0000
+Message-Id: <173343943108.2188819.13990089017191872620@gitolite.kernel.org>
 
---===============6871381632271730413==
+--===============3885040041132833033==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,95 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 0d407f933724566c59320b00c0f11dcf1b1f3ef0
-    new: 0aa4e39bd1f2925d51a53fff4ddbbc183f851f0d
-    log: revlist-0d407f933724-0aa4e39bd1f2.txt
+  - ref: refs/heads/40GbE
+    old: bb18265c3aba92b91a1355609769f3e967b65dee
+    new: f930594981cd9db15315c0ca03292a91828e39f0
+    log: revlist-bb18265c3aba-f930594981cd.txt
 
---===============6871381632271730413==
+--===============3885040041132833033==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0d407f933724-0aa4e39bd1f2.txt
+Content-Disposition: attachment; filename=revlist-bb18265c3aba-f930594981cd.txt
 
+80b9f3a80e6e23d91aaca5ece28cd5710d5ad715 iio: chemical: bme680: Add triggered buffer support
+56686ac80b859c2049cc372f7837470aa71c98cf iio: chemical: bme680: Add support for preheat current
+b8fa1677c33394da17ad9139897594b671ba767e staging: gpib: Add TODO file
+5300c32def19a77928e3c7821275996c75c80d1e staging: greybus: gpio: use gpiochip_get_data
+39dace70722a5ce76a6053c7613402de025017b0 staging: vme_user: vme_bridge.h: Name function pointer arguments
+037f9a6df3fba555a51412020c5f80a81fecacfa staging: rtl8723bs: Remove no-op netdevice_notifier()
+b803af197f0ec8d2223e1887efaf04c8ff57e7dd staging: vchiq_core: Remove unnecessary blank lines
+e139445ccbe4d902fce1dce517cd3b63f5b68eb8 staging: rtl8723bs: change remaining printk to proper api
+41e883c137ebe6eec042658ef750cbb0529f6ca8 staging: rtl8712: Remove driver using deprecated API wext
+8898f64f7ae4e60d48065812965a75d627bb9e55 staging: fieldbus: Delete unused driver
+5e12a53902324d810e94f4651be866d3b8d92cfd staging: vchiq_arm: Rename a struct vchiq_bulk member
+016856c1a54ff44624ee3a7cd3353da1fcf64405 staging: vchiq_core: Bulk waiter should not piggy back on bulk userdata
+f19d14dd79a1f3cda8a7f6bc012c4cee8a178748 staging: vchiq_core: Rename struct vchiq_bulk 'userdata'
+ccb0b5e4f59d838f8c51adf96c8b5d099a1e8c25 staging: vchiq: Rename vchiq_completion_data 'bulk_userdata'
+951b3c14355d7a9593f9e60a228a130d1efed6d2 staging: vchiq_core: Pass vchiq_bulk pointer to make_service_callback()
+cb1d0f578855e193f27d430bf40b4e2804ebef72 staging: vchiq_arm: Track bulk user data pointer separately
+8209ab0f9bf97ff54a71050b1229311341bc1054 staging: rtl8723bs: Replace function thread_enter
+553b75d9fca0506cc9b347f0d9983328695dbf8f staging: rtl8723bs: Remove #if 1 in function hal_EfusePartialWriteCheck
+54a0ef3f1e02b8b5b8a2dffe354932cfaa738ec3 staging: rtl8723bs: Remove #if 1 in function hal_EfuseGetCurrentSize_BT
+4dc02874c782e7e06635ac52558af7fe63b399b0 staging: rtl8723bs: Remove #if 1 in function ReadChipVersion8723B
+b7f46dfabcb4986e122d30cb756796cc42ecd3bb staging: rtl8723bs: Remove function pointer check_ips_status
+5d28dfca5dc24075826a0b3f34e4b9500af69fa8 staging: rtl8723bs: Remove function pointer SetHwRegHandler
+ad99ca897f6144314d1a7719f8a39acfb87626e6 staging: rtl8723bs: Remove function pointer GetHwRegHandler
+c789ba02c4c655869744816527f7d06909be39ac staging: rtl8723bs: Remove function pointer SetHwRegHandlerWithBuf
+42ccc3bd8d103c4d7a36c96eef401b4c7120595c staging: rtl8723bs: Remove function pointer GetHalDefVarHandler
+140e013b4755a0a472166e3b986d592a9c71a028 staging: rtl8723bs: Remove function pointer SetHalDefVarHandler
+5c29294755e9da954391d3b51f2109ed7d62ef0c staging: rtl8723bs: Remove function pointer hal_xmit
+c03e19faa69b2c868b6d8f7d704d08a891f3fa9a staging: rtl8723bs: Remove function pointer mgnt_xmit
+1235b909d312b5e56e26a8e7310ba948a4811940 staging: rtl8723bs: Remove function pointer hal_xmitframe_enqueue
+f80995b2229aac67b7aa560c4e35ff29c8806d72 USB: bcma: Remove unused of_gpio.h
+d9649a7e4d7da846ae8dfb6098b8f7ce2921bf62 dt-bindings: usb: add TUSB73x0 PCIe
+c74c2cc7b760905f069bfb35d8844d7ced85587a USB: xhci: add support for PWRON active high
+81e45af3d1878c401e7e7d1e6854e93645d7f50b dt-bindings: usb: Describe TUSB1046 crosspoint switch
+7c561b8c3e83687064c957c394ed9fe49e38fe00 usb: typec: mux: Add support for the TUSB1046 crosspoint switch
+81089c897a1243ac7bd56c231ce95fe95e555ada driver core: auxiliary bus: Spelling s/pecific/specific/
+f87f132c5826b8635846348d3f4a9fb2f218057a cacheinfo: Don't opencode per_cpu_cacheinfo()
+eafb1a86acbb3efc6e509e1b5529fc2383bdcd6d driver core: Put device attribute @wakeup_last_time_ms and its show() together
+6b8ab7241562caadba350dcd7a4b2719abd835ee driver core: constify devlink class
+2ac661dfdfd0241919894335a1057df016f1dea3 altera_uart: Use dev_err() to report error attaching IRQ handler
+284a60b09001fa04af0e10f0cdb8df2791fe659b altera_jtaguart: Use dev_err() to report error attaching IRQ
+2fb3a142c6874353e5b1711034c790a25ef22cc9 dt-bindings: serial: snps,dw-apb-uart: merge duplicate compatible entry.
+a54108ca42eabb54d34674c790d06d07256f570d dt-bindings: serial: snps-dw-apb-uart: Add Sophgo SG2044 uarts
+cad4dda82c7eedcfc22597267e710ccbcf39d572 serial: 8250_dw: Add Sophgo SG2044 quirk
+52fdb8d4388dd87c0290716ec21ee7756d12b8a3 dt-bindings: serial: samsung: Add samsung,exynos8895-uart compatible
+7dcb7bf4a2baf314edf06752093fc64bda9e517d tty: serial: samsung: Add Exynos8895 compatible
+04e3e9188291a183b27306ddb833722c0d083d6a phy: realtek: usb: fix NULL deref in rtk_usb2phy_probe
+bf373d2919d98f3d1fe1b19a0304f72fe74386d9 phy: realtek: usb: fix NULL deref in rtk_usb3phy_probe
+5390d99fdb45fe8754120495d8b107a08e4d05f8 speakup: use SPKDIR=$(src) to specify the source directory
+ec873a4c551e2851adbafa27c89872255a891bf7 kbuild: refactor the check for missing config files
+985d6cccb67c1943c687294095df04a031183fdb kbuild: check the presence of include/generated/rustc_cfg
+654102df2ac2a0d02a416100c3d44ff1dae932ca kbuild: add generic support for built-in boot DTBs
+b95d0899c8bfa1346dd195e868c48008d888bac9 usb: use "prompt" instead of "bool" for choice prompts
+bea2c5ef789a37bace99f2f45eeef3be4559b228 kconfig: remove support for "bool" prompt for choice entries
+6971f7192c12043667173cc78fe88d52ff7ee488 kconfig: remove zconfprint()
+ccb3ee82fa50dccdcd186ed0f6c0d8d14c86a24f kconfig: qconf: set QSplitter orientation in the constructor
+7d48998b58e83a11500d2234e528003ef5d7e982 kconfig: qconf: reorder code in ConfigMainWindow() constructor
+93096d7d2a86b45d1590b041fa9b31546f2f8095 kconfig: qconf: set parent in the widget constructor
+4da0f0d0cc16606376b3fdb8a257f539b37ab057 kconfig: nconf: Use TAB to cycle thru dialog buttons
+f16c8c08185420092d04edce6066eaf4a454bb20 streamline_config.pl: fix missing variable operator in debug print
+4497ee914f10264894b08066cbee026604cd244f watchdog: fix typo in the comment
+daa814d784ac034c62ab3fb0ef83daeafef527e2 iTCO_wdt: mask NMI_NOW bit for update_no_reboot_bit() call
+006778844c2c132c28cfa90e3570560351e01b9a watchdog: xilinx_wwdt: Calculate max_hw_heartbeat_ms using clock frequency
+b2dd16c277bce344b168ed5286f2378868a58d42 dt-bindings: watchdog: Document Qualcomm QCS615 watchdog
+8af9ff6b11122bf4b91378148ded7177bfbae582 watchdog: ziirave_wdt: Drop explicit initialization of struct i2c_device_id::driver_data to 0
+68adabf48f79a46bf2bb615264a54d9bf88528e6 MAINTAINERS: Update the maintainer of StarFive watchdog driver
+3ab1663af6c1ac7d4bd1fb1371a4972bac2922a4 watchdog: stm32_iwdg: Add pretimeout support
+51dfe714c03c066aabc815a2bb2adcc998dfcb30 watchdog: apple: Actually flush writes after requesting watchdog restart
+e6a08988eb5948a99d1f3b48afab4ffff01ae9a4 watchdog: apple: Increase reset delay to 150ms
+06ba0b8da1daabaf10dbec4c04e883d7a6c81706 watchdog: armada_37xx_wdt: remove struct resource
+a570feff16bd4fdaa247b4ef13f4d28f8c73903b interconnect: Use of_property_present() for non-boolean properties
+3b7dd9d88c14099ae0956aec501832d83124d501 Merge branch 'icc-qcs8300' into icc-next
+55aac0ea757d9e10902cce1425cabb490e23c1a1 Merge branch 'icc-qcs615' into icc-next
+b1fd28da86aae5d622ea95711cee8ede39f70369 Merge branch 'icc-sar2130p' into icc-next
+842c3755a6bfbfcafa4a1438078d2485a9eb1d87 counter: stm32-timer-cnt: Add check for clk_enable()
+1437d9f1c56fce9c24e566508bce1d218dd5497a counter: ti-ecap-capture: Add check for clk_enable()
+7f15c46a57c31956591f85b713d7e63cccb25556 rust: introduce `InPlaceModule`
+5c7ca6fa603fc669253b166649ba635a38a9d7ee rust: add `dev_*` print macros.
+feb776a68d7b520b68fa11d09a8b23ea57640b86 greybus: Fix a typo
 f248ff14b7589306c8af922465aefedf9b10fa9e misc: rtsx: Cleanup on DRV_NAME cardreader variables
 eb33da0de01b867af52e7cc37f49542d21d89037 goldfish: Fix unused const variable 'goldfish_pipe_acpi_match'
 2aea0d17ff9e08e8ab50dd588c53cc37d963e016 dt-bindings: fuse: Move renesas,rcar-{efuse,otp} to nvmem
@@ -972,83 +1050,5 @@ dc1b157b828dfe412c776ac1dd8db158f6016b39 tracing: Fix archs that still call trac
 dd7cde36de15b071b5f9163d21d7c9142089b424 ethtool: remove the comments that are not gonna be generated
 8d0580c6ebdd27879c83483f53bc71e2e470f6fe ethtool: regenerate uapi header from the spec
 f930594981cd9db15315c0ca03292a91828e39f0 Merge branch 'ethtool-generate-uapi-header-from-the-spec'
-204cf4abaa36ddde66fae458fe727ade044d2291 ice: fix BST key index in ice_bst_key_init()
-50616aef23b4df244c75c50bb801c54d046d0238 iavf: allow changing VLAN state without calling PF
-1ac6f363679233d64b3aa307c2e92913701428ec ice: Fix E825 initialization
-b7049625ed981326b41fdf8663ce1942ba9f5708 ice: Fix quad registers read on E825
-d9dc7ed92ff6d87ed5f191101543416a34288610 ice: Fix ETH56G FC-FEC Rx offset value
-15b6380a373e637713e26cda6466637ba1f4a724 ice: Add correct PHY lane assignment
-ecd48830251a4176b0b6c1ec33ab1dd93fce6ae2 ice: Don't check device type when checking GNSS presence
-3280e8b59dd08b2d7ac13f5416cbb7b77d0c4fce ice: Remove unncecessary ice_is_e8xx() functions
-ef9e7454a88605048441ef1a4467f8d00ff07d65 ice: Use FIELD_PREP for timestamp values
-701fdf73c73c54a2f882235f4d8b78c986a73ab8 ice: Process TSYN IRQ in a separate function
-1da0c8d137d2fdebb0f4ce3ab7c73b8024228a91 ice: Add unified ice_capture_crosststamp
-47b2bcc99e9e8eff3fdbacb176e55c2a5847abda ice: Refactor ice_ptp_init_tx_*
-f251c8398f8569389bd537dbbbc532b2665427c6 ice: Implement PTP support for E830 devices
-8408ea6c84ded02ddd5dd2588187748bcc3539c7 checkpatch: don't complain on _Generic() use
-21ddb1e6565cb1772e5a57305bcfdc170639cf61 devlink: add devlink_fmsg_put() macro
-c85d157dafaa67160a94e5274a3441aa50a0cd33 devlink: add devlink_fmsg_dump_skb() function
-54620c22c06d58490e400813be78a44d5acb6340 ice: rename devlink_port.[ch] to port.[ch]
-4f1a284ef4f82d85478007c25eb4616750aaa1d7 ice: add Tx hang devlink health reporter
-ddde9c1659ad8a27b2226e44288c99674dc5f147 ice: dump ethtool stats and skb by Tx hang devlink health reporter
-4ee56bd2e739526a33acee910070ec9702d0fa68 ice: Add MDD logging via devlink health
-e065495d0d13e7620e0e5162c9cab49ffd494015 ice: c827: move wait for FW to ice_init_hw()
-b88a3453d0f00612f9ee153aa21fe15eba42ec76 ice: split ice_init_hw() out from ice_init_dev()
-b232978810a4438b0ed2b4a05f36f6060987d443 ice: minor: rename goto labels from err to unroll
-0a94ec07cde90abe63274124db9c9a5b1dc0ecf3 ice: ice_probe: init ice_adapter after HW init
-4a64322950793a3e972abde3184695ecb0f458bc ice: add recipe priority check in search
-7875785db026e8e3c49867f969b10274b6165511 PCI: Add PCI_VDEVICE_SUB helper macro
-933d51fbe09e46687c031e3b7600816979ec8973 ixgbevf: Add support for Intel(R) E610 device
-ccf2bb19fe97b95961db50e44e7ee5381fb3e117 igb: Remove static qualifiers
-40c9e0b8d8bad51111994269cc81b9c621dfaf51 igb: Introduce igb_xdp_is_enabled()
-b2d94c3f45487053fc592e660d06a20ed08a4440 igb: Introduce XSK data structures and helpers
-9ccc554f15d32b9942399bb12f59765a2f369106 igb: Add XDP finalize and stats update functions
-d3e078e11623c8f6758ce264b0a421acf3195841 igb: Add AF_XDP zero-copy Rx support
-fec8927b4f740011a3f853f013e7ccba305ffdd2 igb: Add AF_XDP zero-copy Tx support
-dbe9cc3e194062e5f2366bf906b6708b11f60c55 pldmfw: enable selected component update
-4a1ece139b4f5e6f9d8f7665c74e261ab48ef17e devlink: add devl guard
-ac6205b5bafc16b63335f20fecc418ec185aff8c ice: support FW Recovery Mode
-d5176a2d903b5637e598929a2755a9d2ce84f085 igc: Fix passing 0 to ERR_PTR in igc_xdp_run_prog()
-f808534b4555ff8d40cec2b7976fcb7d1212be49 igb: Fix passing 0 to ERR_PTR in igb_run_xdp()
-166d9ca7e69565301b5a0044286298de90d30633 ixgbe: Fix passing 0 to ERR_PTR in ixgbe_run_xdp()
-e8a174693396d5a6eff5243afd235e0f887afe07 ixgbevf: Fix passing 0 to ERR_PTR in ixgbevf_run_xdp()
-84d0f88257fc43842ea65d0ec3fb38d4f43123c0 ice: use string choice helpers
-1e24d1033833b6996e04bd5a48a931409b80a04f igc: Link IRQs to NAPI instances
-0ed86206e8f84f46155dea11e8bc5d104f467ebc igc: Link queues to NAPI instances
-0f4c8ea631ff772c8dad8a1e25735754f611f9eb virtchnl: add support for enabling PTP on iAVF
-366bbde4c66e3ea699ba1bbf917aa1181f020437 ice: support Rx timestamp on flex descriptor
-75f69d5acc86d20d7a35341b0fc49c434a7b2dd5 virtchnl: add enumeration for the rxdid format
-5842bb253f229ba597810dac40166c9102a9fd46 iavf: add support for negotiating flexible RXDID format
-c5d13b99b4dddbc0c16f01f257be7eddf03b0e49 iavf: negotiate PTP capabilities
-258c226e4cf9dd79c2b6bdc6b142457a07a3ac90 iavf: add initial framework for registering PTP clock
-26a2ae56c0d780e0b1b57b505221bf1c6026fc5a iavf: add support for indirect access to PHC time
-f9eef9322ee7b1c56ce98427bec36eca1e67e825 iavf: periodically cache PHC time
-6131ef9e53589df4846fdec9ba6a6b87179cc306 libeth: move idpf_rx_csum_decoded and idpf_rx_extracted
-f71986aaee302dbdfae2d09c734c1c8a9acfe645 iavf: define Rx descriptors as qwords
-4fb137dd13dd17444c0d7f5a81228fe64ee32649 iavf: refactor iavf_clean_rx_irq to support legacy and flex descriptors
-ad5bc7e16087ae02b3215668916780514eb4b405 iavf: Implement checking DD desc field
-da44173362b9f9395071162edcb587fa2f8835e1 iavf: handle set and get timestamps ops
-d45c640d1d398360eba2c87fbaa8d4f2a4cfcfb5 iavf: add support for Rx timestamps to hotpath
-5c83bced9a523678f6417f7bc52b5951cd27117d idpf: Change function argument
-f6a51e6e99f6e2c20217a5e24530cd95cfd0a7d7 idpf: rename vport_ctrl_lock
-eec13dbb3f298b8f496a0e12562f6bb172ff99b2 idpf: Add init, reinit, and deinit control lock
-301ea6cff202632263d2ab254f581be2f8d610d9 idpf: add lock class key
-2a5d75cd306e9a29e8f082cd03be8e066398ea81 i40e: add ability to reset VF for Tx and Rx MDD events
-761becc57335f7ce830bdfb59f2e47df9f38de1d intel/fm10k: Remove unused fm10k_iov_msg_mac_vlan_pf
-f51972fc03c838a93085459381f05e3e90dad35c igc: Allow hot-swapping XDP program
-3986d044efea2de108efd1c4b49b86453ef88d8b ice: fix max values for dpll pin phase adjust
-eab73ebce1a87f2e5e5f3ffa9c9497c022d7d540 idpf: add read memory barrier when checking descriptor done bit
-e6f3d9b5c19558cece1f598a1224b67b22a46e71 idpf: add support for SW triggered interrupts
-1eca060b29843569550fdd14ddf0096a42b0abf4 idpf: trigger SW interrupt when exiting wb_on_itr mode
-ccbdd67e8eb658f0aea662fbc22050b6332afba9 ice: count combined queues using Rx/Tx count
-440feb0547c8f345c0ddf288662487db3a7c7c0a ice: devlink PF MSI-X max and min parameter
-11252b346a57ce11acb098514297b7c30d523a9d ice: remove splitting MSI-X between features
-fc75bd0da69f6ea5ea3aa9585c44e95aba8eac12 ice: get rid of num_lan_msix field
-8fd519d08a7dd7c3a380f73b018c8d67769f69a4 ice, irdma: move interrupts code to irdma
-bf0ef5c856f34454f12c72ff51f740f678b97e2b ice: treat dyn_allowed only as suggestion
-483c684fdb047fc900896915a4362f69823dbb08 ice: enable_rdma devlink param
-b61d6deb767225a5e9d16284c8459b8a514922ea ice: simplify VF MSI-X managing
-e0091dc14deaddded3658bfe3d9f606ad8c00a00 ice: init flow director before RDMA
-0aa4e39bd1f2925d51a53fff4ddbbc183f851f0d ice: Add in/out PTP pin delays
 
---===============6871381632271730413==--
+--===============3885040041132833033==--
