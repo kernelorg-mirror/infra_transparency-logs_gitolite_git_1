@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4640828214899985897=="
+Content-Type: multipart/mixed; boundary="===============6191344606129135560=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 05 Dec 2024 22:21:43 -0000
-Message-Id: <173343730314.2157096.5127472571216283374@gitolite.kernel.org>
+Date: Thu, 05 Dec 2024 22:30:44 -0000
+Message-Id: <173343784444.2164720.6552914994278973602@gitolite.kernel.org>
 
---===============4640828214899985897==
+--===============6191344606129135560==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,30 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 14a8fd3c1f11b6153ba3e8be5a50fb27fe822538
-    new: a4d72fc3cbaf6e2d95834c1e347086b97332b19e
-    log: revlist-14a8fd3c1f11-a4d72fc3cbaf.txt
+  - ref: refs/heads/1GbE
+    old: 5eb7de8cd58e73851cd37ff8d0666517d9926948
+    new: 896d8946da97332d4dc80fa1937d8dd6b1c35ad4
+    log: revlist-5eb7de8cd58e-896d8946da97.txt
 
---===============4640828214899985897==
+--===============6191344606129135560==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-14a8fd3c1f11-a4d72fc3cbaf.txt
+Content-Disposition: attachment; filename=revlist-5eb7de8cd58e-896d8946da97.txt
 
+b511670b341e5a856de56c5b9917c03e9b0b2486 iio: light: ltr501: Drop most likely fake ACPI IDs
+c26acb09ccbef47d1fddaf0783c1392d0462122c iio: light: ltr501: Add LTER0303 to the supported devices
+12c65c0f3e03087ce6cc27bdf81ee59695d38477 iio: light: ltr501: Replace a variant of iio_get_acpi_device_name_and_data()
+e2ce36e04701b616263e1e4faaf127605e02b358 iio: light: bh1745: simplify code in write_event_config callback
+c9fd4cc90c0f8fb006797a59fecdcd69ce7211e3 iio: light: ltr501: simplify code in write_event_config callback
+d567ff3603cf256e3434cf325302da5ddf56c69e iio: light: veml6030: simplify code in write_event_config callback
+71490e9ef5a902407866df63e1f8c224e1d9d1db iio: imu: inv_mpu6050: simplify code in write_event_config callback
+7804363d596a8f9e0f0643155b796b5cd629eea2 iio: light: stk3310: simplify code in write_event_config callback
+41a275efa27d52adb2a071e9cad19eb6d7a19ff3 iio: gyro: bmg160_core: remove trailing tab
+b85a05c75e0061543b90f5d37c0c37e795786a7b iio: dac: ad5380: use devm_regulator_get_enable_read_voltage()
+2c8988a3d87377b9dc12c23216510b344e96fe12 iio: dac: ad5380: drop driver remove callbacks
+b78412249db03d08bbdb103c0d64677d86717f8a iio: dac: ad5446: use devm_regulator_get_enable_read_voltage()
+a93847d8ce9d4874bd56c48c8b2a860e5736b8ac iio: dac: ad5446: drop driver remove callbacks
 e17229e28701366cca43f9d4db8ffe454e74b7f4 iio: dac: ad5504: use devm_regulator_get_enable_read_voltage()
 86ab52970468792467e7edfd317eaf7c5bd80e07 iio: dac: ad5504: drop driver remove callback
 a88a6cf4f78d6e2e531f47878a94ed6176efa5c4 iio: dac: ad5624r: use devm_regulator_get_enable_read_voltage()
@@ -1037,18 +1050,5 @@ dc1b157b828dfe412c776ac1dd8db158f6016b39 tracing: Fix archs that still call trac
 2a770b49b1bf00fca5473cb386eaf36d21d17d4b Merge tag 'hid-for-linus-2024120501' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
 9d6a414ad31e8eb296cd6f2c1834b2c6994960a0 Merge tag 'trace-v6.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 896d8946da97332d4dc80fa1937d8dd6b1c35ad4 Merge tag 'net-6.13-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-479cff488290ef3ee18ce49a41d7edfc04849deb iavf: allow changing VLAN state without calling PF
-438d720d2e5dd973c7e24a265efd438263e22107 ice: Fix E825 initialization
-0ef8fb86d40ff9ef04d32403914b5743e86bba47 ice: Fix quad registers read on E825
-0eb044d961659d05d8bbc659531a27e6fbfbfac8 ice: Fix ETH56G FC-FEC Rx offset value
-9c82f20c7975bc88431864dfd779692ea9fd8939 ice: Add correct PHY lane assignment
-3ccf18feb30c9725195a2846be9523d659153d7b idpf: Change function argument
-8dc3225e02f8d8f98bfe4508b363e83ac3131304 idpf: rename vport_ctrl_lock
-2ef4602870d420974776f4451b127a6f26823027 idpf: Add init, reinit, and deinit control lock
-68c9257197b9fc29775a9e9edc9f8bf160c2d8e6 idpf: add lock class key
-8f30a1c3d7d41ace1ba2ddfa37322baeddf889e2 ice: fix max values for dpll pin phase adjust
-fd483348f007051429a94e9e549af7d35d098d0c idpf: add read memory barrier when checking descriptor done bit
-fcf07a4d0014daae03054b21da21b31279604a5e idpf: add support for SW triggered interrupts
-a4d72fc3cbaf6e2d95834c1e347086b97332b19e idpf: trigger SW interrupt when exiting wb_on_itr mode
 
---===============4640828214899985897==--
+--===============6191344606129135560==--
