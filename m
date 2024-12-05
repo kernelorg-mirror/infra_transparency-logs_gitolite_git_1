@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 05 Dec 2024 14:32:30 -0000
-Message-Id: <173340915084.1757728.12477538041500722133@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Thu, 05 Dec 2024 14:32:34 -0000
+Message-Id: <173340915415.1757885.12234320767752383712@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/locking/core
-    old: d387ceb17149fed4d85a1ec01b3d65ae0204060d
-    new: 63a48181fbcddefe5fb4c6618938bb64c543945b
-    log: |
-         63a48181fbcddefe5fb4c6618938bb64c543945b smp/scf: Evaluate local cond_func() before IPI side-effects
-         
+  - ref: refs/tags/trace-v6.13-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 37bbbac90061b19b3ea6410a57a20742fd648ea6
