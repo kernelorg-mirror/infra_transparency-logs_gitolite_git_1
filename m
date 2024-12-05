@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 05 Dec 2024 16:36:05 -0000
-Message-Id: <173341656560.1867265.10786297812630062855@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/efitools
+Date: Thu, 05 Dec 2024 16:47:36 -0000
+Message-Id: <173341725615.1875919.4415874399461774712@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/jejb/efitools
+user: jejb
 changes:
-  - ref: refs/heads/for-linus
-    old: 6d544ea21d367cbd9746ae882e67a839391a6594
-    new: ec16a3cdf37e507013062f9c4a2067eacdd12b62
+  - ref: refs/heads/master
+    old: 392836a46ce3c92b55dc88a1aebbcfdfc5dcddce
+    new: b988d20a7f8373cf19c30d5c9c459f3e87f28da2
     log: |
-         ec16a3cdf37e507013062f9c4a2067eacdd12b62 ASoC: mediatek: mt8188-mt6359: Remove hardcoded dmic codec
-         
-  - ref: refs/heads/for-next
-    old: d2068877e6ee14e968f4befdb91a5f4ae4bde6e9
-    new: f9389229c2d2b5b006f3540ff836bf4094cbfdb3
-    log: |
-         ec16a3cdf37e507013062f9c4a2067eacdd12b62 ASoC: mediatek: mt8188-mt6359: Remove hardcoded dmic codec
-         f9389229c2d2b5b006f3540ff836bf4094cbfdb3 Merge remote-tracking branch 'asoc/for-6.14' into asoc-next
+         54c33a5925bdcb066d7d2d31176c618b4d17cde0 README: add git repo and mailing list
+         236e200ffa29c0416b663936f7164b6bd9a02c8c KeyTool: Fix .auth vs .esl/.cer file confusion
+         449cfc99c9453d6321116c12a19f7ceba0bd7fec KeyTool: Add MokListX key
+         b988d20a7f8373cf19c30d5c9c459f3e87f28da2 efi-readvar: Use Shadowed Mok Variables
          
