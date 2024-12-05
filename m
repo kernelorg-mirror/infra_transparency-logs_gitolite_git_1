@@ -1,30 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Thu, 05 Dec 2024 22:00:01 -0000
-Message-Id: <173343600182.2138567.14164965542362321186@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Thu, 05 Dec 2024 22:13:24 -0000
+Message-Id: <173343680499.2149318.9595413203469254253@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/main-pending
-    old: 005db6a1c7a0a40ac803d095653e90ad057d71c7
-    new: dbbc633d47a1c94335d11b3d82731f231e0322e3
+  - ref: refs/heads/arm/brbe
+    old: a922ce9305285d576a821d3fa56174a3ee1159b3
+    new: fa9b8a09d450379420af38cd2daf4a7dd247fd63
     log: |
-         3e9808c3bf481f1e1a40751e69ea118a275d53e0 dt-bindings: net: wireless: Describe ath12k PCI module with WSI
-         8d0c95e36ca8e4a6fc02815cf3c0e5a245244508 wifi: ath12k: parse multiple device information from Device Tree
-         ae3f2efe118d0d11af361162512b9afaf9e0b560 wifi: ath12k: send partner device details in QMI MLO capability
-         eacaccd6df2b58a1b01f4019e06eeca75956e4a0 wifi: ath12k: refactor ath12k_qmi_alloc_target_mem_chunk()
-         777d2491158531529c60300caa2db08910bce420 wifi: ath12k: add support to allocate MLO global memory region
-         a21df232661c05f523fb7138d11058e3277c0309 wifi: ath12k: Add MLO WMI setup and teardown functions
-         c45ef52a17d5ec954cca80871d58969a2a074e54 wifi: ath12k: enable MLO setup and teardown from core
-         ac238605309859da17b65f1095660bfd82452bfb wifi: ath12k: avoid redundant code in DP Rx error process
-         dbbc633d47a1c94335d11b3d82731f231e0322e3 Merge branch 'pending' into main-pending
+         854d7a642a0f57bf485cfdd1ae1626446506a41f brbe: Drop all non-standard events and limit IRQs to kernel
+         42a1a1c6dfb40614eaa83df60ffa47796549715f WIP: Reject events w/o guest excluded
+         c376011984137f13e17683d9eba50e3ee064e581 brbe: Fix freezing on overflow w/ VHE
+         f984eeefc442b6d502191b318c6ef5dbe434edae brbe: More rework of enable/disable
+         5bb560e2dc9c503397374baa4eb47b6c6e8289b8 arm_pmuv3: Exclude cycle counter with branch stack
+         fa9b8a09d450379420af38cd2daf4a7dd247fd63 arm_pmuv3: Just disable brbe on reset
          
-  - ref: refs/tags/ath-pending-202412052152
-    old: 0000000000000000000000000000000000000000
-    new: dbbc633d47a1c94335d11b3d82731f231e0322e3
