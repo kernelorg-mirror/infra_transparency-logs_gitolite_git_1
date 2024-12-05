@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Thu, 05 Dec 2024 12:15:37 -0000
-Message-Id: <173340093768.1497393.2027595935449621107@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Thu, 05 Dec 2024 12:16:46 -0000
+Message-Id: <173340100620.1498193.13477978548801963752@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/gpio/for-current
-    old: 963deccd17d4e538a8bafb1617803746efe910ef
-    new: eaf1ea701a962515e4623597e4720d41345d324d
+  - ref: refs/heads/master
+    old: 6f505f11556a13dd229dea904f54da2c1f3f90d4
+    new: bcf7d00fa4c7ce270f07d6e347c01b1f1e37580f
     log: |
-         211fe29e829679e86e5e07b1fcf3471e8c1492be gpiolib: fix refcount imbalance in gpiochip_setup_dev()
-         eaf1ea701a962515e4623597e4720d41345d324d gpio: ljca: Initialize num before accessing item in ljca_gpio_config
+         bcf7d00fa4c7ce270f07d6e347c01b1f1e37580f CONTRIBUTING.d/patches/description: Add link to history of inter-sentence space
          
