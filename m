@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5156810640167202823=="
+Content-Type: multipart/mixed; boundary="===============1900660884766720482=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 05 Dec 2024 13:51:38 -0000
-Message-Id: <173340669864.1723220.887596492731219843@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 05 Dec 2024 13:54:04 -0000
+Message-Id: <173340684457.1724273.16646472776851918144@gitolite.kernel.org>
 
---===============5156810640167202823==
+--===============1900660884766720482==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 0dad845965887f9c4256fac223b7471e4d84a611
-    new: d9cc74c60fa31f3e31e55941826a4a5dbaeb2342
+    old: b5a00a145c9e082c911d30c3b63b4ebc2961efbe
+    new: 42d242e733eb102252f4012a27dfba8052a71648
     log: |
-         b5d95c3813caba195f4d925198a91a2a0992eb1d reject CVE-2021-47488
-         d9cc74c60fa31f3e31e55941826a4a5dbaeb2342 updates based on new release.
+         42d242e733eb102252f4012a27dfba8052a71648 6.11.y is now end-of-life
          
 
---===============5156810640167202823==
+--===============1900660884766720482==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1733406724 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1733406695-bd147883ea90c739af2e33e8db756cc126e6c5be
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1733406872 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1733406840-1e35e59eb1735de13d50fb39a167a3887c4cc981
 
-0dad845965887f9c4256fac223b7471e4d84a611 d9cc74c60fa31f3e31e55941826a4a5dbaeb2342 refs/heads/master
+b5a00a145c9e082c911d30c3b63b4ebc2961efbe 42d242e733eb102252f4012a27dfba8052a71648 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdRsAQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+p4EP/2ErOjy8qXoyd1Y75Z+M
-X1Z62Y2AXqRGHd/XR6qfvhocUeqRizo7AwwJG/7cZCHS4reMtkZDgj7BCQGF7HCE
-54mz5NzpXLYYXhVA/Y7qQs+1hcsS5TPZc7f446d4tzQqJS8rI7io0JRA9jGzZubi
-EtDhwSidbSz8S2pqK73kKoNWSurVpdyvTP4xu71bm3FiPQ75UZEmiXGTMSS46AaN
-hX7F9G1s9AzzInrlxXn0Br2T3jmqo4+LpdFbp1Bm9aWtu3srWJVVs/a2045pR5g4
-cDfYL2R5gz3y1xdiKd2L0z1EhfU2MIFq2oJ+I5A+/iCPu/pQHrp5bRFWGA20w4z6
-WudhYH9Jd14qecoj12EIvM2/xBpnu2z24hbv0HQkhtb2C8sebY0sfRhKm3d25iTE
-/vrBQLWUSEV6xWPiKbLu0aEEwFhRePUbxG7LRJFLAblPPse9OKEQxR/DjvB0aYi3
-uEeXBeosOHeFwqVNVCBWu7CEfF7lRxSyWKQiNvoob+JiNqCvd2qlxKHA1oCvUdv4
-XhmJ5PIeSrLaH7Fy/+qtkqz7aAxyfC5pFP79ueN9h2Uy/TsFfOKtP6GExyyJoUUO
-wQtxx3AZvUY6tYHKCmFKmhJSvuveltNcuYYGXHHepOYeHxkfTh9QRR1Eag+Q6QEZ
-f19hJL9o4VynP5oAvZuGeZqD
-=69RT
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdRsJgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TtgP/Avqm7hm9bdQRL1oy7BQ
+EN/4Fx1DFFLaedPtaP2zxmcNfln8FVaaHT1ypr2Q34ET76dWpiMqM6BpzbqnAFHz
+LzxISDBr31dULOzRWEx7StZtL1RArHnof1cHFl8Ur4YmyHUJroQ5gvGueNgqMQGQ
+1s/jsWmgy7G3sq4r+HLY85nPy1Z45SUAJXoFzXcCWl/44OPxhorOq1M0Za3G2CmD
+x+fD2uu0Sh+vI45sXRovcRWLbY3lwubmppq3Y5h1rrMUhWx9pBwT4pCEBAtC7JaI
+domPc7EoFK1tr9y/cq3QPFCMB1TjsbLFKDkS5LF6yM/B+3cNMlo5soD9t9Nwmufp
+xe22kbDUqmNIDwY80wPpgtWxkUDk8QIAofwftKwsyfA2MogMe95244YcQvx0wLCH
+Oh0t0Z2hfmpPpHJx/OcwwHr7ilTk1X2oD2EnC+C6+gwEqgo/m1zVxjrFedYtkgGH
+fg6f5h6dWnOO6oHwkJQKFxVtVu40YyrL6sEhcxJtEtVbkNpq3VOfrbO+3Dt7fyqv
+DWB4vuszcLd95xdKXflTF4Uyp+AX2BD68sQ1/fXzZKwkitqN9fm1wKUTD7V05T1u
+hAjjkkUJchrrZ0R5yu4ej6Nij14y+2JrHSo5PvkMQsvn6LIw8DH4FKqBEjxoCkpe
+h7bpYcCLRN4sE2XMbnSQ5S7d
+=FTya
 -----END PGP SIGNATURE-----
 
---===============5156810640167202823==--
+--===============1900660884766720482==--
