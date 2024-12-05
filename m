@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3156117030935809933=="
+Content-Type: multipart/mixed; boundary="===============4278922625798218312=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 05 Dec 2024 22:57:17 -0000
-Message-Id: <173343943708.2189050.15753916104485165390@gitolite.kernel.org>
+Date: Thu, 05 Dec 2024 22:57:57 -0000
+Message-Id: <173343947760.2189501.12967798383243177764@gitolite.kernel.org>
 
---===============3156117030935809933==
+--===============4278922625798218312==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/200GbE
-    old: bb18265c3aba92b91a1355609769f3e967b65dee
+  - ref: refs/heads/10GbE
+    old: 36ab34c1bb6e78b4f90ae0d4892d38a64b8cf0da
     new: f930594981cd9db15315c0ca03292a91828e39f0
-    log: revlist-bb18265c3aba-f930594981cd.txt
+    log: revlist-36ab34c1bb6e-f930594981cd.txt
 
---===============3156117030935809933==
+--===============4278922625798218312==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bb18265c3aba-f930594981cd.txt
+Content-Disposition: attachment; filename=revlist-36ab34c1bb6e-f930594981cd.txt
 
-80b9f3a80e6e23d91aaca5ece28cd5710d5ad715 iio: chemical: bme680: Add triggered buffer support
-56686ac80b859c2049cc372f7837470aa71c98cf iio: chemical: bme680: Add support for preheat current
-b8fa1677c33394da17ad9139897594b671ba767e staging: gpib: Add TODO file
 5300c32def19a77928e3c7821275996c75c80d1e staging: greybus: gpio: use gpiochip_get_data
 39dace70722a5ce76a6053c7613402de025017b0 staging: vme_user: vme_bridge.h: Name function pointer arguments
 037f9a6df3fba555a51412020c5f80a81fecacfa staging: rtl8723bs: Remove no-op netdevice_notifier()
@@ -975,9 +972,12 @@ f72ce14b231f7bf06088e4e50f1875f1e35f79d7 ixgbe: Correct BASE-BX10 compliance cod
 3d2469490912122b1e619c46b720d9cde047b2a7 Merge tag 'fs_for_v6.13-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
 feffde684ac29a3b7aec82d2df850fbdbdee55e4 Merge tag 'for-6.13-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 7b1d83da254be3bf054965c8f3b1ad976f460ae5 netfilter: nft_inner: incorrect percpu area handling under softirq
+ebf7f7d616818f2841c8aece14084e87d59bd8c7 Revert "ptp: Switch back to struct platform_driver::remove()"
 cecc1555a8c2acd65f9d36182c28ae463db0ad7e net: Make napi_hash_lock irq safe
 3d501f562f63b290351169e3e9931ffe3d57b2ae Revert "udp: avoid calling sock_def_readable() if possible"
 94071909477677fc2a1abf3fb281f203f66cf3ca ethtool: Fix access to uninitialized fields in set RXNFC command
+2e20bf8cc05766dcd0357cdfcada49e1bc45512b r8169: remove unused flag RTL_FLAG_TASK_RESET_NO_QUEUE_WAKE
+bb18265c3aba92b91a1355609769f3e967b65dee r8169: remove support for chip version 11
 292207809486d99c78068d3f459cbbbffde88415 net: sched: fix erspan_opt settings in cls_flower
 5eb7de8cd58e73851cd37ff8d0666517d9926948 net: sched: fix ordering of qlen adjustment
 456f010bfaefde84d3390c755eedb1b0a5857c3c netfilter: ipset: Hold module reference while requesting a module
@@ -1051,4 +1051,4 @@ dd7cde36de15b071b5f9163d21d7c9142089b424 ethtool: remove the comments that are n
 8d0580c6ebdd27879c83483f53bc71e2e470f6fe ethtool: regenerate uapi header from the spec
 f930594981cd9db15315c0ca03292a91828e39f0 Merge branch 'ethtool-generate-uapi-header-from-the-spec'
 
---===============3156117030935809933==--
+--===============4278922625798218312==--
