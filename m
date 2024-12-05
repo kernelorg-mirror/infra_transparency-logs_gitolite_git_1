@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
-Date: Thu, 05 Dec 2024 03:58:42 -0000
-Message-Id: <173337112245.974691.3398214315344396756@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Thu, 05 Dec 2024 04:39:04 -0000
+Message-Id: <173337354498.1005970.14643719051426927648@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/audit
-user: pcmoore
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/next
-    old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    new: d9381508ea2b590aff46d28d432d20bfef1ba64c
+  - ref: refs/heads/master
+    old: 724eda20d35b886a4b976d152906a9e68689bace
+    new: eed378b51b38be314ea16d6eeef4504821d0df0b
     log: |
-         d9381508ea2b590aff46d28d432d20bfef1ba64c audit: workaround a GCC bug triggered by task comm changes
-         
-  - ref: refs/heads/stable-6.13
-    old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    new: d9381508ea2b590aff46d28d432d20bfef1ba64c
-    log: |
-         d9381508ea2b590aff46d28d432d20bfef1ba64c audit: workaround a GCC bug triggered by task comm changes
+         eed378b51b38be314ea16d6eeef4504821d0df0b foo
          
