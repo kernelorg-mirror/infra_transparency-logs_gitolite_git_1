@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Thu, 05 Dec 2024 23:33:54 -0000
-Message-Id: <173344163425.2220007.5842699884042914327@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 05 Dec 2024 23:34:43 -0000
+Message-Id: <173344168351.2220941.7012163353386535059@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
-user: sre
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/for-next
-    old: 39f3bd9c9a27d526858da153090376decdf7bfea
-    new: 88e4a7dc04b7828315292eb3acaa466c9c123d8b
-    log: |
-         88e4a7dc04b7828315292eb3acaa466c9c123d8b power: supply: bq24190_charger: Fix typo 'jeta' -> 'jeita'
-         
+  - ref: refs/heads/master
+    old: dd42e013b52fd18866416e93cae33231d2ce69ab
+    new: e10500b69c3f3378f3dcfc8c2fe4cdb74fc844f5
