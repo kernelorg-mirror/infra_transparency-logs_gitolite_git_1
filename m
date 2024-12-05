@@ -1,32 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============4266824640874583032=="
+Content-Type: multipart/mixed; boundary="===============6303499426828091619=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 05 Dec 2024 13:56:04 -0000
-Message-Id: <173340696435.1727465.4626902475491858488@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 05 Dec 2024 13:56:15 -0000
+Message-Id: <173340697591.1727725.2649089874559287907@gitolite.kernel.org>
 
---===============4266824640874583032==
+--===============6303499426828091619==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: broonie
 changes:
   - ref: refs/heads/master
     old: bcf2acd8f64b0a5783deeeb5fd70c6163ec5acd7
     new: af2ea8ab7a546b430726183458da0a173d331272
     log: revlist-bcf2acd8f64b-af2ea8ab7a54.txt
-  - ref: refs/tags/next-20240905
-    old: 9770693f44c4a72d85af90fb2d5dce5d7d041f1a
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20241205
     old: 0000000000000000000000000000000000000000
     new: 51e90119428104cc51aca369336c35d368706e0c
 
---===============4266824640874583032==
+--===============6303499426828091619==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -728,4 +725,4 @@ d46294cf3743db10cd6451c83d9e7cce9e73d8bd Merge branch 'caps-next' of git://git.k
 dc01925b2f9f4add9551ac90202f870753064e41 Merge branch 'crc-next' of https://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux.git
 af2ea8ab7a546b430726183458da0a173d331272 Add linux-next specific files for 20241205
 
---===============4266824640874583032==--
+--===============6303499426828091619==--
