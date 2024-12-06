@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 06 Dec 2024 18:20:47 -0000
-Message-Id: <173350924705.3258815.15930203189274729877@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Fri, 06 Dec 2024 18:24:23 -0000
+Message-Id: <173350946373.3260563.3923504789794419802@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: cmarinas
 changes:
-  - ref: refs/heads/master
-    old: ae61116b291c9358e8de38bd3505e83b85be2d0d
-    new: 234a6bf2699d010de202124adf9733dc8bc5f5c8
-    log: |
-         b3fce429a1e030b50c1c91351d69b8667eef627b cacheinfo: Allocate memory during CPU hotplug if not done from the primary CPU
-         9677be09e5e4fbe48aeccb06ae3063c5eba331c3 x86/cacheinfo: Delete global num_cache_leaves
-         234a6bf2699d010de202124adf9733dc8bc5f5c8 Merge branch into tip/master: 'x86/urgent'
-         
+  - ref: refs/tags/arm64-fixes
+    old: cb38f20440aa9901defaa104d01bb716245c1e87
+    new: 24f2a5e5a9f6bcfd475a4c258b9c024c89f0b05d
