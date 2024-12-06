@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 06 Dec 2024 22:02:29 -0000
-Message-Id: <173352254988.3445396.15298818453127456731@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Fri, 06 Dec 2024 22:03:43 -0000
+Message-Id: <173352262391.3446202.5814089762037995905@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/master
-    old: e10500b69c3f3378f3dcfc8c2fe4cdb74fc844f5
-    new: d6212d82bf26f3cbd30b84df064080dd98051ae9
+  - ref: refs/heads/nfsd-6.11.y
+    old: f6d41443f54856ceece0d5b584f47f681513bde4
+    new: 2f3ab46f5eb7ac5883996eb86fea23ed68aca260
     log: |
-         d6212d82bf26f3cbd30b84df064080dd98051ae9 selftests/bpf: Consolidate kernel modules into common directory
+         2f3ab46f5eb7ac5883996eb86fea23ed68aca260 Revert bb5738957d92 ("RDMA/siw: Add sendpage_ok() check to disable MSG_SPLICE_PAGES")
          
