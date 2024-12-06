@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pratyush/linux
-Date: Fri, 06 Dec 2024 16:40:34 -0000
-Message-Id: <173350323456.3175026.3291867124567436373@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
+Date: Fri, 06 Dec 2024 16:45:38 -0000
+Message-Id: <173350353827.3179361.7773337248344779784@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pratyush/linux
-user: pratyush
+repo: pub/scm/linux/kernel/git/remoteproc/linux
+user: mjp
 changes:
-  - ref: refs/heads/arm64-uaccess
-    old: d31e86ef6377cbd7e4bbf1e8ff472ff48e04c5d8
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/rproc-next
+    old: 7378aeb664e5ebc396950b36a1f2dedf5aabec20
+    new: 1dc7c8ed7cb378dd3974387692dfa833aee718d4
+    log: |
+         1dc7c8ed7cb378dd3974387692dfa833aee718d4 remoteproc: omap: Handle ARM dma_iommu_mapping
+         
