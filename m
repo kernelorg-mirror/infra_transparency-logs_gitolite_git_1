@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
-Date: Fri, 06 Dec 2024 22:00:17 -0000
-Message-Id: <173352241731.3444241.622022584965558147@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 06 Dec 2024 22:02:29 -0000
+Message-Id: <173352254988.3445396.15298818453127456731@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/audit
-user: pcmoore
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/dev
-    old: 2a266c24bf2cdadf8b1d668bca71823822546d82
-    new: e92eebb0d6116f942ab25dfb1a41905aa59472a8
+  - ref: refs/heads/master
+    old: e10500b69c3f3378f3dcfc8c2fe4cdb74fc844f5
+    new: d6212d82bf26f3cbd30b84df064080dd98051ae9
     log: |
-         e92eebb0d6116f942ab25dfb1a41905aa59472a8 audit: fix suffixed '/' filename matching
-         
-  - ref: refs/heads/next
-    old: 8cb24cb571baf7b3df3d2f3285cab50573b33fdb
-    new: 8bea8f86f7a13b836e48df1394bfd9a20677b0a2
-    log: |
-         e92eebb0d6116f942ab25dfb1a41905aa59472a8 audit: fix suffixed '/' filename matching
-         8bea8f86f7a13b836e48df1394bfd9a20677b0a2 Automated merge of 'dev' into 'next'
+         d6212d82bf26f3cbd30b84df064080dd98051ae9 selftests/bpf: Consolidate kernel modules into common directory
          
