@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1618275264298648783=="
+Content-Type: multipart/mixed; boundary="===============1007480179102568669=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-rt-devel
-Date: Fri, 06 Dec 2024 15:45:16 -0000
-Message-Id: <173349991610.3129213.14095147689011963318@gitolite.kernel.org>
+Date: Fri, 06 Dec 2024 15:45:21 -0000
+Message-Id: <173349992135.3129410.1234328864181408578@gitolite.kernel.org>
 
---===============1618275264298648783==
+--===============1007480179102568669==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,96 +16,53 @@ repo: pub/scm/linux/kernel/git/rt/linux-rt-devel
 user: bigeasy
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/master
-    old: 42f7652d3eb527d03665b09edac47f85fb600924
-    new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    log: revlist-42f7652d3eb5-40384c840ea1.txt
-  - ref: refs/heads/linux-6.13.y
-    old: 0000000000000000000000000000000000000000
-    new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-  - ref: refs/heads/linux-6.13.y-rt
+  - ref: refs/heads/for-kbuild-bot/current-stable
+    old: a4680e452f4fbe473ae5a07774e46b9fd011ee9a
+    new: 5374fecd2695b36d4a9a09ac72ca807c3a4a764b
+    log: revlist-a4680e452f4f-5374fecd2695.txt
+  - ref: refs/heads/for-kbuild-bot/prepare-release
+    old: a4680e452f4fbe473ae5a07774e46b9fd011ee9a
+    new: 5374fecd2695b36d4a9a09ac72ca807c3a4a764b
+    log: revlist-a4680e452f4f-5374fecd2695.txt
+  - ref: refs/heads/linux-6.13.y-rt-rebase
     old: 0000000000000000000000000000000000000000
     new: 5374fecd2695b36d4a9a09ac72ca807c3a4a764b
-  - ref: refs/heads/linux-6.13.y-rt-patches
-    old: 0000000000000000000000000000000000000000
-    new: 5efa2994d26175f2209ba7d575f4dc7e4f784b53
-  - ref: refs/tags/v6.13-rc1
-    old: 0000000000000000000000000000000000000000
-    new: cbc4912199deab59fdbd830b115d81941d0add46
-  - ref: refs/tags/v6.13-rc1-rt1
-    old: 0000000000000000000000000000000000000000
-    new: 51f3dcb08b3ba824123e7f5706de130b460855af
-  - ref: refs/tags/v6.13-rc1-rt1-patches
-    old: 0000000000000000000000000000000000000000
-    new: 0468ad8c3521d0c646147469c5f765a95d3d85b0
-  - ref: refs/tags/v6.13-rc1-rt1-rebase
-    old: 0000000000000000000000000000000000000000
-    new: a3fd7f7b24110db9027f99af293d69b80b00decd
 
---===============1618275264298648783==
+--===============1007480179102568669==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Sebastian Andrzej Siewior <bigeasy@linutronix.de> 1733499914 +0100
+pusher Sebastian Andrzej Siewior <bigeasy@linutronix.de> 1733499946 +0100
 pushee ssh://ko-g/pub/scm/linux/kernel/git/rt/linux-rt-devel.git
-nonce 1733499884-98bf5a0591cd548660a0b946757a2ddb90adf4c1
+nonce 1733499917-fdbd317210219496da143a911dd941d64770785a
 
-42f7652d3eb527d03665b09edac47f85fb600924 40384c840ea1944d7c5a392e8975ed088ecf0b37 refs/heads/master
-0000000000000000000000000000000000000000 40384c840ea1944d7c5a392e8975ed088ecf0b37 refs/heads/linux-6.13.y
-0000000000000000000000000000000000000000 5374fecd2695b36d4a9a09ac72ca807c3a4a764b refs/heads/linux-6.13.y-rt
-0000000000000000000000000000000000000000 5efa2994d26175f2209ba7d575f4dc7e4f784b53 refs/heads/linux-6.13.y-rt-patches
-0000000000000000000000000000000000000000 cbc4912199deab59fdbd830b115d81941d0add46 refs/tags/v6.13-rc1
-0000000000000000000000000000000000000000 51f3dcb08b3ba824123e7f5706de130b460855af refs/tags/v6.13-rc1-rt1
-0000000000000000000000000000000000000000 0468ad8c3521d0c646147469c5f765a95d3d85b0 refs/tags/v6.13-rc1-rt1-patches
-0000000000000000000000000000000000000000 a3fd7f7b24110db9027f99af293d69b80b00decd refs/tags/v6.13-rc1-rt1-rebase
+a4680e452f4fbe473ae5a07774e46b9fd011ee9a 5374fecd2695b36d4a9a09ac72ca807c3a4a764b refs/heads/for-kbuild-bot/current-stable
+a4680e452f4fbe473ae5a07774e46b9fd011ee9a 5374fecd2695b36d4a9a09ac72ca807c3a4a764b refs/heads/for-kbuild-bot/prepare-release
+0000000000000000000000000000000000000000 5374fecd2695b36d4a9a09ac72ca807c3a4a764b refs/heads/linux-6.13.y-rt-rebase
 -----BEGIN PGP SIGNATURE-----
 
-iQHKBAABCgA0FiEEV4kucFIzBRM39v3RBWQfF1cS+lsFAmdTHAoWHGJpZ2Vhc3lA
-bGludXRyb25peC5kZQAKCRAFZB8XVxL6W0laC/9iGlfd5iXrfqgp8rX0ZqsxrwJf
-uRt86PvbRjVFb86p+za4YgpFx3mIxw5+z+yyvlNReNl59mARGsCHbVSAyxS6eBjJ
-+xAd9YzOoVip080TmcnIDm31bYuPSh6ABbBwxmpd5V8JsNkyQW8wOosysSsZ2zA8
-saHu1FchLktmZh2wO7xq3AxbR1x1uGM8tf9unjOnLMt8RikZ55s0DQNssSl0Ks8/
-Lgr000hFB1fc1k4MCoUoLvWR1FTHe70hfsddZVWi4tszsVmn/cxw9kZsKmB59gY0
-Bk89tO7vUTQ0bwUP7TyDif2bKOOXKYnnQXukcqgu8hO6CntpAQYRNuc+zDobk7cx
-qxidvu8wf/tPeGXGPm1kbn2lv81UW65x7hqZwksZOfA9pBaGiKGpJfh+kPSZPIOB
-8Alqo+RitS3Yvsq0KFpt9eH7B8GWaAXxC9AYoAlvY6j5N7MWOEUoASaTnVXBlFU0
-DPcgabAVuOzKpjRjH9n1YggtHUO/SCKnjFw8N7g=
-=hKPV
+iQHKBAABCgA0FiEEV4kucFIzBRM39v3RBWQfF1cS+lsFAmdTHCoWHGJpZ2Vhc3lA
+bGludXRyb25peC5kZQAKCRAFZB8XVxL6W9q3C/4/BA6wzsu/x6P92eifEKIsHLy+
+SApKUf+pO3F8WvmhBqmWBdftOIxurlLaQDK0A7tLHFYPUOsHzDe+Y75HZ39ZPrl0
+ngp6xZ7SAPf1FvmjR15yheLuxBds5ZX637DKrqPbONIj2daNxufD/PJZiRUAPE4l
+aNeBYu7upbDgMjRIeunYECicr16icsOTg5D4PjW1dLniWPItr8E89/1qzM7xg6aV
+gDRppaNf3V67f1re0cVZ8mEUqNk52ssQ7Co47P/DrAs6MvZ64AhAwC8qhzbTjusU
+fgmkOYh4tksqZlaRzlqLdOYhhCM7Y3QIMZqPrZi8HU67ASFkoxiois73JV7kxk+8
+edM75z+1Al/q3nBtBLn2wbSnnYlwtHgw9iy2CH8m3XBgUks+xUahxuEKNqDnWn0z
+PFnXOXjmlKVnG37dHpwdoPkNYFqDjWvPSiIVZkXnLo3zxOFnM7I6V3IhbPZ/dN6Q
+kk9894zxAuCLheTcJ58gOava5hDqshR+uDRKKx4=
+=wdgx
 -----END PGP SIGNATURE-----
 
---===============1618275264298648783==
+--===============1007480179102568669==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-42f7652d3eb5-40384c840ea1.txt
+Content-Disposition: attachment; filename=revlist-a4680e452f4f-5374fecd2695.txt
 
-4eb98b7760e8078dbc984ee08b02b5b4c3cff088 Merge tag 'vfs-6.13.mount.api' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-70e7730c2a78313e3ccc932410c939816e3ba1bc Merge tag 'vfs-6.13.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-5bb6ba448fe3598a7668838942db1f008beb581b Merge tag 'vfs-6.13.rust.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-56be9aaf98d58bf69e2c948c183001d77e63fbbb Merge tag 'vfs-6.13.pagecache' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-8dcf44fcad5ef5c1ff915628255c19cbe91f2588 Merge tag 'vfs-6.13.netfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-4c797b11a88297b9b0010b2c6645b191bac2350c Merge tag 'vfs-6.13.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-a29835c9d0ba5365d64b56883692d0e8675fb615 Merge tag 'vfs-6.13.ovl' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-909d3b571e5a77aef0949818de1efda129dcddbd Merge tag 'vfs-6.13.pidfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-a5ca57479656f2562f164d650c6646debbe2f99b Merge tag 'vfs-6.13.usercopy' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-7956186e751bc15541ede638008feedc0e427883 Merge tag 'vfs-6.13.tmpfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-241c7ed4d4815cd7d9c52c8f97bf13181e32ca29 Merge tag 'vfs-6.13.untorn.writes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-23acd177540d7ba929cdc801b73d15d799f654f4 Merge tag 'vfs-6.13.ecryptfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-6ce5a6f0a07d37cc377df08a8d8a9c283420f323 tracing: Fix function name for trampoline
-0f25f0e4efaeb68086f7e65c442f2d648b21736f Merge tag 'pull-fd' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
-f33e46a0c6bddd341d0989484a2546bba7ac4a3c Merge branch 'for-6.13/wacom' into for-linus
-873c578324c7082677303e2921b71fe0f5737ccc Merge branch 'for-6.13/steelseries' into for-linus
-82339c49119f5e38ca3c81d698b84134c342373f Merge tag 'pull-xattr' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
-e8a0581914bd2e28f7af8d333ddc73fd78b1ef84 HID: multitouch: make mt_set_mode() less cryptic
-65578513c3a996cc0fa23526050cddeed08d8d64 Merge branch 'for-6.13/multitouch-v2' into for-linus
-a737d9d62d55db4fe1a8ccf184ceb54a64f85ede Merge branch 'for-6.13/logitech' into for-linus
-b14927b3300f46231938e5c04817eb3dbda7227f Merge branch 'for-6.13/kysona' into for-linus
-9411aacd72b619dc9b349a227d9db46c1f3c28c4 Merge branch 'for-6.13/intel-ish' into for-linus
-d273b820f71146aa30aa48f77ba1996b0ff2c7c5 Merge branch 'for-6.13/i2c-hid' into for-linus
-390b059ac7f6b8289dc56f6fe402e40a5072d75b Merge branch 'for-6.13/goodix' into for-linus
 9fb2cfa4635ab7b3d44e88104666e599cd163692 Merge tag 'pull-ufs' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 359bfdc3c99191aa4266ad582f6bbc182841d11e Merge branch 'for-6.13/corsair' into for-linus
 22380b5f03ae246c02abe361d0a075cd674ca3fe Merge branch 'for-6.13/core' into for-linus
@@ -1106,5 +1063,29 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 88862eeb476375687a1de5f45528a437ea598338 Merge tag 'trace-printf-v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
+d16c00faab9ac37d310a645589836abf59cbc67b preempt: Move PREEMPT_RT before PREEMPT in vermagic.
+a22caa611be11b5f81eb449e84f454a187de5d6c serial: 8250: Switch to nbcon console
+acabbf65e61dcd9500bd7cf8a95dcd1a07cad9b6 serial: 8250: Revert "drop lockdep annotation from serial8250_clear_IER()"
+75c8428eb7e971b9fdc50fc5d678e5700f4bb093 module: Use complete RCU protection instead a mix of RCU and RCU-sched.
+389b918f9807ec6fcd52104325963a67fc7fb442 preempt: Add a generic function to return the preemption string.
+db7099a324c0bd3d41aa5cdfcee3f6a8220ac08d drm/i915: Use preempt_disable/enable_rt() where recommended
+acba58824ae560eaf17bf01043ed2d08545e544e drm/i915: Don't disable interrupts on PREEMPT_RT during atomic updates
+aaff26226481f3dab0a4f8a4b07ccf24180113cb drm/i915: Don't check for atomic context on PREEMPT_RT
+ee6e450fbfc1fce52f642922acd17ee248529df1 drm/i915: Disable tracing points on PREEMPT_RT
+7ad03555be9edb8a2f8ab55ac36290b1e1e9f853 drm/i915/gt: Use spin_lock_irq() instead of local_irq_disable() + spin_lock()
+55bb5062738c70aece95002261acda31b27fc80b drm/i915: Drop the irqs_disabled() check
+920f664b8d7bc27fdb54cc3de23f7ef29e413e46 drm/i915/guc: Consider also RCU depth in busy loop.
+f92553ce51ee041b38ce17be9e2869036a2d6f55 Revert "drm/i915: Depend on !PREEMPT_RT."
+aa334412d84fb043c22326b3dbf79cd67536a5ea arm: Disable jump-label on PREEMPT_RT.
+b80d79ad9c9586a036954b2d0f87f00590fef923 ARM: enable irq in translation/section permission fault handlers
+9a4b05f4abe948ebeed3c4735f610c244af8dcb9 arm: Disable FAST_GUP on PREEMPT_RT if HIGHPTE is also enabled.
+3d9c8e74c1fc0fcfe2445b05912cb67f6a08c92b ARM: Allow to enable RT
+c22fc883cd842bee7369017ed6ee4d7f783e7685 powerpc/pseries/iommu: Use a locallock instead local_irq_save()
+96edfd863ffa9b0752dc3e465dedb38215af4e43 powerpc/pseries: Select the generic memory allocator.
+d01c57fb0df5385420e81bce2dab76edc77f3a14 powerpc/kvm: Disable in-kernel MPIC emulation for PREEMPT_RT
+b35d95e7464316864f7780baecc733b40d48f355 powerpc/stackprotector: work around stack-guard init from atomic
+728e044a97a34ed0216fb8276ee9ac511a8e78c6 POWERPC: Allow to enable RT
+5277111809129de91e8d7fda549c6483d701ab13 sysfs: Add /sys/kernel/realtime entry
+5374fecd2695b36d4a9a09ac72ca807c3a4a764b Add localversion for -RT release
 
---===============1618275264298648783==--
+--===============1007480179102568669==--
