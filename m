@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 06 Dec 2024 00:50:10 -0000
-Message-Id: <173344621039.2283783.12583718076187360803@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
+Date: Fri, 06 Dec 2024 01:15:08 -0000
+Message-Id: <173344770833.2307705.13086535093773146594@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: martin.lau
+repo: pub/scm/linux/kernel/git/sj/hkml
+user: sj
 changes:
-  - ref: refs/heads/net
-    old: f930594981cd9db15315c0ca03292a91828e39f0
-    new: 2309132fc5d9d87deb15bda3497326aded6bfe4a
+  - ref: refs/heads/master
+    old: 52e36a7227aa0d0c836a2afb894686fa03464f4e
+    new: e270c5e937f6f310a1ae89ef9b53bf1074405216
     log: |
-         0bee36d1a51366fa57b731f8975f26f92943b43e selftests/bpf: Actuate tx_metadata_len in xdp_hw_metadata
-         2309132fc5d9d87deb15bda3497326aded6bfe4a selftests/bpf: Enable Tx hwtstamp in xdp_hw_metadata
+         0818b412f6082a245fa2b71fac2cba0bc5dad244 hkml_view_mails: suggest dim_old before generating the list
+         e270c5e937f6f310a1ae89ef9b53bf1074405216 Revert "hkml_view_mails: suggest dim_old before generating the list"
          
