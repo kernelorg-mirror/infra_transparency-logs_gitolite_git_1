@@ -1,42 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============1528461711211108088=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Fri, 06 Dec 2024 05:05:58 -0000
-Message-Id: <173346155898.2490264.4391395569146681852@gitolite.kernel.org>
-
---===============1528461711211108088==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/utils/dtc/dtc
+Date: Fri, 06 Dec 2024 05:06:03 -0000
+Message-Id: <173346156373.2490413.8036206116881515261@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/utils/dtc/dtc
+user: dwg
 changes:
+  - ref: refs/heads/main
+    old: 6f183c7d9246bde8f05d2edbc31fdd497c4a8702
+    new: 1e8c5f60e1270391a51a1c55e2c16b235428afa2
+    log: |
+         1e8c5f60e1270391a51a1c55e2c16b235428afa2 Add clang-format config
+         
   - ref: refs/heads/master
-    old: 896d8946da97332d4dc80fa1937d8dd6b1c35ad4
-    new: b8f52214c61a5b99a54168145378e91b40d10c90
-    log: revlist-896d8946da97-b8f52214c61a.txt
-
---===============1528461711211108088==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-896d8946da97-b8f52214c61a.txt
-
-e18655cf35a5958fbf4ae9ca3ebf28871a3a1801 smb: server: Fix building with GCC 15
-fc342cf86e2dc4d2edb0fc2ff5e28b6c7845adb9 ksmbd: fix Out-of-Bounds Read in ksmbd_vfs_stream_read
-313dab082289e460391c82d855430ec8a28ddf81 ksmbd: fix Out-of-Bounds Write in ksmbd_vfs_stream_write
-7937a1bf32e31f80032c71511cc24d707753d07d iommufd: Fix typos in kernel-doc comments
-af7f4780514f850322b2959032ecaa96e4b26472 iommufd: Fix out_fput in iommufd_fault_alloc()
-a8c9df25f90e5155b70f5e2474c7299841e3335a iommufd/selftest: Cover IOMMU_FAULT_QUEUE_ALLOC in iommufd_fail_nth
-2ca704f55e22b7b00cc7025953091af3c82fa5c0 iommu/arm-smmu-v3: Improve uAPI comment for IOMMU_HW_INFO_TYPE_ARM_SMMUV3
-06a025448b572c3bd78dd23a31488a0907cd9512 ksmbd: align aux_payload_buf to avoid OOB reads in cryptographic operations
-d9381508ea2b590aff46d28d432d20bfef1ba64c audit: workaround a GCC bug triggered by task comm changes
-f65289a87128cfcf9c40739adbf495cdbb617cb3 Merge tag 'v6.13-rc1-ksmbd-server-fixes' of git://git.samba.org/ksmbd
-6a103867b95ac7f9cc7dffe2fcad2f6c0d60b9ae Merge tag 'for-linus-iommufd' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd
-b8f52214c61a5b99a54168145378e91b40d10c90 Merge tag 'audit-pr-20241205' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
-
---===============1528461711211108088==--
+    old: 6f183c7d9246bde8f05d2edbc31fdd497c4a8702
+    new: 1e8c5f60e1270391a51a1c55e2c16b235428afa2
+    log: |
+         1e8c5f60e1270391a51a1c55e2c16b235428afa2 Add clang-format config
+         
