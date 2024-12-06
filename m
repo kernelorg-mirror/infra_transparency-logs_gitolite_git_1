@@ -1,23 +1,42 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Fri, 06 Dec 2024 04:54:16 -0000
-Message-Id: <173346085634.2479595.12487521836333599308@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1528461711211108088=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Fri, 06 Dec 2024 05:05:58 -0000
+Message-Id: <173346155898.2490264.4391395569146681852@gitolite.kernel.org>
+
+--===============1528461711211108088==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
   - ref: refs/heads/master
-    old: a9fe1305fb696a49dfde3d8cec092ea01dda9282
-    new: 7440cf573f9eca46e63a3b52d04692e43ed786a4
-    log: |
-         84e815de17dbd2ffa849d3cc5f85b40f347104e3 todo: update DAMON tuning guide example writing item status
-         899ec2423ae9b880eab7ddd99cd9a2ab2d0e5bd4 todo: remove recently done items that old enough now
-         8191f26469d65100f4d5968380506cba7a9de277 todo: move write-only and ACMA to planning section
-         b01238ded409828bc427cd037095686483d39faf patches/next: add idea of monitoring params auto-tuning
-         7440cf573f9eca46e63a3b52d04692e43ed786a4 patches/next: rebase to latest mm-unstable
-         
+    old: 896d8946da97332d4dc80fa1937d8dd6b1c35ad4
+    new: b8f52214c61a5b99a54168145378e91b40d10c90
+    log: revlist-896d8946da97-b8f52214c61a.txt
+
+--===============1528461711211108088==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-896d8946da97-b8f52214c61a.txt
+
+e18655cf35a5958fbf4ae9ca3ebf28871a3a1801 smb: server: Fix building with GCC 15
+fc342cf86e2dc4d2edb0fc2ff5e28b6c7845adb9 ksmbd: fix Out-of-Bounds Read in ksmbd_vfs_stream_read
+313dab082289e460391c82d855430ec8a28ddf81 ksmbd: fix Out-of-Bounds Write in ksmbd_vfs_stream_write
+7937a1bf32e31f80032c71511cc24d707753d07d iommufd: Fix typos in kernel-doc comments
+af7f4780514f850322b2959032ecaa96e4b26472 iommufd: Fix out_fput in iommufd_fault_alloc()
+a8c9df25f90e5155b70f5e2474c7299841e3335a iommufd/selftest: Cover IOMMU_FAULT_QUEUE_ALLOC in iommufd_fail_nth
+2ca704f55e22b7b00cc7025953091af3c82fa5c0 iommu/arm-smmu-v3: Improve uAPI comment for IOMMU_HW_INFO_TYPE_ARM_SMMUV3
+06a025448b572c3bd78dd23a31488a0907cd9512 ksmbd: align aux_payload_buf to avoid OOB reads in cryptographic operations
+d9381508ea2b590aff46d28d432d20bfef1ba64c audit: workaround a GCC bug triggered by task comm changes
+f65289a87128cfcf9c40739adbf495cdbb617cb3 Merge tag 'v6.13-rc1-ksmbd-server-fixes' of git://git.samba.org/ksmbd
+6a103867b95ac7f9cc7dffe2fcad2f6c0d60b9ae Merge tag 'for-linus-iommufd' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd
+b8f52214c61a5b99a54168145378e91b40d10c90 Merge tag 'audit-pr-20241205' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
+
+--===============1528461711211108088==--
