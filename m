@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Fri, 06 Dec 2024 15:40:04 -0000
-Message-Id: <173349960407.3124335.15889575768777951944@gitolite.kernel.org>
+Date: Fri, 06 Dec 2024 15:40:23 -0000
+Message-Id: <173349962358.3124576.2012232347241885776@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: 45e72c306c08d59d0dc42238a8571bbbf04823f5
+  - ref: refs/heads/pending
+    old: ac238605309859da17b65f1095660bfd82452bfb
     new: da8656797ae10b524a7a0c3d5eeb6237fa3ddd70
     log: |
          a5686ae820fa7ab03226a3b0ff529720b7bac599 wifi: ath12k: move ATH12K_FLAG_REGISTERED handling to ath12k_mac_register()
