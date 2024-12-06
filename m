@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 06 Dec 2024 10:01:39 -0000
-Message-Id: <173347929975.2830854.17070173083073975187@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
+Date: Fri, 06 Dec 2024 10:03:14 -0000
+Message-Id: <173347939468.2831776.3783066697472114960@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/chanwoo/extcon
+user: chanwoo
 changes:
-  - ref: refs/heads/master
-    old: d1f16f2c04f006619a9aa6302e2daef45d548d0a
-    new: 78604c0fee11de683e9d93d590ebe92ada6a2e6f
+  - ref: refs/heads/extcon-next
+    old: a5bca5c3931ba854c1835a951bf6f7f28daa2479
+    new: 3eb61aac12bbde28583837ec8f853ae281d43594
     log: |
-         7a470e826d7521bec6af789deab31cfa4fd05af3 x86/cpufeatures: Free up unused feature bits
-         29188c16006176caee6cb6729103be51a29c1a93 x86/paravirt: Remove the WBINVD callback
-         78604c0fee11de683e9d93d590ebe92ada6a2e6f Merge branch into tip/master: 'x86/cpu'
+         3eb61aac12bbde28583837ec8f853ae281d43594 extcon: Drop explicit initialization of struct i2c_device_id::driver_data to 0
          
