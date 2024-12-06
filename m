@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0804934754131659030=="
+Content-Type: multipart/mixed; boundary="===============8856414856569589644=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Fri, 06 Dec 2024 21:00:58 -0000
-Message-Id: <173351885809.3394455.18012462970124573311@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Fri, 06 Dec 2024 21:01:01 -0000
+Message-Id: <173351886162.3394622.4845675161016449456@gitolite.kernel.org>
 
---===============0804934754131659030==
+--===============8856414856569589644==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 9a6e8c7c3a024b9e9ec8fd6295c3159504263cb2
     log: revlist-896d8946da97-9a6e8c7c3a02.txt
 
---===============0804934754131659030==
+--===============8856414856569589644==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -96,4 +96,4 @@ d9e15b25161e0783def5f852179db38d817c957c Merge tag 'regmap-fix-v6.13-rc1' of git
 2b90dcd599b62ccaaa367947037235de8e6bc3a7 Merge tag 'sound-6.13-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 9a6e8c7c3a024b9e9ec8fd6295c3159504263cb2 Merge tag 'drm-fixes-2024-12-07' of https://gitlab.freedesktop.org/drm/kernel
 
---===============0804934754131659030==--
+--===============8856414856569589644==--
