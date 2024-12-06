@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6033567036535770282=="
+Content-Type: multipart/mixed; boundary="===============3791751186589982267=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Fri, 06 Dec 2024 16:00:15 -0000
-Message-Id: <173350081543.3141631.4021102074572617306@gitolite.kernel.org>
+Date: Fri, 06 Dec 2024 16:00:56 -0000
+Message-Id: <173350085659.3142230.8726839787536834443@gitolite.kernel.org>
 
---===============6033567036535770282==
+--===============3791751186589982267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/efi/efi
 user: ardb
 changes:
-  - ref: refs/heads/urgent
-    old: ae835a96d72cd025421910edb0e8faf706998727
-    new: 0b2c29fb68f8bf3e87a9d88404aa6fdd486223e5
-    log: revlist-ae835a96d72c-0b2c29fb68f8.txt
+  - ref: refs/heads/next
+    old: c5d91b16f525ea8c98b3fd8efc5105106d17fe9a
+    new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
+    log: revlist-c5d91b16f525-40384c840ea1.txt
 
---===============6033567036535770282==
+--===============3791751186589982267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ae835a96d72c-0b2c29fb68f8.txt
+Content-Disposition: attachment; filename=revlist-c5d91b16f525-40384c840ea1.txt
 
+4eb98b7760e8078dbc984ee08b02b5b4c3cff088 Merge tag 'vfs-6.13.mount.api' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 70e7730c2a78313e3ccc932410c939816e3ba1bc Merge tag 'vfs-6.13.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 5bb6ba448fe3598a7668838942db1f008beb581b Merge tag 'vfs-6.13.rust.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 56be9aaf98d58bf69e2c948c183001d77e63fbbb Merge tag 'vfs-6.13.pagecache' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1049,6 +1050,5 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 88862eeb476375687a1de5f45528a437ea598338 Merge tag 'trace-printf-v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
-0b2c29fb68f8bf3e87a9d88404aa6fdd486223e5 efi/zboot: Limit compression options to GZIP and ZSTD
 
---===============6033567036535770282==--
+--===============3791751186589982267==--
