@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 06 Dec 2024 18:50:59 -0000
-Message-Id: <173351105971.3285193.207057115569222348@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 06 Dec 2024 18:52:30 -0000
+Message-Id: <173351115049.3285988.8832703298163384171@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/dev-queue
-    old: eceb7ff0fef12721c10cc80d2d223aa08fbd651f
-    new: 9f73ec1ac48b5180d17bb95042bf81be17d561da
+  - ref: refs/heads/perf/core
+    old: c8bec3b6fd0088c326985b9119c9cd876c227b4c
+    new: 64fb80679287a6dd0acd9c8afa259054a2479a52
     log: |
-         9f73ec1ac48b5180d17bb95042bf81be17d561da idpf: trigger SW interrupt when exiting wb_on_itr mode
+         64fb80679287a6dd0acd9c8afa259054a2479a52 uprobes: Guard against kmemdup() failing in dup_return_instance()
          
