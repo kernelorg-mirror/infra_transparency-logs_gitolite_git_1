@@ -1,56 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============1015983891324895417=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Fri, 06 Dec 2024 09:25:30 -0000
-Message-Id: <173347713067.2797057.18323988099573225133@gitolite.kernel.org>
-
---===============1015983891324895417==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 06 Dec 2024 09:29:21 -0000
+Message-Id: <173347736105.2798790.2293486700627382304@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/master
-    old: d9cc74c60fa31f3e31e55941826a4a5dbaeb2342
-    new: ef1cd24e7249829eefd23f2df003f26fe66cdaa7
+  - ref: refs/heads/perf/core
+    old: eca51ce01d4956ab4b8f06bb55c031f4913fffcb
+    new: c65b7bf8027bb0c769f4636e81e846493b0f53e2
     log: |
-         ef1cd24e7249829eefd23f2df003f26fe66cdaa7 update cvelistV5
+         e62f2d4927288db7fb1c22914f6aa33a94df0b01 uprobes: Simplify session consumer tracking
+         fa288f5cfc18bbbe3232d9bacde92acbdb72334f uprobes: Decouple return_instance list traversal and freeing
+         681f5970dc69bd2243a991a06c98016f9d830a77 uprobes: Ensure return_instance is detached from the list before freeing
+         c65b7bf8027bb0c769f4636e81e846493b0f53e2 uprobes: Reuse return_instances between multiple uretprobes within task
          
-
---===============1015983891324895417==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1733477155 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1733477126-e8717f96898493b502010104a5719181df7f9a67
-
-d9cc74c60fa31f3e31e55941826a4a5dbaeb2342 ef1cd24e7249829eefd23f2df003f26fe66cdaa7 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdSwyMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+D7IQAIi2Fa+vpvPKcdTd7pYX
-WLSWLGFumIPpLUSXRwzcVcIuENvMOpoL6oKKibUxGIVfVOx5wMa4T6Sa0LwQJf6M
-ExOIMjkbxJuYuRmyuoZHI1dgdNVrkyKGMKN37XRaksBr8pxUTM2dQ9gAJYTUG1c9
-G5bsRjn19GKZGQ/3UbrUjT+YTg2EdlmV/i/Ig1A+sJwM1WV5xaSGF02ZA1Lr5+Eu
-Kqz1qf2GAihMNTqHKJRADl26wGy8dpf/POrnXESG4P8VEoW9dWZHpW1sKl4at3cZ
-tlYdiK2ES3cubBDWfqhWT8gZWqwAxyBxB0iaZQzlsDtnoBXTnfTxj8gYhbtrRaMD
-joXDy8/dcme8RacaLl/6QIuvXNnMehPjnjbTZ/Si3POvN7IGjECXZQf/zY92OhG2
-VEkL7aa0xbh1oFA0e4UPrn+p74CaznYHGZBWXDeoAW/sxCnVlXZ9xQwZgGe2LPGZ
-t0d6pp4LYay283wbDYFspD/3bvS79dJX1djAljvUz6+qyqzn/9hNv412czlpY8yM
-pK9Pue/F8NTH7xjZ03eOcJBAIhUBG4AWDDA37ri+DF6X40BwMR1H1EE0obm30AVm
-jNHtRoGNUkFk1vfGKCgx9m7Uj0O+AKwO/Kn82/9SIGI4PqS47B+8EiPuX2tBHpV2
-9n7tmSIkrIOmr5queYFUyjtO
-=YyU6
------END PGP SIGNATURE-----
-
---===============1015983891324895417==--
+  - ref: refs/heads/x86/mm
+    old: 2815a56e4b7252a836969f5674ee356ea1ce482c
+    new: 6db2526c1d694c91c6e05e2f186c085e9460f202
+    log: |
+         953753db887f9d70f70f61d6ecbe5cf209107672 x86/mm/tlb: Also remove local CPU from mm_cpumask if stale
+         6db2526c1d694c91c6e05e2f186c085e9460f202 x86/mm/tlb: Only trim the mm_cpumask once a second
+         
