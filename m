@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Fri, 06 Dec 2024 18:59:40 -0000
-Message-Id: <173351158072.3292703.14267302786288737115@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 06 Dec 2024 19:04:15 -0000
+Message-Id: <173351185596.3297403.5557495492549511745@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/main
-    old: c92e49ffe264a2eac3309d09e31265218adb38a0
-    new: 7e1bc11980a4528af56a91d7989ec75e3fea78e3
+  - ref: refs/heads/master
+    old: 9376f2b84de7a7d964668293142c94c1c1f423a0
+    new: 91a1086ec64a6d5373249c81da7c639094fcd9e3
     log: |
-         209c18b0e7cd2de304ad11c1042b085429fab1b4 amdgpu: update dmcub 0.0.246.0 firmware
-         7e1bc11980a4528af56a91d7989ec75e3fea78e3 Merge branch 'amd-staging' into 'main'
+         9d93db0d1881c9e37e1528cd796e20ff13b7692c x86/mm/selftests: Fix typo in lam.c
+         91a1086ec64a6d5373249c81da7c639094fcd9e3 Merge branch into tip/master: 'x86/mm'
          
