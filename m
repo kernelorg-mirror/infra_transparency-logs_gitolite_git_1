@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Fri, 06 Dec 2024 22:35:33 -0000
-Message-Id: <173352453382.3472163.6628740325885918336@gitolite.kernel.org>
+Date: Fri, 06 Dec 2024 22:36:07 -0000
+Message-Id: <173352456744.3472519.11924292078473538432@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,5 +12,5 @@ repo: pub/scm/linux/kernel/git/bpf/bpf
 user: dborkman
 changes:
   - ref: refs/tags/bpf-fixes
-    old: eb837114ab265b2a8295079a740a081b86aa0067
-    new: 0000000000000000000000000000000000000000
+    old: 0000000000000000000000000000000000000000
+    new: 5849b9910e04e5e82869e20a50961fdfc1b810d0
