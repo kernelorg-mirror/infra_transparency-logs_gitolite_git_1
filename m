@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7642148901943618867=="
+Content-Type: multipart/mixed; boundary="===============6167245541930208008=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Fri, 06 Dec 2024 23:42:01 -0000
-Message-Id: <173352852167.3527031.11687644007772955827@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Fri, 06 Dec 2024 23:42:05 -0000
+Message-Id: <173352852563.3527181.3761819018140133683@gitolite.kernel.org>
 
---===============7642148901943618867==
+--===============6167245541930208008==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: b5f217084ab3ddd4bdd03cd437f8e3b7e2d1f5b6
     log: revlist-9a6e8c7c3a02-b5f217084ab3.txt
 
---===============7642148901943618867==
+--===============6167245541930208008==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -104,4 +104,4 @@ ddfc146ed500f9aa071f3d913312bdbb0c9eaae0 Merge tag 'fixes-2024-12-06' of git://g
 f3ddc438a29f78f0642bfcf84407c236a0b2bdc7 Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 b5f217084ab3ddd4bdd03cd437f8e3b7e2d1f5b6 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 
---===============7642148901943618867==--
+--===============6167245541930208008==--
