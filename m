@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 06 Dec 2024 01:59:18 -0000
-Message-Id: <173345035821.2343632.5994006292408322395@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 06 Dec 2024 01:59:22 -0000
+Message-Id: <173345036231.2343783.16449236330304856900@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: f930594981cd9db15315c0ca03292a91828e39f0
-    new: 5765c7f6e3173eb894889a29963a497aeb721c5e
+    old: 896d8946da97332d4dc80fa1937d8dd6b1c35ad4
+    new: b04d86fff66b15c07505d226431f808c15b1703c
     log: |
-         5765c7f6e3173eb894889a29963a497aeb721c5e net_sched: sch_fq: add three drop_reason
+         b04d86fff66b15c07505d226431f808c15b1703c tipc: fix NULL deref in cleanup_bearer()
          
