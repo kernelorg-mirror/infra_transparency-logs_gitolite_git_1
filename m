@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Sat, 07 Dec 2024 01:28:24 -0000
-Message-Id: <173353490448.3612435.10372884529013828997@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 07 Dec 2024 01:32:01 -0000
+Message-Id: <173353512196.3616071.11550497673582483540@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 7f15b1873a566c398a0d51b9045f46410776ccad
-    new: e3242dd296318fe03de81faf588f58b3e4eaafdb
+  - ref: refs/heads/main
+    old: 51db5c8943001186be0b5b02456e7d03b3be1f12
+    new: e36d46b9af682bac7c376638cf0fd98d18b98653
     log: |
-         e3242dd296318fe03de81faf588f58b3e4eaafdb foo
+         e36d46b9af682bac7c376638cf0fd98d18b98653 net: simplify resource acquisition + ioremap
          
