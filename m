@@ -1,119 +1,78 @@
-Content-Type: multipart/mixed; boundary="===============6945126182884283120=="
+Content-Type: multipart/mixed; boundary="===============3586318062988933840=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/colyli/openEuler-kernel
-Date: Sat, 07 Dec 2024 17:17:37 -0000
-Message-Id: <173359185702.164836.5200749014527727526@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sat, 07 Dec 2024 17:53:19 -0000
+Message-Id: <173359399902.193435.3056500486092716619@gitolite.kernel.org>
 
---===============6945126182884283120==
+--===============3586318062988933840==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/colyli/openEuler-kernel
-user: colyli
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/openEuler-22.03-LTS-SP1
-    old: f309fc9bcbc6c6281e4b2983975f3688a8030bfa
-    new: 3ca91131dfc458f8882b0ef361b5c8d0489130cb
-    log: revlist-f309fc9bcbc6-3ca91131dfc4.txt
+  - ref: refs/heads/togreg
+    old: 05ff9c9c53c643551fe08fe52bd714310b9afc2e
+    new: 582d732bf689dea68f002d4f05a0b9485326e8f0
+    log: revlist-05ff9c9c53c6-582d732bf689.txt
 
---===============6945126182884283120==
+--===============3586318062988933840==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f309fc9bcbc6-3ca91131dfc4.txt
+Content-Disposition: attachment; filename=revlist-05ff9c9c53c6-582d732bf689.txt
 
-ecc16c814d4e91a8f48c10dbcf06a3878090a7ad nvme-pci: split nvme_dev_add
-f47a507413802f17a755e6ffd3a1782b823cf8c5 nvme-pci: refactor the tagset handling in nvme_reset_work
-efc68465b25bb86bb5e285c78335abfd6e231502 nvme-pci: fix race condition between reset and nvme_dev_disable()
-7d0a6920026cda05fed4849b494129ed77e67213 afs: Fix lock recursion
-1ba5286d1ec509af4fb62fe340eda69129fd1ffc NFSD: Never decrement pending_async_copies on error
-c7d389d0f161481fee9eee99c8d83dd8869f2a64 RDMA/bnxt_re: Fix a bug while setting up Level-2 PBL pages
-c5fb097c8d535272e2951f7647eb75e8de7dcfac wifi: ath10k: Fix memory leak in management tx
-2635e5e5fafc2a637c8e37f45405191af6722524 wifi: ath11k: fix array out-of-bound access in SoC stats
-cac7b4f811dbb438fb24f85f5a991927e68ea179 wifi: ath9k_htc: Use __skb_set_length() for resetting urb before resubmit
-ea48f27d876e9806f9480aba032158f337b6c78b sctp: set sk_state back to CLOSED if autobind fails in sctp_listen_start
-7f229a7c84adce1a06d4b022a2ade639729d59dc net: stmmac: Fix zero-division error when disabling tc cbs
-91822298e3206cc07a6a98c208f913cfa02bd2e4 net: Fix an unsafe loop on the list
-9cad531007ab6a10f41ec258761882414731a333 net: ethernet: lantiq_etop: fix memory disclosure
-5b6594860a24046c36371843f1b8f5289aeffb49 net/sched: accept TCA_STAB only for root qdisc
-5454bb2867287c73ecd31f9fed921d4ffb645df1 Bluetooth: RFCOMM: FIX possible deadlock in rfcomm_sk_state_change
-e955ac062080e60f85f26e952ef9a6b4c2189753 wifi: rtw88: always wait for both firmware loading attempts
-5b4d918e0d7c1b5bba6a50f95f4a0ce5a6241f43 ipv6: avoid possible NULL deref in rt6_uncached_list_flush_dev()
-a1bab0d69ea390b56e5c2df83de034c7b77ae57c fs: Fix uninitialized value issue in from_kuid and from_kgid
-1620333672c4bceb15793e28c7b1c28e80ed1dd0 bpf: Check validity of link->type in bpf_link_show_fdinfo()
-2edbc19e9cd14bfe1124e39e94aadbf8bc1994c4 !13968  bpf: Check validity of link->type in bpf_link_show_fdinfo()
-948264c3854d4999a458ee7aea407b1e07cbcdcb !13923  RDMA/bnxt_re: Fix a bug while setting up Level-2 PBL pages
-0bd330c9b8fe1f127b4b4dadfe4ae61af05fea16 !13924  wifi: ath10k: Fix memory leak in management tx
-2cd3a48f0c4fd9b036c078befa7045efa9c93be1 !13907 [sync] PR-13905:  NFSD: Never decrement pending_async_copies on error
-c6e22ccd746f1b807ae7e9895437fddfb6dd8329 bpf: Add MEM_UNINIT as a bpf_type_flag
-d62b5013c97162651c58566131d634fafbaf7baf bpf: Allow helpers to accept pointers with a fixed size
-c9b8cfd137093f0332d7f656961337d146cc6acf bpf: Fix bpf_strtol and bpf_strtoul helpers for 32bit
-d2f8bbbf308ffe60aa4ae9eaf540904dce19cd3b bpf: Remove truncation test in bpf_strtol and bpf_strtoul helpers
-f06e591bfd3fae805b07eac8075e9ca96f42941c bpf: Fix helper writes to read-only maps
-8e91cc097d21fafa200a2bd55d8220b33780ac1f bpf: Improve check_raw_mode_ok test for MEM_UNINIT-tagged types
-ac44d758a4cef6ca4c047e0ea662a1ba94e9c046 selftests/bpf: Fix ARG_PTR_TO_LONG {half-,}uninitialized test
-1256aa3d9dc8e074ef4d3cadc46924af621f934f selftests/bpf: Rename ARG_PTR_TO_LONG test description
-222a0fce6a67a440ecd6ff7e8a70d017cb584cda bpf: Fix kabi breakage in enum bpf_type_flag
-ed0d884561623310b68d1795d1ef7f1d0c19d723 drm/radeon: Fix encoder->possible_clones
-c3c8b00e4e1cd9644ac4602af4bc862905246a2c !13840  afs: Fix lock recursion
-db809c0517422162d1ab44a52b7d3bff2781c49e media: dvbdev: prevent the risk of out of memory access
-deff9e92744c662bb1eb833c85228e4cca8a1890 media: dvbdev: fix the logic when DVB_DYNAMIC_MINORS is not set
-d2049769067d309d2c0f0e23f6baed52eb7b0499 !13938  wifi: ath11k: fix array out-of-bound access in SoC stats
-4f9c44734b54abc80b472f33878fe966ddfefb70 !13940  sctp: set sk_state back to CLOSED if autobind fails in sctp_listen_start
-cbae99b58787637f0092a5116035201aad09b40c !13941  net: stmmac: Fix zero-division error when disabling tc cbs
-166922711f21aad6ea0c13173a054f9e377e80a5 !13942  net: Fix an unsafe loop on the list
-58a928b6a82ce036e01af808b49bf0c6769bc695 !13943  net: ethernet: lantiq_etop: fix memory disclosure
-614249cbfacbde3a0f7817c9be150ae0a6c0a736 !13945  Bluetooth: RFCOMM: FIX possible deadlock in rfcomm_sk_state_change
-d4714c61208be41aba9845a8ed82e9fecc3a615e !13946  wifi: rtw88: always wait for both firmware loading attempts
-6c697ce0253c0b943c9b446c993cdb0801d9ec0a !13947  ipv6: avoid possible NULL deref in rt6_uncached_list_flush_dev()
-864205446d33a906bdfa9cbeb360bd4c06a64575 !13939  wifi: ath9k_htc: Use __skb_set_length() for resetting urb before resubmit
-c15abc38b985a6ddd8f878f382e026ccfef6bef0 !13944  net/sched: accept TCA_STAB only for root qdisc
-e01544dda89fe3cb0deb4e75e5176572c746b5b2 ASoC: stm32: spdifrx: fix dma channel release in stm32_spdifrx_remove
-e9972b36bb746caba30c2b840ecdde8f938648fa iommu/vt-d: Fix potential lockup if qi_submit_sync called with 0 count
-7e430527e7a614f2b524609bfb1b627be15b64f9 drm/amd/display: Pass non-null to dcn20_validate_apply_pipe_split_flags
-82b9948ac98b73b3ae179f9a6558535c6bd4d68c drm/vboxvideo: Replace fake VLA at end of vbva_mouse_pointer_shape with real VLA
-638ced092ff037955c1451c835cb4ad54bbc6082 dm cache: fix out-of-bounds access to the dirty bitset when resizing
-67776440e3ae4f2c4dab052c98301912e95e0e4e dm cache: optimize dirty bit checking with find_next_bit when resizing
-e53fc4ce0a1c6224de7b3a5490af0db7e250aec0 dm cache: fix potential out-of-bounds access on the first resume
-cf2bbd2940db39f24660a07c881c73845177365c !13336  fix CVE-2024-50135
-92ee22a97422ae0cfe53b0cec39a3f8d783fb81b xfs: Fix data overflow in xfs_mod_fdblocks()
-e193f3cf5e7d708d6020096f3bfb8b53e21de16d !13957  fs: Fix uninitialized value issue in from_kuid and from_kgid
-6b81a9b400e4a1c6c57910891c446fb826b23e0f !14016  *** CVE-2024-53063 ***
-58fb439d5a619bc53cd474ec5e2de6db1bc79ed0 !14034  xfs: Fix data overflow in xfs_mod_fdblocks()
-acb86d4d4f12e5be9a7b12ad07b87da44591bd22 wifi: mac80211: use two-phase skb reclamation in ieee80211_do_stop()
-682df12b74881d89333b91835b788cce79e4eaa2 net: sched: fix use-after-free in taprio_change()
-ebccf2b76335bd6c8bc10a998045e6b47318407e can: bcm: Fix UAF in bcm_proc_show()
-c150944c602cdadff3d54d2da799f2ddbe69b05f !13992  fix CVE-2024-49861
-922252614bcc5c5cd682977847a4b1a51b69083b drm/amd/display: Check null pointer before try to access it
-4687ae721e2bea0546663e6a802e2cbec38ae24c drm/amd/display: Check null pointer before try to access it
-16655a7bd2881977e59b265dbbffb4c75ec5626a !13996  drm/radeon: Fix encoder->possible_clones
-8470806a133a7543d955901319b92999a4ef43c8 Revert "cgroup: Fix AA deadlock caused by cgroup_bpf_release"
-c4ae7194cfd48b04034ba909eb6710000170a7ab cgroup/bpf: use a dedicated workqueue for cgroup bpf destruction
-9c606f39cb5b011dde162d04d52c98b3acffdec8 HID: core: zero-initialize the report buffer
-334da0f954777b7df5f2dccbe21dafd890f66b18 vp_vdpa: fix id_table array not null terminated error
-62b591dca071d29dd2bb56e8b3e72f856c5d5b9a !14061 [sync] PR-13948:  fix CVE-2024-49906
-dccd03f89daaa173553d79e145e74bc62db0be99 !14020  ASoC: stm32: spdifrx: fix dma channel release in stm32_spdifrx_remove
-eb07d91ef4cf6d50f40354789bc84c1f583c4041 ASoC: qcom: Fix NULL Dereference in asoc_qcom_lpass_cpu_platform_probe()
-4db0b696e4c5c8a4947a5c6cce3e273a57924c7a ocfs2: uncache inode which has failed entering the group
-32c9ee43655fd627d2189168e34d660890133ae8 !14081 [sync] PR-13871:  ASoC: qcom: Fix NULL Dereference in asoc_qcom_lpass_cpu_platform_probe()
-4762554fdac85dcc5d11b54774cdd86a9b58fa8d USB: serial: io_edgeport: fix use after free in debug printk
-5778a6d71140c316ccac1690bb0c10886b4a899a !14053  can: bcm: Fix UAF in bcm_proc_show()
-dba4e5eb6310a4ad424e60748039dac762dbe57b !14052  net: sched: fix use-after-free in taprio_change()
-c742302e9fea20882397d143f7c46d1da3bd58cb !14050  wifi: mac80211: use two-phase skb reclamation in ieee80211_do_stop()
-252ddf4b1b09b5443166078f0663de62e4e561e3 !14063  CVE-2024-53054
-8ce2202e9e2d82c6d78740d24ccb96086c4041ac !14023  iommu/vt-d: Fix potential lockup if qi_submit_sync called with 0 count
-ddcc06fe2d0c8e556690b3904f9c5a0e455a656a !14028  drm/amd/display: Pass non-null to dcn20_validate_apply_pipe_split_flags
-47730ab3c7e8af79240019956a7a1f15e7d34740 !14029  drm/vboxvideo: Replace fake VLA at end of vbva_mouse_pointer_shape with real VLA
-175db7241dc5d6bec46cfac8cae17729e8ca5f1c !14074  HID: core: zero-initialize the report buffer
-12d2f8e1d1eb86ce87e45e351b659bf776a0bb5d !14078  vp_vdpa: fix id_table array not null terminated error
-36b2cdb8f03643282f9512208f8848bf6a4bf29c !14093  USB: serial: io_edgeport: fix use after free in debug printk
-001a77e16bf84f810e71709f524b38515b7883b6 !14032  fix CVE-2024-50278
-7976776e4adea904616214a1fbac929571a54d60 !14084  ocfs2: uncache inode which has failed entering the group
-d2d357d5345e273920bb00c65803d315cd53387c media: uvcvideo: Skip parsing frames of type UVC_VS_UNDEFINED in uvc_parse_format
-3ca91131dfc458f8882b0ef361b5c8d0489130cb !14115  media: uvcvideo: Skip parsing frames of type UVC_VS_UNDEFINED in uvc_parse_format
+e70140ba0d2b1a30467d4af6bcfe761327b9ec95 Get rid of 'remove_new' relic from platform driver struct
+cdd30ebb1b9f36159d66f088b61aee264e649d7a module: Convert symbol namespace to string literal
+6fbf150823a1ccb84eeb7c4f21e9cdc55693d462 iio: imu: adis16480: add devices to adis16480 driver
+2b1dc7f1402450fa681cefe133f85e939b501fa8 iio: imu: adis16480: add devices to adis16480 - docs
+197ff95ac11e601a9dd89e41147d32d22645ba7d dt-bindings: iio: adis16480: add devices to adis16480
+a8213189bbe99c7c571c53979609ab24f7853b2d iio: imu: lsm6dsx: Use i3cdev_to_dev to get device pointer
+83f616a384275301265748e6e9627b4acaa97d83 iio: adc: ad7173: remove unused field
+a79f049b2eec9bac847717b0551469899ac0e715 iio: dac: mcp4725: Use of_property_present() for non-boolean properties
+6dfc256151e842fa894a2b579f9a4551c6961e2c iio: invensense: Prevent possible integer overflow while multiplication
+2592bc5003f102f818fd09069fa4afcdcd19b25a dt-bindings: iio: accel: fxls8962af: add compatible string 'nxp,fxls8967af'
+db61f1b7a76995e97c88b1101f62404dbbe1d136 dt-bindings: iio: accel: fxls8962af: add compatible string 'nxp,fxls8974cf'
+f7c0bc201900eb0145b14e0638b410998a647030 iio: accel: fxls8962af: add fxls8974cf support
+4cd85685546d32560beffe97fcec24be2812bec2 iio: accel: fxls8962af: add fxls8967af support
+d6d9c45c90effa6b662c080146c12c73472b1706 iio: dac: ad5624r: fix struct name in doc comment
+f596651dd6beb37b0f90e21ec245a3bc7c84557b iio: dac: ad5686: fix struct name in doc comment
+6c009e55924a7a103925091af0811c3553ca27e9 iio: dac: ad5686: use devm_regulator_get_enable_read_voltage()
+451bdc1dc9cbadc0bb3567d0fa25e1898452e9fe iio: dac: ad8801: use devm_regulator_get_enable_read_voltage()
+276821d1e04cd10db98cabcc532cbfef6bd3e529 iio: dac ad8801: drop driver remove function
+c15031ef6ef3879d87534df17b19de0a130726ec iio: dac: ltc2632: use devm_regulator_get_enable_read_voltage()
+3ebb535f4f926e50646364d49ddf013d68d84e5f iio: dac ltc2632: drop driver remove function
+6f0588607864dc980318e4c4e03bd4e3b8acdf3e iio: dac: ltc2688: use devm_regulator_get_enable_read_voltage()
+9598866317fc4c297c4423aa948479408639c537 iio: dac: max5821: use devm_regulator_get_enable_read_voltage()
+26f9fd646cb07875d70ee189dfff08c313d0ef2f iio: dac: Fix converters spelling typo.
+9fdf1d03331623e377d8445e600b09111259a608 iio: adc: pac1921: Add ACPI support to Microchip pac1921
+d95986fb818d3f76841f2cd32c74dd7961a2a15d iio: accel: kx022a: Improve reset delay
+439c2cef8157bd3856200effdf4bb4ce3ff8e774 iio: bu27034: simplify using guard(mutex)
+534674463a5978c6eda8185b31f5b903a9543f46 iio: bm1390: simplify using guard(mutex)
+435004291c9aebeb940c4bb5b0f5764c012ea5ff iio: adc: ad4695: move dt-bindings header
+2d6941932974005867e7f02f113edac63b598b45 dt-bindings: iio: adc: adi,ad4695: change include path
+df81f90c500b018e4793e9f4be3c6966930f8417 iio: light: cm3232: Reset before reading HW ID
+a05dc8b4d4aa3b6602fbf755c439c0860cf08467 iio: buffer-dmaengine: document iio_dmaengine_buffer_setup_ext
+cb3e9a446763da8850c8280be009d95f61e11a94 iio: adc: ad_sigma_delta: add tab to align irq_line
+b305412152b7346f69b2ba16ef112315e9939c5c dt-bindings: iio: imu: mpu6050: Add invensense,iam20380 compatible string
+7a91aee8ef811d3770c8ea30bd80e1d8d719f757 iio: gyro: Add support for iam20380 sensor
+91407b55181df45b66bf5db79fb9648c44d12bc4 iio: light: Drop BU27008 and BU27010
+14a2ed21efdce5a585fff9e07c58799ffb6ca022 dt-bindings: iio: light: Drop BU27008 and BU27010
+0c39208bc3af6f7afcbcdb675ad8fbe6b3022865 iio: imu: adis: Remove documented not used elements
+725521e1f485d4687790f2e459271f1ad6af64d5 iio: accel: kx022a: Use cleanup.h helpers
+64eb1c6fae9423747e37887dec6aeee413490f00 iio: accel: kx022a: Support ICs with different G-ranges
+720c8b777a7a5bbbe7904868f236461a431ce283 dt-bindings: ROHM KX134ACR-LBZ
+48e4f3cb67b86c1d5aad18b2d13229a85cb65fd8 iio: kx022a: Support ROHM KX134ACR-LBZ
+046b460d059c17fb6642b6ebd074ac1de47103ca dt-bindings: iio: kx022a: Support KX134-1211
+0ecb42a16cc42ec7b839ed546a65bbb5a5efefab iio: accel: kx022a: Support KX134-1211
+207149d9f7089d79fa14df6f677b0b571dc6d8a7 iio: adc: vf610_adc: use devm_* and dev_err_probe() to simple code
+8278c08ad21271fa86d5384f3c39a06c989d952e iio: adc: vf610_adc: limit i.MX6SX's channel number to 4
+e895f2edfe4820b671c700ccc17be35b1de3d295 iio: core: fix doc reference to iio_push_to_buffers_with_ts_unaligned
+c437190ceaaa68caa303e1fd8ab3654be580b1c4 iio: trigger: stm32-timer-trigger: Add check for clk_enable()
+582d732bf689dea68f002d4f05a0b9485326e8f0 iio: light: veml6030: add support for triggered buffer
 
---===============6945126182884283120==--
+--===============3586318062988933840==--
