@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Sat, 07 Dec 2024 20:08:15 -0000
-Message-Id: <173360209559.303415.1514002890182085143@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Sat, 07 Dec 2024 20:17:24 -0000
+Message-Id: <173360264408.311196.15683683530916853705@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
+repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/master
-    old: c3ff81b57cb6b976cef6adcaf70ce8c45afcf28e
-    new: e45e20fc712882cbbc1c8dc2bb9b7bee2c60f88e
+  - ref: refs/heads/damon/next
+    old: e7f6680496850673f18b33d29338d6bb44b964b0
+    new: 636d8915f9c77f26432afdd5a405f87055a40ff7
     log: |
-         80249619d8e9ea9dd67812531f3f03fbf5b4a617 todo: prioritize filtered pages stat and add an item for per-region filtered pages stat
-         e45e20fc712882cbbc1c8dc2bb9b7bee2c60f88e patches/next: rebase on latest mm-unstable
+         3a48f76ebf997a89bbc5270cf261e483d0c57bde ==== fine-grained damos filtr stat action ====
+         636d8915f9c77f26432afdd5a405f87055a40ff7 mm/damon: add a new DAMOS action for fine-grained filter-aware stat
          
