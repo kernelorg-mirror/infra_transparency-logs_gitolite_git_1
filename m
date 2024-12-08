@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0568205309758038130=="
+Content-Type: multipart/mixed; boundary="===============5983209885503266462=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Sun, 08 Dec 2024 12:58:38 -0000
-Message-Id: <173366271879.1091946.1652128252761726674@gitolite.kernel.org>
+Date: Sun, 08 Dec 2024 12:59:01 -0000
+Message-Id: <173366274101.1092295.1418601867475458646@gitolite.kernel.org>
 
---===============0568205309758038130==
+--===============5983209885503266462==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chanwoo/linux
 user: chanwoo
 changes:
-  - ref: refs/heads/devfreq-next
-    old: 16141d66a7679b376d301873b00536c583565d05
-    new: 1f8ac4b95feeaf1271295e0ae3db335984aafd77
-    log: revlist-16141d66a767-1f8ac4b95fee.txt
+  - ref: refs/heads/devfreq-fixes
+    old: adc218676eef25575469234709c2d87185ca223a
+    new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
+    log: revlist-adc218676eef-40384c840ea1.txt
 
---===============0568205309758038130==
+--===============5983209885503266462==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-16141d66a767-1f8ac4b95fee.txt
+Content-Disposition: attachment; filename=revlist-adc218676eef-40384c840ea1.txt
 
+4eb98b7760e8078dbc984ee08b02b5b4c3cff088 Merge tag 'vfs-6.13.mount.api' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+70e7730c2a78313e3ccc932410c939816e3ba1bc Merge tag 'vfs-6.13.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 5bb6ba448fe3598a7668838942db1f008beb581b Merge tag 'vfs-6.13.rust.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 56be9aaf98d58bf69e2c948c183001d77e63fbbb Merge tag 'vfs-6.13.pagecache' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 8dcf44fcad5ef5c1ff915628255c19cbe91f2588 Merge tag 'vfs-6.13.netfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1048,7 +1050,5 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 88862eeb476375687a1de5f45528a437ea598338 Merge tag 'trace-printf-v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
-ed33fbb5d5536db77bd168e8fefde8dbc077cfd7 PM / devfreq: event: Call of_node_put() only once in devfreq_event_get_edev_by_phandle()
-1f8ac4b95feeaf1271295e0ae3db335984aafd77 PM / devfreq: Switch back to struct platform_driver::remove()
 
---===============0568205309758038130==--
+--===============5983209885503266462==--
