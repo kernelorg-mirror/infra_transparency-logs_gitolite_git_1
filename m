@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 08 Dec 2024 19:16:49 -0000
-Message-Id: <173368540910.1391890.1497902094511749640@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Sun, 08 Dec 2024 19:41:10 -0000
+Message-Id: <173368687090.1411093.5625950391942442811@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/security/vulns
+user: sashal
 changes:
-  - ref: refs/heads/testing
-    old: ff767475ebaeab693952014dde89c5f4e0595e3c
-    new: 5ab39233382c621d3271cc274d1534e1b687f4d3
+  - ref: refs/heads/master
+    old: 59fde23aa42f64918ce44972461bab39dc39782f
+    new: f428c8f450897a16e83869e0d0b3ba11befe48ec
     log: |
-         f2185c28fd467fddeec27d5d7c7e9747e33e6871 iio: adc: ad7173: add calibration support
-         5ab39233382c621d3271cc274d1534e1b687f4d3 iio: adc: ad-sigma-delta: Document ABI for sigma delta adc
+         7562c70667dad6d78e520c3c9cdb258b26729b6b sasha: review v6.12.2
+         f428c8f450897a16e83869e0d0b3ba11befe48ec sasha: review v6.12.3
          
