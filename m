@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Sun, 08 Dec 2024 06:39:49 -0000
-Message-Id: <173363998946.796651.394512008603758938@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Sun, 08 Dec 2024 08:11:41 -0000
+Message-Id: <173364550118.868059.1199461491585671509@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/tags/mm-hotfixes-stable-2024-12-07-22-39
-    old: 0000000000000000000000000000000000000000
-    new: e4f722844f259059b1b1d3b0355bafae173b4b79
+  - ref: refs/heads/fixes
+    old: feffde684ac29a3b7aec82d2df850fbdbdee55e4
+    new: d8d326d64f6702caab01ea0cd48f6c0054f3d1b4
+    log: |
+         7912405643a14b527cd4a4f33c1d4392da900888 modpost: Add .irqentry.text to OTHER_SECTIONS
+         d8d326d64f6702caab01ea0cd48f6c0054f3d1b4 kbuild: deb-pkg: fix build error with O=
+         
