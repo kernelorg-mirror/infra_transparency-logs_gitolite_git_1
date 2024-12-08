@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sun, 08 Dec 2024 02:26:15 -0000
-Message-Id: <173362477541.596708.14381961816002977056@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sun, 08 Dec 2024 02:41:20 -0000
+Message-Id: <173362568078.608503.18376095781882703717@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: ab80e715b70a5d585c922862d70cee58de9cb3cd
-    new: 09310cfd4ea5c3ab2c7a610420205e0a1660bf7e
+    old: 72e2e2f5eef33375ce65c393fc40f4af94e40975
+    new: 7ea2745766d776866cfbc981b21ed3cfdf50124e
     log: |
-         09310cfd4ea5c3ab2c7a610420205e0a1660bf7e rtnetlink: fix error code in rtnl_newlink()
+         7ea2745766d776866cfbc981b21ed3cfdf50124e rtase: Refine the if statement
          
