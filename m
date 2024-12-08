@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0598816690406283438=="
+Content-Type: multipart/mixed; boundary="===============0309223174005584972=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 08 Dec 2024 21:57:45 -0000
-Message-Id: <173369506593.1517470.2997942035957045019@gitolite.kernel.org>
+Date: Sun, 08 Dec 2024 21:58:05 -0000
+Message-Id: <173369508527.1517916.11162824414877955244@gitolite.kernel.org>
 
---===============0598816690406283438==
+--===============0309223174005584972==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,41 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 9adedea2d605d3114c3e22e00bfbbd6ac2b3dfeb
-    new: e9ce586bba59414cfea7bee28462ca9eefea1d6b
-    log: revlist-9adedea2d605-e9ce586bba59.txt
+    old: e9ce586bba59414cfea7bee28462ca9eefea1d6b
+    new: 3ed87cc428f63a6291840ca98763fe4fb2c37b63
+    log: revlist-e9ce586bba59-3ed87cc428f6.txt
+  - ref: refs/heads/tip/urgent
+    old: b141b22e78e6d7a7bc7fc3f4c9f59c70e779a80e
+    new: 84e099c4ecf060d0414d6ec046b34774af7097fa
+    log: revlist-b141b22e78e6-84e099c4ecf0.txt
 
---===============0598816690406283438==
+--===============0309223174005584972==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9adedea2d605-e9ce586bba59.txt
+Content-Disposition: attachment; filename=revlist-e9ce586bba59-3ed87cc428f6.txt
+
+3e3f2972a5758ca65536557ac9a9cb8aa572a7a5 Merge branch into tip/master: 'locking/urgent'
+f4b34b467e9c625122edfb20736106e6aea25b3a Merge branch into tip/master: 'perf/urgent'
+84e099c4ecf060d0414d6ec046b34774af7097fa Merge branch into tip/master: 'sched/urgent'
+2c2e44c79bb993827e93781ddcfc4e998c8e6c6b Merge branch into tip/master: 'irq/core'
+f1c217cb3e8577eaa04246182122c12b2c4e4bab Merge branch into tip/master: 'locking/core'
+01bbe05b4d29048f11685cf529c0d2fdb7013281 Merge branch into tip/master: 'objtool/core'
+aa8b8df2c5692a8027223a8a121ac8c55f94afd1 Merge branch into tip/master: 'perf/core'
+ff865939d8cffe73f7af4a67f70d42ca7213b6f2 Merge branch into tip/master: 'sched/core'
+daed747e258814e8de7306cb92177e9c4e15a97a Merge branch into tip/master: 'x86/boot'
+3caebbb57c0951582f9254a0fe1801b05fc134a1 Merge branch into tip/master: 'x86/cache'
+bde0067d4d81c4ce26542d5621f757291867783c Merge branch into tip/master: 'x86/cleanups'
+b3a5a340a47df6a334fc1bff39eeda0ea32ac281 Merge branch into tip/master: 'x86/cpu'
+2c6bed9e5109d0ea805101d537c787f48f09e9ce Merge branch into tip/master: 'x86/misc'
+e81ba4530313d9a01b46e8e0e772cb02b95471a7 Merge branch into tip/master: 'x86/mm'
+3ed87cc428f63a6291840ca98763fe4fb2c37b63 Merge branch into tip/master: 'x86/tdx'
+
+--===============0309223174005584972==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-b141b22e78e6-84e099c4ecf0.txt
 
 c064de86d2a3909222d5996c5047f64c7a8f791b scsi: qla1280: Fix hw revision numbering for ISP1020/1040
 e953835c1d41bbb660d7069dc9e61ea6bd7874f3 scsi: message: fusion: Constify struct pci_device_id
@@ -107,8 +133,6 @@ ddca5023091588eb303e3c0097d95c325992d05f smb3.1.1: fix posix mounts to older ser
 c32b624fa4f7ca5a2ff217a0b1b2f1352bb4ec11 smb: client: fix potential race in cifs_put_tcon()
 4bf485a7db5d82ddd0f3ad2b299893199090375e blk-mq: register cpuhp callback after hctx is added to xarray table
 22465bbac53c821319089016f268a2437de9b00a blk-mq: move cpuhp callback registering out of q->sysfs_lock
-095ac6fa19500fecd7c62e755dee45bb303d4d43 x86/ioremap: Simplify setup_data mapping variants
-525077ae7145cc868b69282f85bed2be8ecd1ed5 x86/ioremap: Remove unused size parameter in remapping functions
 a6db2a5d7df3e577c268ba7955eb48e913424599 Merge tag 'ubifs-for-linus-6.13-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rw/ubifs
 aa0274d261cc50af416883effdab505fad400485 Merge tag 'io_uring-6.13-20241207' of git://git.kernel.dk/linux
 7503345ac5f5e82fd9a36d6e6b447c016376403a Merge tag 'block-6.13-20241207' of git://git.kernel.dk/linux
@@ -121,7 +145,8 @@ d8d326d64f6702caab01ea0cd48f6c0054f3d1b4 kbuild: deb-pkg: fix build error with O
 c25ca0c2e42c77e0241411d374d44c41e253b3f5 Merge tag 'timers_urgent_for_v6.13_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 eadaac4dd2e07292181d35858047bdb177d5194f Merge tag 'irq_urgent_for_v6.13_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 0b6809a75ac026d4b569815744ad095b5d5955e1 Merge tag 'kbuild-fixes-v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-cc146b92ebecee54c0c34448523ed5fce7493064 Merge branch 'linus'
-e9ce586bba59414cfea7bee28462ca9eefea1d6b Merge branch into tip/master: 'x86/cleanups'
+3e3f2972a5758ca65536557ac9a9cb8aa572a7a5 Merge branch into tip/master: 'locking/urgent'
+f4b34b467e9c625122edfb20736106e6aea25b3a Merge branch into tip/master: 'perf/urgent'
+84e099c4ecf060d0414d6ec046b34774af7097fa Merge branch into tip/master: 'sched/urgent'
 
---===============0598816690406283438==--
+--===============0309223174005584972==--
