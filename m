@@ -1,24 +1,47 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sun, 08 Dec 2024 20:20:01 -0000
-Message-Id: <173368920176.1440797.2091485472820993803@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7522396291605939664=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Sun, 08 Dec 2024 20:27:10 -0000
+Message-Id: <173368963050.1447055.16007205315763868583@gitolite.kernel.org>
+
+--===============7522396291605939664==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/sj/damo
+user: sj
 changes:
-  - ref: refs/heads/master
-    old: bcf7d00fa4c7ce270f07d6e347c01b1f1e37580f
-    new: 85f1b642759116f8abfa3ec20de2ab8ff4e59941
-    log: |
-         bb405ee3f6039226267fb1c6d2cb1fbb18d835bf madvise.2: Add description of MADV_GUARD_INSTALL, MADV_GUARD_REMOVE
-         119ca28ddcdefdf77e507cc9c61c9280702794b2 ld.so.8: tfix
-         63f3d63ea780ead7626e527cec7bc0034c9c1955 src/bin/diffman: -w: Add support for diff(1)'s -w flag
-         5715b6367a3c607484c5ac246406c78c29d81e16 src/bin/diffman, diffman.1: -U: Add support for diff(1)'s -U option
-         78f02640e412d3e00ca0ffedee3134cd81539080 scripts/bash_aliases: duffman: Pass any arguments (options) to diffman(1)
-         85f1b642759116f8abfa3ec20de2ab8ff4e59941 proc_pid_fdinfo.5: Reduce indent for most of the page
-         
+  - ref: refs/heads/next
+    old: 87a5fbefd2019cac456c9834d7fedc28b9e95513
+    new: af05385fda385aceea9278cf88d1cd424581b435
+    log: revlist-87a5fbefd201-af05385fda38.txt
+
+--===============7522396291605939664==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-87a5fbefd201-af05385fda38.txt
+
+c8f52885af7fe26fcc7fb45e4eb3e68da180e123 damo_report_access: add regions heatmap for snapshot report-access too
+1b21b3b621686e1836a9ede482ac73a69a20809e USAGE: update example output of 'report access'
+34b2042c53aa44b0c8c158144fc855c16678d154 USAGE: wordsmith 'damo report access' section
+5f48e6b35a406727748701fa83bb6c39e661aac6 USAGE: add a section for access temperature concept
+ff769027f0214677e194a941ecbe2f10f7c6befe USAGE: Add links to 'Access temperature' section
+e37339f100b91b1da9638e1cf1241a5f0832a9c7 USAGE: add a section for 'access rate' concept
+3615497cc0649a85163cbf2695cd53941e41c9b5 USAGE: add more description of 'damo report access' output for each region
+e81cd5d5ce2eb616e840663b8c921d5b8af5bec3 USAGE: add links for 'access rate' and 'age'
+63bb837cd348e7e4a1eba18da6d1fa1508f2f4d5 USAGE: specify unit of values for access temperature
+51dad65e1a0891bdfa2d5603f59ce872c5ca7ad2 USAGE: clarify when perf is not required
+413518140fd8f46e0f5cbe3509dc3c69d87797a8 USAGE: clarify what basic concepts of DAMON is required for different purposes
+7b5d580ce8f4900e3c4b2934612aa7863d3fd347 USAGE: wordsmith install section
+95f15a97ad3d3f12a7f19a5320943b10eeaa809b USAGE: remove out-dated multiple kdamonds support information
+bc56184f5d957886c6d01373ae6ee52c4d103b9a USAGE: wordsmith 'damo start' section
+88703f6bd9ce3d248bf0d333480ddd888ce68cc4 USAGE: wordsmith 'damo tune' section
+04a390fbfdd352a545f14d719cb6faecf27c96d4 release_note: Update for next release
+af05385fda385aceea9278cf88d1cd424581b435 TODO: add alternative of 'less' optimization
+
+--===============7522396291605939664==--
