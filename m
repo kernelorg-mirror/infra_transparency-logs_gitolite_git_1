@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 08 Dec 2024 22:04:05 -0000
-Message-Id: <173369544539.1522508.8514371616648643208@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
+Date: Sun, 08 Dec 2024 22:12:45 -0000
+Message-Id: <173369596550.1530182.2793682193601759845@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/sj/hkml
+user: sj
 changes:
   - ref: refs/heads/master
-    old: 0b6809a75ac026d4b569815744ad095b5d5955e1
-    new: fac04efc5c793dccbd07e2d59af9f90b7fc0dca4
+    old: 32a719bbea782b7657fc59eae6fbc203ff4d8f45
+    new: 45a7b43b38c9e8eeda79e60ba3656699bb56c2a1
     log: |
-         fac04efc5c793dccbd07e2d59af9f90b7fc0dca4 Linux 6.13-rc2
+         a40c32a583d55d838f817d95fd6b90b3ef8b41b9 TODO: mark too-recent dim_old bug as fixed
+         1a6ccddb0ef8dfa1774140360cd9945d8be43e73 TODO: add an alternative to custom list formatting
+         b4474c00065eb1efc230d1f13bdff22107524857 TODO: add an item for a draft removing issue
+         95d536e4d521d1159685eac81ca0aa53e4f77400 hkml_tag: suggest removing drafts when 'sent' mail is being added, too
+         68c168adc6a7523172b6954ebf5ad4d8fcd6c004 TODO: remove resolved issue: cleaning draft for sent mails
+         45a7b43b38c9e8eeda79e60ba3656699bb56c2a1 TODO: add an item for patch export
          
-  - ref: refs/tags/v6.13-rc2
-    old: 0000000000000000000000000000000000000000
-    new: e32a80927434907f973f38a88cd19d7e51991d24
