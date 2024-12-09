@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Mon, 09 Dec 2024 17:53:50 -0000
-Message-Id: <173376683080.2622863.368331374650633425@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 09 Dec 2024 17:57:37 -0000
+Message-Id: <173376705726.2626507.17686210760481065171@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/dev
-    old: 3b83e818ae404ea50fdc043ef868a7da896453b0
-    new: ca5ccab1d3b3ef23dd93ec8bd7725d4ced355c32
+  - ref: refs/heads/master
+    old: 442bc81bd344dc52c37d8f80b854cc6da062b2d0
+    new: 82c1f13de315f38ecdb63d8b0e63ad7d70994d55
     log: |
-         ca5ccab1d3b3ef23dd93ec8bd7725d4ced355c32 locking/csd-lock: make CSD lock debug tunables writable in /sys
+         82c1f13de315f38ecdb63d8b0e63ad7d70994d55 selftests/bpf: Add more stats into veristat
          
-  - ref: refs/tags/v6.13-rc2
-    old: 0000000000000000000000000000000000000000
-    new: e32a80927434907f973f38a88cd19d7e51991d24
