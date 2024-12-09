@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7174730820938470358=="
+Content-Type: multipart/mixed; boundary="===============5302312231876531048=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Mon, 09 Dec 2024 19:18:32 -0000
-Message-Id: <173377191233.2728139.7296424225456399428@gitolite.kernel.org>
+Date: Mon, 09 Dec 2024 19:19:29 -0000
+Message-Id: <173377196999.2728742.12785107077251267665@gitolite.kernel.org>
 
---===============7174730820938470358==
+--===============5302312231876531048==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ras/ras
 user: aegl
 changes:
-  - ref: refs/heads/edac-drivers
-    old: e14232afa94445e03fc3a0291b07a68f3408c120
+  - ref: refs/heads/edac-for-next
+    old: 21c093a1626aab38767d5d499715a581a6bb26b0
     new: 2e55bb9b71e179c37d05deff37daa0dd8d04b59d
-    log: revlist-e14232afa944-2e55bb9b71e1.txt
+    log: revlist-21c093a1626a-2e55bb9b71e1.txt
 
---===============7174730820938470358==
+--===============5302312231876531048==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e14232afa944-2e55bb9b71e1.txt
+Content-Disposition: attachment; filename=revlist-21c093a1626a-2e55bb9b71e1.txt
 
 2f32cc40f1440a6aa9e7396af41db79bece67bb2 s390/mm: Remove bogus comment in __tlb_flush_mm()
 588a9836a4ef7ec3bfcffda526dfa399637e6cfc s390/stacktrace: Use break instead of return statement
@@ -1051,4 +1051,4 @@ eadaac4dd2e07292181d35858047bdb177d5194f Merge tag 'irq_urgent_for_v6.13_rc2' of
 fac04efc5c793dccbd07e2d59af9f90b7fc0dca4 Linux 6.13-rc2
 2e55bb9b71e179c37d05deff37daa0dd8d04b59d EDAC/i10nm: Add Intel Clearwater Forest server support
 
---===============7174730820938470358==--
+--===============5302312231876531048==--
