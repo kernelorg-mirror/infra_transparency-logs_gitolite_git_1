@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2467546916002484472=="
+Content-Type: multipart/mixed; boundary="===============7500693543154007886=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 09 Dec 2024 14:03:11 -0000
-Message-Id: <173375299194.2429034.1589161806352974253@gitolite.kernel.org>
+Date: Mon, 09 Dec 2024 14:03:17 -0000
+Message-Id: <173375299755.2429205.10388581681836124908@gitolite.kernel.org>
 
---===============2467546916002484472==
+--===============7500693543154007886==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-6.14
-    old: 5a56323a54b7febcfe82cc5eda840a176647b7cd
-    new: 5757b31666277e2b177b406e48878dc48d587a46
-    log: revlist-5a56323a54b7-5757b3166627.txt
+  - ref: refs/heads/regmap-6.14
+    old: a308f9e47fc2377863f0f561ceedd45ccc7c7f9c
+    new: 1331fb6640440f42a709eafd5c802f3496f746b8
+    log: revlist-a308f9e47fc2-1331fb664044.txt
 
---===============2467546916002484472==
+--===============7500693543154007886==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5a56323a54b7-5757b3166627.txt
+Content-Disposition: attachment; filename=revlist-a308f9e47fc2-1331fb664044.txt
 
 4497ee914f10264894b08066cbee026604cd244f watchdog: fix typo in the comment
 daa814d784ac034c62ab3fb0ef83daeafef527e2 iTCO_wdt: mask NMI_NOW bit for update_no_reboot_bit() call
@@ -165,6 +165,7 @@ a0cd2b265fe3f675c121df848aec2e79ff7c100f ALSA: hda/tas2781: Fix error code tas27
 9cdc6423acb49055efb444ecd895d853a70ef931 memblock: allow zero threshold in validate_numa_converage()
 180bbad698641873120a48857bb3b9f3166bf684 arch_numa: Restore nid checks before registering a memblock with a node
 a747e02430dfb3657141f99aa6b09331283fa493 ipv6: avoid possible NULL deref in modify_prefix_route()
+e70140ba0d2b1a30467d4af6bcfe761327b9ec95 Get rid of 'remove_new' relic from platform driver struct
 e18655cf35a5958fbf4ae9ca3ebf28871a3a1801 smb: server: Fix building with GCC 15
 fc342cf86e2dc4d2edb0fc2ff5e28b6c7845adb9 ksmbd: fix Out-of-Bounds Read in ksmbd_vfs_stream_read
 313dab082289e460391c82d855430ec8a28ddf81 ksmbd: fix Out-of-Bounds Write in ksmbd_vfs_stream_write
@@ -198,6 +199,7 @@ e9fba20c29e27dc99e55e1c550573a114561bf8c platform/x86: asus-nb-wmi: Ignore unkno
 e7d3b4079d01c60568a45237224df4447f140189 Merge branch '6.13/scsi-queue' into 6.13/scsi-fixes
 84909f7decbd8981a24be829f110c248ecb8c51a nvmet: use kzalloc instead of ZERO_PAGE in nvme_execute_identify_ns_nvm()
 58a0c875ce028678c9594c7bdf3fe33462392808 nvme: don't apply NVME_QUIRK_DEALLOCATE_ZEROES when DSM is not supported
+cdd30ebb1b9f36159d66f088b61aee264e649d7a module: Convert symbol namespace to string literal
 c6c2f66372d5cba5ce85eed686901259333ed816 drm/amdgpu/jpeg1.0: fix idle work handler
 c9b8dcabb52afe88413ff135a0953e3cc4128483 drm/amdgpu/hdp4.0: do a posting read when flushing HDP
 cf424020e040be35df05b682b546b255e74a420f drm/amdgpu/hdp5.0: do a posting read when flushing HDP
@@ -448,6 +450,6 @@ c25ca0c2e42c77e0241411d374d44c41e253b3f5 Merge tag 'timers_urgent_for_v6.13_rc2'
 eadaac4dd2e07292181d35858047bdb177d5194f Merge tag 'irq_urgent_for_v6.13_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 0b6809a75ac026d4b569815744ad095b5d5955e1 Merge tag 'kbuild-fixes-v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 fac04efc5c793dccbd07e2d59af9f90b7fc0dca4 Linux 6.13-rc2
-5757b31666277e2b177b406e48878dc48d587a46 ASoC: Merge up v6.12-rc2
+1331fb6640440f42a709eafd5c802f3496f746b8 regmap: Merge up v6.12-rc2
 
---===============2467546916002484472==--
+--===============7500693543154007886==--
