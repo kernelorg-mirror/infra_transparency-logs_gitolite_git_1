@@ -1,56 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4274008633860463903=="
+Content-Type: multipart/mixed; boundary="===============1200548906652635247=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 09 Dec 2024 16:58:13 -0000
-Message-Id: <173376349325.2576846.8437339743804896401@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Mon, 09 Dec 2024 16:58:33 -0000
+Message-Id: <173376351360.2577178.6041436831552804674@gitolite.kernel.org>
 
---===============4274008633860463903==
+--===============1200548906652635247==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regmap
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/regmap-6.13
+  - ref: refs/heads/for-linus
     old: 3061e170381af96d1e66799d34264e6414d428a7
     new: fac04efc5c793dccbd07e2d59af9f90b7fc0dca4
     log: revlist-3061e170381a-fac04efc5c79.txt
-  - ref: refs/heads/regmap-6.14
-    old: a308f9e47fc2377863f0f561ceedd45ccc7c7f9c
+  - ref: refs/heads/for-next
+    old: 3ad4bd982c5f0362c18e8ebbbce453284e4a9b7a
     new: 1331fb6640440f42a709eafd5c802f3496f746b8
-    log: revlist-a308f9e47fc2-1331fb664044.txt
+    log: revlist-3ad4bd982c5f-1331fb664044.txt
 
---===============4274008633860463903==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1733763519 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1733763490-e8aee115a116c6fbd00e117297d655876c72eed9
-
-3061e170381af96d1e66799d34264e6414d428a7 fac04efc5c793dccbd07e2d59af9f90b7fc0dca4 refs/heads/regmap-6.13
-a308f9e47fc2377863f0f561ceedd45ccc7c7f9c 1331fb6640440f42a709eafd5c802f3496f746b8 refs/heads/regmap-6.14
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmdXIb8ACgkQJNaLcl1U
-h9AvIwf5AVe1WbZe/1UGbsk5I4cKDys7AC5QZsztbXdQAEDDpTvqijbOczIBlFPp
-+/YH2fDlR8hx3uj1o23Natp/kQWfdY7fS6uIyOdPeltHVUTR3GVtbZUQoA0E1u2s
-BsEnSFr21ToeoC9VA65lpCx6jU61LLkBwzqZY7PdeO7S7ziBkuWXIXQVjWlXoAoj
-WtsLDyVDF3XXsjwivOhmO/r4N7AKAc/yvfVnSM/sydC54HIHKayHDymkQ+Q8QcD0
-Tjyp3NWCNvV9F2irIIVEtN+SKg3IQ2MQOrWnr3zC3emxcvNocO1MeJjVmPKTdrox
-iNVM/d7fLpec9SzzIT6uFh14hUcdEw==
-=w6N5
------END PGP SIGNATURE-----
-
---===============4274008633860463903==
+--===============1200548906652635247==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -479,11 +453,11 @@ eadaac4dd2e07292181d35858047bdb177d5194f Merge tag 'irq_urgent_for_v6.13_rc2' of
 0b6809a75ac026d4b569815744ad095b5d5955e1 Merge tag 'kbuild-fixes-v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 fac04efc5c793dccbd07e2d59af9f90b7fc0dca4 Linux 6.13-rc2
 
---===============4274008633860463903==
+--===============1200548906652635247==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a308f9e47fc2-1331fb664044.txt
+Content-Disposition: attachment; filename=revlist-3ad4bd982c5f-1331fb664044.txt
 
 4497ee914f10264894b08066cbee026604cd244f watchdog: fix typo in the comment
 daa814d784ac034c62ab3fb0ef83daeafef527e2 iTCO_wdt: mask NMI_NOW bit for update_no_reboot_bit() call
@@ -629,8 +603,6 @@ e18655cf35a5958fbf4ae9ca3ebf28871a3a1801 smb: server: Fix building with GCC 15
 fc342cf86e2dc4d2edb0fc2ff5e28b6c7845adb9 ksmbd: fix Out-of-Bounds Read in ksmbd_vfs_stream_read
 313dab082289e460391c82d855430ec8a28ddf81 ksmbd: fix Out-of-Bounds Write in ksmbd_vfs_stream_write
 04c319e05d0b08cc789db7abccce0fcb13dbab16 ASoC: Intel: avs: da7219: Remove suspend_pre() and resume_post()
-3f1aa0c533d9dd8a835caf9a6824449c463ee7e2 regmap: Use correct format specifier for logging range errors
-3061e170381af96d1e66799d34264e6414d428a7 regmap: detach regmap from dev on regmap_exit
 984836621aad98802d92c4a3047114cf518074c8 spi: mpc52xx: Add cancel_work_sync before module remove
 1b299bd0c22887543b276bcc5b4ed26f5bd83ae4 spi: apple: Set use_gpio_descriptors to true
 55dc2f8f263448f1e6c7ef135d08e640d5a4826e LoongArch: Fix reserving screen info memory for above-4G firmware
@@ -911,4 +883,4 @@ eadaac4dd2e07292181d35858047bdb177d5194f Merge tag 'irq_urgent_for_v6.13_rc2' of
 fac04efc5c793dccbd07e2d59af9f90b7fc0dca4 Linux 6.13-rc2
 1331fb6640440f42a709eafd5c802f3496f746b8 regmap: Merge up v6.12-rc2
 
---===============4274008633860463903==--
+--===============1200548906652635247==--
