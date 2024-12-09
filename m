@@ -1,53 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============5824353851340533698=="
+Content-Type: multipart/mixed; boundary="===============5322463008389602386=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mhiramat/linux
-Date: Mon, 09 Dec 2024 23:03:38 -0000
-Message-Id: <173378541885.2912124.4494532124202611203@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 09 Dec 2024 23:13:18 -0000
+Message-Id: <173378599847.2919982.3823901416704629382@gitolite.kernel.org>
 
---===============5824353851340533698==
+--===============5322463008389602386==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mhiramat/linux
-user: mhiramat
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/topic/fprobe-on-fgraph
-    old: e6369db4372d722c47a45887eeb6a0f483c20ced
-    new: 5ceea60d05ae0641ffa6990facdd13618d0de292
-    log: revlist-e6369db4372d-5ceea60d05ae.txt
+  - ref: refs/heads/main
+    old: ca7858880590d4f1dfe73b2cbf372b8ed80a6d81
+    new: e58b4771af2bf47ed533448457ee5cfb7eb284c6
+    log: revlist-ca7858880590-e58b4771af2b.txt
 
---===============5824353851340533698==
+--===============5322463008389602386==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e6369db4372d-5ceea60d05ae.txt
+Content-Disposition: attachment; filename=revlist-ca7858880590-e58b4771af2b.txt
 
-26c5293432203d35715c7675ff27204688f0105e Merge tag 'v6.12' into probes/for-next
-f2e118141c06102adffc1894d945b7952e549205 kprobes: Reduce preempt disable scope in check_kprobe_access_safe()
-5bcee0dd98922e92582e427dc2e66d1f27aef1fc Merge probes/for-next
-ad3b4deb07722336832b0e4aa4a7c62283bc10a0 fgraph: Get ftrace recursion lock in function_graph_enter
-c5d845c088028eab8e34cc267026f882e46b12b1 fgraph: Pass ftrace_regs to entryfunc
-98e5b774e258f4436ae288df69039d7398168569 fgraph: Replace fgraph_ret_regs with ftrace_regs
-f9ffabdd51297db6648cb1cab4f0e25facefd5b6 fgraph: Pass ftrace_regs to retfunc
-1773c19b66d6412fcbdbb366902a03624c717818 fprobe: Use ftrace_regs in fprobe entry handler
-014798916b6474561a58e8563614ad399a5267bd fprobe: Use ftrace_regs in fprobe exit handler
-c6a187fd07b55cec098f96131394c8d0f80eda30 tracing: Add ftrace_partial_regs() for converting ftrace_regs to pt_regs
-1d4cd1453152434b4e0b90b7f298ff55b9a1f23c tracing: Add ftrace_fill_perf_regs() for perf event
-8f52d4bd73c7dba2c903925c8614750dd6a25eb8 tracing/fprobe: Enable fprobe events with CONFIG_DYNAMIC_FTRACE_WITH_ARGS
-288e960f41bdf94c2ffc6053df2c67191ad0f40b bpf: Enable kprobe_multi feature if CONFIG_FPROBE is enabled
-335bba34e9378631ab46c8d331b67802c6b9fa6b ftrace: Add CONFIG_HAVE_FTRACE_GRAPH_FUNC
-8c73aa339983d9bef21fba6cddacdea7441abfb5 s390/tracing: Enable HAVE_FTRACE_GRAPH_FUNC
-809348dc958901eb2e0c5b20143a3f504ec5851c fprobe: Rewrite fprobe on function-graph tracer
-7a5a8ddd3e37c3c9c1900e7a21a79e264a83419e fprobe: Add fprobe_header encoding feature
-41077b6c23e3dca3255c9e2b15376ba287b67da4 tracing/fprobe: Remove nr_maxactive from fprobe
-7cb5e3c3fe72e8cabe7aed40b7fe1b3c9c2890cf selftests: ftrace: Remove obsolate maxactive syntax check
-b5975725759c897ffc3177a76548e2110fa8b150 selftests/ftrace: Add a test case for repeating register/unregister fprobe
-2a478b19d15b6ced267aa64a19d1fc6a32ff8b05 Documentation: probes: Update fprobe on function-graph tracer
-342b33bb441df6474da793a30c2a3f3bc4b29265 ftrace: Add ftrace_get_symaddr to convert fentry_ip to symaddr
-5ceea60d05ae0641ffa6990facdd13618d0de292 bpf: Use ftrace_get_symaddr() for kprobe_multi probes
+3f330db30638b6489d548084a7e8843374d41ad0 net: reformat kdoc return statements
+9234a37a495dc34cece943bec495ab541e4143ab vxlan: In vxlan_rcv(), access flags through the vxlan netdevice
+0f09ae907818d593e55c4b058d286a0914a43c3f vxlan: vxlan_rcv() callees: Move clearing of unparsed flags out
+fe3dcbcfae522fae9c62954488398562ff6b5ece vxlan: vxlan_rcv() callees: Drop the unparsed argument
+e713130dfb4d6b5a2cd42f33a94b6ac983d2989d vxlan: vxlan_rcv(): Extract vxlan_hdr(skb) to a named variable
+e4f8647767cfac0291def86ddfac23b925294701 vxlan: Track reserved bits explicitly as part of the configuration
+752b1c8d8b409f2b03e61e153696689ee081bf07 vxlan: Bump error counters for header mismatches
+bb16786ed6fdff3a67ba33ed928ae138fd4254b5 vxlan: vxlan_rcv(): Drop unparsed
+6c11379b104e3718135fd7fc37bb254b41e4cf65 vxlan: Add an attribute to make VXLAN header validation configurable
+8653eb21d68c6882ce5716b04379431817310b85 selftests: net: lib: Rename ip_link_master() to ip_link_set_master()
+d76ccb2ec368c8a44f64839140cd253c19f6a79a selftests: net: lib: Add several autodefer helpers
+d84b5dccf3ebdeeabef910d1c19b931c84f67884 selftests: forwarding: Add a selftest for the new reserved_bits UAPI
+e58b4771af2bf47ed533448457ee5cfb7eb284c6 Merge branch 'vxlan-support-user-defined-reserved-bits'
 
---===============5824353851340533698==--
+--===============5322463008389602386==--
