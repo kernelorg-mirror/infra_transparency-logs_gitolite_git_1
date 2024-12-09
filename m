@@ -1,34 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============1200548906652635247=="
+Content-Type: multipart/mixed; boundary="===============5198170115297285921=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Mon, 09 Dec 2024 16:58:33 -0000
-Message-Id: <173376351360.2577178.6041436831552804674@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Mon, 09 Dec 2024 17:11:03 -0000
+Message-Id: <173376426383.2588074.743451519363694840@gitolite.kernel.org>
 
---===============1200548906652635247==
+--===============5198170115297285921==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-linus
-    old: 3061e170381af96d1e66799d34264e6414d428a7
+  - ref: refs/heads/for-6.13
+    old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
     new: fac04efc5c793dccbd07e2d59af9f90b7fc0dca4
-    log: revlist-3061e170381a-fac04efc5c79.txt
-  - ref: refs/heads/for-next
-    old: 3ad4bd982c5f0362c18e8ebbbce453284e4a9b7a
-    new: 1331fb6640440f42a709eafd5c802f3496f746b8
-    log: revlist-3ad4bd982c5f-1331fb664044.txt
+    log: revlist-40384c840ea1-fac04efc5c79.txt
+  - ref: refs/heads/for-6.14
+    old: a8d77166fcfe1cd4be70c21d65ff2b27b4f54a26
+    new: a6ebabd0e53d4352abe0fd2ad156a52162f5d3ce
+    log: revlist-a8d77166fcfe-a6ebabd0e53d.txt
 
---===============1200548906652635247==
+--===============5198170115297285921==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3061e170381a-fac04efc5c79.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1733764290 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1733764261-4c90eb47be1a8f0519978373d247fddbd7b3227c
+
+40384c840ea1944d7c5a392e8975ed088ecf0b37 fac04efc5c793dccbd07e2d59af9f90b7fc0dca4 refs/heads/for-6.13
+a8d77166fcfe1cd4be70c21d65ff2b27b4f54a26 a6ebabd0e53d4352abe0fd2ad156a52162f5d3ce refs/heads/for-6.14
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmdXJMIACgkQJNaLcl1U
+h9A+cQf/VU4BGpK555sAMkGrMDWz/UGsGeLnoDbe7btbRJ0GKIXzLNKr1ALsZGTc
+2zIueQa52rCxZ5fMV9em2/Po1WDjENpaY3OfZZoPO4hWcZedOLlH2KIxZteb7ZcQ
+nv73GyuSsUvq7cB8ZmsS4whOlJPaeHgqpdEWaz22F8LUKCvE3aS/7hWmZzXdX3y4
+e8F71RhZMp9kjWkRmFGIf78+p0qKY0u+4Yz2DGVTSuqVoKOiOs+Sc9OlJJvPHt24
+5dSNCxf4m5fSoE6w6rf1yCX9bsDBd/GPm+mzrVkuyHPb0Xzzbc78+IkyrKd35HZZ
+r1HzFOB+KrlgkkQCJ2ienmdZrs8Wig==
+=gnW7
+-----END PGP SIGNATURE-----
+
+--===============5198170115297285921==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-40384c840ea1-fac04efc5c79.txt
 
 4497ee914f10264894b08066cbee026604cd244f watchdog: fix typo in the comment
 daa814d784ac034c62ab3fb0ef83daeafef527e2 iTCO_wdt: mask NMI_NOW bit for update_no_reboot_bit() call
@@ -174,6 +200,8 @@ e18655cf35a5958fbf4ae9ca3ebf28871a3a1801 smb: server: Fix building with GCC 15
 fc342cf86e2dc4d2edb0fc2ff5e28b6c7845adb9 ksmbd: fix Out-of-Bounds Read in ksmbd_vfs_stream_read
 313dab082289e460391c82d855430ec8a28ddf81 ksmbd: fix Out-of-Bounds Write in ksmbd_vfs_stream_write
 04c319e05d0b08cc789db7abccce0fcb13dbab16 ASoC: Intel: avs: da7219: Remove suspend_pre() and resume_post()
+3f1aa0c533d9dd8a835caf9a6824449c463ee7e2 regmap: Use correct format specifier for logging range errors
+3061e170381af96d1e66799d34264e6414d428a7 regmap: detach regmap from dev on regmap_exit
 984836621aad98802d92c4a3047114cf518074c8 spi: mpc52xx: Add cancel_work_sync before module remove
 1b299bd0c22887543b276bcc5b4ed26f5bd83ae4 spi: apple: Set use_gpio_descriptors to true
 55dc2f8f263448f1e6c7ef135d08e640d5a4826e LoongArch: Fix reserving screen info memory for above-4G firmware
@@ -453,11 +481,11 @@ eadaac4dd2e07292181d35858047bdb177d5194f Merge tag 'irq_urgent_for_v6.13_rc2' of
 0b6809a75ac026d4b569815744ad095b5d5955e1 Merge tag 'kbuild-fixes-v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 fac04efc5c793dccbd07e2d59af9f90b7fc0dca4 Linux 6.13-rc2
 
---===============1200548906652635247==
+--===============5198170115297285921==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3ad4bd982c5f-1331fb664044.txt
+Content-Disposition: attachment; filename=revlist-a8d77166fcfe-a6ebabd0e53d.txt
 
 4497ee914f10264894b08066cbee026604cd244f watchdog: fix typo in the comment
 daa814d784ac034c62ab3fb0ef83daeafef527e2 iTCO_wdt: mask NMI_NOW bit for update_no_reboot_bit() call
@@ -603,6 +631,8 @@ e18655cf35a5958fbf4ae9ca3ebf28871a3a1801 smb: server: Fix building with GCC 15
 fc342cf86e2dc4d2edb0fc2ff5e28b6c7845adb9 ksmbd: fix Out-of-Bounds Read in ksmbd_vfs_stream_read
 313dab082289e460391c82d855430ec8a28ddf81 ksmbd: fix Out-of-Bounds Write in ksmbd_vfs_stream_write
 04c319e05d0b08cc789db7abccce0fcb13dbab16 ASoC: Intel: avs: da7219: Remove suspend_pre() and resume_post()
+3f1aa0c533d9dd8a835caf9a6824449c463ee7e2 regmap: Use correct format specifier for logging range errors
+3061e170381af96d1e66799d34264e6414d428a7 regmap: detach regmap from dev on regmap_exit
 984836621aad98802d92c4a3047114cf518074c8 spi: mpc52xx: Add cancel_work_sync before module remove
 1b299bd0c22887543b276bcc5b4ed26f5bd83ae4 spi: apple: Set use_gpio_descriptors to true
 55dc2f8f263448f1e6c7ef135d08e640d5a4826e LoongArch: Fix reserving screen info memory for above-4G firmware
@@ -881,6 +911,6 @@ c25ca0c2e42c77e0241411d374d44c41e253b3f5 Merge tag 'timers_urgent_for_v6.13_rc2'
 eadaac4dd2e07292181d35858047bdb177d5194f Merge tag 'irq_urgent_for_v6.13_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 0b6809a75ac026d4b569815744ad095b5d5955e1 Merge tag 'kbuild-fixes-v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 fac04efc5c793dccbd07e2d59af9f90b7fc0dca4 Linux 6.13-rc2
-1331fb6640440f42a709eafd5c802f3496f746b8 regmap: Merge up v6.12-rc2
+a6ebabd0e53d4352abe0fd2ad156a52162f5d3ce regulator: Merge up v6.12-rc2
 
---===============1200548906652635247==--
+--===============5198170115297285921==--
