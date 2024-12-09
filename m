@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1098556147079106232=="
+Content-Type: multipart/mixed; boundary="===============5817177759959893729=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
-Date: Mon, 09 Dec 2024 12:23:04 -0000
-Message-Id: <173374698475.2346680.14105210371548597233@gitolite.kernel.org>
+Date: Mon, 09 Dec 2024 12:23:43 -0000
+Message-Id: <173374702358.2347196.3141028788519766268@gitolite.kernel.org>
 
---===============1098556147079106232==
+--===============5817177759959893729==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jack/linux-fs
 user: jack
 changes:
-  - ref: refs/heads/fsnotify_hsm
-    old: 28b536a2dd222639707b5b674636e801e8bb9d63
-    new: 73a919b224e42d0ad834a38cc694aada3b16c57e
-    log: revlist-28b536a2dd22-73a919b224e4.txt
+  - ref: refs/heads/for_next
+    old: 0a69ee32ecb2049927ccab9881a4127bec76eaf0
+    new: 89640cdbb83d6820cc56271610c97c028fac2ae5
+    log: revlist-0a69ee32ecb2-89640cdbb83d.txt
 
---===============1098556147079106232==
+--===============5817177759959893729==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-28b536a2dd22-73a919b224e4.txt
+Content-Disposition: attachment; filename=revlist-0a69ee32ecb2-89640cdbb83d.txt
 
 abfc66114390ca48de5e4d337f3726d47843bd9c fsnotify: opt-in for permission events at file open time
 faaade88b50fc116d635181cf9ff87db7c2c878f fsnotify: check if file is actually being watched for pre-content events on open
@@ -45,5 +45,6 @@ a6094eef963046542792df9ecff7b1920e6073c5 btrfs: disable defrag on pre-content wa
 03f93e7c7ec6d6b35b6529144789e1c6bb282acc ext4: add pre-content fsnotify hook for DAX faults
 e86aa72a5347026e49085e0871f3c5a0bcb49c1a fs: enable pre-content events on supported file systems
 73a919b224e42d0ad834a38cc694aada3b16c57e fs: don't block write during exec on pre-content watched files
+89640cdbb83d6820cc56271610c97c028fac2ae5 Merge fanotify HSM implementation.
 
---===============1098556147079106232==--
+--===============5817177759959893729==--
