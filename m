@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3352875851755523934=="
+Content-Type: multipart/mixed; boundary="===============5767503512202197143=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 09 Dec 2024 14:03:22 -0000
-Message-Id: <173375300294.2429435.527069715942548207@gitolite.kernel.org>
+Date: Mon, 09 Dec 2024 14:03:28 -0000
+Message-Id: <173375300839.2429608.10392011739557141756@gitolite.kernel.org>
 
---===============3352875851755523934==
+--===============5767503512202197143==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/regulator-6.14
-    old: a8d77166fcfe1cd4be70c21d65ff2b27b4f54a26
-    new: a6ebabd0e53d4352abe0fd2ad156a52162f5d3ce
-    log: revlist-a8d77166fcfe-a6ebabd0e53d.txt
+  - ref: refs/heads/spi-6.14
+    old: 1a90aae3b25b72e639da6062e0dc5efb9cff58f1
+    new: e5fca61fdfcdd7d3cc43c0b4c3b959d4f2b06666
+    log: revlist-1a90aae3b25b-e5fca61fdfcd.txt
 
---===============3352875851755523934==
+--===============5767503512202197143==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a8d77166fcfe-a6ebabd0e53d.txt
+Content-Disposition: attachment; filename=revlist-1a90aae3b25b-e5fca61fdfcd.txt
 
 4497ee914f10264894b08066cbee026604cd244f watchdog: fix typo in the comment
 daa814d784ac034c62ab3fb0ef83daeafef527e2 iTCO_wdt: mask NMI_NOW bit for update_no_reboot_bit() call
@@ -450,6 +450,6 @@ c25ca0c2e42c77e0241411d374d44c41e253b3f5 Merge tag 'timers_urgent_for_v6.13_rc2'
 eadaac4dd2e07292181d35858047bdb177d5194f Merge tag 'irq_urgent_for_v6.13_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 0b6809a75ac026d4b569815744ad095b5d5955e1 Merge tag 'kbuild-fixes-v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 fac04efc5c793dccbd07e2d59af9f90b7fc0dca4 Linux 6.13-rc2
-a6ebabd0e53d4352abe0fd2ad156a52162f5d3ce regulator: Merge up v6.12-rc2
+e5fca61fdfcdd7d3cc43c0b4c3b959d4f2b06666 spi: Merge up v6.12-rc2
 
---===============3352875851755523934==--
+--===============5767503512202197143==--
