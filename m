@@ -1,56 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6910788269764529927=="
+Content-Type: multipart/mixed; boundary="===============0544305621039464706=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 09 Dec 2024 17:35:35 -0000
-Message-Id: <173376573502.2609020.9575904176423003751@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 09 Dec 2024 17:35:46 -0000
+Message-Id: <173376574642.2609327.11862819253448883003@gitolite.kernel.org>
 
---===============6910788269764529927==
+--===============0544305621039464706==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.13
+  - ref: refs/heads/for-linus
     old: ec16a3cdf37e507013062f9c4a2067eacdd12b62
     new: fac04efc5c793dccbd07e2d59af9f90b7fc0dca4
     log: revlist-ec16a3cdf37e-fac04efc5c79.txt
-  - ref: refs/heads/asoc-6.14
-    old: 5a56323a54b7febcfe82cc5eda840a176647b7cd
+  - ref: refs/heads/for-next
+    old: f9389229c2d2b5b006f3540ff836bf4094cbfdb3
     new: 5757b31666277e2b177b406e48878dc48d587a46
-    log: revlist-5a56323a54b7-5757b3166627.txt
+    log: revlist-f9389229c2d2-5757b3166627.txt
 
---===============6910788269764529927==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1733765761 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1733765732-702a242b553e549d848840dd705869ab9624a296
-
-ec16a3cdf37e507013062f9c4a2067eacdd12b62 fac04efc5c793dccbd07e2d59af9f90b7fc0dca4 refs/heads/asoc-6.13
-5a56323a54b7febcfe82cc5eda840a176647b7cd 5757b31666277e2b177b406e48878dc48d587a46 refs/heads/asoc-6.14
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmdXKoEACgkQJNaLcl1U
-h9D0KAgAgRn5qIQ/02IjOID8PKrvkeAaIkBsTTCGdEfytLSClx9DJ9dqxHnBKI9R
-cyWPLvN+rT8ai86e0gKYox6KfLaj4+YforLZvnC5+HfkrOLUnib9q+EfbYwgx6JZ
-1+VHHdSFpyTWLc0IUDfajQi3EKYAToOjE3gNUb0rpm8t4HBuBsHqt4enosaZG/wP
-0ZpQLeZ1x9+ovOw2MX2uFU4dmXF5hthx/dcktB7R4t9ojOgoTVUEokwfJosGZro8
-n5qPEanQwl7+g8RD9icceYkG2n4DkABf7T9KdHiE0mZf4cno3tfDwuHPDfV658pY
-EE3HdX9B3ZDZlCQYIwffbJ2/2Avi/A==
-=fxhS
------END PGP SIGNATURE-----
-
---===============6910788269764529927==
+--===============0544305621039464706==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -478,11 +452,11 @@ eadaac4dd2e07292181d35858047bdb177d5194f Merge tag 'irq_urgent_for_v6.13_rc2' of
 0b6809a75ac026d4b569815744ad095b5d5955e1 Merge tag 'kbuild-fixes-v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 fac04efc5c793dccbd07e2d59af9f90b7fc0dca4 Linux 6.13-rc2
 
---===============6910788269764529927==
+--===============0544305621039464706==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5a56323a54b7-5757b3166627.txt
+Content-Disposition: attachment; filename=revlist-f9389229c2d2-5757b3166627.txt
 
 4497ee914f10264894b08066cbee026604cd244f watchdog: fix typo in the comment
 daa814d784ac034c62ab3fb0ef83daeafef527e2 iTCO_wdt: mask NMI_NOW bit for update_no_reboot_bit() call
@@ -626,7 +600,6 @@ a747e02430dfb3657141f99aa6b09331283fa493 ipv6: avoid possible NULL deref in modi
 e18655cf35a5958fbf4ae9ca3ebf28871a3a1801 smb: server: Fix building with GCC 15
 fc342cf86e2dc4d2edb0fc2ff5e28b6c7845adb9 ksmbd: fix Out-of-Bounds Read in ksmbd_vfs_stream_read
 313dab082289e460391c82d855430ec8a28ddf81 ksmbd: fix Out-of-Bounds Write in ksmbd_vfs_stream_write
-04c319e05d0b08cc789db7abccce0fcb13dbab16 ASoC: Intel: avs: da7219: Remove suspend_pre() and resume_post()
 3f1aa0c533d9dd8a835caf9a6824449c463ee7e2 regmap: Use correct format specifier for logging range errors
 3061e170381af96d1e66799d34264e6414d428a7 regmap: detach regmap from dev on regmap_exit
 984836621aad98802d92c4a3047114cf518074c8 spi: mpc52xx: Add cancel_work_sync before module remove
@@ -640,7 +613,6 @@ a8c695005bfe6569acd73d777ca298ddddd66105 can: j1939: j1939_session_new(): fix sk
 e2974a220594c06f536e65dfd7b2447e0e83a1cb ALSA: hda/realtek: Add support for Samsung Galaxy Book3 360 (NP730QFG)
 49ccf2c3cafb5774a4562d61294afcf492bed487 arm64: mte: set VM_MTE_ALLOWED for hugetlbfs at correct place
 28866d6e84b8d36a76b2cde221391aed1294e5cd octeontx2-af: Fix SDP MAC link credits configuration
-6d544ea21d367cbd9746ae882e67a839391a6594 ASoC: SOF: ipc3-topology: fix resource leaks in sof_ipc3_widget_setup_comp_dai()
 7f0fa47ceebcff0e3591bb7e32a71a2cd7846149 mmc: sdhci-pci: Add DMI quirk for missing CD GPIO on Vexia Edu Atla 10 tablet
 87a0d90fcd31c0f36da0332428c9e1a1e0f97432 mmc: core: Further prevent card detect during shutdown
 f7d306b47a24367302bd4fe846854e07752ffcd9 ALSA: usb-audio: Fix a DMA to stack memory bug
@@ -809,7 +781,6 @@ cf3b16dae4cab9dfa2436d76ce010ad4dd55b53a arm64: mte: Fix copy_highpage() warning
 b29bf7119d6bbfd04aabb8d82b060fe2a33ef890 jffs2: Fix rtime decompressor
 4c6ac5446d060f0bf435ccc8bc3aa7b7b5f718ad spi: omap2-mcspi: Fix the IS_ERR() bug for devm_clk_get_optional_enabled()
 d0ceea662d459726487030237689835fcc0483e5 x86/mm: Add _PAGE_NOPTISHADOW bit to avoid updating userspace page tables
-ec16a3cdf37e507013062f9c4a2067eacdd12b62 ASoC: mediatek: mt8188-mt6359: Remove hardcoded dmic codec
 20c3b3e5f2641eff3d85f33e6a468ac052b169bd ALSA: hda/realtek: Fix spelling mistake "Firelfy" -> "Firefly"
 73da582a476ea6e3512f89f8ed57dfed945829a2 x86/cpu/topology: Remove limit of CPUs due to disabled IO/APIC
 a6fa67d26de385c3c7a23c1e109a0e23bfda4ec7 drm/dp_mst: Fix resetting msg rx state after topology removal
@@ -908,4 +879,4 @@ eadaac4dd2e07292181d35858047bdb177d5194f Merge tag 'irq_urgent_for_v6.13_rc2' of
 fac04efc5c793dccbd07e2d59af9f90b7fc0dca4 Linux 6.13-rc2
 5757b31666277e2b177b406e48878dc48d587a46 ASoC: Merge up v6.12-rc2
 
---===============6910788269764529927==--
+--===============0544305621039464706==--
