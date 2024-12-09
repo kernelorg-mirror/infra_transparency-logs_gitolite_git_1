@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4996092523245743269=="
+Content-Type: multipart/mixed; boundary="===============6910788269764529927=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 09 Dec 2024 17:35:31 -0000
-Message-Id: <173376573157.2608838.1330590107608383165@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 09 Dec 2024 17:35:35 -0000
+Message-Id: <173376573502.2609020.9575904176423003751@gitolite.kernel.org>
 
---===============4996092523245743269==
+--===============6910788269764529927==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.13
+  - ref: refs/heads/asoc-6.13
     old: ec16a3cdf37e507013062f9c4a2067eacdd12b62
     new: fac04efc5c793dccbd07e2d59af9f90b7fc0dca4
     log: revlist-ec16a3cdf37e-fac04efc5c79.txt
-  - ref: refs/heads/for-6.14
+  - ref: refs/heads/asoc-6.14
     old: 5a56323a54b7febcfe82cc5eda840a176647b7cd
     new: 5757b31666277e2b177b406e48878dc48d587a46
     log: revlist-5a56323a54b7-5757b3166627.txt
 
---===============4996092523245743269==
+--===============6910788269764529927==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1733765757 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1733765728-4da9d077a2671b05221f757106d175462df0e148
+pusher C3F436CA30F5D8EB 1733765761 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1733765732-702a242b553e549d848840dd705869ab9624a296
 
-ec16a3cdf37e507013062f9c4a2067eacdd12b62 fac04efc5c793dccbd07e2d59af9f90b7fc0dca4 refs/heads/for-6.13
-5a56323a54b7febcfe82cc5eda840a176647b7cd 5757b31666277e2b177b406e48878dc48d587a46 refs/heads/for-6.14
+ec16a3cdf37e507013062f9c4a2067eacdd12b62 fac04efc5c793dccbd07e2d59af9f90b7fc0dca4 refs/heads/asoc-6.13
+5a56323a54b7febcfe82cc5eda840a176647b7cd 5757b31666277e2b177b406e48878dc48d587a46 refs/heads/asoc-6.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmdXKn0ACgkQJNaLcl1U
-h9AsfAf/ZyZeytrd15GYJpFlwY1hvTyr9TitVncfY/GwMdcQTlCS9H6FaVXA1m4p
-33XO6cKwzN+D/pAVV5EYgrKUPbKU0I26TkV/OHZYmNGdP+8E9eeMC48bF0KWmNhJ
-+S3271xkRP8O5HAXSVS2mxnCqRN30mvN7zY6qT2dLiADa+hI6pQcMzYdJOKoIIG8
-YcJ0CFyYlDHfaWdZDKTG757J7zk4b7KI1n6MtUCTQo0/DZM7wbEhoVgGUCxTdCFm
-vc2zozyiZcwn0YdTPsoIGIQnujQXuDmo6oQpVupGFMUxBhmVwb2swYdEkk7RlwcS
-+k3gCUpwzD9+NAH/yg3tBcX52LgShw==
-=K3gh
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmdXKoEACgkQJNaLcl1U
+h9D0KAgAgRn5qIQ/02IjOID8PKrvkeAaIkBsTTCGdEfytLSClx9DJ9dqxHnBKI9R
+cyWPLvN+rT8ai86e0gKYox6KfLaj4+YforLZvnC5+HfkrOLUnib9q+EfbYwgx6JZ
+1+VHHdSFpyTWLc0IUDfajQi3EKYAToOjE3gNUb0rpm8t4HBuBsHqt4enosaZG/wP
+0ZpQLeZ1x9+ovOw2MX2uFU4dmXF5hthx/dcktB7R4t9ojOgoTVUEokwfJosGZro8
+n5qPEanQwl7+g8RD9icceYkG2n4DkABf7T9KdHiE0mZf4cno3tfDwuHPDfV658pY
+EE3HdX9B3ZDZlCQYIwffbJ2/2Avi/A==
+=fxhS
 -----END PGP SIGNATURE-----
 
---===============4996092523245743269==
+--===============6910788269764529927==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -478,7 +478,7 @@ eadaac4dd2e07292181d35858047bdb177d5194f Merge tag 'irq_urgent_for_v6.13_rc2' of
 0b6809a75ac026d4b569815744ad095b5d5955e1 Merge tag 'kbuild-fixes-v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 fac04efc5c793dccbd07e2d59af9f90b7fc0dca4 Linux 6.13-rc2
 
---===============4996092523245743269==
+--===============6910788269764529927==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -908,4 +908,4 @@ eadaac4dd2e07292181d35858047bdb177d5194f Merge tag 'irq_urgent_for_v6.13_rc2' of
 fac04efc5c793dccbd07e2d59af9f90b7fc0dca4 Linux 6.13-rc2
 5757b31666277e2b177b406e48878dc48d587a46 ASoC: Merge up v6.12-rc2
 
---===============4996092523245743269==--
+--===============6910788269764529927==--
