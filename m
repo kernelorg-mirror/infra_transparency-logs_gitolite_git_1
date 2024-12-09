@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2693948847497502280=="
+Content-Type: multipart/mixed; boundary="===============8803042036977111962=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Mon, 09 Dec 2024 09:50:33 -0000
-Message-Id: <173373783312.2186676.2277535298070464318@gitolite.kernel.org>
+Date: Mon, 09 Dec 2024 09:50:57 -0000
+Message-Id: <173373785773.2187021.7404318312056956306@gitolite.kernel.org>
 
---===============2693948847497502280==
+--===============8803042036977111962==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: agordeev
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/features
     old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
     new: fac04efc5c793dccbd07e2d59af9f90b7fc0dca4
     log: revlist-40384c840ea1-fac04efc5c79.txt
 
---===============2693948847497502280==
+--===============8803042036977111962==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -451,4 +451,4 @@ eadaac4dd2e07292181d35858047bdb177d5194f Merge tag 'irq_urgent_for_v6.13_rc2' of
 0b6809a75ac026d4b569815744ad095b5d5955e1 Merge tag 'kbuild-fixes-v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 fac04efc5c793dccbd07e2d59af9f90b7fc0dca4 Linux 6.13-rc2
 
---===============2693948847497502280==--
+--===============8803042036977111962==--
