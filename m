@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5198170115297285921=="
+Content-Type: multipart/mixed; boundary="===============6930306356663827677=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 09 Dec 2024 17:11:03 -0000
-Message-Id: <173376426383.2588074.743451519363694840@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 09 Dec 2024 17:11:07 -0000
+Message-Id: <173376426716.2588248.14623905635437555950@gitolite.kernel.org>
 
---===============5198170115297285921==
+--===============6930306356663827677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.13
+  - ref: refs/heads/regulator-6.13
     old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
     new: fac04efc5c793dccbd07e2d59af9f90b7fc0dca4
     log: revlist-40384c840ea1-fac04efc5c79.txt
-  - ref: refs/heads/for-6.14
+  - ref: refs/heads/regulator-6.14
     old: a8d77166fcfe1cd4be70c21d65ff2b27b4f54a26
     new: a6ebabd0e53d4352abe0fd2ad156a52162f5d3ce
     log: revlist-a8d77166fcfe-a6ebabd0e53d.txt
 
---===============5198170115297285921==
+--===============6930306356663827677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1733764290 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1733764261-4c90eb47be1a8f0519978373d247fddbd7b3227c
+pusher C3F436CA30F5D8EB 1733764294 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1733764264-9778930fd9e75da80867430e32888daa48702db8
 
-40384c840ea1944d7c5a392e8975ed088ecf0b37 fac04efc5c793dccbd07e2d59af9f90b7fc0dca4 refs/heads/for-6.13
-a8d77166fcfe1cd4be70c21d65ff2b27b4f54a26 a6ebabd0e53d4352abe0fd2ad156a52162f5d3ce refs/heads/for-6.14
+40384c840ea1944d7c5a392e8975ed088ecf0b37 fac04efc5c793dccbd07e2d59af9f90b7fc0dca4 refs/heads/regulator-6.13
+a8d77166fcfe1cd4be70c21d65ff2b27b4f54a26 a6ebabd0e53d4352abe0fd2ad156a52162f5d3ce refs/heads/regulator-6.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmdXJMIACgkQJNaLcl1U
-h9A+cQf/VU4BGpK555sAMkGrMDWz/UGsGeLnoDbe7btbRJ0GKIXzLNKr1ALsZGTc
-2zIueQa52rCxZ5fMV9em2/Po1WDjENpaY3OfZZoPO4hWcZedOLlH2KIxZteb7ZcQ
-nv73GyuSsUvq7cB8ZmsS4whOlJPaeHgqpdEWaz22F8LUKCvE3aS/7hWmZzXdX3y4
-e8F71RhZMp9kjWkRmFGIf78+p0qKY0u+4Yz2DGVTSuqVoKOiOs+Sc9OlJJvPHt24
-5dSNCxf4m5fSoE6w6rf1yCX9bsDBd/GPm+mzrVkuyHPb0Xzzbc78+IkyrKd35HZZ
-r1HzFOB+KrlgkkQCJ2ienmdZrs8Wig==
-=gnW7
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmdXJMYACgkQJNaLcl1U
+h9Do1Af/ZkdcQBNIOUXDwFdPowsgb1/Wp0Ake76z6NJquBk79ILAs/4A6tUnvrjh
+5Yq5rNNB/bCRnFe2zjmGFfPN8lf8ykolushROOttZEdXV2Is+BG0hDeVYJQZzzq5
+92JdzruBhSRbXx3bvOQeZZSUeHP7fI0bvwgZpk7hJ560FrMwOqRJahs9rBIDfqUN
+LEXYRE5T0cdgnoyPj3imd+8gatptCO2r+3yCt/EvaLEcpSqeTFywUPLbgdoW3Cro
+3bWT72P6OZxOBcos9LAxZj1dh6HCcL8z72F8EtYrjlnOcQJheRJAu2OYxxDwURAx
+ygMGtigT9wl/8BmbUkjeYyaBqpLBXg==
+=dYAD
 -----END PGP SIGNATURE-----
 
---===============5198170115297285921==
+--===============6930306356663827677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -481,7 +481,7 @@ eadaac4dd2e07292181d35858047bdb177d5194f Merge tag 'irq_urgent_for_v6.13_rc2' of
 0b6809a75ac026d4b569815744ad095b5d5955e1 Merge tag 'kbuild-fixes-v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 fac04efc5c793dccbd07e2d59af9f90b7fc0dca4 Linux 6.13-rc2
 
---===============5198170115297285921==
+--===============6930306356663827677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -913,4 +913,4 @@ eadaac4dd2e07292181d35858047bdb177d5194f Merge tag 'irq_urgent_for_v6.13_rc2' of
 fac04efc5c793dccbd07e2d59af9f90b7fc0dca4 Linux 6.13-rc2
 a6ebabd0e53d4352abe0fd2ad156a52162f5d3ce regulator: Merge up v6.12-rc2
 
---===============5198170115297285921==--
+--===============6930306356663827677==--
