@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
-Date: Mon, 09 Dec 2024 16:21:59 -0000
-Message-Id: <173376131937.2546981.17189585712269291358@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/modules/linux
+Date: Mon, 09 Dec 2024 16:22:23 -0000
+Message-Id: <173376134384.2547278.16820924802080267908@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/atorgue/stm32
-user: atorgue
+repo: pub/scm/linux/kernel/git/modules/linux
+user: ppavlu
 changes:
-  - ref: refs/heads/stm32-next
-    old: 7c7abd1bf4019e7a88ead7d93d6708153f17abf7
-    new: 0df076d35c58bfec06803d317251b0ffc3c039a9
+  - ref: refs/heads/modules-next
+    old: fac04efc5c793dccbd07e2d59af9f90b7fc0dca4
+    new: 3c9c790d218e5bc78552d45d17a4d298cf80c82c
     log: |
-         486f87a8688c1641e00795e49a2fc2ad35257f2f arm64: dts: st: Add combophy node on stm32mp251
-         0df076d35c58bfec06803d317251b0ffc3c039a9 arm64: dts: st: Enable COMBOPHY on the stm32mp257f-ev1 board
+         3c9c790d218e5bc78552d45d17a4d298cf80c82c module: Put known GPL offenders in an array
          
