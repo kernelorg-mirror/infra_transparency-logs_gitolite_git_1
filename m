@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1097357688490980193=="
+Content-Type: multipart/mixed; boundary="===============2020929327578274357=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 09 Dec 2024 21:11:22 -0000
-Message-Id: <173377868217.2821958.9566336673333853040@gitolite.kernel.org>
+Date: Mon, 09 Dec 2024 21:11:24 -0000
+Message-Id: <173377868458.2822038.12872244871615027089@gitolite.kernel.org>
 
---===============1097357688490980193==
+--===============2020929327578274357==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 51db5c8943001186be0b5b02456e7d03b3be1f12
     new: 6145fefc1e42c1895c0c1c2c8593de2c085d8c56
     log: revlist-51db5c894300-6145fefc1e42.txt
 
---===============1097357688490980193==
+--===============2020929327578274357==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -68,4 +68,4 @@ c45211c2369734d1b03c75165988878d16867040 cn10k-ipsec: Add SA add/del support for
 b3ae3dc3a30f3de78c0c3675ea980639b9ba212c cn10k-ipsec: Enable outbound ipsec crypto offload
 6145fefc1e42c1895c0c1c2c8593de2c085d8c56 Merge branch 'cn10k-ipswec-outbound-inline-support'
 
---===============1097357688490980193==--
+--===============2020929327578274357==--
