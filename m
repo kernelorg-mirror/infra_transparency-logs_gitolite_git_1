@@ -1,49 +1,60 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 09 Dec 2024 13:19:12 -0000
-Message-Id: <173375035231.2393484.5896988843283817000@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4017709014542994172=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Mon, 09 Dec 2024 13:22:22 -0000
+Message-Id: <173375054258.2396893.11589575100541913592@gitolite.kernel.org>
+
+--===============4017709014542994172==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/20241126_chancel_liu_add_function_to_constrain_rates
-    old: 0000000000000000000000000000000000000000
-    new: 4edc98598be43634f87af5d3876ebec6c274d2cb
-  - ref: refs/heads/20241203_kuninori_morimoto_gx_asoc_simple_card_utils_tidyup_for_multi_connection
-    old: 0000000000000000000000000000000000000000
-    new: bd4a5c8d5356fa42a1d63b684d34cf58a21eb8f7
-  - ref: refs/heads/20241205_frank_li_regulator_pca9450_collect_some_improvement_patches
-    old: 0000000000000000000000000000000000000000
-    new: 017b76fb8e5b6066f6791e7ad2387deb2c9c9a14
-  - ref: refs/heads/20241206_yung_chuan_liao_asoc_intel_boards_updates_for_6_14
-    old: 0000000000000000000000000000000000000000
-    new: d7f671b2f566379f275c13e25a29fa7001bb278f
-  - ref: refs/heads/20241208_andriy_shevchenko_spi_unify_and_simplify_fwnode_related_checks
-    old: 0000000000000000000000000000000000000000
-    new: 0020c9d2d572b49c55b2e1fabe6f6687e11a3ced
-  - ref: refs/heads/file5FHlR7
-    old: 0000000000000000000000000000000000000000
-    new: 7d57d1ce9398bb59fa0b251aa2ffa6eafef5cff4
-  - ref: refs/heads/filecsky0L
-    old: 0000000000000000000000000000000000000000
-    new: a17162f0b2dc97aa2dedfde8a7226fb9b5210534
-  - ref: refs/heads/filehBoKLz
-    old: 0000000000000000000000000000000000000000
-    new: f07ae52f5cf6a5584fdf7c8c652f027d90bc8b74
-  - ref: refs/heads/fileInyCgP
-    old: 0000000000000000000000000000000000000000
-    new: 25fb0e77b90e290a1ca30900d54c6a495eea65e2
-  - ref: refs/heads/filenURizH
-    old: 0000000000000000000000000000000000000000
-    new: b597681f66a7c9ce33370c06be52ca84f056e8de
-  - ref: refs/heads/v2_20241126_shengjiu_wang_asoc_fsl_change_iface_pcm_to_iface_mixer
-    old: 0000000000000000000000000000000000000000
-    new: 3fe80f29d67b070a539823753b7071f978edcd3f
-  - ref: refs/heads/v3_20241113_claudiu_beznea_add_audio_support_for_the_renesas_rz_g3s_soc
-    old: 0000000000000000000000000000000000000000
-    new: 07ffd60193d21c229089ab0bdce274bc679a40e5
+  - ref: refs/heads/master
+    old: 0d75de3154986f367069af02f2cea834bfdcc785
+    new: 756fde2cd79e14dcfd193e3d63713bf1bfaf53ae
+    log: |
+         0953e251d9e93e47663e0a63ac39984f1253e556 add .vulnerable id for several ntfs3 CVEs
+         2107dd57e79a63cd0a67b55712a8fffc89fe59d3 add .vulnerable id for several Intel Xe CVEs
+         1fc50c0853d1930bca2c79a11489d64d19321302 add .vulnerable id for several ksmbd CVEs
+         0d5383d12e432f86b521bb82cf1b63d377b9ab68 add .vulnerable id for several Realtek rtw89 CVEs
+         756fde2cd79e14dcfd193e3d63713bf1bfaf53ae add .vulnerable id for NXP Bluetooth uart CVEs
+         
+
+--===============4017709014542994172==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1733750567 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1733750539-a87498e5b7ff9e6a35a98c70159ee13e6ae0cb6e
+
+0d75de3154986f367069af02f2cea834bfdcc785 756fde2cd79e14dcfd193e3d63713bf1bfaf53ae refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdW7ygbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XeIP/2QLjmwsf9my6nyg418q
+zDAKnyUKWqWnFgW0bV2Wi/DzYZcapj7ADfw4gPBtdVOybWTO1QsheL0M2M1Nm4+j
+Ifhzh3qGCxBTJ/IijAP154LUdfYOKCiJNerPO3uRKOSDdeek/66qjb49LwLMJIk+
+s1TKXQMEnKHZzuPLrSgKeX41zKQlgUz0xrJP6dE8CvtIzgBq+mWn1/AvmOJhpkhT
+rPLBNFngnYJ4aBVexCN+dLvNkIeqNDUBKVAoR0Rr3KgzZztnvwKNkxoMUTEfqqem
+C276fYIATzlQFV9Fsc53HyZKjLw3aF4VYpjhlpfFJ7Q6TFjrdKZUqz9KB6PRUHDk
+4emEeE4w0zrCt7ZfroPmEpeLUyWDV1NDOeHkm2uJFP8LNF/4vTe47h+vCfl4Vx45
+BlIZGECQtIOr2QQFdYlXnom2NpiSKU3vm+ZtAnav09ixOKj/C4XPpG5hcbQXta9U
+oYNTbcdfm5jCFOt91LFesXe0U2zy/lRcK8QCZVga2m/TZF3ip/b6WkSAvV1y96ZU
+WUiTW4xEfVGmfKfo+Ti54GmYq31SplXInR7n0N9Zly/sgOcjeGjUZNo8ZvhMQYCg
+/rc84X5bN0ayyhmDnKqAIppKq1m6k8y9+2cx3VYYjry5j7knmFa/SeCGnp5IXR+u
+mxLzF8J/ogAWf6xuYqcyaS6c
+=dPgP
+-----END PGP SIGNATURE-----
+
+--===============4017709014542994172==--
