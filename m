@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0091730189640967732=="
+Content-Type: multipart/mixed; boundary="===============3947074443544148665=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/superm1/linux
-Date: Mon, 09 Dec 2024 21:03:59 -0000
-Message-Id: <173377823992.2814266.3685032731484127610@gitolite.kernel.org>
+Date: Mon, 09 Dec 2024 21:04:19 -0000
+Message-Id: <173377825991.2814607.5885905551828886751@gitolite.kernel.org>
 
---===============0091730189640967732==
+--===============3947074443544148665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/superm1/linux
 user: superm1
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: ab9e5b2eb56412cb8c63b46b935878d29205418e
+  - ref: refs/heads/linux-next
+    old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
     new: 1f2f221668b210107f1277901bb757f1d77de842
-    log: revlist-ab9e5b2eb564-1f2f221668b2.txt
+    log: revlist-40384c840ea1-1f2f221668b2.txt
 
---===============0091730189640967732==
+--===============3947074443544148665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ab9e5b2eb564-1f2f221668b2.txt
+Content-Disposition: attachment; filename=revlist-40384c840ea1-1f2f221668b2.txt
 
 4497ee914f10264894b08066cbee026604cd244f watchdog: fix typo in the comment
 daa814d784ac034c62ab3fb0ef83daeafef527e2 iTCO_wdt: mask NMI_NOW bit for update_no_reboot_bit() call
@@ -456,4 +456,4 @@ fac04efc5c793dccbd07e2d59af9f90b7fc0dca4 Linux 6.13-rc2
 30fec9abe51f8a7dc3ba138acf36b6da7ab23d87 cpufreq/amd-pstate: Remove the cppc_state check in offline/online functions
 1f2f221668b210107f1277901bb757f1d77de842 cpufreq/amd-pstate: Merge amd_pstate_epp_cpu_offline() and amd_pstate_epp_offline()
 
---===============0091730189640967732==--
+--===============3947074443544148665==--
