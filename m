@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4934420705990770713=="
+Content-Type: multipart/mixed; boundary="===============0746264059236884330=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-auxdisplay
-Date: Mon, 09 Dec 2024 16:55:14 -0000
-Message-Id: <173376331455.2575195.6001037089262252522@gitolite.kernel.org>
+Date: Mon, 09 Dec 2024 16:55:42 -0000
+Message-Id: <173376334292.2575704.3145030195604088299@gitolite.kernel.org>
 
---===============4934420705990770713==
+--===============0746264059236884330==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andy/linux-auxdisplay
 user: andy
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/review-andy
     old: 0b028ff7e70ecbe5240ad92e36a664af5cf7f382
     new: fcfadc7fef8c6af2dbc64ebe1e4d3b90a02ae428
     log: revlist-0b028ff7e70e-fcfadc7fef8c.txt
 
---===============4934420705990770713==
+--===============0746264059236884330==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ fac04efc5c793dccbd07e2d59af9f90b7fc0dca4 Linux 6.13-rc2
 3b362560d9a35ed82a87576ad360c4065a56d02c auxdisplay: img-ascii-lcd: Remove an unused field in struct img_ascii_lcd_ctx
 fcfadc7fef8c6af2dbc64ebe1e4d3b90a02ae428 auxdisplay: img-ascii-lcd: Constify struct img_ascii_lcd_config
 
---===============4934420705990770713==--
+--===============0746264059236884330==--
