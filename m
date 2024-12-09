@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6292761153566242161=="
+Content-Type: multipart/mixed; boundary="===============0448483777692211699=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 09 Dec 2024 01:46:12 -0000
-Message-Id: <173370877250.1710259.4185199797502481954@gitolite.kernel.org>
+Date: Mon, 09 Dec 2024 01:46:25 -0000
+Message-Id: <173370878573.1710515.14541977502588398619@gitolite.kernel.org>
 
---===============6292761153566242161==
+--===============0448483777692211699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: 954fbf43e5661c78008e9054839a9f1595fc708e
     new: f2dc1ed2104b107213004be1920bc98f546f8e6c
     log: revlist-954fbf43e566-f2dc1ed2104b.txt
 
---===============6292761153566242161==
+--===============0448483777692211699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -429,4 +429,4 @@ e9bd8e4b7712057a2411ca5fb0c8b6b58d5d150b kbuild: deb-pkg: do not include empty h
 b493dc6aab8a9c7c52a9fdc498937df31a22314e kbuild: deb-pkg: allow hooks also in /usr/share/kernel
 f2dc1ed2104b107213004be1920bc98f546f8e6c kbuild: deb-pkg: add debarch for ARCH=um
 
---===============6292761153566242161==--
+--===============0448483777692211699==--
