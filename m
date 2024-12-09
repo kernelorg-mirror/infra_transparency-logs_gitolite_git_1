@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 09 Dec 2024 19:13:34 -0000
-Message-Id: <173377161430.2723115.14612008956166923632@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 09 Dec 2024 19:14:02 -0000
+Message-Id: <173377164222.2723486.14360630771815769814@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/pending
-    old: ff73f816ca105f1eb3d28b093e0d9cdeb43bb672
-    new: 185fc2fe3fb8b8daeaea736b5a2d1719255b6015
+  - ref: refs/heads/master
+    old: 1963cc4e07d05a8fc7a79c8aaec16efb7aaa1576
+    new: eda4fa7f752002465a05aa9f46a24f2e570a7bf1
     log: |
-         85a866b66b7d4fc4965e15ef47a3e1b2cb6f2502 wifi: ath12k: fix leaking michael_mic for non-primary links
-         185fc2fe3fb8b8daeaea736b5a2d1719255b6015 wifi: ath12k: Off by one in ath12k_wmi_process_csa_switch_count_event()
+         fac04efc5c793dccbd07e2d59af9f90b7fc0dca4 Linux 6.13-rc2
+         32913f348229c9f72dda45fc2c08c6d9dfcd3d6d futex: fix user access on powerpc
+         aeb68937614f4aeceaaa762bd7f0212ce842b797 x86: Fix build regression with CONFIG_KEXEC_JUMP enabled
+         df9e2102de839c587eb50b2a5d1d19b07a6caaf5 Merge tag 'sched_urgent_for_v6.13_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+         e4c995f92b210ab353aa39e4c100ffc5d12eb13c Merge tag 'perf_urgent_for_v6.13_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+         7cb1b466315004af98f6ba6c2546bb713ca3c237 Merge tag 'locking_urgent_for_v6.13_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+         eda4fa7f752002465a05aa9f46a24f2e570a7bf1 Merge branch 'linus'
          
