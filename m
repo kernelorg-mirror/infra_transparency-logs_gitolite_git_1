@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0517873616818612534=="
+Content-Type: multipart/mixed; boundary="===============6572619019162342126=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 09 Dec 2024 14:51:43 -0000
-Message-Id: <173375590320.2470597.2399316385251777906@gitolite.kernel.org>
+Date: Mon, 09 Dec 2024 14:52:07 -0000
+Message-Id: <173375592799.2470906.12323850280665434420@gitolite.kernel.org>
 
---===============0517873616818612534==
+--===============6572619019162342126==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,41 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 3ed87cc428f63a6291840ca98763fe4fb2c37b63
-    new: e5e9008b65521ee0e0400b533a2075e42050a0a4
-    log: revlist-3ed87cc428f6-e5e9008b6552.txt
+    old: e5e9008b65521ee0e0400b533a2075e42050a0a4
+    new: 1963cc4e07d05a8fc7a79c8aaec16efb7aaa1576
+    log: revlist-e5e9008b6552-1963cc4e07d0.txt
+  - ref: refs/heads/tip/urgent
+    old: 84e099c4ecf060d0414d6ec046b34774af7097fa
+    new: 236458dc559f039bf2f0b929aeea07c0267e15fd
+    log: |
+         493afbd187c4c9cc1642792c0d9ba400c3d6d90d sched/fair: Fix NEXT_BUDDY
+         c1f43c342e1f2e32f0620bf2e972e2a9ea0a1e60 sched/fair: Fix sched_can_stop_tick() for fair tasks
+         76f2f783294d7d55c2564e2dfb0a7279ba0bc264 sched/eevdf: More PELT vs DELAYED_DEQUEUE
+         df87d1347d6c0a6500bd4ca86f6b58921b01d288 Merge branch into tip/master: 'locking/urgent'
+         cb2b9981badcd267ef555ac08bf42b259de3019c Merge branch into tip/master: 'perf/urgent'
+         236458dc559f039bf2f0b929aeea07c0267e15fd Merge branch into tip/master: 'sched/urgent'
+         
 
---===============0517873616818612534==
+--===============6572619019162342126==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3ed87cc428f6-e5e9008b6552.txt
+Content-Disposition: attachment; filename=revlist-e5e9008b6552-1963cc4e07d0.txt
 
-493afbd187c4c9cc1642792c0d9ba400c3d6d90d sched/fair: Fix NEXT_BUDDY
-c1f43c342e1f2e32f0620bf2e972e2a9ea0a1e60 sched/fair: Fix sched_can_stop_tick() for fair tasks
-76f2f783294d7d55c2564e2dfb0a7279ba0bc264 sched/eevdf: More PELT vs DELAYED_DEQUEUE
-40c3b94fbb5a2c2415e5ac27d995adfd0f71a1e0 Merge branch 'sched/urgent'
-7b8a702d943827130cc00ae36075eff5500f86f1 sched/fair: Rename h_nr_running into h_nr_queued
-c2a295bffeaf9461ecba76dc9e4780c898c94f03 sched/fair: Add new cfs_rq.h_nr_runnable
-1a49104496d38cdcb7d9106ec23773a52c7a7e82 sched/fair: Use the new cfs_rq.h_nr_runnable
-9216582b0bfb17889eebcf96fb41cd67a3d71133 sched/fair: Removed unsued cfs_rq.h_nr_delayed
-31898e7b87dd2833eb5dd6aa60ab2a5880c4c12f sched/fair: Rename cfs_rq.idle_h_nr_running into h_nr_idle
-43eef7c3a4a65e258244d63a8992d0a8d70e5974 sched/fair: Remove unused cfs_rq.idle_nr_running
-736c55a02c477ad31c57ae4c69130f437855e051 sched/fair: Rename cfs_rq.nr_running into nr_queued
-61b82dfb6b7e1f951fd1e95198a2aee2ccf6a167 sched/fair: Do not try to migrate delayed dequeue task
-0429489e092851f066b08deed9ce0f3910515383 sched/fair: Fix variable declaration position
-95d9fed3a2aea85fe9551c2f007e186d4abb4a2a sched/fair: Mark m*_vruntime() with __maybe_unused
-2a77e4be12cb58bbf774e7c717c8bb80e128b7a4 sched/fair: Untangle NEXT_BUDDY and pick_next_task()
-2ff913ab3f472321ac1931b663314edd6c211a0c uprobes: Simplify session consumer tracking
-636666a1c73313a0cc9a0a6671c29e2d6ebe16fb uprobes: Decouple return_instance list traversal and freeing
-0cf981de7687b26ccc9bd4e6daa8fa6b177f91a9 uprobes: Ensure return_instance is detached from the list before freeing
-8622e45b5da17e777e0e45f16296072494452318 uprobes: Reuse return_instances between multiple uretprobes within task
-6057b90ecc84f232dd32a047a086a4c4c271765f perf/core: Export perf_exclude_event()
-d29e744c71673a71da8f8522799ee02744cad6c9 perf/x86: Relax privilege filter restriction on AMD IBS
-02c56362a7d3eccc209d5c00d73a06513d2504d5 uprobes: Guard against kmemdup() failing in dup_return_instance()
-39e906e2464d6ba0331e74eafc2ad6f6dd320112 Merge branch into tip/master: 'sched/urgent'
-64a91c46eb2a5d726602abbbebe3da8be7a5a453 Merge branch into tip/master: 'perf/core'
-e5e9008b65521ee0e0400b533a2075e42050a0a4 Merge branch into tip/master: 'sched/core'
+df87d1347d6c0a6500bd4ca86f6b58921b01d288 Merge branch into tip/master: 'locking/urgent'
+cb2b9981badcd267ef555ac08bf42b259de3019c Merge branch into tip/master: 'perf/urgent'
+236458dc559f039bf2f0b929aeea07c0267e15fd Merge branch into tip/master: 'sched/urgent'
+fedcb04ec2dc1d82ecc50b142b897aa24bdeedd0 Merge branch into tip/master: 'irq/core'
+cdd07c5fb431523ff01b70017817e010a4fdc742 Merge branch into tip/master: 'locking/core'
+ee2ff683b542e566e90c7cf054f7b073abe25e0d Merge branch into tip/master: 'objtool/core'
+d64d5cdf357cf68507ad14903ba6e255ac361645 Merge branch into tip/master: 'perf/core'
+b9274afe63e18712b0e87aebb75db0cef86ea27a Merge branch into tip/master: 'sched/core'
+24191bdca13b9ddb90b5a932a7ee3fac0cab10ee Merge branch into tip/master: 'x86/boot'
+2e5e6b919c717820a20623e1b66e0b30de7b2a2d Merge branch into tip/master: 'x86/cache'
+1bc3252359faa31fbe0eb1c7516a0a50f9bf7668 Merge branch into tip/master: 'x86/cleanups'
+60ddfc9a49541659507a527a2808a20f554c2609 Merge branch into tip/master: 'x86/cpu'
+55b49bebda0ace8fddc54bb4e8b3947cbf801ef9 Merge branch into tip/master: 'x86/misc'
+a83f61c481fba53dd2a1a71a7a5d342e56eb0b51 Merge branch into tip/master: 'x86/mm'
+1963cc4e07d05a8fc7a79c8aaec16efb7aaa1576 Merge branch into tip/master: 'x86/tdx'
 
---===============0517873616818612534==--
+--===============6572619019162342126==--
