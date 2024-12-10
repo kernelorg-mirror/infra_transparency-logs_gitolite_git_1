@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 10 Dec 2024 20:44:35 -0000
-Message-Id: <173386347578.4036656.1735700074961511775@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 10 Dec 2024 20:49:35 -0000
+Message-Id: <173386377523.4040964.1178565214723345732@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/x86/cleanups
-    old: 05453d36a2fcaf1ea49939f8f9a8cd9dcd516159
-    new: 3560a023a9b9965803e8a967ee88343879b5dc1b
+  - ref: refs/heads/block-6.13
+    old: 86e6ca55b83c575ab0f2e105cf08f98e58d3d7af
+    new: 790eb09e59709a1ffc1c64fe4aae2789120851b0
     log: |
-         3560a023a9b9965803e8a967ee88343879b5dc1b x86/cpu: Fix typo in x86_match_cpu()'s doc
+         790eb09e59709a1ffc1c64fe4aae2789120851b0 block: get wp_offset by bdev_offset_from_zone_start
          
