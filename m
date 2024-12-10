@@ -1,56 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============8748001958147281046=="
+Content-Type: multipart/mixed; boundary="===============0897504615779637004=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Tue, 10 Dec 2024 12:25:11 -0000
-Message-Id: <173383351120.3613773.3111621050001585259@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Tue, 10 Dec 2024 12:27:39 -0000
+Message-Id: <173383365986.3614812.205035886786599853@gitolite.kernel.org>
 
---===============8748001958147281046==
+--===============0897504615779637004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/master
-    old: 6c13e820046112a07a31f87285d09ba9ef597217
-    new: 9e58a599a173e92df3416c23b13fb8562fbaa1fc
-    log: |
-         9e58a599a173e92df3416c23b13fb8562fbaa1fc add 6.12.3 review from greg
-         
+  - ref: refs/heads/misc
+    old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
+    new: 2486e60bdd41ca7ad98b9dc7467abf4628f008ab
+    log: revlist-40384c840ea1-2486e60bdd41.txt
 
---===============8748001958147281046==
+--===============0897504615779637004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-40384c840ea1-2486e60bdd41.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1733833503 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1733833508-924743e5bd9662d2dd5ca1b27348d2f7c6fc1d0c
+5f8822c4a4209b186ba655841993e5797c31e19e scsi: fnic: Use vcalloc() instead of vmalloc() and memset(0)
+cdb03e598750e7ebc222571aa96653e9b5a59dbe scsi: bsg: Replace zero-length array with flexible array member
+e738ba458e7539be1757dcdf85835a5c7b11fad4 scsi: ufs: core: Introduce ufshcd_has_pending_tasks()
+7869c6521f5715688b3d1f1c897374a68544eef0 scsi: ufs: core: Prepare to introduce a new clock_gating lock
+209f4e43b8068c24cde227f464111030430153fa scsi: ufs: core: Introduce a new clock_gating lock
+be769e5cf53b8a45eedcc7354bacf939ae16f72c scsi: ufs: core: Introduce a new clock_scaling lock
+91e11129b9894ef709f3faf13a41ea60d46e7a44 Merge patch series "Untie the host lock entanglement - part 2"
+a9a099575d4f24323ae3351b21fe556d37d9e932 scsi: csiostor: Fix typo doesnt->doesn't
+841df27d619ee1f5ca6473e15227b39d6136562d scsi: qla2xxx: Move FCE Trace buffer allocation to user control
+0f630c58e31afb3dc2373bc1126b555f4b480bb2 scsi: pm80xx: Do not use libsas port ID
+4c567a9d0e009c998125d549dc53ab0d21724a55 scsi: pm80xx: Use dynamic tag numbers for PHY start and stop
+b64004dbcd239d5eeac0b41c167a306291510d55 scsi: pm80xx: Increase reserved tags from 8 to 128
+5efff64c6be9a236200e026ce8f401b2c62afe32 scsi: pm80xx: Improve debugging for aborted commands
+ed638918f4df39daa458435f0825b487c1f192c8 scsi: Rename .slave_alloc() and .slave_destroy()
+47c2e30afcec52968e50db01f92dda7d373042cb scsi: Rename .device_configure() into .sdev_configure()
+49515b7fe50ce4348b3dd5116b6d7d4308546da6 scsi: Convert SCSI drivers to .sdev_configure()
+0f98212d96a2af52e4091a199ef1d35d478d0c60 scsi: core: Remove the .slave_configure() method
+b0d3b8514abd2f49b479dc775a03725c25b2f11c scsi: core: Update API documentation
+2486e60bdd41ca7ad98b9dc7467abf4628f008ab Merge patch series "Replace the "slave_*" function names"
 
-6c13e820046112a07a31f87285d09ba9ef597217 9e58a599a173e92df3416c23b13fb8562fbaa1fc refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdYMx8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+63cQAK/knI0OajpzfBqvDMtR
-rb16z/yrLDN0F3XCkdJR3NxHFtyJUnPqPKgFEanm7B9tNuX53tqtZDujgA71kV+a
-Y39rm03sHLnkSYvNSGK2Z0QrVZt6MOabQoQbxAJ0esSyKD14hC/uDrBhYPwShl40
-STa5wl7s1yuk32iRulhcIccI3sCbvfrSRV05sEL7rvLX/XG6WQw7h6C2D5/DBJzl
-HT08muy0j02/kRd9NMvzJJOnwYnvbFia5Nwzr9oswZqE+Dfu3Ceqf6/PIUIsjo0w
-nCs/iNbG/RgSNZlZ/Q+ZYJASDGUF4cQT0Q3jV9snibSLjKkIR+NPWK0g06qvMkQz
-T17aDGtEEsX+C6zZE6u7H7MHYYcH7O2Y5yjPp3w6CPHhZMyRPSoNNAIx7buaaZpE
-/N4w26NlOW0/sX8m7Zuc8aBP9TSNLOLnyWWZ9D9Wr3JQ+KuvdLNeV2vD0tAxmyrQ
-WFqyhHIxUXWHLjJ46vUI/budzDv2MAVoo2HULesCYKaXQHeUd/uEDD/HjtOpheAl
-8TiNuHqewIvheBReBh61ZTmr0BHECgiYbr4DM7T9pZKemzHCWwUcst3cJMVWPVf1
-QGrAZDKWRfoTd/GBfNy58W51rmD0f9OJyr02iOEilBxxeuLUPQ1WLTqnFdPQ0p9E
-SXXlDsordzMAqy/LVBGt7hSl
-=sf1U
------END PGP SIGNATURE-----
-
---===============8748001958147281046==--
+--===============0897504615779637004==--
