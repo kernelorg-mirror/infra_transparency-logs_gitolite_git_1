@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7610912034254709398=="
+Content-Type: multipart/mixed; boundary="===============0714988026913442794=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 10 Dec 2024 23:03:17 -0000
-Message-Id: <173387179784.4150422.15523375121228289427@gitolite.kernel.org>
+Date: Tue, 10 Dec 2024 23:03:35 -0000
+Message-Id: <173387181561.4150882.5457565085315009675@gitolite.kernel.org>
 
---===============7610912034254709398==
+--===============0714988026913442794==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 6145fefc1e42c1895c0c1c2c8593de2c085d8c56
-    new: a0e1fc921cb0651cd11469bf5378ec342bf7094d
-    log: revlist-6145fefc1e42-a0e1fc921cb0.txt
+  - ref: refs/heads/dev-queue
+    old: f6128cabd95eabba970e0be603e6502dafba2d09
+    new: 66cd444cfec274b881053146969b4828c56e36ca
+    log: revlist-f6128cabd95e-66cd444cfec2.txt
 
---===============7610912034254709398==
+--===============0714988026913442794==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6145fefc1e42-a0e1fc921cb0.txt
+Content-Disposition: attachment; filename=revlist-f6128cabd95e-66cd444cfec2.txt
 
 d1fd972914239996dbd15c5142d7f6e09d95a002 ktime: Add us_to_ktime()
 0e56ebde245e4799ce74d38419426f2a80d39950 rxrpc: Fix handling of received connection abort
@@ -100,5 +100,93 @@ fd59bca4d5eaba6cadf78e74b5e72fd8852a7529 net: xgene_enet: Use helper rgmii_clock
 cd197ac5d661ee2ab36f1578164e276ad947506c net: stmmac: dwmac-s32: add basic NXP S32G/S32R glue driver
 6bc6234cbd5e9f7a4d8a20aa4d5f0c891e099649 MAINTAINERS: Add Jan Petrous as the NXP S32G/R DWMAC driver maintainer
 a0e1fc921cb0651cd11469bf5378ec342bf7094d Merge branch 'add-support-for-synopsis-dwmac-ip-on-nxp-automotive-socs-s32g2xx-s32g3xx-s32r45'
+708768e3dc821c63c08fd501cd9225941821771e ice: fix BST key index in ice_bst_key_init()
+8ad55bba1ca6beee78674e8c06584e87c2dffae3 iavf: allow changing VLAN state without calling PF
+4469eb3f464d2245b76bc943a5d0d56335a91c40 ice: Fix E825 initialization
+248e0b3e99d11fa94102d68a4f14d9589e8a6f43 ice: Fix quad registers read on E825
+aa3328b0a1961dcbd43a673b86ddcf84fd0f2d01 ice: Fix ETH56G FC-FEC Rx offset value
+0629cc1e1f1a417594e6eb3790389d3a78ea3fd3 ice: Add correct PHY lane assignment
+ec3f79c1ed07098e6cd52a6b67f07961f2af44ab ice: Don't check device type when checking GNSS presence
+800c0d0f0cc66d9e819e0ee48cae73345eed0240 ice: Remove unncecessary ice_is_e8xx() functions
+f224835ad9ad4d786d757ccef2e9ec08ab96e16c ice: Use FIELD_PREP for timestamp values
+3995471bca9e004d99f40ab59eef3b683775956f ice: Process TSYN IRQ in a separate function
+7602d7d237218c7a84e3c1038dd76b4af83b85cb ice: Add unified ice_capture_crosststamp
+25021fb4a744cfb98bdda526a286da851de827d7 ice: Refactor ice_ptp_init_tx_*
+8a27baa01474a8f273d79fd9260e5672cf842ef8 ice: Implement PTP support for E830 devices
+9a1b3de13dc87032af7ece51132f23399c170fbc checkpatch: don't complain on _Generic() use
+d96445c5ecc2d22ca101381c2faf15fb619d4a9e devlink: add devlink_fmsg_put() macro
+de8a3fb8fb435f7d1f597c1257077ce84128c99e devlink: add devlink_fmsg_dump_skb() function
+c9c1a1d4c51ab4783eaa3f91ea093d2174d5ec01 ice: rename devlink_port.[ch] to port.[ch]
+170ab79b1a291798bcaae5312443379c00c04c54 ice: add Tx hang devlink health reporter
+97ae4b524f58eac0163cd96bcf515af445e09aca ice: dump ethtool stats and skb by Tx hang devlink health reporter
+55e5b7f158647ac4455178c4af2c7dabbb842f4a ice: Add MDD logging via devlink health
+911db3ace9e0a1dc3e6c06d86408537220405d4c ice: c827: move wait for FW to ice_init_hw()
+c23f3ee2b24f915b715db749f3033b5306ed7d90 ice: split ice_init_hw() out from ice_init_dev()
+8784a0d52c78d19c045765167067e8025d09fdf0 ice: minor: rename goto labels from err to unroll
+dc32a55dafba3a6a118ac47324f1d221864b3fd3 ice: ice_probe: init ice_adapter after HW init
+256f1a837ac26b2450c47fad48dc706c48238657 ice: add recipe priority check in search
+e9183ebeb3e114a0534cc963330f7476beb52165 PCI: Add PCI_VDEVICE_SUB helper macro
+7664b1d240615c09844ee212924c99414300f149 ixgbevf: Add support for Intel(R) E610 device
+3632175ec0fb27f034daba702b6d53a44c26647f igb: Remove static qualifiers
+0c007076936b37015e414ecd76c8641223f7dcc1 igb: Introduce igb_xdp_is_enabled()
+44fe3819125c97db6ecfdc95440bf0afc0ceccd5 igb: Introduce XSK data structures and helpers
+c23554c503b7555e773e561ee4ef44a6b7c431bf igb: Add XDP finalize and stats update functions
+cadbbaab30ff6433356ff2e68006d3e68ba66ca7 igb: Add AF_XDP zero-copy Rx support
+d1dfa117c478f08a98945902c7a8622e81558bdd igb: Add AF_XDP zero-copy Tx support
+306a0f25adde3ca8eac20b7687324e0b56bd89a9 pldmfw: enable selected component update
+30ecc87b103060aa8780007e7e817aca55eebf51 devlink: add devl guard
+92992f049ce8d2fe775e7dc3032f8103f842db37 ice: support FW Recovery Mode
+1e750036484663a0a951018a0dcb5cf0cc8585f5 igc: Fix passing 0 to ERR_PTR in igc_xdp_run_prog()
+59539374a2800c77307e1aa28ea3638e2d307fb2 igb: Fix passing 0 to ERR_PTR in igb_run_xdp()
+127f96a304c3b285779cc41fcf7769f45a3a48f7 ixgbe: Fix passing 0 to ERR_PTR in ixgbe_run_xdp()
+e1057f9f17e14190f94ad0ccfcbb7e8993704ed6 ixgbevf: Fix passing 0 to ERR_PTR in ixgbevf_run_xdp()
+0b23dd693fbf67b9596c54c4b29737eb17acd81f ice: use string choice helpers
+688397ea00aa44a1768f4a6c4aabff8c6f06d158 igc: Link IRQs to NAPI instances
+6afad2696856092635063a241e4f98190923c16c igc: Link queues to NAPI instances
+9b82a880aac25b22395c62dd1c5fb054d6dd4ef1 virtchnl: add support for enabling PTP on iAVF
+00977921e7cdf22f6e8d45fa628acc5dcbb98863 ice: support Rx timestamp on flex descriptor
+095e6144414ec2016ab6c404c773e1dc8afb35ca virtchnl: add enumeration for the rxdid format
+efcf9f079495eda85cf75a0deb067081758d6781 iavf: add support for negotiating flexible RXDID format
+3f7ad429ec04253c2be0cd8fd50a2c10e110deba iavf: negotiate PTP capabilities
+c35b156c6015ef7327b3e6f0356fa325b074d8b4 iavf: add initial framework for registering PTP clock
+953ce334a8ccfe8bfb2178d2ffbcaee6b3ec6ad0 iavf: add support for indirect access to PHC time
+05ce5232d537f23ab8ec93e683edcdd14dc3cb31 iavf: periodically cache PHC time
+7516988c7de7b7a3fcbac82dab45b730c719e09f libeth: move idpf_rx_csum_decoded and idpf_rx_extracted
+574e503900c5af1df4f24a53a14a60100bc8c670 iavf: define Rx descriptors as qwords
+7e4dd7dbaf09466c705dd31b0cd55dc032577554 iavf: refactor iavf_clean_rx_irq to support legacy and flex descriptors
+1ac910f5d916831da2fbc9bf0acad167efa442f2 iavf: Implement checking DD desc field
+1fcb992988199009edf680210cad037d64704ff1 iavf: handle set and get timestamps ops
+944a39762c965af40caf22265076a6b396ad4e7b iavf: add support for Rx timestamps to hotpath
+1ad305933c4d8ec40b1f0047e50a6cef406f3286 idpf: Change function argument
+ba2a20e3459f7c10250bd68eaa610fcc59d2099c idpf: rename vport_ctrl_lock
+5f833fc142a8505aabc0de404659b987d3177ff5 idpf: Add init, reinit, and deinit control lock
+6702dab2ea7da754c93658572400a07f0d3d818c idpf: add lock class key
+7121e9764706ed9e9072cb5dda49d6c06d25b26b i40e: add ability to reset VF for Tx and Rx MDD events
+fc2e29882fa08ece40eb74edcda941bae4d7feb6 intel/fm10k: Remove unused fm10k_iov_msg_mac_vlan_pf
+2b96d7654c1462211968294843c749cefd3ea3aa igc: Allow hot-swapping XDP program
+e43059740e931066e56230958be9d81f38a6cff3 ice: fix max values for dpll pin phase adjust
+5e6265057b4dcfdca004c4fc13b0bab9b8d56ffc idpf: add read memory barrier when checking descriptor done bit
+28c51dd07a108c35b5abb3d1d1520665b8b0f81f idpf: add support for SW triggered interrupts
+a12a724bb11df5cd188abaed9ac232ec241706ae idpf: trigger SW interrupt when exiting wb_on_itr mode
+2cc27ec10d9bd9b92ae9c67ffcaa5845e9357a7f ice: count combined queues using Rx/Tx count
+a15dadff0ade538b135b0dfd3cf06cd95bf36450 ice: devlink PF MSI-X max and min parameter
+91895284e0a20e9f921757bcf15540b4e56ee70a ice: remove splitting MSI-X between features
+8af27c830e913092d88898e81d38316a2612271d ice: get rid of num_lan_msix field
+ae1778c409b73305179f9bd301f66610b99b1f66 ice, irdma: move interrupts code to irdma
+03925ea269cee3ae29d1790e774e52bbb1403583 ice: treat dyn_allowed only as suggestion
+9694138601fb30ffe459caa2a7c8e27f5c56e906 ice: enable_rdma devlink param
+f3222e7942ea047d3b8d19fa1660bfc15edc7ce9 ice: simplify VF MSI-X managing
+e86cc187aaa7e59321d5275b16fc750f5aae58ba ice: init flow director before RDMA
+6c23ea6015375e36792ca4a10f8ace0ef131bb8a ice: Add in/out PTP pin delays
+0ac9b2d81d7cfc8993164789d9ae9f7fbbb2a213 ice: Extend ethtool reset support
+df01a00a034590e4d30fec4d3db38b06e98588b1 ice: fix incorrect PHY settings for 100 GB/s
+6d670d862fd56eda4143b0d55092d0ef0ec8d066 ixgbe: Add support for E610 FW Admin Command Interface
+7183c535e238654fb17b48a032dd2c716a81df2b ixgbe: Add support for E610 device capabilities detection
+2550b70a3d96f700e2477d0c6dbe4b6c0d1418f4 ixgbe: Add link management support for E610 device
+253f589afb76197ad4344a361f3eaee7e9faefd7 ixgbe: Add support for NVM handling in E610 device
+80120b9f7d9eb4d043df4a5d87f97303bbeb3205 ixgbe: Add support for EEPROM dump in E610 device
+dc849db6cf24c92a2c69a7db587f97db6a95127b ixgbe: Add ixgbe_x540 multiple header inclusion protection
+c483f4ee0f0f4a4bf5f77554e7d671b8b365fa40 ixgbe: Clean up the E610 link management related code
+66cd444cfec274b881053146969b4828c56e36ca ixgbe: Enable link management in E610 device
 
---===============7610912034254709398==--
+--===============0714988026913442794==--
