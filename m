@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7429714543310428489=="
+Content-Type: multipart/mixed; boundary="===============8290768196980443258=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 10 Dec 2024 22:58:36 -0000
-Message-Id: <173387151654.4145309.1051406062041435991@gitolite.kernel.org>
+Date: Tue, 10 Dec 2024 22:58:43 -0000
+Message-Id: <173387152353.4145489.669603522278624545@gitolite.kernel.org>
 
---===============7429714543310428489==
+--===============8290768196980443258==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 11776cff0b563c8b8a4fa76cab620bfb633a8cb8
-    new: 51a00be6a0994da2ba6b4ace3b7a0d9373b4b25e
-    log: revlist-11776cff0b56-51a00be6a099.txt
+  - ref: refs/heads/dev-queue
+    old: 9f73ec1ac48b5180d17bb95042bf81be17d561da
+    new: 036129d3b52eea09107fc3a31211830a7a0892db
+    log: revlist-9f73ec1ac48b-036129d3b52e.txt
 
---===============7429714543310428489==
+--===============8290768196980443258==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-11776cff0b56-51a00be6a099.txt
+Content-Disposition: attachment; filename=revlist-9f73ec1ac48b-036129d3b52e.txt
 
 cf3515c556907b4da290967a2a6cbbd9ee0ee723 selftests: mlxsw: sharedbuffer: Remove h1 ingress test case
 6c46ad4d1bb2e8ec2265296e53765190f6e32f33 selftests: mlxsw: sharedbuffer: Remove duplicate test cases
@@ -64,5 +64,19 @@ af47a328e8130c81984cbcd1f771fc4bb777bd0f octeontx2-af: Fix installation of PF mu
 76a771ec4c9adfd75fe53c8505cf656a075d7101 virtio_net: ensure netdev_tx_reset_queue is called on bind xsk for tx
 00301ef4b26d551141c96efeebff40904241f594 Merge branch 'virtio_net-correct-netdev_tx_reset_queue-invocation-points'
 51a00be6a0994da2ba6b4ace3b7a0d9373b4b25e udp: fix l4 hash after reconnect
+0a8e9a187ef279c885a707305dd0e8ed1fcb3fae iavf: allow changing VLAN state without calling PF
+1406a9995073905db7d8aa1c519a6342aff59d5e ice: Fix E825 initialization
+80aedbfaf17cbd4fdc22e6ee4f800c92b90b58c7 ice: Fix quad registers read on E825
+f63af95691289474fcc9f8819e6587aea19e86c2 ice: Fix ETH56G FC-FEC Rx offset value
+a66336f2e85518630ed9822582541eff90cfde1a ice: Add correct PHY lane assignment
+2468ed29a25acb5e4ae7b1b8d18c2b7070604185 idpf: Change function argument
+4a9bfb373b617763db725c7f09bc4f95bddc2eb4 idpf: rename vport_ctrl_lock
+24a3dc1af81034cb05421cf48f763a94f6559324 idpf: Add init, reinit, and deinit control lock
+1bab7aaa87feb14e6542aab5a1aa5842bc202957 idpf: add lock class key
+06da71f8bda88747b5440445e328b5482f2cd260 ice: fix max values for dpll pin phase adjust
+ddc8f5682fd2bcd5ce2a8e4f83cdc822e01e14f1 idpf: add read memory barrier when checking descriptor done bit
+0ea112b4480409fa9be2bbecd5f95b58fe387a94 idpf: add support for SW triggered interrupts
+7083dd354d1bb3ba4203f9fe9e86ce2b5e16dbf0 idpf: trigger SW interrupt when exiting wb_on_itr mode
+036129d3b52eea09107fc3a31211830a7a0892db ice: fix incorrect PHY settings for 100 GB/s
 
---===============7429714543310428489==--
+--===============8290768196980443258==--
