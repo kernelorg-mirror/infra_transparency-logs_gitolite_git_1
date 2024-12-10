@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8728552529097045532=="
+Content-Type: multipart/mixed; boundary="===============0455626307598445036=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Tue, 10 Dec 2024 16:05:08 -0000
-Message-Id: <173384670878.3803820.18321542470733679986@gitolite.kernel.org>
+Date: Tue, 10 Dec 2024 16:06:18 -0000
+Message-Id: <173384677809.3804464.14490006811493868883@gitolite.kernel.org>
 
---===============8728552529097045532==
+--===============0455626307598445036==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/fixes
-    old: 87a0d90fcd31c0f36da0332428c9e1a1e0f97432
-    new: f3d87abe11ed04d1b23a474a212f0e5deeb50892
-    log: revlist-87a0d90fcd31-f3d87abe11ed.txt
-  - ref: refs/tags/v6.13-rc2
-    old: 0000000000000000000000000000000000000000
-    new: e32a80927434907f973f38a88cd19d7e51991d24
+  - ref: refs/heads/next
+    old: e0dbb300d318062177682ae8d3f8733be7333028
+    new: df425814019f46c2e34567560d15d8f510683c32
+    log: revlist-e0dbb300d318-df425814019f.txt
 
---===============8728552529097045532==
+--===============0455626307598445036==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-87a0d90fcd31-f3d87abe11ed.txt
+Content-Disposition: attachment; filename=revlist-e0dbb300d318-df425814019f.txt
 
 4497ee914f10264894b08066cbee026604cd244f watchdog: fix typo in the comment
 daa814d784ac034c62ab3fb0ef83daeafef527e2 iTCO_wdt: mask NMI_NOW bit for update_no_reboot_bit() call
@@ -451,7 +448,23 @@ c25ca0c2e42c77e0241411d374d44c41e253b3f5 Merge tag 'timers_urgent_for_v6.13_rc2'
 eadaac4dd2e07292181d35858047bdb177d5194f Merge tag 'irq_urgent_for_v6.13_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 0b6809a75ac026d4b569815744ad095b5d5955e1 Merge tag 'kbuild-fixes-v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 fac04efc5c793dccbd07e2d59af9f90b7fc0dca4 Linux 6.13-rc2
+a2a44f8da29352f76c99c6904ee652911b8dc7dd mmc: core: Respect quirk_max_rate for non-UHS SDIO card
+5feebfb4b34c18411d699e64247111221e3c4abc dt-bindings: mmc: marvell,xenon-sdhci: Simplify Armada 3700 if/then schema
+8593b6871314cff8200308cbc6a1cf6da3fbf356 dt-bindings: mmc: atmel,sama5d2-sdhci: add microchip,sama7d65-sdhci
+0202dfbdc5dea70e213205aa42ab49a1a08aad3a mmc: sdhci-esdhc-imx: enable 'SDHCI_QUIRK_NO_LED' quirk for S32G
+ea79df10331218b04d90f028a605f33c879c518d mmc: core: Drop the MMC_RSP_R1_NO_CRC response
+ed97550d470d00ebafe9de888fd100cb82d3abb6 mmc: core: Introduce the MMC_RSP_R1B_NO_CRC response
+02fcf9c9e237e3a8c31cacf67dbb0366b78a7e4f mmc: mtk-sd: Add support for ignoring cmd response CRC
+65169604e8d00308c23d66d02a70d67a5e4ff68c mmc: core: don't include 'pm_wakeup.h' directly
+634717a2b89a9b2a18af569ddb44ed3cc7de0ec9 dt-bindings: Drop Bhupesh Sharma from maintainers
+aee2ae1423a2f147d28075499af5d9bf063774c5 mmc: bcm2835: add suspend/resume pm support
+b2b8e93ec00b8110cb37cbde5400d5abfdaed6a7 dt-bindings: mmc: controller: clarify the address-cells description
+3aee3eec6d2a1a5a2e80ed26906bbc0e431a3007 dt-bindings: mmc: controller: move properties common with slot out to mmc-controller-common
+b55a9f72878bfe8b4b5fb8c80ca0ca9f3464e642 dt-bindings: mmc: controller: remove '|' when not needed
+b833f3deb1abdccc171e6a7ad6aa2f3f66e4f7f7 dt-bindings: mmc: document mmc-slot
+ea049a037e9e01e4dd92e44c21f8d594e64e4396 dt-bindings: mmc: convert amlogic,meson-mx-sdio.txt to dtschema
 a56335c85b592cb2833db0a71f7112b7d9f0d56b mmc: sdhci-tegra: Remove SDHCI_QUIRK_BROKEN_ADMA_ZEROLEN_DESC quirk
 f3d87abe11ed04d1b23a474a212f0e5deeb50892 mmc: mtk-sd: disable wakeup in .remove() and in the error path of .probe()
+df425814019f46c2e34567560d15d8f510683c32 mmc: Merge branch fixes into next
 
---===============8728552529097045532==--
+--===============0455626307598445036==--
