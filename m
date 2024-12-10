@@ -1,42 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============2930242954089390530=="
+Content-Type: multipart/mixed; boundary="===============3550930687509246746=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
-Date: Tue, 10 Dec 2024 08:23:23 -0000
-Message-Id: <173381900305.3367419.13895693646542940422@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Tue, 10 Dec 2024 08:26:50 -0000
+Message-Id: <173381921054.3370910.463836111425179392@gitolite.kernel.org>
 
---===============2930242954089390530==
+--===============3550930687509246746==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mediatek/linux
-user: angelogioacchino.delregno
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/v6.13-next/dts64
-    old: 4604c989004006cc0c08a9cfe8d80e7544b8e808
-    new: 26f6e91fa29a58fdc76b47f94f8f6027944a490c
-    log: revlist-4604c9890040-26f6e91fa29a.txt
+  - ref: refs/heads/slab/for-6.13-rc3/fixes
+    old: 0000000000000000000000000000000000000000
+    new: b7ffecbe198e2dfc44abf92ceb90f46150f7527a
 
---===============2930242954089390530==
+--===============3550930687509246746==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4604c9890040-26f6e91fa29a.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-253b4e96f5783fddede1b82274a7b4e0aa57d761 arm64: dts: mediatek: mt8186: Move wakeup to MTU3 to get working suspend
-6c379e8b984815fc8f876e4bc78c4d563f13ddae arm64: dts: mt8183: set DMIC one-wire mode on Damu
-3a11be8938aa7294719c0cf2a4758ed0cf88ab84 dt-bindings: arm: mediatek: Add MT8188 Lenovo Chromebook Duet (11", 9)
-5e6af7f5418950d77eb2193ddfb8557458a070b0 arm64: dts: mediatek: Introduce MT8188 Geralt platform based Ciri
-c31f6c2f25586557bc586a9b3713bd7473e0cac3 dt-bindings: arm: mediatek: Add MT8186 Starmie Chromebooks
-d926d78bc93b1bfe18bc1cf80e66e1a0e38297ce arm64: dts: mediatek: mt8186: Add Starmie device
-e3ee31e4409f051c021a30122f3c470f093a7386 arm64: dts: mediatek: mt8516: fix GICv2 range
-03a80442030e7147391738fb6cbe5fa0b3b91bb1 arm64: dts: mediatek: mt8516: fix wdt irq type
-eb72341fd92b7af510d236e5a8554d855ed38d3c arm64: dts: mediatek: mt8516: add i2c clock-div property
-2561c7d5d497b988deccc36fe5eac7fd50b937f8 arm64: dts: mediatek: mt8516: reserve 192 KiB for TF-A
-93a680af46436780fd64f4e856a4cfa8b393be6e arm64: dts: mediatek: mt8183: Disable DPI display output by default
-26f6e91fa29a58fdc76b47f94f8f6027944a490c arm64: dts: mediatek: mt8183: Disable DSI display output by default
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1733819198 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1733819169-bfca9123f652ad757c8bf001bff8209a458d7b7d
 
---===============2930242954089390530==--
+0000000000000000000000000000000000000000 b7ffecbe198e2dfc44abf92ceb90f46150f7527a refs/heads/slab/for-6.13-rc3/fixes
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmdX+z4ACgkQu+CwddJF
+iJrq2AgAoGr+kosCpNcHAacIJSKhNHd2aAtY473vj8bfh9z8DO3S620EIsibtjvw
+etZkeuC7tflZB0GuJAqVqhKljT89axFK23RusC4qnZYIYdVmzFetMP7SXb6k+2Nb
+CkEw/Iyqy/FwLUoj/pItL2mr53l8/cjiVXhy6Vu3XnsI9vKGfj9CnumnqzxwAmRM
+uqFPs4dof1SaE5ZsClkbiH9nY6PJstAG6v8dDsLKwmszGJYdOBoH6TOUqcRgwUJB
+O8zKUJwJtTdVbVvw3JXTpmLmswvXh2ji0sJGMLLhFVe7SwpZHoLrd38NdJrse4+b
+FOrFlptxJxsg5+/Gsj0TNdaEHc7avg==
+=ReND
+-----END PGP SIGNATURE-----
+
+--===============3550930687509246746==--
