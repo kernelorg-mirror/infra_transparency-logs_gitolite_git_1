@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Tue, 10 Dec 2024 16:52:38 -0000
-Message-Id: <173384955857.3842168.16708502461696702389@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Tue, 10 Dec 2024 16:54:42 -0000
+Message-Id: <173384968268.3843735.83576156791031294@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/dt/linus
-    old: d7dfa7fde63dde4d2ec0083133efe2c6686c03ff
-    new: 0f7ca6f69354e0c3923bbc28c92d0ecab4d50a3e
+  - ref: refs/heads/main
+    old: 633e86689208731c96964aabb4fc5880939faa9f
+    new: b00a7f7e525095e5aae663945253fc8c709cc084
     log: |
-         5d009e024056ded20c5bb1583146b833b23bbd5a of: Fix refcount leakage for OF node returned by __of_get_dma_parent()
-         fec3edc47d5cfc2dd296a5141df887bf567944db of/irq: Fix interrupt-map cell length check in of_irq_parse_imap_parent()
-         0f7ca6f69354e0c3923bbc28c92d0ecab4d50a3e of/irq: Fix using uninitialized variable @addr_len in API of_irq_parse_one()
+         16414d8bf7ef289a73851199d9af4c51878ab034 QCA: Update Bluetooth WCN785x firmware to 2.0.0-00515-2
+         7f116580d9060feaedaed55eb65c63eeba59341f QCA: Add Bluetooth nvm files for WCN785x
+         bfe89de591515c6a3fe598d74894b23588d1a34a Merge https://github.com/zijun-hu/qca_btfw into qca-bt
+         b00a7f7e525095e5aae663945253fc8c709cc084 Merge branch 'qca-bt' into 'main'
          
