@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4706994008176820955=="
+Content-Type: multipart/mixed; boundary="===============0443176017103099085=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 10 Dec 2024 03:06:33 -0000
-Message-Id: <173379999329.3116358.941034733242299612@gitolite.kernel.org>
+Date: Tue, 10 Dec 2024 03:06:57 -0000
+Message-Id: <173380001710.3116785.11983730981892460270@gitolite.kernel.org>
 
---===============4706994008176820955==
+--===============0443176017103099085==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,47 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: 6918141d815acef056a0d10e966a027d869a922d
-    new: f103396ae31851d00b561ff9f8a32a441953ff8b
+  - ref: refs/tags/mkp-scsi-staging
+    old: c5d04d07953a23f3bb6d6ec10167a96bcb4d2446
+    new: 92f202333595e596c6bd2063ac14c8b8dcdeec71
     log: |
-         f103396ae31851d00b561ff9f8a32a441953ff8b scsi: ufs: core: Update compl_time_stamp_local_clock after completing a cqe
+         9db7a472423d3470fb4bd114d74d0bc0027995ae scsi: ufs: core: Do not hold any lock in ufshcd_hba_stop()
+         8d14bfb539522fff4cc0f90cd3c402d5aeef3c6a scsi: docs: Remove init_this_scsi_driver()
+         c17618cf664ddf54b264ea74df9e8ab3e3ceda3b scsi: Eliminate scsi_register() and scsi_unregister() usage & docs
+         9fe5b6130baf6dd15d46b41f8edf0abdb3541f4f scsi: zfcp: Correct kdoc parameter description for sending ELS and CT
+         32574fe6e19d3018a27e8003b1a75be2af584dae scsi: zfcp: Clarify zfcp_port refcount ownership during "link" test
+         bd55f56188caf170d6dbdc04638159bd91d8401b scsi: MAINTAINERS: Update zfcp entry
+         6cb7063feb2eff2e52dc9624b2193a1f4cad69bf scsi: storvsc: Don't assume cpu_possible_mask is dense
+         c9a71ca13f71bf0d32664a1e7d1f00378811d59c scsi: Constify struct pci_device_id
          
 
---===============4706994008176820955==
+--===============0443176017103099085==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1733800020 -0500
+pusher 75C5DE3D 1733800026 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1733799991-525eccd60cbfd01837caafa9cdd6bd387271ea32
+nonce 1733799997-b22c4191f4aaee4316eebf9220d4b4a46262a0c0
 
-6918141d815acef056a0d10e966a027d869a922d f103396ae31851d00b561ff9f8a32a441953ff8b refs/heads/fixes
+c5d04d07953a23f3bb6d6ec10167a96bcb4d2446 92f202333595e596c6bd2063ac14c8b8dcdeec71 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmdXsFQACgkQ7ulgGnXF
-3j0sGA//XwOSgdTVUXC26GMHHaKW6AtH72beRc1TOojrHfyUeHXc039EZvFQNBJ9
-E9/psQsRG01TmIhCm1dpScAWbfQyC/hP5THpg4c4ALR5nO+kC/2Hjunqq9Kbq0SF
-p4B3lmxvIBE5e04pLiOgx4IL8yNdMPo5Qj8MALLS1R9u9GCeK0PIYWgXGqQxG1HD
-TOrtYqpXlkX9IZKHmkcL3ASqFbAGmf1jIHs3h9s0kG+fryCD6rSjufjclh3cVIQu
-Yr4cEpxYN+z1GMT+tIue8eZfzEzp8trfIzM1yIGCQZBlsRyZ8GCZIqOMSzfQt846
-n7i7Ho7OqsXB8/SuuJ1Ns2+ZZ5qFfBrIF81hul1xxNMR7H4yMuUDLPuqL/TMiVDu
-v7asoHKAMWnZjlNU8KesCjqlgTuvknOkHqGCUv8MiqGpa5m7uOxR5F+ZLkSsavPe
-yTSlbqEzzJoW4H+eabMkLMAS7xP2AWQiDuPcMRFttvfXYS/065l66Pd3/t49i3qQ
-bjgy7b1z0gmerZNQ3HK04pw7wGB50z9l1BLL7QAJ0FMCLxqa3AdyC0HKWqOXIQsI
-nWRtN1eht3LWIH3GDZuJgMvKCjHhLgXWaNfZBOY2XR68ZewvZbZrqUbvcHBZ7/K+
-mrptzyQE6zzBYHp8T4M/YRtVe82uD0LybLVZGgZ0JuAYPdoqmUs=
-=Wpe5
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmdXsFoACgkQ7ulgGnXF
+3j28+Q//S9hfqPibjDdM5sxcydXwnXi3iCwfoYl2AWW/7WomTRlxrZd+Qxc6iR6C
+QUL0bQHTZlKpiJgoJLCpkpRBsYtK6rjk9s72klOk3cuErQTSuXmiMWgtUfMiKd8i
+kRfTXTiGpKNMaHchbx3px8hMZezHsRDiQWAPbDAD7X3xZEQCJXn94dGyXrvgYwEB
+Obus12AMAxrG4r3ajtjJio1kO8onwcYuo/rCgrG5TMylPW0EP53jg9fHg0C+aA3E
+ou3oEcHIkD+BeEoIOSpXSZZOr8yZoru4YPwyOgMWhTKmC5kZo+lHSww1CLOxy4+S
+l7Oy2xYbPR2o/Nz9xvi3SkpyJ8y9TqDgHyfxJ0q6XBVPgQymvFrrdCl6VsqprMXB
+WdGR+t+VLVWFr1sqF7WDD36QWm05VzIfQrQr+2tA6Y1TBTWjX0RpAoxf6oqY2An1
+Ls6ufuiEbBy47FObp/EpvYaP7FbWrLTKrzQSM2th4zuxf6iBquqP8ez6RfCAFTlv
+w7adlXgLDU1N+6XAgYDZXJ8mntaRtTUXmWVOxpLl1S7RwRThDnal4ONBfZE3OOND
+KJo8QXXhk7e/Bpwp8uXwH3qvg90FAf9DaEJSgUKEGDH8evry9akqcXvApYOmb51S
+wQxw6WH5NlqcD2Dh8WLoV4PkLvidL48tAi4dKCpGpUz5XTO/le8=
+=mj/N
 -----END PGP SIGNATURE-----
 
---===============4706994008176820955==--
+--===============0443176017103099085==--
