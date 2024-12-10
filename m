@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2663597914452251548=="
+Content-Type: multipart/mixed; boundary="===============7864824847926809788=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Tue, 10 Dec 2024 14:24:27 -0000
-Message-Id: <173384066753.3717116.12308297158453590980@gitolite.kernel.org>
+Date: Tue, 10 Dec 2024 14:24:29 -0000
+Message-Id: <173384066948.3717209.11096103312050870733@gitolite.kernel.org>
 
---===============2663597914452251548==
+--===============7864824847926809788==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: 2122319afd655ac2ef122ce2394ff785887d97de
-    new: e7aa745f94a1e8a00ef0b029ecf24fd8826dd151
-    log: revlist-2122319afd65-e7aa745f94a1.txt
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
+    new: fac04efc5c793dccbd07e2d59af9f90b7fc0dca4
+    log: revlist-40384c840ea1-fac04efc5c79.txt
 
---===============2663597914452251548==
+--===============7864824847926809788==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2122319afd65-e7aa745f94a1.txt
+Content-Disposition: attachment; filename=revlist-40384c840ea1-fac04efc5c79.txt
 
 4497ee914f10264894b08066cbee026604cd244f watchdog: fix typo in the comment
 daa814d784ac034c62ab3fb0ef83daeafef527e2 iTCO_wdt: mask NMI_NOW bit for update_no_reboot_bit() call
@@ -450,7 +450,5 @@ c25ca0c2e42c77e0241411d374d44c41e253b3f5 Merge tag 'timers_urgent_for_v6.13_rc2'
 eadaac4dd2e07292181d35858047bdb177d5194f Merge tag 'irq_urgent_for_v6.13_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 0b6809a75ac026d4b569815744ad095b5d5955e1 Merge tag 'kbuild-fixes-v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 fac04efc5c793dccbd07e2d59af9f90b7fc0dca4 Linux 6.13-rc2
-12dacd7c7ce03237b9f83452c62abaa91b8d08fa i2c: keba: drop check because i2c_unregister_device() is NULL safe
-e7aa745f94a1e8a00ef0b029ecf24fd8826dd151 i2c: imx: fix divide by zero warning
 
---===============2663597914452251548==--
+--===============7864824847926809788==--
