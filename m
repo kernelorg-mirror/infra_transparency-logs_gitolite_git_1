@@ -1,60 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============0613850883244043856=="
+Content-Type: multipart/mixed; boundary="===============6589140772910018047=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 10 Dec 2024 12:11:08 -0000
-Message-Id: <173383266863.3584597.7384710608739629258@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 10 Dec 2024 12:11:16 -0000
+Message-Id: <173383267698.3584873.4619975306666900312@gitolite.kernel.org>
 
---===============0613850883244043856==
+--===============6589140772910018047==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.13
-    old: fac04efc5c793dccbd07e2d59af9f90b7fc0dca4
-    new: 25fb0e77b90e290a1ca30900d54c6a495eea65e2
-    log: |
-         c84dda3751e945a67d71cbe3af4474aad24a5794 spi: aspeed: Fix an error handling path in aspeed_spi_[read|write]_user()
-         0bb394067a792e7119abc9e0b7158ef19381f456 spi: rockchip: Fix PM runtime count on no-op cs
-         25fb0e77b90e290a1ca30900d54c6a495eea65e2 spi: spi-cadence-qspi: Disable STIG mode for Altera SoCFPGA.
-         
-  - ref: refs/heads/spi-6.14
-    old: e5fca61fdfcdd7d3cc43c0b4c3b959d4f2b06666
-    new: a17162f0b2dc97aa2dedfde8a7226fb9b5210534
-    log: |
-         8332e667099712e05ec87ba2058af394b51ebdc9 spi: zynq-qspi: Add check for clk_enable()
-         a17162f0b2dc97aa2dedfde8a7226fb9b5210534 spi: mxs: support effective_speed_hz
-         
+  - ref: refs/heads/for-next
+    old: 5757b31666277e2b177b406e48878dc48d587a46
+    new: 7d57d1ce9398bb59fa0b251aa2ffa6eafef5cff4
+    log: revlist-5757b3166627-7d57d1ce9398.txt
 
---===============0613850883244043856==
+--===============6589140772910018047==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-5757b3166627-7d57d1ce9398.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1733832695 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1733832666-37b89c6e6a33c028462792034b426273b7491e7d
+76c29db042e4f0fdea75c76cd4ad5f36080cd1c9 ASoC: codecs: wcd9335: Add define for number of DAIs
+e9705da8472f306b44cbe1992ea2161bb96ece6e ASoC: dt-bindings: qcom,wcd9335: Drop number of DAIs from the header
+8c491103c946fb760005044a74c82d7cf6c6f6b4 ASoC: ad193x: Remove use of i2c_match_id()
+56731c80fc3b17850e49913cec262c2bcaa88dcb ASoC: adau1761: Remove use of i2c_match_id()
+f9812846ffdb1f5686154cae18ca8cc765232967 ASoC: adau1781: Remove use of i2c_match_id()
+d6ba6f50fae4170a8b7058da81dc2644913a5216 ASoC: adau1977: Remove use of i2c_match_id()
+b5e8f7abbb73d0f71ec8742c990c7e1ffa44a554 ASoC: alc5623: Remove use of i2c_match_id()
+99816f3fa964380a50ccc898b08cc7d9dd58c764 ASoC: alc5632: Remove use of i2c_match_id()
+ebf572bfefcd27584e1b32b0dd51ba71f3fe33d6 ASoC: max98088: Remove use of i2c_match_id()
+db2aaa0943803fbba606e3b59b5cf900eced2a5c ASoC: max98090: Remove use of i2c_match_id()
+a8bb9855de4c5ca5b586814b7f8cc4a77d9e8b9c ASoC: max98095: Remove use of i2c_match_id()
+b9f99efcc59ae86bcf238719e29427e9519b3878 ASoC: pcm186x: Remove use of i2c_match_id()
+0a7bd3dba60a967032ce8c05b4d81350f01ecc8a ASoc: pcm6240: Remove use of i2c_match_id()
+6c978c1baeb8449114e8cb35c68832e903f713d8 ASoC: ssm2602: Remove use of i2c_match_id()
+eb4b5da0ecf61135533574285bacb9dab4fc4703 ASoC: tas2562: Remove use of i2c_match_id()
+af4cffb250ec9e26a76c90cf753f1a6630811eed ASoC: tas2781: Remove use of i2c_match_id()
+06c61070173803a5341be31ff5281d15cc133e5d ASoC: tas5720: Remove use of i2c_match_id()
+55cf63cc8d951246ec35195ae5a1628beb9c9da3 ASoC: tlv320adc3xxx: Remove use of i2c_match_id()
+f742875ee2534473ca4bf5ce1e120bebdf8d624d ASoC: tlv320aic31xx: Remove use of i2c_match_id()
+2a169c459d9614dd6edebd8d34ab096b09f134ac ASoC: tlv320aic3x: Remove use of i2c_match_id()
+cb47dcedef8dee9e9e64598612b2a301f70a7fdb ASoC: tpa6130a2: Remove use of i2c_match_id()
+77f3bfeacb939b47e1ffcda000cdf3c52af70e0f ASoC: wm8904: Remove use of i2c_match_id()
+7d57d1ce9398bb59fa0b251aa2ffa6eafef5cff4 ASoC: wm8985: Remove use of i2c_match_id()
 
-fac04efc5c793dccbd07e2d59af9f90b7fc0dca4 25fb0e77b90e290a1ca30900d54c6a495eea65e2 refs/heads/spi-6.13
-e5fca61fdfcdd7d3cc43c0b4c3b959d4f2b06666 a17162f0b2dc97aa2dedfde8a7226fb9b5210534 refs/heads/spi-6.14
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmdYL/cACgkQJNaLcl1U
-h9D+owf+OOfNlHQEZ11IHqYtsB7TxM+pq1sxDHFgWOQzu85vLPnHw7SWTSeJI007
-qY4GE/I8BXf8h+biQXcPPRaC3pIHydQdfsMVtUlsma2Wnx4aC7Je34ZS3xGY9CaH
-1Mx2o5RCro4GPnYksjsY7QFmJdNM/EHgb7qCGjSLsOGlvzZSf6VlO9urWstwYNm2
-CMQQBd/qZ+2VhhyYaB8VNztSf6fx1TRLLgy6U+X+CSBBNVFEjRz+VbNB+0qKDYCP
-EUnfKZhK8IWl/LT2797U93xPYPTqA5FDCazjFK2o6QJJ+6kRxJfUi/+2rb9xdN4d
-fpB2fJO+bBsW1zUdNaEywp2/x6Qp0w==
-=jHh/
------END PGP SIGNATURE-----
-
---===============0613850883244043856==--
+--===============6589140772910018047==--
