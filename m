@@ -1,45 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============5859641756900741091=="
+Content-Type: multipart/mixed; boundary="===============4659161576268604573=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/herbert/crypto-2.6
-Date: Tue, 10 Dec 2024 05:42:13 -0000
-Message-Id: <173380933389.3240776.11862649743262750766@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+Date: Tue, 10 Dec 2024 05:44:26 -0000
+Message-Id: <173380946640.3242023.13241153876761608360@gitolite.kernel.org>
 
---===============5859641756900741091==
+--===============4659161576268604573==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/herbert/crypto-2.6
+repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
 user: herbert
 changes:
   - ref: refs/heads/master
     old: 4223414efeae3a8efb4da1e9c9c52a1a44c1c5bf
-    new: cd26cd65476711e2c69e0a049c0eeef4b743f5ac
-    log: revlist-4223414efeae-cd26cd654767.txt
-  - ref: refs/tags/v6.13-p2
-    old: 0000000000000000000000000000000000000000
-    new: b18b648ca6710b69e05dc8edd4101565f6aaa957
+    new: f04be1dddc70fcdd01497d66786e748106271eb6
+    log: revlist-4223414efeae-f04be1dddc70.txt
 
---===============5859641756900741091==
+--===============4659161576268604573==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4223414efeae-cd26cd654767.txt
+Content-Disposition: attachment; filename=revlist-4223414efeae-f04be1dddc70.txt
 
-588a9836a4ef7ec3bfcffda526dfa399637e6cfc s390/stacktrace: Use break instead of return statement
-9c7260b527f0f7c75a9c0fee297663d1acc40937 s390/vfio-ap: Remove gmap_convert_to_secure() from vfio_ap_ops
-7bc1ee28f4d21fc1e2f3d09534baf86ce7f3ba5e s390/cpum_sf: Simplify release of SDBs and SDBTs
-45c9f2b856a075a34873d00788d2e8a250c1effd s390/entry: Mark IRQ entries to fix stack depot warnings
-94a7734d0967e89fac5be1fd5115f5194e4a4017 RISC-V: Add Svade and Svadu Extensions Support
-b8d481671703c4ba24bb250a99225e0e3d8aedac dt-bindings: riscv: Add Svade and Svadu Entries
-97eccf7db4f2e5e59d16bca45f7803ae3aeff6e1 RISC-V: KVM: Add Svade and Svadu Extensions Support for Guest/VM
-c74bfe4ffe8c1ca94e3d60ec7af06cf679e23583 KVM: riscv: selftests: Add Svade and Svadu Extension to get-reg-list test
-7ef3ae82a6ebbf4750967d1ce43bcdb7e44ff74b 9p/xen: fix init sequence
-9e141955ede223d82251a59644ff9448a5aba580 spi-imx: prevent overflow when estimating transfer time
-e038f43edaf0083f6aa7c9415d86cf28dfd152f9 ASoC: imx-audmix: Add NULL check in imx_audmix_probe
 f32c3f01c21cdd6a354988006aaca5e3dfe478f9 ASoC: apple: Fix the wrong format specifier
 40cfe553240b32333b42652370ef5232e6ac59e1 io_uring: add io_local_work_pending()
 f46b9cdb22f7a167c36b6bcddaef7e8aee2598fa io_uring: limit local tw done
@@ -1053,5 +1039,16 @@ eadaac4dd2e07292181d35858047bdb177d5194f Merge tag 'irq_urgent_for_v6.13_rc2' of
 fac04efc5c793dccbd07e2d59af9f90b7fc0dca4 Linux 6.13-rc2
 8552cb04e0831df3ff265c75ad33f705a45bc731 crypto: rsassa-pkcs1 - Copy source data for SG list
 cd26cd65476711e2c69e0a049c0eeef4b743f5ac crypto: hisilicon/debugfs - fix the struct pointer incorrectly offset problem
+15589bda46830695a3261518bb7627afac61f519 crypto: tegra - do not transfer req when tegra init fails
+8dd458cbc5be9ce4427ffce7a9dcdbff4dfc4ac9 crypto: api - Fix boot-up self-test race
+b7685262884c9aaedd622fab974c0820b62eb608 crypto: api - Call crypto_schedule_test outside of mutex
+09463346b6c23672cdd451f500d2a23b792bd6f0 crypto: hisilicon/zip - add data aggregation feature
+771ba5c982a28ede1d33de9702c0f3501f1f9e1c crypto: hisilicon/zip - support new error report
+9a11fba9fc977887201cef8b6dbdecb93d0f20e3 dt-bindings: crypto: qcom,prng: document QCS8300
+4a36b76bfc9270544631b3de38a7a49ad06aa9ff dt-bindings: crypto: ice: document the qcs8300 inline crypto engine
+4e6ccd94bd9310f67418b522cb92c487a45a166c dt-bindings: crypto: qcom-qce: document the QCS8300 crypto engine
+73a7496c218b7ca19ba276f54758e7f0adf269c5 crypto: caam - use JobR's space to access page 0 regs
+db092e515d862e23307c6b6a3ebd7e4fd46f887f MAINTAINERS: Move rhashtable over to linux-crypto
+f04be1dddc70fcdd01497d66786e748106271eb6 crypto: sig - Set maskset to CRYPTO_ALG_TYPE_MASK
 
---===============5859641756900741091==--
+--===============4659161576268604573==--
