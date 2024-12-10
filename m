@@ -1,19 +1,75 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Tue, 10 Dec 2024 13:31:09 -0000
-Message-Id: <173383746912.3670372.8143402727153761287@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8790239433735630007=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 10 Dec 2024 13:34:58 -0000
+Message-Id: <173383769877.3672496.1264189908777619529@gitolite.kernel.org>
+
+--===============8790239433735630007==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/pwrseq/for-next
-    old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    new: 93e3c990fcd90e578fd23b572a6c89020c7a453e
-    log: |
-         93e3c990fcd90e578fd23b572a6c89020c7a453e power: sequencing: qcom-wcn: add support for the WCN6750 PMU
-         
+  - ref: refs/heads/for-6.14
+    old: 7d57d1ce9398bb59fa0b251aa2ffa6eafef5cff4
+    new: 527acf5de4c060ebb3d1eb98c4acf21743c2cde7
+    log: revlist-7d57d1ce9398-527acf5de4c0.txt
+
+--===============8790239433735630007==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1733837725 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1733837696-988f10c10a6d134ebcebaa25503e42b2075ec061
+
+7d57d1ce9398bb59fa0b251aa2ffa6eafef5cff4 527acf5de4c060ebb3d1eb98c4acf21743c2cde7 refs/heads/for-6.14
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmdYQ50ACgkQJNaLcl1U
+h9DTIAf7BNc5h58+6nPZJcqHGGFLJKCW3Q8cvvoi+PCyowePk4K1q5eTZLZDzFOQ
+MLHaIizyJnLQeOYjQ4bQ8ZXgEyfxmFuMEwTMiRvQfWLW5jEsQYHDeQoT/M2oGUaV
+N47DKY0eAN8J24vWIgPRzg0lf7BD/KPAh1CYw1hu6W8lsdz3G+kdeFphpyRXmeOq
+O/765fR/mnmmE3WCT5eZihYEu1ufFGNS4j4hfXzzC754evUaMjNostgHgI3uNkGt
+wv3SH/jW5TQtnzF2xC+axstiIdXdb3eeqOezYNhK+1Y49C9ByP3fqVBdggEGy1JU
+nDca+7Kk5N3uyIAXVN4sUdziaEuXSQ==
+=1zQH
+-----END PGP SIGNATURE-----
+
+--===============8790239433735630007==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-7d57d1ce9398-527acf5de4c0.txt
+
+820bcaeb1ff5705ba907563e554f17d0deecc3fa ASoC: fsl_utils: Add function to constrain rates
+daf7a173fc7c4b652f3fe69d3b5aa520976a7d63 ASoC: fsl_micfil: Switch to common sample rate constraint function
+b622b677d255b41cbfce20b66535723933a6b640 ASoC: fsl_xcvr: Add sample rate constraint
+4edc98598be43634f87af5d3876ebec6c274d2cb ASoC: fsl_sai: Add sample rate constraint
+4ab80a2961c75562ffbac1f80de151a978c31659 ASoC: Intel: sof_sdw: correct mach_params->dmic_num
+90a73807fd8a6c044cc971e53c2cc602f3841ef6 ASoC: Intel: sof_sdw: reduce log level for not using internal dmic
+41f91a884f9e5d9fda73fcb30d87b72fb7526216 ASoC: Intel: sof_sdw: improve the log of DAI link numbers
+7662f0e5d55728a009229112ec820e963ed0e21c ASoC: Intel: sof_sdw: Correct quirk for Lenovo Yoga Slim 7
+558d516e4b0f886f15ea04c83bf3ab0bbe62e474 ASoC: Intel: sof_sdw: Add a dev_dbg message for the SOC_SDW_CODEC_MIC quirk
+bd40d912728fc306e0861c82af4a359d8691ee16 ASoC: Intel: soc-acpi-intel-ptl-match: add rt712_vb + rt1320 support
+124d534c581cda93aae06b37351ed76af7b98d5c ASoC: Intel: soc-acpi-intel-lnl-match: add rt713_vb_l2_rt1320_l13 support
+a7ebb0255188a7a2f1c9edd5660346bd5b17fb7b ASoC: Intel: soc-acpi-intel-ptl-match: add rt713_vb_l2_rt1320_l13 support
+a3003af649efb6f3d86d379d1e9a966ea6d5f5ab ASoC: Intel: soc-acpi: arl: Correct naming of a cs35l56 address struct
+d7f671b2f566379f275c13e25a29fa7001bb278f ASoC: Intel: soc-acpi: arl: Add match entries for new cs42l43 laptops
+0a2319308de88b9e819c0b43d0fccd857123eb31 ASoC: sun4i-spdif: Add clock multiplier settings
+80ac12ffb3a9e19a2f11eb1975ed31c9a39183c8 ASoC: sun4i-spdif: Always set the valid data to be the MSB
+6e750d3ec7410c8d3aa6a006d37142eb837b3c03 ASoC: sun4i-spdif: Add working 24bit audio support
+8c695b4d19cff2828683b8ec1aa6794419ef3a86 ASoC: Intel: boards: updates for 6.14
+5a305d9d48df11e8eeb8c28fa08927067bc274af ASoC: sun4i-spdif: Add 24bit support
+527acf5de4c060ebb3d1eb98c4acf21743c2cde7 Add function to constrain rates
+
+--===============8790239433735630007==--
