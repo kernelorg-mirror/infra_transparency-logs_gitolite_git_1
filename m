@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/superm1/linux
-Date: Tue, 10 Dec 2024 20:25:50 -0000
-Message-Id: <173386235074.4021362.14210872139015254567@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-auxdisplay
+Date: Tue, 10 Dec 2024 20:26:40 -0000
+Message-Id: <173386240026.4021850.890209842157852555@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/superm1/linux
-user: superm1
+repo: pub/scm/linux/kernel/git/andy/linux-auxdisplay
+user: andy
 changes:
-  - ref: refs/heads/amd-pstate-fixes
-    old: 919bfa9b2dbf3bc0c478afd4e44445836381dacb
-    new: 2993b29b2a98f2bc9d55dfd37ef39f56a2908748
+  - ref: refs/heads/review-andy
+    old: fcfadc7fef8c6af2dbc64ebe1e4d3b90a02ae428
+    new: 93b216cb312dcaee19de19efab6025481e5df4ae
     log: |
-         50a062a7620051c09adacd6d140ebd56881a333b cpufreq/amd-pstate: Store the boost numerator as highest perf again
-         2993b29b2a98f2bc9d55dfd37ef39f56a2908748 cpufreq/amd-pstate: Use boost numerator for upper bound of frequencies
+         e4ee5c3c43ea25e9dae0ca548eeedcd178ff04e6 auxdisplay: img-ascii-lcd: Remove an unused field in struct img_ascii_lcd_ctx
+         93b216cb312dcaee19de19efab6025481e5df4ae auxdisplay: img-ascii-lcd: Constify struct img_ascii_lcd_config
          
