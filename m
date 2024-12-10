@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0649231845680449911=="
+Content-Type: multipart/mixed; boundary="===============1759416644288174339=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Tue, 10 Dec 2024 06:02:05 -0000
-Message-Id: <173381052568.3256851.11146149495219757866@gitolite.kernel.org>
+Date: Tue, 10 Dec 2024 06:02:33 -0000
+Message-Id: <173381055323.3257091.371414397075197093@gitolite.kernel.org>
 
---===============0649231845680449911==
+--===============1759416644288174339==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/westeri/thunderbolt
 user: westeri
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/next
     old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    new: 8644b48714dca8bf2f42a4ff8311de8efc9bd8c3
-    log: revlist-40384c840ea1-8644b48714dc.txt
+    new: fac04efc5c793dccbd07e2d59af9f90b7fc0dca4
+    log: revlist-40384c840ea1-fac04efc5c79.txt
 
---===============0649231845680449911==
+--===============1759416644288174339==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-40384c840ea1-8644b48714dc.txt
+Content-Disposition: attachment; filename=revlist-40384c840ea1-fac04efc5c79.txt
 
 4497ee914f10264894b08066cbee026604cd244f watchdog: fix typo in the comment
 daa814d784ac034c62ab3fb0ef83daeafef527e2 iTCO_wdt: mask NMI_NOW bit for update_no_reboot_bit() call
@@ -450,6 +450,5 @@ c25ca0c2e42c77e0241411d374d44c41e253b3f5 Merge tag 'timers_urgent_for_v6.13_rc2'
 eadaac4dd2e07292181d35858047bdb177d5194f Merge tag 'irq_urgent_for_v6.13_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 0b6809a75ac026d4b569815744ad095b5d5955e1 Merge tag 'kbuild-fixes-v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 fac04efc5c793dccbd07e2d59af9f90b7fc0dca4 Linux 6.13-rc2
-8644b48714dca8bf2f42a4ff8311de8efc9bd8c3 thunderbolt: Add support for Intel Panther Lake-M/P
 
---===============0649231845680449911==--
+--===============1759416644288174339==--
