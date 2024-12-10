@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============5402250290041733853=="
+Content-Type: multipart/mixed; boundary="===============7846950914766012871=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 10 Dec 2024 12:58:26 -0000
-Message-Id: <173383550677.3640629.5334504719960257825@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 10 Dec 2024 12:58:29 -0000
+Message-Id: <173383550993.3640706.11980073567861533065@gitolite.kernel.org>
 
---===============5402250290041733853==
+--===============7846950914766012871==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.14
+  - ref: refs/heads/spi-6.14
     old: a17162f0b2dc97aa2dedfde8a7226fb9b5210534
     new: b7cc281812c4e0545d415e9761d5b03e130a41f2
     log: |
@@ -26,28 +26,28 @@ changes:
          b7cc281812c4e0545d415e9761d5b03e130a41f2 spi: Merge up fixes
          
 
---===============5402250290041733853==
+--===============7846950914766012871==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1733835533 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1733835504-093596ae018a937a28a441571cb34c2fa56acd63
+pusher C3F436CA30F5D8EB 1733835537 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1733835507-9fd235c7e85c50cf6f54c04ee0cf8574bcc99a00
 
-a17162f0b2dc97aa2dedfde8a7226fb9b5210534 b7cc281812c4e0545d415e9761d5b03e130a41f2 refs/heads/for-6.14
+a17162f0b2dc97aa2dedfde8a7226fb9b5210534 b7cc281812c4e0545d415e9761d5b03e130a41f2 refs/heads/spi-6.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmdYOw4ACgkQJNaLcl1U
-h9Ax9gf+PaRr2uKle0oVzBngpls4B/Fdnz2tyU45kWaa07LZ+KNSMJc5f6eznbeh
-iKA1c8eCkBwcpW56Q0m9YiarXim02gRwqaOqe/ot4AO797E2EmnQ8JA3SETHR2Cv
-n/yK6iBntGV/zenXhnmojup37GkYKRnwxW74KFJO5j/T2SPAeFJCcRhd0x/gxIfw
-2ZORZj/j8YI9DwKGqh4RGKjMNptJoqwyD+ogoqUSLeuDk39d4psC8NimnSiAMvd3
-MA+oewm6mI22iQKRdSSr4peWv/NXCfvOXA0m5GOpKoWDISFHzgu7kCoWOthQ2RQG
-LJCp+Zk1TFXv0/WxbRERDtpMM+7+RA==
-=3VyY
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmdYOxEACgkQJNaLcl1U
+h9Bi6wf7Bhlu0xJHdpIX9et4UGNKY7js1h8fvnVp1XQwfHgY3zuTbOG0VGdLhl/A
+HufFzKDWqTp2VM9rC7s7uxMUc8ZowWgfP+uwmU1cPvUsb0P/SVd0DuD5TcJtFhQC
+8bu5HwQF/SVjtCD/3hFHeD1AYL80AhzoB6evhDCj9peNITetjm0k7hTl/YMQjfCH
+a8AeiuR/zwXkunF2cgEo6s5mS3Z9DyCTdF4AZAdgO1xwAghWozt5NOKe3dVSIRUv
+zggyL34DZEv9Rvv91Mh8oTmI1Du3qVa8Po+NJ7C/fiS+HWe2nvVJFr4yBVmnqE6U
+RHbAqgbQArMBBrGJ8OxZArEL8DK+vQ==
+=1zjV
 -----END PGP SIGNATURE-----
 
---===============5402250290041733853==--
+--===============7846950914766012871==--
