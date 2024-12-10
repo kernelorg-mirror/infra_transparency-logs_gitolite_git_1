@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0038708228674628372=="
+Content-Type: multipart/mixed; boundary="===============8869483656368887879=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Tue, 10 Dec 2024 10:20:19 -0000
-Message-Id: <173382601921.3471319.9403548465860481962@gitolite.kernel.org>
+Date: Tue, 10 Dec 2024 10:20:53 -0000
+Message-Id: <173382605315.3471954.788872291408728029@gitolite.kernel.org>
 
---===============0038708228674628372==
+--===============8869483656368887879==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/linux-pm
 user: ulfh
 changes:
-  - ref: refs/heads/fixes
-    old: 2379fb937de5333991c567eefd7d11b98977d059
+  - ref: refs/heads/next
+    old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
     new: fac04efc5c793dccbd07e2d59af9f90b7fc0dca4
-    log: revlist-2379fb937de5-fac04efc5c79.txt
-  - ref: refs/tags/v6.13-rc2
-    old: 0000000000000000000000000000000000000000
-    new: e32a80927434907f973f38a88cd19d7e51991d24
+    log: revlist-40384c840ea1-fac04efc5c79.txt
 
---===============0038708228674628372==
+--===============8869483656368887879==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2379fb937de5-fac04efc5c79.txt
+Content-Disposition: attachment; filename=revlist-40384c840ea1-fac04efc5c79.txt
 
 4497ee914f10264894b08066cbee026604cd244f watchdog: fix typo in the comment
 daa814d784ac034c62ab3fb0ef83daeafef527e2 iTCO_wdt: mask NMI_NOW bit for update_no_reboot_bit() call
@@ -192,6 +189,10 @@ e2974a220594c06f536e65dfd7b2447e0e83a1cb ALSA: hda/realtek: Add support for Sams
 f7d306b47a24367302bd4fe846854e07752ffcd9 ALSA: usb-audio: Fix a DMA to stack memory bug
 f09f0397db641f99f6c3e109283d82e3584bfb50 ALSA: usb-audio: Add extra PID for RME Digiface USB
 0d08f0eec961acdb0424a3e2cfb37cfb89154833 ALSA: hda/realtek: fix micmute LEDs don't work on HP Laptops
+f00582aa4a449dbaefa8df9bb5f3b713928e5a1b dt-bindings: power: mediatek: Add another nested power-domain layer
+b8f7bbd1f4ecff6d6277b8c454f62bb0a1c6dbe4 pmdomain: core: Add missing put_device()
+3e3b71d35a02cee4b2cc3d4255668a6609165518 pmdomain: core: Fix error path in pm_genpd_init() when ida alloc fails
+2379fb937de5333991c567eefd7d11b98977d059 pmdomain: imx: gpcv2: Adjust delay after power up handshake
 3510398032b445abd034753ce86a60882f41fe27 platform/x86: samsung-laptop: Match MODULE_DESCRIPTION() to functionality
 25fb5f47f34d90aceda2c47a4230315536e97fa8 platform/x86: asus-wmi: Ignore return value when writing thermal policy
 e9fba20c29e27dc99e55e1c550573a114561bf8c platform/x86: asus-nb-wmi: Ignore unknown event 0xCF
@@ -450,4 +451,4 @@ eadaac4dd2e07292181d35858047bdb177d5194f Merge tag 'irq_urgent_for_v6.13_rc2' of
 0b6809a75ac026d4b569815744ad095b5d5955e1 Merge tag 'kbuild-fixes-v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 fac04efc5c793dccbd07e2d59af9f90b7fc0dca4 Linux 6.13-rc2
 
---===============0038708228674628372==--
+--===============8869483656368887879==--
