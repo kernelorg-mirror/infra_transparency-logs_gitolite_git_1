@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1771565693241112373=="
+Content-Type: multipart/mixed; boundary="===============9165494417984575327=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 10 Dec 2024 02:31:27 -0000
-Message-Id: <173379788772.3087067.11123231596337723988@gitolite.kernel.org>
+Date: Tue, 10 Dec 2024 02:31:32 -0000
+Message-Id: <173379789246.3087219.17093645444653477743@gitolite.kernel.org>
 
---===============1771565693241112373==
+--===============9165494417984575327==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: ddc6a159cce95bdee7c3e67b885c09c7cee6176f
-    new: fb4b834caa5333598719b6c46be32af77599a168
-    log: revlist-ddc6a159cce9-fb4b834caa53.txt
+  - ref: refs/heads/6.14/scsi-queue
+    old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
+    new: 2486e60bdd41ca7ad98b9dc7467abf4628f008ab
+    log: revlist-40384c840ea1-2486e60bdd41.txt
 
---===============1771565693241112373==
+--===============9165494417984575327==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1733797856 -0500
+pusher 75C5DE3D 1733797919 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1733797827-7ffb605ed496f602e3b0ecdd51055d6efc4778e0
+nonce 1733797890-623525580f710bf828e11b57b17c4bc5b717bf9d
 
-ddc6a159cce95bdee7c3e67b885c09c7cee6176f fb4b834caa5333598719b6c46be32af77599a168 refs/tags/mkp-scsi-queue
+40384c840ea1944d7c5a392e8975ed088ecf0b37 2486e60bdd41ca7ad98b9dc7467abf4628f008ab refs/heads/6.14/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmdXp+AACgkQ7ulgGnXF
-3j159Q//WYsLIMPs8fa4N+REEzcZh7CJz1V/O/okvhj19EeKJcTlOkRCcNUYWnMS
-BxeGLAtZyDKvB2OqgvVmPPHS9+SzNnu7XNPDKyNyvtqrKHx4YRa+F9oBtRaxdTIF
-Pwh1dN3jacPyni2+CpfPfSR3Z6aVuIthAonNXCxoDK6by01sMgqu2uLwWc/JT8tW
-luWu7lc9JS4sSmWhMz2ta11+sXNH7KzrT51E6QHNG/h1abswdd/ZXl6qWD5lyaRS
-my7V50xxBlsBsjW2HoQC83ikkURQ5tpKBWLHHgmmPNrq5/jIuTWaRImfcNvI0eOm
-OdJBZuweQ6W3Hv1vxOjR4zefTMZWJjDqEE9n891QiDcmkq5gOl2jsUjXk3jc556T
-Kqlpb1e+lT4EZtT81D6Bw8aDafef5WnLNIG9f4+ZVaIXmotdCcH/BQ5aflRBA6dj
-eR/SNZnVogHbFhWFinmWFflCOcYEMylaTkZqsZUUa219XKDePNXkKOFWtGDJX8vL
-ZsMxt7C2mo8Z46N6WDvAW1qwoL1qa+L1twntFsQ8oghYU6kyWjsEksMwrHsJnbOQ
-ecDThzoKivGTs8mJHpgQlUM+6oKSK5bRG7pMT3pGk9EMlHJKk40exkCvCFbYeDtH
-Vu+ATzp3HIOC49xTwXsVm/vE8Apshgv6hYKVkTdYZAUqmO4Jq+A=
-=mwdn
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmdXqB8ACgkQ7ulgGnXF
+3j265BAAgRd914jN4N5YYRHjvVy/xQ/GdsE38r0pf7BYH+KWyudrEiOBpOYNCUEc
+sWyEDgxQbVrXreN10pV0fU89N7e2s8Mo4A4SLwU+Anx7E+rn7YOBCZRiCaYT8/ny
+JvvXeCZurwt296KliWo+meVteNKWfB6tYhvSZrPMknsYw/fBXxKd51Bide0penMM
+QLj+qCHqNXORxawBU23oMO7oPyqV/kTAPQ3g/KmU14Gz2r3w0i2PADi/iQXOTnsS
+Mm1VVfm5b/2eJH80N/PAI9aIOQdv6NF4Uk/9CbUc9kZqoJo8W/CGs2EAdNT6OOVu
+kx0WAWF1QveCXQCSKXePAVhCTV7vQ0m/RfrNpaa5sor5+QHBPkx0eDsqNROOW6Pw
+9u8l93pZfB79OFLcVXD40/cmvMhNEasvryWANwdx2thC8VC0h1agRYcdfN4IBKow
+D2Vou3xYPXaz//3aafCTZj1vgCYEU+55e6qrT/rx5PVZG5wjDqTbKo7FXnjAvdE1
+kvSodgPbwNB1gMdkTdyfbNeR3qj9+t4Eq60WSU1sh7SnugcgKtLPMKoDwdZsM53A
+FAhUI1EnnMT49xPu8PQ/LLg5RBbvKBrMEZVoCXLtxAVhpuT1bI6KXUULM3ghhTRf
+DTJTXa1zSHEXGGVIirXuQeN1IPwoeh+5ithQOVn0EddmkHiENQ8=
+=CprC
 -----END PGP SIGNATURE-----
 
---===============1771565693241112373==
+--===============9165494417984575327==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ddc6a159cce9-fb4b834caa53.txt
+Content-Disposition: attachment; filename=revlist-40384c840ea1-2486e60bdd41.txt
 
 5f8822c4a4209b186ba655841993e5797c31e19e scsi: fnic: Use vcalloc() instead of vmalloc() and memset(0)
 cdb03e598750e7ebc222571aa96653e9b5a59dbe scsi: bsg: Replace zero-length array with flexible array member
@@ -76,4 +76,4 @@ ed638918f4df39daa458435f0825b487c1f192c8 scsi: Rename .slave_alloc() and .slave_
 b0d3b8514abd2f49b479dc775a03725c25b2f11c scsi: core: Update API documentation
 2486e60bdd41ca7ad98b9dc7467abf4628f008ab Merge patch series "Replace the "slave_*" function names"
 
---===============1771565693241112373==--
+--===============9165494417984575327==--
