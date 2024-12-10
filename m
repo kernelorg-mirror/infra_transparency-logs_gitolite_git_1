@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Tue, 10 Dec 2024 14:50:47 -0000
-Message-Id: <173384224782.3741871.15233222742086864459@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Tue, 10 Dec 2024 14:59:42 -0000
+Message-Id: <173384278256.3747917.14509191676448407141@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/i2c/i2c-host-next
-    old: e7aa745f94a1e8a00ef0b029ecf24fd8826dd151
-    new: 658fda5bf4ca731f32dfb269ddbfac10bb9e73f7
+  - ref: refs/heads/nfsd-testing
+    old: c6d8ed3f5b0a7eb06d1ba3aaba4c40ed22dcbb06
+    new: 0f0f93d93be82021f30c23eeca6aaf8e59a276d0
     log: |
-         7363f2d4c18557c99c536b70489187bb4e05c412 i2c: pnx: Fix timeout in wait functions
-         658fda5bf4ca731f32dfb269ddbfac10bb9e73f7 Merge branch 'i2c/i2c-host-fixes' into i2c/i2c-host-next
+         0f0f93d93be82021f30c23eeca6aaf8e59a276d0 nfsd: fix legacy client tracking initialization
          
