@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2173680021026648761=="
+Content-Type: multipart/mixed; boundary="===============0326165072031706259=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Tue, 10 Dec 2024 06:58:54 -0000
-Message-Id: <173381393499.3300803.3852443271768005218@gitolite.kernel.org>
+Date: Tue, 10 Dec 2024 06:59:10 -0000
+Message-Id: <173381395066.3301015.6812863190092382059@gitolite.kernel.org>
 
---===============2173680021026648761==
+--===============0326165072031706259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wbg/counter
 user: wbg
 changes:
-  - ref: refs/heads/counter-current
+  - ref: refs/heads/counter-fixes
     old: 1437d9f1c56fce9c24e566508bce1d218dd5497a
     new: fac04efc5c793dccbd07e2d59af9f90b7fc0dca4
     log: revlist-1437d9f1c56f-fac04efc5c79.txt
 
---===============2173680021026648761==
+--===============0326165072031706259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ eadaac4dd2e07292181d35858047bdb177d5194f Merge tag 'irq_urgent_for_v6.13_rc2' of
 0b6809a75ac026d4b569815744ad095b5d5955e1 Merge tag 'kbuild-fixes-v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 fac04efc5c793dccbd07e2d59af9f90b7fc0dca4 Linux 6.13-rc2
 
---===============2173680021026648761==--
+--===============0326165072031706259==--
