@@ -1,26 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Tue, 10 Dec 2024 11:26:04 -0000
-Message-Id: <173382996464.3527542.1030896386091001501@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 10 Dec 2024 11:32:44 -0000
+Message-Id: <173383036488.3532330.9540215857417555013@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/master
-    old: 5763e74d3cea008c31bfd48bc88660a1a32ecfa6
-    new: e555740b45a9e54cae30817c56d40bc493077bb1
+  - ref: refs/heads/for-linus
+    old: b50a3e98442b8d72f061617c7f7a71f7dba19484
+    new: b2e538a9827dd04ab5273bf4be8eb2edb84357b0
     log: |
-         c27f692414f584d74cab65dfd6ee8cc3e0079943 zramctl: add support for `algorithm_params`
-         19c12e63b1c7a5bcf110bb9c41860101516bc38b zramctl: rename `--params` into `--algorithm-params`
-         1fc0e152664bee7082e9dd96eb4ec07e7b39cac9 lscpu: add --raw command line option
-         4ff97ffbe33f961e523bbdaa160e7fbb79f3dae1 lscpu: use bool type in control structs
-         bdf3ff72efb3d09286eab737951f2eba196e07ab hwclock: Support GNU Hurd
-         4909c8c3f06206ff0ae8ffe55e59a76450a847b4 Merge branch 'PR/lscpu-raw' of https://github.com/karelzak/util-linux-work
-         025ba217e8aa18952a9b245af4e74f6e02b2c60a Merge branch 'ft-algorithm-params' of https://github.com/LiviaMedeiros/util-linux
-         e555740b45a9e54cae30817c56d40bc493077bb1 zramctl: add algorithm-params to bash-completion
+         b2e538a9827dd04ab5273bf4be8eb2edb84357b0 ALSA: control: Avoid WARN() for symlink errors
+         
+  - ref: refs/heads/master
+    old: e68ec06393f750c1513b70befbecbd369af9b612
+    new: e53f4e796ba0a81b448d9a0d2dbe30e81df085e8
+    log: |
+         b2e538a9827dd04ab5273bf4be8eb2edb84357b0 ALSA: control: Avoid WARN() for symlink errors
+         e53f4e796ba0a81b448d9a0d2dbe30e81df085e8 Merge branch 'for-linus'
          
