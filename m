@@ -1,20 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Tue, 10 Dec 2024 21:38:32 -0000
-Message-Id: <173386671273.4081469.13852368519394637030@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8211531762402457725=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Tue, 10 Dec 2024 22:13:28 -0000
+Message-Id: <173386880881.4109455.9420008935988687984@gitolite.kernel.org>
+
+--===============8211531762402457725==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/dev
-    old: ca5ccab1d3b3ef23dd93ec8bd7725d4ced355c32
-    new: 58b186eb8049230c475262f8e9eab34299677b8a
+  - ref: refs/heads/master
+    old: 355e82083f0eba59abf31521977dda09fab8bff5
+    new: 1b0d65dfcb498531da131511cab7f14e5845d969
     log: |
-         8ae42d5840453297553bf10656aba9ff33d6d15e srcu: Remove redundant GP sequence checks in srcu_funnel_gp_start
-         58b186eb8049230c475262f8e9eab34299677b8a rcu: Remove READ_ONCE() for rdp->gpwrap access in __note_gp_changes()
+         1b0d65dfcb498531da131511cab7f14e5845d969 ez: fix show-info in another branch
          
+
+--===============8211531762402457725==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1733868836 -0500
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1733868808-4547a967856d9673600e15d9247fc53715cdbc26
+
+355e82083f0eba59abf31521977dda09fab8bff5 1b0d65dfcb498531da131511cab7f14e5845d969 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZ1i9JAAKCRC2xBzjVmSZ
+bGJmAQDdkwSuQDO6edcsIhx+tWmdtgG0kqFVtyerAC8y9GKL0gD9HgLEuyvyAIDx
+LTJZQ5Uthwco+xMW6snLqFVb/aEbrgY=
+=67Rh
+-----END PGP SIGNATURE-----
+
+--===============8211531762402457725==--
