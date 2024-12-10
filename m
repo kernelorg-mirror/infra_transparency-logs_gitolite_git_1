@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-auxdisplay
-Date: Tue, 10 Dec 2024 20:26:47 -0000
-Message-Id: <173386240791.4022023.12432128379261273657@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Tue, 10 Dec 2024 20:28:14 -0000
+Message-Id: <173386249476.4022613.7031712028067590382@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andy/linux-auxdisplay
-user: andy
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/for-next
-    old: fcfadc7fef8c6af2dbc64ebe1e4d3b90a02ae428
-    new: 93b216cb312dcaee19de19efab6025481e5df4ae
-    log: |
-         e4ee5c3c43ea25e9dae0ca548eeedcd178ff04e6 auxdisplay: img-ascii-lcd: Remove an unused field in struct img_ascii_lcd_ctx
-         93b216cb312dcaee19de19efab6025481e5df4ae auxdisplay: img-ascii-lcd: Constify struct img_ascii_lcd_config
-         
+  - ref: refs/heads/nfsd-testing
+    old: 05e70f5a11fc70d810d5235220674b8a9b97bd56
+    new: 3e859a2ac75cc2a748b1c021e0693c3e847838f5
