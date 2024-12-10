@@ -1,45 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============4866826043977667251=="
+Content-Type: multipart/mixed; boundary="===============5402250290041733853=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Tue, 10 Dec 2024 12:53:41 -0000
-Message-Id: <173383522177.3636419.58979976928031097@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 10 Dec 2024 12:58:26 -0000
+Message-Id: <173383550677.3640629.5334504719960257825@gitolite.kernel.org>
 
---===============4866826043977667251==
+--===============5402250290041733853==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wsa/linux
-user: wsa
+repo: pub/scm/linux/kernel/git/broonie/spi
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/renesas/g3s/i3c-broken-out-experimental
-    old: c674772142baa19941ff1eb9ba3e85d1cd109886
-    new: f6d10d9af554943604c8932e86d2c1f2e81d4315
-    log: revlist-c674772142ba-f6d10d9af554.txt
+  - ref: refs/heads/for-6.14
+    old: a17162f0b2dc97aa2dedfde8a7226fb9b5210534
+    new: b7cc281812c4e0545d415e9761d5b03e130a41f2
+    log: |
+         c84dda3751e945a67d71cbe3af4474aad24a5794 spi: aspeed: Fix an error handling path in aspeed_spi_[read|write]_user()
+         0bb394067a792e7119abc9e0b7158ef19381f456 spi: rockchip: Fix PM runtime count on no-op cs
+         25fb0e77b90e290a1ca30900d54c6a495eea65e2 spi: spi-cadence-qspi: Disable STIG mode for Altera SoCFPGA.
+         b7cc281812c4e0545d415e9761d5b03e130a41f2 spi: Merge up fixes
+         
 
---===============4866826043977667251==
+--===============5402250290041733853==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c674772142ba-f6d10d9af554.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-ee110a0a1814461c6194307bd4e3e5250b198b87 i3c: add I3C driver from Gen5-BSP as reference
-565446e3f9b59b35be397b38772e26145312e8ff sync naming
-1d5fd282b791fc97e5051e57dc0d6815e27c70a9 ref: remove is void now
-f685ca03764f1f53bee93cd97b8b03c1c22e988a ref: simply code moving
-1f29c286405af9f5635c550d19d0fbb477265be6 sync whitespaces and move code to identical places
-f61d6802f1be5fc3c1eb086b126e1bef3e56515a sync typos and comments
-e1203024c37e316b6741f1c41e6bc4110912d9d5 ref: copy over irq init
-f3cddc6426213b322575c6894cbe13cac8e9b6ea cleanup irq setup and fix name of start irq
-5b9f3cac6e090a900b13b2778547454850afadb0 use devm_clk_get_enabled
-ab08cad26e282a0579e5e6941d686d757bf63487 clean up and sync reset handling
-ce4085971621a572c8af58018af07765c7a4de85 ref: driver is DT only anyway
-d8703374ad1e8e3e1809188bd68d3e5185f3c760 ref: copy over STDBR handling
-1e5d160498e06b2a03d2db1a976dca201e65cfca sync curly braces
-e79430f55417c2fefd02e85c10fb77d2ae5277c3 sync comments
-f6d10d9af554943604c8932e86d2c1f2e81d4315 sync cosmetic stuff
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1733835533 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1733835504-093596ae018a937a28a441571cb34c2fa56acd63
 
---===============4866826043977667251==--
+a17162f0b2dc97aa2dedfde8a7226fb9b5210534 b7cc281812c4e0545d415e9761d5b03e130a41f2 refs/heads/for-6.14
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmdYOw4ACgkQJNaLcl1U
+h9Ax9gf+PaRr2uKle0oVzBngpls4B/Fdnz2tyU45kWaa07LZ+KNSMJc5f6eznbeh
+iKA1c8eCkBwcpW56Q0m9YiarXim02gRwqaOqe/ot4AO797E2EmnQ8JA3SETHR2Cv
+n/yK6iBntGV/zenXhnmojup37GkYKRnwxW74KFJO5j/T2SPAeFJCcRhd0x/gxIfw
+2ZORZj/j8YI9DwKGqh4RGKjMNptJoqwyD+ogoqUSLeuDk39d4psC8NimnSiAMvd3
+MA+oewm6mI22iQKRdSSr4peWv/NXCfvOXA0m5GOpKoWDISFHzgu7kCoWOthQ2RQG
+LJCp+Zk1TFXv0/WxbRERDtpMM+7+RA==
+=3VyY
+-----END PGP SIGNATURE-----
+
+--===============5402250290041733853==--
