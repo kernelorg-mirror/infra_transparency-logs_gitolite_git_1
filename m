@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3832448258802909909=="
+Content-Type: multipart/mixed; boundary="===============1708577546071107670=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 10 Dec 2024 23:03:00 -0000
-Message-Id: <173387178051.4150013.7892360027731156691@gitolite.kernel.org>
+Date: Tue, 10 Dec 2024 23:03:05 -0000
+Message-Id: <173387178599.4150207.10558626338828874559@gitolite.kernel.org>
 
---===============3832448258802909909==
+--===============1708577546071107670==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/200GbE
     old: 11776cff0b563c8b8a4fa76cab620bfb633a8cb8
     new: 51a00be6a0994da2ba6b4ace3b7a0d9373b4b25e
     log: revlist-11776cff0b56-51a00be6a099.txt
 
---===============3832448258802909909==
+--===============1708577546071107670==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -65,4 +65,4 @@ af47a328e8130c81984cbcd1f771fc4bb777bd0f octeontx2-af: Fix installation of PF mu
 00301ef4b26d551141c96efeebff40904241f594 Merge branch 'virtio_net-correct-netdev_tx_reset_queue-invocation-points'
 51a00be6a0994da2ba6b4ace3b7a0d9373b4b25e udp: fix l4 hash after reconnect
 
---===============3832448258802909909==--
+--===============1708577546071107670==--
