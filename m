@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Tue, 10 Dec 2024 01:54:10 -0000
-Message-Id: <173379565045.3056504.14861045199785872158@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mhiramat/linux
+Date: Tue, 10 Dec 2024 02:07:24 -0000
+Message-Id: <173379644468.3067597.12858143472363626043@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
-user: sre
+repo: pub/scm/linux/kernel/git/mhiramat/linux
+user: mhiramat
 changes:
-  - ref: refs/heads/fixes
-    old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    new: c28dc9fc24f5fa802d44ef7620a511035bdd803e
+  - ref: refs/heads/topic/fprobe-on-fgraph
+    old: 431c8568e77d5ddd4acb63eb650893998f35beb2
+    new: 67c5c1e927ddfd83fc95b6a446a54e19c25d13c2
     log: |
-         afc6e39e824ad0e44b2af50a97885caec8d213d1 power: supply: gpio-charger: Fix set charge current limits
-         e5f84d1cf562f7b45e28d6e5f6490626f870f81c power: supply: cros_charge-control: add mutex for driver data
-         e65a1b7fad0e112573eea7d64d4ab4fc513b8695 power: supply: cros_charge-control: allow start_threshold == end_threshold
-         c28dc9fc24f5fa802d44ef7620a511035bdd803e power: supply: cros_charge-control: hide start threshold on v2 cmd
+         c8b0b99be092c9796b370707551d5a1192b4ce65 ftrace: Add ftrace_get_symaddr to convert fentry_ip to symaddr
+         67c5c1e927ddfd83fc95b6a446a54e19c25d13c2 bpf: Use ftrace_get_symaddr() for kprobe_multi probes
          
