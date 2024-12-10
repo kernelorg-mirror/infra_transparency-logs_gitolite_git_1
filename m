@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Tue, 10 Dec 2024 16:50:14 -0000
-Message-Id: <173384941407.3841059.12435268192026655936@gitolite.kernel.org>
+Date: Tue, 10 Dec 2024 16:50:20 -0000
+Message-Id: <173384942005.3841254.12775066778971891158@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/dt/next
+  - ref: refs/heads/for-next
     old: 16ef9c9de0c48b836c5996c6e9792cb4f658c8f1
     new: 3a973ce1b9180a5263924fbcebf8ad7572cca1fc
     log: |
