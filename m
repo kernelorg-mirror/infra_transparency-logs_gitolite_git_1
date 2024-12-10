@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2622776137720907239=="
+Content-Type: multipart/mixed; boundary="===============8549310337647411839=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 10 Dec 2024 23:14:05 -0000
-Message-Id: <173387244587.4160327.651401821154089371@gitolite.kernel.org>
+Date: Tue, 10 Dec 2024 23:14:13 -0000
+Message-Id: <173387245395.4160589.13178827866580355499@gitolite.kernel.org>
 
---===============2622776137720907239==
+--===============8549310337647411839==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/200GbE
     old: 6145fefc1e42c1895c0c1c2c8593de2c085d8c56
     new: a0e1fc921cb0651cd11469bf5378ec342bf7094d
     log: revlist-6145fefc1e42-a0e1fc921cb0.txt
 
---===============2622776137720907239==
+--===============8549310337647411839==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -101,4 +101,4 @@ cd197ac5d661ee2ab36f1578164e276ad947506c net: stmmac: dwmac-s32: add basic NXP S
 6bc6234cbd5e9f7a4d8a20aa4d5f0c891e099649 MAINTAINERS: Add Jan Petrous as the NXP S32G/R DWMAC driver maintainer
 a0e1fc921cb0651cd11469bf5378ec342bf7094d Merge branch 'add-support-for-synopsis-dwmac-ip-on-nxp-automotive-socs-s32g2xx-s32g3xx-s32r45'
 
---===============2622776137720907239==--
+--===============8549310337647411839==--
