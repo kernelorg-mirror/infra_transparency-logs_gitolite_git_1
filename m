@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0897504615779637004=="
+Content-Type: multipart/mixed; boundary="===============4940907882428435978=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Tue, 10 Dec 2024 12:27:39 -0000
-Message-Id: <173383365986.3614812.205035886786599853@gitolite.kernel.org>
+Date: Tue, 10 Dec 2024 12:27:56 -0000
+Message-Id: <173383367616.3615166.17422286154103244904@gitolite.kernel.org>
 
---===============0897504615779637004==
+--===============4940907882428435978==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    new: 2486e60bdd41ca7ad98b9dc7467abf4628f008ab
-    log: revlist-40384c840ea1-2486e60bdd41.txt
+  - ref: refs/heads/for-next
+    old: 6918141d815acef056a0d10e966a027d869a922d
+    new: 1fb3855b8a12b187d6d1b3746a1ef80dbb79112e
+    log: revlist-6918141d815a-1fb3855b8a12.txt
 
---===============0897504615779637004==
+--===============4940907882428435978==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-40384c840ea1-2486e60bdd41.txt
+Content-Disposition: attachment; filename=revlist-6918141d815a-1fb3855b8a12.txt
 
 5f8822c4a4209b186ba655841993e5797c31e19e scsi: fnic: Use vcalloc() instead of vmalloc() and memset(0)
 cdb03e598750e7ebc222571aa96653e9b5a59dbe scsi: bsg: Replace zero-length array with flexible array member
@@ -45,5 +45,8 @@ ed638918f4df39daa458435f0825b487c1f192c8 scsi: Rename .slave_alloc() and .slave_
 0f98212d96a2af52e4091a199ef1d35d478d0c60 scsi: core: Remove the .slave_configure() method
 b0d3b8514abd2f49b479dc775a03725c25b2f11c scsi: core: Update API documentation
 2486e60bdd41ca7ad98b9dc7467abf4628f008ab Merge patch series "Replace the "slave_*" function names"
+f103396ae31851d00b561ff9f8a32a441953ff8b scsi: ufs: core: Update compl_time_stamp_local_clock after completing a cqe
+47576c9167385354c74c095d09c5dc4d3f9d8644 Merge branch 'misc' into for-next
+1fb3855b8a12b187d6d1b3746a1ef80dbb79112e Merge branch 'fixes' into for-next
 
---===============0897504615779637004==--
+--===============4940907882428435978==--
