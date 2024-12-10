@@ -1,49 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============6750941712251400447=="
+Content-Type: multipart/mixed; boundary="===============6398355838502655167=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
-Date: Tue, 10 Dec 2024 11:03:05 -0000
-Message-Id: <173382858505.3507741.2910195031522220738@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Tue, 10 Dec 2024 11:18:19 -0000
+Message-Id: <173382949916.3519828.5671395918992441960@gitolite.kernel.org>
 
---===============6750941712251400447==
+--===============6398355838502655167==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jack/linux-fs
-user: jack
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/fsnotify_hsm
-    old: 73a919b224e42d0ad834a38cc694aada3b16c57e
-    new: 5db490902cbb1280e9206f7ea687bceb6f5227e1
-    log: revlist-73a919b224e4-5db490902cbb.txt
+  - ref: refs/heads/stable/v2.40
+    old: ee8235a65edd01a4899f2557dc9aa2cb9c6de7bc
+    new: 34eb1f6daac0bf5b36bf9072773b007a1615e923
+    log: revlist-ee8235a65edd-34eb1f6daac0.txt
 
---===============6750941712251400447==
+--===============6398355838502655167==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-73a919b224e4-5db490902cbb.txt
+Content-Disposition: attachment; filename=revlist-ee8235a65edd-34eb1f6daac0.txt
 
-a94204f4d48e28a711b7ed10399f749286c433e3 fsnotify: opt-in for permission events at file open time
-318652e07fa5b1743d08eeccd69a1f47f2c15710 fsnotify: check if file is actually being watched for pre-content events on open
-b82c6f5930f65c510f5b6b4b0d7d1913a6dda3db fanotify: don't skip extra event info if no info_mode is set
-4edcb9f7b7179ef87ca16440da50ff01f05f268c fanotify: rename a misnamed constant
-0a076036b631f086a6bce93a45eaa216f234f121 fanotify: reserve event bit of deprecated FAN_DIR_MODIFY
-f156524e5d72c81792eee81f828784dc8a37a7f2 fsnotify: introduce pre-content permission events
-9740d17162deca7138fad7dcf3ef52324832c32b fsnotify: pass optional file access range in pre-content event
-4acf3bc76e521b47acebcefc6312c97992f4ca29 fsnotify: generate pre-content permission event on truncate
-4f8afa33817a6420398d1c177c6e220a05081f51 fanotify: introduce FAN_PRE_ACCESS permission event
-870499bc1d4dc04cba1f63dd5e7bc02b983e2458 fanotify: report file range info with pre-content events
-b4b2ff4f61ded819bfa22e50fdec7693f51cbbee fanotify: allow to set errno in FAN_DENY permission response
-fac84846a28c0950d4433118b3dffd44306df62d fanotify: disable readahead if we have pre-content watches
-365be8bf41d50fbe20c00653d58b76e241116b92 mm: don't allow huge faults for files with pre content watches
-92de6f5a7d93005d1423f2c6113528009e299a21 fsnotify: generate pre-content permission event on page fault
-65f8cc3a752774d4e1733bab4ec1ac59ae695a62 xfs: add pre-content fsnotify hook for DAX faults
-c91ca037b87f3e252c1e7c7a6ce55832abee9723 btrfs: disable defrag on pre-content watched files
-f81ba67a53ecac728e39814b097585069443c216 ext4: add pre-content fsnotify hook for DAX faults
-1d44ba308bebe89f85ca0ec1a271db4727f8ce83 fs: enable pre-content events on supported file systems
-5db490902cbb1280e9206f7ea687bceb6f5227e1 fs: don't block write during exec on pre-content watched files
+2543548b8c4ce40d64d15ca8d7b473c3e104502a mkswap: set selinux label also when creating file
+0d29a1237ecccf4075f0ebe6b26e38e3fa3032d4 po-man: add missing langs to po4a.cfg
+6c31b7f43c543860b03422dc5c5b0a9ed30c17f3 po-man: fix typo, update .gitignore
+de58f981095fc0c298cf6f6ed49369607882d1de bash-completion: complete `--user` only for `runuser`, not for `su`
+6ac49b777c03ee15ad5999bd4f79c42f3733b026 bash-completion: add `--pty` and `--no-pty` options for `su` and `runuser`
+b55938df6f21e98c4f8e97774842ec254ac42e4f man pages: use `user` rather than `username`
+d12810d42303e001a174493abf8b03fdda294d38 man pages: document `--user` option for `runuser`
+d6d1bec40182cc7a95a37201ba633a4de5c36fe4 libmount/context_mount: fix argument number comments
+474f2599a3786d4359b8f5abe7416cdf6321c002 libmount: exec mount helpers with posixly correct argument order
+74a88250bdec3f83048de90594319e6e4c5cc1e2 libblkid: (gpt) use blkid_probe_verify_csum() for partition array checksum
+34eb1f6daac0bf5b36bf9072773b007a1615e923 hwclock: Remove ioperm declare as it causes nested extern declare warning
 
---===============6750941712251400447==--
+--===============6398355838502655167==--
