@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2719410451324147072=="
+Content-Type: multipart/mixed; boundary="===============4556683134231929544=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 10 Dec 2024 14:38:34 -0000
-Message-Id: <173384151407.3729399.8784656199266989676@gitolite.kernel.org>
+Date: Tue, 10 Dec 2024 14:42:48 -0000
+Message-Id: <173384176847.3733184.9139553238160507385@gitolite.kernel.org>
 
---===============2719410451324147072==
+--===============4556683134231929544==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,34 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: ij
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/review-ilpo-fixes
-    old: e9fba20c29e27dc99e55e1c550573a114561bf8c
-    new: 360c400d0f568636c1b98d1d5f9f49aa3d420c70
+  - ref: refs/heads/review-ilpo-next
+    old: cc115abc1f9b55092c11c183ebff9ad921251609
+    new: 3b6f9c6505a34450a4dd5d9bbbe5cfec4718adb2
     log: |
-         c1043cdb019ed4d053d673e62b553a5cea1a287d alienware-wmi: Fix X Series and G Series quirks
-         54a8cada2f3d7efb4a7920807473d89c442d9c45 alienware-wmi: Adds support to Alienware m16 R1 AMD
-         9244524d60ddea55f4df54c51200e8fef2032447 p2sb: Factor out p2sb_read_from_cache()
-         ae3e6ebc5ab046d434c05c58a3e3f7e94441fec2 p2sb: Introduce the global flag p2sb_hidden_by_bios
-         0286070c74ee48391fc07f7f617460479472d221 p2sb: Move P2SB hide and unhide code to p2sb_scan_and_cache()
-         360c400d0f568636c1b98d1d5f9f49aa3d420c70 p2sb: Do not scan and remove the P2SB device when it is unhidden
+         9741f9aa13f6dc3ff24e1d006b2ced5f460e6b6f platform/x86: acer-wmi: Add support for Acer PH14-51
+         287b3240fc8a06a14923019a6b3e697c6e693c93 platform/x86: acer-wmi: Rename ACER_CAP_FAN_SPEED_READ
+         a11d8b37942d3c12a8a5f8ae30cbdeb069e5d819 platform/x86: acer-wmi: Improve error handling when reading gaming system information
+         3b6f9c6505a34450a4dd5d9bbbe5cfec4718adb2 platform/x86: acer-wmi: Implement proper hwmon support
          
 
---===============2719410451324147072==
+--===============4556683134231929544==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1733841539 +0200
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1733841794 +0200
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1733841509-47cd3a27f2aa26c7ca84ecd8d8e473d8872ec337
+nonce 1733841765-23dadbf97aaff74e117ec4735a1209c7e2877ff6
 
-e9fba20c29e27dc99e55e1c550573a114561bf8c 360c400d0f568636c1b98d1d5f9f49aa3d420c70 refs/heads/review-ilpo-fixes
+cc115abc1f9b55092c11c183ebff9ad921251609 3b6f9c6505a34450a4dd5d9bbbe5cfec4718adb2 refs/heads/review-ilpo-next
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZ1hShQAKCRBZrE9hU+XO
-MdT+AP9C1/+lR4G5YmKwNyGH6cvYUM2NR1ziVIsbX+24j1kSvgEA75RNG2xe0CDZ
-OSq1MY2iRUV9d86t1rDcsjqeuVCddQM=
-=EKYC
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZ1hThAAKCRBZrE9hU+XO
+MUkrAP9D0S4colgYehipmh5/Cu2QijgV+uRDaHPkqC1XC1zxoAEA+GVAebhVGMj+
+cCPU3P0l/t3p8hXkpJdP0FMWvpHVqgQ=
+=s2IH
 -----END PGP SIGNATURE-----
 
---===============2719410451324147072==--
+--===============4556683134231929544==--
