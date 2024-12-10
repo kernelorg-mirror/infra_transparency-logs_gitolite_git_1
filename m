@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6312723579031975304=="
+Content-Type: multipart/mixed; boundary="===============5080388529603524739=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Tue, 10 Dec 2024 17:33:29 -0000
-Message-Id: <173385200937.3878303.14624116781586985779@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Tue, 10 Dec 2024 17:33:31 -0000
+Message-Id: <173385201112.3878418.15890961936032282298@gitolite.kernel.org>
 
---===============6312723579031975304==
+--===============5080388529603524739==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: e32a80927434907f973f38a88cd19d7e51991d24
 
---===============6312723579031975304==
+--===============5080388529603524739==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -156,4 +156,4 @@ df9e2102de839c587eb50b2a5d1d19b07a6caaf5 Merge tag 'sched_urgent_for_v6.13_rc3' 
 e4c995f92b210ab353aa39e4c100ffc5d12eb13c Merge tag 'perf_urgent_for_v6.13_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7cb1b466315004af98f6ba6c2546bb713ca3c237 Merge tag 'locking_urgent_for_v6.13_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 
---===============6312723579031975304==--
+--===============5080388529603524739==--
