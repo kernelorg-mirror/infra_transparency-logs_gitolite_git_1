@@ -1,43 +1,67 @@
-Content-Type: multipart/mixed; boundary="===============7291091393321597312=="
+Content-Type: multipart/mixed; boundary="===============6991655034731387057=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Wed, 11 Dec 2024 01:50:44 -0000
-Message-Id: <173388184473.98061.3711781776808274912@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Wed, 11 Dec 2024 02:03:45 -0000
+Message-Id: <173388262519.107134.13215349963950074129@gitolite.kernel.org>
 
---===============7291091393321597312==
+--===============6991655034731387057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/dev-test
-    old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    new: 03de91eb81dd428fd872acd1a3f7730c40a06034
-    log: revlist-40384c840ea1-03de91eb81dd.txt
+  - ref: refs/heads/crc-x86
+    old: f4af1fe512cc3065ec7bc17a4473fc03b50f76e1
+    new: e943f18adeacb1d549ca0398a64fc4130e9fd816
+    log: revlist-f4af1fe512cc-e943f18adeac.txt
 
---===============7291091393321597312==
+--===============6991655034731387057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-40384c840ea1-03de91eb81dd.txt
+Content-Disposition: attachment; filename=revlist-f4af1fe512cc-e943f18adeac.txt
 
-f75978b8da4208427981d7fe9d23f9d16bb3bab7 f2fs: Use a folio in f2fs_all_cluster_page_ready()
-cb84960d1de533e5ab53bed5f508f6f07218160f f2fs: Use a folio in f2fs_compress_write_end()
-8ffc53b22e7921504cad6a098baf16967d7939b5 f2fs: Use a folio in f2fs_truncate_partial_cluster()
-d71c454aad9f55782580db6184d373e629f6c0ef f2fs: Use a folio in f2fs_write_compressed_pages()
-ed589dbad6c060de345bd9845843a9acc8f5317e f2fs: Convert submit tracepoints to take a folio
-5307015f3e052c9c7312cff4a7e8c2567172d9b5 f2fs: Add F2FS_F_SB()
-de8ffec23dfc869c489ee8eef1dfa422cfe32fe2 f2fs: Convert f2fs_finish_read_bio() to use folios
-0ba227a71a12c4eff6ccfdecf11ff64db719ec4f f2fs: Use a folio more in f2fs_submit_page_bio()
-a21d4b9de31ef0f615a2fd000bdc3826f6324511 f2fs: Use a data folio in f2fs_submit_page_bio()
-ad46cc42711aea8f0a1ed70789dde355dd70bbad f2fs: Convert __read_io_type() to take a folio
-c0e83ef2b8b387d887113d2306939708f84da4e8 f2fs: Remove calls to folio_file_mapping()
-a39a1bb4f4d808e7498916638bbc6fb4ee878661 f2fs: cache more dentry pages
-03de91eb81dd428fd872acd1a3f7730c40a06034 f2fs: ensure that node info flags are always initialized
+0a499a7e9819e7a0980408f18df68160a0b55f2e lib/crc32: drop leading underscores from __crc32c_le_base
+d36cebe03c3ae4ea1fde20cfc797fab8729c3ab5 lib/crc32: improve support for arch-specific overrides
+b5ae12e0ee099e4c458f7814f0317f4e2cbf105e lib/crc32: expose whether the lib is really optimized at runtime
+780acb2543eaf163169f8c6d6fe52e7f94a7b0d4 crypto: crc32 - don't unnecessarily register arch algorithms
+1e1b6dbc3d9c152df818f3e560f96839a901ebce arm/crc32: expose CRC32 functions through lib
+72f51a4f4b076d2ea2751432dee07600aea4c4c4 loongarch/crc32: expose CRC32 functions through lib
+289c270eab5e620c8fe29f72887d4e0bfde1a581 mips/crc32: expose CRC32 functions through lib
+372ff60ac4dd72bbd0a0358d5e21f51e62dc5c6f powerpc/crc32: expose CRC32 functions through lib
+008071917dfccffe6637d264e255553af15c99f9 s390/crc32: expose CRC32 functions through lib
+0f60a8ace577f7629244ecf7c95105d4b704a462 sparc/crc32: expose CRC32 functions through lib
+64e3586c0b61ec4800e820ff04f4c3360edbccd6 x86/crc32: update prototype for crc_pcl()
+1e6b72e60a5a16ddda9c0669da7538f497838d0a x86/crc32: update prototype for crc32_pclmul_le_16()
+55d1ecceb8d6a5c9ceff7c6528075bd0ce4e8366 x86/crc32: expose CRC32 functions through lib
+cc354fa7f0160a96896a3b8d7f298a036e3b8602 bcachefs: Explicitly select CRYPTO from BCACHEFS_FS
+38a9a5121c3bcf2ed857430a92e493568b247c35 lib/crc32: make crc32c() go directly to lib
+f2b4fa19647e18a2e2aade7e3e4620567e7e594a ext4: switch to using the crc32c library
+dd348f054b24a3f57cbcdc2c8e7ebc22c62eb72f jbd2: switch to using the crc32c library
+3ca4bec40ee211cd5d907c8e98b66c92f6a1b1e1 f2fs: switch to using the crc32 library
+31e4cdde4d8b4bc358f3e6b44647ead3cba13aba scsi: target: iscsi: switch to using the crc32c library
+be3c45b070cba3be4dd248b38d4798e3e2859451 lib/crc-t10dif: stop wrapping the crypto API
+0961c3bcefa64d5f0999e2b703391862c733bb52 lib/crc-t10dif: add support for arch overrides
+21dda37f3f8b70dd3531bf388773f1b4c803a130 crypto: crct10dif - expose arch-optimized lib function
+ed4bc981d52b49c5d35bfc4cacdac98ff135add3 x86/crc-t10dif: expose CRC-T10DIF function through lib
+1684e8293605062dee45a5e4118fe8db6cd0d9d9 arm/crc-t10dif: expose CRC-T10DIF function through lib
+2051da858534a73589cdb27af914fe1c03b9ee98 arm64/crc-t10dif: expose CRC-T10DIF function through lib
+7439cfed1c41e5a1f3d095d3a4ffecdb13b279c4 powerpc/crc-t10dif: expose CRC-T10DIF function through lib
+e47d9b1a76ed78d0d50491f6a7d8ef59e379f45c lib/crc_kunit.c: add KUnit test suite for CRC library functions
+c14e85360969d7b0aaeab3915314787f3466c326 lib/crc16_kunit: delete obsolete crc16_kunit.c
+87fe0a131001ebadda9970c6341cc05c5e417506 lib/crc32test: delete obsolete crc32test.c
+db1fda2d4cd44234a77e134b79a7f03fdf3d8c8c powerpc/crc: delete obsolete crc-vpmsum_test.c
+72914faebaabd77d8a471af4662ca0b938011c49 MAINTAINERS: add entry for CRC library
+87a555c776157664dd5b68ac6917e17d583642b6 x86: move ZMM exclusion list into CPU feature flag
+20640f2754ad46a9183e8357620ac76236193c67 scripts/gen-crc-consts: add gen-crc-consts.py
+5c6b210ed51e5f4bc9457952ed548a47a3b9e9ad x86/crc: add "template" for [V]PCLMULQDQ based CRC functions
+0339024db7c60680f0959795a02bec0cb88ddb27 x86/crc32: implement crc32_le using new template
+28cb8ff0affc4a22bae517e31ea2b34833752e8e x86/crc-t10dif: implement crc_t10dif using new template
+e943f18adeacb1d549ca0398a64fc4130e9fd816 x86/crc32: implement crc32_be using new template
 
---===============7291091393321597312==--
+--===============6991655034731387057==--
