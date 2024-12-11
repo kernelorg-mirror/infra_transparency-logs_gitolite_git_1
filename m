@@ -1,57 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============1982418575952322846=="
+Content-Type: multipart/mixed; boundary="===============3406344974200812119=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 11 Dec 2024 17:01:19 -0000
-Message-Id: <173393647913.1062088.15743057110841102977@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Wed, 11 Dec 2024 17:01:26 -0000
+Message-Id: <173393648618.1062277.16622373656639454131@gitolite.kernel.org>
 
---===============1982418575952322846==
+--===============3406344974200812119==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regmap
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.13
-    old: 687630aa582acf674120c87350beb01d836c837c
-    new: 2aa13da97e2b92d20a8ad4ead10da89f880b64e7
+  - ref: refs/heads/for-6.14
+    old: 1331fb6640440f42a709eafd5c802f3496f746b8
+    new: eb708cd631a8dca17ff004ccc39bbeb096c1db22
     log: |
-         2aa13da97e2b92d20a8ad4ead10da89f880b64e7 ASoC: tas2781: Fix calibration issue in stress test
-         
-  - ref: refs/heads/asoc-6.14
-    old: c56078128c0afe92985c378478b0b0435062c8df
-    new: ab20bcb2d0c80b4df9f9a6ef86c6e47d5d10cba0
-    log: |
-         ab20bcb2d0c80b4df9f9a6ef86c6e47d5d10cba0 ASoC: dt-bindings: convert rt5682.txt to dt-schema
+         eb708cd631a8dca17ff004ccc39bbeb096c1db22 regmap: regmap_multi_reg_read(): make register list const
          
 
---===============1982418575952322846==
+--===============3406344974200812119==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1733936505 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1733936476-ea91f533eab63fa766cd635b2f408f1b222dc033
+pusher C3F436CA30F5D8EB 1733936513 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
+nonce 1733936484-fa5756527183f97f1bf22b6fe7b728fad764e402
 
-687630aa582acf674120c87350beb01d836c837c 2aa13da97e2b92d20a8ad4ead10da89f880b64e7 refs/heads/asoc-6.13
-c56078128c0afe92985c378478b0b0435062c8df ab20bcb2d0c80b4df9f9a6ef86c6e47d5d10cba0 refs/heads/asoc-6.14
+1331fb6640440f42a709eafd5c802f3496f746b8 eb708cd631a8dca17ff004ccc39bbeb096c1db22 refs/heads/for-6.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmdZxXkACgkQJNaLcl1U
-h9Bfqgf8DWx7K8ZieGuBVnjyf8Vykc45OJmI0nkktThxPkoG7LCcEIPQnONzLdio
-xSsg/8M12vTlx3wpXg22VX84kqNwRFThB1+8nROCvihilNvyVyY3B3gpEilY/kRO
-FRMuePLOnovfNWiwbm01PH777UB7NQOCqwm9LY5HFCwgSUlTXQDfoTlIQeKz8vvu
-tv4aimUDEgKyOD4ZAcmd/NnwHT+yG4m3ENzlJPZdiHiSvw+NnbtNxxTtux1pq+G1
-TuWym6nGpGJ46t50LUNpy37h+IcpN+KTejUIWuDb2DpuGGlQMpLRTpED1YPMc5kG
-ttLNO79cAHG+gCWFtWWq3W4GPDW9zg==
-=S4xt
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmdZxYEACgkQJNaLcl1U
+h9CGbwf+OvIWBzoNOWJyFQeOstDH7ZKmaphRRvznAi+pGyXmLvQoRK220W49FfDu
+F1z9/6/tvs/O0brJIK+3RkScF5x4A0suhrF1/zyaST+SN4O49EVK+NmS5GM7G9T6
+vg7wRLi3zvqqrFG6IGzYwTN9a3oLU8CPcHzw3a0ON56nqYhV42q9ufkmO5ZwbUT5
+ybaaO1l+dlWh3sLOcCjod78XoDk/7ZpLKyhLMo/DQ+EL7iP9ARcnRv6uhZOB02Ad
+B1Ju78UzgdbTCf5qSXwJey/QKvvz2FkI9ekImmUaS+iQL7EJ+9tpHfRA6hulM18V
+JTSwhAWEpS/sHSdnJTCVnBCM2fQRIg==
+=O55n
 -----END PGP SIGNATURE-----
 
---===============1982418575952322846==--
+--===============3406344974200812119==--
