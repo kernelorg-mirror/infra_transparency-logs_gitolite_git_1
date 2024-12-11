@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Wed, 11 Dec 2024 04:22:54 -0000
-Message-Id: <173389097443.224192.10919550287828998903@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/ofono/ofono
+Date: Wed, 11 Dec 2024 04:54:39 -0000
+Message-Id: <173389287920.248274.2817755293635158035@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/libata/linux
-user: dlemoal
+repo: pub/scm/network/ofono/ofono
+user: denkenz
 changes:
-  - ref: refs/heads/for-next
-    old: 9986ce65bebb9a07a080d1e6ce04926b4c49ff17
-    new: a7f08ca7df9260bdcda8e3931c0680c24e02be0b
+  - ref: refs/heads/master
+    old: 2ff2da7ac374a790f8b2a0216bcb4e3126498225
+    new: 2bdee9065f647a234454bf9d7468703b406f409d
     log: |
-         a7f08ca7df9260bdcda8e3931c0680c24e02be0b ata: sata_gemini: Remove unused gemini_sata_reset_bridge()
+         2bdee9065f647a234454bf9d7468703b406f409d smsutil: Use size_t for lengths and offsets
          
