@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5388799171742222387=="
+Content-Type: multipart/mixed; boundary="===============2578397810876747857=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 11 Dec 2024 19:08:54 -0000
-Message-Id: <173394413436.1170836.10718943148930609393@gitolite.kernel.org>
+Date: Wed, 11 Dec 2024 19:08:56 -0000
+Message-Id: <173394413650.1170920.9464735778204044849@gitolite.kernel.org>
 
---===============5388799171742222387==
+--===============2578397810876747857==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 51a00be6a0994da2ba6b4ace3b7a0d9373b4b25e
     new: 3dd002f20098b9569f8fd7f8703f364571e2e975
     log: revlist-51a00be6a099-3dd002f20098.txt
 
---===============5388799171742222387==
+--===============2578397810876747857==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -46,4 +46,4 @@ bb617328bafa1023d8e9c25a25345a564c66c14f net: renesas: rswitch: fix leaked point
 93763e68f1119d8bb09e1494004913a3ad137698 Merge branch 'net-renesas-rswitch-several-fixes'
 3dd002f20098b9569f8fd7f8703f364571e2e975 net: renesas: rswitch: handle stop vs interrupt race
 
---===============5388799171742222387==--
+--===============2578397810876747857==--
