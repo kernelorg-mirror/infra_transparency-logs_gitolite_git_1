@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8026448267772797861=="
+Content-Type: multipart/mixed; boundary="===============7935980979160923709=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Wed, 11 Dec 2024 19:49:48 -0000
-Message-Id: <173394658852.1205696.10480373970498862227@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
+Date: Wed, 11 Dec 2024 19:49:51 -0000
+Message-Id: <173394659153.1205828.7022631221172718130@gitolite.kernel.org>
 
---===============8026448267772797861==
+--===============7935980979160923709==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-omap
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: f92f4749861b06fed908d336b4dee1326003291b
     log: revlist-7cb1b4663150-f92f4749861b.txt
 
---===============8026448267772797861==
+--===============7935980979160923709==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ f10bef73fb355e3fc85e63a50386798be68ff486 btrfs: flush delalloc workers queue bef
 5a087a6b17eeb64893b81d08d38e6f6300419ee5 Merge tag 'for-6.13-rc2-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 f92f4749861b06fed908d336b4dee1326003291b Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 
---===============8026448267772797861==--
+--===============7935980979160923709==--
