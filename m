@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Wed, 11 Dec 2024 21:27:39 -0000
-Message-Id: <173395245957.1287722.9199322272168975676@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Wed, 11 Dec 2024 21:35:37 -0000
+Message-Id: <173395293702.1294988.10499140948834955548@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
   - ref: refs/heads/master
-    old: f84622a8b07249e14f11a3d6799f689d06f08f2b
-    new: 08cbf64ea644c08e50fdec617be118dde475f3f1
+    old: 4617ddd2573630edc959b0d7dd4725d874052f9b
+    new: 4d92a7d0f72c830ea043bd80992d8fcef2c31fe4
     log: |
-         08cbf64ea644c08e50fdec617be118dde475f3f1 scripts/push_branches: use push_damon_hack.sh
+         4d92a7d0f72c830ea043bd80992d8fcef2c31fe4 foo
          
