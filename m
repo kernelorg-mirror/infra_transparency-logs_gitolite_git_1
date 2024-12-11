@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
-Date: Wed, 11 Dec 2024 17:40:12 -0000
-Message-Id: <173393881295.1097134.8385951404640907526@gitolite.kernel.org>
+Date: Wed, 11 Dec 2024 17:41:22 -0000
+Message-Id: <173393888280.1097747.10329012213908639535@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
 user: frederic
 changes:
-  - ref: refs/heads/kthread/affinity-v6
+  - ref: refs/heads/for-next
     old: 1986790dbf4c1785d9c48b3777a6dd640cc0e694
     new: 2e6edb4e3ae0cf941a639e14ff9f17e1b0f30ef9
     log: |
