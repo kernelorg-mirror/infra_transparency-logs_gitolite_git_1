@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============1642607716708847825=="
+Content-Type: multipart/mixed; boundary="===============6729937350100148943=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 11 Dec 2024 17:45:11 -0000
-Message-Id: <173393911181.1101299.10068804624270764205@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 11 Dec 2024 17:45:15 -0000
+Message-Id: <173393911507.1101395.15952517381120192386@gitolite.kernel.org>
 
---===============1642607716708847825==
+--===============6729937350100148943==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.14
+  - ref: refs/heads/asoc-6.14
     old: ab20bcb2d0c80b4df9f9a6ef86c6e47d5d10cba0
     new: 3ce8df13f65e3ed297def63bb1e3ee6f024cbdc5
     log: revlist-ab20bcb2d0c8-3ce8df13f65e.txt
 
---===============1642607716708847825==
+--===============6729937350100148943==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1733939138 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1733939109-502f59fb6c44ebffa0cc2299a05fe9f73a48d84d
+pusher C3F436CA30F5D8EB 1733939142 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1733939112-97e93f4796c2b44588d114ed422fcbfe8dcdf328
 
-ab20bcb2d0c80b4df9f9a6ef86c6e47d5d10cba0 3ce8df13f65e3ed297def63bb1e3ee6f024cbdc5 refs/heads/for-6.14
+ab20bcb2d0c80b4df9f9a6ef86c6e47d5d10cba0 3ce8df13f65e3ed297def63bb1e3ee6f024cbdc5 refs/heads/asoc-6.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmdZz8IACgkQJNaLcl1U
-h9DROQgAgsk77TMslKDLTN1F/9hjFxc/tPCXCbIqEfxPhV7gtCinqwcSvZ7YQtkW
-14uUKmjgCLhvJVF8vaCpU/X+YFW1ErKXy0+2WrhAe5e3FYYRSAEySvt3878d8bNl
-WNZb1vsb/d9qKp5KUeEdDHJFIlEjH4UYtEwo6zZ9dUfiigyLrRndIOaMlo6/ehh9
-+fzop+9Vo1MCRwM+ar9jUJJ7dRqUKjf1C435YuJ7cA3hbeCE4/DGJYZNicmbc7Al
-WC2ywNhwvMrAzY80Mo/QGadBMXDbCQgD8ezFUfd60VAA9cbYAVA5moVL0Al7FOXe
-98z2N9vHcDBiQHqi/5KeNTaKf20tqw==
-=dSPc
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmdZz8YACgkQJNaLcl1U
+h9DCBgf/RYWVGG3T55dfSpxYZum8Pk+rplPXsgmDFlsTAcp9gFF655ZfjJ9HqxzQ
+79f5pDt0WA3ggIOYQCbr4yvPe/5VUege50C3BlhFrHR7LOGSwKfkIqR3gbxMQs0M
+ayL2get4vBUacbgHJJA0awgAb7USmLHSoUt/WBFwtCChCGd1MhqTiR8jIFzstgLj
+pQ5fgbgzr2+k2NC6a7Zcwimd32xQtTfFMfUSrrkeaY9w7PDlMVhbiG9JAkus1i5H
+ACELOllcob5GQq0Jp2KbXG2Yy5Qpy5YzKwmaEwkos2yU4Z2rkmwepkav40hQwlvd
+gUiAen9t3gWxUbkOG3Y44IaJW/br6g==
+=INz4
 -----END PGP SIGNATURE-----
 
---===============1642607716708847825==
+--===============6729937350100148943==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -69,4 +69,4 @@ c28dac5d3a6e87615d4c8e50f574c320172a3d55 ASoC: dt-bindings: renesas,rz-ssi: Remo
 699a9733a354d74482ae4d4304acdbb0c0318a23 ASoC: dt-bindings: renesas,rz-ssi: Document the Renesas RZ/G3S SoC
 3ce8df13f65e3ed297def63bb1e3ee6f024cbdc5 Add audio support for the Renesas RZ/G3S SoC
 
---===============1642607716708847825==--
+--===============6729937350100148943==--
