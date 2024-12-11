@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4270505130616267937=="
+Content-Type: multipart/mixed; boundary="===============3989285566837235687=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Wed, 11 Dec 2024 19:42:46 -0000
-Message-Id: <173394616600.1199300.15118587895178832226@gitolite.kernel.org>
+Date: Wed, 11 Dec 2024 19:43:08 -0000
+Message-Id: <173394618838.1199577.10804643048556016111@gitolite.kernel.org>
 
---===============4270505130616267937==
+--===============3989285566837235687==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/master
-    old: fac04efc5c793dccbd07e2d59af9f90b7fc0dca4
-    new: f92f4749861b06fed908d336b4dee1326003291b
-    log: revlist-fac04efc5c79-f92f4749861b.txt
+  - ref: refs/heads/fixes
+    old: 4ea915f3288756d829ba8abbd6cee10cf84a5a11
+    new: 025c7b0657825d4441946323a9bfea596635ebd9
+    log: revlist-4ea915f32887-025c7b065782.txt
 
---===============4270505130616267937==
+--===============3989285566837235687==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fac04efc5c79-f92f4749861b.txt
+Content-Disposition: attachment; filename=revlist-4ea915f32887-025c7b065782.txt
 
 22368fe1f9bbf39db2b5b52859589883273e80ce sched/deadline: Fix replenish_dl_new_period dl_server condition
 70ee7947a29029736a1a06c73a48ff37674a851b sched: fix warning in sched_setaffinity
@@ -57,5 +57,11 @@ e4c995f92b210ab353aa39e4c100ffc5d12eb13c Merge tag 'perf_urgent_for_v6.13_rc3' o
 1594c49394ffb0a5a9c889276ea204f05c1d46e3 Merge tag 'probes-fixes-v6.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 5a087a6b17eeb64893b81d08d38e6f6300419ee5 Merge tag 'for-6.13-rc2-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 f92f4749861b06fed908d336b4dee1326003291b Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
+bb8b0639425763036ebaf5bc51c141c4482c22cc staging: gpib: Make GPIB_NI_PCI_ISA depend on HAS_IOPORT
+7112be2c2094f502cd7f8178edb3bfaf41f34c50 tty: serial: Work around warning backtrace in serial8250_set_defaults
+1ef2142917ff71dcc5234ebbadbb86ffd2bba966 locking/lockdep: Enforce PROVE_RAW_LOCK_NESTING only if ARCH_SUPPORTS_RT
+c70419c8841cf943a0423884e4625d0254ff5716 ARM: imx: Re-introduce the PINCTRL selection
+62e824bb07d48fce7622b04f081a47ec1400604c openrisc: place exception table at the head of vmlinux
+025c7b0657825d4441946323a9bfea596635ebd9 staging: gpib: Fix i386 build issue
 
---===============4270505130616267937==--
+--===============3989285566837235687==--
