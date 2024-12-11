@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/ofono/ofono
-Date: Wed, 11 Dec 2024 18:27:01 -0000
-Message-Id: <173394162162.1134929.12477056078458831413@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 11 Dec 2024 18:37:54 -0000
+Message-Id: <173394227445.1143143.4019406079388755708@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/ofono/ofono
-user: denkenz
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
   - ref: refs/heads/master
-    old: 37f7aea74270e2db9e0bdf072d6d8c45d75f6052
-    new: c3335c6e6935e6d7b8810761d7ebf604cd39deb0
+    old: 0954362053911aecaf92a5986db7c1a5681d66f8
+    new: baeadad2457c79e5e0c41a29d7ee4852ab46a790
     log: |
-         c3335c6e6935e6d7b8810761d7ebf604cd39deb0 qmi: gprs/lte: query for tethered default profile instead of embedded
+         4b4ccc7607169dd7892142fefc668da5e64f6ac0 Fixes for 6.12
+         e9e7b677ed8510e0ae4224ce4ba3317820490d2d Fixes for 6.6
+         ad6322af8aa595b2e119343bd5b48897e7d0b4a3 Fixes for 6.1
+         986671b68ce3b524a1eb5f51f03bcc4a6d5697b1 Fixes for 5.15
+         baeadad2457c79e5e0c41a29d7ee4852ab46a790 Fixes for 5.4
          
