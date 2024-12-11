@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
-Date: Wed, 11 Dec 2024 13:52:18 -0000
-Message-Id: <173392513868.759975.10453120535035140485@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 11 Dec 2024 13:57:06 -0000
+Message-Id: <173392542642.764132.14396034696487040188@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
-user: frederic
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/for-next
-    old: 0000000000000000000000000000000000000000
-    new: 1986790dbf4c1785d9c48b3777a6dd640cc0e694
+  - ref: refs/heads/main
+    old: 54d3970548bd9de40f921c95f8c31e1b1b2382cb
+    new: c0b8980e6041afa363361e41fcafd7862721c3ee
+    log: |
+         c0b8980e6041afa363361e41fcafd7862721c3ee l2tp: Handle eth stats using NETDEV_PCPU_STAT_DSTATS.
+         
