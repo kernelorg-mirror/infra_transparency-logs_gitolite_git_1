@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6729937350100148943=="
+Content-Type: multipart/mixed; boundary="===============5810495077637315775=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 11 Dec 2024 17:45:15 -0000
-Message-Id: <173393911507.1101395.15952517381120192386@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 11 Dec 2024 17:45:24 -0000
+Message-Id: <173393912480.1101821.16021193385854624653@gitolite.kernel.org>
 
---===============6729937350100148943==
+--===============5810495077637315775==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.14
-    old: ab20bcb2d0c80b4df9f9a6ef86c6e47d5d10cba0
-    new: 3ce8df13f65e3ed297def63bb1e3ee6f024cbdc5
-    log: revlist-ab20bcb2d0c8-3ce8df13f65e.txt
+  - ref: refs/heads/for-next
+    old: 48b855b3102a86c39d7a445f6c5c29662fa593b0
+    new: 98673ff1fe6426d14d13c2524053ab8e46ca2e23
+    log: revlist-48b855b3102a-98673ff1fe64.txt
 
---===============6729937350100148943==
+--===============5810495077637315775==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1733939142 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1733939112-97e93f4796c2b44588d114ed422fcbfe8dcdf328
-
-ab20bcb2d0c80b4df9f9a6ef86c6e47d5d10cba0 3ce8df13f65e3ed297def63bb1e3ee6f024cbdc5 refs/heads/asoc-6.14
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmdZz8YACgkQJNaLcl1U
-h9DCBgf/RYWVGG3T55dfSpxYZum8Pk+rplPXsgmDFlsTAcp9gFF655ZfjJ9HqxzQ
-79f5pDt0WA3ggIOYQCbr4yvPe/5VUege50C3BlhFrHR7LOGSwKfkIqR3gbxMQs0M
-ayL2get4vBUacbgHJJA0awgAb7USmLHSoUt/WBFwtCChCGd1MhqTiR8jIFzstgLj
-pQ5fgbgzr2+k2NC6a7Zcwimd32xQtTfFMfUSrrkeaY9w7PDlMVhbiG9JAkus1i5H
-ACELOllcob5GQq0Jp2KbXG2Yy5Qpy5YzKwmaEwkos2yU4Z2rkmwepkav40hQwlvd
-gUiAen9t3gWxUbkOG3Y44IaJW/br6g==
-=INz4
------END PGP SIGNATURE-----
-
---===============6729937350100148943==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ab20bcb2d0c8-3ce8df13f65e.txt
+Content-Disposition: attachment; filename=revlist-48b855b3102a-98673ff1fe64.txt
 
 541011dc2d7c4c82523706f726f422a5e23cc86f ASoC: renesas: rz-ssi: Terminate all the DMA transactions
 55c209cd4318c701e6e88e0b2512a0f12dd02a7d ASoC: renesas: rz-ssi: Use only the proper amount of dividers
@@ -68,5 +43,6 @@ fc2a31affb22394d1d74d3ecc86b5c68da33d52a ASoC: renesas: rz-ssi: Issue software r
 c28dac5d3a6e87615d4c8e50f574c320172a3d55 ASoC: dt-bindings: renesas,rz-ssi: Remove DMA description
 699a9733a354d74482ae4d4304acdbb0c0318a23 ASoC: dt-bindings: renesas,rz-ssi: Document the Renesas RZ/G3S SoC
 3ce8df13f65e3ed297def63bb1e3ee6f024cbdc5 Add audio support for the Renesas RZ/G3S SoC
+98673ff1fe6426d14d13c2524053ab8e46ca2e23 Merge remote-tracking branch 'asoc/for-6.14' into asoc-next
 
---===============6729937350100148943==--
+--===============5810495077637315775==--
