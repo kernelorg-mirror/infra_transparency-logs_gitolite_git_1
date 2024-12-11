@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Wed, 11 Dec 2024 22:15:18 -0000
-Message-Id: <173395531815.1327466.6001575483853529090@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Wed, 11 Dec 2024 22:17:57 -0000
+Message-Id: <173395547701.1328624.6581949944539093513@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ras/ras
-user: bp
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/edac-for-next
-    old: 2e55bb9b71e179c37d05deff37daa0dd8d04b59d
-    new: 8024765f43c5f7304c91b89bed08da2afa697237
+  - ref: refs/heads/master
+    old: f92f4749861b06fed908d336b4dee1326003291b
+    new: 231825b2e1ff6ba799c5eaf396d3ab2354e37c6b
     log: |
-         747367340ca6b5070728b86ae36ad6747f66b2fb EDAC/amd64: Simplify ECC check on unified memory controllers
-         8024765f43c5f7304c91b89bed08da2afa697237 Merge edac-urgent into for-next
+         9c7c5430bca36e9636eabbba0b3b53251479c7ab vfio/mlx5: Align the page tracking max message size with the device capability
+         777f290ab328de333b85558bb6807a69a59b36ba selftests/ftrace: adjust offset for kprobe syntax error test
+         becb337c237f9c8030fb976a1d643c0347408cf8 Merge tag 'linux_kselftest-fixes-6.13-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
+         ec8e2d3889114f41d07cd341e80dc6de7f8eb213 Merge tag 'vfio-v6.13-rc3' of https://github.com/awilliam/linux-vfio
+         231825b2e1ff6ba799c5eaf396d3ab2354e37c6b Revert "unicode: Don't special case ignorable code points"
          
