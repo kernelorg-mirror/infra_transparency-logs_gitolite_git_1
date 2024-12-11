@@ -1,48 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============5810495077637315775=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 11 Dec 2024 17:45:24 -0000
-Message-Id: <173393912480.1101821.16021193385854624653@gitolite.kernel.org>
-
---===============5810495077637315775==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Wed, 11 Dec 2024 18:11:15 -0000
+Message-Id: <173394067584.1121893.14095328919799065463@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/for-next
-    old: 48b855b3102a86c39d7a445f6c5c29662fa593b0
-    new: 98673ff1fe6426d14d13c2524053ab8e46ca2e23
-    log: revlist-48b855b3102a-98673ff1fe64.txt
-
---===============5810495077637315775==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-48b855b3102a-98673ff1fe64.txt
-
-541011dc2d7c4c82523706f726f422a5e23cc86f ASoC: renesas: rz-ssi: Terminate all the DMA transactions
-55c209cd4318c701e6e88e0b2512a0f12dd02a7d ASoC: renesas: rz-ssi: Use only the proper amount of dividers
-100c6b22d6c70adabdf45dcb346d7d853bff6a30 ASoC: renesas: rz-ssi: Fix typo on SSI_RATES macro comment
-a73710a25808a585a2bf0a8325eb16fd6a2f370c ASoC: renesas: rz-ssi: Remove pdev member of struct rz_ssi_priv
-dec61e16e72db196e8dc1daf7f7022fd98e6d921 ASoC: renesas: rz-ssi: Remove the rz_ssi_get_dai() function
-109e60866f11c7db8f720f01b0bda3105c47b463 ASoC: renesas: rz-ssi: Remove the first argument of rz_ssi_stream_is_play()
-4bf77dfa3308b7cfda29d9c4ead1dc32f1ceefa9 ASoC: renesas: rz-ssi: Use readl_poll_timeout_atomic()
-403366d2a43eb7c911c6cddf1d7882e429d1212d ASoC: renesas: rz-ssi: Use temporary variable for struct device
-f0c155c9da7536ab33687b5207eb21e704122a56 ASoC: renesas: rz-ssi: Use goto label names that specify their actions
-e8fcf25f562891d5c0734d4f49c44bb6aa72bc15 ASoC: renesas: rz-ssi: Rely on the ASoC subsystem to runtime resume/suspend the SSI
-cf3a79e4f826fc680fd7bfef7c427e2cc6023bc3 ASoC: renesas: rz-ssi: Enable runtime PM autosuspend support
-3888672495fcaee98b90196c0a899b1c2eb57d5b ASoC: renesas: rz-ssi: Add runtime PM support
-fc2a31affb22394d1d74d3ecc86b5c68da33d52a ASoC: renesas: rz-ssi: Issue software reset in hw_params API
-1fc778f7c833aeb13041adc06f016f1a2dff7350 ASoC: renesas: rz-ssi: Add suspend to RAM support
-c28dac5d3a6e87615d4c8e50f574c320172a3d55 ASoC: dt-bindings: renesas,rz-ssi: Remove DMA description
-699a9733a354d74482ae4d4304acdbb0c0318a23 ASoC: dt-bindings: renesas,rz-ssi: Document the Renesas RZ/G3S SoC
-3ce8df13f65e3ed297def63bb1e3ee6f024cbdc5 Add audio support for the Renesas RZ/G3S SoC
-98673ff1fe6426d14d13c2524053ab8e46ca2e23 Merge remote-tracking branch 'asoc/for-6.14' into asoc-next
-
---===============5810495077637315775==--
+  - ref: refs/heads/master
+    old: e555740b45a9e54cae30817c56d40bc493077bb1
+    new: 4a36750ab393c83d67725c550d539e9dc1844876
+    log: |
+         b3fbfa81fe98a92019a129c97b11d6ba42e9fdb5 include/ttyutils: add terminal hyperlink ESC sequences
+         c267c3ef882843f1465d9809f09914d0ccf09314 libsmartcols: add support for terminal hyperlinks
+         28453bcca770f897a6c36706148e105fb7e476ca include: add functions to implement --hyperlink
+         d20fa0c812107b4c1f9412d7e878b5c23a258c54 libmount: create EROFS loopdev only after ENOTBLK
+         8e54820c10a7e90316fc5e1abf52fbde9c4fd52d findmnt: add --hyperlink command line option
+         5d0edf55b62f8f9ac9d58539014ea5c292df8291 lsblk: add --hyperlink command line option
+         e1bc7d39174de89b7fcf36b0459b552ef41dbf73 Merge branch 'PR/libsmartcols-hyperlinks' of https://github.com/karelzak/util-linux-work
+         4a36750ab393c83d67725c550d539e9dc1844876 Merge branch 'PR/libmount-erofs-regfile' of https://github.com/karelzak/util-linux-work
+         
