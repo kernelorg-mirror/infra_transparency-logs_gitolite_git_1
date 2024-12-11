@@ -1,43 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============3941764135783711091=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 11 Dec 2024 04:02:21 -0000
-Message-Id: <173388974142.208603.17337025459798024513@gitolite.kernel.org>
-
---===============3941764135783711091==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Wed, 11 Dec 2024 04:02:37 -0000
+Message-Id: <173388975701.208894.17118952258808914087@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
+repo: pub/scm/linux/kernel/git/sj/damon-hack
 user: sj
 changes:
   - ref: refs/heads/master
-    old: 7cb1b466315004af98f6ba6c2546bb713ca3c237
-    new: f92f4749861b06fed908d336b4dee1326003291b
-    log: revlist-7cb1b4663150-f92f4749861b.txt
-
---===============3941764135783711091==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7cb1b4663150-f92f4749861b.txt
-
-06fec99d4d2cb92bc6f107fdfd5e5c776375c68a Revert "clk: Fix invalid execution of clk_set_rate"
-5ae1a43486fb3febd5ce78da13eb354f16d049e0 clk: amlogic: axg-audio: revert reset implementation
-951a3f59d268fe1397aaeb9a96fcb1944890c4cb btrfs: fix mount failure due to remount races
-9c803c474c6c002d8ade68ebe99026cc39c37f85 btrfs: fix missing snapshot drew unlock when root is dead during swap activation
-2eb75f86d52565367211c51334d15fe672633085 clk: en7523: Fix wrong BUS clock for EN7581
-52fd1709e41d3a85b48bcfe2404a024ebaf30c3b clk: en7523: Initialize num before accessing hws in en7523_register_clocks()
-c83d77eb0f216867e44da6b257b129582ba23287 btrfs: properly wait for writeback before buffered write
-c7c97ceff98cc459bf5e358e5cbd06fcb651d501 btrfs: handle bio_split() errors
-f10bef73fb355e3fc85e63a50386798be68ff486 btrfs: flush delalloc workers queue before stopping cleaner kthread during unmount
-494b332064c0ce2f7392fa92632bc50191c1b517 tracing/eprobe: Fix to release eprobe when failed to add dyn_event
-1594c49394ffb0a5a9c889276ea204f05c1d46e3 Merge tag 'probes-fixes-v6.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-5a087a6b17eeb64893b81d08d38e6f6300419ee5 Merge tag 'for-6.13-rc2-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-f92f4749861b06fed908d336b4dee1326003291b Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
-
---===============3941764135783711091==--
+    old: ae5727c0fcdaac5c6637f6b6900db086ae381198
+    new: 78e7d56690014746cde0c82ab75cf8804a982e35
+    log: |
+         a668deeac5e8f469b718ad38ee060c601986b390 patches/next: wordsmith damon sample modules patch series
+         fae0e60fdc300543ae71569b76ea453ceab62be0 patches/sent: add sent DAMON samples patch series v1
+         6b6364c2cf1b9cc53863b8c1aae2a8249e75d7fa patches/posted: add msgid of DAMON sample patches
+         59a1a59046256c8630ea77ab51005a9731ff10c3 patches/next: squash fixup of DAMOS stat2 action
+         73e382623cc4735b930cad1c1aa5e1ca64b73dc6 patches/next: squash damon_callback cleanups
+         8ccad2b66aaa63bbbd99b03754218b9223647a32 todo: update wip progress and debugfs removal timeline
+         c6b6421852a27a1540cb7021f62b54c8ae238410 patches/next: order damon_call() use code dedup before damon_call() uses
+         78e7d56690014746cde0c82ab75cf8804a982e35 patches/next: wordsmith callback refactoring commit messages
+         
