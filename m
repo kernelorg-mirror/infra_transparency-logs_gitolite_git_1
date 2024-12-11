@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9144276068701430195=="
+Content-Type: multipart/mixed; boundary="===============7430706708286488516=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 11 Dec 2024 19:04:56 -0000
-Message-Id: <173394389613.1166966.13960414845459272536@gitolite.kernel.org>
+Date: Wed, 11 Dec 2024 19:04:58 -0000
+Message-Id: <173394389834.1167118.3834945771590600105@gitolite.kernel.org>
 
---===============9144276068701430195==
+--===============7430706708286488516==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: a0e1fc921cb0651cd11469bf5378ec342bf7094d
     new: c0b8980e6041afa363361e41fcafd7862721c3ee
     log: revlist-a0e1fc921cb0-c0b8980e6041.txt
 
---===============9144276068701430195==
+--===============7430706708286488516==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -49,4 +49,4 @@ bf361b18d91e96dee50c5794097a80ff3594725c net: usb: lan78xx: Fix return value han
 54d3970548bd9de40f921c95f8c31e1b1b2382cb net: renesas: rswitch: enable only used MFWD features
 c0b8980e6041afa363361e41fcafd7862721c3ee l2tp: Handle eth stats using NETDEV_PCPU_STAT_DSTATS.
 
---===============9144276068701430195==--
+--===============7430706708286488516==--
