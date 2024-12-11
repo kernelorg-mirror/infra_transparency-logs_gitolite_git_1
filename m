@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6852243457070967058=="
+Content-Type: multipart/mixed; boundary="===============0575796833338497123=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 11 Dec 2024 19:05:21 -0000
-Message-Id: <173394392180.1169003.563167873368285442@gitolite.kernel.org>
+Date: Wed, 11 Dec 2024 19:05:28 -0000
+Message-Id: <173394392848.1169221.13606751531790006137@gitolite.kernel.org>
 
---===============6852243457070967058==
+--===============0575796833338497123==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 51a00be6a0994da2ba6b4ace3b7a0d9373b4b25e
-    new: 3dd002f20098b9569f8fd7f8703f364571e2e975
-    log: revlist-51a00be6a099-3dd002f20098.txt
+  - ref: refs/heads/dev-queue
+    old: 036129d3b52eea09107fc3a31211830a7a0892db
+    new: 50b82e5432eb7a05399e211dd856097154ac18b5
+    log: revlist-036129d3b52e-50b82e5432eb.txt
 
---===============6852243457070967058==
+--===============0575796833338497123==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-51a00be6a099-3dd002f20098.txt
+Content-Disposition: attachment; filename=revlist-036129d3b52e-50b82e5432eb.txt
 
 2e3dbf938656986cce73ac4083500d0bcfbffe24 wifi: nl80211: fix NL80211_ATTR_MLO_LINK_ID off-by-one
 49dba1ded8dd5a6a12748631403240b2ab245c34 wifi: mac80211: fix mbss changed flags corruption on 32 bit systems
@@ -45,5 +45,19 @@ bb617328bafa1023d8e9c25a25345a564c66c14f net: renesas: rswitch: fix leaked point
 66b7e9f85b8459c823b11e9af69dbf4be5eb6be8 net: renesas: rswitch: avoid use-after-put for a device tree node
 93763e68f1119d8bb09e1494004913a3ad137698 Merge branch 'net-renesas-rswitch-several-fixes'
 3dd002f20098b9569f8fd7f8703f364571e2e975 net: renesas: rswitch: handle stop vs interrupt race
+483613ceaee4420dc3dcda3bccdab1185db3a7ce iavf: allow changing VLAN state without calling PF
+4e4f104ab7b42045667f032a1c36405ead0c08d0 ice: Fix E825 initialization
+45ecda697dcd44b793dcc5969a0860836b1a1583 ice: Fix quad registers read on E825
+6b9cb07b63bb5def938481cdb24729206a961f0a ice: Fix ETH56G FC-FEC Rx offset value
+9a44018b3af7e4fb7d3d7138c77e3883370035ba ice: Add correct PHY lane assignment
+4b7069cc9260a825c44e929959077eb0cee1b908 idpf: Change function argument
+b3aaa2dfabe4abe63c714a2257b317076665f6a4 idpf: rename vport_ctrl_lock
+5d9b928c18a9580ca932065f78631f911cf62ed0 idpf: Add init, reinit, and deinit control lock
+f7d932572d325116cc45c875430da107041bb11d idpf: add lock class key
+84a17912aaa1ab233cf907a1b33b5fa26aa47125 ice: fix max values for dpll pin phase adjust
+5a5699e09200b3f65aa4bb767b6cc5caf8482784 idpf: add read memory barrier when checking descriptor done bit
+b34ea6f9d73dc9d95519a3c00db85fbf58cb6ca3 idpf: add support for SW triggered interrupts
+c75440e871d49c8f21eeb408ce6d63f249b30588 idpf: trigger SW interrupt when exiting wb_on_itr mode
+50b82e5432eb7a05399e211dd856097154ac18b5 ice: fix incorrect PHY settings for 100 GB/s
 
---===============6852243457070967058==--
+--===============0575796833338497123==--
