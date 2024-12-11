@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2747943837649091213=="
+Content-Type: multipart/mixed; boundary="===============8895179066217077201=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Wed, 11 Dec 2024 22:47:39 -0000
-Message-Id: <173395725924.1352221.12769140760287505273@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Wed, 11 Dec 2024 22:48:14 -0000
+Message-Id: <173395729443.1352582.15236242109540569352@gitolite.kernel.org>
 
---===============2747943837649091213==
+--===============8895179066217077201==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 465293f104dd0e3472452bbcb119f6fdc25ae502
     log: revlist-5e530a8287b7-465293f104dd.txt
 
---===============2747943837649091213==
+--===============8895179066217077201==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ b40fbeb0b1cd72912c41fb18c8b5e4b73ed191c4 tools build: Remove the libunwind featu
 f8d042667e01962f033aedad8833782a3849f6c0 tools build feature: Add some comments to explain the FEATURE_TESTS logic
 465293f104dd0e3472452bbcb119f6fdc25ae502 tools build feature: Don't set feature-libcap=1 if libcap-devel isn't available
 
---===============2747943837649091213==--
+--===============8895179066217077201==--
