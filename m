@@ -1,28 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 11 Dec 2024 01:05:11 -0000
-Message-Id: <173387911174.60815.2639682503081152600@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7291091393321597312=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Wed, 11 Dec 2024 01:50:44 -0000
+Message-Id: <173388184473.98061.3711781776808274912@gitolite.kernel.org>
+
+--===============7291091393321597312==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/arm64-2024-dpisa
-    old: 8c391a28e2142122978cb499e8803373e0583066
-    new: 0f695702cfa8a4df4b49da779aed365f29100b14
-    log: |
-         b7eeb189b0c5b3373b5331e2a5c7d7bdc7ca3d77 arm64: Support 2024 dpISA extensions
-         45a07e8b7bc72bf329b703462bdfef721ed3de5d arm64/sysreg: Update ID_AA64PFR2_EL1 to DDI0601 2024-09
-         ff58dbd92b7a854456c415c80f233def0e044ca2 arm64/sysreg: Update ID_AA64ISAR3_EL1 to DDI0601 2024-09
-         4cb8e671f3662d22ce6b1395606d4e514cef998e arm64/sysreg: Update ID_AA64FPFR0_EL1 to DDI0601 2024-09
-         c092956eb9c17b350e203cdbf396a432a6aaefb8 arm64/sysreg: Update ID_AA64ZFR0_EL1 to DDI0601 2024-09
-         513f069ee3e388683119e99e7d72424346ec4cce arm64/sysreg: Update ID_AA64SMFR0_EL1 to DDI0601 2024-09
-         9089761c35e842b86fed5c16434215b89ce9e958 arm64/sysreg: Update ID_AA64ISAR2_EL1 to DDI0601 2024-09
-         7605e2d12e80b63de8f357c05665a5916fe9deee arm64/hwcap: Describe 2024 dpISA extensions to userspace
-         3d95703a0b3f894746fe935134ba7d687ba816b9 KVM: arm64: Allow control of dpISA extensions in ID_AA64ISAR3_EL1
-         0f695702cfa8a4df4b49da779aed365f29100b14 kselftest/arm64: Add 2024 dpISA extensions to hwcap test
-         
+  - ref: refs/heads/dev-test
+    old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
+    new: 03de91eb81dd428fd872acd1a3f7730c40a06034
+    log: revlist-40384c840ea1-03de91eb81dd.txt
+
+--===============7291091393321597312==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-40384c840ea1-03de91eb81dd.txt
+
+f75978b8da4208427981d7fe9d23f9d16bb3bab7 f2fs: Use a folio in f2fs_all_cluster_page_ready()
+cb84960d1de533e5ab53bed5f508f6f07218160f f2fs: Use a folio in f2fs_compress_write_end()
+8ffc53b22e7921504cad6a098baf16967d7939b5 f2fs: Use a folio in f2fs_truncate_partial_cluster()
+d71c454aad9f55782580db6184d373e629f6c0ef f2fs: Use a folio in f2fs_write_compressed_pages()
+ed589dbad6c060de345bd9845843a9acc8f5317e f2fs: Convert submit tracepoints to take a folio
+5307015f3e052c9c7312cff4a7e8c2567172d9b5 f2fs: Add F2FS_F_SB()
+de8ffec23dfc869c489ee8eef1dfa422cfe32fe2 f2fs: Convert f2fs_finish_read_bio() to use folios
+0ba227a71a12c4eff6ccfdecf11ff64db719ec4f f2fs: Use a folio more in f2fs_submit_page_bio()
+a21d4b9de31ef0f615a2fd000bdc3826f6324511 f2fs: Use a data folio in f2fs_submit_page_bio()
+ad46cc42711aea8f0a1ed70789dde355dd70bbad f2fs: Convert __read_io_type() to take a folio
+c0e83ef2b8b387d887113d2306939708f84da4e8 f2fs: Remove calls to folio_file_mapping()
+a39a1bb4f4d808e7498916638bbc6fb4ee878661 f2fs: cache more dentry pages
+03de91eb81dd428fd872acd1a3f7730c40a06034 f2fs: ensure that node info flags are always initialized
+
+--===============7291091393321597312==--
