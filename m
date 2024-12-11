@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 11 Dec 2024 22:17:57 -0000
-Message-Id: <173395547701.1328624.6581949944539093513@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Wed, 11 Dec 2024 22:18:04 -0000
+Message-Id: <173395548402.1328761.12504768067113306574@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: f92f4749861b06fed908d336b4dee1326003291b
-    new: 231825b2e1ff6ba799c5eaf396d3ab2354e37c6b
+  - ref: refs/heads/dev
+    old: 58b186eb8049230c475262f8e9eab34299677b8a
+    new: 04c3a25cc1534b1aefc292d7e414fa03ba637b8a
     log: |
-         9c7c5430bca36e9636eabbba0b3b53251479c7ab vfio/mlx5: Align the page tracking max message size with the device capability
-         777f290ab328de333b85558bb6807a69a59b36ba selftests/ftrace: adjust offset for kprobe syntax error test
-         becb337c237f9c8030fb976a1d643c0347408cf8 Merge tag 'linux_kselftest-fixes-6.13-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-         ec8e2d3889114f41d07cd341e80dc6de7f8eb213 Merge tag 'vfio-v6.13-rc3' of https://github.com/awilliam/linux-vfio
-         231825b2e1ff6ba799c5eaf396d3ab2354e37c6b Revert "unicode: Don't special case ignorable code points"
+         95a71d75b48cdf5e83cc523232ad074cbb55980b squash! rcutorture: Expand failure/close-call grace-period output to 16 bits
+         54bd8cbaf377c059ffb0e28255767a09a6447a09 srcu: Define SRCU_READ_FLAVOR_ALL in terms of symbols
+         c2cf9cf59e746aa60badcb07f58b09b7f604c19b rcu: Use IS_ENABLED() for Tiny RCU rcutorture definitions
+         04c3a25cc1534b1aefc292d7e414fa03ba637b8a stop_machine: Fix rcu_momentary_eqs() call in multi_cpu_stop()
          
