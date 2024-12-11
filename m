@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Wed, 11 Dec 2024 22:18:04 -0000
-Message-Id: <173395548402.1328761.12504768067113306574@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Wed, 11 Dec 2024 22:43:27 -0000
+Message-Id: <173395700720.1348224.9327736173584568346@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/dev
-    old: 58b186eb8049230c475262f8e9eab34299677b8a
-    new: 04c3a25cc1534b1aefc292d7e414fa03ba637b8a
+  - ref: refs/heads/next-fixes
+    old: 0505ca384128eb598dd77ff0a598a6b54c25d280
+    new: 1c4c399d5213b06acd9e536562b0ac0c558fb577
     log: |
-         95a71d75b48cdf5e83cc523232ad074cbb55980b squash! rcutorture: Expand failure/close-call grace-period output to 16 bits
-         54bd8cbaf377c059ffb0e28255767a09a6447a09 srcu: Define SRCU_READ_FLAVOR_ALL in terms of symbols
-         c2cf9cf59e746aa60badcb07f58b09b7f604c19b rcu: Use IS_ENABLED() for Tiny RCU rcutorture definitions
-         04c3a25cc1534b1aefc292d7e414fa03ba637b8a stop_machine: Fix rcu_momentary_eqs() call in multi_cpu_stop()
+         821892498c292385c4cb228fb128b571a31edf22 btrfs: fix improper generation check in snapshot delete
+         a68169ad8f4781c7bbf7e413750c29a28f8aee69 btrfs: use bio_is_zone_append() in the completion handler
+         0edf8424f4066382f5daf452db5e29647d50bc5a btrfs: split bios to the fs sector size boundary
+         d7b708b11510b4edd92cb67c8f6c86bc06f27b99 btrfs: tree-checker: reject inline extent items with 0 ref count
+         1c4c399d5213b06acd9e536562b0ac0c558fb577 Merge branch 'misc-6.13' into next-fixes
          
