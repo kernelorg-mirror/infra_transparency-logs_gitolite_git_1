@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7393842125688905230=="
+Content-Type: multipart/mixed; boundary="===============5407308424519323061=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Thu, 12 Dec 2024 01:43:11 -0000
-Message-Id: <173396779170.1499477.1072501048754020301@gitolite.kernel.org>
+Date: Thu, 12 Dec 2024 01:44:02 -0000
+Message-Id: <173396784259.1500044.15376870288043905488@gitolite.kernel.org>
 
---===============7393842125688905230==
+--===============5407308424519323061==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
 user: daeinki
 changes:
-  - ref: refs/heads/exynos-drm-fixes
-    old: f99c7cca2f712d11a67148cfbe463fdefeb82dc5
+  - ref: refs/heads/exynos-drm-next
+    old: 3bca8bc1fc3a7c66a6a4a5e40b84f6cf128b70e7
     new: fac04efc5c793dccbd07e2d59af9f90b7fc0dca4
-    log: revlist-f99c7cca2f71-fac04efc5c79.txt
+    log: revlist-3bca8bc1fc3a-fac04efc5c79.txt
 
---===============7393842125688905230==
+--===============5407308424519323061==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f99c7cca2f71-fac04efc5c79.txt
+Content-Disposition: attachment; filename=revlist-3bca8bc1fc3a-fac04efc5c79.txt
 
 897614f90f7cd9fd7f5b7acca24dfb55b6c0c4ae s390/debug: Pass in and enforce output buffer size for format handlers
 2f32cc40f1440a6aa9e7396af41db79bece67bb2 s390/mm: Remove bogus comment in __tlb_flush_mm()
@@ -1051,4 +1051,4 @@ eadaac4dd2e07292181d35858047bdb177d5194f Merge tag 'irq_urgent_for_v6.13_rc2' of
 0b6809a75ac026d4b569815744ad095b5d5955e1 Merge tag 'kbuild-fixes-v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 fac04efc5c793dccbd07e2d59af9f90b7fc0dca4 Linux 6.13-rc2
 
---===============7393842125688905230==--
+--===============5407308424519323061==--
