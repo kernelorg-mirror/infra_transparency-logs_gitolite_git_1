@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Thu, 12 Dec 2024 20:52:16 -0000
-Message-Id: <173403673670.2553341.17779272510263687583@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Thu, 12 Dec 2024 21:04:57 -0000
+Message-Id: <173403749746.2562648.5940812558199742637@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/master
-    old: 40e5ebd0cb2cb3c3957fec710a18f29efe4b6e65
-    new: 92f3a3b108c22e3395c9dab0acefdfb894404cfe
+  - ref: refs/heads/nfsd-testing
+    old: 5c815d3f54e18c038d744893d2ffcde055f579ff
+    new: e9a809c5714e3d8a2b2d98051cf0ef02ddff1ace
     log: |
-         c9d70ca65f9ad84740d5ba0d3447ddc682a18ab7 main.conf: Add LE.CentralAddressResolution option
-         7e0fe7d5c143052613b27ec3986b70e65ff88ac4 monitor: Add support for Address Resoluton flag
-         92f3a3b108c22e3395c9dab0acefdfb894404cfe mgmt-tester: Fix LL Privacy tests
+         b45eda1daa7d79a2bf0426d27d4b359b8bb71d33 nfsd: handle delegated timestamps in SETATTR
+         e9a809c5714e3d8a2b2d98051cf0ef02ddff1ace nfsd: implement OPEN_ARGS_SHARE_ACCESS_WANT_OPEN_XOR_DELEGATION
          
