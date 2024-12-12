@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 12 Dec 2024 19:37:28 -0000
-Message-Id: <173403224895.2492740.15826744714998181948@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Thu, 12 Dec 2024 19:39:27 -0000
+Message-Id: <173403236725.2493685.6298156556455170205@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: ast
 changes:
-  - ref: refs/heads/arm64-defconfig-graviton
-    old: 0000000000000000000000000000000000000000
-    new: 8149d7f3f0422be8fc4ce2aad564a9841c360425
+  - ref: refs/heads/master
+    old: 7d0d673627e20cfa3b21a829a896ce03b58a4f1c
+    new: 04789af756a4a43e72986185f66f148e65b32fed
+    log: |
+         ac6542ad92759cda383ad62b4e4cbfc28136abc1 bpf: fix null dereference when computing changes_pkt_data of prog w/o subprogs
+         04789af756a4a43e72986185f66f148e65b32fed selftests/bpf: extend changes_pkt_data with cases w/o subprograms
+         
