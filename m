@@ -1,34 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Thu, 12 Dec 2024 23:05:11 -0000
-Message-Id: <173404471139.2660161.2771505276372627857@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
+Date: Thu, 12 Dec 2024 23:08:25 -0000
+Message-Id: <173404490520.2661350.6318210089494703412@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+user: sre
 changes:
-  - ref: refs/heads/vfs-6.14.pidfs
-    old: 46bade7d361c2d8b156f03f89ad46f8810f59ea7
-    new: 508d9f904a9b8d0be0d67943bba015d444e577fa
+  - ref: refs/heads/for-next
+    old: cc4c34577dbc17729b7e3f1266cf12d043e8c170
+    new: 250bbd612bb1103745ea6c891a2a1d5f5e1576a3
     log: |
-         0488fff073b4495ae397f849114605dc755057fc pidfs: use maple tree
-         508d9f904a9b8d0be0d67943bba015d444e577fa Merge patch series "pidfs: use maple tree"
-         
-  - ref: refs/heads/vfs.all
-    old: 7e21130d9f3ee82daf75ea00786da14286b5aa0f
-    new: 738d4d3c7953c0b2c4fe3a734c8d05292edd0abc
-    log: |
-         0488fff073b4495ae397f849114605dc755057fc pidfs: use maple tree
-         508d9f904a9b8d0be0d67943bba015d444e577fa Merge patch series "pidfs: use maple tree"
-         c7229837bc1e0213fab8e396027a87f425d0597c Merge branch 'vfs.fixes' into vfs.all
-         1221bc3f69d4fc5167149667080fb3ea598bf5bf Merge branch 'vfs-6.14.netfs' into vfs.all
-         0aee7bcf3774b6fa4c1bb63ab83ce9859ea436a6 Merge branch 'vfs-6.14.kcore' into vfs.all
-         b6713bc20f3ecf8277caaf8775086b243120cd77 Merge branch 'vfs-6.14.misc' into vfs.all
-         6b6e6e2ae6a8a79a39646d8a2440041ad7638887 Merge branch 'vfs-6.14.pidfs' into vfs.all
-         41a323e37374541c62fe7586524b9c96705fae5e Merge branch 'kernel-6.14.cred' into vfs.all
-         738d4d3c7953c0b2c4fe3a734c8d05292edd0abc Merge branch 'kernel-6.14.pid' into vfs.all
+         8a1c099f36b256c8203319313f65666ce0043fe5 power: reset: gpio-poweroff: Clarify the warning message
+         2d656827a0fc9ca4982c245f1bec3b606fab30d8 dt-bindings: power: reset: atmel,sama5d2-shdwc: add sam9x7
+         2a16675e254a35f13203c6738a1137093c773056 power: reset: at91-poweroff: lookup for proper pmc dt node for sam9x7
+         ef4f3ac4be990511a2c958443744d0c0c97deb5b power: reset: at91-reset: add reset support for sam9x7 SoC
+         250bbd612bb1103745ea6c891a2a1d5f5e1576a3 power: reset: at91-reset: add sdhwc support for sam9x7 SoC
          
