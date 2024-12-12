@@ -1,36 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============5724379992131644884=="
+Content-Type: multipart/mixed; boundary="===============0311885889655179259=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 12 Dec 2024 04:44:52 -0000
-Message-Id: <173397869210.1645541.4766267431405601795@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 12 Dec 2024 04:45:00 -0000
+Message-Id: <173397870048.1645730.3444514265574660155@gitolite.kernel.org>
 
---===============5724379992131644884==
+--===============0311885889655179259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 91e71d606356e50f238d7a87aacdee4abc427f07
     new: 3e42dc9229c5950e84b1ed705f94ed75ed208228
     log: revlist-91e71d606356-3e42dc9229c5.txt
-  - ref: refs/heads/stable
-    old: 7cb1b466315004af98f6ba6c2546bb713ca3c237
-    new: f92f4749861b06fed908d336b4dee1326003291b
-    log: revlist-7cb1b4663150-f92f4749861b.txt
-  - ref: refs/tags/next-20240912
-    old: e155fbb6e969eaf6312f401ede6c9e1a128d0db1
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20241212
     old: 0000000000000000000000000000000000000000
     new: d1ce129deca60dea78f360861a806a5023b3c8ca
 
---===============5724379992131644884==
+--===============0311885889655179259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -818,24 +811,4 @@ d9ec965068535e34de05d163c84288c5d47e67a7 Merge branch 'caps-next' of git://git.k
 4523ce94da8fb633efd2b7e9f21e3ba4ca0003a8 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/frederic/linux-dynticks.git
 3e42dc9229c5950e84b1ed705f94ed75ed208228 Add linux-next specific files for 20241212
 
---===============5724379992131644884==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7cb1b4663150-f92f4749861b.txt
-
-06fec99d4d2cb92bc6f107fdfd5e5c776375c68a Revert "clk: Fix invalid execution of clk_set_rate"
-5ae1a43486fb3febd5ce78da13eb354f16d049e0 clk: amlogic: axg-audio: revert reset implementation
-951a3f59d268fe1397aaeb9a96fcb1944890c4cb btrfs: fix mount failure due to remount races
-9c803c474c6c002d8ade68ebe99026cc39c37f85 btrfs: fix missing snapshot drew unlock when root is dead during swap activation
-2eb75f86d52565367211c51334d15fe672633085 clk: en7523: Fix wrong BUS clock for EN7581
-52fd1709e41d3a85b48bcfe2404a024ebaf30c3b clk: en7523: Initialize num before accessing hws in en7523_register_clocks()
-c83d77eb0f216867e44da6b257b129582ba23287 btrfs: properly wait for writeback before buffered write
-c7c97ceff98cc459bf5e358e5cbd06fcb651d501 btrfs: handle bio_split() errors
-f10bef73fb355e3fc85e63a50386798be68ff486 btrfs: flush delalloc workers queue before stopping cleaner kthread during unmount
-494b332064c0ce2f7392fa92632bc50191c1b517 tracing/eprobe: Fix to release eprobe when failed to add dyn_event
-1594c49394ffb0a5a9c889276ea204f05c1d46e3 Merge tag 'probes-fixes-v6.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-5a087a6b17eeb64893b81d08d38e6f6300419ee5 Merge tag 'for-6.13-rc2-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-f92f4749861b06fed908d336b4dee1326003291b Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
-
---===============5724379992131644884==--
+--===============0311885889655179259==--
