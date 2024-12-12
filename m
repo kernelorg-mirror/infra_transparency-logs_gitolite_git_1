@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5911561652930753421=="
+Content-Type: multipart/mixed; boundary="===============8164247329954875127=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 12 Dec 2024 19:45:21 -0000
-Message-Id: <173403272176.2500667.2438518714318415279@gitolite.kernel.org>
+Date: Thu, 12 Dec 2024 19:45:24 -0000
+Message-Id: <173403272405.2500746.8199529350941786540@gitolite.kernel.org>
 
---===============5911561652930753421==
+--===============8164247329954875127==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 3dd002f20098b9569f8fd7f8703f364571e2e975
     new: ad913dfd8bfacdf1d2232fe9f49ccb025885ef22
     log: revlist-3dd002f20098-ad913dfd8bfa.txt
 
---===============5911561652930753421==
+--===============8164247329954875127==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -61,4 +61,4 @@ fb9e6039c325cc205a368046dc03c56c87df2310 net: renesas: rswitch: fix initial MPIC
 36ff681d2283410742489ce77e7b01419eccf58c net: dsa: tag_ocelot_8021q: fix broken reception
 ad913dfd8bfacdf1d2232fe9f49ccb025885ef22 Merge tag 'for-net-2024-12-12' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
 
---===============5911561652930753421==--
+--===============8164247329954875127==--
