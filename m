@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/liba2i/liba2i
-Date: Thu, 12 Dec 2024 01:46:38 -0000
-Message-Id: <173396799838.1503567.15101844628268803812@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 12 Dec 2024 01:56:11 -0000
+Message-Id: <173396857194.1511561.8335664101174792773@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/liba2i/liba2i
-user: alx
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
   - ref: refs/heads/master
-    old: 3811f6ffd05f0cd6c40245f729ca18344e8a60b6
-    new: fc26738021a842dc98bd87d26579847efe31c168
+    old: 663f268f23a9beb95f96c2cf589d89890ebf5a37
+    new: 576abdf7355f8276139e3a8c341599cf818a1d74
     log: |
-         2f6fa80669560a9379ceaf591cfd0a6e361ceaed include/a2i/, share/mk/: Hide the inline definitions if !defined(A2I_INTERNAL)
-         fc26738021a842dc98bd87d26579847efe31c168 etc/clang-tidy/config.yaml: -misc-include-cleaner
+         feee151a749f92c6c4fc2a04933cf1ae60c74d72 Fixes for 6.12
+         4bc7b41f7354d4225e11ecce4b69e76846b1505c Fixes for 6.6
+         576abdf7355f8276139e3a8c341599cf818a1d74 Fixes for 6.1
          
