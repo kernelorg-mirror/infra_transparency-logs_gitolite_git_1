@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4157226566570811501=="
+Content-Type: multipart/mixed; boundary="===============3433287998271230364=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 12 Dec 2024 19:33:22 -0000
-Message-Id: <173403200203.2487388.13502565530249038591@gitolite.kernel.org>
+Date: Thu, 12 Dec 2024 19:33:24 -0000
+Message-Id: <173403200424.2487466.13912441664609265488@gitolite.kernel.org>
 
---===============4157226566570811501==
+--===============3433287998271230364==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: c0b8980e6041afa363361e41fcafd7862721c3ee
     new: f3674384709b69c5cd8c4597b8bd73ea7bd0236f
     log: revlist-c0b8980e6041-f3674384709b.txt
 
---===============4157226566570811501==
+--===============3433287998271230364==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -71,4 +71,4 @@ a3b16198d3df38aa2fc6de167b919ecb3fae74a6 selftests: forwarding: add a pvid_chang
 c12b2704a678b8a116eeb03f5b91895b90b4dd6f net/smc: support ipv4 mapped ipv6 addr client for smc-r v2
 f3674384709b69c5cd8c4597b8bd73ea7bd0236f Merge branch 'net-smc-two-features-for-smc-r'
 
---===============4157226566570811501==--
+--===============3433287998271230364==--
