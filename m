@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Thu, 12 Dec 2024 16:20:03 -0000
-Message-Id: <173402040348.2328507.18317691095126533888@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+Date: Thu, 12 Dec 2024 16:22:41 -0000
+Message-Id: <173402056176.2330084.3158040625938936513@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
 user: jaegeuk
 changes:
   - ref: refs/heads/dev-test
-    old: 03de91eb81dd428fd872acd1a3f7730c40a06034
-    new: 22b79189887da843e5456448e0269a893345342d
+    old: ad3736cca5284ca1b1521e5826f81f496d86d0ff
+    new: b569df580c250a300c7275b4e6dc7d797eb49a31
     log: |
-         22b79189887da843e5456448e0269a893345342d f2fs: The GC triggered by ioctl also needs to mark the segno as victim
+         7437823fa46880cf89a515351d9e5a7776cfb016 f2fs-tools: use pread and pwrite when they are available.
+         b569df580c250a300c7275b4e6dc7d797eb49a31 f2fs-tools: add HAVE_PREAD and HAVE_PWRITE
          
