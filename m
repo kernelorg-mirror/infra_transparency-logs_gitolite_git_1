@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7412505788330060824=="
+Content-Type: multipart/mixed; boundary="===============5319273034868548059=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Thu, 12 Dec 2024 14:06:49 -0000
-Message-Id: <173401240916.2212742.10691799246297385941@gitolite.kernel.org>
+Date: Thu, 12 Dec 2024 14:07:39 -0000
+Message-Id: <173401245909.2213197.11175870891800637435@gitolite.kernel.org>
 
---===============7412505788330060824==
+--===============5319273034868548059==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,54 +17,58 @@ user: ij
 git_push_cert_status: E
 changes:
   - ref: refs/heads/for-next
-    old: dd77ba8801a25a87a23802612a566137c81b5743
-    new: 3b6f9c6505a34450a4dd5d9bbbe5cfec4718adb2
-    log: revlist-dd77ba8801a2-3b6f9c6505a3.txt
+    old: 3b6f9c6505a34450a4dd5d9bbbe5cfec4718adb2
+    new: 18131e9f1682bd6082ec6c194f8ed3243f0fc230
+    log: revlist-3b6f9c6505a3-18131e9f1682.txt
 
---===============7412505788330060824==
+--===============5319273034868548059==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1734012433 +0200
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1734012485 +0200
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1734012404-6b6fe5153443a31bd678a34a1d133752097febda
+nonce 1734012456-808c1d6493ec0d8cf7ef61108660fdc63159a30a
 
-dd77ba8801a25a87a23802612a566137c81b5743 3b6f9c6505a34450a4dd5d9bbbe5cfec4718adb2 refs/heads/for-next
+3b6f9c6505a34450a4dd5d9bbbe5cfec4718adb2 18131e9f1682bd6082ec6c194f8ed3243f0fc230 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZ1ruFQAKCRBZrE9hU+XO
-MR4SAQC7gn3glQHBsVc/U1Ermruf1jkywwrG8lZYOv9FafVelgD/d8v7AhUdG3GO
-0DalsI6IptQ5+XTKJI44eH/yWpnclw8=
-=tC83
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZ1ruRwAKCRBZrE9hU+XO
+MYI3AQDpwtxgNXGCbFsxdqiNwIi4Jjr2zZYs/Z5mslVPGy8v2QD/WhxQqkAnZtOE
+SWTbiwwPEIoAwMHbsDyF8Da61P7lBwM=
+=Tktf
 -----END PGP SIGNATURE-----
 
---===============7412505788330060824==
+--===============5319273034868548059==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dd77ba8801a2-3b6f9c6505a3.txt
+Content-Disposition: attachment; filename=revlist-3b6f9c6505a3-18131e9f1682.txt
 
-981fd70a5ac4347368fa8a3329b7d67f1c567ee7 platform/x86: x86-android-tablets: Add missing __init to get_i2c_adap_by_*()
-f6728073baa172be6223512fffd72796de891536 platform/x86: x86-android-tablets: Make variables only used locally static
-478b00a623d6c8ae23a1be7bcc96cb5497045cef platform/x86: serdev_helpers: Check for serial_ctrl_uid == NULL
-a6593c5c50455852cd3b2b51e09bdec90b99738f platform/x86: serdev_helpers: Add get_serdev_controller_from_parent() helper
-c1007dd139b6f8b2b00ba7bdce32a94c3da34dbe platform/x86: x86-android-tablets: Change x86_instantiate_serdev() prototype
-dd6db239cb30ef1ccc0084a530839c9897009a6f platform/x86: x86-android-tablets: Store serdev-controller ACPI HID + UID in a union
-7d28fb4d16fb8ad2309616ee3bdcdbf161c13dc5 platform/x86: x86-android-tablets: Add support for getting serdev-controller by PCI parent
-c0f1bfc141ea52ea039bd17537b46b705ff8a93d platform/x86: x86-android-tablets: Add Bluetooth support for Vexia EDU ATLA 10
-0130ec83c5535b034a96284eb9f31b3b5373d207 platform/x86/intel: bytcrc_pwrsrc: Optionally register a power_supply dev
-c78dd25138d104f94ddeab5248a5efe4504f205e platform/x86: x86-android-tablets: Add Vexia EDU ATLA 10 EC battery driver
-f3479920605644e273768d316aa49119ec629acc platform/x86: intel: int0002_vgpio: Make the irqchip immutable
-cd2fd6eab480dfc247b737cf7a3d6b009c4d0f1c platform/x86: int3472: Check for adev == NULL
-1dd0cb9cabf37fbe20f0a66e4c3972cb21240aed platform/x86: int3472: Make "pin number mismatch" message a debug message
-6718d42b6eb28228a554db6c8973693ad5320006 platform/x86: int3472: Fix skl_int3472_handle_gpio_resources() return value
-cc115abc1f9b55092c11c183ebff9ad921251609 platform/x86: int3472: Debug log the sensor name
-9741f9aa13f6dc3ff24e1d006b2ced5f460e6b6f platform/x86: acer-wmi: Add support for Acer PH14-51
-287b3240fc8a06a14923019a6b3e697c6e693c93 platform/x86: acer-wmi: Rename ACER_CAP_FAN_SPEED_READ
-a11d8b37942d3c12a8a5f8ae30cbdeb069e5d819 platform/x86: acer-wmi: Improve error handling when reading gaming system information
-3b6f9c6505a34450a4dd5d9bbbe5cfec4718adb2 platform/x86: acer-wmi: Implement proper hwmon support
+549de562d794a42bb647952e965e588390e16fe0 ACPI: platform-profile: Add a name member to handlers
+7c63fe4dcd0ae08eda7fcb8c31d22ef33c591fe5 platform/x86/dell: dell-pc: Create platform device
+6f5e63ddc333dae371be6f8a8f70a82043697a4c ACPI: platform_profile: Add device pointer into platform profile handler
+9b3bb37b44a317626464e79da8b39989b421963f ACPI: platform_profile: Add platform handler argument to platform_profile_remove()
+4d5c027bf55661da2621c694ea39908ae2d3a46a ACPI: platform_profile: Pass the profile handler into platform_profile_notify()
+585484003dedaa35ffc8d1ead3f3334af021dee7 ACPI: platform_profile: Move sanity check out of the mutex
+ab431a20756a0e755c91a5df78c8c70e0fbecd80 ACPI: platform_profile: Move matching string for new profile out of mutex
+55b1e68134bfa041960282fdefef7f3e56add703 ACPI: platform_profile: Use guard(mutex) for register/unregister
+1f3ac55c2e65af30a37a460a1a7cc5c7eb74747d ACPI: platform_profile: Use `scoped_cond_guard`
+77be5cacb2c2d8c3ddd069f0b4e9408f553af1d8 ACPI: platform_profile: Create class for ACPI platform profile
+97cab71d712b4066e3807c3e33990d6ed7506c2d ACPI: platform_profile: Add name attribute to class interface
+52a67be8ee274b14984df1a9f7ae157e11bc08ab ACPI: platform_profile: Add choices attribute for class interface
+d2785e39429a33966b010bcc89b169e93c6597f7 ACPI: platform_profile: Add profile attribute for class interface
+e5fe5ddc38ffd389433032f9ab121774b6b2980a ACPI: platform_profile: Notify change events on register and unregister
+06ec24388f1de63a5d9b0dc1994bc2180d7ff6b8 ACPI: platform_profile: Only show profiles common for all handlers
+494637cf5bf098ac0fe125dd6d23368419fe9da4 ACPI: platform_profile: Add concept of a "custom" profile
+e836b7dfbabaa9d8a99b58ef0afa586f782d8e01 ACPI: platform_profile: Make sure all profile handlers agree on profile
+70246f89c55fb1be0367a584000fd68502a0933f ACPI: platform_profile: Check all profile handler to calculate next
+37a6853d83f8af1b68346b555a7dd78e2c7f10e5 ACPI: platform_profile: Notify class device from platform_profile_notify()
+688834743d672b55ce357e11e34be835c78467e8 ACPI: platform_profile: Allow multiple handlers
+dd7ba84afa0667c818d380605ab3e11440925287 platform/x86/amd: pmf: Drop all quirks
+0056b0852c326cf21201661f68ab41002ae9a845 Documentation: Add documentation about class interface for platform profiles
+18131e9f1682bd6082ec6c194f8ed3243f0fc230 Merge branch 'platform-drivers-x86-platform-profile' into for-next
 
---===============7412505788330060824==--
+--===============5319273034868548059==--
