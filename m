@@ -1,57 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============1623905150828620845=="
+Content-Type: multipart/mixed; boundary="===============9147613696612032564=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 12 Dec 2024 15:20:42 -0000
-Message-Id: <173401684223.2280079.4622221318209852404@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 12 Dec 2024 15:24:25 -0000
+Message-Id: <173401706514.2281537.12134333355775226486@gitolite.kernel.org>
 
---===============1623905150828620845==
+--===============9147613696612032564==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 491062234a3ca0745b636245470a9be601ef8792
-    new: d28be18e8ab5f71e6c88efc937b931ee72f9b032
-    log: |
-         4414024ade6623b7313c79d52ff0afd072887e3e reject CVE-2024-50089 as the commit was reverted
-         d28be18e8ab5f71e6c88efc937b931ee72f9b032 reject CVE-2024-53102 as the commit is reverted
-         
+  - ref: refs/heads/main
+    old: fb9e6039c325cc205a368046dc03c56c87df2310
+    new: ad913dfd8bfacdf1d2232fe9f49ccb025885ef22
+    log: revlist-fb9e6039c325-ad913dfd8bfa.txt
 
---===============1623905150828620845==
+--===============9147613696612032564==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-fb9e6039c325-ad913dfd8bfa.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1734016870 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1734016841-7633974f8a6f9e9f3dce5cf3701f8f8d5534ffb8
+3e643e4efa1e87432204b62f9cfdea3b2508c830 Bluetooth: Improve setsockopt() handling of malformed user input
+4d94f05558271654670d18c26c912da0c1c15549 Bluetooth: hci_core: Fix sleeping function called from invalid context
+581dd2dc168fe0ed2a7a5534a724f0d3751c93ae Bluetooth: hci_event: Fix using rcu_read_(un)lock while iterating
+9c76fff747a73ba01d1d87ed53dd9c00cb40ba05 Bluetooth: iso: Always release hdev at the end of iso_listen_bis
+9bde7c3b3ad0e1f39d6df93dd1c9caf63e19e50f Bluetooth: iso: Fix recursive locking warning
+29a651451e6c264f58cd9d9a26088e579d17b242 Bluetooth: SCO: Add support for 16 bits transparent voice setting
+168e28305b871d8ec604a8f51f35467b8d7ba05b Bluetooth: iso: Fix circular lock in iso_listen_bis
+7a17308c17880d259105f6e591eb1bc77b9612f0 Bluetooth: iso: Fix circular lock in iso_conn_big_sync
+b548f5e9456c568155499d9ebac675c0d7a296e8 Bluetooth: btmtk: avoid UAF in btmtk_process_coredump
+5af53577c64fa84da032d490b701127fe8d1a6aa net: dsa: microchip: KSZ9896 register regmap alignment to 32 bit boundaries
+36ff681d2283410742489ce77e7b01419eccf58c net: dsa: tag_ocelot_8021q: fix broken reception
+ad913dfd8bfacdf1d2232fe9f49ccb025885ef22 Merge tag 'for-net-2024-12-12' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
 
-491062234a3ca0745b636245470a9be601ef8792 d28be18e8ab5f71e6c88efc937b931ee72f9b032 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmda/2YbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+y6AP/irFVl3x6xNy3wuGRthX
-5iB5woEN+elIcFsVsi34Gn2/b5YDqGscbQr+mzr7585KfiWvkwhZghH0GCOpKtXO
-dibm7SBbKg026c9Mg0ROmJ6gOjGfhYZhulQDO3fN1sbnIdRcSahVWiBeWJBW9q68
-aJgrcpZ44JG7hQVGNJ2PTsrxcXOV73DemE94zH9jlTpyFufXf+CRZRdTuY8T4vr9
-2iAUyl9DHSDs77shtGDY0YN10XMM4Ux6B2dt7yfl/r80gsC3PEcJyIY10NWYs5ew
-8dzxDToJaecEYKMsc6MTaDeR2c6NWhjglbhEVbvljb3rH4lfZWKY91VCclR9ttEr
-Ve8RS5wGEluR9bZ8x2YN/YsXtbD88iF/MPzM8GCc8YLDe7RVEBUqvIu8bfhSYSEU
-OVCFNiPjb5UgFtVTld1gE0Bm6J5cUtvUXBFj/gbeL4sdVQnOoDE2M17/nJ7bZFdm
-/SriQ8va/ZOBCftEX/eXraOkmzzuHiEqISC4RbZAsfUo778iDS4Jjakm1xNlvOLl
-/oGKX8/OrX3xUb0C9leLmUkm5J4eeAABdtyyMN7bx9AUYpvCbaZaPaOgXroUOpEP
-oIKoRfnt8VPzu4uTVqNewK87otuE5SxsqwxQODiOtEzkXjpczsPPzfemVAQ9Qdlf
-F6NaAYSoSCd/Us9wxQj8bwVm
-=cxgZ
------END PGP SIGNATURE-----
-
---===============1623905150828620845==--
+--===============9147613696612032564==--
