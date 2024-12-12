@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4835288594574083683=="
+Content-Type: multipart/mixed; boundary="===============8778925233451299104=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Thu, 12 Dec 2024 11:06:52 -0000
-Message-Id: <173400161200.2036281.9170203944168669004@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 12 Dec 2024 11:06:59 -0000
+Message-Id: <173400161972.2036524.16251882972111232518@gitolite.kernel.org>
 
---===============4835288594574083683==
+--===============8778925233451299104==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/vfs-6.14.pidfs
-    old: cb99a90ef7300b1d28d05f73ca9d8132179f2053
-    new: 46bade7d361c2d8b156f03f89ad46f8810f59ea7
+  - ref: refs/heads/master
+    old: 4b83456a8b93d659794d9ceb9153730d2f63d091
+    new: 5189aad20bb6dcd7eaf372a93019d102fd4cb956
     log: |
-         d231edf28156bf3d398ec557717791b329b173ad pidfs: implement file handle support
-         82dd70591d4b9a4acf940d774839edb404a8e44f Merge patch series "pidfs: implement file handle support"
-         a928ee0a80c57b24c885377167ca0e3b3cca788d pidfs: check for valid ioctl commands
-         e435f4b6a128e530443c4bbd80917c039b5a92d5 selftests/pidfd: add pidfs file handle selftests
-         8518f554d0b67d71e3883591ce1d89cb850be117 maple_tree: make MT_FLAGS_LOCK_IRQ do something
-         a2c8e88a30f71b6c39e2e045c25415fc6c6fe582 pidfs: use maple tree
-         46bade7d361c2d8b156f03f89ad46f8810f59ea7 Merge patch series "pidfs: use maple tree"
+         5189aad20bb6dcd7eaf372a93019d102fd4cb956 6.1-stable patches
          
-  - ref: refs/heads/vfs.all
-    old: c9b1291c42918a3c60b5ca6c48d69eb298817075
-    new: 7e21130d9f3ee82daf75ea00786da14286b5aa0f
-    log: revlist-c9b1291c4291-7e21130d9f3e.txt
 
---===============4835288594574083683==
+--===============8778925233451299104==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c9b1291c4291-7e21130d9f3e.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-d231edf28156bf3d398ec557717791b329b173ad pidfs: implement file handle support
-82dd70591d4b9a4acf940d774839edb404a8e44f Merge patch series "pidfs: implement file handle support"
-a928ee0a80c57b24c885377167ca0e3b3cca788d pidfs: check for valid ioctl commands
-e435f4b6a128e530443c4bbd80917c039b5a92d5 selftests/pidfd: add pidfs file handle selftests
-8518f554d0b67d71e3883591ce1d89cb850be117 maple_tree: make MT_FLAGS_LOCK_IRQ do something
-a2c8e88a30f71b6c39e2e045c25415fc6c6fe582 pidfs: use maple tree
-46bade7d361c2d8b156f03f89ad46f8810f59ea7 Merge patch series "pidfs: use maple tree"
-b10fed36847bde7500d86b4cecd89d71403954df Merge branch 'vfs.fixes' into vfs.all
-a87f9c15832d5c3b77d38412ef0f6fd25301e8dc Merge branch 'vfs-6.14.netfs' into vfs.all
-4d7c6fccc88afc747aed033bbcb0a81ba990fade Merge branch 'vfs-6.14.kcore' into vfs.all
-bf51e08b7d203f31c644a72702e9b01ca5e9ebdb Merge branch 'vfs-6.14.misc' into vfs.all
-dec51f7dc8baa8e25ea15883f9274e196be5d663 Merge branch 'vfs-6.14.pidfs' into vfs.all
-c8e3f7626508c72eb22948545e0d0a823a1b0b11 Merge branch 'kernel-6.14.cred' into vfs.all
-b2d82ea23493e2c3430bbb0cf34e905b56f8b363 Merge branch 'kernel-6.14.pid' into vfs.all
-7e21130d9f3ee82daf75ea00786da14286b5aa0f Merge branch 'vfs-6.14.mount' into vfs.all
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1734001647 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1734001616-4fc579777e464d2939d397561f7d516fe59fbb6b
 
---===============4835288594574083683==--
+4b83456a8b93d659794d9ceb9153730d2f63d091 5189aad20bb6dcd7eaf372a93019d102fd4cb956 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdaw+8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+21EQAI6ZZGgimBBPKr2gjf1k
+YJkzzlYLJFloArhdd2h3r7qCCX7Q0qezQCiPrbtHdyIEnTAIUyuFv9vb7IgfZdXB
+doie965m1A7PHKQwHaQ1coT4Trd3Nvk0XWkCxLbekppeYB1TkiRP6fiyw7D9pZho
+Cybu+IjSyUh73wArflcd7mr52ixDnziA3Ll8h7j1qqDVjIVR+5udPdlXaI2gIVhE
+4G3NASbhioI74pnIRKO7z3pJk2WrGWHvIZ0nLSZBc1gbiMa/2bVF9jsE3HV4HDY4
+6yeXEIyAJH09hPKcE5GYqZ/36ls2whJX79FiS1310HCe++Xbh5AeBystA1fbCzqB
+kCSM7bdEfsLVu/+LmLhxYrOHc3Ae90bx+98VnAkBS8nEl0ngmg/PxhR6tFx4P9oj
+ZLYTamE6mU0S1+2lcoVLMn855gMdDUEuUzSaBOwWCasp+DRM6IQl4qGJ2P16tSNf
+gNYMGhGj8fDzo5E7cIhrYQFmHD+Ys02eXP1RcRDfoNxlKUughIMJXRIuPz+Oc4v1
+jjWCZGHjlufHvfMaYLbpvobfwyf6E8WxdSDnSzp6GIeL5usc3wB2F0aSBenrW8Jf
+Xm5eizoD+LnNxuc+QNwx96n2306WdYqYYanfKhXUGmkVM4q0Fft2MMA0KQVaqHrn
+L24yvgVwKJSuWI6taNdRmnQ/
+=Oy2P
+-----END PGP SIGNATURE-----
+
+--===============8778925233451299104==--
