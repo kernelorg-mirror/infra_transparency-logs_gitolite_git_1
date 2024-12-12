@@ -1,40 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============5893515822517984119=="
+Content-Type: multipart/mixed; boundary="===============0088881029624057927=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tomba/linux
-Date: Thu, 12 Dec 2024 10:01:13 -0000
-Message-Id: <173399767342.1949567.1857990229953936543@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
+Date: Thu, 12 Dec 2024 10:04:36 -0000
+Message-Id: <173399787696.1951554.2961222957954485585@gitolite.kernel.org>
 
---===============5893515822517984119==
+--===============0088881029624057927==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tomba/linux
-user: tomba
+repo: pub/scm/linux/kernel/git/mediatek/linux
+user: angelogioacchino.delregno
 changes:
-  - ref: refs/heads/ub9xx-err-handling
-    old: 1266f91682c882b8e16d52744959826df6bbed3d
-    new: 2b77b38748f9e96b96d447e1b721dec1de2a5286
-    log: revlist-1266f91682c8-2b77b38748f9.txt
+  - ref: refs/heads/v6.13-next/dts64
+    old: 26f6e91fa29a58fdc76b47f94f8f6027944a490c
+    new: b8457716eeee45ed5cb6b8fdc5a5b459f7ebe819
+    log: revlist-26f6e91fa29a-b8457716eeee.txt
 
---===============5893515822517984119==
+--===============0088881029624057927==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1266f91682c8-2b77b38748f9.txt
+Content-Disposition: attachment; filename=revlist-26f6e91fa29a-b8457716eeee.txt
 
-1cd93916fdfd0f085335a0b3a9f2ad6b2c896775 ========================== Error handling end ==========================
-15c15637d1ec90ae28bd32670b7be33dd729418e media: i2c: ds90ub960: Move UB9702 registers to a separate section
-9988d7b414c01358add1aac853fe797234352d9d media: i2c: ds90ub960: Add UB9702 specific registers
-f26dc83cc26e6d01c357868b5bea26de238b6d8b media: i2c: ds90ub960: Split ub960_init_tx_ports()
-8331a317a0747c009f1ce9d0565a4d116888e181 media: i2c: ds90ub960: Refresh ub960_init_tx_ports_ub9702()
-bd7ef22c46cd750dd0089a32a0a281d8bb13567a media: i2c: ds90ub960: Add RX port iteration support
-465ac23afc7c70d1e2c8387bff36d80ff28c012a media: i2c: ds90ub960: Move all RX port init code into ub960_init_rx_ports()
-ac1d50d4a4b3d029aec3b0656a25ee0477d635c8 media: i2c: ds90ub960: Remove old ub9702 RX port init code (SQUASH)
-b2aaf02d90104b42015a7497d800e3fef90ea359 media: i2c: ds90ub960: Update UB9702 init sequences (TODO: ADD ERROR HANDLING)
-2b77b38748f9e96b96d447e1b721dec1de2a5286 ub960: set BC_ALWAYS_ON for all active ports
+a6d5983e40f5d5b219337569cdd269727f5a3e2e arm64: dts: mediatek: mt8173-evb: Drop regulator-compatible property
+4b907b3ea5fba240808136cc5599d14b52230b39 arm64: dts: mediatek: mt8173-elm: Drop regulator-compatible property
+d1fb968551c8688652b8b817bb081fdc9c25cd48 arm64: dts: mediatek: mt8192-asurada: Drop regulator-compatible property
+4dbaa5d5def2c49e44efaa5e796c23d9b904be09 arm64: dts: mediatek: mt8195-cherry: Drop regulator-compatible property
+2a8af9b95f504260a6d8200a11f0ae5c90e9f787 arm64: dts: mediatek: mt8195-demo: Drop regulator-compatible property
+ab60442f26b15ba69b210974722a851ed03188ff arm64: dts: medaitek: mt8395-nio-12l: Drop regulator-compatible property
+b99bf07c2c8b3c85c1935ddca2a73bc686f8d847 arm64: dts: mediatek: mt8395-genio-1200-evk: Drop regulator-compatible property
+beb06b727194f68b0a4b5183e50c88265ce185af arm64: dts: mediatek: mt8173-elm: Fix MT6397 PMIC sub-node names
+9545ba142865b9099d43c972b9ebcf463606499a arm64: dts: mediatek: mt8173-evb: Fix MT6397 PMIC sub-node names
+9bc8353be720ca1f9cb6e03825929bc172e1157d arm64: dts: mt6359: Add #sound-dai-cells property
+b8457716eeee45ed5cb6b8fdc5a5b459f7ebe819 arm64: dts: mediatek: mt8390-genio-700-evk: Add sound output support
 
---===============5893515822517984119==--
+--===============0088881029624057927==--
