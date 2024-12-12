@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Thu, 12 Dec 2024 11:55:10 -0000
-Message-Id: <173400451078.2081921.6663850879257582706@gitolite.kernel.org>
+Date: Thu, 12 Dec 2024 12:11:38 -0000
+Message-Id: <173400549871.2094466.4652243416612098983@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host-next
-    old: a8e1e6f55cd40e4886c9f0d72c27286ea2759078
-    new: 38917131aa33319249e89c6e0de8cf26823cd4b9
+  - ref: refs/heads/i2c/i2c-host
+    old: e7aa745f94a1e8a00ef0b029ecf24fd8826dd151
+    new: 6827fa0c518e38ab093ea12105e2467cc6b0d016
     log: |
-         de6b43798d9043a7c749a0428dbb02d5fff156e5 i2c: riic: Always round-up when calculating bus period
-         38917131aa33319249e89c6e0de8cf26823cd4b9 Merge branch 'i2c/i2c-host-fixes' into i2c/i2c-host-next
+         6827fa0c518e38ab093ea12105e2467cc6b0d016 i2c: imx: make controller available until system suspend_noirq() and from resume_noirq()
          
