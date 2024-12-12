@@ -1,56 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============6765055852878376520=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 12 Dec 2024 14:25:24 -0000
-Message-Id: <173401352419.2228791.5797423793971598047@gitolite.kernel.org>
-
---===============6765055852878376520==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth
+Date: Thu, 12 Dec 2024 14:25:43 -0000
+Message-Id: <173401354394.2229296.10603215587175067151@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth
+user: vudentz
 changes:
   - ref: refs/heads/master
-    old: 2d4dea80331fc08d3dc5f80e01fc43d3046bb975
-    new: 0af3b40ae02c703dd1a78fdca9f908cbc5da9cd3
+    old: 69e8a8410d7bcd3636091b5915a939b9972f99f1
+    new: b548f5e9456c568155499d9ebac675c0d7a296e8
     log: |
-         0af3b40ae02c703dd1a78fdca9f908cbc5da9cd3 drop timekeeping patch
+         4d94f05558271654670d18c26c912da0c1c15549 Bluetooth: hci_core: Fix sleeping function called from invalid context
+         581dd2dc168fe0ed2a7a5534a724f0d3751c93ae Bluetooth: hci_event: Fix using rcu_read_(un)lock while iterating
+         9c76fff747a73ba01d1d87ed53dd9c00cb40ba05 Bluetooth: iso: Always release hdev at the end of iso_listen_bis
+         9bde7c3b3ad0e1f39d6df93dd1c9caf63e19e50f Bluetooth: iso: Fix recursive locking warning
+         29a651451e6c264f58cd9d9a26088e579d17b242 Bluetooth: SCO: Add support for 16 bits transparent voice setting
+         168e28305b871d8ec604a8f51f35467b8d7ba05b Bluetooth: iso: Fix circular lock in iso_listen_bis
+         7a17308c17880d259105f6e591eb1bc77b9612f0 Bluetooth: iso: Fix circular lock in iso_conn_big_sync
+         b548f5e9456c568155499d9ebac675c0d7a296e8 Bluetooth: btmtk: avoid UAF in btmtk_process_coredump
          
-
---===============6765055852878376520==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1734013548 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1734013516-45cf8a829f2a63100a1e4898c486722c21e21028
-
-2d4dea80331fc08d3dc5f80e01fc43d3046bb975 0af3b40ae02c703dd1a78fdca9f908cbc5da9cd3 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmda8mwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WtQP/jWW9FreYmlPWYpV6ViH
-91zDc4de6fkhVP8GbVdjuVNDJO0p80vY/Eq88cizJAJAQiCCmeLcVcOJxPcK0Udc
-h+u98E0j8jx7tiksNRCmRSFgWStgdOcsnll6DizaJh47DEryUEuHWaaqsAhOHA4G
-3CmoKUD2sKO4t1FIYtIbRpxE57TAf/dqO99wb0MVko+yQWfGct/6iklqscksvIrj
-g6Q8Bn9J22Ye+EwDNEtU8Gf0DuhEBK+b46LZsZ5mTBHHycvIQBsa3Rv3Fp7dshBS
-nhfV4kmf2/ybm/euzzcn9p0ZzpxnpM+ZcH4Ic7biZyFxWyEHa0/r+VjPj2buDs4k
-BPn4J6IkPPjhnXqtLuuY20YCoRlVcx1kLDgWQv0Iv9168XF0zAwc4RMecMxva7NP
-bbP8KlMaelJfbnDIGnOyfI3nnN2tqp0L6L7e2wAFRwjYnQ0v6pNAT5jiQESOOEsZ
-dJuM7+YbFIRx0LgFUnOLvFfbYxYW0xLuyfGwzJhHc4UXOpUjKKASwhvy11lSbMhE
-cJ+YKkCNsz2aKm8QXJf94XilDHnhVy4HQRfDtOe9gUD/qVJqHwEDe1c/aWmMYe6D
-iKIh54jSs7j4TbUkkS2ALw8ov6RgyZ+ua0hdw9e6brPZ/Dleq2uzPp/oWCEGCX6d
-pG9RUGdjq6yLMU9fJRhEXy2g
-=zq1m
------END PGP SIGNATURE-----
-
---===============6765055852878376520==--
