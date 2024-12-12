@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Thu, 12 Dec 2024 12:51:00 -0000
-Message-Id: <173400786061.2148078.16996986852546215868@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tomba/linux
+Date: Thu, 12 Dec 2024 12:53:49 -0000
+Message-Id: <173400802971.2149319.2735808333772093701@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
+repo: pub/scm/linux/kernel/git/tomba/linux
+user: tomba
 changes:
-  - ref: refs/heads/for-next
-    old: fe42bf00dd57a45c6098c41a6c925793f9f5c22c
-    new: f913cbef6310531bc257336917bf2dc69296fd49
+  - ref: refs/heads/ub9xx-err-handling
+    old: 2b77b38748f9e96b96d447e1b721dec1de2a5286
+    new: 52590f722754e898fd15e440bf44be8ab909b4d1
     log: |
-         08242719a8af603db54a2a79234a8fe600680105 regulator: dt-bindings: mt6315: Drop regulator-compatible property
-         f913cbef6310531bc257336917bf2dc69296fd49 Merge remote-tracking branch 'regulator/for-6.14' into regulator-next
+         52590f722754e898fd15e440bf44be8ab909b4d1 media: i2c: ds90ub960: Update UB9702 init sequences
          
