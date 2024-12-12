@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Thu, 12 Dec 2024 16:27:26 -0000
-Message-Id: <173402084602.2334219.10242605617700361609@gitolite.kernel.org>
+Date: Thu, 12 Dec 2024 16:30:30 -0000
+Message-Id: <173402103064.2337837.3657702137205931899@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/dev-test
-    old: 417da85a370e4ae59ab9a76b6cbd6e65d84a093d
+  - ref: refs/heads/fixes
+    old: 4eab89ba9175bc79fa67b61ae25cb9de71240e62
     new: 320077e635e75d3053b81adb7c0d53f0a89e300d
     log: |
          b10a1e5643e505c367c7e16aa6d8a9a0dc07354b erofs: fix rare pcluster memory leak after unmounting
