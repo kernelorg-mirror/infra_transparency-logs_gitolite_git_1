@@ -1,23 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/ext2/xfstests-bld
-Date: Fri, 13 Dec 2024 16:48:57 -0000
-Message-Id: <173410853719.3532838.10002440784737253794@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Fri, 13 Dec 2024 16:49:34 -0000
+Message-Id: <173410857471.3533738.14048985869175188762@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/ext2/xfstests-bld
-user: tytso
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 8d879bf3d93c46c9046913d61f634413309850e1
-    new: 167b6da368d5acff83f073b5aa3ff728073aa307
+  - ref: refs/heads/buffered-uncached.9
+    old: 4d16f90a4cee44c16b7c74229812cba0e7d78cdd
+    new: dd1cdfc8e399ac3863f296428d38377f849649e2
     log: |
-         f4c76aa335077fddf147dd2b5fcad579bf7440ea test-appliance: drop local copies of attr and acl
-         980aa108e739a3ffa1f22a1c919673dbd34907a7 test-appliance: remove /usr/share/locale from the test appliance
-         66754887cff86468954957b228bf5fc6ffdc7b3b run-fstests: also accept --image-project in ls-images
-         48c9ed965c63898db6fe7152dd2e1b7a200fbd72 test-appliance: install libssl1-dev:arm64 to fix builds on newer kernels
-         167b6da368d5acff83f073b5aa3ff728073aa307 Merge remote-tracking branch 'leah/master'
+         a1fe8a68421cc9c2adbc7d990ada7298fac619b9 mm: add FGP_DONTCACHE folio creation flag
+         9f8c0c0c2d2f494e1b34249270fd640efd243001 iomap: make buffered writes work with RWF_DONTCACHE
+         a30b6e1887276e30b97e49b04a6136cf96910736 xfs: flag as supporting FOP_DONTCACHE
+         0c784ab3e0c9934a6f38bd9d9b1fc39773ef80fa btrfs: add support for uncached writes
+         b0228c08fe26d060a9035572fdef0df8fda0a1f4 mm/filemap: add magic foliop_dropbehind pointer
+         dd1cdfc8e399ac3863f296428d38377f849649e2 ext4: add RWF_DONTCACHE write support
          
