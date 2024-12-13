@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Fri, 13 Dec 2024 16:07:35 -0000
-Message-Id: <173410605506.3497015.5123132991329419647@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Fri, 13 Dec 2024 16:18:45 -0000
+Message-Id: <173410672580.3505237.15811621491134197116@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
 changes:
-  - ref: refs/heads/arm/fixes
+  - ref: refs/tags/i2c-host-fixes-6.13-rc3
     old: 0000000000000000000000000000000000000000
-    new: f578281000c50cae991c40e1f68b2fc0b1b9e60e
+    new: 1dce59681397431fdf9dd6771a8f5f4d2aadec80
