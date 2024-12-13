@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8826045021992816639=="
+Content-Type: multipart/mixed; boundary="===============4094225038174914675=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 13 Dec 2024 09:44:03 -0000
-Message-Id: <173408304349.3177565.555227498533604490@gitolite.kernel.org>
+Date: Fri, 13 Dec 2024 09:44:27 -0000
+Message-Id: <173408306773.3178057.17255474756819027773@gitolite.kernel.org>
 
---===============8826045021992816639==
+--===============4094225038174914675==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,39 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 95ff56760ec6760f107773fd1b0ecd1e5076a7e3
-    new: f6927a6f704dd4a9df7461b8be0039178b0bb162
-    log: revlist-95ff56760ec6-f6927a6f704d.txt
+    old: f6927a6f704dd4a9df7461b8be0039178b0bb162
+    new: d5ba3fcfe2b4ddbec6b2946f1d6fc8057133beff
+    log: revlist-f6927a6f704d-d5ba3fcfe2b4.txt
+  - ref: refs/heads/tip/urgent
+    old: e3d63da5b654bf67a907fa9470640c0a8ebd56ad
+    new: 884062c8eab059ef713cd9fac730d64c6ff71e86
+    log: revlist-e3d63da5b654-884062c8eab0.txt
 
---===============8826045021992816639==
+--===============4094225038174914675==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-95ff56760ec6-f6927a6f704d.txt
+Content-Disposition: attachment; filename=revlist-f6927a6f704d-d5ba3fcfe2b4.txt
+
+884062c8eab059ef713cd9fac730d64c6ff71e86 Merge branch into tip/master: 'sched/urgent'
+f6af1e0b36f22da38cc8aad4610f853d25a921bd Merge branch into tip/master: 'irq/core'
+aa8b80ebd49a9b8d0b6cdbedaaa91971388219b9 Merge branch into tip/master: 'locking/core'
+96cffc22830188d2990107c3f795add8edfd848e Merge branch into tip/master: 'objtool/core'
+1b99864dc81e0e4d76abf5430436703d6a223b91 Merge branch into tip/master: 'perf/core'
+3e48bdf51d2f43abcd063a6dddef8862584efd0c Merge branch into tip/master: 'sched/core'
+33f7d62008f50bff36ecd2d3b90c622ba9be9233 Merge branch into tip/master: 'x86/boot'
+923b706792881b6ec7158bf62d36db7de7b1153b Merge branch into tip/master: 'x86/cache'
+893c173dd827f7d4f05ea193c3a016c06094daa3 Merge branch into tip/master: 'x86/cleanups'
+7e8b3a69436312c1370f3de1eb569065ad3c7c42 Merge branch into tip/master: 'x86/cpu'
+5bcdf12aff9659737d588fbdc9ce6147980bf015 Merge branch into tip/master: 'x86/misc'
+aeeb3c49af623e067ebd8fdf407dae714fbd4960 Merge branch into tip/master: 'x86/mm'
+d5ba3fcfe2b4ddbec6b2946f1d6fc8057133beff Merge branch into tip/master: 'x86/tdx'
+
+--===============4094225038174914675==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-e3d63da5b654-884062c8eab0.txt
 
 23c44f6c83257923b179461694edcf62749bedd5 perf tools: Fix build-id event recording
 f54cd8f43f55c0274c5b51509aff39675639c2e1 perf test: Don't signal all processes on system when interrupting tests
@@ -149,6 +173,6 @@ ad913dfd8bfacdf1d2232fe9f49ccb025885ef22 Merge tag 'for-net-2024-12-12' of git:/
 eefa7a9c069908412f8f5d15833901d1b46ae1b2 Merge tag 'for-linus' of https://github.com/openrisc/linux
 01abac26dccd77eddffec6b032e51f501714dee3 Merge tag 'perf-tools-fixes-for-v6.13-2024-12-12' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 f932fb9b40749d1c9a539d89bb3e288c077aafe5 Merge tag 'v6.13-rc2-ksmbd-server-fixes' of git://git.samba.org/ksmbd
-f6927a6f704dd4a9df7461b8be0039178b0bb162 Merge branch 'linus'
+884062c8eab059ef713cd9fac730d64c6ff71e86 Merge branch into tip/master: 'sched/urgent'
 
---===============8826045021992816639==--
+--===============4094225038174914675==--
