@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2186370466303566146=="
+Content-Type: multipart/mixed; boundary="===============5646565394810282215=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Fri, 13 Dec 2024 06:49:29 -0000
-Message-Id: <173407256960.3038622.12400578968879735223@gitolite.kernel.org>
+Date: Fri, 13 Dec 2024 07:18:52 -0000
+Message-Id: <173407433298.3061663.8501803119517142207@gitolite.kernel.org>
 
---===============2186370466303566146==
+--===============5646565394810282215==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: cem
 changes:
-  - ref: refs/heads/next-rc
+  - ref: refs/heads/for-next
     old: e2b718c001025cb4fe6d9e3176fb252625c102c3
     new: bf354410af832232db8438afe006bb12675778bc
     log: revlist-e2b718c00102-bf354410af83.txt
 
---===============2186370466303566146==
+--===============5646565394810282215==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -215,4 +215,4 @@ c004a793e0ec34047c3bd423bcd8966f5fac88dc xfs: fix zero byte checking in the supe
 12f2930f5f91bc0d67794c69d1961098c7c72040 xfs: port xfs_ioc_start_commit to multigrain timestamps
 bf354410af832232db8438afe006bb12675778bc Merge tag 'xfs-6.13-fixes_2024-12-12' of https://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-linux into next-rc
 
---===============2186370466303566146==--
+--===============5646565394810282215==--
