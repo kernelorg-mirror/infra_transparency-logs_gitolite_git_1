@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Fri, 13 Dec 2024 20:50:51 -0000
-Message-Id: <173412305135.3736089.1116834681358400314@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Fri, 13 Dec 2024 21:34:34 -0000
+Message-Id: <173412567464.3768082.3649532555322993611@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/ipsec-fixes
-    old: b246a597d30b32327e39fea5a95beeee567b13fd
-    new: 839c93393a929a87810d251d9994d1a5a069bc3f
+  - ref: refs/heads/objtool-loongarch
+    old: 719e621826002a47d82ee36f9f436e9126b65980
+    new: 10e7ef48e700d5a430c0e689e4396ea261d322a7
     log: |
-         d7a9267eb12cdf2b373dcba4462a3f47612024c8 xfrm: Support ESN context update to hardware for TX
-         576045705f7ad0f5169c03224ada890893085a81 xfrm: return early if policy is offloaded in packet mode
-         efe6619a6948ad38d212b2bed940b71cfaf376b2 net/mlx5: Fix inversion dependency warning while enabling IPsec tunnel
-         cb7e83220e578af190b7f26198ab57904f930b82 net/mlx5: Properly match IPsec subnet addresses
-         839c93393a929a87810d251d9994d1a5a069bc3f net/mlx5: Rely on reqid and destination address in IPsec tunnel mode
+         77d39b404e74594c652e0ddc42c3bbeda435c91c objtool/loongarch: Simplify frame pointer detection
+         3f7d3d5d7a54f46343646b38248053ee38a84bec objtool/loongarch: Make ORC dump output similar to x86
+         10e7ef48e700d5a430c0e689e4396ea261d322a7 objtool: Enable verbose mode for fatal errors
          
