@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Fri, 13 Dec 2024 09:52:54 -0000
-Message-Id: <173408357442.3185629.15843638562205528933@gitolite.kernel.org>
+Date: Fri, 13 Dec 2024 09:53:43 -0000
+Message-Id: <173408362325.3185990.4277599153070651667@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,11 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs-utils
 user: xiang
 changes:
-  - ref: refs/heads/experimental
-    old: c8a5b28ab22714833fca389557ea369fc48730e1
-    new: d6a58f0c09226ddc5e5d74a111df97a1a2c034f7
+  - ref: refs/heads/dev
+    old: 485b31785f89064760e45fc964a083b957a3e53f
+    new: 54e217b80509c193a087b69a5a52884389236926
     log: |
-         cc99425aa9393907cb7fc93101a686c987be5ed9 erofs-utils: lib: correct erofsfuse build script
-         22f4e4b4cc775ccfecbd0e396f16ffb741f2f13e erofs-utils: release 1.8.3
-         d6a58f0c09226ddc5e5d74a111df97a1a2c034f7 erofs-utils: lib: drop prefix_sha256 digests
+         c4facdc1977dd0e6fb8b40ee8be75f66bc79a54e erofs-utils: lib: get rid of pthread_cancel() for workqueue
+         91e74ac65045a778bf7e23f418685c0b36779edd erofs-utils: mkfs: add `-U <clear|random>` support
+         54e217b80509c193a087b69a5a52884389236926 erofs-utils: add --hard-dereference option
          
