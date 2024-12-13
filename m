@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8794734529743908773=="
+Content-Type: multipart/mixed; boundary="===============8100512863399655511=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 13 Dec 2024 16:48:23 -0000
-Message-Id: <173410850310.3532232.8189983362180214270@gitolite.kernel.org>
+Date: Fri, 13 Dec 2024 16:48:25 -0000
+Message-Id: <173410850567.3532313.15580040693285810674@gitolite.kernel.org>
 
---===============8794734529743908773==
+--===============8100512863399655511==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: f3674384709b69c5cd8c4597b8bd73ea7bd0236f
     new: 2c27c7663390d28bc71e97500eb68e0ce2a7223f
     log: revlist-f3674384709b-2c27c7663390.txt
 
---===============8794734529743908773==
+--===============8100512863399655511==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -423,4 +423,4 @@ b400f4b87430c105d92550cee5a72aea01fdf3d6 page_pool: Set `dma_sync` to false for 
 7dba339faae991a23c54f7b93a58798c58f8c16f page_pool: disable sync for cpu for dmabuf memory provider
 2c27c7663390d28bc71e97500eb68e0ce2a7223f Merge branch 'devmem-tcp-fixes'
 
---===============8794734529743908773==--
+--===============8100512863399655511==--
