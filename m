@@ -1,32 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============6236152526308281955=="
+Content-Type: multipart/mixed; boundary="===============6328117523285167610=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
-Date: Fri, 13 Dec 2024 17:22:14 -0000
-Message-Id: <173411053450.3562372.4492443203938374338@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
+Date: Fri, 13 Dec 2024 17:22:28 -0000
+Message-Id: <173411054819.3562605.1020067365754667452@gitolite.kernel.org>
 
---===============6236152526308281955==
+--===============6328117523285167610==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/mfd
+repo: pub/scm/linux/kernel/git/lee/leds
 user: lee
 changes:
-  - ref: refs/heads/for-mfd-next
-    old: 8ece9d248b851b97e1e0779caa2ca98df9bc41f7
-    new: f35d82b6f63994e7d7944daa99651ab88300ce22
-    log: revlist-8ece9d248b85-f35d82b6f639.txt
+  - ref: refs/heads/for-leds-next
+    old: e8501858035b1f95468da525e7357c8c33811b88
+    new: 4cc40bf45b6f6b6ae350e1f75ee0af49b81f9b1f
+    log: revlist-e8501858035b-4cc40bf45b6f.txt
 
---===============6236152526308281955==
+--===============6328117523285167610==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8ece9d248b85-f35d82b6f639.txt
+Content-Disposition: attachment; filename=revlist-e8501858035b-4cc40bf45b6f.txt
 
-f33e46a0c6bddd341d0989484a2546bba7ac4a3c Merge branch 'for-6.13/wacom' into for-linus
 873c578324c7082677303e2921b71fe0f5737ccc Merge branch 'for-6.13/steelseries' into for-linus
 82339c49119f5e38ca3c81d698b84134c342373f Merge tag 'pull-xattr' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 e8a0581914bd2e28f7af8d333ddc73fd78b1ef84 HID: multitouch: make mt_set_mode() less cryptic
@@ -1036,19 +1035,20 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 88862eeb476375687a1de5f45528a437ea598338 Merge tag 'trace-printf-v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
-c8729f5dc9aacd4bad8ac93487c2f5ee1c409f2c mfd: axp20x: Use devm_register_power_off_handler()
-d893a7ed58430259cbc939cd001e24833df93a75 mfd: stpmic1: Use devm_register_power_off_handler()
-49339c4af2adcf9e9d080fcf751723d3ba52fe50 mfd: lpc_ich: Add another Gemini Lake ISA bridge PCI device-id
-4341de296cfb2c2e46bd770ae1c94867d6c97bf2 dt-bindings: mfd: bd71815: Fix rsense and typos
-866fc5a03441c0c8ceed2bf251555b7d2d95d0e9 dt-bindings: mfd: qcom,tcsr: Add compatible for ipq5424
-049d5ca76637d305650e68332ecf5cfb18d74b0b mfd: cs42l43: Prepare support for updated bios patch
-5fb65a3749286b8fb1c8c0b1ccc6ed7caedf3632 mfd: cs42l43: Use gpiod_set_raw for GPIO operations
-7c28a3909ccd45ab4d560ef1e57fbc0890fbf6e9 mfd: cs42l43: Increase the SoundWire attach timeout
-c5bb88eac10f5a69b2c281edaed39f25e096e43a mfd: cs42l43: Use devres for remove as well
-1e19ff6d7ae149d933d0a6fbf09f6977c516b198 mfd: intel_soc_pmic_chtdc_ti: Fix invalid regmap-config max_register value
-2873c48377e5d68aebdbb3b6a6c191fda321ddbf mfd: da9052: Store result from fault_log
-577ced9b8ac3791edfddc7c371a7f948cdd0e35c mfd: Add support for AAEON UP board FPGA
-5885a1731d0052d5d8a8cbc9871f94fae1f3baa3 leds: Add AAEON UP board LED driver
-f35d82b6f63994e7d7944daa99651ab88300ce22 MAINTAINERS: Add entry for AAEON UP board FPGA drivers
+0d2e820a86793595e2a776855d04701109e46663 leds: lp8860: Write full EEPROM, not only half of it
+609bc99a4452ffbce82d10f024a85d911c42e6cd dt-bindings: leds: class-multicolor: Fix path to color definitions
+6fcafd33d2f85f0ffc1fc64e2b1ea607d0e75037 leds: ledtrig-activity: Fix the wrong format specifier
+a1234b215538279c8520481f6d539f1582bd17d8 dt-bindings: leds: qcom,spmi-flash-led: Add pm660l compatible
+082e8f6db9092d19ae84549874daaef240c2207b turris-omnia-mcu-interface.h: Move command execution function to global header
+b4c3960da27dd91412e04bc263311c16e6c46fb0 leds: turris-omnia: Use command execution functions from the MCU driver
+d665d7f2800fff5da9311e4c8c236966ba57d440 turris-omnia-mcu-interface.h: Add LED commands related definitions to global header
+5d2f88320c2f7d15830f2f3b51726ef6ba999195 leds: turris-omnia: Use global header for MCU command definitions
+2b73a24f327070390f1a17570fcab35b61a92c24 dt-bindings: leds: cznic,turris-omnia-leds: Allow interrupts property
+8ca5bf8ad183e1b05034ccfd96d59e7b802d6335 leds: turris-omnia: Document driver private structures
+d82e09d62b3bdbfa9dac2daf3c3c071b6a79d2aa leds: turris-omnia: Notify sysfs on MCU global LEDs brightness change
+1783b766940f37aeaf7c841f777be8cf68326908 platform: cznic: turris-omnia-mcu: Inform about missing LED panel brightness change interrupt feature
+2de889e9cf25558bf12505b6827dcd435cbc1b11 leds: turris-omnia: Inform about missing LED gamma correction feature in the MCU driver
+eda057c7c7c2c99c15b86bb5e3c1858b8650c074 leds: turris-omnia: Use dev_err_probe() where appropriate
+4cc40bf45b6f6b6ae350e1f75ee0af49b81f9b1f leds: turris-omnia: Use uppercase first letter in all comments
 
---===============6236152526308281955==--
+--===============6328117523285167610==--
