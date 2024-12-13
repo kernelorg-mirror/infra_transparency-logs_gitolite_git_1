@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6388331933773714740=="
+Content-Type: multipart/mixed; boundary="===============7590982537141336558=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/mdadm/mdadm
-Date: Fri, 13 Dec 2024 09:08:00 -0000
-Message-Id: <173408088053.3147944.8642111411299851015@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mtkaczyk/mdadm-test
+Date: Fri, 13 Dec 2024 09:08:05 -0000
+Message-Id: <173408088523.3148138.5576899116795213820@gitolite.kernel.org>
 
---===============6388331933773714740==
+--===============7590982537141336558==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/mdadm/mdadm
+repo: pub/scm/linux/kernel/git/mtkaczyk/mdadm-test
 user: mtkaczyk
 changes:
   - ref: refs/heads/main
@@ -20,7 +20,7 @@ changes:
     new: 999c963352a465ccf08943a4c927490cb08f7cff
     log: revlist-581ba1341017-999c963352a4.txt
 
---===============6388331933773714740==
+--===============7590982537141336558==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ fc5e369446534bf43283d2497aebcc72b3570eb0 tests: fix 05r1-re-add-nosuper
 d4be82f360160b4c8468fc35c0f9eb2803c7d739 tests: increase sleeps for 04r5swap and 05r tests
 999c963352a465ccf08943a4c927490cb08f7cff tests: increase sleeps from 1s to 2s
 
---===============6388331933773714740==--
+--===============7590982537141336558==--
