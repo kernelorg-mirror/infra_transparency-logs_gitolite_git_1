@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7030002063751499641=="
+Content-Type: multipart/mixed; boundary="===============1753120374606737810=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Fri, 13 Dec 2024 18:11:16 -0000
-Message-Id: <173411347687.3605364.6418169145132500031@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Fri, 13 Dec 2024 18:11:24 -0000
+Message-Id: <173411348413.3605551.12856881700295241061@gitolite.kernel.org>
 
---===============7030002063751499641==
+--===============1753120374606737810==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: aec95d7ce1c8fe5ee9940b861b53e31509ce9428
     log: revlist-5e530a8287b7-aec95d7ce1c8.txt
 
---===============7030002063751499641==
+--===============1753120374606737810==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -632,4 +632,4 @@ eefa7a9c069908412f8f5d15833901d1b46ae1b2 Merge tag 'for-linus' of https://github
 f932fb9b40749d1c9a539d89bb3e288c077aafe5 Merge tag 'v6.13-rc2-ksmbd-server-fixes' of git://git.samba.org/ksmbd
 aec95d7ce1c8fe5ee9940b861b53e31509ce9428 Merge remote-tracking branch 'torvalds/master' into perf-tools-next
 
---===============7030002063751499641==--
+--===============1753120374606737810==--
