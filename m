@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1557190315081641425=="
+Content-Type: multipart/mixed; boundary="===============1046073594077821992=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Fri, 13 Dec 2024 00:29:58 -0000
-Message-Id: <173404979855.2727507.12358541419523208632@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
+Date: Fri, 13 Dec 2024 00:30:01 -0000
+Message-Id: <173404980199.2727897.17140417660663876927@gitolite.kernel.org>
 
---===============1557190315081641425==
+--===============1046073594077821992==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-omap
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: eefa7a9c069908412f8f5d15833901d1b46ae1b2
     log: revlist-f92f4749861b-eefa7a9c0699.txt
 
---===============1557190315081641425==
+--===============1046073594077821992==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -129,4 +129,4 @@ ad913dfd8bfacdf1d2232fe9f49ccb025885ef22 Merge tag 'for-net-2024-12-12' of git:/
 150b567e0d572342ef08bace7ee7aff80fd75327 Merge tag 'net-6.13-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 eefa7a9c069908412f8f5d15833901d1b46ae1b2 Merge tag 'for-linus' of https://github.com/openrisc/linux
 
---===============1557190315081641425==--
+--===============1046073594077821992==--
