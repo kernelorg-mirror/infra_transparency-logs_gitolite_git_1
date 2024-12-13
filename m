@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Fri, 13 Dec 2024 00:58:54 -0000
-Message-Id: <173405153400.2751731.12432162570584773037@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Fri, 13 Dec 2024 00:59:49 -0000
+Message-Id: <173405158912.2752933.5342247413902477013@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/experimental
-    old: 402d4784d8baff8b28249635fc128eec938739e7
-    new: c8a5b28ab22714833fca389557ea369fc48730e1
+  - ref: refs/heads/dev
+    old: 1b72084ab1096c49547a1e6050e38cf92bd414cc
+    new: 41ae651d10dcc542e398e26c3dcc52e40c59b39d
     log: |
-         54e217b80509c193a087b69a5a52884389236926 erofs-utils: add --hard-dereference option
-         c8a5b28ab22714833fca389557ea369fc48730e1 erofs-utils: lib: drop prefix_sha256 digests
+         41ae651d10dcc542e398e26c3dcc52e40c59b39d rcu: Fix get_state_synchronize_rcu_full() GP-start detection
          
