@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3088936465582326618=="
+Content-Type: multipart/mixed; boundary="===============8697707495520972285=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Fri, 13 Dec 2024 20:42:27 -0000
-Message-Id: <173412254791.3727907.10859277843993768743@gitolite.kernel.org>
+Date: Fri, 13 Dec 2024 20:42:35 -0000
+Message-Id: <173412255563.3728148.16686689848082369491@gitolite.kernel.org>
 
---===============3088936465582326618==
+--===============8697707495520972285==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rafael/linux-pm
 user: rafael
 changes:
-  - ref: refs/heads/acpi
-    old: 6f683c7feea45cbcd8748aafe73b0c79a6909e26
-    new: e14d5ae28eb28c5edef53bd648037d2bb4fce1b3
-    log: revlist-6f683c7feea4-e14d5ae28eb2.txt
-  - ref: refs/tags/acpi-6.13-rc3
+  - ref: refs/heads/pm
+    old: 07d66acad26bad33defbf26516d0a84261ae6adc
+    new: ccb84dc8f4a02e7d30ffd388522996546b4d00e1
+    log: revlist-07d66acad26b-ccb84dc8f4a0.txt
+  - ref: refs/tags/pm-6.13-rc3
     old: 0000000000000000000000000000000000000000
-    new: 420a7e0b6385fbb3cf4735532ef7b3fb9e8b669f
+    new: 034ddc0af51d7f22d30df61de5428d7f5dfa1cf4
 
---===============3088936465582326618==
+--===============8697707495520972285==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6f683c7feea4-e14d5ae28eb2.txt
+Content-Disposition: attachment; filename=revlist-07d66acad26b-ccb84dc8f4a0.txt
 
 d2913a07d9037fe7aed4b7e680684163eaed6bc4 ALSA: pcm: Add sanity NULL check for the default mmap fault handler
 897614f90f7cd9fd7f5b7acca24dfb55b6c0c4ae s390/debug: Pass in and enforce output buffer size for format handlers
@@ -137,7 +137,9 @@ a037699da0a17e99832875a936b5a6285d8de849 docs: Add debugging section to process
 64214c2b95364d26cdff045d8bbefd37380edbe1 iommu: Add ops->domain_alloc_nested()
 d53764723ecd639a0cc0c5ad24146847fc09f78d iommu: Rename ops->domain_alloc_user() to domain_alloc_paging_flags()
 1ec371bab200de8510c893cd22865eb517577e83 m68k: mvme147, mvme16x: Adopt rtc-m48t59 platform driver
-f3e66e78f2ecb18a55374f7d58030556b751dd79 Merge branch 'pm-cpuidle'
+82f250ed1a1dcde0ad2a1513f85af7f9514635e8 ACPI: x86: Add skip i2c clients quirk for Acer Iconia One 8 A1-840
+bd8aa15848f5f21951cd0b0d01510b3ad1f777d4 ACPI: x86: Clean up Asus entries in acpi_quirk_skip_dmi_ids[]
+9d8a2b033db179bef9b6b5bad492f611a0fe89b7 ACPI: introduce acpi_arch_init()
 563cb0b1e736853cfc78956b9de362d2aae74887 Merge tag 'cxl-for-6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 be9318cd5a36ff67689e0fb0f8f5007a56290ac7 Merge tag 'x86_sgx_for_6.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 5af5d43f848e95019d0e018e67a7a341c6a5e00d Merge tag 'x86_misc_for_6.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -535,7 +537,7 @@ b5287c55dedae89f273f505197244d9ece1d42d9 Merge tag 'vfs-6.13.exec.deny_write_acc
 7d4050728c83aa63828494ad0f4d0eb4faf5f97a Merge tag 'vfs-6.13-rc1.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 c1668520c9aa4019738f27097b187a5460646cbc Merge tag 'riscv-for-linus-6.13-mw1' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux into HEAD
 4d911c7abee56771b0219a9fbf0120d06bdc9c14 Merge tag 'kvm-riscv-6.13-2' of https://github.com/kvm-riscv/linux into HEAD
-07d66acad26bad33defbf26516d0a84261ae6adc Merge branch 'pm-opp'
+6f683c7feea45cbcd8748aafe73b0c79a6909e26 Merge branches 'acpi-misc' and 'acpi-x86'
 4dc333c6c28c49943a571f09c3868e5058552016 Merge branch 'thermal-intel'
 b5361254c9027c2b3730be1bebcdb37eed42e9a5 Merge tag 'modules-6.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/modules/linux
 ab952fc5c736c54e3ffd577c3ffd54a2a1eb7803 Merge tag 'memblock-v6.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
@@ -1050,8 +1052,6 @@ c25ca0c2e42c77e0241411d374d44c41e253b3f5 Merge tag 'timers_urgent_for_v6.13_rc2'
 eadaac4dd2e07292181d35858047bdb177d5194f Merge tag 'irq_urgent_for_v6.13_rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 0b6809a75ac026d4b569815744ad095b5d5955e1 Merge tag 'kbuild-fixes-v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 fac04efc5c793dccbd07e2d59af9f90b7fc0dca4 Linux 6.13-rc2
-7899ca9f3bd2b008e9a7c41f2a9f1986052d7e96 ACPI: resource: Fix memory resource type union access
-c53d96a4481f42a1635b96d2c1acbb0a126bfd54 ACPICA: events/evxfregn: don't release the ContextMutex that was never acquired
-e14d5ae28eb28c5edef53bd648037d2bb4fce1b3 Merge branch 'acpica'
+ccb84dc8f4a02e7d30ffd388522996546b4d00e1 Documentation: PM: Clarify pm_runtime_resume_and_get() return value
 
---===============3088936465582326618==--
+--===============8697707495520972285==--
