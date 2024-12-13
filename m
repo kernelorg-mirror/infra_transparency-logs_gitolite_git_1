@@ -1,33 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============8403077283233586978=="
+Content-Type: multipart/mixed; boundary="===============8682786359040050267=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Fri, 13 Dec 2024 17:43:27 -0000
-Message-Id: <173411180759.3581033.1972474993927035566@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Fri, 13 Dec 2024 17:49:35 -0000
+Message-Id: <173411217531.3586141.8163305109589492210@gitolite.kernel.org>
 
---===============8403077283233586978==
+--===============8682786359040050267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/testing
-    old: 30ccd0a84a894cc9f4f37c9c850dbde84f6715da
-    new: a2962f021028176580535303cbb7a1c0e1b24f74
-    log: revlist-30ccd0a84a89-a2962f021028.txt
+  - ref: refs/heads/buffered-uncached.9
+    old: dd1cdfc8e399ac3863f296428d38377f849649e2
+    new: c51cc6fcbc6e17664ee5804294a2bd8ffedc8194
+    log: |
+         4c99ec7de065e533d3d57ad0d3bd2b1f489b5a7f iomap: make buffered writes work with RWF_DONTCACHE
+         edd7b1c910c5251941c6ba179f44b4c81a089019 xfs: flag as supporting FOP_DONTCACHE
+         acd8316c669257c294dac5c4b76a41ba139db64a mm: add FGP_DONTCACHE folio creation flag
+         9fd830c331ad8227bf5e0214155e4ba81451ff83 btrfs: add support for uncached writes
+         d3d3c72060dffb4426434e229cde131111c2218b mm/filemap: add magic foliop_dropbehind pointer
+         c51cc6fcbc6e17664ee5804294a2bd8ffedc8194 ext4: add RWF_DONTCACHE write support
+         
+  - ref: refs/heads/master
+    old: 7cb1b466315004af98f6ba6c2546bb713ca3c237
+    new: f932fb9b40749d1c9a539d89bb3e288c077aafe5
+    log: revlist-7cb1b4663150-f932fb9b4074.txt
+  - ref: refs/heads/buffered-uncached.10
+    old: 0000000000000000000000000000000000000000
+    new: 84e39f6b98bcd2531a941e01047705ce86eed609
 
---===============8403077283233586978==
+--===============8682786359040050267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-30ccd0a84a89-a2962f021028.txt
+Content-Disposition: attachment; filename=revlist-7cb1b4663150-f932fb9b4074.txt
 
 23c44f6c83257923b179461694edcf62749bedd5 perf tools: Fix build-id event recording
 f54cd8f43f55c0274c5b51509aff39675639c2e1 perf test: Don't signal all processes on system when interrupting tests
+06fec99d4d2cb92bc6f107fdfd5e5c776375c68a Revert "clk: Fix invalid execution of clk_set_rate"
+5ae1a43486fb3febd5ce78da13eb354f16d049e0 clk: amlogic: axg-audio: revert reset implementation
 2e3dbf938656986cce73ac4083500d0bcfbffe24 wifi: nl80211: fix NL80211_ATTR_MLO_LINK_ID off-by-one
 49dba1ded8dd5a6a12748631403240b2ab245c34 wifi: mac80211: fix mbss changed flags corruption on 32 bit systems
 496db69fd860570145f7c266b31f3af85fca5b00 wifi: mac80211: init cnt before accessing elem in ieee80211_copy_mbssid_beacon
@@ -37,6 +53,10 @@ b5c32ff6a3a38c74facdd1fe34c0d709a55527fd wifi: cfg80211: clear link ID from bitm
 52cebabb1264a51c80b2461d52e71600c1c58df2 wifi: mac80211: fix vif addr when switching from monitor to station
 819e0f1e58e0ba3800cd9eb96b2a39e44e49df97 wifi: mac80211: fix station NSS capability initialization order
 88a6e2f67cc94f751a74409ab4c21e5fc8ea6757 perf machine: Initialize machine->env to address a segfault
+951a3f59d268fe1397aaeb9a96fcb1944890c4cb btrfs: fix mount failure due to remount races
+9c803c474c6c002d8ade68ebe99026cc39c37f85 btrfs: fix missing snapshot drew unlock when root is dead during swap activation
+2eb75f86d52565367211c51334d15fe672633085 clk: en7523: Fix wrong BUS clock for EN7581
+52fd1709e41d3a85b48bcfe2404a024ebaf30c3b clk: en7523: Initialize num before accessing hws in en7523_register_clocks()
 5fc3a088ee2de55a6b39b7ee18484e01f377ab8a tools headers: Sync uapi/drm/drm.h with the kernel sources
 5229df8fb6796ff4aba39b16cf617028fa5d94b7 tools headers: Sync uapi/linux/perf_event.h with the kernel sources
 e2064b7c5d82651a418b86078597e51dea3f3123 tools headers: Sync uapi/linux/kvm.h with the kernel sources
@@ -56,6 +76,9 @@ c33aea446bf555ab2b4e06deb914ba8f87cdb068 perf tools: Fix precise_ip fallback log
 b04d86fff66b15c07505d226431f808c15b1703c tipc: fix NULL deref in cleanup_bearer()
 11776cff0b563c8b8a4fa76cab620bfb633a8cb8 net/mlx5: DR, prevent potential error pointer dereference
 f1d3334d604cc32db63f6e2b3283011e02294e54 wifi: cfg80211: sme: init n_channels before channels[] access
+c83d77eb0f216867e44da6b257b129582ba23287 btrfs: properly wait for writeback before buffered write
+c7c97ceff98cc459bf5e358e5cbd06fcb651d501 btrfs: handle bio_split() errors
+f10bef73fb355e3fc85e63a50386798be68ff486 btrfs: flush delalloc workers queue before stopping cleaner kthread during unmount
 cf3515c556907b4da290967a2a6cbbd9ee0ee723 selftests: mlxsw: sharedbuffer: Remove h1 ingress test case
 6c46ad4d1bb2e8ec2265296e53765190f6e32f33 selftests: mlxsw: sharedbuffer: Remove duplicate test cases
 5f2c7ab15fd806043db1a7d54b5ec36be0bd93b1 selftests: mlxsw: sharedbuffer: Ensure no extra packets are counted
@@ -75,6 +98,7 @@ b454abfab52543c44b581afc807b9f97fc1e7a3a net: mscc: ocelot: be resilient to loss
 43a4166349a254446e7a3db65f721c6a30daccf3 net: mscc: ocelot: perform error cleanup in ocelot_hwstamp_set()
 ab80e715b70a5d585c922862d70cee58de9cb3cd Merge branch 'ocelot-ptp-fixes'
 09310cfd4ea5c3ab2c7a610420205e0a1660bf7e rtnetlink: fix error code in rtnl_newlink()
+494b332064c0ce2f7392fa92632bc50191c1b517 tracing/eprobe: Fix to release eprobe when failed to add dyn_event
 1cd7523f4baaf03026974553978210dc39e96665 net: lan969x: fix cyclic dependency reported by depmod
 aa5fc889844ff9f920356c4b6535bf2c625457cd net: lan969x: fix the use of spin_lock in PTP handler
 f004f2e535e2b66ccbf5ac35f8eaadeac70ad7b7 net: sparx5: fix FDMA performance issue
@@ -102,6 +126,9 @@ c8f8d4344d50d72181207ee73175bba567c25f58 openrisc: Fix misalignments in head.S
 2b904d61a97e8ba79e3bc216ba290fd7e1d85028 ksmbd: retry iterate_dir in smb2_query_dir
 b95629435b84b9ecc0c765995204a4d8a913ed52 ksmbd: fix racy issue from session lookup and expire
 21e46a79bbe6c4e1aa73b3ed998130f2ff07b128 ksmbd: set ATTR_CTIME flags when setting mtime
+1594c49394ffb0a5a9c889276ea204f05c1d46e3 Merge tag 'probes-fixes-v6.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+5a087a6b17eeb64893b81d08d38e6f6300419ee5 Merge tag 'for-6.13-rc2-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+f92f4749861b06fed908d336b4dee1326003291b Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 24c6843b7393ebc80962b59d7ae71af91bf0dcc1 bnxt_en: Fix aggregation ID mask to prevent oops on 5760X chips
 bbe4b41259a3e255a16d795486d331c1670b4e75 Documentation: networking: Add a caveat to nexthop_compat_mode sysctl
 06d64ab46f19ac12f59a1d2aa8cd196b2e4edb5b tcp: check space before adding MPTCP SYN options
@@ -154,19 +181,5 @@ ad913dfd8bfacdf1d2232fe9f49ccb025885ef22 Merge tag 'for-net-2024-12-12' of git:/
 eefa7a9c069908412f8f5d15833901d1b46ae1b2 Merge tag 'for-linus' of https://github.com/openrisc/linux
 01abac26dccd77eddffec6b032e51f501714dee3 Merge tag 'perf-tools-fixes-for-v6.13-2024-12-12' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 f932fb9b40749d1c9a539d89bb3e288c077aafe5 Merge tag 'v6.13-rc2-ksmbd-server-fixes' of git://git.samba.org/ksmbd
-3d8cea166903f3bff80a5139e2ce238a4189e16f Merge branch 'hwmon-next' into hwmon-staging
-12ceb1d48d4b90324688e8e704d8768cbb085f3d Merge branch 'hwmon-tmp108' into hwmon-staging
-6612f7b978bfd3b396894daa5cf3a3422ef48268 Merge branch 'hwmon-spd5118-i3c' into hwmon-staging
-d6a9ba948e172ffafcaf69ae4c0d73276b498c81 Merge branch 'hwmon-energy' into hwmon-staging
-6f6b6965206856487b8d2548022cf5691c311532 Merge branch 'hwmon-g762' into hwmon-staging
-9551965542bbe31e45c5c50f49717b89846c5c8d Merge branch 'hwmon-emc2103' into hwmon-staging
-9f3f62b7ba4cf2ee8bc781263077067a525f4e05 staging: gpib: Make GPIB_NI_PCI_ISA depend on HAS_IOPORT
-b1387e32187de8660ba44125ae72a1fd1fd7504a tty: serial: Work around warning backtrace in serial8250_set_defaults
-539bc40b5f2d3db16734c9d9818b24eeb8d2162f locking/lockdep: Enforce PROVE_RAW_LOCK_NESTING only if ARCH_SUPPORTS_RT
-a5c3864a87e18d095e96624a9038ed275b4811c4 ARM: imx: Re-introduce the PINCTRL selection
-4b09df906fb6b4e1123ea6ccd7442317a6f16c69 Merge branch 'hwmon-max16065' into hwmon-staging
-282c74bb66b490056d605a6d41a48ebecdd8ca52 staging: gpib: Fix i386 build issue
-29b886da100241f2a2ab3808904b76fd2f1fd95b Merge branch 'hwmon-staging' into testing
-a2962f021028176580535303cbb7a1c0e1b24f74 Merge branch 'fixes-v6.13' into testing
 
---===============8403077283233586978==--
+--===============8682786359040050267==--
