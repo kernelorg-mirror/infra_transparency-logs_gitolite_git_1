@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7043619946716220665=="
+Content-Type: multipart/mixed; boundary="===============8403077283233586978=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Fri, 13 Dec 2024 17:43:17 -0000
-Message-Id: <173411179765.3580817.5117358021366192716@gitolite.kernel.org>
+Date: Fri, 13 Dec 2024 17:43:27 -0000
+Message-Id: <173411180759.3581033.1972474993927035566@gitolite.kernel.org>
 
---===============7043619946716220665==
+--===============8403077283233586978==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/master
-    old: f92f4749861b06fed908d336b4dee1326003291b
-    new: f932fb9b40749d1c9a539d89bb3e288c077aafe5
-    log: revlist-f92f4749861b-f932fb9b4074.txt
+  - ref: refs/heads/testing
+    old: 30ccd0a84a894cc9f4f37c9c850dbde84f6715da
+    new: a2962f021028176580535303cbb7a1c0e1b24f74
+    log: revlist-30ccd0a84a89-a2962f021028.txt
 
---===============7043619946716220665==
+--===============8403077283233586978==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f92f4749861b-f932fb9b4074.txt
+Content-Disposition: attachment; filename=revlist-30ccd0a84a89-a2962f021028.txt
 
 23c44f6c83257923b179461694edcf62749bedd5 perf tools: Fix build-id event recording
 f54cd8f43f55c0274c5b51509aff39675639c2e1 perf test: Don't signal all processes on system when interrupting tests
@@ -154,5 +154,19 @@ ad913dfd8bfacdf1d2232fe9f49ccb025885ef22 Merge tag 'for-net-2024-12-12' of git:/
 eefa7a9c069908412f8f5d15833901d1b46ae1b2 Merge tag 'for-linus' of https://github.com/openrisc/linux
 01abac26dccd77eddffec6b032e51f501714dee3 Merge tag 'perf-tools-fixes-for-v6.13-2024-12-12' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 f932fb9b40749d1c9a539d89bb3e288c077aafe5 Merge tag 'v6.13-rc2-ksmbd-server-fixes' of git://git.samba.org/ksmbd
+3d8cea166903f3bff80a5139e2ce238a4189e16f Merge branch 'hwmon-next' into hwmon-staging
+12ceb1d48d4b90324688e8e704d8768cbb085f3d Merge branch 'hwmon-tmp108' into hwmon-staging
+6612f7b978bfd3b396894daa5cf3a3422ef48268 Merge branch 'hwmon-spd5118-i3c' into hwmon-staging
+d6a9ba948e172ffafcaf69ae4c0d73276b498c81 Merge branch 'hwmon-energy' into hwmon-staging
+6f6b6965206856487b8d2548022cf5691c311532 Merge branch 'hwmon-g762' into hwmon-staging
+9551965542bbe31e45c5c50f49717b89846c5c8d Merge branch 'hwmon-emc2103' into hwmon-staging
+9f3f62b7ba4cf2ee8bc781263077067a525f4e05 staging: gpib: Make GPIB_NI_PCI_ISA depend on HAS_IOPORT
+b1387e32187de8660ba44125ae72a1fd1fd7504a tty: serial: Work around warning backtrace in serial8250_set_defaults
+539bc40b5f2d3db16734c9d9818b24eeb8d2162f locking/lockdep: Enforce PROVE_RAW_LOCK_NESTING only if ARCH_SUPPORTS_RT
+a5c3864a87e18d095e96624a9038ed275b4811c4 ARM: imx: Re-introduce the PINCTRL selection
+4b09df906fb6b4e1123ea6ccd7442317a6f16c69 Merge branch 'hwmon-max16065' into hwmon-staging
+282c74bb66b490056d605a6d41a48ebecdd8ca52 staging: gpib: Fix i386 build issue
+29b886da100241f2a2ab3808904b76fd2f1fd95b Merge branch 'hwmon-staging' into testing
+a2962f021028176580535303cbb7a1c0e1b24f74 Merge branch 'fixes-v6.13' into testing
 
---===============7043619946716220665==--
+--===============8403077283233586978==--
