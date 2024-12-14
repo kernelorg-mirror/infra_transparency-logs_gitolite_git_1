@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Sat, 14 Dec 2024 00:53:23 -0000
-Message-Id: <173413760361.3928616.5765775304870437854@gitolite.kernel.org>
+Date: Sat, 14 Dec 2024 00:53:26 -0000
+Message-Id: <173413760616.3928711.17230209298073627743@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 changes:
-  - ref: refs/tags/sent/20241213-arm64-fix-boot-cpu-smidr-386b8db292b2-v1
-    old: 0000000000000000000000000000000000000000
-    new: cccc8874705f7209da475881bc00cf31ec2246e3
+  - ref: refs/heads/arm64-fix-boot-cpu-smidr
+    old: 964521577ab659552fa18b66edbc5cf242c4321f
+    new: 806de389443d7d6f4220a7799cea9e5e0ff0c877
+    log: |
+         e2d0b356d43142f696a3cb065e9b983fc4f7ebff EDITME: cover title for arm64-fix-boot-cpu-smidr
+         806de389443d7d6f4220a7799cea9e5e0ff0c877 arm64/sme: Move storage of reg_smidr to __cpuinfo_store_cpu()
+         
