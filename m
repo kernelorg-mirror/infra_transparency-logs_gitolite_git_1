@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djiang/linux
-Date: Sat, 14 Dec 2024 00:07:46 -0000
-Message-Id: <173413486605.3891153.13064030828180760406@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Sat, 14 Dec 2024 00:30:37 -0000
+Message-Id: <173413623765.3909714.15071553978460626398@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djiang/linux
-user: djiang
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: ast
 changes:
-  - ref: refs/heads/cxl/features
-    old: ceb85385adc5343eecef0892a79718000ecc3d68
-    new: a15eb40da49a3fbce5c1344e6ad31c9693da8d4b
+  - ref: refs/heads/master
+    old: e4c80f69758e5088e8aae48f3d6abb41c6da7812
+    new: a8e1a3ddf7246cd43c93e5459fcc1b4989853a06
     log: |
-         ba7ecf5af49632d04ce470c04f49385cd0dd4e86 cxl/mbox: Add GET_FEATURE mailbox command
-         0a52f2b6ab7e92b26b5ca9cbdc310a18add16ad6 cxl/mbox: Add SET_FEATURE mailbox command
-         a15eb40da49a3fbce5c1344e6ad31c9693da8d4b cxl: Setup exclusive CXL features that are reserved for the kernel
+         c00d738e1673ab801e1577e4e3c780ccf88b1a5b bpf: Revert "bpf: Mark raw_tp arguments with PTR_MAYBE_NULL"
+         838a10bd2ebfe11a60dd67687533a7cfc220cc86 bpf: Augment raw_tp arguments with PTR_MAYBE_NULL
+         0da1955b5bd2af3a1c3d13916df06e34ffa6df3d selftests/bpf: Add tests for raw_tp NULL args
+         a8e1a3ddf7246cd43c93e5459fcc1b4989853a06 Merge branch 'explicit-raw_tp-null-arguments'
          
