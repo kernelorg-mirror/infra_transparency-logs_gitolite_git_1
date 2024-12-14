@@ -1,59 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============9194401731707396246=="
+Content-Type: multipart/mixed; boundary="===============2744369575657523215=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Sat, 14 Dec 2024 10:39:35 -0000
-Message-Id: <173417277543.199546.1292649010140144688@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Sat, 14 Dec 2024 10:41:21 -0000
+Message-Id: <173417288148.202369.691275517498846604@gitolite.kernel.org>
 
---===============9194401731707396246==
+--===============2744369575657523215==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
 user: krzk
 git_push_cert_status: Y
 changes:
   - ref: refs/heads/for-next
-    old: b04bf13919e83a75bf221f5b78e66ee77a03f7c4
-    new: d8b975e5612e880010fbb12dbc85b5e98231b80e
+    old: df8e78607d4795806b59564ba7a3e2e125d119fc
+    new: ef683ac22848716b761a676337c845d9db93a784
     log: |
-         5feae3e79dbe2d357b223fc48ae907ba0aedb271 dt-bindings: clock: samsung: Add Exynos990 SoC CMU bindings
-         4a450ed26c580316d720154e7ffb5e9b4763a11a clk: samsung: clk-pll: Add support for pll_{0717x, 0718x, 0732x}
-         bdd03ebf721f70df1458a720b25998a489f63297 clk: samsung: Introduce Exynos990 clock controller driver
-         d8b975e5612e880010fbb12dbc85b5e98231b80e Merge branch 'next/clk' into for-next
+         5119e6b44f8ada5f5cea19935a7f005fee062aef memory: omap-gpmc: deadcode a pair of functions
+         ef683ac22848716b761a676337c845d9db93a784 Merge branch 'mem-ctrl-next' into for-next
+         
+  - ref: refs/heads/mem-ctrl-next
+    old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
+    new: 5119e6b44f8ada5f5cea19935a7f005fee062aef
+    log: |
+         5119e6b44f8ada5f5cea19935a7f005fee062aef memory: omap-gpmc: deadcode a pair of functions
          
 
---===============9194401731707396246==
+--===============2744369575657523215==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1734172802 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1734172772-696a138ecfa6d1d165823705bf361bc0b4d7ef8e
+pusher krzk@kernel.org 1734172908 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
+nonce 1734172879-d80ea799394dd1e8064d31dfb54cb21e5c0f84ff
 
-b04bf13919e83a75bf221f5b78e66ee77a03f7c4 d8b975e5612e880010fbb12dbc85b5e98231b80e refs/heads/for-next
+df8e78607d4795806b59564ba7a3e2e125d119fc ef683ac22848716b761a676337c845d9db93a784 refs/heads/for-next
+40384c840ea1944d7c5a392e8975ed088ecf0b37 5119e6b44f8ada5f5cea19935a7f005fee062aef refs/heads/mem-ctrl-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmddYIIQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1yxBEACUGdHG5hQIlSi6VA3jKPHXcXmHrg/tHjcZ
-nVoBaD2XqIfeRhJgkjuTxRQQ9a7ZhkGYdKB+d3xZChb6ScybHu/NW+RriKNeBdzS
-8YRkKbrakZiN1fzJFUOLHUafH+IjrizvWQ0HcLDziQ6eUEyx88CsQBhZeIhgNDGC
-w9upfAw9R+pLL8Lengy/vA6+djoOm6FRCG4ey4ptYITtTYASO/6rNFVj1JRBkdjg
-MgpRsNazohPyBl/etMtE1Z5yzR5uoC2EV9b7kmLc8B364GE62ViSaSRcL0NBvJy4
-h7gmDRWaL8ZDfxatXVoNAvdxPja0yLXGWKbwF8YoEWE9RWd1T4xCMqIqIkD0v0vT
-9gJQjYHxn8uP1GSgleMtA68Nh+DOGCxyK9fH6sP45txQ94Wn8Pw/dOmVzR2ksOov
-rDlg0KGQFPfUTqg3kif+zmreokNCpXgnGjYd0bUKcmVdpBFOSkEVPH3t169sVYIK
-JrP42A+ImU3l5DrmTPPJd3JYW0GVbnXpp85gKo+QCZC5JbevHU8Lh4K7EA8G+vsQ
-IF037fOIi6wq0xnHBBrE6MB/eRpM5S//vCmGXX/ig7XPpZgdA/CvWHuosQpwWnGL
-iF73D9fRs2vhCDfCtaJ+Ia0wBeltuDT37T1OQW77ztp1u05/101Gy26M+x0I79c/
-Mfz+V98rkg==
-=mA58
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmddYOwQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD10cED/9UT7GlN8IMlsZo1wbL/AoK4PhGKFiLpmIg
+tKINaicnKhhkUhdlGOA2CvzW5I7IDXjwI29KZnyhrmD3GR2+Q/gXq0yqQ6x3agVE
+jd6OD1Nx30lNUQZu6RCZabnVme29RyzCR7nX3bX1l0gPQoUpIfWYdf4F+m+DyiYu
+Pt9wGtoZNxlvmjICOX7wPA51RlFQeRKJvMfLERM0A1UHn3AXHPJ1SaSWJ3FznElN
+Jvp/JozHcWYhnz3MiAoD1NvKrmQhEBxfFy5LIJb6RlJNzxbHGKN2+6YKgFCBbKWX
+i00Wa7yRYvYjiC/EQJXpxAjCd+1Bg+kxE4jkxksCJVBUPW43W9jefOqgPpjKLdLQ
+KWqCb5MoZ+VfqSKuRYdpEUs0Iggc+5x0LiRnzQaCetU1/urZfp//Gj25L5WZwklv
+GyeIIp3rM+RsfJc4Tai+C19Y+jhuxoyzuwGvNadHIzLKlKZjtXN9hXnzAPVYEx1R
+BHL80FbIC+rmy9CJ2jhDt7u1Y06zZ255aKZs2fJZlAcSMpejPOSnDAe1WD32OMJe
+dT+LAuIKF2c/y1IxNDJtZzbz2Pj+0hNb1bLEf+IUns/riXmBTrEQQQPy6Bv12PEl
+o2ULXmCmrcfSgkuBnwR6xgJANXHlnzqO/LSyYnSssdVdCZMH2vWsTogVBxEkmQNy
+p1ohl2LJpg==
+=qDI/
 -----END PGP SIGNATURE-----
 
---===============9194401731707396246==--
+--===============2744369575657523215==--
