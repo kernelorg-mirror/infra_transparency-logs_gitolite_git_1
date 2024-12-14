@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 14 Dec 2024 18:26:31 -0000
-Message-Id: <173420079137.617962.10291770551417252672@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sat, 14 Dec 2024 18:31:02 -0000
+Message-Id: <173420106298.622126.15069852934914214561@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/heads/fixes-togreg
-    old: 54d394905c92b9ecc65c1f9b2692c8e10716d8e1
-    new: 377254dcbdfc9e18093d34732f963510bbd2b7f2
+  - ref: refs/heads/sched/urgent
+    old: 76f2f783294d7d55c2564e2dfb0a7279ba0bc264
+    new: c7f7e9c73178e0e342486fd31e7f363ef60e3f83
     log: |
-         377254dcbdfc9e18093d34732f963510bbd2b7f2 iio: adc: ad7606: Fix hardcoded offset in the ADC channels
+         b53127db1dbf7f1047cf35c10922d801dcd40324 sched/dlserver: Fix dlserver double enqueue
+         c7f7e9c73178e0e342486fd31e7f363ef60e3f83 sched/dlserver: Fix dlserver time accounting
          
