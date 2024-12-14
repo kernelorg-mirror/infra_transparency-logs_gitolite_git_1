@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6672721723708964139=="
+Content-Type: multipart/mixed; boundary="===============7106896487910045677=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 14 Dec 2024 12:00:38 -0000
-Message-Id: <173417763857.264453.9653024021387337637@gitolite.kernel.org>
+Date: Sat, 14 Dec 2024 12:16:52 -0000
+Message-Id: <173417861207.276708.11840975507037320055@gitolite.kernel.org>
 
---===============6672721723708964139==
+--===============7106896487910045677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/togreg
-    old: 582d732bf689dea68f002d4f05a0b9485326e8f0
-    new: 4d112ebd02d10faf202aa8335b06de0aca8b536b
-    log: revlist-582d732bf689-4d112ebd02d1.txt
+  - ref: refs/heads/testing
+    old: 5ab39233382c621d3271cc274d1534e1b687f4d3
+    new: a3fb9f5202c3de0ca84848a475f59a0e0584d9fc
+    log: revlist-5ab39233382c-a3fb9f5202c3.txt
 
---===============6672721723708964139==
-Content-Type: text/plain; charset="utf-8"
+--===============7106896487910045677==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-582d732bf689-4d112ebd02d1.txt
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5ab39233382c-a3fb9f5202c3.txt
 
-56f8c1759be90f139056a61328ffbf168cef895f iio: proximity: aw96103: Constify struct iio_info​
-a8ec0b44c7c5116805f252da624264652be1de71 iio: kx022a: document new chip_info structure members
 a34dc289f89ecc4e967dfe6ec742aafdc5ae62f6 iio: adc: rzg2l_adc: Convert dev_err() to dev_err_probe()
 b010b104673013b0075c94b4f9ae2f990f8351e9 iio: adc: rzg2l_adc: Use devres helpers to request pre-deasserted reset controls
 89ee8174e8c8db0efc75b26f2307114b38d61354 iio: adc: rzg2l_adc: Simplify the runtime PM code
@@ -66,5 +64,6 @@ fc8f6300954966ca0c826d33ae6b4a4de1d8419a iio: adc: ad4000: Use device specific t
 c3948d09008085993eda43d687993f79b55aacda iio: adc: ad4000: Add support for PulSAR devices
 031bdc8aee01b7b298159eee541844d8bff4467d iio: adc: ad7173: add calibration support
 4d112ebd02d10faf202aa8335b06de0aca8b536b iio: adc: ad-sigma-delta: Document ABI for sigma delta adc
+a3fb9f5202c3de0ca84848a475f59a0e0584d9fc iio: accel: adxl345: add function to switch measuring mode
 
---===============6672721723708964139==--
+--===============7106896487910045677==--
