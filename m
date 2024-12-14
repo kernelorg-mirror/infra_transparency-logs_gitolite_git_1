@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8641120664160619457=="
+Content-Type: multipart/mixed; boundary="===============9194401731707396246=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Sat, 14 Dec 2024 10:39:19 -0000
-Message-Id: <173417275991.198687.17036673168056895288@gitolite.kernel.org>
+Date: Sat, 14 Dec 2024 10:39:35 -0000
+Message-Id: <173417277543.199546.1292649010140144688@gitolite.kernel.org>
 
---===============8641120664160619457==
+--===============9194401731707396246==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,44 @@ repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/next/clk
-    old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    new: bdd03ebf721f70df1458a720b25998a489f63297
+  - ref: refs/heads/for-next
+    old: b04bf13919e83a75bf221f5b78e66ee77a03f7c4
+    new: d8b975e5612e880010fbb12dbc85b5e98231b80e
     log: |
          5feae3e79dbe2d357b223fc48ae907ba0aedb271 dt-bindings: clock: samsung: Add Exynos990 SoC CMU bindings
          4a450ed26c580316d720154e7ffb5e9b4763a11a clk: samsung: clk-pll: Add support for pll_{0717x, 0718x, 0732x}
          bdd03ebf721f70df1458a720b25998a489f63297 clk: samsung: Introduce Exynos990 clock controller driver
+         d8b975e5612e880010fbb12dbc85b5e98231b80e Merge branch 'next/clk' into for-next
          
-  - ref: refs/heads/for-v6.14/dt-bindings-clk-samsung
-    old: 0000000000000000000000000000000000000000
-    new: 5feae3e79dbe2d357b223fc48ae907ba0aedb271
 
---===============8641120664160619457==
+--===============9194401731707396246==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1734172786 +0100
+pusher krzk@kernel.org 1734172802 +0100
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1734172757-58ead49ec7090ac6ce6ba7c2b052666bfb92904a
+nonce 1734172772-696a138ecfa6d1d165823705bf361bc0b4d7ef8e
 
-40384c840ea1944d7c5a392e8975ed088ecf0b37 bdd03ebf721f70df1458a720b25998a489f63297 refs/heads/next/clk
-0000000000000000000000000000000000000000 5feae3e79dbe2d357b223fc48ae907ba0aedb271 refs/heads/for-v6.14/dt-bindings-clk-samsung
+b04bf13919e83a75bf221f5b78e66ee77a03f7c4 d8b975e5612e880010fbb12dbc85b5e98231b80e refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmddYHIQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD19BxEACXgj+4xbbKexL/41rb7hYAanJb/0CNprn2
-0K6+BLUOGDV1ud2gw0u0QvdwLahf96g46I3j688wsjT9HthHYjSpzrjmYNQW77KE
-gViQqHv9SwX7nrocAZ4xetOhPPx8IgXIynghz91P4RsYIN1GE0uymbLchS/VRFFu
-gkGjKtnT8OvojLdEiW0OdFAdvh050dotILj8h8sSp/azbrjfMrMAs3k9axtQEZSo
-vhjqolMr28xEyb0jyITmFo6OE3zlmdRXxvzsnaOpqpyA7iCNk/EbXHRvh+hU47H3
-LRDIj09kAwCOkH7HBbhWIBG8darEjpdVlfTuZ/2z1DbyUkb3tXp+hUYnrYDLVWaQ
-0jm0hq340EV/A+5xdO8vNPMXZ/TOY576uUpkyt+AgxC1NTzKS5xT05mkWUfn8ARO
-ooaOfSUtAt2LV6HMBbTUfeVwwKC6vU5YSvXO33APtQ5R+vKACbqXPteA/8prpO7G
-0omVTJttsXH9yKy+VFGZscaCplwYB/eICJgVpa8c4u3m7d3ihSRjn+gEPyjQ5S/I
-DEmlSA6U+6ZumggxErVlTMDn45GI8eD5/c5FomGeEIRp2nsCCl72mR4DIszI4xY4
-OsxLEshc3EPPWZuV0hCzCRMDKC7kQceQIMsSzmFXtKxAFWx022hVSFDXCyuhWcG4
-BBRvy0s7Wg==
-=KAGo
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmddYIIQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1yxBEACUGdHG5hQIlSi6VA3jKPHXcXmHrg/tHjcZ
+nVoBaD2XqIfeRhJgkjuTxRQQ9a7ZhkGYdKB+d3xZChb6ScybHu/NW+RriKNeBdzS
+8YRkKbrakZiN1fzJFUOLHUafH+IjrizvWQ0HcLDziQ6eUEyx88CsQBhZeIhgNDGC
+w9upfAw9R+pLL8Lengy/vA6+djoOm6FRCG4ey4ptYITtTYASO/6rNFVj1JRBkdjg
+MgpRsNazohPyBl/etMtE1Z5yzR5uoC2EV9b7kmLc8B364GE62ViSaSRcL0NBvJy4
+h7gmDRWaL8ZDfxatXVoNAvdxPja0yLXGWKbwF8YoEWE9RWd1T4xCMqIqIkD0v0vT
+9gJQjYHxn8uP1GSgleMtA68Nh+DOGCxyK9fH6sP45txQ94Wn8Pw/dOmVzR2ksOov
+rDlg0KGQFPfUTqg3kif+zmreokNCpXgnGjYd0bUKcmVdpBFOSkEVPH3t169sVYIK
+JrP42A+ImU3l5DrmTPPJd3JYW0GVbnXpp85gKo+QCZC5JbevHU8Lh4K7EA8G+vsQ
+IF037fOIi6wq0xnHBBrE6MB/eRpM5S//vCmGXX/ig7XPpZgdA/CvWHuosQpwWnGL
+iF73D9fRs2vhCDfCtaJ+Ia0wBeltuDT37T1OQW77ztp1u05/101Gy26M+x0I79c/
+Mfz+V98rkg==
+=mA58
 -----END PGP SIGNATURE-----
 
---===============8641120664160619457==--
+--===============9194401731707396246==--
