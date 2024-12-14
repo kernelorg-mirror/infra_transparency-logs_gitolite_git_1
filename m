@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8427373521350588884=="
+Content-Type: multipart/mixed; boundary="===============7185608407583283989=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sat, 14 Dec 2024 02:52:31 -0000
-Message-Id: <173414475169.4024419.2286605907020966149@gitolite.kernel.org>
+Date: Sat, 14 Dec 2024 02:52:44 -0000
+Message-Id: <173414476406.4024676.2095913798754638635@gitolite.kernel.org>
 
---===============8427373521350588884==
+--===============7185608407583283989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/master
-    old: f932fb9b40749d1c9a539d89bb3e288c077aafe5
-    new: a446e965a188ee8f745859e63ce046fe98577d45
-    log: revlist-f932fb9b4074-a446e965a188.txt
+  - ref: refs/heads/testing
+    old: a2962f021028176580535303cbb7a1c0e1b24f74
+    new: 1687ad473fd6a4743ed5ef319787fda9d857117f
+    log: revlist-a2962f021028-1687ad473fd6.txt
 
---===============8427373521350588884==
+--===============7185608407583283989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f932fb9b4074-a446e965a188.txt
+Content-Disposition: attachment; filename=revlist-a2962f021028-1687ad473fd6.txt
 
 70327137eb3eb64f346191dcd0ee5140d5ab34d8 gpio: GPIO_MVEBU should not default to y when compile-testing
 265e98f72bac6c41a4492d3e30a8e5fd22fe0779 acpi: nfit: vmalloc-out-of-bounds Read in acpi_nfit_ctl
@@ -159,5 +159,19 @@ e72da82d5a6deec67a680434e1f19ba3996fbb11 Merge tag 'drm-fixes-2024-12-14' of htt
 4e1b4861a28841afc3ec4c192845feb411953d56 Merge tag 'regulator-fix-v6.13-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 f86135613a2552b1e6c0875726f45b34b0ddd5a6 Merge tag 'spi-fix-v6.13-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 a446e965a188ee8f745859e63ce046fe98577d45 Merge tag '6.13-rc2-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
+fc960d04e2cd38a68602f9ef65eb0d8bc379b57d Merge branch 'hwmon-next' into hwmon-staging
+7d9f9bf0f9e861d34748dc0eff63749580f07a03 Merge branch 'hwmon-tmp108' into hwmon-staging
+f8048bf364b942f0421dc385dc04c4f795bdfdad Merge branch 'hwmon-spd5118-i3c' into hwmon-staging
+ab93fe03e75dfdd35f9e113a0d24eb475791581e Merge branch 'hwmon-energy' into hwmon-staging
+5be53a234d03f84e4ca2809bbf4e2532b81291c7 Merge branch 'hwmon-g762' into hwmon-staging
+f37e99a5846eaed05b1a15134a6b4b91ead957f7 Merge branch 'hwmon-emc2103' into hwmon-staging
+d09f81c7174759e66134fd56edd1f985c86d5f83 Merge branch 'hwmon-max16065' into hwmon-staging
+3cbfda044a8063a85111d0d93eab698fa3059120 staging: gpib: Make GPIB_NI_PCI_ISA depend on HAS_IOPORT
+855787da46a9aa4e9a70f386ae49b6d792c26807 tty: serial: Work around warning backtrace in serial8250_set_defaults
+09e363adefd057cdc6a880474b6880dac3aa9036 locking/lockdep: Enforce PROVE_RAW_LOCK_NESTING only if ARCH_SUPPORTS_RT
+7f743364c172fd69da5f93b30d0ec4d560fb71ab ARM: imx: Re-introduce the PINCTRL selection
+9676af428be9bd343ff298cb79691da9bdae427d staging: gpib: Fix i386 build issue
+b546a518ebd9ca5b439aaa79abe67baaeaac9c3d Merge branch 'hwmon-staging' into testing
+1687ad473fd6a4743ed5ef319787fda9d857117f Merge branch 'fixes-v6.13' into testing
 
---===============8427373521350588884==--
+--===============7185608407583283989==--
