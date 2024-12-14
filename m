@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Sat, 14 Dec 2024 03:20:08 -0000
-Message-Id: <173414640871.4048278.17697280676254762201@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
+Date: Sat, 14 Dec 2024 03:25:32 -0000
+Message-Id: <173414673268.4052616.4516855051360341051@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+user: sre
 changes:
-  - ref: refs/tags/v1.8.3
-    old: 0000000000000000000000000000000000000000
-    new: ac194207e7f1796c78c5df13ab9fca4d4b088e6e
+  - ref: refs/heads/for-next
+    old: 57e5a9a85bd03d8cc4992cb2e15ca23450e016c4
+    new: 9d76d5de87bbf03c6e483565030b562dc42c7bff
+    log: |
+         6037802bbae892f3ad0c7b4c4faee39b967e32b0 power: supply: core: implement extension API
+         9d76d5de87bbf03c6e483565030b562dc42c7bff power: supply: test-power: implement a power supply extension
+         
