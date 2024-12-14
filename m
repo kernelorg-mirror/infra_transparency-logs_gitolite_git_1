@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1517899931423695649=="
+Content-Type: multipart/mixed; boundary="===============4577248797904591462=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sat, 14 Dec 2024 14:38:42 -0000
-Message-Id: <173418712277.385180.5036481499961536335@gitolite.kernel.org>
+Date: Sat, 14 Dec 2024 14:38:48 -0000
+Message-Id: <173418712822.385343.15578903863528107928@gitolite.kernel.org>
 
---===============1517899931423695649==
+--===============4577248797904591462==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/char-misc-linus
     old: cdd30ebb1b9f36159d66f088b61aee264e649d7a
     new: a446e965a188ee8f745859e63ce046fe98577d45
     log: revlist-cdd30ebb1b9f-a446e965a188.txt
 
---===============1517899931423695649==
+--===============4577248797904591462==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1734187150 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1734187156 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1734187121-6f2a07b6cb0d452e19850fa48f38575f4c80f752
+nonce 1734187126-401748ff7d317efca5ab55fc1d263e6711dd33ae
 
-cdd30ebb1b9f36159d66f088b61aee264e649d7a a446e965a188ee8f745859e63ce046fe98577d45 refs/heads/main
+cdd30ebb1b9f36159d66f088b61aee264e649d7a a446e965a188ee8f745859e63ce046fe98577d45 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmddmI4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+E/EP/ifET4DUJB5T+PP6V00N
-DV3lpyKLIl2ofhTZR9k5q57yWIJ72uJGcqOI7FjfHRgcrUMFPsgMRY3M1zc7K01P
-LzuEDdhujG9fU/uX5amDGaX5tivBB5M+Qy8R9JDk+PWmdo9Wc4++HLOZMaU4Q8aK
-rw9YBvhhCy31BLIbPRnukDuSpNuyAW/tP7fadKjXiJFPBIsubM16JECdcgVePX1I
-ntSOtAb26fiPMkXFUy99nHnpW2Ix/SSyGAoGGbv9bXDBvh8iPaPfKjHy6ohpWg9l
-7cpgVMHxgjPUNcEcVrhZR21CRAVCrkXX6FqBO/6Q25t/ybtaESuoY9ZGGpBEuEsu
-mvYkG4pKuhbdfseJxi3IfGRZHqdJgbpUFNrP/DN5O5sesdJhK+oQoyyAsebXIHet
-3mVGNe8H09cfzbQDFbNI+EeGOpN0iJlGPtGlAW6GQBTjL0I66dnsMZPUj6HAQpBW
-TVmfgUWjYF+Rv6PA9Q4kPfISbGP67oXcDMCUyaisgN1WeCOn6Z33zo+DkUhgNLwI
-N+ys8vbKQJMtbgF+a3JQhHGeN1aL0v2U5227vHqRa6XG1aHdXQPu6Dxgwnrrxq+s
-zs5Ah13+wc+BgiRA4xsNxwq/5cCIRf6YCZj2X4bLyCCbLEjRkTfOysUPFuaPeCDP
-t45GtAhuE5QF927muyYjHqvF
-=2N0O
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmddmJQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BIsP/1sB0dLfrL3tB7+x6rc5
+HcD3Ac8Pb7unezu+qRCYW6cvtCVa6ijiYslFRNGX1GU3tmDDwEjxvkiyCfcblMtC
+UmgeKk5Pe9PrRDmpS5WRZzSTAG8x2ohuu008HXr7rSTZZaOh3HO4rDiZpvOjpzoV
+IueM0EmFIVl7qgy0An5OdF9phyHkSjv3yqWNEhgQpXCSOD4h6c7LbMlCRUGwM9Sw
+MAAugHkl752Vob6cIi8H0LriFkud3+L+FQTSoF6nXFQWYdp0kqmAr6Jxd9lIyVun
+GTK4+5i/JvO02+m6tYKHCsiqUMKI7I5XDC23/Q0RQzHz1Vy8fpLGq7tzsBnVuKdA
+DpQ5WGW1Tb1iOPjPOK2MvqDUdR86vKbc5MLyaLXLRyF5i0PY6Fb+BGAlLHs70UFN
+WemWWgU8Rss4fiROAu91zCSR4iN7+tIp/8o0uSFgEKRqf6g4F2jYaxRE+NG4/7ds
+J9Si7tEq9NMtxgbI24bSAiNwfYsBqjZ/yI5lIKGtlatm8MekwKePSOo4F3lxT2jg
+zBFuupr9Tx5avFTvz7aIzOu3dL8FRr4Uh1DzKBZuEkwBzmMWyQIV2soMzn15moXR
+0cIJiBIiu8Zg97hFwxchX7zkNKPc8zD4DCIArq47+HXqtC72wvKUtDYHxlAFD2s/
+444U9D76ovWKHZ5ruQc2Z0/k
+=7uNd
 -----END PGP SIGNATURE-----
 
---===============1517899931423695649==
+--===============4577248797904591462==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -772,4 +772,4 @@ e72da82d5a6deec67a680434e1f19ba3996fbb11 Merge tag 'drm-fixes-2024-12-14' of htt
 f86135613a2552b1e6c0875726f45b34b0ddd5a6 Merge tag 'spi-fix-v6.13-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 a446e965a188ee8f745859e63ce046fe98577d45 Merge tag '6.13-rc2-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 
---===============1517899931423695649==--
+--===============4577248797904591462==--
