@@ -1,51 +1,67 @@
-Content-Type: multipart/mixed; boundary="===============4124597475662658767=="
+Content-Type: multipart/mixed; boundary="===============8162732793022428374=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-Date: Sat, 14 Dec 2024 09:25:17 -0000
-Message-Id: <173416831730.142696.13822881274097178076@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-w1
+Date: Sat, 14 Dec 2024 10:06:42 -0000
+Message-Id: <173417080270.174203.4682700316861119864@gitolite.kernel.org>
 
---===============4124597475662658767==
+--===============8162732793022428374==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-user: herbert
+repo: pub/scm/linux/kernel/git/krzk/linux-w1
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/master
-    old: f04be1dddc70fcdd01497d66786e748106271eb6
-    new: f916e44487f56df4827069ff3a2070c0746dc511
-    log: revlist-f04be1dddc70-f916e44487f5.txt
+  - ref: refs/heads/w1-next
+    old: 5f69c091a6c0001ffade8bc00c1d33e1e224a2e7
+    new: 0f28374e99a46bfb5ece60af0791ccc840a6aa89
+    log: |
+         699e5f2f28c8f68ae3d3f58ba99f711b006c355b w1: Constify 'struct bin_attribute'
+         edc52050f81c5d190e7e4e7cfd1b8a6a401b394d w1: ds2406: Constify 'struct bin_attribute'
+         492772838ddfd266fac83a8f47e44ee28c8d414b w1: ds2408: Constify 'struct bin_attribute'
+         f597a4ce8c91dab3a192b2615769b54450031ce0 w1: ds2413: Constify 'struct bin_attribute'
+         be0d277fd319e1e702f325757e6fa208945d745e w1: ds2430: Constify 'struct bin_attribute'
+         86b04e4dcf8ae443aef9f871874120260d89a7ee w1: ds2431: Constify 'struct bin_attribute'
+         1398800d8274afe138361a803c900ad563c32bb1 w1: ds2433: Constify 'struct bin_attribute'
+         83544525d1ab7bade074e6a41cb5d6211b2efa0d w1: ds2438: Constify 'struct bin_attribute'
+         4a68c8530fcaf12f977db89d25340d2a233d3177 w1: ds2780: Constify 'struct bin_attribute'
+         c797bbdac5dc5d695d56a50845f5cce25122e99a w1: ds2781: Constify 'struct bin_attribute'
+         0ef2a9b2439a119508b7b80e1024f0d19dd0c7dc w1: ds2805: Constify 'struct bin_attribute'
+         0f28374e99a46bfb5ece60af0791ccc840a6aa89 w1: ds28e04: Constify 'struct bin_attribute'
+         
 
---===============4124597475662658767==
+--===============8162732793022428374==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f04be1dddc70-f916e44487f5.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-5278275c1758a38199b43530adfc50098f4b41c7 crypto: qce - fix goto jump in error path
-e80cf84b608725303113d6fe98bb727bf7b7a40d crypto: qce - unregister previously registered algos in error path
-d66b1ab3554672750010ae96b651f431da6b687f crypto: qce - remove unneeded call to icc_set_bw() in error path
-6bca1f0cadc45f3e16e074d3fba7da9cf0f56f80 crypto: qce - shrink code with devres clk helpers
-cf96b0d6fbc9f92451a071a98b527021196bf7d6 crypto: qce - convert qce_dma_request() to use devres
-c151535cf46fd0b6cc34884762dd1610c628bac1 crypto: qce - make qce_register_algs() a managed interface
-ce8fd0500b741b3669c246cc604f1f2343cdd6fd crypto: qce - use __free() for a buffer that's always freed
-eb7986e5e14d3db69e387da2c8bcef92b4c1a625 crypto: qce - convert tasklet to workqueue
-3382c44f0c6fb26469b1df75575643c68c421291 crypto: qce - switch to using a mutex
-f1e532d05aa615d7c9a6c430190261ca35c0367a crypto: ccp - Use scoped guard for mutex
-49b9258b05b97c6464e1964b6a2fddb3ddb65d17 crypto: qce - fix priority to be less than ARMv8 CE
-9cda46babdfed9804214b1eecb4219786d91c9c7 crypto: n2 - remove Niagara2 SPU driver
-07d58e0a60f70b3cc176c9427d1ea856d1756820 crypto: skcipher - remove support for physical address walks
-8d90528228adcc091b41244fab4d0003d59bdba4 crypto: anubis - stop using cra_alignmask
-6c178fd66b4de03101fefe91e1a987052051add2 crypto: aria - stop using cra_alignmask
-5e252f490c1c2c989cdc2ca50744f30fbca356b4 crypto: tea - stop using cra_alignmask
-7e0061586f1d6a38641a2f444855c1ddeb10d17e crypto: khazad - stop using cra_alignmask
-047ea6d85ee32c768ceec9a3ad6b7f403971aa63 crypto: seed - stop using cra_alignmask
-a6185842d1b8e7ef5a1a239f26361a39cc291a0b crypto: x86 - remove assignments of 0 to cra_alignmask
-5478ced4783cfc84ee5f0a4945ce61e8d111bef9 crypto: aegis - remove assignments of 0 to cra_alignmask
-f916e44487f56df4827069ff3a2070c0746dc511 crypto: keywrap - remove assignment of 0 to cra_alignmask
+certificate version 0.1
+pusher krzk@kernel.org 1734170829 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-w1.git
+nonce 1734170800-514a0a787d01b5e2054ff8b855e4e70a14705bc7
 
---===============4124597475662658767==--
+5f69c091a6c0001ffade8bc00c1d33e1e224a2e7 0f28374e99a46bfb5ece60af0791ccc840a6aa89 refs/heads/w1-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmddWM0QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1/4ID/0Urqq9sdV2jCQcupRoj9F0iBb9sJmiEYpr
+ZlGEWSjpSyeDPYkZktFi22IliBo0TBSotmQiUnWMVjNgi0fykTOQcXb9aCvxrRvf
+PR9jUI4F6UYU1KDIzi1SSimz2JBnzzY+7pakwZ5ZAyMbicNDEhfCJhSQ1DnrorFI
+iavzOorJxhH9tHCznSEBN1fNmUUkLi+ZoXudUNlP5SR2LaAE5YY93s2C8dCwtmZi
+eDUK6qgqItJiLOed+3NUvuqG9aSQeejhvWc95SccOxDZZfFTNZPFbqJybm3/NRSg
+WMaczzDU1MnRJo7iEPL5hu6QWW9Jk3w2FXqwWxOLOBfCqEJeqrmcg6mU1vYv0ga5
+ZFPnE2MfpNpodAaq6/hiBWzvSdVaTY0btbakSPsecW3jhY8nPYUh1kU4iHl0gKWZ
+zWHt0OYJrMXdUdmoU7cUX6Do4VvQdKTBr/V01oMTF73EJeLlmnEd7pqL7+suAckh
+t6ZPUyiNHd3G1XIif6iY2LzpMnGURSK/Ev6yrF3pQP+4hpapilOPi6k5I3QOYDhw
+Pi5ZF2juzUIdFe+hixoB8HWgLIcxW9cgBa0nX3GqNOfdN/DTm6gNTFExWAGtTGYV
+IUEChCPrgB7h40ZsUCuPFbpvH328pmQjRf09SXA0PCYG4EQdr7x5XG4zEgDqQvrF
+BLyt4Su69g==
+=xK/Q
+-----END PGP SIGNATURE-----
+
+--===============8162732793022428374==--
