@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2219182205960161202=="
+Content-Type: multipart/mixed; boundary="===============1364821821378072583=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Sat, 14 Dec 2024 10:47:47 -0000
-Message-Id: <173417326761.207367.17475238962550979247@gitolite.kernel.org>
+Date: Sat, 14 Dec 2024 10:49:09 -0000
+Message-Id: <173417334909.207971.18399767063694521510@gitolite.kernel.org>
 
---===============2219182205960161202==
+--===============1364821821378072583==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,43 @@ repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/next/dt64
-    old: 8749e19c133e6790254252d6dc4fd16d67f7edee
-    new: de7a4e01055b040b303d01d709262b7ce9d818ff
+  - ref: refs/heads/for-next
+    old: d8b975e5612e880010fbb12dbc85b5e98231b80e
+    new: 51a4b945a726c649560ebdf7a5e044f998138d53
     log: |
+         8749e19c133e6790254252d6dc4fd16d67f7edee arm64: dts: exynos8895: Add a PMU node for the second cluster
          de7a4e01055b040b303d01d709262b7ce9d818ff arm64: dts: exynosautov920: Add DMA nodes
+         51a4b945a726c649560ebdf7a5e044f998138d53 Merge branch 'next/dt64' into for-next
          
 
---===============2219182205960161202==
+--===============1364821821378072583==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1734173294 +0100
+pusher krzk@kernel.org 1734173376 +0100
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1734173265-bb18958ed228b36067304dab16035c05242bea23
+nonce 1734173347-6e3d996b58373b7189884cee2c4aefcfc3061232
 
-8749e19c133e6790254252d6dc4fd16d67f7edee de7a4e01055b040b303d01d709262b7ce9d818ff refs/heads/next/dt64
+d8b975e5612e880010fbb12dbc85b5e98231b80e 51a4b945a726c649560ebdf7a5e044f998138d53 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmddYm4QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD13a8EACANHKF+xJHzmLRehVKGQu/Uu4da+3KOmxo
-vSpR5wPfhwXfnq53XOyziO7XJjZ8NFDfsF7Qx6TsQgeY6Vs58hDrBzbc8xMg3srP
-jl11G58OpSx+QcCCpOn8q+viflfwtVlp1bKSlKwYFDbL7F6VufP5P7oe4LpCgfcc
-AOO9vGc03g+HDgqNkBPjCC3jnFpVKfFCwBHVy8y/cSAdeptkRH46/CztxQDfsZYR
-MNjiCC5sIoQPJL+/c4iywyisgJQJ1Qh04fWtOG+wWh+oUBhjX+iJx6iy58Iyic3Q
-uZtsnPjH891yKdTZgc+7PRdlFAP87ghdnLwZ58TxBMDS7suSDMbyxaqHFFqhJjtQ
-/D14a05CzLHPjFq39zTg+GY+cVGsT5NGm5bn4B1nFSvV0Uq9yuEvPT0X1NCzErg9
-6rkJ2F6pBWBEEEFZ53OLGBA2S4XbeVrsJkWKyG5VXZlWpjf4yd/DUt1+BbCjIpGV
-Ezvvu++UjK0GrOQ37VehDMDEyOxEnzICvNaacKIigybanazVayAcRCr+CBgR78bg
-O7rm9H/GEXVht+MAwBZarO1nYx+N66JCwdKy4gZAgbsYew9NAM/i/2O3SZDUoGYX
-VAyrHdIolpcSeohR9aREq13shtrzZa3mEwSZxryKZIB2LTwU6V4QDfGOAWfDE8pf
-scAg29OUyA==
-=Hbqi
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmddYsAQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD18K3D/94Bnj5gC6aAaBAMssGw++v1QGoMMLUDNTK
+74mgwKIpcOhbHyMw3TNMmnAm5h+H9v/KPBJ9F+uE99SXJleP4kwZdxwRME93/r0Q
+yjdSGJrAf2HKANpJLCWPd80VMezkFlD/NTXxZAXNep8QpqA6rgTs2GQOzMZqQUOU
+ccMpn2XNA8TWzZ1maZpmGNVWRqiVHGzRqb8IaaUHWPsgRn1yXC/2gMFAM1vkVZc3
+2rgHSJui9bmgnLtYXIzJwspIhvoQ8F44UqdCFrY5ybRSgEeYz8ExCYSgGCyhCA77
+c+fcswzvoOBQcaidsB5jEFXIxxdO/PRvyPuOTZnR4AeGjsuGXd5fjeqRHzAyfmJr
+kGOIjhnXVFiEJNlKnJjzAcTOj6JqPHKLCsKYaatFlDnCH0r7u0X8DMJ7QHm+wzir
+LE1apSGbBHQ3wZvyrcSLdxlU1Pbufgwu4OdhqDktAYNyGNGI9k74MiQBaIWsyoPr
+dG2/2aJqaeHu4xulGRoIUa18eEdIgGRZSixnw9eD9uJZjutdpztDxB5xDwLCPIpw
+R7b75QHQ+lALPNZ973t1K/qBToarXukpfoh8EQxX/8uLzHuL5twcPBP9N5JheoL0
+VuBTXGDU9YTwzZWRv1/U7E098G8qRG50AShJdRC3wCns7BaMBg1SvWJ01QScgt3g
+otvz6xpzvQ==
+=eLcu
 -----END PGP SIGNATURE-----
 
---===============2219182205960161202==--
+--===============1364821821378072583==--
