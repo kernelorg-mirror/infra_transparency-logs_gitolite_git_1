@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0080618296966373564=="
+Content-Type: multipart/mixed; boundary="===============4213776679130387687=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sat, 14 Dec 2024 18:05:33 -0000
-Message-Id: <173419953338.582504.10627394628072316908@gitolite.kernel.org>
+Date: Sat, 14 Dec 2024 18:05:36 -0000
+Message-Id: <173419953675.586284.4599827410310777581@gitolite.kernel.org>
 
---===============0080618296966373564==
+--===============4213776679130387687==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
+  - ref: refs/heads/char-misc-next
     old: a446e965a188ee8f745859e63ce046fe98577d45
     new: a0e3919a2df29b373b19a8fbd6e4c4c38fc10d87
     log: revlist-a446e965a188-a0e3919a2df2.txt
 
---===============0080618296966373564==
+--===============4213776679130387687==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1734199561 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1734199564 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1734199532-8c2180478cc77995d9654b67ee02f6a0fe67442c
+nonce 1734199535-06dca0ea8a7363f8666aeff7946ca00d9a628577
 
-a446e965a188ee8f745859e63ce046fe98577d45 a0e3919a2df29b373b19a8fbd6e4c4c38fc10d87 refs/heads/char-misc-linus
+a446e965a188ee8f745859e63ce046fe98577d45 a0e3919a2df29b373b19a8fbd6e4c4c38fc10d87 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJOBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmddyQkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7oMP+N7dsJ8jsCIoCUrxGG3Q
-GZl2BYSEsJunntPXyPYFyKoLcfToYiZ0oSQntA8uoT6Zu3IXnSvxUV91LVhGlEFy
-UmJql7a5nzDNO8KRVLoLjo8PGPs7Ruxt5BU+93GbF8uaMPfuS9k2M2tEIC0JMAAj
-Ir51Fy3h43MdwwPYiv2kNtrjrqgp4dUy7jM+dkJqTDWovGg0cOsvIAwtQ9yEMQ4H
-kXJlDT6KeCU3GwjSl/0dXhrxxoXNHr3VSloAIN3emMWiduWVQMCnTVJ28VVLDWPf
-pl7VyBuXBrYBOhBqy+oSA3Sz1YPfZhtUNVyqCtAIVtykMO7upHTjNeZpYrn6lWUR
-qxpOq8ePCnaDAw+dzyG0pLuVJPvbCnVt3Buy8mGmVZloOxcP1eo/eac6YEFRodDJ
-nXD1Ndk9ywstffHd5RANUG0F+oj3ao5AfNh1AMp4nh5Hip7IkzTHTSdMxs0LrzG7
-4EcVfNxMcqDWACm8xGygB+tAB7W+bGTLgD9PGIimmSIJSoEdNFmqlJKOZIocEvar
-h7p1y1enRzwEJpq5jKobP76nzDZwaWzDWXArI7+xx0XMZ4nkhKnDWeyclzxFuEOA
-Q0eFJuljmowe8fmx1+VV51/aVK3ilpCYetdJpy9wTK/roOFYzSgTumnIu4zmLQI2
-bCuBisVPhGXieryz33IbJdU=
-=OQ0Y
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmddyQwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gMUQANKxeUM0G6t3hMIwesxT
+5B7ERK5zK/P44jXGj34uXSbC0H0+9G7nEDTsYRGSY0prYdui/PEkAXdGCFV3/Ng/
+vKRbBfk++s9wHg2EYXkIPEsrZAgsvhyndNntkyU3lQjFnyFld4uzouY01B9/tNat
+0tWW6zWuQSeTKJXHyVQOoPlG8kYH+KxtcYM2TOlEzufTDzM6qhCxOqfFQVoiw+gQ
+jvcJpIdd/XU5L3Ch8GOjoScAzcAVFQ35t6VgcYLq8hmZDo+dBoD34Ty4ZVihiZKC
+yW/LQJH4kD7DCTgkxXV5Kc3ZBb5MZ9P48WY3V72u4kTR9CQuOYSVzxBDbigo2gzS
+nf4Ps49YMdqINIgtdwLNVJ5zPfrKSoKHjlKf4iAfdlElUyMsvWPGybheScmKj+SN
+wCHMQbdKTVs/uZyslD6kwirkprg5xSJHumJtwU77THyxPOn8ew5VuQrR7eB+wvq4
+gdwQ2Qf3A0E/zQEEmGjW4TO00OmkTk7Ltdcj1Z/xj6f7/rRKa1WP1EtrXHusj06H
+8f4lBbJj29NN7ZYBTzc3cfeIGh4BjS+WeopU5p16rdlMllHefu2in9H7oAka5hv/
+VlYb2WQ18CDaD6PN1o3gRLNuI34MrZJMp5Dq9I2uVLOpLvv0MfyeHAfv/KQpW9g9
+1W2IP+99RqdxuupMBadj0bV3
+=o9V3
 -----END PGP SIGNATURE-----
 
---===============0080618296966373564==
+--===============4213776679130387687==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -99,4 +99,4 @@ ec2092915d60df2700f7062f171a7fbbad93166b Merge tag 'v6.13-p2' of git://git.kerne
 636110be626b1e039b82d6eba4192d3cb82e5c92 Merge tag 'tty-6.13-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 a0e3919a2df29b373b19a8fbd6e4c4c38fc10d87 Merge tag 'usb-6.13-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 
---===============0080618296966373564==--
+--===============4213776679130387687==--
