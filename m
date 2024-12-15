@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5759905101336172836=="
+Content-Type: multipart/mixed; boundary="===============6815815529929047283=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sun, 15 Dec 2024 08:41:36 -0000
-Message-Id: <173425209628.1475951.16653352451952993026@gitolite.kernel.org>
+Date: Sun, 15 Dec 2024 08:42:34 -0000
+Message-Id: <173425215497.1476641.5106213007849305278@gitolite.kernel.org>
 
---===============5759905101336172836==
+--===============6815815529929047283==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,134 +16,162 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: sashal
 changes:
   - ref: refs/heads/queue/5.10
-    old: 955487428543a95f62f03dba0accbbeb188d4b30
-    new: fb1d021c14b4dbb033c97c7715fc8b11112c1204
+    old: fb1d021c14b4dbb033c97c7715fc8b11112c1204
+    new: 5a6cfda2238186c2baeb44691d0112c14824b441
     log: |
-         dc840924aa92471027c74b9782f13d7286994de8 tcp: check space before adding MPTCP SYN options
-         980fb1b6ff6eebbb1ee5ac68a7e811477e703d5c usb: host: max3421-hcd: Correctly abort a USB request.
-         cb4042fc4ff2954d5c01994ae7861326c02ca860 ata: sata_highbank: fix OF node reference leak in highbank_initialize_phys()
-         fb1d021c14b4dbb033c97c7715fc8b11112c1204 usb: dwc2: hcd: Fix GetPortStatus & SetPortFeature
+         720010834f28ba3e0331f50a319469e62766f3f5 tcp: check space before adding MPTCP SYN options
+         35a8565efcd5bca2210dd194df7cd81bdea676e5 usb: host: max3421-hcd: Correctly abort a USB request.
+         2de785a42ef2a80a55fd4ee8d6a7afa533e31b3b ata: sata_highbank: fix OF node reference leak in highbank_initialize_phys()
+         4f50e2e5d7ace8d30954884fff4014a4d9ca3527 usb: dwc2: hcd: Fix GetPortStatus & SetPortFeature
+         aa7338ec5c89fba54b1edc269bbb92594f6c8642 usb: ehci-hcd: fix call balance of clocks handling routines
+         f0f5916db9a03d8f2f2cbd776594ca3cc41ffd07 usb: gadget: u_serial: Fix the issue that gs_start_io crashed due to accessing null pointer
+         5a6cfda2238186c2baeb44691d0112c14824b441 xfs: don't drop errno values when we fail to ficlone the entire range
          
   - ref: refs/heads/queue/5.15
-    old: 1b364dafaaa5f75c5a49c8c297abc0140ecf07ac
-    new: 434cdf25e69ae57d21ff60436170729746a03fce
-    log: |
-         c2fed76b50a920dccb8d25fb05fdc13bacd64618 tcp: check space before adding MPTCP SYN options
-         e2d2317edb563826eab6aac43915cb6e9672d46e ALSA: usb-audio: Add implicit feedback quirk for Yamaha THR5
-         a3bf92229b6941d3762a8eb0838f46eac1092cf8 riscv: Fix IPIs usage in kfence_protect_page()
-         149d63377d8bfbfe0f66f7c4e3b412f64657c974 usb: host: max3421-hcd: Correctly abort a USB request.
-         22d1f223c22fb90bf3d76385086601bda31961d1 ata: sata_highbank: fix OF node reference leak in highbank_initialize_phys()
-         8207c50f2225bb627511afecd09996d0766c6c77 usb: dwc2: Fix HCD resume
-         7fcded575f5d4e995ecfccf0267456f5af3328e9 usb: dwc2: hcd: Fix GetPortStatus & SetPortFeature
-         434cdf25e69ae57d21ff60436170729746a03fce usb: dwc2: Fix HCD port connection race
-         
+    old: 434cdf25e69ae57d21ff60436170729746a03fce
+    new: 7476b15b52fa266bb43c47f0d56a6258745e6288
+    log: revlist-434cdf25e69a-7476b15b52fa.txt
   - ref: refs/heads/queue/5.4
-    old: 6fedae11d14356ed531c1f6a8855a1b38f632358
-    new: 209ac7af35cec422be4d7c69016b23d783cc3789
+    old: 209ac7af35cec422be4d7c69016b23d783cc3789
+    new: 7856f3f92945030a4f6522075370b86ae29591d3
     log: |
-         e860aa2fc56ecf9cbddf7eee7e783faf885b913d usb: host: max3421-hcd: Correctly abort a USB request.
-         62ad2a4f0d31d057c28e5931a84047a07a39e312 ata: sata_highbank: fix OF node reference leak in highbank_initialize_phys()
-         6b008a777207f92708c01d4fc6f6054229a03605 usb: dwc2: hcd: Fix GetPortStatus & SetPortFeature
-         6fb77f4a04957990041c3a2837f97ac35d957489 usb: ehci-hcd: fix call balance of clocks handling routines
-         d7e2983841c82b296cbb6f22305ae787a119a409 usb: gadget: u_serial: Fix the issue that gs_start_io crashed due to accessing null pointer
-         209ac7af35cec422be4d7c69016b23d783cc3789 xfs: don't drop errno values when we fail to ficlone the entire range
+         b88158575c3fefd7fbdae9698320dc660378102e usb: host: max3421-hcd: Correctly abort a USB request.
+         ebee75f4894ab3c38c6f47383094f81fe4893bc0 ata: sata_highbank: fix OF node reference leak in highbank_initialize_phys()
+         1391b28ed4200d3979b63bd617a1e0e56e02543f usb: dwc2: hcd: Fix GetPortStatus & SetPortFeature
+         1e371c31cb98fb1ec82185cb80205d5d44df5294 usb: ehci-hcd: fix call balance of clocks handling routines
+         52fcb2a0d2c6f3bbb4e5c8f63e8918b7b7dcd3b9 usb: gadget: u_serial: Fix the issue that gs_start_io crashed due to accessing null pointer
+         7856f3f92945030a4f6522075370b86ae29591d3 xfs: don't drop errno values when we fail to ficlone the entire range
          
   - ref: refs/heads/queue/6.1
-    old: 07d235e2d7f665ac8e0d0702de0e5989d1b38f60
-    new: cc707fae56def4b7a47881ff1649cd88ef06d553
-    log: |
-         601be6833e39bcc8f9ef84247b7caca9048e3387 bpf: Fix UAF via mismatching bpf_prog/attachment RCU flavors
-         8934343b39af54eecfc56252e57a66d911a9e8ff ksmbd: fix racy issue from session lookup and expire
-         8dbae2a7c14a46b7554d0b2054339b352b6d2841 tcp: check space before adding MPTCP SYN options
-         bf21318695687d2b62981e93df301cac24be2387 blk-cgroup: Fix UAF in blkcg_unpin_online()
-         f9bc475e47538e1f84b38ebe77ad588374b04f27 ALSA: usb-audio: Add implicit feedback quirk for Yamaha THR5
-         6d406bec5be3aa9ff5f10901e5a24453951484c9 riscv: Fix IPIs usage in kfence_protect_page()
-         cdd9b196b0126da005db9897c6006a960462beac usb: host: max3421-hcd: Correctly abort a USB request.
-         78cfbe19d359d0476a2154f44349589c7de88633 ata: sata_highbank: fix OF node reference leak in highbank_initialize_phys()
-         6d876a7daf8af3fc6af5855dac95d1f702803ed0 usb: dwc2: Fix HCD resume
-         673ed4296a8ea6c7dd7abf55d34df1ce63737b39 usb: dwc2: hcd: Fix GetPortStatus & SetPortFeature
-         cc707fae56def4b7a47881ff1649cd88ef06d553 usb: dwc2: Fix HCD port connection race
-         
+    old: cc707fae56def4b7a47881ff1649cd88ef06d553
+    new: 0c3d430df16aabe9da50aea61cb7e2f6c5907070
+    log: revlist-cc707fae56de-0c3d430df16a.txt
   - ref: refs/heads/queue/6.12
-    old: ac50d8cbc51347ec5e5a83449649222fefe967f7
-    new: b67ec4e8dcef6c7373c2d8fb50dc25c630bc6519
-    log: revlist-ac50d8cbc513-b67ec4e8dcef.txt
+    old: b67ec4e8dcef6c7373c2d8fb50dc25c630bc6519
+    new: 6f562ec270b85d42d186afcb31bc0e5c8b80db85
+    log: revlist-b67ec4e8dcef-6f562ec270b8.txt
   - ref: refs/heads/queue/6.6
-    old: 7a54962b9f32805336173200a085f480cab5c106
-    new: 104f52abfb1dc9ef0ab56ac061be9b113d673c9e
-    log: revlist-7a54962b9f32-104f52abfb1d.txt
+    old: 104f52abfb1dc9ef0ab56ac061be9b113d673c9e
+    new: a483fbed9571adacd79ec63a81783577b93dd21d
+    log: revlist-104f52abfb1d-a483fbed9571.txt
 
---===============5759905101336172836==
+--===============6815815529929047283==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac50d8cbc513-b67ec4e8dcef.txt
+Content-Disposition: attachment; filename=revlist-434cdf25e69a-7476b15b52fa.txt
 
-bbfca05efb6751b7542d57db0cb7a61fe9fc71e2 usb: misc: onboard_usb_dev: skip suspend/resume sequence for USB5744 SMBus support
-3433e1b7a4168e92511fed40c28a9e8b49f02967 serial: sh-sci: Check if TX data was written to device in .tx_empty()
-6817ed0d19f662eb502159191cbffe5cf34024c5 bpf: Fix UAF via mismatching bpf_prog/attachment RCU flavors
-b526ea280ba0d822e42d085d0356bb31cd6b97ac sched/deadline: Fix replenish_dl_new_period dl_server condition
-c32f19f4d5749496743be75954bf1eb45b51ec11 perf/x86/intel/ds: Unconditionally drain PEBS DS when changing PEBS_DATA_CFG
-2ca3a454513eeed0b8e92d14110a67d9519a21d0 clk: en7523: Fix wrong BUS clock for EN7581
-f6dbe4aedb171ec4dd3ee24c26945337c88c1a8c ksmbd: fix racy issue from session lookup and expire
-8065f056bb89a30e55a99a894715e7d174713902 splice: do not checksum AF_UNIX sockets
-dbbddd8df4c7b6d8320c3fc900bf12bf205cd114 tcp: check space before adding MPTCP SYN options
-48734afd8143f95ccd62ffcd75ddc3995fbb3740 perf ftrace: Fix undefined behavior in cmp_profile_data()
-50e20e5cffb6baeda8067e5340cb8932974fb40f virtio_net: correct netdev_tx_reset_queue() invocation point
-2fb1b8cdfb63482ccbc84950cb2acb2d7ccb1e27 virtio_ring: add a func argument 'recycle_done' to virtqueue_resize()
-4ba6cd9fe6cec4e0411fe5d955f394889375e05a virtio_net: ensure netdev_tx_reset_queue is called on tx ring resize
-a9bb1bc2186f3cdbaabb127daea3cf397e7e08a9 riscv: mm: Do not call pmd dtor on vmemmap page table teardown
-7dcb0ec9da35e5ef4f7d0281f845f96c34902c72 riscv: Fix wrong usage of __pa() on a fixmap address
-f9c6635b7581ae4747b021adc42a23b0f4ab4a19 blk-cgroup: Fix UAF in blkcg_unpin_online()
-387def9783ebee1bc3ae7bbeeb777ad574242169 block: Switch to using refcount_t for zone write plugs
-fa03d924b995e85e50c3bfb0a6d23bad46469517 block: Use a zone write plug BIO work for REQ_NOWAIT BIOs
-cf7a92a61a668cf419f2103475ef7ee2e4332bef dm: Fix dm-zoned-reclaim zone write pointer alignment
-36efb785d289a3a446a3a6a9d22d23c1cf8841d8 block: Prevent potential deadlocks in zone write plug error recovery
-8795b3b1ae76a392e323062f4e9d938a83d95615 gpio: graniterapids: Fix GPIO Ack functionality
-189cd33ae37c06e5af8703d8ca5f86063c3e81ed memcg: slub: fix SUnreclaim for post charged objects
-7380d39bd802914c1f267405d9829b85d9ea69bd spi: rockchip: Fix PM runtime count on no-op cs
-8caaabc33ccade03172eecd31ff25095b9e97c3e gpio: ljca: Initialize num before accessing item in ljca_gpio_config
-482e7fd517bad9e690e343d4fc8bf9c8302a01ac ALSA: usb-audio: Add implicit feedback quirk for Yamaha THR5
-98e3cd22a8e081dad1f07551b6c86d3853c14b1c ALSA: hda/realtek: Fix headset mic on Acer Nitro 5
-48561989a6cfa3f1b09424a4f5766a8182d0e5ed riscv: Fix IPIs usage in kfence_protect_page()
-e6835c2a99a62f440e41d3a4c2bb1ec6562b581f crypto: hisilicon/debugfs - fix the struct pointer incorrectly offset problem
-0cdc0ee0ade04099f43fa3e44c5dc96cc3d949b0 drm/panic: remove spurious empty line to clean warning
-26bc4dad7bd562a625038fa7e1c5cd29977becbe usb: host: max3421-hcd: Correctly abort a USB request.
-b95142a9feef12b514fd7aa63470faccde95a8ab block: Ignore REQ_NOWAIT for zone reset and zone finish operations
-e9cb43e14470c5f7830c9e08ac8d2afd4ddf7126 gpio: graniterapids: Fix vGPIO driver crash
-acdec5ad0aa1b944de7995ba98a0c707f016b53b gpio: graniterapids: Fix incorrect BAR assignment
-c9c4f8af728b30948a8f061d178b568b3e43be50 gpio: graniterapids: Fix invalid GPI_IS register offset
-fa545b04862b8eac6907f042409fe8c4620c5ed7 gpio: graniterapids: Fix invalid RXEVCFG register bitmask
-b1c5085ec74ae85640a33e32af249a44802984ec gpio: graniterapids: Determine if GPIO pad can be used by driver
-643aa8a59360bd079ddbd896df871d2e0e3fb752 gpio: graniterapids: Check if GPIO line can be used for IRQs
-3f68c61749f91705d75cfd8b85f4b6706ea6c130 usb: core: hcd: only check primary hcd skip_phy_initialization
-ce2f08a7a8d16cfd37f1bdb91ec26c176ccd5653 bpf: Revert "bpf: Mark raw_tp arguments with PTR_MAYBE_NULL"
-0c20f8d3c12c4d1107fb373da816397e37f25d83 ata: sata_highbank: fix OF node reference leak in highbank_initialize_phys()
-60b80a2ee7035df50e5aecf4a43dceb8d78019ba usb: dwc2: Fix HCD resume
-f32fe0b5194d14b66f23f4508533cdf3c3a0b78a usb: dwc2: hcd: Fix GetPortStatus & SetPortFeature
-ae2e57d56c04223480e3d4ae4961d4cf887f446e usb: dwc2: Fix HCD port connection race
-b67ec4e8dcef6c7373c2d8fb50dc25c630bc6519 scsi: ufs: core: Update compl_time_stamp_local_clock after completing a cqe
+ab7a0aa7c4419b356d0fe88e0026ff7a2de4450f tcp: check space before adding MPTCP SYN options
+622f0164aacf380438442492be0e14664ace72c6 ALSA: usb-audio: Add implicit feedback quirk for Yamaha THR5
+18236809f13e8d26da4f2cd8fa8d2b8ef8193c7a riscv: Fix IPIs usage in kfence_protect_page()
+02f94edf906e5cf8a0685595e26138fe24aebccc usb: host: max3421-hcd: Correctly abort a USB request.
+4adc81a419b03b94b610e1c9ffe3ef526a2d8c9a ata: sata_highbank: fix OF node reference leak in highbank_initialize_phys()
+a316565e592c406c9fe19dae842bb8a8ce40f384 usb: dwc2: Fix HCD resume
+d381687257ca8d7f6923fdf91e17a109752da687 usb: dwc2: hcd: Fix GetPortStatus & SetPortFeature
+269ac869176ff5f0620e50906657e359abee09df usb: dwc2: Fix HCD port connection race
+b5848058a3edd1bfde2aad24e172968010f3726a usb: ehci-hcd: fix call balance of clocks handling routines
+2183900fccaf367965f8874867497563520ce0ec usb: gadget: u_serial: Fix the issue that gs_start_io crashed due to accessing null pointer
+2829716effe8ca584477a95cd8a71aa6bf5563f7 drm/i915: Fix memory leak by correcting cache object name in error handler
+ed62f1901581eef6f8f3425b5489ea026ed8e853 xfs: update btree keys correctly when _insrec splits an inode root block
+7476b15b52fa266bb43c47f0d56a6258745e6288 xfs: don't drop errno values when we fail to ficlone the entire range
 
---===============5759905101336172836==
+--===============6815815529929047283==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7a54962b9f32-104f52abfb1d.txt
+Content-Disposition: attachment; filename=revlist-cc707fae56de-0c3d430df16a.txt
 
-f7108a1613482538826fd61cd755157bc446a9b3 bpf: Fix UAF via mismatching bpf_prog/attachment RCU flavors
-b2ae0c154f249ed815cecc0a3989177226af63e9 perf/x86/intel/ds: Unconditionally drain PEBS DS when changing PEBS_DATA_CFG
-b280c955428eae3c41eeb3ed5b6444176dff8470 ksmbd: fix racy issue from session lookup and expire
-2cf03febc8f28faf044029c31ff2b9441ac1c8d8 splice: do not checksum AF_UNIX sockets
-192624e5f69c446a9c102a87e443f595293613ab tcp: check space before adding MPTCP SYN options
-802de6618ea0cb6adf664bfceb8c48b4ee70e837 riscv: Fix wrong usage of __pa() on a fixmap address
-eec8217fb03ed74c018f00fcdd4647af984241eb blk-cgroup: Fix UAF in blkcg_unpin_online()
-8bac839e9b4e12df86217368099a59f45e389434 ALSA: usb-audio: Add implicit feedback quirk for Yamaha THR5
-905ce4e63a59dd899212acfeedb7b913c0aa2be6 riscv: Fix IPIs usage in kfence_protect_page()
-1b1e71e1460c1b64612471f46c6ef40ae1d3e7e1 usb: host: max3421-hcd: Correctly abort a USB request.
-a88f18bb87715e10a6ea5c2b9d0f6bba51de0cc3 ata: sata_highbank: fix OF node reference leak in highbank_initialize_phys()
-7e2cd101e5b6d2c9e2abc60767ebcb90187edc8d usb: dwc2: Fix HCD resume
-87bb803b63731d448332e9bda271d4ff350b2ce3 usb: dwc2: hcd: Fix GetPortStatus & SetPortFeature
-df4431f4ebee1358a50a42d4aea4a7799396f012 usb: dwc2: Fix HCD port connection race
-104f52abfb1dc9ef0ab56ac061be9b113d673c9e scsi: ufs: core: Update compl_time_stamp_local_clock after completing a cqe
+4c2a81203f1f00920fb25b8a93fcbfd783d97381 bpf: Fix UAF via mismatching bpf_prog/attachment RCU flavors
+e07619d119ac4eac5ed4564bc2f5c93ec95ea793 ksmbd: fix racy issue from session lookup and expire
+5546c35ac414fcf201a0ce22313381a648cf1572 tcp: check space before adding MPTCP SYN options
+6b413f31e073271757cbfcf89ea89c040b8bff66 blk-cgroup: Fix UAF in blkcg_unpin_online()
+37349835302699eeeeb52cb07e9d378263affdd9 ALSA: usb-audio: Add implicit feedback quirk for Yamaha THR5
+3e6796afd0c9f85089e1700f2b561d8858570685 riscv: Fix IPIs usage in kfence_protect_page()
+0762bc2dbd357719f55c1f4424ea42d9f8baca95 usb: host: max3421-hcd: Correctly abort a USB request.
+993f412c58512c0757372dd07c4b6af391f64d8a ata: sata_highbank: fix OF node reference leak in highbank_initialize_phys()
+7e9c045e94958cb85f17c50d522aee239dbc7b47 usb: dwc2: Fix HCD resume
+0f69376560051a7544cc87a1fff22f65b916dc37 usb: dwc2: hcd: Fix GetPortStatus & SetPortFeature
+827f47ae2dafa237d5dc0d09104b12007e50d2b1 usb: dwc2: Fix HCD port connection race
+a64bbad9e451fd6dbd9d516929c444f79d3b09fa usb: ehci-hcd: fix call balance of clocks handling routines
+9c54638210ec2b52bbc853d227279f97f7ac52e5 usb: typec: anx7411: fix fwnode_handle reference leak
+9f9de6096142bc9cbefe101ac8e7f80a692e219c usb: typec: anx7411: fix OF node reference leaks in anx7411_typec_switch_probe()
+85a4bb5939b69d37403036941923f60fa980e23c usb: gadget: u_serial: Fix the issue that gs_start_io crashed due to accessing null pointer
+9884ddeebe4c92b3ec95e3f3307b74d4e531e13b usb: dwc3: xilinx: make sure pipe clock is deselected in usb2 only mode
+41e1c412db2e38dd4b520f36d1ebb51db952e306 drm/i915: Fix memory leak by correcting cache object name in error handler
+5b1991ead7037dfc34f2892e005e7d8205db7fcf xfs: update btree keys correctly when _insrec splits an inode root block
+0c3d430df16aabe9da50aea61cb7e2f6c5907070 xfs: don't drop errno values when we fail to ficlone the entire range
 
---===============5759905101336172836==--
+--===============6815815529929047283==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-b67ec4e8dcef-6f562ec270b8.txt
+
+a023763702b5f1ed1de6c8e7545fe4452946bea4 usb: misc: onboard_usb_dev: skip suspend/resume sequence for USB5744 SMBus support
+50abffe22cf16e27cc91b06307a310e0bf7c6df4 serial: sh-sci: Check if TX data was written to device in .tx_empty()
+f213f01b8f6ec246ba6f271434db9df6811aed1f bpf: Fix UAF via mismatching bpf_prog/attachment RCU flavors
+e27ffe031a12e3ad7b3e1e2d3dc4ce6dfe09379a sched/deadline: Fix replenish_dl_new_period dl_server condition
+98d67806be2c3e792fdb88d0b5cdd898ed7f3b51 perf/x86/intel/ds: Unconditionally drain PEBS DS when changing PEBS_DATA_CFG
+a1f0961951781e724d2517d8c92a629191a719d2 clk: en7523: Fix wrong BUS clock for EN7581
+c321d616042ce9e255027efe44dcd70af2973b46 ksmbd: fix racy issue from session lookup and expire
+3c01c02522373382c5c39f53da46b3f816f329ae splice: do not checksum AF_UNIX sockets
+64d97dc9d273c3315a3c843f65b62bcf001608b3 tcp: check space before adding MPTCP SYN options
+dc5474d2ed19c27065e7065dad422b9cb1c58af3 perf ftrace: Fix undefined behavior in cmp_profile_data()
+fa3cc5c2132769168dd3b8eba993f96a1892d093 virtio_net: correct netdev_tx_reset_queue() invocation point
+bea4130462678518c79a3dc8194c38d2f568dac9 virtio_ring: add a func argument 'recycle_done' to virtqueue_resize()
+c1bcea811281214deee00fd308fadb5b74b4d66a virtio_net: ensure netdev_tx_reset_queue is called on tx ring resize
+098261ca0be744ac78b50aedb917c6f13ad71ad1 riscv: mm: Do not call pmd dtor on vmemmap page table teardown
+f10c4f814576d7b5b5f069da623a0f512c06bf51 riscv: Fix wrong usage of __pa() on a fixmap address
+c0d8ac671638d7b907fb610b93f47dac1523b536 blk-cgroup: Fix UAF in blkcg_unpin_online()
+27a3f42913cb081052d536f31889199b5a80e970 block: Switch to using refcount_t for zone write plugs
+619a4a74ec257710aaa119af3e230875762ea01d block: Use a zone write plug BIO work for REQ_NOWAIT BIOs
+29657279a63f8fb6e6a597346efde842f67af212 dm: Fix dm-zoned-reclaim zone write pointer alignment
+ae24be66a743a77ece348c80a6d05ce1028bfa93 block: Prevent potential deadlocks in zone write plug error recovery
+559ef79a667681489593b321ef3080de864accf5 gpio: graniterapids: Fix GPIO Ack functionality
+09cb7313ee61a6ef6c85f41fb032439263df9acb memcg: slub: fix SUnreclaim for post charged objects
+1c6171c569b8a9992607914bfdbc7e3d2b9d6fae spi: rockchip: Fix PM runtime count on no-op cs
+710346d0f1a1e1729cd5fe3ae1d20131ea0079e9 gpio: ljca: Initialize num before accessing item in ljca_gpio_config
+4b11934eaec5170f76fd6d80a0b83c2410d5a059 ALSA: usb-audio: Add implicit feedback quirk for Yamaha THR5
+d74d6ef54049c4a2b672ca2a14c310c4a4e49a0e ALSA: hda/realtek: Fix headset mic on Acer Nitro 5
+1e65b3d7fecc1a7e34f654a4a48f984cc7624397 riscv: Fix IPIs usage in kfence_protect_page()
+63bb4a8f5b28c349c2345ab1a26f12a40b084805 crypto: hisilicon/debugfs - fix the struct pointer incorrectly offset problem
+c9e80d4c362d5ca6de12a8460abc907095f75125 drm/panic: remove spurious empty line to clean warning
+244f740231b27a39a3f93b8075f527ffbaa12cf6 usb: host: max3421-hcd: Correctly abort a USB request.
+54ea3996225c2ca06b985b1135b8e3e5f19c7717 block: Ignore REQ_NOWAIT for zone reset and zone finish operations
+da839319b9e806ce7f00074ecc16d51ae3d49432 gpio: graniterapids: Fix vGPIO driver crash
+68314237ec1dc3e4bf6d3fead2238ddd274c6c43 gpio: graniterapids: Fix incorrect BAR assignment
+ac1acf565d859750e0ab0d0c3c1afe7ad095ae13 gpio: graniterapids: Fix invalid GPI_IS register offset
+f3918b95d406f50a2e06f2be0880e99d86019bbd gpio: graniterapids: Fix invalid RXEVCFG register bitmask
+52a52b286d155b83f00b3f1cef5bc64ae9db37b2 gpio: graniterapids: Determine if GPIO pad can be used by driver
+1fa649624dec61c3137014e625b20b5b290e32c6 gpio: graniterapids: Check if GPIO line can be used for IRQs
+a2f36e9c01d7e915d549baec44288c6d177ae8b0 usb: core: hcd: only check primary hcd skip_phy_initialization
+4a9d11528918e9198dee334cfaf5526f654873bf bpf: Revert "bpf: Mark raw_tp arguments with PTR_MAYBE_NULL"
+ae7ea98f1f64bb6338fa096c1c9b9d648a982ba5 ata: sata_highbank: fix OF node reference leak in highbank_initialize_phys()
+e8b391c5161533cf476ec75d952804fdfbbbb0f0 usb: dwc2: Fix HCD resume
+99a945af22b204170c2ef15ad26db23cc1c233cf usb: dwc2: hcd: Fix GetPortStatus & SetPortFeature
+9434448597c26268ac0d655ca9be7224ca9c8e64 usb: dwc2: Fix HCD port connection race
+6f562ec270b85d42d186afcb31bc0e5c8b80db85 scsi: ufs: core: Update compl_time_stamp_local_clock after completing a cqe
+
+--===============6815815529929047283==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-104f52abfb1d-a483fbed9571.txt
+
+3ff1b0c559c986efdc5107f71ebb1a1dcde77c8d bpf: Fix UAF via mismatching bpf_prog/attachment RCU flavors
+fc72af8f2c5acd7ddb5926c3a08b7570c417f3f1 perf/x86/intel/ds: Unconditionally drain PEBS DS when changing PEBS_DATA_CFG
+7860429aa75322dc9ebd00367eb23067da7fb684 ksmbd: fix racy issue from session lookup and expire
+869e00d693d713106536dfdcf26fba4ccf3b262f splice: do not checksum AF_UNIX sockets
+4a4422aef2e9a28c274703147999802dba1fca51 tcp: check space before adding MPTCP SYN options
+a5e75624245a52da642eb388a9dd3acf47af5001 riscv: Fix wrong usage of __pa() on a fixmap address
+04f316777041870b659b0aa18dbf3a6ac5bdfea8 blk-cgroup: Fix UAF in blkcg_unpin_online()
+bb8bbb03ff609689f29d9c11ad754362164ea811 ALSA: usb-audio: Add implicit feedback quirk for Yamaha THR5
+42ff2f87bdb3820c47137105095bd9e8295e9f9b riscv: Fix IPIs usage in kfence_protect_page()
+3fc9dfb4c260841e254bbc2a3305f7b174859e3a usb: host: max3421-hcd: Correctly abort a USB request.
+e54132ee9f3690001f69a0655c204749ececa5f3 ata: sata_highbank: fix OF node reference leak in highbank_initialize_phys()
+2949fad49f1da832a127d28cf1f39a9ceaa661ff usb: dwc2: Fix HCD resume
+b230da1678edc77c5fcb4303415cd637917ada89 usb: dwc2: hcd: Fix GetPortStatus & SetPortFeature
+ed4e4083a92757a24bf03432da6948785ef6ee03 usb: dwc2: Fix HCD port connection race
+a483fbed9571adacd79ec63a81783577b93dd21d scsi: ufs: core: Update compl_time_stamp_local_clock after completing a cqe
+
+--===============6815815529929047283==--
