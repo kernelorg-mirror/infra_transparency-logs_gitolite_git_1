@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
-Date: Sun, 15 Dec 2024 10:40:53 -0000
-Message-Id: <173425925396.1623055.10899064739950706536@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
+Date: Sun, 15 Dec 2024 11:13:12 -0000
+Message-Id: <173426119200.1646824.16625295943441240096@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rcu/linux
-user: urezki
+repo: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
+user: egrumbach
 changes:
-  - ref: refs/tags/v6.13-rc2
+  - ref: refs/remotes/stack-public/master
     old: 0000000000000000000000000000000000000000
-    new: e32a80927434907f973f38a88cd19d7e51991d24
+    new: 8bcfd88df333d65ee3a67d901046d9262d10ea2d
