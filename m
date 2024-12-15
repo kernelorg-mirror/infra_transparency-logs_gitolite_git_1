@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Sun, 15 Dec 2024 22:42:06 -0000
-Message-Id: <173430252635.2199131.6764863231852776704@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sun, 15 Dec 2024 22:43:14 -0000
+Message-Id: <173430259472.2199642.11141567135404608915@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/s390/linux
-user: agordeev
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: 1b1ebd2a3b5b56acc37705e98de816ae55b11cc2
-    new: 45dc6ded4ca6c40d2e60170a0fe0c085ed574a79
+  - ref: refs/heads/main
+    old: 663ad7481f068057f6f692c5368c47150e855370
+    new: 922b4b955a03d19fea98938f33ef0e62d01f5159
     log: |
-         4670f7bc17dfce649a1877c72643c133ef9055ab s390/mm/hugetlbfs: Remove huge_pte_none() / huge_pte_none_mostly()
-         282da38b465395c930687974627c24f47ddce5ff s390/mm: Consider KMSAN modules metadata for paging levels
-         3a6deedfac1f10ed904796be09c56258ef7ba0be Merge branch 'fixes' into for-next
-         45dc6ded4ca6c40d2e60170a0fe0c085ed574a79 Merge branch 'features' into for-next
+         9590d32e090ea2751e131ae5273859ca22f5ac14 ionic: Fix netdev notifier unregister on failure
+         746e6ae2e202b062b9deee7bd86d94937997ecd7 ionic: no double destroy workqueue
+         b096d62ba1323391b2db98b7704e2468cf3b1588 ionic: use ee->offset when returning sprom data
+         cb85f2b8973c8077749fb5618c5123c1ba166a70 Merge branch 'ionic-minor-code-fixes'
+         922b4b955a03d19fea98938f33ef0e62d01f5159 net: renesas: rswitch: rework ts tags management
          
