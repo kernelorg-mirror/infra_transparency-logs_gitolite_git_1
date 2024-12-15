@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sun, 15 Dec 2024 22:43:14 -0000
-Message-Id: <173430259472.2199642.11141567135404608915@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bigeasy/staging
+Date: Sun, 15 Dec 2024 23:07:09 -0000
+Message-Id: <173430402958.2218803.12206173286874187932@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/bigeasy/staging
+user: bigeasy
 changes:
-  - ref: refs/heads/main
-    old: 663ad7481f068057f6f692c5368c47150e855370
-    new: 922b4b955a03d19fea98938f33ef0e62d01f5159
-    log: |
-         9590d32e090ea2751e131ae5273859ca22f5ac14 ionic: Fix netdev notifier unregister on failure
-         746e6ae2e202b062b9deee7bd86d94937997ecd7 ionic: no double destroy workqueue
-         b096d62ba1323391b2db98b7704e2468cf3b1588 ionic: use ee->offset when returning sprom data
-         cb85f2b8973c8077749fb5618c5123c1ba166a70 Merge branch 'ionic-minor-code-fixes'
-         922b4b955a03d19fea98938f33ef0e62d01f5159 net: renesas: rswitch: rework ts tags management
-         
+  - ref: refs/heads/futex_local_v5
+    old: 0000000000000000000000000000000000000000
+    new: 3ed4d71eee532891079c1b8e4035aec610f15173
+  - ref: refs/tags/v6.13-rc2
+    old: 0000000000000000000000000000000000000000
+    new: e32a80927434907f973f38a88cd19d7e51991d24
