@@ -1,59 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============3829152635830739023=="
+Content-Type: multipart/mixed; boundary="===============0799154175275161359=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Sun, 15 Dec 2024 00:33:42 -0000
-Message-Id: <173422282226.1096453.17121869222784657280@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 15 Dec 2024 00:52:31 -0000
+Message-Id: <173422395146.1111601.16231986271971274031@gitolite.kernel.org>
 
---===============3829152635830739023==
+--===============0799154175275161359==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/crypto-pending
-    old: f8b85ea2c518cd00d2d0411dc11049f271aa6682
-    new: a288e1c9bba925dcc65ce59e6850cdde981fbdee
-    log: revlist-f8b85ea2c518-a288e1c9bba9.txt
+  - ref: refs/heads/master
+    old: a0e3919a2df29b373b19a8fbd6e4c4c38fc10d87
+    new: 2d8308bf5b67dff50262d8a9260a50113b3628c6
+    log: revlist-a0e3919a2df2-2d8308bf5b67.txt
 
---===============3829152635830739023==
+--===============0799154175275161359==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f8b85ea2c518-a288e1c9bba9.txt
+Content-Disposition: attachment; filename=revlist-a0e3919a2df2-2d8308bf5b67.txt
 
-5278275c1758a38199b43530adfc50098f4b41c7 crypto: qce - fix goto jump in error path
-e80cf84b608725303113d6fe98bb727bf7b7a40d crypto: qce - unregister previously registered algos in error path
-d66b1ab3554672750010ae96b651f431da6b687f crypto: qce - remove unneeded call to icc_set_bw() in error path
-6bca1f0cadc45f3e16e074d3fba7da9cf0f56f80 crypto: qce - shrink code with devres clk helpers
-cf96b0d6fbc9f92451a071a98b527021196bf7d6 crypto: qce - convert qce_dma_request() to use devres
-c151535cf46fd0b6cc34884762dd1610c628bac1 crypto: qce - make qce_register_algs() a managed interface
-ce8fd0500b741b3669c246cc604f1f2343cdd6fd crypto: qce - use __free() for a buffer that's always freed
-eb7986e5e14d3db69e387da2c8bcef92b4c1a625 crypto: qce - convert tasklet to workqueue
-3382c44f0c6fb26469b1df75575643c68c421291 crypto: qce - switch to using a mutex
-f1e532d05aa615d7c9a6c430190261ca35c0367a crypto: ccp - Use scoped guard for mutex
-49b9258b05b97c6464e1964b6a2fddb3ddb65d17 crypto: qce - fix priority to be less than ARMv8 CE
-9cda46babdfed9804214b1eecb4219786d91c9c7 crypto: n2 - remove Niagara2 SPU driver
-07d58e0a60f70b3cc176c9427d1ea856d1756820 crypto: skcipher - remove support for physical address walks
-8d90528228adcc091b41244fab4d0003d59bdba4 crypto: anubis - stop using cra_alignmask
-6c178fd66b4de03101fefe91e1a987052051add2 crypto: aria - stop using cra_alignmask
-5e252f490c1c2c989cdc2ca50744f30fbca356b4 crypto: tea - stop using cra_alignmask
-7e0061586f1d6a38641a2f444855c1ddeb10d17e crypto: khazad - stop using cra_alignmask
-047ea6d85ee32c768ceec9a3ad6b7f403971aa63 crypto: seed - stop using cra_alignmask
-a6185842d1b8e7ef5a1a239f26361a39cc291a0b crypto: x86 - remove assignments of 0 to cra_alignmask
-5478ced4783cfc84ee5f0a4945ce61e8d111bef9 crypto: aegis - remove assignments of 0 to cra_alignmask
-f916e44487f56df4827069ff3a2070c0746dc511 crypto: keywrap - remove assignment of 0 to cra_alignmask
-da471874d9dcb729c8f359fa0b75203be6c2bbc0 crypto: x86/aes-gcm - code size optimization
-b54ae6381059aad1f3b3b44809743bbe5a48f588 crypto: x86/aes-gcm - tune better for AMD CPUs
-faf21c26dcc17fb05a45868a2df8a61cebd898a0 crypto: x86/aes-xts - use .irp when useful
-ce26d14801fc5fa6c522a0824de0786abe2d640c crypto: x86/aes-xts - make the register aliases per-function
-f62194a14f0bc956eb7dbe669c511699916b5636 crypto: x86/aes-xts - improve some comments
-f6e85ddbe7f4d59da2ec49c46855fad5907ae8e3 crypto: x86/aes-xts - change len parameter to int
-6d21b6acf36a1268136d018f6021ea9f1aa7e1c6 crypto: x86/aes-xts - more code size optimizations
-a288e1c9bba925dcc65ce59e6850cdde981fbdee crypto: x86/aes-xts - additional optimizations
+f103396ae31851d00b561ff9f8a32a441953ff8b scsi: ufs: core: Update compl_time_stamp_local_clock after completing a cqe
+75e072a390da9a22e7ae4a4e8434dfca5da499fb bpf, sockmap: Fix update element with same
+ed1fc5d76b81a4d681211333c026202cad4d5649 bpf, sockmap: Fix race between element replace and close()
+11d5245f608f8ac01c97b93f31497cef7b96e457 selftests/bpf: Extend test for sockmap update with same
+ef1b808e3b7c98612feceedf985c2fbbeb28f956 bpf: Fix UAF via mismatching bpf_prog/attachment RCU flavors
+978c4486cca5c7b9253d3ab98a88c8e769cb9bbd bpf,perf: Fix invalid prog_array access in perf_event_detach_bpf_prog
+27e88bc4df1d80888fe1aaca786a7cc6e69587e2 bpf: add find_containing_subprog() utility function
+b238e187b4a2d3b54d80aec05a9cab6466b79dde bpf: refactor bpf_helper_changes_pkt_data to use helper number
+51081a3f25c742da5a659d7fc6fd77ebfdd555be bpf: track changes_pkt_data property for global functions
+3f23ee5590d9605dbde9a5e1d4b97637a4803329 selftests/bpf: test for changing packet data from global functions
+81f6d0530ba031b5f038a091619bf2ff29568852 bpf: check changes_pkt_data property for extension programs
+89ff40890d8f12a7d7e93fb602cc27562f3834f0 selftests/bpf: freplace tests for tracking of changes_packet_data
+1a4607ffba35bf2a630aab299e34dd3f6e658d70 bpf: consider that tail calls invalidate packet pointers
+d9706b56e13b7916461ca6b4b731e169ed44ed09 selftests/bpf: validate that tail call invalidates packet pointers
+cf8b876363da4fccdcc4ba209d4d098ec0f1ffac Merge branch 'bpf-track-changes_pkt_data-property-for-global-functions'
+c4441ca86afe4814039ee1b32c39d833c1a16bbc bpf: fix potential error return
+7d0d673627e20cfa3b21a829a896ce03b58a4f1c bpf: Fix theoretical prog_array UAF in __uprobe_perf_func()
+ac6542ad92759cda383ad62b4e4cbfc28136abc1 bpf: fix null dereference when computing changes_pkt_data of prog w/o subprogs
+04789af756a4a43e72986185f66f148e65b32fed selftests/bpf: extend changes_pkt_data with cases w/o subprograms
+659b9ba7cb2d7adb64618b87ddfaa528a143766e bpf: Check size for BTF-based ctx access of pointer members
+8025731c28beb4700dc801a1ca4504d1f78bac27 selftests/bpf: Add test for narrow ctx load for pointer args
+e4c80f69758e5088e8aae48f3d6abb41c6da7812 Merge branch 'add-missing-size-check-for-btf-based-ctx-access'
+c00d738e1673ab801e1577e4e3c780ccf88b1a5b bpf: Revert "bpf: Mark raw_tp arguments with PTR_MAYBE_NULL"
+838a10bd2ebfe11a60dd67687533a7cfc220cc86 bpf: Augment raw_tp arguments with PTR_MAYBE_NULL
+0da1955b5bd2af3a1c3d13916df06e34ffa6df3d selftests/bpf: Add tests for raw_tp NULL args
+a8e1a3ddf7246cd43c93e5459fcc1b4989853a06 Merge branch 'explicit-raw_tp-null-arguments'
+c83508da5620ef89232cb614fb9e02dfdfef2b8f bpf: Avoid deadlock caused by nested kprobe and fentry bpf programs
+35f301dd4551fa731db4834f915e8351838f6f19 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
+2d8308bf5b67dff50262d8a9260a50113b3628c6 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 
---===============3829152635830739023==--
+--===============0799154175275161359==--
