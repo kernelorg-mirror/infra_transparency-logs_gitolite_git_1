@@ -1,50 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============0915730758598594613=="
+Content-Type: multipart/mixed; boundary="===============3829152635830739023=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Sun, 15 Dec 2024 00:07:21 -0000
-Message-Id: <173422124122.1076902.17910431322728905256@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Sun, 15 Dec 2024 00:33:42 -0000
+Message-Id: <173422282226.1096453.17121869222784657280@gitolite.kernel.org>
 
---===============0915730758598594613==
+--===============3829152635830739023==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/next
-    old: 372089595366a551da0341f0b3a2d160814fc113
-    new: 5c3f0be500eeccac9d952735c4ad8bcbde5b7ec5
-    log: revlist-372089595366-5c3f0be500ee.txt
+  - ref: refs/heads/crypto-pending
+    old: f8b85ea2c518cd00d2d0411dc11049f271aa6682
+    new: a288e1c9bba925dcc65ce59e6850cdde981fbdee
+    log: revlist-f8b85ea2c518-a288e1c9bba9.txt
 
---===============0915730758598594613==
+--===============3829152635830739023==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-372089595366-5c3f0be500ee.txt
+Content-Disposition: attachment; filename=revlist-f8b85ea2c518-a288e1c9bba9.txt
 
-d5bdde0b38c1d17f39ad6d41d16af33357b329b2 PCI/ACPI: Constify 'struct bin_attribute'
-76850b54943ffd5037c97cc27794449ce05c31e9 PCI: endpoint: Replace magic number '6' by PCI_STD_NUM_BARS
-d4929755e4d02bd3de3ae5569dab69cb9502c54f PCI: endpoint: Destroy the EPC device in devm_pci_epc_destroy()
-e0be8511ff50bec4927ec9bc27bf0a0eea5e8f63 PCI: endpoint: Simplify pci_epc_get()
-3b9f942eb21c92041905e3943a8d5177c9a9d89d PCI: endpoint: Finish virtual EP removal in pci_epf_remove_vepf()
-d3b337c5d7716615a994e59b9566d5ea9adc588e PCI: Export pci_intx_unmanaged() and pcim_intx()
-c3558e37c93b5f555439ff829bb4a8b5654ef35c drivers/xen: Use never-managed version of pci_intx()
-1db806ec06b7c6e08e8af57088da067963ddf117 PCI/ASPM: Save parent L1SS config in pci_save_aspm_l1ss_state()
-5f2050a87a5df288b849ff18337d7fdfa57367df ntb: Use never-managed version of pci_intx()
-8fb24ace8d83351ad494426bc950eb43148cf473 misc: Use never-managed version of pci_intx()
-00eb234c86ed05c4bd92e9718eac2251fd4708a5 vfio/pci: Use never-managed version of pci_intx()
-fb79d4756414dda0e547edf0a63228df78553b5c PCI/MSI: Use never-managed version of pci_intx()
-893e7b3867c481e8c5a7717443de31150cdb4291 ata: Use always-managed version of pci_intx()
-a31ef0835f7a4031cf81cc9644948676b5daa6fb wifi: qtnfmac: use always-managed version of pcim_intx()
-1cd105fd1a6d1f489ad8c6ed4af177b953ca5ad0 HID: amd_sfh: Use always-managed version of pcim_intx()
-ee1d0a0ba27e6d7f355d7994606ecdcc803a3742 Merge branch 'pci/aspm'
-89c56221cc1d8c57b0a3b977946e712fee07b976 Merge branch 'pci/constify'
-c0e7928457823faac481d2875052a4fdd5dbf4c9 Merge branch 'pci/devres'
-46eaca84c85f00fd8ba83cf253de4c2c8906da81 Merge branch 'pci/resource'
-5c3f0be500eeccac9d952735c4ad8bcbde5b7ec5 Merge branch 'pci/endpoint'
+5278275c1758a38199b43530adfc50098f4b41c7 crypto: qce - fix goto jump in error path
+e80cf84b608725303113d6fe98bb727bf7b7a40d crypto: qce - unregister previously registered algos in error path
+d66b1ab3554672750010ae96b651f431da6b687f crypto: qce - remove unneeded call to icc_set_bw() in error path
+6bca1f0cadc45f3e16e074d3fba7da9cf0f56f80 crypto: qce - shrink code with devres clk helpers
+cf96b0d6fbc9f92451a071a98b527021196bf7d6 crypto: qce - convert qce_dma_request() to use devres
+c151535cf46fd0b6cc34884762dd1610c628bac1 crypto: qce - make qce_register_algs() a managed interface
+ce8fd0500b741b3669c246cc604f1f2343cdd6fd crypto: qce - use __free() for a buffer that's always freed
+eb7986e5e14d3db69e387da2c8bcef92b4c1a625 crypto: qce - convert tasklet to workqueue
+3382c44f0c6fb26469b1df75575643c68c421291 crypto: qce - switch to using a mutex
+f1e532d05aa615d7c9a6c430190261ca35c0367a crypto: ccp - Use scoped guard for mutex
+49b9258b05b97c6464e1964b6a2fddb3ddb65d17 crypto: qce - fix priority to be less than ARMv8 CE
+9cda46babdfed9804214b1eecb4219786d91c9c7 crypto: n2 - remove Niagara2 SPU driver
+07d58e0a60f70b3cc176c9427d1ea856d1756820 crypto: skcipher - remove support for physical address walks
+8d90528228adcc091b41244fab4d0003d59bdba4 crypto: anubis - stop using cra_alignmask
+6c178fd66b4de03101fefe91e1a987052051add2 crypto: aria - stop using cra_alignmask
+5e252f490c1c2c989cdc2ca50744f30fbca356b4 crypto: tea - stop using cra_alignmask
+7e0061586f1d6a38641a2f444855c1ddeb10d17e crypto: khazad - stop using cra_alignmask
+047ea6d85ee32c768ceec9a3ad6b7f403971aa63 crypto: seed - stop using cra_alignmask
+a6185842d1b8e7ef5a1a239f26361a39cc291a0b crypto: x86 - remove assignments of 0 to cra_alignmask
+5478ced4783cfc84ee5f0a4945ce61e8d111bef9 crypto: aegis - remove assignments of 0 to cra_alignmask
+f916e44487f56df4827069ff3a2070c0746dc511 crypto: keywrap - remove assignment of 0 to cra_alignmask
+da471874d9dcb729c8f359fa0b75203be6c2bbc0 crypto: x86/aes-gcm - code size optimization
+b54ae6381059aad1f3b3b44809743bbe5a48f588 crypto: x86/aes-gcm - tune better for AMD CPUs
+faf21c26dcc17fb05a45868a2df8a61cebd898a0 crypto: x86/aes-xts - use .irp when useful
+ce26d14801fc5fa6c522a0824de0786abe2d640c crypto: x86/aes-xts - make the register aliases per-function
+f62194a14f0bc956eb7dbe669c511699916b5636 crypto: x86/aes-xts - improve some comments
+f6e85ddbe7f4d59da2ec49c46855fad5907ae8e3 crypto: x86/aes-xts - change len parameter to int
+6d21b6acf36a1268136d018f6021ea9f1aa7e1c6 crypto: x86/aes-xts - more code size optimizations
+a288e1c9bba925dcc65ce59e6850cdde981fbdee crypto: x86/aes-xts - additional optimizations
 
---===============0915730758598594613==--
+--===============3829152635830739023==--
