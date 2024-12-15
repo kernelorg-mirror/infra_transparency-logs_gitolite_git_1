@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1860130435799712923=="
+Content-Type: multipart/mixed; boundary="===============2538416718447830094=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sun, 15 Dec 2024 09:32:28 -0000
-Message-Id: <173425514863.1569956.11987987228622136928@gitolite.kernel.org>
+Date: Sun, 15 Dec 2024 09:33:33 -0000
+Message-Id: <173425521353.1570687.40977626237161964@gitolite.kernel.org>
 
---===============1860130435799712923==
+--===============2538416718447830094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,240 +16,241 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: sashal
 changes:
   - ref: refs/heads/queue/5.10
-    old: f31a69f85527c9f3e58f4c296012cf30300ef109
-    new: 9401a021f881c1c71b191d0513a9955645a449fd
-    log: revlist-f31a69f85527-9401a021f881.txt
+    old: 9401a021f881c1c71b191d0513a9955645a449fd
+    new: 831f9d2a623ae982442779aaa63f9931374e1940
+    log: revlist-9401a021f881-831f9d2a623a.txt
   - ref: refs/heads/queue/5.15
-    old: d090717df647cb80b06195b8dd47a8e708d062a1
-    new: d2aa235454acdad342f15c0d5673903054b6f523
-    log: revlist-d090717df647-d2aa235454ac.txt
+    old: d2aa235454acdad342f15c0d5673903054b6f523
+    new: d92bf5293dcd3ea625a57aef8add8c40a1d0ba33
+    log: revlist-d2aa235454ac-d92bf5293dcd.txt
   - ref: refs/heads/queue/5.4
-    old: 903fab9f5debf094c53cd696f2f53d67b9b81dc2
-    new: 44c06082550f4bd4f7ab1fc51eeedb19a73343a5
+    old: 44c06082550f4bd4f7ab1fc51eeedb19a73343a5
+    new: f6c7b7daa10c17acc1248484404be40b87b8e64a
     log: |
-         99aa60721b54968673e5d87d67e7bc1e6881dc5e usb: host: max3421-hcd: Correctly abort a USB request.
-         d1f5f08d22d25f2097dceb5e0a714ccb1d73b51f ata: sata_highbank: fix OF node reference leak in highbank_initialize_phys()
-         56c4d4ca886f60e08d682a1eb84287928c17a3c6 usb: dwc2: hcd: Fix GetPortStatus & SetPortFeature
-         81f843888498501bfff1ff180c425d1b17f5cb5c usb: ehci-hcd: fix call balance of clocks handling routines
-         e1ea1b1c9d877a0bc41bf3912dd20a9308f49756 usb: gadget: u_serial: Fix the issue that gs_start_io crashed due to accessing null pointer
-         0e4324f3e66ab14b2289656e06766cafa3c27e70 xfs: don't drop errno values when we fail to ficlone the entire range
-         44c06082550f4bd4f7ab1fc51eeedb19a73343a5 bpf, sockmap: Fix update element with same
+         cf257044198d79c819b6897483a7843c61ddf832 usb: host: max3421-hcd: Correctly abort a USB request.
+         f3c74b07d39f7f7e2f1ebb4d13340f5572017123 ata: sata_highbank: fix OF node reference leak in highbank_initialize_phys()
+         101268e1a9ee1e9e40955f219286c9728611c44b usb: dwc2: hcd: Fix GetPortStatus & SetPortFeature
+         0a3f9f4151cda441df0a4b1bbc5d4b61b83c9c66 usb: ehci-hcd: fix call balance of clocks handling routines
+         79f3b791fc2ded4660b3c77fbff4996cebaf48c3 usb: gadget: u_serial: Fix the issue that gs_start_io crashed due to accessing null pointer
+         908d3d5483b5c52fa07ddb0b7ff1458a2972cc71 xfs: don't drop errno values when we fail to ficlone the entire range
+         f6c7b7daa10c17acc1248484404be40b87b8e64a bpf, sockmap: Fix update element with same
          
   - ref: refs/heads/queue/6.1
-    old: 64443533b14ed45e31ffc8b65947a91237df3b98
-    new: d6dfc54942eb5c4b81616fc171f3c262615bc4e4
-    log: revlist-64443533b14e-d6dfc54942eb.txt
+    old: d6dfc54942eb5c4b81616fc171f3c262615bc4e4
+    new: 32834afb474070964102369363d176fdf6ea7dc4
+    log: revlist-d6dfc54942eb-32834afb4740.txt
   - ref: refs/heads/queue/6.12
-    old: 01724bd579345bb6971886f94333bbdd024d37c8
-    new: 10437b30de238e1227676ca1db125dc560b871f2
-    log: revlist-01724bd57934-10437b30de23.txt
+    old: 10437b30de238e1227676ca1db125dc560b871f2
+    new: 244256dc1f38ab3a71b95bd329ae0f598048c1bb
+    log: revlist-10437b30de23-244256dc1f38.txt
   - ref: refs/heads/queue/6.6
-    old: 503ef1c3a3cfea1db9575d237678f946cb2489d4
-    new: 0ae7bc23a443ca229cc804b3e2da876e472f7862
-    log: revlist-503ef1c3a3cf-0ae7bc23a443.txt
+    old: 0ae7bc23a443ca229cc804b3e2da876e472f7862
+    new: b15ff89932e04281f8a600abfa1f4e55cda46290
+    log: revlist-0ae7bc23a443-b15ff89932e0.txt
 
---===============1860130435799712923==
+--===============2538416718447830094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f31a69f85527-9401a021f881.txt
+Content-Disposition: attachment; filename=revlist-9401a021f881-831f9d2a623a.txt
 
-76c1d34f3b499c214e4b5bc1db224910653754a8 tcp: check space before adding MPTCP SYN options
-100aad94e8a99a0a5c4806aa17b1640ab5a4297f usb: host: max3421-hcd: Correctly abort a USB request.
-81ee73cfdae206509f65cb3e000ce31705cf2dc4 ata: sata_highbank: fix OF node reference leak in highbank_initialize_phys()
-cbb318cfe6a5bc0f94de98f738cba04bf00a10b8 usb: dwc2: hcd: Fix GetPortStatus & SetPortFeature
-a172ff4517d6628c7bf72da6797e925376c51a6c usb: ehci-hcd: fix call balance of clocks handling routines
-bf72d0ce8bd3f02bcd28b05153a43818c4c9a0ea usb: gadget: u_serial: Fix the issue that gs_start_io crashed due to accessing null pointer
-bd3815cec3b99215aeeba07c5b1ed47ac2ad7a39 xfs: don't drop errno values when we fail to ficlone the entire range
-ab80eeefd17c95f2ebfd66e11148104c67627e34 xfs: fix scrub tracepoints when inode-rooted btrees are involved
-649eead58b82332905ad5988cd056bda6dc9396f bpf, sockmap: Fix update element with same
-ae5e6c0feb5b15aa578e44aa5e2a754a4977b617 virtio/vsock: Fix accept_queue memory leak
-9401a021f881c1c71b191d0513a9955645a449fd exfat: fix potential deadlock on __exfat_get_dentry_set
+691188fedbad6993af2e3c8da700830dbcc6f580 tcp: check space before adding MPTCP SYN options
+2d8f2c58846e29eb3cef40beac01907af4e3a21f usb: host: max3421-hcd: Correctly abort a USB request.
+31f5e9198c2e0861bc05955350bd14743786d48f ata: sata_highbank: fix OF node reference leak in highbank_initialize_phys()
+109cd5aa2d5115285a9dd53f938cdabcb099ea10 usb: dwc2: hcd: Fix GetPortStatus & SetPortFeature
+60782414a181cb4bbcb1b7235b753d2f899094c6 usb: ehci-hcd: fix call balance of clocks handling routines
+118ee44a7f31d8d5078f0fe6efebf55057a6e090 usb: gadget: u_serial: Fix the issue that gs_start_io crashed due to accessing null pointer
+4189802ba304ca533686a55ebf512ac943953f82 xfs: don't drop errno values when we fail to ficlone the entire range
+f7538e10d5ab1e8c07809a7cdf9af99a4c5e5ff1 xfs: fix scrub tracepoints when inode-rooted btrees are involved
+0ef9a67fe67c318866d70e62ad4077f70e676f75 bpf, sockmap: Fix update element with same
+a5a34fb2f6c4d06e211e4d350e8b1d6ade8f5cb0 virtio/vsock: Fix accept_queue memory leak
+831f9d2a623ae982442779aaa63f9931374e1940 exfat: fix potential deadlock on __exfat_get_dentry_set
 
---===============1860130435799712923==
+--===============2538416718447830094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d090717df647-d2aa235454ac.txt
+Content-Disposition: attachment; filename=revlist-d2aa235454ac-d92bf5293dcd.txt
 
-268860a4f819063cc328f3955ba08d041220fe7a tcp: check space before adding MPTCP SYN options
-defbf529464f6ca9170013df4f7969e7785cf0e9 ALSA: usb-audio: Add implicit feedback quirk for Yamaha THR5
-908e11d08c9c23ec1f5d06de908ff107340d6bf9 riscv: Fix IPIs usage in kfence_protect_page()
-9673bfbc9328835865602df77baaaad980a4838e usb: host: max3421-hcd: Correctly abort a USB request.
-0148391c87726a9465e6e871c4a3013790a3660f ata: sata_highbank: fix OF node reference leak in highbank_initialize_phys()
-e27c6695895e2cc5b7a1b0d0ed88dd676042eeeb usb: dwc2: Fix HCD resume
-bd849ed0bc46829964ff63de27938676e1b17ae9 usb: dwc2: hcd: Fix GetPortStatus & SetPortFeature
-6275e5a945ced87605d2f9765aaf24657a638778 usb: dwc2: Fix HCD port connection race
-1a58ce3cd61d97c231d2fb6dd52e5d4b4bf9504b usb: ehci-hcd: fix call balance of clocks handling routines
-8ef46676951cbc07c935c6afeabc963865e42a46 usb: gadget: u_serial: Fix the issue that gs_start_io crashed due to accessing null pointer
-f388a9ededb26afcd30205ccf02c6b8d37381006 drm/i915: Fix memory leak by correcting cache object name in error handler
-42745a930bbb79eedc7cc87221f580b37406ad89 xfs: update btree keys correctly when _insrec splits an inode root block
-80f93955dfab5d92de27ab9f3b30a2eb29b64481 xfs: don't drop errno values when we fail to ficlone the entire range
-1f5cce4470af4ba968dcb843c500109fcb4e1152 xfs: return from xfs_symlink_verify early on V4 filesystems
-2279066b920421337996c296d7f79a1d0f04a6ab xfs: fix scrub tracepoints when inode-rooted btrees are involved
-ca700d5c192bd669d3ca7d836f9f5aacc53e1de9 bpf, sockmap: Fix update element with same
-d2aa235454acdad342f15c0d5673903054b6f523 virtio/vsock: Fix accept_queue memory leak
+40fd028f81c313f63b03c3edd543ea1b5d449c50 tcp: check space before adding MPTCP SYN options
+f21a1a4e47fb9d64ad03bcddc12ae6096e3c35be ALSA: usb-audio: Add implicit feedback quirk for Yamaha THR5
+85dd62de1e90117875d500e6829f988397c5de4a riscv: Fix IPIs usage in kfence_protect_page()
+4b978b96779657910f8cf750331f6df76dbf6055 usb: host: max3421-hcd: Correctly abort a USB request.
+07322462fe7c7b08a3eed180a4202545445ff30f ata: sata_highbank: fix OF node reference leak in highbank_initialize_phys()
+69b11956a6e1c8d0580a9dee077640d344444cae usb: dwc2: Fix HCD resume
+29f5a22f64f097c26233ed40461ff4cb5d09638c usb: dwc2: hcd: Fix GetPortStatus & SetPortFeature
+64c2738427b3fb158fd9b5edcdceec21b5c5f631 usb: dwc2: Fix HCD port connection race
+064044b50e0ddb8d57692f39175b40617d4f01f8 usb: ehci-hcd: fix call balance of clocks handling routines
+7891a809e359881718e2f2b8c014c61416c88e51 usb: gadget: u_serial: Fix the issue that gs_start_io crashed due to accessing null pointer
+3134451396a2cbbf77f358866f9c1a51cc90e058 drm/i915: Fix memory leak by correcting cache object name in error handler
+a81e4de8e5efc8ef56e4b81cc424360b73be2b2d xfs: update btree keys correctly when _insrec splits an inode root block
+e32be0ce482fae71aca064d8893cea3877246abf xfs: don't drop errno values when we fail to ficlone the entire range
+a151afa16bd7d155f581e66c46c4913efac62381 xfs: return from xfs_symlink_verify early on V4 filesystems
+797dc99710340587978a421072ca3b366628bda3 xfs: fix scrub tracepoints when inode-rooted btrees are involved
+c1fcbb934f1a794fcc28c53967e9b8216ba873e0 bpf, sockmap: Fix update element with same
+733ae9ea287e404c0fe470276c4d9930a0033db1 virtio/vsock: Fix accept_queue memory leak
+d92bf5293dcd3ea625a57aef8add8c40a1d0ba33 exfat: fix potential deadlock on __exfat_get_dentry_set
 
---===============1860130435799712923==
+--===============2538416718447830094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-64443533b14e-d6dfc54942eb.txt
+Content-Disposition: attachment; filename=revlist-d6dfc54942eb-32834afb4740.txt
 
-04c10b52e63c1ab5b92d5b1e4d4ff090b9fb2e10 bpf: Fix UAF via mismatching bpf_prog/attachment RCU flavors
-b7471a637094f8ed6dab3efd0972371c925071aa ksmbd: fix racy issue from session lookup and expire
-afa248ba39fc1f95658b14eb54b62f6b99af352b tcp: check space before adding MPTCP SYN options
-1a4f99e7588d451285c1c4cad7bb040cec26332f blk-cgroup: Fix UAF in blkcg_unpin_online()
-6887806ae9e384f7b020a835fb7ca95b5d8b74e1 ALSA: usb-audio: Add implicit feedback quirk for Yamaha THR5
-28be3b321970467377ec2185096d53b7880663ba riscv: Fix IPIs usage in kfence_protect_page()
-df37b7b4c0ea326516e872d32722fbd3993192a0 usb: host: max3421-hcd: Correctly abort a USB request.
-0333044e1561466290449e42ef642225e703e7b0 ata: sata_highbank: fix OF node reference leak in highbank_initialize_phys()
-3df6e4799160c360ed303b4c13584c290a1e1443 usb: dwc2: Fix HCD resume
-88b29df9c4c86f01ca0463788df062917b9a9a1a usb: dwc2: hcd: Fix GetPortStatus & SetPortFeature
-84e782221b4ae3c7bfd9f07cfba883c38a3b4dd2 usb: dwc2: Fix HCD port connection race
-018a9c0b318bdb9fe2442ddc440abaa0c10a72ee usb: ehci-hcd: fix call balance of clocks handling routines
-bc46cb9f1770276e41b6ae6332c6a1d537d75cd1 usb: typec: anx7411: fix fwnode_handle reference leak
-ebaeb896de06e2d96ed52674d383d97bb11e82c9 usb: typec: anx7411: fix OF node reference leaks in anx7411_typec_switch_probe()
-019404cc7fc98891f4376cd03f706132cd4eb25c usb: gadget: u_serial: Fix the issue that gs_start_io crashed due to accessing null pointer
-4eb0287d7eb237896089edd9d631a3e041ae3632 usb: dwc3: xilinx: make sure pipe clock is deselected in usb2 only mode
-36bad05d9b50881b7d0cdf9d5105daf38c053b53 drm/i915: Fix memory leak by correcting cache object name in error handler
-29443190d10f22c46910aaa5f3b217d3c40c5946 xfs: update btree keys correctly when _insrec splits an inode root block
-3ac2025cf534b9017c413d6b24793c24c44e0315 xfs: don't drop errno values when we fail to ficlone the entire range
-28090083f5175cdf19923d8677925539a5c5bb18 xfs: return from xfs_symlink_verify early on V4 filesystems
-71653a5758c553911b74284dcf98a93ae134a558 xfs: fix scrub tracepoints when inode-rooted btrees are involved
-03dd0789a341b302a2383174f9f466df08dac492 xfs: only run precommits once per transaction object
-b0438344258b3b6fb395c32279763cff119f5db3 bpf,perf: Fix invalid prog_array access in perf_event_detach_bpf_prog
-585825c359f8f81ce1c812fa388409b2caa9b9bc bpf, sockmap: Fix update element with same
-c490c37cf866b7cb9f320a24d83f7acb07895248 smb: client: fix UAF in smb2_reconnect_server()
-a6ec65d2d2bd74446a1b898b0e6af2b629f75bbc exfat: support dynamic allocate bh for exfat_entry_set_cache
-d6dfc54942eb5c4b81616fc171f3c262615bc4e4 exfat: fix potential deadlock on __exfat_get_dentry_set
+ded57d956cb9192f2ea7d04579b89b48bc7e1cf3 bpf: Fix UAF via mismatching bpf_prog/attachment RCU flavors
+fcb087d9a1841c5fcf7fae9c2502d5a3cc3223d4 ksmbd: fix racy issue from session lookup and expire
+3ba15e6987cbdd2fe6e232a782b6602dceaccf38 tcp: check space before adding MPTCP SYN options
+ad86a552760777b7386fb1df064e2ab151233544 blk-cgroup: Fix UAF in blkcg_unpin_online()
+86e35aac591a9b084e12064bad9713da502a481f ALSA: usb-audio: Add implicit feedback quirk for Yamaha THR5
+84c5a6cf315c3229e194c77405eafdd860c71f52 riscv: Fix IPIs usage in kfence_protect_page()
+82409e2eca3465820f19b934a27807127b5380e4 usb: host: max3421-hcd: Correctly abort a USB request.
+534498aa0a83ab62e80e882a0835099a20b9b41e ata: sata_highbank: fix OF node reference leak in highbank_initialize_phys()
+cd8857ccb6157a2394bcf9f6081c75d17624ea45 usb: dwc2: Fix HCD resume
+1241f02851c6e3a73c44f4306a263aace9f286ab usb: dwc2: hcd: Fix GetPortStatus & SetPortFeature
+4d00fddcb69d5512e8a61e2b1a8256927e9c05ea usb: dwc2: Fix HCD port connection race
+43fc35a55394879c5f2076dd3717c29803bd199f usb: ehci-hcd: fix call balance of clocks handling routines
+10ac8b8ba7775f95e41dc2626ce29f638cee9998 usb: typec: anx7411: fix fwnode_handle reference leak
+ec1577bd446908484866b8592c3f88a85f5515eb usb: typec: anx7411: fix OF node reference leaks in anx7411_typec_switch_probe()
+5cbca2dc3a18adaaefbf5bc402bb7d0b17154269 usb: gadget: u_serial: Fix the issue that gs_start_io crashed due to accessing null pointer
+745162b1d03f12a81445566391f573f227493f30 usb: dwc3: xilinx: make sure pipe clock is deselected in usb2 only mode
+02bbc2f5d07e847e119953ee93dedc3d5d8627fc drm/i915: Fix memory leak by correcting cache object name in error handler
+3df0cccb15352e0eb017b9e3e114ebf8b9b325e2 xfs: update btree keys correctly when _insrec splits an inode root block
+45bc6c73091a4907ce91dfb72c3fe270d3cc2256 xfs: don't drop errno values when we fail to ficlone the entire range
+df068fef4c1dacee9d9052d8180f2780936d47af xfs: return from xfs_symlink_verify early on V4 filesystems
+b0909e7eaa031bd1bff278c95ae7c4e2345f0cde xfs: fix scrub tracepoints when inode-rooted btrees are involved
+e137f746d9542a3c9e5ed1388e29773b07903622 xfs: only run precommits once per transaction object
+b544898e262f6a30403c27a1a873b714f75157ff bpf,perf: Fix invalid prog_array access in perf_event_detach_bpf_prog
+5f0a65e68a34cc4913a9db4a907c66fac1e0ef1a bpf, sockmap: Fix update element with same
+9c9c7f39e8cdd53fdc70ff897288a81b16d638db smb: client: fix UAF in smb2_reconnect_server()
+c47c45fda157dae35ee40de00533add904e59326 exfat: support dynamic allocate bh for exfat_entry_set_cache
+32834afb474070964102369363d176fdf6ea7dc4 exfat: fix potential deadlock on __exfat_get_dentry_set
 
---===============1860130435799712923==
+--===============2538416718447830094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-01724bd57934-10437b30de23.txt
+Content-Disposition: attachment; filename=revlist-10437b30de23-244256dc1f38.txt
 
-a9feb20267f0ca384a95157393a57a799d9643b9 usb: misc: onboard_usb_dev: skip suspend/resume sequence for USB5744 SMBus support
-7753a78710785102725bd95553ebe64b2aa9dd9f serial: sh-sci: Check if TX data was written to device in .tx_empty()
-42b909270dcf6f2fe6874104f8d509d9e349b817 bpf: Fix UAF via mismatching bpf_prog/attachment RCU flavors
-83b0a1ae525449a0fbe8ca0e6ae41ec965fba5e1 sched/deadline: Fix replenish_dl_new_period dl_server condition
-5a8982984aab876c56ec7e8123d1966c3dbbdc78 perf/x86/intel/ds: Unconditionally drain PEBS DS when changing PEBS_DATA_CFG
-0ee125810b856a7779de5fd9441e0d506d7bd154 clk: en7523: Fix wrong BUS clock for EN7581
-a778b4d3121c8e772d5b7d0cb15f715b47dfe6b5 ksmbd: fix racy issue from session lookup and expire
-51a51d74df58d3ffaf7d38bbce9c9a6d5d06d039 splice: do not checksum AF_UNIX sockets
-75cf2039b5eee8deed2081b8ccb08473b55ed4a3 tcp: check space before adding MPTCP SYN options
-3fbd4c552d062df0976111b826d32e1dd4493d08 perf ftrace: Fix undefined behavior in cmp_profile_data()
-e81ab8b7f7f46c46ceeda2bb7e63290421dd5b57 virtio_net: correct netdev_tx_reset_queue() invocation point
-a6eb531462f5a7a323a907d8ae493595d5c827d7 virtio_ring: add a func argument 'recycle_done' to virtqueue_resize()
-9387021969697251013ace8dfa7b49c8c8a80175 virtio_net: ensure netdev_tx_reset_queue is called on tx ring resize
-29d87c510001dc078b58a1c8506b19bcfe23712a riscv: mm: Do not call pmd dtor on vmemmap page table teardown
-2c36cc97918e50d784e3c81e354df181afefe606 riscv: Fix wrong usage of __pa() on a fixmap address
-a8d8210c59f01e1e43a596deaf5a4c5e420b0f30 blk-cgroup: Fix UAF in blkcg_unpin_online()
-f4b043bb7217af7bab394bd974748abf768a7dc2 block: Switch to using refcount_t for zone write plugs
-d3b57831df6cadb1424d451ada7abf15cd78b259 block: Use a zone write plug BIO work for REQ_NOWAIT BIOs
-da461875f406d98305924cd865798efcb4d68811 dm: Fix dm-zoned-reclaim zone write pointer alignment
-f07cbf4b397ea32c20da098438abe9ece37c1361 block: Prevent potential deadlocks in zone write plug error recovery
-9e0988be8dd84794ce878436ce7ead05a1c70c9e gpio: graniterapids: Fix GPIO Ack functionality
-70e2a998166957c9780df843045e58ca859abb07 memcg: slub: fix SUnreclaim for post charged objects
-187b4615a8387fa6706dddc4f42af4daec1f51c6 spi: rockchip: Fix PM runtime count on no-op cs
-e26f0a18ae9c4b6e5d93e149d710e36ce0522e83 gpio: ljca: Initialize num before accessing item in ljca_gpio_config
-ddb9648eb6bf168f04a4d6aa62a031e7db6d9727 ALSA: usb-audio: Add implicit feedback quirk for Yamaha THR5
-3073245ae8db0af48c3df10c9723c5fbfc115027 ALSA: hda/realtek: Fix headset mic on Acer Nitro 5
-14d83b678324a61088ab12e24e5e5dd0d3ea2947 riscv: Fix IPIs usage in kfence_protect_page()
-30a724643b18c517a5f49a9bdebb2f93a3e5fa9f crypto: hisilicon/debugfs - fix the struct pointer incorrectly offset problem
-70a813a10432225987b927e6b0dcdce3100bf0e0 drm/panic: remove spurious empty line to clean warning
-07fbfc4d5462e90fe8742cfeb630a7b3184cc331 usb: host: max3421-hcd: Correctly abort a USB request.
-744a9e7acf31b26c77f0f565e093e5bccd892164 block: Ignore REQ_NOWAIT for zone reset and zone finish operations
-c4d2a31acb282fdbf40f0ad4a07d3c16f08d8b88 gpio: graniterapids: Fix vGPIO driver crash
-e19b1d46f060d97b2357716f2ff11e79e62bcce1 gpio: graniterapids: Fix incorrect BAR assignment
-27754647a2c044c379f89ce8bdc93a2030042faa gpio: graniterapids: Fix invalid GPI_IS register offset
-799c793d8943f6761e7c33f4f3daaa71112d3cd4 gpio: graniterapids: Fix invalid RXEVCFG register bitmask
-f739b6d62a2130db04506d515c8d362af921ee23 gpio: graniterapids: Determine if GPIO pad can be used by driver
-f930e405ff9c2a531f85c7a50311427db3111c0d gpio: graniterapids: Check if GPIO line can be used for IRQs
-d9f5ef204e8a72eee3779fb816518f6ddc56bf3b usb: core: hcd: only check primary hcd skip_phy_initialization
-545587e027e26b7abd5bbc76e5272691a50487de bpf: Revert "bpf: Mark raw_tp arguments with PTR_MAYBE_NULL"
-971851c3280b2557f10e8c6a1f3fe0a6aab8f95c ata: sata_highbank: fix OF node reference leak in highbank_initialize_phys()
-998320ebd752cef3f5fbec738d65d110ba4a810c usb: dwc2: Fix HCD resume
-2901fb7d41f9fdbf904da4930875d229b23ab636 usb: dwc2: hcd: Fix GetPortStatus & SetPortFeature
-748977a9281abf9577f2af154fe9ebbc6be494fc usb: dwc2: Fix HCD port connection race
-ecca75a25015a15591ef02f08f816b0b497feebc scsi: ufs: core: Update compl_time_stamp_local_clock after completing a cqe
-3f67df37eb8b8a7078b1a78cd0abf9e08a422197 usb: gadget: midi2: Fix interpretation of is_midi1 bits
-230e0f141d71dd032a13a13cc16adf13e446eb3d usb: ehci-hcd: fix call balance of clocks handling routines
-98165c7a0a9e3ae4d46c5398705bbb95099d4593 usb: typec: anx7411: fix fwnode_handle reference leak
-dafd8ac17e28672f482e506919b30e27d908cfca usb: dwc3: imx8mp: fix software node kernel dump
-4ae72d2dc93394bdcf45352e576fec5cb11d6b78 usb: typec: anx7411: fix OF node reference leaks in anx7411_typec_switch_probe()
-d21dc261a780d47b60d30c74fe3f42f4985edf6b usb: gadget: u_serial: Fix the issue that gs_start_io crashed due to accessing null pointer
-8d5dab7df65c9d0ecb7ab6f0233dae12aacffb51 usb: typec: ucsi: Fix completion notifications
-900afde4a3e70410987099ae7d116edf54409454 usb: dwc3: xilinx: make sure pipe clock is deselected in usb2 only mode
-23e14f5fac5649c22a9fe8d4ea5085e0f6a5e5f6 iommu/tegra241-cmdqv: do not use smp_processor_id in preemptible context
-9d397ad041b87b12f44aaefdd2ff1722bc734b0b iommu/vt-d: Remove cache tags before disabling ATS
-c9db2e3d943f59d8740db9fe1d4ab9bea7f36faa iommu/vt-d: Fix qi_batch NULL pointer with nested parent domain
-0a2100f81e5a4f0ee8f25d9c418dfd46e63901a8 drm/xe: Call invalidation_fence_fini for PT inval fences in error state
-bac6ff3047e8800b98aaf7810f9dd4ab995141af drm/amdkfd: pause autosuspend when creating pdd
-6a955944b129240622f9207943787667791c95e9 drm/i915: Fix memory leak by correcting cache object name in error handler
-0f06020741ba212dd3bfafcf9c47a17d64e41563 drm/i915/color: Stop using non-posted DSB writes for legacy LUT
-6e18ee783689d571c687a6489b9d27e2da22fcf0 drm/i915: Fix NULL pointer dereference in capture_engine
-9bea171bb9bede2333acfeb4f2b4e3f0870eadc2 drm/amdgpu: fix UVD contiguous CS mapping problem
-856a025868cc3bb2b842a35ee0fa67da51c0b48a drm/amd/pm: Set SMU v13.0.7 default workload type
-dcd39c9e5c82536877095f7a29a792fe5359f291 drm/amdgpu: fix when the cleaner shader is emitted
-6f4409d1360463751ca32f1af78fbb7795837c5d drm/amdkfd: Dereference null return value
-1af8583c4c355f3bc5e9b750344bad85ce9850fc drm/amdkfd: hard-code cacheline size for gfx11
-685b805c32fba7b7d809e5f282d4df2bd7cc4a22 drm/amdkfd: hard-code MALL cacheline size for gfx11, gfx12
-255221a988ae585af6d6a427d487fe722f697e35 xfs: set XFS_SICK_INO_SYMLINK_ZAPPED explicitly when zapping a symlink
-9e64b08122356a041862064c410393a078ed3cd0 xfs: update btree keys correctly when _insrec splits an inode root block
-36fc43f33813faadb5197ae0e8ace610932a875d xfs: don't drop errno values when we fail to ficlone the entire range
-bb3cdbd9ad5004fc70502f1e75f0e54101c9476d xfs: return a 64-bit block count from xfs_btree_count_blocks
-35ffb0c0516032df1ddf36f22e7b1a308cd094c5 xfs: fix null bno_hint handling in xfs_rtallocate_rtg
-8842554025a5936e7decac9745bc0ab0a38a1891 xfs: return from xfs_symlink_verify early on V4 filesystems
-dc9fdbb4aeea7234f42455f67f6622dc1ce6ac8a xfs: fix scrub tracepoints when inode-rooted btrees are involved
-9a112c0ed37777347dab381106a99d2c2b44aae5 xfs: only run precommits once per transaction object
-f481dfc24e37682260ac18e2c19d9f9f054ad509 xfs: unlock inodes when erroring out of xfs_trans_alloc_dir
-decb7388e838aab54125de3e0843b47cb143b87c bpf: Check size for BTF-based ctx access of pointer members
-5fa6ff6d943cba14e7621c7e59bb730a282b520b bpf: Fix theoretical prog_array UAF in __uprobe_perf_func()
-55b84663c0321a1959e429842e988bbb897a2d24 bpf,perf: Fix invalid prog_array access in perf_event_detach_bpf_prog
-51952f7216ee9394786d07a8050563704619becb bpf, sockmap: Fix race between element replace and close()
-10437b30de238e1227676ca1db125dc560b871f2 bpf, sockmap: Fix update element with same
+ed97b2f0e0703721c981017b672db426226e111d usb: misc: onboard_usb_dev: skip suspend/resume sequence for USB5744 SMBus support
+67ea9206699008749b96b35584674b2bfbb8b52d serial: sh-sci: Check if TX data was written to device in .tx_empty()
+12a69e5b1e362303bb35b103d79cfbf433b8b29f bpf: Fix UAF via mismatching bpf_prog/attachment RCU flavors
+8cd3f02d036698662d2a2f2f5dd059a3dd5825b6 sched/deadline: Fix replenish_dl_new_period dl_server condition
+6458e8d66ae6dc65f62dac64f1cd3ab76093f357 perf/x86/intel/ds: Unconditionally drain PEBS DS when changing PEBS_DATA_CFG
+1192f7c26aea86727744fcdeba89e058d89ce8f0 clk: en7523: Fix wrong BUS clock for EN7581
+f3301b3afe16600eb0cba56754eaf83a42e6547c ksmbd: fix racy issue from session lookup and expire
+583be4d3af1f8e7d31579222fa7de3ab7f7cf3fa splice: do not checksum AF_UNIX sockets
+c07cbee32f31e4665131c2bbdce630eb2de777b2 tcp: check space before adding MPTCP SYN options
+91e8cebf31e5bff6cf63f723bcaf0371164e85be perf ftrace: Fix undefined behavior in cmp_profile_data()
+842529eb67805f114576f44377f8fe22dce6ffc0 virtio_net: correct netdev_tx_reset_queue() invocation point
+9abf7b722adf42ca3e0275f44fd3b95225586ea7 virtio_ring: add a func argument 'recycle_done' to virtqueue_resize()
+b9da00cc748e1034d74ddb02d3502ceced0488b6 virtio_net: ensure netdev_tx_reset_queue is called on tx ring resize
+3f532b9349c240f9bf176a2eda1231c3ca10df55 riscv: mm: Do not call pmd dtor on vmemmap page table teardown
+9de4e716cbbd6679b3efd1547698432886a03b7e riscv: Fix wrong usage of __pa() on a fixmap address
+24969791ca8a9358336bfb2ca1fa17e95c03b184 blk-cgroup: Fix UAF in blkcg_unpin_online()
+ea63b00cf2281126906d44c728ed38ce56a18ea7 block: Switch to using refcount_t for zone write plugs
+70f2caf14d28c8f7680446990118e88877fcc74f block: Use a zone write plug BIO work for REQ_NOWAIT BIOs
+ff46d3195a04f6bfe9fff920c07a797951ec4592 dm: Fix dm-zoned-reclaim zone write pointer alignment
+035d2314b946466420d730b5f89e8c684e4bee33 block: Prevent potential deadlocks in zone write plug error recovery
+d62ca82ede90af2828a44bb51cc831d00b5fc941 gpio: graniterapids: Fix GPIO Ack functionality
+1f82394d44e553da2a533cc900353742f3e30353 memcg: slub: fix SUnreclaim for post charged objects
+30762dec0bc1c887e936e97cce1d769a9af3be39 spi: rockchip: Fix PM runtime count on no-op cs
+087f8ad198549e3392aa393c713b3a20246a9e48 gpio: ljca: Initialize num before accessing item in ljca_gpio_config
+73b5b950d256c81fac67ca6bb4a75b580ae91853 ALSA: usb-audio: Add implicit feedback quirk for Yamaha THR5
+e3ef14793085a308e4729fb3f7fba7f38b8740ae ALSA: hda/realtek: Fix headset mic on Acer Nitro 5
+22a01fe0c6f52f3dd8d4ea2ffcbd43ce877979c7 riscv: Fix IPIs usage in kfence_protect_page()
+02409918ed02e44de05c439db4b5673633660e1c crypto: hisilicon/debugfs - fix the struct pointer incorrectly offset problem
+53703b83d1d69df8d4c50866ae7519fa6e1d57c1 drm/panic: remove spurious empty line to clean warning
+fe0609278c50a091f850108436be44cd2af52748 usb: host: max3421-hcd: Correctly abort a USB request.
+65a568cc96326972ece2de383ad45bd6f81fd092 block: Ignore REQ_NOWAIT for zone reset and zone finish operations
+d6668677d6dc7fea22192b138c59c325329190cb gpio: graniterapids: Fix vGPIO driver crash
+8a64c18631e50a23539fdc81274d84532f08fd8b gpio: graniterapids: Fix incorrect BAR assignment
+fae06c2342e101b0374eb2dbb080688edf8a9bf6 gpio: graniterapids: Fix invalid GPI_IS register offset
+1052b7a59a8909e28dfc5d66109f3e20871c5204 gpio: graniterapids: Fix invalid RXEVCFG register bitmask
+94d40d3bc7efc6ba687f0b356bed529e52328ea0 gpio: graniterapids: Determine if GPIO pad can be used by driver
+ed212e832ad59f35eb27e7ad038e030ac76038e4 gpio: graniterapids: Check if GPIO line can be used for IRQs
+60e796ba9fb004f39bc77d08eccfd7cddadb6e4a usb: core: hcd: only check primary hcd skip_phy_initialization
+baacf0d4e59a4d484b3c568cfdfd19a86749b600 bpf: Revert "bpf: Mark raw_tp arguments with PTR_MAYBE_NULL"
+831696dab87b6e894ca6746694b2e44860760731 ata: sata_highbank: fix OF node reference leak in highbank_initialize_phys()
+78d8288fec9a36ac2aff66ce54408710656f6620 usb: dwc2: Fix HCD resume
+3e22ef1d2ca4522973afd846186c48800d9149a4 usb: dwc2: hcd: Fix GetPortStatus & SetPortFeature
+f4c6df8c93aba26bcfb6748b908ebc68f3cf0f6c usb: dwc2: Fix HCD port connection race
+53c04acf296190ee8bb65d24f464b24903cc4ffb scsi: ufs: core: Update compl_time_stamp_local_clock after completing a cqe
+e89b437cc6288836600fac8f9b5a3e9c332814d9 usb: gadget: midi2: Fix interpretation of is_midi1 bits
+a8192e1f67f026d52bd7966ac7b6d0ac3c291b7c usb: ehci-hcd: fix call balance of clocks handling routines
+deecbd98eba73f2a6a59051c2f51bfdace7ed6e9 usb: typec: anx7411: fix fwnode_handle reference leak
+029ae8aefcd702d90ea636ab1a28744ca573ce1a usb: dwc3: imx8mp: fix software node kernel dump
+c64c98a2030ba3d3b5420a231f602ce15258350f usb: typec: anx7411: fix OF node reference leaks in anx7411_typec_switch_probe()
+e75776e5a5f3d0b8c54d78cc4bc3bb42a4360457 usb: gadget: u_serial: Fix the issue that gs_start_io crashed due to accessing null pointer
+e95ccd44a733e954ad5fd63f223e33febe9381cf usb: typec: ucsi: Fix completion notifications
+351351ee8e2a4a2c8e05d98a1f96beb9062842c2 usb: dwc3: xilinx: make sure pipe clock is deselected in usb2 only mode
+668a432240b7dda8c867cc7ff288df6a4d81f79b iommu/tegra241-cmdqv: do not use smp_processor_id in preemptible context
+65b58eac12fd11b5bc835386ec09a6b5332d0853 iommu/vt-d: Remove cache tags before disabling ATS
+0047b193be8dff7ab682a23479d0f108525e998b iommu/vt-d: Fix qi_batch NULL pointer with nested parent domain
+9d5f3c12d785e916f06d7f45d421913a5cad0790 drm/xe: Call invalidation_fence_fini for PT inval fences in error state
+e8becdc59d160d01b704f628ab95cf92187481c6 drm/amdkfd: pause autosuspend when creating pdd
+3daa73608e2e33862575301880f2f452ec0428fd drm/i915: Fix memory leak by correcting cache object name in error handler
+25e3cbff3ca72756468f83eb160eb764e8fb41a0 drm/i915/color: Stop using non-posted DSB writes for legacy LUT
+389b025a8021d2d98c2bdb8ada4d1416ab5a1b17 drm/i915: Fix NULL pointer dereference in capture_engine
+9ef54fcef0b69252743478717ce86d53a08c9a03 drm/amdgpu: fix UVD contiguous CS mapping problem
+4f59c704b0af7ce2e15e5b2e929e03dbe3951e2b drm/amd/pm: Set SMU v13.0.7 default workload type
+8ee5f8c96e656da8730fcd3c0a6ba93ec8e6e87b drm/amdgpu: fix when the cleaner shader is emitted
+19873917872f6f2af8f70fac26b94bb6f38ec483 drm/amdkfd: Dereference null return value
+cfb9f6fa525a247df9697d98240a8094e3fa9f36 drm/amdkfd: hard-code cacheline size for gfx11
+29ebebeca5e05c5ebee33323a8cb654f32e4832d drm/amdkfd: hard-code MALL cacheline size for gfx11, gfx12
+87b99ec6be868bb80ddbe0a39bace91b08e32a2d xfs: set XFS_SICK_INO_SYMLINK_ZAPPED explicitly when zapping a symlink
+cd3678a5ae210e8ed140af2a523f3175992481fb xfs: update btree keys correctly when _insrec splits an inode root block
+1f367f646690125324050d01e0429d2903def456 xfs: don't drop errno values when we fail to ficlone the entire range
+9ad11f6ae66442abfecf444f10919c7bf095637a xfs: return a 64-bit block count from xfs_btree_count_blocks
+10dbab05e1b2cc3e7ab62c410c78ba92a79e19b2 xfs: fix null bno_hint handling in xfs_rtallocate_rtg
+bdda305b998c2c42ae771eddb573c8249f38ab85 xfs: return from xfs_symlink_verify early on V4 filesystems
+ef70653c279c1e94dca22993b1fee15173e291fb xfs: fix scrub tracepoints when inode-rooted btrees are involved
+f8dcb591ce3f2e892beadc80241067ae4dc85dfb xfs: only run precommits once per transaction object
+ce065754eb524ce92660f6e88d6cc1cb10a0ed6d xfs: unlock inodes when erroring out of xfs_trans_alloc_dir
+df4bad5084ab7e72407950723443d49274ed7ad5 bpf: Check size for BTF-based ctx access of pointer members
+dbe7854a12742c549435b30ebcbf4a34c98f0c09 bpf: Fix theoretical prog_array UAF in __uprobe_perf_func()
+73fbeacc8be9a157cc68595b50d8a9b53e699f27 bpf,perf: Fix invalid prog_array access in perf_event_detach_bpf_prog
+e25b444ee2cda16fdb59442db0573e3a7abe410c bpf, sockmap: Fix race between element replace and close()
+244256dc1f38ab3a71b95bd329ae0f598048c1bb bpf, sockmap: Fix update element with same
 
---===============1860130435799712923==
+--===============2538416718447830094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-503ef1c3a3cf-0ae7bc23a443.txt
+Content-Disposition: attachment; filename=revlist-0ae7bc23a443-b15ff89932e0.txt
 
-037d77edc086d5c86e350a5d468b439de593245d bpf: Fix UAF via mismatching bpf_prog/attachment RCU flavors
-f1d5b369897f58b00bedf0cd15d4ff8bdd687a49 perf/x86/intel/ds: Unconditionally drain PEBS DS when changing PEBS_DATA_CFG
-fdae136728f5e0833a3d0822520c2257fa56cd05 ksmbd: fix racy issue from session lookup and expire
-4a7cbaf31e3ce7f71402229d4f41bb45f4cb77d0 splice: do not checksum AF_UNIX sockets
-f1d95e88eb91ee21504d8fae18cd46dac36d4f88 tcp: check space before adding MPTCP SYN options
-d98b42676febfd7d532c7cf3756183f9199d8b22 riscv: Fix wrong usage of __pa() on a fixmap address
-5d006d8e9112857d12a612020e9376883deae539 blk-cgroup: Fix UAF in blkcg_unpin_online()
-69b8f3d329370f76836474ac0b6e9667134fca91 ALSA: usb-audio: Add implicit feedback quirk for Yamaha THR5
-baca8c36dad6dbf49024ff440dfed196c459a46d riscv: Fix IPIs usage in kfence_protect_page()
-a41f42e932e105ea1f2231c6af76d25eda583712 usb: host: max3421-hcd: Correctly abort a USB request.
-febf9a6e1b3b7e6a1f1a74ac29b8bf18fe6b8a1a ata: sata_highbank: fix OF node reference leak in highbank_initialize_phys()
-c7ca154752aced47d93c59bab14870b61db045f5 usb: dwc2: Fix HCD resume
-94a1fa406a761409b687ee684d049debff4f4552 usb: dwc2: hcd: Fix GetPortStatus & SetPortFeature
-34774752a56cfb9208029d1fc246d56bc55c1d32 usb: dwc2: Fix HCD port connection race
-94b01af223012720335668f506da4b3cbb25e9aa scsi: ufs: core: Update compl_time_stamp_local_clock after completing a cqe
-3720cad4474f1d5579b4794de493056e82ee6d95 usb: gadget: midi2: Fix interpretation of is_midi1 bits
-3da3eb8a05cbe770c2f554e12f1fd59bf060e135 usb: ehci-hcd: fix call balance of clocks handling routines
-6d6bedb14bbf9ba64791ecf5bce5ffc9b5fa5377 usb: typec: anx7411: fix fwnode_handle reference leak
-2a8ef6c90347f547178efbafdc55a5379dd54d89 usb: typec: anx7411: fix OF node reference leaks in anx7411_typec_switch_probe()
-632aef04aad46c08e07ef8b6373db787597b0668 usb: gadget: u_serial: Fix the issue that gs_start_io crashed due to accessing null pointer
-93a366346d8331915045a591438c78202e57b0c1 usb: dwc3: xilinx: make sure pipe clock is deselected in usb2 only mode
-e6b8d50a259e8feab49fc097bd303c64bd2bb080 drm/i915: Fix memory leak by correcting cache object name in error handler
-3df6a268ec2121a94a9d0daf993978a8f5998adc drm/i915: Fix NULL pointer dereference in capture_engine
-e44ca01313b2e2d06d58d5bfe04faa70bab17809 xfs: update btree keys correctly when _insrec splits an inode root block
-e874f545d3d47f90a9c74a2c2f4305ecf752f2d9 xfs: don't drop errno values when we fail to ficlone the entire range
-56b33869d8b1233f72af80b6591b7594f5a91edc xfs: return from xfs_symlink_verify early on V4 filesystems
-2e0a4e138d61a9052891a2d54834cc38cd76e50d xfs: fix scrub tracepoints when inode-rooted btrees are involved
-b4f6f2bda9967b5bc1ddf684e4976c763da1a7b8 xfs: only run precommits once per transaction object
-e569332ffdae6dfce3b10f3ca3fec333469e7d43 bpf: Check size for BTF-based ctx access of pointer members
-19043cc32d136c16611e4ea045613997a7405f04 bpf: Fix theoretical prog_array UAF in __uprobe_perf_func()
-5a51947529d0892273381c661954914c07aa23b9 bpf,perf: Fix invalid prog_array access in perf_event_detach_bpf_prog
-e69be008cf4d0a2552bbf33af47072cd01a4728f bpf, sockmap: Fix race between element replace and close()
-c3ab0b57d1cc3591ebb98f3741d69184755d356d bpf, sockmap: Fix update element with same
-0ae7bc23a443ca229cc804b3e2da876e472f7862 rtla/timerlat: Make timerlat_hist_cpu->*_count unsigned long long
+ded9899aab6e629cb05a964ea7e38808a7755717 bpf: Fix UAF via mismatching bpf_prog/attachment RCU flavors
+f84462cd66f26eb64d884f6582d28cba691690eb perf/x86/intel/ds: Unconditionally drain PEBS DS when changing PEBS_DATA_CFG
+535e4c4fe1a4dd0dd40d9575c5be12a626ca8d74 ksmbd: fix racy issue from session lookup and expire
+ea34b87f07bea37c5a00bf7d3b199482a04dbd36 splice: do not checksum AF_UNIX sockets
+c23a8f455dbdde44285c833d6c6ca99708c469e0 tcp: check space before adding MPTCP SYN options
+6ca7108be0009d3294887147ede151f8654ecdfd riscv: Fix wrong usage of __pa() on a fixmap address
+4641f0905e58b50abce9a114777a7380fe03f8b8 blk-cgroup: Fix UAF in blkcg_unpin_online()
+7775fcdff3123bf7157054bd3ce9d53f2e240f92 ALSA: usb-audio: Add implicit feedback quirk for Yamaha THR5
+c474e85f3918d2120c10a57758aec915253a7ad5 riscv: Fix IPIs usage in kfence_protect_page()
+55046f12569e52e9f9306ad699c7c8631722db9a usb: host: max3421-hcd: Correctly abort a USB request.
+65d4b81a066a0f371ec431d08d4c372c70d066b6 ata: sata_highbank: fix OF node reference leak in highbank_initialize_phys()
+d62820e6cc29b5ef9481f2eacbe32117a3bdf39d usb: dwc2: Fix HCD resume
+df27b1341b14920df3b1241b6e966eb0cadb2a63 usb: dwc2: hcd: Fix GetPortStatus & SetPortFeature
+87bcd518b2c9ee34b26b3e883865bc45a59d4cbd usb: dwc2: Fix HCD port connection race
+baf1cbe6b960e5afb5dda5de7cc109c782c3cfb1 scsi: ufs: core: Update compl_time_stamp_local_clock after completing a cqe
+2d569e4a42e7514a922cd8534de50914f52fcac2 usb: gadget: midi2: Fix interpretation of is_midi1 bits
+4bfb47d59f5da72ee871a119d81e120df47a570e usb: ehci-hcd: fix call balance of clocks handling routines
+1b7674924008ed83e2cc04a2f299caaad07e0f72 usb: typec: anx7411: fix fwnode_handle reference leak
+e488852acc960742c824a9873b5160fae6f533bc usb: typec: anx7411: fix OF node reference leaks in anx7411_typec_switch_probe()
+e4eb2718da81f245804672d1a045323f2a1c26e0 usb: gadget: u_serial: Fix the issue that gs_start_io crashed due to accessing null pointer
+dd60518e14556c0e00d88684e3bd543a76bdcc54 usb: dwc3: xilinx: make sure pipe clock is deselected in usb2 only mode
+441cc520ce4fca8f9b38bdf041104fcf99e3148b drm/i915: Fix memory leak by correcting cache object name in error handler
+dd0e38ae89a9c304b7030bfe2bcc893f77658517 drm/i915: Fix NULL pointer dereference in capture_engine
+5663eeddb88b1f1b2bc37558a9f928b04a7b0156 xfs: update btree keys correctly when _insrec splits an inode root block
+47b8409e666dafe9e2cb90fba5958ff320e03566 xfs: don't drop errno values when we fail to ficlone the entire range
+077651b7c866af9f19be3533203bd5fbc56436e1 xfs: return from xfs_symlink_verify early on V4 filesystems
+c608c0721a7d3f2ed703eed9cedd03c2086fd8e7 xfs: fix scrub tracepoints when inode-rooted btrees are involved
+1c031e3e226eb045cc03279828397dac05716556 xfs: only run precommits once per transaction object
+23c007adee83cb8f9e9880e943a3743936e38444 bpf: Check size for BTF-based ctx access of pointer members
+03ab269d57231aefd147b033f802f7c6a80a5b50 bpf: Fix theoretical prog_array UAF in __uprobe_perf_func()
+bf26d14614b89764dc078bc61a0c49f2461251f2 bpf,perf: Fix invalid prog_array access in perf_event_detach_bpf_prog
+9e0ccf2557c347f7fa8b45d7cb7b8de2a50cf232 bpf, sockmap: Fix race between element replace and close()
+eb2e5fe185f1e8e389654c870f82137915bbc839 bpf, sockmap: Fix update element with same
+b15ff89932e04281f8a600abfa1f4e55cda46290 rtla/timerlat: Make timerlat_hist_cpu->*_count unsigned long long
 
---===============1860130435799712923==--
+--===============2538416718447830094==--
