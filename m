@@ -1,91 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============4520193119901814277=="
+Content-Type: multipart/mixed; boundary="===============4879243801918882123=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 16 Dec 2024 15:31:24 -0000
-Message-Id: <173436308400.3065311.14680914240189538008@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Mon, 16 Dec 2024 15:33:03 -0000
+Message-Id: <173436318388.3066106.7300331570142900471@gitolite.kernel.org>
 
---===============4520193119901814277==
+--===============4879243801918882123==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
+  - ref: refs/heads/usb-linus
     old: 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8
-    new: e16ebd9d839d1252ff15c29d37b0cf303ddd2662
-    log: revlist-78d4f34e2115-e16ebd9d839d.txt
+    new: 59275b763306877a275563f89834cad88131d7e5
+    log: |
+         fdad4fb7c506bea8b419f70ff2163d99962e8ede USB: serial: option: add TCL IK512 MBIM & ECM
+         724d461e44dfc0815624d2a9792f2f2beb7ee46d USB: serial: option: add MeiG Smart SLM770A
+         aa954ae08262bb5cd6ab18dd56a0b58c1315db8b USB: serial: option: add Netprisma LCUK54 modules for WWAN Ready
+         f07dfa6a1b65034a5c3ba3a555950d972f252757 USB: serial: option: add MediaTek T7XX compositions
+         8366e64a4454481339e7c56a8ad280161f2e441d USB: serial: option: add Telit FE910C04 rmnet compositions
+         59275b763306877a275563f89834cad88131d7e5 Merge tag 'usb-serial-6.13-rc3' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
+         
 
---===============4520193119901814277==
+--===============4879243801918882123==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1734363110 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1734363080-1de0fe9bd840264a45efead3b3a0e69662bf62fa
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1734363211 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1734363180-28dd1d86e14ca6da118e70a1ca67ede54ad961eb
 
-78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8 e16ebd9d839d1252ff15c29d37b0cf303ddd2662 refs/heads/char-misc-linus
+78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8 59275b763306877a275563f89834cad88131d7e5 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdgR+YbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Q1gP/R5z4SaVwYYaxUE2TVRi
-a8NiCPwrTHg0OyNceC0NUq/3wn/A8xcWRAXT0cqAVthVWVYsQ5/iAomW4D30dls5
-sDRl0Vd2gwhSj2t/gxMaO/YNv1g+vHWZr/xNmOmIUkzFdVMuYD0BJbWoM1jV8U9+
-oSDA6+1Edu0xUnYFpKimtaIsPu6b8PPm7pYkdGiCzrhR75sbSM5xt33+eWtcT3hN
-f3XOuVjJd6N7fGxlKRiBpt7CXBiSJ7GaWasYjjySD0ztkaBQAk2zt4yM8ZpCicVP
-SSN//wx09Vlb8LEaha0pgRdEMWhxf8L5ajJ19N/8jEIegh55j/gy7TVqR1BvjZlP
-cOncBMX81/pNt9//a7oEL+RfrWk/xuvcGJ21zFozzumUDtOfYkrtJm29W722aI+7
-RnDQ77SaRgf/z2N4QreaYT8dUJwgT7oldP9drp0359TzbReFNTD0tIcRFwonAx2T
-EXZvnoVJRCwDp8iukUNzQ8H+yhEmiqYG89Q5ULEpM+CmQQoP2nws527ZjW9H12+9
-w79uEXOtOOOoa6oA3oxMWY6GAPJwRSwxvu/9iEPAFWQk+aOPoThoAxC55DJce7p9
-EfaBTYcDNv7tuSu9ifbUOIMEKdE3KTxG0ETz2lkFdNaojg3smai9Pn58m4f6ypuJ
-+6K/gIL79pYn5p8muDCzFjoF
-=7bae
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdgSEsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bDwQAMyCvo6wJaf9nX2LIXq7
+wwjIHv9zmzJH0g+LGifQHuvHdQVbmUEJX5zEWo/TJTs4WuxF3wRU1nLQHokiLVKc
+/j0uF42cDzT1K3YN023OscF2fMshvXarLLD24d/iFVoS9z6Sl50Gtv6FbfdiOA8c
+eR7KrJswsksJ5HSHdr7KPn9J8nKLba8eSWQiw78igGq6FhquzhSDale3OeBuC8kJ
+YLGw4uP5qwycbYEABAb1OajCVnHc6wsvBiq5b9hPMKWkKs3usAEtcLmKccz9KRDp
+7KfW86vzDghdfuL1Nj7+fdkyjGhyFR1t/pjHnrslBNVEyo5dVXCmEGZgwDAvZxSZ
+ONOpSD9otZtMhJqbAKhdbQ4KlseDiRkSbahMOXDKVXwfvKpamkyNDfWlEsX6sg92
+wRuHtlLNCvi7QbCzD+hbZKt+lg1Gv8k0okG5xSr0YoPqkyXuZPVaQckHjIYELcpR
+l1ydzvtoptyo5C31dfkp+QpELX7FxQeDfb5Z5vzS4nOlx+36I/0ywBr0rv1kkwSn
+QXCg7PBKKB11IlXF18olk7Pu8Uf980oezMjW6v7J/zC4wmA7muLDQ+xTws8L6KYr
+LOOLGlIjGlvjulLf/0h3TKblVOCGNvp8p19mgoEPKK2zIr9QABT/aW/ZEqede6ZH
+sp4LfdiUGKBnkzR+YEZpxpZ7
+=sZxK
 -----END PGP SIGNATURE-----
 
---===============4520193119901814277==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-78d4f34e2115-e16ebd9d839d.txt
-
-098d8374033f323dae87a1d792a3c8911c2cf57f bus: mhi: host: pci_generic: fix MHI BAR mapping
-c0599762f0c7e260b99c6b7bceb8eae69b804c94 staging: iio: ad9834: Correct phase range check
-4636e859ebe0011f41e35fa79bab585b8004e9a3 staging: iio: ad9832: Correct phase range check
-4be339af334c283a1a1af3cb28e7e448a0aa8a7c iio: adc: ad7124: Disable all channels at probe time
-aaa90d0751071d38f3e74c4e14bc1083abcb0c15 iio: test : check null return of kunit_kmalloc in iio_rescale_test_scale
-fa13ac6cdf9b6c358e7d77c29fb60145c7a87965 iio: gyro: fxas21002c: Fix missing data update in trigger handler
-c0f866de4ce447bca3191b9cefac60c4b36a7922 iio: imu: inv_icm42600: fix spi burst write not supported
-65a60a590142c54a3f3be11ff162db2d5b0e1e06 iio: imu: inv_icm42600: fix timestamps after suspend if sensor is on
-dddfd0c489e9a3fde98fedda8832cb9ecaae3abf iio: adc: ad4695: fix buffered read, single sample timings
-ad8479ac083b841da42975d79288b25c088c5cc3 iio: adc: stm32-dfsdm: handle label as an optional property
-bcb394bb28e55312cace75362b8e489eb0e02a30 iio: adc: ti-ads1298: Add NULL check in ads1298_init
-55d82a7ac7e9432d2c92ed485c29aad0aa99281d dt-bindings: iio: st-sensors: Re-add IIS2MDC magnetometer
-fbeba4364c5619428714625a70cd8444e6b1e4fd iio: test: Fix GTS test config
-333be433ee908a53f283beb95585dfc14c8ffb46 iio: dummy: iio_simply_dummy_buffer: fix information leak in triggered buffer
-2a7377ccfd940cd6e9201756aff1e7852c266e69 iio: adc: ti-ads8688: fix information leak in triggered buffer
-b62fbe3b8eedd3cf3c9ad0b7cb9f72c3f40815f0 iio: light: bh1745: fix information leak in triggered buffer
-47b43e53c0a0edf5578d5d12f5fc71c019649279 iio: light: vcnl4035: fix information leak in triggered buffer
-6ae053113f6a226a2303caa4936a4c37f3bfff7b iio: imu: kmx61: fix information leak in triggered buffer
-38724591364e1e3b278b4053f102b49ea06ee17c iio: adc: rockchip_saradc: fix information leak in triggered buffer
-6007d10c5262f6f71479627c1216899ea7f09073 iio: pressure: zpa2326: fix information leak in triggered buffer
-75f339d3ecd38cb1ce05357d647189d4a7f7ed08 iio: adc: ti-ads1119: fix information leak in triggered buffer
-2a8e34096ec70d73ebb6d9920688ea312700cbd9 iio: adc: ti-ads124s08: Use gpiod_set_value_cansleep()
-36a44e05cd807a54e5ffad4b96d0d67f68ad8576 iio: adc: ad7173: fix using shared static info struct
-de6a73bad1743e9e81ea5a24c178c67429ff510b iio: adc: at91: call input_free_device() on allocated iio_dev
-bbf6b6d53e29b6db4f31eb25b5533a12b9134302 iio: adc: ad9467: Fix the "don't allow reading vref if not available" case
-64f43895b4457532a3cc524ab250b7a30739a1b1 iio: inkern: call iio_device_put() only on mapped devices
-2f43d5200c7330143089bfd1f2440753bac10617 iio: temperature: tmp006: fix information leak in triggered buffer
-54d394905c92b9ecc65c1f9b2692c8e10716d8e1 iio: adc: ti-ads1119: fix sample size in scan struct for triggered buffer
-6ffc565c242ac76eb43bc0fb841726ad8c0366bc Merge tag 'iio-fixes-for-6.13a' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-linus
-e16ebd9d839d1252ff15c29d37b0cf303ddd2662 Merge tag 'mhi-fixes-for-v6.13' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/mani/mhi into char-misc-linus
-
---===============4520193119901814277==--
+--===============4879243801918882123==--
