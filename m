@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4833169207665557860=="
+Content-Type: multipart/mixed; boundary="===============2814032975864803562=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 16 Dec 2024 16:49:55 -0000
-Message-Id: <173436779561.3128563.5582993451572622154@gitolite.kernel.org>
+Date: Mon, 16 Dec 2024 16:50:08 -0000
+Message-Id: <173436780894.3130287.9817201497076931539@gitolite.kernel.org>
 
---===============4833169207665557860==
+--===============2814032975864803562==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: 5a10971c7645a95f5d5dc23c26fbac4bf61801d0
+  - ref: refs/heads/pending
+    old: e17bc29f5aafa908cdfc9750611bc9826f49cf7a
     new: 37db0f45530292d5982368678241eb83f1a9bb83
-    log: revlist-5a10971c7645-37db0f455302.txt
+    log: revlist-e17bc29f5aaf-37db0f455302.txt
 
---===============4833169207665557860==
+--===============2814032975864803562==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5a10971c7645-37db0f455302.txt
+Content-Disposition: attachment; filename=revlist-e17bc29f5aaf-37db0f455302.txt
 
 30e36fa89d8266d9221ee992d4f43553a59a3431 dt-bindings: net: wireless: Describe ath12k PCI module with WSI
 de61173d59082575d985c89a58db0e4055605b48 wifi: ath12k: parse multiple device information from Device Tree
@@ -51,4 +51,4 @@ c14725f359ef982923f3bc7e222c7687ffe4e496 wifi: ath12k: fix ath12k_qmi_alloc_chun
 1c9877c9ff8c508fb80e49e63a5675e0b86d74da wifi: ath12k: assign unique hardware link IDs during QMI host cap
 37db0f45530292d5982368678241eb83f1a9bb83 wifi: ath12k: advertise MLO support and capabilities
 
---===============4833169207665557860==--
+--===============2814032975864803562==--
