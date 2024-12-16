@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3241476456615559258=="
+Content-Type: multipart/mixed; boundary="===============8144195738313971550=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 16 Dec 2024 13:39:53 -0000
-Message-Id: <173435639315.2917176.15979640885982297503@gitolite.kernel.org>
+Date: Mon, 16 Dec 2024 13:40:08 -0000
+Message-Id: <173435640879.2918881.15667321637327464073@gitolite.kernel.org>
 
---===============3241476456615559258==
+--===============8144195738313971550==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: e96424b86d5098f44279399b85551e0f84a1c9e9
-    new: 2ffd9f92a816ffb574ee9b2fc521ce89a405a610
-    log: revlist-e96424b86d50-2ffd9f92a816.txt
+  - ref: refs/heads/m68k-queue
+    old: 9b0d821b8ba4cc66358fed01b8c0d737df8d7b90
+    new: 7b7f87ba155df95f746223027a14fe82064e3c3b
+    log: revlist-9b0d821b8ba4-7b7f87ba155d.txt
 
---===============3241476456615559258==
+--===============8144195738313971550==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e96424b86d50-2ffd9f92a816.txt
+Content-Disposition: attachment; filename=revlist-9b0d821b8ba4-7b7f87ba155d.txt
 
 d798bc6f3c174c61837862cb9778d73cccd92a8e arm64: Fix usage of new shifted MDCR_EL2 values
 6fc3a49f23856fdf155ab35f2244295f7870bf83 KVM: arm64: Fix S1/S2 combination when FWB==1 and S2 has Device memory type
@@ -426,6 +426,9 @@ dccbe2047a5b0859de24bf463dae9eeea8e01c1e Merge tag 'edac_urgent_for_v6.13_rc3' o
 7031a38ab74cfe997d2a767d18e3af7445547d07 Merge tag 'efi-fixes-for-v6.13-1' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 42a19aa1707cce382bc5e534e2e36024c3611674 Merge tag 'arc-6.13-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8 Linux 6.13-rc3
-2ffd9f92a816ffb574ee9b2fc521ce89a405a610 Merge tag 'v6.13-rc3'
+903cb60fa858bc19d30206473a787e85ccbc6dd1 m68k: Use kernel's generic muldi3 libgcc function
+4b728dc2ef489cda197c391a537c7b0c4902335c m68k: atari: usb: Add ISP1160 USB host controller support
+126b0966aa5f4536fdec6eeac2818562768e7298 m68k: atari: Update Kconfig.bus help text
+7b7f87ba155df95f746223027a14fe82064e3c3b m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============3241476456615559258==--
+--===============8144195738313971550==--
