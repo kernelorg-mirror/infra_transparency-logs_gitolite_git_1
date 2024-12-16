@@ -1,53 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============4074802057150288225=="
+Content-Type: multipart/mixed; boundary="===============6922950404754274559=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 16 Dec 2024 15:22:26 -0000
-Message-Id: <173436254683.3056389.9352922492988253945@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Mon, 16 Dec 2024 15:23:09 -0000
+Message-Id: <173436258923.3056836.13973021153027328223@gitolite.kernel.org>
 
---===============4074802057150288225==
+--===============6922950404754274559==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/tags/usb-6.13-rc3
-    old: 959ff7cc6f69ac64b462f50998cc9d7098af7b58
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/platform-drivers-x86-v6.13-3
+    old: 0000000000000000000000000000000000000000
+    new: 785ff6ff386df70b45e97426c06924a172ad725c
 
---===============4074802057150288225==
+--===============6922950404754274559==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1734362575 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1734362545-d042132575b3bb19d8eccedcc91a4810293ebd2e
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1734362616 +0200
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1734362586-47582059594d37e55025bbafe0aca49aa14c9a17
 
-959ff7cc6f69ac64b462f50998cc9d7098af7b58 0000000000000000000000000000000000000000 refs/tags/usb-6.13-rc3
+0000000000000000000000000000000000000000 785ff6ff386df70b45e97426c06924a172ad725c refs/tags/platform-drivers-x86-v6.13-3
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdgRdAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qQ4P/2hrIC0WBNkrwoMumy6+
-kh5otXj54Z/myZb9oDUs5o6I+O24p5MvLLiYbT02LNDDDJbomqGO2XuUuYekJFDn
-4+ADpGySM/Y18Yk8yP5PcdZTijN8oiOmdzZDDtQS0AibDCxc5vCZzepg6toCWqZK
-HTrORUIzFMQP4hJBP6B6BEPNaLfsQmSechBksFBb2jBLBe08dfpFqvoQA0iZ075J
-tLi872CrCj5fIIho3KpDm4l2fzE2vt2MZoe/O39IQytZN/YH2rEMop453gaYPi+U
-ri02Jl2bwd77KXdmafK4unOmjKfIhjjDW5VNScaDBOvd9SsnEXdvdsALIQ8as+8G
-fWSIB5IfAsXDbuAuDl3cghgMosBeE2HShMlPkP5DxerS6c291LBUpbIkwtxDT2zP
-N2jyF5OpI3CelXvQ1aBOp7z+l/lgUP/QJCVvdC8mmHdL2FNPbRTko26nU6CMaigm
-8+79F+e7k2Lmb1yPc1JlFEO8vsqJO5wEjKyun6Xkm/qhXTD1osWT1zTDH/p26Ux/
-p+IgWgTBtK+fWDrb1NANA8DuUqQLz8s1GHCUznUc2MWgFmV7ougqMvP0ER4wmBK5
-CzvXZKiahVUH+ooYh0CC695dQ5GFX4/tjiZddCAGVi4HVMNSL/6NRAqKcqpSzFnw
-ubL9laLHav3/cWpfDYILE22j
-=jnV4
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZ2BF/QAKCRBZrE9hU+XO
+McJ5AQCNo6EWnTWu19lbiS2H+H17NBDKoaqev1ObDx9ocuZE1wD/ZVoaASqpqnWA
+NO7ea70dn2WWHHoCU/BuJ7JWZ9vOowE=
+=rmFW
 -----END PGP SIGNATURE-----
 
---===============4074802057150288225==--
+--===============6922950404754274559==--
