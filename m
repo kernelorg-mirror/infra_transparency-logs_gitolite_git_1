@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6155340803724128053=="
+Content-Type: multipart/mixed; boundary="===============5023619911658493095=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 16 Dec 2024 15:23:48 -0000
-Message-Id: <173436262870.3057197.16175154910147947461@gitolite.kernel.org>
+Date: Mon, 16 Dec 2024 15:23:53 -0000
+Message-Id: <173436263329.3057401.10891434740710559128@gitolite.kernel.org>
 
---===============6155340803724128053==
+--===============5023619911658493095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: cdd30ebb1b9f36159d66f088b61aee264e649d7a
+  - ref: refs/heads/usb-linus
+    old: 33ead7e538183b1348ba60af90027240a10de751
     new: 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8
-    log: revlist-cdd30ebb1b9f-78d4f34e2115.txt
+    log: revlist-33ead7e53818-78d4f34e2115.txt
 
---===============6155340803724128053==
+--===============5023619911658493095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1734362657 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1734362662 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1734362627-1acfbfeb9bcdecbfe4e9a968ffc990aeceff4032
+nonce 1734362631-da722886a86afae70e1a0f4ef52ed773d648f1f7
 
-cdd30ebb1b9f36159d66f088b61aee264e649d7a 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8 refs/heads/main
+33ead7e538183b1348ba60af90027240a10de751 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdgRiEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YbAP/RjAk3Q8nfIlp/LanQ46
-8ExJEJynhjC6chWQVoCrhqvLyQMJYcK38A/mgbtP3t9Y29usX3ZXswD2etpuv4Kl
-AZ+rG+PBMwQrtlWdHtSWKCmN6y9FFzgZUTed9dbEh+EYvLM8ndtthIrqcXGAHrxX
-8Vw8hrpZAQvplQcukKGmuKQGT5X6uftFAuYt2QRSdJMC7kTKe38viCq9dK3P8yqM
-TuviT6SVBbEKIVVOTwlZkgZpECs0a8k1ncEaCsQnxFXxYpVfDnUIs8gpywlys25a
-ONiQ2uRZcLPtDCGJhjf6XXZOI/HB6c6dvk18d2v+1vPYbR0hOfjMc46KH3ZqHpMa
-HDXD4wQK3tf3nQupzZNAP2knfeCTbWM1lY5H/OizG/LclmC1em36T1xquQL3iNxL
-Q2CeKIqBcvcl7ENy5JJoKIBqEGTeyQMd3+iIUM8EBZijuHoKefegOGs2wURBdPy6
-oeegec+Hjpk10NB+s+Lzp0If2NyyiatRWpnLY1KYCbbXl29map+fgd4ljc5x7nfW
-Gy2ciQeVtXk3ZVTENC5c5kdoqV008V61FBtgaZ3LMBEceEV3p61KaunoITwxKgPj
-cuR9QYLVtd2JNZ+jlhR6TRWvgFK7RlzUCCL7LTiMR5sl2cpy/fpKeLvomVWFrPFZ
-DhSvKugerxO3FzjHbHd63EK0
-=LmBX
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdgRiYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1zMP/RsQjcLS5VGt8tFKY2G2
+Sc8p1EIETlF9aSUjyM6sm/LAthTVOGrjEeuJQSvJFD1CNUoq35moaaOx/cfDa+El
+TBm2UPswX9comus2Tr5k5YnAiC5W0BoRrSZQcDs+IUABDWnwl3ba8nGtu52lXwOJ
+QbI4Mlwh53JhOiTSBPx+JaD9CT5L5wnEjCS+MuzyQJOzl7ulFuGnMEBHYNuUwiUn
+aF3UaGTeCgbOTyEwlVv21522AUviPMlTQPeOrGI4fiNV9vHfbAtQWhmcfLMgCLMR
+D9lBDvNdQuADD0g9OxmWqWVMOciQ9xHBfFOn/JIS1sy9Y+U5uNtEc/bROHa5Tdzt
+bUN4RHqgqC7oIW0KW4nAIM45vjjRBTayAK/sq3ciYMo4RK+gFW9dXo88U53naDon
+SbQNFzonJuG27tl63tbglxsxkYmN/73laQ/1Hwnkl0lqLbhLeV9Yrhl3zq3muTrN
+tWVU8D1xHy1C2nLf9vGy4AO4diEY6WhrYpQIoGxzE7yqtyyauoJLYt0lJZXjvf8k
+EGKxfNTMTrLB7F5V0VN8Z5YZXPfi7hHr5nJuQ34Oszt7zCQ2QXC+TQseDa5ae9m6
+4oSOz/2dyD/CmHKUnOAdSzX9guIYndvB+uFgYkH2ecrzelBYzIzpz7K2fthKpbl8
+d/GE6T7UL3r0Cdh0ydzwgohL
+=zcp+
 -----END PGP SIGNATURE-----
 
---===============6155340803724128053==
+--===============5023619911658493095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cdd30ebb1b9f-78d4f34e2115.txt
+Content-Disposition: attachment; filename=revlist-33ead7e53818-78d4f34e2115.txt
 
 4497ee914f10264894b08066cbee026604cd244f watchdog: fix typo in the comment
 daa814d784ac034c62ab3fb0ef83daeafef527e2 iTCO_wdt: mask NMI_NOW bit for update_no_reboot_bit() call
@@ -346,22 +346,6 @@ cecc1555a8c2acd65f9d36182c28ae463db0ad7e net: Make napi_hash_lock irq safe
 ceb259e43bf572ba7d766e1679ba73861d16203a spi: intel: Add Panther Lake SPI controller support
 70327137eb3eb64f346191dcd0ee5140d5ab34d8 gpio: GPIO_MVEBU should not default to y when compile-testing
 456f010bfaefde84d3390c755eedb1b0a5857c3c netfilter: ipset: Hold module reference while requesting a module
-97264eaaba0122a5b7e8ddd7bf4ff3ac57c2b170 usb: ehci-hcd: fix call balance of clocks handling routines
-282615d1334494063ff8dc70f35168d3f6b9c4c9 dt-bindings: phy: imx8mq-usb: correct reference to usb-switch.yaml
-0d2ada05227881f3d0722ca2364e3f7a860a301f usb: host: max3421-hcd: Correctly abort a USB request.
-645d56e4cc74e953284809d096532c1955918a28 usb: typec: anx7411: fix fwnode_handle reference leak
-ef42b906df5c57d0719b69419df9dfd25f25c161 usb: typec: anx7411: fix OF node reference leaks in anx7411_typec_switch_probe()
-a4faee01179a4d9cbad9ba6be2da8637c68c1438 usb: dwc3: imx8mp: fix software node kernel dump
-82937056967da052cbc04b4435c13db84192dc52 usb: gadget: midi2: Fix interpretation of is_midi1 bits
-d2ec94fbc431cc77ed53d4480bdc856669c2b5aa usb: core: hcd: only check primary hcd skip_phy_initialization
-a48f744bef9ee74814a9eccb030b02223e48c76c usb: dwc3: xilinx: make sure pipe clock is deselected in usb2 only mode
-ce15d6b3d5c3c6f78290066be0f0a4fd89cdeb5b usb: misc: onboard_usb_dev: skip suspend/resume sequence for USB5744 SMBus support
-4cfbca86f6a8b801f3254e0e3c8f2b1d2d64be2b usb: gadget: u_serial: Fix the issue that gs_start_io crashed due to accessing null pointer
-336f72d3cbf5cc17df2947bbbd2ba6e2509f17e8 usb: dwc2: Fix HCD resume
-a8d3e4a734599c7d0f6735f8db8a812e503395dd usb: dwc2: hcd: Fix GetPortStatus & SetPortFeature
-1cf1bd88f129f3bd647fead4dca270a5894274bb usb: dwc2: Fix HCD port connection race
-e37b383df91ba9bde9c6a31bf3ea9072561c5126 usb: typec: ucsi: Fix completion notifications
-33ead7e538183b1348ba60af90027240a10de751 usb: typec: ucsi: Fix connector status writing past buffer size
 e63fbd5f6810ed756bbb8a1549c7d4132968baa9 tracing: Fix cmp_entries_dup() to respect sort() comparison rules
 7cc0e0a43a91052477c2921f924a37d9c3891f0c serial: sh-sci: Check if TX data was written to device in .tx_empty()
 f580786ea900c74ed8046e617e5030d4c37a578b staging: gpib: Make GPIB_NI_PCI_ISA depend on HAS_IOPORT
@@ -880,4 +864,4 @@ dccbe2047a5b0859de24bf463dae9eeea8e01c1e Merge tag 'edac_urgent_for_v6.13_rc3' o
 42a19aa1707cce382bc5e534e2e36024c3611674 Merge tag 'arc-6.13-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8 Linux 6.13-rc3
 
---===============6155340803724128053==--
+--===============5023619911658493095==--
