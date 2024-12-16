@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1898338849560276762=="
+Content-Type: multipart/mixed; boundary="===============2795554772467667663=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 16 Dec 2024 21:56:25 -0000
-Message-Id: <173438618593.3387305.17822841721719418044@gitolite.kernel.org>
+Date: Mon, 16 Dec 2024 21:56:28 -0000
+Message-Id: <173438618823.3387383.17836251938951748345@gitolite.kernel.org>
 
---===============1898338849560276762==
+--===============2795554772467667663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 150b567e0d572342ef08bace7ee7aff80fd75327
     new: 922b4b955a03d19fea98938f33ef0e62d01f5159
     log: revlist-150b567e0d57-922b4b955a03.txt
 
---===============1898338849560276762==
+--===============2795554772467667663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ b096d62ba1323391b2db98b7704e2468cf3b1588 ionic: use ee->offset when returning sp
 cb85f2b8973c8077749fb5618c5123c1ba166a70 Merge branch 'ionic-minor-code-fixes'
 922b4b955a03d19fea98938f33ef0e62d01f5159 net: renesas: rswitch: rework ts tags management
 
---===============1898338849560276762==--
+--===============2795554772467667663==--
