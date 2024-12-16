@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7373416017194708959=="
+Content-Type: multipart/mixed; boundary="===============4218199186142054305=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 16 Dec 2024 16:59:50 -0000
-Message-Id: <173436839030.3137542.7489906910430147318@gitolite.kernel.org>
+Date: Mon, 16 Dec 2024 17:01:20 -0000
+Message-Id: <173436848045.3140166.16028296009891115318@gitolite.kernel.org>
 
---===============7373416017194708959==
+--===============4218199186142054305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
-    old: 00a5acdbf39816ad23b8db3255c366bbc77e69af
-    new: 06103dccbbd29408255a409f6f98f7f02387dc93
-    log: revlist-00a5acdbf398-06103dccbbd2.txt
+  - ref: refs/heads/for-next
+    old: 6c43a9846c9a446622fba644dd5f169ec9181e6d
+    new: 09430e47ceecb001870c1a2322d17062b15417f9
+    log: revlist-6c43a9846c9a-09430e47ceec.txt
 
---===============7373416017194708959==
+--===============4218199186142054305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-00a5acdbf398-06103dccbbd2.txt
+Content-Disposition: attachment; filename=revlist-6c43a9846c9a-09430e47ceec.txt
 
 d798bc6f3c174c61837862cb9778d73cccd92a8e arm64: Fix usage of new shifted MDCR_EL2 values
 6fc3a49f23856fdf155ab35f2244295f7870bf83 KVM: arm64: Fix S1/S2 combination when FWB==1 and S2 has Device memory type
@@ -427,5 +427,6 @@ dccbe2047a5b0859de24bf463dae9eeea8e01c1e Merge tag 'edac_urgent_for_v6.13_rc3' o
 42a19aa1707cce382bc5e534e2e36024c3611674 Merge tag 'arc-6.13-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8 Linux 6.13-rc3
 06103dccbbd29408255a409f6f98f7f02387dc93 Merge git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
+09430e47ceecb001870c1a2322d17062b15417f9 Merge branch 'bpf-next/net' into for-next
 
---===============7373416017194708959==--
+--===============4218199186142054305==--
