@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5767945597110416913=="
+Content-Type: multipart/mixed; boundary="===============8843068369430434211=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 16 Dec 2024 15:19:27 -0000
-Message-Id: <173436236775.3050486.5474347240608349117@gitolite.kernel.org>
+Date: Mon, 16 Dec 2024 15:19:34 -0000
+Message-Id: <173436237410.3050774.13061847496262330953@gitolite.kernel.org>
 
---===============5767945597110416913==
+--===============8843068369430434211==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
-    old: 48e8a8160dba523af7074e668b2a458250838a3d
-    new: 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8
-    log: revlist-48e8a8160dba-78d4f34e2115.txt
+  - ref: refs/heads/staging-next
+    old: 0a4edbeef1e415f2eeaaae01b129f53f33c24d95
+    new: f9e7f3f9620b13d76ed16399b46b29cab1a398f2
+    log: revlist-0a4edbeef1e4-f9e7f3f9620b.txt
 
---===============5767945597110416913==
+--===============8843068369430434211==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1734362396 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1734362401 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1734362365-20794ac4e7d2dc4c6c28bbd41c93ace060056674
+nonce 1734362371-3c46484ab21fc4f5c5ebd77684d6e80e55a8ce8d
 
-48e8a8160dba523af7074e668b2a458250838a3d 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8 refs/heads/staging-linus
+0a4edbeef1e415f2eeaaae01b129f53f33c24d95 f9e7f3f9620b13d76ed16399b46b29cab1a398f2 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdgRRwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+n6IP/2RkINptWoxUr1zkXal3
-GAmGxlXPhS2vq6AZZoLOZCcYKXySt2uJSDmiL4OjUfC6RU52PcuF1avxZaaeP/nf
-QB9L5VMj8NUuw6r+qKqheNPCn1gUmevMsDG9xMbbDZ2eRDPKInf/R++9B1Wqiw3j
-muJ2QkeNtX3J5t9V2Y1EWQCC8hcy93jhnECnCIUGQXG2dBdKFSF06peukOUeoan1
-bny5V2bXPGezK7wUT6eJesk2lGS8rFRKH2u1UiwtrKxWlrj8XZ/fqonmYmpkdk6t
-D0wEcErC8kzK1YgLl6iW/cjsBv+IhCg7yWYWhn/NnC8gTMRqPqlHqXUyaOBJkRb4
-TA1dx7z8ODvhEeYrvp7OHU+eAypBHyFNdJniLVR35cWfSWB+EjYorb6I5JnCnOFt
-P4308WDbInAAK3rlO7cfpWx5kwt6Fv7qizvsfl1vQzLIpTUkIM2fDOcGSBECxTNW
-AS1syA+OG54ApJi8E62CykuEZagU9NzpaVWV9aVXDIJ33rLTFvFZZj6QculyuMey
-LmRRiBc60bpsCzrU/03idKGghwil/YXosHJSB1XKkTmhS/Ap1HsGENL27CwtkEbS
-x+6pgxWZF+hIgQYnN5kMqRxR90uL0sAdS4668VUQ0TssFsihl9jdE4GcNAEkSQfX
-Tpl36it552q60F6wYiCRXVT3
-=Vn7p
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdgRSEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+B5QQAI8RmwVC5XjI0c5Dk7Bo
+RzTcMGGpQq3VBEoNrAX0oyZBEpqM3sICj64m0LnAY6sA6dP3kkyx01jdoqb2VM/j
+7Y7BmyLOiHVqYON5rjwCWKDm5YtLPrVBSz0XyK8isxjho55bz3rEvNta/t6YJ6QX
+AX2ephFObY2w/G6QvdEWhNpOHn//ufXOfeTOcBwMS8Ygj0QLB+LtJTlroaeh/HME
+in5xMI1nK7zrf0M2La+VROnznGv1DIbND7FwlKgvYJutppfED9XEp6otIhbKMNMl
+OTjvr15JLvLLz7bB2F6EJKZ3kLC+ApKamc7z5yk1DYuyzIM2KArqUK8qNcql1Yjp
+QPjxUgDGmtY3ViYT/RKkgq2j9h4Jcjy68GQ8lo1mRWzxba7GLJIknNMiluufgZ99
+gW+Km6EArRVSCRrf2HHFFjVulx5VxAjGdNDzq9yeGQgrXwniinMksYVFIC2bWL2q
+9N1EHTUKcrHdoFtK/TAL6csmgIx4Vdx9ycdL5Ry3o53NZVflb8J6erMfH3Hvazdn
+lLDIRuOzaz78/+x/UHSTtFkv1vlFsVsGhAtaAqNifBOwM9uspAmI3rxcvpG4G12Z
+GvDw4g/w0yila3Gm15cSMjq1bdFtJ45LkGKxuuHMWgpbxJcLLAF8od1lGyL9jfu4
+n3qV8LXaTXrDCQVuyKPrf1Fp
+=wWQe
 -----END PGP SIGNATURE-----
 
---===============5767945597110416913==
+--===============8843068369430434211==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-48e8a8160dba-78d4f34e2115.txt
+Content-Disposition: attachment; filename=revlist-0a4edbeef1e4-f9e7f3f9620b.txt
 
 4497ee914f10264894b08066cbee026604cd244f watchdog: fix typo in the comment
 daa814d784ac034c62ab3fb0ef83daeafef527e2 iTCO_wdt: mask NMI_NOW bit for update_no_reboot_bit() call
@@ -364,6 +364,10 @@ e37b383df91ba9bde9c6a31bf3ea9072561c5126 usb: typec: ucsi: Fix completion notifi
 33ead7e538183b1348ba60af90027240a10de751 usb: typec: ucsi: Fix connector status writing past buffer size
 e63fbd5f6810ed756bbb8a1549c7d4132968baa9 tracing: Fix cmp_entries_dup() to respect sort() comparison rules
 7cc0e0a43a91052477c2921f924a37d9c3891f0c serial: sh-sci: Check if TX data was written to device in .tx_empty()
+f580786ea900c74ed8046e617e5030d4c37a578b staging: gpib: Make GPIB_NI_PCI_ISA depend on HAS_IOPORT
+80242c4a9d50e71a4df1b7fa19b922ac88aab22b staging: gpib: Workaround for ppc build failure
+1d8c2d4b89b40f49ef4a70dcb2eaea43695025ce staging: gpib: Fix faulty workaround for assignment in if
+48e8a8160dba523af7074e668b2a458250838a3d staging: gpib: Fix i386 build issue
 3f5eb062e8aa335643181c480e6c590c6cedfd22 scsi: mpt3sas: Diag-Reset when Doorbell-In-Use bit is set during driver load time
 6050471545eecec214ca9ceb38a63e98e9003338 scsi: mpt3sas: Update driver version to 51.100.00.00
 69772f509e084ec6bca12dbcdeeeff41b0103774 bpf: Don't mark STACK_INVALID as STACK_MISC in mark_stack_slot_misc
@@ -875,5 +879,6 @@ dccbe2047a5b0859de24bf463dae9eeea8e01c1e Merge tag 'edac_urgent_for_v6.13_rc3' o
 7031a38ab74cfe997d2a767d18e3af7445547d07 Merge tag 'efi-fixes-for-v6.13-1' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 42a19aa1707cce382bc5e534e2e36024c3611674 Merge tag 'arc-6.13-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8 Linux 6.13-rc3
+f9e7f3f9620b13d76ed16399b46b29cab1a398f2 Merge 6.13-rc3 into staging-next
 
---===============5767945597110416913==--
+--===============8843068369430434211==--
