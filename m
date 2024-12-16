@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 16 Dec 2024 13:32:25 -0000
-Message-Id: <173435594571.2911268.11867882590771834247@gitolite.kernel.org>
+Date: Mon, 16 Dec 2024 13:33:58 -0000
+Message-Id: <173435603804.2911918.15264744369445055685@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,13 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/for-rc
-    old: d507d29bfde3fee6a74d098a9ac640b8fc1a549b
-    new: a4048c83fd87c65657a4acb17d639092d4b6133d
+  - ref: refs/heads/wip/leon-for-rc
+    old: a4048c83fd87c65657a4acb17d639092d4b6133d
+    new: 7179fe0074a3c962e43a9e51169304c4911989ed
     log: |
-         a4048c83fd87c65657a4acb17d639092d4b6133d RDMA/core: Fix ENODEV error for iWARP test over vlan
+         38651476e46e088598354510502c383e932e2297 RDMA/bnxt_re: Fix the check for 9060 condition
+         798653a0ee30d3cd495099282751c0f248614ae7 RDMA/bnxt_re: Add check for path mtu in modify_qp
+         da2132e683954e7ddda3cd674e866a847b7389eb RDMA/bnxt_re: Fix setting mandatory attributes for modify_qp
+         34db8ec931b84d1426423f263b1927539e73b397 RDMA/bnxt_re: Fix to export port num to ib_query_qp
+         7179fe0074a3c962e43a9e51169304c4911989ed RDMA/bnxt_re: Fix reporting hw_ver in query_device
          
