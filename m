@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============6076690949361247682=="
+Content-Type: multipart/mixed; boundary="===============3426969406146241710=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 16 Dec 2024 15:11:18 -0000
-Message-Id: <173436187827.3042739.1040077744756759756@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 16 Dec 2024 15:11:21 -0000
+Message-Id: <173436188190.3042896.2742727037706035949@gitolite.kernel.org>
 
---===============6076690949361247682==
+--===============3426969406146241710==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.13
+  - ref: refs/heads/asoc-6.13
     old: 255cc582e6e16191a20d54bcdbca6c91d3e90c5e
     new: 88438444fdddd0244c8b2697713adcca3e71599e
     log: revlist-255cc582e6e1-88438444fddd.txt
-  - ref: refs/heads/for-6.14
+  - ref: refs/heads/asoc-6.14
     old: 5ce3beed07b8145aff61f2cb41f1868f6221271f
     new: 5725bce709db1c001140d79398581e067e28c031
     log: |
@@ -30,32 +30,32 @@ changes:
          5725bce709db1c001140d79398581e067e28c031 ASoC: simple-card-utils: Unify clock direction by clk_direction
          
 
---===============6076690949361247682==
+--===============3426969406146241710==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1734361905 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1734361875-44c075d102ea5b5417a0457230bec5c7ffa59fa2
+pusher C3F436CA30F5D8EB 1734361908 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1734361879-7bb179c9c9f309f7bbac6170f83475f15cc8cea7
 
-255cc582e6e16191a20d54bcdbca6c91d3e90c5e 88438444fdddd0244c8b2697713adcca3e71599e refs/heads/for-6.13
-5ce3beed07b8145aff61f2cb41f1868f6221271f 5725bce709db1c001140d79398581e067e28c031 refs/heads/for-6.14
+255cc582e6e16191a20d54bcdbca6c91d3e90c5e 88438444fdddd0244c8b2697713adcca3e71599e refs/heads/asoc-6.13
+5ce3beed07b8145aff61f2cb41f1868f6221271f 5725bce709db1c001140d79398581e067e28c031 refs/heads/asoc-6.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmdgQzEACgkQJNaLcl1U
-h9BGFQf9H1xoyPY5Wk+R/v68f2hdrh93XrzIcHDYPiLMRSTKK/YlNWHQtRz3o1TP
-kBznod0VHDzCNrpbCwFXyhEY09fmllaeaHzsvnQi+YbtcBJcNVMafKnoskMWSgiO
-G4qHVCN2Dz9OjG5zr7iBEqeMOlhTwafQCQncaVepsU2jUlklH7k7qKwYaWlDj2Ql
-brhwJXZMgnMaFkktj0uhecB00X3Ig7bbUJFMvv/9o6Q+7F7lbQ3zy3nJvWMh2P/+
-tCpqVrfXSOXt1vmqfvznqDbd+uT93uJedRvEu8g19MpWCMbhiVbVzHHyeucd5ODa
-QJSvqGAebBXHL6dqE5Po5kPS7freug==
-=zMdF
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmdgQzQACgkQJNaLcl1U
+h9DXzAf/S8R1b108gwyQVa/ng3B1ec4h2agdIXwEOnq7nTAN15GroEBx0pzLhSn3
+3YTeWAl/Hq+koWn2aaq/WhwcPCPNc6T0L6gAl9xpmB4QIr0oDP2421tgBwdVgnmO
+xo49tAk7SYl012K+wsS9SS5rghrBsLnCx6Wqd+3ZrPgfRycgUlParMbYFpwKfTDL
+D2pRoJHOxP4lfO8ipOYIuD5uYyPtqzzDYFbhd1H6xBv4q5bCDGEn4J0LEwk+C8GL
+0AJThvDX28171Axrj5Sri5ZkHTdRrscGU++ilxhIM7ryCt8m9eK84iJNpBHH92QD
+4lmulGbevJSnOqOZOG9EHhWqREnxPw==
+=ahcR
 -----END PGP SIGNATURE-----
 
---===============6076690949361247682==
+--===============3426969406146241710==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -457,4 +457,4 @@ dccbe2047a5b0859de24bf463dae9eeea8e01c1e Merge tag 'edac_urgent_for_v6.13_rc3' o
 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8 Linux 6.13-rc3
 88438444fdddd0244c8b2697713adcca3e71599e ASoC: amd: ps: Fix for enabling DMIC on acp63 platform via _DSD entry
 
---===============6076690949361247682==--
+--===============3426969406146241710==--
