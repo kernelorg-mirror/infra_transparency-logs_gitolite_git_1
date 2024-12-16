@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0681096928453193418=="
+Content-Type: multipart/mixed; boundary="===============7846710730157450759=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 16 Dec 2024 20:35:21 -0000
-Message-Id: <173438132104.3317417.782262299766084118@gitolite.kernel.org>
+Date: Mon, 16 Dec 2024 20:36:21 -0000
+Message-Id: <173438138146.3318239.8849026724790590046@gitolite.kernel.org>
 
---===============0681096928453193418==
+--===============7846710730157450759==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,43 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 83c86b33de89cacd19efdb33f1ecd82b422b988a
-    new: 3955bce0be5f932061bced0601d05925ccdcf72e
-    log: revlist-83c86b33de89-3955bce0be5f.txt
+    old: 3955bce0be5f932061bced0601d05925ccdcf72e
+    new: 24c180d6d84241b4cc5853559ccb15c3de23788c
+    log: revlist-3955bce0be5f-24c180d6d842.txt
+  - ref: refs/heads/tip/urgent
+    old: d81034985224f6d6a4d4c4365664c97b7b115706
+    new: 08650710bcaaab1b0ae66b3e1e9f381f651b080d
+    log: revlist-d81034985224-08650710bcaa.txt
+  - ref: refs/tags/v6.13-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 7705f2f1cf8d49dd02236dce6edad6c013b43293
 
---===============0681096928453193418==
+--===============7846710730157450759==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-83c86b33de89-3955bce0be5f.txt
+Content-Disposition: attachment; filename=revlist-3955bce0be5f-24c180d6d842.txt
+
+08650710bcaaab1b0ae66b3e1e9f381f651b080d Merge branch into tip/master: 'irq/urgent'
+500c3698e3ad7876ff2b0dbe2d7ddf09a6411176 Merge branch into tip/master: 'irq/core'
+08fb739f8f21497682104e4600db817051521bfc Merge branch into tip/master: 'locking/core'
+1ee748faac3e30c59de1bdab30a7666478948520 Merge branch into tip/master: 'objtool/core'
+707eef1eb59e16fcee82c4ff85b7210ab1cc9ddc Merge branch into tip/master: 'perf/core'
+9672885195f24d6c9c634146f02a6fc5eb1bbb5e Merge branch into tip/master: 'sched/core'
+b81544f215298e666c51a48dab8c55bd8d432e48 Merge branch into tip/master: 'x86/boot'
+06531c959d36bdf5bb5d204578ae33613536e106 Merge branch into tip/master: 'x86/cache'
+6c24595494ccc1fa9b7faf92145f8a2ccd822f00 Merge branch into tip/master: 'x86/cleanups'
+2c62b8f7db8005b79d29a5d17ed43dfbfca68b84 Merge branch into tip/master: 'x86/cpu'
+572eb568df416d524de5e287d6938764f38989e3 Merge branch into tip/master: 'x86/misc'
+4dff527c7e8b97565f24759b85fe0465079f0127 Merge branch into tip/master: 'x86/mm'
+4e32d51e31ebc3a7ce55ed1c63b3d4ce7ec50a11 Merge branch into tip/master: 'x86/sev'
+24c180d6d84241b4cc5853559ccb15c3de23788c Merge branch into tip/master: 'x86/tdx'
+
+--===============7846710730157450759==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d81034985224-08650710bcaa.txt
 
 d798bc6f3c174c61837862cb9778d73cccd92a8e arm64: Fix usage of new shifted MDCR_EL2 values
 6fc3a49f23856fdf155ab35f2244295f7870bf83 KVM: arm64: Fix S1/S2 combination when FWB==1 and S2 has Device memory type
@@ -261,7 +289,6 @@ dccbe2047a5b0859de24bf463dae9eeea8e01c1e Merge tag 'edac_urgent_for_v6.13_rc3' o
 42a19aa1707cce382bc5e534e2e36024c3611674 Merge tag 'arc-6.13-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8 Linux 6.13-rc3
 a60b990798eb17433d0283788280422b1bd94b18 PCI/MSI: Handle lack of irqdomain gracefully
-fdf406413639d5820324d09d626a51588df707b1 Merge branch 'linus'
-3955bce0be5f932061bced0601d05925ccdcf72e Merge branch into tip/master: 'irq/urgent'
+08650710bcaaab1b0ae66b3e1e9f381f651b080d Merge branch into tip/master: 'irq/urgent'
 
---===============0681096928453193418==--
+--===============7846710730157450759==--
