@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7976152044972118293=="
+Content-Type: multipart/mixed; boundary="===============7799275546733328660=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 16 Dec 2024 21:43:49 -0000
-Message-Id: <173438542957.3375072.5798577709026388007@gitolite.kernel.org>
+Date: Mon, 16 Dec 2024 21:43:58 -0000
+Message-Id: <173438543846.3375293.9635864865398875652@gitolite.kernel.org>
 
---===============7976152044972118293==
+--===============7799275546733328660==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 150b567e0d572342ef08bace7ee7aff80fd75327
-    new: 922b4b955a03d19fea98938f33ef0e62d01f5159
-    log: revlist-150b567e0d57-922b4b955a03.txt
+  - ref: refs/heads/dev-queue
+    old: a0e86f02aeddd87b8297b8088e354b5c8117282b
+    new: 1900cc887b8fa7aa032bbf8d193c51fc2133086f
+    log: revlist-a0e86f02aedd-1900cc887b8f.txt
 
---===============7976152044972118293==
+--===============7799275546733328660==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-150b567e0d57-922b4b955a03.txt
+Content-Disposition: attachment; filename=revlist-a0e86f02aedd-1900cc887b8f.txt
 
 429fde2d81bcef0ebab002215358955704586457 net: tun: fix tun_napi_alloc_frags()
 2b33eb8f1b3e8c2f87cfdbc8cc117f6bdfabc6ec net/smc: protect link down work from execute after lgr freed
@@ -42,5 +42,20 @@ ee76746387f6233bdfa93d7406990f923641568f netdevsim: prevent bad user input in ns
 b096d62ba1323391b2db98b7704e2468cf3b1588 ionic: use ee->offset when returning sprom data
 cb85f2b8973c8077749fb5618c5123c1ba166a70 Merge branch 'ionic-minor-code-fixes'
 922b4b955a03d19fea98938f33ef0e62d01f5159 net: renesas: rswitch: rework ts tags management
+80aaf9e6cb58b41bd69789fd05711745d8a909a4 iavf: allow changing VLAN state without calling PF
+06c835af43b40a83089b5288f8c9fef73adea197 ice: Fix E825 initialization
+fc19d1a7dcf478e8b7ac7c7643e44ec61aedeeec ice: Fix quad registers read on E825
+1b3ddeac1dc56ba389269f970213d5ce2d6a1dcf ice: Fix ETH56G FC-FEC Rx offset value
+e0c268cdd14ceec6fb4014926c89f0c9b0a55147 ice: Add correct PHY lane assignment
+a99943aff1dac26b6a199d1a8020bbccc437154b idpf: Change function argument
+6204643805388941f87f3fbf94763fc3a809e40e idpf: rename vport_ctrl_lock
+51ff40378b071779799817fba1e03e5033749fa1 idpf: Add init, reinit, and deinit control lock
+ac1b54df384d925f8d64fa6c72612c61e96482a2 idpf: add lock class key
+864613572eb47239efe6360d058838e091750951 ice: fix max values for dpll pin phase adjust
+e8efbb78f93f4bafeee7c8cc2daed6c1e58c63fd idpf: add read memory barrier when checking descriptor done bit
+b6d4eb5f753983c6b3548608276054ae0a39bd51 idpf: add support for SW triggered interrupts
+b4f703ed209d1c2601177cd0d6f484e21da88092 idpf: trigger SW interrupt when exiting wb_on_itr mode
+99ae7bf62abf57a104641b54b0a606ed7e051205 ice: fix incorrect PHY settings for 100 GB/s
+1900cc887b8fa7aa032bbf8d193c51fc2133086f ice: do not configure destination override for switchdev
 
---===============7976152044972118293==--
+--===============7799275546733328660==--
