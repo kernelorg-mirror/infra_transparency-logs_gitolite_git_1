@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 16 Dec 2024 17:10:11 -0000
-Message-Id: <173436901162.3148635.8337398200975120269@gitolite.kernel.org>
+Date: Mon, 16 Dec 2024 17:10:15 -0000
+Message-Id: <173436901593.3148784.2183328966380508600@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,11 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/v2_20241216_yung_chuan_liao_asoc_intel_sof_sdw_update_dmi_matches_for_lenovo_models_with_ssids_233b_
-    old: ba7d47a54bf23a7201bdd2978e16b04fc1cb1f6e
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/asoc-6.13
+    old: 6f4a0fd03ce856c6d9811429b9969b4f27e2eaee
+    new: 001a3d5e8b449f8e48dda76affa5d5fa55f69ec6
+    log: |
+         7c449ef0fdce540bfb235a2d93e7184864c3388b ASoC: Intel: sof_sdw: Fix DMI match for Lenovo 21Q6 and 21Q7
+         ba7d47a54bf23a7201bdd2978e16b04fc1cb1f6e ASoC: Intel: sof_sdw: Fix DMI match for Lenovo 21QA and 21QB
+         001a3d5e8b449f8e48dda76affa5d5fa55f69ec6 ASoC: Intel: sof_sdw: Update DMI matches for Lenovo
+         
