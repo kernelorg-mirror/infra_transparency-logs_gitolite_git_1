@@ -1,61 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============4879243801918882123=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 16 Dec 2024 15:33:03 -0000
-Message-Id: <173436318388.3066106.7300331570142900471@gitolite.kernel.org>
-
---===============4879243801918882123==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
+Date: Mon, 16 Dec 2024 15:42:54 -0000
+Message-Id: <173436377498.3074062.7847925506549810981@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/chao/linux
+user: chao
 changes:
-  - ref: refs/heads/usb-linus
-    old: 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8
-    new: 59275b763306877a275563f89834cad88131d7e5
+  - ref: refs/heads/wip
+    old: 14a0b37677c60e56234bfdca48f2893895e751f3
+    new: 99c1b937f7efd14347261f99e40036e481c6cbc0
     log: |
-         fdad4fb7c506bea8b419f70ff2163d99962e8ede USB: serial: option: add TCL IK512 MBIM & ECM
-         724d461e44dfc0815624d2a9792f2f2beb7ee46d USB: serial: option: add MeiG Smart SLM770A
-         aa954ae08262bb5cd6ab18dd56a0b58c1315db8b USB: serial: option: add Netprisma LCUK54 modules for WWAN Ready
-         f07dfa6a1b65034a5c3ba3a555950d972f252757 USB: serial: option: add MediaTek T7XX compositions
-         8366e64a4454481339e7c56a8ad280161f2e441d USB: serial: option: add Telit FE910C04 rmnet compositions
-         59275b763306877a275563f89834cad88131d7e5 Merge tag 'usb-serial-6.13-rc3' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
+         e958c55387d039b2804ceb0c38fb771a58874d0e f2fs: fix to do sanity check correctly on i_inline_xattr_size
+         ade5bfe816c5b8b065d63745f1ee7fbd7c393465 f2fs: zone: allow IPU for regular file in regular block device
+         82d15f5c1b73e32157d8e3c08a958665b59420af f2fs: support NOCoW flag
+         43e5311d1e1aed513c29a4444c829b3d9c331ec2 f2fs: revalidate empty segment when checkpoint is disabled
+         228e7c03313012cbe4bd33a9913e79d7e1ff4590 f2fs: use per-log target_bitmap to improve lookup performace of ssr allocation
+         76c3abaf89c239ecec0ce391e2c6a2c3fd340a5e f2fs: introduce written_map to indicate written datas
+         adf3b6b31460b800b74602a535414e50d1e761c5 f2fs: fix to avoid panic once fallocation fails for pinfile
+         99c1b937f7efd14347261f99e40036e481c6cbc0 f2fs: fix to avoid out-of-bounds access in f2fs_truncate_inode_blocks()
          
-
---===============4879243801918882123==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1734363211 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1734363180-28dd1d86e14ca6da118e70a1ca67ede54ad961eb
-
-78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8 59275b763306877a275563f89834cad88131d7e5 refs/heads/usb-linus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdgSEsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bDwQAMyCvo6wJaf9nX2LIXq7
-wwjIHv9zmzJH0g+LGifQHuvHdQVbmUEJX5zEWo/TJTs4WuxF3wRU1nLQHokiLVKc
-/j0uF42cDzT1K3YN023OscF2fMshvXarLLD24d/iFVoS9z6Sl50Gtv6FbfdiOA8c
-eR7KrJswsksJ5HSHdr7KPn9J8nKLba8eSWQiw78igGq6FhquzhSDale3OeBuC8kJ
-YLGw4uP5qwycbYEABAb1OajCVnHc6wsvBiq5b9hPMKWkKs3usAEtcLmKccz9KRDp
-7KfW86vzDghdfuL1Nj7+fdkyjGhyFR1t/pjHnrslBNVEyo5dVXCmEGZgwDAvZxSZ
-ONOpSD9otZtMhJqbAKhdbQ4KlseDiRkSbahMOXDKVXwfvKpamkyNDfWlEsX6sg92
-wRuHtlLNCvi7QbCzD+hbZKt+lg1Gv8k0okG5xSr0YoPqkyXuZPVaQckHjIYELcpR
-l1ydzvtoptyo5C31dfkp+QpELX7FxQeDfb5Z5vzS4nOlx+36I/0ywBr0rv1kkwSn
-QXCg7PBKKB11IlXF18olk7Pu8Uf980oezMjW6v7J/zC4wmA7muLDQ+xTws8L6KYr
-LOOLGlIjGlvjulLf/0h3TKblVOCGNvp8p19mgoEPKK2zIr9QABT/aW/ZEqede6ZH
-sp4LfdiUGKBnkzR+YEZpxpZ7
-=sZxK
------END PGP SIGNATURE-----
-
---===============4879243801918882123==--
