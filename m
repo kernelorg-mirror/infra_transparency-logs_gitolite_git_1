@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5383398380236649956=="
+Content-Type: multipart/mixed; boundary="===============1173050063676824554=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 16 Dec 2024 21:42:35 -0000
-Message-Id: <173438535506.3374078.17210628331823490113@gitolite.kernel.org>
+Date: Mon, 16 Dec 2024 21:42:37 -0000
+Message-Id: <173438535736.3374191.12304520892777237625@gitolite.kernel.org>
 
---===============5383398380236649956==
+--===============1173050063676824554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 2c27c7663390d28bc71e97500eb68e0ce2a7223f
     new: bc6a5efe3dcd9ada8d76eeb69039a11a86add39b
     log: revlist-2c27c7663390-bc6a5efe3dcd.txt
 
---===============5383398380236649956==
+--===============1173050063676824554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -62,4 +62,4 @@ b9e3f7dc9ed95daeb83cfa45b821cacaa01aa906 net: ethtool: tsinfo: Enhance tsinfo to
 6e9e2eed4f39d52edf5fd006409d211facf49f6b net: ethtool: Add support for tsconfig command to get/set hwtstamp config
 bc6a5efe3dcd9ada8d76eeb69039a11a86add39b Merge branch 'net-timestamp-selectable'
 
---===============5383398380236649956==--
+--===============1173050063676824554==--
