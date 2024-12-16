@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0182466927024709598=="
+Content-Type: multipart/mixed; boundary="===============4684638945902221531=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 16 Dec 2024 15:21:28 -0000
-Message-Id: <173436248852.3055110.3978828203336542021@gitolite.kernel.org>
+Date: Mon, 16 Dec 2024 15:21:33 -0000
+Message-Id: <173436249331.3055387.8686151099445219882@gitolite.kernel.org>
 
---===============0182466927024709598==
+--===============4684638945902221531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: cdd30ebb1b9f36159d66f088b61aee264e649d7a
+  - ref: refs/heads/tty-linus
+    old: 4e450dfd0f968b79204637bf13280892dff287b1
     new: 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8
-    log: revlist-cdd30ebb1b9f-78d4f34e2115.txt
+    log: revlist-4e450dfd0f96-78d4f34e2115.txt
 
---===============0182466927024709598==
+--===============4684638945902221531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1734362517 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1734362522 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1734362487-09115eafb08ccf48b80be93f13714f4842914198
+nonce 1734362491-f2555554ee5279dfaeb91ad09322fc6ff2f4712d
 
-cdd30ebb1b9f36159d66f088b61aee264e649d7a 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8 refs/heads/main
+4e450dfd0f968b79204637bf13280892dff287b1 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdgRZUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uosP/0vB5K0RN5e9Ouv1aaHn
-Ev6Vi8mrcXSnPZrdoYqCeScncDpSJ6XIYp+6Hv6fUXf5WRW34Pty/8u5A/D2LlMX
-UeIAvKkBS13jUYSIw5o//DSDwmUJQNITHfhhQWtrWXkZr7MHBTNZnMXF+tpu+TjC
-UgB5z84EWoPn6+LjxLxfpgpQgpUvjkmCVJmzCxcwK8GMIzRKkpElboPLJOiIVI0q
-CUqoHWwXKbxyBbBThou7G4HdoDTQd8YOePSmEGahp61ltVj0zu3/GDj+rcoLQiue
-mhjNs0dvzWfl7YXb5k56ujqD5qyoAyTFr35dDbG0WzQdtPFAIXlGWhmJ/al9DcEh
-DthuSHhDyqYGoI7HeIYn3dKyP3Kb2oa5p+ZjScTg2tSNxw2jIV8ZHYh4PlntqvU/
-nd98EUnuRM8DgY0I2Uwh4ZBle58pZ2PQOchEl/2AGyqcxklmuxCFrBhjBedNShMK
-B9ei9IA1Vv8EJwF76k8n5oYvEXry/k6h2rHfazBq5WP0pqzyLUmymysUnfCUCL0Z
-C/mqPPdG+VuTVGWX7BqL8BpUXK+6phe9JKV5m38gIcoEZHdSXfgn2TMBNa425OGQ
-lq/416/9d260sHSAsFag8JIMc8V6DRylDei9bv0tmAyRWCi6sD0udT/AeV9/IcLt
-GnA+MLorNRKza7z4PQZG+z+0
-=+XWV
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdgRZobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IawQAMzUXDb19ozLSIe3KxeC
+9XG4ayGn54pVVRlAvuEmAZntnyqOhS/JIr58YsYPBrMIlb2bbqkQPVH0q/9H/np5
+zL4K6wu/S1UpU9jQB8/YdHu7ikttdT4V6ghe4fxp02zuuixbqgffVWjoLiVxcrTC
+YM1RzEM0JDfKNGUPeCq/BI1mbKB6ZQrRpDqmTcRkZxnKVA3wBdKZBTHY6ge6d5EN
+EpnEG3z0bKCHecftUSKZeTGnIwnFQjj6WvDnuxpJvVy0bdkBO0+BSTRbxoMd0Pg+
+e1DZN3++Mq+ABGX5v8xKy7klWpRgGLpndv/aW8ozArO2uNuuUVD8L9A751ell7hI
+zICg8elsZcMGLM6cn54+ZpOXBP1jBq5cv2TbWq1XUqw7y9FjUTClXXf1XVdXLHR7
+37YO/LCcMtaf6w5Zf45379PPTb+6zn+ymS2WEU9B/t+eJIsabUi6G3bxajyq7vxE
+F5xpCKp1Pdlyp7ls2DK6WHHT4FyXvCw7HE9TT+Ywa0k3PbNXWrX1USmZ34XsTA9s
+ESTNUbc0RMGM4PZwCNcyKH5B2pYG58WRstUrpw89IZtchZ3REuB2Ce2UT4n/tTHn
+VBNtjhkIvjko2CoNGfuwLdIOj/5cXEaxzlJx+KnyA5R6xeus4jiunh9kU8WVhqPg
+z5uJ3p8NzvhE01QnAjwvS8QO
+=Sjvh
 -----END PGP SIGNATURE-----
 
---===============0182466927024709598==
+--===============4684638945902221531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cdd30ebb1b9f-78d4f34e2115.txt
+Content-Disposition: attachment; filename=revlist-4e450dfd0f96-78d4f34e2115.txt
 
 4497ee914f10264894b08066cbee026604cd244f watchdog: fix typo in the comment
 daa814d784ac034c62ab3fb0ef83daeafef527e2 iTCO_wdt: mask NMI_NOW bit for update_no_reboot_bit() call
@@ -363,7 +363,6 @@ a8d3e4a734599c7d0f6735f8db8a812e503395dd usb: dwc2: hcd: Fix GetPortStatus & Set
 e37b383df91ba9bde9c6a31bf3ea9072561c5126 usb: typec: ucsi: Fix completion notifications
 33ead7e538183b1348ba60af90027240a10de751 usb: typec: ucsi: Fix connector status writing past buffer size
 e63fbd5f6810ed756bbb8a1549c7d4132968baa9 tracing: Fix cmp_entries_dup() to respect sort() comparison rules
-7cc0e0a43a91052477c2921f924a37d9c3891f0c serial: sh-sci: Check if TX data was written to device in .tx_empty()
 f580786ea900c74ed8046e617e5030d4c37a578b staging: gpib: Make GPIB_NI_PCI_ISA depend on HAS_IOPORT
 80242c4a9d50e71a4df1b7fa19b922ac88aab22b staging: gpib: Workaround for ppc build failure
 1d8c2d4b89b40f49ef4a70dcb2eaea43695025ce staging: gpib: Fix faulty workaround for assignment in if
@@ -518,7 +517,6 @@ d89c8ec0546184267cb211b579514ebaf8916100 scatterlist: fix incorrect func name in
 6535b8669c1a74078098517174e53fc907ce9d56 mm/damon: fix order of arguments in damos_before_apply tracepoint
 5f1b64e9a9b7ee9cfd32c6b2fab796e29bfed075 sched/numa: fix memory leak due to the overwritten vma->numab_state
 f1ee5483e40881d8ad5a63aa148b753b5c6a839b iio: magnetometer: yas530: use signed integer type for clamp limits
-4e450dfd0f968b79204637bf13280892dff287b1 tty: serial: Work around warning backtrace in serial8250_set_defaults
 07fa619f2a40c221ea27747a3323cabc59ab25eb x86/kexec: Restore GDT on return from ::preserve_context kexec
 f1d3334d604cc32db63f6e2b3283011e02294e54 wifi: cfg80211: sme: init n_channels before channels[] access
 b3fce429a1e030b50c1c91351d69b8667eef627b cacheinfo: Allocate memory during CPU hotplug if not done from the primary CPU
@@ -880,4 +878,4 @@ dccbe2047a5b0859de24bf463dae9eeea8e01c1e Merge tag 'edac_urgent_for_v6.13_rc3' o
 42a19aa1707cce382bc5e534e2e36024c3611674 Merge tag 'arc-6.13-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8 Linux 6.13-rc3
 
---===============0182466927024709598==--
+--===============4684638945902221531==--
