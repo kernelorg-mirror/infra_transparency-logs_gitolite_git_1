@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============3640607597853132069=="
+Content-Type: multipart/mixed; boundary="===============1439646896044431083=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 16 Dec 2024 17:52:39 -0000
-Message-Id: <173437155935.3184583.1713469936463605427@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 16 Dec 2024 17:52:42 -0000
+Message-Id: <173437156234.3184674.4477020382229989062@gitolite.kernel.org>
 
---===============3640607597853132069==
+--===============1439646896044431083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.13
+  - ref: refs/heads/asoc-6.13
     old: 6f4a0fd03ce856c6d9811429b9969b4f27e2eaee
     new: 001a3d5e8b449f8e48dda76affa5d5fa55f69ec6
     log: |
@@ -25,28 +25,28 @@ changes:
          001a3d5e8b449f8e48dda76affa5d5fa55f69ec6 ASoC: Intel: sof_sdw: Update DMI matches for Lenovo
          
 
---===============3640607597853132069==
+--===============1439646896044431083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1734371586 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1734371557-ce0061bcc8b8b17a5018c0e425d50ba0d8222b33
+pusher C3F436CA30F5D8EB 1734371589 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1734371560-c34827a174e2d4cb3f35647e2aa5ca629e87c757
 
-6f4a0fd03ce856c6d9811429b9969b4f27e2eaee 001a3d5e8b449f8e48dda76affa5d5fa55f69ec6 refs/heads/for-6.13
+6f4a0fd03ce856c6d9811429b9969b4f27e2eaee 001a3d5e8b449f8e48dda76affa5d5fa55f69ec6 refs/heads/asoc-6.13
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmdgaQIACgkQJNaLcl1U
-h9CTkQf/RSqlLrLZkxx7PI7tPNL+wUqit1h7bWMs2DoVVR+sC+hsERseTMgB3Gv+
-JUGBaW9rU1n50cSmfGXQOAHY5eThYrAhBtX+PjOXs+jIcHu9KcvUY5gl55EGguRt
-ervcUMORiRKnoKVurfMeK+c6Bi3ifwvXRDR9w/9FiHIGHqdB8mTBWTrzNYY0Oqmh
-uyWIYTGFsYtXPw79lC3vSW7uxnL82O8boQ0K8yk4whEaljphG/UN/MA2DlMfISTB
-Chwyy4uMPoZuG/utF09k5cA79/HKflk+aQWrYyrJo/o4XyBgLveegpp/NcpvlOt9
-+Q0QJ3gdxCvTAUV7vdLPa1S2uLbFWQ==
-=IK6k
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmdgaQUACgkQJNaLcl1U
+h9CjrAf/fCtfacBJgRy7uPH9goetbgNSvu8JvCSiNS2RWu8zMOmyw9JHLQ4iFO6i
+jhm0dTQKrtoa0Xh3wFOJVd+RPQBW7S71eyNxqUU3d2h3UraNOeiL+uwffjH1SEKO
+FxXoPJXxmTzJGTmHt0QLQJbNjMWpZ6MlBw+DHPvZ34zxIu8lCeBcAapZ8eUZv6yq
+N9eh8mCmkYZwTY96geoHEfYIrZ0SWNVtrwmT+yFGy7fVpMRWxz83xsSLvVw/CseI
+MWGh2fnZvKGaXJZYf5aQLyNtdnAjZhPCJRhhQHIrRrlVThrhYd1UXQdCkEz60adY
++OSZzoyKzpysjatgsak9MyUz5rT/Gw==
+=b+Qu
 -----END PGP SIGNATURE-----
 
---===============3640607597853132069==--
+--===============1439646896044431083==--
