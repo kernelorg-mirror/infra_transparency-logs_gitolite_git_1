@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7778191428520757838=="
+Content-Type: multipart/mixed; boundary="===============3311149804537602833=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 16 Dec 2024 01:02:01 -0000
-Message-Id: <173431092137.2313394.10000205384141761896@gitolite.kernel.org>
+Date: Mon, 16 Dec 2024 01:02:15 -0000
+Message-Id: <173431093511.2313600.16614007972848919625@gitolite.kernel.org>
 
---===============7778191428520757838==
+--===============3311149804537602833==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/nfsd-next
     old: fac04efc5c793dccbd07e2d59af9f90b7fc0dca4
     new: 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8
     log: revlist-fac04efc5c79-78d4f34e2115.txt
 
---===============7778191428520757838==
+--===============3311149804537602833==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -427,4 +427,4 @@ dccbe2047a5b0859de24bf463dae9eeea8e01c1e Merge tag 'edac_urgent_for_v6.13_rc3' o
 42a19aa1707cce382bc5e534e2e36024c3611674 Merge tag 'arc-6.13-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8 Linux 6.13-rc3
 
---===============7778191428520757838==--
+--===============3311149804537602833==--
