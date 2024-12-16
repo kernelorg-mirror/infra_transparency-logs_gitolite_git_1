@@ -1,36 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8608367844568169348=="
+Content-Type: multipart/mixed; boundary="===============4499425486499847354=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Mon, 16 Dec 2024 09:50:55 -0000
-Message-Id: <173434265543.2734075.2560786971864865949@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 16 Dec 2024 09:59:41 -0000
+Message-Id: <173434318157.2740085.17795280735389912810@gitolite.kernel.org>
 
---===============8608367844568169348==
+--===============4499425486499847354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
-user: geert
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/master
-    old: 845de9b5beaa41d9a3ce336ba1d5f098267cde3d
-    new: 13a53d27900dc73730b33583d381633bda3566b2
-    log: revlist-845de9b5beaa-13a53d27900d.txt
-  - ref: refs/tags/renesas-devel-2024-12-16-v6.13-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 434ccda8658645bf60d571ce55d59398ae1b0bf3
-  - ref: refs/tags/v6.13-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 7705f2f1cf8d49dd02236dce6edad6c013b43293
+  - ref: refs/heads/irq/urgent
+    old: 773c05f417fa14e1ac94776619e9c978ec001f0b
+    new: a60b990798eb17433d0283788280422b1bd94b18
+    log: revlist-773c05f417fa-a60b990798eb.txt
 
---===============8608367844568169348==
+--===============4499425486499847354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-845de9b5beaa-13a53d27900d.txt
+Content-Disposition: attachment; filename=revlist-773c05f417fa-a60b990798eb.txt
 
 d798bc6f3c174c61837862cb9778d73cccd92a8e arm64: Fix usage of new shifted MDCR_EL2 values
 6fc3a49f23856fdf155ab35f2244295f7870bf83 KVM: arm64: Fix S1/S2 combination when FWB==1 and S2 has Device memory type
@@ -386,8 +380,6 @@ ce03573a1917532da06057da9f8e74a2ee9e2ac9 kselftest/arm64: abi: fix SVCR detectio
 e01424fab35d77439956ea98c915c639fbf16db0 mq-deadline: Remove a local variable
 312ccd4b755a09dc44e8a25f9c9526a4587ab53c blk-mq: Clean up blk_mq_requeue_work()
 a6fe7b70513fbf11ffa5e85f7b6ba444497a5a3d block: Fix queue_iostats_passthrough_show()
-a1855f1b7c33642c9f7a01991fb763342a312e9b irqchip/gic: Correct declaration of *percpu_base pointer in union gic_base
-773c05f417fa14e1ac94776619e9c978ec001f0b irqchip/gic-v3: Work around insecure GIC integrations
 266facde8367cac71d748f04dfb4f72a76bfe51e Merge tag 'slab-for-6.13-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
 a3170b7d9319f79235a4747164ba1aaba981e758 Merge tag 'docs-6.13-fix' of git://git.lwn.net/linux
 de20dc2b9604f5130f62d19905cbfae7453fae80 Merge tag 'sound-6.13-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
@@ -432,6 +424,6 @@ dccbe2047a5b0859de24bf463dae9eeea8e01c1e Merge tag 'edac_urgent_for_v6.13_rc3' o
 7031a38ab74cfe997d2a767d18e3af7445547d07 Merge tag 'efi-fixes-for-v6.13-1' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 42a19aa1707cce382bc5e534e2e36024c3611674 Merge tag 'arc-6.13-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8 Linux 6.13-rc3
-13a53d27900dc73730b33583d381633bda3566b2 Merge tag 'v6.13-rc3' into renesas-devel
+a60b990798eb17433d0283788280422b1bd94b18 PCI/MSI: Handle lack of irqdomain gracefully
 
---===============8608367844568169348==--
+--===============4499425486499847354==--
