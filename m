@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Mon, 16 Dec 2024 16:48:11 -0000
-Message-Id: <173436769167.3127104.9213440098490582100@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
+Date: Mon, 16 Dec 2024 16:49:44 -0000
+Message-Id: <173436778439.3128343.9032180835266804838@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/remoteproc/linux
+user: mjp
 changes:
-  - ref: refs/tags/v6.13-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 7705f2f1cf8d49dd02236dce6edad6c013b43293
+  - ref: refs/heads/rproc-next
+    old: 1dc7c8ed7cb378dd3974387692dfa833aee718d4
+    new: dbb9c372555c0b2a5a9264418bfba6d017752808
+    log: |
+         dbb9c372555c0b2a5a9264418bfba6d017752808 remoteproc: mtk_scp: Only populate devices for SCP cores
+         
