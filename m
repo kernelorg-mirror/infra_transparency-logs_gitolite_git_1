@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5115344545128067801=="
+Content-Type: multipart/mixed; boundary="===============3038980195264994424=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Tue, 17 Dec 2024 08:56:22 -0000
-Message-Id: <173442578236.3925260.10122370576030204550@gitolite.kernel.org>
+Date: Tue, 17 Dec 2024 08:56:36 -0000
+Message-Id: <173442579674.3925490.16636140374494772401@gitolite.kernel.org>
 
---===============5115344545128067801==
+--===============3038980195264994424==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-next
+  - ref: refs/heads/master
     old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
     new: 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8
     log: revlist-40384c840ea1-78d4f34e2115.txt
 
---===============5115344545128067801==
+--===============3038980195264994424==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -851,4 +851,4 @@ dccbe2047a5b0859de24bf463dae9eeea8e01c1e Merge tag 'edac_urgent_for_v6.13_rc3' o
 42a19aa1707cce382bc5e534e2e36024c3611674 Merge tag 'arc-6.13-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8 Linux 6.13-rc3
 
---===============5115344545128067801==--
+--===============3038980195264994424==--
