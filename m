@@ -1,47 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============4670126658352735626=="
+Content-Type: multipart/mixed; boundary="===============1775569864155434342=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
-Date: Tue, 17 Dec 2024 10:02:43 -0000
-Message-Id: <173442976398.3981920.17041987933454563433@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Tue, 17 Dec 2024 10:47:55 -0000
+Message-Id: <173443247597.4016690.5736821306782451181@gitolite.kernel.org>
 
---===============4670126658352735626==
+--===============1775569864155434342==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
-user: frederic
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/for-next
-    old: 087ee688828f9fa7f59843eb65c6adacbd0826ee
-    new: fc7d29fc87711c4e5a850e7498045991688e9785
-    log: revlist-087ee688828f-fc7d29fc8771.txt
+  - ref: refs/heads/kvm-arm64/nv-next
+    old: 92486522e26fd733de3e2b872544e128479b868a
+    new: 1e2a09d0a43f9c19dae9d321b4a5c840d45fc88b
+    log: revlist-92486522e26f-1e2a09d0a43f.txt
 
---===============4670126658352735626==
+--===============1775569864155434342==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-087ee688828f-fc7d29fc8771.txt
+Content-Disposition: attachment; filename=revlist-92486522e26f-1e2a09d0a43f.txt
 
-e5c10da9b19c70efd4462bd4181fe84ff528730b scsi: bnx2fc: Use kthread_create_on_cpu()
-00f6810a81a374b4acbbd40fbc69f01ec6bf9941 scsi: bnx2i: Use kthread_create_on_cpu()
-4f770f93002861a5ab13c4278f1a85f3a15c815e scsi: qedi: Use kthread_create_on_cpu()
-b61ac4b022157563092d24ec9936682f6b1fd3c0 soc/qman: test: Use kthread_run_on_cpu()
-1e47d952f01b4d33c3f3ac037004238b39d7686a kallsyms: Use kthread_run_on_cpu()
-be70893bff33a8914f3fc93c034efe1828073b99 lib: test_objpool: Use kthread_run_on_cpu()
-9b0379cd587a1977fe4b0a6589562ecd02fee87b arm64: Exclude nohz_full CPUs from 32bits el0 support
-8baab05e0de8d0c8b9944f0527b96ec338606529 sched,arm64: Handle CPU isolation on last resort fallback rq selection
-73382d8781e53c5093609ec7b3d4f413a8a5edce kthread: Make sure kthread hasn't started while binding it
-0fea1a6b7afa537a1b6e45ac5898dfa58836b102 kthread: Default affine kthread to its preferred NUMA node
-33c87b1153742c7439070b0376ca558d8ddb801e mm: Create/affine kcompactd to its preferred node
-3956f5ecddc91be58f3fc2f93d788bf0ee0ed591 mm: Create/affine kswapd to its preferred node
-85e6bdc71aa034baa302857c32dfdb4fa9908177 kthread: Implement preferred affinity
-89ef6bb01704870abea6cfb2cb06238e30764529 rcu: Use kthread preferred affinity for RCU boost
-2ff8f9a3b11ff0f9ae9d8713754e077a2231de09 kthread: Unify kthread_create_on_cpu() and kthread_create_worker_on_cpu() automatic format
-0936fadc0114b5e7c4e9e6a07c98945018bcfc34 treewide: Introduce kthread_run_worker[_on_cpu]()
-fc7d29fc87711c4e5a850e7498045991688e9785 rcu: Use kthread preferred affinity for RCU exp kworkers
+188d2c3b83719401d68c23af5d25908cbcfe040f KVM: arm64: nv: Make ID_AA64MMFR4_EL1.E2H0 writable
+6e814df2b94e849f025982bc87168849d4e55803 KVM: arm64: nv: Mark HCR.EL2.E2H RES0 when ID_AA64MMFR1_EL1.VH is zero
+7d4b16b26a781c4b66dbe6b81f0a5c4430af3b7a KVM: arm64: nv: Mark HCR.EL2.{NV*,AT} RES0 when ID_AA64MMFR4_EL1.NV_frac is 0
+627b78e0759669fc7b735b477e6deb7cc80b0428 KVM: arm64: Document allowed behaviours of inconsistent ID registers
+462e5193b35a86a6b99948dac66222ecfb5942fc Merge branch 'kvm-arm64/nv-e2h-select' into HEAD
+d98ff5c91619eacd1d80690a004fa4a2362b6860 Merge branch 'kvm-arm64/nv-roll-baby-roll' into HEAD
+55b249cd486060d6bc73c8ad12ea2c18b42eed57 arm64: sysreg: Add layout for VNCR_EL2
+eca7e4423a05f5cef4a1c84f8d69e4abed046a0d KVM: arm64: nv: Extract translation helper from the AT code
+81efadf26bed81f0db815e9e049a222aa2558e5e KVM: arm64: nv: Snapshot S1 ASID tagging information during walk
+61cb066a23d7db1c6a029a0ac2397bfffc47708a KVM: arm64: nv: Move TLBI range decoding to a helper
+2b7de641ebe936941f6e422d78a18ebd1349876b KVM: arm64: nv: Don't adjust PSTATE.M when L2 is nesting
+5ffc05908f32c9af6db9ca85b1fd93abc87a6453 KVM: arm64: nv: Add pseudo-TLB backing VNCR_EL2
+db9d8706bf880256d06d3c3e25a54d1a5c5d7038 KVM: arm64: nv: Add userspace and guest handling of VNCR_EL2
+2a760a263436d12abfa217a408a2f63350913804 KVM: arm64: nv: Handle VNCR_EL2-triggered faults
+0cb2c18e124cd31e01221ed6c60fddc478e3286b KVM: arm64: nv: Handle mapping of VNCR_EL2 at EL2
+4e4ab1e7057cad4d80fee348caf90e03041321dd KVM: arm64: nv: Handle VNCR_EL2 invalidation from MMU notifiers
+bd922f952ab90332c2782cf6443b300ae8285f67 KVM: arm64: nv: Program host's VNCR_EL2 to the fixmap address
+6bc2a8d2496a1ce0c06c6543f1aa3fa2f30d0462 KVM: arm64: nv: Add S1 TLB invalidation primitive for VNCR_EL2
+157f882904d16c321be6b7b2a200f94a5d503a96 KVM: arm64: nv: Plumb TLBI S1E2 into system instruction dispatch
+80ae5670b35a44fef87108e006dbce804f54ca65 KVM: arm64: nv: Remove dead code from ERET handling
+1e2a09d0a43f9c19dae9d321b4a5c840d45fc88b KVM: arm64: nv: Advertise NV2 support through ID_AA64MMFR4_EL1.NV_frac
 
---===============4670126658352735626==--
+--===============1775569864155434342==--
