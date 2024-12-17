@@ -1,21 +1,34 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Tue, 17 Dec 2024 05:03:22 -0000
-Message-Id: <173441180292.3739257.365416972674733705@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Tue, 17 Dec 2024 05:03:30 -0000
+Message-Id: <173441181089.3739462.15109009371997284847@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
+repo: pub/scm/linux/kernel/git/sj/damo
 user: sj
 changes:
   - ref: refs/heads/master
-    old: 5ae42a3a2018a4b386f026220718b68665164f54
-    new: 6b00d91db8f9c59f1559de2fdbc8f3fcd150c854
+    old: 53120819294daa8277ff7d56d694d2729e508221
+    new: 8b156429293e71e630b9d5a102a98176effd39b7
     log: |
-         2b49c0ffed050c6e14abb2c831fc8a661275bc8f patches/next: filter_passed_stat: add step-by-step revert patches
-         b98263b0caeaf99043f21eb30ca94fec77a28f01 patches/next: filter_passed stat: fixup step-by-step reverts and revert those reverts
-         6b00d91db8f9c59f1559de2fdbc8f3fcd150c854 patches/next: filter_passed_stat: remove temporal commits for sequencing
+         707ea37ccd5b920234bd70d6f464d5cabd4c8dca _damo_records: support filtering snapshots via index
+         613fc9cb348e8dca4c5e0172a8f4df992fd3d898 _damo_records: expose snapshot_sz_ranges from RecordFilter.to_kvpairs()
+         5b6c06cd72618438f9ea248365e30cb01e79dd02 TODO,release_note: update for snapshot index-based filtering
+         8b156429293e71e630b9d5a102a98176effd39b7 Update the version
          
+  - ref: refs/heads/next
+    old: 53120819294daa8277ff7d56d694d2729e508221
+    new: 8b156429293e71e630b9d5a102a98176effd39b7
+    log: |
+         707ea37ccd5b920234bd70d6f464d5cabd4c8dca _damo_records: support filtering snapshots via index
+         613fc9cb348e8dca4c5e0172a8f4df992fd3d898 _damo_records: expose snapshot_sz_ranges from RecordFilter.to_kvpairs()
+         5b6c06cd72618438f9ea248365e30cb01e79dd02 TODO,release_note: update for snapshot index-based filtering
+         8b156429293e71e630b9d5a102a98176effd39b7 Update the version
+         
+  - ref: refs/tags/v2.6.0
+    old: 0000000000000000000000000000000000000000
+    new: 8f44dd1e2fac5378b43cba3080245669aa178958
