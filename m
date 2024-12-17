@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5224994861369503243=="
+Content-Type: multipart/mixed; boundary="===============0349450039637306182=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 17 Dec 2024 21:22:37 -0000
-Message-Id: <173447055714.394422.16822819866795001579@gitolite.kernel.org>
+Date: Tue, 17 Dec 2024 21:22:56 -0000
+Message-Id: <173447057609.394721.10683215278653864779@gitolite.kernel.org>
 
---===============5224994861369503243==
+--===============0349450039637306182==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,41 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 62da3a7453e573a9640d8495891779d5ed963c22
-    new: 38bd8c7f30566e0ffd2e9dd33f9fc714c483076a
-    log: revlist-62da3a7453e5-38bd8c7f3056.txt
+    old: 38bd8c7f30566e0ffd2e9dd33f9fc714c483076a
+    new: f220c40fae2800bfaca1f4a40bc6f6da42c2b8dd
+    log: revlist-38bd8c7f3056-f220c40fae28.txt
+  - ref: refs/heads/tip/urgent
+    old: 4701473194d45d229a3196a908c300a1ed3fdcdc
+    new: fb52a2d376b22e57cd73fb3caab2a29b26c76da1
+    log: revlist-4701473194d4-fb52a2d376b2.txt
 
---===============5224994861369503243==
+--===============0349450039637306182==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-62da3a7453e5-38bd8c7f3056.txt
+Content-Disposition: attachment; filename=revlist-38bd8c7f3056-f220c40fae28.txt
+
+4783d1580fa0f1391d6c49f2aff2addc364be891 Merge branch into tip/master: 'irq/urgent'
+fb52a2d376b22e57cd73fb3caab2a29b26c76da1 Merge branch into tip/master: 'x86/urgent'
+7bf2d62b6f294267cc0fcae6221dfaf3f57e1550 Merge branch into tip/master: 'irq/core'
+435093276722d539a7683be34bc27164469114fe Merge branch into tip/master: 'locking/core'
+4efdf7d6ccb211df4bc5f0126954174ef48e8031 Merge branch into tip/master: 'objtool/core'
+8beee800e1755da3bf766cf44102624cbe537f0e Merge branch into tip/master: 'perf/core'
+872b7a895fe1123b261f92661de207d5a562c881 Merge branch into tip/master: 'sched/core'
+86ba0541673ccace2dac3343ec948f0c8bdce8c0 Merge branch into tip/master: 'x86/boot'
+2378a9337e02b644f4478565d48362f1708cd51c Merge branch into tip/master: 'x86/cache'
+9aa2382bd8bab41eed95ed3554e6e2ed256e7ef7 Merge branch into tip/master: 'x86/cleanups'
+bbfadda07bb2ae9402bed0d83157ee1d63cdcc10 Merge branch into tip/master: 'x86/cpu'
+b49b92d5b3f5a9364baf5de0cea232f0a3a480e0 Merge branch into tip/master: 'x86/misc'
+1f7ba1ecb8cc4d7373798ae45b32a65cf243e33f Merge branch into tip/master: 'x86/mm'
+b10513bdd999cf066e735fd6f01ef6536b7b5556 Merge branch into tip/master: 'x86/sev'
+f220c40fae2800bfaca1f4a40bc6f6da42c2b8dd Merge branch into tip/master: 'x86/tdx'
+
+--===============0349450039637306182==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-4701473194d4-fb52a2d376b2.txt
 
 41856638e6c4ed51d8aa9e54f70059d1e357b46e s390/mm: Fix DirectMap accounting
 5fa49dd8e521a42379e5e41fcf2c92edaaec0a8b s390/ipl: Fix never less than zero warning
@@ -52,6 +78,7 @@ b1c2cb86f4a7861480ad54bb9a58df3cbebf8e92 x86/xen: use new hypercall functions in
 ed90ed56e4b1311797302c2e6107f5049ba4586d Merge tag 'erofs-for-6.13-rc4-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
 a241d7f0d3a289a52b5245ec1f486d57c8f3c97b Merge tag 's390-6.13-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 5529876063e110ea49326138149fdf2a28a484dd Merge tag 'ftrace-v6.13-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-38bd8c7f30566e0ffd2e9dd33f9fc714c483076a Merge branch 'linus'
+4783d1580fa0f1391d6c49f2aff2addc364be891 Merge branch into tip/master: 'irq/urgent'
+fb52a2d376b22e57cd73fb3caab2a29b26c76da1 Merge branch into tip/master: 'x86/urgent'
 
---===============5224994861369503243==--
+--===============0349450039637306182==--
