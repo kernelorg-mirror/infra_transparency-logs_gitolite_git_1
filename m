@@ -1,47 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============1919452700751466693=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 17 Dec 2024 02:33:15 -0000
-Message-Id: <173440279518.3621510.16705866492870267453@gitolite.kernel.org>
-
---===============1919452700751466693==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Tue, 17 Dec 2024 02:33:37 -0000
+Message-Id: <173440281771.3621949.9770927221116729226@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
+repo: pub/scm/linux/kernel/git/sj/damon-hack
 user: sj
 changes:
   - ref: refs/heads/master
-    old: 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8
-    new: f44d154d6e3d633d4c49a5d6aed8a0e4684ae25e
-    log: revlist-78d4f34e2115-f44d154d6e3d.txt
-
---===============1919452700751466693==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-78d4f34e2115-f44d154d6e3d.txt
-
-514b2262ade48a0503ac6aa03c3bfb8c5be69b21 firmware: arm_scmi: Fix i.MX build dependency
-6fe437cfe2cdc797b03f63b338a13fac96ed6a08 firmware: arm_ffa: Fix the race around setting ffa_dev->properties
-4f776d81bf927a4f25d5e32a4d0df08ee509dd6c arm64: dts: fvp: Update PCIe bus-range property
-90386e1ba4889ada34ffc0f9b9e6d82fd9a29fe1 Merge tag 'juno-fix-6.13' of https://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into arm/fixes
-c9bc45b346fc040813c082fc5f2cbdcefaf2fc95 Merge tag 'scmi-fix-6.13' of https://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into arm/fixes
-c1043cdb019ed4d053d673e62b553a5cea1a287d alienware-wmi: Fix X Series and G Series quirks
-54a8cada2f3d7efb4a7920807473d89c442d9c45 alienware-wmi: Adds support to Alienware m16 R1 AMD
-9244524d60ddea55f4df54c51200e8fef2032447 p2sb: Factor out p2sb_read_from_cache()
-ae3e6ebc5ab046d434c05c58a3e3f7e94441fec2 p2sb: Introduce the global flag p2sb_hidden_by_bios
-0286070c74ee48391fc07f7f617460479472d221 p2sb: Move P2SB hide and unhide code to p2sb_scan_and_cache()
-360c400d0f568636c1b98d1d5f9f49aa3d420c70 p2sb: Do not scan and remove the P2SB device when it is unhidden
-220326c4650a0ef7db3bfcae903f758555ecb973 platform/x86: touchscreen_dmi: Add info for SARY Tab 3 tablet
-6c0a473fc5f89dabbed0af605a09370b533aa856 platform/x86/intel/ifs: Add Clearwater Forest to CPU support list
-83848e37f6ee80f60b04139fefdfa1bde4aaa826 platform/x86/intel/vsec: Add support for Panther Lake
-f578281000c50cae991c40e1f68b2fc0b1b9e60e Merge tag 'ffa-fix-6.13' of https://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into arm/fixes
-dc690bc256edd9da6596fccf978327309173f44a Merge tag 'platform-drivers-x86-v6.13-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-f44d154d6e3d633d4c49a5d6aed8a0e4684ae25e Merge tag 'soc-fixes-6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-
---===============1919452700751466693==--
+    old: 625d7b29b2bb888ca6a4a7afc28b923f820da164
+    new: 5ae42a3a2018a4b386f026220718b68665164f54
+    log: |
+         1128313f73dcf74be1f7cfc1eedd0871fec48880 patches/next: docs cleanup and refactoring of per-region filtered stat using damos_walk()
+         fbff9a00f1608f38526ac16ab4e592cfaa69b694 patches/next: document sz_filtered_out
+         60a22c608d488a641b39478058b32c9d302bf78a patches/next: reorder patches
+         acca94f1efaf63b20e663dde6587344475838943 patches/next: do per-scheme filtered stat update from core logic
+         1abcc1b61a26c7036239f60fd53f69769f12b1a1 patches/next: rename filtered_out to filter_passed
+         6a8ef373b1431397fcdb952e8eaf117f03ac664c patches/next: more filter_passed docsumentation
+         5ae42a3a2018a4b386f026220718b68665164f54 patches/next: rebase to latest mm-unstable
+         
