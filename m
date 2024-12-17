@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0102381591943670483=="
+Content-Type: multipart/mixed; boundary="===============1775740226761033181=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 17 Dec 2024 17:31:18 -0000
-Message-Id: <173445667887.174406.1693258774388157813@gitolite.kernel.org>
+Date: Tue, 17 Dec 2024 17:31:21 -0000
+Message-Id: <173445668107.174520.635840022427227888@gitolite.kernel.org>
 
---===============0102381591943670483==
+--===============1775740226761033181==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: bc6a5efe3dcd9ada8d76eeb69039a11a86add39b
     new: d22f955cc2cb9684dd45396f974101f288869485
     log: revlist-bc6a5efe3dcd-d22f955cc2cb.txt
 
---===============0102381591943670483==
+--===============1775740226761033181==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -59,4 +59,4 @@ bf61ffeb9cc48ee7d1945f26578291da5d9305e4 af_unix: Remove unix_our_peer().
 ff9f17ce2e53887e74fc0e72711ece42526836ed net/sched: Add drop reasons for AQM-based qdiscs
 d22f955cc2cb9684dd45396f974101f288869485 rust: net::phy scope ThisModule usage in the module_phy_driver macro
 
---===============0102381591943670483==--
+--===============1775740226761033181==--
