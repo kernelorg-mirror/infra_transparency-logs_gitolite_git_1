@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============1301953942816240193=="
+Content-Type: multipart/mixed; boundary="===============8300394883548769312=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 17 Dec 2024 13:26:13 -0000
-Message-Id: <173444197334.4148272.1933448148904286041@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 17 Dec 2024 13:26:16 -0000
+Message-Id: <173444197664.4148374.11150204251402921301@gitolite.kernel.org>
 
---===============1301953942816240193==
+--===============8300394883548769312==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.13
+  - ref: refs/heads/spi-6.13
     old: 25fb0e77b90e290a1ca30900d54c6a495eea65e2
     new: 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8
     log: revlist-25fb0e77b90e-78d4f34e2115.txt
-  - ref: refs/heads/for-6.14
+  - ref: refs/heads/spi-6.14
     old: 3f3b063e0c6d6c35da99bdabba0a9f2bc7e58a47
     new: 8011709906d0d6ff1ba9589de5a906bf6e430782
     log: |
          8011709906d0d6ff1ba9589de5a906bf6e430782 spi: rockchip-sfc: Support pm ops
          
 
---===============1301953942816240193==
+--===============8300394883548769312==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1734442000 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1734441971-5373bc601c69e2c3a84f344d0a5fcff356cc1155
+pusher C3F436CA30F5D8EB 1734442003 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1734441974-b9c84f5a1f0f33d170d05ea73e9e202fa0a0ee54
 
-25fb0e77b90e290a1ca30900d54c6a495eea65e2 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8 refs/heads/for-6.13
-3f3b063e0c6d6c35da99bdabba0a9f2bc7e58a47 8011709906d0d6ff1ba9589de5a906bf6e430782 refs/heads/for-6.14
+25fb0e77b90e290a1ca30900d54c6a495eea65e2 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8 refs/heads/spi-6.13
+3f3b063e0c6d6c35da99bdabba0a9f2bc7e58a47 8011709906d0d6ff1ba9589de5a906bf6e430782 refs/heads/spi-6.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmdhfBAACgkQJNaLcl1U
-h9AH9Af8D6hcl6zl0G43z5OZFEnaUAX+dGcdP7sAc2ONG/A9OZs7rhmmYodluSEC
-cXLmxuOBk2ePoT+e4y1OqrUbdVS9gjO36cpzHeTzo6AKYvnCFQNPIC6XYgAgvXAf
-2uwerIqq0RCqkuQqiFPDDCn1yYsu8wyUuuA1SXcBbxd78ZrRWdgWms1lFsLDYGVI
-tQQDv6ceJUM8Csy63neqem0ikRvGm3MPaxWbOIj9jP5mL6Wefy7dxcb5wsctrqav
-XPrubuQSBC30dl1aK5AMb66A+mjRjxJbek/nuWR+CexmGZ/no4dfJRXkFmmOqAY8
-VLTWHA5t/ZnZdiEhMiCekO+OvaJggA==
-=sZy1
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmdhfBMACgkQJNaLcl1U
+h9CFfAf8CNZL4WhwM2N1xQgw44hf2/xuY4Y1pKZwzTEvjPVxaJ7cCel8VeMgnLB9
+4Dkfa1hAh/XXZnp57fYRW2JxqOpy8DnoIWyZZPaYLnJrEJZKXqZLth7niDO+Tz8O
+9cpD7eLCHS7H+TBb6DpqXCkjW8GonjbNjV9Z1ihC8X5MhC8xAVl0iwhpA4JwHLP+
+Qdl4wgYTI58B3BYjWNtGjaKv3jkra1zkUdJawK/L0fcwQho+tLsjHBcffDHzb5Pm
+U92rMVc9Obv+Y0QUMORDJoLfJuOJ8U9Nar8/jq38xRb1iuLbLfkozRLLL8W31f75
+M73cfcYH0IgIEek09gz8Hj3NQpDaPQ==
+=nWOi
 -----END PGP SIGNATURE-----
 
---===============1301953942816240193==
+--===============8300394883548769312==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -456,4 +456,4 @@ dccbe2047a5b0859de24bf463dae9eeea8e01c1e Merge tag 'edac_urgent_for_v6.13_rc3' o
 42a19aa1707cce382bc5e534e2e36024c3611674 Merge tag 'arc-6.13-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8 Linux 6.13-rc3
 
---===============1301953942816240193==--
+--===============8300394883548769312==--
