@@ -1,21 +1,45 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/ofono/ofono
-Date: Tue, 17 Dec 2024 17:17:00 -0000
-Message-Id: <173445582004.160884.3129163385687945281@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4526287852437870384=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 17 Dec 2024 17:20:09 -0000
+Message-Id: <173445600994.164176.17407569392246412051@gitolite.kernel.org>
+
+--===============4526287852437870384==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/ofono/ofono
-user: denkenz
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: e58b7245a684cdd462df916e5c873f592eea80d0
-    new: 389e2344f86319265fb72ae590b470716e038fdc
-    log: |
-         1e2a768445aecfa0a0e9c788651a9205cfd3744f util: ensure decode_hex_own_buf is passed a valid buffer
-         29ff6334b492504ace101be748b256e6953d2c2f atmodem: sms: ensure buffer is initialized before use
-         389e2344f86319265fb72ae590b470716e038fdc ussd: ensure ussd content fits in buffers
-         
+  - ref: refs/heads/1GbE
+    old: 922b4b955a03d19fea98938f33ef0e62d01f5159
+    new: 7ed2d91588779f0a2b27fd502ce2aaf1fab9b3ca
+    log: revlist-922b4b955a03-7ed2d9158877.txt
+
+--===============4526287852437870384==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-922b4b955a03-7ed2d9158877.txt
+
+b1f3a2f5a742c1e939a73031bd31b9e557a2d77d netdev: fix repeated netlink messages in queue dump
+ecc391a541573da46b7ccc188105efedd40aef1b netdev: fix repeated netlink messages in queue stats
+0518863407b8dcc7070fdbc1c015046d66777e78 selftests: net: support setting recv_size in YNL
+1234810b1649e9d781aeafd4b23fb1fcfbf95d8f selftests: net-drv: queues: sanity check netlink dumps
+5712e323d4c3ad03bba4d28f83e80593171ac3f1 selftests: net-drv: stats: sanity check netlink dumps
+c8eb0c3ffde699c981449f8b86da12df577c46b9 Merge branch 'netdev-fix-repeated-netlink-messages-in-queue-dumps'
+fbbd84af6ba70334335bdeba3ae536cf751c14c6 chelsio/chtls: prevent potential integer overflow on 32bit
+e78c20f327bd94dabac68b98218dff069a8780f0 team: Fix feature exposure when no ports are present
+7203d10e93b6e6e1d19481ef7907de6a9133a467 net: hinic: Fix cleanup in create_rxqs/txqs()
+94901b7a74d82bfd30420f1d9d00898278fdc8bf rust: net::phy fix module autoloading
+7d2f320e12744e5906a4fab40381060a81d22c12 net: ethernet: oa_tc6: fix infinite loop error when tx credits becomes 0
+e592b5110b3e9393881b0a019d86832bbf71a47f net: ethernet: oa_tc6: fix tx skb race condition between reference pointers
+90d130aadce1592f6f2dc0cfecfc9502bbd6f5c0 Merge branch 'fixes-on-the-open-alliance-tc6-10base-t1x-mac-phy-support-generic-lib'
+0cb2c504d79e7caa3abade3f466750c82ad26f01 net: ethernet: bgmac-platform: fix an OF node reference leak
+7ed2d91588779f0a2b27fd502ce2aaf1fab9b3ca qed: fix possible uninit pointer read in qed_mcp_nvm_info_populate()
+
+--===============4526287852437870384==--
