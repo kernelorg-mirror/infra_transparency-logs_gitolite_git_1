@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 17 Dec 2024 12:28:14 -0000
-Message-Id: <173443849444.4098518.1091388341818830773@gitolite.kernel.org>
+Date: Tue, 17 Dec 2024 12:33:49 -0000
+Message-Id: <173443882944.4102913.15263069472141142094@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: pabeni
 changes:
   - ref: refs/heads/main
-    old: 963b7895ef9af77131cef6e47cfffd4d3d513cc6
-    new: ff9f17ce2e53887e74fc0e72711ece42526836ed
+    old: ff9f17ce2e53887e74fc0e72711ece42526836ed
+    new: d22f955cc2cb9684dd45396f974101f288869485
     log: |
-         ff9f17ce2e53887e74fc0e72711ece42526836ed net/sched: Add drop reasons for AQM-based qdiscs
+         d22f955cc2cb9684dd45396f974101f288869485 rust: net::phy scope ThisModule usage in the module_phy_driver macro
          
