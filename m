@@ -1,42 +1,48 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 17 Dec 2024 00:49:35 -0000
-Message-Id: <173439657504.3528977.5078728423019375281@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4690248583895559689=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Tue, 17 Dec 2024 00:54:48 -0000
+Message-Id: <173439688807.3533364.11282580998445834183@gitolite.kernel.org>
+
+--===============4690248583895559689==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-6.14/io_uring
-    old: 47136e853a2dec326d910a8c13462738ae8b30b6
-    new: cd7f9fee711c9ca4b909ffaadcac0302358db841
+  - ref: refs/heads/for-next/execve
+    old: fa1bdca98d74472dcdb79cb948b54f63b5886c04
+    new: 184a9358e506b77ade22c07dda4f34d133bc31c0
     log: |
-         b1031968b14f83f4bb96ecc4de4f6350ae0f6dad io_uring: Fold allocation into alloc_cache helper
-         694022b01368387cc1ed8485e279dfe27939ee43 io_uring: Add generic helper to allocate async data
-         b42176e5055a628217ff1536111a9e2df23db835 io_uring/futex: Allocate ifd with generic alloc_cache helper
-         4cc6fd392489cd76c7aa138eddace19dbcea366e io_uring/poll: Allocate apoll with generic alloc_cache helper
-         02b3c515d0be7e77dd19920e30cf637e9c7a167d io_uring/uring_cmd: Allocate async data through generic helper
-         23d91035cafa30d186242ebdf583aa1b55f1c59e io_uring/net: Allocate msghdr async data through helper
-         8cf0c459993ee2911f4f01fba21b1987b102c887 io_uring/rw: Allocate async data through helper
-         6cd2993dcdc17cac5cf6b11034abc6014caab71b io_uring: Move old async data allocation helper to header
-         cd7f9fee711c9ca4b909ffaadcac0302358db841 io_uring/msg_ring: Drop custom destructor
+         3a3f61ce5e0b4bcf730acc09c1af91012d241f85 exec: Make sure task->comm is always NUL-terminated
+         543841d1806029889c2f69f040e88b247aba8e22 exec: fix up /proc/pid/comm in the execveat(AT_EMPTY_PATH) case
+         184a9358e506b77ade22c07dda4f34d133bc31c0 selftests/exec: add a test for execveat()'s comm
          
-  - ref: refs/heads/for-next
-    old: 970d69be71f6201eef66ca15b67099b81b275d20
-    new: 0fb8e759b7f6e6b6040572e8555ebb34dd9fd2bf
-    log: |
-         b1031968b14f83f4bb96ecc4de4f6350ae0f6dad io_uring: Fold allocation into alloc_cache helper
-         694022b01368387cc1ed8485e279dfe27939ee43 io_uring: Add generic helper to allocate async data
-         b42176e5055a628217ff1536111a9e2df23db835 io_uring/futex: Allocate ifd with generic alloc_cache helper
-         4cc6fd392489cd76c7aa138eddace19dbcea366e io_uring/poll: Allocate apoll with generic alloc_cache helper
-         02b3c515d0be7e77dd19920e30cf637e9c7a167d io_uring/uring_cmd: Allocate async data through generic helper
-         23d91035cafa30d186242ebdf583aa1b55f1c59e io_uring/net: Allocate msghdr async data through helper
-         8cf0c459993ee2911f4f01fba21b1987b102c887 io_uring/rw: Allocate async data through helper
-         6cd2993dcdc17cac5cf6b11034abc6014caab71b io_uring: Move old async data allocation helper to header
-         cd7f9fee711c9ca4b909ffaadcac0302358db841 io_uring/msg_ring: Drop custom destructor
-         0fb8e759b7f6e6b6040572e8555ebb34dd9fd2bf Merge branch 'for-6.14/io_uring' into for-next
-         
+
+--===============4690248583895559689==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1734396910 -0800
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
+nonce 1734396880-306b95765718d687befbc619fcdcbd8e23cd946f
+
+fa1bdca98d74472dcdb79cb948b54f63b5886c04 184a9358e506b77ade22c07dda4f34d133bc31c0 refs/heads/for-next/execve
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCZ2DL7gAKCRA2KwveOeQk
+ux/1AP0TH+Mk2oQBs3ANB6NM0WDN13lARa5jhME6YjW4ESCO/QD/Xdm6ULm++XSQ
+9+53io2LnVgtvUBlBBE2efn2M6RuoAg=
+=ZS0v
+-----END PGP SIGNATURE-----
+
+--===============4690248583895559689==--
