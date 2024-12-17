@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0383998166764016528=="
+Content-Type: multipart/mixed; boundary="===============7336286024147136140=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Tue, 17 Dec 2024 21:07:00 -0000
-Message-Id: <173446962074.382243.5928625613513853067@gitolite.kernel.org>
+Date: Tue, 17 Dec 2024 21:21:46 -0000
+Message-Id: <173447050672.393872.4136464496475121096@gitolite.kernel.org>
 
---===============0383998166764016528==
+--===============7336286024147136140==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/pending
-    old: 045e95497730e412e220178456429919466774d8
-    new: 580d97cebb3c6bea908d5a1a0775565a743a4534
-    log: revlist-045e95497730-580d97cebb3c.txt
+  - ref: refs/heads/main-pending
+    old: e4bc66fdc3de638684712c85bde1a5d642765458
+    new: a184192f941b1be3d0142166e17f71143d3754e2
+    log: revlist-e4bc66fdc3de-a184192f941b.txt
+  - ref: refs/tags/ath-pending-202412172107
+    old: 0000000000000000000000000000000000000000
+    new: a184192f941b1be3d0142166e17f71143d3754e2
 
---===============0383998166764016528==
+--===============7336286024147136140==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-045e95497730-580d97cebb3c.txt
+Content-Disposition: attachment; filename=revlist-e4bc66fdc3de-a184192f941b.txt
 
 f86e09fd393adfbbf078985e2cbf322e9892fbe3 dt-bindings: net: wireless: Describe ath12k PCI module with WSI
 908c10c860e012f961bfb2b8e0823b23426beb9d wifi: ath12k: parse multiple device information from Device Tree
@@ -50,6 +53,9 @@ ae6b065282abd5cb097fbe96bfb96fa29a9fc321 wifi: ath12k: advertise multi device in
 043b473e3e02d4c371075956e9c72c32f17958fb wifi: ath12k: add ATH12K_FW_FEATURE_MLO capability firmware feature
 02213c21fb8dfe430e25e539153865eb846f1549 wifi: ath12k: assign unique hardware link IDs during QMI host cap
 d33bc467e8325be66b7209250e9829d199034ffe wifi: ath12k: advertise MLO support and capabilities
+aa3c060c7703bbb04dda4fc1f95bbd471b4ca82e Merge branch 'ath-next'
+9743e2ca477f9e468199068ddd49f78fe1fe1a54 Merge remote-tracking branch 'mhi/mhi-next'
+9a448415ed0c46edeb9170091a03b620986ca0b2 Add localversion-wireless-testing-ath
 94e35d52757cb3e49a7cfc30985c1fcdd825176b wifi: ath9k: cleanup ath_txq_skb_done()
 0dd4f9fb950663182c55b9686acca395c19d00eb wifi: ath9k: cleanup a few (mostly) TX-related routines
 ba5d07a84359ff6a1d3b7a216a9d10c521adec1a wifi: ath9k: simplify internal time management
@@ -67,5 +73,6 @@ a447ddcfa021b1059ac9d37e1088f49445eeb1e5 wifi: ath12k: fix incorrect TID updatio
 61c6fe89059fec93583355fa72ce853da34e88ce wifi: ath12k: Change the Tx monitor SRNG ring ID
 f3656ddb7dd418be313f050918462c86849ae592 wifi: ath12k: Avoid explicit type cast in monitor status parse handler
 580d97cebb3c6bea908d5a1a0775565a743a4534 wifi: ath12k: Fix spelling mistake "requestted" -> "requested"
+a184192f941b1be3d0142166e17f71143d3754e2 Merge branch 'pending' into main-pending
 
---===============0383998166764016528==--
+--===============7336286024147136140==--
