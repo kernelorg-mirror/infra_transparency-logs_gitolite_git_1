@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6960459238530312173=="
+Content-Type: multipart/mixed; boundary="===============4307474858300135478=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Tue, 17 Dec 2024 17:04:58 -0000
-Message-Id: <173445509897.148470.11296664536003808234@gitolite.kernel.org>
+Date: Tue, 17 Dec 2024 17:04:59 -0000
+Message-Id: <173445509969.148548.1710177123283851519@gitolite.kernel.org>
 
---===============6960459238530312173==
+--===============4307474858300135478==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.15.y
-    old: 428e66e84d9e8874193e2841189c2babef78fe35
-    new: 11de5dde6ebe6f214c662453d6b8b6c3fd349590
-    log: revlist-428e66e84d9e-11de5dde6ebe.txt
+  - ref: refs/heads/linux-5.10.y
+    old: 21cdb09adf1764b136a3c98d29126ee5733d3791
+    new: 238644b47ee3440015a824c17a271f482d551c13
+    log: revlist-21cdb09adf17-238644b47ee3.txt
 
---===============6960459238530312173==
+--===============4307474858300135478==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,82 +32,74 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1734455125 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1734455094-18736749bca8df919c480c4111ac7594c6d509fe
 
-428e66e84d9e8874193e2841189c2babef78fe35 11de5dde6ebe6f214c662453d6b8b6c3fd349590 refs/heads/linux-5.15.y
+21cdb09adf1764b136a3c98d29126ee5733d3791 238644b47ee3440015a824c17a271f482d551c13 refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdhr1UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bf0QAIQvUQ4KUTbyBOGBTLN6
-wyEMON6a3m4RBIIcMk4biAcW/gR/ajoGb77Qs1wrnAGkB8DZqksapAJ9lAam69Ud
-YerxiEHT9mTO37yKFTv4KO0q3hWVUBTWowzPRESCslHaqeTEhJTLqEc5tvD/8hTc
-2zOuWOL0C/W4GvmG9lCIjyFBUR6ZlnRKNaR+BzpNW0DfAbLEyZWI3cC15VJeAk69
-UeppsrSRkeDLcqj1hKFvjw9EJ9RaS5K3JIgAnpGHH7R1NYERo8mq5468CXd4brX+
-bbHhdUJMV++Q7dM0aAy4g44NcVfj6FEiWj65pSF8dCfnU3/JcNK5y6eVHT7O6+4q
-DUqpZl+Ky2IWS2cOdGjVG06J4E6S8zzmZrGzWtfEZ7ndw/obF9pAIB1QOSTczcI2
-NkCPDSzOzqqY5qrgt1yliU+CI7fGEucYSn3zCgCDbI7wYGfu18CWo3hYmQYbE5W1
-SYu+4FP/TVyyAuJdPOuSbR33HrD4lCca6XyI/38etQrnXcvlid0f2qtI8OzJKC0J
-JA6lLcKdabG09kqYftLVKtsQbDcNg8Yh92Y2c9yBkkyz7lu4Ut/D1GBtbzZGHqew
-uhA2gm+B7wjWbvTEl4ymYXp5E8fvc+gAOREhlRYKMC8B8DST5oP8qRy5+OwyuB/L
-M9bQap0NL8wpni6Y+yvoANLG
-=xjO/
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdhr1YbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gGMQAI1xexG184ONAt6Xni58
+njgY8h+Cb9yOqc3amrFcoamYJUKRLAkgB69+t7zVhe0MBKdlnkngfdcWK7GIkKRy
+1cd1JdCsD4tLM5QwGKRh6L1euVu4mF+2gDOjwiUJ5TdovL2DqoQHlvI8V1HsP8zn
+yQXDkQOnGFC5h+bqvtjWSgAeMgZMhwF/UkVm7Q0FUv5yWlPfW8H2UKaAqvmyrQwN
+VqH1FI/oyMNaBoJzU0jOz380ot2Gyk4WJLr4h7UDttqgf7HY6hQJM0K5N+/0+AcZ
+slxFhPktZB+4xkxlDcoIAR8mQP6S9RCuaHNIePlkkKN5B2ib9tx5k2gsRZkqqdF1
+ewsJKeMIKj+eZOSKrUe0y3CNhixxmvgs+Naz7JueFxsgmlAEdG+3iSYRewjgQE94
+k6vqMLtKSNCvMvfIFidYolt06mkPxnoWh0xIGJ4R8/k+FiITc/F/EJGFZcZ5QVbE
+24XNmO3xK7ZF7NZNMD2z+2cizFJ6o/BUAuNdwTLHhY8SZb9Y1OPrISl54FkQN1fj
+F0jFf5bzOPr4mU7Gc8W6BXLCuUlF9QGy34D6qie2tH4Jkti/OkkTadvNU82hYF6j
+/qPr+lZHyzyFPY5ZbpiOPNgigWVSJn8ZwDhdp35D0BHeTDSJE/HuLg2eXq8vL6o0
+0UvOsPM8IcCMQIHeyZMc8bJH
+=J2Ho
 -----END PGP SIGNATURE-----
 
---===============6960459238530312173==
+--===============4307474858300135478==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-428e66e84d9e-11de5dde6ebe.txt
+Content-Disposition: attachment; filename=revlist-21cdb09adf17-238644b47ee3.txt
 
-7f3b5b036aec5d7f399a2b5a81dd77eac31f4ebe tcp: check space before adding MPTCP SYN options
-16c133a99957bbc56557b2592d382aff62731c04 ALSA: usb-audio: Add implicit feedback quirk for Yamaha THR5
-e09d2bc6ba7cfe70838f72246d06129339453ba9 usb: host: max3421-hcd: Correctly abort a USB request.
-cefc661d0cf7d99604976b70e6af69fc9106621e ata: sata_highbank: fix OF node reference leak in highbank_initialize_phys()
-4bbb706efecf54f277c5826594d49d42cd9d6062 usb: dwc2: Fix HCD resume
-7df92d1448c6133440166636e714abe1380c78d5 usb: dwc2: hcd: Fix GetPortStatus & SetPortFeature
-d454e1965e5ae23d34929aa5fa32d6c6a6a94a2e usb: dwc2: Fix HCD port connection race
-e1f66bd2421813cdd39fa28c3f98d2b228483374 usb: ehci-hcd: fix call balance of clocks handling routines
-a47f27acbb21aa432cba44dafefe9ce1ded32835 usb: gadget: u_serial: Fix the issue that gs_start_io crashed due to accessing null pointer
-89073eec2a0312444a2ac12fe865b2bef87f39eb drm/i915: Fix memory leak by correcting cache object name in error handler
-cb6a0578a388e59979c34870f0be22fe45566d22 xfs: update btree keys correctly when _insrec splits an inode root block
-8d464fa7549c2cc0397003e6514a7223c195f2b0 xfs: don't drop errno values when we fail to ficlone the entire range
-234fca473e2528c8ba4ea322633280bd8dbcacf9 xfs: return from xfs_symlink_verify early on V4 filesystems
-72b0a2d161cdd4f3c77e3f82300d36bf798fe89e xfs: fix scrub tracepoints when inode-rooted btrees are involved
-3f8d2d83813e7852851eb3bd3dabb5a52ecf6927 bpf, sockmap: Fix update element with same
-2030bfac496e9b25a9841e62cc22ce7a36424160 virtio/vsock: Fix accept_queue memory leak
-311b34c4f0df37ccbb729a72a0b2c28542d7f4dc exfat: fix potential deadlock on __exfat_get_dentry_set
-e1275a0d4437cc91feca171250c00b69fb99639c acpi: nfit: vmalloc-out-of-bounds Read in acpi_nfit_ctl
-5591c6dddce36d47b0ebef51784669151c8202c5 batman-adv: Do not send uninitialized TT changes
-9262461eccd09dbc2a529ceb838baa31bd637517 batman-adv: Remove uninitialized data in full table TT response
-6ba089664fed58dcc6affb168e40c58a08299458 batman-adv: Do not let TT changes list grows indefinitely
-c43dc4b53e70aa1592c3e0afe79eb0fecdc80564 tipc: fix NULL deref in cleanup_bearer()
-f84ce20830762a88e6784b74016f9cb422c31972 selftests: mlxsw: sharedbuffer: Remove h1 ingress test case
-0770d04c39c8dc6a94990fdea4a77621c121e2fa selftests: mlxsw: sharedbuffer: Remove duplicate test cases
-25ed445ff4cf1824cf84f578180e65fc593437ce ptp: kvm: Use decrypted memory in confidential guest on x86
-1de20e24034dd592b6038f39509500be65e183fd ptp: kvm: x86: Return EOPNOTSUPP instead of ENODEV from kvm_arch_ptp_init()
-b0558c474805efec2beb09ed30b9efe7888298fb net: lapb: increase LAPB_HEADER_LEN
-138d5bb20a0bdf4aedda159f9fc02a91bee2c6e7 net: sparx5: fix FDMA performance issue
-1135090dd4139ca6f1ba22d6c5005102415395ff net: sparx5: fix the maximum frame length register
-f7303dafe54134b39362c442152d384a623453c3 ACPI: resource: Fix memory resource type union access
-0c97af4955a77b761f1d53b2a6aac0edc39c7f0d cxgb4: use port number to set mac addr
-67a338d2d04cff17397b8a34d5ba83b3c053d125 qca_spi: Fix clock speed for multiple QCA7000
-02b8589d68c7eb0cb887d8380982bab4644ab2f0 qca_spi: Make driver probing reliable
-7935f854ea3de32c3213fecced017477c786b9c9 Documentation: PM: Clarify pm_runtime_resume_and_get() return value
-dc3358b77936ddadbc0c9c0575e60c29590409ef net/sched: netem: account for backlog updates from child qdisc
-cbad8fec24963ef7fd816f8507e9b4e40e5a10ba bonding: Fix feature propagation of NETIF_F_GSO_ENCAP_ALL
-1e3399c150e168cc50e7a41f19ac9f5fffe0c442 team: Fix feature propagation of NETIF_F_GSO_ENCAP_ALL
-5d7cf71439bded371e947654300b1324f500aafb ACPICA: events/evxfregn: don't release the ContextMutex that was never acquired
-71fcace3e0a4572598b6b56dce432f6dc12889b3 blk-iocost: Avoid using clamp() on inuse in __propagate_weights()
-768e1c397979e4d2df004048bfdb81dbce5cf0cb bpf: sync_linked_regs() must preserve subreg_def
-6e6e7a574265c868eb19ce7368f7f10abc0193bf tracing/kprobes: Skip symbol counting logic for module symbols in create_local_trace_kprobe()
-5e5a211a0076bc2236f19155a9c98f4131a42df9 Revert "parisc: fix a possible DMA corruption"
-f071dfacf5dd845d70c6b968c1724324377cf1ec xen/netfront: fix crash when removing device
-ac67ce4f61e70209d75726a311e02863ce70ecff x86: make get_cpu_vendor() accessible from Xen code
-00cf0c7cea0089c68d1e765e8f3265e6c7ef946e objtool/x86: allow syscall instruction
-1790fbe30b8c95f7ce98bf50efaad9a63254f3ec x86/static-call: provide a way to do very early static-call updates
-d41f63dd91cbc32b007ca34cb25871c5ccde3697 x86/xen: don't do PV iret hypercall through hypercall page
-936289b08c02a6abea3f88933685f98e2faf7656 x86/xen: add central hypercall functions
-8b75bd81fc291d921c62c31fef7ed7af3626fec4 x86/xen: use new hypercall functions instead of hypercall page
-8aafeb7135f4c61e4abf1df34928a651cea44f7a x86/xen: remove hypercall page
-1dc04c334c5f478d7c3d9d25dd7e26a7a19a21a0 ALSA: usb-audio: Fix a DMA to stack memory bug
-11de5dde6ebe6f214c662453d6b8b6c3fd349590 Linux 5.15.175-rc1
+6894f608d0a0cd368877156f5dca66c955478982 tcp: check space before adding MPTCP SYN options
+983818cada55621d6c1fc69e3f42ad08390311ce usb: host: max3421-hcd: Correctly abort a USB request.
+98e2c7bdf2da156aa7c187960dbbac00c8332449 ata: sata_highbank: fix OF node reference leak in highbank_initialize_phys()
+fc9ca9a9d52596480f9f537d82560899bf7e8f9e usb: dwc2: hcd: Fix GetPortStatus & SetPortFeature
+76529dbbc3cb38c700a224d11b2c2134c60382c4 usb: ehci-hcd: fix call balance of clocks handling routines
+83d3ea683a8a3442a566cfe7ed0c41183e02ed22 usb: gadget: u_serial: Fix the issue that gs_start_io crashed due to accessing null pointer
+86310ccfe00d1f215fe226a1a8984f32cdd9daca xfs: don't drop errno values when we fail to ficlone the entire range
+eb3e3509195c62141a3537750f012a6d6449e58d xfs: fix scrub tracepoints when inode-rooted btrees are involved
+def32e062647c6aa101ff22fef24002231224c02 bpf, sockmap: Fix update element with same
+eefda29e5ba2f4cb9567bbbbb32fccff5936aa05 virtio/vsock: Fix accept_queue memory leak
+ac820c31196defba724a270ecd6a3ee5f5468632 exfat: fix potential deadlock on __exfat_get_dentry_set
+ac8e0c623f1259d3cbf1983d46439450967223a3 acpi: nfit: vmalloc-out-of-bounds Read in acpi_nfit_ctl
+55cbd742f5c1d3d9bff89e7bd816c9b00596a98f batman-adv: Do not send uninitialized TT changes
+827779f6f163bb2d52511ce7b1a350c8b2d85849 batman-adv: Remove uninitialized data in full table TT response
+ebfab930dfdeab42a4c252e9d2bf562c889ee3f1 batman-adv: Do not let TT changes list grows indefinitely
+a95840f0d9e4eba77eace918f0c9287dfeb97b8d tipc: fix NULL deref in cleanup_bearer()
+61c99dd134fc9de11ed268144a0243e37dcefefe selftests: mlxsw: sharedbuffer: Remove h1 ingress test case
+ffaa3945a5196f09da2ee138fb98c692882ca87d selftests: mlxsw: sharedbuffer: Remove duplicate test cases
+c7ded8a5ba59124017155b524360a17f34076ffe net: lapb: increase LAPB_HEADER_LEN
+55a786e63c187ce52393b0a50b8d380a8de80080 ACPI: resource: Fix memory resource type union access
+95418eab931e8443a3bf3a19eb9d8d3c69385e43 cxgb4: use port number to set mac addr
+fb2101dcabd4857deeae7d0947003261ab7043d9 qca_spi: Fix clock speed for multiple QCA7000
+7a8898256adefa3877c336531310c75c41ad7f02 qca_spi: Make driver probing reliable
+fd0634a94f4e158261d62bc63f1c480a74985943 net/sched: netem: account for backlog updates from child qdisc
+57c4d28a59cfae61d21d7159d8079f594cd010ef net: bonding, dummy, ifb, team: advertise NETIF_F_GSO_SOFTWARE
+fcb0a5217de41a7496d26016f1d82a2252df5cb0 bonding: Fix feature propagation of NETIF_F_GSO_ENCAP_ALL
+7c2173cc56296d99e904b7e8aff75691a13376a2 team: Fix feature propagation of NETIF_F_GSO_ENCAP_ALL
+760ca1e8598c0cc4cbd1448d2482c89aec5bf6a2 ACPICA: events/evxfregn: don't release the ContextMutex that was never acquired
+737c48e461ba409f598c1b8ce3844048602255d8 blk-iocost: Avoid using clamp() on inuse in __propagate_weights()
+07058b7f5426fd825987053ae199fbbba599876c bpf: sync_linked_regs() must preserve subreg_def
+193285bbf8cfdc53bf4ca03267b45fc9db970d7d tracing/kprobes: Skip symbol counting logic for module symbols in create_local_trace_kprobe()
+d94a208eba430a579394e242d3e2065b1ce1f954 drm/i915: Fix memory leak by correcting cache object name in error handler
+44d4d0040f34e12feaad6df2da391dd35d92cb43 Revert "clocksource/drivers:sp804: Make user selectable"
+fa0f2de01458b1894cc821a45f44329279ebee8b Revert "clkdev: remove CONFIG_CLKDEV_LOOKUP"
+05f9d71aad898d5f47014836fe5ef83711b90e26 xen/netfront: fix crash when removing device
+52732503c6ca506921294fc307e1888255976e5b x86: make get_cpu_vendor() accessible from Xen code
+712683c57a02a5341df8597c6c82717a4a8ef571 objtool/x86: allow syscall instruction
+5230cb245071f8289abb83f6e66b115daad2b735 x86/static-call: provide a way to do very early static-call updates
+17e46f57690e8dbfaa070a30e869019b77e4e6c7 x86/xen: don't do PV iret hypercall through hypercall page
+9e37bc553f08b28694fda01e269b9d5b1d8eb589 x86/xen: add central hypercall functions
+a49178d1e1e3b8e7015d0765842dfaf98670c7e6 x86/xen: use new hypercall functions instead of hypercall page
+09059d83a85d8b87c9d0f85f97b47d7579b37223 x86/xen: remove hypercall page
+77b88480ff58b4bd79f59aa3f9cd7c26124be312 ALSA: usb-audio: Fix a DMA to stack memory bug
+238644b47ee3440015a824c17a271f482d551c13 Linux 5.10.232-rc1
 
---===============6960459238530312173==--
+--===============4307474858300135478==--
