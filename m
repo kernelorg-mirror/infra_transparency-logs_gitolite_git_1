@@ -1,24 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 17 Dec 2024 01:42:23 -0000
-Message-Id: <173439974327.3578929.6136518193743062767@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 17 Dec 2024 01:42:26 -0000
+Message-Id: <173439974675.3579049.10666170379170098992@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: bc6a5efe3dcd9ada8d76eeb69039a11a86add39b
-    new: 9495e6688522f7de5d72eb98b49420bc2ba40967
+    old: 922b4b955a03d19fea98938f33ef0e62d01f5159
+    new: c8eb0c3ffde699c981449f8b86da12df577c46b9
     log: |
-         f9a5b34f9251cf530fecf08ef039be64ead8c459 net/mlx5: ifc: Reorganize mlx5_ifc_flow_table_context_bits
-         e799ac9dd3c485a7cda3586f2a12784b030b9df0 net/mlx5: Add ConnectX-8 device to ifc
-         03713108e0cccf325bb71941edd9ed6122142907 net/mlx5: Add support for new scheduling elements
-         f09ed834a946f9c77088d53af4d4806974728d7b net/mlx5: qos: Add ifc support for cross-esw scheduling
-         aeb3ec99026979287266e4b5a1194789c1488c1a net/mlx5: Add device cap abs_native_port_num
-         9495e6688522f7de5d72eb98b49420bc2ba40967 Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/mellanox/linux
+         b1f3a2f5a742c1e939a73031bd31b9e557a2d77d netdev: fix repeated netlink messages in queue dump
+         ecc391a541573da46b7ccc188105efedd40aef1b netdev: fix repeated netlink messages in queue stats
+         0518863407b8dcc7070fdbc1c015046d66777e78 selftests: net: support setting recv_size in YNL
+         1234810b1649e9d781aeafd4b23fb1fcfbf95d8f selftests: net-drv: queues: sanity check netlink dumps
+         5712e323d4c3ad03bba4d28f83e80593171ac3f1 selftests: net-drv: stats: sanity check netlink dumps
+         c8eb0c3ffde699c981449f8b86da12df577c46b9 Merge branch 'netdev-fix-repeated-netlink-messages-in-queue-dumps'
          
