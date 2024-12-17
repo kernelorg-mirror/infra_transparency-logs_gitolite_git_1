@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Tue, 17 Dec 2024 21:02:38 -0000
-Message-Id: <173446935890.361920.17006151955447602308@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Tue, 17 Dec 2024 21:04:55 -0000
+Message-Id: <173446949539.363236.3244436530971383854@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: pavel
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/linux-5.10.y-cip
-    old: 7c675584493ff0915db171992bb3f9a88c45b57d
-    new: f616caa5b10a421a8ca8d8907c226b5846e6ad29
+  - ref: refs/heads/100GbE
+    old: 3fb75a8e9e36b59bf66699a0988dae01f86c081c
+    new: bc1027473986dbbd93f9eb41de33307f9abe1319
     log: |
-         ef06833f957891067f95f5035c3f8c84bcec6169 pinctrl: renesas: rzg2l: Execute atomically the interrupt configuration
-         699dc2891634ee0c557fec936ac1178777afabb1 pinctrl: renesas: rzg2l: Configure the interrupt type on resume
-         f616caa5b10a421a8ca8d8907c226b5846e6ad29 pinctrl: renesas: rzg2l: Use spin_{lock,unlock}_irq{save,restore}
+         2a82874a3b7be3f424eb6e94cd4f225e928efe2a ice: add Tx hang devlink health reporter
+         bc1027473986dbbd93f9eb41de33307f9abe1319 ice: Add MDD logging via devlink health
          
