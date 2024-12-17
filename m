@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8309640449341263262=="
+Content-Type: multipart/mixed; boundary="===============8597576303982437634=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 17 Dec 2024 00:39:53 -0000
-Message-Id: <173439599315.3521042.7997383909144393189@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Tue, 17 Dec 2024 00:39:58 -0000
+Message-Id: <173439599893.3521176.15970588795314107025@gitolite.kernel.org>
 
---===============8309640449341263262==
+--===============8597576303982437634==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: e8b3012cbd8f2263777347c2e8310b3f00d494f5
     log: revlist-aec95d7ce1c8-e8b3012cbd8f.txt
 
---===============8309640449341263262==
+--===============8597576303982437634==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -37,4 +37,4 @@ a10eb828c20928deda7814149af9cca73c20b911 perf ftrace latency: Fix compiler error
 ae01e3452e7a929178bf4f38eb344ea209c46d19 perf build: Minor improvement for linking libzstd
 e8b3012cbd8f2263777347c2e8310b3f00d494f5 bpftool: Link zstd lib required by libelf
 
---===============8309640449341263262==--
+--===============8597576303982437634==--
