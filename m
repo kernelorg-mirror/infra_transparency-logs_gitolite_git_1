@@ -1,26 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Tue, 17 Dec 2024 08:06:16 -0000
-Message-Id: <173442277625.3882578.10600143249003300443@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1464572698615764691=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 17 Dec 2024 08:26:55 -0000
+Message-Id: <173442401525.3898231.6156552016770096790@gitolite.kernel.org>
+
+--===============1464572698615764691==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/kvm-arm64/nv-e2h-select
-    old: 3436bb26b1323020cea253a62d79fe7f60e61a12
-    new: 639d706160fea592aaa7b7ddb77512b31e7127aa
+  - ref: refs/heads/master
+    old: 9c947ed1550566abdd009402326e06bfbb25264d
+    new: f6211cb3e4d4869109a220a87a034f4efb40ff64
     log: |
-         3e68d50614b88fe6f6a7261e3414300a9c30f02b arm64: cpufeature: Handle NV_frac as a synonym of NV2
-         65807e3ea81a944f3832b99f7f6047391a5f6b2a KVM: arm64: nv: Make ID_AA64MMFR1_EL1.VH writable
-         f8f4687f273d8199a727bf86e2cab93a57adf81d KVM: arm64: nv: Enforce implications of ID_AA64MMFR1_EL1.VH value
-         5764d234c00c17a8f27b69f309517f07303ec007 KVM: arm64: nv: Hide ID_AA64MMFR2_EL1.NV from guest and userspace
-         bda4d21177ebbdeb3baa53116cc13c89480fbb14 KVM: arm64: nv: Make ID_AA64MMFR4_EL1.{E2H0,NV_frac} writable
-         8d10b1c0aaabfe37afff31bd8d45b0a6c4bdcc39 KVM: arm64: nv: Mark HCR.EL2.E2H RES0 when ID_AA64MMFR1_EL1.VH is zero
-         0c7611205d52eb7c07a343b01475d80508614a3e KVM: arm64: nv: Mark HCR.EL2.{NV*,AT} RES0 when ID_AA64MMFR4_EL1.NV_frac is 0
-         639d706160fea592aaa7b7ddb77512b31e7127aa KVM: arm64: Document allowed behaviours of inconsistent ID registers
+         f6211cb3e4d4869109a220a87a034f4efb40ff64 drop queue-5.15/riscv-fix-ipis-usage-in-kfence_protect_page.patch
          
+
+--===============1464572698615764691==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1734424039 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1734424007-012e9d1c1ec50e50da1f16953a0a27257ccc4f19
+
+9c947ed1550566abdd009402326e06bfbb25264d f6211cb3e4d4869109a220a87a034f4efb40ff64 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdhNecbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3pIP/ivr9prx7FgTHB5OX7Xk
+BTTU9pBIKS4dkwKqe+WoJk1zdYFzqTexyYSVm/Ln+Aa+xCQDSHYWk3abkO5D2RUV
+Y+u/xClenj9hbwfHa9qL8jdAYGzLlvZV+OX4Fk2GuJz9NE5SLOZi+nL3a8s19E22
+7fm5oGlheOAJL3lFKOJ0gwhttHNkhoHhUYo1zbWN1T/Pei7x41Dke0QxDKt3qF6M
+nJvIwR70aV/vUgJxN3O8VrBUDYAcN3HIOuerq6hmmtqiPRQKYug745M5X9VqUan0
+O7Olj9FcZL6APqif1AbY60FKQDukbUKuEqCwOwHinW3mnOh/nQWTjY04k7FicY8P
+GakumV4NRB3GstScZ7Xz77ZzIF61WkrJROss2VZyVjQn1BF9pjHcljb9D083i/X5
+VE7gHq8epNC9Mu5HN2QSc/Ct9nmGHy1rafpo743JdrzdvO0vQA+jJzOw6renDbRN
+km8mU1l5mSNVGqrt3nAGZKeq8oK0oeaQ7mfRCtpJh2sxb8GUUVUWWNIAVhSOzNaf
+fVsq1vI1jYjthOb9+Wq+tTiqeSh3YR6JOF202qI8xFBkNZ4MtZ7A+1DFOZ6OOTeT
+t+T451d15e/YFeLUo/QumbyLBhLMhHP7cqpTF49aXWiLlrGXaAKAflLnTMrR3xkz
+hKIv0IIQRfLF4QGe9ZeCAvh0
+=wYfQ
+-----END PGP SIGNATURE-----
+
+--===============1464572698615764691==--
