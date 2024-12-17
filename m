@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4050711293325845294=="
+Content-Type: multipart/mixed; boundary="===============6883612464954364979=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 17 Dec 2024 17:20:12 -0000
-Message-Id: <173445601216.164255.13217829601645832122@gitolite.kernel.org>
+Date: Tue, 17 Dec 2024 17:20:14 -0000
+Message-Id: <173445601435.164585.9267447668191120201@gitolite.kernel.org>
 
---===============4050711293325845294==
+--===============6883612464954364979==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 922b4b955a03d19fea98938f33ef0e62d01f5159
     new: 7ed2d91588779f0a2b27fd502ce2aaf1fab9b3ca
     log: revlist-922b4b955a03-7ed2d9158877.txt
 
---===============4050711293325845294==
+--===============6883612464954364979==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ e592b5110b3e9393881b0a019d86832bbf71a47f net: ethernet: oa_tc6: fix tx skb race 
 0cb2c504d79e7caa3abade3f466750c82ad26f01 net: ethernet: bgmac-platform: fix an OF node reference leak
 7ed2d91588779f0a2b27fd502ce2aaf1fab9b3ca qed: fix possible uninit pointer read in qed_mcp_nvm_info_populate()
 
---===============4050711293325845294==--
+--===============6883612464954364979==--
