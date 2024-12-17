@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
-Date: Tue, 17 Dec 2024 22:15:47 -0000
-Message-Id: <173447374742.440105.8601531269421491335@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mbroz/linux
+Date: Tue, 17 Dec 2024 22:16:37 -0000
+Message-Id: <173447379710.440783.4846923471838275006@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hyperv/linux
-user: wei.liu
+repo: pub/scm/linux/kernel/git/mbroz/linux
+user: mbroz
 changes:
-  - ref: refs/heads/hyperv-next
-    old: 4d4ace979a3066e5c940331571e6c1c3f280d1d3
-    new: 13546de23445986463641d2386c3fd41883a39d3
+  - ref: refs/heads/dm-cryptsetup
+    old: 5529876063e110ea49326138149fdf2a28a484dd
+    new: 7338a621d721fd287a9d0df6aa0cb9e9cdedc1d9
     log: |
-         fcd70cd8b89dc4af43b1ed136571658ab4f9ee65 x86/hyperv: Don't assume cpu_possible_mask is dense
-         ef81fa8c538df15bda114899cbe0789901fcdc0c Drivers: hv: Don't assume cpu_possible_mask is dense
-         13546de23445986463641d2386c3fd41883a39d3 iommu/hyper-v: Don't assume cpu_possible_mask is dense
+         b6ab7b8789a7507c17e24a0837d660481bde6169 dm-verity: Fix Reed-Solomon FEC repair
+         7338a621d721fd287a9d0df6aa0cb9e9cdedc1d9 dm-verity FEC: Avoid copying RS roots twice.
          
