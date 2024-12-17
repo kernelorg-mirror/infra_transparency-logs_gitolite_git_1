@@ -1,65 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============6054050289791194120=="
+Content-Type: multipart/mixed; boundary="===============2578758459404894725=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 17 Dec 2024 11:39:21 -0000
-Message-Id: <173443556158.4056741.640542097631350134@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Tue, 17 Dec 2024 11:46:24 -0000
+Message-Id: <173443598439.4063739.11748494468866544214@gitolite.kernel.org>
 
---===============6054050289791194120==
+--===============2578758459404894725==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/review-ilpo-next
-    old: 6000bc1f5a81eb3938d824b325dbe1790d4f7efa
-    new: 9e0894d07072e50b83ef077ce91e504bdb7484a3
-    log: revlist-6000bc1f5a81-9e0894d07072.txt
+  - ref: refs/heads/dma-split-wip
+    old: 09acd5cf5536d44e15ce92691558e0cbac75ae3b
+    new: b83c323ddd3dff4578fe251d4b517e2e72591ac4
+    log: revlist-09acd5cf5536-b83c323ddd3d.txt
+  - ref: refs/tags/dma-split-dec-17
+    old: 0000000000000000000000000000000000000000
+    new: b83c323ddd3dff4578fe251d4b517e2e72591ac4
 
---===============6054050289791194120==
+--===============2578758459404894725==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-09acd5cf5536-b83c323ddd3d.txt
 
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1734435585 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1734435555-a29a58e402a88fa2b7b2e9cffd347175887f519e
+0ae577f8b99f7e03c679729434c87ea7daf78955 iommu: add kernel-doc for iommu_unmap and iommu_unmap_fast
+fac6bc6fdcf8e13bd5668386d36289ee38a8a95b dma-mapping: Provide an interface to allow allocate IOVA
+e5a21b5619f0984e14bf8d351cb256f2ee27146e iommu/dma: Factor out a iommu_dma_map_swiotlb helper
+fa43307222f263e65ae0a84c303150def15e2c77 dma-mapping: Implement link/unlink ranges API
+c513ce1c5212200d7150f58bc31848bfe22699cd dma-mapping: add a dma_need_unmap helper
+8f1fc0969bf7d7db11bd27d4c6b7510ef8c3ae5e docs: core-api: document the IOVA-based API
+536d27ff1bbf2bd53f3340909ccae109ded7af83 mm/hmm: let users to tag specific PFN with DMA mapped bit
+697b8ef0f4e201c70de5a5e04de2a847705bbdfe mm/hmm: provide generic DMA managing logic
+8bbfffeda71e8dfa7897670681c172efaed8f8c7 RDMA/umem: Store ODP access mask information in PFN
+18c07d3de97814dae5b2dadf18c3a678655c70c8 RDMA/core: Convert UMEM ODP DMA mapping to caching IOVA and page linkage
+7e1538594c048f3d3b41e53dc3875f399909dee8 RDMA/umem: Separate implicit ODP initialization from explicit ODP
+5a5a71c1db2fb0bf300463b77e8de30de30ec0df vfio/mlx5: Explicitly use number of pages instead of allocated length
+ad195ebee6e5db3e45df7a81870f5f14b7fed6a3 vfio/mlx5: Rewrite create mkey flow to allow better code reuse
+b83c323ddd3dff4578fe251d4b517e2e72591ac4 vfio/mlx5: Enable the DMA link API
 
-6000bc1f5a81eb3938d824b325dbe1790d4f7efa 9e0894d07072e50b83ef077ce91e504bdb7484a3 refs/heads/review-ilpo-next
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZ2FjBAAKCRBZrE9hU+XO
-MbA5AQCsovjhPd3kbYdL8uh2pNu5XRHRlYKvok9E9fw69qnB6QEAlgz/EJW+QdmF
-yujVsHF0NnblA3jNtm50Rv5UeYIFeQ4=
-=YTiN
------END PGP SIGNATURE-----
-
---===============6054050289791194120==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6000bc1f5a81-9e0894d07072.txt
-
-c0cc60b39269395b0a55c3ea8825690ec756d18e platform/x86: dell: dcdbas: Constify 'struct bin_attribute'
-fbabd3dbb55fc46392193a2e3c0366905b2b26f9 platform/x86: dell_rbu: Constify 'struct bin_attribute'
-b0034f206f140ecdd78e8f5fe4d61fb367124f3b platform/x86/intel/sdsi: Constify 'struct bin_attribute'
-7ff2fecc8bc2e855bd17bd75358973c6bb4accbd platform/x86/intel/pmt: Constify 'struct bin_attribute'
-8fa1a2e1053ad780eaf48fc05e3a4a24bc809ee2 platform/x86/amd/hsmp: Constify 'struct bin_attribute'
-3bc018395f106d11d8f882219bad76ca422d66df platform/x86/intel/tpmi/plr: Make char[] longer to silence warning
-bdf0ea9d521c390c4d7bff254eafbe7712441292 platform/x86: dell-smo8800: Move SMO88xx acpi_device_ids to dell-smo8800-ids.h
-cc0809b752c74b768845f6e049b419c32d954a1a platform/x86: dell-smo8800: Move instantiation of lis3lv02d i2c_client from i2c-i801 to dell-lis3lv02d
-e21bff27f2061f75a51951104e16fac752c3b840 platform/x86: dell-smo8800: Add a couple more models to lis3lv02d_devices[]
-204d45fe680be98be356acb7c603622606356be7 platform/x86/intel: bytcrc_pwrsrc: fix power_supply dependency
-0c91d916af898e481444d17eed8ce8df6c50f70d platform/x86: wmi-bmof: Make use of .bin_size() callback
-a2ec08e43fdb15ffc0bdfe0a8356d0b8e111c505 platform/x86: dell-uart-backlight: Use blacklight power constant
-8ba0e61861ab855d49315c2222844cff4fef467b mlxbf-bootctl: Constify 'struct bin_attribute'
-9e0894d07072e50b83ef077ce91e504bdb7484a3 platform/x86/amd/pmf: Enable Custom BIOS Inputs for PMF-TA
-
---===============6054050289791194120==--
+--===============2578758459404894725==--
