@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 17 Dec 2024 15:47:56 -0000
-Message-Id: <173445047611.79006.7844646332777658857@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 17 Dec 2024 15:49:34 -0000
+Message-Id: <173445057454.80106.11978192911590522647@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/for-next
-    old: a9eb954abfa2a2edb3de56c649437ef08b397fc8
-    new: a26c40440755ed9770fe6e10ccd96386a42d7671
+  - ref: refs/heads/for-6.14/io_uring
+    old: cd7f9fee711c9ca4b909ffaadcac0302358db841
+    new: 7b7bf14f00521ce9adcc7df4df66bc6d4f31a054
     log: |
-         a5bd108d4a57d6c00372041c83e633a26fb450de firmware: cs_dsp: Avoid using a u32 as a __be32 in cs_dsp_mock_mem_maps.c
-         db8b9b12892f0528c3a78715243c22398ab3cb5d ASoC: cs42l43: don't include '<linux/find.h>' directly
-         644115e86023fccdaecb1318133ed14418b76f49 firmware: cs_dsp: Fix endianness conversion in cs_dsp_mock_wmfw.c
-         a26c40440755ed9770fe6e10ccd96386a42d7671 Merge remote-tracking branch 'asoc/for-6.14' into asoc-next
+         7b7bf14f00521ce9adcc7df4df66bc6d4f31a054 io_uring/rw: don't mask in f_iocb_flags
+         
+  - ref: refs/heads/for-next
+    old: 0fb8e759b7f6e6b6040572e8555ebb34dd9fd2bf
+    new: 199d5db8148cc5d3b4faaa205c8d8c9b19949c93
+    log: |
+         7b7bf14f00521ce9adcc7df4df66bc6d4f31a054 io_uring/rw: don't mask in f_iocb_flags
+         199d5db8148cc5d3b4faaa205c8d8c9b19949c93 Merge branch 'for-6.14/io_uring' into for-next
          
