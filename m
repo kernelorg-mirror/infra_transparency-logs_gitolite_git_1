@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============8081716033778450181=="
+Content-Type: multipart/mixed; boundary="===============0045413397717258545=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Wed, 18 Dec 2024 14:19:07 -0000
-Message-Id: <173453154774.1213377.6813562561134489787@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 18 Dec 2024 14:19:11 -0000
+Message-Id: <173453155129.1213484.14360007313174602005@gitolite.kernel.org>
 
---===============8081716033778450181==
+--===============0045413397717258545==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.13
+  - ref: refs/heads/regulator-6.13
     old: f07ae52f5cf6a5584fdf7c8c652f027d90bc8b74
     new: 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8
     log: revlist-f07ae52f5cf6-78d4f34e2115.txt
-  - ref: refs/heads/for-6.14
+  - ref: refs/heads/regulator-6.14
     old: 08242719a8af603db54a2a79234a8fe600680105
     new: 64a6b577490c1c71f1a3bbdb3844717815214621
     log: |
@@ -30,32 +30,32 @@ changes:
          64a6b577490c1c71f1a3bbdb3844717815214621 regulator: tps65219: Remove debugging helper function
          
 
---===============8081716033778450181==
+--===============0045413397717258545==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1734531574 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1734531545-112c8ae42bd0840c67b1e2e4faf20e540c52ed8a
+pusher C3F436CA30F5D8EB 1734531578 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1734531548-613993980e4c4c99f830385fef14dff8d60e0a0c
 
-f07ae52f5cf6a5584fdf7c8c652f027d90bc8b74 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8 refs/heads/for-6.13
-08242719a8af603db54a2a79234a8fe600680105 64a6b577490c1c71f1a3bbdb3844717815214621 refs/heads/for-6.14
+f07ae52f5cf6a5584fdf7c8c652f027d90bc8b74 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8 refs/heads/regulator-6.13
+08242719a8af603db54a2a79234a8fe600680105 64a6b577490c1c71f1a3bbdb3844717815214621 refs/heads/regulator-6.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmdi2fYACgkQJNaLcl1U
-h9AZLgf7Bm5f8Q3wSMl/kF4kRiAmLs92P8MOGMfrQDRxGCLCe5JUipi/H5K0AT2i
-s3/5Wqi4/D3w29MdYB1MpcUImmkQ/evWt7NynOUhlb9+YodkXzo1S4AkOcaRPPp4
-zSgitmlyp9STAT2wEOV5vt4FPdOEbq2tR5vINKN3O8C0fr+whScBLFB+m3EHKQ7Z
-DMS/hWwRASt+nC/dKLY5VW4NKqq/wpR6alT3D/rx8d3wvWwikel54bX9cjeXMeuD
-My4K4aAPb+3dvH9tdA6T38jwJgixdBfQ5TWycLlPDqcZxYEMllAi45w29fw6P8R7
-w+6dYtVe5D2+vwKySxQH9cX6Q2Oqog==
-=EFq2
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmdi2foACgkQJNaLcl1U
+h9BjgAf/SuHOfy4rAhEohQE5VOPUXAvDsz7UG9E7UmQW1t7pdotpGoqUxTqz2eK5
+vsoU/3RnnAzRZsSe7DFF8DkVGws6KYwgPeg4OLYu4vWUWzWYft8LtDEua/3ap8bs
+wmXSwOVbIFRVK8iKRyjIymj34Sg5tyxyOivjTrv/nch4QtDe21sq5C1RkGbQfSg0
++bo8BSXZjSKy5cSMo3gQdRN+ZtBrLYg0sqm81Kpy9OhC6gzkBCDXw8JVt8aheO9P
+rmnQxZRea4qJ7/Rj+sLa8+SZg06/T2elm/DDQ54gRj/i+lwbg5ORyw3FYnqutC6/
+KX1qsq2dPM039FfJSPR1GxAyICJVcA==
+=A3HY
 -----END PGP SIGNATURE-----
 
---===============8081716033778450181==
+--===============0045413397717258545==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -460,4 +460,4 @@ dccbe2047a5b0859de24bf463dae9eeea8e01c1e Merge tag 'edac_urgent_for_v6.13_rc3' o
 42a19aa1707cce382bc5e534e2e36024c3611674 Merge tag 'arc-6.13-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8 Linux 6.13-rc3
 
---===============8081716033778450181==--
+--===============0045413397717258545==--
