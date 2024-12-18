@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6955469162012786422=="
+Content-Type: multipart/mixed; boundary="===============1010576554158512418=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 18 Dec 2024 18:01:37 -0000
-Message-Id: <173454489782.1401494.15717379061419783026@gitolite.kernel.org>
+Date: Wed, 18 Dec 2024 18:01:41 -0000
+Message-Id: <173454490144.1401649.16531384088282483586@gitolite.kernel.org>
 
---===============6955469162012786422==
+--===============1010576554158512418==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host-fixes
-    old: de6b43798d9043a7c749a0428dbb02d5fff156e5
-    new: 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8
-    log: revlist-de6b43798d90-78d4f34e2115.txt
+  - ref: refs/heads/i2c/i2c-host-next
+    old: 72f0744e596f2a3e278f82370593720ad9025832
+    new: ee5da79b4f2a24a90417b0ae661971c0a12f2a48
+    log: revlist-72f0744e596f-ee5da79b4f2a.txt
 
---===============6955469162012786422==
+--===============1010576554158512418==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-de6b43798d90-78d4f34e2115.txt
+Content-Disposition: attachment; filename=revlist-72f0744e596f-ee5da79b4f2a.txt
 
 d798bc6f3c174c61837862cb9778d73cccd92a8e arm64: Fix usage of new shifted MDCR_EL2 values
 6fc3a49f23856fdf155ab35f2244295f7870bf83 KVM: arm64: Fix S1/S2 combination when FWB==1 and S2 has Device memory type
@@ -423,5 +423,8 @@ dccbe2047a5b0859de24bf463dae9eeea8e01c1e Merge tag 'edac_urgent_for_v6.13_rc3' o
 7031a38ab74cfe997d2a767d18e3af7445547d07 Merge tag 'efi-fixes-for-v6.13-1' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 42a19aa1707cce382bc5e534e2e36024c3611674 Merge tag 'arc-6.13-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8 Linux 6.13-rc3
+f1332df4548af1702700fca42ff48a466825cca0 i2c: keba: drop check because i2c_unregister_device() is NULL safe
+e7563c7355a8452fc9924b8f91fc94b69144431f i2c: imx: fix divide by zero warning
+ee5da79b4f2a24a90417b0ae661971c0a12f2a48 i2c: imx: make controller available until system suspend_noirq() and from resume_noirq()
 
---===============6955469162012786422==--
+--===============1010576554158512418==--
