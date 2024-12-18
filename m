@@ -1,37 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============7991019107907881731=="
+Content-Type: multipart/mixed; boundary="===============0142012330377359597=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
-Date: Wed, 18 Dec 2024 14:09:19 -0000
-Message-Id: <173453095906.1204263.5269361593984243116@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 18 Dec 2024 14:15:19 -0000
+Message-Id: <173453131955.1210603.8439456755482264811@gitolite.kernel.org>
 
---===============7991019107907881731==
+--===============0142012330377359597==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daveh/devel
+repo: pub/scm/linux/kernel/git/tip/tip
 user: daveh
 changes:
-  - ref: refs/heads/testme
-    old: 1cb54b62ff43e97b9c2e90e71949a6e1589f2ffd
+  - ref: refs/heads/x86/cpu
+    old: 2a93a3efc27b922b1013f80da7aa2e02ae2179c3
     new: d9e0571607a7f23f01a68f1c98e68f86dffe025f
-    log: revlist-1cb54b62ff43-d9e0571607a7.txt
+    log: revlist-2a93a3efc27b-d9e0571607a7.txt
 
---===============7991019107907881731==
+--===============0142012330377359597==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1cb54b62ff43-d9e0571607a7.txt
+Content-Disposition: attachment; filename=revlist-2a93a3efc27b-d9e0571607a7.txt
 
-7a470e826d7521bec6af789deab31cfa4fd05af3 x86/cpufeatures: Free up unused feature bits
-29188c16006176caee6cb6729103be51a29c1a93 x86/paravirt: Remove the WBINVD callback
-4bf610499c429fa0bfb3fa94be450f01016224c5 x86/cpufeature: Document cpu_feature_enabled() as the default to use
-b8e10c86e674eb19e0e53dcf4fa3e71cba1e0c1c x86/cpu: Introduce new microcode matching helper
-85b08180df07b9a5984b15ae31d76b904d42a115 x86/cpu: Expose only stepping min/max interface
-3fa5626720c0948ce067306c4f6558d9ec86020c x86/cpu: Replace PEBS use of 'x86_cpu_desc' use with 'x86_cpu_id'
 f3f3251526739bb975b97f840c56b3054dba8638 x86/cpu: Move AMD erratum 1386 table over to 'x86_cpu_id'
 5366d8965d35f0ea266c80e8970aa9527a9fee52 x86/cpu: Remove 'x86_cpu_desc' infrastructure
 2dd965e716743bf491f9d2b4577f988e7b591208 x86/cpu: Move MWAIT leaf definition to common header
@@ -45,4 +39,4 @@ c4fb36e3af898530c89f969b334a2f77da9f8b1c x86/fpu: Move CPUID leaf definitions to
 1ed4b582ff96565461885dd7a58b744abaf991fa x86/fpu: Remove unnecessary CPUID level check
 d9e0571607a7f23f01a68f1c98e68f86dffe025f x86/cpu: Make all all CPUID leaf names consistent
 
---===============7991019107907881731==--
+--===============0142012330377359597==--
