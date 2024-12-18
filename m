@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Wed, 18 Dec 2024 15:32:21 -0000
-Message-Id: <173453594162.1278190.5783125409735106766@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
+Date: Wed, 18 Dec 2024 15:36:48 -0000
+Message-Id: <173453620854.1282318.4295772283817567536@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/s390/linux
-user: agordeev
+repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
+user: frederic
 changes:
-  - ref: refs/heads/for-next
-    old: e322bafbe198c3d8141b3dc6087066c9eeed34b8
-    new: 5c06b9849b20e30e2123df554c828535c327cd2e
+  - ref: refs/heads/hrtimer/experimental
+    old: 8dbb72905e18c06ef3fe8737018e043469548fa8
+    new: 9e42f3667a6eb6aa5f5ec27d5e0f304ddef8d7d9
     log: |
-         3ace3c42144c8664b900ede3520c5e02e4d450ac Merge branch 'pci-device-recovery' into features
-         aade9eb90e4682e4f01c4cb44566818d1714d174 Merge branch 'fixes' into for-next
-         5c06b9849b20e30e2123df554c828535c327cd2e Merge branch 'features' into for-next
+         7333813d99d3b5ec99892094fa7a19632a1efe95 hrtimers: Force migrate away hrtimers queued after CPUHP_AP_HRTIMERS_DYING
+         58d94f6dd015a30003a65a1b3cfaa21e8c171ed9 Revert "rcu/nocb: Fix rcuog wake-up from offline softirq"
+         024c95262939d3b83bef2bd34ab7961d2a6533d1 rcu: Remove swake_up_one_online() bandaid
+         9e42f3667a6eb6aa5f5ec27d5e0f304ddef8d7d9 test
          
