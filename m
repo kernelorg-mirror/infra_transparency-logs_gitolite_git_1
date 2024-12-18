@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2731112767129819116=="
+Content-Type: multipart/mixed; boundary="===============6955469162012786422=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 18 Dec 2024 18:01:34 -0000
-Message-Id: <173454489463.1401346.15791060497734054082@gitolite.kernel.org>
+Date: Wed, 18 Dec 2024 18:01:37 -0000
+Message-Id: <173454489782.1401494.15717379061419783026@gitolite.kernel.org>
 
---===============2731112767129819116==
+--===============6955469162012786422==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: 6827fa0c518e38ab093ea12105e2467cc6b0d016
-    new: ee5da79b4f2a24a90417b0ae661971c0a12f2a48
-    log: revlist-6827fa0c518e-ee5da79b4f2a.txt
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: de6b43798d9043a7c749a0428dbb02d5fff156e5
+    new: 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8
+    log: revlist-de6b43798d90-78d4f34e2115.txt
 
---===============2731112767129819116==
+--===============6955469162012786422==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6827fa0c518e-ee5da79b4f2a.txt
+Content-Disposition: attachment; filename=revlist-de6b43798d90-78d4f34e2115.txt
 
 d798bc6f3c174c61837862cb9778d73cccd92a8e arm64: Fix usage of new shifted MDCR_EL2 values
 6fc3a49f23856fdf155ab35f2244295f7870bf83 KVM: arm64: Fix S1/S2 combination when FWB==1 and S2 has Device memory type
@@ -211,8 +211,6 @@ c8f8d4344d50d72181207ee73175bba567c25f58 openrisc: Fix misalignments in head.S
 687630aa582acf674120c87350beb01d836c837c ASoC: audio-graph-card: Call of_node_put() on correct node
 3154bddf8cf2112cf63918b8ab867efe80403208 Merge tag 'kvmarm-fixes-6.13-2' of https://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
 51a00be6a0994da2ba6b4ace3b7a0d9373b4b25e udp: fix l4 hash after reconnect
-7363f2d4c18557c99c536b70489187bb4e05c412 i2c: pnx: Fix timeout in wait functions
-5751eee5c620c7e47a277ca929c4010caf24654c i2c: nomadik: Add missing sentinel to match table
 a592bb19abdc2072875c87da606461bfd7821b08 drm/amdkfd: Dereference null return value
 321048c4a3e375416b51b4093978f9ce2aa4d391 drm/amdkfd: hard-code cacheline size for gfx11
 d50bf3f0fab636574c163ba8b5863e12b1ed19bd drm/amdkfd: hard-code MALL cacheline size for gfx11, gfx12
@@ -303,7 +301,6 @@ d064ea7fe2a24938997b5e88e6b61cbb0a4bb906 bonding: Fix initial {vlan,mpls}_featur
 396699ac2cb1bc4e3485abb48a1e3e41956de0cd team: Fix initial vlan_feature set in __team_compute_features
 98712844589e06d9aa305b5077169942139fd75c team: Fix feature propagation of NETIF_F_GSO_ENCAP_ALL
 255cc582e6e16191a20d54bcdbca6c91d3e90c5e ASoC: Intel: sof_sdw: Add space for a terminator into DAIs array
-de6b43798d9043a7c749a0428dbb02d5fff156e5 i2c: riic: Always round-up when calculating bus period
 3d64c3d3c6d8c740a310d40ec1faaab59dde81ee Merge tag 'nf-24-12-11' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 c53d96a4481f42a1635b96d2c1acbb0a126bfd54 ACPICA: events/evxfregn: don't release the ContextMutex that was never acquired
 7b26bc6582b13a52a42a4a9765e8f30d58a81198 Merge tag 'asoc-fix-v6.12-rc2' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
@@ -426,8 +423,5 @@ dccbe2047a5b0859de24bf463dae9eeea8e01c1e Merge tag 'edac_urgent_for_v6.13_rc3' o
 7031a38ab74cfe997d2a767d18e3af7445547d07 Merge tag 'efi-fixes-for-v6.13-1' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 42a19aa1707cce382bc5e534e2e36024c3611674 Merge tag 'arc-6.13-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8 Linux 6.13-rc3
-f1332df4548af1702700fca42ff48a466825cca0 i2c: keba: drop check because i2c_unregister_device() is NULL safe
-e7563c7355a8452fc9924b8f91fc94b69144431f i2c: imx: fix divide by zero warning
-ee5da79b4f2a24a90417b0ae661971c0a12f2a48 i2c: imx: make controller available until system suspend_noirq() and from resume_noirq()
 
---===============2731112767129819116==--
+--===============6955469162012786422==--
