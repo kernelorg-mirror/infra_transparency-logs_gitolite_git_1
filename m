@@ -1,55 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============3994275713892759676=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Wed, 18 Dec 2024 08:36:40 -0000
-Message-Id: <173451100012.938784.18183860506354017596@gitolite.kernel.org>
-
---===============3994275713892759676==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 18 Dec 2024 09:25:32 -0000
+Message-Id: <173451393283.976736.13644623677300694462@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/powerpc/linux
-user: maddy
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/fixes-test
-    old: fac04efc5c793dccbd07e2d59af9f90b7fc0dca4
-    new: 05aa156e156ef3168e7ab8a68721945196495c17
+  - ref: refs/heads/master
+    old: f220c40fae2800bfaca1f4a40bc6f6da42c2b8dd
+    new: 387fbc7f1f99f93f7a7fa7f06de3d3b37ece3a2f
     log: |
-         05aa156e156ef3168e7ab8a68721945196495c17 powerpc/pseries/vas: Add close() callback in vas_vm_ops struct
+         b8e10c86e674eb19e0e53dcf4fa3e71cba1e0c1c x86/cpu: Introduce new microcode matching helper
+         85b08180df07b9a5984b15ae31d76b904d42a115 x86/cpu: Expose only stepping min/max interface
+         3fa5626720c0948ce067306c4f6558d9ec86020c x86/cpu: Replace PEBS use of 'x86_cpu_desc' use with 'x86_cpu_id'
+         064e8b122b65525115c4c2f181bd2ea33265e0c6 x86/cpu: Move AMD erratum 1386 table over to 'x86_cpu_id'
+         58d3a643fda70211058a8ec0237597652ec1b75d x86/cpu: Remove 'x86_cpu_desc' infrastructure
+         387fbc7f1f99f93f7a7fa7f06de3d3b37ece3a2f Merge branch into tip/master: 'x86/cpu'
          
-
---===============3994275713892759676==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1734511027 +0530
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1734510997-97bdcf2ea2426b1002dc3e13f6b02a8ecb3fc4c4
-
-fac04efc5c793dccbd07e2d59af9f90b7fc0dca4 05aa156e156ef3168e7ab8a68721945196495c17 refs/heads/fixes-test
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCAAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmdiibMACgkQpnEsdPSH
-ZJTMZg//W33kab6/RezsHktQptIfOtOGdnzspvNIg6OA4NUm3cZmjztEm9/WYU/3
-6RSIgh2X5t9WJDbOfWGfgt/LBSR3RPFgzG66F+WSNuedKxq3pBOeTr7Bl8t+IgsP
-OSDd6xsaXjMbxp0SwspxiytWUsTkDv8R+enQFTjguxAywTO+IYcZxt7ayRoMXR4O
-CAehhjtAEFxV+y0d7Ju+ci1+2I2GuQLSswGSQ+XfdlBpHMHN5AK7+13azMCAGCqk
-b25BcwQOM5uc7DyofNW4sGcGHSPeQ/jm/L2wDERMj3z1UlFIAY0J6+zJxnkA/st/
-htwkEvv/BdKjfStvfhz6iul4DBYr32vpLVPvpIKXn+6oeMRmAMCCM3pBfz69E/Zo
-svVTct8cEr0jsTQu7iTq+puR89jQ/JlrVTWd88LXfiUEdctHZoquGbQkURQjhXVy
-u7n93cZ4Q2ljFnW3oR5x9b+hP18SShxqTzLWRSu2HZyhwa3nIcNB+vyYQNZwWGWy
-/BpSJFSHIazch7llrSm+lq156Rm7i48BwGnCCH0Bz/PSxVVt1ReHiweW9KOfKsa4
-BXUNfjDr2mO95nA2j4y9/tBxk3tydmEFc1buJnW9C6OnbxfaLrEBsB4mhR+7OCfS
-fsHO934uyuwZS/EaYGg9TSUyS9A8wV23pA9f0DRUbalJNHjrl54=
-=BI60
------END PGP SIGNATURE-----
-
---===============3994275713892759676==--
