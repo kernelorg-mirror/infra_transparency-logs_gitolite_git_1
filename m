@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 18 Dec 2024 02:00:49 -0000
-Message-Id: <173448724993.628795.11063643815331023191@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
+Date: Wed, 18 Dec 2024 02:35:29 -0000
+Message-Id: <173448932999.655224.8859062674668373747@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/mcgrof/linux
+user: mcgrof
 changes:
-  - ref: refs/heads/main
-    old: b9b8301d369b4c876de5255dbf067b19ba88ac71
-    new: 954a2b40719a21e763a1bba2f0da92347e058fce
-    log: |
-         954a2b40719a21e763a1bba2f0da92347e058fce rtnetlink: Try the outer netns attribute in rtnl_get_peer_net().
-         
+  - ref: refs/heads/large-block-buffer-heads-20241217
+    old: 0000000000000000000000000000000000000000
+    new: a9052a4e88861e96d9295dfc21e7e73b0924d952
