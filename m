@@ -1,23 +1,61 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Wed, 18 Dec 2024 08:26:13 -0000
-Message-Id: <173451037352.930161.9374928344914536063@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2982078557403556437=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
+Date: Wed, 18 Dec 2024 08:31:08 -0000
+Message-Id: <173451066810.934220.1507409551563183220@gitolite.kernel.org>
+
+--===============2982078557403556437==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wsa/linux
-user: wsa
+repo: pub/scm/linux/kernel/git/powerpc/linux
+user: maddy
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/renesas/g3s/i3c-broken-out-experimental
-    old: 0df8648895b0418a31c028b0d2ef437bf0a41f2e
-    new: 90026d4c2c89dad220942aac4ce6c314a21ae92e
+  - ref: refs/heads/next-test
+    old: 34064c8267a61063d684408db6ae78b571a9999d
+    new: d629d7a8efc33d05d62f4805c0ffb44727e3d99f
     log: |
-         4b30b5abc3ebf037a6fac597af6319a93bfa648e working .config
-         3b5d4ee452aefb1c4f767319a2e8bd42227d50a3 dt-bindings: hwmon: lm75: Add NXP P3T1755
-         8bb93ea35206c21d4309008a58a94e3470cc56d0 hwmon: (lm75) Add NXP P3T1755 support
-         cbddd5d761e6e3ed35cd2917c12ef8d29c210ca1 hwmon: (lm75) Fix LM75B document link
-         90026d4c2c89dad220942aac4ce6c314a21ae92e hwmon: (lm75) Hide register size differences in regmap access functions
+         026ac4dda8f666f737b375731e30ef8f5698b215 selftest/powerpc/ptrace/core-pkey: Remove duplicate macros
+         b0e1b95b1597ad3d87ff91d52f6b67cc9423c31e selftest/powerpc/ptrace/ptrace-pkey: Remove duplicate macros
+         65f5038352e8f635fb827f7482f1d08fae4d16bf selftest/powerpc/ptrace: Cleanup duplicate macro definitions
+         e834166822a3c9fb403411c898367df8dabf973c macintosh: declare ctl_table as const
+         f66dbe43798fc97e8c0e6d9b86f1aa923ef523fa powerpc/64: Use get_user() in start_thread()
+         9fa9712644e04c4fd4de7e2d999edde3c9316823 powerpc/vdso: Mark the vDSO code read-only after init
+         d629d7a8efc33d05d62f4805c0ffb44727e3d99f powerpc/book3s64/hugetlb: Fix disabling hugetlb when fadump is active
          
+
+--===============2982078557403556437==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1734510682 +0530
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
+nonce 1734510652-a4c87c631f2600e83fff14e65bb4a8c229bdfb74
+
+34064c8267a61063d684408db6ae78b571a9999d d629d7a8efc33d05d62f4805c0ffb44727e3d99f refs/heads/next-test
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmdiiFoACgkQpnEsdPSH
+ZJTDJxAAud5dLAX1mlb6EmyNzKIQOdPlJf9cc3P1mp/4n0Kux+Ah8agGLjjV+2jw
+iaOm/+b6mNfwCgfFVZD71ds09q0j573UI56pUryRyi6t4zoavWalkR1bCdaZ9G1D
+6fj5E1SJkdCE+Nrt43ScpbDUea782ulDxo5nGLff/9Sg2dnLApKhLLn57DV+nnHy
+FzUfSEUobQA6/Nh6rVL6lqVgwefz/KyXLTuAgYbcNUMvFbMJyyeYBbeUvfUo38IL
+Tj/enhU1frsxUiDUhETuEqfbFRuuULk0Dc7IgapUvqazrPgR622sxw2XUfZ5jM9b
+YlQM4uMAlv+SSWO9LR8NjAXOncJB5ydl7p+Fd/9oNf7OHcKqZVUj0Hfs6aYrTP3j
+JkZ5fsIhiXzp5gm8rAA38l/FM3ArZ0k4zb6KZvXPZ9bUQ5Kt7c0Jtw2mcc3tI0sv
+toCdSjAXxAjIkEWFTA7hpt5+cZvxGDbU9/9hvRZ7kpdjVg6Y5IrFjKz5Wafkx25q
+JSEH1g+azX0eAo0k7nlrKwmSkIKT2R/z5yPy8KqAEKPe+9yydwzwfeWyk9punsI4
+MgePoqwfTYkkg6mdHmjX3gMb1RGw6qBSF8j/0XAA8cZJhjKHcyv0SLUsWBLlwFsn
+wgWvNSHTrCy7bjsoJ3RL8Ga71wC8TrabasiUEUhD0s3Bi2BLnqY=
+=x0y8
+-----END PGP SIGNATURE-----
+
+--===============2982078557403556437==--
