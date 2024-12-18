@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0624290148035535058=="
+Content-Type: multipart/mixed; boundary="===============6604283436351220612=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
-Date: Wed, 18 Dec 2024 10:28:28 -0000
-Message-Id: <173451770875.1026242.13502483293395945837@gitolite.kernel.org>
+Date: Wed, 18 Dec 2024 10:29:26 -0000
+Message-Id: <173451776673.1026721.6725347801469432179@gitolite.kernel.org>
 
---===============0624290148035535058==
+--===============6604283436351220612==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,34 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mic/linux
 user: mic
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: adc218676eef25575469234709c2d87185ca223a
-    new: 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8
-    log: revlist-adc218676eef-78d4f34e2115.txt
-  - ref: refs/tags/v6.13-rc1
-    old: 0000000000000000000000000000000000000000
-    new: cbc4912199deab59fdbd830b115d81941d0add46
-  - ref: refs/tags/v6.13-rc2
-    old: 0000000000000000000000000000000000000000
-    new: e32a80927434907f973f38a88cd19d7e51991d24
-  - ref: refs/tags/v6.13-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 7705f2f1cf8d49dd02236dce6edad6c013b43293
+    new: d294b3aee748f4b3c4b526e724790005992b7c1a
+    log: revlist-adc218676eef-d294b3aee748.txt
 
---===============0624290148035535058==
+--===============6604283436351220612==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-adc218676eef-78d4f34e2115.txt
+Content-Disposition: attachment; filename=revlist-adc218676eef-d294b3aee748.txt
 
-1b0cab327e060ccf397ae634a34c84dd1d4d2bb2 mq-deadline: don't call req_get_ioprio from the I/O completion handler
-0c0a4eae26ac78379d0c1db053de168a8febc6c9 io_uring: check for overflows in io_pin_pages
-6fc3a49f23856fdf155ab35f2244295f7870bf83 KVM: arm64: Fix S1/S2 combination when FWB==1 and S2 has Device memory type
-0b882940665ca2849386ee459d4331aa2f8c4e7d Bluetooth: MGMT: Fix slab-use-after-free Read in set_powered_sync
-a66dfaf18fd61bb75ef8cee83db46b2aadf153d0 Bluetooth: MGMT: Fix possible deadlocks
-ed9588554943097bdf09588a8a105fbb058869c5 Bluetooth: SCO: remove the redundant sco_conn_put
-6b64128a74ebcacc5a0de5a74834e3b9f47a354c selftests/bpf: Check for PREEMPTION instead of PREEMPT
-2957fa4931a3b658d8e54eda9439d4c57967e8ad fs/backing_file: fix wrong argument in callback
 cf87766dd6f9ddcceaa8ee26e3cbd7538e42dd19 Merge branch 'ovl.fixes'
 12aaf67584cf19dc84615b7aba272fe642c35b8b irqchip/irq-mvebu-sei: Move misplaced select() callback to SEI CP domain
 f82e62d470cc990ebd9d691f931dd418e4e9cea9 irqchip/gicv3-its: Add workaround for hip09 ITS erratum 162100801
@@ -1059,5 +1042,13 @@ dccbe2047a5b0859de24bf463dae9eeea8e01c1e Merge tag 'edac_urgent_for_v6.13_rc3' o
 7031a38ab74cfe997d2a767d18e3af7445547d07 Merge tag 'efi-fixes-for-v6.13-1' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 42a19aa1707cce382bc5e534e2e36024c3611674 Merge tag 'arc-6.13-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8 Linux 6.13-rc3
+9f05363166c3ec5cd3d10d8599cab1f082bd3935 exec: Add a new AT_EXECVE_CHECK flag to execveat(2)
+4196eeb79f447a3d6c327adf321bcbc4d5256b60 security: Add EXEC_RESTRICT_FILE and EXEC_DENY_INTERACTIVE securebits
+926b857736c8a9c763c39117d1dd216aa855af62 selftests/exec: Add 32 tests for AT_EXECVE_CHECK and exec securebits
+297d25a262081f3d481e27902be12976a50e7052 selftests/landlock: Add tests for execveat + AT_EXECVE_CHECK
+b8ef9d9f61cd2cba47ebea093b0f414c0e20553b samples/check-exec: Add set-exec
+027e1a67689072f308ca4d613316f03a57ed05ca selftests: ktap_helpers: Fix uninitialized variable
+3cb0af26efa1695a9bc86b4413b78aaca8851ae8 samples/check-exec: Add an enlighten "inc" interpreter and 28 tests
+d294b3aee748f4b3c4b526e724790005992b7c1a ima: instantiate the bprm_creds_for_exec() hook
 
---===============0624290148035535058==--
+--===============6604283436351220612==--
