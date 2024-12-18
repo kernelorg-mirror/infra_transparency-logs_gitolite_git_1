@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Wed, 18 Dec 2024 23:34:41 -0000
-Message-Id: <173456488159.1669707.115503834827727524@gitolite.kernel.org>
+Date: Wed, 18 Dec 2024 23:36:01 -0000
+Message-Id: <173456496161.1672004.14704113730672956868@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sre/linux-power-supply
 user: sre
 changes:
-  - ref: refs/heads/for-next
-    old: 288a2cabcf6bb35532e8b2708829bdc2b85bc690
-    new: 3c7c176b10ccff15fee0e8d00ebc6804f87fb807
+  - ref: refs/heads/fixes
+    old: c28dc9fc24f5fa802d44ef7620a511035bdd803e
+    new: b3ded6072c5600704cfa3ce3a8dc8718d34bda66
     log: |
-         da4ac0b3c22f48f6387617d13bb986f633d3c01a dt-bindings: power: supply: bq24190: Add BQ24297 compatible
-         3c7c176b10ccff15fee0e8d00ebc6804f87fb807 power: supply: bq24190: Add BQ24297 support
+         b3ded6072c5600704cfa3ce3a8dc8718d34bda66 power: supply: bq24190: Fix BQ24296 Vbus regulator support
          
