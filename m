@@ -1,25 +1,47 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Wed, 18 Dec 2024 12:01:31 -0000
-Message-Id: <173452329134.1102372.5605721183526214851@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1515440048794197167=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
+Date: Wed, 18 Dec 2024 12:09:39 -0000
+Message-Id: <173452377915.1108435.4926979043916544648@gitolite.kernel.org>
+
+--===============1515440048794197167==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/mkl/linux-can
+user: mkl
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/kvm-arm64/nv-next
-    old: 1e2a09d0a43f9c19dae9d321b4a5c840d45fc88b
-    new: 200e6aefbe57cd21d7ad678ec89f103388b20382
-    log: |
-         44bd609c4fc267c0665822aa6e7e2ae5cb93e95a KVM: arm64: nv: Handle mapping of VNCR_EL2 at EL2
-         c455b336458878ef11c3b21af422fe9c1b88754b KVM: arm64: nv: Handle VNCR_EL2 invalidation from MMU notifiers
-         608fe31c0b25be859f903798045cab40b8ca2298 KVM: arm64: nv: Program host's VNCR_EL2 to the fixmap address
-         75284e7ad85de1c7619547005448a0f42f9af3ea KVM: arm64: nv: Add S1 TLB invalidation primitive for VNCR_EL2
-         d4b2cf1636a219b5084a13132c839d722e6f7c57 KVM: arm64: nv: Plumb TLBI S1E2 into system instruction dispatch
-         080c2d86f5edb9f630318709f0f966bfb5e9c5ab KVM: arm64: nv: Remove dead code from ERET handling
-         200e6aefbe57cd21d7ad678ec89f103388b20382 KVM: arm64: nv: Advertise NV2 support through ID_AA64MMFR4_EL1.NV_frac
-         
+  - ref: refs/tags/linux-can-fixes-for-6.13-20241218
+    old: 0000000000000000000000000000000000000000
+    new: 4518172b980318024117ca8ed564b7f39247be54
+
+--===============1515440048794197167==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1734523804 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
+nonce 1734523774-8008f54c7e8225192146d5d7822e60495fc5711a
+
+0000000000000000000000000000000000000000 4518172b980318024117ca8ed564b7f39247be54 refs/tags/linux-can-fixes-for-6.13-20241218
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAABCgAxFiEEUEC6huC2BN0pvD5fKDiiPnotvG8FAmdiu5wTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRAoOKI+ei28b+mgB/9+nqqrHpSZ7X5z7aWqS+Yhc6KXjzmD
+nVZhC/+VbA4vFZ6f9y4y8dKRPM0GrkqkhNfvLSgxaRSj1AF8G/K00lKZ5/U0qJfx
+50pBQyJSi4Tnx7AxiK0IAHEFugHfzmGbKG3fh+vrGJkoBSzii0mgUVKHIjwgaESb
+0Q0tCurEU9AInodRMGi4cdkPe6VG5/a/tojp64u5wf8bGrz9aeAoVDUhHbYKETeI
+LyvvOycLjU75yvkKyAfhCkxn5lcsqgpLznlrBzygK64qucrhk3Rv1mXH46k8pANT
+JqgLGohnsUiStXDnu45lp+sj8If7eEpy1+j0H6tJ2fI3ruqYf0HSjzLA
+=BiLb
+-----END PGP SIGNATURE-----
+
+--===============1515440048794197167==--
