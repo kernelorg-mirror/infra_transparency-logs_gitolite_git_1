@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
-Date: Wed, 18 Dec 2024 15:36:48 -0000
-Message-Id: <173453620854.1282318.4295772283817567536@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
+Date: Wed, 18 Dec 2024 15:54:07 -0000
+Message-Id: <173453724708.1294793.8390674638524730987@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
-user: frederic
+repo: pub/scm/linux/kernel/git/sashal/linus-next
+user: sashal
 changes:
-  - ref: refs/heads/hrtimer/experimental
-    old: 8dbb72905e18c06ef3fe8737018e043469548fa8
-    new: 9e42f3667a6eb6aa5f5ec27d5e0f304ddef8d7d9
+  - ref: refs/heads/linus-next
+    old: 8b71fee9450e2c083d74c3de092322ff716b83ba
+    new: 27bc4267e5e983e38be5b0741a853f2372d75c5d
     log: |
-         7333813d99d3b5ec99892094fa7a19632a1efe95 hrtimers: Force migrate away hrtimers queued after CPUHP_AP_HRTIMERS_DYING
-         58d94f6dd015a30003a65a1b3cfaa21e8c171ed9 Revert "rcu/nocb: Fix rcuog wake-up from offline softirq"
-         024c95262939d3b83bef2bd34ab7961d2a6533d1 rcu: Remove swake_up_one_online() bandaid
-         9e42f3667a6eb6aa5f5ec27d5e0f304ddef8d7d9 test
+         da4d8c83358163df9a4addaeba0ef8bcb03b22e8 cxl/pci: Fix potential bogus return value upon successful probing
+         09ceba3a93450b652ae6910b6f65be99885f4437 cxl/pci: Check dport->regs.rcd_pcie_cap availability before accessing
+         76467a94810c2aa4dd3096903291ac6df30c399e cxl/region: Fix region creation for greater than x2 switches
+         27bc4267e5e983e38be5b0741a853f2372d75c5d Merge tag 'cxl-fixes-6.13-rc4' of https://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl into linus-next
          
