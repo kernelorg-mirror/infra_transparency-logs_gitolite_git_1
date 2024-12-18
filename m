@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Wed, 18 Dec 2024 15:16:47 -0000
-Message-Id: <173453500789.1264244.15307979236174716237@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Wed, 18 Dec 2024 15:17:00 -0000
+Message-Id: <173453502089.1264464.9379831796355888275@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 409e29df6d149c37009c9547647cbb85f82d77e1
-    new: de076198d1e4934c5fc17aa52d5f1884f469ce1a
+  - ref: refs/heads/not-for-next
+    old: 4fad88e53f7b0b89ab0c7814b740376691c955fc
+    new: 3ff970047401d665d702b538a10a7be506a3dfc0
     log: |
-         18e930f9813345abecbee994ede58ebac274e9f4 dt-bindings: hwmon: intel,crps185: Add to trivial
-         de076198d1e4934c5fc17aa52d5f1884f469ce1a hwmon: (pmbus/crps) Add Intel CRPS185 power supply
+         3ff970047401d665d702b538a10a7be506a3dfc0 Revert "staging: gpib: Workaround for ppc build failure"
          
