@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/dtc/dtc
-Date: Wed, 18 Dec 2024 05:06:50 -0000
-Message-Id: <173449841054.775710.6079503468777664762@gitolite.kernel.org>
+Date: Wed, 18 Dec 2024 05:22:37 -0000
+Message-Id: <173449935733.787745.863409866173391156@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,14 +12,14 @@ repo: pub/scm/utils/dtc/dtc
 user: dwg
 changes:
   - ref: refs/heads/main
-    old: 755db115355b101dea144eca5c272fdfa15e900f
-    new: 267efc7d469477927baa5c0e540d91cb51ca25bf
+    old: 267efc7d469477927baa5c0e540d91cb51ca25bf
+    new: 18f4f305fdd7e14c8941658a29c7b85c27d41de4
     log: |
-         267efc7d469477927baa5c0e540d91cb51ca25bf checks: Warn about missing #address-cells for interrupt parents
+         18f4f305fdd7e14c8941658a29c7b85c27d41de4 build: fix -Dtools=false build
          
   - ref: refs/heads/master
-    old: 755db115355b101dea144eca5c272fdfa15e900f
-    new: 267efc7d469477927baa5c0e540d91cb51ca25bf
+    old: 267efc7d469477927baa5c0e540d91cb51ca25bf
+    new: 18f4f305fdd7e14c8941658a29c7b85c27d41de4
     log: |
-         267efc7d469477927baa5c0e540d91cb51ca25bf checks: Warn about missing #address-cells for interrupt parents
+         18f4f305fdd7e14c8941658a29c7b85c27d41de4 build: fix -Dtools=false build
          
