@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Wed, 18 Dec 2024 14:52:11 -0000
-Message-Id: <173453353101.1242600.6810445673204230092@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Wed, 18 Dec 2024 15:00:45 -0000
+Message-Id: <173453404585.1250114.4970774297234661021@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/ipsec-fixes
-    old: fe549f703bc155a89fef3f7b12f774e032122d99
-    new: 2e0a097364fd4e347462026e7cb79f07fc3c77bc
+  - ref: refs/heads/bleeding-edge
+    old: df329f96a0009114b53e681cc87eaf683a3819ae
+    new: f2610117b7e385f26dbbdcf6fe8f3b751751712f
     log: |
-         a902222c873f262ef0421fea93c1c84169420044 net/mlx5e: Fix inversion dependency warning while enabling IPsec tunnel
-         995b3d5f04ba947ebb9fbab377f937ae9036efea net/mlx5e: Properly match IPsec subnet addresses
-         a9fad2738a322c0de7f16718a42ff8cc21c6bf11 net/mlx5e: Rely on reqid in IPsec tunnel mode
-         2e0a097364fd4e347462026e7cb79f07fc3c77bc net/mlx5e: Always start IPsec sequence number from 1
+         de51589f9bd98efddf4ab776d3a490e81905ef7c cpufreq: intel_pstate: Use CPUFREQ_POLICY_UNKNOWN
+         8e461a1cb43d69d2fc8a97e61916dce571e6bb31 cpufreq: schedutil: Fix superfluous updates caused by need_freq_update
+         f2610117b7e385f26dbbdcf6fe8f3b751751712f Merge branch 'pm-cpufreq' into bleeding-edge
          
