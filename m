@@ -1,63 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============2542368944190673347=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Wed, 18 Dec 2024 11:31:38 -0000
-Message-Id: <173452149853.1078309.5368848068778266438@gitolite.kernel.org>
-
---===============2542368944190673347==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
+Date: Wed, 18 Dec 2024 11:55:26 -0000
+Message-Id: <173452292650.1097165.325290331146470156@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/sashal/linus-next
+user: sashal
 changes:
-  - ref: refs/heads/master
-    old: 81390a3275c1630104ec4782f190266b04fab281
-    new: 93716b1154433f5fc4547cfe009c8db50c3743fe
+  - ref: refs/heads/linus-next
+    old: 014bf48f16b9c3fee1e0b95d92b81ada3a0b0f14
+    new: 8b71fee9450e2c083d74c3de092322ff716b83ba
     log: |
-         666564392198b23c54a23bb6e9c40d48a515f81e add .vulnerable id for CVE-2022-48739
-         6db99fbc26dc32155f878f70d7e8cb8196941870 add .vulnerable id for CVE-2023-52916
-         c609f2505c15407a3ca729ccdba79410e856ca8a add .vulnerable id for CVE-2023-52748
-         485ada5425aaa5bc21ae2c21b57cc5efa9c37981 add .vulnerable id for AMD DCN35 CLK_MGR CVEs
-         cd1a067afadb27364e4a3ea053477a2652dd2f79 add .vulnerable id for CVE-2024-26658
-         0ba8cfe52d393240ad1c9d3661c6389a2792a5ba add .vulnerable id for CVE-2024-26770
-         09157262302688ddbc0d726495d8a8c217171f6d add .vulnerable id for CVE-2024-39478
-         93716b1154433f5fc4547cfe009c8db50c3743fe update entries due to new .vulnerable values.
+         900f83cf376bdaf798b6f5dcb2eae0c822e908b6 selinux: ignore unknown extended permissions
+         a6629626c584200daf495cc9a740048b455addcd tracing: Fix test_event_printk() to process entire print argument
+         917110481f6bc1c96b1e54b62bb114137fbc6d17 tracing: Add missing helper functions in event pointer dereference check
+         65a25d9f7ac02e0cf361356e834d1c71d36acca9 tracing: Add "%s" check in test_event_printk()
+         afd2627f727b89496d79a6b934a025fc916d4ded tracing: Check "%s" dereference via the field and not the TP_printk format
+         2e073d431ab760b20e05b051a28964028f63617f Merge tag 'hyperv-fixes-signed-20241217' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux into linus-next
+         eec39ccc1257d8828a1e22ca8813f2b3a7610cbe Merge tag 'selinux-pr-20241217' of https://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux into linus-next
+         8b71fee9450e2c083d74c3de092322ff716b83ba Merge tag 'trace-v6.13-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace into linus-next
          
-
---===============2542368944190673347==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1734521522 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1734521493-96aa2c9f79e567ea390de0835b9f4fd086810424
-
-81390a3275c1630104ec4782f190266b04fab281 93716b1154433f5fc4547cfe009c8db50c3743fe refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdisrIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PeQP/2MJxi5+yRlrsVTamY1z
-0LPiK2nzoLRrTNVTtcR0ndun/NP3JztpqtiY5841aMY46Dx4r98aRKm7pRC4oaoo
-K5hKiiHXwMVHE8Ef8xnr8NRjzg+1znAGLRegb6ophs31ut5jQbQVR1XwFhGDADve
-ukf491j6uIMauUCP/bV7r8PEK5FGGaIZXQgUUFQO4ASRwQzf17sNrl+V4NOTlQ+6
-fp8iSep4BKf5mZygJ6fncqUFFMgM23Lvn86MsMO9lVbaGjZSOG4nsqVv84fiZ481
-dy5KkjYABxVq1JySj6+tW3g3aZ/OPk2xz5PUCv19OavgnDUUdksLkWrjEp056dD0
-No8d6hHu2FRsE5PPJS0EDcwhma62aK5+WenI5JPkoto1gHOBgP/e31tTbbT6Ft0e
-GQV1aKVOuKAgT+fSKkhDg3pJ0g93g7MK9+qE5GuomtTrPdHqQm4PzbQF6eQDhq/L
-sUU4deGVMArcZhGV+bJ9blOiCe7NNEOaeXK5MHT/ZTpo8Zq+1yNW6y/BVOzB/1Y4
-TRTb5ppEpjeUBbMdYtREWsSm4ciRo1VqWIakDJrS+U4UtV4rZveDypilyEbeoxa5
-lSR3hl3r/xL3M9b0PJwHijXIIp8EuzT82LRh17PBtgIIqJDAEOlbhObxTcRHb5i4
-xmiTeY7ph1V/uWqDpkd5rlIF
-=j54k
------END PGP SIGNATURE-----
-
---===============2542368944190673347==--
