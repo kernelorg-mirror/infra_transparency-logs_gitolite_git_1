@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1054761128386336263=="
+Content-Type: multipart/mixed; boundary="===============7767657582260011623=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Thu, 19 Dec 2024 12:57:21 -0000
-Message-Id: <173461304151.2391531.5258281385107812968@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Thu, 19 Dec 2024 12:57:28 -0000
+Message-Id: <173461304864.2391703.8767745307637027941@gitolite.kernel.org>
 
---===============1054761128386336263==
+--===============7767657582260011623==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 233157785a34612e5899be6edcc6a53ea682d379
     log: revlist-e8b3012cbd8f-233157785a34.txt
 
---===============1054761128386336263==
+--===============7767657582260011623==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -63,4 +63,4 @@ f081defccd934a8db309c90a61178e4f2eef386c perf python: Add parse_events function
 24fb6de241172283f0a4b91c319925b0103be917 perf python: Add __str__ and __repr__ functions to evsel
 233157785a34612e5899be6edcc6a53ea682d379 perf python: Correctly throw IndexError
 
---===============1054761128386336263==--
+--===============7767657582260011623==--
