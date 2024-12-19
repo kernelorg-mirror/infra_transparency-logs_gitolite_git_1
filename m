@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7287583267324549686=="
+Content-Type: multipart/mixed; boundary="===============2673579421588102009=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 19 Dec 2024 17:20:33 -0000
-Message-Id: <173462883378.2715361.5498026322636426601@gitolite.kernel.org>
+Date: Thu, 19 Dec 2024 17:20:36 -0000
+Message-Id: <173462883612.2715577.1575059710302472857@gitolite.kernel.org>
 
---===============7287583267324549686==
+--===============2673579421588102009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: d22f955cc2cb9684dd45396f974101f288869485
     new: 6b3099ebca13ecc5d0e7d07b438672addbd65da6
     log: revlist-d22f955cc2cb-6b3099ebca13.txt
 
---===============7287583267324549686==
+--===============2673579421588102009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -87,4 +87,4 @@ d26b8267d9e02b02c8d1aeb38d7730b5efab3b64 netlink: specs: Add route flow label at
 5760711e198d86bd0d0b9270a54a494ae9a501e0 selftests: fib_rule_tests: Add flow label selector match tests
 6b3099ebca13ecc5d0e7d07b438672addbd65da6 Merge branch 'net-fib_rules-add-flow-label-selector-support'
 
---===============7287583267324549686==--
+--===============2673579421588102009==--
