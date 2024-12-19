@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Thu, 19 Dec 2024 19:08:53 -0000
-Message-Id: <173463533310.2875475.8380965774653951325@gitolite.kernel.org>
+Date: Thu, 19 Dec 2024 19:09:07 -0000
+Message-Id: <173463534735.2875703.18019940187399283496@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,17 +12,16 @@ repo: pub/scm/linux/kernel/git/pci/pci
 user: kwilczynski
 changes:
   - ref: refs/heads/next
-    old: eb11f76ca3a4feacabac2c7bf303a861b026574b
-    new: be4de196a6ba35be5b0c2654253ca13691278061
+    old: be4de196a6ba35be5b0c2654253ca13691278061
+    new: 9e1b45d7a5bc0ad20f6b5267992da422884b916e
     log: |
-         cd3e4149e2f60fe1abfdbe40cb64a9978922fd1c PCI: Don't include 'pm_wakeup.h' directly
-         d5f06232397e7a990fc898054a0754a9ee04d68c Merge branch 'misc'
-         5aed15deb21496a4dacf2f2f5d43482271d29269 Merge branch 'aspm'
-         0cf8386fbc335edbe101897857f1c362bf765ccd Merge branch 'devres'
-         a4df8a418e1d24949b1f19a391bac49fb7dcbe55 Merge branch 'resource'
-         ae2567a5bb3d6c99bbacd0368e9fad2d25ebf529 Merge branch 'endpoint'
-         e7f676bb7a5409aaf610e0305d72578322d0cc87 Merge branch 'for-linus'
-         44b850b3c73946b6347b51a6d4c798768e6287a7 Merge branch 'controller/mediatek'
-         941f1d246165dfe9733d05cbe24be065f5f6e589 Merge branch 'controller/rockchip'
-         be4de196a6ba35be5b0c2654253ca13691278061 Merge branch 'controller/xilinx-cpm'
+         61c31080520228e3b2193f70711f4d4546101b3e Merge branch 'misc'
+         e56ed6c13183c895c15813ff0c5e97f15a812756 Merge branch 'aspm'
+         61d607186f6cace4a6451aa2727093f353b664bd Merge branch 'devres'
+         5ffa14d9f4621d6c40278780aff96c11e2200a95 Merge branch 'resource'
+         889d559f825e6c298799c0fb7d00024e491d14ec Merge branch 'endpoint'
+         5f7267109a2278d132b12ecaf38ab2abcf51bd6d Merge branch 'for-linus'
+         83a7a06fd9b183345e47a276b2e898870c619142 Merge branch 'controller/mediatek'
+         58cbeab014a74c11de42bb53745b9554dbe8b46b Merge branch 'controller/rockchip'
+         9e1b45d7a5bc0ad20f6b5267992da422884b916e Merge branch 'controller/xilinx-cpm'
          
