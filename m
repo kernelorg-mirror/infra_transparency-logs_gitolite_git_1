@@ -1,56 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============8537635456010477377=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 19 Dec 2024 09:53:12 -0000
-Message-Id: <173460199201.2221024.7454635702177076192@gitolite.kernel.org>
-
---===============8537635456010477377==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Thu, 19 Dec 2024 10:11:24 -0000
+Message-Id: <173460308439.2235924.51755615062384392@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/master
-    old: 730879c07d195cb6da121ea2132e9995094ca6ae
-    new: 3888a519687a4a6684bf83d681f5963bee4c7852
+  - ref: refs/heads/for-rc
+    old: a4048c83fd87c65657a4acb17d639092d4b6133d
+    new: 7179fe0074a3c962e43a9e51169304c4911989ed
     log: |
-         3888a519687a4a6684bf83d681f5963bee4c7852 update cvelistV5
+         38651476e46e088598354510502c383e932e2297 RDMA/bnxt_re: Fix the check for 9060 condition
+         798653a0ee30d3cd495099282751c0f248614ae7 RDMA/bnxt_re: Add check for path mtu in modify_qp
+         da2132e683954e7ddda3cd674e866a847b7389eb RDMA/bnxt_re: Fix setting mandatory attributes for modify_qp
+         34db8ec931b84d1426423f263b1927539e73b397 RDMA/bnxt_re: Fix to export port num to ib_query_qp
+         7179fe0074a3c962e43a9e51169304c4911989ed RDMA/bnxt_re: Fix reporting hw_ver in query_device
          
-
---===============8537635456010477377==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1734602020 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1734601991-80e3eb4da6323d759a81fef9db724e1cfeca4120
-
-730879c07d195cb6da121ea2132e9995094ca6ae 3888a519687a4a6684bf83d681f5963bee4c7852 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdj7SQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Lz0P/1thVfOiMQC42vneqeFM
-WGw/vtUPM0cIFzbFP9QMRGVz6vCfOmvbRH6ivyFml7MgwlwLvc0baBiKXPl1yffk
-JW2Qtxf+drPUMPgpf/4GS3v6oz8fBQz6dc6sBrbxRB3OCn5lu1ykKFVtvtjDv6e7
-XFyzPSSnEscg/cHWK/HWdIHP6LnhU+xVj++1Vk5d5jDe6vGZ2pH/qProAs2mKqmd
-pM+cYfkREXhynZ/QLYPXxlh3QgXvxwzlnhFDsV8Buj9cYIZQnyEARrGqheRVXZk5
-E6xegBtkLFyrnxdeMYY968VJ7LB2CjLf254PBdELRrYznTVoK6bIuRTiDaoSvJb9
-tANfvsRYdBv27m8EtL1wtnQh8Abmwulp6b2XtpNWH38FHX08JqI7d2cYCbf2VsuC
-bEK7+FPGygzQuWJjJ2mpKczHngR6F7msKdE4CqxndkyUJRoYNaO2ZWekkEYbVeLz
-zUtleYwXCK19bQ1hXNkjYPb+xGk61kSC+9Fbd3sKK4Z5lguBbXAcrSZJbuAVigm6
-uqdCY3QuPgn4FAsNm86K9EENy72bf6yMpVg1nK/LmV6v9GlnLgYA7CsXHafydkM+
-JG4+hg+3T0sHQ2VOWceS+XHlplOY60/YxavI81sqCz5FCYOhThbBUpSyoxSNpkam
-vBP6guoMuDNT5V8/jTD6ykVp
-=FS2o
------END PGP SIGNATURE-----
-
---===============8537635456010477377==--
