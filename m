@@ -1,56 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============1787521722803403042=="
+Content-Type: multipart/mixed; boundary="===============8487017342297986298=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 19 Dec 2024 11:30:49 -0000
-Message-Id: <173460784990.2320304.17611593016622793598@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Thu, 19 Dec 2024 11:34:58 -0000
+Message-Id: <173460809881.2322746.3409276031353507182@gitolite.kernel.org>
 
---===============1787521722803403042==
+--===============8487017342297986298==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 5ae9268cb8c1ae445ce290d0a3b97eaeb58c53e6
-    new: 050d9163a279ee61b76bb5b218850c19ce021d9e
+  - ref: refs/heads/usb-linus
+    old: b9252f80b807801056e67e3a672fb1be0ecb81d8
+    new: 1b62f3cb74d2965e8f96f20241b1fe85017aa3e8
     log: |
-         050d9163a279ee61b76bb5b218850c19ce021d9e reject CVE-2024-43903 as the commit was reverted
+         8644b48714dca8bf2f42a4ff8311de8efc9bd8c3 thunderbolt: Add support for Intel Panther Lake-M/P
+         e34f1717ef0632fcec5cb827e5e0e9f223d70c9b thunderbolt: Don't display nvm_version unless upgrade supported
+         24740385cb0d6d22ab7fa7adf36546d5b3cdcf73 thunderbolt: Improve redrive mode handling
+         1b62f3cb74d2965e8f96f20241b1fe85017aa3e8 Merge tag 'thunderbolt-for-v6.13-rc4' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
          
 
---===============1787521722803403042==
+--===============8487017342297986298==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1734607878 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1734607849-760ce403131d660815266800e109650a04073274
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1734608125 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1734608095-f5d0cbdf66e38bfa610b7ea9f09012f03342562a
 
-5ae9268cb8c1ae445ce290d0a3b97eaeb58c53e6 050d9163a279ee61b76bb5b218850c19ce021d9e refs/heads/master
+b9252f80b807801056e67e3a672fb1be0ecb81d8 1b62f3cb74d2965e8f96f20241b1fe85017aa3e8 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdkBAYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3MgQALbDEK0ZyNC/0kOOIwnr
-/YwQbUAKXXrrc1IHRXMZwdkTHkEGOCm+fJoOWB/4ttNfdOPRMALTk1PH/WLcdYF1
-vhEC57j/c4PbOmrSHkbYYpEpTZuhhHzmkwS1hu5Z6c5y+tixoPSjrqJBDdupI4tx
-c5f1KKnZXpiLgrAe1s3i6cypnWKIabfUo8cbi5aDtCDDW3/YM8zhYxvA1yI0rrDn
-z6dkR5Qp0aa73zmM37irUvXsA9c33dP11GVUq6E42ULocL7AS0qOcKm72wG70jP4
-mmhdkXLzzTv+D3b1MzeL0P5sXK2TsaOEGIKjn5qOL4FBlTQPUjU+el6IsqdetEa9
-q5S530bJz1EfZA5Ea9C+PJVXPh/ff69MShV5dUnqPdZU9K2VXmN+w5YKCVGrQ9V4
-EjMXGqco97QUXCHQAfelz9yU7r3Xi0lYEfHbVZcflSIobcUOSIuUCe3L1DOgJDeh
-RhzFRGnKEZorabiqs+hg0KgkCs+nsp8WKYPokOMbUTMX2Zikv6fnl5Ddlo9U5oLt
-LDxJ9TmX0BEVHn77oyjl7NoP4q31NNgnIX9V0568R18BUVHIjL79QC2TBqwQuwxF
-INof64+mM8rq2QjKpzcP/FMaqqcW6sThAFVcH+aGxfMEJ7VybROfy+DBrOmczqeH
-nrvu8ZzQiyRpciB2RCqpkHR5
-=VHUA
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdkBP0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cMoQAIC2RzMxFPLU3f6Am12X
+7TRvsBQWmu1knIgQxfFQIB3A9oogZH43b9QLECAwGXfFp7NhRB4N5q9zoYqkSmqd
+cif79q62mkbIAdW2fDNvp+y3d+aomHXKvqHxJkwykbhjt0NSde2sJxZMRq+9ajYz
+w4cYCQ7d6iAVNumvQTU5pz6Ct9Rwv6bPttsBfZWMvTlMjF6XR344H8nhuoRJYaF9
+V+pP9q8QRsvJgrUmcz0aJav1ptII9MpP7Qb6Q90OKm16ZI6iq45pAVAuWrrvG1BY
+YgTcTiJK3z77XhVZoovVFh23hhlAngL/ntYI93ynhcVXX6bS2gxcJnKdcWJypc3O
+4iRYTmpiimx0mp9ZoR1DSBRkf0oW7HCRsQlHTeOrDS+TDPFxqpCJckGFRflmJ893
+pUzyYWvzYMfurHGYAsrpizzvXPva7a0LWns85LTa8hdo6SWNbNLS1fYknFvQZEfk
+TJiKGRBkjx6xsxdXsr06H3tOcgm25XT23+/IlOFNU+jSF/8yQ3v4CoOPa489EqyK
+YJA89I+uurOJdk29bs68+RKIo7c2mQogUlCTM/YpHumd//qygsTN+lnvSgrCaYKV
+3qoXyxyGQ6wFG1E0SEXfSDmuqVr1WiSmRHZ2TXhz3QTYDb1PPBNc4Xdv0bpR1D8C
+gFL6UaHnwDBuKYX1dPkigByP
+=uUow
 -----END PGP SIGNATURE-----
 
---===============1787521722803403042==--
+--===============8487017342297986298==--
