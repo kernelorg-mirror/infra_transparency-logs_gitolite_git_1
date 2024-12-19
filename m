@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Thu, 19 Dec 2024 15:26:43 -0000
-Message-Id: <173462200347.2515523.14555286449949192447@gitolite.kernel.org>
+Date: Thu, 19 Dec 2024 15:29:03 -0000
+Message-Id: <173462214364.2516355.1118418708235429169@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
   - ref: refs/heads/testing
-    old: 1e2d548c9b0303ebabf7bbd18b24e2a779a7b80d
-    new: a4070f228243668adf4625593db980dfa8b19ff1
+    old: a4070f228243668adf4625593db980dfa8b19ff1
+    new: 09459967e775f758f42e09b2540c993061089327
     log: |
-         914c8e7e855dd776df214be552e52d5a0c671381 dt-bindings: iio: light: Document TI OPT4060 RGBW sensor
-         a4070f228243668adf4625593db980dfa8b19ff1 iio: light: Add support for TI OPT4060 color sensor
+         07a99fd73f1589e6b50d256dc67a8519ef12c0b7 iio: dac: ad5624r: Drop docs of missing members
+         09459967e775f758f42e09b2540c993061089327 iio: ABI: use Y consistently as channel number
          
