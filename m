@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9187091419174880596=="
+Content-Type: multipart/mixed; boundary="===============8350831838513493532=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 19 Dec 2024 17:05:24 -0000
-Message-Id: <173462792450.2623229.18070839983652730159@gitolite.kernel.org>
+Date: Thu, 19 Dec 2024 17:05:32 -0000
+Message-Id: <173462793219.2630248.4816614637666334762@gitolite.kernel.org>
 
---===============9187091419174880596==
+--===============8350831838513493532==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
-    old: 7ed2d91588779f0a2b27fd502ce2aaf1fab9b3ca
+  - ref: refs/heads/200GbE
+    old: 0c1683c681681c14f4389e3bfa8de10baf242ba8
     new: ce1219c3f76bb131d095e90521506d3c6ccfa086
-    log: revlist-7ed2d9158877-ce1219c3f76b.txt
+    log: revlist-0c1683c68168-ce1219c3f76b.txt
 
---===============9187091419174880596==
+--===============8350831838513493532==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7ed2d9158877-ce1219c3f76b.txt
+Content-Disposition: attachment; filename=revlist-0c1683c68168-ce1219c3f76b.txt
 
-93433c1d919775f8ac0f7893692f42e6731a5373 idpf: add support for SW triggered interrupts
-0c1683c681681c14f4389e3bfa8de10baf242ba8 idpf: trigger SW interrupt when exiting wb_on_itr mode
 b9b8301d369b4c876de5255dbf067b19ba88ac71 net: netdevsim: fix nsim_pp_hold_write()
 954a2b40719a21e763a1bba2f0da92347e058fce rtnetlink: Try the outer netns attribute in rtnl_get_peer_net().
 fca2977629f49dee437e217c3fc423b6e0cad98c can: m_can: set init flag earlier in probe
@@ -49,4 +47,4 @@ b4adc04954592cb9f2e5dc796c5119c4d4c9b906 Merge tag 'nf-24-12-19' of git://git.ke
 572af9f284669d31d9175122bbef9bc62cea8ded net: mdiobus: fix an OF node reference leak
 ce1219c3f76bb131d095e90521506d3c6ccfa086 net: mctp: handle skb cleanup on sock_queue failures
 
---===============9187091419174880596==--
+--===============8350831838513493532==--
