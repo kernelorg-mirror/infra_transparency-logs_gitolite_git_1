@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3982436360453469369=="
+Content-Type: multipart/mixed; boundary="===============4359766738505757756=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Thu, 19 Dec 2024 17:48:16 -0000
-Message-Id: <173463049609.2784379.16544937634543246965@gitolite.kernel.org>
+Date: Thu, 19 Dec 2024 17:49:03 -0000
+Message-Id: <173463054399.2784801.18133728096973660485@gitolite.kernel.org>
 
---===============3982436360453469369==
+--===============4359766738505757756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: d33bc467e8325be66b7209250e9829d199034ffe
+  - ref: refs/heads/pending
+    old: 580d97cebb3c6bea908d5a1a0775565a743a4534
     new: 578f6fc55c2ced5f68a7f87edbf6db3663dc6b57
-    log: revlist-d33bc467e832-578f6fc55c2c.txt
+    log: revlist-580d97cebb3c-578f6fc55c2c.txt
 
---===============3982436360453469369==
+--===============4359766738505757756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d33bc467e832-578f6fc55c2c.txt
+Content-Disposition: attachment; filename=revlist-580d97cebb3c-578f6fc55c2c.txt
 
 2a7e02fa9116d9b077983257774e6644af064857 wifi: ath9k: cleanup ath_txq_skb_done()
 d19ac7ef6ee997298a42335d0dd09b67c6cb19bf wifi: ath9k: cleanup a few (mostly) TX-related routines
@@ -44,4 +44,4 @@ ebee84cc961cd3947015efbf4a5dbea63b11c5d3 wifi: ath12k: fix incorrect TID updatio
 8534c42397ed8f05257dbddcd305a351ad40add1 wifi: ath12k: Avoid explicit type cast in monitor status parse handler
 578f6fc55c2ced5f68a7f87edbf6db3663dc6b57 wifi: ath12k: Fix spelling mistake "requestted" -> "requested"
 
---===============3982436360453469369==--
+--===============4359766738505757756==--
