@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Thu, 19 Dec 2024 16:24:39 -0000
-Message-Id: <173462547984.2566590.16478838534691143058@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Thu, 19 Dec 2024 16:31:02 -0000
+Message-Id: <173462586295.2573922.905541908157908064@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/pci/pci
+user: kwilczynski
 changes:
-  - ref: refs/heads/main
-    old: 3f227859c1a2910d5bf29230382b3faadedd24ac
-    new: 618378c4888f496c7762b61db19496bf7ea129a2
+  - ref: refs/heads/misc
+    old: 474118955fdd93575f93c85225c65867358d3558
+    new: fe986f9ef0b97d57b1e90a3fa62758db342c7a60
     log: |
-         e1e114f8872f8e5645056a28767cddce77740d39 rtl_nic: add firmware rtl8125bp-2
-         618378c4888f496c7762b61db19496bf7ea129a2 Merge branch 'robot/patch-0-1734598265' into 'main'
+         fe986f9ef0b97d57b1e90a3fa62758db342c7a60 misc: pci_endpoint_test: Add consecutive BAR test
          
