@@ -1,46 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3235874731929049849=="
+Content-Type: multipart/mixed; boundary="===============8537635456010477377=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jirislaby/linux
-Date: Thu, 19 Dec 2024 09:51:17 -0000
-Message-Id: <173460187737.2220199.6198789918332843093@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Thu, 19 Dec 2024 09:53:12 -0000
+Message-Id: <173460199201.2221024.7454635702177076192@gitolite.kernel.org>
 
---===============3235874731929049849==
+--===============8537635456010477377==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jirislaby/linux
-user: jirislaby
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/devel
-    old: 4cb8341e10b381ad4f02144c763348562b11c848
-    new: ec168c4ebb3524c19e711b155503fea0b40799e0
-    log: revlist-4cb8341e10b3-ec168c4ebb35.txt
+  - ref: refs/heads/master
+    old: 730879c07d195cb6da121ea2132e9995094ca6ae
+    new: 3888a519687a4a6684bf83d681f5963bee4c7852
+    log: |
+         3888a519687a4a6684bf83d681f5963bee4c7852 update cvelistV5
+         
 
---===============3235874731929049849==
+--===============8537635456010477377==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4cb8341e10b3-ec168c4ebb35.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-b3c6aab64a3e71029222f2e91268a358163e40a2 irqdomain.h: remove extern from function declarations
-f78d9a0499c830089ab78f892c39a811711bab41 irqdomain: Rename irq_set_default_host() to irq_set_default_domain()
-44116f3d44d7865e86ddd07c682b6fb7c971c9ec irqdomain: Rename irq_get_default_host() to irq_get_default_domain()
-8a3383d823f5bb15433dab09b2c93ed0b51908f1 irqdomain.h: Stop using 'host' for domain
-466e3363ba5d0a9096f7d8d4d36c1027b84babf3 irqdomain: Drop of_node_to_fwnode()
-2bde8634c3ff269db9a5ddc2f37f3d89918d1b01 irqdomain: Make a couple of functions an inline
-a23ae52b65cae2b4a9382d43e846cd0468f1c14a irqdomain: Make irq_domain_instantiate() returned domains an initializer
-3ca353d2d226ac250be23341938b343224c2e53d irqdomain: Make struct irq_domain_info variables const
-5377f972e565844363885eb539258568e0d5a1fe irqdomain: rename _add functions to _add_*_of_node
-cb384c5e0dafbc9dc464847cba476a5b62605fcd irqdomain: rename _create functions to _add_*_fwnode
-297de9abcd663ee850ca4e3becd28de0a91865a5 irqdomain: rename _instantiate functions to _add
-298c47a46dc184f95381b3799f2e49eb0e97d0cb irqdomain: switch away from irq_linear_revmap() and drop it
-d0c33bfb6aacba11fbb58baeab8a2477ade3d7dd irqdomain.h: Improve kernel-docs
-359ce1089e10a4f61e24bd5608f930cae3da4aad irqdomain: Update docs
-01417c325c0d755634d48450990f6024cfbb4df8 irqdomain.c: Fix and add kernel-doc into Documentation
-ec168c4ebb3524c19e711b155503fea0b40799e0 BRANCH_MARKER: work
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1734602020 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1734601991-80e3eb4da6323d759a81fef9db724e1cfeca4120
 
---===============3235874731929049849==--
+730879c07d195cb6da121ea2132e9995094ca6ae 3888a519687a4a6684bf83d681f5963bee4c7852 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdj7SQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Lz0P/1thVfOiMQC42vneqeFM
+WGw/vtUPM0cIFzbFP9QMRGVz6vCfOmvbRH6ivyFml7MgwlwLvc0baBiKXPl1yffk
+JW2Qtxf+drPUMPgpf/4GS3v6oz8fBQz6dc6sBrbxRB3OCn5lu1ykKFVtvtjDv6e7
+XFyzPSSnEscg/cHWK/HWdIHP6LnhU+xVj++1Vk5d5jDe6vGZ2pH/qProAs2mKqmd
+pM+cYfkREXhynZ/QLYPXxlh3QgXvxwzlnhFDsV8Buj9cYIZQnyEARrGqheRVXZk5
+E6xegBtkLFyrnxdeMYY968VJ7LB2CjLf254PBdELRrYznTVoK6bIuRTiDaoSvJb9
+tANfvsRYdBv27m8EtL1wtnQh8Abmwulp6b2XtpNWH38FHX08JqI7d2cYCbf2VsuC
+bEK7+FPGygzQuWJjJ2mpKczHngR6F7msKdE4CqxndkyUJRoYNaO2ZWekkEYbVeLz
+zUtleYwXCK19bQ1hXNkjYPb+xGk61kSC+9Fbd3sKK4Z5lguBbXAcrSZJbuAVigm6
+uqdCY3QuPgn4FAsNm86K9EENy72bf6yMpVg1nK/LmV6v9GlnLgYA7CsXHafydkM+
+JG4+hg+3T0sHQ2VOWceS+XHlplOY60/YxavI81sqCz5FCYOhThbBUpSyoxSNpkam
+vBP6guoMuDNT5V8/jTD6ykVp
+=FS2o
+-----END PGP SIGNATURE-----
+
+--===============8537635456010477377==--
