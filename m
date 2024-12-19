@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5465158859468248830=="
+Content-Type: multipart/mixed; boundary="===============5040891734964618726=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 19 Dec 2024 19:23:51 -0000
-Message-Id: <173463623192.2888344.18443270034511628896@gitolite.kernel.org>
+Date: Thu, 19 Dec 2024 19:24:10 -0000
+Message-Id: <173463625012.2888666.10716819484357956344@gitolite.kernel.org>
 
---===============5465158859468248830==
+--===============5040891734964618726==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,43 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 241f500f68349d55dd05291092abf922b4657f37
-    new: 0c992d2595baaf0d0956032c24bbb3eaa7b7c28e
-    log: revlist-241f500f6834-0c992d2595ba.txt
+    old: 0c992d2595baaf0d0956032c24bbb3eaa7b7c28e
+    new: 1c875bc67cc93c157f81c39b7a2dc10f3c78df1d
+    log: revlist-0c992d2595ba-1c875bc67cc9.txt
+  - ref: refs/heads/tip/urgent
+    old: 40df656a3b1622e4e846b201d7ef7b7e714c9ec8
+    new: 4022ad48f0b040867e91befd6265bcdab505a50d
+    log: revlist-40df656a3b16-4022ad48f0b0.txt
 
---===============5465158859468248830==
+--===============5040891734964618726==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-241f500f6834-0c992d2595ba.txt
+Content-Disposition: attachment; filename=revlist-0c992d2595ba-1c875bc67cc9.txt
+
+8516ed93ca8bb5a1910f7dd4e856da7c523bf9a3 Merge branch into tip/master: 'irq/urgent'
+6371c819b1536b26ed1652325c1d42be4055b4af Merge branch into tip/master: 'locking/urgent'
+e91b274469e7e75c0cd323f38836ea821ca7ec35 Merge branch into tip/master: 'sched/urgent'
+4022ad48f0b040867e91befd6265bcdab505a50d Merge branch into tip/master: 'x86/urgent'
+f391ba1ed5612e9ebbc63f532fdaf78412390d2e Merge branch into tip/master: 'irq/core'
+c46f39a3e78e282528f268b1b7735abb7299cbce Merge branch into tip/master: 'locking/core'
+6e616ada090e2727b2aa89ffffdfc3933fead839 Merge branch into tip/master: 'objtool/core'
+08eccca432081dbae2d0d36e451cdea7f35dfa9f Merge branch into tip/master: 'perf/core'
+c779bc69c84de083b20ae47eb97c71bf7a36aa1c Merge branch into tip/master: 'sched/core'
+06108a5f86404724e828c000da1f754a9ae12b7f Merge branch into tip/master: 'x86/boot'
+88205fabfd6871014d709954e55d879863bce9ca Merge branch into tip/master: 'x86/cache'
+6eb8f9450a5c941f1c219d0c60b440a881686ccd Merge branch into tip/master: 'x86/cleanups'
+be442533ddf74eaeb4dd9dc902143064a0a4c566 Merge branch into tip/master: 'x86/cpu'
+1d690c62e18e10f265d3a9900e8c327cdba35bf2 Merge branch into tip/master: 'x86/misc'
+54781cda45a13a58bf87955efca587844387c724 Merge branch into tip/master: 'x86/mm'
+42e848120dbf3a1ed2b875a624c8bf673a67f81a Merge branch into tip/master: 'x86/sev'
+1c875bc67cc93c157f81c39b7a2dc10f3c78df1d Merge branch into tip/master: 'x86/tdx'
+
+--===============5040891734964618726==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-40df656a3b16-4022ad48f0b0.txt
 
 cb1b78f1c726c938bd47497c1ab16b01ce967f37 tools: hv: Fix a complier warning in the fcopy uio daemon
 bcc80dec91ee745b3d66f3e48f0ec2efdea97149 x86/hyperv: Fix hv tsc page based sched_clock for hibernation
@@ -118,6 +146,9 @@ ce1219c3f76bb131d095e90521506d3c6ccfa086 net: mctp: handle skb cleanup on sock_q
 a0db71c7fe57bf08dcb46376237b78317c035b69 Merge tag 'pwm/for-6.13-rc4-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
 baaa2567a712d449bbaabc7e923c4d972f67cae1 Merge tag 'mmc-v6.13-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
 8faabc041a001140564f718dabe37753e88b37fa Merge tag 'net-6.13-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-0c992d2595baaf0d0956032c24bbb3eaa7b7c28e Merge branch 'linus'
+8516ed93ca8bb5a1910f7dd4e856da7c523bf9a3 Merge branch into tip/master: 'irq/urgent'
+6371c819b1536b26ed1652325c1d42be4055b4af Merge branch into tip/master: 'locking/urgent'
+e91b274469e7e75c0cd323f38836ea821ca7ec35 Merge branch into tip/master: 'sched/urgent'
+4022ad48f0b040867e91befd6265bcdab505a50d Merge branch into tip/master: 'x86/urgent'
 
---===============5465158859468248830==--
+--===============5040891734964618726==--
