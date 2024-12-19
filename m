@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
-Date: Thu, 19 Dec 2024 08:23:47 -0000
-Message-Id: <173459662718.2147563.13002404856118282115@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
+Date: Thu, 19 Dec 2024 08:23:50 -0000
+Message-Id: <173459663013.2147712.12584840310646090230@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/mfd
+repo: pub/scm/linux/kernel/git/lee/leds
 user: lee
 changes:
-  - ref: refs/heads/for-mfd-next
-    old: c2b148f3bc94b61e885dc8529d6b6136576bd865
-    new: 1061081cbe930f97ad54e820ad1996f55d93c57f
+  - ref: refs/heads/for-leds-next
+    old: 3d6976047922374347fb77b509d755da153f549d
+    new: 29df7025cff00dd9fa7cacbec979ede97ee775eb
     log: |
-         1061081cbe930f97ad54e820ad1996f55d93c57f dt-bindings: mfd: Add MDIO interface to rtl9301-switch
+         1c896113f04e34d0036ef506532d2e6cf77dd1e5 turris-omnia-mcu-interface.h: Move macro definitions outside of enums
+         0508316be63bb735f59bdc8fe4527cadb62210ca leds: netxbig: Fix an OF node reference leak in netxbig_leds_get_of_pdata()
+         29df7025cff00dd9fa7cacbec979ede97ee775eb leds: pwm-multicolor: Disable PWM when going to suspend
          
