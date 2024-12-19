@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nathan/linux
-Date: Thu, 19 Dec 2024 03:13:49 -0000
-Message-Id: <173457802957.1855043.4991240565858447393@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 19 Dec 2024 03:19:40 -0000
+Message-Id: <173457838043.1860154.15139933678066477315@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nathan/linux
-user: nathan
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/b4/kexec-fix-section-name-for-ffunction-sections
-    old: f71c7724830b7c342290b796619ead75a1afdfb4
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/sent/20241213-kexec-fix-section-name-for-ffunction-sections-204b328d6db5-v1
-    old: 68d7e3909898ff4d279ec485efe30282a171cf70
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/main
+    old: dbfca1641e697fa088a1cd7e305b47db1dfd3567
+    new: a17975992cc11588767175247ccaae1213a8b582
+    log: |
+         a17975992cc11588767175247ccaae1213a8b582 selftests: openvswitch: fix tcpdump execution
+         
