@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1387847721807322712=="
+Content-Type: multipart/mixed; boundary="===============0045755351773021466=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Thu, 19 Dec 2024 13:49:27 -0000
-Message-Id: <173461616781.2432925.12750215208401646098@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Thu, 19 Dec 2024 13:49:43 -0000
+Message-Id: <173461618324.2433772.3094367440202413974@gitolite.kernel.org>
 
---===============1387847721807322712==
+--===============0045755351773021466==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8
     log: revlist-fac04efc5c79-78d4f34e2115.txt
 
---===============1387847721807322712==
+--===============0045755351773021466==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -427,4 +427,4 @@ dccbe2047a5b0859de24bf463dae9eeea8e01c1e Merge tag 'edac_urgent_for_v6.13_rc3' o
 42a19aa1707cce382bc5e534e2e36024c3611674 Merge tag 'arc-6.13-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8 Linux 6.13-rc3
 
---===============1387847721807322712==--
+--===============0045755351773021466==--
