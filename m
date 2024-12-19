@@ -1,50 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8350831838513493532=="
+Content-Type: multipart/mixed; boundary="===============8393201528212133703=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 19 Dec 2024 17:05:32 -0000
-Message-Id: <173462793219.2630248.4816614637666334762@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Thu, 19 Dec 2024 17:05:38 -0000
+Message-Id: <173462793828.2632389.8950747595468898436@gitolite.kernel.org>
 
---===============8350831838513493532==
+--===============8393201528212133703==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/stable/linux
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/200GbE
-    old: 0c1683c681681c14f4389e3bfa8de10baf242ba8
-    new: ce1219c3f76bb131d095e90521506d3c6ccfa086
-    log: revlist-0c1683c68168-ce1219c3f76b.txt
+  - ref: refs/notes/signatures/tar
+    old: 089d632640f7f0a523bc3c0be1a76a2f26c4fe75
+    new: b9e68ebc8a57b71a63f22684c48859c0ffeb6402
+    log: |
+         b9e68ebc8a57b71a63f22684c48859c0ffeb6402 Notes added by 'git notes add'
+         
 
---===============8350831838513493532==
+--===============8393201528212133703==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0c1683c68168-ce1219c3f76b.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-b9b8301d369b4c876de5255dbf067b19ba88ac71 net: netdevsim: fix nsim_pp_hold_write()
-954a2b40719a21e763a1bba2f0da92347e058fce rtnetlink: Try the outer netns attribute in rtnl_get_peer_net().
-fca2977629f49dee437e217c3fc423b6e0cad98c can: m_can: set init flag earlier in probe
-743375f8deee360b0e902074bab99b0c9368d42f can: m_can: fix missed interrupts with m_can_pci
-87f54c12195150fec052f6a5458fcecdda5ec62f Merge patch series "can: m_can: set init flag earlier in probe"
-cf2c97423a4f89c8b798294d3f34ecfe7e7035c3 ipvs: Fix clamp() of ip_vs_conn_tab on small memory systems
-70b6f46a4ed8bd56c85ffff22df91e20e8c85e33 netfilter: ipset: Fix for recursive locking warning
-cff865c700711ecc3824b2dfe181637f3ed23c80 net: phy: avoid undefined behavior in *_led_polarity_set()
-5c964c8a97c12145104f5d2782aa1ffccf3a93dd net: usb: qmi_wwan: add Quectel RG255C
-dbfca1641e697fa088a1cd7e305b47db1dfd3567 Merge tag 'linux-can-fixes-for-6.13-20241218' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
-a17975992cc11588767175247ccaae1213a8b582 selftests: openvswitch: fix tcpdump execution
-a713c017ef0e63e43b26fd77a5675cd877514f13 Merge branch '200GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-16f027cd40eeedd2325f7e720689462ca8d9d13e net: dsa: restore dsa_software_vlan_untag() ability to operate on VLAN-untagged traffic
-5eb70dbebf32c2fd1f2814c654ae17fc47d6e859 netdev-genl: avoid empty messages in queue dump
-5eecd85c77a254a43bde3212da8047b001745c9f psample: adjust size if rate_as_probability is set
-51df947678360faf1967fe0bd1a40c681f634104 octeontx2-pf: fix netdev memory leak in rvu_rep_create()
-b95c8c33ae687fcd3007cefa93907a6bd270119b octeontx2-pf: fix error handling of devlink port in rvu_rep_create()
-b4adc04954592cb9f2e5dc796c5119c4d4c9b906 Merge tag 'nf-24-12-19' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-572af9f284669d31d9175122bbef9bc62cea8ded net: mdiobus: fix an OF node reference leak
-ce1219c3f76bb131d095e90521506d3c6ccfa086 net: mctp: handle skb cleanup on sock_queue failures
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1734627966 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1734627936-e9db600a20dfffb6037f957319682e6fe118b1e9
 
---===============8350831838513493532==--
+089d632640f7f0a523bc3c0be1a76a2f26c4fe75 b9e68ebc8a57b71a63f22684c48859c0ffeb6402 refs/notes/signatures/tar
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdkUn4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GlMP/RnJtokfyDiMGP+dzlMk
+06XeSk827XEZ8rkJd1O8fzgvQEMlFEXzN5CULAYsjLSTVjhaAS98ek/5iL2YnyVO
+6XrVzvZKuMuObjYumfQw0X9hLBk2HEFcGq3PNyjUNNZu561rgk0aZCs9vrjvJ7bW
+BHzvREAh/f2BsR9vi8MymqQRzqL6aTbPUChZh+rLgQARTRaycQky9G49wJfsjnX9
+OcHinb4OcuQUG77iUaStYD7JkwE6qyI6PtVW3s3Q/RvgyGT8klblrf3VGvbkNvUm
+QpsdMjxqFCSW8P5wanUC16r/9x8mdq/93oqmbJ6t+HXmdwo3RkVmvcTuJ2md/NzX
+vZCK6dLP2VBhZNvzqghfVR4k7J+6GF7OaM8cdxodirpLYsmWFQ5n1Gazs35iErlu
+H9R2PScEH0vf8GGxgrhBebQAbayVM9q8BaGuDFlxufdZ8cG5DLxwttQfrltBvuj/
+gYwdGEapQG6RPGSIJDV1vLH7Gm4TYAZdwvP5F38qfFqaVvNJJSUXnBJR4MK1yWM6
+SVsMU77dDJkv3auqQEAJemqYdE8X3+sJsW7la31TMGFDY19RINozRa3Vedk77Qm9
+bjhVv1pkbQ8kMfvldxwBdiCq8QbPhaD8cXMN3F+LzDcMf/lmkHb+wkSRhapHdf+N
+OXxF6Un08PTwZgZYMnhnnNKh
+=P9NT
+-----END PGP SIGNATURE-----
+
+--===============8393201528212133703==--
