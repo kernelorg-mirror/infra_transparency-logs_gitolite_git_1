@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/nathan/linux
-Date: Thu, 19 Dec 2024 01:11:47 -0000
-Message-Id: <173457070776.1753675.8868336698318954642@gitolite.kernel.org>
+Date: Thu, 19 Dec 2024 01:13:55 -0000
+Message-Id: <173457083544.1754491.1285361276201328590@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/nathan/linux
 user: nathan
 changes:
-  - ref: refs/tags/sent/20240819-acpi-platform_profile-fix-cfi-violation-de278753bd5f-v2
+  - ref: refs/heads/b4/disable-two-clang-enum-warnings
     old: 0000000000000000000000000000000000000000
-    new: 1992cca878ecdade0139f566f70b93008b73dad6
+    new: eaecec46d245252958a6be6707aa601546ff05fe
