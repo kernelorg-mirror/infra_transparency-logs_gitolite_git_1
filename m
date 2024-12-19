@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Thu, 19 Dec 2024 14:50:13 -0000
-Message-Id: <173461981334.2485468.15233366648564935240@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Thu, 19 Dec 2024 15:06:14 -0000
+Message-Id: <173462077475.2497525.14938033380656059585@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/linux-pm
-user: ulfh
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/next
-    old: b06bc47279919628b328710f7767ea7a18a68973
-    new: 094041b176546a82db2ecc84b7a7d31d43d4ffb9
+  - ref: refs/heads/testing
+    old: 01958cb8a00d9721ae56ad1eef9cd7b22b5a34bb
+    new: 1e2d548c9b0303ebabf7bbd18b24e2a779a7b80d
     log: |
-         469c0682e03d67d8dc970ecaa70c2d753057c7c0 pmdomain: imx: gpcv2: fix an OF node reference leak in imx_gpcv2_probe()
-         f64f610ec6ab59dd0391b03842cea3a4cd8ee34f pmdomain: core: add dummy release function to genpd device
-         094041b176546a82db2ecc84b7a7d31d43d4ffb9 pmdomain: Merge branch fixes into next
+         1e2d548c9b0303ebabf7bbd18b24e2a779a7b80d iio: adc: ad_sigma_delta: Use `unsigned int` instead of plain `unsigned`
          
