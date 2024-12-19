@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2673579421588102009=="
+Content-Type: multipart/mixed; boundary="===============0642115199596460062=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 19 Dec 2024 17:20:36 -0000
-Message-Id: <173462883612.2715577.1575059710302472857@gitolite.kernel.org>
+Date: Thu, 19 Dec 2024 17:20:38 -0000
+Message-Id: <173462883836.2715702.17310931057218118811@gitolite.kernel.org>
 
---===============2673579421588102009==
+--===============0642115199596460062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,23 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
-    old: d22f955cc2cb9684dd45396f974101f288869485
+  - ref: refs/heads/100GbE
+    old: bc1027473986dbbd93f9eb41de33307f9abe1319
     new: 6b3099ebca13ecc5d0e7d07b438672addbd65da6
-    log: revlist-d22f955cc2cb-6b3099ebca13.txt
+    log: revlist-bc1027473986-6b3099ebca13.txt
 
---===============2673579421588102009==
+--===============0642115199596460062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d22f955cc2cb-6b3099ebca13.txt
+Content-Disposition: attachment; filename=revlist-bc1027473986-6b3099ebca13.txt
 
-20d00cfae627f048560c46ba5849011a34515103 checkpatch: don't complain on _Generic() use
-346947223bacf96155f603528823a60b18b92d9a devlink: add devlink_fmsg_put() macro
-3dbfde7f6bc7b8efff26e3e98fdd8cba20287da7 devlink: add devlink_fmsg_dump_skb() function
-2846fe5614ac15117fddaa45b86e7e77d91dd569 ice: rename devlink_port.[ch] to port.[ch]
-2a82874a3b7be3f424eb6e94cd4f225e928efe2a ice: add Tx hang devlink health reporter
-bc1027473986dbbd93f9eb41de33307f9abe1319 ice: Add MDD logging via devlink health
 d3c9510dc900e9ff3ea330189c0465c9f00fba18 net: page_pool: rename page_pool_is_last_ref()
 a2558b410de3b0b6c38222ac4858188a55bc52ff net: bridge: constify 'struct bin_attribute'
 2d7b422fa7952e3f15fc0912b12530af1d265193 net: phy: ks8995: constify 'struct bin_attribute'
@@ -87,4 +81,4 @@ d26b8267d9e02b02c8d1aeb38d7730b5efab3b64 netlink: specs: Add route flow label at
 5760711e198d86bd0d0b9270a54a494ae9a501e0 selftests: fib_rule_tests: Add flow label selector match tests
 6b3099ebca13ecc5d0e7d07b438672addbd65da6 Merge branch 'net-fib_rules-add-flow-label-selector-support'
 
---===============2673579421588102009==--
+--===============0642115199596460062==--
