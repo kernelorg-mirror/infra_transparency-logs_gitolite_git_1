@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6203059727391637975=="
+Content-Type: multipart/mixed; boundary="===============7860947350508812482=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 19 Dec 2024 07:06:47 -0000
-Message-Id: <173459200736.2086278.126690307178322442@gitolite.kernel.org>
+Date: Thu, 19 Dec 2024 07:24:22 -0000
+Message-Id: <173459306252.2098872.6462130004389569229@gitolite.kernel.org>
 
---===============6203059727391637975==
+--===============7860947350508812482==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 4fbbd40ceffbf20c24c6418c16626d855172d788
-    new: 5f74b466f65dd0efbf896f74b7fe0a666bae59ad
+    old: 5f74b466f65dd0efbf896f74b7fe0a666bae59ad
+    new: 2ed988d97e8046d6d4e620ccec371dc2722aa193
     log: |
-         5f74b466f65dd0efbf896f74b7fe0a666bae59ad update cvelistV5
+         3e558e5c01f76cf3246cb82b1f32d9c6a7937c1e bippy,dyad: Always use full SHA for machine parsed files
+         2ed988d97e8046d6d4e620ccec371dc2722aa193 Update 2019 entries with longer git ids
          
 
---===============6203059727391637975==
+--===============7860947350508812482==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1734592033 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1734593088 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1734592004-e9c5482627becdcce2311af6cb77b469ed89b46e
+nonce 1734593059-205f51b3ce48ea27ee4b9df2f059ecb7ba7c7e6d
 
-4fbbd40ceffbf20c24c6418c16626d855172d788 5f74b466f65dd0efbf896f74b7fe0a666bae59ad refs/heads/master
+5f74b466f65dd0efbf896f74b7fe0a666bae59ad 2ed988d97e8046d6d4e620ccec371dc2722aa193 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdjxiEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fQ8P/33FbxyGJRLOt8J28nsx
-Vb7jCOafNp16sYO6Q2I52XdGOVwe9RrSg4qlYHKfMUIQONSOMUV1Jvw0/0owduL7
-1yHbuuyEQNcEfNjOFLcxFYVksc1pCtJ71S16xawdnbquqR5jKyX6v22ZGb/bUY3w
-riULFJGJrSco6XPNNSy5lLjhew2IBUdYMN+K7HV11vdV7F4aIm2ga7+hWkXvJ8mV
-ILdGSgLrDf/9nSCwYsC6VkZOFbj/OvNCP2HzRFdfHbGHpnTHCtV9PbS5XsLgu+Lq
-WNIHRIerTpBlcAbMNEKhNk7h/UykIlbH4lgYocIsxy8uruAeWdQPu4NUVpd0FQru
-vq+oVlJsuYtNCagKfH5Rp1n+RkrhxhqFZrOHleGilvhrzDhsDEIVIpOpUKv+78YX
-NhYikd/Fxo7lyGn29FqHtctJrycpZXol0dEye96yslZG8OeLNetOOrdq5m47t5J5
-bSqKATS5unauXsN31dhOjkISVk0wgD20C43ndWmXdP2zs/DSGO6MN/F/Su59+l6p
-AsFfFyYY3JZgCT/qgOUta3RrnQj/RDHGa+c4QN5ZIyULfiCvT2TbmlN7JBppItpi
-F5fwrLLiNO+zYO7bZvQXaCsc88OGbbRK7HaUrm8ZeBLwFb0BnP9Qr/gJqa9X0Jzy
-kqTKbw4I3ud9oHoFL7gCbwWh
-=zSde
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdjykAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DXUP/3bcUxO/oFDVkrHeKHw3
+O3TKuHaU+39cThSYlr5yDCjcKSv6vYI7zMej56PHu+XYxv7IbzDSFONHeagEqdVZ
+zEBnnxGtlRnYWaaLzn919S58uIS78jJZ17Xrvb7RVnutjbic9rrBXU7BBa+n6TmY
+3DZlXVrdU2kHwsYLiQWcD65PlnK86u7qmn34izvklmdc0/R9iw1K1Gn4WbY05V83
+on5t17bzmxaX6X3njJOLGDf5Dgp/iZurM5ql97n82JMZrWM4dZMn9e28AbryX3HV
+h8MzvOt1zjudOCKHdoFvqUuxgFU9BFjkteXE12IjfOuyAOVZJ2/2J8auzjxh20ag
+aGHcnokKwRw8r9nCoHE1WF4K/kuxw8uwJbn9JWX2ubEURP/iUVSaR9dPJ/FY3S5Z
+uYzgd7dIa2GmkhtsrBdX2icfSbZ1P9Mj0Qg1ES7ad03GjvCAdw/1gGh2lmd13lnC
+vbWn7zjV8QfvGMZfl7ftkYot4kRUSVCyHUhmEISc0SDaq7EduFcHe8MMkUqPoD9T
+0vPRTSK87CZNLRXRIcAc5W+ekxMpuZKOHG7sCwcD17sFTLqRdGu4SmyXigsWRKj/
+Jk1nd0rRF5NEy+5R7Ykgq29cQgAPPPlBFn7GHKDJVl7m/M/rjzbYb3eXh5M2Rd2q
+ly4UvAWP3S5lA1MGiANeIrU1
+=v6r0
 -----END PGP SIGNATURE-----
 
---===============6203059727391637975==--
+--===============7860947350508812482==--
