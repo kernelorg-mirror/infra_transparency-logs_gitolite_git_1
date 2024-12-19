@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0095220659829439467=="
+Content-Type: multipart/mixed; boundary="===============9187091419174880596=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 19 Dec 2024 17:05:21 -0000
-Message-Id: <173462792181.2620785.15854046235708992145@gitolite.kernel.org>
+Date: Thu, 19 Dec 2024 17:05:24 -0000
+Message-Id: <173462792450.2623229.18070839983652730159@gitolite.kernel.org>
 
---===============0095220659829439467==
+--===============9187091419174880596==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 7ed2d91588779f0a2b27fd502ce2aaf1fab9b3ca
     new: ce1219c3f76bb131d095e90521506d3c6ccfa086
     log: revlist-7ed2d9158877-ce1219c3f76b.txt
 
---===============0095220659829439467==
+--===============9187091419174880596==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -49,4 +49,4 @@ b4adc04954592cb9f2e5dc796c5119c4d4c9b906 Merge tag 'nf-24-12-19' of git://git.ke
 572af9f284669d31d9175122bbef9bc62cea8ded net: mdiobus: fix an OF node reference leak
 ce1219c3f76bb131d095e90521506d3c6ccfa086 net: mctp: handle skb cleanup on sock_queue failures
 
---===============0095220659829439467==--
+--===============9187091419174880596==--
