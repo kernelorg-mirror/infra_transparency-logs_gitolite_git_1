@@ -1,57 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============1036342097900693078=="
+Content-Type: multipart/mixed; boundary="===============0896942825039216661=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 19 Dec 2024 11:15:34 -0000
-Message-Id: <173460693478.2290299.6314198158288517052@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Thu, 19 Dec 2024 11:15:55 -0000
+Message-Id: <173460695594.2290592.7424880924172379728@gitolite.kernel.org>
 
---===============1036342097900693078==
+--===============0896942825039216661==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: pavel
 changes:
-  - ref: refs/heads/master
-    old: b642c53de29258b8ab09bee854f624becaa75ff3
-    new: 5ea4ccad5e6ceb8527bfc56ae21733775d77cd03
-    log: |
-         e31ee6fa92c137fc35349b83a8559afb836585de Reject CVE-2024-26713 as the git id has been reverted
-         5ea4ccad5e6ceb8527bfc56ae21733775d77cd03 reject CVE-2024-26720 as it was reverted
-         
+  - ref: refs/heads/linux-5.10.y-cip
+    old: f616caa5b10a421a8ca8d8907c226b5846e6ad29
+    new: e5c762776047a43d11d26914ebbf905e4343d6c9
+    log: revlist-f616caa5b10a-e5c762776047.txt
 
---===============1036342097900693078==
+--===============0896942825039216661==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-f616caa5b10a-e5c762776047.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1734606963 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1734606934-91e92e0e002a28050ab8c09d99e0a0d9ede3d1b2
+da964cf9b0c6c99cd58cb29eba67cb96f9b72e1e clk: renesas: rzg2l: Fix FOUTPOSTDIV clk
+3cfabf4551ced3992925482e07760720dff5a98d clk: renesas: r9a08g045: Add clock and reset support for watchdog
+5a2a13eae15f7c098ebd33ac5e1b92b5ac1d79a3 watchdog: rzg2l_wdt: Use pm_runtime_resume_and_get()
+610474205bd871034a7b7616b042834b98dea4b7 watchdog: rzg2l_wdt: Check return status of pm_runtime_put()
+0a3f5ca074d7bbe2b81c3d20422b499a256d2126 watchdog: rzg2l_wdt: Remove reset de-assert from probe
+07c15a9b5f2649778329843edd21e40deda46d54 watchdog: rzg2l_wdt: Remove comparison with zero
+43a6a43912e832579c010ce2e97d8422abd89b9c watchdog: rzg2l_wdt: Rely on the reset driver for doing proper reset
+c465b064603b6a7f644da73638863afa85090bb4 watchdog: rzg2l_wdt: Add suspend/resume support
+08d866ddc2d156463afe43f52af360c9e4a7fe99 watchdog: rzg2l_wdt: Power on the watchdog domain in the restart handler
+ff4f7abcae6c9ddf59d0fb3bb91a5354e250d290 arm64: dts: renesas: r9a08g045: Add watchdog node
+e5c762776047a43d11d26914ebbf905e4343d6c9 arm64: dts: renesas: rzg3s-smarc-som: Enable the watchdog interface
 
-b642c53de29258b8ab09bee854f624becaa75ff3 5ea4ccad5e6ceb8527bfc56ae21733775d77cd03 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdkAHMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wnYP/26NR0MLiVG1MmZLkhkZ
-VwsdsBHyiOG3aREhc7yFhmVlbSuRuYRTIPbpipsO7fFGoFtiOrJ+ueEUKdUzZbo/
-fwKTszJN7xUUwWobwEjmHjmbDbJz95yjuSfkrCur1rCa0XkkNc20/z69yXuSdhz5
-uOd325Hw6th2cOLSiLjcxLh/YaVlVBY6WJgZ6F23wDLkoYqSx2fW6gqR2MjFIjLL
-9hD7K/hHv5E516qAbhL9JWb2yW8DkR5O5BNZBRxatxVn1CSmUcHXe3kulyeVl23J
-wlHExArqhxit5Kv1C8w9dX7OBMSinqW9nfru2dzxueYqeZOTsfpN5pNY1DF8usNF
-0RUE0ExFR90X8kTSgVwZaZmJAZqaiVEQWNx0eWI+6ByC5zYOnj4uizxnAs4OY2rz
-rt9NTIjURsySB24DAjpP92x/Cq7wYk/1FcrK12qq/nOBdxxhQ/GrfYuTs7CMMtdl
-KiFdu0vSjL/hmoHBBKUjKkgUTG14sV2Ia0NTU51Yqgj1c1CmM+mbM++FleVwdPof
-a4uEpUIg4yhSF37d0SAW+kGVD26L70r/YtUN4ruueycH/xU7y2afg8skDaVzAG2t
-C29Zc29RX2M5qu6snCDe61YBS/tdKwN0kL0D3cPkwZLzDYojs4EZZfWa1mElyNFR
-Sx5Yq1LhzylOhWVOzmaabN9v
-=fvrB
------END PGP SIGNATURE-----
-
---===============1036342097900693078==--
+--===============0896942825039216661==--
