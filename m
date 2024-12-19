@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
-Date: Thu, 19 Dec 2024 08:56:49 -0000
-Message-Id: <173459860947.2175838.18304811509009831885@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 19 Dec 2024 09:01:35 -0000
+Message-Id: <173459889528.2180072.14710958649541721260@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/atorgue/stm32
-user: atorgue
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/stm32-next
-    old: ee843399b312ecf9b922afde87d4fb0bc403500a
-    new: abf9b56d5dc53bcc47fb50ee66d94b150811701d
+  - ref: refs/heads/main
+    old: b95c8c33ae687fcd3007cefa93907a6bd270119b
+    new: b4adc04954592cb9f2e5dc796c5119c4d4c9b906
     log: |
-         abf9b56d5dc53bcc47fb50ee66d94b150811701d ARM: dts: stm32: Swap USART3 and UART8 alias on STM32MP15xx DHCOM SoM
+         cf2c97423a4f89c8b798294d3f34ecfe7e7035c3 ipvs: Fix clamp() of ip_vs_conn_tab on small memory systems
+         70b6f46a4ed8bd56c85ffff22df91e20e8c85e33 netfilter: ipset: Fix for recursive locking warning
+         b4adc04954592cb9f2e5dc796c5119c4d4c9b906 Merge tag 'nf-24-12-19' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
          
