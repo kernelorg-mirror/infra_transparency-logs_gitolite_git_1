@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Thu, 19 Dec 2024 21:16:23 -0000
-Message-Id: <173464298371.2982395.14122371831013576210@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Thu, 19 Dec 2024 21:30:46 -0000
+Message-Id: <173464384637.2993983.2077528328418020293@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/nfs-localio-for-next-uncached-v2
-    old: 58b8236348854c2d28a4588380da0d26830e6192
-    new: 19f5be3b1bbf03ea9d6aa3a4b927fa518488a40d
+  - ref: refs/heads/master
+    old: 05b81f7d946ccccabf2a40790316e54a88c14cdb
+    new: e2d69c80af1c289fffa78e594f14e382da7ffd15
     log: |
-         19f5be3b1bbf03ea9d6aa3a4b927fa518488a40d nfsd: add the ability to enable use of RWF_DONTCACHE for all nfsd IO
+         e2d69c80af1c289fffa78e594f14e382da7ffd15 foo
          
