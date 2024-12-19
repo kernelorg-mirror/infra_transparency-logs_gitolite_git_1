@@ -1,25 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Thu, 19 Dec 2024 22:32:01 -0000
-Message-Id: <173464752179.3045856.5849861563345973557@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Thu, 19 Dec 2024 23:04:10 -0000
+Message-Id: <173464945098.3069879.7688357306968792027@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wsa/linux
-user: wsa
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/renesas/g3s/i3c-broken-out-experimental
-    old: 16de127646cd0c0bfae210597adae69c0ac3d2f3
-    new: 080f9ce0e80e3dbfa3cff3a3a6fe12cc42154e1c
+  - ref: refs/heads/dev-queue
+    old: 4c81ad6cb784c650f278413668ed246723c44e81
+    new: a9cc0535640f364ea96b0ba4c242baf35c924fe6
     log: |
-         e5b3f978045857baa685a014663c813942eac8cd i3c: fix kdoc parameter description for module_i3c_i2c_driver()
-         0cc0dec1cad957642244e906f3cbfe6367398e2b hwmon: (lm75) Hide register size differences in regmap access functions
-         0fac056a9aebcd224a0ba601fd05f6b83ce26c12 hwmon: (lm75) simplify lm75_write_config()
-         8a95bbb5a8803341168700b24a296d99101108b0 hwmon: (lm75) simplify regulator handling
-         06fe1d77ef02a0788326fb8918c3783f6f08b972 hwmon: (lm75) Remove superfluous 'client' member from private struct
-         05a82623e69690fa149bcb868ad36baca044db99 hwmon: (lm75) seperate probe into common and I2C parts
-         080f9ce0e80e3dbfa3cff3a3a6fe12cc42154e1c hwmon: (lm75) add I3C support for P3T1755
+         2a7339d94e722752ff087e141dc73ae5c7c8e9b0 idpf: Acquire the lock before accessing the xn->salt
+         6a7ef5dc5931eaaa064d1fc8a92ce31f096ade0c idpf: convert workqueues to unbound
+         53a72eaf217f7b65bef0859d29c645b6440b7ec2 idpf: add more info during virtchnl transaction timeout/salt mismatch
+         0a5fa802596c55d1d7d600f1a1628a266942bbb7 igb: narrow scope of vfs_lock in SR-IOV cleanup
+         ec3ac98d1b02cbfab7b95514dcf04e1e9bfc8158 igb: introduce raw vfs_lock to igb_adapter
+         aaf281d768665062ce3ff7a6c1c8ec1f714cb7ed igb: split igb_msg_task()
+         a9cc0535640f364ea96b0ba4c242baf35c924fe6 igb: fix igb_msix_other() handling for PREEMPT_RT
          
