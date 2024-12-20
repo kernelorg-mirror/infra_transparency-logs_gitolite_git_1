@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1788836328148447600=="
+Content-Type: multipart/mixed; boundary="===============6601780222731334094=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 20 Dec 2024 17:12:32 -0000
-Message-Id: <173471475233.3952323.6646487550121948869@gitolite.kernel.org>
+Date: Fri, 20 Dec 2024 17:12:38 -0000
+Message-Id: <173471475824.3952633.18069761278660822357@gitolite.kernel.org>
 
---===============1788836328148447600==
+--===============6601780222731334094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/200GbE
     old: 6b3099ebca13ecc5d0e7d07b438672addbd65da6
     new: b73e56f16250c6124f8975636f1844472f6fd450
     log: revlist-6b3099ebca13-b73e56f16250.txt
 
---===============1788836328148447600==
+--===============6601780222731334094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -583,4 +583,4 @@ a19d0236f466f1ce8f44a04a96c302d3023eebf4 page_pool: add page_pool_dev_alloc_netm
 560d958c6c68fa62ddb4bd6f890c363598d184b0 xsk: add generic XSk &xdp_buff -> skb conversion
 b73e56f16250c6124f8975636f1844472f6fd450 Merge branch 'xdp-a-fistful-of-generic-changes-pt-iii'
 
---===============1788836328148447600==--
+--===============6601780222731334094==--
