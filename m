@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Fri, 20 Dec 2024 02:33:50 -0000
-Message-Id: <173466203013.3241920.7970829592055972064@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 20 Dec 2024 02:53:44 -0000
+Message-Id: <173466322409.3257727.10492402685252604408@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/experimental
-    old: 0a50b99fa777a07ff477643ead6e99db29a88e37
-    new: 65ca05946d4b702bc9b92527ce14ded08544ff50
+  - ref: refs/heads/main
+    old: c0cc126882bab3553f77c768f8a8847879d9abb9
+    new: b6075c80537558b16ff72861af4c0539c375e11b
     log: |
-         ea1775b675d1de1e0734752d8e1c624c039c30de erofs-utils: support buffer block reservation
-         21e6dc0544dec5318e55ecd7c843da71c42924b6 erofs-utils: mkfs: support data alignment
-         65ca05946d4b702bc9b92527ce14ded08544ff50 erofs-utils: lib: drop prefix_sha256 digests
+         0e8c52091633b354b12d0c29a27a22077584c111 wifi: iwlwifi: fix CRF name for Bz
+         b83accfec0811421df065f820e73ca8df7f6439a MAINTAINERS: wifi: ath: add Jeff Johnson as maintainer
+         cc0c53f4fac562efb3aca2bc493515e77642ae33 wifi: iwlwifi: mvm: Fix __counted_by usage in cfg80211_wowlan_nd_*
+         146b6057e1fd28fb1a38d300bf76a38dfba7f9fb wifi: cw1200: Fix potential NULL dereference
+         b6075c80537558b16ff72861af4c0539c375e11b Merge tag 'wireless-2024-12-19' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
          
