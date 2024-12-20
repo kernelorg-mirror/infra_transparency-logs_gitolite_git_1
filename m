@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
-Date: Fri, 20 Dec 2024 07:21:29 -0000
-Message-Id: <173467928992.3466316.5398686532446511229@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Fri, 20 Dec 2024 07:50:54 -0000
+Message-Id: <173468105479.3490397.15064764672011850963@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/atorgue/stm32
-user: atorgue
+repo: pub/scm/network/wireless/iwd
+user: holtmann
 changes:
-  - ref: refs/heads/stm32-dt-for-v6.14
-    old: 0000000000000000000000000000000000000000
-    new: 8df9bff2788973e16263ca86df7574d527c84405
+  - ref: refs/heads/master
+    old: 71447415372535d220bc1ff4ab1589345846ecbf
+    new: 4b535cee1f88734c982c0a5d0bc89109c888dd0c
+    log: |
+         4b535cee1f88734c982c0a5d0bc89109c888dd0c Release 3.3
+         
