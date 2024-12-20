@@ -1,53 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5639040474368230320=="
+Content-Type: multipart/mixed; boundary="===============5123006630216696914=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 20 Dec 2024 15:33:41 -0000
-Message-Id: <173470882163.3865906.14432939423387603502@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Fri, 20 Dec 2024 15:42:25 -0000
+Message-Id: <173470934503.3873815.1200360373288982441@gitolite.kernel.org>
 
---===============5639040474368230320==
+--===============5123006630216696914==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/usb-6.13-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 86e2397f7ae724741d267d43255ee6e671a5d548
+  - ref: refs/heads/staging-linus
+    old: 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8
+    new: 4da38536e2190fb5bfabfcf5229f4d5398648295
+    log: |
+         4da38536e2190fb5bfabfcf5229f4d5398648295 staging: gpib: Fix erroneous removal of blank before newline
+         
 
---===============5639040474368230320==
+--===============5123006630216696914==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1734708841 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1734708812-77714f547d46b607c03a63e15c212f252ebcc45a
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1734709371 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1734709342-cea60cfec0c9cf8bf49df50d1e43e1dced42f46d
 
-0000000000000000000000000000000000000000 86e2397f7ae724741d267d43255ee6e671a5d548 refs/tags/usb-6.13-rc4
+78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8 4da38536e2190fb5bfabfcf5229f4d5398648295 refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdljmkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Fo0QAI5eYT3plJQb/+90uwa5
-xE1zrQXyF3w9NmMYhvAdVb1Nm53VJei94iO7eiroswquVVm2NMWyvCXWjoVX/CMh
-ej2hn7IwhDfS1EafHTLp2yE0ibSSl1var5HlA03rpZxv0ZBP3R2t9TGeAqMrG6Wb
-sRDimaJMXqlUSaLL5uvHDjcQAbI4AeCGeiSCSJk7h4qnOJHrbOn3BBrbGhPaPsNl
-7RUyDzVOLnYb7gVZqaNmzlnAQ45j7POr0i1G1cQJu7Z41zQiUyI2pAA6b5Z5z4vE
-H6H7HKrmnst8rYbghOZ4+/tVLaUkaAeEir8wzuJiUbHN3+T14Vl9dP3yTLoCNoN8
-vC1VguWIKxGPU9OCetNpLr2hA0HVbjrTRZx/ApA8CuSD6LPWXJgtet8iGCmAg5QH
-RxZ1BzGZGJOlDaS8E2EctESQN6nUK/+HFO3zUARVyBxKSWmXb4ApBQBMqKCRKJmd
-USrvPoHOUgvmDmpdOKSn7/8s78+ep9+zTeMoRZ2JMwk29lOfidX8xTMR9OG6Txs6
-Y3LIEKRi10M4sUgQ9uyXRuKSCNNtyNizwjqCCrwm2Rsh5QvTBFKEV96N813pik3G
-HtWCgEcp4YBbOrtsMxuH/8J3oEH38k/rhLC6r+uHdQNJsuczABMKuQOkziH8kc15
-gYU5rdgx/8CA+5o0waAyNNmS
-=4Z1b
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdlkHsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3RsQAMHiTIgIeV2zBpX9dBhs
+ZT22IU+MdEM/HZ/ce2NScSHQ/BInS3eZ3WICjr6TXjiu8bIjZ4x14r6h4M3hW7YM
+ty49AywEx2z6Ku5zi59g9X23tiAODVuUE4YlHaWf3WvZVY1G7Pe1sp1Xo+4tJONX
+63+jEgQ6ujaMFPWR4ZsszBxDeEUJHiUFP211By0um/DvJ5KwjzAvx9t9QPplQ/Aa
+MPCTLde0Y2TuCMOgqLrjvZZfkQOxPPJ+YQICP1M2IBu2/VUisLZpW92NsQ24e5WI
+2WFo0+zpbbBdpBu99lzJhHJNyP2p5Qo7KVNyiBqHWlR8n7tTbskbmR1DwGr21hxO
+SAPrkjcTzWZCRoRFeIoBiJeMcCq+Wm7RmM8DGmXYchImRtdUyhU7Saw7nsG3+HSP
+fxjsNsVnZL9TganuB4IWxsI+4bi1c3EDABdLlkTeKx6CiZcXwDrmgWy4x6jo1LjT
+ghg8AF/RKPJXTDD3nGJ1tzTzPO7+duHNvwjzawQFZ5PYokqa78rpQFF2IV6or7Aj
+ajAT3DzYPRzdSRPD8wBqG//wwd3DyL5zWYtRHRXgU0r4vSZJihvPxCGORrA/wi2p
+yeriqW9eJuo6lgMslXPpDrHh+sexDhFydIx2zAbp0yW7t/dVojUH7EsU+/6iIfht
+zbliYnVNvv/u0xywgRF3gaQ5
+=yODJ
 -----END PGP SIGNATURE-----
 
---===============5639040474368230320==--
+--===============5123006630216696914==--
