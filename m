@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 20 Dec 2024 19:54:17 -0000
-Message-Id: <173472445778.4085912.12438433483152361690@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Fri, 20 Dec 2024 20:03:03 -0000
+Message-Id: <173472498338.4093632.15819982336689491607@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/main
-    old: 4e6ae98956651b5b16e94150b89d01aa258d7b24
-    new: 246068b86b1c36e4590388ab8f278e21f1997dc1
+  - ref: refs/heads/acpi-eventlog
+    old: 3d0b49e4b59a285ddd67e940fe6b4cb51f27e544
+    new: 6d1e4dad4a5f12d5815317fd82cb81fe44db0906
+    log: |
+         6d1e4dad4a5f12d5815317fd82cb81fe44db0906 tpm: Don't copy ACPI event log
+         
