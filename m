@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7992866691651349465=="
+Content-Type: multipart/mixed; boundary="===============5979612069241950510=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 20 Dec 2024 15:44:14 -0000
-Message-Id: <173470945426.3874770.15332239273210289000@gitolite.kernel.org>
+Date: Fri, 20 Dec 2024 15:47:10 -0000
+Message-Id: <173470963066.3878491.11454452223963546018@gitolite.kernel.org>
 
---===============7992866691651349465==
+--===============5979612069241950510==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,47 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-linus
-    old: 4da38536e2190fb5bfabfcf5229f4d5398648295
-    new: baf8855c916007a8a372576b65492316f43ed60b
+    old: baf8855c916007a8a372576b65492316f43ed60b
+    new: 669bf56cb2a197bca968ed6079226ee340606671
     log: |
-         fd1885db8ecab1abc96dbb9df49b0d4b9eed1672 staging: gpib: Add lower bound check for secondary address
-         8c41fae53016c2c9796441148c08b754c4e7dfc8 staging: gpib: Modify mismatched function name
-         d99d65aeddf437c052031043c96f94f93f0124d6 staging: gpib: make global 'usec_diff' functions static
-         79d2e1919a2728ef49d938eb20ebd5903c14dfb0 staging: gpib: fix Makefiles
-         003d2abde115102a3e62c1a96d2cb8c5345b2af2 staging: gpib: add module author and description fields
-         edbb7200ca99b29b173ea4f3f473e4e8db595025 staging: gpib: fix pcmcia dependencies
-         fec866a00360a19a1f4c8e6bd123a4d1b2d5a8ee staging: gpib: use ioport_map
-         baf8855c916007a8a372576b65492316f43ed60b staging: gpib: fix address space mixup
+         669bf56cb2a197bca968ed6079226ee340606671 mailmap: update Bingwu Zhang's email address
          
 
---===============7992866691651349465==
+--===============5979612069241950510==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1734709480 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1734709657 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1734709450-e9e5683dc080cb730a1c94b2d3c8f3c0acbbc39c
+nonce 1734709628-d15b59524beb8d1b5adf6970353f5599952c8cd6
 
-4da38536e2190fb5bfabfcf5229f4d5398648295 baf8855c916007a8a372576b65492316f43ed60b refs/heads/staging-linus
+baf8855c916007a8a372576b65492316f43ed60b 669bf56cb2a197bca968ed6079226ee340606671 refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdlkOgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TJIP/RgA1+PokSnZlqZ0sBK7
-aKb67zUIwz5Wb0aPX7GQxrazn6vFFQBH3r92kATqjjsqC1tKmgvA04wSMMpEwgzL
-L26nrYVvZIgjemHAiUNAi+3FBApdtyrntHJuSFwTdTMuvYJtn0L4fygPqfK3x4Z1
-oBx9fYfQJF8qg2R3ju+SDim4Ce+eswr5jhPDUOMenWVGsNpMX7Nq6tTnn/om9g50
-dwlkAKz9ZNozqibTVLW85wblsUkesyktx1eMMNT+ekLYLV6xWh6oka0Wk01jARDq
-LrDpypihujG7hoDKUVySsAOcJBj6X1V/jBnW3097+ZAx/QJ4HWs/TXbE5zZ8fxf8
-agLWHwNzfD2x0zKNyhsk2N8224413eV3+1xvSFFQ+2Jc8Yu6+cHeTS4TaUHL4mO3
-z1YsGnsLy9lWhkjRPlN7adJxkQ1xET14kc+nD49rroFhRF4WyM34KAHpqOwzyDN2
-omsvm1X8BP1sqjjRZaX5kXskTWrHK+Jv1PsWgA1l7tK8ULT+ymAjyRMiOueq1S35
-2DTI4qA0/G+BuEoiXB/TLXwkKjyy2frpQhsJ1JTLrLVvHzwXnqaxC9MWPCZrHtNu
-k6Kh03qd3xZx1m/w/e9zmhCrypyyuhRYoZUPeyk4TxJdAMsDzIddByhVZ6q6Xqc8
-SlOc4V+94ojYhyv0ObJ9vfok
-=Uw7s
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdlkZkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+k9kP/Ry3vXHW9IF4BgI/xxp3
++Awartseca0B/rEvYUUUEptzCpqo9E0RyVFE7lMV166k8L2LUl0jmd3cUkvoo+TR
+vvOHMhTHg7GSB0pitY53j06/e22iGVqaYEegQmC7JoA4DeqlhdLY3NwI1sxkGx75
+x0T83eKvZqSZ3Sl9rZmep8Xz6ix0/RWOXJrrWuC+YmhNPpsSFXsC2w+aK/qKVbBC
+B3R7Mdjy8ltRhwoUKTd5hghx1vJNq2dELfBH9eBsrjgEOcgogP0tsvRp6+8PrfDX
+nnhHsNdkzBU05j7rKAOuOJkQi9oSvvhkwU4jfxkhIKaoBOvO1r1On3HkYuEotrDR
+8K8TBN5L7dV3b1NAuyqtZM3MopYguq+LKGMnbBJzHCcXaAoJUbaTmlOAWF3sPCQl
+OjEmPX0dHRh4XZdWUMvO+A0ss2PnCy5Hgn9jVQb0OoQ43qTkr1dBYMH1MmDkeNRx
+veXFbS4MO/mVpblFsp6jCX1veUNV0mUk4cmN1m881TO+DnLcOpA7ZptSMC+ETsvG
+bz+P6QDm5rK+2cRe9+v2LYpMRxSR9Bv1QsZRMEaSY96w1DjzCMSJbezFpMyuwKFb
+dOMTQ0vGvMEd3YBt5zUzI5gDPSX3NgYAXXUTlYEj8/dTW5M5hn3fchF7G9t1P2NX
+FF5W/r0OZ6G1ptbKevYKAiSf
+=nGor
 -----END PGP SIGNATURE-----
 
---===============7992866691651349465==--
+--===============5979612069241950510==--
