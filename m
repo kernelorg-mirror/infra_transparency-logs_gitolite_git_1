@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Fri, 20 Dec 2024 14:29:15 -0000
-Message-Id: <173470495553.3810000.18034877062436819104@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Fri, 20 Dec 2024 14:31:25 -0000
+Message-Id: <173470508560.3813072.8047020473668501006@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: 8d5b7358ea7c07b69c44f0af21ebc79a49cf12a3
-    new: a3f44affa23bf2aeccb1eb82492d38f3ad2cade3
+  - ref: refs/heads/perf/urgent
+    old: b8c3a2502a205321fe66c356f4b70cabd8e1a5fc
+    new: aa5d2ca7c179c40669edb5e96d931bf9828dea3d
     log: |
-         06f2bda29525f103e83cbb8a306774d508c7801d NFSD: fix decoding in nfs4_xdr_dec_cb_getattr
-         a3f44affa23bf2aeccb1eb82492d38f3ad2cade3 NFSD: add cb opcode to WARN_ONCE on failed callback
+         aa5d2ca7c179c40669edb5e96d931bf9828dea3d perf/x86/intel: Fix bitmask of OCR and FRONTEND events for LNC
          
