@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Fri, 20 Dec 2024 21:39:15 -0000
-Message-Id: <173473075531.4173596.7946418198936758632@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 20 Dec 2024 21:42:03 -0000
+Message-Id: <173473092391.4177101.12191752213901634647@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/dt/linus
-    old: 0f7ca6f69354e0c3923bbc28c92d0ecab4d50a3e
-    new: 8600058ba28a7b07660ddcd150372d72fb3bc895
+  - ref: refs/heads/main
+    old: 3272040790eb4b6cafe6c30ec05049e9599ec456
+    new: 6ed3472173c575cd8aaed6c62eb74f7728404ee6
     log: |
-         8600058ba28a7b07660ddcd150372d72fb3bc895 of: Add coreboot firmware to excluded default cells list
+         6ed3472173c575cd8aaed6c62eb74f7728404ee6 net: dsa: microchip: Do not execute PTP driver code for unsupported switches
          
