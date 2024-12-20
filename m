@@ -1,53 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============3617966549462173007=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/linux
-Date: Fri, 20 Dec 2024 06:37:12 -0000
-Message-Id: <173467663279.3431532.9035988196338084754@gitolite.kernel.org>
-
---===============3617966549462173007==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Fri, 20 Dec 2024 06:38:34 -0000
+Message-Id: <173467671409.3432211.443097566403049884@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/linux
+repo: pub/scm/linux/kernel/git/vireshk/pm
 user: vireshk
 changes:
-  - ref: refs/heads/virtio/msg
-    old: 56e106e92951441fc66e1864b0bec91aa4f6be15
-    new: 373fa892eceefe5686548d1609d54b8df716efde
+  - ref: refs/heads/cpufreq/arm/linux-next
+    old: a28276cac1f007b4953c66a14aa476492767da4b
+    new: 6106c6e691c3089acd2ff1719900d9b74b658d45
     log: |
-         2261d0cff57494b387e6cd8686239af72c24baca virtio-msg: Add support for FFA based channel bus
-         1b6038fab986da9df553dc6a87084d8bbcb9814e virtio-msg: Add DMA OPs support
-         b71e37a17f7f06c6f2c3266d1c1b78856ec2fa35 firmware: arm_ffa: Add reserved mem support
-         373fa892eceefe5686548d1609d54b8df716efde virtio-msg: ffa: Add reserved mem support
+         63473a7cf705dd899463cc099af5a2f9cb458b8e dt-bindings: cpufreq: apple,cluster-cpufreq: Add A7-A11, T2 compatibles
+         aa746175ded721b439e6465b0423d9d45a66d64b cpufreq: apple-soc: Drop setting the PS2 field on M2+
+         4e793ed038bd51d1ca7e187a7c54574525802c2e cpufreq: apple-soc: Allow per-SoC configuration of APPLE_DVFS_CMD_PS1
+         a89d993a35bbf08e00d4955ee08e857e702c9155 cpufreq: apple-soc: Use 32-bit read for status register
+         75179541576f7309f4c8e3a617e5e5a750004238 cpufreq: apple-soc: Increase cluster switch timeout to 400us
+         f95f68dee823ed930530a6b850f53c5d53776667 cpufreq: apple-soc: Set fallback transition latency to APPLE_DVFS_TRANSITION_TIMEOUT
+         6106c6e691c3089acd2ff1719900d9b74b658d45 cpufreq: apple-soc: Add Apple A7-A8X SoC cpufreq support
          
-  - ref: refs/heads/virtio/msg-xen
-    old: 8930009138ec34f945d39cb8232b264680383cfa
-    new: 7f3a091a12970dae44b91e21e4d58c7437de3d6d
-    log: revlist-8930009138ec-7f3a091a1297.txt
-
---===============3617966549462173007==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8930009138ec-7f3a091a1297.txt
-
-2261d0cff57494b387e6cd8686239af72c24baca virtio-msg: Add support for FFA based channel bus
-1b6038fab986da9df553dc6a87084d8bbcb9814e virtio-msg: Add DMA OPs support
-b71e37a17f7f06c6f2c3266d1c1b78856ec2fa35 firmware: arm_ffa: Add reserved mem support
-373fa892eceefe5686548d1609d54b8df716efde virtio-msg: ffa: Add reserved mem support
-f0deb54731c3a6a0dbaa42608aa1b1233ea3f9c9 firmware: arm_ffa: Partition info returns self as well
-390643bcb6a90be4fc208d9cc513b68c98b3dcd8 firmware: arm_ffa: Bump version to 1.2
-858e4ff24c8edc56862cac8964d67d93a6e40fdb virtio-msg: Add helpers to create per-bus miscdevice
-0c39b9dc93e93e01e4d58a55f63fe8f528ef6123 virtio: Add support for MMIO based channel bus
-f38c76aca16a781787be4741cb0464fa486db8b9 HACK: firmware: arm_ffa: Partitions can come online after the host
-d1d881124b7e8c67ae94ee7794950d371f8a6ab7 HACK: firmware: arm_ffa: Forcefully match UUID to virtio-msg-ffa
-6bd71678a15a9d8907b0059a7de57d558b796925 HACK: virtio-msg: ffa: Make it work on the host side
-8ff773c6d80c537398bf51a6265f6dedc327e2f6 TEMP: defconfig: Reset
-609aef45397f7c8373205466427d480cdab2a178 TEMP: defconfig: Enable virtio-msg + qemu/xen options
-7f3a091a12970dae44b91e21e4d58c7437de3d6d TEMP: defconfig: Enable INITRAMFS for guest kernel
-
---===============3617966549462173007==--
