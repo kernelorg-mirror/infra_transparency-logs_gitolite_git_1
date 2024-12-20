@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Fri, 20 Dec 2024 09:00:29 -0000
-Message-Id: <173468522910.3546003.6006089742020691574@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 20 Dec 2024 09:18:10 -0000
+Message-Id: <173468629022.3558766.17923997364157366282@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/for-linus
-    old: fa0308134d26dbbeb209a1581eea46df663866b6
-    new: 55853cb829dc707427c3519f6b8686682a204368
-    log: |
-         55853cb829dc707427c3519f6b8686682a204368 selftests/alsa: Fix circular dependency involving global-timer
-         
   - ref: refs/heads/master
-    old: da6a706970795ca04e39bba22ea46bf7fe4cfed1
-    new: 641399f886875e1055850b8cdbdaf1b7edb718d1
+    old: 1c875bc67cc93c157f81c39b7a2dc10f3c78df1d
+    new: 6d57533b75642e06ac7059dec2eb2aa5fbeff251
     log: |
-         55853cb829dc707427c3519f6b8686682a204368 selftests/alsa: Fix circular dependency involving global-timer
-         641399f886875e1055850b8cdbdaf1b7edb718d1 Merge branch 'for-linus'
+         b6ccddd6fe1fd49c7a82b6fbed01cccad21a29c7 perf/x86/intel/uncore: Add Clearwater Forest support
+         b8c3a2502a205321fe66c356f4b70cabd8e1a5fc perf/x86/intel/ds: Add PEBS format 6
+         6d57533b75642e06ac7059dec2eb2aa5fbeff251 Merge branch into tip/master: 'perf/urgent'
          
