@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1392069752216164600=="
+Content-Type: multipart/mixed; boundary="===============7598794164078603174=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 20 Dec 2024 16:55:42 -0000
-Message-Id: <173471374269.3936657.6961604344532082960@gitolite.kernel.org>
+Date: Fri, 20 Dec 2024 16:55:45 -0000
+Message-Id: <173471374571.3936846.3117308811897284512@gitolite.kernel.org>
 
---===============1392069752216164600==
+--===============7598794164078603174==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: ce1219c3f76bb131d095e90521506d3c6ccfa086
     new: cc54ec56d822d4e4bfe16b6d1d85e8122fad1f67
     log: revlist-ce1219c3f76b-cc54ec56d822.txt
 
---===============1392069752216164600==
+--===============7598794164078603174==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -395,4 +395,4 @@ ba0925c34e0fa6fe02d3d642bc02ab099ab312c7 gve: process XSK TX descriptors as part
 de63ac44a527b2c5067551dbd70d939fe151325a gve: fix XDP allocation path in edge cases
 cc54ec56d822d4e4bfe16b6d1d85e8122fad1f67 Merge branch 'gve-xdp-fixes'
 
---===============1392069752216164600==--
+--===============7598794164078603174==--
