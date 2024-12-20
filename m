@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Fri, 20 Dec 2024 23:20:20 -0000
-Message-Id: <173473682002.64635.17301614782312120361@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
+Date: Fri, 20 Dec 2024 23:22:39 -0000
+Message-Id: <173473695908.65941.7620051339518719859@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
+user: frederic
 changes:
-  - ref: refs/heads/dev
-    old: 54c05449fb97c1414c85c6e2e58a7d0c53827acd
-    new: 61a0b92b3a3cfef69e3848806e51d1b99a9e9406
+  - ref: refs/heads/cpuidle/polling-v2
+    old: 392f31dc16a3051efbbb05d969e477dfb87975c4
+    new: dc1877bbcfb9d2a683783ff579e310d7e5f3a75f
     log: |
-         4a51d15a117e2740f4e8409a0edcffa54beac56e rcu-tasks: Move RCU Tasks self-tests to core_initcall()
-         61a0b92b3a3cfef69e3848806e51d1b99a9e9406 EXP hrtimers: No-op enqueue_hrtimer_offline() if !HOTPLUG_CPU
+         e1ecd926b8a44e5bd3f8dde2fba23217058ed53a x86/cpuidle: Move buggy mwait implementations away from CPUIDLE_FLAG_MWAIT
+         ec6c09dd9c266d73018fb6f340d27d3fd67c8f26 cpuidle: Handle TIF_NR_POLLING on behalf of CPUIDLE_FLAG_MWAIT states
+         81c86628afc3254acadf49c7c388a7a9c3eed4bc cpuidle: Remove call_cpuidle_s2idle()
+         dc1877bbcfb9d2a683783ff579e310d7e5f3a75f cpuidle: Handle TIF_NR_POLLING on behalf of software polling idle states
          
