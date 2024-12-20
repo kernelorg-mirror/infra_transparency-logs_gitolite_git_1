@@ -1,77 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============6736771208307668184=="
+Content-Type: multipart/mixed; boundary="===============1926586615970132566=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 20 Dec 2024 16:43:23 -0000
-Message-Id: <173471300319.3925108.5085163333164254102@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
+Date: Fri, 20 Dec 2024 16:45:44 -0000
+Message-Id: <173471314460.3928123.703436799783625845@gitolite.kernel.org>
 
---===============6736771208307668184==
+--===============1926586615970132566==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/sashal/linus-next
+user: sashal
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 5bcc8bfe841b29f7d62f4bb7738bb085ecc51aad
-    new: e62fedef0aa51134b6848951dcd007fd9338705a
-    log: revlist-5bcc8bfe841b-e62fedef0aa5.txt
+  - ref: refs/heads/linus-next
+    old: cea9b08c8ec9d3d99470128040cc3009e1b9b649
+    new: 4020c5afbd69ef0496aa17b50a248083bdaae2a3
+    log: revlist-cea9b08c8ec9-4020c5afbd69.txt
 
---===============6736771208307668184==
+--===============1926586615970132566==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-cea9b08c8ec9-4020c5afbd69.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1734713026 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1734712996-550fa4edc449b2f466416043090ff50043e7c39f
+8644b48714dca8bf2f42a4ff8311de8efc9bd8c3 thunderbolt: Add support for Intel Panther Lake-M/P
+e34f1717ef0632fcec5cb827e5e0e9f223d70c9b thunderbolt: Don't display nvm_version unless upgrade supported
+fdad4fb7c506bea8b419f70ff2163d99962e8ede USB: serial: option: add TCL IK512 MBIM & ECM
+724d461e44dfc0815624d2a9792f2f2beb7ee46d USB: serial: option: add MeiG Smart SLM770A
+aa954ae08262bb5cd6ab18dd56a0b58c1315db8b USB: serial: option: add Netprisma LCUK54 modules for WWAN Ready
+f07dfa6a1b65034a5c3ba3a555950d972f252757 USB: serial: option: add MediaTek T7XX compositions
+8366e64a4454481339e7c56a8ad280161f2e441d USB: serial: option: add Telit FE910C04 rmnet compositions
+24740385cb0d6d22ab7fa7adf36546d5b3cdcf73 thunderbolt: Improve redrive mode handling
+59275b763306877a275563f89834cad88131d7e5 Merge tag 'usb-serial-6.13-rc3' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
+e21ebe51af688eb98fd6269240212a3c7300deea xhci: Turn NEC specific quirk for handling Stop Endpoint errors generic
+b9252f80b807801056e67e3a672fb1be0ecb81d8 usb: xhci: fix ring expansion regression in 6.13-rc1
+020b40f3562495f3c703a283ece145ffec19e82d io_uring: make ctx->timeout_lock a raw spinlock
+26fff8a4432ffd03409346b7dae1e1a2c5318b7c block/bdev: use helper for max block size check
+51588b1b77b65cd0fb3440f78f37bef7178a2715 nvme: use blk_validate_block_size() for max LBA check
+224749be6c23efe7fb8a030854f4fc5d1dd813b3 block: Revert "block: Fix potential deadlock while freezing queue and acquiring sysfs_lock"
+85672ca9ceeaa1dcf2777a7048af5f4aee3fd02b block: avoid to reuse `hctx` not removed from cpuhp callback list
+12d908116f7efd34f255a482b9afc729d7a5fb78 io_uring: Fix registered ring file refcount leak
+1b62f3cb74d2965e8f96f20241b1fe85017aa3e8 Merge tag 'thunderbolt-for-v6.13-rc4' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
+c261e4f1dd29fabab54b325bc1da8769a3998be1 io_uring/register: limit ring resizing to DEFER_TASKRUN
+dbd2ca9367eb19bc5e269b8c58b0b1514ada9156 io_uring: check if iowq is killed before queuing
+4498d3dd092195ee9f61c179b99535ad9fd68022 Merge tag 'usb-6.13-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb into linus-next
+11adbeec468e9e332f2a0a936d0875284dd0008f Merge tag 'io_uring-6.13-20241220' of git://git.kernel.dk/linux into linus-next
+4020c5afbd69ef0496aa17b50a248083bdaae2a3 Merge tag 'block-6.13-20241220' of git://git.kernel.dk/linux into linus-next
 
-5bcc8bfe841b29f7d62f4bb7738bb085ecc51aad e62fedef0aa51134b6848951dcd007fd9338705a refs/heads/driver-core-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdlnsIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VgIP/23O8cjqO5bpEY+1V+mV
-rVMP5jRBLKI69/IQPWOXiMNkXlAi+X7JkjGCqSlW2PksoH8Ykr50oQ0l4w/oEPW8
-oMWSJwtL+oB6tCWq6iqIyO9ZdW1CHR4+miq0ty+FkdJW0/pyVEfzWEI6Vp0w11NH
-syBkCPtOLUm76gKXl+zI0SiWVVd8Wp+l4iL+yvoFOVbm9Q8aKizj9vldbjlkXSOb
-Gl0kv5SESYSOJmz5H77mZG4Ae3Mnhl5u2ZFItsZs4Y48mBAb7SJ+0RehnEmsYL1d
-Y2YClUPLwJAn7SGPJb+qsXeXwVS0X9/tGCGL0333iF7GlEzQDfVdknVMjj2uVBkF
-ymI5QkQ+V5RpXNEyAn21BeJA606XiN+57CNRQXHeiOFe9Z0ee7InuVswW9EMkuna
-jgQLXTsjDGYEtslClbrfFj4YsYE6HUaIUDn50Amx83ReagTAB5+DpnIkLhA57vUI
-F84DCpEE/eQZ5x2h0/8cEN0myS/aOR2MEXWpEa822eYzdixiZBQ7IQ1oO3gJmJ87
-jd++Wj8zlMjs8HcdQ4cDCTG7s87NQNbO9mdSJqLvES1Mi5o7eu0DqJuPvxDChUfb
-nEef58rTa/OAQ0t/nhqz0gLS1Q1CTyWeuteAfgLRrjLVvK1sfLYOQ27xH74NuVqH
-cT2o3p0kNH28uFacyLvduROf
-=PhWN
------END PGP SIGNATURE-----
-
---===============6736771208307668184==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5bcc8bfe841b-e62fedef0aa5.txt
-
-a790265c7f663c382ac25ecb841e241a023f0590 rust: module: add trait `ModuleMetadata`
-ea7e18289f44b0aa597026f16e7f4f6daa0f13ee rust: implement generic driver registration
-9b90864bb42befdc10fa5c60dd1d8033c8535726 rust: implement `IdArray`, `IdTable` and `RawDeviceId`
-51158207294108898e5b72bb78fa51a7e848844f rust: add rcu abstraction
-2d3bf6ffe26439444b55dd5af7b06d1aca3a042d rust: types: add `Opaque::pin_init`
-0494d9c82b0c722d8ce2af7dc5f92be6aef4625b rust: add `Revocable` type
-ce30d94e6855a4f6dc687f658e63c225fcc1d690 rust: add `io::{Io, IoRaw}` base types
-76c01ded724bfb464878e22c89f7ecce26f5d50e rust: add devres abstraction
-1bd8b6b2c5d38d9881d59928b986eacba40f9da8 rust: pci: add basic PCI device / driver abstractions
-bf9651f84b4e49ca006fd8b5534f16a38dae875c rust: pci: implement I/O mappable `pci::Bar`
-685376d18e9ae2f08ab6ac36285dc3a949c8cb77 samples: rust: add Rust PCI sample driver
-bbe3b4d1580dac8ea0e1451e38d1be9590a89ddc rust: of: add `of::DeviceId` abstraction
-7a718a1f26d1697465f0f4e402a69e29d6c4dd33 rust: driver: implement `Adapter`
-683a63befc7385bf7f19ba30fc0b4b14961114c5 rust: platform: add basic platform device / driver abstractions
-b2e8a83242c0b8d5d382a1aeceed18aa9bcb9a00 samples: rust: add Rust platform sample driver
-e62fedef0aa51134b6848951dcd007fd9338705a MAINTAINERS: add Danilo to DRIVER CORE
-
---===============6736771208307668184==--
+--===============1926586615970132566==--
