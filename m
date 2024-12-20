@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Fri, 20 Dec 2024 00:00:03 -0000
-Message-Id: <173465280391.3114858.15432440297593982660@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Fri, 20 Dec 2024 00:00:25 -0000
+Message-Id: <173465282576.3115315.14458511137872394968@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
-user: sre
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/for-next
-    old: 21096800c5ac634a9fbbac21505bfd798163b390
-    new: de68987480cb92702eab14cf62ec2aa1bae5c867
+  - ref: refs/heads/master
+    old: e2d69c80af1c289fffa78e594f14e382da7ffd15
+    new: 17f93177d14469112ae8cefb9f230e24b4470349
     log: |
-         04d9741493e7a1d17d2109f4c9ea21f3314666b4 power: supply: Use power_supply_external_power_changed() in __power_supply_changed_work()
-         0a219d6fd7ab89177a6fa49539def43694154d50 dt-bindings: power: supply: gpio-charger: add support for default charge current limit
-         de68987480cb92702eab14cf62ec2aa1bae5c867 power: supply: gpio-charger: add support for default charge current limit
+         17f93177d14469112ae8cefb9f230e24b4470349 foo
          
