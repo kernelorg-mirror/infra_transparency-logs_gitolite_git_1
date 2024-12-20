@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
-Date: Fri, 20 Dec 2024 22:37:19 -0000
-Message-Id: <173473423908.28373.4549221334397429064@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Fri, 20 Dec 2024 22:44:46 -0000
+Message-Id: <173473468639.34109.13061583274292040182@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/hkml
-user: sj
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 27f57a8c1a63be5ecb10d9d0765dce537396eed4
-    new: 655d7c9dc1abf365a13dd260937bc4c41232abde
+  - ref: refs/heads/acpi-eventlog
+    old: 65780fea9b41eaf6932b3259aeb04b4a814fda7e
+    new: 1adcf35dd3b70007286a3d622c05c461568d269b
     log: |
-         0c28ec9f398c36d9ba524315adea0b20afd59727 hkml_view_text: Handling Malformed Git Hunks
-         655d7c9dc1abf365a13dd260937bc4c41232abde tests/test_hkml_view_text: Malformed Hunk Test Cases
+         1adcf35dd3b70007286a3d622c05c461568d269b tpm: Map the ACPI provided event log
          
