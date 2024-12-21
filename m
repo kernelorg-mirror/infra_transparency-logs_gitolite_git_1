@@ -1,26 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sat, 21 Dec 2024 18:13:11 -0000
-Message-Id: <173480479195.971927.8396378827154824159@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5122292820894926266=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 21 Dec 2024 18:54:55 -0000
+Message-Id: <173480729564.1004151.8938447001040461579@gitolite.kernel.org>
+
+--===============5122292820894926266==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/nfsd-6.6.y
-    old: 48a97c12531a813a484f3e43da4fb1fdbdc8dd62
-    new: b454a052a66791bd553612e5d6d7110a522e8eb8
-    log: |
-         025fd78c006db4014ac41abae15d127760c5e064 libfs: Add simple_offset_empty()
-         35fc2f55f70a2da25ab10e2c7314f721f7c56dc8 libfs: Fix simple_offset_rename_exchange()
-         2fb95591a45a2ca63065dedfa2804ff7d89bd2d7 libfs: Add simple_offset_rename() API
-         5c16661283b2c04429a54780e78d941b4f52b477 shmem: Fix shmem_rename2()
-         6a1ab87b91ee67e39e9cd050a436c2c3b6aa2454 libfs: Return ENOSPC when the directory offset range is exhausted
-         c3d2abf116907abaae849aa66a94facd07a74ddc Revert "libfs: Add simple_offset_empty()"
-         d53033489f60a1669912b16e03b281ef3d1d031e libfs: Replace simple_offset end-of-directory detection
-         b454a052a66791bd553612e5d6d7110a522e8eb8 libfs: Use d_children list to iterate simple_offset directories
-         
+  - ref: refs/heads/master
+    old: baa172c77ac52b2058ba3abae7512b7b16d0c461
+    new: a99b4a369a5495dbb625e1dfb5cd7a5ff6ba4bd5
+    log: revlist-baa172c77ac5-a99b4a369a54.txt
+
+--===============5122292820894926266==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-baa172c77ac5-a99b4a369a54.txt
+
+919bfa9b2dbf3bc0c478afd4e44445836381dacb cpufreq/amd-pstate: Detect preferred core support before driver registration
+50a062a7620051c09adacd6d140ebd56881a333b cpufreq/amd-pstate: Store the boost numerator as highest perf again
+2993b29b2a98f2bc9d55dfd37ef39f56a2908748 cpufreq/amd-pstate: Use boost numerator for upper bound of frequencies
+65c8c78cc74d5bcbc43f1f785a004796a2d78360 thermal/thresholds: Fix uapi header macros leading to a compilation error
+4feaedf7d243f1a9af36dfb2711a5641fe3559dc thermal/thresholds: Fix boundaries and detection routine
+05648c2f58b3da82d304e7a449101a4545472836 Merge tag 'amd-pstate-v6.13-2024-12-11' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/superm1/linux
+0674188f2f4d38d74aa863f17373d76256f2ed09 ACPI: EC: Enable EC support on LoongArch by default
+3202ca221578850f34e0fea39dc6cfa745ed7aac PCI: Honor Max Link Speed when determining supported speeds
+774c71c52aa487001c7da9f93b10cedc9985c371 PCI/bwctrl: Enable only if more than one speed is supported
+5100b6f9e7bfc520e8129a5042a4bdd7dd486df6 Merge tag 'acpi-6.13-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+be6bb3619eeda0cd3a52ead9e63c5795ac87f0c5 Merge tag 'thermal-6.13-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+78b1346123bbd66060432994c28a7ca390b7e0cd Merge tag 'pm-6.13-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+a99b4a369a5495dbb625e1dfb5cd7a5ff6ba4bd5 Merge tag 'pci-v6.13-fixes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
+
+--===============5122292820894926266==--
