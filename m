@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Sat, 21 Dec 2024 22:12:55 -0000
-Message-Id: <173481917588.1160896.13816849326493756815@gitolite.kernel.org>
+Date: Sat, 21 Dec 2024 22:13:05 -0000
+Message-Id: <173481918580.1161100.803473209362866199@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12/baseline-6.12.6
-    old: 59907617c75b5bd186a646d97f0892654c81aca2
-    new: 9649ddfe72e58b7007599a172490bc1f64c4773c
+  - ref: refs/heads/kernel-6.12/nfs-6.12.6
+    old: a9497e687afcfe0aa73934e6b098c6e9368f6574
+    new: 337dcef7827026f2c705f5c603f41fdc34737ee2
     log: |
          c42164643867c3e3a10f6a8ccebc2837f0feec13 redhat: remove fedora configs and files
          0aa9d499c4ffa358621c568cc1194b91a855e68d redhat/spec: Add libxml2-devel dependency for selftests build
@@ -23,4 +23,5 @@ changes:
          7a4bdd6e5b20d701acb20474b3966c5c9893e408 New config item for 6.12.5
          525edae4dd905dd19be69a0e520f8484ca2a70b5 Reset RHEL_RELEASE for 6.12.y
          9649ddfe72e58b7007599a172490bc1f64c4773c kernel-6.12.6-baseline
+         337dcef7827026f2c705f5c603f41fdc34737ee2 Merge remote-tracking branch 'snitzer/nfs-localio-for-next' into kernel-6.12/nfs-6.12.6
          
