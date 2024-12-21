@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0087769121590460040=="
+Content-Type: multipart/mixed; boundary="===============5809160763423167598=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sat, 21 Dec 2024 08:22:38 -0000
-Message-Id: <173476935869.501784.11506877780857796542@gitolite.kernel.org>
+Date: Sat, 21 Dec 2024 08:22:43 -0000
+Message-Id: <173476936397.501936.3851762449054459249@gitolite.kernel.org>
 
---===============0087769121590460040==
+--===============5809160763423167598==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8
+  - ref: refs/heads/usb-linus
+    old: 1b62f3cb74d2965e8f96f20241b1fe85017aa3e8
     new: 499551201b5f4fd3c0618a3e95e3d0d15ea18f31
-    log: revlist-78d4f34e2115-499551201b5f.txt
+    log: revlist-1b62f3cb74d2-499551201b5f.txt
 
---===============0087769121590460040==
+--===============5809160763423167598==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1734769346 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1734769352 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1734769357-c22b9beec3575f6417659394e2962ea24359a59c
+nonce 1734769361-dc0de5ed2c6dad7d9b9f8628d1589d709b08051b
 
-78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8 499551201b5f4fd3c0618a3e95e3d0d15ea18f31 refs/heads/main
+1b62f3cb74d2965e8f96f20241b1fe85017aa3e8 499551201b5f4fd3c0618a3e95e3d0d15ea18f31 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdmesMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cZQQAMOL6HxULMheE7Dsy1zA
-ZRnAqr1HnciRJcL5x2hjXRmBxtTH4rdKPqs8N0PDw1VwQW6J8T+D3Ebn71Fc6Ezw
-Fj1KpcY6ieHO2k04n7c/0CRKvmQPDmoBA7EjS7TGlRFjPSg/Eq/uRu86BV5X62zU
-/h7Oky8JD+D8AADEpYsU+CYd7goizrB3CYLv4NJrVFI9k1cDW5d6mVyBWDzJOb1f
-VA1LNRueSbDY8aD9vXjf1c8pvIjrxpA9jHr54U5V3iMaAdoW3tcrL/HQOYimoDGZ
-KMf9T5qTfMvv6K0mgBVc4p95yrS0iB/CwvXnTeFBtLRyHf/tO+y7CPWWu1gXJrVb
-ns9d0avBq7snhxCQwQA6JpwCWeo3FoM5h2yBG98mB562nvByiFtx3rT7aDfU/cXz
-+kYCUgnDdLVSxW6DLwfNqhHJygEMZNFUGKqsHIeYghaSO2FhUXme4TDCkhoFFogL
-HQQXdKSdeQoB9xIsMMHaL0j8jLCZEytrH0d+UmoDt6HiDvGi+9WJIL9IbxOrwJ6G
-URV0dxGUi3x2qV7QrQDibpX7S2SGjf2QUuniPsoZPX1ihuvMQfcLXdiaQ+Qb8z9b
-jCxevIU9pZz4YNBcaaHmtkAnBI1+44ZUpeeJZWIHlwi7NezrTT26xiINi18Cfz2t
-13gvCU0x3o8NQPtylydZg33G
-=zUf2
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdmesgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xSEQALJGvZPAiZfa+1oVhQD5
+F5BawqpFBBdLOgqyuCddv1uL+Ff/s5i37+We5ebnv2Vr1vRheS9rtCOVw+4YMYHM
+DV7T9gOJgczJygCR8+sLOXGbHWCWZouZOLJX12CqxukRIt1g/zJI02hSSsEat56K
+t2bxj/zw53qJY+IpKPxZ9bDSybGUJRWFqVYujCFtswz7CIZGvnh4DZ4Fl6W+Zkuy
+DCWAI7ahU7YbA+3kZ39xAoNV2HKUKw5PvmkLU6NMfG1o/9Up7cTYDzjLecnS+kMy
+rmVa8mE9KDb+N1LCETOE9n/tsseV7c58BcmVHIwrryh5V9UFjA/rZNT6cn3UfDv4
+n3SgC2340w6ZxlhnjiMu3jBgv2jnd4b86/KBP/QtWdlmULPmpPwZqQs0WDrOhblA
+cMXzS8qEP621eHQwrhROhQyPj0sZ5yu956qdk3CJdsy5mei18/31UkS43dmQsK2x
+DbZKNR2YH51YFskcGRyVvawagFOKc7wbYUlQQJ0YCWjXa0dC544MtBf5b5PU6dLw
+ZahoSGE3HbSxvlEFB0nOAaTUIY+JrsFlqCDPrR1HlpiT8D9etNUHUCvw24dsCcwd
+Z9ABRtIw0b12X7JqKol0t2djmE/4FyeI8ZtPjBIRA9IA/NEpNwXalOXK74DqXAbP
+piEnlhJ3joAnd1MCgiMfcSQx
+=GinU
 -----END PGP SIGNATURE-----
 
---===============0087769121590460040==
+--===============5809160763423167598==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-78d4f34e2115-499551201b5f.txt
+Content-Disposition: attachment; filename=revlist-1b62f3cb74d2-499551201b5f.txt
 
 514b2262ade48a0503ac6aa03c3bfb8c5be69b21 firmware: arm_scmi: Fix i.MX build dependency
 6fe437cfe2cdc797b03f63b338a13fac96ed6a08 firmware: arm_ffa: Fix the race around setting ffa_dev->properties
@@ -73,7 +73,6 @@ a9640fcdd400463442846677e62b8208b81cb031 tools/hv: terminate fcopy daemon if rea
 a4d024fe2e77063069c5f423f2f9be766450f0f9 tools/hv: reduce resouce usage in hv_get_dns_info helper
 becc7fe329c09a7744fa908fca83418fa94a45a0 tools/hv: add a .gitignore file
 175c71c2aceef173ae6d3dceb41edfc2ac0d5937 tools/hv: reduce resource usage in hv_kvp_daemon
-8644b48714dca8bf2f42a4ff8311de8efc9bd8c3 thunderbolt: Add support for Intel Panther Lake-M/P
 efb113fc30e7b805f7375d269b93bb4593d11d97 drm: rework FB_CORE dependency
 c1043cdb019ed4d053d673e62b553a5cea1a287d alienware-wmi: Fix X Series and G Series quirks
 54a8cada2f3d7efb4a7920807473d89c442d9c45 alienware-wmi: Adds support to Alienware m16 R1 AMD
@@ -88,12 +87,6 @@ da4d8c83358163df9a4addaeba0ef8bcb03b22e8 cxl/pci: Fix potential bogus return val
 09ceba3a93450b652ae6910b6f65be99885f4437 cxl/pci: Check dport->regs.rcd_pcie_cap availability before accessing
 76467a94810c2aa4dd3096903291ac6df30c399e cxl/region: Fix region creation for greater than x2 switches
 2872e21c47c359b902e53faf7e749c8ea682f7f7 MAINTAINERS: align Danilo's maintainer entries
-e34f1717ef0632fcec5cb827e5e0e9f223d70c9b thunderbolt: Don't display nvm_version unless upgrade supported
-fdad4fb7c506bea8b419f70ff2163d99962e8ede USB: serial: option: add TCL IK512 MBIM & ECM
-724d461e44dfc0815624d2a9792f2f2beb7ee46d USB: serial: option: add MeiG Smart SLM770A
-aa954ae08262bb5cd6ab18dd56a0b58c1315db8b USB: serial: option: add Netprisma LCUK54 modules for WWAN Ready
-f07dfa6a1b65034a5c3ba3a555950d972f252757 USB: serial: option: add MediaTek T7XX compositions
-8366e64a4454481339e7c56a8ad280161f2e441d USB: serial: option: add Telit FE910C04 rmnet compositions
 220326c4650a0ef7db3bfcae903f758555ecb973 platform/x86: touchscreen_dmi: Add info for SARY Tab 3 tablet
 6c0a473fc5f89dabbed0af605a09370b533aa856 platform/x86/intel/ifs: Add Clearwater Forest to CPU support list
 83848e37f6ee80f60b04139fefdfa1bde4aaa826 platform/x86/intel/vsec: Add support for Panther Lake
@@ -139,11 +132,9 @@ cb85f2b8973c8077749fb5618c5123c1ba166a70 Merge branch 'ionic-minor-code-fixes'
 83c47d9e0ce79b5d7c0b21b9f35402dbde0fa15c ksmbd: count all requests in req_running counter
 43fb7bce8866e793275c4f9f25af6a37745f3416 ksmbd: fix broken transfers when exceeding max simultaneous operations
 fe4ed2f09b492e3507615a053814daa8fafdecb1 ksmbd: conn lock to serialize smb2 negotiate
-24740385cb0d6d22ab7fa7adf36546d5b3cdcf73 thunderbolt: Improve redrive mode handling
 7b00af2c5414dc01e0718deef7ead81102867636 erofs: use `struct erofs_device_info` for the primary device
 f8d920a402aec3482931cb5f1539ed438740fc49 erofs: reference `struct erofs_device_info` for erofs_map_dev
 6422cde1b0d5a31b206b263417c1c2b3c80fe82c erofs: use buffered I/O for file-backed mounts by default
-59275b763306877a275563f89834cad88131d7e5 Merge tag 'usb-serial-6.13-rc3' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
 dc690bc256edd9da6596fccf978327309173f44a Merge tag 'platform-drivers-x86-v6.13-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 f44d154d6e3d633d4c49a5d6aed8a0e4684ae25e Merge tag 'soc-fixes-6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 cc252bb592638e0f7aea40d580186c36d89526b8 fgraph: Still initialize idle shadow stacks when starting
@@ -168,8 +159,6 @@ b1c2cb86f4a7861480ad54bb9a58df3cbebf8e92 x86/xen: use new hypercall functions in
 abcc2ddae5f82aa6cfca162e3db643dd33f0a2e8 i915/guc: Reset engine utilization buffer before registration
 59a0b46788d58fdcee8d2f6b4e619d264a1799bf i915/guc: Ensure busyness counter increases motonically
 1622ed27d26ab4c234476be746aa55bcd39159dd i915/guc: Accumulate active runtime on gt reset
-e21ebe51af688eb98fd6269240212a3c7300deea xhci: Turn NEC specific quirk for handling Stop Endpoint errors generic
-b9252f80b807801056e67e3a672fb1be0ecb81d8 usb: xhci: fix ring expansion regression in 6.13-rc1
 7d2f320e12744e5906a4fab40381060a81d22c12 net: ethernet: oa_tc6: fix infinite loop error when tx credits becomes 0
 e592b5110b3e9393881b0a019d86832bbf71a47f net: ethernet: oa_tc6: fix tx skb race condition between reference pointers
 90d130aadce1592f6f2dc0cfecfc9502bbd6f5c0 Merge branch 'fixes-on-the-open-alliance-tc6-10base-t1x-mac-phy-support-generic-lib'
@@ -243,7 +232,6 @@ e9088ac19e87ceb8b739877c3b6c29a67f7cf19a Merge tag 'drm-intel-fixes-2024-12-18' 
 572af9f284669d31d9175122bbef9bc62cea8ded net: mdiobus: fix an OF node reference leak
 ce1219c3f76bb131d095e90521506d3c6ccfa086 net: mctp: handle skb cleanup on sock_queue failures
 13221496065fa12fac4f8a8e725444679ffddb78 regulator: rename regulator-uv-survival-time-ms according to DT binding
-1b62f3cb74d2965e8f96f20241b1fe85017aa3e8 Merge tag 'thunderbolt-for-v6.13-rc4' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
 4b2efb9db0c22a130bbd1275e489b42c02d08050 accel/ivpu: Fix general protection fault in ivpu_bo_list()
 6c9ba75f147b24b5c59aac7356a38a0fef664afa accel/ivpu: Fix memory leak in ivpu_mmu_reserved_context_init()
 0f6482caa6acdfdfc744db7430771fe7e6c4e787 accel/ivpu: Fix WARN in ivpu_ipc_send_receive_internal()
@@ -267,4 +255,4 @@ e9b8ffafd20ad21357a789cc58ffaa162b3ad074 Merge tag 'usb-6.13-rc4' of git://git.k
 d74276290cf92bc16d129fc38883ab448128048c Merge tag 'hwmon-for-v6.13-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
 499551201b5f4fd3c0618a3e95e3d0d15ea18f31 Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 
---===============0087769121590460040==--
+--===============5809160763423167598==--
