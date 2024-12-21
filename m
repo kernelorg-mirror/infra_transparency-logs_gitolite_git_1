@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Sat, 21 Dec 2024 03:27:29 -0000
-Message-Id: <173475164915.266402.222619168124238616@gitolite.kernel.org>
+Date: Sat, 21 Dec 2024 03:28:14 -0000
+Message-Id: <173475169406.266941.11819584418721765618@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12/localio-6.12.6
+  - ref: refs/tags/snitm-kernel-6.12-localio
     old: 31c6e3cbde08c1233ed1183e0e804d0e3bff5254
     new: e5eec40fff1fb2211d9f36f5866c70c4233d8908
     log: |
