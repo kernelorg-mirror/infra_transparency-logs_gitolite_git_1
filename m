@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Sat, 21 Dec 2024 02:58:04 -0000
-Message-Id: <173474988406.241869.13771963684515046460@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Sat, 21 Dec 2024 03:06:46 -0000
+Message-Id: <173475040676.249567.17424187324451114353@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/kernel-6.12/baseline-6.12.6
-    old: a7292fa14a7832b1448a2adce4912cbb5ba7acaa
-    new: e09e958d4206e6c0e6bee68e5f41bc2e1cd28693
+  - ref: refs/heads/acpi-eventlog
+    old: 8c42ca074fd055fdf7001490275717693d1d0fe5
+    new: b512de594cdc85c653a72a43ee18426ebcb41592
     log: |
-         e09e958d4206e6c0e6bee68e5f41bc2e1cd28693 redhat: remove fedora configs and files
+         b512de594cdc85c653a72a43ee18426ebcb41592 tpm: Map the ACPI provided event log
          
