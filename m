@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4061242059804523212=="
+Content-Type: multipart/mixed; boundary="===============2924987743732463989=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sat, 21 Dec 2024 05:38:58 -0000
-Message-Id: <173475953872.375042.13896832767505386475@gitolite.kernel.org>
+Date: Sat, 21 Dec 2024 05:39:09 -0000
+Message-Id: <173475954998.375260.17552099623801544813@gitolite.kernel.org>
 
---===============4061242059804523212==
+--===============2924987743732463989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: 8f2db654f79c7fa579c64eda2b5db44553d6e513
     new: 2408b872458e8a9cd9e01971f4e89e2fb836ed16
     log: revlist-8f2db654f79c-2408b872458e.txt
 
---===============4061242059804523212==
+--===============2924987743732463989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ ef13154e2c1a9e36036ef63af18945be135b7f26 kheaders: exclude include/generated/uts
 abfc3c188447aed138d8060482fc42bb7ebc47ee kheaders: use 'tar' instead of 'cpio' for copying files
 2408b872458e8a9cd9e01971f4e89e2fb836ed16 kheaders: prevent `find` from seeing perl temp files
 
---===============4061242059804523212==--
+--===============2924987743732463989==--
