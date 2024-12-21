@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Sat, 21 Dec 2024 03:28:14 -0000
-Message-Id: <173475169406.266941.11819584418721765618@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 21 Dec 2024 03:32:48 -0000
+Message-Id: <173475196819.271040.18312464608764586067@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/tags/snitm-kernel-6.12-localio
-    old: 31c6e3cbde08c1233ed1183e0e804d0e3bff5254
-    new: e5eec40fff1fb2211d9f36f5866c70c4233d8908
+  - ref: refs/heads/master
+    old: aa1dea861cba1d12850fe0707113a2a2b22446d1
+    new: f7e3bfbba29c4a9ea6fd6991007aac460b5c0757
     log: |
-         e09e958d4206e6c0e6bee68e5f41bc2e1cd28693 redhat: remove fedora configs and files
-         f049ae96b50412145b9a86300346d5c5ed5ce327 redhat/spec: Add libxml2-devel dependency for selftests build
-         2ec509b89215968e85c5023a9d286d97e55f3e32 RHEL: disable the btt driver
-         e5eec40fff1fb2211d9f36f5866c70c4233d8908 Merge remote-tracking branch 'snitzer/nfs-localio-for-next' into kernel-6.12/localio-6.12.6
+         c4a9f9c5dda8590f52c08356be8047d5459e22f5 Fixes for 6.12
+         6a1f569518ec52fb8d6909dc17561c889058f7bb Fixes for 6.6
+         f7e3bfbba29c4a9ea6fd6991007aac460b5c0757 Fixes for 6.1
          
