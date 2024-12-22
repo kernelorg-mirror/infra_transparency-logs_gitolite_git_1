@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Sun, 22 Dec 2024 21:07:40 -0000
-Message-Id: <173490166078.2238327.536721387221915465@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
+Date: Sun, 22 Dec 2024 21:20:54 -0000
+Message-Id: <173490245425.2250445.4691457924958829633@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: kwilczynski
+repo: pub/scm/utils/kernel/kmod/kmod
+user: demarchi
 changes:
-  - ref: refs/heads/controller/rockchip
-    old: 1f82404de0fd5252ea418b00ec435947fde81c61
-    new: 220bd83f9da19e862e6c230fff78d3e1219990bd
+  - ref: refs/heads/master
+    old: ccc26d6bf4ef4db9f4fcca3419f90ec0ccc65f88
+    new: ad689ac6b7d3873e7239b9e78e7a768bdf63e397
     log: |
-         191b732176e7a0af0f5d42a220ea10065306f1cd PCI: dw-rockchip: Enumerate endpoints based on dll_link_up IRQ in the combined sys IRQ
-         220bd83f9da19e862e6c230fff78d3e1219990bd PCI: rockchip: Add missing fields descriptions for struct rockchip_pcie_ep
+         ad689ac6b7d3873e7239b9e78e7a768bdf63e397 lsmod: Simplify code
          
