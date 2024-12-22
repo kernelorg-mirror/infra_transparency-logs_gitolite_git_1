@@ -1,66 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3593108472901183793=="
+Content-Type: multipart/mixed; boundary="===============2070664714211867099=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Sun, 22 Dec 2024 14:53:52 -0000
-Message-Id: <173487923282.1943463.5997970272962129548@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-w1
+Date: Sun, 22 Dec 2024 14:53:54 -0000
+Message-Id: <173487923444.1943524.9641831102638429668@gitolite.kernel.org>
 
---===============3593108472901183793==
+--===============2070664714211867099==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
+repo: pub/scm/linux/kernel/git/krzk/linux-w1
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/for-next
-    old: c6f4d09b4d998b3892390f88b95d1b09b510aeae
-    new: 11c9daa276bbcdf1fc3923f7f0c040e9c8029fdb
+  - ref: refs/heads/w1-next
+    old: 0f28374e99a46bfb5ece60af0791ccc840a6aa89
+    new: 419a40cc2bdda0eadd643de55b70f212354761a2
     log: |
-         698be6fe8f89b5edf533a85fba7258339c8b72d6 arm64: dts: exynos: Add Exynos9810 SoC support
-         63da297f0303c39025172cccafca7b55b169ec3c arm64: dts: exynos: Add initial support for Samsung Galaxy S9 (SM-G960F)
-         11c9daa276bbcdf1fc3923f7f0c040e9c8029fdb Merge branch 'next/dt64' into for-next
-         
-  - ref: refs/heads/next/dt64
-    old: 11fd6c9b047c30c72dcea3f79c0acb7deb69c822
-    new: 63da297f0303c39025172cccafca7b55b169ec3c
-    log: |
-         698be6fe8f89b5edf533a85fba7258339c8b72d6 arm64: dts: exynos: Add Exynos9810 SoC support
-         63da297f0303c39025172cccafca7b55b169ec3c arm64: dts: exynos: Add initial support for Samsung Galaxy S9 (SM-G960F)
+         419a40cc2bdda0eadd643de55b70f212354761a2 w1: core: use sysfs_emit() instead of sprintf()
          
 
---===============3593108472901183793==
+--===============2070664714211867099==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1734879260 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1734879230-3efd6e84c2bb6ecc03e5b788587b3656f2920491
+pusher krzk@kernel.org 1734879261 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-w1.git
+nonce 1734879232-af1ee6b804e52a2453d3c59a2e7249c3c1e3012f
 
-c6f4d09b4d998b3892390f88b95d1b09b510aeae 11c9daa276bbcdf1fc3923f7f0c040e9c8029fdb refs/heads/for-next
-11fd6c9b047c30c72dcea3f79c0acb7deb69c822 63da297f0303c39025172cccafca7b55b169ec3c refs/heads/next/dt64
+0f28374e99a46bfb5ece60af0791ccc840a6aa89 419a40cc2bdda0eadd643de55b70f212354761a2 refs/heads/w1-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmdoKBwQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1+ELEACWkyvfIihXhfiC0gZJMHc0qN3k7etXbbZp
-prNfQIGTZzCbZqwPt9LUUKtFp9N3SRiSDNGCos8MHGpt33iRx0H0mqf5OvZjfZVr
-2egrFcaRaQ3Lq1jnRkuePv2cvNmIJwZK+WXx5WlbBeTyZiv2Ncaq1sxXsxFVP8ca
-aiN4jWRM7naMPO5lm2rvyt9eEQqbSORp2F9riNPu1BBhLK1PF3I9NvZNpBs55Niy
-zs/Uz5CZBOda9G/vRVa/OEgZ/GD1rjY9UssFnsr/0mQgaaNHrIHn43BV8OkRMnx5
-+RyVb+tHa5Apb1wlH5bpxY94FdsqVeepDMox/Z/zcIiPH53dsqC84NImhKrDQCem
-/6rTBHUcVDmCrWYUImX1TixpE8iZSgiobi501uuVXWpcnqBkAQafDEyC2ZTxahgp
-54nwQ7NZ62Eap2TMVh1jyWF4E+FRjw/waSwJFTRsFfMbXvbsxX7Oso29r1pIqe8c
-WqFuQ+xuqkxtevmGD4XEdCV55jgKJfhBoNsyWlS97UuJeqZvZrd1A9NecYcNXpCW
-+wWb2s+JwHxOON43ZkcFEHYOevyAbR66QUQ+0E+Od2K05KVaKrXoBkPjt7Xtk1c1
-1C3MLWRza7eTBmSPZvbRllpAL2ZWiylRR5a6vR4yjFp2XQLaY4rB2iGkGsWz27+j
-P4JDUWeXEA==
-=ZNR8
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmdoKB0QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD140ND/4ll4PLndY1JuiUeQy4404uy7zYBdcQj3Nd
+67YkVlKfL7CnvzcAJMg8s8aIi7u1gdH//5L7W/GfavHNu1wIAzW2rnDiHkR3bJE3
+WPD/xjDvSS3CDYXryjOXSooNYwoCrsx3Y49JDYINlp7sx9ASm2jcs/tIivDY08jk
+D7sPRMCrIUJKBsJSMIwG7iH2hcybBPg6+i4sOyKhKxx/aVXG+5twgWJe4BwAc2u2
+vppQE5ZiTFpdzgZzzc257Id771+5rXJCtfp31fylMBgwtQDLKiSHgx9L28x6hYsT
+/TNTfSJPz8124WBL0lMrxvakxFbLNSjqt1bBfwk9+hBkkgcjOe7WaU5xJKHXmDdx
+BoJJZeBLu222LMQo6m+H/8GjktA+4KEUC54yqSQAuOsibhByjrFw8yiWrkljvAjs
+WHruAf3MbE2xtsrkcXYnJ/WSysIqL6yQpEOzd6gqEpOaBQ4/mge2RFS0qFeKtZ7d
+f6bc1dx3rctVCuLyOjFyNiSHHCmECG2lZIfyZGLvu3mySN+lhC59K0+nfft8sfBG
+0yhQ40M7SK1fP/tcmJINJLMOLux7eKJAu9G5kI1AZgFEVFWJil9tFe/L8r4XwZ73
+XONcZZodBjpbOZ+o93XkWSI20qnQo/pXKFzHGvQDBaVr1xSCpNF1yT3irDYgwDOG
+hLMx9UyNJw==
+=E99/
 -----END PGP SIGNATURE-----
 
---===============3593108472901183793==--
+--===============2070664714211867099==--
