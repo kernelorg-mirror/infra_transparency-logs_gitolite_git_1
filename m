@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0533950558195866986=="
+Content-Type: multipart/mixed; boundary="===============7337288812741452524=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sun, 22 Dec 2024 21:54:58 -0000
-Message-Id: <173490449842.2276181.6196661532026696467@gitolite.kernel.org>
+Date: Sun, 22 Dec 2024 21:55:43 -0000
+Message-Id: <173490454379.2278150.3834285786785493793@gitolite.kernel.org>
 
---===============0533950558195866986==
+--===============7337288812741452524==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/hwmon
-    old: dd471e25770e7e632f736b90db1e2080b2171668
-    new: 4bbf9020becbfd8fc2c3da790855b7042fad455b
-    log: revlist-dd471e25770e-4bbf9020becb.txt
+  - ref: refs/heads/fixes
+    old: 0e8df6ef3b855b00e618413ce01cb68f71f91598
+    new: a2878100c96e3ff5eeeb64d0536ec94498773c58
+    log: revlist-0e8df6ef3b85-a2878100c96e.txt
 
---===============0533950558195866986==
+--===============7337288812741452524==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dd471e25770e-4bbf9020becb.txt
+Content-Disposition: attachment; filename=revlist-0e8df6ef3b85-a2878100c96e.txt
 
 bc7acc0bd0f94c26bc0defc902311794a3d0fae9 of: property: fw_devlink: Do not use interrupt-parent directly
 1a75e81baf4f1b322f3498ffd373eaada8e60589 of/unittest: Add empty dma-ranges address translation tests
@@ -140,6 +140,9 @@ d6fd6f8280f0257ba93f16900a0d3d3912f32c79 ceph: fix memory leaks in __ceph_sync_r
 9abee475803fab6ad59d4f4fc59c6a75374a7d9d ceph: improve error handling and short/overflow-read logic in __ceph_sync_read()
 66e0c4f91461d17d48071695271c824620bed4ef ceph: fix memory leak in ceph_direct_read_write()
 18d44c5d062b97b97bb0162d9742440518958dc1 ceph: allocate sparse_ext map only for sparse reads
+74d7e038fd072635d21e4734e3223378e09168d3 hwmon: (tmp513) Fix interpretation of values of Shunt Voltage and Limit Registers
+da1d0e6ba211baf6747db74c07700caddfd8a179 hwmon: (tmp513) Fix Current Register value interpretation
+dd471e25770e7e632f736b90db1e2080b2171668 hwmon: (tmp513) Fix interpretation of values of Temperature Result and Limit Registers
 239d87327dcd361b0098038995f8908f3296864f fortify: Hide run-time copy size from value range tracking
 b1f3a2f5a742c1e939a73031bd31b9e557a2d77d netdev: fix repeated netlink messages in queue dump
 ecc391a541573da46b7ccc188105efedd40aef1b netdev: fix repeated netlink messages in queue stats
@@ -333,5 +336,7 @@ bcde95ce32b666478d6737219caa4f8005a8f201 Merge tag 'devicetree-fixes-for-6.13-1'
 8afa5b10af9d748b055a43949f819d9991d63938 Merge tag 'kvm-x86-fixes-6.13-rcN' of https://github.com/kvm-x86/linux into HEAD
 b1fdbe77be6d31d78ecc2a82ea7167773293fed0 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 4bbf9020becbfd8fc2c3da790855b7042fad455b Linux 6.13-rc4
+801330b9aa3ca0a8dbf1ad277dc0b95623d89aeb locking/lockdep: Enforce PROVE_RAW_LOCK_NESTING only if ARCH_SUPPORTS_RT
+a2878100c96e3ff5eeeb64d0536ec94498773c58 ARM: imx: Re-introduce the PINCTRL selection
 
---===============0533950558195866986==--
+--===============7337288812741452524==--
