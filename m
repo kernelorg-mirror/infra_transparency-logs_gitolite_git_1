@@ -1,59 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============4183326539439141126=="
+Content-Type: multipart/mixed; boundary="===============5719059920785352168=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sun, 22 Dec 2024 06:16:29 -0000
-Message-Id: <173484818947.1538071.819689021830326597@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 22 Dec 2024 07:33:03 -0000
+Message-Id: <173485278302.1596423.12172365840203209216@gitolite.kernel.org>
 
---===============4183326539439141126==
+--===============5719059920785352168==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
-    old: f9e7f3f9620b13d76ed16399b46b29cab1a398f2
-    new: 5d4db9cf4135d82634c7f31aac73081fba3a356e
+  - ref: refs/heads/master
+    old: e3192c88564ab942b96cba27e57ba26accbc0b99
+    new: 7aafcec384bbd7e03b9a9a789d15a3b6f493e51e
     log: |
-         a99e5c8853f4b018b003641ad532059169e271a5 staging: rtl8723bs: Cleanups for rtw_inc_and_chk_continual_io_error
-         2bc2c3640039520d7cc0ea1e4c91fb0a8126fdda staging: rtl8723bs: delete DBG_RX_SIGNAL_DISPLAY_RAW_DATA ifdef code
-         716eefc88c2f784ef16395d6a3eea8670847bba4 staging: rtl8723bs: delete HAL_DEF_DBG_RX_INFO_DUMP enum and caller
-         5d4db9cf4135d82634c7f31aac73081fba3a356e staging: gpib: Replace semaphore with completion for one-time signaling
+         2b41097e7d837f65e1b575303cf6dbdf678115a1 5.4-stable patches
+         43b4a25cba65c24d954f7e1121ea87ee093eef3f 5.10-stable patches
+         dbaa5590e60555f14536616e768957f09183a14a 5.15-stable patches
+         7f090cf6fb446a378b4049ee6c09f80545884ab5 6.1-stable patches
+         f76b96c672461fa9ecf314f3bfe93a90881f9744 6.6-stable patches
+         a1ef2ec741e4cfb6d984b4c08e05fd5adb9e27f6 6.12-stable patches
+         7aafcec384bbd7e03b9a9a789d15a3b6f493e51e Merge branch 'master' of gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue
          
 
---===============4183326539439141126==
+--===============5719059920785352168==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1734848217 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1734848188-c21c0b01d811e68fde16e9c370dc71bae4b96538
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1734852810 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1734852779-39c9f65ca3dac852d70df2bd0aa395f161b20d91
 
-f9e7f3f9620b13d76ed16399b46b29cab1a398f2 5d4db9cf4135d82634c7f31aac73081fba3a356e refs/heads/staging-next
+e3192c88564ab942b96cba27e57ba26accbc0b99 7aafcec384bbd7e03b9a9a789d15a3b6f493e51e refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdnrtkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OJkP/jY1k5exFVfcJCcrJ093
-tHubIFvoozTsFccY9XKKRTmx38iallRUop0XIRqbWZNAyQbeyra3q9eEX9PnSJ6r
-wuIDIMhDQYrdHaxuszxRD1ogQFNkaBfLDlC+fsCMf7vDULx+SCn7JWsCnGlDrnVR
-AM0SYOGPARTHXAkCktkBLgTN7qeclUEskeGkQj50WJHXjqxS5RiiUBl8MkQXXux+
-FPM0a1c3W11VvfstTnElpBA4i7158dCwrtdIhKkKiV01YScnZMBGqHtxUClHlYCG
-2HqNTXKs+rTaVMSlnrDnFDfvDXML+RBYRojljRKUBePQvchZnjB+Zyv7C6/DGlbY
-c87l6XTa2u1cZFdaGfNMofuaDngLMpqnnOxrEkVizK9XWmlaJv9btxHSw923o80i
-U422bINF3YXm2M/KjPW9jEYMLIhtXPjwSOxxPoswybTuVhDxtiwrNK4+bohYSodS
-uY0kDMr5aNTMRsD4S3ufvbcYE7U2F+addMDCC83jHyr2QSqvm09bpxayxyUsERjh
-BlnBQuGNwMvHTbcd8XS/CbIlEAsbC7tPlrpplI0XKH0l+MoaebWMw+Zr6Krku5bD
-7x9b/TTtlSw017bSPiZg2PatNzs9qZS5N9O240f5/ZeWK4T+x8aTTpoWm10Vxa9h
-rDjLjK8HenhZUSdnLohU/FLf
-=FNL4
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdnwMobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+z/kP/2H3R3BtytRjk70nzSh2
+xTAEQGldbqFlWO7chUouB6r75ilqlWxJVZfil4N/c735C2eiRM63QFvaRWukLgrw
+kUuy0o6YbqPrzjIeSfdTGBaKkdEJhmTfCxDqYmiURC6t3VbucG9qe8cX7x6p4+9x
+3+bJKU6muCQt2AvaRtUio6KsxgZuQ9Rx3tO1xz4NTWT9jIXKV7weSdG+2sOZKsE2
+PLXAFlCxy0NUXj9L9llW2qFgS+qkQcC1onMxXxhXPWsSZZWk+lxkSD8lhB61DazT
+Juyde5qvPqcNgUNitrq0B/LpoGK+aZ4SIJNV/xyH6J4D5UtUK4dnqorsYHXKULYK
+5qsPj6PcVqZUB/2PgjgvSEaPAB670qLmeFlgjL2hNq9sYZH21+XFTUGFz6AL4+mH
+e4SQKu6VjBHPur89I/INPi1wPVPvj2jiH/cGPwuU3Sg+b2BRRK1ig64B/KDZPS8F
+9jsO6KjlwzM2mRlutr0gJGOTPdZcFyQyUuO4CxwoAib2GcT/NVjcAxbiFGKmHaZN
++AQQdz8r6ZqcOfdNg++JObxiwqJYfd+espYRkZxUObNpX9Tw0f9uxJbA/Amo6sSB
+zJLZEDX6CDc6CkEaHfQK6VSPsAgKzZnOEz4OrzmAKPWOTJ26DgOvfzk32T2FN08T
+3QjLIez5YRXmjlD27uZX78fC
+=dxng
 -----END PGP SIGNATURE-----
 
---===============4183326539439141126==--
+--===============5719059920785352168==--
