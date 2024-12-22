@@ -1,43 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============4535174911242897084=="
+Content-Type: multipart/mixed; boundary="===============0360412197209913740=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Sun, 22 Dec 2024 11:43:30 -0000
-Message-Id: <173486781018.1793036.3484744456069479073@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
+Date: Sun, 22 Dec 2024 13:49:54 -0000
+Message-Id: <173487539404.1890324.12136581517980921683@gitolite.kernel.org>
 
---===============4535174911242897084==
+--===============0360412197209913740==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/mkl/linux-can-next
+user: mkl
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/locking/core
-    old: abfdccd6af2b071951633e57d6322c46a1ea791f
-    new: 630a9370164c231e9e81ec66256fc3351266dcac
-    log: revlist-abfdccd6af2b-630a9370164c.txt
+  - ref: refs/heads/testing
+    old: 0ffbab46ce2c06323fa4aefdac52a89e92fa42a7
+    new: 717332f17c5c06b728d7ba00df9740c81f0d29ea
+    log: |
+         717332f17c5c06b728d7ba00df9740c81f0d29ea MAINTAINERS: assign em_canid.c additionally to CAN maintainers
+         
 
---===============4535174911242897084==
+--===============0360412197209913740==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-abfdccd6af2b-630a9370164c.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-0d3547df6934b8f9600630322799a2a76b4567d8 locking/ww_mutex/test: Use swap() macro
-e638072e61726cae363d48812815197a2a0e097f lockdep: Fix upper limit for LOCKDEP_*_BITS configs
-88a79e88a97cb9309bb48a472be2bf1316d40adc lockdep: Clarify size for LOCKDEP_*_BITS configs
-bd7b5ae26618ad2bd6f6264e2cb6c5815d323e75 lockdep: Document MAX_LOCKDEP_CHAIN_HLOCKS calculation
-8148fa2e022bae29f21bb9a2c4cc796334fd372b lockdep: Mark chain_hlock_class_idx() with __maybe_unused
-3430600925859be3c8588b8220173758c7860e8c lockdep: Move lockdep_assert_locked() under #ifdef CONFIG_PROVE_LOCKING
-9793c9bb91f1b05473bb6d4a2323a259ef00ff2e locking: MAINTAINERS: Start watching Rust locking primitives
-15abc88057eeec052aefde897df277eca2340ac6 rust: sync: Add Lock::from_raw() for Lock<(), B>
-daa03fe50ec376aeadd63a264c471c56af194e83 rust: sync: Make Guard::new() public
-37624dde4768ec25d2f9798aa75bf32e18c0eae2 rust: sync: Add MutexGuard type alias
-eb5ccb038284dc0e69822d71aafcbf7b57394aad rust: sync: Add SpinLockGuard type alias
-fbd7a5a0359bc770e898d918d84977ea61163aad rust: sync: Add lock::Backend::assert_is_held()
-630a9370164c231e9e81ec66256fc3351266dcac Merge tag 'lockdep-for-tip.20241220' of git://git.kernel.org/pub/scm/linux/kernel/git/boqun/linux into locking/core
+certificate version 0.1
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1734875418 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
+nonce 1734875389-6d4ae4aca4d6fdd118193fecb3d63ba68d581e2a
 
---===============4535174911242897084==--
+0ffbab46ce2c06323fa4aefdac52a89e92fa42a7 717332f17c5c06b728d7ba00df9740c81f0d29ea refs/heads/testing
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAABCgAxFiEEUEC6huC2BN0pvD5fKDiiPnotvG8FAmdoGRoTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRAoOKI+ei28by8GB/9BT9lyk3vn/6Cj39B61FBPsjaO9f13
+eAm4yJaaNxA6cjfFR+iMFcp8qkJ4lvuHS+MDlh4Qyg5mdIAV8PydHgzwJ+7/BJih
+uuZtfXj6Mw0OhlGJrmfPTWk2pC94XgPVZXm1yzX+XBtucDtMfgQTy7ERA38v4mj5
+fnB9YpdzRTOPfK1OoHhO/Cay5so7I4kFeXKvDQFgENA2Zax5hcFK/uNskkCs0hon
+91fNh1bZR4nnluo90ttQTH6QZhsIE1+2nOAn2ExYT+y9B0/M2xTO1Q+ykgIxiTMY
+cRYLj5Ve8u/ihatxk8DbZ9XKAeeJpqoAX6heDmM+DqWUfpuV+Q0/wJNH
+=zws9
+-----END PGP SIGNATURE-----
+
+--===============0360412197209913740==--
