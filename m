@@ -1,42 +1,66 @@
-Content-Type: multipart/mixed; boundary="===============5003215233330500494=="
+Content-Type: multipart/mixed; boundary="===============5839553408647449055=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
-Date: Sun, 22 Dec 2024 14:25:25 -0000
-Message-Id: <173487752589.1921302.11078156682697081214@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Sun, 22 Dec 2024 14:25:29 -0000
+Message-Id: <173487752991.1921479.10009332096095646877@gitolite.kernel.org>
 
---===============5003215233330500494==
+--===============5839553408647449055==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfstests-dev
-user: zlang
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
+git_push_cert_status: Y
 changes:
   - ref: refs/heads/for-next
-    old: fa0e9712283f0b8d63b58375070d609f09d7a6d9
-    new: 023070744cef1fde8a5b4fbd8fa134cd5098843e
-    log: revlist-fa0e9712283f-023070744cef.txt
+    old: 51a4b945a726c649560ebdf7a5e044f998138d53
+    new: c6f4d09b4d998b3892390f88b95d1b09b510aeae
+    log: |
+         86c0d7f230fe71952cddac9905e4c090e09ecf3c arm64: dts: exynos990: Add a PMU node for the third cluster
+         11fd6c9b047c30c72dcea3f79c0acb7deb69c822 arm64: dts: exynos850-e850-96: Specify reserved secure memory explicitly
+         c6f4d09b4d998b3892390f88b95d1b09b510aeae Merge branch 'next/dt64' into for-next
+         
+  - ref: refs/heads/next/dt64
+    old: de7a4e01055b040b303d01d709262b7ce9d818ff
+    new: 11fd6c9b047c30c72dcea3f79c0acb7deb69c822
+    log: |
+         86c0d7f230fe71952cddac9905e4c090e09ecf3c arm64: dts: exynos990: Add a PMU node for the third cluster
+         11fd6c9b047c30c72dcea3f79c0acb7deb69c822 arm64: dts: exynos850-e850-96: Specify reserved secure memory explicitly
+         
 
---===============5003215233330500494==
+--===============5839553408647449055==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fa0e9712283f-023070744cef.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-4a33c5b1dd0cf56aaf49905c77bb4b765e2db4ab f2fs: add commit id to _fixed_by_kernel_commit
-2b66be5f5cfc7625c544186ca3a61f38a77687be common: loop device work on zoned file systems
-825950c8cab7717c8ec5b45411db7b4327b9cc51 common: cleanup scratch_mkfs_sized
-3b9f5fc7d7d853be6f7ec60a7607e2f4ad22c36f common: call _require_scratch_dedupe from _require_scratch_duperemove
-1f32af6a4ce98f8185ca62c31e3bd014f0690898 fstests: fix argument passing to _run_fsstress and _run_fsstress_bg
-06626fb70ae78fb31fa253761bf8c4b63d45186e btrfs/100, btrfs/101: fix device name in their golden output
-9b12a1a8a35bb491076332e21a113c43851ceb69 btrfs/142, btrfs/143: fix dmdust device names
-8212e1ada5e08270746eb8f06e25ff95e9e9d219 btrfs/146: fix failure due to missing test number argument for fsync-err
-7c5604ec86b82d118a3b84d7e5286740e652720d generic/442: fix failure due to missing test number argument for fsync-err
-a1d583fa0062f097b54dfb2b9b7ff1d9260c855c generic/590: fix test failure when running against fs other than xfs
-f7262fd49cf89e38f72cb4a7e71a1509e2f49ef5 generic/135: don't try to rm $SCRATCH_MNT/*
-023070744cef1fde8a5b4fbd8fa134cd5098843e generic/530: only use xfs-specific mkfs options when testing on xfs
+certificate version 0.1
+pusher krzk@kernel.org 1734877557 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1734877527-7de70efb6f3bd34109ced5ba2001a024ae804cfa
 
---===============5003215233330500494==--
+51a4b945a726c649560ebdf7a5e044f998138d53 c6f4d09b4d998b3892390f88b95d1b09b510aeae refs/heads/for-next
+de7a4e01055b040b303d01d709262b7ce9d818ff 11fd6c9b047c30c72dcea3f79c0acb7deb69c822 refs/heads/next/dt64
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmdoIXUQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1+EdEACG3er4xnJViPfpXdTGtcWa7dU2fB/hjUez
+DnBOgIL8DndrMXQfn8yDPQoOwa7N0NmRVi7mBYv3czHxVVbDsU/feFJbguGqqn3Z
+HDZYUbRxo1I3ei1EFE2UD7tIS5gY0Brm+V2EMxgLjaUC9fG3AYBBimvpKEtnSp1P
+qr/JTfC3nB2CM0C3ZrdD0b5+XHIy3gvnWOr9FVhn/l5HQy+sAH/VVC4pplQLHTaW
+kIN2/lowjIfu/6CZk8XiQfFH+pdz4QiLibr+xhFGqdARcHXx0E3yiaCqE2rKiNDf
+s4bYjCAAykGzBJ9qYb8DB7fWNh29claTPN1UcCTCfBg71uszak5pYbKNPu8zYY3v
+gKOaGbkJl5bDo2QTCxVdM2yYiw0MFVELe7ooOC34B6gImIeKsb4SQKn3LRx2ehp1
+u+gvi+k/MvLdUTs5rhYvKvSnEF26NN4HzQe0ansrmTp7on5X/e6/imGaNIIUOmZf
+TQPR6sPK+ckrvd5eHdVSffhufL+jzuseNEG2sPA7bkSvtWrEVwVLGRqjog5j7WKH
+XWxrFNxCdF554O5z28iylrf7guzyQePhhoPlmjsXYUykxM3FB9rLcWKsFW+oaBo0
+rCFgqM4XcnrgV/nZPpq2g5HQKv5AHKng6DYNXCnVVV0n7f29fzdt//LXmQ+HvO2F
+1W3LQU4q6g==
+=ko5y
+-----END PGP SIGNATURE-----
+
+--===============5839553408647449055==--
