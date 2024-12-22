@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
-Date: Sun, 22 Dec 2024 21:20:54 -0000
-Message-Id: <173490245425.2250445.4691457924958829633@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 22 Dec 2024 21:22:21 -0000
+Message-Id: <173490254165.2251278.16893012635725567232@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kmod/kmod
-user: demarchi
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: ccc26d6bf4ef4db9f4fcca3419f90ec0ccc65f88
-    new: ad689ac6b7d3873e7239b9e78e7a768bdf63e397
+    old: b1fdbe77be6d31d78ecc2a82ea7167773293fed0
+    new: 4bbf9020becbfd8fc2c3da790855b7042fad455b
     log: |
-         ad689ac6b7d3873e7239b9e78e7a768bdf63e397 lsmod: Simplify code
+         4bbf9020becbfd8fc2c3da790855b7042fad455b Linux 6.13-rc4
          
+  - ref: refs/tags/v6.13-rc4
+    old: 0000000000000000000000000000000000000000
+    new: dbfac60febfa806abb2d384cb6441e77335d2799
