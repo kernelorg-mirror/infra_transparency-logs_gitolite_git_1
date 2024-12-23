@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0976081410133367940=="
+Content-Type: multipart/mixed; boundary="===============8365150592766979361=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 23 Dec 2024 15:38:25 -0000
-Message-Id: <173496830537.3179772.17481964280835654774@gitolite.kernel.org>
+Date: Mon, 23 Dec 2024 15:38:51 -0000
+Message-Id: <173496833143.3180093.9607828845515770456@gitolite.kernel.org>
 
---===============0976081410133367940==
+--===============8365150592766979361==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 2ffd9f92a816ffb574ee9b2fc521ce89a405a610
-    new: 523da2cae9f513b9e639df475fb1ebbdeff58a39
-    log: revlist-2ffd9f92a816-523da2cae9f5.txt
+  - ref: refs/heads/m68k-queue
+    old: 7b7f87ba155df95f746223027a14fe82064e3c3b
+    new: 5bc7f41ceae8a82c5a1be325046fce8472242c46
+    log: revlist-7b7f87ba155d-5bc7f41ceae8.txt
 
---===============0976081410133367940==
+--===============8365150592766979361==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2ffd9f92a816-523da2cae9f5.txt
+Content-Disposition: attachment; filename=revlist-7b7f87ba155d-5bc7f41ceae8.txt
 
 bc7acc0bd0f94c26bc0defc902311794a3d0fae9 of: property: fw_devlink: Do not use interrupt-parent directly
 1a75e81baf4f1b322f3498ffd373eaada8e60589 of/unittest: Add empty dma-ranges address translation tests
@@ -336,6 +336,9 @@ bcde95ce32b666478d6737219caa4f8005a8f201 Merge tag 'devicetree-fixes-for-6.13-1'
 8afa5b10af9d748b055a43949f819d9991d63938 Merge tag 'kvm-x86-fixes-6.13-rcN' of https://github.com/kvm-x86/linux into HEAD
 b1fdbe77be6d31d78ecc2a82ea7167773293fed0 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 4bbf9020becbfd8fc2c3da790855b7042fad455b Linux 6.13-rc4
-523da2cae9f513b9e639df475fb1ebbdeff58a39 Merge tag 'v6.13-rc4'
+ef5a286cb16b10478dac14b45075f27d1a252bf6 m68k: Use kernel's generic muldi3 libgcc function
+9fd189e32efadb4b5043557bc89278f39262d73a m68k: atari: usb: Add ISP1160 USB host controller support
+d5c43035b3c50937fa9c78f32872fe0d6f75d936 m68k: atari: Update Kconfig.bus help text
+5bc7f41ceae8a82c5a1be325046fce8472242c46 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============0976081410133367940==--
+--===============8365150592766979361==--
