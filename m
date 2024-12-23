@@ -1,48 +1,103 @@
-Content-Type: multipart/mixed; boundary="===============8427965842208333295=="
+Content-Type: multipart/mixed; boundary="===============2707658494732312019=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 23 Dec 2024 21:58:07 -0000
-Message-Id: <173499108731.3495027.1989014196105201290@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Mon, 23 Dec 2024 23:58:27 -0000
+Message-Id: <173499830753.3586377.1134417760914856359@gitolite.kernel.org>
 
---===============8427965842208333295==
+--===============2707658494732312019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/clk/linux
+user: sboyd
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/kernel-6.12/nfs-6.12.6
-    old: 1f772175c6b8ecbd939fdfa69d42ab386a86c032
-    new: 4d062724f8b8ddb86d3bd860cbcba768cb4f1668
-    log: revlist-1f772175c6b8-4d062724f8b8.txt
+  - ref: refs/heads/clk-fixes
+    old: f4bf0b909a6bf64a2220a42a7c8b8c2ee1b77b89
+    new: c384481006476ac65478fa3584c7245782e52f34
+    log: |
+         c384481006476ac65478fa3584c7245782e52f34 clk: clk-imx8mp-audiomix: fix function signature
+         
+  - ref: refs/heads/clk-next
+    old: 2ca8b22801f8a2ed5300cdca0b7c4aaac70b6761
+    new: 38a387e15a16174da2c45312f89d0a7ba44bc517
+    log: revlist-2ca8b22801f8-38a387e15a16.txt
+  - ref: refs/heads/clk-renesas
+    old: d3dcc98f65dbd364ff839edecf39d1a1e949ee90
+    new: 39a72b4fedd0669ff49d0051efc763e729da56bf
+    log: revlist-d3dcc98f65db-39a72b4fedd0.txt
 
---===============8427965842208333295==
+--===============2707658494732312019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1f772175c6b8-4d062724f8b8.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-d41e26d7a2fa2f2ade1ff749cfdb92b8ccea27c2 nfsd: Revert "nfsd: release svc_expkey/svc_export with rcu_work"
-22dc792c671ff19666ac2f7422cbb243668c1a4d NFSD: fix management of pending async copies
-7559779c0d8a879ff29afb9b64c19137a49aeff4 nfsd: restore callback functionality for NFSv4.0
-6976765f417704838c2a918a78b2886cdce3b9c1 nfs/localio: add direct IO enablement with sync and async IO support
-9dc3fe4dcf1aee2f0d64d974e3f93699942aaf82 nfsd: add nfsd_file_{get,put} to 'nfs_to' nfsd_localio_operations
-599d9173bfb27717245127d41f2bca833fda9ffc nfs_common: rename functions that invalidate LOCALIO nfs_clients
-c27c8e2e91747b6eb1f76887210297d9348e9666 nfs_common: move localio_lock to new lock member of nfs_uuid_t
-dc75be120c40ee926a1835a267693a3784001abe nfs: cache all open LOCALIO nfsd_file(s) in client
-46823b26fd1b9d9d75981fe99aff33370cd9b770 nfsd: update percpu_ref to manage references on nfsd_net
-5e291f9d9fea0325739c82cdf6cd54f702f01a7c nfsd: rename nfsd_serv_ prefixed methods and variables with nfsd_net_
-a40a0e16b92966b18725d6577a24bf428378b453 nfsd: nfsd_file_acquire_local no longer returns GC'd nfsd_file
-fb363de081bdb7100b970d985ea240716ab6d481 nfs_common: rename nfslocalio nfs_uuid_lock to nfs_uuids_lock
-fb992507a689987c47c1cb2809eb6007773142c7 nfs_common: track all open nfsd_files per LOCALIO nfs_client
-72b33e982de3e596dd8909029b5e837892db65e4 nfs_common: add nfs_localio trace events
-b39c60d40aed3be78f967cbba90f708409cef017 nfs/localio: remove redundant code and simplify LOCALIO enablement
-49f5575db10e43da3d1f91f771411ce408f87b5d nfs: probe for LOCALIO when v4 client reconnects to server
-ba0e9601317f5c65786c70f3278f8d3690a0a458 nfs: probe for LOCALIO when v3 client reconnects to server
-4d062724f8b8ddb86d3bd860cbcba768cb4f1668 Merge remote-tracking branch 'snitzer/nfs-localio-for-next' into kernel-6.12/nfs-6.12.6
+certificate version 0.1
+pusher Stephen Boyd <sboyd@kernel.org> 1734998334 -0800
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/clk/linux.git
+nonce 1734998305-02cc8d51634b1c99cecfe8414d82dfa8a916417c
 
---===============8427965842208333295==--
+f4bf0b909a6bf64a2220a42a7c8b8c2ee1b77b89 c384481006476ac65478fa3584c7245782e52f34 refs/heads/clk-fixes
+2ca8b22801f8a2ed5300cdca0b7c4aaac70b6761 38a387e15a16174da2c45312f89d0a7ba44bc517 refs/heads/clk-next
+d3dcc98f65dbd364ff839edecf39d1a1e949ee90 39a72b4fedd0669ff49d0051efc763e729da56bf refs/heads/clk-renesas
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAABCAAvFiEE9L57QeeUxqYDyoaDrQKIl8bklSUFAmdp+T4RHHNib3lkQGtl
+cm5lbC5vcmcACgkQrQKIl8bklSV11g//dXQ09tz3QJWDRgD3343T4wXYVV+805mz
+N/+OZxCKOnPg2XFPYpX4SeFR1/62rg1K9yMRR/RmnsAqyowsdt393guwElB3/Rlr
+rc7/q+k/GbtlpLwSgTD8jpBfY/mJ/saY7PNOYd9s+ngZfYJrgB8C+sVBVQqNlNR4
+Ww4b8069Vkti+CHMQGNCsq3p2MQsLT61h7UOD6IuWkE7Z7FOWMHfMWeV3fO6ru4h
+iVyjknQkD4shm8yGyF9e8xRJKh6pFZ/cDly8ldlzE/jhPavEYhknN8V828OyqjJP
+AhcAfE3SZq6Zs5omdyebk30FNxQv/NmvjPEQvtp6F/6lJUBYvo6gbnKspqPqTsD7
+D0wgfLOBVxaXQ3MZBZreexiXI1p5yiGevSqq/SZPubL0/n/Jf61mIhPph4BoBs66
+kGhYupBu/dAytPkig3Xqa6Ggjz+QAIi8dxNFdFhyz1/9QFRgNSd5dP+POg2eIzJA
+4d6RmbApyV57Hysu5l8gCE8mILgheM+vG1oBsncidAdb6wf++RTeAOibVF1Zv6xo
+Cv1VtO/e1vm+tD0E/MXP8Ik5+oOpnSWOMJiCcZCiRvXtPrC6jKR5kH8/2fLspDEJ
+sIBRTLM1+3ayqtozYaYGthhDHQbP8CprZvWQJ6y9YvbXCthYsoHWu1IajJJalo62
+877Q1ITVBMs=
+=wFR6
+-----END PGP SIGNATURE-----
+
+--===============2707658494732312019==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-2ca8b22801f8-38a387e15a16.txt
+
+a6ca7e6240f0651412da6a17d0e7a8f66d3455a6 clk: renesas: cpg-mssr: Fix 'soc' node handling in cpg_mssr_reserved_init()
+97088b3a8e71ed87fbb25a34b222d869033d73df clk: renesas: r9a08g045: Add clocks, resets and power domains support for SSI
+b73435047ef74c82d6e82c333810eba0038f9cf7 clk: renesas: r9a08g045: Add clock, reset and power domain for the remaining SCIFs
+8b69ca396097028fc2167bcdaa2239190444acba clk: renesas: r9a06g032: Add restart handler
+8b2a89f2388f283c2c50f2a7174b47e8281dba36 clk: renesas: r9a06g032: Use BIT macro consistently
+03108a2614ecab46af6e0d66f9fd61c0d80587f2 clk: renesas: rzv2h: Add selective Runtime PM support for clocks
+ee47b94102d2eaed23ac60910003cd0f3fade13c clk: renesas: r9a09g057: Add support for PLLVDO, CRU clocks, and resets
+548f9a3c3eb32dc4e93a947a0d8bd6331bdb8d19 clk: renesas: r8a779h0: Add display clocks
+f962745289958e89bf520407728e384e52ea8e27 clk: renesas: r9a08g045: Add clocks, resets and power domain support for the ADC IP
+c384481006476ac65478fa3584c7245782e52f34 clk: clk-imx8mp-audiomix: fix function signature
+49903e588eb2d548ad87ef97e6e9185c71b930f0 Merge branch 'clk-fixes' into clk-next
+39a72b4fedd0669ff49d0051efc763e729da56bf Merge tag 'renesas-clk-for-v6.14-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-drivers into clk-renesas
+38a387e15a16174da2c45312f89d0a7ba44bc517 Merge branch 'clk-renesas' into clk-next
+
+--===============2707658494732312019==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d3dcc98f65db-39a72b4fedd0.txt
+
+a6ca7e6240f0651412da6a17d0e7a8f66d3455a6 clk: renesas: cpg-mssr: Fix 'soc' node handling in cpg_mssr_reserved_init()
+97088b3a8e71ed87fbb25a34b222d869033d73df clk: renesas: r9a08g045: Add clocks, resets and power domains support for SSI
+b73435047ef74c82d6e82c333810eba0038f9cf7 clk: renesas: r9a08g045: Add clock, reset and power domain for the remaining SCIFs
+8b69ca396097028fc2167bcdaa2239190444acba clk: renesas: r9a06g032: Add restart handler
+8b2a89f2388f283c2c50f2a7174b47e8281dba36 clk: renesas: r9a06g032: Use BIT macro consistently
+03108a2614ecab46af6e0d66f9fd61c0d80587f2 clk: renesas: rzv2h: Add selective Runtime PM support for clocks
+ee47b94102d2eaed23ac60910003cd0f3fade13c clk: renesas: r9a09g057: Add support for PLLVDO, CRU clocks, and resets
+548f9a3c3eb32dc4e93a947a0d8bd6331bdb8d19 clk: renesas: r8a779h0: Add display clocks
+f962745289958e89bf520407728e384e52ea8e27 clk: renesas: r9a08g045: Add clocks, resets and power domain support for the ADC IP
+39a72b4fedd0669ff49d0051efc763e729da56bf Merge tag 'renesas-clk-for-v6.14-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-drivers into clk-renesas
+
+--===============2707658494732312019==--
