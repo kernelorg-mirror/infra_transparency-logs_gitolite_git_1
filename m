@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7364167605745468149=="
+Content-Type: multipart/mixed; boundary="===============4125634160021394648=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/modules/linux
-Date: Mon, 23 Dec 2024 09:46:41 -0000
-Message-Id: <173494720164.2885331.10606666292059828583@gitolite.kernel.org>
+Date: Mon, 23 Dec 2024 09:48:53 -0000
+Message-Id: <173494733319.2886497.14156284098171922688@gitolite.kernel.org>
 
---===============7364167605745468149==
+--===============4125634160021394648==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/modules/linux
 user: ppavlu
 changes:
-  - ref: refs/heads/modules-fixes
-    old: b8c5d884f903ee149c7029f4965911e1bd955d8c
-    new: 0b7a66a2c864859fbf9bb16229c03172eef02c05
-    log: revlist-b8c5d884f903-0b7a66a2c864.txt
+  - ref: refs/heads/modules-next
+    old: f3fda0dfea98dca05277d687250f3398d2332f73
+    new: a72948a303ae6c6af31535ad6cb7c89122344c89
+    log: revlist-f3fda0dfea98-a72948a303ae.txt
 
---===============7364167605745468149==
+--===============4125634160021394648==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b8c5d884f903-0b7a66a2c864.txt
+Content-Disposition: attachment; filename=revlist-f3fda0dfea98-a72948a303ae.txt
 
 bc7acc0bd0f94c26bc0defc902311794a3d0fae9 of: property: fw_devlink: Do not use interrupt-parent directly
 1a75e81baf4f1b322f3498ffd373eaada8e60589 of/unittest: Add empty dma-ranges address translation tests
@@ -337,5 +337,6 @@ bcde95ce32b666478d6737219caa4f8005a8f201 Merge tag 'devicetree-fixes-for-6.13-1'
 b1fdbe77be6d31d78ecc2a82ea7167773293fed0 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 4bbf9020becbfd8fc2c3da790855b7042fad455b Linux 6.13-rc4
 0b7a66a2c864859fbf9bb16229c03172eef02c05 preempt: Move PREEMPT_RT before PREEMPT in vermagic.
+a72948a303ae6c6af31535ad6cb7c89122344c89 module: Put known GPL offenders in an array
 
---===============7364167605745468149==--
+--===============4125634160021394648==--
