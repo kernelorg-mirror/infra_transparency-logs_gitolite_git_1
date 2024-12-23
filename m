@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3616542247607096191=="
+Content-Type: multipart/mixed; boundary="===============1784008684956607399=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 23 Dec 2024 18:35:14 -0000
-Message-Id: <173497891405.3328279.16791516586939561718@gitolite.kernel.org>
+Date: Mon, 23 Dec 2024 18:39:03 -0000
+Message-Id: <173497914364.3329930.2936257844499142230@gitolite.kernel.org>
 
---===============3616542247607096191==
+--===============1784008684956607399==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,33 +16,27 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: b4cbbf078ca49c7e2470cf9ed064c8cd5d5c828f
-    new: f6f1795d0c3753a5ff43e52ee40277a65b464e7c
-    log: revlist-b4cbbf078ca4-f6f1795d0c37.txt
+    old: f6f1795d0c3753a5ff43e52ee40277a65b464e7c
+    new: 4c61d809cf608842112c77880f50810a564cd9cb
+    log: revlist-f6f1795d0c37-4c61d809cf60.txt
 
---===============3616542247607096191==
+--===============1784008684956607399==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b4cbbf078ca4-f6f1795d0c37.txt
+Content-Disposition: attachment; filename=revlist-f6f1795d0c37-4c61d809cf60.txt
 
-d46ef4ee381f0f73b13714f319662f48f0c8b471 net: phy: microchip_rds_ptp: Add header file for Microchip rds ptp library
-fa51199c5f34172fc7fd248ca9105e4e0ca6d80a net: phy: microchip_rds_ptp : Add rds ptp library for Microchip phys
-2550afc61ef54274ac6f9355df9d33dad2910d3f net: phy: Kconfig: Add rds ptp library support and 1588 optional flag in Microchip phys
-85b39f7593e1383b235f1e9b3d943cc2e91b6b10 net: phy: Makefile: Add makefile support for rds ptp in Microchip phys
-9fc3d6fe802923b026ecac16e59c0acdd6744d5d net: phy: microchip_t1 : Add initialization of ptp for lan887x
-8d94a744e1e2151429ebbb32f312bc14e969a007 Merge branch 'add-rds-ptp-library-for-microchip-phys'
-ddbb5ddc43ad000a984149db5af1133433938404 net/mlx5: LAG, Refactor lag logic
-60d01cc468fdb0fbd6b878d66ef86f7e946b0669 net/mlx5: LAG, Support LAG over Multi-Host NICs
-95f68e06b41b9e88291796efa3969409d13fdd4c net/mlx5: fs, add counter object to flow destination
-31d1356b8fdcdb7fe845874b598cce552a151c64 net/mlx5: fs, add mlx5_fs_pool API
-586face88106481e8c527675a837da8a3ab6677d net/mlx5: fs, retry insertion to hash table on EBUSY
-9a0155a709fadaab468a24abca7996c5fdf0507b net/mlx5: HWS, no need to expose mlx5hws_send_queues_open/close
-429776b6019bbdcf04dcd49706fe7de6a280078b net/mlx5: HWS, do not initialize native API queues
-aa90a30804a563763eb78f00f56f759b72b91cb0 net/mlx5: DR, expand SWS STE callbacks and consolidate common structs
-4d617b57574f8ac04c997bdf9127a4c703a5f1f0 net/mlx5: DR, add support for ConnectX-8 steering
-f440d69a21f75af1acfdad16d3804750a360613c net/mlx5: Remove PTM support log message
-ef1749d5066984881b3af7a3007c2af91668dd5b net/mlx5: fs, Add support for RDMA RX steering over IB link layer
-f6f1795d0c3753a5ff43e52ee40277a65b464e7c Merge branch 'mlx5-misc-changes-2024-12-19'
+7d0bf493b1352ba269f5fefe02dda2b06013f8b5 eth: fbnic: reorder ethtool code
+7cb06a6a777cf5a98d6f4edcde5b3937f324efb5 eth: fbnic: support querying RSS config
+ef1c28817bf90aab3a6365ec81c30c09a3b18ece eth: fbnic: don't reset the secondary RSS indir table
+31ab733e999edbc4070d8386c608d9f0b73267c5 eth: fbnic: support setting RSS configuration
+c23a1461bfee0a6f158795a58c768911c49d6cd0 eth: fbnic: let user control the RSS hash fields
+db7159c400ffbbf3e0df1f3ef6b847b7b62186a3 eth: fbnic: store NAPIs in an array instead of the list
+3a856ab347261870d2bb6f3cab95325f27eee104 eth: fbnic: add IRQ reuse support
+557d02238e05eb66b9aba9a1f90f3a2131c6c887 eth: fbnic: centralize the queue count and NAPI<>queue setting
+3a481cc72673b2fbb18271acf2d9b43f6a920ec4 eth: fbnic: support ring channel get and set while down
+52dc722db0d98bcdf40927dd1719468f7d08bd59 eth: fbnic: support ring channel set while up
+3f8f2e93cdfb96c77bf381590dd697867e89d9e7 Merge branch 'eth-fbnic-support-basic-rss-config-and-setting-channel-count'
+4c61d809cf608842112c77880f50810a564cd9cb net: ethtool: Fix suspicious rcu_dereference usage
 
---===============3616542247607096191==--
+--===============1784008684956607399==--
