@@ -1,71 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============5119757603319020136=="
+Content-Type: multipart/mixed; boundary="===============0767784679747128214=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Mon, 23 Dec 2024 19:55:04 -0000
-Message-Id: <173498370479.3395771.1952021096797651633@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Mon, 23 Dec 2024 20:11:12 -0000
+Message-Id: <173498467299.3408187.7004757624015436370@gitolite.kernel.org>
 
---===============5119757603319020136==
+--===============0767784679747128214==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damo
-user: sj
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/master
-    old: 8b156429293e71e630b9d5a102a98176effd39b7
-    new: 409e84aa32e2e9acf740f5534f08258634aaf87a
-    log: revlist-8b156429293e-409e84aa32e2.txt
-  - ref: refs/heads/next
-    old: d549dfd8451f2cd037c26d3aa2044892c28e158e
-    new: 409e84aa32e2e9acf740f5534f08258634aaf87a
-    log: |
-         409e84aa32e2e9acf740f5534f08258634aaf87a Update the version
-         
-  - ref: refs/tags/v2.6.1
-    old: 0000000000000000000000000000000000000000
-    new: 38c093702bd4bbd26625923abe567b1440986f74
+  - ref: refs/heads/nfs-localio-for-next
+    old: c6859628551baecb967a8884d2ee3d599385cf25
+    new: 7d2da397a9d514f4acd304fc032a5fbb6330c583
+    log: revlist-c6859628551b-7d2da397a9d5.txt
 
---===============5119757603319020136==
+--===============0767784679747128214==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8b156429293e-409e84aa32e2.txt
+Content-Disposition: attachment; filename=revlist-c6859628551b-7d2da397a9d5.txt
 
-6447d7994562b9b49538893590ba8163502c524e _damon: add sz_ops_filter_passed on the features support list
-d534e93ed0714b6423450946f8260ac806ce95a5 _damon_sysfs: detect sz_ops_filter_passed feature support
-e7753103624019cd5d40586649bbac82bd639525 _damon_sysfs: remove unused variable of infer_damon_version()
-f0f57b7466d970173e836406505d9c3b3d8e08bf _damon_sysfs: handle sz_ops_filter_passed from infer_damon_version()
-f38abff37d001d849027c0c52f1426857337a43e damon_sysfs: fix target_nid based version inference
-74086d7041c10b9fd7361240e857e770552ff84b _damon_sysfs: Use 'v' prefix consistently from infer_damon_version()
-0fd0876126548d4945666aee370d96f0ff44b751 _damon: Support per-scheme ops handled filter passed bytes stat
-c3d0dcf514471021c3f8c6a665aedbfd7464b4ac _damon_sysfs: support per-scheme sz_ops_filter_passed
-7a8824b7f06490c091fc8c40cb50c5cdfed58edf _damon: add sz_filter_passed field to DamonRegion
-ba6460ba93e0f8136b5fd03f32d11c1ab86a01eb _damon_sysfs: read sz_filter_passed of damos tried region directories
-d8ab123419245fc684abe4436e71dc1bc2c07012 _damo_records: support per-region sz_filter_passed from add_region()
-7f5e553ecc4f29e23fd000ab6715d5b7c56e9f5d _damo_records: reduce indentation of add_region()
-d9f18b9da98823e113026bfcec3a0a2f8b51116f _damo_records: fix wrong update_get_snapshot_records() call from get_snapshot_records_for_schemes()
-cfc39c5d2682c50fd334a44e064efc6494dccc7c damo_report_access: Support per-region sz_filter_passed
-96f65c02d26ecd86591b4b06e26be3ae4075e38c damo_report_access: add <filter passed bytes> region if --tried_regions_of is given
-d7a575b45eff052c6bc7046027e5f91c3e580923 TODO: add an item for better sz_filter_passed support
-0fa6c08f3dd3926e0e0ba9a830bcb6b9b701fb64 release_note: update for sz_filter_passed supports
-997f418716f5988d073e7f7da176454190e7e5b3 _damo_records: add --damos_filter to filter arguments
-4a53a9a6e393d1dc7a56c927dda15f6df10fd800 _damo_records: add a comment about when --temperature_weight is set on arguments
-9bb4fa38316d5cea8d406897b6c59ff8a48f987d _damo_records: add damos_filter field to RecordFilter
-9322080c9e2f7dde93767d1a30cfd35922f6d3cb _damo_records: apply DAMOS filters on get_snapshot_records_of()
-24defc2347b9a91ad915f94ec6a2e55d15211bb9 damo_report_access: add filters_passed to output if --damos_filter is given
-89bd80b145b27d9c1cdfa0047c636dc23e115159 _damon_args: add a function for region-internal filters passing type text formatting
-0650b1f169b405acc9dc4eddf8ff7737c3ff25eb damo_report_access: add region-internal filters passing memory type string to RecordVisualizationFormat
-b9ed18aa4547eda7809dff8f445f9790c01f8daa damo_report_access: add a region formatter for types of filters-passed bytes
-acf5b674fbac41d8cf4f5ba08de2739ba0a3f742 damo_report_access: use <filter passed type> by default
-a3588bda78da87d4dc2d7ed2c25469aebcac9faa _damo_records: add sz_filter_passed when merging regions
-d29ccc0dbd918bc6d732fb4951ec49b02a10ef31 damo_report_access: set min_chars_for for age and filters passed type
-f83422e1f0c9e98e352414e3aee9778ad809c030 release_note: update
-4f02091e0575d73b68a26d1df4ccbfa8c1e63922 USAGE: update for page level properties based monitoring
-d549dfd8451f2cd037c26d3aa2044892c28e158e USAGE: clarify where page level monitoring kernel patches can be retrieved
-409e84aa32e2e9acf740f5534f08258634aaf87a Update the version
+90b626177557a5feb550011b9fe7e6ec2c17be8c NFS/pnfs: Fix a live lock between recalled layouts and layoutget
+15cde1ca3afd278ae51a8446d875d013f1ac4ba5 fs/nfs: fix missing declaration of nfs_idmap_cache_timeout
+b802c451a22a16f6691627a91f53e8704ac7215c nfsd: Revert "nfsd: release svc_expkey/svc_export with rcu_work"
+783685ee87fb57ea025a4501fd70a2f76c4e3dc6 NFSD: fix management of pending async copies
+ffe060e1aa45437281dabe0fa3faf369e5b83f0b nfsd: restore callback functionality for NFSv4.0
+9a2be9e8957ed3d9d605cc0624dce7073d72b275 nfs/localio: add direct IO enablement with sync and async IO support
+7dfd7dd568d3a4145edcb7198df5e269716d53af nfsd: add nfsd_file_{get,put} to 'nfs_to' nfsd_localio_operations
+782dccf4ab0614eca3817f270fb22b3b09a181ea nfs_common: rename functions that invalidate LOCALIO nfs_clients
+15e22abc5ecb5edf906b2bb5a3c8e03f78be002a nfs_common: move localio_lock to new lock member of nfs_uuid_t
+c2e957106a01db77af02f88f4e933eb6102ec684 nfs: cache all open LOCALIO nfsd_file(s) in client
+8ecf128275bbe357a6a6c9f4bdb9812465b3de32 nfsd: update percpu_ref to manage references on nfsd_net
+1b1ccff0ba21e79fb4d925118403f9cddd33b8c6 nfsd: rename nfsd_serv_ prefixed methods and variables with nfsd_net_
+ab621625812042783e5b80b818af338d84a9c2cf nfsd: nfsd_file_acquire_local no longer returns GC'd nfsd_file
+7100841628cce9352395581e973ba6c76e1c7521 nfs_common: rename nfslocalio nfs_uuid_lock to nfs_uuids_lock
+8e41edff284b7d475ca79293358f374ec251bb11 nfs_common: track all open nfsd_files per LOCALIO nfs_client
+2d5819abfb60ad152dda3af63da8300583034d09 nfs_common: add nfs_localio trace events
+9e37d2d007d6294e8288683d40ca21789138f3ee nfs/localio: remove redundant code and simplify LOCALIO enablement
+cb8e26d7e6ac10b4117f3a3f3046c77b6058dce3 nfs: probe for LOCALIO when v4 client reconnects to server
+7d2da397a9d514f4acd304fc032a5fbb6330c583 nfs: probe for LOCALIO when v3 client reconnects to server
 
---===============5119757603319020136==--
+--===============0767784679747128214==--
