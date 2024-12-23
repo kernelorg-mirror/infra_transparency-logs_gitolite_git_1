@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4928530484718533579=="
+Content-Type: multipart/mixed; boundary="===============5643089109442883236=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 23 Dec 2024 12:15:59 -0000
-Message-Id: <173495615948.3012507.3200800171205136426@gitolite.kernel.org>
+Date: Mon, 23 Dec 2024 12:16:21 -0000
+Message-Id: <173495618147.3012791.13586653463732218432@gitolite.kernel.org>
 
---===============4928530484718533579==
+--===============5643089109442883236==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,47 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: b8eca9c0e33607100c8a7b0a9bc849d19b7e9f17
-    new: 61f1e5bac07c139fab00ea2a7603698e0d80de64
-    log: revlist-b8eca9c0e336-61f1e5bac07c.txt
+    old: 61f1e5bac07c139fab00ea2a7603698e0d80de64
+    new: 13817869609e6203f57be7f96aec568f8fdaca6b
+    log: revlist-61f1e5bac07c-13817869609e.txt
+  - ref: refs/heads/tip/urgent
+    old: 65b006fee4dc62c875bd098bbbb8525097a5d979
+    new: 42def086b1623eeb17eff74f92a06535f78ec8ab
+    log: revlist-65b006fee4dc-42def086b162.txt
+  - ref: refs/tags/v6.13-rc4
+    old: 0000000000000000000000000000000000000000
+    new: dbfac60febfa806abb2d384cb6441e77335d2799
 
---===============4928530484718533579==
+--===============5643089109442883236==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b8eca9c0e336-61f1e5bac07c.txt
+Content-Disposition: attachment; filename=revlist-61f1e5bac07c-13817869609e.txt
+
+3aa602076ce09c4ab7a0a326131f649c0f9fa6a4 Merge branch into tip/master: 'irq/urgent'
+ea22c03a8383ffb3c2b7f77595d969e90af1b289 Merge branch into tip/master: 'locking/urgent'
+2453cf613e3eeae95a54ae2b60974691e50c6e02 Merge branch into tip/master: 'perf/urgent'
+0e441acb2a98692a53bdc7da5af07deea7d293b3 Merge branch into tip/master: 'sched/urgent'
+42def086b1623eeb17eff74f92a06535f78ec8ab Merge branch into tip/master: 'x86/urgent'
+a61202eaaa39c75a3a22249f8704c5147a463d6a Merge branch into tip/master: 'irq/core'
+6996f6aec0f3b7b1b8d780a003e56d86f5ad0553 Merge branch into tip/master: 'locking/core'
+1cdcbdd2fcc6db676f5a425940e229ee6dc8ebc5 Merge branch into tip/master: 'objtool/core'
+85736fad5fa151ea040a9ff32ccd52d6f4852468 Merge branch into tip/master: 'perf/core'
+fbddf861c1dacb547067fbcdb4cc58bcf88f5d63 Merge branch into tip/master: 'sched/core'
+2056f5f5f464aae70cb2f49b3819512cbba733ae Merge branch into tip/master: 'x86/boot'
+b514ad88a03d72b5e16f85b19d52401603162a2f Merge branch into tip/master: 'x86/cache'
+9233c1d8ad302ab2d59408e3a1ad60f0d859b663 Merge branch into tip/master: 'x86/cleanups'
+49e0b3b7cd790bf854ea1d1fa4d7db2d526564f5 Merge branch into tip/master: 'x86/cpu'
+f5c715c9f3a1c0e2696c8a00611b1fa31b236ecc Merge branch into tip/master: 'x86/misc'
+2f12bb83624ea4806bb63db29af7d2ca8bf9de47 Merge branch into tip/master: 'x86/mm'
+e7d3dc28d285027e9fe122477e9836a1ed5d0516 Merge branch into tip/master: 'x86/sev'
+13817869609e6203f57be7f96aec568f8fdaca6b Merge branch into tip/master: 'x86/tdx'
+
+--===============5643089109442883236==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-65b006fee4dc-42def086b162.txt
 
 bc7acc0bd0f94c26bc0defc902311794a3d0fae9 of: property: fw_devlink: Do not use interrupt-parent directly
 1a75e81baf4f1b322f3498ffd373eaada8e60589 of/unittest: Add empty dma-ranges address translation tests
@@ -200,6 +232,10 @@ bcde95ce32b666478d6737219caa4f8005a8f201 Merge tag 'devicetree-fixes-for-6.13-1'
 8afa5b10af9d748b055a43949f819d9991d63938 Merge tag 'kvm-x86-fixes-6.13-rcN' of https://github.com/kvm-x86/linux into HEAD
 b1fdbe77be6d31d78ecc2a82ea7167773293fed0 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 4bbf9020becbfd8fc2c3da790855b7042fad455b Linux 6.13-rc4
-61f1e5bac07c139fab00ea2a7603698e0d80de64 Merge branch 'linus'
+3aa602076ce09c4ab7a0a326131f649c0f9fa6a4 Merge branch into tip/master: 'irq/urgent'
+ea22c03a8383ffb3c2b7f77595d969e90af1b289 Merge branch into tip/master: 'locking/urgent'
+2453cf613e3eeae95a54ae2b60974691e50c6e02 Merge branch into tip/master: 'perf/urgent'
+0e441acb2a98692a53bdc7da5af07deea7d293b3 Merge branch into tip/master: 'sched/urgent'
+42def086b1623eeb17eff74f92a06535f78ec8ab Merge branch into tip/master: 'x86/urgent'
 
---===============4928530484718533579==--
+--===============5643089109442883236==--
