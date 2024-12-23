@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 23 Dec 2024 18:05:58 -0000
-Message-Id: <173497715862.3301872.5595523088722528326@gitolite.kernel.org>
+Date: Mon, 23 Dec 2024 18:10:53 -0000
+Message-Id: <173497745355.3306103.8218028441641038740@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 2b6ffcd7873b7e8a62c3e15a6f305bfc747c466b
-    new: a4fd163aed2edd967a244499754dec991d8b4c7d
+    old: a4fd163aed2edd967a244499754dec991d8b4c7d
+    new: 4e86729d1ff329815a6e8a920cb554a1d4cb5b8d
     log: |
-         4f4aa4aa28142d53f8b06585c478476cfe325cfc net: fix memory leak in tcp_conn_request()
-         b5a7b661a073727219fedc35f5619f62418ffe72 net: Fix netns for ip_tunnel_init_flow()
-         a4fd163aed2edd967a244499754dec991d8b4c7d netrom: check buffer length before accessing it
+         4e86729d1ff329815a6e8a920cb554a1d4cb5b8d net/sctp: Prevent autoclose integer overflow in sctp_association_init()
          
