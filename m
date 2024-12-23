@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2296665785770409754=="
+Content-Type: multipart/mixed; boundary="===============7090433320804049791=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 23 Dec 2024 14:41:08 -0000
-Message-Id: <173496486831.3133081.8326122558269780106@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 23 Dec 2024 14:41:23 -0000
+Message-Id: <173496488331.3133286.10359524896000160264@gitolite.kernel.org>
 
---===============2296665785770409754==
+--===============7090433320804049791==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 4bbf9020becbfd8fc2c3da790855b7042fad455b
     log: revlist-78d4f34e2115-4bbf9020becb.txt
 
---===============2296665785770409754==
+--===============7090433320804049791==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -337,4 +337,4 @@ bcde95ce32b666478d6737219caa4f8005a8f201 Merge tag 'devicetree-fixes-for-6.13-1'
 b1fdbe77be6d31d78ecc2a82ea7167773293fed0 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 4bbf9020becbfd8fc2c3da790855b7042fad455b Linux 6.13-rc4
 
---===============2296665785770409754==--
+--===============7090433320804049791==--
