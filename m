@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 23 Dec 2024 18:39:08 -0000
-Message-Id: <173497914808.3330153.13507218714798924127@gitolite.kernel.org>
+Date: Mon, 23 Dec 2024 18:46:19 -0000
+Message-Id: <173497957903.3337205.6431658189743145832@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 4e86729d1ff329815a6e8a920cb554a1d4cb5b8d
-    new: 4a4d38ace1fb0586bffd2aab03caaa05d6011748
+    old: 4a4d38ace1fb0586bffd2aab03caaa05d6011748
+    new: 75221e96101fa93390d3db5c23e026f5e3565d9b
     log: |
-         4a4d38ace1fb0586bffd2aab03caaa05d6011748 net: ethernet: ti: am65-cpsw: default to round-robin for host port receive
+         75221e96101fa93390d3db5c23e026f5e3565d9b net: pse-pd: tps23881: Fix power on/off issue
          
