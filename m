@@ -1,52 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============7817002648021511238=="
+Content-Type: multipart/mixed; boundary="===============5927198621355929075=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Mon, 23 Dec 2024 21:32:27 -0000
-Message-Id: <173498954735.3475109.9072969055210733766@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Mon, 23 Dec 2024 21:55:08 -0000
+Message-Id: <173499090882.3493431.6834936139078595093@gitolite.kernel.org>
 
---===============7817002648021511238==
+--===============5927198621355929075==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/sframe
-    old: 19d5505fa5d16718cbcfbb98eac598d414b1a2f4
-    new: b610703fefd5a3a992e07a383e2e6f6cbf9a41c8
-    log: revlist-19d5505fa5d1-b610703fefd5.txt
+  - ref: refs/heads/nfs-localio-for-next
+    old: 7d2da397a9d514f4acd304fc032a5fbb6330c583
+    new: ba0e9601317f5c65786c70f3278f8d3690a0a458
+    log: revlist-7d2da397a9d5-ba0e9601317f.txt
 
---===============7817002648021511238==
+--===============5927198621355929075==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-19d5505fa5d1-b610703fefd5.txt
+Content-Disposition: attachment; filename=revlist-7d2da397a9d5-ba0e9601317f.txt
 
-23edd991611f76b4d414d5e188078a9c30c6d4c7 unwind/x86: Enable user space frame pointer unwinding for x86
-243935318301169b5e2dba7e635e98beadfa9aa2 perf/x86: Rename get_segment_base() and make it global
-6d03f1df0b548f45653d275ada9dc121b09c228e unwind: Add support for user space compat mode
-1a3c98160f1c0ec1cfc578c79ebcdbb66a9d43a5 unwind/x86: Enable user space compat mode unwinding for x86
-746b5c5cc9f7e0a361727641039d15ae137b5b65 mm: Add guard for mmap_read_lock
-92ec00173c67a3aaeddaafd159e3f6096cfd0b53 unwind/sframe: Add support for reading .sframe section headers
-f5915fb6f42d5dcdeb3d5d1960f4aa8d422d56bb unwind/x86: Enable user space sframe unwinding for x86
-12f563176d796842235f64cf9f1fb83b8b9270c8 unwind/sframe: Print file name in debug output
-fe9afc66b159d3728867d410453360ad0a4adfd6 unwind/sframe: Add support for reading .sframe section contents
-5672ead02a9b7f45bdbba6a42d0d4062f3f5c5cd unwind/sframe: Validate .sframe sections
-635eb2f064f32db0648614e8cd8d5ed2d36091b1 unwind/sframe: Detect .sframe sections in executables
-28ed368ae53473000dce8aee25f0f5599b8bb7f6 unwind/sframe: Add prctl() interface for registering .sframe sections
-a7904a3dc0448b839069bdb6270d2c7485a4330a unwind/sframe: Wire the unwind_user interface to sframe
-8cf7d3833beead2ccf9114148c22ec45ffc958a5 unwind: Add deferred user space unwinding API
-2de62aba50dd3be627c3f9c945fa5d1eb6e13c8d perf: Remove get_perf_callchain() 'init_nr' argument
-7e21c413a774cd67426e212b279ff03b33d44772 perf: Remove get_perf_callchain() 'crosstask' argument
-c99fc27c6d4a5f48f8f9cef42a7ff9fe40ff0dde perf: Simplify get_perf_callchain() user logic
-feebf0a91d58b3153c3b8f3eb670b46135521fdd perf: Add deferred user callchains
-f77589a66e1a9805262fc58275badd62d7d4de3d perf tools: Minimal CALLCHAIN_DEFERRED support
-3a3c4febbbc5312f6f6b3a8567924cbdfcb56514 perf record: Enable defer_callchain for user callchains
-570663d4e08414fe17e967712d6c5ae521814a23 perf script: Display PERF_RECORD_CALLCHAIN_DEFERRED
-b610703fefd5a3a992e07a383e2e6f6cbf9a41c8 perf tools: Merge deferred user callchains
+d41e26d7a2fa2f2ade1ff749cfdb92b8ccea27c2 nfsd: Revert "nfsd: release svc_expkey/svc_export with rcu_work"
+22dc792c671ff19666ac2f7422cbb243668c1a4d NFSD: fix management of pending async copies
+7559779c0d8a879ff29afb9b64c19137a49aeff4 nfsd: restore callback functionality for NFSv4.0
+6976765f417704838c2a918a78b2886cdce3b9c1 nfs/localio: add direct IO enablement with sync and async IO support
+9dc3fe4dcf1aee2f0d64d974e3f93699942aaf82 nfsd: add nfsd_file_{get,put} to 'nfs_to' nfsd_localio_operations
+599d9173bfb27717245127d41f2bca833fda9ffc nfs_common: rename functions that invalidate LOCALIO nfs_clients
+c27c8e2e91747b6eb1f76887210297d9348e9666 nfs_common: move localio_lock to new lock member of nfs_uuid_t
+dc75be120c40ee926a1835a267693a3784001abe nfs: cache all open LOCALIO nfsd_file(s) in client
+46823b26fd1b9d9d75981fe99aff33370cd9b770 nfsd: update percpu_ref to manage references on nfsd_net
+5e291f9d9fea0325739c82cdf6cd54f702f01a7c nfsd: rename nfsd_serv_ prefixed methods and variables with nfsd_net_
+a40a0e16b92966b18725d6577a24bf428378b453 nfsd: nfsd_file_acquire_local no longer returns GC'd nfsd_file
+fb363de081bdb7100b970d985ea240716ab6d481 nfs_common: rename nfslocalio nfs_uuid_lock to nfs_uuids_lock
+fb992507a689987c47c1cb2809eb6007773142c7 nfs_common: track all open nfsd_files per LOCALIO nfs_client
+72b33e982de3e596dd8909029b5e837892db65e4 nfs_common: add nfs_localio trace events
+b39c60d40aed3be78f967cbba90f708409cef017 nfs/localio: remove redundant code and simplify LOCALIO enablement
+49f5575db10e43da3d1f91f771411ce408f87b5d nfs: probe for LOCALIO when v4 client reconnects to server
+ba0e9601317f5c65786c70f3278f8d3690a0a458 nfs: probe for LOCALIO when v3 client reconnects to server
 
---===============7817002648021511238==--
+--===============5927198621355929075==--
