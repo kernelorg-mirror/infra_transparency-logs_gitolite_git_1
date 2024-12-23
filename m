@@ -1,55 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============6302072772143550049=="
+Content-Type: multipart/mixed; boundary="===============5550660422997901483=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Mon, 23 Dec 2024 18:25:23 -0000
-Message-Id: <173497832357.3319955.3045540376219021037@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 23 Dec 2024 18:30:21 -0000
+Message-Id: <173497862159.3324151.5649564598916092398@gitolite.kernel.org>
 
---===============6302072772143550049==
+--===============5550660422997901483==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/sframe
-    old: 20508851658e720f5afbbf5f74d47bfe6f85be5e
-    new: 19d5505fa5d16718cbcfbb98eac598d414b1a2f4
-    log: revlist-20508851658e-19d5505fa5d1.txt
+  - ref: refs/heads/main
+    old: 6ad7f7196a732d960a264f32aa2d052f260f9f0c
+    new: b4cbbf078ca49c7e2470cf9ed064c8cd5d5c828f
+    log: revlist-6ad7f7196a73-b4cbbf078ca4.txt
 
---===============6302072772143550049==
+--===============5550660422997901483==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-20508851658e-19d5505fa5d1.txt
+Content-Disposition: attachment; filename=revlist-6ad7f7196a73-b4cbbf078ca4.txt
 
-d222569473aa37087860fde3f52948fc07082873 unwind: Add user space unwinding API
-b6ef6b109203ab6ff7fe7d78e0ff85d85f13088f unwind: Add support for user space frame pointers
-1e6ca802f3ef3b6ed20f90b5dddce6e0032e8160 unwind/x86: Enable user space frame pointers for x86
-654ca18b2b23a241a60949c41312881332459e13 perf/x86: Rename get_segment_base() and make it global
-8c1d4931020fe9314b28d441efd89002340ecd24 unwind: Add support for user space compat mode frame pointers
-d62dbce1bc3f92fc2daf0c3517a265c56da41cfd unwind/x86: Enable user space compat mode frame pointers for x86
-440a4f3c2696e8d2ab9bc5115490841a5e53e32a mm: Add guard for mmap_read_lock
-d2c908f05fe63f81347a528d79d94a00428c3df6 sframe add remove
-cec3987888c4d8341e0145168f86cd26e2b57ad6 x86/sframe: Enable
-47382f347a4d4f532471c3c17171334b0196027b sframe debug
-17a1fd51f8a55da7ba4d89c10b9266de8dd98695 fixup! sframe add remove
-df692a7e302318e2e039f4251a2314e3b65a8c66 sframe_find
-25ce42df6414d6d75ebc5e913c069d1b5c8af299 sframe validate
-6f7a821a8ec70304be1e2579a24e8dd116dfb08f executable
-43a7d08f241a6e30d719af737437522b6b3b90fb prctl
-1245c616fd5113f4da817d1c7a037f2aaf10625c unwind sframe
-8dfca20aad716091c6710cba8cdf736fb95ebcbb unwind: Add deferred user space unwinding API
-4aa428eb64037927ec7f994e5db19cfd77337c59 perf: Remove get_perf_callchain() 'init_nr' argument
-147d0c86ad332d46a6996e35cacdc492791cd73f perf: Remove get_perf_callchain() 'crosstask' argument
-1c9592646e3638eb3062bd6d86bffbce171c2ecb perf: Simplify get_perf_callchain() user logic
-ea5b03d9c57dc5e8656b844f96a4ca3b4ab73317 perf: Add deferred user callchains
-a7c8f5cbdf7292cf1a5558d880755710d0f44671 perf tools: Minimal CALLCHAIN_DEFERRED support
-7fc2d80fa9946eb40157d6ab90d45c9beaa9d962 perf record: Enable defer_callchain for user callchains
-d8c4a587a48b585c3af20f42739ee6afd989d37d perf script: Display PERF_RECORD_CALLCHAIN_DEFERRED
-19d5505fa5d16718cbcfbb98eac598d414b1a2f4 perf tools: Merge deferred user callchains
+46e0ccfb88f02ab2eb20a41d519d6e4c028652f2 net: vxlan: rename SKB_DROP_REASON_VXLAN_NO_REMOTE
+623e43c2f5023853cbf71d6a60898d448a06416a net: bridge: add skb drop reasons to the most common drop points
+a6ac667467b642c94928c24ac2eb40d20110983c Merge branch 'net-bridge-add-skb-drop-reasons-to-the-most-common-drop-points'
+85101bda1387e85eabf77cd416bfc38e14f1bce6 sfc: Use netdev refcount tracking in struct efx_async_filter_insertion
+f288c7a1ba268a9ed58a7971142a98a1e41a3c73 selftests: drv-net: assume stats refresh is 0 if no ethtool -c support
+aa4ad7c3f283fa94b80cf84605661700aa39d708 netlink: correct nlmsg size for multicast notifications
+f3af3ba1083836d174ada619366783fa17272f66 vsock/test: Use NSEC_PER_SEC
+ef8bd18f475e969753b1b72588a4932195d420f3 vsock/test: Introduce option to select tests
+50f9434463a0be5b972ee442ba6a9704c9afb02a vsock/test: Add README blurb about kmemleak usage
+f52e7f593b49344b9497c289cbb2ada213f60a7a vsock/test: Adapt send_byte()/recv_byte() to handle MSG_ZEROCOPY
+f66ef469a72d19764f943067307a570f83b00dca vsock/test: Add test for accept_queue memory leak
+ec50efee8cf814035d82f3b42dad916144d98b38 vsock/test: Add test for sk_error_queue memory leak
+d127ac8b1d4d3524d292b597100fef96dd909c9b vsock/test: Add test for MSG_ZEROCOPY completion memory leak
+b4cbbf078ca49c7e2470cf9ed064c8cd5d5c828f Merge branch 'vsock-test-tests-for-memory-leaks'
 
---===============6302072772143550049==--
+--===============5550660422997901483==--
