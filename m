@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5927198621355929075=="
+Content-Type: multipart/mixed; boundary="===============8427965842208333295=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 23 Dec 2024 21:55:08 -0000
-Message-Id: <173499090882.3493431.6834936139078595093@gitolite.kernel.org>
+Date: Mon, 23 Dec 2024 21:58:07 -0000
+Message-Id: <173499108731.3495027.1989014196105201290@gitolite.kernel.org>
 
---===============5927198621355929075==
+--===============8427965842208333295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/nfs-localio-for-next
-    old: 7d2da397a9d514f4acd304fc032a5fbb6330c583
-    new: ba0e9601317f5c65786c70f3278f8d3690a0a458
-    log: revlist-7d2da397a9d5-ba0e9601317f.txt
+  - ref: refs/heads/kernel-6.12/nfs-6.12.6
+    old: 1f772175c6b8ecbd939fdfa69d42ab386a86c032
+    new: 4d062724f8b8ddb86d3bd860cbcba768cb4f1668
+    log: revlist-1f772175c6b8-4d062724f8b8.txt
 
---===============5927198621355929075==
+--===============8427965842208333295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7d2da397a9d5-ba0e9601317f.txt
+Content-Disposition: attachment; filename=revlist-1f772175c6b8-4d062724f8b8.txt
 
 d41e26d7a2fa2f2ade1ff749cfdb92b8ccea27c2 nfsd: Revert "nfsd: release svc_expkey/svc_export with rcu_work"
 22dc792c671ff19666ac2f7422cbb243668c1a4d NFSD: fix management of pending async copies
@@ -43,5 +43,6 @@ fb992507a689987c47c1cb2809eb6007773142c7 nfs_common: track all open nfsd_files p
 b39c60d40aed3be78f967cbba90f708409cef017 nfs/localio: remove redundant code and simplify LOCALIO enablement
 49f5575db10e43da3d1f91f771411ce408f87b5d nfs: probe for LOCALIO when v4 client reconnects to server
 ba0e9601317f5c65786c70f3278f8d3690a0a458 nfs: probe for LOCALIO when v3 client reconnects to server
+4d062724f8b8ddb86d3bd860cbcba768cb4f1668 Merge remote-tracking branch 'snitzer/nfs-localio-for-next' into kernel-6.12/nfs-6.12.6
 
---===============5927198621355929075==--
+--===============8427965842208333295==--
