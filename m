@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Mon, 23 Dec 2024 20:36:58 -0000
-Message-Id: <173498621844.3429167.774351206117467346@gitolite.kernel.org>
+Date: Mon, 23 Dec 2024 20:37:11 -0000
+Message-Id: <173498623162.3429628.9910743201060667074@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/damon-hack
 user: sj
 changes:
-  - ref: refs/heads/master
-    old: ab934a022f23381f29f1e322bdfd36a26c5f6193
-    new: 80f190e16b14ef4a7ef57e4541f003556c74b565
-    log: |
-         75e2108e141ac8f53309f72ba4a603ffda7f028c patches/next: reorder quota kernel-doc comment fixup
-         80f190e16b14ef4a7ef57e4541f003556c74b565 patches/next: rebase to latest mm-unstable
-         
+  - ref: refs/tags/damon/next-2024-12-23-12-37-on-v6.13-rc4
+    old: 0000000000000000000000000000000000000000
+    new: f26237f9023c25ce821a6a4ff022320b106a96bb
