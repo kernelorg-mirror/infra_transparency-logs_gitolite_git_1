@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5550660422997901483=="
+Content-Type: multipart/mixed; boundary="===============3616542247607096191=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 23 Dec 2024 18:30:21 -0000
-Message-Id: <173497862159.3324151.5649564598916092398@gitolite.kernel.org>
+Date: Mon, 23 Dec 2024 18:35:14 -0000
+Message-Id: <173497891405.3328279.16791516586939561718@gitolite.kernel.org>
 
---===============5550660422997901483==
+--===============3616542247607096191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,29 +16,33 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 6ad7f7196a732d960a264f32aa2d052f260f9f0c
-    new: b4cbbf078ca49c7e2470cf9ed064c8cd5d5c828f
-    log: revlist-6ad7f7196a73-b4cbbf078ca4.txt
+    old: b4cbbf078ca49c7e2470cf9ed064c8cd5d5c828f
+    new: f6f1795d0c3753a5ff43e52ee40277a65b464e7c
+    log: revlist-b4cbbf078ca4-f6f1795d0c37.txt
 
---===============5550660422997901483==
+--===============3616542247607096191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6ad7f7196a73-b4cbbf078ca4.txt
+Content-Disposition: attachment; filename=revlist-b4cbbf078ca4-f6f1795d0c37.txt
 
-46e0ccfb88f02ab2eb20a41d519d6e4c028652f2 net: vxlan: rename SKB_DROP_REASON_VXLAN_NO_REMOTE
-623e43c2f5023853cbf71d6a60898d448a06416a net: bridge: add skb drop reasons to the most common drop points
-a6ac667467b642c94928c24ac2eb40d20110983c Merge branch 'net-bridge-add-skb-drop-reasons-to-the-most-common-drop-points'
-85101bda1387e85eabf77cd416bfc38e14f1bce6 sfc: Use netdev refcount tracking in struct efx_async_filter_insertion
-f288c7a1ba268a9ed58a7971142a98a1e41a3c73 selftests: drv-net: assume stats refresh is 0 if no ethtool -c support
-aa4ad7c3f283fa94b80cf84605661700aa39d708 netlink: correct nlmsg size for multicast notifications
-f3af3ba1083836d174ada619366783fa17272f66 vsock/test: Use NSEC_PER_SEC
-ef8bd18f475e969753b1b72588a4932195d420f3 vsock/test: Introduce option to select tests
-50f9434463a0be5b972ee442ba6a9704c9afb02a vsock/test: Add README blurb about kmemleak usage
-f52e7f593b49344b9497c289cbb2ada213f60a7a vsock/test: Adapt send_byte()/recv_byte() to handle MSG_ZEROCOPY
-f66ef469a72d19764f943067307a570f83b00dca vsock/test: Add test for accept_queue memory leak
-ec50efee8cf814035d82f3b42dad916144d98b38 vsock/test: Add test for sk_error_queue memory leak
-d127ac8b1d4d3524d292b597100fef96dd909c9b vsock/test: Add test for MSG_ZEROCOPY completion memory leak
-b4cbbf078ca49c7e2470cf9ed064c8cd5d5c828f Merge branch 'vsock-test-tests-for-memory-leaks'
+d46ef4ee381f0f73b13714f319662f48f0c8b471 net: phy: microchip_rds_ptp: Add header file for Microchip rds ptp library
+fa51199c5f34172fc7fd248ca9105e4e0ca6d80a net: phy: microchip_rds_ptp : Add rds ptp library for Microchip phys
+2550afc61ef54274ac6f9355df9d33dad2910d3f net: phy: Kconfig: Add rds ptp library support and 1588 optional flag in Microchip phys
+85b39f7593e1383b235f1e9b3d943cc2e91b6b10 net: phy: Makefile: Add makefile support for rds ptp in Microchip phys
+9fc3d6fe802923b026ecac16e59c0acdd6744d5d net: phy: microchip_t1 : Add initialization of ptp for lan887x
+8d94a744e1e2151429ebbb32f312bc14e969a007 Merge branch 'add-rds-ptp-library-for-microchip-phys'
+ddbb5ddc43ad000a984149db5af1133433938404 net/mlx5: LAG, Refactor lag logic
+60d01cc468fdb0fbd6b878d66ef86f7e946b0669 net/mlx5: LAG, Support LAG over Multi-Host NICs
+95f68e06b41b9e88291796efa3969409d13fdd4c net/mlx5: fs, add counter object to flow destination
+31d1356b8fdcdb7fe845874b598cce552a151c64 net/mlx5: fs, add mlx5_fs_pool API
+586face88106481e8c527675a837da8a3ab6677d net/mlx5: fs, retry insertion to hash table on EBUSY
+9a0155a709fadaab468a24abca7996c5fdf0507b net/mlx5: HWS, no need to expose mlx5hws_send_queues_open/close
+429776b6019bbdcf04dcd49706fe7de6a280078b net/mlx5: HWS, do not initialize native API queues
+aa90a30804a563763eb78f00f56f759b72b91cb0 net/mlx5: DR, expand SWS STE callbacks and consolidate common structs
+4d617b57574f8ac04c997bdf9127a4c703a5f1f0 net/mlx5: DR, add support for ConnectX-8 steering
+f440d69a21f75af1acfdad16d3804750a360613c net/mlx5: Remove PTM support log message
+ef1749d5066984881b3af7a3007c2af91668dd5b net/mlx5: fs, Add support for RDMA RX steering over IB link layer
+f6f1795d0c3753a5ff43e52ee40277a65b464e7c Merge branch 'mlx5-misc-changes-2024-12-19'
 
---===============5550660422997901483==--
+--===============3616542247607096191==--
