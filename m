@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3289821793744514986=="
+Content-Type: multipart/mixed; boundary="===============6787602107994487032=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Mon, 23 Dec 2024 10:57:02 -0000
-Message-Id: <173495142278.2945827.12622095817242206646@gitolite.kernel.org>
+Date: Mon, 23 Dec 2024 10:57:09 -0000
+Message-Id: <173495142928.2946046.7925372658881581507@gitolite.kernel.org>
 
---===============3289821793744514986==
+--===============6787602107994487032==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,25 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vireshk/pm
 user: vireshk
 changes:
-  - ref: refs/heads/opp/linux-next
-    old: e0460b08c67a3d0e553cc30210eaf34ace224ccd
-    new: b44b9bc7cab2967c3d6a791b1cd542c89fc07f0e
-    log: revlist-e0460b08c67a-b44b9bc7cab2.txt
+  - ref: refs/heads/cpufreq/arm/linux-next
+    old: 1ccb42a0784c8fd895988b7f083eec33ce987226
+    new: a9ba290d0b829012574b6821ba08815046e60c94
+    log: revlist-1ccb42a0784c-a9ba290d0b82.txt
 
---===============3289821793744514986==
+--===============6787602107994487032==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e0460b08c67a-b44b9bc7cab2.txt
+Content-Disposition: attachment; filename=revlist-1ccb42a0784c-a9ba290d0b82.txt
 
-8dcf44fcad5ef5c1ff915628255c19cbe91f2588 Merge tag 'vfs-6.13.netfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-4c797b11a88297b9b0010b2c6645b191bac2350c Merge tag 'vfs-6.13.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-a29835c9d0ba5365d64b56883692d0e8675fb615 Merge tag 'vfs-6.13.ovl' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-909d3b571e5a77aef0949818de1efda129dcddbd Merge tag 'vfs-6.13.pidfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-a5ca57479656f2562f164d650c6646debbe2f99b Merge tag 'vfs-6.13.usercopy' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-7956186e751bc15541ede638008feedc0e427883 Merge tag 'vfs-6.13.tmpfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-241c7ed4d4815cd7d9c52c8f97bf13181e32ca29 Merge tag 'vfs-6.13.untorn.writes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-23acd177540d7ba929cdc801b73d15d799f654f4 Merge tag 'vfs-6.13.ecryptfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 6ce5a6f0a07d37cc377df08a8d8a9c283420f323 tracing: Fix function name for trampoline
 0f25f0e4efaeb68086f7e65c442f2d648b21736f Merge tag 'pull-fd' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 f33e46a0c6bddd341d0989484a2546bba7ac4a3c Merge branch 'for-6.13/wacom' into for-linus
@@ -1046,9 +1038,17 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 88862eeb476375687a1de5f45528a437ea598338 Merge tag 'trace-printf-v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
-b89c0ed09e1189217cd9d516b739627c523d53a4 opp: core: implement dev_pm_opp_get_bw
-402074f0105e93154409e4a86c02d09e5199d9a5 opp: core: Fix off by one in dev_pm_opp_get_bw()
-d659bc68ed489022ea33342cfbda2911a81e7a0d OPP: add index check to assert to avoid buffer overflow in _read_freq()
-b44b9bc7cab2967c3d6a791b1cd542c89fc07f0e OPP: fix dev_pm_opp_find_bw_*() when bandwidth table not initialized
+34059ed0f30f3b83aac0576c131e79d39bc143d8 cpufreq: scmi: Register for limit change notifications
+f1f010c9d9c62c865d9f54e94075800ba764b4d9 cpufreq: fix using cpufreq-dt as module
+ab16dfb99cb565fb21ddf29320890c7bad35024c dt-bindings: cpufreq: Document support for Airoha EN7581 CPUFreq
+a248d90ddc3f73d193327275da2f16fb80c862cf dt-bindings: cpufreq: apple,cluster-cpufreq: Add A7-A11, T2 compatibles
+4a06c250abaaf7cd1e32abcb90694b551712fa63 cpufreq: apple-soc: Drop setting the PS2 field on M2+
+0755a9376ec949eb7d881324548266ba8667a206 cpufreq: apple-soc: Allow per-SoC configuration of APPLE_DVFS_CMD_PS1
+55aac9f570b0f8a300a9b0128620ced15c4742d8 cpufreq: apple-soc: Use 32-bit read for status register
+0dc21f609149b958ca8c010d17f9935ed9cc96fe cpufreq: apple-soc: Increase cluster switch timeout to 400us
+13b147b2a9f8a9a0b18eddd23abaf84d7bea80d1 cpufreq: apple-soc: Set fallback transition latency to APPLE_DVFS_TRANSITION_TIMEOUT
+1a4ddf6ab9dde8a7e1e025c44745862705636b2f cpufreq: apple-soc: Add Apple A7-A8X SoC cpufreq support
+85d8b11351a8f15d6ec7a5e97909861cb3b6bcec cpufreq: qcom: Fix qcom_cpufreq_hw_recalc_rate() to query LUT if LMh IRQ is not available
+a9ba290d0b829012574b6821ba08815046e60c94 cpufreq: qcom: Implement clk_ops::determine_rate() for qcom_cpufreq* clocks
 
---===============3289821793744514986==--
+--===============6787602107994487032==--
