@@ -1,23 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
-Date: Mon, 23 Dec 2024 09:26:09 -0000
-Message-Id: <173494596961.2868423.5354873153789367017@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Mon, 23 Dec 2024 09:28:08 -0000
+Message-Id: <173494608831.2869632.7306975222526057238@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rppt/linux
-user: rppt
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/execmem/x86-rox/v8
-    old: 6c4eb6e17cdd71fe4df151523bb69db507c52b8c
-    new: c1607a17388012c32091dc9c5e68aabda437dcf4
+  - ref: refs/heads/work.dcache
+    old: 7cd7d43774879a6d7fc35662fb788ed8210dd09a
+    new: 08141fdc186755910b5bffc21a4325e2b673629f
     log: |
-         9e33c27e216661bb42b7a56583bb21fe2c5ddea2 x86/mm/pat: Restore large pages after fragmentation
-         571f4320dca888ddfe5842a32280b6e4ef386b91 execmem: add API for temporal remapping as RW and restoring ROX afterwards
-         38d7097a034a8303838775505de419648e7a4cdc modules: switch to execmem API for remapping as RW and restoring ROX
-         7833cf10ad3b55c27bbc4d1ddf78a0a780678eab Revert "x86/module: prepare module loading for ROX allocations of text"
-         c1607a17388012c32091dc9c5e68aabda437dcf4 add kdevops workflow
+         cf0cc842995ca3da9784ddfc9bad8df80295553d make sure that DNAME_INLINE_LEN is a multiple of word size
+         077ab1260a52068a62a5fb08fa2c5f1d0dcf2738 dcache: back inline names with a struct-wrapped array of unsigned long
+         5780c0248e7a86faeb7794d58808599bf7745151 make take_dentry_name_snapshot() lockless
+         b0bbd86f3854437878a6cc5ce4d6d420faf8b82b dissolve external_name.u into separate members
+         1c6ca30507b46b4973c8409bc2bf3e271f4f7a66 ext4 fast_commit: make use of name_snapshot primitives
+         08141fdc186755910b5bffc21a4325e2b673629f generic_ci_d_compare(): use shortname_storage
          
