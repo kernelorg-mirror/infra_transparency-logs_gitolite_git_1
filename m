@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Tue, 24 Dec 2024 18:28:35 -0000
-Message-Id: <173506491527.267284.11019172524704619587@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 24 Dec 2024 18:42:01 -0000
+Message-Id: <173506572100.278674.7173495900921786054@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/heads/master
-    old: f644b36da650aba9bbd24e5719fc3fed7d32241c
-    new: b199d102db5be24e0ac88eb6879e3e3b6e0ea722
+  - ref: refs/heads/perf/urgent
+    old: b8c3a2502a205321fe66c356f4b70cabd8e1a5fc
+    new: aa5d2ca7c179c40669edb5e96d931bf9828dea3d
     log: |
-         28c42e01fc175e50e38d6dc73909ea98a37bdeb4 man/man2/madvise.2: wfix
-         b199d102db5be24e0ac88eb6879e3e3b6e0ea722 man/man2/ioctl_pipe.2: SYNOPSIS: Fix $1, which is not an array parameter
+         aa5d2ca7c179c40669edb5e96d931bf9828dea3d perf/x86/intel: Fix bitmask of OCR and FRONTEND events for LNC
          
