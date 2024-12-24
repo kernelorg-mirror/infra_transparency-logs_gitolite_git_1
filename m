@@ -1,58 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1258042715156024451=="
+Content-Type: multipart/mixed; boundary="===============0428938181688494293=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 24 Dec 2024 08:50:46 -0000
-Message-Id: <173503024635.4007102.15401740830160901919@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Tue, 24 Dec 2024 09:11:45 -0000
+Message-Id: <173503150586.4023048.3280369103780091062@gitolite.kernel.org>
 
---===============1258042715156024451==
+--===============0428938181688494293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/security/vulns
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 5ab5a3778dd1745bafa426e5d6f7c71bf9e14d84
-    new: 86a5f32ed8813d5534d3d6c77aad29184a9f99b6
+  - ref: refs/heads/master
+    old: e40bdd3c8ea85a0a8af8f98d52b2888968ef5dbc
+    new: e9972997022c440f6df3b05a9672e8d8cee62ec8
     log: |
-         1b1bb7b29b1052e4124c0f99eff65200ef141caf drivers: base: Don't match devices with NULL of_node/fwnode/etc
-         55b7aee990ef786251e0e37f8285c32b4193f419 drivers: base: test: Enable device model tests with KUNIT_ALL_TESTS
-         86a5f32ed8813d5534d3d6c77aad29184a9f99b6 drivers: base: test: Add ...find_device_by...(... NULL) tests
+         e9972997022c440f6df3b05a9672e8d8cee62ec8 update cvelistV5
          
 
---===============1258042715156024451==
+--===============0428938181688494293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1735030273 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1735030243-d6d55e1eff4e069b5c778849ede6976756989fea
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1735031531 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1735031502-ad6a84be17a78c1ae27547212680b97bb24056c9
 
-5ab5a3778dd1745bafa426e5d6f7c71bf9e14d84 86a5f32ed8813d5534d3d6c77aad29184a9f99b6 refs/heads/driver-core-testing
+e40bdd3c8ea85a0a8af8f98d52b2888968ef5dbc e9972997022c440f6df3b05a9672e8d8cee62ec8 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdqdgEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uiQQAJcEdwOGPjITtiS16dXo
-R0MoL9oTKUFOLTuZFbaV5XZTJHWlmiTWE1c/0o0QgJlq6u9vygywgX0HF8HSdmCr
-Js2c3AUQY5wr9nLq5HyvDhohLF6fuFbO7mH2NlBcxmqj3dDwPI05YpBLxlh39urf
-ITKnrDoF/reLdMpk5PlBJfVqLFb1NTB9uzpqStE8azU/CcWBxfsTfn8kRT6yxgNg
-8HjMo78alWiY/qdpaJMpxe4ltPYDHL4TMQ8BoawOomWj9sK6YRvkPnGS0mPpXDnr
-EOtj8zaBj4Fky3VLB2CYX62zAeD3zH34L6oOqBETLrdHgvDOv9DrVvDOxK2tfer2
-2N4oVzGxxvp35rAHArmvWn9QGOAissXcBH2t4pnW9ZcBnbIxTJE2LmhZoTODMOXY
-0qL9SIp9k6lp4QxjKydNpKLzSwFzcsYKt9BSnLlx/LSES8zGLwruK10GtM9omcu/
-sPiSDznmrhqdM67q1Rz/QzSpcu83jc0fFJ523zGWCgcjQzeeU9WlczdpHHmZIEOH
-kJt7gm6cZxwzVPdVlfRfHSo5R+3LrwkmxaSceqG7uq2IsDJVJ5l8CCXeHO3eXVPa
-9njpLoGJuzjGmwGriFIeJTqUoizirQSfrMltTIpbtl4b0AHZy9/HxsJU9wgqaDpI
-bQRKlA0TbaAiVB2nUo/3LAAT
-=d4Xu
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdqeusbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8S4QAJS93Xj606wKjX+W6LzB
+6kM8U8/uzVgk7CljafsIYispbAXtON2398HRZ0glpMsSmxq29yWjV9UBZvg2voL8
+3J8o4N5wQyIWgDYuo2QhR+F9l7cK3JEOfdHncyYvVn0hM1gFhPrKpPf2PC2i0ZwT
+Si+KQvdEy8RTdklZ/unI74aRrkcpRzZbP5Up8xLbtjZfvTiCExsLY3PjCmFYn4qT
+sIYKU349nxU1SKywyBvq49Ydgl+MaKFSg1jYvgLuc/MK/kwDIEQ2t/5QjBj5z3O8
+t3Mve0tPlgAzlWyM74yTMrl0+//apOTkMdSSoIkjbJ6YdGVWYrXX0Xsg2p9g3yXO
+bhODK1SUOViDlsTNQ8fBvbOid0nlbXRT7iOrKpL6G+UX/RdIA8FOcLDoEiZsOZOI
+ambuDB69x1GDrmLw43CDPQdNXqBcpF+WWTSje4Ba3kEu3HdXN/+zhpln1mINnHFg
+YmFCs3KQfONaB3KCzVmar9xHLCo1fzr1G5SYTHXZOvSAIXMzXpHtR0xqaVxBEO7t
+RUL1zRs2yh8pKWKvthQV1TQTstf4lBbB+VEfMBqYFCnXp4eys7aRyQrZf3dLvjK/
+MrZOyDF7uEXFjo5ot0J1Mq3Tr6UTkA2bZgmIZnuSuZc4cqzVhRmkmT6PG51Um0Jt
+ywmvCBpy9Lqj2WStzMCGvkdD
+=WD0G
 -----END PGP SIGNATURE-----
 
---===============1258042715156024451==--
+--===============0428938181688494293==--
