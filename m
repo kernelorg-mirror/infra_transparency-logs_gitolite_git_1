@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Tue, 24 Dec 2024 09:58:43 -0000
-Message-Id: <173503432302.4061334.8232355801666726651@gitolite.kernel.org>
+Date: Tue, 24 Dec 2024 10:00:50 -0000
+Message-Id: <173503445073.4064449.2579874417159262740@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,11 @@ repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
   - ref: refs/heads/wip/leon-for-next
-    old: c57c76498a895a705b624ed65dfe5a3037b78d83
-    new: 695df3e833c04aa48e57c28a25311dfdde241ce3
+    old: 695df3e833c04aa48e57c28a25311dfdde241ce3
+    new: 2028c2958775c4861756ace010b433cc1c81f516
     log: |
-         695df3e833c04aa48e57c28a25311dfdde241ce3 RDMA/irdma: Remove unused irdma_cqp_*_fpm_val_cmd functions
+         30dd62fa3954cb7697dbae9c33b2a5c50d8b5c6a RDMA/core: Remove unused ib_ud_header_unpack
+         ddc8fab40b9ae309052d37179a705430fc15db97 RDMA/core: Remove unused ib_find_exact_cached_pkey
+         750efbb9c307f7d9ff43d38f58d3fca087dc041f RDMA/core: Remove unused ibdev_printk
+         2028c2958775c4861756ace010b433cc1c81f516 RDMA/core: Remove unused ib_copy_path_rec_from_user
          
