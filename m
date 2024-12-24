@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Tue, 24 Dec 2024 06:58:47 -0000
-Message-Id: <173502352780.3918270.11329194004411492353@gitolite.kernel.org>
+Date: Tue, 24 Dec 2024 06:59:18 -0000
+Message-Id: <173502355825.3918621.15499718364636938080@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/dtor/input
 user: dtor
 changes:
-  - ref: refs/heads/next
+  - ref: refs/heads/master
     old: e36def244b930524fc2f672cebb7d44a2bbcbfd3
     new: 21d8dd0daf4cf4627a0c4b813e0f91bcda67598a
     log: |
