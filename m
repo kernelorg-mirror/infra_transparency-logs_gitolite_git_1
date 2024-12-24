@@ -1,21 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
-Date: Tue, 24 Dec 2024 19:47:27 -0000
-Message-Id: <173506964764.332923.7558425552199277051@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
+Date: Tue, 24 Dec 2024 19:50:41 -0000
+Message-Id: <173506984194.336564.15089157960576907966@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/phy/linux-phy
-user: vkoul
+repo: pub/scm/linux/kernel/git/tj/wq
+user: tj
 changes:
-  - ref: refs/heads/next
-    old: d7e14bb48847a6278a77718ce83633912956651e
-    new: af1bc0ebe743d4c72f05a95efcc1c66043332be0
+  - ref: refs/heads/for-6.13-fixes
+    old: de35994ecd2dd6148ab5a6c5050a1670a04dec77
+    new: d57212f281fda9056412cd6cca983d9d2eb89f53
     log: |
-         74a5054ee95e5d8b2e77eb97309e8243f9015c3b dt-bindings: phy: qcom,ipq8074-qmp-pcie: Document the IPQ5424 QMP PCIe PHYs
-         470d5704de03579df1107ff791619ad5f470d3f2 phy: rockchip: phy-rockchip-typec: Fix Copyright description
-         af1bc0ebe743d4c72f05a95efcc1c66043332be0 dt-bindings: phy: qcom,qmp-pcie: document the SM8350 two lanes PCIe PHY
+         d57212f281fda9056412cd6cca983d9d2eb89f53 workqueue: add printf attribute to __alloc_workqueue()
+         
+  - ref: refs/heads/for-next
+    old: de35994ecd2dd6148ab5a6c5050a1670a04dec77
+    new: d57212f281fda9056412cd6cca983d9d2eb89f53
+    log: |
+         d57212f281fda9056412cd6cca983d9d2eb89f53 workqueue: add printf attribute to __alloc_workqueue()
          
