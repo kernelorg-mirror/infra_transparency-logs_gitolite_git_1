@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Tue, 24 Dec 2024 06:59:18 -0000
-Message-Id: <173502355825.3918621.15499718364636938080@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
+Date: Tue, 24 Dec 2024 07:48:34 -0000
+Message-Id: <173502651494.3956999.9657718635003147937@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dtor/input
-user: dtor
+repo: pub/scm/linux/kernel/git/linkinjeon/exfat
+user: linkinjeon
 changes:
-  - ref: refs/heads/master
-    old: e36def244b930524fc2f672cebb7d44a2bbcbfd3
-    new: 21d8dd0daf4cf4627a0c4b813e0f91bcda67598a
+  - ref: refs/heads/dev
+    old: d141e72aeffc5f1a4b2f2e144b683bf57d0d12d0
+    new: 39cfa72481683f80c7e8625eddfe4778b7fe5002
     log: |
-         19c8d0ef1e93d96a2552893df7468a1ff1cd963f Input: ff-core - make use of __free() cleanup facility
-         cec6b33a6786e3ecad4b1d4bb7843d122ffa1912 Input: ff-memless - convert locking to guard notation
-         96173d61028736464b305da7bd6b9fb1b8e85d02 Input: ff-memless - make use of __free() cleanup facility
-         4e3929ce6cc13b50e3975e8b243d2fcb17b63c64 Input: mt - convert locking to guard notation
-         5bb6e29a2a5a01d916052fbc5398ed8c2c5377f0 Input: mt - make use of __free() cleanup facility
-         f951e94247e2e0cce9b28526b7e25ad95785e8c1 Input: poller - convert locking to guard notation
-         21d8dd0daf4cf4627a0c4b813e0f91bcda67598a Input: use guard notation in input core
+         39cfa72481683f80c7e8625eddfe4778b7fe5002 exfat: fix the new buffer was not zeroed before writing
          
