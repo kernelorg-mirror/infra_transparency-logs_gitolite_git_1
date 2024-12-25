@@ -1,40 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============7819391076919700394=="
+Content-Type: multipart/mixed; boundary="===============4590310571521797680=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-Date: Wed, 25 Dec 2024 05:11:10 -0000
-Message-Id: <173510347099.780488.12973283533699531165@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
+Date: Wed, 25 Dec 2024 05:52:00 -0000
+Message-Id: <173510592074.811544.13494042269155955084@gitolite.kernel.org>
 
---===============7819391076919700394==
+--===============4590310571521797680==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+repo: pub/scm/linux/kernel/git/chrome-platform/linux
 user: tzungbi
 changes:
-  - ref: refs/heads/for-next
-    old: add32e47ab2cac6b0bb14fc857dbcf387de4cddb
-    new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    log: revlist-add32e47ab2c-40384c840ea1.txt
+  - ref: refs/heads/master
+    old: 28620f707a4b7315305d0f3e14b02cccdf7a0055
+    new: 59d1329359ffd84d481772990972be70e3b5a742
+    log: revlist-28620f707a4b-59d1329359ff.txt
 
---===============7819391076919700394==
+--===============4590310571521797680==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-add32e47ab2c-40384c840ea1.txt
+Content-Disposition: attachment; filename=revlist-28620f707a4b-59d1329359ff.txt
 
-4eb98b7760e8078dbc984ee08b02b5b4c3cff088 Merge tag 'vfs-6.13.mount.api' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-70e7730c2a78313e3ccc932410c939816e3ba1bc Merge tag 'vfs-6.13.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-5bb6ba448fe3598a7668838942db1f008beb581b Merge tag 'vfs-6.13.rust.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-56be9aaf98d58bf69e2c948c183001d77e63fbbb Merge tag 'vfs-6.13.pagecache' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-8dcf44fcad5ef5c1ff915628255c19cbe91f2588 Merge tag 'vfs-6.13.netfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-4c797b11a88297b9b0010b2c6645b191bac2350c Merge tag 'vfs-6.13.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-a29835c9d0ba5365d64b56883692d0e8675fb615 Merge tag 'vfs-6.13.ovl' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-909d3b571e5a77aef0949818de1efda129dcddbd Merge tag 'vfs-6.13.pidfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-a5ca57479656f2562f164d650c6646debbe2f99b Merge tag 'vfs-6.13.usercopy' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 7956186e751bc15541ede638008feedc0e427883 Merge tag 'vfs-6.13.tmpfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 241c7ed4d4815cd7d9c52c8f97bf13181e32ca29 Merge tag 'vfs-6.13.untorn.writes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 23acd177540d7ba929cdc801b73d15d799f654f4 Merge tag 'vfs-6.13.ecryptfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1050,5 +1041,14 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 88862eeb476375687a1de5f45528a437ea598338 Merge tag 'trace-printf-v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
+df9d4e7a2e01756036d93d750c62cdff222ad982 platform/chrome: cros_kbd_led_backlight: remove unneeded if-statement
+4b308a1944b8ff1d50131849372672396a799a37 platform/chrome: cros_ec: jump to RW before probing
+bd37caa72a61fea3c1ddf465ed1b122b6a613349 platform/chrome: cros_ec_proto: remove unnecessary retries
+c42951620dd473835f653ec5e127c8f284f4381b platform/chrome: cros_kbd_led_backlight: Remove OF match
+770aed02a55a249362ba3c2e6c361107b02aae7b dt-bindings: cros-ec: Remove google,cros-kbd-led-backlight
+a0355d4d55f31c34d957ab1d94a5776ce235f786 platform/chrome: cros_ec_vbc: Constify 'struct bin_attribute'
+a15ab7a5cc2a17b6a803f624fcf215f4e68d56b6 platform/chrome: cros_ec_lpc: Only check for events on MKBP notifies
+dcd59d0d7d51b2a4b768fc132b0d74a97dfd6d6a platform/chrome: cros_ec_lpc: fix product identity for early Framework Laptops
+59d1329359ffd84d481772990972be70e3b5a742 Merge remote-tracking branch 'origin/chrome-platform-6.13' into for-next
 
---===============7819391076919700394==--
+--===============4590310571521797680==--
