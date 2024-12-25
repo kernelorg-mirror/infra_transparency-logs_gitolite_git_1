@@ -1,42 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============1785106565489589985=="
+Content-Type: multipart/mixed; boundary="===============7205571328840726008=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/ext2/xfstests-bld
-Date: Wed, 25 Dec 2024 03:23:07 -0000
-Message-Id: <173509698769.695841.4194432600308510329@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
+Date: Wed, 25 Dec 2024 04:28:17 -0000
+Message-Id: <173510089789.745581.16323895419241599165@gitolite.kernel.org>
 
---===============1785106565489589985==
+--===============7205571328840726008==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/ext2/xfstests-bld
-user: tytso
+repo: pub/scm/linux/kernel/git/powerpc/linux
+user: maddy
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 167b6da368d5acff83f073b5aa3ff728073aa307
-    new: ad8889bae3a76d50d679818120bc0a724c5539ae
-    log: revlist-167b6da368d5-ad8889bae3a7.txt
+  - ref: refs/heads/fixes
+    old: fac04efc5c793dccbd07e2d59af9f90b7fc0dca4
+    new: 05aa156e156ef3168e7ab8a68721945196495c17
+    log: |
+         05aa156e156ef3168e7ab8a68721945196495c17 powerpc/pseries/vas: Add close() callback in vas_vm_ops struct
+         
 
---===============1785106565489589985==
+--===============7205571328840726008==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-167b6da368d5-ad8889bae3a7.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-552ee26ba97841f9d1b63716fafc1fce41c97058 test-appliance: add a versioned exclude for generic/743
-bca634aa34593cbaa691eb2a4c363fac59a2ef04 selftests: fix ltm-auto-resume failure caused by top-level results.xml
-1a2a333044a67655c0cb6187b5642595c96e41fd test-appliance: remove dependency on python3-future from junitparser.py
-9a9587d6ce3cbcdc6369da32aeb9c5ca4fd61171 test-appliance: generate kernel version information in /run
-01da22ba82ea93f2358b42eda4af5881f1572f1a test-appliance: add support to use a mkfs config file for LTS kernels
-95fce8c2e43de36aafdbfe211228849f29811a0d parse_cli: use --mkfs-config instead of --mkfs_config
-4082abc37ef5be188bbb8ebe5fb17f390c9ad44c test-appliance: print a warning message if the mkfs-config doesn't exist
-b36af8eec8c5391d7df50f446362e54f933b292c test-appliance: don't use the primary test device when using MKFS_CONFIG
-ea960a986b3f4622da8064230d06edef03bfe80b test-appliances: ext4: add mkfs-config support
-3649ac0d1944354f33ce59b631defc9b84fe1a63 gce-xfstests: allow the user to define their own git repo URL's
-f62433b74146e6ecacdeace306828c6c7510c4a6 test-appliance: combine xfs's lts configuration with its mkfs option
-ad8889bae3a76d50d679818120bc0a724c5539ae gce-xfstests: use an intelligent default for the git repo
+certificate version 0.1
+pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1735100908 +0530
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
+nonce 1735100878-52a8a15204e94e65a1db192a5700a3e9ca266dc7
 
---===============1785106565489589985==--
+fac04efc5c793dccbd07e2d59af9f90b7fc0dca4 05aa156e156ef3168e7ab8a68721945196495c17 refs/heads/fixes
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmdriewACgkQpnEsdPSH
+ZJS9dRAAmhuWSWOCz5YjKXKk1o53iosi8nVIXPuKyYjdJlFVZ8MNHnKnPDzN6L3+
+rPnxVh08S912ty6LSh+GIUDl60x5qYX9Zg6/3/17z5S72b8K+nNTHzA/h63200Dy
+LOiw5DbnuaFToDTfY2M7A8+Tk5anttv78k4vYbsEp3ElB2aohW0Zk+S2nMgYjAO3
+BvXohywfxJZuK0ah8FOt/dskBHZuWbFN3why2Tzp9pPZNeisxqLF9TjTJy7auFTy
+CYTRJUEL8Ze//mGmW6EKk+5TJGtKl8TycLUkPExMJKAh/9GygBj6TnQwfy02qYKI
+LfPEnwLAc+lOEvIYuU5rOw3LWtVN12UnlxXeYhv1l3F173OGoagjq9uPZjsFrlpS
+0TDjrMA56HDOjdpopplvv2xGxc8DZcvP3SEobdv7/1VxwbFFKC2Lh1lYz8Fk7kcP
+XOimq2ik8767dOGMR9TZQfPeNgoWn0Ms0BZ8rDcq+5dJAyD28TZdJRxy+gHM5G7j
+3KFzPuemDlZe+5xdWzB5gppcMPlsJZ9TM8+MsAarYlr5xgoyrLcrZEoG0d7Mpw7R
+zjdsLY7zdUE+ZBWSy3oAvQmNh4VSxEUjAligYMJlT6b16+fv28qcbha3wDGFUz0C
+0xij457QqgNgXhLVEc3MDzSaC5W5I7NF+X+s0odhHdLAJgXC8aI=
+=rQRa
+-----END PGP SIGNATURE-----
+
+--===============7205571328840726008==--
