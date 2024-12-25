@@ -1,25 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Wed, 25 Dec 2024 07:13:34 -0000
-Message-Id: <173511081402.872871.2428300986600511658@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Wed, 25 Dec 2024 07:18:55 -0000
+Message-Id: <173511113529.877361.15176026538770492004@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 1a4f56e8c029d463e9b8461ea3256ae16c88ddf6
-    new: 7a6fad9d05aae1c2cd3922c8a1004916c2fe62f8
+  - ref: refs/heads/experimental
+    old: 23a7e7619f823e1bc8801fbfcf45fc9f6e8bcf98
+    new: 7c37df058e6fa94d0f355fdc7cd245af1360ae7b
     log: |
-         b69fc258027cdadf2fb2335f75735ba514e63680 RDMA/rxe: Remove deliver net device event
-         ac8267d70bc449387445fb8191578b81d2a52134 RDMA/siw: Remove deliver net device event
-         097d5a332d7ad6200be5b1403ede7910fd96f57c RDMA/usnic: Support report_port_event() ops
-         11495067a0fa7c1873547e3d2f67d2faf6854be7 RDMA/mlx4: Support report_port_event() ops
-         50ac8aec389aeb4cd1511ee4a55f4f0d9becb118 RDMA/pvrdma: Support report_port_event() ops
-         63e7c4d16553e2461cb1057f4d5eebfb6e2d8680 RDMA/mlx5: Handle link status event only for LAG device
-         7a6fad9d05aae1c2cd3922c8a1004916c2fe62f8 RDMA/hns: Support fast path for link-down events dispatching
+         6ab35568e7d55bc34d806343a723733f1aed4a8b erofs-utils: lib: fix btype for the data tails of directories
+         5aacd7346fbe1c387ca1dd77d84a7a79bc94c1cd erofs-utils: lib: get rid of `len` in z_erofs_compress_one()
+         22d4ddfbe413b93907c819f6c254d9e3932dc7f0 erofs-utils: mkfs: speed up uncompressed data handling
+         125d5688e55170df00361c52cf65995b4336af40 erofs-utils: mkfs: allow disabling fragment deduplication
+         b2689acb15be37123dfb3d3095b74f4798ff1a60 erofs-utils: lib: cache: get rid of required_ext
+         fd83078acd6ad97ae009d59d5b4d388db016ba81 erofs-utils: lib: move block boundary check into __erofs_battach()
+         217f8ef88d71ee220f6d30e936b651f16c81afd0 erofs-utils: support buffer block reservation
+         78a8a37628cbffc431ea87d5ccab5394ebcbb062 erofs-utils: mkfs: support data alignment
+         7c37df058e6fa94d0f355fdc7cd245af1360ae7b erofs-utils: lib: drop prefix_sha256 digests
          
