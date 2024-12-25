@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Wed, 25 Dec 2024 04:54:24 -0000
-Message-Id: <173510246408.765885.12415220681448368347@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+Date: Wed, 25 Dec 2024 05:06:17 -0000
+Message-Id: <173510317704.776318.18195886595762210321@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chrome-platform/linux
+repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
 user: tzungbi
 changes:
-  - ref: refs/heads/HEAD
-    old: 59d1329359ffd84d481772990972be70e3b5a742
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/meta/cgit
+    old: e8a7975e8316bbc02bb0518233757a4e4ebe493d
+    new: 328d0aee41346d3e81c05cfa350b0fcee4f1903f
+    log: |
+         328d0aee41346d3e81c05cfa350b0fcee4f1903f Update cgitrc
+         
