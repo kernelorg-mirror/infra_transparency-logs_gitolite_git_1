@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8082077817267284942=="
+Content-Type: multipart/mixed; boundary="===============6191066999587373195=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 25 Dec 2024 22:44:34 -0000
-Message-Id: <173516667429.1594213.13361071586886187290@gitolite.kernel.org>
+Date: Wed, 25 Dec 2024 22:44:37 -0000
+Message-Id: <173516667765.1594367.7785644907995665479@gitolite.kernel.org>
 
---===============8082077817267284942==
+--===============6191066999587373195==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: ee5da79b4f2a24a90417b0ae661971c0a12f2a48
-    new: 667506c43645e27b07b986b4b5a0f05a9ffabab9
-    log: revlist-ee5da79b4f2a-667506c43645.txt
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: 06b911b17b64e922f5a314b822364b607565326d
+    new: e0cec363197e41af870613e8e17b30bf0e3d41b5
+    log: revlist-06b911b17b64-e0cec363197e.txt
 
---===============8082077817267284942==
+--===============6191066999587373195==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ee5da79b4f2a-667506c43645.txt
+Content-Disposition: attachment; filename=revlist-06b911b17b64-e0cec363197e.txt
 
 bc7acc0bd0f94c26bc0defc902311794a3d0fae9 of: property: fw_devlink: Do not use interrupt-parent directly
 1a75e81baf4f1b322f3498ffd373eaada8e60589 of/unittest: Add empty dma-ranges address translation tests
@@ -336,8 +336,7 @@ bcde95ce32b666478d6737219caa4f8005a8f201 Merge tag 'devicetree-fixes-for-6.13-1'
 8afa5b10af9d748b055a43949f819d9991d63938 Merge tag 'kvm-x86-fixes-6.13-rcN' of https://github.com/kvm-x86/linux into HEAD
 b1fdbe77be6d31d78ecc2a82ea7167773293fed0 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 4bbf9020becbfd8fc2c3da790855b7042fad455b Linux 6.13-rc4
-8380407f8074a48bdd6c5aebb71102d04566c0af i2c: keba: drop check because i2c_unregister_device() is NULL safe
-a77af231101aed49e5e2728a014c51ad8eb58ae7 i2c: imx: fix divide by zero warning
-667506c43645e27b07b986b4b5a0f05a9ffabab9 i2c: imx: make controller available until system suspend_noirq() and from resume_noirq()
+768776dd4efc681cdca33a79e29bb508d6de9bc0 i2c: imx: fix missing stop condition in single-master mode
+e0cec363197e41af870613e8e17b30bf0e3d41b5 i2c: imx: add imx7d compatible string for applying erratum ERR007805
 
---===============8082077817267284942==--
+--===============6191066999587373195==--
