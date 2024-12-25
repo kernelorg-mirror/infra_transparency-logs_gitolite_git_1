@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7205571328840726008=="
+Content-Type: multipart/mixed; boundary="===============8543914103596220264=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Wed, 25 Dec 2024 04:28:17 -0000
-Message-Id: <173510089789.745581.16323895419241599165@gitolite.kernel.org>
+Date: Wed, 25 Dec 2024 04:35:26 -0000
+Message-Id: <173510132683.752477.2962900503965750676@gitolite.kernel.org>
 
---===============7205571328840726008==
+--===============8543914103596220264==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,41 @@ repo: pub/scm/linux/kernel/git/powerpc/linux
 user: maddy
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/fixes
-    old: fac04efc5c793dccbd07e2d59af9f90b7fc0dca4
-    new: 05aa156e156ef3168e7ab8a68721945196495c17
+  - ref: refs/heads/merge
+    old: 2dd095785f045588cadc8451f6ff594e2cbf60c9
+    new: 624bb7ffe55cc39582f0a063f17958673aa2ca1a
     log: |
          05aa156e156ef3168e7ab8a68721945196495c17 powerpc/pseries/vas: Add close() callback in vas_vm_ops struct
+         624bb7ffe55cc39582f0a063f17958673aa2ca1a Automatic merge of 'fixes' into merge (2024-12-25 10:04)
          
 
---===============7205571328840726008==
+--===============8543914103596220264==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1735100908 +0530
+pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1735101354 +0530
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1735100878-52a8a15204e94e65a1db192a5700a3e9ca266dc7
+nonce 1735101323-0b3e1d4f9c37c94b7ff13ed5547914a394ba5882
 
-fac04efc5c793dccbd07e2d59af9f90b7fc0dca4 05aa156e156ef3168e7ab8a68721945196495c17 refs/heads/fixes
+2dd095785f045588cadc8451f6ff594e2cbf60c9 624bb7ffe55cc39582f0a063f17958673aa2ca1a refs/heads/merge
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmdriewACgkQpnEsdPSH
-ZJS9dRAAmhuWSWOCz5YjKXKk1o53iosi8nVIXPuKyYjdJlFVZ8MNHnKnPDzN6L3+
-rPnxVh08S912ty6LSh+GIUDl60x5qYX9Zg6/3/17z5S72b8K+nNTHzA/h63200Dy
-LOiw5DbnuaFToDTfY2M7A8+Tk5anttv78k4vYbsEp3ElB2aohW0Zk+S2nMgYjAO3
-BvXohywfxJZuK0ah8FOt/dskBHZuWbFN3why2Tzp9pPZNeisxqLF9TjTJy7auFTy
-CYTRJUEL8Ze//mGmW6EKk+5TJGtKl8TycLUkPExMJKAh/9GygBj6TnQwfy02qYKI
-LfPEnwLAc+lOEvIYuU5rOw3LWtVN12UnlxXeYhv1l3F173OGoagjq9uPZjsFrlpS
-0TDjrMA56HDOjdpopplvv2xGxc8DZcvP3SEobdv7/1VxwbFFKC2Lh1lYz8Fk7kcP
-XOimq2ik8767dOGMR9TZQfPeNgoWn0Ms0BZ8rDcq+5dJAyD28TZdJRxy+gHM5G7j
-3KFzPuemDlZe+5xdWzB5gppcMPlsJZ9TM8+MsAarYlr5xgoyrLcrZEoG0d7Mpw7R
-zjdsLY7zdUE+ZBWSy3oAvQmNh4VSxEUjAligYMJlT6b16+fv28qcbha3wDGFUz0C
-0xij457QqgNgXhLVEc3MDzSaC5W5I7NF+X+s0odhHdLAJgXC8aI=
-=rQRa
+iQIyBAABCAAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmdri6oACgkQpnEsdPSH
+ZJS5nw/4q2yBp8vJyaDBkjgJNLq8CfGPJ+HQFGUiUI+XhBpoowUct7ZlJltI1yWV
+TxVR4bO5rBtRtX1tDERPo2+S/SirZPZGqt2oi4Z7ZAjqZHzgQcAGvqIlGxUGEJ4k
+inNyh4kVFSZcBuAjr7zxeoJyGiMeUpYPRZYjQZB9MSZnnAOBLvYg9PyvPQfo2Nzz
+zEFqvx5ZzhV6cx6Qqw7Ouw7F9aZbsIcLK3cNAsHMu4ACeqXWReRGIM7rQLSTLXZW
+8rq3N9dcgxsv96mCZYbF3rnLVuwA0IgdEAPXc74olYlY9iak+cy7Y2hlndivJNT7
+7fO8JUsBwt6WkoSs4KQ7TsxXRF/+lMj3OU1/GXIY5dntdMkeI5z7PQVLmNOTPo8p
+V3hURFLbFCQubH1miHz0pkhX7++2ZkVzOeszGRVbgq9zTis7EJFqVZWBY24S7ndU
+J3RkCQbBVCSTqCQho2GuwXgu83pnWcq+bHkB3CUl7sP38yho9xB8IzLivMLVtlAJ
+RSnMMIK/yrG40eG23xUOgOV4g5Fzn9wd8IOAHXxXA1+sRHjRM6Rt/fvsBZBxn2/k
+N6ISs4AZz7J7vqyD43BRqVpOmKfwRWp9wG2LlH9XingTxdDo9593IklV+2dW3eYr
+aynzgHCQR9DyoFBge6nLqhdTYl5bZREXUAWwZ/qoNqvVNLnLOg==
+=5MNF
 -----END PGP SIGNATURE-----
 
---===============7205571328840726008==--
+--===============8543914103596220264==--
