@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 26 Dec 2024 17:49:34 -0000
-Message-Id: <173523537481.2488105.13303916765864919235@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux
+Date: Thu, 26 Dec 2024 17:53:46 -0000
+Message-Id: <173523562680.2491511.16362789333585364285@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/shuah/linux
+user: shuah
 changes:
-  - ref: refs/heads/io_uring-6.13
-    old: dbd2ca9367eb19bc5e269b8c58b0b1514ada9156
-    new: e33ac68e5e21ec1292490dfe061e75c0dbdd3bd4
+  - ref: refs/heads/cpupower
+    old: 6de02569a2bb678db04236fdf29814c0c27f5121
+    new: 6aa569db9bc8715459c1e1efe99e3b8771c9f870
     log: |
-         e33ac68e5e21ec1292490dfe061e75c0dbdd3bd4 io_uring/sqpoll: fix sqpoll error handling races
+         6aa569db9bc8715459c1e1efe99e3b8771c9f870 pm: cpupower: Add header changes for cpufreq.h to SWIG bindings
          
