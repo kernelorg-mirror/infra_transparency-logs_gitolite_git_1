@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Thu, 26 Dec 2024 11:00:56 -0000
-Message-Id: <173521085696.2168611.14561302003026886918@gitolite.kernel.org>
+Date: Thu, 26 Dec 2024 11:05:52 -0000
+Message-Id: <173521115276.2172750.8582040632299633489@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,12 +12,15 @@ repo: pub/scm/utils/util-linux/util-linux
 user: kzak
 changes:
   - ref: refs/heads/master
-    old: 25e62e5e57f2e8cd04a63c7a9499ce9c81047925
-    new: 855c87c7bdabb13ac7bf36c968fb2fd732b145b6
+    old: 855c87c7bdabb13ac7bf36c968fb2fd732b145b6
+    new: 3645384e2476cf44555ac93aaa0cff9c0b385571
     log: |
-         e37df30dbb0b905ea2c89ca7112afb8c4353e24f fstrim: fix SYNOPSIS/usage (mandatory fstrim -A|-a|mountpoint)
-         851a168e82a1264e2693acba5746ec30eee0c43b tests: fdisk/bsd: Update expected output for alpha
-         a0ce085c261a1d981bfa0acd4272b6ba77bfa3be fincore: Use correct syscall number for cachestat on alpha
-         b602c56b5544e20fa0e0d98550660fdb0b19a7d7 Merge branch 'alpha-fdisk-bsd' of https://github.com/glaubitz/util-linux
-         855c87c7bdabb13ac7bf36c968fb2fd732b145b6 Merge branch 'alpha-fincore' of https://github.com/glaubitz/util-linux
+         128334e5b5188151fb16ab7f52ca9884580a668d lsfd: consolidate add_column()
+         b0098ad2305d10379188cc66d32e52155bea00f4 tests: (test_sysinfo) add a helper to call xgethostname
+         d1cdc16f448f0411467d852384bb46aadf4197b0 lsfd: add --hyperlink command line option
+         fd83959414211fc3d9bc3596fb7e3653fa64fcf0 lsfd: enable hyperlinks only for regular files and directories
+         cd00741c05a3d026975499412c0b5fb7243acb48 lsfd: don't enable hyperlinks for deleted files
+         9156b69f05bc1519230d823c735cc69be9823de5 lscpu: Add FUJITSU aarch64 MONAKA cpupart
+         c5e7d3b5653f718abab8c6e6802a6cf1174dd693 Merge branch 'lscpu_monaka_support' of https://github.com/Emi-Kisanuki/util-linux
+         3645384e2476cf44555ac93aaa0cff9c0b385571 Merge branch 'lsfd--hyperlinks' of https://github.com/masatake/util-linux
          
