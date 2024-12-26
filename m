@@ -1,20 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Thu, 26 Dec 2024 18:26:19 -0000
-Message-Id: <173523757987.2517979.3409948187687901960@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1843874643826311646=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Thu, 26 Dec 2024 18:29:32 -0000
+Message-Id: <173523777291.2519675.7869751551838063332@gitolite.kernel.org>
+
+--===============1843874643826311646==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next
-    old: 4dca2f142bb9bf5368982e2ad6615c0577d350a4
-    new: c249ce103232f026d091929e374f1c75d760724b
-    log: |
-         cc47b123159dbad9c8a7e977e977e410de090418 arm64: dts: qcom: sm8350-hdk: enable IPA
-         c249ce103232f026d091929e374f1c75d760724b Merge branches 'arm64-defconfig-for-6.14', 'arm64-fixes-for-6.13', 'arm64-for-6.14', 'clk-fixes-for-6.13', 'clk-for-6.14', 'drivers-fixes-for-6.13' and 'drivers-for-6.14' into for-next
-         
+  - ref: refs/tags/hardening-v6.13-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 97df6e2027264c734b9a416a86347761481b3c30
+
+--===============1843874643826311646==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1735237801 -0800
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
+nonce 1735237771-5d8538ea9676c4a269f100e1750cd5a0e0c3a1c2
+
+0000000000000000000000000000000000000000 97df6e2027264c734b9a416a86347761481b3c30 refs/tags/hardening-v6.13-rc5
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCZ22gqQAKCRA2KwveOeQk
+uzMbAP9+NolCBQCEsLF+lCQEPA9ZAxb3CSxOdI5i6bnSTvgjjAD7BrGPy1bCzaGU
+5NRo5wkNNDeg6IiM1sKogJyZTfdUMAQ=
+=OoEb
+-----END PGP SIGNATURE-----
+
+--===============1843874643826311646==--
