@@ -1,42 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============7996461592656197125=="
+Content-Type: multipart/mixed; boundary="===============5899593818785252741=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Thu, 26 Dec 2024 20:27:34 -0000
-Message-Id: <173524485446.2612000.12480478143160121308@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Thu, 26 Dec 2024 20:34:20 -0000
+Message-Id: <173524526091.2616764.16922294348221155670@gitolite.kernel.org>
 
---===============7996461592656197125==
+--===============5899593818785252741==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ti/linux
-user: nmenon
+repo: pub/scm/linux/kernel/git/sj/damo
+user: sj
 changes:
-  - ref: refs/heads/ti-next
-    old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    new: 09b428453219d470475d0d6447c954bf63b95705
-    log: revlist-40384c840ea1-09b428453219.txt
+  - ref: refs/heads/next
+    old: 409e84aa32e2e9acf740f5534f08258634aaf87a
+    new: 59ec8bb5cbe276842567173a11187cee207d05f9
+    log: revlist-409e84aa32e2-59ec8bb5cbe2.txt
 
---===============7996461592656197125==
+--===============5899593818785252741==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-40384c840ea1-09b428453219.txt
+Content-Disposition: attachment; filename=revlist-409e84aa32e2-59ec8bb5cbe2.txt
 
-a4b422390be3c4147db6d97b016adecb3573635d arm64: dts: ti: k3-am62x-phyboard-lyra: Set RGB input to 16-bit for HDMI bridge
-2a0418ac48d3083e2b209242237abef84497d19f arm64: dts: ti: k3-am62x-phyboard-lyra: Add HDMI bridge regulators
-4ffe12ccae4ab20e5dc41dc428f909467ed7cc4d arm64: dts: ti: k3-am62-phycore-som: Define vcc-supply for I2C EEPROM
-80ad23c4032c6b2afe225c866b9496472965b9ed arm64: dts: ti: am62-phyboard-lyra: Provide a vcc-supply for the I2C EEPROM
-94a7666e3eb9f52f0097c0ca6fb093f5f20d4462 arm64: dts: ti: k3-j784s4: Fix clock IDs for MCSPI instances
-325aa0f6b36eab0fe7d7efdb49b55cf7d664424a arm64: dts: ti: k3-pinctrl: Introduce deep sleep macros
-527f884d2d94981016e181dcbd4c4b5bf597c0ad arm64: dts: ti: k3-am62x-sk-common: Support SoC wakeup using USB1 wakeup
-0cd578054e7107cab921ff0c24f4ac6d14d3661b arm64: dts: ti: k3-j784s4-evm: Mark tps659413 regulators as bootph-all
-0a41157c5a988520debb656325722f401163eca3 arm64: dts: ti: k3-am69-sk: Mark tps659413 regulators as bootph-all
-f7ed5ae30cf395d92a3e1e3c843fa86ce96167b8 dt-bindings: soc: ti: pruss: Add clocks for ICSSG
-25aadf5039fe8920835fb1452db08afa27a0edd9 arm64: dts: ti: k3-am64-main: Switch ICSSG clock to core clock
-09b428453219d470475d0d6447c954bf63b95705 arm64: dts: ti: Remove unused and undocumented "ti,(rx|tx)-fifo-depth" properties
+ff5ccebeba5b59bf096acd12e2d443c961621c5b _damon: add pass_filter feature
+5fab75d574cdb0a5910fc850fe6d0d3039812eff _damon_sysfs: detect pass_filter feature support
+6968fca1d63bcaac047c490b41ece3e5c65dc390 _damon: add filter_pass field to DamosFilter
+514e47e31f60563e69920fba78cd5a74bb79c27c _damon_sysfs: support reading 'pass' DAMOS filter sysfs file
+aece13a122315e8628b47a8e380cb53bf373c809 _damon_sysfs: support writing DAMOS filter 'pass'
+f7c6c7e39f46c8a4768d21b986f7f85192bc1696 _damon_args: support filter_pass from passed_bytes_type_str()
+4d2bd544138952a7e1fe2dc5f63ce02f72ffaa37 _damon_args: support filter-pass argument for anon filter type
+e2f17f8cdc3c4ecb32928e96db240081ee2a1f11 _damon_args: implement a function for handling DAMOS filter optional arguments
+482283704c172d0689a49bc5d2592055aaf7fd80 _damon_args: support pass_filter arguments for all filter types
+d4f0043d36ef22de1f5467fac2b330330512baed _damon: update DamosFilter.to_str() to more human friendly
+60f650f60d5eb89bf8885248f6ed430845ea7fae damo_report_access: fix a typo: s/passsed/passed/
+6307da118b11a31893609cdae0300eeeff30241c damo_report_access: display filter on snapshot head
+5a5313986c63453fe48b0c3f4f551c096d73d4c0 USAGE: update page level monitoring example with pass filters
+8fbb21217e11d7161d9658b23f2fbd86e1e5cd52 damo_report_access: call DAMOS filters as df on output
+2fc278c0dad0459f977289724e1839c155223ee5 USAGE: add a section for --damos_filter format
+59ec8bb5cbe276842567173a11187cee207d05f9 tests/unit/test_damon_args: add a test for handle_err_get_filter_pass()
 
---===============7996461592656197125==--
+--===============5899593818785252741==--
