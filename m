@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
-Date: Thu, 26 Dec 2024 13:35:58 -0000
-Message-Id: <173522015891.2288323.2079125224521274599@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 26 Dec 2024 13:49:34 -0000
+Message-Id: <173522097437.2297841.10439243870443371682@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/dmaengine
-user: vkoul
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/tags/dmaengine-fix-6.13
-    old: 0000000000000000000000000000000000000000
-    new: a5e7e410e81ba4e03d521147257a40b950b42a5d
+  - ref: refs/heads/block-6.13
+    old: 85672ca9ceeaa1dcf2777a7048af5f4aee3fd02b
+    new: 75cd4005da5492129917a4a4ee45e81660556104
+    log: |
+         75cd4005da5492129917a4a4ee45e81660556104 ublk: detach gendisk from ublk device if add_disk() fails
+         
