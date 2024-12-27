@@ -1,44 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============2774555640657117473=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Fri, 27 Dec 2024 19:26:17 -0000
-Message-Id: <173532757700.3958674.2515344306333801281@gitolite.kernel.org>
-
---===============2774555640657117473==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 27 Dec 2024 19:27:21 -0000
+Message-Id: <173532764114.3959353.14651777503124337084@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/seen
-    old: c71c9ba73f57f172f2c989f8295e4f434d768922
-    new: 7d53c3011a072ce9f809afff4bb897cc3fe159f1
-    log: revlist-c71c9ba73f57-7d53c3011a07.txt
-
---===============2774555640657117473==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c71c9ba73f57-7d53c3011a07.txt
-
-30e44e03209b9e6265ba24c1ab216c9fc71fe369 Merge branch 'ds/backfill' into jch
-a98151c9db7cc5fc8cab3bfe91171628acdbbef6 Merge branch 'ps/3.0-remote-deprecation' into jch
-9c6349e9852a7f120e789b43d95ed304c4507b71 Merge branch 'ps/the-repository' into jch
-072b4cc1cc612b03dccbe02ddf0b0f9c42486685 Merge branch 'jc/show-index-h-update' into jch
-d61b4c0e29b6a2cdcd63149dd2b2e3c0567a7cec Merge branch 'rs/reftable-realloc-errors' into jch
-e883d36ca3806c42285bf9c99797a69e097cd9f1 Merge branch 'js/libgit-rust' into seen
-a140e0667deea670b61bddd5453ed3ede07a6f3d Merge branch 'y5/diff-pager' into seen
-89a57442a70edc5308aef4626884ab73d2397dbe Merge branch 'km/config-remote-by-name' into seen
-f1d4d8178d055379eb890186e3f837d13588c22d Merge branch 'ps/send-pack-unhide-error-in-atomic-push' into seen
-aa4558c4cdfa69a608c7b649942900371c5a6d7b Merge branch 'jc/doc-attr-tree' into seen
-30926dfa22ca3724f148423d789274bad5b476f7 Merge branch 'ps/meson-test-wo-gitweb' into seen
-7e18853cf792fe618f8b82f196b85d66f7b1ef36 Merge branch 'ms/t7611-test-path-is-file' into seen
-f256c0039532ab64bf1eed7807df67c42287fe31 Merge branch 'ps/more-sign-compare' into seen
-7d53c3011a072ce9f809afff4bb897cc3fe159f1 Merge branch 'sk/strlen-returns-size_t' into seen
-
---===============2774555640657117473==--
+  - ref: refs/heads/main
+    old: b3a69c559899b00ca106767c873680b0adf5882c
+    new: a024e377efed31ecfb39210bed562932321345b3
+    log: |
+         542ed8145e6f9392e3d0a86a0e9027d2ffd183e4 netfilter: nft_set_hash: unaligned atomic read on struct nft_set_ext
+         6b830c6a023ff6e8fe05dbe47a9e5cd276df09ee netlink: specs: mptcp: add missing 'server-side' attr
+         bea87657b5ee8e6f18af2833ee4b88212ef52d28 netlink: specs: mptcp: clearly mention attributes
+         4f363fe9f6b28ed9b714cd7fe5ce880171927dab netlink: specs: mptcp: fix missing doc
+         1fa9d91e9f2549e3a4bc90495c6ec615c56702a6 Merge branch 'netlink-specs-mptcp-fixes-for-some-descriptions'
+         daefdbb5cc39247cf85122f52d3021e6c4d7aa19 Merge tag 'nf-24-12-25' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
+         a024e377efed31ecfb39210bed562932321345b3 net: llc: reset skb->transport_header
+         
