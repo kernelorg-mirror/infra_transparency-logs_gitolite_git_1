@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Fri, 27 Dec 2024 21:56:00 -0000
-Message-Id: <173533656018.4078656.9809718258646828114@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Fri, 27 Dec 2024 22:00:04 -0000
+Message-Id: <173533680438.4082655.17690759328806330308@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/seen
-    old: 7d53c3011a072ce9f809afff4bb897cc3fe159f1
-    new: bca6fd9575f6565d2945a2c33861b36ce74459ec
+  - ref: refs/heads/arm64/dumpreg
+    old: 42328b24808b8e30b6abffea3a72d446f4102eb9
+    new: f9b239be5f1406e888745e7fda6849566698a166
     log: |
-         24027256aa9614a445563707a72af7ce5ff49b5b sign-compare: avoid comparing ptrdiff with an int/unsigned
-         bca6fd9575f6565d2945a2c33861b36ce74459ec Merge branch 'ps/more-sign-compare' into seen
+         f9b239be5f1406e888745e7fda6849566698a166 arm64: Add basic JSON register parser
          
