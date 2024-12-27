@@ -1,45 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============3894886790552523367=="
+Content-Type: multipart/mixed; boundary="===============2774555640657117473=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 27 Dec 2024 19:21:05 -0000
-Message-Id: <173532726582.3954364.2345380564629697139@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Fri, 27 Dec 2024 19:26:17 -0000
+Message-Id: <173532757700.3958674.2515344306333801281@gitolite.kernel.org>
 
---===============3894886790552523367==
+--===============2774555640657117473==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/master
-    old: d6ef8b40d075c425f548002d2f35ae3f06e9cf96
-    new: 8379578b11d5e073792b5db2690faa12effce8e0
-    log: revlist-d6ef8b40d075-8379578b11d5.txt
+  - ref: refs/heads/seen
+    old: c71c9ba73f57f172f2c989f8295e4f434d768922
+    new: 7d53c3011a072ce9f809afff4bb897cc3fe159f1
+    log: revlist-c71c9ba73f57-7d53c3011a07.txt
 
---===============3894886790552523367==
+--===============2774555640657117473==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d6ef8b40d075-8379578b11d5.txt
+Content-Disposition: attachment; filename=revlist-c71c9ba73f57-7d53c3011a07.txt
 
-afc6e39e824ad0e44b2af50a97885caec8d213d1 power: supply: gpio-charger: Fix set charge current limits
-e5f84d1cf562f7b45e28d6e5f6490626f870f81c power: supply: cros_charge-control: add mutex for driver data
-e65a1b7fad0e112573eea7d64d4ab4fc513b8695 power: supply: cros_charge-control: allow start_threshold == end_threshold
-c28dc9fc24f5fa802d44ef7620a511035bdd803e power: supply: cros_charge-control: hide start threshold on v2 cmd
-05aa156e156ef3168e7ab8a68721945196495c17 powerpc/pseries/vas: Add close() callback in vas_vm_ops struct
-b3ded6072c5600704cfa3ce3a8dc8718d34bda66 power: supply: bq24190: Fix BQ24296 Vbus regulator support
-724c6ce38bbaeb4b3f109b0e066d6c0ecd15446c stddef: make __struct_group() UAPI C++-friendly
-d685d55dfc86b1a4bdcec77c3c1f8a83f181264e tracing/kprobe: Make trace_kprobe's module callback called after jump_label update
-452f4b31e3f70a52b97890888eeb9eaa9a87139a tracing: Constify string literal data member in struct trace_event_call
-98feccbf32cfdde8c722bc4587aaa60ee5ac33f0 tracing: Prevent bad count for tracing_cpumask_write
-2c2b3d906c88a40b75f8d258119400a047e587de Merge tag 'trace-v6.13-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-f0bc704f4688ab6625dc1226cf33338c638ae6b8 Merge tag 'hardening-v6.13-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
-411a678d30ee7c0a5a53d51121c4b51efff98e9d Merge tag 'probes-fixes-v6.13-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-eff4f6758360986fa913c2f17b4960645f4f4b1c Merge tag 'powerpc-6.13-3' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
-8379578b11d5e073792b5db2690faa12effce8e0 Merge tag 'for-v6.13-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply
+30e44e03209b9e6265ba24c1ab216c9fc71fe369 Merge branch 'ds/backfill' into jch
+a98151c9db7cc5fc8cab3bfe91171628acdbbef6 Merge branch 'ps/3.0-remote-deprecation' into jch
+9c6349e9852a7f120e789b43d95ed304c4507b71 Merge branch 'ps/the-repository' into jch
+072b4cc1cc612b03dccbe02ddf0b0f9c42486685 Merge branch 'jc/show-index-h-update' into jch
+d61b4c0e29b6a2cdcd63149dd2b2e3c0567a7cec Merge branch 'rs/reftable-realloc-errors' into jch
+e883d36ca3806c42285bf9c99797a69e097cd9f1 Merge branch 'js/libgit-rust' into seen
+a140e0667deea670b61bddd5453ed3ede07a6f3d Merge branch 'y5/diff-pager' into seen
+89a57442a70edc5308aef4626884ab73d2397dbe Merge branch 'km/config-remote-by-name' into seen
+f1d4d8178d055379eb890186e3f837d13588c22d Merge branch 'ps/send-pack-unhide-error-in-atomic-push' into seen
+aa4558c4cdfa69a608c7b649942900371c5a6d7b Merge branch 'jc/doc-attr-tree' into seen
+30926dfa22ca3724f148423d789274bad5b476f7 Merge branch 'ps/meson-test-wo-gitweb' into seen
+7e18853cf792fe618f8b82f196b85d66f7b1ef36 Merge branch 'ms/t7611-test-path-is-file' into seen
+f256c0039532ab64bf1eed7807df67c42287fe31 Merge branch 'ps/more-sign-compare' into seen
+7d53c3011a072ce9f809afff4bb897cc3fe159f1 Merge branch 'sk/strlen-returns-size_t' into seen
 
---===============3894886790552523367==--
+--===============2774555640657117473==--
