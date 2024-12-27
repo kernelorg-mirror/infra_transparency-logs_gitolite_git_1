@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7645262340014452232=="
+Content-Type: multipart/mixed; boundary="===============9026341820420150794=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Fri, 27 Dec 2024 04:14:42 -0000
-Message-Id: <173527288220.3017126.14002817340223725838@gitolite.kernel.org>
+Date: Fri, 27 Dec 2024 04:14:43 -0000
+Message-Id: <173527288385.3017202.4473075972289972030@gitolite.kernel.org>
 
---===============7645262340014452232==
+--===============9026341820420150794==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,40 +15,27 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm32-for-6.14
-    old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    new: 7ec041bd2715df2da4ab19c403c27d58d173c7c0
-    log: |
-         84d2ae7c09d93949fc9e9fe57bdb78a2f3fa24aa ARM: dts: qcom: sdx65: Add PCIe EP interconnect path
-         7ec041bd2715df2da4ab19c403c27d58d173c7c0 ARM: dts: qcom: sdx55: Add CPU PCIe EP interconnect path
-         
-  - ref: refs/heads/arm64-for-6.14
-    old: 63c21d61b46197b6295e12dbf29adff29c18ae2c
-    new: a21fde626f775288aa62c6a5ae07f7e55c2b18c4
-    log: revlist-63c21d61b461-a21fde626f77.txt
-  - ref: refs/heads/clk-for-6.14
-    old: d4cdb196f182d2fbe336c968228be00d8c3fed05
-    new: 1474149c4209943b37a2c01b82f07ba39465e5fe
-    log: |
-         3e632d9c33d8a4f0d8f98e69b56bd2f2145d91c4 clk: qcom: apss-ipq-pll: drop 'alpha_en_mask' from IPQ5018 PLL config
-         41c5ebfb9b4b42b1479f16a50d96146fa945abce clk: qcom: apps-ipq-pll: drop 'alpha_en_mask' from IPQ5332 PLL config
-         5d11fd2a919b153c68cda42c175b4e45668654a9 clk: qcom: gcc-ipq6018: remove alpha values from NSS Crypto PLL's config
-         b9286a91b59fe9c7f8e231fce8e51df3b1442f6b clk: qcom: dispcc-qcm2290: remove alpha values from disp_cc_pll0_config
-         320f7a476c5fe79f50d00c75debfd9f63a0e713f clk: qcom: dispcc-sm6115: remove alpha values from disp_cc_pll0_config
-         33f1722eb86e45320a3dd7b3d42f6593a1d595c2 clk: qcom: clk-alpha-pll: fix alpha mode configuration
-         1474149c4209943b37a2c01b82f07ba39465e5fe clk: qcom: Make GCC_8150 depend on QCOM_GDSC
-         
+  - ref: refs/heads/for-next
+    old: 6dd994a89fb47f0820b6b13fa7fd13e15445c0cf
+    new: f04242b82052e739a451f02cc80c4394e86fa299
+    log: revlist-6dd994a89fb4-f04242b82052.txt
 
---===============7645262340014452232==
+--===============9026341820420150794==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-63c21d61b461-a21fde626f77.txt
+Content-Disposition: attachment; filename=revlist-6dd994a89fb4-f04242b82052.txt
 
 09d8a3ef91f69f3d1275d5a615ce13526c183e69 arm64: dts: qcom: qcs8300: Add PMU support for QCS8300
 f17a2293d0ed99ed4f5c6886ee6dd847da99a728 arm64: dts: qcom: qcs8300: Add LLCC support for QCS8300
+3e632d9c33d8a4f0d8f98e69b56bd2f2145d91c4 clk: qcom: apss-ipq-pll: drop 'alpha_en_mask' from IPQ5018 PLL config
+41c5ebfb9b4b42b1479f16a50d96146fa945abce clk: qcom: apps-ipq-pll: drop 'alpha_en_mask' from IPQ5332 PLL config
+5d11fd2a919b153c68cda42c175b4e45668654a9 clk: qcom: gcc-ipq6018: remove alpha values from NSS Crypto PLL's config
+b9286a91b59fe9c7f8e231fce8e51df3b1442f6b clk: qcom: dispcc-qcm2290: remove alpha values from disp_cc_pll0_config
+320f7a476c5fe79f50d00c75debfd9f63a0e713f clk: qcom: dispcc-sm6115: remove alpha values from disp_cc_pll0_config
 b8591df49cde459e3b84cdc0517d7bf92053d244 arm64: dts: qcom: sm8550: correct MDSS interconnects
 9fa33cbca3d2842f1f47ed4e5f6574e611dae32b arm64: dts: qcom: sm8650: correct MDSS interconnects
+33f1722eb86e45320a3dd7b3d42f6593a1d595c2 clk: qcom: clk-alpha-pll: fix alpha mode configuration
 f088b921890cef28862913e5627bb2e2b5f82125 arm64: dts: qcom: msm8916: correct sleep clock frequency
 5c775f586cde4fca3c5591c43b6dc8b243bc304c arm64: dts: qcom: msm8939: correct sleep clock frequency
 a4148d869d47d8c86da0291dd95d411a5ebe90c8 arm64: dts: qcom: msm8994: correct sleep clock frequency
@@ -70,5 +57,9 @@ e59334a088c3e722c0a287d4616af997f46c985e arm64: dts: qcom: sm8550: correct sleep
 aacd8c54b391c9e26a31483cf40f8837ffcfbdee arm64: dts: qcom: sc8180x: drop extra XO clock frequencies
 55cc39c70d95460fbe08d2518e53a7f8870e1657 arm64: dts: qcom: sdm670: move board clocks to sdm670.dtsi file
 a21fde626f775288aa62c6a5ae07f7e55c2b18c4 arm64: dts: qcom: q[dr]u1000: move board clocks to qdu1000.dtsi file
+84d2ae7c09d93949fc9e9fe57bdb78a2f3fa24aa ARM: dts: qcom: sdx65: Add PCIe EP interconnect path
+7ec041bd2715df2da4ab19c403c27d58d173c7c0 ARM: dts: qcom: sdx55: Add CPU PCIe EP interconnect path
+1474149c4209943b37a2c01b82f07ba39465e5fe clk: qcom: Make GCC_8150 depend on QCOM_GDSC
+f04242b82052e739a451f02cc80c4394e86fa299 Merge branches 'arm32-for-6.14', 'arm64-defconfig-for-6.14', 'arm64-fixes-for-6.13', 'arm64-for-6.14', 'clk-fixes-for-6.13', 'clk-for-6.14', 'drivers-fixes-for-6.13' and 'drivers-for-6.14' into for-next
 
---===============7645262340014452232==--
+--===============9026341820420150794==--
