@@ -1,63 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6214775445800622534=="
+Content-Type: multipart/mixed; boundary="===============1270788836585779612=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 27 Dec 2024 12:10:03 -0000
-Message-Id: <173530140364.3406196.6569845453142510210@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Fri, 27 Dec 2024 12:17:12 -0000
+Message-Id: <173530183225.3411067.1906841424524782825@gitolite.kernel.org>
 
---===============6214775445800622534==
+--===============1270788836585779612==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/security/vulns
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: d7123c77dc6072b028291355e4c4be0ad8046066
-    new: f097a36ef88d693edcf4962ff594e3012c6e0277
+  - ref: refs/heads/master
+    old: ba97861b8111b1c3c20bd66fea991f142e651a5c
+    new: 696077c35ab0e08a821304e99a1e1314da3913cf
     log: |
-         03e3d9c2bd85cda941b3cf78e895c1498ac05c5f xhci: dbc: Improve performance by removing delay in transfer event polling.
-         d157a2bcf99c028b134e1e6b53d8af64d0396c66 xhci: dbgtty: Improve performance by handling received data immediately.
-         1e0a19912adb68a4b2b74fd77001c96cd83eb073 usb: xhci: Fix NULL pointer dereference on certain command aborts
-         3ac820f9d422fb3b8a130b94e0e2a2cf429fcca1 xhci: Add command completion parameter support
-         8a95c9e10ff8b52b78d1268bf20f218479ca1d58 xhci: Add missing capability definition bits
-         da31486bf2348078b6542eeed152caca74154bd5 usb: typec: ucsi: make yoga_c630_ucsi_ops be static
-         63f0abcb47bb6f9281d021c780fcd8c93d15a3f5 USB: usbip: Update USB/IP OP_REP_IMPORT documentation.
-         f097a36ef88d693edcf4962ff594e3012c6e0277 dt-bindings: usb: qcom,dwc3: Add QCS615 to USB DWC3 bindings
+         696077c35ab0e08a821304e99a1e1314da3913cf cleanups and updates based on use verhaal
          
 
---===============6214775445800622534==
+--===============1270788836585779612==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1735301429 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1735301399-64dd16a9485d70e30a2c24e92e939e4e84558de5
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1735301860 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1735301831-a7e8fd2d2110baf4fa5dddb38b82112476f9041a
 
-d7123c77dc6072b028291355e4c4be0ad8046066 f097a36ef88d693edcf4962ff594e3012c6e0277 refs/heads/usb-testing
+ba97861b8111b1c3c20bd66fea991f142e651a5c 696077c35ab0e08a821304e99a1e1314da3913cf refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdumTUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++00P/3PRdGbtqSGuI4udoxPl
-Kh6ueTM3JwaFcsAt6kIK3vRBdfEdw5s0AE5h98vcmMRLBOIucPX7B4KQTERA8GOg
-+Am9e7uHcBWhGV+mvcYOF8OLj88yL0Q0/6mBPX7mqKFV7T7/4OnAP1gPhUe3SoGF
-r1Ai0/Cs3LPCydH1HQQY1fnxwWV5Ggh/W1TeH2VE8JG5KGLm1dJudcrE2NY4fwyI
-Od5V/FZ0IJ3/d9bYKdWwf8yxG2M8rVs3kuYJA5Tb6hhe6Y4P08UAAT3ov1hPbMfL
-I7VGNGqSBOnL/JKyIs5jIv84O0WvHA/cmxaw/MgJuEMrk5EQieu1aPka7hy0JR2/
-F+D9GhQxoRCQE7uwYnXiJ8XpeQupl3QVZQVJayKIt8GoAZv+xXmhqrtm1Mw/3ny3
-9tx1jNaguUMufRaYPbIRoAeCxwOfbGxYGQemcMWid2tjqU7hC/zIQyON2YOepVIw
-KrIjKA//XroOpONd5JlJMcV7i3+yAzu28rCYpmijvI4S7uMt33yu/btM6GzY7TbR
-rhmvUkMio5JI8slwIkL5A71/L9j66fRJvRQh05jphvCGDdERHXseXy5wbXpkccR8
-Ykos7VIahU/onX5pnQr+s7h7zcgeIVwenj5qhkx5Nzx1ADZFJKTrxoVLrosraP2C
-8AJ19TZ/zdHYehyeNtqRn7bU
-=eIgx
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdumuUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+r8cP/21NiAR4KaHQ5/KJvjEi
+13z+wC3oqooconFGJ/7PSvuXUn3iKIuJiCDaIpzGH81ZmZVWJ2VNQ8jw6FgR80vx
+XYGhXGZzXb+3xkQ36slzRhKoj47A0f+r8gjq75/Wzev9G/VSMj8mcx5ZlpP//hwI
+s+8ddm8Al3IPG9PSozG2yg1mKDnWtfd3gBXpQlm8BELoyBgNVBVfqxcCdifha4c8
+oAeLTz1d81o8dB8kYfnHKxj8OCPFt/1bbk5thhqg+HITgTZhjvG+uuKtrhNDykt9
+RVjPonGBdpvUx2//g0lXT+W7KEPm/yk7K6BoaXVaCBEBMZSayc0zQPDaAlKgfw88
+ZSRtlJ2JfYcMjKVlkx5i5E58DgQz425L/E1SYv/ljnnzCq/CN3oPIhI65Qt+P4EP
++Xh5k+adAD+1fNePd1sxqZdU8dA3xYR0OwvyWcVI5TZ52cCagWZNORzwp4qIVwJQ
+VOgTbuQs2Y3YmC5R9URpp2IIaeEkji82IuwsIBrFyqRbE1h53PLqdh2QLF3kN4I6
+ffqOUr51Wycgw2EVtGZCEx45YpgKAHNy/f5BzgQJONPPTYBeCmLC9IfUHVwCtfYw
+OL+iydzro8cJP5nNEPgnBq+KgzfYdpvlhYdCbpO3ZMtRyEvumJqIOt8HHUY5d4In
+L7wcqskDPnN4Yo5TNdg7uroI
+=ZvI3
 -----END PGP SIGNATURE-----
 
---===============6214775445800622534==--
+--===============1270788836585779612==--
