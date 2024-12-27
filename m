@@ -1,40 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5172476539840663775=="
+Content-Type: multipart/mixed; boundary="===============3702883234006520719=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
-Date: Fri, 27 Dec 2024 15:23:42 -0000
-Message-Id: <173531302244.3760281.6382587382571250290@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 27 Dec 2024 15:26:39 -0000
+Message-Id: <173531319913.3763671.6812778530307474679@gitolite.kernel.org>
 
---===============5172476539840663775==
+--===============3702883234006520719==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linus-next
-user: sashal
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/linus-next
-    old: 44e27d3db24901ab77d94e839d69731c91d3bc5f
-    new: 9a70980c518b594fcf07b3bcd553494a2606c23e
-    log: revlist-44e27d3db249-9a70980c518b.txt
+  - ref: refs/heads/master
+    old: b6d02a29046c9d77d7b263ddb6f2b6b005137aa0
+    new: 85f411db71141baf5fa6a0fcc037cd851c5a3fd4
+    log: |
+         85f411db71141baf5fa6a0fcc037cd851c5a3fd4 5.4-stable patches
+         
 
---===============5172476539840663775==
+--===============3702883234006520719==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-44e27d3db249-9a70980c518b.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-afc6e39e824ad0e44b2af50a97885caec8d213d1 power: supply: gpio-charger: Fix set charge current limits
-e5f84d1cf562f7b45e28d6e5f6490626f870f81c power: supply: cros_charge-control: add mutex for driver data
-e65a1b7fad0e112573eea7d64d4ab4fc513b8695 power: supply: cros_charge-control: allow start_threshold == end_threshold
-c28dc9fc24f5fa802d44ef7620a511035bdd803e power: supply: cros_charge-control: hide start threshold on v2 cmd
-05aa156e156ef3168e7ab8a68721945196495c17 powerpc/pseries/vas: Add close() callback in vas_vm_ops struct
-b3ded6072c5600704cfa3ce3a8dc8718d34bda66 power: supply: bq24190: Fix BQ24296 Vbus regulator support
-d685d55dfc86b1a4bdcec77c3c1f8a83f181264e tracing/kprobe: Make trace_kprobe's module callback called after jump_label update
-872181683c0aebbe0a484e26c8213e9ddde75216 Merge tag 'probes-fixes-v6.13-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace into linus-next
-a915b8523a73ac3e83c645e84678e4ab9e61eb9d Merge tag 'powerpc-6.13-3' of https://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux into linus-next
-9a70980c518b594fcf07b3bcd553494a2606c23e Merge tag 'for-v6.13-rc' of https://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply into linus-next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1735313227 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1735313196-bbd77cadf6a5bdbf36de7f5a539dbc54c4177aff
 
---===============5172476539840663775==--
+b6d02a29046c9d77d7b263ddb6f2b6b005137aa0 85f411db71141baf5fa6a0fcc037cd851c5a3fd4 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdux0sbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6qQQAMBMPuOLCVeKwqn3wvVY
+MV8Nqmx5Vtl6N+XtV4MnE67LqPAKrVgTAlVtU778nZSBFsBjpOropMRYpZjrQc1I
+XL9lZsJrU1/mpsTiYOYf2jsh4mBlbxRnbAJBUEpWTzywFeSX/ve1NYNejO96N+BF
+O3U4vl49NkSB6hY4O2faMh8hncOtjfiADtHfQcPSpwyNVoSHI1BcMJ8CWUCmljdi
+5C099BX88NELROZrKwnou3ZJKj8XkSJE/P9YaJ481C7xdeaQAfUl8vHx2CqvGK3S
+F8qXmQtv1KygTKCON0pO7+RgCO9D+9b3zaa95ox6iocVMsFsysJVX/S8R71zs3LM
+Jkxj5kECAq4OSHF9ysRpi2NUjsRzXY02EWOfvxF4klafHgQdSXhfcUAXkk1Hn3z1
+CHbFSK0oamLIxpU8oX6ZhB380DzQn1bruS0a++9jGZ7H8NacZfGBSeKK7mg5f2nS
+jP5GzKhNdLIJy60pJND5g/hlumg4iJ9rM46H+YTldpbsTqUQQzDfa/1pZzyuIB06
+ioJ2VAGZRFxrvNAY8yu2yDW+XL1XUauptS0m+i9K4x1/jLMqiyVwVwCMgSaZm/bc
+dgv9NBuo1ZFj/pnBm/+0U9tcMOQ9AO9uYpy72YY7Xcr7wY9XcrbjJOnMh1rgNRb+
+h39WAdk1qZBrAn0rMZyPsD3S
+=8wbd
+-----END PGP SIGNATURE-----
+
+--===============3702883234006520719==--
