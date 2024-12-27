@@ -1,57 +1,65 @@
-Content-Type: multipart/mixed; boundary="===============6729055481352005916=="
+Content-Type: multipart/mixed; boundary="===============0839870302958138849=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Fri, 27 Dec 2024 13:38:50 -0000
-Message-Id: <173530673041.3670643.9970386919967764518@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Fri, 27 Dec 2024 13:41:15 -0000
+Message-Id: <173530687533.3673839.6589415051078015234@gitolite.kernel.org>
 
---===============6729055481352005916==
+--===============0839870302958138849==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 3fb1e6acf3cbe9b233d96f037ef85a9deccc07df
-    new: f8e62cccceebc60f41b153006705ccec813ccf39
-    log: |
-         833a570d611af885d0d16780c925f0c7255eb6fd assign CVE-2024-53164 on request
-         f8e62cccceebc60f41b153006705ccec813ccf39 strip the CVE-2024-53164 mbox
-         
+  - ref: refs/tags/v6.1.122
+    old: 0000000000000000000000000000000000000000
+    new: a16c7bb5a864d4a763cdcc4df38055388dc543a1
+  - ref: refs/tags/v6.12.7
+    old: 0000000000000000000000000000000000000000
+    new: e8318f66ce12eef7841f7afdecf96f64b7171ee0
+  - ref: refs/tags/v6.13-rc4
+    old: 0000000000000000000000000000000000000000
+    new: dbfac60febfa806abb2d384cb6441e77335d2799
+  - ref: refs/tags/v6.6.68
+    old: 0000000000000000000000000000000000000000
+    new: 07ebec68615d88bc5d5bdb9cd7e96122dbf1f803
 
---===============6729055481352005916==
+--===============0839870302958138849==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1735306759 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1735306729-acf8fa09661010f8c42d9ffa91a2cd534e7ff7f0
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1735306900 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc
+nonce 1735306869-afc6908f31ad62896d116de107bc4e32abfb9aba
 
-3fb1e6acf3cbe9b233d96f037ef85a9deccc07df f8e62cccceebc60f41b153006705ccec813ccf39 refs/heads/master
+0000000000000000000000000000000000000000 a16c7bb5a864d4a763cdcc4df38055388dc543a1 refs/tags/v6.1.122
+0000000000000000000000000000000000000000 e8318f66ce12eef7841f7afdecf96f64b7171ee0 refs/tags/v6.12.7
+0000000000000000000000000000000000000000 dbfac60febfa806abb2d384cb6441e77335d2799 refs/tags/v6.13-rc4
+0000000000000000000000000000000000000000 07ebec68615d88bc5d5bdb9cd7e96122dbf1f803 refs/tags/v6.6.68
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdurgcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wxIQAJK9APECSv4pxAPUBGaU
-u8F4wEh4YW4JKZqSbaRfRMl8KxZFUMAmoKa+P+4v6t+9PG0ScIWXJqg/QBGcTF5B
-jxjPg1QLQWsVbJ3Fe0zUnvswAStV9iGGDGDOIx18clJ2wDa03LCc+vlqcxlPyU4F
-q1v/KdYgdZq4HHI/0Djlr3amx+C3g5+iC1EBm8hMHEkyDihqVndxJkqEHyvNCYSP
-5iFd3z8J9SbFHpoWYSCPUPQHc1D4X6cq6Lxzz0UloO/TAtlcSAeVk3ZXqczsFEam
-LGrKZBr0megL49ZiiHH1XbsdyNHJRiCOJRgVEF076YnWpduykaZh7eZqvx1Zx0N5
-CS+YmPSld2J1OuyHDlwJw1pzzcdpG/m2t3P/zS0wfTlYXp1qFM9YXAqTxc6NGHyt
-T6l5rHl91Z+Mr2ho/WP6giWze7sl3gJvW5Js/BhI6hSaehqD84QYqxZ86/uL0b02
-q4lmabiJcLzGNQ1hYOktGcbtQG/7jOWREJEs3BL7ke/2oz8iE0wvsui1jr4K5OSS
-sFUx/lAVI3K8cy5DfIwhU6IqpvXfHK44x75PNHpjy9yzls4dieFHnaOfV6DRwUCn
-jq62LwRsXyjpISbj/taOj/IRodKJyWsIywXzjdB6BGuIHEvYq65zp/kafteNRB3G
-kOUkx595tOguCURj9UGck5y4
-=J8Y/
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdurpQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rSoQAKGvKsy2M7bYxLIvYCTV
+ozE8l9mx8bR0N3f9gct4hvqEi0PUWkLk15VGB+vbPKOlDR6iVCKL686V6y55yYrj
+cHTKyxeE/c3JygVUWxdg8iEx+cxk1UzxtzQbtqpyK4SJi+bgmqjXw8OTp/mMCHkV
+yv5LIVBAOu2B8XbYhwZxqh9qQ/ZMG7suqzqD/cMgiQNPPu5hMqbg7MVhVdfetTk4
+0MV44wwd/z9Aps/lu/spgISmbTqGUhtQ3L1Gbt5yMSCKUVdBe154/ftQRr3hRnQE
+NcEoDARncC0KvHevUcOVy1HzZWng1YnW1JOlum8z3RxU4kWZw2BtgNyurHwk9Smw
+1tndZM0VVzNekujlEgB85mLtiTI3IY8oO1Lyd6+tyTMvIaYYWr4WXsmYeSvk2wWF
+Ugx7mqUfiljV/DMt0KMmcF+vE9CmZATaf4l14yyZuJjZN+LWEdb/LTMt3t2mqmFR
+9JnJROtBEsz7hhecfaIVO35JOajOGQ8ZGHryls6DoxXynp8OvZYWkvKwK2mk5E0L
+fEZ7VRn4dD4h3oeHTKoOVfAzTDNESanu9g/lZnIWM0bJN4V8hg1I/Sk1mUcldLHf
+BuNHg2+/K19CRVu9tIJL5roMS3Rsnj5U4LF9+flxnWKb5qAAuD85TziZcTzJpu0i
+plzZPqvngeQSEaSzzzvDVH7W
+=Gdfa
 -----END PGP SIGNATURE-----
 
---===============6729055481352005916==--
+--===============0839870302958138849==--
