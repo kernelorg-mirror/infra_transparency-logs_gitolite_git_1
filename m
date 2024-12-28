@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6976606400383883663=="
+Content-Type: multipart/mixed; boundary="===============7349400175465531548=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sat, 28 Dec 2024 14:52:22 -0000
-Message-Id: <173539754223.677659.2356340103445726939@gitolite.kernel.org>
+Date: Sat, 28 Dec 2024 14:52:34 -0000
+Message-Id: <173539755404.677865.7175299410349222835@gitolite.kernel.org>
 
---===============6976606400383883663==
+--===============7349400175465531548==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: 83b8d222ea58fd326442f1f659ca8f27e9ff797f
     new: 2c8b0265c6cec06127eb2aaa39686b45083bf521
     log: revlist-83b8d222ea58-2c8b0265c6ce.txt
 
---===============6976606400383883663==
+--===============7349400175465531548==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -744,4 +744,4 @@ ca57513dac180362e3db10884fdd5ffe19b7861a kheaders: rename the 'cpio_dir' variabl
 d54236e880e021127c0534ba8bb9445548cb0434 kconfig: qconf: use preferred form of QString API
 2c8b0265c6cec06127eb2aaa39686b45083bf521 kheaders: Simplify attribute through __BIN_ATTR_SIMPLE_RO()
 
---===============6976606400383883663==--
+--===============7349400175465531548==--
