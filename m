@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5267269433854794347=="
+Content-Type: multipart/mixed; boundary="===============4709596960233761897=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Sun, 29 Dec 2024 09:49:22 -0000
-Message-Id: <173546576260.1621221.9877332121200027382@gitolite.kernel.org>
+Date: Sun, 29 Dec 2024 09:50:14 -0000
+Message-Id: <173546581482.1632542.13024663484198597217@gitolite.kernel.org>
 
---===============5267269433854794347==
+--===============4709596960233761897==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cip/linux-cip
 user: uli
 changes:
-  - ref: refs/heads/linux-4.4.y-st
-    old: 46d00af43458d76409dbacb7f1a484fb0a70bd4d
-    new: 7a8757a59a6ab79ea3b56fc0292e39b46a959e84
-    log: revlist-46d00af43458-7a8757a59a6a.txt
+  - ref: refs/heads/linux-4.4.y-cip
+    old: 3ed48e91c838a2d00d06c208590a48ce96ce0d00
+    new: e5854dd66f4cefaef834acb89a4c3eec0eb8f1f7
+    log: revlist-3ed48e91c838-e5854dd66f4c.txt
 
---===============5267269433854794347==
+--===============4709596960233761897==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-46d00af43458-7a8757a59a6a.txt
+Content-Disposition: attachment; filename=revlist-3ed48e91c838-e5854dd66f4c.txt
 
 67baec71e05777493ebeb2f6dfa1d04b18c2aad8 Revert "nilfs2: propagate directory read errors from nilfs_find_entry()"
 bc3ea9e04fe5920c3a672dfa4197b7a41636fbd0 netlink: terminate outstanding dump on socket close
@@ -94,5 +94,7 @@ f8fe313711e3451c700f04872f8f4d22f4919360 vfio/pci: Properly hide first-in-list P
 0705b897c226ff46a2f1d08e3439dd67037d3e42 usb: using mutex lock and supporting O_NONBLOCK flag in iowarrior_read()
 8d8dec49e86e551ceb27335d662aa6c33123b692 ubi: wl: Put source PEB into correct list if trying locking LEB failed
 7a8757a59a6ab79ea3b56fc0292e39b46a959e84 Update localversion-st, tree is up-to-date with 4.19.325.
+41d26fa1201664aafd54acae05ca6633cca66431 Merge branch 'linux-4.4.y-st' into linux-4.4.y-cip
+e5854dd66f4cefaef834acb89a4c3eec0eb8f1f7 CIP: Bump version suffix to -cip95 after merge from cip/linux-4.4.y-st tree
 
---===============5267269433854794347==--
+--===============4709596960233761897==--
