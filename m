@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Sun, 29 Dec 2024 17:44:56 -0000
-Message-Id: <173549429692.2024101.17165016904979952933@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Sun, 29 Dec 2024 17:48:01 -0000
+Message-Id: <173549448174.2026945.17822762313200406847@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/master
-    old: c5eead2659ef5ea86ef8c78410fa42d9bea976c9
-    new: 1a19d04c11206ff29ecc39762ebea1edbc33a86b
+  - ref: refs/heads/arm64/dumpreg
+    old: f9b239be5f1406e888745e7fda6849566698a166
+    new: 8787be1b2855322bce638ed3159ada123ddc04fd
     log: |
-         1a19d04c11206ff29ecc39762ebea1edbc33a86b man/io_uring_prep_timeout: specify the default clock source
+         8787be1b2855322bce638ed3159ada123ddc04fd arm64: Add basic JSON register parser
          
