@@ -1,47 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============1448774281061836947=="
+Content-Type: multipart/mixed; boundary="===============2785030209240510775=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Sun, 29 Dec 2024 15:47:31 -0000
-Message-Id: <173548725106.1933909.16839882843561334258@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Sun, 29 Dec 2024 16:15:55 -0000
+Message-Id: <173548895589.1956361.415589598603198444@gitolite.kernel.org>
 
---===============1448774281061836947==
+--===============2785030209240510775==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/fixes
-    old: 185e1b1d91e419445d3fd99c1c0376a970438acf
-    new: 7e16ae558a87ac9099b6a93a43f19b42d809fd78
-    log: |
-         032fe9b0516702599c2dd990a4703f783d5716b8 platform/x86: hp-wmi: mark 8A15 board for timed OMEN thermal profile
-         7e16ae558a87ac9099b6a93a43f19b42d809fd78 platform/x86: thinkpad-acpi: Add support for hotkey 0x1401
-         
+  - ref: refs/heads/dev
+    old: 109556c9f01980abe92959751837a2fe2b7ab0ee
+    new: 03b3e7eca6cf51066523ec9766e8975de415fed5
+    log: revlist-109556c9f019-03b3e7eca6cf.txt
+  - ref: refs/heads/dev.2024.12.24a
+    old: 0000000000000000000000000000000000000000
+    new: 109556c9f01980abe92959751837a2fe2b7ab0ee
 
---===============1448774281061836947==
+--===============2785030209240510775==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-109556c9f019-03b3e7eca6cf.txt
 
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1735487276 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1735487246-35438f24e5543dc23d33014b0cb60b3f1819ffa6
+c1fb35e79fedbd3993194a93ddb8847197372b3a rcutorture: Include grace-period sequence numbers in failure/close-call
+3765993ec35cbab4091fa8b6977f5c569cc73ddd rcutorture: Expand failure/close-call grace-period output
+a23cb0ea48d6f2a46d15f6b45e796fde1a81349f rcu: Trace expedited grace-period numbers in hexadecimal
+f92f02de5f9cb30daf01d649be2d65bba37475b6 rcutorture: Add ftrace-compatible timestamp to GP# failure/close-call output
+a297f1a862b857ba0cf72a6f6e6ec0997130515b rcu: Remove READ_ONCE() for rdp->gpwrap access in __note_gp_changes()
+374e97e30af01c132ec3d6e83ea8d5fa78801271 srcu: Define SRCU_READ_FLAVOR_ALL in terms of symbols
+4eab5d5c579e11b8bade93d25876fb0e8866d93c rcu: Fix get_state_synchronize_rcu_full() GP-start detection
+40a8af1cfd70ac5ee42495ba891c3413e6ecdd11 EXP sched/dlserver: flag to represent active status of dlserver
+6c98b43f95b9fcfd480ef9be62296a80ca9c1694 EXP sched/dlserver: fix dlserver time accounting
+84cca5dca8f90023db4905dea4992e288e70289e rcutorture: Make cur_ops->format_gp_seqs take buffer length
+9f8c33ff005dfd0e40ac5d2c9cafdd52a2248cf9 srcu: Use ->srcu_gp_seq for rcutorture reader batch
+93bd8fa4fc334f9f7d76b1ed1ac9cfba483faadf EXP hrtimers: Force migrate away hrtimers queued after CPUHP_AP_HRTIMERS_DYING
+e7f351817ae433461d4a31b1f058cdd720ab3ebf EXP rcu: Remove swake_up_one_online() bandaid
+b6d4fd663be9b48bd1cc63ed23e2ad2aee11f386 EXP Revert "rcu/nocb: Fix rcuog wake-up from offline softirq"
+244c9cbd40879670de8affffc744c1bae6e837bb srcu: Pull ->srcu_{un,}lock_count into a new srcu_ctr structure
+da03ba7e4062ea51194d0364bc945241bfddd040 srcu: Make SRCU readers use ->srcu_ctrs for counter selection
+cb6c6c639badb5f052c73ac6c9bbb9005b199d37 srcu: Make Tree SRCU updates independent of ->srcu_idx
+478efcf3bdb7f692815afbd18cabb2b65386aaf6 rcu-tasks: Move RCU Tasks self-tests to core_initcall()
+5b820ac910338c1d5d25891d16ec071e0a7fcd6c EXP hrtimers: No-op enqueue_hrtimer_offline() if !HOTPLUG_CPU
+03b3e7eca6cf51066523ec9766e8975de415fed5 rcutorture: Move RCU_TORTURE_TEST_{CHK_RDR_STATE,LOG_CPU} to bool
 
-185e1b1d91e419445d3fd99c1c0376a970438acf 7e16ae558a87ac9099b6a93a43f19b42d809fd78 refs/heads/fixes
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZ3FvOAAKCRBZrE9hU+XO
-MR4sAQCBM71ZxTL6BDJqTFO0zaqGHlSCtk9TgqEIGp2FCJzfVgD+PTA9cp+43Vc3
-WhrflqOWFJFonMyjKn8JegmQ5toa3A4=
-=hQ8Z
------END PGP SIGNATURE-----
-
---===============1448774281061836947==--
+--===============2785030209240510775==--
