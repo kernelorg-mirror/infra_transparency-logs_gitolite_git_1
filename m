@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Sun, 29 Dec 2024 02:43:52 -0000
-Message-Id: <173544023279.1235842.3649545227072239080@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Sun, 29 Dec 2024 04:32:13 -0000
+Message-Id: <173544673367.1319212.10946022095452357704@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/work.debugfs
-    old: 16d9383a56bc5bc30071938ab0d3e613fd2785a0
-    new: b41a25033d7a1783290826fb565d082a0c7a55c4
+  - ref: refs/heads/v4l2-loopback
+    old: 77ded3bb83b3454b62521baaa44f0faabcf1aa39
+    new: 436c868af83244910f28b8741408f9a62c0f171d
     log: |
-         b41a25033d7a1783290826fb565d082a0c7a55c4 saner replacement for debugfs_rename()
+         436c868af83244910f28b8741408f9a62c0f171d media: v4l2-loopback: Use exact size types in uapi
          
