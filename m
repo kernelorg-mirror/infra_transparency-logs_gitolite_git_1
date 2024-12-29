@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0158584810201553288=="
+Content-Type: multipart/mixed; boundary="===============6915841473224703588=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Sun, 29 Dec 2024 22:44:02 -0000
-Message-Id: <173551224280.2256314.2992402089079297892@gitolite.kernel.org>
+Date: Sun, 29 Dec 2024 22:44:06 -0000
+Message-Id: <173551224645.2256506.9483511400646494254@gitolite.kernel.org>
 
---===============0158584810201553288==
+--===============6915841473224703588==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: 52aa959fb6b0fe3757dc0f1d15280a9c06c0d055
-    new: 706db969ed8b36289df080c3f5251d3e1d53ee92
-    log: revlist-52aa959fb6b0-706db969ed8b.txt
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: 49e1f0fd0d4cb03a16b8526c4e683e1958f71490
+    new: fc033cf25e612e840e545f8d5ad2edd6ba613ed5
+    log: revlist-49e1f0fd0d4c-fc033cf25e61.txt
 
---===============0158584810201553288==
+--===============6915841473224703588==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-52aa959fb6b0-706db969ed8b.txt
+Content-Disposition: attachment; filename=revlist-49e1f0fd0d4c-fc033cf25e61.txt
 
 c43ec96e8d34399bd9dab2f2dc316b904892133f dmaengine: at_xdmac: avoid null_prt_deref in at_xdmac_prep_dma_memset
 f0e870a0e9c5521f2952ea9f3ea9d3d122631a89 dmaengine: dw: Select only supported masters for ACPI devices
@@ -103,10 +103,6 @@ a2d633cb1421e679b56f1a9fe1f42f089706f1ed phy: core: Fix an OF node refcount leak
 17194c2998d39ab366a2ecbc4d1f3281e00d6a05 phy: mediatek: phy-mtk-hdmi: add regulator dependency
 9b2ffa6148b1e4468d08f7e0e7e371c43cac9ffe Merge tag 'mtd/fixes-for-6.13-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
 dcd59d0d7d51b2a4b768fc132b0d74a97dfd6d6a platform/chrome: cros_ec_lpc: fix product identity for early Framework Laptops
-768776dd4efc681cdca33a79e29bb508d6de9bc0 i2c: imx: fix missing stop condition in single-master mode
-e0cec363197e41af870613e8e17b30bf0e3d41b5 i2c: imx: add imx7d compatible string for applying erratum ERR007805
-9a8f9320d67b27ddd7f1ee88d91820197a0e908f i2c: microchip-core: actually use repeated sends
-49e1f0fd0d4cb03a16b8526c4e683e1958f71490 i2c: microchip-core: fix "ghost" detections
 75cd4005da5492129917a4a4ee45e81660556104 ublk: detach gendisk from ublk device if add_disk() fails
 e33ac68e5e21ec1292490dfe061e75c0dbdd3bd4 io_uring/sqpoll: fix sqpoll error handling races
 ab8beb204723d5eff978614160cc5efc78c31ffb Merge tag 'chrome-platform-for-6.13-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/chrome-platform/linux
@@ -137,29 +133,5 @@ f65832a32f2e8bd9d16e1bf2c3653f5dd4dc9533 Merge tag 'perf-urgent-2024-12-29' of g
 6cbc4b29eb0d115e9cf7dcc513a5324dc4c9fcc8 Merge tag 'x86-urgent-2024-12-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 4099a71718b056d16af5ba095c91016c3b107862 Merge tag 'sched-urgent-2024-12-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 fc033cf25e612e840e545f8d5ad2edd6ba613ed5 Linux 6.13-rc5
-735bdfad2be06088ce20314a3ef060c22774424c i2c: keba: drop check because i2c_unregister_device() is NULL safe
-61e737ebd080d94450166ae0c984fe0beb85e2c8 i2c: imx: fix divide by zero warning
-fc38a3603375013cad7bd6b7198c91b7f783395a i2c: imx: make controller available until system suspend_noirq() and from resume_noirq()
-8828dde7546d7da99c2cacc1600519ac7497fb05 i2c: imx: switch different pinctrl state in different system power status
-8ee51bb5bc0dd1aeb55ac307a98c0591d10bfa8b i2c: npcm: Modify timeout evaluation mechanism
-4ee5b150208f87acfab566c482711b2fa89ac768 i2c: npcm: Assign client address earlier for `i2c_recover_bus()`
-8c716701555f9d48df29d9161aa0a55ff591326c i2c: npcm: use i2c frequency table
-f316d6fd8ef6c3482831aae9975401b276ef64b4 i2c: npcm: Enable slave in eob interrupt
-a99d169cc2c6b2ff511ad7a0a93f03881bba30a6 i2c: imx: support DMA defer probing
-ad37914f6543bd8488bcbb690f697ef3be43f9d6 dt-bindings: i2c: renesas,riic: Document the R9A09G047 support
-ed6807081c140b96eb12a92cef32b6bd61b85ddc i2c: nomadik: Enable compile testing for the Nomadik driver
-c883c0ccb4e8e4967383a5d5c9d0b6d3b2605476 i2c: I2C_BRCMSTB should not default to y when compile-testing
-387d8061fd4f0bf684983ec675f07104f494c3e4 i2c: xiic: Relocate xiic_i2c_runtime_suspend and xiic_i2c_runtime_resume to facilitate atomic mode
-a85d13d7a20947d498e350079dd69672da91f736 i2c: xiic: Add atomic transfer support
-1ce20b62ca5ad4042042241dd161832730b43ac0 i2c: isch: Convert comma to semicolon
-2fb57e0429c302e8ecee669ba1538fa6c2f86a13 i2c: imx-lpi2c: add eDMA mode support for LPI2C
-04a012f8fe1e0fb998947163b153b504e2f47062 i2c: riic: Use dev_err_probe in probe and riic_init_hw functions
-583af9aabf2a895d167f5a8f834a48dde5db876f i2c: riic: Use local `dev` pointer in `dev_err_probe()`
-189bad7c92ec491fca9eb1dae667fcb7d5de79f4 i2c: riic: Use BIT macro consistently
-0e599f46eb469f3d93b9476c7b5343d536344dc0 i2c: riic: Use GENMASK() macro for bitmask definitions
-03b2295dcc9f051c61fc77a8b254f1feb156896d i2c: riic: Make use of devres helper to request deasserted reset line
-fe3af610d3fd106710d860db4cb0cedf7d526c5c i2c: riic: Mark riic_irqs array as const
-f905a1ac8d5baef1680fca65f1027e4cd108496e i2c: riic: Use predefined macro and simplify clock tick calculation
-706db969ed8b36289df080c3f5251d3e1d53ee92 i2c: riic: Add `riic_bus_barrier()` to check bus availability
 
---===============0158584810201553288==--
+--===============6915841473224703588==--
