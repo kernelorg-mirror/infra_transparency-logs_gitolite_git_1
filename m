@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8217391798827678601=="
+Content-Type: multipart/mixed; boundary="===============6891495037681009098=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sun, 29 Dec 2024 22:39:29 -0000
-Message-Id: <173551196999.2251993.8627102224131071590@gitolite.kernel.org>
+Date: Sun, 29 Dec 2024 22:42:42 -0000
+Message-Id: <173551216232.2255451.14713902861359223566@gitolite.kernel.org>
 
---===============8217391798827678601==
+--===============6891495037681009098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
-    old: 4bbf9020becbfd8fc2c3da790855b7042fad455b
-    new: fc033cf25e612e840e545f8d5ad2edd6ba613ed5
-    log: revlist-4bbf9020becb-fc033cf25e61.txt
+  - ref: refs/heads/nfsd-next
+    old: 78e37b31913faca2dd6dc73754831efb8d7664cf
+    new: 068502829b882ff5fe6738cd2e6f9c2f7015d86a
+    log: revlist-78e37b31913f-068502829b88.txt
 
---===============8217391798827678601==
+--===============6891495037681009098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4bbf9020becb-fc033cf25e61.txt
+Content-Disposition: attachment; filename=revlist-78e37b31913f-068502829b88.txt
 
 c43ec96e8d34399bd9dab2f2dc316b904892133f dmaengine: at_xdmac: avoid null_prt_deref in at_xdmac_prep_dma_memset
 f0e870a0e9c5521f2952ea9f3ea9d3d122631a89 dmaengine: dw: Select only supported masters for ACPI devices
@@ -137,5 +137,25 @@ f65832a32f2e8bd9d16e1bf2c3653f5dd4dc9533 Merge tag 'perf-urgent-2024-12-29' of g
 6cbc4b29eb0d115e9cf7dcc513a5324dc4c9fcc8 Merge tag 'x86-urgent-2024-12-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 4099a71718b056d16af5ba095c91016c3b107862 Merge tag 'sched-urgent-2024-12-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 fc033cf25e612e840e545f8d5ad2edd6ba613ed5 Linux 6.13-rc5
+ea092e9e13704f52294eb46b8afbd2f55faadce2 nfsd: trace: remove redundant stateid even deleg_recall
+acdf1ad1a37bdc2495c4694fc47b6bda22ca5aa5 nfsd: use new wake_up_var interfaces.
+81b73eac4c0041cb2db643f1932751e2cdea3771 sunrpc/svc: use store_release_wake_up()
+75fc229fffb29f5824d9aa843f5c6fc4c670f4c3 NFSD: Clean up unused variable
+118d84846e21f283de1aabcc29f4ad9b34040d29 nfsd: fix legacy client tracking initialization
+a8c3f72239196d1cf4a8e90d3d78b0979cb52244 nfsd: don't use sv_nrthreads in connection limiting calculations.
+1e02c68bc2a1ad418bd59694c579323741547f96 sunrpc: remove all connection limit configuration
+9238488e9c69bffde13aea9dc6bcfa7eadafacbf nfsd: use an xarray to store v4.1 session slots
+e4cd9e1b26254355cf6996cc09e4504be6d6104a nfsd: remove artificial limits on the session-based DRC
+159a607c0fc47d2f1dc9636f5a438d0581b94289 nfsd: add session slot count to /proc/fs/nfsd/clients/*/info
+3d3c1ee3f4e2fab6b58614f34b0adc096552b59e nfsd: allocate new session-based DRC slots on demand.
+8f54fd3a1181de36b620bb4f6be33b883973f15e nfsd: add support for freeing unused session-DRC slots
+bd3f5afc8666919beb52e1a2bc76027f3a286d8e nfsd: add shrinker to reduce number of slots allocated per session
+b6dc33e70e88f537012b9c2bc04bda4916c0556d NFSD: fix decoding in nfs4_xdr_dec_cb_getattr
+68ccfd3dbf6d8fab8784f148850b5d5d298111e5 NFSD: add cb opcode to WARN_ONCE on failed callback
+86f73c4038b1a33a02de02d2ae35302059787d38 SUNRPC: introduce cache_check_rcu to help check in rcu context
+edcda9505a36a10e8d91838fce795e3e63eab6f9 nfsd: no need get cache ref when protected by rcu
+697723e3bf4958708f6e6124f0aadbf80289d5f8 SUNRPC: no need get cache ref when protected by rcu
+a29e1b79d367c39786278cdf42b1f860d3118cdf nfsd: fix UAF when access ex_uuid or ex_stats
+068502829b882ff5fe6738cd2e6f9c2f7015d86a nfsd: fix handling of delegated change attr in CB_GETATTR
 
---===============8217391798827678601==--
+--===============6891495037681009098==--
