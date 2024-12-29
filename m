@@ -1,62 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============7141382237813306096=="
+Content-Type: multipart/mixed; boundary="===============2650361545855344662=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 29 Dec 2024 18:20:53 -0000
-Message-Id: <173549645313.2053217.2869506013318713885@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Sun, 29 Dec 2024 20:51:52 -0000
+Message-Id: <173550551264.2168047.11831953562734127552@gitolite.kernel.org>
 
---===============7141382237813306096==
+--===============2650361545855344662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/sj/damo
+user: sj
 changes:
-  - ref: refs/heads/master
-    old: 059dd502b263d8a4e2a84809cf1068d6a3905e6f
-    new: 4099a71718b056d16af5ba095c91016c3b107862
-    log: revlist-059dd502b263-4099a71718b0.txt
+  - ref: refs/heads/next
+    old: 59ec8bb5cbe276842567173a11187cee207d05f9
+    new: 65ddd6c50e101b5b9c07339d2b7418fdea919740
+    log: revlist-59ec8bb5cbe2-65ddd6c50e10.txt
 
---===============7141382237813306096==
+--===============2650361545855344662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-059dd502b263-4099a71718b0.txt
+Content-Disposition: attachment; filename=revlist-59ec8bb5cbe2-65ddd6c50e10.txt
 
-a60b990798eb17433d0283788280422b1bd94b18 PCI/MSI: Handle lack of irqdomain gracefully
-b6ccddd6fe1fd49c7a82b6fbed01cccad21a29c7 perf/x86/intel/uncore: Add Clearwater Forest support
-b8c3a2502a205321fe66c356f4b70cabd8e1a5fc perf/x86/intel/ds: Add PEBS format 6
-4a077914578183ec397ad09f7156a357e00e5d72 locking/rtmutex: Make sure we wake anything on the wake_q when we release the lock->wait_lock
-aa5d2ca7c179c40669edb5e96d931bf9828dea3d perf/x86/intel: Fix bitmask of OCR and FRONTEND events for LNC
-d29662695ed7c015521e5fc9387df25aab192a2e btrfs: fix use-after-free waiting for encoded read endios
-44f52bbe96dfdbe4aca3818a2534520082a07040 btrfs: fix use-after-free when COWing tree bock and tracing is enabled
-3e74859ee35edc33a022c3f3971df066ea0ca6b9 btrfs: check folio mapping after unlock in relocate_one_folio()
-0fba7be1ca6df2881e68386e5575fe096f33c4ca btrfs: check folio mapping after unlock in put_file_data()
-0525064bb82e50d59543b62b9d41a606198a4a44 btrfs: fix race with memory mapped writes when activating swap file
-03018e5d8508254534511d40fb57bc150e6a87f2 btrfs: fix swap file activation failure due to extents that used to be shared
-9a45022a0efadd99bcc58f7f1cc2b6fb3b808c40 btrfs: allow swap activation to be interruptible
-2c8507c63f5498d4ee4af404a8e44ceae4345056 btrfs: avoid monopolizing a core when activating a swap file
-f2363e6fcc7938c5f0f6ac066fad0dd247598b51 btrfs: fix transaction atomicity bug when enabling simple quotas
-fca432e73db2bec0fdbfbf6d98d3ebcd5388a977 btrfs: sysfs: fix direct super block member reads
-768776dd4efc681cdca33a79e29bb508d6de9bc0 i2c: imx: fix missing stop condition in single-master mode
-e0cec363197e41af870613e8e17b30bf0e3d41b5 i2c: imx: add imx7d compatible string for applying erratum ERR007805
-9a8f9320d67b27ddd7f1ee88d91820197a0e908f i2c: microchip-core: actually use repeated sends
-49e1f0fd0d4cb03a16b8526c4e683e1958f71490 i2c: microchip-core: fix "ghost" detections
-f802f11b2336b0f5c522c6ba827a013bb0b83826 Merge tag 'i2c-host-fixes-6.13-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-current
-31ad36a271290648e7c2288a03d7b933d20254d6 objtool: Add bch2_trans_unlocked_error() to bcachefs noreturns
-f718faf3940e95d5d34af9041f279f598396ab7d freezer, sched: Report frozen tasks as 'D' instead of 'R'
-dc81e556f2a017d681251ace21bf06c126d5a192 x86/fred: Clear WFE in missing-ENDBRANCH #CPs
-27834971f616c5e154423c578fa95e0444444ce1 virt: tdx-guest: Just leak decrypted memory on unrecoverable errors
-e1d9326608395543d9c4d1bf2932f14fdb75c3c5 Merge tag 'i2c-for-6.13-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
-c059361673e487fe33bb736fb944f313024ad726 Merge tag 'for-6.13-rc4-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-feffd35a03445ed2e9ea65f47af5fc9a0d1ede80 Merge tag 'irq-urgent-2024-12-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-bf7a281b806342ff0750827853bf16e53a082073 Merge tag 'locking-urgent-2024-12-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-bcfac5530a7880c762fd4fe6c86e3c79710fa454 Merge tag 'objtool-urgent-2024-12-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-f65832a32f2e8bd9d16e1bf2c3653f5dd4dc9533 Merge tag 'perf-urgent-2024-12-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-6cbc4b29eb0d115e9cf7dcc513a5324dc4c9fcc8 Merge tag 'x86-urgent-2024-12-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-4099a71718b056d16af5ba095c91016c3b107862 Merge tag 'sched-urgent-2024-12-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+6547c1418c4d2474ef03acef332e708d6f7b225f release_note: update for next release
+911419e9d442f49e2abacb877d51cdcb5c664b1e USAGE: encourage users to read DAMON design document for details of DAMOS filters
+e58ec533271165e8c6c2d7a2d451f85df85e3a1b damo_report_access: remove unnecessary blank line
+a7c94d868b36829fb4beb977655514e80f2c7c94 damo_show: add missed module name of RecordsVisualizationFormat
+b66165981ccf2f5b92bf14694a6ed412271dfe2e damo_report_access: rename RecordsVisualizationFormat to ReportFormat
+8ab13d445a1762f186cbbb994f18f3ac88456245 damo_report_access: add a new snapshot format for filter-passed memory only temperature histogram
+615f2393343f2e48793d4608a629417c660006bb damo_report_access: add a new snapshot format for filter-passed memory only recency histogram
+ddb20927d7cda4049634d52caf7ad56671d34401 damo_report_access: show filter-passed histogram together for temperature-sz-hist style
+054f7a34d629551ac3dc817749caa8ce1ac924ac damo_report_access: show filter-passed recency histogram for recency-sz-hist style
+0572d0ac9ad7ba6593d56bd050f49dd99c7e21b6 damo_report_access: split out histogram style formatting logics
+a55837a68a2c989551ba5f862c6e3413bc752b30 damo_report_access: refactor set_formats_hist_style()
+afedd3852a72bda8b6057bb6a5e5a76da3cfb3e5 damo_report_access/set_format_hist_style(): show filter-passed histogram first
+d51cf1ed8be5acad8a08fb675bfc54776810acf7 USAGE: clarify damos filters passed bytes supporting report types
+f039cc01cf1cac81f04ccff4e549881151c469d8 _damo_records: add DAMOS scheme filters to DamonRecord
+7229a229cabde47a917404c91e135079677bcc4a release_note: update for support of filter-passed bytes from histogram report styles
+65ddd6c50e101b5b9c07339d2b7418fdea919740 TODO: add an item for recording filter-passed bytes
 
---===============7141382237813306096==--
+--===============2650361545855344662==--
