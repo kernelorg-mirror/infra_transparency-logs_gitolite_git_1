@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Mon, 30 Dec 2024 16:46:32 -0000
-Message-Id: <173557719278.3172357.14900953582740821683@gitolite.kernel.org>
+Date: Mon, 30 Dec 2024 16:49:58 -0000
+Message-Id: <173557739837.3174747.10442717844808542665@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/axboe/liburing
 user: axboe
 changes:
   - ref: refs/heads/master
-    old: 1a19d04c11206ff29ecc39762ebea1edbc33a86b
-    new: 460c1b4ad78146183ab8f9e184361022fcaef6eb
+    old: 460c1b4ad78146183ab8f9e184361022fcaef6eb
+    new: 299d1407f7045a76d0431771dd540d0bd5812354
     log: |
-         460c1b4ad78146183ab8f9e184361022fcaef6eb src/setup: use correct sqe size for unmapping
+         299d1407f7045a76d0431771dd540d0bd5812354 src/setup: fix io_uring_alloc_huge() for SQE128
          
