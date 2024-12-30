@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2549390006503498763=="
+Content-Type: multipart/mixed; boundary="===============6825606215599504228=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 30 Dec 2024 16:10:00 -0000
-Message-Id: <173557500072.3141982.17772256494241070640@gitolite.kernel.org>
+Date: Mon, 30 Dec 2024 16:10:05 -0000
+Message-Id: <173557500574.3143645.18387493824240296737@gitolite.kernel.org>
 
---===============2549390006503498763==
+--===============6825606215599504228==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 523da2cae9f513b9e639df475fb1ebbdeff58a39
-    new: 17810b1de0e9e5c1000cf8f5b4787ad930b0353e
-    log: revlist-523da2cae9f5-17810b1de0e9.txt
+  - ref: refs/heads/m68k-queue
+    old: 5bc7f41ceae8a82c5a1be325046fce8472242c46
+    new: 2b9d368795103a360d67bfec877ca456b053764e
+    log: revlist-5bc7f41ceae8-2b9d36879510.txt
 
---===============2549390006503498763==
+--===============6825606215599504228==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-523da2cae9f5-17810b1de0e9.txt
+Content-Disposition: attachment; filename=revlist-5bc7f41ceae8-2b9d36879510.txt
 
 c43ec96e8d34399bd9dab2f2dc316b904892133f dmaengine: at_xdmac: avoid null_prt_deref in at_xdmac_prep_dma_memset
 f0e870a0e9c5521f2952ea9f3ea9d3d122631a89 dmaengine: dw: Select only supported masters for ACPI devices
@@ -137,6 +137,9 @@ f65832a32f2e8bd9d16e1bf2c3653f5dd4dc9533 Merge tag 'perf-urgent-2024-12-29' of g
 6cbc4b29eb0d115e9cf7dcc513a5324dc4c9fcc8 Merge tag 'x86-urgent-2024-12-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 4099a71718b056d16af5ba095c91016c3b107862 Merge tag 'sched-urgent-2024-12-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 fc033cf25e612e840e545f8d5ad2edd6ba613ed5 Linux 6.13-rc5
-17810b1de0e9e5c1000cf8f5b4787ad930b0353e Merge tag 'v6.13-rc5'
+5867b028a52e0d5aeb34bb06037760545398bda3 m68k: Use kernel's generic muldi3 libgcc function
+ccb7256422c9397ff03184e69784e60ec02934d6 m68k: atari: usb: Add ISP1160 USB host controller support
+745914fe2bc9ce1ba66723f95d6f00ff3ff3375c m68k: atari: Update Kconfig.bus help text
+2b9d368795103a360d67bfec877ca456b053764e m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============2549390006503498763==--
+--===============6825606215599504228==--
