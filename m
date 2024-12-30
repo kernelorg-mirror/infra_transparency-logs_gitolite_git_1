@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4673584093536359749=="
+Content-Type: multipart/mixed; boundary="===============0793458467632197632=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 30 Dec 2024 07:25:50 -0000
-Message-Id: <173554355081.2667701.6012136912469702029@gitolite.kernel.org>
+Date: Mon, 30 Dec 2024 07:30:25 -0000
+Message-Id: <173554382504.2671539.5906399896967375975@gitolite.kernel.org>
 
---===============4673584093536359749==
+--===============0793458467632197632==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,40 @@ user: krzk
 git_push_cert_status: Y
 changes:
   - ref: refs/heads/next/dt64
-    old: f21231ac28f44cd5daf50bc8fdae381f451b46c9
-    new: 72f6ec2ba8061ac9e911a83b91e3f180f996d981
+    old: 72f6ec2ba8061ac9e911a83b91e3f180f996d981
+    new: f424523b1b516b3f0984feeb1d8218e904d17a97
     log: |
-         5feae3e79dbe2d357b223fc48ae907ba0aedb271 dt-bindings: clock: samsung: Add Exynos990 SoC CMU bindings
-         f6735dc5bc0f6b6d3552dfbc563da2a247d587d2 Merge branch 'for-v6.14/dt-bindings-clk-samsung' into next/dt64
-         72f6ec2ba8061ac9e911a83b91e3f180f996d981 arm64: dts: exynos990: Add clock management unit nodes
+         f424523b1b516b3f0984feeb1d8218e904d17a97 arm64: dts: exynos8895: Add camera hsi2c nodes
          
 
---===============4673584093536359749==
+--===============0793458467632197632==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1735543578 +0100
+pusher krzk@kernel.org 1735543852 +0100
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1735543548-fb9a7540e2a076f50c177a21a0f35de6fbe72f64
+nonce 1735543823-88b31413f01219c084a41a8dc5ae8f1be3b7b7f3
 
-f21231ac28f44cd5daf50bc8fdae381f451b46c9 72f6ec2ba8061ac9e911a83b91e3f180f996d981 refs/heads/next/dt64
+72f6ec2ba8061ac9e911a83b91e3f180f996d981 f424523b1b516b3f0984feeb1d8218e904d17a97 refs/heads/next/dt64
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmdySxoQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD108xD/0T08CQDwv5mUMNx37IpZJyQBpBRpPg6SjU
-UbQHV5DNjakfRO459ko4/VqNfpTxgShJcJ4g6SHjYSXc4F0qwaRPiNt17YRv/YPj
-LDEMwEX7l28eHs18i4MbLbafVB6LCH6CTHTc+qZOQahcef5t/njUnB1SbV8Zysj1
-yrlpVmhOmHiAZ9WJzpF/NeVKZNjTGdW9y5Dga0AfyW/YrLtzDf4tPsyHQzfx0liQ
-d/+gI5GZdpZRPAKd6I9K9qzVvelrhPTkWyp2LrL6um80faOlS8UQcSxiDCeq0Mo2
-Iuk9ZSGNWLDTIZtrGtk4tdoakp3Qa+1jxyEHSZ3rJ4HolqdEZicpeG4jKf3b6ss5
-XyCL1UubDTjUUxvNtAaghLO1QAWFzJ0B21zPFkPgLYKYtHe4yTnLY1KAr2nzju3Z
-8Sux9y7fKEzGLoXw03wvewRUTVGaEgWrVGKVzVGKa65ulfC49V2IhVowNljP09Oe
-/5x1eYXCeCJQqIolNcfJ7KjY1+lqb9amAbBZjEaJ6RxgPZ/OEnhi+zJTwAqRk25m
-JUD+rpMx0K15a0PRQMp/DXdcu1nb6oTJA+GStKUZy8xM8uM/NG8qNGGXlj8dmd/f
-CGTBkKQGKQOT77x9COn6/Uv+9k/iOqahzNsNtSm7MFgW4N/hcJJDSxEQtQaXGN2h
-IKtXlwzTtQ==
-=ALX2
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmdyTCwQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD16OHD/9hTVVwVizvHw/t3SacCMnTJ7PR5DJck+nZ
+G+rY6ZQkhjHhb1dv0H6eM2b777wzDbNP18BCwbUCaOzeZJGxFuSUx3jpQrbo1veQ
+lArMjoCZpfkTSfO9PWss1od9tmmU0QtJGfPFvM3q69KnOTlb+LFikpyCowt5gDch
+nfGYdDUc+aJXUSl1UUdZc1AiIvzGG4h00ix5HMlcw6fN4Cdt2xfwR+F58GaRRlBN
+nKSld2EOTn4FkaaEbPjnOPTvQ3hVcg/tyRE4q2M3b+8hdQwHrZDTKChr2KboAmpk
+1LEMv3vCsp+saLz0hS2P1aw3LnQSvI7+Grv8s5gP9E4zyWVTI7t0An/huEyEbTc0
+YA7XgMVlaXPn5eOz79I0kXv9NtX1WHr1SBDWWF4uK7kKKOEAwrFe6zzJUFqbD90C
+xVS8PsN9YR8oi2Qrh1uzWYIMeZWQatA/aeyVTcI4EHWe41n+qLuRpJAi1KoaQM80
+lmsUNnmufMN5JM/TGrg0OFasamj7+52BdHVmhMXo5EPBa1/3M80W/rbbGB6cZgc4
+X3PWSW6S9c3sFIUpqwVuwBRJbWsrZAQAOWjBds/7jbuKDpckjvfxpg5nZSnlpRTp
+AviCJqJ/8Ijgv4V/+SSQnFgIpNGLGy9v4m7+bBdpXTnjHILQcW2icPeqL/CHQrOk
+l0NPsD7Z8A==
+=qKoj
 -----END PGP SIGNATURE-----
 
---===============4673584093536359749==--
+--===============0793458467632197632==--
