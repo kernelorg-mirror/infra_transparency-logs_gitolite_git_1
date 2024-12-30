@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4580243428508977474=="
+Content-Type: multipart/mixed; boundary="===============7379422267618783759=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Mon, 30 Dec 2024 07:46:07 -0000
-Message-Id: <173554476736.2684152.18334391221178314002@gitolite.kernel.org>
+Date: Mon, 30 Dec 2024 07:46:11 -0000
+Message-Id: <173554477118.2684269.16412027937372401627@gitolite.kernel.org>
 
---===============4580243428508977474==
+--===============7379422267618783759==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,79 +16,38 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 059dd502b263d8a4e2a84809cf1068d6a3905e6f
-    new: fc033cf25e612e840e545f8d5ad2edd6ba613ed5
-    log: revlist-059dd502b263-fc033cf25e61.txt
+  - ref: refs/tags/v6.13-rc5
+    old: 0000000000000000000000000000000000000000
+    new: a70d5ba87c51302276bdcb0e847c281a95be6526
 
---===============4580243428508977474==
+--===============7379422267618783759==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1735544792 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1735544799 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1735544760-92644076181caf5aa9b0686e5e3f4fe632697285
+nonce 1735544768-3709c95eadfded7793956d7f1ca09cb89c1e00b3
 
-059dd502b263d8a4e2a84809cf1068d6a3905e6f fc033cf25e612e840e545f8d5ad2edd6ba613ed5 refs/heads/master
+0000000000000000000000000000000000000000 a70d5ba87c51302276bdcb0e847c281a95be6526 refs/tags/v6.13-rc5
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdyT9gbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+C04P/A5th4zgz9lhfV+sj45n
-vjAIcrw0OWaB7y3nEirSx/w3CesiGBOgejeEMjtG/zvmZw19SZpRzcMZuf6IPtru
-nqE5nIo7GCZkRprC4s28n2leOuudSY1Ew3CKfWHMttWvqCMxjjnUGlT20jOyloR0
-rpLqaslsvEe1meLxtug9A3fhAqLRl/nRZ+cxCxfgwIUHHsn3hXmQVwMK8F2k8laU
-DRL4AUt3phMZZmOuq0J7V/KrvIk9LHSUyDLp9h1wJaquxZROu6TEnFPm5sznPVSf
-1jMORcP5sptGFX0PUyo33YuBZ87q7TOd5OxEjKfuKf08z3oQTkrkEK7VgTSX+n9D
-jSBUS97lGRbJJllRz8zH98mvJcp8v9PqEkViaQMnLk1NcFgLXJ2dUJJYhCE7IvFV
-hi7nlTBcVfMefmD6nmCg06WsNTKT2abXeNKQphseAzZLU0JipTzYxEvQJDPAql92
-V1+5haADUKiZcqL/J7iR7Fyi1vTz5MKk4k+LOh+Vlcbnjzgoq5ERVikqxmP6H/br
-6V1KyRpqJwEdOh60uBuqGcH2DdAHO5gl11XdxVt4li7FaNXm5snHYnxMse8Cxn3Q
-WM+qaZ7B8FLfu0O22LQ8c6A+qIk5PZyZR/47rOT8QunfUqtRBEoQNK7jBYXBNbsE
-BW/oihrl0qjEZDXYvOVkesDw
-=krxQ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdyT98bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+p2cP/3Oi37pvM79snl/ov9H8
+7GEY12q5VXPcoLucYTtlbqvQ5ffFTgMxlkT0/38jTjU/OxZXxYlsKT8q63Axd325
+Th+BuJXiw6YJaNRAjUx8oFuQ2ael8pjM9rscFiomDzo9PGtGi2UI/n8YRUNTCiF+
+Xlm7YjYg3v3BuEMOJpAGjayYKzcTMrgAFAZWHP7hLG9NmtPVZAlm3V7awFhJ4IN2
+MXa+fQrX+lK5dOVlUga/+54U162m9tGbs6uxA/ojp/ciE/9KHat3yD81nmaqveoU
+dBf9VrbQBMwCxrkGHmctdenzN9uGQRJhqIH97ka+n0qzRA8SJhuf5I3e3CJdhVht
+K9XL1t1GiiFdY03DffSU4z/eUoM3weCfBu8ObmVTSJxF1CyAhtDpnis9S0fgmOG/
+RsjLL/3LgJOWUwRps3OHqlZwzO92EyHwdQcKKm9ToezvNvBD42f3wXVY9CcRTBaa
+nDhpALM1ruvJbbUlRX54TmmVuAF1uQaep00lILTAtkZmSx6JTXBrtv31D3DHVI+j
+kMX+jaIdU7jKv9cOtBu3/Mk+5gEpmwOuMQUJSBtIAeazh9NjUidxkF+N/ry/qcBv
+Fh40OJ9fpdlg6Rq8da6Af2jQ5PHqmxCXDNSK1BTlep1m+hGCiJ3anFhZMtm39Unp
+bHP1L6QlVvg9p73VzJ5KihJ5
+=AOI+
 -----END PGP SIGNATURE-----
 
---===============4580243428508977474==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-059dd502b263-fc033cf25e61.txt
-
-a60b990798eb17433d0283788280422b1bd94b18 PCI/MSI: Handle lack of irqdomain gracefully
-b6ccddd6fe1fd49c7a82b6fbed01cccad21a29c7 perf/x86/intel/uncore: Add Clearwater Forest support
-b8c3a2502a205321fe66c356f4b70cabd8e1a5fc perf/x86/intel/ds: Add PEBS format 6
-4a077914578183ec397ad09f7156a357e00e5d72 locking/rtmutex: Make sure we wake anything on the wake_q when we release the lock->wait_lock
-aa5d2ca7c179c40669edb5e96d931bf9828dea3d perf/x86/intel: Fix bitmask of OCR and FRONTEND events for LNC
-d29662695ed7c015521e5fc9387df25aab192a2e btrfs: fix use-after-free waiting for encoded read endios
-44f52bbe96dfdbe4aca3818a2534520082a07040 btrfs: fix use-after-free when COWing tree bock and tracing is enabled
-3e74859ee35edc33a022c3f3971df066ea0ca6b9 btrfs: check folio mapping after unlock in relocate_one_folio()
-0fba7be1ca6df2881e68386e5575fe096f33c4ca btrfs: check folio mapping after unlock in put_file_data()
-0525064bb82e50d59543b62b9d41a606198a4a44 btrfs: fix race with memory mapped writes when activating swap file
-03018e5d8508254534511d40fb57bc150e6a87f2 btrfs: fix swap file activation failure due to extents that used to be shared
-9a45022a0efadd99bcc58f7f1cc2b6fb3b808c40 btrfs: allow swap activation to be interruptible
-2c8507c63f5498d4ee4af404a8e44ceae4345056 btrfs: avoid monopolizing a core when activating a swap file
-f2363e6fcc7938c5f0f6ac066fad0dd247598b51 btrfs: fix transaction atomicity bug when enabling simple quotas
-fca432e73db2bec0fdbfbf6d98d3ebcd5388a977 btrfs: sysfs: fix direct super block member reads
-768776dd4efc681cdca33a79e29bb508d6de9bc0 i2c: imx: fix missing stop condition in single-master mode
-e0cec363197e41af870613e8e17b30bf0e3d41b5 i2c: imx: add imx7d compatible string for applying erratum ERR007805
-9a8f9320d67b27ddd7f1ee88d91820197a0e908f i2c: microchip-core: actually use repeated sends
-49e1f0fd0d4cb03a16b8526c4e683e1958f71490 i2c: microchip-core: fix "ghost" detections
-f802f11b2336b0f5c522c6ba827a013bb0b83826 Merge tag 'i2c-host-fixes-6.13-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-current
-31ad36a271290648e7c2288a03d7b933d20254d6 objtool: Add bch2_trans_unlocked_error() to bcachefs noreturns
-f718faf3940e95d5d34af9041f279f598396ab7d freezer, sched: Report frozen tasks as 'D' instead of 'R'
-dc81e556f2a017d681251ace21bf06c126d5a192 x86/fred: Clear WFE in missing-ENDBRANCH #CPs
-27834971f616c5e154423c578fa95e0444444ce1 virt: tdx-guest: Just leak decrypted memory on unrecoverable errors
-e1d9326608395543d9c4d1bf2932f14fdb75c3c5 Merge tag 'i2c-for-6.13-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
-c059361673e487fe33bb736fb944f313024ad726 Merge tag 'for-6.13-rc4-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-feffd35a03445ed2e9ea65f47af5fc9a0d1ede80 Merge tag 'irq-urgent-2024-12-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-bf7a281b806342ff0750827853bf16e53a082073 Merge tag 'locking-urgent-2024-12-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-bcfac5530a7880c762fd4fe6c86e3c79710fa454 Merge tag 'objtool-urgent-2024-12-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-f65832a32f2e8bd9d16e1bf2c3653f5dd4dc9533 Merge tag 'perf-urgent-2024-12-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-6cbc4b29eb0d115e9cf7dcc513a5324dc4c9fcc8 Merge tag 'x86-urgent-2024-12-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-4099a71718b056d16af5ba095c91016c3b107862 Merge tag 'sched-urgent-2024-12-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-fc033cf25e612e840e545f8d5ad2edd6ba613ed5 Linux 6.13-rc5
-
---===============4580243428508977474==--
+--===============7379422267618783759==--
