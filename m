@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6022656791997865661=="
+Content-Type: multipart/mixed; boundary="===============3766524446198117174=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 30 Dec 2024 12:05:20 -0000
-Message-Id: <173556032074.2941893.14767722070832734114@gitolite.kernel.org>
+Date: Mon, 30 Dec 2024 12:06:54 -0000
+Message-Id: <173556041470.2942781.119085618744331631@gitolite.kernel.org>
 
---===============6022656791997865661==
+--===============3766524446198117174==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,42 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 362f0688c0c17c75c3c3c8f4ab10c595fb9ee515
-    new: 11ce17b60d7ab10879bd5c2edcd1ca10b2acfb56
-    log: revlist-362f0688c0c1-11ce17b60d7a.txt
+    old: 11ce17b60d7ab10879bd5c2edcd1ca10b2acfb56
+    new: ac10640868bd8553aaebb47edfb4b77714ab5fb3
+    log: revlist-11ce17b60d7a-ac10640868bd.txt
+  - ref: refs/heads/tip/urgent
+    old: a47317d31e9617f949dd1845bd0dbbbffbf0d888
+    new: fc033cf25e612e840e545f8d5ad2edd6ba613ed5
+    log: revlist-a47317d31e96-fc033cf25e61.txt
+  - ref: refs/tags/v6.13-rc5
+    old: 0000000000000000000000000000000000000000
+    new: a70d5ba87c51302276bdcb0e847c281a95be6526
 
---===============6022656791997865661==
+--===============3766524446198117174==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-362f0688c0c1-11ce17b60d7a.txt
+Content-Disposition: attachment; filename=revlist-11ce17b60d7a-ac10640868bd.txt
+
+d07ef185748692c678804bcd19977ae36a9a328d Merge branch into tip/master: 'irq/core'
+54adc64fb7c72c944728d0b86b22eddd1aacb15a Merge branch into tip/master: 'locking/core'
+3668076b0dd19fb91887b98e292e453ebb9724f2 Merge branch into tip/master: 'objtool/core'
+efed8d40327ea58e0056788c3c5f066282b9ed67 Merge branch into tip/master: 'perf/core'
+79c94491a2674a8fef4d05a582b3a239ee57f04d Merge branch into tip/master: 'sched/core'
+a16cb2e95bdb45127b9662fc611784b7569d629a Merge branch into tip/master: 'x86/boot'
+27a0652976b5b2e7ee20a1472f778f568fa7a3ad Merge branch into tip/master: 'x86/cache'
+cf2ae872b5f6cc774c404f301af1260cb664f31c Merge branch into tip/master: 'x86/cleanups'
+53fddd138e63e2c9fb2abc7ea2bb6f8a26f1d65f Merge branch into tip/master: 'x86/cpu'
+48d88a0580cf45555b508b924bf731df3dbb995f Merge branch into tip/master: 'x86/misc'
+d3c22f55f924ea733851e4a6ea1aca747641b50e Merge branch into tip/master: 'x86/mm'
+7cabfdd7a6237a4a22a30c53f8d183b8cba2b715 Merge branch into tip/master: 'x86/sev'
+ac10640868bd8553aaebb47edfb4b77714ab5fb3 Merge branch into tip/master: 'x86/tdx'
+
+--===============3766524446198117174==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-a47317d31e96-fc033cf25e61.txt
 
 d29662695ed7c015521e5fc9387df25aab192a2e btrfs: fix use-after-free waiting for encoded read endios
 44f52bbe96dfdbe4aca3818a2534520082a07040 btrfs: fix use-after-free when COWing tree bock and tracing is enabled
@@ -50,6 +77,5 @@ f65832a32f2e8bd9d16e1bf2c3653f5dd4dc9533 Merge tag 'perf-urgent-2024-12-29' of g
 6cbc4b29eb0d115e9cf7dcc513a5324dc4c9fcc8 Merge tag 'x86-urgent-2024-12-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 4099a71718b056d16af5ba095c91016c3b107862 Merge tag 'sched-urgent-2024-12-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 fc033cf25e612e840e545f8d5ad2edd6ba613ed5 Linux 6.13-rc5
-11ce17b60d7ab10879bd5c2edcd1ca10b2acfb56 Merge branch 'linus'
 
---===============6022656791997865661==--
+--===============3766524446198117174==--
