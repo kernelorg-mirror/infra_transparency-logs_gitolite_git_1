@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4648276955752540896=="
+Content-Type: multipart/mixed; boundary="===============3034726176533466375=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 30 Dec 2024 14:15:34 -0000
-Message-Id: <173556813431.3043430.14449249170927057111@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 30 Dec 2024 14:15:47 -0000
+Message-Id: <173556814726.3043659.16312891451288440096@gitolite.kernel.org>
 
---===============4648276955752540896==
+--===============3034726176533466375==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: fc033cf25e612e840e545f8d5ad2edd6ba613ed5
     log: revlist-4bbf9020becb-fc033cf25e61.txt
 
---===============4648276955752540896==
+--===============3034726176533466375==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -138,4 +138,4 @@ f65832a32f2e8bd9d16e1bf2c3653f5dd4dc9533 Merge tag 'perf-urgent-2024-12-29' of g
 4099a71718b056d16af5ba095c91016c3b107862 Merge tag 'sched-urgent-2024-12-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 fc033cf25e612e840e545f8d5ad2edd6ba613ed5 Linux 6.13-rc5
 
---===============4648276955752540896==--
+--===============3034726176533466375==--
