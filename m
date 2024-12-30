@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============4635210356315014349=="
+Content-Type: multipart/mixed; boundary="===============3322579227957411737=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 30 Dec 2024 07:24:34 -0000
-Message-Id: <173554347424.2665122.3584546307199358494@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Mon, 30 Dec 2024 07:24:47 -0000
+Message-Id: <173554348726.2665353.6457348551128997073@gitolite.kernel.org>
 
---===============4635210356315014349==
+--===============3322579227957411737==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: westeri
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/master
     old: 4bbf9020becbfd8fc2c3da790855b7042fad455b
     new: fc033cf25e612e840e545f8d5ad2edd6ba613ed5
     log: revlist-4bbf9020becb-fc033cf25e61.txt
 
---===============4635210356315014349==
+--===============3322579227957411737==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -138,4 +138,4 @@ f65832a32f2e8bd9d16e1bf2c3653f5dd4dc9533 Merge tag 'perf-urgent-2024-12-29' of g
 4099a71718b056d16af5ba095c91016c3b107862 Merge tag 'sched-urgent-2024-12-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 fc033cf25e612e840e545f8d5ad2edd6ba613ed5 Linux 6.13-rc5
 
---===============4635210356315014349==--
+--===============3322579227957411737==--
