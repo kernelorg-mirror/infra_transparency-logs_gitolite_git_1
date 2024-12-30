@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1186707135224615279=="
+Content-Type: multipart/mixed; boundary="===============0980991174836624703=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 30 Dec 2024 08:20:58 -0000
-Message-Id: <173554685875.2759339.12993567764861975928@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 30 Dec 2024 08:29:58 -0000
+Message-Id: <173554739846.2765286.9124445959136145283@gitolite.kernel.org>
 
---===============1186707135224615279==
+--===============0980991174836624703==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
-    old: 5d4db9cf4135d82634c7f31aac73081fba3a356e
-    new: 33bd6465275a11d4dbeceb9fe1b439d54e14fafe
+  - ref: refs/heads/master
+    old: 9f14639ba471f7a09d1ab2fa53e8eb8f17b80b32
+    new: 35bc6b6446b98a5aca2dae7c8008cd9891799217
     log: |
-         33bd6465275a11d4dbeceb9fe1b439d54e14fafe staging: vme_user: vme_tsi148.c: avoid parenthesis line ending
+         35bc6b6446b98a5aca2dae7c8008cd9891799217 5.4-stable patches
          
 
---===============1186707135224615279==
+--===============0980991174836624703==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1735546887 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1735546857-7e866e803a51dcd3e61024732014d448d85c4362
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1735547426 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1735547393-26e732864b47d89d4238d1129283eeddcf415588
 
-5d4db9cf4135d82634c7f31aac73081fba3a356e 33bd6465275a11d4dbeceb9fe1b439d54e14fafe refs/heads/staging-next
+9f14639ba471f7a09d1ab2fa53e8eb8f17b80b32 35bc6b6446b98a5aca2dae7c8008cd9891799217 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdyWAcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+C7QP/0NveOJrqzLy+tiPlsNL
-TfRxAWRuSMzr1Wr4L4MRkr55x05Auoc1KW79+y9LYhAE77BFjgCk49FV4P/xFinQ
-RaVtGmPrz2+JIvblVkEokmqHdC8vDht1e3tOJgb0aD65FpXHMVXh2BSwkCBCrkTm
-xet89fjXCRqSfXeAZR7CmyU1vIgXzHDvH0aPAViaby4Jqzi9FjmdfqTccNM1b3TQ
-TlHQyzKxdaYXN8kh+ssyOmNh2zh+qmSoz2KWZYNvVb3zLWFgqICtIkWeNPPpNl3y
-t7w8t7WnaFXarvHcTccbrqP+U0oVBbTUtSmNVCGoFjxj9XeiyK2Ad0DHDq5KML6/
-RgMkVH/U5AROCwNFZfA/mE5/apUjTZ2XlQgL93453/I3RBnMAfMdvHOq3uMOugLt
-fLeCwzGw8QLrFH929v/S5dXsArcayr8CkEHHHgsxaq/h8q8Dlw+T+IQiHq13p+Ij
-Q+lslko6ZOnAS7SZKrWhTcNFEgGOMxuabtLGQlk9CWo/5Jau6esXUVZGMzCXdJqh
-Al8HElybkQ1cHY0qS6IFUOfJXc+eGY7/6hVs58h8Y1jsfbaFyvRgcAukRxzopxES
-6u/k27HqdsQMTca8HzcXTR1rQkAujBEQmB1Ry7nyLbAt0tCCjP7q0pPzIIn/g7GL
-HzXw77gxb1nq/a/MLxgg8xyz
-=mOwx
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmdyWiMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8xcQAIg/c9NWc4jCyybrT6qg
+1wB4lMPn6Kje8tlDsPpIbQwzNaT0L7TJw5/yM+K2SuO5CiZ3ayzT/sJLkfvdwciY
+Nu1b1cxXTmby7T80RlO4sKaXgIu/cDl9uKpmOgynUH97SgoMWtAifbqFmyLSFTKX
+IgmeFtSBqGYI8syJ5sO9wgIYiQhV9JC0kmAGlfvzYvcJCEWszaC+0r5VJyt0fge+
+n/M+v/rVlDTpjkPX+tfxH10l4XehL1rZ9os+oRF9NTWxbLAx65LYnI+HHqkHVFan
+E0jyari8els/xj2D7NJQW3lxwEm9zpx5J6h5fezozaTaBaQfwW8rZ8QFEY+a2aKh
+6BZwYqLbbqvCt3TaTjd648mqFb0cgRyT1A9zd3j1UY56YQZt65JH20LuOZC0ExAh
+FyPs6+DMNKcNVsJ30EilD79QCMRl8NaOVtmHX51z03ObiVF827CaAiHvPsBs3sDj
+Z9bDWBictVyWNU7KdvenFIWf/ZvbIaunFybg+P51SXrFiJZP2HSe3i9oA/+c4HaL
+EHzfPusQDSnXSVqcpd2fWKiaVEGd3yvEOdt0qKpEv+DNGW3d4rpj0wwf6YvuT55f
+FFSMp08S/xoDUozcpJCO9SKzVOcFhn5e4jbPtCazyGGAlDmUEVUJSBkC2GoboaqF
+LLXSlo3lVL49Xfyw7BksSia2
+=RY7/
 -----END PGP SIGNATURE-----
 
---===============1186707135224615279==--
+--===============0980991174836624703==--
