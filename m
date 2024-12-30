@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Mon, 30 Dec 2024 11:00:32 -0000
-Message-Id: <173555643240.2890341.6727265785793092204@gitolite.kernel.org>
+Date: Mon, 30 Dec 2024 11:35:32 -0000
+Message-Id: <173555853216.2917032.12079683546549756236@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,19 +12,15 @@ repo: pub/scm/linux/kernel/git/tiwai/sound
 user: tiwai
 changes:
   - ref: refs/heads/for-linus
-    old: b06a6187ef983f501e93faa56209169752d3bde3
-    new: 7439b395211874e20c24b2fe0e4903864357a3f5
+    old: 7439b395211874e20c24b2fe0e4903864357a3f5
+    new: 0179488ca992d79908b8e26b9213f1554fc5bacc
     log: |
-         6a451e2c5c03e27aa3ec36be424fccaa286c3ccd ALSA: hda/tas2781: Ignore SUBSYS_ID not found for tas2563 projects
-         ac9fae799eda81e24bbf2e0d5cb9e5c33fc9bdcb ALSA: compress_offload: Drop unneeded no_free_ptr()
-         7439b395211874e20c24b2fe0e4903864357a3f5 ALSA: compress_offload: fix remaining descriptor races in sound/core/compress_offload.c
+         0179488ca992d79908b8e26b9213f1554fc5bacc ALSA: seq: oss: Fix races at processing SysEx messages
          
   - ref: refs/heads/master
-    old: ffe755784940e39fe4c24550d766e2f048cb230b
-    new: 6879aec12b40c3b210a1d084a42bac8435c531c1
+    old: 6879aec12b40c3b210a1d084a42bac8435c531c1
+    new: 088d6f49b13cfa2ee71e96686188065c12ec465f
     log: |
-         6a451e2c5c03e27aa3ec36be424fccaa286c3ccd ALSA: hda/tas2781: Ignore SUBSYS_ID not found for tas2563 projects
-         ac9fae799eda81e24bbf2e0d5cb9e5c33fc9bdcb ALSA: compress_offload: Drop unneeded no_free_ptr()
-         7439b395211874e20c24b2fe0e4903864357a3f5 ALSA: compress_offload: fix remaining descriptor races in sound/core/compress_offload.c
-         6879aec12b40c3b210a1d084a42bac8435c531c1 Merge branch 'for-linus'
+         0179488ca992d79908b8e26b9213f1554fc5bacc ALSA: seq: oss: Fix races at processing SysEx messages
+         088d6f49b13cfa2ee71e96686188065c12ec465f Merge branch 'for-linus'
          
