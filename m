@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 31 Dec 2024 01:45:21 -0000
-Message-Id: <173560952147.3602840.9771760793820820819@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Tue, 31 Dec 2024 01:56:37 -0000
+Message-Id: <173561019723.3612900.13990253458950006660@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/main
-    old: fb3a9a1165cea104b5ab3753e88218e4497b01c1
-    new: ad5c318086e2e23b577eca33559c5ebf89bc7eb9
+  - ref: refs/heads/kernel-6.12/baseline-6.12.7
+    old: 70bac3fb96ca1a42434dcc66d330ea9307ec070c
+    new: b6e7b64f193017e219a6bd2e6454a928f86bcd5c
     log: |
-         ad5c318086e2e23b577eca33559c5ebf89bc7eb9 net: mv643xx_eth: fix an OF node reference leak
+         79908a5e04be30623fce1a1d9c1431fd5c716279 redhat/configs: remove s390 support
+         b6e7b64f193017e219a6bd2e6454a928f86bcd5c kernel-6.12.6-baseline
          
