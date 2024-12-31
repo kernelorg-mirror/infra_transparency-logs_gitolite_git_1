@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 31 Dec 2024 01:56:37 -0000
-Message-Id: <173561019723.3612900.13990253458950006660@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 31 Dec 2024 01:57:12 -0000
+Message-Id: <173561023276.3613202.8354809422344868043@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/kernel-6.12/baseline-6.12.7
-    old: 70bac3fb96ca1a42434dcc66d330ea9307ec070c
-    new: b6e7b64f193017e219a6bd2e6454a928f86bcd5c
+  - ref: refs/heads/main
+    old: ad5c318086e2e23b577eca33559c5ebf89bc7eb9
+    new: cbb26f7d8451fe56ccac802c6db48d16240feebd
     log: |
-         79908a5e04be30623fce1a1d9c1431fd5c716279 redhat/configs: remove s390 support
-         b6e7b64f193017e219a6bd2e6454a928f86bcd5c kernel-6.12.6-baseline
+         cbb26f7d8451fe56ccac802c6db48d16240feebd mptcp: fix TCP options overflow.
          
