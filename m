@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 31 Dec 2024 01:04:45 -0000
-Message-Id: <173560708522.3567500.3497694560867960167@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 31 Dec 2024 01:35:04 -0000
+Message-Id: <173560890498.3594060.1271788661583734968@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/kernel-6.12/baseline-6.12.7
-    old: 85b53be4397d77a2333024179e485ff60226bfd9
-    new: 70bac3fb96ca1a42434dcc66d330ea9307ec070c
+  - ref: refs/heads/main
+    old: a024e377efed31ecfb39210bed562932321345b3
+    new: b255ef45fcc2141c1bf98456796abb956d843a27
     log: |
-         93aa03cd1d160d24b7cf63948fd609352e419417 redhat/configs: remove s390 support
-         70bac3fb96ca1a42434dcc66d330ea9307ec070c kernel-6.12.6-baseline
+         b255ef45fcc2141c1bf98456796abb956d843a27 eth: bcmsysport: fix call balance of priv->clk handling routines
          
