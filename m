@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 30 Dec 2024 23:18:16 -0000
-Message-Id: <173560069622.3480344.18309629979512251900@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Tue, 31 Dec 2024 00:19:20 -0000
+Message-Id: <173560436079.3526964.17971631751536436820@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/master
-    old: 9468f39ba478d001f2603ce5bf0e1ab4b97452b8
-    new: 654a3381e3b4df5ab1b87e21b5d9ffd979362cd1
+  - ref: refs/heads/not-for-next
+    old: bfd0cea9b86543bc32b73f03920b830a26d0ac14
+    new: 270d9345e8d528a90d480851dd4ec3e3335f67f0
     log: |
-         654a3381e3b4df5ab1b87e21b5d9ffd979362cd1 bpf: Remove unused MT_ENTRY define
+         270d9345e8d528a90d480851dd4ec3e3335f67f0 drm/amd/display: Increase frame-larger-than warning limit for DCN401
          
