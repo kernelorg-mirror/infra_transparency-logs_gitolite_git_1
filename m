@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7892242364705551814=="
+Content-Type: multipart/mixed; boundary="===============4888367140942984928=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/modules/linux
-Date: Tue, 31 Dec 2024 13:20:45 -0000
-Message-Id: <173565124555.4142823.6096942713287499161@gitolite.kernel.org>
+Date: Tue, 31 Dec 2024 13:21:21 -0000
+Message-Id: <173565128184.4143144.15582751307535692465@gitolite.kernel.org>
 
---===============7892242364705551814==
+--===============4888367140942984928==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/modules/linux
 user: ppavlu
 changes:
-  - ref: refs/heads/master
-    old: 4bbf9020becbfd8fc2c3da790855b7042fad455b
+  - ref: refs/heads/modules-fixes
+    old: 0b7a66a2c864859fbf9bb16229c03172eef02c05
     new: fc033cf25e612e840e545f8d5ad2edd6ba613ed5
-    log: revlist-4bbf9020becb-fc033cf25e61.txt
+    log: revlist-0b7a66a2c864-fc033cf25e61.txt
 
---===============7892242364705551814==
+--===============4888367140942984928==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4bbf9020becb-fc033cf25e61.txt
+Content-Disposition: attachment; filename=revlist-0b7a66a2c864-fc033cf25e61.txt
 
 c43ec96e8d34399bd9dab2f2dc316b904892133f dmaengine: at_xdmac: avoid null_prt_deref in at_xdmac_prep_dma_memset
 f0e870a0e9c5521f2952ea9f3ea9d3d122631a89 dmaengine: dw: Select only supported masters for ACPI devices
@@ -73,7 +73,6 @@ fa0308134d26dbbeb209a1581eea46df663866b6 ALSA: memalloc: prefer dma_mapping_erro
 7917f01a286ce01e9c085e24468421f596ee1a0c nfsd: restore callback functionality for NFSv4.0
 aa5d2ca7c179c40669edb5e96d931bf9828dea3d perf/x86/intel: Fix bitmask of OCR and FRONTEND events for LNC
 724c6ce38bbaeb4b3f109b0e066d6c0ecd15446c stddef: make __struct_group() UAPI C++-friendly
-0b7a66a2c864859fbf9bb16229c03172eef02c05 preempt: Move PREEMPT_RT before PREEMPT in vermagic.
 b8ea3b1ff544b47c1d64a22860f33b755638164e smb: enable reuse of deferred file handles for write operations
 f17224c2a7bdc11a17c96d9d8cb2d829f54d40bb cifs: Remove unused is_server_using_iface()
 d685d55dfc86b1a4bdcec77c3c1f8a83f181264e tracing/kprobe: Make trace_kprobe's module callback called after jump_label update
@@ -138,4 +137,4 @@ f65832a32f2e8bd9d16e1bf2c3653f5dd4dc9533 Merge tag 'perf-urgent-2024-12-29' of g
 4099a71718b056d16af5ba095c91016c3b107862 Merge tag 'sched-urgent-2024-12-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 fc033cf25e612e840e545f8d5ad2edd6ba613ed5 Linux 6.13-rc5
 
---===============7892242364705551814==--
+--===============4888367140942984928==--
