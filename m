@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2710506069135536114=="
+Content-Type: multipart/mixed; boundary="===============2943454924947534248=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mbroz/linux
-Date: Wed, 01 Jan 2025 11:29:58 -0000
-Message-Id: <173573099817.986110.16152386647823632608@gitolite.kernel.org>
+Date: Wed, 01 Jan 2025 11:30:41 -0000
+Message-Id: <173573104174.988178.4339524851500036773@gitolite.kernel.org>
 
---===============2710506069135536114==
+--===============2943454924947534248==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mbroz/linux
 user: mbroz
 changes:
-  - ref: refs/heads/master
-    old: aef25be35d23ec768eed08bfcf7ca3cf9685bc28
-    new: ccb98ccef0e543c2bd4ef1a72270461957f3d8d0
-    log: revlist-aef25be35d23-ccb98ccef0e5.txt
+  - ref: refs/heads/dm-cryptsetup
+    old: 09a7d117cf5d10d9ea1509c5f51c9cc3c27c4df6
+    new: c2f66bc1a2449271d146b9d017e90684a07eb209
+    log: revlist-09a7d117cf5d-c2f66bc1a244.txt
 
---===============2710506069135536114==
+--===============2943454924947534248==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aef25be35d23-ccb98ccef0e5.txt
+Content-Disposition: attachment; filename=revlist-09a7d117cf5d-c2f66bc1a244.txt
 
 bc7acc0bd0f94c26bc0defc902311794a3d0fae9 of: property: fw_devlink: Do not use interrupt-parent directly
 1a75e81baf4f1b322f3498ffd373eaada8e60589 of/unittest: Add empty dma-ranges address translation tests
@@ -407,5 +407,7 @@ f65832a32f2e8bd9d16e1bf2c3653f5dd4dc9533 Merge tag 'perf-urgent-2024-12-29' of g
 4099a71718b056d16af5ba095c91016c3b107862 Merge tag 'sched-urgent-2024-12-29' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 fc033cf25e612e840e545f8d5ad2edd6ba613ed5 Linux 6.13-rc5
 ccb98ccef0e543c2bd4ef1a72270461957f3d8d0 Merge tag 'platform-drivers-x86-v6.13-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+a3c728abb72e8e84f789a68c2a9b707a6d61cba3 dm-verity FEC: Fix RS FEC repair for roots unaligned to block size (take 2)
+c2f66bc1a2449271d146b9d017e90684a07eb209 dm-verity FEC: Avoid copying RS parity bytes twice.
 
---===============2710506069135536114==--
+--===============2943454924947534248==--
