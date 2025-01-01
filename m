@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 01 Jan 2025 19:33:05 -0000
-Message-Id: <173575998570.1361421.6683686068748455407@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/frederic/dynticks-testing
+Date: Wed, 01 Jan 2025 20:53:57 -0000
+Message-Id: <173576483743.1422857.16506808527656747881@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/frederic/dynticks-testing
+user: frederic
 changes:
   - ref: refs/heads/master
-    old: ccb98ccef0e543c2bd4ef1a72270461957f3d8d0
-    new: 56e6a3499e14716b9a28a307bb6d18c10e95301e
+    old: 9b39ab06956d484d5311e0678e1fba8104a8e2e3
+    new: e2ec498384b8743aa7ca48623290a62248271d63
     log: |
-         afc6717628f959941d7b33728570568b4af1c4b8 tracing: Have process_string() also allow arrays
-         56e6a3499e14716b9a28a307bb6d18c10e95301e Merge tag 'trace-v6.13-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+         eec3131d3f3c2ab72de66d9f91cdd420bb010e01 Add noise_parse.py
+         ba5b5aaac82a2dd45b129a3afb15270b5b77192d Support sched_wakeup
+         e2ec498384b8743aa7ca48623290a62248271d63 Merge branch 'latency' into 'master'
          
