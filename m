@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2773383140575988427=="
+Content-Type: multipart/mixed; boundary="===============3244209098268394658=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Wed, 01 Jan 2025 08:02:34 -0000
-Message-Id: <173571855484.825715.129506552831779065@gitolite.kernel.org>
+Date: Wed, 01 Jan 2025 08:03:37 -0000
+Message-Id: <173571861725.826347.4769738601978186143@gitolite.kernel.org>
 
---===============2773383140575988427==
+--===============3244209098268394658==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
 user: daeinki
 changes:
-  - ref: refs/heads/exynos-drm-fixes
-    old: e5172ff5053b7cd4699e505118452c96f604d44b
+  - ref: refs/heads/for-linux-next
+    old: a46b488102549ef358a37b823d916856fef31a33
     new: 1e37350bc82a83b1e5a98aec0dc0bc1999170a48
-    log: revlist-e5172ff5053b-1e37350bc82a.txt
+    log: revlist-a46b48810254-1e37350bc82a.txt
 
---===============2773383140575988427==
+--===============3244209098268394658==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e5172ff5053b-1e37350bc82a.txt
+Content-Disposition: attachment; filename=revlist-a46b48810254-1e37350bc82a.txt
 
 bc7acc0bd0f94c26bc0defc902311794a3d0fae9 of: property: fw_devlink: Do not use interrupt-parent directly
 d798bc6f3c174c61837862cb9778d73cccd92a8e arm64: Fix usage of new shifted MDCR_EL2 values
@@ -738,4 +738,4 @@ b1fdbe77be6d31d78ecc2a82ea7167773293fed0 Merge tag 'for-linus' of git://git.kern
 4bbf9020becbfd8fc2c3da790855b7042fad455b Linux 6.13-rc4
 1e37350bc82a83b1e5a98aec0dc0bc1999170a48 drm/exynos: Remove unnecessary checking
 
---===============2773383140575988427==--
+--===============3244209098268394658==--
