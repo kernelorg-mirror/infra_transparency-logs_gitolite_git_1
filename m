@@ -1,25 +1,44 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Thu, 02 Jan 2025 16:25:23 -0000
-Message-Id: <173583512385.2492367.12804993641196695858@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5650119937569660365=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
+Date: Thu, 02 Jan 2025 16:27:06 -0000
+Message-Id: <173583522619.2493302.12856699953325075894@gitolite.kernel.org>
+
+--===============5650119937569660365==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/ti/linux
+user: nmenon
 changes:
-  - ref: refs/heads/for-linux-next
-    old: d88f86449ff2ab1a11db3071082eae011e62459a
-    new: b81ada150448fc7f1939d013b25e5857d1f3e7bd
-    log: |
-         185e1b1d91e419445d3fd99c1c0376a970438acf platform/x86: mlx-platform: call pci_dev_put() to balance the refcount
-         032fe9b0516702599c2dd990a4703f783d5716b8 platform/x86: hp-wmi: mark 8A15 board for timed OMEN thermal profile
-         7e16ae558a87ac9099b6a93a43f19b42d809fd78 platform/x86: thinkpad-acpi: Add support for hotkey 0x1401
-         ccb98ccef0e543c2bd4ef1a72270461957f3d8d0 Merge tag 'platform-drivers-x86-v6.13-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-         afc6717628f959941d7b33728570568b4af1c4b8 tracing: Have process_string() also allow arrays
-         56e6a3499e14716b9a28a307bb6d18c10e95301e Merge tag 'trace-v6.13-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-         b81ada150448fc7f1939d013b25e5857d1f3e7bd Merge tag 'scmi-updates-6.14' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
-         
+  - ref: refs/heads/ti-k3-dts-next
+    old: 09b428453219d470475d0d6447c954bf63b95705
+    new: 6b51892b31fe83fe7cc8cf69e4bf7721cf08951b
+    log: revlist-09b428453219-6b51892b31fe.txt
+  - ref: refs/heads/ti-next
+    old: 09b428453219d470475d0d6447c954bf63b95705
+    new: 6b51892b31fe83fe7cc8cf69e4bf7721cf08951b
+    log: revlist-09b428453219-6b51892b31fe.txt
+
+--===============5650119937569660365==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-09b428453219-6b51892b31fe.txt
+
+28596f0dbf2452a6629026cf4bd9763f2456be64 arm64: dts: ti: k3-am62x-sk-common: Add bootph-all property in cpsw_mac_syscon node
+9442f963098f1eb9d1565fdd694e506d0c2c6f45 arm64: dts: ti: k3-j722s-evm: Enable support for mcu_i2c0
+17d0723c6cf841ebaf510eaf9bb1ebf4991d6e9d arm64: dts: ti: k3-am625-sk: Remove M4 mailbox node redefinition
+61c1c774d33a5305f5440380d2be5e23464cd3de arm64: dts: ti: k3-am62p: Enable Mailbox nodes at the board level
+89d8dbee6d1860c69039d8859003808b5e90266c arm64: dts: ti: k3-am67a-beagley-ai: Add remote processor nodes
+72c691d77ea5d0c4636fd3e9f0ad80d813c7d1a7 arm64: dts: ti: k3-am62: Remove duplicate GICR reg
+6f0232577e260cdbc25508e27bb0b75ade7e7ebc arm64: dts: ti: k3-am62a: Remove duplicate GICR reg
+3cc7633cab8b55a77c86aae3349d83ab1e13a5bb arm64: dts: ti: k3-am62p-j722s-common-main: Enable USB0 for DFU boot
+b48888c9c4af15fcaa57076aeff6c48c90809bc5 arm64: dts: ti: k3-j784s4: Use ti,j7200-padconf compatible
+6b51892b31fe83fe7cc8cf69e4bf7721cf08951b arm64: dts: ti: k3-j7200: Add node to disable loopback connection
+
+--===============5650119937569660365==--
