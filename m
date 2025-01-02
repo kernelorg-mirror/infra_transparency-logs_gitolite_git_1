@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Thu, 02 Jan 2025 22:16:26 -0000
-Message-Id: <173585618689.2767313.3703541001000276236@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Thu, 02 Jan 2025 22:22:18 -0000
+Message-Id: <173585653828.2771822.5218903665627630725@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/for-next
-    old: a6a035a83c104694fcec87da1304cb94513c7609
-    new: 208a55c4818cda2b57a92f4f99a2886a2b002eec
-    log: |
-         208a55c4818cda2b57a92f4f99a2886a2b002eec dt-bindings: vendor-prefixes: add Siflower
-         
+  - ref: refs/tags/ftrace-v6.13-rc5-2
+    old: 0000000000000000000000000000000000000000
+    new: 5481b9d16647243f56a1660ee24edb8ea400b6af
