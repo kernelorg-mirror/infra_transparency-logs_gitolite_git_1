@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pali/linux
-Date: Thu, 02 Jan 2025 23:01:52 -0000
-Message-Id: <173585891250.2804711.3871861637524938695@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Thu, 02 Jan 2025 23:21:03 -0000
+Message-Id: <173586006342.2820271.7562814416523718871@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pali/linux
-user: pali
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/cifs
-    old: 40848830c42a91afaa8eb3912e9690acdcb08ae1
-    new: d32d5b8c373658972bc7a707bf6c32dfa3fc52a5
+  - ref: refs/heads/for-linus
+    old: 774c71c52aa487001c7da9f93b10cedc9985c371
+    new: bbefc2ff28b883c124cab7a436a7eb7d1fa51006
     log: |
-         d32d5b8c373658972bc7a707bf6c32dfa3fc52a5 cifs: Use cifs_autodisable_serverino() for disabling CIFS_MOUNT_SERVER_INUM in readdir.c
+         bbefc2ff28b883c124cab7a436a7eb7d1fa51006 PCI/bwctrl: Fix NULL pointer deref on unbind and bind
          
