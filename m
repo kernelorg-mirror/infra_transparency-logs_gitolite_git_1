@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Thu, 02 Jan 2025 23:21:03 -0000
-Message-Id: <173586006342.2820271.7562814416523718871@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 02 Jan 2025 23:49:33 -0000
+Message-Id: <173586177395.2841136.12031681848300196902@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/for-linus
-    old: 774c71c52aa487001c7da9f93b10cedc9985c371
-    new: bbefc2ff28b883c124cab7a436a7eb7d1fa51006
+  - ref: refs/heads/io_uring-6.13
+    old: a9c83a0ab66a5b02e914daed502fb8d3a8d3d619
+    new: c6e60a0a68b7e6b3c7e33863a16e8e88ba9eee6f
     log: |
-         bbefc2ff28b883c124cab7a436a7eb7d1fa51006 PCI/bwctrl: Fix NULL pointer deref on unbind and bind
+         c6e60a0a68b7e6b3c7e33863a16e8e88ba9eee6f io_uring/net: always initialize kmsg->msg.msg_inq upfront
          
