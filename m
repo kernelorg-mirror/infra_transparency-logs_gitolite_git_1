@@ -1,43 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============1718602402660328654=="
+Content-Type: multipart/mixed; boundary="===============1272005549500595428=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Thu, 02 Jan 2025 19:24:30 -0000
-Message-Id: <173584587048.2631524.15377201523749485269@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
+Date: Thu, 02 Jan 2025 19:25:49 -0000
+Message-Id: <173584594919.2634376.4948034766577036862@gitolite.kernel.org>
 
---===============1718602402660328654==
+--===============1272005549500595428==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: maz
+repo: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
+user: egrumbach
 changes:
-  - ref: refs/heads/next
-    old: 30b2a7aaeee14b80ac3a2c0e68d7ff09b2fb6f0b
-    new: 00163be8bb592a2a9c2ea8694324de0628e37d06
-    log: revlist-30b2a7aaeee1-00163be8bb59.txt
+  - ref: refs/heads/master
+    old: 1b73345d3caf06ac4b2c4f246b4560b45d2ec2b1
+    new: fa64fc525a370d9f774f8fe0c51d584b91ef98b2
+    log: revlist-1b73345d3caf-fa64fc525a37.txt
 
---===============1718602402660328654==
+--===============1272005549500595428==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-30b2a7aaeee1-00163be8bb59.txt
+Content-Disposition: attachment; filename=revlist-1b73345d3caf-fa64fc525a37.txt
 
-b59dbb91f7636a89b54ab8fff756afe320ba6549 KVM: arm64: nv: Add handling of EL2-specific timer registers
-4bad3068cfa9fc38dd767441871e0edab821105b KVM: arm64: nv: Sync nested timer state with FEAT_NV2
-cc45963cbf6334d2b9078f06efef9864639cddd0 KVM: arm64: nv: Publish emulated timer interrupt state in the in-memory state
-2cd2a77f9c32f1eaf599fb72cbcd0394938a8b58 KVM: arm64: nv: Use FEAT_ECV to trap access to EL0 timers
-338f8ea51944d02ea29eadb3d5fa9196e74a100d KVM: arm64: nv: Accelerate EL0 timer read accesses when FEAT_ECV in use
-9b3b2f00291e1abd54bff345761a7fadd8df4daa KVM: arm64: nv: Accelerate EL0 counter accesses from hypervisor context
-b86fc215dc26d8e1bb274f0a7990b5deab740ac8 KVM: arm64: Handle counter access early in non-HYP context
-c271269e3570766724820bcb76a144125dead272 KVM: arm64: nv: Add trap routing for CNTHCTL_EL2.EL1{NVPCT,NVVCT,TVT,TVCT}
-479428cc3dc99bbe28954b62b053b22accbfd1fd KVM: arm64: nv: Propagate CNTHCTL_EL2.EL1NV{P,V}CT bits
-d1e37a50e1d781201768c89314532f6ab87e5a42 KVM: arm64: nv: Sanitise CNTHCTL_EL2
-0bc9a9e85fcf4ffb69846b961273fde4eb0d03ab KVM: arm64: Work around x1e's CNTVOFF_EL2 bogosity
-affd1c83e090133a3d1750916c7911b20f8911c0 KVM: arm64: nv: Document EL2 timer API
-00163be8bb592a2a9c2ea8694324de0628e37d06 Merge branch kvm-arm64/nv-timers into kvmarm-master/next
+575816cacf1e4d70906b3c80467333c64df77b9e wifi: iwlwifi: mld: ensure NL80211_STA_INFO_SIGNAL_AVG is always populated
+920a3361fbb6dd15a2a418a461640f668d025ee2 [BUGFIX] wifi: iwlwifi: mld: correct IWL_STATS_CFG_FLG_RESET_MSK handling
+f37ea8f4ae565df97ed22f5c565160a9a7e4c975 wifi: iwlwifi: mld: add a stub to handle coex notification
+48f87a2805f7f8b8242fb88f4ba50d0ef1ff2d0c wifi: iwlwifi: mld: modify a TX print
+a263b3531fe62d3eafe1b77f95c6cd9090e69cce wifi: iwlwifi: mld: remove unneeded TODOs about connection failure
+0c22a8e875136910df4a150620a0742dd7be6b9a [BUGFIX] wifi: iwlwifi: mld: activate link after the adding the STA
+7908b68a4213854a244dc66aefd6d8fad62602a2 wifi: iwlwifi: mld: add documentation sections
+91245daffb8e0b5a325ac6da5fa7144eebc35591 wifi: iwlwifi: bump FW API to 98 for BZ/SC/DR devices
+172dc4d56aee0327657f54ee7de23ff881ce8702 [NOUPSTREAM] wifi: iwlwifi: mld: Add support for sending RFI table from vendor interface
+ba143171626d104d3eafe9188076275d7822b50e wifi: iwlwifi: mld: update RFI table in iwl_mld on TABLE_READY notification
+19b0493a5c9e14d18982124da1be17738f7d29af [NOUPSTREAM] wifi: iwlwifi: mld: master control to RFI user application
+774fb4dafef6be7f1707be8cc4b584b6b9641da0 [NOUPSTREAM] wifi: iwlwifi: mld: Add support for rfim capabilities to vendor interface
+d1d4330668b9f66f9399c5daf59d61eaf273c1f6 [BUGFIX] wifi: iwlwifi: mld: Add support for more vendor commands
+3ffd272aa678f0144863c74dc991ebcc0c480c57 wifi: iwlwifi: make no_160 more generic
+7207b1a567777393d6c7c6a50f8743b98fc7c62c wifi: iwlwifi: properly set the names for SC devices
+fa64fc525a370d9f774f8fe0c51d584b91ef98b2 wifi: iwlwifi: add support for BE213
 
---===============1718602402660328654==--
+--===============1272005549500595428==--
