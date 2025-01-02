@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3326563829040421274=="
+Content-Type: multipart/mixed; boundary="===============1892850259810234825=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 02 Jan 2025 22:43:43 -0000
-Message-Id: <173585782329.2788736.2018305611775515427@gitolite.kernel.org>
+Date: Thu, 02 Jan 2025 22:43:48 -0000
+Message-Id: <173585782811.2788876.5521096415667837714@gitolite.kernel.org>
 
---===============3326563829040421274==
+--===============1892850259810234825==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,7 +16,7 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/6.13/scsi-fixes
+  - ref: refs/heads/fixes
     old: f103396ae31851d00b561ff9f8a32a441953ff8b
     new: 3b2f56860b05bf0cea86af786fd9b7faa8fe3ef3
     log: |
@@ -26,33 +26,33 @@ changes:
          3b2f56860b05bf0cea86af786fd9b7faa8fe3ef3 scsi: ufs: qcom: Power down the controller/device during system suspend for SM8550/SM8650 SoCs
          
 
---===============3326563829040421274==
+--===============1892850259810234825==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1735857834 -0500
+pusher 75C5DE3D 1735857856 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1735857804-29b52e02633c29f2b663c080e92751b8ecb9f99b
+nonce 1735857826-b77dd28b133903cadc26d0876831cebbf1e9597f
 
-f103396ae31851d00b561ff9f8a32a441953ff8b 3b2f56860b05bf0cea86af786fd9b7faa8fe3ef3 refs/heads/6.13/scsi-fixes
+f103396ae31851d00b561ff9f8a32a441953ff8b 3b2f56860b05bf0cea86af786fd9b7faa8fe3ef3 refs/heads/fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmd3FqoACgkQ7ulgGnXF
-3j1HUw/9HHQhKee2AUQkwHUIFwPIfMcTrd0vqnn5DxTjOMSBDIEyhxl6sNV/7g3+
-wZ89oDMfj4VqQRS0dq3XZQnxP/vuka0HIYj5RuRQN9Gpy/LJjo2QOv600FTvk/Sh
-j8y1iz1ZW1HY/EdzCUEDTRaS8013i2ul9FUXfJ+Cfx8mH6yidNDkjqvynBNIXHjv
-RwsZ3rEvcQJXqumKQ6g1Df4vGQaSeRxD2Ry2YzwjzAArWlENnVtv4ta3VksHrgpt
-c0HOk2+krQtuafzdZfEs/0YmuTrwTbNqG+jupwC9006Lx4ebixZEiIljdcP2pQwW
-uHfDY2n75x+U0aystH7XFuRssWlbrKjjWcDBRY1YpzJ3mKeJuTNsAebTjx8X3spl
-ZCGfABOluspoEmpozOR/G7dLELF7GnfXNvzsXRN1iGSlc3anlU1OXxjYs/PzEDoh
-BF2iQugWIm4PaTLK8GCixtrnh+kmxbt7IQa1FlZmkjJucXBbvOWxHjJS3AT647D1
-U2T7StRNdVq72MXaQAVMg8JoVqvOgA5bjTCsguVPGvjOkXIQnaIYm1Ae7/FdwHVu
-WJaVZuNaSbvUEJCo7G661ylUOe3DqJq4zF1NsS3ATui0FQ+VNVlDmuWPkL343Id5
-YkSAgzwnJ+DFx01uu7OIpBARavYKEfXcN8RuaytStma3S27qG88=
-=Y3ok
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmd3FsAACgkQ7ulgGnXF
+3j0O2A//QVNFh9zK8cLnflI1kkpWnZqZ+ZTeI8gDFR5V6FDq+I4CPCN79LZMMoJ5
+i7irXbrv3MQXFDsXsVcPj+FNDhG3DxKw1LarF2Z1UMhCM1JA9Hi493vv9LFYM+Tf
+9yBZuDcDqq/9NVMz1CjuMlsJDcvzpd75wEtejdyYPb3eXTGtnc5ltHl3pa4L7USn
+mSJaHQwlqbkMPhOYEsSSgey1+FSlNioBZOW/2oQoSrd9sFnpHGDTIQ2QutGsPUgj
+yK9hIeIylv+QJLjnqR2qNNLjzBO1kjH2C7G3KCXA6GPi3EQEJ/zOMSypcgqAExtC
+ArKFb8c8CCP+5GZnIqnyN7bJLjGFkZ/MD9j+MFjbofGFXMLGDB72ufAGhAugak7n
+A39/MIiIvsA6fZVrjSTUDV5N62bB8k80EtG1vcHcJoDfCEWobKo/J1PgySiAi9wm
+FZutHSoQV3TmIRXOrAac+evOy1clgLMAMIDxyZ9zNAd/ZPrwDolv+A7ykbroAMWK
+dNfz8rc7H/q8XM1TTIq7Tds3rnCcSHznlyXdXt91wMut+gajw/3I1Krit2/SEiSn
+Kwr+4aK7JvbvKyA1pFBpdoGvhN+6sVxuzOjuxvUDDPA/3yARkJ/3qRKAHPi0Zp+7
+qeXp9gyRZldJ6mcmRyB95gIlIEu4bubUMXJaspjHydWMJrQwlj0=
+=3Qvo
 -----END PGP SIGNATURE-----
 
---===============3326563829040421274==--
+--===============1892850259810234825==--
