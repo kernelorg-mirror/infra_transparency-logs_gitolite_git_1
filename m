@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1631932249797085787=="
+Content-Type: multipart/mixed; boundary="===============1732894306659323623=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
-Date: Thu, 02 Jan 2025 21:26:37 -0000
-Message-Id: <173585319722.2727052.16636639576790960078@gitolite.kernel.org>
+Date: Thu, 02 Jan 2025 21:27:36 -0000
+Message-Id: <173585325650.2727583.8101246776762996974@gitolite.kernel.org>
 
---===============1631932249797085787==
+--===============1732894306659323623==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
 user: frederic
 changes:
-  - ref: refs/heads/kthread/affinity-v6
-    old: 2e6edb4e3ae0cf941a639e14ff9f17e1b0f30ef9
+  - ref: refs/heads/for-next
+    old: fc7d29fc87711c4e5a850e7498045991688e9785
     new: 8c33e5711a2d307e0dc8949b6d506863b669b7b8
-    log: revlist-2e6edb4e3ae0-8c33e5711a2d.txt
+    log: revlist-fc7d29fc8771-8c33e5711a2d.txt
 
---===============1631932249797085787==
+--===============1732894306659323623==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2e6edb4e3ae0-8c33e5711a2d.txt
+Content-Disposition: attachment; filename=revlist-fc7d29fc8771-8c33e5711a2d.txt
 
 76f99fc1566d99bc263249996240df5511c73819 soc/qman: test: Use kthread_run_on_cpu()
 294fca60223ad2b87dfc5df03a95f044a2cd61a1 kallsyms: Use kthread_run_on_cpu()
@@ -41,4 +41,4 @@ b1e125dcbcea797a155f23ee0e4922b35948106c kthread: Unify kthread_create_on_cpu() 
 94fefe0748473bc2dc680c633b47621de20e640f treewide: Introduce kthread_run_worker[_on_cpu]()
 8c33e5711a2d307e0dc8949b6d506863b669b7b8 rcu: Use kthread preferred affinity for RCU exp kworkers
 
---===============1631932249797085787==--
+--===============1732894306659323623==--
