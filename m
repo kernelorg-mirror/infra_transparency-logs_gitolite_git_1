@@ -1,44 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============2085204697273637758=="
+Content-Type: multipart/mixed; boundary="===============8194209565737057236=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Thu, 02 Jan 2025 22:29:52 -0000
-Message-Id: <173585699212.2777801.678644860481105870@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
+Date: Thu, 02 Jan 2025 22:43:21 -0000
+Message-Id: <173585780146.2788175.13358230866521758023@gitolite.kernel.org>
 
---===============2085204697273637758==
+--===============8194209565737057236==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/mkp/scsi
+user: mkp
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: be1bd93e8874e7c35f1c4a63f8f945981daddab1
-    new: 95227799c87fe31ea31e736c3cec035c9a7cdd61
-    log: revlist-be1bd93e8874-95227799c87f.txt
+  - ref: refs/tags/mkp-scsi-fixes
+    old: 45e603a52e80b9db0c45518c00ba1f132206800f
+    new: 0a67d9a3592bab045a15ff9ed59d52281f2bbce6
+    log: |
+         7bac65687510038390a0a54cbe14fba08d037e46 scsi: ufs: qcom: Power off the PHY if it was already powered on in ufs_qcom_power_up_sequence()
+         bb9850704c043e48c86cc9df90ee102e8a338229 scsi: ufs: core: Honor runtime/system PM levels if set by host controller drivers
+         4f78a56af4c472834681759d4365fb93921da77d scsi: ufs: qcom: Allow passing platform specific OF data
+         3b2f56860b05bf0cea86af786fd9b7faa8fe3ef3 scsi: ufs: qcom: Power down the controller/device during system suspend for SM8550/SM8650 SoCs
+         
 
---===============2085204697273637758==
+--===============8194209565737057236==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-be1bd93e8874-95227799c87f.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-fa0ce454cd4ee35703d4126c5b8e4a9a398cf198 PCI: rockchip: Simplify clock handling by using clk_bulk*() function
-853c711e2caf459767cf58cf7259ad32bd95dd50 PCI: rockchip: Simplify reset control handling by using reset_control_bulk*() function
-8261bf695c47b98a2d8f63e04e2fc2e4a8c6b12b PCI: rockchip: Refactor rockchip_pcie_disable_clocks() function signature
-5c3143465ce9ece5bd7a23a45a942a040b3f8f50 dt-bindings: PCI: mobiveil: Convert mobiveil-pcie.txt to yaml format
-8a8086b7ed41d8bd14e26dd5535845b1dac343d5 Merge branch 'pci/aspm'
-177104daca1610ed853ac3b54953ddbf95b24dc5 Merge branch 'pci/constify'
-870b1be3af87f6d1c0021eb164316d640a1bb392 Merge branch 'pci/devres'
-59313b9a1125038b2fba0722fec52c78021d141e Merge branch 'pci/resource'
-67886ed2a9fce0cf491fd4d75e766dbb5545c493 Merge branch 'pci/endpoint'
-f092eb8e8a31df304ca268c92d43ed2fa799ca9e Merge branch 'pci/controller/dt'
-aeec9a5d21cf5f37507d6a0dd479bd6e5b7dbe91 Merge branch 'pci/controller/mediatek'
-1cca5f258bf8228bcca4cd1207a0b71c8719ed25 Merge branch 'pci/controller/rockchip'
-25b280a4690e9392c9fb3ca767fec6eed6bae870 Merge branch 'pci/controller/xilinx-cpm'
-95227799c87fe31ea31e736c3cec035c9a7cdd61 Merge branch 'pci/misc'
+certificate version 0.1
+pusher 75C5DE3D 1735857784 -0500
+pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
+nonce 1735857754-9f772a5bd92dbf3feff25328b702d3fedf58ec46
 
---===============2085204697273637758==--
+45e603a52e80b9db0c45518c00ba1f132206800f 0a67d9a3592bab045a15ff9ed59d52281f2bbce6 refs/tags/mkp-scsi-fixes
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmd3FngACgkQ7ulgGnXF
+3j3ZxhAAmQ9+cq4z+uLANhrrieoYtJjecsS3zzslZbH8aF329jtiuYeDKVIQhJ4/
+CPWm1GyFO6UW+56EUdsXgrA7Wt7S5wl4gIhhFL469zQckyqQIc/y804HhyjlA2iT
+Y3DCtx2zsRnYNI5pixbn0mngn3XbZTE/dni13i0LwwtnhjBGROavXLE70+sjFkXD
+14KoupoTcevWgLNndZ7ctv8F1OQHmuohrYDqD3ILzfseAlnXipXj6Hr0PPlEXZwx
+W/wFU1CMoU0Q955ga32afWJkRMRiZQcMzG0ZIm7ItB5OFSZP3dbm1aiwUFTqzzwZ
+o2d33heElqQueO67yZqsCkeorMAnHSNIy5VjKuXxpgTCiavHdF9wt7mtC8QF0Tup
+Tki6idtNGDtlxHaBXhBqDzqo5OOvpolA6vg0hRGwjk5lX1yomBRyfXPC3PunCDcQ
+WSWFOJ5mFDZkATaPqubZPCfsw3VcqRqsUaDtEHY5Z9IRtcrwlUnq/hcHfmpaknhH
+KM8GC6V2Pz3DlFDSLJmWKsQY39T0Ujsvhs63C9lUJN4HWm0gv7qfZEl+aPXXR06O
+dEzX8k2TPqIfUGpaIuskNxxlhRSrUK2Tz/xeWaR1nv9XXLoSSbn/wKoPjq1xvUN3
+qBmsToKo5H3s6gTAGx8LAHiGjajC4zDZLu1lg42ETekf7GYQytQ=
+=zN0L
+-----END PGP SIGNATURE-----
+
+--===============8194209565737057236==--
