@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8185137513479488635=="
+Content-Type: multipart/mixed; boundary="===============2552498696461514266=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 02 Jan 2025 22:44:10 -0000
-Message-Id: <173585785021.2789190.16381025978371531987@gitolite.kernel.org>
+Date: Thu, 02 Jan 2025 22:44:14 -0000
+Message-Id: <173585785490.2789363.126692649207906476@gitolite.kernel.org>
 
---===============8185137513479488635==
+--===============2552498696461514266==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: fb4b834caa5333598719b6c46be32af77599a168
-    new: 28184ddf97e74f92f6616d2004f205303349d8fb
+  - ref: refs/heads/6.14/scsi-queue
+    old: 2486e60bdd41ca7ad98b9dc7467abf4628f008ab
+    new: c9a71ca13f71bf0d32664a1e7d1f00378811d59c
     log: |
          9db7a472423d3470fb4bd114d74d0bc0027995ae scsi: ufs: core: Do not hold any lock in ufshcd_hba_stop()
          8d14bfb539522fff4cc0f90cd3c402d5aeef3c6a scsi: docs: Remove init_this_scsi_driver()
@@ -30,33 +30,33 @@ changes:
          c9a71ca13f71bf0d32664a1e7d1f00378811d59c scsi: Constify struct pci_device_id
          
 
---===============8185137513479488635==
+--===============2552498696461514266==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1735857861 -0500
+pusher 75C5DE3D 1735857882 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1735857831-3954bc0b9eddb75209894d288a91b07f18ae4e9b
+nonce 1735857853-867db90cd57a9de41de69d024162eac08e7b58a9
 
-fb4b834caa5333598719b6c46be32af77599a168 28184ddf97e74f92f6616d2004f205303349d8fb refs/tags/mkp-scsi-queue
+2486e60bdd41ca7ad98b9dc7467abf4628f008ab c9a71ca13f71bf0d32664a1e7d1f00378811d59c refs/heads/6.14/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmd3FsUACgkQ7ulgGnXF
-3j1tlQ/7BlogIXsE+8dMmhOlCt1Vh/7CfdpHexp4mhBU6uYsFD5fsEatvyU8VkoJ
-Yy9W8+qRIc1LRKSjygjIiq1b1P7/NylsFPb2PvK+R3/ezjhFyCjS0HH7zDz5uWxi
-ntdU12pJTESZXNN1VREkQvbeYn6Lnl79UoF17bxE7/kxffichMkMCpInhIuhxKp5
-op5rCo6m8/l7LZibrK0S2VCyFHAFW8r8tqB8DHAieRFGuqNax4UqPAa8G3TsuEYI
-zkRjOfPgu579UErXV8AlJjxFZ1cGSlIjOko/4mYJSxGWbBOn3h30CcRinrXm+rJw
-9WZczjDKCx1qtqHruGaEyFZzqkXhisGXwuIISsSB2EoDX5FKBwdHfMES2yfdYYsV
-KErwtJQgtze1AAoNI3BXfrH9SO+7Tl+ZmjfMQHKN7WfHfY+WQGbVtty67LbavlqE
-j+HkaGrBFeGG2c2VZeckE22FlqK8BrjTgrj9A7C3tpPTxSPWYLlvOyo+Fdvv5VjO
-DeBZyOGtbsN0iZACSnqG9cKtCqDN6GOlq4q5/SjEGLVE30J4V48DHrvkoM4DrZST
-Lmx4k32r398JXZCCYXU1ubAU+yplLQ1mjpOf7VaT5hZvUhzYofFjYq3ubLG24Vq0
-OEmrulaWPmlv2J1JvewNv7cEB8EmpBJLLDgNyEDI+cV0k6DdyDo=
-=wAWD
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmd3FtoACgkQ7ulgGnXF
+3j3+2A/+P12OnDztZHkN4i/6hr351aEpsmHpNCAPyFQd66WDu+r2SONsLgn2cr82
+vBFTpy4dRpN7KVW68oq2hgen4vlltFxo3guwne4m1btIiZNtAK44/Ei86QQtLJ0J
+hHw12NfEl3maY+yhOWvMlyttfQjdxTde6JAg8ID48vAfn1LgWWIvsAGh0XayVHG2
++OL3imQUC19dFROu2BiV/wOkZrwyrQLrvoMR0VX1ZpCm50WXvik+QpH8R5BeY46R
+3ypsPQJBNO29R9TWyOHNndhUsQSAgBM8BP7oas9KiR59C88CBN8MZxQKhT6MpAQ/
+8bBkFf+e0jk7lNaBXliwlBGx8I0wPXyG1Qq7otKP+bKcSRuLalRfA5DytzvEV1sl
+2USF2oy1IMs11MsRr267LQZC8udROThEr8pWhWqhLKU8AzE6kceFmCVe7mBs9+UY
+xEuwuNYcboRKbi2xOqGMduKtuSFAiUpJkJA91nqSJdguvaIlT585xfI9pT3hyfgr
+UxXUlIhMN4v36MAJcisaLXJGZGL31AEVCiNR1McwcgdXif56gACxm28SBoX5DEHm
+ab+vyxCsjfCKWdp7NfgvqpnlaL7/61a8iw7O/0Oj0iv+F9h3PbfsqrHA7fyJpeHa
+UZHvwnOH9gGHuh+vz0nIVn7BqFZ5q/Wi0mmcXvqX5ccNiOa0JEc=
+=hAVr
 -----END PGP SIGNATURE-----
 
---===============8185137513479488635==--
+--===============2552498696461514266==--
