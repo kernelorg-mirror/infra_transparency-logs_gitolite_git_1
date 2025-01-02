@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 02 Jan 2025 21:33:18 -0000
-Message-Id: <173585359827.2731866.15351401153199912670@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Thu, 02 Jan 2025 21:54:42 -0000
+Message-Id: <173585488242.2748643.15415848150848381247@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/master
-    old: 783a2db38a500ab8d62701f91b757e145cca0b50
-    new: abbd35fa0407a4c3fcccc354918b22db6a8f7b4c
+  - ref: refs/heads/next
+    old: 5cad94d7b9c4c920a07e074ebec8d3b9eaab9f34
+    new: 2f32bdc4bbcdef9dc4f8f12e448f44a8e99e6f00
     log: |
-         abbd35fa0407a4c3fcccc354918b22db6a8f7b4c foo
+         2f32bdc4bbcdef9dc4f8f12e448f44a8e99e6f00 selftests/ring-buffer: Add test for out-of-bound pgoff mapping
          
