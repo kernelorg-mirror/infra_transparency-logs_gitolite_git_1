@@ -1,25 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Thu, 02 Jan 2025 15:01:49 -0000
-Message-Id: <173583010908.2420048.2340889080790149431@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8573157959673327469=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Thu, 02 Jan 2025 15:05:17 -0000
+Message-Id: <173583031702.2423810.12745604119471618958@gitolite.kernel.org>
+
+--===============8573157959673327469==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/experimental
-    old: 47674ef7dbe4a6aa4d8ffcb3339c6d844f793acb
-    new: ccafa9727eab773688844a1da2ce0c92be40fdf3
+  - ref: refs/heads/master
+    old: 6e2ef2f435e92b7a1acaeba39b52101da278aa42
+    new: d9e7165e0cc4331b1f62fcc18d4c0f1862fddc2c
     log: |
-         b4b93c26c7e8e771af93627f02791818e7c78f6c erofs-utils: release 1.8.4
-         21edb574158add5fc4d20f3b4d3e106a7c23109c erofs-utils: lib: fix btype for the data tails of directories
-         48bf55fe171d9c54a92689bd2882f6ce183db8b8 erofs-utils: lib: cache: get rid of required_ext
-         afe80423a597520f51401c0422b92cc3a43e0dcb erofs-utils: lib: move block boundary check into __erofs_battach()
-         5bc0f9f53d27d5fad467dc3228fadbd94b45b428 erofs-utils: lib: support buffer block reservation
-         13e4edd7b328588b7dbc22af692360d06200fb56 erofs-utils: mkfs: support data alignment
-         ccafa9727eab773688844a1da2ce0c92be40fdf3 erofs-utils: lib: drop prefix_sha256 digests
+         d9e7165e0cc4331b1f62fcc18d4c0f1862fddc2c verhaal: update to version 003
          
+
+--===============8573157959673327469==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1735830346 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1735830316-040209c135545d83a75081be55dee3181bcf5a78
+
+6e2ef2f435e92b7a1acaeba39b52101da278aa42 d9e7165e0cc4331b1f62fcc18d4c0f1862fddc2c refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmd2q0obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LcYP/iDkN9jvf59OCvp8XCHY
+n/u+vUc+84YS8UpemqeIFUmg3KIfyF2mXzb491fucFuzsC3/HVdcAuREBMCxYtml
+/J593cNsethaRWwUWEKxq/jIbkmrwKDLC+c0ylNcQSBpFK2M3oIY5toFitaQPOJR
+WjGBlM6gKtIc6MTSyaDon77O51BCzY/kRa4IJwIBZadxWCd81jhRmh8YU1zfGGId
+nqQCrT4rs6FXG4U3RtV7c6KztNt5qN26yaI1HLBUI8tU4YR24+4MLshMm+IQi2CO
+shTwtd3aRZomgvykR5ec6ROLa0AvVLNGMb1kF24nGOiR1HPDefsxTP23l6iYn/Th
+xL3kgF3f8zRntB7R6N0IZ2iWcpOHHw1PEc5YEVmhewwXEk3tPmS2/SFCD+H1H9vf
+DwCp6heuMoR4iW7YCaYNsqcJFji02uaE1HTzNinTlE6H+aaK8B9phID1JC0DxVkA
+ZJnX5L6X/B0Ew721yIegeZ4gLxfKKzxsOP1OMlQUTMnMv7BnPwpnMJzCYyvJVK9u
+Dm21xltU+KHQg9Wr4nlf/44s0hz3LKxxbjm2r06bQmWGglJQGLk/YxQbLdUjsQiz
+IT6iODvWuIHjr9ZBz+fw2MnYBD6b0pxr/2hZbSk8op1NfvUUIEYR+YiXe79VAhY6
+dyh6VGYIKBzcf51QuFU8AMB3
+=QcXG
+-----END PGP SIGNATURE-----
+
+--===============8573157959673327469==--
