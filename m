@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Fri, 03 Jan 2025 15:58:37 -0000
-Message-Id: <173591991786.3623944.15421865998825893157@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wpan/wpan
+Date: Fri, 03 Jan 2025 16:00:39 -0000
+Message-Id: <173592003997.3627163.7613904418720447357@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/wpan/wpan
+user: sschmidt
 changes:
-  - ref: refs/heads/for-next
-    old: d54236e880e021127c0534ba8bb9445548cb0434
-    new: b925599c78bc2c86303c9f91faf8e83f8026e8e9
-    log: |
-         04b0f2b1ca8e1d2be39cebb44e570b6675aff535 module: get symbol CRC back to unsigned
-         b925599c78bc2c86303c9f91faf8e83f8026e8e9 modpost: zero-pad CRC values in modversion_info array
-         
+  - ref: refs/tags/ieee802154-for-net-2025-01-03
+    old: de4c7ccc0581d492abd804fd75a9521f89f366f4
+    new: eb09fbeb48709fe66c0d708aed81e910a577a30a
