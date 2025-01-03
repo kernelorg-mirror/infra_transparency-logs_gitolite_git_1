@@ -1,52 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wpan/wpan
-Date: Fri, 03 Jan 2025 15:53:48 -0000
-Message-Id: <173591962889.3619544.9145856917746110917@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7744134720058194432=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Fri, 03 Jan 2025 15:54:08 -0000
+Message-Id: <173591964803.3619825.13949225939702193087@gitolite.kernel.org>
+
+--===============7744134720058194432==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wpan/wpan
-user: sschmidt
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/tags/ieee802154-for-net-2025-01-03
-    old: 0000000000000000000000000000000000000000
-    new: de4c7ccc0581d492abd804fd75a9521f89f366f4
-  - ref: refs/tags/v5.12-rc1
-    old: 0000000000000000000000000000000000000000
-    new: d1da37c58e65c4800cce768533c563fa3c89c62f
-  - ref: refs/tags/v6.12
-    old: 0000000000000000000000000000000000000000
-    new: 06090c9b622a7e1f797e775db4c035e0d779b76e
-  - ref: refs/tags/v6.12-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 03dc72319cee7d0dfefee9ae7041b67732f6b8cd
-  - ref: refs/tags/v6.12-rc2
-    old: 0000000000000000000000000000000000000000
-    new: cd54879c3cbf655d161b2f5f401bbc74ea20cf18
-  - ref: refs/tags/v6.12-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 6801a93b4309318c0a7341338184fcd4ce865936
-  - ref: refs/tags/v6.12-rc4
-    old: 0000000000000000000000000000000000000000
-    new: dd41b19dabde8b19ce2aba70fce98f8bc605802d
-  - ref: refs/tags/v6.12-rc5
-    old: 0000000000000000000000000000000000000000
-    new: ac746e6156c4d6d7b46ba2102acf644ea2aa4aac
-  - ref: refs/tags/v6.12-rc6
-    old: 0000000000000000000000000000000000000000
-    new: f3c18f7b56ad121d3225a32ba6c00b1047a37863
-  - ref: refs/tags/v6.12-rc7
-    old: 0000000000000000000000000000000000000000
-    new: da1080d807252c8614048d7b630cb36c7e25cfb5
-  - ref: refs/tags/v6.13-rc1
-    old: 0000000000000000000000000000000000000000
-    new: cbc4912199deab59fdbd830b115d81941d0add46
-  - ref: refs/tags/v6.13-rc2
-    old: 0000000000000000000000000000000000000000
-    new: e32a80927434907f973f38a88cd19d7e51991d24
-  - ref: refs/tags/v6.13-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 7705f2f1cf8d49dd02236dce6edad6c013b43293
+  - ref: refs/heads/driver-core-testing
+    old: cf7da549cf7235ea6c5b29cc547a05dbdeb3ef08
+    new: 7687c66c18c66d4ccd9949c6f641c0e7b5773483
+    log: |
+         7687c66c18c66d4ccd9949c6f641c0e7b5773483 kunit: platform: Resolve 'struct completion' warning
+         
+
+--===============7744134720058194432==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1735919675 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1735919645-83746317d215baab6d3d68f1a096db222b7b204b
+
+cf7da549cf7235ea6c5b29cc547a05dbdeb3ef08 7687c66c18c66d4ccd9949c6f641c0e7b5773483 refs/heads/driver-core-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmd4CDsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+w9wP/iiSeVeYRtmTX0pcDKaV
+cp6IDa1d8OqS2JeF6E+2oNRn1HygaU84mPTSMJaS+fU2cSm0tS5vBxM8euYi3Adh
+IPLHyNSXIwvazAEsafb6CGrJA/Qx8U9P8RgJBwezWtt7svbt3jh3oR77M/ZKcBDB
+7bTVSVsN6Ew8K5IxQZtLgSEY9WVg743d73d32lY+iOHZDE9avv3b+ITi86QbTijp
+nn4xnPOUCOVlrLayeJO32gbzUHMJSGbIHS79lBlGi+fS5PGlpl7DPVXa+wmPxOm4
+h7JQ7HQdnEpFQptL6Mve7HzB2BYVydSV5Y+7MRAiq3AqRzmcKOxoRRfbEzyRjus3
+ww6YkYR2eqaXsnfyHe9d9ozrL9p51X8AjONkXq91eVENjBrpntBjc1lZdF3ZTslC
+LQjSo1/bPH5AJ5KR2A2R4flBax2yIljAvTZXTiRWaQ/qyg7ETdMr/9/Yvx7gTWUo
+sUZfaduFvxUqoDpsDjGiqXTnxpnej7tpdxKmpMNZ5H/N0Mesb0SQQGJpu5ISjmzq
+rxXc/P8Cr31vZ9NhMVm5ZhTrhUZrbsh7bXftfkqFykML0F+IbHWw96UpFzEXkv2A
+0r2kKutXwJm7zmBureNaA67OxUHfyGWPIx4Z7NiyEnQNkpYondpFnBnL46VmgC+L
+2aCrOP5RRmV2TDt6nx95eaQY
+=2pE4
+-----END PGP SIGNATURE-----
+
+--===============7744134720058194432==--
