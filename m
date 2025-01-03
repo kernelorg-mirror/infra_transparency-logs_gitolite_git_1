@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 03 Jan 2025 15:07:01 -0000
-Message-Id: <173591682153.3579984.12419280044790214222@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
+Date: Fri, 03 Jan 2025 15:25:16 -0000
+Message-Id: <173591791611.3597477.16713667595411448471@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/zohar/linux-integrity
+user: zohar
 changes:
-  - ref: refs/heads/x86/cleanups
-    old: 288bba2f4c8be1e1b9c8bc2e087ce677faf9918a
-    new: 0094014be0cd75273ef7f2934c17fb8cffd4db6e
+  - ref: refs/heads/next-integrity
+    old: 68af44a71975688b881ea524e2526bb7c7ad0e9a
+    new: 4785ed362a24d4f37ee0eb4403f587fee886f8da
     log: |
-         0094014be0cd75273ef7f2934c17fb8cffd4db6e x86/ioapic: Remove a stray tab in the IO-APIC type string
+         7eef7c8bac9a31f12ae19369582bc25971bc8fe1 ima: limit the builtin 'tcb' dont_measure tmpfs policy rule
+         4785ed362a24d4f37ee0eb4403f587fee886f8da ima: ignore suffixed policy rule comments
          
