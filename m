@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 03 Jan 2025 16:45:08 -0000
-Message-Id: <173592270819.3665052.8758069963670894142@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Fri, 03 Jan 2025 16:49:33 -0000
+Message-Id: <173592297391.3667478.16132440159197481518@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/tags/net-6.13-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 07d097a371bf08d82f00d30ad6e595c1b52707e3
+  - ref: refs/heads/io_uring-6.13
+    old: c6e60a0a68b7e6b3c7e33863a16e8e88ba9eee6f
+    new: ed123c948d06688d10f3b10a7bce1d6fbfd1ed07
+    log: |
+         ed123c948d06688d10f3b10a7bce1d6fbfd1ed07 io_uring/kbuf: use pre-committed buffer address for non-pollable file
+         
