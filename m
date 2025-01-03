@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0141000265768732687=="
+Content-Type: multipart/mixed; boundary="===============6150506391507075763=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/djiang/linux
-Date: Fri, 03 Jan 2025 00:03:50 -0000
-Message-Id: <173586263069.2852562.17240966668358136367@gitolite.kernel.org>
+Date: Fri, 03 Jan 2025 00:04:47 -0000
+Message-Id: <173586268769.2853474.14953902354324704068@gitolite.kernel.org>
 
---===============0141000265768732687==
+--===============6150506391507075763==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,27 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/djiang/linux
 user: djiang
 changes:
-  - ref: refs/heads/cxl/features
-    old: cb0e2f572ce5310e8c4f361c9e8072e4612d75c7
-    new: 838c396fb94ad27ef6bc5a4abc8bbd12c754e032
-    log: revlist-cb0e2f572ce5-838c396fb94a.txt
+  - ref: refs/heads/cxl/fwctl
+    old: c3c1ca00092765212f4eb49d2aaffb2003beb33b
+    new: 50c59ffd9367d000b9a4fe2ef9a587a2e81f287f
+    log: revlist-c3c1ca000927-50c59ffd9367.txt
 
---===============0141000265768732687==
+--===============6150506391507075763==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cb0e2f572ce5-838c396fb94a.txt
+Content-Disposition: attachment; filename=revlist-c3c1ca000927-50c59ffd9367.txt
 
-496db69fd860570145f7c266b31f3af85fca5b00 wifi: mac80211: init cnt before accessing elem in ieee80211_copy_mbssid_beacon
-b5c32ff6a3a38c74facdd1fe34c0d709a55527fd wifi: cfg80211: clear link ID from bitmap during link delete after clean up
-220bf000530f9b1114fa2a1022a871c7ce8a0b38 wifi: mac80211: wake the queues in case of failure in resume
-11ac0d7c3b5ba58232fb7dacb54371cbe75ec183 wifi: mac80211: fix a queue stall in certain cases of CSA
-52cebabb1264a51c80b2461d52e71600c1c58df2 wifi: mac80211: fix vif addr when switching from monitor to station
-819e0f1e58e0ba3800cd9eb96b2a39e44e49df97 wifi: mac80211: fix station NSS capability initialization order
-48327566769a6ff2e873b6bf075392bd756625ca rtnetlink: fix double call of rtnl_link_get_net_ifla()
-af8edaeddbc52e53207d859c912b017fd9a77629 net: hsr: must allocate more bytes for RedBox support
-f58326c70df0dc413bb58848b188523b3662cf0f irqchip/gic-v3: Fix irq_complete_ack() comment
-ee3878b84cc27ee62cdf78d2842830f4dcdab117 irqchip/bcm2836: Enable SKIP_SET_WAKE and MASK_ON_SUSPEND
 7f71507851fc7764b36a3221839607d3a45c2025 LoongArch: KVM: Protect kvm_io_bus_{read,write}() with SRCU
 a07d2d7930c75e6bf88683b376d09ab1f3fed2aa io_uring: Change res2 parameter type in io_uring_cmd_done
 3c93e4e4a2aeb92ea99e1eac3e1180f5ed49538c block: rnull: add missing MODULE_DESCRIPTION
@@ -1050,5 +1040,15 @@ c05c73ebefe7fa8971ae4a9c8110d420fb001c33 cxl: Add skeletal features driver
 2be38d447f9365d827b956b1ff32ac07775c12c4 cxl/mbox: Add GET_FEATURE mailbox command
 38449f0a47f4528aeef8522508a9cc72464a1c08 cxl/mbox: Add SET_FEATURE mailbox command
 838c396fb94ad27ef6bc5a4abc8bbd12c754e032 cxl: Setup exclusive CXL features that are reserved for the kernel
+b3009f322a09b6cd133e4e23e28122d7f18ed372 cxl: Add FWCTL support to the CXL features driver
+e5f9849c507553f14410cdfcd84e713a4a1af332 cxl: Add support for get driver information
+b238943bfb9a8e68fbc09001d31c75231f1e0f7c cxl: Move cxl_mem.h under uapi to cxl exclusive directory
+23a9cfd0e8bf66157313427c66eb8cbdeafa0e31 cxl: Move cxl feature command structs to user header
+8d9854d092327a549fbb62651525fb3eee6f068d cxl: Add support for fwctl RPC command to enable CXL feature commands
+fc3abe17c83300cb8b919d0c896e50f506e3927b cxl: Add support to handle user feature commands for get feature
+fdd088109a8ba35d3ab66ab789fc6b89f9aeacb7 cxl: Add support to handle user feature commands for set feature
+7c0ca554b6c025a3b88d966a99a6cd2d145d3122 cxl/test: Add Get Feature support to cxl_test
+3d0bfa7bff2c8da787df7598cf469e79a3e23149 cxl/test: Add Set Feature support to cxl_test
+50c59ffd9367d000b9a4fe2ef9a587a2e81f287f fwctl/cxl: Add documentation to FWCTL CXL
 
---===============0141000265768732687==--
+--===============6150506391507075763==--
