@@ -1,46 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============6516782485152271048=="
+Content-Type: multipart/mixed; boundary="===============5426619806687840203=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
-Date: Fri, 03 Jan 2025 22:20:23 -0000
-Message-Id: <173594282303.3934954.13903252351492330804@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Fri, 03 Jan 2025 22:31:39 -0000
+Message-Id: <173594349962.3943447.12781540062153849702@gitolite.kernel.org>
 
---===============6516782485152271048==
+--===============5426619806687840203==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/hkml
-user: sj
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/master
-    old: e43930c900e7a1688691ce7800ebe77469ee00a4
-    new: d4dac0180f4d61d8511be929b04d166b993d43a4
-    log: revlist-e43930c900e7-d4dac0180f4d.txt
-  - ref: refs/tags/v1.2.4
-    old: 0000000000000000000000000000000000000000
-    new: 9c9f2c21b00f8e375d2b3b92bcdb6541d45aa055
+  - ref: refs/heads/seen
+    old: bac83d3d83fd4f1591590fb485b2dd6e2b6632d4
+    new: d099395dd9a715591642c9e67ff4f53d49f6851c
+    log: revlist-bac83d3d83fd-d099395dd9a7.txt
+  - ref: refs/notes/amlog
+    old: 003443ef1c5fe9fb979c4f6d4c4f06047947b7c1
+    new: 5279a7f9f3b6f4e0fbdc59e146525806aca9280d
+    log: |
+         165603abd56912de955f2861b946e9a6478790e7 Notes added by 'git notes add'
+         ec66b34cf964e4a2e63fbfbcd77913658b8cdf44 Notes added by 'git notes add'
+         5279a7f9f3b6f4e0fbdc59e146525806aca9280d Notes added by 'git notes add'
+         
 
---===============6516782485152271048==
+--===============5426619806687840203==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e43930c900e7-d4dac0180f4d.txt
+Content-Disposition: attachment; filename=revlist-bac83d3d83fd-d099395dd9a7.txt
 
-8c6ccc49289e1a7a86d8301a69f53edcef9ad464 hkml_patch_format: update Brendan Higgins' email address
-63449394099486170a878140744c96d92eae7a10 _hkml: support 'local-date' virtual field from Mail.get_field()
-d004629ac03700ffdee96dc7872f252db5688e1e hkml_open: get Local-Date using _hkml.Mail.get_field()
-9839062e4e56c1fe7e64223b6f546d03b6d7d84b hkml_open: put Subject at the end of header of mail_display_str() output
-b3e7c7f98c6e873d29147604efe24d5b2fdfd1ec release_note: move wrongly added items
-a9ff1ce8a1320d8d3b56a81fea08f5dbf1b9c256 release_note: update for subject display position updaste
-8a9a027ebb70a3cbdcbc3e3b17580150b276bcfe TODO: remove merging of review and check
-dec9ecf4898d1c281c6742ca2e2f271d0bdcc676 hkml_list: show row of the mail of given message id
-0cfc52e77329d1e3569d4654297c899014d99ef0 TODO,release_note: update for the indication of given msgid mail
-cd61ba566b5a30a5f86e55c7054b4b1fd923c2e6 _hkml_list_cache: update mail of msgid's row on comment
-98e7a0eb93f55d46dc8ffa5aaffa206741d788af hkml_patch_format: fixup indentation
-4ecdea2f7cec64df5d31b0241dc7790bbf9b5447 hkml_patch_format: make output_dir optional and add short option name
-d4dac0180f4d61d8511be929b04d166b993d43a4 hkml_patch_format: allow multiple --to and --cc arguments
+335c30b183b07b1ab87e3a834874326eda168809 doc: git-notes.txt: migrate to new documentation format
+866ea877036ce581e0d3c130f527631cd8b36bdf t7110: replace `test -f` with `test_path_is_*` helpers
+7559fd92d06979471361fdf426079e9968e14566 maintenance: add prune-remote-refs task
+fbb9a9f8b86b2f4e90ea6ead7a7859f6365e4ed2 Merge branch 'ja/doc-notes-markup-updates' into seen
+98690b8c5b9464ca2fe59bc746e50e745b56e646 Merge branch 'js/libgit-rust' into seen
+8d0a14ce1913bf728a04f26c1bc3f839829b8c5d Merge branch 'y5/diff-pager' into seen
+f336460a6dacca0d277c2bea033a9dbfd81883d5 Merge branch 'km/config-remote-by-name' into seen
+3ead2e4e69524c8481b5392eb6460eb575d8b4e1 Merge branch 'ps/send-pack-unhide-error-in-atomic-push' into seen
+153e5ce98561849293ef725c4716795cd5a52f64 Merge branch 'jc/doc-attr-tree' into seen
+3be8c9f4a54943b2f1ea23219392fb50a48436f1 Merge branch 'sk/strlen-returns-size_t' into seen
+afa60be0769ec1b6bd5f97854d8471c63ea39c19 Merge branch 'ps/ci-misc-updates' into seen
+54115727a5bd641e5977c7a3f1e2050965dbe9a9 Merge branch 'sk/maintenance-remote-prune' into seen
+d099395dd9a715591642c9e67ff4f53d49f6851c Merge branch 'mb/t7110-use-test-path-helper' into seen
 
---===============6516782485152271048==--
+--===============5426619806687840203==--
