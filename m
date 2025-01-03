@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 03 Jan 2025 11:53:59 -0000
-Message-Id: <173590523944.3419831.9904411561063545445@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 03 Jan 2025 11:56:25 -0000
+Message-Id: <173590538594.3422999.9641962607867538896@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/main
-    old: 3473020d0fcf131a94a6289df8a3dac37e67f0d4
-    new: ce21419b55d8671b886ae780ef15734843a6f668
+    old: 94c16fd4df9089931f674fb9aaec41ea20b0fd7a
+    new: 3fff5da4ca2164bb4d0f1e6cd33f6eb8a0e73e50
     log: |
-         9facce84f4062f782ebde18daa7006a23d40b607 net: ti: icssg-prueth: Fix firmware load sequence.
-         9b115361248dc6cce182a2dc030c1c70b0a9639e net: ti: icssg-prueth: Fix clearing of IEP_CMP_CFG registers during iep_init
-         ce21419b55d8671b886ae780ef15734843a6f668 Merge branch 'net-iep-clock-module-fixes'
+         3fff5da4ca2164bb4d0f1e6cd33f6eb8a0e73e50 team: prevent adding a device which is already a team device lower
          
