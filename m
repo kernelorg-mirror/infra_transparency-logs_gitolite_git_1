@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Sat, 04 Jan 2025 22:49:34 -0000
-Message-Id: <173603097486.953151.1748682761046254954@gitolite.kernel.org>
+Date: Sat, 04 Jan 2025 23:49:34 -0000
+Message-Id: <173603457446.1000463.9234207163189704313@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,18 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/axboe/linux-block
 user: axboe
 changes:
-  - ref: refs/heads/for-6.14/block
-    old: c2398e6d5f16e15598d3a37e17107fea477e3f91
-    new: 02ee5d69e3baf2796ba75b928fcbc9cf7884c5e9
+  - ref: refs/heads/master
+    old: 63676eefb7a026d04b51dcb7aaf54f358517a2ec
+    new: ab75170520d4964f3acf8bb1f91d34cbc650688e
     log: |
-         6aeb4f836480617be472de767c4cb09c1060a067 block: remove bio_add_pc_page
-         02ee5d69e3baf2796ba75b928fcbc9cf7884c5e9 block: remove blk_rq_bio_prep
-         
-  - ref: refs/heads/for-next
-    old: 66ddcf6ff04f06b9b3321d2eca7076768d0b0835
-    new: 0188c28352ed3e6c980e13d37ad620d33d70548e
-    log: |
-         6aeb4f836480617be472de767c4cb09c1060a067 block: remove bio_add_pc_page
-         02ee5d69e3baf2796ba75b928fcbc9cf7884c5e9 block: remove blk_rq_bio_prep
-         0188c28352ed3e6c980e13d37ad620d33d70548e Merge branch 'for-6.14/block' into for-next
+         cc0dc9e871a91aadf5b26a2d7760fb762e0d9203 watchdog: stm32_iwdg: fix error message during driver probe
+         ab75170520d4964f3acf8bb1f91d34cbc650688e Merge tag 'linux-watchdog-6.13-rc6' of git://www.linux-watchdog.org/linux-watchdog
          
