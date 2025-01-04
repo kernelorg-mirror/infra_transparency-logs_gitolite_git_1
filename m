@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Sat, 04 Jan 2025 12:10:00 -0000
-Message-Id: <173599260090.450615.16702203947527520741@gitolite.kernel.org>
+Date: Sat, 04 Jan 2025 12:15:01 -0000
+Message-Id: <173599290128.454850.9834749423275725450@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
 user: chunkuang.hu
 changes:
   - ref: refs/heads/mediatek-drm-fixes
-    old: eb313f5a80921146a21aabf021172f44c8327e6e
-    new: f003ffcabd3654486112526b8b4a095316ab6e6c
+    old: f003ffcabd3654486112526b8b4a095316ab6e6c
+    new: f563dd9ca6cb6ed52c5fb6e4285d1ef26cfa7e8a
     log: |
-         f003ffcabd3654486112526b8b4a095316ab6e6c drm/mediatek: Initialize pointer in mtk_drm_of_ddp_path_build_one()
+         522908140645865dc3e2fac70fd3b28834dfa7be drm/mediatek: Add return value check when reading DPCD
+         f563dd9ca6cb6ed52c5fb6e4285d1ef26cfa7e8a drm/mediatek: Initialize pointer in mtk_drm_of_ddp_path_build_one()
          
