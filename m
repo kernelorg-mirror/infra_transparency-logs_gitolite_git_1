@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1757580694415799810=="
+Content-Type: multipart/mixed; boundary="===============6133676714487658803=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Sat, 04 Jan 2025 07:17:22 -0000
-Message-Id: <173597504240.173884.6026600181534484896@gitolite.kernel.org>
+Date: Sat, 04 Jan 2025 07:18:22 -0000
+Message-Id: <173597510218.174414.6919078402753114091@gitolite.kernel.org>
 
---===============1757580694415799810==
+--===============6133676714487658803==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
 user: daeinki
 changes:
-  - ref: refs/heads/exynos-drm-fixes
+  - ref: refs/heads/for-linux-next
     old: 1e37350bc82a83b1e5a98aec0dc0bc1999170a48
     new: 31b2be07afd06dfccfbef0629e9d00e0e05d6408
     log: revlist-1e37350bc82a-31b2be07afd0.txt
 
---===============1757580694415799810==
+--===============6133676714487658803==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -155,4 +155,4 @@ f0ed39830e6064d62f9c5393505677a26569bb56 xe/oa: Fix query mode of operation for 
 273b3eb600713a5e71c64b8b403b355dc580f167 Merge tag 'drm-xe-fixes-2025-01-02' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
 31b2be07afd06dfccfbef0629e9d00e0e05d6408 drm/exynos: Remove unnecessary checking
 
---===============1757580694415799810==--
+--===============6133676714487658803==--
