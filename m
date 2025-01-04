@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Sat, 04 Jan 2025 10:01:12 -0000
-Message-Id: <173598487203.302996.1379776190145712067@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
+Date: Sat, 04 Jan 2025 11:05:46 -0000
+Message-Id: <173598874679.352660.9734198070048948254@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: sashal
+repo: pub/scm/linux/kernel/git/ras/ras
+user: bp
 changes:
-  - ref: refs/heads/master
-    old: ae5fb99cb91214b4f2884eabe1d4524e63ca733b
-    new: 19d14bf6d993d4169b39558c095687fd367e60a3
+  - ref: refs/heads/edac-drivers
+    old: 584e09743d2f44905290b0dbf3215064d2a1888c
+    new: 558aff7a63f67dc4723a4deed419a2dfd0fb14f2
     log: |
-         19d14bf6d993d4169b39558c095687fd367e60a3 sasha: review v6.12.8
+         558aff7a63f67dc4723a4deed419a2dfd0fb14f2 EDAC: Add an EDAC driver for the Loongson memory controller
          
