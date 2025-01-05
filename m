@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2430303157710027767=="
+Content-Type: multipart/mixed; boundary="===============8698949377551158016=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wpan/wpan-next
-Date: Sun, 05 Jan 2025 09:20:33 -0000
-Message-Id: <173606883349.1448640.11257408764969433928@gitolite.kernel.org>
+Date: Sun, 05 Jan 2025 09:20:56 -0000
+Message-Id: <173606885634.1448918.11335216731125466700@gitolite.kernel.org>
 
---===============2430303157710027767==
+--===============8698949377551158016==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wpan/wpan-next
 user: sschmidt
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/staging
     old: bddfe23be8f84e66b1920140a6e11400fae4f74a
     new: 3e5908172c05ab1511f2a6719b806d6eda6e1715
     log: revlist-bddfe23be8f8-3e5908172c05.txt
 
---===============2430303157710027767==
+--===============8698949377551158016==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ a003c38d9bbbacd26b2354795bddb8d25631b0b5 net: pcs: pcs-mtk-lynxi: correctly repo
 3569399994384f7e409a560910613edc2ad4a779 net: stmmac: TSO: Simplify the code flow of DMA descriptor allocations
 3e5908172c05ab1511f2a6719b806d6eda6e1715 Merge tag 'ieee802154-for-net-next-2025-01-03' of git://git.kernel.org/pub/scm/linux/kernel/git/wpan/wpan-next
 
---===============2430303157710027767==--
+--===============8698949377551158016==--
