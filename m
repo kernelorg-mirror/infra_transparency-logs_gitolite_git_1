@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5116663870906928027=="
+Content-Type: multipart/mixed; boundary="===============1941457096714030019=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wpan/wpan
-Date: Sun, 05 Jan 2025 08:48:10 -0000
-Message-Id: <173606689040.1420971.5297062925414094892@gitolite.kernel.org>
+Date: Sun, 05 Jan 2025 08:48:17 -0000
+Message-Id: <173606689764.1421121.14109565863339832852@gitolite.kernel.org>
 
---===============5116663870906928027==
+--===============1941457096714030019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wpan/wpan
 user: sschmidt
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/staging
     old: eb09fbeb48709fe66c0d708aed81e910a577a30a
     new: 8ce4f287524c74a118b0af1eebd4b24a8efca57a
     log: revlist-eb09fbeb4870-8ce4f287524c.txt
 
---===============5116663870906928027==
+--===============1941457096714030019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e95274dfe86490ec2a5633035c24b2de6722841f selftests: tc-testing: reduce rshift va
 a4faa15d28f4afb0a7d6213894175e612f825cd6 Merge tag 'ieee802154-for-net-2025-01-03' of git://git.kernel.org/pub/scm/linux/kernel/git/wpan/wpan
 8ce4f287524c74a118b0af1eebd4b24a8efca57a net: libwx: fix firmware mailbox abnormal return
 
---===============5116663870906928027==--
+--===============1941457096714030019==--
