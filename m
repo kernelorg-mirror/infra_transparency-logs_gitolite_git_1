@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Sun, 05 Jan 2025 02:02:53 -0000
-Message-Id: <173604257307.1106086.10344244231024747301@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Sun, 05 Jan 2025 02:11:49 -0000
+Message-Id: <173604310907.1113817.6308239936844276115@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/libs/ell/ell
+user: denkenz
 changes:
-  - ref: refs/tags/mm-hotfixes-stable-2025-01-04-18-02
-    old: 0000000000000000000000000000000000000000
-    new: 662ef5eb1deb6952f06c00c40ea19be5437b8652
-  - ref: refs/tags/v6.13-rc5
-    old: 0000000000000000000000000000000000000000
-    new: a70d5ba87c51302276bdcb0e847c281a95be6526
+  - ref: refs/heads/master
+    old: f99041d01b29bdd4cc099e5227ad3a0d832329dc
+    new: 709bde1b3e64eab788b3e6c5c2c4aaafadf8b98f
+    log: |
+         709bde1b3e64eab788b3e6c5c2c4aaafadf8b98f dbus: fix use of `va_arg` with incorrect type
+         
