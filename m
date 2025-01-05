@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7801704323774583940=="
+Content-Type: multipart/mixed; boundary="===============0089289955064697897=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 05 Jan 2025 16:48:39 -0000
-Message-Id: <173609571988.1797808.17383594176472928061@gitolite.kernel.org>
+Date: Sun, 05 Jan 2025 16:48:59 -0000
+Message-Id: <173609573965.1798165.14879042450849012849@gitolite.kernel.org>
 
---===============7801704323774583940==
+--===============0089289955064697897==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,43 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: de93d985612ab3c2201ce6934a2e1d878ae98cf7
-    new: f3f7483237480c87ee21c7fa059cf703bf2eebfe
-    log: revlist-de93d985612a-f3f748323748.txt
+    old: f3f7483237480c87ee21c7fa059cf703bf2eebfe
+    new: af2c8596bd2e455ae350ba1585bc938ee85aa38d
+    log: revlist-f3f748323748-af2c8596bd2e.txt
+  - ref: refs/heads/tip/urgent
+    old: b357018696adba0338d1b4d90c154e34c49cb910
+    new: ee68a3902eec7d4a4be1ecfcd5e58179728757e8
+    log: revlist-b357018696ad-ee68a3902eec.txt
 
---===============7801704323774583940==
+--===============0089289955064697897==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-de93d985612a-f3f748323748.txt
+Content-Disposition: attachment; filename=revlist-f3f748323748-af2c8596bd2e.txt
+
+ee68a3902eec7d4a4be1ecfcd5e58179728757e8 Merge branch into tip/master: 'x86/urgent'
+b04a0d0bfea3552f8a311bab7943044bad507aa1 Merge branch into tip/master: 'x86/merge'
+cf614209b02ca24e476bbbabf47e5303459b05ac Merge branch into tip/master: 'irq/core'
+c2c9e2da9b18b24979990f8a0cd549416123fc60 Merge branch into tip/master: 'locking/core'
+da90919f8744eb53184a15823e828b0c95f04218 Merge branch into tip/master: 'objtool/core'
+a9ceb79bb32bc2668e39ef719dacaae69992b235 Merge branch into tip/master: 'perf/core'
+b8294cfc8bb9022b1b27cc4852cbff86ccb4831a Merge branch into tip/master: 'ras/core'
+77af3ed0da87dcdbcfc504030ff4457f0249bd53 Merge branch into tip/master: 'sched/core'
+99b02ee911ba6c2d122e4acb2d9eec2600dbe91c Merge branch into tip/master: 'x86/boot'
+1f18d9d739c26826782c8a7dede23eafb191fb4f Merge branch into tip/master: 'x86/bugs'
+7651126ddd3a74a1470b13d74e25d0647039a0f4 Merge branch into tip/master: 'x86/cache'
+a2122c01aabe385db01ccb5a98dd291619bf02af Merge branch into tip/master: 'x86/cleanups'
+8dc31c3b3730573fa3b26afc1d97e578337a0480 Merge branch into tip/master: 'x86/cpu'
+e612d32a30ae234975fcadb59e032baa07af36dd Merge branch into tip/master: 'x86/microcode'
+56c09dc63f11e95e113039f2b8f717cf35fe9312 Merge branch into tip/master: 'x86/misc'
+8d9b684c2cde1674998e29ec07d10ca5b8c106e9 Merge branch into tip/master: 'x86/mm'
+af2c8596bd2e455ae350ba1585bc938ee85aa38d Merge branch into tip/master: 'x86/tdx'
+
+--===============0089289955064697897==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-b357018696ad-ee68a3902eec.txt
 
 b77bd3ba762f34e5eb731134cf50e233d1060053 ARM: imx: Re-introduce the PINCTRL selection
 793baff3f24f16dab9061045e23eea67724feae6 sched_ext: Add __weak to fix the build errors
@@ -164,10 +192,8 @@ f91a5b8089389eb408501af2762f168c3aaa7b79 af_packet: fix vlan_get_protocol_dgram(
 9b115361248dc6cce182a2dc030c1c70b0a9639e net: ti: icssg-prueth: Fix clearing of IEP_CMP_CFG registers during iep_init
 ce21419b55d8671b886ae780ef15734843a6f668 Merge branch 'net-iep-clock-module-fixes'
 45d339fefaa3dcd237038769e0d34584fb867390 RDMA/mlx5: Enable multiplane mode only when it is supported
-0094014be0cd75273ef7f2934c17fb8cffd4db6e x86/ioapic: Remove a stray tab in the IO-APIC type string
 ed123c948d06688d10f3b10a7bce1d6fbfd1ed07 io_uring/kbuf: use pre-committed buffer address for non-pollable file
 e30dd219c75023afc5f5ba76dbeb48e926cea645 Merge tag 'ftrace-v6.13-rc5-2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-d35fb3121a36170bba951c529847a630440e4174 x86/mce/amd: Remove shared threshold bank plumbing
 92c3bb3d2e89ab35072248b08008c508f714f070 Merge tag 'drm-fixes-2025-01-03' of https://gitlab.freedesktop.org/drm/kernel
 4f5d3da619fdc78c1de2765e2e47a44ee9aba98d Merge tag 'sound-6.13-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 f274fffbc28849848fd48379dbc83f10e1019270 Merge tag 'pinctrl-v6.13-2' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
@@ -179,23 +205,6 @@ a984e234fcdce25a276be882c799e5fda1b32812 Merge tag 'io_uring-6.13-20250103' of g
 f9aa1fb9f8c0542f5f6e6e620de320995d5622ad Merge tag 'wq-for-6.13-rc5-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
 63676eefb7a026d04b51dcb7aaf54f358517a2ec Merge tag 'sched_ext-for-6.13-rc5-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
 ab75170520d4964f3acf8bb1f91d34cbc650688e Merge tag 'linux-watchdog-6.13-rc6' of git://www.linux-watchdog.org/linux-watchdog
-8fd04dd4b4d7779a969898ac68cf7bf3e69773e7 Merge branch into tip/master: 'x86/urgent'
-0c0640d2be9c122bb42d6d6f44b274fb407edd2b Merge branch into tip/master: 'x86/merge'
-8678dd0967e98f720c3b525c68d876731d493228 Merge branch into tip/master: 'irq/core'
-4ca323e639a96c51a3cf7cea4e3d398f175d1f90 Merge branch into tip/master: 'locking/core'
-89be05c39f3cd5511c2eefb1a312cc0fc591a44a Merge branch into tip/master: 'objtool/core'
-d12e19ad3ba8fba4e7c23de209acd6fa47bd027c Merge branch into tip/master: 'perf/core'
-5b61656d8ef2d1490334e3b2f9a5a88238a3e0ad Merge branch into tip/master: 'ras/core'
-943cdd7c61a265d4c216d3294a091d991f48663e Merge branch into tip/master: 'sched/core'
-4200d1f389364e265fc7fc4460f0a57e9c3b2f41 Merge branch into tip/master: 'x86/boot'
-b5485ca9d558d8b5a4444ef9b9afe858afc57875 Merge branch into tip/master: 'x86/bugs'
-09149465d78585056789bccab683ee964809d77c Merge branch into tip/master: 'x86/cache'
-470b31e56f4b1371f7771056bf2813bc14444833 Merge branch into tip/master: 'x86/cpu'
-e7a4a9b36e7a9c309e1f8694f07c5789e1a9b405 Merge branch into tip/master: 'x86/microcode'
-20f8922997677e3a514d4071026e35921243defc Merge branch into tip/master: 'x86/misc'
-2306e7a807f19a12efafee51bf470328a2acb0ec Merge branch into tip/master: 'x86/mm'
-daba31d93777fbecd5af05d3b626b15751abc325 Merge branch into tip/master: 'x86/tdx'
-6156dfddd7bd947eed4a9dca8c253935dad1d780 Merge branch into tip/master: 'x86/cleanups'
-f3f7483237480c87ee21c7fa059cf703bf2eebfe Merge branch 'linus'
+ee68a3902eec7d4a4be1ecfcd5e58179728757e8 Merge branch into tip/master: 'x86/urgent'
 
---===============7801704323774583940==--
+--===============0089289955064697897==--
