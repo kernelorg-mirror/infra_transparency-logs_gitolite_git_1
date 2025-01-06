@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5163659181862284259=="
+Content-Type: multipart/mixed; boundary="===============0919089185327335696=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 06 Jan 2025 14:38:29 -0000
-Message-Id: <173617430985.2894566.16612713823813392994@gitolite.kernel.org>
+Date: Mon, 06 Jan 2025 14:38:39 -0000
+Message-Id: <173617431916.2894807.2175117617501564549@gitolite.kernel.org>
 
---===============5163659181862284259==
+--===============0919089185327335696==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 684ebeadf7a6e097d8e84194fcfbdf315bf64ec3
-    new: e43aefc29f1848068bc37c285ab882368e08e4be
-    log: revlist-684ebeadf7a6-e43aefc29f18.txt
+  - ref: refs/heads/nfsd-testing
+    old: 5e5a0681df5068efbd000dcfcbc34ae064fda1cc
+    new: 32af77a44db0be2e8e28e849613a35530d673318
+    log: revlist-5e5a0681df50-32af77a44db0.txt
 
---===============5163659181862284259==
+--===============0919089185327335696==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-684ebeadf7a6-e43aefc29f18.txt
+Content-Disposition: attachment; filename=revlist-5e5a0681df50-32af77a44db0.txt
 
 b77bd3ba762f34e5eb731134cf50e233d1060053 ARM: imx: Re-introduce the PINCTRL selection
 793baff3f24f16dab9061045e23eea67724feae6 sched_ext: Add __weak to fix the build errors
@@ -263,5 +263,6 @@ b68770e537aa0153cd74f25bed90155f7ce6106a nfsd: rework NFS4_SHARE_WANT_* flag han
 290841faac6ac01046d3a441dcd4aa1bc74b30dd nfsd: add support for delegated timestamps
 da1d6135e82ec46d62fc1317dad1c64f99c5afe8 nfsd: handle delegated timestamps in SETATTR
 e43aefc29f1848068bc37c285ab882368e08e4be nfsd: implement OPEN_ARGS_SHARE_ACCESS_WANT_OPEN_XOR_DELEGATION
+32af77a44db0be2e8e28e849613a35530d673318 Revert "SUNRPC: Reduce thread wake-up rate when receiving large RPC messages"
 
---===============5163659181862284259==--
+--===============0919089185327335696==--
