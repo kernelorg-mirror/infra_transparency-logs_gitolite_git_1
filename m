@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Mon, 06 Jan 2025 17:59:07 -0000
-Message-Id: <173618634743.3071229.7396472630951565184@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
+Date: Mon, 06 Jan 2025 17:59:12 -0000
+Message-Id: <173618635286.3071378.6885189999525730530@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/sashal/linus-next
+user: sashal
 changes:
-  - ref: refs/heads/master
-    old: 514e14b1a7c38520c955e59ec0ce09270cc4853c
-    new: e85c08c0aadae57cb2a62fb134765bb9b6108b07
+  - ref: refs/heads/linus-next
+    old: a41ebeecc8f97cc42cc8a6f7e47ce2c23d4786cb
+    new: 5d34d5113e7e55468a697369e2cdb2b5ac29970e
     log: |
-         5db2921c27a784ab203e6ca06c395c326739edf8 Bluetooth: hci: Remove deadcode
-         94382af338f570439710b0bf95d3f75768fbdfd4 Bluetooth: btusb: Add ID 0x2c7c:0x0130 for Qualcomm WCN785x
-         e85c08c0aadae57cb2a62fb134765bb9b6108b07 Bluetooth: btusb: add sysfs attribute to control USB alt setting
+         000f0ce2bb44bd61bbabe6554ac23ea207320daf ntb: intel: Fix the NULL vs IS_ERR() bug for debugfs_create_dir()
+         a7ef6464661337d86c78131cdbc2bf795aefd7bb ntb_perf: Fix printk format
+         5d34d5113e7e55468a697369e2cdb2b5ac29970e ntb: Constify struct bus_type
          
