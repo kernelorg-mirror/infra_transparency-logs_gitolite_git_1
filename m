@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6240690598632432030=="
+Content-Type: multipart/mixed; boundary="===============5247348303769365646=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 06 Jan 2025 09:58:05 -0000
-Message-Id: <173615748587.2655779.3289625415729121931@gitolite.kernel.org>
+Date: Mon, 06 Jan 2025 09:58:27 -0000
+Message-Id: <173615750722.2656099.12019168693031671035@gitolite.kernel.org>
 
---===============6240690598632432030==
+--===============5247348303769365646==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,46 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: af2c8596bd2e455ae350ba1585bc938ee85aa38d
-    new: 703c603e20513c8d8aaae36acd07c3da5fcccccf
-    log: revlist-af2c8596bd2e-703c603e2051.txt
+    old: 703c603e20513c8d8aaae36acd07c3da5fcccccf
+    new: 1e661cb01f9c09ed16df43f086f526154130a2dc
+    log: revlist-703c603e2051-1e661cb01f9c.txt
+  - ref: refs/heads/tip/urgent
+    old: ee68a3902eec7d4a4be1ecfcd5e58179728757e8
+    new: b309925418c9f628fb31394a42534ab832113c1d
+    log: revlist-ee68a3902eec-b309925418c9.txt
+  - ref: refs/tags/v6.13-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 5fcdd8fcd55d1da6fdf8deb78355a5c23ce94d39
 
---===============6240690598632432030==
+--===============5247348303769365646==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-703c603e2051-1e661cb01f9c.txt
+
+b309925418c9f628fb31394a42534ab832113c1d Merge branch into tip/master: 'x86/urgent'
+2fa6b0b35709db186513655c06f4e301df2a11e5 Merge branch into tip/master: 'x86/merge'
+30e3b74b7256fc1147c3d82b2b340bf3ea7290e1 Merge branch into tip/master: 'irq/core'
+5883e3f44fce09940c6add2bfa9511a4ff148940 Merge branch into tip/master: 'locking/core'
+801f15c170b88f8dd29b233fc73d89a88125a259 Merge branch into tip/master: 'objtool/core'
+47f8bfcdfe872f465fb7a1b0def3848a7e7386c4 Merge branch into tip/master: 'perf/core'
+92b3fba8073bf59bb5e3735e84dcff0b87ca2e02 Merge branch into tip/master: 'ras/core'
+6440603962ad37e1dfc2f9bf101450d41495cdbb Merge branch into tip/master: 'sched/core'
+f4b317b7cbd32540f426b6ebc5055069d99caa8e Merge branch into tip/master: 'x86/boot'
+48d9e623a8bed4f3a80dd56caebc02ae4fd146e8 Merge branch into tip/master: 'x86/bugs'
+17154e50cd4d886729727eca5da5c86e24ede05a Merge branch into tip/master: 'x86/cache'
+a4d0e472980c6d6e2f9a1d27f57f8bdd79effd98 Merge branch into tip/master: 'x86/cleanups'
+0c21e7c6d5fe9a197c21490d4bb40ea26d78aa04 Merge branch into tip/master: 'x86/cpu'
+09549d5e1b03f94a1971baf8344b8b2d09f9eec4 Merge branch into tip/master: 'x86/microcode'
+7ff81c3a8e25f1a9ad42b4c14ea689f8b5ff5fd0 Merge branch into tip/master: 'x86/misc'
+699ba5f43b9b682a4ccc5112e1b3499781fe46ef Merge branch into tip/master: 'x86/mm'
+1e661cb01f9c09ed16df43f086f526154130a2dc Merge branch into tip/master: 'x86/tdx'
+
+--===============5247348303769365646==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-af2c8596bd2e-703c603e2051.txt
+Content-Disposition: attachment; filename=revlist-ee68a3902eec-b309925418c9.txt
 
 f4bf0b909a6bf64a2220a42a7c8b8c2ee1b77b89 clk: thead: Fix TH1520 emmc and shdci clock rate
 c384481006476ac65478fa3584c7245782e52f34 clk: clk-imx8mp-audiomix: fix function signature
@@ -62,6 +93,6 @@ e7404921818d676da4d7143ce78659456b05e2af MAINTAINERS: change Arınç _NAL's name
 5635d8bad221701188017a6087fbe25ab245c226 Merge tag 'mm-hotfixes-stable-2025-01-04-18-02' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 9244696b34f2a626d7468864420ab6a47289bf10 Merge tag 'kbuild-fixes-v6.13-3' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 9d89551994a430b50c4fffcb1e617a057fa76e20 Linux 6.13-rc6
-703c603e20513c8d8aaae36acd07c3da5fcccccf Merge branch 'linus'
+b309925418c9f628fb31394a42534ab832113c1d Merge branch into tip/master: 'x86/urgent'
 
---===============6240690598632432030==--
+--===============5247348303769365646==--
