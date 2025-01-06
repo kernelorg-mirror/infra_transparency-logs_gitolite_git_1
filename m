@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Mon, 06 Jan 2025 15:16:33 -0000
-Message-Id: <173617659339.2931831.6327869965361183144@gitolite.kernel.org>
+Date: Mon, 06 Jan 2025 15:30:13 -0000
+Message-Id: <173617741398.2944629.11454769670886837456@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,53 +12,53 @@ repo: pub/scm/linux/kernel/git/geert/renesas-devel
 user: geert
 changes:
   - ref: refs/heads/master
-    old: a300aac4898b8f9735cf9f0e954d4cff3c5f772d
-    new: f202020ad9937d7f5a233c14ede5044a2f0d3cbc
+    old: f202020ad9937d7f5a233c14ede5044a2f0d3cbc
+    new: f4592015c1a994f1a92fa984bd008924e88f6c3a
     log: |
-         f2ddbcac50587b01a0936c006d35c0a08656c7aa arm64: dts: renesas: r9a09g047: Add SCIF pincontrol
-         8f5f079f20c811c564bca62b9c297e426b29c1c7 arm64: dts: renesas: r8a779g0: Add FCPVX instances
-         44e586fab0bc28db97e0a7c4c630c7f15f9b0844 arm64: dts: renesas: r8a779g0: Add VSPX instances
-         73b977fa9af45798a05b1923b87254615aac54bc arm64: dts: renesas: white-hawk-csi-dsi: Define CSI-2 data line orders
-         402787a0323d0d8bd09fac0cfb5f42c9b19b587a Merge branches 'renesas-arm-defconfig-for-v6.14', 'renesas-drivers-for-v6.14' and 'renesas-dts-for-v6.14' into renesas-next
-         f202020ad9937d7f5a233c14ede5044a2f0d3cbc Merge branch 'renesas-next', tag 'v6.13-rc6' into renesas-devel
+         9e269561b363038d573a69755c9eeabc9258837f arm64: dts: renesas: r9a09g047e57-smarc: Add SCIF pincontrol
+         e163f098a34cb9ce99f2b66c325caa06e00129cb arm64: dts: renesas: r8a779g0: Add FCPVX instances
+         978a7876a1e38a3734b2ecb93874debf7463dd28 arm64: dts: renesas: r8a779g0: Add VSPX instances
+         c357e2295b7880b1d9d365c3389f06ef2eb464d0 arm64: dts: renesas: white-hawk-csi-dsi: Define CSI-2 data line orders
+         14af1e5de568ac5537df06b38e47fd19cf49c38e Merge branches 'renesas-arm-defconfig-for-v6.14', 'renesas-drivers-for-v6.14' and 'renesas-dts-for-v6.14' into renesas-next
+         f4592015c1a994f1a92fa984bd008924e88f6c3a Merge branch 'renesas-next', tag 'v6.13-rc6' into renesas-devel
          
   - ref: refs/heads/next
-    old: 931b24dd39ab8dc9e20c62f9dbe34441e5778460
-    new: 402787a0323d0d8bd09fac0cfb5f42c9b19b587a
+    old: 402787a0323d0d8bd09fac0cfb5f42c9b19b587a
+    new: 14af1e5de568ac5537df06b38e47fd19cf49c38e
     log: |
-         f2ddbcac50587b01a0936c006d35c0a08656c7aa arm64: dts: renesas: r9a09g047: Add SCIF pincontrol
-         8f5f079f20c811c564bca62b9c297e426b29c1c7 arm64: dts: renesas: r8a779g0: Add FCPVX instances
-         44e586fab0bc28db97e0a7c4c630c7f15f9b0844 arm64: dts: renesas: r8a779g0: Add VSPX instances
-         73b977fa9af45798a05b1923b87254615aac54bc arm64: dts: renesas: white-hawk-csi-dsi: Define CSI-2 data line orders
-         402787a0323d0d8bd09fac0cfb5f42c9b19b587a Merge branches 'renesas-arm-defconfig-for-v6.14', 'renesas-drivers-for-v6.14' and 'renesas-dts-for-v6.14' into renesas-next
+         9e269561b363038d573a69755c9eeabc9258837f arm64: dts: renesas: r9a09g047e57-smarc: Add SCIF pincontrol
+         e163f098a34cb9ce99f2b66c325caa06e00129cb arm64: dts: renesas: r8a779g0: Add FCPVX instances
+         978a7876a1e38a3734b2ecb93874debf7463dd28 arm64: dts: renesas: r8a779g0: Add VSPX instances
+         c357e2295b7880b1d9d365c3389f06ef2eb464d0 arm64: dts: renesas: white-hawk-csi-dsi: Define CSI-2 data line orders
+         14af1e5de568ac5537df06b38e47fd19cf49c38e Merge branches 'renesas-arm-defconfig-for-v6.14', 'renesas-drivers-for-v6.14' and 'renesas-dts-for-v6.14' into renesas-next
          
   - ref: refs/heads/renesas-dts-for-v6.14
-    old: 7acdc2be6dab63f70e253dcc1ae357c99eb26f61
-    new: 73b977fa9af45798a05b1923b87254615aac54bc
+    old: 73b977fa9af45798a05b1923b87254615aac54bc
+    new: c357e2295b7880b1d9d365c3389f06ef2eb464d0
     log: |
-         f2ddbcac50587b01a0936c006d35c0a08656c7aa arm64: dts: renesas: r9a09g047: Add SCIF pincontrol
-         8f5f079f20c811c564bca62b9c297e426b29c1c7 arm64: dts: renesas: r8a779g0: Add FCPVX instances
-         44e586fab0bc28db97e0a7c4c630c7f15f9b0844 arm64: dts: renesas: r8a779g0: Add VSPX instances
-         73b977fa9af45798a05b1923b87254615aac54bc arm64: dts: renesas: white-hawk-csi-dsi: Define CSI-2 data line orders
+         9e269561b363038d573a69755c9eeabc9258837f arm64: dts: renesas: r9a09g047e57-smarc: Add SCIF pincontrol
+         e163f098a34cb9ce99f2b66c325caa06e00129cb arm64: dts: renesas: r8a779g0: Add FCPVX instances
+         978a7876a1e38a3734b2ecb93874debf7463dd28 arm64: dts: renesas: r8a779g0: Add VSPX instances
+         c357e2295b7880b1d9d365c3389f06ef2eb464d0 arm64: dts: renesas: white-hawk-csi-dsi: Define CSI-2 data line orders
          
   - ref: refs/tags/renesas-devel-2025-01-06-v6.13-rc6
-    old: a35373c40ca7ee9d373d38ee5668fe56d3d5765b
-    new: a84c00686d11e82152fd6350dcc2795afcabd228
+    old: a84c00686d11e82152fd6350dcc2795afcabd228
+    new: 129ffc528506bfb0c67821e62c33eb1db0717d8b
     log: |
-         f2ddbcac50587b01a0936c006d35c0a08656c7aa arm64: dts: renesas: r9a09g047: Add SCIF pincontrol
-         8f5f079f20c811c564bca62b9c297e426b29c1c7 arm64: dts: renesas: r8a779g0: Add FCPVX instances
-         44e586fab0bc28db97e0a7c4c630c7f15f9b0844 arm64: dts: renesas: r8a779g0: Add VSPX instances
-         73b977fa9af45798a05b1923b87254615aac54bc arm64: dts: renesas: white-hawk-csi-dsi: Define CSI-2 data line orders
-         402787a0323d0d8bd09fac0cfb5f42c9b19b587a Merge branches 'renesas-arm-defconfig-for-v6.14', 'renesas-drivers-for-v6.14' and 'renesas-dts-for-v6.14' into renesas-next
-         f202020ad9937d7f5a233c14ede5044a2f0d3cbc Merge branch 'renesas-next', tag 'v6.13-rc6' into renesas-devel
+         9e269561b363038d573a69755c9eeabc9258837f arm64: dts: renesas: r9a09g047e57-smarc: Add SCIF pincontrol
+         e163f098a34cb9ce99f2b66c325caa06e00129cb arm64: dts: renesas: r8a779g0: Add FCPVX instances
+         978a7876a1e38a3734b2ecb93874debf7463dd28 arm64: dts: renesas: r8a779g0: Add VSPX instances
+         c357e2295b7880b1d9d365c3389f06ef2eb464d0 arm64: dts: renesas: white-hawk-csi-dsi: Define CSI-2 data line orders
+         14af1e5de568ac5537df06b38e47fd19cf49c38e Merge branches 'renesas-arm-defconfig-for-v6.14', 'renesas-drivers-for-v6.14' and 'renesas-dts-for-v6.14' into renesas-next
+         f4592015c1a994f1a92fa984bd008924e88f6c3a Merge branch 'renesas-next', tag 'v6.13-rc6' into renesas-devel
          
   - ref: refs/tags/renesas-next-2025-01-06-v6.13-rc1
-    old: fe883635a460788bcf58a64bc7ca87d8c1eb7936
-    new: 26c551207b45af915dcc16540e34833948813ddb
+    old: 26c551207b45af915dcc16540e34833948813ddb
+    new: 7cc5905e694b89fec56d8ec01d7a9ff9b5078dbf
     log: |
-         f2ddbcac50587b01a0936c006d35c0a08656c7aa arm64: dts: renesas: r9a09g047: Add SCIF pincontrol
-         8f5f079f20c811c564bca62b9c297e426b29c1c7 arm64: dts: renesas: r8a779g0: Add FCPVX instances
-         44e586fab0bc28db97e0a7c4c630c7f15f9b0844 arm64: dts: renesas: r8a779g0: Add VSPX instances
-         73b977fa9af45798a05b1923b87254615aac54bc arm64: dts: renesas: white-hawk-csi-dsi: Define CSI-2 data line orders
-         402787a0323d0d8bd09fac0cfb5f42c9b19b587a Merge branches 'renesas-arm-defconfig-for-v6.14', 'renesas-drivers-for-v6.14' and 'renesas-dts-for-v6.14' into renesas-next
+         9e269561b363038d573a69755c9eeabc9258837f arm64: dts: renesas: r9a09g047e57-smarc: Add SCIF pincontrol
+         e163f098a34cb9ce99f2b66c325caa06e00129cb arm64: dts: renesas: r8a779g0: Add FCPVX instances
+         978a7876a1e38a3734b2ecb93874debf7463dd28 arm64: dts: renesas: r8a779g0: Add VSPX instances
+         c357e2295b7880b1d9d365c3389f06ef2eb464d0 arm64: dts: renesas: white-hawk-csi-dsi: Define CSI-2 data line orders
+         14af1e5de568ac5537df06b38e47fd19cf49c38e Merge branches 'renesas-arm-defconfig-for-v6.14', 'renesas-drivers-for-v6.14' and 'renesas-dts-for-v6.14' into renesas-next
          
