@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2247736187594221824=="
+Content-Type: multipart/mixed; boundary="===============8255442158423610759=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Mon, 06 Jan 2025 23:18:48 -0000
-Message-Id: <173620552846.3333749.15000677891341539272@gitolite.kernel.org>
+Date: Mon, 06 Jan 2025 23:18:50 -0000
+Message-Id: <173620553007.3333865.15780805842382349731@gitolite.kernel.org>
 
---===============2247736187594221824==
+--===============8255442158423610759==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-for-6.14
-    old: 6a02becf4b42f1664d9443e7d2049dd4e31e5ff5
-    new: 9875adffb87da5c40f4013e55104f5e2fc071c2a
-    log: revlist-6a02becf4b42-9875adffb87d.txt
+  - ref: refs/heads/for-next
+    old: 7932d5ffad1c05716decddb930d143e574e30561
+    new: e8b6d257d2194a4604fb00c046ad2895e15ab142
+    log: revlist-7932d5ffad1c-e8b6d257d219.txt
 
---===============2247736187594221824==
+--===============8255442158423610759==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6a02becf4b42-9875adffb87d.txt
+Content-Disposition: attachment; filename=revlist-7932d5ffad1c-e8b6d257d219.txt
 
 8582f8cee2f015ff4b8c5df3221917f3878f4c2a arm64: dts: qcom: sm8350: Disable USB U1/U2 entry
 f9a963fc2510d32916e2e730c1b326c2ab3d312e arm64: dts: qcom: sm8450: Disable USB U1/U2 entry
@@ -49,5 +49,6 @@ aa09de104d421e7ff8d8cde9af98568ce62a002c arm64: dts: qcom: sc7180-trogdor-quacki
 9180b38d706c29ed212181a77999c35ae9ff6879 arm64: dts: qcom: sc7180-trogdor-pompom: rename 5v-choke thermal zone
 092febd32a99800902f865ed86b83314faa9c7e4 arm64: dts: qcom: sc7180: fix psci power domain node names
 9875adffb87da5c40f4013e55104f5e2fc071c2a arm64: dts: qcom: sm8150-microsoft-surface-duo: fix typos in da7280 properties
+e8b6d257d2194a4604fb00c046ad2895e15ab142 Merge branches 'arm32-for-6.14', 'arm64-defconfig-for-6.14', 'arm64-fixes-for-6.13', 'arm64-for-6.14', 'clk-for-6.14' and 'drivers-for-6.14' into for-next
 
---===============2247736187594221824==--
+--===============8255442158423610759==--
