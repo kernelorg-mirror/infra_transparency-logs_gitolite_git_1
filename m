@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4380841078270986780=="
+Content-Type: multipart/mixed; boundary="===============7658545699582592119=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/modules/linux
-Date: Mon, 06 Jan 2025 13:17:40 -0000
-Message-Id: <173616946003.2826221.2767493557914041213@gitolite.kernel.org>
+Date: Mon, 06 Jan 2025 13:18:10 -0000
+Message-Id: <173616949012.2826612.7406636841730859689@gitolite.kernel.org>
 
---===============4380841078270986780==
+--===============7658545699582592119==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,15 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/modules/linux
 user: ppavlu
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/modules-fixes
     old: fc033cf25e612e840e545f8d5ad2edd6ba613ed5
     new: 9d89551994a430b50c4fffcb1e617a057fa76e20
     log: revlist-fc033cf25e61-9d89551994a4.txt
-  - ref: refs/tags/v6.13-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 5fcdd8fcd55d1da6fdf8deb78355a5c23ce94d39
 
---===============4380841078270986780==
+--===============7658545699582592119==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -229,4 +226,4 @@ ab75170520d4964f3acf8bb1f91d34cbc650688e Merge tag 'linux-watchdog-6.13-rc6' of 
 9244696b34f2a626d7468864420ab6a47289bf10 Merge tag 'kbuild-fixes-v6.13-3' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 9d89551994a430b50c4fffcb1e617a057fa76e20 Linux 6.13-rc6
 
---===============4380841078270986780==--
+--===============7658545699582592119==--
