@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8450343992243279793=="
+Content-Type: multipart/mixed; boundary="===============1101795471214956138=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 06 Jan 2025 15:13:14 -0000
-Message-Id: <173617639484.2927866.5004041981493024112@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Mon, 06 Jan 2025 15:13:26 -0000
+Message-Id: <173617640600.2928060.4624705554782416847@gitolite.kernel.org>
 
---===============8450343992243279793==
+--===============1101795471214956138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 5fcdd8fcd55d1da6fdf8deb78355a5c23ce94d39
 
---===============8450343992243279793==
+--===============1101795471214956138==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -225,4 +225,4 @@ cd6313beaeaea0b2e6d428afef7a86a986b50abe Revert "vmstat: disable vmstat_work on 
 5428dc1906dde5fb5ab283cda4714011f9811aa1 Merge tag 'exfat-for-6.13-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat
 13563da6ffcf49b8b45772e40b35f96926a7ee1e Merge tag 'vfio-v6.13-rc7' of https://github.com/awilliam/linux-vfio
 
---===============8450343992243279793==--
+--===============1101795471214956138==--
