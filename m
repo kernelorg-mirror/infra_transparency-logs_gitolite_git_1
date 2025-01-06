@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5832007509566668357=="
+Content-Type: multipart/mixed; boundary="===============5163659181862284259=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 06 Jan 2025 14:33:08 -0000
-Message-Id: <173617398820.2890373.10359635780384223638@gitolite.kernel.org>
+Date: Mon, 06 Jan 2025 14:38:29 -0000
+Message-Id: <173617430985.2894566.16612713823813392994@gitolite.kernel.org>
 
---===============5832007509566668357==
+--===============5163659181862284259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
-    old: fc033cf25e612e840e545f8d5ad2edd6ba613ed5
-    new: 9d89551994a430b50c4fffcb1e617a057fa76e20
-    log: revlist-fc033cf25e61-9d89551994a4.txt
+  - ref: refs/heads/nfsd-next
+    old: 684ebeadf7a6e097d8e84194fcfbdf315bf64ec3
+    new: e43aefc29f1848068bc37c285ab882368e08e4be
+    log: revlist-684ebeadf7a6-e43aefc29f18.txt
 
---===============5832007509566668357==
+--===============5163659181862284259==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-fc033cf25e61-9d89551994a4.txt
+Content-Disposition: attachment; filename=revlist-684ebeadf7a6-e43aefc29f18.txt
 
 b77bd3ba762f34e5eb731134cf50e233d1060053 ARM: imx: Re-introduce the PINCTRL selection
 793baff3f24f16dab9061045e23eea67724feae6 sched_ext: Add __weak to fix the build errors
@@ -225,5 +225,43 @@ ab75170520d4964f3acf8bb1f91d34cbc650688e Merge tag 'linux-watchdog-6.13-rc6' of 
 5635d8bad221701188017a6087fbe25ab245c226 Merge tag 'mm-hotfixes-stable-2025-01-04-18-02' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 9244696b34f2a626d7468864420ab6a47289bf10 Merge tag 'kbuild-fixes-v6.13-3' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 9d89551994a430b50c4fffcb1e617a057fa76e20 Linux 6.13-rc6
+19d97ac5aabec2e253fd40d110ecbe326040d917 nfsd: trace: remove redundant stateid even deleg_recall
+935fee5d5ba8073b223a9cc9906a62950f0e13ed nfsd: use new wake_up_var interfaces.
+6e1d75f778d644d02147d8e61ca2cef033ce045d sunrpc/svc: use store_release_wake_up()
+6f035c99acd6ef6b875ac4ac28e6117e60db8f89 NFSD: Clean up unused variable
+de71d4e211eddb670b285a0ea477a299601ce1ca nfsd: fix legacy client tracking initialization
+eccbbc7c00a5aae5e704d4002adfaf4c3fa4b30d nfsd: don't use sv_nrthreads in connection limiting calculations.
+a4b853f183a19a88ad635f9ae8ba97e7cb377a23 sunrpc: remove all connection limit configuration
+0b6e14242630ad5f65839b23400bd67c5166e2b4 nfsd: use an xarray to store v4.1 session slots
+b5fba969a2e445e2f36b699582d8410478a99374 nfsd: remove artificial limits on the session-based DRC
+601c8cb349c2d9a3a6cea6f53e0bf838e2e60893 nfsd: add session slot count to /proc/fs/nfsd/clients/*/info
+60aa6564317db29ea72b6db821b5bbb45f1e879d nfsd: allocate new session-based DRC slots on demand.
+fc8738c68d0bbf5033dd98b4f63d277ecbd49fd7 nfsd: add support for freeing unused session-DRC slots
+35e34642b5996df91e2879d59f726df6072c82f9 nfsd: add shrinker to reduce number of slots allocated per session
+1b3e26a5ccbfc2f85bda1930cc278e313165e353 NFSD: fix decoding in nfs4_xdr_dec_cb_getattr
+cb80ecf75ac38df30cea1163563391ef7e76a24e NFSD: add cb opcode to WARN_ONCE on failed callback
+2f55dbe4e2072c9e99298c6f37473778a98c9107 SUNRPC: introduce cache_check_rcu to help check in rcu context
+c224edca7af028828e2ad866b61d731b5e72b46d nfsd: no need get cache ref when protected by rcu
+1b10f0b603c066d81327c163a23c19f01e112366 SUNRPC: no need get cache ref when protected by rcu
+2530766492ec7726582bcde44575ec3ff7487cd2 nfsd: fix UAF when access ex_uuid or ex_stats
+395a2db0719693ee0fea19d2b1f53893935d313c NFSD: Encode COMPOUND operation status on page boundaries
+05b66ff1313579d560962fe44eb0d06f9d754b7c NFSD: Insulate nfsd4_encode_read() from page boundaries in the encode buffer
+f2be2fc8bd55d0359e67adba16d4f750fbc21ba2 NFSD: Insulate nfsd4_encode_read_plus() from page boundaries in the encode buffer
+d4238e6eccee635b4b070d65e84c910af5f8218d NFSD: Insulate nfsd4_encode_read_plus_data() from page boundaries in the encode buffer
+3d0087ebf50f3c65bf562ec0d0eb111ee6e0410d NFSD: Insulate nfsd4_encode_fattr4() from page boundaries in the encode buffer
+551681d2c8c6247a2fb408bd6e3ccc56c98e695a NFSD: Insulate nfsd4_encode_readlink() from page boundaries in the encode buffer
+582c4701faa566b7d2409c41eefc949e5616448d NFSD: Refactor nfsd4_do_encode_secinfo() again
+e7bf9e3e3dcb860b8d84f36ef8f5a478f471f06a NFSD: Insulate nfsd4_encode_secinfo() from page boundaries in the encode buffer
+eb0a9d26b63d734f211af1938040ac6c0e114226 SUNRPC: Document validity guarantees of the pointer returned by reserve_space
+0f9a9147cab1d2e3db5bdaff377eab4b71122718 nfsd: fix handling of delegated change attr in CB_GETATTR
+6efef9364d1117a52681db90757b053b5de9fddf nfs_common: make include/linux/nfs4.h include generated nfs4_1.h
+3914803c27331a52a39eb486b56af2b6e54ca0d0 nfsd: switch to autogenerated definitions for open_delegation_type4
+1b97269e648c955ebfa19ce2b923b6b780257db0 nfsd: rename NFS4_SHARE_WANT_* constants to OPEN4_SHARE_ACCESS_WANT_*
+eee7a6b81b199fadc1835963b6886d3c4ec7a2b2 nfsd: prepare delegation code for handing out *_ATTRS_DELEG delegations
+f771a21bb59f43cfee3b98e8e714d3d13b4f55cd nfsd: add support for FATTR4_OPEN_ARGUMENTS
+b68770e537aa0153cd74f25bed90155f7ce6106a nfsd: rework NFS4_SHARE_WANT_* flag handling
+290841faac6ac01046d3a441dcd4aa1bc74b30dd nfsd: add support for delegated timestamps
+da1d6135e82ec46d62fc1317dad1c64f99c5afe8 nfsd: handle delegated timestamps in SETATTR
+e43aefc29f1848068bc37c285ab882368e08e4be nfsd: implement OPEN_ARGS_SHARE_ACCESS_WANT_OPEN_XOR_DELEGATION
 
---===============5832007509566668357==--
+--===============5163659181862284259==--
