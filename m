@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/wireless/iwd
-Date: Mon, 06 Jan 2025 15:38:14 -0000
-Message-Id: <173617789498.2950081.5662349188728712387@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
+Date: Mon, 06 Jan 2025 15:46:35 -0000
+Message-Id: <173617839532.2957607.12658306177925080372@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/wireless/iwd
-user: denkenz
+repo: pub/scm/linux/kernel/git/sashal/linus-next
+user: sashal
 changes:
-  - ref: refs/heads/master
-    old: 4b535cee1f88734c982c0a5d0bc89109c888dd0c
-    new: bf82aff0398261e170de1073e78748f797271233
-    log: |
-         bf82aff0398261e170de1073e78748f797271233 handshake: add more debugging around PMKSA caching
-         
+  - ref: refs/heads/linus-next
+    old: cb1eee8ace164ce4bbc0ee97b7c31d541852a956
+    new: 3ea7cd6069be582be5569600fd5b9f540df63471
