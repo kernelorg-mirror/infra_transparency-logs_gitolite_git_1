@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5466514112862361801=="
+Content-Type: multipart/mixed; boundary="===============0446473143201441990=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Mon, 06 Jan 2025 16:10:49 -0000
-Message-Id: <173617984959.2978525.18057498205926503534@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Mon, 06 Jan 2025 16:10:51 -0000
+Message-Id: <173617985163.2978724.15968379731765782704@gitolite.kernel.org>
 
---===============5466514112862361801==
+--===============0446473143201441990==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -32,7 +32,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 5fcdd8fcd55d1da6fdf8deb78355a5c23ce94d39
 
---===============5466514112862361801==
+--===============0446473143201441990==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -934,4 +934,4 @@ cd6313beaeaea0b2e6d428afef7a86a986b50abe Revert "vmstat: disable vmstat_work on 
 5428dc1906dde5fb5ab283cda4714011f9811aa1 Merge tag 'exfat-for-6.13-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat
 13563da6ffcf49b8b45772e40b35f96926a7ee1e Merge tag 'vfio-v6.13-rc7' of https://github.com/awilliam/linux-vfio
 
---===============5466514112862361801==--
+--===============0446473143201441990==--
