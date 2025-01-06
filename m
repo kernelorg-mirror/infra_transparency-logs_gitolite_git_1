@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 06 Jan 2025 14:57:08 -0000
-Message-Id: <173617542849.2913045.5700231796665697816@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Mon, 06 Jan 2025 14:57:41 -0000
+Message-Id: <173617546193.2913495.3805935655248262762@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/stable/v2.40
-    old: 859a1e49a7ab2b1df453c2537f461a87d299936c
-    new: 57daa7e29af9eeb079fe10b124c85f54e1d6ce39
+  - ref: refs/heads/master
+    old: 5428dc1906dde5fb5ab283cda4714011f9811aa1
+    new: 13563da6ffcf49b8b45772e40b35f96926a7ee1e
     log: |
-         7b90601fc1925c7be155e7e9317ef412ae4e7edb agetty: Prevent cursor escape
-         e0f3d0fc6097c921261a74372a3a47f27d834e75 lscpu: Skip aarch64 decode path for rest of the architectures
-         57daa7e29af9eeb079fe10b124c85f54e1d6ce39 umount, losetup: Document loop destroy behavior
+         09dfc8a5f2ce897005a94bf66cca4f91e4e03700 vfio/pci: Fallback huge faults for unaligned pfn
+         13563da6ffcf49b8b45772e40b35f96926a7ee1e Merge tag 'vfio-v6.13-rc7' of https://github.com/awilliam/linux-vfio
          
