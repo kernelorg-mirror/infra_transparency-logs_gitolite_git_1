@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Mon, 06 Jan 2025 23:10:48 -0000
-Message-Id: <173620504889.3327870.2865627677110455462@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 06 Jan 2025 23:14:35 -0000
+Message-Id: <173620527538.3330149.10925759863344397332@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-linus
-    old: bbefc2ff28b883c124cab7a436a7eb7d1fa51006
-    new: c0d0b726f923c6b8c239e8d936878d39468b62a4
+  - ref: refs/heads/main
+    old: 286bb9985f369c47eaa84f27ef6993bab51a41e3
+    new: 3f9f5cd005f5b5243eaa2647d40b9857fa1a901d
     log: |
-         c0d0b726f923c6b8c239e8d936878d39468b62a4 PCI/bwctrl: Fix NULL pointer deref on unbind and bind
+         3f9f5cd005f5b5243eaa2647d40b9857fa1a901d sctp: Prepare sctp_v4_get_dst() to dscp_t conversion.
          
