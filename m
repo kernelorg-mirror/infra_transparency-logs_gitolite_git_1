@@ -1,28 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 06 Jan 2025 19:32:14 -0000
-Message-Id: <173619193405.3152016.2634843648852661433@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Mon, 06 Jan 2025 19:46:40 -0000
+Message-Id: <173619280005.3163432.2527769670309189260@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/for-linus
-    old: 13221496065fa12fac4f8a8e725444679ffddb78
-    new: 907af7d6e0c8cf4086b1bc5218281b2ca09f130b
+  - ref: refs/heads/pending
+    old: c10402121a2490027ab116465ef088d4bf56d201
+    new: 760ef293ede2c7d4b2957c052284ec1e50fa8701
     log: |
-         1156b5e8be98c97087f8971609c852e418daf03b regulator: Guard of_regulator_bulk_get_all() with CONFIG_OF
-         907af7d6e0c8cf4086b1bc5218281b2ca09f130b regulator: Move OF_ API declarations/definitions outside CONFIG_REGULATOR
-         
-  - ref: refs/heads/for-next
-    old: 8100d74e2ea1d2e4e5abbe9062ed809e1b2824aa
-    new: 35610342e9f6ab9dd38de33849c3da0876246fd1
-    log: |
-         1156b5e8be98c97087f8971609c852e418daf03b regulator: Guard of_regulator_bulk_get_all() with CONFIG_OF
-         907af7d6e0c8cf4086b1bc5218281b2ca09f130b regulator: Move OF_ API declarations/definitions outside CONFIG_REGULATOR
-         35610342e9f6ab9dd38de33849c3da0876246fd1 Merge remote-tracking branch 'regulator/for-6.14' into regulator-next
+         e85d0853cdbf498bf321270168bd6dc83f943d9e wifi: ath12k: Support Transmit Rate Buffer Stats
+         3675a38eaaba430edfd6a9b74b51f7d740878e98 wifi: ath12k: Support Transmit Buffer OFDMA Stats
+         ef21bc59420d2c51d1a1a778c4708a11f8045df4 wifi: ath12k: Support AST Entry Stats
+         760ef293ede2c7d4b2957c052284ec1e50fa8701 wifi: ath12k: Support pdev Puncture Stats
          
