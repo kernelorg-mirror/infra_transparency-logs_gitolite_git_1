@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Mon, 06 Jan 2025 14:57:41 -0000
-Message-Id: <173617546193.2913495.3805935655248262762@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
+Date: Mon, 06 Jan 2025 15:06:21 -0000
+Message-Id: <173617598176.2921501.15243042282525884735@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/geert/renesas-devel
+user: geert
 changes:
-  - ref: refs/heads/master
-    old: 5428dc1906dde5fb5ab283cda4714011f9811aa1
-    new: 13563da6ffcf49b8b45772e40b35f96926a7ee1e
+  - ref: refs/heads/renesas-dts-for-v6.14
+    old: 43938ef238451458a9dfaf8820f02aac36f59b3c
+    new: 7acdc2be6dab63f70e253dcc1ae357c99eb26f61
     log: |
-         09dfc8a5f2ce897005a94bf66cca4f91e4e03700 vfio/pci: Fallback huge faults for unaligned pfn
-         13563da6ffcf49b8b45772e40b35f96926a7ee1e Merge tag 'vfio-v6.13-rc7' of https://github.com/awilliam/linux-vfio
+         7acdc2be6dab63f70e253dcc1ae357c99eb26f61 arm64: dts: renesas: white-hawk-csi-dsi: Define CSI-2 data line orders
          
