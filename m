@@ -1,64 +1,67 @@
-Content-Type: multipart/mixed; boundary="===============6221328056228952193=="
+Content-Type: multipart/mixed; boundary="===============6240690598632432030=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 06 Jan 2025 09:54:23 -0000
-Message-Id: <173615726393.2652036.14776606948136949320@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 06 Jan 2025 09:58:05 -0000
+Message-Id: <173615748587.2655779.3289625415729121931@gitolite.kernel.org>
 
---===============6221328056228952193==
+--===============6240690598632432030==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/for-next
-    old: b25a097810df961d9f39f33d24c53c7bdade2e95
-    new: 228acaa82067c0dba2c256febff36a4b9d7b3eb3
-    log: |
-         eca836dfd8386b32f1aae60f8e323218ac6a0b75 soc: samsung: exynos-pmu: Fix uninitialized ret in tensor_set_bits_atomic()
-         228acaa82067c0dba2c256febff36a4b9d7b3eb3 Merge branch 'next/drivers' into for-next
-         
-  - ref: refs/heads/next/drivers
-    old: 38405d3825d883b9e6ae680c14b530f79709533e
-    new: eca836dfd8386b32f1aae60f8e323218ac6a0b75
-    log: |
-         eca836dfd8386b32f1aae60f8e323218ac6a0b75 soc: samsung: exynos-pmu: Fix uninitialized ret in tensor_set_bits_atomic()
-         
+  - ref: refs/heads/master
+    old: af2c8596bd2e455ae350ba1585bc938ee85aa38d
+    new: 703c603e20513c8d8aaae36acd07c3da5fcccccf
+    log: revlist-af2c8596bd2e-703c603e2051.txt
 
---===============6221328056228952193==
-Content-Type: text/plain; charset="us-ascii"
+--===============6240690598632432030==
+Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Transfer-Encoding: 8bit
+Content-Disposition: attachment; filename=revlist-af2c8596bd2e-703c603e2051.txt
 
-certificate version 0.1
-pusher krzk@kernel.org 1736157291 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1736157261-2ccb65990b873e49465ec91f1a8b1d9672b8cc98
+f4bf0b909a6bf64a2220a42a7c8b8c2ee1b77b89 clk: thead: Fix TH1520 emmc and shdci clock rate
+c384481006476ac65478fa3584c7245782e52f34 clk: clk-imx8mp-audiomix: fix function signature
+7a6c355b55c051eb37cb15d191241da3aa3d6cba scripts/mksysmap: Fix escape chars '$'
+bf36b4bf1b9a7a0015610e2f038ee84ddb085de2 modpost: fix the missed iteration for the max bit in do_input()
+e1352d7ead2b8803689823cd4059c1ec72609ed4 modpost: refactor do_vmbus_entry()
+8fe1a63d3d99d86f1bdc034505aad6fc70424737 modpost: work around unaligned data access error
+8ec396d05d1b737c87311fb7311f753b02c2a6b1 mm: reinstate ability to map write-sealed memfd mappings read-only
+ea0916e01d0b0f2cce1369ac1494239a79827270 selftests/memfd: add test for mapping write-sealed memfd read-only
+6aaced5abd32e2a57cd94fd64f824514d0361da8 mm: vmscan: account for free pages to prevent infinite Loop in throttle_direct_reclaim()
+34d7cf637c437d5c2a8a6ef23ea45193bad8a91c mm: don't try THP alignment for FS without get_unmapped_area
+158cdce87c8c172787063998ad5dd3e2f658b963 mm/readahead: fix large folio support in async readahead
+1fd8bc7cd889bd73d07a83cb32d674ac68f99153 maple_tree: reload mas before the second call for mas_empty_area
+59d9094df3d79443937add8700b2ef1a866b1081 mm: hugetlb: independent PMD page table shared count
+cddc76b165161a02ff14c4d84d0f5266d9d32b9e mm/kmemleak: fix sleeping function called from invalid context at print message
+4d9b90df2eb49ab9becdbfd1fd60071bb107406e mailmap: modify the entry for Mathieu Othacehe
+472098f23323c39cc6269d7b7bf76cba62830a4c docs: mm: fix the incorrect 'FileHugeMapped' field
+cb0ca08b326aa03f87fe94bb91872ce8d2ef1ed8 kcov: mark in_softirq_really() as __always_inline
+3754137d263f52f4b507cf9ae913f8f0497d1b0e fs/proc/task_mmu: fix pagemap flags with PMD THP entries on 32bit
+5f3fd772d152229d94602bca243fbb658068a597 ocfs2: fix slab-use-after-free due to dangling pointer dqi_priv
+eaebeb93922ca6ab0dd92027b73d0112701706ef mm: zswap: fix race between [de]compression and CPU hotunplug
+11673247700e2af3a6a95f7b3f1bb80b691c950e percpu: remove intermediate variable in PERCPU_PTR()
+d0e6983a6d1719738cf8d13982a68094f0a1872a mm: shmem: fix incorrect index alignment for within_size policy
+d77b90d2b2642655b5f60953c36ad887257e1802 mm: shmem: fix the update of 'shmem_falloc->nr_unswapped'
+adcfb264c3ed51fbbf5068ddf10d309a63683868 vmstat: disable vmstat_work on vmstat_cpu_down_prep()
+98a6abc6cec186bdc3d94c162227cc8e003de76c mm/list_lru: fix false warning of negative counter
+8debfc5b1aa569d3d2ac836af2553da037611c61 mm/damon/core: fix new damon_target objects leaks on damon_commit_targets()
+7d390b53067ef745e2d9bee5a9683df4c96b80a0 mm/damon/core: fix ignored quota goals and filters of newly committed schemes
+62e72d2cf702a5e2fb53d9c46ed900d9384e4a06 mm, madvise: fix potential workingset node list_lru leaks
+dd2a5b5514ab0e690f018595e34dd1fcb981d345 mm/util: make memdup_user_nul() similar to memdup_user()
+0210d251162f4033350a94a43f95b1c39ec84a90 scripts/sorttable: fix orc_sort_cmp() to maintain symmetry and transitivity
+e7404921818d676da4d7143ce78659456b05e2af MAINTAINERS: change Arınç _NAL's name and email address
+385443057f475e775fe1c66e77d4be9727f40973 kbuild: pacman-pkg: provide versioned linux-api-headers package
+7a5b6fc8bd70cbb22b1e9eacd7edaf5626e9fc74 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
+5635d8bad221701188017a6087fbe25ab245c226 Merge tag 'mm-hotfixes-stable-2025-01-04-18-02' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+9244696b34f2a626d7468864420ab6a47289bf10 Merge tag 'kbuild-fixes-v6.13-3' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+9d89551994a430b50c4fffcb1e617a057fa76e20 Linux 6.13-rc6
+703c603e20513c8d8aaae36acd07c3da5fcccccf Merge branch 'linus'
 
-b25a097810df961d9f39f33d24c53c7bdade2e95 228acaa82067c0dba2c256febff36a4b9d7b3eb3 refs/heads/for-next
-38405d3825d883b9e6ae680c14b530f79709533e eca836dfd8386b32f1aae60f8e323218ac6a0b75 refs/heads/next/drivers
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmd7qGsQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1zXrEACDi+HvlIV5MTCFVUUc3X8GDuCFw5XTUHEL
-OAhR4GFwjtyGUeXGnD8eEo7/1a9D1dbn+UxPKcNhsH5NjL/2E0C/44uW1zZJnZTQ
-K1OM3js1jMrKiT9R74ZBEu1YOnFNU1DPHtsiYW69W9F3mXNtz0Erh+9w6PX1fN9m
-e9nBJ2lMaEsTW9ZZWDlxxuMYlgFTbvfqmG3bUqY2zypsVg6lE561SpNr5OMirqQo
-gvzAgaDNvcjzOobY8Kdab2VmtFNZL72eQkq4LEt2UA8BEz/woJGPWNgwin2A8n/f
-ksAhgICZ6xwqOA5kyTVLTJIPfAJpnDq2N7aEHKUr1TvOgwzTZRkDUiw5SmoqI1ok
-8A5CNjN8ExfhQqfESsmou1Q1/tNdMGf06dGrBsqObRZXM+I2ZnRRKriJxNi+HcPp
-463MQlhzs137gl0yPVYUlZ+ZA0JQncfBgJzHtWmc34/qnyje3f5SRR3g5bnHFAYd
-AXUITWu3+CAbN2u9Ft9VGubon32kQ6OeEmcv9V4JJtMOxpuxlZQy76RstKz2Ai2l
-HHukmBUk+yS84D3QiXXLMho1J/Fcy3vS4XPUIlZoRw+6+O5jM6aWGcPemd1hSIqR
-1CNxqkQDriIZy57UsyZuEhyXgow7Yzs4cUOMH2RLLePP3sybLNlVNzatFfkBT5tR
-G5EwPA2f3Q==
-=udFm
------END PGP SIGNATURE-----
-
---===============6221328056228952193==--
+--===============6240690598632432030==--
