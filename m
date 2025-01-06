@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0772523685855126174=="
+Content-Type: multipart/mixed; boundary="===============9093744253742336032=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 06 Jan 2025 16:59:22 -0000
-Message-Id: <173618276250.3021940.10219055433400197620@gitolite.kernel.org>
+Date: Mon, 06 Jan 2025 17:00:48 -0000
+Message-Id: <173618284833.3024991.14883768412359508315@gitolite.kernel.org>
 
---===============0772523685855126174==
+--===============9093744253742336032==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/200GbE
     old: cc54ec56d822d4e4bfe16b6d1d85e8122fad1f67
     new: 8ce4f287524c74a118b0af1eebd4b24a8efca57a
     log: revlist-cc54ec56d822-8ce4f287524c.txt
 
---===============0772523685855126174==
+--===============9093744253742336032==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -439,4 +439,4 @@ e95274dfe86490ec2a5633035c24b2de6722841f selftests: tc-testing: reduce rshift va
 a4faa15d28f4afb0a7d6213894175e612f825cd6 Merge tag 'ieee802154-for-net-2025-01-03' of git://git.kernel.org/pub/scm/linux/kernel/git/wpan/wpan
 8ce4f287524c74a118b0af1eebd4b24a8efca57a net: libwx: fix firmware mailbox abnormal return
 
---===============0772523685855126174==--
+--===============9093744253742336032==--
