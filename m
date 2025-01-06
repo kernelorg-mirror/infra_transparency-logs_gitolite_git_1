@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1049624553821760583=="
+Content-Type: multipart/mixed; boundary="===============2407637700742910132=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 06 Jan 2025 13:11:50 -0000
-Message-Id: <173616911088.2821500.15605906570000270803@gitolite.kernel.org>
+Date: Mon, 06 Jan 2025 13:12:09 -0000
+Message-Id: <173616912910.2821776.6797427149631526665@gitolite.kernel.org>
 
---===============1049624553821760583==
+--===============2407637700742910132==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 17810b1de0e9e5c1000cf8f5b4787ad930b0353e
-    new: 4becd8a6b5680906c99cbb7f347ddd4fce4667a3
-    log: revlist-17810b1de0e9-4becd8a6b568.txt
+  - ref: refs/heads/m68k-queue
+    old: 2b9d368795103a360d67bfec877ca456b053764e
+    new: 50e3d43de9bde99e029f01e42b9504323fb28c17
+    log: revlist-2b9d36879510-50e3d43de9bd.txt
 
---===============1049624553821760583==
+--===============2407637700742910132==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-17810b1de0e9-4becd8a6b568.txt
+Content-Disposition: attachment; filename=revlist-2b9d36879510-50e3d43de9bd.txt
 
 b77bd3ba762f34e5eb731134cf50e233d1060053 ARM: imx: Re-introduce the PINCTRL selection
 793baff3f24f16dab9061045e23eea67724feae6 sched_ext: Add __weak to fix the build errors
@@ -225,6 +225,9 @@ ab75170520d4964f3acf8bb1f91d34cbc650688e Merge tag 'linux-watchdog-6.13-rc6' of 
 5635d8bad221701188017a6087fbe25ab245c226 Merge tag 'mm-hotfixes-stable-2025-01-04-18-02' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 9244696b34f2a626d7468864420ab6a47289bf10 Merge tag 'kbuild-fixes-v6.13-3' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 9d89551994a430b50c4fffcb1e617a057fa76e20 Linux 6.13-rc6
-4becd8a6b5680906c99cbb7f347ddd4fce4667a3 Merge tag 'v6.13-rc6'
+95455ae1558c03d00d56ba84e32ad1f4e083d7a8 m68k: Use kernel's generic muldi3 libgcc function
+8af9bf476a97036cd3ae07a2d06fd71c891183cd m68k: atari: usb: Add ISP1160 USB host controller support
+9faddcf9935b910316aa51cd60eab5bf429c5fcd m68k: atari: Update Kconfig.bus help text
+50e3d43de9bde99e029f01e42b9504323fb28c17 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============1049624553821760583==--
+--===============2407637700742910132==--
