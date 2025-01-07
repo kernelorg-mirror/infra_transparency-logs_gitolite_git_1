@@ -1,27 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Tue, 07 Jan 2025 20:16:33 -0000
-Message-Id: <173628099338.175356.16931217647627191350@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 07 Jan 2025 20:17:18 -0000
+Message-Id: <173628103866.175844.14807456839489061017@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/dt/next
-    old: 92c58adcee0f978d8e921718c79a1e5a92fa0967
-    new: 456f3000f82571697d23c255c451cfcfb5c9ae75
+  - ref: refs/heads/main
+    old: fd48f071a3d6d51e737e953bb43fe69785cf59a9
+    new: 95978931d55fb7685f8c0b2598d6c12a9b6bc82a
     log: |
-         6143cc1d9e5503074b1ed41a5721f1c2da083f62 dt-bindings: interrupt-controller: qcom,pdc: Document SM8750 PDC
-         456f3000f82571697d23c255c451cfcfb5c9ae75 dt-bindings: soc: altera: convert socfpga-system.txt to yaml
-         
-  - ref: refs/heads/for-next
-    old: 92c58adcee0f978d8e921718c79a1e5a92fa0967
-    new: 456f3000f82571697d23c255c451cfcfb5c9ae75
-    log: |
-         6143cc1d9e5503074b1ed41a5721f1c2da083f62 dt-bindings: interrupt-controller: qcom,pdc: Document SM8750 PDC
-         456f3000f82571697d23c255c451cfcfb5c9ae75 dt-bindings: soc: altera: convert socfpga-system.txt to yaml
+         95978931d55fb7685f8c0b2598d6c12a9b6bc82a eth: fbnic: Revert "eth: fbnic: Add hardware monitoring support via HWMON interface"
          
