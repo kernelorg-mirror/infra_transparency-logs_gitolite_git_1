@@ -1,56 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2277045194864056423=="
+Content-Type: multipart/mixed; boundary="===============8022391225441328996=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 07 Jan 2025 16:37:18 -0000
-Message-Id: <173626783866.4182385.9839603322747656469@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Tue, 07 Jan 2025 16:37:35 -0000
+Message-Id: <173626785508.4182778.101682143804590457@gitolite.kernel.org>
 
---===============2277045194864056423==
+--===============8022391225441328996==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regmap
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/regmap-6.13
+  - ref: refs/heads/for-linus
     old: fac04efc5c793dccbd07e2d59af9f90b7fc0dca4
     new: 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8
     log: revlist-fac04efc5c79-78d4f34e2115.txt
-  - ref: refs/heads/regmap-6.14
+  - ref: refs/heads/for-next
     old: eb708cd631a8dca17ff004ccc39bbeb096c1db22
     new: c4e0a42225b87d5d2651fe860a9ad0665ae102c5
     log: revlist-eb708cd631a8-c4e0a42225b8.txt
 
---===============2277045194864056423==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1736267866 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1736267836-a8a78848c76d0aea61860bf76bb8a9bb8546575c
-
-fac04efc5c793dccbd07e2d59af9f90b7fc0dca4 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8 refs/heads/regmap-6.13
-eb708cd631a8dca17ff004ccc39bbeb096c1db22 c4e0a42225b87d5d2651fe860a9ad0665ae102c5 refs/heads/regmap-6.14
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmd9WFoACgkQJNaLcl1U
-h9ADfAf/W4jYQz0Fx1o5giCGq5gki0CiiBNth71yvC2WuWm6lHPV2neVCB7VB3U3
-y4wwKALVRpZsP8QGnQSMVCV1ybKgzzfHebxK7ZXi1v4vRdlfRIzBI4L5CDB7av6v
-KQGqsuCXCG8p9EpJhx2um9USj5Rm94tdT0TW0nF2YKzIjwWuIMvMcwHfDUbmxE+W
-1FCf7siruDWagylqqB5GmESI8VA0aZpPcpuC1GecroWglEWZQsjVMQQXB/S+x/vc
-jmakGj+T3nieUKJnZP+j8jWbikvgQtRS47jECnnC8+FamzpG6ZLu+WNmnonsWqwG
-P9UVw+Xl7Zq0OM5iWil8tlG0NOGSeQ==
-=R+oh
------END PGP SIGNATURE-----
-
---===============2277045194864056423==
+--===============8022391225441328996==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -457,7 +431,7 @@ dccbe2047a5b0859de24bf463dae9eeea8e01c1e Merge tag 'edac_urgent_for_v6.13_rc3' o
 42a19aa1707cce382bc5e534e2e36024c3611674 Merge tag 'arc-6.13-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8 Linux 6.13-rc3
 
---===============2277045194864056423==
+--===============8022391225441328996==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1485,4 +1459,4 @@ ab75170520d4964f3acf8bb1f91d34cbc650688e Merge tag 'linux-watchdog-6.13-rc6' of 
 9d89551994a430b50c4fffcb1e617a057fa76e20 Linux 6.13-rc6
 c4e0a42225b87d5d2651fe860a9ad0665ae102c5 regmap: Merge up v6.13-rc6
 
---===============2277045194864056423==--
+--===============8022391225441328996==--
