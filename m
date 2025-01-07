@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============4564255021752517239=="
+Content-Type: multipart/mixed; boundary="===============1084205036980934322=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 07 Jan 2025 11:57:03 -0000
-Message-Id: <173625102307.3942364.13271110920057529022@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 07 Jan 2025 11:57:06 -0000
+Message-Id: <173625102606.3942522.4729360762151472149@gitolite.kernel.org>
 
---===============4564255021752517239==
+--===============1084205036980934322==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.14
+  - ref: refs/heads/spi-6.14
     old: b69386fcbc6066fb4885667743ab4d4967d561b8
     new: a38509fd5cdc125ef54562760a05c68ebd4812bc
     log: |
@@ -26,28 +26,28 @@ changes:
          a38509fd5cdc125ef54562760a05c68ebd4812bc spi: atmel-quadspi: Use devm_ clock management
          
 
---===============4564255021752517239==
+--===============1084205036980934322==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1736251051 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1736251020-2fd428c01a7d5d1de859bd686b694e83d52894d9
+pusher C3F436CA30F5D8EB 1736251054 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1736251024-3bd404ae32813c8db7c5f857abdaaca16efdd25b
 
-b69386fcbc6066fb4885667743ab4d4967d561b8 a38509fd5cdc125ef54562760a05c68ebd4812bc refs/heads/for-6.14
+b69386fcbc6066fb4885667743ab4d4967d561b8 a38509fd5cdc125ef54562760a05c68ebd4812bc refs/heads/spi-6.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmd9FqsACgkQJNaLcl1U
-h9DtZwf+N6a7WW1IMKT5WJPmyO76K+G5F1wIt50MKIvKJFQ1AH8EBjaUVxCfcgMn
-TSTzi16K1pHnO/+xnaNPGaBjvZ/Hn3ewDbikGYTN8etbiSeAp9diin133NU+4/dD
-U1RTBlDydWVyF6ssjGPzvziM7XXNyoR8djNM/rCpsJ9SE2FpoWHRTrYPuvPRIhHe
-RGsZHp/OATsYNXjt9Nm4SlhpINFYaIWy68vIPxap7w3wVsZNvnPUeI1pHVSUlYKu
-c8fwI5ymur+1xD6P17uNs57tvHxEKmCTOkrTysSR4igUGyMLy2W1XNRaLxRLuv8N
-LaMf7Crg73iVePfK6Rare77F9UlF0w==
-=JjyK
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmd9Fq4ACgkQJNaLcl1U
+h9AN1Af8CKFHcjlMQvOu+7/WAggUQZ4x39NC7ib6sLSLtaIZ629zMP/l1a6D+kT+
+N823tK3Goo0oc20DekGIuA51SNzefuYjk6Z2nOAiwaQiCK34DaG7zGiSWfrzWlAY
+QrNR/49WArJUpuW+Hi/bMuHHod3tAEfYTAgWqERs2tOWp7CDJp+bfq5HrBW/R8Fs
+f949lDndxGLkYtUFy0NBTeYxhmuTK3y4Jd5ffk2uWBmNHcpYx4LN8MQx7kEhWYmX
+mvi2dgxPQK+8nEo/PAWoOka+n0dvlSrdPJZjzFyk8yYMXulruIP4h717ZiEMGliW
+votpE8vYElFN6E7BIMaKYQVeSlGMTw==
+=8mc2
 -----END PGP SIGNATURE-----
 
---===============4564255021752517239==--
+--===============1084205036980934322==--
