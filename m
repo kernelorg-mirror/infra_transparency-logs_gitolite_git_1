@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Tue, 07 Jan 2025 00:39:39 -0000
-Message-Id: <173621037994.3399227.10287203279778993264@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 07 Jan 2025 00:45:18 -0000
+Message-Id: <173621071862.3405278.1547350286439939695@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damo
-user: sj
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/next
-    old: 0f49c852c445c80b59cb27c198b182e5981fa9dd
-    new: 38779942e59eab5f6a5a7de3f6d60b07f7d1b291
+  - ref: refs/heads/main
+    old: 8c817eb26230dc0ae553cee16ff43a4a895f6756
+    new: 3085d4b847e016125609f3f03002833d8df476da
     log: |
-         805c27bdb2e5bd61994591014877dc8568785d0b release_note: wordsmith
-         38779942e59eab5f6a5a7de3f6d60b07f7d1b291 _damo_records: check None sz_filter_passed case from tried_region_to_snapshot()
+         c8dafb0e4398dacc362832098a04b97da3b0395b bnxt_en: Fix possible memory leak when hwrm_req_replace fails
+         40452969a50652e3cbf89dac83d54eebf2206d27 bnxt_en: Fix DIM shutdown
+         3085d4b847e016125609f3f03002833d8df476da Merge branch 'bnxt_en-2-bug-fixes'
          
