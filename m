@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7550203039333108570=="
+Content-Type: multipart/mixed; boundary="===============7557057434867862072=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Tue, 07 Jan 2025 19:36:06 -0000
-Message-Id: <173627856689.142718.10418366067723113895@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Tue, 07 Jan 2025 19:36:21 -0000
+Message-Id: <173627858193.142928.883592516266377720@gitolite.kernel.org>
 
---===============7550203039333108570==
+--===============7557057434867862072==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 9d89551994a430b50c4fffcb1e617a057fa76e20
     log: revlist-fc033cf25e61-9d89551994a4.txt
 
---===============7550203039333108570==
+--===============7557057434867862072==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -226,4 +226,4 @@ ab75170520d4964f3acf8bb1f91d34cbc650688e Merge tag 'linux-watchdog-6.13-rc6' of 
 9244696b34f2a626d7468864420ab6a47289bf10 Merge tag 'kbuild-fixes-v6.13-3' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 9d89551994a430b50c4fffcb1e617a057fa76e20 Linux 6.13-rc6
 
---===============7550203039333108570==--
+--===============7557057434867862072==--
