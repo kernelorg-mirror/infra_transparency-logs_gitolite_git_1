@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Tue, 07 Jan 2025 14:35:23 -0000
-Message-Id: <173626052327.4074947.5027217049037385524@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Tue, 07 Jan 2025 14:35:39 -0000
+Message-Id: <173626053983.4075128.16467068284339022747@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/for-next
-    old: 2de5dbedb6bced9d90be3823f0e67ce10adad93e
-    new: 92c58adcee0f978d8e921718c79a1e5a92fa0967
+  - ref: refs/heads/master
+    old: 584d1b1a6ece929937716a4a98afdd3c8a2f5f3d
+    new: 76bb80a36107e3808c4770c8112583813a4e511b
     log: |
-         9a3c545b61ca574868cf624b1fb7ed5d66e86bd3 dt-bindings: qcom,pdc: document QCS615 Power Domain Controller
-         715e36194d6a0c04b7b57f8085952a90f2415d76 dt-bindings: qcom,pdc: document QCS8300 Power Domain Controller
-         fed79caaf76542cff6f9e62cfd40791ef09cf57a dt-bindings: thermal: qcom-tsens: Document ipq6018 temperature sensor
-         157660a581462912c70e267119e0549e25ad3bc0 dt-bindings: sram: qcom,imem: Document MSM8976
-         92c58adcee0f978d8e921718c79a1e5a92fa0967 dt-bindings: memory-controller: qca,ath79-ddr-controller: Drop consumer from example
+         76bb80a36107e3808c4770c8112583813a4e511b man/io_uring_prep_close_direct.3: note on IOSQE_FIXED_FILE
          
