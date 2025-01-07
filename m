@@ -1,50 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============7245961950934730224=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 07 Jan 2025 16:14:49 -0000
-Message-Id: <173626648965.4160750.2564319259197989190@gitolite.kernel.org>
-
---===============7245961950934730224==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 07 Jan 2025 16:15:01 -0000
+Message-Id: <173626650145.4161162.12017510963022424513@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.14
-    old: a83678be5ea152dca98791956f7bf2a0e899e3ad
-    new: fffe003fc209a3c1f3d07be7e860fed4e51c4c00
+  - ref: refs/heads/for-next
+    old: e72c76d913ae7ca29ed1e1a493a080c1f7236e77
+    new: f94e980da4c7eb76e1d9f6dada04cde30f566375
     log: |
          fffe003fc209a3c1f3d07be7e860fed4e51c4c00 ASoC: dt-bindings: Correct indentation and style in DTS example
+         f94e980da4c7eb76e1d9f6dada04cde30f566375 Merge remote-tracking branch 'asoc/for-6.14' into asoc-next
          
-
---===============7245961950934730224==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1736266517 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1736266487-6037a17384f59b2755b3f6c6ca3c8b843a91cd8a
-
-a83678be5ea152dca98791956f7bf2a0e899e3ad fffe003fc209a3c1f3d07be7e860fed4e51c4c00 refs/heads/asoc-6.14
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmd9UxUACgkQJNaLcl1U
-h9AVrAf/ZMOqQsC/tkXpr4D4g3M3Utu5Dx0kTaZnyNzrfWxrak04nMtmxmkkbZeH
-T16rEtK/Lr5Wg3tGBTDiNxK58EZ+FLyWfGKJO+CLQAG47zXRe+A2OBbsqU7VQnkw
-RUWUksoNWlFEBmbtBOaWmVFb62cCUrKgfioEiyptT/c3tXLhsK3eYeM6YViTPIfX
-PtQt0aXtie85fzymW1UeS318JRZycgmASs5wW8TVeSI7JGqzF92yLwLv5rd9vSQC
-SxNR7NevJP82oy0AdFwv9X7ENdv7MnBdeEI1ppgsX2wENOTwAdkrmPQS96fO8u1S
-QpyyvIbmDT1S6oSXstbRsQ8knJtyPQ==
-=MO5q
------END PGP SIGNATURE-----
-
---===============7245961950934730224==--
