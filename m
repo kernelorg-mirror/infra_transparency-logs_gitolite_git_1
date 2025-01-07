@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 07 Jan 2025 10:59:13 -0000
-Message-Id: <173624755310.3891342.277487080397374297@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Tue, 07 Jan 2025 11:02:38 -0000
+Message-Id: <173624775808.3895020.10560689830484275975@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/security/vulns
+user: lee
 changes:
-  - ref: refs/heads/x86/boot
-    old: 99b863d2e87210c70354a1c75cc5bcc7a3afdc01
-    new: 893930143440eb5e3ea8f69cb51ab2e61e15c4e1
+  - ref: refs/heads/master
+    old: 32af11a8f71597a14f727c2677a96f5eebbc35c8
+    new: cf3f718d00b183044b5e18361223c5d033b7c741
     log: |
-         893930143440eb5e3ea8f69cb51ab2e61e15c4e1 x86/sev: Don't hang but terminate on failure to remap SVSM CA
+         cf3f718d00b183044b5e18361223c5d033b7c741 cve_review: Fix colour highlighting (again)
          
