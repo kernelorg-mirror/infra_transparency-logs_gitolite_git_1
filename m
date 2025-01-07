@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 07 Jan 2025 23:45:11 -0000
-Message-Id: <173629351140.350504.13248482069389214793@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 07 Jan 2025 23:54:30 -0000
+Message-Id: <173629407093.356346.1730490036512207161@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/tip/tip
+user: daveh
 changes:
-  - ref: refs/heads/master
-    old: fbfd64d25c7af3b8695201ebc85efe90be28c5a3
-    new: 09a0fa92e5b45e99cf435b2fbf5ebcf889cf8780
-    log: |
-         5e7f0efd23238039bcd4fc72ff28d94f364ec26b selinux: match extended permissions to their base permissions
-         09a0fa92e5b45e99cf435b2fbf5ebcf889cf8780 Merge tag 'selinux-pr-20250107' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
-         
+  - ref: refs/heads/x86/urgent
+    old: 9b9ab249c4b1babb0d36c9d4f3309cfb6901a15a
+    new: 5cc2db37124bb33914996d6fdbb2ddb3811f2945
