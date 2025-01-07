@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0518042808098799683=="
+Content-Type: multipart/mixed; boundary="===============0753232600107493315=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 07 Jan 2025 16:19:44 -0000
-Message-Id: <173626678496.4165912.2824657645582351036@gitolite.kernel.org>
+Date: Tue, 07 Jan 2025 16:20:13 -0000
+Message-Id: <173626681373.4168663.17068519395274949511@gitolite.kernel.org>
 
---===============0518042808098799683==
+--===============0753232600107493315==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 3e5908172c05ab1511f2a6719b806d6eda6e1715
-    new: a1942da8a38717ddd9b4c132f59e1657c85c1432
-    log: revlist-3e5908172c05-a1942da8a387.txt
+  - ref: refs/heads/dev-queue
+    old: d77e646767362284a2d47f7637a0413add8495be
+    new: b0e570a7e08235874de962242ecad4839dd55210
+    log: revlist-d77e64676736-b0e570a7e082.txt
 
---===============0518042808098799683==
+--===============0753232600107493315==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3e5908172c05-a1942da8a387.txt
+Content-Disposition: attachment; filename=revlist-d77e64676736-b0e570a7e082.txt
 
 59ec698d01ebb5bae4865f6083bb9f398e39d63b i40e: Deadcode i40e_aq_*
 39cabb01d26d2d27bd4794c62e67349d86f8b1df i40e: Remove unused i40e_blink_phy_link_led
@@ -80,5 +80,88 @@ ef1ca9271313b4ea7b03de69576aacef1e78f381 net: airoha: Add sched HTB offload supp
 00fb9823939ea39b553985b1b3f5377dc2386d63 dev: Hold per-netns RTNL in (un)?register_netdev().
 04ced323ef70b89151f010f359be710357de2dac Merge branch 'dev-hold-per-netns-rtnl-in-register-netdev'
 a1942da8a38717ddd9b4c132f59e1657c85c1432 bridge: Make br_is_nd_neigh_msg() accept pointer to "const struct sk_buff"
+37bd7ee689935e9442dcc379ed67eae068c26c6d iavf: allow changing VLAN state without calling PF
+0b1d507fe902af336ed97edabcfa3b358ef75f68 ice: Fix E825 initialization
+d80da90f6f3cf091f9887ee579695663583e5398 ice: Fix quad registers read on E825
+249c4449744d18e48b235ace4bdb3fe6111d2484 ice: Fix ETH56G FC-FEC Rx offset value
+1db181c0f38df819c1ce2e18ebfe8210e8ac6d9c ice: Add correct PHY lane assignment
+7a49dc70c82b21f9fa8e60051e65d16726570569 ice: Don't check device type when checking GNSS presence
+a451659b43c91b7a22cdd3481f6b5d245b44a5a8 ice: Remove unncecessary ice_is_e8xx() functions
+3a4bd3009c79105723386ca1cca7e259990a6990 ice: Use FIELD_PREP for timestamp values
+f180b3a8b5ed8e9beb81bfad0d134ecfa472550c ice: Process TSYN IRQ in a separate function
+12c6bb590103633c5c257cc2b47cbbbf443a31be ice: Add unified ice_capture_crosststamp
+eb1dd8f6afb5e396afcc44deb5b542f36c755757 ice: Refactor ice_ptp_init_tx_*
+c2d0c7db94a30f62b3bbb03744e450931e2afef0 ice: Implement PTP support for E830 devices
+74593a59992fce4c141978c91c84445ea3b0a101 ice: c827: move wait for FW to ice_init_hw()
+fb90f8b7be2c7e6da6a9a35430c8d28b5d821344 ice: split ice_init_hw() out from ice_init_dev()
+508cdca4cd6384caaf7da6f87a314293c88da368 ice: minor: rename goto labels from err to unroll
+6c2de096ee4dadd0cf1b912635be4f84456173a4 ice: ice_probe: init ice_adapter after HW init
+7ffbc395a89ea2dbe838dc60f415d199f725f183 ice: add recipe priority check in search
+82bb867c19a11657352a3d2bd847af4026494c22 igb: Remove static qualifiers
+bb73d3256eb3dbf7c28c58055eed5e836e4275f0 igb: Introduce igb_xdp_is_enabled()
+56057b843d47236bdfdf2561a0572e434a75eccb igb: Introduce XSK data structures and helpers
+7c0167a803819361b92ecf3f6e8d77b093ee8570 igb: Add XDP finalize and stats update functions
+d2dfe271931a3d4f032a03ac248cb7e1a093560e igb: Add AF_XDP zero-copy Rx support
+3015ca793bd5769cad26820bb3c8b4803598c5bf igb: Add AF_XDP zero-copy Tx support
+76f15efcc41626700c3ba0464f54530d539fbf80 pldmfw: enable selected component update
+5db61e96b40daf12b1a26d9ffa789858f2f40e8f devlink: add devl guard
+900d3fce30b80d9c8285ec48edd0bf26aefb47a2 ice: support FW Recovery Mode
+b4c411bc02298a2e5e4502b4a6eb4292a59d1a2d igc: Fix passing 0 to ERR_PTR in igc_xdp_run_prog()
+7335ae1adee112a369b695b841478a5a487c5f24 igb: Fix passing 0 to ERR_PTR in igb_run_xdp()
+a1165198ad74edfed590c4f3baed623ac954c08d ixgbe: Fix passing 0 to ERR_PTR in ixgbe_run_xdp()
+3f79f0e244fa2d4f2b85beced52ecb14d9e72e8a ixgbevf: Fix passing 0 to ERR_PTR in ixgbevf_run_xdp()
+a35a2e8f1c7e18b123c8d83663758bc7fc1da0b7 ice: use string choice helpers
+3e40bea12d711629a82c8e091e9cee3a147e6af5 igc: Link IRQs to NAPI instances
+7f15a9f1d4fcb0c85d1c1a8d3dbfe4be7c4cc681 igc: Link queues to NAPI instances
+7bebd9c24c5306caeb9cb7fce0f42b2cee662840 virtchnl: add support for enabling PTP on iAVF
+b842b810a6239305c4f24b66d09ffdec5d2676e2 ice: support Rx timestamp on flex descriptor
+b2b02184a80ac28e88b419ad16666e28fafe0cb5 virtchnl: add enumeration for the rxdid format
+c5a9eade2f5e8b1bbaec46f389762c58d1e00ffc iavf: add support for negotiating flexible RXDID format
+b3818f4112f88e0a7f5ffa706f47955cab49ed41 iavf: negotiate PTP capabilities
+b2a6a8ee82659c837b10ada32cc908551ba00620 iavf: add initial framework for registering PTP clock
+b9d437bd6287515b3519aafcf6e83f93e21f807c iavf: add support for indirect access to PHC time
+33949bbaab61f2babfb09bf57374f150d2ed4ba1 iavf: periodically cache PHC time
+d8bf4a67b8d15814bbe3ae7e7495c185ab605166 libeth: move idpf_rx_csum_decoded and idpf_rx_extracted
+5cb3f3ecb1f9f5bd3468ae023ca482a9fb407c2f iavf: define Rx descriptors as qwords
+be3721bfab3c18dd4e703af6f8e3231485c75afa iavf: refactor iavf_clean_rx_irq to support legacy and flex descriptors
+2c8b4e6535bf60042e6c018c41931982c027204b iavf: Implement checking DD desc field
+d93d9e7904d295ea3a3921f76705ddf81e4e7c70 iavf: handle set and get timestamps ops
+7fa7ded6fba734536a6d65bd3fd69a1ddd5ca0e6 iavf: add support for Rx timestamps to hotpath
+f31854bf92d7690b1ef8a1a71321dfad2af85efb idpf: Change function argument
+8bbaee29f711e0fbfa491e8816c88b240362a05b idpf: rename vport_ctrl_lock
+15f57248bb2a2aa34333a4f151fadd9715bbcfdb idpf: Add init, reinit, and deinit control lock
+8692e67a44400a2445b5c5933034dfe7a974f326 idpf: add lock class key
+75d985c22df3ae7d11f6aa0e32f27fe464612eca i40e: add ability to reset VF for Tx and Rx MDD events
+2f4c0167f67e81d348486b2528843422e74fbeb8 intel/fm10k: Remove unused fm10k_iov_msg_mac_vlan_pf
+cb189884ab9a93e877a99dd08f084a64612d7814 igc: Allow hot-swapping XDP program
+7934d29e5b20cd928b72b6d9d6c9e53d6e9361b0 ice: fix max values for dpll pin phase adjust
+88e83249324a25117328d3bcf9f99fc52e0528e5 idpf: add read memory barrier when checking descriptor done bit
+18246a338559d7d7648af63ac62303ab31ff737a ice: count combined queues using Rx/Tx count
+245cd6949d53f8a0733598f8abe78416fe1d2853 ice: devlink PF MSI-X max and min parameter
+ed3746c18fc4cf81a92e76774895d6216c68f159 ice: remove splitting MSI-X between features
+fc2c80d6e61419aac5a4165eda13f3c2da4f0588 ice: get rid of num_lan_msix field
+1c98c93827e863630bfd4f7d53a174b5d818ac34 ice, irdma: move interrupts code to irdma
+876d05471b08f3151a9591e6c6f581256bf74fd9 ice: treat dyn_allowed only as suggestion
+80b678f020857c28f7eb31136864c830a36e6182 ice: enable_rdma devlink param
+cb615ebad5fde1220cacec9593cfd8cadfe0f31d ice: simplify VF MSI-X managing
+393c9650c0a528424907e53da3ab02d4e5f47962 ice: init flow director before RDMA
+fbef78f444adc14a9c6f5c0594ade9edc3dff95e ice: Add in/out PTP pin delays
+f8450825130a10528ee8a1370b45992fde2cc413 ice: fix incorrect PHY settings for 100 GB/s
+29edca288341a36b32d9f785a1bf0a5a75dd5c9f ice: do not configure destination override for switchdev
+f44aefd9e37ecd2be95f7c82177d912fc6731212 ice: add fw and port health reporters
+d5baf701d1654b1714db55291fe3e899d6bae5fa ice: use rd32_poll_timeout_atomic in ice_read_phy_tstamp_ll_e810
+bbabd0fc8de774807eb0862f151153e31e6d7873 ice: rename TS_LL_READ* macros to REG_LL_PROXY_H_*
+7dd9de0159fdf90af223a191f488dfb28378d28e ice: add lock to protect low latency interface
+8144526b7ba37179ded90d1967f2582eda531130 ice: check low latency PHY timer update firmware capability
+a1cf6e5554bb30836dd82843bcb9fb3ff342c169 ice: implement low latency PHY timer updates
+0aecf2188c1da76fa12b255b6f0bfc4e46ce4cc3 igc: Avoid unnecessary link down event in XDP_SETUP_PROG process
+031456236b8cbc0ae8b1e9b89f50db3728b33225 idpf: Acquire the lock before accessing the xn->salt
+5dd4c7be4345a0bf1dc73fed9329aeef3335a97d idpf: convert workqueues to unbound
+70a1ab53193118b11d50b63da464a085ec805753 idpf: add more info during virtchnl transaction timeout/salt mismatch
+62cb4779b24e6059312144f40bad5d1d42ec257e igb: narrow scope of vfs_lock in SR-IOV cleanup
+9b0ddf3b0c0c3305145d2148b8e4c7d98c8708b9 igb: introduce raw vfs_lock to igb_adapter
+158c2ae1810f6a68e04a5ea6f2064e363b573a28 igb: split igb_msg_task()
+fdaae07ac785860417d971591e5137dd6e8a5d24 igb: fix igb_msix_other() handling for PREEMPT_RT
+b0e570a7e08235874de962242ecad4839dd55210 ice: Add E830 checksum offload support
 
---===============0518042808098799683==--
+--===============0753232600107493315==--
