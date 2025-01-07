@@ -1,28 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============5810346105593609730=="
+Content-Type: multipart/mixed; boundary="===============5993164406695546147=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 07 Jan 2025 05:51:58 -0000
-Message-Id: <173622911846.3648186.1295012447577627265@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 07 Jan 2025 05:52:06 -0000
+Message-Id: <173622912699.3648420.7572471963671148907@gitolite.kernel.org>
 
---===============5810346105593609730==
+--===============5993164406695546147==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 4e16367cfe0ce395f29d0482b78970cce8e1db73
     new: 7b4b9bf203da94fbeac75ed3116c84aa03e74578
     log: revlist-4e16367cfe0c-7b4b9bf203da.txt
-  - ref: refs/heads/stable
-    old: 9244696b34f2a626d7468864420ab6a47289bf10
-    new: fbfd64d25c7af3b8695201ebc85efe90be28c5a3
-    log: revlist-9244696b34f2-fbfd64d25c7a.txt
   - ref: refs/tags/next-20250107
     old: 0000000000000000000000000000000000000000
     new: 337d1e8a3e6d649bc824243b136e78592e748873
@@ -30,7 +26,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 5fcdd8fcd55d1da6fdf8deb78355a5c23ce94d39
 
---===============5810346105593609730==
+--===============5993164406695546147==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -709,48 +705,4 @@ dcd2be5d92e7326851c94993edcdc0ad8550b2a3 Merge branch 'crc-next' of git://git.ke
 67f59192ce8563babe20bb3065df0adf75a5cfb0 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/frederic/linux-dynticks.git
 7b4b9bf203da94fbeac75ed3116c84aa03e74578 Add linux-next specific files for 20250107
 
---===============5810346105593609730==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9244696b34f2-fbfd64d25c7a.txt
-
-b905bafdea21a75d75a96855edd9e0b6051eee30 hfs: Sanity check the root record
-989e0cdc0f18a594b25cabc60426d29659aeaf58 fs/qnx6: Fix building with GCC 15
-ac1e21bd8c883aeac2f1835fc93b39c1e6838b35 jbd2: increase IO priority for writing revoke records
-a0851ea9cd555c333795b85ddd908898b937c4e1 jbd2: flush filesystem device before updating tail sequence
-930e7c209b77a9006db9590320e8dea5aa433c81 Merge patch series "jbd2: two straightforward fixes"
-b44679c63e4d3ac820998b6bd59fba89a72ad3e7 iomap: pass byte granular end position to iomap_add_to_ioend
-51d20d1dacbec589d459e11fc88fbca419f84a99 iomap: fix zero padding data issue in concurrent append writes
-867f85679cb4bb9cc549270ad767629de6108d22 Merge patch series "iomap: fix zero padding data issue in concurrent append writes"
-aa21f333c86c8a09d39189de87abb0153d338190 fs: fix is_mnt_ns_file()
-70465acbb0ce1bb69447acf32f136c8153cda0de exfat: fix exfat_find_empty_entry() not returning error on failure
-2b2fc0be98a828cf33a88a28e9745e8599fb05cf fs: fix missing declaration of init_files
-974e3fe0ac61de85015bbe5a4990cf4127b304b2 fs: relax assertions on failure to encode file handles
-973b710b8821c3401ad7a25360c89e94b26884ac kheaders: Ignore silly-rename files
-c8b90d40d5bba8e6fba457b8a7c10d3c0d467e37 netfs: Fix non-contiguous donation between completed reads
-105549d09a539a876b7c3330ab52d8aceedad358 netfs: Fix enomem handling in buffered reads
-86ad1a58f6a9453f49e06ef957a40a8dac00a13f nfs: Fix oops in nfs_netfs_init_request() when copying to cache
-e5a8b6446c0d370716f193771ccacf3260a57534 cachefiles: Parse the "secctx" immediately
-f4d3cde410cc62b5483f59f0f3454a5c5203a2cb netfs: Remove redundant use of smp_rmb()
-aa3956418985bda1f68313eadde3267921847978 netfs: Fix missing barriers by using clear_and_wake_up_bit()
-4acb665cf4f3e5436844f17ece0a8a55ce688c7b netfs: Work around recursion by abandoning retry if nothing read
-38cf8e945721ffe708fa675507465da7f4f2a9f7 netfs: Fix ceph copy to cache on write-begin
-d0327c824338cdccad058723a31d038ecd553409 netfs: Fix the (non-)cancellation of copy when cache is temporarily disabled
-d4e338de17cb6532bf805fae00db8b41e914009b netfs: Fix is-caching check in read-retry
-5fe85a5c513344161cde33b79f8badc81b8aa8d3 Merge patch series "netfs, ceph, nfs, cachefiles: Miscellaneous fixes/changes"
-fee873761bd978d077d8c55334b4966ac4cb7b59 exfat: fix the infinite loop in exfat_readdir()
-98e2fb26d1a9eafe79f46d15d54e68e014d81d8c exfat: fix the new buffer was not zeroed before writing
-a5324b3a488d883aa2d42f72260054e87d0940a0 exfat: fix the infinite loop in __exfat_free_cluster()
-09dfc8a5f2ce897005a94bf66cca4f91e4e03700 vfio/pci: Fallback huge faults for unaligned pfn
-03f275adb8fbd7b4ebe96a1ad5044d8e602692dc fuse: respect FOPEN_KEEP_CACHE on opendir
-9d89551994a430b50c4fffcb1e617a057fa76e20 Linux 6.13-rc6
-cd6313beaeaea0b2e6d428afef7a86a986b50abe Revert "vmstat: disable vmstat_work on vmstat_cpu_down_prep()"
-5428dc1906dde5fb5ab283cda4714011f9811aa1 Merge tag 'exfat-for-6.13-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat
-07aeefae7ff44d80524375253980b1bdee2396b0 ovl: pass realinode to ovl_encode_real_fh() instead of realdentry
-c45beebfde34aa71afbc48b2c54cdda623515037 ovl: support encoding fid from inode with no alias
-368fcc5d3f8bf645a630a44e65f5eb008aba7082 Merge patch series "Fix encoding overlayfs fid for fanotify delete events"
-13563da6ffcf49b8b45772e40b35f96926a7ee1e Merge tag 'vfio-v6.13-rc7' of https://github.com/awilliam/linux-vfio
-fbfd64d25c7af3b8695201ebc85efe90be28c5a3 Merge tag 'vfs-6.13-rc7.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-
---===============5810346105593609730==--
+--===============5993164406695546147==--
