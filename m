@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/superm1/linux
-Date: Tue, 07 Jan 2025 21:34:35 -0000
-Message-Id: <173628567579.238529.12297392643648846958@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/palo
+Date: Tue, 07 Jan 2025 21:39:28 -0000
+Message-Id: <173628596877.242106.1883032481623016378@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/superm1/linux
-user: superm1
+repo: pub/scm/linux/kernel/git/deller/palo
+user: deller
 changes:
-  - ref: refs/tags/amd-pstate-v6.14-2025-01-07
-    old: 0000000000000000000000000000000000000000
-    new: 46d7216f3ad7eb2c9753fe5637f0b06b17e8de63
+  - ref: refs/heads/devel
+    old: e44102a13759400c27cc3b9e32b6b87f4c4d1c05
+    new: 0000000000000000000000000000000000000000
