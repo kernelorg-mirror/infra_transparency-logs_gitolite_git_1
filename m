@@ -1,23 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 07 Jan 2025 11:34:45 -0000
-Message-Id: <173624968592.3922177.13674490747566227295@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/will/linux
+Date: Tue, 07 Jan 2025 11:36:50 -0000
+Message-Id: <173624981027.3924861.6434524578404386229@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/will/linux
+user: will
 changes:
-  - ref: refs/heads/main
-    old: 912d6f6697251b0024e56ed24b7873b4800822e7
-    new: 097691b019f7bd0459bad9612ce1828dc5284bbc
-    log: |
-         5f795590380476f1c9b7ed0ac945c9b0269dc23a net: airoha: Enable Tx drop capability for each Tx DMA ring
-         2b288b81560b94958cd68bbe54673e55a1730c95 net: airoha: Introduce ndo_select_queue callback
-         20bf7d07c956e5c7a22d3076c599cbb7a6054917 net: airoha: Add sched ETS offload support
-         ef1ca9271313b4ea7b03de69576aacef1e78f381 net: airoha: Add sched HTB offload support
-         097691b019f7bd0459bad9612ce1828dc5284bbc Merge branch 'net-airoha-add-qdisc-offload-support'
-         
+  - ref: refs/heads/arm/smmu
+    old: fac04efc5c793dccbd07e2d59af9f90b7fc0dca4
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/for-joerg/arm-smmu/bindings
+    old: 8735e47e3a29fa25439caaa2cf3b9a25f5357ec7
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/for-joerg/arm-smmu/fixes
+    old: 1f806218164d1bb93f3db21eaf61254b08acdf03
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/for-joerg/arm-smmu/updates
+    old: e94dc6ddda8dd3770879a132d577accd2cce25f9
+    new: 0000000000000000000000000000000000000000
