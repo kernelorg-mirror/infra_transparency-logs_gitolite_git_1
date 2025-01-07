@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5496071644203796229=="
+Content-Type: multipart/mixed; boundary="===============3679337661125888701=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 07 Jan 2025 16:24:38 -0000
-Message-Id: <173626707839.4171076.17647764382021261345@gitolite.kernel.org>
+Date: Tue, 07 Jan 2025 16:24:41 -0000
+Message-Id: <173626708108.4171153.11059896014156870092@gitolite.kernel.org>
 
---===============5496071644203796229==
+--===============3679337661125888701==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 3e5908172c05ab1511f2a6719b806d6eda6e1715
     new: a1942da8a38717ddd9b4c132f59e1657c85c1432
     log: revlist-3e5908172c05-a1942da8a387.txt
 
---===============5496071644203796229==
+--===============3679337661125888701==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -81,4 +81,4 @@ ef1ca9271313b4ea7b03de69576aacef1e78f381 net: airoha: Add sched HTB offload supp
 04ced323ef70b89151f010f359be710357de2dac Merge branch 'dev-hold-per-netns-rtnl-in-register-netdev'
 a1942da8a38717ddd9b4c132f59e1657c85c1432 bridge: Make br_is_nd_neigh_msg() accept pointer to "const struct sk_buff"
 
---===============5496071644203796229==--
+--===============3679337661125888701==--
