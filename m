@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Tue, 07 Jan 2025 09:16:41 -0000
-Message-Id: <173624140140.3809217.17488677543132118952@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hkrogeru/usb
+Date: Tue, 07 Jan 2025 09:34:39 -0000
+Message-Id: <173624247929.3822435.10628286217466602596@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/s390/linux
-user: agordeev
+repo: pub/scm/linux/kernel/git/hkrogeru/usb
+user: hkrogeru
 changes:
-  - ref: refs/heads/for-next
-    old: 074ae487e7e38afadbc6d24c3179633172755fe7
-    new: 9012a436be9f6931c038c92ddb43c5eee105db0b
-    log: |
-         0d189dc941f41f8ddda99aceb0828e32786a1de7 Merge branch 'fixes' into for-next
-         9012a436be9f6931c038c92ddb43c5eee105db0b Merge branch 'features' into for-next
-         
+  - ref: refs/tags/v6.13-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 5fcdd8fcd55d1da6fdf8deb78355a5c23ce94d39
