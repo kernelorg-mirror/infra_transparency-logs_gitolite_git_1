@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============0694500388790399779=="
+Content-Type: multipart/mixed; boundary="===============7245961950934730224=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 07 Jan 2025 16:14:46 -0000
-Message-Id: <173626648654.4160663.5135977060212760803@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 07 Jan 2025 16:14:49 -0000
+Message-Id: <173626648965.4160750.2564319259197989190@gitolite.kernel.org>
 
---===============0694500388790399779==
+--===============7245961950934730224==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.14
+  - ref: refs/heads/asoc-6.14
     old: a83678be5ea152dca98791956f7bf2a0e899e3ad
     new: fffe003fc209a3c1f3d07be7e860fed4e51c4c00
     log: |
          fffe003fc209a3c1f3d07be7e860fed4e51c4c00 ASoC: dt-bindings: Correct indentation and style in DTS example
          
 
---===============0694500388790399779==
+--===============7245961950934730224==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1736266514 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1736266484-989971e87e3c5abf8dbe449fff1d6927bc1e13db
+pusher C3F436CA30F5D8EB 1736266517 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1736266487-6037a17384f59b2755b3f6c6ca3c8b843a91cd8a
 
-a83678be5ea152dca98791956f7bf2a0e899e3ad fffe003fc209a3c1f3d07be7e860fed4e51c4c00 refs/heads/for-6.14
+a83678be5ea152dca98791956f7bf2a0e899e3ad fffe003fc209a3c1f3d07be7e860fed4e51c4c00 refs/heads/asoc-6.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmd9UxIACgkQJNaLcl1U
-h9AF4gf+J495soyfSub0MrqsvRFMmZ/wGB3503gajtpai7hNumyPCSquXZU2+9bK
-5kyQ9XmclITZPxggVumzq7LIydOrLrOkW7aW83+F9ZxeGZ/z3Sp0JSOIctUEDU18
-MEJHBZjB2YrKWcBLT24Iu37MwdFlXtZgNJP0cckCLK9rmIEs54uncBsDAoxhEEvY
-8r9LWS2+zTNPhe90lk+JugPKTUk9C63ErQ4LYj1d3ewM9WRege8ubWE08oLVdVX2
-f9LWNivYqFbNviqXGp9GQ4X6Ih4XPSRuHFCDKmJexQ5LLwnJ3XdBWZ3QSB+qB4iq
-OPugvPjpwuGS/1k1YGJfBLR/OgSzmg==
-=WOqp
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmd9UxUACgkQJNaLcl1U
+h9AVrAf/ZMOqQsC/tkXpr4D4g3M3Utu5Dx0kTaZnyNzrfWxrak04nMtmxmkkbZeH
+T16rEtK/Lr5Wg3tGBTDiNxK58EZ+FLyWfGKJO+CLQAG47zXRe+A2OBbsqU7VQnkw
+RUWUksoNWlFEBmbtBOaWmVFb62cCUrKgfioEiyptT/c3tXLhsK3eYeM6YViTPIfX
+PtQt0aXtie85fzymW1UeS318JRZycgmASs5wW8TVeSI7JGqzF92yLwLv5rd9vSQC
+SxNR7NevJP82oy0AdFwv9X7ENdv7MnBdeEI1ppgsX2wENOTwAdkrmPQS96fO8u1S
+QpyyvIbmDT1S6oSXstbRsQ8knJtyPQ==
+=MO5q
 -----END PGP SIGNATURE-----
 
---===============0694500388790399779==--
+--===============7245961950934730224==--
