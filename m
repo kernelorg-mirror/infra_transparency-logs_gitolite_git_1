@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Tue, 07 Jan 2025 19:17:50 -0000
-Message-Id: <173627747011.126642.15792575216515270312@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Tue, 07 Jan 2025 19:19:14 -0000
+Message-Id: <173627755401.127266.2220307502342461145@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/kdevops
-    old: 765a2d79b1dd7917459dd4c9458dfb68404e3f13
-    new: 464df2d3261bec413805d54316d9e6b5ea1a83e0
+  - ref: refs/heads/dev-test
+    old: 072485380142204f36cd482924307ddfce8c10fc
+    new: 82e203070446372db31322f908663f4e2ee5e731
     log: |
-         be1ec7917323ef37e263ded2eb09042b84586fea lockd: add netlink control interface
-         464df2d3261bec413805d54316d9e6b5ea1a83e0 DEBUG: printk debugging
+         e687c9388a856f90958973c401a00586397e37d4 f2fs: introduce update_sit_entry_for_release/alloc()
+         82e203070446372db31322f908663f4e2ee5e731 f2fs: update_sit_entry_for_release() supports consecutive blocks.
          
