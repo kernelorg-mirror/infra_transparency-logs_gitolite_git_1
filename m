@@ -1,27 +1,45 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 07 Jan 2025 18:59:22 -0000
-Message-Id: <173627636229.110590.1904059416840811124@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Tue, 07 Jan 2025 19:06:45 -0000
+Message-Id: <173627680506.117822.17769909200149527240@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/100GbE
-    old: 8ce4f287524c74a118b0af1eebd4b24a8efca57a
-    new: bd2776e39c2a82ef4681d02678bb77b3d41e79be
+  - ref: refs/heads/bleeding-edge
+    old: 1361d096c2029dae1b5511840360d0ee95319d15
+    new: c01d4e6d68e3023227cc7ad19e1a01a92cf2818d
     log: |
-         8c817eb26230dc0ae553cee16ff43a4a895f6756 pds_core: limit loop over fw name list
-         c8dafb0e4398dacc362832098a04b97da3b0395b bnxt_en: Fix possible memory leak when hwrm_req_replace fails
-         40452969a50652e3cbf89dac83d54eebf2206d27 bnxt_en: Fix DIM shutdown
-         3085d4b847e016125609f3f03002833d8df476da Merge branch 'bnxt_en-2-bug-fixes'
-         4c1224501e9d6c5fd12d83752f1c1b444e0e3418 cxgb4: Avoid removal of uninserted tid
-         fd48f071a3d6d51e737e953bb43fe69785cf59a9 net: don't dump Tx and uninitialized NAPIs
-         65104599b3a8ed42d85b3f8f27be650afe1f3a7e ice: fix max values for dpll pin phase adjust
-         6c5b989116083a98f45aada548ff54e7a83a9c2d ice: fix incorrect PHY settings for 100 GB/s
-         bd2776e39c2a82ef4681d02678bb77b3d41e79be igc: return early when failing to read EECD register
+         9164e0912af206a72ddac4915f7784e470a04ace thermal: of: fix OF node leak in of_thermal_zone_find()
+         b6079e1e691c68b53792972fd97653b702e45668 Merge branch 'thermal-core' into fixes
+         9a97e58e79aa6ee428727c9876240d9ac1258796 Merge branch 'fixes' into linux-next
+         c01d4e6d68e3023227cc7ad19e1a01a92cf2818d Merge branch 'linux-next' into bleeding-edge
+         
+  - ref: refs/heads/fixes
+    old: 35a55ca97052e5bc3d027ff077a8ebb4b30b34d0
+    new: b6079e1e691c68b53792972fd97653b702e45668
+    log: |
+         9164e0912af206a72ddac4915f7784e470a04ace thermal: of: fix OF node leak in of_thermal_zone_find()
+         b6079e1e691c68b53792972fd97653b702e45668 Merge branch 'thermal-core' into fixes
+         
+  - ref: refs/heads/linux-next
+    old: ebec444506617c32190415cb50d860b9aef68b7e
+    new: 9a97e58e79aa6ee428727c9876240d9ac1258796
+    log: |
+         9164e0912af206a72ddac4915f7784e470a04ace thermal: of: fix OF node leak in of_thermal_zone_find()
+         b6079e1e691c68b53792972fd97653b702e45668 Merge branch 'thermal-core' into fixes
+         9a97e58e79aa6ee428727c9876240d9ac1258796 Merge branch 'fixes' into linux-next
+         
+  - ref: refs/heads/testing
+    old: ebec444506617c32190415cb50d860b9aef68b7e
+    new: 9a97e58e79aa6ee428727c9876240d9ac1258796
+    log: |
+         9164e0912af206a72ddac4915f7784e470a04ace thermal: of: fix OF node leak in of_thermal_zone_find()
+         b6079e1e691c68b53792972fd97653b702e45668 Merge branch 'thermal-core' into fixes
+         9a97e58e79aa6ee428727c9876240d9ac1258796 Merge branch 'fixes' into linux-next
          
