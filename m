@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7919540341101265482=="
+Content-Type: multipart/mixed; boundary="===============6992424432036576263=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Tue, 07 Jan 2025 10:07:53 -0000
-Message-Id: <173624447342.3850641.17799827448905244080@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Tue, 07 Jan 2025 10:08:10 -0000
+Message-Id: <173624449007.3850914.8823046793934951283@gitolite.kernel.org>
 
---===============7919540341101265482==
+--===============6992424432036576263==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: westeri
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/master
     old: fc033cf25e612e840e545f8d5ad2edd6ba613ed5
     new: 9d89551994a430b50c4fffcb1e617a057fa76e20
     log: revlist-fc033cf25e61-9d89551994a4.txt
 
---===============7919540341101265482==
+--===============6992424432036576263==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -226,4 +226,4 @@ ab75170520d4964f3acf8bb1f91d34cbc650688e Merge tag 'linux-watchdog-6.13-rc6' of 
 9244696b34f2a626d7468864420ab6a47289bf10 Merge tag 'kbuild-fixes-v6.13-3' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 9d89551994a430b50c4fffcb1e617a057fa76e20 Linux 6.13-rc6
 
---===============7919540341101265482==--
+--===============6992424432036576263==--
