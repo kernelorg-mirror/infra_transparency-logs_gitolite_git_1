@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Tue, 07 Jan 2025 09:50:31 -0000
-Message-Id: <173624343181.3837763.3290922277112944066@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 07 Jan 2025 10:07:22 -0000
+Message-Id: <173624444251.3850040.13679612487022452959@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/dev
-    old: a80f578554b713af1a379346ed550e5dc61f083e
-    new: fcb9c5f9bf8faad306eabf74a59733d5f97f1682
+  - ref: refs/heads/main
+    old: 49afc040f4d707a4149a05180edc42bc590641a4
+    new: 51cfbed198ca4aa140babde816387db0e71f09e7
     log: |
-         fcb9c5f9bf8faad306eabf74a59733d5f97f1682 erofs: shorten bvecs[] for file-backed mounts
+         51cfbed198ca4aa140babde816387db0e71f09e7 net: stmmac: Set dma_sync_size to zero for discarded frames
          
