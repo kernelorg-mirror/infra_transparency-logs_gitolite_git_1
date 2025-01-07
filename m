@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6719369820679599913=="
+Content-Type: multipart/mixed; boundary="===============2277045194864056423=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Tue, 07 Jan 2025 16:37:15 -0000
-Message-Id: <173626783541.4182296.10888101962296430233@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 07 Jan 2025 16:37:18 -0000
+Message-Id: <173626783866.4182385.9839603322747656469@gitolite.kernel.org>
 
---===============6719369820679599913==
+--===============2277045194864056423==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.13
+  - ref: refs/heads/regmap-6.13
     old: fac04efc5c793dccbd07e2d59af9f90b7fc0dca4
     new: 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8
     log: revlist-fac04efc5c79-78d4f34e2115.txt
-  - ref: refs/heads/for-6.14
+  - ref: refs/heads/regmap-6.14
     old: eb708cd631a8dca17ff004ccc39bbeb096c1db22
     new: c4e0a42225b87d5d2651fe860a9ad0665ae102c5
     log: revlist-eb708cd631a8-c4e0a42225b8.txt
 
---===============6719369820679599913==
+--===============2277045194864056423==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1736267863 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
-nonce 1736267833-3b77771f8a07cf37ea8547e3704447644499ff28
+pusher C3F436CA30F5D8EB 1736267866 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1736267836-a8a78848c76d0aea61860bf76bb8a9bb8546575c
 
-fac04efc5c793dccbd07e2d59af9f90b7fc0dca4 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8 refs/heads/for-6.13
-eb708cd631a8dca17ff004ccc39bbeb096c1db22 c4e0a42225b87d5d2651fe860a9ad0665ae102c5 refs/heads/for-6.14
+fac04efc5c793dccbd07e2d59af9f90b7fc0dca4 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8 refs/heads/regmap-6.13
+eb708cd631a8dca17ff004ccc39bbeb096c1db22 c4e0a42225b87d5d2651fe860a9ad0665ae102c5 refs/heads/regmap-6.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmd9WFcACgkQJNaLcl1U
-h9A26Af+PqBDt1SbAUQ3sJ1n2hexlvobqX5R0AElfeFHf3oTGK0U+HpucEAolWJU
-ztkdwoJJBBH1RB6rVr0mBHC6vBlPv15+KQuG5I8s4roMhsOkTYi8zTvwIvqbdMbp
-2EJagIBQ4PWYX6TYU6SD5rzcfiZr3n95BIq6PvOcJFXHj6Oi4HhcNThw2e4pOpO6
-w3e0B/G6cVgJW27WuDksjeu4yDW//EqkEuMW+vjH/JvtOPzQqs8l+vMu7+NOcoGJ
-Pjzrlt8SNi7/LZPMk/UuSvSS3HuqhIbUcYj7NMDFmo+fqv7By3nMrFM7ytOeTSqv
-Y5oZ2eltZS3rg5+y7vSWrSl3qsq0kg==
-=9SjR
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmd9WFoACgkQJNaLcl1U
+h9ADfAf/W4jYQz0Fx1o5giCGq5gki0CiiBNth71yvC2WuWm6lHPV2neVCB7VB3U3
+y4wwKALVRpZsP8QGnQSMVCV1ybKgzzfHebxK7ZXi1v4vRdlfRIzBI4L5CDB7av6v
+KQGqsuCXCG8p9EpJhx2um9USj5Rm94tdT0TW0nF2YKzIjwWuIMvMcwHfDUbmxE+W
+1FCf7siruDWagylqqB5GmESI8VA0aZpPcpuC1GecroWglEWZQsjVMQQXB/S+x/vc
+jmakGj+T3nieUKJnZP+j8jWbikvgQtRS47jECnnC8+FamzpG6ZLu+WNmnonsWqwG
+P9UVw+Xl7Zq0OM5iWil8tlG0NOGSeQ==
+=R+oh
 -----END PGP SIGNATURE-----
 
---===============6719369820679599913==
+--===============2277045194864056423==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -457,7 +457,7 @@ dccbe2047a5b0859de24bf463dae9eeea8e01c1e Merge tag 'edac_urgent_for_v6.13_rc3' o
 42a19aa1707cce382bc5e534e2e36024c3611674 Merge tag 'arc-6.13-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8 Linux 6.13-rc3
 
---===============6719369820679599913==
+--===============2277045194864056423==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1485,4 +1485,4 @@ ab75170520d4964f3acf8bb1f91d34cbc650688e Merge tag 'linux-watchdog-6.13-rc6' of 
 9d89551994a430b50c4fffcb1e617a057fa76e20 Linux 6.13-rc6
 c4e0a42225b87d5d2651fe860a9ad0665ae102c5 regmap: Merge up v6.13-rc6
 
---===============6719369820679599913==--
+--===============2277045194864056423==--
