@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2170262283240989647=="
+Content-Type: multipart/mixed; boundary="===============0225764473001328534=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Tue, 07 Jan 2025 22:45:43 -0000
-Message-Id: <173628994390.299110.8004086265566139347@gitolite.kernel.org>
+Date: Tue, 07 Jan 2025 22:45:47 -0000
+Message-Id: <173628994767.299221.2026231803305021590@gitolite.kernel.org>
 
---===============2170262283240989647==
+--===============0225764473001328534==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: 5b3114631defb230076ca9d84f1ac5231db62f94
-    new: 70f3d3669c074efbcee32867a1ab71f5f7ead385
-    log: revlist-5b3114631def-70f3d3669c07.txt
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: fc033cf25e612e840e545f8d5ad2edd6ba613ed5
+    new: 9d89551994a430b50c4fffcb1e617a057fa76e20
+    log: revlist-fc033cf25e61-9d89551994a4.txt
 
---===============2170262283240989647==
+--===============0225764473001328534==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-5b3114631def-70f3d3669c07.txt
+Content-Disposition: attachment; filename=revlist-fc033cf25e61-9d89551994a4.txt
 
 b77bd3ba762f34e5eb731134cf50e233d1060053 ARM: imx: Re-introduce the PINCTRL selection
 793baff3f24f16dab9061045e23eea67724feae6 sched_ext: Add __weak to fix the build errors
@@ -225,28 +225,5 @@ ab75170520d4964f3acf8bb1f91d34cbc650688e Merge tag 'linux-watchdog-6.13-rc6' of 
 5635d8bad221701188017a6087fbe25ab245c226 Merge tag 'mm-hotfixes-stable-2025-01-04-18-02' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 9244696b34f2a626d7468864420ab6a47289bf10 Merge tag 'kbuild-fixes-v6.13-3' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 9d89551994a430b50c4fffcb1e617a057fa76e20 Linux 6.13-rc6
-440ae6f03098133014daa9dd1390afaa8ad530fa i2c: keba: drop check because i2c_unregister_device() is NULL safe
-cf30675e4d0631eac6634b2ae3f77b7b0eafe447 i2c: imx: fix divide by zero warning
-358025ac091e5a54f9819b33ee9c7cb07c55ee5d i2c: imx: make controller available until system suspend_noirq() and from resume_noirq()
-576eba03c99435380d155e5f71d5d7603b9178f6 i2c: imx: switch different pinctrl state in different system power status
-4a34b9bf5f6f3f3ed910863fd1b4741a62864d4b i2c: npcm: Modify timeout evaluation mechanism
-862dd4f7733a694b12ad9e023ce639e9c21d6abd i2c: npcm: Assign client address earlier for `i2c_recover_bus()`
-6ddc9132bc42a7dfcaca0cce4ff0f94e69bc5114 i2c: npcm: use i2c frequency table
-8b56f98b28e6238bcfe00de743b4361d26a7f980 i2c: npcm: Enable slave in eob interrupt
-d9a13c08f88d696218a44658f290b1b433e787b6 i2c: imx: support DMA defer probing
-567ef9035f820ecd3e6fcc142003f396848b31f7 dt-bindings: i2c: renesas,riic: Document the R9A09G047 support
-4d51ac5b9b4e175abda13617a48639406d3ed7b1 i2c: nomadik: Enable compile testing for the Nomadik driver
-f524707b44c96254c045dfbfe998f1a33e8595f5 i2c: I2C_BRCMSTB should not default to y when compile-testing
-2ee409c6a12d74cd1b16ca3690baa7d5ffffeb7d i2c: xiic: Relocate xiic_i2c_runtime_suspend and xiic_i2c_runtime_resume to facilitate atomic mode
-e22daca457d5bec579f62ba84e826a51c26cce31 i2c: xiic: Add atomic transfer support
-525defdb608a153108c434e127b0bd1d83a5d8c1 i2c: isch: Convert comma to semicolon
-a09c8b3f9047959e60dde90c51dcca17f66778c1 i2c: imx-lpi2c: add eDMA mode support for LPI2C
-01aa028151380556a46225d840898fd4c590119f dt-bindings: i2c: exynos5: Add samsung,exynos8895-hsi2c compatible
-f8cef982c2ee2ba1042e72d5d33dd1be2de313dd i2c: exynos5: Add support for Exynos8895 SoC
-bfb3ddfdc5fb7904ba5c7870cfec9efabc9a4f83 i2c: qcom-geni: Use dev_err_probe in the probe function
-494fed6809585b8386072cf96ef2426e7a7c6326 i2c: qcom-geni: Simplify error handling in probe function
-febe15218072eee5361a36f4510711a7cf7403e1 dt-bindings: i2c: qcom-cci: Document x1e80100 compatible
-1ee867e465c1b0216ec02d4c0d334c4e89919cec i2c: imx-lpi2c: add target mode support
-70f3d3669c074efbcee32867a1ab71f5f7ead385 i2c: amd756: Fix endianness handling for word data
 
---===============2170262283240989647==--
+--===============0225764473001328534==--
