@@ -1,30 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Tue, 07 Jan 2025 22:07:57 -0000
-Message-Id: <173628767759.266979.1476493943809952881@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Tue, 07 Jan 2025 22:11:59 -0000
+Message-Id: <173628791904.270954.6228603121372383711@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/dev
-    old: a955c6a7168f7b204784e4ef7e4db9d017043f73
-    new: 42a1abfb24efbedac27b9f8786084333a9639ca1
+  - ref: refs/heads/next
+    old: 95227799c87fe31ea31e736c3cec035c9a7cdd61
+    new: 94346fb4d119f812507cf43c7bf10a79831d85da
     log: |
-         e8964cf2179673adc54aae38b62361fd0fdf89ff srcu: Make SRCU readers use ->srcu_ctrs for counter selection
-         f85172dd0ef6cfeb78052f8cf7219a74560601f5 srcu: Make Tree SRCU updates independent of ->srcu_idx
-         e374c0bb03a38aa3539501447bad0bb9b05bac1e rcu-tasks: Move RCU Tasks self-tests to core_initcall()
-         e03b060fe6f3db62dad218cbbbc5b5ee259c66c7 rcutorture: Move RCU_TORTURE_TEST_{CHK_RDR_STATE,LOG_CPU} to bool
-         86d5298bdf47ce18bc8515e2b50b3d2ad4fcec27 EXP hrtimers: Force migrate away hrtimers queued after CPUHP_AP_HRTIMERS_DYING
-         a8457cda720052ef23b241b7ced21d75dc9b9621 EXP rcu: Remove swake_up_one_online() bandaid
-         310169f0771659a7674d63078319ff648a7f0722 EXP Revert "rcu/nocb: Fix rcuog wake-up from offline softirq"
-         9e053905c2368702ccdaa18297f9ce26b1a79f62 doc: Add broken-timing possibility to stallwarn.rst
-         42a1abfb24efbedac27b9f8786084333a9639ca1 srcu: Force synchronization for srcu_get_delay()
+         5d48481b73932c21cbec897b5cfe6a1045689a31 PCI: Remove redundant PCI_VSEC_HDR and PCI_VSEC_HDR_LEN_SHIFT
+         bc1bad80a2e2f2ddcbd2e3a1af470c674bfd59de Merge branch 'pci/aspm'
+         d6740ebef4840b26bb9f192878611e682dd73962 Merge branch 'pci/constify'
+         43ffdd7608e6918b078d130fbfd51e885bde2d4c Merge branch 'pci/devres'
+         bb6edbfbafd180be2eab90b9d5dbafa802b47a49 Merge branch 'pci/resource'
+         7bb1ab0ec29b35199adf3b0ef97e3cc6e6ddd740 Merge branch 'pci/endpoint'
+         9dad580b44dbf95cf1a17079f81e9c21b0676f03 Merge branch 'pci/controller/dt'
+         cf12c3471dbee1177f09fcc342ab8f5b15030acc Merge branch 'pci/controller/mediatek'
+         13bc4b80b4b0eb2a91e1e011a7610b5f36c53da4 Merge branch 'pci/controller/rockchip'
+         c8b2c8b652dc452e06c21fb0ba71cbeb17170a2b Merge branch 'pci/controller/xilinx-cpm'
+         94346fb4d119f812507cf43c7bf10a79831d85da Merge branch 'pci/misc'
          
-  - ref: refs/heads/dev.2025.01.02a
-    old: 0000000000000000000000000000000000000000
-    new: f2e8247e4f3e73ca864cf6730b044cd06b533d60
