@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/joel.granados/linux
-Date: Tue, 07 Jan 2025 14:37:07 -0000
-Message-Id: <173626062763.4075890.2327083862006404615@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Tue, 07 Jan 2025 14:37:44 -0000
+Message-Id: <173626066490.4076266.11757215462012541939@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/joel.granados/linux
-user: joel.granados
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/jag/mv_ctltables
-    old: 569b4c0f2d92db8e407bc6eaa2ce6b7e073bf867
-    new: 05ca386f868813adf062baacc93fb99916d5a886
+  - ref: refs/heads/lockd-nl
+    old: e79264969c97183f5d58d18b77e6c7d52957f45d
+    new: 0a73f51bb4dd66e43aa246cdd4696abf32752fad
     log: |
-         05ca386f868813adf062baacc93fb99916d5a886 sysctl: mv sparc sysctls into their own file under arch/sparc/kernel
+         0a73f51bb4dd66e43aa246cdd4696abf32752fad lockd: add netlink control interface
          
