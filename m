@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Tue, 07 Jan 2025 08:56:28 -0000
-Message-Id: <173624018882.3791579.16958835299178102479@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Tue, 07 Jan 2025 09:13:36 -0000
+Message-Id: <173624121636.3805487.15709225193101425487@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wsa/linux
-user: wsa
+repo: pub/scm/linux/kernel/git/s390/linux
+user: agordeev
 changes:
-  - ref: refs/heads/renesas/i3c/get_parity
-    old: 02c879396c2aca21b0647eda83be8a4d0aa52f84
-    new: 4871a46746d9ec2751b217a77ca0c4821e6cf84f
+  - ref: refs/heads/features
+    old: 30e037ad7eb44bcf56fb1a845cc718d50c363310
+    new: d1aa46c83bc4cd08a519819233f432a0fce5119b
     log: |
-         623b4eca67bcc417e5536c7f325175d3b9d4aa92 i3c: mipi-i3c-hci: use parity8 helper instead of open coding it
-         4871a46746d9ec2751b217a77ca0c4821e6cf84f i3c: cdns: use parity8 helper instead of open coding it
+         221ce94b1ac56bacde9c55409080838c1b575d3b s390/crypto/cpacf: Constify 'struct bin_attribute'
+         77977da798c0f97de649c5430bf721a02cb45fcc s390/ipl: Constify 'struct bin_attribute'
+         ef37c669b71e67bfe948e5f33f7ea040df08eddd s390/pci: Constify 'struct bin_attribute'
+         81ad38a66bdfcf51153632deaad305adce887fca s390/sclp: Constify 'struct bin_attribute'
+         d1aa46c83bc4cd08a519819233f432a0fce5119b s390/pkey: Constify 'struct bin_attribute'
          
