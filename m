@@ -1,26 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Tue, 07 Jan 2025 08:15:08 -0000
-Message-Id: <173623770840.3758608.1444755498533118536@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3471390076633111583=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Tue, 07 Jan 2025 08:45:28 -0000
+Message-Id: <173623952876.3781705.919974251202409172@gitolite.kernel.org>
+
+--===============3471390076633111583==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/togreg
-    old: 627f3c41ca005398cf1e86a312c5043147ec7ea6
-    new: 577a66e2e634f712384c57a98f504c44ea4b47da
+  - ref: refs/heads/master
+    old: d097754a3a61edade7c6569b0c3e7479cc3ff586
+    new: b854542e444d4e0a5c801348d5d29e31926a1ced
     log: |
-         7716d085531bf797c882ed67eda184ac58a387a8 iio: gts-helper: add helpers to ease searches of gain_sel and new_gain
-         82e1cedeb8186cc019bad83d6bf06a9c475d7b13 iio: light: veml3235: fix scale to conform to ABI
-         e2e6d241486eec2688c9224c583570d5c746ad15 iio: accel: adxl345: introduce interrupt handling
-         af38b0f6912846611170a262def745cfcc644eee iio: accel: adxl345: initialize FIFO delay value for SPI
-         cf04212d1fe750c625bf853bf7dc84cdf7cc1e75 iio: accel: adxl345: add FIFO with watermark events
-         f9eb0571811ecc91821690c55dbf3ecfc37a5e85 iio: accel: adxl345: complete the list of defines
-         f5ab868af55ff58f7783d08d674bb373cb672210 iio: adc: ad7625: Add ending newlines to error messages
-         577a66e2e634f712384c57a98f504c44ea4b47da iio: iio-mux: kzalloc instead of devm_kzalloc to ensure page alignment
+         b854542e444d4e0a5c801348d5d29e31926a1ced proposed: Add Ruiqi's CVE review of v6.12.7
          
+
+--===============3471390076633111583==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736239555 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1736239525-8be09050a8733afabbdea2003cb77c8f5c008b4f
+
+d097754a3a61edade7c6569b0c3e7479cc3ff586 b854542e444d4e0a5c801348d5d29e31926a1ced refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmd86cMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ansP/2wA67AKx2Wq82lvgtRs
+Y238yj+jbtYYuU4skW6Os7riEk4wUhnjy/GD31OibIaJAWrEQKW7R8AnPUkjaAeG
+dQNvwMciEug/ZQEkikGsje2TVk21hGOkyhceCJlXk3NrvY+rFx6cJW0kZWeqmpjm
+QoFGKx+8qlAuI+0CRp3Nny97IqK4m5PaC6raInwne3CcX+HHaOW4zaUvwakeQQY6
+4p/yTZoSpwmuzP5VkHkKlNonFFyj34TohSb2UDbh/lYrsR3s19dAMVz/R+7lMZJR
+EVHZJ3iUOGtVWq0SYZqRq+zMmHb/V7i/wtnN4eWy7ICaZs6S9GPmyu8qGLPkjREK
+NnPz/mZ+U1L1fQlH8kIWtJJ7zO8YQb+smHlZbGleMM4Mu0AcTmTHHH+AoE2NdTfy
+NiHegzvzJMCCJgfQcbqBFsrc5lJJRUq1zW973r2LCWrNhLdU5dBzJEcJbZNHVFBa
+80bF3IYIRMEuC2ZFNpELiPShtRyQb2e8N2eE7/AXX90Ai47semEMcDHc9m0mlMZj
+yzucbvydh1jaqMYZSOUZOzNzafrQs0lYXBd+DyFzl9A8h1I42XPhwMfxpMtDbsgB
+s6MjQhS+orqJUowjRPyav0KIOTeCpFBDxBPPYzvddW+GSIcqsS6ceiLq9V4o+cIs
+z0kJd+GDdG0ijFbtrh9C1TSc
+=FpuM
+-----END PGP SIGNATURE-----
+
+--===============3471390076633111583==--
