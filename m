@@ -1,96 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============7749806660852387195=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 07 Jan 2025 11:30:21 -0000
-Message-Id: <173624942114.3919869.8431541998572209470@gitolite.kernel.org>
-
---===============7749806660852387195==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 07 Jan 2025 11:34:45 -0000
+Message-Id: <173624968592.3922177.13674490747566227295@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/master
-    old: bf621337ee4b260a5fe06ca35fe6a9c09c6b654e
-    new: cf6b067860f69fe01b08ebae9138fe0f89854398
-    log: revlist-bf621337ee4b-cf6b067860f6.txt
-  - ref: refs/heads/tip/urgent
-    old: b309925418c9f628fb31394a42534ab832113c1d
-    new: 342b72cced8382f48f1c4a3361b1dd3b520e21e1
-    log: revlist-b309925418c9-342b72cced83.txt
-
---===============7749806660852387195==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bf621337ee4b-cf6b067860f6.txt
-
-342b72cced8382f48f1c4a3361b1dd3b520e21e1 Merge branch into tip/master: 'x86/urgent'
-d8ed1daecc0d72799009af006662d18724b4d3c2 Merge branch into tip/master: 'x86/merge'
-cffc574babe702e0c874f286afcf3af508984690 Merge branch into tip/master: 'irq/core'
-c5af2eca1c1cd91652b0be0eae4b9c297f0474f8 Merge branch into tip/master: 'locking/core'
-7e7d14e837b3742addfd0af2dd53ec22fb01200f Merge branch into tip/master: 'objtool/core'
-a5ce35e9a111f49150b48fefdc135928f5aacbc2 Merge branch into tip/master: 'perf/core'
-f3aeb0b8cf442130be6dc142501553d366fc7570 Merge branch into tip/master: 'ras/core'
-e10197b9d5f10d455532eba0758cc8ef85ebec70 Merge branch into tip/master: 'sched/core'
-fbb909be94c3751d70be2d13d57742d0c5065a4d Merge branch into tip/master: 'x86/boot'
-4f6474670c4554b4ee9fa9b873650229e12c1616 Merge branch into tip/master: 'x86/bugs'
-a5483ab1d7a43660ac1f66d39018b42d9c72a204 Merge branch into tip/master: 'x86/cache'
-18e741f33f26a6db42c12c3fd9a07ab7082ad32f Merge branch into tip/master: 'x86/cleanups'
-033966ac7b635cd7cf25b85a260510391d8fd721 Merge branch into tip/master: 'x86/cpu'
-af0db587a8b50a62340a5b987ba5695589df028a Merge branch into tip/master: 'x86/microcode'
-04e845670f549a139f4872bbe501d18070b6241a Merge branch into tip/master: 'x86/misc'
-c2a00560d7ae3cc6cbb63277d6af78533e2c0068 Merge branch into tip/master: 'x86/mm'
-cf6b067860f69fe01b08ebae9138fe0f89854398 Merge branch into tip/master: 'x86/tdx'
-
---===============7749806660852387195==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b309925418c9-342b72cced83.txt
-
-b905bafdea21a75d75a96855edd9e0b6051eee30 hfs: Sanity check the root record
-989e0cdc0f18a594b25cabc60426d29659aeaf58 fs/qnx6: Fix building with GCC 15
-ac1e21bd8c883aeac2f1835fc93b39c1e6838b35 jbd2: increase IO priority for writing revoke records
-a0851ea9cd555c333795b85ddd908898b937c4e1 jbd2: flush filesystem device before updating tail sequence
-930e7c209b77a9006db9590320e8dea5aa433c81 Merge patch series "jbd2: two straightforward fixes"
-b44679c63e4d3ac820998b6bd59fba89a72ad3e7 iomap: pass byte granular end position to iomap_add_to_ioend
-51d20d1dacbec589d459e11fc88fbca419f84a99 iomap: fix zero padding data issue in concurrent append writes
-867f85679cb4bb9cc549270ad767629de6108d22 Merge patch series "iomap: fix zero padding data issue in concurrent append writes"
-aa21f333c86c8a09d39189de87abb0153d338190 fs: fix is_mnt_ns_file()
-70465acbb0ce1bb69447acf32f136c8153cda0de exfat: fix exfat_find_empty_entry() not returning error on failure
-2b2fc0be98a828cf33a88a28e9745e8599fb05cf fs: fix missing declaration of init_files
-974e3fe0ac61de85015bbe5a4990cf4127b304b2 fs: relax assertions on failure to encode file handles
-973b710b8821c3401ad7a25360c89e94b26884ac kheaders: Ignore silly-rename files
-c8b90d40d5bba8e6fba457b8a7c10d3c0d467e37 netfs: Fix non-contiguous donation between completed reads
-105549d09a539a876b7c3330ab52d8aceedad358 netfs: Fix enomem handling in buffered reads
-86ad1a58f6a9453f49e06ef957a40a8dac00a13f nfs: Fix oops in nfs_netfs_init_request() when copying to cache
-e5a8b6446c0d370716f193771ccacf3260a57534 cachefiles: Parse the "secctx" immediately
-f4d3cde410cc62b5483f59f0f3454a5c5203a2cb netfs: Remove redundant use of smp_rmb()
-aa3956418985bda1f68313eadde3267921847978 netfs: Fix missing barriers by using clear_and_wake_up_bit()
-4acb665cf4f3e5436844f17ece0a8a55ce688c7b netfs: Work around recursion by abandoning retry if nothing read
-38cf8e945721ffe708fa675507465da7f4f2a9f7 netfs: Fix ceph copy to cache on write-begin
-d0327c824338cdccad058723a31d038ecd553409 netfs: Fix the (non-)cancellation of copy when cache is temporarily disabled
-d4e338de17cb6532bf805fae00db8b41e914009b netfs: Fix is-caching check in read-retry
-5fe85a5c513344161cde33b79f8badc81b8aa8d3 Merge patch series "netfs, ceph, nfs, cachefiles: Miscellaneous fixes/changes"
-fee873761bd978d077d8c55334b4966ac4cb7b59 exfat: fix the infinite loop in exfat_readdir()
-98e2fb26d1a9eafe79f46d15d54e68e014d81d8c exfat: fix the new buffer was not zeroed before writing
-a5324b3a488d883aa2d42f72260054e87d0940a0 exfat: fix the infinite loop in __exfat_free_cluster()
-09dfc8a5f2ce897005a94bf66cca4f91e4e03700 vfio/pci: Fallback huge faults for unaligned pfn
-03f275adb8fbd7b4ebe96a1ad5044d8e602692dc fuse: respect FOPEN_KEEP_CACHE on opendir
-cd6313beaeaea0b2e6d428afef7a86a986b50abe Revert "vmstat: disable vmstat_work on vmstat_cpu_down_prep()"
-5428dc1906dde5fb5ab283cda4714011f9811aa1 Merge tag 'exfat-for-6.13-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat
-07aeefae7ff44d80524375253980b1bdee2396b0 ovl: pass realinode to ovl_encode_real_fh() instead of realdentry
-c45beebfde34aa71afbc48b2c54cdda623515037 ovl: support encoding fid from inode with no alias
-368fcc5d3f8bf645a630a44e65f5eb008aba7082 Merge patch series "Fix encoding overlayfs fid for fanotify delete events"
-13563da6ffcf49b8b45772e40b35f96926a7ee1e Merge tag 'vfio-v6.13-rc7' of https://github.com/awilliam/linux-vfio
-fbfd64d25c7af3b8695201ebc85efe90be28c5a3 Merge tag 'vfs-6.13-rc7.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-9b9ab249c4b1babb0d36c9d4f3309cfb6901a15a x86/fpu: Check if shadow stack is active for ssp_get()
-342b72cced8382f48f1c4a3361b1dd3b520e21e1 Merge branch into tip/master: 'x86/urgent'
-
---===============7749806660852387195==--
+  - ref: refs/heads/main
+    old: 912d6f6697251b0024e56ed24b7873b4800822e7
+    new: 097691b019f7bd0459bad9612ce1828dc5284bbc
+    log: |
+         5f795590380476f1c9b7ed0ac945c9b0269dc23a net: airoha: Enable Tx drop capability for each Tx DMA ring
+         2b288b81560b94958cd68bbe54673e55a1730c95 net: airoha: Introduce ndo_select_queue callback
+         20bf7d07c956e5c7a22d3076c599cbb7a6054917 net: airoha: Add sched ETS offload support
+         ef1ca9271313b4ea7b03de69576aacef1e78f381 net: airoha: Add sched HTB offload support
+         097691b019f7bd0459bad9612ce1828dc5284bbc Merge branch 'net-airoha-add-qdisc-offload-support'
+         
