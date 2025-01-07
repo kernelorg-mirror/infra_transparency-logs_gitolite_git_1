@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2702266072955567950=="
+Content-Type: multipart/mixed; boundary="===============5410910581255877080=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Tue, 07 Jan 2025 22:49:18 -0000
-Message-Id: <173629015885.301237.12456448263528229009@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Tue, 07 Jan 2025 22:49:20 -0000
+Message-Id: <173629016064.301389.13870672993242047830@gitolite.kernel.org>
 
---===============2702266072955567950==
+--===============5410910581255877080==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: fbfd64d25c7af3b8695201ebc85efe90be28c5a3
     log: revlist-13563da6ffcf-fbfd64d25c7a.txt
 
---===============2702266072955567950==
+--===============5410910581255877080==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -55,4 +55,4 @@ c45beebfde34aa71afbc48b2c54cdda623515037 ovl: support encoding fid from inode wi
 368fcc5d3f8bf645a630a44e65f5eb008aba7082 Merge patch series "Fix encoding overlayfs fid for fanotify delete events"
 fbfd64d25c7af3b8695201ebc85efe90be28c5a3 Merge tag 'vfs-6.13-rc7.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 
---===============2702266072955567950==--
+--===============5410910581255877080==--
