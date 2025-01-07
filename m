@@ -1,49 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============2963125832909034971=="
+Content-Type: multipart/mixed; boundary="===============5613518929529884927=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 07 Jan 2025 15:59:02 -0000
-Message-Id: <173626554235.4146634.4522918187929992385@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Tue, 07 Jan 2025 16:00:28 -0000
+Message-Id: <173626562846.4149692.10429241134735727495@gitolite.kernel.org>
 
---===============2963125832909034971==
+--===============5613518929529884927==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/review-ilpo-fixes
-    old: 7e16ae558a87ac9099b6a93a43f19b42d809fd78
-    new: 1d7461d0c8330689117286169106af6531a747ed
+  - ref: refs/heads/driver-core-testing
+    old: e1a51c2bf4b3b20868a0e6e9520b11639bd363f1
+    new: 7c9bf0305662da44676e5a75d1941cecd0dd73be
     log: |
-         dd410d784402c5775f66faf8b624e85e41c38aaf platform/x86/amd/pmc: Only disable IRQ1 wakeup where i8042 actually enabled it
-         bee9a0838fd223823e5a6d85c055ab1691dc738e platform/x86/intel: power-domains: Add Clearwater Forest support
-         cc1ff7bc1bb378e7c46992c977b605e97d908801 platform/x86: ISST: Add Clearwater Forest to support list
-         1d7461d0c8330689117286169106af6531a747ed platform/x86: intel/pmc: Fix ioremap() of bad address
+         0f9e1f3a6e1e873bc70c7a47870a18c05647360e kernel/ksysfs.c: simplify bin_attribute definition
+         7c9bf0305662da44676e5a75d1941cecd0dd73be MAINTAINERS: add include/linux/sysfs.h
          
 
---===============2963125832909034971==
+--===============5613518929529884927==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1736265567 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1736265537-4518fefaa27933086ed4bf7f24a14df5f08de4a8
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736265653 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1736265623-ee019cf099c2c53655fdd96a1079a316b3049a05
 
-7e16ae558a87ac9099b6a93a43f19b42d809fd78 1d7461d0c8330689117286169106af6531a747ed refs/heads/review-ilpo-fixes
+e1a51c2bf4b3b20868a0e6e9520b11639bd363f1 7c9bf0305662da44676e5a75d1941cecd0dd73be refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZ31PZgAKCRBZrE9hU+XO
-MccgAQCIPCXckJ1v6d/gZzo0wUQNyhXtHJ7WDRyutvuxgTHlVwEAipsMbnVjbWch
-lHssoXeJldH28FRyp3fGur+RlNc7xQ0=
-=hBAM
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmd9T7UbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Is4P/i79xZhGzdsvR0lw8RCG
+XL4sL5kzDUMnpev7ez/4kTVFuHNu9xediiSQE9hRVdveTkBjc8UsMU5H8eAQyyn9
+221+W5SgBuAjlFBVrLiVo9h1OJaBAAEDPt/U09bcwlZGsFtujjRpDFrrlf6y7s9T
+PpEgJyj4Udb0L++ug3i77VdeETScdW0OymO1H1uSYUSh8xKfbuUFbsTdbrDLBySH
+k4lnFiTR52Uhl9Of8Xm3vus0CkayF2+aSE36ZnyxAqa/cbOAdwxm2w5q8IEddObA
+NckrEFoULUJlvczlvrNI5P9OfwhvqQRpcPGcxsudPFESb55Z+V4m1jxPAYft6DBF
+XrfQBCsZ1m89fx83S0O9A94bBGNiFs9mATWh9WsxeiQbcrAlndlKrXJRRN/czWjM
+QE7gpPgzI0akst9xsMyV8clILM6zS+Exo4PidPI+APV92PNN3Xa/6LAJCF50LN79
+yBhn8RbKxP4zVlh84jbU9qzVc7uvNfqdM6JVflFbtoANdRKOGknoPrWvlHC3/MRM
+ZH15WfpgDx3sPvylCW0FvwdVvpTYMItTMALLZ7sg2FRXW/RkSHs5UHwDHMq8GbIk
+dVW//6GSfiavUpm8rYTmFfFUZtnF0EEyuVPA4lB5XulZgpyixmmxv7B2u0bQCzi3
+qpVIlo6a8F7L8mEiTAMo3Pu5
+=GpUl
 -----END PGP SIGNATURE-----
 
---===============2963125832909034971==--
+--===============5613518929529884927==--
