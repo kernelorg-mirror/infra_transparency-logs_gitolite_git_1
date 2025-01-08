@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7580383364781368209=="
+Content-Type: multipart/mixed; boundary="===============4526030384141961405=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 08 Jan 2025 22:18:25 -0000
-Message-Id: <173637470506.1462696.12706139959125321431@gitolite.kernel.org>
+Date: Wed, 08 Jan 2025 22:28:19 -0000
+Message-Id: <173637529968.1470662.9739801947610466480@gitolite.kernel.org>
 
---===============7580383364781368209==
+--===============4526030384141961405==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,114 +15,102 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/next/linux-next
 user: sfr
 changes:
-  - ref: refs/heads/fs-current
-    old: bc444b4dbd6c2adc917ee74facab5148402a2a58
-    new: b7fe9b203d401dfaf9488024ea7e161bd71d5c84
-    log: revlist-bc444b4dbd6c-b7fe9b203d40.txt
-  - ref: refs/heads/fs-next
-    old: 44e5aa466a1b132ed320bc04170fb62373126a44
-    new: 29f6c68c6b547992a4060de22401b92d206097dd
-    log: revlist-44e5aa466a1b-29f6c68c6b54.txt
+  - ref: refs/heads/pending-fixes
+    old: a9167753dac0d5944e5ebe0945f3a8cf77729326
+    new: 11d4348187d3677124232b54489e24d5717a76e5
+    log: revlist-a9167753dac0-11d4348187d3.txt
 
---===============7580383364781368209==
+--===============4526030384141961405==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bc444b4dbd6c-b7fe9b203d40.txt
+Content-Disposition: attachment; filename=revlist-a9167753dac0-11d4348187d3.txt
 
 f2893c0804d86230ffb8f1c8703fdbb18648abc8 dm array: fix releasing a faulty array block twice in dm_array_cursor_end
 626f128ee9c4133b1cfce4be2b34a1508949370e dm array: fix unreleased btree blocks on closing a faulty array cursor
 0bb1968da2737ba68fd63857d1af2b301a18d3bf dm array: fix cursor index when skipping across block boundaries
-7bac65687510038390a0a54cbe14fba08d037e46 scsi: ufs: qcom: Power off the PHY if it was already powered on in ufs_qcom_power_up_sequence()
-bb9850704c043e48c86cc9df90ee102e8a338229 scsi: ufs: core: Honor runtime/system PM levels if set by host controller drivers
-4f78a56af4c472834681759d4365fb93921da77d scsi: ufs: qcom: Allow passing platform specific OF data
-3b2f56860b05bf0cea86af786fd9b7faa8fe3ef3 scsi: ufs: qcom: Power down the controller/device during system suspend for SM8550/SM8650 SoCs
+498d5b14db8c9118be139f668720c67bea2dc344 riscv: selftests: Fix warnings pointer masking test
 6df90c02bae468a3a6110bafbc659884d0c4966c dm-verity FEC: Fix RS FEC repair for roots unaligned to block size (take 2)
 548c6edbed92031baa4aa32cae55628c810c3ebb dm-verity FEC: Avoid copying RS parity bytes twice.
 5e7f0efd23238039bcd4fc72ff28d94f364ec26b selinux: match extended permissions to their base permissions
 09a0fa92e5b45e99cf435b2fbf5ebcf889cf8780 Merge tag 'selinux-pr-20250107' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
+a9d9c33132d49329ada647e4514d210d15e31d81 x86/fpu: Ensure shadow stack is active before "getting" registers
+82163d63ae7a4c36142cd252388737205bb7e4b9 hwmon: (drivetemp) Fix driver producing garbage data when SCSI errors occur
+b341ca51d2679829d26a3f6a4aa9aee9abd94f92 tls: Fix tls_sw_sendmsg error handling
+cb358ff94154774d031159b018adf45e17673941 ipvlan: Fix use-after-free in ipvlan_get_iflink().
+db78475ba0d3c66d430f7ded2388cc041078a542 eth: gve: use appropriate helper to set xdp_features
+9bf2a1e1e98f7d8c86294dba77ce0420b4b09f5a mm/vmscan: fix hard LOCKUP in function isolate_lru_folios
+481ed14ca39d5a225ffe750faab191645fd2f11f mm: page_alloc: fix missed updates of lowmem_reserve in adjust_managed_page_count
+c61475aede93f176f61fc73bedd38c2b1b174bb0 alloc_tag: skip pgalloc_tag_swap if profiling is disabled
+599e0369cef6aeb0baecfd8253c224ad92b0944a mm/kmemleak: fix percpu memory leak detection failure
+ac5ba1f3f33e60dd0e01e280d9f94225df2ac0ca scripts/decode_stacktrace.sh: fix decoding of lines with an additional info
+7ee6c6b12ba02b21feb39fae74997077caae13c8 mm/mempolicy: count MPOL_WEIGHTED_INTERLEAVE to "interleave_hit"
+6c15955c6698b45da886b3766e27a37a056541b3 tools: fix atomic_set() definition to set the value correctly
+f460a31fd47c9811ecd6cec311ecdd29e1870420 filemap: avoid truncating 64-bit offset to 32 bits
+e54faac49f5f8889de3602da2487e9571b7bff8e x86/execmem: fix ROX cache usage in Xen PV guests
+aec5204140f211c67801a2e1ebe8020c00607e7d mm: fix div by zero in bdi_ratio_from_pages
+2bb1b3bf82cf73d6d20c3cb1018225b2bdbf88fa mm-fix-div-by-zero-in-bdi_ratio_from_pages-v2
+6e8f7b44fd38fa9ce46ff831e21fdce53d1cc1ff hugetlb: fix NULL pointer dereference in trace_hugetlbfs_alloc_inode
+ab7e8d958bf4c135425b2c70f27e43006ed54c9d Revert "mm: zswap: fix race between [de]compression and CPU hotunplug"
+7445aaf16136269fd9cc7f6fea30979d069a8659 mm: zswap: disable migration while using per-CPU acomp_ctx
+418758be0df0ea318600060f3e6b97bb2de1e384 module: fix writing of livepatch relocations in ROX text
+d5eb4aca1f0b62d1c56b5adc0e53cfe095bd114c selftests/mm: virtual_address_range: fix error when CommitLimit < 1GiB
+a480069b937b984837121ad286197714d4f7fd2f selftests/mm: virtual_address_range: avoid reading VVAR mappings
+b15eb2341976515a326a138ee8d0edde39c19565 mm: clear uffd-wp PTE/PMD state on mremap()
+aa8a3858fafca808472a1cc7aace5a77008a1da8 selftests/mm: set allocated memory to non-zero content in cow test
+b74a9a90ec132d117abcf541bd338516a0f39f11 zram: fix potential UAF of zram table
+e3b2cc94f5a784a1f1626c5991294774e2f7550a Merge branch into tip/master: 'x86/urgent'
+77bf21a03a2ad45cf66f73f13154b1669d9cf52a Revert "drm/i915/hdcp: Don't enable HDCP1.4 directly from check_link"
+e59f4c97172de0c302894cfd5616161c1f0c4d85 gpio: loongson: Fix Loongson-2K2000 ACPI GPIO register offset
+854eee93bd6e3dca619d47087af4d65b2045828e USB: serial: cp210x: add Phoenix Contact UPS Device
+c1947d244f807b1f95605b75a4059e7b37b5dcc3 USB: serial: option: add MeiG Smart SRM815
+f5b435be70cb126866fa92ffc6f89cda9e112c75 USB: serial: option: add Neoway N723-EA support
+6f79db028e827b023623a6ff825952e0d5fb619f staging: gpib: mite: remove unused global functions
+1acb73db4893345d5811f48f1ff979cec495009e MAINTAINERS: add missing maintainers for Simple Audio Card
 47f33c27fc9565fb0bc7dfb76be08d445cd3d236 dm-ebs: don't set the flag DM_TARGET_PASSES_INTEGRITY
 80f130bfad1dab93b95683fc39b87235682b8f72 dm thin: make get_first_thin use rcu-safe list first function
+194f9f94a5169547d682e9bbcc5ae6d18a564735 misc: microchip: pci1xxxx: Resolve kernel panic during GPIO IRQ handling
+c7a5378a0f707686de3ddb489f1653c523bb7dcc misc: microchip: pci1xxxx: Resolve return code mismatch during GPIO set config
+704dbe97a68153a84319ad63f526e12ba868b88e ASoC: samsung: Add missing depends on I2C
+088fb4ee17fc456fcbce0a9ff46d147e3b2be139 ALSA: doc: cs35l56: Add information about Cirrus Logic CS35L54/56/57
 0b7958fa05d562e514fd0abe2a4800042abf868b Merge tag 'for-6.13/dm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
+d1cacd74776895f6435941f86a1130e58f6dd226 netdev: prevent accessing NAPI instances from another namespace
+80fb40baba19e25a1b6f3ecff6fc5c0171806bde tcp: Annotate data-race around sk->sk_mark in tcp_v4_send_reset
+5a4b584c67699a69981f0740618a144965a63237 net: hns3: fixed reset failure issues caused by the incorrect reset type
+ac1e2836fe294c2007ca81cf7006862c3bdf0510 net: hns3: fix missing features due to dev->features configuration too early
+5191a8d3c2ab5bc01930ea3425e06a739af5b0e9 net: hns3: Resolved the issue that the debugfs query result is inconsistent.
+98b1e3b27734139c76295754b6c317aa4df6d32e net: hns3: don't auto enable misc vector
+247fd1e33e1cd156aabe444e932d2648d33f1245 net: hns3: initialize reset_timer before hclgevf_misc_irq_init()
+7997ddd46c54408bcba5e37fe18b4d832e45d4d4 net: hns3: fixed hclge_fetch_pf_reg accesses bar space out of bounds issue
+9741e72b2286de8b38de9db685588ac421a95c87 net: hns3: fix kernel crash when 1588 is sent on HIP08 devices
+f552b3037d0ccc865b11b19314502f341f8b6717 Merge branch 'there-are-some-bugfix-for-the-hns3-ethernet-driver'
 eea6e4b4dfb8859446177c32961c96726d0117be Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 b7fe9b203d401dfaf9488024ea7e161bd71d5c84 Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
+c37eba8eea5b9247afb5ecabf3e9822a49614b2f Merge branch 'mm-hotfixes-unstable' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+35bf145fc941eae4e3cea6b888de8650894d957a Merge branch 'fs-current' of linux-next
+62900affaac0d356bc37d3f383f78298efa0d98c Merge branch 'main' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net.git
+4d52f1433f5c09f5713dad5444068d9323ab5179 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec.git
+7fc26ebe2741b2c6464c81441472fd311e72c845 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+32c09bc105f0525b1257f2d50240085d62450312 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+69186b2b602093ff998640eeacbc1563aa4dbd13 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci.git
+f7f0ced364dca40ef8c2575e913adb0a01ceab30 Merge branch 'driver-core-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core.git
+ff5e67eeca9c154d6f225660fb0c71a00067cb43 Merge branch 'tty-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty.git
+1c0fb69ef05ad7c735ce9ea942b22fbe31f67797 Merge branch 'usb-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb.git
+947292dd3fe04027ac76692fd09f5407651b015f Merge branch 'usb-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial.git
+23c0af2ff81dbc04112713bb097f77abc5e4a5cf Merge branch 'staging-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging.git
+7882dc38eef519cb828becb125cba62cb9bf2fb7 Merge branch 'fixes-togreg' of git://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio.git
+98ae263e9c1baff05dd188f5faae3c8c4417d2cd Merge branch 'char-misc-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc.git
+efe357c1323bb9a4a11f90a09089dbcfe8713552 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input.git
+227d5156e5f6ad64a19663bda04174d9eb791095 Merge branch 'reset/fixes' of https://git.pengutronix.de/git/pza/linux
+0af469aaf8e2f818a07ca157c8618926e728d017 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux.git
+cbc72275a96dee365d2f5f156cf6807b104c59e1 Merge branch 'hwmon' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging.git
+3bc40b86778b0e73dc1f6664b321997eb26b0b34 Merge branch 'for-linux-next-fixes' of https://gitlab.freedesktop.org/drm/i915/kernel
+39b1c98a3b7b391753ad251b4df7ee6932f57433 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux.git
+087c3e3aec54ee557758d16faf4d1849b4fcf5a2 Merge branch 'riscv-dt-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/conor/linux.git
+d851ec67288ee29f5374cd2fd1837cc61ebaa08b Merge branch 'gpio/for-current' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux.git
+9108593d2b3b512245b6d0ce477d46615e89dd92 Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel.git
+bbbb5efc552af88770591f3a3612c5ea7b2ad548 Merge branch 'tip/urgent' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip.git
+f1d9467a27ae193b27364194a8bb9ec925dacf77 Merge branch 'msm-fixes' of https://gitlab.freedesktop.org/drm/msm.git
+11d4348187d3677124232b54489e24d5717a76e5 Merge branch 'for-linux-next-fixes' of https://gitlab.freedesktop.org/drm/misc/kernel.git
 
---===============7580383364781368209==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-44e5aa466a1b-29f6c68c6b54.txt
-
-f2893c0804d86230ffb8f1c8703fdbb18648abc8 dm array: fix releasing a faulty array block twice in dm_array_cursor_end
-626f128ee9c4133b1cfce4be2b34a1508949370e dm array: fix unreleased btree blocks on closing a faulty array cursor
-0bb1968da2737ba68fd63857d1af2b301a18d3bf dm array: fix cursor index when skipping across block boundaries
-7bac65687510038390a0a54cbe14fba08d037e46 scsi: ufs: qcom: Power off the PHY if it was already powered on in ufs_qcom_power_up_sequence()
-bb9850704c043e48c86cc9df90ee102e8a338229 scsi: ufs: core: Honor runtime/system PM levels if set by host controller drivers
-4f78a56af4c472834681759d4365fb93921da77d scsi: ufs: qcom: Allow passing platform specific OF data
-3b2f56860b05bf0cea86af786fd9b7faa8fe3ef3 scsi: ufs: qcom: Power down the controller/device during system suspend for SM8550/SM8650 SoCs
-6df90c02bae468a3a6110bafbc659884d0c4966c dm-verity FEC: Fix RS FEC repair for roots unaligned to block size (take 2)
-548c6edbed92031baa4aa32cae55628c810c3ebb dm-verity FEC: Avoid copying RS parity bytes twice.
-5e7f0efd23238039bcd4fc72ff28d94f364ec26b selinux: match extended permissions to their base permissions
-b3d76444d208b965e8f6dd4e25695867a0de60d2 SUNRPC: only put task on cl_tasks list after the RPC call slot is reserved.
-34a1208e0d124f3746eb701abf1c5c741c1de6f5 SUNRPC: display total RPC tasks for RPC client
-c07153898ce8b446e075f7c15d2bfba5e599ed72 NFS: Fix potential buffer overflowin nfs_sysfs_link_rpc_client()
-cc1080daed34b7fb1f00ea09e20053df853e3607 nfs/localio: add direct IO enablement with sync and async IO support
-ca65c9e0c78b69e75857e8105f0634144c26ce74 nfsd: add nfsd_file_{get,put} to 'nfs_to' nfsd_localio_operations
-c92442c3179e8a40c05d58d728bb1fad6a8dc6ed nfs_common: rename functions that invalidate LOCALIO nfs_clients
-3bfbb7490a2846257fcb84d7faeb4b09e2cb82eb nfs_common: move localio_lock to new lock member of nfs_uuid_t
-a2c761183b5e519b782ce7094338643e4a1f76c4 nfs: cache all open LOCALIO nfsd_file(s) in client
-e08acc5438cea53fadff2b203363f6646ffda512 nfsd: update percpu_ref to manage references on nfsd_net
-dff9fb0346fdbda04156c49f3ab265d8f530e740 nfsd: rename nfsd_serv_ prefixed methods and variables with nfsd_net_
-735aab1241ea429b3d1e718384a9c58b7f4afbe5 nfsd: nfsd_file_acquire_local no longer returns GC'd nfsd_file
-2fd54b493c6b4e7417c2ca7d3c1f80c5eb93492b nfs_common: rename nfslocalio nfs_uuid_lock to nfs_uuids_lock
-df6f689795ffb37a3ea2d6e8ec8b679dd41da5b4 nfs_common: track all open nfsd_files per LOCALIO nfs_client
-c729acd34c6e085d7f4b8a246d4913ed15b8db72 nfs_common: add nfs_localio trace events
-2305b6c52bb11fecb365348b2f6018795078bdc9 nfs/localio: remove redundant code and simplify LOCALIO enablement
-4f54057c1631b379a607e9c68cc6f415b9f6f4dd nfs: probe for LOCALIO when v4 client reconnects to server
-69d73de60b2bacf6db29db673ff15333935c9e70 nfs: probe for LOCALIO when v3 client reconnects to server
-17da35c54142cb4d7bc2482c4c73ffe6fac4f668 nfs: fix incorrect error handling in LOCALIO
-7c12ab79a8d2ae5528bc316d48eb2bef9e6d93aa NFS: CB_OFFLOAD can return NFS4ERR_DELAY
-bc72c891196d04fc62daa05ca9067094a9ec1af5 NFS: Fix typo in OFFLOAD_CANCEL comment
-b96ad13663a573be9b9919f677e8dc59b25c8ba6 NFS: Rename struct nfs4_offloadcancel_data
-7442c96aaf2a6f5e883723f58a8762961378825c NFS: Implement NFSv4.2's OFFLOAD_STATUS XDR
-ddd7d1aeb15bf6afd8dc897e499318426d74fe23 NFS: Implement NFSv4.2's OFFLOAD_STATUS operation
-3b6b95b4bdd76a303aa96272de973811635277d0 NFS: Use NFSv4.2's OFFLOAD_STATUS operation
-10e73e9d64dc5d486cc53e6f4376e04e3e3e7cfc NFS: Refactor trace_nfs4_offload_cancel
-4ec1de34e938cfa3e8353e3a5081264d0ae970ff nfs: Make NFS_FSCACHE select NETFS_SUPPORT instead of depending on it
-09a0fa92e5b45e99cf435b2fbf5ebcf889cf8780 Merge tag 'selinux-pr-20250107' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
-2ac538e40278a2c0c051cca81bcaafc547d61372 ksmbd: fix unexpectedly changed path in ksmbd_vfs_kern_path_locked
-e8580b4c600e085b3c8e6404392de2f822d4c132 ksmbd: Implement new SMB3 POSIX type
-7ee7c9b39ed36caf983706f5b893cc5c37a79071 xfs: don't return an error from xfs_update_last_rtgroup_size for !XFS_RT
-47f33c27fc9565fb0bc7dfb76be08d445cd3d236 dm-ebs: don't set the flag DM_TARGET_PASSES_INTEGRITY
-80f130bfad1dab93b95683fc39b87235682b8f72 dm thin: make get_first_thin use rcu-safe list first function
-c9ffff69547cb8d8fb855d47b5c36289e013b97d smb: client: sync the root session and superblock context passwords before automounting
-0b7958fa05d562e514fd0abe2a4800042abf868b Merge tag 'for-6.13/dm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
-3d56fbb1f03f2abf8c806aee14df2f462350dfba f2fs: expand f2fs_invalidate_compress_page() to f2fs_invalidate_compress_pages_range()
-d217b5cea488c0f644c189f91b636aeefa12deb9 f2fs: add parameter @len to f2fs_invalidate_internal_cache()
-91b587ba79e1b68bb718d12b0758dbcdab4e9cb7 f2fs: Introduce linear search for dentries
-cf5817ce66f6c75452027af243689da780dbddb4 f2fs: don't call block truncation for aliased file
-66baee2b886d72ab6be11a08d4c7897f9612e25b f2fs: introduce update_sit_entry_for_release/alloc()
-81ffbd224e5f926bf8df01d6107db9c8779f7d57 f2fs: update_sit_entry_for_release() supports consecutive blocks.
-df46161e4ed06ddfc4b7c224e4f1853b6abb0a3d f2fs: fix to do sanity check correctly on i_inline_xattr_size
-eea6e4b4dfb8859446177c32961c96726d0117be Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-b7fe9b203d401dfaf9488024ea7e161bd71d5c84 Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-8b399f8f92d6a61e36539fd0fe086ce6058121d2 Merge branch 'for-next' of git://evilpiepirate.org/bcachefs.git
-6ea6b7db4aeabc5949620faf1d41d99144bebcee Merge branch 'afs-next' of git://git.kernel.org/pub/scm/linux/kernel/git/dhowells/linux-fs.git
-00020f8acb8fa5ec95e56a786bbb5505f8537a2d Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-1c600e936d5e21acca48c4affb3ca39fd7ac9010 Merge branch 'for-next' of git://git.samba.org/sfrench/cifs-2.6.git
-e7c314e053459a104f89c60d20b065afac836dd8 Merge branch 'next' of git://git.kernel.org/pub/scm/linux/kernel/git/tyhicks/ecryptfs.git
-47ea6497d1e86bef42efa2e489c9cff323826c58 Merge branch 'next' of git://git.kernel.org/pub/scm/linux/kernel/git/teigland/linux-dlm.git
-0cda7e7c6c6264895eeb0b58a8752dd0615b7c47 Merge branch 'dev' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs.git
-4f65d4467b7d54c2b6f479973368fd4f93f74edb Merge branch 'for_next' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs.git
-2279962688d5faf9b3ea4e45b2a0cfde28b713ab Merge branch 'dev' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs.git
-97415d271f19d134948797a8973a38006c9270f7 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse.git
-f90dc43d20fc6e139f95ab108e09f44ce577906c Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2.git
-12914b536b473d447cfa7018a0e668fb76799dde Merge branch 'ksmbd-for-next' of https://github.com/smfrench/smb3-kernel.git
-7ccffed5b6f3e831114370e4e1a96822b388384f Merge branch 'linux-next' of git://git.linux-nfs.org/projects/anna/linux-nfs.git
-cacf82936af536868680d5e28c82116e5042c9ba Merge branch 'nfsd-next' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-bc5ce8fd3d9817dc0fcc73831372e986cf75b6a9 Merge branch 'master' of https://github.com/Paragon-Software-Group/linux-ntfs3.git
-0bb701bbb4a8f07b170ab9810f3b98b8865af739 Merge branch 'for-next' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux.git
-46f1e617acdc82e5d75e882cedc51ec4a1d7e420 Merge branch 'vfs.all' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
-29f6c68c6b547992a4060de22401b92d206097dd Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
-
---===============7580383364781368209==--
+--===============4526030384141961405==--
