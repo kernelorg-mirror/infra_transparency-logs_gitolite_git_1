@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0247790048439778571=="
+Content-Type: multipart/mixed; boundary="===============1289191065404256923=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 08 Jan 2025 22:45:32 -0000
-Message-Id: <173637633204.1485896.7753894498164175603@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Wed, 08 Jan 2025 22:45:50 -0000
+Message-Id: <173637635039.1486195.14672287683888249570@gitolite.kernel.org>
 
---===============0247790048439778571==
+--===============1289191065404256923==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 6bfb4c571b8896df479e6b82a241ea7055ec4b55
     log: revlist-ed60738a9b7e-6bfb4c571b88.txt
 
---===============0247790048439778571==
+--===============1289191065404256923==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -44,4 +44,4 @@ f523347ba6b63eaa814f26b056006796243af322 perf jitdump: Accept jitdump mmaps emit
 9c64c7c658265f93350aedf77c6b4055ebd71688 perf llvm-add2line: Remove unused symbol_conf.h include
 6bfb4c571b8896df479e6b82a241ea7055ec4b55 perf test cpumap: Avoid use-after-free following merge
 
---===============0247790048439778571==--
+--===============1289191065404256923==--
