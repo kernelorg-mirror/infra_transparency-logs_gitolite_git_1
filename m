@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 08 Jan 2025 00:22:04 -0000
-Message-Id: <173629572481.379569.3145272871865494276@gitolite.kernel.org>
+Date: Wed, 08 Jan 2025 00:31:21 -0000
+Message-Id: <173629628184.387235.17258939744575099829@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,18 +11,14 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/main-pending
-    old: c7833d32403ac312619e829b29fe2071274d0463
-    new: 81639e3c513f9a62060876cd0166487cfc64b2e2
+  - ref: refs/heads/ath-next
+    old: 578f6fc55c2ced5f68a7f87edbf6db3663dc6b57
+    new: 3540bba855b4b422e8b977d11aa8173ccb4f089d
     log: |
-         4605e152ea5002282fd7d74bb1e5a9720a47932a wifi: ath12k: rename CAC_RUNNING flag
-         1d3c2117bf102477db241e22d7d8a80d720f7837 wifi: ath12k: fix CAC running state during virtual interface start
-         617772861003eba1711996c9e85d46454a7371c2 wifi: ath12k: handle radar detection with MLO
-         85cd6aaec7f1e775415079569cc0f3e383eab71a wifi: ath12k: Include MLO memory in firmware coredump collection
-         a36dd9b6a40a3c72b27508fcd8133e8437b02b51 wifi: ath12k: set flag for mgmt no-ack frames in Tx completion
-         c52fc6edbcdd43c1d26a87636c388885fed7cfc0 wifi: ath12k: fix tx power, max reg power update to firmware
-         81639e3c513f9a62060876cd0166487cfc64b2e2 Merge branch 'pending' into main-pending
+         d31241cbd9c5d74eb19192e57806e9c9ee3378f7 wifi: ath12k: rename CAC_RUNNING flag
+         11b86e2ce94278332af8da9c0b560a15c17efd26 wifi: ath12k: fix CAC running state during virtual interface start
+         40562e84e262dcc1c7226a0094761f6b5eec8153 wifi: ath12k: handle radar detection with MLO
+         9035756c18852cf39eeb11b625db094a2c9a4bb9 wifi: ath12k: Include MLO memory in firmware coredump collection
+         2d64da9ed5d8cee44a11ed3872dbfa6a914ee2b2 wifi: ath12k: set flag for mgmt no-ack frames in Tx completion
+         3540bba855b4b422e8b977d11aa8173ccb4f089d wifi: ath12k: fix tx power, max reg power update to firmware
          
-  - ref: refs/tags/ath-pending-202501080013
-    old: 0000000000000000000000000000000000000000
-    new: 81639e3c513f9a62060876cd0166487cfc64b2e2
