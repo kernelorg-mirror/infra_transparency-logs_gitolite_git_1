@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5894828645728882585=="
+Content-Type: multipart/mixed; boundary="===============7635491303485005598=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Wed, 08 Jan 2025 13:30:53 -0000
-Message-Id: <173634305380.1017161.935062995802431474@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 08 Jan 2025 13:30:57 -0000
+Message-Id: <173634305756.1017297.14744040374416327518@gitolite.kernel.org>
 
---===============5894828645728882585==
+--===============7635491303485005598==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.13
+  - ref: refs/heads/regmap-6.13
     old: 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8
     new: 9d89551994a430b50c4fffcb1e617a057fa76e20
     log: revlist-78d4f34e2115-9d89551994a4.txt
-  - ref: refs/heads/for-6.14
+  - ref: refs/heads/regmap-6.14
     old: eb708cd631a8dca17ff004ccc39bbeb096c1db22
     new: d406b354df909155ff0122acf80f3bc7410fa27e
     log: revlist-eb708cd631a8-d406b354df90.txt
 
---===============5894828645728882585==
+--===============7635491303485005598==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1736343081 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
-nonce 1736343051-80ec574e41f0a4f88ce261bbdfe044bfa925a198
+pusher C3F436CA30F5D8EB 1736343085 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1736343054-50f4097c175e5454ddd052d2329c17616e92c937
 
-78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8 9d89551994a430b50c4fffcb1e617a057fa76e20 refs/heads/for-6.13
-eb708cd631a8dca17ff004ccc39bbeb096c1db22 d406b354df909155ff0122acf80f3bc7410fa27e refs/heads/for-6.14
+78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8 9d89551994a430b50c4fffcb1e617a057fa76e20 refs/heads/regmap-6.13
+eb708cd631a8dca17ff004ccc39bbeb096c1db22 d406b354df909155ff0122acf80f3bc7410fa27e refs/heads/regmap-6.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmd+fikACgkQJNaLcl1U
-h9BHswf+O9HLA3m2ifpuN96g2FdVsRFD4p/lGbFjqVzBAnx3YqHUQE77sLVQN7Pw
-sedUMOmcXmkjOV/NNmWQoaHDZSJwW/NyJzf4tUED14LwLQ04iWHd7cyjrpiuYkUt
-y1uNhjAo1qaVp0JimD8Vq0VgZawoNI95TrzpkFnboISbkMbzSBB5YOavTL2f5Rh1
-6eVos2jTNdqeLmxBVkrCDIvH/SEC/SIBInNep8i9S1yLmuf2wuowpTFxF7w8FTho
-wpVEYvVEfcvG9kMfvjFMrdbsapgl0kzJDCxZsQuwAn+RJPlXzQ4yoNX7sVmG9PZb
-RW6RMVNUZgB8fVLFnBv5s+KAaTPYWg==
-=7Ylo
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmd+fi0ACgkQJNaLcl1U
+h9BlvQgAhu3AJwkv31DezpsABpML9Hh2hqctY7/xSs8kqi6+Vdyyoda7WG3CkKR+
+bKsrogY7roqA19vzjyZWMGSgpXNDN1xMxJGXOg1lBrvsq3cqf4seUbnCUXSqtlo5
+Be/bT+2zWuY9Gc0ttcNDCjNiF69qEBAwmJBCeJRwhiPMu+XMWe5AMyw4f98J02Cu
+KE40sTJODIB9j4p+MD5jzPNUmD91Qu8QgEp4jG/zgAkGtDkPCbbRk+iE23R4cQJG
+dlqOfaurVuKv5l3IQO0+B6EwSQxRU2HWg0V9XazpzailDKAMf/sEFW7bOiFgqXQn
+4qXZce76j+oH1CqSAEzrnxQrApQOaA==
+=50EJ
 -----END PGP SIGNATURE-----
 
---===============5894828645728882585==
+--===============7635491303485005598==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -677,7 +677,7 @@ ab75170520d4964f3acf8bb1f91d34cbc650688e Merge tag 'linux-watchdog-6.13-rc6' of 
 9244696b34f2a626d7468864420ab6a47289bf10 Merge tag 'kbuild-fixes-v6.13-3' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 9d89551994a430b50c4fffcb1e617a057fa76e20 Linux 6.13-rc6
 
---===============5894828645728882585==
+--===============7635491303485005598==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1708,4 +1708,4 @@ fdd9ef3dce98e035d21c17fac587cb6e3c7706fd regmap: sdw-mbq: Add support for furthe
 5bc493bf0c37c157bf2eb364e55a1c6f8bc43a69 regmap: sdw-mbq: Add support for SDCA deferred controls
 d406b354df909155ff0122acf80f3bc7410fa27e Expand SoundWire MBQ register map support
 
---===============5894828645728882585==--
+--===============7635491303485005598==--
