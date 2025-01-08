@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
-Date: Wed, 08 Jan 2025 17:21:09 -0000
-Message-Id: <173635686950.1216551.5632737401874121426@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 08 Jan 2025 17:33:28 -0000
+Message-Id: <173635760875.1225150.4349739444491307694@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mani/mhi
-user: mani
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/mhi-next
-    old: 9241459b3cc2e66252d32bef88e858dcf9c7c487
-    new: 29904a40127ca5df120bcbcab444ea725926b075
+  - ref: refs/heads/master
+    old: 46c61cbeb82f8a4e6354a692d2be1a35cb0bde29
+    new: bab18c7db44d3aa6c84450095451580922359c7a
     log: |
-         29904a40127ca5df120bcbcab444ea725926b075 bus: mhi: host: pci_generic: Enable MSI-X if the endpoint supports
+         bab18c7db44d3aa6c84450095451580922359c7a selftests/bpf: add -std=gnu11 to BPF_CFLAGS and CFLAGS
          
