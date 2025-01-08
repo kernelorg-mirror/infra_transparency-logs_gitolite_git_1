@@ -1,25 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Wed, 08 Jan 2025 20:56:09 -0000
-Message-Id: <173636976914.1393102.5150218705255567145@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Wed, 08 Jan 2025 20:57:26 -0000
+Message-Id: <173636984689.1393751.7081607378050203832@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: maz
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/next
-    old: 0e5595a8d56ed0be86250e2985bb71cfebec8adc
-    new: 88416867ce0a5f5f443d895066895cc6413ff40e
+  - ref: refs/heads/master
+    old: 0b7958fa05d562e514fd0abe2a4800042abf868b
+    new: eea6e4b4dfb8859446177c32961c96726d0117be
     log: |
-         e8440c1e2d23a9ca5e0af1a18be637cbd5a5d44f Documentation: Update the behaviour of "kvm-arm.mode"
-         d92af435e4e21a15dc32d734cacecf162a836465 Merge branch kvm-arm64/misc-6.14 into kvmarm-master/next
-         b7f345fbc32afab0f0b03c71c7eaf48b9a0ad7ed KVM: arm64: Fix FEAT_MTE in pKVM
-         6fb698266a73be5e34bbd6d0539d3c666032531a Merge branch kvm-arm64/pkvm-fixed-features-6.14 into kvmarm-master/next
-         68344037b764401f751c66661c53334ea1e15324 KVM: arm64: Fix nVHE stacktrace VA bits mask
-         38f9e4b905a00047a96fbdc6cefe9ceb4dae34c3 arm64: kvm: Introduce nvhe stack size constants
-         88416867ce0a5f5f443d895066895cc6413ff40e Merge branch kvm-arm64/misc-6.14 into kvmarm-master/next
+         7bac65687510038390a0a54cbe14fba08d037e46 scsi: ufs: qcom: Power off the PHY if it was already powered on in ufs_qcom_power_up_sequence()
+         bb9850704c043e48c86cc9df90ee102e8a338229 scsi: ufs: core: Honor runtime/system PM levels if set by host controller drivers
+         4f78a56af4c472834681759d4365fb93921da77d scsi: ufs: qcom: Allow passing platform specific OF data
+         3b2f56860b05bf0cea86af786fd9b7faa8fe3ef3 scsi: ufs: qcom: Power down the controller/device during system suspend for SM8550/SM8650 SoCs
+         eea6e4b4dfb8859446177c32961c96726d0117be Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
          
