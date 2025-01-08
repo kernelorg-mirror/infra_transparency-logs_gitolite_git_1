@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 08 Jan 2025 14:49:34 -0000
-Message-Id: <173634777484.1082362.12973031070235122332@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 08 Jan 2025 15:05:43 -0000
+Message-Id: <173634874363.1096250.725989635704085023@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/block-6.13
-    old: cc0331e29fce4c3c2eaedeb7029360be6ed1185c
-    new: eb92f7314625807ad569c218039ec90e9e14c784
-    log: |
-         eb92f7314625807ad569c218039ec90e9e14c784 block, bfq: fix waker_bfqq UAF after bfq_split_bfqq()
-         
   - ref: refs/heads/master
-    old: fbfd64d25c7af3b8695201ebc85efe90be28c5a3
-    new: 09a0fa92e5b45e99cf435b2fbf5ebcf889cf8780
+    old: f44275e7155dc310d36516fc25be503da099781c
+    new: 46c61cbeb82f8a4e6354a692d2be1a35cb0bde29
     log: |
-         5e7f0efd23238039bcd4fc72ff28d94f364ec26b selinux: match extended permissions to their base permissions
-         09a0fa92e5b45e99cf435b2fbf5ebcf889cf8780 Merge tag 'selinux-pr-20250107' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
+         46c61cbeb82f8a4e6354a692d2be1a35cb0bde29 selftests/bpf: Handle prog/attach type comparison in veristat
          
