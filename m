@@ -1,25 +1,30 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Wed, 08 Jan 2025 16:49:08 -0000
-Message-Id: <173635494891.1187393.3817569555117628204@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Wed, 08 Jan 2025 16:52:25 -0000
+Message-Id: <173635514527.1191110.12540979818485001625@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: lee
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/master
-    old: 4d69a32a1958ddfc8e3d1c4624d62e93f2c51f12
-    new: fdb75f0a0ce8c2d111dbb41c77254e5fd1aa8ec9
+  - ref: refs/heads/for-6.13-fixes
+    old: ce2b93fc1dfa1c82f2576aa571731c4e5dcc8dd7
+    new: 68e449d849fd50bd5e61d8bd32b3458dbd3a3df6
     log: |
-         d8358853238e7c86a3b3958417cc2298f3084db4 proposed: Add Lee's v6.12.4 results
-         58ee55ad401f622f8d1fac161f095db3226b8898 proposed: Add Lee's v6.12.5 results
-         b6e9eba70c743ee6af27111a0a06304a8662d0e1 proposed: Add Lee's v6.12.6 results
-         887c5e0fbb27ff5320dccbc894943d226aa294c7 proposed: Add Lee's v6.12.7 results
-         eeb4ca55479297fcc16f7ea49cb2d4ea22eb872b proposed: Add Lee's v6.12.8 results
-         8d4f3a96ae1eda2376a658cc5f8eec35fa85a169 cve_review: Tune some more matches
-         fdb75f0a0ce8c2d111dbb41c77254e5fd1aa8ec9 cve_review: Add back missing newline between diff and patch
+         30dd3b13f9de612ef7328ccffcf1a07d0d40ab51 sched_ext: keep running prev when prev->scx.slice != 0
+         6268d5bc10354fc2ab8d44a0cd3b042d49a0417e sched_ext: Replace rq_lock() to raw_spin_rq_lock() in scx_ops_bypass()
+         68e449d849fd50bd5e61d8bd32b3458dbd3a3df6 sched_ext: switch class when preempted by higher priority scheduler
+         
+  - ref: refs/heads/for-next
+    old: 324b7af1dc8d64f8ba779e2b753cca548cb8cdaf
+    new: 1708bce4cfe2c5290d6ceb254778f756bfa783be
+    log: |
+         30dd3b13f9de612ef7328ccffcf1a07d0d40ab51 sched_ext: keep running prev when prev->scx.slice != 0
+         6268d5bc10354fc2ab8d44a0cd3b042d49a0417e sched_ext: Replace rq_lock() to raw_spin_rq_lock() in scx_ops_bypass()
+         68e449d849fd50bd5e61d8bd32b3458dbd3a3df6 sched_ext: switch class when preempted by higher priority scheduler
+         1708bce4cfe2c5290d6ceb254778f756bfa783be Merge branch 'for-6.13-fixes' into for-next
          
