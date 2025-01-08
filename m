@@ -1,21 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 08 Jan 2025 18:37:32 -0000
-Message-Id: <173636145276.1281941.12598811406606589494@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Wed, 08 Jan 2025 18:45:50 -0000
+Message-Id: <173636195069.1289440.7726622961086083068@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/200GbE
-    old: 95978931d55fb7685f8c0b2598d6c12a9b6bc82a
-    new: db78475ba0d3c66d430f7ded2388cc041078a542
+  - ref: refs/heads/fixes
+    old: 6a97f4118ac07cfdc316433f385dbdc12af5025e
+    new: 5cd900b8b7e42c492431eb4261c18927768db1f9
     log: |
-         b341ca51d2679829d26a3f6a4aa9aee9abd94f92 tls: Fix tls_sw_sendmsg error handling
-         cb358ff94154774d031159b018adf45e17673941 ipvlan: Fix use-after-free in ipvlan_get_iflink().
-         db78475ba0d3c66d430f7ded2388cc041078a542 eth: gve: use appropriate helper to set xdp_features
+         13134cc949148e1dfa540a0fe5dc73569bc62155 riscv: kprobes: Fix incorrect address calculation
+         7e25044b804581b9c029d5a28d8800aebde18043 cpuidle: riscv-sbi: fix device node release in early exit of for_each_possible_cpu
+         f754f27e98f88428aaf6be6e00f5cbce97f62d4b riscv: mm: Fix the out of bound issue of vmemmap address
+         51356ce60e5915a6bd812873186ed54e45c2699d riscv: stacktrace: fix backtracing through exceptions
+         40e6073e764870da39d0203fc4326adc4c37e690 riscv: qspinlock: Fixup _Q_PENDING_LOOPS definition
+         5cd900b8b7e42c492431eb4261c18927768db1f9 riscv: use local label names instead of global ones in assembly
          
