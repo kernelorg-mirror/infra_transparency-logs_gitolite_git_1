@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============2326072480987855218=="
+Content-Type: multipart/mixed; boundary="===============8620576253561720591=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 08 Jan 2025 14:14:47 -0000
-Message-Id: <173634568767.1051071.3324405322282741165@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 08 Jan 2025 14:14:51 -0000
+Message-Id: <173634569134.1051219.12864025885968273684@gitolite.kernel.org>
 
---===============2326072480987855218==
+--===============8620576253561720591==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.14
+  - ref: refs/heads/asoc-6.14
     old: c51187903fe4523fd7f521662c1ae1f1f3174036
     new: 309caeef4381e8777f65030dccabc71456650269
     log: revlist-c51187903fe4-309caeef4381.txt
 
---===============2326072480987855218==
+--===============8620576253561720591==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1736345715 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1736345685-8b874aaeaa69ce601995b7c8d55266e2ab74700c
+pusher C3F436CA30F5D8EB 1736345719 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1736345688-9bafbd944c0a03c0b6aa69643690bbd6ec6e68af
 
-c51187903fe4523fd7f521662c1ae1f1f3174036 309caeef4381e8777f65030dccabc71456650269 refs/heads/for-6.14
+c51187903fe4523fd7f521662c1ae1f1f3174036 309caeef4381e8777f65030dccabc71456650269 refs/heads/asoc-6.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmd+iHMACgkQJNaLcl1U
-h9D7Fgf+J6aMmghyJco7O2Ec5e/PFyDnlii5pt6ktBs9c1F8PrrQxPLnfNoGl4gD
-HOkyVaEr2VJmNVW7PrIeg0Lg8V7BHfHuR4jRi8rd5q5qx46LS7Z0fTkQSBDpwraE
-ng6KgrXTf0wBfBBlmIpXIIW/ZVx66wIO0ssvLoqKe+Bm3u4g+f0rZUbIiMtGXwpg
-1D+bYBI/xeIuFnoJYLovhEXNaOHbHmDB8TAxsaDB7fCrvZ5+Eo+VR7IZmEKn3XCG
-Vmt/7FpTF1jyNZXmhmCmdMs5KexgXI1Om17ny2hLBG4kWZff9qEG5wWd06sVzu+L
-t68UCygGhVXTPykquQ0EyljYSxdM+g==
-=0SOM
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmd+iHcACgkQJNaLcl1U
+h9Byrgf+IPMPyCQVyq0p4iIN4190aci6CZ7YzkpQ14trnnegu+NNrpP0AnYbZp5K
+h3LN6uh5RFC/7NC7OgMbmcK/0yywDuM0mBccyS1VLJWrzuCEezyp9h59YJXZc6K5
+2YvVfRwb8EaNRyFzz9iedf3vUkY5k2ANKPpwOx/N8dZ4CKZv8FByHrN3tNOnfMiz
+HLEA0pj6boFIxNCJAEFL/zWOSX+Nn0ihmSnJ3zYC25NfOcnpwNw3yGJU2x/WUB9l
+lADSO4FqXCoC9lfn2zYT0XlQD3evbEM97T0Yt5sdPrUXH1qJe6aL12cO8BgFbOiN
+vY6z3ixxI+3BtOwNDIcT+8PyMq/eyg==
+=TP/S
 -----END PGP SIGNATURE-----
 
---===============2326072480987855218==
+--===============8620576253561720591==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1073,4 +1073,4 @@ ab75170520d4964f3acf8bb1f91d34cbc650688e Merge tag 'linux-watchdog-6.13-rc6' of 
 9d89551994a430b50c4fffcb1e617a057fa76e20 Linux 6.13-rc6
 309caeef4381e8777f65030dccabc71456650269 ASoC: Merge up v6.13-rc6
 
---===============2326072480987855218==--
+--===============8620576253561720591==--
