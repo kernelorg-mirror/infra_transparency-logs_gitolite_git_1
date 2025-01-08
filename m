@@ -1,32 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============4520447347353196804=="
+Content-Type: multipart/mixed; boundary="===============6944539706168133386=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 08 Jan 2025 10:46:17 -0000
-Message-Id: <173633317701.881733.9056372497423628746@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 08 Jan 2025 10:46:32 -0000
+Message-Id: <173633319204.881969.5402398352828673983@gitolite.kernel.org>
 
---===============4520447347353196804==
+--===============6944539706168133386==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 7b4b9bf203da94fbeac75ed3116c84aa03e74578
     new: 4b90165c7d1173e0f65538d25aa718ec7ecdd5d6
     log: revlist-7b4b9bf203da-4b90165c7d11.txt
-  - ref: refs/tags/next-20241008
-    old: 383ce3eb9c94e834fd77e468823b2aa87a8ba3b0
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20250108
     old: 0000000000000000000000000000000000000000
     new: e53579d3577ed5b6480fdca26d2733dced65ca50
 
---===============4520447347353196804==
+--===============6944539706168133386==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1057,4 +1054,4 @@ ace3102702c79fd1dbed2a18ee85121474d5bd25 Merge branch 'crc-next' of git://git.ke
 257fb367f890c12bae588a91ce38cbc8bb067ddb fix for "staging: gpib: refer to correct config symbol in tnt4882 Makefile"
 4b90165c7d1173e0f65538d25aa718ec7ecdd5d6 Add linux-next specific files for 20250108
 
---===============4520447347353196804==--
+--===============6944539706168133386==--
