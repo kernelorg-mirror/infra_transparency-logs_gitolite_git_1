@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Wed, 08 Jan 2025 17:04:43 -0000
-Message-Id: <173635588377.1201559.11400568707185564894@gitolite.kernel.org>
+Date: Wed, 08 Jan 2025 17:05:02 -0000
+Message-Id: <173635590257.1202365.883267262351290954@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,27 +11,14 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/for-next
-    old: e419ddeabe7edd89650a19f411f928eea12b35b1
-    new: 53036937a101b5faeaf98e7438555fa854a1a844
+  - ref: refs/heads/m68k-queue
+    old: 50e3d43de9bde99e029f01e42b9504323fb28c17
+    new: 4fb6a090db55c255c66f3bb5db2894828b772d4d
     log: |
-         f6031436a27c49123d0113444a726348c8f35d10 m68k: atari: Use str_on_off() helper in atari_nvram_proc_read()
-         738fa3feb2e38bb603616093ff2e089f5bf8e103 zorro: Constify 'struct bin_attribute'
-         53036937a101b5faeaf98e7438555fa854a1a844 m68k: vga: Fix I/O defines
-         
-  - ref: refs/heads/for-v6.14
-    old: e419ddeabe7edd89650a19f411f928eea12b35b1
-    new: 53036937a101b5faeaf98e7438555fa854a1a844
-    log: |
-         f6031436a27c49123d0113444a726348c8f35d10 m68k: atari: Use str_on_off() helper in atari_nvram_proc_read()
-         738fa3feb2e38bb603616093ff2e089f5bf8e103 zorro: Constify 'struct bin_attribute'
-         53036937a101b5faeaf98e7438555fa854a1a844 m68k: vga: Fix I/O defines
-         
-  - ref: refs/heads/master
-    old: 4becd8a6b5680906c99cbb7f347ddd4fce4667a3
-    new: a38838e85965cdee58d027b5e6fc8264450325bc
-    log: |
-         22bd2d171f51a3c23eb2afb288135003a88698b1 m68k: atari: Use str_on_off() helper in atari_nvram_proc_read()
-         8e5a29cea27162c886c2ee830105c4509074a9e6 zorro: Constify 'struct bin_attribute'
-         a38838e85965cdee58d027b5e6fc8264450325bc m68k: vga: Fix I/O defines
+         7dab66b2a1d4260748f393f0795f367a5e144204 m68k: atari: Use str_on_off() helper in atari_nvram_proc_read()
+         3bf04f68c948a98dab688fed9cf4c7faf4349f3a zorro: Constify 'struct bin_attribute'
+         cdd8f17660caa843ba3241ebf74f00ac93472d33 m68k: vga: Fix I/O defines
+         6e39fd9756c6796ed422aea2186a787a03a2df97 m68k: atari: usb: Add ISP1160 USB host controller support
+         6c3fbbee23cd4fe62f5242b9c94d4608a9f96cc4 m68k: atari: Update Kconfig.bus help text
+         4fb6a090db55c255c66f3bb5db2894828b772d4d m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
          
