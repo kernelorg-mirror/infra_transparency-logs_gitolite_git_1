@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Wed, 08 Jan 2025 04:47:10 -0000
-Message-Id: <173631163071.596805.2383218902959035715@gitolite.kernel.org>
+Date: Wed, 08 Jan 2025 04:53:33 -0000
+Message-Id: <173631201381.601496.1764021100311014309@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,11 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/for-next
-    old: 23d931ec9bca85abe06b93bd37633c3798425b26
-    new: 91723a169594fb7e30091e9eef24ab9d731aa4da
+  - ref: refs/heads/arm64-for-6.14
+    old: 6e8637db89bf138a0533b5442d9a0b02afa5e3e8
+    new: 46ee6177b76736b49b1f34bec1244e4996fd199c
     log: |
-         5e419033b5cb20f9150bfec15dc6cdf10049e654 clk: qcom: Select CLK_X1E80100_GCC in config CLK_X1P42100_GPUCC
-         91723a169594fb7e30091e9eef24ab9d731aa4da Merge branches 'arm32-for-6.14', 'arm64-defconfig-for-6.14', 'arm64-fixes-for-6.13', 'arm64-for-6.14', 'clk-for-6.14' and 'drivers-for-6.14' into for-next
+         795255cb4cd4388cac930e3bb3524e1ca84dd0bf arm64: dts: qcom: qcs8300: Add support for clock controllers
+         ceb39e1ea327a96cdd9fcc54c65664f0659cd9b7 arm64: dts: qcom: qcs8300: Add support for usb nodes
+         46ee6177b76736b49b1f34bec1244e4996fd199c arm64: dts: qcom: qcs8300-ride: Enable USB controllers
          
