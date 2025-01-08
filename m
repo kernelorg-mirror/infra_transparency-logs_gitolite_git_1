@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nolibc/linux-nolibc
-Date: Wed, 08 Jan 2025 21:02:56 -0000
-Message-Id: <173637017691.1398285.11508498918298486957@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Wed, 08 Jan 2025 21:41:49 -0000
+Message-Id: <173637250910.1432276.18185969300514335948@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nolibc/linux-nolibc
-user: thomas.weissschuh
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/next
-    old: 6e2845a7fd095548009c857a2369c2bb6e1e9845
-    new: 4b92b79c5645b21e529caa65100e4797d3d4c87c
+  - ref: refs/heads/master
+    old: 0b7958fa05d562e514fd0abe2a4800042abf868b
+    new: eea6e4b4dfb8859446177c32961c96726d0117be
     log: |
-         4b92b79c5645b21e529caa65100e4797d3d4c87c selftests/nolibc: run-tests.sh: detect missing toolchain
+         7bac65687510038390a0a54cbe14fba08d037e46 scsi: ufs: qcom: Power off the PHY if it was already powered on in ufs_qcom_power_up_sequence()
+         bb9850704c043e48c86cc9df90ee102e8a338229 scsi: ufs: core: Honor runtime/system PM levels if set by host controller drivers
+         4f78a56af4c472834681759d4365fb93921da77d scsi: ufs: qcom: Allow passing platform specific OF data
+         3b2f56860b05bf0cea86af786fd9b7faa8fe3ef3 scsi: ufs: qcom: Power down the controller/device during system suspend for SM8550/SM8650 SoCs
+         eea6e4b4dfb8859446177c32961c96726d0117be Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
          
