@@ -1,27 +1,36 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Wed, 08 Jan 2025 04:16:41 -0000
-Message-Id: <173630980105.572730.7115350440629715400@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Wed, 08 Jan 2025 04:43:04 -0000
+Message-Id: <173631138426.592709.8997427800612791421@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
-user: pcmoore
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/next
-    old: bfbf0ee6c84f8baa1cc879ab4dca87f705cc85be
-    new: 854bc76236021f4dcebcc66215798baff3c2c12c
+  - ref: refs/heads/arm64-defconfig-for-6.14
+    old: 87be7b32e4847dfddbe44f6ea281afbabafd08d5
+    new: 1fe6c70fec8fd8c823afee66467f85f028b0d22c
     log: |
-         9d8d094fa307a93674d9126bd05adbda8b3c0011 selinux: supply missing field initializers
-         046b85a993a19c992da317b2c19e168d1da795af selinux: avoid using types indicating user space interaction
-         90903085101107b06158d2407bb2a6045af6dead selinux: constify and reconcile function parameter names
-         5e99b81f48cd565a5341c921e62fd09184d6bb72 selinux: rework match_ipv6_addrmask()
-         83e7e18eed6e06cd1ce82fa4b9c9a05c24f7a80b selinux: rename comparison functions for clarity
-         f07586160fd5492f8d48e7667e7a5d8797aa5090 selinux: use known type instead of void pointer
-         749153636643aaa793f14e84e864fdaf5ed0620d selinux: avoid unnecessary indirection in struct level_datum
-         01c2253a0fbdccb58cd79d4ff9ab39964bfb4474 selinux: make more use of str_read() when loading the policy
-         854bc76236021f4dcebcc66215798baff3c2c12c Automated merge of 'dev' into 'next'
+         1fe6c70fec8fd8c823afee66467f85f028b0d22c arm64: defconfig: Enable Qualcomm IPQ CMN PLL clock controller
+         
+  - ref: refs/heads/arm64-for-6.14
+    old: 4b120ef62ed653f4bc05e5f68832d2d2ac548b60
+    new: 6e8637db89bf138a0533b5442d9a0b02afa5e3e8
+    log: |
+         ec2f548e1a92f49f765e2bce14ceed34698514fc arm64: dts: qcom: sa8775p: Fix the size of 'addr_space' regions
+         6e8637db89bf138a0533b5442d9a0b02afa5e3e8 arm64: dts: qcom: sm8450: Add coresight nodes
+         
+  - ref: refs/heads/clk-for-6.14
+    old: 170f3d2c065ecb9757ed4e155e463aa25fd1eef9
+    new: 7ec95ff9abf499b4775148db92528feb4e8ff1ee
+    log: |
+         40106d4facbf0bd788126b2b82b25447b1b508d6 dt-bindings: clock: qcom,rpmcc: Add MSM8937 compatible
+         19024d7c5ddd90afd49b04967c7d922587c91728 clk: qcom: smd-rpm: Add clocks for MSM8937
+         ec2514d5379ddbe4191f81d99c8fe6a235d0e802 dt-bindings: clock: qcom,rpmcc: Add MSM8940 compatible
+         0ee878729f0bbe3a206002c02d31e7d964958d8f clk: qcom: smd-rpm: Add clocks for MSM8940
+         7ec95ff9abf499b4775148db92528feb4e8ff1ee dt-bindings: clock: move qcom,x1e80100-camcc to its own file
          
