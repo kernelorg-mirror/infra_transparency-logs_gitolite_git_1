@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Wed, 08 Jan 2025 15:24:40 -0000
-Message-Id: <173634988037.1111236.9064945623707114111@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Wed, 08 Jan 2025 15:31:42 -0000
+Message-Id: <173635030259.1117832.15731287316306706266@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/for-next
-    old: 6ba26a8dfef280c6a1cc73151c8f91b98593e638
-    new: f5ebfcc5dd5d081aa0d224e6e236e1d6bd0759ab
+  - ref: refs/heads/renesas/g3s/i3c-broken-out-experimental
+    old: 54c1ffaa4a7270a6fd679e410fff4df5620e89de
+    new: 5844ef340563cb383c00ceb3c5aec8d413bccdf6
     log: |
-         22bec11a569983f39c6061cb82279e7de9e3bdfc tracing: Fix using ret variable in tracing_set_tracer()
-         1bd13edbbed6e7e396f1aab92b224a4775218e68 tracing/hist: Add poll(POLLIN) support on hist file
-         66fc6f521a0b91051ce6968a216a30bc52267bf8 tracing/hist: Support POLLPRI event for poll on histogram
-         80c3e28528ff9f269937fcfe73895213a2e14905 selftests/tracing: Add hist poll() support test
-         36768f7459f0956d5fd761999de3c3ee895d3ab9 Merge ftrace/for-next
-         ffd336571214be72817093a987e93b6379cfa235 Merge probes/for-next
-         e82d8414214e8746986dfa5c036fba8138534c12 Merge sorttable/for-next
-         f5ebfcc5dd5d081aa0d224e6e236e1d6bd0759ab Merge tools/for-next
+         bccaa9c934a38f93ddca682cb22fd05c4c884de2 checkpatch fixes
+         71da8fca3d36e598e29a7a1f205908c535b43f5e handle code analyzer warnings
+         d58b5a6889716f240048112f9276e03ae7fc8e03 i3c: renesas: really bail out if there is no free_pos
+         5844ef340563cb383c00ceb3c5aec8d413bccdf6 i3c: renesas: prevent use-after-free
          
