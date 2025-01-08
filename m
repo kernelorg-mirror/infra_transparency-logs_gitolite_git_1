@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Wed, 08 Jan 2025 12:43:05 -0000
-Message-Id: <173634018530.976810.11035395779948653715@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
+Date: Wed, 08 Jan 2025 12:47:42 -0000
+Message-Id: <173634046295.980941.12688908735139806775@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/johan/usb-serial
+user: johan
 changes:
-  - ref: refs/heads/master
-    old: fbfd64d25c7af3b8695201ebc85efe90be28c5a3
-    new: 09a0fa92e5b45e99cf435b2fbf5ebcf889cf8780
+  - ref: refs/heads/usb-next
+    old: effd02d1e8fe2d6551d437a6c837cfb8367852fa
+    new: 138a99ca4e20fa1e17b4e59fa053981913702d6d
     log: |
-         5e7f0efd23238039bcd4fc72ff28d94f364ec26b selinux: match extended permissions to their base permissions
-         09a0fa92e5b45e99cf435b2fbf5ebcf889cf8780 Merge tag 'selinux-pr-20250107' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
+         138a99ca4e20fa1e17b4e59fa053981913702d6d USB: serial: ch341: use fix-width types consistently
          
