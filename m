@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
-Date: Wed, 08 Jan 2025 18:26:56 -0000
-Message-Id: <173636081604.1272669.4055157702990885337@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Wed, 08 Jan 2025 18:31:00 -0000
+Message-Id: <173636106038.1276576.2919217429774955132@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtd/linux
-user: mraynal
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/nand/next
-    old: 8d3cd6b87557cdf1c075c40025ed3d90ece01338
-    new: 6df2d9553e168fe32dd49873dd254a63ca913307
+  - ref: refs/heads/dev-test
+    old: 49de27320c18229063a17ac16672b19eefac007b
+    new: 9556272bb31d60911fa1dc34e44632d8354adc31
     log: |
-         b9371866799d67a80be0ea9e01bd41987db22f26 mtd: rawnand: qcom: Fix build issue on x86 architecture
-         6df2d9553e168fe32dd49873dd254a63ca913307 mtd: rawnand: davinci: Reduce polling interval in NAND_OP_WAITRDY_INSTR
+         a890eaebad081c65ef3be8b314c1890c854e8d73 f2fs: remove blk_finish_plug
+         8c966db0b72d19b0eca854183bff924cf0fbc3ed f2fs: add parameter @len to f2fs_invalidate_blocks()
+         9556272bb31d60911fa1dc34e44632d8354adc31 f2fs: Optimize f2fs_truncate_data_blocks_range()
          
