@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth
-Date: Wed, 08 Jan 2025 16:23:39 -0000
-Message-Id: <173635341960.1165737.6079778966498368266@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Wed, 08 Jan 2025 16:28:51 -0000
+Message-Id: <173635373158.1170079.2447217331007346643@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth
-user: vudentz
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/tags/for-net-2025-01-08
-    old: 0000000000000000000000000000000000000000
-    new: ae00236ca85b6a456757ed1d73f01477e585d26e
+  - ref: refs/heads/main
+    old: 95978931d55fb7685f8c0b2598d6c12a9b6bc82a
+    new: db78475ba0d3c66d430f7ded2388cc041078a542
+    log: |
+         b341ca51d2679829d26a3f6a4aa9aee9abd94f92 tls: Fix tls_sw_sendmsg error handling
+         cb358ff94154774d031159b018adf45e17673941 ipvlan: Fix use-after-free in ipvlan_get_iflink().
+         db78475ba0d3c66d430f7ded2388cc041078a542 eth: gve: use appropriate helper to set xdp_features
+         
