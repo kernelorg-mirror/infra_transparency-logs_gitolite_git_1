@@ -1,24 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Wed, 08 Jan 2025 18:45:50 -0000
-Message-Id: <173636195069.1289440.7726622961086083068@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Wed, 08 Jan 2025 18:49:28 -0000
+Message-Id: <173636216817.1290712.17083749372312614240@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/fixes
-    old: 6a97f4118ac07cfdc316433f385dbdc12af5025e
-    new: 5cd900b8b7e42c492431eb4261c18927768db1f9
+  - ref: refs/heads/nfsd-testing
+    old: 32af77a44db0be2e8e28e849613a35530d673318
+    new: 33c4c54ed3b912edca4c2cd9ae3dd0492ab9fc4c
     log: |
-         13134cc949148e1dfa540a0fe5dc73569bc62155 riscv: kprobes: Fix incorrect address calculation
-         7e25044b804581b9c029d5a28d8800aebde18043 cpuidle: riscv-sbi: fix device node release in early exit of for_each_possible_cpu
-         f754f27e98f88428aaf6be6e00f5cbce97f62d4b riscv: mm: Fix the out of bound issue of vmemmap address
-         51356ce60e5915a6bd812873186ed54e45c2699d riscv: stacktrace: fix backtracing through exceptions
-         40e6073e764870da39d0203fc4326adc4c37e690 riscv: qspinlock: Fixup _Q_PENDING_LOOPS definition
-         5cd900b8b7e42c492431eb4261c18927768db1f9 riscv: use local label names instead of global ones in assembly
+         8adbba46957fb64315205ec7f2cacc5a1a37e878 sunrpc: Remove unused xprt_iter_get_xprt
+         678651b2327102b4e45ad5e830f232c7da177762 sunrpc: Remove gss_generic_token deadcode
+         515f416ca1c064c77100f2944a8c61add0e8dd7b sunrpc: Remove gss_{de,en}crypt_xdr_buf deadcode
+         33c4c54ed3b912edca4c2cd9ae3dd0492ab9fc4c sunrpc: clean cache_detail immediately when flush is written frequently
          
