@@ -1,23 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/palo
-Date: Wed, 08 Jan 2025 07:29:05 -0000
-Message-Id: <173632134587.721628.18062744227588956434@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
+Date: Wed, 08 Jan 2025 07:31:23 -0000
+Message-Id: <173632148355.725053.11858646524074295650@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/palo
-user: deller
+repo: pub/scm/linux/kernel/git/ukleinek/linux
+user: ukleinek
 changes:
-  - ref: refs/heads/master
-    old: 59f4024920ebb1cf685d10527d45ef3e5af28ec6
-    new: 308cabe57cf155331b3e0194bc20e2bbf24178ca
+  - ref: refs/heads/pwm/for-next
+    old: e73a6ce8b0121a766267cd1f8d8b65aee602a9cb
+    new: 78dcad6daa405b8a939cd08f6ccd6c4e2cb50a9c
     log: |
-         6e33f5ebff52064b109b584697c3ffefa0172d1a Adjust pathnames for openSUSE
-         830db70d267de3d6b5fe5200d21c90be302dd14a palo: Fix file permissions while installing documentation
-         bee15d030f44fa53af5d8ccbce597f4abec78b00 ipl: Rephrased 2GB boot limit message
-         691bcfc9234e3f030133975f367bc67a77ab2cee docs: PA-RISC Wiki was migrated to kerneldoc documentation
-         308cabe57cf155331b3e0194bc20e2bbf24178ca palo v2.26 release
+         78dcad6daa405b8a939cd08f6ccd6c4e2cb50a9c dt-bindings: pwm: Correct indentation and style in DTS example
+         
+  - ref: refs/heads/pwm/for-nexxt
+    old: e73a6ce8b0121a766267cd1f8d8b65aee602a9cb
+    new: 78dcad6daa405b8a939cd08f6ccd6c4e2cb50a9c
+    log: |
+         78dcad6daa405b8a939cd08f6ccd6c4e2cb50a9c dt-bindings: pwm: Correct indentation and style in DTS example
          
