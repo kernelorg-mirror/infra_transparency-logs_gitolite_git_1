@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0724752208682454523=="
+Content-Type: multipart/mixed; boundary="===============3903496405559690613=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 08 Jan 2025 17:01:44 -0000
-Message-Id: <173635570475.1199344.10682408423981479166@gitolite.kernel.org>
+Date: Wed, 08 Jan 2025 17:01:47 -0000
+Message-Id: <173635570732.1199422.14682451273961108261@gitolite.kernel.org>
 
---===============0724752208682454523==
+--===============3903496405559690613==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: a1942da8a38717ddd9b4c132f59e1657c85c1432
     new: 7bf1659bad4e9413cdba132ef9cbd0caa9cabcc4
     log: revlist-a1942da8a387-7bf1659bad4e.txt
 
---===============0724752208682454523==
+--===============3903496405559690613==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -73,4 +73,4 @@ b65969856d4f98fa9142c107e3f6c9ab4b6c71cf igc: Link queues to NAPI instances
 605237372a539750bf8097073e3868f19dd05566 intel/fm10k: Remove unused fm10k_iov_msg_mac_vlan_pf
 7bf1659bad4e9413cdba132ef9cbd0caa9cabcc4 Merge branch 'intel-wired-lan-driver-updates-2025-01-06-igb-igc-ixgbe-ixgbevf-i40e-fm10k'
 
---===============0724752208682454523==--
+--===============3903496405559690613==--
