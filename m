@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Wed, 08 Jan 2025 17:17:45 -0000
-Message-Id: <173635666558.1212878.7732321713681077457@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
+Date: Wed, 08 Jan 2025 17:21:09 -0000
+Message-Id: <173635686950.1216551.5632737401874121426@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/mani/mhi
+user: mani
 changes:
-  - ref: refs/heads/hwmon-next
-    old: adc52dd4078067fabf1431036ba180eafd8a7eee
-    new: 788bd792c74a3d1ddd0e49f5ddd68102dbbbe351
+  - ref: refs/heads/mhi-next
+    old: 9241459b3cc2e66252d32bef88e858dcf9c7c487
+    new: 29904a40127ca5df120bcbcab444ea725926b075
     log: |
-         788bd792c74a3d1ddd0e49f5ddd68102dbbbe351 hwmon: (pmbus/max15301) Add support for MAX15303
+         29904a40127ca5df120bcbcab444ea725926b075 bus: mhi: host: pci_generic: Enable MSI-X if the endpoint supports
          
