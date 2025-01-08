@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Wed, 08 Jan 2025 04:53:35 -0000
-Message-Id: <173631201560.601642.15543795220894806180@gitolite.kernel.org>
+Date: Wed, 08 Jan 2025 04:58:00 -0000
+Message-Id: <173631228067.605583.6778812572997544635@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,12 +11,11 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/for-next
-    old: 91723a169594fb7e30091e9eef24ab9d731aa4da
-    new: cb350093e1db549fb4dd60f4eb9493afb676c088
+  - ref: refs/heads/arm64-for-6.14
+    old: 46ee6177b76736b49b1f34bec1244e4996fd199c
+    new: 6c7bba42ebc3da56e64d4aec4c4a31dd454e05fd
     log: |
-         795255cb4cd4388cac930e3bb3524e1ca84dd0bf arm64: dts: qcom: qcs8300: Add support for clock controllers
-         ceb39e1ea327a96cdd9fcc54c65664f0659cd9b7 arm64: dts: qcom: qcs8300: Add support for usb nodes
-         46ee6177b76736b49b1f34bec1244e4996fd199c arm64: dts: qcom: qcs8300-ride: Enable USB controllers
-         cb350093e1db549fb4dd60f4eb9493afb676c088 Merge branches 'arm32-for-6.14', 'arm64-defconfig-for-6.14', 'arm64-fixes-for-6.13', 'arm64-for-6.14', 'clk-for-6.14' and 'drivers-for-6.14' into for-next
+         b08535cd41c27b4f32319b5bff754c9da6dc2205 arm64: dts: qcom: sc8280xp: Fix interrupt type of camss interrupts
+         cb96722b728e81ad97f5b5b20dea64cd294a5452 arm64: dts: qcom: sdm845: Fix interrupt types of camss interrupts
+         6c7bba42ebc3da56e64d4aec4c4a31dd454e05fd arm64: dts: qcom: sm8250: Fix interrupt types of camss interrupts
          
