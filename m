@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 08 Jan 2025 00:31:21 -0000
-Message-Id: <173629628184.387235.17258939744575099829@gitolite.kernel.org>
+Date: Wed, 08 Jan 2025 00:31:30 -0000
+Message-Id: <173629629036.387397.6862731879649981291@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: 578f6fc55c2ced5f68a7f87edbf6db3663dc6b57
+  - ref: refs/heads/pending
+    old: c52fc6edbcdd43c1d26a87636c388885fed7cfc0
     new: 3540bba855b4b422e8b977d11aa8173ccb4f089d
     log: |
          d31241cbd9c5d74eb19192e57806e9c9ee3378f7 wifi: ath12k: rename CAC_RUNNING flag
