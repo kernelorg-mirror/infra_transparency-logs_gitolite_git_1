@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 08 Jan 2025 17:33:28 -0000
-Message-Id: <173635760875.1225150.4349739444491307694@gitolite.kernel.org>
+Date: Wed, 08 Jan 2025 17:37:46 -0000
+Message-Id: <173635786636.1229204.11248646866625813538@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
   - ref: refs/heads/master
-    old: 46c61cbeb82f8a4e6354a692d2be1a35cb0bde29
-    new: bab18c7db44d3aa6c84450095451580922359c7a
+    old: bab18c7db44d3aa6c84450095451580922359c7a
+    new: b8b1e30016260aba338a65fdcc2bfd50933c6f0a
     log: |
-         bab18c7db44d3aa6c84450095451580922359c7a selftests/bpf: add -std=gnu11 to BPF_CFLAGS and CFLAGS
+         b8b1e30016260aba338a65fdcc2bfd50933c6f0a bpf: Fix range_tree_set() error handling
          
