@@ -1,51 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============0879881527979823734=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/linux
-Date: Wed, 08 Jan 2025 04:02:06 -0000
-Message-Id: <173630892603.561022.184138824389213010@gitolite.kernel.org>
-
---===============0879881527979823734==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Wed, 08 Jan 2025 04:16:36 -0000
+Message-Id: <173630979662.572558.12509459553572965258@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/linux
-user: vireshk
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
+user: pcmoore
 changes:
-  - ref: refs/heads/virtio/msg
-    old: 373fa892eceefe5686548d1609d54b8df716efde
-    new: 13680dd372c1114b1ca01f0fda53fedd889992b7
+  - ref: refs/heads/dev
+    old: 2ef6fc99e0d922a54073e7b6d6465c62f4d3b62b
+    new: 01c2253a0fbdccb58cd79d4ff9ab39964bfb4474
     log: |
-         f47f984d983e30d299ec66a78256c57ef7dc2ce8 virtio-msg: Add DMA OPs support
-         2472cab618f21803e5caa683dfa24cd755dd8067 firmware: arm_ffa: Add reserved mem support
-         13680dd372c1114b1ca01f0fda53fedd889992b7 virtio-msg: ffa: Add reserved mem support
+         9d8d094fa307a93674d9126bd05adbda8b3c0011 selinux: supply missing field initializers
+         046b85a993a19c992da317b2c19e168d1da795af selinux: avoid using types indicating user space interaction
+         90903085101107b06158d2407bb2a6045af6dead selinux: constify and reconcile function parameter names
+         5e99b81f48cd565a5341c921e62fd09184d6bb72 selinux: rework match_ipv6_addrmask()
+         83e7e18eed6e06cd1ce82fa4b9c9a05c24f7a80b selinux: rename comparison functions for clarity
+         f07586160fd5492f8d48e7667e7a5d8797aa5090 selinux: use known type instead of void pointer
+         749153636643aaa793f14e84e864fdaf5ed0620d selinux: avoid unnecessary indirection in struct level_datum
+         01c2253a0fbdccb58cd79d4ff9ab39964bfb4474 selinux: make more use of str_read() when loading the policy
          
-  - ref: refs/heads/virtio/msg-xen
-    old: 7f3a091a12970dae44b91e21e4d58c7437de3d6d
-    new: 89b536eafa42f856d6b175424f11c4c7c7079d1f
-    log: revlist-7f3a091a1297-89b536eafa42.txt
-
---===============0879881527979823734==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7f3a091a1297-89b536eafa42.txt
-
-f47f984d983e30d299ec66a78256c57ef7dc2ce8 virtio-msg: Add DMA OPs support
-2472cab618f21803e5caa683dfa24cd755dd8067 firmware: arm_ffa: Add reserved mem support
-13680dd372c1114b1ca01f0fda53fedd889992b7 virtio-msg: ffa: Add reserved mem support
-cfe9fc85549034474e1d60e43c424750f3a5e6f2 firmware: arm_ffa: Partition info returns self as well
-e19a857e477e409cb71a207aa3a8310b5caf34d9 firmware: arm_ffa: Bump version to 1.2
-3b2bc1beb4b2d89b885c655ef02b0e5ab2df493c virtio-msg: Add helpers to create per-bus miscdevice
-ce90565bd2a9e3dadba2f35b780192c414d47290 virtio: Add support for MMIO based channel bus
-92d9d005c3b53fb993d2511b76de02c01910e635 HACK: firmware: arm_ffa: Partitions can come online after the host
-7c6dc83abbc29335274c8930bb817ebc5738389f HACK: firmware: arm_ffa: Forcefully match UUID to virtio-msg-ffa
-08c47226b9ebd08befbf1ebc953f5611a25f5ee6 HACK: virtio-msg: ffa: Make it work on the host side
-2b68995a47d3e9b7197b0c95094ad30129a07405 TEMP: defconfig: Reset
-79e55a9d5b42c595d06cc8b83d16f89b349cc2d0 TEMP: defconfig: Enable virtio-msg + qemu/xen options
-89b536eafa42f856d6b175424f11c4c7c7079d1f TEMP: defconfig: Enable INITRAMFS for guest kernel
-
---===============0879881527979823734==--
