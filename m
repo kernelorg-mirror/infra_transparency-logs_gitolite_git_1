@@ -1,46 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============4279802214986871800=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Wed, 08 Jan 2025 11:35:26 -0000
-Message-Id: <173633612600.921536.7778731809822546388@gitolite.kernel.org>
-
---===============4279802214986871800==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Wed, 08 Jan 2025 11:40:18 -0000
+Message-Id: <173633641882.925781.10245317002440649388@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/review-ilpo-next
-    old: c200f9b6c2a461fbbdae3a04fee9a045ec215297
-    new: 12016dc8659d041b6237977b9e3ef78ecbdf1495
+  - ref: refs/heads/master
+    old: 0a14cfc32abc62f1fd117891d523bd5349eda6e8
+    new: 9a48f32b59e33e4da21d1e5ade20d3a5b1e1060c
     log: |
-         12016dc8659d041b6237977b9e3ef78ecbdf1495 platform/x86: acer-wmi: Add support for Acer Predator PH16-72
+         237f31e883445e6db91332612a102fc0aa19420d tests: (lsns::filter) skip if /proc/self/uid_map is not writable
+         49fc981c3618516368eb7dfc4c074c383d3ec9e7 tests: (test_mkfds::sockdiag) support AF_VSOCK family
+         a1dcb396ab03b378e9e9108362f8e9793b102a2c tests: (lsfd::mkfds_vsock) skip if diag socket for AF_VSOCK is unavailable
+         528dbe18854fb16dba41af620ee2ca295936a550 meson: add missing `is_disabler` checks
+         d8532ef299c2dc5e13489df19fc483a67d45f8f5 ci: bump coveralls compiler version to gcc 13
+         af0e8513b874eed01ac092d4480a8190c4929ac2 Merge branch 'meson-disabler' of https://github.com/thesamesam/util-linux
+         9a48f32b59e33e4da21d1e5ade20d3a5b1e1060c Merge branch 'revise--test-cases' of https://github.com/masatake/util-linux
          
-
---===============4279802214986871800==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1736336152 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1736336121-9ca576bc69906ea95db38f6a96729e815577b6a6
-
-c200f9b6c2a461fbbdae3a04fee9a045ec215297 12016dc8659d041b6237977b9e3ef78ecbdf1495 refs/heads/review-ilpo-next
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZ35jGwAKCRBZrE9hU+XO
-MZNFAQCleQieqc0CIAoFr+VCGYr4HXAEfPJU9PSvidYbeGEBqQD+KU+GyQ0v81Eu
-bOWB9FS5c6bq4HT7/31V95L/nv4XgAI=
-=cSJ0
------END PGP SIGNATURE-----
-
---===============4279802214986871800==--
