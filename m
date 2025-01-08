@@ -1,28 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 08 Jan 2025 17:46:32 -0000
-Message-Id: <173635839237.1238081.13577831655023156092@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Wed, 08 Jan 2025 17:49:42 -0000
+Message-Id: <173635858266.1240068.3047081609325752655@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/for-linus
-    old: 1acb73db4893345d5811f48f1ff979cec495009e
-    new: 088fb4ee17fc456fcbce0a9ff46d147e3b2be139
+  - ref: refs/heads/dev-test
+    old: 43ac90113bdc22e57aabc7bccbf04b43405ca9aa
+    new: 49de27320c18229063a17ac16672b19eefac007b
     log: |
-         704dbe97a68153a84319ad63f526e12ba868b88e ASoC: samsung: Add missing depends on I2C
-         088fb4ee17fc456fcbce0a9ff46d147e3b2be139 ALSA: doc: cs35l56: Add information about Cirrus Logic CS35L54/56/57
-         
-  - ref: refs/heads/for-next
-    old: 2370dd1b2e6e77d437b1b6733978a0f85a5c0827
-    new: d49e4cb59a828fafb19750c5d54e60158b7fc152
-    log: |
-         704dbe97a68153a84319ad63f526e12ba868b88e ASoC: samsung: Add missing depends on I2C
-         088fb4ee17fc456fcbce0a9ff46d147e3b2be139 ALSA: doc: cs35l56: Add information about Cirrus Logic CS35L54/56/57
-         d49e4cb59a828fafb19750c5d54e60158b7fc152 Merge remote-tracking branch 'asoc/for-6.14' into asoc-next
+         48ea26baf11f82d3a077bcfcf4be6ab4bf8bd9b8 f2fs: don't call block truncation for aliased file
+         b21ea0ab8d7c2356a38c34f5b654a0927cb4731f f2fs: introduce update_sit_entry_for_release/alloc()
+         f783468af119300ad3f07548c03e8fc4b222762c f2fs: update_sit_entry_for_release() supports consecutive blocks.
+         49de27320c18229063a17ac16672b19eefac007b f2fs: fix to do sanity check correctly on i_inline_xattr_size
          
