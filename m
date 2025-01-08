@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mdraid/linux
-Date: Wed, 08 Jan 2025 21:43:18 -0000
-Message-Id: <173637259840.1432890.14076302727799393027@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
+Date: Wed, 08 Jan 2025 21:49:13 -0000
+Message-Id: <173637295339.1437503.10422181923867915830@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mdraid/linux
-user: song
+repo: pub/scm/linux/kernel/git/sashal/linus-next
+user: sashal
 changes:
-  - ref: refs/heads/md-6.14
-    old: 844b8cdc681612ff24df62cdefddeab5772fadf1
-    new: 31927e3d26c513c3063a2ec6e71763bbfd2688c0
-    log: |
-         7ad00dd67641fd509fff206f70eecb1364593eff md: reintroduce md-linear
-         31927e3d26c513c3063a2ec6e71763bbfd2688c0 md: Replace deprecated kmap_atomic() with kmap_local_page()
-         
+  - ref: refs/heads/linus-next
+    old: 602bf18307981f3bfd9ebf19921791a4256d3fd1
+    new: 5e36be5973b6ac66198220365bffb7a3641038f9
