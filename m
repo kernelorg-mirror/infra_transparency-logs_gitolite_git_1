@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 08 Jan 2025 02:05:13 -0000
-Message-Id: <173630191348.469071.7741899542733195245@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Wed, 08 Jan 2025 02:11:51 -0000
+Message-Id: <173630231113.474761.12047113619705301492@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/main
-    old: 95978931d55fb7685f8c0b2598d6c12a9b6bc82a
-    new: cb358ff94154774d031159b018adf45e17673941
+  - ref: refs/heads/clk-for-6.14
+    old: 898b72fa44f5739d22016ec5ff6697ba4ac4464d
+    new: f760a4bb5e927a133dcd75f7b69ccae2a331e42c
     log: |
-         b341ca51d2679829d26a3f6a4aa9aee9abd94f92 tls: Fix tls_sw_sendmsg error handling
-         cb358ff94154774d031159b018adf45e17673941 ipvlan: Fix use-after-free in ipvlan_get_iflink().
+         f760a4bb5e927a133dcd75f7b69ccae2a331e42c clk: qcom: gcc-sdm845: Do not use shared clk_ops for QUPs
          
