@@ -1,42 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============8046248806930192272=="
+Content-Type: multipart/mixed; boundary="===============4662021145752201126=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Thu, 09 Jan 2025 07:43:13 -0000
-Message-Id: <173640859365.1914774.3305759295047022278@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Thu, 09 Jan 2025 08:04:31 -0000
+Message-Id: <173640987135.1931269.10114147450865129982@gitolite.kernel.org>
 
---===============8046248806930192272==
+--===============4662021145752201126==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/experimental
-    old: d37f7fdb0e822eaa9303ce3847f5d9ce31553b8c
-    new: 5158b999e3a94beb651884f2255f8f5876f48e24
-    log: revlist-d37f7fdb0e82-5158b999e3a9.txt
+  - ref: refs/heads/fixes
+    old: 7e16ae558a87ac9099b6a93a43f19b42d809fd78
+    new: 1d7461d0c8330689117286169106af6531a747ed
+    log: |
+         dd410d784402c5775f66faf8b624e85e41c38aaf platform/x86/amd/pmc: Only disable IRQ1 wakeup where i8042 actually enabled it
+         bee9a0838fd223823e5a6d85c055ab1691dc738e platform/x86/intel: power-domains: Add Clearwater Forest support
+         cc1ff7bc1bb378e7c46992c977b605e97d908801 platform/x86: ISST: Add Clearwater Forest to support list
+         1d7461d0c8330689117286169106af6531a747ed platform/x86: intel/pmc: Fix ioremap() of bad address
+         
 
---===============8046248806930192272==
+--===============4662021145752201126==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d37f7fdb0e82-5158b999e3a9.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-3bd00bf7bd9aab03b1e7e0a36fe608719739ee09 erofs-utils: mkfs: fix crash when failing to build tree
-3f38792808e5bd56b47ecca2d06ad804528c8e8f erofs-utils: lib: fix btype for the data tails of directories
-2db06245b1e259cc36762ce61c9f19b88cf317e8 erofs-utils: lib: cache: get rid of required_ext
-eb9c1d5f759a3015e4d1c7c1d9c87f42496ea09e erofs-utils: lib: move block boundary check into __erofs_battach()
-c7893efdbc8a4b262397e0576fcf3e2f7b02b443 erofs-utils: lib: support buffer block reservation
-ba3b18c98a9c9c1533bd7ae4b23c19df62436838 erofs-utils: mkfs: support data alignment
-3c68f561e54acfc62b8e2f80e0e716351933a2a2 erofs-utils: lib: use round_up() to avoid division
-32d578cd285a6e18affd6807dd77756c1a5c3a7e erofs-utils: lib: add some bit operations
-acaa14b0d370c83df6c28a3ff6e7c73cd2fed391 erofs-utils: lib: rename `mapped_buckets` to `watermeter`
-fb058c3a58281dcab7370bc02722be64ce6726c9 erofs-utils: lib: optimize space allocation
-482027625d2d5d7b5c1a450587497d02ae4fa35f erofs-utils: lib: use bitmaps to accelerate bucket selection
-5158b999e3a94beb651884f2255f8f5876f48e24 erofs-utils: lib: drop prefix_sha256 digests
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1736409896 +0200
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1736409864-4255b488645c5bcdb4582db1736f16ac3889e60d
 
---===============8046248806930192272==--
+7e16ae558a87ac9099b6a93a43f19b42d809fd78 1d7461d0c8330689117286169106af6531a747ed refs/heads/fixes
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZ3+DLAAKCRBZrE9hU+XO
+MTquAP9plo9QChZ26/MY14HSaWbayKIscg3+6j4Af5IFccU1GgD/UvPAjZB2sJ45
+1hIVoD0eRlsoTEA+0OzWcnXLHT3MsAY=
+=8PCh
+-----END PGP SIGNATURE-----
+
+--===============4662021145752201126==--
