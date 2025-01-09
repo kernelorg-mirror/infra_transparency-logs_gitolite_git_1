@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0743830248410925235=="
+Content-Type: multipart/mixed; boundary="===============0693180556269310757=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/i3c/linux
-Date: Thu, 09 Jan 2025 15:23:52 -0000
-Message-Id: <173643623290.2556438.17531907562378547296@gitolite.kernel.org>
+Date: Thu, 09 Jan 2025 15:26:18 -0000
+Message-Id: <173643637875.2560050.15617072837136318151@gitolite.kernel.org>
 
---===============0743830248410925235==
+--===============0693180556269310757==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/i3c/linux
 user: abelloni
 changes:
-  - ref: refs/heads/i3c/next
-    old: 6cf7b65f7029914dc0cd7db86fac9ee5159008c6
+  - ref: refs/heads/i3c/fixes
+    old: 9852d85ec9d492ebef56dc5f229416c925758edc
     new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    log: revlist-6cf7b65f7029-40384c840ea1.txt
+    log: revlist-9852d85ec9d4-40384c840ea1.txt
 
---===============0743830248410925235==
+--===============0693180556269310757==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6cf7b65f7029-40384c840ea1.txt
+Content-Disposition: attachment; filename=revlist-9852d85ec9d4-40384c840ea1.txt
 
 4eb98b7760e8078dbc984ee08b02b5b4c3cff088 Merge tag 'vfs-6.13.mount.api' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 70e7730c2a78313e3ccc932410c939816e3ba1bc Merge tag 'vfs-6.13.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1051,4 +1051,4 @@ f788b5ef1ca9b1c2f8d4e1beb2b25edc2db43ef4 Merge tag 'timers_urgent_for_v6.13_rc1'
 a14bf463e7dfa389850b9d47d38dda4fa71c8ade Merge tag 'i2c-for-6.13-rc1-part3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 40384c840ea1944d7c5a392e8975ed088ecf0b37 Linux 6.13-rc1
 
---===============0743830248410925235==--
+--===============0693180556269310757==--
