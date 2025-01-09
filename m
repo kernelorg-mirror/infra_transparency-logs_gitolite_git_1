@@ -1,36 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============8482863033121119204=="
+Content-Type: multipart/mixed; boundary="===============1728859743523849993=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 09 Jan 2025 05:19:31 -0000
-Message-Id: <173639997144.1802398.1415394945610352634@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 09 Jan 2025 05:19:44 -0000
+Message-Id: <173639998496.1803206.2677207767107043160@gitolite.kernel.org>
 
---===============8482863033121119204==
+--===============1728859743523849993==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 4b90165c7d1173e0f65538d25aa718ec7ecdd5d6
     new: 6ecd20965bdc21b265a0671ccf36d9ad8043f5ab
     log: revlist-4b90165c7d11-6ecd20965bdc.txt
-  - ref: refs/heads/stable
-    old: fbfd64d25c7af3b8695201ebc85efe90be28c5a3
-    new: eea6e4b4dfb8859446177c32961c96726d0117be
-    log: revlist-fbfd64d25c7a-eea6e4b4dfb8.txt
-  - ref: refs/tags/next-20241009
-    old: 8924fa52475b98444c975cb169a6825bb8dab829
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20250109
     old: 0000000000000000000000000000000000000000
     new: 2f99dd6fe21b80f006a780ae6a3792051f6c9868
 
---===============8482863033121119204==
+--===============1728859743523849993==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1061,26 +1054,4 @@ b16557cc033b0d41f1c115f70bea24c3e77c526a Merge branch 'next' of https://git.kern
 adb90c2197708539f922c3bc69a0d72e457107dd fix up for "rmap: add support for PUD sized mappings to rmap"
 6ecd20965bdc21b265a0671ccf36d9ad8043f5ab Add linux-next specific files for 20250109
 
---===============8482863033121119204==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fbfd64d25c7a-eea6e4b4dfb8.txt
-
-f2893c0804d86230ffb8f1c8703fdbb18648abc8 dm array: fix releasing a faulty array block twice in dm_array_cursor_end
-626f128ee9c4133b1cfce4be2b34a1508949370e dm array: fix unreleased btree blocks on closing a faulty array cursor
-0bb1968da2737ba68fd63857d1af2b301a18d3bf dm array: fix cursor index when skipping across block boundaries
-7bac65687510038390a0a54cbe14fba08d037e46 scsi: ufs: qcom: Power off the PHY if it was already powered on in ufs_qcom_power_up_sequence()
-bb9850704c043e48c86cc9df90ee102e8a338229 scsi: ufs: core: Honor runtime/system PM levels if set by host controller drivers
-4f78a56af4c472834681759d4365fb93921da77d scsi: ufs: qcom: Allow passing platform specific OF data
-3b2f56860b05bf0cea86af786fd9b7faa8fe3ef3 scsi: ufs: qcom: Power down the controller/device during system suspend for SM8550/SM8650 SoCs
-6df90c02bae468a3a6110bafbc659884d0c4966c dm-verity FEC: Fix RS FEC repair for roots unaligned to block size (take 2)
-548c6edbed92031baa4aa32cae55628c810c3ebb dm-verity FEC: Avoid copying RS parity bytes twice.
-5e7f0efd23238039bcd4fc72ff28d94f364ec26b selinux: match extended permissions to their base permissions
-09a0fa92e5b45e99cf435b2fbf5ebcf889cf8780 Merge tag 'selinux-pr-20250107' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
-47f33c27fc9565fb0bc7dfb76be08d445cd3d236 dm-ebs: don't set the flag DM_TARGET_PASSES_INTEGRITY
-80f130bfad1dab93b95683fc39b87235682b8f72 dm thin: make get_first_thin use rcu-safe list first function
-0b7958fa05d562e514fd0abe2a4800042abf868b Merge tag 'for-6.13/dm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
-eea6e4b4dfb8859446177c32961c96726d0117be Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-
---===============8482863033121119204==--
+--===============1728859743523849993==--
