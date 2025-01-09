@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 09 Jan 2025 11:57:57 -0000
-Message-Id: <173642387746.2138360.10324589819242339273@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 09 Jan 2025 12:03:55 -0000
+Message-Id: <173642423568.2142982.14491825858111418957@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: e61e6c415ba9ff2b32bb6780ce1b17d1d76238f1
-    new: 33d97a07b3ae6fa713919de4e1864ca04fff8f80
-    log: |
-         33d97a07b3ae6fa713919de4e1864ca04fff8f80 netlink: add IPv6 anycast join/leave notifications
-         
+  - ref: refs/heads/file7x60am
+    old: 0000000000000000000000000000000000000000
+    new: 5e56618e1593a9eb9d72dc9433ac7a02a6c48c8f
