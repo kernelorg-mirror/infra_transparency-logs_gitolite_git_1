@@ -1,56 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============8067259102733088414=="
+Content-Type: multipart/mixed; boundary="===============2960765277665866489=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 09 Jan 2025 10:13:37 -0000
-Message-Id: <173641761791.2042600.15113649970739855934@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+Date: Thu, 09 Jan 2025 10:13:47 -0000
+Message-Id: <173641762768.2042800.5532525238318665547@gitolite.kernel.org>
 
---===============8067259102733088414==
+--===============2960765277665866489==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+user: thomas.weissschuh
 changes:
-  - ref: refs/heads/master
-    old: 93c6237a5f22f4799e6d7e271ab4d8f07f40582a
-    new: 1651b5cee60475f0299693af18ec8e88e5ce8926
-    log: |
-         1651b5cee60475f0299693af18ec8e88e5ce8926 drop queue-5.15/drivers-block-zram-zram_drv.c-do-not-keep-dangling-z.patch
-         
+  - ref: refs/heads/vdso/store
+    old: 5eff74c3b09e18763969160fcfa8bf80f513f49f
+    new: 9412d313c2c3ffdec4b10cfc11d2a227cb46e666
+    log: revlist-5eff74c3b09e-9412d313c2c3.txt
 
---===============8067259102733088414==
+--===============2960765277665866489==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-5eff74c3b09e-9412d313c2c3.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736417646 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1736417615-f6be77eb0605cee92b89629103b6d9ced0cb99c1
+f7809a37a8416b3d7bd4381b977bea2f7fdf23df x86/vdso: Fix latent bug in vclock_pages calculation
+5a5200cb58c2e0c48ca0f79a4e2fb5b7d16baec0 parisc: Remove unused symbol vdso_data
+18fdabd2c02669c9052742353a7c9360d2f57f56 vdso: Introduce vdso/align.h
+75bab883b84dcc3b6a37d777faafbb5dde03f08a vdso: Rename included Makefile
+06a71c160bf05225e421c5f83b79cdf403bca38c vdso: Add generic time data storage
+4d395caf41f72e89dab455429da7836a4a7e3518 vdso: Add generic random data storage
+8e14441515e22548442ac2629e01095dec3c4c19 vdso: Add generic architecture-specific data storage
+a57df2892aefdd1be0a90e5ea3125943d9bcf33b arm64: vdso: Switch to generic storage implementation
+699748a8e071cdc654bb33ba96fa00361fdda66b riscv: vdso: Switch to generic storage implementation
+cecaa5bde67fa0546153fddf4577102507a413ec LoongArch: vDSO: Switch to generic storage implementation
+11f4ce93f63e1aeffb5527ab72641ae7a8b661f3 arm: vdso: Switch to generic storage implementation
+8eaf54b4d2761226f4803d937f171f2392a00c5a s390/vdso: Switch to generic storage implementation
+604b9da76ef21bc757d3cc25fe4716951fd016ab MIPS: vdso: Switch to generic storage implementation
+d4a475b9f5c28dd270b6852365819e56fbee8706 powerpc/vdso: Switch to generic storage implementation
+6a3b7188d327c47d581b8bdd50d8a7dee53b3d57 x86/vdso: Switch to generic storage implementation
+7e64d88f12e40423c7d4c0ea7a8e155c8b78dc86 x86/vdso/vdso2c: Remove page handling
+e8adc143ba93c1b58c13ab03e170c96c02df09c8 vdso: Remove remnants of architecture-specific random state storage
+9412d313c2c3ffdec4b10cfc11d2a227cb46e666 vdso: Remove remnants of architecture-specific time storage
 
-93c6237a5f22f4799e6d7e271ab4d8f07f40582a 1651b5cee60475f0299693af18ec8e88e5ce8926 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmd/oW4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yo8P/REXoP+KzkSdE/Y0V9xa
-amk8cpXd3wOE+X9ZChHGJPPAxJju19y8TJJ6C5+MEYqWkJkWiwZ7nXNactqJTmHX
-1PB9syEVNm4OV8dep1H5HmmnbAN8dwhBJEQ+gplCa+EwhS6o7Gh/qETG+F9KqNlp
-2qLsQ/9SZmm/a2KqagIaAVyi00Kw8y1pXNaEAX2/3Iy7KeLbMioVpTa79wzkTjVq
-w56MC9/O8rXi9+9u/rglgbR+5ltI1sL6YrFC2Ljqlq708eH50CxVdj8G6qq9d66t
-Pq/VTT06MPmi1neowbtbNMmLT1sd2gOpR/yud3tltiwDonRRk4GyWlWtkXsidJnp
-j/gZ8VqjCy8iV2jsXu299mSFXgz+QZugsL0FZUxFPV8ALb8xWElUqZId9x9WoffA
-+r0ZqgPKC+jGPBWQLqfYpvN+sOnCTx2nOpGbd/e5+5312KDKNm7tYgQlRV2g+QOf
-46yIkB4zDoHBOHMDKkPUU5QWrpVAQqUpQPVKA2ouEUkn+oDNsMRAbNRSfuJcfSoe
-gPKyIHc2tgKFVGpub1Dy2IPSZyyr3NLJPZSvGpDpS7sYz4oymclhScxvtMuxypHx
-k0X+sAwUf8wUCnhkQNGN9nldrUUhPGb0ngUQ+aQKSqYxZgwEZy5s3Zef5/Itqpjn
-lzIHxtjpCPoQfxfymQG4idy5
-=is1M
------END PGP SIGNATURE-----
-
---===============8067259102733088414==--
+--===============2960765277665866489==--
