@@ -1,16 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 09 Jan 2025 17:22:17 -0000
-Message-Id: <173644333795.2662086.6459666773278115662@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Thu, 09 Jan 2025 17:40:45 -0000
+Message-Id: <173644444556.2677377.17613062282649988673@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/fileIaO90A
-    old: 0000000000000000000000000000000000000000
-    new: 7e24ec93aecd12e33d31e38e5af4625553bbc727
+  - ref: refs/heads/fixes
+    old: 5cd900b8b7e42c492431eb4261c18927768db1f9
+    new: 6f6ecce59d99ef95a31a137c51e61c3d7b4ab278
+    log: |
+         503465d4dc40849af3cc18a517a5c06e155c5e33 tools: selftests: riscv: Add pass message for v_initval_nolibc
+         ebdc22c51acee963e26cacb2cb63f8fa2f483808 tools: selftests: riscv: Add test count for vstate_prctl
+         89726fb01a12d639fbf1172f74f8215b1c2ebf24 Merge patch series "selftest: fix riscv/vector tests"
+         fc58db9aeb15e89b69ff5e9abc69ecf9e5f888ed drivers/perf: riscv: Fix Platform firmware event data
+         2c206cdede567f53035c622e846678a996f39d69 drivers/perf: riscv: Return error for default case
+         3aff4cdbe506652da77570baccad623511628250 drivers/perf: riscv: Do not allow invalid raw event config
+         6f6ecce59d99ef95a31a137c51e61c3d7b4ab278 Merge patch series "SBI PMU event related fixes"
+         
