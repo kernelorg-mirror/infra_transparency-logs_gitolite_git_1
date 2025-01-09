@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5988706539915953705=="
+Content-Type: multipart/mixed; boundary="===============3621817219484561675=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Thu, 09 Jan 2025 19:20:34 -0000
-Message-Id: <173645043453.2763185.9397445641837831546@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Thu, 09 Jan 2025 19:20:36 -0000
+Message-Id: <173645043626.2763429.16944918268046974816@gitolite.kernel.org>
 
---===============5988706539915953705==
+--===============3621817219484561675==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: eea6e4b4dfb8859446177c32961c96726d0117be
     log: revlist-fbfd64d25c7a-eea6e4b4dfb8.txt
 
---===============5988706539915953705==
+--===============3621817219484561675==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ bb9850704c043e48c86cc9df90ee102e8a338229 scsi: ufs: core: Honor runtime/system P
 0b7958fa05d562e514fd0abe2a4800042abf868b Merge tag 'for-6.13/dm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
 eea6e4b4dfb8859446177c32961c96726d0117be Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 
---===============5988706539915953705==--
+--===============3621817219484561675==--
