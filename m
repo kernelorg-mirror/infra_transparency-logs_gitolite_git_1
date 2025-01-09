@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 09 Jan 2025 11:15:47 -0000
-Message-Id: <173642134755.2100568.1363456805852837147@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
+Date: Thu, 09 Jan 2025 11:19:08 -0000
+Message-Id: <173642154824.2101927.7172924191059264963@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/rppt/linux
+user: rppt
 changes:
-  - ref: refs/heads/fileZ9BJE2
+  - ref: refs/heads/execmem/x86-rox/v9
     old: 0000000000000000000000000000000000000000
-    new: 8f0defd2e52d22eb994d7e770b1261caa24917d8
+    new: 9c24708d11ff1f080ddfd73574af9f6a17298426
