@@ -1,79 +1,16 @@
-Content-Type: multipart/mixed; boundary="===============3787211901710270767=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Thu, 09 Jan 2025 18:39:25 -0000
-Message-Id: <173644796558.2725713.1782876234483486244@gitolite.kernel.org>
-
---===============3787211901710270767==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 09 Jan 2025 18:48:12 -0000
+Message-Id: <173644849202.2733430.10154663808814616958@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: 39c2547579aaceb71d9e66ff0b56b6985c64e7c4
-    new: cea42d1a85628348fb6081c2856a0ea73cb48f3d
-    log: revlist-39c2547579aa-cea42d1a8562.txt
-
---===============3787211901710270767==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-39c2547579aa-cea42d1a8562.txt
-
-e2c4dc54cd52612d612f49ba728a4b2d008e4fd8 perf lock contention: Run BPF slab cache iterator
-0c631ef07c96536a66d8168dc7e176de5fa82878 perf lock contention: Resolve slab object name using BPF
-91a5bffa56fd447d5380d58d4b30be527520e96f perf lock contention: Handle slab objects in -L/--lock-filter option
-26f45ec8f0367f8ee54dff5c7f2cfe8d445f3da8 perf jevents: Provide better path information for broken JSON
-518413d89ce498d35f6cb7104dd8c32f6e87a9aa perf Documentation: Describe the PMU naming convention
-2f0539fa02672e4a703e0d4205f40caa0a141d22 perf stream: Use evsel rather than evsel->idx
-2f4847b5d62cdfb8814edde178d094d0a9392ee0 perf values: Use evsel rather than evsel->idx
-e5de3f9da5243a57747d0d4a4385a960205dfbb2 perf path: Remove unused is_executable_file()
-0255338d69754a021f239605a51e3a72d36294bb perf trace: Add tests for BTF general augmentation
-00c640595e130eeba973858033db7488dbacd2a3 perf docs: Add documentation for --force-btf option
-967364894e61b15819a0c11231512ecd5a46b503 perf stat: Fix trailing comma when there is no metric unit
-9f1df75509bc16f63e6b956ea7145b437cdef3e0 perf stat: Also hide metric-units from JSON when event didn't run
-d226f434fb924d1b95999a8775c37d4804a22f57 perf stat: Remove empty new_line_metric function
-dd566687ef33995b54d040765c7400812841db35 perf stat: Document and simplify interval timestamps
-ed60738a9b7ede4a4ae797d90be7fde3e10a36c7 perf stat: Document and clarify outstate members
-058b38ccd2af9e5c95590b018e8425fa148d7aca perf top: Don't complain about lack of vmlinux when not resolving some kernel samples
-0f9ad973b0958834d19cd9aee00ef3b316e01b27 perf tests code-reading: Handle change in objdump output from binutils >= 2.41 on riscv
-d52af4b8c6645d362ebaad5693c319e7c03e4bea perf tests shell task_analyzer: Run this test exclusively
-b031fe8351cd5b2c7c7d3c85c036910b9e5817a2 perf Documentation: Clarify sysfs event names characters
-05efa0ab0115d32882fc516aa5c99199f35412f1 perf evsel: Improve the evsel__open_strerror() for EBUSY
-86a12b92a97326e17a621a8f759089a3beab8f3c perf ftrace: Display latency statistics at the end
-e5f2024cb997cd974582ecb5c6344729db508a24 perf ftrace profile: Add --graph-opts option
-c738a34417b6087e2b27ac1494fef12e37057f93 perf test: Update ftrace test to use --graph-opts
-dae29277fddaaf6670d17dfcbb916a2ca29c912f perf maps: Fix display of kernel symbols
-7a93786c306296f15e728b1dbd949a319e4e3d19 perf machine: Don't ignore _etext when not a text symbol
-f523347ba6b63eaa814f26b056006796243af322 perf jitdump: Accept jitdump mmaps emitted from inside containers
-9c6a585d257f6845731f4e36b45fe42b5c3162f5 perf namespaces: Introduce nsinfo__set_in_pidns()
-74833e37dfc6ff38e0708d613337828fe2a552a3 perf jitdump: Fixup in_pidns member when java agent and 'perf record' are not in the same pidns
-64a7617efd5ae1d57a75e464d7134eec947c3fe3 perf namespaces: Fixup the nsinfo__in_pidns() return type, its bool
-58f4f294b358861adaee68dfd19da1060058ec27 perf test trace_btf_general: Fix shellcheck warning
-9c64c7c658265f93350aedf77c6b4055ebd71688 perf llvm-add2line: Remove unused symbol_conf.h include
-6bfb4c571b8896df479e6b82a241ea7055ec4b55 perf test cpumap: Avoid use-after-free following merge
-4a73aff8c5e2a156bb841f022df51c27e8104ac8 perf tools: Create generic syscall table support
-26db6722566bbbba9b184548fa4493123e800e9d perf tools arc: Support generic syscall headers
-c68825eed9ba84c82d3673f776bb83f570b3ccba perf tools csky: Support generic syscall headers
-9605665a64a7d5deadf9d7fa31c5cc058ffa4590 perf tools arm: Support syscall headers
-430a6dfe41d329001a1edf2338cff8ac5ce841d4 perf tools sh: Support syscall headers
-1f44829e5e8b95e9590fbf642139605c7b0d594f perf tools sparc: Support syscall headers
-24f122dc0993dd1d6bfb3ef94c4e7b6701f8839d perf tools xtensa: Support syscall header
-a874d1f6f107685af28ddca01dbe26846935d960 perf tools x86: Use generic syscall scripts
-bb4f8428913814abc30b41a5dba7daade8acc436 perf tools alpha: Support syscall header
-02f2d58f235ddcf8bc33c084cff84fd685a1be11 perf tools parisc: Support syscall header
-cb8197db8c09d7e17a71821ce4076e13ac7f5c70 perf tools arm64: Use syscall table
-fa70857a27e5aafaeada26e7c709b2cbfbeede81 perf tools loongarch: Use syscall table
-619ffe669496a28802b04195a4df32213f4e3bdd perf tools mips: Use generic syscall scripts
-7eca67cf3dabc6872cbdc3895f4158095ab42b4d perf tools powerpc: Use generic syscall table scripts
-beefd0cb1b98a03c2f0ae76987213b344e0daa70 perf tools s390: Use generic syscall table scripts
-d06826160a982494957cb3357c05353334934537 perf tools: Remove dependency on libaudit
-cea42d1a85628348fb6081c2856a0ea73cb48f3d perf test: Mark remaining probe tests as exclusive
-
---===============3787211901710270767==--
+  - ref: refs/heads/v2_20250109_kory_maincent_arrange_pse_core_and_update_tps23881_driver
+    old: c3ad22ad34f81a8906dba02ea8cc9756d2ce7b50
+    new: 0000000000000000000000000000000000000000
