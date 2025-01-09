@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Thu, 09 Jan 2025 20:26:51 -0000
-Message-Id: <173645441173.2818806.935211389557873293@gitolite.kernel.org>
+Date: Thu, 09 Jan 2025 20:27:50 -0000
+Message-Id: <173645447048.2819337.13301699522370776122@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/core
-    old: 0e45818ec1896c2b4aee0ec6721022ad625ea531
-    new: 6e383e3eec0fdd7393cdd49575a3646b1d5a04e4
+  - ref: refs/heads/sched/core
+    old: 7c8cd569ff66755f17b0c0c03a9d8df1b6f3e9ed
+    new: 31c75ae26dd2728042facde70730625321febb9e
     log: |
-         82c4d3817394e0e782963ec6ef0dabcf7fa91160 perf/x86/intel/uncore: Clean up func_id
-         401b71a784df168a57aeb77647ff5797c98a492e perf/x86/intel/uncore: Support more units on Granite Rapids
-         6e383e3eec0fdd7393cdd49575a3646b1d5a04e4 perf: map pages in advance
+         31c75ae26dd2728042facde70730625321febb9e sched: Fix race between yield_to() and try_to_wake_up()
          
