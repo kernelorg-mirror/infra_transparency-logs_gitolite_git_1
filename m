@@ -1,69 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6604919596157231624=="
+Content-Type: multipart/mixed; boundary="===============7701189669806093162=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Thu, 09 Jan 2025 11:41:12 -0000
-Message-Id: <173642287289.2123209.412841456632705487@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 09 Jan 2025 11:41:27 -0000
+Message-Id: <173642288704.2123427.12114714818781144121@gitolite.kernel.org>
 
---===============6604919596157231624==
+--===============7701189669806093162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/review-ilpo-next
-    old: a9a8b67325c215b757a5c2a682c5a5453490ccfa
-    new: 58126788aa7726c0e91de6b25e6e332fa06089ab
-    log: revlist-a9a8b67325c2-58126788aa77.txt
+  - ref: refs/heads/master
+    old: 1e09ad0146dffb220f3a595dd3fe71b1cbc7500c
+    new: b4c2068af3db97a83dc3469bb729e5585abfa6c0
+    log: |
+         b4c2068af3db97a83dc3469bb729e5585abfa6c0 6.6-stable patches
+         
 
---===============6604919596157231624==
+--===============7701189669806093162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1736422898 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1736422868-74781f7f5a1df2bcc5782a8af43b462d6499e2ea
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736422915 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1736422884-41316ed36e820159cc46138e6725c8a3d72f0f4d
 
-a9a8b67325c215b757a5c2a682c5a5453490ccfa 58126788aa7726c0e91de6b25e6e332fa06089ab refs/heads/review-ilpo-next
+1e09ad0146dffb220f3a595dd3fe71b1cbc7500c b4c2068af3db97a83dc3469bb729e5585abfa6c0 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZ3+19QAKCRBZrE9hU+XO
-Mf62AP9IlmuvHCFWDy447DYvA9iry+j1Sr3vVqE3fXFMMiIC2wEA7xxOGGnSRr9t
-JtEZMhtBqovUi200U1VZlM13qFAnnwg=
-=f7SO
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmd/tgQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8XcP/jgj1k1qzdl6jfkuByS8
+8vRXR/ukqgL7AGmKg1/9miiyRJzppkPjfBgsmsCyC+EakJpCr8EyTQJtYVtUNWQP
+3C3fw2K1Go7ur3ZPhxjdntRMa3GNxqgZCcLIy/Xm817HQz4b7jhf5sIAd4h1T9No
+D0r9ae1jMLmqZsupJAdyVWBkrsZt6LtLT4YgyUYQUZ6SURRz0XTx8d5v/9C/jSII
+fWoWPXoMUszQdh4NKCEoufxyfo/VVc1DeLnvxEx7jdXBJPxbMGR3R22FFmsO7/gm
+4h9vi8pzCxrKoJLNrSoKdlYOdcUgtF03EwD68H5yNYhhfDXPNxod5J4OerdWR3h7
+ZgLDsC2b6lbTcDsh+ie8WB8d1I4EFT4ybhie4O3+ZaAAML/+M3M539aZLweK+XGM
+VXmo+ScH1dmig2sKopSR1/Ifm2vndFmU20zPshwNI2QfKVp6/niEswVoDf9+SeiO
+hNG1Ixx8K/6kk5ZqeWt3g6Yf1eKDaguyVT1VVUVu5ZQygsdeZ+uWYo8GSNRgNuVo
+8M7kXKnjDsz+NreKw/XdyEDcCZ3tS4q756fTPz1eGANwciIP2gF4ezj3V3pqc8jM
+5a+cGth2TiGg9nNKK79S7UEVzyLEbIz+D04gJmIdYO9gbYyPOt1ZlFgOur+enMHR
+myYSWEliRulpbjU8wZM9MHKB
+=iGdt
 -----END PGP SIGNATURE-----
 
---===============6604919596157231624==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a9a8b67325c2-58126788aa77.txt
-
-d1c444b47100d81a4b8c84aa3ac1c8159c22066a HID: amd_sfh: Add support to export device operating states
-cce179c655dad321882110d93210f389add9fd2f platform/x86/amd/pmf: Get SRA sensor data from AMD SFH driver
-98e45f0d7b99ceac029913ce3a161154a8c4c4a7 docs: platform/x86: wmi: mention tool for invoking WMI methods
-595c4b67249330bed1c936f6e2c8e8784f9f08ca Merge branch 'intel-sst' of https://github.com/spandruvada/linux-kernel into review-ilpo-next
-053c409951db96ca3043e568572b940a99d2464f platform/x86: thinkpad-acpi: replace strcpy with strscpy
-d0eee1be379204d2ee6cdb09bd98b3fd0165b6d3 platform/x86: firmware_attributes_class: Move include linux/device/class.h
-d03cfde56f5cf9ec50b4cf099a42bf056fc80ddd platform/x86: firmware_attributes_class: Simplify API
-55922403807a12d4f96c67ba01a920edfb6f2633 platform/x86: think-lmi: Directly use firmware_attributes_class
-63f8c058036057644f095123a35895cd11639b88 platform/x86: hp-bioscfg: Directly use firmware_attributes_class
-501d2f0e78951b9a933bbff73404b25aec45f389 platform/x86: dell-sysman: Directly use firmware_attributes_class
-6af39604c788d9df0ca697bab603202cf74c1a8c platform/x86: firmware_attributes_class: Drop lifecycle functions
-c85b516b44d21e9cf751c4f73a6c235ed170d887 platform/x86: acer-wmi: Add support for Acer Predator PH16-72
-2d0a368c34c0676657aaedd3aa641f3e5bf54e3a platform/x86: alienware-wmi: Remove unnecessary check at module exit
-99675d25dc82479f513be9dffc98badd2954e0fb platform/x86: alienware-wmi: Move Lighting Control State
-f3f6728766c3f3695dea5d63ec60bdd516c2ace8 platform/x86: alienware-wmi: Modify parse_rgb() signature
-1d334211aa60560cdc3995b183e601c44cf722b5 platform/x86: alienware-wmi: Improve hdmi_mux, amplifier and deepslp group creation
-7c605f6460e80b393c7cc24b089afa876beadb48 platform/x86: alienware-wmi: Improve rgb-zones group creation
-58126788aa7726c0e91de6b25e6e332fa06089ab platform/x86: alienware_wmi: General cleanup of WMAX methods
-
---===============6604919596157231624==--
+--===============7701189669806093162==--
