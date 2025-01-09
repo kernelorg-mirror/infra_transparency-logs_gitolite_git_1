@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 09 Jan 2025 11:12:02 -0000
-Message-Id: <173642112289.2096150.4935954285945123424@gitolite.kernel.org>
+Date: Thu, 09 Jan 2025 11:15:05 -0000
+Message-Id: <173642130573.2099801.44690938200610624@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: pabeni
 changes:
   - ref: refs/heads/main
-    old: 31eae6d995870211348345521e4865c2816478f5
-    new: b11bff90f2ad52c5c55c822ecd20326619a73898
+    old: b11bff90f2ad52c5c55c822ecd20326619a73898
+    new: e62de01008bd6581788aa155ada043cba0261332
     log: |
-         b11bff90f2ad52c5c55c822ecd20326619a73898 r8169: add support for RTL8125BP rev.b
+         e62de01008bd6581788aa155ada043cba0261332 net: stmmac: Unexport stmmac_rx_offset() from stmmac.h
          
