@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Thu, 09 Jan 2025 22:26:34 -0000
-Message-Id: <173646159486.2918679.14064342611844788977@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Thu, 09 Jan 2025 22:27:48 -0000
+Message-Id: <173646166888.2919214.2769920619640625176@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
-user: ardb
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/next
-    old: 5e948d5cefebebe2315faf356d7b5180144b17b0
-    new: ac38e9c70c5932b3cec02eb203d0e3b92dd67e7c
+  - ref: refs/heads/dev
+    old: 843ec44f94887258b1f91f0b009b99537972f34d
+    new: 7c89f902dc2a29c68a0fad0ea6ac592d7fd647ec
     log: |
-         eb11e99adef893773b17dc6c21e08e5ade7b86b1 efivarfs: add variable resync after hibernation
-         ac38e9c70c5932b3cec02eb203d0e3b92dd67e7c Merge branch 'efivarfs' into next
+         a8280286a6425f26785aeedfe9b209a65ca1d6fd rcu: Remove references to old grace-period-wait primitives
+         165241673e9f4a420d2a8c3dca929b9722cee427 rcutorture: Complain when invalid SRCU reader_flavor is specified
+         c671c56ae444fbe90e9247056f0f5790a174f161 srcu: Add SRCU-fast readers
+         7c89f902dc2a29c68a0fad0ea6ac592d7fd647ec rcutorture: Add ability to test srcu_read_{,un}lock_fast()
          
