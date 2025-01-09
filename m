@@ -1,20 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
-Date: Thu, 09 Jan 2025 16:08:36 -0000
-Message-Id: <173643891601.2597469.15913726508585041557@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Thu, 09 Jan 2025 16:24:47 -0000
+Message-Id: <173643988799.2610878.12392063643592573953@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
-user: frederic
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/timers/fixes
-    old: 8289c472969fc7a8b1ac40af99819c7792e427d0
-    new: b825dd98da4f6861a12aa88cda4cf28ffb51d151
+  - ref: refs/heads/for-next
+    old: 2be952ee5f05997e1302d020021312a0fcefe7b4
+    new: b48f2f75ff7635a5e519563be3bc41b921bba2e9
     log: |
-         9135c6759db232f134dc8f9f5c2ef1beb88cc232 timers/migration: Fix another race between hotplug and idle entry/exit
-         b825dd98da4f6861a12aa88cda4cf28ffb51d151 The following commit:
+         550033fd0373986f18f70e3404c0005fd2cdf7cb ALSA: hda/realtek: Simplify with str_yes_no()
+         b48f2f75ff7635a5e519563be3bc41b921bba2e9 ALSA: rme9652: Simplify with str_yes_no()
+         
+  - ref: refs/heads/master
+    old: a5cbacf1589c12ae98dba428553c14d06094bcce
+    new: 5642b5d1023755bcf16f18e441a7a9a67cae66f1
+    log: |
+         550033fd0373986f18f70e3404c0005fd2cdf7cb ALSA: hda/realtek: Simplify with str_yes_no()
+         b48f2f75ff7635a5e519563be3bc41b921bba2e9 ALSA: rme9652: Simplify with str_yes_no()
+         5642b5d1023755bcf16f18e441a7a9a67cae66f1 Merge branch 'for-next'
          
