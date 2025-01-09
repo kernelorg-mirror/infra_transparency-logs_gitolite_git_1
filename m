@@ -1,28 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Thu, 09 Jan 2025 14:30:50 -0000
-Message-Id: <173643305039.2514304.1500414573333539401@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 09 Jan 2025 14:35:39 -0000
+Message-Id: <173643333929.2518479.8903882246707169713@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
-user: ardb
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/next
-    old: a3d4f8e5b9dc5b9a3eed350daedb8984f5178753
-    new: 5e948d5cefebebe2315faf356d7b5180144b17b0
+  - ref: refs/heads/main
+    old: a3b3d2dc389568a77d0e25da17203e3616218e93
+    new: 11c668db098507207d55c5d6e04cc34a55288636
     log: |
-         c57b6e1d8a5c133dd5f6293de262701a55d11335 efivarfs: remove unused efi_variable.Attributes and efivar_entry.kobj
-         1aba87f92d471222a89a5e7c27497489d37c67e1 efivarfs: add helper to convert from UC16 name and GUID to utf8 name
-         7e365c7e2cc587ac90c346a52156a6b08845d909 efivarfs: make variable_is_present use dcache lookup
-         ef315a6935754e746726e3072120ea10f2f108b0 efivarfs: move freeing of variable entry into evict_inode
-         23c590dca31ad86432b01755988e03d22be40be9 efivarfs: remove unused efivarfs_list
-         7baad7bede6ff6c36487ac1cb4bd29e3aa3367a7 efivarfs: fix error on write to new variable leaving remnants
-         ebcb83045c80ea6221854a13cb1bb9793087d719 efivarfs: abstract initial variable creation routine
-         1d6e94a17d05e21ba743483d6823893b53eba442 efivarfs: add variable resync after hibernation
-         6f18bb40970790b176a7aede3f1054fa7b9aa718 efi: sysfb_efi: fix W=1 warnings when EFI is not set
-         5e948d5cefebebe2315faf356d7b5180144b17b0 Merge branch 'efivarfs' into next
+         d6c7b03497eef8b66bf0b5572881359913e39787 net: make sure we retain NAPI ordering on netdev->napi_list
+         0b7bdc7fab5703ddff677a82c1de7b3ac500974f netdev: define NETDEV_INTERNAL
+         00adf88b186fa09a0b4005bdcf440aa2f926a75b netdevsim: support NAPI config
+         915c82f842f955429e347a53ce005604ad421343 netdevsim: allocate rqs individually
+         a565dd04a120c03891b6fb504f342159b446f463 netdevsim: add queue alloc/free helpers
+         5bc8e8dbef27b73bd7b6d1fd5108b4fd4c6d469f netdevsim: add queue management API support
+         6917d207b469ee81e6dc7f8ccca29c234a16916d netdevsim: add debugfs-triggered queue reset
+         eb721f117e7d43b561e81dd878c4acfa2de13ee2 selftests: net: test listing NAPI vs queue resets
+         11c668db098507207d55c5d6e04cc34a55288636 Merge branch 'net-make-sure-we-retain-napi-ordering-on-netdev-napi_list'
          
