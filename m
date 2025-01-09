@@ -1,41 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============0357158999308455676=="
+Content-Type: multipart/mixed; boundary="===============1056399018705653678=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Thu, 09 Jan 2025 02:00:07 -0000
-Message-Id: <173638800780.1646376.11368364408733599070@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 09 Jan 2025 02:10:25 -0000
+Message-Id: <173638862580.1654813.1174372449431704377@gitolite.kernel.org>
 
---===============0357158999308455676==
+--===============1056399018705653678==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/work.d_revalidate
-    old: 5bbc1e47e557d0bf65e4a9ed98a0bcdbee23498a
-    new: f94d481e730dfd70973533afc9114602a3ed3bf8
-    log: revlist-5bbc1e47e557-f94d481e730d.txt
+  - ref: refs/heads/master
+    old: bfaac2a0b9e59b595f08606e7762bee50f01a074
+    new: e8ec1c94866a44723c8ab1c90942503f3402ede8
+    log: revlist-bfaac2a0b9e5-e8ec1c94866a.txt
 
---===============0357158999308455676==
+--===============1056399018705653678==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5bbc1e47e557-f94d481e730d.txt
+Content-Disposition: attachment; filename=revlist-bfaac2a0b9e5-e8ec1c94866a.txt
 
-d953caba75a1ffdca6739ca8dc1526d54a5d3213 ceph_d_revalidate(): propagate stable name down into request enconding
-80370c0b77618ba95e17cca863292a6742c9cc23 fscrypt_d_revalidate(): use stable parent inode passed by caller
-f4af941a94c1b8ae916b24551fcfd47e99220d85 exfat_d_revalidate(): use stable parent inode passed by caller
-319476eadfda2a89c7bfd9798fe2e2bef2cb13c8 vfat_revalidate{,_ci}(): use stable parent inode passed by caller
-c203d4ad7dbf7037e3074230e68fbd51bee40855 fuse_dentry_revalidate(): use stable parent inode and name passed by caller
-fbf571a62d57f69372b28526012352eef700aa59 gfs2_drevalidate(): use stable parent inode and name passed by caller
-5190fe7f90d88c6dcfe70546d394cddde51f7f55 nfs{,4}_lookup_validate(): use stable parent inode passed by caller
-534085f4cd3126f3f7b0bc59f8d5a4886e942efa nfs: fix ->d_revalidate() UAF on ->d_name accesses
-8688fe200910bece4fd29e6231af60c478a04009 ocfs2_dentry_revalidate(): use stable parent inode and name passed by caller
-6fc46b46363b9d2ca2481663083e8b988673e130 orangefs_d_revalidate(): use stable parent inode and name passed by caller
-f94d481e730dfd70973533afc9114602a3ed3bf8 9p: fix ->rename_sem exclusion
+1b1a01db17af7a44cae8d8d7d7a18dbb056be40f bpf: Remove migrate_{disable|enable} from LPM trie
+ea5b229630a631ee6a72e1f58bc40029efc1daf8 bpf: Remove migrate_{disable|enable} in ->map_for_each_callback
+53f2ba0b1cc087a597b43e63d35f355e9348bd61 bpf: Remove migrate_{disable|enable} in htab_elem_free
+25dc65f75b08281a42823673d1751c82618ce7a3 bpf: Remove migrate_{disable|enable} from bpf_cgrp_storage_lock helpers
+9e6c958b546692fcdd0da2c2c3b2ac1da6e0233f bpf: Remove migrate_{disable|enable} from bpf_task_storage_lock helpers
+e319cdc8956645b6e29a3809924647953500b7e1 bpf: Disable migration when destroying inode storage
+7d1032d1e3031ef38d1a360380d755f75cb639b8 bpf: Disable migration when destroying sock storage
+dfccfc47bde53f5df5bf42486d12a8a2ecdcea60 bpf: Disable migration when cloning sock storage
+090d7f2e640b265335ac0a5a8e09a99f7f28f567 bpf: Disable migration in bpf_selem_free_rcu
+4b7e7cd1c105cc5881f4054805dfbb92aa24eb78 bpf: Disable migration before calling ops->map_free()
+1d2dbe7120e89090ed4f6be03d6fbadfbfff59bf bpf: Remove migrate_{disable|enable} in bpf_obj_free_fields()
+6a52b965ab6f56293dce316f382db3a9a66f0c9f bpf: Remove migrate_{disable,enable} in bpf_cpumask_release()
+2269b32ab00e1be663b838a1eed14408cb9ba677 bpf: Remove migrate_{disable|enable} from bpf_selem_alloc()
+4855a75ebf485f74b06ba85b16b71c4b71a4086d bpf: Remove migrate_{disable|enable} from bpf_local_storage_alloc()
+7b984359e097f30e392e4eee29be7445fc391f29 bpf: Remove migrate_{disable|enable} from bpf_local_storage_free()
+d86088e2c35de1eeaae757e49f697f8f42b288fa bpf: Remove migrate_{disable|enable} from bpf_selem_free()
+e8ec1c94866a44723c8ab1c90942503f3402ede8 Merge branch 'bpf-reduce-the-use-of-migrate_-disable-enable'
 
---===============0357158999308455676==--
+--===============1056399018705653678==--
