@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 09 Jan 2025 12:14:13 -0000
-Message-Id: <173642485352.2200124.1146006722647355192@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 09 Jan 2025 12:15:10 -0000
+Message-Id: <173642491052.2202832.786982379393255567@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: 33d97a07b3ae6fa713919de4e1864ca04fff8f80
-    new: 9d8c354a56e9f6b420ad8eeee6db5c0d1b0ccc78
-    log: |
-         9d8c354a56e9f6b420ad8eeee6db5c0d1b0ccc78 dt-bindings: net: Correct indentation and style in DTS example
-         
+  - ref: refs/heads/20250109_cezary_rojewski_asoc_intel_avs_fixes_and_cleanups
+    old: 0000000000000000000000000000000000000000
+    new: 0b12850ddfb0032376ef1be10b5b46be00bba4d4
