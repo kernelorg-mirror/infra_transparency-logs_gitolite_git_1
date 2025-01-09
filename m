@@ -1,27 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Thu, 09 Jan 2025 09:55:48 -0000
-Message-Id: <173641654897.2026796.4555153389800166321@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3052278017685232134=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Thu, 09 Jan 2025 09:56:12 -0000
+Message-Id: <173641657209.2027062.101302703871311835@gitolite.kernel.org>
+
+--===============3052278017685232134==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
-user: ardb
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: 461fd55d17f0d9ee25547f4ad1d5cdb1403882c8
-    new: 563d0c3d9618fa38103bb7b98950d98efa3266d7
+  - ref: refs/heads/char-misc-testing
+    old: b580b17d06d5c6e1188263d73bd21922601cfed3
+    new: 034f1cc9f02b1e53ce24c9009c31aa2f18df8b64
     log: |
-         be903f8f04186d0c247240315d09129fdaa00d8a efivarfs: remove unused efi_varaible.Attributes and .kobj
-         972c0db86ab293f6044305e6b39e4292bf9eff34 efivarfs: add helper to convert from UC16 name and GUID to utf8 name
-         4ec7bd5db9a1f6cd50a11fed87b7ddca2828d5aa efivarfs: make variable_is_present use dcache lookup
-         638ff6d6fee7a552de92f0d97c99af8bc86556a3 efivarfs: move freeing of variable entry into evict_inode
-         b538f1e229e58cccf4b291ba3982bdca667ea80c efivarfs: remove unused efivarfs_list
-         132bf369a8bc04408e0308fc6e3a7d5db9477974 efivarfs: fix error on write to new variable leaving remnants
-         ad21a696ddc292ea3d6bae8061e73ea45b2c81c7 efivarfs: abstract initial variable creation routine
-         43039cdd1a14ed12c7b506a2d78c7fa708444b06 efivarfs: add variable resync after hibernation
-         563d0c3d9618fa38103bb7b98950d98efa3266d7 Merge branch 'efivarfs' into next
+         d31679f42e19780b4564cd1c5f90c1f3249f00c7 firmware: stratix10-svc: Use kthread_run_on_cpu()
+         034f1cc9f02b1e53ce24c9009c31aa2f18df8b64 Merge tag 'socfpga_firmware_update_for_v6.14' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/dinguyen/linux into char-misc-next
          
+
+--===============3052278017685232134==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736416599 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1736416569-fc33c4234c56c91bf31ffff50265164e3ae8afc0
+
+b580b17d06d5c6e1188263d73bd21922601cfed3 034f1cc9f02b1e53ce24c9009c31aa2f18df8b64 refs/heads/char-misc-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmd/nVcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+B6QQAJirEyflqNCjT1LtxEnt
+j2eQLw8DpN1IimtDTUwTnJfxBWhX2QDLZF3QDgTvISg0KlTz8cWY3mO9QmCLAUs8
+hh3ck+1HBofttQHvSFrIGcRE0FlfVURzO0UFkhcgx5yaE68RRAq38Plc6Ne+qA0K
+9MrSLY9FVVVQ1oLoap4D+Sd+7TrhkFiIChPkqw9oz4GIjkqy2rLtjG5mbLXO0ugL
+BZ2eMHgNu5uB3xZ2R5N4UY4TglBNN1WLrgGY84bQK+EdWOy1DDq33R0zX5lt3rFb
+lFzABCjc0d5T2wFvbgDoQwZYZLriOiXcmfObmm2FI+2X9MOKrG2UlV22cGSiaGFi
+dazsF+6eRPh0bmudrNxMqUoWUN8qugNoWuXhQrtvTpUtgYLLfvHtAtynsyh+hkXI
+jz4ZoedxEuIWW6MWeF/fbEZz0KJ3HwxDGcwvhdLIGGjs6SED6JAqp+M5UUkg9GlD
+r3ZFENxFTFhQSkdqx8oA1mFZ4UURkgp7+MDtjNWtTW07Y10rhtRT1ZylBg0gA6bd
+x1JfYzYjIipF8T7LH6ZpARGTtRxFuSTK8ibcbGtf+EoQZ5VVkuTiFRg2Un0rGrXv
+ia1oyOX1BbdjcSgY1/MdBEPdnutZEPuusH75zlXI6971ngCgdZRIYPfQfmxz+VvV
+4MxfiAHZDWF3BQ4P+IzJc/ky
+=DUNr
+-----END PGP SIGNATURE-----
+
+--===============3052278017685232134==--
