@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/chromeos
-Date: Thu, 09 Jan 2025 11:02:35 -0000
-Message-Id: <173642055500.2087200.6442165495446440511@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
+Date: Thu, 09 Jan 2025 11:03:33 -0000
+Message-Id: <173642061333.2087596.8609584808995015586@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwlwifi/chromeos
+repo: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
 user: mkorenbl
 changes:
-  - ref: refs/tags/chromeos-6.6__release/core93-2025-01-09
-    old: d6a9cdb54a8f2d980e30be7bea02fd784e519355
+  - ref: refs/heads/release/core93
+    old: d4b6b0d4efc8e4ffe3788d1c7022636c3c459a86
     new: 0000000000000000000000000000000000000000
