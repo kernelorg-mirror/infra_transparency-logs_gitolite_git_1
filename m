@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4112050127442994494=="
+Content-Type: multipart/mixed; boundary="===============3468768223121902693=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Thu, 09 Jan 2025 18:38:43 -0000
-Message-Id: <173644792388.2725111.2612126943166898549@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Thu, 09 Jan 2025 18:39:13 -0000
+Message-Id: <173644795363.2725498.11275822883902062825@gitolite.kernel.org>
 
---===============4112050127442994494==
+--===============3468768223121902693==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: cea42d1a85628348fb6081c2856a0ea73cb48f3d
     log: revlist-6bfb4c571b88-cea42d1a8562.txt
 
---===============4112050127442994494==
+--===============3468768223121902693==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -44,4 +44,4 @@ beefd0cb1b98a03c2f0ae76987213b344e0daa70 perf tools s390: Use generic syscall ta
 d06826160a982494957cb3357c05353334934537 perf tools: Remove dependency on libaudit
 cea42d1a85628348fb6081c2856a0ea73cb48f3d perf test: Mark remaining probe tests as exclusive
 
---===============4112050127442994494==--
+--===============3468768223121902693==--
