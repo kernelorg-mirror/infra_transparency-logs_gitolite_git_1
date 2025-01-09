@@ -1,43 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/chromeos
-Date: Thu, 09 Jan 2025 08:17:15 -0000
-Message-Id: <173641063575.1942221.14947660299527789035@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/modules/linux
+Date: Thu, 09 Jan 2025 08:18:37 -0000
+Message-Id: <173641071780.1942971.11303531435575305883@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwlwifi/chromeos
-user: mkorenbl
+repo: pub/scm/linux/kernel/git/modules/linux
+user: ppavlu
 changes:
-  - ref: refs/heads/chromeos-5.4__release/core93-53
-    old: 0000000000000000000000000000000000000000
-    new: 8ef5c583467516b3462b5567e54ff25fba83bfc4
-  - ref: refs/tags/chromeos-5.4__release/core93-2025-01-09
-    old: 0000000000000000000000000000000000000000
-    new: 8ef5c583467516b3462b5567e54ff25fba83bfc4
-  - ref: refs/heads/chromeos-5.10__release/core93-53
-    old: 0000000000000000000000000000000000000000
-    new: 101011b5150548bc17b1993ff21b2c6ffaca38a0
-  - ref: refs/tags/chromeos-5.10__release/core93-2025-01-09
-    old: 0000000000000000000000000000000000000000
-    new: 101011b5150548bc17b1993ff21b2c6ffaca38a0
-  - ref: refs/heads/chromeos-5.15__release/core93-53
-    old: 0000000000000000000000000000000000000000
-    new: 1ffdfe9ff5bb0e4f5a5651f283bf00325fb6d5fe
-  - ref: refs/tags/chromeos-5.15__release/core93-2025-01-09
-    old: 0000000000000000000000000000000000000000
-    new: 1ffdfe9ff5bb0e4f5a5651f283bf00325fb6d5fe
-  - ref: refs/heads/chromeos-6.1__release/core93-53
-    old: 0000000000000000000000000000000000000000
-    new: d06658d50fec781b6f498be8c9007211eb30d595
-  - ref: refs/tags/chromeos-6.1__release/core93-2025-01-09
-    old: 0000000000000000000000000000000000000000
-    new: d06658d50fec781b6f498be8c9007211eb30d595
-  - ref: refs/heads/chromeos-6.6__release/core93-53
-    old: 0000000000000000000000000000000000000000
-    new: d6a9cdb54a8f2d980e30be7bea02fd784e519355
-  - ref: refs/tags/chromeos-6.6__release/core93-2025-01-09
-    old: 0000000000000000000000000000000000000000
-    new: d6a9cdb54a8f2d980e30be7bea02fd784e519355
+  - ref: refs/heads/modules-next
+    old: b7e601302d581fdf84e098fd15935b0a50dfaa72
+    new: 44c04fa989f71afa7f54dc74620982c1e87c2ccd
+    log: |
+         79b1ab5a20c014abd825d74b0347a207b6b8aa87 module: sysfs: Drop member 'module_sect_attrs::nsections'
+         09ae78fba3358733acc7e89b3726ce3de577631a module: sysfs: Drop member 'module_sect_attr::address'
+         d33c16f02122df9d520a6643036e5c2f101bb621 module: sysfs: Drop 'struct module_sect_attr'
+         b25a02d155985bc47d19128f4200f3bd57a2789f module: sysfs: Simplify section attribute allocation
+         9953f4227850ce5cdb5bf4d9a35d3d3d920d6038 module: sysfs: Add notes attributes through attribute_group
+         524ac346a9dfc8731f942419bae21cb1b2365c4e module: sysfs: Use const 'struct bin_attribute'
+         7da8d9a357c209f5b37d68a2ad4857ee13c301fc module: Split module_enable_rodata_ro()
+         8beca04a2cc770549132ec6ef8c543efe727fff2 module: Don't fail module loading when setting ro_after_init section RO failed
+         44c04fa989f71afa7f54dc74620982c1e87c2ccd module: sign with sha512 instead of sha1 by default
+         
