@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2204459454835861496=="
+Content-Type: multipart/mixed; boundary="===============1911741518713778060=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 09 Jan 2025 13:39:24 -0000
-Message-Id: <173642996406.2470361.5707260421859317161@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 09 Jan 2025 13:39:27 -0000
+Message-Id: <173642996735.2470458.15950987755309818731@gitolite.kernel.org>
 
---===============2204459454835861496==
+--===============1911741518713778060==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.13
+  - ref: refs/heads/spi-6.13
     old: 7f9a1eed1ad8b274ed9163a02cef891a90427237
     new: 9d89551994a430b50c4fffcb1e617a057fa76e20
     log: revlist-7f9a1eed1ad8-9d89551994a4.txt
-  - ref: refs/heads/for-6.14
+  - ref: refs/heads/spi-6.14
     old: a38509fd5cdc125ef54562760a05c68ebd4812bc
     new: 5e56618e1593a9eb9d72dc9433ac7a02a6c48c8f
     log: revlist-a38509fd5cdc-5e56618e1593.txt
 
---===============2204459454835861496==
+--===============1911741518713778060==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1736429991 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1736429961-db19c0bcf8040f0d3b2a56f3555d9ed9a7c6ecfe
+pusher C3F436CA30F5D8EB 1736429995 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1736429965-601aa2d655e5e215a0a4a897a6ce5d3fb247f458
 
-7f9a1eed1ad8b274ed9163a02cef891a90427237 9d89551994a430b50c4fffcb1e617a057fa76e20 refs/heads/for-6.13
-a38509fd5cdc125ef54562760a05c68ebd4812bc 5e56618e1593a9eb9d72dc9433ac7a02a6c48c8f refs/heads/for-6.14
+7f9a1eed1ad8b274ed9163a02cef891a90427237 9d89551994a430b50c4fffcb1e617a057fa76e20 refs/heads/spi-6.13
+a38509fd5cdc125ef54562760a05c68ebd4812bc 5e56618e1593a9eb9d72dc9433ac7a02a6c48c8f refs/heads/spi-6.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmd/0acACgkQJNaLcl1U
-h9DIWAf/ZM93lFSF4aQRsgEGNE4fgoCKE76nKYnx5KNQ35xUzJTMrbadJ0shZ1aV
-Nl7DuURsBLKUK5Mt5qfvTTX11BRz2VDU5R2bCliBAaQzgHe6zEqM83FWls8ChcwC
-E7vuoLRRuRGoOsa8Hs321OrLJK+ArK3dvC2OMeRWyQ5ypoYvNXoeOQ/bDF3yAoLu
-EA7KPJHlVO/aNVLoZfvr29+dkdqAi6amNBa/mcoQkCocNZ/RylMdLzvQu17Oaf1m
-yWZr7ewIL9rnzoG2QeLe4+oPRuaRf7lu/9fkHCp1CRln8Pp4Tuwuc/FHfsoC1jmW
-Occ00JhcRzZOR/p2fcOAPBT0mbcP+w==
-=xKbl
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmd/0asACgkQJNaLcl1U
+h9BicQf+NJVv0WbGvWcOb6uvmbewvoNhkGNdnoMjoeuy7mPyTLk0NjF6eILff8Ah
+3JoJCwznyoWThjPl6laGOOyX+tl2Zl/8Rj5MeNC3x12eyBUsRibGY1R2o1rzHVEl
+23rIlJbS9OxUR87rr49gZItKrAU40kDBJbAEBKg7JNXKcOki9mQkMDmqmQvP9GHI
+x0fs83+0J6ryXtsCNnTOajcdUIIhqkMrrGfMZIHIqboNgU5aUc/QLHQdh0B3xQ69
+7voUyuJCvNsKKQJphBhDfUVT9juF9tQuQuAW5trFzXQ2MyT/V1lqS+VL5JcPT8bf
+xOOBV2O9O3gFO1nvEy+LQ4bWW1VQJA==
+=UqGE
 -----END PGP SIGNATURE-----
 
---===============2204459454835861496==
+--===============1911741518713778060==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -676,7 +676,7 @@ ab75170520d4964f3acf8bb1f91d34cbc650688e Merge tag 'linux-watchdog-6.13-rc6' of 
 9244696b34f2a626d7468864420ab6a47289bf10 Merge tag 'kbuild-fixes-v6.13-3' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 9d89551994a430b50c4fffcb1e617a057fa76e20 Linux 6.13-rc6
 
---===============2204459454835861496==
+--===============1911741518713778060==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1703,4 +1703,4 @@ ab75170520d4964f3acf8bb1f91d34cbc650688e Merge tag 'linux-watchdog-6.13-rc6' of 
 636ee5781d259258dc9425a5552be1ffa458633c spi: fsl-spi: Remove display of virtual address
 5e56618e1593a9eb9d72dc9433ac7a02a6c48c8f spi: atmel-quadspi: Update to current device naming terminology
 
---===============2204459454835861496==--
+--===============1911741518713778060==--
