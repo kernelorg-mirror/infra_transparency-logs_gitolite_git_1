@@ -1,59 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============2588082560866154281=="
+Content-Type: multipart/mixed; boundary="===============6908093443569754238=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 10 Jan 2025 14:44:17 -0000
-Message-Id: <173652025716.3768499.4679892078071631802@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Fri, 10 Jan 2025 14:44:27 -0000
+Message-Id: <173652026719.3768700.3951855958858337659@gitolite.kernel.org>
 
---===============2588082560866154281==
+--===============6908093443569754238==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 6847b00c3c85fffff15f29e030a2fa489bdde88b
-    new: 6d2478a103a8238c5382f8a318735aa75d49803a
+  - ref: refs/heads/driver-core-testing
+    old: 51796f5e2960130fe53e9a71d07152622d5e024c
+    new: 827ed8b1590d4d29dae837283d606709ffeebe37
     log: |
-         37d56e0fb08e1f806de638b7dc8edff329cb683d misc: fastrpc: Add support for multiple PD from one process
-         ff5e0c847042bdde7efd550c722c614ad57715b3 misc: fastrpc: Rename tgid and pid to client_id
-         235b630eda072d7e7b102ab346d6b8a2c028a772 drivers/card_reader/rtsx_usb: Restore interrupt based detection
-         6d2478a103a8238c5382f8a318735aa75d49803a cdx: disable cdx bus from bus shutdown callback
+         f554b68eafb6d28c23e3b3f029db363894b72378 ARM: riscpc: make ecard_bus_type constant
+         827ed8b1590d4d29dae837283d606709ffeebe37 drivers: core: remove device_link argument from class_compat_[create|remove]_link
          
 
---===============2588082560866154281==
+--===============6908093443569754238==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736520284 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1736520254-f98c6ce92bed02c48a643634d00d110d26d9228b
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736520294 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1736520264-5d122197b0161115e64bbaa1793ed185b9ee9f25
 
-6847b00c3c85fffff15f29e030a2fa489bdde88b 6d2478a103a8238c5382f8a318735aa75d49803a refs/heads/char-misc-testing
+51796f5e2960130fe53e9a71d07152622d5e024c 827ed8b1590d4d29dae837283d606709ffeebe37 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeBMlwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MTEP/3GU+0N2s62SP1+ysH2s
-QP66e8rTX+rbJltsnZgD7r0v+cJnrpWyXhzQ5JojH44W3i+KBb+F+OV9c9ItuXvC
-CrkbCgrbOoXjJogwARRJaQQfK5IfO+b/HQCzSw8LDXkFV/esRo8Li3tDo3dJe3xn
-rvPI9fJs5Rn7zd/eTQmwWknw8R95Xa5QjmXygrDa8vrq0aZ92+kTqaOCCGmDB5Il
-7MyhaqmK3tH0mj0OVhKyrq0PagaZ+TYspHvtakA3UUAmfL0FEHPRoeRFjNOAuTr8
-HfyFmrobW2VN+31katgW9bRjgQrkp/y0g5XwIXaIRPpdn9oLrixhqHpoMHfWSBXJ
-mwwMs0S88GxUQW2BLJSH8bnv3PW2K4tDbm7RavTj35Afj5GPgc3SHueqPEIscVtx
-Sioy/ewpDhKI5bwBNielaf2XQIX6EUctasuWjrmasMkpUJMC72UFg69uGcVBn9ZP
-OMYjvDV/XrjmEWdb8NYRX5A++tkaqCshrM/v83BaS2H+qSwW9Dxeq/3VaGzN48Y9
-ZtjNWzvmyJoHLQNQ89J1HWOQ4rwvXk1rZxsz91iJrwo4UVCF2fntulzfngP/Gxik
-ZljPRL14uqX0rwIZ53bliqeTCiO2k0F3SQ+O9mOqnkf9yNY86XZvYif3lufhM9bl
-IVUYYJU1f1c3K3e1dOqDjdFu
-=SF/3
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeBMmYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++p0QAMvSLAl4zc1f4KyRK1h8
+JiEaUmPnzAe8y/OA+TS5RvO6Pyk/ZwLQNjpqK6WBWoJz4cOmZgfXp4TJoUMXdgqe
+lDpNKezokDAxky2XhFCafHpD1zYo9AWAtbVdNQbuFsTv+ktVu8Skq9O3giMutjLI
+vBPNCRASrl23nQBeme1wbXNCO2OGEKisg6FZ1FZsw9ehh91UoIKfg/llhNKKLzJF
+W+tvvvEJsWPApU0TUPCkMED+jOuCA8ytFDlCr9lZoD5EAVJDzG4LSlZEz1jetisf
+4dg+vqNg1zGdogmVNaeFnAY3auY3DhTYXVaqqFIks0o/lWDScNPcDLwev0YDUwK3
+4n316rzTdQbWj2HTuIrHYlw+opDxXeZEtpA2/DYDz8o0k6l1n6x1ITRXHcEoTjEp
+X/OJFJKsCduuKVjbKdu/JHAhxBS6SOsqEvLd4XmRhgYLYt5ayDDrJemuFbEAwxvY
+dKetD8rbHl0uTVEdwdf3UwvqGkDjmJOvEHR9o/qozd61pHg3OQSYKK5S62hOEybc
+Vl7G9v/Hwx0CsW1wNegSAE3etwbTHcb/+tdA/PTXV1atOPZwa9EoK3mVpwQIBiTE
+lSXqz1LznaegQtiKkWZnu5e6Mool/n/NVmhuFWUPqT8VBGWtLvVn9Y8NNUGVc+5R
+UEFin82qF487QR/GpofCTAVb
+=YJ+j
 -----END PGP SIGNATURE-----
 
---===============2588082560866154281==--
+--===============6908093443569754238==--
