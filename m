@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5683640067507344775=="
+Content-Type: multipart/mixed; boundary="===============7372786890903367584=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 10 Jan 2025 13:43:38 -0000
-Message-Id: <173651661843.3717998.10829713986878673712@gitolite.kernel.org>
+Date: Fri, 10 Jan 2025 13:44:05 -0000
+Message-Id: <173651664585.3718392.7624661480096736646@gitolite.kernel.org>
 
---===============5683640067507344775==
+--===============7372786890903367584==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,44 +16,45 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.6.y
-    old: 1acb10106df3062d221af9b3124de4d968ee34d2
-    new: 843e64492a7ed11436cc5c9bbfba46835939071a
+  - ref: refs/heads/linux-5.4.y
+    old: 7f0e075be121a0c7413804fe0ce86b6c8b704d85
+    new: ae5369e64fa6bca4ad0a15a3a6a56a31b68945ef
     log: |
-         c8bc44c5f96172fdaab66a268a53dccc6c7ffa87 Revert "x86/hyperv: Fix hv tsc page based sched_clock for hibernation"
-         b34e805539dabbebfa6030842f4a0ba14de8f813 Revert "x86, crash: wrap crash dumping code into crash related ifdefs"
-         a6923798e471570ac1b24086be0a9679f51c3171 x86/hyperv: Fix hv tsc page based sched_clock for hibernation
-         843e64492a7ed11436cc5c9bbfba46835939071a Linux 6.6.71
+         b1a5b8914800faac2d416f32eeda54aa281091a5 jbd2: flush filesystem device before updating tail sequence
+         5389ce488ecb88423833d768913a8a2636d9ecfc dm array: fix releasing a faulty array block twice in dm_array_cursor_end
+         fdb4af7c3017ad41209a2286bcb53b89bdc6a60e dm array: fix unreleased btree blocks on closing a faulty array cursor
+         bab92b49455b34215700df86de9b1700399f6847 dm array: fix cursor index when skipping across block boundaries
+         ae5369e64fa6bca4ad0a15a3a6a56a31b68945ef Linux 5.4.290-rc1
          
 
---===============5683640067507344775==
+--===============7372786890903367584==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736516647 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc
-nonce 1736516615-ddc673f087cce6d7062b717dad4e52cf589c29e5
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736516674 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
+nonce 1736516643-7966eaa85e7b5d60a5fc402854844f81236a3cc1
 
-1acb10106df3062d221af9b3124de4d968ee34d2 843e64492a7ed11436cc5c9bbfba46835939071a refs/heads/linux-6.6.y
+7f0e075be121a0c7413804fe0ce86b6c8b704d85 ae5369e64fa6bca4ad0a15a3a6a56a31b68945ef refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeBJCcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bcwQAKbUsAGkLiiiMFHNDGrB
-WofnzEF0VoNjZ/T6CwQ5mFMIM2dtJ2Qe18Xi0wua3qK0N3/U+9D1IPj1Q57GkgnR
-xboCfjiUqIxOzGQcAyocbq8VoNbzuVe7NKS4xP2YcgBBajJigy07ekoXVDNJf2YG
-svhvum6qzBUAU7GifX5oYdzmZynWUqUl3iDBYBPFzEkn7zgJGVpMkZCe8Y7hdW+P
-Gem2zUkSEooL6OFPbFt7R5NZV9F3ExF1EGdncRQxRbxEaeV7+fCrtD0q+qKvI2zp
-vgYxiNfMs15UCFZqc2PjUm+DDQSSylsRbJNEqymildFUA2uQ06CsCeRUaisEpXOe
-KXzXlIhbsvdPBDEs3qt0tGIk+xNS7EHOAKo503CyJjrVuR5A0UZdFFQM5whCdouc
-HUnv7OQis4H8FeEywu5CEvQ0inMBGEZjI6snUNvz+q7azwvJqr2pWPhT/sUOlgtU
-4FoFnePHludEDBiG9dLUrDcfclnbSXW6RLWGif7V12nWQ+I7Z22Gme/Xnp7Gfr7B
-8LQ0WMPpRerEgQt51bONrRjVD7Fqb29YEKaF4eclqkqCMZ6IJhIZZ2aXeu61v2Hl
-cFFm065x2Uga7FRk2l5Qqg/bTmSVVOE/0Tft1hWzVoqyQ1/eo58Qx3s9m4besQ7g
-rQAW+ez/vxiZCc3DNdyBnItM
-=6a4d
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeBJEIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EnQP/2KoOMzEiUpxECWzFdXI
+JfF/WisrQxItdAYMh/W9HBdW+1dCRhJaqN8vfH/LbxsARjucRiKGx8zoUVYBxng1
+yNSLRqv76NLaevtTRrFTdKyP2UV31KBkPP4jEz/RB8ktIH7699PnB3642ILrOXMW
+YYxk/ZFl5wrbMYXWVkFrY/oH/lWjowLDfzL9aGYa7gC4L5yE+xM+FqXSnyehIRoQ
+ZMV4QfKE81pTSYSgRkaE6NxwZ/Fkbd+UtI8WfFtFfMCSbKYKQCEKdLMHIsCYnUUF
+yc2cAjNXlbQ0mTlwILU+Mv/H2HRWrNWFVJI4nAxL26s9zqPQ/yMdx7TKUx02oFFw
+xd7o1ivr+hpHjqFYScxBexpossHjun8v3Xbxngb0GaLgxuhLUBX7L4/VPfgUYA/3
+sgJnPHaDHm5JYihtao0IBpwfD8cvFJwp/5go5aiS/qXH3ozT6WCB29x5+YxRvg3m
+QBSjM6oUgaU231ubgLrNc3CX3UozrzVuqBM8jKiKjR+3kZurRmoTUpXTqx2A3gAa
+OcJQ+Zujmppv8z64aUdHFhTypkUj+IfqUdyJGOYlPHjzBEzAU5JgI/lwNpifCC1H
+UmAkEc6x8aG30wEzc0E1j+rM5iSWIMTFg/8DIkKqle4svBCVnXW5GZq6xRNoBSAq
+8QU/1IxHOYx7X7zs19VFofNL
+=Pg5T
 -----END PGP SIGNATURE-----
 
---===============5683640067507344775==--
+--===============7372786890903367584==--
