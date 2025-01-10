@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Fri, 10 Jan 2025 15:35:55 -0000
-Message-Id: <173652335582.3815912.15809869041975787867@gitolite.kernel.org>
+Date: Fri, 10 Jan 2025 15:43:49 -0000
+Message-Id: <173652382987.3821209.2955548289179327639@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/bluetooth/bluez
 user: vudentz
 changes:
   - ref: refs/heads/master
-    old: 036041136f10fdb9218d86befd738840ecd58892
-    new: 4f288bd961fcda569875e335406386e571327b20
+    old: 4f288bd961fcda569875e335406386e571327b20
+    new: 2762dffb062e7c73e94f9655b36ad9c078aebd29
     log: |
-         1e1c311243b190586b5a7ee93bec711b163de7de build: Fix --disable-avrcp
-         4f288bd961fcda569875e335406386e571327b20 build: Fix --disable-a2dp
+         2762dffb062e7c73e94f9655b36ad9c078aebd29 audio/transport: Make include of avrcp.h conditional
          
