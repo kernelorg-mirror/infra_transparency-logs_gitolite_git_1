@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Fri, 10 Jan 2025 18:17:22 -0000
-Message-Id: <173653304244.3957868.2243172381928165238@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Fri, 10 Jan 2025 18:19:20 -0000
+Message-Id: <173653316034.3958719.1412622054522407932@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/devel/pahole/pahole
+user: acme
 changes:
-  - ref: refs/heads/todo
-    old: b5301d5386052381a1ef28b5fb5818b5b52b1aca
-    new: 985345405211cc4cf1ecf4cd330cf0dc1f77fd61
+  - ref: refs/heads/next
+    old: 24c655f17e87549264415a34d9ed8982ff3fd706
+    new: 7f9c031edfc6d2f6be1c6e25a0d1e746427ab14a
     log: |
-         985345405211cc4cf1ecf4cd330cf0dc1f77fd61 MaintNotes: 2.48.0 update
+         7f9c031edfc6d2f6be1c6e25a0d1e746427ab14a btf_encoder: Always initialize func_state to 0
          
