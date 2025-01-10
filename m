@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
-Date: Fri, 10 Jan 2025 04:44:13 -0000
-Message-Id: <173648425386.3229617.13578562716985349690@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Fri, 10 Jan 2025 05:50:25 -0000
+Message-Id: <173648822544.3282694.8253503845681396986@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfstests-dev
-user: zlang
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/patches-in-queue
-    old: 0000000000000000000000000000000000000000
-    new: 0bf8a1e39b57392428ff1faa2026b9310e0bca2f
+  - ref: refs/heads/work.d_revalidate
+    old: db8a1db72bc17e54d55f971d1fd9e770acd71c11
+    new: 1f28d77e868e63a07ab50e7fe161fc366b2fb23b
+    log: |
+         1f28d77e868e63a07ab50e7fe161fc366b2fb23b 9p: fix ->rename_sem exclusion
+         
