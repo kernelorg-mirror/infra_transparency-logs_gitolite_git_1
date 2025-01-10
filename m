@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3862783012781440088=="
+Content-Type: multipart/mixed; boundary="===============4330244993631259539=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 10 Jan 2025 15:07:43 -0000
-Message-Id: <173652166365.3790187.14589941922886507268@gitolite.kernel.org>
+Date: Fri, 10 Jan 2025 15:09:01 -0000
+Message-Id: <173652174128.3790868.13192165048534430420@gitolite.kernel.org>
 
---===============3862783012781440088==
+--===============4330244993631259539==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,44 +17,45 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: 4a495b97b273fee77a8d77c579ebdd0d0d77f87c
-    new: ac753e1f38a114cf9e46b9824f43d09cb637f43d
+    old: ac753e1f38a114cf9e46b9824f43d09cb637f43d
+    new: 422c9727b07f9f86e2ec11c56622e566221591cc
     log: |
-         6dd1de91e7a62bfd3878992c1db6e1d443022c76 tty: mips_ejtag_fdc: fix one more u8 warning
-         2b6b523ce8d02b9a33e1d88ad0d669e150a6ef6f tty: serial: atmel: make it selectable for ARCH_LAN969X
-         4dd7c9d94806dd4f96d91a06e34f3142e386a534 dt-bindings: serial: sc16is7xx: Add description for polling mode
-         104c1b9dde9d859dd01bd2d71a2755a2fae43e15 serial: sc16is7xx: Add polling mode if no IRQ pin is available
-         ac753e1f38a114cf9e46b9824f43d09cb637f43d tty: atmel_serial: Use of_property_present() for non-boolean properties
+         d91f98be26510f5f81ec66425bb0306d1ccd571a serial: 8250: Adjust the timeout for FIFO mode
+         8d5cfb1fe5d8692b2de79b3831445be982167531 serial: 8250: Use frame time to determine timeout
+         95a1b409ba08b602bf4464786ac74d21ae0acbf3 serial: 8250: Use high-level writing function for FIFO
+         910ef438e93cd2ceb70c72caea418710d648feef serial: 8250: Provide flag for IER toggling for RS485
+         b63e6f60eab45b16a1bf734fef9035a4c4187cd5 serial: 8250: Switch to nbcon console
+         422c9727b07f9f86e2ec11c56622e566221591cc serial: 8250: Revert "drop lockdep annotation from serial8250_clear_IER()"
          
 
---===============3862783012781440088==
+--===============4330244993631259539==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736521690 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736521768 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1736521660-a04833e6b4c3df0dd46c04e61617c7a0cc72849f
+nonce 1736521738-97a7d0f4d1d8c4af05d95188a773d38750b8930f
 
-4a495b97b273fee77a8d77c579ebdd0d0d77f87c ac753e1f38a114cf9e46b9824f43d09cb637f43d refs/heads/tty-testing
+ac753e1f38a114cf9e46b9824f43d09cb637f43d 422c9727b07f9f86e2ec11c56622e566221591cc refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJOBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeBN9obHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FxsP9jtnH6nuM3dwwohSI161
-iiL7CYjdH0cDq8fF8Nvx7AsX1YvXDmGoPz1GzZQIEQNnk2zn/+Cyw+jfURutbdPK
-VPB6m8Gen7ZXo1SJgBW4lB+eWvOqIAPlJaVu6bjqKPVb71PDIR01YiFaJkr7oQSc
-ju3bgMX8RX3/oZDJ+yI1bkLgnfZcFlwiT+Yg8B69zxbdEyUR1RLBo8MubqPIIKqm
-Cqo3Sq5MWDx27gPEza2lgaKzrBXvk9j79jtdOX9su/X680PtIGPefPx7x/mRcPto
-Qp9QkJmGQxBoDTuDkxFQSjcPPJtLFRelaaiKswN/EEK/ZJo7JVWejw0jjRhGNjMx
-jWVmla/I/S/7x9zwMzUFSo9P2f+meHtdOHABkX9jeZVcD27YMV2+DJwSutBsMnGE
-AagVHSh0AZMn8qLM61P9mrCubPMpBkhACXVOnQ43vFYAKY0bsj5s3/xZaJ5dvvuZ
-SZ/LP+A/tA3mbICUyh/HmWBt1GqWJ8JsJeS8lgBsvRlzDCeitrFdis3tEeLcNDuX
-YB+n50EPAHNlCbVjAHXOqtpl6llgMQ7fRtx/5cu334lOcF+zXvIZWcunAGHCeFsA
-THWAjDL0QeARtpy3jZ/SsJIhhWycXa6vuNmqP0SuNt3hp5ggze8Ex0fcFbu2vcIP
-pe9yYzAv52s2Qq81qSW/ynw=
-=7KYv
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeBOCgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+du0QAI2MibgWjDWmyPHuLLz5
+KJ1V7gpVvn4EFpXVrHL1g/6Lo9xdMPKKp8M9wRzfztCUAQUvQlMuUFkHfXONv5hV
+KWs1kLItCBEXz6EWkRIBUQ/iwH4h7SLIR/hvzbfhObltUjK6PBhLv+ceJybMKRvt
+fDvg1kVyK7pBW9Oy5zWeE5qPC56lYvjG6C5pp5vdfiE/bgP8zTzm5u0OSr+xD9fv
+/BWU2tMtNU6KNrLa0BQG5gKGLNViwuJbTQrFHb9RqBHqMoTkTzQAvaOVQaA7mLtx
+Jm9Joxt79o3IjTP0HncUJJ8W2d+4qC82I4Ps6MnfKfxN05DrlKzu4CC7ldL0AYdX
+nDGVru70aztVL/qk9Zxn8jge4P2DPfSq8fMSvr5m5J+8voj1tE0YZ8xAWwD1OfBs
+mnRw+yvZIseUCieeuuLXlCyTTefHTrFSr4+pq3NKDHV3edxmRQBwBbxMqZd1E5PX
+qh7bJxaFIceMrk2nUSGuHrI/ZcPO15/S8kRgwOEzdcPtVhU86o8oHvZa82Gswnjd
+SaltM9EN6h9XcBZOc+pPnmmL2GPNMa2SvPxUg8ELPosX0AUgvGOH59/yz2O3tjmv
+kcw1mQQpg0KuHJLCdpSQA2mS/K2+n7AHZinykV63uccSRX39jcYp12wcgwng82QH
+y/IzYQ8TZ5et20LTQqHSrJTt
+=Fg6A
 -----END PGP SIGNATURE-----
 
---===============3862783012781440088==--
+--===============4330244993631259539==--
