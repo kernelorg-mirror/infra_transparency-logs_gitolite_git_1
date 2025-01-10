@@ -1,56 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============7541674366714342620=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 10 Jan 2025 14:24:48 -0000
-Message-Id: <173651908836.3751868.18163129709447316513@gitolite.kernel.org>
-
---===============7541674366714342620==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 10 Jan 2025 14:25:52 -0000
+Message-Id: <173651915223.3754157.16081717175083005952@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: bf2aa7df2687a24ebb52cec4a24443121ac3126d
-    new: 896be785015c0e0ba73442f73b8d4d9f5ccfc54c
+  - ref: refs/heads/master
+    old: 557cb47c1c98b3b7a3e5494974f6a74141c3e229
+    new: ea5dbd7beb523a1f6fa1112e0ad59a59244aecdb
     log: |
-         896be785015c0e0ba73442f73b8d4d9f5ccfc54c bus: fsl-mc: constify the struct device_type usage
+         6ffea470e640dd36fd34b8e320a2ad70b05309c9 dropped_commits: update
+         1ad9eb60d5695270aa84b20e3e270238ffdfb21d Fixes for 6.12
+         88ca924ab033d453c5e233a81794727d4ee2c14d Fixes for 6.6
+         2900b272583091f27ee34dad05759d828f55cb06 Fixes for 6.1
+         d08116e4ed75f47dcb4f672deebc6f20c9c7c69d Fixes for 5.15
+         79b1d256140019541f8163dee09a07c7697de012 Fixes for 5.10
+         ea5dbd7beb523a1f6fa1112e0ad59a59244aecdb Fixes for 5.4
          
-
---===============7541674366714342620==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736519115 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1736519085-be7ccb24138d181612f65938332365f8efe636eb
-
-bf2aa7df2687a24ebb52cec4a24443121ac3126d 896be785015c0e0ba73442f73b8d4d9f5ccfc54c refs/heads/driver-core-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeBLcsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+L6sP/j54HVqIhhiPfDZcBsP8
-7eb6srTsLPRrpjVjmq7YGTOHXyHuz5mc4ETlkxihLr4m4zG6roPzHGYYJZOWLVeN
-8Jjx6OYtBVKmcBaHYTKhJqGe3qIbJAsk+S27anXiHTc52t2NGIdeJbGjSvWVHvzk
-vec1xowkNhJ5hz0d8IXrsiLuhzDUONLWcopg0WuNTgaenmH2Y1ctlI9uyWI8EYkO
-ZVFbn2zpsCjSVAdKthduodz2aTw0LXtEBlvy5eoBiFqxkqNFbPbkRiJvOumCie+F
-LkiQayxxWVxoyC3IP1MARETzb4HjmHpm8oArXq4WvpkDxWc5eiaw9StQQBwaAUrx
-g9rD3Wp72rOQfYe/aloHBlbn6cDKjaWhtNPljcI4TEal3zPs0+pJ6Cej/+oENHNl
-ZNllHRae++gaQ6l52S1psJ3+YHTD1SrJprj02bAQOr72dbSZQ8j8wxXhkN7m7ry9
-BedRzSSkm757IQq3IPJO1Mkho7qTVXLD+Ef+GcNpVVInd7cYuTW+Fwlo+rH0Rw67
-RpSuMPNOcNKOcE/tAfzKXDflegJpaCZptSYEVoeTTUvo3Ksxs1yJOjmKui4fi8n9
-kRNxUN/IQ8hodepTnYOxoH+RQlcTXNiQmb2gmaQvdEA3eW8knBfPRuXwXaUz6z6T
-RlZa9eFRneNRkORriOFclWHC
-=7BoT
------END PGP SIGNATURE-----
-
---===============7541674366714342620==--
