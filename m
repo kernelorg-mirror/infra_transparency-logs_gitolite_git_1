@@ -1,63 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============0125981270610801011=="
+Content-Type: multipart/mixed; boundary="===============2588082560866154281=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 10 Jan 2025 14:35:30 -0000
-Message-Id: <173651973033.3762926.16680060166984785021@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Fri, 10 Jan 2025 14:44:17 -0000
+Message-Id: <173652025716.3768499.4679892078071631802@gitolite.kernel.org>
 
---===============0125981270610801011==
+--===============2588082560866154281==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 896be785015c0e0ba73442f73b8d4d9f5ccfc54c
-    new: 51796f5e2960130fe53e9a71d07152622d5e024c
+  - ref: refs/heads/char-misc-testing
+    old: 6847b00c3c85fffff15f29e030a2fa489bdde88b
+    new: 6d2478a103a8238c5382f8a318735aa75d49803a
     log: |
-         e128f82f7006991c99a58114f70ef61e937b1ac1 driver core: class: Fix wild pointer dereferences in API class_dev_iter_next()
-         d1248436cbef1f924c04255367ff4845ccd9025e blk-cgroup: Fix class @block_class's subsystem refcount leakage
-         3f58ee540d190e9c52b91e055683d15c8ed81112 driver core: Move true expression out of if condition in 3 device finding APIs
-         ab017a15fdb2222002cdc6bdf86699fb21a0721a driver core: Rename declaration parameter name for API device_find_child() cluster
-         037116a6cca3e4dbc97905b6e254e8fe7475d502 driver core: Correct parameter check for API device_for_each_child_reverse_from()
-         523c6b3ed7702a638e0f8fd02708a7ed4f938269 driver core: Correct API device_for_each_child_reverse_from() prototype
-         767b74e0d1fc7890a94d1770acf05a442474bd87 driver core: Introduce device_iter_t for device iterating APIs
-         51796f5e2960130fe53e9a71d07152622d5e024c driver core: Move two simple APIs for finding child device to header
+         37d56e0fb08e1f806de638b7dc8edff329cb683d misc: fastrpc: Add support for multiple PD from one process
+         ff5e0c847042bdde7efd550c722c614ad57715b3 misc: fastrpc: Rename tgid and pid to client_id
+         235b630eda072d7e7b102ab346d6b8a2c028a772 drivers/card_reader/rtsx_usb: Restore interrupt based detection
+         6d2478a103a8238c5382f8a318735aa75d49803a cdx: disable cdx bus from bus shutdown callback
          
 
---===============0125981270610801011==
+--===============2588082560866154281==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736519753 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1736519722-9b2b5928841f88fd5fe293f973d6c433b29d18d2
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736520284 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1736520254-f98c6ce92bed02c48a643634d00d110d26d9228b
 
-896be785015c0e0ba73442f73b8d4d9f5ccfc54c 51796f5e2960130fe53e9a71d07152622d5e024c refs/heads/driver-core-testing
+6847b00c3c85fffff15f29e030a2fa489bdde88b 6d2478a103a8238c5382f8a318735aa75d49803a refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeBMEkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++twQAIH2S37lSDdbZxl87QHm
-N/shrYDoNKtNOJnVhAKITYDfRyV3/gyKxE9en1Ef+6U1EYEcln9mDjBkamTdZ+li
-JEEkk4oUFBcCkXRZArgmQ8ZMSwFi4oR5nB3t4gB0qA8VKIIcLB9q75+DRdKwUYOu
-hcATS5WZNA0J5ulDVdeKN7NYt2k2+9xQhw75gtf/0WAi8840kNrtn7VAgBxiOkqH
-K9oqlgFCHsiFGNX1dYOlKiEcqvK1uMNNvx8Tu1AwByiA5aBabBoXVJ+MLLtHp8oy
-x9E98oHPsX6RZLS/t/R5XfF0nf0SLfewhX5tx3Sda/RLaTzCq4CyaK/rPhx0L1Tt
-4rT+/eisuFsdXpuy5CTEI/JkzR/Lrfww5Kk+HlicU95ajfuwtxJ/wS7/5WAtLxiJ
-/7B3O4ESRToh5acuCcsj2FFBIV5LLU6wKRz80e8L7gM/jNGZ982mO/pbQxEVr2hx
-8n/A/6QOBrIa2uDR2oyKUddULxzfgmgeIgM2izhFPuVutNOV6if5joipEyJkzyph
-bfBsUKLuw03XMKo0/tkVu7Oj3qA4dUK43bN564D3bBadJl26CtXue0w8/q9B5wqP
-zSN4m3Mw3dVwWyuwr7LnUB+UG3fxM6NBmGgNSEZhD8u9ytg70Ko1HL08h0rTyN/4
-/sDi946ZHFumiyNrLQLcm7re
-=6GXU
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeBMlwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MTEP/3GU+0N2s62SP1+ysH2s
+QP66e8rTX+rbJltsnZgD7r0v+cJnrpWyXhzQ5JojH44W3i+KBb+F+OV9c9ItuXvC
+CrkbCgrbOoXjJogwARRJaQQfK5IfO+b/HQCzSw8LDXkFV/esRo8Li3tDo3dJe3xn
+rvPI9fJs5Rn7zd/eTQmwWknw8R95Xa5QjmXygrDa8vrq0aZ92+kTqaOCCGmDB5Il
+7MyhaqmK3tH0mj0OVhKyrq0PagaZ+TYspHvtakA3UUAmfL0FEHPRoeRFjNOAuTr8
+HfyFmrobW2VN+31katgW9bRjgQrkp/y0g5XwIXaIRPpdn9oLrixhqHpoMHfWSBXJ
+mwwMs0S88GxUQW2BLJSH8bnv3PW2K4tDbm7RavTj35Afj5GPgc3SHueqPEIscVtx
+Sioy/ewpDhKI5bwBNielaf2XQIX6EUctasuWjrmasMkpUJMC72UFg69uGcVBn9ZP
+OMYjvDV/XrjmEWdb8NYRX5A++tkaqCshrM/v83BaS2H+qSwW9Dxeq/3VaGzN48Y9
+ZtjNWzvmyJoHLQNQ89J1HWOQ4rwvXk1rZxsz91iJrwo4UVCF2fntulzfngP/Gxik
+ZljPRL14uqX0rwIZ53bliqeTCiO2k0F3SQ+O9mOqnkf9yNY86XZvYif3lufhM9bl
+IVUYYJU1f1c3K3e1dOqDjdFu
+=SF/3
 -----END PGP SIGNATURE-----
 
---===============0125981270610801011==--
+--===============2588082560866154281==--
