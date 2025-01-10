@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4685755752719036269=="
+Content-Type: multipart/mixed; boundary="===============0407278015340962153=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 10 Jan 2025 13:44:10 -0000
-Message-Id: <173651665073.3718655.5225139350721170209@gitolite.kernel.org>
+Date: Fri, 10 Jan 2025 13:44:11 -0000
+Message-Id: <173651665192.3718736.1144833356057652248@gitolite.kernel.org>
 
---===============4685755752719036269==
+--===============0407278015340962153==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,59 +16,64 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.1.y
-    old: c63962be84ef9c4f32e2a57404ceeda330ff3beb
-    new: 14ac37676d6fc39bf8591c18e8ea61c789efa813
-    log: revlist-c63962be84ef-14ac37676d6f.txt
+  - ref: refs/heads/linux-6.6.y
+    old: 843e64492a7ed11436cc5c9bbfba46835939071a
+    new: ead62c49029867907972d176b4ce99b17850e9e0
+    log: revlist-843e64492a7e-ead62c490298.txt
 
---===============4685755752719036269==
+--===============0407278015340962153==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736516679 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736516680 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1736516648-5688a2688b27f250b9543cce84eab375bd9fe1fd
 
-c63962be84ef9c4f32e2a57404ceeda330ff3beb 14ac37676d6fc39bf8591c18e8ea61c789efa813 refs/heads/linux-6.1.y
+843e64492a7ed11436cc5c9bbfba46835939071a ead62c49029867907972d176b4ce99b17850e9e0 refs/heads/linux-6.6.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeBJEcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zVAQALaksixGIk8AZOyai2mq
-+hECs9seUSfvlInToQGVnjjhB5/7nRBRrQuQOimPvVvxWEONFc0ddewji3c1NSfO
-/9kN/2o9cfLL8f0Es9kKStcrsEKluUpwuloGFdIn11OGkleu0GUWMYUHcnOv8HIr
-o6xj8ZSPqJdpx/AmpQccb5rvFwptAHQH9QBG8Ty7gJ8bm43bgbpehlAcVSHaVq4s
-69A6+5gGbeLd/csg2vk8WkbqNPzKzUarWOj02axQ+MwS466o7ewcjXu20agpzUxW
-4cG0OT3MDNhcCmKP2gVVUB9D8z6faQSJNr7PSPaeZxMYv/OvSEvSk5mIcm7xxUN0
-gko6CbmC8fXhABQZOAiEGPwXf5ONz9u/89qYP3bM0e1WGQgq8OdTv2WaOE7MYYeH
-L4GUCv8sZjuMLl+eiPNJy1R2fRSSx40dVUY1z0NuX1P5kva6Ex+W87Rr57kLlu1d
-VxAs5tCEEaHZsDErQnWA9o7TFkHXo7QJkyF3Efgm3p2QT5VkXFMIR8uY8tlTU4OD
-GJM6VUXE6ekBmBXw3sodGjfKqgRSeVrsPGqyLkG05+CGGhqMDqCkPd1KDDBndCEF
-7OVt0bHm+q65cOInbgB9YUth3NnwSF2xmFMTNQAgI/Pomn71W9gD9xqL4CCUdRNE
-fLr8zEv2fV/f8wLJ2UayTsfW
-=Jm5w
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeBJEgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gSEQAJjBsqpiNYZ86d30FbVo
+cu6Q4pFFn1SnlA6w5G8n+zLB9cIAIena2amKYNvmKbQ67UhLBN9guYBmq4IrHp9Y
+fE2Sk5XWZeyrSUrFqesvteg3YhsHF1Eenk8yb6WWYrQqRJrVp5VBWz61t8/bgm6w
+yx0eDKD9pqlBVuZAQlOcXxHmnrirzznRN1hjZGed2qh227Hf9s88XLMPsV3p33P3
+VkyuVvKvJACbR197mXBXw/EIqGbc3qCVt7mXD/EF8cIueVzic4+1mH8b1B6Ys225
+bgoVClpZwvA7O6haAiz/t8I2SsaDRTaZpaWtkQ9NrcNCVvvmAAPGkuhNAEu3FVG6
+BVgSVd+lDqzifd17h27yX66/NZyg0FssNfhdWGrZyPmKa44OmxgyspZdXlT8U4ca
+LYltxuNc55djtQeHq1U7c++liBz6m7bhdpldDh/C1zzedNNHs6WnGZYAJEqCazlY
+dV+2icz9jtxbOVPRFfysp/zXlZicA2yl1Z9I1g91HghpQQwaoksgbw17CJ5ysaml
+rwP/I2aq6MR/j8KWMA3nXIFmMhJ6o3Qfq0XQQR8mnHKvT10btq9Pdw4ZhOY05lBV
+8QXVwEjPifbAKt9kNE2SXtIQM+o4QO/sZsBO/ptOdAauMQdg07klI5hSZlw1T9aZ
+VzGzm1Ng0ssUNAMFb8Y/hYb0
+=40Xl
 -----END PGP SIGNATURE-----
 
---===============4685755752719036269==
+--===============0407278015340962153==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c63962be84ef-14ac37676d6f.txt
+Content-Disposition: attachment; filename=revlist-843e64492a7e-ead62c490298.txt
 
-e206df86bfc299582031d36d87a8c04c05785ebb ceph: give up on paths longer than PATH_MAX
-8dc31909dacdaacbd6bd21d9dcd92bdb85b01469 bpf, sockmap: Fix race between element replace and close()
-23a6421c3086618708b816f92e6398dd938b7070 sched/task_stack: fix object_is_on_stack() for KASAN tagged pointers
-f5e7bf97580cd1d9c88b1178028ab784b8451e4f jbd2: increase IO priority for writing revoke records
-4976c25b9e14eb1f7f2dba43445431e252f2cafc jbd2: flush filesystem device before updating tail sequence
-00050ade782c88f28ffeb7b1aaa5d078784ca98e dm array: fix releasing a faulty array block twice in dm_array_cursor_end
-f74e24ab2c683ebfe935aab42ea567fccc6f3a4b dm array: fix unreleased btree blocks on closing a faulty array cursor
-025139a07fc5d0abfb87d7adfd768d40a45489b2 dm array: fix cursor index when skipping across block boundaries
-94faac683b299b6b004285289065d6c475083010 exfat: fix the infinite loop in exfat_readdir()
-4831d40a322875795c732860164f2760a855dfae exfat: fix the infinite loop in __exfat_free_cluster()
-6b5e6b21e9b9ab0f6b2969ce2553508a33b9cb63 scripts/sorttable: fix orc_sort_cmp() to maintain symmetry and transitivity
-a405551584e5142fdb5192ab6f049a653f1c5779 ASoC: mediatek: disable buffer pre-allocation
-14ac37676d6fc39bf8591c18e8ea61c789efa813 Linux 6.1.125-rc1
+9c08036ca60a0ef4dcb02456c25647ecdecb01df memblock: make memblock_set_node() also warn about use of MAX_NUMNODES
+48681f56c864b07c0e10f16753f16f185f2a3855 memblock: use numa_valid_node() helper to check for invalid node ID
+a5c3d1464f6f9c63218099594706764cf33dfae3 jbd2: increase IO priority for writing revoke records
+b57b149c103641cd2f848de2e0cd300be168350b jbd2: flush filesystem device before updating tail sequence
+201ca9828c542704ced4f4522f26fff555fb079f dm array: fix releasing a faulty array block twice in dm_array_cursor_end
+3ff5cc36c73e1b6b2cbf6b2738f2c3879b467a14 dm array: fix unreleased btree blocks on closing a faulty array cursor
+4522d5484cdcfe8f135aeb6cefc57add94a4a09d dm array: fix cursor index when skipping across block boundaries
+5aecc189d6597e523a9e6606191df247e557f367 exfat: fix the infinite loop in exfat_readdir()
+467cb48951341a66bb128bb217a8c6fcb6cca923 exfat: fix the infinite loop in __exfat_free_cluster()
+ab3cebe0cedb0e3591e19c2b07ea61530fb37ded ovl: do not encode lower fh with upper sb_writers held
+f0bba284f2a5a6464c00832bbb5ddee436034cac ovl: pass realinode to ovl_encode_real_fh() instead of realdentry
+bbccf390f849706437d816e9807fedd092034f62 ovl: support encoding fid from inode with no alias
+848f2ac419e5c0de4a5a47a7994bb4ffd5eb9db5 erofs: handle overlapped pclusters out of crafted images properly
+5214b34496ff7d4bb1a1f5907fc5f305fb3b9927 erofs: fix PSI memstall accounting
+5e15c24ead77fcaef47a481f2e45d5220e355d2c ASoC: rt722: add delay time to wait for the calibration procedure
+cd0fcd9ffa2742b8bd5e59c8df8f7823f797c0bf ASoC: mediatek: disable buffer pre-allocation
+56c46e2ea56d4ac046ae1fa82936991c265c8407 selftests/alsa: Fix circular dependency involving global-timer
+ead62c49029867907972d176b4ce99b17850e9e0 Linux 6.6.72-rc1
 
---===============4685755752719036269==--
+--===============0407278015340962153==--
