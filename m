@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0407278015340962153=="
+Content-Type: multipart/mixed; boundary="===============8738757071256738792=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 10 Jan 2025 13:44:11 -0000
-Message-Id: <173651665192.3718736.1144833356057652248@gitolite.kernel.org>
+Date: Fri, 10 Jan 2025 13:44:13 -0000
+Message-Id: <173651665380.3718823.15512801359465445527@gitolite.kernel.org>
 
---===============0407278015340962153==
+--===============8738757071256738792==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,64 +16,70 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.6.y
-    old: 843e64492a7ed11436cc5c9bbfba46835939071a
-    new: ead62c49029867907972d176b4ce99b17850e9e0
-    log: revlist-843e64492a7e-ead62c490298.txt
+  - ref: refs/heads/linux-6.12.y
+    old: 5996393469d99560b7845d22c9eff00661de0724
+    new: 27db6c44f7c09d81332988f5a68dfd89a7b5298a
+    log: revlist-5996393469d9-27db6c44f7c0.txt
 
---===============0407278015340962153==
+--===============8738757071256738792==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736516680 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736516682 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1736516648-5688a2688b27f250b9543cce84eab375bd9fe1fd
+nonce 1736516650-00e899c69de675b0a4a66b46b531219102b8db0f
 
-843e64492a7ed11436cc5c9bbfba46835939071a ead62c49029867907972d176b4ce99b17850e9e0 refs/heads/linux-6.6.y
+5996393469d99560b7845d22c9eff00661de0724 27db6c44f7c09d81332988f5a68dfd89a7b5298a refs/heads/linux-6.12.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeBJEgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gSEQAJjBsqpiNYZ86d30FbVo
-cu6Q4pFFn1SnlA6w5G8n+zLB9cIAIena2amKYNvmKbQ67UhLBN9guYBmq4IrHp9Y
-fE2Sk5XWZeyrSUrFqesvteg3YhsHF1Eenk8yb6WWYrQqRJrVp5VBWz61t8/bgm6w
-yx0eDKD9pqlBVuZAQlOcXxHmnrirzznRN1hjZGed2qh227Hf9s88XLMPsV3p33P3
-VkyuVvKvJACbR197mXBXw/EIqGbc3qCVt7mXD/EF8cIueVzic4+1mH8b1B6Ys225
-bgoVClpZwvA7O6haAiz/t8I2SsaDRTaZpaWtkQ9NrcNCVvvmAAPGkuhNAEu3FVG6
-BVgSVd+lDqzifd17h27yX66/NZyg0FssNfhdWGrZyPmKa44OmxgyspZdXlT8U4ca
-LYltxuNc55djtQeHq1U7c++liBz6m7bhdpldDh/C1zzedNNHs6WnGZYAJEqCazlY
-dV+2icz9jtxbOVPRFfysp/zXlZicA2yl1Z9I1g91HghpQQwaoksgbw17CJ5ysaml
-rwP/I2aq6MR/j8KWMA3nXIFmMhJ6o3Qfq0XQQR8mnHKvT10btq9Pdw4ZhOY05lBV
-8QXVwEjPifbAKt9kNE2SXtIQM+o4QO/sZsBO/ptOdAauMQdg07klI5hSZlw1T9aZ
-VzGzm1Ng0ssUNAMFb8Y/hYb0
-=40Xl
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeBJEobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2jwQAL11usz9F1UJ2dVLBXjH
+ALlQNLYATJKekJlClqWLhecnX/KWGT14sPgDZMcPUdVxCYD6PwXidlixuAMIe4LA
+quviLhnUieLglXZfQQRr1x3JnR8uysDU+lvmPOcRdz41jQK+RO2JQiXYzphnZNDc
+z7Ho2n3eV+dEtufds0gxXbTY4RAECsvzeXw7amEjrv2N2loEELv9DIdl7RJaJL+p
+TtlP9ATsgQWPPge9V+RK/ivQNDb7VstSyf4IkndxesVSLixqnmIrmCX0kX7mFxfh
+L0qoYSmOToIGPqv1yyIE9LV8fpZ1P1EZqvwWZH69+Mn/OufWXZotQE1qJYo1rboT
+/ueZRjcP/mx6JmuzuArjXYNoXYTSOWQLDkvnHUASypEdQm4+nuuG5hIsONr5Kf4h
+0s1zkLpkUkKEXuXnJ5S2kUYSfi1oUD52fYa5aahaS60EPS6h6MAZ3byJjh2kDNH6
+qjq35xB3G+jL/EkQ8AAub1HFj0hWr3FpHbwiFRYof5PRCfbUOvaF/jamMayZaN6a
+rv74z9GjUNRpx2WWN83LcnxhPM/TvOJ4agTAJ0UZn+3sDdpDFNPt7ag4TGNpLh32
+lG2ZuVu4cdaZVBEz+0R+c+YrXEV2acvbrb5NmNFQ/ajZKgZQ/93zPQLGyeqDrAGA
+X+aW8t9Ay3F6Sn8Y9T/cmnNs
+=GfEh
 -----END PGP SIGNATURE-----
 
---===============0407278015340962153==
+--===============8738757071256738792==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-843e64492a7e-ead62c490298.txt
+Content-Disposition: attachment; filename=revlist-5996393469d9-27db6c44f7c0.txt
 
-9c08036ca60a0ef4dcb02456c25647ecdecb01df memblock: make memblock_set_node() also warn about use of MAX_NUMNODES
-48681f56c864b07c0e10f16753f16f185f2a3855 memblock: use numa_valid_node() helper to check for invalid node ID
-a5c3d1464f6f9c63218099594706764cf33dfae3 jbd2: increase IO priority for writing revoke records
-b57b149c103641cd2f848de2e0cd300be168350b jbd2: flush filesystem device before updating tail sequence
-201ca9828c542704ced4f4522f26fff555fb079f dm array: fix releasing a faulty array block twice in dm_array_cursor_end
-3ff5cc36c73e1b6b2cbf6b2738f2c3879b467a14 dm array: fix unreleased btree blocks on closing a faulty array cursor
-4522d5484cdcfe8f135aeb6cefc57add94a4a09d dm array: fix cursor index when skipping across block boundaries
-5aecc189d6597e523a9e6606191df247e557f367 exfat: fix the infinite loop in exfat_readdir()
-467cb48951341a66bb128bb217a8c6fcb6cca923 exfat: fix the infinite loop in __exfat_free_cluster()
-ab3cebe0cedb0e3591e19c2b07ea61530fb37ded ovl: do not encode lower fh with upper sb_writers held
-f0bba284f2a5a6464c00832bbb5ddee436034cac ovl: pass realinode to ovl_encode_real_fh() instead of realdentry
-bbccf390f849706437d816e9807fedd092034f62 ovl: support encoding fid from inode with no alias
-848f2ac419e5c0de4a5a47a7994bb4ffd5eb9db5 erofs: handle overlapped pclusters out of crafted images properly
-5214b34496ff7d4bb1a1f5907fc5f305fb3b9927 erofs: fix PSI memstall accounting
-5e15c24ead77fcaef47a481f2e45d5220e355d2c ASoC: rt722: add delay time to wait for the calibration procedure
-cd0fcd9ffa2742b8bd5e59c8df8f7823f797c0bf ASoC: mediatek: disable buffer pre-allocation
-56c46e2ea56d4ac046ae1fa82936991c265c8407 selftests/alsa: Fix circular dependency involving global-timer
-ead62c49029867907972d176b4ce99b17850e9e0 Linux 6.6.72-rc1
+010d892b800a09c6d51ef8508db6a568c89905dc jbd2: increase IO priority for writing revoke records
+0490b9060398c258e3a454d21c15beeafc8c82cb jbd2: flush filesystem device before updating tail sequence
+17ad217bb11cb963bc4b04cefa7b77f33d59fa9e fs/writeback: convert wbc_account_cgroup_owner to take a folio
+a56bcaeaf5b2b14f453afe66cd48261f69f96885 iomap: pass byte granular end position to iomap_add_to_ioend
+ffeab76c261e41a1bb93e67c777de92f5e67546d iomap: fix zero padding data issue in concurrent append writes
+b4aeac1e4ec7e51f79818b5b339b121b7d4abe25 dm array: fix releasing a faulty array block twice in dm_array_cursor_end
+f98e9a8b05d95366e9e62ca852ff050363e17ba1 dm array: fix unreleased btree blocks on closing a faulty array cursor
+176b73c6cb8248c3270f0ee5140eff59257c2832 dm array: fix cursor index when skipping across block boundaries
+40c41f703552c6cf452f1534e002efb8639b130e netfs: Fix enomem handling in buffered reads
+b5ce985313d968dbfacfde0653200d7dbfd46014 nfs: Fix oops in nfs_netfs_init_request() when copying to cache
+9255676ba5a9deb47f1ddeccf58e035d392428cf netfs: Fix missing barriers by using clear_and_wake_up_bit()
+71f724bc6f8d19eee0b520a28cbaf884e8a027f8 netfs: Fix ceph copy to cache on write-begin
+9f90915e794596e6c473f430b2a0800bba61c66a netfs: Fix the (non-)cancellation of copy when cache is temporarily disabled
+89f9f66f655fd47720474c8de73eefd86fbc240c netfs: Fix is-caching check in read-retry
+39ead98205c92643cb7b1c28dedbfd052d2e7071 exfat: fix the infinite loop in exfat_readdir()
+82d9f3b8900b9b01b50c9dd2b3de0aa64760e99d exfat: fix the new buffer was not zeroed before writing
+68f4fe8e6bb7d15c82c9421c13a9aed8e32d8d08 exfat: fix the infinite loop in __exfat_free_cluster()
+358f9faf17142db291a3053bb82995ea2c41d5f3 fuse: respect FOPEN_KEEP_CACHE on opendir
+5c1d1968ec6329235d78a467160bd51a3fe7be4e ovl: pass realinode to ovl_encode_real_fh() instead of realdentry
+9cb545136b3c2558e31cc3b20f6dfd0a3ae51f66 ovl: support encoding fid from inode with no alias
+d303c8d1d57962f95f6d030fc17e5f9d3b4bf315 ASoC: rt722: add delay time to wait for the calibration procedure
+77f08ffedefc4eb07a9254b7b84ed979df472891 ASoC: mediatek: disable buffer pre-allocation
+bf0a424c59acba26a7fee7fc506156a48a8dcf38 selftests/alsa: Fix circular dependency involving global-timer
+27db6c44f7c09d81332988f5a68dfd89a7b5298a Linux 6.12.10-rc1
 
---===============0407278015340962153==--
+--===============8738757071256738792==--
