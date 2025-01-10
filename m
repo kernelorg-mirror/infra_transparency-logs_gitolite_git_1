@@ -1,51 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============6989524741398248141=="
+Content-Type: multipart/mixed; boundary="===============4962297324851126383=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 10 Jan 2025 15:45:57 -0000
-Message-Id: <173652395744.3824530.10504661188344029234@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Fri, 10 Jan 2025 15:46:28 -0000
+Message-Id: <173652398806.3824902.12364111642769257865@gitolite.kernel.org>
 
---===============6989524741398248141==
+--===============4962297324851126383==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.14
+  - ref: refs/heads/for-next
     old: 5e56618e1593a9eb9d72dc9433ac7a02a6c48c8f
     new: 89b37e49929653b7c350aac7fb2b96a052533015
     log: revlist-5e56618e1593-89b37e499296.txt
 
---===============6989524741398248141==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1736523985 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1736523954-df7c02967ee582a9c26e93150945adc80a2d79b0
-
-5e56618e1593a9eb9d72dc9433ac7a02a6c48c8f 89b37e49929653b7c350aac7fb2b96a052533015 refs/heads/spi-6.14
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmeBQNEACgkQJNaLcl1U
-h9A4Qwf+InuI6F4EaC04PPu5+GXMCHUzUI0F1JyneslExM9NFlh/Go2AMCRAHC4F
-N6uIyd1RtTZUsSX0OqhNRXjJlVce1r1tl25H+Cn9+INnKyUmsSs0IgXpl3E0unRM
-WAxCX4yCDl2Q3a6mOxIliIxSk7+GTRy3M4Ewwb1CPEiJJhgvWyIyxGe+VP7yEnBj
-rIwwZhWgkH2Y0I3CdnSoHOIqn7nXr7B519UVD6Bs4/gci3GgIX/VFQzacJ+rfTzg
-SHxOIoLNp3VE3VKLiVo6QrYbqzU5s9kQhTPxMGJdMDiYxrI8n0I0At78ikHxNZO0
-9zC4Hi45s1ERGpFVBrLnarqka/Ngvw==
-=zLIr
------END PGP SIGNATURE-----
-
---===============6989524741398248141==
+--===============4962297324851126383==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -72,4 +47,4 @@ d1f85873d2d62d6980e68d21d3a21f20b0664cc3 spi: spi-mem: Reorder spi-mem macro ass
 f0006897a96c736623ddeb9b68c3880eb5cdebe7 spi: spi-mem: Create macros for DTR operation
 89b37e49929653b7c350aac7fb2b96a052533015 spi-nand/spi-mem DTR support
 
---===============6989524741398248141==--
+--===============4962297324851126383==--
