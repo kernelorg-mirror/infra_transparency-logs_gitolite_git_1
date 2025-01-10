@@ -1,56 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============6700243895931447352=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 10 Jan 2025 02:10:42 -0000
-Message-Id: <173647504215.3107514.3044453438585896534@gitolite.kernel.org>
-
---===============6700243895931447352==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 10 Jan 2025 02:23:58 -0000
+Message-Id: <173647583837.3116761.10082614414172075788@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkp/scsi
-user: mkp
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/fixes
-    old: 3b2f56860b05bf0cea86af786fd9b7faa8fe3ef3
-    new: 63ca02221cc5aa0731fe2b0cc28158aaa4b84982
+  - ref: refs/heads/master
+    old: c77cd47cee041bc1664b8e5fcd23036e5aab8e2a
+    new: 2144da25584eb10b84252230319b5783f6a83041
     log: |
-         8604f633f59375687fa115d6f691de95a42520e3 scsi: core: Fix command pass through retry regression
-         63ca02221cc5aa0731fe2b0cc28158aaa4b84982 scsi: iscsi: Fix redundant response for ISCSI_UEVENT_GET_HOST_STATS request
+         4c16e1cadcbcaf3c82d5fc310fbd34d0f5d0db7c ksmbd: fix a missing return value check bug
+         c7f3cd1b245dbdd846ae376cc022c22af8059717 ksmbd: Remove unneeded if check in ksmbd_rdma_capable_netdev()
+         2ac538e40278a2c0c051cca81bcaafc547d61372 ksmbd: fix unexpectedly changed path in ksmbd_vfs_kern_path_locked
+         e8580b4c600e085b3c8e6404392de2f822d4c132 ksmbd: Implement new SMB3 POSIX type
+         2144da25584eb10b84252230319b5783f6a83041 Merge tag '6.13-rc6-ksmbd-server-fixes' of git://git.samba.org/ksmbd
          
-
---===============6700243895931447352==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 75C5DE3D 1736475070 -0500
-pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1736475040-f6c6e4ac02df24b2926692c9eed875f6e58cc63d
-
-3b2f56860b05bf0cea86af786fd9b7faa8fe3ef3 63ca02221cc5aa0731fe2b0cc28158aaa4b84982 refs/heads/fixes
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmeAgb4ACgkQ7ulgGnXF
-3j3Fcw/+McERisrcuOwZea/dJaZa+X/0uADivdUYTXjMrXITsesXq8pjqJ2bmRpN
-6aj8KzXpEGpa2JLOQgC//ZPOYRgrj5HewwJpTZdLMrK8njPIkMEQQB7LNwzAo6Hq
-3bEQLbt4P7se5z/bjLBa9HhB+ne3948ayGl3SIn9EnxOAoPhx2nKCtmqC3way27n
-8QR8qupi0O2pLAGWrxKeC/C7ecnOxWDKHL6td4RpJoq8koc44cPqvrdyOkJPxdaR
-AKPVmLXwO+xiEP0WF14jh0dApFCj76Y9vjTxfvzFkOnTybGSV6+DqOTZb46nGkOv
-3gBuNVizN4vcKfIvbWA+NKaof2EqQQ1J0PVTzbDBY3djcz1WwXxqBQQZGwBPDx63
-As+hUw1t0Jf15PqxD71tbS60uE6ZByqNMdEYAIKMUvYDpEUXhFc1K4Ipceis/q25
-sIpv6o5TAiS9jFB/XOnnh3S8G/qqzVWPjYoMLPhtT01YSGfrLbkf6GicafgnSYzj
-vr3df+LAzxDVjHPQbf6Z8JZhRHhA5U1RAx9C0GO98Ld77beRCxBlXStiVIBarz9x
-CDLled96kviN0trxmvtNfXI1QN38aP5f/wD6QQRI4+Dy9U7T5bB/UNKBtgltWO7u
-8yRLMVrQlQcfuvyxuBZM8R8lMfeDHuqbz5rskpXhUvF2L+TdVR0=
-=UP1V
------END PGP SIGNATURE-----
-
---===============6700243895931447352==--
