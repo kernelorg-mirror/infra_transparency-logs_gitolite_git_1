@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5465361261548013052=="
+Content-Type: multipart/mixed; boundary="===============4744540270435361084=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Thu, 09 Jan 2025 23:57:42 -0000
-Message-Id: <173646706263.2993237.14181339123203467246@gitolite.kernel.org>
+Date: Fri, 10 Jan 2025 00:02:09 -0000
+Message-Id: <173646732913.2997226.17845368615616107456@gitolite.kernel.org>
 
---===============5465361261548013052==
+--===============4744540270435361084==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,32 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/trace/linux-trace
 user: mhiramat
 changes:
-  - ref: refs/heads/probes/fixes
-    old: d685d55dfc86b1a4bdcec77c3c1f8a83f181264e
-    new: 30c8fd31c571db486a5331a92d03eb60a0fb277c
-    log: revlist-d685d55dfc86-30c8fd31c571.txt
+  - ref: refs/heads/probes/for-next
+    old: 5965d3949a7abb836c576735437bbf9436e998a8
+    new: ff246f27d412f24d06c4d6b703483e8c1c697710
+    log: revlist-5965d3949a7a-ff246f27d412.txt
 
---===============5465361261548013052==
+--===============4744540270435361084==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-d685d55dfc86-30c8fd31c571.txt
+Content-Disposition: attachment; filename=revlist-5965d3949a7a-ff246f27d412.txt
 
-3f36ee29e732b68044d531f47d31f22d265954c6 vsock/test: fix parameter types in SO_VM_SOCKETS_* calls
-86814d8ffd55fd4ad19c512eccd721522a370fb2 vsock/test: verify socket options after setting them
-0e21a47c8303f9cc2efe0495f58c2b1ff76080a5 Merge branch 'vsock-test-fix-wrong-setsockopt-parameters'
-7b998e073ff217f140acb59bc38e822e3cdf7612 Merge tag 'nf-24-12-05' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-750e51603395e755537da08f745864c93e3ce741 net: avoid potential UAF in default_operstate()
-31f1b55d5d7e531cd827419e5d71c19f24de161c net :mana :Request a V2 response version for MANA_QUERY_GF_STAT
-c2b46ae022704a2d845e59461fa24431ad627022 ACPI/IORT: Add PMCG platform information for HiSilicon HIP09A
-c0900d15d31c2597dd9f634c8be2b71762199890 arm64: Ensure bits ASID[15:8] are masked out when the kernel uses 8-bit ASIDs
-cf3b16dae4cab9dfa2436d76ce010ad4dd55b53a arm64: mte: Fix copy_highpage() warning on hugetlb folios
-b29bf7119d6bbfd04aabb8d82b060fe2a33ef890 jffs2: Fix rtime decompressor
-4c6ac5446d060f0bf435ccc8bc3aa7b7b5f718ad spi: omap2-mcspi: Fix the IS_ERR() bug for devm_clk_get_optional_enabled()
-d0ceea662d459726487030237689835fcc0483e5 x86/mm: Add _PAGE_NOPTISHADOW bit to avoid updating userspace page tables
-ec16a3cdf37e507013062f9c4a2067eacdd12b62 ASoC: mediatek: mt8188-mt6359: Remove hardcoded dmic codec
-20c3b3e5f2641eff3d85f33e6a468ac052b169bd ALSA: hda/realtek: Fix spelling mistake "Firelfy" -> "Firefly"
-73da582a476ea6e3512f89f8ed57dfed945829a2 x86/cpu/topology: Remove limit of CPUs due to disabled IO/APIC
 a6fa67d26de385c3c7a23c1e109a0e23bfda4ec7 drm/dp_mst: Fix resetting msg rx state after topology removal
 4d49e77a973d3b5d1881663c3f122906a0702940 drm/dp_mst: Verify request type in the corresponding down message reply
 b559b68d2761739b7c2e44d6fa59092b0d03e9ed drm/dp_mst: Simplify error path in drm_dp_mst_handle_down_rep()
@@ -855,6 +840,7 @@ f17224c2a7bdc11a17c96d9d8cb2d829f54d40bb cifs: Remove unused is_server_using_ifa
 0572eccf239ce4bd89bd531767ec5ab20e249290 RDMA/hns: Fix accessing invalid dip_ctx during destroying QP
 fa5c4ba8cdbfd2c2d6422e001311c8213283ebbf RDMA/hns: Fix warning storm caused by invalid input in IO path
 e3debdd48423d3d75b9d366399228d7225d902cd RDMA/hns: Fix missing flush CQE for DWQE
+d685d55dfc86b1a4bdcec77c3c1f8a83f181264e tracing/kprobe: Make trace_kprobe's module callback called after jump_label update
 a53da2fb25a31f4fb8eaeb93c7b1134fc14fd209 drm/xe: Revert some changes that break a mesa debug tool
 528cef1b4170f328d28d4e9b437380d8e5a2d18f drm/xe: Use non-interruptible wait when moving BO to system
 5e0a67fdb894d34c5f109e969320eef9ddae7480 drm/xe: Wait for migration job before unmapping pages
@@ -1050,5 +1036,19 @@ ab75170520d4964f3acf8bb1f91d34cbc650688e Merge tag 'linux-watchdog-6.13-rc6' of 
 9244696b34f2a626d7468864420ab6a47289bf10 Merge tag 'kbuild-fixes-v6.13-3' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 9d89551994a430b50c4fffcb1e617a057fa76e20 Linux 6.13-rc6
 30c8fd31c571db486a5331a92d03eb60a0fb277c tracing/kprobes: Fix to free objects when failed to copy a symbol
+1703abb4dead917ec7e6d9ccb4c13632a6f0994d kprobes: Reduce preempt disable scope in check_kprobe_access_safe()
+587e8e6d640bcf89a4bf29745a3c3fdfe8379ae0 kprobes: Adopt guard() and scoped_guard()
+2cba0070cd0cf25f7f7cfee3447beba8106f682f tracing/kprobe: Adopt guard() and scoped_guard()
+f8821732dcf066b7b6bf4b8bc98abe8f8fcda021 tracing/uprobe: Adopt guard() and scoped_guard()
+4e83017e4c229d7fa368d6974fd06aa59aeef04f tracing/eprobe: Adopt guard() and scoped_guard()
+e2b6e5e4877ac898b61338dc20491cd837af79b2 jump_label: Define guard() for jump_label_lock
+54c79390119d24c1704202a64a997e1c99893b47 kprobes: Use guard() for external locks
+a35fb2bcaeadfb0f522bb573d307c50205d0e740 kprobes: Use guard for rcu_read_lock
+5e5b8b49335971b68b54afeb0e7ded004945af07 kprobes: Remove unneeded goto
+bef8e6afaa512e8cc9444566edd215c884bcf582 kprobes: Remove remaining gotos
+4af0532a0f4799d5944ea966c10890dcb4390d19 tracing: Use __free() in trace_probe for cleanup
+7dcc35207890451519c9ca4cf4207ac2be84fc83 tracing: Use __free() for kprobe events to cleanup
+927054606d08d95827f854246293f8379480ed15 tracing/kprobes: Simplify __trace_kprobe_create() by removing gotos
+ff246f27d412f24d06c4d6b703483e8c1c697710 tracing: Adopt __free() and guard() for trace_fprobe.c
 
---===============5465361261548013052==--
+--===============4744540270435361084==--
