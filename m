@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7474554867415471816=="
+Content-Type: multipart/mixed; boundary="===============1410485099176447067=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 10 Jan 2025 17:14:44 -0000
-Message-Id: <173652928454.3902246.14006892309589950530@gitolite.kernel.org>
+Date: Fri, 10 Jan 2025 17:14:47 -0000
+Message-Id: <173652928710.3902360.12530220234352233718@gitolite.kernel.org>
 
---===============7474554867415471816==
+--===============1410485099176447067==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 7bf1659bad4e9413cdba132ef9cbd0caa9cabcc4
     new: 7b24f164cf005b9649138ef6de94aaac49c9f3d1
     log: revlist-7bf1659bad4e-7b24f164cf00.txt
 
---===============7474554867415471816==
+--===============1410485099176447067==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -272,4 +272,4 @@ daea6d23cd2f99a0c70e871a27d473f3ad48845b netconsole: selftest: verify userdata e
 9007d911f6d2a99d3dd1dbf2097de35727cc665a net: dsa: qca8k: Use of_property_present() for non-boolean properties
 7b24f164cf005b9649138ef6de94aaac49c9f3d1 Merge tag 'ipsec-next-2025-01-09' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec-next
 
---===============7474554867415471816==--
+--===============1410485099176447067==--
