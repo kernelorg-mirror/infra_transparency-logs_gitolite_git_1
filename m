@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 10 Jan 2025 15:19:54 -0000
-Message-Id: <173652239490.3800966.3860570218836289917@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Fri, 10 Jan 2025 15:35:55 -0000
+Message-Id: <173652335582.3815912.15809869041975787867@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/v3_20250110_miquel_raynal_spi_nand_spi_mem_dtr_support
-    old: 0000000000000000000000000000000000000000
-    new: 226d6cb3cb799aae46d0dd19a521133997d9db11
+  - ref: refs/heads/master
+    old: 036041136f10fdb9218d86befd738840ecd58892
+    new: 4f288bd961fcda569875e335406386e571327b20
+    log: |
+         1e1c311243b190586b5a7ee93bec711b163de7de build: Fix --disable-avrcp
+         4f288bd961fcda569875e335406386e571327b20 build: Fix --disable-a2dp
+         
