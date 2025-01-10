@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2815091978491119888=="
+Content-Type: multipart/mixed; boundary="===============7069344538359455147=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 10 Jan 2025 18:14:07 -0000
-Message-Id: <173653284789.3954116.16333804552754896002@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Fri, 10 Jan 2025 18:16:31 -0000
+Message-Id: <173653299125.3957376.11329038576431318359@gitolite.kernel.org>
 
---===============2815091978491119888==
+--===============7069344538359455147==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 01d08f525d260b547fd6dcf9fc8405219331bc34
     log: revlist-cea42d1a8562-01d08f525d26.txt
 
---===============2815091978491119888==
+--===============7069344538359455147==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ f9a59e818067f403aaa859bb95f602e460f265a0 perf ftrace: Check min/max latency only
 b69180c87211b0cc567281d2ccd3c995992c24a4 perf ftrace: Fix display for range of the first bucket
 01d08f525d260b547fd6dcf9fc8405219331bc34 perf report: Fix misleading help message about --demangle
 
---===============2815091978491119888==--
+--===============7069344538359455147==--
