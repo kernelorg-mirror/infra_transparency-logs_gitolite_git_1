@@ -1,59 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============6001098882440047338=="
+Content-Type: multipart/mixed; boundary="===============6546599120909044351=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 10 Jan 2025 15:14:39 -0000
-Message-Id: <173652207969.3796326.13559018217338104549@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Fri, 10 Jan 2025 15:18:09 -0000
+Message-Id: <173652228902.3799690.16029030589495783600@gitolite.kernel.org>
 
---===============6001098882440047338==
+--===============6546599120909044351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 6d2478a103a8238c5382f8a318735aa75d49803a
-    new: 5bd97a54da956ecf88992ea459dc0cccacc72c6d
-    log: |
-         a01f6287c244f35eeec11ca932d09061181eed8c pps: clients: gpio: Bypass edge's direction check when not needed
-         4cabaa0517a9c6157ef5e953825dcd1907ff4d69 virtio: console: Replace deprecated kmap_atomic with kmap_local_page
-         e364374369b365351ad8ad69a10b5f7861f24bcd VMCI: fix reference to ioctl-number.rst
-         5bd97a54da956ecf88992ea459dc0cccacc72c6d pps: adjust references to actual name of uapi header file
-         
+  - ref: refs/heads/vfs.all
+    old: dde8a6b61cacac8f4d95cd7cc0336522746e24b0
+    new: eb2b43b98816df2c7efa00b992eb5c02007d538b
+    log: revlist-dde8a6b61cac-eb2b43b98816.txt
 
---===============6001098882440047338==
+--===============6546599120909044351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-dde8a6b61cac-eb2b43b98816.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736522101 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1736522071-da1748b2d2969ea579f6d1c6a7db3c6b3a5df7ce
+cacd9ae4bf801ff4125d8961bb9a3ba955e51680 poll_wait: add mb() to fix theoretical race between waitqueue_active() and .poll()
+10b02a2cfec2f106db4897ad87732db56d71e6fd poll_wait: kill the obsolete wait_address check
+4e15fa8305deecdf20233558ed9f7a8a62b708fd io_uring_poll: kill the no longer necessary barrier after poll_wait()
+b2849867b3a70c2d675ddca01c4e4540f7d3b8e9 sock_poll_wait: kill the no longer necessary barrier after poll_wait()
+f005bf18a57aadf3af1e85a0f0151cb3688ee606 poll: kill poll_does_not_wait()
+67cd2e23c0f353803f182ae790a7d5074d4c1a4d Merge patch series "poll_wait: add mb() to fix theoretical race between waitqueue_active() and .poll()"
+1623bc27a85a93e82194c8d077eccc464efa67db Merge branch 'vfs-6.14.poll' into vfs.fixes
+f79e6eb84d4d2bff99e3ca6c1f140b2af827e904 samples/vfs/mountinfo: Use __u64 instead of uint64_t
+92f08e9d3cf0f8005ac6fcb931e3c388efc3ac49 afs: Make /afs/.<cell> as well as /afs/<cell> mountpoints
+3e914febd79a8d1a78ee6e67ff3fa4214d6d1d57 afs: Add rootcell checks
+30bca65bbbae13f32ee4f2897c55a496ea8132cf afs: Make /afs/@cell and /afs/.@cell symlinks
+178902bf44f2755f68e47f669ae6d8e9135cdb26 Merge patch series "afs: Dynamic root improvements"
+c5ae0227f45ad944efb1b98344843167d35b2899 Merge branch 'vfs.fixes' into vfs.all
+166c737db8b141f30eb02c8f13e94ac3e8885f0a Merge branch 'vfs-6.14.netfs' into vfs.all
+6cc6c6fe9ce2268531866a045e23ed6fe9118db0 Merge branch 'vfs-6.14.kcore' into vfs.all
+c9e970fdedbd1b4e599cba0f625900e283d2f1f3 Merge branch 'vfs-6.14.misc' into vfs.all
+e206d842e91adab27dbb4ab92699f8fde729e424 Merge branch 'vfs-6.14.pidfs' into vfs.all
+b3ffcb5635af7b3126a0dbfd29f5f176f0d5a806 Merge branch 'kernel-6.14.cred' into vfs.all
+03692e7281ae8248527c7e44d0ed7760efd5b668 Merge branch 'kernel-6.14.pid' into vfs.all
+86f3ba5b122ced97ba70fb9b053043e63dc3bf58 Merge branch 'vfs-6.14.mount' into vfs.all
+214da0b6f015db0d9bf35b50a4bb78ec59c0acb9 Merge branch 'vfs-6.14.libfs' into vfs.all
+7ce932d426465b89cd351101132a3402a40cd24d Merge branch 'vfs-6.14.statx.dio' into vfs.all
+eb2b43b98816df2c7efa00b992eb5c02007d538b Merge branch 'vfs-6.14.afs' into vfs.all
 
-6d2478a103a8238c5382f8a318735aa75d49803a 5bd97a54da956ecf88992ea459dc0cccacc72c6d refs/heads/char-misc-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeBOXUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VAAQAKrxDcX2EDI+OIaKTo2h
-RzUXH0LT3sMBRQ5TdAKzk8Rn3MWhwJJeUzrKVpYZU9TKxTqVor4lRkbpPSzE1yif
-c1vTO2p1YWAluoyJeZpRiGdqJMHecdlU08DACLYmroqudinZQ69K0zT5f/IPvEqc
-3rbE+LXmH4ZROO7z5lxW9BgjHLnFEqs8g/nTBwQWVRx23oVQW9nAvllBfHUg8xdy
-sEbhVTvHw6yICBWt2PssKHX5JhNZTeJP/Gk/zxpPcwhmDDc4UOFq82SmmHh8fILj
-z6bRJmNNWdWDUJ4DMAkPNbUHiy+6uscnYXsEnWs8zG+jKJaPrWh9RtSHuDElkjAz
-FrfquyzmsPBbqeXzByH6cFyJXtyxvyiFDsRhaUFlKYNwypTrMswdU4S+Ve8Q+2eW
-FU3WkWmy8oYB9BkhYaWmB4DeAvDwF7JUGREkLrV/zB5JylYLTEmIu0k+Ar3KUgU6
-XT925EOBbbMgwr3r+N2I0zzhL7+imnRUXNex4oioObCzinx2cCGN2YUiyWLV0oy2
-DNhHHqpFJ1qkhHSQFqgEQLu5VQm7XOUlMuPjPKxsKfl2R3d6QhafiILRcrbescuJ
-TFV5tlw/B/QOkTYnkMM7OYOuA0twAsYg7H96BVcY4Fw6xJ0qYoJHdphe0jEsVIYj
-gl2rMrDYXNbX1rbCKrvCTsVz
-=0N5I
------END PGP SIGNATURE-----
-
---===============6001098882440047338==--
+--===============6546599120909044351==--
