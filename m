@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2102438929739425200=="
+Content-Type: multipart/mixed; boundary="===============7271152047764006993=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Fri, 10 Jan 2025 13:31:44 -0000
-Message-Id: <173651590410.3659309.849629983917167381@gitolite.kernel.org>
+Date: Fri, 10 Jan 2025 13:31:47 -0000
+Message-Id: <173651590722.3659438.8576002021152065467@gitolite.kernel.org>
 
---===============2102438929739425200==
+--===============7271152047764006993==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,44 +16,38 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.6.y
-    old: 1acb10106df3062d221af9b3124de4d968ee34d2
-    new: 843e64492a7ed11436cc5c9bbfba46835939071a
-    log: |
-         c8bc44c5f96172fdaab66a268a53dccc6c7ffa87 Revert "x86/hyperv: Fix hv tsc page based sched_clock for hibernation"
-         b34e805539dabbebfa6030842f4a0ba14de8f813 Revert "x86, crash: wrap crash dumping code into crash related ifdefs"
-         a6923798e471570ac1b24086be0a9679f51c3171 x86/hyperv: Fix hv tsc page based sched_clock for hibernation
-         843e64492a7ed11436cc5c9bbfba46835939071a Linux 6.6.71
-         
+  - ref: refs/tags/v6.6.71
+    old: 0000000000000000000000000000000000000000
+    new: d9d60c752a2ee807af291853910f2a64586d6b84
 
---===============2102438929739425200==
+--===============7271152047764006993==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736515932 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736515936 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1736515901-ce70a2a8dba61cd644173963d1988ad2ff7dee5c
+nonce 1736515905-2eb98468bc6733210f9a4d42e8c45a38320175d6
 
-1acb10106df3062d221af9b3124de4d968ee34d2 843e64492a7ed11436cc5c9bbfba46835939071a refs/heads/linux-6.6.y
+0000000000000000000000000000000000000000 d9d60c752a2ee807af291853910f2a64586d6b84 refs/tags/v6.6.71
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeBIV0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OgYP/ilmJws8UeQMbYQXf4M+
-mz5lOk5CsqHyQ7obquezxzs7YCM9M1cFywookvrfJ3i4DN8XrmRRL4AnVWe5deRW
-2BRX5kwOPBt3hF8PVpuejAgm9td9RNsk6kklyiidD+upl333UpUMEfllZBbE0Y8p
-RCnwgw8GdKlXxbCripG9KlmW5/b/CeO8Maw+RikjpN7i2BB6P/h3i5vkeDYw5c2U
-4DCrJXtP5yeZOjaMhCqeepCaGhIwmTdythE9V82MN9mW6YIQuoKNyYRVJ/Yi97lx
-uTChE5cNiFGHy2lHibu7Dm8q9uUAFlPmqdl1o9tZvxDoxEjTZuRwOUpjWEg+1xcJ
-jwO2o6v5JYhwCCP7TWFcEUW5nE1IJcUuprtoEiwgSQ8EWiZyKfHgRkT2XX729Go/
-85GUkm+2b+mPLKEZe6Bq5GN68pH7oPGjFlwq3MCXtMvhazE0s/u6w21d3vGR39uv
-xfrf9F+TtxhA/lpzIPFq1pcgIgXM+j3dKzwt+96ZB5M18IbzACtBXQFuQ2eJsBss
-PMm9seGJADC8+jJdXADUFUoawwekqzVJA9ri4zmrdYW08iESAn2MvluMYSXKhsfL
-imsCTEXOZn2j6cUXp+yLW15WQRp5rZYjIxbcpnMXI3B4W5zquBWhW6DcEqP45v7g
-heydK94c0MgJf+vWJ0ByPk9F
-=Erg6
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeBIWAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+L4MQALeNoPiUO17qTi4W1TNi
+czFc4f/KrXmmI8AG6HpTZwGT2uwX/k5rtrBrJeUUuu/ufFb+64gYi/iI1OjrvbRW
+DZ+Nl8ovkdn/ABH482tlHEEvnOAJZs5Jtt+KprvQRd6mobr6SBYP8mCJgUJLvViA
+t+45+x0/UpXbdrCto2eeDLFRfA9DjWbgtK80eRQX31gjIks9GXdlnCiH8aOJmsXN
+ETQuU6thDSb8dbN65aU80QEtFnInidwYicSTs95Vg3eWcgY3EjYdA33dzGiHnprD
+FnnYwljljKRtKZBUK66nzZkaiY5ZqwYsog1sjRpLpubcpReLCwyCk3cvktqcr/nM
+qEhc12S1yH5m4TXnH1kpBvW3uH5K3WUSxfUspCJyiP3L9S/KJSjwlwiVIencvv+L
+CgoZIQV3YEQA5JdG/Ied+Gqwqzi1RlLfEbAot3ct+7AaAd600Dq13IEN/UKkxejt
+5JDKq0Rjg4etJ/ApAgLlBgSRQCQdSkToCKzs8PujH5DWNALOjwPFeWoRcOe0IcfT
+0sjHSRTlkdXmeZGnLwoNwVfk0r2QaXiuuVoqH7enHVzDnLV+zjfgNHUfBt5DpWtl
+PGMLFlhDtDfAG0M+XOu8by2bWCkH0zvUySJZkIH8shyvtFzMqDK7eqo2tdFr9QsM
+guPsKI7XTW/lSRxHQIJwsl8a
+=c/zF
 -----END PGP SIGNATURE-----
 
---===============2102438929739425200==--
+--===============7271152047764006993==--
