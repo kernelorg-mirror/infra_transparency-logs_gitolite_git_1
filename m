@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2684277631204067277=="
+Content-Type: multipart/mixed; boundary="===============5592057350382001689=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 10 Jan 2025 09:04:46 -0000
-Message-Id: <173649988675.3438953.5273366373352217999@gitolite.kernel.org>
+Date: Fri, 10 Jan 2025 09:08:54 -0000
+Message-Id: <173650013452.3442472.9755900536152984925@gitolite.kernel.org>
 
---===============2684277631204067277==
+--===============5592057350382001689==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,43 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 5450397d493d3e46453a3c2eea8c17c101afc166
-    new: c5add5295dc1c1176f9a3e2405cc7cb441350c6e
-    log: revlist-5450397d493d-c5add5295dc1.txt
+    old: c5add5295dc1c1176f9a3e2405cc7cb441350c6e
+    new: 59011effc84d7b167f4b6542bd05c7aff1b7574a
+    log: revlist-c5add5295dc1-59011effc84d.txt
+  - ref: refs/heads/tip/urgent
+    old: 3caaba0f4607ea1af0f2d0ba1c9533ed60373eb3
+    new: a98d2067eaeab13b63482aa9bd19cf87c0650b11
+    log: revlist-3caaba0f4607-a98d2067eaea.txt
 
---===============2684277631204067277==
+--===============5592057350382001689==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5450397d493d-c5add5295dc1.txt
+Content-Disposition: attachment; filename=revlist-c5add5295dc1-59011effc84d.txt
+
+e3e7a04b6666a94a41d4dff11b281cc8e9337500 Merge branch into tip/master: 'perf/urgent'
+ce51d05dec4918fd922fef0f03ca7db0b5e298b9 Merge branch into tip/master: 'sched/urgent'
+a98d2067eaeab13b63482aa9bd19cf87c0650b11 Merge branch into tip/master: 'x86/urgent'
+d0d0889508094ed96f63cf12a489335e23ce9cd3 Merge branch into tip/master: 'x86/merge'
+3b7ec14423d33985b5382fc751e83338163d6e0a Merge branch into tip/master: 'ras/merge'
+46fd9b539fd5a0c951bdf06ac5c7f8d1197b21c6 Merge branch into tip/master: 'irq/core'
+acf542717680298c9c81b8442361c65dedf4776d Merge branch into tip/master: 'locking/core'
+1ff7d543a8c1ccd7bb8c995993bae4d083c8e692 Merge branch into tip/master: 'objtool/core'
+ea95fe1f0b9641b8f68f5571e12139373f767e67 Merge branch into tip/master: 'perf/core'
+14a7dfb446351f9150aa3a8fb1504d0ae1008b87 Merge branch into tip/master: 'sched/core'
+26a3a6fea45d21ed8740ee89fe89df77b5ee53dd Merge branch into tip/master: 'x86/bugs'
+4030fc0addd5e975fd23ff2f24cc52d4dbedc525 Merge branch into tip/master: 'x86/cache'
+2189703c8f1c8130a0ffaafbbdb82dcc1578f856 Merge branch into tip/master: 'x86/cleanups'
+17a1dd5c88f3ff33ca2281ac634edc93d4eab514 Merge branch into tip/master: 'x86/cpu'
+a64526091bacd7906a702a6a16c9f5d8adbcf97d Merge branch into tip/master: 'x86/microcode'
+ecfe5c91ca4e31b248d51431e25816a1e35c29a1 Merge branch into tip/master: 'x86/mm'
+59011effc84d7b167f4b6542bd05c7aff1b7574a Merge branch into tip/master: 'x86/tdx'
+
+--===============5592057350382001689==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-3caaba0f4607-a98d2067eaea.txt
 
 2c87309ea741341c6722efdf1fb3f50dd427c823 ieee802154: ca8210: Add missing check for kfifo_alloc() in ca8210_probe()
 eb09fbeb48709fe66c0d708aed81e910a577a30a mac802154: check local interfaces before deleting sdata list
@@ -105,6 +133,8 @@ b5cf67a8f716afbd7f8416edfe898c2df460811a Merge tag 'nf-25-01-09' of git://git.ke
 643e2e259c2b25a2af0ae4c23c6e16586d9fd19c Merge tag 'for-6.13-rc6-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 c77cd47cee041bc1664b8e5fcd23036e5aab8e2a Merge tag 'net-6.13-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 2144da25584eb10b84252230319b5783f6a83041 Merge tag '6.13-rc6-ksmbd-server-fixes' of git://git.samba.org/ksmbd
-c5add5295dc1c1176f9a3e2405cc7cb441350c6e Merge branch 'linus'
+e3e7a04b6666a94a41d4dff11b281cc8e9337500 Merge branch into tip/master: 'perf/urgent'
+ce51d05dec4918fd922fef0f03ca7db0b5e298b9 Merge branch into tip/master: 'sched/urgent'
+a98d2067eaeab13b63482aa9bd19cf87c0650b11 Merge branch into tip/master: 'x86/urgent'
 
---===============2684277631204067277==--
+--===============5592057350382001689==--
