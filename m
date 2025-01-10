@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1609243794191958572=="
+Content-Type: multipart/mixed; boundary="===============7078210187430127817=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Fri, 10 Jan 2025 13:44:09 -0000
-Message-Id: <173651664900.3718494.13381511178076056722@gitolite.kernel.org>
+Message-Id: <173651664916.3718514.2155118035498111003@gitolite.kernel.org>
 
---===============1609243794191958572==
+--===============7078210187430127817==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,22 +16,22 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: 14c02f4e6920ecbd7f6ccb3712e7fd0abda509c7
-    new: dc6b9a39c3ec3536417206e2503cfe666d1fc831
+  - ref: refs/heads/linux-5.15.y
+    old: 4735586da88ed2254ada53bbe19ce4fe968a1e7b
+    new: 15130751f0a8c30a4c4472b696680a6f3f3a27d4
     log: |
-         327721b97e422d497312f64ae6e8409674f7cca8 ceph: give up on paths longer than PATH_MAX
-         471d28775804a4e35c459472c2164b474fb367ec jbd2: flush filesystem device before updating tail sequence
-         b9a83343b91dce98b4b5580493b71520af583148 dm array: fix releasing a faulty array block twice in dm_array_cursor_end
-         3db2d60e371c7842e56d203fcf60768ae80aadb9 dm array: fix unreleased btree blocks on closing a faulty array cursor
-         cdb8b76100d87d18f2eb78430830453b4e597099 dm array: fix cursor index when skipping across block boundaries
-         0b5b4f54abf76b320927eaf2e49ad95c1243d7ac exfat: fix the infinite loop in exfat_readdir()
-         49c9fbdd2687e578ac4ad409018abc937ffb98c0 ASoC: mediatek: disable buffer pre-allocation
-         972a830cbd0fc42d46aaf5eb1d09df2d377f1652 netfilter: nft_dynset: honor stateful expressions in set definition
-         dc6b9a39c3ec3536417206e2503cfe666d1fc831 Linux 5.10.234-rc1
+         753ded65bbee0344d0c11d1c5ed1f7327b139d82 ceph: give up on paths longer than PATH_MAX
+         7fe4d2001a15f6e1c7dec8487f0005b51f3b8128 jbd2: flush filesystem device before updating tail sequence
+         f8a2f0d9299dd3485d50ca5da246131fcb7544e6 dm array: fix releasing a faulty array block twice in dm_array_cursor_end
+         fe0718358324e6e4df0d2c87cd0a7a8c91990ae9 dm array: fix unreleased btree blocks on closing a faulty array cursor
+         799a9d69b34415311dd3dd097c82c814b09935b9 dm array: fix cursor index when skipping across block boundaries
+         9c001cb2de12b11cd06169c1dde31122bb8f4b96 exfat: fix the infinite loop in exfat_readdir()
+         05e627af25971dbbeb59a46936d06f52a084d1d8 exfat: fix the infinite loop in __exfat_free_cluster()
+         b6d8e79925a50e3d5d228265bb329e1e087c6bcf ASoC: mediatek: disable buffer pre-allocation
+         15130751f0a8c30a4c4472b696680a6f3f3a27d4 Linux 5.15.177-rc1
          
 
---===============1609243794191958572==
+--===============7078210187430127817==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,23 +42,23 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736516677 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1736516645-5ca80b9dc6d53aa5dd0d814688ea764481295b15
 
-14c02f4e6920ecbd7f6ccb3712e7fd0abda509c7 dc6b9a39c3ec3536417206e2503cfe666d1fc831 refs/heads/linux-5.10.y
+4735586da88ed2254ada53bbe19ce4fe968a1e7b 15130751f0a8c30a4c4472b696680a6f3f3a27d4 refs/heads/linux-5.15.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeBJEUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KCUP/iJNH3FGi7pDAoYpghR2
-nEz0ug0vXFt4TGSGTyWJYkzNIswhlM4Un2nznXQWv/8PYnAs5yGd+iEKZk0j7j8y
-rslRrFGgJZab1I4qubIfDgxy27bcZdigZHaOnF5Cze2lDKlYt2semMDt0EWIfbFe
-irVo7CKxtqtKhL2tWGDqvsLk8fCC4Rt4TPaPkFTm43nzNWs1OHhgFtq4XK1hatK6
-EXySey8Ku7tT1U4uyJijKrtSkq4MYg/eNJfOb5nUJk039rugAjNmKimj1YOarHF8
-l45xUsYT+4HuUgLI7Salre9TTRYRSAfsDrbIhfUtPkyVDIkVJKQTKfQlE8pszwUT
-uYgvvLQE6F4FR3weAbX5c4o5qmVTspVC2XfoGBnU2r8hVPE6966I+LU/5vZdBOtw
-LSj75o8ss3q537uNQ3ASRRmq5bj5tGqcLenyU4ozEOEJb7D9u7x6x04aqbRYUa5o
-a/LkyhIfP1hRRu8S7lnnTW7tP2V61nR70b54jjwzoKLptqjgH4L1JM282A2SCyh7
-tyydIdeSAr6qGELVpt5ig3l6ahlBa1MRZmHtFcd/ojLt7xKMBsK3KW0E/yeRrbHc
-XAx0r4M5c9ySvUh6ftETWfUDncUAcbUCioCy9pd0O3FpPoxmLmkHdixFDZUFxgWa
-JDy1S4OU66NK/TplVKI+utBN
-=8dhm
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeBJEYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5g0QAIc2PP7EGgbRNw3wvRzJ
+l70sgSgYCA4BY2ZRjOe7fGLpmXxbH5rlay6vAUsz1h7WOD6Hfi6gKIqN/H4ia0FL
+CSrsG+i+VH6+gzSRpi3Im0jfRrx+MC9igxRALPOYTpmD+YH7bsfZppeeIVmFe5m8
+fm+6W4RxERl0ehM2I2TgvmD4etmSiJSsPqQ7aaw++ARmcBvmeM5f1n82perPCc8h
+HgiJeCkdEi8sIyaDNd09bi6JRgjBhnnR1LEVFDFEGMeJxRaPBIfdEZqoPGoyjrhE
+dlSKlfldSjfQ+yxoIGLbccEKOB585Lf8fxFR7iLZaKte3z8Bikxfv7i1mSS3qeVc
+ypTTH7MD3WGzouYQjHDuMvqGdvbooXaIVxjg0luzFN613GiaeuxDSr3/XcHgVBeC
+813PpbEUwcqKhVbutAOQAtGlSD1J/vMBCgEIrW4r8x5wO0repEKIQfJv/yKE6dZ/
+w6Q5AmESwFz3hfhxgRt213VjQSO+H9FBhJVVdbPxiOzKW9A4P4h0nIEuorL+aITP
+HMcKSbK2yNZSx1Ltl9iSc/zN4RD6qMUgDKe8q5lJjX1MJTi6SWGsVMQOC86XflVy
+vUF3BNc/MYS0cfzb6lGc7aNlNSHks5FeM1q9PevFsdThrxuil8o1KXD6y+4JIGtg
+hARX5rakMH14CVflh6wvFdlB
+=mvR7
 -----END PGP SIGNATURE-----
 
---===============1609243794191958572==--
+--===============7078210187430127817==--
