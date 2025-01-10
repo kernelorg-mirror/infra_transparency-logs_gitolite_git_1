@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7078210187430127817=="
+Content-Type: multipart/mixed; boundary="===============4685755752719036269=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 10 Jan 2025 13:44:09 -0000
-Message-Id: <173651664916.3718514.2155118035498111003@gitolite.kernel.org>
+Date: Fri, 10 Jan 2025 13:44:10 -0000
+Message-Id: <173651665073.3718655.5225139350721170209@gitolite.kernel.org>
 
---===============7078210187430127817==
+--===============4685755752719036269==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,49 +16,59 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.15.y
-    old: 4735586da88ed2254ada53bbe19ce4fe968a1e7b
-    new: 15130751f0a8c30a4c4472b696680a6f3f3a27d4
-    log: |
-         753ded65bbee0344d0c11d1c5ed1f7327b139d82 ceph: give up on paths longer than PATH_MAX
-         7fe4d2001a15f6e1c7dec8487f0005b51f3b8128 jbd2: flush filesystem device before updating tail sequence
-         f8a2f0d9299dd3485d50ca5da246131fcb7544e6 dm array: fix releasing a faulty array block twice in dm_array_cursor_end
-         fe0718358324e6e4df0d2c87cd0a7a8c91990ae9 dm array: fix unreleased btree blocks on closing a faulty array cursor
-         799a9d69b34415311dd3dd097c82c814b09935b9 dm array: fix cursor index when skipping across block boundaries
-         9c001cb2de12b11cd06169c1dde31122bb8f4b96 exfat: fix the infinite loop in exfat_readdir()
-         05e627af25971dbbeb59a46936d06f52a084d1d8 exfat: fix the infinite loop in __exfat_free_cluster()
-         b6d8e79925a50e3d5d228265bb329e1e087c6bcf ASoC: mediatek: disable buffer pre-allocation
-         15130751f0a8c30a4c4472b696680a6f3f3a27d4 Linux 5.15.177-rc1
-         
+  - ref: refs/heads/linux-6.1.y
+    old: c63962be84ef9c4f32e2a57404ceeda330ff3beb
+    new: 14ac37676d6fc39bf8591c18e8ea61c789efa813
+    log: revlist-c63962be84ef-14ac37676d6f.txt
 
---===============7078210187430127817==
+--===============4685755752719036269==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736516677 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736516679 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1736516645-5ca80b9dc6d53aa5dd0d814688ea764481295b15
+nonce 1736516648-5688a2688b27f250b9543cce84eab375bd9fe1fd
 
-4735586da88ed2254ada53bbe19ce4fe968a1e7b 15130751f0a8c30a4c4472b696680a6f3f3a27d4 refs/heads/linux-5.15.y
+c63962be84ef9c4f32e2a57404ceeda330ff3beb 14ac37676d6fc39bf8591c18e8ea61c789efa813 refs/heads/linux-6.1.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeBJEYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5g0QAIc2PP7EGgbRNw3wvRzJ
-l70sgSgYCA4BY2ZRjOe7fGLpmXxbH5rlay6vAUsz1h7WOD6Hfi6gKIqN/H4ia0FL
-CSrsG+i+VH6+gzSRpi3Im0jfRrx+MC9igxRALPOYTpmD+YH7bsfZppeeIVmFe5m8
-fm+6W4RxERl0ehM2I2TgvmD4etmSiJSsPqQ7aaw++ARmcBvmeM5f1n82perPCc8h
-HgiJeCkdEi8sIyaDNd09bi6JRgjBhnnR1LEVFDFEGMeJxRaPBIfdEZqoPGoyjrhE
-dlSKlfldSjfQ+yxoIGLbccEKOB585Lf8fxFR7iLZaKte3z8Bikxfv7i1mSS3qeVc
-ypTTH7MD3WGzouYQjHDuMvqGdvbooXaIVxjg0luzFN613GiaeuxDSr3/XcHgVBeC
-813PpbEUwcqKhVbutAOQAtGlSD1J/vMBCgEIrW4r8x5wO0repEKIQfJv/yKE6dZ/
-w6Q5AmESwFz3hfhxgRt213VjQSO+H9FBhJVVdbPxiOzKW9A4P4h0nIEuorL+aITP
-HMcKSbK2yNZSx1Ltl9iSc/zN4RD6qMUgDKe8q5lJjX1MJTi6SWGsVMQOC86XflVy
-vUF3BNc/MYS0cfzb6lGc7aNlNSHks5FeM1q9PevFsdThrxuil8o1KXD6y+4JIGtg
-hARX5rakMH14CVflh6wvFdlB
-=mvR7
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeBJEcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zVAQALaksixGIk8AZOyai2mq
++hECs9seUSfvlInToQGVnjjhB5/7nRBRrQuQOimPvVvxWEONFc0ddewji3c1NSfO
+/9kN/2o9cfLL8f0Es9kKStcrsEKluUpwuloGFdIn11OGkleu0GUWMYUHcnOv8HIr
+o6xj8ZSPqJdpx/AmpQccb5rvFwptAHQH9QBG8Ty7gJ8bm43bgbpehlAcVSHaVq4s
+69A6+5gGbeLd/csg2vk8WkbqNPzKzUarWOj02axQ+MwS466o7ewcjXu20agpzUxW
+4cG0OT3MDNhcCmKP2gVVUB9D8z6faQSJNr7PSPaeZxMYv/OvSEvSk5mIcm7xxUN0
+gko6CbmC8fXhABQZOAiEGPwXf5ONz9u/89qYP3bM0e1WGQgq8OdTv2WaOE7MYYeH
+L4GUCv8sZjuMLl+eiPNJy1R2fRSSx40dVUY1z0NuX1P5kva6Ex+W87Rr57kLlu1d
+VxAs5tCEEaHZsDErQnWA9o7TFkHXo7QJkyF3Efgm3p2QT5VkXFMIR8uY8tlTU4OD
+GJM6VUXE6ekBmBXw3sodGjfKqgRSeVrsPGqyLkG05+CGGhqMDqCkPd1KDDBndCEF
+7OVt0bHm+q65cOInbgB9YUth3NnwSF2xmFMTNQAgI/Pomn71W9gD9xqL4CCUdRNE
+fLr8zEv2fV/f8wLJ2UayTsfW
+=Jm5w
 -----END PGP SIGNATURE-----
 
---===============7078210187430127817==--
+--===============4685755752719036269==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-c63962be84ef-14ac37676d6f.txt
+
+e206df86bfc299582031d36d87a8c04c05785ebb ceph: give up on paths longer than PATH_MAX
+8dc31909dacdaacbd6bd21d9dcd92bdb85b01469 bpf, sockmap: Fix race between element replace and close()
+23a6421c3086618708b816f92e6398dd938b7070 sched/task_stack: fix object_is_on_stack() for KASAN tagged pointers
+f5e7bf97580cd1d9c88b1178028ab784b8451e4f jbd2: increase IO priority for writing revoke records
+4976c25b9e14eb1f7f2dba43445431e252f2cafc jbd2: flush filesystem device before updating tail sequence
+00050ade782c88f28ffeb7b1aaa5d078784ca98e dm array: fix releasing a faulty array block twice in dm_array_cursor_end
+f74e24ab2c683ebfe935aab42ea567fccc6f3a4b dm array: fix unreleased btree blocks on closing a faulty array cursor
+025139a07fc5d0abfb87d7adfd768d40a45489b2 dm array: fix cursor index when skipping across block boundaries
+94faac683b299b6b004285289065d6c475083010 exfat: fix the infinite loop in exfat_readdir()
+4831d40a322875795c732860164f2760a855dfae exfat: fix the infinite loop in __exfat_free_cluster()
+6b5e6b21e9b9ab0f6b2969ce2553508a33b9cb63 scripts/sorttable: fix orc_sort_cmp() to maintain symmetry and transitivity
+a405551584e5142fdb5192ab6f049a653f1c5779 ASoC: mediatek: disable buffer pre-allocation
+14ac37676d6fc39bf8591c18e8ea61c789efa813 Linux 6.1.125-rc1
+
+--===============4685755752719036269==--
