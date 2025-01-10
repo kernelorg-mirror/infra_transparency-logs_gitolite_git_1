@@ -1,66 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============6833855362320002502=="
+Content-Type: multipart/mixed; boundary="===============0125981270610801011=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Fri, 10 Jan 2025 14:33:41 -0000
-Message-Id: <173651962137.3759920.5179105981661280669@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Fri, 10 Jan 2025 14:35:30 -0000
+Message-Id: <173651973033.3762926.16680060166984785021@gitolite.kernel.org>
 
---===============6833855362320002502==
+--===============0125981270610801011==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-linus
-    old: de5afaddd5a7af6b9c48900741b410ca03e453ae
-    new: 0fa01cf41ff9719f5d81f396285fc120c312ead8
-    log: revlist-de5afaddd5a7-0fa01cf41ff9.txt
-  - ref: refs/heads/master
-    old: d04d90dbdcef8e7f97b90e8e297cedcaf4db25f1
-    new: 89be308334d74988c5b4cb357b6ab038dd81d922
-    log: revlist-d04d90dbdcef-89be308334d7.txt
+  - ref: refs/heads/driver-core-testing
+    old: 896be785015c0e0ba73442f73b8d4d9f5ccfc54c
+    new: 51796f5e2960130fe53e9a71d07152622d5e024c
+    log: |
+         e128f82f7006991c99a58114f70ef61e937b1ac1 driver core: class: Fix wild pointer dereferences in API class_dev_iter_next()
+         d1248436cbef1f924c04255367ff4845ccd9025e blk-cgroup: Fix class @block_class's subsystem refcount leakage
+         3f58ee540d190e9c52b91e055683d15c8ed81112 driver core: Move true expression out of if condition in 3 device finding APIs
+         ab017a15fdb2222002cdc6bdf86699fb21a0721a driver core: Rename declaration parameter name for API device_find_child() cluster
+         037116a6cca3e4dbc97905b6e254e8fe7475d502 driver core: Correct parameter check for API device_for_each_child_reverse_from()
+         523c6b3ed7702a638e0f8fd02708a7ed4f938269 driver core: Correct API device_for_each_child_reverse_from() prototype
+         767b74e0d1fc7890a94d1770acf05a442474bd87 driver core: Introduce device_iter_t for device iterating APIs
+         51796f5e2960130fe53e9a71d07152622d5e024c driver core: Move two simple APIs for finding child device to header
+         
 
---===============6833855362320002502==
+--===============0125981270610801011==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-de5afaddd5a7-0fa01cf41ff9.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-b1d4ac91a9246d7fb1906b2f38f529b097884c8e ASoC: codecs: ES8326: Adjust ANA_MICBIAS to reduce pop noise
-cf86e0ae60a225e2c7921ced755e922da9012bea ASoC: tas2781: Fix occasional calibration failture
-5ed01155cea69801f1f0c908954a56a5a3474bed ASoC: wm8994: Add depends on MFD core
-85c9ac7a56f731ecd59317c822cb6295464444cc ASoC: codecs: es8316: Fix HW rate calculation for 48Mhz MCLK
-fd55c6065bec5268740e944a1800e6fad00974d9 ASoC: samsung: Add missing selects for MFD_WM8994
-1acb73db4893345d5811f48f1ff979cec495009e MAINTAINERS: add missing maintainers for Simple Audio Card
-704dbe97a68153a84319ad63f526e12ba868b88e ASoC: samsung: Add missing depends on I2C
-088fb4ee17fc456fcbce0a9ff46d147e3b2be139 ALSA: doc: cs35l56: Add information about Cirrus Logic CS35L54/56/57
-080505f3c6c3fa5560f3b84249875fd26229124c ALSA: doc: Add codecs/index.rst to top-level index
-8f0defd2e52d22eb994d7e770b1261caa24917d8 ASoC: cs42l43: Add codec force suspend/resume ops
-139fa599cea0fd9d38e00246ea9f79af6c59acbd ASoC: rsnd: check rsnd_adg_clk_enable() return value
-0fa01cf41ff9719f5d81f396285fc120c312ead8 Merge tag 'asoc-fix-v6.13-rc6' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736519753 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1736519722-9b2b5928841f88fd5fe293f973d6c433b29d18d2
 
---===============6833855362320002502==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d04d90dbdcef-89be308334d7.txt
+896be785015c0e0ba73442f73b8d4d9f5ccfc54c 51796f5e2960130fe53e9a71d07152622d5e024c refs/heads/driver-core-testing
+-----BEGIN PGP SIGNATURE-----
 
-b1d4ac91a9246d7fb1906b2f38f529b097884c8e ASoC: codecs: ES8326: Adjust ANA_MICBIAS to reduce pop noise
-cf86e0ae60a225e2c7921ced755e922da9012bea ASoC: tas2781: Fix occasional calibration failture
-5ed01155cea69801f1f0c908954a56a5a3474bed ASoC: wm8994: Add depends on MFD core
-85c9ac7a56f731ecd59317c822cb6295464444cc ASoC: codecs: es8316: Fix HW rate calculation for 48Mhz MCLK
-fd55c6065bec5268740e944a1800e6fad00974d9 ASoC: samsung: Add missing selects for MFD_WM8994
-1acb73db4893345d5811f48f1ff979cec495009e MAINTAINERS: add missing maintainers for Simple Audio Card
-704dbe97a68153a84319ad63f526e12ba868b88e ASoC: samsung: Add missing depends on I2C
-088fb4ee17fc456fcbce0a9ff46d147e3b2be139 ALSA: doc: cs35l56: Add information about Cirrus Logic CS35L54/56/57
-080505f3c6c3fa5560f3b84249875fd26229124c ALSA: doc: Add codecs/index.rst to top-level index
-8f0defd2e52d22eb994d7e770b1261caa24917d8 ASoC: cs42l43: Add codec force suspend/resume ops
-139fa599cea0fd9d38e00246ea9f79af6c59acbd ASoC: rsnd: check rsnd_adg_clk_enable() return value
-0fa01cf41ff9719f5d81f396285fc120c312ead8 Merge tag 'asoc-fix-v6.13-rc6' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-89be308334d74988c5b4cb357b6ab038dd81d922 Merge branch 'for-linus'
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeBMEkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++twQAIH2S37lSDdbZxl87QHm
+N/shrYDoNKtNOJnVhAKITYDfRyV3/gyKxE9en1Ef+6U1EYEcln9mDjBkamTdZ+li
+JEEkk4oUFBcCkXRZArgmQ8ZMSwFi4oR5nB3t4gB0qA8VKIIcLB9q75+DRdKwUYOu
+hcATS5WZNA0J5ulDVdeKN7NYt2k2+9xQhw75gtf/0WAi8840kNrtn7VAgBxiOkqH
+K9oqlgFCHsiFGNX1dYOlKiEcqvK1uMNNvx8Tu1AwByiA5aBabBoXVJ+MLLtHp8oy
+x9E98oHPsX6RZLS/t/R5XfF0nf0SLfewhX5tx3Sda/RLaTzCq4CyaK/rPhx0L1Tt
+4rT+/eisuFsdXpuy5CTEI/JkzR/Lrfww5Kk+HlicU95ajfuwtxJ/wS7/5WAtLxiJ
+/7B3O4ESRToh5acuCcsj2FFBIV5LLU6wKRz80e8L7gM/jNGZ982mO/pbQxEVr2hx
+8n/A/6QOBrIa2uDR2oyKUddULxzfgmgeIgM2izhFPuVutNOV6if5joipEyJkzyph
+bfBsUKLuw03XMKo0/tkVu7Oj3qA4dUK43bN564D3bBadJl26CtXue0w8/q9B5wqP
+zSN4m3Mw3dVwWyuwr7LnUB+UG3fxM6NBmGgNSEZhD8u9ytg70Ko1HL08h0rTyN/4
+/sDi946ZHFumiyNrLQLcm7re
+=6GXU
+-----END PGP SIGNATURE-----
 
---===============6833855362320002502==--
+--===============0125981270610801011==--
