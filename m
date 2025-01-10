@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4311484891761863539=="
+Content-Type: multipart/mixed; boundary="===============3225875461494404334=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Fri, 10 Jan 2025 11:02:37 -0000
-Message-Id: <173650695745.3535030.15005895156555019066@gitolite.kernel.org>
+Date: Fri, 10 Jan 2025 11:02:44 -0000
+Message-Id: <173650696497.3535153.17400555490399843049@gitolite.kernel.org>
 
---===============4311484891761863539==
+--===============3225875461494404334==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,40 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: b95c8c33ae687fcd3007cefa93907a6bd270119b
+  - ref: refs/heads/testing
+    old: 87f54c12195150fec052f6a5458fcecdda5ec62f
     new: 8c7a6efc017e59f2b773a8a4c0897309dfe1d742
-    log: revlist-b95c8c33ae68-8c7a6efc017e.txt
-  - ref: refs/heads/master
-    old: b95c8c33ae687fcd3007cefa93907a6bd270119b
-    new: 8c7a6efc017e59f2b773a8a4c0897309dfe1d742
-    log: revlist-b95c8c33ae68-8c7a6efc017e.txt
+    log: revlist-87f54c121951-8c7a6efc017e.txt
 
---===============4311484891761863539==
+--===============3225875461494404334==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1736506983 +0100
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1736506991 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1736506952-a1e2244b605a84e45722eef7415aa771de1fa5ed
+nonce 1736506961-0676c4e94168de83829112596c1df6353926fcf1
 
-b95c8c33ae687fcd3007cefa93907a6bd270119b 8c7a6efc017e59f2b773a8a4c0897309dfe1d742 refs/heads/main
-b95c8c33ae687fcd3007cefa93907a6bd270119b 8c7a6efc017e59f2b773a8a4c0897309dfe1d742 refs/heads/master
+87f54c12195150fec052f6a5458fcecdda5ec62f 8c7a6efc017e59f2b773a8a4c0897309dfe1d742 refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEUEC6huC2BN0pvD5fKDiiPnotvG8FAmeA/mcTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRAoOKI+ei28b4WOB/9H4zgyIEWLiD3q96X6XV75wy/vh8tW
-DiGenaYUzZon1Lh9H9BUGJem1WEg4ckGdmtOh7PZmXX7an+Q1DLxKaZk330739DA
-olDOiT4d0UmKwZ3W/tdsMRimk1OitBWWsyVLn1Q9tHpa7hw5TgZhBrTe4I7r6hV1
-RXmJ9OBnd4JLrkXkyIMa04JqzSUYDmurdmqYKNkBbunJt02qbsVUdPfUyR2NJVnM
-IXoU6IF/R8rkX6yoZI47qP1ncmNxs1U/36di0mABdJpRmEI4EY56JCgWAtsXeGjC
-GbvsXZ0GklkIStsk2B2ONzHz6+NBFtkI5l0iMl6UW5nmOCG7eKgTZSnq
-=NaAO
+iQFHBAABCgAxFiEEUEC6huC2BN0pvD5fKDiiPnotvG8FAmeA/m8THG1rbEBwZW5n
+dXRyb25peC5kZQAKCRAoOKI+ei28b9yUB/9Wkaz+QOf/pfBipe5Rok0V3rsYRsGq
+W7VO2fxEBHbf0VKzJV8YF4nQEN/t4wsOex1QCuXf+2PMeLJYd15bkeHnjjo/wcF9
+XcSBy0me1fFB/rI9Fc0wddmpY5R9jRQ9QFnSIOP+xQ7vaWzYnPVWBmCVDDqS5EcF
+bUxHYuvDGd5LUs7+czeGYT8UefiT7tRzFrI5aZH9YzJb+iMkm9LK+OlOrvtrvm6i
+lOGemD1W32RRbBAwTKJHutAnbcoQ/nyWZdK9lW8MgGx7mosYMfX9EBQvlQdzpAV4
+/t8WdPr/aeZSuoEjytbzjwzZ4CoZvu0wTY4FzpT4zfMpJXWg0pAHe0im
+=gXhO
 -----END PGP SIGNATURE-----
 
---===============4311484891761863539==
+--===============3225875461494404334==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-b95c8c33ae68-8c7a6efc017e.txt
+Content-Disposition: attachment; filename=revlist-87f54c121951-8c7a6efc017e.txt
 
 2c87309ea741341c6722efdf1fb3f50dd427c823 ieee802154: ca8210: Add missing check for kfifo_alloc() in ca8210_probe()
 eb09fbeb48709fe66c0d708aed81e910a577a30a mac802154: check local interfaces before deleting sdata list
@@ -532,7 +527,9 @@ be691b5e593f2cc8cef67bbc59c1fb91b74a86a9 btrfs: split bios to the fs sector size
 dfb92681a19e1d5172420baa242806414b3eff6f btrfs: tree-checker: reject inline extent items with 0 ref count
 058387d9c6b70e225da82492e1e193635c3fac3f arm64: dts: broadcom: Fix L2 linesize for Raspberry Pi 5
 f4bf0b909a6bf64a2220a42a7c8b8c2ee1b77b89 clk: thead: Fix TH1520 emmc and shdci clock rate
+93433c1d919775f8ac0f7893692f42e6731a5373 idpf: add support for SW triggered interrupts
 9048cf05a17a7bc26f0b8e2e53750b1237303970 NFSD: fix management of pending async copies
+0c1683c681681c14f4389e3bfa8de10baf242ba8 idpf: trigger SW interrupt when exiting wb_on_itr mode
 aef25be35d23ec768eed08bfcf7ca3cf9685bc28 hexagon: Disable constant extender optimization for LLVM prior to 19.1.0
 23579010cf0a12476e96a5f1acdf78a9c5843657 bpf: Fix bpf_get_smp_processor_id() on !CONFIG_SMP
 05aa156e156ef3168e7ab8a68721945196495c17 powerpc/pseries/vas: Add close() callback in vas_vm_ops struct
@@ -570,7 +567,10 @@ eabcdba3ad4098460a376538df2ae36500223c1e Merge tag 'for-6.13-rc3-tag' of git://g
 cf2c97423a4f89c8b798294d3f34ecfe7e7035c3 ipvs: Fix clamp() of ip_vs_conn_tab on small memory systems
 70b6f46a4ed8bd56c85ffff22df91e20e8c85e33 netfilter: ipset: Fix for recursive locking warning
 b3ded6072c5600704cfa3ce3a8dc8718d34bda66 power: supply: bq24190: Fix BQ24296 Vbus regulator support
+cff865c700711ecc3824b2dfe181637f3ed23c80 net: phy: avoid undefined behavior in *_led_polarity_set()
 12d908116f7efd34f255a482b9afc729d7a5fb78 io_uring: Fix registered ring file refcount leak
+5c964c8a97c12145104f5d2782aa1ffccf3a93dd net: usb: qmi_wwan: add Quectel RG255C
+dbfca1641e697fa088a1cd7e305b47db1dfd3567 Merge tag 'linux-can-fixes-for-6.13-20241218' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
 dbf8be8218e7ff2ee2bbeebc91bf0e0c58a8c60b docs/mm: add VMA locks documentation
 6a75f19af16ff482cfd6085c77123aa0f464f8dd selftests/memfd: run sysctl tests when PID namespace support is enabled
 da5bd7fa789ae212ac18ebc3ac52b7f2ce1781da mailmap: add entry for Ying Huang
@@ -596,6 +596,13 @@ a2e740e216f5bf49ccb83b6d490c72a340558a43 vmalloc: fix accounting with i915
 e269b5d2916d7a696c2d2ed370cea95d95a0675a alloc_tag: fix module allocation tags populated area calculation
 60da7445a142bd15e67f3cda915497781c3f781f alloc_tag: fix set_codetag_empty() when !CONFIG_MEM_ALLOC_PROFILING_DEBUG
 d3ac65d274b3a93cf9cf9559fd1473ab65e00e10 mm: huge_memory: handle strsep not finding delimiter
+a17975992cc11588767175247ccaae1213a8b582 selftests: openvswitch: fix tcpdump execution
+a713c017ef0e63e43b26fd77a5675cd877514f13 Merge branch '200GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+16f027cd40eeedd2325f7e720689462ca8d9d13e net: dsa: restore dsa_software_vlan_untag() ability to operate on VLAN-untagged traffic
+5eb70dbebf32c2fd1f2814c654ae17fc47d6e859 netdev-genl: avoid empty messages in queue dump
+5eecd85c77a254a43bde3212da8047b001745c9f psample: adjust size if rate_as_probability is set
+51df947678360faf1967fe0bd1a40c681f634104 octeontx2-pf: fix netdev memory leak in rvu_rep_create()
+b95c8c33ae687fcd3007cefa93907a6bd270119b octeontx2-pf: fix error handling of devlink port in rvu_rep_create()
 b4adc04954592cb9f2e5dc796c5119c4d4c9b906 Merge tag 'nf-24-12-19' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 13a6691910cc23ea9ba4066e098603088673d5b0 RDMA/nldev: Set error code in rdma_nl_notify_event
 16b87037b48889d21854c8e97aec8a1baf2642b3 RDMA/siw: Remove direct link to net_device
@@ -1026,4 +1033,4 @@ c77cd47cee041bc1664b8e5fcd23036e5aab8e2a Merge tag 'net-6.13-rc7' of git://git.k
 03d120f27d050336f7e7d21879891542c4741f81 net: ethernet: ti: cpsw_ale: Fix cpsw_ale_get_field()
 8c7a6efc017e59f2b773a8a4c0897309dfe1d742 ipv4: route: fix drop reason being overridden in ip_route_input_slow
 
---===============4311484891761863539==--
+--===============3225875461494404334==--
