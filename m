@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1853097368197660670=="
+Content-Type: multipart/mixed; boundary="===============0158075185245009804=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 10 Jan 2025 16:58:22 -0000
-Message-Id: <173652830201.3887047.7328614019425377972@gitolite.kernel.org>
+Date: Fri, 10 Jan 2025 16:58:24 -0000
+Message-Id: <173652830484.3887150.15823474994764733998@gitolite.kernel.org>
 
---===============1853097368197660670==
+--===============0158075185245009804==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: db78475ba0d3c66d430f7ded2388cc041078a542
     new: 8c7a6efc017e59f2b773a8a4c0897309dfe1d742
     log: revlist-db78475ba0d3-8c7a6efc017e.txt
 
---===============1853097368197660670==
+--===============0158075185245009804==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -201,4 +201,4 @@ c77cd47cee041bc1664b8e5fcd23036e5aab8e2a Merge tag 'net-6.13-rc7' of git://git.k
 03d120f27d050336f7e7d21879891542c4741f81 net: ethernet: ti: cpsw_ale: Fix cpsw_ale_get_field()
 8c7a6efc017e59f2b773a8a4c0897309dfe1d742 ipv4: route: fix drop reason being overridden in ip_route_input_slow
 
---===============1853097368197660670==--
+--===============0158075185245009804==--
