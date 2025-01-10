@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7597874370653015951=="
+Content-Type: multipart/mixed; boundary="===============4542883616035253538=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 10 Jan 2025 12:27:27 -0000
-Message-Id: <173651204738.3602587.499544962974262879@gitolite.kernel.org>
+Date: Fri, 10 Jan 2025 12:28:00 -0000
+Message-Id: <173651208013.3602962.17511608312630201468@gitolite.kernel.org>
 
---===============7597874370653015951==
+--===============4542883616035253538==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,44 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: c1ecb860a48d0bf56b0fc8391c5d59b0c3b42516
+  - ref: refs/heads/driver-core-next
+    old: 18032c6bc0e204c8f836b09707ef671991e4fe87
     new: bf2aa7df2687a24ebb52cec4a24443121ac3126d
     log: |
+         7685ad5f08d9297f5a3d30b1818391ac94813171 mux: constify mux class
+         2a8d6abdf5cfdc7df934968f2e8292d050f20b20 devcoredump: cleanup some comments
+         c1ecb860a48d0bf56b0fc8391c5d59b0c3b42516 firmware_loader: Constify 'struct bin_attribute'
          bf2aa7df2687a24ebb52cec4a24443121ac3126d miscdevice: rust: use build_error! macro instead of function
          
 
---===============7597874370653015951==
+--===============4542883616035253538==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736512071 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736512108 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1736512041-6c46aa87ba8000a9ecbf9bb6e6805439e157dd68
+nonce 1736512078-7bf9345408067d8e15c2000a68939b961770d9da
 
-c1ecb860a48d0bf56b0fc8391c5d59b0c3b42516 bf2aa7df2687a24ebb52cec4a24443121ac3126d refs/heads/driver-core-testing
+18032c6bc0e204c8f836b09707ef671991e4fe87 bf2aa7df2687a24ebb52cec4a24443121ac3126d refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeBEkcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/wMP/i7mGgVl8XAKDn/ZHsW6
-Db01hTk/N1TS1PNFt+Af+EiBxExgO5B+XRpPZAqZVTcICnFGPfHpOsrFPaPxvPLA
-ARDBo8Ej+vAqpI8rb8fVgQ1TdW12EFO0674gulYOJZaUYADc+DvnzNeM86j3EIil
-VCQ6fbg86I6Yp8ggFarDrnMXMPV+817SbK3LH39XXNPhEI8Bv80cNDsICxSTyoe7
-GAXjH17X/c0WuAKAxL+bPcwc5uM/Z1s6RGD0249HXDb+Z9z2T/8yAOw7UJ86As6T
-0ctK2VOuZPC5Erm8U371IVOHy31ADMd6ftk4uGXFUOKlerXFmFys0TdHeO6nCtb7
-ORha3Y1dhhB/kkEoOM63uv23GdgAj22LphL4G14JmXat+pqqd8vbBlIPDRnp3lMi
-yp7yggg88phtaNy4Bbv5qRqkRsAY8Lv+omH96D9MinRAxbuwp7uMDWxvLa6QhFqE
-iIHya4j6bIqeVY2+Ys4Nf6B/gMGJUf5sfq1DYnIFR1rdeBl/szYZuf3Eg/bzs2fR
-VIk1mLE75AjS0LPjwGS/PilKqm5z8rHHPqDlBHDgJRYNh34YrErDw99iXwau4n60
-GJ5lc9UkU4VkS6q7tKNwcuLV4RJDGWhEq91Y2fWkBHBW6HaV3LJQ5p3eiezvmr+h
-HuHdYRJKLq3bFFIzfWdKLcqg
-=/zsL
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeBEm0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2aUP/ifKxJdegu5R5gQL66VG
+HfFOQArdYQ/Y1+mbG9r3bn+Rlvc3iBLN62KsYMEfZE2oUliMBrNWcPSwDi+1ayAQ
+CHy/9qSCOtstGDyBwNB8bpQMMqMTRx6onb2eUL9RPNb3Uy3zNg67lYK2Ow8emK/P
+pE+gpFbf74TOYGpJa9BAcOB1I3epNJU77hxBi3zJ0Ropj5/VguPD/wzc2ozF8Ap9
+5jALw7jgidw/gmaneU4HQk235hYg2rrQ4SCWu+fyDsGJazMqXeY+0TfECv6hOxxS
+ZstxtNR+SO2uTb/4XEMx15kuh8bC5tXLtiqFAmJBXAqRkvjx+5jhbIEBoZh3xsz8
+BIJGSsWf6T3DjNi+6vBQjkvF3AtmbDXlJIILbm8904QaIk5dQkk7Z7nLJojjCIse
+0U0eVHlWqcuzzCrcXCpxeVFnF0gQ32hfZ3qQdP2SQyZjS5wX0wGNgvA3dk0Hk3op
+3+r/OrkF1qmRCuS7au5wjuERmbGD+jE6PSYYyP909XaK2SktK+F5YH9XbJVv7WMr
+Gc+iYYqE9JINFzNNbPcAmkl2NEryZ/ROVLSba4UVyov6pS1v+va1AWz5zuA23rbN
+Hl0R7zCYH6lYAxkXo8pCK6tvCnSHPdeTJmBWBWcQrYqSnvjdS9umStPohDLgiljR
+8WFewXPcpdaHv29paanVpT5t
+=DIcZ
 -----END PGP SIGNATURE-----
 
---===============7597874370653015951==--
+--===============4542883616035253538==--
