@@ -1,49 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============5429855625386797158=="
+Content-Type: multipart/mixed; boundary="===============0706069634300520775=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 10 Jan 2025 09:16:05 -0000
-Message-Id: <173650056599.3450357.14022437184407303425@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Fri, 10 Jan 2025 09:16:37 -0000
+Message-Id: <173650059796.3450665.5031052925415460815@gitolite.kernel.org>
 
---===============5429855625386797158==
+--===============0706069634300520775==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 9007d911f6d2a99d3dd1dbf2097de35727cc665a
-    new: 7b24f164cf005b9649138ef6de94aaac49c9f3d1
-    log: revlist-9007d911f6d2-7b24f164cf00.txt
+  - ref: refs/heads/driver-core-testing
+    old: 18032c6bc0e204c8f836b09707ef671991e4fe87
+    new: c1ecb860a48d0bf56b0fc8391c5d59b0c3b42516
+    log: |
+         7685ad5f08d9297f5a3d30b1818391ac94813171 mux: constify mux class
+         2a8d6abdf5cfdc7df934968f2e8292d050f20b20 devcoredump: cleanup some comments
+         c1ecb860a48d0bf56b0fc8391c5d59b0c3b42516 firmware_loader: Constify 'struct bin_attribute'
+         
 
---===============5429855625386797158==
+--===============0706069634300520775==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9007d911f6d2-7b24f164cf00.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-ffa794846bf777a06407d94ef69b9b1c5ac5a6c6 xfrm: config: add CONFIG_XFRM_IPTFS
-64e844505bc08cde3f346f193cbbbab0096fef54 include: uapi: protocol number and packet structs for AGGFRAG in ESP
-f69eb4f65c58f5a081dbafb76011dad73757420c xfrm: netlink: add config (netlink) options
-7ac64f4598b4daa3f955f82759760666e047bdf8 xfrm: add mode_cbs module functionality
-d1716d5a44c37e5743bf6ea4e5cdbdab37727f27 xfrm: add generic iptfs defines and functionality
-4b3faf610cc63bfac972711635eafbca5e7d7117 xfrm: iptfs: add new iptfs xfrm mode impl
-0e4fbf013fa566f274ce9b4ce698c75b1f998c52 xfrm: iptfs: add user packet (tunnel ingress) handling
-b96ba312e21c9b7ac1526829b9640ddc06695c0b xfrm: iptfs: share page fragments of inner packets
-8579d342ea2b3c1c672858de180152ccf9cb0ee1 xfrm: iptfs: add fragmenting of larger than MTU user packets
-6c82d2433671819a550227bf65bfb6043e3d3305 xfrm: iptfs: add basic receive packet (tunnel egress) handling
-07569476544681816335099929ff3494dfbf6b05 xfrm: iptfs: handle received fragmented inner packets
-3f3339885fb343b7b42d7c34717108ce07da24ae xfrm: iptfs: add reusing received skb for the tunnel egress packet
-5f2b6a9095743a6bf1f34c43c4fe78fa8bdf5ad7 xfrm: iptfs: add skb-fragment sharing code
-6be02e3e4f376fea468846c8562655ca5ee18204 xfrm: iptfs: handle reordering of received packets
-ed58b186c7737bf0db1ebf57207b30fe740e1d07 xfrm: iptfs: add tracepoint functionality
-59af653a6998ce0a79aa7f8851b0d5ecc667579b Merge branch 'Add IP-TFS mode to xfrm'
-373b79af3a209e25e011c5980cb59ed3252fa2f0 xfrm: Support ESN context update to hardware for TX
-7082a6dc84ebba9dbdf65727b5bc4af92a2d31d3 net/mlx5e: Update TX ESN context for IPSec hardware offload
-7b24f164cf005b9649138ef6de94aaac49c9f3d1 Merge tag 'ipsec-next-2025-01-09' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec-next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736500625 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1736500595-a2e7b5d6c618bc3f70d8874361c61c3f54bb8856
 
---===============5429855625386797158==--
+18032c6bc0e204c8f836b09707ef671991e4fe87 c1ecb860a48d0bf56b0fc8391c5d59b0c3b42516 refs/heads/driver-core-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeA5ZEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+40IQAMLng2rXXGzBxVC12m1u
+EH+gePBj9qWB1dMwMyh1r2cMDmJJ1MTw89Q5yCTrdK7FczkQgB/tOw+0WOMy91WQ
+fQZyL9yBU5pM7ShvmZ7oWSB/1maTmkYNUnHvIdbZmDO55Dzt6nPQFygh3bvjEcRt
+10IQ1y545jdqh+FJpvPRxtzO7Fvgs1p77FWGYW0y/MQqEkJnMjpDj/qo1nDSrNTt
+US+hB/S5+furZKH/RxfWVgoS1IzO4WhEaKyOXqG2SVmJQoqELZhyZ/JtW6LNhhu0
+cBTgtAW2WVJj5PZWgH/OVLjn3KVOebiT+IPrw85v3FUUS2Jzg2i0VAuTwOTHi4sJ
+pjWa6RsQUmyEZFX9lalZMzcSDTASCUJfTVgx+vWam7Lxhl+g6P1C+WeJyTuFEPNl
+3WKXTpAT/WCtqEhRtlSuBnHfDw64bzpv/8MXGsNJGkdPMarmnFQmCoTaurSVTBeF
+nI5e/r4r3521/Xy6ULxTt5Zv1CMFMr1bS2xRiwz5AKiJa5W7cjAki5pa51QbO14y
+fNecW76uV9gTf5bh8HkXXiKBZpVLczuV+umHd5VeEeuhM5ryEeT3rc1oGCPiow7T
+3Xk5gUtXgGm0CewDCs1O1zYgzr2cI/1eXwoElNP6F92fw6D4NceadGPJDGfELr3w
+/hKyk65gSnZ0/a5P/OouxT7h
+=UBbD
+-----END PGP SIGNATURE-----
+
+--===============0706069634300520775==--
