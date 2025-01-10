@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5086978259674307478=="
+Content-Type: multipart/mixed; boundary="===============3569880531143784028=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 10 Jan 2025 15:11:20 -0000
-Message-Id: <173652188031.3794385.15495517073661935659@gitolite.kernel.org>
+Date: Fri, 10 Jan 2025 15:11:35 -0000
+Message-Id: <173652189582.3794639.4693967858157436156@gitolite.kernel.org>
 
---===============5086978259674307478==
+--===============3569880531143784028==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,44 +16,44 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 73e593780c596bd99fef6354177672d4dec52b38
-    new: 36a889968e69fd718edb3f82ff74f332157bcc5a
+  - ref: refs/heads/usb-linus
+    old: b0e525d7a22ea350e75e2aec22e47fcfafa4cacd
+    new: f3149ed697dd0c4fc1d696fef78129fa2fe4ca12
     log: |
-         46246dfa7880aa4651be3ea20d6c90bb8c27d4bc usb: dwc3: Skip resume if pm_runtime_set_active() fails
-         d9ff15dc164069d630ae50f6b799a635de3651c4 usb: dwc3-am62: Fix an OF node leak in phy_syscon_pll_refclk()
-         7479a623fa94296936090096f8e550a883bc0616 usb: dwc3: st: Switch from CONFIG_PM_SLEEP guards to pm_sleep_ptr()
-         36a889968e69fd718edb3f82ff74f332157bcc5a usb: dwc3: omap: Fix devm_regulator_get_optional() error handling
+         854eee93bd6e3dca619d47087af4d65b2045828e USB: serial: cp210x: add Phoenix Contact UPS Device
+         c1947d244f807b1f95605b75a4059e7b37b5dcc3 USB: serial: option: add MeiG Smart SRM815
+         f5b435be70cb126866fa92ffc6f89cda9e112c75 USB: serial: option: add Neoway N723-EA support
+         f3149ed697dd0c4fc1d696fef78129fa2fe4ca12 Merge tag 'usb-serial-6.13-rc7' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
          
 
---===============5086978259674307478==
+--===============3569880531143784028==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736521907 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736521922 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1736521877-7dea9c9b432eb9353e003758ff67b4e2490ecfab
+nonce 1736521892-3333ef95974e0796163d067d084918e54471d8ca
 
-73e593780c596bd99fef6354177672d4dec52b38 36a889968e69fd718edb3f82ff74f332157bcc5a refs/heads/usb-testing
+b0e525d7a22ea350e75e2aec22e47fcfafa4cacd f3149ed697dd0c4fc1d696fef78129fa2fe4ca12 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeBOLMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+v94P/RoR4ahJzjhZD0xSh2dH
-fPYF4lN9UlMZzj+jHpOAEQ+HKyPjXeMemFbpESpMKqo/Xs/XHGWzCC2jcl99TYX9
-epPFhUMRyh/BCrdtRqyeLryzA3cDoFwkTo6Bn3VSH/WslhobwEJssDQBoFbTgcX0
-mmKGQPTWkKax+trVTOvn4LIK+gpB4X0deq4xd6+qRfUNIRtoQ9PWb8FFDhrpmNCu
-JOOO71kdWahld8E0TmKdFQRs2ZVV9+2bnO80Tbug9Jv4uBFgdLy6O8CbZm10c8X4
-obQkdwdPQ24grNoDk/3e5JMOX6XAu4zULLwZFP1ovHy8XiE5xpUAN/ALcggX7yaa
-NN21bQFM11NsjVZb96ppQMPhUYJOzKDpjOEmysC4mXn3i3IuuWBTV8RU1mWWvxAT
-ZoWQvdVGsgDQKQyJucD9nGMxeRCa4t2LE3XDd0JWClf43LHw5kuNEkXZh5EV7tKF
-Grh/x+tZw7m/BH6PVk+/Fh08ESb/f5nRx/J45506llfpQUl4r6t16K46s+S/Ky2k
-2YfLia9A4n1EZRg/eP9zcH+QgqpS7zM9HPkfRvdqYlE5GSaZet4IK480Yud5HoK2
-SPPG2jh7I6Add/Q1v2TbeoR0+P5dECP/uzxdll6DcDbhkexbf3npJceRObkRNBGo
-pZ5H6tDqpWMhU6a4T9SuCO7S
-=FJ8Z
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeBOMIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lmkP/jC7dh0zhxGdiDtHV9qH
+zO2t5nYotbhtnf97i93Idf6GLmmmEZwieDsH+IhoJmFJgvO4R18cP5xh8w1/QX2v
+M4+U4FZtrZ3gFiNCXyM11+Yyy3yCGg1RDuUU0Q1ZsyqRE0bnebEVzuAKy9HdoHRN
+jLay1+xi0DPTnqagAlgmPvoKEVaCsnzjqO9CR2mJES+2mdDUv69AT/vtKi7nqaQC
+3aeJLtNm9a0Jce56e7mQqaWtWBBCdbc1P2OycxNPr2/jY3XOTSRX3sFhhYI9daPD
+5zqWhmTZBAGEVi20R++rJSm2SXIkBPei/pgjanl6tLqTANtBnQ8r2G6Dsll2vQNv
+D/7jLn5LS6iNgBORUttW3MiB2TWQYT+ii8fIksUE9GFA8A/6FOV/Ju7Grd4eNSdi
+Vw1d7Wdl/QTOMZSt1YkuZVTGsQq86PuZPZxgHmZMBsFodAnRb3Y+5tHzhkAI9Sny
+4Lb+P9UdAJyr8F4+aTMjC3jYq6XaRi5OCUjnmNoLMlbDWHkrcMVF+hD5eMyOizRc
+0Q4vxs0WEL1SJeOEQJvWgKEn0mN4KLZ9s8j58tYcX1H4+AwkM6CFQ00ZUFNCEzk8
+IwMUqVVEQpjGJx7Yt6K1p5iEgtxywLkh78ECQedUHxCz1DcgYNJ5QPVq3cO6rHmg
+vcxFfEtWXgu478k6n5xjE+0O
+=Z4Ba
 -----END PGP SIGNATURE-----
 
---===============5086978259674307478==--
+--===============3569880531143784028==--
