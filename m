@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/will/linux
-Date: Fri, 10 Jan 2025 16:08:17 -0000
-Message-Id: <173652529782.3842584.15233294007565794560@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iommu/linux
+Date: Fri, 10 Jan 2025 16:09:01 -0000
+Message-Id: <173652534130.3843070.10254129670136083947@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/will/linux
+repo: pub/scm/linux/kernel/git/iommu/linux
 user: will
 changes:
-  - ref: refs/heads/for-next/perf
-    old: 555c6e9b03c15edfd4020a8aa5ae7efc142c44e8
-    new: ba113ecad81a5167854d6ca05ea19a63eca1c4a3
+  - ref: refs/heads/arm/smmu/updates
+    old: f2c77f6e41e68e1b24c165acbf6d4da6b3117e23
+    new: 1f3dc29d2445c89c85e451c02e41a8e0cd22423c
     log: |
-         4575353d82e253ac14bb0d3fc2034bfad2f2e64e drivers/perf: apple_m1: Map generic branch events
-         d00f343a63e9e40b0193ad908ad410b981574545 MAINTAINERS: Add perf list for drivers/perf/
-         d28d95bc63cb4cb55f968f0fb4bf55b816087ca2 perf: arm_spe: Add format option for discard mode
-         ba113ecad81a5167854d6ca05ea19a63eca1c4a3 perf docs: arm_spe: Document new discard mode
+         1f3dc29d2445c89c85e451c02e41a8e0cd22423c iommu/arm-smmu-v3: Add missing #include of linux/string_choices.h
          
