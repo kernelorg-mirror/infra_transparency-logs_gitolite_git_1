@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7992448309043315096=="
+Content-Type: multipart/mixed; boundary="===============6088820941036618962=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 10 Jan 2025 21:12:52 -0000
-Message-Id: <173654357260.4103534.9205654518399616124@gitolite.kernel.org>
+Date: Fri, 10 Jan 2025 21:12:59 -0000
+Message-Id: <173654357991.4103702.6045331253325626635@gitolite.kernel.org>
 
---===============7992448309043315096==
+--===============6088820941036618962==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 42402b928a9dc68b5e7fe29b186e75ffb1412bfe
-    new: 248f98a1689c98b3c426d80719a0b72dfc927f5c
-    log: revlist-42402b928a9d-248f98a1689c.txt
+  - ref: refs/heads/6.14/scsi-staging
+    old: 9673c075d8ee17f87c92e28dc4bf7ed4c2d8b93a
+    new: 8bf10dfd7d0d8c0e6cdda176c461b3c5eba022ca
+    log: revlist-9673c075d8ee-8bf10dfd7d0d.txt
 
---===============7992448309043315096==
+--===============6088820941036618962==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1736543585 -0500
+pusher 75C5DE3D 1736543608 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1736543555-3d53e503816dfa4223d4130e0de779b7cf9491e9
+nonce 1736543575-d39199d3a4d9dfddcfffa086d896c106eb1ae1c4
 
-42402b928a9dc68b5e7fe29b186e75ffb1412bfe 248f98a1689c98b3c426d80719a0b72dfc927f5c refs/tags/mkp-scsi-staging
+9673c075d8ee17f87c92e28dc4bf7ed4c2d8b93a 8bf10dfd7d0d8c0e6cdda176c461b3c5eba022ca refs/heads/6.14/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmeBjWEACgkQ7ulgGnXF
-3j0xlRAAqvtQjn8VsYgT9wBsk6xpijN53y5BIPsZRo9Qd3UuiUhUeYaaqGElaFfY
-Kf4dFZ2zArcbdiuk1PKGZDwA/Lp/dZ+Sgk0d3ExYC8dWXM82dSfARyJwgaYwt2a8
-Q8rLUcOlg9noIsLcEQeB9uEzHOfoJDX40wR3L/Op1cv+Djpn+xlScaZpv8UrCBT+
-X51JZTMuqDX4jLeT510vnvjSmjUKwojJeHM82TZpuKCLaOXV5vKDBlOx0pO4CQSK
-p9ABlGF7WMn04dmfoympp3UN2ghTG0at3sRhFG2+oAdMMPi22coVXfFjTapnFgUn
-kPvq2c2I+H6AR2O0ALE8Cl+yDyPEC6o2cOuvkLU2FALgaDXP3WlUHJ+JXWqdTSGh
-Q7lIEN0VTx6hvq7ZmoODnHZQEwQnfDSqzDrAN8jANEtllnX+gVRO5dYxjR4YjoKy
-SZog/ovYveGZme4Pit+GFLVAbpiJA2oBadyoYJVP7AiU7tuSG5fqrsBRufaewnnQ
-H5f4qv97umevEHOkNX4XTwYW+bi9D0uewrBOIQjUjuD7YwloPcb373dLnJknVR/T
-8iORTg8bVKTZnu6CzrftEnBf1xGIuyYi2vlvOE8ALlwA+HjhqHyABRyQ81sqwuuY
-o2K6L4H1UP/GBH1ioNEi8y/Ot9pZlLiEYwDETlxp4GxGoBq9lBA=
-=vEWn
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmeBjXgACgkQ7ulgGnXF
+3j1cXQ//Rj71ZhPs+eudrEsIoU/zyQZvXDKnRzwL/siJA0TKZrEDVxfoah0ncBCE
+mi16jaATmNlRL8zQ5AuCo1FRbvGpsacna35Cn/K4CRwvBAPbI+ZppMUEdQGT5nZc
+E3qTZOZUbTLxQ79AIkWDdLdJQfILzICExJ6+FPKgrHhNSo5l4ABNNLyS3MGq7OmH
+F+Qk7DrFtZ1bQja+lMyZoWFDt/0AnwzZrii1ryZqcoV0WRt4WVXgpbggKS6xabQ1
+1bWHZRi0Rb85W1UlmdUBqXPQckjpDvnoLRpfsbVMNT0qZX5pmYCJwHa2bZ0+rdrS
+eC2U4bsPO7KqWLFPD4muO5bEFKo2siZwaMgxhfLGcZY38Tf3YifeGtXO4+RO76iT
+wdlcUmiw5Ca6KvbVDhA4htjaDadeTuqrpvVJwtTsqXZDIwLCVhbSfeGUPrDniat5
+xpBtgXRxuyBmaKisr0ZlOp2IJmHY679ggUwTRdkhKNk0gdHebkN+oA0DWrGBsWfo
+Q2H/8biE/UqR71vSzV43rkUfXqvFFpNq72ZswaecjJ6F3a/7jaELVr080X4jN8F3
+PihHiIwemcyP7448A8MjI9gJhl+F4DnmY2NGt6irPAD/OicQjh5RCLF65Jw3SyVo
+t/AC9Kx5cM/cXLOhZADIkJp9d6eiw9BhuHBiH2IbK79DCozZ+g8=
+=pqkj
 -----END PGP SIGNATURE-----
 
---===============7992448309043315096==
+--===============6088820941036618962==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-42402b928a9d-248f98a1689c.txt
+Content-Disposition: attachment; filename=revlist-9673c075d8ee-8bf10dfd7d0d.txt
 
 c064de86d2a3909222d5996c5047f64c7a8f791b scsi: qla1280: Fix hw revision numbering for ISP1020/1040
 e953835c1d41bbb660d7069dc9e61ea6bd7874f3 scsi: message: fusion: Constify struct pci_device_id
@@ -104,4 +104,4 @@ defb7541dac0e0da862421297685425ab9ee89b2 scsi: driver-api: documentation: Change
 d102c6d589c29c220fd11808381df11a4501647f scsi: documentation: Corrections for struct updates
 8bf10dfd7d0d8c0e6cdda176c461b3c5eba022ca Merge branch '6.13/scsi-fixes' into 6.14/scsi-staging
 
---===============7992448309043315096==--
+--===============6088820941036618962==--
