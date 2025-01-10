@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
-Date: Fri, 10 Jan 2025 20:25:32 -0000
-Message-Id: <173654073280.4065034.1251433444136984062@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
+Date: Fri, 10 Jan 2025 20:33:01 -0000
+Message-Id: <173654118193.4070295.10005547899749091015@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/hkml
-user: sj
+repo: pub/scm/linux/kernel/git/ti/linux
+user: nmenon
 changes:
-  - ref: refs/heads/master
-    old: a5df7a046a7d164c231b4d9aab054d029a0bc214
-    new: 926c4585e884b8640c9d9c73010fca79201edb9d
-    log: |
-         467e9fdde92f71b6165b145edec073d36e0eb6b0 hkml_view: use blue color for original message as a last resort
-         926c4585e884b8640c9d9c73010fca79201edb9d TODO: add items
-         
+  - ref: refs/tags/ti-driver-soc-for-v6.14
+    old: 0000000000000000000000000000000000000000
+    new: fbe3fb9b1b7caabe6c126edb678c25d031d3aed1
+  - ref: refs/tags/ti-k3-config-for-v6.14
+    old: 0000000000000000000000000000000000000000
+    new: a728c322db69b6ca27a12619ec9d1ef9b45c0bbe
+  - ref: refs/tags/ti-k3-dt-for-v6.14
+    old: 0000000000000000000000000000000000000000
+    new: 740e1717416a47bbb3bc03c10dc82234b605b1a2
+  - ref: refs/tags/ti-k3-maintainer-for-v6.14
+    old: 0000000000000000000000000000000000000000
+    new: c514cf3c52f8a0dbdaeaf39fba2fc8f21aa04309
