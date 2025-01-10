@@ -1,107 +1,106 @@
-Content-Type: multipart/mixed; boundary="===============7028437839941384593=="
+Content-Type: multipart/mixed; boundary="===============4932275360207489326=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 10 Jan 2025 21:13:14 -0000
-Message-Id: <173654359472.4104062.7194963062788391109@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Fri, 10 Jan 2025 21:19:34 -0000
+Message-Id: <173654397460.4109142.959073333082240272@gitolite.kernel.org>
 
---===============7028437839941384593==
+--===============4932275360207489326==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkp/scsi
-user: mkp
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/for-next
-    old: 9673c075d8ee17f87c92e28dc4bf7ed4c2d8b93a
-    new: 8bf10dfd7d0d8c0e6cdda176c461b3c5eba022ca
-    log: revlist-9673c075d8ee-8bf10dfd7d0d.txt
+  - ref: refs/heads/bleeding-edge
+    old: b25d0e8647c467ee9cf9d1d9a82ef355edec332c
+    new: 3a8ba95b37517b37574deba4d44615a96db68d3e
+    log: revlist-b25d0e8647c4-3a8ba95b3751.txt
+  - ref: refs/heads/linux-next
+    old: 1d9942a7285fa44d0609082dff7f4f798124acdb
+    new: 2e00effb4009b1ceb19c8cc9214d7317860ff4f8
+    log: revlist-1d9942a7285f-2e00effb4009.txt
+  - ref: refs/heads/testing
+    old: 5ac79b702d7006d6ed48af1ef96aa14f70e72745
+    new: 2e00effb4009b1ceb19c8cc9214d7317860ff4f8
+    log: revlist-5ac79b702d70-2e00effb4009.txt
 
---===============7028437839941384593==
+--===============4932275360207489326==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-b25d0e8647c4-3a8ba95b3751.txt
 
-certificate version 0.1
-pusher 75C5DE3D 1736543623 -0500
-pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1736543590-34f5c869c2490ad1f1c78d0bcaf865e819bdec8c
+694389cd2bdfc6bc646bbb0fd2a5684c5e8d5fbf selftests/cpufreq: gitignore output files and clean them in make clean
+3075476a7af666de3ec10b4f35d8e62db8fd5b6d pm: cpupower: Makefile: Fix cross compilation
+46fd8c707b552c0a846917192f66e623bb03f976 cpupower: revise is_valid flag handling for idle_monitor
+9d6c0e58514f8b57cd9c2c755e41623d6a966025 cpupower: fix TSC MHz calculation
+dec2f97a1571ed28ddbadf4431afc5e5872a10df cpupower: Remove spurious return statement
+3f2eb7606eee37aea630c4b7aa42497bc36ca157 cpupower: Add support for parsing 'enabled' or 'disabled' strings from table
+6d4a2987f96b9f281b07286eeb1d4022054e1ecd cpupower: Add support for amd-pstate preferred core rankings
+26e16174f54d40a3774614c4d43966572ed79dc1 cpupower: Don't try to read frequency from hardware when kernel uses aperfmperf
+5f567afc283fc9e7c6a34d013c4fc6c5e8d6afae cpupower: Add support for showing energy performance preference
+acf71265e4c0289e23ee1b66fc0977478edea9a5 cpupower: Don't fetch maximum latency when EPP is enabled
+8395d43949790f1671621975730a07c264ef3e6f cpupower: Adjust whitespace for amd-pstate specific prints
+6de02569a2bb678db04236fdf29814c0c27f5121 pm: cpupower: Add install and uninstall options to bindings makefile
+8d097444982d7b23a5396169dc9d2923a59b5a79 pm: cpupower: Add header changes for cpufreq.h to SWIG bindings
+fd604ae6c261c5a56bb977ae99f875bbd7264a3f cpufreq/amd-pstate: Fix prefcore rankings
+857a61c2ce74e30fc3b10bc89d68ddd8d05b188c cpufreq/amd-pstate: Refactor max frequency calculation
+7420a7e8672d8878e8911fb70025b07d865b6fe5 Merge tag 'amd-pstate-v6.14-2025-01-07' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/superm1/linux
+1d9942a7285fa44d0609082dff7f4f798124acdb Merge branch 'pm-cpufreq' into linux-next
+c3a8b2bfda3c70b43d1bb637ceaf99621d6776d9 Merge tag 'linux-cpupower-6.14-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/shuah/linux
+2e00effb4009b1ceb19c8cc9214d7317860ff4f8 Merge branch 'pm-tools' into linux-next
+3a8ba95b37517b37574deba4d44615a96db68d3e Merge branch 'experimental/intel_pstate-testing' into bleeding-edge
 
-9673c075d8ee17f87c92e28dc4bf7ed4c2d8b93a 8bf10dfd7d0d8c0e6cdda176c461b3c5eba022ca refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmeBjYcACgkQ7ulgGnXF
-3j3TOw//bICYyWVasONOqzCC9X7P3N5jnWaEOFajCm2MBstWmhByewJaZi+wByEM
-B2itJTNgCSflOPSmmIp8b9NeXoMNydZn8TwphukYtgBXqWDY+a3Ky3NgI7qNs34m
-rekpZ2Zz2xDphNoE/ouf2tb+8GZ1JvI1Jbv9VH1+45sYpm/9Unupl2qNmdQ7w4Pg
-ybcUiW1fHFhqlzoctgmHHE0LLL+UVoEnaXHgV2opTWNUCr0Xm9ti1X0uzoeRh7+d
-aviZg7/JRI7u3byKhQuiTx6dDsq/XGInccOuJeCIY45F5OWNlqO2S4KWJm/MPqiM
-XHwqAyhX+ZrcUw/L0QGdDaNmPnFctQmCcSdu9oVltX9EXRUVhIoVgOGH6DEkfR0i
-Y4APLQ7XnUu5XcgjiX8cQ7HQ+JEMQDRYQpO29mDeBkD1wvWUXNxum3a0zqz0uRpc
-sgd1F4VK0nwMxvARklOuCr96xC0uwrCjfosedW2K22dgVvDbdjoW/8cr69QdzrrY
-Ez1b4V39aJNPFIJrR56A5gVzm2elpL6VQ99cPyhLggUStVsfoxUmbT2pUBAqnNV0
-gj9i2DrtGQ6HdBA6oDfmHrLgD/VayqEcQHe2qid+AyLIG0jmjH/BZS7VxoOpxAb5
-KuscoJS5TNQcdDyKaWpRW6N9E2xqIRv1ufqhwElaA3F+7VK0Q7g=
-=Gl/8
------END PGP SIGNATURE-----
-
---===============7028437839941384593==
+--===============4932275360207489326==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9673c075d8ee-8bf10dfd7d0d.txt
+Content-Disposition: attachment; filename=revlist-1d9942a7285f-2e00effb4009.txt
 
-c064de86d2a3909222d5996c5047f64c7a8f791b scsi: qla1280: Fix hw revision numbering for ISP1020/1040
-e953835c1d41bbb660d7069dc9e61ea6bd7874f3 scsi: message: fusion: Constify struct pci_device_id
-52172a352c97d39ee2658f6503b065b9896d48ad scsi: bfa: Remove unused structure builders
-575143abcbbc7e291e5ef5c4fc031d94f8501918 scsi: bfa: Remove unused parsers
-5fe4e16fdbb8ca7dd6daea0031a0a84e6eb1e18d scsi: ufs: Switch back to struct platform_driver::remove()
-2c354d12307e58a748ade2802b4d26fd0d8c34a9 scsi: lpfc: Fix spelling errors 'asynchronously'
-50740f4dc78b41dec7c8e39772619d5ba841ddd7 scsi: megaraid_sas: Fix for a potential deadlock
-5cd3167a5ebbbe49516f29e5dd16317ab6ff479a scsi: target: tcmu: Constify some structures
-60b4dd1460f6d65739acb0f28d12bd9abaeb34b4 scsi: ufs: core: Add ufshcd_send_bsg_uic_cmd() for UFS BSG
-1695c4361d35b7bdadd7b34f99c9c07741e181e5 scsi: ufs: core: Cancel RTC work during ufshcd_remove()
-64506b3d23a337e98a74b18dcb10c8619365f2bd scsi: ufs: qcom: Only free platform MSIs when ESI is enabled
-d3326e6a3f9bf1e075be2201fb704c2fdf19e2b7 scsi: ufs: pltfrm: Disable runtime PM during removal of glue drivers
-1745dcdb7227102e16248a324c600b9121c8f6df scsi: ufs: pltfrm: Drop PM runtime reference count after ufshcd_remove()
-897df60c16d54ad515a3d0887edab5c63da06d1f scsi: ufs: pltfrm: Dellocate HBA during ufshcd_pltfrm_remove()
-019880c08d059f214327fd0dc92e9be3707286f2 Merge patch series "scsi: ufs: Bug fixes for ufs core and platform drivers"
-e7d3b4079d01c60568a45237224df4447f140189 Merge branch '6.13/scsi-queue' into 6.13/scsi-fixes
-3f5eb062e8aa335643181c480e6c590c6cedfd22 scsi: mpt3sas: Diag-Reset when Doorbell-In-Use bit is set during driver load time
-6050471545eecec214ca9ceb38a63e98e9003338 scsi: mpt3sas: Update driver version to 51.100.00.00
-367ac16e5ff2dcd6b7f00a8f94e6ba98875cb397 scsi: mpi3mr: Synchronize access to ioctl data buffer
-711201a8b8334a397440ac0b859df0054e174bc9 scsi: mpi3mr: Fix corrupt config pages PHY state is switched in sysfs
-0d32014f1e3e7a7adf1583c45387f26b9bb3a49d scsi: mpi3mr: Start controller indexing from 0
-fb6eb98f3965e2ee92cbcb466051d2f2acf552d1 scsi: mpi3mr: Handling of fault code for insufficient power
-0deb37c2f42a54610dd3569b01413378f430bfea scsi: mpi3mr: Update driver version to 8.12.0.3.50
-c423263082ee8ccfad59ab33e3d5da5dc004c21e scsi: qla2xxx: Fix abort in bsg timeout
-07c903db0a2ff84b68efa1a74a4de353ea591eb0 scsi: qla2xxx: Fix use after free on unload
-833c70e212fc40d3e98da941796f4c7bcaecdf58 scsi: qla2xxx: Remove check req_sg_cnt should be equal to rsp_sg_cnt
-4812b7796c144f63a1094f79a5eb8fbdad8d7ebc scsi: qla2xxx: Fix NVMe and NPIV connect issue
-e4e268f898c8a08f0a1188677e15eadbc06e98f6 scsi: qla2xxx: Supported speed displayed incorrectly for VPorts
-35002a8ec557f679e414dae9dec9d08c66f2791a scsi: qla2xxx: Update version to 10.02.09.400-k
-eb48e9fc0028bed94a40a9352d065909f19e333c scsi: ufs: core: sysfs: Prevent div by zero
-f10593ad9bc36921f623361c9e3dd96bd52d85ee scsi: sg: Fix slab-use-after-free read in sg_release()
-7f45ed5f0cd5ccbbec79adc6c48a67d6a85fba56 scsi: ufs: core: Add missing post notify for power mode change
-b1aee7f034615b6824d2c70ddb37ef9fc23493b7 scsi: storvsc: Do not flag MAINTENANCE_IN return of SRB_STATUS_DATA_OVERRUN as an error
-6918141d815acef056a0d10e966a027d869a922d scsi: scsi_debug: Fix hrtimer support for ndelay
-f103396ae31851d00b561ff9f8a32a441953ff8b scsi: ufs: core: Update compl_time_stamp_local_clock after completing a cqe
-7bac65687510038390a0a54cbe14fba08d037e46 scsi: ufs: qcom: Power off the PHY if it was already powered on in ufs_qcom_power_up_sequence()
-bb9850704c043e48c86cc9df90ee102e8a338229 scsi: ufs: core: Honor runtime/system PM levels if set by host controller drivers
-4f78a56af4c472834681759d4365fb93921da77d scsi: ufs: qcom: Allow passing platform specific OF data
-3b2f56860b05bf0cea86af786fd9b7faa8fe3ef3 scsi: ufs: qcom: Power down the controller/device during system suspend for SM8550/SM8650 SoCs
-20b98768c2e743df7648476521818600ac4a86ef scsi: scsi_error: Add kernel-doc for exported functions
-f52a04fcf8b088a4761d0dbf33188cd0fd36749a scsi: scsi_ioctl: Add kernel-doc for exported functions
-39d2112ab7c8050642fdc2830a0a3edc5337827f scsi: scsi_lib: Add kernel-doc for exported functions
-d2f4084c5273bf2f1486fa2e055a7da8efb20de8 scsi: scsi_scan: Add kernel-doc for exported function
-d4842e578771bc907511c424492513aa5c224082 scsi: transport: sas: spi: Fix kernel-doc for exported functions
-defb7541dac0e0da862421297685425ab9ee89b2 scsi: driver-api: documentation: Change what is added to docbook
-d102c6d589c29c220fd11808381df11a4501647f scsi: documentation: Corrections for struct updates
-8bf10dfd7d0d8c0e6cdda176c461b3c5eba022ca Merge branch '6.13/scsi-fixes' into 6.14/scsi-staging
+694389cd2bdfc6bc646bbb0fd2a5684c5e8d5fbf selftests/cpufreq: gitignore output files and clean them in make clean
+3075476a7af666de3ec10b4f35d8e62db8fd5b6d pm: cpupower: Makefile: Fix cross compilation
+46fd8c707b552c0a846917192f66e623bb03f976 cpupower: revise is_valid flag handling for idle_monitor
+9d6c0e58514f8b57cd9c2c755e41623d6a966025 cpupower: fix TSC MHz calculation
+dec2f97a1571ed28ddbadf4431afc5e5872a10df cpupower: Remove spurious return statement
+3f2eb7606eee37aea630c4b7aa42497bc36ca157 cpupower: Add support for parsing 'enabled' or 'disabled' strings from table
+6d4a2987f96b9f281b07286eeb1d4022054e1ecd cpupower: Add support for amd-pstate preferred core rankings
+26e16174f54d40a3774614c4d43966572ed79dc1 cpupower: Don't try to read frequency from hardware when kernel uses aperfmperf
+5f567afc283fc9e7c6a34d013c4fc6c5e8d6afae cpupower: Add support for showing energy performance preference
+acf71265e4c0289e23ee1b66fc0977478edea9a5 cpupower: Don't fetch maximum latency when EPP is enabled
+8395d43949790f1671621975730a07c264ef3e6f cpupower: Adjust whitespace for amd-pstate specific prints
+6de02569a2bb678db04236fdf29814c0c27f5121 pm: cpupower: Add install and uninstall options to bindings makefile
+8d097444982d7b23a5396169dc9d2923a59b5a79 pm: cpupower: Add header changes for cpufreq.h to SWIG bindings
+c3a8b2bfda3c70b43d1bb637ceaf99621d6776d9 Merge tag 'linux-cpupower-6.14-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/shuah/linux
+2e00effb4009b1ceb19c8cc9214d7317860ff4f8 Merge branch 'pm-tools' into linux-next
 
---===============7028437839941384593==--
+--===============4932275360207489326==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5ac79b702d70-2e00effb4009.txt
+
+694389cd2bdfc6bc646bbb0fd2a5684c5e8d5fbf selftests/cpufreq: gitignore output files and clean them in make clean
+3075476a7af666de3ec10b4f35d8e62db8fd5b6d pm: cpupower: Makefile: Fix cross compilation
+46fd8c707b552c0a846917192f66e623bb03f976 cpupower: revise is_valid flag handling for idle_monitor
+9d6c0e58514f8b57cd9c2c755e41623d6a966025 cpupower: fix TSC MHz calculation
+dec2f97a1571ed28ddbadf4431afc5e5872a10df cpupower: Remove spurious return statement
+3f2eb7606eee37aea630c4b7aa42497bc36ca157 cpupower: Add support for parsing 'enabled' or 'disabled' strings from table
+6d4a2987f96b9f281b07286eeb1d4022054e1ecd cpupower: Add support for amd-pstate preferred core rankings
+26e16174f54d40a3774614c4d43966572ed79dc1 cpupower: Don't try to read frequency from hardware when kernel uses aperfmperf
+5f567afc283fc9e7c6a34d013c4fc6c5e8d6afae cpupower: Add support for showing energy performance preference
+acf71265e4c0289e23ee1b66fc0977478edea9a5 cpupower: Don't fetch maximum latency when EPP is enabled
+8395d43949790f1671621975730a07c264ef3e6f cpupower: Adjust whitespace for amd-pstate specific prints
+6de02569a2bb678db04236fdf29814c0c27f5121 pm: cpupower: Add install and uninstall options to bindings makefile
+8d097444982d7b23a5396169dc9d2923a59b5a79 pm: cpupower: Add header changes for cpufreq.h to SWIG bindings
+fd604ae6c261c5a56bb977ae99f875bbd7264a3f cpufreq/amd-pstate: Fix prefcore rankings
+857a61c2ce74e30fc3b10bc89d68ddd8d05b188c cpufreq/amd-pstate: Refactor max frequency calculation
+7420a7e8672d8878e8911fb70025b07d865b6fe5 Merge tag 'amd-pstate-v6.14-2025-01-07' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/superm1/linux
+1d9942a7285fa44d0609082dff7f4f798124acdb Merge branch 'pm-cpufreq' into linux-next
+c3a8b2bfda3c70b43d1bb637ceaf99621d6776d9 Merge tag 'linux-cpupower-6.14-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/shuah/linux
+2e00effb4009b1ceb19c8cc9214d7317860ff4f8 Merge branch 'pm-tools' into linux-next
+
+--===============4932275360207489326==--
