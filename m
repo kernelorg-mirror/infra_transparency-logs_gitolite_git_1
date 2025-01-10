@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/joel/bmc
-Date: Fri, 10 Jan 2025 03:59:10 -0000
-Message-Id: <173648155006.3194172.15446326056540689711@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
+Date: Fri, 10 Jan 2025 04:44:09 -0000
+Message-Id: <173648424978.3229490.7127553468170456335@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/joel/bmc
-user: joel
+repo: pub/scm/fs/xfs/xfstests-dev
+user: zlang
 changes:
-  - ref: refs/tags/aspeed-6.14-devicetree
-    old: 0000000000000000000000000000000000000000
-    new: 72f1e202c3d9c9f3999eaf237aa67c3d29c53c98
+  - ref: refs/heads/patches-in-queue
+    old: 15e431c7ab429ef24da6e06de50d56777163a7d6
+    new: 0000000000000000000000000000000000000000
