@@ -1,57 +1,87 @@
-Content-Type: multipart/mixed; boundary="===============3455143802836320150=="
+Content-Type: multipart/mixed; boundary="===============0837503363096894251=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Fri, 10 Jan 2025 14:49:09 -0000
-Message-Id: <173652054930.3772849.4447673789667700694@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Fri, 10 Jan 2025 14:49:34 -0000
+Message-Id: <173652057495.3773750.5237365852270372073@gitolite.kernel.org>
 
---===============3455143802836320150==
+--===============0837503363096894251==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 827ed8b1590d4d29dae837283d606709ffeebe37
-    new: 8ff656643d3075154419680470dbfdbd6092e31f
+  - ref: refs/heads/for-6.14/block
+    old: 844b8cdc681612ff24df62cdefddeab5772fadf1
+    new: afd69d5c4a1049230fa91c9b54fdd8132f755503
+    log: revlist-844b8cdc6816-afd69d5c4a10.txt
+  - ref: refs/heads/for-next
+    old: 20124a63d70788fd695149e7721d0707d747a697
+    new: 714d35ee26f317f78bb41a6f76a4620406f6506f
+    log: revlist-20124a63d707-714d35ee26f3.txt
+  - ref: refs/heads/io_uring-6.13
+    old: c9a40292a44e78f71258b8522655bffaf5753bdb
+    new: 1593ed0d510769514b648e09f8b7b71cc7fc18ec
     log: |
-         f1725160fd28a2e65e47166637aa44856a1a7f89 devres: add devm_remove_action_nowarn()
-         8ff656643d3075154419680470dbfdbd6092e31f rust: devres: remove action in `Devres::drop`
+         299777dc6bdadc19e044fe35069cff65360b1f67 io_uring/eventfd: replace out-of-line signaling with a workqueue
+         1593ed0d510769514b648e09f8b7b71cc7fc18ec io_uring: sqpoll: zero sqd->thread on tctx errors
          
 
---===============3455143802836320150==
+--===============0837503363096894251==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-844b8cdc6816-afd69d5c4a10.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736520576 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1736520546-2b152969eb7bd9a9eda6101ed0ce33e98d2e53b0
+9c96821b44f893fb63f021a28625d3b32c68e8b3 block: fix docs for freezing of queue limits updates
+aa427d7b73b196f657d6d2cf0e94eff6b883fdef block: add a queue_limits_commit_update_frozen helper
+958148a6ac061a9a80a184ea678a5fa872d0c56f block: check BLK_FEAT_POLL under q_usage_count
+d432c817c21a48c3baaa0d28e4d3e74b6aa238a0 block: don't update BLK_FEAT_POLL in __blk_mq_update_nr_hw_queues
+a16230649ce27f8ac7dd8a5b079d9657aa96de16 block: add a store_limit operations for sysfs entries
+c99f66e4084a62a2cc401c4704a84328aeddc9ec block: fix queue freeze vs limits lock order in sysfs store methods
+473106dd3aa964a62314d858f6602c95e40e6270 nvme: fix queue freeze vs limits lock order
+f3dec61d7544a90685f1dd9a87fd4afc751996d0 nbd: fix queue freeze vs limits lock order
+1233751f7df722435bb93e928d64334db260b90d usb-storage: fix queue freeze vs limits lock order
+b38c8be255e89ffcdeb817407222d2de0b573a41 loop: refactor queue limits updates
+b03732a9c0db91522914185739505d92d3b0d816 loop: fix queue freeze vs limits lock order
+ae074d07a0e5c05769f1a9a2faa260c36d69465e loop: move updating lo_flags out of loop_set_status_from_info
+4155adb01e7406653f6b01aaca916a59567cfbfa loop: update commands in loop_set_status still referring to transfers
+781fc49a0e5c111b1a210bd1b3499c89bb21cd81 loop: create a lo_can_use_dio helper
+09ccf5549d7809671af34774bb30c8f935d6ed2b loop: only write back pagecache when starting to to use direct I/O
+dc909525daec7c7c5d628683c99d26e281c1a7bb loop: open code the direct I/O flag update in loop_set_dio
+3a693110afd7127400cc9f779c885f01cf16d0f2 loop: allow loop_set_status to re-enable direct I/O
+0cd719aa63def1d57316e8e903f01f4af0641a46 loop: don't freeze the queue in loop_update_dio
+afd69d5c4a1049230fa91c9b54fdd8132f755503 loop: remove the use_dio field in struct loop_device
 
-827ed8b1590d4d29dae837283d606709ffeebe37 8ff656643d3075154419680470dbfdbd6092e31f refs/heads/driver-core-testing
------BEGIN PGP SIGNATURE-----
+--===============0837503363096894251==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-20124a63d707-714d35ee26f3.txt
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeBM4AbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+04cP/1ksS92XsAo7y2yJ4+5P
-1rF6bqyndd8HNFIlT6zjgbe3YiJdxXPPO6VtB4acpTxZtoN7vdWafAPX1J0DV5Af
-14Dcisd9ymx5/eDVcU7xR1JxDgYu6uFJEF4TzJCM5J97WWMSMKbxcYu+xDUdi4UT
-U5XVe/QMPO82fN3p3c3oYIic93fyHafI1Rqir2c8bTv/PK968W7YTMbj9B02TZCt
-Ur7hshw7dJsDiidXDeG/kpDxrfiQpyiJ3Wl03Y0EHfSMKdPW0DARxGJ1SO9Uic6t
-rdbN9tIeUTXby0+Y03uOnm7LVR2tEdtohfJi/gzjyRr1/QtbuWuM3PGO4fNilsri
-fGMQ1HefS4zutb+tAwwV7JDNgX/7IbMbg0msMvC9qNs+Hi5uez4BiiQJ8ZMXXP5C
-ssC0j78v7EG0s8pYrUPMNxiw8gL4+kZM8LlcyXEMRjnI1q0khQvHP8KRJ92sQkGK
-/sJOiMupHTuloXR2qsPbqK/6laHmDplKT+iqy78nwkqVXhxXMYX9785bWD/xxU/w
-8MSHKV+RwDny+gzp0lu0IOU58jqz8RkRsj3NwXU78K/2980arJOQBdN1ANx6JBms
-vPQ3iOzyWF/JYCKzsfSWYDb4DsW7wT7v5XJkogjHq1l6jGX5j3NNX8dcW9GJjQvT
-O7LGuV6lbBBt2OjsUTH3RO2t
-=mGtX
------END PGP SIGNATURE-----
+9c96821b44f893fb63f021a28625d3b32c68e8b3 block: fix docs for freezing of queue limits updates
+aa427d7b73b196f657d6d2cf0e94eff6b883fdef block: add a queue_limits_commit_update_frozen helper
+958148a6ac061a9a80a184ea678a5fa872d0c56f block: check BLK_FEAT_POLL under q_usage_count
+d432c817c21a48c3baaa0d28e4d3e74b6aa238a0 block: don't update BLK_FEAT_POLL in __blk_mq_update_nr_hw_queues
+a16230649ce27f8ac7dd8a5b079d9657aa96de16 block: add a store_limit operations for sysfs entries
+c99f66e4084a62a2cc401c4704a84328aeddc9ec block: fix queue freeze vs limits lock order in sysfs store methods
+473106dd3aa964a62314d858f6602c95e40e6270 nvme: fix queue freeze vs limits lock order
+f3dec61d7544a90685f1dd9a87fd4afc751996d0 nbd: fix queue freeze vs limits lock order
+1233751f7df722435bb93e928d64334db260b90d usb-storage: fix queue freeze vs limits lock order
+b38c8be255e89ffcdeb817407222d2de0b573a41 loop: refactor queue limits updates
+b03732a9c0db91522914185739505d92d3b0d816 loop: fix queue freeze vs limits lock order
+ae074d07a0e5c05769f1a9a2faa260c36d69465e loop: move updating lo_flags out of loop_set_status_from_info
+4155adb01e7406653f6b01aaca916a59567cfbfa loop: update commands in loop_set_status still referring to transfers
+781fc49a0e5c111b1a210bd1b3499c89bb21cd81 loop: create a lo_can_use_dio helper
+09ccf5549d7809671af34774bb30c8f935d6ed2b loop: only write back pagecache when starting to to use direct I/O
+dc909525daec7c7c5d628683c99d26e281c1a7bb loop: open code the direct I/O flag update in loop_set_dio
+3a693110afd7127400cc9f779c885f01cf16d0f2 loop: allow loop_set_status to re-enable direct I/O
+0cd719aa63def1d57316e8e903f01f4af0641a46 loop: don't freeze the queue in loop_update_dio
+afd69d5c4a1049230fa91c9b54fdd8132f755503 loop: remove the use_dio field in struct loop_device
+714d35ee26f317f78bb41a6f76a4620406f6506f Merge branch 'for-6.14/block' into for-next
 
---===============3455143802836320150==--
+--===============0837503363096894251==--
