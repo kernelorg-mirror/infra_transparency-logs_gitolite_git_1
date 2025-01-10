@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Fri, 10 Jan 2025 20:11:10 -0000
-Message-Id: <173653987026.4051207.10887293672862254107@gitolite.kernel.org>
+Date: Fri, 10 Jan 2025 20:12:48 -0000
+Message-Id: <173653996833.4051915.12412852900325018689@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
   - ref: refs/heads/pending
-    old: 8b3bbf13631b9e0668a3d33251bbb9a9a4654398
-    new: 80c57f5eab3c981b700c1c576a08d725120249da
+    old: 80c57f5eab3c981b700c1c576a08d725120249da
+    new: e004fe8a973761f83c5f648df2bbc0bd319cb9fb
     log: |
-         bb086c9f7ce0e7d9799859f80790e0340c3de8a1 wifi: ath12k: Support Transmit Rate Buffer Stats
-         80c57f5eab3c981b700c1c576a08d725120249da wifi: ath12k: Support Transmit Buffer OFDMA Stats
+         688b43b9633ce7bf51bce99e717be792153ff7d0 wifi: ath12k: Support AST Entry Stats
+         e004fe8a973761f83c5f648df2bbc0bd319cb9fb wifi: ath12k: Support pdev Puncture Stats
          
