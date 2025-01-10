@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Fri, 10 Jan 2025 20:16:58 -0000
-Message-Id: <173654021836.4055841.7977183758656835868@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
+Date: Fri, 10 Jan 2025 20:25:32 -0000
+Message-Id: <173654073280.4065034.1251433444136984062@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/sj/hkml
+user: sj
 changes:
-  - ref: refs/heads/pending
-    old: e004fe8a973761f83c5f648df2bbc0bd319cb9fb
-    new: f647dc6512efa88bd1a3dc2444a9d1ea170f4045
+  - ref: refs/heads/master
+    old: a5df7a046a7d164c231b4d9aab054d029a0bc214
+    new: 926c4585e884b8640c9d9c73010fca79201edb9d
     log: |
-         c9f6ee2701d798c2b79b8557b842da7b106fcd5c wifi: ath12k: Support Transmit Rate Buffer Stats
-         3f482f2434753a0647dc8753a127f86878348458 wifi: ath12k: Support Transmit Buffer OFDMA Stats
-         89699f029cd42ddf913a201c917ce4f7b213b068 wifi: ath12k: Support AST Entry Stats
-         f647dc6512efa88bd1a3dc2444a9d1ea170f4045 wifi: ath12k: Support pdev Puncture Stats
+         467e9fdde92f71b6165b145edec073d36e0eb6b0 hkml_view: use blue color for original message as a last resort
+         926c4585e884b8640c9d9c73010fca79201edb9d TODO: add items
          
