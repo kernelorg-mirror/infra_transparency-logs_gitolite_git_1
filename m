@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============9061859925191883734=="
+Content-Type: multipart/mixed; boundary="===============1224783164554076604=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 10 Jan 2025 08:28:15 -0000
-Message-Id: <173649769523.3407413.8120009184172858576@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 10 Jan 2025 08:28:32 -0000
+Message-Id: <173649771248.3407712.10909423140302913806@gitolite.kernel.org>
 
---===============9061859925191883734==
+--===============1224783164554076604==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
+repo: pub/scm/linux/kernel/git/tip/tip
 user: peterz
 changes:
   - ref: refs/heads/perf/urgent
@@ -20,7 +20,7 @@ changes:
     new: b583ef82b671c9a752fbe3e95bd4c1c51eab764d
     log: revlist-aa5d2ca7c179-b583ef82b671.txt
 
---===============9061859925191883734==
+--===============1224783164554076604==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -645,4 +645,4 @@ ab75170520d4964f3acf8bb1f91d34cbc650688e Merge tag 'linux-watchdog-6.13-rc6' of 
 9d89551994a430b50c4fffcb1e617a057fa76e20 Linux 6.13-rc6
 b583ef82b671c9a752fbe3e95bd4c1c51eab764d uprobes: Fix race in uprobe_free_utask
 
---===============9061859925191883734==--
+--===============1224783164554076604==--
