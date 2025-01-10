@@ -1,45 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============9202898567339255093=="
+Content-Type: multipart/mixed; boundary="===============8432290113039889451=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Fri, 10 Jan 2025 06:54:44 -0000
-Message-Id: <173649208419.3333876.686375621359149422@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Fri, 10 Jan 2025 06:54:54 -0000
+Message-Id: <173649209466.3334142.545041410495100730@gitolite.kernel.org>
 
---===============9202898567339255093==
+--===============8432290113039889451==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 6ecd20965bdc21b265a0671ccf36d9ad8043f5ab
     new: 2b88851f583d3c4e40bcd40cfe1965241ec229dd
     log: revlist-6ecd20965bdc-2b88851f583d.txt
-  - ref: refs/heads/stable
-    old: eea6e4b4dfb8859446177c32961c96726d0117be
-    new: 643e2e259c2b25a2af0ae4c23c6e16586d9fd19c
-    log: |
-         dadf03cfd4eaa09f1d0e8b2521de1e11d3e3bec1 io_uring/cmd: rename struct uring_cache to io_uring_cmd_data
-         3347fa658a1baecd61b007787d031b729cd86537 io_uring/cmd: add per-op data to struct io_uring_cmd_data
-         b0af20d33f63c74985a6dd98344326e5111b2fea io_uring: add io_uring_cmd_get_async_data helper
-         c21b89d495bab6ae7ce0a1592bb955e5e80127fd btrfs: don't read from userspace twice in btrfs_uring_encoded_read()
-         6aecd91a5c5b68939cf4169e32bc49f3cd2dd329 btrfs: avoid NULL pointer dereference if no valid extent tree
-         7467bc5959bf02ef5210ea7e7948e548565c799c btrfs: zoned: calculate max_extent_size properly on non-zoned setup
-         0ee4736c003daded513de0ff112d4a1e9c85bbab btrfs: zlib: fix avail_in bytes for s390 zlib HW compression path
-         643e2e259c2b25a2af0ae4c23c6e16586d9fd19c Merge tag 'for-6.13-rc6-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-         
-  - ref: refs/tags/next-20241010
-    old: 9d0d85c67052fbd99885d7e94c8fd3c012d47cdf
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20250110
     old: 0000000000000000000000000000000000000000
     new: 2ba607f3f13e4cb147ad0f05e3c6de4a544c9a52
 
---===============9202898567339255093==
+--===============8432290113039889451==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1070,4 +1054,4 @@ b664af035a7c2509a036a55351506783176f17f5 Merge branch 'for-next' of git://git.ke
 592afa4be56b3a03b5431b9ecdcf4bb631c2f89a Revert "HID: lenovo: Support for ThinkPad-X12-TAB-1/2 Kbd Fn keys"
 2b88851f583d3c4e40bcd40cfe1965241ec229dd Add linux-next specific files for 20250110
 
---===============9202898567339255093==--
+--===============8432290113039889451==--
