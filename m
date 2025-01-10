@@ -1,87 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============0837503363096894251=="
+Content-Type: multipart/mixed; boundary="===============3335622125639256576=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 10 Jan 2025 14:49:34 -0000
-Message-Id: <173652057495.3773750.5237365852270372073@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Fri, 10 Jan 2025 15:01:20 -0000
+Message-Id: <173652128050.3784089.9027411965497694552@gitolite.kernel.org>
 
---===============0837503363096894251==
+--===============3335622125639256576==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/for-6.14/block
-    old: 844b8cdc681612ff24df62cdefddeab5772fadf1
-    new: afd69d5c4a1049230fa91c9b54fdd8132f755503
-    log: revlist-844b8cdc6816-afd69d5c4a10.txt
-  - ref: refs/heads/for-next
-    old: 20124a63d70788fd695149e7721d0707d747a697
-    new: 714d35ee26f317f78bb41a6f76a4620406f6506f
-    log: revlist-20124a63d707-714d35ee26f3.txt
-  - ref: refs/heads/io_uring-6.13
-    old: c9a40292a44e78f71258b8522655bffaf5753bdb
-    new: 1593ed0d510769514b648e09f8b7b71cc7fc18ec
-    log: |
-         299777dc6bdadc19e044fe35069cff65360b1f67 io_uring/eventfd: replace out-of-line signaling with a workqueue
-         1593ed0d510769514b648e09f8b7b71cc7fc18ec io_uring: sqpoll: zero sqd->thread on tctx errors
-         
+  - ref: refs/heads/spi-6.14
+    old: 5e56618e1593a9eb9d72dc9433ac7a02a6c48c8f
+    new: 89b37e49929653b7c350aac7fb2b96a052533015
+    log: revlist-5e56618e1593-89b37e499296.txt
 
---===============0837503363096894251==
+--===============3335622125639256576==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-844b8cdc6816-afd69d5c4a10.txt
+Content-Disposition: attachment; filename=revlist-5e56618e1593-89b37e499296.txt
 
-9c96821b44f893fb63f021a28625d3b32c68e8b3 block: fix docs for freezing of queue limits updates
-aa427d7b73b196f657d6d2cf0e94eff6b883fdef block: add a queue_limits_commit_update_frozen helper
-958148a6ac061a9a80a184ea678a5fa872d0c56f block: check BLK_FEAT_POLL under q_usage_count
-d432c817c21a48c3baaa0d28e4d3e74b6aa238a0 block: don't update BLK_FEAT_POLL in __blk_mq_update_nr_hw_queues
-a16230649ce27f8ac7dd8a5b079d9657aa96de16 block: add a store_limit operations for sysfs entries
-c99f66e4084a62a2cc401c4704a84328aeddc9ec block: fix queue freeze vs limits lock order in sysfs store methods
-473106dd3aa964a62314d858f6602c95e40e6270 nvme: fix queue freeze vs limits lock order
-f3dec61d7544a90685f1dd9a87fd4afc751996d0 nbd: fix queue freeze vs limits lock order
-1233751f7df722435bb93e928d64334db260b90d usb-storage: fix queue freeze vs limits lock order
-b38c8be255e89ffcdeb817407222d2de0b573a41 loop: refactor queue limits updates
-b03732a9c0db91522914185739505d92d3b0d816 loop: fix queue freeze vs limits lock order
-ae074d07a0e5c05769f1a9a2faa260c36d69465e loop: move updating lo_flags out of loop_set_status_from_info
-4155adb01e7406653f6b01aaca916a59567cfbfa loop: update commands in loop_set_status still referring to transfers
-781fc49a0e5c111b1a210bd1b3499c89bb21cd81 loop: create a lo_can_use_dio helper
-09ccf5549d7809671af34774bb30c8f935d6ed2b loop: only write back pagecache when starting to to use direct I/O
-dc909525daec7c7c5d628683c99d26e281c1a7bb loop: open code the direct I/O flag update in loop_set_dio
-3a693110afd7127400cc9f779c885f01cf16d0f2 loop: allow loop_set_status to re-enable direct I/O
-0cd719aa63def1d57316e8e903f01f4af0641a46 loop: don't freeze the queue in loop_update_dio
-afd69d5c4a1049230fa91c9b54fdd8132f755503 loop: remove the use_dio field in struct loop_device
+0fefeade90e74bc8f40ab0e460f483565c492e28 spi: spi-mem: Extend spi-mem operations with a per-operation maximum frequency
+1248c9b8d54120950fda10fbeb98fb8932b4d45c spi: spi-mem: Add a new controller capability
+d0e5faccb229b1dacc4c9fa11f6df33bb1fdabd8 spi: amd: Support per spi-mem operation frequency switches
+e6204f39fe3a7b4538815a2d778b601bd543649e spi: amd: Drop redundant check
+5baa189789e8894c58eacc7803e3c163c1d0fc0a spi: amlogic-spifc-a1: Support per spi-mem operation frequency switches
+06e9f5a1f6ba774d8942a168d3ec5ed5a008fbcb spi: cadence-qspi: Support per spi-mem operation frequency switches
+eee7bc9e7ade6f7ac17d9ec02887cd5509ba9427 spi: dw: Support per spi-mem operation frequency switches
+2438db5253eb17a7c0ccb15aea4252a150dda057 spi: fsl-qspi: Support per spi-mem operation frequency switches
+13529647743d906ed3cf991f1d77727e7ff1fb6f spi: microchip-core-qspi: Support per spi-mem operation frequency switches
+13fd04b53053bbfa741a0f2a781837ab80e485f6 spi: mt65xx: Support per spi-mem operation frequency switches
+67707cb094f134f5b3931eefbedbb9ca7e3209d0 spi: mxic: Support per spi-mem operation frequency switches
+26851cf65ffca2d3a8d529a125e54cf0084d69e7 spi: nxp-fspi: Support per spi-mem operation frequency switches
+d3f35dd3ad968256ed1080e3ea2022f947861cff spi: rockchip-sfc: Support per spi-mem operation frequency switches
+1a206344218cc15ad8f321e3abab3f3d36ab639f spi: spi-sn-f-ospi: Support per spi-mem operation frequency switches
+b2fac3192919dd07e7ce30558e34abd7e07dde77 spi: spi-ti-qspi: Support per spi-mem operation frequency switches
+9a68f6c8d6cfddeac7c5874528ed04e50a1cb579 spi: zynq-qspi: Support per spi-mem operation frequency switches
+30eb2e6e78225f92f04a2325c6fd77fe8f5b4aab spi: zynqmp-gqspi: Support per spi-mem operation frequency switches
+d1f85873d2d62d6980e68d21d3a21f20b0664cc3 spi: spi-mem: Reorder spi-mem macro assignments
+f0006897a96c736623ddeb9b68c3880eb5cdebe7 spi: spi-mem: Create macros for DTR operation
+89b37e49929653b7c350aac7fb2b96a052533015 spi-nand/spi-mem DTR support
 
---===============0837503363096894251==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-20124a63d707-714d35ee26f3.txt
-
-9c96821b44f893fb63f021a28625d3b32c68e8b3 block: fix docs for freezing of queue limits updates
-aa427d7b73b196f657d6d2cf0e94eff6b883fdef block: add a queue_limits_commit_update_frozen helper
-958148a6ac061a9a80a184ea678a5fa872d0c56f block: check BLK_FEAT_POLL under q_usage_count
-d432c817c21a48c3baaa0d28e4d3e74b6aa238a0 block: don't update BLK_FEAT_POLL in __blk_mq_update_nr_hw_queues
-a16230649ce27f8ac7dd8a5b079d9657aa96de16 block: add a store_limit operations for sysfs entries
-c99f66e4084a62a2cc401c4704a84328aeddc9ec block: fix queue freeze vs limits lock order in sysfs store methods
-473106dd3aa964a62314d858f6602c95e40e6270 nvme: fix queue freeze vs limits lock order
-f3dec61d7544a90685f1dd9a87fd4afc751996d0 nbd: fix queue freeze vs limits lock order
-1233751f7df722435bb93e928d64334db260b90d usb-storage: fix queue freeze vs limits lock order
-b38c8be255e89ffcdeb817407222d2de0b573a41 loop: refactor queue limits updates
-b03732a9c0db91522914185739505d92d3b0d816 loop: fix queue freeze vs limits lock order
-ae074d07a0e5c05769f1a9a2faa260c36d69465e loop: move updating lo_flags out of loop_set_status_from_info
-4155adb01e7406653f6b01aaca916a59567cfbfa loop: update commands in loop_set_status still referring to transfers
-781fc49a0e5c111b1a210bd1b3499c89bb21cd81 loop: create a lo_can_use_dio helper
-09ccf5549d7809671af34774bb30c8f935d6ed2b loop: only write back pagecache when starting to to use direct I/O
-dc909525daec7c7c5d628683c99d26e281c1a7bb loop: open code the direct I/O flag update in loop_set_dio
-3a693110afd7127400cc9f779c885f01cf16d0f2 loop: allow loop_set_status to re-enable direct I/O
-0cd719aa63def1d57316e8e903f01f4af0641a46 loop: don't freeze the queue in loop_update_dio
-afd69d5c4a1049230fa91c9b54fdd8132f755503 loop: remove the use_dio field in struct loop_device
-714d35ee26f317f78bb41a6f76a4620406f6506f Merge branch 'for-6.14/block' into for-next
-
---===============0837503363096894251==--
+--===============3335622125639256576==--
