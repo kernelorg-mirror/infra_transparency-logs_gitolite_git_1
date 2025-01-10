@@ -1,27 +1,49 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Fri, 10 Jan 2025 09:13:11 -0000
-Message-Id: <173650039197.3446762.15870347679052701680@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5429855625386797158=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 10 Jan 2025 09:16:05 -0000
+Message-Id: <173650056599.3450357.14022437184407303425@gitolite.kernel.org>
+
+--===============5429855625386797158==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-linux
-user: cem
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/next-rc
-    old: 4d3f2a73c86c89bbdaeb659fd2529fa76d789dcd
-    new: 4e7dfb45fe08b2b54d7fe2499fab0eeaa42004ad
-    log: |
-         242e797e466df39a9cdf36056332ef2727fb2789 xfs: mark xfs_dir_isempty static
-         ae23bc844f4dbb7e316787c95d32a560116ecc21 xfs: remove XFS_ILOG_NONCORE
-         b1b86c6da48f30ec2d56403626b6729a1d3cb86d xfs: remove the t_magic field in struct xfs_trans
-         7ca96c6c5e80fbf23c5629127ef17dac5011bef8 xfs: don't return an error from xfs_update_last_rtgroup_size for !XFS_RT
-         e37bd69d8e352936f7f8dc02cb5f99bba0d609bf xfs: fix mount hang during primary superblock recovery failure
-         1e02c7eb122f78069320e03086500d2f28b67010 xfs: clean up xfs_end_ioend() to reuse local variables
-         7beff61f8590cd76ec167696e7d913570194744b xfs: remove redundant update for ticket->t_curr_res in xfs_log_ticket_regrant
-         ba50dbf7a9e352d0c8a360069d70fdc961adf103 xfs: remove bp->b_error check in xfs_attr3_root_inactive
-         4e7dfb45fe08b2b54d7fe2499fab0eeaa42004ad xfs: lock dquot buffer before detaching dquot from b_li_list
-         
+  - ref: refs/heads/main
+    old: 9007d911f6d2a99d3dd1dbf2097de35727cc665a
+    new: 7b24f164cf005b9649138ef6de94aaac49c9f3d1
+    log: revlist-9007d911f6d2-7b24f164cf00.txt
+
+--===============5429855625386797158==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-9007d911f6d2-7b24f164cf00.txt
+
+ffa794846bf777a06407d94ef69b9b1c5ac5a6c6 xfrm: config: add CONFIG_XFRM_IPTFS
+64e844505bc08cde3f346f193cbbbab0096fef54 include: uapi: protocol number and packet structs for AGGFRAG in ESP
+f69eb4f65c58f5a081dbafb76011dad73757420c xfrm: netlink: add config (netlink) options
+7ac64f4598b4daa3f955f82759760666e047bdf8 xfrm: add mode_cbs module functionality
+d1716d5a44c37e5743bf6ea4e5cdbdab37727f27 xfrm: add generic iptfs defines and functionality
+4b3faf610cc63bfac972711635eafbca5e7d7117 xfrm: iptfs: add new iptfs xfrm mode impl
+0e4fbf013fa566f274ce9b4ce698c75b1f998c52 xfrm: iptfs: add user packet (tunnel ingress) handling
+b96ba312e21c9b7ac1526829b9640ddc06695c0b xfrm: iptfs: share page fragments of inner packets
+8579d342ea2b3c1c672858de180152ccf9cb0ee1 xfrm: iptfs: add fragmenting of larger than MTU user packets
+6c82d2433671819a550227bf65bfb6043e3d3305 xfrm: iptfs: add basic receive packet (tunnel egress) handling
+07569476544681816335099929ff3494dfbf6b05 xfrm: iptfs: handle received fragmented inner packets
+3f3339885fb343b7b42d7c34717108ce07da24ae xfrm: iptfs: add reusing received skb for the tunnel egress packet
+5f2b6a9095743a6bf1f34c43c4fe78fa8bdf5ad7 xfrm: iptfs: add skb-fragment sharing code
+6be02e3e4f376fea468846c8562655ca5ee18204 xfrm: iptfs: handle reordering of received packets
+ed58b186c7737bf0db1ebf57207b30fe740e1d07 xfrm: iptfs: add tracepoint functionality
+59af653a6998ce0a79aa7f8851b0d5ecc667579b Merge branch 'Add IP-TFS mode to xfrm'
+373b79af3a209e25e011c5980cb59ed3252fa2f0 xfrm: Support ESN context update to hardware for TX
+7082a6dc84ebba9dbdf65727b5bc4af92a2d31d3 net/mlx5e: Update TX ESN context for IPSec hardware offload
+7b24f164cf005b9649138ef6de94aaac49c9f3d1 Merge tag 'ipsec-next-2025-01-09' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec-next
+
+--===============5429855625386797158==--
