@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2773702115240666957=="
+Content-Type: multipart/mixed; boundary="===============5086978259674307478=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 10 Jan 2025 15:10:06 -0000
-Message-Id: <173652180613.3793635.16133186134221727857@gitolite.kernel.org>
+Date: Fri, 10 Jan 2025 15:11:20 -0000
+Message-Id: <173652188031.3794385.15495517073661935659@gitolite.kernel.org>
 
---===============2773702115240666957==
+--===============5086978259674307478==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,43 +17,43 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: f1a2241778d9627f8b41829c6ca0735b683a9c68
-    new: 73e593780c596bd99fef6354177672d4dec52b38
+    old: 73e593780c596bd99fef6354177672d4dec52b38
+    new: 36a889968e69fd718edb3f82ff74f332157bcc5a
     log: |
-         e870f339b9690ceee1ff09038b70c3e1df825d4f usb: host: xhci-plat: Assign shared_hcd->rsrc_start
-         72454a11d6a377a061ce0da6116a24176ce6ee5c dt-bindings: usb: Correct indentation and style in DTS example
-         3b7d2c151c8c047749276a1ffc0900f939651d31 usb: typec: cros-ec-ucsi: Add newlines to printk messages
-         73e593780c596bd99fef6354177672d4dec52b38 usb: typec: cros-ec-ucsi: Mark cros_ucsi_ops static/const
+         46246dfa7880aa4651be3ea20d6c90bb8c27d4bc usb: dwc3: Skip resume if pm_runtime_set_active() fails
+         d9ff15dc164069d630ae50f6b799a635de3651c4 usb: dwc3-am62: Fix an OF node leak in phy_syscon_pll_refclk()
+         7479a623fa94296936090096f8e550a883bc0616 usb: dwc3: st: Switch from CONFIG_PM_SLEEP guards to pm_sleep_ptr()
+         36a889968e69fd718edb3f82ff74f332157bcc5a usb: dwc3: omap: Fix devm_regulator_get_optional() error handling
          
 
---===============2773702115240666957==
+--===============5086978259674307478==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736521833 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736521907 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1736521802-11f788bbc3786a0f9108810fc990a6b849820f78
+nonce 1736521877-7dea9c9b432eb9353e003758ff67b4e2490ecfab
 
-f1a2241778d9627f8b41829c6ca0735b683a9c68 73e593780c596bd99fef6354177672d4dec52b38 refs/heads/usb-testing
+73e593780c596bd99fef6354177672d4dec52b38 36a889968e69fd718edb3f82ff74f332157bcc5a refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeBOGkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vlgQALhUq+f/ehC3bAvYh829
-uQxQFrdupM55hQGpLL+5hZ17uQb+Ek2AcatBxfL3G14sEMwcknG2yrcfazwEPiCE
-sXdL5DduVQrRwBNyfXWe4ADxOpy9u/aZT329j55JkrzZQzwy0Kpa7KXw+vKqs65Q
-ZsgQynclq9j8CmdQLCP+jf/K1SSDziRoptooZa/xJLi4u6a93bxNX/tN/Ez0uo2M
-Zcxrx+AJgSzCfrLq0jm1FoztWYAyJYZ27D7N9ntqFmlhV+iCeeyUu7rnceOKj8mA
-6Xt+5TW8mqaPexf+wgN25Hw2QSkTjst0xL8WIHf0mhAtwEyb4Lff8k5gv9Bu3L8j
-btiz4avmiihAgTdZ1OqwXaZree/SSBOTP49do6bm4pGPMcBBKVAQvbG7b58I/9dP
-rMwZHJuM5HBT0pwhv0N8vhb7DWXJXpROohvif9kbmvVZrNjyVsftpvk47CpAmSxV
-Nsx2c+qmpCT8YHAo32jQORBAgHMekdJMuO0aiqiPiRMARXl420WNEg/hW207mS46
-mQzjXY8YlGzfiVINsG+AH+m0ACnhaVsA5bWNQP5EckmquNbmnI5VZ9r2JXrnjJWP
-3sCDPr7saC2tTYXHXgjhTJX45zYrsNJTn16EfaliuIxMCwN+YZOpUXfEoae7tw6m
-XfJuxINyJBvsyKwq5SamXuSu
-=tnC5
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeBOLMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+v94P/RoR4ahJzjhZD0xSh2dH
+fPYF4lN9UlMZzj+jHpOAEQ+HKyPjXeMemFbpESpMKqo/Xs/XHGWzCC2jcl99TYX9
+epPFhUMRyh/BCrdtRqyeLryzA3cDoFwkTo6Bn3VSH/WslhobwEJssDQBoFbTgcX0
+mmKGQPTWkKax+trVTOvn4LIK+gpB4X0deq4xd6+qRfUNIRtoQ9PWb8FFDhrpmNCu
+JOOO71kdWahld8E0TmKdFQRs2ZVV9+2bnO80Tbug9Jv4uBFgdLy6O8CbZm10c8X4
+obQkdwdPQ24grNoDk/3e5JMOX6XAu4zULLwZFP1ovHy8XiE5xpUAN/ALcggX7yaa
+NN21bQFM11NsjVZb96ppQMPhUYJOzKDpjOEmysC4mXn3i3IuuWBTV8RU1mWWvxAT
+ZoWQvdVGsgDQKQyJucD9nGMxeRCa4t2LE3XDd0JWClf43LHw5kuNEkXZh5EV7tKF
+Grh/x+tZw7m/BH6PVk+/Fh08ESb/f5nRx/J45506llfpQUl4r6t16K46s+S/Ky2k
+2YfLia9A4n1EZRg/eP9zcH+QgqpS7zM9HPkfRvdqYlE5GSaZet4IK480Yud5HoK2
+SPPG2jh7I6Add/Q1v2TbeoR0+P5dECP/uzxdll6DcDbhkexbf3npJceRObkRNBGo
+pZ5H6tDqpWMhU6a4T9SuCO7S
+=FJ8Z
 -----END PGP SIGNATURE-----
 
---===============2773702115240666957==--
+--===============5086978259674307478==--
