@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7559464907107669126=="
+Content-Type: multipart/mixed; boundary="===============7716999100286601401=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sat, 11 Jan 2025 04:45:05 -0000
-Message-Id: <173657070529.282968.15679020033719228569@gitolite.kernel.org>
+Date: Sat, 11 Jan 2025 04:45:43 -0000
+Message-Id: <173657074366.283369.12333581583327583320@gitolite.kernel.org>
 
---===============7559464907107669126==
+--===============7716999100286601401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 928cd6a19ca3d36648714edbe42b1f8b29d27765
-    new: 29f6ab9b8cfc76e2e6a680a7e143cdff6bbf877e
-    log: revlist-928cd6a19ca3-29f6ab9b8cfc.txt
+  - ref: refs/heads/nfsd-testing
+    old: 822527d79ac12febb27a00c04834172a77e194cf
+    new: 0d51e067ad2c3b3e0fbce040feb8c616a261e7cb
+    log: revlist-822527d79ac1-0d51e067ad2c.txt
 
---===============7559464907107669126==
+--===============7716999100286601401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-928cd6a19ca3-29f6ab9b8cfc.txt
+Content-Disposition: attachment; filename=revlist-822527d79ac1-0d51e067ad2c.txt
 
 ef3675b45bcb6c17cabbbde620c6cea52ffb21ac NFSD: Encode COMPOUND operation status on page boundaries
 1a861150bd6a69ea14da7a0d752da2b442e6a5dc NFSD: Insulate nfsd4_encode_read() from page boundaries in the encode buffer
@@ -49,5 +49,7 @@ f81511d34c3b7f9ee92f183f40249b05a5d00d2b nfsd: implement OPEN_ARGS_SHARE_ACCESS_
 f99466b4598d6bc432ddcf58c374370daad5a398 sunrpc: Remove unused xprt_iter_get_xprt
 974bf7733a4d32c9fcc75a7b9ade26f0e9706a66 sunrpc: Remove gss_generic_token deadcode
 29f6ab9b8cfc76e2e6a680a7e143cdff6bbf877e sunrpc: Remove gss_{de,en}crypt_xdr_buf deadcode
+548e2497a02a7af41ff6819b27076b911efcded7 sunrpc: clean cache_detail immediately when flush is written frequently
+0d51e067ad2c3b3e0fbce040feb8c616a261e7cb lockd: add netlink control interface
 
---===============7559464907107669126==--
+--===============7716999100286601401==--
