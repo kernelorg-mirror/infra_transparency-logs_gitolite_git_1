@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5066284875558056753=="
+Content-Type: multipart/mixed; boundary="===============8752380630241384040=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sat, 11 Jan 2025 16:03:25 -0000
-Message-Id: <173661140597.823072.5109594642135292546@gitolite.kernel.org>
+Date: Sat, 11 Jan 2025 16:04:06 -0000
+Message-Id: <173661144614.823611.8281645552172842899@gitolite.kernel.org>
 
---===============5066284875558056753==
+--===============8752380630241384040==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,8 +16,8 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 36a889968e69fd718edb3f82ff74f332157bcc5a
+  - ref: refs/heads/usb-next
+    old: f1a2241778d9627f8b41829c6ca0735b683a9c68
     new: 594c82329eef335ad90f5276ae0d2dff4d6d2668
     log: |
          653e11eae27436cd8b95d232de4c38d2a2f7bf34 dt-bindings: usb: Correct indentation and style in DTS example
@@ -30,34 +30,34 @@ changes:
          594c82329eef335ad90f5276ae0d2dff4d6d2668 usb: host: xhci-plat: Assign shared_hcd->rsrc_start
          
 
---===============5066284875558056753==
+--===============8752380630241384040==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736611433 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736611475 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1736611402-a44a90d6fe98a4d720056fc8182cfa022e3541f4
+nonce 1736611444-7c3bf7852b1c74297e5659983d7da7cd5fb9b0bd
 
-36a889968e69fd718edb3f82ff74f332157bcc5a 594c82329eef335ad90f5276ae0d2dff4d6d2668 refs/heads/usb-testing
+f1a2241778d9627f8b41829c6ca0735b683a9c68 594c82329eef335ad90f5276ae0d2dff4d6d2668 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeClmkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+V48P/Row6NSW4nl2O93jRVhN
-kgdLU6X7WzV5Er6NZGmqBhZNHAGdN/5qe2ucwRZvqSL5qEA00bjOV7F/sUPVsCl3
-DEEwu6bzcDARmBjw6H2qJpgKFCr0RIDN5dh+hzYiOsUNvSx7+Od1UR5ENd0c+ej8
-CgY0phUh8pCIWMfZVq3THiDo2TDgJmd+aq0fvPgPDqrUrw5PQCBKG0tFmKffGrZ/
-mlAD2EAeRRu9xCSkCY9CevaoOr4xpB9ucXz+ErqQ7qFVFMn4ajiwLc5M+GGEqbqp
-w7jPLLYmdgexjs3v0RYdiP3EjCsGXyT6t3KWhfXg5DscbfhUB8KP4lNq98tBjU88
-1bXpr9v9BO3vSSj1sYg+XIS9lXDqUOUkaF7k2LNIFgARs7TQFYBj5vjKtVONWDQV
-zbtvq6lfdukSJKKhKUi87sClWnc3roaWD9cMfWKYJT+f7W/Q4uCtGM6AvFLiH01V
-nojpVFt3L4ZtZqgNLxSXElYMmei5DqKwUCMBHeKt6COHPzwxISAHjt3ELk0XKGKC
-tF7V9sI2sbljgoeSC1gIEu0f3VMz36iwVMSCHpgHG5B9dxoIDecBXt3xvSKlC8Gp
-2YFUAPdKlDHCMQyR3dXmN4ZQM8OP9DGmApwwtWQJ9tqHvu64UrZBldvAr5jENNsV
-pjJTOnFczUoPtlPT/vxspkig
-=FQ9k
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeClpMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ppAQAIOQnKC39CQAuNa+8eZ+
+uCKHNusBj40FcN7AxpTBGb7apwP1KpIKod4yBSBDQoe1YE9d68JuqBER90MdegIm
+iDo0l0fVaNFva324jH0TUigbr3qOCjdTxMJgeHN56FCI8pLJDvhOYm3cb57I7QAL
+e/fVMRhjNsRxshmPxaiQahpOygcp8XhUElcd84GLLrfgOQhM9M7Hn+QDpO2uq3K1
+WbNwfLxz8USFYOOd8wyWiohEKtdx6KQvUwDGpvs3BqHNlOgfX0K5xmeYM/HuCEdx
+YjUMmhISdvnBF30XYsXAbX8eLBj0tdK1pfWBd6nWaEWDBgoMbgFn/yh1mjKC2OIR
+qxxY3Zs4wMDuRN1Cw7iI3dcxkm2gNUSVoxdjP2sn1LX8JsIlTh32qjo9aDzXZt/x
+XEfMdK9q8lFrU9EaStmyTpEpix3LXzkTTPe2pCJT0f4rCUekOxysvCb/vQ4yBb5P
+UzYDszNySnUzrqreYLbTO9Rg+4vv9aOARtBlYwM96uQEd0kxldL0bHgaGdHomfIG
+JMrjh7lBaaH6L6lHjB6pBiaOwtfUVK9sTp2go9D72xXPTir4d5QHGN/AV+yjajUb
+oVkox1EFjDUg+O/2xbEeYYhfDu48qyPqYtjA8t1mj2EFWDSA0NWkAbS+wfP7jtBJ
+r26mh2sMhTAwmtIYMyUxnb+G
+=4/14
 -----END PGP SIGNATURE-----
 
---===============5066284875558056753==--
+--===============8752380630241384040==--
