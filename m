@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sat, 11 Jan 2025 19:05:07 -0000
-Message-Id: <173662230785.973304.17727539001617226958@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
+Date: Sat, 11 Jan 2025 19:06:16 -0000
+Message-Id: <173662237623.973955.2583864303687723163@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/sashal/linus-next
+user: sashal
 changes:
-  - ref: refs/tags/hwmon-for-v6.13-rc7
-    old: 0000000000000000000000000000000000000000
-    new: a1e9f2eb6757af21b978b3835b24e2f006f556c1
+  - ref: refs/heads/linus-next
+    old: 2c96ce3086bad75942a15b0ba9d383593698284b
+    new: 07fbaa845e376888d85796e5707c3adbfc6ab635
+    log: |
+         07fbaa845e376888d85796e5707c3adbfc6ab635 selftests:core: test coverage for dup_fd() failure handling in unshare_fd()
+         
