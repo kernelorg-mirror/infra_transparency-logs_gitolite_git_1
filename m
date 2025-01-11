@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
-Date: Sat, 11 Jan 2025 19:06:16 -0000
-Message-Id: <173662237623.973955.2583864303687723163@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 11 Jan 2025 19:11:58 -0000
+Message-Id: <173662271891.978451.10188208047859818905@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linus-next
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: sashal
 changes:
-  - ref: refs/heads/linus-next
-    old: 2c96ce3086bad75942a15b0ba9d383593698284b
-    new: 07fbaa845e376888d85796e5707c3adbfc6ab635
+  - ref: refs/heads/master
+    old: 3121c5b160979c05744c4e728cc414c088ab3ebb
+    new: e361e91e140ea0257fcd2fd287a615d225a488da
     log: |
-         07fbaa845e376888d85796e5707c3adbfc6ab635 selftests:core: test coverage for dup_fd() failure handling in unshare_fd()
+         d117d5ad842c013e48d0243a20fea0815a372954 Fixes for 6.12
+         698ded9fec5f61c33a350b133f0edf1cf3ab95f7 Fixes for 6.6
+         e361e91e140ea0257fcd2fd287a615d225a488da Fixes for 6.1
          
