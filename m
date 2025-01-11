@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 11 Jan 2025 02:33:47 -0000
-Message-Id: <173656282703.170523.4568930189621135794@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 11 Jan 2025 02:35:15 -0000
+Message-Id: <173656291585.173307.14359908711514520920@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: e7e441a4100e4bc90b52f80494a28a9667993975
-    new: 47e55e4b410f7d552e43011baa5be1aab4093990
+    old: b493f881aaa70ac63a448267bd447ad1eb2b16a1
+    new: 06cc8786516f65bf0171402bfc2a4db6818b380b
     log: |
-         47e55e4b410f7d552e43011baa5be1aab4093990 openvswitch: fix lockup on tx to unregistering netdev with carrier
+         06cc8786516f65bf0171402bfc2a4db6818b380b tls: skip setting sk_write_space on rekey
          
