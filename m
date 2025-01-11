@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2303091708598962163=="
+Content-Type: multipart/mixed; boundary="===============7117431949150752370=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/security/vulns
-Date: Sat, 11 Jan 2025 15:04:24 -0000
-Message-Id: <173660786428.772039.9964383875924703487@gitolite.kernel.org>
+Date: Sat, 11 Jan 2025 15:06:28 -0000
+Message-Id: <173660798816.775158.14024536941987257917@gitolite.kernel.org>
 
---===============2303091708598962163==
+--===============7117431949150752370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 342730e0f824db8d57a7c99627e2ec7f221f5e19
-    new: 4beee5422f35b398742a33cc18ffb1153e599862
+    old: 4beee5422f35b398742a33cc18ffb1153e599862
+    new: bd82bb537bc9b8c34cc15d31a656be35045e3654
     log: |
-         4beee5422f35b398742a33cc18ffb1153e599862 update 6.12.6 review by greg
+         3a5d91c302f17bc64b01d6c9bbcb404daeea047a assign some final 6.12.6 cve ids
+         bd82bb537bc9b8c34cc15d31a656be35045e3654 mark 6.12.6 cve review as done
          
 
---===============2303091708598962163==
+--===============7117431949150752370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736607893 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736608017 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1736607863-1e4c947548adeb2fa05d55ae9bccd2e3180c1a64
+nonce 1736607987-fbec0522963dbf2f31709d505e2a141b57d051f1
 
-342730e0f824db8d57a7c99627e2ec7f221f5e19 4beee5422f35b398742a33cc18ffb1153e599862 refs/heads/master
+4beee5422f35b398742a33cc18ffb1153e599862 bd82bb537bc9b8c34cc15d31a656be35045e3654 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeCiJUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/fMP/ixmvAEBBMMS05d/vM0N
-nNzaMKxyisGlEZJdAdP7PvcLMZom0hZ/++7OgD1TK3XAT29HJEFcn3QLx1uh3Vn0
-/NSYLLLM+ZjNvD+sq/wbCIJibRoA87JPiHS4X1BHcu36uBhKxUx0V3cEChjuNTvr
-jv6u2Z3O+YGafTJN6v5wxXJtrgrhhrSwUhp2mVIo8T9YeWm6uYMc/Ro5SsBqomOp
-0CPRyrsG3lcfjuB2Lv1eaprezUBX6QnT2ZYsdAm8jIcxWjiUgJ3dRTx1l/jxsx89
-j6IRkcIsoGqRCTsYuAodHe0wDriVRfDwVIVIFNyOQIkF0R5oM2hEawChKvkOUcBK
-zJR0ewsM/pMmqzVWNHbxu54cJAXzhaRs6Jg59mEy3o7sWTTjXI3Jbtrgz+ewhJ2M
-IxfJ33hWWC42j5pCF0IS9NcWn+uq19jfcVwD1R7Urfozbtx4+NAgTt3Ew40HDaHG
-hpO8frG1Sc/r/1bVLuRY9KAaD322GQhUDutZXugKTLI85svUwp+xSpeGlmmRNeLB
-X27zNHwvfFZKr+1peS3fBBy2AnMYnq3btSTcGaMUH+7Tu0P6AlnqSkRPcVZVGUQh
-VepPvcILicKHE9VCElwJ86n47S2S9H2ihgv+kD89WEdu/h4l3i+J4OA0BhsK+KUj
-sIScr5OrfQnAaahY7aolkPnC
-=MbcO
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeCiREbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MOMP/2Fk4dGo1fucrGS8ihVf
+kYxM8GQe/Zjw7lxAiW1q9gfS6ep10ClnSHjmdH1Pk2ikryIuJ3zYNgbzkA0tENkj
+lAwBjZ0Kza6PchHSoaG7QxX2i5QQMYuDlShM16kgaHv4J12tWFY/eu3QoYPmJVAc
+nKmGHBv5l8H8j2TuYWsGIswRV6kHb7oHCU+yjcnmMQDt33JDsoKNof0HqTN5y8zO
+fSDFa4tR6MI9UazUHNLt0AMDib0onACSC265nEasUWvDZmu6TDEm9v0IFr42SYjq
+u6S2UwDHce+q7GSr7BC8biv16omow+NSy7RgGPlBbMrSyis7dAQBa71ms1OWmpQ3
+sLzNTfs/UXWKoQm+liMKoXHeBca9PscmAH63eVUat2upa4eW6ODlMKDdDF5IyvhV
+M3LoVVEIqLVhyp9mkU34gTYv4UYrVAbQJq9sRVyab/8+idVE/msmjPooVKvc60h9
+7JXpZUvA8CIQU/5Lwe1a9c4Cyd18Jb/uXwYI2L63uy0rxH2aveUf6rh/D+MKmldg
+x0D3mm3B1PFmLNBPGKt3TF9izb2kDvooRArkJzDCTmIiDJQKqfMD2qsqIkh8eVZY
+PIZnkWgpBStDNFF2CpbPf+1ZS+lFlv7GlBm4c/7Hp7zmkYh3KPVFTS2aWD/CEBzw
+NKO042gi25WCxZ90SPT4H0GX
+=YoRf
 -----END PGP SIGNATURE-----
 
---===============2303091708598962163==--
+--===============7117431949150752370==--
