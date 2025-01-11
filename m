@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Sat, 11 Jan 2025 13:18:15 -0000
-Message-Id: <173660149578.685382.11904505248003629958@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/srini/fastrpc
+Date: Sat, 11 Jan 2025 13:28:40 -0000
+Message-Id: <173660212016.693491.10981089614383947889@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/srini/fastrpc
+user: srini
 changes:
-  - ref: refs/heads/sched/core
-    old: 82563deef777b32ef169230d5cdf4e37ba9e9bde
-    new: b1fdab9e77a1183e0dfd06677d94d875ada0dbda
-    log: |
-         22ed09f364d406071f2ac7521b2c4ca24ec7fb18 sched: Fix race between yield_to() and try_to_wake_up()
-         2fd49575d6d1c7a3b4abf9160e5847d4a7bc693f sched/fair: Encapsulate set custom slice in a __setparam_fair() function
-         b1fdab9e77a1183e0dfd06677d94d875ada0dbda sched/debug: Change need_resched warnings to pr_err
-         
+  - ref: refs/heads/for-next
+    old: 652631fe700a0576beb48c40fbd67855d650ceb5
+    new: 40384c840ea1944d7c5a392e8975ed088ecf0b37
