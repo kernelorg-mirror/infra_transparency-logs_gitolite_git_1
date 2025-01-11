@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2269112771267859259=="
+Content-Type: multipart/mixed; boundary="===============7158964667620300415=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sat, 11 Jan 2025 16:40:20 -0000
-Message-Id: <173661362017.857070.2185160962772906060@gitolite.kernel.org>
+Date: Sat, 11 Jan 2025 16:41:37 -0000
+Message-Id: <173661369769.858238.4050278539367333043@gitolite.kernel.org>
 
---===============2269112771267859259==
+--===============7158964667620300415==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,342 +16,363 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: sashal
 changes:
   - ref: refs/heads/queue/5.10
-    old: 73e5499bd45aa6c0d408862478a028ce1f0af5a8
-    new: 0bdedf48c69f900e5282124eb3b3d54864af3bea
-    log: revlist-73e5499bd45a-0bdedf48c69f.txt
+    old: 0bdedf48c69f900e5282124eb3b3d54864af3bea
+    new: 87cf23fd328f4150093dd98dc8f5025ceee61edc
+    log: revlist-0bdedf48c69f-87cf23fd328f.txt
   - ref: refs/heads/queue/5.15
-    old: 7f5bea4cdaf78bb8edcf3b1bf45c68b6c1e11f90
-    new: f373f1325e3fc717349c627746d395f09fec2a56
-    log: revlist-7f5bea4cdaf7-f373f1325e3f.txt
+    old: f373f1325e3fc717349c627746d395f09fec2a56
+    new: e4c78ffbfd9ca2f42102866023420d496e7f9ca0
+    log: revlist-f373f1325e3f-e4c78ffbfd9c.txt
   - ref: refs/heads/queue/5.4
-    old: ee5b2a5947144e73893690d9623d87735ececa74
-    new: 95ab7ca03c5f8473063f0e4df0afc97bb46e2b32
-    log: revlist-ee5b2a594714-95ab7ca03c5f.txt
+    old: 95ab7ca03c5f8473063f0e4df0afc97bb46e2b32
+    new: 1444c2523c70ffe0c8efee471a1f0324a1715b35
+    log: revlist-95ab7ca03c5f-1444c2523c70.txt
   - ref: refs/heads/queue/6.1
-    old: d8afa9f5656dc6bf03f9dffb6f3165b84bf43a0b
-    new: 0a690c7e8c1140cf62da364e0e8dddc39aae3413
-    log: revlist-d8afa9f5656d-0a690c7e8c11.txt
+    old: 0a690c7e8c1140cf62da364e0e8dddc39aae3413
+    new: f053f1d6f55dccf5c684ad7df0bf4e019e038e4d
+    log: revlist-0a690c7e8c11-f053f1d6f55d.txt
   - ref: refs/heads/queue/6.12
-    old: a3f9be3270a92c701f22673a496c541cf58908d0
-    new: a38a051645f36b08ec5b48474c66294923966155
-    log: revlist-a3f9be3270a9-a38a051645f3.txt
+    old: a38a051645f36b08ec5b48474c66294923966155
+    new: 3cf4f506881e5fc4c93d99d45213d3ea60042a59
+    log: revlist-a38a051645f3-3cf4f506881e.txt
   - ref: refs/heads/queue/6.6
-    old: 706b3b203f1e0ce8a29059fa47ca564d4d606c8b
-    new: a7c1e3c6728db5302c7a048127d7aa8db5b65862
-    log: revlist-706b3b203f1e-a7c1e3c6728d.txt
+    old: a7c1e3c6728db5302c7a048127d7aa8db5b65862
+    new: d53f727a608fb1972ae55fed88626356dd432094
+    log: revlist-a7c1e3c6728d-d53f727a608f.txt
 
---===============2269112771267859259==
+--===============7158964667620300415==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-73e5499bd45a-0bdedf48c69f.txt
+Content-Disposition: attachment; filename=revlist-0bdedf48c69f-87cf23fd328f.txt
 
-c53138b38759021637405b576ac951117c7caa57 ceph: give up on paths longer than PATH_MAX
-77160fa754453a5671eddc77d8b1eac2d2b8b27c jbd2: flush filesystem device before updating tail sequence
-2a1f1fd02311aa81b2736384f0fd7f3b1a3ded36 dm array: fix releasing a faulty array block twice in dm_array_cursor_end
-6089651e136b4fc9ff5ae97d4134a8c5a24b0b3e dm array: fix unreleased btree blocks on closing a faulty array cursor
-3adb35c89ae01991984a8aced9fd3c7f3fcde61f dm array: fix cursor index when skipping across block boundaries
-0fbb901fd9f96091d4b1417e90f2a692210f5ac7 exfat: fix the infinite loop in exfat_readdir()
-9757a6f9cbe4b92f808eab01478072419b42c024 ASoC: mediatek: disable buffer pre-allocation
-c97dff3ceca6f91e5ba40c17cb3e0254e54fa3cf netfilter: nft_dynset: honor stateful expressions in set definition
-917b8aac801973fd9b1081e5614b96048ae0b3bb ieee802154: ca8210: Add missing check for kfifo_alloc() in ca8210_probe()
-2a6d7e245d97610bacaed9c21c814c48a9402fed net: 802: LLC+SNAP OID:PID lookup on start of skb data
-9184e2805929dea2cc523247c81fc34db50802ac tcp/dccp: complete lockless accesses to sk->sk_max_ack_backlog
-0bd3ff247c20771be00c2d63057645b867c97ee8 tcp/dccp: allow a connection when sk_max_ack_backlog is zero
-621dbc6910774a69693b040e3873bb40828317e7 net_sched: cls_flow: validate TCA_FLOW_RSHIFT attribute
-8992209758e9ebe1fc2a703461b6c908fc048dab cxgb4: Avoid removal of uninserted tid
-19d0d2f80d44206412d6cd278cb46c50faa4f557 tls: Fix tls_sw_sendmsg error handling
-56d46dfaba8e7fed112aa9f348a5d7c9b2cdc01f net: hns3: initialize reset_timer before hclgevf_misc_irq_init()
-40d4ddddd0ca24c1038815947332db855be9cbc3 netfilter: nf_tables: imbalance in flowtable binding
-fa9ebdff7230f54135db45ddcfe53e921ba7ba1e netfilter: conntrack: clamp maximum hashtable size to INT_MAX
-2940e9a796f5bf85b7f77b45a7968d32f3486b96 afs: Fix the maximum cell name length
-d330efdaf8ffc64ae0e2f9aa3eda1f0bf92ed1dc dm thin: make get_first_thin use rcu-safe list first function
-76ae0c4b043ae8e12bd9a285db5a99c1e56bb4d0 dm-ebs: don't set the flag DM_TARGET_PASSES_INTEGRITY
-c8d7cec5d405456a8a7e4ec20382e2daa4112521 sctp: sysctl: cookie_hmac_alg: avoid using current->nsproxy
-796ef91e4c3c0f0845a37f412292835798148029 sctp: sysctl: auth_enable: avoid using current->nsproxy
-0bdedf48c69f900e5282124eb3b3d54864af3bea drm/amd/display: Add check for granularity in dml ceil/floor helpers
+e2c280625925f7a6982068ae16dbbbaf5012d713 ceph: give up on paths longer than PATH_MAX
+098863784295bf97b26e0afceaa6226401a647a9 jbd2: flush filesystem device before updating tail sequence
+e1af5ac837a1d2ebb727c7f3219aa5de26fb5da6 dm array: fix releasing a faulty array block twice in dm_array_cursor_end
+b1c55180b681ec19c5c924b219b880ea6d00d36d dm array: fix unreleased btree blocks on closing a faulty array cursor
+02b2e302051d344ecfc07cbc6cf84ceba11f888d dm array: fix cursor index when skipping across block boundaries
+e98f89aa9621860960ccdd2e8c193e3d41f40c5b exfat: fix the infinite loop in exfat_readdir()
+fbc4430656f674880ab98d2eb88ceb707c9e2c85 ASoC: mediatek: disable buffer pre-allocation
+528e3ce3018f01ea471f377994baf016fc71d1b6 netfilter: nft_dynset: honor stateful expressions in set definition
+b5e1ea3532c681f0c82873dca6b28c18ec02d849 ieee802154: ca8210: Add missing check for kfifo_alloc() in ca8210_probe()
+434a1c918cd5427700968b36178d6b6ecf9e51b1 net: 802: LLC+SNAP OID:PID lookup on start of skb data
+4898bcb4c4cce364ce842cfaf74c8db2e9ce5685 tcp/dccp: complete lockless accesses to sk->sk_max_ack_backlog
+4b77bedb71ac3da507bb4e73b3b4dc95ff786c02 tcp/dccp: allow a connection when sk_max_ack_backlog is zero
+13307a5966efde427a5c509b2943a6a34f7d6d3b net_sched: cls_flow: validate TCA_FLOW_RSHIFT attribute
+0bfc4b70cb3ef6dd8688e2dbc4b4e6c24ca07e88 cxgb4: Avoid removal of uninserted tid
+9c627f5d9cdca3918a5bed2416371815a2417232 tls: Fix tls_sw_sendmsg error handling
+31b78fd5a35268cd51ec519f633ba28494184065 net: hns3: initialize reset_timer before hclgevf_misc_irq_init()
+4ff5539d8fdd10bc098e7e1b5c22487f45d99b8a netfilter: nf_tables: imbalance in flowtable binding
+f5dbf83bc766cf09844a7f5ece6329d90c656370 netfilter: conntrack: clamp maximum hashtable size to INT_MAX
+83b151461c9266de9c1854e96d0267d20ab18852 afs: Fix the maximum cell name length
+980d3748f475f6d50e309748723da3f725883539 dm thin: make get_first_thin use rcu-safe list first function
+5406cd14a535a09524b9760252cca2ffef83429f dm-ebs: don't set the flag DM_TARGET_PASSES_INTEGRITY
+08677e3146137e4083328650c3fce11d282009a0 sctp: sysctl: cookie_hmac_alg: avoid using current->nsproxy
+9c8b271dd75d86abeb3272f067594f80d50c5f5a sctp: sysctl: auth_enable: avoid using current->nsproxy
+87cf23fd328f4150093dd98dc8f5025ceee61edc drm/amd/display: Add check for granularity in dml ceil/floor helpers
 
---===============2269112771267859259==
+--===============7158964667620300415==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7f5bea4cdaf7-f373f1325e3f.txt
+Content-Disposition: attachment; filename=revlist-f373f1325e3f-e4c78ffbfd9c.txt
 
-703b22c01da86f61abc76e174e9d2f05c742225d ceph: give up on paths longer than PATH_MAX
-e1de3d8eb904fd6f12180674d63b7a7e1891b81f jbd2: flush filesystem device before updating tail sequence
-480cefc304dc36c1ec20733a1b86fb33e191493f dm array: fix releasing a faulty array block twice in dm_array_cursor_end
-18a91378e245a2b9a39f7fbe41743f8a8865c83d dm array: fix unreleased btree blocks on closing a faulty array cursor
-6f0089556a3b04f68c5eff212626c4701abf3de2 dm array: fix cursor index when skipping across block boundaries
-72c9e4076dcbf7b404589a551fafe0b75605a495 exfat: fix the infinite loop in exfat_readdir()
-d0e43ddb2e06f8f68d4ac2a736c16ba29ddcaf0a exfat: fix the infinite loop in __exfat_free_cluster()
-4b6be6b470547ea64e2a328a9d34d17bf0ad08cd ASoC: mediatek: disable buffer pre-allocation
-e29a0b1141d459c812a140fe22f522b78d066583 ieee802154: ca8210: Add missing check for kfifo_alloc() in ca8210_probe()
-b56bad18f7b4c947e9531a83993a9132a17fba40 net: 802: LLC+SNAP OID:PID lookup on start of skb data
-6bb19d28b1e8d73de275987a84e8a7984247a32a tcp/dccp: complete lockless accesses to sk->sk_max_ack_backlog
-8649ed299e0c5312b6cf67fea7f34564c6ac8505 tcp/dccp: allow a connection when sk_max_ack_backlog is zero
-a7285aa548727d127a18faa1a3f71b242e15796f net_sched: cls_flow: validate TCA_FLOW_RSHIFT attribute
-2305aa629ffe893ef5bfbe7dcf45bea4f4020b3b bnxt_en: Fix possible memory leak when hwrm_req_replace fails
-0f7cc827aa7376313028edb95c5be7a722d26527 cxgb4: Avoid removal of uninserted tid
-9a7354c63eaae0c7975dbb685318897fbf38c993 tls: Fix tls_sw_sendmsg error handling
-3fa21867b18f753a9d6667fafe837b416e14dd87 net: hns3: fix missing features due to dev->features configuration too early
-a899ce621cb04769a7dd5f387a783918e04f2598 net: hns3: Resolved the issue that the debugfs query result is inconsistent.
-aa812e42d86f7f266afce182710ec54a4a5f543c net: hns3: initialize reset_timer before hclgevf_misc_irq_init()
-f9da5647d51d1d46301d3226a3a58158a7ad6717 net: hns3: fix kernel crash when 1588 is sent on HIP08 devices
-3f93327e6828bd5e87d95d451588177720626b5e netfilter: nf_tables: imbalance in flowtable binding
-98b59f0f27c1c930f6dd13f66514286e758a97ec netfilter: conntrack: clamp maximum hashtable size to INT_MAX
-dd74cedda32d765a808a7cfcc342c6d1f4da6365 drm/mediatek: Add support for 180-degree rotation in the display driver
-b83f7eb28cf50d1ccc5d7054cd48ad686e54916f ksmbd: fix a missing return value check bug
-5685dfe5bbcc32eb52236992f66e17434da7b6a5 afs: Fix the maximum cell name length
-a8caec68f352cf83f49c2057a66bf6a1fd20ab84 dm thin: make get_first_thin use rcu-safe list first function
-e9fc85876194b52e9e8a10d5509ba212413d04de dm-ebs: don't set the flag DM_TARGET_PASSES_INTEGRITY
-5b12b821e7496fca9c6dde35cc1aa8a1fb16c323 sctp: sysctl: cookie_hmac_alg: avoid using current->nsproxy
-a24ccd1975a400889ec4b8b5d3a9fa65cc0db42f sctp: sysctl: rto_min/max: avoid using current->nsproxy
-caa357138b48f2de66ede963d244e27b0df2ecac sctp: sysctl: auth_enable: avoid using current->nsproxy
-9bfafbc9b3d33c9f0b5f46e72424429253aa56e2 sctp: sysctl: udp_port: avoid using current->nsproxy
-aeeb4cb9d20a32edc32c84fd25e93b1d58fc4b02 sctp: sysctl: plpmtud_probe_interval: avoid using current->nsproxy
-f373f1325e3fc717349c627746d395f09fec2a56 drm/amd/display: Add check for granularity in dml ceil/floor helpers
+d3773b42b8ce4bf24be75275976c3891e26bcf37 ceph: give up on paths longer than PATH_MAX
+13104d3d91c7a364c99621665cd3cb545ee8862d jbd2: flush filesystem device before updating tail sequence
+2ded3537b407b4f6cd1046b7fed38d970f8de69a dm array: fix releasing a faulty array block twice in dm_array_cursor_end
+378f3558e69b28f9a48b514a0988ca65d17cb581 dm array: fix unreleased btree blocks on closing a faulty array cursor
+2fd1dcf5ad15b5bc2776565c804bc6c873faeac1 dm array: fix cursor index when skipping across block boundaries
+eb49ef8aecfbcefb6ee3fd88eca358ad1a66568b exfat: fix the infinite loop in exfat_readdir()
+ae47230929d8c8824405f11ab58745d3aac9c0bc exfat: fix the infinite loop in __exfat_free_cluster()
+8ab29323c04b8599fa1fc4f1c5b625012838db0f ASoC: mediatek: disable buffer pre-allocation
+c6f6f1a5e2904290b0da2f09e24794232c790df4 ieee802154: ca8210: Add missing check for kfifo_alloc() in ca8210_probe()
+7e48748e9d0b663c6399b5f5833b79e5bd00393e net: 802: LLC+SNAP OID:PID lookup on start of skb data
+59d607aeb3ef66ea7bf1f28d2f786eb9ec5b865b tcp/dccp: complete lockless accesses to sk->sk_max_ack_backlog
+8f4b08033fe4564e04c977a095b8e1930128ede9 tcp/dccp: allow a connection when sk_max_ack_backlog is zero
+38f72e520dde05ff3881dd644ef31edee32bbea8 net_sched: cls_flow: validate TCA_FLOW_RSHIFT attribute
+c2e1a9875db13c83b3edbb32d6ecaf6e3c77da7b bnxt_en: Fix possible memory leak when hwrm_req_replace fails
+4030df65f74a004781f1d99fa19df099bb7f647f cxgb4: Avoid removal of uninserted tid
+ab37d748a75c208620477a021901ba712f113e48 tls: Fix tls_sw_sendmsg error handling
+d50d676c896ac64299337950b69f302301a28b9d net: hns3: fix missing features due to dev->features configuration too early
+e74dceee78b87bedd0e4bbb60cce0923e62afb0b net: hns3: Resolved the issue that the debugfs query result is inconsistent.
+c96a64301698906835347aafb36fbb8e5674eae9 net: hns3: initialize reset_timer before hclgevf_misc_irq_init()
+dd9f71e67d7ead1f48ebec95429cdfe72430e7cd net: hns3: fix kernel crash when 1588 is sent on HIP08 devices
+02724ea78b4fbb041cf6ff88de6918cbd3b238be netfilter: nf_tables: imbalance in flowtable binding
+28366c43e739f1d91462bf3377038d76de6be86e netfilter: conntrack: clamp maximum hashtable size to INT_MAX
+68bc62bad3a1cecbbeacc49358de5b1000587e5a drm/mediatek: Add support for 180-degree rotation in the display driver
+5f5772df0f94dcb54779fc7b3d8c42e1f976d72a ksmbd: fix a missing return value check bug
+2e3fdde8c33ccfdfd9407e622bb74a3571355f20 afs: Fix the maximum cell name length
+628aef77d70d3a3081a706efd5f4ec484d6b8fd9 dm thin: make get_first_thin use rcu-safe list first function
+4c9919be986a092cf52b02eba7e566c8d9e4b73e dm-ebs: don't set the flag DM_TARGET_PASSES_INTEGRITY
+9c5ee2fd27ac0e21e59d2259f36714f15f7a8ade sctp: sysctl: cookie_hmac_alg: avoid using current->nsproxy
+b7249c62a24a9274341519946decb90c25be7425 sctp: sysctl: rto_min/max: avoid using current->nsproxy
+10dcb19c7b26bc211ac5cdbb23978166dbaebefb sctp: sysctl: auth_enable: avoid using current->nsproxy
+50b37e28d2bca865cd402702c4f3c759383bd5fd sctp: sysctl: udp_port: avoid using current->nsproxy
+194f911877086e2f3228e8aaa932d8b6bbfa1bd7 sctp: sysctl: plpmtud_probe_interval: avoid using current->nsproxy
+e4c78ffbfd9ca2f42102866023420d496e7f9ca0 drm/amd/display: Add check for granularity in dml ceil/floor helpers
 
---===============2269112771267859259==
+--===============7158964667620300415==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ee5b2a594714-95ab7ca03c5f.txt
+Content-Disposition: attachment; filename=revlist-95ab7ca03c5f-1444c2523c70.txt
 
-97da81b260ec69e76d2e7f740d4b7a417ee337fa jbd2: flush filesystem device before updating tail sequence
-4e3d34873921b70094a29a1bb7ee996ad43b480f dm array: fix releasing a faulty array block twice in dm_array_cursor_end
-1f4179dc5bfe6e9eee9414065b124d9b0738a490 dm array: fix unreleased btree blocks on closing a faulty array cursor
-8eb9bdd28f8a327f51fa66f4122df95747285aa3 dm array: fix cursor index when skipping across block boundaries
-2a20d2146b25c611b03f420d424494d7dfe8fb37 ieee802154: ca8210: Add missing check for kfifo_alloc() in ca8210_probe()
-0e2a79e1bb0ce39a96bd3e58c32c14980bf51df4 net: 802: LLC+SNAP OID:PID lookup on start of skb data
-7c559df9e5e519dc39b05b6494513cadca8652cd tcp/dccp: complete lockless accesses to sk->sk_max_ack_backlog
-a9b876429d522b40a684bb175eea782f602c5faf tcp/dccp: allow a connection when sk_max_ack_backlog is zero
-6dec05cff8b5b1a91b9a8a1fb6e90d67f3bbb192 net_sched: cls_flow: validate TCA_FLOW_RSHIFT attribute
-a5b8c71ffb1b877255fde2c22a825db79ccd77fd tls: Fix tls_sw_sendmsg error handling
-1d971429fea93444929539587975187ac6e931b4 dm thin: make get_first_thin use rcu-safe list first function
-994a544fb027297ec8b8e6be18de5363f00885d6 sctp: sysctl: cookie_hmac_alg: avoid using current->nsproxy
-ac53a9b649653e46ea5872efc21237c0be15c7da sctp: sysctl: auth_enable: avoid using current->nsproxy
-95ab7ca03c5f8473063f0e4df0afc97bb46e2b32 drm/amd/display: Add check for granularity in dml ceil/floor helpers
+45eecde9a8153ddacdb4d89a36f60a310f14c5dc jbd2: flush filesystem device before updating tail sequence
+8347936f86377867d1f90ca297d58145b41eccb9 dm array: fix releasing a faulty array block twice in dm_array_cursor_end
+e60c0e2c47e8dec9fa1809a62cf80cf22ed67868 dm array: fix unreleased btree blocks on closing a faulty array cursor
+7d6c23883617b843b83740b2ba379cd41eb77be1 dm array: fix cursor index when skipping across block boundaries
+a02401d11ea5e00827487e0ef4546680bceaeaa5 ieee802154: ca8210: Add missing check for kfifo_alloc() in ca8210_probe()
+1b90ee2ec3cdea23cc12b70385cacc8d7cdc385c net: 802: LLC+SNAP OID:PID lookup on start of skb data
+97a745376100fbba0feb17430971c6dcd128903b tcp/dccp: complete lockless accesses to sk->sk_max_ack_backlog
+75c8956e548c386a104d2805ccc0e6bc652b01f0 tcp/dccp: allow a connection when sk_max_ack_backlog is zero
+3b578e46d611b2e024e2ae943daca4a45e37c179 net_sched: cls_flow: validate TCA_FLOW_RSHIFT attribute
+aaf9a09f297e398e79b4d2d097b157a038f39df1 tls: Fix tls_sw_sendmsg error handling
+5ef31169005db3a7ac4fb715c3e38305f9c8a1d3 dm thin: make get_first_thin use rcu-safe list first function
+5803942f613a635ab9a8c6867b77a61e2f2d3744 sctp: sysctl: cookie_hmac_alg: avoid using current->nsproxy
+71f8a9fd8fea9eeee829ab9ed5334f1f1bd5ff57 sctp: sysctl: auth_enable: avoid using current->nsproxy
+1444c2523c70ffe0c8efee471a1f0324a1715b35 drm/amd/display: Add check for granularity in dml ceil/floor helpers
 
---===============2269112771267859259==
+--===============7158964667620300415==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d8afa9f5656d-0a690c7e8c11.txt
+Content-Disposition: attachment; filename=revlist-0a690c7e8c11-f053f1d6f55d.txt
 
-303484cf98438ff17f906947996a28611161dd94 ceph: give up on paths longer than PATH_MAX
-88d7f83abd26e1e8672cbf7d151001640b110eef bpf, sockmap: Fix race between element replace and close()
-dc7fa617877057ed5bc0ea2174af9a59bdd1dc03 sched/task_stack: fix object_is_on_stack() for KASAN tagged pointers
-5aa045113cab9bedd25f93c4716f2c70ac16e719 jbd2: increase IO priority for writing revoke records
-a3fe7f8ba644f203b56bbcb313707a2b79b6cfe5 jbd2: flush filesystem device before updating tail sequence
-ba953469a564669f0fc46da21ef390607f78d55f dm array: fix releasing a faulty array block twice in dm_array_cursor_end
-e7127f642f93d17e87ffbcb7b67d68e7f14ac81f dm array: fix unreleased btree blocks on closing a faulty array cursor
-1b3cb143eed65267a2619e0da236a5bb69f7251a dm array: fix cursor index when skipping across block boundaries
-af56536875f74ac525fa9522cc48a1c67e1ada44 exfat: fix the infinite loop in exfat_readdir()
-8cb585bc973ea16838d8917e5abfbaa37e85a242 exfat: fix the infinite loop in __exfat_free_cluster()
-a638fc87b80576a7f01947c4e5a7fa952b92e21a scripts/sorttable: fix orc_sort_cmp() to maintain symmetry and transitivity
-a4230811e6e595226fb5924bb65559b6ea5a0880 ASoC: mediatek: disable buffer pre-allocation
-c1cf6485227c04d75a1b86a94c479c0d4b1d2b6b ieee802154: ca8210: Add missing check for kfifo_alloc() in ca8210_probe()
-f72dbde44f98a22e7941e9aaad375414f5da7260 net: 802: LLC+SNAP OID:PID lookup on start of skb data
-771cdfd350d94cbf12ed9341e5a92772b3d1884a tcp/dccp: complete lockless accesses to sk->sk_max_ack_backlog
-2de9ee0dbdd64afc1be5496b0ed0be05b1c2d4ce tcp/dccp: allow a connection when sk_max_ack_backlog is zero
-68791a83ff4518f872e10eea02ed4ff3bb281696 net_sched: cls_flow: validate TCA_FLOW_RSHIFT attribute
-30140729100c07f0331a62f7e96f7c6a3d3a8fb6 bnxt_en: Fix possible memory leak when hwrm_req_replace fails
-4a2f7babd07c74b06db87d805fec568a69dfcec9 cxgb4: Avoid removal of uninserted tid
-7e687b585a5c38db0ee1b3caa280bb8039fdf813 ice: fix incorrect PHY settings for 100 GB/s
-90ce074e3e2b36712fdba53054d790e8cea2f5a5 tls: Fix tls_sw_sendmsg error handling
-96b1c02241ca76c9526a968cad25a18d36916418 Bluetooth: hci_sync: Fix not setting Random Address when required
-e42269dab9efa3e4db72891510f7ef238286355e tcp: Annotate data-race around sk->sk_mark in tcp_v4_send_reset
-dcbc2cfaea605382d10d22ddb4a225a862efac3f net: hns3: fix missing features due to dev->features configuration too early
-5db352c55096e23716c38068e99bdc8811b4f86e net: hns3: Resolved the issue that the debugfs query result is inconsistent.
-c27ec23190bde7dec663f1b8d070cf5863cc9194 net: hns3: initialize reset_timer before hclgevf_misc_irq_init()
-beee6014ee12fa8d2fd6901ac5e2c34689d20ad6 net: hns3: fix kernel crash when 1588 is sent on HIP08 devices
-a56df5039a75296ab0740f7e75f5a238ad484a82 netfilter: nf_tables: imbalance in flowtable binding
-aeacdc6d5441a1ad0d622af592803b2f56f3f2e7 netfilter: conntrack: clamp maximum hashtable size to INT_MAX
-183490350c8d646bd9aa6f661984bc6bf96e8872 sched: sch_cake: add bounds checks to host bulk flow fairness counts
-33f86b07eea3d1805892b34ee4e88935500e2a67 net/mlx5: Fix variable not being completed when function returns
-06a66f8cc67908ddfef52eb7e4362be892bf6304 drm/mediatek: stop selecting foreign drivers
-c76bf53167396828e64098108f51e373e20ca1a5 drm/mediatek: Fix YCbCr422 color format issue for DP
-aaf054c40f0bd28fcf3f7863d674a24e826f9e76 drm/mediatek: Fix mode valid issue for dp
-514d29e09ec5479280a153218df5643500dcb6b2 drm/mediatek: Add return value check when reading DPCD
-577d05dcac50675c7ef7a34f300f24ebf5cf3cd1 ksmbd: fix a missing return value check bug
-9809d458f0ef55c5d8a51c62e2c66abaf097d64c afs: Fix the maximum cell name length
-1e7f826d771376bdf792a0d09aeeab05d985a75a ksmbd: fix unexpectedly changed path in ksmbd_vfs_kern_path_locked
-a43981d8476bbc549495ac002cafdee2cd600fd0 cpuidle: riscv-sbi: fix device node release in early exit of for_each_possible_cpu
-38e74c7a7667db97ac5230b0d04283484f90cf8d dm thin: make get_first_thin use rcu-safe list first function
-7d65d20b3b8f582fe1bff0020d213914af207456 dm-ebs: don't set the flag DM_TARGET_PASSES_INTEGRITY
-4f4d5bc45abada4c971105c3d556c07e5850ce86 sctp: sysctl: cookie_hmac_alg: avoid using current->nsproxy
-07f3b88021def7e363188c2cb1f3696e30c8c0f3 sctp: sysctl: rto_min/max: avoid using current->nsproxy
-d5ca49e3534b6f6b87b7e88230665b97122c2757 sctp: sysctl: auth_enable: avoid using current->nsproxy
-967ea317d2f2c9fca049a244da8b8d058a4d63f1 sctp: sysctl: udp_port: avoid using current->nsproxy
-50ca528a45c1b3236049f3d73ae25ca15316c03c sctp: sysctl: plpmtud_probe_interval: avoid using current->nsproxy
-0a690c7e8c1140cf62da364e0e8dddc39aae3413 drm/amd/display: Add check for granularity in dml ceil/floor helpers
+ca19554fa00eff75d8bd3ab5bc5ad265eb7aae11 ceph: give up on paths longer than PATH_MAX
+5bcf333729960f6d3d488926e72b498ecdb5ea11 bpf, sockmap: Fix race between element replace and close()
+1389389c00bda6f4b5ec02aaf8c7b6ce059ddaa9 sched/task_stack: fix object_is_on_stack() for KASAN tagged pointers
+def77246fe3eaff050f128e88423e253d4120c2c jbd2: increase IO priority for writing revoke records
+192e76cbeba0e6cf433d023679d4581dad6ac57f jbd2: flush filesystem device before updating tail sequence
+e96ad2fc1d088ac5acb0fad4242b517fe7c09002 dm array: fix releasing a faulty array block twice in dm_array_cursor_end
+e59c1a735438391fb7f4873dc6ad5bc16895985a dm array: fix unreleased btree blocks on closing a faulty array cursor
+8e047867a1fe97459b9d1c78e8c539de4380d1db dm array: fix cursor index when skipping across block boundaries
+0882653a485ade58e926cb83582363d6cbc533bc exfat: fix the infinite loop in exfat_readdir()
+37f0f547ea38c9aa877325940de4a2538558f72d exfat: fix the infinite loop in __exfat_free_cluster()
+2627b62b044ba8d40dc7ee446bea4f1e896118f1 scripts/sorttable: fix orc_sort_cmp() to maintain symmetry and transitivity
+10742ec873a559175073484c9e3e3440de10b141 ASoC: mediatek: disable buffer pre-allocation
+d9e45db9eb9ccc3ce957366d60c51008e68f9e57 ieee802154: ca8210: Add missing check for kfifo_alloc() in ca8210_probe()
+b2f0f92be4d13f96ccc7aea00bfa69d956d97417 net: 802: LLC+SNAP OID:PID lookup on start of skb data
+f4108b45d3d3502ad055f0bf1396734a719440ad tcp/dccp: complete lockless accesses to sk->sk_max_ack_backlog
+8ce877d667c430dc4b36e9098aa131b84035f0ba tcp/dccp: allow a connection when sk_max_ack_backlog is zero
+78a8424571a814b1d499b9c795cefc358f5d0877 net_sched: cls_flow: validate TCA_FLOW_RSHIFT attribute
+317b40b824c4b6aec4856844a43b5045a0e70fd1 bnxt_en: Fix possible memory leak when hwrm_req_replace fails
+1d0d632e05259c10aa635ef71953542b4027e289 cxgb4: Avoid removal of uninserted tid
+795f0ca7fc1be203ea82e583f0ec8453d44a4db6 ice: fix incorrect PHY settings for 100 GB/s
+6a395ffc2c429df6d02f605d03430bd8693ae870 tls: Fix tls_sw_sendmsg error handling
+1b17f5b99592cac0642d93126bad0521689c9754 Bluetooth: hci_sync: Fix not setting Random Address when required
+5cef97e54576c999dfd83bd8931df341e1d9b4db tcp: Annotate data-race around sk->sk_mark in tcp_v4_send_reset
+328e3ef4290423411f64785505f165cf1c482e5b net: hns3: fix missing features due to dev->features configuration too early
+7e892dab6088014906586b2948b7ddc7ce42b2ac net: hns3: Resolved the issue that the debugfs query result is inconsistent.
+dda4c91a147758fa1eca0543e736945cda358bf1 net: hns3: initialize reset_timer before hclgevf_misc_irq_init()
+86e398cbecd3cb42f28e6bea427f1d0aed15254d net: hns3: fix kernel crash when 1588 is sent on HIP08 devices
+39da8a859726274b39b484e9b40769500d15b75b netfilter: nf_tables: imbalance in flowtable binding
+93f41aa571b941bca3386415a3e6d4c1a83b50df netfilter: conntrack: clamp maximum hashtable size to INT_MAX
+736a385e79378e7cd6e39cdeb1f62529d52409c5 sched: sch_cake: add bounds checks to host bulk flow fairness counts
+5b39fd296a4d390d672b01844d76af890bd9ccd3 net/mlx5: Fix variable not being completed when function returns
+018a486edbfe3bff0054e2182c49fef7c1827322 drm/mediatek: stop selecting foreign drivers
+14cfdaef2b01a001f2a9dbf09281a2ed7311e695 drm/mediatek: Fix YCbCr422 color format issue for DP
+1e7a559d92ff6f40a45ee901249e1a39ef010d7c drm/mediatek: Fix mode valid issue for dp
+16ff1e24014d37e1f90d8a6f64493cbc8d3a4533 drm/mediatek: Add return value check when reading DPCD
+a8a10599ecf2c69eafba5ce59f07f4025945c099 ksmbd: fix a missing return value check bug
+1b780d1ce69a9b58223126dd66981358f922f6f1 afs: Fix the maximum cell name length
+d8543a2e70dd2d34558967cd7e7f63f266816aa1 ksmbd: fix unexpectedly changed path in ksmbd_vfs_kern_path_locked
+fec520526aa61a0f6b52d50f64f1b4f96c823f0f cpuidle: riscv-sbi: fix device node release in early exit of for_each_possible_cpu
+99528becd8116eea5b2b965ddd54a6bc7e694e0d dm thin: make get_first_thin use rcu-safe list first function
+2ec8bb99542a68e24afe90043e17c7edda2fb15d dm-ebs: don't set the flag DM_TARGET_PASSES_INTEGRITY
+70d8bfebeda17021ebd5858b297605ffec5e5522 sctp: sysctl: cookie_hmac_alg: avoid using current->nsproxy
+d396a70e07b3afd8c618ad3c5ec2d49892538e6a sctp: sysctl: rto_min/max: avoid using current->nsproxy
+f08df24368afcd87609487c3a4136524110266b0 sctp: sysctl: auth_enable: avoid using current->nsproxy
+e58dc228ee43fb34fd283fead3ccfcf10be233ad sctp: sysctl: udp_port: avoid using current->nsproxy
+5389a6a636a86e0dc5eb2a80643a129f09ecea4b sctp: sysctl: plpmtud_probe_interval: avoid using current->nsproxy
+f053f1d6f55dccf5c684ad7df0bf4e019e038e4d drm/amd/display: Add check for granularity in dml ceil/floor helpers
 
---===============2269112771267859259==
+--===============7158964667620300415==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a3f9be3270a9-a38a051645f3.txt
+Content-Disposition: attachment; filename=revlist-a38a051645f3-3cf4f506881e.txt
 
-3af9b22f76930dd426043c3adb77f49423f4d726 jbd2: increase IO priority for writing revoke records
-49c2f52e01b5383c76779d366bc5233a6fb92624 jbd2: flush filesystem device before updating tail sequence
-7dc534759a9e68e6f904135efa59182f0247d5a1 fs/writeback: convert wbc_account_cgroup_owner to take a folio
-4224201f1af6b95ef013324f0723f1a75f27d8e1 iomap: pass byte granular end position to iomap_add_to_ioend
-c080452a892cc449757848baf2d1536409f65998 iomap: fix zero padding data issue in concurrent append writes
-f8c64315788e61e708b92504eacd98a703f9a102 dm array: fix releasing a faulty array block twice in dm_array_cursor_end
-c635e6c27007dbecc3efa087e76930fce5a9675b dm array: fix unreleased btree blocks on closing a faulty array cursor
-b2ddf047e9c3d5d2a09055cb2a69597332e5061b dm array: fix cursor index when skipping across block boundaries
-4a7f3d24a68747d79a049a80e4472c3376fe4ec1 netfs: Fix enomem handling in buffered reads
-58faff18d4eb398a2cb5a531698ad1f50c4f5666 nfs: Fix oops in nfs_netfs_init_request() when copying to cache
-ae271fd72465b9644f6c5de8d33d771526ab2dd2 netfs: Fix missing barriers by using clear_and_wake_up_bit()
-26610f8662712b3519b746c40871bbbef70cc246 netfs: Fix ceph copy to cache on write-begin
-e4b0e7f200464d5e3630eec474a4602bb46dec36 netfs: Fix the (non-)cancellation of copy when cache is temporarily disabled
-18e8dca145b9c51979a7493787c626ea11179bda netfs: Fix is-caching check in read-retry
-e696f9ecb1befd604f94dcb3db80e5cef090b27f exfat: fix the infinite loop in exfat_readdir()
-3e47bc161a305614b1d33e7e8cdeb5d5e2508305 exfat: fix the new buffer was not zeroed before writing
-a6d65e7f2cccc9919273701f1cc72cf9a1f150a9 exfat: fix the infinite loop in __exfat_free_cluster()
-545a3cbddaf95e9dbe693a3c6597aafa435ef329 fuse: respect FOPEN_KEEP_CACHE on opendir
-15ccfa8897319cd2a4978a6facf4691281294c95 ovl: pass realinode to ovl_encode_real_fh() instead of realdentry
-abfd98b359cfa56c541c2c4d4c014a0e78e57d1b ovl: support encoding fid from inode with no alias
-e0e44ea52f00211229e1421256bf1d8ed6c5c90e ASoC: rt722: add delay time to wait for the calibration procedure
-c9f216510c7f8aecb9acfa5b6d9f12c145638104 ASoC: mediatek: disable buffer pre-allocation
-8d44a1549a909ea0d9b5e7da6e5f9f14d1ec83b4 selftests/alsa: Fix circular dependency involving global-timer
-a0b45f6b51d61d41316b9013e7a7bad311c9cd75 ieee802154: ca8210: Add missing check for kfifo_alloc() in ca8210_probe()
-ffd4e4ccd601fb64ae9874196e8a14e5bc7df715 net: 802: LLC+SNAP OID:PID lookup on start of skb data
-8f9bb2d46cdb0193b9489595cf468760c2844feb tcp/dccp: allow a connection when sk_max_ack_backlog is zero
-f5a85799c5b5ee33daa304f3f86596bf096a2636 net_sched: cls_flow: validate TCA_FLOW_RSHIFT attribute
-d1934ba8eb0cdb113a625871be70eb1f00fc0904 net: libwx: fix firmware mailbox abnormal return
-ec8a11fd523c6ab88dea7dccffbe1ec2f9ed4514 btrfs: avoid NULL pointer dereference if no valid extent tree
-f0c35c4d91c4aa4fdfe19782cbec94a5460ed8ad pds_core: limit loop over fw name list
-36076503b1ea41eb98e3e918e6460cd53f52a17b bnxt_en: Fix possible memory leak when hwrm_req_replace fails
-5d005289eba4786e934ac4ccfe50c1acba7d7d47 bnxt_en: Fix DIM shutdown
-1974d7ede0f118457c180448d83bdd6d6654742e cxgb4: Avoid removal of uninserted tid
-726a1bfb43f6b42c9fd6bef881af9368b730774d net: don't dump Tx and uninitialized NAPIs
-a448a6c375f32a73cd0adc2bb64dd8a6cc635fa8 ice: fix max values for dpll pin phase adjust
-8a8c2ab7a6c2d0fceaeb605753ad15481b66576d ice: fix incorrect PHY settings for 100 GB/s
-98f4546756d7a0c0677e05c88c8283fdc4f88189 igc: return early when failing to read EECD register
-cea809f1dd72940e336cddf3e969fb15aa4baa5a tls: Fix tls_sw_sendmsg error handling
-a2ee02c7aca715bb82165308d66d9a715350b05e ipvlan: Fix use-after-free in ipvlan_get_iflink().
-9180a38960dfb90912bef3cee81030b40ad5e094 eth: gve: use appropriate helper to set xdp_features
-4767fa6a034dc39a796ddb73ec70dfcd8ad67c88 Bluetooth: hci_sync: Fix not setting Random Address when required
-ff93e7fd7bb26f62377e6f63983177e882e1653a Bluetooth: MGMT: Fix Add Device to responding before completing
-36d8704b3728df99e9f0caa0e1d4a07a2bd612c1 Bluetooth: btnxpuart: Fix driver sending truncated data
-d718b3d89b7de7abcd087d3a08349fb03e98f1f8 Bluetooth: btmtk: Fix failed to send func ctrl for MediaTek devices.
-cf1ef7cc874e6c995b7740e0604b92b6443b77bb tcp: Annotate data-race around sk->sk_mark in tcp_v4_send_reset
-41e93ad0f0c3ef55f08971b9e9162001b9dc8fac net: hns3: fixed reset failure issues caused by the incorrect reset type
-d35e3d018fc4ffc53c1d5b8c3e2a2e0837d2c1f6 net: hns3: fix missing features due to dev->features configuration too early
-839929fb33e1f13033be7657b49a4a36214673d5 net: hns3: Resolved the issue that the debugfs query result is inconsistent.
-af177143975be4f6fd0f35fe0ab8e1aef0c41528 net: hns3: don't auto enable misc vector
-da55de55bdbc33436d29ff52e9806b586a588a45 net: hns3: initialize reset_timer before hclgevf_misc_irq_init()
-cafaf5398320058d1117ced0a93c0c768f3adc78 net: hns3: fixed hclge_fetch_pf_reg accesses bar space out of bounds issue
-30e48a788596552d3c44c8866e5fcf22efb4649f net: hns3: fix kernel crash when 1588 is sent on HIP08 devices
-b4aca6156a8e482067e8e8150bf7c929e95e7c4c mctp i3c: fix MCTP I3C driver multi-thread issue
-e994e5304cd3b794b8df23c40c0e9b5a9e8d39b3 netfilter: nf_tables: imbalance in flowtable binding
-a0af86819a1f9ef0151198207b98329df4a1c6e0 netfilter: conntrack: clamp maximum hashtable size to INT_MAX
-bcbf7b0ff02b160b36bcdf5ad3c7341726bb902e sched: sch_cake: add bounds checks to host bulk flow fairness counts
-774b8ea74a25458c72880a335faa2f4665e87944 net: stmmac: dwmac-tegra: Read iommu stream id from device tree
-7db78bd75ee11a32a99a7fa67cbbadad55a6ff93 rtase: Fix a check for error in rtase_alloc_msix()
-25540ef2c0bb80127449940ee0650208077265b8 net/mlx5: Fix variable not being completed when function returns
-74ae7a4af4074d51dd551f52e8213275d21deccb drm/mediatek: Set private->all_drm_private[i]->drm to NULL if mtk_drm_bind returns err
-36350b5fc8908db9ca417a5648860461b3fb0006 drm/mediatek: Move mtk_crtc_finish_page_flip() to ddp_cmdq_cb()
-f3ee5d3ee32075c56b5e51520ed55dc8f0065aa0 drm/mediatek: Add support for 180-degree rotation in the display driver
-71a72d871063f63b210fe5621ac2c72798c5564c drm/mediatek: stop selecting foreign drivers
-f7bd6f9a548a9be1d5ad250dca7e4d41e3fa7545 drm/mediatek: Fix YCbCr422 color format issue for DP
-ed86d136d85647e3ee4d8805306cdd064288b734 drm/mediatek: Fix mode valid issue for dp
-d4adfeadd918e2b430507a0060b9e0f6c3bbf1ab drm/mediatek: mtk_dsi: Add registers to pdata to fix MT8186/MT8188
-6d72281ed6bf6a79d0c2ab6cdf15f8de12db000c gpio: virtuser: fix missing lookup table cleanups
-bb81795a086be8c74b769225a98722c74de49f76 gpio: virtuser: fix handling of multiple conn_ids in lookup table
-4c0ab4d8ed66afb7aa25fb34e8243708abd94caf drm/mediatek: Add return value check when reading DPCD
-7849a6a459f4dd0e380a06755aa06f57940205d8 ksmbd: fix a missing return value check bug
-59333421b3aa457efe0feb3c7d7f7b5a054ad533 afs: Fix the maximum cell name length
-7c0303536b88dc123980f3d5320ba4dd9f332093 platform/x86/amd/pmc: Only disable IRQ1 wakeup where i8042 actually enabled it
-146b2a05c748621cbf1ea4a5980b31bd754e5f41 platform/x86: intel/pmc: Fix ioremap() of bad address
-37e04d9a82d5390fb2b3a19867817026c543dc85 ksmbd: fix unexpectedly changed path in ksmbd_vfs_kern_path_locked
-cc40b332ac151e9c5cb9c44df08a2b40a2d72714 riscv: module: remove relocation_head rel_entry member allocation
-0830da009c62a3b4c10e81fb71793bb55f589869 cpuidle: riscv-sbi: fix device node release in early exit of for_each_possible_cpu
-73e618bb6692f479ca746bd9fae90800ba8cd932 riscv: mm: Fix the out of bound issue of vmemmap address
-3ad741ff2ae102d5c0ccaca959f16392732e11f0 riscv: stacktrace: fix backtracing through exceptions
-669c01b901923a9255a261578d7b61f9004cab7b riscv: use local label names instead of global ones in assembly
-d86fafd09655fb2763e022d73a82723d4d52aa14 drm/xe: Fix tlb invalidation when wedging
-5bbdc97ea14a6cead58530c4a0957cc091c3a08c netfs: Fix kernel async DIO
-387f994d53d240f4b4b13c6ac3cdbdfe6fa06121 netfs: Fix read-retry for fs with no ->prepare_read()
-3f94137009464a2e65741f3e528974b901b9c5f4 drivers/perf: riscv: Fix Platform firmware event data
-a38a051645f36b08ec5b48474c66294923966155 drivers/perf: riscv: Return error for default case
+50f9abe84fdea267fd3edcd91ba7ce3f17896c44 jbd2: increase IO priority for writing revoke records
+a0e261549b864cf785240605dcf95ffb5dc8c7ac jbd2: flush filesystem device before updating tail sequence
+5a43b7db105e95ba42ec3b024136c50513997a03 fs/writeback: convert wbc_account_cgroup_owner to take a folio
+b50d83b7e4be486f3e3b84a3f27854fc846602de iomap: pass byte granular end position to iomap_add_to_ioend
+4da887b5fe7a2fe0989c2cc1f613f82461ca4add iomap: fix zero padding data issue in concurrent append writes
+0710d1fd34fdd83394a889e8c49969e1847d7207 dm array: fix releasing a faulty array block twice in dm_array_cursor_end
+84e55b8c1659b300e095a4cfe062ca4bd23c62e2 dm array: fix unreleased btree blocks on closing a faulty array cursor
+30cb79fa7d4b503e677f75dad8dc4865acf85969 dm array: fix cursor index when skipping across block boundaries
+4f6d5eef849996cb011b13d864be795b6aab40da netfs: Fix enomem handling in buffered reads
+ca8ee37156572457740896f98027a697cdbe7fae nfs: Fix oops in nfs_netfs_init_request() when copying to cache
+4d000ddd91393f1e1155372713095836435fe20e netfs: Fix missing barriers by using clear_and_wake_up_bit()
+6df18412dd96e032f14d1ab46a0ef7b08c78ee42 netfs: Fix ceph copy to cache on write-begin
+e3841daafec3bf7a520957ff04981845a822f2e2 netfs: Fix the (non-)cancellation of copy when cache is temporarily disabled
+05c2bbb64df24e8de7e64f8b01c7a91c540df715 netfs: Fix is-caching check in read-retry
+4a2f57f65014a13b9be012211ba01a6c58312bcf exfat: fix the infinite loop in exfat_readdir()
+614b4953be93208ad1d59ec0e4bd85b3a296aa00 exfat: fix the new buffer was not zeroed before writing
+45212e08436591ca7feae35b515997f61acb9a90 exfat: fix the infinite loop in __exfat_free_cluster()
+b7c1daf80f39c03a016c7705bce24aacd0ea20d3 fuse: respect FOPEN_KEEP_CACHE on opendir
+057f54a250e05aaca6ce05b3a82bdfaad78394f1 ovl: pass realinode to ovl_encode_real_fh() instead of realdentry
+bfb5091bb1cc6a267c46a53df4619c9c8150c644 ovl: support encoding fid from inode with no alias
+25ded005243a7eaad98fe2c640f7eefebfbeda2f ASoC: rt722: add delay time to wait for the calibration procedure
+577e4094bd5ec89b63d285d3afc61e3f147962f0 ASoC: mediatek: disable buffer pre-allocation
+03d2df5188722eedd1394e683b1d132166056bcb selftests/alsa: Fix circular dependency involving global-timer
+e6cff5bab06f62db3020a70319b1ef348c5a1990 ieee802154: ca8210: Add missing check for kfifo_alloc() in ca8210_probe()
+e8f375d57b5fd577bcb714133dd4e3ad349d7d8b net: 802: LLC+SNAP OID:PID lookup on start of skb data
+edd2876a05233c80aaf01597f7af3dc91374eef6 tcp/dccp: allow a connection when sk_max_ack_backlog is zero
+9a0416a44dc6c7c27c260856eefa8029f9c37bb0 net_sched: cls_flow: validate TCA_FLOW_RSHIFT attribute
+a8a4245165af918165ea6e5fabc7c1e877c36dfc net: libwx: fix firmware mailbox abnormal return
+cfe5faa7e93f4cb46872884ee84f8555da26365b btrfs: avoid NULL pointer dereference if no valid extent tree
+39f59cec366bd1f1205e8d66a61afcfffe938c85 pds_core: limit loop over fw name list
+5591b10e8b6d6b2217e70ab0164c7284bf8d0bef bnxt_en: Fix possible memory leak when hwrm_req_replace fails
+66c82c00c66170871c0eb0e725abdf85d7b473d6 bnxt_en: Fix DIM shutdown
+5198342584c1db7888c614c270c2041015ec52fb cxgb4: Avoid removal of uninserted tid
+26cee40fd66cfe6f87a5945c85712cddda9ff985 net: don't dump Tx and uninitialized NAPIs
+5ace6a646dc4380e4046e2ddf65d9001f012a79e ice: fix max values for dpll pin phase adjust
+73b02587657f58fc80fab454c25477f7f872cde9 ice: fix incorrect PHY settings for 100 GB/s
+5663229f378499ab7be948862dff0969e96cf620 igc: return early when failing to read EECD register
+75ce72f17ae7e23b0f2b69253ac6c392d1564616 tls: Fix tls_sw_sendmsg error handling
+df2fc1e36a792c27ba6152afdf0c52cb8898b2af ipvlan: Fix use-after-free in ipvlan_get_iflink().
+9d631967f127db2237eb914c74e14f5f35175fb6 eth: gve: use appropriate helper to set xdp_features
+718eff198c34ce527be68dd2c275412c0ce5f94c Bluetooth: hci_sync: Fix not setting Random Address when required
+9ef6784aaf31d5200db065677278d91ed7df20af Bluetooth: MGMT: Fix Add Device to responding before completing
+ccf7fd714e02e4fe31a23a1da48761d57a3f3b83 Bluetooth: btnxpuart: Fix driver sending truncated data
+571f4eba328ce2e9346cfd6f7421f4a7bb9d786a Bluetooth: btmtk: Fix failed to send func ctrl for MediaTek devices.
+b00263f1f6d4192b49f2bd15d4ecd19735c78e15 tcp: Annotate data-race around sk->sk_mark in tcp_v4_send_reset
+8edfa3b1392dd4cde792e814521806d99b399bb2 net: hns3: fixed reset failure issues caused by the incorrect reset type
+f190969dbcfc1e6e96018f07945b617590508f18 net: hns3: fix missing features due to dev->features configuration too early
+9d263495697d4b18647eca1e64e97bc1a40c5c89 net: hns3: Resolved the issue that the debugfs query result is inconsistent.
+650d89b4776c86eb5d6f99c0abdb38a019bee8d4 net: hns3: don't auto enable misc vector
+50031f4674d6bfaf74816c897b9fd77b7e0ca6fa net: hns3: initialize reset_timer before hclgevf_misc_irq_init()
+6a325ac2bc7b6de56ea625be13c9f04b31c1c4a1 net: hns3: fixed hclge_fetch_pf_reg accesses bar space out of bounds issue
+ce2131c44e575c40634bd78c640179ed0c3922bb net: hns3: fix kernel crash when 1588 is sent on HIP08 devices
+b55c5ec73300b3b41eb0fa8c81ae2747cdbc01c3 mctp i3c: fix MCTP I3C driver multi-thread issue
+a3c0d4035cc56ec58f48ba862a78c10a10e69d9d netfilter: nf_tables: imbalance in flowtable binding
+1589fc5a55f2a96787a7379521cae9c847fb47a1 netfilter: conntrack: clamp maximum hashtable size to INT_MAX
+83b391cdcce098b2a60501c06500db6fcfb38d6b sched: sch_cake: add bounds checks to host bulk flow fairness counts
+2565db6a41359e9139ea7bb1c61ac70960fc907f net: stmmac: dwmac-tegra: Read iommu stream id from device tree
+975af0b0deef1da79c7dcd393670b4d002df8f61 rtase: Fix a check for error in rtase_alloc_msix()
+07132aeddcaf59feff5198c1ecd4c3def839449e net/mlx5: Fix variable not being completed when function returns
+37a68eb329d9dc29a34366454e1c86799415f41a drm/mediatek: Set private->all_drm_private[i]->drm to NULL if mtk_drm_bind returns err
+16156296a952056c52f08dd72318a9f149f78ff3 drm/mediatek: Move mtk_crtc_finish_page_flip() to ddp_cmdq_cb()
+cceb99b49f9c3b51b30c42407395a6714e67882d drm/mediatek: Add support for 180-degree rotation in the display driver
+da8183b31c7f92a9840046facd337506ee060976 drm/mediatek: stop selecting foreign drivers
+9ee45e2830080a310cf47f9d084747131e97f66b drm/mediatek: Fix YCbCr422 color format issue for DP
+6a28305ac4572c6e3da001913aa1d0779542bf6d drm/mediatek: Fix mode valid issue for dp
+6318120203880dd67be8c83114322cc6c61818e2 drm/mediatek: mtk_dsi: Add registers to pdata to fix MT8186/MT8188
+b26cc1126fdfff16d02cd2f4ac04b60b4d172b40 gpio: virtuser: fix missing lookup table cleanups
+77a4bea61b5a7968bd7332b7f20197ff5d2c46e4 gpio: virtuser: fix handling of multiple conn_ids in lookup table
+468c77325937d8341b43cce61c9d2a23aadd815a drm/mediatek: Add return value check when reading DPCD
+717c71d74d4381359495684cee9f0cf7543a610e ksmbd: fix a missing return value check bug
+b12dfc072c2899df3740f4042d611da6f0157f90 afs: Fix the maximum cell name length
+7c4da7c55a426fccb2e5e044a232a6ba9750f859 platform/x86/amd/pmc: Only disable IRQ1 wakeup where i8042 actually enabled it
+e9e5b781c7bc89ddfc5c6472ad37345da93c07f2 platform/x86: intel/pmc: Fix ioremap() of bad address
+551a151953147743721a3f4343acdc949969d0a8 ksmbd: fix unexpectedly changed path in ksmbd_vfs_kern_path_locked
+3202bfcfa9c685cae138d4667892c285a94d853a riscv: module: remove relocation_head rel_entry member allocation
+47e242f50731c6987c225da77eb42289c7f673ed cpuidle: riscv-sbi: fix device node release in early exit of for_each_possible_cpu
+304d2574bf98a3b9fb83ce55d2639717b08a27a2 riscv: mm: Fix the out of bound issue of vmemmap address
+8d61c4edd99739d43ebd52c8976d3fcde34a6bd5 riscv: stacktrace: fix backtracing through exceptions
+8a5a44e682920ae30a154b911353ef4ad19e3e9f riscv: use local label names instead of global ones in assembly
+04b9b9d6fafe2e16cf4e73dc8ac6ccf4ed23fccd drm/xe: Fix tlb invalidation when wedging
+29ad25a7bc0079954ce078215ce59c9ed560d3f4 netfs: Fix kernel async DIO
+e18a4336c75a5152af2453fb69e39ff4b20485bb netfs: Fix read-retry for fs with no ->prepare_read()
+9b8a0b04a74f0271d8e5f17f93d6cf7960fa3d0f drivers/perf: riscv: Fix Platform firmware event data
+d8094e18c6f2fceec072a99a6f6ef3649e8e86db drivers/perf: riscv: Return error for default case
+80201b2be84a349910e6574e75998328676ebc58 dm thin: make get_first_thin use rcu-safe list first function
+c38af8ab52cb8a81ea8955d99b218bea752e6cca scsi: ufs: qcom: Power off the PHY if it was already powered on in ufs_qcom_power_up_sequence()
+7e89eb98ae7b20ddc548e598b504bb49f3050b27 vfio/pci: Fallback huge faults for unaligned pfn
+afb569ef4a8a471e08e12f8b5ffd76faedcb2c8e fs: relax assertions on failure to encode file handles
+36c2b57e1c18a27ba9e137a59b563fadae7ae599 fs: fix is_mnt_ns_file()
+c473a3c584f35a6fad8f55279ff9b58e9b4ad85b dm-ebs: don't set the flag DM_TARGET_PASSES_INTEGRITY
+045a72e38aa008cf303c95f0f4437de2cb284c35 dm-verity FEC: Fix RS FEC repair for roots unaligned to block size (take 2)
+920a829acf9529ce77135afae6b7ec1e39f7ddf2 mptcp: sysctl: avail sched: remove write access
+fc2d78e27ff50beb16fceca75584625033dc5739 mptcp: sysctl: sched: avoid using current->nsproxy
+2ae74364c80a04cd8e427d3178a66f8436098ceb mptcp: sysctl: blackhole timeout: avoid using current->nsproxy
+d126a2cfc95f575b68e7eda676975b2dac07e37d sctp: sysctl: cookie_hmac_alg: avoid using current->nsproxy
+a6981f906d27970963281d7da1b5797edfc7ab52 sctp: sysctl: rto_min/max: avoid using current->nsproxy
+2a59ee0b31da83dbe8f2b47486f26e375d932540 sctp: sysctl: auth_enable: avoid using current->nsproxy
+3a80d06feab1cf3a1eadf2deb97c52e6093eac90 sctp: sysctl: udp_port: avoid using current->nsproxy
+376558022121310b102f43f62a15334dd1ae85f8 sctp: sysctl: plpmtud_probe_interval: avoid using current->nsproxy
+b49a02a9fc55a29f5f3ed91f6bd0d9b2cffbf06d rds: sysctl: rds_tcp_{rcv,snd}buf: avoid using current->nsproxy
+b0cb97c5eee52410b3ffb51824da29296d36ba0d ksmbd: Implement new SMB3 POSIX type
+f6165d9f35296c0fbd90885f12d3b0a44631475a btrfs: zlib: fix avail_in bytes for s390 zlib HW compression path
+1a616952923b4e925dc72300dedb0954058879d8 Revert "drm/mediatek: dsi: Correct calculation formula of PHY Timing"
+7dc590fde60aedacb95dbe723a5bda259a073b7b drm/amd/display: Remove unnecessary amdgpu_irq_get/put
+3cf4f506881e5fc4c93d99d45213d3ea60042a59 drm/amd/display: Add check for granularity in dml ceil/floor helpers
 
---===============2269112771267859259==
+--===============7158964667620300415==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-706b3b203f1e-a7c1e3c6728d.txt
+Content-Disposition: attachment; filename=revlist-a7c1e3c6728d-d53f727a608f.txt
 
-b9705e143c05778349f52f0ba809c9b3d7074687 memblock: make memblock_set_node() also warn about use of MAX_NUMNODES
-b32a8d4dc3b99b259f04bf112be4b2eb0ee16fae memblock: use numa_valid_node() helper to check for invalid node ID
-9a54d7c851788092077727b35cc2d1580062e2b9 jbd2: increase IO priority for writing revoke records
-792bdad0828401db1a3595592e247f85e5623573 jbd2: flush filesystem device before updating tail sequence
-49a19ae2eea3e489aa9980db3d8e2d4fdf9b4db6 dm array: fix releasing a faulty array block twice in dm_array_cursor_end
-242fdffa4f2747fd48834783a0f347ad9277ecf1 dm array: fix unreleased btree blocks on closing a faulty array cursor
-a9562a6baff436f6f245a2613722206be85c7396 dm array: fix cursor index when skipping across block boundaries
-de0702bb03f6189b63bf2489c0be83f37244bc0e exfat: fix the infinite loop in exfat_readdir()
-36b32efcc507df3d18b27f19ba6274634b34d58a exfat: fix the infinite loop in __exfat_free_cluster()
-7eac119d227fe299fe7835d1f047d808f2e3f650 ovl: do not encode lower fh with upper sb_writers held
-22677620fe933e325748d630702105a3c2bf4d54 ovl: pass realinode to ovl_encode_real_fh() instead of realdentry
-8306083bcf64133a4c7cc1172901ba3d6efc387d ovl: support encoding fid from inode with no alias
-c84fa9458a1d1b463545db3c7f4a75da9dd41c66 erofs: handle overlapped pclusters out of crafted images properly
-642224915c9b0afec385b1ae17790fd3e513721c erofs: fix PSI memstall accounting
-fffb1b97b3034a34f52055b9e872a56ef78ba17d ASoC: rt722: add delay time to wait for the calibration procedure
-55429e1523704cf1dc39cae1fcd81771462ccdb0 ASoC: mediatek: disable buffer pre-allocation
-c7353a2f20e1181aedbf45bc43b17b077aac6f8d selftests/alsa: Fix circular dependency involving global-timer
-f6740d09b477eafdd98bd0acb572336442b3442e ieee802154: ca8210: Add missing check for kfifo_alloc() in ca8210_probe()
-a8af3b0d00a150b33f1d7cefcb3865b581d5d3ac net: 802: LLC+SNAP OID:PID lookup on start of skb data
-bb10361a71f789fefdca7720aa30c39d1c98730f tcp/dccp: complete lockless accesses to sk->sk_max_ack_backlog
-25662af6d8d412d9561ede5bf1f83be3df343320 tcp/dccp: allow a connection when sk_max_ack_backlog is zero
-f89d46c12b5018032ee5ad0ef7263d82881422b0 net_sched: cls_flow: validate TCA_FLOW_RSHIFT attribute
-97f41778f3c2891ad51bb3b053bd0aaa4bf3bc8c net: libwx: fix firmware mailbox abnormal return
-3df1a01e6ad6802ee9f8b5675a94f5ca873b5cb9 btrfs: avoid NULL pointer dereference if no valid extent tree
-a37f04cde3e0c9e8c16de2c707272179ae2ab2a6 pds_core: limit loop over fw name list
-df0a924b810c778798ec43ec17c556750a4d67dd bnxt_en: Fix possible memory leak when hwrm_req_replace fails
-31ea3bdee8197a045baa8edef66342f88955eb42 cxgb4: Avoid removal of uninserted tid
-e8b55f2a8df555fd353c7894fac8cb19aca4c313 ice: fix incorrect PHY settings for 100 GB/s
-5356f5ca686528eadc1a30d248c92934e8dc7b93 igc: field get conversion
-fc1919b593ec31839bb8e04a2f4516f41a9a9dfb igc: return early when failing to read EECD register
-855df287cc2a34fb136bd73de5f16dcf94b0ed0a tls: Fix tls_sw_sendmsg error handling
-2083de58422cb7d066c8872fe25daa6944878bf3 ipvlan: Fix use-after-free in ipvlan_get_iflink().
-562cc752c3bd7aba1952e025fb8de10b88270ba9 eth: gve: use appropriate helper to set xdp_features
-59a90995b6c823d0d4adff7ecf2e123d888961bb Bluetooth: hci_sync: Fix not setting Random Address when required
-a5e5ead713dab439bd85c5d200f35079cb292963 Bluetooth: MGMT: Fix Add Device to responding before completing
-efd8eb611a393d50821d806bff19726b78c5eb03 Bluetooth: btnxpuart: Fix driver sending truncated data
-fdb30d9677679d22907aee1a3260ac0fde3dc2ca tcp: Annotate data-race around sk->sk_mark in tcp_v4_send_reset
-8a4d7a0a94fa5960409e67ad8f26a6242f3b7244 net: hns3: fix missing features due to dev->features configuration too early
-af2837a5bcaa3655b6016fd50a5e6ec09f96dd07 net: hns3: Resolved the issue that the debugfs query result is inconsistent.
-3ac510c2ff7c9fdc3ee6026fcb67923147166582 net: hns3: don't auto enable misc vector
-78cd68a607eaa21f17b9ab595d149fb1b5c7b283 net: hns3: initialize reset_timer before hclgevf_misc_irq_init()
-8b3f47b2b9bad53963325e06a749cc4c1df5e18f net: hns3: fixed hclge_fetch_pf_reg accesses bar space out of bounds issue
-58fc535451a761163f4dc88075653e02f9fde322 net: hns3: fix kernel crash when 1588 is sent on HIP08 devices
-4cebe74d7fd513bf831f74e85f016bdabd47d16a netfilter: nf_tables: imbalance in flowtable binding
-393e3d9d5452c22b5afc033e53018d5b365f8a55 netfilter: conntrack: clamp maximum hashtable size to INT_MAX
-ce38a8c2678f4037a2302ad50510717acb864a5c sched: sch_cake: add bounds checks to host bulk flow fairness counts
-0fd029c9a09be55f8963c64e895977bbc8e6c11f net: stmmac: dwmac-tegra: Read iommu stream id from device tree
-e93d241e21ba38465ca55a2c29e21de8defdbe72 net/mlx5: Fix variable not being completed when function returns
-f7528f35cb68b8bfb29d872110e62e2b2c86383e drm/mediatek: Set private->all_drm_private[i]->drm to NULL if mtk_drm_bind returns err
-37384eaf001be42d21123abf4e1d6b4ed42ef702 drm/mediatek: stop selecting foreign drivers
-989c7f208dc8a5dd847dbf30a3a0ce258b9ce0b9 drm/mediatek: Fix YCbCr422 color format issue for DP
-e45ce8a972196ea41cee9c70d81447fd566772cd drm/mediatek: Fix mode valid issue for dp
-c6a62dfab0fd708a5ebd51faaf05b2e785589497 drm/mediatek: Add return value check when reading DPCD
-7568382ef4234c339338bc770e3f4b4a9cd0b995 ksmbd: fix a missing return value check bug
-98adafb6faf830645f9bcd185cabc9e5795bf4b5 afs: Fix the maximum cell name length
-5ad3267d3410721b5ce8aef083e2de3acbb33801 platform/x86/amd/pmc: Only disable IRQ1 wakeup where i8042 actually enabled it
-dae5962535800796f95f8ba77824a750eb786887 ksmbd: fix unexpectedly changed path in ksmbd_vfs_kern_path_locked
-13dc8b1b41d6e5b9ef2950c11d6b5e423bc98296 cpuidle: riscv-sbi: fix device node release in early exit of for_each_possible_cpu
-2069f2f6a4f36ddeb024d1dbe993d16835bd74b2 riscv: mm: Fix the out of bound issue of vmemmap address
-79a4dd99a408c1f15ae2dd0088dcee15bf42bf67 dm thin: make get_first_thin use rcu-safe list first function
-90e0fb2bc2fd87b5fc7b49d397d64a8bd05c726a scsi: ufs: qcom: Power off the PHY if it was already powered on in ufs_qcom_power_up_sequence()
-ad459e8f27056a05854341584de1997e114a9012 dm-ebs: don't set the flag DM_TARGET_PASSES_INTEGRITY
-a4435ddea4141d86c1bd9ea9c235ac42fafac2ea mptcp: sysctl: sched: avoid using current->nsproxy
-a0a069dc3166f149c5b92dc82d5a7df7864634b8 sctp: sysctl: cookie_hmac_alg: avoid using current->nsproxy
-2498cf15691ed0905129ca92b2f637f653f5a72d sctp: sysctl: rto_min/max: avoid using current->nsproxy
-d15930e8a5cf0220f283ff3b483270cc660c4435 sctp: sysctl: auth_enable: avoid using current->nsproxy
-a3d270fca8c78706c3e79d8b3ecd962a79d71dfe sctp: sysctl: udp_port: avoid using current->nsproxy
-d5bf3513206f68f4a0833edb4ef0a9fea04b4604 sctp: sysctl: plpmtud_probe_interval: avoid using current->nsproxy
-962b18b36c9a2b7a9af388d5fab9bcd0162282f9 ksmbd: Implement new SMB3 POSIX type
-a7c1e3c6728db5302c7a048127d7aa8db5b65862 drm/amd/display: Add check for granularity in dml ceil/floor helpers
+9ac77b42bab7a0c5ac8b0c0e6f910c2891311804 memblock: make memblock_set_node() also warn about use of MAX_NUMNODES
+0d6b77872aa79cbc560a9160a015e0944b403b20 memblock: use numa_valid_node() helper to check for invalid node ID
+99b28a20ddd60457ba44bcfe5cbabfdd787bf301 jbd2: increase IO priority for writing revoke records
+51fa68354c000a0ece02437845306db44c424427 jbd2: flush filesystem device before updating tail sequence
+84a33efa3f8e7813c1d21fc5e8627ed972a73588 dm array: fix releasing a faulty array block twice in dm_array_cursor_end
+f566e31fbf8cd874d28a0b54d7681435c6da1c39 dm array: fix unreleased btree blocks on closing a faulty array cursor
+4a1aa77b90c144e4406f8383361943ec8d2afbbb dm array: fix cursor index when skipping across block boundaries
+f3c087602b8d53cfbf8080730357932fd704eab1 exfat: fix the infinite loop in exfat_readdir()
+a5ab6b655d0c1e73d276e2bd3aac2d73bff306cb exfat: fix the infinite loop in __exfat_free_cluster()
+3a891bae0df98864c0aed2f1c83c463b18c976ec ovl: do not encode lower fh with upper sb_writers held
+33b429a2213b1471c94905ddfbc2ab78d9087e17 ovl: pass realinode to ovl_encode_real_fh() instead of realdentry
+618a195506533e856b903514737feff4597fe606 ovl: support encoding fid from inode with no alias
+9bc6fa9e734034fba27afd843a7c2fa556b8b1ad erofs: handle overlapped pclusters out of crafted images properly
+78a4ef2a1be8d50d4b804c4f1d9d042b536553b5 erofs: fix PSI memstall accounting
+c04ca9c65383677b2cdf4507e839590f3676bd5e ASoC: rt722: add delay time to wait for the calibration procedure
+af7a4fb21e81209ef8111d69e096df6ce9153229 ASoC: mediatek: disable buffer pre-allocation
+da13cd3fe05e506d1d6a6743774d0513b54cb463 selftests/alsa: Fix circular dependency involving global-timer
+b5ab101f76eb0011286d7bc88e76b26fce8ea113 ieee802154: ca8210: Add missing check for kfifo_alloc() in ca8210_probe()
+ab10e6c8a5bb887a1e9e668dadba4b523708596f net: 802: LLC+SNAP OID:PID lookup on start of skb data
+9ecf14819b778bd9d3594160ecaa4ac116375781 tcp/dccp: complete lockless accesses to sk->sk_max_ack_backlog
+8c5588aca5b7fabb4123a2bc3bd9753b8b3361bf tcp/dccp: allow a connection when sk_max_ack_backlog is zero
+9806abbcb2e2c4adea9cc04312bd4aaa06b91ee4 net_sched: cls_flow: validate TCA_FLOW_RSHIFT attribute
+ff81d151096a63a96325cea9fedc5e6e14e8b8bc net: libwx: fix firmware mailbox abnormal return
+ca3695fb286b51d18458f856c01a87ae4b87d6e8 btrfs: avoid NULL pointer dereference if no valid extent tree
+82631108ef1a6ef963f015472e3734ede344d699 pds_core: limit loop over fw name list
+70ea91d90b186df24a88f662b8b41869ac67fd34 bnxt_en: Fix possible memory leak when hwrm_req_replace fails
+943435df966c47f10cb5d5206f97c0831eea5721 cxgb4: Avoid removal of uninserted tid
+2c7795899d2ea2a8a4a8d3fa410e515194f95df6 ice: fix incorrect PHY settings for 100 GB/s
+08d31308e53690346ee83135ae5775f526888f33 igc: field get conversion
+5b7eade64f0266aca714e78eefad8bcb9f2789d1 igc: return early when failing to read EECD register
+e72270cbabb258a6c8bf2ff65f866badfdf33832 tls: Fix tls_sw_sendmsg error handling
+abb5b250d0ad18d11b8bad0ed49c1ab20616b042 ipvlan: Fix use-after-free in ipvlan_get_iflink().
+f6ed9cf29d3033344c61f9d53d59f22db2ccd4b0 eth: gve: use appropriate helper to set xdp_features
+ed929856b103c09f2fa515abc40e25f864c648c8 Bluetooth: hci_sync: Fix not setting Random Address when required
+f5139d12976d410fcd77bc64592453a329564f2d Bluetooth: MGMT: Fix Add Device to responding before completing
+3d65476a6003f2ad6ca5020b9feebcd013963320 Bluetooth: btnxpuart: Fix driver sending truncated data
+189e7312a6082eabb89ff79cee909834dd78a048 tcp: Annotate data-race around sk->sk_mark in tcp_v4_send_reset
+cfe91e5337d39f25d944374939e9950a3d550b17 net: hns3: fix missing features due to dev->features configuration too early
+fa351dac540b27b6a4d7ed1d1f60e71e55f037d7 net: hns3: Resolved the issue that the debugfs query result is inconsistent.
+71959db34192bdd8119ddef5cc84af759b594833 net: hns3: don't auto enable misc vector
+4441cde3fa0d2567f04de0542a02c97deaed1068 net: hns3: initialize reset_timer before hclgevf_misc_irq_init()
+ca1a1df6ec8809857cb4695976ce83a84d7bde10 net: hns3: fixed hclge_fetch_pf_reg accesses bar space out of bounds issue
+a2cdf1d0076557918c63a1edd60bd1ff1ced0b11 net: hns3: fix kernel crash when 1588 is sent on HIP08 devices
+2ca6f381c5ea8052d5ed8b3d83dc944dc4ff9fcb netfilter: nf_tables: imbalance in flowtable binding
+c5472086fc8a54867c94419c8258ef811f319737 netfilter: conntrack: clamp maximum hashtable size to INT_MAX
+846864adc470107759041ca357addbafcc89366c sched: sch_cake: add bounds checks to host bulk flow fairness counts
+fcff753d81e172a3431349c3609746a05245424c net: stmmac: dwmac-tegra: Read iommu stream id from device tree
+c2c83adee9709257760a5a331d823a076281ef43 net/mlx5: Fix variable not being completed when function returns
+1170b2996b57b86bc37fbff4e3f3d92c367412c7 drm/mediatek: Set private->all_drm_private[i]->drm to NULL if mtk_drm_bind returns err
+1bffc9189223215e03c95c904ef30540925054cc drm/mediatek: stop selecting foreign drivers
+514a96d9db5df7e159e1d5f7f16bf86bd20cf607 drm/mediatek: Fix YCbCr422 color format issue for DP
+0007dfa413ac8970a0c9f6c30f4ee8ab7d030d07 drm/mediatek: Fix mode valid issue for dp
+81770ab5183bbcef4e2b2eeb1d7c988d06bbbd0b drm/mediatek: Add return value check when reading DPCD
+3c5f7cc6a9ae072766667477fe34154e3ab68f5b ksmbd: fix a missing return value check bug
+9ab9258bd3f0c73376397e20b634afbf5c2abbf6 afs: Fix the maximum cell name length
+8d10faa63d0675a3842dbffcdeec6f1d6c02fbd9 platform/x86/amd/pmc: Only disable IRQ1 wakeup where i8042 actually enabled it
+1825ebcd477568624f5938bb7df8861a26180240 ksmbd: fix unexpectedly changed path in ksmbd_vfs_kern_path_locked
+fd91e1d4421664dd5ecc9dbdd4cdcea1ab3e7c5f cpuidle: riscv-sbi: fix device node release in early exit of for_each_possible_cpu
+3d79f6141484a8f522ce71cc7951b97b692ae150 riscv: mm: Fix the out of bound issue of vmemmap address
+23d161369c7e5a7d638ce1b52d4f8642930d1c74 dm thin: make get_first_thin use rcu-safe list first function
+f1ace84b416007700c78047b8a387cfa225001e6 scsi: ufs: qcom: Power off the PHY if it was already powered on in ufs_qcom_power_up_sequence()
+bbe2e55fbded2eca5d593d00a7f09ede099606bd dm-ebs: don't set the flag DM_TARGET_PASSES_INTEGRITY
+d428dfcad30ca01fefa4693e8aa385e04508c56a mptcp: sysctl: sched: avoid using current->nsproxy
+c501813c7defaa58b34633c39021bffeba0b1f26 sctp: sysctl: cookie_hmac_alg: avoid using current->nsproxy
+40e40056509ccd7604410ae72eb35450d5ba91e9 sctp: sysctl: rto_min/max: avoid using current->nsproxy
+0c8acf216f37c1766fdd7b26c1f5219ed2ab54a7 sctp: sysctl: auth_enable: avoid using current->nsproxy
+f330545cca4e79f0476fdfb3348b37b32fd2a8d2 sctp: sysctl: udp_port: avoid using current->nsproxy
+a3b4456fe6e5fa069c32a3d0dc8d26593b3392d2 sctp: sysctl: plpmtud_probe_interval: avoid using current->nsproxy
+bb6e8182cceaf46a839fac1f63b3f7f696b5e313 ksmbd: Implement new SMB3 POSIX type
+d53f727a608fb1972ae55fed88626356dd432094 drm/amd/display: Add check for granularity in dml ceil/floor helpers
 
---===============2269112771267859259==--
+--===============7158964667620300415==--
