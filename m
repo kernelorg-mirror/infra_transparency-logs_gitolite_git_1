@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
-Date: Sat, 11 Jan 2025 16:50:34 -0000
-Message-Id: <173661423416.866103.10002774774787585834@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Sat, 11 Jan 2025 17:10:38 -0000
+Message-Id: <173661543875.881758.13482469757036659622@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linus-next
-user: sashal
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/linus-next
-    old: 611fbeb44a777e5ab54ab3127ec85f72147911d8
-    new: 2c082b62aeb5e818d9e9588253fc7b73fc5ab81b
+  - ref: refs/tags/qcom-arm32-for-6.14
+    old: 0000000000000000000000000000000000000000
+    new: 123044040840ec2277b7ad4701f24a59e5ed52d9
