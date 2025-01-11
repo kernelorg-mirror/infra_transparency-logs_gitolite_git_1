@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1846566182679374309=="
+Content-Type: multipart/mixed; boundary="===============8703637312170593959=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 11 Jan 2025 16:04:25 -0000
-Message-Id: <173661146506.823869.4596094517645860578@gitolite.kernel.org>
+Date: Sat, 11 Jan 2025 16:04:44 -0000
+Message-Id: <173661148499.824636.17805282211184836389@gitolite.kernel.org>
 
---===============1846566182679374309==
+--===============8703637312170593959==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,43 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 5fef77838fd12e8e65f6f54c12f092d1634d7041
-    new: 11b9403fb722e5790307f981866402c923c59f86
-    log: revlist-5fef77838fd1-11b9403fb722.txt
+    old: 11b9403fb722e5790307f981866402c923c59f86
+    new: d313ff87009f7da78e773a83c3b984ee774c0f7c
+    log: revlist-11b9403fb722-d313ff87009f.txt
+  - ref: refs/heads/tip/urgent
+    old: a58567dffeefc11b45cdd1f01838144175b03ac8
+    new: 18dd4d09c0eca9c0a189dd196d14aaa2372745fc
+    log: revlist-a58567dffeef-18dd4d09c0ec.txt
 
---===============1846566182679374309==
+--===============8703637312170593959==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5fef77838fd1-11b9403fb722.txt
+Content-Disposition: attachment; filename=revlist-11b9403fb722-d313ff87009f.txt
+
+4b2c7b7c9a76988504bfaac17f59ac5718105d61 Merge branch into tip/master: 'perf/urgent'
+9353d01a099d97d420745dcc5c27e087684ab800 Merge branch into tip/master: 'sched/urgent'
+18dd4d09c0eca9c0a189dd196d14aaa2372745fc Merge branch into tip/master: 'x86/urgent'
+54312797a3d8dfd564bd84d07ff54204f12bef9a Merge branch into tip/master: 'x86/merge'
+d2652c8fa17bbee96a44ae501912eafa05992e35 Merge branch into tip/master: 'ras/merge'
+2d7c58ef93a5021579d2cc181faec00ba47b115a Merge branch into tip/master: 'irq/core'
+bffa1e504f37077aaafd8cd893719bbd54088c6e Merge branch into tip/master: 'locking/core'
+8d020ac092581823a59c5ce8c25dabee92b1463a Merge branch into tip/master: 'objtool/core'
+40c78513bc6f5fb7e177eadeb01a7dc6b85e5f98 Merge branch into tip/master: 'perf/core'
+11e33113b2966fe62000fba899324afec811f75d Merge branch into tip/master: 'sched/core'
+818118ffcc98fde5ac01ff4bd459b6ee8dd39ccf Merge branch into tip/master: 'x86/bugs'
+ab543be3ffc657fe4c34aa019015bf1c24ec14d1 Merge branch into tip/master: 'x86/cache'
+3f080995e43e9ca90861ce1cf5b8e894e8261814 Merge branch into tip/master: 'x86/cleanups'
+a80e1791563832c08525ecc838352d70deabd949 Merge branch into tip/master: 'x86/cpu'
+39269531a722ad9339e7f860298f5b4cfbefa90b Merge branch into tip/master: 'x86/microcode'
+44383c12d5106ddcc5477820cfe88d5c431e2801 Merge branch into tip/master: 'x86/mm'
+d313ff87009f7da78e773a83c3b984ee774c0f7c Merge branch into tip/master: 'x86/tdx'
+
+--===============8703637312170593959==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-a58567dffeef-18dd4d09c0ec.txt
 
 eb1dd15fb26d9ad85204f444ef03f29f9049eb1e cgroup/cpuset: Remove stale text
 9b496a8bbed9cc292b0dfd796f38ec58b6d0375f cgroup/cpuset: Prevent leakage of isolated CPUs into sched domains
@@ -66,11 +94,6 @@ b84e1cd22f8a8c03b7b1051372560c7017c8be92 drm/xe/dg1: Fix power gate sequence.
 66d4709abcf85369b23554cfb4d43e09bb5da703 Merge tag 'amd-drm-fixes-6.13-2025-01-09' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
 85bf89f2684e354b692b3d684f72b62376f5ff66 Merge tag 'drm-xe-fixes-2025-01-09' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
 fddb4fd91a955636baa451fe82ad0266f55c7ede Merge tag 'mediatek-drm-fixes-20250104' of https://git.kernel.org/pub/scm/linux/kernel/git/chunkuang.hu/linux into drm-fixes
-a937f384c9da493e526ad896ef4e8054526d2941 cleanup, tags: Create tags for the cleanup primitives
-cb4ccc70344c3dc29a5d0045361a4f0959bc5a6b MAINTAINERS: Add static_call_inline.c to STATIC BRANCH/CALL
-3f710be02ea648001ba18fb2c9fa7765e743dec2 perf/x86/intel/uncore: Clean up func_id
-6d642735cdb6cdb814d2b6c81652caa53ce04842 perf/x86/intel/uncore: Support more units on Granite Rapids
-b709eb872e19a19607bbb6d2975bc264d59735cf perf: map pages in advance
 da30ba227c41762ac98e993a1453460450b3e642 workqueue: warn if delayed_work is queued to an offlined cpu.
 e0daef7de1acecdb64c1fa31abc06529abb98710 Merge tag 'drm-fixes-2025-01-11' of https://gitlab.freedesktop.org/drm/kernel
 a2a3374c47c428c0edb0bbc693638d4783f81e31 sched_ext: idle: Refresh idle masks during idle-to-idle transitions
@@ -80,8 +103,8 @@ da13af839228cc3ec51d9caabea9c0b411dc464a Merge tag 'thermal-6.13-rc7' of git://g
 58624e4bc876198a5dc41be1d7dd39e7c944b9c6 Merge tag 'cgroup-for-6.13-rc6-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
 2e3f3090bd8bf61633b36ae3b13d4a6e777f182a Merge tag 'sched_ext-for-6.13-rc6-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
 77a903cd8e5a91d120ee014c8f8eae74d6c5d0f6 MAINTAINERS: powerpc: Update my status
-f554dea37ae606394f0ea28ff00bba6a5ee92a48 Merge branch into tip/master: 'locking/core'
-3669db67972feaa1afbae020dc54ff65a9a387f9 Merge branch into tip/master: 'perf/core'
-11b9403fb722e5790307f981866402c923c59f86 Merge branch 'linus'
+4b2c7b7c9a76988504bfaac17f59ac5718105d61 Merge branch into tip/master: 'perf/urgent'
+9353d01a099d97d420745dcc5c27e087684ab800 Merge branch into tip/master: 'sched/urgent'
+18dd4d09c0eca9c0a189dd196d14aaa2372745fc Merge branch into tip/master: 'x86/urgent'
 
---===============1846566182679374309==--
+--===============8703637312170593959==--
