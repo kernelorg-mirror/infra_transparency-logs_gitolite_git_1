@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
-Date: Sat, 11 Jan 2025 15:39:26 -0000
-Message-Id: <173660996625.801630.6839116201484047550@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Sat, 11 Jan 2025 15:44:40 -0000
+Message-Id: <173661028091.806433.9035005451414176727@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mic/linux
-user: mic
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/next
-    old: b780f577c684cbace31d1c4a5f1eb308ee51722a
-    new: b104e811998f172125a01bf5174922ccc78a8107
+  - ref: refs/heads/main
+    old: ca7e7e55c30dbb2d7ba70cda6226fcfe19bb4de9
+    new: 3fa541c774a823b1420e356deb5b0452bedff277
     log: |
-         2a10ed1adaa7e7609618c858cd50bb77e43fffc9 landlock: Handle weird files
-         b104e811998f172125a01bf5174922ccc78a8107 landlock: Constify get_mode_access()
+         b3049665a5d0e6b411d1b10f78986a72862ec703 amdgpu: DMCUB updates for various AMDGPU ASICs
+         3fa541c774a823b1420e356deb5b0452bedff277 Merge branch 'amd-staging' into 'main'
          
