@@ -1,22 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Sun, 12 Jan 2025 08:58:20 -0000
-Message-Id: <173667230030.1622439.16071393060960200540@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8500910978585330397=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 12 Jan 2025 09:17:31 -0000
+Message-Id: <173667345130.1638069.17277158187379408006@gitolite.kernel.org>
+
+--===============8500910978585330397==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
-user: leon
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/mlx5-next
-    old: aeb3ec99026979287266e4b5a1194789c1488c1a
-    new: 6ca00ec47b70acb7a06cf5c79f6bec6074cef008
+  - ref: refs/heads/master
+    old: e361e91e140ea0257fcd2fd287a615d225a488da
+    new: bf0d4206e62a6e5260cc79744e96c845deb3ca1e
     log: |
-         387bef82d0b4afd4c7430b52c4971649a5cf3b06 net/mlx5: Update mlx5_ifc to support FEC for 200G per lane link modes
-         e2685ef5f56295249bf98bc6603d3c092fe0ce56 net/mlx5: Add support for MRTCQ register
-         df75ad562a6f9ae6add42d56e228aa973b421421 net/mlx5: SHAMPO: Introduce new SHAMPO specific HCA caps
-         6ca00ec47b70acb7a06cf5c79f6bec6074cef008 net/mlx5: Add nic_cap_reg and vhca_icm_ctrl registers
+         bf0d4206e62a6e5260cc79744e96c845deb3ca1e 5.4-stable patches
          
+
+--===============8500910978585330397==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736673480 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1736673449-b48c059f02bf27167ee51b4f43ef899e35a32b73
+
+e361e91e140ea0257fcd2fd287a615d225a488da bf0d4206e62a6e5260cc79744e96c845deb3ca1e refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeDiMgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+y9YQAMxUpHp1E2+osLADnytU
+QTApKXom1a3PbOQHwz5EK0l4xTiJBCTEKpLepVE9mEDjOU1VDGbub87OBzjALnHc
+ZXAtD5pioTNQrJHonzgwEK4ObnE3WizQ7ScPfil3aIZV5TNFq52NDFKkK64NvOC9
+QitPmFThUUIO6kE2RYbdMcHFlHLeK12tLiSSWxRuK3iQ2kXPXDF2tOrcpgAHQen6
+pUy892atvHmFwrbXchK3T67PDZ3APXLLWl0q9HNzWaRIH/RKbMv0oCJ+msMxOruy
+Ot7havpAInM7HJ7XuNTpeeE4xfVSCVqGMjFGpup73WOGuGHWi6RqYAh3HvFNBK8m
+QRyFg7GNBVZaTNJJOgiuBZz+q70shc422gZzcoggmD1KGxh6ZvMl7zUOxPtZOOmS
+SuFPBX2BzcqWvmBTlzXJ1aTen5ARZcnm1BT0zCLBXGA/NuqbccR5kIkVIx9EMCgy
+61dE5nxYbSx9eHVwuhVxYCkzZgvAMah61vicIcdlC0o8JBw8Ga8wnogiHJ5o+2ew
+kItGkGXUBgYKZ4NywTdvArgaW+k3x7DJCN3LKR3sn2C9mvmu1uCyUGTJQbvFV5k+
+q6CRsgDRW/W55Tih0O2JGzCPPiGPmLGUwEhFQcjn61bfe4gtvZ/SJAF38D8YIj9+
+yBD8tKkjouHsoqDmAQ4rvTFw
+=yTWN
+-----END PGP SIGNATURE-----
+
+--===============8500910978585330397==--
