@@ -1,53 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============5099012715080885549=="
+Content-Type: multipart/mixed; boundary="===============1248452286394709335=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sun, 12 Jan 2025 13:49:07 -0000
-Message-Id: <173668974713.1906474.2467495736163520001@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
+Date: Sun, 12 Jan 2025 13:50:55 -0000
+Message-Id: <173668985573.1909556.17877384893626465662@gitolite.kernel.org>
 
---===============5099012715080885549==
+--===============1248452286394709335==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/fs/xfs/xfstests-dev
+user: zlang
 changes:
-  - ref: refs/tags/tty-6.13-rc7
-    old: 0000000000000000000000000000000000000000
-    new: d0dfe026545b83b2a9226610b18f1971a29a25c0
+  - ref: refs/heads/for-next
+    old: 023070744cef1fde8a5b4fbd8fa134cd5098843e
+    new: dec8cfb46ba0f19d29d13412841f68ebf119a452
+    log: revlist-023070744cef-dec8cfb46ba0.txt
 
---===============5099012715080885549==
+--===============1248452286394709335==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-023070744cef-dec8cfb46ba0.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736689775 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1736689744-2b2d059143b073ea2ae16aff5a9747c5d0a5edad
+0a9d09ab51d9fb118ad367a6e9f2811acd0e7d48 common/rc: support f2fs in _mkfs_dev()
+faf877ed05a00e4eb3b6bc0ef738b95978143311 f2fs/008: test snapshot creation/deletion on lvm device
+248ebfc3d7e27ac63799909719c1fe9b311f184d fscrypt-crypt-util: add hardware KDF support
+91e779a8bed1fdd403191f2fe94cc286ec69428e common/encrypt: support hardware-wrapped key testing
+59e3354dd1f7a11b457fee3e529dedfba7134a9b generic: verify ciphertext with hardware-wrapped keys
+0b66f6efd669c39cf37b5069280e8d1e94ff627d xfs/032: try running on blocksize > pagesize filesystems
+9163a3fd9fa13e805df35011ce1348573e9b69c2 xfs/43[4-6]: implement impatient module reloading
+11ae4f7d0e88d2d2053800e1e9947acfa48206b1 fsstress: add support for RWF_DONTCACHE
+d6b9d8eff0767386b95bfd6b0c3dec2ae952a4b9 fsx: add support for RWF_DONTCACHE
+253bfc2dc92d1ae111a3be08d564915a04fea633 generic: add a partial pages zeroing out test
+e2da1194fb7d6ebca681c2e9321c03fe607fe7b2 common/rc: add ocfs2 supported timesptamp range
+2fe8d7ccc993f03d91c984736b4f2fdb9377d067 common/quota: filter out option projquota in _qmount_option for ocfs2
+1ba4f6f4bcd2aaef18e9549da89c3f0976f3fd01 configure: use pkg-config to find liburing
+b427797dc6465a8b8ec38743270ac5e84778d4c4 btrfs: add test for encoded reads
+7c7235962617cf74197246e81755656286c2f6db btrfs/326: update _fixed_by_kernel_commit
+dec8cfb46ba0f19d29d13412841f68ebf119a452 btrfs: test cycle mounting a filesystem right after enabling simple quotas
 
-0000000000000000000000000000000000000000 d0dfe026545b83b2a9226610b18f1971a29a25c0 refs/tags/tty-6.13-rc7
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeDyG8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cKsQAIPr1FOvPouWqMsQhLG2
-6bXBaNZiDUIsO0wsO4jZOmBFnaZPf01AVRt1lQnOJKFc09/IK6+CGTMR3F9pkcvo
-Z5pEIPwVPMuAnw90MgRyNaiVTy/XEkMFFk6nbzUPg9hiaY5TnBB1jN4VO9HK+KrK
-WX9iUkGdoji5x8EmdxPOOyQoqpEofKGiSO8dV75pY9ZEjjHgtNYT+v4xeTF4QDUx
-mvUKPnHIyvB7vT7qSucaQ7uuAF/gOYavnyM1fUiPBn39zKqEYc3PosnM3v8eNiVl
-JxvKh55WaaKYtcWCqm4p0uDp1rPuForkO/Nr0U9eHPM/UHLRkZDEzkphAY6sA1VS
-LWw1syVHMRgdJPUKyGLnSo8Dn/bubBAGorWSB5C4whgaYQWsLHn3/3cx2qDSEpeD
-TALwyjmvQZcHlbsOVXlr8JaD1lHokUVOIGv8Rjadc5BwGn0tKpFf5ntUQlY1ntR+
-RV6KkKYsdSb4IxcxPB3xoB7Ii45p2N4jnNG+vMbJYJx8Cg9nurDpmi2uvivxWchZ
-gHarQCUSyG/jvY+ZX6Xn4o88Bjz+MB0Lbh/S/V+fzV8Jxy7hah7Sa7Xdwon93GHe
-pVN9lLA38ODRRKhnlrVzEwNZ6mcMLccL3L/6rIKerJSsMzv3nQIdmwHxDcSRjHW3
-oISoFl/kmE4oRr1S2AICH11A
-=+iDL
------END PGP SIGNATURE-----
-
---===============5099012715080885549==--
+--===============1248452286394709335==--
