@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4683162156206477341=="
+Content-Type: multipart/mixed; boundary="===============5600958511950440620=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sun, 12 Jan 2025 12:48:09 -0000
-Message-Id: <173668608954.1856108.17859109422334411074@gitolite.kernel.org>
+Date: Sun, 12 Jan 2025 12:55:15 -0000
+Message-Id: <173668651570.1863217.1887210342962179158@gitolite.kernel.org>
 
---===============4683162156206477341==
+--===============5600958511950440620==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: b8ae08db7a317c988b28c3ffc45d81af36e8ae40
+  - ref: refs/heads/char-misc-next
+    old: e966eae72762ecfdbdb82627e2cda48845b9dd66
     new: 6d699ca165480fc3f637d8c3395e768c7de3a926
-    log: revlist-b8ae08db7a31-6d699ca16548.txt
+    log: revlist-e966eae72762-6d699ca16548.txt
 
---===============4683162156206477341==
+--===============5600958511950440620==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736686110 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736686544 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1736686080-088dd81920fe3fdbc150da962e504073e748da1b
+nonce 1736686514-8756d7f51a13b7de3f54d85f5f86a7513b7da71c
 
-b8ae08db7a317c988b28c3ffc45d81af36e8ae40 6d699ca165480fc3f637d8c3395e768c7de3a926 refs/heads/char-misc-testing
+e966eae72762ecfdbdb82627e2cda48845b9dd66 6d699ca165480fc3f637d8c3395e768c7de3a926 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeDuh4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5sYP/0XtZmFCY+diPTLpgD79
-OlhmRLwBCiMu6AEdOObxyKFF8PIxwlrXZtLv3NO+5h8yqQdkK2Lw/wjcq3IWVGiS
-edAqKdwNH3qAXaP31AmgdWk0VpLzUrDFIStkKjm3hIeCZZjhSJLVHtuFuef13WA1
-vDBYBlyeTEJI832obtMdcJ1C4YcJtv8rULpsQzF7Zws375bbaIV68lavOWILzumT
-lIxrsJUU/bSiIXrf2BKd3IfQFK+3wKFgOVsq2Dp1Hxdh6r+h3SNP/hLUU6lrQEBv
-sh/xtrR7iMSb2RDceyVM3wkQqyxzNqSkAarh7iMMHLy+CwrlsbS9G1eLo5TKSgjH
-dNDF4Rh+8lv5BvL3Zy65uyIWpw3Wb1i2g7FS8GwEK9KAn8zAPjnWYIfqOaY/qphH
-MAHHa9b1HWdVYrhGU2gv7AyU5Z6T7IOfrpnEqZt3ODPwgepOcApnzEfXa6PKtelI
-ks1oPEWPeUjqf2NKgAJTWWI9mIDt+n8WOm+5cHvsnnjWbt23Xy4VaBb42O8TrTgE
-NBH6uhiH+7JWPsyzqE1SRsRnsKx7TvkoDI+BvjCsG/+xGwovTnPfZGsEx2CVmj6c
-hXrTnAqYtZTll1jxcBG5oYYnRSQ783h0mWHoIYUVVULkQz116etVUaOny4OZBNkc
-JjiPjGT+5l8cvItJsX4hxgpO
-=wSdX
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeDu9EbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OQUP/jYHJug/j863sIutE+Qz
+xJ4KspatY+8N3qIDRmI5XJaDUcpVUfm27HabpMGRyXCBro838JVE0LaR4bvWrx4i
+IL40HkVJRKXzCKr3j/XPBlKqF9QhotcsKVGTBXF7IQX/SYi8HbhQypUgsyeW4TEo
+r42tTpH2doih0m3LIsOeODpd0y7pLjHi2KqQw3o15x5z5T/t1YV3RATqkzQxJm8q
+X61Mo8SUWnn+0A3yK5h80UyOwJ3qmm5CXYH5xzjMPWrMqNQr80NMjxk9bTcvpRy5
+pWcES/+8NY7WCMnClYiuEtWlRbRhWbbxLxHBoAxzYBJSc90/Evxtu28A7Kq6shaF
+GNpClQr4PJGo6oyafhqlWP+0HjxSTg1ixwjNNXhROUemRpeTBtxUEKIvOD20Ezbs
+VRnorlhvfWMhdLk2nHKekIm0duhvMAmShvhyRxuix1K3bQqY2OLTZShsMvB5rQsY
+HqOEBu2eYiN6zLz8ppkv+BMWxsv5XmObYS99ng5SRE1MSJhSM56zfSXackSSkvXj
+sVty+PAr1Sdj5QYucgjSQJlL6URZpRYNgOfSVX6xQs0On5e0bpiulZLPb1aIjJFM
+QZZtV+HxtH1pK7yGcEeNvBXM8l69wddY6YsU3fo9rlO0s/NHVMiQdMT/+gRgtaOb
+C8MirTlsmprjZsAyD1CPl/8K
+=5E7n
 -----END PGP SIGNATURE-----
 
---===============4683162156206477341==
+--===============5600958511950440620==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-b8ae08db7a31-6d699ca16548.txt
+Content-Disposition: attachment; filename=revlist-e966eae72762-6d699ca16548.txt
 
 6fbf150823a1ccb84eeb7c4f21e9cdc55693d462 iio: imu: adis16480: add devices to adis16480 driver
 2b1dc7f1402450fa681cefe133f85e939b501fa8 iio: imu: adis16480: add devices to adis16480 - docs
@@ -104,7 +104,16 @@ e895f2edfe4820b671c700ccc17be35b1de3d295 iio: core: fix doc reference to iio_pus
 c437190ceaaa68caa303e1fd8ab3654be580b1c4 iio: trigger: stm32-timer-trigger: Add check for clk_enable()
 582d732bf689dea68f002d4f05a0b9485326e8f0 iio: light: veml6030: add support for triggered buffer
 56f8c1759be90f139056a61328ffbf168cef895f iio: proximity: aw96103: Constify struct iio_info​
+91329cb0a8cb4a7c7bb5743a65a052c084225d86 extcon: realtek: fix NULL deref check in extcon_rtk_type_c_probe
+68c8448341e3e255c5e58a2206545a00f5129d6d Documentation: extcon: add documentation for Extcon subsystem
+7041ed0dde8319991b59003c414f0bda5192b041 extcon: Drop explicit initialization of struct i2c_device_id::driver_data to 0
 a8ec0b44c7c5116805f252da624264652be1de71 iio: kx022a: document new chip_info structure members
+c8ea5f41b4212fd6c76070bd9432f1bdec64f6b0 Coresight: Narrow down the matching range of tpdm
+5aec7c065fba0c56d6c1ea5d629395210f174be8 coresight: Drop atomics in connection refcounts
+d0a10da78cbfabcbc2eda87ac238bc03bb2b2c81 dt-bindings: arm: Add arm,static-trace-id for coresight dummy source
+fd9b7e8e9fbc23d69fa4accc881dea2cf13a2e2e coresight: Add support to get static id for system trace sources
+f7d7454607cf863cc860e201636117e242d45fe0 coresight: dummy: Add static trace id support for dummy source
+d4276259f3a57131291d879b53fc05863c6b59fa coresight: Fix dsb_mode_store() unsigned val is never less than zero
 a34dc289f89ecc4e967dfe6ec742aafdc5ae62f6 iio: adc: rzg2l_adc: Convert dev_err() to dev_err_probe()
 b010b104673013b0075c94b4f9ae2f990f8351e9 iio: adc: rzg2l_adc: Use devres helpers to request pre-deasserted reset controls
 89ee8174e8c8db0efc75b26f2307114b38d61354 iio: adc: rzg2l_adc: Simplify the runtime PM code
@@ -143,6 +152,10 @@ fc8f6300954966ca0c826d33ae6b4a4de1d8419a iio: adc: ad4000: Use device specific t
 c3948d09008085993eda43d687993f79b55aacda iio: adc: ad4000: Add support for PulSAR devices
 031bdc8aee01b7b298159eee541844d8bff4467d iio: adc: ad7173: add calibration support
 4d112ebd02d10faf202aa8335b06de0aca8b536b iio: adc: ad-sigma-delta: Document ABI for sigma delta adc
+2a0bc219272b7b83916b108b1ec8cc656275e21b dt-bindings: arm: qcom,coresight-static-replicator: Add property for source filtering
+62374ce1876be26b3f33575680e67ca69a59db54 coresight: Add a helper to check if a device is source
+ec9903d6cc34e61b77e609a0425e7a0a804fb95a coresight: Add support for trace filtering by source
+56e14a21cee4ea6074b956a9ff2e406de5ad6548 coresight-tpda: Optimize the function of reading element size
 a497ac9924bb6004532e54ac87eea710d49620b1 iio: accel: adxl345: add function to switch measuring mode
 4358b76480211199c7ce5cfc90963c2a465702fa dt-bindings: iio: pressure: bmp085: Add SPI interface
 e439c72499a06090fb1aaf627a5187cc30f9b571 iio: adc: ad_sigma_delta: Use `unsigned int` instead of plain `unsigned`
@@ -199,6 +212,8 @@ cf04212d1fe750c625bf853bf7dc84cdf7cc1e75 iio: accel: adxl345: add FIFO with wate
 f9eb0571811ecc91821690c55dbf3ecfc37a5e85 iio: accel: adxl345: complete the list of defines
 f5ab868af55ff58f7783d08d674bb373cb672210 iio: adc: ad7625: Add ending newlines to error messages
 577a66e2e634f712384c57a98f504c44ea4b47da iio: iio-mux: kzalloc instead of devm_kzalloc to ensure page alignment
+25e7eded884a5597d64b0f5c6d99706f1147019c Merge tag 'coresight-next-v6.14' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/coresight/linux into char-misc-next
+b8ae08db7a317c988b28c3ffc45d81af36e8ae40 Merge tag 'extcon-next-for-6.14' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/chanwoo/extcon into char-misc-next
 6d699ca165480fc3f637d8c3395e768c7de3a926 Merge tag 'iio-for-6.14a' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-next
 
---===============4683162156206477341==--
+--===============5600958511950440620==--
