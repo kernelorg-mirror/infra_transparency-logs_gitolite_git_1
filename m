@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7007197047042205969=="
+Content-Type: multipart/mixed; boundary="===============6812276493370230770=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sun, 12 Jan 2025 12:57:41 -0000
-Message-Id: <173668666166.1864447.5312167623646320351@gitolite.kernel.org>
+Date: Sun, 12 Jan 2025 12:58:13 -0000
+Message-Id: <173668669348.1864755.3543598415826836691@gitolite.kernel.org>
 
---===============7007197047042205969==
+--===============6812276493370230770==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,7 +16,7 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
+  - ref: refs/heads/char-misc-next
     old: 6d699ca165480fc3f637d8c3395e768c7de3a926
     new: 44cefdf1cc6d1b912eca6004012e587174e32eeb
     log: |
@@ -26,34 +26,34 @@ changes:
          44cefdf1cc6d1b912eca6004012e587174e32eeb Merge tag 'mhi-for-v6.14' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/mani/mhi into char-misc-next
          
 
---===============7007197047042205969==
+--===============6812276493370230770==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736686689 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736686722 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1736686658-93ca3fed31750ec4e503372749d67dbc879e9127
+nonce 1736686692-bf1b80017e831a21a3750a8c393ae1b4f1e841c6
 
-6d699ca165480fc3f637d8c3395e768c7de3a926 44cefdf1cc6d1b912eca6004012e587174e32eeb refs/heads/char-misc-testing
+6d699ca165480fc3f637d8c3395e768c7de3a926 44cefdf1cc6d1b912eca6004012e587174e32eeb refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeDvGEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bUYQAJbVLpbIEZANK2ORQy7U
-dL6I0EXjDZ3wksftEB41+IpdJ64Tn3AYWywSLDtPBMDdlHIIEok/XtaMXNK//50A
-Lbh7gpj54JlnAfeZcEY2+2D9dW8ukQM1TH0MZc7CkU7DCUhA1PfVHBkUqmfKx8DK
-Da2kovw4uvHrNHylFueqx+5BVPdo5o2PsJW8pDUS2sBO51PRGZtu8kviuJmcPOER
-sX3lAqQM4TPvEmhp86KQoyiOT/b3fmm9KHEhu3y3xkZQ1ok4dl44aVwIYSa222H8
-JfZkOJvY44YX4Y8iu9T0xCbVvqgqbCZeKzlu/AJ3MKYL1tmA7kHhaG6YTb44p3dI
-BoyMw1n2ySday8EpCRM4Cts52BfmSPAIH5owwVL4Ixq7kKQF7IH3Rvr0jo1UZX6O
-baEPS4m6yQU6EB5ayNqhd7GCC2V9aZWNbbQlN9E14C7YYvPcqaphnfBaAO8Q7eBx
-d3Kjhkjg+vxqsFtTIX79OMM3EP6kRhS4Xic1d+sLadLgg8fsW6enOupsbii/LeC/
-xtERPh51flArbOYjHUwJu5v7G9Y4LLF1uo5AnYU6+PTCHPSg770+PX5E53mjBP0e
-ck8I6NjIKGHfQQAUQEn0dC2AFLpj5Y4Ed9d7TWB8g185ejBV6ZCyZRrac+U09Gzk
-HMJl8iHwJyqS3I1h84QIJBOI
-=+Q3t
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeDvIIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7dgP/iJJmWjIseMwTUVlW04Y
+FZLAfxXPyH/OimItGQPB5QUlaLEfml7iJYAdtjrJaiWJoJjK79S6JlCHltBTlELA
+NzpWc8JcS6HKP43XXz78CFltp53IeGGmZvsCKYrEQuFL/FF+BXD4HsG7t16moM3o
+2EJWqZi1ShJ1Fgez44/a9dnmljzgxEIw1oGGXJXZk+LuwZH11l/6r10stGfYAP62
+QuH3wrEOlO+7Id+o7xXhfs1IEkL/EIYkuLgvj0V0zuKQsgiX0CMnoMAs+vUJWUJw
+yV7Bvan13TuFee3WVNX87hf2biCKv/fOD9hyZ+AVLBMjE37GjacRnNf76tHYroZ+
+TpqVAyP9PedY4dZsug/K9Ouj/S9RkNOJKHcQQf6sZDZf61DuoEA9uDXDhtK4jthd
+KIHAy2xJOCjy6Pq+qIKScUn3bpHouivEIIAJ3W9kUQC87DYPNiC6qIbsVIgQvwhk
+YQGK1n7yyDQOSBegOms4sxWr9Pahl2Oh64nPUhpXW/fGYQWCB1i+LTTwleysLDNA
+Wx214pPFUMsjYjyHn2bR0bnb769mBIA5TVyNSaFLd1tYTuw90Mlffc5KblCpeRpC
+3AKIgeY6tdURrmG7PGfbVx9I9RgVOAezPmyLehqSNMsj2aeVHFt1XlP4WsuaFv/I
+3Vl3yWonYbDdlD7sS77DG7R9
+=VzPk
 -----END PGP SIGNATURE-----
 
---===============7007197047042205969==--
+--===============6812276493370230770==--
