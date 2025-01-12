@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Sun, 12 Jan 2025 03:42:14 -0000
-Message-Id: <173665333406.1377804.13454072486360042357@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
+Date: Sun, 12 Jan 2025 04:10:56 -0000
+Message-Id: <173665505647.1400661.7947540574596338254@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: mhiramat
+repo: pub/scm/linux/kernel/git/mani/mhi
+user: mani
 changes:
-  - ref: refs/tags/probes-fixes-v6.13-rc6
+  - ref: refs/tags/mhi-for-v6.14
     old: 0000000000000000000000000000000000000000
-    new: 34f0f018d7a3ef1a99d316dd0f4854410f6cc8e7
+    new: 64c4a8006d8883c2553e0aaacc7c0e98a01ca0db
