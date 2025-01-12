@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Sun, 12 Jan 2025 23:12:03 -0000
-Message-Id: <173672352349.2352500.9288744332551501887@gitolite.kernel.org>
+Date: Sun, 12 Jan 2025 23:20:35 -0000
+Message-Id: <173672403565.2360043.2743535800234692816@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/abelloni/linux
 user: abelloni
 changes:
   - ref: refs/heads/rtc-next
-    old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    new: 8c28c4993f117e03130a51160229bde7ad388240
+    old: 8c28c4993f117e03130a51160229bde7ad388240
+    new: 09c4a610153286cef54d4f0c85398f4e32fc227e
     log: |
-         7158c61afdcff436d087a093b45f599bb8805434 rtc: RTC_DRV_SPEAR should not default to y when compile-testing
-         8c28c4993f117e03130a51160229bde7ad388240 rtc: use boolean values with device_init_wakeup()
+         09c4a610153286cef54d4f0c85398f4e32fc227e rtc: tps6594: Fix integer overflow on 32bit systems
          
