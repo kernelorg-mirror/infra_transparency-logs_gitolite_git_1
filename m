@@ -1,53 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============4502839471991530840=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sun, 12 Jan 2025 13:59:35 -0000
-Message-Id: <173669037580.1916057.18291137650220599431@gitolite.kernel.org>
-
---===============4502839471991530840==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Sun, 12 Jan 2025 14:00:18 -0000
+Message-Id: <173669041833.1918172.12021290592787110947@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: maz
 changes:
-  - ref: refs/tags/char-misc-6.13-rc7
-    old: 0000000000000000000000000000000000000000
-    new: ad5f17601c7f45e404e624a32981e00b412c55fd
-
---===============4502839471991530840==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736690403 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1736690373-90f6fbef69ef58f5feccb46a43aa5a4298a0514b
-
-0000000000000000000000000000000000000000 ad5f17601c7f45e404e624a32981e00b412c55fd refs/tags/char-misc-6.13-rc7
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeDyuMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++gUQAJb7P3HX4KbxeTrTM1g8
-4ZzpaG+01pii2n1XD+6aUoVK7f1vYGhlbAPpPdZnQvFaOFGsDs3qRvGRWKbPoKjg
-ByKp44zZBZ2zNqkK8oIVThvfgN7KZPmCkDrOzAMkFu3rvA34TeJDiXu+ptfR5F4q
-YlEN716e+TTzNw/9iZPWNZTHiJxG0NalvsU/2+3QO9QSXB1i7iM4bAITzElpYXVe
-7UkPOmziISuy2sYnptSR5zN9xcd/rOlbNTUPPZh3u49CImAQB309ZfV0WANsHk5o
-tmtj5vBGwc6D57BZ00Qa9zJ0z8mFfjrwuFmm74jFunchmYL9uZVeaS1uTS/6DpOY
-5CX0eTkfeo5dSs1BTkLcBKLwLRuHQVVPb8c9ygOIMU+ffef0Pnw/J3iV3vHz934E
-1ZF4KZJXKGAo8Ax+eOaB+I3Q4s2k6foifFRB7XqzfC65olyoa7L3Wqv/92W3FE+D
-lJlPpOg8nsuQzx5wOh640WIFSdWOir3RALUi3xc91UDUEdPP4UTCoFBOqzKo1yqL
-SA2Jiq5OFMAPS7OFvgUH43t4OlJ1CxrORiGZt1jwTfpiJCgDhWbxIXB1JlmTqMOe
-2IN414AtUkQoKFnn7fBrzO2dlBPyRoHzX8WzHuha7z65JJePe4D8qYNVNmkNkYen
-L076am6KYV7PMtqXmM21u7SI
-=Hwaa
------END PGP SIGNATURE-----
-
---===============4502839471991530840==--
+  - ref: refs/heads/next
+    old: 8fd113c6ba2490e4ce38447a596ab448eeb1a1f4
+    new: fc77862e06ca1c15e44b0c915da193bd8ed855bc
+    log: |
+         38138762faffeb923d9f49efbcc09884f1530786 tools: arm64: Update sysreg.h header files
+         c382ee674c8b5005798606267d660cf995218b18 arm64/sysreg/tools: Move TRFCR definitions to sysreg
+         a2b579c41fe9c295804abd167751f9fdc73c7006 coresight: trbe: Remove redundant disable call
+         a665e3bc88081dd65642d83fc22a1abdb6a901bc KVM: arm64: coresight: Give TRBE enabled state to KVM
+         054b88391bbe2e470c5484cb91622238314344fb KVM: arm64: Support trace filtering for guests
+         aaf69eff6cdb8613ff1f6a520821f769dc92f969 coresight: Pass guest TRFCR value to KVM
+         e8d06511ee70175a58be450a098ab1ce37fe9ecb Merge branch kvm-arm64/coresight-6.14 into kvmarm-master/next
+         fc77862e06ca1c15e44b0c915da193bd8ed855bc arm64/sysreg: Get rid of TRFCR_ELx SysregFields
+         
