@@ -1,26 +1,53 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Sun, 12 Jan 2025 14:00:18 -0000
-Message-Id: <173669041833.1918172.12021290592787110947@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2274841486380955525=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Sun, 12 Jan 2025 14:00:28 -0000
+Message-Id: <173669042824.1918399.17617662244581696181@gitolite.kernel.org>
+
+--===============2274841486380955525==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: maz
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: 8fd113c6ba2490e4ce38447a596ab448eeb1a1f4
-    new: fc77862e06ca1c15e44b0c915da193bd8ed855bc
-    log: |
-         38138762faffeb923d9f49efbcc09884f1530786 tools: arm64: Update sysreg.h header files
-         c382ee674c8b5005798606267d660cf995218b18 arm64/sysreg/tools: Move TRFCR definitions to sysreg
-         a2b579c41fe9c295804abd167751f9fdc73c7006 coresight: trbe: Remove redundant disable call
-         a665e3bc88081dd65642d83fc22a1abdb6a901bc KVM: arm64: coresight: Give TRBE enabled state to KVM
-         054b88391bbe2e470c5484cb91622238314344fb KVM: arm64: Support trace filtering for guests
-         aaf69eff6cdb8613ff1f6a520821f769dc92f969 coresight: Pass guest TRFCR value to KVM
-         e8d06511ee70175a58be450a098ab1ce37fe9ecb Merge branch kvm-arm64/coresight-6.14 into kvmarm-master/next
-         fc77862e06ca1c15e44b0c915da193bd8ed855bc arm64/sysreg: Get rid of TRFCR_ELx SysregFields
-         
+  - ref: refs/tags/driver-core-6.13-rc7
+    old: cc59df1a8f8db5ca431e3bba0b5f0ff85bd2af31
+    new: 8eded7205454bfa7ac571b52db8f3caaf27ffdd8
+
+--===============2274841486380955525==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736690456 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1736690425-36c65e64c0a025467adcaddee6742578612401b8
+
+cc59df1a8f8db5ca431e3bba0b5f0ff85bd2af31 8eded7205454bfa7ac571b52db8f3caaf27ffdd8 refs/tags/driver-core-6.13-rc7
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeDyxgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SF0P/A4rzuMpxw2bKc1IAIHn
+hZ/bVFt4q/g8x4awZz1x8VxCcE7x3+uJNnvpBek1SBNtEDtz9XZJ/ulAoBZJNLJ8
+9N9C+7941RQmwjSvTmj6IbeWz+qYK3i3xjXmla+zCuNGTOyJNtfgUUXcaFSyelXR
+69WGZ7lF1yyViMLBebcLmZQojUe/YaqRvI9h7YZiYiS77uJHVAQoOt/15m5j1LeI
+kvADOcDRm9LigojbMTQSF88FbyrZgoN/sczrAGPjtV22w1t21TXxPK2hEh3ZtBoJ
+QV+FQxXWxzM3pilaxIckOJpigi7szvhvnwFBDvSp34AAsDAQHKGbXBr7jEqF7hdd
+ZQYgRUIpib+sJAFayciCGjQRHtxX9i8DyUUla6/dJlzReU9I5xXri6TOvU8cn6q5
+/jG58+q27Oy60kzPFzlrjn5LDblan+cXOTqGul3Ul6gntt36c6qS8ZExP5YusvpU
+YZ4A6M9+IuGu/uoURC/f+hibjV1UfxaDOUtl9K/djdhSMKJaT3lIDF7MT9ZeQnrn
+YxsypujpjrRbd6pDhpad4i9UHp4cD5y4vF5RVKVnglCagMRKix2MRsT2vhM0q8MG
+ApVOYqpS1tD0OkuHpuucXFj6L1ccTBCgrGUo6+Gs6xlyyqK8f1cvf0LH3RIi3GV5
+ul8YgOf4NmW/GHVw7QeJHbQy
+=tB2f
+-----END PGP SIGNATURE-----
+
+--===============2274841486380955525==--
