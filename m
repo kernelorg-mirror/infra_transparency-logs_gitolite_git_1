@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2564056081836611213=="
+Content-Type: multipart/mixed; boundary="===============1621604693000452930=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 13 Jan 2025 05:10:07 -0000
-Message-Id: <173674500715.2642737.3585841782259901329@gitolite.kernel.org>
+Date: Mon, 13 Jan 2025 05:11:50 -0000
+Message-Id: <173674511039.2644027.3959568370203156253@gitolite.kernel.org>
 
---===============2564056081836611213==
+--===============1621604693000452930==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/rndis-removal
-    old: 5eeb59deed1b56b8979516e5cb313ae40d059a72
-    new: 0350d447113a0e77dafc2d7c7e26d0103a347b18
-    log: revlist-5eeb59deed1b-0350d447113a.txt
+  - ref: refs/heads/usb-testing
+    old: a59c366e11dcfd3fe51fa182f208e513f48ffaf5
+    new: 26a6cc10f19a058c24cbe3be2a4a10048e66d9c9
+    log: revlist-a59c366e11dc-26a6cc10f19a.txt
 
---===============2564056081836611213==
+--===============1621604693000452930==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736745032 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736745136 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1736745001-1b9be5621148ac7914e9c338daf08efe2068aa6a
+nonce 1736745105-66531b47ecbbdc50acdbc47e4e91628a54e6cb74
 
-5eeb59deed1b56b8979516e5cb313ae40d059a72 0350d447113a0e77dafc2d7c7e26d0103a347b18 refs/heads/rndis-removal
+a59c366e11dcfd3fe51fa182f208e513f48ffaf5 26a6cc10f19a058c24cbe3be2a4a10048e66d9c9 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeEoEgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qKgP/RHaV9bll/IFi1s0KGbP
-GkIz+cnwyufWYqVptgbMOXUABdNt0neaWzklBcgOaarG7Jeq+B/CZEqkMiZotEsf
-0FGhEX45ldpy9DRcte+ZkIeJsCUSO6BZbVRZ2I0wlbXH8AJni+FMsP9E583bYwiw
-IC8YOxMSuyYgHJ0KTJmkntnJMJbLC3FppXR80muW5U6WOibm+E6MMsZSne39yuX/
-frx61KT5zJUeW70cEmfEfZnXmytkE2fMjTYNTWwI/MEEvFIIi1t+kOkOjWimwUex
-uUBHMB3rZfGvQL+hiU/i5NRIdxwFXS48GaW5TdudjrqPAWHzUdm09OrkzsydTYDe
-Hq9yGa/nXDHnlgM5F6rBFFd3yNS0fI4MBgabUaq8Gs5bHhyUbHmQtOnSkdjgX2Au
-cjvepDO8fFBJmHWCRB9vBdMrFgJs0XHkt0vBcgK1rsMD40O2TiyM9/mbxd1i730P
-SbQGQrSoXKtziB/qQ6jIOda5IklPW3csTSTkWH9/pp4rqVYZq8ZJeCuPKmY04M81
-wg8oSq7wVYqVbnS3sIlE6lTGZKG1vjBZhQp28dTkEUA75RhjaCfmVpXSQ1XCohsG
-+tZNz9M6r24eOzYe1swXBCgnquRTdIeLnQdQKvkPqP89WDho32Ojdytkgc3rMaLj
-RT8Wqb+bLNop9CRlIli5AAv4
-=04+X
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeEoLAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iK8P/01761FYzSmEGYMNMR8s
+TpdiTeyWD1A8I3tUkBDEutFSD0nF4gXpW9B4XnlZmpkDap05OZk+eQ8ROEs1H/3T
+GcEgVF1wWDu84+vc+ut3vB194LHwJOdBmJ1sfZvpDCn30HB1q+MH1I+m9xfW5Fzy
+vng/sP/y64/vFcWb8M/yIrKEj/H65WmcY/NfBiFWITES3QUyGZsheZgOYoXgeuof
+POA2UEzH4vvmAtG7otcMXxj97I2FFO1/fRQ2c76BRiWjYVvO06NwXAI7i78wqvVC
+dwefLHK3p11gJyric1SA2K6NPy/MpB/z3gUHVLzWvz7kjGeThT30zuf/caZ7Ze0Z
+cobxBax+eYnmhclnxbYb60H1zJxhTHSUQEaDoX8Ypz2JB7DgxtI4c/+eHK7Z2YJk
+okh/1Gvv/5+kHOCx8akHjFtFuqMa1fJXGturIirZZbaEXgGHXB+zlRoR4xcMk+rE
+cf8nyyy1yPi1638AVazNkJ53bhUHe3RlPqLNR5ExcV98aEHp2AwsQYj3S5ECKxdY
+tWD0aW5u8sFPuHdk4WdPcN8QpueZxq0zWo4ZB+Keh9PcxKhwmbtWgNBV0hsQFqJC
+uvcEwwap4PPcU3n67SOJ6oDNlr0bYs3p2r+Oqh9eMRCpOcXX+WDPGJXHY3tTIo+G
+jW0UHCwRLyC5sC4xWwA1NPMD
+=IjCr
 -----END PGP SIGNATURE-----
 
---===============2564056081836611213==
+--===============1621604693000452930==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-5eeb59deed1b-0350d447113a.txt
+Content-Disposition: attachment; filename=revlist-a59c366e11dc-26a6cc10f19a.txt
 
 2c87309ea741341c6722efdf1fb3f50dd427c823 ieee802154: ca8210: Add missing check for kfifo_alloc() in ca8210_probe()
 eb09fbeb48709fe66c0d708aed81e910a577a30a mac802154: check local interfaces before deleting sdata list
@@ -739,6 +739,8 @@ be548645527a131a097fdc884b7fca40c8b86231 Merge tag 'for-linus' of git://git.kern
 083f9fac673dca75b355b6bc6c1b4bf4792ad949 Merge tag 'driver-core-6.13-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 0cbe10470b4473ab5e290f1d39033fdb6d6c69c9 Merge tag 'char-misc-6.13-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 5bc55a333a2f7316b58edc7573e8e893f7acb532 Linux 6.13-rc7
-0350d447113a0e77dafc2d7c7e26d0103a347b18 USB: disable all RNDIS protocol drivers
+2919c4a3d883361105185f9d2f658e1a4545a1a7 Merge 6.13-rc7 into usb-next
+2eb3da037c2c20fa30bc502bc092479b2a1aaae2 usb: typec: tcpm: set SRC_SEND_CAPABILITIES timeout to PD_T_SENDER_RESPONSE
+26a6cc10f19a058c24cbe3be2a4a10048e66d9c9 usb: phy: Remove API devm_usb_put_phy()
 
---===============2564056081836611213==--
+--===============1621604693000452930==--
