@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Mon, 13 Jan 2025 22:49:33 -0000
-Message-Id: <173680857397.3583136.1500749543411303021@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Mon, 13 Jan 2025 22:53:42 -0000
+Message-Id: <173680882200.3586573.452875851844400448@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/for-6.14/io_uring
-    old: 94d57442e56d2ad2ca20d096040b8ae6f216a921
-    new: a13030fd194c88961be4679f87a1380f1bda0ebe
+  - ref: refs/heads/next
+    old: ebb6ab1525b9bf19d57835f2e40d564b3e5c30ec
+    new: 76d20493a95e5b4b1779352ff7aaea2898f39366
     log: |
-         a13030fd194c88961be4679f87a1380f1bda0ebe io_uring: simplify the SQPOLL thread check when cancelling requests
-         
-  - ref: refs/heads/for-next
-    old: 1862ac15d1dc2fd517cc613c929fe2332b89e546
-    new: 2b122597b78e9b76b6709a49775ddbce2c1b6e80
-    log: |
-         a13030fd194c88961be4679f87a1380f1bda0ebe io_uring: simplify the SQPOLL thread check when cancelling requests
-         2b122597b78e9b76b6709a49775ddbce2c1b6e80 Merge branch 'for-6.14/io_uring' into for-next
+         534536a0268e188fb149960555d8bbb497939c4f selftests/ftrace: Fix to use remount when testing mount GID option
+         76d20493a95e5b4b1779352ff7aaea2898f39366 selftests/ftrace: Make uprobe test more robust against binary name
          
