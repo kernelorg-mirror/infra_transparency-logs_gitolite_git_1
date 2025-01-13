@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============8980333475432896221=="
+Content-Type: multipart/mixed; boundary="===============2804229561204253026=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 13 Jan 2025 16:43:48 -0000
-Message-Id: <173678662829.3275493.4808209566984103640@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 13 Jan 2025 16:43:51 -0000
+Message-Id: <173678663153.3275626.7509806921608161095@gitolite.kernel.org>
 
---===============8980333475432896221==
+--===============2804229561204253026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.13
+  - ref: refs/heads/spi-6.13
     old: 9d89551994a430b50c4fffcb1e617a057fa76e20
     new: 5bc55a333a2f7316b58edc7573e8e893f7acb532
     log: revlist-9d89551994a4-5bc55a333a2f.txt
-  - ref: refs/heads/for-6.14
+  - ref: refs/heads/spi-6.14
     old: fd85b6b7bc53409d0be82763419bdcdaa48f2c91
     new: 066855cfda50638616fcdcf4068948dc87c2f7a8
     log: |
@@ -28,32 +28,32 @@ changes:
          066855cfda50638616fcdcf4068948dc87c2f7a8 spi: ti-qspi: Use syscon_regmap_lookup_by_phandle_args
          
 
---===============8980333475432896221==
+--===============2804229561204253026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1736786656 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1736786625-dc770d1e0fb1396a3e94849f53126b8abb6fa5dc
+pusher C3F436CA30F5D8EB 1736786659 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1736786629-b11601663b5a8c1224ccad15cc3e97cb87a8cb35
 
-9d89551994a430b50c4fffcb1e617a057fa76e20 5bc55a333a2f7316b58edc7573e8e893f7acb532 refs/heads/for-6.13
-fd85b6b7bc53409d0be82763419bdcdaa48f2c91 066855cfda50638616fcdcf4068948dc87c2f7a8 refs/heads/for-6.14
+9d89551994a430b50c4fffcb1e617a057fa76e20 5bc55a333a2f7316b58edc7573e8e893f7acb532 refs/heads/spi-6.13
+fd85b6b7bc53409d0be82763419bdcdaa48f2c91 066855cfda50638616fcdcf4068948dc87c2f7a8 refs/heads/spi-6.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmeFQuAACgkQJNaLcl1U
-h9ABeQf/bh4wOxQou/vppySwDDA9TpWZhPNBPBKF5R81JDi+GkDnKsre+/jPP46e
-gaRXex92c0ulo7/w4UOWAkTIZZQ7+QZa9Da+CwLcCJVsk2aHy7VI6FeGp9fd5nCA
-Ns54FjSQcRfz499KGGJrE8aCHWYvq41UbyX17gkYSXmIw/DvihssqtdWDupWZlG1
-fho3LCbx5jytcCZ44+whRyzi7dzY2k52U30jeWCpiB53BMkLL+8pOBcDkoZM/X4I
-Tg/EfkdRCDxynpbC17mSmcaHBdkjo3azCii2dgFG3Hzx5OLg4MyZiRYY0eSHeQbx
-ao0yOsfn1sY+ZY8WBNO8wGKres3EeQ==
-=JuWX
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmeFQuMACgkQJNaLcl1U
+h9BwxQf+PnT1LEiBAmMpotxU42kzLjxIVoH3RloItL8BsleqigdUIXaodP4GYVaK
+9hLUDK5yYdR5jIn4Zdkg5DIBEgtGJSkKfs6conBmFkDkq63zqYZ+M6Ui/NlZiUrS
+6CPLlbrcd7m1utr17jX6I0UHZc2e2QAwrchM0Au9X7mijXJtYLri0sLFY4hheD8x
+CnpP9rMC+l+ZE9MD1GqqSzBBDYgMgjFsZ0KwAnat4hKHkGmS4haQSE1jgIPqF9PV
+swerALZVoPo8P6MSyUTy7+GiTE+Jehnl/fUxl/wXkwIHeHBRXUg7QBQUIZr3CqfJ
+nwtlikrzb/rfApPlpZlyRmqAWvSspw==
+=4/Wa
 -----END PGP SIGNATURE-----
 
---===============8980333475432896221==
+--===============2804229561204253026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -432,4 +432,4 @@ be548645527a131a097fdc884b7fca40c8b86231 Merge tag 'for-linus' of git://git.kern
 0cbe10470b4473ab5e290f1d39033fdb6d6c69c9 Merge tag 'char-misc-6.13-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 5bc55a333a2f7316b58edc7573e8e893f7acb532 Linux 6.13-rc7
 
---===============8980333475432896221==--
+--===============2804229561204253026==--
