@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5721838254815449455=="
+Content-Type: multipart/mixed; boundary="===============4204202041597965916=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 13 Jan 2025 05:45:26 -0000
-Message-Id: <173674712605.2675912.17209441452275966871@gitolite.kernel.org>
+Date: Mon, 13 Jan 2025 05:45:31 -0000
+Message-Id: <173674713117.2675991.2213892188411253605@gitolite.kernel.org>
 
---===============5721838254815449455==
+--===============4204202041597965916==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
-    old: 6f79db028e827b023623a6ff825952e0d5fb619f
-    new: 5bc55a333a2f7316b58edc7573e8e893f7acb532
-    log: revlist-6f79db028e82-5bc55a333a2f.txt
+  - ref: refs/heads/staging-next
+    old: e7cd121cbf1bec05e50335f82d4aa7d8fa700538
+    new: b37333c8657cfece16b2fb0ba3fef2cb481a0a19
+    log: revlist-e7cd121cbf1b-b37333c8657c.txt
 
---===============5721838254815449455==
+--===============4204202041597965916==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736747155 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736747159 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1736747123-879f878b71807cd8c6a9cd821a3f558c9c0f228c
+nonce 1736747128-2f5e35a773c1f3e15a7884db0d9e96655627dca7
 
-6f79db028e827b023623a6ff825952e0d5fb619f 5bc55a333a2f7316b58edc7573e8e893f7acb532 refs/heads/staging-linus
+e7cd121cbf1bec05e50335f82d4aa7d8fa700538 b37333c8657cfece16b2fb0ba3fef2cb481a0a19 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeEqJMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fP8P/2ibWBq/raFjtSsRpm2f
-lRu2TN7WxucVKyJnU8yW0hRo9829oO8T6vH5z+c+93voBBYJLChKlmezg2l7aDnd
-yjHXeNB24a8jzaRYgUDIR6mkmM7cG1XxZKpjq55zxc2kXEgr7x0CqmKJjOhlbYvN
-3C1gL0cB+DYFspfOKLBoi5UFXBj162tyMBoDQRddEYCkYV2g0tq9SMyP8sL+rlN4
-HKvgFsl6tWJB8fpUCd87/5aAHCt0iU/3EQy6luOGaGis/pOfDqQEi61yymRZ+qDU
-+yIlp/rWyURa3Kd2jheaVXJCmZvvvPoC8GSOdy5/jjYUCkvYV/pybRUVw7z/APYc
-0dqnCQSEK/c5ZOq8j/Fd8DWIJSdH29AIC87wVsbGw27KdgCFe4ZPlV6OgNZH+x5l
-FXWs/YoeSF0zyYOmPdkCo+gBviFBEi6M3pVV6qqpL+07TMsUKeX+AW9vdpw210Bf
-eBQw+UrDXSNedKDQL1WVBEhc+ciO8qgKJZyKxXismV0BA+Z6wZcm4vI1KVOWNiKW
-nk218Y80fN/ZK724hmPT5KDsGzICAmejHVupiAplje7hkfyk/tFh5vTnckKfoThl
-ZwlYMejGqx99nwM+9A0w7I/RUOoAbOLB3KfmPuj40IJFWcc8N0Cdl9FbX4PNn9cl
-IsZWMUQsOj6nIPddNsc6VRAV
-=vaAh
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeEqJcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+p/0P/R95z37aHRmvkCjisGf4
+6M54YA9cs/md+7OaHucrjljmfc7GkiOaI080Nso+9kQY7ytS3ZYlCOc/o11Vp6Q5
+KO7VDmfJb9O+t1VUgTs5QEYvghTe0HZlrC+C/boNAEtZ/ABELm0+jMoIJgzvAIAV
+3ywJAju9sIBCbI75MsQ0hneEMyNNMshOk3Ykn3Qw0kx/kzOZTy+fR1rC2ZHypk/r
+Zw4SXnmF1A28bqzdWNbWNbv3sbUmaDCokUurUXSpFTs4XzLo+mzVOWdlp9SftLlR
+6lccNT7gCas+GvoIOumAsS8IX7gyuFTDzpQcNVfoNClmmDeVYwDdVXTiVidHCopi
+9MUgVWuK9s+jPZRSGxgVrXZG6vTm33GEt9iYdiRXVKx1EpDmGC0xZFnJ+SI5vtHR
+FDScHhmRaHyUdzR7EL4FxwOVONPJoHn/29Y9FxIOaot2DHt8PK5IOT7D80EYjH17
+2OIK4uxV2EqGQQlDwfccFW/DU8m1NiXkSHH5Cvn2bafJsTwidvNi2Ov+ku23PdyU
+LNOdRhekC6/u6q3X0ommNwvgaYT9zprXIcguw9m64Xy7EP321ZFVu/qE74Zod0bT
+GFfpOevB6nOKD63TvxsYP1s+mKEFUIJh7aN3zMY2EQ4df0cKlH+Hux94vjbLWwgY
+oHTH9mpTaiHOkUQxyrLLZugp
+=5tgo
 -----END PGP SIGNATURE-----
 
---===============5721838254815449455==
+--===============4204202041597965916==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6f79db028e82-5bc55a333a2f.txt
+Content-Disposition: attachment; filename=revlist-e7cd121cbf1b-b37333c8657c.txt
 
 2c87309ea741341c6722efdf1fb3f50dd427c823 ieee802154: ca8210: Add missing check for kfifo_alloc() in ca8210_probe()
 eb09fbeb48709fe66c0d708aed81e910a577a30a mac802154: check local interfaces before deleting sdata list
@@ -498,6 +498,16 @@ cc54ec56d822d4e4bfe16b6d1d85e8122fad1f67 Merge branch 'gve-xdp-fixes'
 926e862058978a8f81872845715d67ad21c30f65 arm64/signal: Silence sparse warning storing GCSPR_EL0
 7917f01a286ce01e9c085e24468421f596ee1a0c nfsd: restore callback functionality for NFSv4.0
 aa5d2ca7c179c40669edb5e96d931bf9828dea3d perf/x86/intel: Fix bitmask of OCR and FRONTEND events for LNC
+4da38536e2190fb5bfabfcf5229f4d5398648295 staging: gpib: Fix erroneous removal of blank before newline
+fd1885db8ecab1abc96dbb9df49b0d4b9eed1672 staging: gpib: Add lower bound check for secondary address
+8c41fae53016c2c9796441148c08b754c4e7dfc8 staging: gpib: Modify mismatched function name
+d99d65aeddf437c052031043c96f94f93f0124d6 staging: gpib: make global 'usec_diff' functions static
+79d2e1919a2728ef49d938eb20ebd5903c14dfb0 staging: gpib: fix Makefiles
+003d2abde115102a3e62c1a96d2cb8c5345b2af2 staging: gpib: add module author and description fields
+edbb7200ca99b29b173ea4f3f473e4e8db595025 staging: gpib: fix pcmcia dependencies
+fec866a00360a19a1f4c8e6bd123a4d1b2d5a8ee staging: gpib: use ioport_map
+baf8855c916007a8a372576b65492316f43ed60b staging: gpib: fix address space mixup
+669bf56cb2a197bca968ed6079226ee340606671 mailmap: update Bingwu Zhang's email address
 54f89b3178d5448dd4457afbb98fc1ab99090a65 tcp_bpf: Charge receive socket buffer in bpf_tcp_ingress()
 d888b7af7c149c115dd6ac772cc11c375da3e17c tcp_bpf: Add sk_rmem_alloc related logic for tcp_bpf ingress redirection
 a61dae110138b4eb7e4ffab301d156bc2ce13605 Merge tag 'riscv-soc-fixes-for-v6.13-rc4' of https://git.kernel.org/pub/scm/linux/kernel/git/conor/linux into arm/fixes
@@ -854,6 +864,7 @@ cdef30e0774802df2f87024d68a9d86c3b99ca2a usb-storage: Add max sectors quirk for 
 b0e525d7a22ea350e75e2aec22e47fcfafa4cacd usb: typec: fix pm usage counter imbalance in ucsi_ccg_sync_control()
 fd48f071a3d6d51e737e953bb43fe69785cf59a9 net: don't dump Tx and uninitialized NAPIs
 60495b08cf7a6920035c5172a22655ca2001270b io_uring: silence false positive warnings
+84b172cea4a23016dc80a44eaa7ff8b7c97b04b3 staging: gpib: refer to correct config symbol in tnt4882 Makefile
 3ff93c5935610f1f53f4b730d9b7b76a9559968a Merge tag 'fuse-fixes-6.13-rc7' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse
 8fd56ad6e7c90ac2bddb0741c6b248c8c5d56ac8 afs: Fix the maximum cell name length
 f8f25893a477a4da4414c3e40ddd51d77fac9cfc fs: debugfs: differentiate short fops with proxy ops
@@ -891,6 +902,7 @@ e59f4c97172de0c302894cfd5616161c1f0c4d85 gpio: loongson: Fix Loongson-2K2000 ACP
 854eee93bd6e3dca619d47087af4d65b2045828e USB: serial: cp210x: add Phoenix Contact UPS Device
 c1947d244f807b1f95605b75a4059e7b37b5dcc3 USB: serial: option: add MeiG Smart SRM815
 f5b435be70cb126866fa92ffc6f89cda9e112c75 USB: serial: option: add Neoway N723-EA support
+6f79db028e827b023623a6ff825952e0d5fb619f staging: gpib: mite: remove unused global functions
 95147bb42bc163866fc103c957820345fefa96cd arm64: dts: rockchip: Fix the SD card detection on NanoPi R6C/R6S
 7ee7c9b39ed36caf983706f5b893cc5c37a79071 xfs: don't return an error from xfs_update_last_rtgroup_size for !XFS_RT
 47f33c27fc9565fb0bc7dfb76be08d445cd3d236 dm-ebs: don't set the flag DM_TARGET_PASSES_INTEGRITY
@@ -1037,5 +1049,6 @@ be548645527a131a097fdc884b7fca40c8b86231 Merge tag 'for-linus' of git://git.kern
 083f9fac673dca75b355b6bc6c1b4bf4792ad949 Merge tag 'driver-core-6.13-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 0cbe10470b4473ab5e290f1d39033fdb6d6c69c9 Merge tag 'char-misc-6.13-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 5bc55a333a2f7316b58edc7573e8e893f7acb532 Linux 6.13-rc7
+b37333c8657cfece16b2fb0ba3fef2cb481a0a19 Merge 6.13-rc7 into staging next
 
---===============5721838254815449455==--
+--===============4204202041597965916==--
