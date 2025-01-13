@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hkrogeru/usb
-Date: Mon, 13 Jan 2025 13:51:41 -0000
-Message-Id: <173677630123.3130906.16659970088513029429@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfs-linux
+Date: Mon, 13 Jan 2025 14:00:26 -0000
+Message-Id: <173677682661.3138560.3229846812613240605@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hkrogeru/usb
-user: hkrogeru
+repo: pub/scm/fs/xfs/xfs-linux
+user: cem
 changes:
-  - ref: refs/tags/v6.13-rc7
-    old: 0000000000000000000000000000000000000000
-    new: b37279c18e53ba26c58b0a88a84bb70720c5cac6
+  - ref: refs/heads/next-rc
+    old: 30540f590b4118b3d7abc6920eb0adfe3deccaf4
+    new: 06ec38b0da2887c8465e31841bf2e81c6755ddb6
+    log: |
+         06ec38b0da2887c8465e31841bf2e81c6755ddb6 xfs: constify feature checks
+         
