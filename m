@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============1405153033760201788=="
+Content-Type: multipart/mixed; boundary="===============5892884078088495691=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 13 Jan 2025 22:14:51 -0000
-Message-Id: <173680649120.3555560.6081496475229424345@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 13 Jan 2025 22:15:02 -0000
+Message-Id: <173680650281.3557041.17997709057421469017@gitolite.kernel.org>
 
---===============1405153033760201788==
+--===============5892884078088495691==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.14
-    old: 292284f2be46514ed07e7b3e3350329f656c4f62
-    new: 2d98f9df15269514b52a12b179698c38344c6066
-    log: revlist-292284f2be46-2d98f9df1526.txt
+  - ref: refs/heads/for-next
+    old: a36103a664d5536666c28a0af184ccdc66dee0d8
+    new: c3a4a6936372552b6c47b5391ff4e4a0fdc098c5
+    log: revlist-a36103a664d5-c3a4a6936372.txt
 
---===============1405153033760201788==
+--===============5892884078088495691==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1736806519 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1736806488-920ccf43fbad69f480c9d3cb7d657bb446317bd0
-
-292284f2be46514ed07e7b3e3350329f656c4f62 2d98f9df15269514b52a12b179698c38344c6066 refs/heads/asoc-6.14
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmeFkHcACgkQJNaLcl1U
-h9AVewf8CKLIAMmRMGaNeR8KsdHuGtodX2RSa6apz4qRdYiEFoWj++OxGRym1320
-iZXIMM4q51F/VmM6F7hLanhjiK3iqZYHsesKIPA5URgkqvNvUN1f8Bn2OS2VVcGi
-1b/LATFtV31ywrqFCQCl/72fAWcLPgJyxYzD+kgf3WpO4kri5CXsxVQttHDZPZBg
-bN6tBP2MHA0yj7QeHK0Cl4rdQZvn2xquyeBvdd5SB6F06w9j1bQBzOaxRP6OIgTW
-MXXZtkjk1C8Bu3nLFw2ZSojylrQuwZlMMeqvxUJ/MfwSTjqMIzoAvh/MWhteO01U
-ZEeT8n8SkIdr4VTFBNlBihNS7QHUQw==
-=zdR2
------END PGP SIGNATURE-----
-
---===============1405153033760201788==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-292284f2be46-2d98f9df1526.txt
+Content-Disposition: attachment; filename=revlist-a36103a664d5-c3a4a6936372.txt
 
 2c87309ea741341c6722efdf1fb3f50dd427c823 ieee802154: ca8210: Add missing check for kfifo_alloc() in ca8210_probe()
 eb09fbeb48709fe66c0d708aed81e910a577a30a mac802154: check local interfaces before deleting sdata list
@@ -434,5 +409,6 @@ a8e792d3f0bbecb87ab05e9592cadf0b178ab952 ASoC: hdmi-codec: pass data to get_dai_
 5b0779ae13de345b405a67c71cbb63705cadb295 ASoC: hdmi-codec: move no_capture_mute to struct hdmi_codec_pdata
 9d499259db0cc5a31e212570c2cf945ad117b900 ASoC: extra format on each DAI
 2d98f9df15269514b52a12b179698c38344c6066 ASoC: Additional exports for hdmi-codec
+c3a4a6936372552b6c47b5391ff4e4a0fdc098c5 Merge remote-tracking branch 'asoc/for-6.14' into asoc-next
 
---===============1405153033760201788==--
+--===============5892884078088495691==--
