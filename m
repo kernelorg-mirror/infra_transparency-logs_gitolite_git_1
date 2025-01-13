@@ -1,24 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 13 Jan 2025 23:48:16 -0000
-Message-Id: <173681209697.3631250.2352057950491441443@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Mon, 13 Jan 2025 23:56:17 -0000
+Message-Id: <173681257707.3638497.8756182428398541889@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/main-pending
-    old: 409ea1dadcc31a76652bad23c2887aa39cfab25c
-    new: 80982d8c01d7f5e09acd3e828a8364c82d102e22
+  - ref: refs/heads/nolibc
+    old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
+    new: 24728b70b036ab63557c4524640010816b4ab155
     log: |
-         991862a126e1ecf8d2fc532d0688363364d5570e wifi: ath12k: relocate ath12k_mac_ieee80211_sta_bw_to_wmi()
-         6ed61fbb0207a1c60299b8be19ca8311ba6ffccd wifi: ath12k: handle ath12k_mac_ieee80211_sta_bw_to_wmi() for link sta
-         80982d8c01d7f5e09acd3e828a8364c82d102e22 Merge branch 'pending' into main-pending
+         4b92b79c5645b21e529caa65100e4797d3d4c87c selftests/nolibc: run-tests.sh: detect missing toolchain
+         7f89bc51101ca676530ee017931ae2a01ff54381 tools/nolibc: add support for waitid()
+         a0bc8947ac731ff95a56e0c1737e69e8c56d5b78 selftests/nolibc: use waitid() over waitpid()
+         4c7f09ab79b1348c619b118a2235d88a57e79af3 selftests/nolibc: use a pipe to in vfprintf tests
+         349afc8a52f86643a32381879e4033f4fbaae88a selftests/nolibc: skip tests for unimplemented syscalls
+         a47b4b9fbaa157e8957ea712d63d559625503ad9 selftests/nolibc: rename riscv to riscv64
+         60fe18237f72e3a186127658452dbb0992113cf7 selftests/nolibc: add configurations for riscv32
+         24728b70b036ab63557c4524640010816b4ab155 Merge tag 'nolibc-20250113-for-6.14-1' of https://git.kernel.org/pub/scm/linux/kernel/git/nolibc/linux-nolibc into nolibc
          
-  - ref: refs/tags/ath-pending-202501132241
-    old: 0000000000000000000000000000000000000000
-    new: 80982d8c01d7f5e09acd3e828a8364c82d102e22
