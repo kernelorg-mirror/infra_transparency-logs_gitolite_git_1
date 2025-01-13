@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3682530216108807779=="
+Content-Type: multipart/mixed; boundary="===============5159966532491748957=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Mon, 13 Jan 2025 16:54:07 -0000
-Message-Id: <173678724756.3284606.18218876158488707303@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
+Date: Mon, 13 Jan 2025 16:54:09 -0000
+Message-Id: <173678724945.3284693.15475420826859806611@gitolite.kernel.org>
 
---===============3682530216108807779==
+--===============5159966532491748957==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-omap
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: b37279c18e53ba26c58b0a88a84bb70720c5cac6
 
---===============3682530216108807779==
+--===============5159966532491748957==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -351,4 +351,4 @@ be548645527a131a097fdc884b7fca40c8b86231 Merge tag 'for-linus' of git://git.kern
 0cbe10470b4473ab5e290f1d39033fdb6d6c69c9 Merge tag 'char-misc-6.13-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 5bc55a333a2f7316b58edc7573e8e893f7acb532 Linux 6.13-rc7
 
---===============3682530216108807779==--
+--===============5159966532491748957==--
