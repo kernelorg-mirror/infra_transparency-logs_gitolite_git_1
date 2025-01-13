@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Mon, 13 Jan 2025 17:12:37 -0000
-Message-Id: <173678835799.3302019.6028823107448703166@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 13 Jan 2025 17:12:38 -0000
+Message-Id: <173678835883.3302073.8141789968631571985@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 74a2594a2767e890348ef4cfe64b7908d00d5353
-    new: a76539b293677c5c163b9285b0cd8dd420d33989
+  - ref: refs/heads/master
+    old: e68f6e4edd4ca44cd656b4282067e2182e8fb469
+    new: c7f1cadb110fa7bd1444fdd8899eb38542f18017
     log: |
-         ecf1cf1c58c17a2eda046787b73baba2ac547c16 hwmon: (pwm-fan) Default to the Maximum cooling level if provided
-         a76539b293677c5c163b9285b0cd8dd420d33989 hwmon: pmbus: dps920ab: Add ability to instantiate through i2c
+         a9bbe341333109465605e8733bab0b573cddcc8c x86: Disable EXECMEM_ROX support
+         66951e4860d3c688bfa550ea4a19635b57e00eca sched/fair: Fix update_cfs_group() vs DELAY_DEQUEUE
+         dd412d756c0d1ed81320341a8c849d918a6fd59e Merge branch into tip/master: 'sched/urgent'
+         c7f1cadb110fa7bd1444fdd8899eb38542f18017 Merge branch into tip/master: 'x86/urgent'
          
