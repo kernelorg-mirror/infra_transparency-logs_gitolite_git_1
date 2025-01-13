@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3923112932586417271=="
+Content-Type: multipart/mixed; boundary="===============3223424022182230593=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 13 Jan 2025 05:12:37 -0000
-Message-Id: <173674515724.2644902.10592378729468142273@gitolite.kernel.org>
+Date: Mon, 13 Jan 2025 05:12:43 -0000
+Message-Id: <173674516348.2645068.15556924120049688794@gitolite.kernel.org>
 
---===============3923112932586417271==
+--===============3223424022182230593==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: f3149ed697dd0c4fc1d696fef78129fa2fe4ca12
-    new: 5bc55a333a2f7316b58edc7573e8e893f7acb532
-    log: revlist-f3149ed697dd-5bc55a333a2f.txt
+  - ref: refs/heads/usb-next
+    old: 594c82329eef335ad90f5276ae0d2dff4d6d2668
+    new: 2919c4a3d883361105185f9d2f658e1a4545a1a7
+    log: revlist-594c82329eef-2919c4a3d883.txt
 
---===============3923112932586417271==
+--===============3223424022182230593==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736745186 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736745191 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1736745155-aada55e101b1ff2d0a2fee66b64a4955834c1919
+nonce 1736745160-9943488841c21afd980ebe5ecce2d99f8878c337
 
-f3149ed697dd0c4fc1d696fef78129fa2fe4ca12 5bc55a333a2f7316b58edc7573e8e893f7acb532 refs/heads/usb-linus
+594c82329eef335ad90f5276ae0d2dff4d6d2668 2919c4a3d883361105185f9d2f658e1a4545a1a7 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeEoOIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+X2MP/13O6GMDkdV2ZbrXRArs
-cyEKEySX+8iQ2yYgVDY32IBb+s9gBMfHpWlrveYvPkt8veFx00uHO34Jz/vgVz/d
-Y/2Kmz5WwKUxPX85wuHYba/Kx1r2kRp93HA36yHtWcZV+BLDelWKyuwKlh4WEiiB
-Jd4gVBwFXuCcCa8JjVr1aTBgkM3koXZu/AgvvkxS3GvH0wNxU2dwuKL4nMGul2AT
-l0sh/QvwffofPnbidgC6Jd4rAh7+WNAy6Ii7QnWxvpyKk6yr/tHH0biFEba4wx3z
-oUWO4+Iq5wpYle7AB91un6vpNUA7fdfewWgMOnERgSe5ctmSCTGnKgzdN55KuUMf
-tit9MsxAHxCBz+yUVJPLAB4CK98tqGqFEIjV9/OaE2YEbJdpa5/EQwN8i0CY6nrf
-5Jca+Itjf0nFA4RJ59p79n9bGiwwOvmKqJwF56iw1qwAT4EAoBOeOVVFHR7oRfzv
-TKkZlFckTC5WqIAkaeG48BPdBHu0p3Y0el4qUaMzwtphjg+Ex83my3V1vse1io5w
-H6qeLWLJs1fup65kTOlZJihetTJfWg9BLKT55vyu0fqJHLwOHnYdsrG5Kn5Z81wy
-c2P/l81WvS4gZGOX8sZKERhyNkPehaS7PBaj4I5xSVPKe6X5vPcziAIt7gLQX6Vn
-mGByc/yCQBRM6s9JkLDJLTCX
-=F6vQ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeEoOcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gPwQAJOgdGpsO25/RAbB86Qa
+PrJetnQK6VD8Qapkdzyntl0+g5OL1e1M4ylY3EIbUVZQCJtDRJPJrx5nStxppzx0
+O64RTKDukV7GT1L+Eo3XWymjQSETsRRuo/KItOjKVBV3ch/XLglWD3vFBvsg8PoX
+GhQOw+IjB7w/RvOR3qtEwWmgo4DO79hvP2SNRLKTJf32yY5MOpWTDbfjs+wDUnVM
+ZwBfJtHRmDwMQyFESqehSArNAP7XKWkb3wfGj2R4bhSaO60stXk/sK98uZ+NFieQ
+hHxMj5/QovRFWFFbLq9Su+K65kBrg4UwV49f0Jnloo0yrj5IkT1EvKpCyCt2XLN7
+7yOZcZmBDGmaEnWzHyR059/PIDBZF95FuVwXh4HUIhp4KeimyauIEU7owFXw2V7n
+/h4OnjxkOgnzGznanDm71uPk59BSXF72M2YTIAuvxLYx7W8g3uqJ4ORB3FdiIa+D
+pHJ//h5A2S59N1mX6O/31YA5Q6cOb0KZDDlSh671qjbBp/7DUlocXhLawQgN/Kr/
+rtf4iLVz8wjmCwowOAxiGX2oEiK+EB8BJ0PuCJYuH+li+9IqEdfsDT2WKDle7vDt
+s4Nw2suXd8CMnyM3mT0Tq+638bpDfkJWZIUfByrGpuA0AU8dzEp3APYvRGkjJybq
+0yQURvEFHcO9ChzAbXaOEUyA
+=bO5s
 -----END PGP SIGNATURE-----
 
---===============3923112932586417271==
+--===============3223424022182230593==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-f3149ed697dd-5bc55a333a2f.txt
+Content-Disposition: attachment; filename=revlist-594c82329eef-2919c4a3d883.txt
 
 2c87309ea741341c6722efdf1fb3f50dd427c823 ieee802154: ca8210: Add missing check for kfifo_alloc() in ca8210_probe()
 eb09fbeb48709fe66c0d708aed81e910a577a30a mac802154: check local interfaces before deleting sdata list
@@ -272,8 +272,22 @@ a53da2fb25a31f4fb8eaeb93c7b1134fc14fd209 drm/xe: Revert some changes that break 
 5e0a67fdb894d34c5f109e969320eef9ddae7480 drm/xe: Wait for migration job before unmapping pages
 af12ba67d09ebe2b31ab997cea1a930864028562 drm/xe/pf: Use correct function to check LMEM provisioning
 fe39b222a4139354d32ff9d46b88757f63f71d63 drm/xe: Fix fault on fd close after unbind
+01ea6bf5cb58b20cc1bd159f0cf74a76cf04bb69 usb: dwc3: gadget: fix writing NYET threshold
+625e70ccb7bbbb2cc912e23c63390946170c085c usb: dwc3-am62: Disable autosuspend during remove
+e19852d0bfecbc80976b1423cf2af87ca514a58c usb: host: xhci-plat: set skip_phy_initialization if software node has XHCI_SKIP_PHY_INIT property
+b9711ff7cde0cfbcdd44cb1fac55b6eec496e690 usb: typec: tcpm/tcpci_maxim: fix error code in max_contaminant_read_resistance_kohm()
 a072ffd896efa6a6c8a0334c712fbc98a63c789c eth: fbnic: fix csr boundary for RPM RAM section
+057bd54dfcf68b1f67e6dfc32a47a72e12198495 usb: gadget: f_uac2: Fix incorrect setting of bNumEndpoints
+7a3d76a0b60b3f6fc3375e4de2174bab43f64545 USB: usblp: return error when setting unsupported protocol
+9466545720e231fc02acd69b5f4e9138e09a26f6 usb: gadget: configfs: Ignore trailing LF for user strings to cdev
+f47eba045e6cb97f9ee154c68dbf7c3c756919aa usb: typec: ucsi: Set orientation as none when connector is unplugged
+74adad500346fb07d69af2c79acbff4adb061134 usb: chipidea: ci_hdrc_imx: decrement device's refcount in .remove() and in the error path of .probe()
 2b6ffcd7873b7e8a62c3e15a6f305bfc747c466b net: stmmac: restructure the error path of stmmac_probe_config_dt()
+13014969cbf07f18d62ceea40bd8ca8ec9d36cec usb: gadget: u_serial: Disable ep before setting port to null to fix the crash caused by port being null
+862a9c0f68487fd6ced15622d9cdcec48f8b5aaa usb: typec: tcpci: fix NULL pointer issue on shared irq case
+0df11fa8cee5a9cf8753d4e2672bb3667138c652 usb: fix reference leak in usb_new_device()
+59bfeaf5454b7e764288d84802577f4a99bf0819 USB: core: Disable LPM only for non-suspended ports
+dfc51e48bca475bbee984e90f33fdc537ce09699 usb: gadget: f_fs: Remove WARN_ON in functionfs_bind
 ed2761958ad77e54791802b07095786150eab844 tty: serial: 8250: Fix another runtime PM usage counter underflow
 fbd22c4fa737f9559be8b87a73bb1cdfcd39fd11 serial: imx: Use uart_port_lock_irq() instead of uart_port_lock()
 0cfc36ea51684b5932cd3951ded523777d807af2 serial: stm32: use port lock wrappers for break control
@@ -535,6 +549,9 @@ c8dafb0e4398dacc362832098a04b97da3b0395b bnxt_en: Fix possible memory leak when 
 40452969a50652e3cbf89dac83d54eebf2206d27 bnxt_en: Fix DIM shutdown
 3085d4b847e016125609f3f03002833d8df476da Merge branch 'bnxt_en-2-bug-fixes'
 4c1224501e9d6c5fd12d83752f1c1b444e0e3418 cxgb4: Avoid removal of uninserted tid
+6f660ffce7c938f2a5d8473c0e0b45e4fb25ef7f usb: gadget: midi2: Reverse-select at the right place
+cdef30e0774802df2f87024d68a9d86c3b99ca2a usb-storage: Add max sectors quirk for Nokia 208
+b0e525d7a22ea350e75e2aec22e47fcfafa4cacd usb: typec: fix pm usage counter imbalance in ucsi_ccg_sync_control()
 fd48f071a3d6d51e737e953bb43fe69785cf59a9 net: don't dump Tx and uninitialized NAPIs
 60495b08cf7a6920035c5172a22655ca2001270b io_uring: silence false positive warnings
 84b172cea4a23016dc80a44eaa7ff8b7c97b04b3 staging: gpib: refer to correct config symbol in tnt4882 Makefile
@@ -572,6 +589,9 @@ cb358ff94154774d031159b018adf45e17673941 ipvlan: Fix use-after-free in ipvlan_ge
 db78475ba0d3c66d430f7ded2388cc041078a542 eth: gve: use appropriate helper to set xdp_features
 77bf21a03a2ad45cf66f73f13154b1669d9cf52a Revert "drm/i915/hdcp: Don't enable HDCP1.4 directly from check_link"
 e59f4c97172de0c302894cfd5616161c1f0c4d85 gpio: loongson: Fix Loongson-2K2000 ACPI GPIO register offset
+854eee93bd6e3dca619d47087af4d65b2045828e USB: serial: cp210x: add Phoenix Contact UPS Device
+c1947d244f807b1f95605b75a4059e7b37b5dcc3 USB: serial: option: add MeiG Smart SRM815
+f5b435be70cb126866fa92ffc6f89cda9e112c75 USB: serial: option: add Neoway N723-EA support
 6f79db028e827b023623a6ff825952e0d5fb619f staging: gpib: mite: remove unused global functions
 95147bb42bc163866fc103c957820345fefa96cd arm64: dts: rockchip: Fix the SD card detection on NanoPi R6C/R6S
 7ee7c9b39ed36caf983706f5b893cc5c37a79071 xfs: don't return an error from xfs_update_last_rtgroup_size for !XFS_RT
@@ -676,6 +696,7 @@ b2849867b3a70c2d675ddca01c4e4540f7d3b8e9 sock_poll_wait: kill the no longer nece
 f005bf18a57aadf3af1e85a0f0151cb3688ee606 poll: kill poll_does_not_wait()
 67cd2e23c0f353803f182ae790a7d5074d4c1a4d Merge patch series "poll_wait: add mb() to fix theoretical race between waitqueue_active() and .poll()"
 1623bc27a85a93e82194c8d077eccc464efa67db Merge branch 'vfs-6.14.poll' into vfs.fixes
+f3149ed697dd0c4fc1d696fef78129fa2fe4ca12 Merge tag 'usb-serial-6.13-rc7' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
 9d64558493fef271a38672d048f16e3617e3290a Merge tag 'gpio-fixes-for-v6.13-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 b999e7f92e24e32a785934e5c561c0999e8c14bb Merge tag 'regulator-fix-v6.13-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 8c8d54116fa289e4d559c0a8fb27d11de9a3a8bc Merge tag 'platform-drivers-x86-v6.13-5' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
@@ -718,5 +739,6 @@ be548645527a131a097fdc884b7fca40c8b86231 Merge tag 'for-linus' of git://git.kern
 083f9fac673dca75b355b6bc6c1b4bf4792ad949 Merge tag 'driver-core-6.13-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 0cbe10470b4473ab5e290f1d39033fdb6d6c69c9 Merge tag 'char-misc-6.13-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 5bc55a333a2f7316b58edc7573e8e893f7acb532 Linux 6.13-rc7
+2919c4a3d883361105185f9d2f658e1a4545a1a7 Merge 6.13-rc7 into usb-next
 
---===============3923112932586417271==--
+--===============3223424022182230593==--
