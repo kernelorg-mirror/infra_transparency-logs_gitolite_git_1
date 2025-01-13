@@ -1,55 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============8218977270381899588=="
+Content-Type: multipart/mixed; boundary="===============0395079881914978371=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 13 Jan 2025 17:13:27 -0000
-Message-Id: <173678840797.3302601.15160047293107010891@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Mon, 13 Jan 2025 17:21:31 -0000
+Message-Id: <173678889184.3309927.736847599478343209@gitolite.kernel.org>
 
---===============8218977270381899588==
+--===============0395079881914978371==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: c7f1cadb110fa7bd1444fdd8899eb38542f18017
-    new: cfb1181c3b90d78d21836301b39536b2ee355330
-    log: revlist-c7f1cadb110f-cfb1181c3b90.txt
-  - ref: refs/heads/tip/urgent
-    old: 3506e8568b7269238b02b25ca1edfc4c7099197c
-    new: b58b8501168134fd1d35dfb055075084fa50dfb6
-    log: |
-         a9bbe341333109465605e8733bab0b573cddcc8c x86: Disable EXECMEM_ROX support
-         66951e4860d3c688bfa550ea4a19635b57e00eca sched/fair: Fix update_cfs_group() vs DELAY_DEQUEUE
-         e46ca77dd173462adeab12955a1d6405670c0bd4 Merge branch into tip/master: 'sched/urgent'
-         b58b8501168134fd1d35dfb055075084fa50dfb6 Merge branch into tip/master: 'x86/urgent'
-         
+    old: 5bc55a333a2f7316b58edc7573e8e893f7acb532
+    new: c45323b7560ec87c37c729b703c86ee65f136d75
+    log: revlist-5bc55a333a2f-c45323b7560e.txt
 
---===============8218977270381899588==
+--===============0395079881914978371==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c7f1cadb110f-cfb1181c3b90.txt
+Content-Disposition: attachment; filename=revlist-5bc55a333a2f-c45323b7560e.txt
 
-e46ca77dd173462adeab12955a1d6405670c0bd4 Merge branch into tip/master: 'sched/urgent'
-b58b8501168134fd1d35dfb055075084fa50dfb6 Merge branch into tip/master: 'x86/urgent'
-8f892d5c99b31c1f4e1f8389f0c90c76dd7ea7dc Merge branch into tip/master: 'x86/merge'
-f09b1479beaafa06950aceda60cf5400d1543ae9 Merge branch into tip/master: 'ras/merge'
-7308d9dc8150d4f89e170dd21253cb3f2e547641 Merge branch into tip/master: 'irq/core'
-90df9792d9516e95956376d2fe54f225879ffaa5 Merge branch into tip/master: 'locking/core'
-99ebe3dc5cc136ec9106265da369d33d520b5964 Merge branch into tip/master: 'objtool/core'
-b431780cdd7c48cb1b6982a428770f09971809d0 Merge branch into tip/master: 'perf/core'
-8e94367b8dff8985379222771bcda451001bc134 Merge branch into tip/master: 'sched/core'
-f795f92623e104c10f6da19703f320c7fc14c01a Merge branch into tip/master: 'x86/bugs'
-4c5649b3bbfbd6f44b75ff3c4bc83b94c3098456 Merge branch into tip/master: 'x86/cache'
-a73e813bbb0d9133e7c59269efa77d22ca70cf15 Merge branch into tip/master: 'x86/cleanups'
-f81b3dee2cd13539cd13f81200697e07504fb326 Merge branch into tip/master: 'x86/cpu'
-9e0549ffa7840bd089f3fb3d81093a39dde2a8cd Merge branch into tip/master: 'x86/microcode'
-bcbca404094fe38fe8827b6784efd737dca00079 Merge branch into tip/master: 'x86/mm'
-cfb1181c3b90d78d21836301b39536b2ee355330 Merge branch into tip/master: 'x86/tdx'
+76d5d4c53e68719c018691b19a961e78524a155c mm/kmemleak: fix percpu memory leak detection failure
+2bff77c665edd854a09c479effe75b3b0e3fedef scripts/decode_stacktrace.sh: fix decoding of lines with an additional info
+264a88cafdbd0f4579af903145ac605d030f3f66 mm/mempolicy: count MPOL_WEIGHTED_INTERLEAVE to "interleave_hit"
+4bbb6df62c54e6a2c1fcce4908df768f0cfa1e91 tools: fix atomic_set() definition to set the value correctly
+f505e6c91e7a22d10316665a86d79f84d9f0ba76 filemap: avoid truncating 64-bit offset to 32 bits
+59f59108475e8fadd5f9fc9a5d79563203df40f1 x86/execmem: fix ROX cache usage in Xen PV guests
+4ce718f39776b5e162ea6b8010da7a6f02b13dc0 mm: fix div by zero in bdi_ratio_from_pages
+9ab96b524dce598c041388a599e3a227c7a7926c hugetlb: fix NULL pointer dereference in trace_hugetlbfs_alloc_inode
+4dff389c9f1dd787e8058930b3fbd3248a6238c5 Revert "mm: zswap: fix race between [de]compression and CPU hotunplug"
+12dcb0ef540629a281533f9dedc1b6b8e14cfb65 mm: zswap: properly synchronize freeing resources during CPU hotunplug
+4bcf29741145e73440323e3e9af8b1a6f4961183 module: fix writing of livepatch relocations in ROX text
+0cef0bb836e3cfe00f08f9606c72abd72fe78ca3 mm: clear uffd-wp PTE/PMD state on mremap()
+a32bf5bb7933fde6f39747499f8ec232b5b5400f selftests/mm: set allocated memory to non-zero content in cow test
+212fe1c0df4a150fb6298db2cfff267ceaba5402 zram: fix potential UAF of zram table
+9fd8fcf171dcc39d2a8ecf221388820fb5fbc00e vmstat: disable vmstat_work on vmstat_cpu_down_prep()
+bd3d56ffa2c450364acf02663ba88996da37079d mm: vmscan : pgdemote vmstat is not getting updated when MGLRU is enabled.
+1c47c57818ad73d2d09ddbcb4839708aab5ff2e3 mm: fix assertion in folio_end_read()
+cbc5dde0a461240046e8a41c43d7c3b76d5db952 fs/proc: fix softlockup in __read_vmcore (part 2)
+c45323b7560ec87c37c729b703c86ee65f136d75 Merge tag 'mm-hotfixes-stable-2025-01-13-00-03' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 
---===============8218977270381899588==--
+--===============0395079881914978371==--
