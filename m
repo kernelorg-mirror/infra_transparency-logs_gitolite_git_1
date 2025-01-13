@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 13 Jan 2025 14:17:49 -0000
-Message-Id: <173677786933.3152165.11687493350924176275@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Mon, 13 Jan 2025 14:20:28 -0000
+Message-Id: <173677802874.3155362.9296587541975176118@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/fileowzAtm
-    old: 0000000000000000000000000000000000000000
-    new: d5a4d7f10fcdcae952f7d5c603c61795c0abb7a7
-  - ref: refs/heads/v3_20250106_kuninori_morimoto_gx_asoc_extra_format_on_each_dai
-    old: 0000000000000000000000000000000000000000
-    new: 365865b7d7467aea9767ea18670198921bcada7c
+  - ref: refs/heads/next
+    old: ac38e9c70c5932b3cec02eb203d0e3b92dd67e7c
+    new: aaa61d8b2a49869bced911f10d6f9f6c2c770ae1
+    log: |
+         e1e1f9fed7ddb6b2dd40bd152267f360f857aa75 efivarfs: add variable resync after hibernation
+         aaa61d8b2a49869bced911f10d6f9f6c2c770ae1 Merge branch 'efivarfs' into next
+         
