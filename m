@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1741006482271543013=="
+Content-Type: multipart/mixed; boundary="===============7601629302897028224=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 13 Jan 2025 05:41:20 -0000
-Message-Id: <173674688001.2671467.10184696262605667362@gitolite.kernel.org>
+Date: Mon, 13 Jan 2025 05:41:23 -0000
+Message-Id: <173674688348.2671543.2726977294644568220@gitolite.kernel.org>
 
---===============1741006482271543013==
+--===============7601629302897028224==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
+  - ref: refs/heads/driver-core-testing
     old: 8ff656643d3075154419680470dbfdbd6092e31f
     new: dd19f4116ec330bc985e1a85a66b8dd0f2dca20d
     log: revlist-8ff656643d30-dd19f4116ec3.txt
 
---===============1741006482271543013==
+--===============7601629302897028224==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736746906 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736746912 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1736746876-c42383182574ddf4aded1154a5aef99945960a35
+nonce 1736746882-dc697c172aad5de5ebf4442b719e5b8a70f92438
 
-8ff656643d3075154419680470dbfdbd6092e31f dd19f4116ec330bc985e1a85a66b8dd0f2dca20d refs/heads/driver-core-next
+8ff656643d3075154419680470dbfdbd6092e31f dd19f4116ec330bc985e1a85a66b8dd0f2dca20d refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeEp5obHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tUkQAJaBdyo74iWPnMrIYjVK
-IiPJV7jxGyOAxYGWluKuIys4RP07reTtKxgW76g5apqE94nRVOBMlxQ1nB0QZJVv
-sareOITvpfNGA1IjMdBjUeSGXZnO7+8hsknhdCmUywmFR4FNCpj+rFhIObeYdUmw
-42Ry998/3va2yFXWjCv/HaGzm5bsRl08fWkPse30TgxCzcGYq5iiUjS8ImhWozKa
-tPE/656qaOUsUD5cUqROgysnmjkrgkrvcgmO3ihnozTDe461b5cqjfgrlQmdBnfm
-d5JXxQPu0YT675OUWd5mVuvAVGf62hSEO7fdvAud6SBt+bXCLgXaf988vzK70iEw
-5+Yq3naJ6g2spqM+6/KTon0oQyVaSQBlpTsiAxvpI7QOv2LhNXZ/NssYO/rSlVEt
-Dz9MIGHDGTsJWEwHUMOfQZvIY/YTtoKxUbFA86Q3/vCwS3k6Zm4A+LttDo14sTeQ
-CTDTJgqeJnQDEQGOoF7VEbkX9BExLvQeFZ7br6M1wa3ssoZ7yq1raLRODLd7JmP0
-SDEJpqqlIh9myciFj/zkiCzccLLHEx709+mylfpLOkASe92WeTXNqltXsM+GmEqm
-c5r3W2p0Mi9OiJtZ8SFJMUqlFLkkgR/p0DPcZPcoVfpDD1mLM5uBNyEuTW9HzCOm
-/zhFDq7BpX7+hcCjvQQNlVKQ
-=+w2p
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeEp6AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+oYsQANNpYRKFM5i0hlKJHjoa
+MJHh/ezEwFgjutlzzK4UAY53tG/5s8uiOQ3uRYSnIEOIjErGNWTHjRdTpYOU29QH
+S59V8v3VtcCJWKEeubO13aREOkwgTjbwVE4ne3trqo+vPgAxLc51YCR7zgqTFq1J
+cyA8ypevMB1FVZgyTR3k6uAI47wdtwyNt3kV7V8GpS7ZqJaPTxKG93h4p6P1XT/d
+ND6+PC6+y9NWCeE3qu2o4MhK68oJfXzIaBcDj7/SxsjNMi9tGbsiaYFpcVFp8SrF
+Hll2f4PxvURSp31OZLuMUjOETzRxXHoc+8xer6O0CIAHuu55eL3ummzenZC2fBpz
+cmLhp5peGuWgAz8e6zOwWIRAJMLqpFaQ4WT3zwh7UdzisNLnWr5z4dvHr4C54MH3
+f66O4Rolr/559g28FWmMt44P3AseGy73HkPfqS1wjmYbwIkOGsmVyk9o+kaK/sms
+dIiGqZhmYj8NAHDXVa4xlGT2Ewdd4OnMsTh/3Y6gEIsBybgihr5UZ9DmuGdVu+7c
+rqf+Pd0EUeXolU89I0FrO7BSjWOa9683MUIrzhlJehF1UwUZEdmr9oUfeaLMt7Ls
+xB8mIMy7L5GI8sc/r/IIq6z+7b742FQ5Pz/nYbXgOmqJ627SHdixQpg6scY21VSl
+gcDRTNxba/CZfSU6lLbYqNDV
+=I1VN
 -----END PGP SIGNATURE-----
 
---===============1741006482271543013==
+--===============7601629302897028224==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ be548645527a131a097fdc884b7fca40c8b86231 Merge tag 'for-linus' of git://git.kern
 5bc55a333a2f7316b58edc7573e8e893f7acb532 Linux 6.13-rc7
 dd19f4116ec330bc985e1a85a66b8dd0f2dca20d Merge 6.13-rc7 into driver-core-next
 
---===============1741006482271543013==--
+--===============7601629302897028224==--
