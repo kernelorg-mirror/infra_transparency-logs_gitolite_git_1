@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4312985779360913124=="
+Content-Type: multipart/mixed; boundary="===============8919925995530032886=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 13 Jan 2025 05:47:13 -0000
-Message-Id: <173674723360.2677577.4411531573178302324@gitolite.kernel.org>
+Date: Mon, 13 Jan 2025 05:47:19 -0000
+Message-Id: <173674723960.2677694.16085100638166814567@gitolite.kernel.org>
 
---===============4312985779360913124==
+--===============8919925995530032886==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8
+  - ref: refs/heads/tty-linus
+    old: 0cfc36ea51684b5932cd3951ded523777d807af2
     new: 5bc55a333a2f7316b58edc7573e8e893f7acb532
-    log: revlist-78d4f34e2115-5bc55a333a2f.txt
+    log: revlist-0cfc36ea5168-5bc55a333a2f.txt
 
---===============4312985779360913124==
+--===============8919925995530032886==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736747262 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736747268 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1736747232-ca4741741d195d89861a7ed3252b4075676b51b0
+nonce 1736747237-d7324283c2b586c6c975de4096da4b37b6bde582
 
-78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8 5bc55a333a2f7316b58edc7573e8e893f7acb532 refs/heads/main
+0cfc36ea51684b5932cd3951ded523777d807af2 5bc55a333a2f7316b58edc7573e8e893f7acb532 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeEqP4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hPMP/igMqHNiJKGWOHD+4duB
-V+JVth+DDnyrKIC4HWSOk5Wpwm5BXQSwZ6yS9+1LIdX6AP1/EjbB3qvxZ991O4qn
-jP9HVFuPCnMnGQbC8Xa8p7MgoJ/8f+mget29ItCC8YLsaWaRJPjY8XorHJ5BJiyO
-00+w5kknvP021A2lZSMNIk0EhJaddRaYAQEyTcl9wzh9iOi/g/xsHouAiSTuaVGq
-xdhhIgO3Rp+86VUZ7ae066T7vOPnS8oNptK2C1dyfOwQP2DKAs/2m+bfZyMgw3ZW
-rB1WmVSiFIPrqIoE94jidAvvNXsBglu4XN7PvX796h2ZWWbxqa8Zo6vg5Md7DPs4
-/fNly0/vzer1mR4vUkk5O/7xlV+Aw2rtft8oXyuLNPBQ5kejCpyuS4X+t5k7/lIe
-jHSO5B0ytOgw1rlmKq18E1l7Z8RdpQjNVy2Ofn//WgpjLoGGLAxb9aCPJdzwHwHh
-m6VKkcW6VgDJOf8/omVWzn4aMuHo5WK/zRPTXGfyVonX9iu1D1rj8kL4wnJcNeMU
-L4xH5NJjvoK89XWGx2/aEnS1gS6jf+5U7V1wPn00Kldu0dEjGBk1L4Yb34lgEFMU
-Sy9hSQocCH7CEXyXbvWACecuXmUUzDEznYg+ePGYWOPfqT7orZyFAWnUWmxH4mrY
-CWdE1pcV7wIaoYCwrkzG4FfJ
-=46H5
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeEqQQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QqoQAJTq4vmfjNOgpqvk1rNf
+ektyE/2RFARfI6K4aPOUyfq0LJlERx7/NeNfLVoZGHPA/A6TbJPq/tQApbI4v6UK
+WgrHNNBdWkAEKMDYjpwCpFvOQW/11BsaD4eJfopLaGEV5/pQyRbWUzPPhkHn5tYB
+G4hWCaIDZhdKNW4hB6j8PFdEVzJJVQou6fs9AfBhPJmRFcegsQrT2sOMgJyrYHbm
+37mcdTzXYjdcEIhBknI8I3LKhgTJHQc1Cj3/wQmfcHc5pD0m+GQFKQz0XWTiOJD6
+pIZTFzpgErbA3w2J6PhamUhGcJCj7qFbakkVhynv1g756XLgwLRYTYseH32q4C5j
+7LxRBWwSGy0W/HW3IDH6YpOjUAUd+Q7JPANgSODkrtSFnpll7OT79iqX3lX8O++r
+uHHLKX21yzcWJV/Fwdvo3pEwIlhvslw0iGVJvz/dg//REUNsNSo4LvwyUd+EIuzr
+iy4P+KBNFxzbgnh/+Teg/RUEdyuCbqIag47wPnd7LwMutfjo2mdd80uFX4AIEjIK
+oWIkt0jallCV8vO34PYP4fG3DBt23KxHzpPxPuLENda0VQ7OCo2b/Y89apSyQoIX
+c69+uyY5ep1SUXCv1dLEVcVr611H5daI7eHBvLkjXKnVplj4nM4tYfL4bxq1sVyE
+m9tWWwNbZA3+O9+h4td9IJNd
+=KvK1
 -----END PGP SIGNATURE-----
 
---===============4312985779360913124==
+--===============8919925995530032886==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-78d4f34e2115-5bc55a333a2f.txt
+Content-Disposition: attachment; filename=revlist-0cfc36ea5168-5bc55a333a2f.txt
 
 2c87309ea741341c6722efdf1fb3f50dd427c823 ieee802154: ca8210: Add missing check for kfifo_alloc() in ca8210_probe()
 eb09fbeb48709fe66c0d708aed81e910a577a30a mac802154: check local interfaces before deleting sdata list
@@ -598,9 +598,6 @@ f47eba045e6cb97f9ee154c68dbf7c3c756919aa usb: typec: ucsi: Set orientation as no
 0df11fa8cee5a9cf8753d4e2672bb3667138c652 usb: fix reference leak in usb_new_device()
 59bfeaf5454b7e764288d84802577f4a99bf0819 USB: core: Disable LPM only for non-suspended ports
 dfc51e48bca475bbee984e90f33fdc537ce09699 usb: gadget: f_fs: Remove WARN_ON in functionfs_bind
-ed2761958ad77e54791802b07095786150eab844 tty: serial: 8250: Fix another runtime PM usage counter underflow
-fbd22c4fa737f9559be8b87a73bb1cdfcd39fd11 serial: imx: Use uart_port_lock_irq() instead of uart_port_lock()
-0cfc36ea51684b5932cd3951ded523777d807af2 serial: stm32: use port lock wrappers for break control
 4f4aa4aa28142d53f8b06585c478476cfe325cfc net: fix memory leak in tcp_conn_request()
 b5a7b661a073727219fedc35f5619f62418ffe72 net: Fix netns for ip_tunnel_init_flow()
 a4fd163aed2edd967a244499754dec991d8b4c7d netrom: check buffer length before accessing it
@@ -1050,4 +1047,4 @@ be548645527a131a097fdc884b7fca40c8b86231 Merge tag 'for-linus' of git://git.kern
 0cbe10470b4473ab5e290f1d39033fdb6d6c69c9 Merge tag 'char-misc-6.13-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 5bc55a333a2f7316b58edc7573e8e893f7acb532 Linux 6.13-rc7
 
---===============4312985779360913124==--
+--===============8919925995530032886==--
