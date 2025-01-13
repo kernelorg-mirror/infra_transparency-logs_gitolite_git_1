@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5905811831691672681=="
+Content-Type: multipart/mixed; boundary="===============3428740573055201705=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 13 Jan 2025 17:42:42 -0000
-Message-Id: <173679016289.3327734.9502054456741759265@gitolite.kernel.org>
+Date: Mon, 13 Jan 2025 17:43:07 -0000
+Message-Id: <173679018797.3328047.13474116138976763900@gitolite.kernel.org>
 
---===============5905811831691672681==
+--===============3428740573055201705==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 7b24f164cf005b9649138ef6de94aaac49c9f3d1
-    new: 7d0da8f862340c5f42f0062b8560b8d0971a6ac4
-    log: revlist-7b24f164cf00-7d0da8f86234.txt
+  - ref: refs/heads/dev-queue
+    old: 351ce14c4563d2bd56e755c558fad6948354f840
+    new: 6db9491e57a016a19ea8e60a384e773fae3d5758
+    log: revlist-351ce14c4563-6db9491e57a0.txt
 
---===============5905811831691672681==
+--===============3428740573055201705==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7b24f164cf00-7d0da8f86234.txt
+Content-Disposition: attachment; filename=revlist-351ce14c4563-6db9491e57a0.txt
 
 130727c37b7e2495db10535f6ef00095783ad5a9 dt-bindings: can: mpfs: add PIC64GX CAN compatibility
 79195755cdebffb085bd2b6c0767272ef39f53bb dt-bindings: can: convert tcan4x5x.txt to DT schema
@@ -78,5 +78,76 @@ af3525d41001431e3d170214170dfe7dd73435b9 net: warn during dump if NAPI list is n
 c5a965701866e53be00b2412aae2c3833b0197ca net: phy: dp83822: Add support for PHY LEDs on DP83822
 10bc9761d12e440656062ef78cd889bbfa827dcf net/smc: delete pointless divide by one
 7d0da8f862340c5f42f0062b8560b8d0971a6ac4 net: airoha: Fix channel configuration for ETS Qdisc
+d7c81544017fb248ee9a04ee8600cb01cd186a2a iavf: allow changing VLAN state without calling PF
+a037b4c0b6391d9cd8d429b8eb51ff88706d298a ice: Fix E825 initialization
+adfefba9b75b52b2c9dcf581e18743cd2065d1dc ice: Fix quad registers read on E825
+8c25c803b2bca11e0498c4b2c54a74378b816722 ice: Fix ETH56G FC-FEC Rx offset value
+6d4431fdc325876370774d0dd4e3d1beacabb094 ice: Add correct PHY lane assignment
+8adaa6ce3cb090f3ed177998a954f81e81081184 ice: Don't check device type when checking GNSS presence
+3a757eab2c7342008c8a26575cb899a5fab11034 ice: Remove unncecessary ice_is_e8xx() functions
+71812326b39e7509ddc2f9df7a873f7ff22a7e2d ice: Use FIELD_PREP for timestamp values
+e27db31e0fc4d251cb655fbdefdc08db1975fae8 ice: Process TSYN IRQ in a separate function
+13b842d7370cb020dd7c8b97c5361a3be2d937d6 ice: Add unified ice_capture_crosststamp
+0642f2a81e6af92ebceb4bd3110b0f11b09b059a ice: Refactor ice_ptp_init_tx_*
+54e0084459790d90e0ccab78e4c240797769a6a2 ice: Implement PTP support for E830 devices
+6170ebf6a263aef8e482e7b8598eddd8f24cfc75 ice: c827: move wait for FW to ice_init_hw()
+c52995ac46b209dd72c6fed7a80941f5681bc82e ice: split ice_init_hw() out from ice_init_dev()
+d60a6d10edadd80dc3d6ea2256b1f24e19ae4e9a ice: minor: rename goto labels from err to unroll
+423ebbcec38ba4f5673115a6d58f5e3fe3cea56c ice: ice_probe: init ice_adapter after HW init
+845ace3a8358ac312a21881956a36b2d8d5780f7 ice: add recipe priority check in search
+05d7166787931ffd458e6d684fa6381514d34212 pldmfw: enable selected component update
+c04a766fb31bbb97a9ff2dd31341c823dd3d4b94 devlink: add devl guard
+8ea2e03eb58dd45eb5458b5835af6d3ca01ba9e2 ice: support FW Recovery Mode
+6ee8e469d9e03b7332d4f0995faffcbef212fd0f ice: use string choice helpers
+98c76c96b0567743c78b67936e0b99c08aa0d519 virtchnl: add support for enabling PTP on iAVF
+455bbf200874cdfb054f8458d0bd515c492dd660 ice: support Rx timestamp on flex descriptor
+10ac685d27e4460524e630d454d37d2f282f100e virtchnl: add enumeration for the rxdid format
+1dae309065f8303855968d05ee605ff9683dfcf5 iavf: add support for negotiating flexible RXDID format
+2e803cba2202c3c9ca6785c3d32219db3c894cc9 iavf: negotiate PTP capabilities
+3b1672bd8bb73d901c9dee06881cdae41497ac53 iavf: add initial framework for registering PTP clock
+5f2ce85b6655314f0a43c95d7f3e0f5b6b367c2f iavf: add support for indirect access to PHC time
+6c7e6ec20a51886add367855dda5bdacc9e5fd1e iavf: periodically cache PHC time
+446afe8250e636d097a2ddcc403707ce8c7847aa libeth: move idpf_rx_csum_decoded and idpf_rx_extracted
+02207e71ec735fd73d8fa90f16ea0ea31770b546 iavf: define Rx descriptors as qwords
+7fefabcfbc110f9085a5e2a7035fed237ad93180 iavf: refactor iavf_clean_rx_irq to support legacy and flex descriptors
+d4fde6d3cf2bc3073484052dea63645a28b61e8b iavf: Implement checking DD desc field
+91daba87921db45f5c9cd524fdf6d9025119b4f7 iavf: handle set and get timestamps ops
+71a3a6ff075cb0379a205bbdd1ab26e84d82a943 iavf: add support for Rx timestamps to hotpath
+b9b796df81ffc77174b890d156f85399bf70fd6f idpf: Change function argument
+a95ae635a66c37bac69b97dee8a7f1be7d146347 idpf: rename vport_ctrl_lock
+e6a04f395489b96e5c2dd1fe01a47ed26e8ad500 idpf: Add init, reinit, and deinit control lock
+6117148d970d45cc228d541431151bad972d73e4 idpf: add lock class key
+ccf093e3f44bb027219e507c40577a1b8d74993b idpf: add read memory barrier when checking descriptor done bit
+47f2f8c4a15d42ce9645820f6db0fe2dc459b101 ice: count combined queues using Rx/Tx count
+b8194d6c759879a3b03fabc4190c5bb9c8492da9 ice: devlink PF MSI-X max and min parameter
+78982530fe43dcf372ccdbbc786fe49c23a1f598 ice: remove splitting MSI-X between features
+67a1d276e7240d62a04adad0960b47fb145ddfbe ice: get rid of num_lan_msix field
+54fd87ac1c85b386823cade60fae330fad960f51 ice, irdma: move interrupts code to irdma
+757cf97f16f5da721cecca11c43d2e130b993775 ice: treat dyn_allowed only as suggestion
+2618964480ac601958ad43ae18f4f31d7527b533 ice: enable_rdma devlink param
+cd9b41c3d7fd092960219b32f122d05306a50c70 ice: simplify VF MSI-X managing
+0313d8b02ffba9c1f3f88ca63eba9f6d30ca0b8b ice: init flow director before RDMA
+fb7dc5b6a326fc02aff83cc17927b417bf303c0a ice: Add in/out PTP pin delays
+c09ffe20856dc4212905458df5e0ba7d0da5550f ice: do not configure destination override for switchdev
+8683c000f3a58a336583a71fb9c5055b3f8891a7 ice: add fw and port health reporters
+dd152b60071a97361c3bde288a22c1ce19ce9cb5 ice: use rd32_poll_timeout_atomic in ice_read_phy_tstamp_ll_e810
+c80d6f1b23d772d91bc457c72a31fb5f925a2ad2 ice: rename TS_LL_READ* macros to REG_LL_PROXY_H_*
+0ebace2eebbb5e14013e35aa3507a263c7ae1622 ice: add lock to protect low latency interface
+944f55a40a9c335f3c109ed762f2112c8879c200 ice: check low latency PHY timer update firmware capability
+aea761ebefa26b85da7d4658481745066b0ad6c8 ice: implement low latency PHY timer updates
+06610a403c4bb5694e19bb46e2d22788bcc94509 igc: Avoid unnecessary link down event in XDP_SETUP_PROG process
+72afe09c3054d20ccb8362a92fac59e03a3b4fd8 idpf: Acquire the lock before accessing the xn->salt
+105205a0bb123374212d20554215ab25dcadde57 idpf: convert workqueues to unbound
+19c0636fb9d8611b3da5ac071b37e8a5d666e7e7 idpf: add more info during virtchnl transaction timeout/salt mismatch
+a6f7ab306de9e5642fc938267dd12b2887571007 igb: narrow scope of vfs_lock in SR-IOV cleanup
+e8e87df9cee51059e578aca207251d1785513110 igb: introduce raw vfs_lock to igb_adapter
+018fa138a0477acc32871e2334a37f5905ce2a2d igb: split igb_msg_task()
+bb894c138a08403db1e23209bdb8928acdaa3041 igb: fix igb_msix_other() handling for PREEMPT_RT
+57e41acc1582738171f3c95290ef912fbaa9ed67 ice: Add E830 checksum offload support
+2fbf40f2acd375dc8669696f8a653b25d54f5ab4 ice: fix ice_parser_rt::bst_key array size
+b4218b84dd15ba6065172d0f272464a7bba7a464 idpf: fix transaction timeouts on reset
+d20ed074d21550a5ee5af7e8d1a0a0327e5c2085 ice: remove invalid parameter of equalizer
+89dca3cd99556b7dde30d6cf9181166345e6ffa1 ice: Fix switchdev slow-path in LAG
+6db9491e57a016a19ea8e60a384e773fae3d5758 e1000e: Fix real-time violations on link up
 
---===============5905811831691672681==--
+--===============3428740573055201705==--
