@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5554989416946272302=="
+Content-Type: multipart/mixed; boundary="===============1297349359818203142=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Mon, 13 Jan 2025 13:50:01 -0000
-Message-Id: <173677620160.3128069.2766379249267951880@gitolite.kernel.org>
+Date: Mon, 13 Jan 2025 13:50:08 -0000
+Message-Id: <173677620831.3129742.1741933853752240418@gitolite.kernel.org>
 
---===============5554989416946272302==
+--===============1297349359818203142==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-kvm
-    old: 9899b8201025d00b23aee143594a30c55cc4cc35
+  - ref: refs/heads/loongarch-next
+    old: 7f71507851fc7764b36a3221839607d3a45c2025
     new: 2737dee1067c2fc02256b2b15dab158c5e840568
-    log: revlist-9899b8201025-2737dee1067c.txt
+    log: revlist-7f71507851fc-2737dee1067c.txt
 
---===============5554989416946272302==
+--===============1297349359818203142==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-9899b8201025-2737dee1067c.txt
+Content-Disposition: attachment; filename=revlist-7f71507851fc-2737dee1067c.txt
 
 8366e64a4454481339e7c56a8ad280161f2e441d USB: serial: option: add Telit FE910C04 rmnet compositions
 b44679c63e4d3ac820998b6bd59fba89a72ad3e7 iomap: pass byte granular end position to iomap_add_to_ioend
@@ -1051,4 +1051,4 @@ be548645527a131a097fdc884b7fca40c8b86231 Merge tag 'for-linus' of git://git.kern
 4d38d0416ece7bab532e89a49f988a9954f12ee9 LoongArch: KVM: Clear LLBCTL if secondary mmu mapping is changed
 2737dee1067c2fc02256b2b15dab158c5e840568 LoongArch: KVM: Add hypercall service support for usermode VMM
 
---===============5554989416946272302==--
+--===============1297349359818203142==--
