@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Mon, 13 Jan 2025 21:12:53 -0000
-Message-Id: <173680277382.3504661.14309334075336759044@gitolite.kernel.org>
+Date: Mon, 13 Jan 2025 21:13:07 -0000
+Message-Id: <173680278722.3504873.16669532743325302039@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,13 +11,15 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pci/pci
 user: helgaas
 changes:
-  - ref: refs/heads/controller/rockchip
-    old: ae9a80b99d08cde6a4d307bfd5e08e3eb0b3ed55
-    new: f56ad632a35a78d8fb2792219e4fa3cc4089382f
+  - ref: refs/heads/controller/dwc
+    old: 5d2bc39f5be1c687026470e89b4bb786b379c648
+    new: df4c2c41c8efcfa6b63c4af45e226fe5b0d5f0d4
     log: |
-         fd46bc0e0bb3c6607363bd23f2b3c2a73dc75d66 PCI: rockchip: Add missing fields descriptions for struct rockchip_pcie_ep
-         abdd4c8ea7d75308315a15cfb97d2eabfb4d052b PCI: rockchip: Simplify clock handling by using clk_bulk*() functions
-         3d65f27ec2afb039643c9ab55cac5d6f9c8fb871 PCI: rockchip: Simplify reset control handling by using reset_control_bulk*() function
-         7a5cc59c41c93a014e4db67bf671aaf6e6de4da7 PCI: rockchip: Refactor rockchip_pcie_disable_clocks() signature
-         f56ad632a35a78d8fb2792219e4fa3cc4089382f PCI: rockchip-ep: Fix error code in rockchip_pcie_ep_init_ob_mem()
+         fe6d30f5869bf98bc642d73c47559308b38d07ca PCI: qcom: Don't wait for link if we can detect Link Up
+         4e77c91ee4e3f7e30278cb5e4ef2d8d41ecd2cdf PCI: qcom: Update ICC and OPP values after Link Up event
+         19decd11a2539b06beb9bca4329e9cb9a209e25c PCI: dw-rockchip: Enumerate endpoints based on dll_link_up IRQ
+         054e55e1afa14b774075e9f90e77381e955e4e67 PCI: dw-rockchip: Don't wait for link since we can detect Link Up
+         f3b208f712dd5f7daffc688c8f625c5b5510ba2d PCI: dw-rockchip: Replace magic values with defines
+         69771738cc0fb73d14a0edcc133bf5acff5df02e PCI: dw-rockchip: Remove redundant calls to dev_err()
+         df4c2c41c8efcfa6b63c4af45e226fe5b0d5f0d4 PCI: dwc: Fix potential truncation in dw_pcie_edma_irq_verify()
          
