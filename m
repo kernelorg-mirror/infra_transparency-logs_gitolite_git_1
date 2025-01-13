@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============4204202041597965916=="
+Content-Type: multipart/mixed; boundary="===============4568570407547360396=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 13 Jan 2025 05:45:31 -0000
-Message-Id: <173674713117.2675991.2213892188411253605@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Mon, 13 Jan 2025 05:46:32 -0000
+Message-Id: <173674719296.2676780.18211357187471012157@gitolite.kernel.org>
 
---===============4204202041597965916==
+--===============4568570407547360396==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
-    old: e7cd121cbf1bec05e50335f82d4aa7d8fa700538
-    new: b37333c8657cfece16b2fb0ba3fef2cb481a0a19
-    log: revlist-e7cd121cbf1b-b37333c8657c.txt
+  - ref: refs/heads/tty-testing
+    old: 41971e39d3dd7c295133bfd338247dc6a5de32bf
+    new: 2f83e38a095f8bf7c6029883d894668b03b9bd93
+    log: revlist-41971e39d3dd-2f83e38a095f.txt
 
---===============4204202041597965916==
+--===============4568570407547360396==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736747159 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1736747128-2f5e35a773c1f3e15a7884db0d9e96655627dca7
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736747220 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1736747189-924aae7fe7d49a1bd0aec8b9e3b934ade3ab97eb
 
-e7cd121cbf1bec05e50335f82d4aa7d8fa700538 b37333c8657cfece16b2fb0ba3fef2cb481a0a19 refs/heads/staging-next
+41971e39d3dd7c295133bfd338247dc6a5de32bf 2f83e38a095f8bf7c6029883d894668b03b9bd93 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeEqJcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+p/0P/R95z37aHRmvkCjisGf4
-6M54YA9cs/md+7OaHucrjljmfc7GkiOaI080Nso+9kQY7ytS3ZYlCOc/o11Vp6Q5
-KO7VDmfJb9O+t1VUgTs5QEYvghTe0HZlrC+C/boNAEtZ/ABELm0+jMoIJgzvAIAV
-3ywJAju9sIBCbI75MsQ0hneEMyNNMshOk3Ykn3Qw0kx/kzOZTy+fR1rC2ZHypk/r
-Zw4SXnmF1A28bqzdWNbWNbv3sbUmaDCokUurUXSpFTs4XzLo+mzVOWdlp9SftLlR
-6lccNT7gCas+GvoIOumAsS8IX7gyuFTDzpQcNVfoNClmmDeVYwDdVXTiVidHCopi
-9MUgVWuK9s+jPZRSGxgVrXZG6vTm33GEt9iYdiRXVKx1EpDmGC0xZFnJ+SI5vtHR
-FDScHhmRaHyUdzR7EL4FxwOVONPJoHn/29Y9FxIOaot2DHt8PK5IOT7D80EYjH17
-2OIK4uxV2EqGQQlDwfccFW/DU8m1NiXkSHH5Cvn2bafJsTwidvNi2Ov+ku23PdyU
-LNOdRhekC6/u6q3X0ommNwvgaYT9zprXIcguw9m64Xy7EP321ZFVu/qE74Zod0bT
-GFfpOevB6nOKD63TvxsYP1s+mKEFUIJh7aN3zMY2EQ4df0cKlH+Hux94vjbLWwgY
-oHTH9mpTaiHOkUQxyrLLZugp
-=5tgo
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeEqNQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kQ8P/2YIBeEGgTLD0pDXBczS
+DU7KPYkwOZvgtJ3ow6kLYuIsECPmf82UuCoEUNym8mSrim/z0lmdcXHbwwjrvKKv
+1W7ywhMznCgmTiVxdw/Cr2pt4TB+v8Oo2IaanCNHqxs2Ex+vZdO5VpZXE6GfS3wr
+XhFgvWgxBNI7bxJszVxLc5muU4yFpAS5vjNrSrM1MHcC0HBZ08xmghJugKzELRyC
+nged2Bz/3c9AeaM1jOw2Ux0OYWbOKa7onNAdynXceSLelcOZW6B+hVTriIS3zH1S
+CjZmxX09tMgaub+R3tAe2wopU5ayar4mOCFGR9CHFmprXMRZVuMy67vT7m1QmGQB
+fH5sYxdNEF4oXezk9LoDoU/HDzGhciYRQUchLcXLx3u3q/XIVosuQiSStWSIEeXN
+mXpxDOcAi/wtTJrdo177VAThCdyNZHUU60bF4xFI2Q9rt/jAH+T+6BbF1AQLYygY
+D5jQSeOuQzcEMmGrZDBkHpQVW/GqXgS1hJxInJhhccTfxzGuS0eCfcXoUE56k14F
+Tvp9GHRTEIUlQq7t8Y7XBx71stdYSKFLCB64r1e+VaZGSpzBaDszpqzgqLyRv/IP
+2ggOQROGpkj3sPUfcttkgC3/hi1UtT+5RRdECW3b+evMniXC/Qq21x1vZ3MyH+al
+jrrqianzsFKMUpJb/92nekA9
+=v/vL
 -----END PGP SIGNATURE-----
 
---===============4204202041597965916==
+--===============4568570407547360396==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-e7cd121cbf1b-b37333c8657c.txt
+Content-Disposition: attachment; filename=revlist-41971e39d3dd-2f83e38a095f.txt
 
 2c87309ea741341c6722efdf1fb3f50dd427c823 ieee802154: ca8210: Add missing check for kfifo_alloc() in ca8210_probe()
 eb09fbeb48709fe66c0d708aed81e910a577a30a mac802154: check local interfaces before deleting sdata list
@@ -1049,6 +1049,8 @@ be548645527a131a097fdc884b7fca40c8b86231 Merge tag 'for-linus' of git://git.kern
 083f9fac673dca75b355b6bc6c1b4bf4792ad949 Merge tag 'driver-core-6.13-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 0cbe10470b4473ab5e290f1d39033fdb6d6c69c9 Merge tag 'char-misc-6.13-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 5bc55a333a2f7316b58edc7573e8e893f7acb532 Linux 6.13-rc7
-b37333c8657cfece16b2fb0ba3fef2cb481a0a19 Merge 6.13-rc7 into staging next
+568bfce07873fb07086ca239c0e321ef5d8088f1 Merge 6.13-rc7 into tty-next
+b06f388994500297bb91be60ffaf6825ecfd2afe tty: xilinx_uartps: split sysrq handling
+2f83e38a095f8bf7c6029883d894668b03b9bd93 tty: Permit some TIOCL_SETSEL modes without CAP_SYS_ADMIN
 
---===============4204202041597965916==--
+--===============4568570407547360396==--
