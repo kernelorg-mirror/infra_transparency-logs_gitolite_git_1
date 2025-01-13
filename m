@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6600604799684483147=="
+Content-Type: multipart/mixed; boundary="===============1800701222250182424=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 13 Jan 2025 15:09:09 -0000
-Message-Id: <173678094967.3194758.9229016875955782317@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 13 Jan 2025 15:18:36 -0000
+Message-Id: <173678151602.3202763.18108745385479204818@gitolite.kernel.org>
 
---===============6600604799684483147==
+--===============1800701222250182424==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/fix-async-copy
-    old: 0ae51d25d41390be607c97f5d84fa6f82592a1d8
-    new: ec73e0968012b8e0c55cb7f5b9b371e6da065057
-    log: revlist-0ae51d25d413-ec73e0968012.txt
+  - ref: refs/heads/v10_20241224_dmitry_baryshkov_drm_add_drm_hdmi_codec_framework
+    old: fff85651201bc768cfdb984973496baa0dfa4568
+    new: 5b0779ae13de345b405a67c71cbb63705cadb295
+    log: revlist-fff85651201b-5b0779ae13de.txt
 
---===============6600604799684483147==
+--===============1800701222250182424==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-0ae51d25d413-ec73e0968012.txt
+Content-Disposition: attachment; filename=revlist-fff85651201b-5b0779ae13de.txt
 
 2c87309ea741341c6722efdf1fb3f50dd427c823 ieee802154: ca8210: Add missing check for kfifo_alloc() in ca8210_probe()
 eb09fbeb48709fe66c0d708aed81e910a577a30a mac802154: check local interfaces before deleting sdata list
@@ -1018,12 +1018,7 @@ be548645527a131a097fdc884b7fca40c8b86231 Merge tag 'for-linus' of git://git.kern
 083f9fac673dca75b355b6bc6c1b4bf4792ad949 Merge tag 'driver-core-6.13-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 0cbe10470b4473ab5e290f1d39033fdb6d6c69c9 Merge tag 'char-misc-6.13-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 5bc55a333a2f7316b58edc7573e8e893f7acb532 Linux 6.13-rc7
-b2543c5b6e18d6f45fe2ac984e708dba6a11e3bd NFS: CB_OFFLOAD can return NFS4ERR_DELAY
-5f9cbaa3e2088429efcbbd6aecc01ee13dfb3e67 NFS: Fix typo in OFFLOAD_CANCEL comment
-2483342225b320ec1fc9f602e871d8b8812768c4 NFS: Rename struct nfs4_offloadcancel_data
-aa7a6518c1a61e5cf2c00a81bbf56c2b29c5a25a NFS: Implement NFSv4.2's OFFLOAD_STATUS XDR
-caceaf889e028d7adbf61f19388cd2eb547a07c6 NFS: Implement NFSv4.2's OFFLOAD_STATUS operation
-d059d01c5b37fc3edd330d542bc596bf7136985d NFS: Use NFSv4.2's OFFLOAD_STATUS operation
-ec73e0968012b8e0c55cb7f5b9b371e6da065057 NFS: Refactor trace_nfs4_offload_cancel
+a8e792d3f0bbecb87ab05e9592cadf0b178ab952 ASoC: hdmi-codec: pass data to get_dai_id too
+5b0779ae13de345b405a67c71cbb63705cadb295 ASoC: hdmi-codec: move no_capture_mute to struct hdmi_codec_pdata
 
---===============6600604799684483147==--
+--===============1800701222250182424==--
