@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0326701388336443137=="
+Content-Type: multipart/mixed; boundary="===============8665026982483793135=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 13 Jan 2025 05:19:19 -0000
-Message-Id: <173674555905.2650967.8060025770346428402@gitolite.kernel.org>
+Date: Mon, 13 Jan 2025 05:22:00 -0000
+Message-Id: <173674572020.2654331.17732752084807991999@gitolite.kernel.org>
 
---===============0326701388336443137==
+--===============8665026982483793135==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: c7a5378a0f707686de3ddb489f1653c523bb7dcc
-    new: 5bc55a333a2f7316b58edc7573e8e893f7acb532
-    log: revlist-c7a5378a0f70-5bc55a333a2f.txt
+  - ref: refs/heads/char-misc-next
+    old: 44cefdf1cc6d1b912eca6004012e587174e32eeb
+    new: be887fcad3f18031232eabcb398d009a3fc3ef61
+    log: revlist-44cefdf1cc6d-be887fcad3f1.txt
 
---===============0326701388336443137==
+--===============8665026982483793135==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736745588 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736745748 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1736745557-44931cce56d7c78af428a38a7a8ab151c5ce6024
+nonce 1736745717-5df29829569428d6b0e86efb42b98866d127ed35
 
-c7a5378a0f707686de3ddb489f1653c523bb7dcc 5bc55a333a2f7316b58edc7573e8e893f7acb532 refs/heads/char-misc-linus
+44cefdf1cc6d1b912eca6004012e587174e32eeb be887fcad3f18031232eabcb398d009a3fc3ef61 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeEonQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++6sP+wQs4N0kYGHa6pOMA4tx
-PGtVxMDJ9Exl2Ku2QadmQeKOwMA37j24bSXbxCDk7Jk/a3FiQ+poGfc5N5AKqCdj
-ptjKbA+34MAentTrNi+zGGgJ3A6SSIh7ywvt+AdrroXjjB5fA+NzC8i07ZgKXuBn
-O3nmOkl8d6HFv9Qq2VEqPtIGWdSGZmO1/ItTQs/MtRu5epZhok1YUg+Zy4Ni056c
-W1Bo/HlmOrtxBU7jCwVqPBKF0w1/yBFIrwOkGQvyv6HDn0vgHakGtjn8uuokDKsl
-4ABDunDfIu3eTrWvLFT+gOpNzpSxE/g+FPrQIZWT0NyueXngFoin/69isFJGhLFi
-ja7xVX6CcjyS8FeyLKcaxYEA2zi0+kOT3QRaxD8aAMk9QNzC3i09Sirq2oqACndf
-3TNQHlxb1Td635T3eXZim5voptm8NvmD+ZCJOkHA9Yk//D7oltRyaHZ28elB226x
-KzERHnoCWuQyk7kbPyAttPqalYMjEy/aMUXz4pNP7g7xBwePB+creLdz95VcJ0Hi
-dRzxku6O863iSXzanvmkcFh5uLLF7F+HWVWDv14LqO0JToL3HlHAufawAH7AacTe
-OqGqncdO4v/2mdkpkzkv4+QW9APU4ak84M2EIDr5/xwyR6/KDC7F6rkatFtFc8rB
-AomAvkvkFyAzk1+W+GjlESCA
-=Bb6c
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeEoxQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xfIP/3CLMrvlm+zm37YCNM3m
+3ptOgiCE7X/oBWgitF1+GqoBaUP3GElQZtqgYH2lHd9U6tTjCsYW6MH2pxsQpKLj
+/PcCPvsEoWJvkofggOepthlC6aIg34Y2J7F3qMb/1LF5SGBVR9tqLbb4IR1M7FTM
+lhVl0E8Z/34u/juCiANhHw+rjFxJaGSJB+a581oiqaVIdB7PUCOlnzm/RcMb4J9m
+Ra/tDB0qW/5hZntAlH+hRLFtrRKEV5bxjMQXcsfEMXAEYhBvBt2yp/+9mdKRQZAp
+afzz4ynKAJzBC4NPOy5v+c4mP/P6qnX9rTNQ0qSnsMDZn+34K4S8Yg1aBdQEQIkw
+k5AIQgdlxW+ZyZadU77e9gnu1/KqIkkutWNdOVauyy0SSjorhF9/F+JsV9azfjuw
+xk+ICYwp8wiBi42I5tr7DpkC7vVPI+5U2YXZxLuRw8HJh8ufp6j5v9DfnAo8LVV5
+whcC3nJFPrPFWvr79GmV4GjZUs5Smbw2yn2IvueFl6L7JWHsvEcWBy1Aavqb6w6X
+l19//SrqSwX9FGv0NvpPep13u2JD4PCPPu4MxrJXJ+V0X8qs5K0t0TKVhnqEI4cI
+qn1LhDsE7suUvnqXg8HGevtvQxay+GDPb9uTGLJC1jrloQCcooT1RfFvnD/tqJa0
+v86irIDUQzGsS6a0Ufwr4kSM
+=rNoK
 -----END PGP SIGNATURE-----
 
---===============0326701388336443137==
+--===============8665026982483793135==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-c7a5378a0f70-5bc55a333a2f.txt
+Content-Disposition: attachment; filename=revlist-44cefdf1cc6d-be887fcad3f1.txt
 
 2c87309ea741341c6722efdf1fb3f50dd427c823 ieee802154: ca8210: Add missing check for kfifo_alloc() in ca8210_probe()
 eb09fbeb48709fe66c0d708aed81e910a577a30a mac802154: check local interfaces before deleting sdata list
@@ -64,6 +64,7 @@ bc7acc0bd0f94c26bc0defc902311794a3d0fae9 of: property: fw_devlink: Do not use in
 7f05e20b989ac33c9c0f8c2028ec0a566493548f of: address: Preserve the flags portion on 1:1 dma-ranges mapping
 61a6ba233fe1198e9eacc9ca1d1cbdb27f70cee5 dt-bindings: Unify "fsl,liodn" type definitions
 e60b14f47d779edc38bc1f14d2c995d477cec6f9 arm64: dts: qcom: sa8775p: Fix the size of 'addr_space' regions
+098d8374033f323dae87a1d792a3c8911c2cf57f bus: mhi: host: pci_generic: fix MHI BAR mapping
 b905bafdea21a75d75a96855edd9e0b6051eee30 hfs: Sanity check the root record
 60bc447c85f80d3184c7ac327e1d29e0b0a11d46 of: Add #address-cells/#size-cells in the device-tree root empty node
 c43ec96e8d34399bd9dab2f2dc316b904892133f dmaengine: at_xdmac: avoid null_prt_deref in at_xdmac_prep_dma_memset
@@ -105,7 +106,34 @@ b086a46dae48829e11c0c02580e30d920b76743c mtd: rawnand: arasan: Fix double assert
 140054a25f85036ec847e722c76cc1bfaf3f0d96 mtd: rawnand: omap2: Fix build warnings with W=1
 4f776d81bf927a4f25d5e32a4d0df08ee509dd6c arm64: dts: fvp: Update PCIe bus-range property
 48808b55b07c3cea64805267a5547f03e6452a9f firmware: microchip: fix UL_IAP lock check in mpfs_auto_update_state()
+c0599762f0c7e260b99c6b7bceb8eae69b804c94 staging: iio: ad9834: Correct phase range check
+4636e859ebe0011f41e35fa79bab585b8004e9a3 staging: iio: ad9832: Correct phase range check
+4be339af334c283a1a1af3cb28e7e448a0aa8a7c iio: adc: ad7124: Disable all channels at probe time
+aaa90d0751071d38f3e74c4e14bc1083abcb0c15 iio: test : check null return of kunit_kmalloc in iio_rescale_test_scale
+fa13ac6cdf9b6c358e7d77c29fb60145c7a87965 iio: gyro: fxas21002c: Fix missing data update in trigger handler
+c0f866de4ce447bca3191b9cefac60c4b36a7922 iio: imu: inv_icm42600: fix spi burst write not supported
+65a60a590142c54a3f3be11ff162db2d5b0e1e06 iio: imu: inv_icm42600: fix timestamps after suspend if sensor is on
+dddfd0c489e9a3fde98fedda8832cb9ecaae3abf iio: adc: ad4695: fix buffered read, single sample timings
+ad8479ac083b841da42975d79288b25c088c5cc3 iio: adc: stm32-dfsdm: handle label as an optional property
+bcb394bb28e55312cace75362b8e489eb0e02a30 iio: adc: ti-ads1298: Add NULL check in ads1298_init
+55d82a7ac7e9432d2c92ed485c29aad0aa99281d dt-bindings: iio: st-sensors: Re-add IIS2MDC magnetometer
+fbeba4364c5619428714625a70cd8444e6b1e4fd iio: test: Fix GTS test config
+333be433ee908a53f283beb95585dfc14c8ffb46 iio: dummy: iio_simply_dummy_buffer: fix information leak in triggered buffer
+2a7377ccfd940cd6e9201756aff1e7852c266e69 iio: adc: ti-ads8688: fix information leak in triggered buffer
+b62fbe3b8eedd3cf3c9ad0b7cb9f72c3f40815f0 iio: light: bh1745: fix information leak in triggered buffer
+47b43e53c0a0edf5578d5d12f5fc71c019649279 iio: light: vcnl4035: fix information leak in triggered buffer
+6ae053113f6a226a2303caa4936a4c37f3bfff7b iio: imu: kmx61: fix information leak in triggered buffer
+38724591364e1e3b278b4053f102b49ea06ee17c iio: adc: rockchip_saradc: fix information leak in triggered buffer
+6007d10c5262f6f71479627c1216899ea7f09073 iio: pressure: zpa2326: fix information leak in triggered buffer
+75f339d3ecd38cb1ce05357d647189d4a7f7ed08 iio: adc: ti-ads1119: fix information leak in triggered buffer
+2a8e34096ec70d73ebb6d9920688ea312700cbd9 iio: adc: ti-ads124s08: Use gpiod_set_value_cansleep()
+36a44e05cd807a54e5ffad4b96d0d67f68ad8576 iio: adc: ad7173: fix using shared static info struct
+de6a73bad1743e9e81ea5a24c178c67429ff510b iio: adc: at91: call input_free_device() on allocated iio_dev
+bbf6b6d53e29b6db4f31eb25b5533a12b9134302 iio: adc: ad9467: Fix the "don't allow reading vref if not available" case
 9d23e48654620fdccfcc74cc2cef04eaf7353d07 phy: rockchip: samsung-hdptx: Set drvdata before enabling runtime PM
+64f43895b4457532a3cc524ab250b7a30739a1b1 iio: inkern: call iio_device_put() only on mapped devices
+2f43d5200c7330143089bfd1f2440753bac10617 iio: temperature: tmp006: fix information leak in triggered buffer
+54d394905c92b9ecc65c1f9b2692c8e10716d8e1 iio: adc: ti-ads1119: fix sample size in scan struct for triggered buffer
 c70812cb281fd2529051e818ea25eb736b369753 arm64: dts: imx8-ss-audio: add fallback compatible string fsl,imx6ull-esai for esai
 c5b8d2c370842e3f9a15655893d8c597e2d981d9 arm64: dts: imx95: correct the address length of netcmix_blk_ctrl
 1ddb61a7c0150ba2ab42ec9cb74c392c5c4616b4 ARM: imx_v6_v7_defconfig: enable SND_SOC_SPDIF
@@ -234,6 +262,8 @@ da2132e683954e7ddda3cd674e866a847b7389eb RDMA/bnxt_re: Fix setting mandatory att
 7c449ef0fdce540bfb235a2d93e7184864c3388b ASoC: Intel: sof_sdw: Fix DMI match for Lenovo 21Q6 and 21Q7
 ba7d47a54bf23a7201bdd2978e16b04fc1cb1f6e ASoC: Intel: sof_sdw: Fix DMI match for Lenovo 21QA and 21QB
 6f4a0fd03ce856c6d9811429b9969b4f27e2eaee ASoC: dt-bindings: realtek,rt5645: Fix CPVDD voltage comment
+6ffc565c242ac76eb43bc0fb841726ad8c0366bc Merge tag 'iio-fixes-for-6.13a' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-linus
+e16ebd9d839d1252ff15c29d37b0cf303ddd2662 Merge tag 'mhi-fixes-for-v6.13' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/mani/mhi into char-misc-linus
 59275b763306877a275563f89834cad88131d7e5 Merge tag 'usb-serial-6.13-rc3' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
 001a3d5e8b449f8e48dda76affa5d5fa55f69ec6 ASoC: Intel: sof_sdw: Update DMI matches for Lenovo
 dc690bc256edd9da6596fccf978327309173f44a Merge tag 'platform-drivers-x86-v6.13-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
@@ -274,6 +304,8 @@ abcc2ddae5f82aa6cfca162e3db643dd33f0a2e8 i915/guc: Reset engine utilization buff
 e21ebe51af688eb98fd6269240212a3c7300deea xhci: Turn NEC specific quirk for handling Stop Endpoint errors generic
 b9252f80b807801056e67e3a672fb1be0ecb81d8 usb: xhci: fix ring expansion regression in 6.13-rc1
 70465acbb0ce1bb69447acf32f136c8153cda0de exfat: fix exfat_find_empty_entry() not returning error on failure
+00a973e093e93690d433f1e1873ee52a6a6eca1f interconnect: qcom: icc-rpm: Set the count member before accessing the flex array
+44c5aa73ccd1e8a738fd011354ee8fb9fcda201a interconnect: icc-clk: check return values of devm_kasprintf()
 7d2f320e12744e5906a4fab40381060a81d22c12 net: ethernet: oa_tc6: fix infinite loop error when tx credits becomes 0
 e592b5110b3e9393881b0a019d86832bbf71a47f net: ethernet: oa_tc6: fix tx skb race condition between reference pointers
 90d130aadce1592f6f2dc0cfecfc9502bbd6f5c0 Merge branch 'fixes-on-the-open-alliance-tc6-10base-t1x-mac-phy-support-generic-lib'
@@ -727,6 +759,7 @@ e6178bf78d0378c2d397a6aafaf4882d0af643fa RDMA/bnxt_re: Fix error recovery sequen
 cc0331e29fce4c3c2eaedeb7029360be6ed1185c Merge tag 'nvme-6.13-2024-12-31' of git://git.infradead.org/nvme into block-6.13
 56e6a3499e14716b9a28a307bb6d18c10e95301e Merge tag 'trace-v6.13-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 c4bd13be1949020e3b1c9ed6889988e0b30c3d3b drm/mediatek: Remove unneeded semicolon
+997bb2d75646d2d07d6629503b5864e174cb1d18 Merge tag 'icc-6.13-rc6' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-next
 5cc2db37124bb33914996d6fdbb2ddb3811f2945 x86/static-call: Remove early_boot_irqs_disabled check to fix Xen PVH dom0
 7bac65687510038390a0a54cbe14fba08d037e46 scsi: ufs: qcom: Power off the PHY if it was already powered on in ufs_qcom_power_up_sequence()
 bb9850704c043e48c86cc9df90ee102e8a338229 scsi: ufs: core: Honor runtime/system PM levels if set by host controller drivers
@@ -874,6 +907,8 @@ f5b435be70cb126866fa92ffc6f89cda9e112c75 USB: serial: option: add Neoway N723-EA
 7ee7c9b39ed36caf983706f5b893cc5c37a79071 xfs: don't return an error from xfs_update_last_rtgroup_size for !XFS_RT
 47f33c27fc9565fb0bc7dfb76be08d445cd3d236 dm-ebs: don't set the flag DM_TARGET_PASSES_INTEGRITY
 80f130bfad1dab93b95683fc39b87235682b8f72 dm thin: make get_first_thin use rcu-safe list first function
+194f9f94a5169547d682e9bbcc5ae6d18a564735 misc: microchip: pci1xxxx: Resolve kernel panic during GPIO IRQ handling
+c7a5378a0f707686de3ddb489f1653c523bb7dcc misc: microchip: pci1xxxx: Resolve return code mismatch during GPIO set config
 c2994b008492db033d40bd767be1620229a3035e Bluetooth: hci_sync: Fix not setting Random Address when required
 a182d9c84f9c52fb5db895ecceeee8b3a1bf661e Bluetooth: MGMT: Fix Add Device to responding before completing
 8023dd2204254a70887f5ee58d914bf70a060b9d Bluetooth: btnxpuart: Fix driver sending truncated data
@@ -1014,5 +1049,6 @@ be548645527a131a097fdc884b7fca40c8b86231 Merge tag 'for-linus' of git://git.kern
 083f9fac673dca75b355b6bc6c1b4bf4792ad949 Merge tag 'driver-core-6.13-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 0cbe10470b4473ab5e290f1d39033fdb6d6c69c9 Merge tag 'char-misc-6.13-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 5bc55a333a2f7316b58edc7573e8e893f7acb532 Linux 6.13-rc7
+be887fcad3f18031232eabcb398d009a3fc3ef61 Merge 6.13-rc4 into char-misc-next
 
---===============0326701388336443137==--
+--===============8665026982483793135==--
