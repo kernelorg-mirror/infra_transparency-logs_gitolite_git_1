@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5429490968013668127=="
+Content-Type: multipart/mixed; boundary="===============4149729278471913072=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 13 Jan 2025 05:41:07 -0000
-Message-Id: <173674686787.2671127.13112190674824545740@gitolite.kernel.org>
+Date: Mon, 13 Jan 2025 05:41:12 -0000
+Message-Id: <173674687294.2671274.11836667838226854421@gitolite.kernel.org>
 
---===============5429490968013668127==
+--===============4149729278471913072==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8
+  - ref: refs/heads/driver-core-linus
+    old: 67510d7e2e5f5bdc020bf9d759aa575cce48c8e1
     new: 5bc55a333a2f7316b58edc7573e8e893f7acb532
-    log: revlist-78d4f34e2115-5bc55a333a2f.txt
+    log: revlist-67510d7e2e5f-5bc55a333a2f.txt
 
---===============5429490968013668127==
+--===============4149729278471913072==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736746896 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736746902 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1736746866-c9946996cce6bbf0d22057b9ef49916b7aa380bc
+nonce 1736746871-8fafe37a372fd3c9dd7450575805b8f560608014
 
-78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8 5bc55a333a2f7316b58edc7573e8e893f7acb532 refs/heads/main
+67510d7e2e5f5bdc020bf9d759aa575cce48c8e1 5bc55a333a2f7316b58edc7573e8e893f7acb532 refs/heads/driver-core-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeEp5AbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OH8P+wasFzRIv8fggPMUg0Vr
-9yxKVuJgzCkhPg5J3UcU90b3uVJ0+kRqgV3c1w2qQd0spdREJn5fsa3/oHnV+fjr
-i8xzrigI5MXpvep/TJtUDx9E0I9pCFlazjo+8xApgXrlCdP+0g5H8Qsbz8U/chHo
-/gMGFYmfdwtQ+OMtHCPgvmZOtGulfi3mcGDxd1sANFqwIx5FjqleLTONd8fymTij
-6i9OGQox1aDfJxDgSNhvg8KtmmbWEarMRZ7YH5UDm3E4plYvgg3mGClp/KG8QD0L
-a/8DPqOeWH2cSH6ju8mhU4kQMtj0JJuF2R0wwaSJ4bDM4uo7tifh+jhDpP6qlfKA
-SJ6bG79a3mchivI5Z919w/OlRr/6Zv3xwh0eZC2tsg6rVAz7XsGk5qKp0R+GVy4Y
-atPN1VAOJnk4vCqTXyxOJDQ5UxBp3bDQC57q+6bdgg4THOCNVZUOdjLeKQ2ruCpB
-QfZQjmBDRu3oAFmgG2n2114zF6il8s6nBZdkQGnb9DtAJxzcZQGv7LU4p6DtAgJy
-cX6diUxxWq4nk6SSYTWVVfEFXbNwx+hXmMdD+eKynlVVikctpFJNuWwS157uO3gv
-xfjQWQNX4mOmvXAGOWkEdP9GtIgXqG5k6EbsSqgjH4HhbYY2aYNRRXornDBEw+5e
-iRoI80kajrIQz+Wo4vnCXuxP
-=YLd8
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeEp5YbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+U8wQAMo+90jH9yqp53sso3Tf
+cqIQ9H1otY/D/xdUFrSOvhT7ANwhf9C9Zw7HDO8Jo9omRvTXGYFCHNPN8KkVbtWj
+LF5Eqvnzh1+Slj8GEX4ilRBvHQQkpMKC4Xq1kKU6VNf4IQyBq9FZl9jzwxTuVjW7
+Ab7wJ2hsKEI1fIyJzZFAneFCeQQDsKoWIm+Om0LTjvs81LP1O4z+Z+P/LTcddzlT
+f+YJFYigP5mWbalks8m8nzzO18bk0jYsAdWkCA98bPkY5bC4XPhNekRqQKxaH2oe
+FmpXlVRgTBgDuocN9wjP7VEJN0hTkq7t0+t+R8DzzhMT847JRACH2PRtIhjE9pwj
+NKCuQl+JBRlgDo5j+OVik8mcVYmg3jEDs/+/T/o0PkVc4Dxpd+mN7o/2XEXU5hA/
+E9fggyayU2ftkV3/kQSAMVUllaE0/LWce+tXse5MmqisQvT/dxocT35MOQ8eNXxo
+zt5yOsFLKoqhD5vNdsjQC/iHxpD+uE+qIE2QIO9iEbNKpa4YjnyqPkrAioUFRZQh
+IzJzN0z29jXc8vStNS9VesoFYGYc8Gzi0nFYIkh7j022TDI2ZdBRIC/uW64XciIl
+DSZ0q5dHuOnGTKDMfZ4n70IwpOLSRx6fzIT4sOYsnzOWLAt1/j/DEdHOqbpqb3lp
+Ny/7Gr837A0l55Ht18wbPB1a
+=pFOy
 -----END PGP SIGNATURE-----
 
---===============5429490968013668127==
+--===============4149729278471913072==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-78d4f34e2115-5bc55a333a2f.txt
+Content-Disposition: attachment; filename=revlist-67510d7e2e5f-5bc55a333a2f.txt
 
 2c87309ea741341c6722efdf1fb3f50dd427c823 ieee802154: ca8210: Add missing check for kfifo_alloc() in ca8210_probe()
 eb09fbeb48709fe66c0d708aed81e910a577a30a mac802154: check local interfaces before deleting sdata list
@@ -867,8 +867,6 @@ fd48f071a3d6d51e737e953bb43fe69785cf59a9 net: don't dump Tx and uninitialized NA
 84b172cea4a23016dc80a44eaa7ff8b7c97b04b3 staging: gpib: refer to correct config symbol in tnt4882 Makefile
 3ff93c5935610f1f53f4b730d9b7b76a9559968a Merge tag 'fuse-fixes-6.13-rc7' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse
 8fd56ad6e7c90ac2bddb0741c6b248c8c5d56ac8 afs: Fix the maximum cell name length
-f8f25893a477a4da4414c3e40ddd51d77fac9cfc fs: debugfs: differentiate short fops with proxy ops
-24edfbdedf19998366205130cfc93158a475497e debugfs: fix missing mutex_destroy() in short_fops case
 dd410d784402c5775f66faf8b624e85e41c38aaf platform/x86/amd/pmc: Only disable IRQ1 wakeup where i8042 actually enabled it
 bee9a0838fd223823e5a6d85c055ab1691dc738e platform/x86/intel: power-domains: Add Clearwater Forest support
 cc1ff7bc1bb378e7c46992c977b605e97d908801 platform/x86: ISST: Add Clearwater Forest to support list
@@ -879,11 +877,9 @@ b07f6a30c7a42661ce7c0222a642c8e91d69c8b1 KVM: s390: selftests: Add ucontrol flic
 5021fd77d68fce28048b1af18c87bad6b7ffb282 KVM: s390: Reject KVM_SET_GSI_ROUTING on ucontrol VMs
 b1da33b0e3dcd0d14cf375be2fd05b54cf75df56 KVM: s390: selftests: Add ucontrol gis routing test
 e376d958871c0eeb7e97cf95655015fc343d209c KVM: s390: selftests: Add has device attr check to uc_attr_mem_limit selftest
-cbd399f78e23ad4492c174fc5e6b3676dba74a52 topology: Keep the cpumask unchanged when printing cpumap
 65104599b3a8ed42d85b3f8f27be650afe1f3a7e ice: fix max values for dpll pin phase adjust
 6c5b989116083a98f45aada548ff54e7a83a9c2d ice: fix incorrect PHY settings for 100 GB/s
 bd2776e39c2a82ef4681d02678bb77b3d41e79be igc: return early when failing to read EECD register
-b4aee757f1baf20fa2650fc23a7b0335696e005c MAINTAINERS: align Danilo's maintainer entries
 66d337fede44dcbab4107d37684af8fcab3d648e ACPI: resource: Add Asus Vivobook X1504VAP to irq1_level_low_skip_override[]
 7ed4e4a659d99499dc6968c61970d41b64feeac0 ACPI: resource: Add TongFang GM5HG0A to irq1_edge_low_force_override[]
 cd4a7b2e6a2437a5502910c08128ea3bad55a80b ACPI: resource: acpi_dev_irq_override(): Check DMI match last
@@ -997,7 +993,6 @@ c77cd47cee041bc1664b8e5fcd23036e5aab8e2a Merge tag 'net-6.13-rc7' of git://git.k
 85bf89f2684e354b692b3d684f72b62376f5ff66 Merge tag 'drm-xe-fixes-2025-01-09' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
 fddb4fd91a955636baa451fe82ad0266f55c7ede Merge tag 'mediatek-drm-fixes-20250104' of https://git.kernel.org/pub/scm/linux/kernel/git/chunkuang.hu/linux into drm-fixes
 b583ef82b671c9a752fbe3e95bd4c1c51eab764d uprobes: Fix race in uprobe_free_utask
-67510d7e2e5f5bdc020bf9d759aa575cce48c8e1 fs: debugfs: fix open proxy for unsafe files
 111d36d6278756128b7d7fab787fdcbf8221cd98 xfs: lock dquot buffer before detaching dquot from b_li_list
 cacd9ae4bf801ff4125d8961bb9a3ba955e51680 poll_wait: add mb() to fix theoretical race between waitqueue_active() and .poll()
 10b02a2cfec2f106db4897ad87732db56d71e6fd poll_wait: kill the obsolete wait_address check
@@ -1050,4 +1045,4 @@ be548645527a131a097fdc884b7fca40c8b86231 Merge tag 'for-linus' of git://git.kern
 0cbe10470b4473ab5e290f1d39033fdb6d6c69c9 Merge tag 'char-misc-6.13-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 5bc55a333a2f7316b58edc7573e8e893f7acb532 Linux 6.13-rc7
 
---===============5429490968013668127==--
+--===============4149729278471913072==--
