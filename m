@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
-Date: Mon, 13 Jan 2025 19:35:34 -0000
-Message-Id: <173679693412.3424792.11802517305774406518@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Mon, 13 Jan 2025 19:37:55 -0000
+Message-Id: <173679707556.3426041.8486642865942038147@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hyperv/linux
-user: wei.liu
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/hyperv-next
-    old: f285d995743269aa9f893e5e9a1065604137c1f6
-    new: 2e03358be78b65d28b66e17aca9e0c8700b0df78
-    log: |
-         2e03358be78b65d28b66e17aca9e0c8700b0df78 Documentation: hyperv: Add overview of guest VM hibernation
-         
+  - ref: refs/tags/riscv-config-for-v6.14
+    old: 0000000000000000000000000000000000000000
+    new: f55e27357eaa1bd1708724c763c0a38241100f89
