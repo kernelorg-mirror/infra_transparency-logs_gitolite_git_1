@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 13 Jan 2025 18:32:52 -0000
-Message-Id: <173679317250.3371546.19501968787537530@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 13 Jan 2025 18:34:47 -0000
+Message-Id: <173679328713.3372886.6576559290152548488@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/asoc-6.14
-    old: 8eb27b5758e6fb6d1881413e3f1159c579ac48b3
-    new: 292284f2be46514ed07e7b3e3350329f656c4f62
+  - ref: refs/heads/x86/urgent
+    old: a9bbe341333109465605e8733bab0b573cddcc8c
+    new: 95093e066cfdd18271619248b569c26cfc8fa024
     log: |
-         6f490e6b2c34792e363685bacb48a759e7e40cd1 ASoC: fsl_mqs: Add i.MX943 platform support
-         a1a771e5f1e31e4764d9a225c02e93969d3f5389 ASoC: dt-bindings: fsl,mqs: Add compatible string for i.MX943 platform
-         292284f2be46514ed07e7b3e3350329f656c4f62 ASoC: fsl: Support MQS on i.MX943
+         3663155bfb47855685ae5f0488117dcbe503eeac memremap: Pass down MEMREMAP_* flags to arch_memremap_wb()
+         95093e066cfdd18271619248b569c26cfc8fa024 x86/mm: Make memremap(MEMREMAP_WB) map memory as encrypted by default
          
