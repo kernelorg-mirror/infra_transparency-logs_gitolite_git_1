@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 13 Jan 2025 22:41:11 -0000
-Message-Id: <173680807199.3577234.2568161242144072779@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Mon, 13 Jan 2025 22:49:33 -0000
+Message-Id: <173680857397.3583136.1500749543411303021@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/pending
-    old: ef50947a64a1414e6e03113d546e16a285118a85
-    new: 6ed61fbb0207a1c60299b8be19ca8311ba6ffccd
+  - ref: refs/heads/for-6.14/io_uring
+    old: 94d57442e56d2ad2ca20d096040b8ae6f216a921
+    new: a13030fd194c88961be4679f87a1380f1bda0ebe
     log: |
-         991862a126e1ecf8d2fc532d0688363364d5570e wifi: ath12k: relocate ath12k_mac_ieee80211_sta_bw_to_wmi()
-         6ed61fbb0207a1c60299b8be19ca8311ba6ffccd wifi: ath12k: handle ath12k_mac_ieee80211_sta_bw_to_wmi() for link sta
+         a13030fd194c88961be4679f87a1380f1bda0ebe io_uring: simplify the SQPOLL thread check when cancelling requests
+         
+  - ref: refs/heads/for-next
+    old: 1862ac15d1dc2fd517cc613c929fe2332b89e546
+    new: 2b122597b78e9b76b6709a49775ddbce2c1b6e80
+    log: |
+         a13030fd194c88961be4679f87a1380f1bda0ebe io_uring: simplify the SQPOLL thread check when cancelling requests
+         2b122597b78e9b76b6709a49775ddbce2c1b6e80 Merge branch 'for-6.14/io_uring' into for-next
          
