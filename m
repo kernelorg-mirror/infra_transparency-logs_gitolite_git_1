@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7745107643216135349=="
+Content-Type: multipart/mixed; boundary="===============2475643024201474940=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 14 Jan 2025 09:50:21 -0000
-Message-Id: <173684822138.4174316.4205828657677074893@gitolite.kernel.org>
+Date: Tue, 14 Jan 2025 09:51:09 -0000
+Message-Id: <173684826946.4175046.7896958842650322429@gitolite.kernel.org>
 
---===============7745107643216135349==
+--===============2475643024201474940==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,42 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: cfb1181c3b90d78d21836301b39536b2ee355330
-    new: f05e5661ffba8a78ab34c1bc19ed507b8c2e5464
-    log: revlist-cfb1181c3b90-f05e5661ffba.txt
+    old: f05e5661ffba8a78ab34c1bc19ed507b8c2e5464
+    new: b73654dcd8edb56e61abf48289067e17cf1b30cc
+    log: revlist-f05e5661ffba-b73654dcd8ed.txt
+  - ref: refs/heads/tip/urgent
+    old: b58b8501168134fd1d35dfb055075084fa50dfb6
+    new: b5890eda93e32a900c89f7e3e8395f9fbca39a01
+    log: revlist-b58b85011681-b5890eda93e3.txt
 
---===============7745107643216135349==
+--===============2475643024201474940==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cfb1181c3b90-f05e5661ffba.txt
+Content-Disposition: attachment; filename=revlist-f05e5661ffba-b73654dcd8ed.txt
+
+ecdedcc1c666c915f13e2d5a4d1ee4f3d5b05016 Merge branch into tip/master: 'sched/urgent'
+b5890eda93e32a900c89f7e3e8395f9fbca39a01 Merge branch into tip/master: 'x86/urgent'
+1afabc60e4073759aabd7bd0228999d282ce6a79 Merge branch into tip/master: 'x86/merge'
+63c9eafc077088a53634d3ee557503398d380d26 Merge branch into tip/master: 'ras/merge'
+ab807f63d0dae375e16f6803bb1d1ac3e68ede99 Merge branch into tip/master: 'irq/core'
+be36498006b400559fd18a5729a770a8bbb479b7 Merge branch into tip/master: 'locking/core'
+0a09bb885e25e36b942d2fa9f24615984ebda46b Merge branch into tip/master: 'objtool/core'
+d9a1ab7e1708d89971b9b979cd6bca5cdebfd167 Merge branch into tip/master: 'perf/core'
+e7a76c427ecb15c30def5b545212d098ff8a7669 Merge branch into tip/master: 'sched/core'
+8c3d3df90b0e88d9b7a2660af122513b2fb2f0aa Merge branch into tip/master: 'x86/bugs'
+f83d1f0a95a902952f1ed829e67dedcdd6e4cfc4 Merge branch into tip/master: 'x86/cache'
+c26cbe7641302fc6a4f17c40a4c336eb857b561f Merge branch into tip/master: 'x86/cleanups'
+da104338f8e73c39f56fb55fc34f77b612bc2310 Merge branch into tip/master: 'x86/cpu'
+d70c024a981a5c66f83aefb32f84d7076dbc63e2 Merge branch into tip/master: 'x86/microcode'
+fcfe6e319b13bf4946ce4284decb73fefdc545cd Merge branch into tip/master: 'x86/mm'
+b73654dcd8edb56e61abf48289067e17cf1b30cc Merge branch into tip/master: 'x86/tdx'
+
+--===============2475643024201474940==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-b58b85011681-b5890eda93e3.txt
 
 76d5d4c53e68719c018691b19a961e78524a155c mm/kmemleak: fix percpu memory leak detection failure
 2bff77c665edd854a09c479effe75b3b0e3fedef scripts/decode_stacktrace.sh: fix decoding of lines with an additional info
@@ -45,6 +72,7 @@ bd3d56ffa2c450364acf02663ba88996da37079d mm: vmscan : pgdemote vmstat is not get
 1c47c57818ad73d2d09ddbcb4839708aab5ff2e3 mm: fix assertion in folio_end_read()
 cbc5dde0a461240046e8a41c43d7c3b76d5db952 fs/proc: fix softlockup in __read_vmcore (part 2)
 c45323b7560ec87c37c729b703c86ee65f136d75 Merge tag 'mm-hotfixes-stable-2025-01-13-00-03' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-f05e5661ffba8a78ab34c1bc19ed507b8c2e5464 Merge branch 'linus'
+ecdedcc1c666c915f13e2d5a4d1ee4f3d5b05016 Merge branch into tip/master: 'sched/urgent'
+b5890eda93e32a900c89f7e3e8395f9fbca39a01 Merge branch into tip/master: 'x86/urgent'
 
---===============7745107643216135349==--
+--===============2475643024201474940==--
