@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/palo
-Date: Tue, 14 Jan 2025 01:03:02 -0000
-Message-Id: <173681658275.3696230.9865454700664532758@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Tue, 14 Jan 2025 01:04:10 -0000
+Message-Id: <173681665057.3696863.1473634021737511301@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/palo
-user: deller
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/devel
-    old: 308cabe57cf155331b3e0194bc20e2bbf24178ca
-    new: c647d4ecef47f7694dfa5572204aeae6bb2b7ccf
+  - ref: refs/heads/kernel-6.12/nfs-6.12.9
+    old: 1eeb00bd1063a9c92633afb456abc78e9a5c521b
+    new: e047aa11fed85b68515b677a76ae03da213e0334
     log: |
-         9178c507cb1e6b3383a2fd1ab15d9d1877c372d0 ipl: Simplify code and update comment
-         f2e951228e90db087dc97e0ebd62dbde027293e7 ipl: Limit transferred bytes per PDC IODC call to 4 MB
-         c647d4ecef47f7694dfa5572204aeae6bb2b7ccf ipl: Add hidden option to toggle block read mode
+         d5448107e7a6fac2dea9deaf7428364a4f8058b6 nfs: fix incorrect error handling in LOCALIO
+         e047aa11fed85b68515b677a76ae03da213e0334 Merge remote-tracking branch 'snitzer/nfs-localio-for-next' into kernel-6.12/nfs-6.12.9
          
