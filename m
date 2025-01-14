@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Tue, 14 Jan 2025 00:28:32 -0000
-Message-Id: <173681451233.3663822.11639907172961271400@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Tue, 14 Jan 2025 00:37:30 -0000
+Message-Id: <173681505041.3671564.12709346116326098903@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: kwilczynski
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/config-acs
-    old: 57722057d7620bbf437b4ec0b6b054f2d4ba9b89
-    new: 741abdf1e7f6888a7665bbcbd62bbdc3ceb3a869
+  - ref: refs/heads/nfs-localio-for-next
+    old: a8de934ef4bb7c384d8317cfbbe8bf870a4bffbf
+    new: d5448107e7a6fac2dea9deaf7428364a4f8058b6
     log: |
-         741abdf1e7f6888a7665bbcbd62bbdc3ceb3a869 Documentation: Fix the config_acs= example
+         d5448107e7a6fac2dea9deaf7428364a4f8058b6 nfs: fix incorrect error handling in LOCALIO
          
