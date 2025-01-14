@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Tue, 14 Jan 2025 17:22:39 -0000
-Message-Id: <173687535966.383921.11347651354257571923@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Tue, 14 Jan 2025 17:27:19 -0000
+Message-Id: <173687563926.387957.17818033680319955493@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/dev-test
-    old: ffb4361c00c233a5ddf9ccc0faa38335e503da8a
-    new: 225119bdd7ee54fe7f70cff1dfaaadb7913d53db
+  - ref: refs/tags/scsi-fixes
+    old: fccb8aaa731e26d0a297edff3e5423db4f4bd6be
+    new: ac4a97b84042f2a132ae8e854f3480cbadc3a207
     log: |
-         fb21a062ea425e286f2552facd6386d945762d7a f2fs: remove blk_finish_plug
-         10b47b2e64fa3443819f75a996ed16de5f6e6d91 f2fs: fix to do sanity check correctly on i_inline_xattr_size
-         e97720116c5b42ec4a6818f2d4182597b856e228 f2fs: register inodes which is able to donate pages
-         225119bdd7ee54fe7f70cff1dfaaadb7913d53db f2fs: add a sysfs entry to request donate file-backed pages
+         8604f633f59375687fa115d6f691de95a42520e3 scsi: core: Fix command pass through retry regression
+         63ca02221cc5aa0731fe2b0cc28158aaa4b84982 scsi: iscsi: Fix redundant response for ISCSI_UEVENT_GET_HOST_STATS request
          
