@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Tue, 14 Jan 2025 20:53:24 -0000
-Message-Id: <173688800457.561153.14228098123561614067@gitolite.kernel.org>
+Date: Tue, 14 Jan 2025 20:53:25 -0000
+Message-Id: <173688800565.561226.15782015852194473561@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: a72eaa175656836a32e94004ea05598409e2f2fd
+  - ref: refs/heads/pending
+    old: 6917da9175f135f1e25e511ca7214306f6517f5c
     new: 336097d74c284a7c928b723ce8690f28912da03d
     log: |
          21261e4d564e866bdae810b4fb5278a3a6a1a6ed wifi: ath12k: Refactor ath12k_hw set helper function argument
