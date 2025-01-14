@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0987861279761971869=="
+Content-Type: multipart/mixed; boundary="===============3754136523512391365=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Tue, 14 Jan 2025 17:13:21 -0000
-Message-Id: <173687480169.375118.14178997941898708573@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Tue, 14 Jan 2025 17:13:23 -0000
+Message-Id: <173687480347.375214.16463618106770031055@gitolite.kernel.org>
 
---===============0987861279761971869==
+--===============3754136523512391365==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: c45323b7560ec87c37c729b703c86ee65f136d75
     log: revlist-5bc55a333a2f-c45323b7560e.txt
 
---===============0987861279761971869==
+--===============3754136523512391365==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -46,4 +46,4 @@ bd3d56ffa2c450364acf02663ba88996da37079d mm: vmscan : pgdemote vmstat is not get
 cbc5dde0a461240046e8a41c43d7c3b76d5db952 fs/proc: fix softlockup in __read_vmcore (part 2)
 c45323b7560ec87c37c729b703c86ee65f136d75 Merge tag 'mm-hotfixes-stable-2025-01-13-00-03' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 
---===============0987861279761971869==--
+--===============3754136523512391365==--
