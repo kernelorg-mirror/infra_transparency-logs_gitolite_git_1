@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 14 Jan 2025 11:01:07 -0000
-Message-Id: <173685246775.37821.7023398197621191658@gitolite.kernel.org>
+Date: Tue, 14 Jan 2025 11:10:11 -0000
+Message-Id: <173685301114.45407.1575351370989956905@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,15 +12,12 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: pabeni
 changes:
   - ref: refs/heads/main
-    old: 6a46e3e87b5964f21eb90e8abfee916141df1763
-    new: a8d00668c06b1aef677c2dc4f91677de2531c967
+    old: a8d00668c06b1aef677c2dc4f91677de2531c967
+    new: 624d7a8a9d86c429a28adc6267fe460ad87a5211
     log: |
-         fe55b1d401c697c2ef126fe3ebbcaa6885fced5a ethtool: linkstate: migrate linkstate functions to support multi-PHY setups
-         b7a2c1fe6b55364e61b4b54b991eb43a47bb1104 net: ethtool: plumb PHY stats to PHY drivers
-         6167c0b6e8d7ddb6b3e5efffcac34a85f7872997 net: ethtool: add support for structured PHY statistics
-         7d66c74a171d6c667cbf36f4b6cf1cc98744a83c Documentation: networking: update PHY error counter diagnostics in twisted pair guide
-         f2bc1c2655728ac00c35cfb992bdb3243ca17e7e net: phy: introduce optional polling interface for PHY statistics
-         23bbd28729bddfe1b57c7202e285e5b431b9ab3a net: phy: dp83td510: add statistics support
-         677d895af1cc3bc90c3e09d7eeb0b2cd4dd2ddff net: phy: dp83tg720: add statistics support
-         a8d00668c06b1aef677c2dc4f91677de2531c967 Merge branch 'introduce-unified-and-structured-phy'
+         da0a090a3c6220772801b791845e408ae7579914 netfilter: nf_tables: remove the genmask parameter
+         178883fd039d38a708cc56555489533d9a9c07df ipvs: speed up reads from ip_vs_conn proc file
+         95f1c1e98db36ddb9ea79e5c61ec11ec43ebbbaf netfilter: xt_hashlimit: htable_selective_cleanup() optimization
+         601731fc7c6111bbca49ce3c9499c2e4d426079d netfilter: conntrack: add conntrack event timestamp
+         624d7a8a9d86c429a28adc6267fe460ad87a5211 Merge tag 'nf-next-25-01-11' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf-next
          
