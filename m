@@ -1,21 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Tue, 14 Jan 2025 11:34:20 -0000
-Message-Id: <173685446087.63277.9894507786562339627@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
+Date: Tue, 14 Jan 2025 11:34:49 -0000
+Message-Id: <173685448992.64355.10347167500821523860@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: maz
+repo: pub/scm/linux/kernel/git/rppt/linux
+user: rppt
 changes:
-  - ref: refs/heads/next
-    old: a1caf40a7a2c732cec1a33ec7e23d816e9103ac7
-    new: 0b7ff31fba40a61cfb341c8eea1540aaa6f256b9
+  - ref: refs/heads/execmem/x86-rox/v9
+    old: 9c24708d11ff1f080ddfd73574af9f6a17298426
+    new: 335cf831e2f30b3ad627973c176be56a2c433d4b
     log: |
-         c139b6d1b4d27724987af5071177fb5f3d60c1e4 KVM: arm64: nv: Always evaluate HCR_EL2 using sanitising accessors
-         36f998de853cfad60508dfdfb41c9c40a2245f19 KVM: arm64: nv: Apply RESx settings to sysreg reset values
-         0b7ff31fba40a61cfb341c8eea1540aaa6f256b9 Merge branch kvm-arm64/nv-resx-fixes-6.14 into kvmarm-master/next
+         bc732c021b386506eb4c2c10914a6b00411a7549 x86/mm/pat: Restore large pages after fragmentation
+         1ad51ef0a6bcdd238dd5591344431a0a0f26bab0 execmem: use correct page_shift when finally remapping pages ROX
+         39fc7f79c2949db6ba5752a849da00133a1e8b0e execmem: add API for temporal remapping as RW and restoring ROX afterwards
+         e11c14524e0e32438a80cb3f1b8d679a5c10fb67 module: introduce MODULE_STATE_GONE
+         dcdccabb553e31a8ff9504295f324812751cbc0c module: switch to execmem API for remapping as RW and restoring ROX
+         fc9168644125ca2fbc22745a0746cdec0a202377 Revert "x86/module: prepare module loading for ROX allocations of text"
+         335cf831e2f30b3ad627973c176be56a2c433d4b module: drop unused module_writable_address()
          
