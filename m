@@ -1,49 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============8672512986352229291=="
+Content-Type: multipart/mixed; boundary="===============4415168905566050814=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Tue, 14 Jan 2025 10:54:08 -0000
-Message-Id: <173685204843.30561.3939398203129220971@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
+Date: Tue, 14 Jan 2025 10:57:56 -0000
+Message-Id: <173685227638.34319.11480575841994140149@gitolite.kernel.org>
 
---===============8672512986352229291==
+--===============4415168905566050814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/mic/linux
+user: mic
 changes:
-  - ref: refs/heads/for-next
-    old: be3d3e40bb5691ba880304222fa7baeee6cd71cc
-    new: 99e66d1dcf55a5a71009d0d6f1f61b03587d7830
-    log: revlist-be3d3e40bb56-99e66d1dcf55.txt
+  - ref: refs/heads/next
+    old: b104e811998f172125a01bf5174922ccc78a8107
+    new: 07c5416043e880fca7ac1b8e6cea3e8d69974934
+    log: revlist-b104e811998f-07c5416043e8.txt
 
---===============8672512986352229291==
+--===============4415168905566050814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-be3d3e40bb56-99e66d1dcf55.txt
+Content-Disposition: attachment; filename=revlist-b104e811998f-07c5416043e8.txt
 
-201044519b820b0173ee560ad23842ad7bc82f40 ARC: migrate to the generic rule for built-in DTB
-f9515ac353c8f7cba0dd32f72c4d041713b379df kbuild: Fix signing issue for external modules
-dd74dbd0dc124c71a86466840a5908ba44495bc4 genksyms: rename m_abstract_declarator to abstract_declarator
-58d2af949bf992db62985251e13805d2860349bb genksyms: rename cvar_qualifier to type_qualifier
-6932f74d2249a0de7d78337fb980a2c81a911f2c genksyms: reduce type_qualifier directly to decl_specifier
-fb3e950be17699f099518d39e5ef4626d00051a6 genksyms: fix 6 shift/reduce conflicts and 5 reduce/reduce conflicts
-30d0f544cdede162f84d8874a066953da71b979f genksyms: fix last 3 shift/reduce conflicts
-a454fb40b33dadb2cf55f5aaf9406ba3afa03f4a genksyms: remove Makefile hack
-fa5d7ad1dc2ecec375f6e72c2ef14269c9be7b1c genksyms: restrict direct-abstract-declarator to take one parameter-type-list
-48ce65b737dad6846b4a263cc37f6486236e1461 genksyms: restrict direct-declarator to take one parameter-type-list
-cc362158ed1206dbce6cff41cc729bee8437a782 genksyms: record attributes consistently for init-declarator
-aafc06db5083b458e923cf67ae4d78b3771efdd4 genksyms: decouple ATTRIBUTE_PHRASE from type-qualifier
-7fbed2251c91d2e8624d7d570840aced2e303be6 genksyms: fix syntax error for attribute before abstract_declarator
-4a23c8c2dfaeb8f16bafa09cf86e60602426bc0d genksyms: fix syntax error for attribute before nested_declarator
-dee07f92cb2d981e1f58e9b7619c7b62deb56598 genksyms: fix syntax error for attribute after abstact_declarator
-c695e694525c283be8579ec5e283ba9242d0f260 genksyms: fix syntax error for attribute after 'struct'
-899a8e175de5cef460bc19621c9665db04db87d7 genksyms: fix syntax error for attribute after 'union'
-aa3b0798705e4e769b8fe9d907e3d75e7daea7f3 genksyms: fix syntax error for builtin (u)int*x*_t types
-99e66d1dcf55a5a71009d0d6f1f61b03587d7830 genksyms: fix syntax error for attribute before init-declarator
+49440290a0935f428a1e43a5ac8dc275a647ff80 landlock: Handle weird files
+25ccc75f5de6684fd6a497e44297497ccc7e0603 landlock: Constify get_mode_access()
+d32f79a59ae1a90f27735c75f9920c585e6ceb8f landlock: Use scoped guards for ruleset
+16a6f4d3b558bd55b52892f2becad8f33cb62ed2 landlock: Use scoped guards for ruleset in landlock_add_rule()
+9849099cb7b3bbd11f8ebccadfea895d81f78304 landlock: Factor out check_access_path()
+3d6640ff5443ca03cb5b52e36b739820c4292a46 landlock: Move access types
+aefa8878b466cdc9e4f9e447155432b29dc69fde landlock: Simplify initially denied access rights
+501a2f27b71b25b7512263d5fbab184409e27876 landlock: Align partial refer access checks with final ones
+9b15e324d8cec345853de16370ecda4216706d0d selftests/landlock: Add test to check partial access in a mount tree
+24d5fe79b8da61928e5d907823c8c15bc2f11d14 landlock: Optimize file path walks and prepare for audit support
+15541b4c1f0fe83ab322496ab5b6146cf27f973a selftests/landlock: Fix error message
+76695dc5264f5ea320fd3adb216196b93082ef0e selftests/landlock: Add wrappers.h
+07c5416043e880fca7ac1b8e6cea3e8d69974934 selftests/landlock: Add layout1.umount_sandboxer tests
 
---===============8672512986352229291==--
+--===============4415168905566050814==--
