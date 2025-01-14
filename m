@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 14 Jan 2025 22:50:54 -0000
-Message-Id: <173689505484.660002.9443356637680680726@gitolite.kernel.org>
+Date: Tue, 14 Jan 2025 22:52:28 -0000
+Message-Id: <173689514875.660846.8309721752458580544@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,12 +12,11 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 63803c4a6d5f94fccc076b5e53442c747eea8d63
-    new: b56e4d660a9688ff83f5cbdc6e3ea063352d0d79
+    old: b56e4d660a9688ff83f5cbdc6e3ea063352d0d79
+    new: 721167200493d9a62300e421a9f7f3f020b2e3d0
     log: |
-         05baba80f2c49ca04019971e7b12b7d66e2ec192 docs: netdev: document requirements for Supported status
-         af2bcb5774f8b17941c6b647b333b69c09b45063 MAINTAINERS: downgrade Ethernet NIC drivers without CI reporting
-         b1b5cff6002a1cfe806a66aede143f44e8c1a1db tsnep: Link queues to NAPIs
-         62507e3856affdc1c90792bea89564a67f01f97c net: ethernet: ti: am65-cpsw: VLAN-aware CPSW only if !DSA
-         b56e4d660a9688ff83f5cbdc6e3ea063352d0d79 net: airoha: Enforce ETS Qdisc priomap
+         3d483a10327f38595f714f9f9e9dde43a622cb0f net: phy: realtek: add support for reading MDIO_MMD_VEND2 regs on RTL8125/RTL8126
+         1416a9b2ba710d31954131c06d46f298e340aa2c net: phy: move realtek PHY driver to its own subdirectory
+         33700ca45b7d2e1655d4cad95e25671e8a94e2f0 net: phy: realtek: add hwmon support for temp sensor on RTL822x
+         721167200493d9a62300e421a9f7f3f020b2e3d0 Merge branch 'net-phy-realtek-add-hwmon-support'
          
