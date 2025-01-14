@@ -1,43 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============4415168905566050814=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
-Date: Tue, 14 Jan 2025 10:57:56 -0000
-Message-Id: <173685227638.34319.11480575841994140149@gitolite.kernel.org>
-
---===============4415168905566050814==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 14 Jan 2025 11:01:07 -0000
+Message-Id: <173685246775.37821.7023398197621191658@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mic/linux
-user: mic
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/next
-    old: b104e811998f172125a01bf5174922ccc78a8107
-    new: 07c5416043e880fca7ac1b8e6cea3e8d69974934
-    log: revlist-b104e811998f-07c5416043e8.txt
-
---===============4415168905566050814==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b104e811998f-07c5416043e8.txt
-
-49440290a0935f428a1e43a5ac8dc275a647ff80 landlock: Handle weird files
-25ccc75f5de6684fd6a497e44297497ccc7e0603 landlock: Constify get_mode_access()
-d32f79a59ae1a90f27735c75f9920c585e6ceb8f landlock: Use scoped guards for ruleset
-16a6f4d3b558bd55b52892f2becad8f33cb62ed2 landlock: Use scoped guards for ruleset in landlock_add_rule()
-9849099cb7b3bbd11f8ebccadfea895d81f78304 landlock: Factor out check_access_path()
-3d6640ff5443ca03cb5b52e36b739820c4292a46 landlock: Move access types
-aefa8878b466cdc9e4f9e447155432b29dc69fde landlock: Simplify initially denied access rights
-501a2f27b71b25b7512263d5fbab184409e27876 landlock: Align partial refer access checks with final ones
-9b15e324d8cec345853de16370ecda4216706d0d selftests/landlock: Add test to check partial access in a mount tree
-24d5fe79b8da61928e5d907823c8c15bc2f11d14 landlock: Optimize file path walks and prepare for audit support
-15541b4c1f0fe83ab322496ab5b6146cf27f973a selftests/landlock: Fix error message
-76695dc5264f5ea320fd3adb216196b93082ef0e selftests/landlock: Add wrappers.h
-07c5416043e880fca7ac1b8e6cea3e8d69974934 selftests/landlock: Add layout1.umount_sandboxer tests
-
---===============4415168905566050814==--
+  - ref: refs/heads/main
+    old: 6a46e3e87b5964f21eb90e8abfee916141df1763
+    new: a8d00668c06b1aef677c2dc4f91677de2531c967
+    log: |
+         fe55b1d401c697c2ef126fe3ebbcaa6885fced5a ethtool: linkstate: migrate linkstate functions to support multi-PHY setups
+         b7a2c1fe6b55364e61b4b54b991eb43a47bb1104 net: ethtool: plumb PHY stats to PHY drivers
+         6167c0b6e8d7ddb6b3e5efffcac34a85f7872997 net: ethtool: add support for structured PHY statistics
+         7d66c74a171d6c667cbf36f4b6cf1cc98744a83c Documentation: networking: update PHY error counter diagnostics in twisted pair guide
+         f2bc1c2655728ac00c35cfb992bdb3243ca17e7e net: phy: introduce optional polling interface for PHY statistics
+         23bbd28729bddfe1b57c7202e285e5b431b9ab3a net: phy: dp83td510: add statistics support
+         677d895af1cc3bc90c3e09d7eeb0b2cd4dd2ddff net: phy: dp83tg720: add statistics support
+         a8d00668c06b1aef677c2dc4f91677de2531c967 Merge branch 'introduce-unified-and-structured-phy'
+         
