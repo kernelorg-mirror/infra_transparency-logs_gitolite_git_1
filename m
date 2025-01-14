@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8864615970379939951=="
+Content-Type: multipart/mixed; boundary="===============5046454539679258941=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 14 Jan 2025 18:13:12 -0000
-Message-Id: <173687839271.428619.12451177520221858339@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Tue, 14 Jan 2025 18:13:19 -0000
+Message-Id: <173687839954.428780.5513736345233388385@gitolite.kernel.org>
 
---===============8864615970379939951==
+--===============5046454539679258941==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: e9cbc854d8b148e3491291fb615e94261970fb54
     log: revlist-ac0ac75189a4-e9cbc854d8b1.txt
 
---===============8864615970379939951==
+--===============5046454539679258941==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ f9c506fb69bdcfb9d7138281378129ff037f2aa1 perf test stat: Avoid hybrid assumption
 1ab138febca6510881a0114fcfb329044fb4ed22 perf test perftool_testsuite: Return correct value for skipping
 e9cbc854d8b148e3491291fb615e94261970fb54 perf config: Add a function to set one variable in .perfconfig
 
---===============8864615970379939951==--
+--===============5046454539679258941==--
