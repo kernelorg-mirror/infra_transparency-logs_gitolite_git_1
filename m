@@ -1,17 +1,17 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 14 Jan 2025 16:05:58 -0000
-Message-Id: <173687075813.317957.18196005235355211787@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 14 Jan 2025 16:06:05 -0000
+Message-Id: <173687076583.318147.6459011371178703497@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 changes:
-  - ref: refs/heads/for-6.14
+  - ref: refs/heads/spi-6.14
     old: 066855cfda50638616fcdcf4068948dc87c2f7a8
     new: 9a8afbe5677234ac2490438d6b8ab74ee7fb359e
     log: |
