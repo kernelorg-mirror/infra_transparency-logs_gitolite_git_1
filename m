@@ -1,20 +1,45 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 14 Jan 2025 19:53:01 -0000
-Message-Id: <173688438136.511923.13311725613188358907@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Tue, 14 Jan 2025 19:56:09 -0000
+Message-Id: <173688456932.515416.1801963876846803417@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/master
-    old: c3812b15000cc5b7b17c7238f8b12f6a22df0b1d
-    new: 7f5b6a8ec18e3add4c74682f60b90c31bdf849f2
+  - ref: refs/heads/bleeding-edge
+    old: e04b2cb2770f7a370fcdba144e3753cd27e574d6
+    new: 508572a584716e1df38623438d669d95f945b334
     log: |
-         15b8968dcb90f194d44501468b230e6e0d816d4a PCI/bwctrl: Fix NULL pointer deref on unbind and bind
-         7f5b6a8ec18e3add4c74682f60b90c31bdf849f2 Merge tag 'pci-v6.13-fixes-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
+         7e265fc04690d449a40b413b0348b15c748cea6f cpufreq: Move endif to the end of Kconfig file
+         e2046b72e9797df8569a79b839b6bfaedd6377fe Merge branch 'pm-cpufreq-fixes' into fixes
+         993fce4fce1c3d1142037555d97927b6eb1420c5 Merge branch 'fixes' into linux-next
+         508572a584716e1df38623438d669d95f945b334 Merge branch 'linux-next' into bleeding-edge
+         
+  - ref: refs/heads/fixes
+    old: 065d2f06d3f117cc72d3918bdef2e95c3741ecce
+    new: e2046b72e9797df8569a79b839b6bfaedd6377fe
+    log: |
+         7e265fc04690d449a40b413b0348b15c748cea6f cpufreq: Move endif to the end of Kconfig file
+         e2046b72e9797df8569a79b839b6bfaedd6377fe Merge branch 'pm-cpufreq-fixes' into fixes
+         
+  - ref: refs/heads/linux-next
+    old: 54332ae3064abf082ce9e81245f5a39aab918559
+    new: 993fce4fce1c3d1142037555d97927b6eb1420c5
+    log: |
+         7e265fc04690d449a40b413b0348b15c748cea6f cpufreq: Move endif to the end of Kconfig file
+         e2046b72e9797df8569a79b839b6bfaedd6377fe Merge branch 'pm-cpufreq-fixes' into fixes
+         993fce4fce1c3d1142037555d97927b6eb1420c5 Merge branch 'fixes' into linux-next
+         
+  - ref: refs/heads/testing
+    old: 54332ae3064abf082ce9e81245f5a39aab918559
+    new: 993fce4fce1c3d1142037555d97927b6eb1420c5
+    log: |
+         7e265fc04690d449a40b413b0348b15c748cea6f cpufreq: Move endif to the end of Kconfig file
+         e2046b72e9797df8569a79b839b6bfaedd6377fe Merge branch 'pm-cpufreq-fixes' into fixes
+         993fce4fce1c3d1142037555d97927b6eb1420c5 Merge branch 'fixes' into linux-next
          
