@@ -1,45 +1,37 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Tue, 14 Jan 2025 19:56:09 -0000
-Message-Id: <173688456932.515416.1801963876846803417@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lenb/linux
+Date: Tue, 14 Jan 2025 20:01:40 -0000
+Message-Id: <173688490076.519884.5010549860748271746@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/lenb/linux
+user: lenb
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: e04b2cb2770f7a370fcdba144e3753cd27e574d6
-    new: 508572a584716e1df38623438d669d95f945b334
+  - ref: refs/heads/next
+    old: 75de0ab82fb4b67955be83fef3ce302c9b977504
+    new: 4367fb1a547a0823dd160370f5feaeabaef9dbaf
     log: |
-         7e265fc04690d449a40b413b0348b15c748cea6f cpufreq: Move endif to the end of Kconfig file
-         e2046b72e9797df8569a79b839b6bfaedd6377fe Merge branch 'pm-cpufreq-fixes' into fixes
-         993fce4fce1c3d1142037555d97927b6eb1420c5 Merge branch 'fixes' into linux-next
-         508572a584716e1df38623438d669d95f945b334 Merge branch 'linux-next' into bleeding-edge
+         05c14d8fd71b9c19391d0b4d65b1c1764e1c440f tools/power turbostat: add Busy% to "show idle"
+         22a835282b6240f38097f479ae2194bbeb0181e4 tools/power turbostat: Add an NMI column
+         4a358ba215dfefe161b5904e51e48f5f0e82652f tools/power turbostat: Remove SysWatt from DISABLED_BY_DEFAULT
+         2f60f03934a50bc1fb69bb4f47a25cddd6807b0b tools/power turbostat: Fix PMT mmaped file size rounding
+         2debf2bf438046ce2c51e319118e18611ca225ce tools/power turbostat: Add fixed RAPL PSYS divisor for SPR
+         af0e673ba9a92eba5fda7420c0e0f233285e9c38 tools/power turbostat: Enhance turbostat self-performance visibility
+         4367fb1a547a0823dd160370f5feaeabaef9dbaf tools/power turbostat: version 2025.01.14
          
-  - ref: refs/heads/fixes
-    old: 065d2f06d3f117cc72d3918bdef2e95c3741ecce
-    new: e2046b72e9797df8569a79b839b6bfaedd6377fe
+  - ref: refs/heads/turbostat
+    old: 75de0ab82fb4b67955be83fef3ce302c9b977504
+    new: 4367fb1a547a0823dd160370f5feaeabaef9dbaf
     log: |
-         7e265fc04690d449a40b413b0348b15c748cea6f cpufreq: Move endif to the end of Kconfig file
-         e2046b72e9797df8569a79b839b6bfaedd6377fe Merge branch 'pm-cpufreq-fixes' into fixes
-         
-  - ref: refs/heads/linux-next
-    old: 54332ae3064abf082ce9e81245f5a39aab918559
-    new: 993fce4fce1c3d1142037555d97927b6eb1420c5
-    log: |
-         7e265fc04690d449a40b413b0348b15c748cea6f cpufreq: Move endif to the end of Kconfig file
-         e2046b72e9797df8569a79b839b6bfaedd6377fe Merge branch 'pm-cpufreq-fixes' into fixes
-         993fce4fce1c3d1142037555d97927b6eb1420c5 Merge branch 'fixes' into linux-next
-         
-  - ref: refs/heads/testing
-    old: 54332ae3064abf082ce9e81245f5a39aab918559
-    new: 993fce4fce1c3d1142037555d97927b6eb1420c5
-    log: |
-         7e265fc04690d449a40b413b0348b15c748cea6f cpufreq: Move endif to the end of Kconfig file
-         e2046b72e9797df8569a79b839b6bfaedd6377fe Merge branch 'pm-cpufreq-fixes' into fixes
-         993fce4fce1c3d1142037555d97927b6eb1420c5 Merge branch 'fixes' into linux-next
+         05c14d8fd71b9c19391d0b4d65b1c1764e1c440f tools/power turbostat: add Busy% to "show idle"
+         22a835282b6240f38097f479ae2194bbeb0181e4 tools/power turbostat: Add an NMI column
+         4a358ba215dfefe161b5904e51e48f5f0e82652f tools/power turbostat: Remove SysWatt from DISABLED_BY_DEFAULT
+         2f60f03934a50bc1fb69bb4f47a25cddd6807b0b tools/power turbostat: Fix PMT mmaped file size rounding
+         2debf2bf438046ce2c51e319118e18611ca225ce tools/power turbostat: Add fixed RAPL PSYS divisor for SPR
+         af0e673ba9a92eba5fda7420c0e0f233285e9c38 tools/power turbostat: Enhance turbostat self-performance visibility
+         4367fb1a547a0823dd160370f5feaeabaef9dbaf tools/power turbostat: version 2025.01.14
          
