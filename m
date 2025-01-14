@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 14 Jan 2025 13:20:52 -0000
-Message-Id: <173686085214.184826.11254981656770600050@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Tue, 14 Jan 2025 13:27:25 -0000
+Message-Id: <173686124501.189432.6527326267127212083@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/fileSA7kFi
+  - ref: refs/tags/v6.14-rockchip-clk1
     old: 0000000000000000000000000000000000000000
-    new: e42b2e2acfb45a43a00cb9ed9096823f6bcceb4d
+    new: 1cf815e42d7c56ae8a9ef5bd07ac996d74d3ebb4
