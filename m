@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 14 Jan 2025 00:37:30 -0000
-Message-Id: <173681505041.3671564.12709346116326098903@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Tue, 14 Jan 2025 00:53:10 -0000
+Message-Id: <173681599066.3683662.9955416459579088715@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/pci/pci
+user: kwilczynski
 changes:
-  - ref: refs/heads/nfs-localio-for-next
-    old: a8de934ef4bb7c384d8317cfbbe8bf870a4bffbf
-    new: d5448107e7a6fac2dea9deaf7428364a4f8058b6
-    log: |
-         d5448107e7a6fac2dea9deaf7428364a4f8058b6 nfs: fix incorrect error handling in LOCALIO
-         
+  - ref: refs/heads/bwctrl
+    old: 0000000000000000000000000000000000000000
+    new: e50e27a613db6f18e228437f89e352a6ccc6ef6a
