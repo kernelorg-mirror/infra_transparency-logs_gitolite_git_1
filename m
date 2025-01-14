@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4126047634976306851=="
+Content-Type: multipart/mixed; boundary="===============0498227665018227200=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Tue, 14 Jan 2025 19:22:15 -0000
-Message-Id: <173688253555.486841.12691158726318766966@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Tue, 14 Jan 2025 19:22:27 -0000
+Message-Id: <173688254749.487078.11041396081982528345@gitolite.kernel.org>
 
---===============4126047634976306851==
+--===============0498227665018227200==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: b37279c18e53ba26c58b0a88a84bb70720c5cac6
 
---===============4126047634976306851==
+--===============0498227665018227200==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -433,4 +433,4 @@ c45323b7560ec87c37c729b703c86ee65f136d75 Merge tag 'mm-hotfixes-stable-2025-01-1
 79a1d390f879563119bf2848b621bc7eed228c7d Merge tag 'sound-6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 c3812b15000cc5b7b17c7238f8b12f6a22df0b1d Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 
---===============4126047634976306851==--
+--===============0498227665018227200==--
