@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9052373961628476247=="
+Content-Type: multipart/mixed; boundary="===============8672512986352229291=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Tue, 14 Jan 2025 10:53:55 -0000
-Message-Id: <173685203518.30280.1422796850035951493@gitolite.kernel.org>
+Date: Tue, 14 Jan 2025 10:54:08 -0000
+Message-Id: <173685204843.30561.3939398203129220971@gitolite.kernel.org>
 
---===============9052373961628476247==
+--===============8672512986352229291==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: be3d3e40bb5691ba880304222fa7baeee6cd71cc
     new: 99e66d1dcf55a5a71009d0d6f1f61b03587d7830
     log: revlist-be3d3e40bb56-99e66d1dcf55.txt
 
---===============9052373961628476247==
+--===============8672512986352229291==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -46,4 +46,4 @@ c695e694525c283be8579ec5e283ba9242d0f260 genksyms: fix syntax error for attribut
 aa3b0798705e4e769b8fe9d907e3d75e7daea7f3 genksyms: fix syntax error for builtin (u)int*x*_t types
 99e66d1dcf55a5a71009d0d6f1f61b03587d7830 genksyms: fix syntax error for attribute before init-declarator
 
---===============9052373961628476247==--
+--===============8672512986352229291==--
