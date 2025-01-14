@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 14 Jan 2025 16:06:05 -0000
-Message-Id: <173687076583.318147.6459011371178703497@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Tue, 14 Jan 2025 16:14:47 -0000
+Message-Id: <173687128785.323986.14437229450843034889@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/spi-6.14
-    old: 066855cfda50638616fcdcf4068948dc87c2f7a8
-    new: 9a8afbe5677234ac2490438d6b8ab74ee7fb359e
-    log: |
-         e896c04890aeff2292364c19632fc15d890d436c spi: amd: Fix -Wuninitialized in amd_spi_exec_mem_op()
-         40ba3c9019ccd34d576fa14f94ef4f3bd9284c1a spi: ti-qspi: Use syscon_regmap_lookup_by_phandle_args
-         9a8afbe5677234ac2490438d6b8ab74ee7fb359e spi-nand/spi-mem DTR support
-         
+  - ref: refs/heads/next
+    old: a69a3bad0aba6d1e15cdd8b418cf6a8eaedfa1da
+    new: 76d20493a95e5b4b1779352ff7aaea2898f39366
