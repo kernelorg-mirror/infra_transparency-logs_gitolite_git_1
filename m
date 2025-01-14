@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 14 Jan 2025 11:20:52 -0000
-Message-Id: <173685365200.54101.8789181123857141923@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Tue, 14 Jan 2025 11:34:20 -0000
+Message-Id: <173685446087.63277.9894507786562339627@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: maz
 changes:
-  - ref: refs/heads/main
-    old: 624d7a8a9d86c429a28adc6267fe460ad87a5211
-    new: 2b1d9116b0df5e65e78b2962942fe12672e25773
+  - ref: refs/heads/next
+    old: a1caf40a7a2c732cec1a33ec7e23d816e9103ac7
+    new: 0b7ff31fba40a61cfb341c8eea1540aaa6f256b9
     log: |
-         816b02e63a759c4458edee142b721ab09c918b3d net: ti: icssg-prueth: Add VLAN support in EMAC mode
-         04508d20b017326e116c6e8ef953839507c73b6d net: ti: icssg-prueth: Add Multicast Filtering support for VLAN in MAC mode
-         9c10dd8eed74de9e8adeb820939f8745cd566d4a net: hsr: Create and export hsr_get_port_ndev()
-         161087db66d6bef11679640bc894d7bf62d2e431 net: ti: icssg-prueth: Add Support for Multicast filtering with VLAN in HSR mode
-         2b1d9116b0df5e65e78b2962942fe12672e25773 Merge branch 'add-multicast-filtering-support-for-vlan-interface'
+         c139b6d1b4d27724987af5071177fb5f3d60c1e4 KVM: arm64: nv: Always evaluate HCR_EL2 using sanitising accessors
+         36f998de853cfad60508dfdfb41c9c40a2245f19 KVM: arm64: nv: Apply RESx settings to sysreg reset values
+         0b7ff31fba40a61cfb341c8eea1540aaa6f256b9 Merge branch kvm-arm64/nv-resx-fixes-6.14 into kvmarm-master/next
          
