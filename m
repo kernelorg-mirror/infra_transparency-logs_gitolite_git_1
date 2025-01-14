@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Tue, 14 Jan 2025 09:35:53 -0000
-Message-Id: <173684735347.4162125.2302543803415483868@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 14 Jan 2025 09:42:51 -0000
+Message-Id: <173684777177.4167040.1590202382696599532@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/johan/usb-serial
-user: johan
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/usb-next
-    old: 138a99ca4e20fa1e17b4e59fa053981913702d6d
-    new: 575a5adf48b06a2980c9eeffedf699ed5534fade
+  - ref: refs/heads/main
+    old: a833fb852e96c778bff1d14866f1db2c346b3d2e
+    new: 88df16f851ad8473ae89aba36d07e76b11c798ca
     log: |
-         575a5adf48b06a2980c9eeffedf699ed5534fade USB: serial: quatech2: fix null-ptr-deref in qt2_process_read_urb()
+         88df16f851ad8473ae89aba36d07e76b11c798ca net: sched: calls synchronize_net() only when needed
          
