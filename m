@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6853144129928902906=="
+Content-Type: multipart/mixed; boundary="===============8825288717687867298=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 14 Jan 2025 16:38:35 -0000
-Message-Id: <173687271559.346232.9357658810220841655@gitolite.kernel.org>
+Date: Tue, 14 Jan 2025 16:38:40 -0000
+Message-Id: <173687272038.346313.14217826539451904599@gitolite.kernel.org>
 
---===============6853144129928902906==
+--===============8825288717687867298==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging
+  - ref: refs/heads/for-next
     old: 295006f6e8c17212d3098811166e29627d19e05c
     new: 7d6f88e76e28ac44ed003dcf80881ea6b202ec08
     log: revlist-295006f6e8c1-7d6f88e76e28.txt
 
---===============6853144129928902906==
+--===============8825288717687867298==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1736872744 -0500
+pusher 75C5DE3D 1736872748 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1736872713-85887714f653f512edd18f508b1c13d7fdf7faaf
+nonce 1736872718-5e11d9fdb287f5a7fb2a37dcea16b0732f7670ef
 
-295006f6e8c17212d3098811166e29627d19e05c 7d6f88e76e28ac44ed003dcf80881ea6b202ec08 refs/heads/staging
+295006f6e8c17212d3098811166e29627d19e05c 7d6f88e76e28ac44ed003dcf80881ea6b202ec08 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmeGkygACgkQ7ulgGnXF
-3j3qjw/9FOSyt5x6aAJA+X1L7ErNCc6o2qmWBk7DIizyau+Ccr8tAQ55M+ZQYFkt
-PdiY1X+m8xVVaUKPx9/idRmel0W2kjjOhZprOEGfn/1gWpjVmR964rL2uQei8oEN
-YPwXcoTENR8ti2OLE2Y2SjBx+5x30aWHSZBCfF2g8WU0c5no0VOqxacqcFIAqvbd
-orBROpxn3zocYtJ2C3RP9IdC1dPNxn2hGDAQFZXkBhMkx3j23zZg0at77agMIpTv
-WMA/cTqwf/gzbudRMh2SNwQ9YgAoaHfBC5Pu7/lABUXMXD8PGx7BJ8GnYMKTCpQu
-FHps4gkY1JRinxsBb5B7Qf2v5hNhUpHJNj5m94L3UwXzIEEqoHVgSWtSZeS1avXV
-6IQ2D5ug0pmTYtOV+CHzqegfXvwCuBg6zwATqYHBbmGfsTQNUB72siSrUNYyheNZ
-Sh8USnvghDRNUAmp8xKzHCWUQw0W5K9Pzwsau+MWLqm8ZWxeL3qUxSy52UehA+ZP
-8ayc9eaOuIniza3GjZFZpE3o0+EnjqVti7QadPJE/imp6Tute3CbAtOkU2tya0M5
-bFyuAf5H6ywoeKln7Q48EuC4ohwcynlU5F12AKqQcF0HRudxrD1fotZYrrIg69W1
-x3PkcyVVKHxQ/qLgtBgMRXDqoFCNavMvkSC9REsuAvEVOm/9q8w=
-=x3ki
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmeGkywACgkQ7ulgGnXF
+3j1SOg//cgNlS2eeONR1Btuw+Uhm90ef+Qy82nUryPhRYNXLFzCleZrJj4P0VtT9
+TVYUujCMNiV2njzV8uNmqz9Fn7Up605B4Tsy37wV3NiSypMKmVkgjONZDf8Jj0+t
+IF4gj3v4kXss1k/maOxkvPyREWHuM39bsHi4r2svlVRjBO7+J1E+A/ZQw7uL2zvP
++rNscZiAuuXO91O5qFVDPJ/xsmIrFDH2339tHEPbo/qpo6WSCkt6hwHFWUirmB42
+C0K1Ft3SnJ5DOJ4pzPmNctA3shcB0RISckzvKD7ZauF0mkIiS7K9jNotHn0eZeoQ
+2+zVuNbIWKT+KyMSdWAqaOWN3c75W5RYMhNRcJhaA2PRHOG0Y3GuVlHlQXPfIO/O
+wLZk1X17BEOwfmoVy3X01VozEQ59EO1lnA6+y5u7v68a+UtKdi4ye5bxyo6hwxeJ
+pCxzAOl1ZlABb4qj0e4axGs02EzMMwgCDmx6Dl/KwqhTLqKtmGsa4JFgutrRAPss
+Q1cjZiKN4urRiJ2Bg2cJFNSj1D+qvAGJ06kZxXV9YBdkh4jhecOFgf75p3j38Rbb
+jJiZRfsUHO5pisg9+xwLf67bteSJtE8cUARLu8QMuaPSmx6+LuYAkqqIfLLYaMwX
+MBiHvKLxaIVT3X56WJ54ujA1Zq4TK1p6orv1Jt7PCXTyghYoYC0=
+=WkH4
 -----END PGP SIGNATURE-----
 
---===============6853144129928902906==
+--===============8825288717687867298==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -83,4 +83,4 @@ bab8551e33f7f5e8743ccb49be41fe3228178e8a scsi: fnic: Remove unnecessary else to 
 8697934682f1873b7b1cb9cc61b81edf042c9272 scsi: fnic: Propagate SCSI error code from fnic_scsi_drv_init()
 7d6f88e76e28ac44ed003dcf80881ea6b202ec08 Merge patch series "Introduce support for Fabric Discovery and Login Services"
 
---===============6853144129928902906==--
+--===============8825288717687867298==--
