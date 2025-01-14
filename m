@@ -1,23 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Tue, 14 Jan 2025 09:08:16 -0000
-Message-Id: <173684569695.4139539.11729744707128926893@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Tue, 14 Jan 2025 09:31:54 -0000
+Message-Id: <173684711429.4158447.633573776040278954@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 76b26917e4ff9545b321730cd3b64fdd2e043769
-    new: 51dc5312dcd929efea7647c0c0e75afa461531b5
+  - ref: refs/heads/master
+    old: fc9c9385b0d1bc06894c99472422c96490cbcfc3
+    new: 23901d227c6e948a9f3a413a5f3e0ca41bc8f8fa
     log: |
-         235f238402194a78ac5fb882a46717eac817e5d1 RDMA/mlx5: Fix indirect mkey ODP page count
-         184fe6f2382babdc63f07315c8accea258476070 bnxt_en: Add ULP call to notify async events
-         7fea327840683ebec5632cf2c942ed1940ef63bf RDMA/bnxt_re: Add Async event handling support
-         c0ad30eddc2858b97024527ffff1704306ac8fae RDMA/bnxt_re: Query firmware defaults of CC params during probe
-         51dc5312dcd929efea7647c0c0e75afa461531b5 RDMA/bnxt_re: Add support to handle DCB_CONFIG_CHANGE event
+         dfe1c4bc742ed3f53c06bb232ebc1f5fadd0881e libblkid: fix potential memory leaks
+         6cde5ae6812641811099960d2c377dd41c31c6cc Fix non-Linux build
+         2388d066db0c7282382b1e48454cd17d4832994c hardlink: fix memory corruption in read buffers
+         2e269ff4bc32cb61e1d576d4f932b4027f5bc2c8 login: actually honour $HOME for chdir()
+         8750af9cdac8372cdc964d8d8dd71113881ce307 Merge branch 'login-respect-dollar-home' of https://github.com/poettering/util-linux
+         c94c7e0034537de5cb93c42419b6505180164045 Merge branch 'PR/hardlink-mem-issues2' of https://github.com/karelzak/util-linux-work
+         e05e62266644ff7d0ef54e3785e33d201b08831d Merge branch 'PR/non-linux' of https://github.com/karelzak/util-linux-work
+         23901d227c6e948a9f3a413a5f3e0ca41bc8f8fa Merge branch 'PR/libblkid-save-memleak' of https://github.com/karelzak/util-linux-work
          
