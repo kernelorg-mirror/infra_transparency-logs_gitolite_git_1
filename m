@@ -1,32 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Tue, 14 Jan 2025 09:50:00 -0000
-Message-Id: <173684820062.4172538.2202723179213304469@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7745107643216135349=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 14 Jan 2025 09:50:21 -0000
+Message-Id: <173684822138.4174316.4205828657677074893@gitolite.kernel.org>
+
+--===============7745107643216135349==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: kwilczynski
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/next
-    old: 856fb33800512bc28051ea4ee2a66366b7e2c0f7
-    new: 680f5e394b843a775ba47ee51e85ba5764b2a91a
-    log: |
-         9526bd1d0b1464d5370e6c406b93a833497596fe Merge branch 'misc'
-         c9d51282db9850d52e3af771ecdb90e883511cc8 Merge branch 'aspm'
-         57839d13f6ab9a08c9a625f933a6bd32ab4766ea Merge branch 'config-acs'
-         a70adfe1180eb829fa35526b1ecb18e6014c4cb1 Merge branch 'devres'
-         a9b124973a827eef3e1c126f27710efd8d29462d Merge branch 'dt-bindings'
-         843dd60555d82ed66b20c7c4e2dcaed64933ac34 Merge branch 'enumeration'
-         a8aec8f3e5e7d6772a9be184c68ec087eef2b757 Merge branch 'resource'
-         b1aa7711bf3f6320c3e93dacaef6c022da2f569a Merge branch 'endpoint'
-         f0f78e1cb1a6a252514184f1ff295605675b9201 Merge branch 'controller/dwc'
-         79ea0d892e5a52e6ed2fd94b0d733305a313ee89 Merge branch 'controller/mediatek'
-         c285d140d8383fd449ec4569799edeb36ffb573d Merge branch 'controller/mvebu'
-         cf41f67eb19ecc8b544763b12c79406bd5289960 Merge branch 'controller/rcar-ep'
-         5ba004b0c98cf01aa9e06c38e1096a75d0696ca6 Merge branch 'controller/rockchip'
-         680f5e394b843a775ba47ee51e85ba5764b2a91a Merge branch 'controller/xilinx-cpm'
-         
+  - ref: refs/heads/master
+    old: cfb1181c3b90d78d21836301b39536b2ee355330
+    new: f05e5661ffba8a78ab34c1bc19ed507b8c2e5464
+    log: revlist-cfb1181c3b90-f05e5661ffba.txt
+
+--===============7745107643216135349==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-cfb1181c3b90-f05e5661ffba.txt
+
+76d5d4c53e68719c018691b19a961e78524a155c mm/kmemleak: fix percpu memory leak detection failure
+2bff77c665edd854a09c479effe75b3b0e3fedef scripts/decode_stacktrace.sh: fix decoding of lines with an additional info
+264a88cafdbd0f4579af903145ac605d030f3f66 mm/mempolicy: count MPOL_WEIGHTED_INTERLEAVE to "interleave_hit"
+4bbb6df62c54e6a2c1fcce4908df768f0cfa1e91 tools: fix atomic_set() definition to set the value correctly
+f505e6c91e7a22d10316665a86d79f84d9f0ba76 filemap: avoid truncating 64-bit offset to 32 bits
+59f59108475e8fadd5f9fc9a5d79563203df40f1 x86/execmem: fix ROX cache usage in Xen PV guests
+4ce718f39776b5e162ea6b8010da7a6f02b13dc0 mm: fix div by zero in bdi_ratio_from_pages
+9ab96b524dce598c041388a599e3a227c7a7926c hugetlb: fix NULL pointer dereference in trace_hugetlbfs_alloc_inode
+4dff389c9f1dd787e8058930b3fbd3248a6238c5 Revert "mm: zswap: fix race between [de]compression and CPU hotunplug"
+12dcb0ef540629a281533f9dedc1b6b8e14cfb65 mm: zswap: properly synchronize freeing resources during CPU hotunplug
+4bcf29741145e73440323e3e9af8b1a6f4961183 module: fix writing of livepatch relocations in ROX text
+0cef0bb836e3cfe00f08f9606c72abd72fe78ca3 mm: clear uffd-wp PTE/PMD state on mremap()
+a32bf5bb7933fde6f39747499f8ec232b5b5400f selftests/mm: set allocated memory to non-zero content in cow test
+212fe1c0df4a150fb6298db2cfff267ceaba5402 zram: fix potential UAF of zram table
+9fd8fcf171dcc39d2a8ecf221388820fb5fbc00e vmstat: disable vmstat_work on vmstat_cpu_down_prep()
+bd3d56ffa2c450364acf02663ba88996da37079d mm: vmscan : pgdemote vmstat is not getting updated when MGLRU is enabled.
+1c47c57818ad73d2d09ddbcb4839708aab5ff2e3 mm: fix assertion in folio_end_read()
+cbc5dde0a461240046e8a41c43d7c3b76d5db952 fs/proc: fix softlockup in __read_vmcore (part 2)
+c45323b7560ec87c37c729b703c86ee65f136d75 Merge tag 'mm-hotfixes-stable-2025-01-13-00-03' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+f05e5661ffba8a78ab34c1bc19ed507b8c2e5464 Merge branch 'linus'
+
+--===============7745107643216135349==--
