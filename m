@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
-Date: Tue, 14 Jan 2025 18:05:54 -0000
-Message-Id: <173687795473.423138.12280980701688981297@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Tue, 14 Jan 2025 18:07:09 -0000
+Message-Id: <173687802937.423831.17272712645837265776@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rcu/linux
-user: urezki
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/tags/rcu.release.v6.14
-    old: 0000000000000000000000000000000000000000
-    new: c76b789979dc41b3b521a7c8c833a07202330707
+  - ref: refs/heads/master
+    old: 3124a4619e4daf26b06d48ccf0186a947070c415
+    new: a5dd7f85d4b667aeb687afc562ff9750044b42c2
+    log: |
+         a5dd7f85d4b667aeb687afc562ff9750044b42c2 man/io_uring_clone_buffers: mention that both rings must share mm
+         
