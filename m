@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5919502119847214001=="
+Content-Type: multipart/mixed; boundary="===============1589867125873554366=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 15 Jan 2025 17:38:28 -0000
-Message-Id: <173696270845.1592343.7466449973986877121@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Wed, 15 Jan 2025 17:39:01 -0000
+Message-Id: <173696274113.1592648.14916407190673339162@gitolite.kernel.org>
 
---===============5919502119847214001==
+--===============1589867125873554366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 08b0c3726ad5d497bf3264d7e6667ac726ba4f74
-    new: e7edebd7530804b2e61b9952726f7afb23671913
+  - ref: refs/heads/usb-testing
+    old: dcfe437492e27d54f3ac491aed024da760f5c43c
+    new: ba39e420c0e9a4a609d982d24c1bdb8b6beefb33
     log: |
-         e7edebd7530804b2e61b9952726f7afb23671913 scripts/tags.sh: Don't tag usages of DECLARE_BITMAP
+         ba39e420c0e9a4a609d982d24c1bdb8b6beefb33 usb: quirks: Add NO_LPM quirk for TOSHIBA TransMemory-Mx device
          
 
---===============5919502119847214001==
+--===============1589867125873554366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736962736 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1736962706-b9a59b274221a9705e4cc2bd58cbf87ccc303607
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736962769 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1736962738-9aac1f2cce61768a02d779603dc0ea0b2c4b730d
 
-08b0c3726ad5d497bf3264d7e6667ac726ba4f74 e7edebd7530804b2e61b9952726f7afb23671913 refs/heads/char-misc-testing
+dcfe437492e27d54f3ac491aed024da760f5c43c ba39e420c0e9a4a609d982d24c1bdb8b6beefb33 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeH8rAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PxAP/i8eqClA/ImF8ck0RNP+
-tGvkhgqdhkuKiuq82ewVPHwoyxiP02YxvvFXekc8gFLFOwoWsGKSLFlWuQakf3K5
-LfozvO8CfmUpi3GNgOHa0jEuyUXhyTN1EkpJp8b3k9j50NhI3wYBp3AMd/WKxdM8
-d1l6X0CTZmuSqqgoA+d9c8kCoc2AY9Z0KWlcU3QpuAs7ORgP0r+uzwRsq17SnqED
-6l8KXhw1ahEplIL/VZmyPoxd+ReXoppJRE3EPvYgGzTx4O4J99PRINlaC8+sdpfe
-pEGhbyMxTl5JlDnaYea22eFEWs86RWoQMlBa/96S+tlWrsc569JqarQstPnSdXu0
-SIhTwNjH5K72ZlZySEr2bQyGBx1L6GXhniMEupn9PEGqc3l/ZfYGlkYY8QaW0EN6
-lzERJRdtMQZTwYVGQ9HEapyFzcYOm50j5VhxfqVcvEjJMA8IzPD6NjWclju/yg0x
-pXaQ5H4tdWbfiSOAxrNvf6shK9DVFKnUcattQFqBpJj0g5jjVFGR8IiiwcxzZ7ef
-b9tBYCKimNMXzZfxDVmPrlE2ZcBlGlXcfAEzNb1k5oj1zSwI0L9MZFIdoPUVh9Qj
-sN9chgvdU11w7vqvGDWpAk1vLYHBUxBrMHUEpQZxntSdN4HzsMojNcF45KPZIZ5D
-DsLtS4LGmqb5K2qfmlAcEA4n
-=t2Lj
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeH8tEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+eF4QAMwZ+wp6pviva7nkuu9r
+GQuJtHbS72kv4nTBuPx4lpQg9K5fpVKczFgta7gdZpEM2t5sQ0fDIoB3kcvRQN33
+nOAY9wilaMHTS2x4J2p1XzCSpIolAvKXMjscOQv46C/zxbsJsbUTBPackGyeMXjz
+VScamlvZ9nzqVqqS5mU1Xfm2Z7puCNTnu5bxMgv5lzyWybkkRbWXM5Dc9249DJcl
+I0kmvciinySO19+xQik/OXn5K7oMkXdGdJlgjzULSZ1qnAEYTZyw32f5LXEMN5Vb
+leo+te9T75G0mYdDKaOS6y38ZPoMqKpFWtg9RQPx7S5ILXebBKrXuU6YEgvD0L6d
+eHvEbiih6NeH5PgwKx+tPwvhMZjGjaxxXaq5VB2/H8FqlnErXA13WuLFbR31vETT
+wWxR9zWjxot3jkUx2EJHP6EueXVxKbj9HdHgQOcIbTDTV/Grk/zkdcjW60u2KbFG
+Rx0AfS5cGkHBy55hLH3lg0DcZT8n2lloE6DKHy8i9zVVUb9F8y3zMQWY1IFus7G2
+27OVUlf0nxniZP/Kk3e8tMID7zw+F4XLcCsdz6SLdSgLp7avzLrHPRWayqVRynmT
+ZOXe4t3MaSsnTVebTayLAVai37PCPVW5hSbIYPUI/PxRAmW4AK4zNdP5UrdRTXnl
+F3/cO8LxwdQePj923nIvQtdu
+=TeJ1
 -----END PGP SIGNATURE-----
 
---===============5919502119847214001==--
+--===============1589867125873554366==--
