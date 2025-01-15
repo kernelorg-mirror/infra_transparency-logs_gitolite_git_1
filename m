@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============0064788373749613007=="
+Content-Type: multipart/mixed; boundary="===============4966908684168916441=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 15 Jan 2025 19:37:29 -0000
-Message-Id: <173696984965.1696649.6862280762681441998@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 15 Jan 2025 19:37:33 -0000
+Message-Id: <173696985301.1696759.5753962281394863302@gitolite.kernel.org>
 
---===============0064788373749613007==
+--===============4966908684168916441==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.14
+  - ref: refs/heads/asoc-6.14
     old: 6b077230a1e163f01c866923915def6f73f9c390
     new: e436d43551764bd6ca22a1ab1e80e98939b8aec7
     log: |
@@ -24,28 +24,28 @@ changes:
          e436d43551764bd6ca22a1ab1e80e98939b8aec7 ASoC: dapm: add support for preparing streams
          
 
---===============0064788373749613007==
+--===============4966908684168916441==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1736969878 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1736969847-bc5ee6b004d1e16987f723091387bf2f8e8af67d
+pusher C3F436CA30F5D8EB 1736969881 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1736969850-e99b1c6e050555f566b5e2632d45c13e86183dc3
 
-6b077230a1e163f01c866923915def6f73f9c390 e436d43551764bd6ca22a1ab1e80e98939b8aec7 refs/heads/for-6.14
+6b077230a1e163f01c866923915def6f73f9c390 e436d43551764bd6ca22a1ab1e80e98939b8aec7 refs/heads/asoc-6.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmeIDpYACgkQJNaLcl1U
-h9A2VQf7BlDSJIfVrddmBvRm2hHnY6fEwOvCWWHy5t9I2MNvGbTefXfUip2E3tO1
-cGTiRdGqzI4ryGqGhptUXPk2w+0EfJmZNVy56HICFeBM0bg2XQaajK4EL0nuFMMi
-/dhuckox0nrDmVGexhqOwd5NXnkeeTr8MZ1IxLJRQIBVtr2PWQmxw8gL4j8Kj2Z8
-rH8LsfO8Ai0xeXM6d2J1VsIV5zY5zskhu6jW1M4i81dI8vGom0V6HBdkozEiL/0h
-Jc9eiVFG9+Av2PaKQFfDxIPeFfMvEVUiNccgo3I+jjJ/Iwp93Lp2bsS9WlGNtw0v
-XXJVTncwyY043laM9kusvrF9HIW9GA==
-=98PG
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmeIDpkACgkQJNaLcl1U
+h9CHQAf/ZMAtDfUn/sHdLUKC+MztehX7TkFgkLkGoXOcfu0uKSwaVuTT3m0lXXhJ
+xdbm2pUj5NXoA9EiWvIyJRU5cBLn5dJiWo2+qzKs2EMukEkIY/sz9hMw337HHyb2
+3Pv2EScaWEcjBwK3zyiqDahQ6R3D+PSM+B49HB1J6gl+vxWd+ieJNd4WxHtN47cg
+mRE1K/qy8LlTwUBLaYwE3d3trZgLB6klM7KoiRjVvH//OfNgKX4SDQABEEavK/lM
+e8YbRSfCwAr/ilomtmRj6f3570b9zcbTPanFaD8ANwVgygyJX+jSvIFfbkS4s3xW
+tAe/5i8Blsl+LylmSYt3BYZbB1AFpQ==
+=QT9N
 -----END PGP SIGNATURE-----
 
---===============0064788373749613007==--
+--===============4966908684168916441==--
