@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2000383146541465228=="
+Content-Type: multipart/mixed; boundary="===============8162015771217180474=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Wed, 15 Jan 2025 15:41:30 -0000
-Message-Id: <173695569071.1492677.10981160584889322143@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Wed, 15 Jan 2025 15:41:32 -0000
+Message-Id: <173695569270.1492820.10442809051354950157@gitolite.kernel.org>
 
---===============2000383146541465228==
+--===============8162015771217180474==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 619f0b6fad524f08d493a98d55bac9ab8895e3a6
     log: revlist-c45323b7560e-619f0b6fad52.txt
 
---===============2000383146541465228==
+--===============8162015771217180474==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -51,4 +51,4 @@ c3812b15000cc5b7b17c7238f8b12f6a22df0b1d Merge tag 'scsi-fixes' of git://git.ker
 7f5b6a8ec18e3add4c74682f60b90c31bdf849f2 Merge tag 'pci-v6.13-fixes-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
 619f0b6fad524f08d493a98d55bac9ab8895e3a6 Merge tag 'seccomp-v6.13-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 
---===============2000383146541465228==--
+--===============8162015771217180474==--
