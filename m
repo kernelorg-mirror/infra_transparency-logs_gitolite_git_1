@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 15 Jan 2025 08:59:32 -0000
-Message-Id: <173693157204.1156919.2980659397910797686@gitolite.kernel.org>
+Date: Wed, 15 Jan 2025 09:19:22 -0000
+Message-Id: <173693276294.1172643.14093346380311934744@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,8 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: tglx
 changes:
   - ref: refs/heads/irq/core
-    old: dd1f17a9faf5359d76644236cde4cc1720f1184d
-    new: e3ab1fc9354fabd65ea10ce6ca4153ef07128ad0
+    old: e3ab1fc9354fabd65ea10ce6ca4153ef07128ad0
+    new: 2af257388473298898d71313cfa6092b572f2602
     log: |
-         2d95ffaecbc2a29cf4a0fa8e63ce99ded7184991 irqchip/ti-sci-intr: Add module build support
-         b8b26ae398c4577893a4c43195dba0e75af6e33f irqchip/ti-sci-inta : Add module build support
-         e3ab1fc9354fabd65ea10ce6ca4153ef07128ad0 irqchip/ts4800: Replace seq_printf() by seq_puts()
+         2af257388473298898d71313cfa6092b572f2602 irqchip/loongarch-avec: Add multi-nodes topology support
          
