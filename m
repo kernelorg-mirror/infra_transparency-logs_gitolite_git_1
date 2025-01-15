@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 15 Jan 2025 21:20:34 -0000
-Message-Id: <173697603492.1784735.14812488160320932066@gitolite.kernel.org>
+Date: Wed, 15 Jan 2025 21:21:19 -0000
+Message-Id: <173697607968.1785094.15866763025614055924@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,12 +12,14 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 7a1723d3b230765dc025401db8308937e4c4fb13
-    new: 0e6f1c77ba808e7bf023627ae2927fa813214455
+    old: 0e6f1c77ba808e7bf023627ae2927fa813214455
+    new: 9eb8069d994016f86a596348f558f4ac3be72c5d
     log: |
-         54033f5512191fa355422d009f32923c1cf24aab net: bcm: asp2: fix LPI timer handling
-         df8017e8a19d72b48abfe02b8611a5c8c7f89e22 net: bcm: asp2: remove tx_lpi_enabled
-         21f56ad1b21131eb2c9c16e11ccb28f77b5addc4 net: bcm: asp2: convert to phylib managed EEE
-         c80bed9812f249dd282dce8bc6a2ce9acb0887b9 Merge branch 'net-bcm-asp2-fix-fallout-from-phylib-eee-changes'
-         0e6f1c77ba808e7bf023627ae2927fa813214455 mptcp: fix for setting remote ipv4mapped address
+         894dae026bf6348766cf1951da63af6e36e4d90a selftests: mptcp: simult_flows: unify errors msgs
+         3257d4cb8d5c0090a87053f16086ef1e2c32dc33 selftests: mptcp: sockopt: save nstat infos
+         8c6bb011e18811175e7bd351b82286318496b334 selftests: mptcp: move stats info in case of errors to lib.sh
+         5fbea888f8aa0668761f6a1e9736664b3580cb65 selftests: mptcp: add -m with ss in case of errors
+         b265c5a174237b33e4973bd385f24db39cc76d26 selftests: mptcp: connect: remove unused variable
+         540d3f8f1daccde52ed85c9e480586387461eb86 selftests: mptcp: connect: better display the files size
+         9eb8069d994016f86a596348f558f4ac3be72c5d Merge branch 'mptcp-selftests-more-debug-in-case-of-errors'
          
