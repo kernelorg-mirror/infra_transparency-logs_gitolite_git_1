@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8518965090013788136=="
+Content-Type: multipart/mixed; boundary="===============1644714425174151854=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 15 Jan 2025 16:51:38 -0000
-Message-Id: <173695989802.1553744.3957152232531985947@gitolite.kernel.org>
+Date: Wed, 15 Jan 2025 16:51:48 -0000
+Message-Id: <173695990832.1553924.3364990867922629960@gitolite.kernel.org>
 
---===============8518965090013788136==
+--===============1644714425174151854==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/200GbE
     old: 9c7ad35632297edc08d0f2c7b599137e9fb5f9ff
     new: 7a1723d3b230765dc025401db8308937e4c4fb13
     log: revlist-9c7ad3563229-7a1723d3b230.txt
 
---===============8518965090013788136==
+--===============1644714425174151854==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -65,4 +65,4 @@ ec8553673b1f441fa7503662679b93d0dd533985 net: stmmac: combine stmmac_enable_eee_
 d28e89244978ef2a91e23e83c99b5e8985ff8db2 net: stmmac: restart LPI timer after cleaning transmit descriptors
 7a1723d3b230765dc025401db8308937e4c4fb13 Merge branch 'net-stmmac-further-eee-cleanups-and-one-fix'
 
---===============8518965090013788136==--
+--===============1644714425174151854==--
