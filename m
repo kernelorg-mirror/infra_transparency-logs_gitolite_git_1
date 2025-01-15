@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6007734705625399583=="
+Content-Type: multipart/mixed; boundary="===============2526558668911372259=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 15 Jan 2025 15:17:18 -0000
-Message-Id: <173695423834.1471930.7243995877986082026@gitolite.kernel.org>
+Date: Wed, 15 Jan 2025 15:18:38 -0000
+Message-Id: <173695431868.1472758.11357981958726391821@gitolite.kernel.org>
 
---===============6007734705625399583==
+--===============2526558668911372259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
+  - ref: refs/heads/usb-next
     old: 26a6cc10f19a058c24cbe3be2a4a10048e66d9c9
     new: 47a836da9ca91ab95b3cf1b2218db60bd67d4514
     log: revlist-26a6cc10f19a-47a836da9ca9.txt
 
---===============6007734705625399583==
+--===============2526558668911372259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736954265 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736954348 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1736954234-5a2138d767be92f30206b718dcdae1bd29854a82
+nonce 1736954317-6350ccef646dff0a489eaaf49484ce14046bf704
 
-26a6cc10f19a058c24cbe3be2a4a10048e66d9c9 47a836da9ca91ab95b3cf1b2218db60bd67d4514 refs/heads/usb-testing
+26a6cc10f19a058c24cbe3be2a4a10048e66d9c9 47a836da9ca91ab95b3cf1b2218db60bd67d4514 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeH0ZkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+X48P/3tFfVAqESZUiMNXf0mZ
-kbRIIOjkVkb/K18P/As05WWCkE21bAYvJusFd//+hBJT+Z44/WkuEdG3K5pmCVxD
-4ZCESTbWY0A3vZZtNQ6Nf+Ns+kI+8/Oizo5LEGwuTR9ozj4sZSvJphM0O40WGewd
-EwX72x2PHp4PwuG9ulC2ogZv6wg9OThuKPZ2w16MEGx7WqH48DNd/WO/sbtqCRY5
-z6Mm3O4AT/oZ8rGfBbN63BH2FEMmJ3HmNGdsAKVxHEi91+O4ziyCpeAcIp+0Z8+O
-AAfGMhdmqoPk7HQlgt2ylQwSVmXu/+Xv2Nk9ZmQif05gG6+eH8gcuCJ2WdSj4y1v
-MO2uG/t5voITcQMF//0fVYuuAElLGnh77bHYNgHu9xfG2+KTPvfOpo/xA6x3Fonf
-482riwp5t5aGzxv5uCYexLgPKu4A6DiiwukL+5QDiboI1zAR/wgEVYa8dGSzQNuF
-NmbnBL9mG7ArGplAtfK6wQ2YXFiIukoOAaS18qg+WO/7V8yaCVdPVycqB4wSnnsc
-hlg/NmZcdTXvFV1fA6JlRH5tryG7TH00oWXT06e/AbMZSbtVHL0fbw9cjaH/67Qn
-XZxJYqIIZM49UlVUvDeTmTICb6TpxVk2ff+MNGvaC918PrBQmjfGfmsVWKhp1xB+
-S9aTZQWu77reaeJqtmr6gI5p
-=RmTF
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeH0ewbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+d8oQAKmZJZaiLiRoZ50/6+A7
+t0jTMw0UrlmGwZ4s66F6vtLMWL7AtRbabkUIVTkAakJ5p5ZCRcWD7OVrCAHMY9Sc
+hu8FT7LSsupcG0nwZ8/e3IDVxuHcPkB+udT/hhNCJZMyYfODu+36f+bvZBid7c3h
+5Zm3oJrbExn4jT97qLdFp5CpWMPQtr6zZ/LnZNSCewdQh680eSMM3ztTwhUBb6nY
+jLhKlBCA6J9PlL9bHNxtM80dlM1J39fYHn9BXAVYUWecTVhbrDNtesEtlzrjKU7K
+FYFTwMgh3RSekj9YJSJAKDuLJX3Q+FymjEYHHCfdOTbXJw8mqED+IJrCWFaeuxDF
+kn8a3Y3+JjSQWXw4dgnWvvAUB6BggsdX//ev7FHloqRyO3cYbjx9HNwn0Nl/2CrD
+/Z/XmrFyf+IV2lMXgA2+pDXwlQI5JII+90P/VBXClIbn43po0MMiX8dS0mA5r+7O
+GB4Uy9zdadTqYGXjAl3Df5AisTYdm1GJYlcwHyxnw4oct4NBF57YFwAC+EDXqDsn
+BuqYHOLLRnQwuD5JZaJ9iiGdquF18sNx23nJFVpvQICIoyUasMd0/Y5nGUNely5j
++0/x4IV5hvcpeOJ1Kaezb2/fEdEVwA/4paVnNAuHzhQeRe3jzDt48zW4bfSM1czH
+c9XAZvaF+1H+iuT/+UoOmRlZ
+=6wWd
 -----END PGP SIGNATURE-----
 
---===============6007734705625399583==
+--===============2526558668911372259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -73,4 +73,4 @@ d6d458d42e1e1544a18f37f1d5c840e00d5261b9 thunderbolt: Handle DisplayPort tunnel 
 43d84701d2aa147eab39b529919ffaf35f724bbb thunderbolt: Expose router DROM through debugfs
 47a836da9ca91ab95b3cf1b2218db60bd67d4514 Merge tag 'thunderbolt-for-v6.14-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-next
 
---===============6007734705625399583==--
+--===============2526558668911372259==--
