@@ -1,56 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============5123497610726650986=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Wed, 15 Jan 2025 13:14:34 -0000
-Message-Id: <173694687422.1367261.15186941109271759311@gitolite.kernel.org>
-
---===============5123497610726650986==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Wed, 15 Jan 2025 13:32:52 -0000
+Message-Id: <173694797267.1382074.16907663781958228523@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/pci/pci
+user: kwilczynski
 changes:
-  - ref: refs/heads/master
-    old: 668c90b9f931ec7044b86f4a1d59253a13e32a79
-    new: 3dba94345c7ae71a78b30305f36922bc443386bc
+  - ref: refs/heads/controller/dwc
+    old: 3ea96e9e57f83e0a1de4a78f738e6ea5dfca9b7d
+    new: 730e4b8bc4f526bed2bcd6196b7f7412237e12c0
     log: |
-         3dba94345c7ae71a78b30305f36922bc443386bc strip new mboxes
+         77e4fc917b970ffd74b70b0b2a83608b6ed80fdd dt-bindings: imx6q-pcie: Add ref clock for i.MX95 PCIe RC
+         32e6c9da644c1c3731ada54ceb0c7bf7ead68ca9 PCI: imx6: Add ref clock for i.MX95 PCIe
+         74d7ef49b4d1c17fd1482de69bb3eaeed70ceabe PCI: imx6: Fetch dbi2 and iATU base addesses from DT
+         3439691ec610db8d5457312cb7e9c12e2d7cd7b9 PCI: imx6: Fix controller_id generation logic for i.MX7D
+         0a2a166a0d54de49b18a04517208c0d36178a4e3 PCI: imx6: Deassert apps_reset in imx_pcie_deassert_core_reset()
+         bde4c49ec48ee27119ebdc0d6d3b60f003c62892 PCI: imx6: Fix the missing reference clock disable logic
+         c0ec992561f650845a135daba1c39a7374852b8f PCI: imx6: Remove surplus imx7d_pcie_init_phy() function
+         08e27c9cdbfacf5df2e721b892a5365dae0d31c3 PCI: imx6: Use DWC common suspend resume method
+         fdd813a622630f82c0bb59c01e326b124d819cd0 PCI: imx6: Add i.MX8MQ, i.MX8Q and i.MX95 PM support
+         730e4b8bc4f526bed2bcd6196b7f7412237e12c0 arm64: dts: imx95: Add ref clock for i.MX95 PCIecontroller/imx6
          
-
---===============5123497610726650986==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736946903 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1736946873-728fea326e67cf3c9823a137e821097e481bc3d6
-
-668c90b9f931ec7044b86f4a1d59253a13e32a79 3dba94345c7ae71a78b30305f36922bc443386bc refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeHtNcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UukP/jxmHeNla0qp+DfdVOgI
-UA8+43ynu8EV2Jg+jYyOPzWT7EzrOWWAf/1RmRwMFujExQC8hsu28TtPXAYw47BL
-rSOp3tiWjffQrGgqCRiDOK2xnfejf6HPSDM7AznVOW9u+FUTg/4hEuH4UGINTPN6
-rc/oOnPI433uBOAJEM8dDkAGRPCDyg7MJsfHQ3uTDuHNkEbf4XAL/yC0+ZIALqb/
-smKF+26N2CFM99QQmvU6SK4Zx9meGz3Rv5115k6rw6NmAGu9+BnHGI8VdFYuuz8L
-+ktw4X+p/I2AMHcO6cccuLD4eoGBvbJyfwnOZ6RKZe2iAmln6DrvuceiMdQrhQBL
-tph5lIgIv8rc93nL2Qk6G71oJhfNLLTtuU589xPLmtO6Q0lpHWKK8V0oM23SkHZi
-qr3BV83ltMHvJZiRhAMshT0NdGnisIFCT8v/xKkXqVQUmqpy6ZiiRiBY07nTzA8m
-KK21aD+OoShQzuhs7uJx1pfaoW6ayZdB56QoSoZho1KkkxPXlLmaMDdN4yNfGiJZ
-GLO+pRL3EOSL7svZJMLtC1/HLtO+SzpJzTJska796IvNLhKAyAIBVCKk7yvDA5rM
-bvZlYqyRdYk3L0gUaSMkVrtk1k0hSMHUJDVrv1gXSAQX7YUDnE8SVq5V3386Pini
-Z6LASAW13/2yN8MzWP+vso+t
-=i0id
------END PGP SIGNATURE-----
-
---===============5123497610726650986==--
