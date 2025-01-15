@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 15 Jan 2025 01:41:23 -0000
-Message-Id: <173690528328.807560.10711576528269467540@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 15 Jan 2025 01:41:53 -0000
+Message-Id: <173690531326.807947.11872640592671883514@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: b01b59a4fa87831b8504f1e8fc553ce599e7362d
-    new: b6be5ba8f1c6b28c2daa039fd9e9df32f62852bd
+    old: 16ebb6f5b6295c9688749862a39a4889c56227f8
+    new: c17ff476f53afb30f90bb3c2af77de069c81a622
     log: |
-         b6be5ba8f1c6b28c2daa039fd9e9df32f62852bd socket: Remove unused kernel_sendmsg_locked
+         c17ff476f53afb30f90bb3c2af77de069c81a622 net: xilinx: axienet: Fix IRQ coalescing packet count overflow
          
