@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Wed, 15 Jan 2025 22:01:42 -0000
-Message-Id: <173697850206.1818997.9654578043940481209@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Wed, 15 Jan 2025 22:16:09 -0000
+Message-Id: <173697936925.1831060.2974952687867086568@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
-user: sre
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/for-next
-    old: 0cd4f1f77ad4f021cd56aad00c1914583c3ddf3c
-    new: 260d7c5e5392ac41c94152005d416172ba0a906d
+  - ref: refs/heads/acpi-eventlog
+    old: e57ba604c355a77ff606b4f5d3d419402d73b21a
+    new: 28ac6aa85b39b6cfd05c53641a663b7f6229b012
     log: |
-         df998c22321dde3f70cd3cf8c183dfd6bf64c759 power: supply: add undervoltage health status property
-         4519e13aef44269b0f8b6694a7adeb13d7d66b14 dt-bindings: power: supply: max17042: add max77705 support
-         260d7c5e5392ac41c94152005d416172ba0a906d power: supply: max17042: add max77705 fuel gauge support
+         28ac6aa85b39b6cfd05c53641a663b7f6229b012 tpm: Map the ACPI provided event log
          
