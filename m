@@ -1,60 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6875569095045542507=="
+Content-Type: multipart/mixed; boundary="===============5919502119847214001=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 15 Jan 2025 17:37:27 -0000
-Message-Id: <173696264718.1591701.6562224050179873879@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Wed, 15 Jan 2025 17:38:28 -0000
+Message-Id: <173696270845.1592343.7466449973986877121@gitolite.kernel.org>
 
---===============6875569095045542507==
+--===============5919502119847214001==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: d43f18d94795aa9aacb110a60bc4df76e112f77f
-    new: d3fbbfa925c25d4d4453236173fb459ae2990265
+  - ref: refs/heads/char-misc-testing
+    old: 08b0c3726ad5d497bf3264d7e6667ac726ba4f74
+    new: e7edebd7530804b2e61b9952726f7afb23671913
     log: |
-         77b41a9342f610b90675a15aea87c8462b900404 staging: gpib: Use __iomem attribute for io addresses
-         8e7ff4e7a2358fbbe3a5bbdb733e5cf5868cf1ff staging: gpib: Use __user for user space pointers
-         b3beeeee2724b0664a2fc8682e1440d3fc31c6fe staging: gpib: Avoid plain integers as NULL pointers
-         3e2bcc16804b584bb2a2a8538a40fd3307305816 staging: gpib: Use C99 syntax and make static
-         d3fbbfa925c25d4d4453236173fb459ae2990265 staging: gpib: fix prefixing 0x with decimal output
+         e7edebd7530804b2e61b9952726f7afb23671913 scripts/tags.sh: Don't tag usages of DECLARE_BITMAP
          
 
---===============6875569095045542507==
+--===============5919502119847214001==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736962674 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1736962643-5d8b862d2a563c7392c7bae5280d45086eef306f
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736962736 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1736962706-b9a59b274221a9705e4cc2bd58cbf87ccc303607
 
-d43f18d94795aa9aacb110a60bc4df76e112f77f d3fbbfa925c25d4d4453236173fb459ae2990265 refs/heads/staging-testing
+08b0c3726ad5d497bf3264d7e6667ac726ba4f74 e7edebd7530804b2e61b9952726f7afb23671913 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeH8nIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4s0P/R87UacJOhlYVr6e3zUc
-PGFlytTQF317pUdkTcsI0pHaA3d1GmUW6h4b7BCDkV1sxb+KZhrOTM4EApNLuwlM
-+ZRpgLR0Rbcc8Aamn4Sdw2jH6CQXdgdG8elNY/NduZXvn/1gsUxeKZeWE/Di8KKn
-lxk9lL5UPyFr9iBk+Z2iEIEGT8dkkH0UbQRJnd292H31NO1oAxuOwimzU+4cQQEN
-54F5454sFSsFQsVAdhpRIJAWFyuOAGZKv/hoS7hLeiC+00SmRGwAJlRe0QniAwRv
-GEcGbxwyeiMxnkIV2x12A91UVBEcyq2nt1ANRSmMuZ8sgatio3mGi5AoOE+jXw+p
-b5lDFxM+CdUqGfeaPfxfAmOfp81z7CRTBHX/1V+jU7mqOdrZtlgfgkH73PpGfVea
-f9il13kT1t2LPrJyGzeGMK/cYEuu4lrn+A2hwl/Kk2ywlsVuji75KBBHXp7RdQnD
-RB0ngeeo6BpyIkuahMv5dgPEW78ts2AA6geML6ErqSBtwJDP7yQMhwAcMnHfl1YT
-jlQus8de2wTXzSCEBZaEROPtgc8rtsVWm8nIrq+2Yq/tXdBnULYd+oUq7c9teEUq
-4xDq7r5acTxWw1UHg7ISKS3ubYTshsOdl414B/DYev7M4uJH3o14+Hm9h+7oPX5X
-oO2Kq2rrya018itF9KK/arkL
-=qM7r
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeH8rAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PxAP/i8eqClA/ImF8ck0RNP+
+tGvkhgqdhkuKiuq82ewVPHwoyxiP02YxvvFXekc8gFLFOwoWsGKSLFlWuQakf3K5
+LfozvO8CfmUpi3GNgOHa0jEuyUXhyTN1EkpJp8b3k9j50NhI3wYBp3AMd/WKxdM8
+d1l6X0CTZmuSqqgoA+d9c8kCoc2AY9Z0KWlcU3QpuAs7ORgP0r+uzwRsq17SnqED
+6l8KXhw1ahEplIL/VZmyPoxd+ReXoppJRE3EPvYgGzTx4O4J99PRINlaC8+sdpfe
+pEGhbyMxTl5JlDnaYea22eFEWs86RWoQMlBa/96S+tlWrsc569JqarQstPnSdXu0
+SIhTwNjH5K72ZlZySEr2bQyGBx1L6GXhniMEupn9PEGqc3l/ZfYGlkYY8QaW0EN6
+lzERJRdtMQZTwYVGQ9HEapyFzcYOm50j5VhxfqVcvEjJMA8IzPD6NjWclju/yg0x
+pXaQ5H4tdWbfiSOAxrNvf6shK9DVFKnUcattQFqBpJj0g5jjVFGR8IiiwcxzZ7ef
+b9tBYCKimNMXzZfxDVmPrlE2ZcBlGlXcfAEzNb1k5oj1zSwI0L9MZFIdoPUVh9Qj
+sN9chgvdU11w7vqvGDWpAk1vLYHBUxBrMHUEpQZxntSdN4HzsMojNcF45KPZIZ5D
+DsLtS4LGmqb5K2qfmlAcEA4n
+=t2Lj
 -----END PGP SIGNATURE-----
 
---===============6875569095045542507==--
+--===============5919502119847214001==--
