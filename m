@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4553656187003356460=="
+Content-Type: multipart/mixed; boundary="===============9138162724686868413=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 15 Jan 2025 17:28:10 -0000
-Message-Id: <173696209005.1583900.2698813071405064368@gitolite.kernel.org>
+Date: Wed, 15 Jan 2025 17:28:58 -0000
+Message-Id: <173696213828.1584342.14224523058364347500@gitolite.kernel.org>
 
---===============4553656187003356460==
+--===============9138162724686868413==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,45 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 47a836da9ca91ab95b3cf1b2218db60bd67d4514
-    new: f386bfad038d07fc356df267592f5fd812c8cf3e
+    old: f386bfad038d07fc356df267592f5fd812c8cf3e
+    new: dcfe437492e27d54f3ac491aed024da760f5c43c
     log: |
-         bd693544854b025765514e8948469c618000993a USB: Replace own str_plural with common one
-         789a1714292a0e6e87cd8fb7deedc1784bb959e3 USB: host: Use str_enable_disable-like helpers
-         13b3af26a41538e5051baedba8678eba521a27d3 USB: typec: Use str_enable_disable-like helpers
-         2d913c1b0cac0aeacc20870000ff3cddb040e69a USB: phy: Use str_enable_disable-like helpers
-         5b6dc50e9ed870fffbf2ae6de77b30fb0d15eab8 USB: gadget: Use str_enable_disable-like helpers
-         f386bfad038d07fc356df267592f5fd812c8cf3e USB: Use str_enable_disable-like helpers
+         dcfe437492e27d54f3ac491aed024da760f5c43c usb: dwc3: gadget: Reinitiate stream for all host NoStream behavior
          
 
---===============4553656187003356460==
+--===============9138162724686868413==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736962112 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736962165 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1736962081-ba7011ef5572ddc22eee59d1892024f9b5d185c7
+nonce 1736962135-0ac958a5018eabe015943527dad5dff49e70aa0f
 
-47a836da9ca91ab95b3cf1b2218db60bd67d4514 f386bfad038d07fc356df267592f5fd812c8cf3e refs/heads/usb-testing
+f386bfad038d07fc356df267592f5fd812c8cf3e dcfe437492e27d54f3ac491aed024da760f5c43c refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeH8EAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IwsP/A05bHQlswfEBdMKYVRY
-CkPj5SmDhTyoWYjLBp9daUOl+7p3LaVpgv8O7RjuzBbCKtKc3Ewen8tRo72jvh3e
-YAluFthBbcIwIqkON/73d1o34K8FqAkf9NrRShxQT3c9h56c7CVsFyNyqJ8Si9gE
-QRukaUcDtjsPQI/EzS5oWYjNiK3jQFF1qihAiYYg96eSGyrBopnli7e9blClppoM
-XYpezwZ+n+l8GZF2lK0IS+kH0EL3YPMzxwJgduyGk4z4967yFdDl4Br07KF/WVFK
-RfDN3hUWem6b+jdRB1WcB6Y9XnxKGcvCIViLGMAOewwcXynbrPx33WNA+WxyoGB1
-xcJmtc5LRzF69vKxRLax3nLXoTLdKzPNVY17hbpqxC1iFhV966iz2UlgdIcicHcm
-rbG14a39d8GKlIoS/a1QlbXaP/Ie/A7tWB9ngd3GF0BhxwmJNJEBAzQnklhJSv0y
-zNWb03EdJA2eWxvJf0KCnVpOsMjQyEUZcqbrmV3K9NW/Kh7SpGybNPVuuSJbEc10
-i2t4s9fT8gMAKoXfNK6NuwgHKW13DGFIPjV0LxZ8mxljYTbn+xFjIei6SosFGUT1
-qZlgKu4OmJg/bb9QAIFfjISiAZpyeAeHmePQFNgQRqKWS2laHsCh2uFJ63OkKlo9
-SHxWxKcPQqYwZ+8BzSJFWKpB
-=5Njp
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeH8HYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yv4QALUsdf2RE3BM6rap6zID
+fr0LM0Uadml3BLlboz9TbEBC1lhQzlnw1sRRYbdkf11Evz6lS/F732LwR4QAh05E
+qxbTc9dfsgdpD2fFSJkAzpVXOCX+C5uhwr7uxcTqsMOH8ViU+IGjFsKvhjLikW7C
+Rv9gpo4MSwTn/YVB8ziC2xSeLhvMciW9PTRlfTk5FEz1qcxi0vp1MWzLXWynWBkg
+EnFsAkVZqtOUWM0PA/CkmqRCdbw/wuT6owRjJ+pwsX0aga6sLx6zLgMxvSx7eGSt
+yYwZsIwx8I0i/NjO/xa2JOFyVTtQyAJHQCE55/INt0lxf0GP57z958GukOX1Bfa6
+mX/nTPvZZjoruHQ/TiU0IJrSF+eq7HWaiSk4ySkQ3P5qPBfPHoAHgnpUmvZSbuzc
+g6GO8MNdhIPaAj0ZgpTmCFb83kIIkPA0xf8n09Ro+zdmSkrEtsFqdUlYyqfqpv9s
+4Nw9kC/O6h8XBa2i87UKAbpl3au53Mb9XG4xoCuC++K+ujV/BY7xm0ettOtpilLB
+7Rbfs1ge98OYO1Y7+4VTYuIaqMw9uBGtBPQm42gEgpWG5idnh2SWps0Pd6Tt0auX
+GaZoMgv8Hn/GwvQoBJCH4ODVAptW52jQllD+4/nI624OGfucgkxzzGiEEi7/glSl
+OHqpNwaeCRgu2O1HqOqueGFA
+=0CC9
 -----END PGP SIGNATURE-----
 
---===============4553656187003356460==--
+--===============9138162724686868413==--
