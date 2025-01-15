@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3625932717976502377=="
+Content-Type: multipart/mixed; boundary="===============2355683265261894112=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 15 Jan 2025 16:47:44 -0000
-Message-Id: <173695966402.1548647.2037501316700960353@gitolite.kernel.org>
+Date: Wed, 15 Jan 2025 16:47:46 -0000
+Message-Id: <173695966628.1548799.2260399314997644821@gitolite.kernel.org>
 
---===============3625932717976502377==
+--===============2355683265261894112==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 76201b5979768500bca362871db66d77cb4c225e
     new: 0a5b8fff01bde1b9908f00004c676f2e2459333b
     log: revlist-76201b597976-0a5b8fff01bd.txt
 
---===============3625932717976502377==
+--===============2355683265261894112==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -54,4 +54,4 @@ f0d0277796db613c124206544b6dbe95b520ab6c net: netpoll: ensure skb_pool list is a
 001ba0902046cb6c352494df610718c0763e77a5 net: fec: handle page_pool_dev_alloc_pages error
 0a5b8fff01bde1b9908f00004c676f2e2459333b selftests: net: Adapt ethtool mq tests to fix in qdisc graft
 
---===============3625932717976502377==--
+--===============2355683265261894112==--
