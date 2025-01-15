@@ -1,37 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lenb/linux
-Date: Wed, 15 Jan 2025 01:29:25 -0000
-Message-Id: <173690456525.796520.12158383541039593805@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 15 Jan 2025 01:41:23 -0000
+Message-Id: <173690528328.807560.10711576528269467540@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lenb/linux
-user: lenb
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/next
-    old: 4367fb1a547a0823dd160370f5feaeabaef9dbaf
-    new: 84c6f8c430e3fa7c23a2dda57c31c44192f8e20f
+  - ref: refs/heads/main
+    old: b01b59a4fa87831b8504f1e8fc553ce599e7362d
+    new: b6be5ba8f1c6b28c2daa039fd9e9df32f62852bd
     log: |
-         2f198c219accef68db7f4acd3c610ce853b58787 tools/power turbostat: Check for non-zero value when MSR probing
-         e41834c9c9cbb3db5149a3a897d44409092a3774 tools/power turbostat: Return default value for unmapped PMT domains
-         7596c8999443f6053d75e35c5b12aa81d393ea21 tools/power turbostat: Extend PMT identification with a sequence number
-         7cbef909df50f29e4db500a7dc8057c82d717407 tools/power turbostat: Add PMT directory iterator helper
-         312e56ea38fe8efb8aa4bd2eca77f2f8156ae8d5 tools/power turbostat: Allow mapping multiple PMT files with the same GUID
-         c3a591e8f7dac754cb80b68296eccd845ee86172 tools/power turbostat: Allow adding PMT counters directly by sysfs path
-         84c6f8c430e3fa7c23a2dda57c31c44192f8e20f tools/power turbostat: version 2025.01.14
-         
-  - ref: refs/heads/turbostat
-    old: 4367fb1a547a0823dd160370f5feaeabaef9dbaf
-    new: 84c6f8c430e3fa7c23a2dda57c31c44192f8e20f
-    log: |
-         2f198c219accef68db7f4acd3c610ce853b58787 tools/power turbostat: Check for non-zero value when MSR probing
-         e41834c9c9cbb3db5149a3a897d44409092a3774 tools/power turbostat: Return default value for unmapped PMT domains
-         7596c8999443f6053d75e35c5b12aa81d393ea21 tools/power turbostat: Extend PMT identification with a sequence number
-         7cbef909df50f29e4db500a7dc8057c82d717407 tools/power turbostat: Add PMT directory iterator helper
-         312e56ea38fe8efb8aa4bd2eca77f2f8156ae8d5 tools/power turbostat: Allow mapping multiple PMT files with the same GUID
-         c3a591e8f7dac754cb80b68296eccd845ee86172 tools/power turbostat: Allow adding PMT counters directly by sysfs path
-         84c6f8c430e3fa7c23a2dda57c31c44192f8e20f tools/power turbostat: version 2025.01.14
+         b6be5ba8f1c6b28c2daa039fd9e9df32f62852bd socket: Remove unused kernel_sendmsg_locked
          
