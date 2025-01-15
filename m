@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5551432890243723784=="
+Content-Type: multipart/mixed; boundary="===============1628809675688387440=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 15 Jan 2025 18:58:29 -0000
-Message-Id: <173696750968.1662506.16678551647996621447@gitolite.kernel.org>
+Date: Wed, 15 Jan 2025 18:59:02 -0000
+Message-Id: <173696754276.1662901.12042937319894466051@gitolite.kernel.org>
 
---===============5551432890243723784==
+--===============1628809675688387440==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,49 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 7e7e98123a6245710697a8d8faf96d640784780d
-    new: 31ec8ee3a36cf28c6a6a89562ad45f0d074ba577
-    log: revlist-7e7e98123a62-31ec8ee3a36c.txt
+    old: 31ec8ee3a36cf28c6a6a89562ad45f0d074ba577
+    new: ac4036fb71ec3f368d5b927656c684fb78039984
+    log: revlist-31ec8ee3a36c-ac4036fb71ec.txt
+  - ref: refs/heads/tip/urgent
+    old: 5929ca4b234fce8a0d7c76ac7477700c1190a6d0
+    new: 97835b27bb7a6efd4b212e69635a6def0144986f
+    log: |
+         0d62a49ab55c99e8deb4593b8d9f923de1ab5c18 irqchip/gic-v3: Handle CPU_PM_ENTER_FAILED correctly
+         35cb2c6ce7da545f3b5cb1e6473ad7c3a6f08310 irqchip/gic-v3-its: Don't enable interrupts in its_irq_set_vcpu_affinity()
+         3a748d483d80f066ca4b26abe45cdc0c367d13e9 irqchip/sunxi-nmi: Add missing SKIP_WAKE flag
+         9322d1915f9d976ee48c09d800fbd5169bc2ddcc irqchip: Plug a OF node reference leak in platform_irqchip_probe()
+         8c4840277b6daffe09dea0338f3fce1eb4319a43 signal/posixtimers: Handle ignore/blocked sequences correctly
+         a97c4e66fc1d1f7ce517fdfa27f6ec4ca4b0d21c Merge branch into tip/master: 'irq/urgent'
+         5e6d1ae1c2454b40672128fc25a02aba233f4a88 Merge branch into tip/master: 'sched/urgent'
+         6483627e86bf4745f0c4c9c1d0663518e60ce88b Merge branch into tip/master: 'timers/urgent'
+         97835b27bb7a6efd4b212e69635a6def0144986f Merge branch into tip/master: 'x86/urgent'
+         
 
---===============5551432890243723784==
+--===============1628809675688387440==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7e7e98123a62-31ec8ee3a36c.txt
+Content-Disposition: attachment; filename=revlist-31ec8ee3a36c-ac4036fb71ec.txt
 
-0d62a49ab55c99e8deb4593b8d9f923de1ab5c18 irqchip/gic-v3: Handle CPU_PM_ENTER_FAILED correctly
-35cb2c6ce7da545f3b5cb1e6473ad7c3a6f08310 irqchip/gic-v3-its: Don't enable interrupts in its_irq_set_vcpu_affinity()
-3a748d483d80f066ca4b26abe45cdc0c367d13e9 irqchip/sunxi-nmi: Add missing SKIP_WAKE flag
-877c76dbb98b164f58d328c246ad33ec2db1030f irqchip: keystone: Use syscon_regmap_lookup_by_phandle_args
-dd1f17a9faf5359d76644236cde4cc1720f1184d irqchip/irq-brcmstb-l2: Replace brcmstb_l2_mask_and_ack() by generic function
-2d95ffaecbc2a29cf4a0fa8e63ce99ded7184991 irqchip/ti-sci-intr: Add module build support
-b8b26ae398c4577893a4c43195dba0e75af6e33f irqchip/ti-sci-inta : Add module build support
-e3ab1fc9354fabd65ea10ce6ca4153ef07128ad0 irqchip/ts4800: Replace seq_printf() by seq_puts()
-2af257388473298898d71313cfa6092b572f2602 irqchip/loongarch-avec: Add multi-nodes topology support
-9322d1915f9d976ee48c09d800fbd5169bc2ddcc irqchip: Plug a OF node reference leak in platform_irqchip_probe()
-8d187a77f04c14fb459a5301d69f733a5a1396bc genirq: Make handle_enforce_irqctx() unconditionally available
-9620301cc27f6dc6197236a55a44fac8e64be0a1 genirq: Remove handle_enforce_irqctx() wrapper
-5d30d6ab8c65b6caf034892aa8ae29285d0a515f ARC: Remove GENERIC_PENDING_IRQ
-65d09d269fc15b4d8bbeff950ecdc4dc36a6961a hexagon: Remove GENERIC_PENDING_IRQ leftover
-a648eb3a3f79e9736a59b28783700c2c691db419 genirq: Provide IRQCHIP_MOVE_DEFERRED
-12cbdcb9f05559ff72eb8a04df829852804c0276 x86/apic: Convert to IRQCHIP_MOVE_DEFERRED
-0fccabd9e3215368983c7161cb69b3fc748893e1 genirq: Remove IRQ_MOVE_PCNTXT and related code
-763d1ebec843b5048761e094281281abbd9a75f0 vdso: Correct typo in PAGE_SHIFT comment
-8c4840277b6daffe09dea0338f3fce1eb4319a43 signal/posixtimers: Handle ignore/blocked sequences correctly
-9f38e83a88979ddd630c1f80c2404ecde7854044 posix-timers: Fix typo in __lock_timer()
-776b194116d1a484b6d04abfe4b86272f0700144 clocksource/wdtest: Print time values for short udelay(1)
-da7100d3bf7d6f5c49ef493ea963766898e9b069 hrtimers: Update the return type of enqueue_hrtimer()
-4903e1ba798e4d4a9bce1eee0f0285f385d14f15 tick/broadcast: Add kernel-doc for function parameters
-4477b0601471ba4fc67501b62b78aebd327fefd7 timer/migration: Fix kernel-doc warnings for union tmigr_state
-2d2a46cf23788a19e5450c6f9c86ab17f596c708 timekeeping: Remove unused ktime_get_fast_timestamps()
-2bebd2da85640a9bf96fa931064fe7847eca7f0e genirq/timings: Add kernel-doc for a function parameter
-b5cb2628b7746b265ea457180351130afc55d951 Merge branch into tip/master: 'irq/urgent'
-e4976dd4c689aa0e93035b1048f729c3ec9f6c92 Merge branch into tip/master: 'timers/urgent'
-7ac837cb2c33508bec9f4b13c368b4146e8b4048 Merge branch into tip/master: 'irq/core'
-31ec8ee3a36cf28c6a6a89562ad45f0d074ba577 Merge branch into tip/master: 'timers/core'
+a97c4e66fc1d1f7ce517fdfa27f6ec4ca4b0d21c Merge branch into tip/master: 'irq/urgent'
+5e6d1ae1c2454b40672128fc25a02aba233f4a88 Merge branch into tip/master: 'sched/urgent'
+6483627e86bf4745f0c4c9c1d0663518e60ce88b Merge branch into tip/master: 'timers/urgent'
+97835b27bb7a6efd4b212e69635a6def0144986f Merge branch into tip/master: 'x86/urgent'
+1ea6949d50e84caf82440684ff6d03b87222af6d Merge branch into tip/master: 'x86/merge'
+bf7db23624bf8f1495516351ef2998b6fcee17e2 Merge branch into tip/master: 'ras/merge'
+c208df839cf12392247be2132c2f22d545269381 Merge branch into tip/master: 'irq/core'
+1542566307e987c81f735ec4a7d5a4016c2ee3e0 Merge branch into tip/master: 'locking/core'
+5d246ed69235894a573d6667f4e38fe623664eec Merge branch into tip/master: 'objtool/core'
+81b0d364e75a3d545363e6d2ab5afceb717c8831 Merge branch into tip/master: 'perf/core'
+00a2d9e7fed8ed1e45f16c1a6e4665b7c0624a61 Merge branch into tip/master: 'sched/core'
+f3ecc195bac272884f942534876e0ea61f94c4c6 Merge branch into tip/master: 'timers/core'
+d0e30209defb4dd431cd75fae463dfd11339d610 Merge branch into tip/master: 'x86/boot'
+0956980615f9937c4c77735d20d8c9b7d0b2bbac Merge branch into tip/master: 'x86/bugs'
+e84489bb0220b32bcdd0e7eb07a6be1f46a1d600 Merge branch into tip/master: 'x86/cache'
+9674f68375e851352b27f493263cd223575eebe7 Merge branch into tip/master: 'x86/cleanups'
+e34130032abc4ccbb5c27ccc30e028f9d28cb6d3 Merge branch into tip/master: 'x86/cpu'
+79f90d8cf749bbfe54fd9064f1aceee5534cb2e9 Merge branch into tip/master: 'x86/microcode'
+31c907dc96a1292286d1c200c3944ca89f5189ed Merge branch into tip/master: 'x86/mm'
+ac4036fb71ec3f368d5b927656c684fb78039984 Merge branch into tip/master: 'x86/tdx'
 
---===============5551432890243723784==--
+--===============1628809675688387440==--
