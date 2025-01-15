@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1532707681981736655=="
+Content-Type: multipart/mixed; boundary="===============7864335730832081298=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/security/vulns
-Date: Wed, 15 Jan 2025 12:24:45 -0000
-Message-Id: <173694388537.1326402.6364942068871000122@gitolite.kernel.org>
+Date: Wed, 15 Jan 2025 12:49:38 -0000
+Message-Id: <173694537805.1345874.15502830392070745424@gitolite.kernel.org>
 
---===============1532707681981736655==
+--===============7864335730832081298==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,44 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 19f1de46946e1c1b03236757622c3b20731cb7e5
-    new: 7775dd8f3eb6695fbb2eef38aa42231ed8f4abef
+    old: 7775dd8f3eb6695fbb2eef38aa42231ed8f4abef
+    new: ecf33c651ff83d4ddaaf2fd48855d0e1acb6ba9d
     log: |
-         f7e9ff9f5e7f851f3fd2ad47a69098db0b0f0d76 add .vulnerable id for CVE-2024-48873
-         1e109c164d4919297206096cc196de6a4a944e17 add .vulnerable id for CVE-2024-56787
-         d8a3ed32b58dc039ccfd9d4ce3c3afd4fd5e7a4a add .vulnerable id for several i3c CVEs
-         502e830d763297f12602949558bcb538e705fea8 add .vulnerable id for several mpi3mr CVEs
-         7775dd8f3eb6695fbb2eef38aa42231ed8f4abef update entries based on new .vulnerable entry
+         00f31f527297578c30c99c58fc104802e2c12ccb fix .vulnerable id for several mpi3mr CVEs
+         ecf33c651ff83d4ddaaf2fd48855d0e1acb6ba9d updates based on new .vulnerable changes
          
 
---===============1532707681981736655==
+--===============7864335730832081298==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736943914 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1736945404 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1736943884-4f4fd06c801d84671a9c956ec7e899bae4f950f8
+nonce 1736945374-76dd04464de2f8e880047a6f8276e39536cbdca0
 
-19f1de46946e1c1b03236757622c3b20731cb7e5 7775dd8f3eb6695fbb2eef38aa42231ed8f4abef refs/heads/master
+7775dd8f3eb6695fbb2eef38aa42231ed8f4abef ecf33c651ff83d4ddaaf2fd48855d0e1acb6ba9d refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeHqSobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+W6IP/3NMpCjAqmyiZPIED7Ti
-c/daM/QnwLDjODNKQ+lwQR75EEV/jD2ghovI7uN7/DvGy/6XEqQy4+RDGbkO5uFc
-1Xf0NKLhgFwww+mOc8+zMhl3vnnZg/gCq/qYZaE2NPFLnGmiEm5khXetEfSR/vIe
-MD+29Vf6e6le+RUIU9qngVNg2r6Lj4AtmnFWsgoZ8odx3ncTzpBO0hDC26Djsmhu
-aw21C8a++S1Q79AnkVME0+W3UAhFnpOIuy6xmR11Vl8QbydcsqO39EmFEugteeZW
-n9BXXIvpWs9H90HazLolzRtPPjkyDWmHItHBNP3HoIIMT9zDfg7//7NEgBJFVIyr
-tO/3oy0FyOZ66hKuadKMF08XuwtXdbfPYY2RKLGQCAPYtWeWVf97EnLTDinsZ9l5
-kCSnqHUpNAo+2Bl4zJ/ivxOSrN8I3BZPQG05EHwLjgo26IKMuV6xFyjQjjQWAMtU
-hD6/wEgLNsPbrPfE39nbarDVlW3GV8jh9ClEUzYpixsfJEbu9pBsg98rKxqYRKAm
-b5gG0YKil5yIU6xLgFJ9iYWVgrWo6tLSIN8yL4jnaSY5QOymUmTgaxWY4Fs+BUg5
-mQGKF0QMf09hMDiQ5cyN4RUXhVhZ1EYWPM62/mHKvNx1UCo9U/wFYzV1y9wM4/g4
-igzJjVP48k9moSXJFGZbDpXE
-=PPyR
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeHrv0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vkoP/iTzFuC44ohyoCnfHyeU
+1uqSB7xBlQES86Eb05izkcQlD/q+yeVahPstQBT6M5vINPTJMIR8Zzh7T33iD1SR
+12lOqBuErHagX9YaNYfny1OsmJ9xPxFIH0ssfcXRPgOPrOGRLTc+EOkyGtvBac3g
+nxb4e1mObmCnEGB9HO/qt9QoI54A6pMvdTX7sI1m084Wnf8c0Q0mOj2tkvA38APY
+JzjhJ4A1dwb1eZAE59cPyq0ru0ofaLxm/rKjr0B/PacXS/pTSPlKnNQlMSRNizl3
+skPlZCOxHv4V2XslgacT93peNyeuic6ptG34PRAd6AEJC7s/DEWtnZ32A2/+jjIA
+Ug9Msn0UCnKwtxUq5TJSKDH/YzQYuNLaWITBPtO2CYbgDhfVTJxmtSoPNh6apmoB
+pcDUGQNgodGqdpPvaC++JZc85jwHl3sF77SxRlnCIH4WSaicwfwM22KuaiScctNN
+uLC1VDgY4QaOwis/Uz/O2nH4UivZcrbVYrH925zPaToR15UlQ6XbMIZ4YWMfPOJd
+KHB5TkUUglxGEdpamKmDNh+ul2J9IvHq6UKgBTEhDZKHqPWV+TaRRtEi1Ksq6RD9
+pWiJursZhozJEjfUw+tiHnsm2azy9K7/ALjt7CZqZ9tfsPgVTz4tbZWeDk7HbbOq
+fJOX5gbzBvjl4XU2x1gNp2lh
+=6el/
 -----END PGP SIGNATURE-----
 
---===============1532707681981736655==--
+--===============7864335730832081298==--
