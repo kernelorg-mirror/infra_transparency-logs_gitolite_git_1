@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Wed, 15 Jan 2025 14:22:16 -0000
-Message-Id: <173695093673.1425459.17970343543975961621@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Wed, 15 Jan 2025 14:23:17 -0000
+Message-Id: <173695099710.1426019.7743461256430114826@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/libata/linux
-user: cassel
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/for-6.14
-    old: c9b5be909e6595547ed5d45aef39fd65948aa342
-    new: f2809aa4f591d98e4c560a23d7eaca804a8afc54
+  - ref: refs/heads/hwmon
+    old: e2c68cea431d65292b592c9f8446c918d45fcf78
+    new: b46ba47d7bb461a0969317be1f2e165c0571d6c5
     log: |
-         f2809aa4f591d98e4c560a23d7eaca804a8afc54 ahci: st: Switch from CONFIG_PM_SLEEP guards to pm_sleep_ptr()
+         8d6bf2e1055fa2cca4bf233f46d4d1e2086cc5ff hwmon: (acpi_power_meter) Fix a check for the return value of read_domain_devices().
+         b46ba47d7bb461a0969317be1f2e165c0571d6c5 hwmon: (drivetemp) Set scsi command timeout to 10s
          
