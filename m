@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Wed, 15 Jan 2025 16:14:09 -0000
-Message-Id: <173695764900.1518816.5819760202112818185@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
+Date: Wed, 15 Jan 2025 16:18:26 -0000
+Message-Id: <173695790649.1522795.1640171176880542657@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/s390/linux
-user: agordeev
+repo: pub/scm/linux/kernel/git/lee/mfd
+user: lee
 changes:
-  - ref: refs/heads/features
-    old: 0d30871739ab433e114b0058f08b6b1c7b816f7e
-    new: 26701574cee6777f867f89b4a5c667817e1ee0dd
+  - ref: refs/heads/for-mfd-next
+    old: b246bd32a34c1b0d80670e60e4e4102be6366191
+    new: 2816b0c949af89640b8dc05de53e650cbf1d55fb
     log: |
-         26701574cee6777f867f89b4a5c667817e1ee0dd s390/futex: Fix FUTEX_OP_ANDN implementation
+         476f519d1ba1671f97f657027b33d5833b9e691d dt-bindings: mfd: syscon: Fix al,alpine-sysfabric-service compatible
+         756d4b7a873c1170b65ea1e4cf0312f0a3f9976f dt-bindings: mfd: syscon: Fix ti,j784s4-acspcie-proxy-ctrl compatible
+         2816b0c949af89640b8dc05de53e650cbf1d55fb MAINTAINERS: Adjust the file entry for the qnap-mcu header
          
