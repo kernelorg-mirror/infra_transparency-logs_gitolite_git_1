@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5593933654187008129=="
+Content-Type: multipart/mixed; boundary="===============0257799720262309847=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 16 Jan 2025 13:01:59 -0000
-Message-Id: <173703251986.2551753.110850061037316267@gitolite.kernel.org>
+Date: Thu, 16 Jan 2025 13:02:24 -0000
+Message-Id: <173703254405.2552122.8964121651396638184@gitolite.kernel.org>
 
---===============5593933654187008129==
+--===============0257799720262309847==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,8 +16,8 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 3fb06981ce68e7ef34cfcd821dd6574e5bc835d8
+  - ref: refs/heads/char-misc-testing
+    old: 803815f3e340c046d2d95fe93e466d0f3bf58a92
     new: 797212a81cdab676d6d0e7726b3bb1bda3fc28c5
     log: |
          2102773c60787d97ce93e8aa6890b74f166edd35 dt-bindings: interconnect: add interconnect bindings for SM8750
@@ -30,34 +30,34 @@ changes:
          797212a81cdab676d6d0e7726b3bb1bda3fc28c5 Merge tag 'icc-6.14-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-next
          
 
---===============5593933654187008129==
+--===============0257799720262309847==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1737032547 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1737032573 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1737032516-538457536e4a86257c8914b3946a99b45480dcf9
+nonce 1737032542-b42b8d13bd883c289173f9693cfb8caed4b1051e
 
-3fb06981ce68e7ef34cfcd821dd6574e5bc835d8 797212a81cdab676d6d0e7726b3bb1bda3fc28c5 refs/heads/char-misc-next
+803815f3e340c046d2d95fe93e466d0f3bf58a92 797212a81cdab676d6d0e7726b3bb1bda3fc28c5 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeJA2MbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Q3gQANHSlmm0+idPgDyUO52l
-VYaPJRCmOgFKZZLBFQOLt5mDkDhxLHD/l1kSzKr2Ok1mDqy8REB3ktapOWJcFs7u
-nqKoiYLf+pWgw8Cap/t1BEZTS1nGKf7QzKiuq6bH0ssnZgZ6Z3EGEJjw3pZyoIFK
-HfCIVLiRjWwezVngsQZf/ji8sWWqTnorJXAoNa6srLw1jYtoR9xYlfE91/jsToi4
-b8msZ3sTsVqn0QQftz1IUWkc3aI73gFPS5cIlG0b7jTj7wZoSIYFQrzaQbwFBUfA
-YLEZJHIk/1TgI6DYpxds/lwxkH6DwMcX7U8/e+8VqwVpzPeoX20j2myDaghzewwT
-ny5+MP/YFNSWL0bGVmNNOnuXgxhUHUrUx+rOf897DLXxEJxn4Rk6VrkPWhgsXRzA
-yon+bYRIl9XxVcApViZA+hOK2bYGc56QmDDj6WRg+tZPrEuI0LBN3/C7Lwe8MqPV
-OwZLXGyECqVIRkSmFjIxUneQUYK4krFBBpLlpsKDeVpDcWa8t3ZkbT4VnTz81JkP
-rtGSdASbZ6onuhsOqC8Lnl3gKoC2wNEVAmJSrtdrozd49Zgk0aw18cOdsMqdU8BN
-EpVquqNXckLPZeZ5yG+jETu3EezXCrTT2RQAwhlCpdjy2fOLzMnfHLFAf3lKi6Di
-NZ9hvu/yCMvr1kwnY0j8tmWz
-=/l4T
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeJA30bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+oKcP/irZq2D4E+CX/FaBtxNV
+yXwMlU7/M5xPIyjHtglM86mM0fI/KuEV+diwrHYXGU2zdBRqXTvZX7rswCCBxXn4
+R077txraSouLWpEabMmG5PdBh9XaMM97csHlktvUn7nuIO9tpCpHeflwUVVakECX
+yas1cnRW0LLXgvPOdFZumLJoc3j8R2VttQaWntNh+s3DnKgdQ7SxZFi0A0ARlxdq
+3LR+mE7oBHRwxoUTnYww9rwU5ZNlktLiF3nhLnEbKZXAKGq9GOwlx14IQnhYud5n
+EVmo5OhW+6Vh5OIFe4l3zt70n7Dwg6aLQV4X6lpawYrIKRBKELLTdw57RIsKGO4I
+QPQwu2Jln2MeR6V7T4C3eDNZm8gYi3G1XydiykI+P+teRw200Vjk1SB54DqMRbKY
+z30YLOEUr+KNNXfbeqrTTP+TJLY3/vlIc5JDbLKDxHjUtHfAF0XldxGePoECzotQ
+MhBlpJeUbsWC9Xbaqol+G1+tGWGdBe+qFVWwIvesWut778vUaIt+sEOwRNm0+qTK
+z3K1a7C90TZe0hWEInPLhWiJVmgMRYDI71gREMzSg9arNMejs65u25dZbEK8E4BG
+BVXA7h3DoRmaZfN9FNyuuQvt5yZsn+oDMQ0sBsef05KG6pnaAnc+SBlxTAdW3umg
+1FLfPs4gvjlQwskPIBzVb54z
+=PUzE
 -----END PGP SIGNATURE-----
 
---===============5593933654187008129==--
+--===============0257799720262309847==--
