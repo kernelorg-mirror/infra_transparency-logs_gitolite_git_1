@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 16 Jan 2025 03:28:45 -0000
-Message-Id: <173699812586.2091351.3985377531260829325@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Thu, 16 Jan 2025 03:30:10 -0000
+Message-Id: <173699821098.2094278.2950314541888062015@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/main
-    old: 6be7aca91009865d8c2b73589270224a6b6e67ab
-    new: cbc16bceea784210d585a42ac9f8f10ce62b300e
-    log: |
-         cbc16bceea784210d585a42ac9f8f10ce62b300e net: make page_pool_ref_netmem work with net iovs
-         
+  - ref: refs/heads/seen
+    old: 5c2c4e0cfbe5f9ac7077025793b20e0a8697a24a
+    new: 629301872f0af74d1d705a0cc4b1288923314bd0
