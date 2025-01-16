@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1383873326709255325=="
+Content-Type: multipart/mixed; boundary="===============3807100983649563249=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Thu, 16 Jan 2025 00:06:22 -0000
-Message-Id: <173698598265.1920769.3961227885763663883@gitolite.kernel.org>
+Date: Thu, 16 Jan 2025 00:12:03 -0000
+Message-Id: <173698632352.1925320.12350019734031374293@gitolite.kernel.org>
 
---===============1383873326709255325==
+--===============3807100983649563249==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,28 +16,28 @@ repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 git_push_cert_status: E
 changes:
-  - ref: refs/tags/execve-v6.14-rc1
+  - ref: refs/heads/for-next/topic/execve/AT_EXECVE_CHECK
     old: 0000000000000000000000000000000000000000
-    new: 9a2663f173f55c42279fb6d752f4740fa1c5c623
+    new: 95b3cdafd7cb74414070893445a9b731793f7b55
 
---===============1383873326709255325==
+--===============3807100983649563249==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1736986011 -0800
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1736986352 -0800
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1736985980-71fd5d804c25cc0ad9be1a125fa091ed189bfff5
+nonce 1736986321-79c249d8c841290f23f3f61ecef0e946677e5f58
 
-0000000000000000000000000000000000000000 9a2663f173f55c42279fb6d752f4740fa1c5c623 refs/tags/execve-v6.14-rc1
+0000000000000000000000000000000000000000 95b3cdafd7cb74414070893445a9b731793f7b55 refs/heads/for-next/topic/execve/AT_EXECVE_CHECK
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCZ4hNmwAKCRA2KwveOeQk
-u77DAP9wrCx4I4q96hSzxf7zK7wxLPQsuFwff0C5QDcKiASYlgD/T69BrFRLrYIA
-h0Mnf6hGHdzM9kp+nmUAtIMLk7FY1gU=
-=oPKb
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCZ4hO8AAKCRA2KwveOeQk
+u1HiAQCVuYn1NG/OTrwmnIbsYlkgK/J4PvwoCPeSHWpHjKI2lwD/UMUTZ3AEF2kI
+/ctJbRVscXgO/Xgv5ig42nvAnsjTgAQ=
+=7uP4
 -----END PGP SIGNATURE-----
 
---===============1383873326709255325==--
+--===============3807100983649563249==--
