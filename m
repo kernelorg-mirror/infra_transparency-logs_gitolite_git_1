@@ -1,39 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============6198762762715501552=="
+Content-Type: multipart/mixed; boundary="===============2381664590535448828=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 16 Jan 2025 06:17:48 -0000
-Message-Id: <173700826861.2221330.4704172928511952418@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 16 Jan 2025 06:17:59 -0000
+Message-Id: <173700827978.2221659.6177577168959847839@gitolite.kernel.org>
 
---===============6198762762715501552==
+--===============2381664590535448828==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: e7bb221a638962d487231ac45a6699fb9bb8f9fa
     new: b323d8e7bc03d27dec646bfdccb7d1a92411f189
     log: revlist-e7bb221a6389-b323d8e7bc03.txt
-  - ref: refs/heads/stable
-    old: 7f5b6a8ec18e3add4c74682f60b90c31bdf849f2
-    new: 619f0b6fad524f08d493a98d55bac9ab8895e3a6
-    log: |
-         f90877dd7fb5085dd9abd6399daf63dd2969fc90 seccomp: Stub for !CONFIG_SECCOMP
-         619f0b6fad524f08d493a98d55bac9ab8895e3a6 Merge tag 'seccomp-v6.13-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
-         
-  - ref: refs/tags/next-20241016
-    old: 39bca1b6623744713b0655c014b6b7e30f4ff962
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20250116
     old: 0000000000000000000000000000000000000000
     new: 2e1df103a82d8e5b1a6deeedb70a8b2f86e3f084
 
---===============6198762762715501552==
+--===============2381664590535448828==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -869,4 +859,4 @@ df972870c3199d3f8dbb2bc2798bf0a0c34936a4 Merge branch 'next' of git://git.kernel
 4561491fd1e94c5cfcf4a60e52fc23b19ef43be7 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/frederic/linux-dynticks.git
 b323d8e7bc03d27dec646bfdccb7d1a92411f189 Add linux-next specific files for 20250116
 
---===============6198762762715501552==--
+--===============2381664590535448828==--
