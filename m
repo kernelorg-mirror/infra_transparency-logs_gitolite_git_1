@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0657390830781050582=="
+Content-Type: multipart/mixed; boundary="===============7847240503570366080=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Thu, 16 Jan 2025 23:08:41 -0000
-Message-Id: <173706892122.3112419.1793224015457210327@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
+Date: Thu, 16 Jan 2025 23:08:45 -0000
+Message-Id: <173706892548.3112559.9175033658135303992@gitolite.kernel.org>
 
---===============0657390830781050582==
+--===============7847240503570366080==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-omap
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: ce69b4019001407f9cd738dd2ba217b3a8ab831b
     log: revlist-619f0b6fad52-ce69b4019001.txt
 
---===============0657390830781050582==
+--===============7847240503570366080==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -86,4 +86,4 @@ ed8fd8d5dd4aa250e18152b80cbac24de7335488 Merge tag 'for-6.13-rc7-tag' of git://g
 6b4ccf11fa5dae17ac815c5a07ce56655d60a815 Merge tag 'pm-6.13-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 ce69b4019001407f9cd738dd2ba217b3a8ab831b Merge tag 'net-6.13-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============0657390830781050582==--
+--===============7847240503570366080==--
