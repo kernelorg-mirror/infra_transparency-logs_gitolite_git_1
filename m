@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Thu, 16 Jan 2025 15:54:43 -0000
-Message-Id: <173704288324.2743649.9096322553715338654@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
+Date: Thu, 16 Jan 2025 15:55:17 -0000
+Message-Id: <173704291758.2745557.163806800931064177@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/ulfh/linux-pm
+user: ulfh
 changes:
-  - ref: refs/heads/omap/soc
-    old: 0000000000000000000000000000000000000000
-    new: ad455e48bba7f21bb5108406da0854cf8dede8ea
+  - ref: refs/heads/fixes
+    old: f64f610ec6ab59dd0391b03842cea3a4cd8ee34f
+    new: 726efa92e02b460811e8bc6990dd742f03b645ea
+    log: |
+         726efa92e02b460811e8bc6990dd742f03b645ea pmdomain: imx8mp-blk-ctrl: add missing loop break condition
+         
