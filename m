@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6459777063182349670=="
+Content-Type: multipart/mixed; boundary="===============3983581836227881289=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 16 Jan 2025 17:57:05 -0000
-Message-Id: <173705022565.2846075.17531753157919802896@gitolite.kernel.org>
+Date: Thu, 16 Jan 2025 17:57:07 -0000
+Message-Id: <173705022792.2846154.8937787436891753965@gitolite.kernel.org>
 
---===============6459777063182349670==
+--===============3983581836227881289==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 7a1723d3b230765dc025401db8308937e4c4fb13
     new: b44e27b4df1a1cd3fd84cf26c82156ed0301575f
     log: revlist-7a1723d3b230-b44e27b4df1a.txt
 
---===============6459777063182349670==
+--===============3983581836227881289==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -112,4 +112,4 @@ df542f669307918f054a17878ff6dd1ddbb2fe18 net: stmmac: Switch to zero-copy in non
 204182edb3107f87a40f34affb3de8851e1c5d68 net: stmmac: Convert prefetch() to net_prefetch() for received frames
 b44e27b4df1a1cd3fd84cf26c82156ed0301575f Merge branch 'net-stmmac-rx-performance-improvement'
 
---===============6459777063182349670==--
+--===============3983581836227881289==--
