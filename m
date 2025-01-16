@@ -1,48 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Thu, 16 Jan 2025 19:24:10 -0000
-Message-Id: <173705545007.2923073.5583775625103963557@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Thu, 16 Jan 2025 19:25:18 -0000
+Message-Id: <173705551853.2927404.10629054376467690645@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: bba4f2ac76f605f6f8b62c5dae11103ceb20ad60
-    new: 203c566a1ffc2b31241d3943d135ec795b750838
+  - ref: refs/heads/dev-test
+    old: 17dc0318584ca2970613366ec30d00d16294aaa7
+    new: 41fb0fabc40113769ce53ea85ffd1f4bc87ae03a
     log: |
-         423124ab97b0235dce590a9fba8f3d3cd3cdb38b Merge back earlier cpufreq material for 6.14
-         a25c03cf8ff75d1545ba94543d7359dca2e90907 Merge branches 'acpi-prm' and 'acpi-apei' into linux-next
-         116c927d7c15e17de6e263b5fa67466729e575d5 Merge branches 'pm-cpufreq' and 'pm-sleep' into linux-next
-         203c566a1ffc2b31241d3943d135ec795b750838 Merge branch 'experimental/intel_pstate-testing' into bleeding-edge
-         
-  - ref: refs/heads/linux-next
-    old: 993fce4fce1c3d1142037555d97927b6eb1420c5
-    new: 116c927d7c15e17de6e263b5fa67466729e575d5
-    log: |
-         f4757d84abf523ea831dba0c136db4050d55c99f ACPI: PRM: Fix missing guid_t declaration in linux/prmt.h
-         5c0e00a391dd0099fe95991bb2f962848d851916 APEI: GHES: Have GHES honor the panic= setting
-         0834667545962ef1c5e8684ed32b45d9c574acd3 cpufreq: ACPI: Fix max-frequency computation
-         96484d21ae2775e142b23e99f90c02faef80d480 PM: sleep: convert comment from kernel-doc to plain comment
-         56cabb937f8f6091c231bdbc17c0d0a10130fb5d PM: sleep: Allow configuring the DPM watchdog to warn earlier than panic
-         423124ab97b0235dce590a9fba8f3d3cd3cdb38b Merge back earlier cpufreq material for 6.14
-         a25c03cf8ff75d1545ba94543d7359dca2e90907 Merge branches 'acpi-prm' and 'acpi-apei' into linux-next
-         116c927d7c15e17de6e263b5fa67466729e575d5 Merge branches 'pm-cpufreq' and 'pm-sleep' into linux-next
-         
-  - ref: refs/heads/testing
-    old: 993fce4fce1c3d1142037555d97927b6eb1420c5
-    new: 116c927d7c15e17de6e263b5fa67466729e575d5
-    log: |
-         f4757d84abf523ea831dba0c136db4050d55c99f ACPI: PRM: Fix missing guid_t declaration in linux/prmt.h
-         5c0e00a391dd0099fe95991bb2f962848d851916 APEI: GHES: Have GHES honor the panic= setting
-         0834667545962ef1c5e8684ed32b45d9c574acd3 cpufreq: ACPI: Fix max-frequency computation
-         96484d21ae2775e142b23e99f90c02faef80d480 PM: sleep: convert comment from kernel-doc to plain comment
-         56cabb937f8f6091c231bdbc17c0d0a10130fb5d PM: sleep: Allow configuring the DPM watchdog to warn earlier than panic
-         423124ab97b0235dce590a9fba8f3d3cd3cdb38b Merge back earlier cpufreq material for 6.14
-         a25c03cf8ff75d1545ba94543d7359dca2e90907 Merge branches 'acpi-prm' and 'acpi-apei' into linux-next
-         116c927d7c15e17de6e263b5fa67466729e575d5 Merge branches 'pm-cpufreq' and 'pm-sleep' into linux-next
+         a78c5c2269e39544fab4140105f55fca4502e915 fs: erofs: xattr.c change kzalloc to kcalloc
+         54ab25d03eab652a321c3d1566edc2b050d83f2f erofs: micro-optimize superblock checksum
+         9f74ae8c9ac97a79f9d45c92bd8ac8598e17f21f erofs: shorten bvecs[] for file-backed mounts
+         db902986dee453bfb5835cbc8efa67154ab34caf erofs: fix potential return value overflow of z_erofs_shrink_scan()
+         2a810ea79cd7a6d5f134ea69ca2ba726e600cbc4 erofs: simplify z_erofs_load_compact_lcluster()
+         5514d8478b8ef3f0ba1b77beaa65f05c12825143 erofs: get rid of `z_erofs_next_pcluster_t`
+         6f435e94a19ad25b372bc61443afd0839b8a521c erofs: tidy up zdata.c
+         e180b8c4c23beb876927a999c49c18b361fa7975 erofs: convert z_erofs_bind_cache() to folios
+         41fb0fabc40113769ce53ea85ffd1f4bc87ae03a erofs: return SHRINK_EMPTY if no objects to free
          
