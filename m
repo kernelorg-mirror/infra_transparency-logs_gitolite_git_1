@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Thu, 16 Jan 2025 16:27:00 -0000
-Message-Id: <173704482029.2772686.3633755845099984223@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
+Date: Thu, 16 Jan 2025 16:32:12 -0000
+Message-Id: <173704513219.2777024.12444150685972126970@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ras/ras
-user: bp
+repo: pub/scm/linux/kernel/git/netfilter/nf-next
+user: pablo
 changes:
-  - ref: refs/heads/edac-drivers
-    old: 558aff7a63f67dc4723a4deed419a2dfd0fb14f2
-    new: 6696037a56a77af01170422674a98add3457e03f
-    log: |
-         6696037a56a77af01170422674a98add3457e03f EDAC/cell: Remove powerpc Cell driver
-         
+  - ref: refs/heads/for-netdev-nf-next-25-01-16
+    old: 0000000000000000000000000000000000000000
+    new: e8dcdaa9dec9475f0a156cc998d40552cff071d7
