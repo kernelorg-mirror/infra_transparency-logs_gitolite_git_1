@@ -1,25 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Thu, 16 Jan 2025 21:33:52 -0000
-Message-Id: <173706323218.3033996.6328172243519173483@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Thu, 16 Jan 2025 21:36:18 -0000
+Message-Id: <173706337842.3037099.17673684357885954616@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
-  - ref: refs/heads/main-pending
-    old: 797c1c51e9a697a92c7b334001ac849d4e9d883d
-    new: 3d0b301d44b79e6c5c02880456e188934e1210c8
+  - ref: refs/heads/master
+    old: d3561c4098de9666b87630ad3f090b41e67cdd62
+    new: 92600f3295ff571890c981d886c6544030cc05f3
     log: |
-         d8d6bc7fa08b2cae9d338649b95477f90bdb182e wifi: ath12k: Refactor the monitor Rx parser handler argument
-         867fa5612211540d59e31ddd3d5246981ffdb6b0 wifi: ath12k: Refactor the monitor Tx/RX handler procedure arguments
-         324c18da541f0646a2a4a670fbcf6cc59c076119 wifi: ath12k: Refactor Rx status TLV parsing procedure argument
-         3d0b301d44b79e6c5c02880456e188934e1210c8 Merge branch 'pending' into main-pending
+         92600f3295ff571890c981d886c6544030cc05f3 Input: xpad - add QH Electronics VID/PID
          
-  - ref: refs/tags/ath-pending-202501161847
-    old: 0000000000000000000000000000000000000000
-    new: 3d0b301d44b79e6c5c02880456e188934e1210c8
+  - ref: refs/heads/next
+    old: d3561c4098de9666b87630ad3f090b41e67cdd62
+    new: 92600f3295ff571890c981d886c6544030cc05f3
+    log: |
+         92600f3295ff571890c981d886c6544030cc05f3 Input: xpad - add QH Electronics VID/PID
+         
