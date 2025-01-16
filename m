@@ -1,46 +1,16 @@
-Content-Type: multipart/mixed; boundary="===============9153009377450587148=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sysctl/sysctl
-Date: Thu, 16 Jan 2025 10:50:35 -0000
-Message-Id: <173702463597.2444200.7275828171455359451@gitolite.kernel.org>
-
---===============9153009377450587148==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Thu, 16 Jan 2025 10:51:02 -0000
+Message-Id: <173702466219.2444423.13514348057116859972@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sysctl/sysctl
-user: joel.granados
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/sysctl-testing
-    old: 81b34e7966e84983a31c0150cbf2171605c023a3
-    new: 744d41a44e8e56e3ae5e56071788380cabe64f81
-    log: revlist-81b34e7966e8-744d41a44e8e.txt
-
---===============9153009377450587148==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-81b34e7966e8-744d41a44e8e.txt
-
-0ed8841c1ce8ddd05047b4544a8e5acf8a3df41a mm: vmstat: move sysctls to mm/vmstat.c
-674f15fd9d7991281a8f799064bdc941d2c9ef49 mm: filemap: move sysctl to mm/filemap.c
-dd32f1219aa84e2955c32ec0c20396fb0c68d602 mm: swap: move sysctl to mm/swap.c
-d6923012d8b9646b4d99dc36e3e26b0e4c377050 mm: vmscan: move vmscan sysctls to mm/vmscan.c
-74a5828ed7cef4df7edae567e0ab6007992412c0 mm: util: move sysctls to mm/util.c
-535e28d7489685c6341a1a570a38bb64e22aa54e mm: mmap: move sysctl to mm/mmap.c
-d5310eabccf5105f108bd519975f6b64b323b79a security: min_addr: move sysctl to security/min_addr.c
-e8e4edcef0876689a81b3d8916e632d93a286a15 mm: nommu: move sysctl to mm/nommu.c
-bef9036eddafbac8a62f2580d69f997d18a95e28 fs: fs-writeback: move sysctl to fs/fs-writeback.c
-6417c405b0612ebcb6bdb1e5f975ff9e9725f6b1 fs: drop_caches: move sysctl to fs/drop_caches.c
-57201468b83d65b460e51c1f1f8bd2f8a0a73a57 sunrpc: simplify rpcauth_cache_shrink_count()
-7144a43de3a21603b32a7e13bcd087e26d812812 fs: dcache: move the sysctl to fs/dcache.c
-5533ac940e0ff73d6281d12b5dc4bb13b1b604aa x86: vdso: move the sysctl to arch/x86/entry/vdso/vdso32-setup.c
-731cdb04834ea20f50207827fa33e14c17d666c4 sh: vdso: move the sysctl to arch/sh/kernel/vsyscall/vsyscall.c
-fee5ed30d8ddb0c499b5bc87dd47921e58dfc760 sysctl: remove the vm_table
-744d41a44e8e56e3ae5e56071788380cabe64f81 sysctl: remove unneeded include
-
---===============9153009377450587148==--
+  - ref: refs/heads/for-6.13-rc7
+    old: 0000000000000000000000000000000000000000
+    new: fe4de594f7a2e9bc49407de60fbd20809fad4192
