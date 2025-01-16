@@ -1,50 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============5892911136460897489=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 16 Jan 2025 19:01:40 -0000
-Message-Id: <173705410034.2901394.18296660414486562769@gitolite.kernel.org>
-
---===============5892911136460897489==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Thu, 16 Jan 2025 19:01:42 -0000
+Message-Id: <173705410281.2901505.5029475490719972738@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/asoc-6.14
-    old: e436d43551764bd6ca22a1ab1e80e98939b8aec7
-    new: fee89ddd76e45841a2b01d87b481bc02483f4572
+  - ref: refs/heads/main
+    old: e09b6d5de14c7bd9be3326d5c68431cbd28cf559
+    new: 31ec74ee0ea7b8e6d7777241b3948b164b704a7c
     log: |
-         fee89ddd76e45841a2b01d87b481bc02483f4572 ASoC: xilinx: xlnx_spdif: Simpify using devm_clk_get_enabled()
+         dd5f35ba01e174a6c6bb9203decfe41c986490a2 qcom: add missing version information
+         f5dae710afc298ac173931735f8a1045470d8ab3 qcom: correct venus firmware versions
+         dfc337282fa269114404aba35cd234430fd9fd0a qcom: add DSP firmware for SA8775p platform
+         31ec74ee0ea7b8e6d7777241b3948b164b704a7c Merge branch 'sa8775p' into 'main'
          
-
---===============5892911136460897489==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1737054128 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1737054098-44dab65c0f4deb2c78095077c423d15a5855e731
-
-e436d43551764bd6ca22a1ab1e80e98939b8aec7 fee89ddd76e45841a2b01d87b481bc02483f4572 refs/heads/asoc-6.14
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmeJV7AACgkQJNaLcl1U
-h9BMigf/VqZKvfrbSRW7CJf04Q9b7TZXqjOMtSvlKXywND1tB9e+xiIv2kQtvXHD
-pwQ6exvqzFzR3RdWwov62st6xMtolvQ/sewHyM9+yw2a1lTRvcNFROWZGen8Tuqd
-TEkd2DeR80URFlVTn6HCdC9J6DdOFRBFrgHVDep/0XNu2/kQ4yokMugoTb6RQTvD
-KjPC9USB82SBH+IUre9Kkr1CDUJzP7VYxPosJE/w1gNC1X5ScqBnkPRj6/z0WaK+
-JQeuAgrqtSdbHVlmiLOgZYvtZv8zfo2Ek69pTsXxSp8UPzmy0sXQMp0eybtpAvsY
-rr0x4tw11QNtg0y1HpZ3yfjiPuitfA==
-=TBo3
------END PGP SIGNATURE-----
-
---===============5892911136460897489==--
