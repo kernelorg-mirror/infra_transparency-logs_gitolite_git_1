@@ -1,46 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============4346809125783208411=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Thu, 16 Jan 2025 19:15:13 -0000
-Message-Id: <173705491359.2917319.1079298404471619996@gitolite.kernel.org>
-
---===============4346809125783208411==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Thu, 16 Jan 2025 19:24:10 -0000
+Message-Id: <173705545007.2923073.5583775625103963557@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/master
-    old: 810c4b6094e960f6f5f0658f9b899fb0a8cef263
-    new: a4220b580042d0ea3aae1f896d71809de9739382
+  - ref: refs/heads/bleeding-edge
+    old: bba4f2ac76f605f6f8b62c5dae11103ceb20ad60
+    new: 203c566a1ffc2b31241d3943d135ec795b750838
     log: |
-         a4220b580042d0ea3aae1f896d71809de9739382 Add 8A7AECDB2E53B836 (Alan Maguire)
+         423124ab97b0235dce590a9fba8f3d3cd3cdb38b Merge back earlier cpufreq material for 6.14
+         a25c03cf8ff75d1545ba94543d7359dca2e90907 Merge branches 'acpi-prm' and 'acpi-apei' into linux-next
+         116c927d7c15e17de6e263b5fa67466729e575d5 Merge branches 'pm-cpufreq' and 'pm-sleep' into linux-next
+         203c566a1ffc2b31241d3943d135ec795b750838 Merge branch 'experimental/intel_pstate-testing' into bleeding-edge
          
-
---===============4346809125783208411==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1737054942 -0500
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1737054912-16c9cfdbc1b5f8b2725e9e577c731105d4d7d943
-
-810c4b6094e960f6f5f0658f9b899fb0a8cef263 a4220b580042d0ea3aae1f896d71809de9739382 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZ4la3gAKCRC2xBzjVmSZ
-bEDxAP9d98IccP4+/7Zg8dGm0YwT4pe8cOiDtABKUDCpPDHskwD/W8g8VQmc4YEw
-fXlL9L7qgOZwoOeABRn7rW9A8u7lXQ8=
-=fU4D
------END PGP SIGNATURE-----
-
---===============4346809125783208411==--
+  - ref: refs/heads/linux-next
+    old: 993fce4fce1c3d1142037555d97927b6eb1420c5
+    new: 116c927d7c15e17de6e263b5fa67466729e575d5
+    log: |
+         f4757d84abf523ea831dba0c136db4050d55c99f ACPI: PRM: Fix missing guid_t declaration in linux/prmt.h
+         5c0e00a391dd0099fe95991bb2f962848d851916 APEI: GHES: Have GHES honor the panic= setting
+         0834667545962ef1c5e8684ed32b45d9c574acd3 cpufreq: ACPI: Fix max-frequency computation
+         96484d21ae2775e142b23e99f90c02faef80d480 PM: sleep: convert comment from kernel-doc to plain comment
+         56cabb937f8f6091c231bdbc17c0d0a10130fb5d PM: sleep: Allow configuring the DPM watchdog to warn earlier than panic
+         423124ab97b0235dce590a9fba8f3d3cd3cdb38b Merge back earlier cpufreq material for 6.14
+         a25c03cf8ff75d1545ba94543d7359dca2e90907 Merge branches 'acpi-prm' and 'acpi-apei' into linux-next
+         116c927d7c15e17de6e263b5fa67466729e575d5 Merge branches 'pm-cpufreq' and 'pm-sleep' into linux-next
+         
+  - ref: refs/heads/testing
+    old: 993fce4fce1c3d1142037555d97927b6eb1420c5
+    new: 116c927d7c15e17de6e263b5fa67466729e575d5
+    log: |
+         f4757d84abf523ea831dba0c136db4050d55c99f ACPI: PRM: Fix missing guid_t declaration in linux/prmt.h
+         5c0e00a391dd0099fe95991bb2f962848d851916 APEI: GHES: Have GHES honor the panic= setting
+         0834667545962ef1c5e8684ed32b45d9c574acd3 cpufreq: ACPI: Fix max-frequency computation
+         96484d21ae2775e142b23e99f90c02faef80d480 PM: sleep: convert comment from kernel-doc to plain comment
+         56cabb937f8f6091c231bdbc17c0d0a10130fb5d PM: sleep: Allow configuring the DPM watchdog to warn earlier than panic
+         423124ab97b0235dce590a9fba8f3d3cd3cdb38b Merge back earlier cpufreq material for 6.14
+         a25c03cf8ff75d1545ba94543d7359dca2e90907 Merge branches 'acpi-prm' and 'acpi-apei' into linux-next
+         116c927d7c15e17de6e263b5fa67466729e575d5 Merge branches 'pm-cpufreq' and 'pm-sleep' into linux-next
+         
