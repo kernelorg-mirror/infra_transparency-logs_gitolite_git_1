@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Thu, 16 Jan 2025 10:30:55 -0000
-Message-Id: <173702345511.2426531.7290291133918108954@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Thu, 16 Jan 2025 10:40:21 -0000
+Message-Id: <173702402154.2434554.793497092337136628@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: maz
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/next
-    old: f922030f1c8541f76a103fee39ce38f15ba00c93
-    new: 502777ff0cf5d53c829d1ed06a8024e6aecd4506
+  - ref: refs/heads/master
+    old: 1c486a6477a68226eeaa5def1884c1f6d2440dc8
+    new: 94b298ede29ee79e95ebbf697b940e7310657526
     log: |
-         544786361d4b73905b05b9539c2bf401c533f0d6 KVM: arm64: nv: Fix doc header layout for timers
-         502777ff0cf5d53c829d1ed06a8024e6aecd4506 Merge branch kvm-arm64/nv-timers into kvmarm-master/next
+         94b298ede29ee79e95ebbf697b940e7310657526 tpm: Map the ACPI provided event log
          
