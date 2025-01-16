@@ -1,68 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============8013842339397608233=="
+Content-Type: multipart/mixed; boundary="===============5615248460631315532=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Thu, 16 Jan 2025 16:05:05 -0000
-Message-Id: <173704350586.2754728.15419310577944837212@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Thu, 16 Jan 2025 16:14:50 -0000
+Message-Id: <173704409094.2761117.10747281025930733404@gitolite.kernel.org>
 
---===============8013842339397608233==
+--===============5615248460631315532==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/for-next
-    old: 58126788aa7726c0e91de6b25e6e332fa06089ab
-    new: d98bf6a6ed61a8047e199495b0887cce392f8e5b
-    log: revlist-58126788aa77-d98bf6a6ed61.txt
+  - ref: refs/heads/master
+    old: 23901d227c6e948a9f3a413a5f3e0ca41bc8f8fa
+    new: c433ce41dcd56acab921b22c1b987def0e18eaf5
+    log: revlist-23901d227c6e-c433ce41dcd5.txt
 
---===============8013842339397608233==
+--===============5615248460631315532==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-23901d227c6e-c433ce41dcd5.txt
 
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1737043532 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1737043502-2e87b2c6ad60a3293fe21c0b7b397ea3df254736
+56bb5b9cf05a68c158fdc9f1b94c56a28231c42d Include errno.h within lsfd.c
+0fabec8c7fda554b79327d8713352e7a07539895 sys-utils: fix add NULL check for mnt_fs_get_target return value
+a46fac4cc00947b6b3ea7d94ee5ae2ba228407e1 refactor things to avoid an other header.
+930fed5559cd55b59b1a5c68c854488e21425214 Add fuse.portal to list of pseudo file systems
+aa11f9a2e163a57455255b03a03bf841cbf5be72 sulogin: fix POSIX locale use
+33c4a3f74929a91ad721a3a9741d9e73f559ad0f sulogin: extend --version features list
+338fd8c7a26cd804ff90396d591c17423a00f366 Merge branch 'patch-2' of https://github.com/hmaarrfk/util-linux
+5ebe1405511ee058c5802753debf7e49280e4aa5 lsfd: remove C++ comment
+fea7cbef366eec7dde16a5be9d77c523e83e24d5 Merge branch 'master' of https://github.com/AntonMoryakov/util-linux
+1ce07db0c1b2344c8259f16c2a153a3b3f8fc527 lsns: check for mnt_fs_get_target return value
+6cf74a2b6dafdd5f7077b22d5b5ed5d0fb21df34 Merge branch 'master' of https://github.com/stanislav-brabec/util-linux
+c433ce41dcd56acab921b22c1b987def0e18eaf5 Merge branch 'PR/sulogin-locale' of https://github.com/karelzak/util-linux-work
 
-58126788aa7726c0e91de6b25e6e332fa06089ab d98bf6a6ed61a8047e199495b0887cce392f8e5b refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZ4kuTwAKCRBZrE9hU+XO
-MfHoAP9wn+FpMWVElmiwrJN43U83rwXapErFxjoQdupp/CmSZwEA0XYbYVpdw0oR
-X8dRaznYpGMrfemhYgq7+u/jaNKzggk=
-=ABqu
------END PGP SIGNATURE-----
-
---===============8013842339397608233==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-58126788aa77-d98bf6a6ed61.txt
-
-61493f947220e36df6468d61f94501152ed2477c platform/x86: alienware-wmi: Improve rgb-zones group creation
-a5ddea4f9c35349bae7934cfc9bcb3a86b93a0f8 platform/x86: alienware_wmi: General cleanup of WMAX methods
-761bea182af6c796d1607894b96964554cfeb764 platform/x86: intel: punit_ipc: Remove unused function
-1b32401b52084d3b5b29c18b95dc0a8757cca132 Documentation/ABI: Add document for Mellanox PMC driver
-5efc800975d9a66cf7e7684c07d4c1928f025972 platform/mellanox: mlxbf-pmc: Add support for monitoring cycle count
-8e3b3e1695ebf9bcb1814130550e6ddbf5798f28 platform/mellanox: mlxbf-pmc: Add support for clock_measure performance block
-913240e47b414653d7801f6d04cffa9146a13396 Documentation/ABI: Add new sysfs field to sysfs-platform-mellanox-pmc
-1e4e3dff9e13e3d12d78cf742980ca731af80c7b platform/x86: dell-smo8800: Add support for probing for the accelerometer i2c address
-cec8c359f87c0f7c9cf63b570c0ce968b5ef62a4 Input: i8042 - Add support for platform filter contexts
-1bebc7869c99d466f819dd2cffaef0edf7d7a035 Input: allocate keycode for phone linking
-7ba618e893a4580b04fb883aaed3f00539c3c361 platform/x86: thinkpad_acpi: Add support for new phone link hotkey
-2d76708c2221dde33d86aeef19f6d7d5f62148b4 platform/x86: acer-wmi: use WMI calls for platform profile handling
-cd44e09bb89d4a33514b9ec3d972f0d2d13f5cfd platform/x86: acer-wmi: use new helper function for setting overclocks
-61c461a90fbfc038d9663713f293d60fcb58c41d platform/x86: acer-wmi: simplify platform profile cycling
-191e21f1a4c3948957adc037734449f4a965dec5 platform/x86: acer-wmi: use an ACPI bitmap to set the platform profile choices
-549fcf58cf5837d401d0de906093169b05365609 platform/x86: acer-wmi: add support for Acer Nitro AN515-58
-d98bf6a6ed61a8047e199495b0887cce392f8e5b platform/x86: lenovo-wmi-camera: Use SW_CAMERA_LENS_COVER instead of KEY_CAMERA_ACESS
-
---===============8013842339397608233==--
+--===============5615248460631315532==--
