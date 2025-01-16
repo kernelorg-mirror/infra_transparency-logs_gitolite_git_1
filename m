@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7245451095430310536=="
+Content-Type: multipart/mixed; boundary="===============0598373003019998318=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 16 Jan 2025 16:41:17 -0000
-Message-Id: <173704567757.2785441.18104146522553089954@gitolite.kernel.org>
+Date: Thu, 16 Jan 2025 16:41:19 -0000
+Message-Id: <173704567976.2785518.3433696739532168467@gitolite.kernel.org>
 
---===============7245451095430310536==
+--===============0598373003019998318==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 0a5b8fff01bde1b9908f00004c676f2e2459333b
     new: a50da36562cd62b41de9bef08edbb3e8af00f118
     log: revlist-0a5b8fff01bd-a50da36562cd.txt
 
---===============7245451095430310536==
+--===============0598373003019998318==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ c08d3e62b2e73e14da318a1d20b52d0486a28ee0 net/mlx5: Fix RDMA TX steering prio
 676d53a480b4fc9836e5a40452609cf85be88ba0 Merge branch 'mlx5-misc-fixes-2025-01-15'
 a50da36562cd62b41de9bef08edbb3e8af00f118 netdev: avoid CFI problems with sock priv helpers
 
---===============7245451095430310536==--
+--===============0598373003019998318==--
