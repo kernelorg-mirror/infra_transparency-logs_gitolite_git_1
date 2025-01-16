@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Thu, 16 Jan 2025 14:17:02 -0000
-Message-Id: <173703702204.2614724.6258966304430193690@gitolite.kernel.org>
+Date: Thu, 16 Jan 2025 14:28:28 -0000
+Message-Id: <173703770810.2623163.17299093797929424274@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/tegra/dt64
+  - ref: refs/heads/ti/dt
     old: 0000000000000000000000000000000000000000
-    new: b615fbd70fce8582d92b3bdbbf3c9b80cadcfb55
+    new: 5532b8a9ce0e80514e37a1e082824934663580a3
