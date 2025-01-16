@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Thu, 16 Jan 2025 23:18:20 -0000
-Message-Id: <173706950003.3121308.2070276505177718920@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 16 Jan 2025 23:20:04 -0000
+Message-Id: <173706960427.3124355.4200699902937483405@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/tags/mm-everything-2025-01-16-23-18
-    old: 0000000000000000000000000000000000000000
-    new: b27300b68bb27822e2b6db1e5a6ff37bb53726ef
+  - ref: refs/heads/master
+    old: 87c544108b612512b254c8f79aa5c0a8546e2cc4
+    new: a8d1c48d0720140b53063ff23507845bb2078e92
+    log: |
+         a8d1c48d0720140b53063ff23507845bb2078e92 selftests/bpf: Fix undefined UINT_MAX in veristat.c
+         
