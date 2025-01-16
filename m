@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 16 Jan 2025 08:04:09 -0000
-Message-Id: <173701464904.2304164.3497992961562946150@gitolite.kernel.org>
+Date: Thu, 16 Jan 2025 08:10:03 -0000
+Message-Id: <173701500315.2310315.15964553675614336219@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: tglx
 changes:
-  - ref: refs/heads/timers/core
-    old: 2d2a46cf23788a19e5450c6f9c86ab17f596c708
-    new: 3ec955713d9617059d2fc8f2816d0b95ace72256
+  - ref: refs/heads/irq/core
+    old: 554d0fee8a5b09e79ec17a9c3867d4d7b7a818c0
+    new: a4b3990e01df169334ff2695d2fe494eda63a297
     log: |
-         3ec955713d9617059d2fc8f2816d0b95ace72256 timers: Optimize get_timer_[this_]cpu_base()
+         a4b3990e01df169334ff2695d2fe494eda63a297 genirq/generic_chip: Export irq_gc_mask_disable_and_ack_set()
          
