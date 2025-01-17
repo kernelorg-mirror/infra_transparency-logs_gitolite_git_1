@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2107166624705451703=="
+Content-Type: multipart/mixed; boundary="===============2394234235162718915=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 17 Jan 2025 18:20:23 -0000
-Message-Id: <173713802382.18801.6379646341568900392@gitolite.kernel.org>
+Date: Fri, 17 Jan 2025 18:20:26 -0000
+Message-Id: <173713802677.18936.14344950025421530661@gitolite.kernel.org>
 
---===============2107166624705451703==
+--===============2394234235162718915==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: a50da36562cd62b41de9bef08edbb3e8af00f118
     new: 5d6a361dc01d823cb7c10697f16695d45a82b909
     log: revlist-a50da36562cd-5d6a361dc01d.txt
 
---===============2107166624705451703==
+--===============2394234235162718915==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -331,4 +331,4 @@ ea8318cb33e593bbfc59d637eae45a69732c5387 net: phy: realtek: clear master_slave_s
 d3eb58549842c60ed46f37da7f4da969e3d6ecd3 net: phy: realtek: always clear NBase-T lpa
 5d6a361dc01d823cb7c10697f16695d45a82b909 Merge branch 'realtek-link-down'
 
---===============2107166624705451703==--
+--===============2394234235162718915==--
