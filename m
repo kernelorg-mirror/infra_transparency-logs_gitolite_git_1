@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux
-Date: Fri, 17 Jan 2025 20:20:27 -0000
-Message-Id: <173714522726.116814.6069210125363512090@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Fri, 17 Jan 2025 20:33:51 -0000
+Message-Id: <173714603175.126404.5724952463148119690@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux
-user: shuah
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
+user: kvalo
 changes:
-  - ref: refs/tags/linux-cpupower-6.14-rc1-second
+  - ref: refs/tags/wireless-next-2025-01-17
     old: 0000000000000000000000000000000000000000
-    new: 026e8c1a5a0d56ba7bbfb23e909cc8c9ef58a115
+    new: 7734884a34b14ee19e7209686808c98582d2133b
