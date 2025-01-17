@@ -1,56 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============0882757474769156751=="
+Content-Type: multipart/mixed; boundary="===============0255122957698308256=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 17 Jan 2025 12:10:31 -0000
-Message-Id: <173711583149.3752597.11097259891264036047@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Fri, 17 Jan 2025 12:15:54 -0000
+Message-Id: <173711615412.3756989.16981672149082703566@gitolite.kernel.org>
 
---===============0882757474769156751==
+--===============0255122957698308256==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: c65b229699dec5affffd4d4972825c3b3a818e92
-    new: 970b9757cb44c315b5c3da6b1b35a1ffb07cca5a
+  - ref: refs/heads/slab/for-next
+    old: 6487eb0ef8d5204335096ad95b8af29489e58642
+    new: e492fac3657b60b8dd78a6e8ca26d1d14706c7b3
     log: |
-         970b9757cb44c315b5c3da6b1b35a1ffb07cca5a ntsync: Fix reference leaks in the remaining create ioctls.
+         e492fac3657b60b8dd78a6e8ca26d1d14706c7b3 Merge branch 'slab/for-6.14/kfree_rcu_move' into slab/for-next
          
 
---===============0882757474769156751==
+--===============0255122957698308256==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1737115859 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1737115829-9dc237e4b2a9518a0650c0f91a0340752741f0c0
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1737116179 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1737116149-8cc650381e77513046dfb18f3285c1f4be46736f
 
-c65b229699dec5affffd4d4972825c3b3a818e92 970b9757cb44c315b5c3da6b1b35a1ffb07cca5a refs/heads/char-misc-testing
+6487eb0ef8d5204335096ad95b8af29489e58642 e492fac3657b60b8dd78a6e8ca26d1d14706c7b3 refs/heads/slab/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeKSNMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+71wQAIaG+4SCYXWVu/fH0t3F
-cuvkKrnvRbw4Vsh4AGJLuMZiMIswoHS11dIjUMFlIUToNeSTKuFFSBDeCfFu5yfS
-0ydedb+BRn165sf+Z3REdVsztnI3UJHYgOOi+55xu4pb0UoDDHzLjrFr8DmMxQ9o
-//P3bsUqvl4D/Q6v3WZ040mS7EQkj2p09jp7cIexi7xfMiHUVIp0jB8p5Sc4CNny
-2v+N26j86TLK8q0NzK2SOvUo9MfrBJXKXW2B3R0OEswBybcw++T2BirJZUH4O9Fo
-Vx9UBYBJhqMWOeudLDzYpM5/fPAN6m/8DCeaCxcpG7ZaInvUU8sUXII85cxe6Yif
-2CqcnrzOkufbqmPc1LeRjX0Thl5Pz6Nceb7kwQzeW9DpSWBGOsVR/4GTqyDOcdbJ
-nxwRTcEEzEffHL4hf2t5FVGzZvF/a1sotUl2IqxohZzGIlkPA775Xw4zanUjvyG5
-FDI7Ym4l0hstmcJ2M17oLnZaVHWstyq8MFigplaQhvQqeBfVS74SOup+1Cnj9acw
-Yodmw07ewGFoVu0y3/aK8xV+nbdrXDTTJnS8dL6fVUqP7Jd03hRl3RcFGM2DRcmD
-eSichTXCgvMvQjw1wvW2wntESxJpbwRts5soSj2WFz7Ap+W8Q8jMjiL+YEBjf04C
-2Ke2jPte6rjt7/h0wlHxhUsK
-=k4NR
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmeKShMACgkQu+CwddJF
+iJrnhAf/YBjDeR99jW8EP+lCziDTaa0zS9Wff1mq8fLmTYS97q3/zd5rVKXkGI8s
+5LSxu6S1NAof9XjdwhPGphbdmEh0YTfq9wMPkdVNMk7S5hOMG8kBqvXSBTPGz26E
+K6n+kQZXylMHjCM/FweXlm0632BlcIJ9L5Vweupqvi73mZ4cmeSDmn560vPRDgiI
+C5UGtrGqFARf2ZyXA8YhMp5d992SQgq0jrtnPjYfJCZsXRZxY8M8BUkwfto8z0VK
+Fbn2FsmtVWLvAdNmQwpcUAbgkyX7GLy9om3vQpg2j1vSuU2ba7L/6HIuZYbgIvj6
+CQEF8lM67IQXv8yktoVd9U/rbMMOzw==
+=GkMb
 -----END PGP SIGNATURE-----
 
---===============0882757474769156751==--
+--===============0255122957698308256==--
