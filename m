@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6846811253278405057=="
+Content-Type: multipart/mixed; boundary="===============8204850338213762875=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Fri, 17 Jan 2025 16:22:31 -0000
-Message-Id: <173713095169.4111571.9207887247920916705@gitolite.kernel.org>
+Date: Fri, 17 Jan 2025 16:23:16 -0000
+Message-Id: <173713099662.4112142.2372183715512912791@gitolite.kernel.org>
 
---===============6846811253278405057==
+--===============8204850338213762875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,36 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: ij
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/review-ilpo-next
-    old: 81e8e5017f5de3cf28004ae2b628629ef4d43635
+  - ref: refs/heads/for-next
+    old: d98bf6a6ed61a8047e199495b0887cce392f8e5b
     new: 916d9f6b1b121eafed5afae631ee03a1f37eb0e3
-    log: revlist-81e8e5017f5d-916d9f6b1b12.txt
+    log: revlist-d98bf6a6ed61-916d9f6b1b12.txt
 
---===============6846811253278405057==
+--===============8204850338213762875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1737130977 +0200
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1737131024 +0200
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1737130946-9beaf0f149b5d80448eaefe536fd6066c4cf8c37
+nonce 1737130993-67390e90c36959584a240d8f47dd0a99fe0251f0
 
-81e8e5017f5de3cf28004ae2b628629ef4d43635 916d9f6b1b121eafed5afae631ee03a1f37eb0e3 refs/heads/review-ilpo-next
+d98bf6a6ed61a8047e199495b0887cce392f8e5b 916d9f6b1b121eafed5afae631ee03a1f37eb0e3 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZ4qD5gAKCRBZrE9hU+XO
-MfWWAP9v7Uxq4mMtM5iPSFhLWpC+ueMgJJ69e03cSz7fGaG+fgEA8IxaDyMXRKaQ
-kzo8qXFIb1ItRAmPcQBgBDblw8jtqQU=
-=unal
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZ4qEEwAKCRBZrE9hU+XO
+MQJfAQCP0qVdbOu4jUwmC2yRtcilk/ySmegOPkBpAoTCn8ufJAEAyHyH4pFysbWF
+Y5PKIxRtdrvmMo2wiqgadvhAcHRC1AE=
+=5+7B
 -----END PGP SIGNATURE-----
 
---===============6846811253278405057==
+--===============8204850338213762875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-81e8e5017f5d-916d9f6b1b12.txt
+Content-Disposition: attachment; filename=revlist-d98bf6a6ed61-916d9f6b1b12.txt
 
 5bc1041d79496be8848a574eaa0f1c6ff635a7ed ACPI: platform_profile: Replace *class_dev member with class_dev
 438b47a4038695650ba67b5131aea05dad9d1037 ACPI: platform_profile: Let drivers set drvdata to the class device
@@ -67,4 +67,4 @@ cdfd25e3f263299db3fc952ac863df76a3964b51 ACPI: platform_profile: Move platform_p
 26f44ce1c24a97e92329b9e9e9d5b3e857f42637 ACPI: platform_profile: Add documentation
 916d9f6b1b121eafed5afae631ee03a1f37eb0e3 ACPI: platform_profile: Add a prefix to log messages
 
---===============6846811253278405057==--
+--===============8204850338213762875==--
