@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============2412142634055625538=="
+Content-Type: multipart/mixed; boundary="===============3329293673656205638=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Fri, 17 Jan 2025 22:51:39 -0000
-Message-Id: <173715429901.239730.15181448501013790229@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 17 Jan 2025 22:51:42 -0000
+Message-Id: <173715430232.239832.2541875483319063874@gitolite.kernel.org>
 
---===============2412142634055625538==
+--===============3329293673656205638==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.13
+  - ref: refs/heads/regulator-6.13
     old: 907af7d6e0c8cf4086b1bc5218281b2ca09f130b
     new: 5bc55a333a2f7316b58edc7573e8e893f7acb532
     log: revlist-907af7d6e0c8-5bc55a333a2f.txt
-  - ref: refs/heads/for-6.14
+  - ref: refs/heads/regulator-6.14
     old: c3ad22ad34f81a8906dba02ea8cc9756d2ce7b50
     new: 367a8200a91025289f9664e468fbc2b67c95e70e
     log: |
@@ -28,32 +28,32 @@ changes:
          367a8200a91025289f9664e468fbc2b67c95e70e regulator: dt-bindings: Add regulator-power-budget-milliwatt property
          
 
---===============2412142634055625538==
+--===============3329293673656205638==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1737154327 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1737154296-1904f1ae0835408a04188ad5d83c09e90f3da7b6
+pusher C3F436CA30F5D8EB 1737154330 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1737154300-a3fe1451674b56437692f74530e76c00be3b9dce
 
-907af7d6e0c8cf4086b1bc5218281b2ca09f130b 5bc55a333a2f7316b58edc7573e8e893f7acb532 refs/heads/for-6.13
-c3ad22ad34f81a8906dba02ea8cc9756d2ce7b50 367a8200a91025289f9664e468fbc2b67c95e70e refs/heads/for-6.14
+907af7d6e0c8cf4086b1bc5218281b2ca09f130b 5bc55a333a2f7316b58edc7573e8e893f7acb532 refs/heads/regulator-6.13
+c3ad22ad34f81a8906dba02ea8cc9756d2ce7b50 367a8200a91025289f9664e468fbc2b67c95e70e refs/heads/regulator-6.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmeK3xcACgkQJNaLcl1U
-h9C0IAgAhMSFS9jtOPU5JzSMDsYIjVSKioEptY1lpCcMr8JGsH7VpHXCo2L6+Fnb
-xww8JFFrsq2OKEFGPtImDQfZyzR+FpTWQGn/F29605Y0huoVdc3xxoKLWLclfs0I
-VlNKcDVtXW6ZLCPkzRh7l1razHhotGlmZBWrSbBY2RDgo8ts/ST3r+5B+d2kS3Sp
-4SX43UWxBYX0dSGS9IKUmMIqiXvEluLXIiA7wiGwXA96M5W9jj9dGcXADv89cvyn
-mdVDQDLaqUWQSl9PG5BQie8Bd6FpeKAi7Q9WlRAOydT/8ZCbwfUvYAwnvkFoQJSN
-MfdHgnJyNywVtUJC9l+U/89ZFmSpWA==
-=Prki
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmeK3xoACgkQJNaLcl1U
+h9B6Ywf/XhfUIievvKUXXXSCNQ3MHrxiPMpBI5xjo4FKPyfNxW0UAd0TFb5HtSAP
+5pbtJkESS6u6mI1SJX+/m+gr6Z6u34BPE6m1EOIOYkJrXu6SMuhRPylPUloXeQLL
+wpdLf2lqh9OmKvzXHYepPUG8zyXorP9SgSd988mv9bhyo1pb1p71lV6UYqxy1bRb
+vVOqBjaOu3OTpKF5DCfJlKRF845HpE6aGSFZguzIO51sXWcqJbXkAWNCxJDCVlTQ
+EHyrcQeP7CMJnkwXZtbJdsX2sQP+h4Ut72EUvwxRr0tS0B8RZBGDFXluEOw2eGy8
+reqMBwYIeBco8jTDw+bxLhznL+9mTA==
+=N/+V
 -----END PGP SIGNATURE-----
 
---===============2412142634055625538==
+--===============3329293673656205638==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1049,4 +1049,4 @@ be548645527a131a097fdc884b7fca40c8b86231 Merge tag 'for-linus' of git://git.kern
 0cbe10470b4473ab5e290f1d39033fdb6d6c69c9 Merge tag 'char-misc-6.13-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 5bc55a333a2f7316b58edc7573e8e893f7acb532 Linux 6.13-rc7
 
---===============2412142634055625538==--
+--===============3329293673656205638==--
