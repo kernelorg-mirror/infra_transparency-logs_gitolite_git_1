@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9072350783869588603=="
+Content-Type: multipart/mixed; boundary="===============1297361148113312976=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Fri, 17 Jan 2025 21:20:27 -0000
-Message-Id: <173714882771.165701.6356413279913570317@gitolite.kernel.org>
+Date: Fri, 17 Jan 2025 21:21:18 -0000
+Message-Id: <173714887844.166207.13171505872271725006@gitolite.kernel.org>
 
---===============9072350783869588603==
+--===============1297361148113312976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: mikulas
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/dm-6.14
     old: 68846de1f35b8023c99d5d166d48ae84c2687366
     new: a9c2c153f272f9a0dad99a8b161d368054364933
     log: revlist-68846de1f35b-a9c2c153f272.txt
 
---===============9072350783869588603==
+--===============1297361148113312976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -148,4 +148,4 @@ b75b47722c3f38d20a24213fa2b5bb7b71ff1e34 dm-stripe: Enable atomic writes
 95af2b6c7808e6a25a86edf7347c7ba42b6feb55 dm-io: Warn on creating multiple atomic write bios for a region
 a9c2c153f272f9a0dad99a8b161d368054364933 dm-mirror: Support atomic writes
 
---===============9072350783869588603==--
+--===============1297361148113312976==--
