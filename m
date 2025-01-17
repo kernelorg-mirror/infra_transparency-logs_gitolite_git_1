@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 17 Jan 2025 19:12:09 -0000
-Message-Id: <173714112965.59552.7757076487558132593@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
+Date: Fri, 17 Jan 2025 19:17:22 -0000
+Message-Id: <173714144297.63898.14819641166856649105@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/zohar/linux-integrity
+user: zohar
 changes:
-  - ref: refs/tags/asoc-fix-v6.13-rc7
+  - ref: refs/tags/integrity-v6.13
     old: 0000000000000000000000000000000000000000
-    new: 508298ebe97b255db749af57d07085dc7e7c4b4e
+    new: 352bc29dc2231f12cb4110e94d7eaf01b593ba70
