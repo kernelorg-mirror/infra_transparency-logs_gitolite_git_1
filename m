@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3729202561856014265=="
+Content-Type: multipart/mixed; boundary="===============5226776014768834549=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 17 Jan 2025 18:47:16 -0000
-Message-Id: <173713963645.39607.406512355461200244@gitolite.kernel.org>
+Date: Fri, 17 Jan 2025 18:47:19 -0000
+Message-Id: <173713963903.39758.18038797467164291978@gitolite.kernel.org>
 
---===============3729202561856014265==
+--===============5226776014768834549==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: b44e27b4df1a1cd3fd84cf26c82156ed0301575f
     new: 7d2eba0f83a59d360ed1e77ed2778101a6e3c4a1
     log: revlist-b44e27b4df1a-7d2eba0f83a5.txt
 
---===============3729202561856014265==
+--===============5226776014768834549==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -399,4 +399,4 @@ bf356a6df7992c7f4e51c51466a419a7148ab1a0 net: phy: microchip_rds_ptp: Header fil
 93359197f273e414136861e9077571bb8a5884b6 net: phy: microchip_rds_ptp : Add PEROUT feature library for RDS PTP supported Microchip phys
 7d2eba0f83a59d360ed1e77ed2778101a6e3c4a1 Merge branch 'add-perout-library-for-rds-ptp-supported-phys'
 
---===============3729202561856014265==--
+--===============5226776014768834549==--
