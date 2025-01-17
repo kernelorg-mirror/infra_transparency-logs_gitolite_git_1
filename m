@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Fri, 17 Jan 2025 22:43:34 -0000
-Message-Id: <173715381444.232043.7286160233304141786@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Fri, 17 Jan 2025 22:51:22 -0000
+Message-Id: <173715428223.239315.1647845436612064677@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/work.misc
-    old: 5cc68af412a9dd1554265bafca24b3047b6f48d5
-    new: 5f4e6f7f8b77a3b1fb0005f6e1692475785ae05f
-    log: |
-         5f4e6f7f8b77a3b1fb0005f6e1692475785ae05f fs/overlayfs/namei.c: get rid of include ../internal.h
-         
+  - ref: refs/heads/v2_20250115_kory_maincent_add_support_for_power_budget
+    old: 367a8200a91025289f9664e468fbc2b67c95e70e
+    new: 0000000000000000000000000000000000000000
