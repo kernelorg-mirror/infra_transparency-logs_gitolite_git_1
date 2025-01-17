@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7345510355632461171=="
+Content-Type: multipart/mixed; boundary="===============6563924855719435148=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 17 Jan 2025 11:40:08 -0000
-Message-Id: <173711400821.3725454.14615764544182113289@gitolite.kernel.org>
+Date: Fri, 17 Jan 2025 11:41:03 -0000
+Message-Id: <173711406335.3725920.16933659809928685874@gitolite.kernel.org>
 
---===============7345510355632461171==
+--===============6563924855719435148==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 983e375849fe4fd987cab94d940ba2af6f9e7a71
-    new: 4d27afbf256028a1f54363367f30efc8854433c3
+    old: 4d27afbf256028a1f54363367f30efc8854433c3
+    new: 086fd062bc3883ae1ce4166cff5355db315ad879
     log: |
-         4d27afbf256028a1f54363367f30efc8854433c3 usb: typec: tcpci: Prevent Sink disconnection before vPpsShutdown in SPR PPS
+         086fd062bc3883ae1ce4166cff5355db315ad879 Revert "usb: gadget: u_serial: Disable ep before setting port to null to fix the crash caused by port being null"
          
 
---===============7345510355632461171==
+--===============6563924855719435148==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1737114035 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1737114091 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1737114005-138519b69cfed7129c1fdeac20c569aac8e4c662
+nonce 1737114060-d86e8cef7a184ea69df27e5c4ba7047fbbb49ae7
 
-983e375849fe4fd987cab94d940ba2af6f9e7a71 4d27afbf256028a1f54363367f30efc8854433c3 refs/heads/usb-testing
+4d27afbf256028a1f54363367f30efc8854433c3 086fd062bc3883ae1ce4166cff5355db315ad879 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeKQbMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uqkP/3Ou7St3CzCcE+RMBJTv
-AT3KxVNPG57qMgmMYBgHO27cqnecn7wd8nhwjtKBMeCKqVjMykOWR6BNcSVu/gkL
-UxrGLiJfqTaaZENiDibMgf4RnMmdTVRL4ZOJX4M1BoBJHIaiNJvDk4x8tygX27O3
-ClMzziJkeYcIQOUPK+HbrfD+qT0my8dN9DK+ceDSO1YM/bLsIJKFJAgPnuP1QKXa
-SZTAWOIWx0xGP4diVUCKyAmZyY2MuU6umQDtOcxRUvqkGLJMPQ++lahzRlYEV7i0
-vw/ymSLNAQj2vOwIwNHaAFN0EzznLpQNETKm83g8zu1gHuOJFaCzKD1aTxz01zGz
-7LJStOMot3fOXlVH2XAmJjXoNVtNbDzjiMP2MPUtJBeEnBmiaPRac1rJFWyGDgH0
-499pINCwfTbp0m6RuKO5amLfdizJCfA0VK+/+GHn21xIrA0wqEip+RuGO+bbKlX3
-88YI0zoyjLTcIP9LzZ0k9DX4gv58yIBbzwNVkJz0eCl0SDV1l+Jit3dDLY2WJOUL
-OQ6bP+jlII9eSwOnnb4u1LRvEFUm7Huf0WPY8pc5QNNkKGcrupKTH4kwlL7CzwjA
-be7raYp3stC4uS2l42JI4Q+hsOIT7SJ/fdlbFFdRF7pm5CzlgauAo8W5oqYunQRM
-ZCCe1bHoRSHqwUR+syjaL9nJ
-=KaA1
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeKQesbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5KkQAIMP5E6Eb+P31THdZb6B
+EalPfUijOmvrwIKBbWIqpRChmSBaSuJZ9aMAhwCVTi2BFbWfthqmQeg4zWZ6wjKv
+OEmBvPNenmKN92sSZ7ESFVDNOzcngZnPfeJ7J6pZ6QpYFkfCqY3tYPqRRG4Pjx9C
+FTQ2IEbdaaFbmx1qEckkr/mdNslG3MURwCTm+IENofqv00dPsFdJDtxDxmwJQkh1
+8t79POOY1b0ngddWbH4TgFsCK6s00K5nxIqNrmSnyktXztR6knhs01DTWfPDfB2L
+0ftRNBZiu0lsLeR0mPh0teGhDzAGUPvWTT0kZ0CoWYYQOhJodfsbitr5d2mz/mqf
+WXIz/rFkeFbl2BJ65WRaH0GCo+MVfGYv9sWio/x6l8cuY+Z76eWfadV0W+NryAyg
+vPCNDiE4k9eqkhDpxgo7nD/tAMT9RXiCAWhcqJL8gzLrNmsvNkiFEnbNiYvbzuvi
+l6154vVzbQmKEyBYhHxVKBgzaaLgsU3PhCXzxXtW01Cfc+bhwBVzzYTaKEQViw0g
+egvY3pHE0EkN46whHEHqXCBAytUOxbZ6BVFP7Vc+X9CR8HbkLFu8DanGzkjngGUJ
+6taL1nMKlSoVK/2qPRSocqNYkKwJdOdFFzmXBnh6mZcFZzShMVrKoK6v00qEBbWq
+9vCmgVRCi3apFquot7p5FS8J
+=STPS
 -----END PGP SIGNATURE-----
 
---===============7345510355632461171==--
+--===============6563924855719435148==--
