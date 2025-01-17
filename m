@@ -1,27 +1,47 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Fri, 17 Jan 2025 17:53:28 -0000
-Message-Id: <173713640804.4187695.9955687550198527624@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Fri, 17 Jan 2025 17:57:27 -0000
+Message-Id: <173713664792.4191364.8055396244266292048@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: e9cbc854d8b148e3491291fb615e94261970fb54
-    new: 036e2faa997c39a5f15dbeb50528911778d8b29d
+  - ref: refs/heads/bleeding-edge
+    old: 203c566a1ffc2b31241d3943d135ec795b750838
+    new: ca2c1ce57f1ce6afb63da6a66ffa12debffc4661
     log: |
-         f2868b1a66d4f40f07e985b0beead606b2753602 perf tools: Expose quiet/verbose variables in Makefile.perf
-         2e47c503deeeadc1bfa66ece7f75e298a814e94f perf test: Rename functions and variables for better clarity
-         2b7b78efc8c91430fd81a07d8fb4e0a89456aff8 perf test: Send list output to stdout rather than stderr
-         4dd8bc4bf58e973eea3fdf5e2013011d83fba6c4 perf test: Fix parallel/sequential option documentation
-         1c0d9816e9cb9548c74e04971300ec9cecf2c0d7 perf test: Add a runs-per-test flag
-         4e38f2814f02ed2768a4f293088375528121afed perf test: Improve verbose documentation
-         cd57c04c382ec0656f86b48390b0409a1cad61f7 perf hist: Deduplicate cmp/sort/collapse code
-         8b4799e4f0f40a4ec737bf870aa38d06288bf0fb perf hist: Fix bogus profiles when filters are enabled
-         036e2faa997c39a5f15dbeb50528911778d8b29d perf hist: Fix width calculation in hpp__fmt()
+         06354d7a619f9e8abfdbc21595605875f12d5f14 thermal: core: Rename callback functions in two governors
+         e86001d6d09ddd93237bfcbc2dcfc01230f6b7a9 thermal: gov_bang_bang: Relocate regulation logic description
+         0ac66e512f13452d31e20d12546dc0b81a0ec713 thermal: core: Rename function argument related to trip crossing
+         21a0433f8164c1fb1e60f7f517e95a508e58dfbb Merge branch 'thermal-core' into linux-next
+         f994c1cb6c438bb32487d36ab26c1954829cab1f cpufreq: Use str_enable_disable()-like helpers
+         a9afdfc9537b4fa0aba402cb1083ff43289dc9d7 Merge branch 'pm-cpufreq' into linux-next
+         ca2c1ce57f1ce6afb63da6a66ffa12debffc4661 Merge branch 'experimental/intel_pstate-testing' into bleeding-edge
+         
+  - ref: refs/heads/linux-next
+    old: 116c927d7c15e17de6e263b5fa67466729e575d5
+    new: a9afdfc9537b4fa0aba402cb1083ff43289dc9d7
+    log: |
+         06354d7a619f9e8abfdbc21595605875f12d5f14 thermal: core: Rename callback functions in two governors
+         e86001d6d09ddd93237bfcbc2dcfc01230f6b7a9 thermal: gov_bang_bang: Relocate regulation logic description
+         0ac66e512f13452d31e20d12546dc0b81a0ec713 thermal: core: Rename function argument related to trip crossing
+         21a0433f8164c1fb1e60f7f517e95a508e58dfbb Merge branch 'thermal-core' into linux-next
+         f994c1cb6c438bb32487d36ab26c1954829cab1f cpufreq: Use str_enable_disable()-like helpers
+         a9afdfc9537b4fa0aba402cb1083ff43289dc9d7 Merge branch 'pm-cpufreq' into linux-next
+         
+  - ref: refs/heads/testing
+    old: 116c927d7c15e17de6e263b5fa67466729e575d5
+    new: a9afdfc9537b4fa0aba402cb1083ff43289dc9d7
+    log: |
+         06354d7a619f9e8abfdbc21595605875f12d5f14 thermal: core: Rename callback functions in two governors
+         e86001d6d09ddd93237bfcbc2dcfc01230f6b7a9 thermal: gov_bang_bang: Relocate regulation logic description
+         0ac66e512f13452d31e20d12546dc0b81a0ec713 thermal: core: Rename function argument related to trip crossing
+         21a0433f8164c1fb1e60f7f517e95a508e58dfbb Merge branch 'thermal-core' into linux-next
+         f994c1cb6c438bb32487d36ab26c1954829cab1f cpufreq: Use str_enable_disable()-like helpers
+         a9afdfc9537b4fa0aba402cb1083ff43289dc9d7 Merge branch 'pm-cpufreq' into linux-next
          
