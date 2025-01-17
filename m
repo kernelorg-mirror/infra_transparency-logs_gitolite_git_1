@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 17 Jan 2025 01:02:23 -0000
-Message-Id: <173707574374.3209172.17307920500928372479@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 17 Jan 2025 01:18:59 -0000
+Message-Id: <173707673964.3222301.13336752075602405373@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/nfs-localio-for-next
-    old: d5448107e7a6fac2dea9deaf7428364a4f8058b6
-    new: 82b185e11fd2cda02d6891ce9653ac6b15e6f7cc
+  - ref: refs/heads/main
+    old: 2ee738e90e80850582cbe10f34c6447965c1d87b
+    new: 8d20dcda404d48784f2359976811bfc189992aa0
     log: |
-         82b185e11fd2cda02d6891ce9653ac6b15e6f7cc pnfs/flexfiles: retry getting layout segment for reads
+         2c77bcb344f589054b2039bddcd32c4f666258b9 gre: Prepare ipgre_open() to .flowi4_tos conversion.
+         65a55aa7e64eefcd2a7f530a0bf8d21d20bffd37 ipv4: Prepare inet_rtm_getroute() to .flowi4_tos conversion.
+         8d20dcda404d48784f2359976811bfc189992aa0 selftests: drv-net-hw: inject pp_alloc_fail errors in the right place
          
