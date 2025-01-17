@@ -1,25 +1,49 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Fri, 17 Jan 2025 16:56:38 -0000
-Message-Id: <173713299849.4139967.9826977923109885945@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5015769357814600208=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Fri, 17 Jan 2025 16:58:53 -0000
+Message-Id: <173713313360.4141121.9894675317448521360@gitolite.kernel.org>
+
+--===============5015769357814600208==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/pending
-    old: 324c18da541f0646a2a4a670fbcf6cc59c076119
-    new: 6923d8016e5ad392dbb0c3b62ffc1b7c8bcad383
+  - ref: refs/heads/review-ilpo-next
+    old: 916d9f6b1b121eafed5afae631ee03a1f37eb0e3
+    new: f0037fba32d83cff86aa79b62811d3c92412f0ca
     log: |
-         b4bfbc50b1b92a0815800eb1231f73bfc917af03 wifi: rtw88: add RTW88_LEDS depends on LEDS_CLASS to Kconfig
-         68abd0c4ebf24cd499841a488b97a6873d5efabb wifi: brcmfmac: fix NULL pointer dereference in brcmf_txfinalize()
-         0b7f81ce8f046f5c3d28f6e3c8a92b24cbfeeeb2 wifi: ath9k: cleanup struct ath_tx_control and ath_tx_prepare()
-         959914700f65e1998928cc26f3f293f0f808603d wifi: ath9k: use unsigned long for activity check timestamp
-         ad25a78eb15931c36f0acc38bfb70fa0728271d8 wifi: ath12k: Refactor the monitor Rx parser handler argument
-         864daa610e30844694fca2e014a1f7c2989ec15d wifi: ath12k: Refactor the monitor Tx/RX handler procedure arguments
-         6923d8016e5ad392dbb0c3b62ffc1b7c8bcad383 wifi: ath12k: Refactor Rx status TLV parsing procedure argument
+         dd47fd79b14695d43862f46b19655fcf2a7b4653 platform/x86: hp-wmi: Add fan and thermal profile support for Victus 16-s1000
+         40cca19de452bbc5a0df4b30eff843ce1444b9d4 platform/mellanox: mlxbf-bootctl: use sysfs_emit() instead of sprintf()
+         82bd75a0d1a8009ff90a4993b2b007550108a887 platform/mellanox: mlxreg-hotplug: use sysfs_emit() instead of sprintf()
+         f0037fba32d83cff86aa79b62811d3c92412f0ca platform/mellanox: mlxreg-io: use sysfs_emit() instead of sprintf()
          
+
+--===============5015769357814600208==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1737133160 +0200
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1737133129-5730d9635df7329cd97cd730a2c9dfaf4fa165f4
+
+916d9f6b1b121eafed5afae631ee03a1f37eb0e3 f0037fba32d83cff86aa79b62811d3c92412f0ca refs/heads/review-ilpo-next
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZ4qMbAAKCRBZrE9hU+XO
+MTiXAPoCH7cXubOUUC1TRJorrNG3a79pX6ZMoP0uvi0/kucr/AD/SlSPlP9W4DEr
+ZFY4euXUYuv8PvzpBxv28Oz6SaBe2wk=
+=/25N
+-----END PGP SIGNATURE-----
+
+--===============5015769357814600208==--
