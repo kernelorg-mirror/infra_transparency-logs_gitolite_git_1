@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0621515526064850638=="
+Content-Type: multipart/mixed; boundary="===============2639977690952273021=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Fri, 17 Jan 2025 04:39:59 -0000
-Message-Id: <173708879968.3387285.12856892624467696410@gitolite.kernel.org>
+Date: Fri, 17 Jan 2025 04:43:46 -0000
+Message-Id: <173708902620.3390656.16895459760907184898@gitolite.kernel.org>
 
---===============0621515526064850638==
+--===============2639977690952273021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,41 @@ repo: pub/scm/linux/kernel/git/powerpc/linux
 user: maddy
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/next
-    old: 2bf66e66d2e6feece6175ec09ec590a0a8563bdd
-    new: 7fee0217538ab11b9563d39822a0fc5e006ca84b
+  - ref: refs/heads/merge
+    old: 9295162062634a11f4cf8c700da9265b0747ad04
+    new: e5b94ed319deb5534cee1cdefe93f128c7fab863
     log: |
          7fee0217538ab11b9563d39822a0fc5e006ca84b MAINTAINERS: powerpc: Update my status
-         
-  - ref: refs/heads/next-test
-    old: 2bf66e66d2e6feece6175ec09ec590a0a8563bdd
-    new: 7fee0217538ab11b9563d39822a0fc5e006ca84b
-    log: |
-         7fee0217538ab11b9563d39822a0fc5e006ca84b MAINTAINERS: powerpc: Update my status
+         e5b94ed319deb5534cee1cdefe93f128c7fab863 Automatic merge of 'next' into merge (2025-01-17 10:12)
          
 
---===============0621515526064850638==
+--===============2639977690952273021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1737088814 +0530
+pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1737089054 +0530
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1737088783-e456ac76b3461022b29035f3e5f78c88e812bfe6
+nonce 1737089023-62d5b640842495570177121277d4dede7c5bfea5
 
-2bf66e66d2e6feece6175ec09ec590a0a8563bdd 7fee0217538ab11b9563d39822a0fc5e006ca84b refs/heads/next
-2bf66e66d2e6feece6175ec09ec590a0a8563bdd 7fee0217538ab11b9563d39822a0fc5e006ca84b refs/heads/next-test
+9295162062634a11f4cf8c700da9265b0747ad04 e5b94ed319deb5534cee1cdefe93f128c7fab863 refs/heads/merge
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmeJ3y4ACgkQpnEsdPSH
-ZJTtTBAAwavUtV7SbDqMQH1ZVROsIgX7U/5MtmZM4gx6fiyi/VkInYEUp2PUrV0L
-RRAuR3me0jiyKsyY9znnp7Jn/f/sfL6qKTmpvzlZG98Go+QR2+HXUK88lVYwx89T
-W7acAiqcy6oNWbwEvNznY1dqIosmSCUvgAVeftgFGo5pTGWdzjWOZGqpF9D9ID49
-nEJyAhL4qD7mW/YdCpnbCgZ0itMsthMkFyBWvsLoB9Z7u2lqOBTySlLMCpi5+dlf
-pg3JlWE9yTFr1Cz3KUxgUGixuNHJqgkLi3iOCTpqEa/tyBoiR6PXomZIHrm3TseQ
-VoI4UPnv8FZXHC5cn5X2l4sjnGJ4TB8C6RvsvNCj4jXhYrpqtkP9Cc4YHcYQQ3EC
-SJpwHWkLINlrVoshjr0qStrarMPN6hMgSy2bmWuRitjAl0tysqklyeNEJB1W4JQx
-LLTr4XHOW6/VGu1NaoNv977KLh3LQS0YZV+JZzsojSasvKkFeAuLtAvFRgjgMgJq
-9ewmjtSviaCxnXXNkwiJJx1yh8Z89qTYquuazTcfaWoA0I3s8yTqmUiJ5AdAM9Fn
-ssJCVe76eZRxiHUTV2oNg6guHr8MS6cDljhBYNjXWrPLnQi2Mh4Hm0OOCCu3SzlL
-YaaF6YuWQnVmVxlnZBojrK1YaKAvNpnIK7DXoTWB8bz/QEKmAXo=
-=pO36
+iQIzBAABCAAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmeJ4B4ACgkQpnEsdPSH
+ZJT36A/9GZO5JW60IB3wSfZvo8If9PryVxg4HMUVHT6Aw5NG0faQGeoUGTk4YjBK
+pYev08cWkTH09dYgeTJSSzRqG9YMsHYcxly3oeKi+SNG6AxbLwuu2VbP9+WNIG3d
+G2hYwzAWzfm31C1lL4V0yNsAUgbcZpdOzQlCCE4b3n6Jt1ijsFNl00w2RwOXDkip
+VULa1tIVU31Y1+HXwJWU6V4wnMZm36AiFaK6nVY0N/cbjA4eShUfF3rfvuAT56DQ
+OWdoqK6YaKJMVBigW88Tpjx2R5/CIqmbLcHm4Tg104k4pZIfaipEdgNH9gXLXqdD
++dxv7gKiZwX8ALbEqlooII/q7bDgHou9ZwXEitUq2dgxmKHIsGRD5zZh/YMgTPfV
+mphmo0exJMXjYlQmdIvdhq4/+FTElQAoSy8ZCSjfHOOcTjMVv8PU87L+O6+YL7kg
+pRYUALo6RzcwGeXVF8DGLwVm54SmpgAxPoG5NjFuUE1k6Xn3dMAUC7FsCshupoWE
+E5bYhi2Iadu36a54izbMyfRYxv5fe6j61VualH81cV3WHApLe8TnVJ2yBfCZXPQl
+Hzo/WcwceRosXPfulC2VVkBy9qBTs3CzF5kwWq6didLSraTAe4nIAMeTajo/nWl2
+qtB++fuhVpeDl//3F2UDGhqcWPp1U6FW6azCYmOu8KJ36NgEzjk=
+=Q2ea
 -----END PGP SIGNATURE-----
 
---===============0621515526064850638==--
+--===============2639977690952273021==--
