@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Fri, 17 Jan 2025 23:40:30 -0000
-Message-Id: <173715723080.280706.13674026374207036953@gitolite.kernel.org>
+Date: Fri, 17 Jan 2025 23:40:39 -0000
+Message-Id: <173715723964.280982.11658481121202048968@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: 68abd0c4ebf24cd499841a488b97a6873d5efabb
+  - ref: refs/heads/pending
+    old: 6923d8016e5ad392dbb0c3b62ffc1b7c8bcad383
     new: 1254580d4f831808462e719e00d43a46e4254631
     log: |
          7f2e104f2eebc2c3e15ae34740c7b05d0362040a wifi: ath9k: cleanup struct ath_tx_control and ath_tx_prepare()
