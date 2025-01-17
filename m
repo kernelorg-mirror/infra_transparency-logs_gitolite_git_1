@@ -1,50 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0255122957698308256=="
+Content-Type: multipart/mixed; boundary="===============6126502163131808516=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Fri, 17 Jan 2025 12:15:54 -0000
-Message-Id: <173711615412.3756989.16981672149082703566@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 17 Jan 2025 12:21:46 -0000
+Message-Id: <173711650699.3761481.15984838591596022459@gitolite.kernel.org>
 
---===============0255122957698308256==
+--===============6126502163131808516==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/slab/for-next
-    old: 6487eb0ef8d5204335096ad95b8af29489e58642
-    new: e492fac3657b60b8dd78a6e8ca26d1d14706c7b3
+  - ref: refs/heads/master
+    old: 6e1f340a720712ac0a870d8ef8c7dd70992eb10d
+    new: d479a835bbd294b20a0b5a41f5b5b0f033a8ecbd
     log: |
-         e492fac3657b60b8dd78a6e8ca26d1d14706c7b3 Merge branch 'slab/for-6.14/kfree_rcu_move' into slab/for-next
+         d479a835bbd294b20a0b5a41f5b5b0f033a8ecbd drop some drm patches from 6.12
          
 
---===============0255122957698308256==
+--===============6126502163131808516==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1737116179 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1737116149-8cc650381e77513046dfb18f3285c1f4be46736f
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1737116533 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1737116502-9fbcb7882b9d1068d74a4f5643eed363a91628c6
 
-6487eb0ef8d5204335096ad95b8af29489e58642 e492fac3657b60b8dd78a6e8ca26d1d14706c7b3 refs/heads/slab/for-next
+6e1f340a720712ac0a870d8ef8c7dd70992eb10d d479a835bbd294b20a0b5a41f5b5b0f033a8ecbd refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmeKShMACgkQu+CwddJF
-iJrnhAf/YBjDeR99jW8EP+lCziDTaa0zS9Wff1mq8fLmTYS97q3/zd5rVKXkGI8s
-5LSxu6S1NAof9XjdwhPGphbdmEh0YTfq9wMPkdVNMk7S5hOMG8kBqvXSBTPGz26E
-K6n+kQZXylMHjCM/FweXlm0632BlcIJ9L5Vweupqvi73mZ4cmeSDmn560vPRDgiI
-C5UGtrGqFARf2ZyXA8YhMp5d992SQgq0jrtnPjYfJCZsXRZxY8M8BUkwfto8z0VK
-Fbn2FsmtVWLvAdNmQwpcUAbgkyX7GLy9om3vQpg2j1vSuU2ba7L/6HIuZYbgIvj6
-CQEF8lM67IQXv8yktoVd9U/rbMMOzw==
-=GkMb
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeKS3UbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ix0P/0sGG0Cqn4tF9hNITq1s
+vypAHf+fkqI6qHOdjuqhGAEqfOfJMAlvpTNOil1UcEILplFI9t6UufNt6zWs653c
+ZCOEY6fOGOGK0sNZIdap/Dv5Lro3iTi9c+PTF1b13KAsziDohFtHRMbvEeEBmvCr
+xRLQLdJ/I+HQlR//6LXwU+Mkmv+YoKVwkRr1D8VGMzZHJa+x7KyCFZNrKR/AsJ19
+EdHOkJu0dUtUWhNYUyxJKVrhZL5FEgZyJjG46NMWYhiCPVZGOmQzDTTUA0JyVDa1
+wm0vvDYxizS8XmuJKtlTsuqSoGoBbQtbgp6Uw8XTUJZaaxRrfcyasuBufgtet65K
+EJ5efqM8je0pdLPcrAmAohFfqaaRDEZTetblnlHuV5kRH4pEXME5bfkCyDvYSywC
+r9/v09PXtjFlJMTlpgbj/lptuZmWEYDKrU+UP8Vr2st83EuFs2jfZO7VSns5FE45
+1vduRZlq8uDnffuCVlC7UaSjNxVWC9uQpVBaLF96RxOdCRa94JG39HmYjlHaeTpp
+HcyU1E3PjaoC9T17fQ+9rs20GEpB59NQPU9Dkrem3yCOjkUo4JCmewK0k/8ti1zO
+TaE9CYKmzNBEHpBY4gDZzf2chsvlux2pxc5ubfVWWbRVcHTWodKjLVhNyKMlzoqx
+A41ej/om7QDjiisT9ks77phS
+=5wL1
 -----END PGP SIGNATURE-----
 
---===============0255122957698308256==--
+--===============6126502163131808516==--
