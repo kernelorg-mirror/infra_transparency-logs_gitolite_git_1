@@ -1,76 +1,88 @@
-Content-Type: multipart/mixed; boundary="===============2293995340232227453=="
+Content-Type: multipart/mixed; boundary="===============3050799424654106346=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/linux
-Date: Fri, 17 Jan 2025 11:21:02 -0000
-Message-Id: <173711286272.3708240.16022439927368735850@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Fri, 17 Jan 2025 11:25:43 -0000
+Message-Id: <173711314364.3712306.406682949645200421@gitolite.kernel.org>
 
---===============2293995340232227453==
+--===============3050799424654106346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/linux
-user: vireshk
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/virtio/msg
-    old: 49464cf2cbad3bbb31db9f603a196c76821564a9
-    new: 26965b829b73072e24970283af3b3e1c2ad759b6
-    log: revlist-49464cf2cbad-26965b829b73.txt
-  - ref: refs/heads/virtio/msg-xen
-    old: 11da8443e3321cd4f8090f4a8d7c2abd1c7d0a2e
-    new: 2e3356784e87f20c8375b12adebc1e706091c1c8
-    log: revlist-11da8443e332-2e3356784e87.txt
+  - ref: refs/heads/driver-core-next
+    old: dd19f4116ec330bc985e1a85a66b8dd0f2dca20d
+    new: 01b3cb620815fc3feb90ee117d9445a5b608a9f7
+    log: revlist-dd19f4116ec3-01b3cb620815.txt
 
---===============2293995340232227453==
+--===============3050799424654106346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-49464cf2cbad-26965b829b73.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-8b9ad1a54497824a8a0ac02205ee477474dfe3a3 dt-bindings: firmware: Add bindings for ARM FFA
-14ea53d4e569f3b8b538a132fd7741fc5441c830 firmware: arm_ffa: Setup of_node for ffa devices
-a15bfeffbc2e01ee67af3cb41f3f3f11a46ad8e7 firmware: arm_ffa: Provide .dma_configure()
-5a2592ac3040d3a0e6093e6220b57a15b487aa20 firmware: arm_ffa: Extend interfaces to support framework notifications
-25104ac14f262df004d370a19da37d41830ff064 firmware: arm_ffa: Add support for framework notifications
-283c89f8fb0e18b560bc992cfc95d92f28e3d229 firmware: arm_ffa: Fix buffer handling for indirect messages
-34db353863236c18c5b1c5ac187809597d262a03 firmware: arm_ffa: Fix bitmaps for framework interrupts
-02bf2fc8b752f8db1c9a8c85dcfbd3c1706cf884 firmware: arm_ffa: Fix update notifier callback with buffer
-9d1c7ab865c2aa6fb83b3ad6ed3ef5112ad05486 virtio: Add support for virtio-msg transport
-71c120d49b27d3b2e50a980a49e05f3fa8809fe7 virtio-msg: Add support for FFA based channel bus
-e0c4875f07f0d3d5fd209b71cdd15488d6339dba virtio-msg: Add DMA OPs support
-26965b829b73072e24970283af3b3e1c2ad759b6 virtio-msg: ffa: Add reserved mem support
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1737113172 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1737113142-62357e63388992839fff66708b09f9bff13c47b1
 
---===============2293995340232227453==
+dd19f4116ec330bc985e1a85a66b8dd0f2dca20d 01b3cb620815fc3feb90ee117d9445a5b608a9f7 refs/heads/driver-core-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeKPlQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jM0QAJgmXYh+mUaCjWiqoPmJ
+E9FjDqJAAJ0VsnComNtaVdZ/WFy94X9jsDH5blNDb156p8n2cS6k0TWhGjgUUc8K
+a34HE2353QR50Ui3COpY46tRbQ9CWkgTNnjVZa8oLmrAqQh4EA8u57nFj9aWjXXD
+OMUI1Wi5SQqmZTngnU7GZEARnp/nG16aPEo6oIPZPu8YbCYfsiOxfNKmNSOEyXe1
+nFtR+DJVWAIZi30Q0ADBoGCua1zqaGoPMVgLgkeGbjBsPoA/cvB5BqwM7U0mookM
+OK8FQmmwPPZP6THPKjoeB4VeolfiND0sVRgCgE1OdrB2rFX+SGx6c/V9vzuohBuP
+bGPGL1LWK/gPMNkTZBQtVhQDlVBQUORiZ85KOybjL2TK5acC2w+ZOhR8IMugWhcO
+HGIhWdjYo2yOT81SfDFfdNmqGpdXE2T9B6l4xywFGcOS+c+lOvnU1YmC5lnA5Kq7
+JTZ2QZCABmOMIPTL3Df6iynNMAG7510ZPoCtJz4TfH/y3/+lrIyOeTIvEO0FzsDY
+ItyajvR93HQ2BVQIEwXOmTMwn8uOE7i2QfvU2BYGOF9qjI2aGBLfxS5LuVqh/aLV
+xl8ItCF/HuK8xMcN9j8k11Jr/ugmTsBqq7sKlOgsMyJ99TsuaqwUik1uVuNUFduh
+ZfgCnCcMNXts9PPZAHsCGeiv
+=NM+P
+-----END PGP SIGNATURE-----
+
+--===============3050799424654106346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-11da8443e332-2e3356784e87.txt
+Content-Disposition: attachment; filename=revlist-dd19f4116ec3-01b3cb620815.txt
 
-8b9ad1a54497824a8a0ac02205ee477474dfe3a3 dt-bindings: firmware: Add bindings for ARM FFA
-14ea53d4e569f3b8b538a132fd7741fc5441c830 firmware: arm_ffa: Setup of_node for ffa devices
-a15bfeffbc2e01ee67af3cb41f3f3f11a46ad8e7 firmware: arm_ffa: Provide .dma_configure()
-5a2592ac3040d3a0e6093e6220b57a15b487aa20 firmware: arm_ffa: Extend interfaces to support framework notifications
-25104ac14f262df004d370a19da37d41830ff064 firmware: arm_ffa: Add support for framework notifications
-283c89f8fb0e18b560bc992cfc95d92f28e3d229 firmware: arm_ffa: Fix buffer handling for indirect messages
-34db353863236c18c5b1c5ac187809597d262a03 firmware: arm_ffa: Fix bitmaps for framework interrupts
-02bf2fc8b752f8db1c9a8c85dcfbd3c1706cf884 firmware: arm_ffa: Fix update notifier callback with buffer
-9d1c7ab865c2aa6fb83b3ad6ed3ef5112ad05486 virtio: Add support for virtio-msg transport
-71c120d49b27d3b2e50a980a49e05f3fa8809fe7 virtio-msg: Add support for FFA based channel bus
-e0c4875f07f0d3d5fd209b71cdd15488d6339dba virtio-msg: Add DMA OPs support
-26965b829b73072e24970283af3b3e1c2ad759b6 virtio-msg: ffa: Add reserved mem support
-e0b6088a116a8368871bb48cab0c1cc8e8a082fd firmware: arm_ffa: Partition info returns self as well
-01fa703428ffc4997a28505c5cfaf53cf7c4e026 firmware: arm_ffa: Bump version to 1.2
-759130b0d4f1ddd7e4348062a28103b7da955551 virtio-msg: Add helpers to create per-bus miscdevice
-d8aec69a9ed6c0bb548576bef94f65c4b91a0605 virtio: Add support for MMIO based channel bus
-7c3ff9680c9672e5b32f70be4e803335c2276cfd HACK: firmware: arm_ffa: Partitions can come online after the host
-1e5c958bdef981affaa46188682adde46eb03c62 HACK: firmware: arm_ffa: Forcefully match UUID to virtio-msg-ffa
-6d0fc0ca1919c235c264df1a3bbec6da4211f2ea HACK: virtio-msg: ffa: Make it work on the host side
-8cb793f52421a166d0c9c55daaf7e91f81f03a13 Revert "virtio-msg: ffa: Add reserved mem support"
-9f2c030bdc4666bdd5e0d468754e8e3f80513746 TEMP: defconfig: Reset
-e11b4880c66b682348ec5b4587549a9ea20b0244 TEMP: defconfig: Enable virtio-msg + qemu/xen options
-2e3356784e87f20c8375b12adebc1e706091c1c8 TEMP: defconfig: Enable INITRAMFS for guest kernel
+ee9c69388e3bad6c595fe38f34aa1126d2d07a11 kobject: Remove unused functions
+268b36116f2f048d2fb0cd13aa3036705fcac068 debugfs: separate cache for debugfs inodes
+bacaaf833e964933c36ee571d8c0e9a87fae1a3e debugfs: move ->automount into debugfs_inode_info
+41a0ecc0997cd40d913cce18867efd1c34c64e28 debugfs: get rid of dynamically allocation proxy_ops
+95688800eefe28240204c2a0dd2bca5bf5f7f1d9 debugfs: don't mess with bits in ->d_fsdata
+12c92098932b4bbf38396e9aed0a343d35437a21 debugfs: allow to store an additional opaque pointer at file creation
+d1433c7ba289319983ec0086dd22524721a797ef debugfs: take debugfs_short_fops definition out of ifdef
+a61af967992af184c2a2d6d2b234d3b8d9bf2892 carl9170: stop embedding file_operations into their objects
+86d4ef6a3915d6eea93d98082ed82adcf888a015 b43: stop embedding struct file_operations into their objects
+231e9f05122b82dcb2b5ea8bb3081d4fc51a8bc4 b43legacy: make use of debugfs_get_aux()
+1eb87004d294867ced3ec1bd620fdff2db933227 netdevsim: don't embed file_operations into your structs
+e12a76f07e76c551e13d44b1b1e16c4819fbfc80 mediatek: stop messing with ->d_iname
+c05fc27af6db060d2640b1f4f5bbbce4d292537d greybus/camera - stop messing with ->d_iname
+c63254a74720b5082d060d6352a4d670c8c8d171 mtu3: don't mess wiht ->d_iname
+e777ba7bbdcbb03676c5e2b5c7423bf4a4cb4b42 xhci: don't mess with ->d_iname
+75a96701dc0f678d877dd9b5d624005364870472 qat: don't mess with ->d_name
+74e5a20c93d8bf8f88d9a808b12baf00ec2839a1 sof-client-ipc-flood-test: don't mess with ->d_name
+f9c8dbc8292ff80c858d67c3afabec5a8adb5ab8 slub: don't mess with ->d_name
+f22fa721ae415cd3303117c675e451aaec7abf71 arm_scmi: don't mess with ->d_parent->d_name
+f526ca6bc10498785c5e4530c8c79ac9f87df9bc octeontx2: don't mess with ->d_parent or ->d_parent->d_name
+c2a3a216c7e9ad790ba3b5972ee93eee8fe337b1 orangefs-debugfs: don't mess with ->d_name
+f7862dfef6612b87b2ad8352c4d73886f09456d6 saner replacement for debugfs_rename()
+e3a89cc281b60fbd39fa6c1509e80001b77fd8c1 rust: device: Add property_present()
+bf1ad6c869fdf972ecd80097214aa3223ccd457c devcoredump: Define 'struct bin_attribute' through macro
+2485f8e8c4d543c2996ec409d98e692761e55bac devcoredump: Constify 'struct bin_attribute'
+e1cd24af8ff2ad7e26e1711be3d7bd72eef24279 rust: device: Replace CString with CStr in property_present()
+01b3cb620815fc3feb90ee117d9445a5b608a9f7 rust: device: Use as_char_ptr() to avoid explicit cast
 
---===============2293995340232227453==--
+--===============3050799424654106346==--
