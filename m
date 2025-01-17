@@ -1,52 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============6290469948089207566=="
+Content-Type: multipart/mixed; boundary="===============6201374061954680872=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Fri, 17 Jan 2025 02:01:37 -0000
-Message-Id: <173707929793.3261316.11434717150816799038@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 17 Jan 2025 02:01:55 -0000
+Message-Id: <173707931587.3261836.6541239307355436121@gitolite.kernel.org>
 
---===============6290469948089207566==
+--===============6201374061954680872==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
   - ref: refs/heads/for-next
-    old: 5cc68af412a9dd1554265bafca24b3047b6f48d5
-    new: b8d3d1725605f29d66943c930a74ddbae14a3cbc
-    log: revlist-5cc68af412a9-b8d3d1725605.txt
+    old: cb451fc2e104ead8f0358fdf9d9148c7fc57831c
+    new: 1a2367d92dfc84124c00025c82a3545fffb98e1b
+    log: revlist-cb451fc2e104-1a2367d92dfc.txt
 
---===============6290469948089207566==
+--===============6201374061954680872==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5cc68af412a9-b8d3d1725605.txt
+Content-Disposition: attachment; filename=revlist-cb451fc2e104-1a2367d92dfc.txt
 
-8dbd3c1ebcd325575f08c9ea538ac443cb2631aa make sure that DNAME_INLINE_LEN is a multiple of word size
-667d8617fd214262ad2322400c9ac0346a07024a dcache: back inline names with a struct-wrapped array of unsigned long
-3cec07183b7fc5c7ff8ed75733addecb7f9e68f7 make take_dentry_name_snapshot() lockless
-ade272fb27612786224d07396b7712acb77f16c6 dissolve external_name.u into separate members
-212a98f557cc9fccb271a3d1b490d30bd4b6a28f ext4 fast_commit: make use of name_snapshot primitives
-19dfb280e95d5eb8b18e5de76bccdbb2939fe0a2 generic_ci_d_compare(): use shortname_storage
-ca4cc81857cab4e58886db155ae9d28673d9a751 Pass parent directory inode and expected name to ->d_revalidate()
-90b55fd0dae15ff4581c99315f0008442a0640d7 afs_d_revalidate(): use stable name and parent inode passed by caller
-119e25b47e5c8c930e80635b7f414bc5b556c264 ceph_d_revalidate(): use stable parent inode passed by caller
-c24b9e3d8da5a7f5a138b8cd1cea41f9e1d55272 ceph_d_revalidate(): propagate stable name down into request encoding
-6b7a87198cc9884541044d73819f3852d490f69c fscrypt_d_revalidate(): use stable parent inode passed by caller
-bd341523653ca2f05faabbd8f6d3e812a568ea09 exfat_d_revalidate(): use stable parent inode passed by caller
-dd40f1d60af8dba8638c69d95748cfbcacb110a7 vfat_revalidate{,_ci}(): use stable parent inode passed by caller
-d370b76e15d189b58f8f4398fb8f2cc91748e26f fuse_dentry_revalidate(): use stable parent inode and name passed by caller
-51fc6b7fcf70de83be3f8afb4dab2f2e1ed52b3a gfs2_drevalidate(): use stable parent inode and name passed by caller
-def956ff19cc34adb8886f0343e03b29ebb99ab8 nfs{,4}_lookup_validate(): use stable parent inode passed by caller
-3ad4fdde02b55b3b9e3e5e07d8a6ccfc1c91c41e nfs: fix ->d_revalidate() UAF on ->d_name accesses
-d3afe23c550e5c7ac7bd42bf0742f70a372d737a ocfs2_dentry_revalidate(): use stable parent inode and name passed by caller
-988ab2405bb4c4f258b422987ce51623977daf8f orangefs_d_revalidate(): use stable parent inode and name passed by caller
-00f98b449a7797c242cad6db2c33c76a93b438c0 9p: fix ->rename_sem exclusion
-5f4e6f7f8b77a3b1fb0005f6e1692475785ae05f fs/overlayfs/namei.c: get rid of include ../internal.h
-b8d3d1725605f29d66943c930a74ddbae14a3cbc Merge branches 'work.misc' and 'work.d_revalidate' into for-next
+9fe17b7466f6c1dd29bac83a7a53303b8b16410f selftests/bpf: Fix test_xdp_adjust_tail_grow2 selftest on powerpc
+87c544108b612512b254c8f79aa5c0a8546e2cc4 bpf: Send signals asynchronously if !preemptible
+a8d1c48d0720140b53063ff23507845bb2078e92 selftests/bpf: Fix undefined UINT_MAX in veristat.c
+7c311b7cb3c7d84c5c342e803c5cb1b2fabbc438 veristat: Load struct_ops programs only once
+4a04cb326a6c7f9a2c066f8c2ca78a5a9b87ddab selftests/bpf: Fix btf leak on new btf alloc failure in btf_distill test
+5436a54332c19df0acbef2b87cbf9f7cba56f2dd libbpf: Fix return zero when elf_begin failed
+5ca681a86ef93369685cb63f71994f4cf7303e7c libbpf: Fix incorrect traversal end type ID when marking BTF_IS_EMBEDDED
+556a399406635566413f9c71b134d5d287b25b29 selftests/bpf: Add distilled BTF test about marking BTF_IS_EMBEDDED
+b8a81b5dd6450be730924ea5e78f5892927cccd1 bpf: verifier: Add missing newline on verbose() call
+8ac412a3361173e3000b16167af3d1f6f90af613 bpf: tcp: Mark bpf_load_hdr_opt() arg2 as read-write
+37cce22dbd51a3ef7f6c08c3fb5f1c5075a17fbb bpf: verifier: Refactor helper access type tracking
+d2102f2f5d75a84dbab6ff890359f0bd4a18ca22 bpf: verifier: Support eliding map lookup nullness
+f932a8e4824b529e455b7e3eb3e5118beceb3e32 bpf: selftests: verifier: Add nullness elision tests
+b53b63dbf3748eca32e8d19d56dba43ddfec78e6 Merge branch 'support-eliding-map-lookup-nullness'
+1a2367d92dfc84124c00025c82a3545fffb98e1b Merge branch 'bpf-next/master' into for-next
 
---===============6290469948089207566==--
+--===============6201374061954680872==--
