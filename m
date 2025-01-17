@@ -1,16 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Fri, 17 Jan 2025 09:35:28 -0000
-Message-Id: <173710652861.3622985.14322387284221303834@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
+Date: Fri, 17 Jan 2025 09:42:31 -0000
+Message-Id: <173710695141.3627824.2564743086213555963@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/ukleinek/linux
+user: ukleinek
 changes:
-  - ref: refs/tags/dma-split-jan-17
-    old: 0000000000000000000000000000000000000000
-    new: 77932f39fd7cdccbe8e2eda50d1ee4727dfbfa9b
+  - ref: refs/heads/pwm/for-next
+    old: 78dcad6daa405b8a939cd08f6ccd6c4e2cb50a9c
+    new: e8c59791ebb60790c74b2c3ab520f04a8a57219a
+    log: |
+         e8c59791ebb60790c74b2c3ab520f04a8a57219a pwm: stm32: Add check for clk_enable()
+         
+  - ref: refs/heads/pwm/for-nexxt
+    old: 78dcad6daa405b8a939cd08f6ccd6c4e2cb50a9c
+    new: e8c59791ebb60790c74b2c3ab520f04a8a57219a
+    log: |
+         e8c59791ebb60790c74b2c3ab520f04a8a57219a pwm: stm32: Add check for clk_enable()
+         
