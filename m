@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3809572425307575573=="
+Content-Type: multipart/mixed; boundary="===============7345510355632461171=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 17 Jan 2025 11:39:35 -0000
-Message-Id: <173711397552.3723432.4106204200691367564@gitolite.kernel.org>
+Date: Fri, 17 Jan 2025 11:40:08 -0000
+Message-Id: <173711400821.3725454.14615764544182113289@gitolite.kernel.org>
 
---===============3809572425307575573==
+--===============7345510355632461171==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,46 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: cde1e61d81a4bdc66890de3eca0c489aa01e00a7
-    new: 983e375849fe4fd987cab94d940ba2af6f9e7a71
+    old: 983e375849fe4fd987cab94d940ba2af6f9e7a71
+    new: 4d27afbf256028a1f54363367f30efc8854433c3
     log: |
-         6d7965fb5cde90a6ef7bbbf0b3debb33a196cf9d dt-bindings: usb: snps,dwc3: Split core description
-         15b93f340fa6bcb0b47f574e1cd3b5ce02fec403 usbip: Fix seqnum sign extension issue in vhci_tx_urb
-         81702d41457a8aec49bfd0942f98697d529656f0 usbip: Correct format specifier for seqnum from %d to %u
-         66e0ea341a2a78d14336117f19763bd9be26d45d usb: dwc3: core: Defer the probe until USB power supply ready
-         06c47f203222c93dbec85950d976637aedd54514 usb: typec: ucsi: Add a macro definition for UCSI v1.0
-         eb124822186be8ea433f568e92cc3bfbf6117a30 usb: host: xhci-plat: add support compatible ID PNP0D15
-         983e375849fe4fd987cab94d940ba2af6f9e7a71 usb: xhci: tegra: Fix OF boolean read warning
+         4d27afbf256028a1f54363367f30efc8854433c3 usb: typec: tcpci: Prevent Sink disconnection before vPpsShutdown in SPR PPS
          
 
---===============3809572425307575573==
+--===============7345510355632461171==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1737114003 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1737114035 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1737113972-a0c27bb08a80dc788f6bd59a087cf4e09053f54d
+nonce 1737114005-138519b69cfed7129c1fdeac20c569aac8e4c662
 
-cde1e61d81a4bdc66890de3eca0c489aa01e00a7 983e375849fe4fd987cab94d940ba2af6f9e7a71 refs/heads/usb-testing
+983e375849fe4fd987cab94d940ba2af6f9e7a71 4d27afbf256028a1f54363367f30efc8854433c3 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeKQZMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+d9EP/iRITZRkAyapJcbNzu/x
-y8uoxJPNqMt/6B+AMaqsllV9H2j3pkDLJeK95EGIPIeojRP3JlyQmsAHPmQVTJL9
-I4CCANbORV2S15pPwey5+cSnBq+YmksKU5oAC2iVbNau/6gtbgvZay7L+Tr3v5YQ
-JkgtoI99ZDI1X0hbQlyicXApf7VUyXcx/GJOl7FNHYhBHwkx7IBepgjwoeU0RJGx
-tstnVzNRosGaAsXrIYu6nuXGsHaiJDpR0ahehT6W24/MK5yemcHJ6Uu4GVs7A+UN
-o3y1aR9rEdRAztX4LHcgNB2Au7Z4ngj8n7vNrwCmawWVR8OxBdacd2vmrHTPjl0k
-bjFvCXotVKeSGzeYWYbYx53AtpiSME2YuOXmFNlz+G4lo/XI0KggCT2xNTQ/RpLc
-FTXW2aJOcg+MXQ7gfcmN9nQi4L49oXR8iC9L6VOSt2587sv9v+gBsTCtPP57h3IP
-uf8kbbqGzsCX3OLBmWKUiyoNT7LoSaJlzTUo62aBSsL2ype0fnbUp22Lb5zkQavM
-OVWMyF5zya+U10gMsBTVP6WkW0E6hQ5d1Avse/5OztLBpju6cdDhMk4F8t2fCQKC
-PLNmgJy/X5QuU29FxkBjaNXo+wKjonGHC82wVz/WspMuVhwTGrIYU6UddADODb8c
-UZBmClic+mhAdLH6q/Cn+LZL
-=Lgaw
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeKQbMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uqkP/3Ou7St3CzCcE+RMBJTv
+AT3KxVNPG57qMgmMYBgHO27cqnecn7wd8nhwjtKBMeCKqVjMykOWR6BNcSVu/gkL
+UxrGLiJfqTaaZENiDibMgf4RnMmdTVRL4ZOJX4M1BoBJHIaiNJvDk4x8tygX27O3
+ClMzziJkeYcIQOUPK+HbrfD+qT0my8dN9DK+ceDSO1YM/bLsIJKFJAgPnuP1QKXa
+SZTAWOIWx0xGP4diVUCKyAmZyY2MuU6umQDtOcxRUvqkGLJMPQ++lahzRlYEV7i0
+vw/ymSLNAQj2vOwIwNHaAFN0EzznLpQNETKm83g8zu1gHuOJFaCzKD1aTxz01zGz
+7LJStOMot3fOXlVH2XAmJjXoNVtNbDzjiMP2MPUtJBeEnBmiaPRac1rJFWyGDgH0
+499pINCwfTbp0m6RuKO5amLfdizJCfA0VK+/+GHn21xIrA0wqEip+RuGO+bbKlX3
+88YI0zoyjLTcIP9LzZ0k9DX4gv58yIBbzwNVkJz0eCl0SDV1l+Jit3dDLY2WJOUL
+OQ6bP+jlII9eSwOnnb4u1LRvEFUm7Huf0WPY8pc5QNNkKGcrupKTH4kwlL7CzwjA
+be7raYp3stC4uS2l42JI4Q+hsOIT7SJ/fdlbFFdRF7pm5CzlgauAo8W5oqYunQRM
+ZCCe1bHoRSHqwUR+syjaL9nJ
+=KaA1
 -----END PGP SIGNATURE-----
 
---===============3809572425307575573==--
+--===============7345510355632461171==--
