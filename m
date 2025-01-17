@@ -1,46 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============6709106285958569194=="
+Content-Type: multipart/mixed; boundary="===============7582035674321139018=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Fri, 17 Jan 2025 17:05:08 -0000
-Message-Id: <173713350894.4147855.12035249638922830255@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 17 Jan 2025 17:09:02 -0000
+Message-Id: <173713374224.4149535.13999422959135360918@gitolite.kernel.org>
 
---===============6709106285958569194==
+--===============7582035674321139018==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-next
-    old: 9a20fbfef404701ecfda559bc2902d5530e53310
-    new: 46054e10a1562f2692489186fe7ca618874a687d
-    log: revlist-9a20fbfef404-46054e10a156.txt
+  - ref: refs/heads/master
+    old: 9bffa1ad25b8b3b95d8f463e5c24dabe3c87d54d
+    new: ad26fc09dabfa6a33ad5baee80479f518370b316
+    log: revlist-9bffa1ad25b8-ad26fc09dabf.txt
 
---===============6709106285958569194==
+--===============7582035674321139018==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9a20fbfef404-46054e10a156.txt
+Content-Disposition: attachment; filename=revlist-9bffa1ad25b8-ad26fc09dabf.txt
 
-26f2d6de41795a931d1c16950114dbcf55dfbd75 riscv: defconfig: drop RT_GROUP_SCHED=y
-008795d0e4fd2782ad4ddfa3efef015e1b2e8de3 dt-bindings: riscv: Add xtheadvector ISA extension description
-1d7708016408818b00af84a1241bd1da32895ee5 dt-bindings: cpus: add a thead vlen register length property
-d4bd8d89f2097ffb2c1fbae0ed8dea2e087202dc riscv: dts: allwinner: Add xtheadvector to the D1/D1s devicetree
-c0b72d7d651e265382ba313f81b8e06ab0a852bc riscv: Add thead and xtheadvector as a vendor extension
-fe5d389c0b1ee12afddbdead73769e539e5d8342 riscv: vector: Use vlenb from DT for thead
-d1d0564eed2eaafbcd3dedc609fce363b1fbb6e1 RISC-V: define the elements of the VCSR vector CSR
-ee8714ce2f475db1b099315815306f3413b0d67f riscv: csr: Add CSR encodings for CSR_VXRM/CSR_VXSAT
-6056307da4c1d0928472304a59f3d01eca3c248c riscv: Add xtheadvector instruction definitions
-87974fe2a04aedc685c71af644037e60a65af063 riscv: vector: Support xtheadvector save/restore
-c36c2c477eb54f0ad87cbe96b881b171ce1cdd59 riscv: hwprobe: Add thead vendor extension probing
-9b7af932aad055e546e8053d6c0f813419c62139 riscv: hwprobe: Document thead vendor extensions and xtheadvector extension
-8fcaf922831887e32c8bdf5ebff76bbd80c971cb selftests: riscv: Fix vector tests
-e6eef8d6b2b06fbf90c89bf064cabfd435920eed selftests: riscv: Support xtheadvector in vector tests
-4b58b3206ba7b0fdb8ca4b33feaae4dba4513402 riscv: Add ghostwrite vulnerability
-46054e10a1562f2692489186fe7ca618874a687d Merge patch series "riscv: Add support for xtheadvector"
+b8ed9da102beb2d0926a1d7a7e652392190151c0 cifs: support reconnect with alternate password for SMB1
+fa2f9906a7b333ba757a7dbae0713d8a5396186e smb: client: fix double free of TCP_Server_Info::hostname
+9726891fe753910b8d7db712781438ad229091b3 mm: page_alloc: fix missed updates of lowmem_reserve in adjust_managed_page_count
+05c82ee363f64c64b87a0cfd744298e9333475f5 alloc_tag: skip pgalloc_tag_swap if profiling is disabled
+b071cc35469ea44392222fe8de69b431a0778a5f mm: shmem: use signed int for version handling in casefold option
+f1897f2f08b28ae59476d8b73374b08f856973af mm: khugepaged: fix call hpage_collapse_scan_file() for anonymous vma
+779b9955f64327c339a16f68055af98252fd3315 mm: zswap: move allocations during CPU init outside the lock
+3e1a9371e40ee92fbdf22752538e95497bf9152d mailmap: update entry for Ethan Carter Edwards
+b0fce54b8c0d8e5f2b4c243c803c5996e73baee8 ocfs2: check dir i_size in ocfs2_find_entry
+9ca27296662e3eef9cf6c58bcf22a0490d217738 Merge tag '6.13-rc7-SMB3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
+ad26fc09dabfa6a33ad5baee80479f518370b316 Merge tag 'mm-hotfixes-stable-2025-01-16-21-11' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 
---===============6709106285958569194==--
+--===============7582035674321139018==--
