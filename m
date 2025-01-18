@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Sat, 18 Jan 2025 17:58:19 -0000
-Message-Id: <173722309990.1156213.7981774940670750248@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Sat, 18 Jan 2025 18:14:22 -0000
+Message-Id: <173722406268.1168336.1538119906055445911@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: be960f9e1c393d42ba5aa52d012eb7ec47a83882
-    new: 4290989085f925bf46730c55d780e9a40a0fb294
+  - ref: refs/heads/dev
+    old: 4c0c22e9082e644d58440f089e31d97ed381bd78
+    new: 48e48cbd3591bc38fa3eaf2b066c42e5fd46728d
     log: |
-         4290989085f925bf46730c55d780e9a40a0fb294 patches/next: rebase to latest mm-unstable
+         48e48cbd3591bc38fa3eaf2b066c42e5fd46728d x86/asm: Make serialize __always_inline
          
