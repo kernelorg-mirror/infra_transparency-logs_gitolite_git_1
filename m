@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Sat, 18 Jan 2025 21:29:04 -0000
-Message-Id: <173723574416.1323930.8553041051480447724@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Sat, 18 Jan 2025 21:29:59 -0000
+Message-Id: <173723579935.1325019.16762930593166506184@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
   - ref: refs/heads/for-next
-    old: 2613c15b0cc1c0607d9f2b718d7bc117c40f9230
-    new: b6de116e4636e1a45e5ee69264a66cfab721e581
+    old: cd8252bbcfa9abf7f422965cb570aaf7dbba75a9
+    new: f5959f9ec6589ba6a2298f1b99b799e38b6420ef
     log: |
-         b6de116e4636e1a45e5ee69264a66cfab721e581 riscv/mm/fault: add show_pte() before die()
+         f5959f9ec6589ba6a2298f1b99b799e38b6420ef parisc: add vdso linker script to 'targets' instead of extra-y
          
