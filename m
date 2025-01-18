@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Sat, 18 Jan 2025 17:46:50 -0000
-Message-Id: <173722241028.1146954.16752522330036084307@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Sat, 18 Jan 2025 17:57:21 -0000
+Message-Id: <173722304175.1155189.9572233877639526297@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/for-next
-    old: 3a48b38f48433accfc4e90409d88b9876ed74c8a
-    new: d57e1961cb584a08f2940e7c846397754da698ca
+  - ref: refs/heads/perf-tools-next
+    old: 036e2faa997c39a5f15dbeb50528911778d8b29d
+    new: ac22d75377a04ceca53a8d438440e82bf4c722fc
     log: |
-         d57e1961cb584a08f2940e7c846397754da698ca fbdev: vga16fb: fix orig_video_isVGA confusion
+         83196dd3499ae032e6cd2afbc663dbad50b3850a perf lock: Fix return code for functions in __cmd_contention
+         1be9264158ef4818393e5d8144887a1a5d3cc480 perf lock: Fix parse_lock_type which only retrieve one lock flag
+         e9188ae3cd4e75297430c932d6e256c053bcc896 perf lock: Add percpu-rwsem for type filter
+         ac22d75377a04ceca53a8d438440e82bf4c722fc perf lock: Rename fields in lock_type_table
          
