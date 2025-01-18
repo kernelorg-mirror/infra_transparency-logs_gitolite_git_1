@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Sat, 18 Jan 2025 23:04:56 -0000
-Message-Id: <173724149647.1403680.15618915739433675@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-testing
+Date: Sat, 18 Jan 2025 23:45:37 -0000
+Message-Id: <173724393743.1436514.4535992596447188360@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/wireless/wireless-testing
+user: bcopeland
 changes:
-  - ref: refs/heads/dev
-    old: 48e48cbd3591bc38fa3eaf2b066c42e5fd46728d
-    new: ff3be3e9ffdbcefcb0355ec1cd05342e92463ecb
+  - ref: refs/heads/master
+    old: c5bf27089e4ae8e658b22bf16e791da8b099ecf8
+    new: 22653d5581a3ea5a4f3e937278ca1d9aff0e6a55
     log: |
-         ca4e6ac53dcd8c0d6c75168da3c10f1ac34f9ff7 Revert "EXP hrtimers: Force migrate away hrtimers queued after CPUHP_AP_HRTIMERS_DYING"
-         ff3be3e9ffdbcefcb0355ec1cd05342e92463ecb hrtimers: Force migrate away hrtimers queued after CPUHP_AP_HRTIMERS_DYING
+         04bdd35f80b4146f578c5d830fef92b7ac11f26b Merge remote-tracking branch 'wireless-next/main'
+         22653d5581a3ea5a4f3e937278ca1d9aff0e6a55 Add localversion to identify builds from this tree
          
