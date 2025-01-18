@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/misc
-Date: Sat, 18 Jan 2025 02:23:30 -0000
-Message-Id: <173716701076.407645.5772258786133329684@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Sat, 18 Jan 2025 02:34:28 -0000
+Message-Id: <173716766871.415967.16435777203864446095@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/misc
-user: kuba
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/main
-    old: 09fd8947b30bd74aa9baee38a0931fed304899b6
-    new: be8678d0afc1e52e429639548bce719f2bfeca70
+  - ref: refs/heads/trace/for-next
+    old: 80c3e28528ff9f269937fcfe73895213a2e14905
+    new: 542079b4b12e89f82c8a689b6e9b119ab7d52018
     log: |
-         be8678d0afc1e52e429639548bce719f2bfeca70 web: net-next is closed (for v6.14)
+         4c86bc531e60900053384867c082675bba82c29f tracing: Add :mod: command to enabled module events
+         b355247df104ef6644288884afd2c08b7bf49897 tracing: Cache ":mod:" events for modules not loaded yet
+         542079b4b12e89f82c8a689b6e9b119ab7d52018 selftests/ftrace: Add test that tests event :mod: commands
          
