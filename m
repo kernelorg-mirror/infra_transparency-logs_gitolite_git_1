@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1938941728827358825=="
+Content-Type: multipart/mixed; boundary="===============7901621511362268563=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 18 Jan 2025 12:00:13 -0000
-Message-Id: <173720161371.868808.13530641645206681592@gitolite.kernel.org>
+Date: Sat, 18 Jan 2025 12:00:37 -0000
+Message-Id: <173720163716.869429.14639747671440803103@gitolite.kernel.org>
 
---===============1938941728827358825==
+--===============7901621511362268563==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,46 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 762620881b8b4f5b918fb6c239e8b58509597ded
-    new: 2e03d85a0d5a4f942d7072bc17296ec463308e32
-    log: revlist-762620881b8b-2e03d85a0d5a.txt
+    old: 2e03d85a0d5a4f942d7072bc17296ec463308e32
+    new: 2c13dabd8d8d8e0a128e0d25c949698799235a12
+    log: revlist-2e03d85a0d5a-2c13dabd8d8d.txt
+  - ref: refs/heads/tip/urgent
+    old: afe325cac4243c054e9a0e088d22561f0c7209ab
+    new: 3b71af21407a1387fa1d12284e295ee04597c315
+    log: revlist-afe325cac424-3b71af21407a.txt
 
---===============1938941728827358825==
+--===============7901621511362268563==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-762620881b8b-2e03d85a0d5a.txt
+Content-Disposition: attachment; filename=revlist-2e03d85a0d5a-2c13dabd8d8d.txt
+
+ab9c8bea9eeb9e21c71aceb183c8e48a68a7903c Merge branch into tip/master: 'irq/urgent'
+7086bb45215f6b05ff382d1e4742fe2e6c507645 Merge branch into tip/master: 'sched/urgent'
+2b0570bdbcc96e1b5a8108eb32bd53fdb795c0f0 Merge branch into tip/master: 'timers/urgent'
+3b71af21407a1387fa1d12284e295ee04597c315 Merge branch into tip/master: 'x86/urgent'
+981fdf6da95367619858ac6da3199379ca341dbd Merge branch into tip/master: 'x86/merge'
+ba7bac31206c72e4b3b6d835c5303289aa4a9f8b Merge branch into tip/master: 'ras/merge'
+0f119f46ad655f79ed474c84a5690a8a3c75effa Merge branch into tip/master: 'irq/core'
+5e2c8771ceaeb3cd41fbdd9fc6103bff860bbcf3 Merge branch into tip/master: 'locking/core'
+bee971ed6fa9c8dfaa315c5c18a8e6c015da588e Merge branch into tip/master: 'objtool/core'
+9f9ea17c4882393255afa546fc4a1d86151a0517 Merge branch into tip/master: 'perf/core'
+9e11a2cad64050cb94fb7cb3272fad74db14432f Merge branch into tip/master: 'sched/core'
+621d741cf98ff376cd357b6445195bb9c72fb4e7 Merge branch into tip/master: 'timers/core'
+a73b5d04469b0fe97572fcd284be68bfd8808648 Merge branch into tip/master: 'x86/boot'
+354d67cbd02d6d1b2252767c31c40ffe72a69fe2 Merge branch into tip/master: 'x86/bugs'
+75fba83e58eebaaa6cf5ee60dded3551ae3d08e8 Merge branch into tip/master: 'x86/cache'
+421a7463a6c6903c2c8eb9bd855f38c2336b1b48 Merge branch into tip/master: 'x86/cleanups'
+16559426b02964373ab65f42a6b0402b462deef9 Merge branch into tip/master: 'x86/cpu'
+75cb5b7dd022ef86c2931c36083f90b94eec0ad6 Merge branch into tip/master: 'x86/microcode'
+4d5a955fbd1bb13d31b9ff0e403d5f344174200d Merge branch into tip/master: 'x86/mm'
+2c13dabd8d8d8e0a128e0d25c949698799235a12 Merge branch into tip/master: 'x86/tdx'
+
+--===============7901621511362268563==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-afe325cac424-3b71af21407a.txt
 
 1f8af9712413f456849fdf3f3a782cbe099476d7 reset: rzg2l-usbphy-ctrl: Assign proper of node to the allocated device
 202580b60229345dc2637099f10c8a8857c1fdc2 soc: ti: pruss: Fix pruss APIs
@@ -149,9 +180,14 @@ c08d3e62b2e73e14da318a1d20b52d0486a28ee0 net/mlx5: Fix RDMA TX steering prio
 25f23524dfa227959beb3b2c2c0f38e0222f4cfa net/mlx5e: Rely on reqid in IPsec tunnel mode
 7f95b0247764acd739d949ff247db4b76138e55a net/mlx5e: Always start IPsec sequence number from 1
 676d53a480b4fc9836e5a40452609cf85be88ba0 Merge branch 'mlx5-misc-fixes-2025-01-15'
+b729cc1ec21a5899b7879ccfbe1786664928d597 timers/migration: Fix another race between hotplug and idle entry/exit
+de3ced72a79280fefd680e5e101d8b9f03cfa1d7 timers/migration: Enforce group initialization visibility to tree walkers
+922efd298bb2636880408c00942dbd54d8bf6e0d timers/migration: Annotate accesses to ignore flag
+2f8dea1692eef2b7ba6a256246ed82c365fdc686 hrtimers: Handle CPU state correctly on hotplug
 a50da36562cd62b41de9bef08edbb3e8af00f118 netdev: avoid CFI problems with sock priv helpers
 3744b08449c27bfa085aa218c4830f3996a51626 Merge branch 'pm-cpufreq'
 726efa92e02b460811e8bc6990dd742f03b645ea pmdomain: imx8mp-blk-ctrl: add missing loop break condition
+ae02ae16b76160f0aeeae2c5fb9b15226d00a4ef x86/asm: Make serialize() always_inline
 ed8fd8d5dd4aa250e18152b80cbac24de7335488 Merge tag 'for-6.13-rc7-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 5d5c4787595268a5ac11f77660d4673feb744c57 Merge tag 'acpi-6.13-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 6b4ccf11fa5dae17ac815c5a07ce56655d60a815 Merge tag 'pm-6.13-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
@@ -172,6 +208,9 @@ ad26fc09dabfa6a33ad5baee80479f518370b316 Merge tag 'mm-hotfixes-stable-2025-01-1
 775a15eaf71d8624024ad91b719ba47d4b04cd2b Merge tag 'platform-drivers-x86-v6.13-6' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 ed9add2b32253b73d4909cc5cd4e7abcfdc0568b Merge tag 'soc-fixes-6.13-4' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 595523945be0a5a2f12a1c04772383293fbc04a1 Merge tag 'devicetree-fixes-for-6.13-2' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
-2e03d85a0d5a4f942d7072bc17296ec463308e32 Merge branch 'linus'
+ab9c8bea9eeb9e21c71aceb183c8e48a68a7903c Merge branch into tip/master: 'irq/urgent'
+7086bb45215f6b05ff382d1e4742fe2e6c507645 Merge branch into tip/master: 'sched/urgent'
+2b0570bdbcc96e1b5a8108eb32bd53fdb795c0f0 Merge branch into tip/master: 'timers/urgent'
+3b71af21407a1387fa1d12284e295ee04597c315 Merge branch into tip/master: 'x86/urgent'
 
---===============1938941728827358825==--
+--===============7901621511362268563==--
