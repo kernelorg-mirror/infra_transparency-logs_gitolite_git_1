@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Sat, 18 Jan 2025 17:40:43 -0000
-Message-Id: <173722204344.1142355.10104453553513739918@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Sat, 18 Jan 2025 17:46:50 -0000
+Message-Id: <173722241028.1146954.16752522330036084307@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
+user: deller
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: c6b0540e650cc16d8a386db2350859e773c6e3c4
-    new: ac22d75377a04ceca53a8d438440e82bf4c722fc
+  - ref: refs/heads/for-next
+    old: 3a48b38f48433accfc4e90409d88b9876ed74c8a
+    new: d57e1961cb584a08f2940e7c846397754da698ca
+    log: |
+         d57e1961cb584a08f2940e7c846397754da698ca fbdev: vga16fb: fix orig_video_isVGA confusion
+         
