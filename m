@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2666774681695609535=="
+Content-Type: multipart/mixed; boundary="===============1659444262671416783=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sat, 18 Jan 2025 10:19:34 -0000
-Message-Id: <173719557422.787169.4325944824130736843@gitolite.kernel.org>
+Date: Sat, 18 Jan 2025 10:19:52 -0000
+Message-Id: <173719559210.787498.17465480773596219048@gitolite.kernel.org>
 
---===============2666774681695609535==
+--===============1659444262671416783==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/next
+  - ref: refs/heads/master
     old: 9c10b1aefafb2319a0d2acfa72f30dd641ee33ca
     new: e8988ff013530dce215abe503b3e65859fbf13de
     log: revlist-9c10b1aefafb-e8988ff01353.txt
 
---===============2666774681695609535==
+--===============1659444262671416783==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -176,4 +176,4 @@ ed9add2b32253b73d4909cc5cd4e7abcfdc0568b Merge tag 'soc-fixes-6.13-4' of git://g
 6a82d6f05ec517b4b3e46a95a5882273f613ae12 KEYS: trusted: dcp: fix improper sg use with CONFIG_VMAP_STACK=y
 e8988ff013530dce215abe503b3e65859fbf13de tpm: Change to kvalloc() in eventlog/acpi.c
 
---===============2666774681695609535==--
+--===============1659444262671416783==--
