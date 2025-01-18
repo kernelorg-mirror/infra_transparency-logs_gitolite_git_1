@@ -1,61 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============0209709476533133466=="
+Content-Type: multipart/mixed; boundary="===============3690702995859761888=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sat, 18 Jan 2025 15:36:30 -0000
-Message-Id: <173721459038.1039567.259910224092631084@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Sat, 18 Jan 2025 15:37:00 -0000
+Message-Id: <173721462003.1039920.8015496992296747775@gitolite.kernel.org>
 
---===============0209709476533133466==
+--===============3690702995859761888==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-next
-    old: 2f83e38a095f8bf7c6029883d894668b03b9bd93
-    new: 651dee03696e1dfde6d9a7e8664bbdcd9a10ea7f
+  - ref: refs/heads/char-misc-next
+    old: 0e7d523b5f7a23b1dc6ceceb04e31a60e9e3321d
+    new: 970b9757cb44c315b5c3da6b1b35a1ffb07cca5a
     log: |
-         39d0be87438a0cc29151898c7fba24b43f2f3df8 serial: kgdb_nmi: Remove unused knock code
-         eaeee4225dba30bef4d424bdf134a07b7f423e8b serial: sh-sci: Drop __initdata macro for port_cfg
-         239f11209e5f282e16f5241b99256e25dd0614b6 serial: sh-sci: Move runtime PM enable to sci_probe_single()
-         9f7dea875cc7f9c1a56a5c688290634a59cd1420 serial: sh-sci: Do not probe the serial port if its slot in sci_ports[] is in use
-         5f1017069933489add0c08659673443c9905659e serial: sh-sci: Clean sci_ports[0] after at earlycon exit
-         651dee03696e1dfde6d9a7e8664bbdcd9a10ea7f serial: sh-sci: Increment the runtime usage counter for the earlycon device
+         bc32bbd0401170853b479645002df52f849f48fe spmi: Set fwnode for spmi devices
+         c65b229699dec5affffd4d4972825c3b3a818e92 spmi: hisi-spmi-controller: Drop duplicated OF node assignment in spmi_controller_probe()
+         970b9757cb44c315b5c3da6b1b35a1ffb07cca5a ntsync: Fix reference leaks in the remaining create ioctls.
          
 
---===============0209709476533133466==
+--===============3690702995859761888==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1737214619 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1737214589-9153af8205d616cc7ab677405f2ee442795354b4
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1737214649 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1737214618-174ea276533599df919df6584ea1d27619419080
 
-2f83e38a095f8bf7c6029883d894668b03b9bd93 651dee03696e1dfde6d9a7e8664bbdcd9a10ea7f refs/heads/tty-next
+0e7d523b5f7a23b1dc6ceceb04e31a60e9e3321d 970b9757cb44c315b5c3da6b1b35a1ffb07cca5a refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeLypsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Cr8P/37+8xLX6kYBZUM9bpHg
-tv9XA2qMSmkQJejX59OpphtWhvJtdn2RGidLJW8DWy3YLpekzjOe1ys4PpWA3YM7
-uQ8BDfUy2Lc87rUhcSyqwIQxVLmcnIB7dmlFgZFCsP/H0wI0m/D8RNg0357Hw1wa
-Px4l+evypnVuq0j0LdHYRFHa5VCy9XwI1BljVdHcKGjzYbkVUMZA76XSZT4v9HsA
-Oj9gzct4eXS2S3+m9nuT/s/gT9vMyHT9i9DoS0Vlk1jzhM1V8vXyrFSQK/pWPUnT
-KtOE9mgDnqOziZ4sN9QSzBofFzXokuBWYEBKPbB4ru7+2/yiGoF7LYLebkk/r+yM
-GKYiebSENBaCBv1i18WIvixs1bkRmbE9LmHIugNRSF/DHS21OY1Go+zMi3D0ri9d
-Fu5eOW/w5BrAxR35WQEM+itjf5kIUJBZ97YgqX7I9VM5wDmdnsYkq2ZtK9wxE1+h
-eV7lV4XNUV5r6BDZi5jZwWGvA4R6HSwTuyglS3k+0cRWnX9bD+iSzj1mykTwXhO1
-47Cjm89oG6lakTjSo8FzhgZqMrMVgFZVzwCaHSzeVBW7dZ60wVgk77N+qnhcjNzc
-8utPCzIUuJeoWnwObByrLcHl+liJ1k6FJKKk0oy2haou5dj/m6coBQWo5a+taDrY
-VfkJvmGWQk6pgSjrrfLsGPLj
-=6ujn
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeLyrkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kcYP/io1VvboTqT2+K9aanD3
+lrbDokpPPmq/v2mwQZt7zzSlHHZQraaElMDyEsF3/hh5Xeof1EMlzqClzWEBYBfU
+wuw5cP5eJYCiqqK9idsk4UXztE9P3nPOdzDwpA7rom8h4RqFb2aV9nj5siLG/WQg
+HMVLkZco+JpncupVI7hOyQ+HLzBFjT7+eaoTLofeh5rEdHyZz92xgT8QJJ8l0YZK
+0bnDEEW+4Pc9yYg2XsZJiWy5ovdgCzS48EMOqO0tAjvysZuNnfHpJwCECkhSzTP7
+m80GMzXPtuvs6BLGQiT52EGPP3NMhU0XO1zJkWX7azRLvT2E2jAFtSv/gPlEJJxP
+awG+7cAX+nTKEn0DZR6yPQ41xq77dWfCsCt15Qx0pSg9fYJIQF6QHNwDGU0aBM8y
+20SzzeT+u8QG/S+nl6EASWopNnBRGuP4ZPX2uPG5ktz5gx6v99GADYNjKVc/fzLR
+JSc3BaT5cdxpzhwOqPgj9c+2cwgtcqDJRooyttPniRrwKqfDSBbmp7ILaF+8n7nn
+olsGe2GAk6DrHNjwNncF+lhz++Fbc3wkh53E+eQDdn7HIGi/YcsGW32HUaUL8pAG
+K0fYLjItIGe1xMSodoY1nd7enU30GhhxlvsF5pksU990yTwo9b560xsfkf5qNLdj
+hoo5+SfmWnHPuHFx9IqPWrtb
+=98CA
 -----END PGP SIGNATURE-----
 
---===============0209709476533133466==--
+--===============3690702995859761888==--
