@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Sat, 18 Jan 2025 18:14:22 -0000
-Message-Id: <173722406268.1168336.1538119906055445911@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Sat, 18 Jan 2025 18:33:56 -0000
+Message-Id: <173722523682.1183988.4762044652856370022@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/dev
-    old: 4c0c22e9082e644d58440f089e31d97ed381bd78
-    new: 48e48cbd3591bc38fa3eaf2b066c42e5fd46728d
+  - ref: refs/heads/tmp.perf-tools-next
+    old: ac22d75377a04ceca53a8d438440e82bf4c722fc
+    new: 91b7747dc70d64b5ec56ffe493310f207e7ffc99
     log: |
-         48e48cbd3591bc38fa3eaf2b066c42e5fd46728d x86/asm: Make serialize __always_inline
+         035f0c279bcfc07314240de273d90f4061aef04d perf annotate: Prefer passing evsel to evsel->core.idx
+         62892e77b8a64b9dc0e1da75980aa145347b6820 perf bench: Fix undefined behavior in cmpworker()
+         91b7747dc70d64b5ec56ffe493310f207e7ffc99 perf test: Update event_groups test to use instructions
          
