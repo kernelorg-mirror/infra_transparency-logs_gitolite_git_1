@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 18 Jan 2025 17:00:52 -0000
-Message-Id: <173721965267.1109400.3033657914070284512@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Sat, 18 Jan 2025 17:08:15 -0000
+Message-Id: <173722009502.1114359.2871065080686259012@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/security/vulns
+user: sashal
 changes:
-  - ref: refs/heads/testing
-    old: eb7fd228a72cafe7038d400b4fb9291c6860dd3e
-    new: 814f52484153b32ff69cee4ea6e9b1eb24981a90
+  - ref: refs/heads/master
+    old: 2d7799153b6bf19553447598130c4592d684edfd
+    new: 5b461286cee4e8c497cf7133db674848b6fcb68c
     log: |
-         814f52484153b32ff69cee4ea6e9b1eb24981a90 iio: imu: bmi270: add temperature channel
+         5b461286cee4e8c497cf7133db674848b6fcb68c sasha: review v6.12.10
          
