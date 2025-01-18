@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Sat, 18 Jan 2025 21:29:59 -0000
-Message-Id: <173723579935.1325019.16762930593166506184@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 18 Jan 2025 21:32:21 -0000
+Message-Id: <173723594124.1327610.17498095043298906005@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-next
-    old: cd8252bbcfa9abf7f422965cb570aaf7dbba75a9
-    new: f5959f9ec6589ba6a2298f1b99b799e38b6420ef
+  - ref: refs/heads/master
+    old: 595523945be0a5a2f12a1c04772383293fbc04a1
+    new: fda5e3f284002ea55dac1c98c1498d6dd684046e
     log: |
-         f5959f9ec6589ba6a2298f1b99b799e38b6420ef parisc: add vdso linker script to 'targets' instead of extra-y
+         60295b944ff6805e677c48ae4178532b207d43be tracing: gfp: Fix the GFP enum values shown for user space tracing tools
+         fda5e3f284002ea55dac1c98c1498d6dd684046e Merge tag 'trace-v6.13-rc7-2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
          
