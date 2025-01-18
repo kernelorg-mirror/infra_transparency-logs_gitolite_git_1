@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5865129278563966359=="
+Content-Type: multipart/mixed; boundary="===============2292657445023583947=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Sat, 18 Jan 2025 22:52:18 -0000
-Message-Id: <173724073863.1392675.4439747808251117425@gitolite.kernel.org>
+Date: Sat, 18 Jan 2025 22:57:56 -0000
+Message-Id: <173724107646.1397508.16682262151703378231@gitolite.kernel.org>
 
---===============5865129278563966359==
+--===============2292657445023583947==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,24 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ebiggers/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/crc32-lib-conversions
-    old: c89cfd47f7af612685ed910e4cc59bdf464b1b5d
-    new: bea4a64bed542a4b5069b8a8a93d24d05084b986
-    log: revlist-c89cfd47f7af-bea4a64bed54.txt
+  - ref: refs/heads/crc-x86
+    old: e943f18adeacb1d549ca0398a64fc4130e9fd816
+    new: a6cc278f0fe1147042a399a1f9263a5a2d81a3c1
+    log: revlist-e943f18adeac-a6cc278f0fe1.txt
 
---===============5865129278563966359==
+--===============2292657445023583947==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c89cfd47f7af-bea4a64bed54.txt
+Content-Disposition: attachment; filename=revlist-e943f18adeac-a6cc278f0fe1.txt
 
+6804a7192a86838f276cd8e23556cca77f8bbe09 perf probe: Rename err label
+8e246a1b2a75e187c7d22c9aec4299057f87d19e perf inject: Fix use without initialization of local variables
+9a7b618ef654d58d6fc988cd6027d37cbe5feb36 perf test record+probe_libc_inet_pton: Make test resilient
+5afd6d38cf52e1d8bb6659ec8263a693d1a94c2c perf test perftool_testsuite: Add missing description
+1ab138febca6510881a0114fcfb329044fb4ed22 perf test perftool_testsuite: Return correct value for skipping
+19d340a2988d4f3e673cded9dde405d727d7e248 io_uring/rsrc: require cloned buffers to share accounting contexts
+cb343ded122e0bf41e4b2a9f89386296451be109 drm/vmwgfx: Unreserve BO on error
 9cdebfa97d5844ac3a2ad815a87e60cec8f84795 drm/vmwgfx: Remove busy_places
 b7d40627813799870e72729c6fc979a8a40d9ba6 drm/vmwgfx: Add new keep_resv BO param
 e9cbc854d8b148e3491291fb615e94261970fb54 perf config: Add a function to set one variable in .perfconfig
@@ -1038,17 +1045,10 @@ e0d4bdd5fb504f9a602331fadc620ca5999b4edf Merge branch 'pwrseq/for-next' of git:/
 002f3b3a8dae8a99915c6291002919a3df55e242 Merge branch 'crc-next' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux.git
 0597c4fca41e117c4e40fc620a46ea6b0fd9781a Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/frederic/linux-dynticks.git
 0907e7fb35756464aa34c35d6abb02998418164b Add linux-next specific files for 20250117
-cda8298bf9aa6ed9a7c2c35d63a05b975b996f8c dm-crypt: switch to using the crc32 library
-d1f6c63325c43f80c8917502b019df190d20a846 RDMA/rxe: handle ICRC correctly on big endian systems
-53644f43a9b2c35422b13b2da5d7034d8b9f0325 RDMA/rxe: consolidate code for calculating ICRC of packets
-d707e6e6e383d1dc39fcf6f0920023b0a379b72f RDMA/rxe: switch to using the crc32 library
-77b478aec01c79010e671d1e0d212013a7a03567 RDMA/irdma: switch to using the crc32c library
-c6d5ba6d60b41d2172b3138537c137113ed966ea RDMA/siw: fix type of CRC field
-f4cf8ba8d1292fb9f06aa373f63a7e11d97cfef1 RDMA/siw: switch to using the crc32c library
-cfcb201af7af0d84af39e4946bef920065370a94 scsi: iscsi_tcp: switch to using the crc32c library
-9cf5e38a0ae6d4b582914510d4d89d4a166a11e3 net: export __skb_datagram_iter()
-a4d6879936d4154f7e1a859116ca4b376b9b8b36 nvme-tcp: switch to using the crc32c library
-61353bd4b2405f45bcb72c4d457f37c408faaa26 net: remove skb_copy_and_hash_datagram_iter()
-bea4a64bed542a4b5069b8a8a93d24d05084b986 nvmet-tcp: switch to using the crc32c library
+eb5102687ddb736dc1e5b140b24547046da87726 x86: move ZMM exclusion list into CPU feature flag
+32cf8f2bbbe8653550952386e17d91dca3a3fbef scripts/gen-crc-consts: add gen-crc-consts.py
+bb70afb0c9455fbe3fc759ac0c97250ade876f7e x86/crc: add "template" for [V]PCLMULQDQ based CRC functions
+643821a01c5d13a8164cef8b20ba8b03b1bd0423 x86/crc32: implement crc32_le using new template
+a6cc278f0fe1147042a399a1f9263a5a2d81a3c1 x86/crc-t10dif: implement crc_t10dif using new template
 
---===============5865129278563966359==--
+--===============2292657445023583947==--
