@@ -1,46 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============1098453914966741293=="
+Content-Type: multipart/mixed; boundary="===============3898190944143742716=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Sat, 18 Jan 2025 20:33:30 -0000
-Message-Id: <173723241017.1278486.13044608759985594858@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Sat, 18 Jan 2025 20:38:30 -0000
+Message-Id: <173723271099.1282675.388918502578790495@gitolite.kernel.org>
 
---===============1098453914966741293==
+--===============3898190944143742716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/for-next
-    old: 46054e10a1562f2692489186fe7ca618874a687d
-    new: 2613c15b0cc1c0607d9f2b718d7bc117c40f9230
-    log: revlist-46054e10a156-2613c15b0cc1.txt
+  - ref: refs/heads/devres
+    old: 1f60c9019f044c529961c2983e03a12fe9ebde1d
+    new: dfa2f4d5f9e5d757700cefa8ee480099889f1c69
+    log: revlist-1f60c9019f04-dfa2f4d5f9e5.txt
 
---===============1098453914966741293==
+--===============3898190944143742716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-46054e10a156-2613c15b0cc1.txt
+Content-Disposition: attachment; filename=revlist-1f60c9019f04-dfa2f4d5f9e5.txt
 
-9d87cf525fd2e1a5fcbbb40ee3df216d1d266c88 RISC-V: Mark riscv_v_init() as __init
-e576b7cb818343e2dc740185fbea6af580763dde dt-bindings: riscv: Add xtheadvector ISA extension description
-bf6279b38a4bbdb2954c3d159523d41367763a48 dt-bindings: cpus: add a thead vlen register length property
-ce1daeeba600a79b776864f12d19e799f1eb124f riscv: dts: allwinner: Add xtheadvector to the D1/D1s devicetree
-cddd63869f9214f2bc5c4b89a8ea1bd0ff4d89c5 riscv: Add thead and xtheadvector as a vendor extension
-377be47f90e411c10440650864d72d2ecb639bd7 riscv: vector: Use vlenb from DT for thead
-66f197785d515d3fe5257ed65e189e4ee0b9b4e3 RISC-V: define the elements of the VCSR vector CSR
-b9a9314424512e536db5e54ff554c2f10759c657 riscv: csr: Add CSR encodings for CSR_VXRM/CSR_VXSAT
-01e3313e34d0e3912a7031c217367df051603149 riscv: Add xtheadvector instruction definitions
-d863910eabaffc68eb28aaf476dd870fc3f7197d riscv: vector: Support xtheadvector save/restore
-a5ea53da65c588339890c825e63c0da5baef6897 riscv: hwprobe: Add thead vendor extension probing
-7fa00fd6ff5366b50dcba2525b9743e1612da2aa riscv: hwprobe: Document thead vendor extensions and xtheadvector extension
-57d7713af93e4b7344d3022fad9ddf0f10f815ec selftests: riscv: Fix vector tests
-c384c5d4a2aed5b6a10de1fcc2f5b46ad4aeeea8 selftests: riscv: Support xtheadvector in vector tests
-4bf97069239bcfca9840936313c7ac35a6e04488 riscv: Add ghostwrite vulnerability
-2613c15b0cc1c0607d9f2b718d7bc117c40f9230 Merge patch series "riscv: Add support for xtheadvector"
+9dfc6850cfa48a30d6a3068dd92db5b47ea8074e PCI: Encourage resource request API users to supply driver name
+f546e8033d8f3e45d49622f04ca2fde650b80f6d PCI: Export pci_intx_unmanaged() and pcim_intx()
+57ca6af53ebe5feac3b697afc562df016782d254 drivers/xen: Use never-managed version of pci_intx()
+f72acbeb2cc25b1769b3b3658ef4544caef25a42 ntb: Use never-managed version of pci_intx()
+96ee809b851b660a7d14bf1df4df5c8b3d88f8e3 misc: Use never-managed version of pci_intx()
+bf726979b8ab1220cd9605f66e8f64433b19a7dc vfio/pci: Use never-managed version of pci_intx()
+b182cbaaa951720b142844445d34faa4d1a0766f PCI/MSI: Use never-managed version of pci_intx()
+eeda4c86d8097d316ca3474ffa52b79ee5c98d6e ata: Use always-managed version of pci_intx()
+71cf28c649efb028a423987f3793a84fa0b2cdbe wifi: qtnfmac: use always-managed version of pcim_intx()
+97fd88089fa26bc7b4c5a648a0ad7fbb03d9b7af HID: amd_sfh: Use always-managed version of pcim_intx()
+41400bc53378e706d672a43690c7ce682ec63fee net/ethernet: Use never-managed version of pci_intx()
+dfa2f4d5f9e5d757700cefa8ee480099889f1c69 PCI: Remove devres from pci_intx()
 
---===============1098453914966741293==--
+--===============3898190944143742716==--
