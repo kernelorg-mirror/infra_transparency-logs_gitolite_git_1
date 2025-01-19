@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sun, 19 Jan 2025 16:53:48 -0000
-Message-Id: <173730562874.2358712.1335638791793072469@gitolite.kernel.org>
+Date: Sun, 19 Jan 2025 16:54:27 -0000
+Message-Id: <173730566713.2359261.14884072905181758685@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
   - ref: refs/heads/v4l2-loopback
-    old: 7f6bc2fdbeef384494d9f0168267a8085acdfce4
-    new: b3998c4de55a0084224d15642fce67b98ffe091b
+    old: b3998c4de55a0084224d15642fce67b98ffe091b
+    new: 2a424f58f6e9ebc18a6e5b29f8aa1740a7b60d5f
     log: |
-         b3998c4de55a0084224d15642fce67b98ffe091b Manage the life-time of struct v4l2_loopback_device with a kref
+         2a424f58f6e9ebc18a6e5b29f8aa1740a7b60d5f Manage the life-time of struct v4l2_loopback_device with a kref
          
