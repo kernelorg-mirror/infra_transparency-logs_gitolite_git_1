@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Sun, 19 Jan 2025 08:54:30 -0000
-Message-Id: <173727687005.1964106.235288670634289871@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Sun, 19 Jan 2025 08:59:28 -0000
+Message-Id: <173727716816.1968268.11960231744615661538@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/for-next
-    old: 0ce204d3af3beca1825018e9ca128635ccc8aa85
-    new: dd85bbb7fc482b5cdb78f8b5e8f9ef7a3919d6ef
+  - ref: refs/heads/wip/leon-for-next
+    old: edc4ef0e0154096d6c0cf5e06af6fc330dbad9d1
+    new: f5f01c5c409e697c6ae7091ca578bfbd3825e87c
     log: |
-         dd85bbb7fc482b5cdb78f8b5e8f9ef7a3919d6ef ALSA: usb: fcp: Fix hwdep read ops argument
-         
-  - ref: refs/heads/master
-    old: 09c90fbee13d05fb3c073e20a6ec37cecfb8934e
-    new: acf2af469f42139f16c62d22040590533746db71
-    log: |
-         dd85bbb7fc482b5cdb78f8b5e8f9ef7a3919d6ef ALSA: usb: fcp: Fix hwdep read ops argument
-         acf2af469f42139f16c62d22040590533746db71 Merge branch 'for-next'
+         39d772f6654a17ae57656602e801d265e82a2e36 RDMA/hfi1: Constify 'struct bin_attribute'
+         f5f01c5c409e697c6ae7091ca578bfbd3825e87c RDMA/qib: Constify 'struct bin_attribute'
          
