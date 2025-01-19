@@ -1,56 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============0684121765257628784=="
+Content-Type: multipart/mixed; boundary="===============1982545369057004267=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sun, 19 Jan 2025 08:05:33 -0000
-Message-Id: <173727393372.1903677.2030698745047493318@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Sun, 19 Jan 2025 08:06:51 -0000
+Message-Id: <173727401179.1929179.9898521257779157430@gitolite.kernel.org>
 
---===============0684121765257628784==
+--===============1982545369057004267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: c9691d81a8bb84c6543e8361bd39d1dadc65a680
-    new: 0a346ab8ff4bce6d19335128cd287bae8886659c
+  - ref: refs/heads/staging-testing
+    old: 9ed145e64f0af9a22e95f79940c540affbd939e2
+    new: 579b6f18c5ca162af040f44684cc55f7da182236
     log: |
-         0a346ab8ff4bce6d19335128cd287bae8886659c move 6.1 queue back in place
+         6a6c153537f093c3bc79ea9633f3954d3450d0ba staging: gpib: Fix NULL pointer dereference in detach
+         579b6f18c5ca162af040f44684cc55f7da182236 staging: gpib: Agilent usb code cleanup
          
 
---===============0684121765257628784==
+--===============1982545369057004267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1737273962 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1737273931-40fb177834f76b7226878a203bb9143c6e8fb234
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1737274035 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1737274004-78b64d8a092828589053aa21531548cbc99bc318
 
-c9691d81a8bb84c6543e8361bd39d1dadc65a680 0a346ab8ff4bce6d19335128cd287bae8886659c refs/heads/master
+9ed145e64f0af9a22e95f79940c540affbd939e2 579b6f18c5ca162af040f44684cc55f7da182236 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeMsmobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+N40P/RBuUeYXVTB5KFJM39JW
-BXiLDOOTCwBd0kL9mVFWrGTXwY7+31DAJDxsgyEjYDHI+6aEkNcDOQCO4Lv2teeh
-l391gmmzg1d8CQuOTJ0jk5ykmDFRgKPprbYzbqAxk+D2Qnu1hid0KNM3BSn9M0Cn
-ur6jaYtf38lrvKxL9vGaU3Sm3Mi5WU0zFVGRy7GtmiNXAlcIOYQnffWlJIasxon7
-oV+EphTf36uHVib7HnpypuILWTjgMoyhCr/MLmpDiD+TjEiAr3md86O+csiseCyN
-FuirSvvoR3OJhPMXOQdd6QoYArH5vZDRXD5ctGZBXTBQdkyzF+eO0+loUbuyqW2q
-DelDLeDN+udb4+/HjZMdYTckoxA+ChHZGdQLRBDEv/2rINurw4KOsnlYmkDn746Q
-E8WrLULmbojVXzDIwe97YGHQa/Sanyyt1R19AmneFMzip5N2arYG8N2QG3fgRU9k
-ob50J5DzUTZqoD7q5OzANbooE9zIFh8n6oaLrpUJCrt/tfpn6FbTXihnZo+EN53C
-nOxoW8PolzkQHMz7UxqX4t+XnA5iPj+WdpQp27GMfl0eMH6QQ3vDx+ni3lW6noiP
-MA5edgOBR+Gg9BdyhPIkIU79Sz1j1mECxjRc1oRAAdpzzeoiYUKXmnD2YU8kVcRM
-4OVMM6CwGJcpqTEqVCPoC2gc
-=JzqF
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeMsrMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SC0P/RH2joGe6d/eVekMIqE+
+vi4EhA6Znz1hGOsIkJUtKiyt8CyTGet9GQyYzWuSf3RV4VKmhK1stT8cZqf312FB
+A4MuZwctB8O1rlWsXPorjv6xnpSN07L4bPnL59cf22VxQKa9W26iJrkmnCflnAco
+e0kBKazIVsky9qJatK0X8YF2Mx4hUXfpDXVMluKH2qpVG2ZKFdhhcuUOVPZvQviw
+gPDjJyLGwqvevypvlBjRLEWFptNp41MxRjtvCbOr2Ihwqy6ECMpu/OKJUphn73G5
+B6zIVK6CLAkIdy7hUrI+VqV3+cj0ZST/M1z9HIrGFivU8c6erARqPs51J6p63Lq9
+zB/3sXvFRUNecUX8NJ8QaHdtkzDLCSCLl6kUHHoNqhIpV1H/sVohMwHPJXyqwdvH
+VYXxaF7c3AHmRU5KP3zjIZPlAGJjXSN9G45q+cs8AotwGWiqqIs3Nhn2FjK0HPkV
+8zYLRwWQFRX1AHIzyRK/vcReVo+aTp0KWmVE7f3auYuwRLii/h/mvhtsbtuwie+I
+qZWeh+y5FTFQCCRGBgfS5yN5YCaPX2zctR7eEWCb9Bq9WYBGMKAkmIC/cxkDLpI0
+SyZss/7YhGJR1Qqy+Z6hCWaf5Nzs9J8sWnNYVJaLFh5jZhrU/kZGtrYem+qavDbw
+EdOiMkubp1Px6o/0SDLdk7Ay
+=aJ7N
 -----END PGP SIGNATURE-----
 
---===============0684121765257628784==--
+--===============1982545369057004267==--
