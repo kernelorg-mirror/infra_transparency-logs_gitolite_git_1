@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sun, 19 Jan 2025 00:46:57 -0000
-Message-Id: <173724761744.1484540.3311083318806286849@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Sun, 19 Jan 2025 00:58:09 -0000
+Message-Id: <173724828962.1493166.4712242558819527834@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/v4l2-loopback
-    old: e6f8c1d463c5579262a7ee9081101cd6079b1978
-    new: 90235ae07630962e6dc7c6b2b67f9e94584a6b74
+  - ref: refs/heads/for-next
+    old: b6de116e4636e1a45e5ee69264a66cfab721e581
+    new: 14176e0ac283ea48d99556a4af3d26e5187867c0
     log: |
-         1b298b9b1081ca59dd6f939842bd9a19376cf9a7 media: v4l2-loopback: Create a single device in module_init()
-         90235ae07630962e6dc7c6b2b67f9e94584a6b74 media: v4l2-loopback: Do not create a device in module_init()
+         14176e0ac283ea48d99556a4af3d26e5187867c0 riscv: add a warning when physical memory address overflows
          
