@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sun, 19 Jan 2025 20:36:18 -0000
-Message-Id: <173731897892.2535426.7939479210458215410@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Sun, 19 Jan 2025 20:58:09 -0000
+Message-Id: <173732028953.2551921.2644854321777501151@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/v4l2-loopback
-    old: 029ed1bb34159f2f80252c9750ed516a4db333e4
-    new: 593ca087b02cf16f61f2e41eb497ffe1aa1192ac
+  - ref: refs/heads/ftrace/for-next
+    old: 4f7caaa2f92b47e9d27d85f8a60bb7634becd669
+    new: 31f505dc70331243fbb54af868c14bb5f44a15bc
     log: |
-         765434ce88328e17c3b4f0dbca4d5204c974e09a Get rid of unnessary call sites of idr_find()
-         593ca087b02cf16f61f2e41eb497ffe1aa1192ac V4L2LOOPBACK_CTL_QUERY: Remove ioctl
+         8275637215bd3d447b31d37f9b8231a013adb042 tracing: Adopt __free() and guard() for trace_fprobe.c
+         31f505dc70331243fbb54af868c14bb5f44a15bc ftrace: Implement :mod: cache filtering on kernel command line
          
