@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2539388832266551944=="
+Content-Type: multipart/mixed; boundary="===============8758958148567735470=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/security/vulns
-Date: Sun, 19 Jan 2025 10:18:41 -0000
-Message-Id: <173728192147.2033216.4198682896982394873@gitolite.kernel.org>
+Date: Sun, 19 Jan 2025 10:19:00 -0000
+Message-Id: <173728194052.2033475.12666640265740948030@gitolite.kernel.org>
 
---===============2539388832266551944==
+--===============8758958148567735470==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: d90b1958b9cbee64b8d16f1bccf6e29e52839b5b
-    new: 48c942b05f4aae71a50ba90ea39f29c6675fb47b
+    old: 48c942b05f4aae71a50ba90ea39f29c6675fb47b
+    new: defe5ff1502373d04a86e35d9630d59e482a084d
     log: |
-         48c942b05f4aae71a50ba90ea39f29c6675fb47b assign some 6.12.10 cve ids
+         defe5ff1502373d04a86e35d9630d59e482a084d strip some .mbox files
          
 
---===============2539388832266551944==
+--===============8758958148567735470==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1737281892 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1737281918 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1737281914-f07ebd122ab7387e288e8b98086418c2033a6bb1
+nonce 1737281940-068d6140e3e12fa6dd8f50df10f58354d5bf4a2c
 
-d90b1958b9cbee64b8d16f1bccf6e29e52839b5b 48c942b05f4aae71a50ba90ea39f29c6675fb47b refs/heads/master
+48c942b05f4aae71a50ba90ea39f29c6675fb47b defe5ff1502373d04a86e35d9630d59e482a084d refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeM0WUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JKsP/0sroLN4bpLkily9DqJp
-Glgbrwu+zgbTqlrH2OB00aH7gKZfGTH2s7f3b5EKwyyovjLQh8wSzIjhDDUWZtJO
-XGFBcn5COpXktqol93iZm4V2ah3pCAO5wtTNR3UXkURvsg1TFrVcMI7JC9DNJ/e7
-g+LWpSL2vQOkweeoPTf4/SB/fZcWxMmrqrO2zrGdkqEWpH3gc4MAebWBuD6yoMbI
-IQzJ4PA2KFqsjyhHIccjWbGRTQE75/gCX+ozDStafUj84om6/AKbB3OmDwMlbrce
-9C9XhNbsMiRxi5zexYat3QkqDSq5+gBGROXb22PPm2sKWyJAwlAlR1KtmoRxHGV6
-ueZtehYv3d0Z7CPJEhUi+AKkPYx9rCN8Wrs7LKCNK3P2L1FXKy2pmN8kHwBWeDFQ
-uUivnyyG4PxdeQmC1quyiCdQK32Wpzb5tflJea2WBwsncz2LkUfDXpp4xG1aYFX3
-YrqZo7jzRCzB2xXDiXDSs1m6097Pw2q8oPUJPcuSX0Cbp8HLUufQ89CJfrN/jmet
-oT08b7h3RvOFFJFuW7aHAn6R7KDtCuJjVAn43TDQ7YaCCKlTIXNN0WzPgUCvOO8j
-V6kOSAD4ZJXtdESnWy/epvyrPyEQxZEjOr82nupb4y0pvYOxnCDde6c3p7lfT5AT
-nNdoNswxtj9AYS0liAqILZ/P
-=9/qX
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeM0X4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RMoQAJnkc1OsAkvHG9o+Xf8S
+SwrdMb9kNMJXvysqSmYszy9q8c/W8LcIk37rVIObpC0KeXl2hwOHxIecoNmM9O7h
+8s7kTu5480aMXwo53bRllO9WVlVz5cpyOMEJ7Mhunp7BL2QHy7TAUkDPrA0F0jkz
+5/jGHAuI10Vn/nFtSya285tDKFFR0bzZwBsdqe7t7igbjOnnVWMD4fqsNRFkOVxm
+bXtGwMnmunwU4wi2trMHMybiOLg1W6dHrD7uxXTHkw8jM9CgIEoCBKpLKYWdsNJT
+4bYOQGn+k806qqhp/HABOsfsX6epHVBTj8z360pH10ps1ivDZRltjwfZb/Q3XLdw
+mxsqIAroDPZ4jRPKiG8jNpwJHqWf/dBzEo5mNzRUxW6HiNjY1Pli0S3rBksmMzsc
+hxapxo4pyudcMPDaD2vi0/hVr2aQ16wUg5gmP5c6GnxbWDM0Qkkirr/QAwlArXx4
+86JH7An8LYqA4tENsxOw2DMaFFD9Qztrt2HCZ9PnJ3zvLtjzTcd+zJORaBKdY627
+/ziDP9YwrOIW+e4eqvcXPfnSx01E989lmRLgc5kuXJehRYt8JsZ7ezS23Fi3VZEr
+1eC4sFwhp4tPCDHq4KNKWf2aGBifydUXBEaHmFs+wuUwUjG2bQI3sxJf5AOjltTc
+6t/13SNT91/CrsbU93I0XLkz
+=2lOT
 -----END PGP SIGNATURE-----
 
---===============2539388832266551944==--
+--===============8758958148567735470==--
