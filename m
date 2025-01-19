@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sun, 19 Jan 2025 19:06:06 -0000
-Message-Id: <173731356642.2463827.3788344952390256051@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Sun, 19 Jan 2025 19:53:39 -0000
+Message-Id: <173731641975.2499655.11382528235947841581@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/v4l2-loopback
-    old: a6939ec07f0ea5d44d9710681540461bf27d2ee1
-    new: 029ed1bb34159f2f80252c9750ed516a4db333e4
+  - ref: refs/heads/nfsd-6.1.y
+    old: 60ceadf9247ef7d45bb1dce8fc7b48c888ba7a54
+    new: f4f677285b389e3d1bead19ad6b806527bf693f3
     log: |
-         029ed1bb34159f2f80252c9750ed516a4db333e4 Get rid of v4l2loopback_getdevice()
+         f6247d3e3f2d34842d3dcec8fe7a792db969c423 Partial revert of xhci: use pm_ptr() instead #ifdef for CONFIG_PM conditionals
+         f4f677285b389e3d1bead19ad6b806527bf693f3 Linux 6.1.126
          
