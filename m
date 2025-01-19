@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ojeda/linux
-Date: Sun, 19 Jan 2025 22:27:55 -0000
-Message-Id: <173732567582.2623094.6507356666189271120@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Sun, 19 Jan 2025 22:27:56 -0000
+Message-Id: <173732567627.2623138.3119136406796094572@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ojeda/linux
-user: ojeda
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/tags/rust-6.14
+  - ref: refs/tags/crc-for-linus
     old: 0000000000000000000000000000000000000000
-    new: b9a6cbc3bad5eaf0e413c9487d8a0f2d3309bf0c
+    new: 253e6482391db2627a7174a9fbcb7c6aff66b980
