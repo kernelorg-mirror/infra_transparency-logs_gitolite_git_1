@@ -1,53 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============4409440010057320468=="
+Content-Type: multipart/mixed; boundary="===============8221151553672708231=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sun, 19 Jan 2025 08:01:09 -0000
-Message-Id: <173727366900.1875854.6729628955380649746@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Sun, 19 Jan 2025 08:01:20 -0000
+Message-Id: <173727368027.1876111.14366479403874164040@gitolite.kernel.org>
 
---===============4409440010057320468==
+--===============8221151553672708231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v6.1.126
-    old: 0000000000000000000000000000000000000000
-    new: e1b8ffc7205ccabc744c9a092a1ee7d42da0189e
+  - ref: refs/heads/linux-6.1.y
+    old: 60ceadf9247ef7d45bb1dce8fc7b48c888ba7a54
+    new: f4f677285b389e3d1bead19ad6b806527bf693f3
+    log: |
+         f6247d3e3f2d34842d3dcec8fe7a792db969c423 Partial revert of xhci: use pm_ptr() instead #ifdef for CONFIG_PM conditionals
+         f4f677285b389e3d1bead19ad6b806527bf693f3 Linux 6.1.126
+         
 
---===============4409440010057320468==
+--===============8221151553672708231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1737273698 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1737273667-56a4488748886aabf339200c51f496df507b786e
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1737273709 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1737273678-9b307afb1b9a7efe3ec91ae089c81c32159b2863
 
-0000000000000000000000000000000000000000 e1b8ffc7205ccabc744c9a092a1ee7d42da0189e refs/tags/v6.1.126
+60ceadf9247ef7d45bb1dce8fc7b48c888ba7a54 f4f677285b389e3d1bead19ad6b806527bf693f3 refs/heads/linux-6.1.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeMsWIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fCUP/ihwPuADMQ/Ko0jNq7oD
-F771zSLEeJWAR9pKHucDvpnsaour5bbC+Aug/5NcDaWR9nMlg2qBaOtk0ZnPCBts
-6FhCBrMwcffm7vUanD+WK8KNmzvi/Sjrk9WgCCDqQIs+q0IY9+/aq6BHHCY8IDcq
-qcyxGFlbB1ItJKJd8Bk1TdQ0Kd3jeDIZuWuqdIdHBmPk4wUJkNjYw8hIq69M6UYG
-e74x4KAgYwfbxgvcG4wboZrIbuwwwUjqK7aIjGEVD9W6q/Y+DA2NANqcyCkLBgNp
-jIk0XbBKAyDQjqTMoNTza/6bBqP3VmL+qfYDK3z0tKkFp090q57kGItx0+5rvcti
-u64f03flq388Gp2QcKdfZEuLrbOK3opfbSKbZ4OYag8DkkV4WCoIZ8B7eokObGOF
-yf5BVJAOmVLVbNEC/vXReHU42uGONNAXbtVKfOAG8y7gcDvJbpZVsWC1Xs9YS+GC
-jN7SyCT59YZHCptyD/lz3LtwYfwWAfVtqK+AshiitNQoqlQJKGjcLzHjbSegWmAo
-G7zkcm7nOEKg6z2oSMklOsWnBHnUTeLS3q77sKegUiH3nz4KbON43W4qFWb6h7pS
-qzW12obdtjxl1CprnH4741jlDlnV7z8lj5XUOdIMvuhRSnVXiUe2ucP6OPlrWOuB
-b44BanGLhhe8dNEZN+fOedpf
-=Dcsi
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeMsW0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uawP/RNk+vOBGRZDunqo+O/a
+Vd6OLuqQn1RDvez/It9VYC6mhx5keqVxB1nWJJWC6X2Y8NoGRU17yOSUB3MYEePG
+lmKO0+jeD36XuM+Uw/jjaju1Ft2Dw/sZUXP4/aXv6eUnaan89qgIYLALcEG2VRfL
+DDa/u6NN4ehHU83KNuSYrUyKzq5oVd56P2iEDbzMOSKOERuO2IF50djFav9reaD0
+AX2AN5x+NEjm6kDOG7+Ko/sUSCpMa5yVjuOXUm6LZlkWmojatbMD7V+1OgzJFy3B
+hvck9XzjYUechz4+MM50d5+5asJAnmteqSKWID2ts6eD7GAH96c9U+jZ0N6eUkcm
+f3XGC1a9NiHKoZMB2yCk24jzDJvZGUhjYuBo1CO2vQA/UxthMCHme7fB2u+37raK
+YGp9D0cYGi4pBIHn00aNqdgtZ/Wrs1obmQT8wOk9DdZVWvtrsTjNk/LCanmuIpC9
+p7VlpwIwa450zlbSrPPN3+lcAzF7AGPTeu7uFuKZTw72K1WIEU5FP/hhbIwlenz0
++niTsSc2OzMu8i7k1O6YpXxnX6+KE0Kg14An75/4ONzvJxEGZENvZXNDEDlY3PyI
+VuPDDYsfToUMbaJjwOdSpDyUmAoyay1CJzQGggJXFYWaEze0qOcRGXdER00tmm3S
+3ou+Er0Td/qasGpXBXE53dXY
+=5gXq
 -----END PGP SIGNATURE-----
 
---===============4409440010057320468==--
+--===============8221151553672708231==--
