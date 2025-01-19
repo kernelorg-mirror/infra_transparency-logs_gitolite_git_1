@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sun, 19 Jan 2025 15:54:46 -0000
-Message-Id: <173730208608.2307840.13659275388545421253@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Sun, 19 Jan 2025 15:56:47 -0000
+Message-Id: <173730220757.2310512.2484159271966278192@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/v4l2-loopback
-    old: 736dba9d5b54cc5955b90ef71f76534f9be3d60c
-    new: 83ba6adb7b46945697a7d8568087006e39fce6ef
+  - ref: refs/heads/dev-test
+    old: 41fb0fabc40113769ce53ea85ffd1f4bc87ae03a
+    new: 56659539e9e46aa066585b0aeb10b0241f8f5589
     log: |
-         83ba6adb7b46945697a7d8568087006e39fce6ef V4L2LOOPBACK_CTL_ADD: Reburnish the API
+         56659539e9e46aa066585b0aeb10b0241f8f5589 erofs: remove dead code in erofs_fc_parse_param
          
