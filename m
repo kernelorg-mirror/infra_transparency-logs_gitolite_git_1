@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
-Date: Mon, 20 Jan 2025 11:48:23 -0000
-Message-Id: <173737370360.3371756.4661661432555437283@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Mon, 20 Jan 2025 11:51:23 -0000
+Message-Id: <173737388336.3375323.11620238784715256368@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/exfat
-user: linkinjeon
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/dev
-    old: c45323b7560ec87c37c729b703c86ee65f136d75
-    new: d86099d63786386edf8f9826a1e76d7e0ed21831
-    log: |
-         d86099d63786386edf8f9826a1e76d7e0ed21831 exfat: fix just enough dentries but allocate a new cluster to dir
-         
+  - ref: refs/tags/vfs-6.14-rc1.mount.v2
+    old: 0000000000000000000000000000000000000000
+    new: ceb7b5d3e99a29c596b8bb2abbf2b92ddf61d7d9
