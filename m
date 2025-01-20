@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Mon, 20 Jan 2025 06:24:09 -0000
-Message-Id: <173735424994.3107757.12945595303280762441@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfs-linux
+Date: Mon, 20 Jan 2025 06:37:30 -0000
+Message-Id: <173735505096.3118819.11170314047903222069@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: mhiramat
+repo: pub/scm/fs/xfs/xfs-linux
+user: cem
 changes:
-  - ref: refs/tags/probes-v6.14
-    old: 0000000000000000000000000000000000000000
-    new: fb6828c54b6b19d45d80d34fa9b7c03aa2e9a87b
+  - ref: refs/heads/for-next
+    old: 4e35be63c4ad880c3dba12a287a0ea196541258e
+    new: ee10f6fcdb961e810d7b16be1285319c15c78ef6
+    log: |
+         07eae0fa67ca4bbb199ad85645e0f9dfaef931cd xfs: check for dead buffers in xfs_buf_find_insert
+         ee10f6fcdb961e810d7b16be1285319c15c78ef6 xfs: fix buffer lookup vs release race
+         
