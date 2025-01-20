@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Mon, 20 Jan 2025 18:42:36 -0000
-Message-Id: <173739855679.3732604.13306674592915652292@gitolite.kernel.org>
+Date: Mon, 20 Jan 2025 18:42:49 -0000
+Message-Id: <173739856964.3732772.11863059851153976542@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,15 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pci/pci
 user: helgaas
 changes:
-  - ref: refs/heads/dt-bindings
-    old: c44901c62cd4b6cec45c5d5b739f2ff3e1554cfe
-    new: 0d24f8756b78026d05a8f156908a6e540a60aa82
+  - ref: refs/heads/controller/dwc
+    old: 2fe3a3f5b267e8ef251ecef35a27bcc37a7bf1b1
+    new: 1108d677dae296d2f05664bc71fd1d50bd61eb1f
     log: |
-         5e3333d800f9577b2861f59eaeef4c4d171b9f70 dt-bindings: PCI: qcom,pcie-sm8550: Document 'global' interrupt
-         0d24f8756b78026d05a8f156908a6e540a60aa82 dt-bindings: PCI: qcom: Document the IPQ5424 PCIe controller
+         1108d677dae296d2f05664bc71fd1d50bd61eb1f PCI: dwc: Simplify config resource lookup
+         
+  - ref: refs/heads/controller/imx6
+    old: 057524c9e88c9b9a9231860296d7ceb54a7f7da3
+    new: b881532991f81f5e3a069fe6d1a3e091400042b5
+    log: |
+         b881532991f81f5e3a069fe6d1a3e091400042b5 PCI: imx6: Clean up comments and whitespace
          
