@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/ethtool/ethtool
-Date: Mon, 20 Jan 2025 11:42:24 -0000
-Message-Id: <173737334417.3367320.15303184347766369557@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
+Date: Mon, 20 Jan 2025 11:48:23 -0000
+Message-Id: <173737370360.3371756.4661661432555437283@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/ethtool/ethtool
-user: mkubecek
+repo: pub/scm/linux/kernel/git/linkinjeon/exfat
+user: linkinjeon
 changes:
-  - ref: refs/heads/next
-    old: f7c3d20307b70502e242328bb4c06fc0f4cafc9a
-    new: 9103197d24aa936b2f319c3e9baae6d0bc9e0d64
+  - ref: refs/heads/dev
+    old: c45323b7560ec87c37c729b703c86ee65f136d75
+    new: d86099d63786386edf8f9826a1e76d7e0ed21831
     log: |
-         6868b56fe53d1a923e9a6e29a3c01f42d188b015 ethtool: add support for ETHTOOL_A_CABLE_FAULT_LENGTH_SRC and ETHTOOL_A_CABLE_RESULT_SRC
-         c6ea3bc04c73668b099e21c76056dee298638143 netlink: settings: Fix PHYAD printing
-         9103197d24aa936b2f319c3e9baae6d0bc9e0d64 ethtool: Fix incorrect success return value on RX network flow hashing error
+         d86099d63786386edf8f9826a1e76d7e0ed21831 exfat: fix just enough dentries but allocate a new cluster to dir
          
