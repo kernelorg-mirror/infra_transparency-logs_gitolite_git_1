@@ -1,42 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0083083176313972587=="
+Content-Type: multipart/mixed; boundary="===============2784930982696941081=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Mon, 20 Jan 2025 05:33:49 -0000
-Message-Id: <173735122955.2972700.4036266033608314873@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Mon, 20 Jan 2025 06:03:34 -0000
+Message-Id: <173735301437.3043930.13970202292914367969@gitolite.kernel.org>
 
---===============0083083176313972587==
+--===============2784930982696941081==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/experimental
-    old: 39662ee5aa42d5517d342482fe9e80a94e7eab4f
-    new: 432abb9e977d9513727e6f665c8a5ad5fb0f6bfe
-    log: revlist-39662ee5aa42-432abb9e977d.txt
+  - ref: refs/heads/master
+    old: 3721aee1adb81fe11b566bc1b78c97c986e0e22d
+    new: 06cdc1ef532d5be1b653d5d48b5a04c6511e85f1
+    log: |
+         06cdc1ef532d5be1b653d5d48b5a04c6511e85f1 update cvelistV5
+         
 
---===============0083083176313972587==
+--===============2784930982696941081==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-39662ee5aa42-432abb9e977d.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-b1f576d9ff0033cb040b8d7e00c28b8c302a3430 erofs-utils: introduce fragment cache
-8741d7bd1ae6ae04619b1b4f0e0bbb336d0f26e8 erofs-utils: lib: fix btype for the data tails of directories
-3a322edf6f76feb4256886ab845c12042c41160a erofs-utils: lib: cache: get rid of required_ext
-0dfbe7486172a36843f77ac178a48cb063511f5a erofs-utils: lib: move block boundary check into __erofs_battach()
-5b56bb389b741c4455ad5da35e7d192f1fec2bbb erofs-utils: lib: support buffer block reservation
-55fcba4c9e764b232aacdea78fb2509c68a073a5 erofs-utils: mkfs: support data alignment
-71d4448932515f57c83988d368c5ce4ce7ac83ea erofs-utils: lib: use round_up() to avoid division
-4d221bb976834c0f8a778a1b4ea0a5646c004346 erofs-utils: lib: add some bit operations
-8c433d636978c6b81d7237d611ad536339b9268b erofs-utils: lib: rename `mapped_buckets` to `watermeter`
-0d1483e7de4432906b7fd0726f250823a6d9be38 erofs-utils: lib: optimize space allocation
-a793b068b4a1c3fece1f66142dd71bbc49040672 erofs-utils: lib: use bitmaps to accelerate bucket selection
-432abb9e977d9513727e6f665c8a5ad5fb0f6bfe erofs-utils: lib: drop prefix_sha256 digests
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1737353040 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1737353010-ceade8d33153612948aa1dcfac9386b8e1f1cc29
 
---===============0083083176313972587==--
+3721aee1adb81fe11b566bc1b78c97c986e0e22d 06cdc1ef532d5be1b653d5d48b5a04c6511e85f1 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeN51EbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tuEQAMoEsBiF2aWQoUrT+6Ee
+Pq9IvMGvJkdvkARugdr9Afbqy0HgJbsKrzjIOMzjci3MLsTiBt+XUFmJXGZjxSxa
+6tVaOL45pwbDWTiwEUR/fzyGyexifaXvaV22kA55MMTM0GRtwMe5beWwnrkNAoTk
+QRgu3/e9IjujfqF25hTxhIh8OqIz72oKH2WVyy1bKZHoSdAYS6+rN1Ywp0lEt+1C
+0YCDzlQoXt4Xh+yRG5CNZ8xIhMkOtv/rkSjMeDPAvRnMJ/BKVy2rb0K/2+vn0PtM
+krfMx5XTA5lETZfPsZ+fyqibnw6D1XhemTkXly69hA8kv4K2hGqV5hnA/P5cGBYJ
+fG1nwF//cSHxrshHdsXqplLSBiAWORJRZ+NN4WEhvzDlX+xLIPLMVZw3ACc9aVHQ
+f10r1sUbA7cqur45J22BfP6eX6VeNlpzDQ9cS5GPKqh8MUtjSlYjhXMJf2jFX0xQ
+oLkMD7VMXyUlmemQguBx1EbBA2AOMr/o8Br+cttgGNxMQ01IJBp+fsIh+d0U7IX1
+AFPrjCEpXGs/1pk13rBBxy+1RL0omWntzSM3QDz9cJ11Anaz5APSFmIaKKkQNVSW
+JTvowJDHQqYhz1KozlJp0SAlJhxfFEHPMys+3B4F9lgh0MWjL1eQyM2fPvvcRHL2
+ytA0o3z8rC22+mWAyrHM7Tpv
+=G44V
+-----END PGP SIGNATURE-----
+
+--===============2784930982696941081==--
