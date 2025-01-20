@@ -1,42 +1,65 @@
-Content-Type: multipart/mixed; boundary="===============7324896938055727795=="
+Content-Type: multipart/mixed; boundary="===============3321453131180048337=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 20 Jan 2025 22:36:17 -0000
-Message-Id: <173741257736.3929127.10496242274747093479@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Mon, 20 Jan 2025 22:36:47 -0000
+Message-Id: <173741260748.3929450.12553904518782830730@gitolite.kernel.org>
 
---===============7324896938055727795==
+--===============3321453131180048337==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/sj/damo
+user: sj
 changes:
-  - ref: refs/heads/main
-    old: ba5f78505fb4e3feb73d8e5249a13b3244dac4d9
-    new: b115243ab8bd92387cf524ba3a7d81eda8eca885
-    log: revlist-ba5f78505fb4-b115243ab8bd.txt
+  - ref: refs/heads/master
+    old: 0e69fe12499e0b1746a1724f2d9037982cf1e71e
+    new: ee3c4f2d22ee684704c66005631a5f546fe81f21
+    log: revlist-0e69fe12499e-ee3c4f2d22ee.txt
+  - ref: refs/heads/next
+    old: ae40d439313313f14f1bcc50fa9292c4c6189230
+    new: ee3c4f2d22ee684704c66005631a5f546fe81f21
+    log: |
+         0dffb23c69fb70e45dba02211dafaebb3e969d5c damo_report_access: rename --translate_cache to --on_cache
+         2e465b21874ee5052643ff54fa02e607c55a40bb damo_report_access: add help message for --on_cache
+         ee3c4f2d22ee684704c66005631a5f546fe81f21 Update the version
+         
+  - ref: refs/tags/v2.6.5
+    old: 0000000000000000000000000000000000000000
+    new: b689023ac75f3868ffe99bfcfe516fe1070d93e5
 
---===============7324896938055727795==
+--===============3321453131180048337==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ba5f78505fb4-b115243ab8bd.txt
+Content-Disposition: attachment; filename=revlist-0e69fe12499e-ee3c4f2d22ee.txt
 
-f7a6082b5e4c15f34fd766cf0960f7e082009c54 ipv6: Add __in6_dev_get_rtnl_net().
-93c839e3edbe2cdf59d3bc12d776cce4cdf159ce ipv6: Convert net.ipv6.conf.${DEV}.XXX sysctl to per-netns RTNL.
-6550ba0863f9e015cf4ca9b668e44b28fc6fe896 ipv6: Hold rtnl_net_lock() in addrconf_verify_work().
-02cdd78b4e8d411163327ecfdd54c3208baebc0e ipv6: Hold rtnl_net_lock() in addrconf_dad_work().
-cdc5c1196ee9bcb12979d2599ed00dc187d989f1 ipv6: Hold rtnl_net_lock() in addrconf_init() and addrconf_cleanup().
-832128cc4438ab69c801bc6130756203eae1198e ipv6: Convert inet6_ioctl() to per-netns RTNL.
-f7fce98a73df01901c8d67f1e7cd66a05fed148f ipv6: Pass dev to inet6_addr_add().
-2f1ace4127fdfc102603f359756b230f3d897411 ipv6: Set cfg.ifa_flags before device lookup in inet6_rtm_newaddr().
-867b385251eac666685f7f4132315a1e3619baa5 ipv6: Move lifetime validation to inet6_rtm_newaddr().
-82a1e6aa8f6c181e73117975a9d44eb3b51425a2 ipv6: Convert inet6_rtm_newaddr() to per-netns RTNL.
-7bcf45ddb8bb3d386072677ce4d86d1ec9896096 ipv6: Convert inet6_rtm_deladdr() to per-netns RTNL.
-b115243ab8bd92387cf524ba3a7d81eda8eca885 Merge branch 'ipv6-convert-rtm_-new-del-addr-and-more-to-per-netns-rtnl'
+a0b814a53d85aefb02d8dc8cbcf7a6b0a1c71721 _damon[_args]: support hugepage type DAMOS filter
+dc99510aabab5a9b16078cf57cf45f03ea2a56a9 _damon_args: add a function for converting DAMOS filter v1 input to v2
+63b68803dd6bd1ea273ef788a25af2e6298d9083 tests/unit/test_damon_args: add a test for convert_damos_filter_v1_to_v2()
+4dec2491932b94b4741232481930ed4133932ecb tests/unit/test_damon_args: add memcg test case for v1 to v2 DAMOS filter conversion
+29aba8f8299460e82dbb4d6fb3a1ed60212008fa _damon_args: parse v1 filter arguments after converting to v2 format
+5305218952c2a22e56030cd645f3c6eb23207afe tests/unit/test_damon_args: add a test for damos_options_to_filters_v2()
+ce39e95805a055e5eb70d875e9370c9bd7abed40 _damon_args: remove damos_options_to_filter()
+13b81ee81403148760ce37251dc1bdf14ce3bcaf tests/unit/test_damon_args: remove test_handle_err_get_filter_allow()
+affa8d565928e87669a06a7681babb1f30b1fabe _damon_args: remove "handle_err_get_filter_allow()"
+279552ebb6bc735c9983a7a0be7f9f84b9437e10 treewide: fix typos found by codespell
+d1d53c0118e3b5f29f739e0de46703a51e09cdce USAGE: add end-of-file-fixer pre-commit hook fix
+98fa9548bc9a6df9b4296e3a757e56c549206aa3 add trailing-whitespace pre-commit hook fix
+5184155d3bfd88d2f93184d14627704bfdba8199 treewide: add imports sorting fix made by pre-commit
+ece530daffabab207c59bdfa6492dddf42c9e5de tests: add pre-commit as one of the tests to run
+9231fec091025975fb1868e5018366912c12e81a USAGE: explain v2 DAMOS filter format first
+30e2965f50a4c9e34f9744837c931d68b8b2a497 damo_report_access: support positive access samples ratio snapshot format keyword
+e8d5bfd8aae9c4a8134d4ac2e3b91c58775decde damo_report_access: add <filters passed bytes> snapshot format keyword
+177f9a9c4374a0cf7f7143e6d0e6b4333f32d44d damo_report_access: support --raw_number on <positive access samples ratio>
+2c4dd5ad9322f911ea4b63297b289f8df5cc2c0b damo_report_access: show total damos filters passed bytes as snapshot tail by default
+3c7d70f8a100c4cd876adb5e0fbb6688179428c5 release_note: update for next release
+ae40d439313313f14f1bcc50fa9292c4c6189230 damo_report_access: add an experimental option for cache usage monitoring
+0dffb23c69fb70e45dba02211dafaebb3e969d5c damo_report_access: rename --translate_cache to --on_cache
+2e465b21874ee5052643ff54fa02e607c55a40bb damo_report_access: add help message for --on_cache
+ee3c4f2d22ee684704c66005631a5f546fe81f21 Update the version
 
---===============7324896938055727795==--
+--===============3321453131180048337==--
