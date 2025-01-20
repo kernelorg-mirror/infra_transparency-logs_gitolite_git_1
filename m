@@ -1,31 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============0593720796795478744=="
+Content-Type: multipart/mixed; boundary="===============1121151881663359923=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
-Date: Mon, 20 Jan 2025 08:29:30 -0000
-Message-Id: <173736177087.3209397.3140449749085577484@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Mon, 20 Jan 2025 08:30:18 -0000
+Message-Id: <173736181855.3211910.273305807295571659@gitolite.kernel.org>
 
---===============0593720796795478744==
+--===============1121151881663359923==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rppt/linux
-user: rppt
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/execmem/x86-rox/v9
-    old: 335cf831e2f30b3ad627973c176be56a2c433d4b
-    new: da6d655646291723279e79f4ef9f9ab3f7902fda
-    log: revlist-335cf831e2f3-da6d65564629.txt
+  - ref: refs/heads/upstream
+    old: 78d4f34e2115b517bcbfe7ec0d018bbbb6f9b0b8
+    new: ffd294d346d185b70e28b1a28abe367bbfe53c04
+    log: revlist-78d4f34e2115-ffd294d346d1.txt
 
---===============0593720796795478744==
+--===============1121151881663359923==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-335cf831e2f3-da6d65564629.txt
+Content-Disposition: attachment; filename=revlist-78d4f34e2115-ffd294d346d1.txt
 
+c296c0bf45181463b3243d8e8c6b4ed2f1a0a3dd Merge branch 'smc-fixes'
+2d5df3a680ffdaf606baa10636bdb1daf757832e net: mscc: ocelot: fix incorrect IFH SRC_PORT field in ocelot_ifh_set_basic()
+ee76746387f6233bdfa93d7406990f923641568f netdevsim: prevent bad user input in nsim_dev_health_break_write()
+663ad7481f068057f6f692c5368c47150e855370 tools/net/ynl: fix sub-message key lookup for nested attributes
+9590d32e090ea2751e131ae5273859ca22f5ac14 ionic: Fix netdev notifier unregister on failure
+746e6ae2e202b062b9deee7bd86d94937997ecd7 ionic: no double destroy workqueue
+b096d62ba1323391b2db98b7704e2468cf3b1588 ionic: use ee->offset when returning sprom data
+cb85f2b8973c8077749fb5618c5123c1ba166a70 Merge branch 'ionic-minor-code-fixes'
+282da38b465395c930687974627c24f47ddce5ff s390/mm: Consider KMSAN modules metadata for paging levels
+922b4b955a03d19fea98938f33ef0e62d01f5159 net: renesas: rswitch: rework ts tags management
 900f83cf376bdaf798b6f5dcb2eae0c822e908b6 selinux: ignore unknown extended permissions
 83c47d9e0ce79b5d7c0b21b9f35402dbde0fa15c ksmbd: count all requests in req_running counter
 43fb7bce8866e793275c4f9f25af6a37745f3416 ksmbd: fix broken transfers when exceeding max simultaneous operations
@@ -1040,15 +1050,5 @@ b031457ab15dacb47d714ee872e724f1aa6a1b30 Merge tag 'irq_urgent_for_v6.13' of git
 25144ea31b90af6fa860e1ce3ab735d8bb8deb83 Merge tag 'timers_urgent_for_v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 9528d418de4d83c7ada69314ddd8d4427b1f703a Merge tag 'x86_urgent_for_v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ffd294d346d185b70e28b1a28abe367bbfe53c04 Linux 6.13
-fc55c778f65c6cacf0967d50d69dddaa50b35c24 x86/mm/pat: cpa-test: fix length for CPA_ARRAY test
-62a1f98ba62a50a14baecc4f4a9b9668141dc975 x86/mm/pat: drop duplicate variable in cpa_flush()
-15de0f7d4981ab564f8cf818a54fc70a2580c8d7 x86/mm/pat: restore large ROX pages after fragmentation
-65b7eec416a380f33084b54b960f0b63559893ac execmem: don't remove ROX cache from the direct map
-f93ec96bfd2278ace052053a5f512ff614206ab3 execmem: add API for temporal remapping as RW and restoring ROX afterwards
-f992271f33069bbf154d56d70af6d8e14857e30d module: introduce MODULE_STATE_GONE
-7074229e1fca59bd03d278e5691e8d1ac429eac8 module: switch to execmem API for remapping as RW and restoring ROX
-d8271bbc2ddec21a8ff2b5cce56e5a3c37cc974a Revert "x86/module: prepare module loading for ROX allocations of text"
-13795045b8342b778de6182b2f91005ff4a2bf7e module: drop unused module_writable_address()
-da6d655646291723279e79f4ef9f9ab3f7902fda x86: re-enable EXECMEM_ROX support
 
---===============0593720796795478744==--
+--===============1121151881663359923==--
