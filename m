@@ -1,65 +1,74 @@
-Content-Type: multipart/mixed; boundary="===============3321453131180048337=="
+Content-Type: multipart/mixed; boundary="===============4629333908527191131=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Mon, 20 Jan 2025 22:36:47 -0000
-Message-Id: <173741260748.3929450.12553904518782830730@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Mon, 20 Jan 2025 22:37:27 -0000
+Message-Id: <173741264749.3929927.15845159050520572958@gitolite.kernel.org>
 
---===============3321453131180048337==
+--===============4629333908527191131==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damo
+repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/master
-    old: 0e69fe12499e0b1746a1724f2d9037982cf1e71e
-    new: ee3c4f2d22ee684704c66005631a5f546fe81f21
-    log: revlist-0e69fe12499e-ee3c4f2d22ee.txt
-  - ref: refs/heads/next
-    old: ae40d439313313f14f1bcc50fa9292c4c6189230
-    new: ee3c4f2d22ee684704c66005631a5f546fe81f21
-    log: |
-         0dffb23c69fb70e45dba02211dafaebb3e969d5c damo_report_access: rename --translate_cache to --on_cache
-         2e465b21874ee5052643ff54fa02e607c55a40bb damo_report_access: add help message for --on_cache
-         ee3c4f2d22ee684704c66005631a5f546fe81f21 Update the version
-         
-  - ref: refs/tags/v2.6.5
-    old: 0000000000000000000000000000000000000000
-    new: b689023ac75f3868ffe99bfcfe516fe1070d93e5
+  - ref: refs/heads/damon/next
+    old: 2e43bb84cc76ee5e1bc1000d161609ee4c279771
+    new: ec61f693b6cbed3e5b21e7d16d4fd4146aa34a48
+    log: revlist-2e43bb84cc76-ec61f693b6cb.txt
 
---===============3321453131180048337==
+--===============4629333908527191131==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0e69fe12499e-ee3c4f2d22ee.txt
+Content-Disposition: attachment; filename=revlist-2e43bb84cc76-ec61f693b6cb.txt
 
-a0b814a53d85aefb02d8dc8cbcf7a6b0a1c71721 _damon[_args]: support hugepage type DAMOS filter
-dc99510aabab5a9b16078cf57cf45f03ea2a56a9 _damon_args: add a function for converting DAMOS filter v1 input to v2
-63b68803dd6bd1ea273ef788a25af2e6298d9083 tests/unit/test_damon_args: add a test for convert_damos_filter_v1_to_v2()
-4dec2491932b94b4741232481930ed4133932ecb tests/unit/test_damon_args: add memcg test case for v1 to v2 DAMOS filter conversion
-29aba8f8299460e82dbb4d6fb3a1ed60212008fa _damon_args: parse v1 filter arguments after converting to v2 format
-5305218952c2a22e56030cd645f3c6eb23207afe tests/unit/test_damon_args: add a test for damos_options_to_filters_v2()
-ce39e95805a055e5eb70d875e9370c9bd7abed40 _damon_args: remove damos_options_to_filter()
-13b81ee81403148760ce37251dc1bdf14ce3bcaf tests/unit/test_damon_args: remove test_handle_err_get_filter_allow()
-affa8d565928e87669a06a7681babb1f30b1fabe _damon_args: remove "handle_err_get_filter_allow()"
-279552ebb6bc735c9983a7a0be7f9f84b9437e10 treewide: fix typos found by codespell
-d1d53c0118e3b5f29f739e0de46703a51e09cdce USAGE: add end-of-file-fixer pre-commit hook fix
-98fa9548bc9a6df9b4296e3a757e56c549206aa3 add trailing-whitespace pre-commit hook fix
-5184155d3bfd88d2f93184d14627704bfdba8199 treewide: add imports sorting fix made by pre-commit
-ece530daffabab207c59bdfa6492dddf42c9e5de tests: add pre-commit as one of the tests to run
-9231fec091025975fb1868e5018366912c12e81a USAGE: explain v2 DAMOS filter format first
-30e2965f50a4c9e34f9744837c931d68b8b2a497 damo_report_access: support positive access samples ratio snapshot format keyword
-e8d5bfd8aae9c4a8134d4ac2e3b91c58775decde damo_report_access: add <filters passed bytes> snapshot format keyword
-177f9a9c4374a0cf7f7143e6d0e6b4333f32d44d damo_report_access: support --raw_number on <positive access samples ratio>
-2c4dd5ad9322f911ea4b63297b289f8df5cc2c0b damo_report_access: show total damos filters passed bytes as snapshot tail by default
-3c7d70f8a100c4cd876adb5e0fbb6688179428c5 release_note: update for next release
-ae40d439313313f14f1bcc50fa9292c4c6189230 damo_report_access: add an experimental option for cache usage monitoring
-0dffb23c69fb70e45dba02211dafaebb3e969d5c damo_report_access: rename --translate_cache to --on_cache
-2e465b21874ee5052643ff54fa02e607c55a40bb damo_report_access: add help message for --on_cache
-ee3c4f2d22ee684704c66005631a5f546fe81f21 Update the version
+6fb5cb12f6135906c46bb04573f2367c9b931be4 === mark start of DAMON hack tree ===
+0a1ffa32e5f5df062abe8e7f03de4d6c9e18643d Add -damon suffix to the version name
+c3c8315c3ae49d4ac17bd9cd642921836f774272 === temporal fixes ===
+894e612af443f689486a00605134275ddf1ea656 Revert "kselftest/runner.sh: Propagate SIGTERM to runner child"
+835319545401745f8c3f46a0632e2819ec943f2e um: add back support for FXSAVE registers
+d4c80c41aa9040b999ed878fd01be8bdfe753d4e === patches written or reviewed by SJ but not merged in -mm ===
+1a7764649813987a11e9f6d6a811efc666fd536a mm/damon: have damon_get_folio return folio even for tail pages
+4bc5799656eaee55305690888874fac7f99556e4 mm/damon: introduce DAMOS filter type hugepage
+2e490bda7f35954f659a2ba20215205c0a946768 === hacks in progress ===
+b39846060872bb364ac13f20902aceed1913a5f4 ==== docs for DAMON and mm ====
+a88117dea1d978ad61f283af7792efceab5ed3d0 Docs/mm/damon/design: add table of contents for overall and DAMOS
+da1608948eaacfdbba8e560c686f745138b6f7aa Docs/process/2.Process: Update mm tree URL
+18ad38172dc9b1f14d82ed0457d58eb088f9e4a0 Docs/mm/damon/design: add API link to damon_ctx
+dbe508987eb67b0be0231ce03882fdb6343698ea ==== damon_callback cleanup/refactoring second batch ====
+d73eb24847bcd6275390f95444c483b9e8e2a8ea mm/damon: remove ->private of 'struct damon_callback'
+1823c09cce3b640a451a2564ef799083b8b00c09 mm/damon: remove ->before_start of damon_callback
+2e64a05b17467f81e03de936923f4ab2da1edede mm/damon/sysfs: validate user inputs from damon_sysfs_commit_input()
+e07991f3ef5d80114c86b79ac629a24ed8a299b4 ==== auto-tune monitoring parameters ====
+d2ca88083176998619192ced8385bd56ec058249 ==== write-only monitoring ====
+7f253aa1a4cd74eccee4859d00df35dfb84a158e ==== DAMOS filter type unmapped ====
+35b462ea40c2d7c2123ae95d1e8ba304f8fac82b mm/damon: introduce DAMOS filter type UNMAPPED
+4c4386843bfb9a80eb6d1d6094d1f5f5a4f5cd7e ==== ACMA ====
+7831aca58f21551dce917194ca55d185bad307d0 mm/damon: implement DAMOS actions for access-aware contiguous memory allocation
+ae1fdc8349747651a360057f19ec6c5bc4ed4be9 mm/damon: add the initial part of access/contiguity-aware memory auto-scaling module
+589db41049df16518452cbd3e8fbdff6b335a722 mm/page_reporting: implement a function for reporting specific pfn range
+8b454bae8e9b12e91c1f753fa896457639d2127e mm/damon/acma: implement scale down feature
+dba313d8ac62d821885b2e2d915a69566a48823f mm/damon/acma: implement scale up feature
+d3b10a55a0e4be75eea0f620b73c99432f89d832 drivers/virtio/virtio_balloon: integrate ACMA and ballooning
+cb11bcd7588395b1f8f2cba4465459b9a0041c89 === commits aiming not to be posted ===
+8145dd5742c13b34048d4c503ee107cf15028d1d mm/damon: Add debug code
+37e9b59c3081042774235726e9798b85ae43c73b mm/damon/sysfs: Add a file for simple checking memcg ids and paths
+949d8f24a1679b9c7035461ed2e6af0bfa285a04 mm/damon/core: add todo for DAMOS interval validation
+dcf59d712927bdb1e76e182dbb4d4812dba67146 mm/damon/core: add debugging-purpose log of tuned esz
+11f53dc21710b3efd76ed9ae7854f24950586eef Add debug log for PSI
+e8fe9fa6ea98617cdb08cd3ec66d592a4320a633 ==== page-gran cache address space monitoring ====
+aa545fdc561cb58ea25d8857f46b63755ca5fa91 add a script to help understanding of DAMON cops
+430a4e83fb06b67c806e4b1521ccdd127f51f1f1 mm/damon/paddr: implement a DAMON operations set for cache address space
+570c3f7721286b24230e2c039b5b1adbbe90a928 ==== uncategorized ====
+c84d037b0f437cc9f95ded4ecaa4b6d6a86d21fa mm/damon/core: unset damos->walk_completed after confimed set
+f21ed92f40e4a95dbcf621ac0820d5d0c5759eb1 mm/damon/core: do not call damos_walk_control->walk() if walk is completed
+6cb732515db724eaa1f08d2d462f9cef3113825f mm/damon/core: do damos walking in entire regions granularity
+57279fd8bcc5c1e7552e0ac3f6e3ed6e49391f64 mm/damon/core: introduce damos->ops_filters
+932b0305dfb80137429eabbbbdc4c7a126a3c218 mm/damon: introduce damon_attrs auto-tuning fields
+ec61f693b6cbed3e5b21e7d16d4fd4146aa34a48 mm/damon/core: update ctx->attrs.access_samples
 
---===============3321453131180048337==--
+--===============4629333908527191131==--
