@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Mon, 20 Jan 2025 15:53:23 -0000
-Message-Id: <173738840345.3590793.8232141554404269459@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+Date: Mon, 20 Jan 2025 15:56:59 -0000
+Message-Id: <173738861976.3594396.11827580464116757979@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+user: agruen
 changes:
-  - ref: refs/tags/for-6.13-rc7-tag
-    old: e4ef66195b0d3754f99572f54ec47a5c2bdc18c2
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/softirq
+    old: ff99a98c8619480e298107432ec0aa5d881e2d4c
+    new: 8942126b21261f5170a23113e0c3d2da172c3ee6
+    log: |
+         8942126b21261f5170a23113e0c3d2da172c3ee6 gfs2: Allow dlm callbacks in softirq context
+         
