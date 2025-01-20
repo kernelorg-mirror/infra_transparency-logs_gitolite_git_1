@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1391417193089895305=="
+Content-Type: multipart/mixed; boundary="===============5993743448205923222=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 20 Jan 2025 20:32:29 -0000
-Message-Id: <173740514950.3825304.7415358776924200185@gitolite.kernel.org>
+Date: Mon, 20 Jan 2025 20:32:50 -0000
+Message-Id: <173740517050.3825684.10448178398595089238@gitolite.kernel.org>
 
---===============1391417193089895305==
+--===============5993743448205923222==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,42 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: d361b84d51bfefc47f4a43fe9eba2d0c38fc6d4f
-    new: 997dd9dc5670954d9d37a873fb1c6afe8a403ac9
-    log: revlist-d361b84d51bf-997dd9dc5670.txt
+    old: 997dd9dc5670954d9d37a873fb1c6afe8a403ac9
+    new: 6a64c6ed386c8517960309eeee9996423a2b450c
+    log: revlist-997dd9dc5670-6a64c6ed386c.txt
+  - ref: refs/heads/tip/urgent
+    old: ffd294d346d185b70e28b1a28abe367bbfe53c04
+    new: b971424b6e3cbea5c017061fedda6a5f74e142cd
+    log: revlist-ffd294d346d1-b971424b6e3c.txt
 
---===============1391417193089895305==
+--===============5993743448205923222==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d361b84d51bf-997dd9dc5670.txt
+Content-Disposition: attachment; filename=revlist-997dd9dc5670-6a64c6ed386c.txt
+
+6ad76852b0ba459774313f67fd443de0167167b2 Merge branch into tip/master: 'x86/merge'
+5d9d179463e79ac61da9a40f5c09c17edfbfcdad Merge branch into tip/master: 'ras/merge'
+0c6920cde7d4bbe6f82f71620a0aca64c9a8bbc8 Merge branch into tip/master: 'irq/core'
+a551d75660d18695ce0acc9cab8d3c882898cfd4 Merge branch into tip/master: 'locking/core'
+e022a02a4a48bd088486a9620ac1e97f291b456d Merge branch into tip/master: 'objtool/core'
+40298345b261212495471c416b358089614ca4b7 Merge branch into tip/master: 'perf/core'
+fa1aa625a69e0df57f7ccb2fd245b24c45a98bf7 Merge branch into tip/master: 'sched/core'
+b6db9b379d6b3933fc72431e6dd2a77a522337c2 Merge branch into tip/master: 'timers/core'
+05ba278e46272bad5c3e11a70b878c47bb798b1f Merge branch into tip/master: 'x86/boot'
+0c7d1649ee685f36f2426987fc78a651a04532af Merge branch into tip/master: 'x86/bugs'
+013a790fc338f8bfe9823da820cfff07023d99ad Merge branch into tip/master: 'x86/cache'
+cf6dcf54d9e6797b029ee3ea8615271fc5a23bb4 Merge branch into tip/master: 'x86/cleanups'
+e4b5e069107968aa2316e76d440a0f1282be7df2 Merge branch into tip/master: 'x86/cpu'
+ea6c74cb7032451d37075d6ab1501faccef55d8b Merge branch into tip/master: 'x86/microcode'
+218e0e4e07a2f4d3382c100e362f79ff9bdd3a5d Merge branch into tip/master: 'x86/mm'
+6a64c6ed386c8517960309eeee9996423a2b450c Merge branch into tip/master: 'x86/tdx'
+
+--===============5993743448205923222==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-ffd294d346d1-b971424b6e3c.txt
 
 c9136fad4c08288be26aaff3e63d634545b32a85 proc/kcore: mark proc entry as permanent
 680e029fd62f7d9d8373788635f52c3de358d18d proc/kcore: don't walk list on every read
@@ -210,6 +237,5 @@ d5829524243652409e3fa2853736649674c294f0 Merge tag 'vfs-6.14-rc1.kcore' of git:/
 7e587c20adab5b8da4c7b5573e711a8c808e0a2d Merge tag 'vfs-6.14-rc1.libfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 47c9f2b3c838a33552dbd41db6c5d93377842fcd Merge tag 'vfs-6.14-rc1.statx.dio' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 b971424b6e3cbea5c017061fedda6a5f74e142cd Merge tag 'vfs-6.14-rc1.afs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-997dd9dc5670954d9d37a873fb1c6afe8a403ac9 Merge branch 'linus'
 
---===============1391417193089895305==--
+--===============5993743448205923222==--
