@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0369981648960979702=="
+Content-Type: multipart/mixed; boundary="===============4527339788554882664=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Mon, 20 Jan 2025 16:42:52 -0000
-Message-Id: <173739137265.3633257.15130774973570071994@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
+Date: Mon, 20 Jan 2025 16:42:54 -0000
+Message-Id: <173739137463.3633339.14134787137783199235@gitolite.kernel.org>
 
---===============0369981648960979702==
+--===============4527339788554882664==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-omap
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: d6cb6a3d99adf559a0a404d086f61ee3be866f86
 
---===============0369981648960979702==
+--===============4527339788554882664==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -138,4 +138,4 @@ b031457ab15dacb47d714ee872e724f1aa6a1b30 Merge tag 'irq_urgent_for_v6.13' of git
 9528d418de4d83c7ada69314ddd8d4427b1f703a Merge tag 'x86_urgent_for_v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ffd294d346d185b70e28b1a28abe367bbfe53c04 Linux 6.13
 
---===============0369981648960979702==--
+--===============4527339788554882664==--
