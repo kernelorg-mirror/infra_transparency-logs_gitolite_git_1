@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7248061737364574263=="
+Content-Type: multipart/mixed; boundary="===============4740150035390311551=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Mon, 20 Jan 2025 22:28:41 -0000
-Message-Id: <173741212196.3921567.9342440685054072737@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Mon, 20 Jan 2025 22:30:36 -0000
+Message-Id: <173741223660.3924756.18135241164469617608@gitolite.kernel.org>
 
---===============7248061737364574263==
+--===============4740150035390311551==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
   - ref: refs/heads/master
     old: b971424b6e3cbea5c017061fedda6a5f74e142cd
     new: 3d3a9c8b89d4f8a3785e06ffd15405c670696f02
     log: revlist-b971424b6e3c-3d3a9c8b89d4.txt
 
---===============7248061737364574263==
+--===============4740150035390311551==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -446,4 +446,4 @@ fadc3ed9ce1cd9ecc5c8be8875f7ec11ab3a7ebe Merge tag 'execve-v6.14-rc1' of git://g
 2622f290417001b0440f4a48dc6978f5f1e12a56 Merge tag 'bcachefs-2025-01-20.2' of git://evilpiepirate.org/bcachefs
 3d3a9c8b89d4f8a3785e06ffd15405c670696f02 Merge tag 'dlm-6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/teigland/linux-dlm
 
---===============7248061737364574263==--
+--===============4740150035390311551==--
