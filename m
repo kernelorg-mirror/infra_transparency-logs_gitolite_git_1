@@ -1,24 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============3267124625637825373=="
+Content-Type: multipart/mixed; boundary="===============3490732650505127946=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Mon, 20 Jan 2025 23:39:55 -0000
-Message-Id: <173741639577.3980329.2761077387778029355@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
+Date: Mon, 20 Jan 2025 23:40:03 -0000
+Message-Id: <173741640354.3981751.9495930243718534074@gitolite.kernel.org>
 
---===============3267124625637825373==
+--===============3490732650505127946==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
+repo: pub/scm/linux/kernel/git/pcmoore/lsm
 user: pcmoore
 changes:
   - ref: refs/heads/main
-    old: c970368cce7477986fe8e46cb2cfa8bdbd9d35ae
-    new: 6b401a49b975c9890d9c6ead2dde3a31182587c6
-    log: revlist-c970368cce74-6b401a49b975.txt
+    old: a105950d187b7ec8ed4906091fb8b1e94470f0b3
+    new: f9b0f5a9bc114fa8aef0aa5818644c3d5ed5af4a
+    log: revlist-a105950d187b-f9b0f5a9bc11.txt
   - ref: refs/tags/v6.13
     old: 0000000000000000000000000000000000000000
     new: d6cb6a3d99adf559a0a404d086f61ee3be866f86
@@ -41,11 +41,11 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: b37279c18e53ba26c58b0a88a84bb70720c5cac6
 
---===============3267124625637825373==
+--===============3490732650505127946==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-c970368cce74-6b401a49b975.txt
+Content-Disposition: attachment; filename=revlist-a105950d187b-f9b0f5a9bc11.txt
 
 746e6ae2e202b062b9deee7bd86d94937997ecd7 ionic: no double destroy workqueue
 b096d62ba1323391b2db98b7704e2468cf3b1588 ionic: use ee->offset when returning sprom data
@@ -1070,6 +1070,6 @@ b031457ab15dacb47d714ee872e724f1aa6a1b30 Merge tag 'irq_urgent_for_v6.13' of git
 25144ea31b90af6fa860e1ce3ab735d8bb8deb83 Merge tag 'timers_urgent_for_v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 9528d418de4d83c7ada69314ddd8d4427b1f703a Merge tag 'x86_urgent_for_v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ffd294d346d185b70e28b1a28abe367bbfe53c04 Linux 6.13
-6b401a49b975c9890d9c6ead2dde3a31182587c6 selinux: add a SELinux specific README.md and SECURITY.md
+f9b0f5a9bc114fa8aef0aa5818644c3d5ed5af4a lsm: add a LSM specific README.md and SECURITY.md
 
---===============3267124625637825373==--
+--===============3490732650505127946==--
