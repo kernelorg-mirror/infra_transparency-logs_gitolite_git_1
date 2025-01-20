@@ -1,30 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============3806493040917747848=="
+Content-Type: multipart/mixed; boundary="===============3267124625637825373=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
-Date: Mon, 20 Jan 2025 23:39:41 -0000
-Message-Id: <173741638129.3980070.5756875378399142737@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Mon, 20 Jan 2025 23:39:55 -0000
+Message-Id: <173741639577.3980329.2761077387778029355@gitolite.kernel.org>
 
---===============3806493040917747848==
+--===============3267124625637825373==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/audit
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
 user: pcmoore
 changes:
   - ref: refs/heads/main
-    old: 63f2e8f4477ccee29ee2b06669106735676fb322
-    new: a1101fe1a9890a2e7fef9c6895a61e0a1a0a807c
-    log: revlist-63f2e8f4477c-a1101fe1a989.txt
+    old: c970368cce7477986fe8e46cb2cfa8bdbd9d35ae
+    new: 6b401a49b975c9890d9c6ead2dde3a31182587c6
+    log: revlist-c970368cce74-6b401a49b975.txt
+  - ref: refs/tags/v6.13
+    old: 0000000000000000000000000000000000000000
+    new: d6cb6a3d99adf559a0a404d086f61ee3be866f86
+  - ref: refs/tags/v6.13-rc2
+    old: 0000000000000000000000000000000000000000
+    new: e32a80927434907f973f38a88cd19d7e51991d24
+  - ref: refs/tags/v6.13-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 7705f2f1cf8d49dd02236dce6edad6c013b43293
+  - ref: refs/tags/v6.13-rc4
+    old: 0000000000000000000000000000000000000000
+    new: dbfac60febfa806abb2d384cb6441e77335d2799
+  - ref: refs/tags/v6.13-rc5
+    old: 0000000000000000000000000000000000000000
+    new: a70d5ba87c51302276bdcb0e847c281a95be6526
+  - ref: refs/tags/v6.13-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 5fcdd8fcd55d1da6fdf8deb78355a5c23ce94d39
+  - ref: refs/tags/v6.13-rc7
+    old: 0000000000000000000000000000000000000000
+    new: b37279c18e53ba26c58b0a88a84bb70720c5cac6
 
---===============3806493040917747848==
+--===============3267124625637825373==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-63f2e8f4477c-a1101fe1a989.txt
+Content-Disposition: attachment; filename=revlist-c970368cce74-6b401a49b975.txt
 
 746e6ae2e202b062b9deee7bd86d94937997ecd7 ionic: no double destroy workqueue
 b096d62ba1323391b2db98b7704e2468cf3b1588 ionic: use ee->offset when returning sprom data
@@ -1049,6 +1070,6 @@ b031457ab15dacb47d714ee872e724f1aa6a1b30 Merge tag 'irq_urgent_for_v6.13' of git
 25144ea31b90af6fa860e1ce3ab735d8bb8deb83 Merge tag 'timers_urgent_for_v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 9528d418de4d83c7ada69314ddd8d4427b1f703a Merge tag 'x86_urgent_for_v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ffd294d346d185b70e28b1a28abe367bbfe53c04 Linux 6.13
-a1101fe1a9890a2e7fef9c6895a61e0a1a0a807c audit: add a Linux Audit specific README.md and SECURITY.md
+6b401a49b975c9890d9c6ead2dde3a31182587c6 selinux: add a SELinux specific README.md and SECURITY.md
 
---===============3806493040917747848==--
+--===============3267124625637825373==--
