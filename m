@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
-Date: Tue, 21 Jan 2025 09:45:29 -0000
-Message-Id: <173745272909.380913.4290731156527280928@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
+Date: Tue, 21 Jan 2025 09:49:17 -0000
+Message-Id: <173745295703.382543.12043888993589803587@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/leds
-user: lee
+repo: pub/scm/linux/kernel/git/mtd/linux
+user: mraynal
 changes:
-  - ref: refs/tags/leds-next-6.14
-    old: 0000000000000000000000000000000000000000
-    new: fa90fda21f9e1d8bb1b433420b305da4cfaefd6e
+  - ref: refs/heads/nand/next
+    old: be7a05db4252edbffb43484b14755048fb8db710
+    new: 98b34d52004b5a35db1c1b2c2133f52d67bede0f
+    log: |
+         98b34d52004b5a35db1c1b2c2133f52d67bede0f mtd: spinand: skyhigh: Align with recent read from cache variant changes
+         
