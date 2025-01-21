@@ -1,56 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============5580286664886481616=="
+Content-Type: multipart/mixed; boundary="===============0964344700558842448=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 21 Jan 2025 08:54:18 -0000
-Message-Id: <173744965855.285276.12876348112832496200@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Tue, 21 Jan 2025 08:55:29 -0000
+Message-Id: <173744972974.288310.14452361847550612157@gitolite.kernel.org>
 
---===============5580286664886481616==
+--===============0964344700558842448==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 2a7ff60ae55b7d07f13d75d320997900f71316d5
-    new: 733c0c8a3b5b7178cf1d62e2b8f459e8a09bfe19
+  - ref: refs/heads/linux-rolling-lts
+    old: b3fce5fd1cc95a95dbe5a7b256faacca351d3f72
+    new: 360c5c53fcb5a0e8533aa04717b941bd541c749e
     log: |
-         733c0c8a3b5b7178cf1d62e2b8f459e8a09bfe19 move the 6.6 queue back in place
+         950b604384fd75d62e860bec7135b2b62eb4d508 Revert "ovl: support encoding fid from inode with no alias"
+         d1c53de4463be3b1b6fbeaefe7ccb1a7f8f33de7 Revert "ovl: pass realinode to ovl_encode_real_fh() instead of realdentry"
+         1795ca6571199008f67afa9e88cddf199ddde9ca Revert "ovl: do not encode lower fh with upper sb_writers held"
+         3b4299ff7a25480d96c5e9a84b879e5193447d28 Linux 6.6.73
+         360c5c53fcb5a0e8533aa04717b941bd541c749e Merge v6.6.73
          
 
---===============5580286664886481616==
+--===============0964344700558842448==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1737449687 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1737449656-b3f87a512e385d9af1ec8724f06a2c223db6f57d
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1737449758 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1737449727-9723c234e60aef28fed5a65ddb7bf43e10f2430d
 
-2a7ff60ae55b7d07f13d75d320997900f71316d5 733c0c8a3b5b7178cf1d62e2b8f459e8a09bfe19 refs/heads/master
+b3fce5fd1cc95a95dbe5a7b256faacca351d3f72 360c5c53fcb5a0e8533aa04717b941bd541c749e refs/heads/linux-rolling-lts
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmePYNcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8tcP/2r8CkYnDvhu2myHmojd
-b/LzG7Wf9IaktGF3CbGMNYVZ+knDHjoGm7/Ubfy9B+zAJ7AQRPd1C+PTjJLFkV0j
-RP8Qrfqsrt62dBswek1eZeEf1rIYAWANz+iHbS1MgYFnK9/gYV/Da7kVecO+CdfJ
-rGGfQeTuxU5jndQ8x8fBFYN0UwmSAvu2tzzjf3OnrIByaTGxgap7wOZo0fPb8a1p
-w84jVV7Y97am7ac7qioS76g95LjivOriN2kYCfvPv7QW34ENalSckPh6Knm4x3M3
-gOnxSqRzpgEEVJc5Y1HgcYqLYPzDErqrIjaT/uIVaI82Q0Lq/WYjrYxliU6mV4JQ
-4ZFW6lRIOGYdKYDibpmnyZqN5Rd5CExYctlJ76D3PEiI4Wkw515dDCLRDrRVMDkt
-IoFi3zH7p5hImvA2Lolr9mkUVkLIdb4ffFESDLXgTdiKBKAxRYX0pBb6D8TD8Dk8
-JjPFYnXZPwq3GCRERJBhRU8nJRvwlKikCdKO/qSkS0haJzGMCHauc35pxp5P4+ty
-RRNSofrIg8wB3nzqrYKM3a6DLuBjaKvY2hfpcEdins+x7NUGcQWPZ/gIFGsCUJ/q
-BdS+kSEXNfEjb9+OHb2+TlfsMHlNKLwk6ZCP0Jd2y7kWza4WFYrSqNqIhqvaIPA1
-27OJJRtttl9O6WaTrHir5xdN
-=SKAa
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmePYR8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SkgQAM/9Ur5lJbjODyjTpTJ7
+NCEofFLt8BLBUtOehjk78EjXw8WcmTlpgJQzxcHGdIUY4pJSrb4YW7heGFebo4Gp
+NHVuBBtoIpRR49ExSghPHOuhNj/nXDdJm3SnqVeIXK0AqX2Dn5qN3CH2BrCR6Nw1
+qbCiapZ7w+McLG4uHSFVKGmxPfLt3LYsrDcdZ+oGOQjJnWab+bbA3CwiKwTBgYWz
+jjX/oZ3BLEfZY/9zmXzC+vj3ThNKCduP35xzhDIMgxGlw/LjliIzLja9u9Gkt7Dr
+DGXHkJyAhztYlPh1f4THvkwFFcE8Lub/5dZwIaN0SqhUm/Ikk0UF1ntU8W9qTRNj
+2oam4WPPMZ9CVxJyRkQOOoXqdYlaTnosJtgJKiWQOQDvGeUn9A0LX5lcSGkigFUQ
+bga+zJ3GI8KAo9aYtLOfv2zJAaUMxqo/OsCi2rsh+5F+U7lE6xfeifuVsENx2ho9
+525DavQ43vcLQ5AQP6CmiLUXEAHGxGyLp4FyE7l/NECSQTKhmA9NBh7LjBu518X9
+Ecp6X8URwA2L9Q3bRv6BhYHvQM7qLlPKWqUwxEIgZI6RIBR7RLbDl5CsHaiRo704
++4YtexOB3JT1XCS560lFXCc4j5A+Is2kmWT7PeK5Ad4N1fZYYsYi29q7/RqJV2mo
+KNIbGtwpfBCh/+ueLOFpWW6a
+=h62s
 -----END PGP SIGNATURE-----
 
---===============5580286664886481616==--
+--===============0964344700558842448==--
