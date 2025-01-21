@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2255556100233399665=="
+Content-Type: multipart/mixed; boundary="===============8866314485496262530=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Tue, 21 Jan 2025 04:49:56 -0000
-Message-Id: <173743499698.38247.2258253392434322703@gitolite.kernel.org>
+Date: Tue, 21 Jan 2025 04:50:30 -0000
+Message-Id: <173743503044.40114.2740984089600041488@gitolite.kernel.org>
 
---===============2255556100233399665==
+--===============8866314485496262530==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 295006f6e8c17212d3098811166e29627d19e05c
-    new: 7d6f88e76e28ac44ed003dcf80881ea6b202ec08
-    log: revlist-295006f6e8c1-7d6f88e76e28.txt
+  - ref: refs/heads/for-next
+    old: ad8063b3f12fd8d54fe8b7850de497aff09a7cac
+    new: c57ef5d3d7bc04e5f2bdac619579a536c541bbdc
+    log: revlist-ad8063b3f12f-c57ef5d3d7bc.txt
 
---===============2255556100233399665==
+--===============8866314485496262530==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-295006f6e8c1-7d6f88e76e28.txt
+Content-Disposition: attachment; filename=revlist-ad8063b3f12f-c57ef5d3d7bc.txt
 
 e2813fc27d274747fa6e204e135e3c89cc6426a3 scsi: fnic: Replace shost_printk() with dev_info()/dev_err()
 d859d05ceb3dbb5b7c294b7073fef64507681901 scsi: fnic: Add headers and definitions for FDLS
@@ -52,5 +52,6 @@ bab8551e33f7f5e8743ccb49be41fe3228178e8a scsi: fnic: Remove unnecessary else to 
 54428671aac88dd11074c47cb7e7726e41d40f4a scsi: fnic: Test for memory allocation failure and return error code
 8697934682f1873b7b1cb9cc61b81edf042c9272 scsi: fnic: Propagate SCSI error code from fnic_scsi_drv_init()
 7d6f88e76e28ac44ed003dcf80881ea6b202ec08 Merge patch series "Introduce support for Fabric Discovery and Login Services"
+c57ef5d3d7bc04e5f2bdac619579a536c541bbdc Merge branch 'misc' into for-next
 
---===============2255556100233399665==--
+--===============8866314485496262530==--
