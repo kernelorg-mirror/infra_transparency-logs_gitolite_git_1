@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6478699739890902216=="
+Content-Type: multipart/mixed; boundary="===============5673107550518825645=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 21 Jan 2025 16:51:41 -0000
-Message-Id: <173747830116.795583.18047278412810147967@gitolite.kernel.org>
+Date: Tue, 21 Jan 2025 16:51:43 -0000
+Message-Id: <173747830397.795681.15772402768489443983@gitolite.kernel.org>
 
---===============6478699739890902216==
+--===============5673107550518825645==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 7d2eba0f83a59d360ed1e77ed2778101a6e3c4a1
     new: cf33d96f50903214226b379b3f10d1f262dae018
     log: revlist-7d2eba0f83a5-cf33d96f5090.txt
 
---===============6478699739890902216==
+--===============5673107550518825645==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -497,4 +497,4 @@ b1754a69e7be48a64b3cdb0df60a96d97959da73 net: phylink: fix regression when bindi
 d640627663bfe7d8963c7615316d7d4ef60f3b0b net/rose: prevent integer overflows in rose_setsockopt()
 cf33d96f50903214226b379b3f10d1f262dae018 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============6478699739890902216==--
+--===============5673107550518825645==--
