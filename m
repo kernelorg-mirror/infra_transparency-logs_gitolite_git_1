@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6409556046315233133=="
+Content-Type: multipart/mixed; boundary="===============5385524397995038853=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ericvh/v9fs
-Date: Tue, 21 Jan 2025 20:08:19 -0000
-Message-Id: <173749009983.960501.1430383789898256371@gitolite.kernel.org>
+Date: Tue, 21 Jan 2025 20:08:55 -0000
+Message-Id: <173749013514.960968.17373540345799286591@gitolite.kernel.org>
 
---===============6409556046315233133==
+--===============5385524397995038853==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ericvh/v9fs
 user: ericvh
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/ericvh/devel
     old: 684a64bf32b6e488004e0ad7f0d7e922798f65b6
     new: 62de6e1685269e1637a6c6684c8be58cc8d4ff38
     log: revlist-684a64bf32b6-62de6e168526.txt
 
---===============6409556046315233133==
+--===============5385524397995038853==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ a6640c8c2fc029f015c87672585931c6106971c1 Merge tag 'objtool-core-2025-01-20' of 
 858df1de2158bd7ab88d31b557592e990bacc0b5 Merge tag 'x86-cleanups-2025-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 62de6e1685269e1637a6c6684c8be58cc8d4ff38 Merge tag 'sched-core-2025-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 
---===============6409556046315233133==--
+--===============5385524397995038853==--
