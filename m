@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Tue, 21 Jan 2025 10:19:38 -0000
-Message-Id: <173745477815.406944.268560538897664275@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Tue, 21 Jan 2025 10:25:33 -0000
+Message-Id: <173745513322.413007.18438430063343134355@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-linux
-user: cem
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/tags/xfs-merge-6.14
+  - ref: refs/heads/ffa_updates
     old: 0000000000000000000000000000000000000000
-    new: 51c90b403fba55e8ad8fa6822b39bdd9fcafdd78
+    new: 4d3b49e8e17f78c94285b7a17c3d51779a9f3867
