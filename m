@@ -1,46 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2021999040680539889=="
+Content-Type: multipart/mixed; boundary="===============8648342793083412150=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 21 Jan 2025 12:01:32 -0000
-Message-Id: <173746089298.490317.13330899092548096647@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Tue, 21 Jan 2025 12:02:20 -0000
+Message-Id: <173746094081.490763.14375423753551621709@gitolite.kernel.org>
 
---===============2021999040680539889==
+--===============8648342793083412150==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/review-ilpo-next
-    old: 0eb3d7afb147194cbdbddeb65821b27725436e35
-    new: 0da9a3f9ac8ada83fa79579455871ec59f11db72
+  - ref: refs/heads/master
+    old: f6d8f9a5b8b60197a0439c3f3563ec909a763a5c
+    new: b7970dc79f25dda713002a6a269d27c752976611
     log: |
-         0da9a3f9ac8ada83fa79579455871ec59f11db72 Merge branch 'fixes' into 'for-next'
+         b7970dc79f25dda713002a6a269d27c752976611 assign some 6.12.9 cve ids
          
 
---===============2021999040680539889==
+--===============8648342793083412150==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1737460920 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1737460889-aa3ff1c7f872da7dd7ace0ec5e5dbdd1f7d4f13b
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1737460967 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1737460937-7f7a33457f4fd7ac7cb6e19c4bd764f471d710b0
 
-0eb3d7afb147194cbdbddeb65821b27725436e35 0da9a3f9ac8ada83fa79579455871ec59f11db72 refs/heads/review-ilpo-next
+f6d8f9a5b8b60197a0439c3f3563ec909a763a5c b7970dc79f25dda713002a6a269d27c752976611 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZ4+MuwAKCRBZrE9hU+XO
-MTYCAQDd4Ovqfh7LF2j7eP0A4woegO1M7XMGvPG5AjtpeXic1QD/VXOsBLrbsXTk
-BS/TO/H37DMwJ0qWAVoDWg7X2jH/nQ0=
-=6/yG
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmePjOcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AicQAMQmtDRYwDB8FRRf5cih
+9aCsVplb/XhWL9/ynELFuyuq8Njw1yyR4MeMkTdsNy1JQCkeQJH93YgCDuY9Fwrx
+SDFEStjlB1ErtEevFWFNtfAL8ZMBYR2DahTVTIKR6cFU0/52OJ2xH0gshDQa7m2C
+uQ944tCKY81n0LnHiH+OYYcM4pwIJyEg4iU5hZk+fhmhZxwo9+ChAGG0ptvqbWE3
+SEIrxnpJrZUYQsW4OcRsOpcMjtwiKSemLptbUlftAK/YBL+miAP2aO+7AsTuDJlQ
+ERctBPd2xCYS+bcsnMhZaD1775vQ+sPXXG0g0NajEv8RqTPsfcTmoU8iC4cUmnyC
+eWUHxa74zneCwy5WeQYOvyxDwO9sstqSShGrLQ2cvqxRCEhd8QZwZilS7Eh77OJB
+a1F7kuSeWIJJZJ4jiOe+J+v0sLQ6g5fKGvawOj1NKFtwtQLlOSneq7b5CldGqpbq
+IGvq6W2o19zsjLWNlhfTTmrW4+vzoNIZWPBWn8F7/2/WNIqXuj3cUHGUKo0dPPs2
+fOD5cg+1MFklWWwtBGdherTI+Gn03HyZR6O1uuSrDPfUYao9mh1jxDVOlq2lO2JU
+BiKIFb/W3rweb0eCbLH5Yl9DMautJ2lr73QmOFPcXtgKbtZN5489v3o7slrgq8SU
+1WnXfIbUmVYHra1C8usKYNOr
+=Y9zH
 -----END PGP SIGNATURE-----
 
---===============2021999040680539889==--
+--===============8648342793083412150==--
