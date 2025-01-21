@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
-Date: Tue, 21 Jan 2025 13:52:21 -0000
-Message-Id: <173746754189.587380.14343615653945563654@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Tue, 21 Jan 2025 14:04:03 -0000
+Message-Id: <173746824365.596016.18130062188373098148@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linus-next
-user: sashal
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/linus-next
-    old: c6a566f6c1b4d5dff659acd221f95a72923f4085
-    new: 8044c589767456af2061ca03468aa6a295da1925
+  - ref: refs/heads/master
+    old: c05a1b8b577a2db634df91f75a6f6053fb3c50a9
+    new: 20fd4690bc39834a5e0e4ec73bb61a38f0e9d012
     log: |
-         4d13f4304fa43471bfea101658a11feec7b28ac0 kthread: Implement preferred affinity
-         db7ee3cb620b2cec5a5f44767ab93cb4eb80d961 rcu: Use kthread preferred affinity for RCU boost
-         41f70d8e16349c65abdc0dd88a7d0ab94e5ce639 kthread: Unify kthread_create_on_cpu() and kthread_create_worker_on_cpu() automatic format
-         b04e317b522630b46f78ee62ecbdc5734e8d43de treewide: Introduce kthread_run_worker[_on_cpu]()
-         8044c589767456af2061ca03468aa6a295da1925 rcu: Use kthread preferred affinity for RCU exp kworkers
+         ab7721b6cdb117c9c5cdee20fc5d1a8915f365bd meson: do not hardcode /var in uuidd-sysusers.conf.
+         54faffe9f8e3bdac53cb654fb254b59d7a7002f4 meson: use tmpfilesdir pkg-config variable
+         20fd4690bc39834a5e0e4ec73bb61a38f0e9d012 autotools: add sysusers support
          
