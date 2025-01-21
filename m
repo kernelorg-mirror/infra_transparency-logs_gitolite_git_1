@@ -1,31 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Tue, 21 Jan 2025 08:19:31 -0000
-Message-Id: <173744757190.206602.5760963498331445529@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0238843762175346052=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 21 Jan 2025 08:19:39 -0000
+Message-Id: <173744757978.207362.18254833864222793076@gitolite.kernel.org>
+
+--===============0238843762175346052==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
-user: geert
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: e317cfbf2d8f94bebb8e896c517e71ec1b53a7d9
-    new: d65183bfb94f5627b12a23700e03808b46ca9981
+    old: 1c50be1ef91817faea347e32823f4d356ec1abc6
+    new: e42028e8f3469a9e39adfbb8f38c97681149171f
     log: |
-         9ef0ecfc6c6966cc96d34a49dfc75c26bf5715b9 arm64: dts: renesas: eagle-function-expansion: Align GPIO hog name with bindings
-         39330c5c8978f2680fd85dfccad051c44ccbb622 arm64: dts: renesas: r8a779g0: Restore sort order
-         d65183bfb94f5627b12a23700e03808b46ca9981 Merge branch 'renesas-dts-for-v6.15' into renesas-devel
+         e42028e8f3469a9e39adfbb8f38c97681149171f 6.6-stable patches
          
-  - ref: refs/heads/renesas-dts-for-v6.15
-    old: 9e602fc4c0ba977ee1d45fe8e1dc1ba6f6efe5d2
-    new: 39330c5c8978f2680fd85dfccad051c44ccbb622
-    log: |
-         9ef0ecfc6c6966cc96d34a49dfc75c26bf5715b9 arm64: dts: renesas: eagle-function-expansion: Align GPIO hog name with bindings
-         39330c5c8978f2680fd85dfccad051c44ccbb622 arm64: dts: renesas: r8a779g0: Restore sort order
-         
-  - ref: refs/tags/renesas-devel-2025-01-21-v6.13
-    old: 0000000000000000000000000000000000000000
-    new: 39c61e9a392ed5bdaa14691fa0731c1068eda020
+
+--===============0238843762175346052==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1737447608 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1737447577-7c2169fc5e8525d9d1d942e1ef4a134ec6ba8acb
+
+1c50be1ef91817faea347e32823f4d356ec1abc6 e42028e8f3469a9e39adfbb8f38c97681149171f refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmePWLgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QTMP/0jO1DuSONngruccQN2h
+JzdXWQiEaMyiM+Ul2qXZNsRK4mBoeFTxvi9UvUndw3ZG+d5TpJcoA6sxLsiFID6u
+ZSp9+3dy/G1bzcREWtN27wW+YsE6saAXDh3ZT/o/Q6uAMrNMByPYw9Di0BF1nIkj
+gLXeVP7YJ8k5l6aDWizzsr5gS4dhuF+XknRwlPDS8x2reY62oWe/JrKJ7Zgrz60B
+WhVgH9cMZRd0bHpz3mU8gx9oPqwAqPRArZtcsjOBjOcd3rCnWXEgVZ0xcqnD/78s
+fUuPQdwlWqfi4qPJSvX5Kt7N7xzXA6IGDM7rIQDZObvIwe4lx5UGVlxiUfAqygJ4
++8GDX80AqiJSIypbx0SuHGBU+acOHuopRqMTzcVFTJn8Jscn4qF9p/v5utHgzCEg
+Zw6J8ntkIyc99vwYdF04GdX8KnZ23QUn8Tp/Aa39dSSZeuksYKZeoIKf9fu1/OH8
+0uKH0sIvD/EWZW81n4Wwj4Daulx8ZbsKf7qIPK2D1laE98vIZC7j8MLWe7dj8xID
+oxUtEcripCC4J3Sc4bzKFVG/sL6lACdIocWkCnlOIBKp0DKREuyWO6uh2W4afzBc
+L9Ky0FJdwvgfxd0mUVFhC69Ha0BY0Vq/fKiLQrBvkxBOpTa+DxijTjmVaNu9xvTg
+ouuJwhiGr2ECxPXMasIrCP/Q
+=5xsq
+-----END PGP SIGNATURE-----
+
+--===============0238843762175346052==--
