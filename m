@@ -1,52 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6032616415043012795=="
+Content-Type: multipart/mixed; boundary="===============2255556100233399665=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Tue, 21 Jan 2025 04:27:07 -0000
-Message-Id: <173743362753.20911.8655616481970250018@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Tue, 21 Jan 2025 04:49:56 -0000
+Message-Id: <173743499698.38247.2258253392434322703@gitolite.kernel.org>
 
---===============6032616415043012795==
+--===============2255556100233399665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/powerpc/linux
-user: maddy
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/tags/powerpc-6.14-1
-    old: 0000000000000000000000000000000000000000
-    new: d83d7be26fcd0ad06f6bdbda9f901a80b47c5e65
+  - ref: refs/heads/misc
+    old: 295006f6e8c17212d3098811166e29627d19e05c
+    new: 7d6f88e76e28ac44ed003dcf80881ea6b202ec08
+    log: revlist-295006f6e8c1-7d6f88e76e28.txt
 
---===============6032616415043012795==
+--===============2255556100233399665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-295006f6e8c1-7d6f88e76e28.txt
 
-certificate version 0.1
-pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1737433655 +0530
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1737433625-d2b5d04791bd30af33fd6a67e5ec5d69a18b2d6d
+e2813fc27d274747fa6e204e135e3c89cc6426a3 scsi: fnic: Replace shost_printk() with dev_info()/dev_err()
+d859d05ceb3dbb5b7c294b7073fef64507681901 scsi: fnic: Add headers and definitions for FDLS
+a63e78eb2b0f654b138abfc323f6bd7573e26145 scsi: fnic: Add support for fabric based solicited requests and responses
+b5a57f153bdf772ed41ef286826cef7a1c52f433 scsi: fnic: Add support for target based solicited requests and responses
+f828af44b8ddef3500fda70ef1f6daffe97db36b scsi: fnic: Add support for unsolicited requests and responses
+2c77081969ee00ec31abda0cf6a26bc269f12ab2 scsi: fnic: Add Cisco hardware model names
+09c1e6ab4ab2a107d96f119950dc330e446dc2b0 scsi: fnic: Add and integrate support for FDMI
+098585aa8acab3fcd46ce908af84ef168f5ccab6 scsi: fnic: Add and integrate support for FIP
+9cf9fe2f3ec5dad8b459267a9e977c0b7811b3f8 scsi: fnic: Add functionality in fnic to support FDLS
+6335be1c5009f888367db095a0442cdb256980f8 scsi: fnic: Modify IO path to use FDLS
+9243626c211e4d6f5add84c5a7b141e94a2e7222 scsi: fnic: Modify fnic interfaces to use FDLS
+a8650a5eaaf123572a7b2d6b1fe9f6b000b6b6a6 scsi: fnic: Add stats and related functionality
+7e6886b705fd8b338dbd4b7492bd45f0259cc55f scsi: fnic: Code cleanup
+8d26bfcf1d2e829d37ef7f2b506b95e46f25f993 scsi: fnic: Add support to handle port channel RSCN
+8f22f904b25b71c9e3e613e70944d818b203d6dc scsi: fnic: Increment driver version
+5b6179d4b661e3c22ffa5f3fe2523bad4cd01983 scsi: fnic: Remove unnecessary else and unnecessary break in FDLS
+6cfba11510d6f4d0e863fc0fa939c7a983cf13bd scsi: fnic: Remove extern definition from .c files
+bab8551e33f7f5e8743ccb49be41fe3228178e8a scsi: fnic: Remove unnecessary else to fix warning in FDLS FIP
+17789f8a5b81356fc83cf20de899fc351679574e scsi: fnic: Delete incorrect debugfs error handling
+8ccc5947f5d1608f7217cdbee532c7fc2431f7c9 scsi: fnic: Fix use of uninitialized value in debug message
+0620efe789a73586b5b3ed38b27d1b69b2150958 scsi: fnic: Remove always-true IS_FNIC_FCP_INITIATOR macro
+7dbe3aa2f3f83949174b64860dadfaeec3454cff scsi: fnic: Return appropriate error code for mem alloc failure
+3986001ca11ec630d631467d788aac513c61cb52 scsi: fnic: Return appropriate error code from failure of scsi drv init
+54428671aac88dd11074c47cb7e7726e41d40f4a scsi: fnic: Test for memory allocation failure and return error code
+8697934682f1873b7b1cb9cc61b81edf042c9272 scsi: fnic: Propagate SCSI error code from fnic_scsi_drv_init()
+7d6f88e76e28ac44ed003dcf80881ea6b202ec08 Merge patch series "Introduce support for Fabric Discovery and Login Services"
 
-0000000000000000000000000000000000000000 d83d7be26fcd0ad06f6bdbda9f901a80b47c5e65 refs/tags/powerpc-6.14-1
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCAAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmePIjcACgkQpnEsdPSH
-ZJT3MRAAiD9UT96n1RlxunNzmhMSJWc8rv89qqUhfVH8wuPXOdhSldq/gJJRZtCI
-nYMNKG+n8YHabXlwlJXvdP00oE/7qT8yqWhEDmwGGS3ML2/fUzxb01mJz/OVkMpA
-q1LOPfiI/N2olGnWsK0qfsLL7Rie80I/fTA4eFdEditZyZFDRHpbr0Cuo5aI6Wzp
-DW1kmGSpRfkbYCZcRStTZOd/sqHV5JCiZV73jizERdf8oZo8JSom+1Z7OJW5BKe0
-J7d+EhqaLID2STTkRugNQ+sEyaE7ZrkH8KHdoW0f8y8ijhom1NhKjQLikBh4L1NV
-8mNJrRWAEAcVta2VQS9aY/IBTZWjLiwPCUPyAPCYE9pOejCdwXW2d0/kPhE26r59
-j/cKq6b0e8YJjISFX5ERvUXPnOQeqFE1lQEwuCRdRbwGeQMe9OEJcv1tdCdjAWJg
-nNTjtjwWPyV8LYFt9FvAd7XnSyn5gKdVjxH92czvElhYEk3K5ZhmMT2Ed7zQgObq
-BfXPlxvcrI6nX9oB/rlAXwS4swlbTsyt9YowraruIq8Q2crRQfCjXD0e3uHx7e6y
-Yg/ZbpQjrOn0+kJDcnp8taOChp7bRxxEVutOq3WAPvxAd0ZZfJeaNUuYts6MlqEY
-coKljqoslkVCvtql9i+AHeglE5p7wU2TO88mj83oIQwxJh8oQvU=
-=I/Ss
------END PGP SIGNATURE-----
-
---===============6032616415043012795==--
+--===============2255556100233399665==--
