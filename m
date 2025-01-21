@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1007888731135582905=="
+Content-Type: multipart/mixed; boundary="===============7460670652629659897=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 21 Jan 2025 16:47:26 -0000
-Message-Id: <173747804683.790682.3637070045529597886@gitolite.kernel.org>
+Date: Tue, 21 Jan 2025 16:47:29 -0000
+Message-Id: <173747804907.790834.6011136098777618740@gitolite.kernel.org>
 
---===============1007888731135582905==
+--===============7460670652629659897==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 5d6a361dc01d823cb7c10697f16695d45a82b909
     new: d640627663bfe7d8963c7615316d7d4ef60f3b0b
     log: revlist-5d6a361dc01d-d640627663bf.txt
 
---===============1007888731135582905==
+--===============7460670652629659897==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ bc50835e83f60f56e9bec2b392fb5544f250fb6f net: sched: Disallow replacing of child
 25c1a9ca53db5780757e7f53e688b8f916821baa tcp_cubic: fix incorrect HyStart round start detection
 d640627663bfe7d8963c7615316d7d4ef60f3b0b net/rose: prevent integer overflows in rose_setsockopt()
 
---===============1007888731135582905==--
+--===============7460670652629659897==--
