@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1090501280480292531=="
+Content-Type: multipart/mixed; boundary="===============1940058155725380684=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Wed, 22 Jan 2025 15:40:23 -0000
-Message-Id: <173756042324.1911536.2909843927178238378@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Wed, 22 Jan 2025 15:40:27 -0000
+Message-Id: <173756042775.1911663.17890681740241722151@gitolite.kernel.org>
 
---===============1090501280480292531==
+--===============1940058155725380684==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: c4b9570cfb63501638db720f3bee9f6dfd044b82
     log: revlist-ffd294d346d1-c4b9570cfb63.txt
 
---===============1090501280480292531==
+--===============1940058155725380684==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f96a974170b749e3a56844e25b31d46a7233b6f6 Merge tag 'lsm-pr-20250121' of git://gi
 690ffcd817eaad3bd25a24dd8d63d9d97adf5cfe Merge tag 'selinux-pr-20250121' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
 c4b9570cfb63501638db720f3bee9f6dfd044b82 Merge tag 'audit-pr-20250121' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
 
---===============1090501280480292531==--
+--===============1940058155725380684==--
