@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 22 Jan 2025 18:32:58 -0000
-Message-Id: <173757077856.2056126.16825724695670499081@gitolite.kernel.org>
+Date: Wed, 22 Jan 2025 18:33:09 -0000
+Message-Id: <173757078901.2056365.12271539201314547726@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: 1254580d4f831808462e719e00d43a46e4254631
+  - ref: refs/heads/pending
+    old: 4e722f5a23a1fa3efbc9a5166f0748601536a841
     new: a93185b708f259ace63414b8529e9e15c6323b69
     log: |
          1bcd20981834928ccc5d981aacb806bb523d8b29 wifi: ath11k: Fix DMA buffer allocation to resolve SWIOTLB issues
