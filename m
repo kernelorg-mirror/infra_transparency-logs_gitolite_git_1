@@ -1,32 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============2466465298960486452=="
+Content-Type: multipart/mixed; boundary="===============1877955386991751972=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Wed, 22 Jan 2025 21:37:55 -0000
-Message-Id: <173758187550.2204859.8084320101600490150@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 22 Jan 2025 21:55:43 -0000
+Message-Id: <173758294305.2219578.157234220766742099@gitolite.kernel.org>
 
---===============2466465298960486452==
+--===============1877955386991751972==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
   - ref: refs/heads/master
-    old: c4b9570cfb63501638db720f3bee9f6dfd044b82
-    new: 7004a2e46d1693848370809aa3d9c340a209edbb
-    log: revlist-c4b9570cfb63-7004a2e46d16.txt
+    old: 314b4866781b67753f38090314aa37cbc35f8706
+    new: 58c58c95a3387e2683816cd8e01e387bd0404d1f
+    log: revlist-314b4866781b-58c58c95a338.txt
 
---===============2466465298960486452==
+--===============1877955386991751972==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c4b9570cfb63-7004a2e46d16.txt
+Content-Disposition: attachment; filename=revlist-314b4866781b-58c58c95a338.txt
 
-b04ce63859793e3439b394976b8d29e785d4d69a i2c: davinci: kill platform data
 7d2b31f833b7faf2f17f9d54cf3820367ba85a23 i2c: davinci: order includes alphabetically
 8abbc711da605e530a0f06bed7feb76df35e99f7 i2c: davinci: use generic device property accessors
 4262df2a69c32a0bce87d75342f6f8e3a535d7cb i2c: imx-lpi2c: make controller available until the system enters suspend_noirq() and from resume_noirq().
@@ -1050,5 +1049,6 @@ d78794d4f4dbeac0a39e15d2fbc8e917741b5b7c Merge tag 'thermal-6.14-rc1' of git://g
 8fb1e2eed14dc347e1d04b8bf0bf52c606de6da1 Merge tag 'linux_kselftest-next-6.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 e8f17cb6f5abd4e52e89b5768c7016b7dab1e6fe Merge tag 'linux_kselftest-kunit-6.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 7004a2e46d1693848370809aa3d9c340a209edbb Merge tag 'linux_kselftest-nolibc-6.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
+58c58c95a3387e2683816cd8e01e387bd0404d1f Merge branch 'linus'
 
---===============2466465298960486452==--
+--===============1877955386991751972==--
