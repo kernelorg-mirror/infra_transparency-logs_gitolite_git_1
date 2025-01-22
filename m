@@ -1,74 +1,80 @@
-Content-Type: multipart/mixed; boundary="===============0815905690990291901=="
+Content-Type: multipart/mixed; boundary="===============0817416325188311758=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 22 Jan 2025 04:13:10 -0000
-Message-Id: <173751919077.1360524.1969745937989620696@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/linux
+Date: Wed, 22 Jan 2025 04:55:29 -0000
+Message-Id: <173752172902.1394392.15317103476436611296@gitolite.kernel.org>
 
---===============0815905690990291901==
+--===============0817416325188311758==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/vireshk/linux
+user: vireshk
 changes:
-  - ref: refs/heads/master
-    old: b394eabd539d01db10e27b57ac2497cbd1d32c6d
-    new: c4b9570cfb63501638db720f3bee9f6dfd044b82
-    log: revlist-b394eabd539d-c4b9570cfb63.txt
+  - ref: refs/heads/virtio/msg
+    old: 745c0ff8384cf21af232adce524e83cb85496336
+    new: b13928e3e6f907a770f53501f16d06f409c0f85b
+    log: revlist-745c0ff8384c-b13928e3e6f9.txt
+  - ref: refs/heads/virtio/msg-xen
+    old: 704fb6afb2d888f5d598e8ad9a66b582116e9d5e
+    new: 1637d5c28825fad9fb3abc2b0d12417701a65d90
+    log: revlist-704fb6afb2d8-1637d5c28825.txt
 
---===============0815905690990291901==
+--===============0817416325188311758==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b394eabd539d-c4b9570cfb63.txt
+Content-Disposition: attachment; filename=revlist-745c0ff8384c-b13928e3e6f9.txt
 
-6fba89813ccf333d2bc4d5caea04cd5f3c39eb50 lsm: ensure the correct LSM context releaser
-2d470c778120d3cdb8d8ab250329ca85f49f12b1 lsm: replace context+len with lsm_context
-76ecf306ae5da84ef8f48c7a2608736e6866440c lsm: use lsm_context in security_inode_getsecctx
-b530104f50e86db6f187d39fed5821b3cca755ee lsm: lsm_context in security_dentry_init_security
-a4626e978677e3d3e816fdc217d8416c8b9462ae lsm: secctx provider check on release
-9c76eaf784886603a010f0af7071c2b4d7f574c5 rust: replace lsm context+len with lsm_context
-e92eebb0d6116f942ab25dfb1a41905aa59472a8 audit: fix suffixed '/' filename matching
-6f71ad02aae83f7032255863e374acadaa852bea smack: deduplicate access to string conversion
-254ef9541d68bd9d75296b2487ec97d4d6d40d57 ima: Suspend PCR extends and log appends when rebooting
-b01c939d5854bbf1acf6109ba7a0f74993a22b19 selinux: add generated av_permissions.h to targets
-c75c7945cd49c05404b00358108084a175a5fb29 selinux: use native iterator types
-034294fbfdf0ded4f931f9503d2ca5bbf8b9aebd selinux: Fix SCTP error inconsistency in selinux_socket_bind()
-4aa176193475d37441cc52b84088542f3a59899a selinux: add support for xperms in conditional policies
-2ef6fc99e0d922a54073e7b6d6465c62f4d3b62b selinux: add netlink nlmsg_type audit message
-012920131013208186ce0ded0ef1c47fa67a70f6 binder: initialize lsm_context structure
-bf2066caee80c1612cb5a3356dc16a7a298f58ab firmware: google: cbmem: Constify 'struct bin_attribute'
-7da14dea76fb6a90f62938e6dfa9f34c980af358 firmware: google: gsmi: Constify 'struct bin_attribute'
-093d752032f723da665cdaa6077ee62b3931e48b firmware: google: memconsole: Use const 'struct bin_attribute' callback
-7543d5702c2cfe0e8e8bc8bf4fe8cd44f08d6d39 firmware: google: vpd: Use const 'struct bin_attribute' callback
-7a9b65ab0abd52ae646ba327522315d7500a7d4f selftests: refactor the lsm `flags_overset_lsm_set_self_attr` test
-68af44a71975688b881ea524e2526bb7c7ad0e9a ima: kexec: silence RCU list traversal warning
-7eef7c8bac9a31f12ae19369582bc25971bc8fe1 ima: limit the builtin 'tcb' dont_measure tmpfs policy rule
-4785ed362a24d4f37ee0eb4403f587fee886f8da ima: ignore suffixed policy rule comments
-7ccbe076d987598b04b4b9c9b61f042291f9cc77 lsm: Only build lsm_audit.c if CONFIG_SECURITY and CONFIG_AUDIT are set
-241d6a66404c975415fd0facaf70d61b37248f50 security: remove redundant assignment to return variable
-b0966c7c816a0be9a34cdf4fb16fdb89560af623 lsm: constify function parameters
-b00083aed484a2885bc92c6a7a85d7952c101d75 lsm: rename variable to avoid shadowing
-3b44cd0998678b55a0df20b514bca0e298f4ff48 net: corrections for security_secid_to_secctx returns
-f09ff307c7299392f1c88f763299e24bc99811c7 safesetid: check size of policy writes
-714d87c90a766e6917f7d69f618b864d350f09d3 lockdown: initialize local array before use to quiet static analysis
-9d8d094fa307a93674d9126bd05adbda8b3c0011 selinux: supply missing field initializers
-046b85a993a19c992da317b2c19e168d1da795af selinux: avoid using types indicating user space interaction
-90903085101107b06158d2407bb2a6045af6dead selinux: constify and reconcile function parameter names
-5e99b81f48cd565a5341c921e62fd09184d6bb72 selinux: rework match_ipv6_addrmask()
-83e7e18eed6e06cd1ce82fa4b9c9a05c24f7a80b selinux: rename comparison functions for clarity
-f07586160fd5492f8d48e7667e7a5d8797aa5090 selinux: use known type instead of void pointer
-749153636643aaa793f14e84e864fdaf5ed0620d selinux: avoid unnecessary indirection in struct level_datum
-01c2253a0fbdccb58cd79d4ff9ab39964bfb4474 selinux: make more use of str_read() when loading the policy
-7dd457a2fd78f3dd39aad4579d13e9eed2effbca Merge tag 'chrome-platform-firmware-v6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/chrome-platform/linux
-0ca0cf9f8cb16e3850e5242d68a1825d286e6a68 Merge tag 'integrity-v6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/zohar/linux-integrity
-678ca9f78e40ec8ebbd054b0c22bd3b5ecc6c7e4 Merge tag 'Smack-for-6.14' of https://github.com/cschaufler/smack-next
-f96a974170b749e3a56844e25b31d46a7233b6f6 Merge tag 'lsm-pr-20250121' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
-690ffcd817eaad3bd25a24dd8d63d9d97adf5cfe Merge tag 'selinux-pr-20250121' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
-c4b9570cfb63501638db720f3bee9f6dfd044b82 Merge tag 'audit-pr-20250121' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
+5a8b1cd466a06d928048c765202c2a29c5e8f1b8 firmware: arm_ffa: Partition info returns self as well
+22c1e382a55021cc85ee1be419c4d4348c469d59 firmware: arm_ffa: Allow multiple UUIDs per partition
+eb3bf0043997996773a790b4924ce112271fe2c0 dt-bindings: firmware: Add bindings for ARM FFA
+914e189c7fae07f14050955ef1ee5b90b6585642 firmware: arm_ffa: Setup of_node for ffa devices
+99117db20607b874345bb5eb4774970abedf6946 firmware: arm_ffa: Provide .dma_configure()
+90eb51bdd1d62096eb7e74525c9f3beb2a3e9577 firmware: arm_ffa: Extend interfaces to support framework notifications
+0cabe4721251d62df0d0d0c1cbb912b6dbdfc392 firmware: arm_ffa: Add support for framework notifications
+04077df00e07d96237c5738b5f9c59d039e4c851 firmware: arm_ffa: Fix buffer handling for indirect messages
+ac315b9147650bdbdef69c48a5e5691a95152b3f firmware: arm_ffa: Fix bitmaps for framework interrupts
+62b92698450b09709bb0ca82d76bca9da31a29c9 firmware: arm_ffa: Fix update notifier callback with buffer
+9c54ee462ad78c66930397c4100559ffde122bd3 firmware: arm_ffa: Bump version to 1.2
+39224c9566b5eaac4569a79bfc919d616a2fdbf4 virtio: Add support for virtio-msg transport
+d1d95199ac7725c8ab5e2481f660622125ee4b9d virtio-msg: Add support for FFA based channel bus
+1b03f4015f5bb6c94175bea7b3ed053a60e895aa virtio-msg: Add DMA OPs support
+b13928e3e6f907a770f53501f16d06f409c0f85b virtio-msg: ffa: Add reserved mem support
 
---===============0815905690990291901==--
+--===============0817416325188311758==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-704fb6afb2d8-1637d5c28825.txt
+
+5a8b1cd466a06d928048c765202c2a29c5e8f1b8 firmware: arm_ffa: Partition info returns self as well
+22c1e382a55021cc85ee1be419c4d4348c469d59 firmware: arm_ffa: Allow multiple UUIDs per partition
+eb3bf0043997996773a790b4924ce112271fe2c0 dt-bindings: firmware: Add bindings for ARM FFA
+914e189c7fae07f14050955ef1ee5b90b6585642 firmware: arm_ffa: Setup of_node for ffa devices
+99117db20607b874345bb5eb4774970abedf6946 firmware: arm_ffa: Provide .dma_configure()
+90eb51bdd1d62096eb7e74525c9f3beb2a3e9577 firmware: arm_ffa: Extend interfaces to support framework notifications
+0cabe4721251d62df0d0d0c1cbb912b6dbdfc392 firmware: arm_ffa: Add support for framework notifications
+04077df00e07d96237c5738b5f9c59d039e4c851 firmware: arm_ffa: Fix buffer handling for indirect messages
+ac315b9147650bdbdef69c48a5e5691a95152b3f firmware: arm_ffa: Fix bitmaps for framework interrupts
+62b92698450b09709bb0ca82d76bca9da31a29c9 firmware: arm_ffa: Fix update notifier callback with buffer
+9c54ee462ad78c66930397c4100559ffde122bd3 firmware: arm_ffa: Bump version to 1.2
+39224c9566b5eaac4569a79bfc919d616a2fdbf4 virtio: Add support for virtio-msg transport
+d1d95199ac7725c8ab5e2481f660622125ee4b9d virtio-msg: Add support for FFA based channel bus
+1b03f4015f5bb6c94175bea7b3ed053a60e895aa virtio-msg: Add DMA OPs support
+b13928e3e6f907a770f53501f16d06f409c0f85b virtio-msg: ffa: Add reserved mem support
+9ae879f22bd0e6bcafccf4669ce5bf26903c33d2 virtio-msg: Add helpers to create per-bus miscdevice
+3fe6896a14f142dffbff484f03498defdbb62e48 virtio: Add support for MMIO based channel bus
+becc345d1f4c44ac7ca9674329343e8e8783b557 HACK: firmware: arm_ffa: Partitions can come online after the host
+7162534d4366e3a8c64c5530a625e4d473c221db HACK: firmware: arm_ffa: Forcefully match UUID to virtio-msg-ffa
+32001fc7db577b908cb00a39fc8e721473fea27f HACK: virtio-msg: ffa: Make it work on the host side
+07f086b44a2ec2a35d2d36b908f9b95fc1be4765 Revert "virtio-msg: ffa: Add reserved mem support"
+bb610a2a6fc3b3b46c62adbfc9c77e7eaf50012e TEMP: defconfig: Reset
+c3ba731d973788a300b2fe8b57d397317be012c0 TEMP: defconfig: Enable virtio-msg + qemu/xen options
+1637d5c28825fad9fb3abc2b0d12417701a65d90 TEMP: defconfig: Enable INITRAMFS for guest kernel
+
+--===============0817416325188311758==--
