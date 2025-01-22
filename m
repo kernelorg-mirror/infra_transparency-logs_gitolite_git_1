@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6387621445988433695=="
+Content-Type: multipart/mixed; boundary="===============4329721336261143643=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Wed, 22 Jan 2025 12:33:01 -0000
-Message-Id: <173754918156.1754321.12347691409741043315@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Wed, 22 Jan 2025 12:50:25 -0000
+Message-Id: <173755022589.1769289.9986860434656072412@gitolite.kernel.org>
 
---===============6387621445988433695==
+--===============4329721336261143643==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/powerpc/linux
-user: maddy
-git_push_cert_status: E
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: 2bf66e66d2e6feece6175ec09ec590a0a8563bdd
-    new: ae908b87b6bb32c170e9baf5858f2a7553cacc06
+  - ref: refs/heads/master
+    old: 14c0e4a0f2ba8aadf4f3141e4b1e6b94cbfd6ece
+    new: 044d47634880dda6a3117e63b92da0bb3425808f
     log: |
-         11b93559000c686ad7e5ab0547e76f21cc143844 powerpc/pseries/eeh: Fix get PE state translation
-         17391cb2613b82f8c405570fea605af3255ff8d2 powerpc/pseries/iommu: Don't unset window if it was never set
-         ae908b87b6bb32c170e9baf5858f2a7553cacc06 powerpc: increase MIN RMA size for CAS negotiation
+         044d47634880dda6a3117e63b92da0bb3425808f reject CVE-2024-57937 based on upstream review
          
 
---===============6387621445988433695==
+--===============4329721336261143643==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1737549195 +0530
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1737549164-834f6f2f5e8badac88c21b7e5c5ab6c789e73328
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1737550252 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1737550222-a1b5028daa2e020c2a84ef93d2bfa14e1eee4c83
 
-2bf66e66d2e6feece6175ec09ec590a0a8563bdd ae908b87b6bb32c170e9baf5858f2a7553cacc06 refs/heads/next
+14c0e4a0f2ba8aadf4f3141e4b1e6b94cbfd6ece 044d47634880dda6a3117e63b92da0bb3425808f refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmeQ5YsACgkQpnEsdPSH
-ZJR2xA/9HZSksQuVniqafT+vesO0xxAJEDJ6VFqcGWvY1WHV2YJAHiVYDw+CYgPL
-TdHM6MEp/L7q3hm3MNchBz0fc2Mw0mBaubjfp2u0ihTO2CT2MCd033IKKnHujdx1
-X1EisRZJ/5tKl6bKxXjM+Y0DNpO0qAFE+Dsm9WglgJw9Fxe2G/N3zoPw9VxUg9na
-cCtOGDbmMnjdHky6eysBcUcUV8+hRGXS1NTpy2MdBpDa7nR4ce1UEIgoLu9lQWSz
-3TOcIeS6+zwjwE/NDLIs2TbzZ+5dS/fCevJCeHvB82CAMXplsjYftAZQr4mm8TB9
-FjM+SV4Z8gmOaqc9dIfWuA+5IhopZay9tv8yTA870y3jtJHGwLIbb2jqw+VgfLXX
-sGn4+WCn0HLFfE3Rs+Ez0B0IztGe6B2+ozSdzP6SFqhroY+9Ll7C4go390+t1FYO
-OaBY44jn8Vz/IYFqLChJjddhRm69eq9KVx97zm9kgA4cTTzbfen9jdiYD/tMO+4y
-GMuqsHzN/DC3EMq8ooKw45dyR424QgjRs3Fp9BWXpTiCQ4co+2FvfnruL1GAVbej
-0zpyWI6DBrIL3as3XagAn4i4L3lIq2zaF4aKEEWJ3BFmUCsARePKTazXu4M/0vHB
-Hzmar097vsdrFG5YTmAuytcC4XTyIM2s+gRoZKRsC2GKle/q8CQ=
-=cZNT
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeQ6a0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DYoP/0MeKY3krWxKcVBFv/yw
+j/34Ssiire4DXKj+oNs1hIEMHoxipefOvbsn6SDu8ZjDVzT1VzncHO2YlKdBxsjc
+h6i1/q70MrPGJ9pIWWUJzBfn7Yo9wGpcns/b+MK7wmVulos3bCiZZ2aDqKYSOijl
+vvsUtJ65Yj5jGbF3F/8o2W76sXcr0IOQrHCsVp1CRbBUMwzSHBQvijHWgvRqDROq
+lnGBUkS5QlsUU/WwFghLbuahsU7yd+bFJPOIchpnwU1G8+FgAjjVHWumyIXGdG5v
+8glgAlUhIOhm3LIntRWJ4qPj1+uiu8spb1+MKGZZF6C3Jgrn0jgGxhkPBKYTOyjn
+LfhWecJHMNNVnT8HdcpeS1oL4xkabMPnt9qLV/Jg58nsL8LME68o/pAZb0mv4I/g
+u+oyA2drcT7z7h5C6jtpuXFBE6KYdcQNyqSbUkzn9Lqz7b96BWv2vTRf4AN1wFZ/
+0dEZKjrrGKNorwm0Z95AFScrWGm98KrZhJ7867V5g2JOLr15AsmMjqdmYM/DmqA1
+0rCYOK3HfmAKGVNErdxPogeoVTnpaUaJMQwgh/iC/XBGvvPstNwGeoK/sRYgXr0R
++7biwIVOUVQ7roogFmpYyZnxSfJUPeIT7xiaXxUHlqM5TuIXsdEFRhEOnsBBbmBx
+6tN8NpQWEPkDnkI+hf/jy7sM
+=xsB6
 -----END PGP SIGNATURE-----
 
---===============6387621445988433695==--
+--===============4329721336261143643==--
