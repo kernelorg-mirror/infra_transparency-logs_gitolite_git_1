@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1877955386991751972=="
+Content-Type: multipart/mixed; boundary="===============4991812983304472379=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 22 Jan 2025 21:55:43 -0000
-Message-Id: <173758294305.2219578.157234220766742099@gitolite.kernel.org>
+Date: Wed, 22 Jan 2025 21:56:00 -0000
+Message-Id: <173758296088.2219863.2537500457058438341@gitolite.kernel.org>
 
---===============1877955386991751972==
+--===============4991812983304472379==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,24 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 314b4866781b67753f38090314aa37cbc35f8706
-    new: 58c58c95a3387e2683816cd8e01e387bd0404d1f
-    log: revlist-314b4866781b-58c58c95a338.txt
+    old: 58c58c95a3387e2683816cd8e01e387bd0404d1f
+    new: b79d90e018587507fd42c4c888956668692ff431
+    log: |
+         b7515e314124c081ffe15764bbdc9c024d6133ed Merge branch into tip/master: 'sched/urgent'
+         8cbaa4b98b77cb9f24a447df12113149dfe82d75 Merge branch into tip/master: 'x86/merge'
+         5d071c0308662d1a280467ebd72ef7ab3e02ceba Merge branch into tip/master: 'x86/mm'
+         b79d90e018587507fd42c4c888956668692ff431 Merge branch into tip/master: 'x86/tdx'
+         
+  - ref: refs/heads/tip/urgent
+    old: d8c106d1a981cda7bbaa9a2465eef53d4f651318
+    new: b7515e314124c081ffe15764bbdc9c024d6133ed
+    log: revlist-d8c106d1a981-b7515e314124.txt
 
---===============1877955386991751972==
+--===============4991812983304472379==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-314b4866781b-58c58c95a338.txt
+Content-Disposition: attachment; filename=revlist-d8c106d1a981-b7515e314124.txt
 
 7d2b31f833b7faf2f17f9d54cf3820367ba85a23 i2c: davinci: order includes alphabetically
 8abbc711da605e530a0f06bed7feb76df35e99f7 i2c: davinci: use generic device property accessors
@@ -1049,6 +1058,6 @@ d78794d4f4dbeac0a39e15d2fbc8e917741b5b7c Merge tag 'thermal-6.14-rc1' of git://g
 8fb1e2eed14dc347e1d04b8bf0bf52c606de6da1 Merge tag 'linux_kselftest-next-6.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 e8f17cb6f5abd4e52e89b5768c7016b7dab1e6fe Merge tag 'linux_kselftest-kunit-6.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 7004a2e46d1693848370809aa3d9c340a209edbb Merge tag 'linux_kselftest-nolibc-6.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-58c58c95a3387e2683816cd8e01e387bd0404d1f Merge branch 'linus'
+b7515e314124c081ffe15764bbdc9c024d6133ed Merge branch into tip/master: 'sched/urgent'
 
---===============1877955386991751972==--
+--===============4991812983304472379==--
