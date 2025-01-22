@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9068271049108544814=="
+Content-Type: multipart/mixed; boundary="===============1160997092809869354=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vireshk/linux
-Date: Wed, 22 Jan 2025 05:10:20 -0000
-Message-Id: <173752262095.1406286.5239786537779641968@gitolite.kernel.org>
+Date: Wed, 22 Jan 2025 05:11:26 -0000
+Message-Id: <173752268666.1406799.1562996819544965020@gitolite.kernel.org>
 
---===============9068271049108544814==
+--===============1160997092809869354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,65 +16,65 @@ repo: pub/scm/linux/kernel/git/vireshk/linux
 user: vireshk
 changes:
   - ref: refs/heads/virtio/msg
-    old: b13928e3e6f907a770f53501f16d06f409c0f85b
-    new: e3bfe78e4e3c6e99dd901d5ba9894fd48af7d5a1
-    log: revlist-b13928e3e6f9-e3bfe78e4e3c.txt
+    old: e3bfe78e4e3c6e99dd901d5ba9894fd48af7d5a1
+    new: 1f9a1b4f82a119704d186530c07bdf50393c19dc
+    log: revlist-e3bfe78e4e3c-1f9a1b4f82a1.txt
   - ref: refs/heads/virtio/msg-xen
-    old: 1637d5c28825fad9fb3abc2b0d12417701a65d90
-    new: b7abef6a9e328a7f605a93db6e5abe1e835f18ee
-    log: revlist-1637d5c28825-b7abef6a9e32.txt
+    old: b7abef6a9e328a7f605a93db6e5abe1e835f18ee
+    new: 7a57a96098a995b1a87b6f6639277131d1f2c43e
+    log: revlist-b7abef6a9e32-7a57a96098a9.txt
 
---===============9068271049108544814==
+--===============1160997092809869354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b13928e3e6f9-e3bfe78e4e3c.txt
+Content-Disposition: attachment; filename=revlist-e3bfe78e4e3c-1f9a1b4f82a1.txt
 
-02c416b5cab34308668b4aed655cf1f017dc96b0 firmware: arm_ffa: Partition info returns self as well
-f9ccbaae6859a4c29c3d2878af2778282e5d9e2b firmware: arm_ffa: Allow multiple UUIDs per partition
-03d69d33128837a4a541b01c7123e0096becef21 dt-bindings: firmware: Add bindings for ARM FFA
-c31307634e1c3d13b907048484a1be5e9513cb9e firmware: arm_ffa: Setup of_node for ffa devices
-2388434f68642127b1b6cb7e53e86ba9fe1d2ebf firmware: arm_ffa: Provide .dma_configure()
-0c9696e05c38efb3450e5163b8fcfa342ac79f23 firmware: arm_ffa: Extend interfaces to support framework notifications
-ad9b4203045392d0e92dac69ec5f1fc4e462eff6 firmware: arm_ffa: Add support for framework notifications
-80e20c9d56cdd7b99699aa9eda378c8cf917c423 firmware: arm_ffa: Fix buffer handling for indirect messages
-ff21a9bc1d88bde738c821505672cb5db50373ff firmware: arm_ffa: Fix bitmaps for framework interrupts
-e810ac0ddf6749d1a78bdb0b0b81bc6a96cb5c18 firmware: arm_ffa: Fix update notifier callback with buffer
-70e98d0717bf765751fdc31814bb86cde9877bc0 firmware: arm_ffa: Bump version to 1.2
-915680c46f7e38829b0b2c8b526c0b070f011df5 virtio: Add support for virtio-msg transport
-eb9f8364422f797a61440ad8af907fb4fc696129 virtio-msg: Add support for FFA based channel bus
-6c9aeacdb3f2bf69ff1705fc98ae7f98f21b0da0 virtio-msg: Add DMA OPs support
-e3bfe78e4e3c6e99dd901d5ba9894fd48af7d5a1 virtio-msg: ffa: Add reserved mem support
+0bc7e1754db0547c6c041ed178cf24ca326af2d1 firmware: arm_ffa: Partition info can returns self as well
+e7990bc3dc128e5056c3bad381e548a49ab67c81 firmware: arm_ffa: Allow multiple UUIDs per partition
+4d653bb5ae3baa8441426127496426d8dbf3aa7c dt-bindings: firmware: Add bindings for ARM FFA
+99c93e025c5f8d9c7a3f47f55965bbb71c81072f firmware: arm_ffa: Setup of_node for ffa devices
+8b8c13a18ba1df05fb93dca1e0309f97fc023019 firmware: arm_ffa: Provide .dma_configure()
+99883ae76d7d256fcc6971c0667ad2ef3455f278 firmware: arm_ffa: Extend interfaces to support framework notifications
+f6f95e12176102759c911e839ab990601b0f6262 firmware: arm_ffa: Add support for framework notifications
+f13dd1c02f1b9f46e908787ec6ed0959ae2890fa firmware: arm_ffa: Fix buffer handling for indirect messages
+12f8b40c093546ab5f103ad524e879011f4493e2 firmware: arm_ffa: Fix bitmaps for framework interrupts
+878485b26861b58460652fb3f90cc026032387be firmware: arm_ffa: Fix update notifier callback with buffer
+429445ef0781861d1b6461659e04904693602e26 firmware: arm_ffa: Bump version to 1.2
+44ae9200a599a98157199f93d4e853b6b6b4f8c2 virtio: Add support for virtio-msg transport
+4babcf6577f332306326bf6561bfcc0add81ea6f virtio-msg: Add support for FFA based channel bus
+d76c666d11b878aeb9e6328eaca88409a36cbe17 virtio-msg: Add DMA OPs support
+1f9a1b4f82a119704d186530c07bdf50393c19dc virtio-msg: ffa: Add reserved mem support
 
---===============9068271049108544814==
+--===============1160997092809869354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1637d5c28825-b7abef6a9e32.txt
+Content-Disposition: attachment; filename=revlist-b7abef6a9e32-7a57a96098a9.txt
 
-02c416b5cab34308668b4aed655cf1f017dc96b0 firmware: arm_ffa: Partition info returns self as well
-f9ccbaae6859a4c29c3d2878af2778282e5d9e2b firmware: arm_ffa: Allow multiple UUIDs per partition
-03d69d33128837a4a541b01c7123e0096becef21 dt-bindings: firmware: Add bindings for ARM FFA
-c31307634e1c3d13b907048484a1be5e9513cb9e firmware: arm_ffa: Setup of_node for ffa devices
-2388434f68642127b1b6cb7e53e86ba9fe1d2ebf firmware: arm_ffa: Provide .dma_configure()
-0c9696e05c38efb3450e5163b8fcfa342ac79f23 firmware: arm_ffa: Extend interfaces to support framework notifications
-ad9b4203045392d0e92dac69ec5f1fc4e462eff6 firmware: arm_ffa: Add support for framework notifications
-80e20c9d56cdd7b99699aa9eda378c8cf917c423 firmware: arm_ffa: Fix buffer handling for indirect messages
-ff21a9bc1d88bde738c821505672cb5db50373ff firmware: arm_ffa: Fix bitmaps for framework interrupts
-e810ac0ddf6749d1a78bdb0b0b81bc6a96cb5c18 firmware: arm_ffa: Fix update notifier callback with buffer
-70e98d0717bf765751fdc31814bb86cde9877bc0 firmware: arm_ffa: Bump version to 1.2
-915680c46f7e38829b0b2c8b526c0b070f011df5 virtio: Add support for virtio-msg transport
-eb9f8364422f797a61440ad8af907fb4fc696129 virtio-msg: Add support for FFA based channel bus
-6c9aeacdb3f2bf69ff1705fc98ae7f98f21b0da0 virtio-msg: Add DMA OPs support
-e3bfe78e4e3c6e99dd901d5ba9894fd48af7d5a1 virtio-msg: ffa: Add reserved mem support
-0d33cd6978748747d526023d132038781617955a virtio-msg: Add helpers to create per-bus miscdevice
-5dfd7574fd30320989238b1e96f89f42b5fc4701 virtio: Add support for MMIO based channel bus
-dd1ddf8c611ff7f2a5d5ef993790edeff4c04d72 HACK: firmware: arm_ffa: Partitions can come online after the host
-c7686f33e3b9a228fc8793e049de0c61ddb6b6a1 HACK: firmware: arm_ffa: Forcefully match UUID to virtio-msg-ffa
-865faad7dd508bc556acab5aa4d55a5b7d1b9a51 HACK: virtio-msg: ffa: Make it work on the host side
-4d1a72df3d924f3fabbd72133850bd2cb53763bb Revert "virtio-msg: ffa: Add reserved mem support"
-d47559acf63b969ff47dd7abe5f7e80c3a28b690 TEMP: defconfig: Reset
-b83ba417b8dce0734303f1997d1814283eea64ee TEMP: defconfig: Enable virtio-msg + qemu/xen options
-b7abef6a9e328a7f605a93db6e5abe1e835f18ee TEMP: defconfig: Enable INITRAMFS for guest kernel
+0bc7e1754db0547c6c041ed178cf24ca326af2d1 firmware: arm_ffa: Partition info can returns self as well
+e7990bc3dc128e5056c3bad381e548a49ab67c81 firmware: arm_ffa: Allow multiple UUIDs per partition
+4d653bb5ae3baa8441426127496426d8dbf3aa7c dt-bindings: firmware: Add bindings for ARM FFA
+99c93e025c5f8d9c7a3f47f55965bbb71c81072f firmware: arm_ffa: Setup of_node for ffa devices
+8b8c13a18ba1df05fb93dca1e0309f97fc023019 firmware: arm_ffa: Provide .dma_configure()
+99883ae76d7d256fcc6971c0667ad2ef3455f278 firmware: arm_ffa: Extend interfaces to support framework notifications
+f6f95e12176102759c911e839ab990601b0f6262 firmware: arm_ffa: Add support for framework notifications
+f13dd1c02f1b9f46e908787ec6ed0959ae2890fa firmware: arm_ffa: Fix buffer handling for indirect messages
+12f8b40c093546ab5f103ad524e879011f4493e2 firmware: arm_ffa: Fix bitmaps for framework interrupts
+878485b26861b58460652fb3f90cc026032387be firmware: arm_ffa: Fix update notifier callback with buffer
+429445ef0781861d1b6461659e04904693602e26 firmware: arm_ffa: Bump version to 1.2
+44ae9200a599a98157199f93d4e853b6b6b4f8c2 virtio: Add support for virtio-msg transport
+4babcf6577f332306326bf6561bfcc0add81ea6f virtio-msg: Add support for FFA based channel bus
+d76c666d11b878aeb9e6328eaca88409a36cbe17 virtio-msg: Add DMA OPs support
+1f9a1b4f82a119704d186530c07bdf50393c19dc virtio-msg: ffa: Add reserved mem support
+e26ac789ad5bb441f4a73a6dc99f7696f93d0700 virtio-msg: Add helpers to create per-bus miscdevice
+f7d28ed52cbb480cfe0975ed1155fc9bfff49a6f virtio: Add support for MMIO based channel bus
+17ab12efa2d1c7e2b8366bc11a976277c76e37dc HACK: firmware: arm_ffa: Partitions can come online after the host
+0bebb7a2d3ff78e7607899e771908853752656e4 HACK: firmware: arm_ffa: Forcefully match UUID to virtio-msg-ffa
+88c8c7cda3281a76be307f5d523fe4eff8652148 HACK: virtio-msg: ffa: Make it work on the host side
+85eb6722dcf15a22d9a6b83a5ee614d982a8f71a Revert "virtio-msg: ffa: Add reserved mem support"
+70944c27ea92df9ee15a94b6badfdf3ae7afa216 TEMP: defconfig: Reset
+16dfef74bf27fa1a2a06ff79f5fcd99863a814f4 TEMP: defconfig: Enable virtio-msg + qemu/xen options
+7a57a96098a995b1a87b6f6639277131d1f2c43e TEMP: defconfig: Enable INITRAMFS for guest kernel
 
---===============9068271049108544814==--
+--===============1160997092809869354==--
