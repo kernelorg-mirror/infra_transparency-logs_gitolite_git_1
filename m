@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Wed, 22 Jan 2025 11:09:43 -0000
-Message-Id: <173754418392.1686563.14087906976472013638@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jirislaby/linux
+Date: Wed, 22 Jan 2025 11:18:10 -0000
+Message-Id: <173754469087.1693559.16858084160466490522@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/jirislaby/linux
+user: jirislaby
 changes:
-  - ref: refs/heads/ffa_updates
-    old: 4d3b49e8e17f78c94285b7a17c3d51779a9f3867
-    new: 0099b8bc01ea58b7bd0188e4cff0c814144b69f0
+  - ref: refs/heads/devel
+    old: ea72e6ca83393d3eeef823e359861a10a4d3c472
+    new: 68deb05c77471f4cd4e4f9c9df45e22fc521e50e
     log: |
-         0b6378c8e2741d8db138ebdfba816219ffa34e17 firmware: arm_ffa: Add support for passing UUID in FFA_MSG_SEND2
-         a99150135d3b6a48670f2d060ba70183a4e15778 firmware: arm_ffa: Extend interfaces to support framework notifications
-         0099b8bc01ea58b7bd0188e4cff0c814144b69f0 firmware: arm_ffa: Add support for framework notifications
+         3b4d070efa12accf0318039c62c0a5558f209ee4 tty: n_tty: use uint for space returned by tty_write_room()
+         8d18b0f5d2ad3aa25f78959cde20966686de68fb n_tty: simplify process_output()
+         6bd1490d7e62d47a18c7693b5a3163b4176d007d n_tty: clean up process_output_block()
+         68deb05c77471f4cd4e4f9c9df45e22fc521e50e BRANCH_MARKER: work
          
