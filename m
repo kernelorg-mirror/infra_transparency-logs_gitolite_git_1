@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8082234506005082829=="
+Content-Type: multipart/mixed; boundary="===============1914583064726447108=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 22 Jan 2025 07:49:57 -0000
-Message-Id: <173753219764.1529010.14352539061928100763@gitolite.kernel.org>
+Date: Wed, 22 Jan 2025 07:50:15 -0000
+Message-Id: <173753221568.1530812.14368818729307740830@gitolite.kernel.org>
 
---===============8082234506005082829==
+--===============1914583064726447108==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,24 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 21dd93c0e4f37e4f091a540c2432929cb3c0a48e
-    new: e7ff6a057ab62b8d3db597e50f2a557d4ea2ab5f
-    log: revlist-21dd93c0e4f3-e7ff6a057ab6.txt
+    old: e7ff6a057ab62b8d3db597e50f2a557d4ea2ab5f
+    new: 314b4866781b67753f38090314aa37cbc35f8706
+    log: |
+         d8c106d1a981cda7bbaa9a2465eef53d4f651318 Merge branch into tip/master: 'sched/urgent'
+         022cfa2d5b606d4261e6ce346caacfe01571c20e Merge branch into tip/master: 'x86/merge'
+         254e23b7474bc73c9d39f358d2b1428472c0e8d4 Merge branch into tip/master: 'x86/mm'
+         314b4866781b67753f38090314aa37cbc35f8706 Merge branch into tip/master: 'x86/tdx'
+         
+  - ref: refs/heads/tip/urgent
+    old: e20a854ae12234c064559a5a7a0f37c257d55131
+    new: d8c106d1a981cda7bbaa9a2465eef53d4f651318
+    log: revlist-e20a854ae122-d8c106d1a981.txt
 
---===============8082234506005082829==
+--===============1914583064726447108==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-21dd93c0e4f3-e7ff6a057ab6.txt
+Content-Disposition: attachment; filename=revlist-e20a854ae122-d8c106d1a981.txt
 
 4a696a2ee646ea6f24c28b3624175a7b35482c52 drm/virtio: Add prepare and cleanup routines for imported dmabuf obj
 be2c51c3e37d95e7c0e13636c07ea79ec42333cb drm/cirrus: Use virtual encoder and connector types
@@ -1049,6 +1058,6 @@ b394eabd539d01db10e27b57ac2497cbd1d32c6d Merge tag 'chrome-platform-v6.14' of gi
 f96a974170b749e3a56844e25b31d46a7233b6f6 Merge tag 'lsm-pr-20250121' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
 690ffcd817eaad3bd25a24dd8d63d9d97adf5cfe Merge tag 'selinux-pr-20250121' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
 c4b9570cfb63501638db720f3bee9f6dfd044b82 Merge tag 'audit-pr-20250121' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
-e7ff6a057ab62b8d3db597e50f2a557d4ea2ab5f Merge branch 'linus'
+d8c106d1a981cda7bbaa9a2465eef53d4f651318 Merge branch into tip/master: 'sched/urgent'
 
---===============8082234506005082829==--
+--===============1914583064726447108==--
