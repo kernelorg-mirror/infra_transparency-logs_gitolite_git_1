@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 22 Jan 2025 19:49:33 -0000
-Message-Id: <173757537356.2116598.18195964036348103739@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Wed, 22 Jan 2025 19:56:10 -0000
+Message-Id: <173757577025.2123078.7822173060371801950@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/io_uring-6.14
-    old: 2839ab71ac9009884fe41a7422a167a64716c0a7
-    new: 0963dba3dc006b454c54fd019bbbdb931e7a7c70
+  - ref: refs/heads/pending
+    old: a93185b708f259ace63414b8529e9e15c6323b69
+    new: 29d6569f323a88ccb3239abea562f6e691cfd9e4
     log: |
-         0963dba3dc006b454c54fd019bbbdb931e7a7c70 io_uring/uring_cmd: add missing READ_ONCE() on shared memory read
+         29d6569f323a88ccb3239abea562f6e691cfd9e4 wifi: ath12k: fix skb_ext_desc leak in ath12k_dp_tx() error path
          
