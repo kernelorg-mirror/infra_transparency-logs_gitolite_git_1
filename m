@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6626529058804001223=="
+Content-Type: multipart/mixed; boundary="===============0780930962178045911=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 23 Jan 2025 08:52:11 -0000
-Message-Id: <173762233176.2741490.13995769982082032932@gitolite.kernel.org>
+Date: Thu, 23 Jan 2025 08:52:28 -0000
+Message-Id: <173762234821.2741807.11294438187775993252@gitolite.kernel.org>
 
---===============6626529058804001223==
+--===============0780930962178045911==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: 679ea53f711acfcb8e37facab44009cd95814172
     new: a3a860bc0fd6c07332e4911cf9a238d20de90173
     log: revlist-679ea53f711a-a3a860bc0fd6.txt
 
---===============6626529058804001223==
+--===============0780930962178045911==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ad2aec7c963e8ce32c2f2106276ab6ba549ff355 Merge tag 'tomoyo-pr-20250123' of git:/
 21266b8df5224c4f677acf9f353eecc9094731f0 Merge tag 'AT_EXECVE_CHECK-v6.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 a3a860bc0fd6c07332e4911cf9a238d20de90173 tpm: Change to kvalloc() in eventlog/acpi.c
 
---===============6626529058804001223==--
+--===============0780930962178045911==--
