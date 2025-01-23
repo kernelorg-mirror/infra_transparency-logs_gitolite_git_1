@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Thu, 23 Jan 2025 18:53:09 -0000
-Message-Id: <173765838910.3387411.13266858697726664056@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Thu, 23 Jan 2025 18:56:04 -0000
+Message-Id: <173765856488.3390860.5702537518789584508@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/for-next
-    old: 1851bccf608a28ac5ec9410764dda9a46828213b
-    new: d470a03180cd0d84d6c0bf6e523cd2e12b81a426
+  - ref: refs/heads/master
+    old: f2ed57ed555bf229f6a20734ec2f1ac827dfc563
+    new: 628c15a5b1f6f1db9f4534b609c3732b592b0536
     log: |
-         d470a03180cd0d84d6c0bf6e523cd2e12b81a426 gfs2: Decode missing glock flags in tracepoints
+         628c15a5b1f6f1db9f4534b609c3732b592b0536 shared/shell: add proper line clean to bt_shell_printf
          
