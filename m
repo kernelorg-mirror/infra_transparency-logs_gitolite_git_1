@@ -1,25 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 23 Jan 2025 19:35:55 -0000
-Message-Id: <173766095557.3427711.7318472996955046130@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
+Date: Thu, 23 Jan 2025 19:36:55 -0000
+Message-Id: <173766101556.3428210.10493716510542271614@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/ukleinek/linux
+user: ukleinek
 changes:
-  - ref: refs/heads/kdevops
-    old: d18d33bb2c4a9ef54aac5f41c33458e82e1ea803
-    new: 5466cee0ec6bb9d06569ac785bc50aeb0861fffb
+  - ref: refs/heads/pwm/fixes
+    old: e7e1e5946def2e9dabc9b9a4bd4ed908e9f7032e
+    new: da6b353786997c0ffa67127355ad1d54ed3324c2
     log: |
-         3060e1f8a1168bf655c87bb677ad609a81a02b62 nfsd: CB_SEQUENCE error handling fixes and cleanups
-         693af230996a5b9b5c3f3788af1176d3685e55b6 nfsd: don't restart v4.1+ callback when RPC_SIGNALLED is set
-         d162b6ae5e5fcb69ba41da700498c9b16701e853 nfsd: fix CB_SEQUENCE error handling of NFS4ERR_{BADSLOT,BADSESSION,SEQ_MISORDERED}
-         2f746ce9582214b6f277b0fda566818d75c1e7ed nfsd: when CB_SEQUENCE gets NFS4ERR_DELAY, release the slot
-         17314256e21c764aafca7aca5cf92bf44bf1e782 nfsd: remove unneeded forward declaration of nfsd4_mark_cb_fault()
-         09603115861aaff82819ba4e31674f89b73ff756 nfsd: clean up and amend comments around nfsd4_cb_sequence_done()
-         5466cee0ec6bb9d06569ac785bc50aeb0861fffb sunrpc: make rpc_restart_call() and rpc_restart_call_prepare() void return
+         da6b353786997c0ffa67127355ad1d54ed3324c2 pwm: Ensure callbacks exist before calling them
+         
+  - ref: refs/heads/pwm/for-next
+    old: e7e1e5946def2e9dabc9b9a4bd4ed908e9f7032e
+    new: da6b353786997c0ffa67127355ad1d54ed3324c2
+    log: |
+         da6b353786997c0ffa67127355ad1d54ed3324c2 pwm: Ensure callbacks exist before calling them
+         
+  - ref: refs/heads/pwm/for-nexxt
+    old: 2d9b74da2af0ffb7adb07a9f3e791e62c55f7f2f
+    new: f4a9831511112afdd0835c67191ddc0154c1faa3
+    log: |
+         da6b353786997c0ffa67127355ad1d54ed3324c2 pwm: Ensure callbacks exist before calling them
+         f4a9831511112afdd0835c67191ddc0154c1faa3 pwm: lpss: Only include <linux/pwm.h> where needed
          
