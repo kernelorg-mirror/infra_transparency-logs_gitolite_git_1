@@ -1,35 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 23 Jan 2025 21:20:10 -0000
-Message-Id: <173766721021.3516269.10635383660580408693@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Thu, 23 Jan 2025 21:32:01 -0000
+Message-Id: <173766792115.3524897.14766350754440830409@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/for-linus
-    old: 0c86621c9b31e98a0a3806f31baeb013a95101d1
-    new: 798ac17ac84753d1ee4b27766cf08bd8adb97bab
+  - ref: refs/heads/main-pending
+    old: b378c437b9405fbe6998ab771212783ce31a6c57
+    new: 74557cbe44f8186f8e97443be258293479eddc8e
     log: |
-         4b24c69af9cd5bd8fe98ab2ddd822d73f5e20a00 dt-bindings: arm: imx: Add board revisions for i.MX8MP, i.MX8QM and i.MX8QXP
-         66084793fac9c8b841f65da1809ad0ad398f9f2f ASoC: SOF: imx: Add mach entry to select cs42888 topology
-         a9f54c7fbd2edb28c8d4d812be3d0129167f92d4 ASoC: SOF: imx8: Add entries for new 8QM and 8QXP revisions
-         af65d7d041d486cc55530e14d806e16143037962 ASoC: SOF: imx8m: Add entry for new 8M Plus revision
-         9a0bad41dfb2434ee4e674ffe08df544207c6d80 Add SOF support for new board revisions
-         798ac17ac84753d1ee4b27766cf08bd8adb97bab Merge remote-tracking branch 'asoc/for-6.13' into asoc-linus
+         661f0c434a26dd872d94f22893abe9101c8d09b3 wifi: ath12k: encode max Tx power in scan channel list command
+         74557cbe44f8186f8e97443be258293479eddc8e Merge branch 'pending' into main-pending
          
-  - ref: refs/heads/for-next
-    old: 0c86621c9b31e98a0a3806f31baeb013a95101d1
-    new: 798ac17ac84753d1ee4b27766cf08bd8adb97bab
-    log: |
-         4b24c69af9cd5bd8fe98ab2ddd822d73f5e20a00 dt-bindings: arm: imx: Add board revisions for i.MX8MP, i.MX8QM and i.MX8QXP
-         66084793fac9c8b841f65da1809ad0ad398f9f2f ASoC: SOF: imx: Add mach entry to select cs42888 topology
-         a9f54c7fbd2edb28c8d4d812be3d0129167f92d4 ASoC: SOF: imx8: Add entries for new 8QM and 8QXP revisions
-         af65d7d041d486cc55530e14d806e16143037962 ASoC: SOF: imx8m: Add entry for new 8M Plus revision
-         9a0bad41dfb2434ee4e674ffe08df544207c6d80 Add SOF support for new board revisions
-         798ac17ac84753d1ee4b27766cf08bd8adb97bab Merge remote-tracking branch 'asoc/for-6.13' into asoc-linus
-         
+  - ref: refs/tags/ath-pending-202501232114
+    old: 0000000000000000000000000000000000000000
+    new: 74557cbe44f8186f8e97443be258293479eddc8e
