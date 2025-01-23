@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4243924258795355089=="
+Content-Type: multipart/mixed; boundary="===============0259505340630979753=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 23 Jan 2025 15:17:12 -0000
-Message-Id: <173764543294.3058075.17205454280178927249@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Thu, 23 Jan 2025 15:17:26 -0000
+Message-Id: <173764544614.3058276.3909176995998991638@gitolite.kernel.org>
 
---===============4243924258795355089==
+--===============0259505340630979753==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: 21266b8df5224c4f677acf9f353eecc9094731f0
     log: revlist-ffd294d346d1-21266b8df522.txt
 
---===============4243924258795355089==
+--===============0259505340630979753==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ad2aec7c963e8ce32c2f2106276ab6ba549ff355 Merge tag 'tomoyo-pr-20250123' of git:/
 5ab889facc6893e4a973d6ab5432550ef4f6ff09 Merge tag 'hardening-v6.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 21266b8df5224c4f677acf9f353eecc9094731f0 Merge tag 'AT_EXECVE_CHECK-v6.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 
---===============4243924258795355089==--
+--===============0259505340630979753==--
