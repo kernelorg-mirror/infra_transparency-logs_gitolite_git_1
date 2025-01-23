@@ -1,31 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 23 Jan 2025 11:28:26 -0000
-Message-Id: <173763170632.2867504.11628474689654871102@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Thu, 23 Jan 2025 11:28:42 -0000
+Message-Id: <173763172258.2867884.8114267733716201039@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: aba93815f270f2599a9b12740e5a32bed3ec1ba2
-    new: b9e3ff647a47b4076d99699e22a79921bc0b4328
+    old: 710ca08676d8e1678e81c4609cc4495e245d43e3
+    new: 3c28eb3350c8e187fca5c4ab0098a70273cef1ee
     log: |
-         b76b3ee5573fd6ff8761d82feb74d707eb2139ef ASoC: SOF: imx8m: add SAI2,5,6,7
-         e935f903ab9bee43f3375883c230a32138ae3d1d ASoC: audio-graph-card2: use correct endpoint when getting link parameters
-         a2cd92185db0586f2136feae84d98cc54580f381 ASoC: fsl_asrc_m2m: select CONFIG_DMA_SHARED_BUFFER
-         b9e3ff647a47b4076d99699e22a79921bc0b4328 Merge remote-tracking branch 'asoc/for-6.13' into asoc-linus
+         155c569fa4c3b340fbf8571a0e42dd415c025377 regulator: core: Add missing newline character
+         3c28eb3350c8e187fca5c4ab0098a70273cef1ee Merge remote-tracking branch 'regulator/for-6.13' into regulator-linus
          
   - ref: refs/heads/for-next
-    old: aba93815f270f2599a9b12740e5a32bed3ec1ba2
-    new: b9e3ff647a47b4076d99699e22a79921bc0b4328
+    old: 710ca08676d8e1678e81c4609cc4495e245d43e3
+    new: 3c28eb3350c8e187fca5c4ab0098a70273cef1ee
     log: |
-         b76b3ee5573fd6ff8761d82feb74d707eb2139ef ASoC: SOF: imx8m: add SAI2,5,6,7
-         e935f903ab9bee43f3375883c230a32138ae3d1d ASoC: audio-graph-card2: use correct endpoint when getting link parameters
-         a2cd92185db0586f2136feae84d98cc54580f381 ASoC: fsl_asrc_m2m: select CONFIG_DMA_SHARED_BUFFER
-         b9e3ff647a47b4076d99699e22a79921bc0b4328 Merge remote-tracking branch 'asoc/for-6.13' into asoc-linus
+         155c569fa4c3b340fbf8571a0e42dd415c025377 regulator: core: Add missing newline character
+         3c28eb3350c8e187fca5c4ab0098a70273cef1ee Merge remote-tracking branch 'regulator/for-6.13' into regulator-linus
          
