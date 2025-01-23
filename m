@@ -1,25 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Thu, 23 Jan 2025 16:19:55 -0000
-Message-Id: <173764919519.3160934.9273660342053279713@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2432173865428241543=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 23 Jan 2025 16:19:59 -0000
+Message-Id: <173764919918.3161153.6275001943057824214@gitolite.kernel.org>
+
+--===============2432173865428241543==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: c4e4e37afc8b8d178b0f00f607c30b3b81253597
-    new: 376673aa393c1c232299be3e910d7f2e6d974b2f
+  - ref: refs/heads/master
+    old: 7209ff14ae024ae05d2a89b0c550d329f7a20620
+    new: 13d8a454134d8dd5545ca42fc51ebe97136682e8
     log: |
-         28a9972e0f0693cd4d08f431c992fa6be39c788c wifi: ath12k: fix skb_ext_desc leak in ath12k_dp_tx() error path
-         7894636b29baec9beca7162de47c87858abf26bf Merge branch 'ath-next'
-         f7637bae1e27b710aa3329ca43e5b9135fc19c78 Merge remote-tracking branch 'mhi/mhi-next'
-         376673aa393c1c232299be3e910d7f2e6d974b2f Add localversion-wireless-testing-ath
+         13d8a454134d8dd5545ca42fc51ebe97136682e8 Linux 6.1.127
          
-  - ref: refs/tags/ath-202501231609
-    old: 0000000000000000000000000000000000000000
-    new: 376673aa393c1c232299be3e910d7f2e6d974b2f
+
+--===============2432173865428241543==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1737649228 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1737649197-916873306e57f194892d8a8f40dea5ce70319863
+
+7209ff14ae024ae05d2a89b0c550d329f7a20620 13d8a454134d8dd5545ca42fc51ebe97136682e8 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeSbEwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zv0QAI2ogpAVXuxNa716CRm5
+5QVPWK6POMnLYXzeIllmRiKTkCM+TTFQdYDU+pPU3vxbNJBpfNGHbmVYTjkAHvWa
+hWHdrXADNOPD2HaWcKTSOXlgOSlOURvpd4BnJP7hhLJVIsOrOk9EVO7kmxNqclCU
+GeXueXkmXqVq3d6EMWkHMcOJb+lXB+H2VtkwvHpDI4xhvSKDbw9kw8dsQp8qXCiE
+nSum/HDwtC8cEGXpHCpWTy41Q/H+M3NyL7mvXtKQW5O81HD9rRRrh+ekEzywKVz8
+fuWMj6Z4reaCVBVZuMGx6oyb3FwiYhOErPoezyUA+7N+RWRZdXNcWuriAQS5YslX
+TIZ/NVC/4+VeB7L4XblwNJwudrSdTXM+Oid6j/uKErGuZKEkIdooD776UUtH3b4t
+E4SPegE/XxA1ZV73PnxF4NMS5CFTDx6Lp/XmDiFUH6hCAVOGmYKvvENtc4kI88OG
+gch26UMEZbURdLSOF3nXI6GrXkzP/L5s7R7a2rmlUGmAGyWUfbw9mOQeDb3QNwn9
+tAO6Asy8WLj4sira6Gqti5pUh7aPCJHJ34MfwvpES9QoT5fU1x0nh1wOGyyGbJ68
+63z5ukXjn216OG4Bs7TE9m6iIdD/lfPSLoBpwDm5g4wUdZYhJYjHYBB062EX63Ly
+kNxY9bqLcx3mpxZxLr1lAueN
+=+6oO
+-----END PGP SIGNATURE-----
+
+--===============2432173865428241543==--
