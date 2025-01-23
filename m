@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Thu, 23 Jan 2025 17:40:03 -0000
-Message-Id: <173765400360.3329790.13551820803565199745@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 23 Jan 2025 17:48:18 -0000
+Message-Id: <173765449868.3334941.3441027638939312483@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/pending
-    old: 28a9972e0f0693cd4d08f431c992fa6be39c788c
-    new: cb0dd2fbc6293c7508c03e1690f74ef5493e4131
-    log: |
-         cb0dd2fbc6293c7508c03e1690f74ef5493e4131 wifi: ath12k: fix handling of 6 GHz rules
-         
+  - ref: refs/heads/file4m1L9f
+    old: 6917192378c1ce17ba31df51c4e0d8b1c97a453b
+    new: 0000000000000000000000000000000000000000
