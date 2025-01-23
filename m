@@ -1,21 +1,47 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
-Date: Thu, 23 Jan 2025 17:29:36 -0000
-Message-Id: <173765337661.3318687.2972969180104223181@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2782614830398446384=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Thu, 23 Jan 2025 17:32:47 -0000
+Message-Id: <173765356794.3321571.11751514213326300255@gitolite.kernel.org>
+
+--===============2782614830398446384==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ukleinek/linux
-user: ukleinek
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/pwm/for-nexxt
-    old: 5030d3c0217d1fb18a89431430a5d14c5ff99bc4
-    new: 2d9b74da2af0ffb7adb07a9f3e791e62c55f7f2f
+  - ref: refs/heads/master
+    old: 764bbf5525f4894c5482753ed73a19dbbd7a2564
+    new: d23a9a2d5684369710bd2e416e41159193df3756
     log: |
-         752b6e3af374460a2de18f0c10bfa06bf844dbe8 pwm: microchip-core: fix incorrect comparison with max period
-         e7e1e5946def2e9dabc9b9a4bd4ed908e9f7032e pwm: Ensure callbacks exist before calling them
-         2d9b74da2af0ffb7adb07a9f3e791e62c55f7f2f pwm: lpss: Only include <linux/pwm.h> where needed
+         72c9a8b233f872685f5490dc31d24b78463628a4 fix Generator annotation type
+         d23a9a2d5684369710bd2e416e41159193df3756 Merge patch "fix Generator annotation type"
          
+
+--===============2782614830398446384==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1737653597 -0500
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1737653567-3b973a387e947ee4fcfc95bf641e5c0e09994584
+
+764bbf5525f4894c5482753ed73a19dbbd7a2564 d23a9a2d5684369710bd2e416e41159193df3756 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZ5J9XQAKCRC2xBzjVmSZ
+bAVAAQD5N0Jk99M+uaedvMk5u/WKdNyD4wENq/xrUe2wE/reGQEAobYzbCgRYjdF
+lvF40T5bOCJJRLmsWfyl5q3aT+JyKgQ=
+=TVCy
+-----END PGP SIGNATURE-----
+
+--===============2782614830398446384==--
