@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6300253946214519987=="
+Content-Type: multipart/mixed; boundary="===============3369784946218472120=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/linux
-Date: Thu, 23 Jan 2025 19:13:03 -0000
-Message-Id: <173765958320.3404578.13465718183431936244@gitolite.kernel.org>
+Date: Thu, 23 Jan 2025 19:13:46 -0000
+Message-Id: <173765962628.3405045.9379748223820145630@gitolite.kernel.org>
 
---===============6300253946214519987==
+--===============3369784946218472120==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/linux
 user: tnguy
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/for-next
     old: 9852d85ec9d492ebef56dc5f229416c925758edc
     new: d0d106a2bd21499901299160744e5fe9f4c83ddb
     log: revlist-9852d85ec9d4-d0d106a2bd21.txt
 
---===============6300253946214519987==
+--===============3369784946218472120==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ad2aec7c963e8ce32c2f2106276ab6ba549ff355 Merge tag 'tomoyo-pr-20250123' of git:/
 754916d4a2b970bc1b5104d552b5d16ab54954c0 Merge tag 'caps-6.13-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/sergeh/linux
 d0d106a2bd21499901299160744e5fe9f4c83ddb Merge tag 'bpf-next-6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 
---===============6300253946214519987==--
+--===============3369784946218472120==--
