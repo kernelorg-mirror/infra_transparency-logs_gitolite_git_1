@@ -1,16 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
-Date: Thu, 23 Jan 2025 22:54:17 -0000
-Message-Id: <173767285720.3588840.10861865501073265775@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Thu, 23 Jan 2025 22:55:57 -0000
+Message-Id: <173767295731.3591838.11885582484555907997@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtd/linux
-user: mraynal
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/tags/nand/for-6.14
-    old: 0000000000000000000000000000000000000000
-    new: 2d881c1d36e62dc94993a3530dadea3f9bf94e6f
+  - ref: refs/heads/dt/next
+    old: 54f6052f904c3a5d4a63af4d907b2e19ecfbbcd9
+    new: 1f744135f996257229f98c0ed3efc9726ac8c77f
+    log: |
+         1f744135f996257229f98c0ed3efc9726ac8c77f docs: dt-bindings: Document preferred line wrapping
+         
+  - ref: refs/heads/for-next
+    old: 54f6052f904c3a5d4a63af4d907b2e19ecfbbcd9
+    new: 1f744135f996257229f98c0ed3efc9726ac8c77f
+    log: |
+         1f744135f996257229f98c0ed3efc9726ac8c77f docs: dt-bindings: Document preferred line wrapping
+         
