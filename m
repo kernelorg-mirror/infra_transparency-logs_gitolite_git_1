@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Thu, 23 Jan 2025 15:48:41 -0000
-Message-Id: <173764732165.3084634.6363430958230133290@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 23 Jan 2025 15:54:59 -0000
+Message-Id: <173764769961.3089964.11931406154595534439@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/ftrace-v6.14-2
-    old: 0000000000000000000000000000000000000000
-    new: 5456f7a30f1b0292bf373cdc45aad1f66ff51715
+  - ref: refs/heads/file3dDBNx
+    old: 4a32a38cb68f55ff9e100df348ddb3d4b3e50643
+    new: 0000000000000000000000000000000000000000
