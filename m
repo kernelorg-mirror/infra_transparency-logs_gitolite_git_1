@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Thu, 23 Jan 2025 04:54:00 -0000
-Message-Id: <173760804078.2556630.5750346682155282685@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lenb/linux
+Date: Thu, 23 Jan 2025 05:17:27 -0000
+Message-Id: <173760944710.2575256.13008719041918108610@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/lenb/linux
+user: lenb
 changes:
-  - ref: refs/heads/dev-test
-    old: 4371e1997a1d85ea8e32f899d9ff4758ae302f0b
-    new: c283a70d34970201c6e218f81226c22d2469b0b4
+  - ref: refs/heads/next
+    old: 84c6f8c430e3fa7c23a2dda57c31c44192f8e20f
+    new: 971f40ef62998dd2757e7b3dff5bdda1930b0fd4
     log: |
-         be1a0fcd3715108371af2684412cbfa3a78456e9 f2fs: register inodes which is able to donate pages
-         c283a70d34970201c6e218f81226c22d2469b0b4 f2fs: add a sysfs entry to request donate file-backed pages
+         971f40ef62998dd2757e7b3dff5bdda1930b0fd4 tools/power turbostat: Add tcore clock PMT type
+         
+  - ref: refs/heads/turbostat
+    old: 84c6f8c430e3fa7c23a2dda57c31c44192f8e20f
+    new: 971f40ef62998dd2757e7b3dff5bdda1930b0fd4
+    log: |
+         971f40ef62998dd2757e7b3dff5bdda1930b0fd4 tools/power turbostat: Add tcore clock PMT type
          
