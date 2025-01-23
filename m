@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0495674715799266807=="
+Content-Type: multipart/mixed; boundary="===============4632876415323380273=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Thu, 23 Jan 2025 01:45:52 -0000
-Message-Id: <173759675281.2409566.587206291153127838@gitolite.kernel.org>
+Date: Thu, 23 Jan 2025 01:47:04 -0000
+Message-Id: <173759682486.2410151.5017141560121575390@gitolite.kernel.org>
 
---===============0495674715799266807==
+--===============4632876415323380273==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/viro/vfs
 user: viro
 changes:
-  - ref: refs/heads/work.d_revalidate
-    old: 3e512dc2b6bc5014b70a1a1e03d02f637d4e3b7b
-    new: dbec3650717e1b7d3f0d3ccf63d083f9dba346a1
-    log: revlist-3e512dc2b6bc-dbec3650717e.txt
+  - ref: refs/heads/for-next
+    old: 565801ddb68b6ef35ea3b9a93a4ddc8aed068413
+    new: 5eda88e2b9bf2cc0f856cb84051f61c5ef2041b6
+    log: revlist-565801ddb68b-5eda88e2b9bf.txt
 
---===============0495674715799266807==
+--===============4632876415323380273==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3e512dc2b6bc-dbec3650717e.txt
+Content-Disposition: attachment; filename=revlist-565801ddb68b-5eda88e2b9bf.txt
 
 78793181a184ae36933cfd8713d15183c5a68cad Pass parent directory inode and expected name to ->d_revalidate()
 1a90b6e96523af650f208bcc7132140c6ceb668c afs_d_revalidate(): use stable name and parent inode passed by caller
@@ -40,5 +40,6 @@ c23b005d4530721d1f931c48a536c3e65e5c6c3a nfs: fix ->d_revalidate() UAF on ->d_na
 4a74c40611bf83470486ff59af61f900cbed6e4b ocfs2_dentry_revalidate(): use stable parent inode and name passed by caller
 a515e1e328870bdfd499aa39e585beb2f608349f orangefs_d_revalidate(): use stable parent inode and name passed by caller
 dbec3650717e1b7d3f0d3ccf63d083f9dba346a1 9p: fix ->rename_sem exclusion
+5eda88e2b9bf2cc0f856cb84051f61c5ef2041b6 Merge branch 'work.d_revalidate' into for-next
 
---===============0495674715799266807==--
+--===============4632876415323380273==--
