@@ -1,45 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0431477278675485392=="
+Content-Type: multipart/mixed; boundary="===============8375884001898402845=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bigeasy/staging
-Date: Thu, 23 Jan 2025 17:12:53 -0000
-Message-Id: <173765237333.3304796.16302968962769141453@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Thu, 23 Jan 2025 17:14:13 -0000
+Message-Id: <173765245390.3305502.17148488022794887913@gitolite.kernel.org>
 
---===============0431477278675485392==
+--===============8375884001898402845==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bigeasy/staging
-user: bigeasy
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/futex_local_v7
-    old: 03db1bd027f050eb62ba6c680d396207b67ebb08
-    new: d38ce06c90901348306ada0abe28f66822a72817
-    log: revlist-03db1bd027f0-d38ce06c9090.txt
+  - ref: refs/heads/master
+    old: b9352f06bee2a39fc75d1e21a96a284803d667ec
+    new: b09ce0b1e05c90c78a35391f4e09300b7d8b504e
+    log: |
+         b09ce0b1e05c90c78a35391f4e09300b7d8b504e updates based on new kernel releases.
+         
 
---===============0431477278675485392==
+--===============8375884001898402845==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-03db1bd027f0-d38ce06c9090.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-d985af257f016ff006f265b7f4e27e6027daf5f4 rcuref: Avoid false positive "imbalanced put" report.
-1496a2071bdccd0f6a1ea63a0e75793c7662bcce futex: Create helper function to initialize a hash slot.
-6672ebdf620c23ce58d4f6e8ab6dc2c622b0448f futex: Add basic infrastructure for local task local hash.
-8e4a67e246acde080598375a6c35226681522adf futex: Allow automatic allocation of process wide futex hash.
-9c87e653bf1cc39ffad3863af737e267c00189b1 futex: Hash only the address for private futexes.
-c4d0b9fe345f302a126075442ff746e82e9a4093 futex: Move private hashing into its own function.
-adf53046d19f97f36ba3d93daf0cfb7b180a2c33 futex: Decrease the waiter count before the unlock operation.
-3599d0d885065a85f05243f95e5a07086785e25f futex: Prepare for reference counting of the process private hash end of operation.
-cea187035af63d44ba2f350706ffb1e5a97dac8e futex: Re-evaluate the hash bucket after dropping the lock
-2be6fa68c80b8d045fa3cd903d424e72e4139eb0 futex: Introduce futex_get_locked_hb().
-67e700fadbf4b58e5261f005dd4d46e6db5a397b futex: Acquire a hash reference in futex_wait_multiple_setup().
-9f0e25d219d6163805c6c9c89a6bfcfe12950f56 futex: Allow to re-allocate the private local hash.
-f6c33bc5a2e82e51a7caabd86e2469f921a1b726 futex: Resize local futex hash table based on number of threads.
-f98a6a1dafb690eb4bbad77b74faf1ee6f56b9c4 futex: Use a hashmask instead of hashsize.
-d38ce06c90901348306ada0abe28f66822a72817 futex: Avoid allocating new local hash if there is something pending.
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1737652477 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1737652446-0f053c66dd0982cfa6a9b6a2f4c7af7deabde073
 
---===============0431477278675485392==--
+b9352f06bee2a39fc75d1e21a96a284803d667ec b09ce0b1e05c90c78a35391f4e09300b7d8b504e refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeSeP0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+s04P/22tHpbVR+cpvpg5y2m5
+OXWuW0ceyjpyEVG31EeBGj07GxwCadBLCFjN8TadEMnAqsWgQdx03fDpofKdL92B
+iSc3c972ThoDLeU4ptYpyZz/VsgWL88N9v5bOjslpnxPAU2/8XG8Oa/w+1F9MzW3
+HQyEY8x8fBxoA9DdF02f6kK7y+cL/sIgkPW2ppAF+0CdjHjio3T15AcyUO+VaMs0
+t3YlSiNyP6+VRnNiaUQFK2tROchqNl04HyNpWQCeTmA5K+m20xUGw2fObYsnYAFG
+jH1gclpMd05HNWzGPg6YmFIj2UjlTQBKCn17EjHz2pMyaWSIvgT+gvd5Rr/wofm3
+o6juFTeU0epMCle70UVyLne8xk37UVmbz5J4+0OUWLK6YJkSa6WWMcvJP6RjU2Ji
+Bw1cjOQ2CdSwfAwZ/MN+jrnAPm3tFwyF3cszsY3tNFT8dHRvTU+s40oCbpHOgL+o
+BUMrla9UOnbzCdRmULB3Z6n2lbcFINwigny9bJ1gVpot4pmAtKXrjt86MmmCd+QY
+nZHsgisyuF96HnhBDnKmSEDl62iqx7j8AFQHVeth7kiYj7Q67WbQuGmdbkPh4RKh
+1NNgV8urEK8CsXyUKie/G67GavJtbjSypgifX7jcycM6JdNqo96t9Aycewe0psrv
+AQNW3LI8J4zugAuVCsvlP0E/
+=4teU
+-----END PGP SIGNATURE-----
+
+--===============8375884001898402845==--
