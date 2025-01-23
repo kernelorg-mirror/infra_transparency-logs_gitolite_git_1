@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Thu, 23 Jan 2025 13:42:16 -0000
-Message-Id: <173763973602.2975432.1438231405401048129@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Thu, 23 Jan 2025 13:46:26 -0000
+Message-Id: <173763998624.2979237.9164836719644288238@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/tags/sound-6.14-rc1
+  - ref: refs/heads/parisc-6.14-1
     old: 0000000000000000000000000000000000000000
-    new: 06efbde6b0f8ab9c09293d152abb8aac00f90a2a
+    new: 3599bae489d86fbabe039f9a2ab5472ffb04f7f1
