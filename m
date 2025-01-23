@@ -1,31 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 23 Jan 2025 13:49:34 -0000
-Message-Id: <173764017407.2981297.9196656480204912110@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5230083889057269027=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Thu, 23 Jan 2025 13:54:46 -0000
+Message-Id: <173764048675.2985516.16660286347214448434@gitolite.kernel.org>
+
+--===============5230083889057269027==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 726e3c7440ce9ee2b61456e4f96071515ea41a4d
-    new: 572b5fb0a3056a055eac3eb2125a6e8a56fd2075
+  - ref: refs/heads/master
+    old: a6a3f7bcae0c2bef310bdfc97244ae50a0250f94
+    new: 0b99fe3c47c186b6dd81992f047ff4ff0721274c
     log: |
-         b13ee668e8280ca5b07f8ce2846b9957a8a10853 block: don't revert iter for -EIOCBQUEUED
-         818a013a43bbd9e709c119e96d0ff7eb5dab8a7e io_uring: get rid of alloc cache init_once handling
-         8aac4988d4780e8fe72ef7bd0302e73f81e5f892 Merge branch 'io_uring-6.14' into for-next
-         572b5fb0a3056a055eac3eb2125a6e8a56fd2075 Merge branch 'block-6.14' into for-next
+         0b99fe3c47c186b6dd81992f047ff4ff0721274c assigned CVE-2024-57947 on request
          
-  - ref: refs/heads/io_uring-6.14
-    old: eaf99654a6373a5807ec91dad44f828454a5c218
-    new: 818a013a43bbd9e709c119e96d0ff7eb5dab8a7e
-    log: |
-         818a013a43bbd9e709c119e96d0ff7eb5dab8a7e io_uring: get rid of alloc cache init_once handling
-         
-  - ref: refs/heads/block-6.14
-    old: 0000000000000000000000000000000000000000
-    new: a9ae6fe1c319c4776c2b11e85e15109cd3f04076
+
+--===============5230083889057269027==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1737640513 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1737640483-7a268ce990229781f934af9f88d28bb8861c4e37
+
+a6a3f7bcae0c2bef310bdfc97244ae50a0250f94 0b99fe3c47c186b6dd81992f047ff4ff0721274c refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeSSkEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uR8QAL55IVUa6pFxvVgad0uN
+EQ+v2jrl8T5NzP9Co/0TgJ6MVlzjtmtxNpoF6sZ3Vk/w24J7uku1LHku/VrTAYDL
+928MPIgrAAhzqkZphuGTWEXWM0ibPC3OS8u7hUYnTNL0ZIog0veLX9L2tK1KZiyn
+V69cSLqktpBTwmmSM6JMzsuSwE0NXfglcnLrKJAfYVw5ZzlZ00fa/mc+7OoKCUFE
+YJIfKHc0Qhn0Hb6uwNtfRtQp/JjdqqeEfmn2A5a0Nj/tV3+cnPgPIE5PoEqOpXlF
+2ZFsKg3PjPymFc3+eIPhHqbRYCMub+uNP0mEswVD+UwIY0/Jfu5TzpBu9zIkt8rX
+EVOMAIok73e43Gk31T15pszRhyUXn1iaMthhph2rGYiOmxsDwEHFutcWAP+nqRoJ
+gky/P593bDTCfyoMV7Hc23S8GI7l3yCo520+NML+OVU0S/u/RnXij5fkjX/6fIuv
+d2aY+7kmgP6HmPnL8fCYyRXoS6ys/IyBYwDjJnkrWM5GtgygRFB6S9VaZ9hcHU/P
+zqnXCDGDzb3dw8ArVejIXdYHcX4KqcZFpT0AO8u9x42l/8NLQSSIvXtzMMgXLG2J
+XohioW9FbpMtUy/IVAUzrSVaqPSS/G4Q6nlzihAozgGkjkomQC2eUAFhmLzvHmaD
+KHPbFPxh7yJe/hDaJD7RVv+Q
+=p8mE
+-----END PGP SIGNATURE-----
+
+--===============5230083889057269027==--
