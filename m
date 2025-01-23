@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4554761299620122314=="
+Content-Type: multipart/mixed; boundary="===============3250974178488622903=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 23 Jan 2025 19:26:44 -0000
-Message-Id: <173766040439.3417047.5079313407457797608@gitolite.kernel.org>
+Date: Thu, 23 Jan 2025 19:26:49 -0000
+Message-Id: <173766040955.3417161.12084923401862075063@gitolite.kernel.org>
 
---===============4554761299620122314==
+--===============3250974178488622903==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: d640627663bfe7d8963c7615316d7d4ef60f3b0b
     new: 15a901361ec3fb1c393f91880e1cbf24ec0a88bd
     log: revlist-d640627663bf-15a901361ec3.txt
 
---===============4554761299620122314==
+--===============3250974178488622903==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ a197004cf3c2e6c8cc0695c787a97e62e3229754 net: phy: marvell-88q2xxx: Fix temperat
 965adae5a33a998e2b62ec1b37c5eb21f1875b15 selftests/net: packetdrill: more xfail changes (and a correction)
 15a901361ec3fb1c393f91880e1cbf24ec0a88bd ipmr: do not call mr_mfc_uses_dev() for unres entries
 
---===============4554761299620122314==--
+--===============3250974178488622903==--
