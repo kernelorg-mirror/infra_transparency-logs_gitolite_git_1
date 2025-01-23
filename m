@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5305657226922835077=="
+Content-Type: multipart/mixed; boundary="===============7986709124360373688=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 23 Jan 2025 19:33:19 -0000
-Message-Id: <173766079936.3424132.16054458227215749773@gitolite.kernel.org>
+Date: Thu, 23 Jan 2025 19:33:23 -0000
+Message-Id: <173766080333.3424250.18355618642046098604@gitolite.kernel.org>
 
---===============5305657226922835077==
+--===============7986709124360373688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: cf33d96f50903214226b379b3f10d1f262dae018
     new: 0ad9617c78acbc71373fb341a6f75d4012b01d69
     log: revlist-cf33d96f5090-0ad9617c78ac.txt
 
---===============5305657226922835077==
+--===============7986709124360373688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ c4b9570cfb63501638db720f3bee9f6dfd044b82 Merge tag 'audit-pr-20250121' of git://
 5f537664e705b0bf8b7e329861f20128534f6a83 cachestat: fix page cache statistics permission checking
 0ad9617c78acbc71373fb341a6f75d4012b01d69 Merge tag 'net-next-6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 
---===============5305657226922835077==--
+--===============7986709124360373688==--
