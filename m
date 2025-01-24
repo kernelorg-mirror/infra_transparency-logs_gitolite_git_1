@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6775889068569596220=="
+Content-Type: multipart/mixed; boundary="===============5219502292755164201=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/linux
-Date: Fri, 24 Jan 2025 21:42:13 -0000
-Message-Id: <173775493326.541741.17102020535806281355@gitolite.kernel.org>
+Date: Fri, 24 Jan 2025 21:42:26 -0000
+Message-Id: <173775494611.541977.8812618028080145128@gitolite.kernel.org>
 
---===============6775889068569596220==
+--===============5219502292755164201==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/linux
 user: tnguy
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/main
     old: d0d106a2bd21499901299160744e5fe9f4c83ddb
     new: 0afd22092df4d3473569c197e317f91face7e51b
     log: revlist-d0d106a2bd21-0afd22092df4.txt
 
---===============6775889068569596220==
+--===============5219502292755164201==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ac0761d8d8315759562a3b85120d482cedf44328 Merge tag 'fbdev-for-6.14-rc1' of git:/
 aa44198a6cf599837350aa954b5153b75feaed2d Merge tag 'for-linus-iommufd' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd
 0afd22092df4d3473569c197e317f91face7e51b Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 
---===============6775889068569596220==--
+--===============5219502292755164201==--
