@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3477675383353860873=="
+Content-Type: multipart/mixed; boundary="===============1553798693318569514=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 24 Jan 2025 08:35:25 -0000
-Message-Id: <173770772502.4104388.18137902707245071785@gitolite.kernel.org>
+Date: Fri, 24 Jan 2025 08:35:57 -0000
+Message-Id: <173770775752.4104806.13716913410912867225@gitolite.kernel.org>
 
---===============3477675383353860873==
+--===============1553798693318569514==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,26 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 99025deb9273c76e25415cfb950ef31454b84501
-    new: 0d34bf003c151f37679d25abb8f11417cf164c69
-    log: revlist-99025deb9273-0d34bf003c15.txt
+    old: 0d34bf003c151f37679d25abb8f11417cf164c69
+    new: 5012664592e71908b16a5e3f6feaaaa32e4ba031
+    log: |
+         2899cfa5b1a7d61bbe6761d30f8a661fb109a570 Merge branch into tip/master: 'irq/urgent'
+         c30d82b4c32ba8f5076bb0cda0505958f1b6acaa Merge branch into tip/master: 'sched/urgent'
+         478967d3648699927cc1149d79863357b8bf33cc Merge branch into tip/master: 'timers/urgent'
+         d22047f75b92a850133ef681e925c46f28656240 Merge branch into tip/master: 'x86/merge'
+         cb6f2b0dfbe1c2b094b64d002eb83cf34cd9be3c Merge branch into tip/master: 'x86/mm'
+         5012664592e71908b16a5e3f6feaaaa32e4ba031 Merge branch into tip/master: 'x86/tdx'
+         
+  - ref: refs/heads/tip/urgent
+    old: 1c2307aa8743d4ae9af91df7fbe1daf2a6edf8f8
+    new: 478967d3648699927cc1149d79863357b8bf33cc
+    log: revlist-1c2307aa8743-478967d36486.txt
 
---===============3477675383353860873==
+--===============1553798693318569514==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-99025deb9273-0d34bf003c15.txt
+Content-Disposition: attachment; filename=revlist-1c2307aa8743-478967d36486.txt
 
 0a499a7e9819e7a0980408f18df68160a0b55f2e lib/crc32: drop leading underscores from __crc32c_le_base
 d36cebe03c3ae4ea1fde20cfc797fab8729c3ab5 lib/crc32: improve support for arch-specific overrides
@@ -490,6 +501,8 @@ e8744fbc83188693f3590020b14d50df3387fc5a Merge tag 'trace-v6.14-3' of git://git.
 7c1badb2a9902ab4c5e9fe4093e532eeb11fd9fc Merge tag 'ftrace-v6.14-2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 606489dbfa979dce53797f24840c512d0e7510f9 Merge tag 'trace-ringbuffer-v6.14-2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 bc8198dc7ebc492ec3e9fa1617dcdfbe98e73b17 Merge tag 'sched_ext-for-6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
-0d34bf003c151f37679d25abb8f11417cf164c69 Merge branch 'linus'
+2899cfa5b1a7d61bbe6761d30f8a661fb109a570 Merge branch into tip/master: 'irq/urgent'
+c30d82b4c32ba8f5076bb0cda0505958f1b6acaa Merge branch into tip/master: 'sched/urgent'
+478967d3648699927cc1149d79863357b8bf33cc Merge branch into tip/master: 'timers/urgent'
 
---===============3477675383353860873==--
+--===============1553798693318569514==--
