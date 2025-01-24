@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Fri, 24 Jan 2025 01:32:03 -0000
-Message-Id: <173768232326.3722502.8946482887601410079@gitolite.kernel.org>
+Date: Fri, 24 Jan 2025 01:32:33 -0000
+Message-Id: <173768235300.3722962.591558585101008848@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/viro/vfs
 user: viro
 changes:
-  - ref: refs/heads/work.d_revalidate
-    old: dbec3650717e1b7d3f0d3ccf63d083f9dba346a1
-    new: d7d18f2f86950ea1b36ab4f73b525fb851860951
+  - ref: refs/heads/for-next
+    old: 5eda88e2b9bf2cc0f856cb84051f61c5ef2041b6
+    new: 27ac394f113d8c4c11b47393474b96a7c295c4c7
     log: |
          3e6d4955e9619cfdd8d40a8b943badfc0a4869a8 fuse_dentry_revalidate(): use stable parent inode and name passed by caller
          ad8b90013624a1a1e553685757c045002098d502 gfs2_drevalidate(): use stable parent inode and name passed by caller
@@ -22,4 +22,5 @@ changes:
          09280a8924c43f026633f17d94af5655ae70c6c7 ocfs2_dentry_revalidate(): use stable parent inode and name passed by caller
          174684199760c6120919e07cc7a0ce85a4509b5e orangefs_d_revalidate(): use stable parent inode and name passed by caller
          d7d18f2f86950ea1b36ab4f73b525fb851860951 9p: fix ->rename_sem exclusion
+         27ac394f113d8c4c11b47393474b96a7c295c4c7 Merge branch 'work.d_revalidate' into for-next
          
