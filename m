@@ -1,115 +1,142 @@
-Content-Type: multipart/mixed; boundary="===============2685217262239467694=="
+Content-Type: multipart/mixed; boundary="===============1246952438257045206=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
-Date: Fri, 24 Jan 2025 11:01:36 -0000
-Message-Id: <173771649625.25330.14145170626858518499@gitolite.kernel.org>
+Subject: post-receive: pub/scm/virt/kvm/kvm
+Date: Fri, 24 Jan 2025 11:41:45 -0000
+Message-Id: <173771890590.56083.14116730914088445377@gitolite.kernel.org>
 
---===============2685217262239467694==
+--===============1246952438257045206==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
-user: egrumbach
+repo: pub/scm/virt/kvm/kvm
+user: bonzini
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: fa64fc525a370d9f774f8fe0c51d584b91ef98b2
-    new: ab828c6f833c832be89093004042cce424a718f6
-    log: revlist-fa64fc525a37-ab828c6f833c.txt
+  - ref: refs/heads/kvm-coco-queue
+    old: 46bf7963a06a56a6c411329d06642836450d19a7
+    new: 21ef7c7dda5f9899795646699ac148fdd271c244
+    log: revlist-46bf7963a06a-21ef7c7dda5f.txt
 
---===============2685217262239467694==
+--===============1246952438257045206==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fa64fc525a37-ab828c6f833c.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-eab1e8b0a94ff0baf6f247002a595d283b2e3e4a [BUGFIX][NOUPSTREAM] wifi: mac80211: replace a comma with semicolon
-76a3dd2dfe7460bb05923e72ca2e6ea48fd63dae [BUGFIX] wifi: mac80211: set ieee80211_prep_tx_info::link_id upon Auth Rx
-5cd2933327866c3ddd5aa98d4325c36478ec5408 [BUGFIX] wifi: iwlwifi: mld: mark TWT REQUESTER support
-cb6338ed07310403321a315a387614c20cae7731 [NOUPSTREAM] wifi: iwlwifi: mld: allow to disable the sensitivity calibration for WFA
-df65611af9b69d0f83f93d6b30d8c93539430659 wifi: iwlwifi: clarify the meaning of IWL_INIT_PHY
-c5a7ea90314172964950ca6d108c117d819d312e wifi: iwlwifi: mld: cleanup TODO's in d3.c
-1f2f3f838a7e4c39055866c46820ea4de16c25b3 wifi: mac80211: remove misplaced drv_mgd_complete_tx() call
-30db60a7ac7741df5a1b05a63822e78799703d89 wifi: mac80211: don't unconditionally call drv_mgd_complete_tx()
-6e40b5d2bb3fde192f6ace39d66d42263cec58e2 wifi: mac80211: always send max agg subframe num in strict mode
-20fdbf10381ccd9c46ae233bdff96e1a597668ed wifi: mac80211: aggregation: remove deflink accesses for MLO
-3581de16956cab7becb893b3c914b163a7752f3b wifi: mac80211: enable removing assoc link
-e6a88ecb7749cd64030c2da19c560f1f5c8fedca [BUGFIX] wifi: mac80211: remove VHT basic MCS/NSS set checks
-3591b2e44d5be0e92cbf0d8765c8521b96dbbce1 [BUGFIX] wifi: iwlwifi: Fix A-MSDU TSO preparation
-e2a6abbb4cfd5f96cbf03b669a6794c6fd9adce1 backports/pcie: fixes for PCI mappings
-c35c105bbab3d056efeea2ca372bc18bbe5779c8 [BUGFIX] wifi: iwlwifi: mld: record the last signal average per station
-9765e1237ab734e3aed72636f030ca82071f14f0 wifi: iwlwifi: mld: Separate throughput checks from statistics
-77eef901db9a4b0fb60f600491fdfc09a3e5ed4b [BUGFIX] wifi: iwlwifi: mld: fix compilation
-3ee48a5b36410da95d389e9c301712801af4313e [BUGFIX] wifi: mac80211: further relax VHT basic MCS/NSS set checks
-c98d938e8a5ea4fcaa604619af8d53106b472e08 [BUGFIX] wifi: iwlwifi: mld: fix missing initialization
-88a9a5aabed0f3db09ef114cd3875e87c3e8b5fe wifi: iwlwifi: mld: support alive notification version 7
-60356f1fe452edcae8d9a00d2db3a2add99da523 wifi: iwlwifi: xvt: support alive notification version 7
-7e00e40ca65efcf029b2504bb6b78ba254212a44 [BUGFIX] wifi: mac80211: don't queue sdata::work for a non-running sdata
-cf8e381f3439656eb17e1fc93d48249bcaf3ac08 wifi: iwlwifi: mld: track channel_load_by_us
-06319e4d02be4ec2e07c4895ed5f0acbc5d10669 wifi: mac80211: ensure sdata->work is canceled before initialized.
-668330e3676070054d80afdbf18cc8890c277992 wifi: iwlwifi: support ROC version 6
-3bfdda2c6448922f90fa7a6e52ceacfb07f5729e backports: kunit: fix compilation error for 6.5 kernel
-6cc572e9f3d666de6264ebc1e9fb297beacab119 [BUGFIX] wifi: iwlwifi: use correct IMR dump variable
-0a601b642e396742362e14b5bce999e71c42689d wifi: iwlwifi: mld: add debugfs twt operation cmd
-c9f094c29fd4e6766ab0270cd880cb4b5d68f98d wifi: iwlwifi: mld: rename iwl_mld_vif_has_emlsr
-bdff61e4d98b6b9afd7aeaf4fbc93a41d11bdf94 wifi: iwlwifi: mld: check earlier if MLO scan is possible
-511ceeab42dc9c2ce71eb8a6159631cd82c2943d [BUGFIX] wifi: iwlwifi: mld: don't fail drv_set_rts_threshold
-29dcdf87d45ed0fc1d0557b77d5069fb49d70656 wifi: iwlwifi: implement dump region split
-fad55729073567e8a98a24560b101af73c7833e8 wifi: iwlwifi: mld: add support for deleting async handlers
-94b0a6f33f2f1aa85ad46e0c4bff858c94042997 wifi: iwlwifi: mld: exit EMLSR upon bandwidth change
-c330ccd2bed7955db79487c4390a186e9ca7c8a0 [BUGFIX] wifi: iwlwifi: mld: remove more errors in unallocated BAID
-4c0a3b5d31ec986f9cf9f05084b08492d16a7cf9 [BUGFIX] wifi: iwlwifi: dbg: skip reset on dump
-c0781826018ad70d826353fcddfa9a0946c0794b wifi: iwlwifi: mld: track BT status
-25e303708488792b829a0318d2d24732fc767501 wifi: iwlwifi: mld: don't allow EMLSR with 2.4 GHz if BT is ON
-81e34e270faf0948bbe5cafdf2bdfa4bf6c59b1d [BUGFIX] wifi: iwlwifi: mld: check carefully if to activate a link
-4d101cb49ba33966ea38c555e8dce29464217ed3 [BUGFIX] wifi: mac80211: rework the Tx of the deauth in ieee80211_set_disassoc()
-e2381b25500dfcd4cc53b53463fa73f180f5b5af backport: adjust linux/unaligned.h version
-3cb3cb305bc0e53cbd575b31756627a00a3e6885 wifi: cfg80211: move link reconfig parameters into a struct
-5a33e3cba8fec290015d44d178a40f52095927f4 wifi: cfg80211: allow setting extended MLD capa/ops
-9776af0cb33e5c6a7349adba865736125baf785a wifi: mac80211: mlme: support extended MLD capa/ops in assoc
-4cee83616676fa20d0cd3eae6ec98b17b24ba055 wifi: iwlwifi: mld: Revert "wifi: iwlwifi: mld: flush with quiet csa"
-e6adbc10967b52a4c8e8ee25f68c578bdff5322e wifi: iwlwifi: mld: Exit EMLSR when a link gets a CSA
-5281b3d309212cb6a38b396757fa297b33c9946e [BUGFIX] wifi: iwlwifi: mld: check support for TAS command
-7fd0ce86fda767f6ab5d1d2a3ce516fdcdace50f wifi: iwlwifi: mld: register a PHC clock for the wifi device
-7820e3e17d5e6cf47a380086b547f8f21c1a034b wifi: iwlwifi: mld: PHC: implement the gettime64() callback
-c9243498fd417a0a31fcf1a28c9399a91c09d6f8 wifi: iwlwifi: mld: PHC: implement the adjtime() callback
-e2de612919678973476a11881df7d3713352d50b wifi: iwlwifi: mld: PHC: implement the adjfine() callback
-cc3cafab9c0184c7df9924c52b0da98fbea915af wifi: iwlwifi: mld: PHC: detect GP2 wraparound and compensate for it
-9080f410a9c9cfc0595e60be2bb23e91436702d8 wifi: iwlwifi: mld: PHC: implement the getcrosststamp() callback
-dc9de26e1c5ed9ba439c7c85e634cb1514f95ea1 wifi: iwlwifi: mld: add a debug level for EHT prints
-40c6958b1e63437ff8f3248d5b30c383945605dc wifi: iwlwifi: mld: add debug prints for link grading
-dd50d0ca2971bc6bb1ecad5af41397d72f790e4b [BUGFIX] wifi: iwlwifi: mld: don't trigger MLO scan when twice
-04ddf1bc57527ab4f8d6a18719c53dcce83428be wifi: iwlwifi: mld: handle MLO scan in iwl_mld_report_scan_aborted
-4ad21843d0a61e6703fafb3f2ec878cbef311834 wifi: iwlwifi: mld: remove a TODO
-ff818d074181c3097987dd738228e890c5b1dc95 [BUGFIX] wifi: iwlwifi: fix the ECKV UEFI variable name
-490a8a0f8ed52ef7917061ae86b0220bba5cd951 wifi: iwlwifi: mld: add support for external 32 KHz clock
-7f2552860041ace8c6059e17dedfa94e1b1a8742 wifi: iwlwifi: mld: add DEBUG_HOST_COMMAND HCMD_NAMES entry
-0a8ef88aa2bce5eee73d42367e34391855c4005b wifi: iwlwifi: mld: add a print for ECKV
-2466377d51759f03260b94a4f7e15296663baf58 [BUGFIX] wifi: iwlwifi: fix print for ECKV
-1c03063e0fcf2e2b55873d78d66a485f3890ba6a wifi: iwlwifi: mld: update RSSI threshold for exiting EMLSR
-64db132931d855e20a568a85d5b411f2ebe23716 wifi: iwlwifi: mld: prevent repeated EMLSR exits due to low link utilization
-2fe00dd88b5e1038c9a1ed55f09b8ca9f3a499b1 wifi: iwlwifi: remove mvm prefix from iwl_mvm_esr_mode_notif
-9c23fd6162c9b235bdf68b34d692bfc4d7a79e18 wifi: iwlwifi: mld: honor FWs recommendation to exit EMLSR
-9cb7bc6fba359efec1eee8a7efd0ca316be72dd2 [BUGFIX] wifi: iwlwifi: mld: enable scan adaptive dwell by default
-b910ef47a920b6c318998db3a1e600266518564f [BUGFIX] wifi: iwlwifi: mld: add support for GET_SAR_TABLE
-ec99ef206b504fe9f35becf3300ad60c9c5b8156 wifi: cfg80211: expose update timestamp to drivers
-939150c1ab74717620582caa69a5c0502278f56c wifi: iwlwifi: mld: ignore stale links during link selection
-3e6fbc1336911dc68f1cb7445215352e3cf77a4f [BUGFIX] wifi: iwlwifi: mld: Fix NULL dereference in iwl_mld_scan_cmd_set_chan_params()
-119449780a46df947a256eff75bf9144d2e8c591 [BUGFIX] wifi: iwlwifi: thermal: Fix locking
-7b5a484bb26a9b37b10a90742a6d47a6b9ba87ea wifi: iwlwifi: mld: handle RX_NO_DATA_NOTIF
-c0aec5a90f98978d74dc9d972dd3ef2e2afab937 wifi: iwlwifi: mld: support getting TM/FTM Tx/Rx timestamps
-7747a77c64942337116f71da59f89fce4dce66b1 wifi: iwlwifi: mld: handle time measurement notifications
-1882967d1b9c78b324f6ecab444b1e759b0a85bf wifi: iwlwifi: mld: handle Tx timestamps notification
-2de5163abfdfddb0abac541091751f9a36fa4318 wifi: iwlwifi: mld: consider channel load when grading a link
-dcb1f0e73a334f32fa6caf654fb616d80e6770d7 wifi: iwlwifi: mld: consider the load of the primary link when grading EMLSR
-6aef24d485dfdeaf4c9b121e1961860468f7a1f4 wifi: iwlwifi: mld: exit EMLSR if primary link isn't loaded
-2fb7ed91fc7fad63d63bf99711c685fff93df48e wifi: iwlwifi: mld: KUnit: map link to vif->link_conf
-117af125610860454e19e02b8d11ce88ecb1eacd wifi: iwlwifi: mld: KUnit: add a helper function to create an element
-ba9416447b432778e08e1dd98b193cdcaf4f3018 wifi: iwlwifi: mld: avoid MLO scan if recent results are available
-4dd98760a024a65311a3a035499678585771301b wifi: iwlwifi: mld: dump data in case we have a crash upon WOWLAN resume
-ab828c6f833c832be89093004042cce424a718f6 wifi: iwlwifi: mld: don't send POWER command if firmware is dead
+certificate version 0.1
+pusher Paolo Bonzini <pbonzini@redhat.com> 1737718930 -0500
+pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
+nonce 1737718897-89e7be8b879cc4c14651fbf18fca5cd44669958b
 
---===============2685217262239467694==--
+46bf7963a06a56a6c411329d06642836450d19a7 21ef7c7dda5f9899795646699ac148fdd271c244 refs/heads/kvm-coco-queue
+-----BEGIN PGP SIGNATURE-----
+
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmeTfJMUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroN34ggAqtx1fItZQwwuUeDNIyl/DcTB8mql
+tqIxZYFzWMv7/OqvyRHvLkh5gnk4FdZYELq4NwBiDBh54VW731GqdCq4IPXg7X8Z
+2cuxUI6oB9T0yEW9ZfN9kLQl7xirR2TW5524ivcqvDBBPh7G9nZR8yKVutemMB04
+0cUWmI4quYh4C2/kjC+j6WjFMfYriZJRzyp53qjHdv3rl65TOkNnnNNPbhzC+XkH
+iGWcErRuDMbMqBZ4I8qABoBoAZ+K9tldGb/CJJLc8MVmO0pkDDHt4YrdIFT6DAR+
+97FMT4Cvu7jCYuCmz8OUG0sNBPyh+dH0ujKcNZoztT8XtHP6rluKAJLdBw==
+=qrrz
+-----END PGP SIGNATURE-----
+
+--===============1246952438257045206==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-46bf7963a06a-21ef7c7dda5f.txt
+
+24787cc852ddd3b5730cb5074ffc82a09e497ca2 KVM: VMX: Refactor VMX module init/exit functions
+971e1a2e152b1146a886abe179b4b0daf4ef15c6 KVM: VMX: Initialize TDX during KVM module load
+185d47c31d36eec03f3c593ccdba3455b92997f7 KVM: TDX: Get TDX global information
+0e970259dd69af2dd012fdaff9f999df1b2170c5 KVM: TDX: Add placeholders for TDX VM/vCPU structures
+41f092e0e26495d41954435afe42d4f4c72d0efd KVM: TDX: Define TDX architectural definitions
+62a65f7d43755feb79803d5ead90f0e904b0039f KVM: TDX: Add TDX "architectural" error codes
+6804bc798c208e11253c8e03180d447f8c16d387 KVM: TDX: Add helper functions to print TDX SEAMCALL error
+dc53561855611348794462324d835f7b321f9aa7 KVM: TDX: Add place holder for TDX VM specific mem_enc_op ioctl
+0e8465bd2a721f17b8b16d20c39438ddb675d37f KVM: TDX: Get system-wide info about TDX module on initialization
+7c4cae6b1577a54f0edb3c4a98426c480f0f6b67 KVM: TDX: create/destroy VM structure
+b2be173e237c28acf25f22b2b3a24b706ed39b87 KVM: TDX: Support per-VM KVM_CAP_MAX_VCPUS extension check
+e0ca938d4a45c0985bb16b7e9d92467200adf8ca KVM: x86: expose cpuid_entry2_find for TDX
+87936b0e28c3076160af409e887e76b9f50ded3f KVM: TDX: initialize VM with TDX specific parameters
+1dcff158edd0ed6f8fb447327bfc4b62ab4f653d KVM: TDX: Make pmu_intel.c ignore guest TD case
+e800c83a9d4ec8c2ebc305860cee459f0a852169 KVM: TDX: Don't offline the last cpu of one package when there's TDX guest
+e3ada786e11013abcd329daa1ea56cb200f22b74 KVM: TDX: create/free TDX vcpu structure
+e8c967cf4886b3263352e73251055fb093b90239 KVM: TDX: Do TDX specific vcpu initialization
+7838a43790d80fd466b5ef349b345daacd67308a KVM: x86: Introduce KVM_TDX_GET_CPUID
+43368a894dd893169d1a80abb990fe698c4a924d KVM: x86/mmu: Taking guest pa into consideration when calculate tdp level
+7c471991d1417dd71b0f4bc9a774e2856bc549bb KVM: x86/mmu: Implement memslot deletion for TDX
+441557c2b2ca4170c49109e0a9a90bb1ee310467 KVM: x86/tdp_mmu: Add a helper function to walk down the TDP MMU
+751d16dfee4641f9c16f97fbd51a48d610f10345 KVM: x86/mmu: Do not enable page track for TD guest
+a0c81c86e1f4a57b35fe0c6ee1b5f645fe469d97 KVM: VMX: Split out guts of EPT violation to common/exposed function
+c7074ea577ced956a47bda3cfd749127350cd5c2 KVM: VMX: Teach EPT violation helper about private mem
+e19a187a4145530c7f4200b5a85506013211d98b KVM: TDX: Add accessors VMX VMCS helpers
+fd329bd53b4150e6b0f8beb095e79423027c69d2 KVM: TDX: Add load_mmu_pgd method for TDX
+40f312708148d47b95949ec787fa53a57205298a KVM: TDX: Set gfn_direct_bits to shared bit
+983bb142eb666c7dc58ce8d16db8655fa7e88699 KVM: TDX: Require TDP MMU and mmio caching for TDX
+96673512ad7489f544fb91d780b5b8f4275cb816 KVM: x86/mmu: Add setter for shadow_mmio_value
+e366f64a35009a169bbcce8dec5fad2b8e530d59 KVM: TDX: Set per-VM shadow_mmio_value to 0
+8e4c3ae2ee1d23b80f521bce3ef7dd3f5fe1798c KVM: TDX: Handle TLB tracking for TDX
+db5364cef206ab0434b433c0aa5c31fcc6436353 KVM: TDX: Implement hooks to propagate changes of TDP MMU mirror page table
+cf30505e6540b74fb4d43cf0042115d63a8092d3 fixup! KVM: TDX: Implement hooks to propagate changes of TDP MMU mirror page table
+5682d20f9324cf044a4e4af7f411fe3e9426b302 fixup! KVM: TDX: Implement hooks to propagate changes of TDP MMU mirror page table
+cb62855b2c6ec13fa5b87d1123dce5d63591ef69 KVM: TDX: Implement hook to get max mapping level of private pages
+244688b1ee5700ff56b781f3f5ef310dc4cc3042 KVM: x86/mmu: Export kvm_tdp_map_page()
+564bb6d850ff2b044eb91aef0013fcada36b8a10 KVM: TDX: Add an ioctl to create initial guest memory
+544ff200b17775edf0d60fafe5b461d05ad476ff KVM: TDX: Return -EBUSY when tdh_mem_page_add() encounters TDX_OPERAND_BUSY
+6c9cc4bdfae43d9ad39ff58b1e816bd845d59fbf KVM: TDX: Implement TDX vcpu enter/exit path
+4ea243a1bf77bf24874b4448a45ca3895a621710 fixup! KVM: TDX: Implement TDX vcpu enter/exit path
+a351c99ee16ce6c4e9ae8d29597d545242a74237 KVM: TDX: vcpu_run: save/restore host state(host kernel gs)
+e7dd915ea2759c65b9188cc77ec1c997471ece25 KVM: TDX: restore host xsave state when exit from the guest TD
+a2e4b6f3975d5f010a9e73e6cf4830cbec71d446 KVM: x86: Allow to update cached values in kvm_user_return_msrs w/o wrmsr
+5ba990d25e957d6a7c7ca9b6abde9d8da2cf162c KVM: TDX: restore user ret MSRs
+00d3c324084492ae59de9426610d654d8c154d32 KVM: TDX: Add TSX_CTRL msr into uret_msrs list
+5e0a9a7f8b86ba956e85362fa1c2d65ac9fdd9ca KVM: x86: Add a switch_db_regs flag to handle TDX's auto-switched behavior
+3888b787db01a744205b57355b2cb4eb238eb3c7 KVM: TDX: Add a place holder to handle TDX VM exit
+4d612c48f756b475c013f0d5261711a5afe9c32a KVM: TDX: Add a place holder for handler of TDX hypercalls (TDG.VP.VMCALL)
+6c74184c79ab92d6279c663cb519b084a38486ca KVM: TDX: Handle KVM hypercall with TDG.VP.VMCALL
+9beb83508c54a821cbc85ed8742411d1888f9206 KVM: TDX: Handle TDG.VP.VMCALL<MapGPA>
+42caf6630ae34f79542eb8678b85b14ffa8157aa KVM: TDX: Handle TDG.VP.VMCALL<ReportFatalError>
+e5ba3eb83abf325dedc300a1cd2d4f187a3f8f38 KVM: TDX: Handle TDX PV port I/O hypercall
+f1fde5cf219754e9c12bb30c5129ccdd453191cb KVM: TDX: Handle TDX PV MMIO hypercall
+24bf7c6c3ab8920038fcee2747d9b588d57d6552 KVM: TDX: Add support for find pending IRQ in a protected local APIC
+964acee07741bb64a4edc217e197b8817b0dfda7 KVM: TDX: Disable PI wakeup for IPIv
+9d5e7071a6422a8369ca7df9c5ce1466ff2cf703 KVM: VMX: Move posted interrupt delivery code to common header
+c92af06d0ffc99b7dd3faed4ea2ca8f44c919141 KVM: TDX: Implement non-NMI interrupt injection
+29f6ccb398e1f8759bf44a491afe387f561bd166 KVM: x86: Assume timer IRQ was injected if APIC state is protected
+5684a2b8eab246b567f100bb7fab91b83126d56c KVM: TDX: Wait lapic expire when timer IRQ was injected
+8cc7c1632f3e660e23e0632a8142c5e14e3c95b0 KVM: TDX: Implement methods to inject NMI
+b9f09ecad8e4a7da29cf2c9f5e7f705902ccf701 KVM: TDX: Complete interrupts after TD exit
+79d76ff28f724b4a3bc2285cd8124c999adb61fb KVM: TDX: Handle SMI request as !CONFIG_KVM_SMM
+d81c02b00d86e03072d855e5268db0ffcfe29192 KVM: TDX: Always block INIT/SIPI
+84087a14828c0983aecc7bec7ba87af071baa1a2 KVM: TDX: Inhibit APICv for TDX guest
+8c0ac67a7ea1f69e69021b8771a7b2a85acdcdcd KVM: TDX: Add methods to ignore virtual apic related operation
+0af56695897eed67780be373216a38697e5c2d0c KVM: VMX: Move NMI/exception handler to common helper
+a288132cc05baabbe6cd1c099d56dee7800ba868 KVM: TDX: Handle EXCEPTION_NMI and EXTERNAL_INTERRUPT
+5e7867c32f6a7731878a9f64e9a072e030a7f1ca KVM: TDX: Handle EXIT_REASON_OTHER_SMI
+b6821c9bbeedfce6357c55a02bdd335c99d90ff6 KVM: TDX: Handle EPT violation/misconfig exit
+11a48db63df4bbfc61f37427c1a0f620938fc9d6 KVM: TDX: Detect unexpected SEPT violations due to pending SPTEs
+cd78b2994c72d066e7b50707c0e9ffb721015d74 KVM: TDX: Retry locally in TDX EPT violation handler on RET_PF_RETRY
+5413012b27758438f563040abe8528aeb937be89 KVM: TDX: Kick off vCPUs when SEAMCALL is busy during TD page removal
+cf85542be603f3c4f5331ff9af5af1dd9c0c9d0c KVM: TDX: Handle TDX PV CPUID hypercall
+3025aa5b2b4301390ffcc199b2895bd23b27af69 KVM: TDX: Handle TDX PV HLT hypercall
+2fa936e4256fb656a0c313233d70a7f8a804200b KVM: x86: Move KVM_MAX_MCE_BANKS to header file
+e04f0db65133e3248fa45ece71648e5f8af26c18 KVM: TDX: Implement callbacks for MSR operations
+9126b2367545da7a10e95cb26185cb6e08e80354 KVM: TDX: Handle TDX PV rdmsr/wrmsr hypercall
+3e5ff79e4530ccd05f9b7b90b28fca1867985e38 KVM: TDX: Enable guest access to LMCE related MSRs
+3b323fd2e584b0850a529fd110d8b7696ea64f99 KVM: TDX: Handle TDG.VP.VMCALL<GetTdVmCallInfo> hypercall
+8ff1c5f13857c60e36360470e1294009f8b3d16a KVM: TDX: Add methods to ignore accesses to CPU state
+1ba4416d175773ecf554db97638630b9aa582a0a KVM: TDX: Add method to ignore guest instruction emulation
+3af25f8a8186139e8d5a9b2dc4a8c82c6bc3b7fd KVM: TDX: Add methods to ignore VMX preemption timer
+1040eda135ec9538cebcd767a7558831a6d1520e KVM: TDX: Add methods to ignore accesses to TSC
+e5a8b60e4b69cf01ff692d1932afc929b99eb406 KVM: TDX: Ignore setting up mce
+7aa15f5c1ecaa5247363fa3828ba5a164315783f KVM: TDX: Add a method to ignore hypercall patching
+aa9e97c40a37f794d920f057e2f7f55e4c7ca1fa KVM: TDX: Make TDX VM type supported
+21ef7c7dda5f9899795646699ac148fdd271c244 Documentation/virt/kvm: Document on Trust Domain Extensions(TDX)
+
+--===============1246952438257045206==--
