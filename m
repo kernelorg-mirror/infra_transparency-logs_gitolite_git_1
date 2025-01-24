@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 24 Jan 2025 18:34:20 -0000
-Message-Id: <173774366063.389670.16992839927613501219@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Fri, 24 Jan 2025 18:34:45 -0000
+Message-Id: <173774368502.390466.4335284087658838611@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/master
-    old: d0d106a2bd21499901299160744e5fe9f4c83ddb
-    new: b420b575654929a52b790650ec84e1a3b74ccb17
+  - ref: refs/heads/ath-current
+    old: 146b6057e1fd28fb1a38d300bf76a38dfba7f9fb
+    new: 64a1ba4072b34af1b76bf15fca5c2075b8cc4d64
     log: |
-         b420b575654929a52b790650ec84e1a3b74ccb17 selftests/bpf: Fix freplace_link segfault in tailcalls prog test
+         64a1ba4072b34af1b76bf15fca5c2075b8cc4d64 wifi: ath12k: fix handling of 6 GHz rules
          
