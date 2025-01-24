@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8157167620759546141=="
+Content-Type: multipart/mixed; boundary="===============7171934181284085570=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Fri, 24 Jan 2025 23:02:36 -0000
-Message-Id: <173775975696.606265.2284497597677885769@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Fri, 24 Jan 2025 23:02:42 -0000
+Message-Id: <173775976249.606400.6543139573242567976@gitolite.kernel.org>
 
---===============8157167620759546141==
+--===============7171934181284085570==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 0afd22092df4d3473569c197e317f91face7e51b
     log: revlist-c4b9570cfb63-0afd22092df4.txt
 
---===============8157167620759546141==
+--===============7171934181284085570==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ac0761d8d8315759562a3b85120d482cedf44328 Merge tag 'fbdev-for-6.14-rc1' of git:/
 aa44198a6cf599837350aa954b5153b75feaed2d Merge tag 'for-linus-iommufd' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd
 0afd22092df4d3473569c197e317f91face7e51b Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 
---===============8157167620759546141==--
+--===============7171934181284085570==--
