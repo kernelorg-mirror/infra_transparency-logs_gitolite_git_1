@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Fri, 24 Jan 2025 18:13:45 -0000
-Message-Id: <173774242526.372592.447356649464531628@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Fri, 24 Jan 2025 18:17:36 -0000
+Message-Id: <173774265646.376369.6083508981178242076@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/todo
-    old: fea214e48d5f406a20433da975a52d9d0e472aec
-    new: 83834291fa7c15234c3de59dd8459903b144d00e
+  - ref: refs/heads/ipsec-fixes
+    old: 117be3110d66598a257847e8c317c61f08dd0d7e
+    new: 6e7906d07b5c9348787c2395ec8b5a5e01941930
     log: |
-         83834291fa7c15234c3de59dd8459903b144d00e What's cooking (2025/01 #07)
+         6e7906d07b5c9348787c2395ec8b5a5e01941930 net/mlx5e: Properly match IPsec subnet addresses
          
