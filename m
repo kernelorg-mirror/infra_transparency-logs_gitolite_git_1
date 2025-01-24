@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Fri, 24 Jan 2025 18:34:45 -0000
-Message-Id: <173774368502.390466.4335284087658838611@gitolite.kernel.org>
+Date: Fri, 24 Jan 2025 18:34:56 -0000
+Message-Id: <173774369664.390708.14160118789986316967@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-current
-    old: 146b6057e1fd28fb1a38d300bf76a38dfba7f9fb
-    new: 64a1ba4072b34af1b76bf15fca5c2075b8cc4d64
-    log: |
-         64a1ba4072b34af1b76bf15fca5c2075b8cc4d64 wifi: ath12k: fix handling of 6 GHz rules
-         
+  - ref: refs/heads/pending
+    old: 661f0c434a26dd872d94f22893abe9101c8d09b3
+    new: 28a9972e0f0693cd4d08f431c992fa6be39c788c
