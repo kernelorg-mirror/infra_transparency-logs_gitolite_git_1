@@ -1,25 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Fri, 24 Jan 2025 22:01:34 -0000
-Message-Id: <173775609409.557913.14773672977391130607@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Fri, 24 Jan 2025 22:04:56 -0000
+Message-Id: <173775629689.559987.7588376805508924686@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
-user: tj
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/for-6.15
-    old: 4a6780a30e86cde7756954981db9e6aec285793d
-    new: dae68fba8e115fd84d820354f79da1481135acbd
+  - ref: refs/heads/dev-queue
+    old: ba21e1d1142cf7838e5275103ec016028b754f92
+    new: d51d38654e849b2271a7d9562353b699b6bf7d10
     log: |
-         dae68fba8e115fd84d820354f79da1481135acbd cgroup/cpuset: Move procfs cpuset attribute under cgroup-v1.c
-         
-  - ref: refs/heads/for-next
-    old: 4a6780a30e86cde7756954981db9e6aec285793d
-    new: dae68fba8e115fd84d820354f79da1481135acbd
-    log: |
-         dae68fba8e115fd84d820354f79da1481135acbd cgroup/cpuset: Move procfs cpuset attribute under cgroup-v1.c
+         40eebb4732ce1979c842f13c730e8ca2db2d9c0a ice: fix memory leak in aRFS after reset
+         8564a4278bdb458c15bce4e1750e495b05c5fc85 ice: put Rx buffers after being done with current frame
+         0ff83de463fcf42b5f84e2d3be35c3639b524de8 ice: gather page_count()'s of each frag right before XDP prog call
+         d51d38654e849b2271a7d9562353b699b6bf7d10 ice: stop storing XDP verdict within ice_rx_buf
          
