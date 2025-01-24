@@ -1,47 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============5343071467982915437=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Fri, 24 Jan 2025 16:17:40 -0000
-Message-Id: <173773546028.278732.14636273748571242348@gitolite.kernel.org>
-
---===============5343071467982915437==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+Date: Fri, 24 Jan 2025 16:32:52 -0000
+Message-Id: <173773637279.291359.16929728424900088465@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/kvm
-user: bonzini
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+user: agruen
 changes:
-  - ref: refs/tags/tags/kvm-6.14-1
-    old: 0000000000000000000000000000000000000000
-    new: d79ceb6f0d78e73a9e67afd4d0395467fe5c4901
-
---===============5343071467982915437==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1737735489 -0500
-pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1737735455-126f504855096698c2cf646494c18c2f60c89848
-
-0000000000000000000000000000000000000000 d79ceb6f0d78e73a9e67afd4d0395467fe5c4901 refs/tags/tags/kvm-6.14-1
------BEGIN PGP SIGNATURE-----
-
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmeTvUEUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroOCrgf/Xu9oF9++gbgKIpra8R08wrv9MNhG
-3HDV4DKzxYYHc0xrwe5wIAJBiWtp7bFrEg32bH3vduGReXT9s3iKeFm9WQ7XqYmm
-xpORHCZx0wBn1ZKqwUMp1nqGjNQpbT26s9K7jtpyKiyM+8ltoxTjppWY+TR9OYKt
-hcZUGOMz4eoOPN8TZg4osdxbqZasgvUvf8Tba4us58dax+ruvRMiBRH19gkDFoWa
-bfEm91XkKxkvEd83MtHxJER5QH2slnMJm8loDQ+w+sGamUMVq7fkP15LT9DJefOh
-bOmsQJnhH8t3776cNIF8tSBrHUc9I1W0Z8lvjbVtu7VFBxX3GyCVQzBH3w==
-=dKXe
------END PGP SIGNATURE-----
-
---===============5343071467982915437==--
+  - ref: refs/heads/softirq
+    old: 497cf1fea15570b628c0965207ef809c55516383
+    new: 63e9171e34068ecd2216b41be754424b71831639
+    log: |
+         bcbda32b49d13d2f018a3453e51910c97775f0a8 gfs2: Add GLF_PENDING_REPLY flag
+         8068542d681811df2754f052c7302dc474b7e5b1 gfs2: Set gl_demote_time more cleanly
+         9034950e6c6f1077189ee4f3a76f9e1b63645bc4 gfs2: Rework asynchronous glock disposal mechanism
+         dd6289586adbe75f63282807ac96cb042b7e3c47 gfs2: Take glock reference when expecting reply
+         7a715267e8f541c3f2c4e4be228d44c54cea0fab gfs2: Introduce atomic glock state updates
+         785ae57f2f4cff9e8acc6b64810aca9326c5d734 gfs2: Make gfs2_glock_cb softirq safe
+         3e74bed804fa61809307e3aa5a2d97462b500ef6 gfs2: Make gfs2_glock_complete softirq safe
+         63e9171e34068ecd2216b41be754424b71831639 gfs2: Allow dlm callbacks in softirq context
+         
