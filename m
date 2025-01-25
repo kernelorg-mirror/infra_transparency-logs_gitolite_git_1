@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6330542676946668697=="
+Content-Type: multipart/mixed; boundary="===============6773513592310859517=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sat, 25 Jan 2025 08:41:21 -0000
-Message-Id: <173779448153.1062624.3517062315389703853@gitolite.kernel.org>
+Date: Sat, 25 Jan 2025 08:41:51 -0000
+Message-Id: <173779451173.1062996.210794503057541160@gitolite.kernel.org>
 
---===============6330542676946668697==
+--===============6773513592310859517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/next
+  - ref: refs/heads/master
     old: a3a860bc0fd6c07332e4911cf9a238d20de90173
     new: b46c89c08f4146e7987fc355941a93b12e2c03ef
     log: revlist-a3a860bc0fd6-b46c89c08f41.txt
 
---===============6330542676946668697==
+--===============6773513592310859517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ae8b53aac3273d876170437197631bcb5e16c932 Merge tag 'efi-next-for-v6.14' of git:/
 917846e9f00508ba91e7f1f6fd03db696c971459 Merge tag 'mailbox-v6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
 b46c89c08f4146e7987fc355941a93b12e2c03ef Merge tag 'spi-fix-v6.14-merge-window' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 
---===============6330542676946668697==--
+--===============6773513592310859517==--
