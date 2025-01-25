@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4032296015125095563=="
+Content-Type: multipart/mixed; boundary="===============8637718607439878700=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 25 Jan 2025 20:37:31 -0000
-Message-Id: <173783745121.1669489.15372367702642089876@gitolite.kernel.org>
+Date: Sat, 25 Jan 2025 20:37:49 -0000
+Message-Id: <173783746973.1669771.13714591992951908966@gitolite.kernel.org>
 
---===============4032296015125095563==
+--===============8637718607439878700==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,25 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 659f305ba96a77e04bbb754652e3ff076b9e0bcb
-    new: ed4fa505769c2425640485007018926b6a64f2b1
-    log: revlist-659f305ba96a-ed4fa505769c.txt
+    old: ed4fa505769c2425640485007018926b6a64f2b1
+    new: f47fab712b781141a9d516af916122a88eea0247
+    log: |
+         3254c5492c63ae90b0d40be41e420ed9f2404c50 Merge branch into tip/master: 'irq/urgent'
+         4e1953a55ac28d59aec3882c1ede832153b8c6c8 Merge branch into tip/master: 'locking/urgent'
+         2d997e30d431ab5a1fb523bd55acde787d4abb9c Merge branch into tip/master: 'sched/urgent'
+         c18089c4e89ea0bc72f490ab62d655ad0b258af9 Merge branch into tip/master: 'timers/urgent'
+         f47fab712b781141a9d516af916122a88eea0247 Merge branch into tip/master: 'x86/mm'
+         
+  - ref: refs/heads/tip/urgent
+    old: 59b5d46d9781bcdf1fbc20e0c9804023e45bf72f
+    new: c18089c4e89ea0bc72f490ab62d655ad0b258af9
+    log: revlist-59b5d46d9781-c18089c4e89e.txt
 
---===============4032296015125095563==
+--===============8637718607439878700==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-659f305ba96a-ed4fa505769c.txt
+Content-Disposition: attachment; filename=revlist-59b5d46d9781-c18089c4e89e.txt
 
 1e7381f3617d14b3c11da80ff5f8a93ab14cfc46 KVM: Explicitly verify target vCPU is online in kvm_get_vcpu()
 0664dc74e9d004c36b4400081811df795169809a KVM: Verify there's at least one online vCPU when iterating over all vCPUs
@@ -215,6 +225,9 @@ cae083c4e7ce2123fa173d3551b3f6468d6d6f9c Merge tag 'kvm-x86-mmu-6.14' of https:/
 0f8e26b38d7ac72b3ad764944a25dd5808f37a6e Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 fd56e5104a37f96e1b1ca42b4fd64fd49257fdce Merge tag 'for-linus' of https://github.com/openrisc/linux
 405057718a1f9074133979a9f2ff0c9fa4a19948 Merge tag 'kgdb-6.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/danielt/linux
-ed4fa505769c2425640485007018926b6a64f2b1 Merge branch 'linus'
+3254c5492c63ae90b0d40be41e420ed9f2404c50 Merge branch into tip/master: 'irq/urgent'
+4e1953a55ac28d59aec3882c1ede832153b8c6c8 Merge branch into tip/master: 'locking/urgent'
+2d997e30d431ab5a1fb523bd55acde787d4abb9c Merge branch into tip/master: 'sched/urgent'
+c18089c4e89ea0bc72f490ab62d655ad0b258af9 Merge branch into tip/master: 'timers/urgent'
 
---===============4032296015125095563==--
+--===============8637718607439878700==--
