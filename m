@@ -1,23 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Sat, 25 Jan 2025 17:49:26 -0000
-Message-Id: <173782736656.1487131.5083887281953039359@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/danielt/linux
+Date: Sat, 25 Jan 2025 18:06:26 -0000
+Message-Id: <173782838644.1502567.1433397337128577559@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/danielt/linux
+user: danielt
 changes:
-  - ref: refs/heads/main-pending
-    old: dd8af52078e0530aff20306fbe914fedb399c271
-    new: 75b6eeea14308c54efa0783a9228d297dd3bbdd0
-    log: |
-         8ba18dd518fe2bdd34c490f05a3d7ba81fe709de wifi: ath12k: fix memory leak in ath12k_pci_remove()
-         75b6eeea14308c54efa0783a9228d297dd3bbdd0 Merge branch 'pending' into main-pending
-         
-  - ref: refs/tags/ath-pending-202501250054
+  - ref: refs/tags/kgdb-6.14-rc1
     old: 0000000000000000000000000000000000000000
-    new: 75b6eeea14308c54efa0783a9228d297dd3bbdd0
+    new: b4c651274a9adbaa3135a087134edbb7e1e74bde
