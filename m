@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8856370232836570234=="
+Content-Type: multipart/mixed; boundary="===============2056851126716552036=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Sun, 26 Jan 2025 16:41:11 -0000
-Message-Id: <173790967122.2645254.9682764269831504686@gitolite.kernel.org>
+Date: Sun, 26 Jan 2025 16:41:24 -0000
+Message-Id: <173790968430.2645464.16316232264914615995@gitolite.kernel.org>
 
---===============8856370232836570234==
+--===============2056851126716552036==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: agordeev
 changes:
-  - ref: refs/heads/features
-    old: 26701574cee6777f867f89b4a5c667817e1ee0dd
+  - ref: refs/heads/for-next
+    old: b2832409e00b6330781458d7db0080508a35a9a8
     new: 6abcbcab29996eba5d4bc5df20ed0bb4800effa9
-    log: revlist-26701574cee6-6abcbcab2999.txt
+    log: revlist-b2832409e00b-6abcbcab2999.txt
 
---===============8856370232836570234==
+--===============2056851126716552036==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-26701574cee6-6abcbcab2999.txt
+Content-Disposition: attachment; filename=revlist-b2832409e00b-6abcbcab2999.txt
 
 e70452c4ba2ce1e24a3fdc18bd623edb7b56013c s390/mm: Allow large pages for KASAN shadow mapping
 02415f1cf435ac1403743156c21b79f52adee6ab s390/boot: Rename physmem_alloc_top_down() to physmem_alloc_or_die()
@@ -75,4 +75,4 @@ dc287e4c9149ab54a5003b4d4da007818b5fda3d s390/pci: Fix SR-IOV for PFs initially 
 0a89123deec34698720ccb1a2aba2d7df49076b3 s390/bitops: Use correct constraint for arch_test_bit() inline assembly
 6abcbcab29996eba5d4bc5df20ed0bb4800effa9 s390: Add '-std=gnu11' to decompressor and purgatory CFLAGS
 
---===============8856370232836570234==--
+--===============2056851126716552036==--
