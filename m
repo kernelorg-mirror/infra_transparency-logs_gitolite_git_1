@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2808044778066186876=="
+Content-Type: multipart/mixed; boundary="===============6383481923225984019=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/modules/linux
-Date: Sun, 26 Jan 2025 12:03:21 -0000
-Message-Id: <173789300168.2427800.17867448922165116130@gitolite.kernel.org>
+Date: Sun, 26 Jan 2025 12:04:40 -0000
+Message-Id: <173789308049.2429022.14421946962945155078@gitolite.kernel.org>
 
---===============2808044778066186876==
+--===============6383481923225984019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/modules/linux
 user: ppavlu
 changes:
-  - ref: refs/heads/master
-    old: 5bc55a333a2f7316b58edc7573e8e893f7acb532
-    new: ffd294d346d185b70e28b1a28abe367bbfe53c04
-    log: revlist-5bc55a333a2f-ffd294d346d1.txt
-  - ref: refs/tags/v6.13
-    old: 0000000000000000000000000000000000000000
-    new: d6cb6a3d99adf559a0a404d086f61ee3be866f86
+  - ref: refs/heads/modules-fixes
+    old: 8c82fb5240f7bf55152cf5a6285d2edcfe7ebe3f
+    new: a145c848d69f9c6f32008d8319edaa133360dd74
+    log: revlist-8c82fb5240f7-a145c848d69f.txt
 
---===============2808044778066186876==
+--===============6383481923225984019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5bc55a333a2f-ffd294d346d1.txt
+Content-Disposition: attachment; filename=revlist-8c82fb5240f7-a145c848d69f.txt
 
 1f8af9712413f456849fdf3f3a782cbe099476d7 reset: rzg2l-usbphy-ctrl: Assign proper of node to the allocated device
 202580b60229345dc2637099f10c8a8857c1fdc2 soc: ti: pruss: Fix pruss APIs
@@ -239,5 +236,6 @@ b031457ab15dacb47d714ee872e724f1aa6a1b30 Merge tag 'irq_urgent_for_v6.13' of git
 25144ea31b90af6fa860e1ce3ab735d8bb8deb83 Merge tag 'timers_urgent_for_v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 9528d418de4d83c7ada69314ddd8d4427b1f703a Merge tag 'x86_urgent_for_v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ffd294d346d185b70e28b1a28abe367bbfe53c04 Linux 6.13
+a145c848d69f9c6f32008d8319edaa133360dd74 module: Extend the preempt disabled section in dereference_symbol_descriptor().
 
---===============2808044778066186876==--
+--===============6383481923225984019==--
