@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1700441418891470710=="
+Content-Type: multipart/mixed; boundary="===============1471370440906517605=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Sun, 26 Jan 2025 18:43:07 -0000
-Message-Id: <173791698713.2742392.11613248112969092366@gitolite.kernel.org>
+Date: Sun, 26 Jan 2025 18:56:17 -0000
+Message-Id: <173791777768.2753624.15201924381169177540@gitolite.kernel.org>
 
---===============1700441418891470710==
+--===============1471370440906517605==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/pending
-    old: 45d8c511a35a3d836a8f414733559f8529063062
-    new: 58b976e4f4b4d727eea27c0e40830853ef7ecf0e
-    log: revlist-45d8c511a35a-58b976e4f4b4.txt
+  - ref: refs/heads/main
+    old: 3c116f60d468ada7d9cb855a22e2fa364af6eacb
+    new: 84d9759a584f8748b4e178dc761aef156b24481c
+    log: revlist-3c116f60d468-84d9759a584f.txt
+  - ref: refs/tags/ath-202501261850
+    old: 0000000000000000000000000000000000000000
+    new: 84d9759a584f8748b4e178dc761aef156b24481c
 
---===============1700441418891470710==
+--===============1471370440906517605==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-45d8c511a35a-58b976e4f4b4.txt
+Content-Disposition: attachment; filename=revlist-3c116f60d468-84d9759a584f.txt
 
 8a9c06b40882ebea45563059ddc5d57acdec9dda wifi: ath12k: report station mode transmit rate
 5e73276c814fc1a5a1bce6be743e1a07baa6d4bc wifi: ath12k: report station mode receive rate for IEEE 802.11be
@@ -50,5 +53,9 @@ cf544270c7392af1dc3a3bf405b902f3b9d3f925 wifi: ath12k: Restructure the code for 
 ecfc131389923405be8e7a6f4408fd9321e4d19b wifi: ath12k: Avoid memory leak while enabling statistics
 3bcc4e830e05ed604bbba89c5415926df4ccabae wifi: ath12k: Handle monitor drop TLVs scenario
 58b976e4f4b4d727eea27c0e40830853ef7ecf0e wifi: ath12k: Enable monitor ring mask for QCN9274
+8f288722918e3c13592a3ad859a809e885180255 Merge branch 'ath-next'
+01979cf8f8a6e239939814d11a14ba81c1f57501 Merge branch 'ath-current'
+24b0963a9fd5632741b694e2c477c0a9c13a1043 Merge remote-tracking branch 'mhi/mhi-next'
+84d9759a584f8748b4e178dc761aef156b24481c Add localversion-wireless-testing-ath
 
---===============1700441418891470710==--
+--===============1471370440906517605==--
