@@ -1,48 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============5856794233091926751=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Sun, 26 Jan 2025 17:30:01 -0000
-Message-Id: <173791260147.2683750.4149710379563151964@gitolite.kernel.org>
-
---===============5856794233091926751==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Sun, 26 Jan 2025 17:42:14 -0000
+Message-Id: <173791333425.2694081.16101505453742622679@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/main-pending
-    old: ac50a465648b3ab0e47e838ff5fc3acc50d8b89a
-    new: 85e4c23c823668e821f1968d9b1996fc4acd1c54
-    log: revlist-ac50a465648b-85e4c23c8236.txt
-  - ref: refs/tags/ath-pending-202501261707
-    old: 0000000000000000000000000000000000000000
-    new: 85e4c23c823668e821f1968d9b1996fc4acd1c54
-
---===============5856794233091926751==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac50a465648b-85e4c23c8236.txt
-
-b26168cd732d85704465aeb0ebe19a7d0e5f149b wifi: ath12k: Add HTT source ring ID for monitor rings
-73cefa13e888f48f3b7b10fac538c31883f796b1 wifi: ath12k: Enable filter config for monitor destination ring
-63f4b0362cd8a5617ca658421f09429adda15553 wifi: ath12k: Avoid multiple times configuring monitor filter
-9355147bda42f5cdfe535cc190f3265380d6b2ae wifi: ath12k: Avoid code duplication in monitor ring processing
-e20cf09f9c84aab3752b2a7ca42b88c1aa6a308c wifi: ath12k: Restructure the code for monitor ring processing
-c2273682315a5e817de0e96c8da83904df1b07e1 wifi: ath12k: Fix invalid entry fetch in ath12k_dp_mon_srng_process
-60cceee4abd94b9dcfe141f494aac362c14fea11 wifi: ath12k: Fix end offset bit definition in monitor ring descriptor
-8f71b0e3c1a88da4839893818f058392f539b370 wifi: ath12k: Add drop descriptor handling for monitor ring
-743bdac4e9bd3ed387a78dfd6b6958754b8d873e wifi: ath12k: Handle end reason for the monitor destination ring
-e15fa3250bdba78e20944f868757dac5fc7eba8a wifi: ath12k: Optimize NAPI budget by adjusting PPDU processing
-a09eef5be3d2b26a37313101d89aac6e06a1c655 wifi: ath12k: Handle PPDU spread across multiple buffers
-701c63bdfc0eada983488c9eda9c14a766220d0a wifi: ath12k: Avoid memory leak while enabling statistics
-1f4d994f13ff95e40d9a4e9aa7faa106bbdd6d65 wifi: ath12k: Handle monitor drop TLVs scenario
-6fc980287ac2ec37351386e847b1151ab1df1d22 wifi: ath12k: Enable monitor ring mask for QCN9274
-85e4c23c823668e821f1968d9b1996fc4acd1c54 Merge branch 'pending' into main-pending
-
---===============5856794233091926751==--
+  - ref: refs/heads/nfsd-testing
+    old: cc7253ea23035dbb4fbc93863bb44114f574320e
+    new: e4df52015a979b2b731320f08117d7529cc4677e
+    log: |
+         6e6e2d282d6b18e629f35688a658a1e454dc3640 nfsd: remove the redundant mapping of nfserr_mlink
+         a71d376104bd893a3fc349c5ffeb23a66ec78bcc nfsd: validate the nfsd_serv pointer before calling svc_wake_up
+         d5595d284a1c022b341bab2f66a631ae13eaee14 nfsd: clear acl_access/acl_default after releasing them
+         e4df52015a979b2b731320f08117d7529cc4677e NFSD: nfsd_unlink() clobbers non-zero status returned from fh_fill_pre_attrs()
+         
