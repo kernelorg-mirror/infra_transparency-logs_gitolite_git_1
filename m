@@ -1,27 +1,41 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Sun, 26 Jan 2025 23:05:08 -0000
-Message-Id: <173793270885.2946471.17058185201019932028@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6810829718825147079=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Sun, 26 Jan 2025 23:10:04 -0000
+Message-Id: <173793300490.2950716.507695655367974346@gitolite.kernel.org>
+
+--===============6810829718825147079==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/kdevops
-    old: f3b47fb0b572e80b7a1eeed4a424322169c13b5f
-    new: 6f49297f967bcb013342c3071c1b959fe7007d00
-    log: |
-         6e6e2d282d6b18e629f35688a658a1e454dc3640 nfsd: remove the redundant mapping of nfserr_mlink
-         a71d376104bd893a3fc349c5ffeb23a66ec78bcc nfsd: validate the nfsd_serv pointer before calling svc_wake_up
-         d5595d284a1c022b341bab2f66a631ae13eaee14 nfsd: clear acl_access/acl_default after releasing them
-         25fc4af84fba6c00c9be9726ad7edc5037f34174 NFSD: nfsd_unlink() clobbers non-zero status returned from fh_fill_pre_attrs()
-         15bbff8cee4bcbbff2fb9183b3a12c84ea4bf358 NFSD: Never return NFS4ERR_FILE_OPEN when removing a directory
-         fe0eec5a95849f9e7eb8f3d9f84531d7531d43ab NFSD: Return NFS4ERR_FILE_OPEN only when renaming over an open file
-         c1d6e5f7635895b5e9b2e4a9e4b7cdb9cc07eaf7 NFSD: Return NFS4ERR_FILE_OPEN only when linking an open file
-         c02342641cb0e6c1bf92b7b4caf7704798409a69 Merge remote-tracking branch 'mrchuck/nfsd-next' into kdevops
-         6f49297f967bcb013342c3071c1b959fe7007d00 Merge remote-tracking branch 'mrchuck/nfsd-testing' into kdevops
-         
+  - ref: refs/heads/crc-x86
+    old: 73a2d41706d69771b060fbc6349f73572c2c3d04
+    new: fcd25c43bfc8afcf29b2a2e494cccef9a7649610
+    log: revlist-73a2d41706d6-fcd25c43bfc8.txt
+
+--===============6810829718825147079==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-73a2d41706d6-fcd25c43bfc8.txt
+
+e75467d27d829b1faa3c2ffc918427ae9941a2ee lib/crc64-rocksoft: stop wrapping the crypto API
+991ab5c56325b7edbbaa0f3d4e8229c9438aa8b6 crypto: crc64-rocksoft - remove from crypto API
+b42fa5b5f2914b65f405cf2dacb3f4cb6191011e lib/crc64: rename CRC64-Rocksoft to CRC64-NVME
+080a751e0982743525206e58831c1289791a2527 lib/crc_kunit.c: add test and benchmark for CRC64-NVME
+ef970605ae206c94093b9affdf27abbbdc15e268 lib/crc64: add support for arch-optimized implementations
+532bd6c7307382b32221e036ef8e2c37c8a16711 x86: move ZMM exclusion list into CPU feature flag
+5772feeddcaccbc557de85cee7a941f42eb30df7 scripts/gen-crc-consts: add gen-crc-consts.py
+fc7f6956cb8cd2cae34d52c8890638e7f7a8ba03 x86/crc: add "template" for [V]PCLMULQDQ based CRC functions
+8439181fdd742f8e08b6634a7141e09534321e09 x86/crc32: implement crc32_le using new template
+2c2967a8a41f0a92595d7496c16d012c04c668b4 x86/crc-t10dif: implement crc_t10dif using new template
+fcd25c43bfc8afcf29b2a2e494cccef9a7649610 x86/crc64: implement crc64_be and crc64_nvme using new template
+
+--===============6810829718825147079==--
