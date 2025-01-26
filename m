@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8588085458363637394=="
+Content-Type: multipart/mixed; boundary="===============1700441418891470710=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Sun, 26 Jan 2025 18:42:59 -0000
-Message-Id: <173791697921.2742182.16970390553517018550@gitolite.kernel.org>
+Date: Sun, 26 Jan 2025 18:43:07 -0000
+Message-Id: <173791698713.2742392.11613248112969092366@gitolite.kernel.org>
 
---===============8588085458363637394==
+--===============1700441418891470710==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: 28a9972e0f0693cd4d08f431c992fa6be39c788c
+  - ref: refs/heads/pending
+    old: 45d8c511a35a3d836a8f414733559f8529063062
     new: 58b976e4f4b4d727eea27c0e40830853ef7ecf0e
-    log: revlist-28a9972e0f06-58b976e4f4b4.txt
+    log: revlist-45d8c511a35a-58b976e4f4b4.txt
 
---===============8588085458363637394==
+--===============1700441418891470710==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-28a9972e0f06-58b976e4f4b4.txt
+Content-Disposition: attachment; filename=revlist-45d8c511a35a-58b976e4f4b4.txt
 
 8a9c06b40882ebea45563059ddc5d57acdec9dda wifi: ath12k: report station mode transmit rate
 5e73276c814fc1a5a1bce6be743e1a07baa6d4bc wifi: ath12k: report station mode receive rate for IEEE 802.11be
@@ -51,4 +51,4 @@ ecfc131389923405be8e7a6f4408fd9321e4d19b wifi: ath12k: Avoid memory leak while e
 3bcc4e830e05ed604bbba89c5415926df4ccabae wifi: ath12k: Handle monitor drop TLVs scenario
 58b976e4f4b4d727eea27c0e40830853ef7ecf0e wifi: ath12k: Enable monitor ring mask for QCN9274
 
---===============8588085458363637394==--
+--===============1700441418891470710==--
