@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============7498935495809963902=="
+Content-Type: multipart/mixed; boundary="===============9086970076408622585=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 27 Jan 2025 19:00:51 -0000
-Message-Id: <173800445181.3961512.2660115774660939144@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 27 Jan 2025 19:00:55 -0000
+Message-Id: <173800445598.3961681.16198482501381873456@gitolite.kernel.org>
 
---===============7498935495809963902==
+--===============9086970076408622585==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.14
+  - ref: refs/heads/asoc-6.14
     old: 2e3c688ddaf2bb8e3696a773b5278711a90ea080
     new: 6c1bb4031729871fa203983bd77bed1ee3c61347
     log: |
@@ -25,28 +25,28 @@ changes:
          6c1bb4031729871fa203983bd77bed1ee3c61347 ASoC: codec: es8316: "DAC Soft Ramp Rate" is just a 2 bit control
          
 
---===============7498935495809963902==
+--===============9086970076408622585==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1738004479 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1738004448-59025978746e9fafca83a301b49a1b9d93ed7e85
+pusher C3F436CA30F5D8EB 1738004483 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1738004452-f9f876cb5d6c32fc9535fda879ffd0f0c2dca323
 
-2e3c688ddaf2bb8e3696a773b5278711a90ea080 6c1bb4031729871fa203983bd77bed1ee3c61347 refs/heads/for-6.14
+2e3c688ddaf2bb8e3696a773b5278711a90ea080 6c1bb4031729871fa203983bd77bed1ee3c61347 refs/heads/asoc-6.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmeX2AAACgkQJNaLcl1U
-h9A6vggAhAjjJZ3PNrIqg0XBca+QWVHDA6e6lsIp14yvGvgflnL2USNF2xqrzEmg
-kkXq/vR5IDIDjn8Lfo8rHUdiLxRgpiScnGrU6CYOSDA1/Nngk5RKbOpZOJ0Jdi98
-52ycbtl2+3K7h+9mN92pspFWmQGuIH6ESZC1ZEPVWzsydxMp+7q07LWXriJIXK+E
-8I+Fc0Q2BrGbfqa7WjP+XhBJ0mMCqV19pK24TqjVfub+wtFhPtv+t9txaRGMtw8+
-aueXAzV2xGPoYb0W+eBqWcLZ9+7xvPaHjFuRmjjHtwch3Ng5eLF4dKZLApSsylvU
-aVKo46dy36DkdQtbmZWsSfGIV2YKtw==
-=WUtf
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmeX2AQACgkQJNaLcl1U
+h9AvQAf/YWWKj3cvZLqLZGzLxgpzwYVhP9pO3tL4/zIQqVxNVxnG0QMQcfDVvx27
+KKBIhXCtyNLDyUqd1Sodqb2gtkxCLKnF3qxX2eMMuOqS6FErXXthWcVrhZbldrme
+XEBgUnQQt2exR7/lHIMVPKVAj9slVsjphPcXLSKeKXAeEnKKdWYQXdWJzL04O03Z
+oCSLjF+AZ5crMubkwRA35cQgx5OB4EhJd8BCrSo0BRTX0MRLoqZXAaX3kHVXvmfj
+TFK6iP7ShdoHMgPx0BJiYMW9JAFU2sGScvK6dHE+YuDoVG2EOGFL3YGhd+AEkjOn
+Sd5ARTRHc/bFRkDWC0eOaXkvMwW4Jw==
+=QhNE
 -----END PGP SIGNATURE-----
 
---===============7498935495809963902==--
+--===============9086970076408622585==--
