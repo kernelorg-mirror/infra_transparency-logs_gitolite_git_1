@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nathan/linux
-Date: Mon, 27 Jan 2025 23:57:59 -0000
-Message-Id: <173802227925.7720.10333616214427025263@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
+Date: Mon, 27 Jan 2025 23:58:32 -0000
+Message-Id: <173802231213.8056.6331000172874131110@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nathan/linux
-user: nathan
+repo: pub/scm/linux/kernel/git/perf/perf-tools
+user: namhyung
 changes:
-  - ref: refs/heads/b4/llvm-trap-unreachable
-    old: 5aa3e312a14a904fe3a91d3e0366007253c52de4
-    new: 58c89b7cf0908b7d20a353b724bc2336c56a735a
+  - ref: refs/heads/tmp.perf-tools
+    old: 191f1bd6492a526d7608a71d914eabd67694f373
+    new: bde4ccfd5ab5361490514fc4af7497989cfbee17
     log: |
-         58c89b7cf0908b7d20a353b724bc2336c56a735a kbuild: Turn unreachable into a trap for LLVM
+         bde4ccfd5ab5361490514fc4af7497989cfbee17 perf annotate: Use an array for the disassembler preference
          
