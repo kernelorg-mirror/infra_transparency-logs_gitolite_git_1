@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Mon, 27 Jan 2025 00:19:24 -0000
-Message-Id: <173793716418.3003738.9756623449499475014@gitolite.kernel.org>
+Date: Mon, 27 Jan 2025 00:20:05 -0000
+Message-Id: <173793720528.3006427.13424087501567061648@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,42 +11,36 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pci/pci
 user: helgaas
 changes:
-  - ref: refs/heads/aspm
-    old: 1db806ec06b7c6e08e8af57088da067963ddf117
+  - ref: refs/heads/controller/dra7xx
+    old: ad9afd75030174e8f9eabd9d5c1a87a625db430c
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/devres
-    old: dfa2f4d5f9e5d757700cefa8ee480099889f1c69
+  - ref: refs/heads/controller/dwc
+    old: 1108d677dae296d2f05664bc71fd1d50bd61eb1f
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/dpc
-    old: b198499c7d2508a76243b98e7cca992f6fd2b7f7
+  - ref: refs/heads/controller/imx6
+    old: b881532991f81f5e3a069fe6d1a3e091400042b5
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/dt-bindings
-    old: c25b978d351fae5da87794be9160d8acfa6e6823
+  - ref: refs/heads/controller/iommu-map
+    old: d9f6642ab7ca007ab899b2a89a6b754dcabcad47
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/endpoint
-    old: 0e7faea1880c316c8f41987165b95f1db2544350
+  - ref: refs/heads/controller/layerscape
+    old: 149fc35734e50fc3200cf84c8efd711205961636
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/endpoint-test
-    old: 392188bb0f6ec5162edf457c062929a6abfa369a
+  - ref: refs/heads/controller/mediatek
+    old: 17bd5e4dc96c953257eadce111d7b6ef458c6187
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/enumeration
-    old: 4453f360862e5d9f0807941d613162c3f7a36559
+  - ref: refs/heads/controller/microchip
+    old: 04aa999eb96fdc8d3cf2b2d98363d6372befaef2
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/err
-    old: f68ea779d98a01de0c05b618e35ba2090af590cf
+  - ref: refs/heads/controller/mvebu
+    old: 26cdda544479341d73512f5cf9cf4bab080c11c9
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/misc
-    old: b388face5f169e7a41c1b5e1cdd20515160a83b3
+  - ref: refs/heads/controller/rcar-ep
+    old: 2d2da5a4c1b4509f6f7e5a8db015cd420144beb4
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/of
-    old: 42d9972732f77ced1b7a2406907b19d46c62bcf9
+  - ref: refs/heads/controller/rockchip
+    old: 7ca288760007cab6588dc17f5b6fecf52c83a945
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/pci-sysfs
-    old: 2d54d23c604dc117a2bd99f90353ab761e209384
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/pm
-    old: b1049f2d68693c80a576c4578d96774a68df2bad
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/switchtec
-    old: a3282f84b2151d254dc4abf24d1255c6382be774
+  - ref: refs/heads/controller/xilinx-cpm
+    old: 4eea7596b8fb5c204f7a454a5166ebdcb6b6c72a
     new: 0000000000000000000000000000000000000000
