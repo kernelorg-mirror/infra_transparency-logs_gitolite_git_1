@@ -1,50 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============1671899476855997083=="
+Content-Type: multipart/mixed; boundary="===============0373241580772096207=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 27 Jan 2025 17:53:52 -0000
-Message-Id: <173800043201.3857981.3787430974614411922@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Mon, 27 Jan 2025 17:56:39 -0000
+Message-Id: <173800059954.3909157.12639238215237993207@gitolite.kernel.org>
 
---===============1671899476855997083==
+--===============0373241580772096207==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/dev-queue
-    old: d51d38654e849b2271a7d9562353b699b6bf7d10
-    new: 056df74f4b27a6f8af8882651a5367a55eb93c1e
-    log: revlist-d51d38654e84-056df74f4b27.txt
+  - ref: refs/tags/usb-6.14-rc1
+    old: 0000000000000000000000000000000000000000
+    new: a4674ebbc7ca5a10a9dcbdf44d9b6a05de0624ab
 
---===============1671899476855997083==
+--===============0373241580772096207==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d51d38654e84-056df74f4b27.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-bccc11b2303238e215be9833a905deb16de594b7 idpf: add read memory barrier when checking descriptor done bit
-c12e6d4f29d51ffc471437bb5665c83df6a38d83 ice: do not configure destination override for switchdev
-4336521f1f05d351163cd66ea635c3354a41d745 idpf: Acquire the lock before accessing the xn->salt
-fdd983b45413d0a87f8a33d6722d309699ab49a1 idpf: convert workqueues to unbound
-8edd192ba45e9286af151980975891caa62836a8 idpf: add more info during virtchnl transaction timeout/salt mismatch
-d7767944fe1913547708a6bf0089d61556f86ad5 igb: narrow scope of vfs_lock in SR-IOV cleanup
-7c98ecbd543ff7592b15865aede63009be3d72e4 igb: introduce raw vfs_lock to igb_adapter
-750826695e8e03e69a7bbd1b4dab13ff6122beb2 igb: split igb_msg_task()
-f309b7356a5466dbaa246f5348514b826a9d3751 igb: fix igb_msix_other() handling for PREEMPT_RT
-a27740662b8049e541420fb768f4700240496420 ice: fix ice_parser_rt::bst_key array size
-6e38f4d037743f632368d84c2b8779246792e205 idpf: fix transaction timeouts on reset
-f1479fb42df6b7d8542717434c227309a435f613 ice: remove invalid parameter of equalizer
-d0956ecf7668bc100f0ce89eba7ff989898ffb0f ice: Fix switchdev slow-path in LAG
-33413536dab1dacf9d53465396192ee380c1ee81 idpf: fix handling rsc packet with a single segment
-54434668406f4bf5d4275766726e3dbd50e9d35e idpf: record rx queue in skb for RSC packets
-e865b3f4608ede29cdbc5b6ea9c8f41cf7d316b1 idpf: synchronize pending IRQs after disable
-2eb91bf78e893f002a8b719f7881e1a57310d079 ice: fix memory leak in aRFS after reset
-caf4c7d1d9464ebf45414c65ab2c77b9b45e329a ice: put Rx buffers after being done with current frame
-7a64135d2e9ea5a871a90d99127cd61397773ca4 ice: gather page_count()'s of each frag right before XDP prog call
-056df74f4b27a6f8af8882651a5367a55eb93c1e ice: stop storing XDP verdict within ice_rx_buf
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1738000628 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1738000597-1fb7a804f03e892b9dda9301f9cbafc9f2a0295d
 
---===============1671899476855997083==--
+0000000000000000000000000000000000000000 a4674ebbc7ca5a10a9dcbdf44d9b6a05de0624ab refs/tags/usb-6.14-rc1
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeXyPQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MzUP/1EvZPgMqUWjxwnqPp1g
+KWKIf7OCVr8MXCFIch2HY4VaqYdqLQ2Aw1yrPdjbv4BgnEy1EmyqwSbb3gd7toYd
+mb0/Q6QKossreg4lUI5aGemURO7UEiMyIZCYzZjgGOrxpC1nAormeGg8WE5lvBjA
+Zn5ENDtwOL+4TXZOE50EXtz7zxMwDhbzVA9wm3+nkFlZRSYez6/Va/7fuE4bVQko
+O+JRByf3ff+/C4E4nhs/T01LD1ppjbr/nwIjXodWvoyTdw5J3SANe5SefHQjDC2X
+wT81GHTWBy7lxYatpJZu30f/EoZ/Z26R3QQQupadJYheYvQPXgc1KdmLlsl7VoZp
+Lv99T0SCKmBQ4yDCu6lU64Uqit3yGov5lcZBxu5v06Bv9LMY+vpJOep0A1bKV0Fi
+m4xzfO5KW8O4E78KKGq3rGVOyI5Bm+Tn+irAl3yCPJWKVXVY7vLP4fNc4hcdzuhS
+hCwYm/kSHGS1ojnZUJgb74DoU06m/Smxb/+Rc4QyTB9GcODw20YuUBSo3fxqmSny
+CAHVbvA02BPnLrdpHUuC9kbr64uHdks7enClcfH6OVMIWue4NLSy3l+uC+Tx5VMd
+7c8aKyoYmt+LUKiWpvnT9RLKfCHqZtTYh1mvhpc80sTpCfNkGzQcGDP3OJb7D/sk
+mVo21AlwKf+BoL/S10Az+Rv+
+=C1+x
+-----END PGP SIGNATURE-----
+
+--===============0373241580772096207==--
