@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Mon, 27 Jan 2025 18:09:42 -0000
-Message-Id: <173800138276.3918858.15730800070074447743@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Mon, 27 Jan 2025 18:32:11 -0000
+Message-Id: <173800273191.3937753.2299553802840724221@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/main
-    old: 7da36bae1acc162465249e4f9dd968b901596938
-    new: 1e248bfe8ee48d12537e28e8ed3b4acdd7d56901
+  - ref: refs/heads/for-6.14-fixes
+    old: e9fe182772dcb2630964724fd93e9c90b68ea0fd
+    new: d6f3e7d564b2309e1f17e709a70eca78d7ca2bb8
     log: |
-         4f91bc37763accaef2d1d61cdfbfb2dcda9cfc46 i915: Update Xe2LPD DMC to v2.27
-         1e248bfe8ee48d12537e28e8ed3b4acdd7d56901 Merge branch 'intel/dmc/xe2lpd/2.27' into 'main'
+         d6f3e7d564b2309e1f17e709a70eca78d7ca2bb8 sched_ext: Fix incorrect autogroup migration detection
+         
+  - ref: refs/heads/for-next
+    old: e9fe182772dcb2630964724fd93e9c90b68ea0fd
+    new: d6f3e7d564b2309e1f17e709a70eca78d7ca2bb8
+    log: |
+         d6f3e7d564b2309e1f17e709a70eca78d7ca2bb8 sched_ext: Fix incorrect autogroup migration detection
          
