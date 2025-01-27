@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/frederic/dynticks-testing
-Date: Mon, 27 Jan 2025 22:02:21 -0000
-Message-Id: <173801534150.4106877.17534358493043264266@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Mon, 27 Jan 2025 22:07:39 -0000
+Message-Id: <173801565967.4111091.16508179200949275500@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/frederic/dynticks-testing
-user: frederic
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/master
-    old: 4752324cae193b4983c07132228189b1df83ab3e
-    new: 6bfba244c4e57d252be495fecb731e840bc6a6a9
+  - ref: refs/heads/kdevops
+    old: b3b107be68ec9fb05bf6822cddd7334cc59cf2a3
+    new: 1bb5f3760acf146f85909261115295407d5a176d
     log: |
-         bd1b04dd628a2c1493c5bf9d15f409600ae272b3 Support resched vector IPI and tick stop events
-         6bfba244c4e57d252be495fecb731e840bc6a6a9 Add timer trace events
+         ec2c75a964fafb0812b980699ad32583d99b18dc nfsd: add a cb_ses pointer to nfsd4_callback and use it instead of clp->cb_cb_session
+         baf902788c6626399299c17536c734380731a833 nfsd: don't restart v4.1+ callback when RPC_SIGNALLED is set
+         1bb5f3760acf146f85909261115295407d5a176d nfsd: use -NFS4ERR_BADXDR to indicate CB_SEQUENCE decoding failure
          
