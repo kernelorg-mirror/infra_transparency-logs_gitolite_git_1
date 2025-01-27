@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 27 Jan 2025 09:19:51 -0000
-Message-Id: <173796959130.3450426.18258483878732990303@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 27 Jan 2025 09:30:43 -0000
+Message-Id: <173797024308.3460509.4098840843446432524@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/main
-    old: 15a901361ec3fb1c393f91880e1cbf24ec0a88bd
-    new: 05d91cdb1f9108426b14975ef4eeddf15875ca05
+  - ref: refs/heads/timers/urgent
+    old: 53dac345395c0d2493cbc2f4c85fe38aef5b63f5
+    new: 01cfc84024e9a6b619696a35d2e5662255001cd0
     log: |
-         05d91cdb1f9108426b14975ef4eeddf15875ca05 net/ncsi: use dev_set_mac_address() for Get MC MAC Address handling
+         1f566840a82982141f94086061927a90e79440e5 clocksource: Use pr_info() for "Checking clocksource synchronization" message
+         01cfc84024e9a6b619696a35d2e5662255001cd0 clocksource: Use get_random_bytes() in clocksource_verify_choose_cpus()
          
