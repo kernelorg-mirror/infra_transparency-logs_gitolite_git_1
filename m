@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1462540631945362269=="
+Content-Type: multipart/mixed; boundary="===============5583155175043348356=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Mon, 27 Jan 2025 19:54:06 -0000
-Message-Id: <173800764651.4003596.767454616551660694@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
+Date: Mon, 27 Jan 2025 19:54:12 -0000
+Message-Id: <173800765281.4003752.10913330620657168849@gitolite.kernel.org>
 
---===============1462540631945362269==
+--===============5583155175043348356==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-omap
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 805ba04cb7ccfc7d72e834ebd796e043142156ba
     log: revlist-0afd22092df4-805ba04cb7cc.txt
 
---===============1462540631945362269==
+--===============5583155175043348356==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ ae3813525624fa55683d202c41a6301ab841447f Merge tag 'xtensa-20250126' of https://
 816cef980d816bdb1b3121a5c406df839a85d7f5 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rmk/linux
 805ba04cb7ccfc7d72e834ebd796e043142156ba Merge tag 'mips_6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 
---===============1462540631945362269==--
+--===============5583155175043348356==--
