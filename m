@@ -1,46 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============1767019278330158374=="
+Content-Type: multipart/mixed; boundary="===============8073512585512593854=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Mon, 27 Jan 2025 04:49:15 -0000
-Message-Id: <173795335571.3219865.9136668408509292540@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Mon, 27 Jan 2025 05:30:03 -0000
+Message-Id: <173795580388.3269272.5248067492482524067@gitolite.kernel.org>
 
---===============1767019278330158374==
+--===============8073512585512593854==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: iwamatsu
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/linux-5.10.y-cip
-    old: 6077b17f20b1bcfeccaa23bc05573b938c47679d
-    new: 44dc90880a5958c9894adccb669e5ea29fbd3dc2
-    log: revlist-6077b17f20b1-44dc90880a59.txt
+  - ref: refs/heads/crc-x86
+    old: fcd25c43bfc8afcf29b2a2e494cccef9a7649610
+    new: 7ad096dffe77afae3fec45ef8ebc54d185dfbe07
+    log: revlist-fcd25c43bfc8-7ad096dffe77.txt
 
---===============1767019278330158374==
+--===============8073512585512593854==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6077b17f20b1-44dc90880a59.txt
+Content-Disposition: attachment; filename=revlist-fcd25c43bfc8-7ad096dffe77.txt
 
-7839d38e227b1cfc558efafcc1c3afae30974181 clk: Add devm_clk_hw_register_gate_parent_data()
-5109c8d6fbb11fcdc1bb31580e765b2352ad2139 clk: fixed-factor: add fwname-based constructor functions
-42a035a2adf2614e0a0c92d6bf55fc49b6fab9f0 clk: gate: Add devm_clk_hw_register_gate()
-6a9e10b25b9f9c1f6641d7e6c1dad83e9ef0a58f clk: Add devm_clk_hw_register_gate_parent_hw()
-fc468b2988ccfdcaae63b1ba0270751774ea791d clk: mux: Introduce devm_clk_hw_register_mux_parent_hws()
-ec1c530c5c29a65ca0d3944fa5e35f574a2f4506 dt-bindings: clock: renesas,r9a08g045-vbattb: Document VBATTB
-252a04768473261c38c05a3817b4cb627b3a8b70 clk: renesas: vbattb: Add VBATTB clock driver
-91523d121da20522523fc44fc8b4e25374b649d4 clk: renesas: r9a08g045: Add clock, reset and power domain support for the VBATTB IP
-6a9b75ea3f05559b16bf18b0c1ce5747ef58185d dt-bindings: rtc: renesas,rzg3s-rtc: Document the Renesas RTCA-3 IP
-a29110ba670a391ac16645455522a607cc5fd135 rtc: renesas-rtca3: Add driver for RTCA-3 available on Renesas RZ/G3S SoC
-429ace5d63fa73e67a549a00694fc1a72add4f2e rtc: renesas-rtca3: Fix compilation error on RISC-V
-bd2c476c718dde39bbb34391aad97f49feb43976 arm64: dts: renesas: r9a08g045: Add VBATTB node
-d529ea8bda7b0090b5c15b86fbc94d3513400200 arm64: dts: renesas: rzg3s-smarc-som: Enable VBATTB
-5cf3acfde4bf9c5da4fb0ec5f12453fdfb4483d7 arm64: dts: renesas: r9a08g045: Add RTC node
-cfa62b99c089635569b78c032bd738aac2b1edfa arm64: dts: renesas: rzg3s-smarc-som: Enable RTC
-44dc90880a5958c9894adccb669e5ea29fbd3dc2 arm64: defconfig: Enable VBATTB clock and Renesas RTCA-3
+1f62b140d0b5be527324f3b10d4f499464117047 lib/crc64-rocksoft: stop wrapping the crypto API
+27758c6fd9d0c6261915d097db19cc0d038ae50a crypto: crc64-rocksoft - remove from crypto API
+da4a2b673534eb5504abe6deace058a5257935da lib/crc64: rename CRC64-Rocksoft to CRC64-NVME
+7271a07eb5570e437e1e410e916c45f7e0dc4d7b lib/crc_kunit.c: add test and benchmark for CRC64-NVME
+0191d38cb18cf4c4245a210b2d01457a9a081b3b lib/crc64: add support for arch-optimized implementations
+146c54d9ca0f19eaf510c89d1756d2bd1cbad970 x86: move ZMM exclusion list into CPU feature flag
+657f7af5d29daa81bb675636055e267048863649 scripts/gen-crc-consts: add gen-crc-consts.py
+408adb2baa211ffba21e0146139d510ffdaabd59 x86/crc: add "template" for [V]PCLMULQDQ based CRC functions
+d336df28c725913a1b2e1114a3ec7d9a78731742 x86/crc32: implement crc32_le using new template
+8e400ede601f33ad4e09950aa0545505c9c42130 x86/crc-t10dif: implement crc_t10dif using new template
+7ad096dffe77afae3fec45ef8ebc54d185dfbe07 x86/crc64: implement crc64_be and crc64_nvme using new template
 
---===============1767019278330158374==--
+--===============8073512585512593854==--
