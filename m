@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8526508915597110606=="
+Content-Type: multipart/mixed; boundary="===============3774361138626100575=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 27 Jan 2025 10:02:49 -0000
-Message-Id: <173797216916.3485397.9345705141318937056@gitolite.kernel.org>
+Date: Mon, 27 Jan 2025 10:03:07 -0000
+Message-Id: <173797218747.3485700.3280449952608087496@gitolite.kernel.org>
 
---===============8526508915597110606==
+--===============3774361138626100575==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,25 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 899b1582a9a3b9cd4b24ea41a0f35815b76020ee
-    new: 7fb58ef5711366daeba98339c1446b5d12105b09
-    log: revlist-899b1582a9a3-7fb58ef57113.txt
+    old: 7fb58ef5711366daeba98339c1446b5d12105b09
+    new: 488d9d5e3e554a2a45cec5df3db2f492c4a80991
+    log: |
+         b4892b963cc85e5d0705e87d904157d466633434 Merge branch into tip/master: 'irq/urgent'
+         688ec4b3f84be51385dcf39beb2b29637faf0b87 Merge branch into tip/master: 'locking/urgent'
+         7f223981e08a33dd18ef5f8a263bfc65c0584009 Merge branch into tip/master: 'sched/urgent'
+         424f7261e3f8eb2e430cc84717e2cc845b155b01 Merge branch into tip/master: 'timers/urgent'
+         488d9d5e3e554a2a45cec5df3db2f492c4a80991 Merge branch into tip/master: 'x86/mm'
+         
+  - ref: refs/heads/tip/urgent
+    old: c18089c4e89ea0bc72f490ab62d655ad0b258af9
+    new: 424f7261e3f8eb2e430cc84717e2cc845b155b01
+    log: revlist-c18089c4e89e-424f7261e3f8.txt
 
---===============8526508915597110606==
+--===============3774361138626100575==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-899b1582a9a3-7fb58ef57113.txt
+Content-Disposition: attachment; filename=revlist-c18089c4e89e-424f7261e3f8.txt
 
 27dcdb63aac76a637a5a18a4065b442cc182d883 media: platform: mtk-mdp3: cmdq: Remove duplicated platforms checks
 1378ffec30367233152b7dbf4fa6a25ee98585d1 media: imx-jpeg: Fix potential error pointer dereference in detach_pm()
@@ -1024,6 +1034,11 @@ f3b93547b91ad849b58eb5ab2dd070950ad7beb3 module: sign with sha512 instead of sha
 baf29cc16e18e621a05340695d333fa5d0d001ce Merge tag 'ata-6.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 c159dfbdd4fc62fa08f6715d9d6c34d39cf40446 Merge tag 'mm-nonmm-stable-2025-01-24-23-16' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 9c5968db9e625019a0ee5226c7eebef5519d366a Merge tag 'mm-stable-2025-01-26-14-59' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-7fb58ef5711366daeba98339c1446b5d12105b09 Merge branch 'linus'
+1f566840a82982141f94086061927a90e79440e5 clocksource: Use pr_info() for "Checking clocksource synchronization" message
+01cfc84024e9a6b619696a35d2e5662255001cd0 clocksource: Use get_random_bytes() in clocksource_verify_choose_cpus()
+b4892b963cc85e5d0705e87d904157d466633434 Merge branch into tip/master: 'irq/urgent'
+688ec4b3f84be51385dcf39beb2b29637faf0b87 Merge branch into tip/master: 'locking/urgent'
+7f223981e08a33dd18ef5f8a263bfc65c0584009 Merge branch into tip/master: 'sched/urgent'
+424f7261e3f8eb2e430cc84717e2cc845b155b01 Merge branch into tip/master: 'timers/urgent'
 
---===============8526508915597110606==--
+--===============3774361138626100575==--
