@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Tue, 28 Jan 2025 14:52:44 -0000
-Message-Id: <173807596499.765275.9437808949510175949@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/frederic/dynticks-testing
+Date: Tue, 28 Jan 2025 15:10:53 -0000
+Message-Id: <173807705384.780569.6946927982429593610@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/frederic/dynticks-testing
+user: frederic
 changes:
-  - ref: refs/heads/kdevops
-    old: 165fbf492382f020793553a7f47d67557fca779e
-    new: dfedb3f3b6a0481e5b4df1b5f46f7b38cf5ebfdb
+  - ref: refs/heads/master
+    old: 6bfba244c4e57d252be495fecb731e840bc6a6a9
+    new: c8fcbb3cd05fe6a8cb35b7a3e7036cedec9788e3
     log: |
-         5d83cc89e7b2f7babb238dc54e1249269d2d1943 nfsd: overhaul CB_SEQUENCE error handling
-         5ffac577b527349a5bec71ef45ec75c376b17ecd nfsd: remove unneeded forward declaration of nfsd4_mark_cb_fault()
-         dfedb3f3b6a0481e5b4df1b5f46f7b38cf5ebfdb sunrpc: make rpc_restart_call() and rpc_restart_call_prepare() void return
+         c8fcbb3cd05fe6a8cb35b7a3e7036cedec9788e3 Add "run" command that does everything in one go: launch tasks, tracing and report.
          
