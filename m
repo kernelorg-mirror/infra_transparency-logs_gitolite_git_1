@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Tue, 28 Jan 2025 14:21:18 -0000
-Message-Id: <173807407862.739803.5262594931695805750@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sysctl/sysctl
+Date: Tue, 28 Jan 2025 14:25:14 -0000
+Message-Id: <173807431409.743727.5131178658559315324@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/sysctl/sysctl
+user: joel.granados
 changes:
-  - ref: refs/heads/kvm-arm64/timer-fixes-6.14
+  - ref: refs/tags/constfy-sysctl-6.14-rc1
     old: 0000000000000000000000000000000000000000
-    new: cc6f2a5411528c7e1448bf90eaf97e25bad17257
+    new: 2e3f4aaa7bc43f73af1d56810eb06af173134505
