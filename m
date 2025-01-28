@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8257764954074257521=="
+Content-Type: multipart/mixed; boundary="===============5698497122096527369=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 28 Jan 2025 07:12:43 -0000
-Message-Id: <173804836380.356294.645409069693702910@gitolite.kernel.org>
+Date: Tue, 28 Jan 2025 07:12:55 -0000
+Message-Id: <173804837544.356573.13627890584400697206@gitolite.kernel.org>
 
---===============8257764954074257521==
+--===============5698497122096527369==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,59 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 70cd0576aa39c55aabd227851cba0c601e811fb6
-    new: 6d61a53dd6f55405ebcaea6ee38d1ab5a8856c2c
-    log: revlist-70cd0576aa39-6d61a53dd6f5.txt
+  - ref: refs/heads/rndis-removal
+    old: 0350d447113a0e77dafc2d7c7e26d0103a347b18
+    new: c4a050c5c09ef30feac95a438aca7a8fbf6b47b6
+    log: revlist-0350d447113a-c4a050c5c09e.txt
 
---===============8257764954074257521==
+--===============5698497122096527369==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1738048393 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1738048404 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1738048361-92ca48ad9d35714f78cd9aef0bb9dcf4562a2fea
+nonce 1738048372-7a57e4b8efcef231eb04f548f154c1011e3cd183
 
-70cd0576aa39c55aabd227851cba0c601e811fb6 6d61a53dd6f55405ebcaea6ee38d1ab5a8856c2c refs/heads/usb-testing
+0350d447113a0e77dafc2d7c7e26d0103a347b18 c4a050c5c09ef30feac95a438aca7a8fbf6b47b6 refs/heads/rndis-removal
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeYg4kbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Z1gQAJQoj5j16siDfL3Y6Lq5
-4z3G3OHZTWR3ruCjefn9Mj7JFYykZoWLeQ6+oIPByxiTZ2PIWBKShsbIe8+/kTT4
-TyQFXsc/rlKVi9hPdtsNRYIX8NOeZRNWMRrUVHJaxiksuqVSM0py/uc91GCfvUqr
-Ri8FVZOj/S7Yi7zTzNCNkyX9F/EtHC18kARUbPNBoqYqhqLNxAYSHXh91N49couG
-LH92pBTuUtbMTmRYLPreu4Spz7OLuZC4ywalrWEj/c7t14qGa8xSz0fwFjw0mz+T
-DyKCHRUYlvXf3/IxfqISyzZSnUNDlJDU1frscCwaaW/hoG/prMAnhAO+GvZ5GMPd
-W5aEbDdkvR3GfoFlcbVb8a1CLyzBni37dkjvacYVomuFk35G89VKDjaA4E1PELPt
-VMsb/FW45NyXIGkYcd/0CVrvnHiNr1ZHLmMPqyz5DMgdPFIQBDyQ3F0PUq1BpOQ6
-5LShNfsMR1t+XGlkTM/BtWvef3iQlAE5uHwfDSHWwsVg0hP3D5qHhaJzr3sinhfv
-kmPjCNxShq2XIvQRonJKGMm8Uh2UigKqXJRpTqKIEaCdMv77nIJE5iZpUOwfe5tu
-ZNZ0g87KWvaxHj5rJ8KOP4tw8w40cKHU3BIw3KRNxlXWOP/t0fywEjAidCSqv6/U
-hoV0dlTVswE6ddJPzg0CYJbd
-=8tw6
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeYg5QbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VmsP/0pVd8yDginvQwng/Yzh
+8N6W8eiJaOQJjzB1SrQXnyPItij4xJ2syJz5Z5eHAqEeIXmlUYO5kOJoGTe+7Snp
+sdnC7wxzbIJVCH4yq99lB+Gq7ni4i5zRbD13PfkqemqcY6rdmGLf8Jr/WQbpOgHL
+MU79uDR3EVGYO+acyFF/p0EQKE0XiJu6OznqUl4vKHVjjDCkVhL2weZaS3xaJWBA
+ME8cRvhDF3u/Fo2ECIQ8E5mgN0PfdJuUvZ3ZxZbkHFM+J9xLfubLUipZZbbxrpvN
+ds9mg0lwAM9vlAO5X+2Ckt7Li3cdMs17HXQQw0AmpLY+cImM5Ftogeds19vywsN1
+4eKWVTciZmlO5jhbo4O1EOaj1HfJ9ptn6h8Zi/4xVd1s+RmFdWCiboAJPTtAvkv7
+suMVwBPuWz0t8MWnylLvLwsFFKjUd9RpO76Y/EXSLVELUw+3uxlz27K2776Qpoys
+Cll5gmsqOiZpztobYyNY63BrwzK6ROY/+sTo9xQ15rO8ggBE96h/4Oe5xFK0dned
+XDUEGJ8kpX15/prY7BG7738xC+hVI9t5bqeV+88bGuXWwUcI3V84LnHZN4KjAatw
+2XgoRuzc87wbH1lMWXKzvry1jsxN9OkR3Keh3aahc+BU+EbGXFAdC6WOv75jrXEr
+3omNayYUB0k/O/mJ5Ko/WgN+
+=cyGJ
 -----END PGP SIGNATURE-----
 
---===============8257764954074257521==
+--===============5698497122096527369==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-70cd0576aa39-6d61a53dd6f5.txt
+Content-Disposition: attachment; filename=revlist-0350d447113a-c4a050c5c09e.txt
 
-8814aa123adb373f66025cda80da94b59e849313 riscv: add SpacemiT SoC family Kconfig support
-d8fe64691955a792c34e19f16b09e63376554969 riscv: dts: add initial SpacemiT K1 SoC device tree
-d60d57ab6b2a803b17b6f2aa78abd9487a9ece36 riscv: dts: spacemit: add Banana Pi BPI-F3 board device tree
-21bef40ad121b5b5bfab39803f175e3b3ba465fd riscv: defconfig: enable SpacemiT SoC
-3579b3506fac20abe5ed690d8a9863fc562678a4 riscv: dts: spacemit: add pinctrl property to uart0 in BPI-F3
-3d72d603afa72082501e9076eed61e0531339ef8 riscv: dts: spacemit: move aliases to board dts
-f692a6c69076ee5ecc95c5c7da018fe95ff63c28 Merge tag 'trace-v6.13-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-9b1c673a1648cc3501a3b7719db2bec931cf00f7 Merge tag 'drm-xe-fixes-2025-01-16' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
-951a6bf30667307e7901aac5e74e50dadd5ccfc7 Merge tag 'drm-misc-next-fixes-2025-01-16' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-next
-2c77bcb344f589054b2039bddcd32c4f666258b9 gre: Prepare ipgre_open() to .flowi4_tos conversion.
-65a55aa7e64eefcd2a7f530a0bf8d21d20bffd37 ipv4: Prepare inet_rtm_getroute() to .flowi4_tos conversion.
-a634dda26186cf9a51567020fcce52bcba5e1e59 Merge tag 'io_uring-6.13-20250116' of git://git.kernel.dk/linux
 8d20dcda404d48784f2359976811bfc189992aa0 selftests: drv-net-hw: inject pp_alloc_fail errors in the right place
 e361560a7912958ba3059f51e7dd21612d119169 dev: Acquire netdev_rename_lock before restoring dev->name in dev_change_name().
 2f1bb1e2cc0068b6f5fe992ed3108d89b9b29cf9 dev: Remove devnet_rename_sem.
@@ -111,11 +99,21 @@ f9b80f941e0e68c3347c5d22a17a0f636a064e2c iommu/amd: Remove domain_alloc()
 082f1bcae8d1b5f76e92e369091176b8d61120ec iommu/amd: Fully decode all combinations of alloc_paging_flags
 54e7d90089b8100f120d7c2a5f3daee96eb6e203 iommu: Use str_enable_disable-like helpers
 125f34e4c107b151029ccbeea92631481bf5a6a1 Merge branches 'arm/smmu/updates', 'arm/smmu/bindings', 'qualcomm/msm', 'rockchip', 'riscv', 'core', 'intel/vt-d' and 'amd/amd-vi' into next
+cde1e61d81a4bdc66890de3eca0c489aa01e00a7 Merge tag 'usb-serial-6.14-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-next
 e8c59791ebb60790c74b2c3ab520f04a8a57219a pwm: stm32: Add check for clk_enable()
 5cb4e5b056772e341b590755a976081776422053 ALSA: hda/realtek - Fixed headphone distorted sound on Acer Aspire A115-31 laptop
 bb5f86ea50ffb292f42eb1ebdb99991d5c5ac3ba ALSA: hda/tas2781: Add tas2781 hda SPI driver
 c2d7aa308ecfb55e798558683ee08b171929e764 pmdomain: arm: scmi_pm_domain: Send an explicit request to set the current state
 20a0c37e44063997391430c4ae09973e9cbc3911 mmc: sdhci-msm: Correctly set the load for the regulator
+6d7965fb5cde90a6ef7bbbf0b3debb33a196cf9d dt-bindings: usb: snps,dwc3: Split core description
+15b93f340fa6bcb0b47f574e1cd3b5ce02fec403 usbip: Fix seqnum sign extension issue in vhci_tx_urb
+81702d41457a8aec49bfd0942f98697d529656f0 usbip: Correct format specifier for seqnum from %d to %u
+66e0ea341a2a78d14336117f19763bd9be26d45d usb: dwc3: core: Defer the probe until USB power supply ready
+06c47f203222c93dbec85950d976637aedd54514 usb: typec: ucsi: Add a macro definition for UCSI v1.0
+eb124822186be8ea433f568e92cc3bfbf6117a30 usb: host: xhci-plat: add support compatible ID PNP0D15
+983e375849fe4fd987cab94d940ba2af6f9e7a71 usb: xhci: tegra: Fix OF boolean read warning
+4d27afbf256028a1f54363367f30efc8854433c3 usb: typec: tcpci: Prevent Sink disconnection before vPpsShutdown in SPR PPS
+086fd062bc3883ae1ce4166cff5355db315ad879 Revert "usb: gadget: u_serial: Disable ep before setting port to null to fix the crash caused by port being null"
 2fd7a3f27892f1ca4fca24591a7a82fd0437e080 Merge tag 'at91-soc-6.14' of https://git.kernel.org/pub/scm/linux/kernel/git/at91/linux into soc/arm
 bc32bbd0401170853b479645002df52f849f48fe spmi: Set fwnode for spmi devices
 c65b229699dec5affffd4d4972825c3b3a818e92 spmi: hisi-spmi-controller: Drop duplicated OF node assignment in spmi_controller_probe()
@@ -134,6 +132,7 @@ e190227be427c3de93de738374e6aa1865bfdc1c Merge branch 'for-next/docs' into for-n
 602ffd4ce3a61526d72dfbfb76ca06df19d429f1 Merge branch 'for-next/mm' into for-next/core
 1dd3393696efba1598aa7692939bba99d0cffae3 Merge branch 'for-next/perf' into for-next/core
 f8a05692de060a889fe5b9eb00cc8f1fc8935899 libbpf: Work around kernel inconsistently stripping '.llvm.' suffix
+70cd0576aa39c55aabd227851cba0c601e811fb6 usb: hcd: Bump local buffer size in rh_string()
 01f3ce5328c405179b2c69ea047c423dad2bfa6d tools: Sync if_xdp.h uapi tooling header
 72d1c18262dd5a18d835a94391c31cf04252c748 of: Do not expose of_alias_scan() and correct its comments
 81dfedd5234b42df11a473eefe7328ea4a0416ad of: reserved-memory: Warn for missing static reserved memory regions
@@ -1081,5 +1080,6 @@ cc8b10fa70682218c2a318fc44f71f3175a23cc0 Merge tag 'usb-6.14-rc1' of git://git.k
 7d6e5b525827c69b6d24716fa3e407441edfcf09 Merge tag 'drm-next-2025-01-27' of https://gitlab.freedesktop.org/drm/kernel
 f34b580514c9816a317764e6b138ec66a4adab25 Merge tag 'nfsd-6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
 6d61a53dd6f55405ebcaea6ee38d1ab5a8856c2c Merge tag 'f2fs-for-6.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
+c4a050c5c09ef30feac95a438aca7a8fbf6b47b6 USB: disable all RNDIS protocol drivers
 
---===============8257764954074257521==--
+--===============5698497122096527369==--
