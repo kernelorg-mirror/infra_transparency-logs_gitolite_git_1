@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Tue, 28 Jan 2025 06:09:41 -0000
-Message-Id: <173804458170.305076.3224684590064981390@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Tue, 28 Jan 2025 06:32:21 -0000
+Message-Id: <173804594157.323215.6995319523035887687@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/master
-    old: 48d6f8eef7589a829a674a45933d5f71aa372b9a
-    new: aaf5cc67211dbac1ac7382da6d8e18f8c8051e43
+  - ref: refs/heads/crypto-pending
+    old: 0d0c852e8363bb702cb3a049410b20a06b073708
+    new: 415337249be07fba386916b566ba1677f3f8e642
     log: |
-         e34766f41ca6e8a4cee083400c0036dd2913d9b8 todo: update for merged mm 6.14-rc1 pull request
-         aaf5cc67211dbac1ac7382da6d8e18f8c8051e43 patches/next: rebase to latest mm-unstable
+         415337249be07fba386916b566ba1677f3f8e642 crypto: x86/aes-ctr - rewrite AES-NI optimized CTR and add VAES support
          
