@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1088969896662034166=="
+Content-Type: multipart/mixed; boundary="===============3623986205794926224=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 28 Jan 2025 07:10:52 -0000
-Message-Id: <173804825293.354496.14800651737708118586@gitolite.kernel.org>
+Date: Tue, 28 Jan 2025 07:10:57 -0000
+Message-Id: <173804825724.354638.17699966224618896943@gitolite.kernel.org>
 
---===============1088969896662034166==
+--===============3623986205794926224==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,50 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 5bc55a333a2f7316b58edc7573e8e893f7acb532
+  - ref: refs/heads/char-misc-next
+    old: 970b9757cb44c315b5c3da6b1b35a1ffb07cca5a
     new: 6d61a53dd6f55405ebcaea6ee38d1ab5a8856c2c
-    log: revlist-5bc55a333a2f-6d61a53dd6f5.txt
+    log: revlist-970b9757cb44-6d61a53dd6f5.txt
 
---===============1088969896662034166==
+--===============3623986205794926224==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1738048282 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1738048286 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1738048251-2fda271b042281ad4066e5c787b0deb9f91d0e65
+nonce 1738048255-d989378d44b4787da027e1b6a0b9cc68ec443f6c
 
-5bc55a333a2f7316b58edc7573e8e893f7acb532 6d61a53dd6f55405ebcaea6ee38d1ab5a8856c2c refs/heads/char-misc-linus
+970b9757cb44c315b5c3da6b1b35a1ffb07cca5a 6d61a53dd6f55405ebcaea6ee38d1ab5a8856c2c refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeYgxobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Nb4QAKZwvpmLQ+auLhUwdzPD
-C58ng6vkAZEuMST/+0bmwsjHOrxWg2wrHtcKkrW9wmiFtGcXn1fYgCIOYJevnTh/
-hxLSm+nIzaX8jmrKMfSbubAYtoTZkt//vVUIXVXTLb3UuZAfqQE8L6AF+2goj6Vc
-TmnV02xq9K8bjjn6IWmyiMfGxArvMevT8ETAc5Sy3jPvX+aKtBxI3aF4kqhnWBdo
-OGJ/wJuexQGhTftYcSLcl2W/xGhbYO0/Z1b/7PtI/d/1JTKobBGYMAHKpr9S1PiS
-96OZUL/HuLZTbGHNm7LWloAfCi6SLzIHXn+HDVHzHjkvBA/BhrlJWp0nb4xgYHbR
-KSi/qqNOHzy+9TRo2MulOxY9ThnSqwVl/Qo9kTZlZHLWTnmRwi+pYBQgtFBo6w57
-J1t1phrk6OGGJTpYY/Za6hNRcJy6ZToMy4/YtQ07wLSTIszbHXXr9VcWGP3nm5OW
-kkmGxinDMKH+FmkzNKgC2kJr3+D/Y5+kU15PvWr2Y4FsVGaqN0vYCcDAkVb6nLyQ
-kIx7BfVVf97+RRa2vcdl2kZlEsnCUoN2HhX4WNq7T9vfncP78IYx0N7kEmcQlSSW
-aSLRzINotoXvHqdOa2kQ0LA5DHKLUBX51VN1Dz0QZqc8a7ujXkHCK3WyzYLcDnrM
-rNEc5C/MJZXwBzuT6MGRKlfZ
-=y+pg
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeYgx4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QgIP/0QOnT9VrSVreXJ5u9C1
+7XuPsfJTpbpO+n5DuRngvTZOh7+d3FCF3PDihb1wB9fTFir+LDW41AACVT+jO+Ho
++l24vkdsVGYnniZkg3hlaxrnj2Xcx5HSsSNbANP70ww2ZHJaR2JmS1R1v2Q7444Z
+Zwc7lrDENXUjzHXuHSmIqlShj4j17+11mMUkyrB0VmCYdBVZ3EmoNhPa22hZYTDu
+r1WHYc+TQm79ZxzgwGDuvlG9lVjCNz1CcWeZdH9iPbh47xLShDo4Sv9BU1cGV7AM
+XfQEOqwd/kFUo8t2Wq4BhSJVP/O12lKlSCxyf+fYg8uKxx+BgFKDCVhYqOsYzKz1
+t/F4z8+3NTjti/lJl9Ad9+R3vgvFWaIzG4mgqnSwcDWw1aPBinSJnfawoNHMszp9
+1yPj8HsLhuPMQqKc03tAMpSHeUe5BISiqbighprQCyr3hhEz2kBWxmH3dbgoKv+I
+ieOpKiBihJqm7N+Scvl+edoYCseEs1tMuwd6oXTzNAknmkjtLwSQ9SqqH0YHnH8P
+J4+6Ar0qrTJ+n0XnN7OZsjHh98AK9aTIgL0CIJugpXyMs00S6waJzawkbVyXzp1m
+Lj1eKvP34scfbg/dwuGcnpvXH3UT6RRV24aQHOxL1fgoe0iONi9MxiG9o3fXsGxs
+ZI03GbZSV8ABkEDPzuRh3IFC
+=3Cj2
 -----END PGP SIGNATURE-----
 
---===============1088969896662034166==
+--===============3623986205794926224==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-5bc55a333a2f-6d61a53dd6f5.txt
+Content-Disposition: attachment; filename=revlist-970b9757cb44-6d61a53dd6f5.txt
 
+951a6bf30667307e7901aac5e74e50dadd5ccfc7 Merge tag 'drm-misc-next-fixes-2025-01-16' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-next
+2c77bcb344f589054b2039bddcd32c4f666258b9 gre: Prepare ipgre_open() to .flowi4_tos conversion.
+65a55aa7e64eefcd2a7f530a0bf8d21d20bffd37 ipv4: Prepare inet_rtm_getroute() to .flowi4_tos conversion.
 a634dda26186cf9a51567020fcce52bcba5e1e59 Merge tag 'io_uring-6.13-20250116' of git://git.kernel.dk/linux
 8d20dcda404d48784f2359976811bfc189992aa0 selftests: drv-net-hw: inject pp_alloc_fail errors in the right place
 e361560a7912958ba3059f51e7dd21612d119169 dev: Acquire netdev_rename_lock before restoring dev->name in dev_change_name().
@@ -116,13 +119,10 @@ eb124822186be8ea433f568e92cc3bfbf6117a30 usb: host: xhci-plat: add support compa
 4d27afbf256028a1f54363367f30efc8854433c3 usb: typec: tcpci: Prevent Sink disconnection before vPpsShutdown in SPR PPS
 086fd062bc3883ae1ce4166cff5355db315ad879 Revert "usb: gadget: u_serial: Disable ep before setting port to null to fix the crash caused by port being null"
 2fd7a3f27892f1ca4fca24591a7a82fd0437e080 Merge tag 'at91-soc-6.14' of https://git.kernel.org/pub/scm/linux/kernel/git/at91/linux into soc/arm
-bc32bbd0401170853b479645002df52f849f48fe spmi: Set fwnode for spmi devices
-c65b229699dec5affffd4d4972825c3b3a818e92 spmi: hisi-spmi-controller: Drop duplicated OF node assignment in spmi_controller_probe()
 34d5a86ff7bbe225fba3ad91f9b4dc85fb408e18 net: phy: realtek: clear 1000Base-T lpa if link is down
 ea8318cb33e593bbfc59d637eae45a69732c5387 net: phy: realtek: clear master_slave_state if link is down
 d3eb58549842c60ed46f37da7f4da969e3d6ecd3 net: phy: realtek: always clear NBase-T lpa
 5d6a361dc01d823cb7c10697f16695d45a82b909 Merge branch 'realtek-link-down'
-970b9757cb44c315b5c3da6b1b35a1ffb07cca5a ntsync: Fix reference leaks in the remaining create ioctls.
 e492fac3657b60b8dd78a6e8ca26d1d14706c7b3 Merge branch 'slab/for-6.14/kfree_rcu_move' into slab/for-next
 6ecc4fd6c2f43862c5e3b280cf419f0131e45c97 batman-adv: netlink: reduce duplicate code by returning interfaces
 bea6afc1bfad1d44f87ee73cfb631533b82aa3e2 cgroup/rdma: Drop bogus PAGE_COUNTER select
@@ -1082,4 +1082,4 @@ cc8b10fa70682218c2a318fc44f71f3175a23cc0 Merge tag 'usb-6.14-rc1' of git://git.k
 f34b580514c9816a317764e6b138ec66a4adab25 Merge tag 'nfsd-6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
 6d61a53dd6f55405ebcaea6ee38d1ab5a8856c2c Merge tag 'f2fs-for-6.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
 
---===============1088969896662034166==--
+--===============3623986205794926224==--
