@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1976098878879308431=="
+Content-Type: multipart/mixed; boundary="===============0880467121230123193=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 28 Jan 2025 18:56:26 -0000
-Message-Id: <173809058689.963102.1181012587298011581@gitolite.kernel.org>
+Date: Tue, 28 Jan 2025 18:56:54 -0000
+Message-Id: <173809061443.963416.3457512364265823795@gitolite.kernel.org>
 
---===============1976098878879308431==
+--===============0880467121230123193==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 056df74f4b27a6f8af8882651a5367a55eb93c1e
-    new: 10ea7378dc1247714102e3c72c1f6afd8561eece
-    log: revlist-056df74f4b27-10ea7378dc12.txt
+  - ref: refs/heads/1GbE
+    old: 15a901361ec3fb1c393f91880e1cbf24ec0a88bd
+    new: 9e6c4e6b605c1fa3e24f74ee0b641e95f090188a
+    log: revlist-15a901361ec3-9e6c4e6b605c.txt
 
---===============1976098878879308431==
+--===============0880467121230123193==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-056df74f4b27-10ea7378dc12.txt
+Content-Disposition: attachment; filename=revlist-15a901361ec3-9e6c4e6b605c.txt
 
 c05c5e5aa163f4682ca97a2f0536575fc7dbdecb xfrm: replay: Fix the update of replay_esn->oseq_hi for GSO
 e952837f3ddb0ff726d5b582aa1aad9aa38d024d xfrm: state: fix out-of-bounds read during lookup
@@ -86,18 +86,5 @@ f5fb35a3d6b36d378b2e2ecbfb9caa337d5428e6 net: stmmac: Limit the number of MTL qu
 8865d22656b442b8d0fb019e6acb2292b99a9c3c net: stmmac: Specify hardware capability value when FIFO size isn't specified
 740a3e71567195427495cb4d68bdee1eb1482ba4 Merge branch 'limit-devicetree-parameters-to-hardware-capability'
 9e6c4e6b605c1fa3e24f74ee0b641e95f090188a bonding: Correctly support GSO ESP offload
-cc9fdc941440106fda513b8961fb244c07d5ef59 ice: do not configure destination override for switchdev
-f4d5becaf0cf0c4a4b03ad34c2925995203325f6 igb: narrow scope of vfs_lock in SR-IOV cleanup
-573eed1ac545026d8a1524123cf9f6a31b3d048d igb: introduce raw vfs_lock to igb_adapter
-299f51bbeddc0c53030968f76c6a7dead5ccec42 igb: split igb_msg_task()
-d35871a9f45ed03cd025f2bbc842be05c4e39cf7 igb: fix igb_msix_other() handling for PREEMPT_RT
-6679c4975e3085a966724af0c721ecaf2766a2e2 ice: Fix switchdev slow-path in LAG
-65831d4793554748d213240b2677b634452cb5e3 idpf: fix handling rsc packet with a single segment
-e6a4b93707b557c9378d89d669dacb39ceda2557 idpf: record rx queue in skb for RSC packets
-be87a3377051ad2d168549a59bcf52f4603b3c38 idpf: synchronize pending IRQs after disable
-79c8abaaac0fd3f341abba6a94034c7f31acb0e0 ice: fix memory leak in aRFS after reset
-7e1eb5e99871e89dee42410ae882205b61d9f462 ice: put Rx buffers after being done with current frame
-28f057586c389c78968b6c9d2ef9da820872d822 ice: gather page_count()'s of each frag right before XDP prog call
-10ea7378dc1247714102e3c72c1f6afd8561eece ice: stop storing XDP verdict within ice_rx_buf
 
---===============1976098878879308431==--
+--===============0880467121230123193==--
