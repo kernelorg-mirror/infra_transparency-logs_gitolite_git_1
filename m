@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0779033144573888077=="
+Content-Type: multipart/mixed; boundary="===============2589563586915300330=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 28 Jan 2025 07:15:49 -0000
-Message-Id: <173804854940.408783.6333441240335039666@gitolite.kernel.org>
+Date: Tue, 28 Jan 2025 07:18:07 -0000
+Message-Id: <173804868716.409793.14733119118983873864@gitolite.kernel.org>
 
---===============0779033144573888077==
+--===============2589563586915300330==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
+  - ref: refs/heads/staging-testing
     old: 579b6f18c5ca162af040f44684cc55f7da182236
     new: 6d61a53dd6f55405ebcaea6ee38d1ab5a8856c2c
     log: revlist-579b6f18c5ca-6d61a53dd6f5.txt
 
---===============0779033144573888077==
+--===============2589563586915300330==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1738048578 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1738048716 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1738048546-cc2fe901d6338605c75cea5dd4695aad2bf2ebb9
+nonce 1738048684-f50a5fe5de1b863fe5116480346b271d3638cde2
 
-579b6f18c5ca162af040f44684cc55f7da182236 6d61a53dd6f55405ebcaea6ee38d1ab5a8856c2c refs/heads/staging-next
+579b6f18c5ca162af040f44684cc55f7da182236 6d61a53dd6f55405ebcaea6ee38d1ab5a8856c2c refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeYhEIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+H4QP/ilLd+7HHPXbbCm/dSPI
-MK9naO9tgYG4xk6+cSDwRVTRCDnGCGAdL9JCGgw+jx5bLIrTQy/AHVtfV3W8MjDK
-aTRBapvn9cOulbe28DOQR+T2S+eFRcj5xCX0Pjc3PD6+yPjyacNs8JEmJ6zZXSx2
-55OgIzaUxu7wbQ1U1bHB3XWBsGwkHoy31rWate/z9IOt4JnIre5sUX8Nxq76qXVN
-t7m1ZhJaUVJVcdYytAO9W/2gUAG8cSscF1rwsVNQVrPy1J6bo2eQ4dwijkSxEraH
-sneczVX2hp/TXVPnmAMzk/mkbV/+q50pfl5i5KWhn8yeNaXn6nCbfLRzMx6s8+1i
-82c3bGN6uQAo+CLsHb6864JHhPDnvxrGQ5fHp3lW5D2Xl9VrioyfL4BLZi6JUJ8B
-1PvQbCRFWDMAxp7BeL7czPqqU7p5w14kao2sQGbZuFYHLfHLW2Q/gvZpFT3uOmft
-BetAcb8+rFRzFn9wdEZbmrh9x3Lqz1GONS+jSHq64K1SYAS34tVqBb8CGMgzSrvH
-aBdiLG2jMZjOgfeUomX0ci4s6ImAfNlk6nhzyRaTZaQzYVM+jQCxi1LrtJPfMvkj
-JwOMojPHll2pewRlE11Cm0yZ4+lFGmoGeSAGyoN9+Vv1FGgFmZaGJLKIOqG5zYuB
-UhJ1YZHFQWDkteKpaJF+ernr
-=FLtD
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeYhMwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XcwQAJKGvokHjrJYeUfp3hCx
+ZO1cDA4gMXa0glC0QS6Vu9E/aLBJH2e1oGnmDWK8Hu7ZQyQR1N9LTnjBW+YfCKOy
+zW0HowKDd8uGtorXnYsoWOuu2UFCEWsYhOfd3scvNKRk1TC9h/NxWVQ+LFmhJayr
+4k2zRB4Wdn+N319U2KicHJLonzIYbzmUIQ95f58LLBmlcCI2a6YC6hr0Woak7NW/
+Dug9dw+ITmUzprhzerU3Tp7uvmCft1TVWzRKXi1TRz+wT5HA028e/sz2c7XkLslF
+fFnQVq9ZCMIVeDKwrJcMjezwEvY87Ujhqm4mhxfVoN9lqb8Ky/aCuLSkqOiNgh90
+k8UT76NyTZNqm87nsEvnRbSIU4hTS2aIDC+GGT8/eyNBc4Yk04+3VH68i77D8i8O
+UIlnd6HrPDxY42rD3i5EmRn8A0tqWcvj0DPE9uSb35LDTxLEog2fFm6jtbp2zcBo
+4ki+YFstg2aFZakY92k25Q/62OuoSFZLE+tTApT3++n54UZiypu90yIGXeA64KZQ
+1VHKx1M5fYvnZi82QxURa21rfiV1e2syr4CF9j9ETps5CnjD2TaN9MvnXE9Hts/F
+mJZN0DZtlCTKZDmTSBzOYKz/g+7TjPksocULQIZ8zbYQD6P3+8tm3mdfWNfAE8Ym
+mfDI5Lnyx/aCGa3ZwmaJ4IFT
+=cIGO
 -----END PGP SIGNATURE-----
 
---===============0779033144573888077==
+--===============2589563586915300330==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1082,4 +1082,4 @@ cc8b10fa70682218c2a318fc44f71f3175a23cc0 Merge tag 'usb-6.14-rc1' of git://git.k
 f34b580514c9816a317764e6b138ec66a4adab25 Merge tag 'nfsd-6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
 6d61a53dd6f55405ebcaea6ee38d1ab5a8856c2c Merge tag 'f2fs-for-6.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
 
---===============0779033144573888077==--
+--===============2589563586915300330==--
