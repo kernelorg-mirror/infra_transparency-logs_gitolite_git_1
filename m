@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6117266336616868897=="
+Content-Type: multipart/mixed; boundary="===============0493857549816862765=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Tue, 28 Jan 2025 19:11:17 -0000
-Message-Id: <173809147744.977068.10866582166506799044@gitolite.kernel.org>
+Date: Tue, 28 Jan 2025 19:11:54 -0000
+Message-Id: <173809151466.977444.6176112227141300590@gitolite.kernel.org>
 
---===============6117266336616868897==
+--===============0493857549816862765==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,45 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/fixes-togreg
-    old: 012b8276f08a67b9f2e2fd0f35363ae4a75e5267
-    new: 71fa11c1bc6c6dae24ef3110cd71917e6ebe70aa
-    log: revlist-012b8276f08a-71fa11c1bc6c.txt
+  - ref: refs/heads/testing
+    old: ed2010907caa1c838d2e565d67bbc08fe023663e
+    new: 286b93abc8c6aa43fc84d141af7e0662aee2b986
+    log: revlist-ed2010907caa-286b93abc8c6.txt
 
---===============6117266336616868897==
+--===============0493857549816862765==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-012b8276f08a-71fa11c1bc6c.txt
+Content-Disposition: attachment; filename=revlist-ed2010907caa-286b93abc8c6.txt
 
-3ba0262a8fed29efe28e3ce3162d1794a58aa94f net: mdio: add definition for clock stop capable bit
-a00e0d34c0362a69369f212b8be1be1f6f4c365d net: phy: add support for querying PHY clock stop capability
-a17ceec62f81cebadcaa6f15ca656ff5cbe77a52 net: phylink: add phylink_link_is_up() helper
-03abf2a7c65451e663b078b0ed1bfa648cd9380f net: phylink: add EEE management
-ac79927dc84fac4fb2119ffb14391e721f6117c2 net: mvneta: convert to phylink EEE implementation
-b53b14786ed8aa8934504b047570cd5cd4e3a0e0 net: mvpp2: add EEE implementation
-a66447966f03b04606a30e169c7cc2c6f8261bb7 net: lan743x: use netdev in lan743x_phylink_mac_link_down()
-bd691d5ca9182f0462d9546d22314f67d70ddaa1 net: lan743x: convert to phylink managed EEE
-4218647d4556f599b4e19c7491d299edbe5af72b net: stmmac: convert to phylink managed EEE support
-d338e12736f708984f902e81dc76af63d004449a Merge branch 'net-add-phylink-managed-eee-support'
-3030e3d57ba8d0f59bd8162b3b1f3f7ee273f280 selftests/net: packetdrill: make tcp buf limited timing tests benign
-bf356a6df7992c7f4e51c51466a419a7148ab1a0 net: phy: microchip_rds_ptp: Header file library changes for PEROUT
-8541fc12edcdef36a02885672f22ca8391bd2443 net: phy: microchip_t1: Enable pin out specific to lan887x phy for PEROUT signal
-93359197f273e414136861e9077571bb8a5884b6 net: phy: microchip_rds_ptp : Add PEROUT feature library for RDS PTP supported Microchip phys
-7d2eba0f83a59d360ed1e77ed2778101a6e3c4a1 Merge branch 'add-perout-library-for-rds-ptp-supported-phys'
-b8a81b5dd6450be730924ea5e78f5892927cccd1 bpf: verifier: Add missing newline on verbose() call
-8ac412a3361173e3000b16167af3d1f6f90af613 bpf: tcp: Mark bpf_load_hdr_opt() arg2 as read-write
-37cce22dbd51a3ef7f6c08c3fb5f1c5075a17fbb bpf: verifier: Refactor helper access type tracking
-d2102f2f5d75a84dbab6ff890359f0bd4a18ca22 bpf: verifier: Support eliding map lookup nullness
-f932a8e4824b529e455b7e3eb3e5118beceb3e32 bpf: selftests: verifier: Add nullness elision tests
-b53b63dbf3748eca32e8d19d56dba43ddfec78e6 Merge branch 'support-eliding-map-lookup-nullness'
-8275637215bd3d447b31d37f9b8231a013adb042 tracing: Adopt __free() and guard() for trace_fprobe.c
-31f505dc70331243fbb54af868c14bb5f44a15bc ftrace: Implement :mod: cache filtering on kernel command line
-84cf9e541cccb8cb698518a9897942e8c78f1d83 cpufreq: airoha: Add EN7581 CPUFreq SMCCC driver
-9bffa1ad25b8b3b95d8f463e5c24dabe3c87d54d Merge tag 'drm-fixes-2025-01-17' of https://gitlab.freedesktop.org/drm/kernel
-9ca27296662e3eef9cf6c58bcf22a0490d217738 Merge tag '6.13-rc7-SMB3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
-ad26fc09dabfa6a33ad5baee80479f518370b316 Merge tag 'mm-hotfixes-stable-2025-01-16-21-11' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-10c62c38b073ecea775b7e23fa7c7a3995a84ff3 iommu/riscv: Fixup compile warning
 1a684b099fac9a37e6fe2f0e594adbb1eff5181a iommu/amd: Remove unused amd_iommu_domain_update()
 f9b80f941e0e68c3347c5d22a17a0f636a064e2c iommu/amd: Remove domain_alloc()
 02bcd1a8b991c6fc29271fa02250bea1b61fb742 iommu/amd: Remove dev == NULL checks
@@ -79,13 +51,10 @@ eb124822186be8ea433f568e92cc3bfbf6117a30 usb: host: xhci-plat: add support compa
 4d27afbf256028a1f54363367f30efc8854433c3 usb: typec: tcpci: Prevent Sink disconnection before vPpsShutdown in SPR PPS
 086fd062bc3883ae1ce4166cff5355db315ad879 Revert "usb: gadget: u_serial: Disable ep before setting port to null to fix the crash caused by port being null"
 2fd7a3f27892f1ca4fca24591a7a82fd0437e080 Merge tag 'at91-soc-6.14' of https://git.kernel.org/pub/scm/linux/kernel/git/at91/linux into soc/arm
-bc32bbd0401170853b479645002df52f849f48fe spmi: Set fwnode for spmi devices
-c65b229699dec5affffd4d4972825c3b3a818e92 spmi: hisi-spmi-controller: Drop duplicated OF node assignment in spmi_controller_probe()
 34d5a86ff7bbe225fba3ad91f9b4dc85fb408e18 net: phy: realtek: clear 1000Base-T lpa if link is down
 ea8318cb33e593bbfc59d637eae45a69732c5387 net: phy: realtek: clear master_slave_state if link is down
 d3eb58549842c60ed46f37da7f4da969e3d6ecd3 net: phy: realtek: always clear NBase-T lpa
 5d6a361dc01d823cb7c10697f16695d45a82b909 Merge branch 'realtek-link-down'
-970b9757cb44c315b5c3da6b1b35a1ffb07cca5a ntsync: Fix reference leaks in the remaining create ioctls.
 e492fac3657b60b8dd78a6e8ca26d1d14706c7b3 Merge branch 'slab/for-6.14/kfree_rcu_move' into slab/for-next
 6ecc4fd6c2f43862c5e3b280cf419f0131e45c97 batman-adv: netlink: reduce duplicate code by returning interfaces
 bea6afc1bfad1d44f87ee73cfb631533b82aa3e2 cgroup/rdma: Drop bogus PAGE_COUNTER select
@@ -1044,11 +1013,42 @@ cc8b10fa70682218c2a318fc44f71f3175a23cc0 Merge tag 'usb-6.14-rc1' of git://git.k
 7d6e5b525827c69b6d24716fa3e407441edfcf09 Merge tag 'drm-next-2025-01-27' of https://gitlab.freedesktop.org/drm/kernel
 f34b580514c9816a317764e6b138ec66a4adab25 Merge tag 'nfsd-6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
 6d61a53dd6f55405ebcaea6ee38d1ab5a8856c2c Merge tag 'f2fs-for-6.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
-ee1bb7867238ab5cd9c775b7d8784aedc735fff3 iio: light: apds9306: fix max_scale_nano values
-5e611d52035e9d1d483a50709d0c1c0f05390acb iio: adc: pac1921: Move ACPI_FREE() to cover all branches
-6e08aface0341e82ebd22c04ce105cf0dc325ea2 iio: adc: at91-sama5d2_adc: fix sama7g5 realbits value
-7cead39f84e978bf90b86e9b257f1ff628cae4ad iio: proximity: Fix use-after-free in hx9023s_send_cfg()
-50bdc37d8e6567e5b4f1fca08a4f7e2153f47a4f iio: hid-sensor-prox: Split difference from multiple channels
-71fa11c1bc6c6dae24ef3110cd71917e6ebe70aa iio: adc: ad7192: fix channel select
+f3405855a923014578242f5eca65c329d0195c36 iio: adc: ad7380: do not use iio_device_claim_direct_scoped anymore
+ebe7c8c2a05e24cec78ff0167da68b9dd05eb5c2 iio: adc: ad7380: enable regmap cache
+177f6893181ad2786e69b7d00f0d7981e07d34ac iio: adc: ad7380: do not store osr in private data structure
+980b8aefc7e10a42d9e19a82287340f08d0e7677 iio: adc: ad7380: add alert support
+f8a2997411a35059b3dd039ae1ccbf3a220354c4 docs: iio: ad7380: add alert support
+1fdfd78ea78b7c5c5d73f4c66a0ef24d36ef2cbe dt-bindings: iio: Correct indentation and style in DTS example
+8748bfd9093cd689fdd44fdc0e4cbecc934c4439 iio: adc: stm32: Drop unnecessary DT property presence check
+f3d678d5625cb41b56eeaad5ba6a34a9d7f5dd35 iio: adc: ad7173: move fwnode_irq_get_byname() call site
+f43cc67bda26c8e84f4389ba51e554f9f5863d61 iio: adc: ad7173: don't make copy of ad_sigma_delta_info struct
+a814ca00f7466ff6a3e4b57d4b6fda6fc6d5d79b iio: adc: ad7625: drop BSD license tag
+ab173ac5873e5efb839e5f35be0da48626e83415 iio: Use str_enable_disable-like helpers
+b2dbfb2e01986d3ea0563e145826d24744a50dc7 dt-bindings: iio: accel: mc3230: document mc3510c
+b09e9e47aca3b4c551b24097ffca56f5ecd0749c iio: accel: mc3230: add mount matrix support
+d1c7246a92699d8fdade9fd33397cbc2aed69bcf iio: accel: mc3230: add OF match table
+93adee5311d8180b87134e24938ec1e7a59c967b iio: accel: mc3230: add multiple devices support
+93a53f844e61cb0e1540398bd71275b289d95b24 iio: accel: mc3230: add mc3510c support
+1c28d5cc6d516f4f193389a368657f9e9167539f iio: imu: bmi270: add temperature channel
+70e6e8829d58952bc07ad086b9647af882bef7c5 iio: adc: ad4695: make ad4695_exit_conversion_mode() more robust
+2e4b1512a522bd0a182dbf3f788c6575e8b3a947 iio: adc: ad4695: add custom regmap bus callbacks
+0a6805983f0fd55f423806aa6ed52b1be5b85897 iio: adc: ti-ads124s08: Switch to fsleep()
+0c936103294915055295e1784f5d2bd00065bcc0 iio: gts: Simplify available scale table build
+bbb6691ef929f7b31fd968804c9dff5a89308da1 iio: dac: adi-axi-dac: modify stream enable
+493122c53af1915b4b5b5f47a8c446973ebff052 iio: dac: adi-axi-dac: add bus mode setup
+0d331b209ff61180756ea84a1d362cc371238028 iio: dac: ad3552r-hs: fix message on wrong chip id
+ce9ecf1c40235753a3ef026bbac2c99c948090f4 iio: dac: ad3552r-hs: use instruction mode for configuration
+5449f0697f2493f62a25ebf1e399be44d95ed80c iio: dac: ad3552r: share model data structures
+5e0ee68bfdce4fd3d94442410182cd23b528836f iio: dac: ad3552r-hs: add ad3541/2r support
+e37604e23414c14f6f5d4208de9914876a64d4c7 iio: dac: ad3552r-hs: update function name (non functional)
+4cba95c7c31f04f2e87c7403d0604ad3346e1e0f iio: cros_ec: Trace EC sensors command
+a8821ffca08c9e8864ea0c7417b26ebbd9811643 iio: dac: ad5791: fix storage
+70afd506a094ef8596739cbd25a9b2878973f0d8 iio: adc: ad7124: Micro-optimize channel disabling
+4c8e2f3cd4c25cdd3971c50bd46994a62e87e724 iio: light: veml6030: extend regmap to support regfields
+d7dd0c2ff4962ecec0ab86d5814bea757a349ef4 iio: light: veml6030: extend regmap to support caching
+9a1cd6addb1ee21fe5e52b891963b5b2f1797147 dt-bindings: iio: magnetometer: add binding for Si7210
+cb29542a178f6b9dabdc4020c14529a748a14ad9 iio: magnetometer: si7210: add driver for Si7210
+610dc6eadf2bb697abe849f8d34b95d9227d3628 dt-bindings: iio: light: Add APDS9160 binding
+286b93abc8c6aa43fc84d141af7e0662aee2b986 iio: light: Add APDS9160 ALS & Proximity sensor driver
 
---===============6117266336616868897==--
+--===============0493857549816862765==--
