@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8975665072733099099=="
+Content-Type: multipart/mixed; boundary="===============0122316167151451557=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Tue, 28 Jan 2025 00:21:32 -0000
-Message-Id: <173802369263.29204.10809892478822042363@gitolite.kernel.org>
+Date: Tue, 28 Jan 2025 00:22:13 -0000
+Message-Id: <173802373338.29610.8312837091308239540@gitolite.kernel.org>
 
---===============8975665072733099099==
+--===============0122316167151451557==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,24 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/viro/vfs
 user: viro
 changes:
-  - ref: refs/heads/work.d_revalidate
-    old: a8ea90bfec66b239dad9a478fc444aa32d3961bc
-    new: 30d61efe118cad1a73ad2ad66a3298e4abdf9f41
-    log: revlist-a8ea90bfec66-30d61efe118c.txt
-  - ref: refs/heads/work.dcache
-    old: 9c86671dae7d93df789c8ed8f9838fbe07165b00
-    new: 4c43ab1b100f95c410a8633d5a6eb9d74afb5b8d
-    log: |
-         95a4ccbbe596b45264af5e3a019cb920c05ccffd dissolve external_name.u into separate members
-         7e3270165a8704ffb3948ef78f139aefc033135a ext4 fast_commit: make use of name_snapshot primitives
-         4c43ab1b100f95c410a8633d5a6eb9d74afb5b8d generic_ci_d_compare(): use shortname_storage
-         
+  - ref: refs/heads/for-next
+    old: 82884903ac970c3eb9792149b13e875546a3edcf
+    new: 2e72b1e0aac24a12f3bf3eec620efaca7ab7d4de
+    log: revlist-82884903ac97-2e72b1e0aac2.txt
 
---===============8975665072733099099==
+--===============0122316167151451557==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a8ea90bfec66-30d61efe118c.txt
+Content-Disposition: attachment; filename=revlist-82884903ac97-2e72b1e0aac2.txt
 
 95a4ccbbe596b45264af5e3a019cb920c05ccffd dissolve external_name.u into separate members
 7e3270165a8704ffb3948ef78f139aefc033135a ext4 fast_commit: make use of name_snapshot primitives
@@ -51,5 +43,7 @@ ffeeaada2bddb88078f16ba24f24ce8651c22d5b nfs: fix ->d_revalidate() UAF on ->d_na
 9640fe5b5e40f664da401ac8ca5d7046edbc62db ocfs2_dentry_revalidate(): use stable parent inode and name passed by caller
 90341f22c364d8ad55184ce2b8777545942dc5cf orangefs_d_revalidate(): use stable parent inode and name passed by caller
 30d61efe118cad1a73ad2ad66a3298e4abdf9f41 9p: fix ->rename_sem exclusion
+c1feab95e0b2e9fce7e4f4b2739baf40d84543af add a string-to-qstr constructor
+2e72b1e0aac24a12f3bf3eec620efaca7ab7d4de Merge branch 'work.d_revalidate' into for-next
 
---===============8975665072733099099==--
+--===============0122316167151451557==--
