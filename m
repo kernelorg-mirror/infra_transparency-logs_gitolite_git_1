@@ -1,23 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Tue, 28 Jan 2025 12:36:03 -0000
-Message-Id: <173806776347.659138.6277841818654957721@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Tue, 28 Jan 2025 12:36:12 -0000
+Message-Id: <173806777275.659372.14298800777373442638@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/kdevops
-    old: a05af3c6103b703d1d38d8180b3ebbe0a03c2f07
-    new: ec2c75a964fafb0812b980699ad32583d99b18dc
+  - ref: refs/heads/master
+    old: 20dd560ceccea31dda4e7f2801065c50b3d4056e
+    new: 66781759fd3ce9219c2855976afbeed6c231ceea
     log: |
-         62c4a5b15ff2866f0dcaa2a1688aff541b6012b1 nfsd: CB_SEQUENCE error handling fixes and cleanups
-         27bc160028881f989e7c2bd96c0cd4555dbeb150 nfsd: make nfsd4_session be freed via RCU
-         c8bb524870e436dc881a38c16eb1065a5583bfc5 nfsd: add routines to get put session references for callbacks
-         69d4130780c735c6f73f65d2adba3056dfb36a88 nfsd: make clp->cl_cb_session be an RCU managed pointer
-         ec2c75a964fafb0812b980699ad32583d99b18dc nfsd: add a cb_ses pointer to nfsd4_callback and use it instead of clp->cb_cb_session
+         6c5736d619b0fba70429ba211e244da9fb11b2b1 share/mk/build/pdf/book/prepare.pl: Fix duplicate overview-panel entries
+         32b9dfdf331313a01d63d622a395469f6955fdb1 Changes.old: tfix
+         3d538979225db709e4d9441cc7ff86aee13091dd man/man7/pathname.7: Add file documenting pathnames
+         fc28399cd8922ec891940ebdb0c79cff4a0c831a share/mk/build/: Ignore known errors with pathname.7
+         066b74307ad92a3de2bd54184295e8da3a976439 man/man7/pathname.7: EXAMPLES: Use a non-ASCII filename
+         66781759fd3ce9219c2855976afbeed6c231ceea man/man7/pathname.7: Pathnames are opaque C strings
          
