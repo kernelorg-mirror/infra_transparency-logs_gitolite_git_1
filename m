@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Tue, 28 Jan 2025 18:16:37 -0000
-Message-Id: <173808819763.929894.8032765007582480868@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
+Date: Tue, 28 Jan 2025 18:20:56 -0000
+Message-Id: <173808845600.933885.7044803884973343841@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
+repo: pub/scm/linux/kernel/git/wireless/wireless
 user: kvalo
 changes:
   - ref: refs/heads/main
-    old: 59372af69d4d71e6487614f1b35712cf241eadb4
-    new: 22f3551b60be7d126db9233998d262edfc577d0b
+    old: 9e6c4e6b605c1fa3e24f74ee0b641e95f090188a
+    new: 3319569bf9d8b4d8c5aaf0d410b620210c4bb317
     log: |
-         e50e30fa966e7f1ef407d5cdda22de629d64e82b wifi: mwifiex: Constify struct mwifiex_if_ops
-         d5b66511fd35d3fd551b4e34ded103c83c3484d5 wifi: libertas: main: remove unused functions
-         5a7148ba1806008cb9f99fb099b6259c80a0dce6 wifi: libertas: cmd: remove unused functions
-         107c2be8ddf42e8eff2fba7ede76ef3f1771301e wifi: libertas: Remove unused auto deep sleep code
-         22f3551b60be7d126db9233998d262edfc577d0b wifi: ipw2x00: Remove unused libipw_rx_any()
+         64a1ba4072b34af1b76bf15fca5c2075b8cc4d64 wifi: ath12k: fix handling of 6 GHz rules
+         0e9724d0f89e8d77fa683e3129cadaed7c6e609d wifi: brcmfmac: use random seed flag for BCM4355 and BCM4364 firmware
+         3319569bf9d8b4d8c5aaf0d410b620210c4bb317 Merge tag 'ath-current-20250124' of git://git.kernel.org/pub/scm/linux/kernel/git/ath/ath
          
