@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Tue, 28 Jan 2025 23:32:29 -0000
-Message-Id: <173810714978.1202549.3550899937118891345@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
+Date: Tue, 28 Jan 2025 23:42:16 -0000
+Message-Id: <173810773684.1210340.8675983050583363205@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/abelloni/linux
+user: abelloni
 changes:
-  - ref: refs/heads/pending
-    old: ca4315770c46e3a43f690d19ce5b6e370707fddc
-    new: 7946ec554fbea5db9a3aedb7087f0eb9e3749abc
+  - ref: refs/heads/rtc-next
+    old: 58589c6a6e9ed8781eb8876ece5f4ef4c8dc3eed
+    new: 97274527e8dc709bbb4c7cb44279a12d085da9ef
     log: |
-         7946ec554fbea5db9a3aedb7087f0eb9e3749abc wifi: ath11k: remove peer extra rssi update
+         97274527e8dc709bbb4c7cb44279a12d085da9ef rtc: pcf2127: add BSM support
          
