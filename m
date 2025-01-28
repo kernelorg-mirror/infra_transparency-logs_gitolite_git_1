@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1515946359194440328=="
+Content-Type: multipart/mixed; boundary="===============6500787821685726734=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 28 Jan 2025 18:56:57 -0000
-Message-Id: <173809061708.963496.2923363388003892273@gitolite.kernel.org>
+Date: Tue, 28 Jan 2025 18:56:59 -0000
+Message-Id: <173809061975.963647.11540912394654880498@gitolite.kernel.org>
 
---===============1515946359194440328==
+--===============6500787821685726734==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 15a901361ec3fb1c393f91880e1cbf24ec0a88bd
     new: 9e6c4e6b605c1fa3e24f74ee0b641e95f090188a
     log: revlist-15a901361ec3-9e6c4e6b605c.txt
 
---===============1515946359194440328==
+--===============6500787821685726734==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -87,4 +87,4 @@ f5fb35a3d6b36d378b2e2ecbfb9caa337d5428e6 net: stmmac: Limit the number of MTL qu
 740a3e71567195427495cb4d68bdee1eb1482ba4 Merge branch 'limit-devicetree-parameters-to-hardware-capability'
 9e6c4e6b605c1fa3e24f74ee0b641e95f090188a bonding: Correctly support GSO ESP offload
 
---===============1515946359194440328==--
+--===============6500787821685726734==--
