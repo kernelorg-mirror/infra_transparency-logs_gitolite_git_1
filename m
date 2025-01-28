@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1313130291857887790=="
+Content-Type: multipart/mixed; boundary="===============4137505681662702309=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 28 Jan 2025 22:10:35 -0000
-Message-Id: <173810223578.1138625.17717074475167813999@gitolite.kernel.org>
+Date: Tue, 28 Jan 2025 22:10:56 -0000
+Message-Id: <173810225662.1138880.1571414720027965117@gitolite.kernel.org>
 
---===============1313130291857887790==
+--===============4137505681662702309==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,26 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 409485d3be51f99ebed61d809a5527a9974c5851
-    new: 3f15ee9208db5cbf9d66c801e957ff3ecb043e37
-    log: revlist-409485d3be51-3f15ee9208db.txt
+    old: 3f15ee9208db5cbf9d66c801e957ff3ecb043e37
+    new: bf6a6a7a44fbd3ae51b6d038202ef0c5c4466466
+    log: |
+         9abf6803bd775e152aacfb94ea4b4ec56b1d0f85 Merge branch into tip/master: 'irq/urgent'
+         95de7c1ba992f41662fcb43b0767d1b0c768a90e Merge branch into tip/master: 'locking/urgent'
+         7047cc640be3cdabc5bfeb067d8f95d838f9a93d Merge branch into tip/master: 'sched/urgent'
+         2887beb4597f1d893ee63b47a4a1a00a0d9cb967 Merge branch into tip/master: 'timers/urgent'
+         aace6b957cd9a75e8c553e4ad7e12aad082cfa88 Merge branch into tip/master: 'x86/urgent'
+         bf6a6a7a44fbd3ae51b6d038202ef0c5c4466466 Merge branch into tip/master: 'x86/mm'
+         
+  - ref: refs/heads/tip/urgent
+    old: df2194ec7890aa39198b94dc7489f9b731769b61
+    new: aace6b957cd9a75e8c553e4ad7e12aad082cfa88
+    log: revlist-df2194ec7890-aace6b957cd9.txt
 
---===============1313130291857887790==
+--===============4137505681662702309==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-409485d3be51-3f15ee9208db.txt
+Content-Disposition: attachment; filename=revlist-df2194ec7890-aace6b957cd9.txt
 
 7222ae1d3e4e79a3df37a0668f3718a7898b35df bus: mhi: host: Free mhi_buf vector inside mhi_alloc_bhie_table()
 be197d90def4282af7d1f7f1210ee1f9342a67d1 dt-bindings: w1: ds2482: Add vcc-supply property
@@ -941,6 +952,7 @@ ae3813525624fa55683d202c41a6301ab841447f Merge tag 'xtensa-20250126' of https://
 3cbb9ce2b9e3e5799f31c53aadebaddc6aad66cb Merge tag 'm68knommu-for-v6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/gerg/m68knommu
 816cef980d816bdb1b3121a5c406df839a85d7f5 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rmk/linux
 805ba04cb7ccfc7d72e834ebd796e043142156ba Merge tag 'mips_6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
+698244bbb3bfd32ddf9a0b70a12b1c7d69056497 irqchip/apple-aic: Only handle PMC interrupt as FIQ when configured so
 deee7487f5d495d0d9e5ab40d866d69ad524c46a Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 f28f4890454cc97c18d31ab4686957857cc862b5 Merge tag 'for-v6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply
 078eac2b5ba3532ad3ded7c4aa10df8712722c50 Merge tag 'pwm/for-6.14-rc1-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
@@ -958,7 +970,10 @@ e2ee2e9b159094527ae7ad78058b1316f62fc5b7 Merge tag 'arm64-upstream' of git://git
 58f504efcda54a9079a38203acc088c3354aaa60 Merge tag 'tty-6.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 cd45f362fc1f2d81fa69a19e7f8eca058db3e320 Merge tag 'bootconfig-fixes-v6.13' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 1105ab42a84bc11c62597005f78ccad2434fbd66 x86/sev: Disable jump tables in SEV startup code
-3b1e7355c026e4bb8d046c1da3c3e029239ab2fa Merge branch 'linus'
-3f15ee9208db5cbf9d66c801e957ff3ecb043e37 Merge branch into tip/master: 'x86/urgent'
+9abf6803bd775e152aacfb94ea4b4ec56b1d0f85 Merge branch into tip/master: 'irq/urgent'
+95de7c1ba992f41662fcb43b0767d1b0c768a90e Merge branch into tip/master: 'locking/urgent'
+7047cc640be3cdabc5bfeb067d8f95d838f9a93d Merge branch into tip/master: 'sched/urgent'
+2887beb4597f1d893ee63b47a4a1a00a0d9cb967 Merge branch into tip/master: 'timers/urgent'
+aace6b957cd9a75e8c553e4ad7e12aad082cfa88 Merge branch into tip/master: 'x86/urgent'
 
---===============1313130291857887790==--
+--===============4137505681662702309==--
