@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2028659284718281372=="
+Content-Type: multipart/mixed; boundary="===============0779033144573888077=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 28 Jan 2025 07:14:20 -0000
-Message-Id: <173804846087.357909.11350557612363172117@gitolite.kernel.org>
+Date: Tue, 28 Jan 2025 07:15:49 -0000
+Message-Id: <173804854940.408783.6333441240335039666@gitolite.kernel.org>
 
---===============2028659284718281372==
+--===============0779033144573888077==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,49 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
-    old: 5bc55a333a2f7316b58edc7573e8e893f7acb532
+  - ref: refs/heads/staging-next
+    old: 579b6f18c5ca162af040f44684cc55f7da182236
     new: 6d61a53dd6f55405ebcaea6ee38d1ab5a8856c2c
-    log: revlist-5bc55a333a2f-6d61a53dd6f5.txt
+    log: revlist-579b6f18c5ca-6d61a53dd6f5.txt
 
---===============2028659284718281372==
+--===============0779033144573888077==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1738048490 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1738048578 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1738048459-6b154ee93ea71a3b898aa31dd294aa0978c45a7d
+nonce 1738048546-cc2fe901d6338605c75cea5dd4695aad2bf2ebb9
 
-5bc55a333a2f7316b58edc7573e8e893f7acb532 6d61a53dd6f55405ebcaea6ee38d1ab5a8856c2c refs/heads/staging-linus
+579b6f18c5ca162af040f44684cc55f7da182236 6d61a53dd6f55405ebcaea6ee38d1ab5a8856c2c refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeYg+obHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1foP/26AC7O7K2AsujhQYN+k
-OqDabSXH+54IPAexY24i4xfA9spi0nzXIzppjx45Hnfp+v7r3nom3lv7hfM6ulNs
-EjguTww5rbz8bPdb6ysqrIg07pV+7n645yHbFWz7Gv9hqngvch5dy7BQU/2xa/Yz
-dn07mKRrcaAK90iLEZpxUJZApu661kOsC223VO7U9qNLKft2MqyyLSA0Vp7nTWou
-IKpeGigMcfpNL1Ln9210A6tW+lGPfKFWEM4TQliGmK0gFcirLXz0GXTRhPM3JmUY
-O8n/lcMHOSByZj/pzFM4HDmFCZa8yg9lIY44BOzLC69cc+Lj8b3Gk7+SmktMwTla
-2z7gNQhsgeZn2Y6wM285Pl71Cm7o8tSWsmJSMVcgEMdbxn7hvWA6Lij7az0c/2N7
-q/SF3jicnUPWcJ/9L95go7x80PSqxd9fUUZM2f1XlsDVXJXy014oD0Zpu4oUyGc1
-ehyoMEk285pWLIS/V2a/bNYQP7MQ5ows52MD1KO1MWTLnuZrnE4WjzApiwiPR+66
-anKbawD3GsTXgr8GvEetk1pYj+/DuVhNgRmfh2p6YhVzqoYgqrWlWp5ciM0iiGad
-AY1icdSES8H5lcRAe2/OXKrHImnMk/pnpeUkmXcSy+6DBr05g3J+LISy1yh9PCxS
-An/kbgdjPIx+XgyCAkqD+u5a
-=gtyx
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeYhEIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+H4QP/ilLd+7HHPXbbCm/dSPI
+MK9naO9tgYG4xk6+cSDwRVTRCDnGCGAdL9JCGgw+jx5bLIrTQy/AHVtfV3W8MjDK
+aTRBapvn9cOulbe28DOQR+T2S+eFRcj5xCX0Pjc3PD6+yPjyacNs8JEmJ6zZXSx2
+55OgIzaUxu7wbQ1U1bHB3XWBsGwkHoy31rWate/z9IOt4JnIre5sUX8Nxq76qXVN
+t7m1ZhJaUVJVcdYytAO9W/2gUAG8cSscF1rwsVNQVrPy1J6bo2eQ4dwijkSxEraH
+sneczVX2hp/TXVPnmAMzk/mkbV/+q50pfl5i5KWhn8yeNaXn6nCbfLRzMx6s8+1i
+82c3bGN6uQAo+CLsHb6864JHhPDnvxrGQ5fHp3lW5D2Xl9VrioyfL4BLZi6JUJ8B
+1PvQbCRFWDMAxp7BeL7czPqqU7p5w14kao2sQGbZuFYHLfHLW2Q/gvZpFT3uOmft
+BetAcb8+rFRzFn9wdEZbmrh9x3Lqz1GONS+jSHq64K1SYAS34tVqBb8CGMgzSrvH
+aBdiLG2jMZjOgfeUomX0ci4s6ImAfNlk6nhzyRaTZaQzYVM+jQCxi1LrtJPfMvkj
+JwOMojPHll2pewRlE11Cm0yZ4+lFGmoGeSAGyoN9+Vv1FGgFmZaGJLKIOqG5zYuB
+UhJ1YZHFQWDkteKpaJF+ernr
+=FLtD
 -----END PGP SIGNATURE-----
 
---===============2028659284718281372==
+--===============0779033144573888077==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-5bc55a333a2f-6d61a53dd6f5.txt
+Content-Disposition: attachment; filename=revlist-579b6f18c5ca-6d61a53dd6f5.txt
 
+2c77bcb344f589054b2039bddcd32c4f666258b9 gre: Prepare ipgre_open() to .flowi4_tos conversion.
+65a55aa7e64eefcd2a7f530a0bf8d21d20bffd37 ipv4: Prepare inet_rtm_getroute() to .flowi4_tos conversion.
 a634dda26186cf9a51567020fcce52bcba5e1e59 Merge tag 'io_uring-6.13-20250116' of git://git.kernel.dk/linux
 8d20dcda404d48784f2359976811bfc189992aa0 selftests: drv-net-hw: inject pp_alloc_fail errors in the right place
 e361560a7912958ba3059f51e7dd21612d119169 dev: Acquire netdev_rename_lock before restoring dev->name in dev_change_name().
@@ -290,8 +292,6 @@ f50fcd23c9b9d99bf03d0ab9f30cba4665e6326e crypto: asymmetric_keys - Remove unused
 f78a36d325c5f985f7ac36753e3e72bca0f7c4df dt-bindings: crypto: qcom,prng: Document SM8750 RNG
 076d9119cc3292c20524ceeecfbed9b3e9c7221b dt-bindings: crypto: qcom,inline-crypto-engine: Document the SM8750 ICE
 9d4f8e54cef2c42e23ef258833dbd06a1eaff89b rhashtable: Fix rhashtable_try_insert test
-6a6c153537f093c3bc79ea9633f3954d3450d0ba staging: gpib: Fix NULL pointer dereference in detach
-579b6f18c5ca162af040f44684cc55f7da182236 staging: gpib: Agilent usb code cleanup
 39d772f6654a17ae57656602e801d265e82a2e36 RDMA/hfi1: Constify 'struct bin_attribute'
 f5f01c5c409e697c6ae7091ca578bfbd3825e87c RDMA/qib: Constify 'struct bin_attribute'
 db8b2c0e2abc90d1025fd7f6d4461b21b1d3248e drm/virtio: Fix UAF in virtgpu_dma_buf_free_obj()
@@ -1082,4 +1082,4 @@ cc8b10fa70682218c2a318fc44f71f3175a23cc0 Merge tag 'usb-6.14-rc1' of git://git.k
 f34b580514c9816a317764e6b138ec66a4adab25 Merge tag 'nfsd-6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
 6d61a53dd6f55405ebcaea6ee38d1ab5a8856c2c Merge tag 'f2fs-for-6.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
 
---===============2028659284718281372==--
+--===============0779033144573888077==--
