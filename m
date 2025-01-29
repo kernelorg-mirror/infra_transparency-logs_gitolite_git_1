@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 29 Jan 2025 16:59:30 -0000
-Message-Id: <173816997047.2133812.3014101926200534089@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Wed, 29 Jan 2025 17:11:03 -0000
+Message-Id: <173817066321.2144440.8076932504899027051@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/pending
-    old: 92f28ca475113a68bfb59f9f965f28ffe4376d83
-    new: bee577165a0a375a1d47d8ddef1c321e0f7dd6c8
+  - ref: refs/heads/crc-next
+    old: 6f4de54b31ef63defd1d21f6ae2fca104ec49c58
+    new: 5e3c1c48fac3793c173567df735890d4e29cbb64
     log: |
-         24f587572acf7509127dbdfcbf1b681ef84eeba0 wifi: ath12k: Fetch regdb.bin file from board-2.bin
-         dfffb317519f88534bb82797f055f0a2fd867e7b wifi: ath9k: return by of_get_mac_address
-         0f2b59a98027a781eee1cbd48c7c8fdf87cb73f6 wifi: ath9k: do not submit zero bytes to the entropy pool
-         bee577165a0a375a1d47d8ddef1c321e0f7dd6c8 wifi: ath11k: remove peer extra rssi update
+         b0430f39de089920e3aab3f4a9c35c35110bdbea lib/crc: simplify the kconfig options for CRC implementations
+         5e3c1c48fac3793c173567df735890d4e29cbb64 lib/crc32: remove other generic implementations
          
