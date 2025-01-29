@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2133712548804691880=="
+Content-Type: multipart/mixed; boundary="===============1193996869043745171=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 29 Jan 2025 00:49:59 -0000
-Message-Id: <173811179953.1264252.15241115060311131677@gitolite.kernel.org>
+Date: Wed, 29 Jan 2025 00:50:18 -0000
+Message-Id: <173811181878.1265997.12538605148655857930@gitolite.kernel.org>
 
---===============2133712548804691880==
+--===============1193996869043745171==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,25 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: bf6a6a7a44fbd3ae51b6d038202ef0c5c4466466
-    new: 450bfa27a1ce19df24c902cb96456be0cc8ef736
-    log: revlist-bf6a6a7a44fb-450bfa27a1ce.txt
+    old: 450bfa27a1ce19df24c902cb96456be0cc8ef736
+    new: 99cb3062a161acac65da82e6be56d4039a9793b9
+    log: |
+         d0dd84f5617b2a6662a943ec8a884d45e405d595 Merge branch into tip/master: 'irq/urgent'
+         a21fdcbfda9a5e339bc9570a7862bfe6d9eecfd3 Merge branch into tip/master: 'locking/urgent'
+         d41220d0e27cf31eb726d1651535073f7916f740 Merge branch into tip/master: 'sched/urgent'
+         509f4ec1317be76d51466ea33c6beaebed915da6 Merge branch into tip/master: 'timers/urgent'
+         99cb3062a161acac65da82e6be56d4039a9793b9 Merge branch into tip/master: 'x86/mm'
+         
+  - ref: refs/heads/tip/urgent
+    old: aace6b957cd9a75e8c553e4ad7e12aad082cfa88
+    new: 509f4ec1317be76d51466ea33c6beaebed915da6
+    log: revlist-aace6b957cd9-509f4ec1317b.txt
 
---===============2133712548804691880==
+--===============1193996869043745171==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bf6a6a7a44fb-450bfa27a1ce.txt
+Content-Disposition: attachment; filename=revlist-aace6b957cd9-509f4ec1317b.txt
 
 0e4a19e2bd371068b0f25190356615cab4ca2f1f locking/csd-lock: make CSD lock debug tunables writable in /sys
 c861cac950fb6cf7b1b3a438cf717fdee4352df6 stop_machine: Fix rcu_momentary_eqs() call in multi_cpu_stop()
@@ -167,6 +177,9 @@ f785692ff545aecb517d2609864e1c6d838329e6 Merge tag 'stop-machine.2025.01.28a' of
 3673f5be0ec4798089c2c014505e54fc361d3616 Merge tag 'vfio-v6.14-rc1' of https://github.com/awilliam/linux-vfio
 b88fe2b5dd018c2b856fd6c32b82f25033e908d4 Merge tag 'nfs-for-6.14-1' of git://git.linux-nfs.org/projects/anna/linux-nfs
 05dbaf8dd8bf537d4b4eb3115ab42a5fb40ff1f5 Merge tag 'x86-urgent-2025-01-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-450bfa27a1ce19df24c902cb96456be0cc8ef736 Merge branch 'linus'
+d0dd84f5617b2a6662a943ec8a884d45e405d595 Merge branch into tip/master: 'irq/urgent'
+a21fdcbfda9a5e339bc9570a7862bfe6d9eecfd3 Merge branch into tip/master: 'locking/urgent'
+d41220d0e27cf31eb726d1651535073f7916f740 Merge branch into tip/master: 'sched/urgent'
+509f4ec1317be76d51466ea33c6beaebed915da6 Merge branch into tip/master: 'timers/urgent'
 
---===============2133712548804691880==--
+--===============1193996869043745171==--
