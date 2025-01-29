@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7010386208870293685=="
+Content-Type: multipart/mixed; boundary="===============1930710361356430005=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 29 Jan 2025 20:48:07 -0000
-Message-Id: <173818368795.2320901.14520041166518215159@gitolite.kernel.org>
+Date: Wed, 29 Jan 2025 20:48:40 -0000
+Message-Id: <173818372051.2321264.16944745937948112891@gitolite.kernel.org>
 
---===============7010386208870293685==
+--===============1930710361356430005==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,25 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: c5490fc04ee9c18faaab307edc4e54247e4d6bc4
-    new: 4afd3f910c2c1ccb068102722c8e01c222cba187
-    log: revlist-c5490fc04ee9-4afd3f910c2c.txt
+    old: 4afd3f910c2c1ccb068102722c8e01c222cba187
+    new: 25cb07b28aa8f42f3123a7b0bd09ea1d9a24fa28
+    log: |
+         09f23bcc18c4210920fc6f021de1b28cf86c9af0 Merge branch into tip/master: 'irq/urgent'
+         f6efabe6797aeb25bd90818524680e554adcf032 Merge branch into tip/master: 'locking/urgent'
+         65d20f67c72bff2e4c856cc475db46b05f0c81b0 Merge branch into tip/master: 'sched/urgent'
+         8b44debe7c5bea05dae6d694f8bc4e9b2b023be4 Merge branch into tip/master: 'timers/urgent'
+         25cb07b28aa8f42f3123a7b0bd09ea1d9a24fa28 Merge branch into tip/master: 'x86/mm'
+         
+  - ref: refs/heads/tip/urgent
+    old: ad3e4965114d0beb4891bb8f519b0d4547d9d278
+    new: 8b44debe7c5bea05dae6d694f8bc4e9b2b023be4
+    log: revlist-ad3e4965114d-8b44debe7c5b.txt
 
---===============7010386208870293685==
+--===============1930710361356430005==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c5490fc04ee9-4afd3f910c2c.txt
+Content-Disposition: attachment; filename=revlist-ad3e4965114d-8b44debe7c5b.txt
 
 c8e88de1b44e58cacdef41ea9aaa78fca35f1357 ACPI/HMAT: Move HMAT messages to pr_debug()
 2f84d072bdcb7d6ec66cc4d0de9f37a3dc394cd2 cxl/pci: Add CXL Type 1/2 support to cxl_dvsec_rr_decode()
@@ -71,6 +81,9 @@ aa5216a2b06594c558942d491cf71af76d34521e Merge tag 'powerpc-6.14-2' of git://git
 9071080d1e7af1a3a1699c3ba065c3293b5d09ce Merge tag 'cxl-for-6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 b2091a64820f068dd19b7dd5351d8095adb3e5f6 Merge tag 'for-linus-6.14-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
 ebbb8be421eefbe2d47b99c2e1a6dd840d7930f9 Merge tag 'regulator-fix-v6.14-merge-window' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
-4afd3f910c2c1ccb068102722c8e01c222cba187 Merge branch 'linus'
+09f23bcc18c4210920fc6f021de1b28cf86c9af0 Merge branch into tip/master: 'irq/urgent'
+f6efabe6797aeb25bd90818524680e554adcf032 Merge branch into tip/master: 'locking/urgent'
+65d20f67c72bff2e4c856cc475db46b05f0c81b0 Merge branch into tip/master: 'sched/urgent'
+8b44debe7c5bea05dae6d694f8bc4e9b2b023be4 Merge branch into tip/master: 'timers/urgent'
 
---===============7010386208870293685==--
+--===============1930710361356430005==--
