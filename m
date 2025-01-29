@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2913775165614084530=="
+Content-Type: multipart/mixed; boundary="===============6423847443798724133=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Wed, 29 Jan 2025 00:37:06 -0000
-Message-Id: <173811102631.1254336.13806537149657764069@gitolite.kernel.org>
+Date: Wed, 29 Jan 2025 00:37:20 -0000
+Message-Id: <173811104089.1254571.7567440163069786087@gitolite.kernel.org>
 
---===============2913775165614084530==
+--===============6423847443798724133==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/dev
-    old: 03511e936916873bf880e6678c98d5fb59c19742
-    new: 05dbaf8dd8bf537d4b4eb3115ab42a5fb40ff1f5
-    log: revlist-03511e936916-05dbaf8dd8bf.txt
+  - ref: refs/heads/dev-test
+    old: 727d357102d274d51d56222e5f79953ca528e6c0
+    new: 3b12c783dd2fd3e2d70fec4faefbf9b975eaa373
+    log: revlist-727d357102d2-3b12c783dd2f.txt
 
---===============2913775165614084530==
+--===============6423847443798724133==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-03511e936916-05dbaf8dd8bf.txt
+Content-Disposition: attachment; filename=revlist-727d357102d2-3b12c783dd2f.txt
 
-c2d7aa308ecfb55e798558683ee08b171929e764 pmdomain: arm: scmi_pm_domain: Send an explicit request to set the current state
-20a0c37e44063997391430c4ae09973e9cbc3911 mmc: sdhci-msm: Correctly set the load for the regulator
 6d7965fb5cde90a6ef7bbbf0b3debb33a196cf9d dt-bindings: usb: snps,dwc3: Split core description
 15b93f340fa6bcb0b47f574e1cd3b5ce02fec403 usbip: Fix seqnum sign extension issue in vhci_tx_urb
 81702d41457a8aec49bfd0942f98697d529656f0 usbip: Correct format specifier for seqnum from %d to %u
@@ -1050,5 +1048,7 @@ f785692ff545aecb517d2609864e1c6d838329e6 Merge tag 'stop-machine.2025.01.28a' of
 3673f5be0ec4798089c2c014505e54fc361d3616 Merge tag 'vfio-v6.14-rc1' of https://github.com/awilliam/linux-vfio
 b88fe2b5dd018c2b856fd6c32b82f25033e908d4 Merge tag 'nfs-for-6.14-1' of git://git.linux-nfs.org/projects/anna/linux-nfs
 05dbaf8dd8bf537d4b4eb3115ab42a5fb40ff1f5 Merge tag 'x86-urgent-2025-01-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+df50adf7b756cd2948aa59c1cd8c077f672e1ede f2fs: register inodes which is able to donate pages
+3b12c783dd2fd3e2d70fec4faefbf9b975eaa373 f2fs: add a sysfs entry to request donate file-backed pages
 
---===============2913775165614084530==--
+--===============6423847443798724133==--
