@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtkaczyk/mdadm-test
-Date: Wed, 29 Jan 2025 18:32:54 -0000
-Message-Id: <173817557477.2211163.2783624270237054149@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Wed, 29 Jan 2025 18:42:09 -0000
+Message-Id: <173817612915.2219115.3206676659090111628@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtkaczyk/mdadm-test
-user: mtkaczyk
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/master
-    old: 21e4efb1cd15c4de4a57de26b0ea2e4234aa8ce5
-    new: c09ae8417dc9e11da1d5bf2867c6498050c6ddb9
-    log: |
-         c09ae8417dc9e11da1d5bf2867c6498050c6ddb9 mdadm: fix --grow with --add for linear
-         
+  - ref: refs/heads/work.mnt_idmap.statmount
+    old: 0000000000000000000000000000000000000000
+    new: 8023a0840bd57cf8917ef6dc4681b00a13bb912c
