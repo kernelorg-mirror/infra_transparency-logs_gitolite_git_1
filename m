@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 29 Jan 2025 12:20:11 -0000
-Message-Id: <173815321109.1908664.3915808763556388016@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Wed, 29 Jan 2025 12:24:41 -0000
+Message-Id: <173815348170.1910992.13735074182251084726@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/master
-    old: e903d2a2930a56b2e4d3b2aacf36db71ba626e68
-    new: c50a808a45ace1a9ecde6ae293d829ff014d832d
+  - ref: refs/heads/main
+    old: 1e248bfe8ee48d12537e28e8ed3b4acdd7d56901
+    new: 97cf368b19e641f25f35d0603869305cf17497dd
     log: |
-         4228bb56eb4c7a1e2473899c615aab512b80c229 lscpu: make three column descriptions more grammatical
-         991f5b1f7095b9bf340a90922bd58849da695fb9 logger: do not show arguments of --socket-errors as optional in --help
-         4a3813c565a65d23844db8abb679aa22aef72f98 blkid: say "override" instead of "overwrite" in the --help text
-         c50a808a45ace1a9ecde6ae293d829ff014d832d Merge branch 'PR/lscpu-cols-desc' of https://github.com/karelzak/util-linux-work
+         211fbc287a0b56c13ca0f3d1abc45b6b2cc6723d linux-firmware: Update FW files for MRVL SD8997 chips
+         97cf368b19e641f25f35d0603869305cf17497dd Merge branch 'robot/patch-0-1738145574' into 'main'
          
