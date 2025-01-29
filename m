@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/oupton/linux
-Date: Wed, 29 Jan 2025 18:12:54 -0000
-Message-Id: <173817437489.2193427.15279627307335207181@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
+Date: Wed, 29 Jan 2025 18:13:59 -0000
+Message-Id: <173817443998.2193899.5265050283571339329@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/oupton/linux
-user: oupton
+repo: pub/scm/linux/kernel/git/phy/linux-phy
+user: vkoul
 changes:
-  - ref: refs/heads/arm64/nommu-idreg-override
+  - ref: refs/tags/phy-for-6.14
     old: 0000000000000000000000000000000000000000
-    new: 4b2b539dc05e35622a51c58b35e4c15b145eda63
+    new: 8ef8daae1ad0a677525721b07c57e1f53a6b4efd
