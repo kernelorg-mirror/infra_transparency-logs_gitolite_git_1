@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rw/ubifs
-Date: Thu, 30 Jan 2025 21:40:59 -0000
-Message-Id: <173827325921.3595116.14623496663335645348@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 30 Jan 2025 21:49:33 -0000
+Message-Id: <173827377372.3600851.1912295562469702016@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rw/ubifs
-user: rw
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/tags/ubifs-for-linus-6.14-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 6bce74dce8b79f03d3b062115c069734de87bdfd
+  - ref: refs/heads/master
+    old: b8a1c9f4b7106c94d95c83416d34277ee689638f
+    new: b4b0881156fb8209bf5ef6cb63211bb0ad6e1a6b
+    log: |
+         3fdf2ec7da1c3b2ca13d2d3360f37f017558ed84 Documentation: ublk: Drop Stefan Hajnoczi's message footnote
+         96720ce8b1fa72659ab03544516ceaad6bd1ebc0 docs: power: Fix footnote reference for Toshiba Satellite P10-554
+         b4b0881156fb8209bf5ef6cb63211bb0ad6e1a6b Merge tag 'docs-6.14-2' of git://git.lwn.net/linux
+         
