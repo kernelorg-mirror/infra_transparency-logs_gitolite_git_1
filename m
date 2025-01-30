@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4018713983918263567=="
+Content-Type: multipart/mixed; boundary="===============8064981243850833707=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 30 Jan 2025 16:32:16 -0000
-Message-Id: <173825473661.3285383.10082681986789250367@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Thu, 30 Jan 2025 16:32:18 -0000
+Message-Id: <173825473880.3285458.2032483616546421454@gitolite.kernel.org>
 
---===============4018713983918263567==
+--===============8064981243850833707==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: 72deda0abee6e705ae71a93f69f55e33be5bca5c
     log: revlist-21266b8df522-72deda0abee6.txt
 
---===============4018713983918263567==
+--===============8064981243850833707==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ ebbb8be421eefbe2d47b99c2e1a6dd840d7930f9 Merge tag 'regulator-fix-v6.14-merge-wi
 9f10e7fb6a06bce4f81de5fd0f2f0390f99e89e4 Merge tag 'phy-for-6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 72deda0abee6e705ae71a93f69f55e33be5bca5c Merge tag 'soundwire-6.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire
 
---===============4018713983918263567==--
+--===============8064981243850833707==--
