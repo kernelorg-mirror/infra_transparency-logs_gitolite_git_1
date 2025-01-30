@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/modules/linux
-Date: Thu, 30 Jan 2025 14:26:42 -0000
-Message-Id: <173824720276.3181778.9106336431034025335@gitolite.kernel.org>
+Date: Thu, 30 Jan 2025 14:27:20 -0000
+Message-Id: <173824724094.3182176.8559058830241011676@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,114 +11,96 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/modules/linux
 user: ppavlu
 changes:
-  - ref: refs/tags/linux-omap-v2.6.30-rc6
-    old: 1406de8e11eb043681297adf86d6892ff8efc27a
+  - ref: refs/tags/noinstr-objtool-2020-05-15
+    old: 240c0f330dc43261b5b2d21edf97378508bbb30b
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/locking-core-2020-06-01
-    old: 46f2405c826df54e773994647e6598f8996882c9
+  - ref: refs/tags/noinstr-rcu-220-05-23
+    old: aa5f1d177ca453ae204ecfb0c3bbef213797a42c
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/locking-core-2020-08-03
-    old: 184df686ddbda97835f087ea7c6631b25f8b1792
+  - ref: refs/tags/objtool-core-2020-06-01
+    old: b66dd4e5db5b522600de1d82dd18e5ecaa8fad4a
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/locking-core-2020-10-12
-    old: 7f3be8dff7ae9183c95943ea6b76cc1515c7ddba
+  - ref: refs/tags/objtool-core-2020-08-03
+    old: f4eac9aafacb19056b077d911186e49917d12514
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/locking-kcsan-2020-06-11
-    old: 4ee3b89395d81cd34de3e830c85f78ba091fbbce
+  - ref: refs/tags/objtool-core-2020-10-13
+    old: f7ab6abefb0353b01cc740e9d98b1b74df7bf2a9
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/locking-urgent-2020-03-15
-    old: ab8b518ec4738243f6a0fa11c82c6e13c8830cb9
+  - ref: refs/tags/objtool-urgent-2020-04-25
+    old: e7247ebd3bd66f0ee1af563076be5b3271594ba9
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/locking-urgent-2020-04-12
-    old: 1f55067bcf155bb8e18ccea9b6d148302c3bfdd8
+  - ref: refs/tags/objtool-urgent-2020-05-10
+    old: 9684da1c7e780cd67af8255f8457ccb330abc2bf
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/locking-urgent-2020-05-10
-    old: 8904367a9384fc8f2d052744ecd50a447a8b8bad
+  - ref: refs/tags/objtool-urgent-2020-05-17
+    old: 34c5e6ee3cf6a2c005bec5a5f6a5e331e95e29ec
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/locking-urgent-2020-06-11
-    old: 4a26db4670d62408321c151d6ecadf4957cf4d8c
+  - ref: refs/tags/objtool_urgent_for_5.8_rc3
+    old: 38cde876c5c92198fde69a8cb3bb3c3d13df35c9
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/locking-urgent-2020-08-10
-    old: fe5ec10524c3a2db944ce2527dfc83026698a3e3
+  - ref: refs/tags/objtool_urgent_for_v5.9_rc6
+    old: c4468f5d82a860902462f52406cf8d3445cec21c
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/locking-urgent-2020-08-15
-    old: bf4c2db3ecd9301fe6f073177a8d79100d29854d
+  - ref: refs/tags/perf-core-2020-06-01
+    old: 791e866f98cd3ef57865ed7dd0eb2d6696a764f0
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/locking-urgent-2020-08-30
-    old: 63f97c0a727fae5a334ca1d0c851829423dbcc3a
+  - ref: refs/tags/perf-core-2020-08-03
+    old: 9a8f6619fa1cc29bd6951eb3b344feb333cfc722
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/locking-urgent-2020-10-11
-    old: 2d4af3e1323f1fffef16b1c05dc2db7df03d483a
+  - ref: refs/tags/perf-core-2020-10-12
+    old: 47d15750b73e7f09f2e86b8c0128fe66f9531c78
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/locking-urgent-2020-10-25
-    old: 6bd68a957d23efc956db6a93c65b95173354a53b
+  - ref: refs/tags/perf-for-bpf-2020-05-06
+    old: ece406120a3ca187f9bb887308e3529f7c58de1a
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/locking-urgent-2020-11-01
-    old: 41629ab21f01d5359b2810738f7d44c866cb0728
+  - ref: refs/tags/perf-kprobes-2020-10-12
+    old: 7488e178781219255dd19746551addcfee042aed
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/locking-urgent-2020-11-08
-    old: 8378c442c00fc1ac1fda7fc7cc5830239873d6bc
+  - ref: refs/tags/perf-urgent-2020-02-09
+    old: a7526d8e53a73bef8bd67c8575cf3be8687d92d4
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/locking-urgent-2020-11-15
-    old: 05aa7129e269f855416834777b754cb5e2a0ae02
+  - ref: refs/tags/perf-urgent-2020-03-15
+    old: c78759765f63fccaf9a163cd75fd4e5c989d0958
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/locking-urgent-2020-11-22
-    old: f06eed441e64d0574976e42e2b8cd1cb4c716816
+  - ref: refs/tags/perf-urgent-2020-03-29
+    old: 41a87e1816739f96a10cbe7b4896cd5efdeacfa7
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/locking-urgent-2020-11-29
-    old: 20ef1cb547b51fcf24228d0be8d6f66d7b4f0c79
+  - ref: refs/tags/perf-urgent-2020-04-05
+    old: e6598047dbbc665254eabf919760eee787ff8d34
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/locking_urgent_for_v5.9_rc6
-    old: cf4f190c7ba894a3bbd33d3db340798dad6e3c0c
+  - ref: refs/tags/perf-urgent-2020-04-12
+    old: ec8f07af261740012e8443294fa15882ccb171b9
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/make-attr-fork-permanent-5.20_2022-07-14
-    old: fcaf8a4947a8f2ae268b1abcbcf51d75f03e4603
+  - ref: refs/tags/perf-urgent-2020-04-19
+    old: 8e3c4ae60fdaa5d1b84728c227d02ca753594fe7
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/misc-5.12-2021-03-02
-    old: 16b3ba60a5c9f46f45fd535238a75cfb482d7bb9
+  - ref: refs/tags/perf-urgent-2020-04-25
+    old: b9d43ab4e9f696a5ef6c28243ea8bc130dce0f91
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/misc-5.15-2021-09-05
-    old: 9250f7caaea51025d35b98b6214495e3ec5be7f8
+  - ref: refs/tags/perf-urgent-2020-06-28
+    old: b5af641882f0b448ac7810ade8684bed8e63276c
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mkp-scsi-fixes
-    old: 1bd7bea9379ed8c8a6f45f07bf3e6346d0bd30bb
+  - ref: refs/tags/perf-urgent-2020-07-25
+    old: 56a21771df7e3aa2785e151b312cd82d883e2e89
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mkp-scsi-postmerge
-    old: eed8767e7e8b4dbe5e258a86488af334ff887d7a
+  - ref: refs/tags/perf-urgent-2020-08-15
+    old: 8dd4614e7c4b5633afc69e418b84a06ccc271f00
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mmc-fixes-for-3.3
-    old: b33a14068beb1d6e1ef71b8e271ae9bac1e3e7db
+  - ref: refs/tags/perf-urgent-2020-08-23
+    old: 39ad7d02fe4dec84d1d7331bd925f963651bc367
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mmc-fixes-for-3.3-rc4
-    old: 887b6899ee4e8efb11d10cfb7db92d562598b00f
+  - ref: refs/tags/perf-urgent-2020-10-11
+    old: e52130b23bb357e537b12882ee38e47112c25d68
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mmc-fixes-for-3.4-rc2
-    old: 58a354f487bb531f57dcf1e872548a9d87efb65b
+  - ref: refs/tags/perf-urgent-2020-10-25
+    old: 060b1ffea63e0d076257f1ce926e8355ed1059a9
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mmc-fixes-for-3.4-rc4
-    old: b8d3efc2dbe36f6f2f815dafb176cd5882ca35ec
+  - ref: refs/tags/perf-urgent-2020-11-08
+    old: 4d3023e7dd62a924536999e9b161077b5d4dba0a
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mmc-fixes-for-3.5-rc4
-    old: 152115b68cbeaebcf71bd02da1412160471fe11f
+  - ref: refs/tags/perf-urgent-2020-11-15
+    old: 96f7de3a05c70de767cb998b62c8caf7d3365b11
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mmc-fixes-for-3.5-rc5
-    old: 0be4c2e34a334d180b3715f76ae04ae3d546c4cd
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mmc-fixes-for-3.5-rc7
-    old: 7df5f46455127f2fe29d3c64d932e43897a05b5f
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mmc-fixes-for-3.6-rc5
-    old: f459d1e2992411721cb35384dc8f06953dafb7a4
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mmc-merge-for-3.3-rc1
-    old: 5af8ac39832e1fda86cf14d07dfea470c506b1ae
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mmc-merge-for-3.4-rc1
-    old: bbb61a5ee08c58359972d3c241b1c1b8f2115d21
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mmc-merge-for-3.5-rc1
-    old: cf57badfa8dfb100073d1692ddef7390db435bf6
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mmc-merge-for-3.6-rc1
-    old: 7d562c3da6810578149699d83efefd71b5d2efa9
+  - ref: refs/tags/perf-urgent-2020-11-22
+    old: 66df494294608c2f2fa2b375bc8938ef0dd5d1c0
     new: 0000000000000000000000000000000000000000
