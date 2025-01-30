@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 30 Jan 2025 18:12:42 -0000
-Message-Id: <173826076245.3418047.15557384312717753830@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
+Date: Thu, 30 Jan 2025 18:21:33 -0000
+Message-Id: <173826129317.3425698.15079738617521788148@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: daveh
+repo: pub/scm/linux/kernel/git/mark/linux
+user: mark
 changes:
-  - ref: refs/heads/x86/urgent
-    old: 1105ab42a84bc11c62597005f78ccad2434fbd66
-    new: ee2ab467bddfb2d7f68d996dbab94d7b88f8eaf7
+  - ref: refs/heads/arm64/kvm/fpsimd-fixes
+    old: 1bd3e85768c0202989421595525055452fa0581d
+    new: 0d530c97040cce003e7bc9c61aee67b4fd69c0ce
     log: |
-         ee2ab467bddfb2d7f68d996dbab94d7b88f8eaf7 x86/boot: Use '-std=gnu11' to fix build with GCC 15
+         1ecd67659f196ee00216bebe3e8a3c7665645be4 KVM: arm64: Refactor CPTR trap deactivation
+         0d530c97040cce003e7bc9c61aee67b4fd69c0ce HACK: TODO list
          
