@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/modules/linux
-Date: Thu, 30 Jan 2025 14:25:53 -0000
-Message-Id: <173824715359.3181234.12367877825575657597@gitolite.kernel.org>
+Date: Thu, 30 Jan 2025 14:26:42 -0000
+Message-Id: <173824720276.3181778.9106336431034025335@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,264 +11,114 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/modules/linux
 user: ppavlu
 changes:
-  - ref: refs/tags/kconfig-v4.16
-    old: 934afb7d31d62992421504f3b27d8ef6a70713da
+  - ref: refs/tags/linux-omap-v2.6.30-rc6
+    old: 1406de8e11eb043681297adf86d6892ff8efc27a
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/kconfig-v4.17
-    old: f004e7d3e80775c32a609bcf1f924ae7565ebf87
+  - ref: refs/tags/locking-core-2020-06-01
+    old: 46f2405c826df54e773994647e6598f8996882c9
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/kconfig-v4.18
-    old: 2d3b320ff22a8564e94a861526aca9ac1eb4b4cf
+  - ref: refs/tags/locking-core-2020-08-03
+    old: 184df686ddbda97835f087ea7c6631b25f8b1792
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/kconfig-v4.19
-    old: a6a455a7c1b71c1864e963b5db797cfb223cb385
+  - ref: refs/tags/locking-core-2020-10-12
+    old: 7f3be8dff7ae9183c95943ea6b76cc1515c7ddba
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/kconfig-v4.19-2
-    old: 4c21508686262d24289a7845e0efb1c82a11965a
+  - ref: refs/tags/locking-kcsan-2020-06-11
+    old: 4ee3b89395d81cd34de3e830c85f78ba091fbbce
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/kconfig-v4.21
-    old: a40c3fd9bf13ab2ed27253d435b3f4ff91d4f397
+  - ref: refs/tags/locking-urgent-2020-03-15
+    old: ab8b518ec4738243f6a0fa11c82c6e13c8830cb9
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/kconfig-v4.21-2
-    old: 348421486a45743581746fad45c426670b83ce5a
+  - ref: refs/tags/locking-urgent-2020-04-12
+    old: 1f55067bcf155bb8e18ccea9b6d148302c3bfdd8
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/kconfig-v5.1
-    old: f54378dd13d469fd98345ed8e1d4732c5e61d9be
+  - ref: refs/tags/locking-urgent-2020-05-10
+    old: 8904367a9384fc8f2d052744ecd50a447a8b8bad
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/kconfig-v5.10
-    old: f12d30038b572607fbda9fcbf20cccc674dd97b6
+  - ref: refs/tags/locking-urgent-2020-06-11
+    old: 4a26db4670d62408321c151d6ecadf4957cf4d8c
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/kconfig-v5.11
-    old: 0f1c0fc8a864f675cba1826bf821a86211cc808d
+  - ref: refs/tags/locking-urgent-2020-08-10
+    old: fe5ec10524c3a2db944ce2527dfc83026698a3e3
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/kconfig-v5.13
-    old: 15e42f3e6ac29f4dc6893c42287c46ce1dac79a8
+  - ref: refs/tags/locking-urgent-2020-08-15
+    old: bf4c2db3ecd9301fe6f073177a8d79100d29854d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/kconfig-v5.2
-    old: 69ab2ac1ecd5163431e8be6dc8c0f399d361d56b
+  - ref: refs/tags/locking-urgent-2020-08-30
+    old: 63f97c0a727fae5a334ca1d0c851829423dbcc3a
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/kconfig-v5.3
-    old: 8bef9315b6baa0b575036974d06745c5ad94d3b4
+  - ref: refs/tags/locking-urgent-2020-10-11
+    old: 2d4af3e1323f1fffef16b1c05dc2db7df03d483a
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/kconfig-v5.6
-    old: 81b1131503126e62155ab357b4fd3652eb2c53e0
+  - ref: refs/tags/locking-urgent-2020-10-25
+    old: 6bd68a957d23efc956db6a93c65b95173354a53b
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/kconfig-v5.8
-    old: f2ee6bb68c2ee8d63becb5c604918fed5e3dc116
+  - ref: refs/tags/locking-urgent-2020-11-01
+    old: 41629ab21f01d5359b2810738f7d44c866cb0728
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/kconfig-v5.9
-    old: 70732520493ce859b395139ad3c4aeb1b1d7206a
+  - ref: refs/tags/locking-urgent-2020-11-08
+    old: 8378c442c00fc1ac1fda7fc7cc5830239873d6bc
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/kernel-org-may-16
-    old: 22ef37eed673587ac984965dc88ba94c68873291
+  - ref: refs/tags/locking-urgent-2020-11-15
+    old: 05aa7129e269f855416834777b754cb5e2a0ae02
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/libata-5.10-2020-10-12
-    old: 82e50a9753313ec1f142a351470df5406026f3b8
+  - ref: refs/tags/locking-urgent-2020-11-22
+    old: f06eed441e64d0574976e42e2b8cd1cb4c716816
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/libata-5.10-2020-10-24
-    old: 113db9f4dd6d791f2a1f2de7cd5711b2dfeac8c0
+  - ref: refs/tags/locking-urgent-2020-11-29
+    old: 20ef1cb547b51fcf24228d0be8d6f66d7b4f0c79
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/libata-5.10-2020-10-30
-    old: a3c0f1f38bbbd315dbf792b6ad06671749ebbae5
+  - ref: refs/tags/locking_urgent_for_v5.9_rc6
+    old: cf4f190c7ba894a3bbd33d3db340798dad6e3c0c
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/libata-5.14-2021-07-30
-    old: 4f504a9e9896178fe0643dbe627dddbae0f5d25b
+  - ref: refs/tags/make-attr-fork-permanent-5.20_2022-07-14
+    old: fcaf8a4947a8f2ae268b1abcbcf51d75f03e4603
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/libata-5.15-2021-09-05
-    old: 867768c4b5f6583e5c04e066e3535e3fa5e3e66b
+  - ref: refs/tags/misc-5.12-2021-03-02
+    old: 16b3ba60a5c9f46f45fd535238a75cfb482d7bb9
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/libata-5.15-2021-09-11
-    old: 53562a439b9a7545e2ec49ed99a4c42c86128a67
+  - ref: refs/tags/misc-5.15-2021-09-05
+    old: 9250f7caaea51025d35b98b6214495e3ec5be7f8
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/libata-5.5-20191226
-    old: 8e6dea21fc5bd354b4604b92f5931b08ae023a81
+  - ref: refs/tags/mkp-scsi-fixes
+    old: 1bd7bea9379ed8c8a6f45f07bf3e6346d0bd30bb
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/libata-5.6-2020-02-05
-    old: 558591f6ec6c8ca2dd79002a366ac425d74c7b42
+  - ref: refs/tags/mkp-scsi-postmerge
+    old: eed8767e7e8b4dbe5e258a86488af334ff887d7a
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/libata-5.7-2020-04-09
-    old: 383873f5b32e5ba01ce213ca114be992b9ed38fc
+  - ref: refs/tags/mmc-fixes-for-3.3
+    old: b33a14068beb1d6e1ef71b8e271ae9bac1e3e7db
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/libata-5.7-2020-04-17
-    old: 14dc5c2af87a75f188d79303f59da7dd2a4aca25
+  - ref: refs/tags/mmc-fixes-for-3.3-rc4
+    old: 887b6899ee4e8efb11d10cfb7db92d562598b00f
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/libata-5.7-2020-04-24
-    old: 7a0548f2d97016fee1b597d57ac104bd7c79d116
+  - ref: refs/tags/mmc-fixes-for-3.4-rc2
+    old: 58a354f487bb531f57dcf1e872548a9d87efb65b
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/libata-5.8-2020-06-19
-    old: 3c83210834e51ea0ebc731b640f199c4b4dae260
+  - ref: refs/tags/mmc-fixes-for-3.4-rc4
+    old: b8d3efc2dbe36f6f2f815dafb176cd5882ca35ec
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/libata-5.9-2020-09-04
-    old: d06c317333a7c9dfbae70e9aaaed3ca036df3155
+  - ref: refs/tags/mmc-fixes-for-3.5-rc4
+    old: 152115b68cbeaebcf71bd02da1412160471fe11f
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/libnvdimm-fixes-4.13-rc2
-    old: 8ed8ef4a16ed538dd0765e2edd471512acd5fdb0
+  - ref: refs/tags/mmc-fixes-for-3.5-rc5
+    old: 0be4c2e34a334d180b3715f76ae04ae3d546c4cd
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/libnvdimm-fixes-4.18-rc5
-    old: 2640ab4a4ed518440aab0916b9e0fd2d93f799b2
+  - ref: refs/tags/mmc-fixes-for-3.5-rc7
+    old: 7df5f46455127f2fe29d3c64d932e43897a05b5f
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/libnvdimm-for-4.10
-    old: 78d65f1c8cfb65ee155e8ed0c9b68762f0afc90d
+  - ref: refs/tags/mmc-fixes-for-3.6-rc5
+    old: f459d1e2992411721cb35384dc8f06953dafb7a4
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/libnvdimm-for-4.12
-    old: 50c592de48339ff49d792aca4c34c42c29925874
+  - ref: refs/tags/mmc-merge-for-3.3-rc1
+    old: 5af8ac39832e1fda86cf14d07dfea470c506b1ae
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/libnvdimm-for-4.13
-    old: 23deee698665606bf48c4f187d89f1d9db61ab81
+  - ref: refs/tags/mmc-merge-for-3.4-rc1
+    old: bbb61a5ee08c58359972d3c241b1c1b8f2115d21
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/libnvdimm-for-4.14
-    old: a2b0d3c4e0e7a7128a367c2e0bd28d6b6f38885c
+  - ref: refs/tags/mmc-merge-for-3.5-rc1
+    old: cf57badfa8dfb100073d1692ddef7390db435bf6
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/libnvdimm-for-4.15
-    old: 583119c89aca83bee3e9e8c9bbedf4e280104eb2
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/libnvdimm-for-4.16
-    old: c305a5d8f9cbedc680373318cd67467989a48544
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/libnvdimm-for-4.17
-    old: 29beab51441b60dd089a52c36208f1538a39f017
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/libnvdimm-for-4.18
-    old: 7272beac1d8f2673a0e144033648d2eea6b5ad88
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/libnvdimm-for-4.2
-    old: dc238dde43b32a3681c2c4664cf61e0f8555126a
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/libnvdimm-for-4.3
-    old: 956fca4e17ff4b58a502872adeba01031d048cc5
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/libnvdimm-for-4.4
-    old: 53b0ae5bbb97ee8a2889c7b20de9d170737f9576
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/libnvdimm-for-4.5
-    old: 3c3fa13d2010f7fb886a8565afbded871c15523a
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/libnvdimm-for-4.6
-    old: bd508ff279ac297e8cc7b95952bc0ddecf05d699
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/libnvdimm-for-4.7
-    old: 613a0537e629bcd7244009ffbf50e78c006dbc1d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/libnvdimm-for-4.8
-    old: 9e0db35d90b134556a5d45403b0c91855562449d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/libnvdimm-for-4.9
-    old: 3e707026fd814f2a1db6e3bb4b479e47f32d0d0e
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-4.16-fixes-1
-    old: b753513781cb10c5684cf6ea6561cb1fb3bf6635
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-4.16-fixes-2
-    old: b741e7d186f25dba4ec3af13cfd08c48aee4e8b7
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-4.17-rc1
-    old: 4777cbd34492e042511fe6717086c6bc0d2dfe19
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-4.17-rc2
-    old: 61ee0580c65d77de3a94696d35c9068fec5dee88
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-4.18-rc1
-    old: 1ddffe8a762ff53619c1704e62cd626aef57e743
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-4.19-rc1
-    old: fd7620db3cb66ff0e3a4d310a1d21b0a8f96d890
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-4.19-rc2
-    old: 6eb87087f1a6ae6b81036bd2f842e1412348837d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-4.20-rc1
-    old: c4b0ec64e88166ae0c9a5f296bd7bf6061be7db2
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-4.21-rc1
-    old: 2e306ad23e639f55f7fbb7f41081541c1a5ecdf0
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.0-rc-fixes
-    old: cabd786dd5bb5de9e3a82a4d7aee68f10e9e65ae
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.1-rc1
-    old: eb9f26c31b808c6b490da15bb73049c45e448603
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.10-rc1
-    old: d65557b9b043cd8f4ffe2ff97862932fe548190a
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.11-rc1
-    old: ea23234ca2549afb518c1a77020bc56b597d0e1d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.12-rc1
-    old: 216bd251a550aac8410069688b22d0c62d760e50
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.14-rc1
-    old: a30fedce5669be2db250b2f9c1404a4884d062da
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.15-rc1
-    old: 8b78fdeb1c2196586b3bdb16f6bcb8e155f26213
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.15-rc7
-    old: 22c731b243558d268dc9d8fa33e7850147c591b3
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.16-rc1
-    old: 7f9986970c3cbf60b02a01e114a6b35963b12914
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.17-rc1
-    old: cb0a748d60c55e497a98b17a8e80044bf6f8e9a4
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.18-rc1
-    old: c4729c7145f878bef6fed14901321a0b8e7f6703
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.19-rc1
-    old: b22d9dfebc6aaec193381ea697146dc930537742
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.19-rc3
-    old: c1c8fa5a3b83bb8d99190d511ebbd2f0eea17849
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.2-rc1
-    old: 415db3759b6769a9aa8bd55eab5e152896c9b2aa
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.20-rc1
-    old: 3d8f7e03f58baaba9a3133b930d0b4c411558baf
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.3-rc1
-    old: 1b81d947aae6c4cc110388f9cb0927eb0641d36b
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.4-rc1
-    old: f53c200d0297bf5c4deb122270ee85cdd0b6226f
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.4-rc7
-    old: 95929319c51a01aa55fcc0207473615e1ec547fd
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.5-fixes
-    old: a6afd352f5d6416d79a9eb1ce18e964c5e420051
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.5-rc1
-    old: 57405dc7a34239b6a8e361863b000630051ed1c6
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.6-rc1
-    old: c9df3a6d66ba4643e7a3359f3e7ac0a551ebd9f9
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.6-rc3
-    old: 1b44603b4e078b12821322c7c8810876c96f6cd1
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.7-rc1
-    old: 71e7131351dabd9ad2dae116eb010d655b3506f2
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.7-rc2
-    old: a3f32b3075154d814258a7077b95f70f041bb6a7
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.8-rc1
-    old: ed271cfea40d26a30ffb70e434410ae55fced89b
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-5.9-rc1
-    old: a0eead08b6529e91f1a990735327ea961ec0a81e
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-6.1-rc1
-    old: 60faf892fe823453ce8de73873fdfc343e76a7b9
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-6.1-rc2
-    old: 75f70761062078acd2bb0e8be829cfc36d603f84
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-6.1-rc4
-    old: 44bd9870d31762e8d1ef91c989888b7e42c41926
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/linux-watchdog-6.2-rc1
-    old: e4bbc85fd7deac1596ec83e7cd57b70b4caf33c1
+  - ref: refs/tags/mmc-merge-for-3.6-rc1
+    old: 7d562c3da6810578149699d83efefd71b5d2efa9
     new: 0000000000000000000000000000000000000000
