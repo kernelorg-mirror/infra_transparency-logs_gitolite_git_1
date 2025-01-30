@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6713179263476152603=="
+Content-Type: multipart/mixed; boundary="===============3524220096181826953=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 30 Jan 2025 13:34:27 -0000
-Message-Id: <173824406768.3131218.6935820143832470569@gitolite.kernel.org>
+Date: Thu, 30 Jan 2025 13:34:29 -0000
+Message-Id: <173824406997.3131299.14682357018012234386@gitolite.kernel.org>
 
---===============6713179263476152603==
+--===============3524220096181826953==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,71 +16,72 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.15.y
-    old: 1731d6234ac3b58bd9a648038173ac404137e50a
-    new: 2a923515e6d2e6a9ef54b1e23163ce1dbc03c5db
-    log: revlist-1731d6234ac3-2a923515e6d2.txt
+  - ref: refs/heads/linux-6.13.y
+    old: ffd294d346d185b70e28b1a28abe367bbfe53c04
+    new: 65a3016a79e2da6e613c74c51e580ff1b3ad1225
+    log: revlist-ffd294d346d1-65a3016a79e2.txt
 
---===============6713179263476152603==
+--===============3524220096181826953==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1738244096 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1738244099 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1738244065-3976df7143a737a2160fee2f03ace0d794512422
+nonce 1738244068-9c53f14235bd5fbda4f797d314c385da28069d24
 
-1731d6234ac3b58bd9a648038173ac404137e50a 2a923515e6d2e6a9ef54b1e23163ce1dbc03c5db refs/heads/linux-5.15.y
+ffd294d346d185b70e28b1a28abe367bbfe53c04 65a3016a79e2da6e613c74c51e580ff1b3ad1225 refs/heads/linux-6.13.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmebgAAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+oggQAJWRjrdNUJWA5lWSmsuI
-E7PxvJaXTag5RBRBVdazPJLD4c20Z+iHzRYU3oUUuOJFLyTDm/QvIqE1aCfyk2tb
-uOSu2fwwwwrQhSazwr4o3vP03+UO4ZqVxWcw+ouwCX7KJSQaIOliIfnhrFOR7Ukf
-iO18QErnL9u0FiubVZsdhToj3GNcdMY/4kN0xH6obL/wQsmF/8usBpOtOrgFukOx
-KT7h51gC7Az596o2oGR1guY4EXwVKl2qwNMuu7/z/XRbuh6CG3l8O/+fJA3TggjZ
-smJEtK7jTV3DURi4yqi3TDzKJWgowK1LdWCrRZ/n0bY0xKnhIwqyPPu9xU7Cr5em
-xyco/OyPgrM1aHpLVTsEFBmlMGg9pObGJx9p5Bosc72WGzq0Qr1bQsZesT33mG/F
-eM1QgOfJqc1XbiphIg+bak4bCHPMX9s6YNJ2SvoFCuZQIdQrseDEOihY93SKS4c7
-5+Z/4nChQfW2b4X5lcKU+PWKhGU7zD4VJA5gMLJBt59DHjsO3o04HI3yBIYArkGp
-qSbOMXA9cnAtIIWDH26oGd6uh93vGBSsB9lwMO3XLEyCwTn7KljuQOYXwg7Mu8Bx
-Dr01caEcc4JqxE1EF+aaz9M6plu13lHLrbeLDYuA41Gn1k/YurEkdT+m8Q7losQ2
-5GNWZkLnTOyOcb6wXKRAmzrM
-=F2du
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmebgAMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VOoQAJN65fvKMHxfalWxY+bW
+1UYkro/s7yO3X4WexIx8md3jtpJUDTjxFUXPmibZc9T8d0wXzBu+ZDTpUYRFsqx9
+uKv66io/vx8XsWnUHyxtZRka9QfJvEGepgde2avsgmATBpC1ZIQrwCNpvBlUQtdZ
+lt1jm/aiSGX7+KsmvtLqp2donPx7pyb68ajH/WruQhnnz1PUfC3k1P3qY/qNcPak
+ZzwiNuewITox/bQ8or+HPYIC1yQTGzuQOhKOeUKX+PyTQHJtsJuyEjF7kcj55VDJ
+cEl36ffRGyA2qNJQ6wueXiUcS1c1APsolIiIlD+hXCGsIAWYTmwUEgPW328QR/Ct
+obX69KDr1a/vxfNSNQR1p8JsQEJD2oZgzklNR0vqvQuESzYu/dMlQhQNos4SZWLk
+VVeh8qxaETckcQoQeMZt2Dpd0AF/0WOnNJD/lqZcrQFkRejE+jVl0VKssgddGImB
+XTpZ/gbiD9KCOrPfLMktxvGvTysu4Tw152WHnvIFb6IYZrETNKGpRpCwxsc0sGyi
+JMOK99XBqUrqiksJxlrA1SclQtSVb6BZV3O1R4A2Ue8SUCe2Ywva8zhMkIjkjePL
+6AkZ2x9Y5xVwB5AXoGPzIEQ08A1TAl3PyjYreQeQAAWBhkgbUnC/KsLGm6CPnRBU
+mWgch7ezBs+2dVcGNIupGTKM
+=zWwj
 -----END PGP SIGNATURE-----
 
---===============6713179263476152603==
+--===============3524220096181826953==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1731d6234ac3-2a923515e6d2.txt
+Content-Disposition: attachment; filename=revlist-ffd294d346d1-65a3016a79e2.txt
 
-91655dd13ddaab8f096270f9ff405859b73c39ab ASoC: wm8994: Add depends on MFD core
-cba4b0e1d92d4b426ee0e26e91e9d6abbac5baf7 ASoC: samsung: Add missing selects for MFD_WM8994
-ea0948f6ac337948a9a2fdf4ee1092f763cccbb2 seccomp: Stub for !CONFIG_SECCOMP
-1816c3909a628d8c0bfb388d53e88f4b518f682b scsi: iscsi: Fix redundant response for ISCSI_UEVENT_GET_HOST_STATS request
-f7d4ac5c7928f8da46f6c89befc4dc7a47625fe1 irqchip/sunxi-nmi: Add missing SKIP_WAKE flag
-43149c9e04450ba306a4db454bf96dbb51f4e63b ASoC: samsung: Add missing depends on I2C
-060dc41124e8843ee0397cae00b61f58e84ff9b2 regmap: detach regmap from dev on regmap_exit
-aaf5a3f1defdc7e9e3b8b92b21c422e78b8864dd mptcp: don't always assume copied data in mptcp_cleanup_rbuf()
-7f1c2cee8e92a8cf2c4ea03419a42a04cd313a82 gfs2: Truncate address space when flipping GFS2_DIF_JDATA flag
-3ba089d472b3a3187d89c01311a5fb68a50861d5 net: sched: fix ets qdisc OOB Indexing
-5b82e443c89d798f0a8d50018d38b58b38056929 vfio/platform: check the bounds of read/write syscalls
-29d606280e6dd36f60af51ddbf6dc6771db95ae5 Bluetooth: SCO: Fix not validating setsockopt user input
-78560cbc1539ec75765144e552956c98cd3d0c1f Bluetooth: RFCOMM: Fix not validating setsockopt user input
-f08b9ec77d996fea2cca14d4d079bb30b4defd7c fs/ntfs3: Additional check in ntfs_file_release
-02ce12306fd74519abff6533b9f92011107d234f platform/chrome: cros_ec_typec: Check for EC driver
-3bf5af67a0bebe892e0e20ef697ca58b2c9382b2 ipv4: ip_tunnel: Fix suspicious RCU usage warning in ip_tunnel_find()
-7c44c78c19066f962f8736d0f00757d7c0b3e7ce scsi: storvsc: Ratelimit warning logs to prevent VM denial of service
-df8bd01812358085c2c362cf23f3d9a604cd2c7a wifi: iwlwifi: add a few rate index validity checks
-7fde29aaeff5f3b264fd066471345b5b8ff94c75 USB: serial: quatech2: fix null-ptr-deref in qt2_process_read_urb()
-578e9f7445e68ace47b501b93e4bcfe4589b148e Revert "usb: gadget: u_serial: Disable ep before setting port to null to fix the crash caused by port being null"
-0ac0dfe7efd825fed548b5a12e0e5b9f02c49682 ALSA: usb-audio: Add delay quirk for USB Audio Device
-e0d08260c369af5cf26bbe37cf573736941ae0ce Input: atkbd - map F23 key to support default copilot shortcut
-eee22ab145b9744f56d33f6799acd9b8327242ad Input: xpad - add unofficial Xbox 360 wireless receiver clone
-814f1ce87a37f57ec9c6c4a46e3ebc63bd809a34 Input: xpad - add support for wooting two he (arm)
-2a923515e6d2e6a9ef54b1e23163ce1dbc03c5db Linux 5.15.178-rc1
+24103dd376939a9f29c2daedff1cf2439b18e8bf gfs2: Truncate address space when flipping GFS2_DIF_JDATA flag
+950ffbbe37cac4126c3494356336a4bb8978635a libfs: Return ENOSPC when the directory offset range is exhausted
+638e8a36af29d5b9390bce7bfb6cf59597f4aa15 Revert "libfs: Add simple_offset_empty()"
+51fa1c011d78dcf926fbc4e63cc60756f497b270 Revert "libfs: fix infinite directory reads for offset dir"
+427210717b6c6d4a5ec50e15e0c96d4ef25d40ab libfs: Replace simple_offset end-of-directory detection
+81cfaa3a0a83d0ba2285c17d33b5c90f2ae7537c libfs: Use d_children list to iterate simple_offset directories
+20f2d08e3d7ca25836026c6fd1e513092c3c8540 smb: client: handle lack of EA support in smb2_query_path_info()
+319fabb5cf60b969634b31cb2a00a1f6c321c2ea net: sched: fix ets qdisc OOB Indexing
+8b455c446ec8219c3b4447dbeb84f3412c94ca7a Revert "HID: multitouch: Add support for lenovo Y9000P Touchpad"
+ab88cee3fa6f146b4547cd8a20dc7c321d4ec992 cachestat: fix page cache statistics permission checking
+ecf7213bd84f7883fc5166a76a4d3d7f969a7cc9 vfio/platform: check the bounds of read/write syscalls
+ed12a3d83c960da5192a7a6fa361c7f80a03a425 scsi: storvsc: Ratelimit warning logs to prevent VM denial of service
+b3f61ff1b6af10d78fbc6138ec627421d5c02a07 USB: serial: quatech2: fix null-ptr-deref in qt2_process_read_urb()
+55e2c7b179bfcea27256f0673bb344862e1a8e6c Revert "usb: gadget: u_serial: Disable ep before setting port to null to fix the crash caused by port being null"
+f09451ee8b1fef384e71ba95e598a97723bfb87f ALSA: usb-audio: Add delay quirk for USB Audio Device
+4f9fe69305aa7594547299e30499cdd7b996916a wifi: rtl8xxxu: add more missing rtl8192cu USB IDs
+5d077b14ea9b4a1fb24e2112d4b3cc47061b6224 HID: wacom: Initialize brightness of LED trigger
+67bc54655e2469f2cce0c5d96fef7b0b22323121 io_uring/rsrc: require cloned buffers to share accounting contexts
+a8ae8f064d6c8bab64eeffc7ec8725dc719f2477 Input: xpad - add support for Nacon Pro Compact
+fb82949f48feeae46eec5e8652df21e3449de1b8 Input: atkbd - map F23 key to support default copilot shortcut
+d37efb813695499516305064a30fc9ec446598a4 Input: xpad - add unofficial Xbox 360 wireless receiver clone
+91b984b02c083d487f3b099e3dc6c11b2a501445 Input: xpad - add QH Electronics VID/PID
+29182e7f6f06c3ddc04de95e5ed66ea246571062 Input: xpad - improve name of 8BitDo controller 2dc8:3106
+fc6d87f5f847ba600cd7a4b6ee9e15e2cb0fe913 Input: xpad - add support for Nacon Evol-X Xbox One Controller
+f2bfc7a832482d3b2c04dbde1f12ca47bc5bfa54 Input: xpad - add support for wooting two he (arm)
+65a3016a79e2da6e613c74c51e580ff1b3ad1225 Linux 6.13.1-rc1
 
---===============6713179263476152603==--
+--===============3524220096181826953==--
