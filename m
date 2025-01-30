@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6261127278386650357=="
+Content-Type: multipart/mixed; boundary="===============6531408449957468116=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 30 Jan 2025 07:27:00 -0000
-Message-Id: <173822202011.2833413.6538981155392024151@gitolite.kernel.org>
+Date: Thu, 30 Jan 2025 07:27:04 -0000
+Message-Id: <173822202421.2833564.7794955692486355138@gitolite.kernel.org>
 
---===============6261127278386650357==
+--===============6531408449957468116==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
+  - ref: refs/heads/usb-testing
     old: 6d61a53dd6f55405ebcaea6ee38d1ab5a8856c2c
     new: 72deda0abee6e705ae71a93f69f55e33be5bca5c
     log: revlist-6d61a53dd6f5-72deda0abee6.txt
 
---===============6261127278386650357==
+--===============6531408449957468116==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1738222049 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1738222053 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1738222018-0483122b1216fc0c0557e63829f03b88e75dd76c
+nonce 1738222022-8ab58722fd18683749f8cd8976ac03040d959038
 
-6d61a53dd6f55405ebcaea6ee38d1ab5a8856c2c 72deda0abee6e705ae71a93f69f55e33be5bca5c refs/heads/usb-next
+6d61a53dd6f55405ebcaea6ee38d1ab5a8856c2c 72deda0abee6e705ae71a93f69f55e33be5bca5c refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmebKeEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZeUP/0Kv3TjpIgzDn7FfhksP
-3FVMNL/uZ2rGXGUztiLemNWqT+IYPY0RtPZSDh0zvLB6Rm5iP9Cp49QmWOgEd6UA
-LH/z5eD148n3VDFQ6QdER6TJaUE/o/9imTnMARGpNG9xK9C6QpoXuH4aXsyrb9MX
-PoAHqdM07KTiiIj9iAU6remFMv/k68OQdea35ralBTdLIjRJHyQ+lmUla3I5fB20
-9BROo1aFV4Zz8jS1INfL1Nyw7x+pvYHaDNuPAKfx6IaIWiBn7ltNU/ivSiF8FZwd
-E9IGzZwB0HAfrAzAsbBM6irZ3oT63FIvcHuMKNltplXu9jtRrnzn1WjZ8diz/o7V
-PTwJeYVW1IVPwzmNr0P71dwC293lH0ijyFoE2hXgjuYcg1AA7DzakKg1hn3xX1jn
-vPFJ+UnkINS7oX3YPuc2XFJaSemRXr+6Mfaj5a2+rV74giiirqGy1LvRr7/FxFae
-byfDY72F3k/pkH6hSOXkH2w/lEDv41TVjKPKJV0ilFxKvPKygRJJ3zv8mvk7b6Yw
-rjBL7V4R17Byzgf3wvMbVr6zI3Z9CoCCqYk3yzcJP/JTdljbyIhQUu5rZWux0Tnl
-6iHyQN0dCSzg6TUV+QNNxoR+HfUtxVFg3d+VyBi2+jSeEmScANcQzl/fxiLjJXn+
-Gp48BisteI7o+Nmt4+46WQcf
-=BeOp
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmebKeUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1CoQAJVzI8zRPpjLoJXduIXC
+Ho4fQiSydR8h3j1UBAUmb/9A1d15tbof8rgN7I8udiTz7F+IExmHbf8X2dA+rR8G
+jU9IJgdD2NLDSHSA0wJPj1wIQYAeVW75HXWtuD4Msf+++xxOouWxsBz6Q0YwYMpK
+6EuqLKWjUlyN9a5zor4KCexHnwhbK2IuzqaBlMpzRzuOO5GCpDVFkHAkiDI8QPil
+Q5wKTmla08kPttM7tTDkRxUpkoJOudJZaQaovpxA7C0jP1xvaSQSJggFE/Ad3pxQ
+i8iLR+n1VVeKW+2sqUF5DO+fWUhUFjWHXLGis3MgwxVLXnOT8sJ1oO4yKF67HANB
+8FGlVNd4p1oEjo2UALa/JUVf1Q0rRN0jUjwpFlM5ju1DHi32G8vxCmMhyLw2o94K
+JwKvaNWY941LAdI7AhXKDdslIiW/JbFIU5m5w+hr7P93b3hsnDPXNGf3G3KGv8GZ
+t54qW/VFsddJdmdfBHwkaZu5djrVaj0ZX9qRRg9uM+wUpX2VYGlYKmdRzC4mPLLP
+ZcyyXWfLEEBcFlUUwo3Sj3uxJhwBOSHpmiZ39/8tSk8QEPaKRhD2csSVLWSeeIIB
+jHuyynlypU+xedoBXa8R0kncueZi1kbwzrjvwS1zeZDzQlgZDja6s/4NJJnz0+9i
+smVcrV8uWXZ16CT/kIoGezeI
+=UAnS
 -----END PGP SIGNATURE-----
 
---===============6261127278386650357==
+--===============6531408449957468116==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -513,4 +513,4 @@ ebbb8be421eefbe2d47b99c2e1a6dd840d7930f9 Merge tag 'regulator-fix-v6.14-merge-wi
 9f10e7fb6a06bce4f81de5fd0f2f0390f99e89e4 Merge tag 'phy-for-6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 72deda0abee6e705ae71a93f69f55e33be5bca5c Merge tag 'soundwire-6.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire
 
---===============6261127278386650357==--
+--===============6531408449957468116==--
