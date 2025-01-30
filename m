@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6680391742789938766=="
+Content-Type: multipart/mixed; boundary="===============0545327133909448502=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/modules/linux
-Date: Thu, 30 Jan 2025 11:57:55 -0000
-Message-Id: <173823827556.3055250.11517283453473527461@gitolite.kernel.org>
+Date: Thu, 30 Jan 2025 11:58:44 -0000
+Message-Id: <173823832421.3055690.6159261938338716932@gitolite.kernel.org>
 
---===============6680391742789938766==
+--===============0545327133909448502==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/modules/linux
 user: ppavlu
 changes:
-  - ref: refs/heads/master
-    old: ffd294d346d185b70e28b1a28abe367bbfe53c04
+  - ref: refs/heads/modules-fixes
+    old: a145c848d69f9c6f32008d8319edaa133360dd74
     new: 72deda0abee6e705ae71a93f69f55e33be5bca5c
-    log: revlist-ffd294d346d1-72deda0abee6.txt
+    log: revlist-a145c848d69f-72deda0abee6.txt
 
---===============6680391742789938766==
+--===============0545327133909448502==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-ffd294d346d1-72deda0abee6.txt
+Content-Disposition: attachment; filename=revlist-a145c848d69f-72deda0abee6.txt
 
+6e1173306ed57025e86aa461aac872ae65539cc4 Merge branch 'for-next/misc' into for-next/core
 602ffd4ce3a61526d72dfbfb76ca06df19d429f1 Merge branch 'for-next/mm' into for-next/core
 1dd3393696efba1598aa7692939bba99d0cffae3 Merge branch 'for-next/perf' into for-next/core
 f8a05692de060a889fe5b9eb00cc8f1fc8935899 libbpf: Work around kernel inconsistently stripping '.llvm.' suffix
@@ -949,7 +950,6 @@ cf929a2863bff58608ab30a88b8c7a5fc93ff437 tools: add VM_WARN_ON_VMG definition
 0e81f6e441e4b461fbe18559651445b18240ab4e kasan: sw_tags: use str_on_off() helper in kasan_init_sw_tags()
 502269ab98b5b31428be23aa3871d297d916a90b s390/mm: add missing ctor/dtor on page table upgrade
 d1366e74342e75555af2648a2964deb2d5c92200 mm/compaction: fix UBSAN shift-out-of-bounds warning
-a145c848d69f9c6f32008d8319edaa133360dd74 module: Extend the preempt disabled section in dereference_symbol_descriptor().
 c8e0bd579ed35355ea7e3e3190556c9738870ac9 module: Put known GPL offenders in an array
 30d446088866db99b0cf9e6af58ac1427f51f3dd params: Prepare for 'const struct module_attribute *'
 38e3fe6595e1fa806c0450b2db666bc46325025e module: Handle 'struct module_version_attribute' as const
@@ -1051,4 +1051,4 @@ ebbb8be421eefbe2d47b99c2e1a6dd840d7930f9 Merge tag 'regulator-fix-v6.14-merge-wi
 9f10e7fb6a06bce4f81de5fd0f2f0390f99e89e4 Merge tag 'phy-for-6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 72deda0abee6e705ae71a93f69f55e33be5bca5c Merge tag 'soundwire-6.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire
 
---===============6680391742789938766==--
+--===============0545327133909448502==--
