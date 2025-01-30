@@ -1,23 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 30 Jan 2025 17:01:47 -0000
-Message-Id: <173825650777.3358079.9165861121731056551@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7968350464230916789=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 30 Jan 2025 17:05:37 -0000
+Message-Id: <173825673725.3361832.8478224245954427594@gitolite.kernel.org>
+
+--===============7968350464230916789==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 047558caf7e502fe5babe9b85008950731d0e2d3
-    new: dfffaccffc53642b532c9942ade3535f25a8a8fb
+  - ref: refs/heads/master
+    old: 1e8e5cf323d9798da47520f8e52f92fbe0a7ca5a
+    new: f89f20a47a5390af9563b84b69dc256be2365f93
     log: |
-         1b9335a8000fb70742f7db10af314104b6ace220 netfilter: nf_tables: reject mismatching sum of field_len with set key length
-         0f5697f1a3f99bc2b674b8aa3c5da822c5673c11 net: hsr: fix fill_frame_info() regression vs VLAN packets
-         e759e1e4a4bd2926d082afe56046a90224433a31 net: revert RTNL changes in unregister_netdevice_many_notify()
-         d7dda216ca49f1ac214cb577cbeeee760a2b425b MAINTAINERS: add Neal to TCP maintainers
-         dfffaccffc53642b532c9942ade3535f25a8a8fb Merge tag 'nf-25-01-30' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
+         b384350a341654cb6f6ecbf97e211ee97b7c1c7e 5.4-stable patches
+         f89f20a47a5390af9563b84b69dc256be2365f93 5.10-stable patches
          
+
+--===============7968350464230916789==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1738256766 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1738256735-519564bbaa48ab2c5faf4081017479f5e9b1919e
+
+1e8e5cf323d9798da47520f8e52f92fbe0a7ca5a f89f20a47a5390af9563b84b69dc256be2365f93 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmebsX4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OjAQAJ6qpyM55EwHsM40/O/0
+6x5QIS0Y9/pyGaEFLsP8a9+S8s/p3HjzFpIwVi4rbTNhNvHkyr4wknrrmyIQrq6S
+1ac30SEnwO4PGvxCiMPmRRuFkEZZQYH8gAjT2kKDZ4c/EKFGDdMvFXDcbTbKIZNn
+d0lRX2wXfei5RRhydguQxNfYZqIoSx2zBDg2lhnEPZwpTc6lqGs0zYHj/tfhgvEU
+z1FQSb7l5NaT7Qg6oLZo4TyKqJqw2uPRhc5ykDjneFukPLo2QH1VRSSIVtMWe4hW
++e6Ku0GnlvXcPgiEsMcdasVaXiXZGaMVhSbJMGv+bIJkLsqFgRuQt5D0GxPntvtt
+PUZX05Dy9F4sM9e7O+EE9DvY2AWuenBeA18g6jcjA2rOtI2QgVTathj0KsyVV4Bn
+S3FJglhuWcV1s+WZPLFgP6Hu4rbYdT5EFcZmZO7+uVof0P3ItsCbNnLcC3HRr3+a
+EWYLPgU3ympIFe5iusdqEOAGsBcwD5s9CPlOYM4ss4C+a+g3oAgkXyLwVagd+qJ4
+MtFpobZ4rnvkelM/6S+aRY+v1LGraCk1YhJ9UoorAzPZDPu5fLHQxmW/a86IvxgB
+K8tFd7iwEQnyQBaXc0mUeAsbNMNNR4jRu+BuKY9rsvg5pEfBqAwA1EeLk13inglH
+mgurl0eS9bsS7Sa1dkqMrPIh
+=SURk
+-----END PGP SIGNATURE-----
+
+--===============7968350464230916789==--
