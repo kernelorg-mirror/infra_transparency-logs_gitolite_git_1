@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0290764773116830432=="
+Content-Type: multipart/mixed; boundary="===============5774296023196780776=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 30 Jan 2025 07:30:06 -0000
-Message-Id: <173822220671.2837183.13141863133754162859@gitolite.kernel.org>
+Date: Thu, 30 Jan 2025 07:30:11 -0000
+Message-Id: <173822221196.2837515.12778379568925297844@gitolite.kernel.org>
 
---===============0290764773116830432==
+--===============5774296023196780776==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,49 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: 5bc55a333a2f7316b58edc7573e8e893f7acb532
+  - ref: refs/heads/tty-next
+    old: f79b163c42314a1f46f4bcc40a19c8a75cf1e7a3
     new: 72deda0abee6e705ae71a93f69f55e33be5bca5c
-    log: revlist-5bc55a333a2f-72deda0abee6.txt
+    log: revlist-f79b163c4231-72deda0abee6.txt
 
---===============0290764773116830432==
+--===============5774296023196780776==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1738222235 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1738222241 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1738222205-dec71b864624b5dbee296b672856ba525674f871
+nonce 1738222209-93ab11997cfa75a2bfd39ad18c40e513e5387c8c
 
-5bc55a333a2f7316b58edc7573e8e893f7acb532 72deda0abee6e705ae71a93f69f55e33be5bca5c refs/heads/tty-linus
+f79b163c42314a1f46f4bcc40a19c8a75cf1e7a3 72deda0abee6e705ae71a93f69f55e33be5bca5c refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmebKpwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+u8AQAMcojGMLnUG4Oyykq3mY
-ld7GLgz6ZJ2stpPeA/f5Z8UMsSt5xrtEhnBW40maqHh4gHmiI6uuz0XmHDWb/2z0
-rV8kidnwRAQ3o3X8A3d65/ur88PpALSr0IX4wMWq14N/GKcJuf6mwdnXGAFszlcK
-w8ZhgTnFl3pSNrZcbD8ni0gpa2TJ7rvYN1e4rZmb84QhrLf2FeftR5hcow6/tedr
-jUYJLois2wH8PApYy5OJo7KFTSwtAm4vmX4R6EfoFu3+ZsMcb/07BNPQzAyIuTSZ
-W70rufD222VzrCfCzHXL5yYuUF+exNL0RJ1xKQ79CHiupohhL/Bk+QXQFoOYYeE8
-DHg3ZajSJdWWv7WtVvB1toorSXuipOJgnNarukoafKF3D3h6KRqlgteB4BjwFCpX
-H7JcNMQnC8rXFfpnovRUB/6+DZfRyHM23dXrPv/ULK4JVAR0oAXh6hpIZ8s1HJpa
-DIEV0yUQYxuAAZF3ABageDHBlRKBHFgLoaRuYqNYEKQMMylukcu09LRjT3YrngzS
-GdvOtZnAmIqNXqON3RKfzlU04ogCpvICcWYF+S8x0KY5qYq5P41Vzh1b12XYIe1W
-f9zmDy9WopFs3IpL33ZaaHyG3w8qWUuBu5VRzqI8wgXwjCpEgMXm7J3TcJ0rpZ7c
-FzqIu6iBwKxn9rgQYKvGsS+v
-=t00P
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmebKqEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TlQQAJ78EMpaE+gF9u3gBj4c
+C238Z/5I6J3pmwfaFbfeUBKckvv7htY0pR0LnmEeCdMRNHk40tVdgLpKyKnVFNKL
+a/Pl6bOV7c5LAOQof+5S/tOvurmCrd0MbS8eHrMhhdwd23Hlr+TbgAz83VQSu+p0
+6WlyOVGF3SipaqYRrbY1MDxZ04TTJfkuGwRgizMoLEmEYWvr9RJ2cCF8MYgBVjRn
+J3/F9On/FmMK6blolBf3OKl8BrQT8oLpmd7vKLXYEfRKK52xmLDO5qZFVG81mvXh
+L9zXnlwNFY9yzs8oaofco0aWkfx2xd/vjpJ9CIYohYaUfZ6F8xHtbsJEkkjyaopV
+FBibReoSeB2cA61DSg9xLgRgWc8WJnmBTn+EgPWXRqx2ZM8vMsznyOdSSPytU48H
+yomaa8ZzPoP8vMVEABmQYkx/REvAhNcdx8WpGm2RftKQW7w8g1GpYpN9gdJfLuWf
+C6y26V/NysJC21YcFSLolrqbEeotl+tzaiJGISVTDO6gEMBW/a6kyCRS5sOeUqEe
+i9bs/JPUcKT8UmTMs0upMbpEeewpk8bHnAw1/6bYp9zfWMvRmULoiPQYweCWHcjb
+fLxjL8J32DYuzqmL2uvDwOd0IXitE883ORRPqrE9ELS2A6duIMI+2lv13sMqX72N
+8ZNY5Sfsv6qVQNGpxYPMPc34
+=6UyS
 -----END PGP SIGNATURE-----
 
---===============0290764773116830432==
+--===============5774296023196780776==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-5bc55a333a2f-72deda0abee6.txt
+Content-Disposition: attachment; filename=revlist-f79b163c4231-72deda0abee6.txt
 
+c72ca29e7f4a6b3a2a3f9095f9e62ef281425e48 platform/x86: inspur_platform_profile: Use devm_platform_profile_register()
+31658c916fa692b7dfceaba6fc6320b81c05b9c2 platform/x86: thinkpad_acpi: Use devm_platform_profile_register()
 07f531b395db3cd1776ef0f7191abf4b077fcf21 ACPI: platform_profile: Remove platform_profile_handler from exported symbols
 6ef33895503583d0741a0d8faf820ca8143b9cf2 ACPI: platform_profile: Move platform_profile_handler
 c4f7d255be321d6cb0543174509f2b39f7c763b9 ACPI: platform_profile: Clean platform_profile_handler
@@ -521,8 +523,6 @@ c4b9570cfb63501638db720f3bee9f6dfd044b82 Merge tag 'audit-pr-20250121' of git://
 5f537664e705b0bf8b7e329861f20128534f6a83 cachestat: fix page cache statistics permission checking
 be125a0b8946a69cd8d91340ae14ec72ef6558fc ALSA: hda: tas2781-spi: Delete some dead code
 807563cdc85dac2d151d7d93676d1551d067c72b ALSA: hda: tas2781-spi: Fix error code in tas2781_read_acpi()
-244eb5c6ec62ccab59ecac1f4815bb33130c423a Revert "serial: 8250: Revert "drop lockdep annotation from serial8250_clear_IER()""
-f79b163c42314a1f46f4bcc40a19c8a75cf1e7a3 Revert "serial: 8250: Switch to nbcon console"
 6aa96f780204bfdac225eb4c8f51f86c38cc1a26 ALSA: hda: tas2781-spi: Fix bogus error handling in tas2781_hda_spi_probe()
 c40ca9ef7c5c9bbb0d2f7774c87417cc4f1713bf drm: select DRM_KMS_HELPER from DRM_GEM_SHMEM_HELPER
 8ba14d9f490aef9fd535c04e9e62e1169eb7a055 efi: libstub: Use '-std=gnu11' to fix build with GCC 15
@@ -1082,4 +1082,4 @@ ebbb8be421eefbe2d47b99c2e1a6dd840d7930f9 Merge tag 'regulator-fix-v6.14-merge-wi
 9f10e7fb6a06bce4f81de5fd0f2f0390f99e89e4 Merge tag 'phy-for-6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 72deda0abee6e705ae71a93f69f55e33be5bca5c Merge tag 'soundwire-6.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire
 
---===============0290764773116830432==--
+--===============5774296023196780776==--
