@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5192577099652626179=="
+Content-Type: multipart/mixed; boundary="===============4957427267461943499=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Thu, 30 Jan 2025 07:37:30 -0000
-Message-Id: <173822265059.2842762.6912572915657832626@gitolite.kernel.org>
+Date: Thu, 30 Jan 2025 07:39:48 -0000
+Message-Id: <173822278895.2844241.14516953162493121212@gitolite.kernel.org>
 
---===============5192577099652626179==
+--===============4957427267461943499==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
+  - ref: refs/heads/staging-next
     old: 6d61a53dd6f55405ebcaea6ee38d1ab5a8856c2c
     new: 72deda0abee6e705ae71a93f69f55e33be5bca5c
     log: revlist-6d61a53dd6f5-72deda0abee6.txt
 
---===============5192577099652626179==
+--===============4957427267461943499==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1738222679 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1738222817 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1738222648-d54e0879286b6d6afa1ff0d4fc23fffe7ff7855e
+nonce 1738222786-e65085a3f6aef5b7ffeab67552aee9a65d5798f8
 
-6d61a53dd6f55405ebcaea6ee38d1ab5a8856c2c 72deda0abee6e705ae71a93f69f55e33be5bca5c refs/heads/staging-linus
+6d61a53dd6f55405ebcaea6ee38d1ab5a8856c2c 72deda0abee6e705ae71a93f69f55e33be5bca5c refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmebLFcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iIcQAJ05Mf0PXUxiPl29PpmF
-9x7g6d3xtKl5R6DAnsvr58pKSCbZhb9WWZuv8ZEIWbbBpFdn7AvLkEoWpn/BUgNm
-LaXmgireon9xH7YrEeFWFgNhnnSSj3jMKkHFI7SNhxilisDV0zFWzpOzoo/PbGZN
-pNur1L0aWCCyp90JlcwJR+MN6t5HcuDUvh1Ju9TiCr3/6aR6DO7BTK+amYtWDC3l
-cVj4jCCFtsk9Hr+7/Q4WvWO72NGhFt3MUvH6m2RO35CfS3Ow49fhxlmgjgAnpCmj
-2lknC64YhraBdLO5ZFOzji6Z8pGLJC+724bvNYf1r/q+JxEcLM1uodz2ZPUO4hJm
-QRxg23fcBsMMIkC/dvzDSiqcvHWE5Q/491zQcO17y2bJrfT4zReAz9zXg7BbvBzB
-Uc9M5YALQt1dh0KfONgk7jW47roGtBZ+coTf1T65Ud3If7ID5RV0IMsZ5HPeJNe8
-jQ7faf9ipsUdujML+FmjL9HhmzPMuL/0OzddKkMbx/LNrRjaawQo0AGrAiUnI92V
-KKhxGCmNy4JCMXDwm4M0yJtE+C6RPbNWiU2JBm5lk09YNq53nC+b5o43tNxuQtKH
-R5bgLIVb+RrNh0OSii7uj+mLfA7fm8BVubcOh0Nogq9sAmuCeUBJfezRRMRp3Euv
-weKImIXvKDAwfRz5E7hLDtiQ
-=t6cf
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmebLOIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LucP/RAQB2qGR/awVdr/dYoD
+uW7O/n0jHiPpoWR2ZdtjIC+RuzweZH1tVJdYLV67H9vYkeu7WLrZ1Pji9BLObd/l
+SX0wtq+UYdkypH6zk7w3o3EI50uy/YnqDQVwbqovfB/Ap2G3rXH7Lk7Dnj0s+x/m
+SUVMtxb1A6a3BFeTBfJjaD0huissifEoDwLVQsdlLOYkO9ja0r4WbUIMc4nWR3nT
+Ree2vji4A0kYvQtpRLtWEPX0DHcEiZTWLggv1cAif2gb8JflaZS49CbddA34gmlP
+Q3XDMVhJsLVBAQ5b6efe1rcmyNyTMq1fIhQ/Gp9duwfvHarkykBLqnVIQNNmAANn
+7mnkkqe1QXREvAlRZbDKyw7gkEF+AQ34yv47/9t2Vb7SPLfMOm7SRgd4JySZ2oT1
+aOoAurjmiJV2beI18FkuOYFoMHChfwG+CkKnc1XXiGkXra+9cgVIFgA8r4bYhSSW
+h8RuPmWNd6ZXp3TXqC8yvC9SBvRnkaXRw+OHuDuHZSPLWcqcrAJScx11e++yNns8
+MliJvODn61IUgzcCgUCsXRVu49j2iun8TBUJOz9uQL2G1YSxMLVgO2L0mOzS6O+j
+UQClQHExtU01pXjUVdzmc7JFd/bEK7H/H48S1EOZNomWyBEodranA/4A5rb2zPyk
+1Zh2b+Wxi3G69dDs2zeSxFah
+=3xlA
 -----END PGP SIGNATURE-----
 
---===============5192577099652626179==
+--===============4957427267461943499==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -513,4 +513,4 @@ ebbb8be421eefbe2d47b99c2e1a6dd840d7930f9 Merge tag 'regulator-fix-v6.14-merge-wi
 9f10e7fb6a06bce4f81de5fd0f2f0390f99e89e4 Merge tag 'phy-for-6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 72deda0abee6e705ae71a93f69f55e33be5bca5c Merge tag 'soundwire-6.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire
 
---===============5192577099652626179==--
+--===============4957427267461943499==--
