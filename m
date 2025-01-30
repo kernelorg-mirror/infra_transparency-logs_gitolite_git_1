@@ -1,32 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jirislaby/linux
-Date: Thu, 30 Jan 2025 07:21:35 -0000
-Message-Id: <173822169502.2828751.10984724691389794355@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1014291668616659711=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Thu, 30 Jan 2025 07:23:38 -0000
+Message-Id: <173822181898.2829575.12866224002849544390@gitolite.kernel.org>
+
+--===============1014291668616659711==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jirislaby/linux
-user: jirislaby
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/devel
-    old: f41824ced9fd3721ebe555318f8a11e77ef8408a
-    new: a2ea6ca94c68a7ab616969102e07614d1be0a5a8
+  - ref: refs/heads/driver-core-linus
+    old: 72deda0abee6e705ae71a93f69f55e33be5bca5c
+    new: 57b314752ec0ad42685bc78b376326f1f4c04669
     log: |
-         06937daf9a2fa9927fc6c68ee80ddcc7073f990b x86/boot: Use '-std=gnu11' to fix build with GCC 15
-         d6d1a9ddf8ccb3882fa928d1ddbc0f105c907e0c num2
-         34e336a961ca6b92723a8bed2c79c51e94911942 ttytest: add
-         e111ee83003a0b49dd5fad3fda8a44e31210708b drop serdev_controller_ops::write_room
-         ed372c56ce7380c400a7f37b8f378283b6b27cc0 enum tty_struct_flags
-         2c7d5f563540d1f80f618dc503106e5953356aad audit: do not use N_TTY_BUF_SIZE
-         2d4a0d25c82d49368ad6b3b69cc60e8582118095 caif: don't use N_TTY_BUF_SIZE
-         8ffd8c5984bcac1eec958a73d8f74a6f790dc99a move N_TTY_BUF_SIZE
-         1d0b667e031749a33a78dbca57e2bc0905257b4a trace drop
-         a19a7c89603153cbc4da9bb846c8e4944fe6e118 intro n_tty_continue_cookie
-         d8ab2d4cdf5d2838941408657bf6f730be374ca3 n_tty_wait_for_input
-         c4c1e8846e8c31af09215666200b0488827b8037 move more_to_be_read to the end of n_tty_read()
-         4e755fc98e41dca2debd4bb09e1d10d59d9168da tty: use xarray for tty's file list
-         a2ea6ca94c68a7ab616969102e07614d1be0a5a8 BRANCH_MARKER: work
+         57b314752ec0ad42685bc78b376326f1f4c04669 debugfs: Fix the missing initializations in __debugfs_file_get()
          
+
+--===============1014291668616659711==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1738221847 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1738221816-e56fd4ca4944eee0c1457631a8ae74b8ec977e89
+
+72deda0abee6e705ae71a93f69f55e33be5bca5c 57b314752ec0ad42685bc78b376326f1f4c04669 refs/heads/driver-core-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmebKRcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0B0P+wUzCSyE8MRQTKCN4Im5
+uGxudrBhfCuCdtJ/bgwGRIpu0Z3doxmFlWZfKUZCjGesSJwltesZwIQkni+Hw4mz
+6iSBoGaIH3N6APqet5Ac1RYdd5txN4j+PLQymU2h5KIoSrIrwmWs0kNELXYUmBDZ
+khahqaH+Oka+IdxhCbBJtvSIcKfcz8OrqIWk3Kssy54Ez10HSyxb0fTqI4aSxs+T
+AemkZDZ6XX4/eprr5ZXf6edbMgOrAx55hrG6PSMydCK/9+E9sHocpoApmqxynLDb
+KSSMJptbqlskDYM/TPdcuOJUtOQa6W7d5B5m+KFdkIi08K8NS5UNGtTBW8WYGSX9
+1TRTenxfQskWxPZ1OXz+A7vKtQ45t9ZBwMMLT6xDkjldxXs7gChO/IkBGqe69i4k
+eoenQyQFnChdGQS1RJeBWLEKBd3BdG1sLNZtApOrIC7PezEpYAHp2Psi4h41rS8u
+Q9rokyDiiJwJxiByWqbKlBKeM1lNper/gVYkgRB1syB8742hJyYkbpl8H+UoiIY6
+jqnv0rhManp0UowpkriF7rPbbQyBOv6wGNXoCnvH4BYUG9ZU/SOIGg7q9B/yedK2
+KzRXJLLw+D4W/zn7YHzuZm24xBx3IuYO0jbiZKNI/u7YhpEyX8xVFyjI5nvxqwND
+7pATIGVmIXY9/PD22OKpZzOA
+=mrLf
+-----END PGP SIGNATURE-----
+
+--===============1014291668616659711==--
