@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Thu, 30 Jan 2025 16:19:26 -0000
-Message-Id: <173825396623.3273182.7098140361058516864@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Thu, 30 Jan 2025 16:30:28 -0000
+Message-Id: <173825462828.3284433.9864550077515446481@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/master
-    old: 46fbbd600578a7edc17a1b76ac6b8673335cc601
-    new: 6b34b055117cebdb9fb502d138cb654c6c9949b7
+  - ref: refs/heads/pending
+    old: 220970cf2c36d2f2b3e4d5390159eabf8423c539
+    new: 1ffd7a4154da2c506ccbc9880a552c8cd1b34020
     log: |
-         36c79632fc9f172afcf0c83cdd4d89fcfa8b3912 org.bluez.LEAdvertisement: Add dedicated Scan Response field
-         ab6502473a622fa795cc45bb14b65f8d6f271ac1 advertising: Add scan response properties to LEAdvertisement1
-         f9417eafa2adffd779a01b2400145831d493830a advertising: Add scan response support in bluetoothctl
-         1f7a7c9dcadbec6c23d2bd9e946cd706e606e837 org.bluez.GattCharacteristic: Add confirmation support to AcquireNotify
-         6b34b055117cebdb9fb502d138cb654c6c9949b7 gatt: Implement confirmation support for AcquireNotify
+         caf84aa5266eae44823b736c5c77a39b92d26199 wifi: ath12k: Add support for obtaining the buffer type ACPI function bitmap
+         736ad29e27a01c6405efa993a1ab696ea2811691 wifi: ath12k: Add Support for enabling or disabling specific features based on ACPI bitflag
+         856d8cd0fe08679af8cb3b9ac98848b1a79ec4b2 wifi: ath12k: Adjust the timing to access ACPI table
+         1ffd7a4154da2c506ccbc9880a552c8cd1b34020 wifi: ath12k: Add support for reading variant from ACPI to download board data file
          
