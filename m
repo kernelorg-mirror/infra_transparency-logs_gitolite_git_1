@@ -1,51 +1,100 @@
-Content-Type: multipart/mixed; boundary="===============6025625305598690025=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Thu, 30 Jan 2025 14:04:10 -0000
-Message-Id: <173824585049.3157451.7078208656655826849@gitolite.kernel.org>
-
---===============6025625305598690025==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/modules/linux
+Date: Thu, 30 Jan 2025 14:10:40 -0000
+Message-Id: <173824624025.3164414.995422097252237426@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/modules/linux
+user: ppavlu
 changes:
-  - ref: refs/heads/for-next
-    old: fac04efc5c793dccbd07e2d59af9f90b7fc0dca4
-    new: 101971298be2aa4706c8602bd81066a0f6f2ced5
-    log: revlist-fac04efc5c79-101971298be2.txt
-
---===============6025625305598690025==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fac04efc5c79-101971298be2.txt
-
-0207244ea0e7fcf45e68e24b0fffe964624a22ef riscv: defconfig: enable pinctrl and dwmac support for TH1520
-9d0593da9459176396c1f2246efafbc80a828c7f riscv/futex: Optimize atomic cmpxchg
-26f2d6de41795a931d1c16950114dbcf55dfbd75 riscv: defconfig: drop RT_GROUP_SCHED=y
-9d87cf525fd2e1a5fcbbb40ee3df216d1d266c88 RISC-V: Mark riscv_v_init() as __init
-e576b7cb818343e2dc740185fbea6af580763dde dt-bindings: riscv: Add xtheadvector ISA extension description
-bf6279b38a4bbdb2954c3d159523d41367763a48 dt-bindings: cpus: add a thead vlen register length property
-ce1daeeba600a79b776864f12d19e799f1eb124f riscv: dts: allwinner: Add xtheadvector to the D1/D1s devicetree
-cddd63869f9214f2bc5c4b89a8ea1bd0ff4d89c5 riscv: Add thead and xtheadvector as a vendor extension
-377be47f90e411c10440650864d72d2ecb639bd7 riscv: vector: Use vlenb from DT for thead
-66f197785d515d3fe5257ed65e189e4ee0b9b4e3 RISC-V: define the elements of the VCSR vector CSR
-b9a9314424512e536db5e54ff554c2f10759c657 riscv: csr: Add CSR encodings for CSR_VXRM/CSR_VXSAT
-01e3313e34d0e3912a7031c217367df051603149 riscv: Add xtheadvector instruction definitions
-d863910eabaffc68eb28aaf476dd870fc3f7197d riscv: vector: Support xtheadvector save/restore
-a5ea53da65c588339890c825e63c0da5baef6897 riscv: hwprobe: Add thead vendor extension probing
-7fa00fd6ff5366b50dcba2525b9743e1612da2aa riscv: hwprobe: Document thead vendor extensions and xtheadvector extension
-57d7713af93e4b7344d3022fad9ddf0f10f815ec selftests: riscv: Fix vector tests
-c384c5d4a2aed5b6a10de1fcc2f5b46ad4aeeea8 selftests: riscv: Support xtheadvector in vector tests
-4bf97069239bcfca9840936313c7ac35a6e04488 riscv: Add ghostwrite vulnerability
-2613c15b0cc1c0607d9f2b718d7bc117c40f9230 Merge patch series "riscv: Add support for xtheadvector"
-b6de116e4636e1a45e5ee69264a66cfab721e581 riscv/mm/fault: add show_pte() before die()
-101971298be2aa4706c8602bd81066a0f6f2ced5 riscv: add a warning when physical memory address overflows
-
---===============6025625305598690025==--
+  - ref: refs/tags/amd-drm-fixes-5.5-2020-01-01
+    old: 1aa1d78319d088e76370d28b6000c938ab7cbb6b
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/amd-drm-fixes-5.5-2020-01-08
+    old: f67c62338511613bb2029ee704d9b107fc0e4b49
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/amd-drm-fixes-5.5-2020-01-15
+    old: 96074335e95400d599d6a14c5e4602ec9d7e33c3
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/amd-drm-fixes-5.5-2020-01-23
+    old: a7f723fa2dd1251a313e61eddcab83414463d2ad
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/amd-drm-fixes-5.6-2020-02-12
+    old: e6bf6b68ae462fb52b129ea7db746ced9619ff1f
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/amd-drm-fixes-5.6-2020-02-19
+    old: c9ba3e7b83c19aeb298f1f9afe3b8e029369b05c
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/amd-drm-fixes-5.6-2020-02-26
+    old: 4387df7afdc9d1c187d5775418d642dd710f9b8c
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/amd-drm-fixes-5.6-2020-03-05
+    old: 2ae2812f38c8305af4b26c985930d739b459d675
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/amd-drm-fixes-5.6-2020-03-11
+    old: da49393f5ab366a22e9c502d14def4b7eb7af7d2
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/amd-drm-fixes-5.6-2020-03-18
+    old: f61bc8812cf8d776b868c011048ee553655289a9
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/amd-drm-fixes-5.6-2020-03-19
+    old: cbbb6f2e2589c1111d1e87509bff3c4f6a447478
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/amd-drm-fixes-5.6-2020-03-26
+    old: 203a843c1b5d0d249f8a0a7e46a3b02033cc77ae
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/amd-drm-fixes-5.7-2020-04-08
+    old: db4b2076044a111b58e8154666a6b84788768f48
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/amd-drm-fixes-5.7-2020-04-15
+    old: 47c50ce6db5c2d4cfa0684b7a0b0971db461117c
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/amd-drm-fixes-5.7-2020-04-22
+    old: e994ce04c78e9ba477d31563c503cb19b6823a12
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/amd-drm-fixes-5.7-2020-04-29
+    old: d7dbfa14ab56295c401c7fc17a256a37f6720ae4
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/amd-drm-next-5.6-2020-01-09
+    old: e2ba20859e6858ae9ace4e6e4d292320ecded5ec
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/amd-drm-next-5.6-2020-01-09-dp-mst-dsc
+    old: d5509070e521a084bfe044b5438d240daac6b780
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/amd-drm-next-5.6-2020-01-10-dp-mst-dsc
+    old: 2c5013ffd340014ecdf5282ad3a3fceb19f794d0
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/amd-drm-next-5.6-2020-01-16
+    old: a71ad153fdcc0d7ce85f8fe95b7d0e7f9ae279ef
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/amd-drm-next-5.6-2020-01-17
+    old: b5de02458c882455997c6a36dc978a3015bcbcd6
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/amd-drm-next-5.6-2020-02-05
+    old: 0e75f336ab604c1f1c48d81473efbaff8f6e94af
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/amd-drm-next-5.7-2020-02-26
+    old: a982bace45d0a7a82ee93a87f4eb30f2cfe015d9
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/amd-drm-next-5.7-2020-03-10
+    old: fadcbbb528dd5457db18cb699f3e93ba49c2bcc9
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/amd-drm-next-5.7-2020-03-19
+    old: fc96ec00e085be46345c494d4b4509146dea50bb
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/amd-drm-next-5.7-2020-03-26
+    old: 252381a704f71be6431bfd9026aee70207111b2e
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/amd-drm-next-5.7-2020-04-01
+    old: 2158bbbf75e8a0e46dc80d4ba678bdca7f7cee52
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/amd-drm-next-5.8-2020-04-24
+    old: df40fe134c47c5e8bb19a95e205218678f7ad50e
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/amd-drm-next-5.8-2020-04-30
+    old: 280bd001871d0a1fef51937371486d0f12981169
+    new: 0000000000000000000000000000000000000000
