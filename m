@@ -1,45 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============1630185725576439303=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djiang/linux
-Date: Wed, 29 Jan 2025 23:58:54 -0000
-Message-Id: <173819513422.2472644.4609796889663832422@gitolite.kernel.org>
-
---===============1630185725576439303==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Thu, 30 Jan 2025 00:48:44 -0000
+Message-Id: <173819812490.2510667.16210449367232783477@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djiang/linux
-user: djiang
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/cxl/fwctl
-    old: 4afbf81f9452e2f0b4cc0d3c305aa6438c49a5e6
-    new: a94a98755ebe43e2cf8fa8b60eb78c64f9d9bdce
-    log: revlist-4afbf81f9452-a94a98755ebe.txt
-
---===============1630185725576439303==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4afbf81f9452-a94a98755ebe.txt
-
-dc24301094cdd46e28317cdab4eafa98da3bbfd5 cxl: Enumerate feature commands
-74762c245c199cc7426356073317370643c71729 cxl: Add Get Supported Features command for kernel usage
-c85a2b4a1c0ea3c7efd6b263e30d5d8b2cf00de3 cxl/test: Add Get Supported Features mailbox command support
-9d0ea5bf756fee2b04a4ecc3a79e98f58661f63e cxl/mbox: Add GET_FEATURE mailbox command
-1bd9c9f1a6e3c35286eaea79bbe147a8d38054bc cxl/mbox: Add SET_FEATURE mailbox command
-c7fabef55f8e90c4f27025544d3c724f20e9c397 cxl: Setup exclusive CXL features that are reserved for the kernel
-50bb7ff9edf14d384d8cd902ac40e41abee77651 cxl: Add FWCTL support to the CXL memdev driver
-3a7c02e87aad21fdd0afdab3b1292d853499d569 cxl: Add support for FWCTL get driver information callback
-2dad60b844396ca701a17305b9f67885c2cd9884 cxl: Move cxl feature command structs to user header
-fbf95d2ee19bca137a0ea20a3021499a749128dd cxl: Add support for fwctl RPC command to enable CXL feature commands
-982cbdb484c37bea0c31e9939b253cb375d7c7b7 cxl: Add support to handle user feature commands for get feature
-8ca65107474f47bd66199e8ff58a662b03e14503 cxl: Add support to handle user feature commands for set feature
-cd583591838a24306e5fca419cb76dd248dde6a8 cxl/test: Add Get Feature support to cxl_test
-a9e473576db9797cc2f262c8dd3a7f9545fcf7fc cxl/test: Add Set Feature support to cxl_test
-a94a98755ebe43e2cf8fa8b60eb78c64f9d9bdce fwctl/cxl: Add documentation to FWCTL CXL
-
---===============1630185725576439303==--
+  - ref: refs/heads/pending
+    old: bee577165a0a375a1d47d8ddef1c321e0f7dd6c8
+    new: d133f699d0f12a62694cdcf33dc9357576ebb0d3
+    log: |
+         bfc7e10e69c763d67b30c602d62a6e7303cc264d wifi: ath12k: update beacon template function to use arvif structure
+         47bc4c5c6598ef2ff3a362eb13dfe4573ab5d910 wifi: ath12k: fix handling of CSA offsets in beacon template command
+         28424adb26dbf57b22aa91ba65cc46ada74b75f1 wifi: ath12k: update the latest CSA counter
+         d133f699d0f12a62694cdcf33dc9357576ebb0d3 wifi: ath12k: prevent CSA counter to reach 0 and hit WARN_ON_ONCE
+         
