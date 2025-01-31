@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 31 Jan 2025 19:15:08 -0000
-Message-Id: <173835090801.486678.18146884386988559447@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Fri, 31 Jan 2025 19:23:12 -0000
+Message-Id: <173835139287.492180.16798803150124287631@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/dev-queue
-    old: 7bc3c3d25bc240429f7d5f3003b78b4408090ecd
-    new: 9095dd52b66e264a38fca076cf535c7b0a634183
+  - ref: refs/heads/fuse
+    old: 2d8922f1946eedeeaefe1a977695019e49f0ca5f
+    new: dab78745e20591bc228e71dcdea06da75da7bbf8
     log: |
-         883b7e41ba3e54136679662ba1a14e00e9fba046 igc: Fix HW RX timestamp when passed by ZC XDP
-         9095dd52b66e264a38fca076cf535c7b0a634183 idpf: move set_real_num_queues to up_complete
+         0eeb0bede371cbfe42ef9f2605da708ddd1b1ffd fuse: don't set file->private_data in fuse_conn_waiting_read
+         dab78745e20591bc228e71dcdea06da75da7bbf8 fuse: add a new "connections" file to show longest waiting reqeust
          
