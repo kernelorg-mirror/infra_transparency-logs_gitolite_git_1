@@ -1,44 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============6730873664762578136=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Fri, 31 Jan 2025 22:04:51 -0000
-Message-Id: <173836109136.626283.9269408108383241036@gitolite.kernel.org>
-
---===============6730873664762578136==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/git/git
+Date: Fri, 31 Jan 2025 22:20:34 -0000
+Message-Id: <173836203455.640032.5495680778036493402@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/crypto-krb5
-    old: 3108d67c535aa3ea00a95b1daf8efdc15bb074b4
-    new: cb61d19a56f02fb521a3800b0b5c173bbf1deb9d
-    log: revlist-3108d67c535a-cb61d19a56f0.txt
-
---===============6730873664762578136==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3108d67c535a-cb61d19a56f0.txt
-
-d98af906acfa15f9ba6598803e6e41a5441d36fd rxrpc: Fix the rxrpc_connection attend queue handling
-c7054e7754514d4ec9c6d99ad13eccbe400b051d rxrpc: Pass CHALLENGE packets to the call for recvmsg() to respond to
-974d320bff9b735d77f0024b30b9d3eb89aed12a rxrpc: Allow the app to store private data on peer structs
-da74b0884acf0970fdcefcb7f59392786986c6be afs: Use the per-peer app data provided by rxrpc
-f6212197be7da769e3e9109668a5fe97668cffd5 afs: Add a per-cell management timer
-c489b3503b340661a65104692a15cc623caa7548 afs: Simplify server record handling using peer app data
-3cc1509dd3af17c1499577a47f52232eedb7047e rxrpc: Add the security index for yfs-rxgk
-2ee8c5e48edd1b4a8e44d1e2d55e752a9973a841 rxrpc: Add YFS RxGK (GSSAPI) security class
-080ad92c45d5dcfd176cec77ef3c605d5979a7c1 rxrpc: rxgk: Provide infrastructure and key derivation
-29ad9d399947890c16dbf1c7a6b922bbf8c9637e rxrpc: rxgk: Implement the yfs-rxgk security class (GSSAPI)
-5c1fc7127de70f940a8bd14e1bef8dd835b81604 rxrpc: rxgk: Implement connection rekeying
-a6389f37eda12ee874bc598426c44654f3c45e45 afs: Use rxgk RESPONSE to pass token for callback channel
-4a29a4131824ba4a97bf12f90172175c8a2ba141 rxrpc: Add security params to the afs_cb_call tracepoint
-cb61d19a56f02fb521a3800b0b5c173bbf1deb9d fixes
-
---===============6730873664762578136==--
+  - ref: refs/heads/seen
+    old: c5d58951b56be71adba4774de2165ead7ca52b7d
+    new: 5e0608d818df65a4721d875b3bce19c4e632444b
+    log: |
+         8dedf1eb8f05efd9106043bf18d881f7dc08ba50 fixup! builtin/clone: teach git-clone(1) the --revision= option
+         505c18928b0a5441d931e6af6f778e78d0beecd0 Merge branch 'tc/clone-single-revision' into jch
+         3adc6febc5ace7da4d581947f1aa739599c3523b Merge branch 'ps/hash-cleanup' into jch
+         6ea9799528f11996e493ba26fedb0d5865aa6b6a Merge branch 'op/worktree-is-main-bare-fix' into jch
+         7678cdcfa4bcf7fa193a1ecb552c0b7ea6988c11 Merge branch 'ps/send-pack-unhide-error-in-atomic-push' into seen
+         54608a3409c30b361bfdbacbd1dc1c2baf518d39 Merge branch 'jc/doc-attr-tree' into seen
+         081fa5d0332d09dac4e88198c7a10e6038796ea5 Merge branch 'sk/maintenance-remote-prune' into seen
+         bbb443a87d00c87be19061393f90234e45eab3ca Merge branch 'ac/doc-http-ssl-type-config' into seen
+         a9c4744af988d08ecbbc0dd62809feb31ccd60c9 Merge branch 'jp/doc-trailer-config' into seen
+         eb5c867a3243378334de87d55f7af3cbcde2f792 Merge branch 'sk/unit-tests-0130' into seen
+         5e0608d818df65a4721d875b3bce19c4e632444b Merge branch 'ps/build-meson-fixes-0130' into seen
+         
