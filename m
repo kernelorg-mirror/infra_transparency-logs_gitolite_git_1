@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Fri, 31 Jan 2025 20:59:25 -0000
-Message-Id: <173835716524.573091.3801882467391463309@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Fri, 31 Jan 2025 21:02:37 -0000
+Message-Id: <173835735781.576744.9485410157084631391@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/experimental/menu
-    old: 06c193dce48bf3de8c4eb5d6d47c2e2a199755c3
-    new: 17480090c0e77c874eace967b61fb24c2dec33bd
+  - ref: refs/heads/calao
+    old: 0cd5da5333d0650cac77783871cf33313c4758d2
+    new: 8e691262b801f7abcc7923172dc7536f5c676189
     log: |
-         2c95ffb9b00149adc68428f1c20295b99da84263 cpuidle: menu: Use one loop for average and variance computations
-         3813f754d1d6ae2df4961d86897ac9ed1badeeee cpuidle: menu: Tweak threshold use in get_typical_interval()
-         519cb368f6849db1c0cb428b64537d455d57ab2f cpuidle: menu: Eliminate outliers on both ends of the sample set
-         17480090c0e77c874eace967b61fb24c2dec33bd cpuidle: menu: Avoid discarding useful information
+         1cf650238969b8cc503cec59885f72f7e113e31c ARM: dts: at91: use correct vendor name for Calao boards
+         5dd0a87cc5249e0b2c10ab32738b4e416374cce5 ARM: dts: at91: calao_usb: fix button nodes
+         3e727b75798bccfba46b0e343e0da5a1073bd646 ARM: dts: at91: usb_a9g20_lpw: use proper mmc node name
+         8e691262b801f7abcc7923172dc7536f5c676189 ARM: dts: at91: fix faulty ohci/ehci node names
          
