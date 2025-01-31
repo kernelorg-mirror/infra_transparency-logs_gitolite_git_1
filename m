@@ -1,24 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Fri, 31 Jan 2025 19:06:57 -0000
-Message-Id: <173835041739.479107.11075991235812415236@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Fri, 31 Jan 2025 19:14:55 -0000
+Message-Id: <173835089548.484679.13581797018159833858@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/main-pending
-    old: 060f85acaf1927afb96e769ee36cfcfcbaa6c58a
-    new: eb33ca7c5afed9979e876f03392adc358660437e
+  - ref: refs/heads/dev-queue
+    old: e2237d414c0fda518ff98cc927af29d8e14391c4
+    new: 6933abce4d7b7196ea1ce85784b350d9dd9d0fa9
     log: |
-         5f8425c81d7840a91d4310702b1e57368c4547e4 wifi: ath12k: fix ath12k_hal_tx_cmd_ext_desc_setup() info1 override
-         b0f5aa476101366049d0de59951695f5e91d0d76 wifi: ath12k: remove return for empty tx bitrate in mac_op_sta_statistics
-         eb33ca7c5afed9979e876f03392adc358660437e Merge branch 'pending' into main-pending
+         e6b12893c880f0e7bb96a259b990fbd4b59ffe21 igc: Fix HW RX timestamp when passed by ZC XDP
+         6933abce4d7b7196ea1ce85784b350d9dd9d0fa9 idpf: move set_real_num_queues to up_complete
          
-  - ref: refs/tags/ath-pending-202501311849
-    old: 0000000000000000000000000000000000000000
-    new: eb33ca7c5afed9979e876f03392adc358660437e
