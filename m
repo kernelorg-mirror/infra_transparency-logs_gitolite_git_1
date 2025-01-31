@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 31 Jan 2025 19:14:55 -0000
-Message-Id: <173835089548.484679.13581797018159833858@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Fri, 31 Jan 2025 19:15:08 -0000
+Message-Id: <173835090801.486678.18146884386988559447@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
   - ref: refs/heads/dev-queue
-    old: e2237d414c0fda518ff98cc927af29d8e14391c4
-    new: 6933abce4d7b7196ea1ce85784b350d9dd9d0fa9
+    old: 7bc3c3d25bc240429f7d5f3003b78b4408090ecd
+    new: 9095dd52b66e264a38fca076cf535c7b0a634183
     log: |
-         e6b12893c880f0e7bb96a259b990fbd4b59ffe21 igc: Fix HW RX timestamp when passed by ZC XDP
-         6933abce4d7b7196ea1ce85784b350d9dd9d0fa9 idpf: move set_real_num_queues to up_complete
+         883b7e41ba3e54136679662ba1a14e00e9fba046 igc: Fix HW RX timestamp when passed by ZC XDP
+         9095dd52b66e264a38fca076cf535c7b0a634183 idpf: move set_real_num_queues to up_complete
          
