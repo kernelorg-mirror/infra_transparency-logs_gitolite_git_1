@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jirislaby/linux
-Date: Fri, 31 Jan 2025 11:43:33 -0000
-Message-Id: <173832381385.125461.5221084621602650556@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/frederic/dynticks-testing
+Date: Fri, 31 Jan 2025 12:40:22 -0000
+Message-Id: <173832722291.170944.6363500098653758081@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jirislaby/linux
-user: jirislaby
+repo: pub/scm/linux/kernel/git/frederic/dynticks-testing
+user: frederic
 changes:
-  - ref: refs/heads/devel
-    old: 49d2ec1c49130aef08df8d571310a02866a117a7
-    new: 72e3c9198439796fe3a5ac5adfa50cda6302ebfa
+  - ref: refs/heads/master
+    old: c8fcbb3cd05fe6a8cb35b7a3e7036cedec9788e3
+    new: 50b575846e8f2afa84aaf7a0babf3cea473bbef7
     log: |
-         9c6dab8bd53081cfb78d7a00ddd43c6565a907c7 pass struct uart_state to uart_line_info
-         7ee12c14c4b8b8ac855f67f6e3274e69c26eeb8b amba-pl011: don't rely on amba_reg.state
-         78614cced2281b36e8a115644586e5edd24f9dcb serial: drv->state -> xarray
-         72e3c9198439796fe3a5ac5adfa50cda6302ebfa BRANCH_MARKER: work
+         bfa6f132529c403dfa51ec69ad97b8cd7c29ce44 Support resched vector IPI and tick stop events
+         16318264c9ef9ab687266897d398ac81068e509e TickDepHist, fix: change parameter from "vec" to "dep"
+         088d2f672c3f60c9cf1979e53bdb5e081932dfac Merge branch 'tick_stop_dep' into 'master'
+         f1ff8061833ff6e2e6d96172cc54380d63d5e888 Add timer trace events
+         50b575846e8f2afa84aaf7a0babf3cea473bbef7 Add "run" command that does everything in one go: launch tasks, tracing and report.
          
