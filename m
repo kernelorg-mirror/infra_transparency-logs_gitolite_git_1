@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4990551836176612789=="
+Content-Type: multipart/mixed; boundary="===============7858308314180246319=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 31 Jan 2025 09:09:53 -0000
-Message-Id: <173831459305.4146040.4722830301699897468@gitolite.kernel.org>
+Date: Fri, 31 Jan 2025 09:10:18 -0000
+Message-Id: <173831461851.4148072.11549197068128525582@gitolite.kernel.org>
 
---===============4990551836176612789==
+--===============7858308314180246319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,26 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 7d4e07a5c5f3d04f0df93e1fe600a404ab0d8704
-    new: 7072dba02b0b102f2cc08a56255783c538b52db6
-    log: revlist-7d4e07a5c5f3-7072dba02b0b.txt
+    old: 7072dba02b0b102f2cc08a56255783c538b52db6
+    new: 3bbc7cc137e3925a1bce7185310c9ea6327088d3
+    log: |
+         579462aaf4ce13093f6115424c473e3a32896e67 Merge branch into tip/master: 'irq/urgent'
+         0cb99260dc2e74d1f856c356b25d3c9560e6fb30 Merge branch into tip/master: 'locking/urgent'
+         28dc9fe9aca846d5ac8b024fe181fc7159854ea6 Merge branch into tip/master: 'sched/urgent'
+         659c8fe0c614b3d22d52186e85d9ef1719b07a37 Merge branch into tip/master: 'timers/urgent'
+         0ab7342668fc6faccc851f9d46e99a30bb899860 Merge branch into tip/master: 'x86/urgent'
+         3bbc7cc137e3925a1bce7185310c9ea6327088d3 Merge branch into tip/master: 'x86/mm'
+         
+  - ref: refs/heads/tip/urgent
+    old: 93905fc20dee958765fcde96cd3e46b5adab3b97
+    new: 0ab7342668fc6faccc851f9d46e99a30bb899860
+    log: revlist-93905fc20dee-0ab7342668fc.txt
 
---===============4990551836176612789==
+--===============7858308314180246319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7d4e07a5c5f3-7072dba02b0b.txt
+Content-Disposition: attachment; filename=revlist-93905fc20dee-0ab7342668fc.txt
 
 c05c5e5aa163f4682ca97a2f0536575fc7dbdecb xfrm: replay: Fix the update of replay_esn->oseq_hi for GSO
 c841f9909b0d947ae7593040cc59646dc9f14455 dt-bindings: dma: qcom,gpi: Add QCS615 compatible
@@ -403,6 +414,10 @@ a4b5e48ec4c975f40ec4f51cd5e054276c25eb34 Merge tag 'i2c-for-6.14-rc1-take2' of g
 2a9f04bde07a35530d53b71628cdc950dac86eab Merge tag 'rtc-6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux
 350130afc22bd083ea18e17452dd3979c88b08ff Merge tag 'ubifs-for-linus-6.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rw/ubifs
 69e858e0b8b2ea07759e995aa383e8780d9d140c Merge tag 'uml-for-linus-6.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/uml/linux
-7072dba02b0b102f2cc08a56255783c538b52db6 Merge branch 'linus'
+579462aaf4ce13093f6115424c473e3a32896e67 Merge branch into tip/master: 'irq/urgent'
+0cb99260dc2e74d1f856c356b25d3c9560e6fb30 Merge branch into tip/master: 'locking/urgent'
+28dc9fe9aca846d5ac8b024fe181fc7159854ea6 Merge branch into tip/master: 'sched/urgent'
+659c8fe0c614b3d22d52186e85d9ef1719b07a37 Merge branch into tip/master: 'timers/urgent'
+0ab7342668fc6faccc851f9d46e99a30bb899860 Merge branch into tip/master: 'x86/urgent'
 
---===============4990551836176612789==--
+--===============7858308314180246319==--
