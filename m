@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3133421718944274175=="
+Content-Type: multipart/mixed; boundary="===============6395990713057945434=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 31 Jan 2025 17:10:42 -0000
-Message-Id: <173834344270.385738.2295646872736933836@gitolite.kernel.org>
+Date: Fri, 31 Jan 2025 17:10:54 -0000
+Message-Id: <173834345423.385962.12550275126382568141@gitolite.kernel.org>
 
---===============3133421718944274175==
+--===============6395990713057945434==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,30 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 9e6c4e6b605c1fa3e24f74ee0b641e95f090188a
-    new: c2933b2befe25309f4c5cfbea0ca80909735fd76
-    log: revlist-9e6c4e6b605c-c2933b2befe2.txt
+  - ref: refs/heads/dev-queue
+    old: 10ea7378dc1247714102e3c72c1f6afd8561eece
+    new: 1f846b406699ef8bab7056d1bddc7e968e5a1956
+    log: revlist-10ea7378dc12-1f846b406699.txt
 
---===============3133421718944274175==
+--===============6395990713057945434==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-9e6c4e6b605c-c2933b2befe2.txt
+Content-Disposition: attachment; filename=revlist-10ea7378dc12-1f846b406699.txt
 
-3d72d603afa72082501e9076eed61e0531339ef8 riscv: dts: spacemit: move aliases to board dts
-b8a81b5dd6450be730924ea5e78f5892927cccd1 bpf: verifier: Add missing newline on verbose() call
-8ac412a3361173e3000b16167af3d1f6f90af613 bpf: tcp: Mark bpf_load_hdr_opt() arg2 as read-write
-37cce22dbd51a3ef7f6c08c3fb5f1c5075a17fbb bpf: verifier: Refactor helper access type tracking
-d2102f2f5d75a84dbab6ff890359f0bd4a18ca22 bpf: verifier: Support eliding map lookup nullness
-f932a8e4824b529e455b7e3eb3e5118beceb3e32 bpf: selftests: verifier: Add nullness elision tests
-b53b63dbf3748eca32e8d19d56dba43ddfec78e6 Merge branch 'support-eliding-map-lookup-nullness'
-84cf9e541cccb8cb698518a9897942e8c78f1d83 cpufreq: airoha: Add EN7581 CPUFreq SMCCC driver
-10c62c38b073ecea775b7e23fa7c7a3995a84ff3 iommu/riscv: Fixup compile warning
-1a684b099fac9a37e6fe2f0e594adbb1eff5181a iommu/amd: Remove unused amd_iommu_domain_update()
-f9b80f941e0e68c3347c5d22a17a0f636a064e2c iommu/amd: Remove domain_alloc()
-02bcd1a8b991c6fc29271fa02250bea1b61fb742 iommu/amd: Remove dev == NULL checks
-55b237dd7f7ec2ee9c7986e0fc28c5867bf63282 iommu/amd: Remove type argument from do_iommu_domain_alloc() and related
 13b4ec749163710e3d188d2fed7405308b1b1e73 iommu/amd: Change amd_iommu_pgtable to use enum protection_domain_mode
 5a081f7f428cc68c2df8eb281bfbaedf65b749c1 iommu/amd: Move the nid to pdom_setup_pgtable()
 082f1bcae8d1b5f76e92e369091176b8d61120ec iommu/amd: Fully decode all combinations of alloc_paging_flags
@@ -1050,5 +1037,18 @@ b731bc5f49651bb85ef31fa1db6e76a0fe10d572 Merge tag 's390-6.14-2' of git://git.ke
 b8a1c9f4b7106c94d95c83416d34277ee689638f Merge tag 's390-6.14-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 b4b0881156fb8209bf5ef6cb63211bb0ad6e1a6b Merge tag 'docs-6.14-2' of git://git.lwn.net/linux
 c2933b2befe25309f4c5cfbea0ca80909735fd76 Merge tag 'net-6.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+a1ae3aacf43b29894a22dc402016cca3622f1614 ice: do not configure destination override for switchdev
+507edd5b056a92ca9bb46b70c7052479790d5f99 igb: narrow scope of vfs_lock in SR-IOV cleanup
+14315c47dd89415bc213414845f4dbf00665d90b igb: introduce raw vfs_lock to igb_adapter
+89789213257359819afdebb306b363c0b6b7e9e0 igb: split igb_msg_task()
+feafe45edd7fca3bb23c146b4e50ecd478bbd170 igb: fix igb_msix_other() handling for PREEMPT_RT
+1d8d04a326f3249f1cbb62a54196f21150606dd8 ice: Fix switchdev slow-path in LAG
+b61a4c9c8f2c5163a0ec966522993bb30c6b6fe6 idpf: fix handling rsc packet with a single segment
+77c1bc7d90ba495a65f99f97abba8e88658d1813 idpf: record rx queue in skb for RSC packets
+6583c6bd4916ccf40463b9c2571ee7a010cb0c2a idpf: synchronize pending IRQs after disable
+b8831b9832706731452eccda56ac3ab05ecfd5a0 ice: fix memory leak in aRFS after reset
+82b6da28334e8f367f15ad6fd1555071676f4db3 ice: put Rx buffers after being done with current frame
+a767048dc43c1fd37b1ef57adbfdce5fc1eb8644 ice: gather page_count()'s of each frag right before XDP prog call
+1f846b406699ef8bab7056d1bddc7e968e5a1956 ice: stop storing XDP verdict within ice_rx_buf
 
---===============3133421718944274175==--
+--===============6395990713057945434==--
