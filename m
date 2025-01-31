@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Fri, 31 Jan 2025 19:33:31 -0000
-Message-Id: <173835201135.500307.15227779992697679749@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Fri, 31 Jan 2025 19:35:53 -0000
+Message-Id: <173835215361.503525.8801753478642923719@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/pending
-    old: b0f5aa476101366049d0de59951695f5e91d0d76
-    new: 8a5ad319f2e6f0462dbcb1bd3a6ba5097f629a5b
+  - ref: refs/heads/kbuild
+    old: a409fc1463d664002ea9bf700ae4674df03de111
+    new: 695ed93bb30e03e9f826ee70abdd83f970741a37
     log: |
-         df11edfba49e5fb69f4c9e7cb76082b89c417f78 wifi: ath12k: fix ath12k_hal_tx_cmd_ext_desc_setup() info1 override
-         8a5ad319f2e6f0462dbcb1bd3a6ba5097f629a5b wifi: ath12k: remove return for empty tx bitrate in mac_op_sta_statistics
+         71d815bf5dfd4f63f7557e0abe7f257c202863a1 kbuild: Strip runtime const RELA sections correctly
+         695ed93bb30e03e9f826ee70abdd83f970741a37 kbuild: fix Clang LTO with CONFIG_OBJTOOL=n
          
+  - ref: refs/tags/kbuild-v6.14
+    old: 0000000000000000000000000000000000000000
+    new: ec5a892e45dff04931fa168108b4fe96098ea440
