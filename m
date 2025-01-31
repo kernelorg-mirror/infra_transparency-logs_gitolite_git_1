@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 31 Jan 2025 08:31:10 -0000
-Message-Id: <173831227069.4113779.2097867865844542067@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Fri, 31 Jan 2025 08:44:20 -0000
+Message-Id: <173831306081.4122771.6559631459167168310@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/timers/urgent
-    old: 1f566840a82982141f94086061927a90e79440e5
-    new: bb2784d9ab49587ba4fbff37a319fff2924db289
-    log: |
-         bb2784d9ab49587ba4fbff37a319fff2924db289 jiffies: Cast to unsigned long in secs_to_jiffies() conversion
-         
+  - ref: refs/heads/v6.13-armsoc/dtsfixes
+    old: 3699f2c43ea9984e00d70463f8c29baaf260ea97
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/v6.13-rockchip-dtsfixes1
+    old: 1ccfcac3906cd58f32988af6333455aa3a541087
+    new: 0000000000000000000000000000000000000000
