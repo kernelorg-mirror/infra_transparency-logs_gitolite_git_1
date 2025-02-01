@@ -1,47 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1507363123179678955=="
+Content-Type: multipart/mixed; boundary="===============2865918633930509835=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sat, 01 Feb 2025 17:24:17 -0000
-Message-Id: <173843065791.1632872.6462536010097951923@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 01 Feb 2025 17:24:32 -0000
+Message-Id: <173843067288.1633435.7529845253276758620@gitolite.kernel.org>
 
---===============1507363123179678955==
+--===============2865918633930509835==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: 10aaa773923ea91255318750c38493bc382c0af5
-    new: eadb38d23b58e9425563b29a017f1a822c4b5f15
-    log: revlist-10aaa773923e-eadb38d23b58.txt
+  - ref: refs/heads/master
+    old: 6a050fb0d7dc5771378083ffbbbc591aad47c5ba
+    new: 2ed9bf032a1df60a7cd6118d5ea225cc73aee1cc
+    log: |
+         2ed9bf032a1df60a7cd6118d5ea225cc73aee1cc Linux 5.15.178
+         
 
---===============1507363123179678955==
+--===============2865918633930509835==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-10aaa773923e-eadb38d23b58.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-05f5bfd35880ad63c917cec74573be7e65a2208b nfsd: clear acl_access/acl_default after releasing them
-b48e03e2ec35d4f0dcacc5503f683e34f6911cec nfsd: validate the nfsd_serv pointer before calling svc_wake_up
-36cd3c4025f4b583fe2f614435410667f13b4181 nfsd: fix uninitialised slot info when a request is retried
-d7874596b70faa9055ef252da05c62f03884677c nfsd: fix __fh_verify for localio
-babd3d84cc3a74759c86342fb843bd94e89a26ad NFSD: fix hang in nfsd4_shutdown_callback
-2a3a1ffbc34f3feffc16afcffa62602fb7e99f4d sunrpc: clean cache_detail immediately when flush is written frequently
-342194591e9f86b3d8ec6b70780e24c1be945cac lockd: add netlink control interface
-6633f549f528dd18e4d1e7782645d27b1e41cc0d SUNRPC: Remove unused krb5_decrypt
-40f8232049174c5c69225cb687a8b2e59b1e9071 nfsd: drop the lock during filecache LRU scans
-ff55a4c82584c2bccd09cb221c5b6edd8d1f07e8 nfsd: fix management of listener transports
-32476ce3eafdab07b2117d6911d40d598cc3dd55 NFSD: Skip sending CB_RECALL_ANY when the backchannel isn't up
-c26cbc1967f41d0ebd5959356c5f3764b9e306c2 nfsd: adjust WARN_ON_ONCE in revoke_delegation
-53853d91277ed3e67c86638153eb722a2eb39635 nfsd: remove the redundant mapping of nfserr_mlink
-7f519f405c7cfacfccdd89613e92151b917fecd4 NFSD: nfsd_unlink() clobbers non-zero status returned from fh_fill_pre_attrs()
-1f58417338ff6d251a48cf546db9d16cf7792679 NFSD: Never return NFS4ERR_FILE_OPEN when removing a directory
-870fb74fa3952ab83fdef425fbc02e5b99192259 NFSD: Return NFS4ERR_FILE_OPEN only when renaming over an open file
-eadb38d23b58e9425563b29a017f1a822c4b5f15 NFSD: Return NFS4ERR_FILE_OPEN only when linking an open file
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1738430702 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1738430670-9fbfe68d18f581f8acea7a00c8f1202943eb1d20
 
---===============1507363123179678955==--
+6a050fb0d7dc5771378083ffbbbc591aad47c5ba 2ed9bf032a1df60a7cd6118d5ea225cc73aee1cc refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeeWO4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+T2IP/2qHPiIzs0BK/7X3ISW/
+CTpK6iVpfWRJe1mMS+aPqrecSWBPeRbS4tqlralEc9B2QPRy6oLyFYqOwpHy9eO+
+5yy8Vk3tn89kOi4/yGDWuuBE5SE8CZo9LbrZhb2lTslafaZrphPKgGlCiyfKOEKw
+lwkq9+Vj4etzE0RHyLnYQ/zGbVNpozZJuL3drvBBCYaNY+YnUyNk3dyvhQ0WTFaX
+9AYtUDefRWBG50wVGRV7oDZ95KAKPpCd9DDHV4BbkMIIkil1CwfgmmebgWWiNOSt
+jicZGevlKgmMLSerYDbjp+Q7od4TNsqb2RIq2YJaezPpMHiuVoik1g+iosmMeA3H
+mNPd+YBuMlpmY5mj9dAPSdvTy0y6UiZJ2MD6pPL9xSfzweIXOkgdkZ3ntn9tmMmC
+6AsVPCNjbVJla2Yiv9oyuHkofHyX2GmkjFi79wPHVthP4T901bz1kdT98yPqNm4R
+L43LgWsng5eZR3EIaJ/vmOvSh6u+gGNh7trQLsOKvodG4asT+YMljFh7l0+vJshY
+lCdz2313SrMwJRP99NecCk8YtXBinTxoNLYiuCkuybWn5B+WIhBJrxrJnR7WJ0JS
+ClBv2ZyzjE53MiML0lzAwa0e5Nrh+ni8IMRKO8o777Bpx5ibMpWtdm46dFMlRRe7
+H6yqdHmaR0Jl2JKnUPxhFD5S
+=kHzQ
+-----END PGP SIGNATURE-----
+
+--===============2865918633930509835==--
