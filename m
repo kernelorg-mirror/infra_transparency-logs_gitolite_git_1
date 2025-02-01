@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5102332223632598518=="
+Content-Type: multipart/mixed; boundary="===============7083228846823818666=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sat, 01 Feb 2025 02:12:40 -0000
-Message-Id: <173837596096.820500.14721943289987730091@gitolite.kernel.org>
+Date: Sat, 01 Feb 2025 02:13:04 -0000
+Message-Id: <173837598451.820733.3427807098043634629@gitolite.kernel.org>
 
---===============5102332223632598518==
+--===============7083228846823818666==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: 695ed93bb30e03e9f826ee70abdd83f970741a37
     new: bdd4f86c97e60b748027bdf6f6a3729c8a12da15
     log: revlist-695ed93bb30e-bdd4f86c97e6.txt
 
---===============5102332223632598518==
+--===============7083228846823818666==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ fd8c09ad0d87783b9b6a27900d66293be45b7bad Merge tag 'kbuild-v6.14' of git://git.k
 73512f2a0b5c0531a9882e459ee3cd99396478b8 Merge tag 'hardening-v6.14-rc1-fix1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 bdd4f86c97e60b748027bdf6f6a3729c8a12da15 Merge tag 'AT_EXECVE_CHECK-v6.14-rc1-fix1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 
---===============5102332223632598518==--
+--===============7083228846823818666==--
