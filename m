@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4774223975393598527=="
+Content-Type: multipart/mixed; boundary="===============3947414109302080730=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Sat, 01 Feb 2025 11:31:59 -0000
-Message-Id: <173840951973.1261329.13245993698995183251@gitolite.kernel.org>
+Date: Sat, 01 Feb 2025 11:32:11 -0000
+Message-Id: <173840953147.1261537.15871365887507422041@gitolite.kernel.org>
 
---===============4774223975393598527==
+--===============3947414109302080730==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,27 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/urgent
-    old: 5ae37e3f5ce5561f914a1048ee9ee72fee703c07
-    new: efd5bd3144b76ff6eab5443d16df9797d9d7f4cd
-    log: revlist-5ae37e3f5ce5-efd5bd3144b7.txt
+  - ref: refs/heads/perf/core
+    old: 0895a1ad25c68ff834cc90578be6d7a4e9626cdb
+    new: cffa473a06d2ab5a0c0c4a3f3015b461993295ec
+    log: revlist-0895a1ad25c6-cffa473a06d2.txt
 
---===============4774223975393598527==
+--===============3947414109302080730==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-5ae37e3f5ce5-efd5bd3144b7.txt
+Content-Disposition: attachment; filename=revlist-0895a1ad25c6-cffa473a06d2.txt
 
-2f1ace4127fdfc102603f359756b230f3d897411 ipv6: Set cfg.ifa_flags before device lookup in inet6_rtm_newaddr().
-867b385251eac666685f7f4132315a1e3619baa5 ipv6: Move lifetime validation to inet6_rtm_newaddr().
-82a1e6aa8f6c181e73117975a9d44eb3b51425a2 ipv6: Convert inet6_rtm_newaddr() to per-netns RTNL.
-7bcf45ddb8bb3d386072677ce4d86d1ec9896096 ipv6: Convert inet6_rtm_deladdr() to per-netns RTNL.
-b115243ab8bd92387cf524ba3a7d81eda8eca885 Merge branch 'ipv6-convert-rtm_-new-del-addr-and-more-to-per-netns-rtnl'
-1851bccf608a28ac5ec9410764dda9a46828213b Merge tag 'gfs2-for-6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2
-0eb4aaa230d725fa9b1cd758c0f17abca5597af6 Merge tag 'for-6.14-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-fadc3ed9ce1cd9ecc5c8be8875f7ec11ab3a7ebe Merge tag 'execve-v6.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
-5d8a4bd6b251216acc532801f6a5258903aead42 Merge tag 'pstore-v6.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
-2622f290417001b0440f4a48dc6978f5f1e12a56 Merge tag 'bcachefs-2025-01-20.2' of git://evilpiepirate.org/bcachefs
 3d3a9c8b89d4f8a3785e06ffd15405c670696f02 Merge tag 'dlm-6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/teigland/linux-dlm
 681eb2beb3efe21e630bcc4881595e3b42dd7948 net: ethernet: ti: am65-cpsw: ensure proper channel cleanup in error path
 66c1ae68a1e9bde7376a50229b0b33145fcb0a71 net: ethernet: ti: am65-cpsw: streamline RX queue creation and cleanup
@@ -64,7 +54,6 @@ e8d9fab39d1f87b52932646b2f1e7877aa3fc0f4 KEYS: trusted: dcp: fix improper sg use
 f4a9dd57e549a17a7dac1c1defec26abd7e5c2d4 drm/modeset: Handle tiled displays in pan_display_atomic.
 10026f536843eb8c9148ef6ffb4c6deeebc26838 drm/client: Handle tiled displays better
 0da9a3f9ac8ada83fa79579455871ec59f11db72 Merge branch 'fixes' into 'for-next'
-3429dd57f0deb1a602c2624a1dd7c4c11b6c4734 sched/fair: Fix inaccurate h_nr_runnable accounting with delayed dequeue
 6fd2cb38c006cbdc4653e7e15e37ab23af59c2de dm-crypt: set atomic as false when calling crypt_convert() in kworker
 7c88f7cfab553016a1b02a38ba261d9ac3750b6a dm-crypt: fully initialize clone->bi_iter in crypt_alloc_buffer()
 a07eb4f67ed085f32002a1af2b6073546d67de3f spi: omap2-mcspi: Correctly handle devm_clk_get_optional() errors
@@ -1028,7 +1017,6 @@ e882d6f72caa9fca7b615c7bc88998717552e05e hexagon: Move kernel prototypes out of 
 e8265a947b0267950a2b74e5a4f118e6764540e8 hexagon: Fix warning comparing pointer to 0
 03410e87563a122075c3721acc7d5510e41d8332 hexagon: Fix unbalanced spinlock in die()
 84d78214b4f187da7e029f5dad344203511a04d7 MAINTAINERS: Update my email address
-9065ce69754dece78606c8bbb3821449272e56bf sched/debug: Provide slice length for fair tasks
 1e1a9cecfab3f22ebef0a976f849c87be8d03c1c block: force noio scope in blk_mq_freeze_queue
 8f08ed05b31c6cfb5acd2eb7340368560f17cdd3 Merge tag 'sound-fix-6.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 b2fde87318f3d77314334b8bfe93846f36ae1708 Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
@@ -1048,7 +1036,19 @@ fd8c09ad0d87783b9b6a27900d66293be45b7bad Merge tag 'kbuild-v6.14' of git://git.k
 bdd4f86c97e60b748027bdf6f6a3729c8a12da15 Merge tag 'AT_EXECVE_CHECK-v6.14-rc1-fix1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 04a3389b35357e9bf44533d20a80eb70d188adb8 Remove stale generated 'genheaders' file
 60c828cf80c07394762a1edfaff63bea55cc8e45 Merge tag 'for-linus-hexagon-6.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/bcain/linux
-4d7e75f1dfb0c392f7e84bd88a04d2caa79d3ef2 Merge branch 'origin/master'
-efd5bd3144b76ff6eab5443d16df9797d9d7f4cd sched: Don't define sched_clock_irqtime as static key
+2b3d995f5ffb60f31113b4d436b80898b40fb406 perf/amd/ibs: Remove IBS_{FETCH|OP}_CONFIG_MASK macros
+2c3fff7f74b4336e5e116d619db912bcda13a261 perf/amd/ibs: Remove pointless sample period check
+2d3165b03da4df04c0778d4e63291f389f8aa66e perf/amd/ibs: Fix ->config to sample period calculation for OP PMU
+7bd19d8d6a86f3f76e9d2fc98776635d6bfe8881 perf/amd/ibs: Fix perf_ibs_op.cnt_mask for CurCnt
+8a630aed67774a2dff166eb66a012ac471b39975 perf/amd/ibs: Don't allow freq mode event creation through ->config interface
+ec05ce9a98589f38d9449bf31c7d5a85d8808fcd perf/amd/ibs: Add PMU specific minimum period
+a087f78af28892bd85e839a0f70ffd1a2f484617 perf/amd/ibs: Add ->check_period() callback
+75c0629c4c135c5134bf21ae89f0afab7cbde6b8 perf/amd/ibs: Ceil sample_period to min_period
+2ec27960a44c02cf7ab81364b86e9b63818afb3a uprobes: Remove redundant spinlock in uprobe_deny_signal()
+e3c18c90936dfc34e3880dc2fdc33465704dfbd4 uprobes: Remove the spinlock within handle_singlestep()
+99bcbce76fd4f7f72b0b02abcadd532e0505d6ed perf/x86/intel: Apply static call for drain_pebs
+e792e46cb9b16181ca3a0762c74c535d96ba1897 perf/x86/intel: Avoid disable PMU if !cpuc->enabled in sample read
+9b9bbad84be75e7c0cebc4f4f9ebbf98affa2d3c perf: Avoid the read if the count is already updated
+cffa473a06d2ab5a0c0c4a3f3015b461993295ec perf/x86/intel: Support PEBS counters snapshotting
 
---===============4774223975393598527==--
+--===============3947414109302080730==--
