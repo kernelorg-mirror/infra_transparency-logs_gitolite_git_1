@@ -1,58 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/glaubitz/sh-linux
-Date: Sat, 01 Feb 2025 09:44:24 -0000
-Message-Id: <173840306469.1175827.11500235847451614780@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Sat, 01 Feb 2025 09:49:07 -0000
+Message-Id: <173840334775.1179937.8423764116745751736@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/glaubitz/sh-linux
-user: glaubitz
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/tags/v6.12
-    old: 0000000000000000000000000000000000000000
-    new: 06090c9b622a7e1f797e775db4c035e0d779b76e
-  - ref: refs/tags/v6.12-rc2
-    old: 0000000000000000000000000000000000000000
-    new: cd54879c3cbf655d161b2f5f401bbc74ea20cf18
-  - ref: refs/tags/v6.12-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 6801a93b4309318c0a7341338184fcd4ce865936
-  - ref: refs/tags/v6.12-rc4
-    old: 0000000000000000000000000000000000000000
-    new: dd41b19dabde8b19ce2aba70fce98f8bc605802d
-  - ref: refs/tags/v6.12-rc5
-    old: 0000000000000000000000000000000000000000
-    new: ac746e6156c4d6d7b46ba2102acf644ea2aa4aac
-  - ref: refs/tags/v6.12-rc6
-    old: 0000000000000000000000000000000000000000
-    new: f3c18f7b56ad121d3225a32ba6c00b1047a37863
-  - ref: refs/tags/v6.12-rc7
-    old: 0000000000000000000000000000000000000000
-    new: da1080d807252c8614048d7b630cb36c7e25cfb5
-  - ref: refs/tags/v6.13
-    old: 0000000000000000000000000000000000000000
-    new: d6cb6a3d99adf559a0a404d086f61ee3be866f86
-  - ref: refs/tags/v6.13-rc1
-    old: 0000000000000000000000000000000000000000
-    new: cbc4912199deab59fdbd830b115d81941d0add46
-  - ref: refs/tags/v6.13-rc2
-    old: 0000000000000000000000000000000000000000
-    new: e32a80927434907f973f38a88cd19d7e51991d24
-  - ref: refs/tags/v6.13-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 7705f2f1cf8d49dd02236dce6edad6c013b43293
-  - ref: refs/tags/v6.13-rc4
-    old: 0000000000000000000000000000000000000000
-    new: dbfac60febfa806abb2d384cb6441e77335d2799
-  - ref: refs/tags/v6.13-rc5
-    old: 0000000000000000000000000000000000000000
-    new: a70d5ba87c51302276bdcb0e847c281a95be6526
-  - ref: refs/tags/v6.13-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 5fcdd8fcd55d1da6fdf8deb78355a5c23ce94d39
-  - ref: refs/tags/v6.13-rc7
-    old: 0000000000000000000000000000000000000000
-    new: b37279c18e53ba26c58b0a88a84bb70720c5cac6
+  - ref: refs/heads/kvm-arm64/nv-next
+    old: fb32eaa6d1bb331cc8cc32514be78df8715dfb36
+    new: cae1f5fa004fd343eb30b639a9e1717aa2b74f6a
+    log: |
+         689974e80a872f66f602c877f90494ceb034164d KVM: arm64: timer: Don't adjust the EL2 virtual timer offset
+         cae1f5fa004fd343eb30b639a9e1717aa2b74f6a Merge branch 'kvm-arm64/timer-fixes-6.14' into kvm-arm64/nv-next
+         
