@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3947414109302080730=="
+Content-Type: multipart/mixed; boundary="===============1304222753619546351=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Sat, 01 Feb 2025 11:32:11 -0000
-Message-Id: <173840953147.1261537.15871365887507422041@gitolite.kernel.org>
+Date: Sat, 01 Feb 2025 11:32:32 -0000
+Message-Id: <173840955213.1261805.16667756205332717034@gitolite.kernel.org>
 
---===============3947414109302080730==
+--===============1304222753619546351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/core
-    old: 0895a1ad25c68ff834cc90578be6d7a4e9626cdb
-    new: cffa473a06d2ab5a0c0c4a3f3015b461993295ec
-    log: revlist-0895a1ad25c6-cffa473a06d2.txt
+  - ref: refs/heads/x86/mm
+    old: 8e5647a723c49d73b9f108a8bb38e8c29d3948ea
+    new: 714016c2950903a385c87b0db4cb5d6032227ecf
+    log: revlist-8e5647a723c4-714016c29509.txt
 
---===============3947414109302080730==
+--===============1304222753619546351==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-0895a1ad25c6-cffa473a06d2.txt
+Content-Disposition: attachment; filename=revlist-8e5647a723c4-714016c29509.txt
 
+0eb4aaa230d725fa9b1cd758c0f17abca5597af6 Merge tag 'for-6.14-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+fadc3ed9ce1cd9ecc5c8be8875f7ec11ab3a7ebe Merge tag 'execve-v6.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+5d8a4bd6b251216acc532801f6a5258903aead42 Merge tag 'pstore-v6.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+2622f290417001b0440f4a48dc6978f5f1e12a56 Merge tag 'bcachefs-2025-01-20.2' of git://evilpiepirate.org/bcachefs
 3d3a9c8b89d4f8a3785e06ffd15405c670696f02 Merge tag 'dlm-6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/teigland/linux-dlm
 681eb2beb3efe21e630bcc4881595e3b42dd7948 net: ethernet: ti: am65-cpsw: ensure proper channel cleanup in error path
 66c1ae68a1e9bde7376a50229b0b33145fcb0a71 net: ethernet: ti: am65-cpsw: streamline RX queue creation and cleanup
@@ -1036,19 +1040,15 @@ fd8c09ad0d87783b9b6a27900d66293be45b7bad Merge tag 'kbuild-v6.14' of git://git.k
 bdd4f86c97e60b748027bdf6f6a3729c8a12da15 Merge tag 'AT_EXECVE_CHECK-v6.14-rc1-fix1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 04a3389b35357e9bf44533d20a80eb70d188adb8 Remove stale generated 'genheaders' file
 60c828cf80c07394762a1edfaff63bea55cc8e45 Merge tag 'for-linus-hexagon-6.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/bcain/linux
-2b3d995f5ffb60f31113b4d436b80898b40fb406 perf/amd/ibs: Remove IBS_{FETCH|OP}_CONFIG_MASK macros
-2c3fff7f74b4336e5e116d619db912bcda13a261 perf/amd/ibs: Remove pointless sample period check
-2d3165b03da4df04c0778d4e63291f389f8aa66e perf/amd/ibs: Fix ->config to sample period calculation for OP PMU
-7bd19d8d6a86f3f76e9d2fc98776635d6bfe8881 perf/amd/ibs: Fix perf_ibs_op.cnt_mask for CurCnt
-8a630aed67774a2dff166eb66a012ac471b39975 perf/amd/ibs: Don't allow freq mode event creation through ->config interface
-ec05ce9a98589f38d9449bf31c7d5a85d8808fcd perf/amd/ibs: Add PMU specific minimum period
-a087f78af28892bd85e839a0f70ffd1a2f484617 perf/amd/ibs: Add ->check_period() callback
-75c0629c4c135c5134bf21ae89f0afab7cbde6b8 perf/amd/ibs: Ceil sample_period to min_period
-2ec27960a44c02cf7ab81364b86e9b63818afb3a uprobes: Remove redundant spinlock in uprobe_deny_signal()
-e3c18c90936dfc34e3880dc2fdc33465704dfbd4 uprobes: Remove the spinlock within handle_singlestep()
-99bcbce76fd4f7f72b0b02abcadd532e0505d6ed perf/x86/intel: Apply static call for drain_pebs
-e792e46cb9b16181ca3a0762c74c535d96ba1897 perf/x86/intel: Avoid disable PMU if !cpuc->enabled in sample read
-9b9bbad84be75e7c0cebc4f4f9ebbf98affa2d3c perf: Avoid the read if the count is already updated
-cffa473a06d2ab5a0c0c4a3f3015b461993295ec perf/x86/intel: Support PEBS counters snapshotting
+6e752a2d67a96df2bc6b5681d256fac646d0532f x86/mm/pat: cpa-test: fix length for CPA_ARRAY test
+a8ea0b2ffc1423059c0c025720319e0fcd8bf3f7 x86/mm/pat: drop duplicate variable in cpa_flush()
+33de3e1ad389a9f0f6d87c11149c86848c0b2baf x86/mm/pat: restore large ROX pages after fragmentation
+15a7ed605287c1b4713cd5eaaa31e55ab3ef2759 execmem: don't remove ROX cache from the direct map
+b86c202068a6eb4557374fdc95699ed50da13486 execmem: add API for temporal remapping as RW and restoring ROX afterwards
+453a12dbd7f10e84465f7fba9871f4b0e6106638 module: switch to execmem API for remapping as RW and restoring ROX
+318dc293313bd09b75134576a06eb67dfdf40f3a Revert "x86/module: prepare module loading for ROX allocations of text"
+f08c7f2dd90ebb861d3791750427ad67f88de5cf module: drop unused module_writable_address()
+191b812d53e23db13d48b34b29d6dd3cf2d3eaba x86: re-enable EXECMEM_ROX support
+714016c2950903a385c87b0db4cb5d6032227ecf x86/mm: Fix flush_tlb_range() when used for zapping normal PMDs
 
---===============3947414109302080730==--
+--===============1304222753619546351==--
