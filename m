@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sun, 02 Feb 2025 00:56:34 -0000
-Message-Id: <173845779420.2131809.9735134989284417948@gitolite.kernel.org>
+Date: Sun, 02 Feb 2025 01:08:39 -0000
+Message-Id: <173845851935.2140654.12102450351709758401@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 46ded709232344b5750a852747a8881763c721ab
-    new: 92191dd1073088753821b862b791dcc83e558e07
+    old: 92191dd1073088753821b862b791dcc83e558e07
+    new: a8aa6a6ddce9b5585f2b74f27f3feea1427fb4e7
     log: |
-         c71a192976ded2f2f416d03c4f595cdd4478b825 net: ipv6: fix dst refleaks in rpl, seg6 and ioam6 lwtunnels
-         92191dd1073088753821b862b791dcc83e558e07 net: ipv6: fix dst ref loops in rpl, seg6 and ioam6 lwtunnels
+         a8aa6a6ddce9b5585f2b74f27f3feea1427fb4e7 ice: Add check for devm_kzalloc()
          
