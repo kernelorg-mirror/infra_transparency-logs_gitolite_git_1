@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2430249097931227919=="
+Content-Type: multipart/mixed; boundary="===============2490703648224928038=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Mon, 03 Feb 2025 11:52:44 -0000
-Message-Id: <173858356436.3839816.13182382614372728554@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-w1
+Date: Mon, 03 Feb 2025 11:52:56 -0000
+Message-Id: <173858357630.3840046.2178831492757696283@gitolite.kernel.org>
 
---===============2430249097931227919==
+--===============2490703648224928038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+repo: pub/scm/linux/kernel/git/krzk/linux-w1
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/mem-ctrl-next
+  - ref: refs/heads/w1-next
     old: 2014c95afecee3e76ca4a56956a936e23283f05b
-    new: 2f76a890fd2c636c640af1387b333aeb0cf69c75
+    new: 0dd6770a72f138dabea9eae87f3da6ffa68f0d06
     log: |
-         2f76a890fd2c636c640af1387b333aeb0cf69c75 memory: tegra20-emc: Drop redundant platform_get_irq() error printk
+         0dd6770a72f138dabea9eae87f3da6ffa68f0d06 w1: fix NULL pointer dereference in probe
          
 
---===============2430249097931227919==
+--===============2490703648224928038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1738583593 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
-nonce 1738583562-a790573501823edcef63a28286179599e5c9346f
+pusher krzk@kernel.org 1738583605 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-w1.git
+nonce 1738583574-488923f2a24ed9f812f1c18980d646c1a0e54cb7
 
-2014c95afecee3e76ca4a56956a936e23283f05b 2f76a890fd2c636c640af1387b333aeb0cf69c75 refs/heads/mem-ctrl-next
+2014c95afecee3e76ca4a56956a936e23283f05b 0dd6770a72f138dabea9eae87f3da6ffa68f0d06 refs/heads/w1-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmegrikQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1y5/D/9q/j2ouv8guoxON4uUvTWu7kd4gN7Ui5t0
-NJpiSbyk2Wmd1kr7K8ECT5asMBTLaqm9URn5NrDEt3ld6XWnzAg86Dry0+/cr2eA
-p0Rbuq3H/+FU1jXftHmc06za4gGdAj6qy0wWSwMawKv7DIbABZDTn4mDBO+pRKYm
-tQhnPNaBOPO0ALBnUe6yCeniRT6ygmYVI/nlaUXi3mx+xUjbDZwzVSFYpqQCDV1y
-dslYsap79LP0Vqalakz4EUXzcVYtxFfztIbPCyfIbIJdjUaqSqET3KcdzLVcdTwz
-JS1g7bky2U/KvHSwRMjBdpIbUCihga9Brm1KzANbMqyHhCKdGDbP6VVB88G5b2NZ
-LiAfwstM1C9z0IuLFH/+sOMiiALc8vs63UouFLgxG5X4rq3o9OMP7b85WllkFacB
-DsjErtl1Xd9iH+phk7tvLh9f6bK4QDQQgDNkK5vUrKGuw14urMlAV/5zR1MYMHWy
-xfqoQDaoPqkKT4jY77dQJzO63iSjb9+lvNmDm86Lb73wtNTdxnXKLz70fNBKYIjf
-+gftun7yGZyiqjjGE2U3MpFewonJE5cHi1myp197oef2buut3CBwB4UtFbKS2PmG
-5a+31v/kqQZdN28l/aVTMSb4AyJqa7LsD4Kv1sCBSqwVDbnLbf21xp6fMyyhbC19
-Pk1/wPCRmA==
-=D+GD
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmegrjUQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD10yQD/9I944Lvc+80QmOBY+Sn13VW07oieFS77Lb
+0sFAefjFqOdCIlHLJ15mr3pc7BPNfN3pa4x3ooRbNxDb5uXrOsfBwEcOgnqgn/4A
+evgqifKamkzuqlNU5h/pjKsUjJu5t/7PnA/3WFYMXjZ1M2OabSznxOGjVLsDmzlk
+HagPmI68k0G5GtYsVfzE9iCMioqDhY9PRT/29mB7e6/VsTEZCAdGKnLXNcEeDOj+
+OTOe8DFuyLVRi50vAgog71pt69tFi37jIqbavoCSm+upmM9yKnqyIedCmJjkx4UX
+ubFnmoBI4FyhvFbHZ0IaemZ1Tp2lcZ7yNFq54J+eyyAYRVtzLz1lra4GsJNgVtHI
+RkIoelOlTlXXET30dOZxAytrogmvr7BWhmJPVIBqNpVUWMjo1A6JA9Rj/sj5G/SO
+4qPRv/toVHccCWzIMT5ZSYxp8eydRM4BVGfVguYkMTU3bUb3ZwCcpgho12XkfGI5
+3bH2ppq+OzaHxvr5VxR5JpWVkND1SN5OWAORbA4Lp2c6Y4u8fLUXT900Li7oY6sE
+M2r+iJiHgsEmBitz6dQAAl1lphVTWtDAsfkLCtZrqtXeiOh8MoXF+hIbH8XSWyEo
+GxKquLwgP4Qvb6l2zZgs1VA5In6M9TzjSdLz6nnvz6VrwxLMJlM5hmJFL6lVWRsI
+9DOJR+CoTQ==
+=drOs
 -----END PGP SIGNATURE-----
 
---===============2430249097931227919==--
+--===============2490703648224928038==--
