@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6006060392717308211=="
+Content-Type: multipart/mixed; boundary="===============5034343608519922335=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Mon, 03 Feb 2025 20:54:09 -0000
-Message-Id: <173861604902.120887.11315801631476167377@gitolite.kernel.org>
+Date: Mon, 03 Feb 2025 20:54:51 -0000
+Message-Id: <173861609139.121817.13481260935555163777@gitolite.kernel.org>
 
---===============6006060392717308211==
+--===============5034343608519922335==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,64 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/togreg
-    old: 577a66e2e634f712384c57a98f504c44ea4b47da
-    new: 56fb2dd839b3fa27aa04fc9b2afde8cb1a70af2e
-    log: revlist-577a66e2e634-56fb2dd839b3.txt
+  - ref: refs/heads/master
+    old: 37fd83916da2e4cae03d350015c82a67b1b334c4
+    new: 2014c95afecee3e76ca4a56956a936e23283f05b
+    log: revlist-37fd83916da2-2014c95afece.txt
 
---===============6006060392717308211==
+--===============5034343608519922335==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-577a66e2e634-56fb2dd839b3.txt
+Content-Disposition: attachment; filename=revlist-37fd83916da2-2014c95afece.txt
 
+668135b9348c53fd205f5e07d11e82b10f31b55b NFSv4.2: mark OFFLOAD_CANCEL MOVEABLE
+0b96c75d86560c077d29ce629e9d1ca0258c9cc1 NFSv4.2: make LAYOUTSTATS and LAYOUTERROR MOVEABLE
+a3282f84b2151d254dc4abf24d1255c6382be774 PCI: switchtec: Add Microchip PCI100X device IDs
+13b6931c44969ff057ad2a3aa1c20a1b28b79b6f Merge tag 'x86_sev_for_v6.14_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+e7217011ddd8e86a0d18c6cbfb4f14da3d18eee0 ALSA: usb: fcp: Fix meter_levels type to __le32
+f08cc80f69be62beb7a63cd4813c7989c8708831 ALSA: usb: fcp: Fix incorrect resp->opcode retrieval
+0a8f5f4652ef4d530a7cb8bed2b6e502cdfa825f ALSA: usb: fcp: Fix return code from poll ops
+b02cfbd9bfb9f45eebb33771e5705af95b5c9673 dt-bindings: PCI: mobiveil: Convert mobiveil-pcie.txt to YAML
+10e796eed62648ff928cb66d52f226452e1affff dt-bindings: PCI: qcom,pcie-sm8550: Document 'global' interrupt
+c25b978d351fae5da87794be9160d8acfa6e6823 dt-bindings: PCI: qcom: Document the IPQ5424 PCIe controller
+a8581752278ef9d6ea73bb10eef2657bfb73e116 bcachefs: Fix btree_trans_peek_key_cache()
+48795f90cbdcccc36cc415a2d785a23a4b23e57a Merge tag 'x86_cpu_for_v6.14_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+b9d8a295ed6bc3cee846f8e3f27c9c6e9ebe43f2 Merge tag 'x86_misc_for_v6.14_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+e721f619e3ec9bae08bf419c3944cf1e6966c821 iommufd: Fix struct iommu_hwpt_pgfault init and padding
+f917016f69ba5a0c42a3a3327792707315f2a937 bcachefs: Reduce stack frame size of __bch2_str_hash_check_key()
+abb604a1a9c87255c7a6f3b784410a9707baf467 RDMA/mlx5: Fix a race for an ODP MR which leads to CQE with error
+dec6b006f4cc13968d75ed28673ca4e3633de96b ASoC: dt-bindings: ti,pcm1681: Fix the binding title
+8838a1a2d219a86ab05e679c73f68dd75a25aca5 Merge tag 'locking-core-2025-01-20' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+d3d930411ce390e532470194296658a960887773 RDMA/mlx5: Fix implicit ODP use after free
+a6640c8c2fc029f015c87672585931c6106971c1 Merge tag 'objtool-core-2025-01-20' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+6c4aa896ebee5edf2b35a9d071e5a468797f96d8 Merge tag 'perf-core-2025-01-20' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+858df1de2158bd7ab88d31b557592e990bacc0b5 Merge tag 'x86-cleanups-2025-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+70741cc38463371914f49a1f4fda5de2afdc4c86 Merge branches 'clk-cleanup', 'clk-renesas', 'clk-mediatek', 'clk-samsung' and 'clk-socfpga' into clk-next
+b2fee97e6f0b6b935918744f44ca80246a18289e Merge branches 'clk-microchip', 'clk-xilinx', 'clk-allwinner', 'clk-imx' and 'clk-qcom' into clk-next
+1d2da923fb985bb57cc161316c76edb8d567b9bd Merge branches 'clk-airoha', 'clk-rockchip', 'clk-stm', 'clk-thead' and 'clk-bcm' into clk-next
+53c9c27672bb0241998ddf2d1588106920d4064b Merge branch 'clk-fixes' into clk-next
+62de6e1685269e1637a6c6684c8be58cc8d4ff38 Merge tag 'sched-core-2025-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+f26d37ee9bda938e968d0e11ba1f8f1588b2a135 misc: pci_endpoint_test: Fix IOCTL return value
+e19bde2269ca3611156fd0c078a71af0b6956545 selftests: Move PCI Endpoint tests from tools/pci to Kselftests
+392188bb0f6ec5162edf457c062929a6abfa369a selftests: pci_endpoint: Migrate to Kselftest framework
+cd2375a3567fd3d93aa6c68e0027a5756213bda0 ring-buffer: Do not allow events in NMI with generic atomic64 cmpxchg()
+f95ee542947d748d4ca01b4d3103dbdc4fdc8889 tracing: Fix allocation of printing set_event file content
+8f21943e101a15f56a8f02970a80edc936de8ec8 tracing: Fix output of set_event for some cached module events
+531503054e8fe9f4502fff0dceba20dfaa9920d5 nfsd: fix handling of delegated change attr in CB_GETATTR
+8e1d32273ab7d06b6f78771e05824bfab01141f4 nfs_common: make include/linux/nfs4.h include generated nfs4_1.h
+8dfbea8bde6e976136948421325b24b5bdb76ad3 nfsd: switch to autogenerated definitions for open_delegation_type4
+c9c99a33e2b0083c83a2c29eebfad92c78e16791 nfsd: rename NFS4_SHARE_WANT_* constants to OPEN4_SHARE_ACCESS_WANT_*
+fbd5573d0deda145fe173431f1f3ca444940de18 nfsd: prepare delegation code for handing out *_ATTRS_DELEG delegations
+51c0d4f7e317d3cb4a3001e502bd8ca2d57f2a4b nfsd: add support for FATTR4_OPEN_ARGUMENTS
+cee9b4ef42512a6e57562460a15f18a022c84dda nfsd: rework NFS4_SHARE_WANT_* flag handling
+6ae30d6eb26bce02c48c60074b4306270e2434c1 nfsd: add support for delegated timestamps
+7e13f4f8d27dc02fb88666f603c53ca749d56f92 nfsd: handle delegated timestamps in SETATTR
+d3edfd9ed17cb3bc754b3064051fb5df7863fda3 nfsd: implement OPEN_ARGS_SHARE_ACCESS_WANT_OPEN_XOR_DELEGATION
+966a675da844f1a764bb44557c21561cc3d09840 Revert "SUNRPC: Reduce thread wake-up rate when receiving large RPC messages"
+ee0d90d4b97a9787ed55b22c85c72376329d86ac sunrpc: Remove unused xprt_iter_get_xprt
+afc52b1eeb36f20eea321f50e338e38d00a8a61f sunrpc: Remove gss_generic_token deadcode
+c92066e78600b058638785288274a1f1426fe268 sunrpc: Remove gss_{de,en}crypt_xdr_buf deadcode
 2f8c28d0d97313edc36d62cbd505019f36111fd5 dm-crypt: use bi_sector in bio when initialize integrity seed
 9fdbbdbbc92b1474a87b89f8b964892a63734492 dm-crypt: don't update io->sector after kcryptd_crypt_write_io_submit()
 996c451d982d1f3f110a4639d822abcd433336e7 dm-crypt: don't initialize cc_sector again
@@ -1003,52 +1050,5 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 5d82ca7b5019d880a579831278eb73cbbfdb87da Merge tag 'sh-for-v6.14-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
-39bc50e00f8c54852e95b6a7fe8afd886709841d iio: adc: ad7380: do not use iio_device_claim_direct_scoped anymore
-85e5605279dff928f389cdfa1bd9c34d176011d9 iio: adc: ad7380: enable regmap cache
-adc59fe0c2222ee578fe40f4ae7ef6bb380dcd73 iio: adc: ad7380: do not store osr in private data structure
-27d1a4dbe1e150692c39a9056af018cb792234fd iio: adc: ad7380: add alert support
-7ad920ce342997e8a790a937f076383993a5178d docs: iio: ad7380: add alert support
-0302507541a8fdc0fe2805554c2c0e404fd38f4c dt-bindings: iio: Correct indentation and style in DTS example
-a4a947a74190594a6ebde765d829f216a74c7329 iio: adc: stm32: Drop unnecessary DT property presence check
-470cb490d1b75cf25f3139dcf0226967bcc6e217 iio: adc: ad7173: move fwnode_irq_get_byname() call site
-4310e15b314009e83241610f993eb466fede77df iio: adc: ad7173: don't make copy of ad_sigma_delta_info struct
-8ec5a6fc3b58a91635b8c514c7bed4ecf7c60dd2 iio: adc: ad7625: drop BSD license tag
-465c79ad0665fc647c7643b1fd9bdfecf199f627 iio: Use str_enable_disable-like helpers
-0f3a7135e36d749bb5eb9c30b752d6d652536918 dt-bindings: iio: accel: mc3230: document mc3510c
-e59c6acfd5fa700e6df6cc535f8df14125f3acce iio: accel: mc3230: add mount matrix support
-c7fee7653ac2c158117652771a8eb38bec384562 iio: accel: mc3230: add OF match table
-4e78ce08dbcd026683d771d8048b28449c94bee5 iio: accel: mc3230: add multiple devices support
-d438fc93ca45a4b31fee5d53a2124c3920892607 iio: accel: mc3230: add mc3510c support
-7ecbbb5bb8fbec0697142acaf756a5f0e046046b iio: imu: bmi270: add temperature channel
-998d20e4e99d909f14d96fdf0bdcf860f7efe3ef iio: adc: ad4695: make ad4695_exit_conversion_mode() more robust
-1093f83b2cfbca9b30b80ea0152fc78255ef398a iio: adc: ad4695: add custom regmap bus callbacks
-6eaf49f1ba15752f2c13621e5ddf27edf34a35a9 iio: adc: ti-ads124s08: Switch to fsleep()
-32f80e203401da168826a023d667918b936f85a8 iio: gts: Simplify available scale table build
-6cc60bc38e8428544f8f4f12ddb6cc05fc83a7da iio: dac: adi-axi-dac: modify stream enable
-a3db5b0c0bda731d38e172c8a6a5bdc3c0ac535a iio: dac: adi-axi-dac: add bus mode setup
-5f1e9d1bf380537d4af6fa838c2a7c0cea991d8a iio: dac: ad3552r-hs: fix message on wrong chip id
-ef09343a7c61d75d38068fab80dfa0b042d53d4d iio: dac: ad3552r-hs: use instruction mode for configuration
-b9103ffe9701a79085609c302b48ed0c9b2edcff iio: dac: ad3552r: share model data structures
-a4c75c7474dfaddaeef3bd4ae1830bba1d7c985b iio: dac: ad3552r-hs: add ad3541/2r support
-6f1c71b6bbc85075dd1bac90e0848266b9d6cb83 iio: dac: ad3552r-hs: update function name (non functional)
-b606ff887cd5fb0b4e9db8547b87f9ad52c03428 iio: cros_ec: Trace EC sensors command
-cf4bd6d25a78ac2d29638c5318e68037a31d42ea iio: dac: ad5791: fix storage
-b0c6816dc52167182b8ee38e63d8b0f4c855d982 iio: adc: ad7124: Micro-optimize channel disabling
-0dd5adfa7d5461ff1f7aa59b9462e257b085968e iio: light: veml6030: extend regmap to support regfields
-25f9b5b8173f47a2d5edda711d9f067386863298 iio: light: veml6030: extend regmap to support caching
-6addbaa8fa3b80e963418a4309ee3d5098ba753c dt-bindings: iio: magnetometer: add binding for Si7210
-b32997c8127679dfd592bceee598a9296dcee410 iio: magnetometer: si7210: add driver for Si7210
-47736b32d1b8c6652d1f3e89e93e372ea92ecaff dt-bindings: iio: light: Add APDS9160 binding
-64cb24cb75cc039c57b60879bd496005d733a0a0 iio: light: Add APDS9160 ALS & Proximity sensor driver
-16c5d454a3468d9c0338e16d01548153b324c126 iio: gts-helper: export iio_gts_get_total_gain()
-96cdb25e4dd132e0d71dd65b5c3ba8e51a6f20cc iio: light: veml6030: fix scale to conform to ABI
-08b38e5b00d6a9770c5791ae1bb4ea2ddc5643cd dt-bindings: iio: adf4371: add refin mode
-d86bfdeca7990444542d033d866ba889edea1034 iio: frequency: adf4371: add refin mode
-b8afb173b3cc4363e87c284f1ecad8251ee493c6 iio: frequency: adf4371: add ref doubler
-50699951b6ed95e8cf6a34878b6ae501282c2dc4 iio: introduce the FAULT event type
-3815f2182b0faa18668bb3bdbd39f1dd57663124 iio: adc: ad7173: add openwire detection support for single conversions
-7d3d991660e33ac6df4a4b66da15cf67e165a0c1 iio: light: adux1020: Drop unneeded assignment for cache_type
-c0721b7e306add6ff18235f238a5ec3cfb673356 iio: magnetometer: af8133j: Drop unneeded assignment for cache_type
-56fb2dd839b3fa27aa04fc9b2afde8cb1a70af2e iio: pressure: zpa2326: Drop unneeded assignment for cache_type
 
---===============6006060392717308211==--
+--===============5034343608519922335==--
