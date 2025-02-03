@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2420695893751851273=="
+Content-Type: multipart/mixed; boundary="===============3827928649066892006=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 03 Feb 2025 15:27:23 -0000
-Message-Id: <173859644351.4037828.14409791074926168263@gitolite.kernel.org>
+Date: Mon, 03 Feb 2025 15:29:13 -0000
+Message-Id: <173859655398.4038594.5328084648047708650@gitolite.kernel.org>
 
---===============2420695893751851273==
+--===============3827928649066892006==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,46 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 2014c95afecee3e76ca4a56956a936e23283f05b
-    new: 9bc3442914692109ac7194449e1a0866ca39b1f1
+    old: 9bc3442914692109ac7194449e1a0866ca39b1f1
+    new: 42bc7faaf3a0da2adff71e292efe3eb428018c07
     log: |
-         856a2d5946c14a387e9eba12ddc95198efc02d71 usb: typec: ucsi: Rename SET_UOM UCSI command to SET_CCOM
-         9bc3442914692109ac7194449e1a0866ca39b1f1 usb: typec: ucsi: Enable UCSI commands in debugfs
+         7abbfe6e694ee8cdd9455436f17e9aec080d3ab6 usb: gadget: uvc: drop vb2_ops_wait_prepare/finish
+         41d5e3806cf589f658f92c75195095df0b66f66a usb: host: max3421-hcd: Add missing spi_device_id table
+         667ecac55861281c1f5e107c8550ae893b3984f6 usb: typec: ucsi: return CCI and message from sync_control callback
+         7f82635494ef3391ff6b542249793c7febf99c3f usb: typec: ucsi: ccg: move command quirks to ucsi_ccg_sync_control()
+         f9cf5401526c5bfb85d91f14664bf75d1889e7d2 usb: typec: ucsi: acpi: move LG Gram quirk to ucsi_gram_sync_control()
+         9570d99f44c969ebf3bd7d52434a491c1c1db470 usb: phy: mxs: silence EPROBE_DEFER error on boot
+         42bc7faaf3a0da2adff71e292efe3eb428018c07 usb: usb251xb: silence EPROBE_DEFER error on boot
          
 
---===============2420695893751851273==
+--===============3827928649066892006==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1738596472 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1738596581 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1738596436-5ed330cf39d35df04e1369212c9c4edc2a098435
+nonce 1738596549-8c74a191bcfd115d78a6764e3c3e1ca13def0ceb
 
-2014c95afecee3e76ca4a56956a936e23283f05b 9bc3442914692109ac7194449e1a0866ca39b1f1 refs/heads/usb-testing
+9bc3442914692109ac7194449e1a0866ca39b1f1 42bc7faaf3a0da2adff71e292efe3eb428018c07 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeg4HgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6/4QALDAw9eHMgoNcLAMfb39
-Ld1pIW/+7d08Q76q+zPr7ZLvstqKJ6BjTqKR70hr9jA+FuiPpZPe0b5yn9k6Zv/m
-QzY6Wfmdtp87LXz/sdiayki41REuOjjDNxZmmxlfUEBC/8Mb3bpmaXjUj1lca2W2
-LI3TC+Dqxys5ODuIKFN5X3CVHfXCp2OjTCd+tH1yz9NEGXU5VFIs4kWhdAVA9/h3
-EJaKDC+pnHi1yRERZBICv15t1O1YRNn8AYtRK3OhQo7VLo3/VzQ+HlycqYwcNQFQ
-rc9MSS38WRIUYDHfA3Gt7HLVVfnqPjXSN/2el9v92Bk98P4CSu1PDHMQH1+zANnq
-6kgBwW1eaCi1uqU4HPv+uXOaKnGZc15WrSlFKznUQZzlKOh7qS6B9IEh+lLQzyUw
-d2IPDqYzbcrPgK/enB7cyqO0jygB50TRfLyHspuoGI4GF7kPDCo0bmhlwh9fXEcE
-6KQJjgLVyALkCfU6Rqy4diie9GEo5KRbZoEsHOcSGYIRuRpgF0xEpp1WZkWhrMps
-6ZE2S7zCrga0NkPWRgxD0M0mqqwMdT+iUnmDyAYGTXRakGfOQjow8W4CkCxsOcxO
-JK6ElpFi+ognwAuWTRBfzf5vS0k/p6jWplKmx3c2UjRyWnHHz7XB+mvb3oNSY3sJ
-TjQY/Gq+X9xnfmZjyC6wvDuA
-=Wg3E
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeg4OYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PiwP/RanB7kQrocL9eK+c61y
+zAiPedc0RCVWZ4cbds9vp783KB3FOXZsks78tnd4sFUrMFCvePlkGfzFBTWMcuS0
+iiHXSsdhGnH8N4Ie/uM7QxZoifeSQvgmPe/pLX/pOnPmjkijfJyDDS/jx34fCMrW
+6inLRRJLioubQ67S7277kdnmWsUJHklq5kgRDFppeZjqWjwviweEBvokbagmAiN7
+KMJhNxLjqZ/GFZyPGHitUzw7ZrNhwLEStVyuPYXyK46yvJi8t7tUSNWNYW5sFSS3
+GVyBLVi0f6TUkQjW+Z8gPRIMp21OqBDk7GIOkQ6tklMQ8S5w6J38myzdKrGzH+AG
+yc2vB7YwFEfAMCdqnP3lHVr709n0N0yK9Ai2caYMe0LhSi9NGWumwCNdAiAqQMtB
+aPXyS6rM3eJHQyBsdkPuxp+YGeBHva/Xlino4hMrmEngOTMQTazf79G1sN3JHIdv
+97BmMjACqJ6sjwUS3Od0awxVk4LL3L9hSeQr8YSzS3SNu90/fWKfbbHujjGIAUsc
+Q8bSYYf1MIsjMVEQktNRD+jq+fwBPZ88aYgp7visDEnA8gTWIHEGpVjNb8/g6gVs
+LAeF5r9FSQtx36ZFhJ+WUyduVgGlsd36VQmHj9mqGKfp6hvyKDs7L/z+j6PlBBv4
+0Uqjv6qyfUuG8uxm8N+szItw
+=+/YS
 -----END PGP SIGNATURE-----
 
---===============2420695893751851273==--
+--===============3827928649066892006==--
