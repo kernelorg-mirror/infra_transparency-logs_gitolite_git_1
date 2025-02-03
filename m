@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3110301570240720728=="
+Content-Type: multipart/mixed; boundary="===============0392986480388126079=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Mon, 03 Feb 2025 07:48:14 -0000
-Message-Id: <173856889416.3626476.15889138731283301180@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
+Date: Mon, 03 Feb 2025 07:48:20 -0000
+Message-Id: <173856890024.3626718.10428844024470220947@gitolite.kernel.org>
 
---===============3110301570240720728==
+--===============0392986480388126079==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+repo: pub/scm/linux/kernel/git/pinctrl/samsung
 user: krzk
 git_push_cert_status: Y
 changes:
@@ -24,38 +24,38 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 379487e17ca406b47392e7ab6cf35d1c3bacb371
 
---===============3110301570240720728==
+--===============0392986480388126079==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1738568922 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
-nonce 1738568891-0950e7e5b4a98cb12bb4d60c0dfcd2f780a2cdf3
+pusher krzk@kernel.org 1738568928 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
+nonce 1738568897-206324cbe86e45de006edb311380d3d4c2046b75
 
 40384c840ea1944d7c5a392e8975ed088ecf0b37 2014c95afecee3e76ca4a56956a936e23283f05b refs/heads/master
 0000000000000000000000000000000000000000 379487e17ca406b47392e7ab6cf35d1c3bacb371 refs/tags/v6.14-rc1
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmegdNoQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1/4DD/9nRM5ZFkt2Wtm9SvdTelYVz/BnsF5dWhd7
-jtF+2W8GiSpvhjcq8o5D8DQnCOuqhEH8vWryqppoJAgtuuwimJaFX/VFbmsDhuyr
-hzNXVE0na9v+t4sPJF0uFgibzuAh5tnczXNK5NblUgrZueRqefaBb3g4kQ2pFlgw
-aXSjVBrCYNrQW3jtP5nxcB694W6o7xcfkIp+qIQqbVL4s9kgoOmhlc2n+42NnKqo
-LNzMfUZq6qQkimzfHEQFpD7WDh63DegEuGZQ558oNBvF83yjFfgMJuuhwQEkwTLO
-+sU20J2N6vu6oSdKzth2it+VGj8ar3hO5gXww6YUopcUS+4mBW1oxt0kfxg31/aP
-+2cnxFRvih2UeFLxVqKqVk3yDXt1WZvZasjb+0A5ggFgrgBl7dm2ESdfXLlwDiGf
-8IJZIoYM9FoKhnG2E9/z/huTtY2KyIbwX/xcc5l5HUq6rIMoBquj1mK53rnGjaqU
-oNHMW39JIeBE8aeGqg47wQVH7ZCVWVmYXyPv7EhYbsZ6YbhHUFEeg7aUXkE897Wk
-YdXH3uBALg7L8JRKLgKm3pmMlmOPzLXd8UZnkH/QFrI/cvIwtCWD3hlj/yEg46w5
-xIg/xyhQbUlCH3jBNPjy+6k8xtg5O+EQs6JPrDONQAVcN4XzpANf2SbGCwKhsX0B
-S72fszv5Hw==
-=oogB
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmegdOAQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD14b6D/wOU2AyKQfwXdk8sjzE5EJsS2ri5ITk7has
+rcAMLFIex9DTQ5EBCXjqEi0dlpI4w+fvWtqxGhlbvLH7tUtBY2Gc71rp6IcxyTQX
+KPoLhHQuIiItDGGwwFa2FQUh9+gRfPfA7oo1PuqyA79RDdiJOspZgvVv1LL6ko+0
+1ABUZxfN3OnqPyxRbIVhPnHkwuDSGne+GduRbfIejIlPsg+r04X6H08JPjVeL3eG
+BpHLlJTW2DS+ORoXGr5y6jN95kqEKJvibXdZzIY6BFwKacWuM4u3FJLvgXHg/No5
+is1rTcbKMTZjRgqHqUy8x++UViZU80jA6IET2CiLRDC4RyoI7DQ4J7NPOZFWw5ic
+Ye9mBlcGldSuLQlMtxpbQV23IYZ9+4aBEUzFEjxghX4tBoP6TM1hu0+tO30z6ck8
+nVsLtTB993Bj4CAH8MrOSZD27vKnPxxQLckDH5tT1plL9vk5vl3P/REgURQ6rqLO
+x4eR+0M0ZfqWZdlowMIGVYKQfgZ30TV+gK6DkgME4KmwVx1kS4sWKEQDDP9njLV4
+5reHqB0dp7+Rk7lL8fjxawLRvmaQmDp9rVhlnH90QLm2ruI0xrY+LICcw5qCMhEX
+nFq4U0ynB6XB5zG7lDyzMo1fjAZ2PCFC5GMoMAIF3PsdyOqWzpPLHBqGvNwZeTqB
+OODO3QmOBg==
+=8t0B
 -----END PGP SIGNATURE-----
 
---===============3110301570240720728==
+--===============0392986480388126079==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1086,4 +1086,4 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
 
---===============3110301570240720728==--
+--===============0392986480388126079==--
