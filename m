@@ -1,59 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============5318129877904112291=="
+Content-Type: multipart/mixed; boundary="===============0383748834507743172=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 03 Feb 2025 19:56:39 -0000
-Message-Id: <173861259924.74231.10319944180502058462@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Mon, 03 Feb 2025 19:57:00 -0000
+Message-Id: <173861262012.74605.8536569712952712701@gitolite.kernel.org>
 
---===============5318129877904112291==
+--===============0383748834507743172==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-6.14
-    old: 155c569fa4c3b340fbf8571a0e42dd415c025377
+  - ref: refs/heads/for-linus
+    old: 08ac89e6ed5e7fdc890a6a5e362d775ea74eb986
     new: 2014c95afecee3e76ca4a56956a936e23283f05b
-    log: revlist-155c569fa4c3-2014c95afece.txt
-  - ref: refs/heads/regulator-6.15
-    old: 0000000000000000000000000000000000000000
+    log: revlist-08ac89e6ed5e-2014c95afece.txt
+  - ref: refs/heads/for-next
+    old: 2ed1f6c0901c17bc839f0b73b29b00432abfa4a1
     new: 3c32a4386909e8023b3c49253fec33d267be16bb
+    log: |
+         19d022d67d7353f0e6e9ba255435d3de93862ac4 regulator: ad5398: change enable bit name to improve readibility
+         5a6a461079decea452fdcae955bccecf92e07e97 regulator: ad5398: Add device tree support
+         f9cbf56b0a1966d977df87d15a5bdbff2c342062 dt-bindings: regulator: pca9450: Add properties for handling LDO5
+         b5ec74c2aec76fbdff9bc16951455602e11902bf arm64: dts: imx8mp-skov-reva: Use hardware signal for SD card VSELECT
+         c73be62caabbec6629689c705aea65e5ce364d5d Revert "regulator: pca9450: Add SD_VSEL GPIO for LDO5"
+         3ce6f4f943ddd9edc03e450a2a0d89cb025b165b regulator: pca9450: Fix control register for LDO5
+         f5aab0438ef17f01c5ecd25e61ae6a03f82a4586 regulator: pca9450: Fix enable register for LDO5
+         3c32a4386909e8023b3c49253fec33d267be16bb regulator: Add device tree support to AD5398
+         
 
---===============5318129877904112291==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1738612627 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1738612596-13dd5820152f42b69832bcec900ed446b047bf57
-
-155c569fa4c3b340fbf8571a0e42dd415c025377 2014c95afecee3e76ca4a56956a936e23283f05b refs/heads/regulator-6.14
-0000000000000000000000000000000000000000 3c32a4386909e8023b3c49253fec33d267be16bb refs/heads/regulator-6.15
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmehH5MACgkQJNaLcl1U
-h9DRbwf9FqraQAeKHWIBIYOxQPUzclGxRNSFl5IaCAdPh7WQZba2HcH5c2q7chFH
-oENuYHkyWJl/pGoWr1op5njzRHhPVGQBQwIKtFOI1ELBk+LPCUuxxixfXGtxB87d
-cVPApl9jQkU9IC+cOACys9iWvbN6/uI6RzASuikrtSfwhJevUT22Xcxj4suxDhI8
-Io0Vy9pTw+NpYd4inpA8mXIul9t8cPQ0O11McCtwMq58W6/3P2l6lsL3KlOWXND7
-QQXbK1hzr/77QknNEdNOtq5+/FAHNkTz9m2aLGnJj7U4wLwK0Ai17YtVqCnU+EEn
-q04jKe0zPiLRs2YZSC7K6uZAt+LADQ==
-=7xe7
------END PGP SIGNATURE-----
-
---===============5318129877904112291==
+--===============0383748834507743172==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-155c569fa4c3-2014c95afece.txt
+Content-Disposition: attachment; filename=revlist-08ac89e6ed5e-2014c95afece.txt
 
 e8380c2d06055665b3df6c03964911375d7f9290 NFSv4.2: fix COPY_NOTIFY xdr buf size calculation
 668135b9348c53fd205f5e07d11e82b10f31b55b NFSv4.2: mark OFFLOAD_CANCEL MOVEABLE
@@ -1080,4 +1064,4 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
 
---===============5318129877904112291==--
+--===============0383748834507743172==--
