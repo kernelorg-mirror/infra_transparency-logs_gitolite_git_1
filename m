@@ -1,56 +1,37 @@
-Content-Type: multipart/mixed; boundary="===============1973240637460330394=="
+Content-Type: multipart/mixed; boundary="===============4190326037969582249=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
-Date: Mon, 03 Feb 2025 11:11:40 -0000
-Message-Id: <173858110008.3801592.234908272083106479@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
+Date: Mon, 03 Feb 2025 11:21:34 -0000
+Message-Id: <173858169476.3809793.9058391833124780122@gitolite.kernel.org>
 
---===============1973240637460330394==
+--===============4190326037969582249==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/linux
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/sunxi/linux
+user: wens
 changes:
-  - ref: refs/heads/b4/get_maintainer
-    old: 2b79e67fab168c5fc13ec6be935c690401ced111
-    new: e8b8a60e680073a654ad4c6e8b88176bf1ed9fbf
-    log: revlist-2b79e67fab16-e8b8a60e6800.txt
+  - ref: refs/heads/master
+    old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
+    new: 2014c95afecee3e76ca4a56956a936e23283f05b
+    log: revlist-40384c840ea1-2014c95afece.txt
+  - ref: refs/tags/v6.14-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 379487e17ca406b47392e7ab6cf35d1c3bacb371
 
---===============1973240637460330394==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1738581126 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
-nonce 1738581095-a2fd9677b7b94d48143777deeb7d5539b2759c05
-
-2b79e67fab168c5fc13ec6be935c690401ced111 e8b8a60e680073a654ad4c6e8b88176bf1ed9fbf refs/heads/b4/get_maintainer
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmegpIYACgkQu+CwddJF
-iJoQKAf+Ps5SHoKN/EdRboYxg9KyNWOYPMapK+S49XNPi0q3bjF4q+7dRYA0lQTN
-EW/yN4BoPu9t5WHilnbVDtse7O0lxB/nbf2WuX2VjpN2e3TISKU2UlrhqLK4pSF4
-s3sPd7hR9GZrXVUkm8XC+r+h8sjlB/UW4cVHy5JHUNF6pO6LHWVtRURhxNOG0mRR
-mUC2zWVMJ2MS2zhxa2PdQTwxQs/HdBeIvO3TF/WiIyOe4wSvCHuBxb/DTU294R49
-5ZI0kedc7BM5zNkinRrWpIqpOJwB7R4oj8dS8YnM+vEF5r7r0ZYbY/ml6S6TlbVP
-9kUL4V8aP5few+iDc4RE/RkKWAyNZw==
-=ChUP
------END PGP SIGNATURE-----
-
---===============1973240637460330394==
+--===============4190326037969582249==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-2b79e67fab16-e8b8a60e6800.txt
+Content-Disposition: attachment; filename=revlist-40384c840ea1-2014c95afece.txt
 
+668135b9348c53fd205f5e07d11e82b10f31b55b NFSv4.2: mark OFFLOAD_CANCEL MOVEABLE
+0b96c75d86560c077d29ce629e9d1ca0258c9cc1 NFSv4.2: make LAYOUTSTATS and LAYOUTERROR MOVEABLE
+a3282f84b2151d254dc4abf24d1255c6382be774 PCI: switchtec: Add Microchip PCI100X device IDs
 13b6931c44969ff057ad2a3aa1c20a1b28b79b6f Merge tag 'x86_sev_for_v6.14_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 e7217011ddd8e86a0d18c6cbfb4f14da3d18eee0 ALSA: usb: fcp: Fix meter_levels type to __le32
 f08cc80f69be62beb7a63cd4813c7989c8708831 ALSA: usb: fcp: Fix incorrect resp->opcode retrieval
@@ -1072,8 +1053,5 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 5d82ca7b5019d880a579831278eb73cbbfdb87da Merge tag 'sh-for-v6.14-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
-3b68ada4df6ab73b02e94b4c5a11733f70496fcd get_maintainer: report subsystem status separately from maintainer role
-4e0fb4d528c0cb0474fd05ad069ea813de839fdf get_maintainer: add --substatus for reporting subsystem status
-e8b8a60e680073a654ad4c6e8b88176bf1ed9fbf get_maintainer: stop reporting subsystem status as maintainer role
 
---===============1973240637460330394==--
+--===============4190326037969582249==--
