@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7400522294942821862=="
+Content-Type: multipart/mixed; boundary="===============8696712315727975952=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 03 Feb 2025 06:35:42 -0000
-Message-Id: <173856454271.3550220.5083347116748714559@gitolite.kernel.org>
+Date: Mon, 03 Feb 2025 06:35:46 -0000
+Message-Id: <173856454615.3553587.11360031830421355409@gitolite.kernel.org>
 
---===============7400522294942821862==
+--===============8696712315727975952==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: 57b314752ec0ad42685bc78b376326f1f4c04669
+  - ref: refs/heads/driver-core-next
+    old: 72deda0abee6e705ae71a93f69f55e33be5bca5c
     new: 2014c95afecee3e76ca4a56956a936e23283f05b
-    log: revlist-57b314752ec0-2014c95afece.txt
+    log: revlist-72deda0abee6-2014c95afece.txt
 
---===============7400522294942821862==
+--===============8696712315727975952==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1738564515 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1738564519 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1738564540-354ca5b6733b15f8c93923c7cc08597a74ece818
+nonce 1738564544-b85c947c19469d6998c3d55878b19db84851845a
 
-57b314752ec0ad42685bc78b376326f1f4c04669 2014c95afecee3e76ca4a56956a936e23283f05b refs/heads/driver-core-linus
+72deda0abee6e705ae71a93f69f55e33be5bca5c 2014c95afecee3e76ca4a56956a936e23283f05b refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmegY6MbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9wEP/1o1xr1PbBFEhWTORLQ8
-CDEGRM3gDUxF/5gjI1BZTWrQSF/R6YNsFNPvjd458fTQLrv5ct5bRaFSh9PTlzNo
-pwrs73VJbAZ4V0QLcq3+2W5I4nsopwMpiHbm374xrwqXkXFpkQSuV273j9hSENkW
-nKgSep2lhYsaAkQ62ciXPgiFuZj9Y0rbjhX348b0YoP5zRlZeMrSOfkEgqqxTIjt
-7zs5mvLxstNNuGAnorUkeFL5Xjp1I/tXkiUy7pFUubAM6ANUX+Fsh/Ula0Gpf0MY
-RjKMywWTL4vytIIm+nDPVIbG5MsIBCsDLjc4Eg/uhw+HEmFmvr94gbFo+KhE0iq6
-EJJcrhklORxsxGoKlUzit15yoB8XLpAS/e23UG44GPN0joPhqgGSC6DAJjus918J
-rY4loHkJIGSEs/jKEeJR7wqzITWO/mkx/t+b+Q10RKRBFxI8dWmqNRU5rDcobUiO
-IGOXIOk+lWOxr5lUOstL96rCweG1QNdClQ08LzgDN5LTx4oqGdKXh8Ue8vRBszqg
-5XFAHKCVDyw2fx3AHw/08hysFrqk5czuvzjmmDPZZw6C4OJoLuyQJ4fyWoFbXmzR
-p4D9nbsxEojswSnyZRkUc9m91kg3V0qXCCIT1C7Nr4cLm2llsLasyyD2T3O3Zpco
-7lPxo20lluvKT31sVkBGl0x2
-=pB+B
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmegY6cbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BGEP/3OBQkPapthE43UvWp4j
+e3LGlfXIh2fgaBBr7f5Vc/GiCM46NLTvF1XoY3UNENtkZOT13WH8/JMeje4hNJcu
+lOPScxNx/Yojp9SEvjGB9lQjEN8xsRlz52w8Tgvopa2d7ZuceF62Z1K6SkwHn7Yh
+1ozot8XUUN2X4q1ZYtXW3aGXv05jW4M55S06rNjCc8+FimoHBeCqKRKcswwmc/Kd
+1OErV7KPNa/aU/6YdG98/Fqcs8GJQ//JYTGpmJ/LbFXUQ/i8PTwoQII9oMOV1Q1I
+9GYjFOPfRarOccRsGH73MwflR1lT/hTsQXEjtk+lzlse20lFxyNX45jc62Ww3/5r
+npintW442Z2lgABbe96nFrR/JwKee5uMyuWT9FY7LiznITuYc18bAX+AKv561IJ+
+24kBD/aJKoc+IXbVpZDns1/QCbPn7fFq3jd59/9H9mHQ/2QvKT+lYk8hVAvw99IE
+90+9ELydLzzkCKNrbcbibtN7yLJKIJGGQyDW2wa7j3OMXQdZR2q5QsILn9tbIpJ/
+CyBdch5Wj+JZZ7U7tuL7qO0E58j+N1V1KYzFcpJTJZj15UmPcW9v37+Ky3owSiPx
+ww10v1QkzK/mxRFg0H323yZu4sk6CInCG5zuEQEUYXWbZp4UTxSTEC7r6HEaWGNO
+LvQiy+sH+KdCWpnjqTn1+nj0
+=H/LE
 -----END PGP SIGNATURE-----
 
---===============7400522294942821862==
+--===============8696712315727975952==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-57b314752ec0-2014c95afece.txt
+Content-Disposition: attachment; filename=revlist-72deda0abee6-2014c95afece.txt
 
 209954cbc7d0ce1a190fc725d20ce303d74d2680 x86/mm/tlb: Update mm_cpumask lazily
 2815a56e4b7252a836969f5674ee356ea1ce482c x86/mm/tlb: Add tracepoint for TLB flush IPI to stale CPU
@@ -501,6 +501,7 @@ ac12b7e2912d60fceefaacc78ee8b5aec8b51c04 vsock/test: Introduce vsock_connect_fd(
 8c670bdfa58e48abad1d5b6ca1ee843ca91f7303 tcp: correct handling of extreme memory squeeze
 3595599fa8360bb3c7afa7ee50c810b4a64106ea net: xdp: Disallow attaching device-bound programs in generic mode
 f7bf624b1fedf232195804ac0f6584cb3e4b86bc selftests/net: Add test for loading devbound XDP program in generic mode
+57b314752ec0ad42685bc78b376326f1f4c04669 debugfs: Fix the missing initializations in __debugfs_file_get()
 da5ca229b62520fe6a2c7f7b2e610b19cd83828d Merge tag 'for-net-2025-01-29' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
 2c2ebb2b49573e5f8726112ad06b1dffc3c9ea03 net: ravb: Fix missing rtnl lock in suspend/resume path
 b95102215a8d0987789715ce11c0d4ec031cbfbe net: sh_eth: Fix missing rtnl lock in suspend/resume path
@@ -606,4 +607,4 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
 
---===============7400522294942821862==--
+--===============8696712315727975952==--
