@@ -1,58 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============2563837188776597336=="
+Content-Type: multipart/mixed; boundary="===============3025922982096119974=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 03 Feb 2025 14:10:44 -0000
-Message-Id: <173859184497.3968656.7117484510425099874@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 03 Feb 2025 14:10:48 -0000
+Message-Id: <173859184852.3968827.2888378023564364300@gitolite.kernel.org>
 
---===============2563837188776597336==
+--===============3025922982096119974==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.14
+  - ref: refs/heads/spi-6.14
     old: a07eb4f67ed085f32002a1af2b6073546d67de3f
     new: 2014c95afecee3e76ca4a56956a936e23283f05b
     log: revlist-a07eb4f67ed0-2014c95afece.txt
-  - ref: refs/heads/for-6.15
-    old: 2014c95afecee3e76ca4a56956a936e23283f05b
+  - ref: refs/heads/spi-6.15
+    old: 0000000000000000000000000000000000000000
     new: c1ac98492d1584d31f335d233a5cd7a4d4116e5a
-    log: |
-         c1ac98492d1584d31f335d233a5cd7a4d4116e5a spi: realtek-rtl-snand: Drop unneeded assignment for cache_type
-         
 
---===============2563837188776597336==
+--===============3025922982096119974==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1738591873 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1738591842-800adc77adfb44b8ade29055e86d289fae85d66c
+pusher C3F436CA30F5D8EB 1738591876 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1738591846-6427db4bb04490513c461af7433c82453130431c
 
-a07eb4f67ed085f32002a1af2b6073546d67de3f 2014c95afecee3e76ca4a56956a936e23283f05b refs/heads/for-6.14
-2014c95afecee3e76ca4a56956a936e23283f05b c1ac98492d1584d31f335d233a5cd7a4d4116e5a refs/heads/for-6.15
+a07eb4f67ed085f32002a1af2b6073546d67de3f 2014c95afecee3e76ca4a56956a936e23283f05b refs/heads/spi-6.14
+0000000000000000000000000000000000000000 c1ac98492d1584d31f335d233a5cd7a4d4116e5a refs/heads/spi-6.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmegzoEACgkQJNaLcl1U
-h9ABZwf/dKM2muuCZ3Vilz4UViJgYjScViVppr/5gmc/Lg4DR0wnsEwVovWPouPO
-gYPQDJVWq+hIju6/Td0lb2X6Qx7zG2BThDi9EbZOYWIegW+W34j0bx/EG2Emdpj2
-rFNu2jyxtz+HXFbW0/sMOMWkc2fWa6wHg79AKNZoGWfPuZLsNtoOfKEm9qLrRvCM
-fZBRfnIdwSdSoqrKiLPSqZ1fMN+f8QsoNXuriq5Wq0PWJbWLTCXxgNs5xzJCpxzr
-8DSpk7DvLdMXQDJgQQ3Bf8W+v+RW8oKypws6O7ttFPXVhvQhGvQzySO3Pd5fn2pL
-f8xbVHn8sRqIkUOVKzYgqi9Q/615ow==
-=vKDf
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmegzoQACgkQJNaLcl1U
+h9AgCwgAgTj1Vg0fMd+o11bKGRPhNDAbE0XgUI4MHeEx7iTbyjMTZe+G+0Wr1sY6
+87Ao1U9sVpoefRjPQ+U1BtOxm6CE/tWB3rjN7RPhBcbXcSF4NerxLBiMaCdzjaSB
+J79DpiN1E/EWwnbH6mhUFdGuOooE/pQsNBX4fqmWjTLBgLdEOdTWRHHYHevEFRyc
+Bz0kt2Bbu5kTMocV0gr2Y5zlbmbvWP7t3Qpz6sdqQYaPrVHYszqX4GuG6M6tttVx
+qZGNsq/o/ODhRXgqoDOf2dFeV0zmhGdx/YyGbAc4j7FimmU3mLsYIQRCd5hQ6Yuq
+ZGNjg2PCYCR27D7JMTNqF0XWx98qww==
+=fwu2
 -----END PGP SIGNATURE-----
 
---===============2563837188776597336==
+--===============3025922982096119974==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1083,4 +1080,4 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
 
---===============2563837188776597336==--
+--===============3025922982096119974==--
