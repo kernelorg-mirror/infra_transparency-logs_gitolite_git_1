@@ -1,56 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============5987708246940609490=="
+Content-Type: multipart/mixed; boundary="===============8722145664359884292=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-w1
-Date: Mon, 03 Feb 2025 11:55:29 -0000
-Message-Id: <173858372913.3843390.13979704192134471645@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Mon, 03 Feb 2025 11:57:12 -0000
+Message-Id: <173858383262.3844364.4481911709672087954@gitolite.kernel.org>
 
---===============5987708246940609490==
+--===============8722145664359884292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-w1
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/w1-next
-    old: 0dd6770a72f138dabea9eae87f3da6ffa68f0d06
-    new: 33c145297840dddf0dc23d5822159c26aba920d3
-    log: |
-         33c145297840dddf0dc23d5822159c26aba920d3 w1: w1_therm: w1: Use HWMON_CHANNEL_INFO macro to simplify code
-         
+  - ref: refs/heads/wip/leon-for-next
+    old: 190797d47f16d2d5bd32e2d3360218111d83869d
+    new: 842ee6aeddff08e097d1a4784ad56fa2331c1627
+    log: revlist-190797d47f16-842ee6aeddff.txt
 
---===============5987708246940609490==
+--===============8722145664359884292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-190797d47f16-842ee6aeddff.txt
 
-certificate version 0.1
-pusher krzk@kernel.org 1738583757 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-w1.git
-nonce 1738583726-c6a418cde7c9bb17492d8abf6ed3db4aa0e5cb80
+78683c25c80e54bf3e8015fdfb8cba2fcd03daa5 RDMA/mana_ib: Allow registration of DMA-mapped memory in PDs
+6e1b8bdcd04f4e84c924489e2f837cf620002b69 RDMA/mana_ib: implement get_dma_mr
+f662c0f5b3396a05fe9b149bf397f253cf1eb307 RDMA/mana_ib: helpers to allocate kernel queues
+822d4c938e0d93c2066ae1cfa6b5c8f79007e225 RDMA/mana_ib: create kernel-level CQs
+392ed69a9ac45cd67a7d3415a734dc30a08cbaaa RDMA/mana_ib: Create and destroy UD/GSI QP
+bf3f6576bbbd511bbf30244ef82b3e48b7ae0331 RDMA/mana_ib: UD/GSI QP creation for kernel
+09ec8a579033482a003aa807085b3d4f813c7bf0 RDMA/mana_ib: create/destroy AH
+622f1fc2ca7dea00b801c418580d9994c2fe8cb6 net/mana: fix warning in the writer of client oob
+8d9a5210545c2744e411c8281f785a03ced8e3e8 RDMA/mana_ib: UD/GSI work requests
+cd595cf391733c98ec2d5cf92e02859b1e88b1e8 RDMA/mana_ib: implement req_notify_cq
+9fe09a01ade76dbc3d611c5dda245692bd5125a0 RDMA/mana_ib: extend mana QP table
+4aa5b0508003258244c79604e7bbabd394c00d5c RDMA/mana_ib: polling of CQs for GSI/UD
+842ee6aeddff08e097d1a4784ad56fa2331c1627 RDMA/mana_ib: indicate CM support
 
-0dd6770a72f138dabea9eae87f3da6ffa68f0d06 33c145297840dddf0dc23d5822159c26aba920d3 refs/heads/w1-next
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmegrs0QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD13dcD/9/mRWHfpmDsaE7Hw11rYt2eXqfUwHaWwAs
-bEGddx3XjBHIIHIu7DuX+g2dgBXWSR22kssrMqVCGGo7iuejn6SEg2iehcLK9We9
-oBvSE1yPIRU2CsA/B77BKhxLO7/S8UGQim3+RzrEcMhURvqSnDOuj2fv748pXx31
-uBPmrWWwejJNL7aThEKbWu8RGDJ4rO7fXTcNridUC6akrV4MXwzz0Q/i3jP3sVel
-GUHjlNLCFkd1TdjG7L3efT7luS/UOuovwyyrqpMFRKJUl8ENxZS6nhIKK31+hMc0
-RW6wLUqmQLxS11d+KiWI1fXy3QxGczy+jBk9G3Lg4tWEiUVZwilRiREUAyVgl79V
-Oke90tpG9ilQFC0+FADyxkMI/0fWMzLnQEMZyKMmSmxgkjkTkRk3pdu8fPE58QUS
-2iSmjfyJKyaiJHeCiK7kFLjD6jjp6mKyfTiRLC6qQ0EDiZXce3J+E5MqqEyS8YRz
-Ho+QQ9zJ/rqbXLD9TDw4aGd20GrABfJgZGxN096CAbY2UPwBIzt9GGX9Z7kv9k1Q
-QnBMOsTu4d/pqkjgewN7Z++rbvre3tncrlh3ofb7kJT3Gl93EcGMTCmAyX02gedc
-XvafET63zhnOz2/xftF/QQOTSlDRRwL53schr2nPF3qEaPCshpuan8GTxblU3FT4
-vfVZdlc6iw==
-=hIp9
------END PGP SIGNATURE-----
-
---===============5987708246940609490==--
+--===============8722145664359884292==--
