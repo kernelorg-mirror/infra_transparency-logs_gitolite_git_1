@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 03 Feb 2025 10:13:09 -0000
-Message-Id: <173857758984.3748949.3384047100203402971@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Mon, 03 Feb 2025 10:16:16 -0000
+Message-Id: <173857777630.3752313.16836276042675112938@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/main
-    old: e0efe83ed325277bb70f9435d4d9fc70bebdcca8
-    new: 235174b2bed88501fda689c113c55737f99332d8
+  - ref: refs/heads/for-6.14/upstream-fixes
+    old: a5a056c8d2ba60017dffb914bdf92c5562defc48
+    new: 363236d709e75610b628c2a4337ccbe42e454b6d
     log: |
-         235174b2bed88501fda689c113c55737f99332d8 udp: gso: do not drop small packets when PMTU reduces
+         363236d709e75610b628c2a4337ccbe42e454b6d HID: ignore non-functional sensor in HP 5MP Camera
+         
+  - ref: refs/heads/for-next
+    old: 930bb7f5291bd21dac0d32fac03c4ab595acadfa
+    new: c4c20f9492e800b553af6d7200fb469a87347ed7
+    log: |
+         363236d709e75610b628c2a4337ccbe42e454b6d HID: ignore non-functional sensor in HP 5MP Camera
+         c4c20f9492e800b553af6d7200fb469a87347ed7 Merge branch 'for-6.14/upstream-fixes' into for-next
          
