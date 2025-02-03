@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
 Date: Mon, 03 Feb 2025 14:09:41 -0000
-Message-Id: <173859178106.3962844.12450816729584543276@gitolite.kernel.org>
+Message-Id: <173859178106.3962861.8707502067420715332@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: 2bcb72376b031ba69c6ae2610f7c646f6fb7406a
-    new: 0fd450ee905e934ac51286fd290f77a87add971c
-    log: |
-         e38da10472cf06e97ee9710b4c9445aabe4da8ca ath11k: add device-specific firmware for QCM6490 boards
-         0fd450ee905e934ac51286fd290f77a87add971c Merge branch 'robot/pr-0-1738427057' into 'main'
-         
+  - ref: refs/heads/filen9HKWr
+    old: 995cf0e014b0144edf1125668a97c252c5ab775e
+    new: 0000000000000000000000000000000000000000
