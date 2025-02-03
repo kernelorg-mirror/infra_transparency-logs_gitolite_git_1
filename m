@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7712888489040702209=="
+Content-Type: multipart/mixed; boundary="===============6077300033256739588=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Mon, 03 Feb 2025 18:48:25 -0000
-Message-Id: <173860850570.14758.7558629146117444638@gitolite.kernel.org>
+Date: Mon, 03 Feb 2025 18:48:29 -0000
+Message-Id: <173860850936.14861.5639147586015171953@gitolite.kernel.org>
 
---===============7712888489040702209==
+--===============6077300033256739588==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/riscv/linux
 user: palmer
 changes:
-  - ref: refs/heads/fixes
-    old: 6f6ecce59d99ef95a31a137c51e61c3d7b4ab278
+  - ref: refs/heads/for-next
+    old: 101971298be2aa4706c8602bd81066a0f6f2ced5
     new: 2014c95afecee3e76ca4a56956a936e23283f05b
-    log: revlist-6f6ecce59d99-2014c95afece.txt
+    log: revlist-101971298be2-2014c95afece.txt
 
---===============7712888489040702209==
+--===============6077300033256739588==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6f6ecce59d99-2014c95afece.txt
+Content-Disposition: attachment; filename=revlist-101971298be2-2014c95afece.txt
 
+e8380c2d06055665b3df6c03964911375d7f9290 NFSv4.2: fix COPY_NOTIFY xdr buf size calculation
 668135b9348c53fd205f5e07d11e82b10f31b55b NFSv4.2: mark OFFLOAD_CANCEL MOVEABLE
 0b96c75d86560c077d29ce629e9d1ca0258c9cc1 NFSv4.2: make LAYOUTSTATS and LAYOUTERROR MOVEABLE
 a3282f84b2151d254dc4abf24d1255c6382be774 PCI: switchtec: Add Microchip PCI100X device IDs
@@ -933,7 +934,6 @@ a46221fcdd40a29eb08900221797ad63d0271118 cifs: Update description about ACL perm
 a314f52a0210730d0d556de76bb7388e76d4597d kconfig: fix file name in warnings when loading KCONFIG_DEFCONFIG_LIST
 a409fc1463d664002ea9bf700ae4674df03de111 kconfig: fix memory leak in sym_warn_unmet_dep()
 35fcac7a7c25cc04f730b9570c737f31295fa92d audit: Initialize lsmctx to avoid memory allocation error
-101971298be2aa4706c8602bd81066a0f6f2ced5 riscv: add a warning when physical memory address overflows
 fcdd2242c0231032fc84e1404315c245ae56322a vsock: Keep the binding until socket destruction
 aa388c72113b7458127b709bdd7d3628af26e9b4 vsock: Allow retrying on connect() failure
 852a00c4281d3c4cf82020421cc9b5b05d53e93f vsock/test: Introduce vsock_bind()
@@ -1051,4 +1051,4 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
 
---===============7712888489040702209==--
+--===============6077300033256739588==--
