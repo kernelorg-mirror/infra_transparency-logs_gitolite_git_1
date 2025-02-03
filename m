@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============5790017948831952385=="
+Content-Type: multipart/mixed; boundary="===============3931550659023915759=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 03 Feb 2025 15:56:28 -0000
-Message-Id: <173859818826.4062952.8277006117967225868@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 03 Feb 2025 15:56:31 -0000
+Message-Id: <173859819124.4063047.495570076873703148@gitolite.kernel.org>
 
---===============5790017948831952385==
+--===============3931550659023915759==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.15
+  - ref: refs/heads/spi-6.15
     old: c1ac98492d1584d31f335d233a5cd7a4d4116e5a
     new: 26a756fc10fac6f133ef47f12362a39769dfe24d
     log: |
@@ -28,28 +28,28 @@ changes:
          26a756fc10fac6f133ef47f12362a39769dfe24d spi: zynqmp-gqspi: Clean up the driver a bit
          
 
---===============5790017948831952385==
+--===============3931550659023915759==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1738598217 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1738598186-c3b9342f98658feaf325ae9f13454028a7c77b77
+pusher C3F436CA30F5D8EB 1738598220 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1738598189-8192d56796e96cc9ada459b7b5d2558cdac251a9
 
-c1ac98492d1584d31f335d233a5cd7a4d4116e5a 26a756fc10fac6f133ef47f12362a39769dfe24d refs/heads/for-6.15
+c1ac98492d1584d31f335d233a5cd7a4d4116e5a 26a756fc10fac6f133ef47f12362a39769dfe24d refs/heads/spi-6.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmeg50kACgkQJNaLcl1U
-h9B6Awf7BB4t1ftrJs2NzqBnVUcSEIAm4ilMfDvSAEp0AzmyrknpXVfFHr20uIl6
-QlFwQrj9UYebzWqKCBC9hMP2BPgLIlYm8CyLLIrvji+4JVc/maA6lvDraS2KCixQ
-cD2ux1nZ5JrtMOAurnUkunXHUSsyq7XxgAGhjurF4+kt03cGehAm1tFswIpeAEIF
-RqPie9WtbnDuk91vn14Ct+PykqHQCW8gzVEZgiJGKIRWv/LQG6BK3USRzHnQhkXh
-4KnAUUwk5dVDu9RoBZ4g+NR7YD0y3OT7w98MMmrDFzJLvjZph4FuEvkdRFy/Hwaz
-iZ6gN64+RpgrI/q8CxQ7spZCm8PLGw==
-=12KD
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmeg50wACgkQJNaLcl1U
+h9C7Awf+LFUiWJo8Bpsh9gq3AE23i/hFIRyzliQ9skW5Cz/2frov4sGdkwUYzkS1
+agmCY1DbJuxzyyjl9wJ1EU6ZZOjmYeeMjT4QIjsTjMuraZsdYVjUam0rJYMEhmjs
+eghzdYrr2MAweoosucaeP5sklEPmQZHgGDjTUdYXUcZAg0e3Q294kCBP2+am9i5B
+43GrFz8GUMPjxwr/AWckl++Zra2wmC0+Fi0HOmcI63kH9as0u6G6K/6cq1sJL56X
+wca/+n73JT6WN1Ry3BUh/hawqN3/nD6sYqFkrLD0+53mECaO/VLjq7J8eGb5rOzK
+bWs4gFC61lp04VUTGN0G8bg0u3dAKg==
+=+2dW
 -----END PGP SIGNATURE-----
 
---===============5790017948831952385==--
+--===============3931550659023915759==--
