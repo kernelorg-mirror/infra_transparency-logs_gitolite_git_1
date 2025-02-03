@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1798023014511075861=="
+Content-Type: multipart/mixed; boundary="===============3996827922348979992=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Mon, 03 Feb 2025 14:09:50 -0000
-Message-Id: <173859179072.3963625.4964270124287030077@gitolite.kernel.org>
+Date: Mon, 03 Feb 2025 14:09:53 -0000
+Message-Id: <173859179328.3963717.10275444096906275647@gitolite.kernel.org>
 
---===============1798023014511075861==
+--===============3996827922348979992==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/at91/linux
 user: claudiu.beznea
 changes:
-  - ref: refs/heads/clk-microchip
-    old: 9a497710cab94140762bcfbd9b6dc2c45f30678b
+  - ref: refs/heads/clk-microchip-fixes
+    old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
     new: 2014c95afecee3e76ca4a56956a936e23283f05b
-    log: revlist-9a497710cab9-2014c95afece.txt
+    log: revlist-40384c840ea1-2014c95afece.txt
 
---===============1798023014511075861==
+--===============3996827922348979992==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-9a497710cab9-2014c95afece.txt
+Content-Disposition: attachment; filename=revlist-40384c840ea1-2014c95afece.txt
 
 668135b9348c53fd205f5e07d11e82b10f31b55b NFSv4.2: mark OFFLOAD_CANCEL MOVEABLE
 0b96c75d86560c077d29ce629e9d1ca0258c9cc1 NFSv4.2: make LAYOUTSTATS and LAYOUTERROR MOVEABLE
@@ -1051,4 +1051,4 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
 
---===============1798023014511075861==--
+--===============3996827922348979992==--
