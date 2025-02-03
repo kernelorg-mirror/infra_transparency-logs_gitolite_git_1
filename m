@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5216673440429315232=="
+Content-Type: multipart/mixed; boundary="===============1851739487757670455=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Mon, 03 Feb 2025 08:16:08 -0000
-Message-Id: <173857056895.3653360.616558196062806462@gitolite.kernel.org>
+Date: Mon, 03 Feb 2025 08:16:15 -0000
+Message-Id: <173857057528.3653510.10574693521730268136@gitolite.kernel.org>
 
---===============5216673440429315232==
+--===============1851739487757670455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
 user: andy
 changes:
-  - ref: refs/heads/fixes
-    old: 9852d85ec9d492ebef56dc5f229416c925758edc
+  - ref: refs/heads/for-next
+    old: 12b0e305f50988b0c75f052f86d51b5353108ca5
     new: 2014c95afecee3e76ca4a56956a936e23283f05b
-    log: revlist-9852d85ec9d4-2014c95afece.txt
+    log: revlist-12b0e305f509-2014c95afece.txt
 
---===============5216673440429315232==
+--===============1851739487757670455==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-9852d85ec9d4-2014c95afece.txt
+Content-Disposition: attachment; filename=revlist-12b0e305f509-2014c95afece.txt
 
 668135b9348c53fd205f5e07d11e82b10f31b55b NFSv4.2: mark OFFLOAD_CANCEL MOVEABLE
 0b96c75d86560c077d29ce629e9d1ca0258c9cc1 NFSv4.2: make LAYOUTSTATS and LAYOUTERROR MOVEABLE
@@ -1051,4 +1051,4 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
 
---===============5216673440429315232==--
+--===============1851739487757670455==--
