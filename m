@@ -1,39 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============0745607279803100582=="
+Content-Type: multipart/mixed; boundary="===============8340733024185449475=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 03 Feb 2025 06:18:44 -0000
-Message-Id: <173856352425.3499396.12858601185354382954@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Mon, 03 Feb 2025 06:33:22 -0000
+Message-Id: <173856440213.3511126.14016327378434795261@gitolite.kernel.org>
 
---===============0745607279803100582==
+--===============8340733024185449475==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/stable/linux
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: bdd4f86c97e60b748027bdf6f6a3729c8a12da15
+    old: 60c828cf80c07394762a1edfaff63bea55cc8e45
     new: 2014c95afecee3e76ca4a56956a936e23283f05b
-    log: revlist-bdd4f86c97e6-2014c95afece.txt
-  - ref: refs/tags/v6.13
-    old: 0000000000000000000000000000000000000000
-    new: d6cb6a3d99adf559a0a404d086f61ee3be866f86
-  - ref: refs/tags/v6.13-rc7
-    old: 0000000000000000000000000000000000000000
-    new: b37279c18e53ba26c58b0a88a84bb70720c5cac6
-  - ref: refs/tags/v6.14-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 379487e17ca406b47392e7ab6cf35d1c3bacb371
+    log: revlist-60c828cf80c0-2014c95afece.txt
 
---===============0745607279803100582==
+--===============8340733024185449475==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bdd4f86c97e6-2014c95afece.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1738564372 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1738564397-f0f12a1f59cf11ed666e488889aee72903fa90e3
+
+60c828cf80c07394762a1edfaff63bea55cc8e45 2014c95afecee3e76ca4a56956a936e23283f05b refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmegYxQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Cl0P/R4Q4U79D8KXPBZvCzla
+86z7kXYNsGszSfCNeMKsTZrRvekf5CXokRzh+K1q9H2NyF4plrsoZV+RPfIoOo3O
+bAFXwltz6XURquEvz6cV3+u+mdivUqiCYOeQ2+NqPGoW8Z5OK7AaxA2vqeD5ns3K
+alIEAjua+A5sWEgDBHHRi/v4DRaQvYuGIeHMhFOCGDVKPOZE2LpWRMVbF7zoii1+
+YZmQLRsYR/7sQe39yFuJJmCKb4dhcZxOPp/DUMdtVSWD//jHsXhqOe6/3hBWF7FR
+hEyGw0Z+h/o+ISoBlE5zHXKVH8TpiRDPFj3Ie0eghEoer6QJREwXGz44OAjDtWpL
+TK8eopln3r2qmlYSSpLx0XbcdjH56QUxVQapbMrpLUh75O3k982hHkYFzgyZeQAl
+b9VwlAWuo6kA1cJDwLxw1pBfaxHP2zT4TRexdTEk5U9IytsU76ITGXNn2TpzHXS4
+zg0ADTqgA28JZ6zvBQiZcdHrfd7yr3X8JLSnBwG6YIHIeO9YAMdzsZGWGzPxwOJI
+yxzE5Ofw+yxACHVbL8xdePeeBAQATPORby2bh0sSH4MF6keiCt00GPKKbOcFR5/k
+O2aH1kgh/rbr6Q+4gtLa6MFyNQNAS/iLQJJWsg+uC6krrGBJ0ozOun0M1Mfe3dSN
+4YrEPnLK3P5QyEOXJ8379+pD
+=vCzk
+-----END PGP SIGNATURE-----
+
+--===============8340733024185449475==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-60c828cf80c0-2014c95afece.txt
 
 e8a99af68c068865dbac7f3330e97bf8e96edf33 tools/power turbostat: Add initial support for PantherLake
 6b47ed23e2f1bc2c177da47437970e6208ac9ea0 tools/power turbostat: Add initial support for ClearwaterForest
@@ -76,12 +98,6 @@ a46221fcdd40a29eb08900221797ad63d0271118 cifs: Update description about ACL perm
 660618dde2b4c372132a6be62f11ab68a0a1571a cifs: Add mount option -o symlink= for choosing symlink create type
 78f69467cbbfd24da5ce9917c4b738b38a615f8b cifs: Add mount option -o reparse=none
 57b314752ec0ad42685bc78b376326f1f4c04669 debugfs: Fix the missing initializations in __debugfs_file_get()
-8a20030038742b9915c6d811a4e6c14b126cafb4 hexagon: fix using plain integer as NULL pointer warning in cmpxchg
-e1e481edf9718222eeb285c41c1837c1c6b0afbd hexagon: time: Remove redundant null check for resource
-e882d6f72caa9fca7b615c7bc88998717552e05e hexagon: Move kernel prototypes out of uapi/asm/setup.h header
-e8265a947b0267950a2b74e5a4f118e6764540e8 hexagon: Fix warning comparing pointer to 0
-03410e87563a122075c3721acc7d5510e41d8332 hexagon: Fix unbalanced spinlock in die()
-84d78214b4f187da7e029f5dad344203511a04d7 MAINTAINERS: Update my email address
 ec918a11e63856999b31705e81226dd7dc043e20 Revert "mips: fix shmctl/semctl/msgctl syscall for o32"
 45a99d5d117300eb84eceaa312bb3c3262f8c85b cifs: Add support for creating native Windows sockets
 071b8a67a8b2e611e837dfa342a883183a19c190 cifs: Add support for creating NFS-style symlinks
@@ -91,8 +107,6 @@ eea5119fa5979c350af5783a8148eacdd4219715 smb3: add support for IAKerb
 2008d8c7121a9eee0ef8ea121581269886535150 cifs: update internal version number
 a49da4ef4b94345554923cdba1127a2d2a73d1e6 cifs: Fix parsing native symlinks directory/file type
 8004d635f27bbccaa5c083c50d4d5302a6ffa00e Revert "media: uvcvideo: Require entities to have a non-zero unique ID"
-04a3389b35357e9bf44533d20a80eb70d188adb8 Remove stale generated 'genheaders' file
-60c828cf80c07394762a1edfaff63bea55cc8e45 Merge tag 'for-linus-hexagon-6.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/bcain/linux
 d2a5f10bf1f123f6d9a7fb4be4cd92f6e95c129d sh: irq: Use seq_put_decimal_ull_width() for decimal values
 21bcc49974c2a45c6c5e8e5e500ce6642e4328f1 sh: Migrate to the generic rule for built-in DTB
 909f3c55d887a9f9d4cd2762813cbfcaf640ec57 sh: boards: Use imply to enable hardware with complex dependencies
@@ -128,4 +142,4 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
 
---===============0745607279803100582==--
+--===============8340733024185449475==--
