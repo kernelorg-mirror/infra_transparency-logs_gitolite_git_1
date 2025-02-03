@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2289026398127845967=="
+Content-Type: multipart/mixed; boundary="===============7371510788407194056=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/superm1/linux
-Date: Mon, 03 Feb 2025 06:04:50 -0000
-Message-Id: <173856269083.3488392.17382634171051945217@gitolite.kernel.org>
+Date: Mon, 03 Feb 2025 06:05:14 -0000
+Message-Id: <173856271490.3490306.2290279463889929510@gitolite.kernel.org>
 
---===============2289026398127845967==
+--===============7371510788407194056==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/superm1/linux
 user: superm1
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 0cdfb4ad0b2af2409d833e7705a2cd53ab03775d
+  - ref: refs/heads/linux-next
+    old: 857a61c2ce74e30fc3b10bc89d68ddd8d05b188c
     new: fa803513ab68ba07369643393f1754b845160030
-    log: revlist-0cdfb4ad0b2a-fa803513ab68.txt
+    log: revlist-857a61c2ce74-fa803513ab68.txt
 
---===============2289026398127845967==
+--===============7371510788407194056==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-0cdfb4ad0b2a-fa803513ab68.txt
+Content-Disposition: attachment; filename=revlist-857a61c2ce74-fa803513ab68.txt
 
 0b96c75d86560c077d29ce629e9d1ca0258c9cc1 NFSv4.2: make LAYOUTSTATS and LAYOUTERROR MOVEABLE
 a3282f84b2151d254dc4abf24d1255c6382be774 PCI: switchtec: Add Microchip PCI100X device IDs
@@ -1051,4 +1051,4 @@ d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
 fa803513ab68ba07369643393f1754b845160030 cpufreq/amd-pstate: Fix per-policy boost flag incorrect when fail
 
---===============2289026398127845967==--
+--===============7371510788407194056==--
