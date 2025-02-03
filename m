@@ -1,43 +1,72 @@
-Content-Type: multipart/mixed; boundary="===============8722145664359884292=="
+Content-Type: multipart/mixed; boundary="===============4117252336232252379=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 03 Feb 2025 11:57:12 -0000
-Message-Id: <173858383262.3844364.4481911709672087954@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Mon, 03 Feb 2025 11:58:38 -0000
+Message-Id: <173858391898.3845025.11025656781321827072@gitolite.kernel.org>
 
---===============8722145664359884292==
+--===============4117252336232252379==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 190797d47f16d2d5bd32e2d3360218111d83869d
-    new: 842ee6aeddff08e097d1a4784ad56fa2331c1627
-    log: revlist-190797d47f16-842ee6aeddff.txt
+  - ref: refs/heads/for-next
+    old: 2014c95afecee3e76ca4a56956a936e23283f05b
+    new: e3a9c321273dd073d309e96e08f40fa046eb90ac
+    log: |
+         00c1fda73df8081f40840f860c8d75e2c9070d48 soc: samsung: Use syscon_regmap_lookup_by_phandle_args
+         1fdadc8418bebba39899f341c3acdb189668e7f3 ARM: s3c: Do not include <linux/fb.h>
+         e3a9c321273dd073d309e96e08f40fa046eb90ac Merge branch 'next/drivers' into for-next
+         
+  - ref: refs/heads/next/drivers
+    old: 2014c95afecee3e76ca4a56956a936e23283f05b
+    new: 00c1fda73df8081f40840f860c8d75e2c9070d48
+    log: |
+         00c1fda73df8081f40840f860c8d75e2c9070d48 soc: samsung: Use syscon_regmap_lookup_by_phandle_args
+         
+  - ref: refs/heads/next/soc
+    old: 2014c95afecee3e76ca4a56956a936e23283f05b
+    new: 1fdadc8418bebba39899f341c3acdb189668e7f3
+    log: |
+         1fdadc8418bebba39899f341c3acdb189668e7f3 ARM: s3c: Do not include <linux/fb.h>
+         
 
---===============8722145664359884292==
+--===============4117252336232252379==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-190797d47f16-842ee6aeddff.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-78683c25c80e54bf3e8015fdfb8cba2fcd03daa5 RDMA/mana_ib: Allow registration of DMA-mapped memory in PDs
-6e1b8bdcd04f4e84c924489e2f837cf620002b69 RDMA/mana_ib: implement get_dma_mr
-f662c0f5b3396a05fe9b149bf397f253cf1eb307 RDMA/mana_ib: helpers to allocate kernel queues
-822d4c938e0d93c2066ae1cfa6b5c8f79007e225 RDMA/mana_ib: create kernel-level CQs
-392ed69a9ac45cd67a7d3415a734dc30a08cbaaa RDMA/mana_ib: Create and destroy UD/GSI QP
-bf3f6576bbbd511bbf30244ef82b3e48b7ae0331 RDMA/mana_ib: UD/GSI QP creation for kernel
-09ec8a579033482a003aa807085b3d4f813c7bf0 RDMA/mana_ib: create/destroy AH
-622f1fc2ca7dea00b801c418580d9994c2fe8cb6 net/mana: fix warning in the writer of client oob
-8d9a5210545c2744e411c8281f785a03ced8e3e8 RDMA/mana_ib: UD/GSI work requests
-cd595cf391733c98ec2d5cf92e02859b1e88b1e8 RDMA/mana_ib: implement req_notify_cq
-9fe09a01ade76dbc3d611c5dda245692bd5125a0 RDMA/mana_ib: extend mana QP table
-4aa5b0508003258244c79604e7bbabd394c00d5c RDMA/mana_ib: polling of CQs for GSI/UD
-842ee6aeddff08e097d1a4784ad56fa2331c1627 RDMA/mana_ib: indicate CM support
+certificate version 0.1
+pusher krzk@kernel.org 1738583947 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1738583916-b950e013613d3265d0ba065f322f868a534d57f9
 
---===============8722145664359884292==--
+2014c95afecee3e76ca4a56956a936e23283f05b e3a9c321273dd073d309e96e08f40fa046eb90ac refs/heads/for-next
+2014c95afecee3e76ca4a56956a936e23283f05b 00c1fda73df8081f40840f860c8d75e2c9070d48 refs/heads/next/drivers
+2014c95afecee3e76ca4a56956a936e23283f05b 1fdadc8418bebba39899f341c3acdb189668e7f3 refs/heads/next/soc
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmegr4sQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1xtlD/9j/6X4SipyFGVjD2sDrPAEvIZWBn86qpf0
++aStZzviSd209BzKeLJZTYT1wLBVbQe/rJM6HBeYCimGtybPKgJezaFNB1qjgqTQ
+ur9euy7gnwJZdulIi6uX3xt5p1K5NZ9qEfCv7Nl0ewRoRc6sA/ZPSfXb24j/Zv4A
+pzOS+qnpLZ/bmRkD+rzHD1uIv/hypY7qz2V8ENu4Tc8US1IjJVOqfuZIbZd0l8dM
++V3Ju78tu71ZaQ9xZrv/VaENzRaFnPvDpGNfj1dWnE/tSwspOAxcSMxgPiqU7XoP
+gdUGQBF4jqt4/6k/c/JHn3fua5uIQbbbm2c5w2dCwwujBsedJu1qSYKfA58euTFq
+8oPjrf1xlkxMXrbjHlFckT3AEHpAaw4HrLC+M2QHd3rq79fUbi0Tn6wIU8jLSFaG
+ZXKQhXB9RupCLsNXRuJc8WtpFwA9WPqeZq8GJ2zVVDyljBW+Bf2XvG/PFNmkuHyS
+6b0IvV3MHgAK9Osij/n4zojJnj6qrio4NGbsaC+IJVtHl28UL6pUGnf78Mk9YRac
+lRd+ABdfZI06r5QKTrtQmk/BWMTmuy8qMkYbmH8RDgokfVy60i4+QHe5aWNhmI5a
+V8AIDAgiRfTFyvKDEzmIe9g9fTJV2P0RLojMuA1Xb/U+dj7w0iX4SsK/7tPp2qvA
+Dqt9NvQpGw==
+=wBNZ
+-----END PGP SIGNATURE-----
+
+--===============4117252336232252379==--
