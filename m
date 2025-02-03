@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0519058893538683801=="
+Content-Type: multipart/mixed; boundary="===============5213586160022662334=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 03 Feb 2025 10:18:50 -0000
-Message-Id: <173857793067.3753517.810227761451729920@gitolite.kernel.org>
+Date: Mon, 03 Feb 2025 10:18:59 -0000
+Message-Id: <173857793976.3753672.8728337979690981584@gitolite.kernel.org>
 
---===============0519058893538683801==
+--===============5213586160022662334==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/wip/leon-for-next
+  - ref: refs/heads/wip/leon-for-rc
     old: 0afd22092df4d3473569c197e317f91face7e51b
     new: 2014c95afecee3e76ca4a56956a936e23283f05b
     log: revlist-0afd22092df4-2014c95afece.txt
 
---===============0519058893538683801==
+--===============5213586160022662334==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
 
---===============0519058893538683801==--
+--===============5213586160022662334==--
