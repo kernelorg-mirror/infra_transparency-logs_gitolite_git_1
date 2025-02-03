@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============7196213166394586755=="
+Content-Type: multipart/mixed; boundary="===============2773902335287665524=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Mon, 03 Feb 2025 12:06:06 -0000
-Message-Id: <173858436601.3853645.17182729209512292363@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
+Date: Mon, 03 Feb 2025 12:06:15 -0000
+Message-Id: <173858437552.3853802.14400250940886171931@gitolite.kernel.org>
 
---===============7196213166394586755==
+--===============2773902335287665524==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/johan/usb-serial
+repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
   - ref: refs/heads/master
-    old: 4bbf9020becbfd8fc2c3da790855b7042fad455b
+    old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
     new: 2014c95afecee3e76ca4a56956a936e23283f05b
-    log: revlist-4bbf9020becb-2014c95afece.txt
+    log: revlist-40384c840ea1-2014c95afece.txt
 
---===============7196213166394586755==
+--===============2773902335287665524==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-4bbf9020becb-2014c95afece.txt
+Content-Disposition: attachment; filename=revlist-40384c840ea1-2014c95afece.txt
 
 668135b9348c53fd205f5e07d11e82b10f31b55b NFSv4.2: mark OFFLOAD_CANCEL MOVEABLE
 0b96c75d86560c077d29ce629e9d1ca0258c9cc1 NFSv4.2: make LAYOUTSTATS and LAYOUTERROR MOVEABLE
@@ -1051,4 +1051,4 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
 
---===============7196213166394586755==--
+--===============2773902335287665524==--
