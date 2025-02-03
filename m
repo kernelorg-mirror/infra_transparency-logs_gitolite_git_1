@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0054119397435495532=="
+Content-Type: multipart/mixed; boundary="===============7710564728722398378=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Mon, 03 Feb 2025 05:28:52 -0000
-Message-Id: <173856053253.3460141.5188351587242321686@gitolite.kernel.org>
+Date: Mon, 03 Feb 2025 05:29:11 -0000
+Message-Id: <173856055139.3460375.14525708980142366710@gitolite.kernel.org>
 
---===============0054119397435495532==
+--===============7710564728722398378==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,50 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vireshk/pm
 user: vireshk
 changes:
-  - ref: refs/heads/cpufreq/core-attr
-    old: e3129c51f8623ce847b0486105bc00cd45ca0250
-    new: f04d7aa605d6d95c2e359f7b7c359ce9d4d12b4c
-    log: revlist-e3129c51f862-f04d7aa605d6.txt
+  - ref: refs/heads/opp/linux-next
+    old: b489e7946656ed67fea1a30f5103eb62a8686e04
+    new: 2014c95afecee3e76ca4a56956a936e23283f05b
+    log: revlist-b489e7946656-2014c95afece.txt
 
---===============0054119397435495532==
+--===============7710564728722398378==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-e3129c51f862-f04d7aa605d6.txt
+Content-Disposition: attachment; filename=revlist-b489e7946656-2014c95afece.txt
 
+668135b9348c53fd205f5e07d11e82b10f31b55b NFSv4.2: mark OFFLOAD_CANCEL MOVEABLE
+0b96c75d86560c077d29ce629e9d1ca0258c9cc1 NFSv4.2: make LAYOUTSTATS and LAYOUTERROR MOVEABLE
+a3282f84b2151d254dc4abf24d1255c6382be774 PCI: switchtec: Add Microchip PCI100X device IDs
+13b6931c44969ff057ad2a3aa1c20a1b28b79b6f Merge tag 'x86_sev_for_v6.14_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+e7217011ddd8e86a0d18c6cbfb4f14da3d18eee0 ALSA: usb: fcp: Fix meter_levels type to __le32
+f08cc80f69be62beb7a63cd4813c7989c8708831 ALSA: usb: fcp: Fix incorrect resp->opcode retrieval
+0a8f5f4652ef4d530a7cb8bed2b6e502cdfa825f ALSA: usb: fcp: Fix return code from poll ops
+b02cfbd9bfb9f45eebb33771e5705af95b5c9673 dt-bindings: PCI: mobiveil: Convert mobiveil-pcie.txt to YAML
+10e796eed62648ff928cb66d52f226452e1affff dt-bindings: PCI: qcom,pcie-sm8550: Document 'global' interrupt
+c25b978d351fae5da87794be9160d8acfa6e6823 dt-bindings: PCI: qcom: Document the IPQ5424 PCIe controller
+a8581752278ef9d6ea73bb10eef2657bfb73e116 bcachefs: Fix btree_trans_peek_key_cache()
+48795f90cbdcccc36cc415a2d785a23a4b23e57a Merge tag 'x86_cpu_for_v6.14_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+b9d8a295ed6bc3cee846f8e3f27c9c6e9ebe43f2 Merge tag 'x86_misc_for_v6.14_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+e721f619e3ec9bae08bf419c3944cf1e6966c821 iommufd: Fix struct iommu_hwpt_pgfault init and padding
+f917016f69ba5a0c42a3a3327792707315f2a937 bcachefs: Reduce stack frame size of __bch2_str_hash_check_key()
+abb604a1a9c87255c7a6f3b784410a9707baf467 RDMA/mlx5: Fix a race for an ODP MR which leads to CQE with error
+dec6b006f4cc13968d75ed28673ca4e3633de96b ASoC: dt-bindings: ti,pcm1681: Fix the binding title
+8838a1a2d219a86ab05e679c73f68dd75a25aca5 Merge tag 'locking-core-2025-01-20' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+d3d930411ce390e532470194296658a960887773 RDMA/mlx5: Fix implicit ODP use after free
+a6640c8c2fc029f015c87672585931c6106971c1 Merge tag 'objtool-core-2025-01-20' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+6c4aa896ebee5edf2b35a9d071e5a468797f96d8 Merge tag 'perf-core-2025-01-20' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+858df1de2158bd7ab88d31b557592e990bacc0b5 Merge tag 'x86-cleanups-2025-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+70741cc38463371914f49a1f4fda5de2afdc4c86 Merge branches 'clk-cleanup', 'clk-renesas', 'clk-mediatek', 'clk-samsung' and 'clk-socfpga' into clk-next
+b2fee97e6f0b6b935918744f44ca80246a18289e Merge branches 'clk-microchip', 'clk-xilinx', 'clk-allwinner', 'clk-imx' and 'clk-qcom' into clk-next
+1d2da923fb985bb57cc161316c76edb8d567b9bd Merge branches 'clk-airoha', 'clk-rockchip', 'clk-stm', 'clk-thead' and 'clk-bcm' into clk-next
+53c9c27672bb0241998ddf2d1588106920d4064b Merge branch 'clk-fixes' into clk-next
+62de6e1685269e1637a6c6684c8be58cc8d4ff38 Merge tag 'sched-core-2025-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+f26d37ee9bda938e968d0e11ba1f8f1588b2a135 misc: pci_endpoint_test: Fix IOCTL return value
+e19bde2269ca3611156fd0c078a71af0b6956545 selftests: Move PCI Endpoint tests from tools/pci to Kselftests
+392188bb0f6ec5162edf457c062929a6abfa369a selftests: pci_endpoint: Migrate to Kselftest framework
+cd2375a3567fd3d93aa6c68e0027a5756213bda0 ring-buffer: Do not allow events in NMI with generic atomic64 cmpxchg()
+f95ee542947d748d4ca01b4d3103dbdc4fdc8889 tracing: Fix allocation of printing set_event file content
+8f21943e101a15f56a8f02970a80edc936de8ec8 tracing: Fix output of set_event for some cached module events
 531503054e8fe9f4502fff0dceba20dfaa9920d5 nfsd: fix handling of delegated change attr in CB_GETATTR
 8e1d32273ab7d06b6f78771e05824bfab01141f4 nfs_common: make include/linux/nfs4.h include generated nfs4_1.h
 8dfbea8bde6e976136948421325b24b5bdb76ad3 nfsd: switch to autogenerated definitions for open_delegation_type4
@@ -1017,38 +1050,5 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 5d82ca7b5019d880a579831278eb73cbbfdb87da Merge tag 'sh-for-v6.14-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
-dc954cc68e8c2f104be36f725f1fa7fdbf30ddc6 cpufreq: Always create freq-table related sysfs file
-60ef50eccfc501a12fedf84d4f811bb68ef415b1 cpufreq: dt: Stop setting cpufreq_driver->attr field
-b58a02094bc9ca68db01bd579aad4855f63b266f cpufreq: acpi: Stop setting common freq attributes
-3dc1c203ccac5b807ef47ddc81dad240e7875260 cpufreq: apple: Stop setting cpufreq_driver->attr field
-5624961eb1034789a3a8f7885d3fec0dab7701cf cpufreq: bmips: Stop setting cpufreq_driver->attr field
-b0fa43bf02614d4d76018c9cf59192551c896d09 cpufreq: brcmstb: Stop setting common freq attributes
-e79a1147ac146537127e1800a25972641a126029 cpufreq: davinci: Stop setting cpufreq_driver->attr field
-9c509e19b600242ce0c1691150e7484f44d79054 cpufreq: e_powersaver: Stop setting cpufreq_driver->attr field
-3edf197b36beea75f9561b8ca3c4eae7826f9054 cpufreq: elanfreq: Stop setting cpufreq_driver->attr field
-254bbc726adfa9d77d4438d64a51c05f9a8b2fc1 cpufreq: imx6q: Stop setting cpufreq_driver->attr field
-abe6756f8371823ecd78142a754514850f96b10c cpufreq: kirkwood: Stop setting cpufreq_driver->attr field
-9b0d7ad00b6e5d3f7ba8488331f63ab02a0dc787 cpufreq: longhaul: Stop setting cpufreq_driver->attr field
-f4e1d833321ea53bed0aef82cd5deb5e83191e33 cpufreq: loongson: Stop setting cpufreq_driver->attr field
-6b80fc715219f7c78aff84f8e55a2bcd16a988e2 cpufreq: mediatek: Stop setting cpufreq_driver->attr field
-0901d884892bc0a7c4307ac9deb44d3e5df3d5ed cpufreq: omap: Stop setting cpufreq_driver->attr field
-192452ca0a8a33b6c792f8e9a5ba16751c3dd986 cpufreq: p4: Stop setting cpufreq_driver->attr field
-c22483e7de153d89a88bb9b9ccefcc29e8dfd6e3 cpufreq: pasemi: Stop setting cpufreq_driver->attr field
-77d0e7deb8149cd19124d7cd2fabe1afdccafec3 cpufreq: pmac: Stop setting cpufreq_driver->attr field
-dba49a3d5c9f45287809ad4aa2be4fd06f39589b cpufreq: powernow: Stop setting cpufreq_driver->attr field
-efc38947d0062f927d8c37558fe7203ff36026ed cpufreq: powernv: Stop setting common freq attributes
-b2f41ed143bc42b144720c59b22d120f3c7aa09b cpufreq: qcom: Stop setting cpufreq_driver->attr field
-c0d6906f6be8c5cdba36a1c5353f7eb031a4d977 cpufreq: qoriq: Stop setting cpufreq_driver->attr field
-e30047ceebe36b24be82a08ef5933aa0b20284a5 cpufreq: sc520_freq: Stop setting cpufreq_driver->attr field
-0370386c822ac9a01956bf55991c4ec7b2e7cd28 cpufreq: scmi: Stop setting cpufreq_driver->attr field
-16f686621a18dadce96c6996249bbbf787655823 cpufreq: scpi: Stop setting cpufreq_driver->attr field
-6c1c22ee3c063b7e086895677324ce53d6dc05b2 cpufreq: sh: Stop setting cpufreq_driver->attr field
-4d00243c092278f3adbe528b6fbc4dfece969a5e cpufreq: spear: Stop setting cpufreq_driver->attr field
-6795ddebdfa334408dbb47168804a8be24b7bc83 cpufreq: speedstep: Stop setting cpufreq_driver->attr field
-70cbae52ee96d1c7cb5b86bfeb9121e932f9cd01 cpufreq: tegra: Stop setting cpufreq_driver->attr field
-f97e93c61492b57dbb6fe5815e5a92d910288ca4 cpufreq: vexpress: Stop setting cpufreq_driver->attr field
-f214a6b1da35d3a5857a5a3fc03eceaf2be7cfb2 cpufreq: virtual: Stop setting cpufreq_driver->attr field
-d0ba914fc940b87d4dae91a92b24ef8ba7179390 cpufreq: Remove cpufreq_generic_attrs
-f04d7aa605d6d95c2e359f7b7c359ce9d4d12b4c cpufreq: Stop checking for duplicate available/boost freq attributes
 
---===============0054119397435495532==--
+--===============7710564728722398378==--
