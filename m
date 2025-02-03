@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Mon, 03 Feb 2025 12:30:11 -0000
-Message-Id: <173858581143.3874833.13957090774380636179@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sailus/linux-next
+Date: Mon, 03 Feb 2025 12:31:50 -0000
+Message-Id: <173858591034.3875861.6249493599304869223@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-linux
-user: cem
+repo: pub/scm/linux/kernel/git/sailus/linux-next
+user: sailus
 changes:
-  - ref: refs/tags/xfs-fixes-6.14-rc2
+  - ref: refs/heads/pm-direct-on-next
     old: 0000000000000000000000000000000000000000
-    new: 214c2389baf911dc647917355114ddff1718539d
+    new: 61509cb94bc62c9c143e5270d35ccd768026bee1
