@@ -1,59 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============3696917782430285556=="
+Content-Type: multipart/mixed; boundary="===============2563837188776597336=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 03 Feb 2025 14:10:37 -0000
-Message-Id: <173859183739.3968201.3941393425493603207@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 03 Feb 2025 14:10:44 -0000
+Message-Id: <173859184497.3968656.7117484510425099874@gitolite.kernel.org>
 
---===============3696917782430285556==
+--===============2563837188776597336==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regmap-6.14
-    old: d406b354df909155ff0122acf80f3bc7410fa27e
+  - ref: refs/heads/for-6.14
+    old: a07eb4f67ed085f32002a1af2b6073546d67de3f
     new: 2014c95afecee3e76ca4a56956a936e23283f05b
-    log: revlist-d406b354df90-2014c95afece.txt
-  - ref: refs/heads/regmap-6.15
-    old: 0000000000000000000000000000000000000000
-    new: 995cf0e014b0144edf1125668a97c252c5ab775e
+    log: revlist-a07eb4f67ed0-2014c95afece.txt
+  - ref: refs/heads/for-6.15
+    old: 2014c95afecee3e76ca4a56956a936e23283f05b
+    new: c1ac98492d1584d31f335d233a5cd7a4d4116e5a
+    log: |
+         c1ac98492d1584d31f335d233a5cd7a4d4116e5a spi: realtek-rtl-snand: Drop unneeded assignment for cache_type
+         
 
---===============3696917782430285556==
+--===============2563837188776597336==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1738591865 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1738591834-1e73bafd69d8374f16718dba34d4e8b601af8104
+pusher C3F436CA30F5D8EB 1738591873 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1738591842-800adc77adfb44b8ade29055e86d289fae85d66c
 
-d406b354df909155ff0122acf80f3bc7410fa27e 2014c95afecee3e76ca4a56956a936e23283f05b refs/heads/regmap-6.14
-0000000000000000000000000000000000000000 995cf0e014b0144edf1125668a97c252c5ab775e refs/heads/regmap-6.15
+a07eb4f67ed085f32002a1af2b6073546d67de3f 2014c95afecee3e76ca4a56956a936e23283f05b refs/heads/for-6.14
+2014c95afecee3e76ca4a56956a936e23283f05b c1ac98492d1584d31f335d233a5cd7a4d4116e5a refs/heads/for-6.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmegznkACgkQJNaLcl1U
-h9CglQf/etscKOIiQ+sgQ4JDyEaD/MfErJJOzqxg2iblNq+WZ3Pt+Td9xUDBZMy6
-Yf0GvRpu269dTnHleIEnXznJ8A0bhMJZtyldmjEf6zCh1Qt4GEjsKx9aZd5k3/HZ
-l8K+ohbrHXaW4SBpcWakcoYey55fmsb9b3g87R7kgeJt+0+KhhCUne5eoZexmIZ9
-T3oKnIo5+byYgnuQzLJ3vhLnD1YJUxPeEioRebK4Lnv0hclZThKFDFy+axQsPt0E
-aLuWT93/sUKTuVwiznUeGiJ2MKGn8471tEesE8aUa4SHxxmp8THgcY0ZkDu13GpR
-rr7cwDaWZ5GJa6WMArLjSFbvepxk6A==
-=Cz5W
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmegzoEACgkQJNaLcl1U
+h9ABZwf/dKM2muuCZ3Vilz4UViJgYjScViVppr/5gmc/Lg4DR0wnsEwVovWPouPO
+gYPQDJVWq+hIju6/Td0lb2X6Qx7zG2BThDi9EbZOYWIegW+W34j0bx/EG2Emdpj2
+rFNu2jyxtz+HXFbW0/sMOMWkc2fWa6wHg79AKNZoGWfPuZLsNtoOfKEm9qLrRvCM
+fZBRfnIdwSdSoqrKiLPSqZ1fMN+f8QsoNXuriq5Wq0PWJbWLTCXxgNs5xzJCpxzr
+8DSpk7DvLdMXQDJgQQ3Bf8W+v+RW8oKypws6O7ttFPXVhvQhGvQzySO3Pd5fn2pL
+f8xbVHn8sRqIkUOVKzYgqi9Q/615ow==
+=vKDf
 -----END PGP SIGNATURE-----
 
---===============3696917782430285556==
+--===============2563837188776597336==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-d406b354df90-2014c95afece.txt
+Content-Disposition: attachment; filename=revlist-a07eb4f67ed0-2014c95afece.txt
 
 668135b9348c53fd205f5e07d11e82b10f31b55b NFSv4.2: mark OFFLOAD_CANCEL MOVEABLE
 0b96c75d86560c077d29ce629e9d1ca0258c9cc1 NFSv4.2: make LAYOUTSTATS and LAYOUTERROR MOVEABLE
@@ -1080,4 +1083,4 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
 
---===============3696917782430285556==--
+--===============2563837188776597336==--
