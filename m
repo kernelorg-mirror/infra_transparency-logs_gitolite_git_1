@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3424841979524909253=="
+Content-Type: multipart/mixed; boundary="===============7696605418816679085=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 03 Feb 2025 12:25:07 -0000
-Message-Id: <173858550772.3870038.15046748090460761483@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 03 Feb 2025 12:25:47 -0000
+Message-Id: <173858554777.3870723.2780664910931740650@gitolite.kernel.org>
 
---===============3424841979524909253==
+--===============7696605418816679085==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 2014c95afecee3e76ca4a56956a936e23283f05b
     log: revlist-ffd294d346d1-2014c95afece.txt
 
---===============3424841979524909253==
+--===============7696605418816679085==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
 
---===============3424841979524909253==--
+--===============7696605418816679085==--
