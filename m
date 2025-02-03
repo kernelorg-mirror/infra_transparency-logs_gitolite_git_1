@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3725627191801548527=="
+Content-Type: multipart/mixed; boundary="===============5437175546196207511=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 03 Feb 2025 15:39:19 -0000
-Message-Id: <173859715919.4047712.6216440306507104525@gitolite.kernel.org>
+Date: Mon, 03 Feb 2025 15:41:08 -0000
+Message-Id: <173859726801.4050734.17027952884440183867@gitolite.kernel.org>
 
---===============3725627191801548527==
+--===============5437175546196207511==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: 2014c95afecee3e76ca4a56956a936e23283f05b
-    new: 9e8b21410f310c50733f6e1730bae5a8e30d3570
+    old: 9e8b21410f310c50733f6e1730bae5a8e30d3570
+    new: 335a1fc1193481f8027f176649c72868172f6f8b
     log: |
-         9e8b21410f310c50733f6e1730bae5a8e30d3570 usb: gadget: f_midi: Fixing wMaxPacketSize exceeded issue during MIDI bind retries
+         309005e448c1f3e4b81e4416406991b7c3339c1d usb: phy: generic: Use proper helper for property detection
+         1ed3af5a2aaefd0ecd887ecabdc8da07220e31fe usb: dwc3: Document nostream_work
+         335a1fc1193481f8027f176649c72868172f6f8b usb: gadget: udc: renesas_usb3: Fix compiler warning
          
 
---===============3725627191801548527==
+--===============5437175546196207511==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1738597187 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1738597296 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1738597156-93cce211e6b39d7d32c8440a240231ca76ee9017
+nonce 1738597265-9fd450ef6473c64934b8744e5c0af17cec6d5d7e
 
-2014c95afecee3e76ca4a56956a936e23283f05b 9e8b21410f310c50733f6e1730bae5a8e30d3570 refs/heads/usb-linus
+9e8b21410f310c50733f6e1730bae5a8e30d3570 335a1fc1193481f8027f176649c72868172f6f8b refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeg40MbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DFUQAMU11FwDTQPC/2qnn0ab
-49a0SIvjeSAXAOeSHi4gd0/JOIU4jTkYUattiUdUbzc9jehMxJGXj45r2tPKX4+t
-vuvYjI7AyjJiz9yWnhc0iVN7St3U1HUxmnKF4MbW/YAprER+i4ZCD7h4W1Wm5cGH
-D47c38domkUZb1oFdGXKi2m5Q8Z+3wY3oqGAwzY0ZGUT121WRMiaigtO0CSB46UY
-nGmC8rKxZRtWt3oIUJjccDu91mXRtZQ3bmzgIHDrQyf/2SQ7ixQTTVnwtoxhqDCs
-1o86vH6ELpPzVYx1y7X7L1GRXDnPzOlW2051uy4XYvCaLX7hvrA20osWgB8CU/vy
-BmWC3WAoPyVfKVbweFf7uWg+L2sV/sZAP7dT52621HISvmNa5HuOqX1vU8kfJJT7
-fLbwev44t3BwmDirg8n7tiGPw95EERuM9OHlIgCEZLzu15F0Gb9MLdMNIZTLVOX4
-3YE8/+XHQCtPcXPItUH4KaH47le4XO6d7Qlv+WpuYsemY1cKj3ljnLyi2b4b/xwc
-jZl+ObrJBX12eKyfYVzrGr0V/w032FzqnCiWX7vdKMZ5MBDKmMeNdnkHXGEMsWar
-Ecdd1kmBrFzrDB30VKc4kcdYGsMpKKvrvPPe8S8/oxqqgn6M4h42ys3lSbSaBcJB
-89xS2/bARyAPwy5ciZfIvQIB
-=4N0E
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeg47AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+q1gP/2Z23HhCAd0M3gINgQcB
+otS4COL+HopPxCqESpbMNRbt0n2NhEI98ggXpgvk6E/GXzBLWdIMpPAqH+h3pF/7
+zN0XWWB5D0owGSG1JfWhDIjprKSiph96vvmgKzzrw004BFTfsQyvXpOrodMKb8gk
+7shv9VglWs3mBnbNCbRHNfHDbAQzZWL8qEDcfu0WmLW7qyrD5kxrfO4MuXJn292I
+5wz4OWhIHmKzugKANrR9ChfFzWPH0yEvRTbhC3g17We1csLMLIPI2/D4yJZI8XNS
+1ggYr0jHUrYHUapcZX68QaieFnb4zDX/XRx9zPBFUVB25dxG7g/nTRMZnSsWEiQ8
+MhPyPpeD3I6IPjAqxv1l6Y9xIUUcWQL1+FPpgmlo+4SOzZ2T3uWseTB9wdB8UK4k
+BGWH/lJhrsYJ8/CxVZbMQ0ofqszDJhYY/ru/QpouC8vpnIYxrYiZghH+7vpz7a6x
+yK7/KezTd1bfnVevIjt1XA+FNcmZ9dxI8+MQ2pZiX6dCBbpKt9UNg6HixahP4xX2
+6pliqnYOaHxqWftJwEttt6ef3HDdSpC0DLbhxa55jYJeHgEQjbrFX0prqFt9j/a1
+/wI2p/QD8gGUfJwB461R8S9T9epH+gAIQUo6jrM+3zI3UhyqCrGXi5qA3NYRfHw0
+SPz6PUXUwtXxppjPTBdOBg+9
+=kwrQ
 -----END PGP SIGNATURE-----
 
---===============3725627191801548527==--
+--===============5437175546196207511==--
