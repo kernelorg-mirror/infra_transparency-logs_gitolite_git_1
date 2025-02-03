@@ -1,38 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============4190326037969582249=="
+Content-Type: multipart/mixed; boundary="===============5343344656035645948=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
-Date: Mon, 03 Feb 2025 11:21:34 -0000
-Message-Id: <173858169476.3809793.9058391833124780122@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bigeasy/staging
+Date: Mon, 03 Feb 2025 11:29:20 -0000
+Message-Id: <173858216086.3814895.15720853001812433172@gitolite.kernel.org>
 
---===============4190326037969582249==
+--===============5343344656035645948==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sunxi/linux
-user: wens
+repo: pub/scm/linux/kernel/git/bigeasy/staging
+user: bigeasy
 changes:
-  - ref: refs/heads/master
-    old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    new: 2014c95afecee3e76ca4a56956a936e23283f05b
-    log: revlist-40384c840ea1-2014c95afece.txt
-  - ref: refs/tags/v6.14-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 379487e17ca406b47392e7ab6cf35d1c3bacb371
+  - ref: refs/heads/ucount
+    old: e933f12ae31bcc9f45db8c1514882681213b9f52
+    new: 5e95609e1bca640cfda1a1457a512cfc9bbc1b64
+    log: revlist-e933f12ae31b-5e95609e1bca.txt
 
---===============4190326037969582249==
+--===============5343344656035645948==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-40384c840ea1-2014c95afece.txt
+Content-Disposition: attachment; filename=revlist-e933f12ae31b-5e95609e1bca.txt
 
-668135b9348c53fd205f5e07d11e82b10f31b55b NFSv4.2: mark OFFLOAD_CANCEL MOVEABLE
-0b96c75d86560c077d29ce629e9d1ca0258c9cc1 NFSv4.2: make LAYOUTSTATS and LAYOUTERROR MOVEABLE
-a3282f84b2151d254dc4abf24d1255c6382be774 PCI: switchtec: Add Microchip PCI100X device IDs
-13b6931c44969ff057ad2a3aa1c20a1b28b79b6f Merge tag 'x86_sev_for_v6.14_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 e7217011ddd8e86a0d18c6cbfb4f14da3d18eee0 ALSA: usb: fcp: Fix meter_levels type to __le32
 f08cc80f69be62beb7a63cd4813c7989c8708831 ALSA: usb: fcp: Fix incorrect resp->opcode retrieval
 0a8f5f4652ef4d530a7cb8bed2b6e502cdfa825f ALSA: usb: fcp: Fix return code from poll ops
@@ -1053,5 +1046,9 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 5d82ca7b5019d880a579831278eb73cbbfdb87da Merge tag 'sh-for-v6.14-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
+a74fdda5f106ac60aac06a0bc04c919fce459b85 rcu: Provide a static initializer for hlist_nulls_head.
+88414574d012ad10273789cae590a1804a4033d4 ucount: Replace get_ucounts_or_wrap() with atomic_inc_not_zero().
+fb8dbb4161d1d8bafeb1ff84fa2db8bb5d390e8e ucount: Use RCU for ucounts lookups.
+5e95609e1bca640cfda1a1457a512cfc9bbc1b64 ucount: Use rcuref_t for reference counting.
 
---===============4190326037969582249==--
+--===============5343344656035645948==--
