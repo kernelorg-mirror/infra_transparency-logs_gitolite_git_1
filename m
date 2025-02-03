@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3557744796509401034=="
+Content-Type: multipart/mixed; boundary="===============7595372340992979218=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-w1
-Date: Mon, 03 Feb 2025 07:48:26 -0000
-Message-Id: <173856890642.3626856.14036017895399332441@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
+Date: Mon, 03 Feb 2025 07:49:03 -0000
+Message-Id: <173856894336.3627460.6772512626089188621@gitolite.kernel.org>
 
---===============3557744796509401034==
+--===============7595372340992979218==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-w1
+repo: pub/scm/linux/kernel/git/krzk/linux-dt
 user: krzk
 git_push_cert_status: Y
 changes:
@@ -20,42 +20,38 @@ changes:
     old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
     new: 2014c95afecee3e76ca4a56956a936e23283f05b
     log: revlist-40384c840ea1-2014c95afece.txt
-  - ref: refs/tags/v6.14-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 379487e17ca406b47392e7ab6cf35d1c3bacb371
 
---===============3557744796509401034==
+--===============7595372340992979218==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1738568934 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-w1.git
-nonce 1738568903-c43b21bd7d0cdc3a5cc94809db8741fce4fe4535
+pusher krzk@kernel.org 1738568971 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
+nonce 1738568940-0c44ee4673ae5c99b36f1b314595c4d613354b3f
 
 40384c840ea1944d7c5a392e8975ed088ecf0b37 2014c95afecee3e76ca4a56956a936e23283f05b refs/heads/master
-0000000000000000000000000000000000000000 379487e17ca406b47392e7ab6cf35d1c3bacb371 refs/tags/v6.14-rc1
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmegdOYQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD17QUEACFg4Y4Sb6/00GZJ6YuBPjC1l+d8hk6axX1
-X9unnRPe7iLpPtPMt7wGEBG5/9Cdm1p3ggQAa1FX2okSRIh55VnnlhiwBxKf30pn
-9MSq1vc9B+INpeoz8KAsutMSftNnAL9CkdnJSmBOlWONrW9m/YPJVFfIlSqIpowF
-WT5U3tNwP56IzxzJUGxBB4AfZCGPViJ8sTIOLWzg3u0HWE9nbos7uAE9KXdYoqsw
-7hjyta+IFqqcoQKLBbBsBFt7wh7tpK8LUWwnwt4qlAQKFzkgbHhGDP9zVYHV8ibd
-8+5cCH/JoRuWTqBJ/jALUPyCp+4eUDiu5amP5t07VIPPP98D12dZFylzMifUL2Mx
-LmATebAEiEAt1Nt3My74Xu+xTi82DtemUWiIS2F7dggg5TUOtiLW0aMuMyx176gb
-/791Bpqk+oMGMfmTfCp5TqT6RP6MfFgCdP1kzuKi6riIr8ooET6VDLbm762x7FkY
-5Zry/f0PfSOb4Q4W5I+keDavsDcFsysGgUMi/b1gpBg2vRBNsCTAnj10+7bH1jmQ
-+OyexC2cZ32ZF/s6c2H//0aOC3w246ORw89HyRvdjEZ4VWVcmgr+NV0L1GPKzXfM
-Q6jNYb1EJHENaBL/MdYLcmCznrvgpewJhtmireg+xJA6lxfzuF47y8BLmHxXj2qX
-FWFfNgEcBQ==
-=Qk0Z
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmegdQsQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD10urD/4izjopJWbCblohOtY+CYQ5OLyYCnxIIVvk
+yaiaIL1R/kMUqg/PCJVdgcIys6f3p88jO0C5zFofdKrNAqiL6ZqG2sTKzZ6A5Ax+
+cNYP3gXn3pkJpS4Rn8tzhnB9UnrHcZMlHOfLbiPin4z6ZYDTXYi0x7M+M4lwT04u
+nNAizh+pDYPalCh6bi262uANPwVqi9UBRbJNT8/vdJp9t5ba4pS5wNtY/4jfJEi6
+UXcPLRc1I9tWmrJ65Ap98vaKgXtzue6eG4cr5P3s98MT93zsQUwTOiiZoqdsrAI+
+yJgrqAskdiMg9GjqvCWeRjKg8qjtalhl45YD6TJVNBS9pbVo7YHAiJ2ivihsa0nS
+jeBgJJqqJlHVtj83TWP+T+EEkCOIs8HURRU4NAkKPkw7BAB7ayLS5hIRQTm9NAlp
+3Z87kYy5HvJ33PTgh0zkKAxKc3FUqXMgTicHgP+eBWUwV65HxoH64xjrkGa67EdC
+7SWMJe5GG/G/B8/BkX839jRIW1YYaBe3Sh1JwKNN/1GYF2OXhB8E/+aLB3LOOghE
+BjErDLJ1QutayuCjsfmIi+w/JPLWUA1AnD5RZMTLTAyB5x8aUrjsf0t6YFOmqGpH
+EU7ruBHinoxOGusBsBG4m1AasE7ArEdaca0lMiN0Irr26fWxZVmgXAdh6K0QL1m+
+0wba00Y7Og==
+=9vjT
 -----END PGP SIGNATURE-----
 
---===============3557744796509401034==
+--===============7595372340992979218==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1086,4 +1082,4 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
 
---===============3557744796509401034==--
+--===============7595372340992979218==--
