@@ -1,32 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============7662193107272699030=="
+Content-Type: multipart/mixed; boundary="===============2289026398127845967=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/devsec/spdm
-Date: Mon, 03 Feb 2025 05:44:01 -0000
-Message-Id: <173856144156.3472024.10396662254808545372@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/superm1/linux
+Date: Mon, 03 Feb 2025 06:04:50 -0000
+Message-Id: <173856269083.3488392.17382634171051945217@gitolite.kernel.org>
 
---===============7662193107272699030==
+--===============2289026398127845967==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/devsec/spdm
-user: lukas
+repo: pub/scm/linux/kernel/git/superm1/linux
+user: superm1
 changes:
-  - ref: refs/heads/next
-    old: 9852d85ec9d492ebef56dc5f229416c925758edc
-    new: 2014c95afecee3e76ca4a56956a936e23283f05b
-    log: revlist-9852d85ec9d4-2014c95afece.txt
+  - ref: refs/heads/bleeding-edge
+    old: 0cdfb4ad0b2af2409d833e7705a2cd53ab03775d
+    new: fa803513ab68ba07369643393f1754b845160030
+    log: revlist-0cdfb4ad0b2a-fa803513ab68.txt
 
---===============7662193107272699030==
+--===============2289026398127845967==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-9852d85ec9d4-2014c95afece.txt
+Content-Disposition: attachment; filename=revlist-0cdfb4ad0b2a-fa803513ab68.txt
 
-668135b9348c53fd205f5e07d11e82b10f31b55b NFSv4.2: mark OFFLOAD_CANCEL MOVEABLE
 0b96c75d86560c077d29ce629e9d1ca0258c9cc1 NFSv4.2: make LAYOUTSTATS and LAYOUTERROR MOVEABLE
 a3282f84b2151d254dc4abf24d1255c6382be774 PCI: switchtec: Add Microchip PCI100X device IDs
 13b6931c44969ff057ad2a3aa1c20a1b28b79b6f Merge tag 'x86_sev_for_v6.14_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1050,5 +1049,6 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 5d82ca7b5019d880a579831278eb73cbbfdb87da Merge tag 'sh-for-v6.14-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
+fa803513ab68ba07369643393f1754b845160030 cpufreq/amd-pstate: Fix per-policy boost flag incorrect when fail
 
---===============7662193107272699030==--
+--===============2289026398127845967==--
