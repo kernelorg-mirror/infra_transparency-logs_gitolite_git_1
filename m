@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6868062254231444569=="
+Content-Type: multipart/mixed; boundary="===============7196213166394586755=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Mon, 03 Feb 2025 12:05:56 -0000
-Message-Id: <173858435685.3853432.12075489284882266660@gitolite.kernel.org>
+Date: Mon, 03 Feb 2025 12:06:06 -0000
+Message-Id: <173858436601.3853645.17182729209512292363@gitolite.kernel.org>
 
---===============6868062254231444569==
+--===============7196213166394586755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-linus
-    old: 5bc55a333a2f7316b58edc7573e8e893f7acb532
+  - ref: refs/heads/master
+    old: 4bbf9020becbfd8fc2c3da790855b7042fad455b
     new: 2014c95afecee3e76ca4a56956a936e23283f05b
-    log: revlist-5bc55a333a2f-2014c95afece.txt
+    log: revlist-4bbf9020becb-2014c95afece.txt
 
---===============6868062254231444569==
+--===============7196213166394586755==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-5bc55a333a2f-2014c95afece.txt
+Content-Disposition: attachment; filename=revlist-4bbf9020becb-2014c95afece.txt
 
 668135b9348c53fd205f5e07d11e82b10f31b55b NFSv4.2: mark OFFLOAD_CANCEL MOVEABLE
 0b96c75d86560c077d29ce629e9d1ca0258c9cc1 NFSv4.2: make LAYOUTSTATS and LAYOUTERROR MOVEABLE
@@ -1051,4 +1051,4 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
 
---===============6868062254231444569==--
+--===============7196213166394586755==--
