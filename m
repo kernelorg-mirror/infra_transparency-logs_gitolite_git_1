@@ -1,31 +1,90 @@
-Content-Type: multipart/mixed; boundary="===============5583487531266811240=="
+Content-Type: multipart/mixed; boundary="===============1973240637460330394=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-Date: Mon, 03 Feb 2025 11:02:38 -0000
-Message-Id: <173858055840.3793950.10291928226120203817@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
+Date: Mon, 03 Feb 2025 11:11:40 -0000
+Message-Id: <173858110008.3801592.234908272083106479@gitolite.kernel.org>
 
---===============5583487531266811240==
+--===============1973240637460330394==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-user: thomas.weissschuh
+repo: pub/scm/linux/kernel/git/vbabka/linux
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/vdso/store
-    old: cf1c9ae1f461690ca502b534fab0c6305656c997
-    new: 470380801c99f66c336365030d89753c2373df40
-    log: revlist-cf1c9ae1f461-470380801c99.txt
+  - ref: refs/heads/b4/get_maintainer
+    old: 2b79e67fab168c5fc13ec6be935c690401ced111
+    new: e8b8a60e680073a654ad4c6e8b88176bf1ed9fbf
+    log: revlist-2b79e67fab16-e8b8a60e6800.txt
 
---===============5583487531266811240==
+--===============1973240637460330394==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1738581126 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
+nonce 1738581095-a2fd9677b7b94d48143777deeb7d5539b2759c05
+
+2b79e67fab168c5fc13ec6be935c690401ced111 e8b8a60e680073a654ad4c6e8b88176bf1ed9fbf refs/heads/b4/get_maintainer
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmegpIYACgkQu+CwddJF
+iJoQKAf+Ps5SHoKN/EdRboYxg9KyNWOYPMapK+S49XNPi0q3bjF4q+7dRYA0lQTN
+EW/yN4BoPu9t5WHilnbVDtse7O0lxB/nbf2WuX2VjpN2e3TISKU2UlrhqLK4pSF4
+s3sPd7hR9GZrXVUkm8XC+r+h8sjlB/UW4cVHy5JHUNF6pO6LHWVtRURhxNOG0mRR
+mUC2zWVMJ2MS2zhxa2PdQTwxQs/HdBeIvO3TF/WiIyOe4wSvCHuBxb/DTU294R49
+5ZI0kedc7BM5zNkinRrWpIqpOJwB7R4oj8dS8YnM+vEF5r7r0ZYbY/ml6S6TlbVP
+9kUL4V8aP5few+iDc4RE/RkKWAyNZw==
+=ChUP
+-----END PGP SIGNATURE-----
+
+--===============1973240637460330394==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-cf1c9ae1f461-470380801c99.txt
+Content-Disposition: attachment; filename=revlist-2b79e67fab16-e8b8a60e6800.txt
 
+13b6931c44969ff057ad2a3aa1c20a1b28b79b6f Merge tag 'x86_sev_for_v6.14_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+e7217011ddd8e86a0d18c6cbfb4f14da3d18eee0 ALSA: usb: fcp: Fix meter_levels type to __le32
+f08cc80f69be62beb7a63cd4813c7989c8708831 ALSA: usb: fcp: Fix incorrect resp->opcode retrieval
+0a8f5f4652ef4d530a7cb8bed2b6e502cdfa825f ALSA: usb: fcp: Fix return code from poll ops
+b02cfbd9bfb9f45eebb33771e5705af95b5c9673 dt-bindings: PCI: mobiveil: Convert mobiveil-pcie.txt to YAML
+10e796eed62648ff928cb66d52f226452e1affff dt-bindings: PCI: qcom,pcie-sm8550: Document 'global' interrupt
+c25b978d351fae5da87794be9160d8acfa6e6823 dt-bindings: PCI: qcom: Document the IPQ5424 PCIe controller
+a8581752278ef9d6ea73bb10eef2657bfb73e116 bcachefs: Fix btree_trans_peek_key_cache()
+48795f90cbdcccc36cc415a2d785a23a4b23e57a Merge tag 'x86_cpu_for_v6.14_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+b9d8a295ed6bc3cee846f8e3f27c9c6e9ebe43f2 Merge tag 'x86_misc_for_v6.14_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+e721f619e3ec9bae08bf419c3944cf1e6966c821 iommufd: Fix struct iommu_hwpt_pgfault init and padding
+f917016f69ba5a0c42a3a3327792707315f2a937 bcachefs: Reduce stack frame size of __bch2_str_hash_check_key()
+abb604a1a9c87255c7a6f3b784410a9707baf467 RDMA/mlx5: Fix a race for an ODP MR which leads to CQE with error
+dec6b006f4cc13968d75ed28673ca4e3633de96b ASoC: dt-bindings: ti,pcm1681: Fix the binding title
+8838a1a2d219a86ab05e679c73f68dd75a25aca5 Merge tag 'locking-core-2025-01-20' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+d3d930411ce390e532470194296658a960887773 RDMA/mlx5: Fix implicit ODP use after free
+a6640c8c2fc029f015c87672585931c6106971c1 Merge tag 'objtool-core-2025-01-20' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+6c4aa896ebee5edf2b35a9d071e5a468797f96d8 Merge tag 'perf-core-2025-01-20' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+858df1de2158bd7ab88d31b557592e990bacc0b5 Merge tag 'x86-cleanups-2025-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+70741cc38463371914f49a1f4fda5de2afdc4c86 Merge branches 'clk-cleanup', 'clk-renesas', 'clk-mediatek', 'clk-samsung' and 'clk-socfpga' into clk-next
+b2fee97e6f0b6b935918744f44ca80246a18289e Merge branches 'clk-microchip', 'clk-xilinx', 'clk-allwinner', 'clk-imx' and 'clk-qcom' into clk-next
+1d2da923fb985bb57cc161316c76edb8d567b9bd Merge branches 'clk-airoha', 'clk-rockchip', 'clk-stm', 'clk-thead' and 'clk-bcm' into clk-next
+53c9c27672bb0241998ddf2d1588106920d4064b Merge branch 'clk-fixes' into clk-next
+62de6e1685269e1637a6c6684c8be58cc8d4ff38 Merge tag 'sched-core-2025-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+f26d37ee9bda938e968d0e11ba1f8f1588b2a135 misc: pci_endpoint_test: Fix IOCTL return value
+e19bde2269ca3611156fd0c078a71af0b6956545 selftests: Move PCI Endpoint tests from tools/pci to Kselftests
+392188bb0f6ec5162edf457c062929a6abfa369a selftests: pci_endpoint: Migrate to Kselftest framework
+cd2375a3567fd3d93aa6c68e0027a5756213bda0 ring-buffer: Do not allow events in NMI with generic atomic64 cmpxchg()
+f95ee542947d748d4ca01b4d3103dbdc4fdc8889 tracing: Fix allocation of printing set_event file content
+8f21943e101a15f56a8f02970a80edc936de8ec8 tracing: Fix output of set_event for some cached module events
+531503054e8fe9f4502fff0dceba20dfaa9920d5 nfsd: fix handling of delegated change attr in CB_GETATTR
+8e1d32273ab7d06b6f78771e05824bfab01141f4 nfs_common: make include/linux/nfs4.h include generated nfs4_1.h
+8dfbea8bde6e976136948421325b24b5bdb76ad3 nfsd: switch to autogenerated definitions for open_delegation_type4
+c9c99a33e2b0083c83a2c29eebfad92c78e16791 nfsd: rename NFS4_SHARE_WANT_* constants to OPEN4_SHARE_ACCESS_WANT_*
 fbd5573d0deda145fe173431f1f3ca444940de18 nfsd: prepare delegation code for handing out *_ATTRS_DELEG delegations
 51c0d4f7e317d3cb4a3001e502bd8ca2d57f2a4b nfsd: add support for FATTR4_OPEN_ARGUMENTS
 cee9b4ef42512a6e57562460a15f18a022c84dda nfsd: rework NFS4_SHARE_WANT_* flag handling
@@ -1013,42 +1072,8 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 5d82ca7b5019d880a579831278eb73cbbfdb87da Merge tag 'sh-for-v6.14-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
-1415d7495a45113c98e3d180968b78e43b0eb576 x86/vdso: Fix latent bug in vclock_pages calculation
-e96dedea6968d5323136cbd05fc0c5c06c10b695 parisc: Remove unused symbol vdso_data
-21fbce07d443fe667d8fb713927c394d9e9c388a vdso: Introduce vdso/align.h
-91147ab85db5fec4a1739cf202b407a1207262fd vdso: Rename included Makefile
-51bacc50ab097a55d0cbf1e289747e42c105d25a vdso: Add generic time data storage
-73ee4eba49181e085cf967a842030f2780f791aa vdso: Add generic random data storage
-59a15b0817830e6dff0f560f98f96eb0a598ef3a vdso: Add generic architecture-specific data storage
-e17a0b4851c4968ac90bbd107000acaed67a4a71 arm64: vdso: Switch to generic storage implementation
-119658b67c598626c9dbe40244fa34e36c802b22 riscv: vdso: Switch to generic storage implementation
-ea1f3d1703e948c8622e54fa47d934cd7fb6a691 LoongArch: vDSO: Switch to generic storage implementation
-ace7e6a40e14fee3e148dc9b4376b8fb87ec8585 arm: vdso: Switch to generic storage implementation
-5430085f686f8b6c3071801a2a2c0acc1f3a7f4d s390/vdso: Switch to generic storage implementation
-c3e95e952ea9037549876f37e2d43208fdbd1929 MIPS: vdso: Switch to generic storage implementation
-98959e92e69943a6755a6954002dfe6be28e80d6 powerpc/vdso: Switch to generic storage implementation
-2d3946688f6596b284d4fb2883254b319d795b64 x86/vdso: Switch to generic storage implementation
-efd70b17a36268084a576d548a0fcc0729f5824e x86/vdso/vdso2c: Remove page handling
-49bb97a271456459a6c90ed3058721bbd0770516 vdso: Remove remnants of architecture-specific random state storage
-70278996c371a53af3abb95f4df855f9f1694db3 vdso: Remove remnants of architecture-specific time storage
-189dc3bd69af6dc145b5003439cdf38f4e504c06 vdso: Introduce vdso/cache.h
-1603056c73337ad8a6c02fc0816354a85fd1fee1 arm64: Make asm/cache.h compatible with vDSO
-fbd3356e54b4f70039260f4cfb398e3a313dab74 vdso: Make vdso_time_data cacheline aligned
-0af7159fda699d14cf031a7d98d06dcb6566d16f vdso/datapage: Define for vdso_data to make rework of vdso possible
-50c194363cb7b31c88da72992a562a7b3c6ea888 vdso/helpers: Prepare introduction of struct vdso_clock
-561998b1028d16d232a5d152a6d9b597910dcb47 vdso/gettimeofday: Prepare introduction of struct vdso_clock
-1c6584036c7cbe1763b7e89f1cd9dd3cdd0da600 vdso/gettimeofday: Prepare do_hres() for introduction of struct vdso_clock
-18553ad7d2fe702ea44224705b7cb7ed8bfe4f28 vdso/gettimeofday: Prepare do_hres_timens() for introduction of struct vdso_clock
-3fd0dedd098143b12dd1d0c4aba507ca174fc74b vdso/gettimeofday: Prepare do_coarse() for introduction of struct vdso_clock
-15667274e2f06c0680e16fa5fae8baa46d4f58f4 vdso/gettimeofday: Prepare do_coarse_timens() for introduction of struct vdso_clock
-73a624bdc8b17d48045ea5b1bc83a0a3e2f3a20f vdso/gettimeofday: Prepare helper functions for introduction of struct vdso_clock
-d660b6fe706b3bd6ac7fde90781b76599ff14a85 vdso/vsyscall: Prepare introduction of struct vdso_clock
-85f70d11204550543795973dee4ed75d27449099 vdso/namespace: Rename timens_setup_vdso_data() to reflect new vdso_clock struct
-090a504dacb57b26593689bfe61bbdf6de04ef6c time/namespace: Prepare introduction of struct vdso_clock
-2806e16a7d1c2d853b4058b9724ebcdeca3723fc x86/vdso: Prepare introduction of struct vdso_clock
-338e45c39596f29a09d801a0040e39681582227e arm64/vdso: Prepare introduction of struct vdso_clock
-c9136889d5bf5e5b06d047779df7877eb43ba5d4 powerpc/vdso: Prepare introduction of struct vdso_clock
-ec00e746247597854ad77a690dbb4ee469e7b17f vdso: Move arch related data before basetime
-470380801c99f66c336365030d89753c2373df40 vdso: Rework struct vdso_time_data and introduce struct vdso_clock
+3b68ada4df6ab73b02e94b4c5a11733f70496fcd get_maintainer: report subsystem status separately from maintainer role
+4e0fb4d528c0cb0474fd05ad069ea813de839fdf get_maintainer: add --substatus for reporting subsystem status
+e8b8a60e680073a654ad4c6e8b88176bf1ed9fbf get_maintainer: stop reporting subsystem status as maintainer role
 
---===============5583487531266811240==--
+--===============1973240637460330394==--
