@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 03 Feb 2025 21:20:43 -0000
-Message-Id: <173861764399.145311.3163492091834956597@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Mon, 03 Feb 2025 21:23:36 -0000
+Message-Id: <173861781635.146745.15706642542065759111@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/main
-    old: 235174b2bed88501fda689c113c55737f99332d8
-    new: 88be092224d51f6ca7b369a8e5d29cfee8754a32
+  - ref: refs/heads/master
+    old: 1474c11618bc1092f7dd4b304d3768ce9da02b13
+    new: e77884accdb22268eb65374fc96c35d9f8788d32
     log: |
-         743bbd93cf29f653fae0e1416a31f03231689911 ice: put Rx buffers after being done with current frame
-         11c4aa074d547d825b19cd8d9f288254d89d805c ice: gather page_count()'s of each frag right before XDP prog call
-         468a1952df78f65c5991b7ac885c8b5b7dd87bab ice: stop storing XDP verdict within ice_rx_buf
-         88be092224d51f6ca7b369a8e5d29cfee8754a32 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+         e77884accdb22268eb65374fc96c35d9f8788d32 shared/vcp: have only one volume change in flight at a time
          
