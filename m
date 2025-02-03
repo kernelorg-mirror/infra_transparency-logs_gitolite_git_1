@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============4276315329845627042=="
+Content-Type: multipart/mixed; boundary="===============0402628391499743471=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 03 Feb 2025 11:47:10 -0000
-Message-Id: <173858323087.3832334.12910700023399408798@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
+Date: Mon, 03 Feb 2025 11:47:17 -0000
+Message-Id: <173858323736.3832487.6547765191902491936@gitolite.kernel.org>
 
---===============4276315329845627042==
+--===============0402628391499743471==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
+repo: pub/scm/linux/kernel/git/krzk/linux-dt
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/next/soc64
+  - ref: refs/heads/fixes
     old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
     new: 2014c95afecee3e76ca4a56956a936e23283f05b
     log: revlist-40384c840ea1-2014c95afece.txt
 
---===============4276315329845627042==
+--===============0402628391499743471==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1738583259 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1738583228-a659be7e7c1e86be464aaa8fa006ae4b3e2450dc
+pusher krzk@kernel.org 1738583265 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
+nonce 1738583234-9658b950d466ceccba98e92502dc56470f63bdd9
 
-40384c840ea1944d7c5a392e8975ed088ecf0b37 2014c95afecee3e76ca4a56956a936e23283f05b refs/heads/next/soc64
+40384c840ea1944d7c5a392e8975ed088ecf0b37 2014c95afecee3e76ca4a56956a936e23283f05b refs/heads/fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmegrNsQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD13laD/9QQwuPmNCS2n35g7Bs5DdzF3P1alCbcDL2
-FlYKbdeT0prRAkSPnU5BNVGKZVuix1A6DaIkJa7uJAALCrN6+Z5ttbXOU7Y/H76H
-wcC1mR1mfM6xtbexTklisdB/SItyGlU9wuCpXpKMnBSOSLqFbbrqkl5g+clY+rrD
-rJ8VmCyRW/NULCoSHMt2TXB4ZEe+3Zdgvej39ZHCuBYh4B8pVp2DSXaSemAUKY6W
-xZQtMSOAs9Z+oyivBQtuXef6pBBzT0jFYhn3ZaXACid8V+en4fgL4PAks+auofEs
-HNpUPKkD+YoudIbhYI0Ybf1jd2/TCJQSnbxOg4KWLEC6mMv7USir5u4AnAUVYp8+
-dKEtSa+HfzbBpCAVPIqHTGR5hA/FU6bs0TrVy5eTDDigCltQqhkEFqShYey5KSlB
-Oeswz8jgPVbndoqTYu73oVzyteBY3Hi/3/alr0ZnOJYA8vL9rYa612Crqzxuo/aB
-/lCM7zJ4fO2dHkzYySjQsFU5LG1BRPVxPltMp7C4XAvJptZqgRPEsd6qEni4HThb
-8UhHe1/oDYOP/J47uO8ztrapWaqxcXau7PZWwwOo7rESDs4hZHgW2Cd8Q30ZBj57
-DzREiGeB5LniOaJ7SsqDOLEExmDeumOSgDotPP1KWykELxNudBb+aQmTMAcgDVVi
-nUn0/1+gdw==
-=CYpg
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmegrOEQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD13w2D/9lXYZHXSl2o8npSUYMv+fj8cVSn1WVf1hK
+E9WDqoiDsVs7nw4uSPoU3TUzzaWo1pVs/Nms4s7/TsozIKd8ql/6lly3CPbebQTw
+pmQIhBaYUdUt7NTuA3m0ytEQc6T4kZAXc2CdfkJesQDLCd/1y8TfIjVbotAlCl/P
+Hy9nbgug8pa1yjLgnriPWoskgkz/TvPAJGWuOT4uSAZbRjwrtnzNNsjGLnuuXWzc
+KrabzH7gjHnMKGBhnzkrhrQMqBEH4DYBc5By+a0Yhj7A3saZj2kxgmak2cSPd+3D
+lAjjgERF2cGby6Y/s5CeffudWVsH2uRvRpL12Fe707l9LeTW8ofc1ASK3xjnJZcJ
+49PvEaEsDR6SgR7/q1WmR9EflnKLjjNWeZ2RY90U6lZ4Y2lrmxyO4wLSAXpfbzEc
++osx72P9UPLuZc3Rf/ZfVwGKoUXikpcBhknnJrm6syUYrEwCzT7R7w7OYOag5OUf
+0ka0/HrEGXXFbSZus3UpPUkdcr1NkzVvNJkn9jLCCO/hSgw90d9712BThWSJKGxO
+aSovzK5u38n3Z5TrCM7FgNd7gaUje94qtTQEEVUpB0mBS68eHsZnzJjxGr5AjGje
+IQui1mmav8P8M0uGz+OE2ppXZc5Dw27qua5Q5Yqs1YDK1c6a0K12c0IVfZ88ECvH
+INHB7E0T/A==
+=pFNQ
 -----END PGP SIGNATURE-----
 
---===============4276315329845627042==
+--===============0402628391499743471==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1082,4 +1082,4 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
 
---===============4276315329845627042==--
+--===============0402628391499743471==--
