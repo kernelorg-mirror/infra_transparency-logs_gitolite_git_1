@@ -1,31 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============0657695156567806897=="
+Content-Type: multipart/mixed; boundary="===============5583487531266811240=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Mon, 03 Feb 2025 10:58:29 -0000
-Message-Id: <173858030972.3789878.909372994970260165@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+Date: Mon, 03 Feb 2025 11:02:38 -0000
+Message-Id: <173858055840.3793950.10291928226120203817@gitolite.kernel.org>
 
---===============0657695156567806897==
+--===============5583487531266811240==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+user: thomas.weissschuh
 changes:
-  - ref: refs/heads/perf/pmu-unregister
-    old: 64e8e446009073e3093681fa07791114a0d5f6fe
-    new: 7046b84bf8cc57d8841604892080e64c45e12cb9
-    log: revlist-64e8e4460090-7046b84bf8cc.txt
+  - ref: refs/heads/vdso/store
+    old: cf1c9ae1f461690ca502b534fab0c6305656c997
+    new: 470380801c99f66c336365030d89753c2373df40
+    log: revlist-cf1c9ae1f461-470380801c99.txt
 
---===============0657695156567806897==
+--===============5583487531266811240==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-64e8e4460090-7046b84bf8cc.txt
+Content-Disposition: attachment; filename=revlist-cf1c9ae1f461-470380801c99.txt
 
+fbd5573d0deda145fe173431f1f3ca444940de18 nfsd: prepare delegation code for handing out *_ATTRS_DELEG delegations
 51c0d4f7e317d3cb4a3001e502bd8ca2d57f2a4b nfsd: add support for FATTR4_OPEN_ARGUMENTS
 cee9b4ef42512a6e57562460a15f18a022c84dda nfsd: rework NFS4_SHARE_WANT_* flag handling
 6ae30d6eb26bce02c48c60074b4306270e2434c1 nfsd: add support for delegated timestamps
@@ -1012,43 +1013,42 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 5d82ca7b5019d880a579831278eb73cbbfdb87da Merge tag 'sh-for-v6.14-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
-003c0414318a1829a1a5b195ad81e8a7960c3f5d perf/amd/ibs: Remove IBS_{FETCH|OP}_CONFIG_MASK macros
-88c7bcad71c83f52f24108dedcecae0d18dbc627 perf/amd/ibs: Remove pointless sample period check
-598bdf4fefff5af4ce6d26d16f7b2a20808fc4cb perf/amd/ibs: Fix ->config to sample period calculation for OP PMU
-46dcf85566170d4528b842bf83ffc350d71771fa perf/amd/ibs: Fix perf_ibs_op.cnt_mask for CurCnt
-e1e7844ced88f9558a48579390a7d4eaac6a28eb perf/amd/ibs: Don't allow freq mode event creation through ->config interface
-b2fc7b282bf7c1253b01c8da84e894539a3e709d perf/amd/ibs: Add PMU specific minimum period
-1afbdd970f50f2e0431fae26b25d4e54e561fa7f perf/amd/ibs: Add ->check_period() callback
-fa5d0a824e3bbd1f793d962f9e012ab0a8ee11c5 perf/amd/ibs: Ceil sample_period to min_period
-eae8a56ae0c74c1cf2f92a6709d215a9f329f60c uprobes: Remove redundant spinlock in uprobe_deny_signal()
-a66396c911bd662d503de3ec8f0a140b1081bde7 uprobes: Remove the spinlock within handle_singlestep()
-da6e8c7a252bb0bbad53f1e6993460e17d891652 perf/x86/intel: Apply static call for drain_pebs
-5c32ae8ac8936b992fc0069c6438df932a753325 perf/x86/intel: Avoid disable PMU if !cpuc->enabled in sample read
-186dbd9cd489e7f895f909d336c58e4ba2f660a1 perf: Avoid the read if the count is already updated
-5169dc7a97c195a1291b0101f562a97c11b390e9 perf/x86/intel: Support PEBS counters snapshotting
-a0cef6194d419724081c1c7773d8df62d0427156 lockdep: Fix might_fault()
-c9460c4f027f7cf1bf139c9dc9e786ee22c2c387 perf: Ensure bpf_perf_link path is properly serialized
-87937698519dd8ace8e64d5b485781617a5fe90d perf: Simplify child event tear-down
-1d083781aa4b304dcf14c4c45ebb900e51aa63a1 perf: Simplify perf_event_free_task() wait
-849241b1dbc1b50fb197f0670297f3a4ba9d3bf1 perf: Simplify perf_event_release_kernel()
-0af3a18d9e9efb9acc719d3b7cf25c1899f8966e perf: Fix pmus_lock vs pmus_srcu ordering
-3ca4f79469017bf89f7a7e81d726adc9f2ea5791 perf: Fix perf_pmu_register() vs perf_init_event()
-9dc8d1200c57ddaa663f10060eb53baeed5b7271 perf: Cleanup perf_try_init_event()
-ab9ce14f145d6ada1afd36bc79c487e11c8353a4 perf: Simplify perf_event_alloc() error path
-7669c700f55c093d7e3f619ce8f656fb7560e679 perf: Simplify perf_pmu_register() error path
-6f3bcf68b82e3db941a01586266019dfa521b3bc perf: Simplify perf_pmu_register()
-62dce56dff4c428f78c46caf3f62f26ff78dc0ff perf: Simplify perf_init_event()
-35f5059db98baced1333d3332b92caadf33ab697 perf: Simplify perf_event_alloc()
-bae790643a37468d5258f19847870a81abddb01c perf: Merge pmu_disable_count into cpu_pmu_context
-4d1daf7450f965d5b1f458150136b6a4c6d43d02 perf: Add this_cpc() helper
-ff9e5225637b40acbc0d82b49c14fb322358c7de perf: Detach perf_cpu_pmu_context and pmu lifetimes
-09b71758cee38b9e578c6cede2d2d2fe6bdbff27 perf: Introduce perf_free_addr_filters()
-ef5bafe6eb3067f7eea38dfab0a49156a012f8cd perf: Robustify perf_event_free_bpf_prog()
-2a087180ce96e68ffe69fab4af5a8c3dcb43f432 perf: Simplify perf_mmap() control flow
-ab4d022acfe0262566cab0656bed80eb577e8c6b perf: Fix perf_mmap() failure path
-44c7c04728480d4c5de55432a417635ea53c4eaa perf: Further simplify perf_mmap()
-8e3eb8039205658e4336c3b7dd2c24e56cab9621 perf: Remove retry loop from perf_mmap()
-445bc5ce6ce9563583e356d9014a0f9b504130d1 perf: Lift event->mmap_mutex in perf_mmap()
-7046b84bf8cc57d8841604892080e64c45e12cb9 perf: Make perf_pmu_unregister() useable
+1415d7495a45113c98e3d180968b78e43b0eb576 x86/vdso: Fix latent bug in vclock_pages calculation
+e96dedea6968d5323136cbd05fc0c5c06c10b695 parisc: Remove unused symbol vdso_data
+21fbce07d443fe667d8fb713927c394d9e9c388a vdso: Introduce vdso/align.h
+91147ab85db5fec4a1739cf202b407a1207262fd vdso: Rename included Makefile
+51bacc50ab097a55d0cbf1e289747e42c105d25a vdso: Add generic time data storage
+73ee4eba49181e085cf967a842030f2780f791aa vdso: Add generic random data storage
+59a15b0817830e6dff0f560f98f96eb0a598ef3a vdso: Add generic architecture-specific data storage
+e17a0b4851c4968ac90bbd107000acaed67a4a71 arm64: vdso: Switch to generic storage implementation
+119658b67c598626c9dbe40244fa34e36c802b22 riscv: vdso: Switch to generic storage implementation
+ea1f3d1703e948c8622e54fa47d934cd7fb6a691 LoongArch: vDSO: Switch to generic storage implementation
+ace7e6a40e14fee3e148dc9b4376b8fb87ec8585 arm: vdso: Switch to generic storage implementation
+5430085f686f8b6c3071801a2a2c0acc1f3a7f4d s390/vdso: Switch to generic storage implementation
+c3e95e952ea9037549876f37e2d43208fdbd1929 MIPS: vdso: Switch to generic storage implementation
+98959e92e69943a6755a6954002dfe6be28e80d6 powerpc/vdso: Switch to generic storage implementation
+2d3946688f6596b284d4fb2883254b319d795b64 x86/vdso: Switch to generic storage implementation
+efd70b17a36268084a576d548a0fcc0729f5824e x86/vdso/vdso2c: Remove page handling
+49bb97a271456459a6c90ed3058721bbd0770516 vdso: Remove remnants of architecture-specific random state storage
+70278996c371a53af3abb95f4df855f9f1694db3 vdso: Remove remnants of architecture-specific time storage
+189dc3bd69af6dc145b5003439cdf38f4e504c06 vdso: Introduce vdso/cache.h
+1603056c73337ad8a6c02fc0816354a85fd1fee1 arm64: Make asm/cache.h compatible with vDSO
+fbd3356e54b4f70039260f4cfb398e3a313dab74 vdso: Make vdso_time_data cacheline aligned
+0af7159fda699d14cf031a7d98d06dcb6566d16f vdso/datapage: Define for vdso_data to make rework of vdso possible
+50c194363cb7b31c88da72992a562a7b3c6ea888 vdso/helpers: Prepare introduction of struct vdso_clock
+561998b1028d16d232a5d152a6d9b597910dcb47 vdso/gettimeofday: Prepare introduction of struct vdso_clock
+1c6584036c7cbe1763b7e89f1cd9dd3cdd0da600 vdso/gettimeofday: Prepare do_hres() for introduction of struct vdso_clock
+18553ad7d2fe702ea44224705b7cb7ed8bfe4f28 vdso/gettimeofday: Prepare do_hres_timens() for introduction of struct vdso_clock
+3fd0dedd098143b12dd1d0c4aba507ca174fc74b vdso/gettimeofday: Prepare do_coarse() for introduction of struct vdso_clock
+15667274e2f06c0680e16fa5fae8baa46d4f58f4 vdso/gettimeofday: Prepare do_coarse_timens() for introduction of struct vdso_clock
+73a624bdc8b17d48045ea5b1bc83a0a3e2f3a20f vdso/gettimeofday: Prepare helper functions for introduction of struct vdso_clock
+d660b6fe706b3bd6ac7fde90781b76599ff14a85 vdso/vsyscall: Prepare introduction of struct vdso_clock
+85f70d11204550543795973dee4ed75d27449099 vdso/namespace: Rename timens_setup_vdso_data() to reflect new vdso_clock struct
+090a504dacb57b26593689bfe61bbdf6de04ef6c time/namespace: Prepare introduction of struct vdso_clock
+2806e16a7d1c2d853b4058b9724ebcdeca3723fc x86/vdso: Prepare introduction of struct vdso_clock
+338e45c39596f29a09d801a0040e39681582227e arm64/vdso: Prepare introduction of struct vdso_clock
+c9136889d5bf5e5b06d047779df7877eb43ba5d4 powerpc/vdso: Prepare introduction of struct vdso_clock
+ec00e746247597854ad77a690dbb4ee469e7b17f vdso: Move arch related data before basetime
+470380801c99f66c336365030d89753c2373df40 vdso: Rework struct vdso_time_data and introduce struct vdso_clock
 
---===============0657695156567806897==--
+--===============5583487531266811240==--
