@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 03 Feb 2025 12:34:32 -0000
-Message-Id: <173858607202.3876882.3729002107168538615@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Mon, 03 Feb 2025 12:42:17 -0000
+Message-Id: <173858653765.3884078.5212122534721819156@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
   - ref: refs/heads/master
-    old: ff59272f8973127d00383976e687279127eaab80
-    new: 4dc41fc9508f87b36daa679a8d6a677d24e757a0
+    old: 6c509e2b0c881a13b83b259a221bf15fc9b3f681
+    new: 08468cc3830185c75f9e7edefd88aa01e5c2f8ab
     log: |
-         14233b28c0169d89d224065c805368893a097a6b libmount: reduce size of syscall-failed message
-         8369f2a7c46df5b4813f39c5f2f1e60c35500f75 libmount: add private mnt_context_read_mesgs()
-         1760fd11641bc60d1a0f62583c9e5b63ddd7d8f2 libmount: improve error messages in ID-mapping hook
-         4dc41fc9508f87b36daa679a8d6a677d24e757a0 Merge branch 'PR/libmount-mesgs-idmapping' of https://github.com/karelzak/util-linux-work
+         73bb0ac90437f87b8ecbde50fe30fa25a4df1ae5 man/io_uring_prep_recv: expand on how to handle bundles
+         08468cc3830185c75f9e7edefd88aa01e5c2f8ab Merge branch 'Pr1' of https://github.com/romange/liburing
          
