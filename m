@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1381780983343008915=="
+Content-Type: multipart/mixed; boundary="===============4445450964856346057=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 03 Feb 2025 11:47:03 -0000
-Message-Id: <173858322398.3832070.11704463606003440870@gitolite.kernel.org>
+Date: Mon, 03 Feb 2025 11:47:07 -0000
+Message-Id: <173858322751.3832220.8001338987385412371@gitolite.kernel.org>
 
---===============1381780983343008915==
+--===============4445450964856346057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/next/dt64
-    old: f424523b1b516b3f0984feeb1d8218e904d17a97
+  - ref: refs/heads/next/soc
+    old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
     new: 2014c95afecee3e76ca4a56956a936e23283f05b
-    log: revlist-f424523b1b51-2014c95afece.txt
+    log: revlist-40384c840ea1-2014c95afece.txt
 
---===============1381780983343008915==
+--===============4445450964856346057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1738583252 +0100
+pusher krzk@kernel.org 1738583255 +0100
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1738583221-d858e6302806a94cb028a3b5ea5b9681850cf453
+nonce 1738583225-a476541f466f8c891197e410a68dbf2b12596792
 
-f424523b1b516b3f0984feeb1d8218e904d17a97 2014c95afecee3e76ca4a56956a936e23283f05b refs/heads/next/dt64
+40384c840ea1944d7c5a392e8975ed088ecf0b37 2014c95afecee3e76ca4a56956a936e23283f05b refs/heads/next/soc
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmegrNQQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD16CJD/9uLtSUCuqLqjfPPe2junXywF7UdTvmnMn+
-Ff/APVBba5IzxVYy7kFLq9d3JUXwSL73LAWISmG2F6uHOAUDmOvhe8s2vS2SZBy6
-NsjQs74sAZn3DqWS+/txDhQOnuI0D30PeJcbSSRblwzyZbWrIR44qrd7/hMHQC0D
-C7OR9hTwNZ8N0RaL5HyPJgEvwamw6ADnyVFURQLJp0J2oy2BI69U/0SRHcPvuU/+
-2Zc3eto1l8k+byRBFlEvUlRzY8lQUd65kYDsra0hIqkLBzHHwp/5Qc+cGYdmdUyJ
-WiNNejqcJjbOsDBarRH1w7S3zle0rZ75Wr3nYUWiU7i6AtQ0v+j7pNSmrlJFhMrf
-XXgGhnK30JbwBtbw98CnyyO8cXeuu0EMoMnU7XQaJ9J/SNJkybxFBWjm4Opgbxfq
-+ajAYCY09IslYY8GlGRqXm30W4QdmgBdYydHREmDCE/PXCdtXzOHsn9iOegwHwec
-0Su/7kEjiRxWs9jc+bpmkTwU5s24Am8ZPDUNdDZJmdXmhdLOmENj8eJBeUjo+iRb
-UEUM4wXha92vzKyEHulf/Hmhy7cv9ctOBe/V/FPSoS3Iahi8Cw+m4baiEeiF26Qy
-sbJGJbwqu9dM5MvUGECC4tFeEDdUg8Wt5I6exn9KhZFrfB++OMvkOTH78QgjNltz
-tNOE4WOKag==
-=JpEq
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmegrNcQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD115gEACHogkNXYVQLnTVfUBgYV9PmDXZnnlqIl5o
++bYSiCBKEj/QhOqat+PCcIWbDHPb2G5/sOivwlMg5+bRHR+xf7zQHOy0O6ihIwKn
+mdHs6c2yKngiv8qz5uFGiruOYIUkyOtN9axbblpGmLaJBQy34FnKV+6R/Fpfbqsz
+IMShF1J9O4VfHAaC4roL8rVPv/5afQ8VyaUpBWzxTYFB4E6BbHw9ddPpT2ZiM/er
+XdHGJPUN3NZWObpKeuBVH6aXDCleXwehBefLPQWgp/or3JQnrkwGEHtLFwy37kRs
+P6EXOTyjKcUPvDUN8Qm/wg8jL5xDOFU3s/vC7BCKAVxfFhWZ5mUyOOx2T0s9oIul
+qMB/ZYa7QXocmKhoq0nciX5CXoBcfp2m3gUfh1e3ccvBhD45o50SZIUkKq/Yk5RN
+eH7NXmz3nwoZKWg7BkXfEGSx3YRYGxhp2FWJ75k+CTMAPd3o6BRNmp/UnGQG6l6n
+3RBkqyasuG1aeAffdxLTzpxMbuVjZf/5Na1ho9PtBzJKqvqRTVQhyMFgSpDAJRg1
++TmHMgO3ogfMKDSYMgIXDdV6BBZvbuemv7pgYSs/2D0SJcAfMeRCvCJrZ0rKh/Pz
+o89mNGRtISpJc5zTZoN3zkTszmDrKLDkpigE80UNc2NQ1MV+KDZ77pAGTw9Yh7Ic
+1DnSW2qfhw==
+=atsc
 -----END PGP SIGNATURE-----
 
---===============1381780983343008915==
+--===============4445450964856346057==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-f424523b1b51-2014c95afece.txt
+Content-Disposition: attachment; filename=revlist-40384c840ea1-2014c95afece.txt
 
 668135b9348c53fd205f5e07d11e82b10f31b55b NFSv4.2: mark OFFLOAD_CANCEL MOVEABLE
 0b96c75d86560c077d29ce629e9d1ca0258c9cc1 NFSv4.2: make LAYOUTSTATS and LAYOUTERROR MOVEABLE
@@ -1082,4 +1082,4 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
 
---===============1381780983343008915==--
+--===============4445450964856346057==--
