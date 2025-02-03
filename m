@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Mon, 03 Feb 2025 16:57:46 -0000
-Message-Id: <173860186624.4116453.15539353939354018675@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Mon, 03 Feb 2025 17:08:14 -0000
+Message-Id: <173860249464.4124567.9904594691895416396@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: mikulas
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/dm-6.15
+  - ref: refs/heads/experimental/teo-tweak
     old: 0000000000000000000000000000000000000000
-    new: 0ce46f4f751bc15375aea501a991ec931278b415
+    new: 16c8d7586c196cddcc8822a946ef03c9cfabae30
