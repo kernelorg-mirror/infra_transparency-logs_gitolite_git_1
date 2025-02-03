@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7568841908126278801=="
+Content-Type: multipart/mixed; boundary="===============1798603327798982269=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Mon, 03 Feb 2025 10:51:00 -0000
-Message-Id: <173857986048.3784392.2165822078887205821@gitolite.kernel.org>
+Date: Mon, 03 Feb 2025 10:51:19 -0000
+Message-Id: <173857987901.3784609.15384262209552661449@gitolite.kernel.org>
 
---===============7568841908126278801==
+--===============1798603327798982269==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/renesas-drivers
 user: geert
 changes:
-  - ref: refs/heads/renesas-clk
-    old: e91609f1c3b0ce06d80b1b3bd0e6b942782be016
+  - ref: refs/heads/renesas-clk-for-v6.15
+    old: 40fc2de8a30547bb3397388ea059ee53efa79f19
     new: 5a1cb35ba37ada76ae486fbac7b249322dd1a5c3
-    log: revlist-e91609f1c3b0-5a1cb35ba37a.txt
+    log: revlist-40fc2de8a305-5a1cb35ba37a.txt
 
---===============7568841908126278801==
+--===============1798603327798982269==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-e91609f1c3b0-5a1cb35ba37a.txt
+Content-Disposition: attachment; filename=revlist-40fc2de8a305-5a1cb35ba37a.txt
 
 f917016f69ba5a0c42a3a3327792707315f2a937 bcachefs: Reduce stack frame size of __bch2_str_hash_check_key()
 abb604a1a9c87255c7a6f3b784410a9707baf467 RDMA/mlx5: Fix a race for an ODP MR which leads to CQE with error
@@ -1051,4 +1051,4 @@ aeb06d51ea3ff689eea744f38f7c08181171fe5a clk: renesas: r8a779h0: Add FCPVX clock
 7f22a298d926664b51fcfe2f8ea5feb7f8b79952 clk: renesas: r9a07g043: Fix HP clock source for RZ/Five
 5a1cb35ba37ada76ae486fbac7b249322dd1a5c3 clk: renesas: r9a09g047: Add ICU clock/reset
 
---===============7568841908126278801==--
+--===============1798603327798982269==--
