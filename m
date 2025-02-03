@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7421252553821947888=="
+Content-Type: multipart/mixed; boundary="===============5968154632853785150=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Mon, 03 Feb 2025 18:19:36 -0000
-Message-Id: <173860677606.4182063.18150591815035759399@gitolite.kernel.org>
+Date: Mon, 03 Feb 2025 18:19:46 -0000
+Message-Id: <173860678677.4182245.3342608083922815138@gitolite.kernel.org>
 
---===============7421252553821947888==
+--===============5968154632853785150==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,36 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/dev
     old: 05dbaf8dd8bf537d4b4eb3115ab42a5fb40ff1f5
     new: f286757b644c226b6b31779da95a4fa7ab245ef5
     log: revlist-05dbaf8dd8bf-f286757b644c.txt
-  - ref: refs/tags/v6.13
-    old: 0000000000000000000000000000000000000000
-    new: d6cb6a3d99adf559a0a404d086f61ee3be866f86
-  - ref: refs/tags/v6.13-rc2
-    old: 0000000000000000000000000000000000000000
-    new: e32a80927434907f973f38a88cd19d7e51991d24
-  - ref: refs/tags/v6.13-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 7705f2f1cf8d49dd02236dce6edad6c013b43293
-  - ref: refs/tags/v6.13-rc4
-    old: 0000000000000000000000000000000000000000
-    new: dbfac60febfa806abb2d384cb6441e77335d2799
-  - ref: refs/tags/v6.13-rc5
-    old: 0000000000000000000000000000000000000000
-    new: a70d5ba87c51302276bdcb0e847c281a95be6526
-  - ref: refs/tags/v6.13-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 5fcdd8fcd55d1da6fdf8deb78355a5c23ce94d39
-  - ref: refs/tags/v6.13-rc7
-    old: 0000000000000000000000000000000000000000
-    new: b37279c18e53ba26c58b0a88a84bb70720c5cac6
-  - ref: refs/tags/v6.14-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 379487e17ca406b47392e7ab6cf35d1c3bacb371
 
---===============7421252553821947888==
+--===============5968154632853785150==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -765,4 +741,4 @@ d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git
 a360f3ffd005fe00f002c033b2548aba57af8c9a Merge tag 'irq-urgent-2025-02-03' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f286757b644c226b6b31779da95a4fa7ab245ef5 Merge tag 'timers-urgent-2025-02-03' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 
---===============7421252553821947888==--
+--===============5968154632853785150==--
