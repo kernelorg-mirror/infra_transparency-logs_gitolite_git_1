@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2595675456853765906=="
+Content-Type: multipart/mixed; boundary="===============8945995640670569458=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 03 Feb 2025 07:03:38 -0000
-Message-Id: <173856621887.3588326.2754113564934046992@gitolite.kernel.org>
+Date: Mon, 03 Feb 2025 07:04:10 -0000
+Message-Id: <173856625099.3588579.1703696868536700572@gitolite.kernel.org>
 
---===============2595675456853765906==
+--===============8945995640670569458==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/westeri/thunderbolt
 user: westeri
 changes:
-  - ref: refs/heads/fixes
-    old: ffd294d346d185b70e28b1a28abe367bbfe53c04
+  - ref: refs/heads/next
+    old: 43d84701d2aa147eab39b529919ffaf35f724bbb
     new: 2014c95afecee3e76ca4a56956a936e23283f05b
-    log: revlist-ffd294d346d1-2014c95afece.txt
+    log: revlist-43d84701d2aa-2014c95afece.txt
 
---===============2595675456853765906==
+--===============8945995640670569458==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-ffd294d346d1-2014c95afece.txt
+Content-Disposition: attachment; filename=revlist-43d84701d2aa-2014c95afece.txt
 
 668135b9348c53fd205f5e07d11e82b10f31b55b NFSv4.2: mark OFFLOAD_CANCEL MOVEABLE
 0b96c75d86560c077d29ce629e9d1ca0258c9cc1 NFSv4.2: make LAYOUTSTATS and LAYOUTERROR MOVEABLE
@@ -1051,4 +1051,4 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
 
---===============2595675456853765906==--
+--===============8945995640670569458==--
