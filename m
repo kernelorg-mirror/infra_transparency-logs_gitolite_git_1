@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7560826230923965109=="
+Content-Type: multipart/mixed; boundary="===============4967103258320264700=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 03 Feb 2025 10:40:11 -0000
-Message-Id: <173857921102.3773089.17874609557664891308@gitolite.kernel.org>
+Date: Mon, 03 Feb 2025 10:40:25 -0000
+Message-Id: <173857922572.3773471.179621700982010551@gitolite.kernel.org>
 
---===============7560826230923965109==
+--===============4967103258320264700==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,32 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: ij
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/review-ilpo-next
+  - ref: refs/heads/for-next
     old: 05dbaf8dd8bf537d4b4eb3115ab42a5fb40ff1f5
     new: 2014c95afecee3e76ca4a56956a936e23283f05b
     log: revlist-05dbaf8dd8bf-2014c95afece.txt
 
---===============7560826230923965109==
+--===============4967103258320264700==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1738579238 +0200
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1738579249 +0200
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1738579207-712e5d7951d645aef2ec31057cf136138869664a
+nonce 1738579218-a3b9e0cbd3b4b07a3007fd066ca78f23a35b466a
 
-05dbaf8dd8bf537d4b4eb3115ab42a5fb40ff1f5 2014c95afecee3e76ca4a56956a936e23283f05b refs/heads/review-ilpo-next
+05dbaf8dd8bf537d4b4eb3115ab42a5fb40ff1f5 2014c95afecee3e76ca4a56956a936e23283f05b refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZ6CdKAAKCRBZrE9hU+XO
-MZyyAP9kZrXzexUEDe8ub+gsJp+DuVNXbJY7Fi+mw1es94agVwEA27VV3e0FWi0q
-w8HrIRuRWmjlw/GC8PlGqRA6B+RHvQA=
-=z5Cc
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZ6CdNwAKCRBZrE9hU+XO
+MQIKAQCgO+1/ym1iLSW63WcFa5CJQ+RauP5MfeWsddso+vdMUgD/Wmw1HZ0RpqJw
+RrntsdRFR9VWeukKuNGcmk5QprUQTwQ=
+=M9Ag
 -----END PGP SIGNATURE-----
 
---===============7560826230923965109==
+--===============4967103258320264700==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -744,4 +744,4 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
 
---===============7560826230923965109==--
+--===============4967103258320264700==--
