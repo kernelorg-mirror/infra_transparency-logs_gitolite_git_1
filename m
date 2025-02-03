@@ -1,51 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============2458459669685006080=="
+Content-Type: multipart/mixed; boundary="===============5666484703398043414=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 03 Feb 2025 14:10:22 -0000
-Message-Id: <173859182231.3967514.15643046694142083189@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 03 Feb 2025 14:10:26 -0000
+Message-Id: <173859182628.3967647.6598085821168938386@gitolite.kernel.org>
 
---===============2458459669685006080==
+--===============5666484703398043414==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.14
+  - ref: refs/heads/asoc-6.14
     old: 6c1bb4031729871fa203983bd77bed1ee3c61347
     new: a8c9a453387640dbe45761970f41301a6985e7fa
     log: revlist-6c1bb4031729-a8c9a4533876.txt
+  - ref: refs/heads/asoc-6.15
+    old: 0000000000000000000000000000000000000000
+    new: 2014c95afecee3e76ca4a56956a936e23283f05b
 
---===============2458459669685006080==
+--===============5666484703398043414==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1738591850 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1738591819-b6d31fe945209baeef72d6419c6f1a8359afd9cf
+pusher C3F436CA30F5D8EB 1738591854 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1738591823-2703982f2d34bb23c83ca5ffe98f0a57af7d099a
 
-6c1bb4031729871fa203983bd77bed1ee3c61347 a8c9a453387640dbe45761970f41301a6985e7fa refs/heads/for-6.14
+6c1bb4031729871fa203983bd77bed1ee3c61347 a8c9a453387640dbe45761970f41301a6985e7fa refs/heads/asoc-6.14
+0000000000000000000000000000000000000000 2014c95afecee3e76ca4a56956a936e23283f05b refs/heads/asoc-6.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmegzmoACgkQJNaLcl1U
-h9B56ggAgXx1e8DZy53QJG9PWhJVOEZs707UoLP0DOXmLdyyU0sEeXBbj4xVQO2d
-Qc+80Ynio0zahM25hcgVQWMOUGf8DOmw1bbUCSV1ZTBowPnNohEwgsPGzhK03mHB
-R9Hg0YvhYT1wvt0KPXvrhGY/wP8y3Bwb0H6Rag+7NPCINo5/3/0UetEyMg/VXdLV
-nGY4pNnGB9tH9nZZM8rAwZaMz8ySijGsz/LcTR/KgBPXVkCL4k1mpYDN9hhIRU2n
-wRif3clhH7Sket4bGKSEKX3RyZfSojq4appnVynHpnqQfq5gMTgDdStqG5qOwcW5
-d4kMgrehRkrIdYJrYlnf+PjOovI67w==
-=qn0V
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmegzm4ACgkQJNaLcl1U
+h9Bcowf/WEOTsXHxtUhiDJTv1VH/L5tTIVDLtAagMZznL6cYNl2NLlKbPcpgUZgc
+cNTgOp/r/HhJ+B/bi1WEbFH/0hcoflPD/+JTDiZQ6/17R0+KGSvlNDWYCrRE7H+q
+q8tXxhyuMzWUPNgRlnm2mAs8dhu/ynD2XuSVKEe3nP1Pw/Hs37ZWJK7z37nRLWC1
+NOWpD4kHXx4JHmxpzOR8R3khdQZIOsrLpJNVFOiQhwMl9zulte+6LKsB4VGuFaQL
+n2DDFoCnQJQbWmCoeykTaa4huOUaT6q7vXxiN/0hoLo34XBsDrU89v4XOYNxRu/J
+pxFllGjHFbEbAT3QME2N+De3oBOZUw==
+=kYlS
 -----END PGP SIGNATURE-----
 
---===============2458459669685006080==
+--===============5666484703398043414==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1076,4 +1080,4 @@ d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
 a8c9a453387640dbe45761970f41301a6985e7fa ASoC: fsl_micfil: Enable default case in micfil_set_quality()
 
---===============2458459669685006080==--
+--===============5666484703398043414==--
