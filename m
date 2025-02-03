@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4340313744630944751=="
+Content-Type: multipart/mixed; boundary="===============3239213634195056656=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Mon, 03 Feb 2025 01:34:50 -0000
-Message-Id: <173854649002.3275081.9852249362079083622@gitolite.kernel.org>
+Date: Mon, 03 Feb 2025 01:34:59 -0000
+Message-Id: <173854649998.3275265.7307950162491938512@gitolite.kernel.org>
 
---===============4340313744630944751==
+--===============3239213634195056656==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/hwmon-staging
-    old: f8cdf428b8804f12e51d0472234e20ea5b55837b
-    new: edd2a8b46eed70c6e3398ff74178892175ff1d76
-    log: revlist-f8cdf428b880-edd2a8b46eed.txt
+  - ref: refs/heads/testing
+    old: 223ef3538c79fd692a3b0204d5f00f09c8865462
+    new: 8d0efe18f567040a251aef1e00ea39bd3776f5e1
+    log: revlist-223ef3538c79-8d0efe18f567.txt
 
---===============4340313744630944751==
+--===============3239213634195056656==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f8cdf428b880-edd2a8b46eed.txt
+Content-Disposition: attachment; filename=revlist-223ef3538c79-8d0efe18f567.txt
 
 209954cbc7d0ce1a190fc725d20ce303d74d2680 x86/mm/tlb: Update mm_cpumask lazily
 2815a56e4b7252a836969f5674ee356ea1ce482c x86/mm/tlb: Add tracepoint for TLB flush IPI to stale CPU
@@ -501,6 +501,9 @@ b51687307076c674f3d180e1de2e2ddc095e2908 hwmon: (emc2103) Add support for additi
 6d275523fc88b3bbb1e5ce2305cb954a6665d573 hwmon: (g762) Update devicetree bindings document reference
 67089a95ede0449bc10ba2931284aa42895775dc hwmon: (emc2103) Rework diode fault detection
 cf48203e8f7daaa4e364a5bcf493d87977724643 hwmon: (max16065) Use DIV_ROUND_CLOSEST for divide operations
+eadf076115eb5b0f049bd9f2b57b0e3a659ae42b drm/i915/backlight: Return immediately when scale() finds invalid parameters
+9d7a89e83e061e0d1605085ebb7bd55a94c5a62a dmaengine: tegra210-adma: Fix build error due to 64-by-32 division
+950432b79a5dd5e56ba946731b485228e2d43f2f net: stmmac: Allow zero for [tr]x_fifo_size
 352a21d29092d16aef6905ecb8857c3876038b15 hwmon: (gsc) drop unneeded assignment for cache_type
 8dfd7e08269ad48a8d64d647ced6878f3b2da84a dt-bindings: hwmon: ltc2978: add support for ltm4673
 68b6f9586199fdc7f123bd91ea4a74bf9416eae8 hwmon: (pmbus/ltc2978) add support for ltm4673
@@ -519,5 +522,7 @@ bfbb730c4255e1965d202f48e7aa71baa9a7c65b hwmon: (sht3x) Use per-client debugfs e
 07df3d714d97c5fe6078614fd242c24ebf624fca Merge branch 'hwmon-g762' into hwmon-staging
 d2c857db6e6cb539a7709443bc54fafdc8d6ccdd Merge branch 'hwmon-emc2103' into hwmon-staging
 edd2a8b46eed70c6e3398ff74178892175ff1d76 Merge branch 'hwmon-max16065' into hwmon-staging
+87c2ba65c44da40148726ebe6a79d05762564463 Merge branch 'hwmon-staging' into testing
+8d0efe18f567040a251aef1e00ea39bd3776f5e1 Merge branch 'fixes-v6.14' into testing
 
---===============4340313744630944751==--
+--===============3239213634195056656==--
