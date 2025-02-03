@@ -1,58 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============0215501970049678077=="
+Content-Type: multipart/mixed; boundary="===============5790017948831952385=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 03 Feb 2025 15:42:10 -0000
-Message-Id: <173859733026.4051285.11007385796290688371@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 03 Feb 2025 15:56:28 -0000
+Message-Id: <173859818826.4062952.8277006117967225868@gitolite.kernel.org>
 
---===============0215501970049678077==
+--===============5790017948831952385==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
+repo: pub/scm/linux/kernel/git/broonie/spi
+user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 335a1fc1193481f8027f176649c72868172f6f8b
-    new: da1668997052ed1cb00322e1f3b63702615c9429
+  - ref: refs/heads/for-6.15
+    old: c1ac98492d1584d31f335d233a5cd7a4d4116e5a
+    new: 26a756fc10fac6f133ef47f12362a39769dfe24d
     log: |
-         2240fed37afbcdb5e8b627bc7ad986891100e05d USB: hub: Ignore non-compliant devices with too many configs or interfaces
-         58cd423820d5b5610977e55e4acdd06628829ede usb: dwc2: gadget: remove of_node reference upon udc_stop
-         da1668997052ed1cb00322e1f3b63702615c9429 usb: gadget: f_midi: fix MIDI Streaming descriptor lengths
+         d61009bd578ee7381a3cce5c506190ecb8f9d6e8 spi: zynqmp-gqspi: Reformat long line
+         ba54629287f58b22c1d37f80f1875373e4b51ea6 spi: zynqmp-gqspi: Add some more debug prints
+         d2ead60d853189f8e5ec6b301fac1e60e0b4b47d spi: zynqmp-gqspi: Add helpers for enabling/disabling DMA
+         9b32c86e40da792544c53076f5ec43f115e56687 spi: zynqmp-gqspi: Clean up fillgenfifo
+         89785306453ce6d949e783f6936821a0b7649ee2 spi: zynqmp-gqspi: Always acknowledge interrupts
+         26a756fc10fac6f133ef47f12362a39769dfe24d spi: zynqmp-gqspi: Clean up the driver a bit
          
 
---===============0215501970049678077==
+--===============5790017948831952385==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1738597358 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1738597327-6ed9bd61def9842783ffc8c21465e31655c14cf5
+pusher C3F436CA30F5D8EB 1738598217 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1738598186-c3b9342f98658feaf325ae9f13454028a7c77b77
 
-335a1fc1193481f8027f176649c72868172f6f8b da1668997052ed1cb00322e1f3b63702615c9429 refs/heads/usb-linus
+c1ac98492d1584d31f335d233a5cd7a4d4116e5a 26a756fc10fac6f133ef47f12362a39769dfe24d refs/heads/for-6.15
 -----BEGIN PGP SIGNATURE-----
 
-iQJOBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeg4+4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WmoP+L7iY2+Jnlfflde67MfC
-n3DoHtWVppCKF3T78o88BBeVC0MQT6z24nDnnqgbEuyGydewkuyZ6DR2AV+t0xCY
-HaOK5JrlASupm/l5G3XYqpte/YpDs92C89hYzShKtOY0rd2gySG42nSC55wxVr0J
-rXA5eGF1Wmf/qSfcquJFh1mpbiW4i+Fr8PET13n84N6KCsCs6KOBSXoRy8YLyZZt
-zLz6si4WomAkiGdMz97VrLyU4kUMq5Yga0uu2e40WKf+G/pPBBQLi1Ef3N7sa4Sr
-7BENMydjuPXm3vUEvZD9kMfb3uD5e38ctAt7ivxo+3Gk9IDweLyuPya/iFtAF4tU
-V1eskcp9BIiPql2TN+bFsLkxnsJDVa7z11eW8YaqxtW1eBCugHF0l0sVIkjL+8uo
-/Wo7QMPtYiBh2f+5wlk1osnj2mKQXXvpV5oXC3bdKm9In0eTrvZ+iEFlrGc03Qco
-zqtgbHYseHhhA+IO2d1gIY/y6lbUgqKdmOjS5gUFV+B8ITdl+sAvvRBfBcvi4lyN
-rrIQhO6dlyE+fQGCfCxbUFt1I2ezda3kVSWNYs1OOTlXEtU7RXV29FaFly3oy0sm
-IQT9zZywArweNJBswzFD4D+pUxtu1b+FPkrEPI8Pa8fipBzq46s4p0LbV29968Qr
-D7dbr4VQOreBNaL6+PGb7PM=
-=QO1X
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmeg50kACgkQJNaLcl1U
+h9B6Awf7BB4t1ftrJs2NzqBnVUcSEIAm4ilMfDvSAEp0AzmyrknpXVfFHr20uIl6
+QlFwQrj9UYebzWqKCBC9hMP2BPgLIlYm8CyLLIrvji+4JVc/maA6lvDraS2KCixQ
+cD2ux1nZ5JrtMOAurnUkunXHUSsyq7XxgAGhjurF4+kt03cGehAm1tFswIpeAEIF
+RqPie9WtbnDuk91vn14Ct+PykqHQCW8gzVEZgiJGKIRWv/LQG6BK3USRzHnQhkXh
+4KnAUUwk5dVDu9RoBZ4g+NR7YD0y3OT7w98MMmrDFzJLvjZph4FuEvkdRFy/Hwaz
+iZ6gN64+RpgrI/q8CxQ7spZCm8PLGw==
+=12KD
 -----END PGP SIGNATURE-----
 
---===============0215501970049678077==--
+--===============5790017948831952385==--
