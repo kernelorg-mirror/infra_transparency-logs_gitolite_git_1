@@ -1,72 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============4117252336232252379=="
+Content-Type: multipart/mixed; boundary="===============6966218505390008118=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 03 Feb 2025 11:58:38 -0000
-Message-Id: <173858391898.3845025.11025656781321827072@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Mon, 03 Feb 2025 11:59:13 -0000
+Message-Id: <173858395358.3845337.2874186269550623126@gitolite.kernel.org>
 
---===============4117252336232252379==
+--===============6966218505390008118==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
 user: krzk
 git_push_cert_status: Y
 changes:
   - ref: refs/heads/for-next
     old: 2014c95afecee3e76ca4a56956a936e23283f05b
-    new: e3a9c321273dd073d309e96e08f40fa046eb90ac
+    new: b9c791c65ceda78931aaa9e5ddeed1f4b418cfc6
     log: |
-         00c1fda73df8081f40840f860c8d75e2c9070d48 soc: samsung: Use syscon_regmap_lookup_by_phandle_args
-         1fdadc8418bebba39899f341c3acdb189668e7f3 ARM: s3c: Do not include <linux/fb.h>
-         e3a9c321273dd073d309e96e08f40fa046eb90ac Merge branch 'next/drivers' into for-next
-         
-  - ref: refs/heads/next/drivers
-    old: 2014c95afecee3e76ca4a56956a936e23283f05b
-    new: 00c1fda73df8081f40840f860c8d75e2c9070d48
-    log: |
-         00c1fda73df8081f40840f860c8d75e2c9070d48 soc: samsung: Use syscon_regmap_lookup_by_phandle_args
-         
-  - ref: refs/heads/next/soc
-    old: 2014c95afecee3e76ca4a56956a936e23283f05b
-    new: 1fdadc8418bebba39899f341c3acdb189668e7f3
-    log: |
-         1fdadc8418bebba39899f341c3acdb189668e7f3 ARM: s3c: Do not include <linux/fb.h>
+         304e6c02b76f019016cd492d2d544e07c5753d30 memory: omap-gpmc: drop no compatible check
+         2f76a890fd2c636c640af1387b333aeb0cf69c75 memory: tegra20-emc: Drop redundant platform_get_irq() error printk
+         b9c791c65ceda78931aaa9e5ddeed1f4b418cfc6 Merge branch 'mem-ctrl-next' into for-next
          
 
---===============4117252336232252379==
+--===============6966218505390008118==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1738583947 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1738583916-b950e013613d3265d0ba065f322f868a534d57f9
+pusher krzk@kernel.org 1738583982 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
+nonce 1738583951-6d1d7e623547b46aec7cdd2413213f8af67f4044
 
-2014c95afecee3e76ca4a56956a936e23283f05b e3a9c321273dd073d309e96e08f40fa046eb90ac refs/heads/for-next
-2014c95afecee3e76ca4a56956a936e23283f05b 00c1fda73df8081f40840f860c8d75e2c9070d48 refs/heads/next/drivers
-2014c95afecee3e76ca4a56956a936e23283f05b 1fdadc8418bebba39899f341c3acdb189668e7f3 refs/heads/next/soc
+2014c95afecee3e76ca4a56956a936e23283f05b b9c791c65ceda78931aaa9e5ddeed1f4b418cfc6 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmegr4sQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1xtlD/9j/6X4SipyFGVjD2sDrPAEvIZWBn86qpf0
-+aStZzviSd209BzKeLJZTYT1wLBVbQe/rJM6HBeYCimGtybPKgJezaFNB1qjgqTQ
-ur9euy7gnwJZdulIi6uX3xt5p1K5NZ9qEfCv7Nl0ewRoRc6sA/ZPSfXb24j/Zv4A
-pzOS+qnpLZ/bmRkD+rzHD1uIv/hypY7qz2V8ENu4Tc8US1IjJVOqfuZIbZd0l8dM
-+V3Ju78tu71ZaQ9xZrv/VaENzRaFnPvDpGNfj1dWnE/tSwspOAxcSMxgPiqU7XoP
-gdUGQBF4jqt4/6k/c/JHn3fua5uIQbbbm2c5w2dCwwujBsedJu1qSYKfA58euTFq
-8oPjrf1xlkxMXrbjHlFckT3AEHpAaw4HrLC+M2QHd3rq79fUbi0Tn6wIU8jLSFaG
-ZXKQhXB9RupCLsNXRuJc8WtpFwA9WPqeZq8GJ2zVVDyljBW+Bf2XvG/PFNmkuHyS
-6b0IvV3MHgAK9Osij/n4zojJnj6qrio4NGbsaC+IJVtHl28UL6pUGnf78Mk9YRac
-lRd+ABdfZI06r5QKTrtQmk/BWMTmuy8qMkYbmH8RDgokfVy60i4+QHe5aWNhmI5a
-V8AIDAgiRfTFyvKDEzmIe9g9fTJV2P0RLojMuA1Xb/U+dj7w0iX4SsK/7tPp2qvA
-Dqt9NvQpGw==
-=wBNZ
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmegr64QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD14CAD/sEsfrO4rR3P0Xr28Ds9IC5jeoSFohzpH5D
+Y26GuThIi4ui0E72Tgrta00aE/rjPozZQvWCQwCpEnc4G546jKzLeEAChK7jmyMR
+EF9/f+cU+JPGQEIufPjUqeoMbD53/rt5WBNsKjLUs6TYFDWGXkHxBRtIiY7FddqD
+s64Oy4EbY2RE93YmpEn/4T2R8RMcTqNpTRrElOt1ZmkW0WEf52GzHhP3ZH8eNiT7
+uwIwuxALP5Jozb01omZvCI7czz2k8NjLIr1PWAArDu23K8ovAIT6MJcF/fKRFJwX
+wk/7JHVnPfsH9Go6bBTNsoL8PukyM2Xj7PVAbxny9C+iKCKHrdA0RqFOLA1eyXyg
+RZdi3G1q2CbJnHmr80+F+OdJ5m/rKI7eDBCWClN/4nv4AtYkKzJHKmuoytEpATnI
+dcv0QZQVMwWkXOiIOcA27vuil9fkmnFkv9BTnMO4EWI1GiyCFZc7Sqn02+0nwUOy
+OaxdPZr9IQ0AGf52kACfeqq9nC9b6gBD9g4MDd6XqlheOBLiCapaM9SvHfXTGNo/
+M1ySzVvunfT4xgGIWDYuiOzHqYkKsp4VZYTsfrM4lyjNOC8IjS9alOuFREPp0ucO
+MI2YNlExWOYgdNeRBvuktvuu8j61nvZpr5piJ/r+sKp9Ic/EXUG3dhLiLDy2HoXi
+5lLkKrLLeQ==
+=lq6a
 -----END PGP SIGNATURE-----
 
---===============4117252336232252379==--
+--===============6966218505390008118==--
