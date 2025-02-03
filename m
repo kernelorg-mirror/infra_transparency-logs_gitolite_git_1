@@ -1,40 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============5034343608519922335=="
+Content-Type: multipart/mixed; boundary="===============7145732274770636038=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Mon, 03 Feb 2025 20:54:51 -0000
-Message-Id: <173861609139.121817.13481260935555163777@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
+Date: Mon, 03 Feb 2025 21:04:33 -0000
+Message-Id: <173861667353.129892.16831257159862938392@gitolite.kernel.org>
 
---===============5034343608519922335==
+--===============7145732274770636038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+user: sre
 changes:
-  - ref: refs/heads/master
-    old: 37fd83916da2e4cae03d350015c82a67b1b334c4
-    new: 2014c95afecee3e76ca4a56956a936e23283f05b
-    log: revlist-37fd83916da2-2014c95afece.txt
+  - ref: refs/heads/psy-battery-cleanup
+    old: c56bf684aa8cb6ab338fdd616a9ea43cc8f10b32
+    new: 357a94788f5639f6661e52274a226960a52cf56d
+    log: revlist-c56bf684aa8c-357a94788f56.txt
 
---===============5034343608519922335==
+--===============7145732274770636038==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-37fd83916da2-2014c95afece.txt
+Content-Disposition: attachment; filename=revlist-c56bf684aa8c-357a94788f56.txt
 
-668135b9348c53fd205f5e07d11e82b10f31b55b NFSv4.2: mark OFFLOAD_CANCEL MOVEABLE
-0b96c75d86560c077d29ce629e9d1ca0258c9cc1 NFSv4.2: make LAYOUTSTATS and LAYOUTERROR MOVEABLE
-a3282f84b2151d254dc4abf24d1255c6382be774 PCI: switchtec: Add Microchip PCI100X device IDs
-13b6931c44969ff057ad2a3aa1c20a1b28b79b6f Merge tag 'x86_sev_for_v6.14_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-e7217011ddd8e86a0d18c6cbfb4f14da3d18eee0 ALSA: usb: fcp: Fix meter_levels type to __le32
-f08cc80f69be62beb7a63cd4813c7989c8708831 ALSA: usb: fcp: Fix incorrect resp->opcode retrieval
-0a8f5f4652ef4d530a7cb8bed2b6e502cdfa825f ALSA: usb: fcp: Fix return code from poll ops
-b02cfbd9bfb9f45eebb33771e5705af95b5c9673 dt-bindings: PCI: mobiveil: Convert mobiveil-pcie.txt to YAML
-10e796eed62648ff928cb66d52f226452e1affff dt-bindings: PCI: qcom,pcie-sm8550: Document 'global' interrupt
 c25b978d351fae5da87794be9160d8acfa6e6823 dt-bindings: PCI: qcom: Document the IPQ5424 PCIe controller
 a8581752278ef9d6ea73bb10eef2657bfb73e116 bcachefs: Fix btree_trans_peek_key_cache()
 48795f90cbdcccc36cc415a2d785a23a4b23e57a Merge tag 'x86_cpu_for_v6.14_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1050,5 +1041,14 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 5d82ca7b5019d880a579831278eb73cbbfdb87da Merge tag 'sh-for-v6.14-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
+33ea7a0cb059d6c8c4435ca9d1dd90f82ed1c0cf power: supply: core: get rid of of_node
+ec3bca32b6b1d6835eb8eb4e3b043806fa2a30eb regulator: act8865-regulator: switch psy_cfg from of_node to fwnode
+e9956bdd65cfed15b2ab386827334102c6f531cb usb: common: usb-conn-gpio: switch psy_cfg from of_node to fwnode
+957b876cedfd6f42dddab54cd1f0337d2428925b power: supply: all: switch psy_cfg from of_node to fwnode
+19bc87c5da1aa0793fd19d5c2c2ba5b198318255 power: supply: core: remove of_node from power_supply_config
+9c3b46a35be793500a13a8867a9bde50c4e555b4 power: supply: core: battery-info: fully switch to fwnode
+ce1d06389922bd667b6b9cf6914f5b127dd74d6a power: supply: core: convert to fwnnode
+354b8ddcf55c4c1f9d02987daf5197fb5858362f power: supply: core: avoid re-parsing battery_info
+357a94788f5639f6661e52274a226960a52cf56d power: supply: ingenic: constify battery description
 
---===============5034343608519922335==--
+--===============7145732274770636038==--
