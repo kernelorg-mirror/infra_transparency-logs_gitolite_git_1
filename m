@@ -1,65 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============3727270195107977514=="
+Content-Type: multipart/mixed; boundary="===============5318129877904112291=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 03 Feb 2025 19:56:35 -0000
-Message-Id: <173861259508.74081.17678155804605960001@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 03 Feb 2025 19:56:39 -0000
+Message-Id: <173861259924.74231.10319944180502058462@gitolite.kernel.org>
 
---===============3727270195107977514==
+--===============5318129877904112291==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.14
+  - ref: refs/heads/regulator-6.14
     old: 155c569fa4c3b340fbf8571a0e42dd415c025377
     new: 2014c95afecee3e76ca4a56956a936e23283f05b
     log: revlist-155c569fa4c3-2014c95afece.txt
-  - ref: refs/heads/for-6.15
-    old: 2014c95afecee3e76ca4a56956a936e23283f05b
+  - ref: refs/heads/regulator-6.15
+    old: 0000000000000000000000000000000000000000
     new: 3c32a4386909e8023b3c49253fec33d267be16bb
-    log: |
-         19d022d67d7353f0e6e9ba255435d3de93862ac4 regulator: ad5398: change enable bit name to improve readibility
-         5a6a461079decea452fdcae955bccecf92e07e97 regulator: ad5398: Add device tree support
-         f9cbf56b0a1966d977df87d15a5bdbff2c342062 dt-bindings: regulator: pca9450: Add properties for handling LDO5
-         b5ec74c2aec76fbdff9bc16951455602e11902bf arm64: dts: imx8mp-skov-reva: Use hardware signal for SD card VSELECT
-         c73be62caabbec6629689c705aea65e5ce364d5d Revert "regulator: pca9450: Add SD_VSEL GPIO for LDO5"
-         3ce6f4f943ddd9edc03e450a2a0d89cb025b165b regulator: pca9450: Fix control register for LDO5
-         f5aab0438ef17f01c5ecd25e61ae6a03f82a4586 regulator: pca9450: Fix enable register for LDO5
-         3c32a4386909e8023b3c49253fec33d267be16bb regulator: Add device tree support to AD5398
-         
 
---===============3727270195107977514==
+--===============5318129877904112291==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1738612623 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1738612592-2b0c141873c181824aff56677644f50fa886fb15
+pusher C3F436CA30F5D8EB 1738612627 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1738612596-13dd5820152f42b69832bcec900ed446b047bf57
 
-155c569fa4c3b340fbf8571a0e42dd415c025377 2014c95afecee3e76ca4a56956a936e23283f05b refs/heads/for-6.14
-2014c95afecee3e76ca4a56956a936e23283f05b 3c32a4386909e8023b3c49253fec33d267be16bb refs/heads/for-6.15
+155c569fa4c3b340fbf8571a0e42dd415c025377 2014c95afecee3e76ca4a56956a936e23283f05b refs/heads/regulator-6.14
+0000000000000000000000000000000000000000 3c32a4386909e8023b3c49253fec33d267be16bb refs/heads/regulator-6.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmehH48ACgkQJNaLcl1U
-h9CjmAf/cWRbZ04Cz9FT8zZKUk4gER9nuiaMtmWCnQEW27ZyWWUTEqxCwIaNY6kc
-0vi/w3GLdXe0ETN4nIsBlXvYc8x9ECGTofYl7VZX7buBja9lnA7dRuAObJj5/Qz1
-oGDKEQgPkEI3Mn3+RcbXUJL2e76px2Pu6s6VT1nFyrVkvWqPZvxmPltFwfp6RhG2
-Ww26gP3WMbNcW8SIMtqHA/NTukA2FTOlcpVO+g2EEFbdKhM/qr6xSo2r2qGVwwt0
-j92DpMmiZMnvi6yQ1IZAf0E6GclLVctb4ySLNTBcGop2T/rLyEN/POEO3o058D41
-TQd8ba1YGz69fTxUEblHWOmKFINNuA==
-=nBcE
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmehH5MACgkQJNaLcl1U
+h9DRbwf9FqraQAeKHWIBIYOxQPUzclGxRNSFl5IaCAdPh7WQZba2HcH5c2q7chFH
+oENuYHkyWJl/pGoWr1op5njzRHhPVGQBQwIKtFOI1ELBk+LPCUuxxixfXGtxB87d
+cVPApl9jQkU9IC+cOACys9iWvbN6/uI6RzASuikrtSfwhJevUT22Xcxj4suxDhI8
+Io0Vy9pTw+NpYd4inpA8mXIul9t8cPQ0O11McCtwMq58W6/3P2l6lsL3KlOWXND7
+QQXbK1hzr/77QknNEdNOtq5+/FAHNkTz9m2aLGnJj7U4wLwK0Ai17YtVqCnU+EEn
+q04jKe0zPiLRs2YZSC7K6uZAt+LADQ==
+=7xe7
 -----END PGP SIGNATURE-----
 
---===============3727270195107977514==
+--===============5318129877904112291==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1090,4 +1080,4 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
 
---===============3727270195107977514==--
+--===============5318129877904112291==--
