@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 03 Feb 2025 13:49:01 -0000
-Message-Id: <173859054174.3942623.14749942561432751615@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Mon, 03 Feb 2025 13:54:40 -0000
+Message-Id: <173859088016.3947796.8415159105175667595@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/rdma-next
-    old: 8fe16391c05e114ebe461abfaab1f18bf1791984
-    new: f6ebaa620b7789fc10831e789f902b6c912db355
+  - ref: refs/heads/main
+    old: 722d0d1271dce547df152e5d6db84c139b9f83a7
+    new: 2bcb72376b031ba69c6ae2610f7c646f6fb7406a
     log: |
-         1af3e24e8126e42e30d833849d898e5d9a6708e3 RDMA/mlx5: Fix implicit ODP hang on parent deregistration
-         f6ebaa620b7789fc10831e789f902b6c912db355 RDMA/mlx5: Fix AH static rate parsing
+         6b12b9649a91d08163d7f62d52afbf6237953182 qca: add more WCN3950 1.3 NVM files
+         2bcb72376b031ba69c6ae2610f7c646f6fb7406a Merge branch 'robot/pr-0-1738402091' into 'main'
          
