@@ -1,58 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============6966218505390008118=="
+Content-Type: multipart/mixed; boundary="===============1627201785116367862=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Mon, 03 Feb 2025 11:59:13 -0000
-Message-Id: <173858395358.3845337.2874186269550623126@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-w1
+Date: Mon, 03 Feb 2025 11:59:32 -0000
+Message-Id: <173858397255.3845931.2691157539889733086@gitolite.kernel.org>
 
---===============6966218505390008118==
+--===============1627201785116367862==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+repo: pub/scm/linux/kernel/git/krzk/linux-w1
 user: krzk
 git_push_cert_status: Y
 changes:
   - ref: refs/heads/for-next
     old: 2014c95afecee3e76ca4a56956a936e23283f05b
-    new: b9c791c65ceda78931aaa9e5ddeed1f4b418cfc6
+    new: 33c145297840dddf0dc23d5822159c26aba920d3
     log: |
-         304e6c02b76f019016cd492d2d544e07c5753d30 memory: omap-gpmc: drop no compatible check
-         2f76a890fd2c636c640af1387b333aeb0cf69c75 memory: tegra20-emc: Drop redundant platform_get_irq() error printk
-         b9c791c65ceda78931aaa9e5ddeed1f4b418cfc6 Merge branch 'mem-ctrl-next' into for-next
+         0dd6770a72f138dabea9eae87f3da6ffa68f0d06 w1: fix NULL pointer dereference in probe
+         33c145297840dddf0dc23d5822159c26aba920d3 w1: w1_therm: w1: Use HWMON_CHANNEL_INFO macro to simplify code
          
 
---===============6966218505390008118==
+--===============1627201785116367862==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1738583982 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
-nonce 1738583951-6d1d7e623547b46aec7cdd2413213f8af67f4044
+pusher krzk@kernel.org 1738584001 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-w1.git
+nonce 1738583970-c513e4a7f16b459280b42e2bc08c826ab25ee289
 
-2014c95afecee3e76ca4a56956a936e23283f05b b9c791c65ceda78931aaa9e5ddeed1f4b418cfc6 refs/heads/for-next
+2014c95afecee3e76ca4a56956a936e23283f05b 33c145297840dddf0dc23d5822159c26aba920d3 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmegr64QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD14CAD/sEsfrO4rR3P0Xr28Ds9IC5jeoSFohzpH5D
-Y26GuThIi4ui0E72Tgrta00aE/rjPozZQvWCQwCpEnc4G546jKzLeEAChK7jmyMR
-EF9/f+cU+JPGQEIufPjUqeoMbD53/rt5WBNsKjLUs6TYFDWGXkHxBRtIiY7FddqD
-s64Oy4EbY2RE93YmpEn/4T2R8RMcTqNpTRrElOt1ZmkW0WEf52GzHhP3ZH8eNiT7
-uwIwuxALP5Jozb01omZvCI7czz2k8NjLIr1PWAArDu23K8ovAIT6MJcF/fKRFJwX
-wk/7JHVnPfsH9Go6bBTNsoL8PukyM2Xj7PVAbxny9C+iKCKHrdA0RqFOLA1eyXyg
-RZdi3G1q2CbJnHmr80+F+OdJ5m/rKI7eDBCWClN/4nv4AtYkKzJHKmuoytEpATnI
-dcv0QZQVMwWkXOiIOcA27vuil9fkmnFkv9BTnMO4EWI1GiyCFZc7Sqn02+0nwUOy
-OaxdPZr9IQ0AGf52kACfeqq9nC9b6gBD9g4MDd6XqlheOBLiCapaM9SvHfXTGNo/
-M1ySzVvunfT4xgGIWDYuiOzHqYkKsp4VZYTsfrM4lyjNOC8IjS9alOuFREPp0ucO
-MI2YNlExWOYgdNeRBvuktvuu8j61nvZpr5piJ/r+sKp9Ic/EXUG3dhLiLDy2HoXi
-5lLkKrLLeQ==
-=lq6a
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmegr8EQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD192dD/95bsWKq+MBdYEGdolsdVgMc2GVu7f9+eT2
+F9HO3Wj4Pjl+0C3Mvws3z6M0jMy8gsjem0+L8qmYTOUHT59XloDwkKS9mD/0qukj
+7GTQ1pytfuRfPRv5VqFiVTrSHasIrSlgJW/UZO6Swk+V3d30B8cPlGWZ/1tCeSNg
+nCbMhqPKgJLwKRHt1ndQj4sAmxV3r8eKu2EghwKRFXZJo1KsZoSsSaLIuRMDvGrn
+sYHenTA7hrdvsUPJGK/AhGqNkShTomHiJJn7ZcwW22Z4hRLeQFFhlMnjyceIj2iu
+LTjXExV2GX2TRrGlVMY02LtblMRWUoxTpJzTA9YyI0O+bFEUlUUUrotUiYhGYX36
+N2Z3qfwdtsN5i5KFFyFb0zUDXcVQ4W8EgJZSoiTUg5Ssj8ZK2ul9x0wCCE8EEzH/
+cJHzNrWEjKNemUqWji91ky8ZTVg6oXENZ5Qfd/v7Ec7JMz1CuISVSEFd+hz+VBRw
+Hj95vrL+SVVSvkZyyrT4BACCbgFJePHdL7i9xvOYphV/DWBXifPjg5bXE41zDU1Y
+RxpaBbOEDGuwUO9Z9KZZ+3bsYJjORIRcyF7a/8bsWxSQKfitJB3vD+bOlwQJcKoT
+atMFJHLIGbXBUyVn1Jxcc7UhKqTNoJm5prJi2eci8u0ZTA2omqP4d+phwUAMaYT9
+APb9EJf18g==
+=khgO
 -----END PGP SIGNATURE-----
 
---===============6966218505390008118==--
+--===============1627201785116367862==--
