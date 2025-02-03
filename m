@@ -1,33 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============2905733109156521734=="
+Content-Type: multipart/mixed; boundary="===============6923516054768570997=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 03 Feb 2025 18:24:34 -0000
-Message-Id: <173860707497.4186552.1344874929005415652@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Mon, 03 Feb 2025 18:28:33 -0000
+Message-Id: <173860731337.4189787.1941165900519393973@gitolite.kernel.org>
 
---===============2905733109156521734==
+--===============6923516054768570997==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: daveh
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/x86/cpu
-    old: e5d3a57891ba500503df075b99b78d6e61f2694e
-    new: 2014c95afecee3e76ca4a56956a936e23283f05b
-    log: revlist-e5d3a57891ba-2014c95afece.txt
+  - ref: refs/heads/for-next
+    old: ffd294d346d185b70e28b1a28abe367bbfe53c04
+    new: 4e3ff3c5854ff584842bb2cfa484e4aa79d998bf
+    log: revlist-ffd294d346d1-4e3ff3c5854f.txt
 
---===============2905733109156521734==
+--===============6923516054768570997==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-e5d3a57891ba-2014c95afece.txt
+Content-Disposition: attachment; filename=revlist-ffd294d346d1-4e3ff3c5854f.txt
 
-668135b9348c53fd205f5e07d11e82b10f31b55b NFSv4.2: mark OFFLOAD_CANCEL MOVEABLE
-0b96c75d86560c077d29ce629e9d1ca0258c9cc1 NFSv4.2: make LAYOUTSTATS and LAYOUTERROR MOVEABLE
 a3282f84b2151d254dc4abf24d1255c6382be774 PCI: switchtec: Add Microchip PCI100X device IDs
 13b6931c44969ff057ad2a3aa1c20a1b28b79b6f Merge tag 'x86_sev_for_v6.14_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 e7217011ddd8e86a0d18c6cbfb4f14da3d18eee0 ALSA: usb: fcp: Fix meter_levels type to __le32
@@ -1050,5 +1048,7 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 5d82ca7b5019d880a579831278eb73cbbfdb87da Merge tag 'sh-for-v6.14-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
+579e5fd927adb2faede602b2ff5a40849da96ad5 parisc: Fix formatting errors in io.c
+4e3ff3c5854ff584842bb2cfa484e4aa79d998bf parisc: Remove memcpy_fromio
 
---===============2905733109156521734==--
+--===============6923516054768570997==--
