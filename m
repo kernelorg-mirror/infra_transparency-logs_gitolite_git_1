@@ -1,32 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============5537198739935979789=="
+Content-Type: multipart/mixed; boundary="===============4932668517329538357=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Mon, 03 Feb 2025 12:10:12 -0000
-Message-Id: <173858461279.3857680.14690219813396060633@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
+Date: Mon, 03 Feb 2025 12:18:47 -0000
+Message-Id: <173858512779.3863184.6703702837375246636@gitolite.kernel.org>
 
---===============5537198739935979789==
+--===============4932668517329538357==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/libata/linux
-user: cassel
+repo: pub/scm/linux/kernel/git/ulfh/mmc
+user: ulfh
 changes:
-  - ref: refs/heads/for-next
-    old: 6e74e53b34b6dec5a50e1404e2680852ec6768d2
-    new: deca423213cb33feda15e261e7b5b992077a6a08
-    log: revlist-6e74e53b34b6-deca423213cb.txt
+  - ref: refs/heads/fixes
+    old: 8d90a86ed053226a297ce062f4d9f4f521e05c4c
+    new: 2014c95afecee3e76ca4a56956a936e23283f05b
+    log: revlist-8d90a86ed053-2014c95afece.txt
+  - ref: refs/tags/v6.14-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 379487e17ca406b47392e7ab6cf35d1c3bacb371
 
---===============5537198739935979789==
+--===============4932668517329538357==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6e74e53b34b6-deca423213cb.txt
+Content-Disposition: attachment; filename=revlist-8d90a86ed053-2014c95afece.txt
 
-e8380c2d06055665b3df6c03964911375d7f9290 NFSv4.2: fix COPY_NOTIFY xdr buf size calculation
 668135b9348c53fd205f5e07d11e82b10f31b55b NFSv4.2: mark OFFLOAD_CANCEL MOVEABLE
 0b96c75d86560c077d29ce629e9d1ca0258c9cc1 NFSv4.2: make LAYOUTSTATS and LAYOUTERROR MOVEABLE
 a3282f84b2151d254dc4abf24d1255c6382be774 PCI: switchtec: Add Microchip PCI100X device IDs
@@ -717,6 +719,7 @@ f764fab72d98833b47d389ac2ed35bd000132d87 cifs: Change translation of STATUS_NOT_
 05d91cdb1f9108426b14975ef4eeddf15875ca05 net/ncsi: use dev_set_mac_address() for Get MC MAC Address handling
 eb5c79828cfa72e8dbdf2db842a781ad6806cdaf firmware: cs_dsp: FW_CS_DSP_KUNIT_TEST should not select REGMAP
 3ff53862c322aa7bb115d84348d5a641dc905d87 ASoC: amd: acp: Fix possible deadlock
+cc77e2ce187d26cc66af3577bf896d7410eb25ab ata: libata-core: Add ATA_QUIRK_NOLPM for Samsung SSD 870 QVO drives
 cdbc69716ff3a126cef43154742858e1caffa858 fs/proc/vmcore: convert vmcore_cb_lock into vmcore_mutex
 2083dfe45e83336fafb92f689d6d4b873ad9872d fs/proc/vmcore: replace vmcoredd_mutex by vmcore_mutex
 0f3b1c40c65262a216fb459fd375f39442a5138b fs/proc/vmcore: disallow vmcore modifications while the vmcore is open
@@ -834,6 +837,7 @@ f34b580514c9816a317764e6b138ec66a4adab25 Merge tag 'nfsd-6.14' of git://git.kern
 519b2b14bef70922bd64117a978ea7f2a683b75b ALSA: pcm: use new array-copying-wrapper
 3b8b80e993766dc96d1a1c01c62f5d15fafc79b9 s390: Add '-std=gnu11' to decompressor and purgatory CFLAGS
 b05d66c882994fb63e8435bf64f262ef44c51874 s390/vmem: Fix null-pointer-arithmetic warning in vmem_map_init()
+6e74e53b34b6dec5a50e1404e2680852ec6768d2 ata: libata-sff: Ensure that we cannot write outside the allocated buffer
 90b7f2961798793275b4844348619b622f983907 net: usb: rtl8150: enable basic endpoint checking
 19ae40f572a9ce1ade9954990af709a03fd37010 ptp: Properly handle compat ioctls
 c219427ed296f94bb4b91d08626776dc7719ee27 usbnet: ipheth: fix possible overflow in DPE length check
@@ -1049,6 +1053,5 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 5d82ca7b5019d880a579831278eb73cbbfdb87da Merge tag 'sh-for-v6.14-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
-deca423213cb33feda15e261e7b5b992077a6a08 ata: libata-core: Add 'external' to the libata.force kernel parameter
 
---===============5537198739935979789==--
+--===============4932668517329538357==--
