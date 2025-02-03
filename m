@@ -1,50 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============8488489916727618496=="
+Content-Type: multipart/mixed; boundary="===============3400407338054970189=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
-Date: Mon, 03 Feb 2025 09:05:36 -0000
-Message-Id: <173857353668.3695075.15046752472614162858@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Mon, 03 Feb 2025 09:05:39 -0000
+Message-Id: <173857353991.3695172.9803347749299423028@gitolite.kernel.org>
 
---===============8488489916727618496==
+--===============3400407338054970189==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/atorgue/stm32
-user: atorgue
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/heads/stm32-next
-    old: b7ebfb84a09de6b44492974339654d8ffc5ad9e1
-    new: 2014c95afecee3e76ca4a56956a936e23283f05b
-    log: revlist-b7ebfb84a09d-2014c95afece.txt
+  - ref: refs/heads/rust/cpufreq-dt
+    old: b08a5923033c11f3b1122b5aae1699b6abe46a22
+    new: e49f2c6f327cf0f2bd362db9d451696bbc6f68df
+    log: revlist-b08a5923033c-e49f2c6f327c.txt
 
---===============8488489916727618496==
+--===============3400407338054970189==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-b7ebfb84a09d-2014c95afece.txt
+Content-Disposition: attachment; filename=revlist-b08a5923033c-e49f2c6f327c.txt
 
-668135b9348c53fd205f5e07d11e82b10f31b55b NFSv4.2: mark OFFLOAD_CANCEL MOVEABLE
-0b96c75d86560c077d29ce629e9d1ca0258c9cc1 NFSv4.2: make LAYOUTSTATS and LAYOUTERROR MOVEABLE
-a3282f84b2151d254dc4abf24d1255c6382be774 PCI: switchtec: Add Microchip PCI100X device IDs
-13b6931c44969ff057ad2a3aa1c20a1b28b79b6f Merge tag 'x86_sev_for_v6.14_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-e7217011ddd8e86a0d18c6cbfb4f14da3d18eee0 ALSA: usb: fcp: Fix meter_levels type to __le32
-f08cc80f69be62beb7a63cd4813c7989c8708831 ALSA: usb: fcp: Fix incorrect resp->opcode retrieval
-0a8f5f4652ef4d530a7cb8bed2b6e502cdfa825f ALSA: usb: fcp: Fix return code from poll ops
-b02cfbd9bfb9f45eebb33771e5705af95b5c9673 dt-bindings: PCI: mobiveil: Convert mobiveil-pcie.txt to YAML
-10e796eed62648ff928cb66d52f226452e1affff dt-bindings: PCI: qcom,pcie-sm8550: Document 'global' interrupt
-c25b978d351fae5da87794be9160d8acfa6e6823 dt-bindings: PCI: qcom: Document the IPQ5424 PCIe controller
-a8581752278ef9d6ea73bb10eef2657bfb73e116 bcachefs: Fix btree_trans_peek_key_cache()
-48795f90cbdcccc36cc415a2d785a23a4b23e57a Merge tag 'x86_cpu_for_v6.14_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-b9d8a295ed6bc3cee846f8e3f27c9c6e9ebe43f2 Merge tag 'x86_misc_for_v6.14_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-e721f619e3ec9bae08bf419c3944cf1e6966c821 iommufd: Fix struct iommu_hwpt_pgfault init and padding
-f917016f69ba5a0c42a3a3327792707315f2a937 bcachefs: Reduce stack frame size of __bch2_str_hash_check_key()
-abb604a1a9c87255c7a6f3b784410a9707baf467 RDMA/mlx5: Fix a race for an ODP MR which leads to CQE with error
-dec6b006f4cc13968d75ed28673ca4e3633de96b ASoC: dt-bindings: ti,pcm1681: Fix the binding title
-8838a1a2d219a86ab05e679c73f68dd75a25aca5 Merge tag 'locking-core-2025-01-20' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-d3d930411ce390e532470194296658a960887773 RDMA/mlx5: Fix implicit ODP use after free
 a6640c8c2fc029f015c87672585931c6106971c1 Merge tag 'objtool-core-2025-01-20' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6c4aa896ebee5edf2b35a9d071e5a468797f96d8 Merge tag 'perf-core-2025-01-20' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 858df1de2158bd7ab88d31b557592e990bacc0b5 Merge tag 'x86-cleanups-2025-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1050,5 +1031,24 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 5d82ca7b5019d880a579831278eb73cbbfdb87da Merge tag 'sh-for-v6.14-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
+99ca28045252ba77c302d74e57c2976e60744c4d rust: macros: enable use of hyphens in module names
+a15f7a5988d2619c593339566a51007cec14901a cpufreq: Use enum for cpufreq flags that use BIT()
+cd115af32e1b90934f6780efb1d09ced429a11c6 rust: cpu: Add from_cpu()
+b051469bbacb4fc2a0728e1c65592ecc06d1390e rust: Add cpumask helpers
+f21cc66d67a17e58410b675553b56a38cb74536f rust: Add bindings for cpumask
+8f7f93a504ac6681c52a7f353ddafe28f1140030 rust: Add bare minimal bindings for clk framework
+53d23eea2724bccebb81a595f28ec5bdbb6355b9 rust: Add initial bindings for OPP framework
+2f22ba8910c4b6175bab67468d012a95015f8832 rust: Extend OPP bindings for the OPP table
+55753c04696e0f0e9d84b609b66678a2520d5aab rust: Extend OPP bindings for the configuration options
+1b1d5c1d806905fe60bb434d2f3458541740ea63 rust: Add initial bindings for cpufreq framework
+126bac02e1cf12243ac39e8f196ccbba7176682d rust: Extend cpufreq bindings for policy and driver ops
+b8061b120e557edca1a5ec21ff67352a93d48654 rust: Extend cpufreq bindings for driver registration
+df49cebaad631bcac95f88f8499291fb4610b738 rust: Extend OPP bindings with CPU frequency table
+9f078b965b2b473d78ecec59c9d5670b3cef6e4b cpufreq: Add Rust based cpufreq-dt driver
+bf4c34b7aaa7494151b7fa8e15121a859ef9619d defconfig: Run saveconfig
+da301113e429e0f8cf51ebd2cebe3713ba7cfa8e defconfig: Update Rust and initramfs
+969ad4c55bcb7f1a12000b287c2032aa8985762b debug
+341ec1b55d84b129bdea2517a19020fe28531e4d test
+e49f2c6f327cf0f2bd362db9d451696bbc6f68df phy: freescale: fsl-samsung-hdmi: fix build error in fsl_samsung_hdmi_phy_configure_pll_lock_det
 
---===============8488489916727618496==--
+--===============3400407338054970189==--
