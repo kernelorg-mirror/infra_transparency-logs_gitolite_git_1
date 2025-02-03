@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8013969395763561309=="
+Content-Type: multipart/mixed; boundary="===============4703747458114250309=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 03 Feb 2025 06:34:28 -0000
-Message-Id: <173856446892.3511867.15514724918080247201@gitolite.kernel.org>
+Date: Mon, 03 Feb 2025 06:34:38 -0000
+Message-Id: <173856447803.3512609.12745116077389184501@gitolite.kernel.org>
 
---===============8013969395763561309==
+--===============4703747458114250309==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/for-next
     old: bdd4f86c97e60b748027bdf6f6a3729c8a12da15
     new: 2014c95afecee3e76ca4a56956a936e23283f05b
     log: revlist-bdd4f86c97e6-2014c95afece.txt
 
---===============8013969395763561309==
+--===============4703747458114250309==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -119,4 +119,4 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
 
---===============8013969395763561309==--
+--===============4703747458114250309==--
