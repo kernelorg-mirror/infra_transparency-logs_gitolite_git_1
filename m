@@ -1,61 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5844391222474908635=="
+Content-Type: multipart/mixed; boundary="===============7511540368504942646=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
-Date: Mon, 03 Feb 2025 06:46:55 -0000
-Message-Id: <173856521595.3575546.15548741956534543696@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
+Date: Mon, 03 Feb 2025 07:02:56 -0000
+Message-Id: <173856617616.3587750.7146838022487873142@gitolite.kernel.org>
 
---===============5844391222474908635==
+--===============7511540368504942646==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/spdx
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+user: westeri
 changes:
-  - ref: refs/heads/spdx-linus
-    old: b62cef9a5c673f1b8083159f5dc03c1c5daced2f
+  - ref: refs/heads/master
+    old: ffd294d346d185b70e28b1a28abe367bbfe53c04
     new: 2014c95afecee3e76ca4a56956a936e23283f05b
-    log: revlist-b62cef9a5c67-2014c95afece.txt
+    log: revlist-ffd294d346d1-2014c95afece.txt
 
---===============5844391222474908635==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1738565188 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
-nonce 1738565214-f3f03994b8071b5151471cc94edd5d19797d48ce
-
-b62cef9a5c673f1b8083159f5dc03c1c5daced2f 2014c95afecee3e76ca4a56956a936e23283f05b refs/heads/spdx-linus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmegZkQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+eH0P/ikZs6DJOWi2ptfUXHB1
-P8OajX7PdmzehyhlVrX2bsTArcL/k8rncPRxKEub/zisbmhJwmZ3Dcus0yklzlta
-TC6Te2P0yXhmqdhxo7p8mR/cExn2ZZQdNo0Kx98xv5vXKa+EsiTL2b77adQ9vqmQ
-jLHOjAW3kB7CN0+OaSUsF+RWeLAYYv8PVTexg7GgPf34Y1WuFtgqUc7kejCqe1ia
-DximqJ56JQwKILzWVqlIKvZe/tHlWyHT8ufK3jNc5WQhr3xJCloGxO/J3czhir+g
-/b1PwHRz6xwgNO83NecEt5t5b3XlZBzj8IUP3TLuhIPXQl29QELMFHgBGe9uzgue
-2GglNddQFazBgYkocs3sNjZzn4OPGHtXFUAZIr6atFvhr4wT18uCdGwSxDXW2KWH
-8OzScUK74bOMjVMtPjazLsarlEkLPgdWT3K1/fWxrqgkJVyqTOUBgClKxTwhluBM
-ZrjrlnJc2yjOUNEV5JkRM0UGs8KMyEVXrL/LdpynyTIoyAViZJ6iwF8p/QT7GO6D
-0FKQ6brij5GiHlUlBK2S2MNNnG/3JUA9Y34Ce26Eaafw1y5u/BYFN032SVTVZb4Q
-j9hrLgrVcZ6j50zc0LXaQbx1ciapU7sCRtkx0HO4jWK6afjgFr2qzhdeBGHWlvfM
-CYn7W7ujsK++SdivzvZ3abiF
-=SVkC
------END PGP SIGNATURE-----
-
---===============5844391222474908635==
+--===============7511540368504942646==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-b62cef9a5c67-2014c95afece.txt
+Content-Disposition: attachment; filename=revlist-ffd294d346d1-2014c95afece.txt
 
 668135b9348c53fd205f5e07d11e82b10f31b55b NFSv4.2: mark OFFLOAD_CANCEL MOVEABLE
 0b96c75d86560c077d29ce629e9d1ca0258c9cc1 NFSv4.2: make LAYOUTSTATS and LAYOUTERROR MOVEABLE
@@ -1082,4 +1051,4 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
 
---===============5844391222474908635==--
+--===============7511540368504942646==--
