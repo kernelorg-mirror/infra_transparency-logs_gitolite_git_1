@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============1347061266441029826=="
+Content-Type: multipart/mixed; boundary="===============3632912708939695402=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
-Date: Mon, 03 Feb 2025 11:48:22 -0000
-Message-Id: <173858330288.3834960.8610201347932941464@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Mon, 03 Feb 2025 11:48:36 -0000
+Message-Id: <173858331654.3835239.602193160876343200@gitolite.kernel.org>
 
---===============1347061266441029826==
+--===============3632912708939695402==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-dt
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
 user: krzk
 git_push_cert_status: Y
 changes:
   - ref: refs/heads/for-next
-    old: dcdd69c1e1969732098b435355b4c874d3dbf8ad
+    old: af995eea227f10a7a21be7d345c18d95372c54c7
     new: 2014c95afecee3e76ca4a56956a936e23283f05b
-    log: revlist-dcdd69c1e196-2014c95afece.txt
+    log: revlist-af995eea227f-2014c95afece.txt
 
---===============1347061266441029826==
+--===============3632912708939695402==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1738583331 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
-nonce 1738583300-c637b53c97fda2c77915fa7d2f0c87488d2bdd93
+pusher krzk@kernel.org 1738583344 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
+nonce 1738583313-2947d942ecbfb629eac9ea5927879fdbc738f89b
 
-dcdd69c1e1969732098b435355b4c874d3dbf8ad 2014c95afecee3e76ca4a56956a936e23283f05b refs/heads/for-next
+af995eea227f10a7a21be7d345c18d95372c54c7 2014c95afecee3e76ca4a56956a936e23283f05b refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmegrSMQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD18OvEACOs0y70WUEDfFPc26OzI1ON6Iwz4/Fn+gz
-LDjj4s8qqsK3JItyxc9+Z5jNpF+/tjH2IWMLajkckUEuBJL7EpLjfMMjS1QaPfnN
-IUhn5fpoGAjixelNuREuvnDErMj4zmkGwRsv6AWrTqojeNZmkj3kkkRCMjpeq/AF
-//leWX+OKuVxDmUTqHxjCpNayH/Be0uhxWjDieSvbaHGGonWOH4IabhnwNOliI90
-KgTMn1H8X9XcjmQJqYIB+Xy6Dtc0uZF0vsXsUCOuJB36Qo0FZFyV8356VXuuG+gZ
-kuuqn6rcpyvQx3/a44h97QNCzGu+ycatNqeUNRZxGCJO4BW1jypTT8obaVFuX3y9
-KUQb5Ax91qBltNzGRfsWufxD/XXsAa2ydoOJsbHU/HJtdvr5GO5fZ1HD297J4bY4
-Fv5l3B/QJGDGs8lpypmBH6nIlD7Zu7lDgJMeSXG0d7IgdYZN7qtIGg3o4Rh7V2MN
-EX2XSqFd1WIpgMua+WLDtAGMOmW14mTTyIfV+nx/Mq+a1+P65i+pjkW8v2+C+ckt
-8KuctPnuScnGA9NGY1ppJC3c0PCcnXs2Qu2SPdogDIh5TIDZ9VGsusAJ9NJGJEo2
-idJBs2Y6Q33r9q3S8v19vCysAWdmw0mptQ7WPhNcaSJc6+XK56Lz94o0LmMnIMKU
-YYwRfWMiLA==
-=M3jP
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmegrTAQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1yOMEACDYzGDL+Jwp3538kOGbd0STWjww/NBaQFY
+OpVl/Bn+ZnDxqkGTwM7OBgG/ZCW5mA+Y/4A6eLIKOsIdE0ln7Yg1mo64XYtbMOWO
+tHznC2FpWNug6lOQ0xvh88gMqcwrgONiA8uMiYlwcBQDk41YMD7jqMYa3TvNf2QE
+r/d7c4kc0JVn9oxeLes+KdB/1iT/ycJqrPWvsTYeWhoukBBA6FUQBrS1rkQu5anu
+gAFBgWL49s2t7qH3RrI3oSiir3yOCgOoBZP9DDqrqxCRsrcvoAMJ0wHP+ymUTVUL
+BM4QPId00MuJ1AX6UHNEiZHxBPoT8aE1VpCAJ6KAYRMZgMWqDMkSoTbpq0JzNd3C
+j1GpiGREiQKjLEqYUO6NDKPftL9wqYANM46AbMCpPKoo+x6rRDRq+5b4Wn0c8L6O
+4E9Q+z6Bqvzhu9dNL2H6ZH0ay1x3GWrynvTI8q5cwZPMpL5FvAAu3AheNtaRIC8N
+7ehz0KiFRrnjYtFMypHDMiaFIZudsiI7jGA/bD1xfbUADyZrvEhRw1gIagXfZOFo
+NyWJUgIKRiZeeIvR1qaePYgk6DvNkb65Jy3bbMB+x8IFaazWBoOCImPEZYQUPwfQ
+CUiyfc0WhA/xdrOB+3dVhgP/hAYYMHj4t+YpPfqP4/9kI6K7E7V2bmxjgXVGB8QE
+qlLiXD6ESA==
+=KbsV
 -----END PGP SIGNATURE-----
 
---===============1347061266441029826==
+--===============3632912708939695402==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-dcdd69c1e196-2014c95afece.txt
+Content-Disposition: attachment; filename=revlist-af995eea227f-2014c95afece.txt
 
 668135b9348c53fd205f5e07d11e82b10f31b55b NFSv4.2: mark OFFLOAD_CANCEL MOVEABLE
 0b96c75d86560c077d29ce629e9d1ca0258c9cc1 NFSv4.2: make LAYOUTSTATS and LAYOUTERROR MOVEABLE
@@ -1082,4 +1082,4 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
 
---===============1347061266441029826==--
+--===============3632912708939695402==--
