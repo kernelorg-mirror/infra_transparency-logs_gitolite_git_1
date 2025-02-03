@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2882046664928553417=="
+Content-Type: multipart/mixed; boundary="===============5835940708807127350=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 03 Feb 2025 09:29:25 -0000
-Message-Id: <173857496598.3712488.10230992088404466787@gitolite.kernel.org>
+Date: Mon, 03 Feb 2025 09:29:54 -0000
+Message-Id: <173857499489.3713655.13768984854740165795@gitolite.kernel.org>
 
---===============2882046664928553417==
+--===============5835940708807127350==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,18 +16,25 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 5865750407ec5d6047fca2ac16d55c68d4208bc3
-    new: c27000107d9563fc90369bdc8f2582a9c3c294bb
-    log: revlist-5865750407ec-c27000107d95.txt
-  - ref: refs/tags/v6.14-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 379487e17ca406b47392e7ab6cf35d1c3bacb371
+    old: c27000107d9563fc90369bdc8f2582a9c3c294bb
+    new: 68c149079f154436acac3d8f01cf6e541150484f
+    log: |
+         0cad846776a656e31b9082b3e98a2fd4d4a6510b Merge branch into tip/master: 'irq/urgent'
+         ea44605cd87c5a4fda97e997a6fcfd061eaa832d Merge branch into tip/master: 'locking/urgent'
+         f5e20a2d03f61d2d43110e6430432743869b375d Merge branch into tip/master: 'sched/urgent'
+         b0430b24610fee571f6e2dce55bfd23786ebabb9 Merge branch into tip/master: 'timers/urgent'
+         68c149079f154436acac3d8f01cf6e541150484f Merge branch into tip/master: 'x86/urgent'
+         
+  - ref: refs/heads/tip/urgent
+    old: 401d39f54085606e759cd7c38a82af146493d063
+    new: 68c149079f154436acac3d8f01cf6e541150484f
+    log: revlist-401d39f54085-68c149079f15.txt
 
---===============2882046664928553417==
+--===============5835940708807127350==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5865750407ec-c27000107d95.txt
+Content-Disposition: attachment; filename=revlist-401d39f54085-68c149079f15.txt
 
 e8a99af68c068865dbac7f3330e97bf8e96edf33 tools/power turbostat: Add initial support for PantherLake
 6b47ed23e2f1bc2c177da47437970e6208ac9ea0 tools/power turbostat: Add initial support for ClearwaterForest
@@ -113,6 +120,10 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 5d82ca7b5019d880a579831278eb73cbbfdb87da Merge tag 'sh-for-v6.14-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
-c27000107d9563fc90369bdc8f2582a9c3c294bb Merge branch 'linus'
+0cad846776a656e31b9082b3e98a2fd4d4a6510b Merge branch into tip/master: 'irq/urgent'
+ea44605cd87c5a4fda97e997a6fcfd061eaa832d Merge branch into tip/master: 'locking/urgent'
+f5e20a2d03f61d2d43110e6430432743869b375d Merge branch into tip/master: 'sched/urgent'
+b0430b24610fee571f6e2dce55bfd23786ebabb9 Merge branch into tip/master: 'timers/urgent'
+68c149079f154436acac3d8f01cf6e541150484f Merge branch into tip/master: 'x86/urgent'
 
---===============2882046664928553417==--
+--===============5835940708807127350==--
