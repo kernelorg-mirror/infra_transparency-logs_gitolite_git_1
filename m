@@ -1,50 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============2853996371188789430=="
+Content-Type: multipart/mixed; boundary="===============4623014869346484494=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 04 Feb 2025 17:49:12 -0000
-Message-Id: <173869135244.1144035.12110330254829040196@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 04 Feb 2025 17:50:00 -0000
+Message-Id: <173869140038.1145246.467056498743060498@gitolite.kernel.org>
 
---===============2853996371188789430==
+--===============4623014869346484494==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/1GbE
-    old: 235174b2bed88501fda689c113c55737f99332d8
-    new: b415a1ead73c58150e19d5dd8275d828165811dd
-    log: revlist-235174b2bed8-b415a1ead73c.txt
+  - ref: refs/heads/master
+    old: 4d1dc38ca13144844bd3d546b57cb1e99c806b44
+    new: 7b61f82894540c5f59447b8790b006885af03b00
+    log: |
+         24ecb142c745010476dc001b1cb0f40c00c01c4c drop drm etnaviv patches
+         7b61f82894540c5f59447b8790b006885af03b00 5.4-stable patches
+         
 
---===============2853996371188789430==
+--===============4623014869346484494==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-235174b2bed8-b415a1ead73c.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-743bbd93cf29f653fae0e1416a31f03231689911 ice: put Rx buffers after being done with current frame
-11c4aa074d547d825b19cd8d9f288254d89d805c ice: gather page_count()'s of each frag right before XDP prog call
-468a1952df78f65c5991b7ac885c8b5b7dd87bab ice: stop storing XDP verdict within ice_rx_buf
-88be092224d51f6ca7b369a8e5d29cfee8754a32 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-3a4e7193ec37ee2476ce726589de4495a066b565 MAINTAINERS: list openvswitch docs under its entry
-4d896b35394144c246daaeb5280a015a630958e7 MAINTAINERS: add Kuniyuki Iwashima to TCP reviewers
-ae0585b04ab741b536b0db20c12baf24bf7118d2 MAINTAINERS: add a general entry for BSD sockets
-8a2e22f665a0b5c212057031e94b75cfdc11a4a6 MAINTAINERS: add entry for UNIX sockets
-0e6dc66b5c5fa186a9f96c66421af74212ebcf66 Merge branch 'maintainers-recognize-kuniyuki-iwashima-as-a-maintainer'
-244f8aa46fa9e2f4ea5fe0e04988b395d5e30fc7 ethtool: rss: fix hiding unsupported fields in dumps
-2b91cc1214b165c25ac9b0885db89a0d3224028a ethtool: ntuple: fix rss + ring_cookie check
-de379dfd9ada2995699052f4a1ecebe5d8f8d70f selftests: drv-net: rss_ctx: add missing cleanup in queue reconfigure
-c3da585509aeb8476886adf75a266c81a9b0df6c selftests: drv-net: rss_ctx: don't fail reconfigure test if queue offset not supported
-2fc9956b31028040d50e5c7a6631a310f1ce4014 Merge branch 'ethtool-rss-minor-fixes-for-recent-rss-changes'
-d3ed6dee73c560fad0a8e152c8e233b3fb3a2e44 net: harmonize tstats and dstats
-4241a702e0d0c2ca9364cfac08dbf134264962de rxrpc: Fix the rxrpc_connection attend queue handling
-4b3eff4951474c84155c468b9c39c2083fdd66ad igb: narrow scope of vfs_lock in SR-IOV cleanup
-4122d7002295f5d6b5a016a011735e3273c421c7 igb: introduce raw vfs_lock to igb_adapter
-7ad2556d2c32bf6fcac39122510540e5332652a8 igb: split igb_msg_task()
-b415a1ead73c58150e19d5dd8275d828165811dd igb: fix igb_msix_other() handling for PREEMPT_RT
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1738691429 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1738691398-781dfbe7cf4f9600cd54a6982a287626557bc2f3
 
---===============2853996371188789430==--
+4d1dc38ca13144844bd3d546b57cb1e99c806b44 7b61f82894540c5f59447b8790b006885af03b00 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeiU2UbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MkwP/2Pp815QUvQDlE+yTspU
+dSbxvkzGAUU/HTXocln9Rs7gdB4PKjlEgf9tUFodZdkzn7BtRUZefV+r5wID3wxB
+7XEhPZS4BkfKq9GgM90jFiAYka/R6TcmGFv3JhAZBA255GfcfpQmMaKNdCxhL+Sr
+54IF03a+HgZb4HtPky4NH35rSgI+sDdwYBJRWtG8FRESrFIM6GLRxDzSZa7K25zH
+4mJOTVKHMfnwfhkdpuz3jNuCwWRgAVI9UYB+wpWp7u0xrGlx5892chQ/zYTPEnrn
+eaDvaLl7FdVJevi/HLPoxKg5E+MTIWv9g2tRECm2ACHe0jJg1q8TjL4+D8LN/58v
+JLdvx/Uw/dLjIX1P4+NLzUG2spyGjYimyK4WIsewdEDbBnRWi0eB27kJV+hCS5/j
+MBl8Yyb1uOIXLY9x+zG9huHa3H8wDIKHl8pYMD8QakzxL2vNUPPfK38hfLHrjkk6
+Hju0NJlrS3eDBb7jjlojcpKyreo8/f2vcK00bjp688FIO5XU2SSCF2FLCrv/6Bxd
+OBHOAM+WJbKH/DcYo1Um5TzX+aR13zrAYV+dvND2NTsYkNM/4E3rI58T59TbKgBI
+cUIikwoRoDcR81JGn1S0E0aWdDpJCCetnwjux9KSbLQmatfMYfxbuLd7Uwl9pAeJ
+QsiHzb+6tvPv1XXEabmUru8n
+=FHnr
+-----END PGP SIGNATURE-----
+
+--===============4623014869346484494==--
