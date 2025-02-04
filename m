@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Tue, 04 Feb 2025 17:25:13 -0000
-Message-Id: <173868991396.1125450.2932875319236134299@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 04 Feb 2025 17:35:15 -0000
+Message-Id: <173869051548.1133925.16944491795680334031@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: 4c4c0724d6521a8092b7c16f8f210c5869d95b17
-    new: 23e0a63c6dd3f69cb7ee18411e5f6857cca55b30
-    log: |
-         bb4b8f9697931a2f1d079c3ab7d9ee41d792bd68 perf test: Extra verbosity and hypervisor skip for tpebs test
-         23e0a63c6dd3f69cb7ee18411e5f6857cca55b30 perf script: force stdin for flamegraph in live mode
-         
+  - ref: refs/heads/v8_20241209_dsankouski_this_is_continued_work_on_samsung_s9_sm_9600_starqltechn
+    old: 0000000000000000000000000000000000000000
+    new: e27c125040b1e1f26d910b46daabbe55e67fdf3b
