@@ -1,60 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============0550559463063859855=="
+Content-Type: multipart/mixed; boundary="===============7341104104181598982=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 04 Feb 2025 07:03:16 -0000
-Message-Id: <173865259699.611359.17419649340024863461@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
+Date: Tue, 04 Feb 2025 07:05:18 -0000
+Message-Id: <173865271873.614382.13295097453552612884@gitolite.kernel.org>
 
---===============0550559463063859855==
+--===============7341104104181598982==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/gustavoars/linux
+user: gustavoars
 changes:
-  - ref: refs/heads/faux_bus
-    old: f0c26c63239dac2981e6efa2fc2db35dde1e1d03
-    new: 10a0cbf19e415dd20bf8ddff4861bc45e6490ec9
-    log: |
-         e087eb46a67e53de45095bbf243bdf512fad2920 driver core: add a faux bus for use when a simple device/bus is needed
-         efd29cc12d580a2c3ab8dabe1eeff838c0003c70 regulator: dummy: convert to use the faux bus
-         aa02bd8f627c532082c4d395c7c590ed6864e466 USB: phy: convert usb_phy_generic logic to use a faux device
-         ff56b9348220da9db47e5e4906ea01f13be6c26f x86/microcode: move away from using a fake platform device
-         10a0cbf19e415dd20bf8ddff4861bc45e6490ec9 perf/core: move all of the pmu devices into their own location
-         
+  - ref: refs/heads/testing/wfamnae-next20250203
+    old: ee77e3a6f3d94a3d5def73ccd7d157dbf4830774
+    new: 01f10a7a7d577008bfd7fb87cfd60c7743d6e2d0
+    log: revlist-ee77e3a6f3d9-01f10a7a7d57.txt
 
---===============0550559463063859855==
+--===============7341104104181598982==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-ee77e3a6f3d9-01f10a7a7d57.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1738652621 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1738652590-52bcaf526a9f5ef0632ad80cbcacff54c8338e9e
+6ba08f8d7be72d32e51b465854411a208c4ce518 qtnfmac: Avoid multiple -Wflex-array-member-not-at-end warnings
+38ac2fd17f3360cad732701b700d7730eaadb351 scsi: fc: Avoid -Wflex-array-member-not-at-end warnings
+41516e1e7138437b57f867265995310feacfad8e RDMA/uverbs: Use static_assert() to check struct sizes
+8bfdf37e1eeb4f469702361a8c511f40f6c6e486 wifi: iwlwifi: mvm: Use __counted_by() and avoid -Wfamnae warnings
+151501fb843661a5ae5598585f7fbbb4f79b777d wifi: iwlwifi: dvm: Avoid -Wflex-array-member-not-at-end warnings
+30bd5f78d9ac7e4e1ab266e7d948ac69bb0eb113 ethtool: Avoid -Wflex-array-member-not-at-end warning
+808fdbe394edeae918493a19c78ac85d262c9450 net: inet_sock.h: Avoid thousands of -Wflex-array-member-not-at-end warnings
+83bef9c3a8b5b260438138e185c1ad5529a3aa9f fs nfs: acl: Avoid -Wflex-array-member-not-at-end warning
+cb5831e6feb19d5242a8ce76129e97b353b3387e net/mlx5e: Avoid a hundred -Wflex-array-member-not-at-end warnings
+959edd0962b0755d4f6e26090781d625eea5e848 fs: hpfs: Avoid multiple -Wflex-array-member-not-at-end warnings
+5df5f8b7b1fedd7328dfd2944e60e526481bf77f treewide_some: fix multiple -Wfamnae warnings that must be audited separately
+01f10a7a7d577008bfd7fb87cfd60c7743d6e2d0 net: atlantic: Avoid -Wflex-array-member-not-at-end warnings
 
-f0c26c63239dac2981e6efa2fc2db35dde1e1d03 10a0cbf19e415dd20bf8ddff4861bc45e6490ec9 refs/heads/faux_bus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmehu80bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8GoP/0l7FKEbdArJTbGwnTDO
-A9ef6ZV9CjH4j4+p78tvDWC1X06w4ncxpJ+3x2cZpZrVNvq2eUqVbJXnIUWhY9f4
-1rwyZJ3icZwkH/gw69OC0jipJyczDd0o5ZQix8w8Uh7LHUilSnKWG634KUjF7UXH
-7EKPLsg29tlYqQpEs5+ImxBaSHjpR2DD8cvpg7anWHWOxyU1WYUxRRp45iJ5s53m
-j+k1V1VEggnDoxJSRHil1kqYf+HFmyL6i536Ne+HJINmP/WIVq+w7/ZFOE3bG9N5
-GbZLyTKXezpzarBPe98/bvSqAbRPIfVYsqbzuhu8IjV9ETbezdGTU/U0vo4sm0Gl
-KlHfrAlk++XPfkG/zUJbQqh5YrvqNkh2DiCejSjiTtUrjISlFpf28FFwweq1KWbw
-p3O9TEqsLx+A7DVTUpLmRFMjz7IN2ZVt+1qSEfRJVntTuG6gibjYkoIURfUoAwEZ
-bx+8MlR0d7wn0b3lk68L5dV/AkuZWnW99CIM6ehOX5JCSeTKWdsMRcg7AIxLWvel
-kvQuyX1/Y3oSmVhTEOg0Ts99InHKpIylulaTvQ14lDNjj08XINp9BmJBtRb5xMtC
-Xq1rWPc/S89d/+55ya+T58k3MxKkd74r5O76EfiAw/dRXGMaS0iF2J2Vv2C/ZktF
-DoiE2XuPiplwmjm1XJ5anLIX
-=sOn4
------END PGP SIGNATURE-----
-
---===============0550559463063859855==--
+--===============7341104104181598982==--
