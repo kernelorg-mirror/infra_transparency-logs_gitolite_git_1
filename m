@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2074304009414803766=="
+Content-Type: multipart/mixed; boundary="===============6530263188981767770=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Tue, 04 Feb 2025 20:25:47 -0000
-Message-Id: <173870074794.1279426.15620394871462012996@gitolite.kernel.org>
+Date: Tue, 04 Feb 2025 20:26:15 -0000
+Message-Id: <173870077537.1279793.10505126463426017018@gitolite.kernel.org>
 
---===============2074304009414803766==
+--===============6530263188981767770==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/conor/linux
 user: conor
 changes:
-  - ref: refs/heads/riscv-cache-for-next
+  - ref: refs/heads/riscv-soc-drivers-for-next
     old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
     new: 2014c95afecee3e76ca4a56956a936e23283f05b
     log: revlist-40384c840ea1-2014c95afece.txt
 
---===============2074304009414803766==
+--===============6530263188981767770==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
 
---===============2074304009414803766==--
+--===============6530263188981767770==--
