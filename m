@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Tue, 04 Feb 2025 01:11:06 -0000
-Message-Id: <173863146633.334541.11936505809883902739@gitolite.kernel.org>
+Date: Tue, 04 Feb 2025 01:11:17 -0000
+Message-Id: <173863147740.334732.9644810560512982599@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: 9d13950acb2a51342c93c69f1a5bf285adb90d88
+  - ref: refs/heads/pending
+    old: e51e624a62d6a62be9cd3b5b8e522719617e2683
     new: f5c90ff80b4c0326e5fd1feecafd88718075b1b7
     log: |
          ba42b22aa336c3ea0bd6f9c606f70a35a278bd61 wifi: ath12k: Dump PDEV transmit rate HTT stats
