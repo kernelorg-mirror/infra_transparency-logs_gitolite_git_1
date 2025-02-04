@@ -1,31 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============8535235226758911878=="
+Content-Type: multipart/mixed; boundary="===============5875080938095045451=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 04 Feb 2025 04:11:58 -0000
-Message-Id: <173864231821.479030.12337433220834824970@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 04 Feb 2025 04:12:09 -0000
+Message-Id: <173864232925.479267.9394878012555944444@gitolite.kernel.org>
 
---===============8535235226758911878==
+--===============5875080938095045451==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 00f3246adeeacbda0bd0b303604e46eb59c32e6e
     new: 40b8e93e17bff4a4e0cc129e04f9fdf5daa5397e
     log: revlist-00f3246adeea-40b8e93e17bf.txt
-  - ref: refs/heads/stable
-    old: d79bc8f79baacdd2549ec4af6d963ce3e69d7330
-    new: 0de63bb7d91975e73338300a57c54b93d3cc151c
-    log: revlist-d79bc8f79baa-0de63bb7d919.txt
-  - ref: refs/tags/next-20241104
-    old: a599a939abddd4b39d28458d3ed98aa90800bb9d
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20250204
     old: 0000000000000000000000000000000000000000
     new: ef4e5a2965824e655dc3bd135e04ed322505c635
@@ -33,7 +26,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 379487e17ca406b47392e7ab6cf35d1c3bacb371
 
---===============8535235226758911878==
+--===============5875080938095045451==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -881,32 +874,4 @@ bbb02f10c29403721a317e391bc790c688a26b7c Merge branch 'bitmap-for-next' of https
 d625e6c9b8dc5eb5c11c5bf8fd76d4675487170e Merge branch 'next' of https://git.kernel.org/pub/scm/linux/kernel/git/wufan/ipe.git
 40b8e93e17bff4a4e0cc129e04f9fdf5daa5397e Add linux-next specific files for 20250204
 
---===============8535235226758911878==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d79bc8f79baa-0de63bb7d919.txt
-
-3fafa6a02be219ddd05d6201911534a34135cb82 dt-bindings: interrupt-controller: microchip,lan966x-oic: Clarify endpoint use
-e06c9e3682f58fbeb632b7b866bb4fe66a4a4b42 irqchip/lan966x-oic: Make CONFIG_LAN966X_OIC depend on CONFIG_MCHP_LAN966X_PCI
-27af31e44949fa85550176520ef7086a0d00fd7b hrtimers: Mark is_migration_base() with __always_inline
-53dac345395c0d2493cbc2f4c85fe38aef5b63f5 hrtimers: Force migrate away hrtimers queued after CPUHP_AP_HRTIMERS_DYING
-915175b49f65d9edeb81659e82cbb27b621dbc17 xfs: fix the entry condition of exact EOF block allocation optimization
-89841b23809f5fb12cbead142204064739fef25a xfs: remove an out of data comment in _xfs_buf_alloc
-f5f0ed89f13e3e5246404a322ee85169a226bfb5 xfs: don't call remap_verify_area with sb write protection held
-1f566840a82982141f94086061927a90e79440e5 clocksource: Use pr_info() for "Checking clocksource synchronization" message
-825c78e6a60c309a59d18d5ac5968aa79cef0bd6 irqchip/riscv: Ensure ordering of memory writes and IPI writes
-987f379b54091cc1b1db986bde71cee1081350b3 irqchip/irq-mvebu-icu: Fix access to msi_data from irq_domain::host_data
-fb95897b8c60653805aa09daec575ca30983f768 xfs: Propagate errors from xfs_reflink_cancel_cow_range in xfs_dax_write_iomap_end
-26b63bee2f6e711c5a169997fd126fddcfb90848 xfs: Add error handling for xfs_reflink_cancel_cow_range
-698244bbb3bfd32ddf9a0b70a12b1c7d69056497 irqchip/apple-aic: Only handle PMC interrupt as FIQ when configured so
-a9ab28b3d21aec6d0f56fe722953e20ce470237b xfs: remove xfs_buf_cache.bc_lock
-bb2784d9ab49587ba4fbff37a319fff2924db289 jiffies: Cast to unsigned long in secs_to_jiffies() conversion
-2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
-0a08238acfbaeb7d3605a5bec623ed1bc88734eb Merge tag 'xfs-fixes-6.14-rc2' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
-a360f3ffd005fe00f002c033b2548aba57af8c9a Merge tag 'irq-urgent-2025-02-03' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-f286757b644c226b6b31779da95a4fa7ab245ef5 Merge tag 'timers-urgent-2025-02-03' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-902e09c8acde117b00369521f54df817a983d4ab fix braino in "9p: fix ->rename_sem exclusion"
-0de63bb7d91975e73338300a57c54b93d3cc151c Merge tag 'pull-fix' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
-
---===============8535235226758911878==--
+--===============5875080938095045451==--
