@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/livepatching/livepatching
-Date: Tue, 04 Feb 2025 09:38:28 -0000
-Message-Id: <173866190887.735650.1233759754383957518@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Tue, 04 Feb 2025 09:57:24 -0000
+Message-Id: <173866304472.750853.3002853689179301968@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/livepatching/livepatching
-user: pmladek
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/tags/livepatching-for-6.14-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 9da7eefaa3bc4e8238b9bc75a9044ec21b0e9c3c
+  - ref: refs/heads/wip/leon-for-next
+    old: 1f591bcbea327de3682dd14bf6a7199b874fd31f
+    new: 96c0ba07a5ebcdcec88ae7bae2e6f613f496e73b
+    log: |
+         96c0ba07a5ebcdcec88ae7bae2e6f613f496e73b RDMA/bnxt_re: Congestion control settings using debugfs hook
+         
