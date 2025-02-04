@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/djiang/linux
-Date: Tue, 04 Feb 2025 01:14:04 -0000
-Message-Id: <173863164447.336237.16011133432466810684@gitolite.kernel.org>
+Date: Tue, 04 Feb 2025 01:14:11 -0000
+Message-Id: <173863165105.336424.4050977587102459820@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,13 +12,16 @@ repo: pub/scm/linux/kernel/git/djiang/linux
 user: djiang
 changes:
   - ref: refs/heads/cxl/fwctl
-    old: 0fb58a891b3ee70663b52f124411cc58a0b6c58f
-    new: 9e35c43e9702c620a902205ba1f8417bc7a7fb58
+    old: 9e35c43e9702c620a902205ba1f8417bc7a7fb58
+    new: 1fea3cf7fe40a5f545c938e1ad240377c50cbc52
     log: |
-         32c94cc751566e005f85887fb4691c26812c2c82 cxl: Enumerate feature commands
-         ca4b7d5eb934617d55de0581f7a9e4da1e60edfe cxl: Add Get Supported Features command for kernel usage
-         40b3a234492119c6f74ab9df42d97196e718efb1 cxl/test: Add Get Supported Features mailbox command support
-         2f6fea4f6954b3f53f16e669ab2ef5bef975112e cxl/mbox: Add GET_FEATURE mailbox command
-         4543ca1553a5b6b236b38830683ffc6d05f96254 cxl/mbox: Add SET_FEATURE mailbox command
-         9e35c43e9702c620a902205ba1f8417bc7a7fb58 cxl: Setup exclusive CXL features that are reserved for the kernel
+         75b9b765dcba52cf7b59fd69f0be67d0a1181ceb cxl: Add FWCTL support to the CXL memdev driver
+         7a51944ea6a218810799d6fa28bc79cc67e1ca13 cxl: Add support for FWCTL get driver information callback
+         a165b383a5ed80292ba880ea86910e4a15731800 cxl: Move cxl feature command structs to user header
+         bb172092d739f5a55d469d447247ab82f1bb97bb cxl: Add support for fwctl RPC command to enable CXL feature commands
+         1cada604819d652dc48c39c4b1fff15d8feb5d55 cxl: Add support to handle user feature commands for get feature
+         99919f9ce26879c943db8fbf9c71ba2496288837 cxl: Add support to handle user feature commands for set feature
+         4eb2e4cfa94d930d612a87a065275808697a5421 cxl/test: Add Get Feature support to cxl_test
+         088bce5e829e9ccc8a8c03e2342febb6cb7a2cd1 cxl/test: Add Set Feature support to cxl_test
+         1fea3cf7fe40a5f545c938e1ad240377c50cbc52 fwctl/cxl: Add documentation to FWCTL CXL
          
