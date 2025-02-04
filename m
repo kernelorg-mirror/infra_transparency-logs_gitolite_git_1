@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2632347770121369994=="
+Content-Type: multipart/mixed; boundary="===============5448479287417336873=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 04 Feb 2025 03:33:38 -0000
-Message-Id: <173864001890.447740.7208940915903919260@gitolite.kernel.org>
+Date: Tue, 04 Feb 2025 03:34:01 -0000
+Message-Id: <173864004163.448061.12373936060524733565@gitolite.kernel.org>
 
---===============2632347770121369994==
+--===============5448479287417336873==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,70 +16,46 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 7d6f88e76e28ac44ed003dcf80881ea6b202ec08
-    new: 2014c95afecee3e76ca4a56956a936e23283f05b
-    log: revlist-7d6f88e76e28-2014c95afece.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 1364b32ef1e10ad089308486b394f19c3bcf6f62
+    new: 62c54b5cab3a32ceae37166cd95f1dfad6452eed
+    log: revlist-1364b32ef1e1-62c54b5cab3a.txt
 
---===============2632347770121369994==
+--===============5448479287417336873==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1738640047 -0500
+pusher 75C5DE3D 1738640053 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1738640013-f55903275a0838e578aea8484cebab14c2dc7940
+nonce 1738640022-7a3ec50e517c99914258c0eb293305bf41c22d05
 
-7d6f88e76e28ac44ed003dcf80881ea6b202ec08 2014c95afecee3e76ca4a56956a936e23283f05b refs/heads/queue
+1364b32ef1e10ad089308486b394f19c3bcf6f62 62c54b5cab3a32ceae37166cd95f1dfad6452eed refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmehiq8ACgkQ7ulgGnXF
-3j0ZjhAAof7qKo0xQv+jeMLlqAxJAKRkTL2KpKG6UUZk42XSBDaCDtYd2p/kmjqF
-P6fa9hZdiiloIfNpr5+GrqxjpkuFyc7gujJ67xdkzhamOabBG41Nzn1QvVvHHghF
-cGEzRiyUXpFsf+dmzI9A8p8NsDh7JlyLYib6Ke8K9hcY6xh+jGabw+S3cR+PRT1i
-uOJUfBftg3u1aRk5e9Tc9AY7awL0Koiw8xyVk7PNmrywb5YsAL/b/6owRRB9kE3p
-OJTUROQnyTwRZKTCxZ3nzhfNkTYMvMBECrD6kZOy7zzTXbP3B6QDIf0n0sFo/q6N
-GOUGDXoG3ry2RTYD/o+MmlpPJzA34XUKbt0Zm9buUBcJtmEHmupoCaOUB8gkt2mF
-0Nzk8zGX13rii3RwqlwwyxUcvZabzcBy/EPJNjYiIQkYrM/nD9PWl24TNQGjBwEN
-RPSQjjF2mYFHViriBRH8La1GjBKZ9eQXBoNw8DrfwVfU0KgZUbFOPD3F963nOak7
-qnLbayo6OD53pz5MEvvAUgpG7CndQLV3vjDsRKnrm19WxKWoDE1QD9VrkVbmabSS
-yIKes89j0Ypj9yANAkodaGT0DbJrpDn/qFS+wNHlBDyL4ot2EDQY8YD/gudHAUc2
-E3zbG51IB2DpMY7giysbE4HEBcSSl+v4oToMLhGbqbJR1RCreeg=
-=GB9c
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmehirUACgkQ7ulgGnXF
+3j036A//XJ8beFehP2tUxcr1b3q6ijwRp8Ox+RMILK3WxOgqQgnj2ritPjnqSx+3
+nyAPZk/35PlOhTIauQQxu9nQkcT9eoURaWCle/d3JaNtN5LnZjuWrjmhiY6b4V1N
+axPXeoJo50jOz/mvh6Atr2TdUKBYBnmt0cxnOy6Iy4TnCWA0Hgyd7ZK5WRvfkcwU
+wt7unffb0Yd0ci3xdoqyFKb74KY2idK6oZ/BbCwmtN5UxTgfANcsyunIWVFAc5Ha
+HmRsJfho6rcuNRMmNK1vfjAyJdtt2/6JmdDaeN860ExtRNFgQSrsguvxrFPIitPe
+XrPKKUbuzn3blZ3CyaT9z2cvklmr+ClcI++Xd1/NBB7PTz/1n5J8AFaRD+lZI9xI
+qPA+gSzzdsgFreGDky04Oge5v9MCxc1v87m8vRQfX0UdesLTyM9JSm23Pjzlsv+l
+Z6gCT8TMsZFfFZ+nQNbsAeBqRdfm+Ez2ONV6GQsd7bAhFHyMdBDr1DTglD9pfY+W
+T+Ejc5hwFSTcmsBd8SKO+4P/qgS3/eaa+yVh8TncKiW2nL1/fQrp2jRK6b5zuPdq
+9qFYA/j3ERZgtl5smSxWoI3KVKi2Op3dOWGN6m0yUoIh/5McAg0kBeo/ITIkeT6z
+8XIzHxVBsQkaJ3w9Ce34jusK8EbkbHAm7HULasQJfFCt2nJll6g=
+=ghUn
 -----END PGP SIGNATURE-----
 
---===============2632347770121369994==
+--===============5448479287417336873==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-7d6f88e76e28-2014c95afece.txt
+Content-Disposition: attachment; filename=revlist-1364b32ef1e1-62c54b5cab3a.txt
 
-668135b9348c53fd205f5e07d11e82b10f31b55b NFSv4.2: mark OFFLOAD_CANCEL MOVEABLE
-0b96c75d86560c077d29ce629e9d1ca0258c9cc1 NFSv4.2: make LAYOUTSTATS and LAYOUTERROR MOVEABLE
-a3282f84b2151d254dc4abf24d1255c6382be774 PCI: switchtec: Add Microchip PCI100X device IDs
-13b6931c44969ff057ad2a3aa1c20a1b28b79b6f Merge tag 'x86_sev_for_v6.14_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-e7217011ddd8e86a0d18c6cbfb4f14da3d18eee0 ALSA: usb: fcp: Fix meter_levels type to __le32
-f08cc80f69be62beb7a63cd4813c7989c8708831 ALSA: usb: fcp: Fix incorrect resp->opcode retrieval
-0a8f5f4652ef4d530a7cb8bed2b6e502cdfa825f ALSA: usb: fcp: Fix return code from poll ops
-b02cfbd9bfb9f45eebb33771e5705af95b5c9673 dt-bindings: PCI: mobiveil: Convert mobiveil-pcie.txt to YAML
-10e796eed62648ff928cb66d52f226452e1affff dt-bindings: PCI: qcom,pcie-sm8550: Document 'global' interrupt
-c25b978d351fae5da87794be9160d8acfa6e6823 dt-bindings: PCI: qcom: Document the IPQ5424 PCIe controller
-a8581752278ef9d6ea73bb10eef2657bfb73e116 bcachefs: Fix btree_trans_peek_key_cache()
-48795f90cbdcccc36cc415a2d785a23a4b23e57a Merge tag 'x86_cpu_for_v6.14_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-b9d8a295ed6bc3cee846f8e3f27c9c6e9ebe43f2 Merge tag 'x86_misc_for_v6.14_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-e721f619e3ec9bae08bf419c3944cf1e6966c821 iommufd: Fix struct iommu_hwpt_pgfault init and padding
-f917016f69ba5a0c42a3a3327792707315f2a937 bcachefs: Reduce stack frame size of __bch2_str_hash_check_key()
-abb604a1a9c87255c7a6f3b784410a9707baf467 RDMA/mlx5: Fix a race for an ODP MR which leads to CQE with error
-dec6b006f4cc13968d75ed28673ca4e3633de96b ASoC: dt-bindings: ti,pcm1681: Fix the binding title
-8838a1a2d219a86ab05e679c73f68dd75a25aca5 Merge tag 'locking-core-2025-01-20' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-d3d930411ce390e532470194296658a960887773 RDMA/mlx5: Fix implicit ODP use after free
-a6640c8c2fc029f015c87672585931c6106971c1 Merge tag 'objtool-core-2025-01-20' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-6c4aa896ebee5edf2b35a9d071e5a468797f96d8 Merge tag 'perf-core-2025-01-20' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-858df1de2158bd7ab88d31b557592e990bacc0b5 Merge tag 'x86-cleanups-2025-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-70741cc38463371914f49a1f4fda5de2afdc4c86 Merge branches 'clk-cleanup', 'clk-renesas', 'clk-mediatek', 'clk-samsung' and 'clk-socfpga' into clk-next
-b2fee97e6f0b6b935918744f44ca80246a18289e Merge branches 'clk-microchip', 'clk-xilinx', 'clk-allwinner', 'clk-imx' and 'clk-qcom' into clk-next
 1d2da923fb985bb57cc161316c76edb8d567b9bd Merge branches 'clk-airoha', 'clk-rockchip', 'clk-stm', 'clk-thead' and 'clk-bcm' into clk-next
 53c9c27672bb0241998ddf2d1588106920d4064b Merge branch 'clk-fixes' into clk-next
 62de6e1685269e1637a6c6684c8be58cc8d4ff38 Merge tag 'sched-core-2025-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1080,5 +1056,29 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 5d82ca7b5019d880a579831278eb73cbbfdb87da Merge tag 'sh-for-v6.14-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
+14807b4a4e03b66c26f4c82f495fc8fbe35fb95d scsi: Constify struct pci_error_handlers
+7081dc75df79696d8322d01821c28e53416c932c scsi: st: Restore some drive settings after reset
+a5d518cd4e3e592eaa59b888a5d75ad639d554ea scsi: core: Add counters for New Media and Power On/Reset UNIT ATTENTIONs
+341128dfe10a7c8681d86e81b5bc63902da644ef scsi: st: Modify st.c to use the new scsi_error counters
+2c445d5f832a51dfd8527fcce7323f79d37c0432 scsi: st: Add sysfs file position_lost_in_reset
+026476271efe817b970ea360981ee77919bcdbad Merge patch series "scsi: st: scsi_error: More reset patches"
+120430bff6126870b571c378e6828c7c0b5cba51 scsi: isci: Fix double word in comments
+a307d6ec12394c069f539d6d7de1c2e247765fb4 scsi: mvsas: Remove unused mvs_phys_reset()
+b932ff7d0459ff792c00c2350c2fe9e6545eca48 scsi: message: fusion: Remove unused mptscsih_target_reset()
+08795f4c096c55def0ecb99218917851b9b993bc scsi: mpt3sas: Remove unused config functions
+772ba9b5bd2701a9967c084b66ff1daaee0367eb scsi: cxlflash: Remove driver
+f08b24d82749117ce779cc66689e8594341130d3 scsi: mpi3mr: Avoid reply queue full condition
+339a7b32a371a667dccfcd0e945add38f2cbe596 scsi: mpi3mr: Support for Segmented Hardware Trace buffer
+f195fc060c738d303a21fae146dbf85e1595fb4c scsi: mpi3mr: Synchronous access b/w reset and tm thread for reply queue
+35a0437d9f33071d81d51af70432ecab1e686078 scsi: mpi3mr: Update driver version to 8.12.1.0.50
+796a8aa8facf8572ad56b05d28b486c00d77408d Merge patch series "mpi3mr: Few Enhancements and minor fixes"
+8eccc58d71eafbd2635077916b68fda15791d270 scsi: lpfc: Reduce log message generation during ELS ring clean up
+f0842902b383982d1f72c490996aa8fc29a7aa0d scsi: lpfc: Free phba irq in lpfc_sli4_enable_msi() when pci_irq_vector() fails
+23ed62897746f49f195d819ce6edeb1db27d1b72 scsi: lpfc: Ignore ndlp rport mismatch in dev_loss_tmo callbk
+56c3d809b7b450379162d0b8a70bbe71ab8db706 scsi: lpfc: Handle duplicate D_IDs in ndlp search-by D_ID routine
+8be7202ad3afa76a3bec9bfc18e9e5cb988832d5 scsi: lpfc: Update lpfc version to 14.4.0.8
+ef12deb6ce74e85f6933a01e4d5ced70f5c12d2a scsi: lpfc: Copyright updates for 14.4.0.8 patches
+34a84c41c71bb02474aa976f1435c33173c7da92 Merge patch series "Update lpfc to revision 14.4.0.8"
+640a6af5099ae8f6a858a8612bec70048a4aee69 scsi: ufs: qcom: Enable UFS Shared ICE Feature
 
---===============2632347770121369994==--
+--===============5448479287417336873==--
