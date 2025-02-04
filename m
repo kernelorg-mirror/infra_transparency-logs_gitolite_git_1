@@ -1,61 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============8549504105966074750=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 04 Feb 2025 13:45:01 -0000
-Message-Id: <173867670195.938273.5594165226209079155@gitolite.kernel.org>
-
---===============8549504105966074750==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
+Date: Tue, 04 Feb 2025 13:59:35 -0000
+Message-Id: <173867757533.949727.10429347862332683862@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/mark/linux
+user: mark
 changes:
-  - ref: refs/heads/tty-linus
-    old: e8ed246ded863eb862806c5591afdcf70012ab5e
-    new: 0f3fd9cf6491f5beecbb65abb41556c56135340c
+  - ref: refs/heads/arm64/kvm/fpsimd-fixes
+    old: c785ad2f075fc39b187416c6554896c214e449b6
+    new: 6db7d0ae63c88eddd2a79ad7400f86703fc3213d
     log: |
-         166ac2bba167d575e7146beaa66093bc7c072f43 serial: port: Assign ->iotype correctly when ->iobase is set
-         e8486bd50ecf63c9a1e25271f258a8d959f2672f serial: port: Always update ->iotype in __uart_read_properties()
-         12397549b5014071e1d2b315509f68eb93ef9144 serial: port: Make ->iotype validation global in __uart_read_properties()
-         fe310f75327edbc042c7cc0df32c6b9ec29eb93a serial: 8250_of: Remove unneeded ->iotype assignment
-         34bbb5d5137f32be3186a995a5ad4c60aaad11a7 serial: 8250_platform: Remove unneeded ->iotype assignment
-         0f3fd9cf6491f5beecbb65abb41556c56135340c serial: 8250_pnp: Remove unneeded ->iotype assignment
+         c0902f44c7495bea076e24c8329bae17812d62b1 KVM: arm64: Remove host FPSIMD saving for non-protected KVM
+         9069b19e23ff9f0ea943c424bcbd7a6f7555b7c9 KVM: arm64: Remove VHE host restore of CPACR_EL1.ZEN
+         8ccecf50f23b04713e12a4b78ae21d48c643155d KVM: arm64: Remove VHE host restore of CPACR_EL1.SMEN
+         abffc5b309ceeb8937576c3d6a7400562590d495 KVM: arm64: Refactor CPTR trap deactivation
+         f80da429b65ec375d3a95ee206717712b995f437 KVM: arm64: Refactor exit handlers
+         4c9356a0b02a1506f8124dcc654bffe626c57842 KVM: arm64: Mark some header functions as inline
+         aeebcbcaeab7f7311b099c469911e50dcd9f0962 KVM: arm64: Eagerly switch ZCR_EL{1,2}
+         f29ec038f2c7d427aa9fb1fdcdd7c96ec269e257 HACK: Log mismatched VL in fpsimd_save_user_state()
+         e6936a826f13224de707b6aee7b618345c4f890e HACK: Warn on unexpected VL when exiting guest
+         6db7d0ae63c88eddd2a79ad7400f86703fc3213d HACK: Check the host's VL isn't artifically constrained
          
-
---===============8549504105966074750==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1738676730 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1738676699-82be6c0ad1717b5ab55af2dca5f762a2adc25a03
-
-e8ed246ded863eb862806c5591afdcf70012ab5e 0f3fd9cf6491f5beecbb65abb41556c56135340c refs/heads/tty-linus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeiGfobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zVkP/jGg8+yrLnL3pmpgFgyb
-FVKZ6GimF2ewdxRDfec8CkCG9bsPOK4J9wajK7qwDF68ubIgPodeOifKpy+geWo3
-nPkjjXchiFcgcx97UyD9nQ3NtZd+w3FK/ybkNmgq8Rhoz53ISTLYF2SL2kgh6+0C
-wxZyn7HqTlsRvF43ZBfeYR7KNqCsBDmsLmCUpHoCmVp45G29APDXkI/oSw97UuOL
-LJYvT9IMd0uUYFPuYpT+sLyHb/Tb7KXYoNj/O2/2rwORajEoEOVAo3HXWGR2vepf
-oRJFB3mFz2Sjy3Xg8kjy2+LVUlPQgcyEvd5iOHvlIh2E2v5wjqSfcQkemVEzawn6
-LoKS5QM1+OxqRqSgAdTcA1OXuLPE8LKonLM/yGxCduSl8lWAKTmP+32H/nK16p9E
-bKjHOs6EU1GbkWGYVVexQFGc41BlZVSDwQMrbsrszlx/pHP/7MDUftcZBibefrjD
-ePmcyDlozEBmDKUdxbHkbZGDo7koqsBo4Wf5d0C4EbPDyFiHoY5DBLTdHLPqkY8j
-g1pmugXtBkcsfVkUqSyz+5kTzzyA01XLlTPsJraoaY5caM959+9C0QsaxL0cv/50
-7YsjXnpVAtkjKWpgiQ/w2w/jur9wL2X2i9dSdsc22AzmVu7MZ3aKbUbeGXi/b3SC
-m2kVY57i27QkP7Oh3hcJRpCj
-=itc0
------END PGP SIGNATURE-----
-
---===============8549504105966074750==--
