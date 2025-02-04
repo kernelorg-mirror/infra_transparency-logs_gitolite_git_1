@@ -1,31 +1,39 @@
-Content-Type: multipart/mixed; boundary="===============7824983030130428370=="
+Content-Type: multipart/mixed; boundary="===============7768017064304346168=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Tue, 04 Feb 2025 14:39:05 -0000
-Message-Id: <173867994586.984438.13055392836739325109@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
+Date: Tue, 04 Feb 2025 14:39:36 -0000
+Message-Id: <173867997633.985359.13359078957475290019@gitolite.kernel.org>
 
---===============7824983030130428370==
+--===============7768017064304346168==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-drivers
-user: geert
+repo: pub/scm/linux/kernel/git/ulfh/linux-pm
+user: ulfh
 changes:
-  - ref: refs/heads/topic/overlays
-    old: bcbede4b77f674b6140af1faaab0308872bc7136
-    new: fafabc942a7c420910bee7dddb8c6856efdd6fb2
-    log: revlist-bcbede4b77f6-fafabc942a7c.txt
+  - ref: refs/heads/next
+    old: 885f5669f2abd0db34c9832259f77240d5350e36
+    new: 432a6d050b0e3a246f5fd14906315746f08df94e
+    log: revlist-885f5669f2ab-432a6d050b0e.txt
+  - ref: refs/tags/v6.14-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 379487e17ca406b47392e7ab6cf35d1c3bacb371
 
---===============7824983030130428370==
+--===============7768017064304346168==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-bcbede4b77f6-fafabc942a7c.txt
+Content-Disposition: attachment; filename=revlist-885f5669f2ab-432a6d050b0e.txt
 
+13b6931c44969ff057ad2a3aa1c20a1b28b79b6f Merge tag 'x86_sev_for_v6.14_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+e7217011ddd8e86a0d18c6cbfb4f14da3d18eee0 ALSA: usb: fcp: Fix meter_levels type to __le32
+f08cc80f69be62beb7a63cd4813c7989c8708831 ALSA: usb: fcp: Fix incorrect resp->opcode retrieval
+0a8f5f4652ef4d530a7cb8bed2b6e502cdfa825f ALSA: usb: fcp: Fix return code from poll ops
+b02cfbd9bfb9f45eebb33771e5705af95b5c9673 dt-bindings: PCI: mobiveil: Convert mobiveil-pcie.txt to YAML
 10e796eed62648ff928cb66d52f226452e1affff dt-bindings: PCI: qcom,pcie-sm8550: Document 'global' interrupt
 c25b978d351fae5da87794be9160d8acfa6e6823 dt-bindings: PCI: qcom: Document the IPQ5424 PCIe controller
 a8581752278ef9d6ea73bb10eef2657bfb73e116 bcachefs: Fix btree_trans_peek_key_cache()
@@ -1042,13 +1050,8 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 5d82ca7b5019d880a579831278eb73cbbfdb87da Merge tag 'sh-for-v6.14-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
-b08a57120f379371903731240aaff2b221de4c8d of: overlay: Kobjectify overlay objects
-109ed37557420fe992e7c4bd668f7bf3d50b14c7 of: overlay: Global sysfs enable attribute
-c2d623c0a12bdb365476b800c8313d007d7491bf Documentation: ABI: overlays - global attributes
-01adaeb241a9313273b8b483b064ece677c1812e Documentation: Document of_overlay_disable parameter
-3daba3eb803e97c695d990494da2cf63729d9eb4 of: overlay: Add per overlay sysfs attributes
-bd7f31cd30541d60e6d6079731ba3dbcb8b17732 Documentation: ABI: overlays - per overlay docs
-2d98c84011f1a712e5f02e9bd5f3a874377b90d0 of: overlay: Add DT-Overlay configfs interface (v7)
-fafabc942a7c420910bee7dddb8c6856efdd6fb2 kbuild: Enable DT symbols when CONFIG_OF_OVERLAY is used
+8fc1959f9c9853c8acd0fe99f26b43796b31034a pmdomain: ti: Use of_property_present() for non-boolean properties
+bc7a912c3671c91e57876d726c2eca7af0262738 dt-bindings: power: rpmpd: Fix comment for SM6375
+432a6d050b0e3a246f5fd14906315746f08df94e pmdomain: bcm2835-power: set flag GENPD_FLAG_ACTIVE_WAKEUP
 
---===============7824983030130428370==--
+--===============7768017064304346168==--
