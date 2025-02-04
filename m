@@ -1,47 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============8478741509835396866=="
+Content-Type: multipart/mixed; boundary="===============2853996371188789430=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Tue, 04 Feb 2025 17:47:54 -0000
-Message-Id: <173869127442.1143390.3552154617405983853@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 04 Feb 2025 17:49:12 -0000
+Message-Id: <173869135244.1144035.12110330254829040196@gitolite.kernel.org>
 
---===============8478741509835396866==
+--===============2853996371188789430==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/for-next/kspp
-    old: dce4aab8441d285b9a78b33753e0bf583c1320ee
-    new: 28d00b3e595347838b7a0bc37fd63a6b156754a4
-    log: |
-         591baa11282255037791a43a690aca51f4564cc2 stackinit: Keep selftest union size small on m68k
-         28d00b3e595347838b7a0bc37fd63a6b156754a4 stackinit: Fix comment for test_small_end
-         
+  - ref: refs/heads/1GbE
+    old: 235174b2bed88501fda689c113c55737f99332d8
+    new: b415a1ead73c58150e19d5dd8275d828165811dd
+    log: revlist-235174b2bed8-b415a1ead73c.txt
 
---===============8478741509835396866==
+--===============2853996371188789430==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-235174b2bed8-b415a1ead73c.txt
 
-certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1738691303 -0800
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1738691272-5a5b587a16d9576d53cc6de0958866ba2f8c4cac
+743bbd93cf29f653fae0e1416a31f03231689911 ice: put Rx buffers after being done with current frame
+11c4aa074d547d825b19cd8d9f288254d89d805c ice: gather page_count()'s of each frag right before XDP prog call
+468a1952df78f65c5991b7ac885c8b5b7dd87bab ice: stop storing XDP verdict within ice_rx_buf
+88be092224d51f6ca7b369a8e5d29cfee8754a32 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+3a4e7193ec37ee2476ce726589de4495a066b565 MAINTAINERS: list openvswitch docs under its entry
+4d896b35394144c246daaeb5280a015a630958e7 MAINTAINERS: add Kuniyuki Iwashima to TCP reviewers
+ae0585b04ab741b536b0db20c12baf24bf7118d2 MAINTAINERS: add a general entry for BSD sockets
+8a2e22f665a0b5c212057031e94b75cfdc11a4a6 MAINTAINERS: add entry for UNIX sockets
+0e6dc66b5c5fa186a9f96c66421af74212ebcf66 Merge branch 'maintainers-recognize-kuniyuki-iwashima-as-a-maintainer'
+244f8aa46fa9e2f4ea5fe0e04988b395d5e30fc7 ethtool: rss: fix hiding unsupported fields in dumps
+2b91cc1214b165c25ac9b0885db89a0d3224028a ethtool: ntuple: fix rss + ring_cookie check
+de379dfd9ada2995699052f4a1ecebe5d8f8d70f selftests: drv-net: rss_ctx: add missing cleanup in queue reconfigure
+c3da585509aeb8476886adf75a266c81a9b0df6c selftests: drv-net: rss_ctx: don't fail reconfigure test if queue offset not supported
+2fc9956b31028040d50e5c7a6631a310f1ce4014 Merge branch 'ethtool-rss-minor-fixes-for-recent-rss-changes'
+d3ed6dee73c560fad0a8e152c8e233b3fb3a2e44 net: harmonize tstats and dstats
+4241a702e0d0c2ca9364cfac08dbf134264962de rxrpc: Fix the rxrpc_connection attend queue handling
+4b3eff4951474c84155c468b9c39c2083fdd66ad igb: narrow scope of vfs_lock in SR-IOV cleanup
+4122d7002295f5d6b5a016a011735e3273c421c7 igb: introduce raw vfs_lock to igb_adapter
+7ad2556d2c32bf6fcac39122510540e5332652a8 igb: split igb_msg_task()
+b415a1ead73c58150e19d5dd8275d828165811dd igb: fix igb_msix_other() handling for PREEMPT_RT
 
-dce4aab8441d285b9a78b33753e0bf583c1320ee 28d00b3e595347838b7a0bc37fd63a6b156754a4 refs/heads/for-next/kspp
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCZ6JS5wAKCRA2KwveOeQk
-u3qZAQD7gkQeBxN/liqpJ1tuLZnFFa1H8fdezdmAg48IgH1wuwD+Mk/UzpQO05ut
-0yoTrXxuRJHdDYA+iQzgvbov4eRrjw8=
-=oJeA
------END PGP SIGNATURE-----
-
---===============8478741509835396866==--
+--===============2853996371188789430==--
