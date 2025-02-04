@@ -1,32 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============3098196274086842194=="
+Content-Type: multipart/mixed; boundary="===============3281367209613958802=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
-Date: Tue, 04 Feb 2025 09:35:35 -0000
-Message-Id: <173866173513.734089.12193104979027117155@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/livepatching/livepatching
+Date: Tue, 04 Feb 2025 09:36:22 -0000
+Message-Id: <173866178249.734666.5742009972597308815@gitolite.kernel.org>
 
---===============3098196274086842194==
+--===============3281367209613958802==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/printk/linux
+repo: pub/scm/linux/kernel/git/livepatching/livepatching
 user: pmladek
 changes:
-  - ref: refs/heads/master
-    old: 7d66d3ab139c8c195dbb603e21043b6e2d120fa3
-    new: 4ca6c022279dddba1eca8ea580c82ea510ecf690
-    log: revlist-7d66d3ab139c-4ca6c022279d.txt
+  - ref: refs/heads/for-linus
+    old: 49dcb50d6ce33320c28f572f90a9bb9c33d92042
+    new: 336088234e9f85f6221135ba698c41dbf3c9e78e
+    log: revlist-49dcb50d6ce3-336088234e9f.txt
 
---===============3098196274086842194==
+--===============3281367209613958802==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-7d66d3ab139c-4ca6c022279d.txt
+Content-Disposition: attachment; filename=revlist-49dcb50d6ce3-336088234e9f.txt
 
-a9c83a0ab66a5b02e914daed502fb8d3a8d3d619 io_uring/timeout: flush timeouts outside of the timeout lock
 d62c2f0d82753a05133411b1e242baf31f4ef68e io_uring: ensure io_queue_deferred() is out-of-line
 b255ef45fcc2141c1bf98456796abb956d843a27 eth: bcmsysport: fix call balance of priv->clk handling routines
 fb3a9a1165cea104b5ab3753e88218e4497b01c1 gve: trigger RX NAPI instead of TX NAPI in gve_xsk_wakeup
@@ -1050,5 +1049,6 @@ a6640c8c2fc029f015c87672585931c6106971c1 Merge tag 'objtool-core-2025-01-20' of 
 858df1de2158bd7ab88d31b557592e990bacc0b5 Merge tag 'x86-cleanups-2025-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 62de6e1685269e1637a6c6684c8be58cc8d4ff38 Merge tag 'sched-core-2025-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 4ca6c022279dddba1eca8ea580c82ea510ecf690 Merge tag 'printk-for-6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
+336088234e9f85f6221135ba698c41dbf3c9e78e Merge tag 'livepatching-for-6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/livepatching/livepatching
 
---===============3098196274086842194==--
+--===============3281367209613958802==--
