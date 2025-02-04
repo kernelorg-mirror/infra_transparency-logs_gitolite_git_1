@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0495559473385591541=="
+Content-Type: multipart/mixed; boundary="===============1414110619205085005=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 04 Feb 2025 03:33:04 -0000
-Message-Id: <173863998435.447142.15078280699850591516@gitolite.kernel.org>
+Date: Tue, 04 Feb 2025 03:33:26 -0000
+Message-Id: <173864000639.447393.17479925370342999700@gitolite.kernel.org>
 
---===============0495559473385591541==
+--===============1414110619205085005==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,56 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: 63ca02221cc5aa0731fe2b0cc28158aaa4b84982
-    new: 5233e3235dec3065ccc632729675575dbe3c6b8a
-    log: revlist-63ca02221cc5-5233e3235dec.txt
+  - ref: refs/tags/mkp-scsi-queue
+    old: a216145a977675313b91a917535666b04038ba7c
+    new: 21697696cb5967f162d19434da2c7e9d3a5cfc88
+    log: revlist-a216145a9776-21697696cb59.txt
 
---===============0495559473385591541==
+--===============1414110619205085005==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1738640012 -0500
+pusher 75C5DE3D 1738640018 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1738639979-445629f804fba3909da9e24864fdda290926bef1
+nonce 1738639988-9d083a4a6c2fa81a6d9ed4f2558ddca00afe99ba
 
-63ca02221cc5aa0731fe2b0cc28158aaa4b84982 5233e3235dec3065ccc632729675575dbe3c6b8a refs/heads/fixes
+a216145a977675313b91a917535666b04038ba7c 21697696cb5967f162d19434da2c7e9d3a5cfc88 refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmehiowACgkQ7ulgGnXF
-3j0lcg//dzs0wyCX2JGBpENfpyk5A7A9brD04AQDkYFT0mDrlznphA/0/wG3Yx4w
-JdZ0LBqAz1skLvsnQoLUcFJI+gSqi5qPwwRLx0fhgsadbZwDLQDVnEZDNy1buwg0
-ptd9r2wpHBZHKxznhqxYCUrvyycx6/wi2luzf/3fdCX/6KicGOmOCdne+k2RBq9Z
-i9EgRcsp0LzXtvlhwQLMl3GmtOgOD7t5fI9gLUujBNdRgXNA52PT9Hhhlhs9vXYM
-OjvrOONMvvQW8aeCoB71tGtfW5bz0KcdloQrW+WhyjUNk40f7C9dMZ1JE6eufu0H
-6EdZ0tR5HJ0c2/YLJJsYpjm+ED7gVCvPazLTvDBWUCTio8kmv3AxWgBQoT3SaKj2
-/Ocx/ylBlHQYuFcNfzATcTB+52mhVfUnAh5X0juWZIxPNK/SeA3tI+NOmSjkw7FJ
-7jXjtWBlqmksa4GMo15TAlL64H6Q/IUo+POT4NkpNwEAMLd9UT5XCEXqz9BaQtmH
-uHRM/2oeldKO3FB37znb3saBSFzBRAsG8Z+fqoXChEq5GHPj8nf/8YRtI4EFppCF
-vOduUX+i67JwyHOv7vwlTNUP4SGjPD9tA74soCswlPrTd9pqmMi83OuF7mwFBXpY
-lUYx5zp3Jr3t11dF7fPE9F5jGZUOxlZVWkop1SUuXcPQl4+GXBQ=
-=KMiT
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmehipIACgkQ7ulgGnXF
+3j13iw//cwcE1mQDIVX8wuXTvPWjCENZz1JHM06Zmx89FVTS7X9oiL2rAiM7tla5
+aRbxHtS8lP8NRbWYZ2IhoEFzpobznPg2AKrUBFwSsyZPcOIVZbEl5tSpv1Q3cxmd
+5wRr/WU/CNaszRhXSus672GguxUfILXplVsMzoZkd2xtlBymeOpMLzMCDC94goGM
+V6Ldt4C0XqDKA3tgy+a3dlti2GeGSfMCFB+GV2aFyxWN/DT9XxE1JdxeqjyvxrTf
+8vLH7Ilc0yb+qNMUgKw1RWAqVtu/rf0DckLInXYoDHxnrr2DsdNg1bKTkMQ822cs
+x9w9o3xvzDcZLpnN/gPhHMK46BWNufMhjbDxpmaLqoDvH7jZhTBc84DM4fbXZYuC
+w/b/iCfoeW0Eo6+iJ41ssy2mzHGKF0eIb5eOb83/eC5PzXC4FRvp3NwyzKe9OFOj
+tfpQS58+1nNkK7apWntzVJUP+5WyvYyHIdN+o5E2qRhEoAXkMe8oTesZhK7mQuDG
+YUyvwShmB25HwUP1a+EiOY8/wco+SuNYklvGtdpB4wdE2nUklu400cghKd6WYUvv
+AKGWpf6rRaZmDzMApAiHdA66ZIe18EZKhL4T+5dbXlaINRz13QCyJvMrhJ50d6p7
+bE+G+2p0Oms765K9RHiv+kw2Yztfafom5R6aSaaEY7V+DWy+Hwo=
+=NE/f
 -----END PGP SIGNATURE-----
 
---===============0495559473385591541==
+--===============1414110619205085005==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-63ca02221cc5-5233e3235dec.txt
+Content-Disposition: attachment; filename=revlist-a216145a9776-21697696cb59.txt
 
-8c09f612b2937da109ed0df583ace3a29fc95a93 scsi: ufs: core: Simplify temperature exception event handling
+668135b9348c53fd205f5e07d11e82b10f31b55b NFSv4.2: mark OFFLOAD_CANCEL MOVEABLE
+0b96c75d86560c077d29ce629e9d1ca0258c9cc1 NFSv4.2: make LAYOUTSTATS and LAYOUTERROR MOVEABLE
+a3282f84b2151d254dc4abf24d1255c6382be774 PCI: switchtec: Add Microchip PCI100X device IDs
+13b6931c44969ff057ad2a3aa1c20a1b28b79b6f Merge tag 'x86_sev_for_v6.14_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+e7217011ddd8e86a0d18c6cbfb4f14da3d18eee0 ALSA: usb: fcp: Fix meter_levels type to __le32
+f08cc80f69be62beb7a63cd4813c7989c8708831 ALSA: usb: fcp: Fix incorrect resp->opcode retrieval
+0a8f5f4652ef4d530a7cb8bed2b6e502cdfa825f ALSA: usb: fcp: Fix return code from poll ops
+b02cfbd9bfb9f45eebb33771e5705af95b5c9673 dt-bindings: PCI: mobiveil: Convert mobiveil-pcie.txt to YAML
+10e796eed62648ff928cb66d52f226452e1affff dt-bindings: PCI: qcom,pcie-sm8550: Document 'global' interrupt
+c25b978d351fae5da87794be9160d8acfa6e6823 dt-bindings: PCI: qcom: Document the IPQ5424 PCIe controller
 a8581752278ef9d6ea73bb10eef2657bfb73e116 bcachefs: Fix btree_trans_peek_key_cache()
 48795f90cbdcccc36cc415a2d785a23a4b23e57a Merge tag 'x86_cpu_for_v6.14_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 b9d8a295ed6bc3cee846f8e3f27c9c6e9ebe43f2 Merge tag 'x86_misc_for_v6.14_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1071,14 +1080,5 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 5d82ca7b5019d880a579831278eb73cbbfdb87da Merge tag 'sh-for-v6.14-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
-16b047c9a4dd4d4cc07284f5b38d4c7b9766c111 Merge branch '6.14/scsi-queue' into 6.14/scsi-fixes
-3d4114a1d34413dfffa0094c2eb7b95e61087abd scsi: ufs: core: Ensure clk_gating.lock is used only after initialization
-839a74b5649c9f41d939a05059b5ca6b17156d03 scsi: ufs: Fix toggling of clk_gating.state when clock gating is not allowed
-5363ee9d110e139584c2d92a0b640bc210588506 scsi: core: Use GFP_NOIO to avoid circular locking dependency
-9ff7c383b8ac0c482a1da7989f703406d78445c6 scsi: core: Do not retry I/Os during depopulation
-f8fb2403ddebb5eea0033d90d9daae4c88749ada scsi: ufs: core: Fix use-after free in init error and remove paths
-87c4b5e8a6b65189abd9ea5010ab308941f964a4 scsi: storvsc: Set correct data length for sending SCSI command without payload
-1a78a56ea65252bb089e0daace989167227f2d31 scsi: ufs: core: Fix error return with query response
-5233e3235dec3065ccc632729675575dbe3c6b8a scsi: qla1280: Fix kernel oops when debug level > 2
 
---===============0495559473385591541==--
+--===============1414110619205085005==--
