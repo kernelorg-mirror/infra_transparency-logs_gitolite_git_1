@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-Date: Tue, 04 Feb 2025 10:26:22 -0000
-Message-Id: <173866478292.774722.17561388267275814706@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
+Date: Tue, 04 Feb 2025 10:29:58 -0000
+Message-Id: <173866499807.776822.11355883895973272290@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-user: thomas.weissschuh
+repo: pub/scm/linux/kernel/git/rppt/linux
+user: rppt
 changes:
-  - ref: refs/heads/b4/kunit-kselftests
+  - ref: refs/heads/kho/v4
     old: 0000000000000000000000000000000000000000
-    new: 6d126c0bfc92d0e1a6bdfa63079084a712cfaad6
+    new: a75b813f58b0bc19b2c4b06bd62afc87f02dcb43
