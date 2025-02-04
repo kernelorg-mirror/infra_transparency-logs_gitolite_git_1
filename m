@@ -1,64 +1,73 @@
-Content-Type: multipart/mixed; boundary="===============8680571541595666052=="
+Content-Type: multipart/mixed; boundary="===============0735286948345130592=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 04 Feb 2025 13:09:41 -0000
-Message-Id: <173867458154.908450.1417517290315886196@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Tue, 04 Feb 2025 13:09:58 -0000
+Message-Id: <173867459814.908682.13031320862215222523@gitolite.kernel.org>
 
---===============8680571541595666052==
+--===============0735286948345130592==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
+  - ref: refs/heads/usb-next
     old: 2014c95afecee3e76ca4a56956a936e23283f05b
-    new: 7b66aae77da56f2eabd92d3fb012d2fb98212bbd
-    log: |
-         6011fadfee652cc109df7e925a025e46b0aa13e5 staging: bcm2835-camera: drop vb2_ops_wait_prepare/finish
-         8e4d3729efb4e4716cb12a25e06dbe40f1a0191f staging: gpib: Remove unnecessary .owner assignment
-         76d54fd5471b10ee993c217928a39d7351eaff5c staging: gpib: Use min for calculating transfer length
-         cd45f6ef14b7140b77d28b38b9f0a7f7d93ed52b staging: gpib: fix prefixing 0x with decimal output
-         2f548210a5a5d4cb5f20af39b684a9f6de58cd0e staging: gpib: Add missing interface entry point
-         8418753187ba216f8931432dd8a6ee2f23977ecd staging: gpib: Make static, reduce fwd declarations
-         03ec050c437bb4e7c5d215bbeedaa93932f13b35 staging: gpib: Fix pr_err format warning
-         fa757a8446b15fc173e587f8d6d278fbc6a2d041 pnp: isapnp: Export isapnp_read_byte again
-         7b66aae77da56f2eabd92d3fb012d2fb98212bbd staging: gpib: Remove depends on BROKEN
-         
+    new: 9682c35ff6ecd76d9462d4749b8b413d3e8e605e
+    log: revlist-2014c95afece-9682c35ff6ec.txt
 
---===============8680571541595666052==
+--===============0735286948345130592==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1738674610 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1738674579-88ce64e2bf17e40f7eeca8086e0671f725650110
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1738674627 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1738674596-f85a19af309b51d2ed4399ea6ae644d782c18d26
 
-2014c95afecee3e76ca4a56956a936e23283f05b 7b66aae77da56f2eabd92d3fb012d2fb98212bbd refs/heads/staging-next
+2014c95afecee3e76ca4a56956a936e23283f05b 9682c35ff6ecd76d9462d4749b8b413d3e8e605e refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeiEbMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zcsP/3CZlRn7HtaRZWuYguaC
-nfZQkPDcuEUutwAz9ExtLniY7EsbiUBBKjI/ibFJtaunY8TTh/Ku4puo/IFZ3EBa
-CAHfaG1adZtnLeankdBd/Kn1bO3M4Hfl25Ou6yPFP8LHO4EaLqSRenWlpTsiOWRN
-Pm9KBaQhqc43wy1iIflwNsCzvpp3QvchUMJOiKXJl66hnaJfGQapVHJwphZkEfD3
-ELi+G2Noc6YbBwM/63aRLV3FKyn56XTBP8/w/uu/KQH8ipR4zItAlkX7LJxNQi8E
-UmPAx11GirR8389RysmOZvuXucUwolVgiLSSJSccvbs9rXfJYjCwFhvC8oKOqyzb
-R4eQZtxJ8T2AViZIHqMFXlN0tKePU7ZBAuCJVGin+exc4nEDeRjFfDMGkKP4U/fP
-pX9BuoizqoMMi3WLMr8uJ8SDux88MjBHurw+56K9GZvo8snEqyz1v3yK4kUBQMbu
-6HN2bY1x//1RlO0NWMW7B3wyLLzX1/2nHm0ZLE/AvXNDWV56ZMiXfnjVWEXmifD8
-wyoQfKuUzzM7bwMtgPNUtYRG8KTa8K6zOlDVAeWzDCJnOZet/ux9qaonfPgIzbGO
-Qaq3LHpNrdWlDi5V2637ngC00Ny0lbP/qFxxoF66UDpUmsRpHbh9mGn6fqFPP4Ru
-J3IRrqVNUZ1dLhsI4epVI6BR
-=aVW/
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeiEcMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2pEQALxFd6j5FR7t+O2/bAEV
+bC+ctGOT4U8LHntMI6fSZfR0KoJnyHPaIGQG+edwLBQ7IwDV1QSJbMtY5i7H4Ghr
+yMLY5f01CW7INUT+iaOUFBF8XhJW45TIT4sZncm+qnpWQwgcwyEYAiEZShWXws3D
+vVnDR4+7O58tI25g5/I0gkn5aBsrg5rlK9xE4Yn4zJ853blHaMUDtWd4Cc0RLjU3
+x4vpVTcRYGfcFo288qduitqDt1SDn9BS1b3yXOjzzvXG/SbITZGtRWVUc3mMz5FD
+YxDQxMe3nCjFplw4COK6k3Fe8Va9K+N/US/uXvc8ZUCCeIKG5glMx9MTEJpNdMMo
+gkKQ4cGNBnKi8VyF8LwU1rpl4oMZWy3TZiW2sD86sG6SBvmsFYbT/bZ9I2O5kKJG
+ELc3Tumc/zzOm/4N6rtKcniIVtvd/vNVK3brbvqCHKvcE6EB5hTkgTJAsK2wFQjQ
+S7Fmajp1lmemt33hmSssvldDPKw6sf137SpDZvGwp0K+IOoenzLbW4s6tviVMNHN
+pKNIZEMsGvEpZsVsvsjuW+AAaq+ofg57WBLyJqu6WC3gVGIsusXH+UeTJ23jzRSg
+qmLl4WyJcyiq7ZfzvkEIIaAkyDqXAMUzoz5snv668UQk9hLZL/GqgFCmLyfoHUp9
+J0PfQZnLWiuC3ftuuWDOiv7+
+=S3oa
 -----END PGP SIGNATURE-----
 
---===============8680571541595666052==--
+--===============0735286948345130592==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-2014c95afece-9682c35ff6ec.txt
+
+856a2d5946c14a387e9eba12ddc95198efc02d71 usb: typec: ucsi: Rename SET_UOM UCSI command to SET_CCOM
+9bc3442914692109ac7194449e1a0866ca39b1f1 usb: typec: ucsi: Enable UCSI commands in debugfs
+7abbfe6e694ee8cdd9455436f17e9aec080d3ab6 usb: gadget: uvc: drop vb2_ops_wait_prepare/finish
+41d5e3806cf589f658f92c75195095df0b66f66a usb: host: max3421-hcd: Add missing spi_device_id table
+667ecac55861281c1f5e107c8550ae893b3984f6 usb: typec: ucsi: return CCI and message from sync_control callback
+7f82635494ef3391ff6b542249793c7febf99c3f usb: typec: ucsi: ccg: move command quirks to ucsi_ccg_sync_control()
+f9cf5401526c5bfb85d91f14664bf75d1889e7d2 usb: typec: ucsi: acpi: move LG Gram quirk to ucsi_gram_sync_control()
+9570d99f44c969ebf3bd7d52434a491c1c1db470 usb: phy: mxs: silence EPROBE_DEFER error on boot
+42bc7faaf3a0da2adff71e292efe3eb428018c07 usb: usb251xb: silence EPROBE_DEFER error on boot
+51333bfbf18f730a78bbb85895f9c9e4c994d883 usb: musb: Constify struct musb_fifo_cfg
+b51c1e8d2f49342b2087338c72511326fdb7b172 usb: typec: thunderbolt: Fix loops that iterate TYPEC_PLUG_SOP_P and TYPEC_PLUG_SOP_PP
+9682c35ff6ecd76d9462d4749b8b413d3e8e605e usb: typec: thunderbolt: Remove IS_ERR check for plug
+
+--===============0735286948345130592==--
