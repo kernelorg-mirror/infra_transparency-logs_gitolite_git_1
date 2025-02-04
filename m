@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/djiang/linux
-Date: Tue, 04 Feb 2025 01:13:55 -0000
-Message-Id: <173863163583.335965.14582921303064600426@gitolite.kernel.org>
+Date: Tue, 04 Feb 2025 01:14:04 -0000
+Message-Id: <173863164447.336237.16011133432466810684@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/djiang/linux
 user: djiang
 changes:
-  - ref: refs/heads/cxl/features
-    old: 5d94678344071fb8cb484f85c249831deea3037d
+  - ref: refs/heads/cxl/fwctl
+    old: 0fb58a891b3ee70663b52f124411cc58a0b6c58f
     new: 9e35c43e9702c620a902205ba1f8417bc7a7fb58
     log: |
          32c94cc751566e005f85887fb4691c26812c2c82 cxl: Enumerate feature commands
