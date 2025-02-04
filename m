@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8918863431512949008=="
+Content-Type: multipart/mixed; boundary="===============3042785348397345047=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/modules/linux
-Date: Tue, 04 Feb 2025 12:05:32 -0000
-Message-Id: <173867073277.857822.6838472867838890380@gitolite.kernel.org>
+Date: Tue, 04 Feb 2025 12:17:02 -0000
+Message-Id: <173867142215.866300.14736919277689194239@gitolite.kernel.org>
 
---===============8918863431512949008==
+--===============3042785348397345047==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/modules/linux
 user: ppavlu
 changes:
-  - ref: refs/heads/modules-fixes
-    old: 72deda0abee6e705ae71a93f69f55e33be5bca5c
-    new: ccdbc07c71baba8fb8722265b53f150e8f460b80
-    log: revlist-72deda0abee6-ccdbc07c71ba.txt
+  - ref: refs/heads/modules-next
+    old: 48ecfdd92824a58389a316abc2115898102e5447
+    new: 053842ec3c336fb132f278ed54c011e801fe6eb1
+    log: revlist-48ecfdd92824-053842ec3c33.txt
 
---===============8918863431512949008==
+--===============3042785348397345047==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-72deda0abee6-ccdbc07c71ba.txt
+Content-Disposition: attachment; filename=revlist-48ecfdd92824-053842ec3c33.txt
 
 209954cbc7d0ce1a190fc725d20ce303d74d2680 x86/mm/tlb: Update mm_cpumask lazily
 2815a56e4b7252a836969f5674ee356ea1ce482c x86/mm/tlb: Add tracepoint for TLB flush IPI to stale CPU
@@ -576,5 +576,32 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
 ccdbc07c71baba8fb8722265b53f150e8f460b80 tests/module: nix-ify
+7529f7fc640045923ca6f1fee002279045146a9a module: Begin to move from RCU-sched to RCU.
+e2562266dd8426d55057a3b2e92ac8041385b6a3 module: Use proper RCU assignment in add_kallsyms().
+2fd057396d96648b6b587225d6e20a64a09a0329 module: Use RCU in find_kallsyms_symbol().
+58f82f0861b237e7a65fea6bd8cb421f3f6410a3 module: Use RCU in module_get_kallsym().
+5f75cb0629baee3d909993602a155c7ce0394525 module: Use RCU in find_module_all().
+614d5995b96d67f641ba2bdbd6782b4cee556675 module: Use RCU in __find_kallsyms_symbol_value().
+36077f4ad1a0ad4e3fa03e3b5d7a35041a697d6e module: Use RCU in module_kallsyms_on_each_symbol().
+3f8f48bb6d0b4ba93a8941b3ed7389c7ae5d5b9c module: Remove module_assert_mutex_or_preempt() from try_add_tainted_module().
+242ba2c85f62ed619b8c466238dbb8b34138632d module: Use RCU in find_symbol().
+ae2feade0fb1b3dd7acc52b478e0b24ac0284d2c module: Use RCU in __is_module_percpu_address().
+27e0adbd2c5c92b9c3ab2ee7f649d782d54215fb module: Allow __module_address() to be called from RCU section.
+90d56c4c8122c8d3a226ead071eea79041533a1f module: Use RCU in search_module_extables().
+eb4f0c61ac7ab9e3322aad280030fa44c4b711f6 module: Use RCU in all users of __module_address().
+50369c7ee17688445e38b2f23aa5ff74ec36a0ef module: Use RCU in all users of __module_text_address().
+97f8e1b9bc4a4ea3922161f0172af49329149cb1 ARM: module: Use RCU in all users of __module_text_address().
+cdfe81efd654e31fb5a9e9897130859a9ed50f5d arm64: module: Use RCU in all users of __module_text_address().
+89814269a4313088940a5d09d66fcc72d17836c8 LoongArch/orc: Use RCU in all users of __module_address().
+bcaf4e7a727f77c31e2aa8cb251382a8849f96a4 LoongArch: ftrace: Use RCU in all users of __module_text_address().
+0ad6411c21fe94486d5ccea9383ab3cc2e8a0ad7 powerpc/ftrace: Use RCU in all users of __module_text_address().
+f985e39203090cc64f1bfb370935dd360010a887 cfi: Use RCU while invoking __module_address().
+66fbf677051818b9b5339fa8bfeac1b2e288efa5 x86: Use RCU in all users of __module_address().
+9cb0e844015037cd766cb79bd1411f54a100ad2d jump_label: Use RCU in all users of __module_address().
+5ce61336be1accc6453126714c0e1b804e684982 jump_label: Use RCU in all users of __module_text_address().
+fb65ad8b6ed03f07011267b2e52927d16b42b9d8 bpf: Use RCU in all users of __module_text_address().
+cc115be8b1510a97866ff10487bb0671c96cfe8e kprobes: Use RCU in all users of __module_text_address().
+5ececbccaa3a60b4c3dfad09ae474e1aa1b4bdfd static_call: Use RCU in all users of __module_text_address().
+053842ec3c336fb132f278ed54c011e801fe6eb1 bug: Use RCU instead RCU-sched to protect module_bug_list.
 
---===============8918863431512949008==--
+--===============3042785348397345047==--
