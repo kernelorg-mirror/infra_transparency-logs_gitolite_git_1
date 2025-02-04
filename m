@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8866816876576868581=="
+Content-Type: multipart/mixed; boundary="===============8918863431512949008=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/modules/linux
-Date: Tue, 04 Feb 2025 12:04:26 -0000
-Message-Id: <173867066649.855080.9504194086718123016@gitolite.kernel.org>
+Date: Tue, 04 Feb 2025 12:05:32 -0000
+Message-Id: <173867073277.857822.6838472867838890380@gitolite.kernel.org>
 
---===============8866816876576868581==
+--===============8918863431512949008==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/modules/linux
 user: ppavlu
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/modules-fixes
     old: 72deda0abee6e705ae71a93f69f55e33be5bca5c
-    new: 2014c95afecee3e76ca4a56956a936e23283f05b
-    log: revlist-72deda0abee6-2014c95afece.txt
-  - ref: refs/tags/v6.14-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 379487e17ca406b47392e7ab6cf35d1c3bacb371
+    new: ccdbc07c71baba8fb8722265b53f150e8f460b80
+    log: revlist-72deda0abee6-ccdbc07c71ba.txt
 
---===============8866816876576868581==
+--===============8918863431512949008==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-72deda0abee6-2014c95afece.txt
+Content-Disposition: attachment; filename=revlist-72deda0abee6-ccdbc07c71ba.txt
 
 209954cbc7d0ce1a190fc725d20ce303d74d2680 x86/mm/tlb: Update mm_cpumask lazily
 2815a56e4b7252a836969f5674ee356ea1ce482c x86/mm/tlb: Add tracepoint for TLB flush IPI to stale CPU
@@ -578,5 +575,6 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 5d82ca7b5019d880a579831278eb73cbbfdb87da Merge tag 'sh-for-v6.14-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
+ccdbc07c71baba8fb8722265b53f150e8f460b80 tests/module: nix-ify
 
---===============8866816876576868581==--
+--===============8918863431512949008==--
