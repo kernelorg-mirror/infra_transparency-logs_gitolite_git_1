@@ -1,23 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Tue, 04 Feb 2025 01:11:17 -0000
-Message-Id: <173863147740.334732.9644810560512982599@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djiang/linux
+Date: Tue, 04 Feb 2025 01:13:55 -0000
+Message-Id: <173863163583.335965.14582921303064600426@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/djiang/linux
+user: djiang
 changes:
-  - ref: refs/heads/pending
-    old: e51e624a62d6a62be9cd3b5b8e522719617e2683
-    new: f5c90ff80b4c0326e5fd1feecafd88718075b1b7
+  - ref: refs/heads/cxl/features
+    old: 5d94678344071fb8cb484f85c249831deea3037d
+    new: 9e35c43e9702c620a902205ba1f8417bc7a7fb58
     log: |
-         ba42b22aa336c3ea0bd6f9c606f70a35a278bd61 wifi: ath12k: Dump PDEV transmit rate HTT stats
-         a24cd7583003824f8bd0034c02987e5da26088f6 wifi: ath12k: Dump PDEV receive rate HTT stats
-         7a3e8eec8d183d7b293bfb69caab9f213e0a6bbd wifi: ath12k: Dump additional PDEV receive rate HTT stats
-         f0c3bb78e42f2f67403b2314486e42f40737b15c wifi: ath12k: Add Support to Parse TPC Event from Firmware
-         f5c90ff80b4c0326e5fd1feecafd88718075b1b7 wifi: ath12k: Add Support to Calculate and Display TPC Values
+         32c94cc751566e005f85887fb4691c26812c2c82 cxl: Enumerate feature commands
+         ca4b7d5eb934617d55de0581f7a9e4da1e60edfe cxl: Add Get Supported Features command for kernel usage
+         40b3a234492119c6f74ab9df42d97196e718efb1 cxl/test: Add Get Supported Features mailbox command support
+         2f6fea4f6954b3f53f16e669ab2ef5bef975112e cxl/mbox: Add GET_FEATURE mailbox command
+         4543ca1553a5b6b236b38830683ffc6d05f96254 cxl/mbox: Add SET_FEATURE mailbox command
+         9e35c43e9702c620a902205ba1f8417bc7a7fb58 cxl: Setup exclusive CXL features that are reserved for the kernel
          
