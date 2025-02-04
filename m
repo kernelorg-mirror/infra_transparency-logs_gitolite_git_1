@@ -1,24 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 04 Feb 2025 18:38:13 -0000
-Message-Id: <173869429356.1189120.8942328729622182739@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5285263803281914297=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Tue, 04 Feb 2025 18:41:05 -0000
+Message-Id: <173869446576.1192469.5787204078549687679@gitolite.kernel.org>
+
+--===============5285263803281914297==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/utils/b4/b4
+user: mricon
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 0de63bb7d91975e73338300a57c54b93d3cc151c
-    new: d009de7d54281f5c23d7d82ec5e6e2d54609791a
+    old: d23a9a2d5684369710bd2e416e41159193df3756
+    new: f0f058accb3d2b1d725683333fba46b0feb3e05c
     log: |
-         28aecef5b1015bf6023ddc12b1a67f6678271fcb selftests: livepatch: handle PRINTK_CALLER in check_result()
-         e4d4648eac8b4ef39f412d07715eb26f1ccd7342 platform/x86: ideapad-laptop: pass a correct pointer to the driver data
-         583ef25bb2a094813351a727ddec38b35a15b9f8 platform/x86/intel: pmc: fix ltr decode in pmc_core_ltr_show()
-         a787ab73e2e43c0a3df10bc8d9b9b7a679129d49 platform/x86/intel/ifs: Update documentation with image download path
-         f5a2601378af1ea1e2a51d613e49e629159dc956 Merge tag 'platform-drivers-x86-v6.14-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-         d009de7d54281f5c23d7d82ec5e6e2d54609791a Merge tag 'livepatching-for-6.14-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/livepatching/livepatching
+         f0f058accb3d2b1d725683333fba46b0feb3e05c Small fixes to appease ruff
          
+
+--===============5285263803281914297==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1738694495 -0500
+pushee gitolite.kernel.org:pub/scm/utils/b4/b4
+nonce 1738694464-b5290290fdaf9a891efb6d3e481deeda47aeac76
+
+d23a9a2d5684369710bd2e416e41159193df3756 f0f058accb3d2b1d725683333fba46b0feb3e05c refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZ6JfXwAKCRC2xBzjVmSZ
+bMerAP4gpjRWaqFO3QTOCP7L4pyUI0DTJPc2Dsz7UJhVUKSOMAD+N03BLGu18dOL
+l4cHuQ6X+0PbWVKh6MFEXp1Ilu9RJQI=
+=RlcJ
+-----END PGP SIGNATURE-----
+
+--===============5285263803281914297==--
