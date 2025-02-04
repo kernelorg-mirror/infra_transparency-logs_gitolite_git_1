@@ -1,46 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============3512777382528051717=="
+Content-Type: multipart/mixed; boundary="===============2664135608959157893=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 04 Feb 2025 16:33:56 -0000
-Message-Id: <173868683681.1081059.9467433075934562119@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
+Date: Tue, 04 Feb 2025 16:35:49 -0000
+Message-Id: <173868694982.1084101.5795984607037122149@gitolite.kernel.org>
 
---===============3512777382528051717==
+--===============2664135608959157893==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/vbabka/linux
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: 235174b2bed88501fda689c113c55737f99332d8
-    new: 4241a702e0d0c2ca9364cfac08dbf134264962de
-    log: revlist-235174b2bed8-4241a702e0d0.txt
+  - ref: refs/heads/b4/slub-tiny-kfree_rcu-rebased-with_rcu_dtor
+    old: 6b00aa39303f78725ae3e506778d25fc4d2d92ea
+    new: 0000000000000000000000000000000000000000
 
---===============3512777382528051717==
+--===============2664135608959157893==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-235174b2bed8-4241a702e0d0.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-743bbd93cf29f653fae0e1416a31f03231689911 ice: put Rx buffers after being done with current frame
-11c4aa074d547d825b19cd8d9f288254d89d805c ice: gather page_count()'s of each frag right before XDP prog call
-468a1952df78f65c5991b7ac885c8b5b7dd87bab ice: stop storing XDP verdict within ice_rx_buf
-88be092224d51f6ca7b369a8e5d29cfee8754a32 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-3a4e7193ec37ee2476ce726589de4495a066b565 MAINTAINERS: list openvswitch docs under its entry
-4d896b35394144c246daaeb5280a015a630958e7 MAINTAINERS: add Kuniyuki Iwashima to TCP reviewers
-ae0585b04ab741b536b0db20c12baf24bf7118d2 MAINTAINERS: add a general entry for BSD sockets
-8a2e22f665a0b5c212057031e94b75cfdc11a4a6 MAINTAINERS: add entry for UNIX sockets
-0e6dc66b5c5fa186a9f96c66421af74212ebcf66 Merge branch 'maintainers-recognize-kuniyuki-iwashima-as-a-maintainer'
-244f8aa46fa9e2f4ea5fe0e04988b395d5e30fc7 ethtool: rss: fix hiding unsupported fields in dumps
-2b91cc1214b165c25ac9b0885db89a0d3224028a ethtool: ntuple: fix rss + ring_cookie check
-de379dfd9ada2995699052f4a1ecebe5d8f8d70f selftests: drv-net: rss_ctx: add missing cleanup in queue reconfigure
-c3da585509aeb8476886adf75a266c81a9b0df6c selftests: drv-net: rss_ctx: don't fail reconfigure test if queue offset not supported
-2fc9956b31028040d50e5c7a6631a310f1ce4014 Merge branch 'ethtool-rss-minor-fixes-for-recent-rss-changes'
-d3ed6dee73c560fad0a8e152c8e233b3fb3a2e44 net: harmonize tstats and dstats
-4241a702e0d0c2ca9364cfac08dbf134264962de rxrpc: Fix the rxrpc_connection attend queue handling
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1738686976 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
+nonce 1738686945-31602263ad9bc4e7fb7dcdc9e2bf518c115f8aea
 
---===============3512777382528051717==--
+6b00aa39303f78725ae3e506778d25fc4d2d92ea 0000000000000000000000000000000000000000 refs/heads/b4/slub-tiny-kfree_rcu-rebased-with_rcu_dtor
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmeiQgAACgkQu+CwddJF
+iJrbqgf+OOPHHrzaIgwWRr3vJDTeHjzsQyAzi440VdRIJxxghj+U5kYBOrLZS0f1
+9x66zb2cipc4CQmdhs5uk/7SVBE0wRlWroQpfju+E22kjYcNhJiSTnJJTqzkH3qf
+jNlbsZlkxqKdEc8c4FOaZUKZcnTFVRhW4EY+FmwpU6Cw73AXVDXUHZ+MwxnSeLdO
+1BgzFTdr3FgsH/Vw1FTBMwgT89CMrkoqjZRQipDY8v584N6hGqcfGLKLmzM8y0Ki
+Zz/97ZDsIu375eVTj+6/cY8i1FGlYder7wkDwVSNyycDsxEHspa+WrtyvK7tTt7K
+nemlOvd9T226MZCrSV5uBrb9316x0g==
+=cmqN
+-----END PGP SIGNATURE-----
+
+--===============2664135608959157893==--
