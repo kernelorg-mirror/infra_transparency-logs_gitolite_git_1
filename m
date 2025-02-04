@@ -1,28 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Tue, 04 Feb 2025 13:59:35 -0000
-Message-Id: <173867757533.949727.10429347862332683862@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8062703103311135406=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 04 Feb 2025 14:07:39 -0000
+Message-Id: <173867805967.956485.17795115837055141710@gitolite.kernel.org>
+
+--===============8062703103311135406==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/arm64/kvm/fpsimd-fixes
-    old: c785ad2f075fc39b187416c6554896c214e449b6
-    new: 6db7d0ae63c88eddd2a79ad7400f86703fc3213d
+  - ref: refs/heads/master
+    old: 47d589ccb15778a19412ca1bdca66efcb21b6122
+    new: 285d93907a73f293e15af22661c024bf4c11bfe1
     log: |
-         c0902f44c7495bea076e24c8329bae17812d62b1 KVM: arm64: Remove host FPSIMD saving for non-protected KVM
-         9069b19e23ff9f0ea943c424bcbd7a6f7555b7c9 KVM: arm64: Remove VHE host restore of CPACR_EL1.ZEN
-         8ccecf50f23b04713e12a4b78ae21d48c643155d KVM: arm64: Remove VHE host restore of CPACR_EL1.SMEN
-         abffc5b309ceeb8937576c3d6a7400562590d495 KVM: arm64: Refactor CPTR trap deactivation
-         f80da429b65ec375d3a95ee206717712b995f437 KVM: arm64: Refactor exit handlers
-         4c9356a0b02a1506f8124dcc654bffe626c57842 KVM: arm64: Mark some header functions as inline
-         aeebcbcaeab7f7311b099c469911e50dcd9f0962 KVM: arm64: Eagerly switch ZCR_EL{1,2}
-         f29ec038f2c7d427aa9fb1fdcdd7c96ec269e257 HACK: Log mismatched VL in fpsimd_save_user_state()
-         e6936a826f13224de707b6aee7b618345c4f890e HACK: Warn on unexpected VL when exiting guest
-         6db7d0ae63c88eddd2a79ad7400f86703fc3213d HACK: Check the host's VL isn't artifically constrained
+         285d93907a73f293e15af22661c024bf4c11bfe1 5.4-stable patches
          
+
+--===============8062703103311135406==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1738678089 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1738678057-ddd411bbbfa559e54c4a7db022a8a5a6ecfb6495
+
+47d589ccb15778a19412ca1bdca66efcb21b6122 285d93907a73f293e15af22661c024bf4c11bfe1 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeiH0kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8XoP/RUdzYmoP7h166g/x7kj
+cuTPQsPDcLQqYyyVSrzwxfMpj4YIaEL4Zd+9UmT51dHg5ohCAKVA9KEmilzBD1iX
+w1Px59Rfc8kZ+gPEGz7PTMS5A4Sp1hbLuprUOneTHWsN5gYW0QgY7jW7dRgudXE1
+5Fakz+bEP1svkTByR7nyz1iDPefPgkXNWxGxH1VUf8jrZzyMwjOf+fEP7tq/E0ja
+Q43tbooWAHqLnEBhcYB4dwOCR5NpRI/rpXWg4Xe+gumMlb3BX2kPmPYfSbhpdJPN
+I+ZJsQKSIjejDJ3gK4iPfyilyu+qCUp1BQuzF5iY8y7PgFfUKvTTa6St99S8jZBk
+aktABli5/RNM/C1jn5rD6UQ4emSECHjkwqQoFNp71oJSYTRzGGGxwgCwInABkyLh
+JYVYFZUW76oFejzRNnhxfx/PQxOXXHX7TgFKuIgRezfC8Kw4TUugw3Km/q/potte
+/LJfbJfzztNESn3JKgX6sx1DXUn+NfjRVbQ/QsebT2o3AxUFsXtaUUVl9vKDGDpU
+k9rEzgTRPBnMPxT3JqkGbhOhVI4A5f8xE+pMAS3JFPJ0Eie/RqgSj16w6JIiUBJ9
+pDFvnYrEmRsb319Gqs8elQg8T5X9dWgu3oI7NCavl9yZ14OGw+XKz3oCOrNx9ND2
+MFwlzqnWGYPxet/MV5H0/wQO
+=DwFV
+-----END PGP SIGNATURE-----
+
+--===============8062703103311135406==--
