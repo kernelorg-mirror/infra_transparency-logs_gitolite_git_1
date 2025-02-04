@@ -1,30 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Tue, 04 Feb 2025 01:24:37 -0000
-Message-Id: <173863227787.345083.11688336904076117121@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Tue, 04 Feb 2025 01:51:22 -0000
+Message-Id: <173863388288.368144.4047895618016334483@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/main
-    old: 706913b9adf06cfef60f317fe261f5192474d45d
-    new: 48a62436540224f57013c27519dd2aa3ddd714c9
+  - ref: refs/heads/master
+    old: 670ca586df22db69ee937ea5d4b5889268be0631
+    new: dd9957aca83a963d414f0c4ea31b9642113e6aa9
     log: |
-         ba42b22aa336c3ea0bd6f9c606f70a35a278bd61 wifi: ath12k: Dump PDEV transmit rate HTT stats
-         a24cd7583003824f8bd0034c02987e5da26088f6 wifi: ath12k: Dump PDEV receive rate HTT stats
-         7a3e8eec8d183d7b293bfb69caab9f213e0a6bbd wifi: ath12k: Dump additional PDEV receive rate HTT stats
-         f0c3bb78e42f2f67403b2314486e42f40737b15c wifi: ath12k: Add Support to Parse TPC Event from Firmware
-         f5c90ff80b4c0326e5fd1feecafd88718075b1b7 wifi: ath12k: Add Support to Calculate and Display TPC Values
-         e5759a97bc24b6f845c13934a0cb51efa4c9522f Merge branch 'ath-next'
-         0cc2598de8d4641c6ca3efc352a408da60579837 Merge branch 'ath-current'
-         eca0cabeb72cd3541f2dc47b5c52bd23bfe9d6fb Merge remote-tracking branch 'mhi/mhi-next'
-         48a62436540224f57013c27519dd2aa3ddd714c9 Add localversion-wireless-testing-ath
+         a75247b7d63636adecb9439bf2e482a2add89c33 foo
+         80b2330d5844b5ea209a051c626e0491e963ff6c foo
+         4f6bc551f9fcb4c2a6bef356653bcd4bbb12b731 foo
+         b4f0626a53b6c0fbb823ab63dd05fbe49d40e616 foo
+         dbb201b6cea2a0f1427276509f8510f75794e7a3 foo
+         551193b1b7176be78dfb4161fc7069056863ea71 foo
+         4c5a63afd8b50189dd56c193fa6f98602be9bce8 foo
+         7e82e1e7176a4c164510b8fc39cfb1fec98e1bc6 foo
+         dd9957aca83a963d414f0c4ea31b9642113e6aa9 foo
          
-  - ref: refs/tags/ath-202502040117
-    old: 0000000000000000000000000000000000000000
-    new: 48a62436540224f57013c27519dd2aa3ddd714c9
