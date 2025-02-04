@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
-Date: Tue, 04 Feb 2025 15:34:13 -0000
-Message-Id: <173868325305.1031473.12554240488305715555@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
+Date: Tue, 04 Feb 2025 15:35:51 -0000
+Message-Id: <173868335147.1034244.16817245773463338247@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mnyman/xhci
-user: mnyman
+repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
+user: frederic
 changes:
-  - ref: refs/heads/fix_dbc_halted_ep
-    old: 04dcbe455dd92d4283537dba3e2b132c257cf9c7
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/kthreads-fixes-2025-02-04
+    old: 0000000000000000000000000000000000000000
+    new: dc6ef8b9e0fba2f99aae018992da5740b8a90c3d
