@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3715668184474832173=="
+Content-Type: multipart/mixed; boundary="===============0548555490583410423=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 04 Feb 2025 17:07:28 -0000
-Message-Id: <173868884835.1109933.9652388662180399975@gitolite.kernel.org>
+Date: Tue, 04 Feb 2025 17:07:31 -0000
+Message-Id: <173868885106.1110028.14782467428593428068@gitolite.kernel.org>
 
---===============3715668184474832173==
+--===============0548555490583410423==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 235174b2bed88501fda689c113c55737f99332d8
     new: 4241a702e0d0c2ca9364cfac08dbf134264962de
     log: revlist-235174b2bed8-4241a702e0d0.txt
 
---===============3715668184474832173==
+--===============0548555490583410423==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ c3da585509aeb8476886adf75a266c81a9b0df6c selftests: drv-net: rss_ctx: don't fail
 d3ed6dee73c560fad0a8e152c8e233b3fb3a2e44 net: harmonize tstats and dstats
 4241a702e0d0c2ca9364cfac08dbf134264962de rxrpc: Fix the rxrpc_connection attend queue handling
 
---===============3715668184474832173==--
+--===============0548555490583410423==--
