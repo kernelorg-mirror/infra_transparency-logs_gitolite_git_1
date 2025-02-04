@@ -1,27 +1,30 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djiang/linux
-Date: Tue, 04 Feb 2025 01:14:11 -0000
-Message-Id: <173863165105.336424.4050977587102459820@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Tue, 04 Feb 2025 01:24:37 -0000
+Message-Id: <173863227787.345083.11688336904076117121@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djiang/linux
-user: djiang
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/cxl/fwctl
-    old: 9e35c43e9702c620a902205ba1f8417bc7a7fb58
-    new: 1fea3cf7fe40a5f545c938e1ad240377c50cbc52
+  - ref: refs/heads/main
+    old: 706913b9adf06cfef60f317fe261f5192474d45d
+    new: 48a62436540224f57013c27519dd2aa3ddd714c9
     log: |
-         75b9b765dcba52cf7b59fd69f0be67d0a1181ceb cxl: Add FWCTL support to the CXL memdev driver
-         7a51944ea6a218810799d6fa28bc79cc67e1ca13 cxl: Add support for FWCTL get driver information callback
-         a165b383a5ed80292ba880ea86910e4a15731800 cxl: Move cxl feature command structs to user header
-         bb172092d739f5a55d469d447247ab82f1bb97bb cxl: Add support for fwctl RPC command to enable CXL feature commands
-         1cada604819d652dc48c39c4b1fff15d8feb5d55 cxl: Add support to handle user feature commands for get feature
-         99919f9ce26879c943db8fbf9c71ba2496288837 cxl: Add support to handle user feature commands for set feature
-         4eb2e4cfa94d930d612a87a065275808697a5421 cxl/test: Add Get Feature support to cxl_test
-         088bce5e829e9ccc8a8c03e2342febb6cb7a2cd1 cxl/test: Add Set Feature support to cxl_test
-         1fea3cf7fe40a5f545c938e1ad240377c50cbc52 fwctl/cxl: Add documentation to FWCTL CXL
+         ba42b22aa336c3ea0bd6f9c606f70a35a278bd61 wifi: ath12k: Dump PDEV transmit rate HTT stats
+         a24cd7583003824f8bd0034c02987e5da26088f6 wifi: ath12k: Dump PDEV receive rate HTT stats
+         7a3e8eec8d183d7b293bfb69caab9f213e0a6bbd wifi: ath12k: Dump additional PDEV receive rate HTT stats
+         f0c3bb78e42f2f67403b2314486e42f40737b15c wifi: ath12k: Add Support to Parse TPC Event from Firmware
+         f5c90ff80b4c0326e5fd1feecafd88718075b1b7 wifi: ath12k: Add Support to Calculate and Display TPC Values
+         e5759a97bc24b6f845c13934a0cb51efa4c9522f Merge branch 'ath-next'
+         0cc2598de8d4641c6ca3efc352a408da60579837 Merge branch 'ath-current'
+         eca0cabeb72cd3541f2dc47b5c52bd23bfe9d6fb Merge remote-tracking branch 'mhi/mhi-next'
+         48a62436540224f57013c27519dd2aa3ddd714c9 Add localversion-wireless-testing-ath
          
+  - ref: refs/tags/ath-202502040117
+    old: 0000000000000000000000000000000000000000
+    new: 48a62436540224f57013c27519dd2aa3ddd714c9
