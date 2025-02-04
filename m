@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0548555490583410423=="
+Content-Type: multipart/mixed; boundary="===============8545627661804248451=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 04 Feb 2025 17:07:31 -0000
-Message-Id: <173868885106.1110028.14782467428593428068@gitolite.kernel.org>
+Date: Tue, 04 Feb 2025 17:07:34 -0000
+Message-Id: <173868885441.1110228.15400295557596782928@gitolite.kernel.org>
 
---===============0548555490583410423==
+--===============8545627661804248451==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,24 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
-    old: 235174b2bed88501fda689c113c55737f99332d8
+  - ref: refs/heads/100GbE
+    old: 468a1952df78f65c5991b7ac885c8b5b7dd87bab
     new: 4241a702e0d0c2ca9364cfac08dbf134264962de
-    log: revlist-235174b2bed8-4241a702e0d0.txt
+    log: revlist-468a1952df78-4241a702e0d0.txt
 
---===============0548555490583410423==
+--===============8545627661804248451==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-235174b2bed8-4241a702e0d0.txt
+Content-Disposition: attachment; filename=revlist-468a1952df78-4241a702e0d0.txt
 
-743bbd93cf29f653fae0e1416a31f03231689911 ice: put Rx buffers after being done with current frame
-11c4aa074d547d825b19cd8d9f288254d89d805c ice: gather page_count()'s of each frag right before XDP prog call
-468a1952df78f65c5991b7ac885c8b5b7dd87bab ice: stop storing XDP verdict within ice_rx_buf
+46ded709232344b5750a852747a8881763c721ab net: bcmgenet: Correct overlaying of PHY and MAC Wake-on-LAN
+c71a192976ded2f2f416d03c4f595cdd4478b825 net: ipv6: fix dst refleaks in rpl, seg6 and ioam6 lwtunnels
+92191dd1073088753821b862b791dcc83e558e07 net: ipv6: fix dst ref loops in rpl, seg6 and ioam6 lwtunnels
+a8aa6a6ddce9b5585f2b74f27f3feea1427fb4e7 ice: Add check for devm_kzalloc()
+3f1baa91a1fdf3de9dbad4bd615b35fab347874b vmxnet3: Fix tx queue race condition with XDP
+e0efe83ed325277bb70f9435d4d9fc70bebdcca8 tg3: Disable tg3 PCIe AER on system reboot
+235174b2bed88501fda689c113c55737f99332d8 udp: gso: do not drop small packets when PMTU reduces
 88be092224d51f6ca7b369a8e5d29cfee8754a32 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 3a4e7193ec37ee2476ce726589de4495a066b565 MAINTAINERS: list openvswitch docs under its entry
 4d896b35394144c246daaeb5280a015a630958e7 MAINTAINERS: add Kuniyuki Iwashima to TCP reviewers
@@ -43,4 +47,4 @@ c3da585509aeb8476886adf75a266c81a9b0df6c selftests: drv-net: rss_ctx: don't fail
 d3ed6dee73c560fad0a8e152c8e233b3fb3a2e44 net: harmonize tstats and dstats
 4241a702e0d0c2ca9364cfac08dbf134264962de rxrpc: Fix the rxrpc_connection attend queue handling
 
---===============0548555490583410423==--
+--===============8545627661804248451==--
