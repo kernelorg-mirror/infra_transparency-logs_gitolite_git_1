@@ -1,46 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============1206325397065214317=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Tue, 04 Feb 2025 21:52:54 -0000
-Message-Id: <173870597485.1350384.6569476710797705286@gitolite.kernel.org>
-
---===============1206325397065214317==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 04 Feb 2025 22:10:38 -0000
+Message-Id: <173870703810.1365733.7356113874709912512@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: f0f058accb3d2b1d725683333fba46b0feb3e05c
-    new: 8438e306d91aca00bdc6dfedc182627281a2910a
+  - ref: refs/heads/main
+    old: c2933b2befe25309f4c5cfbea0ca80909735fd76
+    new: 626b36727609e453fb3c9fd172e44cb67f39279e
     log: |
-         8438e306d91aca00bdc6dfedc182627281a2910a Don't invoke mailmap by default when sending patches
+         546d98393abcf2f841e61163d95ed21fde346cc1 bonding: delete always true device check
+         a064068bb6be51ed54f435fe7314c057f9eeb020 neighbour: remove neigh_parms_destroy()
+         ac335826115dbbe10e536f43cf6090957c21bdc8 dt-bindings: net: faraday,ftgmac100: Add phys mode
+         185b1d53ea544a348dca679daefa4abd54d1322b net: qed: fix typos
+         2cf424f5ac01682c93e3decfddee6282b7552f50 mlx4: Remove unused functions
+         15c51f17bdc46418b2e1b2b7a21a9a3036da6bae net/mlx5: Remove unused mlx5dr_domain_sync
+         626b36727609e453fb3c9fd172e44cb67f39279e mlxsw: spectrum_router: Remove unused functions
          
-
---===============1206325397065214317==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1738706004 -0500
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1738705974-106ed203eea603b1575376577a01e102ca4b1720
-
-f0f058accb3d2b1d725683333fba46b0feb3e05c 8438e306d91aca00bdc6dfedc182627281a2910a refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZ6KMVAAKCRC2xBzjVmSZ
-bO8jAQCMhGdpdkRwcllY0KHcKKcRYXStSb2y5AXQVNWWiRrlrgEA5R8S/N9udTsZ
-X/GW/Jk6rr1Rw7eXnWkn1RaeOu9T6AM=
-=hzf6
------END PGP SIGNATURE-----
-
---===============1206325397065214317==--
