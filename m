@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5321703336933007211=="
+Content-Type: multipart/mixed; boundary="===============4976522839373318812=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Tue, 04 Feb 2025 20:31:10 -0000
-Message-Id: <173870107046.1285091.7659389410941443025@gitolite.kernel.org>
+Date: Tue, 04 Feb 2025 20:31:47 -0000
+Message-Id: <173870110721.1285587.13822085841049906383@gitolite.kernel.org>
 
---===============5321703336933007211==
+--===============4976522839373318812==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/conor/linux
 user: conor
 changes:
-  - ref: refs/heads/riscv-dt-fixes
-    old: 8d19d5a76bf661bc5e0a09565834443eee99e60e
-    new: 1b133129ad6b28186214259af3bd5fc651a85509
-    log: revlist-8d19d5a76bf6-1b133129ad6b.txt
+  - ref: refs/heads/riscv-soc-for-next
+    old: a5362510bafcb3318cb8a5b49caca8f5093d4d85
+    new: 2014c95afecee3e76ca4a56956a936e23283f05b
+    log: revlist-a5362510bafc-2014c95afece.txt
 
---===============5321703336933007211==
+--===============4976522839373318812==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-8d19d5a76bf6-1b133129ad6b.txt
+Content-Disposition: attachment; filename=revlist-a5362510bafc-2014c95afece.txt
 
+668135b9348c53fd205f5e07d11e82b10f31b55b NFSv4.2: mark OFFLOAD_CANCEL MOVEABLE
 0b96c75d86560c077d29ce629e9d1ca0258c9cc1 NFSv4.2: make LAYOUTSTATS and LAYOUTERROR MOVEABLE
 a3282f84b2151d254dc4abf24d1255c6382be774 PCI: switchtec: Add Microchip PCI100X device IDs
 13b6931c44969ff057ad2a3aa1c20a1b28b79b6f Merge tag 'x86_sev_for_v6.14_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1049,6 +1050,5 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 5d82ca7b5019d880a579831278eb73cbbfdb87da Merge tag 'sh-for-v6.14-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
-1b133129ad6b28186214259af3bd5fc651a85509 riscv: dts: starfive: Fix a typo in StarFive JH7110 pin function definitions
 
---===============5321703336933007211==--
+--===============4976522839373318812==--
