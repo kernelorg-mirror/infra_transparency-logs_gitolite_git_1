@@ -1,47 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============4700956899604310820=="
+Content-Type: multipart/mixed; boundary="===============2758048246532385086=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
-Date: Tue, 04 Feb 2025 16:56:22 -0000
-Message-Id: <173868818299.1101117.3602556120134905040@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Tue, 04 Feb 2025 17:02:17 -0000
+Message-Id: <173868853751.1105652.9411137951545796359@gitolite.kernel.org>
 
---===============4700956899604310820==
+--===============2758048246532385086==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/linux
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/slub-percpu-sheaves-v1r6
-    old: 0000000000000000000000000000000000000000
-    new: 6b4a79e19a8e4fec1425033198fc72e7c5c84cd4
+  - ref: refs/heads/pmu_bus
+    old: 129a65f6f5464138d77b6e7a3e02a69f318a4710
+    new: 613928816b034ea697acd2019e7d1f0fe9ffe9b6
+    log: |
+         068d153e598c1591bd4bf10bd5ed2eec41aa2ba7 perf: fix up some comments and code to properly use the event_source bus
+         613928816b034ea697acd2019e7d1f0fe9ffe9b6 perf/core: move all of the pmu devices into their own location
+         
 
---===============4700956899604310820==
+--===============2758048246532385086==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1738688206 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
-nonce 1738688175-10fb664e4e56a049e8a05a9b720cf15b88b2639a
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1738688562 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1738688531-a8e5ed2b1e8ab9e330ca7c7dfe836a297c3e8178
 
-0000000000000000000000000000000000000000 6b4a79e19a8e4fec1425033198fc72e7c5c84cd4 refs/heads/slub-percpu-sheaves-v1r6
+129a65f6f5464138d77b6e7a3e02a69f318a4710 613928816b034ea697acd2019e7d1f0fe9ffe9b6 refs/heads/pmu_bus
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmeiRs4ACgkQu+CwddJF
-iJq+Hwf+POYigGc+5+GaYrZCAxIrIPUyNW0AkJ92ulB5SzCuV4xf2fP2PzAxgzd7
-ytgGp17MjlF/CFczioqeEbjS9EwuMtmA5WzSgshGl+VbwM698tXzg6/DRxdfwp8k
-DsEpmyYUxUy0OGU56M5wYn3xAF99dusxfBjNlU0HjmPWn9fapgzx/wHFi9qgmzym
-/ZhNoeTu1cy7SVDoF5xsS9gRA7IyxuRQr1D72FCw9zk/F3KyBdbsBZzwc+gCa4j8
-RhTbsa5vFjpHguT0shDTl+cECpYdLU26WCV4Hge6ADOefak+w8uwWt42Dm/gGw1X
-4HBv/lGZO+izGWyL5qBVC528bu8JWA==
-=XqP/
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeiSDIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cfQP/RPVUDAt92p7fl0TmkKL
+xMRjQFx6Vuybh848MpCKUj8cNG9N2dBJ+An5rckc+oluveIWtdteujIBEDp59Jiy
+5C5nioJryL0HysXsTFqeEHYcjvMXXRqEspL50+lP6Tq/oWxnTxq+Y/wjSAnbMK27
+sTCQxCA79rYtX3we1qLeWD0aTVVT1bAo1l3Vsue7x0YtR0LoOq7mWTz43Uw6JIsV
+ZlTx8I6PC8u3ukHLRdM7IL/Jhm7g2ghbNXOcOzjz9pfP01HR+cxwdGFsfDDC0FBX
+t4jfGypLDEPRYOQNtxq6/zdhU1BHXqCcyKq0Bvy2XHWNJxUcHQQ7L3VsORoJ9th4
+6i1jrBtJrXcm0O0ypubeh+b0J8AoTveGqAp+Od6HUV/6wt4iSO/SswAYtW1QXnCN
+Vt6llRAeE8PNnTLWAfhlMeNVoFawhbpXYgvISevj8P8JR/FFCgvz8T13/oDKwSsc
+LbRipmUa7syOxxnmCeTpWZ2G/iNg6v63ILWIn1zJh6IJeHN3WhASJZdeDTdkJ8Fi
+1rH69VgkTDCAWNz6rtS1VwVZh+Hoaj17OQGTUi4my7XccTq+K+Si/rXBSk46vmPB
+aSkYSgconNrhRRIAfdZhFLZZmP8lg/L9afO36mNKXdPnxEN2aqKYDUMQDLtvU1ee
+yevSpfPheV7l4rkRM+Aoh3lM
+=jyLx
 -----END PGP SIGNATURE-----
 
---===============4700956899604310820==--
+--===============2758048246532385086==--
