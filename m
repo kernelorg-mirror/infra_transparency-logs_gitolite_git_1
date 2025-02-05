@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 05 Feb 2025 23:30:12 -0000
-Message-Id: <173879821249.2617001.15828154390366019915@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Wed, 05 Feb 2025 23:36:15 -0000
+Message-Id: <173879857542.2621399.10046893366230481046@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/for-next
-    old: 9ca2c29a0f6af9582b4fd56b3d04295ba07d89e0
-    new: 2377f68a14cbc4a116a273eac1e377e3bf673bae
+  - ref: refs/heads/for-linus
+    old: 9e2211c9425fc8f987b36f0d6505e9af1bce9c74
+    new: d8713e14d88c26eabbcbd1e5b9ffbb073187d1ed
     log: |
-         215705db51eb23052c73126d2efb6acbc2db0424 spi: Replace custom fsleep() implementation
-         2377f68a14cbc4a116a273eac1e377e3bf673bae Merge remote-tracking branch 'spi/for-6.15' into spi-next
+         c312f005dedc59367b09ca978d70b32971de2628 PCI/ASPM: Fix L1SS saving
+         d8713e14d88c26eabbcbd1e5b9ffbb073187d1ed PCI/TPH: Restore TPH Requester Enable correctly
          
