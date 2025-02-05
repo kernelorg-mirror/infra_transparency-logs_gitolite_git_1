@@ -1,57 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============8080750846469548582=="
+Content-Type: multipart/mixed; boundary="===============8708143274475857168=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 05 Feb 2025 12:43:24 -0000
-Message-Id: <173875940452.2077990.14715156500462100436@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 05 Feb 2025 12:43:32 -0000
+Message-Id: <173875941264.2078235.9343674915209111772@gitolite.kernel.org>
 
---===============8080750846469548582==
+--===============8708143274475857168==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.14
-    old: 4fd2707e3e71bfd5d4df4f4c9656a009f09dfc7e
-    new: aff2355d260e47e780cd96af127beaab18a664b1
+  - ref: refs/heads/for-linus
+    old: 6b24e67b4056ba83b1e95e005b7e50fdb1cc6cf4
+    new: 98fcb50a98424efb9176d075c71e5af48b6104dd
     log: |
-         aff2355d260e47e780cd96af127beaab18a664b1 spi: pxa2xx: Fix regression when toggling chip select on LPSS devices
+         3588b76db7ba798f54dee39a55708b16e1c61de4 ASoC: Intel: soc-acpi-intel-tgl-match: declare adr as ull
+         20efccc53abf99fa52ea30a43dec758f6b6b9940 ASoC: Intel: soc-acpi-intel-mtl-match: declare adr as ull
+         98fcb50a98424efb9176d075c71e5af48b6104dd ASoC: Intel: soc-acpi-intel-tgl/mtl-match: declare adr
          
-  - ref: refs/heads/spi-6.15
-    old: 26a756fc10fac6f133ef47f12362a39769dfe24d
-    new: 652ffad172d089acb1a20e5fde1b66e687832b06
-    log: |
-         652ffad172d089acb1a20e5fde1b66e687832b06 spi: fsi: Batch TX operations
-         
+  - ref: refs/heads/for-next
+    old: 6b24e67b4056ba83b1e95e005b7e50fdb1cc6cf4
+    new: 29e271a205c89085f215511aad7c8fea846a1f7a
+    log: revlist-6b24e67b4056-29e271a205c8.txt
 
---===============8080750846469548582==
+--===============8708143274475857168==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-6b24e67b4056-29e271a205c8.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1738759433 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1738759402-849240ca9159f6abefa578a17942f9290e2ed1e3
+c9e9aa80022c6db71bc097a621a6145f39aa0ade ASoC: mediatek: Remove unused mtk_memif_set_rate
+f9a5c4b6afc79073491acdab7f1e943ee3a19fbb ASoC: rt722-sdca: Add some missing readable registers
+299ce4beaf714abe76e3ad106f2e745748f693e9 ASoC: rt722-sdca: Make use of new expanded MBQ regmap
+4a91fe4c0d683c56044579fb263c660f5d18efac ASoC: tegra: Add interconnect support
+a05143a8f713d9ae6abc41141dac52c66fca8b06 ASoC: SOF: topology: Use krealloc_array() to replace krealloc()
+fb6ec1d27608c008bfe1ab0dfec3720990eb2451 ASoC: mediatek: mt6358: Remove unused functions
+1a4a5a752fcd60797ed2cb7c06253c6433d13f63 ASoC: soc-ops: remove soc-dpcm.h
+6eab7034579917f207ca6d8e3f4e11e85e0ab7d5 ASoC: soc-core: Stop using of_property_read_bool() for non-boolean properties
+3588b76db7ba798f54dee39a55708b16e1c61de4 ASoC: Intel: soc-acpi-intel-tgl-match: declare adr as ull
+20efccc53abf99fa52ea30a43dec758f6b6b9940 ASoC: Intel: soc-acpi-intel-mtl-match: declare adr as ull
+98fcb50a98424efb9176d075c71e5af48b6104dd ASoC: Intel: soc-acpi-intel-tgl/mtl-match: declare adr
+29e271a205c89085f215511aad7c8fea846a1f7a Merge remote-tracking branch 'asoc/for-6.15' into asoc-next
 
-4fd2707e3e71bfd5d4df4f4c9656a009f09dfc7e aff2355d260e47e780cd96af127beaab18a664b1 refs/heads/spi-6.14
-26a756fc10fac6f133ef47f12362a39769dfe24d 652ffad172d089acb1a20e5fde1b66e687832b06 refs/heads/spi-6.15
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmejXQkACgkQJNaLcl1U
-h9ASNAf/dCocAEVIZmmgsEtn9aEZxMXIyAT9W7fU4L2hd0s/8i4JUj/pRWS3A60d
-PHMW8bE0UbGMtHFDEH5QmK56x4o+QISbYqAm0cVjVRGawjkkHRgv+/3oBl4Zj4x+
-54qXGoKBMXlLjLXTg5ZiHw5BPZdUR1B9fvRM1yVaNbo9xGLip7M93S6kP+xHdIby
-yT2rztiwwtLz4vJJ9zz957odecVDAReRRJoz7J2ZcZHu0rj2Jo0L5PlMG9d3WHZB
-zNfrMlBUX3YPCwN7i6I6jIStGK86pUSaqwRMXn0QsBE1kcotTvn9ELAVI2o7pJCm
-xrBd5kVP2B67kXWkF3fcAB0zBFUrvw==
-=6cvl
------END PGP SIGNATURE-----
-
---===============8080750846469548582==--
+--===============8708143274475857168==--
