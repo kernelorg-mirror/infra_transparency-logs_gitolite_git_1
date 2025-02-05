@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7571620730917865793=="
+Content-Type: multipart/mixed; boundary="===============1478859702231954092=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Wed, 05 Feb 2025 08:15:11 -0000
-Message-Id: <173874331130.1853567.1356869441175884732@gitolite.kernel.org>
+Date: Wed, 05 Feb 2025 08:15:53 -0000
+Message-Id: <173874335338.1854040.11404436971832489470@gitolite.kernel.org>
 
---===============7571620730917865793==
+--===============1478859702231954092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 6c9b7db96db62ee9ad8d359d90ff468d462518c4
     new: a1300691aed9ee852b0a9192e29e2bdc2411a7e6
     log: revlist-6c9b7db96db6-a1300691aed9.txt
 
---===============7571620730917865793==
+--===============1478859702231954092==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ d3ed6dee73c560fad0a8e152c8e233b3fb3a2e44 net: harmonize tstats and dstats
 028676bb189ed6d1b550a0fc570a9d695b6acfd3 net: atlantic: fix warning during hot unplug
 a1300691aed9ee852b0a9192e29e2bdc2411a7e6 net: rose: lock the socket in rose_bind()
 
---===============7571620730917865793==--
+--===============1478859702231954092==--
