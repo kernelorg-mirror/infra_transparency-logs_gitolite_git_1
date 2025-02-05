@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6073191739885522562=="
+Content-Type: multipart/mixed; boundary="===============6031755054610687673=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Wed, 05 Feb 2025 04:20:37 -0000
-Message-Id: <173872923703.1666057.7063413506382592627@gitolite.kernel.org>
+Date: Wed, 05 Feb 2025 04:21:05 -0000
+Message-Id: <173872926582.1666310.1534209768104649528@gitolite.kernel.org>
 
---===============6073191739885522562==
+--===============6031755054610687673==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wbg/counter
 user: wbg
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/counter-current
     old: fac04efc5c793dccbd07e2d59af9f90b7fc0dca4
     new: 2014c95afecee3e76ca4a56956a936e23283f05b
     log: revlist-fac04efc5c79-2014c95afece.txt
 
---===============6073191739885522562==
+--===============6031755054610687673==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
 
---===============6073191739885522562==--
+--===============6031755054610687673==--
