@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8370564605003408953=="
+Content-Type: multipart/mixed; boundary="===============7990750986780612148=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Wed, 05 Feb 2025 16:06:38 -0000
-Message-Id: <173877159876.2251454.1623452469801377488@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Wed, 05 Feb 2025 16:06:40 -0000
+Message-Id: <173877160059.2251587.6875402990467161187@gitolite.kernel.org>
 
---===============8370564605003408953==
+--===============7990750986780612148==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
+repo: pub/scm/linux/kernel/git/amlogic/linux
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 379487e17ca406b47392e7ab6cf35d1c3bacb371
 
---===============8370564605003408953==
+--===============7990750986780612148==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1054,4 +1054,4 @@ f5a2601378af1ea1e2a51d613e49e629159dc956 Merge tag 'platform-drivers-x86-v6.14-2
 d009de7d54281f5c23d7d82ec5e6e2d54609791a Merge tag 'livepatching-for-6.14-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/livepatching/livepatching
 5c8c229261f14159b54b9a32f12e5fa89d88b905 Merge tag 'kthreads-fixes-2025-02-04' of git://git.kernel.org/pub/scm/linux/kernel/git/frederic/linux-dynticks
 
---===============8370564605003408953==--
+--===============7990750986780612148==--
