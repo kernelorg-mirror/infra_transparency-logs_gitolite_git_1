@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Wed, 05 Feb 2025 13:57:47 -0000
-Message-Id: <173876386712.2144881.12402744927609363641@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 05 Feb 2025 14:06:31 -0000
+Message-Id: <173876439173.2152234.16205402062600006964@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/for-6.14-rc1-tag
+  - ref: refs/heads/v2_20250205_peter_ujfalusi_asoc_sof_correct_sps_stream_and_cstream_nullity_management
     old: 0000000000000000000000000000000000000000
-    new: 38b14349d3a88ab0c32bdde79e9a6551654a5f7c
+    new: 46c7b901e2a03536df5a3cb40b3b26e2be505df6
