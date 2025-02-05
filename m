@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2652369331567396896=="
+Content-Type: multipart/mixed; boundary="===============6029731651760847788=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/fscrypt/linux
-Date: Wed, 05 Feb 2025 03:57:24 -0000
-Message-Id: <173872784424.1646188.5566169462876766274@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/fsverity/linux
+Date: Wed, 05 Feb 2025 03:57:28 -0000
+Message-Id: <173872784865.1646352.17825386945330379281@gitolite.kernel.org>
 
---===============2652369331567396896==
+--===============6029731651760847788==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/fscrypt/linux
+repo: pub/scm/fs/fsverity/linux
 user: ebiggers
 changes:
   - ref: refs/heads/for-current
@@ -20,7 +20,7 @@ changes:
     new: 2014c95afecee3e76ca4a56956a936e23283f05b
     log: revlist-8e929cb546ee-2014c95afece.txt
 
---===============2652369331567396896==
+--===============6029731651760847788==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
 
---===============2652369331567396896==--
+--===============6029731651760847788==--
