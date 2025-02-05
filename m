@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4551699996531331959=="
+Content-Type: multipart/mixed; boundary="===============8223693351149439204=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Wed, 05 Feb 2025 03:51:03 -0000
-Message-Id: <173872746355.1641376.11872171577519375598@gitolite.kernel.org>
+Date: Wed, 05 Feb 2025 03:56:50 -0000
+Message-Id: <173872781077.1645742.3947292211148035414@gitolite.kernel.org>
 
---===============4551699996531331959==
+--===============8223693351149439204==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ebiggers/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/crypto-pending
-    old: 415337249be07fba386916b566ba1677f3f8e642
-    new: 0a0eade39f50f4f728f4d76f14f10cc8142c3c18
-    log: revlist-415337249be0-0a0eade39f50.txt
+  - ref: refs/heads/master
+    old: 805ba04cb7ccfc7d72e834ebd796e043142156ba
+    new: 2014c95afecee3e76ca4a56956a936e23283f05b
+    log: revlist-805ba04cb7cc-2014c95afece.txt
 
---===============4551699996531331959==
+--===============8223693351149439204==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-415337249be0-0a0eade39f50.txt
+Content-Disposition: attachment; filename=revlist-805ba04cb7cc-2014c95afece.txt
 
+1737aaefa33555b38d3fe11191490df9e9df81cd staging: gpib: tnt4882: Handle gpib_register_driver() errors
+0f9e1f3a6e1e873bc70c7a47870a18c05647360e kernel/ksysfs.c: simplify bin_attribute definition
+7c9bf0305662da44676e5a75d1941cecd0dd73be MAINTAINERS: add include/linux/sysfs.h
 92d6254f58120011c93610b4cb7def214409731d sysfs: constify macro BIN_ATTRIBUTE_GROUPS()
 35478bc369a67b703a079ee123c6e58290114aae USB: serial: ch341: add hardware flow control RTS/CTS
 e8440c1e2d23a9ca5e0af1a18be637cbd5a5d44f Documentation: Update the behaviour of "kvm-arm.mode"
@@ -1047,8 +1050,5 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 5d82ca7b5019d880a579831278eb73cbbfdb87da Merge tag 'sh-for-v6.14-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
-07daaffdb4a7851da3a083a506f5e7d72ddc9e8e crypto: x86/aes-xts - make the fast path 64-bit specific
-1b3b67e86b3bcf727129172713f4f70d0de8023b crypto: x86/aes-ctr - rewrite AES-NI optimized CTR and add VAES support
-0a0eade39f50f4f728f4d76f14f10cc8142c3c18 crypto: x86/aes-ctr - remove non-AVX implementation of AES-CTR
 
---===============4551699996531331959==--
+--===============8223693351149439204==--
