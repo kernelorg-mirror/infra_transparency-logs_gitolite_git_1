@@ -1,57 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============2490157635634912265=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 05 Feb 2025 16:49:18 -0000
-Message-Id: <173877415869.2288318.13228324819333286963@gitolite.kernel.org>
-
---===============2490157635634912265==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 05 Feb 2025 16:49:33 -0000
+Message-Id: <173877417381.2289077.16824469614902567741@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/pmu_bus
-    old: 613928816b034ea697acd2019e7d1f0fe9ffe9b6
-    new: 8c8ac498a0c5d8e68247800639bfb554bb65c782
+  - ref: refs/heads/for-6.15/io_uring
+    old: 24dc28cc3ea4e972b1cd6bd496821d16ac62d033
+    new: 641492f1733609b7abebf74ea9ebba6c29b84e79
     log: |
-         5c96041392688fce835e368214e3e4470f2f3961 perf: fix up some comments and code to properly use the event_source bus
-         8c8ac498a0c5d8e68247800639bfb554bb65c782 perf/core: move all of the pmu devices into their own location
+         95865452e8b06974bb297891acbb7e5a6afc8d4c io_uring/kbuf: remove legacy kbuf bulk allocation
+         6ad0e0db0d81c3e5ddf3b7ce84cb937590f724a3 io_uring/kbuf: remove legacy kbuf kmem cache
+         615da6b1d03b53efea22faaab3f1a3d21888ed72 io_uring/kbuf: move locking into io_kbuf_drop()
+         a6fe909acef9535dc56327b1a872466f080be413 io_uring/kbuf: simplify __io_put_kbuf
+         30205b4708dcd3f2823377ae55afb953a05a2672 io_uring/kbuf: remove legacy kbuf caching
+         ac6757c5a032c800f927cef1245b81a3b4fabbce io_uring/kbuf: open code __io_put_kbuf()
+         3d692b5b37fc755eb35881c0f612ed6f00ac7b11 io_uring/kbuf: introduce io_kbuf_drop_legacy()
+         641492f1733609b7abebf74ea9ebba6c29b84e79 io_uring/kbuf: uninline __io_put_kbufs
          
-
---===============2490157635634912265==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1738774183 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1738774151-a105a7668e6876be731d8a035a761c06c59572a3
-
-613928816b034ea697acd2019e7d1f0fe9ffe9b6 8c8ac498a0c5d8e68247800639bfb554bb65c782 refs/heads/pmu_bus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmejlqgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xZEQAIH6rW2y8DvW0zhcbamW
-2niUAkVC6/UYz+CpOFRx7JV/Ht+FEJZUFF5Uy8tT3h6h+/2+vejJvbCSgLli/59H
-SJsqec55ALRIKeroTgCLrpFDLM+n9GoDHKdbffI7N8knj3aa7kaxRiP+6D6elTm/
-nBQyWZC/2xAuf2H1z6PvvkGSr6GQNeaKYhdSSy6Wrfkhyj5OMx2LxUeeVJTJCtIi
-d5cjNIdpcoSceb5292+ZmYqFJe/HaHMI0JbOK0T1wzGKX8wvsCl6FxKBRnp8MCEf
-G0wtyvH9XBW7NGX42K2CNfN5IB+ZpaPwo+gICkKqxNuXV/elFsPwOH5NlyLQH4As
-YaKcacvZNGPils7lfWIE4z4E5H23Ux4+EHG8+0M3Ua6QapsaHd8ZTol5fpsz4NJE
-ZcKxSk4+FrrwgPR8oP4ZSj+/uz+2O1XcXRstVCc2UvD7dnDvRoUhQd/4zPknEBhD
-Uh8y/wIBT/sDquILeXFAd2PM6XTW33osmDw8tRNK24w+8lCuxRtY3YU+2RNmmbdR
-0K1mhgpI+wz0SzziGuiovCyrvUy5Tf+LBSUZ0Om5qhPS91UNWgIWepcWb+IWj9bx
-MIsK/gmIWL42l57mqnx+w8imImlGwwQadqEW4HjuDnHPEsioqP7eJgrMtM5cjLZT
-nk5OKU9niwtxbnkQR7hefM2h
-=Oexl
------END PGP SIGNATURE-----
-
---===============2490157635634912265==--
+  - ref: refs/heads/for-next
+    old: 948a05092398954350c669d88302b0635ba7f598
+    new: a7901e82d350d6e41bba938b28aeb6da840bb3f9
+    log: |
+         95865452e8b06974bb297891acbb7e5a6afc8d4c io_uring/kbuf: remove legacy kbuf bulk allocation
+         6ad0e0db0d81c3e5ddf3b7ce84cb937590f724a3 io_uring/kbuf: remove legacy kbuf kmem cache
+         615da6b1d03b53efea22faaab3f1a3d21888ed72 io_uring/kbuf: move locking into io_kbuf_drop()
+         a6fe909acef9535dc56327b1a872466f080be413 io_uring/kbuf: simplify __io_put_kbuf
+         30205b4708dcd3f2823377ae55afb953a05a2672 io_uring/kbuf: remove legacy kbuf caching
+         ac6757c5a032c800f927cef1245b81a3b4fabbce io_uring/kbuf: open code __io_put_kbuf()
+         3d692b5b37fc755eb35881c0f612ed6f00ac7b11 io_uring/kbuf: introduce io_kbuf_drop_legacy()
+         641492f1733609b7abebf74ea9ebba6c29b84e79 io_uring/kbuf: uninline __io_put_kbufs
+         a7901e82d350d6e41bba938b28aeb6da840bb3f9 Merge branch 'for-6.15/io_uring' into for-next
+         
