@@ -1,56 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============0245897338111501308=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 05 Feb 2025 12:24:37 -0000
-Message-Id: <173875827705.2059432.17944030307750662319@gitolite.kernel.org>
-
---===============0245897338111501308==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Wed, 05 Feb 2025 12:26:19 -0000
+Message-Id: <173875837977.2061781.5073393301253600269@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/master
-    old: ecb3dda04d4c012bd38b672112bb08376130fd90
-    new: a8e0384c3e8871d0bbec657c257b76b64aa846cd
+  - ref: refs/heads/vfs.all
+    old: 7b56457070ee4a88663784d184e389de4a7071f6
+    new: d740eaae6bc3aa29d1440413f482b153264df85d
     log: |
-         a8e0384c3e8871d0bbec657c257b76b64aa846cd 6.13-stable patches
+         06e2bb73e435bdc8de61780dd1a80e72ab6fea6b pidfs: improve ioctl handling
+         67dd6c7e4a2cc9694a164a6acd7422e794051951 vfs: sanity check the length passed to inode_set_cached_link()
+         668d7dc04d8e28ef6490d213e4bc887c77450781 Merge branch 'vfs.fixes' into vfs.all
+         2ca955f0ec3eff2e6cb101bd0531d9f2a6dfd576 Merge branch 'vfs-6.15.misc' into vfs.all
+         ba595c7f5a2bdda017ad4b5fc851e6779be0e416 Merge branch 'vfs-6.15.mount' into vfs.all
+         d740eaae6bc3aa29d1440413f482b153264df85d Merge branch 'vfs-6.15.pidfs' into vfs.all
          
-
---===============0245897338111501308==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1738758305 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1738758273-519699ff7484626780b89c7857a0326d955d6e19
-
-ecb3dda04d4c012bd38b672112bb08376130fd90 a8e0384c3e8871d0bbec657c257b76b64aa846cd refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmejWKEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+b1kP/1ZnHEUIKw9SAWpAARJv
-fpPG6qyOhUvF70lH4Yr5TgrBLfFxvR6bxA9xFYNi5+QwSf2rckzmlm8uLvN7Be+o
-q6K3bAlsmOWVJdotGprWjCrXEfpOFR01AFIgEZXOEgsTczTPamXaCNnywZOdK1FZ
-EIJwtpSFvnW75YY89dZ3Kb0IMH0xwtB9IA+eSp+0b4tnIVUYJBy8zGvdxeI4whfi
-KF7NS9/MvujHBFbk91fceqB8NHJA6CHCOwX7J+P8P2AzOXNhWDG2ROBU5Sx6dxvM
-xeUQmRswoS+98c2+AmeoMJsk4MPqpwLnjNQAJAprrGC1elg3aI3Ko+siYPUTKKU9
-dulp29EmkquL/aG04X1m3yS9mHgT0+wx4TlxTEzOokVrDeewKAy3x42+rn/qL5jM
-C2qh58ZENRDTQtalrDM9zlMyFMGs12nl8zktCVu9QbmUMpIVbDbbkvcTZV33kEK6
-2bYbDXhZOiXD6MRO/pB4EhcAFmRYqngReYUp/iOAp3ExD563lH4VJC9soQ0hslOV
-s8BEM9uijQaub8EVkbV2teyPWFuuurWBJV24/90mtkLG2qBT4v4ES2Z4E9Mk4zLf
-6BRowGW37pfpQM+YY2wv/7VJBtZ3E4VYC/lxea6bMQ+ran9md+UVrCuwSBBzg5mm
-tvTlKeuAXIzVBMaaUSn6JCMb
-=qorT
------END PGP SIGNATURE-----
-
---===============0245897338111501308==--
+  - ref: refs/heads/vfs.fixes
+    old: c1c84bb08cc712ea65df9f2c077041f6859259c8
+    new: 67dd6c7e4a2cc9694a164a6acd7422e794051951
+    log: |
+         06e2bb73e435bdc8de61780dd1a80e72ab6fea6b pidfs: improve ioctl handling
+         67dd6c7e4a2cc9694a164a6acd7422e794051951 vfs: sanity check the length passed to inode_set_cached_link()
+         
