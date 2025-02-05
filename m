@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
-Date: Wed, 05 Feb 2025 06:06:12 -0000
-Message-Id: <173873557230.1752268.4422771954835394873@gitolite.kernel.org>
+Date: Wed, 05 Feb 2025 06:07:09 -0000
+Message-Id: <173873562948.1752883.6835283181819358445@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rcu/linux
 user: boqun
 changes:
-  - ref: refs/heads/lazypreempt.2025.02.04a
+  - ref: refs/heads/srcu.2025.02.04a
     old: 0000000000000000000000000000000000000000
-    new: 5a850b7d9bd5c917be0a2e90fe0fdd53827cbb57
+    new: 3f3deb5de0d5b93457c54a784f55fa82c0e17148
