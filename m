@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============0788246533989253767=="
+Content-Type: multipart/mixed; boundary="===============8876035581035503677=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 05 Feb 2025 12:43:10 -0000
-Message-Id: <173875939057.2077564.9575993863641708077@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 05 Feb 2025 12:43:14 -0000
+Message-Id: <173875939422.2077664.13312703846775307895@gitolite.kernel.org>
 
---===============0788246533989253767==
+--===============8876035581035503677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.14
+  - ref: refs/heads/asoc-6.14
     old: 6b24e67b4056ba83b1e95e005b7e50fdb1cc6cf4
     new: 98fcb50a98424efb9176d075c71e5af48b6104dd
     log: |
@@ -24,7 +24,7 @@ changes:
          20efccc53abf99fa52ea30a43dec758f6b6b9940 ASoC: Intel: soc-acpi-intel-mtl-match: declare adr as ull
          98fcb50a98424efb9176d075c71e5af48b6104dd ASoC: Intel: soc-acpi-intel-tgl/mtl-match: declare adr
          
-  - ref: refs/heads/for-6.15
+  - ref: refs/heads/asoc-6.15
     old: 2014c95afecee3e76ca4a56956a936e23283f05b
     new: 6eab7034579917f207ca6d8e3f4e11e85e0ab7d5
     log: |
@@ -38,29 +38,29 @@ changes:
          6eab7034579917f207ca6d8e3f4e11e85e0ab7d5 ASoC: soc-core: Stop using of_property_read_bool() for non-boolean properties
          
 
---===============0788246533989253767==
+--===============8876035581035503677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1738759418 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1738759388-def1bba4da55bff96b21867ecb1e50aaf5b2588c
+pusher C3F436CA30F5D8EB 1738759422 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1738759391-bfce88e15ffc8f6af3fbc21fe056baa4994d7c6f
 
-6b24e67b4056ba83b1e95e005b7e50fdb1cc6cf4 98fcb50a98424efb9176d075c71e5af48b6104dd refs/heads/for-6.14
-2014c95afecee3e76ca4a56956a936e23283f05b 6eab7034579917f207ca6d8e3f4e11e85e0ab7d5 refs/heads/for-6.15
+6b24e67b4056ba83b1e95e005b7e50fdb1cc6cf4 98fcb50a98424efb9176d075c71e5af48b6104dd refs/heads/asoc-6.14
+2014c95afecee3e76ca4a56956a936e23283f05b 6eab7034579917f207ca6d8e3f4e11e85e0ab7d5 refs/heads/asoc-6.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmejXPoACgkQJNaLcl1U
-h9Aazwf/cRq2FJbZLNzAQUKsFH6+B4Il2IBaEsEGqSNAUVfzj6D5XWmtx+kzGu7g
-XaDjJvHHJJNjYTMo32yQHXC8DQNCa1dCe+Ra+VpE9PB/40gomrTXTyLmOHNaO48q
-8nIr9Dq7B5jPyH5xIIyzv5lSQoMfmn4oVkRz3MY2OHVwrkPiH4/IJd/lr3gaiH//
-qb9YJKHKqkFo6uaheCGBGu8+H610YX5vd3ioqnleUXOaA0Caovr5S0oSL07rrjrd
-0I1eJbjPlBclZyNQLVOhF0W/EdW5f2TFn01Q4U672xWDjq2Ws9JGHqZh4lUSDCK8
-1NjX80Qu580mZL6NcE/KWRE8BL2S3A==
-=iQdF
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmejXP4ACgkQJNaLcl1U
+h9C/EQf9F55dlOl01YCrq+ktArgLT+OV6MI7PAfhk6NDpUbJm+b60I+1cCMlt9y2
+OD+c+zlaRUja4oAjGdWEZoQ5mnw4TA1WnPl1X0b/pq/YLv7z6jYibsZNw7eJ7swv
+ls86wUv8FiNDLhQC/8jI671Cu54FN8grodjYygLV57TJK25sTvVOpuayWOFVJPSG
+004oiM25vM5eQgfxslnl9VN01u7//vsupSzmXeUVQ5Gue6khpGHsqfwVApCgJTf1
++T3XwueyyOGzsDdPZCIZyXd9XWqi3OodMNf1R6eR1MLtMc833jcDzn/UhMF+vSGw
+pYRaPTXzJLz+XbTIanoBmvMulZPd1g==
+=tPr+
 -----END PGP SIGNATURE-----
 
---===============0788246533989253767==--
+--===============8876035581035503677==--
