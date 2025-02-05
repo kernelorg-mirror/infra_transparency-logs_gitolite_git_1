@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2167189478274527195=="
+Content-Type: multipart/mixed; boundary="===============6317734245988239177=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Wed, 05 Feb 2025 04:21:23 -0000
-Message-Id: <173872928319.1666580.15776168003573182114@gitolite.kernel.org>
+Date: Wed, 05 Feb 2025 04:21:50 -0000
+Message-Id: <173872931062.1667017.12743868913344828787@gitolite.kernel.org>
 
---===============2167189478274527195==
+--===============6317734245988239177==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wbg/counter
 user: wbg
 changes:
-  - ref: refs/heads/counter-fixes
-    old: fac04efc5c793dccbd07e2d59af9f90b7fc0dca4
-    new: 2014c95afecee3e76ca4a56956a936e23283f05b
-    log: revlist-fac04efc5c79-2014c95afece.txt
+  - ref: refs/heads/counter-next
+    old: ceb3075433d94767cef05cbe8e9fc9355d04d945
+    new: c2a756660324fceca26780a50950e6d91dfdc210
+    log: revlist-ceb3075433d9-c2a756660324.txt
 
---===============2167189478274527195==
+--===============6317734245988239177==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-fac04efc5c79-2014c95afece.txt
+Content-Disposition: attachment; filename=revlist-ceb3075433d9-c2a756660324.txt
 
-668135b9348c53fd205f5e07d11e82b10f31b55b NFSv4.2: mark OFFLOAD_CANCEL MOVEABLE
-0b96c75d86560c077d29ce629e9d1ca0258c9cc1 NFSv4.2: make LAYOUTSTATS and LAYOUTERROR MOVEABLE
-a3282f84b2151d254dc4abf24d1255c6382be774 PCI: switchtec: Add Microchip PCI100X device IDs
-13b6931c44969ff057ad2a3aa1c20a1b28b79b6f Merge tag 'x86_sev_for_v6.14_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 e7217011ddd8e86a0d18c6cbfb4f14da3d18eee0 ALSA: usb: fcp: Fix meter_levels type to __le32
 f08cc80f69be62beb7a63cd4813c7989c8708831 ALSA: usb: fcp: Fix incorrect resp->opcode retrieval
 0a8f5f4652ef4d530a7cb8bed2b6e502cdfa825f ALSA: usb: fcp: Fix return code from poll ops
@@ -1050,5 +1046,9 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 5d82ca7b5019d880a579831278eb73cbbfdb87da Merge tag 'sh-for-v6.14-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
+bbb89c177208ad2557cb29ff04d4b13a37b36c23 tools/counter: gitignore counter_watch_events
+a1cd339599a8cff197805c9c71c9cab83cec59c2 counter: add direction change event
+37f7a388b3f1b14eaeb295c2fe554d15e34e8ab9 tools/counter: add direction change event to watcher
+c2a756660324fceca26780a50950e6d91dfdc210 counter: ti-eqep: add direction support
 
---===============2167189478274527195==--
+--===============6317734245988239177==--
