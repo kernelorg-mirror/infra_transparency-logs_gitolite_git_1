@@ -1,31 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 05 Feb 2025 18:49:33 -0000
-Message-Id: <173878137400.2386654.16141958086232629016@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8735118424723547044=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Wed, 05 Feb 2025 18:52:43 -0000
+Message-Id: <173878156380.2390045.12193042110038208320@gitolite.kernel.org>
+
+--===============8735118424723547044==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/io_uring-epoll-wait
-    old: f33de8fdfd4f70085ad038cea486675e9327bf6d
-    new: 844d77f030a98b6f0bb1b7dfdfb2186b48f28272
-    log: |
-         a917237763d71f95538ef7b96bb61fe83550fe71 io_uring/epoll: add support for provided buffers
-         844d77f030a98b6f0bb1b7dfdfb2186b48f28272 io_uring/epoll: add multishot support for IORING_OP_EPOLL_WAIT
-         
   - ref: refs/heads/master
-    old: 5c8c229261f14159b54b9a32f12e5fa89d88b905
-    new: 92514ef226f511f2ca1fb1b8752966097518edc0
+    old: fcf4dd5eec382044bda1c6fb12a2d770ec4a477a
+    new: 93755ba5e5eb0367ae5cc9b2f0c75742033f5340
     log: |
-         a216542027b892e6651c1b4e076012140d04afaf btrfs: fix lockdep splat while merging a relocation root
-         0d85f5c2dd91df6b5da454406756f463ba923b69 btrfs: fix assertion failure when splitting ordered extent after transaction abort
-         c9c863793395cf0a66c2778a29d72c48c02fbb66 btrfs: do not output error message if a qgroup has been already cleaned up
-         e2f0943cf37305dbdeaf9846e3c941451bcdef63 btrfs: fix use-after-free when attempting to join an aborted transaction
-         fdef89ce6fada462aef9cb90a140c93c8c209f0f btrfs: avoid starting new transaction when cleaning qgroup during subvolume drop
-         92514ef226f511f2ca1fb1b8752966097518edc0 Merge tag 'for-6.14-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+         93755ba5e5eb0367ae5cc9b2f0c75742033f5340 reject CVE-2024-41071 based on review.
          
+
+--===============8735118424723547044==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1738781590 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1738781560-94d3d7d8644ab3b968ee457e90fbee95bc322564
+
+fcf4dd5eec382044bda1c6fb12a2d770ec4a477a 93755ba5e5eb0367ae5cc9b2f0c75742033f5340 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmejs5cbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WXQQAJg0gFHuEY3frcpWtk+k
+oG7WnYst4sRU+vScC1CFi8SE//AluQhrsGDZYDQVfKcadcXFVyrdHcsfhq3hGWha
+JZ4AjQLuNkTkyk3Wf/Uq3PBqcopa89ws+oIWrx16ikak0eFtUzgmrMDrCndaKYrs
+i5wI4iA6KEg7V3Y8vqYiM/p285dXKn4SvUiWLi5e/BH7rIX+eccp7Tlt0uE8X1jo
+wePivQq0/ak0TuGDpJyWVNmIndQ+1k27d+ADz4FLrtmphtwPqX9VBTp/m1Uf4mVt
+uumA5cSfjd3EFvneif9dWpbPA9GnDSV77okxImezN05STFeczzmPMDItRA5UH3Yr
+mztOnK6feISg2POdCtd+J7ItggFL73fHADNL9r3ct5eTafOHoUh+ISfkJO9lYKhX
+7di5TBYqi2brU8DG9ygFNdEWl5kFG/9uXD+62qI9QJuctXuB/EYAR/YDh8qRJF+9
+UYbh5bbeKmxMqndemWlwqz4UWb3VZCamqptZUrs7R35VN+CgnHXInzpRjS7Vyrgp
+rhNVQo8V+sKAYxPQwL6mz45Xl/cAVykdIljFVZWJlZLEBGF5hnDCvmmtnvibAmAQ
+LVPJItCHGUAw6FlqJbXHkDYxhoTEpoK1JtwWx3bRyAXWy7MAGCr3OwGS3+mTMVUx
+gInIBC2UqLHZNzg37qBMLMxi
+=3KTY
+-----END PGP SIGNATURE-----
+
+--===============8735118424723547044==--
