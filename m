@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Wed, 05 Feb 2025 21:44:42 -0000
-Message-Id: <173879188228.2529894.2956932878357396229@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Wed, 05 Feb 2025 21:52:36 -0000
+Message-Id: <173879235674.2537873.13896924599803071063@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/main
-    old: bd3f9a6bddd9c43441afa86d3e4ae9b7c09d71d1
-    new: 429bdd620eb1fda8252a441cde1aac455b71ad6b
+  - ref: refs/heads/dev
+    old: 7d8b3679f911b92628c1de3937e909802c0ca6a0
+    new: 1edbc527e3d6610b4781edba8e927ebca102eaf6
     log: |
-         24625a79847a479dc56fa724cc086ded61d1c29f amdgpu: DMCUB update for DCN401
-         429bdd620eb1fda8252a441cde1aac455b71ad6b Merge branch 'amd-staging' into 'main'
+         172b692a79ec5801eab57cb55d2f9c398f244c62 printk: Flush console log from kernel_power_off()
+         d0ab62b1e145292baef31867edd25e20532bcc75 rcutorture: Split out beginning and end from rcu_torture_one_read()
+         1edbc527e3d6610b4781edba8e927ebca102eaf6 fixup! printk: Flush console log from kernel_power_off()
          
