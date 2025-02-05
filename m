@@ -1,45 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============7622842075228785871=="
+Content-Type: multipart/mixed; boundary="===============5289241159247896353=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 05 Feb 2025 04:02:45 -0000
-Message-Id: <173872816520.1650890.3469051205031740490@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 05 Feb 2025 04:02:56 -0000
+Message-Id: <173872817649.1651123.8448757548232367842@gitolite.kernel.org>
 
---===============7622842075228785871==
+--===============5289241159247896353==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 40b8e93e17bff4a4e0cc129e04f9fdf5daa5397e
     new: ed88b8b82c53d73ca0428e31c2eba3984e32140d
     log: revlist-40b8e93e17bf-ed88b8b82c53.txt
-  - ref: refs/heads/stable
-    old: 0de63bb7d91975e73338300a57c54b93d3cc151c
-    new: 5c8c229261f14159b54b9a32f12e5fa89d88b905
-    log: |
-         28aecef5b1015bf6023ddc12b1a67f6678271fcb selftests: livepatch: handle PRINTK_CALLER in check_result()
-         e4d4648eac8b4ef39f412d07715eb26f1ccd7342 platform/x86: ideapad-laptop: pass a correct pointer to the driver data
-         583ef25bb2a094813351a727ddec38b35a15b9f8 platform/x86/intel: pmc: fix ltr decode in pmc_core_ltr_show()
-         1b0332a42656b798bea867631d739de023633ec6 kthread: Fix return value on kzalloc() failure in kthread_affine_preferred()
-         a787ab73e2e43c0a3df10bc8d9b9b7a679129d49 platform/x86/intel/ifs: Update documentation with image download path
-         f5a2601378af1ea1e2a51d613e49e629159dc956 Merge tag 'platform-drivers-x86-v6.14-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-         d009de7d54281f5c23d7d82ec5e6e2d54609791a Merge tag 'livepatching-for-6.14-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/livepatching/livepatching
-         5c8c229261f14159b54b9a32f12e5fa89d88b905 Merge tag 'kthreads-fixes-2025-02-04' of git://git.kernel.org/pub/scm/linux/kernel/git/frederic/linux-dynticks
-         
-  - ref: refs/tags/next-20241105
-    old: 7c2269a319b96fe27ff9441ce821ab211b473879
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20250205
     old: 0000000000000000000000000000000000000000
     new: ef99445c36f5861fe4e1f04167def1f5234a78ab
 
---===============7622842075228785871==
+--===============5289241159247896353==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -490,4 +474,4 @@ b99db32cd991b781145ce6232498682b3f09b86a Merge branch 'for-next/execve' of git:/
 fce5982f9b25c38a83674b9f7886731352d8c8c2 Merge branch 'crc-next' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux.git
 ed88b8b82c53d73ca0428e31c2eba3984e32140d Add linux-next specific files for 20250205
 
---===============7622842075228785871==--
+--===============5289241159247896353==--
