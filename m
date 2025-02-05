@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 05 Feb 2025 19:00:55 -0000
-Message-Id: <173878205519.2397858.9486100838958896736@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Wed, 05 Feb 2025 19:10:44 -0000
+Message-Id: <173878264440.2405798.13928410239961532581@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: daveh
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/x86/cpu
-    old: 1e66d6cf888fd206a89b8c476b1b28b63faf7fd6
-    new: 96040f7273e2bc0be1871ad9ed4da7b504da9410
+  - ref: refs/heads/dev-queue
+    old: e60440b10420f91c9135df66ba2033324a7f3ff7
+    new: 70bdf16570c2c207a562e996833ff196a4bd7029
     log: |
-         a7dd183f0b3848c056bbeed78ef5d5c52fe94d83 x86/smp: Allow calling mwait_play_dead with an arbitrary hint
-         541ddf31e30022b8e6f44b3a943964e8f0989d15 ACPI/processor_idle: Add FFH state handling
-         fc4ca9537bc4e3141ba7e058700369ea242703df intel_idle: Provide the default enter_dead() handler
-         96040f7273e2bc0be1871ad9ed4da7b504da9410 x86/smp: Eliminate mwait_play_dead_cpuid_hint()
+         70bdf16570c2c207a562e996833ff196a4bd7029 ixgbe: Fix possible skb NULL pointer dereference
          
