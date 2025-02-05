@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7932931791005045922=="
+Content-Type: multipart/mixed; boundary="===============7907654942402387931=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Wed, 05 Feb 2025 08:12:16 -0000
-Message-Id: <173874313678.1850104.3320755239581722989@gitolite.kernel.org>
+Date: Wed, 05 Feb 2025 08:12:54 -0000
+Message-Id: <173874317482.1850516.11875722643517748466@gitolite.kernel.org>
 
---===============7932931791005045922==
+--===============7907654942402387931==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 7082a6dc84ebba9dbdf65727b5bc4af92a2d31d3
     new: 135c3c86a7cef4ba3d368da15b16c275b74582d3
     log: revlist-7082a6dc84eb-135c3c86a7ce.txt
 
---===============7932931791005045922==
+--===============7907654942402387931==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ d5fdfe480c7926960cb926964546c8704fe09626 netconsole: selftest: Add test for frag
 51773846fab24a353bed4ebb660997ced4bc32d7 net: phy: realtek: make HWMON support a user-visible Kconfig symbol
 135c3c86a7cef4ba3d368da15b16c275b74582d3 r8169: make Kconfig option for LED support user-visible
 
---===============7932931791005045922==--
+--===============7907654942402387931==--
