@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1634177302038528600=="
+Content-Type: multipart/mixed; boundary="===============8342826774621057648=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Wed, 05 Feb 2025 10:01:38 -0000
-Message-Id: <173874969865.1941794.12971420721351608027@gitolite.kernel.org>
+Date: Wed, 05 Feb 2025 10:07:55 -0000
+Message-Id: <173875007503.1946424.3593986632568547871@gitolite.kernel.org>
 
---===============1634177302038528600==
+--===============8342826774621057648==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,37 +16,61 @@ repo: pub/scm/linux/kernel/git/vfs/vfs
 user: brauner
 changes:
   - ref: refs/heads/vfs-6.15.misc
-    old: 2f4cccd32a0d518d2a38bffa301598bd30d8d71b
-    new: af869049f65fdc7d8680064fdea1a17b6afa53f8
-    log: |
-         dbdd2935ed48de0de19b2c9ca1b785b69bd7c2e8 fs: avoid mmap sem relocks when coredumping with many missing pages
-         40a46ea6a77446cd7ce7cebe07c5cce57bc8a0db open: Fix return type of several functions from long to int
-         827ac0cd8dd47b380e54d0875b3f108359f03a49 ioctl: Fix return type of several functions from long to int
-         af869049f65fdc7d8680064fdea1a17b6afa53f8 Merge patch series "Fix the return type of several functions from long to int"
-         
+    old: af869049f65fdc7d8680064fdea1a17b6afa53f8
+    new: 625aec60ff1462a0620753deeec4a38ddd032e29
+    log: revlist-af869049f65f-625aec60ff14.txt
   - ref: refs/heads/vfs.all
-    old: 6554b3d213099e77c5539db9ecd14e662c6cc06a
-    new: e1478f345ae5f33b6226b597abb062ba68396a67
-    log: revlist-6554b3d21309-e1478f345ae5.txt
-  - ref: refs/heads/vfs.fixes
-    old: 6470d2c6d4233a781c67f842d3c066bf1cfa4fdc
-    new: a11de716b3730587e0dbb7b12f01c1c0ffd40044
+    old: e1478f345ae5f33b6226b597abb062ba68396a67
+    new: 15976a4eb7ec923ca59b9782d8bc769188135c39
     log: |
-         a11de716b3730587e0dbb7b12f01c1c0ffd40044 pidfs: improve ioctl handling
+         f84f6ba87325d3d9aca0773ac14ffc0e978d46e3 make use of anon_inode_getfile_fmode()
+         62801d0e24907a20b4724b58ce174bc9a2fc3b4c fs: avoid mmap sem relocks when coredumping with many missing pages
+         a770606f3e1f448a2dec8aa43b999e041ea8c0fb open: Fix return type of several functions from long to int
+         567da7e5c04d7d7e9f08f218213e8a1db46ba5a6 ioctl: Fix return type of several functions from long to int
+         625aec60ff1462a0620753deeec4a38ddd032e29 Merge patch series "Fix the return type of several functions from long to int"
+         432da103fb26d13d68d4d087db49fd4acaf1e1bf Merge branch 'vfs.fixes' into vfs.all
+         c3cff94d8df121a15d672a5159864d67679749fe Merge branch 'vfs-6.15.misc' into vfs.all
+         31f297b430c1df2d6a82e49819b88bb44cabf3a5 Merge branch 'vfs-6.15.mount' into vfs.all
+         15976a4eb7ec923ca59b9782d8bc769188135c39 Merge branch 'vfs-6.15.pidfs' into vfs.all
          
-  - ref: refs/heads/vfs-6.15.mount
-    old: 0000000000000000000000000000000000000000
-    new: 8d75a6c89d447f4ab6d668555b5b43e5f534bc47
-  - ref: refs/heads/vfs-6.15.pidfs
-    old: 0000000000000000000000000000000000000000
-    new: 90a21f2a3df9c2c3528ce6a21407688439a45694
 
---===============1634177302038528600==
+--===============8342826774621057648==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6554b3d21309-e1478f345ae5.txt
+Content-Disposition: attachment; filename=revlist-af869049f65f-625aec60ff14.txt
 
+f08cc80f69be62beb7a63cd4813c7989c8708831 ALSA: usb: fcp: Fix incorrect resp->opcode retrieval
+0a8f5f4652ef4d530a7cb8bed2b6e502cdfa825f ALSA: usb: fcp: Fix return code from poll ops
+b02cfbd9bfb9f45eebb33771e5705af95b5c9673 dt-bindings: PCI: mobiveil: Convert mobiveil-pcie.txt to YAML
+10e796eed62648ff928cb66d52f226452e1affff dt-bindings: PCI: qcom,pcie-sm8550: Document 'global' interrupt
+c25b978d351fae5da87794be9160d8acfa6e6823 dt-bindings: PCI: qcom: Document the IPQ5424 PCIe controller
+a8581752278ef9d6ea73bb10eef2657bfb73e116 bcachefs: Fix btree_trans_peek_key_cache()
+48795f90cbdcccc36cc415a2d785a23a4b23e57a Merge tag 'x86_cpu_for_v6.14_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+b9d8a295ed6bc3cee846f8e3f27c9c6e9ebe43f2 Merge tag 'x86_misc_for_v6.14_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+e721f619e3ec9bae08bf419c3944cf1e6966c821 iommufd: Fix struct iommu_hwpt_pgfault init and padding
+f917016f69ba5a0c42a3a3327792707315f2a937 bcachefs: Reduce stack frame size of __bch2_str_hash_check_key()
+abb604a1a9c87255c7a6f3b784410a9707baf467 RDMA/mlx5: Fix a race for an ODP MR which leads to CQE with error
+dec6b006f4cc13968d75ed28673ca4e3633de96b ASoC: dt-bindings: ti,pcm1681: Fix the binding title
+8838a1a2d219a86ab05e679c73f68dd75a25aca5 Merge tag 'locking-core-2025-01-20' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+d3d930411ce390e532470194296658a960887773 RDMA/mlx5: Fix implicit ODP use after free
+a6640c8c2fc029f015c87672585931c6106971c1 Merge tag 'objtool-core-2025-01-20' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+6c4aa896ebee5edf2b35a9d071e5a468797f96d8 Merge tag 'perf-core-2025-01-20' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+858df1de2158bd7ab88d31b557592e990bacc0b5 Merge tag 'x86-cleanups-2025-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+70741cc38463371914f49a1f4fda5de2afdc4c86 Merge branches 'clk-cleanup', 'clk-renesas', 'clk-mediatek', 'clk-samsung' and 'clk-socfpga' into clk-next
+b2fee97e6f0b6b935918744f44ca80246a18289e Merge branches 'clk-microchip', 'clk-xilinx', 'clk-allwinner', 'clk-imx' and 'clk-qcom' into clk-next
+1d2da923fb985bb57cc161316c76edb8d567b9bd Merge branches 'clk-airoha', 'clk-rockchip', 'clk-stm', 'clk-thead' and 'clk-bcm' into clk-next
+53c9c27672bb0241998ddf2d1588106920d4064b Merge branch 'clk-fixes' into clk-next
+62de6e1685269e1637a6c6684c8be58cc8d4ff38 Merge tag 'sched-core-2025-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+f26d37ee9bda938e968d0e11ba1f8f1588b2a135 misc: pci_endpoint_test: Fix IOCTL return value
+e19bde2269ca3611156fd0c078a71af0b6956545 selftests: Move PCI Endpoint tests from tools/pci to Kselftests
+392188bb0f6ec5162edf457c062929a6abfa369a selftests: pci_endpoint: Migrate to Kselftest framework
+cd2375a3567fd3d93aa6c68e0027a5756213bda0 ring-buffer: Do not allow events in NMI with generic atomic64 cmpxchg()
+f95ee542947d748d4ca01b4d3103dbdc4fdc8889 tracing: Fix allocation of printing set_event file content
+8f21943e101a15f56a8f02970a80edc936de8ec8 tracing: Fix output of set_event for some cached module events
+531503054e8fe9f4502fff0dceba20dfaa9920d5 nfsd: fix handling of delegated change attr in CB_GETATTR
+8e1d32273ab7d06b6f78771e05824bfab01141f4 nfs_common: make include/linux/nfs4.h include generated nfs4_1.h
+8dfbea8bde6e976136948421325b24b5bdb76ad3 nfsd: switch to autogenerated definitions for open_delegation_type4
 c9c99a33e2b0083c83a2c29eebfad92c78e16791 nfsd: rename NFS4_SHARE_WANT_* constants to OPEN4_SHARE_ACCESS_WANT_*
 fbd5573d0deda145fe173431f1f3ca444940de18 nfsd: prepare delegation code for handing out *_ATTRS_DELEG delegations
 51c0d4f7e317d3cb4a3001e502bd8ca2d57f2a4b nfsd: add support for FATTR4_OPEN_ARGUMENTS
@@ -100,9 +124,6 @@ c40ca9ef7c5c9bbb0d2f7774c87417cc4f1713bf drm: select DRM_KMS_HELPER from DRM_GEM
 8ba14d9f490aef9fd535c04e9e62e1169eb7a055 efi: libstub: Use '-std=gnu11' to fix build with GCC 15
 0e2f98da2071bae0f07135adb9b3efdb737aaee6 efivarfs: abstract initial variable creation routine
 b5d1e6ee761a109400e97ac6a1b91c57d0f6a43a efivarfs: add variable resync after hibernation
-40a46ea6a77446cd7ce7cebe07c5cce57bc8a0db open: Fix return type of several functions from long to int
-827ac0cd8dd47b380e54d0875b3f108359f03a49 ioctl: Fix return type of several functions from long to int
-af869049f65fdc7d8680064fdea1a17b6afa53f8 Merge patch series "Fix the return type of several functions from long to int"
 9ec80025030b0492512e01e2e667f4111c583b46 Merge tag 'litex-6.13-rc1' of https://github.com/litex-hub/linux into soc/drivers
 b76b3ee5573fd6ff8761d82feb74d707eb2139ef ASoC: SOF: imx8m: add SAI2,5,6,7
 e935f903ab9bee43f3375883c230a32138ae3d1d ASoC: audio-graph-card2: use correct endpoint when getting link parameters
@@ -822,8 +843,6 @@ f34b580514c9816a317764e6b138ec66a4adab25 Merge tag 'nfsd-6.14' of git://git.kern
 519b2b14bef70922bd64117a978ea7f2a683b75b ALSA: pcm: use new array-copying-wrapper
 3b8b80e993766dc96d1a1c01c62f5d15fafc79b9 s390: Add '-std=gnu11' to decompressor and purgatory CFLAGS
 b05d66c882994fb63e8435bf64f262ef44c51874 s390/vmem: Fix null-pointer-arithmetic warning in vmem_map_init()
-8e913b438c95a46b84655117d0b13d6695c12348 fs/stat.c: avoid harmless garbage value problem in vfs_statx_path()
-17dca83f22f77ca0e7cd926ca093bf3790bc580d vboxsf: fix building with GCC 15
 6e74e53b34b6dec5a50e1404e2680852ec6768d2 ata: libata-sff: Ensure that we cannot write outside the allocated buffer
 90b7f2961798793275b4844348619b622f983907 net: usb: rtl8150: enable basic endpoint checking
 19ae40f572a9ce1ade9954990af709a03fd37010 ptp: Properly handle compat ioctls
@@ -945,11 +964,6 @@ b95102215a8d0987789715ce11c0d4ec031cbfbe net: sh_eth: Fix missing rtnl lock in s
 e598d8981fd34470b78a1ae777dbf131b15d5bf2 mptcp: blackhole only if 1st SYN retrans w/o MPC is accepted
 18da4b5d123285dea470b15ff51c7fbe61dc37fd doc: mptcp: sysctl: blackhole_timeout is per-netns
 047558caf7e502fe5babe9b85008950731d0e2d3 Merge branch 'mptcp-blackhole-only-if-1st-syn-retrans-w-o-mpc-is-accepted'
-756060a7cc55dd7c362c7631714bf2cc50385037 statmount: let unset strings be empty
-6c789b8e09130dfbef02308cd05959ff978038b4 gfs2: use lockref_init for gl_lockref
-69469b7ad4a4514de1104c816a30949ff0af9d8d gfs2: switch to lockref_init(..., 1)
-24239add174c3847392c2513805236c84395347a lockref: remove count argument of lockref_init
-e5e05ede88c9321f7e40af81960af5da5627416f Merge patch series "further lockref cleanups"
 8c8492ca64e79c6e0f433e8c9d2bcbd039ef83d0 io_uring/net: don't retry connect operation on EPOLLERR
 8080ff5ac656b9ca6c282e4044be19d2b8a837df Merge tag 'bcachefs-2025-01-29' of git://evilpiepirate.org/bcachefs
 ce335806b5ecc5132aed0a1af8bd48ae3b2ea178 Merge tag 'ntfs3_for_6.14' of https://github.com/Paragon-Software-Group/linux-ntfs3
@@ -983,8 +997,6 @@ e882d6f72caa9fca7b615c7bc88998717552e05e hexagon: Move kernel prototypes out of 
 e8265a947b0267950a2b74e5a4f118e6764540e8 hexagon: Fix warning comparing pointer to 0
 03410e87563a122075c3721acc7d5510e41d8332 hexagon: Fix unbalanced spinlock in die()
 84d78214b4f187da7e029f5dad344203511a04d7 MAINTAINERS: Update my email address
-768d562f87736848d8212483fef146a7535cc16c fs: fix adding security options to statmount.mnt_opt
-1213f42dca09637e8efd2e4ed018797377bbd9bd selftests: always check mask returned by statmount(2)
 ec918a11e63856999b31705e81226dd7dc043e20 Revert "mips: fix shmctl/semctl/msgctl syscall for o32"
 1e1a9cecfab3f22ebef0a976f849c87be8d03c1c block: force noio scope in blk_mq_freeze_queue
 8f08ed05b31c6cfb5acd2eb7340368560f17cdd3 Merge tag 'sound-fix-6.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
@@ -1047,29 +1059,10 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 5d82ca7b5019d880a579831278eb73cbbfdb87da Merge tag 'sh-for-v6.14-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
-e6e4ed42f8d8be56bec57c864e07437fc887a366 pidfd: add PIDFD_SELF* sentinels to refer to own thread/process
-c9f04f4a251d7c8fbb5a3e17fdbe966ea611556f selftests/pidfd: add missing system header imcludes to pidfd tests
-fb67fe44116e4cc542b29fe480e388af607687d7 tools: testing: separate out wait_for_pid() into helper header
-ac331e56724dacc0b79fc978a7c3840283aaf5f2 selftests: pidfd: add pidfd.h UAPI wrapper
-881a3515c191e048267704a44dac6bb48c550e6d selftests: pidfd: add tests for PIDFD_SELF_*
-b4703f056f426d58d2b7c7fc16f60836581fc485 selftests/mm: use PIDFD_SELF in guard pages test
-90a21f2a3df9c2c3528ce6a21407688439a45694 Merge patch series "introduce PIDFD_SELF* sentinels"
-b944249bcea97f2f6229852ae3f05f7acdcb0681 fsnotify: add mount notification infrastructure
-21c1471c81dc7fd8de1f47d74cef9efc91356971 fanotify: notify on mount attach and detach
-415c378dc2498d8838bf29dcc4c86990adad8e19 vfs: add notifications for mount attach and detach
-1221e42dfba32afb22313ee3b75140ad27d2435e Merge patch series "mount notification"
-bd5033406f7e18cef2eda5bf2cdc218b6b1890b5 fsnotify: use accessor to set FMODE_NONOTIFY_*
-a91cbc6171da8833fa0032c4b267d178d6ef0545 fsnotify: disable notification by default for all pseudo files
-a84e51444c591ea874396752a81bfa6756077bd9 fsnotify: disable pre-content and permission events by default
-6470d2c6d4233a781c67f842d3c066bf1cfa4fdc Merge patch series "Fix for huge faults regression"
-9f4f49cb4f20b4c9654810a55384dafa27f8175a fs: allow detached mounts in clone_private_mount()
-822cc7611858f72f5955a2b1cd3229bfb8c6a3ed selftests: add tests for using detached mount with overlayfs
-d043e5c6f9f6f305423870da96aaae81c787f58f Merge patch series "fs: allow detached mounts in clone_private_mount()"
-a11de716b3730587e0dbb7b12f01c1c0ffd40044 pidfs: improve ioctl handling
-8d75a6c89d447f4ab6d668555b5b43e5f534bc47 statmount: add a new supported_mask field
-faa38953ed50bab587b364e69ae920b9a74f8fb7 Merge branch 'vfs.fixes' into vfs.all
-e4c9b1d904b66d005f48026ba4e664a24565a164 Merge branch 'vfs-6.15.misc' into vfs.all
-26f49e6533ea49d71ed0f6614996855d876b4bcf Merge branch 'vfs-6.15.mount' into vfs.all
-e1478f345ae5f33b6226b597abb062ba68396a67 Merge branch 'vfs-6.15.pidfs' into vfs.all
+f84f6ba87325d3d9aca0773ac14ffc0e978d46e3 make use of anon_inode_getfile_fmode()
+62801d0e24907a20b4724b58ce174bc9a2fc3b4c fs: avoid mmap sem relocks when coredumping with many missing pages
+a770606f3e1f448a2dec8aa43b999e041ea8c0fb open: Fix return type of several functions from long to int
+567da7e5c04d7d7e9f08f218213e8a1db46ba5a6 ioctl: Fix return type of several functions from long to int
+625aec60ff1462a0620753deeec4a38ddd032e29 Merge patch series "Fix the return type of several functions from long to int"
 
---===============1634177302038528600==--
+--===============8342826774621057648==--
