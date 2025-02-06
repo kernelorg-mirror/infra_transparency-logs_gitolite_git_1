@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/ell/ell
-Date: Thu, 06 Feb 2025 20:22:11 -0000
-Message-Id: <173887333185.3641678.15586776299060951142@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
+Date: Thu, 06 Feb 2025 20:24:47 -0000
+Message-Id: <173887348787.3643242.11163078267706124206@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/ell/ell
-user: holtmann
+repo: pub/scm/linux/kernel/git/cxl/cxl
+user: djiang
 changes:
-  - ref: refs/heads/master
-    old: e47ae2bc3e120ef2f57539c888ac446d1ef189a9
-    new: 54ce42a436020beee682940c1548d39479d6333e
+  - ref: refs/heads/next
+    old: 5b839e31b257444579b2169d6af543bb95c3dcf2
+    new: 5585e342e8d38cc598279bdb87f235f8b954dd5a
     log: |
-         54ce42a436020beee682940c1548d39479d6333e unit: Convert test-netlink to use l_test framework
+         5585e342e8d38cc598279bdb87f235f8b954dd5a cxl/memdev: Remove unused partition values
          
