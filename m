@@ -1,56 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============5118922306144052171=="
+Content-Type: multipart/mixed; boundary="===============8491184379702672527=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 06 Feb 2025 14:44:45 -0000
-Message-Id: <173885308588.3359094.3289552360102402427@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 06 Feb 2025 14:49:34 -0000
+Message-Id: <173885337409.3363390.3135868264673050604@gitolite.kernel.org>
 
---===============5118922306144052171==
+--===============8491184379702672527==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: d65658cd1bcb0c22cadb42f73d6857a68cb7863e
-    new: d9005d7a709dee8dabdb3060c8430135c6b92242
+  - ref: refs/heads/for-6.15/io_uring
+    old: aafa01f13099e1b10ca0e7d34a0c514b537b7481
+    new: 114fd8b4621f6399eed2e65751f0912f4903f82a
     log: |
-         d9005d7a709dee8dabdb3060c8430135c6b92242 drop a phy samsung patch that broke the build
+         75253b76ac4b3f67bc9d68688eae3bbb69e256ef io_uring/cancel: add generic remove_all helper
+         33b2313e406fcf8ba1b0b6594141600cc6b9152c io_uring/futex: convert to io_cancel_remove_all()
+         ead48b363d13c1ae1bb9c565ee190e5c075bff83 io_uring/waitid: convert to io_cancel_remove_all()
+         78ce22e849a6e04735d483d54fc1733ef9098766 io_uring/cancel: add generic cancel helper
+         0e2195c466cfb0a295fe57d33570a95ce225e7b4 io_uring/futex: use generic io_cancel_remove() helper
+         114fd8b4621f6399eed2e65751f0912f4903f82a io_uring/waitid: use generic io_cancel_remove() helper
          
+  - ref: refs/heads/for-next
+    old: 204176cc570f7b14c479205233b380ee829514bf
+    new: ec4ef55172d4539abff470568a4369a6e1c317b8
+    log: revlist-204176cc570f-ec4ef55172d4.txt
 
---===============5118922306144052171==
+--===============8491184379702672527==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-204176cc570f-ec4ef55172d4.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1738853112 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1738853080-2be5440cc8d5c1b950f14e2c62db147ea833b05e
+a216542027b892e6651c1b4e076012140d04afaf btrfs: fix lockdep splat while merging a relocation root
+0d85f5c2dd91df6b5da454406756f463ba923b69 btrfs: fix assertion failure when splitting ordered extent after transaction abort
+c9c863793395cf0a66c2778a29d72c48c02fbb66 btrfs: do not output error message if a qgroup has been already cleaned up
+e2f0943cf37305dbdeaf9846e3c941451bcdef63 btrfs: fix use-after-free when attempting to join an aborted transaction
+fdef89ce6fada462aef9cb90a140c93c8c209f0f btrfs: avoid starting new transaction when cleaning qgroup during subvolume drop
+92514ef226f511f2ca1fb1b8752966097518edc0 Merge tag 'for-6.14-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+75253b76ac4b3f67bc9d68688eae3bbb69e256ef io_uring/cancel: add generic remove_all helper
+33b2313e406fcf8ba1b0b6594141600cc6b9152c io_uring/futex: convert to io_cancel_remove_all()
+ead48b363d13c1ae1bb9c565ee190e5c075bff83 io_uring/waitid: convert to io_cancel_remove_all()
+78ce22e849a6e04735d483d54fc1733ef9098766 io_uring/cancel: add generic cancel helper
+0e2195c466cfb0a295fe57d33570a95ce225e7b4 io_uring/futex: use generic io_cancel_remove() helper
+114fd8b4621f6399eed2e65751f0912f4903f82a io_uring/waitid: use generic io_cancel_remove() helper
+1d445013d5835b4b1960ba214327b51f4f4b42d8 Merge branch 'block-6.14' into for-next
+ec4ef55172d4539abff470568a4369a6e1c317b8 Merge branch 'for-6.15/io_uring' into for-next
 
-d65658cd1bcb0c22cadb42f73d6857a68cb7863e d9005d7a709dee8dabdb3060c8430135c6b92242 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmekyvgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wngP/iNnhrcwZNiy1ZTzrROC
-SsE7i0/cETEPtjrJilI+fttD9zI2R0yxnUWpnpDGCIt3A8jBrzDAbgzv5NE7iX7G
-jJlbAbI1IGoxc2mUBoFPkbziiKQa3xGC9NsTseS42D03sf1BWWAPixYpGBIt42M2
-uTaNy7wVquNlebYyMdf6RvfefTDa6XIYRvmkDzlCeKZYQd0NZhJUqIWJJRMDx0PP
-GnZpEdyk4uPtrqmOxmYgaIE6DZ0u5P8o9+/zUPM/Qm8t34ilsJVMu5cn03iqKMYm
-OdJqRFW4dKKzvgjifuf1OPY90cqyWCxptKvNhEax6TpRMoyIF6b3sSgxX8ROPH/X
-hFaNwahp4+nxWmCkfG4y+rCTxM4TSq4QRKylLAlOEaphHK6dXoKbvlQckaUJ5u+O
-NIkrO46iZNM+bCGiwOi1u5qmOJG+GY1S4dgx+F+dsvEljzrQk0ONQEhljKmA+Pxc
-kwS8p62jHL3wAsKu1TyzP9OHSJiJ17D8HI54Zp4pe8rsymoNkbrE/9ZMG9MWwzA9
-1fWhTaR5hWPWz1V9DzIpb4rO/HikjAlZCvl4KX9LkjPOns1MX7iOBi+tgh9lwEIh
-9gbxeAJnBTJ6ustawgpIqMx9mK+VEjJh2gD5f4EAbxroQqAvE2Ybqhc1VrHLgOUA
-HWn+5D8t2IJ4nIM4zULFNuvI
-=UBE3
------END PGP SIGNATURE-----
-
---===============5118922306144052171==--
+--===============8491184379702672527==--
