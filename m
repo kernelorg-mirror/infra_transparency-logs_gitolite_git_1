@@ -1,30 +1,42 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Thu, 06 Feb 2025 18:14:09 -0000
-Message-Id: <173886564967.3534587.5840676647337208647@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2876320063476584460=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Thu, 06 Feb 2025 18:26:40 -0000
+Message-Id: <173886640005.3545925.12851089166987851106@gitolite.kernel.org>
+
+--===============2876320063476584460==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/main-pending
-    old: 5cf8f90a9a0805423294ec73314e26da08fd9a1f
-    new: 7b9af0d95f7ea006c07f19dbe99aa38248c7aeba
-    log: |
-         06f4d7ecba0671e97c67e457976b454c18a3951b wifi: ath12k: eliminate redundant debug mask check in ath12k_dbg()
-         f1f6f102e9bf9fc7927b700aee3e862ee976ebdd wifi: ath12k: introduce ath12k_generic_dbg()
-         b86c320fbf45f1633e701b1368b60c3286ad8d94 wifi: ath12k: remove redundant vif settings during link interface creation
-         73ff7e7d870377af0f140788a72ddaa72c617ed2 wifi: ath12k: remove redundant logic for initializing arvif
-         6bd754f6fd9baa0e70b7fcfb3e0b55fc0af5cbf9 wifi: ath12k: use arvif instead of link_conf in ath12k_mac_set_key()
-         002a176d66216e43c005a0bf2b0fcccdbe77af4d wifi: ath12k: relocate a few functions in mac.c
-         96c0864a3bf6e59688a6cd193264beb812f3ffe4 wifi: ath12k: allocate new links in change_vif_links()
-         fe7b2091d7e3fb6796c2e10266d2795d5401cb31 wifi: ath12k: handle link removal in change_vif_links()
-         7b9af0d95f7ea006c07f19dbe99aa38248c7aeba Merge branch 'pending' into main-pending
-         
-  - ref: refs/tags/ath-pending-202502061749
-    old: 0000000000000000000000000000000000000000
-    new: 7b9af0d95f7ea006c07f19dbe99aa38248c7aeba
+  - ref: refs/heads/crc-x86
+    old: a2ddaa10afe215e263e5ee243037e2bb0aabffcf
+    new: cb146bc20c56c7fe28ae35fe8830573d26c6ac56
+    log: revlist-a2ddaa10afe2-cb146bc20c56.txt
+
+--===============2876320063476584460==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-a2ddaa10afe2-cb146bc20c56.txt
+
+9d3ce0f2e8477c097ba6dbe9172d0a42c678dfae lib/crc32: remove obsolete CRC32 options from defconfig files
+9631bccc5c0274726a7a09af5ee83e801afe853f lib/crc32: use void pointer for data
+c528a437006534cb69ca55832007fbb12dcea54a lib/crc32: don't bother with pure and const function attributes
+d87ef0e0900a1630414f1b0d224ba0720f110a0b lib/crc32: standardize on crc32c() name for Castagnoli CRC32
+adbb5086243a6f28564b621b198fe81c9558cd30 lib/crc32: rename __crc32c_le_combine() to crc32c_combine()
+8c50e1db89da675917fb6297026f46cf32c515d5 lib/crc32: remove "_le" from crc32c base and arch functions
+32efda1ffe2ae3fefe52131b496fd3cc7c3b795c x86: move ZMM exclusion list into CPU feature flag
+8a38d9af6f5cac8e5fe5a06704aaee0fda7043d0 scripts/gen-crc-consts: add gen-crc-consts.py
+0ede2316453e3fe3dcce23623b3427f9651ce25e x86/crc: add "template" for [V]PCLMULQDQ based CRC functions
+624512bb9c0da09c7ecddfe9e6d0e380fad80716 x86/crc32: implement crc32_le using new template
+7ea4e553678764dcfa10010ff016fdfd353041bc x86/crc-t10dif: implement crc_t10dif using new template
+cb146bc20c56c7fe28ae35fe8830573d26c6ac56 x86/crc64: implement crc64_be and crc64_nvme using new template
+
+--===============2876320063476584460==--
