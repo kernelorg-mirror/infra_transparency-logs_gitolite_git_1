@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1901789030040398654=="
+Content-Type: multipart/mixed; boundary="===============0713029587752378774=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 06 Feb 2025 16:40:31 -0000
-Message-Id: <173886003154.3460241.2575199914082307492@gitolite.kernel.org>
+Date: Thu, 06 Feb 2025 16:40:33 -0000
+Message-Id: <173886003399.3460353.10273985399264925708@gitolite.kernel.org>
 
---===============1901789030040398654==
+--===============0713029587752378774==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: c2933b2befe25309f4c5cfbea0ca80909735fd76
     new: 09717c28b76c30b1dc8c261c855ffb2406abab2e
     log: revlist-c2933b2befe2-09717c28b76c.txt
 
---===============1901789030040398654==
+--===============0713029587752378774==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -82,4 +82,4 @@ fa796178e5eb0078a9a6c36f60fd6494cfc3f81d tools: ynl-gen: support limits using de
 79c0c4689bdf5d0032275f40c8fffe257235a679 eth: fbnic: add MAC address TCAM to debugfs
 09717c28b76c30b1dc8c261c855ffb2406abab2e eth: fbnic: set IFF_UNICAST_FLT to avoid enabling promiscuous mode when adding unicast addrs
 
---===============1901789030040398654==--
+--===============0713029587752378774==--
