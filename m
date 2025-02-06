@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0976954103093232889=="
+Content-Type: multipart/mixed; boundary="===============1901789030040398654=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 06 Feb 2025 16:33:44 -0000
-Message-Id: <173885962462.3453315.16252848562749975971@gitolite.kernel.org>
+Date: Thu, 06 Feb 2025 16:40:31 -0000
+Message-Id: <173886003154.3460241.2575199914082307492@gitolite.kernel.org>
 
---===============0976954103093232889==
+--===============1901789030040398654==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 70bdf16570c2c207a562e996833ff196a4bd7029
-    new: 29401be9e6a0e38a33e7d65c2532616ce22704b0
-    log: revlist-70bdf16570c2-29401be9e6a0.txt
+  - ref: refs/heads/1GbE
+    old: c2933b2befe25309f4c5cfbea0ca80909735fd76
+    new: 09717c28b76c30b1dc8c261c855ffb2406abab2e
+    log: revlist-c2933b2befe2-09717c28b76c.txt
 
---===============0976954103093232889==
+--===============1901789030040398654==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-70bdf16570c2-29401be9e6a0.txt
+Content-Disposition: attachment; filename=revlist-c2933b2befe2-09717c28b76c.txt
 
 546d98393abcf2f841e61163d95ed21fde346cc1 bonding: delete always true device check
 a064068bb6be51ed54f435fe7314c057f9eeb020 neighbour: remove neigh_parms_destroy()
@@ -81,61 +81,5 @@ ee0a4fc396f1b6fd1b34e99754896961fb67e4e3 net/mlx5: Add support for 200Gbps per l
 fa796178e5eb0078a9a6c36f60fd6494cfc3f81d tools: ynl-gen: support limits using definitions
 79c0c4689bdf5d0032275f40c8fffe257235a679 eth: fbnic: add MAC address TCAM to debugfs
 09717c28b76c30b1dc8c261c855ffb2406abab2e eth: fbnic: set IFF_UNICAST_FLT to avoid enabling promiscuous mode when adding unicast addrs
-55b7960a2d305218e7ebcb28546a569c1bea4fe6 dmaengine: tegra210-adma: Fix build error due to 64-by-32 division
-bc5bd53e85943b749f8d9705ef2afe026795c2ff coccinelle: misc: secs_to_jiffies script: Create dummy report
-d9f85f3f895c60994ad5b23a9337878b6ac22868 ice: Don't check device type when checking GNSS presence
-bd5013c3c5ff900ebf3b616d92fbfae855898ebf ice: Remove unncecessary ice_is_e8xx() functions
-9ffb770cd8426a1436e57286d7f106f1815439e9 ice: Use FIELD_PREP for timestamp values
-be8b7fe3d800f222d9b372d75dd10dbfe4b97e9c ice: Process TSYN IRQ in a separate function
-70e9926bf7326bbd98b3dae8a5eabe3ef35af5d2 ice: Add unified ice_capture_crosststamp
-3d4ac7bb943376a97fd38f9a49747e9dd9647f0c ice: Refactor ice_ptp_init_tx_*
-bfca99a29744d7e72d464503a48c3208e9816b91 ice: Implement PTP support for E830 devices
-584b8752de4a4515bdcec18a91197a78fe647cee virtchnl: add support for enabling PTP on iAVF
-36f58793c27ad3afa489f5a0933f4bef69551c70 ice: support Rx timestamp on flex descriptor
-f7cd38fb3c9d50d0b46f5e78f556bee0a5a6c0c4 virtchnl: add enumeration for the rxdid format
-cbbd75a4e22f9ab292e1024c8e7dd80db6b04bce iavf: add support for negotiating flexible RXDID format
-2ce9af9f17f4d0212c7b4eab2ca5ed50cbba4dc3 iavf: negotiate PTP capabilities
-316da7bf952baac934bafaece7ef53534c8cf1fb iavf: add initial framework for registering PTP clock
-cfa5cf1cbf74c99c4537542f4d288ae74c9f5069 iavf: add support for indirect access to PHC time
-9becdd25683901b2889f5e1acb74667f57e1c0fa iavf: periodically cache PHC time
-5a164e3cbadbbcd70e5a57c9271b72b0285b68d4 libeth: move idpf_rx_csum_decoded and idpf_rx_extracted
-3d37aad92a1f34cff50dc0f8bb26e335a38d39b2 iavf: define Rx descriptors as qwords
-072ad85b916b449cadd78b3bba977f0a88eea266 iavf: refactor iavf_clean_rx_irq to support legacy and flex descriptors
-9eacad1cf7caf946f7761409f47f411ac9d365cd iavf: Implement checking DD desc field
-4efc19d5f55408495f28aa427aec5be3617415f6 iavf: handle set and get timestamps ops
-65794c2ca8caabf54849e97d4f12b06c9db5e432 iavf: add support for Rx timestamps to hotpath
-c75b2f33ce5d519261bb037503c6eea7f3a8165d ice: count combined queues using Rx/Tx count
-b85381c4de99597e10549ade6510d572fa1e3da1 ice: devlink PF MSI-X max and min parameter
-7c903658434bb5c35f32cafa1e967172c89b0edb ice: remove splitting MSI-X between features
-f9b08360879b8f0b054e8c2498ac8a57b9c2ed9d ice: get rid of num_lan_msix field
-362a131a5609629d1717d7b202c0ab861b93610f ice, irdma: move interrupts code to irdma
-d490ff7c30bb6cf3be25b7f88d9cbc00406bc274 ice: treat dyn_allowed only as suggestion
-567762451df89a4dc8bd9460b0a5590f94a1c0e0 ice: enable_rdma devlink param
-9c8b2cd51b87c99d71eda87632127f5009198dfa ice: simplify VF MSI-X managing
-74d513d8e8d293faf401c9a704b7125c614acc6a ice: init flow director before RDMA
-e6489a15a53713f82a1a353a317701cc98069e05 ice: do not configure destination override for switchdev
-46e7cad22e7e3b46be55e5ac9ee2f2ca9c23d12b igc: Avoid unnecessary link down event in XDP_SETUP_PROG process
-f25026020f73cad8cd04473c518e7566743d5d6b ice: Add E830 checksum offload support
-43360606e10490ad0996424f87f81dd6b79411aa ice: Fix switchdev slow-path in LAG
-15876363b0ac8a5fd4e327efddbc65a429267d4d e1000e: Fix real-time violations on link up
-e0d8e2a65440ca7c661c2aadfa95323325404558 idpf: fix handling rsc packet with a single segment
-67ab6ac65123f728fdbb268796a2aedd00ff69ae idpf: record rx queue in skb for RSC packets
-060d3b36b1266321f01b526bdbf86b9805cff1d3 idpf: add initial PTP support
-d9397591a0543ce18ed00f324491e7966095de2b virtchnl: add PTP virtchnl definitions
-bf041622c6c9a0c548be10d550cecf4e519355f1 idpf: move virtchnl structures to the header file
-efcc237543d645ee9c7800708040b520c5bc36f6 idpf: negotiate PTP capabilities and get PTP clock
-d98ac4fcdb7e37329749743eb54c137c6e2921bb idpf: add mailbox access to read PTP clock time
-fa15df0d448fc806d16487b3619f5fdd9bf512eb idpf: add PTP clock configuration
-fc2bdb22343060178a4b62aa36a662e8cbfb08ed idpf: add Tx timestamp capabilities negotiation
-dfda48b2465fa6e0555259b9cca52779bfac82d8 idpf: add Tx timestamp flows
-b3821e25ba3af23f08b6171331983b66685bf3c6 idpf: add support for Rx timestamping
-f7f09c10baa7996102ff05881ddbb601bcdeb957 idpf: change the method for mailbox workqueue allocation
-8dabe4dd3e94802f5433fdabc58e3fa35ed04bce ice: refactor ice_fdir_create_dflt_rules() function
-1bde3725a65e2942d886236764a374658bdf1b3c ice: fix memory leak in aRFS after reset
-fbc59c65abd1df34b2aefb9e2c22fe9aee20427a ice: put Rx buffers after being done with current frame
-37398b2149f676439c4e8bdf225816bb1524e382 ice: gather page_count()'s of each frag right before XDP prog call
-d2fbe1580e004e6577baf05c717d8cd7024016e4 ice: stop storing XDP verdict within ice_rx_buf
-a5ffa18b7a0006e118955f0be4ef1c84f3693f0b igc: Fix HW RX timestamp when passed by ZC XDP
-29401be9e6a0e38a33e7d65c2532616ce22704b0 ixgbe: Fix possible skb NULL pointer dereference
 
---===============0976954103093232889==--
+--===============1901789030040398654==--
