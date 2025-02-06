@@ -1,31 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============0840047725860832753=="
+Content-Type: multipart/mixed; boundary="===============5320823927095949655=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Thu, 06 Feb 2025 15:57:22 -0000
-Message-Id: <173885744270.3420275.12180005918007567843@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
+Date: Thu, 06 Feb 2025 15:59:51 -0000
+Message-Id: <173885759103.3421855.1329815008815024156@gitolite.kernel.org>
 
---===============0840047725860832753==
+--===============5320823927095949655==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/abelloni/linux
+user: abelloni
 changes:
-  - ref: refs/heads/kvm-arm64/nv-gic
-    old: f583d0c28c99b8c425ac22aca4ae712480b87bda
-    new: d67a07d33e149a9017b2fb2713b0d5b0b400120a
-    log: revlist-f583d0c28c99-d67a07d33e14.txt
+  - ref: refs/heads/rtc-fixes
+    old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
+    new: 2014c95afecee3e76ca4a56956a936e23283f05b
+    log: revlist-40384c840ea1-2014c95afece.txt
 
---===============0840047725860832753==
+--===============5320823927095949655==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-f583d0c28c99-d67a07d33e14.txt
+Content-Disposition: attachment; filename=revlist-40384c840ea1-2014c95afece.txt
 
+668135b9348c53fd205f5e07d11e82b10f31b55b NFSv4.2: mark OFFLOAD_CANCEL MOVEABLE
+0b96c75d86560c077d29ce629e9d1ca0258c9cc1 NFSv4.2: make LAYOUTSTATS and LAYOUTERROR MOVEABLE
+a3282f84b2151d254dc4abf24d1255c6382be774 PCI: switchtec: Add Microchip PCI100X device IDs
+13b6931c44969ff057ad2a3aa1c20a1b28b79b6f Merge tag 'x86_sev_for_v6.14_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+e7217011ddd8e86a0d18c6cbfb4f14da3d18eee0 ALSA: usb: fcp: Fix meter_levels type to __le32
+f08cc80f69be62beb7a63cd4813c7989c8708831 ALSA: usb: fcp: Fix incorrect resp->opcode retrieval
+0a8f5f4652ef4d530a7cb8bed2b6e502cdfa825f ALSA: usb: fcp: Fix return code from poll ops
+b02cfbd9bfb9f45eebb33771e5705af95b5c9673 dt-bindings: PCI: mobiveil: Convert mobiveil-pcie.txt to YAML
+10e796eed62648ff928cb66d52f226452e1affff dt-bindings: PCI: qcom,pcie-sm8550: Document 'global' interrupt
+c25b978d351fae5da87794be9160d8acfa6e6823 dt-bindings: PCI: qcom: Document the IPQ5424 PCIe controller
+a8581752278ef9d6ea73bb10eef2657bfb73e116 bcachefs: Fix btree_trans_peek_key_cache()
+48795f90cbdcccc36cc415a2d785a23a4b23e57a Merge tag 'x86_cpu_for_v6.14_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+b9d8a295ed6bc3cee846f8e3f27c9c6e9ebe43f2 Merge tag 'x86_misc_for_v6.14_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+e721f619e3ec9bae08bf419c3944cf1e6966c821 iommufd: Fix struct iommu_hwpt_pgfault init and padding
+f917016f69ba5a0c42a3a3327792707315f2a937 bcachefs: Reduce stack frame size of __bch2_str_hash_check_key()
+abb604a1a9c87255c7a6f3b784410a9707baf467 RDMA/mlx5: Fix a race for an ODP MR which leads to CQE with error
+dec6b006f4cc13968d75ed28673ca4e3633de96b ASoC: dt-bindings: ti,pcm1681: Fix the binding title
 8838a1a2d219a86ab05e679c73f68dd75a25aca5 Merge tag 'locking-core-2025-01-20' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 d3d930411ce390e532470194296658a960887773 RDMA/mlx5: Fix implicit ODP use after free
 a6640c8c2fc029f015c87672585931c6106971c1 Merge tag 'objtool-core-2025-01-20' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1033,22 +1050,5 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 5d82ca7b5019d880a579831278eb73cbbfdb87da Merge tag 'sh-for-v6.14-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
-9899fbc4993f5b46ddcbd1c11f5cec13d733db55 arm64: sysreg: Add layout for ICH_HCR_EL2
-592b44d766bb806e571d63311197c634cf042df9 arm64: sysreg: Add layout for ICH_VTR_EL2
-a6061ee5befceebdfe05e7fc26b3f051f907db27 arm64: sysreg: Add layout for ICH_MISR_EL2
-902cd9bb3b28bab0b3e4fe80ebc2d84d45257ff4 KVM: arm64: nv: Load timer before the GIC
-28375f3af8cc3d4d38693b90b3d81da6bbb07fb2 KVM: arm64: nv: Add ICH_*_EL2 registers to vpcu_sysreg
-4a4fe7b9d78715daa4d9bd31a407d9178d07e09c KVM: arm64: nv: Plumb handling of GICv3 EL2 accesses
-b48e7f8ec8ea9f72e67a34dd6698f58baeedbd99 KVM: arm64: nv: Sanitise ICH_HCR_EL2 accesses
-af3c86687d62ae76e0f8482217257b888e583340 KVM: arm64: nv: Nested GICv3 emulation
-c2d5514894ad9ef69103350064854d724211f33b KVM: arm64: nv: Handle L2->L1 transition on interrupt injection
-7812965a08ea3bfe76c5d85a2bed44f423a33399 KVM: arm64: nv: Add Maintenance Interrupt emulation
-2d7eab285eee0c84bdf8da603454d51518ca4271 KVM: arm64: nv: Respect virtual HCR_EL2.TWx setting
-4e590d98fa592e0c779d9951ead4492dc6978a17 KVM: arm64: nv: Request vPE doorbell upon nested ERET to L2
-cffbefe5308d9724360bf00634fc61e563a617a9 KVM: arm64: nv: Propagate used_lrs between L1 and L0 contexts
-1c4d8ae60e85d9df23eafb33b6e9d5a4d348fb5d KVM: arm64: nv: Fold GICv3 host trapping requirements into guest setup
-952f1fe5a6ccf07aa65cdded4497801b527e7fbd KVM: arm64: nv: Allow userland to set VGIC maintenance IRQ
-05321db26341c4e7fd3f1c61c4c4d44b4ed42cb8 KVM: arm64: nv: Fail KVM init if asking for NV without GICv3
-d67a07d33e149a9017b2fb2713b0d5b0b400120a KVM: arm64: nv: Add nested GICv3 tracepoints
 
---===============0840047725860832753==--
+--===============5320823927095949655==--
