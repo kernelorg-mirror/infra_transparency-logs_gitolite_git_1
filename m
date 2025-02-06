@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 06 Feb 2025 11:27:21 -0000
-Message-Id: <173884124166.3195183.185137141754886642@gitolite.kernel.org>
+Date: Thu, 06 Feb 2025 11:28:57 -0000
+Message-Id: <173884133700.3195925.17896449231554687385@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/20250206_peter_ujfalusi_asoc_sof_improve_the_spcm_and_ipc4_copier_prints
+  - ref: refs/heads/v6_20250206_quic_mohs_add_static_channel_mapping_between_soundwire_master_and_slave
     old: 0000000000000000000000000000000000000000
-    new: 583348bd65ceaf4a5067a6267dd236929e1b4b37
-  - ref: refs/heads/filen7mhFM
-    old: 0000000000000000000000000000000000000000
-    new: 0a7c85b516830c0bb088b0bdb2f2c50c76fc531a
+    new: 66075d4a043072f23a020f07cde93cd9ac3df4c0
