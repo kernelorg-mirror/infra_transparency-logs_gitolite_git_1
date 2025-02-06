@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6618773524386882971=="
+Content-Type: multipart/mixed; boundary="===============4060845015891031569=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 06 Feb 2025 04:59:11 -0000
-Message-Id: <173881795134.2885948.12351768130693036496@gitolite.kernel.org>
+Date: Thu, 06 Feb 2025 04:59:23 -0000
+Message-Id: <173881796322.2886150.11500182556888615973@gitolite.kernel.org>
 
---===============6618773524386882971==
+--===============4060845015891031569==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/security/vulns
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/gregkh-stat_scripts
-    old: 424bd00120efb1d489bfeeae688448caf29ef2d6
-    new: 1dba21799e3c6a480e73f6e48ed5d3d0e4f0e599
-    log: revlist-424bd00120ef-1dba21799e3c.txt
+  - ref: refs/heads/sasha-voting_results_cleanup
+    old: 3a371e25ba185acc3952387fa9633a67abd5de7f
+    new: 6278b9a531eda705fb8983320ed70d5f009dbf96
+    log: revlist-3a371e25ba18-6278b9a531ed.txt
 
---===============6618773524386882971==
+--===============4060845015891031569==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1738817981 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1738817992 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1738817950-1ba6b16fd860a1753b5602f5820b705c44da5528
+nonce 1738817962-a8d880734a492d0f005a0335b6105a1522c20d58
 
-424bd00120efb1d489bfeeae688448caf29ef2d6 1dba21799e3c6a480e73f6e48ed5d3d0e4f0e599 refs/heads/gregkh-stat_scripts
+3a371e25ba185acc3952387fa9633a67abd5de7f 6278b9a531eda705fb8983320ed70d5f009dbf96 refs/heads/sasha-voting_results_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmekQb0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IHcQAIS3cySr8eaq3ZTMRjCy
-lUdF9o3BrGOrLm2Jucfrwpmv9Tud9aUweeFlk1Hm0D0aRFR+rnOHQoFxn+AQSjot
-aDj5pFGjX77YiKCm9W+dsr7jDl4HtdNJY0j39v7MG7BSktUJKuCkgGNF0f/7Xmo1
-YQTnE+8GBfNONAiNhZcrtbg6efnWD3/rjCCKVF1+070/iCYVWnDrpgC1pvxI5ZnT
-AVkOKBkqqeChxR3U7ANTl3VHZAeu09cP+0QADXREzONNJgPZwA1BAHu2nDUZZuLn
-gIeRKwF81EVpCaK2F1/4WSEJn4CcZmHN5M25bAd+iE3GZaRDOoMPqLRd7qsBplze
-ZFJxhg2+on7tLvZCshE4d7uVXOBJY8bdXrC4j1KlY+RDNycdLbf90QcwOfX4x+Wj
-+h+Gibmx/TUPWHYbRNykXZmQawQXMxo333L4gQvMEyT1UalIRDH+ZSiqQLGnsSos
-EUcKTQ951TyLKv24qxDpV8itIbwd55hazOYZx1gHQVQedzw0/JUpsU0bQEBfC5fg
-kBIdePXH9W+g7nmucJzgcrZHz3IgCWQRdLkbVIFt+IKfY1qeVCvLBjqdYRM4i4y0
-bFYgqUmpXIFuL94n4k/etS4NrAqrprW4FKEd+v3na+orMGXZGExXStrdoluF2OsN
-9MkEI7zd2SfiRa41D6lvkK0M
-=hCxW
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmekQckbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uqAQAMHy59wFJgpDfOC8y4fp
+qfyrM2fWufhopxe+Lvbis3QBtwN+ty9E8Zg6ue737AJ6WaZxnBcUooBdQZJVgaqG
+t33L7IfF+07iz+IUCz7zT9nzaKxTctDiiPxW8K13o4xbSe47ygh8XqP7DHF1QVEN
+Vb4NChf+aAfYqJBRwKTOUCeiPJk4ycufosjmoVexxoeHAfKErGp0flNxhOVU3C/A
+qoxkyDNUxG7CRJmZSpaj/DIdkWe1AIb0O3F5FPRVeCXWMm4YGnRD+14lTUn231tT
+lpz40rewe+Xk8w+yLW7kltAJ1wzo/nVt54drs/eXiTqQUIiIr2CiwaT2TG5TCbhE
+WYBnm06va3wssyO6he4kn7bzPu4ZPBqwA3nYcKf7b0wPwxlkDZ1Ay5njIOhHl2Ga
+PV5xzwrdtNFEBqJv9BlGhO7u4PXlrZhA50AZ6V9jhN8SF1ILUAn40xn3eoLxm1At
+uWC2shPe2is5V5KbU0uH13sANMICnPgx2I0gJo0kT+PPzvOI+VHFI4zuv7rgForg
+H8C4lbVkDNRoibXLzytK2p9BZnTMLzy6c2wxwkKdZpR2+izPu1dyh36t6UzkKvRR
+iTU/XPSBrHh8xOqeDdtW3C2ZGTIelbfyspPhPSVezOELMfDQ8zdRVF5FWrQWJlFc
+CqaR+88qMfm1ji51tZSQutKX
+=EM7s
 -----END PGP SIGNATURE-----
 
---===============6618773524386882971==
+--===============4060845015891031569==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-424bd00120ef-1dba21799e3c.txt
+Content-Disposition: attachment; filename=revlist-3a371e25ba18-6278b9a531ed.txt
 
 16a814f25dadf311a58581554a90fcb3f529f93b tools/verhaal: update to 006 release
 92ab550e50c4db900dd7dcb76c6598e120f2d169 update cvelistV5
@@ -79,6 +79,6 @@ fcf4dd5eec382044bda1c6fb12a2d770ec4a477a add some cve ids that were requested
 1422f38c9ec8514bda0c9e9f200bade77a987e4a score: Add reviewer accuracy scoring script
 e8a2fb64b2b8f10a29eaef9a698af9912cd6757f remove old 6.7.y results files
 59e6af72586dc5481db0e47f65728525a8830066 move v6.11 reviews to a subdirectory
-1dba21799e3c6a480e73f6e48ed5d3d0e4f0e599 initial horrible scripts to maybe give us better stats
+6278b9a531eda705fb8983320ed70d5f009dbf96 voting_results: get rid of per-reviewer variable combinations
 
---===============6618773524386882971==--
+--===============4060845015891031569==--
