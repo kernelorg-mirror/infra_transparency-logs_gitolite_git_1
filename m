@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============2987692971640635153=="
+Content-Type: multipart/mixed; boundary="===============0667954343688748755=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 06 Feb 2025 11:31:31 -0000
-Message-Id: <173884149150.3199328.3495309087191055509@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 06 Feb 2025 11:31:34 -0000
+Message-Id: <173884149472.3199439.13661505068732500779@gitolite.kernel.org>
 
---===============2987692971640635153==
+--===============0667954343688748755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.14
+  - ref: refs/heads/asoc-6.14
     old: 98fcb50a98424efb9176d075c71e5af48b6104dd
     new: dabbd325b25edb5cdd99c94391817202dd54b651
     log: |
          dabbd325b25edb5cdd99c94391817202dd54b651 ASoC: simple-card-utils.c: add missing dlc->of_node
          
 
---===============2987692971640635153==
+--===============0667954343688748755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1738841520 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1738841489-cfc94449df96e9d1286c86223bbde15e67e22c5a
+pusher C3F436CA30F5D8EB 1738841523 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1738841492-79bd1af4be919a62b8ec8616834c99ca4e474a8e
 
-98fcb50a98424efb9176d075c71e5af48b6104dd dabbd325b25edb5cdd99c94391817202dd54b651 refs/heads/for-6.14
+98fcb50a98424efb9176d075c71e5af48b6104dd dabbd325b25edb5cdd99c94391817202dd54b651 refs/heads/asoc-6.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmeknbAACgkQJNaLcl1U
-h9Ddagf9FvDgw93IaG9jAMo0WaZnhw07a5Oom3NWsblNJ3WGF/6PAaUwqWfywXTd
-q2JD9CSz4hqGpluFsUz0RhjB1otx0+rXJvvblHW8bt168YXYUDW7FaPmWozNn7IH
-BpgOjHB/j7RIyFH+/GCgNtz64c++/ZQE4HouSVE87RE1bmgIuo528zL45y5YNK1S
-8EL65+ROfivXMrryMHZypwtkTKtUt6YfhbZgKu7zVBnXpDEs9aQS+LsSyKr6PfwT
-js2/cPl0UaTZqaBcDISeERF070qU2+5Z9fxv0lsS0iitep76mr50vU+KKNsHx/x0
-JOr3u8SGFDlbiOgc32rtFLWvFETiTg==
-=mzAg
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmeknbMACgkQJNaLcl1U
+h9CS6wf9HBApak5sEkBGHaeXcG1AXa5C0Zx3B8IkrISEMzwFSJKP6x80oXndGrCm
+qgRNdNUcQ+Y81mxuPvDIQuKM/fFE7+i9TgyYu7GOmt+sDFG8sckVWoH0S7z/7bIY
+UkvhNjtyDQpFoHHLkQhK+imCCp8ThBPfG9UuxIjeznFsB8dzTKJ8hmJPKsx3l75F
+f+WtaOWLb8XkTOjjjDhX0KlAi52ilbLq3MOSKUCrbNkhPW3Yn1VPzapNBA12sZ0Y
+nIcPfsFPQyAqwfrsKVaTxhNO/MLuVqw+RJsiGsqDL+kHOPaJBgxJlZZ+MCfK4ABC
+egslsEb4fh46udxbbBeNqUYILVCXig==
+=dqBi
 -----END PGP SIGNATURE-----
 
---===============2987692971640635153==--
+--===============0667954343688748755==--
