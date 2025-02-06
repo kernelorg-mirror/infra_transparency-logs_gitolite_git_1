@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============6580207899760447507=="
+Content-Type: multipart/mixed; boundary="===============0842570663623271636=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 06 Feb 2025 14:50:33 -0000
-Message-Id: <173885343302.3365889.2234992055207096100@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 06 Feb 2025 14:50:38 -0000
+Message-Id: <173885343829.3366113.8875622981573848974@gitolite.kernel.org>
 
---===============6580207899760447507==
+--===============0842570663623271636==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.14
+  - ref: refs/heads/asoc-6.14
     old: dabbd325b25edb5cdd99c94391817202dd54b651
     new: 33b7dc7843dbdc9b90c91d11ba30b107f9138ffd
     log: |
@@ -26,28 +26,28 @@ changes:
          33b7dc7843dbdc9b90c91d11ba30b107f9138ffd ASoC: SOF: Intel: hda: add softdep pre to snd-hda-codec-hdmi module
          
 
---===============6580207899760447507==
+--===============0842570663623271636==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1738853461 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1738853430-64a7c9706237464f08bdadc37a58070bb78485b1
+pusher C3F436CA30F5D8EB 1738853466 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1738853434-feb6203ff97178c3abea065ee83e310809ac8050
 
-dabbd325b25edb5cdd99c94391817202dd54b651 33b7dc7843dbdc9b90c91d11ba30b107f9138ffd refs/heads/for-6.14
+dabbd325b25edb5cdd99c94391817202dd54b651 33b7dc7843dbdc9b90c91d11ba30b107f9138ffd refs/heads/asoc-6.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmekzFUACgkQJNaLcl1U
-h9AvMQf/bjyps4zXe61yUEJ8jVRNHEDg9tmZnohUvM1beIddVOl1/aj7z429RIp5
-NqLxIs1sAT5J9483gHuINlxX+H0D6CFvEXHtdaCO4vV/HsHg41qNz1uc7Vk7lHkF
-O/aBpYekRRRpSmPCf1MFr/3JtzbdBVcht2oI/I4P9P2VT81wACw2JiM8fZYiJcgt
-hS6wh5VC4MGwMwtDyxlRURP6iFRcgGJXpYwiWt7m+VfUm7L9WEJyh3rr/Wrhx1sn
-uJAa2fO4Qpk3OMYNh3l5sDpPhDyhUiaIKu+uW07Nuog4vGE1vz0N4BXZzZo0lD6J
-q9FOoDEDiM2zbMLKt9iZyUn+HsYK7g==
-=21M9
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmekzFoACgkQJNaLcl1U
+h9BzZwf+PPxTSb+5d9NjFaP2mMXKyuxCDippBwsYLhfTmAKZjd9mPSZ/ldD6xKHa
+NMLZYefNNz7X7XgYU0wPwx67E7Ekv3L2pBGldqGjkmsNFEjq7mnAIydU5sQ5sbfB
+htyFQ5TgsRWMQ1HUvoM2HHmF+R2Da/mFF8M77S03dMuU8/oIw6QbKpyawYCbV/5j
+HBufH6On7sFIq47qS84OexzavmsKWtL0UjowHi0bAW7oQ6mM1b+xvSGRUNMegQDv
+/qE+TGmKpCAbnNhJtCTJKuZSZf8ENSfDI9SUYnj88J6rRVvHny5aWudJptHFKT+q
+aoNGLi9We3sWcURQrSKxJncBgkxNEg==
+=z9Nu
 -----END PGP SIGNATURE-----
 
---===============6580207899760447507==--
+--===============0842570663623271636==--
