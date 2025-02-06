@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4673548683916215424=="
+Content-Type: multipart/mixed; boundary="===============5520506598104402294=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Thu, 06 Feb 2025 12:28:41 -0000
-Message-Id: <173884492186.3247732.7488530654036255285@gitolite.kernel.org>
+Date: Thu, 06 Feb 2025 12:29:29 -0000
+Message-Id: <173884496960.3248121.13240789809758822853@gitolite.kernel.org>
 
---===============4673548683916215424==
+--===============5520506598104402294==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/x86/ibt
-    old: f0a46938a2a67fc658743af44d402e8a581e50fa
-    new: 7bd41bd286da50eae8f2e9c6ecf1a5a073186152
-    log: revlist-f0a46938a2a6-7bd41bd286da.txt
+  - ref: refs/heads/x86/fineibt-bhi
+    old: 8809691e8d030075802f730cd7277276d44c5dc5
+    new: f19d7450f93d2c4ca3c9ba0ae86a86d19549e925
+    log: revlist-8809691e8d03-f19d7450f93d.txt
 
---===============4673548683916215424==
+--===============5520506598104402294==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-f0a46938a2a6-7bd41bd286da.txt
+Content-Disposition: attachment; filename=revlist-8809691e8d03-f19d7450f93d.txt
 
-e3610441d1fb47b1f00e4c38bdf333176e824729 Merge tag 'rust-6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/ojeda/linux
-d0f93ac2c384c40202cf393fa7e8a2cac7004ba1 Merge tag 'docs-6.14' of git://git.lwn.net/linux
 66611c0475709607f398e2a5d691b1fc72fe9dfc fgraph: Remove calltime and rettime from generic operations
 b394eabd539d01db10e27b57ac2497cbd1d32c6d Merge tag 'chrome-platform-v6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/chrome-platform/linux
 7dd457a2fd78f3dd39aad4579d13e9eed2effbca Merge tag 'chrome-platform-firmware-v6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/chrome-platform/linux
@@ -1050,5 +1048,7 @@ ae9b67f402e1c64879463ffb594e18f02c561ad4 x86/boot: Mark start_secondary() with _
 3fe16e4abf207ae988902c01daea2454b027b3af x86/ibt: Clean up is_endbr()
 51d5c57b3827664291cd822ef7ac2de2b2e198ae x86/ibt: Clean up poison_endbr()
 7bd41bd286da50eae8f2e9c6ecf1a5a073186152 x86/early_printk: Harden early_serial
+9343eece83a57ea3bbf6d4841bd077d8cfbdb1f4 x86: BHI stubs
+f19d7450f93d2c4ca3c9ba0ae86a86d19549e925 x86/fineibt: Add FineIBT+BHI mitigation
 
---===============4673548683916215424==--
+--===============5520506598104402294==--
