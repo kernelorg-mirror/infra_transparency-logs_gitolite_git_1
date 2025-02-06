@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Thu, 06 Feb 2025 12:05:33 -0000
-Message-Id: <173884353349.3230620.17696230849843784563@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 06 Feb 2025 12:21:40 -0000
+Message-Id: <173884450057.3242617.1677310974503980119@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/master
-    old: d6d7d09ffe168cd99be900ed99bf1eeadbac4dae
-    new: e96a7c9d96170ca961acf9f352d467d77acfedd6
-    log: |
-         e96a7c9d96170ca961acf9f352d467d77acfedd6 include/debug: Relicense to Public Domain
-         
+  - ref: refs/tags/net-6.14-rc2
+    old: 0000000000000000000000000000000000000000
+    new: c78ef06fe010f627637cf8b42c187d67cbca17a4
