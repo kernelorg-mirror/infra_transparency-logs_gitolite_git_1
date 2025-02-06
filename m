@@ -1,29 +1,43 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Thu, 06 Feb 2025 10:52:46 -0000
-Message-Id: <173883916608.3166546.48431038116474664@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/chromeos
+Date: Thu, 06 Feb 2025 10:56:18 -0000
+Message-Id: <173883937849.3170013.1802156964035124007@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/iwlwifi/chromeos
+user: mkorenbl
 changes:
-  - ref: refs/heads/arm64/kvm/fpsimd-fixes
-    old: 246fa113d11e53f51bf13b25bcf85161c2290b37
-    new: ae1394688db1843d8b8b9627c9d37cdf975d31fb
-    log: |
-         a47ba8d2af94616da8287b0712f40b635d18dd0e KVM: arm64: Unconditionally save+flush host FPSIMD/SVE/SME state
-         482829d3e3085f6305303d889b9b4589d86e0972 KVM: arm64: Remove host FPSIMD saving for non-protected KVM
-         f40d7c0797df892c3f1e3f22e8c4169ddf329c2a KVM: arm64: Remove VHE host restore of CPACR_EL1.ZEN
-         b1d5b0bcd27b28e7b8a8b80582f77cef6491e341 KVM: arm64: Remove VHE host restore of CPACR_EL1.SMEN
-         8a4cc726ee2815961140da807a129ecebec5043a KVM: arm64: Refactor CPTR trap deactivation
-         7737eb98effe91f9ec0c1eb28771ef11daf7eca9 KVM: arm64: Refactor exit handlers
-         53d2aef66d4b7842f47283fe246af4ec20d7a011 KVM: arm64: Mark some header functions as inline
-         f210c1416cd671b95f4f380fc34673357994905d KVM: arm64: Eagerly switch ZCR_EL{1,2}
-         394df1a4378f4c79effecd2c4a8e6c98bc334e16 HACK: Log mismatched VL in fpsimd_save_user_state()
-         df4fc96570900455ef2d0d7bc67276bd1b6f06f5 HACK: Warn on unexpected VL when exiting guest
-         ae1394688db1843d8b8b9627c9d37cdf975d31fb HACK: Check the host's VL isn't artifically constrained
-         
+  - ref: refs/heads/chromeos-5.4__release/core93-82
+    old: 0000000000000000000000000000000000000000
+    new: a9125e652fdbb32aaa6aa0b1fcee90d5668c5904
+  - ref: refs/tags/chromeos-5.4__release/core93-2025-02-06
+    old: 0000000000000000000000000000000000000000
+    new: a9125e652fdbb32aaa6aa0b1fcee90d5668c5904
+  - ref: refs/heads/chromeos-5.10__release/core93-82
+    old: 0000000000000000000000000000000000000000
+    new: 6e11d28bc0ee564c94b014b3df41a0834089df5e
+  - ref: refs/tags/chromeos-5.10__release/core93-2025-02-06
+    old: 0000000000000000000000000000000000000000
+    new: 6e11d28bc0ee564c94b014b3df41a0834089df5e
+  - ref: refs/heads/chromeos-5.15__release/core93-82
+    old: 0000000000000000000000000000000000000000
+    new: 31863eda4fedeb52e78c3a7a41ddad4cd5dc78b6
+  - ref: refs/tags/chromeos-5.15__release/core93-2025-02-06
+    old: 0000000000000000000000000000000000000000
+    new: 31863eda4fedeb52e78c3a7a41ddad4cd5dc78b6
+  - ref: refs/heads/chromeos-6.1__release/core93-82
+    old: 0000000000000000000000000000000000000000
+    new: 990406cc2f9a8f40d55c1460563fb3b8c9be0c9e
+  - ref: refs/tags/chromeos-6.1__release/core93-2025-02-06
+    old: 0000000000000000000000000000000000000000
+    new: 990406cc2f9a8f40d55c1460563fb3b8c9be0c9e
+  - ref: refs/heads/chromeos-6.6__release/core93-82
+    old: 0000000000000000000000000000000000000000
+    new: 23052dc8fc1423baee679e4fd1c8446902965cd2
+  - ref: refs/tags/chromeos-6.6__release/core93-2025-02-06
+    old: 0000000000000000000000000000000000000000
+    new: 23052dc8fc1423baee679e4fd1c8446902965cd2
