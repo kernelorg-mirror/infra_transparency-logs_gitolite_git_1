@@ -1,9 +1,13 @@
+Content-Type: multipart/mixed; boundary="===============3126927040857572491=="
+MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 06 Feb 2025 16:16:15 -0000
-Message-Id: <173885857544.3437634.1554982681056074468@gitolite.kernel.org>
+Date: Thu, 06 Feb 2025 16:16:20 -0000
+Message-Id: <173885858050.3437820.6355541946766662728@gitolite.kernel.org>
+
+--===============3126927040857572491==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -11,6 +15,27 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/20250204_yung_chuan_liao_asoc_intel_sof_sdw_add_support_for_new_devices
-    old: d8989106287d3735c7e7fc6acb3811d62ebb666c
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/asoc-6.14
+    old: 0b06000704f8ae72056ad777a67742b7799d6660
+    new: 7858defd60d1f2d8e9f32bedb00ac754c3bdf69a
+    log: revlist-0b06000704f8-7858defd60d1.txt
+
+--===============3126927040857572491==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-0b06000704f8-7858defd60d1.txt
+
+fc016ef7da64fd473d73ee6c261ba1b0b47afe2b ASoC: Intel: sof_sdw: Add lookup of quirk using PCI subsystem ID
+0843449708085c4fb45a3c325c2fbced556f6abf ASoC: Intel: sof_sdw: Add quirk for Asus Zenbook S14
+d8989106287d3735c7e7fc6acb3811d62ebb666c ASoC: Intel: sof_sdw: Add support for Fatcat board with BT offload enabled in PTL platform
+796106e29e5df6cd4b4e2b51262a8a19e9fa0625 ASoC: rsnd: indicate unsupported clock rate
+c3fc002b206c6c83d1e3702b979733002ba6fb2c ASoC: rsnd: don't indicate warning on rsnd_kctrl_accept_runtime()
+89f9cf185885d4358aa92b48e51d0f09b71775aa ASoC: rsnd: adjust convert rate limitation
+d8d99c3b5c485f339864aeaa29f76269cc0ea975 ASoC: SOF: stream-ipc: Check for cstream nullity in sof_ipc_msg_data()
+46c7b901e2a03536df5a3cb40b3b26e2be505df6 ASoC: SOF: pcm: Clear the susbstream pointer to NULL on close
+b9cb90a5bf9d0e96e4ff353d113b8a483f2e3942 ASoC: rsnd: adjust convert rate in 1%
+199b87f1409b936cc23a8ba2d66a1ce962db7f0f ASoC: SOF: Correct sps->stream and cstream nullity
+7858defd60d1f2d8e9f32bedb00ac754c3bdf69a ASoC: Intel: sof_sdw: Add support for new devices
+
+--===============3126927040857572491==--
