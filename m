@@ -1,27 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Thu, 06 Feb 2025 17:05:52 -0000
-Message-Id: <173886155258.3480343.16278408763908356055@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
+Date: Thu, 06 Feb 2025 17:23:51 -0000
+Message-Id: <173886263199.3492903.1385983101303468205@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wsa/linux
-user: wsa
+repo: pub/scm/fs/xfs/xfsprogs-dev
+user: aalbersh
 changes:
-  - ref: refs/heads/i2c/for-current
-    old: 2014c95afecee3e76ca4a56956a936e23283f05b
-    new: 3bfa08fe9ec8dd79e183c88e1275be74191e7bc8
+  - ref: refs/heads/for-next
+    old: ca10888d51a51ccb8ef02c9182c554eee4493aac
+    new: eff7226942a59fc78e8ecd7577657c30ed0cf9a8
     log: |
-         c4d3dfd8ccaef2cbd374860e307f1e056854a472 Revert "i2c: Replace list-based mechanism for handling userspace-created clients"
-         3bfa08fe9ec8dd79e183c88e1275be74191e7bc8 Revert "i2c: Replace list-based mechanism for handling auto-detected clients"
-         
-  - ref: refs/heads/i2c/for-next
-    old: 2014c95afecee3e76ca4a56956a936e23283f05b
-    new: 3bfa08fe9ec8dd79e183c88e1275be74191e7bc8
-    log: |
-         c4d3dfd8ccaef2cbd374860e307f1e056854a472 Revert "i2c: Replace list-based mechanism for handling userspace-created clients"
-         3bfa08fe9ec8dd79e183c88e1275be74191e7bc8 Revert "i2c: Replace list-based mechanism for handling auto-detected clients"
+         a62ea4ad9cacac5fa82c0df45b3f7248cf255d9c mkfs: fix file size setting when interpreting a protofile
+         a9d781ec5505b9b96641f6130f043e45b7573307 xfs_protofile: fix mode formatting error
+         eff7226942a59fc78e8ecd7577657c30ed0cf9a8 xfs_protofile: fix device number encoding
          
