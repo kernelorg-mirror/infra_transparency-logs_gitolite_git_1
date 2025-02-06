@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============4146973335067345411=="
+Content-Type: multipart/mixed; boundary="===============5738321572439292445=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 06 Feb 2025 17:29:04 -0000
-Message-Id: <173886294422.3497027.2544883153432293880@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 06 Feb 2025 17:29:08 -0000
+Message-Id: <173886294814.3497201.12623273177990015309@gitolite.kernel.org>
 
---===============4146973335067345411==
+--===============5738321572439292445==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.14
+  - ref: refs/heads/asoc-6.14
     old: 0b06000704f8ae72056ad777a67742b7799d6660
     new: 7858defd60d1f2d8e9f32bedb00ac754c3bdf69a
     log: revlist-0b06000704f8-7858defd60d1.txt
-  - ref: refs/heads/for-6.15
+  - ref: refs/heads/asoc-6.15
     old: 6eab7034579917f207ca6d8e3f4e11e85e0ab7d5
     new: 6603c5133daadbb3277fbd93be0d0d5b8ec928e8
     log: |
@@ -31,32 +31,32 @@ changes:
          6603c5133daadbb3277fbd93be0d0d5b8ec928e8 ASoC: dt-bindings: atmel,at91-ssc: Convert to YAML format
          
 
---===============4146973335067345411==
+--===============5738321572439292445==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1738862972 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1738862941-2fd05653e649be2ca04456fb922d081e584d4b93
+pusher C3F436CA30F5D8EB 1738862975 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1738862945-c0b0bc782dae37ea059a24e947fc31261f17ae5f
 
-0b06000704f8ae72056ad777a67742b7799d6660 7858defd60d1f2d8e9f32bedb00ac754c3bdf69a refs/heads/for-6.14
-6eab7034579917f207ca6d8e3f4e11e85e0ab7d5 6603c5133daadbb3277fbd93be0d0d5b8ec928e8 refs/heads/for-6.15
+0b06000704f8ae72056ad777a67742b7799d6660 7858defd60d1f2d8e9f32bedb00ac754c3bdf69a refs/heads/asoc-6.14
+6eab7034579917f207ca6d8e3f4e11e85e0ab7d5 6603c5133daadbb3277fbd93be0d0d5b8ec928e8 refs/heads/asoc-6.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmek8XwACgkQJNaLcl1U
-h9ChlAf/VUNCHymWB1vRQUtKhLvj6bNESbZAwDTHyjsEhhHon0tZ8hz0oV0+aXIb
-U+l0SuML0MuY5g0+d+Lnbh8gAhn02erI5A4eDxm427uajSi0ipLwP3RKP9cpMDXQ
-K0H9ckOY0lMcTEP3F/AKLzwV2xJbOkETNwgkDKFjvF5vaxorencvPfr3ngNNfURN
-gzA3Zolq+ysHqbOR7bxB8LsIKQWJHAaf7rmPJSg61Apa3XJdQAkS+WUNjZZWqZDM
-mn32KI86CdM/NADYNHhFIPUIgc/W+EBib13K733BFtU0ed1daHg02tjPUlH2qbJs
-gQsL4EafljJVaxUwAITKJrAoSWm4xw==
-=CB7D
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmek8X8ACgkQJNaLcl1U
+h9BPigf/UGavN5FFVUKXxm/3Z+SDxCP70D/gqiqGoximwn428n8stNvzHzsB/1q5
+2q4fS0ysXO8pP6nU4gdES3rpxobyb2Nkzfta8f2IK+g6fxE3Ugei8Q9QYDCvp4/s
+hetlt3qsVnUNhnD94Dfyom57NPGFesgOTmIKKQG6Jx73zIRPP/yJNHEXbPhoQLT5
+qnY+0HJ+YN87qtnPhmx/X93bE3yKsVtWYzNe5gZQ36JpDuxdVlkN/5IdxmeXQ44o
+yzpquCd3qJidB0bi0BZR6udqi3eD66MWamUINdwd8VpLOKp6rNP8d9AbaaQaju1A
+EEjav00WyxcvR0m8yNhfQLK8KZYcIQ==
+=IIXT
 -----END PGP SIGNATURE-----
 
---===============4146973335067345411==
+--===============5738321572439292445==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -74,4 +74,4 @@ b9cb90a5bf9d0e96e4ff353d113b8a483f2e3942 ASoC: rsnd: adjust convert rate in 1%
 199b87f1409b936cc23a8ba2d66a1ce962db7f0f ASoC: SOF: Correct sps->stream and cstream nullity
 7858defd60d1f2d8e9f32bedb00ac754c3bdf69a ASoC: Intel: sof_sdw: Add support for new devices
 
---===============4146973335067345411==--
+--===============5738321572439292445==--
