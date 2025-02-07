@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0147595359550589608=="
+Content-Type: multipart/mixed; boundary="===============2872575205390824235=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 07 Feb 2025 16:29:58 -0000
-Message-Id: <173894579800.445644.16798119522415744428@gitolite.kernel.org>
+Date: Fri, 07 Feb 2025 16:30:01 -0000
+Message-Id: <173894580165.445746.16501103630053569625@gitolite.kernel.org>
 
---===============0147595359550589608==
+--===============2872575205390824235==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 2a64c96356c87aa8af826605943e5524bf45e24d
     new: 1438f5d07b9a7afb15e1d0e26df04a6fd4e56a3c
     log: revlist-2a64c96356c8-1438f5d07b9a.txt
 
---===============0147595359550589608==
+--===============2872575205390824235==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -427,4 +427,4 @@ b768294d449da6d7dc0667c1ec92dc4af6ef766b ipv6: Use RCU in ip6_input()
 bca0902e61731a75fc4860c8720168d9f1bae3b6 ax25: Fix refcount leak caused by setting SO_BINDTODEVICE sockopt
 1438f5d07b9a7afb15e1d0e26df04a6fd4e56a3c rtnetlink: fix netns leak with rtnl_setlink()
 
---===============0147595359550589608==--
+--===============2872575205390824235==--
