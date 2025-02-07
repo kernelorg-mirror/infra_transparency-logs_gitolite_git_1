@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============6260444714949226793=="
+Content-Type: multipart/mixed; boundary="===============0231761807006229919=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 07 Feb 2025 14:01:30 -0000
-Message-Id: <173893689076.322765.305568926928959874@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 07 Feb 2025 14:01:34 -0000
+Message-Id: <173893689460.322950.14293712755305160437@gitolite.kernel.org>
 
---===============6260444714949226793==
+--===============0231761807006229919==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.15
+  - ref: refs/heads/asoc-6.15
     old: 4c7518062d638837cea915e0ffe30f846780639a
     new: 6b8f162bd3fa82c3c1b3653100d04172c1dbd8a5
     log: revlist-4c7518062d63-6b8f162bd3fa.txt
 
---===============6260444714949226793==
+--===============0231761807006229919==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1738936918 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1738936888-dd14ac9021efb90d156bd857d7f840d94c3463f9
+pusher C3F436CA30F5D8EB 1738936922 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1738936891-26fd0007fbd60973317792f4430a11f281f1d6c9
 
-4c7518062d638837cea915e0ffe30f846780639a 6b8f162bd3fa82c3c1b3653100d04172c1dbd8a5 refs/heads/for-6.15
+4c7518062d638837cea915e0ffe30f846780639a 6b8f162bd3fa82c3c1b3653100d04172c1dbd8a5 refs/heads/asoc-6.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmemElYACgkQJNaLcl1U
-h9CPYAf+IZsaGcszB1c9ZwRgDQHwnZCevenVOGvRDSZ51nqNaFKR7Nvf1DNZHrwu
-mwQRdacIlv1YtvnX13Y1HMQTh/LNLnZNQduH2N2OcnVRpur1gRkc8Xm7fufV2483
-iGbC2ntVXTlceg//lSNAX8UEHhT3qVEuyXmD23a4AZMYyyyC1Ufs13FOIqYGFEtQ
-m8jpsl+hpLcz8swJerDlcfGOIwbQiEIfg4eW5F0uK12DxoMNV7bjvAFzYwzJbqxJ
-y5inx3BYaCoHN0IOEjW7sxUxnIJ5gWpK/zM32W3PPqGd9yDz+RIUl1lEweV7fblh
-oiY/Adb8jbBOZIQ3lwHcO7TnUH1ueQ==
-=b500
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmemEloACgkQJNaLcl1U
+h9CyrQf+POM46QESqJod3K42TysblqY+tHebo5aiR8ecGZcde+3wH8U6sNk7dpGl
+X0+U9bqlnqca6rRUJJcC8PlYpz4jOsLh/UVPH/uAn7DxsimcZR4mW7W7CQ4CHqNI
+149z2Ytk4WpcGeuOqaF54mAmIRBXUfPcN3Tm4Cce3GxZnYdEFidUgU5TnYoLbQ8u
+2RijvkVHC4TxkSVnbLXTjFm+U/1NpYKDnrMDTIy/pA3XKiW57K7bqgoFbdB+qwcw
+0r8cU/OSj3fYGFfLHLrhzK8XWtsx1xO6gEuSfpkzrPM1U6LRL7uW3pjwHd5rvVwh
+Jambeo87lwJ5mkEY6GMaIo8ke9Qq8g==
+=Gbg3
 -----END PGP SIGNATURE-----
 
---===============6260444714949226793==
+--===============0231761807006229919==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -95,4 +95,4 @@ f0703ce627a25b4a1307d8a92cfd6d6bf7e27e7a ASoC: cpcap: Implement jack headset det
 46ab7d80ed4f378e02cb249bd49a76026a2d683f Add static channel mapping between soundwire master
 6b8f162bd3fa82c3c1b3653100d04172c1dbd8a5 ASoC: SOF: Improve the spcm and ipc4 copier prints
 
---===============6260444714949226793==--
+--===============0231761807006229919==--
