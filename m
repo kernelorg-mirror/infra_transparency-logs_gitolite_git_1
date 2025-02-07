@@ -1,57 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============0231761807006229919=="
+Content-Type: multipart/mixed; boundary="===============8833279204510622554=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 07 Feb 2025 14:01:34 -0000
-Message-Id: <173893689460.322950.14293712755305160437@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 07 Feb 2025 14:01:42 -0000
+Message-Id: <173893690285.323184.2593125153285030714@gitolite.kernel.org>
 
---===============0231761807006229919==
+--===============8833279204510622554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.15
-    old: 4c7518062d638837cea915e0ffe30f846780639a
-    new: 6b8f162bd3fa82c3c1b3653100d04172c1dbd8a5
-    log: revlist-4c7518062d63-6b8f162bd3fa.txt
+  - ref: refs/heads/for-next
+    old: 23836ddfa90ea2e38dd485bed6ce40f08e882090
+    new: 7c01c2458153ec229cc548a980ba2dc80673c880
+    log: revlist-23836ddfa90e-7c01c2458153.txt
 
---===============0231761807006229919==
+--===============8833279204510622554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-23836ddfa90e-7c01c2458153.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1738936922 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1738936891-26fd0007fbd60973317792f4430a11f281f1d6c9
-
-4c7518062d638837cea915e0ffe30f846780639a 6b8f162bd3fa82c3c1b3653100d04172c1dbd8a5 refs/heads/asoc-6.15
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmemEloACgkQJNaLcl1U
-h9CyrQf+POM46QESqJod3K42TysblqY+tHebo5aiR8ecGZcde+3wH8U6sNk7dpGl
-X0+U9bqlnqca6rRUJJcC8PlYpz4jOsLh/UVPH/uAn7DxsimcZR4mW7W7CQ4CHqNI
-149z2Ytk4WpcGeuOqaF54mAmIRBXUfPcN3Tm4Cce3GxZnYdEFidUgU5TnYoLbQ8u
-2RijvkVHC4TxkSVnbLXTjFm+U/1NpYKDnrMDTIy/pA3XKiW57K7bqgoFbdB+qwcw
-0r8cU/OSj3fYGFfLHLrhzK8XWtsx1xO6gEuSfpkzrPM1U6LRL7uW3pjwHd5rvVwh
-Jambeo87lwJ5mkEY6GMaIo8ke9Qq8g==
-=Gbg3
------END PGP SIGNATURE-----
-
---===============0231761807006229919==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4c7518062d63-6b8f162bd3fa.txt
-
-a8c9a453387640dbe45761970f41301a6985e7fa ASoC: fsl_micfil: Enable default case in micfil_set_quality()
 5b4288792ff246cf2bda0c81cebcc02d1f631ca3 ASoC: cpcap: Implement .set_bias_level
 02d4a97ce30c0494ce6a614cd54d583caa0f8016 dt-bindings: mfd: motorola-cpcap: Document audio-codec interrupts
 7ed1b265021dd13ce5619501b388e489ddc8e204 ASoC: cpcap: Implement jack detection
@@ -66,13 +40,8 @@ f0173cbe7fa79eafbdf32eed32337209f84ddacd ASoC: Intel: avs: New gateway configura
 320155a61f7fc810a915644e9e2a451bdcea90b1 ASoC: Intel: avs: Remove unused gateway configuration code
 4343af66b8e1df1d3a2e6f1f8612506cb45b2afd ASoC: Intel: avs: Add WHM module support
 856366dc924a9561dae39f252b45dfd6cc6895ce ALSA: hda: Select avs-driver by default on MBL
-3588b76db7ba798f54dee39a55708b16e1c61de4 ASoC: Intel: soc-acpi-intel-tgl-match: declare adr as ull
-20efccc53abf99fa52ea30a43dec758f6b6b9940 ASoC: Intel: soc-acpi-intel-mtl-match: declare adr as ull
-6b24e67b4056ba83b1e95e005b7e50fdb1cc6cf4 ASoC: rockchip: i2s-tdm: fix shift config for SND_SOC_DAIFMT_DSP_[AB]
 8478dadc8148af311c3d43d4867cfb6632686ede ASoC: dt-bindings: Add bindings for WCD934x DAIs
 e27c125040b1e1f26d910b46daabbe55e67fdf3b ASoC: codecs: wcd934x: use wcd934x binding header
-98fcb50a98424efb9176d075c71e5af48b6104dd ASoC: Intel: soc-acpi-intel-tgl/mtl-match: declare adr
-dabbd325b25edb5cdd99c94391817202dd54b651 ASoC: simple-card-utils.c: add missing dlc->of_node
 169ec0a541aac8afb215ab591b0fd53276686014 ASoC: SOF: Relocate and rework functionality for PCM stream freeing
 4d2ea16576c8aa1437048cf436bff85653f139fe ASoC: SOF: pcm: Move period/buffer configuration print after platform open
 860693187c597645b28a421d8acb26428b8afd3f ASoC: SOF: pcm: Add snd_sof_pcm specific wrappers for dev_dbg() and dev_err()
@@ -94,5 +63,6 @@ f2d161e5804d8da070988624b9edd179ef31b478 ASoC: and adn use snd_soc_ret()
 f0703ce627a25b4a1307d8a92cfd6d6bf7e27e7a ASoC: cpcap: Implement jack headset detection
 46ab7d80ed4f378e02cb249bd49a76026a2d683f Add static channel mapping between soundwire master
 6b8f162bd3fa82c3c1b3653100d04172c1dbd8a5 ASoC: SOF: Improve the spcm and ipc4 copier prints
+7c01c2458153ec229cc548a980ba2dc80673c880 Merge remote-tracking branch 'asoc/for-6.15' into asoc-next
 
---===============0231761807006229919==--
+--===============8833279204510622554==--
