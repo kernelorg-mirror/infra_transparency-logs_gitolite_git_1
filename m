@@ -1,32 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Fri, 07 Feb 2025 13:28:14 -0000
-Message-Id: <173893489415.295001.17512105920910434989@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Fri, 07 Feb 2025 13:28:43 -0000
+Message-Id: <173893492354.295320.10656796496410289083@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/for-6.14/upstream-fixes
-    old: 0b43d98ff29be3144e86294486b1373b5df74c0e
-    new: b051ffa2aeb2a60e092387b6fb2af1ad42f51a3c
+  - ref: refs/heads/validate_fpu_and_vector
+    old: e77103ea486e38201b97163e5fb2571629d06b01
+    new: 03ec207693ba44f4557ce32921c2eb95890c038c
     log: |
-         79504249d7e27cad4a3eeb9afc6386e418728ce0 HID: hid-steam: Move hidraw input (un)registering to work
-         b051ffa2aeb2a60e092387b6fb2af1ad42f51a3c HID: hid-steam: Don't use cancel_delayed_work_sync in IRQ context
+         a5008a56f5a15ed3e00acbb2bfe3c1f5538608c6 RISC-V: add vector extension validation checks
+         53e0edbd269f81ec53d80cd78b93e22c9c4fa958 RISC-V: add vector crypto extension validation checks
+         845adfd5fb1adcd916525b753b7a26cbf539edea RISC-V: add f & d extension validation checks
+         0ab667802296379469c05aa1c1d13bab7c6c5a52 dt-bindings: riscv: d requires f
+         4e62127a6261431b482b03f89c3247bfc6bc9f01 dt-bindings: riscv: add vector sub-extension dependencies
+         03ec207693ba44f4557ce32921c2eb95890c038c dt-bindings: riscv: document vector crypto requirements
          
-  - ref: refs/heads/for-next
-    old: 4e4ffaf3c5ce699499a31c80ddaeb5f004447842
-    new: 4f57d69747c54bfb15047cbea146eb6d984f1a53
-    log: |
-         79504249d7e27cad4a3eeb9afc6386e418728ce0 HID: hid-steam: Move hidraw input (un)registering to work
-         b051ffa2aeb2a60e092387b6fb2af1ad42f51a3c HID: hid-steam: Don't use cancel_delayed_work_sync in IRQ context
-         41ab65301d0319df771bce29ee6c07fc112cebd9 HID: hid-steam: Mutex cleanup in steam_set_lizard_mode()
-         4f57d69747c54bfb15047cbea146eb6d984f1a53 Merge branches 'for-6.15/steam' and 'for-6.14/upstream-fixes' into for-next
-         
-  - ref: refs/heads/for-6.15/steam
-    old: 0000000000000000000000000000000000000000
-    new: 41ab65301d0319df771bce29ee6c07fc112cebd9
