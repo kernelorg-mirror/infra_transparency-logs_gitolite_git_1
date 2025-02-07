@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/morse/linux
-Date: Fri, 07 Feb 2025 17:22:04 -0000
-Message-Id: <173894892482.490067.9206035593939387959@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/linux
+Date: Fri, 07 Feb 2025 17:22:43 -0000
+Message-Id: <173894896360.490559.17845621019216719644@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/morse/linux
-user: morse
+repo: pub/scm/linux/kernel/git/tnguy/linux
+user: tnguy
 changes:
-  - ref: refs/heads/mpam/move_to_fs/v6
+  - ref: refs/heads/idpf-rdma
     old: 0000000000000000000000000000000000000000
-    new: 64e873a1ce9c15dd31f8bae9e7f0fe564562e806
+    new: 2014c95afecee3e76ca4a56956a936e23283f05b
