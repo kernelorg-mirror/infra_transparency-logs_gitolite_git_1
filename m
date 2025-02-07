@@ -1,25 +1,47 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Fri, 07 Feb 2025 19:14:19 -0000
-Message-Id: <173895565967.587439.2553493983634692819@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7802760036299675461=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djwong/xfs-linux
+Date: Fri, 07 Feb 2025 19:19:21 -0000
+Message-Id: <173895596175.591735.13159522288597308603@gitolite.kernel.org>
+
+--===============7802760036299675461==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/djwong/xfs-linux
+user: djwong
 changes:
-  - ref: refs/heads/main-pending
-    old: e440137f3eac2635b11062fe7b197f1fa0920806
-    new: 0520718cffb8db005517c92db5d49e93252bdddd
-    log: |
-         4826d6dcfc245813ee12c67facd4881395b4f915 wifi: ath12k: Enable MLO setup ready and teardown commands for single split-phy device
-         5924fa58814fa492c3b725f87b49e46121bbb656 wifi: ath12k: Remove dependency on single_chip_mlo_support for mlo_capable flag
-         58a72fde041ad49a3f26261c7c66c5ef80685800 wifi: ath12k: Enable MLO for single split-phy PCI device
-         0520718cffb8db005517c92db5d49e93252bdddd Merge branch 'pending' into main-pending
-         
-  - ref: refs/tags/ath-pending-202502071901
+  - ref: refs/heads/next-6.12.y
+    old: b29b12d17c1994721a48e5cd9dd21163fc375dd9
+    new: 58417877eb4b79abd92dc7902314622a721a0714
+    log: revlist-b29b12d17c19-58417877eb4b.txt
+  - ref: refs/tags/stable-rc/linux-6.12.y_2025-02-07
     old: 0000000000000000000000000000000000000000
-    new: 0520718cffb8db005517c92db5d49e93252bdddd
+    new: 1c4f0822d85e26841b05348577dd697c5d6c8fcc
+  - ref: refs/tags/next-6.12.y_2025-02-07
+    old: 0000000000000000000000000000000000000000
+    new: 08d20025d91ae71dfd214fc714907ff41461c698
+
+--===============7802760036299675461==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-b29b12d17c19-58417877eb4b.txt
+
+6386f854703366ddece57c82581c688427af30c1 xfs: avoid nested calls to __xfs_trans_commit
+cf044eb44ecda33faf9a68ef8af0ec7a790a0270 xfs: don't lose solo superblock counter update transactions
+7b5894a995cd7affc4969524fcb29b0f9218ca66 xfs: don't lose solo dquot update transactions
+38220e200d914ead2cb89632a443e4dabf54eeda xfs: separate dquot buffer reads from xfs_dqflush
+ff88dc029241395a5061513f2267f100ceaf7139 xfs: clean up log item accesses in xfs_qm_dqflush{,_done}
+daf68788581674acf72de8b9ea82b90940be4b69 xfs: attach dquot buffer to dquot log item buffer
+4633b675455111ce7ee198f47488ffc4ca8533bd xfs: convert quotacheck to attach dquot buffers
+5690d1eef55a5b9af4e44db082a154d5cec4f261 xfs: don't over-report free space or inodes in statvfs
+7ddda38daa36402869f7978b4f374cd507f08c42 xfs: release the dquot buf outside of qli_lock
+c7be65ffc41a9b06f7e65dc614abe95750e7fab4 xfs: lock dquot buffer before detaching dquot from b_li_list
+58417877eb4b79abd92dc7902314622a721a0714 xfs: fix mount hang during primary superblock recovery failure
+
+--===============7802760036299675461==--
