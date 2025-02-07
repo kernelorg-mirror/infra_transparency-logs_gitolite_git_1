@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 07 Feb 2025 21:51:42 -0000
-Message-Id: <173896510296.717306.3490286431872023111@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Fri, 07 Feb 2025 21:56:03 -0000
+Message-Id: <173896536324.721105.2724350043346932920@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/libs/ell/ell
+user: holtmann
 changes:
-  - ref: refs/heads/main
-    old: 1438f5d07b9a7afb15e1d0e26df04a6fd4e56a3c
-    new: cb827db50a88aebec516151681adb6db10b688ee
+  - ref: refs/heads/master
+    old: b8f1def6d0c063ba1be8ef166f8068649edd3c3d
+    new: 51b277a3c1883391f3bd6a1717242a64fcbf9a3b
     log: |
-         cb827db50a88aebec516151681adb6db10b688ee net: fib_rules: annotate data-races around rule->[io]ifindex
+         51b277a3c1883391f3bd6a1717242a64fcbf9a3b test: Add support for TAP, the Test Anything Protocol
          
