@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Fri, 07 Feb 2025 15:03:21 -0000
-Message-Id: <173894060195.372330.4091034491682651379@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Fri, 07 Feb 2025 15:07:25 -0000
+Message-Id: <173894084506.376045.4152444509632391676@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/for-next
-    old: 4f57d69747c54bfb15047cbea146eb6d984f1a53
-    new: 85319a8a27c1ee0fdbb2dcf71afbfb6b8201f693
+  - ref: refs/heads/pending
+    old: a67de7103957fd272dfec93cbf822cc527bea7f8
+    new: 09a2421b6e5f617cfbeab906fa8037dda4aa95b8
     log: |
-         c600a55922640b1c4dcfdc5a694cadd2dd9d1599 HID: core: Add reserved item tag for main items
-         85319a8a27c1ee0fdbb2dcf71afbfb6b8201f693 Merge branch 'for-6.15/core' into for-next
+         09a2421b6e5f617cfbeab906fa8037dda4aa95b8 wifi: ath12k: Fix locking in "QMI firmware ready" error paths
          
-  - ref: refs/heads/for-6.15/core
-    old: 0000000000000000000000000000000000000000
-    new: c600a55922640b1c4dcfdc5a694cadd2dd9d1599
