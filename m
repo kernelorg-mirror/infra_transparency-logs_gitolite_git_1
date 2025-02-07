@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6045360727915798007=="
+Content-Type: multipart/mixed; boundary="===============4243336038614667331=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/djiang/linux
-Date: Fri, 07 Feb 2025 23:32:07 -0000
-Message-Id: <173897112741.796670.4518576823022349106@gitolite.kernel.org>
+Date: Fri, 07 Feb 2025 23:32:23 -0000
+Message-Id: <173897114316.796966.12861482122630220492@gitolite.kernel.org>
 
---===============6045360727915798007==
+--===============4243336038614667331==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,26 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/djiang/linux
 user: djiang
 changes:
-  - ref: refs/heads/cxl/features
-    old: 6e1e0045c6883e7e451c364c69bf78c095ac28d9
-    new: a3690b2aad5f9c9c86c6dc6b01a55e5fd8c2a53d
-    log: revlist-6e1e0045c688-a3690b2aad5f.txt
+  - ref: refs/heads/cxl/fwctl
+    old: c408ef0c148af57c4ba76fc993952467d730a2d4
+    new: 2ad713178275250c08fd3df6682dff12d01ff33c
+    log: revlist-c408ef0c148a-2ad713178275.txt
 
---===============6045360727915798007==
+--===============4243336038614667331==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6e1e0045c688-a3690b2aad5f.txt
+Content-Disposition: attachment; filename=revlist-c408ef0c148a-2ad713178275.txt
 
-8838a1a2d219a86ab05e679c73f68dd75a25aca5 Merge tag 'locking-core-2025-01-20' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-d3d930411ce390e532470194296658a960887773 RDMA/mlx5: Fix implicit ODP use after free
-a6640c8c2fc029f015c87672585931c6106971c1 Merge tag 'objtool-core-2025-01-20' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-6c4aa896ebee5edf2b35a9d071e5a468797f96d8 Merge tag 'perf-core-2025-01-20' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-858df1de2158bd7ab88d31b557592e990bacc0b5 Merge tag 'x86-cleanups-2025-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-70741cc38463371914f49a1f4fda5de2afdc4c86 Merge branches 'clk-cleanup', 'clk-renesas', 'clk-mediatek', 'clk-samsung' and 'clk-socfpga' into clk-next
-b2fee97e6f0b6b935918744f44ca80246a18289e Merge branches 'clk-microchip', 'clk-xilinx', 'clk-allwinner', 'clk-imx' and 'clk-qcom' into clk-next
-1d2da923fb985bb57cc161316c76edb8d567b9bd Merge branches 'clk-airoha', 'clk-rockchip', 'clk-stm', 'clk-thead' and 'clk-bcm' into clk-next
-53c9c27672bb0241998ddf2d1588106920d4064b Merge branch 'clk-fixes' into clk-next
 62de6e1685269e1637a6c6684c8be58cc8d4ff38 Merge tag 'sched-core-2025-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f26d37ee9bda938e968d0e11ba1f8f1588b2a135 misc: pci_endpoint_test: Fix IOCTL return value
 e19bde2269ca3611156fd0c078a71af0b6956545 selftests: Move PCI Endpoint tests from tools/pci to Kselftests
@@ -1050,5 +1041,14 @@ c3f4dd6a7da64107a8b005145845f1c051815dc9 cxl: Enumerate feature commands
 445bad3f2c826875ae33a14804a32822caff75b2 cxl/mbox: Add GET_FEATURE mailbox command
 10158df3a0cb1e27292fcc98b2239853a89bf6ba cxl/mbox: Add SET_FEATURE mailbox command
 a3690b2aad5f9c9c86c6dc6b01a55e5fd8c2a53d cxl: Setup exclusive CXL features that are reserved for the kernel
+e6cc69faf679c51a4a108fc01e675d91ca6399a3 cxl: Add FWCTL support to CXL
+3d3d724c27a2b26e5d1490bdbc60fc1b72747a9b cxl: Add support for FWCTL get driver information callback
+57dbb23c19fa97b40ea16fdfd310fb0214604fab cxl: Move cxl feature command structs to user header
+216dee3623beeca896103b181997ae43c0ee73b8 cxl: Add support for fwctl RPC command to enable CXL feature commands
+6026fcd2c36be8bb73095fa19178dff7d6785406 cxl: Add support to handle user feature commands for get feature
+8e70fec76fe9416c769fd524460b3add4018ec24 cxl: Add support to handle user feature commands for set feature
+ac95fc768f808b1b5aeb73caa3384583d0d673cf cxl/test: Add Get Feature support to cxl_test
+db59e1c22fa83b4553c1bfc645347737d20f0af5 cxl/test: Add Set Feature support to cxl_test
+2ad713178275250c08fd3df6682dff12d01ff33c fwctl/cxl: Add documentation to FWCTL CXL
 
---===============6045360727915798007==--
+--===============4243336038614667331==--
