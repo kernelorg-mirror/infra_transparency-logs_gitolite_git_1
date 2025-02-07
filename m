@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lenb/linux
-Date: Fri, 07 Feb 2025 18:06:41 -0000
-Message-Id: <173895160134.529137.16404358189488074238@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 07 Feb 2025 18:07:55 -0000
+Message-Id: <173895167574.529880.1153049149513291039@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lenb/linux
-user: lenb
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/next
-    old: 8ff49ddce821d62fd1fa1ce8f4490db24698ca0d
-    new: 1c7c7388e6c31f46b26a884d80b45efbad8237b2
+  - ref: refs/heads/tip/tip
+    old: 1c1e2b0febd09311c9e2884c1bd7f3dc1dc1f8b3
+    new: a250d14ca64be8d171656320d6407305f34d246a
     log: |
-         1c7c7388e6c31f46b26a884d80b45efbad8237b2 tools/power turbostat: Clustered Uncore MHz counters should honor show/hide options
-         
-  - ref: refs/heads/turbostat
-    old: 8ff49ddce821d62fd1fa1ce8f4490db24698ca0d
-    new: 1c7c7388e6c31f46b26a884d80b45efbad8237b2
-    log: |
-         1c7c7388e6c31f46b26a884d80b45efbad8237b2 tools/power turbostat: Clustered Uncore MHz counters should honor show/hide options
+         a250d14ca64be8d171656320d6407305f34d246a Add irq/drivers for driver specific updates
          
