@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 07 Feb 2025 11:50:03 -0000
-Message-Id: <173892900385.216080.3580459577703540229@gitolite.kernel.org>
+Date: Fri, 07 Feb 2025 11:50:29 -0000
+Message-Id: <173892902933.216384.2163340922009029595@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/x86/ibt
-    old: 57750f0464beab3927ad570e0c1b5e78c91dd1b6
-    new: 56218f33ede755ddc8413a0643d91c64857df9bb
+  - ref: refs/heads/x86/fineibt-bhi
+    old: b3504017bcc2bd5b56acc9c799ed5054dd78c8b6
+    new: 87829614d0c9ebb0ee0fdffe047c824a46de6df0
     log: |
          1be82d8e26ce55dc9eb6222e80f9f84da9d838dd objtool: Move dodgy linker warn to verbose
          6dc640eb267c83d44f5459662717dd4989e5cf3e x86,kcfi: Fix EXPORT_SYMBOL vs kCFI
@@ -24,4 +24,6 @@ changes:
          46858500289f92579b8a898e12f92ebeaf4da866 x86/ibt: Clean up is_endbr()
          9c4d272cb913a67b055a9689356f268b2500251a x86/ibt: Clean up poison_endbr()
          56218f33ede755ddc8413a0643d91c64857df9bb x86/early_printk: Harden early_serial
+         1084019dc3e0f5201ae977fe47418b31702cac3d x86: BHI stubs
+         87829614d0c9ebb0ee0fdffe047c824a46de6df0 x86/fineibt: Add FineIBT+BHI mitigation
          
