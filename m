@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Fri, 07 Feb 2025 15:38:17 -0000
-Message-Id: <173894269763.401405.4618426699634797054@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 07 Feb 2025 15:38:53 -0000
+Message-Id: <173894273381.401837.6817324629304971621@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/main-pending
-    old: 7604a8291a89a3e1986f7d8f9a48d56171591125
-    new: e440137f3eac2635b11062fe7b197f1fa0920806
+  - ref: refs/heads/for-next
+    old: 7c01c2458153ec229cc548a980ba2dc80673c880
+    new: f3a0dfda57f208c90c8c73f3bee2e8390f585b1f
     log: |
-         09a2421b6e5f617cfbeab906fa8037dda4aa95b8 wifi: ath12k: Fix locking in "QMI firmware ready" error paths
-         e440137f3eac2635b11062fe7b197f1fa0920806 Merge branch 'pending' into main-pending
+         cb161c333927142818d6bf22a4da2b023fb2b8c9 ASoC: tas2781: Switch to use %ptTsr
+         f3a0dfda57f208c90c8c73f3bee2e8390f585b1f Merge remote-tracking branch 'asoc/for-6.15' into asoc-next
          
-  - ref: refs/tags/ath-pending-202502071508
-    old: 0000000000000000000000000000000000000000
-    new: e440137f3eac2635b11062fe7b197f1fa0920806
