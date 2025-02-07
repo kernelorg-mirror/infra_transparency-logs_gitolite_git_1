@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
-Date: Fri, 07 Feb 2025 21:45:36 -0000
-Message-Id: <173896473645.712648.13654428609873717348@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 07 Feb 2025 21:51:42 -0000
+Message-Id: <173896510296.717306.3490286431872023111@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
-user: frederic
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/task/work
-    old: 3a5b43d6075ec915d0bf17d38d15f9c75d05dc26
-    new: bbecd284b1b2aefc171c5bf972f135ecb1e8863a
+  - ref: refs/heads/main
+    old: 1438f5d07b9a7afb15e1d0e26df04a6fd4e56a3c
+    new: cb827db50a88aebec516151681adb6db10b688ee
     log: |
-         9bd384cf902f3cead129a0a9d1bd4cf5d82fcaa8 sched/isolation: Introduce isolated task work
-         bbecd284b1b2aefc171c5bf972f135ecb1e8863a mm: Drain LRUs upon resume to userspace on nohz_full CPUs
+         cb827db50a88aebec516151681adb6db10b688ee net: fib_rules: annotate data-races around rule->[io]ifindex
          
