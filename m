@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Fri, 07 Feb 2025 19:44:55 -0000
-Message-Id: <173895749531.613165.16650503951872586111@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 07 Feb 2025 19:52:04 -0000
+Message-Id: <173895792419.619778.8247220663874749654@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/dev
-    old: de12a2c091b7124066b18dd4a6bf46684d19e73b
-    new: bc0dac38713700bdd4a06d63b01b8f638fdbb90f
+  - ref: refs/heads/main
+    old: 233a2b1480a0bdf6b40d4debf58a07084e9921ff
+    new: a494d1512c7c7ba2a05bac51ed4b133baa2a9bc8
     log: |
-         ee19fd9a012a947694d9dcdd8b05fc585908e5b9 squash! rcutorture: Split out beginning and end from rcu_torture_one_read()
-         bc0dac38713700bdd4a06d63b01b8f638fdbb90f rcutorture: Add tests for SRCU up/down reader primitives
+         a494d1512c7c7ba2a05bac51ed4b133baa2a9bc8 vxlan: Remove unnecessary comments for vxlan_rcv() and vxlan_err_lookup()
          
