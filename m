@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Fri, 07 Feb 2025 18:37:00 -0000
-Message-Id: <173895342004.555892.14345430315606571731@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Fri, 07 Feb 2025 18:37:41 -0000
+Message-Id: <173895346120.556543.12475490204306040117@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/v4l2-loopback
-    old: f77d0e86796aaacd72bad6644b5c5b1be19794b3
-    new: ba3a633938cc31553aaee80cd8896882882dfade
+  - ref: refs/heads/fixes
+    old: ba958ac74800573f7f54dbe2a7a7b9a9a523ed52
+    new: f354fc88a72ae83dacd68370f6fa040e5733bcfe
     log: |
-         b42821f045fb1a3375099051ce4ecf1b149db710 Set video_set_drvdata(dev->vdev, dev) directly
-         ba3a633938cc31553aaee80cd8896882882dfade Reburnish the API
+         f354fc88a72ae83dacd68370f6fa040e5733bcfe kbuild: install-extmod-build: add missing quotation marks for CC variable
          
