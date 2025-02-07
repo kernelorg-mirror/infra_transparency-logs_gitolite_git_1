@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2737803691854223202=="
+Content-Type: multipart/mixed; boundary="===============0509208461483372976=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 07 Feb 2025 16:45:15 -0000
-Message-Id: <173894671563.460009.321194163823692637@gitolite.kernel.org>
+Date: Fri, 07 Feb 2025 16:45:18 -0000
+Message-Id: <173894671854.460088.3879429025341817881@gitolite.kernel.org>
 
---===============2737803691854223202==
+--===============0509208461483372976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 09717c28b76c30b1dc8c261c855ffb2406abab2e
     new: 233a2b1480a0bdf6b40d4debf58a07084e9921ff
     log: revlist-09717c28b76c-233a2b1480a0.txt
 
---===============2737803691854223202==
+--===============0509208461483372976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -489,4 +489,4 @@ a76568865c1562b33176bf37d43e2b976c046931 net: dsa: sja1105: Use of_get_available
 0584a917a2096a759976825e77d09ff215a7a543 net: ibm: emac: Use of_get_available_child_by_name()
 233a2b1480a0bdf6b40d4debf58a07084e9921ff Merge branch 'of_get_available_child_by_name'
 
---===============2737803691854223202==--
+--===============0509208461483372976==--
