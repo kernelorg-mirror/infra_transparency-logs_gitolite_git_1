@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2849496447374959894=="
+Content-Type: multipart/mixed; boundary="===============2737803691854223202=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 07 Feb 2025 16:45:09 -0000
-Message-Id: <173894670961.459641.10341625972365929606@gitolite.kernel.org>
+Date: Fri, 07 Feb 2025 16:45:15 -0000
+Message-Id: <173894671563.460009.321194163823692637@gitolite.kernel.org>
 
---===============2849496447374959894==
+--===============2737803691854223202==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 29401be9e6a0e38a33e7d65c2532616ce22704b0
-    new: 4dd52b11fdda0c8f331337e812c22073dd64c560
-    log: revlist-29401be9e6a0-4dd52b11fdda.txt
+  - ref: refs/heads/1GbE
+    old: 09717c28b76c30b1dc8c261c855ffb2406abab2e
+    new: 233a2b1480a0bdf6b40d4debf58a07084e9921ff
+    log: revlist-09717c28b76c-233a2b1480a0.txt
 
---===============2849496447374959894==
+--===============2737803691854223202==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-29401be9e6a0-4dd52b11fdda.txt
+Content-Disposition: attachment; filename=revlist-09717c28b76c-233a2b1480a0.txt
 
 209954cbc7d0ce1a190fc725d20ce303d74d2680 x86/mm/tlb: Update mm_cpumask lazily
 2815a56e4b7252a836969f5674ee356ea1ce482c x86/mm/tlb: Add tracepoint for TLB flush IPI to stale CPU
@@ -488,49 +488,5 @@ a76568865c1562b33176bf37d43e2b976c046931 net: dsa: sja1105: Use of_get_available
 76c82eb04332b0447b726a4a794e906669964008 net: ethernet: actions: Use of_get_available_child_by_name()
 0584a917a2096a759976825e77d09ff215a7a543 net: ibm: emac: Use of_get_available_child_by_name()
 233a2b1480a0bdf6b40d4debf58a07084e9921ff Merge branch 'of_get_available_child_by_name'
-a35f9c847ce060fb09b9a9571c9c760844bcd268 dmaengine: tegra210-adma: Fix build error due to 64-by-32 division
-231a6ba63e74e41e77c6417931012ab89c389fca coccinelle: misc: secs_to_jiffies script: Create dummy report
-3ab5eb64512051e731b0fd0b1bd8e79f38d08648 ice: Don't check device type when checking GNSS presence
-a676b4c106010f1f17ac1fcebf31c8a320b5f7a5 ice: Remove unncecessary ice_is_e8xx() functions
-f6aad2f1a68b84e39ad680ca8146f71993109f80 ice: Use FIELD_PREP for timestamp values
-bf3886e33c8dadb72e57321bfde3de6bedcebdce ice: Process TSYN IRQ in a separate function
-3d00a478259df453cb5a870990eb83a51c0bd7ae ice: Add unified ice_capture_crosststamp
-8cc191b0c5b798a15c85c7cc551c0acb4bea6d56 ice: Refactor ice_ptp_init_tx_*
-c356191a00130ecab52665b85dc5f16e81596f41 ice: Implement PTP support for E830 devices
-af3b3747560128044abb9deeb693d325abf225d0 virtchnl: add support for enabling PTP on iAVF
-fffb3aced88891ca372ac7a10d6a3b9d9400fa94 ice: support Rx timestamp on flex descriptor
-57241897d9863e854fdfb37c063a9c4e1e7de5c4 virtchnl: add enumeration for the rxdid format
-bf5a09da3a977f935cb968b18d61bf2ceeb18886 iavf: add support for negotiating flexible RXDID format
-80480589583d86f3301c461b0e0e1dcd1666abd8 iavf: negotiate PTP capabilities
-491ad5aeb79600fb4c684d0714a48847060085f1 iavf: add initial framework for registering PTP clock
-f05b3970fbe440f5cc97e35676b5803ae08785a9 iavf: add support for indirect access to PHC time
-bcffc42dab08531a0626e37f702ab2bdee8a046a iavf: periodically cache PHC time
-249644aa5b1eb1d3efe35780232fc56e8ef81a78 libeth: move idpf_rx_csum_decoded and idpf_rx_extracted
-93689fd2dc50bbfe2722fc7b7592f1dc5aa1524e iavf: define Rx descriptors as qwords
-615c1bb928cbe51b8343c127ae106fdee1dd0ce0 iavf: refactor iavf_clean_rx_irq to support legacy and flex descriptors
-8902083658f294485d7f6859e020ff525a7ec1a5 iavf: Implement checking DD desc field
-e67848dcb02fed9a54c8a6023af19e8c4752a0d8 iavf: handle set and get timestamps ops
-ec0eaf394e2de2cb6b28de4bd65b596b9ce27bb1 iavf: add support for Rx timestamps to hotpath
-392635bdf99e318b7c220c3de59cc2055f157001 ice: do not configure destination override for switchdev
-160bf795d61bf3bc07b5bda9b9c0323af5064551 igc: Avoid unnecessary link down event in XDP_SETUP_PROG process
-fd494fd502b7656dbe625832887e985e381023af ice: Add E830 checksum offload support
-f19090e16f2dc98a14811b06a7402a2e23462a94 ice: Fix switchdev slow-path in LAG
-cf91b72f5d4e369de4f9ab5d7437c35080ea1130 e1000e: Fix real-time violations on link up
-3d02e9279b9cff5b17d4fb08ba2b0241165cde68 idpf: fix handling rsc packet with a single segment
-6d051bf7b1d54f743fed271cf9c27f45abb18760 idpf: record rx queue in skb for RSC packets
-8848998f60dbb465ed4452a8cfd9fa0be5cedf55 idpf: add initial PTP support
-941fcd45455955198362a718aa68b7ee5c343717 virtchnl: add PTP virtchnl definitions
-8bdcdf83b9004126809832c82d63617bb0c9c3a9 idpf: move virtchnl structures to the header file
-ebf6cdfae73f4f19298b6716e3a9af4782c1eb55 idpf: negotiate PTP capabilities and get PTP clock
-e42ad09fb81d182b81efd06800331a9533d212c2 idpf: add mailbox access to read PTP clock time
-94fb2645c1ccb683f6de2894f1dc81a572674f11 idpf: add PTP clock configuration
-0942c9355e0ea9f36226cafce8ada2e7f4175c88 idpf: add Tx timestamp capabilities negotiation
-6eaf6cb0dbb137387f268fbcd9ed52024ce27ee0 idpf: add Tx timestamp flows
-0a36acb23e1d7aa7cd3e31e7fe46adf7d4483cd7 idpf: add support for Rx timestamping
-d793a19212a5dfc4dffe5ce91072e6b0ecb69737 idpf: change the method for mailbox workqueue allocation
-cdfa263cfddb4384a9cf63d239ec4b1cb7442096 ice: refactor ice_fdir_create_dflt_rules() function
-92a433a4f6b96a3e191d92eb5995ae3fa1d7156f ice: fix memory leak in aRFS after reset
-f55c1e122b16aa0e07b13c9c7f90c3e3b199873f igc: Fix HW RX timestamp when passed by ZC XDP
-4dd52b11fdda0c8f331337e812c22073dd64c560 ixgbe: Fix possible skb NULL pointer dereference
 
---===============2849496447374959894==--
+--===============2737803691854223202==--
