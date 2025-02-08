@@ -1,32 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============3687216015879272583=="
+Content-Type: multipart/mixed; boundary="===============1699122743414695678=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Sat, 08 Feb 2025 14:37:20 -0000
-Message-Id: <173902544018.1699123.2883105649199276644@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sat, 08 Feb 2025 14:43:44 -0000
+Message-Id: <173902582484.1703833.2317169886203566800@gitolite.kernel.org>
 
---===============3687216015879272583==
+--===============1699122743414695678==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/heads/ftrace/fixes
-    old: 789a8cff8d2dbe4b5c617c3004b5eb63fa7a3b35
-    new: c8c9b1d2d5b4377c72a979f5a26e842a869aefc9
-    log: revlist-789a8cff8d2d-c8c9b1d2d5b4.txt
+  - ref: refs/heads/objtool/urgent
+    old: 31ad36a271290648e7c2288a03d7b933d20254d6
+    new: 7e501637bd5b702a2fa627e903a0025654110e1e
+    log: revlist-31ad36a27129-7e501637bd5b.txt
 
---===============3687216015879272583==
+--===============1699122743414695678==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-789a8cff8d2d-c8c9b1d2d5b4.txt
+Content-Disposition: attachment; filename=revlist-31ad36a27129-7e501637bd5b.txt
 
-0b96c75d86560c077d29ce629e9d1ca0258c9cc1 NFSv4.2: make LAYOUTSTATS and LAYOUTERROR MOVEABLE
 a3282f84b2151d254dc4abf24d1255c6382be774 PCI: switchtec: Add Microchip PCI100X device IDs
 13b6931c44969ff057ad2a3aa1c20a1b28b79b6f Merge tag 'x86_sev_for_v6.14_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 e7217011ddd8e86a0d18c6cbfb4f14da3d18eee0 ALSA: usb: fcp: Fix meter_levels type to __le32
@@ -1049,6 +1048,7 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 5d82ca7b5019d880a579831278eb73cbbfdb87da Merge tag 'sh-for-v6.14-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
-c8c9b1d2d5b4377c72a979f5a26e842a869aefc9 fgraph: Fix set_graph_notrace with setting TRACE_GRAPH_NOTRACE_BIT
+3724062ca2b1364f02cf44dbea1a552227844ad1 objtool: Ignore dangling jump table entries
+7e501637bd5b702a2fa627e903a0025654110e1e objtool: Move dodgy linker warn to verbose
 
---===============3687216015879272583==--
+--===============1699122743414695678==--
