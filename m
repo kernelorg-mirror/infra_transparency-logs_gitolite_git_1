@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5775862967878270849=="
+Content-Type: multipart/mixed; boundary="===============7465327901873681168=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Sun, 09 Feb 2025 04:28:07 -0000
-Message-Id: <173907528728.2346533.10824538229785642015@gitolite.kernel.org>
+Date: Sun, 09 Feb 2025 04:28:25 -0000
+Message-Id: <173907530541.2346819.5376293952862059903@gitolite.kernel.org>
 
---===============5775862967878270849==
+--===============7465327901873681168==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ebiggers/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/crc-next
-    old: 3dceb9c4f1202d2c374976936ef803bf4b076fa7
-    new: 3e29bf46ff6a0534b1d824b2074cbc05482c3f2a
-    log: revlist-3dceb9c4f120-3e29bf46ff6a.txt
+  - ref: refs/heads/crc-pending
+    old: 87ef6970c274f4ad778d09f9b49da26ccaf47627
+    new: 051a75c9b044e809cb38a0a410c160864c58a85c
+    log: revlist-87ef6970c274-051a75c9b044.txt
 
---===============5775862967878270849==
+--===============7465327901873681168==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3dceb9c4f120-3e29bf46ff6a.txt
+Content-Disposition: attachment; filename=revlist-87ef6970c274-051a75c9b044.txt
 
 feb541bfacbe23bf19a96b96db03e6c7505e1b03 lib/crc64-rocksoft: stop wrapping the crypto API
 0fcec0b73adc5f86597d342062114b77bcf7ec9d crypto: crc64-rocksoft - remove from crypto API
@@ -40,5 +40,11 @@ c64e6570b48ab18675d00344fc3c1f13a86989b5 lib/crc32: rename __crc32c_le_combine()
 68ea3c2ae0affe68aefab27d55c82be5a45ad882 lib/crc32: remove "_le" from crc32c base and arch functions
 8522104f75bf1ce33d76ea425185da2a7fba5a70 crypto: crct10dif - remove from crypto API
 3e29bf46ff6a0534b1d824b2074cbc05482c3f2a lib/crc-t10dif: remove crc_t10dif_is_optimized()
+3936b35bbea4f05af2b766163b3f6ec4caeff060 x86: move ZMM exclusion list into CPU feature flag
+6a3882e6739bb4158f6ee9922b037c9bb89b2e6f scripts/gen-crc-consts: add gen-crc-consts.py
+38042a67a4699c70488e988408faf067c81c8e8e x86/crc: add "template" for [V]PCLMULQDQ based CRC functions
+ff55940b64ed3ab3145b183246ef294661608ad6 x86/crc32: implement crc32_le using new template
+b31ccc11dbfbdbefb2010c3ae6f096bfa224a7e2 x86/crc-t10dif: implement crc_t10dif using new template
+051a75c9b044e809cb38a0a410c160864c58a85c x86/crc64: implement crc64_be and crc64_nvme using new template
 
---===============5775862967878270849==--
+--===============7465327901873681168==--
