@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Sun, 09 Feb 2025 13:37:40 -0000
-Message-Id: <173910826086.2820029.16200105609992573113@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Sun, 09 Feb 2025 13:53:01 -0000
+Message-Id: <173910918103.2832069.7676152262195354863@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/dev
-    old: 4f2e90f5f2d94ec0a36290e3c43ba88e67493a86
-    new: fbe37f00926c633385e96cc291b1c14bb8885629
+  - ref: refs/heads/pm
+    old: 73195bed7899150cd1005cf0a902b68793adad23
+    new: 7585946243d614bd2cd4e13377be2c711c9539e0
     log: |
-         ad3321ab665c2090e2fab81d80a72d4ff769fef2 rcutorture: Pull rcu_torture_updown() loop body into new function
-         d82f5bfcb4b93d05eab43c03800a12487b03a17d fixup! rcutorture: Add tests for SRCU up/down reader primitives
-         c87806342c90c2f840616d97c373e4ae928e54d6 rcutorture: Comment invocations of tick_dep_set_task()
-         fbe37f00926c633385e96cc291b1c14bb8885629 fixup! rcutorture: Add tests for SRCU up/down reader primitives
+         7585946243d614bd2cd4e13377be2c711c9539e0 PM: sleep: core: Restrict power.set_active propagation
          
+  - ref: refs/tags/pm-6.14-rc2-2
+    old: 0000000000000000000000000000000000000000
+    new: 18a263fe070b5c7c7acda2a0b42c214eeec330d6
