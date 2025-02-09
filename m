@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2318195087325917898=="
+Content-Type: multipart/mixed; boundary="===============4980146681587845654=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux
-Date: Sun, 09 Feb 2025 09:40:53 -0000
-Message-Id: <173909405337.2637465.8916900243000297311@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
+Date: Sun, 09 Feb 2025 09:40:56 -0000
+Message-Id: <173909405678.2637568.17054739377945851065@gitolite.kernel.org>
 
---===============2318195087325917898==
+--===============4980146681587845654==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux
+repo: pub/scm/linux/kernel/git/khilman/linux-omap
 user: khilman
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 9946eaf552b194bb352c2945b54ff98c8193b3f1
     log: revlist-92514ef226f5-9946eaf552b1.txt
 
---===============2318195087325917898==
+--===============4980146681587845654==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -228,4 +228,4 @@ a0df483fe303e0c87a6d4a4f60213d5f8703c5ae Merge tag 'ftrace-v6.14-rc1' of git://g
 f4a45f14cf6902a96d9805ba51829054940ef3e7 Merge tag 'seccomp-v6.14-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 9946eaf552b194bb352c2945b54ff98c8193b3f1 Merge tag 'hardening-v6.14-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 
---===============2318195087325917898==--
+--===============4980146681587845654==--
