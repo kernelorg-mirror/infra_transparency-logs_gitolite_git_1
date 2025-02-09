@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
-Date: Sun, 09 Feb 2025 09:04:38 -0000
-Message-Id: <173909187818.2607619.16206966858123631515@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Sun, 09 Feb 2025 09:20:30 -0000
+Message-Id: <173909283015.2621132.17150786829543480844@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sunxi/linux
-user: wens
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/sunxi/for-next
-    old: 2014c95afecee3e76ca4a56956a936e23283f05b
-    new: 6e085e64a2907bb9467360b7607d1257874c2626
+  - ref: refs/heads/wip/leon-for-next
+    old: 79bccd746132afe12b8bc3785e7b74b90440060d
+    new: ccca5e8aa14572315dc9b9dadb3a06a6a6a607f7
     log: |
-         9a8463c68e0d1144e6af492a920796fcc373fef8 dt-bindings: vendor-prefixes: Add NetCube Systems Austria name
-         2a120293fb8fc84017cfab3994ad4fe338148288 dt-bindings: arm: sunxi: Add NetCube Systems Kumquat board
-         3199ed9b375870079c1bb857a10c55a95f90fdbd ARM: dts: sunxi: add uart1_pe pinctrl for sun8i-v3s
-         6e085e64a2907bb9467360b7607d1257874c2626 ARM: dts: sunxi: add support for NetCube Systems Kumquat
+         ccca5e8aa14572315dc9b9dadb3a06a6a6a607f7 RDMA/rxe: switch to using the crc32 library
          
