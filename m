@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0144561866540116418=="
+Content-Type: multipart/mixed; boundary="===============7896443451329267026=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 09 Feb 2025 19:39:50 -0000
-Message-Id: <173912999094.3101562.12716760897220683615@gitolite.kernel.org>
+Date: Sun, 09 Feb 2025 19:40:16 -0000
+Message-Id: <173913001600.3103301.3896128883594342177@gitolite.kernel.org>
 
---===============0144561866540116418==
+--===============7896443451329267026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,27 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 4e32516cf0e37eecee586fb40529afcb627a415d
-    new: 40416e0368f6fb52cf7da3862d3491522180d814
-    log: revlist-4e32516cf0e3-40416e0368f6.txt
+    old: 40416e0368f6fb52cf7da3862d3491522180d814
+    new: fe59c3cc690a26e3d597cc43b15d604ec7d9aee5
+    log: |
+         64edbc8439fb83db13af2f4db5b60f512a16f293 Merge branch into tip/master: 'objtool/urgent'
+         d1c429e409423360ea971b2a2c7790878608132c Merge branch into tip/master: 'sched/urgent'
+         4c29cf6a7d69cd6685a126312e9214a402e31024 Merge branch into tip/master: 'irq/core'
+         713bcb7bd3cebaa99bd63e0a40ecbb38a5d25806 Merge branch into tip/master: 'perf/core'
+         a0f23fcfc52cd3368ea47e1fccbc90e63508e75b Merge branch into tip/master: 'x86/cpu'
+         0a9c015b6d84abde57538817d126c27dfcf47d74 Merge branch into tip/master: 'x86/misc'
+         fe59c3cc690a26e3d597cc43b15d604ec7d9aee5 Merge branch into tip/master: 'x86/mm'
+         
+  - ref: refs/heads/tip/urgent
+    old: 835d6a417c22bf057377960c88812be5be5b9868
+    new: d1c429e409423360ea971b2a2c7790878608132c
+    log: revlist-835d6a417c22-d1c429e40942.txt
 
---===============0144561866540116418==
+--===============7896443451329267026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4e32516cf0e3-40416e0368f6.txt
+Content-Disposition: attachment; filename=revlist-835d6a417c22-d1c429e40942.txt
 
 9bcbb6104a344d3526e185ee1e7b985509914e90 KVM: arm64: Flush hyp bss section after initialization of variables in bss
 b893d7ff853e27aa6000fc4ca12e0ffda3318bfc scsi: core: Add passthrough tests for success and no failure definitions
@@ -92,6 +104,9 @@ cb7380de9e4cbc9a24216b722ec50e092ae83036 compiler.h: Move C string helpers into 
 6270f4deba3fbd77d1717fb8634f1fc612ff69e2 string.h: Use ARRAY_SIZE() for memtostr*()/strtomem*()
 f354fc88a72ae83dacd68370f6fa040e5733bcfe kbuild: install-extmod-build: add missing quotation marks for CC variable
 c8c9b1d2d5b4377c72a979f5a26e842a869aefc9 fgraph: Fix set_graph_notrace with setting TRACE_GRAPH_NOTRACE_BIT
+3724062ca2b1364f02cf44dbea1a552227844ad1 objtool: Ignore dangling jump table entries
+7e501637bd5b702a2fa627e903a0025654110e1e objtool: Move dodgy linker warn to verbose
+bcc6244e13b4d4903511a1ea84368abf925031c0 sched: Clarify wake_up_q()'s write to task->wake_q.next
 fa76887bb72ae11347730271e6a04c147b7527e6 Merge tag 'locking-urgent-2025-02-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 a8f5fe68fc063913a77ec2df90c57e897c9aa7ae Merge tag 'irq-urgent-2025-02-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c7b92e8969cd60a585629cef8d19b7ef330bc171 Merge tag 'sched-urgent-2025-02-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -108,6 +123,7 @@ f4a45f14cf6902a96d9805ba51829054940ef3e7 Merge tag 'seccomp-v6.14-rc2' of git://
 954a209f431c06b62718a49b403bd4c549f0d6fb Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 146339ddb8b7520ee486389c7b0a7b24d68e5f60 Merge tag 'pm-6.14-rc2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 69b54314c975f4dfd3a29d6b9211ab68fff46682 Merge tag 'kbuild-fixes-v6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-40416e0368f6fb52cf7da3862d3491522180d814 Merge branch 'linus'
+64edbc8439fb83db13af2f4db5b60f512a16f293 Merge branch into tip/master: 'objtool/urgent'
+d1c429e409423360ea971b2a2c7790878608132c Merge branch into tip/master: 'sched/urgent'
 
---===============0144561866540116418==--
+--===============7896443451329267026==--
