@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============5826783233378668625=="
+Content-Type: multipart/mixed; boundary="===============8878473790452641053=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 10 Feb 2025 16:28:59 -0000
-Message-Id: <173920493944.25449.17399599465980135251@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 10 Feb 2025 16:29:03 -0000
+Message-Id: <173920494307.25583.11791627555824283071@gitolite.kernel.org>
 
---===============5826783233378668625==
+--===============8878473790452641053==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.15
+  - ref: refs/heads/asoc-6.15
     old: cb161c333927142818d6bf22a4da2b023fb2b8c9
     new: d1541caab053cf94b114582a23b51a8cb90f4a46
     log: revlist-cb161c333927-d1541caab053.txt
 
---===============5826783233378668625==
+--===============8878473790452641053==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1739204967 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1739204936-48ac39c348c572f1e61c08561409f9a02f51e1c6
+pusher C3F436CA30F5D8EB 1739204971 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1739204940-12dc20262c29492768e2614b5a5e19ce11ec5c90
 
-cb161c333927142818d6bf22a4da2b023fb2b8c9 d1541caab053cf94b114582a23b51a8cb90f4a46 refs/heads/for-6.15
+cb161c333927142818d6bf22a4da2b023fb2b8c9 d1541caab053cf94b114582a23b51a8cb90f4a46 refs/heads/asoc-6.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmeqKWcACgkQJNaLcl1U
-h9AXvQf/SUttHWfiUNxW2ZtiqLyHaQ3vAq0J+QgvCm7/swPlxLUcQ12f6vCS5+tQ
-jZI8L5tXNNsoyCXv0Ch/ZKWcZ67+7pBGjyFe7aRvlmFT9dOymRAFoippHfLtcILP
-XHWrnrxu9vuhe1CFdcruiv8JU3y1LuJWD2MgArbeWd0BqqPtnJMg/cMnL7PobMaL
-BQfsjKx/F7GfnAjKXERMqlWvuWcPSPsJvrOx3n37DBZSSiH9n8k8+SNlWUEpm/3y
-wO+pL53eOE4GhEd9ODf55WOvKU4+Bq3ekqMxRz63nGM32Ibnmwkl94N7nR29/Yhd
-oRJsv/EnZ9Lg/QhAc/oL/Cz5wniwhA==
-=shkV
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmeqKWsACgkQJNaLcl1U
+h9CTlAf+KjWYP/KL3+n/iJgw2u4navYwEFq55vY+gEHCOkxGaB4lkWVvFKLI4WCg
+LPaqtXOV/3mod8olNzcAQcR3SZAgSEwhX1VeHg2buI9vZCnr+i2F2hjr/o1vPzeI
+5Gjzg9zSm+ZQRTUUu2178/+wyXTfYh6yEvYQnJXzEOvmfT249/+UVUs36MvyX6OK
+j+dG5gsawoxYqIG7XZk9L62ztBCWSGVpe/wKIUgpHlvfBHGUctlfGcRY/RHbtMlI
+loVtWQjsiLh8nKzpMQZwkUz1BELgCyaXIhRGZaEXgMvXlIwXLfsAUj3dZdoTVn/w
+LTjpCTeN94v5HJHQdCKbre4tzYo1tQ==
+=ql67
 -----END PGP SIGNATURE-----
 
---===============5826783233378668625==
+--===============8878473790452641053==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -100,4 +100,4 @@ e80b8e5c53c30df1cba45258d10b04872b7eea67 ASoC: SDCA: Add support for clock Entit
 3c331bdeececb629669961a80c0f929301c088d2 Refactor imx drivers and introduce support for
 d1541caab053cf94b114582a23b51a8cb90f4a46 Add SDCA DisCo parsing support
 
---===============5826783233378668625==--
+--===============8878473790452641053==--
