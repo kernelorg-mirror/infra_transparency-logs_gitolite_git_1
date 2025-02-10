@@ -1,23 +1,47 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
-Date: Mon, 10 Feb 2025 14:42:37 -0000
-Message-Id: <173919855784.4128769.18240998077672600201@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1736848317552390506=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Mon, 10 Feb 2025 14:56:29 -0000
+Message-Id: <173919938914.4140392.13882973260830379331@gitolite.kernel.org>
+
+--===============1736848317552390506==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rppt/linux
-user: rppt
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/kho/v5
-    old: 36a5fe168c0296489b62043b1d19bad25f59815f
-    new: b5ae719a596abc7dfa5c4e85cda6be6ed13aa7c8
+  - ref: refs/heads/review-ilpo-fixes
+    old: a787ab73e2e43c0a3df10bc8d9b9b7a679129d49
+    new: 9cff907cbf8c7fb5345918dbcc7b74a01656f34f
     log: |
-         9c5e246d9d63168827d9b3e47748d6575bc0ef9b kexec: Add documentation for KHO
-         b6c53bf6583c3af76a2c78713cfcee4197c7b56d arm64: Add KHO support
-         74f0be41a3b56aa409e4ba9e3173c76884e161ef x86/setup: use memblock_reserve_kern for memory used by kernel
-         1dadab83d76f993e699f477beb1bbfacdd4c5447 x86: Add KHO support
-         b5ae719a596abc7dfa5c4e85cda6be6ed13aa7c8 memblock: Add KHO support for reserve_mem
+         1046cac109225eda0973b898e053aeb3d6c10e1d platform/x86: thinkpad_acpi: Fix invalid fan speed on ThinkPad X120e
+         9cff907cbf8c7fb5345918dbcc7b74a01656f34f platform/x86: thinkpad_acpi: Support for V9 DYTC platform profiles
          
+
+--===============1736848317552390506==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1739199416 +0200
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1739199386-ccc9f0885f97584ef36c586d75e499fbc9456231
+
+a787ab73e2e43c0a3df10bc8d9b9b7a679129d49 9cff907cbf8c7fb5345918dbcc7b74a01656f34f refs/heads/review-ilpo-fixes
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZ6oTugAKCRBZrE9hU+XO
+MW7zAP4wS5BkQn8Y47KxY+TKxQKFyzhPaie2BDgZOq6PWWn6dAEAgrYk5Y2u5Ifi
+YeUK+XD6+BGX59+TI8w0VDwfjBiLbg8=
+=1VvD
+-----END PGP SIGNATURE-----
+
+--===============1736848317552390506==--
