@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0072247071548036059=="
+Content-Type: multipart/mixed; boundary="===============5096973492514111915=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 10 Feb 2025 16:37:22 -0000
-Message-Id: <173920544254.34723.10508947753687353915@gitolite.kernel.org>
+Date: Mon, 10 Feb 2025 16:37:24 -0000
+Message-Id: <173920544480.34876.14881277890096198140@gitolite.kernel.org>
 
---===============0072247071548036059==
+--===============5096973492514111915==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 233a2b1480a0bdf6b40d4debf58a07084e9921ff
     new: 39f54262ba499d862420a97719d2f0eea0cbd394
     log: revlist-233a2b1480a0-39f54262ba49.txt
 
---===============0072247071548036059==
+--===============5096973492514111915==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -73,4 +73,4 @@ d2348b4bf748543172079eacb4dc0d40100fb443 selftests: drv-net: rss_ctx: skip tests
 5797d3c62db81fd03ba7aeb36a83b44fb0ac2ecc eth: fbnic: support listing tcam content via debugfs
 39f54262ba499d862420a97719d2f0eea0cbd394 Merge branch 'eth-fbnic-support-rss-contexts-and-ntuple-filters'
 
---===============0072247071548036059==--
+--===============5096973492514111915==--
