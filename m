@@ -1,32 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
-Date: Mon, 10 Feb 2025 15:24:57 -0000
-Message-Id: <173920109793.4164428.8145298974867300570@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1060143243180683231=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 10 Feb 2025 15:29:29 -0000
+Message-Id: <173920136932.4167936.1495697719376320212@gitolite.kernel.org>
+
+--===============1060143243180683231==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtd/linux
-user: mraynal
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/mtd/fixes
-    old: 2014c95afecee3e76ca4a56956a936e23283f05b
-    new: f37d135b42cb484bdecee93f56b9f483214ede78
+  - ref: refs/heads/master
+    old: 1a3fb7269a23173d6e88aceb881bc198a51802aa
+    new: ef2e49ec27cbd5b09b861f418503479493000320
     log: |
-         2b9df00cded911e2ca2cfae5c45082166b24f8aa mtd: rawnand: cadence: fix error code in cadence_nand_init()
-         d76d22b5096c5b05208fd982b153b3f182350b19 mtd: rawnand: cadence: use dma_map_resource for sdma address
-         f37d135b42cb484bdecee93f56b9f483214ede78 mtd: rawnand: cadence: fix incorrect device in dma_unmap_single
+         ef2e49ec27cbd5b09b861f418503479493000320 6.1-stable patches
          
-  - ref: refs/heads/nand/next
-    old: 499a4b16a4869a901a9bc601bc1e0b8f60151e93
-    new: a3b219e476d3c726e23084cd79649fe978484b28
-    log: |
-         07d0aa9393abc8fd64d0a174edfb68c5808187e4 mtd: spinand: make spinand_{read,write}_page global
-         c06b1f753bea40a282f29a9383fcf36b12323108 mtd: spinand: add OTP support
-         e278b8c73b0526f8e3ee22f4827c8fe07c2109ba mtd: spinand: make spinand_{wait,otp_page_size} global
-         9ad2857c82d56017402256fd3e2ed401cc7f6fb9 mtd: spinand: otp: add helpers functions
-         b741d3fa5d3cf989b7dec76cca832396128dfe48 mtd: spinand: micron: OTP access for MT29F2G01ABAGD
-         a3b219e476d3c726e23084cd79649fe978484b28 mtd: spinand: esmt: OTP access for F50{L,D}1G41LB
-         
+
+--===============1060143243180683231==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1739201394 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1739201361-58076690dc0341c2f5091cd6320c2b390dc3f7a1
+
+1a3fb7269a23173d6e88aceb881bc198a51802aa ef2e49ec27cbd5b09b861f418503479493000320 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeqG3IbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+254P/Av4EmklETpoBuEH1VbP
+iQ1RZGrQDBY///cfhekjxOkYKhnifgCot9t0BFmal00gDe6cthd2nZZIIFmN8ixE
+d/0Klg+0siDboXZPAgtovqRtnXGzjzJaQYxxILSUDXrvQw6zjLqwJuOC7FF7Ab6z
+ERRN05vdJoko/nbl1O5M+QvjWq3IjTy4kt6Mq/e5mmTDGfPrxokMJw3hy8ZqFGkH
+dP8DAMoJ8eWSJN9488RM8HNUR1RMuLlTDVTgdysklVHtuQf64AB8LfC+/2O07qBR
+dsRH2tjdAC2sq5rzujSLajA8Ng5qEhworZkeEDgnhmermBSXMduJCTpJXVTtIkiF
+ZKXcFTJthLYuuWyC8nI+hnmUnsArVdmJUVQTl10Uh2QhokLKHS4dcVE6O1CLv1Q/
++bxchSuo7XV+elROVQ6CGXcM1ARkuH30KnPArjbJKIHa+BH1GRGdpfrGnE8vwICt
+eRb0jIaI4evLyXLwUm+XbTZqpFKu+pz++ERspOcfDRHmcOASpQ4ifeR0ahz53lTj
+xOmbupO2efTH/NPbQqQh3TPK/Yi0Ca4Ae4i2SgueThslujqFFfIUaiEIZbyXk0Gy
++gdd9UUXsRIy6467l+p1xtdk6QyscqNBFxT60/wyBt2iwX4ryCCxnCe3rVdbumMe
+kmasdnwLeRGeH335SNm8KGi/
+=BfW0
+-----END PGP SIGNATURE-----
+
+--===============1060143243180683231==--
