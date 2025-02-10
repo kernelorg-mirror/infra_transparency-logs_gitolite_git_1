@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0072267976487654732=="
+Content-Type: multipart/mixed; boundary="===============3436168378136746209=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 10 Feb 2025 17:15:58 -0000
-Message-Id: <173920775887.69854.4705063818341702676@gitolite.kernel.org>
+Date: Mon, 10 Feb 2025 17:16:28 -0000
+Message-Id: <173920778838.70247.18062553122641643601@gitolite.kernel.org>
 
---===============0072267976487654732==
+--===============3436168378136746209==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: b46c89c08f4146e7987fc355941a93b12e2c03ef
     new: 34c26c5e1cb0cc7f54c1b89c6e9168cad8ffb580
     log: revlist-b46c89c08f41-34c26c5e1cb0.txt
 
---===============0072267976487654732==
+--===============3436168378136746209==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ f4a45f14cf6902a96d9805ba51829054940ef3e7 Merge tag 'seccomp-v6.14-rc2' of git://
 a64dcfb451e254085a7daee5fe51bf22959d52d3 Linux 6.14-rc2
 34c26c5e1cb0cc7f54c1b89c6e9168cad8ffb580 tpm: do not start chip while suspended
 
---===============0072267976487654732==--
+--===============3436168378136746209==--
