@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Mon, 10 Feb 2025 17:46:04 -0000
-Message-Id: <173920956464.97348.11417239905444855765@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Mon, 10 Feb 2025 17:46:54 -0000
+Message-Id: <173920961478.97829.11509905127819912644@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damo
-user: sj
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/next
-    old: a4fbfba393f0cb9335daaa56859d9f4277cf5cf5
-    new: e44c825ff5890c29e367b17b80d699ebc5116e5c
-    log: |
-         e44c825ff5890c29e367b17b80d699ebc5116e5c _damo_records: check 'file' availability
-         
+  - ref: refs/heads/crc-pending
+    old: 7a6da6197dc0fe8dafb1b2f378cb4790ebe9c036
+    new: 0000000000000000000000000000000000000000
