@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4719695434333034907=="
+Content-Type: multipart/mixed; boundary="===============8030547755860416987=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/superm1/linux
-Date: Mon, 10 Feb 2025 21:20:04 -0000
-Message-Id: <173922240464.277014.11843863470544343057@gitolite.kernel.org>
+Date: Mon, 10 Feb 2025 21:20:39 -0000
+Message-Id: <173922243988.277598.13726646323156371642@gitolite.kernel.org>
 
---===============4719695434333034907==
+--===============8030547755860416987==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/superm1/linux
 user: superm1
 changes:
-  - ref: refs/heads/linux-next
+  - ref: refs/heads/bleeding-edge
     old: 643a00d92cbad3916f64940c7e800d9bf7100597
     new: 6cd008362e139d5b49aebb9c42bde05fbc6945ee
     log: revlist-643a00d92cba-6cd008362e13.txt
 
---===============4719695434333034907==
+--===============8030547755860416987==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -309,4 +309,4 @@ a64dcfb451e254085a7daee5fe51bf22959d52d3 Linux 6.14-rc2
 52ed7fcf9ec2cf278399963768458817176b749f cpufreq/amd-pstate: Use scope based cleanup for cpufreq_policy refs
 6cd008362e139d5b49aebb9c42bde05fbc6945ee cpufreq/amd-pstate: Remove the unncecessary driver_lock in amd_pstate_update_limits
 
---===============4719695434333034907==--
+--===============8030547755860416987==--
