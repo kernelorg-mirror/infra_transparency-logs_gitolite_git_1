@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6655334244695883317=="
+Content-Type: multipart/mixed; boundary="===============6984572377628182078=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 10 Feb 2025 06:58:28 -0000
-Message-Id: <173917070811.3745946.2219477617454954847@gitolite.kernel.org>
+Date: Mon, 10 Feb 2025 07:01:55 -0000
+Message-Id: <173917091556.3749613.11058682667725712159@gitolite.kernel.org>
 
---===============6655334244695883317==
+--===============6984572377628182078==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 2014c95afecee3e76ca4a56956a936e23283f05b
-    new: a64dcfb451e254085a7daee5fe51bf22959d52d3
-    log: revlist-2014c95afece-a64dcfb451e2.txt
+  - ref: refs/heads/faux_bus
+    old: c0f443f4d29c996f68021877f9fb69dd8e1fad0a
+    new: ac17f9556091fdf822585b91d9e2c4aa44da76cc
+    log: revlist-c0f443f4d29c-ac17f9556091.txt
 
---===============6655334244695883317==
+--===============6984572377628182078==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1739170737 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1739170943 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1739170706-5b524a8d8f64c60737adc8b5e8ee973010d45250
+nonce 1739170911-adc2112be2c3831fc12ab5e6c5e5fda491ddad99
 
-2014c95afecee3e76ca4a56956a936e23283f05b a64dcfb451e254085a7daee5fe51bf22959d52d3 refs/heads/driver-core-testing
+c0f443f4d29c996f68021877f9fb69dd8e1fad0a ac17f9556091fdf822585b91d9e2c4aa44da76cc refs/heads/faux_bus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmepo7EbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JegP/jT2dZyYcYB6HOVOvUIy
-GURNOHcIs4EBvFve6Jdgdw0m/ZuuitDBToXYrLDIZp9ML+QuUldX8DDIytj8UXIu
-7dL69zw6a4GwF0TJ73XPrMkcG/v2B5lUTPjDSGZ8dbKbsMfSD0JIBHl/Uoy7juHx
-E3X77AEGm9aygu5VkmnDyBNP4R0LqYu0tL5JPi8d888/9TdhQBsxVR1M6smnVZTh
-H5fjsZjpqma0pYBSaWMUuybo9O6rOp2jY35ARQovvGxG2AG/p/8HSWj1arm+v1WO
-JxnOwzD9LpCsBD3H3/UO8mtT76UqgTjF/nYqKQBvlpafUvAt+NvdFQfvRjdJwkqU
-BDdOGNx5pn+u0Li+hD5lzHK7sPUGypzUeFDdp0yqQh23B82gKrlnSgsQ1yxAanDK
-82hTy3kb9XZyz3F08fsxg+RceuPiu4CQZqcQhrsiPOaZI7D3oZQ7a9yffTN2Htl2
-Qrw2moWS1HFTBdfGNsK9PHt64MZPXxb2y+6yNMo8c2xzPtqPX0sXmVxTfAAPjEsu
-J155eZvfXe/Q/5CA8XWVqSws6NGeR3L1geGiNlurxJFzQxIdhn30jTb791OCjTTw
-lgQGZzrm0R1NrTMzgn41wM9LC/I+p6aDppmfQm7dBPudt9qapzCemRQeSc7D59ul
-/y9UA9butRfqmTIfo8ovq4HC
-=u3Ht
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeppH8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+t/QP+gOhOHn2VbVOXwISttB4
+LzRCp73fKIb5yjues8NwkafWIj3As0jViXX/zS/n8+TujOscVJVkkVkZDg3mS+P0
+HNyokoLLJ951KSJh+26XrHisIn0acSY1SNYJrLolF1eM12DRtIiCeh7E3gSmWvkO
+mTHUkj92NaFmtKcf1iNxJJVSvU/O3Bcs7vVExueKVCZwtXSuZCbNtwH7oyIG3gyK
+OOMmO+/rFyHJ0F48jcQH4TWQf3JeOfKOc8HYxzvz2GcxF6VOCkOATEAES2GEm+4F
+uyjA7VjFb5WMl6lUPGtXNopIqxfSQrUJYHH/hTf9Cqz1mavu59LAocQgpZ4iXwPU
+ekwPCuAmzEyYQQcQc29sCDMzSSbg/H/Fb5DcrnnUvOtoalxzLT4bPH2Y4b5hrE+o
+iP4Pu5BnzhOxT9nlV1C3mPldDBiP93GhyTVn1gMdQZaToCXX+4Sb080AJ7J0jOP5
+VbeLMUdZq8uGNIP6SrJ3W5ByC65FGkVpBhIMAicRyowuLFPQtOeoIvG0Bp+HnhuR
+hn3Hsa9HFN9Nw0b8EA4P9OtTD5M/oQEq5KZdyugvwXkLWy/FoYWFbZhZ3fE3LMYj
+GdsFZozIbcuu5aN9EwetzWqS8B1+Jm9I0xhj4fWcoXOXG2bQFagr9+KGUKSlq0of
+MenF/iCy79yBCZ+Z6aDXUxgI
+=xeIj
 -----END PGP SIGNATURE-----
 
---===============6655334244695883317==
+--===============6984572377628182078==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2014c95afece-a64dcfb451e2.txt
+Content-Disposition: attachment; filename=revlist-c0f443f4d29c-ac17f9556091.txt
 
 3c47c2ccd5a29c78780ccfd0227a805f3873ab1c nvmet: fix rw control endian access
 d68fc95a771e0a7edd876ede7913d61276be77fd nvme-pci: remove redundant dma frees in hmb
@@ -334,5 +334,14 @@ f4a45f14cf6902a96d9805ba51829054940ef3e7 Merge tag 'seccomp-v6.14-rc2' of git://
 146339ddb8b7520ee486389c7b0a7b24d68e5f60 Merge tag 'pm-6.14-rc2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 69b54314c975f4dfd3a29d6b9211ab68fff46682 Merge tag 'kbuild-fixes-v6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 a64dcfb451e254085a7daee5fe51bf22959d52d3 Linux 6.14-rc2
+f1c46bb2a7e2640effa889203778cdbcb1bec49c driver core: add a faux bus for use when a simple device/bus is needed
+ea16e969a9d1dcf414eb0d8f4a876c1b469565b0 regulator: dummy: convert to use the faux device interface
+1260fac3c82d398a1f37f9a8df10aac2d0c250c0 x86/microcode: move away from using a fake platform device
+f5be0016fd53cfe749e75b393c9321b86c7debf1 wifi: cfg80211: move away from using a fake platform device
+431876642f0727ef862f7cf7635f0dab587390c3 tlclk: convert to use faux_device
+b21a54f422672372b8f8d70baba29795ad221b68 misc: lis3lv02d: convert to use faux_device
+27a55480e1a9a92e52cc46ce5e45a0956fd5e5f2 drm/vgem/vgem_drv convert to use faux_device
+c4289e4f93940b8687c550b9b0e66023cb82139b drm/vkms: convert to use faux_device
+ac17f9556091fdf822585b91d9e2c4aa44da76cc faux_test: test module for faux driver api
 
---===============6655334244695883317==--
+--===============6984572377628182078==--
