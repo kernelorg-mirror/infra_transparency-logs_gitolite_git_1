@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============6359282709568893839=="
+Content-Type: multipart/mixed; boundary="===============8024553892226041720=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 10 Feb 2025 16:05:49 -0000
-Message-Id: <173920354960.5843.3936668772804676796@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 10 Feb 2025 16:05:53 -0000
+Message-Id: <173920355317.6010.9027926939347959797@gitolite.kernel.org>
 
---===============6359282709568893839==
+--===============8024553892226041720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.15
+  - ref: refs/heads/spi-6.15
     old: 9bbbf33a5ab84c0f3643f43350b0f473b60af5b8
     new: f46eb2bfb878ce3345725252f77fa3ba36a0f087
     log: |
@@ -30,28 +30,28 @@ changes:
          f46eb2bfb878ce3345725252f77fa3ba36a0f087 spi: axi-spi-engine: add offload support
          
 
---===============6359282709568893839==
+--===============8024553892226041720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1739203577 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1739203547-f0bba37c6df9368c4fffb6a4b501c03e99ac2f3a
+pusher C3F436CA30F5D8EB 1739203581 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1739203550-53507acfddc37a7da5e98bed91844b74bd18faf0
 
-9bbbf33a5ab84c0f3643f43350b0f473b60af5b8 f46eb2bfb878ce3345725252f77fa3ba36a0f087 refs/heads/for-6.15
+9bbbf33a5ab84c0f3643f43350b0f473b60af5b8 f46eb2bfb878ce3345725252f77fa3ba36a0f087 refs/heads/spi-6.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmeqI/kACgkQJNaLcl1U
-h9DMZQf8C15DmeadtlQUv/3tVDdQ/uFTcOXeJPaid4aFDhtye4C5yqybH+rocr82
-lMFPtR5CftjsEJ1iBEPO1raonpn4BiufqT8hu6d4Py+zvIIj6PLTBsP21qjAEBWv
-gPBmZrKehc6QAKtwPhhyGAcrM7RWwbQFQhVeJ5DD57fk/PI1AdF7a4E358Pp1j2i
-OlhKeuIiIT6yGhnPmRtuN9lQ/mzRA/3DHYQBpeAo0nPJ0mbdtZ10YTBDdoyyo7LY
-ih67ZlzrF/qMxqsJp1lX7B97c3yXU91ICJV+LPR19UFD3mPvI3ovxiYDSc/76zdW
-1jIU0vbBT5pNJ2dGDnadEsN79ZyHZQ==
-=bnjT
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmeqI/0ACgkQJNaLcl1U
+h9AIRAf/V0gwVJWSz1Mwb2E41frS/rOXcGDt8fw6nvJQUh6kIzJKUL1M/z4KNyHB
+aDRJ9gOonE/Y1euGJFWIRS1cQtwWLyBlih31ehzDR4xsHYDbc3p5Ysg9GFuUuerG
+jrQkfj/v5UoUKI5PIpjO4XS70hQX3mfstthY2l0xgFbh/F9pJlim7FemZQNafiAF
+BOaDdpAQGdJnU03qsJJ7N9DsXPbE2mXgbBIFsmIcZitOFMPYZoBiwbl7p/KNoG5v
+W8eWd8Vgny1F5XVhZce60VDCpM7boH9UzCd4rROvbb19YTR4pOjjQAbP64DvgenX
+vRwvqyz6g3HsQhBrcr5CV0oKTuv5OA==
+=ir0l
 -----END PGP SIGNATURE-----
 
---===============6359282709568893839==--
+--===============8024553892226041720==--
