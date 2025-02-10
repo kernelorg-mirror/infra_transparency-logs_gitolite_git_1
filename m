@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/ell/ell
-Date: Mon, 10 Feb 2025 21:59:08 -0000
-Message-Id: <173922474840.307348.3259438027571890851@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/ofono/ofono
+Date: Mon, 10 Feb 2025 22:03:15 -0000
+Message-Id: <173922499510.311285.7762562748396266234@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/ell/ell
+repo: pub/scm/network/ofono/ofono
 user: holtmann
 changes:
   - ref: refs/heads/master
-    old: 3d0bc790cfda3267bde74e5b37c8e42842f7e404
-    new: 35b15b92998c4ebf4b264bf7763b85c816d87383
+    old: d1acf2805b3da3c283edccc596f82af3eb1b4c22
+    new: 36e6522208cb008df0a8d09feb18c0f2b6e2f060
     log: |
-         35b15b92998c4ebf4b264bf7763b85c816d87383 unit: Use L_TEST_FLAG_ALLOW_FAILURE to handle missing dbus-daemon
+         36e6522208cb008df0a8d09feb18c0f2b6e2f060 build: Include extra files for ELL test extensions
          
