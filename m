@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/ofono/ofono
-Date: Mon, 10 Feb 2025 09:00:36 -0000
-Message-Id: <173917803650.3847244.9476827996838650883@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Mon, 10 Feb 2025 09:04:27 -0000
+Message-Id: <173917826718.3848865.6343167951121360470@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/ofono/ofono
+repo: pub/scm/libs/ell/ell
 user: holtmann
 changes:
   - ref: refs/heads/master
-    old: bbac3d79a18a73b604ae1874ba99b786451716d4
-    new: d1acf2805b3da3c283edccc596f82af3eb1b4c22
+    old: b6ecd84187c04bf361d36fa9f5f6706dfc2bf67a
+    new: 33320585317b28c49c47a1ca65e6d9cf3e6e3100
     log: |
-         d1acf2805b3da3c283edccc596f82af3eb1b4c22 unit: Remove now unneeded l_test_set_uses_own_main statements
+         33320585317b28c49c47a1ca65e6d9cf3e6e3100 test: Remove the now unused l_test_set_uses_own_main feature
          
