@@ -1,102 +1,70 @@
-Content-Type: multipart/mixed; boundary="===============5906793459273026792=="
+Content-Type: multipart/mixed; boundary="===============2554546910693679119=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
-Date: Mon, 10 Feb 2025 11:17:19 -0000
-Message-Id: <173918623998.3957798.2437564967709724078@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Mon, 10 Feb 2025 11:29:41 -0000
+Message-Id: <173918698194.3967186.9345437332213174601@gitolite.kernel.org>
 
---===============5906793459273026792==
+--===============2554546910693679119==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cryptsetup/cryptsetup
-user: mbroz
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/internal-64bit-flags
-    old: ad71a80d2b367de32d38a36577d77a6acf5a0ec5
-    new: fa0e49795b90f09a4a5cd3b385a39c992beb05a2
-    log: revlist-ad71a80d2b36-fa0e49795b90.txt
-  - ref: refs/heads/main
-    old: a965a88992ed86cf4156362d653e3df270351c1f
-    new: a2b2c6a8aeb67b7d943eb54072762259c79edab2
-    log: |
-         3899484be87eaa9b6d1553cac8881d254ab6efa7 fuzz: Fix use of PWD variable.
-         a2b2c6a8aeb67b7d943eb54072762259c79edab2 Add workaround for memory sanitizer that cannot recognize explicit_bzero.
-         
-  - ref: refs/heads/master
-    old: a965a88992ed86cf4156362d653e3df270351c1f
-    new: a2b2c6a8aeb67b7d943eb54072762259c79edab2
-    log: |
-         3899484be87eaa9b6d1553cac8881d254ab6efa7 fuzz: Fix use of PWD variable.
-         a2b2c6a8aeb67b7d943eb54072762259c79edab2 Add workaround for memory sanitizer that cannot recognize explicit_bzero.
-         
-  - ref: refs/merge-requests/420/merge
-    old: f02c33e612b58e1610aed189ac3ddd6a80504c9a
-    new: c1c1ab881f6a5f2bd896d5798ede6936c476ca79
-    log: |
-         a321068e8da4c3386f23a932184aa804fe5cef58 Add compile_commands.json file to .gitignore.
-         da84c79a5b31f799a3312051f211fc7e26e011b7 Use crypt_volume_key_next helper in bitlk.
-         ab9d4fec3bbe8ba3af46849d823aa6302f41f505 Do not parse emtpy '-' key string with null ciphers.
-         dc75deff51bc1e79c93da502ce219a403c1c0d83 Drop bogus usage of vk->uploaded.
-         e9073e6b19d2f3977716764eb59fa6d12293c562 Add keyring key type in volume key comparison function.
-         5ee549de1e68a4e45fb9eb3fc8b98578bc1cebbe Remove volume_key struct from fvault2 code.
-         4f90213a5b9e90bf068879e28638430c3b11e3c1 Drop redundant member initialization in volume key.
-         1326dfbac1774b80664e4f4bc0ca4f479f1f2dcc Add generic crypt_generate_volume_key function.
-         88b3da6042cf4d9aec623ea9774645d890a71e16 Use new crypt_generate_volume_key to generate weaker keys.
-         a965a88992ed86cf4156362d653e3df270351c1f Add const to pointer in blob_serialize() function.
-         c1c1ab881f6a5f2bd896d5798ede6936c476ca79 Merge branch 'xchacha20-random' into 'main'
-         
-  - ref: refs/merge-requests/753/head
-    old: ad71a80d2b367de32d38a36577d77a6acf5a0ec5
-    new: fa0e49795b90f09a4a5cd3b385a39c992beb05a2
-    log: revlist-ad71a80d2b36-fa0e49795b90.txt
-  - ref: refs/merge-requests/753/merge
-    old: b43788819ab8f005f72eaa59bdbebd7be2363dc6
-    new: 594635270ecc6c2268c3f093d2b093bbce32a321
-    log: |
-         3efb738db245650cded085fb2b0488d5c54ec32c Make internal dm_flags 64bit.
-         844e463acec7dcdbebba54bbb5835bd01fedbe83 Make libdevmapper internal flags 64bit.
-         8767ae4720838c71e8031cb88ce222186cf6d9a1 Sync libdevmapper flags in tests.
-         fa0e49795b90f09a4a5cd3b385a39c992beb05a2 Make test libdevmapper flags 64bit.
-         594635270ecc6c2268c3f093d2b093bbce32a321 Merge branch 'internal-64bit-flags' into 'main'
-         
-  - ref: refs/heads/verity-error
-    old: 0000000000000000000000000000000000000000
-    new: d523d3cf1ea54c4741e50c6e118f58c75bae0930
-  - ref: refs/merge-requests/754/head
-    old: 0000000000000000000000000000000000000000
-    new: a2b2c6a8aeb67b7d943eb54072762259c79edab2
-  - ref: refs/merge-requests/754/merge
-    old: 0000000000000000000000000000000000000000
-    new: 746940406f168b349f5f5dc544b9a936fdeec4c5
-  - ref: refs/merge-requests/755/head
-    old: 0000000000000000000000000000000000000000
-    new: d523d3cf1ea54c4741e50c6e118f58c75bae0930
-  - ref: refs/merge-requests/755/merge
-    old: 0000000000000000000000000000000000000000
-    new: a9ebfbfeb8bed5a490be333a809ab9e7c839a5c0
+  - ref: refs/heads/review-ilpo-next
+    old: 56f529ce4370757afe57b2e51810348831183398
+    new: bd820906ea9dc3acfcac9de4f1be89b78609e2ac
+    log: revlist-56f529ce4370-bd820906ea9d.txt
 
---===============5906793459273026792==
+--===============2554546910693679119==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ad71a80d2b36-fa0e49795b90.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-da84c79a5b31f799a3312051f211fc7e26e011b7 Use crypt_volume_key_next helper in bitlk.
-ab9d4fec3bbe8ba3af46849d823aa6302f41f505 Do not parse emtpy '-' key string with null ciphers.
-dc75deff51bc1e79c93da502ce219a403c1c0d83 Drop bogus usage of vk->uploaded.
-e9073e6b19d2f3977716764eb59fa6d12293c562 Add keyring key type in volume key comparison function.
-5ee549de1e68a4e45fb9eb3fc8b98578bc1cebbe Remove volume_key struct from fvault2 code.
-4f90213a5b9e90bf068879e28638430c3b11e3c1 Drop redundant member initialization in volume key.
-1326dfbac1774b80664e4f4bc0ca4f479f1f2dcc Add generic crypt_generate_volume_key function.
-88b3da6042cf4d9aec623ea9774645d890a71e16 Use new crypt_generate_volume_key to generate weaker keys.
-a965a88992ed86cf4156362d653e3df270351c1f Add const to pointer in blob_serialize() function.
-3efb738db245650cded085fb2b0488d5c54ec32c Make internal dm_flags 64bit.
-844e463acec7dcdbebba54bbb5835bd01fedbe83 Make libdevmapper internal flags 64bit.
-8767ae4720838c71e8031cb88ce222186cf6d9a1 Sync libdevmapper flags in tests.
-fa0e49795b90f09a4a5cd3b385a39c992beb05a2 Make test libdevmapper flags 64bit.
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1739187007 +0200
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1739186977-3a627e0be06ffa90a1bf724c661410de9c944a94
 
---===============5906793459273026792==--
+56f529ce4370757afe57b2e51810348831183398 bd820906ea9dc3acfcac9de4f1be89b78609e2ac refs/heads/review-ilpo-next
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZ6njQgAKCRBZrE9hU+XO
+Ma+QAQDDO58oSoCvEfpxIHdQP5yFbiSR/dHWnxQwTlQ/RrZRoQD/QA/A+RGNM5X1
+ez3JaLCkBOqgKSr1iTZlPp+tRZ11Qwc=
+=YkME
+-----END PGP SIGNATURE-----
+
+--===============2554546910693679119==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-56f529ce4370-bd820906ea9d.txt
+
+4c546de990543b303ad130276316ca868ba599f9 platform/x86: alienware-wmi: Add a state container for LED control feature
+898a2302d7c7db0fe604326b9c7c484b71b2bb00 platform/x86: alienware-wmi: Add WMI Drivers
+763c16fb149e12247a733e269e62a459b4b3c76d platform/x86: alienware-wmi: Add a state container for thermal control methods
+21cc9dee7d0b4d147fc4595f59444212b3aa5300 platform/x86: alienware-wmi: Refactor LED control methods
+7292fb2a40cac1daebd31ae48b96a4a3b2341f22 platform/x86: alienware-wmi: Refactor hdmi, amplifier, deepslp methods
+27e9e6339896474d413b0b9d308dd855fb75c09d platform/x86: alienware-wmi: Refactor thermal control methods
+6d7f1b1a5db61c4d654c84e17392916c4ef8ae6f platform/x86: alienware-wmi: Split DMI table
+fd683f9fbb74bcfd50449168149c5298baca906c MAINTAINERS: Update ALIENWARE WMI DRIVER entry
+2e56ac8c27240a5c14f314776baba02aea1357c7 platform/x86: Rename alienware-wmi.c
+c5ebbaf146b77e8e1f8fbc6b6829df5def9e708d platform/x86: Add alienware-wmi.h
+8cc2c415d092e1d95d20e4a6ab071a4c39168ed5 platform/x86: Split the alienware-wmi driver
+dea2895be3260ff6030e0a58d23ec252a48d3a63 platform/x86: dell: Modify Makefile alignment
+b1b8fcf6e6773cc4b285ef367dc6f32570857180 platform/x86: Update alienware-wmi config entries
+0738c3026cc02bee00e188a485c8a9bf7b815182 platform/x86: alienware-wmi: Update header and module information
+db7155b5e3d6e808c9e888e76a8f95690964a456 platform/x86:intel/pmc: Make tgl_core_generic_init() static
+78eaf4d12d7c4ec6cf2f5ed8d8737ae0da390930 platform/x86/intel/pmc: Remove duplicate enum
+ac6bef0d54014cc010831ec86ac425f482a981ae platform/x86:intel/pmc: Create generic_core_init() for all platforms
+45fa1a0d4d8759787bf62b49019952e2d56a66f9 platform/x86/intel/pmc: Remove simple init functions
+bd820906ea9dc3acfcac9de4f1be89b78609e2ac platform/x86/intel/pmc: Add Arrow Lake U/H support to intel_pmc_core driver
+
+--===============2554546910693679119==--
