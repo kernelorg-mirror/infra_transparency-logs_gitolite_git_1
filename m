@@ -1,55 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============2647894153761244720=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Mon, 10 Feb 2025 03:33:53 -0000
-Message-Id: <173915843385.3487882.10242862024116024870@gitolite.kernel.org>
-
---===============2647894153761244720==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
+Date: Mon, 10 Feb 2025 03:43:02 -0000
+Message-Id: <173915898227.3495540.12493515109120935642@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/scsi
-user: jejb
+repo: pub/scm/linux/kernel/git/pcmoore/lsm
+user: pcmoore
 changes:
-  - ref: refs/heads/for-next
-    old: 5233e3235dec3065ccc632729675575dbe3c6b8a
-    new: 2f9523091a97abf8584a79ed406fd8ffe9063ec0
-    log: revlist-5233e3235dec-2f9523091a97.txt
-
---===============2647894153761244720==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5233e3235dec-2f9523091a97.txt
-
-14807b4a4e03b66c26f4c82f495fc8fbe35fb95d scsi: Constify struct pci_error_handlers
-7081dc75df79696d8322d01821c28e53416c932c scsi: st: Restore some drive settings after reset
-a5d518cd4e3e592eaa59b888a5d75ad639d554ea scsi: core: Add counters for New Media and Power On/Reset UNIT ATTENTIONs
-341128dfe10a7c8681d86e81b5bc63902da644ef scsi: st: Modify st.c to use the new scsi_error counters
-2c445d5f832a51dfd8527fcce7323f79d37c0432 scsi: st: Add sysfs file position_lost_in_reset
-026476271efe817b970ea360981ee77919bcdbad Merge patch series "scsi: st: scsi_error: More reset patches"
-120430bff6126870b571c378e6828c7c0b5cba51 scsi: isci: Fix double word in comments
-a307d6ec12394c069f539d6d7de1c2e247765fb4 scsi: mvsas: Remove unused mvs_phys_reset()
-b932ff7d0459ff792c00c2350c2fe9e6545eca48 scsi: message: fusion: Remove unused mptscsih_target_reset()
-08795f4c096c55def0ecb99218917851b9b993bc scsi: mpt3sas: Remove unused config functions
-772ba9b5bd2701a9967c084b66ff1daaee0367eb scsi: cxlflash: Remove driver
-f08b24d82749117ce779cc66689e8594341130d3 scsi: mpi3mr: Avoid reply queue full condition
-339a7b32a371a667dccfcd0e945add38f2cbe596 scsi: mpi3mr: Support for Segmented Hardware Trace buffer
-f195fc060c738d303a21fae146dbf85e1595fb4c scsi: mpi3mr: Synchronous access b/w reset and tm thread for reply queue
-35a0437d9f33071d81d51af70432ecab1e686078 scsi: mpi3mr: Update driver version to 8.12.1.0.50
-796a8aa8facf8572ad56b05d28b486c00d77408d Merge patch series "mpi3mr: Few Enhancements and minor fixes"
-8eccc58d71eafbd2635077916b68fda15791d270 scsi: lpfc: Reduce log message generation during ELS ring clean up
-f0842902b383982d1f72c490996aa8fc29a7aa0d scsi: lpfc: Free phba irq in lpfc_sli4_enable_msi() when pci_irq_vector() fails
-23ed62897746f49f195d819ce6edeb1db27d1b72 scsi: lpfc: Ignore ndlp rport mismatch in dev_loss_tmo callbk
-56c3d809b7b450379162d0b8a70bbe71ab8db706 scsi: lpfc: Handle duplicate D_IDs in ndlp search-by D_ID routine
-8be7202ad3afa76a3bec9bfc18e9e5cb988832d5 scsi: lpfc: Update lpfc version to 14.4.0.8
-ef12deb6ce74e85f6933a01e4d5ced70f5c12d2a scsi: lpfc: Copyright updates for 14.4.0.8 patches
-34a84c41c71bb02474aa976f1435c33173c7da92 Merge patch series "Update lpfc to revision 14.4.0.8"
-640a6af5099ae8f6a858a8612bec70048a4aee69 scsi: ufs: qcom: Enable UFS Shared ICE Feature
-2f9523091a97abf8584a79ed406fd8ffe9063ec0 Merge branch 'misc' into for-next
-
---===============2647894153761244720==--
+  - ref: refs/heads/dev
+    old: c6ad9fdbd44b78f51fa50138247694774ab99e97
+    new: 31889b49a79ca7006d5bd6c70f09219921785910
+    log: |
+         31889b49a79ca7006d5bd6c70f09219921785910 lsm: fix a missing security_uring_allowed() prototype
+         
+  - ref: refs/heads/next
+    old: c6ad9fdbd44b78f51fa50138247694774ab99e97
+    new: 31889b49a79ca7006d5bd6c70f09219921785910
+    log: |
+         31889b49a79ca7006d5bd6c70f09219921785910 lsm: fix a missing security_uring_allowed() prototype
+         
