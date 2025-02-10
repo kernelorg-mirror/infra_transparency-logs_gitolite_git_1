@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8878473790452641053=="
+Content-Type: multipart/mixed; boundary="===============6158489729724222993=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 10 Feb 2025 16:29:03 -0000
-Message-Id: <173920494307.25583.11791627555824283071@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 10 Feb 2025 16:29:11 -0000
+Message-Id: <173920495130.25806.3064585962498640077@gitolite.kernel.org>
 
---===============8878473790452641053==
+--===============6158489729724222993==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.15
-    old: cb161c333927142818d6bf22a4da2b023fb2b8c9
-    new: d1541caab053cf94b114582a23b51a8cb90f4a46
-    log: revlist-cb161c333927-d1541caab053.txt
+  - ref: refs/heads/for-next
+    old: f3a0dfda57f208c90c8c73f3bee2e8390f585b1f
+    new: 2e5da3be9e3e0df0006d6f86a24dd533c0ae7a0b
+    log: revlist-f3a0dfda57f2-2e5da3be9e3e.txt
 
---===============8878473790452641053==
+--===============6158489729724222993==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1739204971 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1739204940-12dc20262c29492768e2614b5a5e19ce11ec5c90
-
-cb161c333927142818d6bf22a4da2b023fb2b8c9 d1541caab053cf94b114582a23b51a8cb90f4a46 refs/heads/asoc-6.15
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmeqKWsACgkQJNaLcl1U
-h9CTlAf+KjWYP/KL3+n/iJgw2u4navYwEFq55vY+gEHCOkxGaB4lkWVvFKLI4WCg
-LPaqtXOV/3mod8olNzcAQcR3SZAgSEwhX1VeHg2buI9vZCnr+i2F2hjr/o1vPzeI
-5Gjzg9zSm+ZQRTUUu2178/+wyXTfYh6yEvYQnJXzEOvmfT249/+UVUs36MvyX6OK
-j+dG5gsawoxYqIG7XZk9L62ztBCWSGVpe/wKIUgpHlvfBHGUctlfGcRY/RHbtMlI
-loVtWQjsiLh8nKzpMQZwkUz1BELgCyaXIhRGZaEXgMvXlIwXLfsAUj3dZdoTVn/w
-LTjpCTeN94v5HJHQdCKbre4tzYo1tQ==
-=ql67
------END PGP SIGNATURE-----
-
---===============8878473790452641053==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cb161c333927-d1541caab053.txt
+Content-Disposition: attachment; filename=revlist-f3a0dfda57f2-2e5da3be9e3e.txt
 
 e2ceac2f323625632f12dd5333092976298a0cde ASoC: amd: ps: rename structure names, variable and other macros
 4b36a47e2d989b98953dbfb1e97da0f0169f5086 ASoC: amd: ps: use macro for ACP6.3 pci revision id
@@ -99,5 +74,6 @@ e80b8e5c53c30df1cba45258d10b04872b7eea67 ASoC: SDCA: Add support for clock Entit
 005859a2cf7aa349fbbfe433ab1769b15c535b72 ASoC: amd: Add support for ACP7.0 & ACP7.1
 3c331bdeececb629669961a80c0f929301c088d2 Refactor imx drivers and introduce support for
 d1541caab053cf94b114582a23b51a8cb90f4a46 Add SDCA DisCo parsing support
+2e5da3be9e3e0df0006d6f86a24dd533c0ae7a0b Merge remote-tracking branch 'asoc/for-6.15' into asoc-next
 
---===============8878473790452641053==--
+--===============6158489729724222993==--
