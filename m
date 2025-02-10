@@ -1,103 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============4340652807456930331=="
+Content-Type: multipart/mixed; boundary="===============7730255827144890810=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Mon, 10 Feb 2025 06:47:38 -0000
-Message-Id: <173917005881.3639965.12049501774535773025@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Mon, 10 Feb 2025 06:52:18 -0000
+Message-Id: <173917033845.3692004.5063642328896110139@gitolite.kernel.org>
 
---===============4340652807456930331==
+--===============7730255827144890810==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 9946eaf552b194bb352c2945b54ff98c8193b3f1
-    new: a64dcfb451e254085a7daee5fe51bf22959d52d3
-    log: revlist-9946eaf552b1-a64dcfb451e2.txt
+  - ref: refs/tags/v6.14-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 6a25088d268ce4c2163142ead7fe1975bb687cb7
 
---===============4340652807456930331==
+--===============7730255827144890810==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1739170084 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1739170053-a23b9fc69f5c206ef09bb8f2f042b8fe211f8d56
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1739170367 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1739170336-b6a90e35a755b127f73d8d0e41282c95e9bf8f49
 
-9946eaf552b194bb352c2945b54ff98c8193b3f1 a64dcfb451e254085a7daee5fe51bf22959d52d3 refs/heads/master
+0000000000000000000000000000000000000000 6a25088d268ce4c2163142ead7fe1975bb687cb7 refs/tags/v6.14-rc2
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmepoSUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7NgP/3zGBsDXBCCupjT3g/gw
-25R4x98sBO44nPb1e5E+1t0kbekYVgHYAOy1sp733t3Za/+djpUKftfAngbeSRu4
-ByBcvRINbTdYaCBHO+CuO8F95h6M+YZJ1/Pz8RPJbQfsEYTC8lYq68uJ4JK24I51
-UmMSRYn3WT4o6Z05powIvZPIzKxRpnFBAZhXe/d3PUuOe9oJD4CxPSfqzpd5pvtt
-CJErjfVfDaEM+WXBHtCxJc3vQ4HXMORRR7mzS7XMQe3tyx7Z8sCkLq0Vkk4wbCuw
-+wsSDk1CKqxPkL23j0nHEc2btrZy03tXMMNw//NXvZSIvyBQyUxmjrqfnXyBtRJ4
-bTujBdRrSz8e/VSHJzBfQQJD2eMxTW9wj3S6OE7ohCwf1I3sYHFBWrsQAlYRCe3G
-UL2to7DScj9D/ifxnA4r/gQsyMYHpgK+C1MlZt06dnm4bIhiqEsoFtgaZ4uJtGEV
-ASOGvDNSx+/FRngpY2raghsyLWtZ0btRlmdg+u9qvKojD0hh/B5o6rajRDGm8OKv
-uMaA/Av3ZHjF+e7ozfEZE9iUacVvCFBqLSVy4fChbTQLDJAVE/ZiFeRfygDrH3XC
-BkRaHu1MRYmSb6VOV3J7zlNsuoGEAD5YEtsUBrGgIncKXsWicJJEgqumyA2UApd4
-BC8BxvHnox2U22voN5zS5jY/
-=TuuK
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmepoj8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xosP/jYIejx7EJxi8l2/tDv1
+vC+yEW3EA5GGIMQkBl6QlwnCDuUIa8KWqjrRfg/4XOLrQCUuW2qY2BQ8EQhi0y39
+qpkyPYXfIzInTNQadX1C2miWYlDt+LHy5JCwI/cv7xAJn1pxujQCZSJJwNpy/STs
+La6h7BEvrMxcVsFZnMP6WdAVWzstf1B/X1NkqFwcgsgZQONB3bgXtNFvjESfQI9Y
+/XIu9+cMU6yM8M83veEWuDvsFIMHn2dEdNnrziGE56AYNDURdUq//cV+tHpecXXt
+V2Gv+PN4LiT5aVaS0YjvfV2Nsaah32edjexGI81IcV0NHS47h2I6P8QML/RzNnCA
+hC/woecKA0cgbJIzTtn4RZvhsOWu0x91tq4bjM+EtBz1E2hdgOwCxee9oGYGjUGf
+yrAhlb2ybOCXrklTe6g394ja/j13QErWU+Hx7S36YjEk4atiE4C4n9ppYcutlfFq
+jHRXpwVBMt08GxC5Bxitgq77CyJKbyh/SUqrB8vOLX5zSohs5BZYiejiTsVKJIHG
+FAE2iC78HFHYTtU4MgUwFh1q2t4U2jn+XMLUsQgaiAyZhz7D122vXf8mGczpqGWp
+f8aFynSNX5iwoRQfdRwEV4na0h/veTwkUfaR6TAPUF5RSHYxJ+vn71P1bvPhq1k9
+9a3+IEAe5Jrna/K7HxTEWvl7
+=t5Tr
 -----END PGP SIGNATURE-----
 
---===============4340652807456930331==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9946eaf552b1-a64dcfb451e2.txt
-
-9bcbb6104a344d3526e185ee1e7b985509914e90 KVM: arm64: Flush hyp bss section after initialization of variables in bss
-5f230f41fdd9e799f43a699348dc572bca7159aa KVM: s390: vsie: fix some corner-cases when grabbing vsie pages
-c5f64c98a1f7e4ca0e55b441620473389b8c7a72 KVM: s390: vsie: stop using page->index
-905f5ce0835c938c501237d9371cdbc91d8f7e02 KVM: s390: vsie: stop messing with page refcount
-4514eda4c1dbd0b7062e06c769d2ceafd25c9284 KVM: s390: vsie: stop using "struct page" for vsie page
-66119f8ce135de664cb2fb88d9aaa322d7451a1f KVM: Do not restrict the size of KVM-internal memory regions
-decff09adbeba4b75a1982b1dc3991761914e2df KVM: s390: wrapper for KVM_BUG
-413c98f24c63b3b8aff202fce6f01e8950730511 KVM: s390: fake memslot for ucontrol VMs
-63e71519891024b622d00c486c4d0348c44ca911 KVM: s390: selftests: fix ucontrol memory region test
-5cbe24350b7d8ef6d466a37d56b07ae643c622ca KVM: s390: move pv gmap functions into kvm
-3762e905ec2e498c96464e094b7d46be98151d3b KVM: s390: use __kvm_faultin_pfn()
-6eb84e130075b9ea35a946dcf9a2476ac2c749a0 KVM: s390: get rid of gmap_fault()
-d41993f71385ce7e9661c203e02a588a93a59b24 KVM: s390: get rid of gmap_translate()
-c9f721ed8ec6942dad951d2d8c4fca291170165e KVM: s390: move some gmap shadowing functions away from mm/gmap.c
-37d1b5d8d588a9761e47d9941005e2da7def8310 KVM: s390: stop using page->index for non-shadow gmaps
-ef0c8ef8485d9629c6d042cea8f2082f159b467e KVM: s390: stop using lists to keep track of used dat tables
-43656f774a4b4a2841035947e89dcde8ee136caa KVM: s390: move gmap_shadow_pgt_lookup() into kvm
-c27e002626b9fbd2729fa00ddda789319648e7ba KVM: s390: remove useless page->index usage
-1f4389931e9fea7e8b3c1f189d505b040b25be8a KVM: s390: move PGSTE softbits
-84b7387692a8c849bd8bddd0f5c5474d4923aa6e KVM: s390: remove the last user of page->index
-32239066776a27287837a193b37c6e55259e5c10 KVM: s390: selftests: Streamline uc_skey test to issue iske after sske
-0f1a6c5c9784eff7e31e4915e17285fb89ad3644 KVM: arm64: Flush/sync debug state in protected mode
-32392e04cb50d87bb7a6a7d9213f44a1a0961820 KVM: arm64: Fail protected mode init if no vgic hardware is present
-5417a2e9b130a78bf48cb4cf92630efcee5ccf38 KVM: arm64: Fix nested S2 MMU structures reallocation
-b450dcce93bc2cf6d2bfaf5a0de88a94ebad8f89 KVM: arm64: timer: Always evaluate the need for a soft timer
-1b8705ad5365b5333240b46d5cd24e88ef2ddb14 KVM: arm64: timer: Correctly handle EL1 timer emulation when !FEAT_ECV
-0e459810285503fb354537e84049e212c5917c33 KVM: arm64: timer: Don't adjust the EL2 virtual timer offset
-ee3a66f431d689b796b9cb48aefd3d223540381c kvm: x86: SRSO_USER_KERNEL_NO is not synthesized
-35441cdd50920495cf93c267377a6964ef50388e Merge tag 'kvm-s390-next-6.14-2' of https://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into HEAD
-5e21d0c5b95c6351936bb1400a354af09cb74ace Merge tag 'kvmarm-fixes-6.14-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
-203a53029a9c6935ad38e0343d048e51488797cf KVM: selftests: Fix spelling mistake "initally" -> "initially"
-6f61269495260531e15d84d090ee63618110c470 KVM: remove kvm_arch_post_init_vm
-43fb96ae78551d7bfa4ecca956b258f085d67c40 KVM: x86/mmu: Ensure NX huge page recovery thread is alive before waking
-738fc998b639407346a9e026514f0562301462cd scripts/Makefile.extrawarn: Do not show clang's non-kprintf warnings at W=1
-4c56eb33e603c3b9eb4bd24efbfdd0283c1c37e4 kbuild: keep symbols for symbol_get() even with CONFIG_TRIM_UNUSED_KSYMS
-ba958ac74800573f7f54dbe2a7a7b9a9a523ed52 kbuild: fix misspelling in scripts/Makefile.lib
-f354fc88a72ae83dacd68370f6fa040e5733bcfe kbuild: install-extmod-build: add missing quotation marks for CC variable
-7585946243d614bd2cd4e13377be2c711c9539e0 PM: sleep: core: Restrict power.set_active propagation
-954a209f431c06b62718a49b403bd4c549f0d6fb Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
-146339ddb8b7520ee486389c7b0a7b24d68e5f60 Merge tag 'pm-6.14-rc2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-69b54314c975f4dfd3a29d6b9211ab68fff46682 Merge tag 'kbuild-fixes-v6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-a64dcfb451e254085a7daee5fe51bf22959d52d3 Linux 6.14-rc2
-
---===============4340652807456930331==--
+--===============7730255827144890810==--
