@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============2473529927346913341=="
+Content-Type: multipart/mixed; boundary="===============6359282709568893839=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Mon, 10 Feb 2025 16:03:05 -0000
-Message-Id: <173920338520.2619.916311166515595728@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 10 Feb 2025 16:05:49 -0000
+Message-Id: <173920354960.5843.3936668772804676796@gitolite.kernel.org>
 
---===============2473529927346913341==
+--===============6359282709568893839==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
+repo: pub/scm/linux/kernel/git/broonie/spi
+user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 1a75e32a99a518b69cddf69b20dc4a3e7421f137
-    new: 191bc3988a750b116f7e0c9ca39f200fe4cc4198
+  - ref: refs/heads/for-6.15
+    old: 9bbbf33a5ab84c0f3643f43350b0f473b60af5b8
+    new: f46eb2bfb878ce3345725252f77fa3ba36a0f087
     log: |
-         8291288247502b17c391513708a4bd4362caf82a assign some 6.12.12 cve ids
-         191bc3988a750b116f7e0c9ca39f200fe4cc4198 strip the mbox for the new ids created
+         8e02d188698851436f76038ea998b726193d1b10 spi: add basic support for SPI offloading
+         d7231be4b4657e5f922a4c6dc11e8dffc71fee87 spi: offload: add support for hardware triggers
+         83f37ba7b76ab17e029ab4127ec64ccccce64c00 dt-bindings: trigger-source: add generic PWM trigger source
+         ebb398ae1e052c4245b7bcea679fe073111db2ce spi: offload-trigger: add PWM trigger driver
+         700a281905f2a4ccf6f3b2d3cd6985e034b4b021 spi: add offload TX/RX streaming APIs
+         e1101373df5cd7672d988bb4e9cdd5eb97003165 spi: dt-bindings: axi-spi-engine: add SPI offload properties
+         5a19e1985d014fab9892348f6175a19143cec810 spi: axi-spi-engine: implement offload support
+         f46eb2bfb878ce3345725252f77fa3ba36a0f087 spi: axi-spi-engine: add offload support
          
 
---===============2473529927346913341==
+--===============6359282709568893839==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1739203414 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1739203384-1f3663aed164ecf05af7cc3642b33dc59ce36a67
+pusher C3F436CA30F5D8EB 1739203577 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1739203547-f0bba37c6df9368c4fffb6a4b501c03e99ac2f3a
 
-1a75e32a99a518b69cddf69b20dc4a3e7421f137 191bc3988a750b116f7e0c9ca39f200fe4cc4198 refs/heads/master
+9bbbf33a5ab84c0f3643f43350b0f473b60af5b8 f46eb2bfb878ce3345725252f77fa3ba36a0f087 refs/heads/for-6.15
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeqI1YbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sQYP/2wC0YtWDPhsNCbEKegT
-Z7/LHRwr5dvliwHiSP5/aN3m4JgaKcNPU/AWbvpoTfgNJYjnvjRr6NXrzUBFgqS2
-g9Qiwoly/jiJmeST+v/+HQd6cqkzOFZ9UpPgne2pJrphsGIX+KDyzxNrius1WFBM
-8qdQ5a1fsuUqHf8VJplqqx2QiETNg69dTEu79wku/4tuu07Q0XM7fUGzlbbJ3J7O
-pdWYTnaCjlJcIC5xe+19mhItDKIcrPXibiYm9UUH0CcFzyxRGR6tE8xwI0u/Ddzi
-EOZbLXjHszgyKlc4VM+cClAESDZJVBKQtXR5s0SnS/EARxYyUTADyQNFqfuVuoSK
-jcn6WW9RHJeBy8B0uk0facQTMgkNp2nxcrZ4sPsjPc9Fs42B9eoh9nO9QQ4kLb+J
-Ouso+tvMEI5TtGGmxt+y+UZSi1ZO3tSVd9bz8Lvul6MDOpQ69YWoBhOcNO/S/20v
-Pqnx0/ORutyUB152VbZSJ3c/LOiRfdLKcgW7CTcG2H16VZbpeQtMbUQ2Rj4XImUV
-1bX21RysQdegInYikFvuTI7y0lZw4CPVZRHCzQetTYFV2/9bqtER8Ts+a8W1+Dtc
-EEU7T5zu+2GNBx6U45adxIQ73FLYhhaNtOa2swq3K/4ASLa/0+zbCVEaRS6hwjOd
-GwVcOU1aw+oZQotYwpASPt9O
-=XreY
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmeqI/kACgkQJNaLcl1U
+h9DMZQf8C15DmeadtlQUv/3tVDdQ/uFTcOXeJPaid4aFDhtye4C5yqybH+rocr82
+lMFPtR5CftjsEJ1iBEPO1raonpn4BiufqT8hu6d4Py+zvIIj6PLTBsP21qjAEBWv
+gPBmZrKehc6QAKtwPhhyGAcrM7RWwbQFQhVeJ5DD57fk/PI1AdF7a4E358Pp1j2i
+OlhKeuIiIT6yGhnPmRtuN9lQ/mzRA/3DHYQBpeAo0nPJ0mbdtZ10YTBDdoyyo7LY
+ih67ZlzrF/qMxqsJp1lX7B97c3yXU91ICJV+LPR19UFD3mPvI3ovxiYDSc/76zdW
+1jIU0vbBT5pNJ2dGDnadEsN79ZyHZQ==
+=bnjT
 -----END PGP SIGNATURE-----
 
---===============2473529927346913341==--
+--===============6359282709568893839==--
