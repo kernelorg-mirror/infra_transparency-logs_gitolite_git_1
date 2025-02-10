@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 10 Feb 2025 00:32:06 -0000
-Message-Id: <173914752688.3336806.15025840277438642901@gitolite.kernel.org>
+Date: Mon, 10 Feb 2025 00:33:09 -0000
+Message-Id: <173914758945.3337625.2784133162515018403@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,13 +12,12 @@ repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
   - ref: refs/heads/v4l2-loopback
-    old: f02cd7f04bb8cb762d533eceb135bb611ff181b1
-    new: be8fe3fb05c37b4a26d08544c37b577a85dccc00
+    old: be8fe3fb05c37b4a26d08544c37b577a85dccc00
+    new: f6eab5d6cd2c308de960beb6d992825b732ef561
     log: |
-         bcca2026375c6f38ceeaacdbe5d3737766b71009 Remove redundant module parameters
-         22090376681b4c9357d329c63d0853f66130f2e8 Sanitize setting up width and height limits
-         2b704e3d06579bc765912207a0ed103a64b3547f Remove HAVE_TIMER_SETUP
-         760a049ecaeb01d194a828f9037d490912d8264d Set video_set_drvdata(dev->vdev, dev) directly
-         82d673d1130f6e45e4e883f5f9f5e79f5d445d38 Remove V4L2LOOPBACK_CTL_QUERY
-         be8fe3fb05c37b4a26d08544c37b577a85dccc00 Reburnish the API
+         6827528c479f46d4aa789eb1ce23ff2df903a6eb Sanitize setting up width and height limits
+         8d610676f61e7458f9efdb6314360f27fa27775d Remove HAVE_TIMER_SETUP
+         a321414cb708b260c67b198c5dbaa0f8d5e795ee Set video_set_drvdata(dev->vdev, dev) directly
+         2bceb668888fe9bdc2044feb80c0c13e001719f2 Remove V4L2LOOPBACK_CTL_QUERY
+         f6eab5d6cd2c308de960beb6d992825b732ef561 Reburnish the API
          
