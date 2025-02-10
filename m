@@ -1,70 +1,65 @@
-Content-Type: multipart/mixed; boundary="===============2554546910693679119=="
+Content-Type: multipart/mixed; boundary="===============5275793424461802783=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 10 Feb 2025 11:29:41 -0000
-Message-Id: <173918698194.3967186.9345437332213174601@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Mon, 10 Feb 2025 11:41:34 -0000
+Message-Id: <173918769436.3977231.16180118587161768208@gitolite.kernel.org>
 
---===============2554546910693679119==
+--===============5275793424461802783==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/review-ilpo-next
-    old: 56f529ce4370757afe57b2e51810348831183398
-    new: bd820906ea9dc3acfcac9de4f1be89b78609e2ac
-    log: revlist-56f529ce4370-bd820906ea9d.txt
+  - ref: refs/heads/faux_bus
+    old: 56910bd98e85487b44a3a98db71d7e325e544888
+    new: 98ede28dfce020379badad4ba9ed95c6966a2523
+    log: |
+         f6fbd2597e13b97d5197cb44b850c121d75eadce driver core: add a faux bus for use when a simple device/bus is needed
+         4dc811274886831a29b38e23e0ac6dc5b8e0cd5f rust/kernel: Add faux device bindings
+         18084c944715fb4c586c43f51695707c69dba7de regulator: dummy: convert to use the faux device interface
+         3dc3c82b148c85ba78d7a34c7157a92f5118929c x86/microcode: move away from using a fake platform device
+         5f2a0bef2a422581ffd12b36f28d67c62304b28a wifi: cfg80211: move away from using a fake platform device
+         455a2187ac182a10bca316161e967d7bb204df10 tlclk: convert to use faux_device
+         3cb0e051223663aa352909b418a7e31b9f1efa46 misc: lis3lv02d: convert to use faux_device
+         7fc2f3a78252cbf59aba15efa9a5a2b5e683599e drm/vgem/vgem_drv convert to use faux_device
+         eb3d299bcfbc8a83d1c3f86b37200eb866eda65b drm/vkms: convert to use faux_device
+         98ede28dfce020379badad4ba9ed95c6966a2523 faux_test: test module for faux driver api
+         
 
---===============2554546910693679119==
+--===============5275793424461802783==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1739187007 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1739186977-3a627e0be06ffa90a1bf724c661410de9c944a94
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1739187713 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1739187681-e5b03dffd13c8981d51c597ffa35e3a77ee7bd0a
 
-56f529ce4370757afe57b2e51810348831183398 bd820906ea9dc3acfcac9de4f1be89b78609e2ac refs/heads/review-ilpo-next
+56910bd98e85487b44a3a98db71d7e325e544888 98ede28dfce020379badad4ba9ed95c6966a2523 refs/heads/faux_bus
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZ6njQgAKCRBZrE9hU+XO
-Ma+QAQDDO58oSoCvEfpxIHdQP5yFbiSR/dHWnxQwTlQ/RrZRoQD/QA/A+RGNM5X1
-ez3JaLCkBOqgKSr1iTZlPp+tRZ11Qwc=
-=YkME
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmep5gEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PfEP/047Y2/s/I/6He1/Jc62
+CQQsrC/jWIAOalw8w/4AMO5XQdFSSdK8msn5hqGt89Shr+tpjrfdVih4n4bPDro1
+qQVLYcBizyJVNLcm0O21rdLZKlarHbz+96C2QN3pJD8GGfZJNKd3xJIhTBAkpqoj
+gy3YOqz4/JhKPVTzjNUCZU2DbgvouCm5qAW6YAlZaEerM1egTXRNLoKNZNFipqlA
+RSG+WLbhy5/j8ZgV2syCmPcsCDwBLt2n756Z8TP9c8q7tAYlguNvKlN2PqfUJIBP
+rMwYrrxFLzm/LCWm03Zm1W60hI+nhjyWNzXIXKBZDgtYfl2rcZZoPgCcLcltkDpy
+T8Q/XW2q5/0Q4yAF1SMNfx7gD3ZJc4bHXU4amC97B+AGBgszl2YCk5nVubLs+ftm
+/SgFBXc3AWDUZwEkUj6b/RSt6DFT4Pu9bbK2xjzyu110Knu4ZZIeCS5hnBZAtzNw
+7nKRfSrSHLH4nUHNQDbXjVco5ZgWueNzfIog3BwxA0is7yxHvgiAEWEL6pRSAb6S
+9EACM2UnPE4ttKJu06MjLGwp7gaqbXc4QwE9zHdqk6Ms2/LH/U9kWLBMBUARFDuU
+Pc4ayvfwtOjLybNzQ2oMfJkfqPvIdB49E70uc3A53Y1IYr1A/GvVRmpXY0JS03lU
+gR615euWFbRJm6yddSYZ2Q+6
+=vDEr
 -----END PGP SIGNATURE-----
 
---===============2554546910693679119==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-56f529ce4370-bd820906ea9d.txt
-
-4c546de990543b303ad130276316ca868ba599f9 platform/x86: alienware-wmi: Add a state container for LED control feature
-898a2302d7c7db0fe604326b9c7c484b71b2bb00 platform/x86: alienware-wmi: Add WMI Drivers
-763c16fb149e12247a733e269e62a459b4b3c76d platform/x86: alienware-wmi: Add a state container for thermal control methods
-21cc9dee7d0b4d147fc4595f59444212b3aa5300 platform/x86: alienware-wmi: Refactor LED control methods
-7292fb2a40cac1daebd31ae48b96a4a3b2341f22 platform/x86: alienware-wmi: Refactor hdmi, amplifier, deepslp methods
-27e9e6339896474d413b0b9d308dd855fb75c09d platform/x86: alienware-wmi: Refactor thermal control methods
-6d7f1b1a5db61c4d654c84e17392916c4ef8ae6f platform/x86: alienware-wmi: Split DMI table
-fd683f9fbb74bcfd50449168149c5298baca906c MAINTAINERS: Update ALIENWARE WMI DRIVER entry
-2e56ac8c27240a5c14f314776baba02aea1357c7 platform/x86: Rename alienware-wmi.c
-c5ebbaf146b77e8e1f8fbc6b6829df5def9e708d platform/x86: Add alienware-wmi.h
-8cc2c415d092e1d95d20e4a6ab071a4c39168ed5 platform/x86: Split the alienware-wmi driver
-dea2895be3260ff6030e0a58d23ec252a48d3a63 platform/x86: dell: Modify Makefile alignment
-b1b8fcf6e6773cc4b285ef367dc6f32570857180 platform/x86: Update alienware-wmi config entries
-0738c3026cc02bee00e188a485c8a9bf7b815182 platform/x86: alienware-wmi: Update header and module information
-db7155b5e3d6e808c9e888e76a8f95690964a456 platform/x86:intel/pmc: Make tgl_core_generic_init() static
-78eaf4d12d7c4ec6cf2f5ed8d8737ae0da390930 platform/x86/intel/pmc: Remove duplicate enum
-ac6bef0d54014cc010831ec86ac425f482a981ae platform/x86:intel/pmc: Create generic_core_init() for all platforms
-45fa1a0d4d8759787bf62b49019952e2d56a66f9 platform/x86/intel/pmc: Remove simple init functions
-bd820906ea9dc3acfcac9de4f1be89b78609e2ac platform/x86/intel/pmc: Add Arrow Lake U/H support to intel_pmc_core driver
-
---===============2554546910693679119==--
+--===============5275793424461802783==--
