@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Mon, 10 Feb 2025 18:10:31 -0000
-Message-Id: <173921103142.120506.3511561428362717917@gitolite.kernel.org>
+Date: Mon, 10 Feb 2025 18:10:40 -0000
+Message-Id: <173921104002.120775.9848630024007587929@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ebiggers/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/wip-aegis-avx10
-    old: e3bda4c2096e41e730d838779b5dea9187d9c220
+  - ref: refs/heads/wip-aes-xts-flags
+    old: 2b32612abff2e4adb803aa6e5fdedaf76d0be424
     new: 0000000000000000000000000000000000000000
