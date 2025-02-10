@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6010752895023916945=="
+Content-Type: multipart/mixed; boundary="===============1836206759868493629=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Mon, 10 Feb 2025 02:59:26 -0000
-Message-Id: <173915636605.3460447.4956924268287330146@gitolite.kernel.org>
+Date: Mon, 10 Feb 2025 02:59:30 -0000
+Message-Id: <173915637062.3460640.6977940162780218276@gitolite.kernel.org>
 
---===============6010752895023916945==
+--===============1836206759868493629==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 21697696cb5967f162d19434da2c7e9d3a5cfc88
-    new: 07c74306cd0b62120b20358d0a935faefd7ba8ca
-    log: revlist-21697696cb59-07c74306cd0b.txt
+  - ref: refs/heads/6.15/scsi-queue
+    old: 2014c95afecee3e76ca4a56956a936e23283f05b
+    new: 640a6af5099ae8f6a858a8612bec70048a4aee69
+    log: revlist-2014c95afece-640a6af5099a.txt
 
---===============6010752895023916945==
+--===============1836206759868493629==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1739156332 -0500
+pusher 75C5DE3D 1739156399 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1739156302-3f29bac8fa342e28ec55d689fc7221de89fd574c
+nonce 1739156368-6d2b9818d30de7a0dc5286e3e505f4f875419409
 
-21697696cb5967f162d19434da2c7e9d3a5cfc88 07c74306cd0b62120b20358d0a935faefd7ba8ca refs/tags/mkp-scsi-queue
+2014c95afecee3e76ca4a56956a936e23283f05b 640a6af5099ae8f6a858a8612bec70048a4aee69 refs/heads/6.15/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmepa2wACgkQ7ulgGnXF
-3j2jeA//clobJI4tdh4LKciDIiU8zkKZHmClflOUT9ECQGEN5Zxz3lfgpalsR+Ee
-+nwHNkY9t65XoqEzA3rbFWHWV+4E05Qeb36xy17aNrO8Y8ygkOSgbZrgMP+r95Oc
-GoAr+iHHUXSJdNHpA/WkHq664KzEcfitCrDFG+ZgFRYTzT+c2NziHMKYDtg6PSBM
-ihir8llOo70G9H5jm02h0vr7XfOwlrZM8saQPCJhhYHnqax9WHrWUW6LkvfJEfD/
-YAIYFcRRdvC9IY6kPuvDu+XiyL1aBjRZt0v6v8TMBRW3Gi6Hf6l2ttlgravN6rim
-QP5NjtvaAFNpknGd/l+QVIUY+8bzJacojGJVwo5uEg7MHghQxaqBoV4uiBwj3BsF
-RMJWsfEhlPABjBwF5ffB43UTwH53sxK+fxH0nlbvBBmaPYofjAVBKkCwqTAOM9AA
-6t0wvKBnAjEiNjjYyvFQRNdIIuNzLi9QoI6QuoAIMIgH/GfFkbxSUzAm6wx06NqJ
-0H7D/DlBcl2XAhXY3r9AeK38cyESIKaTNiN5sS3gGXM3mLieY7EELbe/Uydwdwz7
-RVZ+R03cYhxSUL6d053g6IZym4QY2K5fAoe4TODJv7GrB/Y512OjJLvKDkT+uYhJ
-D4Wrn8kavKh9CKzxy2lFZvZULhFGhgnBpjksdafJuwuOox2DFLk=
-=Yn4D
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmepa68ACgkQ7ulgGnXF
+3j03NQ//dk/SZG67oX0QWqhnj8QEt4IP7ugBxpxVq/pt9jFIQbEL9ehDnqyYrzJ/
+5GbtPDbaYWpEHAPFR1aDw3r0dtlTJATpCPIJMzU4zIHHN7iZPXdOH+EnXAe1P0ZD
+BellNASjSwPbw4ZnL9OMyFsTl6ttY+ZzUJoPJSn0ZyD1gJPymdYnGhzA7L9wATLx
+zhG9EuM3geuXkbp+TEChNcbWW+Pzz2zgVXXtb/Fts+sf8Vby4mwiO0sWsva7ooTh
+6WhS96ZGyUGqmJpEUCRybH2WwOlINmgUF/S2B/hwa8PseSH7k6bfONGXJm6FFAys
+/0O7u+AaFea4Ld87dKohf+iDQhyllEX9+dyRs6AN4IajebOB12u8K9j/+TTT4jm+
+R8rgUeMLAkagkeDoOx+ceDhqs7/6T/xXiucdAXORZyR7OIQT/4faPmD8bRGcM8HA
+9xqiLofDYnFZCmvflHpAdBcSLCElzEWjPCqQW/LotB0WMxG1GAKQV2IFgop1XqY+
+pgpq0x4ITcGsTaGX1c2pGop46Q+q081lwS8SAK0ZEfphSL9JOTO42/k+yPhDIZjb
+w8cEnRNPN7WSM2TQXUgYGvWc4x58BDqw1ORgHaZHuBeIItgLoCJOUyM6RgNlFUVX
+lpregfPFyo+p3e5RJihOvmX0AsWwHPpTFiViywJ/Balt52dfW/k=
+=3rnu
 -----END PGP SIGNATURE-----
 
---===============6010752895023916945==
+--===============1836206759868493629==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-21697696cb59-07c74306cd0b.txt
+Content-Disposition: attachment; filename=revlist-2014c95afece-640a6af5099a.txt
 
 14807b4a4e03b66c26f4c82f495fc8fbe35fb95d scsi: Constify struct pci_error_handlers
 7081dc75df79696d8322d01821c28e53416c932c scsi: st: Restore some drive settings after reset
@@ -81,4 +81,4 @@ ef12deb6ce74e85f6933a01e4d5ced70f5c12d2a scsi: lpfc: Copyright updates for 14.4.
 34a84c41c71bb02474aa976f1435c33173c7da92 Merge patch series "Update lpfc to revision 14.4.0.8"
 640a6af5099ae8f6a858a8612bec70048a4aee69 scsi: ufs: qcom: Enable UFS Shared ICE Feature
 
---===============6010752895023916945==--
+--===============1836206759868493629==--
