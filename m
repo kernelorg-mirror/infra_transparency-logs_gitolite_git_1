@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0961204762286890629=="
+Content-Type: multipart/mixed; boundary="===============5673238147356077994=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 10 Feb 2025 12:39:08 -0000
-Message-Id: <173919114897.4023418.17679901601722777888@gitolite.kernel.org>
+Date: Mon, 10 Feb 2025 12:39:13 -0000
+Message-Id: <173919115307.4023545.1166815363603656962@gitolite.kernel.org>
 
---===============0961204762286890629==
+--===============5673238147356077994==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 989b107fb2f3c5313ab0c25d8d29813bc4d2fc36
-    new: 962dfbfe6fb163ff65e3481d0585208495080884
-    log: revlist-989b107fb2f3-962dfbfe6fb1.txt
+  - ref: refs/heads/m68k-queue
+    old: 633b07bb64c913e9073c4a3e2c846586ab8e8dd1
+    new: 2f77461eb23ab38a77ac3c709883de88badc3c5f
+    log: revlist-633b07bb64c9-2f77461eb23a.txt
 
---===============0961204762286890629==
+--===============5673238147356077994==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-989b107fb2f3-962dfbfe6fb1.txt
+Content-Disposition: attachment; filename=revlist-633b07bb64c9-2f77461eb23a.txt
 
 3c47c2ccd5a29c78780ccfd0227a805f3873ab1c nvmet: fix rw control endian access
 d68fc95a771e0a7edd876ede7913d61276be77fd nvme-pci: remove redundant dma frees in hmb
@@ -303,6 +303,10 @@ f4a45f14cf6902a96d9805ba51829054940ef3e7 Merge tag 'seccomp-v6.14-rc2' of git://
 146339ddb8b7520ee486389c7b0a7b24d68e5f60 Merge tag 'pm-6.14-rc2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 69b54314c975f4dfd3a29d6b9211ab68fff46682 Merge tag 'kbuild-fixes-v6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 a64dcfb451e254085a7daee5fe51bf22959d52d3 Linux 6.14-rc2
-962dfbfe6fb163ff65e3481d0585208495080884 Merge tag 'v6.14-rc2'
+1ff186550cc2a6570541a15434e920f93862667d m68k: sun3: Use str_read_write() helper in mmu_emu_handle_fault()
+3eaef2bbe1948a165f6aa68a697bd1bdc1787cac m68k: sun3: Fix DEBUG_MMU_EMU build
+0ae75cac5c99fc3cef3f39467d9f4ac73c9cd917 m68k: atari: usb: Add ISP1160 USB host controller support
+687e67e18080ee6f52950ad30845ed90baf0e730 m68k: atari: Update Kconfig.bus help text
+2f77461eb23ab38a77ac3c709883de88badc3c5f m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============0961204762286890629==--
+--===============5673238147356077994==--
