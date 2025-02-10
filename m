@@ -1,32 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Mon, 10 Feb 2025 11:01:32 -0000
-Message-Id: <173918529237.3945216.3236029286878252243@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Mon, 10 Feb 2025 11:06:47 -0000
+Message-Id: <173918560764.3949524.13349343963068931575@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/for-next
-    old: 18d4654ec4700570d9eb4fbc91ada0e395480293
-    new: 69da830de29b380d93c7bee8478ca2d95d89d3d4
+  - ref: refs/heads/master
+    old: d6b6d328c43858ba1383b5b7f250820be6718cc7
+    new: a4436c7bf07f98a6381c7dfa2ab3f9a415f9c479
     log: |
-         7c9804031626c51d4ddbc8c6e82bbd8496cf6e56 dt-bindings: clock: rk3188-common: add PCLK_CIF0/PCLK_CIF1
-         4a918309d53f800dd07b94c4a4b1fcdb6289eca5 clk: rockchip: use PCLK_CIF0/1 clock IDs on RK3066
-         73af358e1d4b14928a66300a09f887bfbad0c989 dt-bindings: vendor-prefixes: Update rockchip company name
-         caab94b411841cd9844aea28c80c672bd7a1c52f Merge branch 'v6.15-armsoc/dts64' into for-next
-         69da830de29b380d93c7bee8478ca2d95d89d3d4 Merge branch 'v6.15-clk/next' into for-next
+         493b8a935a162c78d3ee30ac5f5905877625d513 meson: define have_linux_blkzoned_h
+         c389f166e5c35e3a7d91205997b75bec5d4353fb ci: temporarily switch the alt-arch job worker to Ubuntu 22.04
+         a4436c7bf07f98a6381c7dfa2ab3f9a415f9c479 Merge branch 'ci-s390x-workaround' of https://github.com/mrc0mmand/util-linux
          
-  - ref: refs/heads/v6.15-armsoc/dts64
-    old: 3834e1009c108a8a834a7e4625dfa805fcb1f71d
-    new: 73af358e1d4b14928a66300a09f887bfbad0c989
-    log: |
-         73af358e1d4b14928a66300a09f887bfbad0c989 dt-bindings: vendor-prefixes: Update rockchip company name
-         
-  - ref: refs/heads/v6.15-clk/next
-    old: 0000000000000000000000000000000000000000
-    new: 4a918309d53f800dd07b94c4a4b1fcdb6289eca5
