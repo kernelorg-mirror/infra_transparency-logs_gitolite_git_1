@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============1323083640980614324=="
+Content-Type: multipart/mixed; boundary="===============0764738027614861177=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 10 Feb 2025 18:27:14 -0000
-Message-Id: <173921203489.134412.8406239840584481270@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 10 Feb 2025 18:27:17 -0000
+Message-Id: <173921203786.134528.7051641173854741127@gitolite.kernel.org>
 
---===============1323083640980614324==
+--===============0764738027614861177==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.14
+  - ref: refs/heads/asoc-6.14
     old: ccc8480d90e8cb60f06bd90e227f34784927e19f
     new: b19181638182d1f5c43757b471c056b6196c8ca3
     log: |
          b19181638182d1f5c43757b471c056b6196c8ca3 ASoC: cs35l41: Fix acpi_device_hid() not found
          
 
---===============1323083640980614324==
+--===============0764738027614861177==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1739212063 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1739212033-d2010f36d71c7d661c18e0cb8b76cccb218c687d
+pusher C3F436CA30F5D8EB 1739212066 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1739212035-c396920ba7a03454d31acd7eb1ff1376bea25ed6
 
-ccc8480d90e8cb60f06bd90e227f34784927e19f b19181638182d1f5c43757b471c056b6196c8ca3 refs/heads/for-6.14
+ccc8480d90e8cb60f06bd90e227f34784927e19f b19181638182d1f5c43757b471c056b6196c8ca3 refs/heads/asoc-6.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmeqRR8ACgkQJNaLcl1U
-h9Dndwf+OxOce8UVGL9zLzWwkyUV9LR4EXavgIZ10AGaDOQccVerxMPOFis64ay1
-wZCng7gxvEui2Bd0wmAMjhEsmhgXkUkO7qjdjTfcOV8R/Kpq5FhxF0gj4iKJ1ake
-BhVEXKNS1oXjmSyCv4Yz+VWj/haKDwR+LswUdhPBmKZmfehBvH8+dKUFbu1uawGb
-olq6Qd+0VOFFZY49qbhCjDFrKCotOG//vBixn1ypEKbTy0Nf1OD6f/+5CPMcNl8C
-9iQgQ44wSlarKKDQWvQHKfcOK6Hkr+epXOnX+LvOe6LI5/NjOC3d4BQGc15H+yE1
-d0mNkz8m4xNF8C4GQ4MB3GnXSH0oQg==
-=SA3n
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmeqRSIACgkQJNaLcl1U
+h9BAPgf/Z70z+Z44Y+1iCvxP/EOwj81QlZR1/OQ0CPJSr/Vk6smU4jqD2sLdFCfG
+ledYp2XvAp5oqDZFjuQyIDsP5LnTXxP4jMJWb4iclRZhqHBMzv9Q4ghP3b8GGVv1
+b4D9TSQL9fQgNKoO8dnF9dBAUloxGrGMcOgtboq8tLdTAUM7iKyPMWLJcIe7/wVt
+/+07DrgfVf4uBDpmTD2W2slArYRmtl76MnV9P9GRcfor2cUP8/uCKSrk53njTZOI
+ScyJZFDA8RkkyfR5m+za7lCAI6KJS8sS+guVA8FJlLzpA+JfGamxDOvdKfehyta6
+FSw5NOoRmOZtXQhOERD2dtbI8f2LVg==
+=WzqQ
 -----END PGP SIGNATURE-----
 
---===============1323083640980614324==--
+--===============0764738027614861177==--
