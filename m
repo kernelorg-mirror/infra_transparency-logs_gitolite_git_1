@@ -1,19 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Mon, 10 Feb 2025 10:54:41 -0000
-Message-Id: <173918488186.3938802.6323181932256690134@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Mon, 10 Feb 2025 11:01:32 -0000
+Message-Id: <173918529237.3945216.3236029286878252243@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/libata/linux
-user: cassel
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/for-6.14
-    old: 6e74e53b34b6dec5a50e1404e2680852ec6768d2
-    new: 2c202e6c4f4dd19d2e8c1dfac9df05170aa3934f
+  - ref: refs/heads/for-next
+    old: 18d4654ec4700570d9eb4fbc91ada0e395480293
+    new: 69da830de29b380d93c7bee8478ca2d95d89d3d4
     log: |
-         2c202e6c4f4dd19d2e8c1dfac9df05170aa3934f ata: libahci_platform: Do not set mask_port_map when not needed
+         7c9804031626c51d4ddbc8c6e82bbd8496cf6e56 dt-bindings: clock: rk3188-common: add PCLK_CIF0/PCLK_CIF1
+         4a918309d53f800dd07b94c4a4b1fcdb6289eca5 clk: rockchip: use PCLK_CIF0/1 clock IDs on RK3066
+         73af358e1d4b14928a66300a09f887bfbad0c989 dt-bindings: vendor-prefixes: Update rockchip company name
+         caab94b411841cd9844aea28c80c672bd7a1c52f Merge branch 'v6.15-armsoc/dts64' into for-next
+         69da830de29b380d93c7bee8478ca2d95d89d3d4 Merge branch 'v6.15-clk/next' into for-next
          
+  - ref: refs/heads/v6.15-armsoc/dts64
+    old: 3834e1009c108a8a834a7e4625dfa805fcb1f71d
+    new: 73af358e1d4b14928a66300a09f887bfbad0c989
+    log: |
+         73af358e1d4b14928a66300a09f887bfbad0c989 dt-bindings: vendor-prefixes: Update rockchip company name
+         
+  - ref: refs/heads/v6.15-clk/next
+    old: 0000000000000000000000000000000000000000
+    new: 4a918309d53f800dd07b94c4a4b1fcdb6289eca5
