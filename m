@@ -1,56 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============2842407450890329960=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 10 Feb 2025 15:03:46 -0000
-Message-Id: <173919982611.4145591.11607600522113721600@gitolite.kernel.org>
-
---===============2842407450890329960==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 10 Feb 2025 15:04:10 -0000
+Message-Id: <173919985047.4145866.13084144784714422347@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: davem
 changes:
-  - ref: refs/heads/master
-    old: f2dc724e7eabb1904dc309c6b5d3dfb68beb518e
-    new: 4edd6d1e5438ff4a74fbf760ce28fae82ad69a47
+  - ref: refs/heads/main
+    old: acdefab0dcbc3833b5a734ab80d792bb778517a0
+    new: 34c84b3948900be8cc957aff4ef33006126a3389
     log: |
-         4edd6d1e5438ff4a74fbf760ce28fae82ad69a47 5.15-stable patches
+         1c1377d7b60c2d96eefab0bd9740d4a27fb0e1d3 netconsole: consolidate send buffers into netconsole_target struct
+         4205f6495eea62c7f4042346e045e4ac706e1830 netconsole: Rename userdata to extradata
+         563fe939a81ab08198b78dc8451ef3090969f30b netconsole: Helper to count number of used entries
+         364f67837e86cfd59ef8727dbf6db15594281d4d netconsole: Introduce configfs helpers for sysdata features
+         2bae25b16aea249f0e96757b6cd28b03d2b4397f netconsole: Include sysdata in extradata entry count
+         ec15bc46c63cc21bba4c4071060797a4b51f50de netconsole: add support for sysdata and CPU population
+         12fd83ca44d8c4b0a78beab8178a1a6754eae1b3 netconsole: selftest: test for sysdata CPU
+         a7aec70a9092aec61a29ad1e1fc387ef888a6ad6 netconsole: docs: Add documentation for CPU number auto-population
+         34c84b3948900be8cc957aff4ef33006126a3389 Merge branch 'netconsole-cpu-population'
          
-
---===============2842407450890329960==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1739199855 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1739199822-d339c633a008bf5477b199a239d658fc34130138
-
-f2dc724e7eabb1904dc309c6b5d3dfb68beb518e 4edd6d1e5438ff4a74fbf760ce28fae82ad69a47 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeqFW8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+O3cP/3qEI0orTJSONLMQjhjh
-LJY7wTqm82WlfxjXgYmTfWUulvkw1xwJmCt3dohhalJs6EC88MmtamC0asHR9cQD
-x9otyTcX166u57VxQMXHSy6fNKPmwau8mQ+KuE3UQD4FSF/W8FAHwYh/DcduuIlM
-5j9DeNqSafU7m4+I1fYIscM2cly3eDq3S1T9uyljSY3JUnV2+yYKOlpFUjwDHIzk
-O/SdrUnS5vKwJUNTTSd+/6FG+oMFLozb6MF0eUryds9Hr69m+Mn/mb1ngqituti4
-zlWy1GTzlTGU8frrT9mJRkwKjx6nEslqC2TJrHDP2qnxDf50S3GaXR8PhFiPqgsg
-WA0MjKaHLXwx3IJnTqxWKpEgLl52uqLhKfq7qFD8ttQ0ULVkzOSKBlr1TuaDylrs
-JAge7EUxpr00bsFRCEnbUm2eBClFwuvotD3UfY14xZKGxXSY5eJhkomp9f7/EfsD
-vW8nMzBl6ib1LNOkyDTz3m2twh5flhBfek8ElD3tyawj4wKPUnwRkMjOy4KYgVwZ
-Uyd3AVcqjRyFJ4TExIzUDQQwFzy36wm+9Dngemnja79IWdsSKbt2GYYgp6YzKKeE
-VTRUCqbG6h0sIDreqXj8bmzoslA8fdDzdgc6SbmRGp/XF9Y5Bl53c1045qLgN0up
-KAXmDlcyjC7xvXOPTLnFSSFC
-=ZaUl
------END PGP SIGNATURE-----
-
---===============2842407450890329960==--
