@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1743887196860446988=="
+Content-Type: multipart/mixed; boundary="===============6323264307809463511=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 10 Feb 2025 16:33:30 -0000
-Message-Id: <173920521022.30585.11436640307835363885@gitolite.kernel.org>
+Date: Mon, 10 Feb 2025 16:33:46 -0000
+Message-Id: <173920522646.30946.17789707171535838130@gitolite.kernel.org>
 
---===============1743887196860446988==
+--===============6323264307809463511==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 233a2b1480a0bdf6b40d4debf58a07084e9921ff
-    new: 39f54262ba499d862420a97719d2f0eea0cbd394
-    log: revlist-233a2b1480a0-39f54262ba49.txt
+  - ref: refs/heads/dev-queue
+    old: 820e145d30facd90981914efefddb82c9786c963
+    new: df378051791b136aa53a9ffa02ef2f2eeb53d49f
+    log: revlist-820e145d30fa-df378051791b.txt
 
---===============1743887196860446988==
+--===============6323264307809463511==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-233a2b1480a0-39f54262ba49.txt
+Content-Disposition: attachment; filename=revlist-820e145d30fa-df378051791b.txt
 
 a494d1512c7c7ba2a05bac51ed4b133baa2a9bc8 vxlan: Remove unnecessary comments for vxlan_rcv() and vxlan_err_lookup()
 d876ec8d3ed3e2f9d29ed866248a294d71e40d86 tcp: do not export tcp_parse_mss_option() and tcp_mtup_init()
@@ -72,5 +72,45 @@ de7f7582dff292832fbdeaeff34e6b2ee6f9f95f net: ethtool: prevent flow steering to 
 d2348b4bf748543172079eacb4dc0d40100fb443 selftests: drv-net: rss_ctx: skip tests which need multiple contexts cleanly
 5797d3c62db81fd03ba7aeb36a83b44fb0ac2ecc eth: fbnic: support listing tcam content via debugfs
 39f54262ba499d862420a97719d2f0eea0cbd394 Merge branch 'eth-fbnic-support-rss-contexts-and-ntuple-filters'
+30fb46186316aa198791baa297597ff309410df7 dmaengine: tegra210-adma: Fix build error due to 64-by-32 division
+fed03825e5a106c4071f05cb2f91acfdc9523814 coccinelle: misc: secs_to_jiffies script: Create dummy report
+d92d934d12c5d602f111140d7767dcdf5322426a ice: Don't check device type when checking GNSS presence
+4948b5eaaeae2fb0396a9646e68fd428c8eb44bf ice: Remove unncecessary ice_is_e8xx() functions
+4fbc7d4c2083525d33a9e0069266c9a5e9ed08c9 ice: Use FIELD_PREP for timestamp values
+fd138cc51faaa2938de2e54f6bbeea91fbe76104 ice: Process TSYN IRQ in a separate function
+3f4754187c2892eab51e1455013fd8375f7a66e0 ice: Add unified ice_capture_crosststamp
+f08e3ed562106429b9c804a3b71f47e031501801 ice: Refactor ice_ptp_init_tx_*
+1caade1913213061b3026cdd04813386d94797c9 ice: Implement PTP support for E830 devices
+1fdbf702907b0e44e4e4d20d5454de9d5a401e7a virtchnl: add support for enabling PTP on iAVF
+e436212919e4d28fc16fda817f18fff41d49043f ice: support Rx timestamp on flex descriptor
+5fa226a776c00d218fef0be36158e89934c4a240 virtchnl: add enumeration for the rxdid format
+1f821c48f77b2f1b5701fc2524ac0e8687a4daec iavf: add support for negotiating flexible RXDID format
+58f57e5e9fe3c06043c8d0f32dbbb64818a64d0c iavf: negotiate PTP capabilities
+edd9a8b5c59c807998b0d68fc0c450af6f63f9f7 iavf: add initial framework for registering PTP clock
+6005f068b25c1098211ca3f4e423bfc2527b742b iavf: add support for indirect access to PHC time
+01530b0e2b6579e68122e2219179ea654a225f88 iavf: periodically cache PHC time
+c783f3de7e2770e6c3e447ff347fd85c0ec0532b libeth: move idpf_rx_csum_decoded and idpf_rx_extracted
+8fc8b7c628b9155792b849da7f56d6bc06c53016 iavf: define Rx descriptors as qwords
+9279ac5ac82986e64e2368f0e8e59fd996fbbb5f iavf: refactor iavf_clean_rx_irq to support legacy and flex descriptors
+c53c07c12fcf1ed767c1691f3a11773451433b8c iavf: Implement checking DD desc field
+00431839f859f26bb19a082f3129b1034adcb6ac iavf: handle set and get timestamps ops
+6a3e1a65b07d323b8e97ccee31992a7fa5b12b9e iavf: add support for Rx timestamps to hotpath
+412544c1cb035fba1c208f61268d891296501bc6 ice: do not configure destination override for switchdev
+9015c3f17c148bc39688349356dafe42ce4beb8a igc: Avoid unnecessary link down event in XDP_SETUP_PROG process
+0d894ea7bf41c1cedd6db2da97b7b0d4d37f115c ice: Add E830 checksum offload support
+59d8a86819212d760d7a7046c0c90e6dfc586492 ice: Fix switchdev slow-path in LAG
+c580332dcd54070b08fb86fb832da175146d7d0f e1000e: Fix real-time violations on link up
+366fccfacf7801d2e71dd08d4a875033c029b3a1 idpf: fix handling rsc packet with a single segment
+d3f9cd935edf4f1accd02d2650f1861be50513fe idpf: record rx queue in skb for RSC packets
+7dfa491aa82327235b5ff2a579e6753da602da01 ice: refactor ice_fdir_create_dflt_rules() function
+18cce61dd1c7137566de60b969cc94f433c3af4e ice: fix memory leak in aRFS after reset
+34392795a183677df8d4b808d124551ffc577f76 igc: Fix HW RX timestamp when passed by ZC XDP
+ef2365ff00a03e49891ed7a848913a098879d881 ixgbe: Fix possible skb NULL pointer dereference
+89344050b011443dc8a7657b6b03617be6d4abe9 idpf: call set_real_num_queues in idpf_open
+6ca4d769ba3d92fffc1f8bb3a03f95df60a5b0f9 igc: Set buffer type for empty frames in igc_init_empty_frame
+9009df4d8caca26d9a7d5822da4430c871d06274 ixgbe: fix media cage present detection for E610 device
+20ba3168a5830fc2d426e1f5b6b8fc867293c4c6 ice: health.c: fix compilation on gcc 7.5
+a7d6eadeafcf15b9aee1a00fddbbfb56edd06aec ixgbe: add PTP support for E610 device
+df378051791b136aa53a9ffa02ef2f2eeb53d49f ixgbe: add support for thermal sensor event reception
 
---===============1743887196860446988==--
+--===============6323264307809463511==--
