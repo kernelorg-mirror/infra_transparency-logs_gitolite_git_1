@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4112566514410454216=="
+Content-Type: multipart/mixed; boundary="===============7125814650198068797=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Mon, 10 Feb 2025 17:57:02 -0000
-Message-Id: <173921022287.106521.9626822303354959701@gitolite.kernel.org>
+Date: Mon, 10 Feb 2025 17:58:09 -0000
+Message-Id: <173921028916.107215.6729799305172371732@gitolite.kernel.org>
 
---===============4112566514410454216==
+--===============7125814650198068797==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/remoteproc/linux
 user: mjp
 changes:
-  - ref: refs/heads/rproc-next
-    old: 3a53ff95b0be9a5d0ef5037e539558d0041f9a89
+  - ref: refs/heads/rpmsg-next
+    old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
     new: a64dcfb451e254085a7daee5fe51bf22959d52d3
-    log: revlist-3a53ff95b0be-a64dcfb451e2.txt
+    log: revlist-40384c840ea1-a64dcfb451e2.txt
 
---===============4112566514410454216==
+--===============7125814650198068797==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-3a53ff95b0be-a64dcfb451e2.txt
+Content-Disposition: attachment; filename=revlist-40384c840ea1-a64dcfb451e2.txt
 
 5b7f7234ff18a5f48e0d36c417a0d07c7fdfc61a Merge tag 'x86-boot-2025-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 113691ce9f321c6d3d4da0cae2bfc233403251dc Merge tag 'x86_tdx_for_6.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1051,4 +1051,4 @@ f4a45f14cf6902a96d9805ba51829054940ef3e7 Merge tag 'seccomp-v6.14-rc2' of git://
 69b54314c975f4dfd3a29d6b9211ab68fff46682 Merge tag 'kbuild-fixes-v6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 a64dcfb451e254085a7daee5fe51bf22959d52d3 Linux 6.14-rc2
 
---===============4112566514410454216==--
+--===============7125814650198068797==--
