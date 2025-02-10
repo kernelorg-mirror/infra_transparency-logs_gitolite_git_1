@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/ofono/ofono
-Date: Mon, 10 Feb 2025 22:03:15 -0000
-Message-Id: <173922499510.311285.7762562748396266234@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Mon, 10 Feb 2025 22:03:24 -0000
+Message-Id: <173922500442.311534.14906869629100228946@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/ofono/ofono
+repo: pub/scm/network/wireless/iwd
 user: holtmann
 changes:
   - ref: refs/heads/master
-    old: d1acf2805b3da3c283edccc596f82af3eb1b4c22
-    new: 36e6522208cb008df0a8d09feb18c0f2b6e2f060
+    old: f4439fd2b6b6613dc1736621a00a3f9b44b25176
+    new: 43f73823ec2546e2bc0d3144478c289b19085aef
     log: |
-         36e6522208cb008df0a8d09feb18c0f2b6e2f060 build: Include extra files for ELL test extensions
+         43f73823ec2546e2bc0d3144478c289b19085aef build: Include extra files for ELL test extensions
          
