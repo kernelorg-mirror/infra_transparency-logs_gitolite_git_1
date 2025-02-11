@@ -1,41 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============2012112606616951851=="
+Content-Type: multipart/mixed; boundary="===============3161412172330382467=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Tue, 11 Feb 2025 16:30:53 -0000
-Message-Id: <173929145365.1316392.2237292338811709538@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Tue, 11 Feb 2025 16:31:46 -0000
+Message-Id: <173929150679.1316855.14892193582973222926@gitolite.kernel.org>
 
---===============2012112606616951851==
+--===============3161412172330382467==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 3daac0212765a23770ba047ee1d8cec85873ec12
-    new: 163781411dda456c932b19f55a069ac3fe53b773
-    log: revlist-3daac0212765-163781411dda.txt
+  - ref: refs/heads/main
+    old: 2e6e6689a61607fa8b058e94cdbf844d47ea5643
+    new: 704a2d7237043317ed1b0f8a08203e9ddde70097
+    log: revlist-2e6e6689a616-704a2d723704.txt
+  - ref: refs/tags/ath-202502111625
+    old: 0000000000000000000000000000000000000000
+    new: 704a2d7237043317ed1b0f8a08203e9ddde70097
 
---===============2012112606616951851==
+--===============3161412172330382467==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3daac0212765-163781411dda.txt
+Content-Disposition: attachment; filename=revlist-2e6e6689a616-704a2d723704.txt
 
-e328095ad357ab13943d6c240ed6973bc235a8d4 nfsd: adjust WARN_ON_ONCE in revoke_delegation
-f11d0e2a57ef31893c637145921c6c5a1252cef4 NFSD: Skip sending CB_RECALL_ANY when the backchannel isn't up
-b0527ee0eec88aad393b7852d111e3354132e537 nfsd: remove the redundant mapping of nfserr_mlink
-e0591b07a2b4b58e3552a4f77d2f834a0aae3cb5 NFSD: nfsd_unlink() clobbers non-zero status returned from fh_fill_pre_attrs()
-df516b459f545c17f3d2cdcaa0222da2e3fa5421 NFSD: Never return NFS4ERR_FILE_OPEN when removing a directory
-4ecdcbefd58e111e18d6f6eb148585a0aa0be001 NFSD: Return NFS4ERR_FILE_OPEN only when renaming over an open file
-48ad20cf4dc3990f6e6931d13be0b69a7ea1840e NFSD: Return NFS4ERR_FILE_OPEN only when linking an open file
-c5a4fc6ed74f46023e5e6be9116ae058ea7d151f SUNRPC: Remove unused make_checksum
-16d447fa6a65fe6dd5440f8aff0b347c6938aaa8 NFSD: Fix trace_nfsd_slot_seqid_sequence
-127783a24a4d9161c86f7198ce38da59e200f470 nfsd: don't ignore the return code of svc_proc_register()
-163781411dda456c932b19f55a069ac3fe53b773 svcrdma: do not unregister device for listeners
+0db6b7d49b50c037b5eac19a8d8d1da986db80c6 MAINTAINERS: wifi: ath: remove Kalle
+b76adb9758f8eaaf22b824d0bcdd694551ce0557 MAINTAINERS: wifi: remove Kalle
+49f27f29446a5bfe633dd2cc0cfebd48a1a5e77f wifi: nl80211: reject cooked mode if it is set along with other flags
+5b999006e35ea9c11116ddff7e375b256421d0af wifi: mac80211: Cleanup sta TXQs on flush
+646262c71aca87bb66945933abe4e620796d6c5a wifi: mac80211: remove debugfs dir for virtual monitor
+7774e3920029398ad49dc848b23840593f14d515 wifi: iwlwifi: fw: allocate chained SG tables for dump
+3f8aa0b8a53df2247a84eaf3b3aa38b6ef86cb1c wifi: iwlwifi: fw: avoid using an uninitialized variable
+f9751163bffd3fe60794929829f810968c6de73d wifi: iwlwifi: mvm: clean up ROC on failure
+d48ff3ce92259bae7e77732c7cfd7cbc7992c021 wifi: iwlwifi: mvm: don't dump the firmware state upon RFKILL while suspend
+d73d2c6e3313f0ba60711ab4f4b9044eddca9ca5 wifi: iwlwifi: mvm: don't try to talk to a dead firmware
+a03e2082e678ea10d0d8bdf3ed933eb05a8ddbb0 wifi: iwlwifi: mvm: use the right version of the rate API
+e0dc2c1bef722cbf16ae557690861e5f91208129 wifi: iwlwifi: limit printed string from FW file
+3b08e608d50c44ca1135beed179f266aa0461da7 wifi: iwlwifi: Free pages allocated when failing to build A-MSDU
+3640dbc1f75ce15d128ea4af44226960d894f3fd wifi: iwlwifi: Fix A-MSDU TSO preparation
+93270e2ba45930de032a1cff1da172a58b035af2 Merge branch 'ath-next'
+e0fc8f35d4702557d7bed58f38989ad1650f5b2f Merge branch 'ath-current'
+e96979501f68114eded1313a22d0cfb1d6bcdb5e Merge remote-tracking branch 'mhi/mhi-next'
+fae024069c9926e1a983fb6e6fe7a6a59a1a8e07 Add localversion-wireless-testing-ath
+704a2d7237043317ed1b0f8a08203e9ddde70097 drm/i915/dp: Return min bpc supported by source instead of 0
 
---===============2012112606616951851==--
+--===============3161412172330382467==--
