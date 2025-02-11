@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 11 Feb 2025 19:11:59 -0000
-Message-Id: <173930111972.1447878.11142021091703326648@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Tue, 11 Feb 2025 19:12:06 -0000
+Message-Id: <173930112604.1448095.16651853873793880215@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/spi-6.15
-    old: f46eb2bfb878ce3345725252f77fa3ba36a0f087
-    new: ff4d4158ef9143327a42f7be4298751cb0d1be69
+  - ref: refs/heads/master
+    old: febbc555cf0fff895546ddb8ba2c9a523692fb55
+    new: 09fbf3d502050282bf47ab3babe1d4ed54dd1fd8
     log: |
-         fcd7ace9a725ae034ff9f24cb94c9fe12a1f02da spi: offload: types: include linux/bits.h
-         ff4d4158ef9143327a42f7be4298751cb0d1be69 spi: spi-offload-trigger-pwm: add extra headers
+         41f198d58b6f2b36f9f8a4481d517369b324e773 tomoyo: fix spelling error
+         691a1f3f180133965d01e0ab0f332248d0345554 tomoyo: fix spelling errors
+         bdc35f164b0f60480b2f5e098bb8f3c0cea05cd2 tomoyo: use better patterns for procfs in learning mode
+         318e8c339c9a0891c389298bb328ed0762a9935e x86/cpu/kvm: SRSO: Fix possible missing IBPB on VM-Exit
+         09fbf3d502050282bf47ab3babe1d4ed54dd1fd8 Merge tag 'tomoyo-pr-20250211' of git://git.code.sf.net/p/tomoyo/tomoyo
          
