@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2678041242472524815=="
+Content-Type: multipart/mixed; boundary="===============2493520456267381748=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Tue, 11 Feb 2025 00:32:47 -0000
-Message-Id: <173923396781.434151.2420053433685588765@gitolite.kernel.org>
+Date: Tue, 11 Feb 2025 00:33:14 -0000
+Message-Id: <173923399470.434529.7243393253111003328@gitolite.kernel.org>
 
---===============2678041242472524815==
+--===============2493520456267381748==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,37 +16,43 @@ repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next/kspp
+  - ref: refs/heads/for-next/hardening
     old: 6270f4deba3fbd77d1717fb8634f1fc612ff69e2
-    new: 75d084c82c9fa25e1de79b3b2ce3938045b7b31b
-    log: revlist-6270f4deba3f-75d084c82c9f.txt
+    new: a64dcfb451e254085a7daee5fe51bf22959d52d3
+    log: revlist-6270f4deba3f-a64dcfb451e2.txt
 
---===============2678041242472524815==
+--===============2493520456267381748==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1739233996 -0800
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1739234023 -0800
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1739233953-ce8eff4bd07fb1f104d25805b02cf7f043555606
+nonce 1739233993-b8bd6a4b72f5358c0e96d050f8f4df1d44f4101b
 
-6270f4deba3fbd77d1717fb8634f1fc612ff69e2 75d084c82c9fa25e1de79b3b2ce3938045b7b31b refs/heads/for-next/kspp
+6270f4deba3fbd77d1717fb8634f1fc612ff69e2 a64dcfb451e254085a7daee5fe51bf22959d52d3 refs/heads/for-next/hardening
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCZ6qazAAKCRA2KwveOeQk
-u9aFAP0WhDyNE2h7mI4EmHPUoZXZhAdCJ30v0VX/GhO2tmInmAEArCGIirn4gqEK
-OSZgooVKScr3nag9VitjH/kDu+aozwk=
-=PDq7
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCZ6qa5wAKCRA2KwveOeQk
+u6kgAQCFwOu+Q1d7IcLCTbZAM8srZfVB137I+rygXkSOnXvjsAD/U0ClA5Zv81bn
+UXBLyWzpq1seY3m6K0OV7vuDbJ+IyAs=
+=xtEi
 -----END PGP SIGNATURE-----
 
---===============2678041242472524815==
+--===============2493520456267381748==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6270f4deba3f-75d084c82c9f.txt
+Content-Disposition: attachment; filename=revlist-6270f4deba3f-a64dcfb451e2.txt
 
+3821336530616776414aa7a879640052b89def28 fuse: {io-uring} Make hash-list req unique finding functions non-static
+915175b49f65d9edeb81659e82cbb27b621dbc17 xfs: fix the entry condition of exact EOF block allocation optimization
+89841b23809f5fb12cbead142204064739fef25a xfs: remove an out of data comment in _xfs_buf_alloc
+f5f0ed89f13e3e5246404a322ee85169a226bfb5 xfs: don't call remap_verify_area with sb write protection held
+309f64469cd5d09d5f1207e57d42f2eff9bd9311 Merge tag 'arm-soc/for-6.14/defconfig-arm64' of https://github.com/Broadcom/stblinux into soc/defconfig
+2e3c688ddaf2bb8e3696a773b5278711a90ea080 ASoC: renesas: SND_SIU_MIGOR should depend on DMADEVICES
 0141978ae75bd48bac13fca6de131a5071c32011 x86/acpi: Fix LAPIC/x2APIC parsing order
 7685b334d1e4927cc73b62c65293ba65748d9c52 Merge tag 'perf-tools-for-v6.14-2025-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 5b7f7234ff18a5f48e0d36c417a0d07c7fdfc61a Merge tag 'x86-boot-2025-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1065,11 +1071,5 @@ f4a45f14cf6902a96d9805ba51829054940ef3e7 Merge tag 'seccomp-v6.14-rc2' of git://
 146339ddb8b7520ee486389c7b0a7b24d68e5f60 Merge tag 'pm-6.14-rc2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 69b54314c975f4dfd3a29d6b9211ab68fff46682 Merge tag 'kbuild-fixes-v6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 a64dcfb451e254085a7daee5fe51bf22959d52d3 Linux 6.14-rc2
-7a1c5dc23bc5d553e25b2150a05f738102d03d5d lib: math: Move KUnit tests into tests/ subdir
-dfcd292c20941ba75739ca1fb737676c160b7ccc lib/math: Add int_log test suite
-8a38046b5cf9ef043fa1a3d7b0cfd365f996ac75 lib: Move KUnit tests into tests/ subdirectory
-d792bdfe8d96bec97633d4a178a1926f9057d30f lib/tests/kfifo_kunit.c: add tests for the kfifo structure
-a478d41ca6bf303f7333c5a5e27486c2fc04321d unicode: kunit: refactor selftest to kunit tests
-75d084c82c9fa25e1de79b3b2ce3938045b7b31b unicode: kunit: change tests filename and path
 
---===============2678041242472524815==--
+--===============2493520456267381748==--
