@@ -1,29 +1,38 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
-Date: Tue, 11 Feb 2025 20:27:01 -0000
-Message-Id: <173930562129.1510696.11148283185457655435@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Tue, 11 Feb 2025 20:34:47 -0000
+Message-Id: <173930608797.1516440.9052608713423685549@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/melver/linux
-user: melver
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/cap-analysis
-    old: 8bc851f855a0179ed41e7059ed8a02b093552006
-    new: 76d39935c46e72bf2e9917faa09041cc7f96a387
+  - ref: refs/heads/for-next
+    old: 2d09a766369c4b02f5149221971570cc2dd0d5b3
+    new: 96966b5836cb4ce2705178a5706731ecd9f59479
     log: |
-         126434a444330a45fe9120624f65d664f2f6ed5c locking/ww_mutex: Support Clang's capability analysis
-         092bd255b49071b119bcb5c96928e50168a103a0 debugfs: Make debugfs_cancellation a capability struct
-         8383a51c8925aff0cb411b3972f83dd6f62078ea kfence: Enable capability analysis
-         cb5a9ecf27d91b403e4ea1f26674c198ed930231 kcov: Enable capability analysis
-         a1d3dcc53eddde00e61a9148a592d55ff8feb489 stackdepot: Enable capability analysis
-         9ba1949142e9284ea0708a4f280e66dd1287f58b rhashtable: Enable capability analysis
-         fd0b66b5912cb9520580f27897e914c67aa5ebd6 compiler-capability-analysis: Remove Sparse support
-         8f45df5267fd54a993870ebf5cb92e07e427d1a1 compiler-capability-analysis: Remove __cond_acquire() function-like helper
-         e2ff399d8e44839dea5f0103f75ac656a2b99404 DO-NOT-SEND: tree-wide: Assorted annotations
-         3421329b8080a417f9dbf392a512d9fc2257139a drm: zynqmp_dp: Fix a deadlock in zynqmp_dp_ignore_hpd_set()
-         76d39935c46e72bf2e9917faa09041cc7f96a387 DO-NOT-SEND: drivers: Assorted enablement and annotations
+         7d1163fc08936fcb5cf5d9daf366c322c3b4e882 arm64: dts: rockchip: disable IOMMU when running rk3588 in PCIe endpoint mode
+         8546cfd08aa4b982acd2357403a1f15495d622ec arm64: dts: rockchip: adjust SMMU interrupt type on rk3588
+         b3dc2a9315c4046b330a784c0527c671fd236414 arm64: dts: rockchip: remove rk3588 optee node
+         e857cdedbe1f9aedad4e307188c55ccba28a3e76 arm64: dts: rockchip: linewrap gmac assigned-clocks on Quartz64 Model A/B files a bit
+         944943eb12d871023a82fef670d1463b83acafb0 Merge branch 'v6.14-armsoc/dtsfixes' into for-next
+         96966b5836cb4ce2705178a5706731ecd9f59479 Merge branch 'v6.15-armsoc/dts64' into for-next
+         
+  - ref: refs/heads/v6.14-armsoc/dtsfixes
+    old: b921f66ccf5e8cf1b8a5052b35ceda454f19f5dd
+    new: 8546cfd08aa4b982acd2357403a1f15495d622ec
+    log: |
+         7d1163fc08936fcb5cf5d9daf366c322c3b4e882 arm64: dts: rockchip: disable IOMMU when running rk3588 in PCIe endpoint mode
+         8546cfd08aa4b982acd2357403a1f15495d622ec arm64: dts: rockchip: adjust SMMU interrupt type on rk3588
+         
+  - ref: refs/heads/v6.15-armsoc/dts64
+    old: 4a2fdf91e1239d9659d0317f3e8e37681ac555a4
+    new: e857cdedbe1f9aedad4e307188c55ccba28a3e76
+    log: |
+         b3dc2a9315c4046b330a784c0527c671fd236414 arm64: dts: rockchip: remove rk3588 optee node
+         e857cdedbe1f9aedad4e307188c55ccba28a3e76 arm64: dts: rockchip: linewrap gmac assigned-clocks on Quartz64 Model A/B files a bit
          
