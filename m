@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5834850861023915585=="
+Content-Type: multipart/mixed; boundary="===============0029324148440100276=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Tue, 11 Feb 2025 00:45:20 -0000
-Message-Id: <173923472037.446609.8476847932556391301@gitolite.kernel.org>
+Date: Tue, 11 Feb 2025 00:57:05 -0000
+Message-Id: <173923542514.455084.15781788580356754533@gitolite.kernel.org>
 
---===============5834850861023915585==
+--===============0029324148440100276==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,34 +16,36 @@ repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next/hardening
+  - ref: refs/heads/for-next/execve
     old: a64dcfb451e254085a7daee5fe51bf22959d52d3
-    new: b6518de35d6fbca63d88dbc7e5059924cc82afdb
+    new: 7e620b56d958a5efcb0158c366581e0637fd9a50
     log: |
-         8907c768bc27832a3b46ee1e579fd007555182d1 mm: security: Move hardened usercopy under 'Kernel hardening options'
-         caba7c35e832c8cc2d8f3ecaa0d6ce8c8872a582 mm: security: Allow default HARDENED_USERCOPY to be set at compile time
-         3d22200404765145fbbe2a0b5189c0a8f83dab29 mm: security: Check early if HARDENED_USERCOPY is enabled
-         b6518de35d6fbca63d88dbc7e5059924cc82afdb fortify: Move FORTIFY_SOURCE under 'Kernel hardening options'
+         7da8e4ad4df0dd12f37357af62ce1b63e75ae2e6 elf: Define note name macros
+         2fc4947bbd91201b0bc137127d8e125d48985ad4 binfmt_elf: Use note name macros
+         609c8b30915697b3d520824b19b7f3a69eeda2c5 powerpc/crash: Use note name macros
+         0de47f28ec8444ead678f96e729105ca4bcc6db2 crash: Use note name macros
+         d4a760fb77fdac07efa3da4fa4a18f49f178d048 s390/crash: Use note name macros
+         7e620b56d958a5efcb0158c366581e0637fd9a50 crash: Remove KEXEC_CORE_NOTE_NAME
          
 
---===============5834850861023915585==
+--===============0029324148440100276==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1739234749 -0800
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1739235450 -0800
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1739234718-4f56f08a6d44ee9dfdbc08150cfca5ff604d41e1
+nonce 1739235420-cbb1b6ebe1869149cb3ba6f4255385f3dd47610e
 
-a64dcfb451e254085a7daee5fe51bf22959d52d3 b6518de35d6fbca63d88dbc7e5059924cc82afdb refs/heads/for-next/hardening
+a64dcfb451e254085a7daee5fe51bf22959d52d3 7e620b56d958a5efcb0158c366581e0637fd9a50 refs/heads/for-next/execve
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCZ6qdvQAKCRA2KwveOeQk
-u/FWAPoCZzaOCpx6DXovxJmuSlCcczOG4xF1SSV9qGQWTKrUGwD8C7tLiE9KZB+w
-XM8DzGrnjErrMXZD6Le0yr/Rush5yAk=
-=0yGD
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCZ6qgegAKCRA2KwveOeQk
+uykQAP9vM2b9qnKhNNYUj0STwuRb9liRoqmMsTft93ZA+GlcEAEAsfbhiFehBYCO
+e3/sDtXKyqfMyEQIBs7gIdWAkAg2DQ4=
+=yZ3M
 -----END PGP SIGNATURE-----
 
---===============5834850861023915585==--
+--===============0029324148440100276==--
