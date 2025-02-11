@@ -1,56 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============1633679883681855189=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 11 Feb 2025 08:42:02 -0000
-Message-Id: <173926332270.929029.9305173910663251548@gitolite.kernel.org>
-
---===============1633679883681855189==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Tue, 11 Feb 2025 08:43:22 -0000
+Message-Id: <173926340253.929727.12309907226901989054@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/master
-    old: 36fee9a840b3e69cfa78e27dfbc06fd45380eb43
-    new: 9fe2848deefe1711c0c447951d50d403e45e56d3
+  - ref: refs/heads/gpio/for-next
+    old: e8f2ca6be61f1cae2ff12932fa03224581b6b231
+    new: 5892cfc7db9814a71c991da7024fa03384e48924
     log: |
-         9fe2848deefe1711c0c447951d50d403e45e56d3 move 6.6 queue back in place
+         84693df49dac458e980eaf37f26ae6e23ead98d5 gpio: virtio: support multiple virtio-gpio controller instances
+         cd323c6e62dd98035c141b6f751e5b2b7d490b2e gpio: 74x164: Remove unneeded dependency to OF_GPIO
+         bdd603acf6a2b5056dc174e52bc8b285da529dc4 gpio: 74x164: Simplify code with cleanup helpers
+         d746cc6e64027e331769f871a595a3dd2c6b30ff gpio: 74x164: Annotate buffer with __counted_by()
+         e742e6b02d858ff9f6a7b43d0b1b5aae9c7e5cf5 gpio: 74x164: Make use of the macros from bits.h
+         abe3817fa1dcae480ec7b71ec1608454cb65d0b8 gpio: 74x164: Fully convert to use managed resources
+         9bd2dbe4066b3821b68f3e18ba91a3a1cd6354df gpio: 74x164: Switch to use dev_err_probe()
+         5892cfc7db9814a71c991da7024fa03384e48924 gpio: 74x164: Utilise temporary variable for struct device
          
-
---===============1633679883681855189==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1739263351 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1739263320-7f056fd1ba09d6c9c126660409186922a33ed62f
-
-36fee9a840b3e69cfa78e27dfbc06fd45380eb43 9fe2848deefe1711c0c447951d50d403e45e56d3 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmerDXcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1bkQAMJh6ISiQ/+nNlbCqdro
-EJSDh4Ss/5sKO2c3o3XY8pOh3B70bXTTnuTY5I7wJNfg8HS69Mhn5bkPdv6Mcuvm
-/MIeTBs9wYbF/x8Sl7ybS2f5Bo7GTKze5lUALlf9tbIxKXtrE7TO4Ev6dFWKJ7Td
-IlAhn2w8LbkpuaBpEbx/b5cTxs7iVPXRyi2wpXA8D8wtT8iBJ7HQABBqP8Tp6p5E
-rpJ7zuwnZkySMdMIgLH55Rcbqj6rbi5Lh4nYgpKGbcBFijx1X38rcdgm9iIjw6fG
-0+TUhQjPjtVuM4XUh4m2q4sM3xa3RTsuuXNwH97QccRyZ3PmREtZWp55rgo46rdY
-DW0OvXUPwES9L2opEysJRNPdFEYhFjfwmavIrdi771HvHT+IIYE6YFQz04x8iTea
-BgsLS/WRbxP1wUsjzdA2mfrRxEVyXE5CTk9mpR1HgIST+nubSOpZ9mY7N1pOoHoA
-6//JieCKs+GMiUky6l0hevVUu73fOYywvIX1o6y4GeNSgKJYUeJFt3LgqoUdl2zI
-0w1Fd9K+t/0JOQaqIMJgJDMVZG+W5CEi1mkg36n0buMudVSp6HqYUknq/IMEhFwc
-MxxnblRFf4Mo0x5+LvMX6xQ69LlOwfzXX+0jcqi1vYPlaz4HZCqZRM7tPI02yoWW
-jaxZbOCUMUpknK2WawXv+7I9
-=tekw
------END PGP SIGNATURE-----
-
---===============1633679883681855189==--
