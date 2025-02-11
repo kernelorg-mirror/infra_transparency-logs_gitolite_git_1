@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2739323113578251349=="
+Content-Type: multipart/mixed; boundary="===============8941712503363130020=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 11 Feb 2025 16:58:58 -0000
-Message-Id: <173929313828.1340138.3586121816498142918@gitolite.kernel.org>
+Date: Tue, 11 Feb 2025 16:59:00 -0000
+Message-Id: <173929314073.1340271.8711116604290673031@gitolite.kernel.org>
 
---===============2739323113578251349==
+--===============8941712503363130020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 011b0335903832facca86cd8ed05d7d8d94c9c76
     new: 44ce3511c21c6ba87a719a0b9f140822cc1cc00b
     log: revlist-011b03359038-44ce3511c21c.txt
 
---===============2739323113578251349==
+--===============8941712503363130020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -61,4 +61,4 @@ b4c1fde5ced93d9f4ad89e2c940d3fd56ad82288 ptp: vmclock: Remove goto-based cleanup
 2196ceea2d39018a85a037cbb4c22666edb5a72c Merge branch 'ptp-vmclock-bugfixes-and-cleanups-for-error-handling'
 44ce3511c21c6ba87a719a0b9f140822cc1cc00b Merge tag 'batadv-net-pullrequest-20250207' of git://git.open-mesh.org/linux-merge
 
---===============2739323113578251349==--
+--===============8941712503363130020==--
