@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/ell/ell
-Date: Tue, 11 Feb 2025 14:14:06 -0000
-Message-Id: <173928324659.1200947.8457465739401398764@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Tue, 11 Feb 2025 14:36:49 -0000
+Message-Id: <173928460900.1219362.16251605707518931853@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/ell/ell
-user: holtmann
+repo: pub/scm/linux/kernel/git/pinctrl/intel
+user: andy
 changes:
-  - ref: refs/heads/master
-    old: f9daed4e3e151e3ca202b93a3667cb9ea1191bdc
-    new: 170c49ade7620d45c2dd7dd2a1dd5be3f0879722
+  - ref: refs/heads/for-next
+    old: a1e062ab4a1f19bb0e94093ef90ab9a74f1f7744
+    new: 0eee258cdf172763502f142d85e967f27a573be0
     log: |
-         170c49ade7620d45c2dd7dd2a1dd5be3f0879722 unit: Update test-hwdb to add missing assert statements
+         6edf3152bd4c2bc58e3705872642e282d8b3eeb9 pwm: lpss: Clarify the bypass member semantics in struct pwm_lpss_boardinfo
+         0eee258cdf172763502f142d85e967f27a573be0 pinctrl: intel: Fix wrong bypass assignment in intel_pinctrl_probe_pwm()
          
