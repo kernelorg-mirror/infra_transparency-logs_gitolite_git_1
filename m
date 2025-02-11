@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7347532225433319349=="
+Content-Type: multipart/mixed; boundary="===============4037147032945061648=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 11 Feb 2025 09:34:39 -0000
-Message-Id: <173926647904.970877.4713786146312141611@gitolite.kernel.org>
+Date: Tue, 11 Feb 2025 09:34:57 -0000
+Message-Id: <173926649723.971362.17213896382882296882@gitolite.kernel.org>
 
---===============7347532225433319349==
+--===============4037147032945061648==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,29 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: e9aa9417a3e82667c9246419c45ea71cfd633eaa
-    new: 88324348c2ae4772ba9de89a98e8290b3b862175
-    log: revlist-e9aa9417a3e8-88324348c2ae.txt
+    old: 88324348c2ae4772ba9de89a98e8290b3b862175
+    new: 6bd46c92bdeaa4701e6012cc422481aaace47414
+    log: |
+         7dc30ac0257ba346fc83a3497daf9ad5c98f7179 Merge branch into tip/master: 'objtool/urgent'
+         09ef33675a29850b4e1ff7b5dec4af5e008a15c5 Merge branch into tip/master: 'sched/urgent'
+         3476d29965f26781856f610105e535c5a5f681b0 Merge branch into tip/master: 'irq/core'
+         65c6e62099cbf63ac0f902e748f30f6512951e0b Merge branch into tip/master: 'perf/core'
+         9b05f654e914e2f314a4522cb00a1fadfe1b35f5 Merge branch into tip/master: 'timers/core'
+         b63c2dde1f102f0e14bfff0f9bf6b7c344f736f2 Merge branch into tip/master: 'x86/cpu'
+         c40c72c01fabb93bd1fadb8fdd88a830df582882 Merge branch into tip/master: 'x86/fpu'
+         8bf7ee1482aac65561a4f6d395fd79683a1c12dd Merge branch into tip/master: 'x86/misc'
+         6bd46c92bdeaa4701e6012cc422481aaace47414 Merge branch into tip/master: 'x86/mm'
+         
+  - ref: refs/heads/tip/urgent
+    old: 53f0f2db4f25ceac8050d28491a59fd94440d527
+    new: 09ef33675a29850b4e1ff7b5dec4af5e008a15c5
+    log: revlist-53f0f2db4f25-09ef33675a29.txt
 
---===============7347532225433319349==
+--===============4037147032945061648==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e9aa9417a3e8-88324348c2ae.txt
+Content-Disposition: attachment; filename=revlist-53f0f2db4f25-09ef33675a29.txt
 
 7faf14a7b0366f153284db0ad3347c457ea70136 nfsd: clear acl_access/acl_default after releasing them
 b9382e29ca538b879645899ce45d652a304e2ed2 nfsd: validate the nfsd_serv pointer before calling svc_wake_up
@@ -59,11 +73,8 @@ c581f8c240f57a19c857da3e0eec24285354fdb7 Merge tag 'pinctrl-v6.14-2' of git://gi
 d9d6b74e4be989f919498798fa40df37a74b5bb0 nfsd: fix __fh_verify for localio
 036ac2778f7b28885814c6fbc07e156ad1624d03 NFSD: fix hang in nfsd4_shutdown_callback
 4990d098433db18c854e75fb0f90d941eb7d479e NFSD: Fix CB_GETATTR status fix
-2ea97b76d6712bfb0408e5b81ffd7bc4551d3153 hrtimers: Make hrtimer_update_function() less expensive
 febbc555cf0fff895546ddb8ba2c9a523692fb55 Merge tag 'nfsd-6.14-1' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-ccb7735a1ea22621f21c3133e4f5f3da5fe5f5b7 x86/fpu: Fully optimize out WARN_ON_FPU()
-687ebbb236fb2ba7b3348dc441ca6bf20b8a498e Merge branch into tip/master: 'timers/core'
-c894c088606868d154c807854cfbd4170c8f7199 Merge branch into tip/master: 'x86/fpu'
-88324348c2ae4772ba9de89a98e8290b3b862175 Merge branch 'linus'
+7dc30ac0257ba346fc83a3497daf9ad5c98f7179 Merge branch into tip/master: 'objtool/urgent'
+09ef33675a29850b4e1ff7b5dec4af5e008a15c5 Merge branch into tip/master: 'sched/urgent'
 
---===============7347532225433319349==--
+--===============4037147032945061648==--
