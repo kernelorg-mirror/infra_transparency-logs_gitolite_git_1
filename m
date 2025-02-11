@@ -1,47 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============0112743813712915822=="
+Content-Type: multipart/mixed; boundary="===============4639447355757883506=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Tue, 11 Feb 2025 20:18:56 -0000
-Message-Id: <173930513681.1502938.2587711983965649935@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
+Date: Tue, 11 Feb 2025 20:25:25 -0000
+Message-Id: <173930552588.1509583.14338677095668609725@gitolite.kernel.org>
 
---===============0112743813712915822==
+--===============4639447355757883506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/melver/linux
+user: melver
 changes:
-  - ref: refs/heads/for-next/kspp
-    old: 0eeed3b2a50d7db5b3e189c13d7b1b42a7416691
-    new: 5f5104a4ad61c6f9182e1ece48a3d5f09d4244ff
-    log: |
-         d4adcee43842cd6c7da4dc7bdecb8dd042dd573d lib/prime_numbers: convert self-test to KUnit
-         5f5104a4ad61c6f9182e1ece48a3d5f09d4244ff Merge branch 'for-next/hardening' into for-next/kspp
-         
+  - ref: refs/heads/cap-analysis
+    old: 0030818ee37e806a78ceb9e303142eafe34a2a80
+    new: 82dbc1a0acf23168d8acb361cd54ed749904f791
+    log: revlist-0030818ee37e-82dbc1a0acf2.txt
 
---===============0112743813712915822==
+--===============4639447355757883506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-0030818ee37e-82dbc1a0acf2.txt
 
-certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1739305165 -0800
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1739305134-9f0409de08e2a36d427c566cbea721767ca42c92
+d69cb0ce02d31675856bc3dff4e3842a78a696ce locking/ww_mutex: Support Clang's capability analysis
+da50ad0a880118d49e2927da1c80910210f4ba91 debugfs: Make debugfs_cancellation a capability struct
+47eaf8accd148d97535a024ba8cc157b1e2d860c kfence: Enable capability analysis
+c6c542edbbfba2874b6f5c34eacf0b871ba384a9 kcov: Enable capability analysis
+c1eaa46a85e7bd34c6428663fe772196e2eacb76 stackdepot: Enable capability analysis
+b9b054f273eda35e8bad3c4d85591af647332612 rhashtable: Enable capability analysis
+927dec528265729b313c67498ee6ae7ca03be809 compiler-capability-analysis: Remove Sparse support
+ba9c5b00a20ec6b597c16428aabb5d161f3da677 compiler-capability-analysis: Remove __cond_acquire() function-like helper
+92268900b6fd7cef65ec157dafcb0adb7cd51abc DO-NOT-SEND: tree-wide: Assorted annotations
+1d1ccca41cc22a1cc625621db5edd7ce2b5bcd47 drm: zynqmp_dp: Fix a deadlock in zynqmp_dp_ignore_hpd_set()
+b1172ec2080a824732e515922eb7a7b8dcc65b77 DO-NOT-SEND: drivers: Assorted enablement and annotations
+82dbc1a0acf23168d8acb361cd54ed749904f791 fixup! DO-NOT-SEND: tree-wide: Assorted annotations
 
-0eeed3b2a50d7db5b3e189c13d7b1b42a7416691 5f5104a4ad61c6f9182e1ece48a3d5f09d4244ff refs/heads/for-next/kspp
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCZ6uwzQAKCRA2KwveOeQk
-u6+7AP9/lzfvPURkXjz/o/+OVe47i7FrI+3W3hLGOPRd3+yOqwEAwa6b2LKJmnpR
-zjq5CmqcazqKJyKtNsUfTfPabDrf4QI=
-=EBq2
------END PGP SIGNATURE-----
-
---===============0112743813712915822==--
+--===============4639447355757883506==--
