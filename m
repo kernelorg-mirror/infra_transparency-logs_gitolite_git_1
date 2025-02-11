@@ -1,35 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Tue, 11 Feb 2025 00:39:42 -0000
-Message-Id: <173923438276.439629.4472467764725135454@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7421422442497718735=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Tue, 11 Feb 2025 00:41:27 -0000
+Message-Id: <173923448715.442048.7352701877658150622@gitolite.kernel.org>
+
+--===============7421422442497718735==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/seen
-    old: 4a7606128e077eed07b414171e2bc88da25b4636
-    new: c3f20a2ce4f36720839a40134b3e65528a7f17ff
-    log: |
-         59d26bd9619c1bb37b1ccb4a93a71221bec46e12 thunderbird-patch-inline: avoid bashism
-         62898b8f5e86b67dbc8f9092ae9ee0819823a0be builtin/update-server-info: remove the_repository global variable
-         188713784652e69610ed5c450b183217cc2ec522 Merge branch 'bc/contrib-thunderbird-patch-inline-fix' into jch
-         7c266cf8f5365df75f2eb56521a4951ebc82cb49 Merge branch 'ua/update-server-info-sans-the-repository' into jch
-         9d5a74259ba52ee2c158fd503d67d4ec5d211bc3 Merge branch 'jc/doc-attr-tree' into seen
-         0c8432d05f03a56f48dd0a8a6029a940aa4c902b Merge branch 'ps/build-meson-fixes-0130' into seen
-         86f2c266105bc8849e589a6ac16004a9dc600585 Merge branch 'ps/path-sans-the-repository' into seen
-         747c886d3bc51385f139a468382622c20b85ca6e Merge branch 'ua/os-version-capability' into seen
-         b7f18c1eee7b62ac7f0e4aeae087b5a4a07b4a55 Merge branch 'ib/diff-S-G-with-longhand' into seen
-         c3f20a2ce4f36720839a40134b3e65528a7f17ff Merge branch 'sj/ref-consistency-checks-more' into seen
-         
-  - ref: refs/notes/amlog
-    old: e540aaea42d622f7c03ae9a4c0017b28e09fa7b6
-    new: 77ee57ed1ed7aa94a9c51c463313965c8653233e
-    log: |
-         08cdb7380ef153d1058cd31997d9fb49b64b0e7f Notes added by 'git notes add'
-         77ee57ed1ed7aa94a9c51c463313965c8653233e Notes added by 'git notes add'
-         
+  - ref: refs/heads/for-linus/hardening
+    old: 724c6ce38bbaeb4b3f109b0e066d6c0ecd15446c
+    new: 0000000000000000000000000000000000000000
+
+--===============7421422442497718735==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1739234513 -0800
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
+nonce 1739234482-5b42142dcd619eff25a1e0f273b41b800245e7ca
+
+724c6ce38bbaeb4b3f109b0e066d6c0ecd15446c 0000000000000000000000000000000000000000 refs/heads/for-linus/hardening
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCZ6qc0QAKCRA2KwveOeQk
+u1y6AP9peNitMlEGdlHAKrK6VSO3/ARsO0k0s8E4XaoOpDs2sAD/TcqQ2ZXCZqhv
+mqed+f2h0d7a7fPNar1lPuOGOK3b5AI=
+=10By
+-----END PGP SIGNATURE-----
+
+--===============7421422442497718735==--
