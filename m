@@ -1,58 +1,72 @@
-Content-Type: multipart/mixed; boundary="===============8950139703983041344=="
+Content-Type: multipart/mixed; boundary="===============0470256115057103703=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
-Date: Tue, 11 Feb 2025 21:22:58 -0000
-Message-Id: <173930897822.1558268.4378448913486833552@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 11 Feb 2025 21:31:58 -0000
+Message-Id: <173930951873.1565978.352159112429418328@gitolite.kernel.org>
 
---===============8950139703983041344==
+--===============0470256115057103703==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/melver/linux
-user: melver
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/cap-analysis
-    old: 76d39935c46e72bf2e9917faa09041cc7f96a387
-    new: 62e4de14389b44299be85eea5a580e6b497fdf43
-    log: revlist-76d39935c46e-62e4de14389b.txt
+  - ref: refs/heads/200GbE
+    old: 1438f5d07b9a7afb15e1d0e26df04a6fd4e56a3c
+    new: 63f20f00d23d569e4e67859b4e8dcc9de79221cb
+    log: revlist-1438f5d07b9a-63f20f00d23d.txt
 
---===============8950139703983041344==
+--===============0470256115057103703==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-76d39935c46e-62e4de14389b.txt
+Content-Disposition: attachment; filename=revlist-1438f5d07b9a-63f20f00d23d.txt
 
-af2cd261074e1b67cbe6cddb2c6afb54b8efaec5 compiler-capability-analysis: Add infrastructure for Clang's capability analysis
-253098e71de0ef676e7abfab510da9e73500db47 compiler-capability-analysis: Add test stub
-bc596fdd88620668a0f091d6bdad9134166480ba Documentation: Add documentation for Compiler-Based Capability Analysis
-2651c8840d2087f930e8151084eb7083bac19e29 checkpatch: Warn about capability_unsafe() without comment
-e6127a2490395b0ba0c869715ba61ee40119e2fd cleanup: Basic compatibility with capability analysis
-6ffa97e30ef7e967d942294ddc78952eaf6b0967 lockdep: Annotate lockdep assertions for capability analysis
-48b99ad277deff4607b8ad80f53a9bdd57bb0055 locking/rwlock, spinlock: Support Clang's capability analysis
-a2524d064094dd7f37607a2c55c129bb57e2c766 compiler-capability-analysis: Change __cond_acquires to take return value
-44ed456a109b76e533d353f80fc301e35ed03154 locking/mutex: Support Clang's capability analysis
-ccecdc6ca90c909fa95fd98152479aa644264ff4 locking/seqlock: Support Clang's capability analysis
-969520d65b068fa84e548e544b8b7af4a87b363e bit_spinlock: Include missing <asm/processor.h>
-eb69ed1b27539cadca7bceac59294838e259b38a bit_spinlock: Support Clang's capability analysis
-f7039fb7b3a9459a6c5ed166c267bdf294492c1b rcu: Support Clang's capability analysis
-fea714eb2659066278dc75fbd6229e18b5bfd23b srcu: Support Clang's capability analysis
-6aea989ef1167be70f70a1f285bbe020bd279769 kref: Add capability-analysis annotations
-7835f3edfab8288a549504afb9eb94278aaafbac locking/rwsem: Support Clang's capability analysis
-895e91e6a76fc478ef13428a02587e5a424fc0be locking/local_lock: Support Clang's capability analysis
-0d46324b767cca792b55182d42bb09ede98c5db3 locking/ww_mutex: Support Clang's capability analysis
-30f8620127c27594036ce600851973b6a8225da8 debugfs: Make debugfs_cancellation a capability struct
-f4175a891bfb74dd31752d746878c1416b25b242 kfence: Enable capability analysis
-113e5cea5c4bb54da0f818a9b7be3497a0311f9b kcov: Enable capability analysis
-d6d88d3748905102f5fd6d0a360fb96ddc1c71a3 stackdepot: Enable capability analysis
-ceabb5fc7296d7eb499e124f402584ce3e90c7ff rhashtable: Enable capability analysis
-e8512ed0d54c1ca7faedf0908ac735eaf806fc65 compiler-capability-analysis: Remove Sparse support
-9c8d14ce8aff2d38bf494f5d5436a302e3236842 compiler-capability-analysis: Remove __cond_lock() function-like helper
-414681ab8e33c58b10bf195293559b9c1e9cf5f9 DO-NOT-SEND: tree-wide: Assorted annotations
-46dbca164a68b4534f9daeae158dffca4e587777 drm: zynqmp_dp: Fix a deadlock in zynqmp_dp_ignore_hpd_set()
-62e4de14389b44299be85eea5a580e6b497fdf43 DO-NOT-SEND: drivers: Assorted enablement and annotations
+ccb7276a6d26d6f8416e315b43b45e15ee7f29e2 batman-adv: fix panic during interface removal
+e7e34ffc976aaae4f465b7898303241b81ceefc3 batman-adv: Ignore neighbor throughput metrics in error case
+8c8ecc98f5c65947b0070a24bac11e12e47cc65d batman-adv: Drop unmanaged ELP metric worker
+64a1ba4072b34af1b76bf15fca5c2075b8cc4d64 wifi: ath12k: fix handling of 6 GHz rules
+0e9724d0f89e8d77fa683e3129cadaed7c6e609d wifi: brcmfmac: use random seed flag for BCM4355 and BCM4364 firmware
+3319569bf9d8b4d8c5aaf0d410b620210c4bb317 Merge tag 'ath-current-20250124' of git://git.kernel.org/pub/scm/linux/kernel/git/ath/ath
+f4c9c2cc827d803159730b1da813a0c595969831 batman-adv: Fix incorrect offset in batadv_tt_tvlv_ogm_handler_v1()
+0db6b7d49b50c037b5eac19a8d8d1da986db80c6 MAINTAINERS: wifi: ath: remove Kalle
+b76adb9758f8eaaf22b824d0bcdd694551ce0557 MAINTAINERS: wifi: remove Kalle
+cb827db50a88aebec516151681adb6db10b688ee net: fib_rules: annotate data-races around rule->[io]ifindex
+011b0335903832facca86cd8ed05d7d8d94c9c76 Revert "net: skb: introduce and use a single page frag cache"
+d0b197b6505fe3788860fc2a81b3ce53cbecc69c Documentation/networking: fix basic node example document ISO 15765-2
+44de577e61ed239db09f0da9d436866bef9b77dd can: j1939: j1939_sk_send_loop(): fix unable to send messages with data length zero
+9bd24927e3eeb85642c7baa3b28be8bea6c2a078 can: ctucanfd: handle skb allocation failure
+257a2cd3eb578ee63d6bf90475dc4f4b16984139 can: c_can: fix unbalanced runtime PM disable in error path
+a1ad2109ce41c9e3912dadd07ad8a9c640064ffb can: etas_es58x: fix potential NULL pointer dereference on udev->serial
+f7f0adfe64de08803990dc4cbecd2849c04e314a can: rockchip: rkcanfd_handle_rx_fifo_overflow_int(): bail out if skb cannot be allocated
+cb6cc8ed77177c7553c2f8ac8605d32de58f43ac net: stmmac: Apply new page pool parameters when SPH is enabled
+48145a57d4bbe3496e8e4880b23ea6b511e6e519 ndisc: ndisc_send_redirect() must use dev_get_by_index_rcu()
+628e6d18930bbd21f2d4562228afe27694f66da9 ndisc: use RCU protection in ndisc_alloc_skb()
+becbd5850c03ed33b232083dd66c6e38c0c0e569 neighbour: use RCU protection in __neigh_notify()
+a42b69f692165ec39db42d595f4f65a4c8f42e44 arp: use RCU protection in arp_xmit()
+90b2f49a502fa71090d9f4fe29a2f51fe5dff76d openvswitch: use RCU protection in ovs_vport_cmd_fill_info()
+6d0ce46a93135d96b7fa075a94a88fe0da8e8773 vrf: use RCU protection in l3mdev_l3_out()
+ed6ae1f325d3c43966ec1b62ac1459e2b8e45640 ndisc: extend RCU protection in ndisc_send_skb()
+087c1faa594fa07a66933d750c0b2610aa1a2946 ipv6: mcast: extend RCU protection in igmp6_send()
+9dfedb8dc78b4eff15873a2e29731cf7028058ab Merge branch 'net-second-round-to-use-dev_net_rcu'
+17847ea6ced8f645646ef93e8826a36e434fcb2c Merge tag 'wireless-2025-02-07' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
+8e248f2dbb1885647e259837d38200942f3591a3 Merge tag 'linux-can-fixes-for-6.14-20250208' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
+7b07b040257c1b658ef3eca86e4b6ae02d65069c ptp: vmclock: Add .owner to vmclock_miscdev_fops
+f7d07cd4f77d77f366c8ffbb8ba8b61f614e5fce ptp: vmclock: Set driver data before its usage
+39e926c3a21b25af6cae479fbb752f193240ce03 ptp: vmclock: Don't unregister misc device if it was not registered
+9a884c3800b207bac36e27be4ec7277c78a84568 ptp: vmclock: Clean up miscdev and ptp clock through devres
+b4c1fde5ced93d9f4ad89e2c940d3fd56ad82288 ptp: vmclock: Remove goto-based cleanup logic
+2196ceea2d39018a85a037cbb4c22666edb5a72c Merge branch 'ptp-vmclock-bugfixes-and-cleanups-for-error-handling'
+44ce3511c21c6ba87a719a0b9f140822cc1cc00b Merge tag 'batadv-net-pullrequest-20250207' of git://git.open-mesh.org/linux-merge
+69ab25a74e2df53edc2de4acfce0a484bdb88155 idpf: fix handling rsc packet with a single segment
+2ff66c2f9ea4e9311e9a00004348b6c465bd5d3b idpf: record rx queue in skb for RSC packets
+52c11d31b5a1d1c747bb5f36cc4808e93e2348f4 idpf: call set_real_num_queues in idpf_open
+61fb097f9a644407b9342a8169d0edef868612d7 ixgbe: Fix possible skb NULL pointer dereference
+7822dd4d6d4bebca5045a395e1784ef09cae2d43 igc: Fix HW RX timestamp when passed by ZC XDP
+63f20f00d23d569e4e67859b4e8dcc9de79221cb igc: Set buffer type for empty frames in igc_init_empty_frame
 
---===============8950139703983041344==--
+--===============0470256115057103703==--
