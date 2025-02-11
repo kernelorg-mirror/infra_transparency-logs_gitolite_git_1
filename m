@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1623874330863561957=="
+Content-Type: multipart/mixed; boundary="===============6294307384784337517=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 11 Feb 2025 16:52:31 -0000
-Message-Id: <173929275109.1334524.17556015017112169216@gitolite.kernel.org>
+Date: Tue, 11 Feb 2025 16:52:39 -0000
+Message-Id: <173929275995.1334797.9421594887029393272@gitolite.kernel.org>
 
---===============1623874330863561957==
+--===============6294307384784337517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 011b0335903832facca86cd8ed05d7d8d94c9c76
-    new: 44ce3511c21c6ba87a719a0b9f140822cc1cc00b
-    log: revlist-011b03359038-44ce3511c21c.txt
+  - ref: refs/heads/dev-queue
+    old: 05a7449aaaac86c85f6de8db0eae8d9ab76c8b70
+    new: 3dec46a355969709c6162360d1cac74f270501a0
+    log: revlist-05a7449aaaac-3dec46a35596.txt
 
---===============1623874330863561957==
+--===============6294307384784337517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-011b03359038-44ce3511c21c.txt
+Content-Disposition: attachment; filename=revlist-05a7449aaaac-3dec46a35596.txt
 
 ccb7276a6d26d6f8416e315b43b45e15ee7f29e2 batman-adv: fix panic during interface removal
 e7e34ffc976aaae4f465b7898303241b81ceefc3 batman-adv: Ignore neighbor throughput metrics in error case
@@ -60,5 +60,19 @@ f7d07cd4f77d77f366c8ffbb8ba8b61f614e5fce ptp: vmclock: Set driver data before it
 b4c1fde5ced93d9f4ad89e2c940d3fd56ad82288 ptp: vmclock: Remove goto-based cleanup logic
 2196ceea2d39018a85a037cbb4c22666edb5a72c Merge branch 'ptp-vmclock-bugfixes-and-cleanups-for-error-handling'
 44ce3511c21c6ba87a719a0b9f140822cc1cc00b Merge tag 'batadv-net-pullrequest-20250207' of git://git.open-mesh.org/linux-merge
+c1dbe97e81e59db635eb68d218dc09cacc5156fe dmaengine: tegra210-adma: Fix build error due to 64-by-32 division
+97e50556ef44e4e9d10e77d39b8453426c0895e0 coccinelle: misc: secs_to_jiffies script: Create dummy report
+58f59b17f8ae214404602724fff90c3b9c7a0aae ice: do not configure destination override for switchdev
+c7e63247d87b08ecb10d2b139327086c3f90ca1b ice: Fix switchdev slow-path in LAG
+d30c680502a34834b16af5a0829889764a92f629 idpf: fix handling rsc packet with a single segment
+ea8e02bfe71e4203e466f190a5fdf85d20965acb idpf: record rx queue in skb for RSC packets
+1da96a2c7b1f165b944be290a3690f75a872c13e idpf: synchronize pending IRQs after disable
+ff623fa8210041ccb554ebd06cd9c24467eb35b7 ice: fix memory leak in aRFS after reset
+f9226bb0888caa6c78dae453f95a36f634e87c8e igc: Fix HW RX timestamp when passed by ZC XDP
+cfc687785cdb84f454aee42af5cf53a54c3b57a9 ixgbe: Fix possible skb NULL pointer dereference
+bf7b204042f59da158ed27fb122f22b30e242373 idpf: call set_real_num_queues in idpf_open
+6033bc287093d80a44fb326a1987949698921892 igc: Set buffer type for empty frames in igc_init_empty_frame
+20607ed86405601e48bfddb89a66e16c30faa40a ixgbe: fix media cage present detection for E610 device
+3dec46a355969709c6162360d1cac74f270501a0 ice: health.c: fix compilation on gcc 7.5
 
---===============1623874330863561957==--
+--===============6294307384784337517==--
