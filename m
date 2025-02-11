@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 11 Feb 2025 17:46:05 -0000
-Message-Id: <173929596569.1379147.2530800932813019724@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Tue, 11 Feb 2025 17:52:40 -0000
+Message-Id: <173929636080.1383999.3972564820899050802@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/kselftest-mm-no-hugepages
-    old: 9c642ecf7ae839394972f0095369f5d90b6fb65f
-    new: ed6cd57d8a5b2e09dc1c3c0bd5c131ee6ec4075d
+  - ref: refs/heads/pending
+    old: 7b19d5adadfef791d52fd0412a75ebb8f9f27a6b
+    new: 469c2f71a8a7a141d4f31a0ac8947751603e997f
     log: |
-         ed6cd57d8a5b2e09dc1c3c0bd5c131ee6ec4075d kselftst/mm: Allow tests to run with no huge pages support
+         78ed9d1b689daa1998c2f6eeb3418729cf484e98 wifi: ath11k: use union for vaddr and iaddr in target_mem_chunk
+         469c2f71a8a7a141d4f31a0ac8947751603e997f wifi: ath11k: Add firmware coredump collection support
          
