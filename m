@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Tue, 11 Feb 2025 14:37:03 -0000
-Message-Id: <173928462300.1219611.14604697509148101373@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
+Date: Tue, 11 Feb 2025 14:38:54 -0000
+Message-Id: <173928473475.1220677.4307759535048999279@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/intel
-user: andy
+repo: pub/scm/linux/kernel/git/mediatek/linux
+user: angelogioacchino.delregno
 changes:
-  - ref: refs/heads/review-andy
-    old: a1e062ab4a1f19bb0e94093ef90ab9a74f1f7744
-    new: 0eee258cdf172763502f142d85e967f27a573be0
+  - ref: refs/heads/v6.14-next/dts64
+    old: 3ac908716b8297d3ba6c6010104065517ec341a8
+    new: 301d44afbdcfd523a8c126c52b9d597ec27c473a
     log: |
-         6edf3152bd4c2bc58e3705872642e282d8b3eeb9 pwm: lpss: Clarify the bypass member semantics in struct pwm_lpss_boardinfo
-         0eee258cdf172763502f142d85e967f27a573be0 pinctrl: intel: Fix wrong bypass assignment in intel_pinctrl_probe_pwm()
+         301d44afbdcfd523a8c126c52b9d597ec27c473a arm64: dts: mediatek: mt8188: Assign apll1 clock as parent to avoid hang
          
