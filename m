@@ -1,28 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 11 Feb 2025 20:49:34 -0000
-Message-Id: <173930697420.1529520.3155196683232987807@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Tue, 11 Feb 2025 20:56:33 -0000
+Message-Id: <173930739328.1535992.14510855497091907086@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/for-6.15/block
-    old: 3bee991f2b68175c828dc3f9c26367fe1827319a
-    new: a052bfa636bb763786b9dc13a301a59afb03787a
+  - ref: refs/heads/kdevops
+    old: 94ecc89aed5c23958294cf6e5cc6f5a0d2d65b88
+    new: 26923db7fd57be78ea30c7de1d6b2d3f20b912f8
     log: |
-         36d03cb3277e29beedb87b8efb1e4da02b26e0c0 block: introduce init_wait_func()
-         a052bfa636bb763786b9dc13a301a59afb03787a block: refactor rq_qos_wait()
-         
-  - ref: refs/heads/for-next
-    old: c5613284b03187c524243210e009585bacd38b40
-    new: b48078773e370621b8fccee8d4ef11a185dace20
-    log: |
-         36d03cb3277e29beedb87b8efb1e4da02b26e0c0 block: introduce init_wait_func()
-         a052bfa636bb763786b9dc13a301a59afb03787a block: refactor rq_qos_wait()
-         b48078773e370621b8fccee8d4ef11a185dace20 Merge branch 'for-6.15/block' into for-next
+         26923db7fd57be78ea30c7de1d6b2d3f20b912f8 DEBUG: track down DELEG8 failure
          
