@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Tue, 11 Feb 2025 14:36:49 -0000
-Message-Id: <173928460900.1219362.16251605707518931853@gitolite.kernel.org>
+Date: Tue, 11 Feb 2025 14:37:03 -0000
+Message-Id: <173928462300.1219611.14604697509148101373@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: andy
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/review-andy
     old: a1e062ab4a1f19bb0e94093ef90ab9a74f1f7744
     new: 0eee258cdf172763502f142d85e967f27a573be0
     log: |
