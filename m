@@ -1,24 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Tue, 11 Feb 2025 18:35:19 -0000
-Message-Id: <173929891974.1419704.18354932252071031901@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 11 Feb 2025 18:59:19 -0000
+Message-Id: <173930035920.1436526.6455882904509655792@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/s390/linux
-user: gor
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: a5c9b98987b600f3292690d4befcd953e35fd191
-    new: ce6bdbd583f348524a4fae365bc9e2e91762f05b
+  - ref: refs/heads/kselftest-mm-no-hugepages
+    old: ed6cd57d8a5b2e09dc1c3c0bd5c131ee6ec4075d
+    new: a851b965f5d6a3eb772fe07210b166e5d407994c
     log: |
-         8d1d1e8d3345b56d3d8a64f845962c71468cd776 s390/configs: Remove CONFIG_LSM
-         32ae4a2992529e2c7934e422035fad1d9b0f1fb5 s390/cio: Fix CHPID "configure" attribute caching
-         6166caf3bbe2429e4fac71b77e1c8254f2690383 s390/bitops: Disable arch_test_bit() optimization for PROFILE_ALL_BRANCHES
-         05793884a1f30509e477de9da233ab73584b1c8c s390/pci: Pull search for parent PF out of zpci_iov_setup_virtfn()
-         2844ddbd540fc84d7571cca65d6c43088e4d6952 s390/pci: Fix handling of isolated VFs
-         ce6bdbd583f348524a4fae365bc9e2e91762f05b Merge branch 'fixes' into for-next
+         834c86bd5e0cefba1284eb3720f6a46557686efc selftests/mm: Allow execution on systems without huge pages
+         3226f5ad93ecf1d0c18a0038999f454715337ead selftests/mm: Fix check for running THP tests
+         a851b965f5d6a3eb772fe07210b166e5d407994c kselftst/mm: Allow tests to run with no huge pages support
          
