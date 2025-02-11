@@ -1,31 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============1645400505088376026=="
+Content-Type: multipart/mixed; boundary="===============8612738812129756363=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
-Date: Tue, 11 Feb 2025 10:20:19 -0000
-Message-Id: <173926921974.1012184.1127372045400380802@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
+Date: Tue, 11 Feb 2025 10:20:25 -0000
+Message-Id: <173926922599.1012399.5916421637952297197@gitolite.kernel.org>
 
---===============1645400505088376026==
+--===============8612738812129756363==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/mfd
+repo: pub/scm/linux/kernel/git/lee/leds
 user: lee
 changes:
-  - ref: refs/heads/for-mfd-next
-    old: 2816b0c949af89640b8dc05de53e650cbf1d55fb
-    new: 0b1cfd51841c69c024facfe59ea7bbe6b589a7de
-    log: revlist-2816b0c949af-0b1cfd51841c.txt
+  - ref: refs/heads/for-leds-next
+    old: daefd7fbd544671ad0b9c2a815d7f5e3d2f0365c
+    new: 59670b23bfb649b29ad185618116d522f0e7ae90
+    log: revlist-daefd7fbd544-59670b23bfb6.txt
 
---===============1645400505088376026==
+--===============8612738812129756363==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-2816b0c949af-0b1cfd51841c.txt
+Content-Disposition: attachment; filename=revlist-daefd7fbd544-59670b23bfb6.txt
 
+a3282f84b2151d254dc4abf24d1255c6382be774 PCI: switchtec: Add Microchip PCI100X device IDs
+13b6931c44969ff057ad2a3aa1c20a1b28b79b6f Merge tag 'x86_sev_for_v6.14_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+e7217011ddd8e86a0d18c6cbfb4f14da3d18eee0 ALSA: usb: fcp: Fix meter_levels type to __le32
+f08cc80f69be62beb7a63cd4813c7989c8708831 ALSA: usb: fcp: Fix incorrect resp->opcode retrieval
+0a8f5f4652ef4d530a7cb8bed2b6e502cdfa825f ALSA: usb: fcp: Fix return code from poll ops
 b02cfbd9bfb9f45eebb33771e5705af95b5c9673 dt-bindings: PCI: mobiveil: Convert mobiveil-pcie.txt to YAML
 10e796eed62648ff928cb66d52f226452e1affff dt-bindings: PCI: qcom,pcie-sm8550: Document 'global' interrupt
 c25b978d351fae5da87794be9160d8acfa6e6823 dt-bindings: PCI: qcom: Document the IPQ5424 PCIe controller
@@ -1043,12 +1048,7 @@ a86bf2283d2c9769205407e2b54777c03d012939 Merge tag 'pull-misc' of git://git.kern
 5d82ca7b5019d880a579831278eb73cbbfdb87da Merge tag 'sh-for-v6.14-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 2014c95afecee3e76ca4a56956a936e23283f05b Linux 6.14-rc1
-896b1eb4ca771b37ea50feb4d90a78dd4e9cb388 mfd: mt6397: Add support for MT6392 PMIC
-4c1d04d013e3e5073a7e78e57cba82c3cd81d586 dt-bindings: mfd: stm32-timers: Add support for stm32mp25
-3c81d423568ad28540a7dab4ca8ea66ded9b352f mfd: stm32-timers: Add support for stm32mp25
-32bd3cfecbd0b7f2a0aa31797d037a9884f4e6f9 mfd: ipaq-micro/tps65010: Use str_enable_disable-like helpers
-987c19d733bb099daf9f13e3c84947a611219797 mfd: sm501: Switch to BIT() to mitigate integer overflows
-db8d38dab1c313a4fb870d143bebe57166af84ab mfd: intel_soc_pmic_chtdc_ti: Drop unneeded assignment for cache_type
-0b1cfd51841c69c024facfe59ea7bbe6b589a7de mfd: intel_soc_pmic_crc: Drop unneeded assignment for cache_type
+c629c972b310af41e9e072febb6dae9a299edde6 leds: trigger: netdev: Configure LED blink interval for HW offload
+59670b23bfb649b29ad185618116d522f0e7ae90 leds: lp8860: Drop unneeded assignment for cache_type
 
---===============1645400505088376026==--
+--===============8612738812129756363==--
