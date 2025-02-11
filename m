@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4507070879206428717=="
+Content-Type: multipart/mixed; boundary="===============3069858074099287464=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Tue, 11 Feb 2025 15:33:27 -0000
-Message-Id: <173928800722.1267440.6492320502252948464@gitolite.kernel.org>
+Date: Tue, 11 Feb 2025 15:33:32 -0000
+Message-Id: <173928801205.1267608.6280132867861311657@gitolite.kernel.org>
 
---===============4507070879206428717==
+--===============3069858074099287464==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: 02aae8e2f957adc1b15b6b8055316f8a154ac3f5
+  - ref: refs/heads/pending
+    old: 474abfbe90b5d6c52d43207a8b9959e0bb8b89f5
     new: 7b19d5adadfef791d52fd0412a75ebb8f9f27a6b
-    log: revlist-02aae8e2f957-7b19d5adadfe.txt
+    log: revlist-474abfbe90b5-7b19d5adadfe.txt
 
---===============4507070879206428717==
+--===============3069858074099287464==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-02aae8e2f957-7b19d5adadfe.txt
+Content-Disposition: attachment; filename=revlist-474abfbe90b5-7b19d5adadfe.txt
 
 cb53a6785ea5b0a14e7e5af4322bee3df266e949 wifi: ath12k: add support of station average signal strength
 a5f3c2b89136f13f18ea64fc1144691ca771b98b wifi: ath12k: Add HAL_PHYRX_GENERIC_U_SIG TLV parsing support
@@ -58,4 +58,4 @@ e669a18b20e205dc51a71a07bd3597f123979751 wifi: ath12k: Support Uplink OFDMA Trig
 1dbaae78e7f23819eb75f4ba8a4484e43cf625f9 wifi: ath12k: Support Uplink MUMIMO Trigger Stats
 7b19d5adadfef791d52fd0412a75ebb8f9f27a6b wifi: ath12k: Support Received FSE Stats
 
---===============4507070879206428717==--
+--===============3069858074099287464==--
