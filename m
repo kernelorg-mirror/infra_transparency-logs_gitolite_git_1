@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0893252947401298162=="
+Content-Type: multipart/mixed; boundary="===============4521909758007136344=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Tue, 11 Feb 2025 18:32:16 -0000
-Message-Id: <173929873649.1415698.10296370724480813632@gitolite.kernel.org>
+Date: Tue, 11 Feb 2025 18:32:23 -0000
+Message-Id: <173929874365.1415889.7690881356556495070@gitolite.kernel.org>
 
---===============0893252947401298162==
+--===============4521909758007136344==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/fixes
-    old: 9666087652263325cf77ff9f904592b88515416a
-    new: 7e08964765ba68c14e6273a2fb4a56ad83b4abe1
-    log: revlist-966608765226-7e08964765ba.txt
+  - ref: refs/heads/for-next
+    old: 2eafd2ea62b607eb973f5caff1d02c9f3aa414f7
+    new: a5c9b98987b600f3292690d4befcd953e35fd191
+    log: revlist-2eafd2ea62b6-a5c9b98987b6.txt
 
---===============0893252947401298162==
+--===============4521909758007136344==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-966608765226-7e08964765ba.txt
+Content-Disposition: attachment; filename=revlist-2eafd2ea62b6-a5c9b98987b6.txt
 
 3c47c2ccd5a29c78780ccfd0227a805f3873ab1c nvmet: fix rw control endian access
 d68fc95a771e0a7edd876ede7913d61276be77fd nvme-pci: remove redundant dma frees in hmb
@@ -308,5 +308,6 @@ c1e3a49257a60b397521e2988d10433e18fb4420 s390/cio: Fix CHPID "configure" attribu
 80016e9c7a4b08c78a987099c197fd8be091a7f8 s390/bitops: Disable arch_test_bit() optimization for PROFILE_ALL_BRANCHES
 905bbef4c1cf63c2a0a9c2855653eceea4df6e54 s390/pci: Pull search for parent PF out of zpci_iov_setup_virtfn()
 7e08964765ba68c14e6273a2fb4a56ad83b4abe1 s390/pci: Fix handling of isolated VFs
+a5c9b98987b600f3292690d4befcd953e35fd191 Merge branch 'fixes' into for-next
 
---===============0893252947401298162==--
+--===============4521909758007136344==--
