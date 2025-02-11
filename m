@@ -1,56 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============5381356350097323196=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Tue, 11 Feb 2025 08:38:02 -0000
-Message-Id: <173926308228.877239.13475258763190766564@gitolite.kernel.org>
-
---===============5381356350097323196==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/fs/xfs/xfs-linux
+Date: Tue, 11 Feb 2025 08:41:18 -0000
+Message-Id: <173926327882.928624.3789160687205674812@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/fs/xfs/xfs-linux
+user: cem
 changes:
-  - ref: refs/notes/signatures/tar
-    old: a4697ec6a90e1bdcbf4bc07abf651697db11cd6e
-    new: 50ad9f7530bc0a2843e7f3bb29920c2745a48cc5
+  - ref: refs/heads/for-next
+    old: a64dcfb451e254085a7daee5fe51bf22959d52d3
+    new: 35010cc72acc468c98962f1056480a0a363eb1c3
     log: |
-         50ad9f7530bc0a2843e7f3bb29920c2745a48cc5 Notes added by 'git notes add'
+         bc0651d93a7bf4952f43af6122f6692f36180d52 xfs: fix online repair probing when CONFIG_XFS_ONLINE_REPAIR=n
+         0ab5a2b9378babf743da4467b448f84ba6110f0b xfs: fix data fork format filtering during inode repair
+         84ea4c9d978b995f284a22a374b9caabde440195 Merge tag 'fixes-6.14_2025-02-03' of https://git.kernel.org/pub/scm/linux/kernel/git/djwong/xfs-linux into next-rc
+         263b984ae26bbc320581d2872a125bc305bea0b8 xfs: do not check NEEDSREPAIR if ro,norecovery mount.
+         18df3ca14c34e9fd6e12189a24238a12b064fbac xfs: Do not allow norecovery mount with quotacheck
+         6f7ce473cca4952e4ac673f0fdf6dad2fac40324 xfs: rename xfs_iomap_swapfile_activate to xfs_vm_swap_activate
+         35010cc72acc468c98962f1056480a0a363eb1c3 xfs: flush inodegc before swapon
          
-
---===============5381356350097323196==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1739263111 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1739263079-82a1b51781a78f0ee06e030454229d2bfe962339
-
-a4697ec6a90e1bdcbf4bc07abf651697db11cd6e 50ad9f7530bc0a2843e7f3bb29920c2745a48cc5 refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmerDIcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GsMP/j7kIBpA7S0ZHzO14Vdf
-NBlFjDjvAM+I3XFjNtyTWcmlvaf0IukjNkov1hi2eWIRNYRnXc2yuwFF9VXGhjv5
-3fCOLhCB2MvbY9Bc1AGKdqTjNNwe/jq6Y756DgozBuyKCW7x42x2tfxb/R8kISJw
-R7WKGzeKw+mXqdKs2Vid8MJgVJtr3bpKQDO3arVHlm5eV0NVouPrgV4+xYzgMi6F
-IBFQHtLXSSQa/VKHjt/OwCbz2LOhOiSaxy8qgYssAnm2VgplYk3ozSQfNYJT+93R
-ccCBv+Zc1vXXNVBcy9Zx0Ko1qYoDxVXvtnA6xrj5tAbXmDLFYGb49V7Bc8sHRNka
-QMTmS7KvikNQ9THFr3X0sLTvTaHT8UeY3pJAVJtVC+mPSL1nTxsI7UKWw6TVr1rx
-6nO40rR2vcdeCQlm7VN6s92JAPDT4GwSCXdCw2fkRQ+qw1t7q6BU80GgjwNZ287S
-FV1WduFbdgWC8dTOdZsiTHzF06cNxREUkY/lF7dcTlMVVyYVe9NwzhNeV2pit8+J
-vtHR01hTB8HLkP0LGgpd0BsVAI1eIgzszdCs6SPG5vJQpjmPBFX/y8vMwEigY1cy
-hnFlSa57cdwYuvthh+XdysGPulnEPFLEDqd0k34mW/dZmZQjscyjv9xW0VhyPXWM
-hIgec6+jCNmiYbAtFVLgzPTZ
-=tTkW
------END PGP SIGNATURE-----
-
---===============5381356350097323196==--
