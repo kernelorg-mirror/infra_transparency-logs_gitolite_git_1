@@ -1,24 +1,53 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 11 Feb 2025 02:17:54 -0000
-Message-Id: <173924027451.577094.14129870087973456884@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1113036855957811509=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Tue, 11 Feb 2025 02:26:54 -0000
+Message-Id: <173924081441.584693.2918078980135255503@gitolite.kernel.org>
+
+--===============1113036855957811509==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: 9dfedb8dc78b4eff15873a2e29731cf7028058ab
-    new: 17847ea6ced8f645646ef93e8826a36e434fcb2c
+  - ref: refs/heads/for-next/move-kunit-tests
+    old: b8735603e19a5643caa594c7fe5d4beb5a9d118a
+    new: b7c35d2fce33141e329817e72c02cbad13f6c8e1
     log: |
-         64a1ba4072b34af1b76bf15fca5c2075b8cc4d64 wifi: ath12k: fix handling of 6 GHz rules
-         0e9724d0f89e8d77fa683e3129cadaed7c6e609d wifi: brcmfmac: use random seed flag for BCM4355 and BCM4364 firmware
-         3319569bf9d8b4d8c5aaf0d410b620210c4bb317 Merge tag 'ath-current-20250124' of git://git.kernel.org/pub/scm/linux/kernel/git/ath/ath
-         0db6b7d49b50c037b5eac19a8d8d1da986db80c6 MAINTAINERS: wifi: ath: remove Kalle
-         b76adb9758f8eaaf22b824d0bcdd694551ce0557 MAINTAINERS: wifi: remove Kalle
-         17847ea6ced8f645646ef93e8826a36e434fcb2c Merge tag 'wireless-2025-02-07' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
+         3e50ba8fc834cadead733e4feeb969fce2f3b6e1 lib: math: Move KUnit tests into tests/ subdir
+         84ec093f55f58f5a4a66eb98bd6b6af413190bde lib/math: Add int_log test suite
+         db6fe4d61ece24193eb4d94a82d967501d53358c lib: Move KUnit tests into tests/ subdirectory
+         4d557cb4998654441a1018a9f6550d59098c0c9d lib/tests/kfifo_kunit.c: add tests for the kfifo structure
+         62b9ef504e7f89d6ae3e9ab704cc4befab1d37f0 unicode: kunit: refactor selftest to kunit tests
+         be6f498e7391df2d1b012c66c28a039dbe7fae9e unicode: kunit: change tests filename and path
+         50f4a4615080b3576fdd8bf52268566c51ae3fcd lib/math: Add Kunit test suite for gcd()
+         b7c35d2fce33141e329817e72c02cbad13f6c8e1 lib/prime_numbers: convert self-test to KUnit
          
+
+--===============1113036855957811509==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1739240837 -0800
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
+nonce 1739240806-b6881a470a67ab6011f3f1449b86facece4d5cbb
+
+b8735603e19a5643caa594c7fe5d4beb5a9d118a b7c35d2fce33141e329817e72c02cbad13f6c8e1 refs/heads/for-next/move-kunit-tests
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCZ6q1hgAKCRA2KwveOeQk
+u9CAAP91LaNCt6XVCsi3adX5jLDu55ybvtwpdXL+zg/obcZpLQEA7PT6cobSPwWU
+QFvXCkG50DwmUA86GsC7TrIOAzFuYAw=
+=mmPo
+-----END PGP SIGNATURE-----
+
+--===============1113036855957811509==--
