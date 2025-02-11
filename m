@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Tue, 11 Feb 2025 07:36:37 -0000
-Message-Id: <173925939720.827317.13581213821864488887@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iommu/linux
+Date: Tue, 11 Feb 2025 07:48:11 -0000
+Message-Id: <173926009125.836899.4888459782287921964@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/iommu/linux
+user: joro
 changes:
   - ref: refs/heads/master
-    old: eb1bece5090abf15e9022af94c8142cffa3d111c
-    new: 2ae987a8b8a9fe42aa1e9a88b4e8e0ea8aa7076a
+    old: a686531bc8d52e3a713ff3066ae05df7a94c9ac2
+    new: b795ce4bc7dd782927357e986e9745dad36f2216
     log: |
-         2ae987a8b8a9fe42aa1e9a88b4e8e0ea8aa7076a patches/next: intervals auto-tuning: wordsmith cover letter
+         b795ce4bc7dd782927357e986e9745dad36f2216 iommu/vt-d: Make intel_iommu_drain_pasid_prq() cover faults for RID
          
