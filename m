@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6352596316406030661=="
+Content-Type: multipart/mixed; boundary="===============0051086448349835399=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Tue, 11 Feb 2025 00:41:48 -0000
-Message-Id: <173923450875.442517.14955107500807918933@gitolite.kernel.org>
+Date: Tue, 11 Feb 2025 00:41:56 -0000
+Message-Id: <173923451633.442719.3995397269387847516@gitolite.kernel.org>
 
---===============6352596316406030661==
+--===============0051086448349835399==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,28 +16,28 @@ repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/dev/collide/v6.13-rc2/stock
-    old: 91bb9e0399288411b1d8dd0920256b8fcd78b6dd
+  - ref: refs/heads/for-linus/execve
+    old: c6a09e342f8e6d3cac7f7c5c14085236aca284b9
     new: 0000000000000000000000000000000000000000
 
---===============6352596316406030661==
+--===============0051086448349835399==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1739234538 -0800
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1739234545 -0800
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1739234507-5a92057b19e0e4d4ce0d910dc477070ce63e9caa
+nonce 1739234515-ddc4a71a03059b39a78295bdea73870b26d8e58d
 
-91bb9e0399288411b1d8dd0920256b8fcd78b6dd 0000000000000000000000000000000000000000 refs/heads/dev/collide/v6.13-rc2/stock
+c6a09e342f8e6d3cac7f7c5c14085236aca284b9 0000000000000000000000000000000000000000 refs/heads/for-linus/execve
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCZ6qc6gAKCRA2KwveOeQk
-u16EAPsGHf8NO68Mo0r8LEWlLi3F4XDsGNxvwNjOWojwEYXYrAEA0eo/M97KcQ2Y
-xdvMWgGtqldXJ7ZCVLWKrJeUQY+I6wk=
-=DgsW
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCZ6qc8QAKCRA2KwveOeQk
+u4qqAP4iQ2rFo5YqB+qnuYPjaaIfe5OCJZCaFDnnktv+a6/HVAD8Czs0APTyESIa
+3GwKo1aOil+RaJQrTfst2hQCzmkndgc=
+=UX3X
 -----END PGP SIGNATURE-----
 
---===============6352596316406030661==--
+--===============0051086448349835399==--
