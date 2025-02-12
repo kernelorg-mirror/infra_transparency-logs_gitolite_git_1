@@ -1,20 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Wed, 12 Feb 2025 08:15:32 -0000
-Message-Id: <173934813273.2085461.6855384923992895748@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
+Date: Wed, 12 Feb 2025 08:17:36 -0000
+Message-Id: <173934825686.2086643.17622242311843699817@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/ukleinek/linux
+user: ukleinek
 changes:
-  - ref: refs/heads/ipsec-fixes
-    old: e1284a9c1d05dcb588b1d68c3efb6bef99a0808f
-    new: 6962b8285ad1c82d1435d52e05ec9c915b51d5e0
+  - ref: refs/heads/pwm/for-next
+    old: 895fe4537cc8586f51abb5c66524efaa42c29883
+    new: e71e46a6f19c46b38983bebde8bfac1c04968fdf
     log: |
-         05d29add411525296230b0451dabf66fb706d1f1 net/mlx5e: Reflect outband SEQ numbers in anti-replay context
-         6962b8285ad1c82d1435d52e05ec9c915b51d5e0 net/mlx5e: Configure initial IPsec SEQ number in non-ESN mode too
+         963f117530e0d0526fc54d0e0705c2201e373aca dt-bindings: pwm: Add support for PWM nexus node
+         e71e46a6f19c46b38983bebde8bfac1c04968fdf pwm: Add support for pwm nexus dt bindings
+         
+  - ref: refs/heads/pwm/for-nexxt
+    old: 895fe4537cc8586f51abb5c66524efaa42c29883
+    new: e71e46a6f19c46b38983bebde8bfac1c04968fdf
+    log: |
+         963f117530e0d0526fc54d0e0705c2201e373aca dt-bindings: pwm: Add support for PWM nexus node
+         e71e46a6f19c46b38983bebde8bfac1c04968fdf pwm: Add support for pwm nexus dt bindings
          
