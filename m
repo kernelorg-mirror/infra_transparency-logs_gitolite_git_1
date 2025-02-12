@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4715370149479150890=="
+Content-Type: multipart/mixed; boundary="===============4911760773977279766=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 12 Feb 2025 17:23:14 -0000
-Message-Id: <173938099476.2542154.6228671561248229799@gitolite.kernel.org>
+Date: Wed, 12 Feb 2025 17:23:17 -0000
+Message-Id: <173938099703.2542270.15220909852991486624@gitolite.kernel.org>
 
---===============4715370149479150890==
+--===============4911760773977279766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: ae9b3c0e79bcc154f80f6e862d3085de31bcb3ce
     new: 4e41231249f4083a095085ff86e317e29313c2c3
     log: revlist-ae9b3c0e79bc-4e41231249f4.txt
 
---===============4715370149479150890==
+--===============4911760773977279766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -58,4 +58,4 @@ d41987e906e75d4c97b3db23ce3caf7252a38eef sfc: extend NVRAM MCDI handlers
 be1d2a1b151deb195cd9749988163aa26ad6f616 Merge branch 'sfc-support-devlink-flash'
 4e41231249f4083a095085ff86e317e29313c2c3 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
 
---===============4715370149479150890==--
+--===============4911760773977279766==--
