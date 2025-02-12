@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djiang/linux
-Date: Wed, 12 Feb 2025 20:36:19 -0000
-Message-Id: <173939257915.2699048.11161055388997893514@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Wed, 12 Feb 2025 20:45:08 -0000
+Message-Id: <173939310855.2706502.10663706660721758576@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djiang/linux
-user: djiang
+repo: pub/scm/libs/ell/ell
+user: holtmann
 changes:
-  - ref: refs/heads/cxl/features
-    old: 3ad5b28fa3801c4aa6a65528dd126b3bb45134e1
-    new: a18f2ba2166167d3ea442e4afab4d1cf3715cbe6
+  - ref: refs/heads/master
+    old: 2ceefd8262fd7a5ba453a781525a43ed585182ed
+    new: 1eabfa3d9ae61e4c364dd5ef62fafddbb23651db
     log: |
-         0ff17c35cb76f6cdca36a102202ebb0e960c7cfd cxl/mbox: Add SET_FEATURE mailbox command
-         a18f2ba2166167d3ea442e4afab4d1cf3715cbe6 cxl: Setup exclusive CXL features that are reserved for the kernel
+         1eabfa3d9ae61e4c364dd5ef62fafddbb23651db test: Add option to run computational expensive test cases
          
