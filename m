@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
-Date: Wed, 12 Feb 2025 11:17:41 -0000
-Message-Id: <173935906142.2236179.6661239463878294716@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Wed, 12 Feb 2025 11:17:44 -0000
+Message-Id: <173935906445.2236276.2354086318374171550@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-integrator
-user: linusw
+repo: pub/scm/libs/ell/ell
+user: holtmann
 changes:
-  - ref: refs/heads/b4/arm-generic-entry-v6.14-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 8374a31f1d649765c3c5241d0c29dbfaa7a32ae3
+  - ref: refs/heads/master
+    old: 44ea958d7ebc94faa2c46254ae64622b96b0764a
+    new: 8383d3d3fb48d89ff22adac52673a64bc94e51b8
+    log: |
+         8383d3d3fb48d89ff22adac52673a64bc94e51b8 hwdb: The child_count field is uint8_t and not uint64_t
+         
