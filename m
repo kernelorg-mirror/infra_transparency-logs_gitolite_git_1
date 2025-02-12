@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Wed, 12 Feb 2025 09:53:11 -0000
-Message-Id: <173935399194.2168775.13994439445892006159@gitolite.kernel.org>
+Date: Wed, 12 Feb 2025 09:58:29 -0000
+Message-Id: <173935430954.2173088.5335266788540444803@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,11 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/brgl/linux
 user: brgl
 changes:
-  - ref: refs/heads/gpio/for-current
-    old: 8743d66979e494c5378563e6b5a32e913380abd8
-    new: b9644fbfbcab13da7f8b37bef7c51e5b8407d031
+  - ref: refs/heads/gpio/for-next
+    old: eb2e9c308d2882d9d364af048eb3d8336d41c4bb
+    new: c11708e2b66b56f102bac83980a52661996c2a21
     log: |
-         b9644fbfbcab13da7f8b37bef7c51e5b8407d031 gpio: stmpe: Check return value of stmpe_reg_read in stmpe_gpio_irq_sync_unlock
+         8beaf839018096cd20e427e68645b4fbecdcb1f0 gpiolib: Deduplicate gpiod_direction_input_nonotify() call
+         2af1f667532013eb354c783514839f89d9923240 gpio: xilinx: Use better bitmap APIs where appropriate
+         c11708e2b66b56f102bac83980a52661996c2a21 gpio: xilinx: Replace custom variants of bitmap_read()/bitmap_write()
          
