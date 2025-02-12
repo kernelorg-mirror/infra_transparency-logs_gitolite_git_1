@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 12 Feb 2025 00:01:43 -0000
-Message-Id: <173931850384.1686546.15149722907934361283@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Wed, 12 Feb 2025 00:02:01 -0000
+Message-Id: <173931852155.1686869.16755111414705849764@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
+repo: pub/scm/linux/kernel/git/sj/damon-hack
 user: sj
 changes:
   - ref: refs/heads/master
-    old: febbc555cf0fff895546ddb8ba2c9a523692fb55
-    new: 09fbf3d502050282bf47ab3babe1d4ed54dd1fd8
+    old: 2ae987a8b8a9fe42aa1e9a88b4e8e0ea8aa7076a
+    new: f89c21305bee3287769d443cc3644ee8309acd1f
     log: |
-         41f198d58b6f2b36f9f8a4481d517369b324e773 tomoyo: fix spelling error
-         691a1f3f180133965d01e0ab0f332248d0345554 tomoyo: fix spelling errors
-         bdc35f164b0f60480b2f5e098bb8f3c0cea05cd2 tomoyo: use better patterns for procfs in learning mode
-         318e8c339c9a0891c389298bb328ed0762a9935e x86/cpu/kvm: SRSO: Fix possible missing IBPB on VM-Exit
-         09fbf3d502050282bf47ab3babe1d4ed54dd1fd8 Merge tag 'tomoyo-pr-20250211' of git://git.code.sf.net/p/tomoyo/tomoyo
+         9acacdf82a0277a04697a528c427f79c1e2b83b8 patches/next: queue hugepage_size DAMOS filter patchset from Usama
+         f89c21305bee3287769d443cc3644ee8309acd1f patches/next: rebase to latest mm-unstable
          
