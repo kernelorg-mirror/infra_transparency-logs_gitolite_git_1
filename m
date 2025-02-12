@@ -1,42 +1,65 @@
-Content-Type: multipart/mixed; boundary="===============1518087950542313276=="
+Content-Type: multipart/mixed; boundary="===============5550463748459500476=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Wed, 12 Feb 2025 12:51:20 -0000
-Message-Id: <173936468049.2313074.13734280082607268995@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usbutils
+Date: Wed, 12 Feb 2025 13:00:06 -0000
+Message-Id: <173936520621.2320543.10854921540766238873@gitolite.kernel.org>
 
---===============1518087950542313276==
+--===============5550463748459500476==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/gregkh/usbutils
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/experimental
-    old: 39c38d489c961166144c93b937c5b1b554003f4c
-    new: d329af08a596406e176c303eead1faf7cb151192
-    log: revlist-39c38d489c96-d329af08a596.txt
+  - ref: refs/heads/master
+    old: 54dcbfc0e8d5ce47b97e2ceea21e9b435378d92a
+    new: 1bc473cdc8f62a7022460dc7e514134e33528dcf
+    log: |
+         0b9261778d327ad2a560f769e17ff04f35501994 ci: bump github/codeql-action in the all-actions group
+         3db1b647f059c9473269085739efa6716915151d Merge pull request #212 from gregkh/dependabot/github_actions/all-actions-e249650f58
+         2958b44bddb4f886fe8f3018a591e02ea06d26f8 ci: bump github/codeql-action in the all-actions group
+         e6a1818c675810ce8fd9e6b178277ddae36519a8 Merge pull request #213 from gregkh/dependabot/github_actions/all-actions-b3f99720ea
+         bb7ca3400573e3f4ab518e99521cedb3e4e72e59 ci: bump the all-actions group with 2 updates
+         b9e6eaf5bdb84b3805fa1289ba730a552d3b3270 Merge pull request #215 from gregkh/dependabot/github_actions/all-actions-c3dacd5e97
+         6e6905bf7314ac6978da9b1efe23a789713fc740 usbreset: apply clang-format
+         a573189319445df98674bcd17ec53d587f3b41cc usbreset: support resetting device by serial number
+         9b7519911767f2a3f0b2d243c95cb0112713fe57 Merge pull request #216 from joergho/usbreset-serial
+         1bc473cdc8f62a7022460dc7e514134e33528dcf usbreset: move the serial number forward in the output
+         
 
---===============1518087950542313276==
+--===============5550463748459500476==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-39c38d489c96-d329af08a596.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-bc8ec19a4ed741c9b457387dcba2b647e819b16d erofs-utils: mkfs: fragment: gracefully exit if temporary storage is low
-737fb978f8adc6ab2c3b67dbc83a7ce9ed167c85 erofs-utils: contrib: add stress test
-9177a724d604cd0bf41ece2b5f3cca9737292d32 erofs-utils: lib: fix btype for the data tails of directories
-787ef2a7a566ce03d99607c8099991a2c11da108 erofs-utils: lib: cache: get rid of required_ext
-0c84ef0aac31fc1cbaa411db49f6e2045fef50ec erofs-utils: lib: move block boundary check into __erofs_battach()
-39adaabc0e8f62da329349175d036c01fee4b54b erofs-utils: lib: support buffer block reservation
-302e7fe545906f3cef678b2af754810cbe964f28 erofs-utils: mkfs: support data alignment
-1020b1c7350061c0ccda7f497879759d01a3f28a erofs-utils: lib: use round_up() to avoid division
-6a106b6689e9d62250d3263d872e1ef2502f4873 erofs-utils: lib: rename `mapped_buckets` to `watermeter`
-f292eec346eb702a05befbe5587a1615900b4ca3 erofs-utils: lib: optimize space allocation
-38ea0a05bf0e748977bc23036abf45854746bc64 erofs-utils: lib: use bitmaps to accelerate bucket selection
-d329af08a596406e176c303eead1faf7cb151192 erofs-utils: lib: drop prefix_sha256 digests
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1739365170 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usbutils.git
+nonce 1739365202-719f62b7184907ae9a7ca8994ffef14ee90e31ba
 
---===============1518087950542313276==--
+54dcbfc0e8d5ce47b97e2ceea21e9b435378d92a 1bc473cdc8f62a7022460dc7e514134e33528dcf refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmesmzIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ArEQAM/ZxgDQZoufSrrX2kKu
++YqPTLILdcHNc4Fq/LmXXjkU7J2dDBV86LJBQNERfpY+d5ifgtZGe4Xt/xqgnxdx
+kkFlOb5cJhsrCt+9b0Er5l6YSbRaKayPgv+14hHbHbMgRX3GrXYulfv8MvL1pral
+ajimYnOtHSt53RbnBUFdrHU0o2NFKKNEeDYbsWJS/h3gUokk2YG3aj3bDzrucAEe
+YNvZWOwHXrCTFK45ds5Qfmvk8GGA2J4g9FxB5rbvn+sHY8inugCI+MtCkv3qQ1Yn
+zjr1JCSn2FQFeiCqAaH/w8UrObGttIq2+eG7j30UXGhifze2TLitM1YFTwdXGCHj
+oh+Eg6CjVsLN39Dvw9vdY34f9Dh8+C1BJ0Vmq/G3lriM9HrYq9/A2fTv5RgY4iRq
+VIcEhfTJn4CiEZRmQ8vMdyV/NtegJrBtcQnLIHsHgD+XBBFLHQp8clBxuucjOo7D
+kk6eGzZOJox0v9zevuNLjiDq98Fhon2MjTn0ol33VB5AFBJ4uC1atE0WKK2Bla0E
+865u77qqz7sgdamHnal8TSElArNRlgXfFe0ZfmE4a/XWvv+TOFLF/RsOQOTSZJ6e
+nuRgNGQWO7tB8wUVAVl+tzO4aOqvuZNCMaXw8Ak/oPpK9eh8JgI9niMPm3aC5C8g
+Sfo8xk6L47I2d4RK0z1pg1KR
+=N8kM
+-----END PGP SIGNATURE-----
+
+--===============5550463748459500476==--
