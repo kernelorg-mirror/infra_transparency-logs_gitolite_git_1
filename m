@@ -1,29 +1,31 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 12 Feb 2025 07:27:03 -0000
-Message-Id: <173934522319.2046851.8945279997162018761@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
+Date: Wed, 12 Feb 2025 08:07:34 -0000
+Message-Id: <173934765400.2077557.8164779343159527752@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/ukleinek/linux
+user: ukleinek
 changes:
-  - ref: refs/heads/for-linus
-    old: 2afd96a4a0b1d62c7a44227e535b073926d73368
-    new: 174448badb4409491bfba2e6b46f7aa078741c5e
-    log: |
-         174448badb4409491bfba2e6b46f7aa078741c5e ALSA: hda/realtek: Fixup ALC225 depop procedure
-         
   - ref: refs/heads/for-next
-    old: 2a91231a78a7a9dd42192c7678169161906d043a
-    new: becc794c5e46f4dfca59f2385f78d83fc9e84700
-  - ref: refs/heads/master
-    old: a1702a3503e019d16b33892eced38bfc7dbbe554
-    new: 87c1561ab0418080642cb1be6f6bd7d5faa7d981
+    old: 895fe4537cc8586f51abb5c66524efaa42c29883
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/for-nexxt
+    old: 895fe4537cc8586f51abb5c66524efaa42c29883
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/pwm/for-next
+    old: e320a24059f8fd06c60a5cc295bcc53eff759d30
+    new: 895fe4537cc8586f51abb5c66524efaa42c29883
     log: |
-         174448badb4409491bfba2e6b46f7aa078741c5e ALSA: hda/realtek: Fixup ALC225 depop procedure
-         87c1561ab0418080642cb1be6f6bd7d5faa7d981 Merge branch 'for-linus'
+         895fe4537cc8586f51abb5c66524efaa42c29883 pwm: Add upgrade path to #pwm-cells = <3> for users of of_pwm_single_xlate()
+         
+  - ref: refs/heads/pwm/for-nexxt
+    old: e320a24059f8fd06c60a5cc295bcc53eff759d30
+    new: 895fe4537cc8586f51abb5c66524efaa42c29883
+    log: |
+         895fe4537cc8586f51abb5c66524efaa42c29883 pwm: Add upgrade path to #pwm-cells = <3> for users of of_pwm_single_xlate()
          
