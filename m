@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 12 Feb 2025 13:01:23 -0000
-Message-Id: <173936528338.2321321.13717757139560746367@gitolite.kernel.org>
+Date: Wed, 12 Feb 2025 13:03:58 -0000
+Message-Id: <173936543814.2322527.15842243371663277473@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/kvm-arm64-sme-assert
-    old: 61160cef2eb3166d97062ebfb0dcfa40e73f7e74
-    new: 6f458277127f148dc865472db4515aa9a18d5743
+  - ref: refs/heads/kselftest-mm-no-hugepages
+    old: 515bafb371f337e120ff5500045f5ee08cb423f1
+    new: 8bdd429fe80a2c60af0294b2735215e97f002598
     log: |
-         431942fd0adeae416bd141b3e7b46ec92277db54 This has been sent with v6.10 with only positive review comments after the first revision, if there is some issue with the change please share it.
-         6f458277127f148dc865472db4515aa9a18d5743 KVM: arm64: Fix confusion in documentation for pKVM SME assert
+         8bdd429fe80a2c60af0294b2735215e97f002598 selftests/mm: Allow tests to run with no huge pages support
          
