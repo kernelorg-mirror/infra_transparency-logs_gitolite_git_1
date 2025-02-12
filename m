@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
-Date: Wed, 12 Feb 2025 11:31:33 -0000
-Message-Id: <173935989315.2248397.90131011993807525@gitolite.kernel.org>
+Date: Wed, 12 Feb 2025 11:31:45 -0000
+Message-Id: <173935990594.2248600.5418331376103216254@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mediatek/linux
 user: angelogioacchino.delregno
 changes:
-  - ref: refs/heads/v6.14-next/dts64
+  - ref: refs/heads/for-next
     old: 5de2b8ed833a1cc3c9629beb34ea6040d9f18cf5
     new: fe11de3cc941e29b4437bd3d8885e0ff2b9f06b5
     log: |
