@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wens/wireless-regdb
-Date: Wed, 12 Feb 2025 08:57:09 -0000
-Message-Id: <173935062916.2117405.13585212681182799977@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Wed, 12 Feb 2025 09:08:38 -0000
+Message-Id: <173935131857.2126117.1926716702981007168@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wens/wireless-regdb
-user: wens
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/master
-    old: f67f40d009199ee75c906f1ac898b38be981a7f7
-    new: f9f6b306a830505218753c86bbf21083c9b4b8ad
+  - ref: refs/heads/gpio/for-current
+    old: 615279db222c3ac56d5c93716efd72b843295c1f
+    new: 8743d66979e494c5378563e6b5a32e913380abd8
     log: |
-         bd70876463fe096ab50d839dcfa0dd2df91fddf6 wireless-regdb: Update regulatory rules for Armenia (AM) on 2.4 and 5 GHz
-         6c7cbccaee121772a23fa0efdfefcdd8a2369985 wireless-regdb: Permit 320 MHz bandwidth in 6 GHz band in ETSI/CEPT
-         f9f6b306a830505218753c86bbf21083c9b4b8ad wireless-regdb: Update regulatory rules for Austria (AT)
+         8743d66979e494c5378563e6b5a32e913380abd8 gpiolib: acpi: Add a quirk for Acer Nitro ANV14
          
