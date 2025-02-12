@@ -1,25 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Wed, 12 Feb 2025 16:23:28 -0000
-Message-Id: <173937740868.2492761.9090296181846623938@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+Date: Wed, 12 Feb 2025 16:32:20 -0000
+Message-Id: <173937794096.2500343.1117698490793022635@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+user: agruen
 changes:
   - ref: refs/heads/for-next
-    old: 2014c95afecee3e76ca4a56956a936e23283f05b
-    new: 862aa3bdc23f56a8ee722d51bca2c3dd706b0d4e
+    old: e2fcacf5998ddb08a212a1b80185ee561a2a5f70
+    new: 1259f36ab395a6ecbd834419066505ba156d49e3
     log: |
-         526e7828d706bfa3d68c9a3ed38700a171f47748 riscv: Remove duplicate CONFIG_PAGE_OFFSET definition
-         2ff0f74f95dd4011e7021c80878a8cf5a58b6381 riscv: Allow NOMMU kernels to access all of RAM
-         f48f4300ce7b7dab2361ec936b1cfe972527df8a riscv: Support CONFIG_RELOCATABLE on NOMMU
-         837818b941d8f4d9faf2e823b3289d75dc415e39 asm-generic: Always define Elf_Rel and Elf_Rela
-         f9726e85b1478d76208b34104bddffe68b79c344 riscv: Support CONFIG_RELOCATABLE on riscv32
-         a497986986848e0af014bf45fa7f62b0e742c17f riscv: Remove CONFIG_PAGE_OFFSET
-         862aa3bdc23f56a8ee722d51bca2c3dd706b0d4e Merge patch series "riscv: Relocatable NOMMU kernels"
+         baa6b50cb2041c9602715c0e9ca3a1635d1b8b78 gfs2: glock holder GL_NOPID fix
+         ae133ccf94ba9ad1a1e3edc1ef26b07ae150b23b gfs2: Replace GIF_DEFER_DELETE with GLF_DEFER_DELETE
+         7750afdf423774906c400ba93cad7c57ee07c234 gfs2: Remove more dead code in add_to_queue
+         3c0cba966fbf6cd4326e8fc889432751df259311 gfs2: Check for empty queue in run_queue
+         d360f2878e2907a51677fbafb04d326126ff2183 gfs2: Fix request cancelation bug
+         1259f36ab395a6ecbd834419066505ba156d49e3 gfs2: Fix additional unlikely request cancelation race
          
