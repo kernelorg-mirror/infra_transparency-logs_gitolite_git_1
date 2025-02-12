@@ -1,61 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============8545036568319762374=="
+Content-Type: multipart/mixed; boundary="===============7115998267287302868=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 12 Feb 2025 17:23:23 -0000
-Message-Id: <173938100391.2542652.13588964342779288525@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
+Date: Wed, 12 Feb 2025 17:26:19 -0000
+Message-Id: <173938117923.2546031.5204832725915468267@gitolite.kernel.org>
 
---===============8545036568319762374==
+--===============7115998267287302868==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/daveh/devel
+user: daveh
 changes:
-  - ref: refs/heads/200GbE
-    old: ae9b3c0e79bcc154f80f6e862d3085de31bcb3ce
-    new: 4e41231249f4083a095085ff86e317e29313c2c3
-    log: revlist-ae9b3c0e79bc-4e41231249f4.txt
+  - ref: refs/heads/testme
+    old: ccb7735a1ea22621f21c3133e4f5f3da5fe5f5b7
+    new: 502acfed7647f5a29890ca92fd2e08fe895bea25
+    log: revlist-ccb7735a1ea2-502acfed7647.txt
 
---===============8545036568319762374==
+--===============7115998267287302868==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ae9b3c0e79bc-4e41231249f4.txt
+Content-Disposition: attachment; filename=revlist-ccb7735a1ea2-502acfed7647.txt
 
-e2c6737e6e82e9991646cd5389391bb6d3572a68 ice: Don't check device type when checking GNSS presence
-9973ac9f23a79285d70365c72e98bffdb94a429d ice: Remove unnecessary ice_is_e8xx() functions
-ea7029fe10f46fd1ec0367b1b86bc744f9d9b34f ice: Use FIELD_PREP for timestamp values
-f9472aaabd1f38954938838a1146db4855ad88e8 ice: Process TSYN IRQ in a separate function
-92456e795ac6c3371750edce8d6a1979cece5c99 ice: Add unified ice_capture_crosststamp
-381d5779623aaa1266a3c33d2aec99f34312f0cb ice: Refactor ice_ptp_init_tx_*
-f003075227864344c14f53302c28acd0174d9225 ice: Implement PTP support for E830 devices
-5a7b0b6ff49ba5148cfa87c2fbe39a2b22266b1f ice: refactor ice_fdir_create_dflt_rules() function
-be324b790368c1522f07c6bb5654122e07b5e588 igc: Avoid unnecessary link down event in XDP_SETUP_PROG process
-13e22972471d1639c16081e95b1caed9351ed3be e1000e: Fix real-time violations on link up
-8eb0d381be31bfa01f768ad38a15af7ade805e69 net: phy: rename eee_broken_modes to eee_disabled_modes
-5e7a74b6a35782be83b433979e71df2636ab05f0 net: phy: rename phy_set_eee_broken to phy_disable_eee_mode
-b6df0523ecee0a71ccec3e80f21be691c2415b79 Merge branch 'net-phy-rename-eee_broken_mode'
-b341f6fd45abb188653d9e0a2816bc53d64278b1 blackhole_dev: convert self-test to KUnit
-3b147be9ef08247bb74a801b4e95f9a626a27322 hamradio: baycom: replace strcpy() with strscpy()
-16d11fdaeb22715d8b55b08890173ffa2326baee net: phy: remove unused PHY_INIT_TIMEOUT and PHY_FORCE_TIMEOUT
-8729a9bd6efcf96d3bb0468dfa2168a78fa89cc5 net: freescale: ucc_geth: remove unused PHY_INIT_TIMEOUT and PHY_CHANGE_TIME
-ad30ee8013881907082e127e88504686ea15cac4 net: phy: broadcom: don't include '<linux/pm_wakeup.h>' directly
-4d3f687e2432e4f40e0e21b65c965bcbb98d3951 net: wwan: t7xx: don't include '<linux/pm_wakeup.h>' directly
-43a0d7f26ad795d43bb1fffcf993170d0a69a045 net: aquantia: Use HWMON_CHANNEL_INFO macro to simplify code
-e05427c4d1380c326ee022d506679ab38a24213c net: nfp: Use HWMON_CHANNEL_INFO macro to simplify code
-0cb595e80edca7cc4cb149f6d2a9de78eb8600ba net: phy: marvell: Use HWMON_CHANNEL_INFO macro to simplify code
-4798f4834b2e6a32c75908831ee0262941b70de1 net: phy: marvell10g: Use HWMON_CHANNEL_INFO macro to simplify code
-d6085a23b3b41d379b84a5beb208c7f404c02fdd net: phy: aquantia: Use HWMON_CHANNEL_INFO macro to simplify code
-f4b87edbe0ed77b18235672cf77a64a902ea8469 Merge branch 'use-hwmon_channel_info-macro-to-simplify-code'
-fd118a77ede759baf1c815a0a6e288315425e92b sfc: parse headers of devlink flash images
-d41987e906e75d4c97b3db23ce3caf7252a38eef sfc: extend NVRAM MCDI handlers
-3ed63980ae7998b0a75d9f4e12918047d7493465 sfc: deploy devlink flash images to NIC over MCDI
-5ea73bf3c40d03f09d4cd19b8222ad6b585afbbb sfc: document devlink flash support
-be1d2a1b151deb195cd9749988163aa26ad6f616 Merge branch 'sfc-support-devlink-flash'
-4e41231249f4083a095085ff86e317e29313c2c3 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
+1e66d6cf888fd206a89b8c476b1b28b63faf7fd6 x86/cpu: Fix #define name for Intel CPU model 0x5A
+a7dd183f0b3848c056bbeed78ef5d5c52fe94d83 x86/smp: Allow calling mwait_play_dead with an arbitrary hint
+541ddf31e30022b8e6f44b3a943964e8f0989d15 ACPI/processor_idle: Add FFH state handling
+fc4ca9537bc4e3141ba7e058700369ea242703df intel_idle: Provide the default enter_dead() handler
+96040f7273e2bc0be1871ad9ed4da7b504da9410 x86/smp: Eliminate mwait_play_dead_cpuid_hint()
+381d69240be9584af68800bea6225833e5da2e3a x86/apic: Fix 32-bit APIC initialization for extended Intel Families
+9d18286c2daabbce68b5b18b85fc9cdfb7c94365 x86/cpu/intel: Fix the movsl alignment preference for extended Families
+e08d189be1b79ac40b6e30a1a9cce0879e1bc028 x86/microcode: Update the Intel processor flag scan check
+cbfad089a5da8efcae02033321079bdee665da83 x86/mtrr: Modify a x86_model check to an Intel VFM check
+f6bde138280d9258fdd70f73364b6a15cd1a38fd x86/cpu/intel: Replace early Family 6 checks with VFM ones
+f9b99b477aa7697cc3e115debfc78812aee90eb5 x86/cpu/intel: Replace Family 15 checks with VFM ones
+633bf6546b154cd638150a293a04e50f50381323 x86/cpu/intel: Replace Family 5 model checks with VFM ones
+502acfed7647f5a29890ca92fd2e08fe895bea25 x86/acpi/cstate: Improve Intel Family model checks
 
---===============8545036568319762374==--
+--===============7115998267287302868==--
