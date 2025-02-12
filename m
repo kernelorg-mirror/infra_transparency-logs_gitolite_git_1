@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2800089353782063394=="
+Content-Type: multipart/mixed; boundary="===============8763388460404851431=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Wed, 12 Feb 2025 11:58:43 -0000
-Message-Id: <173936152315.2270530.12333761445471743517@gitolite.kernel.org>
+Date: Wed, 12 Feb 2025 11:59:17 -0000
+Message-Id: <173936155754.2270873.2650457013994990981@gitolite.kernel.org>
 
---===============2800089353782063394==
+--===============8763388460404851431==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 135c3c86a7cef4ba3d368da15b16c275b74582d3
     new: 4e41231249f4083a095085ff86e317e29313c2c3
     log: revlist-135c3c86a7ce-4e41231249f4.txt
 
---===============2800089353782063394==
+--===============8763388460404851431==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -666,4 +666,4 @@ d41987e906e75d4c97b3db23ce3caf7252a38eef sfc: extend NVRAM MCDI handlers
 be1d2a1b151deb195cd9749988163aa26ad6f616 Merge branch 'sfc-support-devlink-flash'
 4e41231249f4083a095085ff86e317e29313c2c3 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
 
---===============2800089353782063394==--
+--===============8763388460404851431==--
