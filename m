@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Wed, 12 Feb 2025 01:37:35 -0000
-Message-Id: <173932425539.1769727.10715638297645720048@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 12 Feb 2025 01:45:32 -0000
+Message-Id: <173932473258.1776843.12663976688570330230@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: 9e676a024fa1fa2bd8150c2d2ba85478280353bc
-    new: ee8aef2d232142e5fdfed9c16132815969a0bf81
+  - ref: refs/heads/main
+    old: 1942b1c6f687b9d1efc93f35239f185a84900e93
+    new: 06ea2c9c4163b8a8fde890a9e21d1059f22bb76d
     log: |
-         1df4b33f62fa4c5e6c50b9e0473ef2956891f69d perf tools: Deadcode removal
-         ee8aef2d232142e5fdfed9c16132815969a0bf81 perf tools: Add skip check in tool_pmu__event_to_str()
+         06ea2c9c4163b8a8fde890a9e21d1059f22bb76d rxrpc: Fix alteration of headers whilst zerocopy pending
          
