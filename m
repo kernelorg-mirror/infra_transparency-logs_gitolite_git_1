@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
-Date: Wed, 12 Feb 2025 11:15:02 -0000
-Message-Id: <173935890268.2234361.1527408611795588864@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
+Date: Wed, 12 Feb 2025 11:17:41 -0000
+Message-Id: <173935906142.2236179.6661239463878294716@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mediatek/linux
-user: angelogioacchino.delregno
+repo: pub/scm/linux/kernel/git/linusw/linux-integrator
+user: linusw
 changes:
-  - ref: refs/heads/v6.14-next/dts64
-    old: 301d44afbdcfd523a8c126c52b9d597ec27c473a
-    new: 5de2b8ed833a1cc3c9629beb34ea6040d9f18cf5
-    log: |
-         449d7d1dcea3ff5bc454c586bbdf9eb4c8ecb0b9 arm64: dts: mediatek: mt8188: Add VDO0's DSC and MERGE block nodes
-         5de2b8ed833a1cc3c9629beb34ea6040d9f18cf5 arm64: dts: mediatek: mt8188: Add tertiary eMMC/SD/SDIO controller
-         
+  - ref: refs/heads/b4/arm-generic-entry-v6.14-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 8374a31f1d649765c3c5241d0c29dbfaa7a32ae3
