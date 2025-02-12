@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 12 Feb 2025 06:58:20 -0000
-Message-Id: <173934350091.2022930.11572375068363419471@gitolite.kernel.org>
+Date: Wed, 12 Feb 2025 06:58:31 -0000
+Message-Id: <173934351154.2023094.18189026558074386762@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,12 +12,13 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 6bd46c92bdeaa4701e6012cc422481aaace47414
-    new: e8f250686b8148527a1d81f4c8bcdef7bb4a7a94
+    old: e8f250686b8148527a1d81f4c8bcdef7bb4a7a94
+    new: ddd85c4ebd71d74a88b7ec8ac3ef6741962ba2d7
     log: |
-         469c76a83bb9f6b2c7b2989c46617c4fe01fee79 perf/x86/rapl: Fix the error checking order
-         0a5561501397e2bbd0fb0e300eb489f72a90597a perf/x86/intel: Clean up PEBS-via-PT on hybrid
-         47a973fd75639fe80d59f9e1860113bb2a0b112b perf/x86/intel: Fix ARCH_PERFMON_NUM_COUNTER_LEAF
-         c631a2de7ae48d50434bdc205d901423f8577c65 perf/x86/intel: Ensure LBRs are disabled when a CPU is starting
-         e8f250686b8148527a1d81f4c8bcdef7bb4a7a94 Merge branch into tip/master: 'perf/urgent'
+         41f198d58b6f2b36f9f8a4481d517369b324e773 tomoyo: fix spelling error
+         691a1f3f180133965d01e0ab0f332248d0345554 tomoyo: fix spelling errors
+         bdc35f164b0f60480b2f5e098bb8f3c0cea05cd2 tomoyo: use better patterns for procfs in learning mode
+         318e8c339c9a0891c389298bb328ed0762a9935e x86/cpu/kvm: SRSO: Fix possible missing IBPB on VM-Exit
+         09fbf3d502050282bf47ab3babe1d4ed54dd1fd8 Merge tag 'tomoyo-pr-20250211' of git://git.code.sf.net/p/tomoyo/tomoyo
+         ddd85c4ebd71d74a88b7ec8ac3ef6741962ba2d7 Merge branch 'linus'
          
