@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 12 Feb 2025 16:50:35 -0000
-Message-Id: <173937903579.2515879.8375719494596225733@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Wed, 12 Feb 2025 16:59:22 -0000
+Message-Id: <173937956257.2521260.18006881355694206574@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/pending
-    old: 469c2f71a8a7a141d4f31a0ac8947751603e997f
-    new: c2f7ae223cd3d781c69337dc804f1fae95789cdd
+  - ref: refs/heads/kdevops
+    old: ec68d6709074a7f5254192395f96b863bb4ef01f
+    new: 8fce8432111a20ea595cabf9ee72734302f52e36
     log: |
-         c2f7ae223cd3d781c69337dc804f1fae95789cdd wifi: ath12k: cleanup ath12k_mac_mlo_ready()
+         3e58b5db0494915e99bdca64c1b05301a8a88fe0 nfsd: allow SC_STATUS_FREEABLE when searching via nfs4_lookup_stateid()
+         8fce8432111a20ea595cabf9ee72734302f52e36 DEBUG: track down DELEG8 failure
          
