@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 12 Feb 2025 22:34:41 -0000
-Message-Id: <173939968145.2794366.13858205641446262758@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Wed, 12 Feb 2025 22:40:42 -0000
+Message-Id: <173940004240.2800556.11442565884901888421@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/libs/ell/ell
+user: holtmann
 changes:
-  - ref: refs/heads/enumeration
-    old: 0000000000000000000000000000000000000000
-    new: 2ff0f334df8dda3788dd3fefb730cdcb4659f1c8
+  - ref: refs/heads/master
+    old: 3197e3ddec78a78dc1ec85f140c3926826ed414a
+    new: 60cf20b6c80c4dcf6004af7b3ea8610c5d8fb543
+    log: |
+         60cf20b6c80c4dcf6004af7b3ea8610c5d8fb543 Release 0.73
+         
