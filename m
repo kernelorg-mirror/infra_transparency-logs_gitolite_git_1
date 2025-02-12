@@ -1,56 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============3781199304392170977=="
+Content-Type: multipart/mixed; boundary="===============7200630823555268312=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Wed, 12 Feb 2025 09:09:55 -0000
-Message-Id: <173935139589.2127495.3932073288955828866@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
+Date: Wed, 12 Feb 2025 09:11:22 -0000
+Message-Id: <173935148214.2129593.18228181253734496299@gitolite.kernel.org>
 
---===============3781199304392170977==
+--===============7200630823555268312==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/powerpc/linux
+user: maddy
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: ef8f5987a8fb5786facd13fe037d6014d7370d12
-    new: a19f77de846a9991145fafe57d8e472f1e818aa5
+  - ref: refs/heads/fixes-test
+    old: 61bcc752d1b81fde3cae454ff20c1d3c359df500
+    new: d262a192d38e527faa5984629aabda2e0d1c4f54
     log: |
-         a19f77de846a9991145fafe57d8e472f1e818aa5 update cvelistV5
+         d262a192d38e527faa5984629aabda2e0d1c4f54 powerpc/code-patching: Fix KASAN hit by not flagging text patching area as VM_ALLOC
          
 
---===============3781199304392170977==
+--===============7200630823555268312==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1739351364 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1739351395-199caaedf22029bc29d57c79b459bf25de39e7c0
+pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1739351503 +0530
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
+nonce 1739351473-f26189deaa023e165ddabf2787804b1b0e9e9ab5
 
-ef8f5987a8fb5786facd13fe037d6014d7370d12 a19f77de846a9991145fafe57d8e472f1e818aa5 refs/heads/master
+61bcc752d1b81fde3cae454ff20c1d3c359df500 d262a192d38e527faa5984629aabda2e0d1c4f54 refs/heads/fixes-test
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmesZUQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iiIP/1Rq3j9zSuc93R1Do01/
-f3OnUkCJioikowGO7r7l7jNRcmLgIHrbx7BKxBYn5RhPjhkHk7I05aKc57AJRcOM
-nNttolLbIaSdMEwuyEEmUpftm1lewWZJjON9cPut1Ba+z2Bk0nhXTh/YQNPx/3Mx
-JIjwakKpIqXusABOZan0/9RYxBE0/VyJoFW3TYkq8euKvY+l2kAAY2LKiYYzMuNk
-Ka5T0HcONku5RQ7TNeBrTmeT2FkmK4CKMLACms77vgW2e7JPXYvfWTK6RQFTj8nG
-NrVCnDtbP44TsMS9CuzZ68/in2t+nc6TsKak2FfMAjhf18um93fHE5qKiDMmd5Tz
-l5PgW6hMJ/AEMPcJqLplacUdhjx4mfxjiMF9jWb+YW+ZRRKXiU5MrVzPrBF+/zyD
-p5ayJgbeBcbcqZuTVv6HBhoFAvvWbhdzU9KHqV+ERtph2YXzOeYqSexUdIP73tuQ
-XRkUkiof9mncRVn+LFb92PruiiqC1M76gaAWmpHQfbmOF1z+UXdwgzHl7cYmVFoi
-fpH2Jzj0paQ+Y3sylwj3YEfvrTaz+G7e5fE6Nwi0EH+YyJGENS7Hb51eCfc6v9L9
-McCUpCpLi3fse+4qUdX8H8zLBKJXSym1O6MaCd2dPiES/feLMFmN3ZDVSz18MovL
-2EMa3oO0SCUERjNU/d7zRGoa
-=GUfg
+iQIzBAABCAAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmesZc8ACgkQpnEsdPSH
+ZJQCYRAAyeePElvKOuhP4miutbogjTOACU2ij90Crlr3YKLrzuhyozIqkeuEre3B
+Xmmsexj8dOIS5ZXaB1qGXaXMhFVgh11m2MWe+/H7UGZK1qAo3TjptkWUBV93olQO
+J1x1ZbzcKIwFBChbsMlC7UNXMoeMY/ViUP7hbxk62k4rNNdVX9TgtssguvNPY5q2
+JGwlcigr3OCmWp+fz6V8Xu8fcOnAMgNZ1/GJfC0ZOEVAz/a4TCCZ17QK1MMCS2nj
+ZRfkyHTMN+jR0qA67T3s/iT1D1YDaL6JiXlreacbNF4MD6ctsff07ireM8kXw+4l
+0GpBmUHgtqSwGRhi1Ewo55JOZpVu0oD8/s02+u2XPpS9SvpWBKBLBKxl0ipx0M9p
+p5ooyZ2s6f1v7eIisY53AafJ92m1unZ/I6K6i/C/LB+RZ72tjUJ1w21I9ji3Q053
+ZIknZ7LdqIrcDOzkMO5l+bIylZBW2sLXS/fsUVmUMpAUtEQcVJM0VmBmapxyo6sB
+FRyIlEds90Z5V2/euwT3zz+a0vy54KPgVpuDeyWPBhLVJ6SCPpck75ptksE8fPYy
+WCytCUzWgH7iEBlv/kngzfMwMgsbSSJrWYth5Ss0i7p/D5vuhmeEHAu5zqBttM27
+Y7ybpyhZPxGh8ekoOCtVqg7C3zahsF3bXrxR769qjuq0j7UZEiA=
+=beJs
 -----END PGP SIGNATURE-----
 
---===============3781199304392170977==--
+--===============7200630823555268312==--
