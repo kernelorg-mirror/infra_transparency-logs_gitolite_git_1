@@ -1,72 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============3298177563546155398=="
+Content-Type: multipart/mixed; boundary="===============5410651442282366040=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 12 Feb 2025 09:27:45 -0000
-Message-Id: <173935246597.2146910.17721486442685452631@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Wed, 12 Feb 2025 09:29:58 -0000
+Message-Id: <173935259898.2148836.3080940474650025488@gitolite.kernel.org>
 
---===============3298177563546155398==
+--===============5410651442282366040==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: a64dcfb451e254085a7daee5fe51bf22959d52d3
-    new: e45e07c16743b9e1ee8b43e4ca59998ff7feacb1
-    log: revlist-a64dcfb451e2-e45e07c16743.txt
+  - ref: refs/heads/vfs-6.15.mount
+    old: 9ef65cf1474ad87abdf1c0a8893284772d34b2a8
+    new: b4d88040015dcc6cf19c9b7ad53cbb4e5017ec4b
+    log: revlist-9ef65cf1474a-b4d88040015d.txt
 
---===============3298177563546155398==
+--===============5410651442282366040==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-9ef65cf1474a-b4d88040015d.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1739352432 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1739352462-4a938f935ce45db6614918bc317bf1cb66a37b50
+0ff053b98a0f039e52c2bd8d0cb38f2831edfaf5 fs: support O_PATH fds with FSCONFIG_SET_FD
+85c8700cb6e67cac228bfb313fa8e33d1750410f selftests/overlayfs: test specifying layers as O_PATH file descriptors
+29349a3d6da3be3210a2d0be3a17433dd10f9a40 Merge patch series "ovl: allow O_PATH file descriptor when specifying layers"
+e9e9d3ded8a64c9a5505968ab2561b51085a98fb fs: allow detached mounts in clone_private_mount()
+45845260c0a7a087d85b1471109f85bc3c99c5cc selftests: add tests for using detached mount with overlayfs
+ce61d16ba1f6317d512d54e10b40f8f432fb546c uidgid: add map_id_range_up()
+65d68a9a50212c55b5887a39dfa92361ea414bae statmount: allow to retrieve idmappings
+5fe51bdfdbf9261564c19c2d8926087842fd88bd statmount: add a new supported_mask field
+985b57243efaf63c54c1a04e290b853e7a8f65ab samples/vfs: check whether flag was raised
+879eab8164fcf0ebfef963752667117c64cb8153 fs: add vfs_open_tree() helper
+e9fe5cdc033cb7b705648f5e83f107df39eb0e1a samples/vfs: add STATMOUNT_MNT_{G,U}IDMAP
+6e3c2479d82438c6883d585759591c8143c32218 Merge patch series "fs: allow detached mounts in clone_private_mount()"
+ec86fe0abad7cad5a04bb97231ca7c6c3694d943 fs: add copy_mount_setattr() helper
+487bbd40b4a146eac38a093d4fc93fe3e45d90d3 fs: add open_tree_attr()
+12aff4e9cfa19813d674f4f26ccf1b78bf503c8a fs: add kflags member to struct mount_kattr
+41a1096a40df63f2b0cd5af2003ef9cdb3697d2e fs: allow changing idmappings
+5e3e8fc96333dcda3a791d5be7b9ea139b4401f3 Merge patch series "statmount: allow to retrieve idmappings"
+b4d88040015dcc6cf19c9b7ad53cbb4e5017ec4b Merge patch series "fs: allow changing idmappings"
 
-a64dcfb451e254085a7daee5fe51bf22959d52d3 e45e07c16743b9e1ee8b43e4ca59998ff7feacb1 refs/heads/char-misc-linus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmesaXAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tusQANcCeHa0VH7MNxpWv+6n
-KBVIezyXk82ovDBZOm87Lki+QflmwWa1DvTsMBwSM0D8Sma/mKcsftKXRRp/kFJA
-Cdrbz6S9ZXRpwcIus4oaKlqvBFnitIcFGGH+jGzsZ/O0t65YYlolONSJsAHIaoBA
-aqyjMQKS5dtVaoWOuluNLN4cHB4yT9Pv77Bi2apxEa+x/v1MxUJc/RbPfFYFGqcQ
-/BPUZEnjMhVLqt0B6DPUHdk5Iijcyd+QgK6jfshcA94T/NVRk9pSv3EMuHw/l0UT
-LAZYOM+htMUQVCwA9YXKvWR+xgazSEcOWw/m57uLSL/Oz9yMrUmJ3tXZvrLlyaS0
-BcRg2JNDrzwm/xXby3yDa7Tdk5Q3ljPSBLGV1ljnppHNDg+cL0Tkek0aoqnqE6k3
-TrK9cGFX31oIz8PdXENcvT8BrXNaPAqBSxbuYan7uwb58art8rJwUO4eadG68aBr
-GWedibZuG4toz6EK/vyMGOVqTcVfe1zOaJqw8XyMTfJde7/FZWOIf+RwoE5f/CsJ
-g12kFfVXo+den8pbI0C73GCacfZ0bbGrkzHbJmewn41DCQv74vjDXLc3GKujCRxB
-XgOZ69Jn9L8rIH26LGaenlyrGkS8ncN0oS28Sj3p9/t5YcH9Y6jGfTSxyccYeFwM
-mjAQNwiVNH0fR3aw9BAXsF9p
-=qQdw
------END PGP SIGNATURE-----
-
---===============3298177563546155398==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a64dcfb451e2-e45e07c16743.txt
-
-a96d3e2beca0e51c8444d0a3b6b3ec484c4c5a8f iio: light: apds9306: fix max_scale_nano values
-34d93804199fea23da2645dde35d0feb38a5d445 iio: adc: pac1921: Move ACPI_FREE() to cover all branches
-aa5119c36d19639397d29ef305aa53a5ecd72b27 iio: adc: at91-sama5d2_adc: fix sama7g5 realbits value
-5d702aa2a47bbab6231382f9ead5be40a287a53b iio: proximity: Fix use-after-free in hx9023s_send_cfg()
-4eba4d92906c3814ca3ec65c16af27c46c12342e iio: hid-sensor-prox: Split difference from multiple channels
-21d7241faf406e8aee3ce348451cc362d5db6a02 iio: adc: ad7192: fix channel select
-e17b9f20da7d2bc1f48878ab2230523b2512d965 iio: dac: ad3552r: clear reset status flag
-02ccd7e5d81af4ae20852fc1ad67e7d943fa5778 dt-bindings: iio: dac: adi-axi-adc: fix ad7606 pwm-names
-bead181694df16de464ca2392d0cec2cf15fb978 iio: adc: ad7606: fix wrong scale available
-cc2c3540d9477a9931fb0fd851fcaeba524a5b35 iio: filter: admv8818: Force initialization of SDO
-e45e07c16743b9e1ee8b43e4ca59998ff7feacb1 Merge tag 'iio-fixes-for-6.14a' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-linus
-
---===============3298177563546155398==--
+--===============5410651442282366040==--
