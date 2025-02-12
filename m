@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/ell/ell
-Date: Wed, 12 Feb 2025 16:18:28 -0000
-Message-Id: <173937710808.2487531.5676976732585548931@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Wed, 12 Feb 2025 16:20:49 -0000
+Message-Id: <173937724914.2491400.7724317372268929294@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/ell/ell
-user: holtmann
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/master
-    old: a6e8c2e78769db110bd8bd90adacf181bd35e286
-    new: ede6f6bd782c31a4231bd3b8c3464b5e62f3ac61
+  - ref: refs/heads/fixes
+    old: 2014c95afecee3e76ca4a56956a936e23283f05b
+    new: b9524a73725d337ef08da3f24c3216708dfd9c0e
     log: |
-         ede6f6bd782c31a4231bd3b8c3464b5e62f3ac61 test: Add inidication for little endian only results
+         b9524a73725d337ef08da3f24c3216708dfd9c0e riscv: cacheinfo: Use of_property_present() for non-boolean properties
          
