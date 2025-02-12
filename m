@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 12 Feb 2025 17:39:48 -0000
-Message-Id: <173938198846.2556012.10757287857769869449@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Wed, 12 Feb 2025 17:40:09 -0000
+Message-Id: <173938200981.2557928.8735695103840220164@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/20250212_dlechner_spi_offload_fixes
-    old: 0000000000000000000000000000000000000000
-    new: e957c96455e8f4c630d5e374312cad0633ca7e17
+  - ref: refs/heads/kdevops
+    old: 8cca1c0b89e2965571ee361a5a2eaea6309fac24
+    new: 0e12b5d1e7cf75c34a54f0b48931c20e7f07e269
+    log: |
+         0e12b5d1e7cf75c34a54f0b48931c20e7f07e269 DEBUG: track down DELEG8 failure
+         
