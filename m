@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 13 Feb 2025 04:05:50 -0000
-Message-Id: <173941955099.3063532.15584053030841032797@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 13 Feb 2025 04:05:52 -0000
+Message-Id: <173941955288.3063606.11443481131871519669@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: ea80f2d9218c788104a509e900e1f3216be11211
-    new: 8dbf0c7556454b52af91bae305ca71500c31495c
+    old: 15d6f74f03f84c5b8d032bb1be6b90af82e5b679
+    new: b698b9a8acc804e1b777aece0b3699850d736087
     log: |
-         f0e70409b7eb0584d451f74db0c72af67b6170b3 net: avoid unconditionally touching sk_tsflags on RX
-         23fc9311a526aa3874ebf1fed4d8b8757d2a6bdb netlink: specs: add conntrack dump and stats dump support
-         8dbf0c7556454b52af91bae305ca71500c31495c net: stmmac: dwmac-loongson: Set correct {tx,rx}_fifo_size
+         78dafe1cf3afa02ed71084b350713b07e72a18fb vsock: Orphan socket after transport release
+         440c9d488705366b00372ea7213af69827a6c7af vsock/test: Add test for SO_LINGER null ptr deref
+         b698b9a8acc804e1b777aece0b3699850d736087 Merge branch 'vsock-null-ptr-deref-when-so_linger-enabled'
          
