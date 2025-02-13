@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8092270071597862393=="
+Content-Type: multipart/mixed; boundary="===============5130552630450583295=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Thu, 13 Feb 2025 13:53:35 -0000
-Message-Id: <173945481500.3570413.11668745877567569054@gitolite.kernel.org>
+Date: Thu, 13 Feb 2025 13:53:54 -0000
+Message-Id: <173945483421.3570740.975900852736099537@gitolite.kernel.org>
 
---===============8092270071597862393==
+--===============5130552630450583295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/linux-pm
 user: ulfh
 changes:
-  - ref: refs/heads/next
-    old: 432a6d050b0e3a246f5fd14906315746f08df94e
-    new: 7ad91e9c4aff40b5d8ab5bab67b9de9e9f8e6c4f
-    log: revlist-432a6d050b0e-7ad91e9c4aff.txt
+  - ref: refs/heads/fixes
+    old: 2014c95afecee3e76ca4a56956a936e23283f05b
+    new: a64dcfb451e254085a7daee5fe51bf22959d52d3
+    log: revlist-2014c95afece-a64dcfb451e2.txt
 
---===============8092270071597862393==
+--===============5130552630450583295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-432a6d050b0e-7ad91e9c4aff.txt
+Content-Disposition: attachment; filename=revlist-2014c95afece-a64dcfb451e2.txt
 
 3c47c2ccd5a29c78780ccfd0227a805f3873ab1c nvmet: fix rw control endian access
 d68fc95a771e0a7edd876ede7913d61276be77fd nvme-pci: remove redundant dma frees in hmb
@@ -303,12 +303,5 @@ f4a45f14cf6902a96d9805ba51829054940ef3e7 Merge tag 'seccomp-v6.14-rc2' of git://
 146339ddb8b7520ee486389c7b0a7b24d68e5f60 Merge tag 'pm-6.14-rc2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 69b54314c975f4dfd3a29d6b9211ab68fff46682 Merge tag 'kbuild-fixes-v6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 a64dcfb451e254085a7daee5fe51bf22959d52d3 Linux 6.14-rc2
-c4f5ac99f896bb72dced15b9cd327ce5510beedd pmdomain: ti: Use of_property_present() for non-boolean properties
-503d12a535c17cf3774cb467688e0c77f1f7fe5a dt-bindings: power: rpmpd: Fix comment for SM6375
-43b73a5a036773aefd737a4dcadbc4c94dfd029f pmdomain: bcm2835-power: set flag GENPD_FLAG_ACTIVE_WAKEUP
-184055a9ae2b7b19f6fd6e9c0b7e1edce6930b2f soc: rockchip: add header for suspend mode SIP interface
-cd3fa304ba5c93ce57b9b55b3cd893af2be96527 pmdomain: core: Introduce dev_pm_genpd_rpm_always_on()
-58ebba35ddab4868c921f970b60a77032362ef4c pmdomain: rockchip: Add smc call to inform firmware
-7ad91e9c4aff40b5d8ab5bab67b9de9e9f8e6c4f mdomain: Merge branch rockchip into next
 
---===============8092270071597862393==--
+--===============5130552630450583295==--
