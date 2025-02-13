@@ -1,56 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============0662579013340054045=="
+Content-Type: multipart/mixed; boundary="===============6484380770466332651=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 13 Feb 2025 11:53:50 -0000
-Message-Id: <173944763005.3469166.7279188850106150456@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Thu, 13 Feb 2025 12:01:06 -0000
+Message-Id: <173944806672.3476167.13175104573075422270@gitolite.kernel.org>
 
---===============0662579013340054045==
+--===============6484380770466332651==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 17964104b5ca1c16341b29cd062e0e234bf45905
-    new: 636797ad6e354a76b0289b720c27cda5a5e8c6c6
+  - ref: refs/heads/fixes
+    old: 9cff907cbf8c7fb5345918dbcc7b74a01656f34f
+    new: b3e127dacad60a384c92baafdc74f1508bf7dd47
     log: |
-         636797ad6e354a76b0289b720c27cda5a5e8c6c6 6.1-stable patches
+         fc22b06fbd2afefa1eddff69a6fd30c539cef577 platform/x86: int3472: Use correct type for "polarity", call it gpio_flags
+         569617dbbd06286fb73f3f1c2ac91e51d863c7de platform/x86: int3472: Call "reset" GPIO "enable" for INT347E
+         b3e127dacad60a384c92baafdc74f1508bf7dd47 platform/x86: thinkpad_acpi: Fix registration of tpacpi platform driver
          
 
---===============0662579013340054045==
+--===============6484380770466332651==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1739447658 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1739447627-f1334fc2f4c415b9b1d7c02f46bfedab27d97013
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1739448092 +0200
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1739448062-66aa8cd432d31b16cfeddfeececbfa20dfac0113
 
-17964104b5ca1c16341b29cd062e0e234bf45905 636797ad6e354a76b0289b720c27cda5a5e8c6c6 refs/heads/master
+9cff907cbf8c7fb5345918dbcc7b74a01656f34f b3e127dacad60a384c92baafdc74f1508bf7dd47 refs/heads/fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmet3WobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+oSYQAJBU6VdmyekvC4JWwSfI
-WxMJaf2AQ6ov5wm2seOQnN/eZ5N0pj1rs//AbPfeR38zWE41KYwvRYeFwbN1NGd3
-6B0Nq26C2YhJ6JnZ0cRfAYXyNJHcwMMGZFwuTABDq9M3bOQlanREmvX9OR9QtFGf
-e1K/VqQgYQzap8bxVKAWnwOoIyvE7wzSUGzbvUyOYa1x4vO4aQklZGJAmvh/fR5C
-o8ip30sYxGVuItRVEIpNtYhcXybZ0tsq4dE1NdHa+yduyVaNoz7rHpyxk5XVB4de
-jAxeB2DO+nRV42JMO+57dgPZHqdhjsyKqDwbAmlzSLMZY1IzidcDbqWVf05JrbvN
-za7VKHwgw0WPVGxp1JWtiCCqUkSdmrFPrtin2zc3Qitxs4JjWGdoh7NKDSD3aLx9
-wRtt21qpkX/bIsU7gVuWMp2m9gTmFhGoGk5W2DFkzU4Io7Wp0ywk+8KDhVk9mfRm
-9EX+/EykTc79WuavI2XMruQ0smp+Wt2TlKojxVqVT1TiZHx96Z6xz3dvFyAxaWEi
-lZ/OhUol3+UtgSV6nSROw+8uqAT49fgCR1sgEKT8nx1xBIo4MxRa+b6T3jzwUV7M
-uZBqpVV/6CgXbsky7d/4/pY+7X7LQEPcBK3mGC8ih+8eeBlbfYVQYmfvCfBFsOLi
-io0GY/EDamm/cbC8ge8fmh3c
-=gEcA
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZ63fIAAKCRBZrE9hU+XO
+MfjDAPwM4TS/XbssgFKvD1fc/rYGi8PDzT0FI5gFMElGahBuJgEA6Z2CUp/rgK3K
+AZv7HyPS6fTP38NCfFV2EkNHLUuoZgo=
+=bJgY
 -----END PGP SIGNATURE-----
 
---===============0662579013340054045==--
+--===============6484380770466332651==--
