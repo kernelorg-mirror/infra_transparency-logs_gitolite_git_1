@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1972965121097797359=="
+Content-Type: multipart/mixed; boundary="===============7145405934410634935=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Thu, 13 Feb 2025 09:58:34 -0000
-Message-Id: <173944071481.3340547.17674140430519037077@gitolite.kernel.org>
+Date: Thu, 13 Feb 2025 09:59:09 -0000
+Message-Id: <173944074919.3340988.7350701129797117919@gitolite.kernel.org>
 
---===============1972965121097797359==
+--===============7145405934410634935==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cip/linux-cip
 user: uli
 changes:
-  - ref: refs/heads/linux-4.4.y-st
-    old: 7a8757a59a6ab79ea3b56fc0292e39b46a959e84
-    new: af58e708b2d59529ddcbccf5cda2f693231eaf7e
-    log: revlist-7a8757a59a6a-af58e708b2d5.txt
+  - ref: refs/heads/linux-4.4.y-cip
+    old: e5854dd66f4cefaef834acb89a4c3eec0eb8f1f7
+    new: 8ad5b181aef5c015360b738860b42f15d23ea8fe
+    log: revlist-e5854dd66f4c-8ad5b181aef5.txt
 
---===============1972965121097797359==
+--===============7145405934410634935==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7a8757a59a6a-af58e708b2d5.txt
+Content-Disposition: attachment; filename=revlist-e5854dd66f4c-8ad5b181aef5.txt
 
 b55c9e7a490f398c46b62971719cd7c268035e3e ALSA: hda/realtek: Set PCBeep to default value for ALC274
 56ba2b1c9f2c1862890e27f0e0cfd314f1504fc9 um/sysrq: remove needless variable sp
@@ -134,5 +134,7 @@ b317a37e42dbc30bc17ebb42b1aa18686424004f leds: class: Protect brightness_show() 
 fbb00ee18cfb941ed259e12fa88dd1c322b84623 batman-adv: Remove uninitialized data in full table TT response
 65a3da457f648af513ab6edfa1a9ef089b012425 phy: core: Fix an OF node refcount leakage in of_phy_provider_lookup()
 af58e708b2d59529ddcbccf5cda2f693231eaf7e Update localversion-st, tree is up-to-date with 4.19-st1.
+32075d211501f3284c988fb4babd500fcdfe95e9 Merge branch 'linux-4.4.y-st' into linux-4.4.y-cip
+8ad5b181aef5c015360b738860b42f15d23ea8fe CIP: Bump version suffix to -cip96 after merge from cip/linux-4.4.y-st tree
 
---===============1972965121097797359==--
+--===============7145405934410634935==--
