@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5886676415731090181=="
+Content-Type: multipart/mixed; boundary="===============0054827202054076341=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Thu, 13 Feb 2025 20:17:18 -0000
-Message-Id: <173947783835.3898471.2732903857338007942@gitolite.kernel.org>
+Date: Thu, 13 Feb 2025 20:19:43 -0000
+Message-Id: <173947798337.3900132.10110700314500639061@gitolite.kernel.org>
 
---===============5886676415731090181==
+--===============0054827202054076341==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,30 +17,30 @@ user: mricon
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 89e985e5224a02a030cff7409395cd7e18d7a451
-    new: f5758c2a23d62adf1cfeed5b3abe753306834b08
+    old: f5758c2a23d62adf1cfeed5b3abe753306834b08
+    new: 2dd67ee0231ccc4ee53cb3d1fde10b122de1bd18
     log: |
-         f5758c2a23d62adf1cfeed5b3abe753306834b08 Update F557CBFC5C32E96D (Alex Shi)
+         2dd67ee0231ccc4ee53cb3d1fde10b122de1bd18 Drop all keys that expired in 2023 or before
          
 
---===============5886676415731090181==
+--===============0054827202054076341==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1739477867 -0500
+pusher B6C41CE35664996C! 1739478012 -0500
 pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1739477837-cb98be8102e068d2447c100a9843f6423c3211e5
+nonce 1739477982-72f7b73c156e8378b5988dacc57ce9ac851c4bda
 
-89e985e5224a02a030cff7409395cd7e18d7a451 f5758c2a23d62adf1cfeed5b3abe753306834b08 refs/heads/master
+f5758c2a23d62adf1cfeed5b3abe753306834b08 2dd67ee0231ccc4ee53cb3d1fde10b122de1bd18 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZ65TawAKCRC2xBzjVmSZ
-bN6+AQD7+LrbylzkHLW2D5iirp2jtRvk7/Ny/Mzbo2eTE4La/wD+J/4fsbwyVpP/
-YVtfmdUSMLZbPFd0E7C/UrHYKnGxWwk=
-=8whP
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZ65T/AAKCRC2xBzjVmSZ
+bF1aAP0UYGQaEOh4WS/NgAjTkL+HvVWOivQcljmu39hEI/Ad7gD7B7nWusNf10S8
+TrhoqSGubnz2ZPqY6hyqapDoKO68RAw=
+=RnO+
 -----END PGP SIGNATURE-----
 
---===============5886676415731090181==--
+--===============0054827202054076341==--
