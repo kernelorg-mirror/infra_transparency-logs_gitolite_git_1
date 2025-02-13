@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4260724445280234556=="
+Content-Type: multipart/mixed; boundary="===============7299338741558245700=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 13 Feb 2025 17:29:17 -0000
-Message-Id: <173946775701.3755932.8755256112937087320@gitolite.kernel.org>
+Date: Thu, 13 Feb 2025 17:29:19 -0000
+Message-Id: <173946775923.3756011.10227555844954611138@gitolite.kernel.org>
 
---===============4260724445280234556==
+--===============7299338741558245700==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: e589adf5b70c07b1ab974d077046fdbf583b2f36
     new: fee5d688940690cc845937459e340e4e02598e90
     log: revlist-e589adf5b70c-fee5d6889406.txt
 
---===============4260724445280234556==
+--===============7299338741558245700==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ b698b9a8acc804e1b777aece0b3699850d736087 Merge branch 'vsock-null-ptr-deref-when
 a527750d877fd334de87eef81f1cb5f0f0ca3373 ipv6: mcast: add RCU protection to mld_newpack()
 fee5d688940690cc845937459e340e4e02598e90 mlxsw: Add return value check for mlxsw_sp_port_get_stats_raw()
 
---===============4260724445280234556==--
+--===============7299338741558245700==--
