@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 13 Feb 2025 04:05:52 -0000
-Message-Id: <173941955288.3063606.11443481131871519669@gitolite.kernel.org>
+Date: Thu, 13 Feb 2025 04:14:16 -0000
+Message-Id: <173942005630.3069053.15651468099840723379@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,11 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 15d6f74f03f84c5b8d032bb1be6b90af82e5b679
-    new: b698b9a8acc804e1b777aece0b3699850d736087
+    old: b698b9a8acc804e1b777aece0b3699850d736087
+    new: 0469b410c888414c3505d8d2b5814eb372404638
     log: |
-         78dafe1cf3afa02ed71084b350713b07e72a18fb vsock: Orphan socket after transport release
-         440c9d488705366b00372ea7213af69827a6c7af vsock/test: Add test for SO_LINGER null ptr deref
-         b698b9a8acc804e1b777aece0b3699850d736087 Merge branch 'vsock-null-ptr-deref-when-so_linger-enabled'
+         5db843258de1e4e6b1ef1cbd1797923c9e3de548 net: ethernet: ti: am65-cpsw: fix memleak in certain XDP cases
+         8a9f82ff15da03a6804cdd6557fb36ff71c0924f net: ethernet: ti: am65-cpsw: fix RX & TX statistics for XDP_TX case
+         4542536f664f752db5feba2c5998b165933c34f2 net: ethernet: ti: am65_cpsw: fix tx_cleanup for XDP case
+         0469b410c888414c3505d8d2b5814eb372404638 Merge branch 'net-ethernet-ti-am65-cpsw-xdp-fixes'
          
