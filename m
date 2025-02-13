@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6716029453001979095=="
+Content-Type: multipart/mixed; boundary="===============5899990910121518814=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 13 Feb 2025 17:23:03 -0000
-Message-Id: <173946738320.3751126.15133324756330291939@gitolite.kernel.org>
+Date: Thu, 13 Feb 2025 17:29:12 -0000
+Message-Id: <173946775251.3755700.9226948158176954829@gitolite.kernel.org>
 
---===============6716029453001979095==
+--===============5899990910121518814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: d83d05d7377475db7954cb7b634fb5806c499030
-    new: e062df9eb4466cfa7f8e86d1fc85be7e9f542580
-    log: revlist-d83d05d73774-e062df9eb446.txt
+  - ref: refs/heads/1GbE
+    old: e589adf5b70c07b1ab974d077046fdbf583b2f36
+    new: fee5d688940690cc845937459e340e4e02598e90
+    log: revlist-e589adf5b70c-fee5d6889406.txt
 
---===============6716029453001979095==
+--===============5899990910121518814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d83d05d73774-e062df9eb446.txt
+Content-Disposition: attachment; filename=revlist-e589adf5b70c-fee5d6889406.txt
 
 69ab25a74e2df53edc2de4acfce0a484bdb88155 idpf: fix handling rsc packet with a single segment
 2ff66c2f9ea4e9311e9a00004348b6c465bd5d3b idpf: record rx queue in skb for RSC packets
@@ -44,13 +44,5 @@ b698b9a8acc804e1b777aece0b3699850d736087 Merge branch 'vsock-null-ptr-deref-when
 5bef3ac184b5626ea62385d6b82a1992b89d7940 team: better TEAM_OPTION_TYPE_STRING validation
 a527750d877fd334de87eef81f1cb5f0f0ca3373 ipv6: mcast: add RCU protection to mld_newpack()
 fee5d688940690cc845937459e340e4e02598e90 mlxsw: Add return value check for mlxsw_sp_port_get_stats_raw()
-9a67e0cadfcb421c3d0a228bbd8413f24d930317 dmaengine: tegra210-adma: Fix build error due to 64-by-32 division
-1e63175a18bbe21482c069b11fd7efedd1a7acb6 coccinelle: misc: secs_to_jiffies script: Create dummy report
-708eeec1f66a59b8ee5e958e9a51641f33570b50 ice: do not configure destination override for switchdev
-46976acc2194815ee04c8a9791f7a027d9aee9af ice: Fix switchdev slow-path in LAG
-f03034de6d03108e23682e29fc9cedaedea271f9 idpf: synchronize pending IRQs after disable
-4275e784a10d2358311c5cf5905872c50431ff93 ice: fix memory leak in aRFS after reset
-0e42438e11c13ea1639fb70c2cd7960ee405a8c7 ixgbe: fix media cage present detection for E610 device
-e062df9eb4466cfa7f8e86d1fc85be7e9f542580 ice: health.c: fix compilation on gcc 7.5
 
---===============6716029453001979095==--
+--===============5899990910121518814==--
