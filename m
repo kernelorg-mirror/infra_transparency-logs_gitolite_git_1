@@ -1,26 +1,52 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Thu, 13 Feb 2025 18:24:48 -0000
-Message-Id: <173947108885.3806202.4068231704347772390@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3483976336496129581=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 13 Feb 2025 18:24:51 -0000
+Message-Id: <173947109195.3806335.2504875456899420778@gitolite.kernel.org>
+
+--===============3483976336496129581==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: b9524a73725d337ef08da3f24c3216708dfd9c0e
-    new: 967154646b7cc0ac911d6b8335a2d97e5071598c
+  - ref: refs/heads/for-6.15
+    old: 994719ed6d81a6f4677875ab6730254c0bc484ea
+    new: 74e0fcbd705d4277267311f8f26a00bb8ce93820
     log: |
-         1508ead3d2292555c02550f5512c9b0ff537aeb6 riscv: cpufeature: use bitmap_equal() instead of memcmp()
-         431a3bbd32491ff42fe81ea490b6809c47bd7c40 riscv/atomic: Do proper sign extension also for unsigned in arch_cmpxchg
-         5c238584bce596fd0d0e3b2b449e042580aef6e6 riscv/futex: sign extend compare value in atomic cmpxchg
-         ccc71244f95c12246b9378df824df6a56ae06ec9 Documentation: riscv: Remove KPROBES_ON_FTRACE
-         b6059e2adc1ef462f3074fd10289b73f3a92f891 rseq/selftests: Fix riscv rseq_offset_deref_addv inline asm
-         0eeb13956757c1a6bc7c0247374ac834d7c5a44d riscv: signal: fix signal frame size
-         5338770fc74bf1c927cf7b9a3b886fc9c983d2de riscv: signal: fix signal_minsigstksz
-         967154646b7cc0ac911d6b8335a2d97e5071598c MAINTAINERS: Add myself as a riscv reviewer
+         91931af18bd22437e08e2471f5484d6fbdd8ab93 gpiolib: add gpiod_multi_set_value_cansleep()
+         ad0fbcebb5f6e093d433a0873758a2778d747eb8 ASoC: adau1701: use gpiod_multi_set_value_cansleep
+         74e0fcbd705d4277267311f8f26a00bb8ce93820 gpiolib: add gpiod_multi_set_value_cansleep
          
+
+--===============3483976336496129581==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1739471120 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1739471090-0ca9fc3f787efb15585ea320d94b2fa83306b3c4
+
+994719ed6d81a6f4677875ab6730254c0bc484ea 74e0fcbd705d4277267311f8f26a00bb8ce93820 refs/heads/for-6.15
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmeuORAACgkQJNaLcl1U
+h9AFqwf+N8U29BZCUh40S1NDaZOZpCpeNBaDDeEClgcghbjmNjzHqzJiODgWITXi
+XsauJE6BRus87ZBa97NRMR01Y2jeCLRFbRqgaPJcaeyxrDm/sV9TVn3EUUmpVK+i
+42aGtL2B0qkyxUOD4COvzs3JCrH7bE7sW0Qbm3W9ne2rkCeejaeKCiMJTo7svRJG
+6JdWirATQaptI/K4oOKP772lFAE4w1Noru/y0uiEtr6IBE6NZflgzMGop77eS2rr
+S2qAVIwEBgpqoNKcbFXfvibagwIvRsZNPxw7x3OMnFCBit3udXGIdCALrtaiuOSj
+aytRgvHfrB8KqyNKd6ynnglzx4bdtg==
+=bYui
+-----END PGP SIGNATURE-----
+
+--===============3483976336496129581==--
