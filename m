@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Thu, 13 Feb 2025 16:30:24 -0000
-Message-Id: <173946422440.3708216.196884650383701791@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/niks/linux
+Date: Thu, 13 Feb 2025 16:37:19 -0000
+Message-Id: <173946463949.3712944.15048900935035302218@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/niks/linux
+user: niks
 changes:
-  - ref: refs/heads/master
-    old: 8ec6a622bbf6877a1dbba8f899d30510922e1ba4
-    new: 96f3bacc93df4074b0e9712a547dd5271da5c4fc
+  - ref: refs/heads/b4/vfio_pci_mmap
+    old: 98ffb6efab6a6199169baa857fdac9513b0c1fc6
+    new: 67915c983bca7e5f9aca28a8305af0dd8299a395
     log: |
-         3055b8bf92c5f438275cfdbf8f32cb864b9f841d chrt: Add --sched_runtime support for SCHED_{OTHER,BATCH} policies
-         22ff43f78f4a2a44243d2eae9128933785ea02ee chrt: (man) Add note for custom slice length on SCHED_{OTHER,BATCH}
-         96f3bacc93df4074b0e9712a547dd5271da5c4fc chrt: (tests) Add new cases for custom slice on SCHED_{OTHER,BATCH}
+         67915c983bca7e5f9aca28a8305af0dd8299a395 PCI: s390: Enable HAVE_PCI_MMAP on s390
          
