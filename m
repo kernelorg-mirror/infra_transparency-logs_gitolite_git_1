@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5213095409949272025=="
+Content-Type: multipart/mixed; boundary="===============5404569470451196118=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 13 Feb 2025 18:16:41 -0000
-Message-Id: <173947060161.3800093.10666385186375579513@gitolite.kernel.org>
+Date: Thu, 13 Feb 2025 18:16:43 -0000
+Message-Id: <173947060383.3800241.9463758613725581639@gitolite.kernel.org>
 
---===============5213095409949272025==
+--===============5404569470451196118==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 4e41231249f4083a095085ff86e317e29313c2c3
     new: 4079918ae720e842ed7dff65fedeb9980b374995
     log: revlist-4e41231249f4-4079918ae720.txt
 
---===============5213095409949272025==
+--===============5404569470451196118==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -72,4 +72,4 @@ c3a97ccaed80986fc3c0581661bf9170847d23ba Documentation: dpaa2 ethernet switch dr
 d30460f42675fef5cd4b44ffbc49b545524555e3 r8169: add support for Intel Killer E5000
 4079918ae720e842ed7dff65fedeb9980b374995 net: usb: asix_devices: add FiberGecko DeviceID
 
---===============5213095409949272025==--
+--===============5404569470451196118==--
