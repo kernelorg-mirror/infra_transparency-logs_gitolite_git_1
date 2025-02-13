@@ -1,79 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8733435291103312212=="
+Content-Type: multipart/mixed; boundary="===============3763315812982248926=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 13 Feb 2025 13:00:07 -0000
-Message-Id: <173945160728.3525389.7239842166841334004@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 13 Feb 2025 13:12:25 -0000
+Message-Id: <173945234545.3534086.7952668632312320755@gitolite.kernel.org>
 
---===============8733435291103312212==
+--===============3763315812982248926==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/kdevops
-    old: bcde7882db9d6c5cd8fb41f2146c86cf379a9a02
-    new: 7c1e7cca94fbc3cc5a44c1fb9ca173061a9a0608
-    log: revlist-bcde7882db9d-7c1e7cca94fb.txt
+  - ref: refs/heads/master
+    old: 636797ad6e354a76b0289b720c27cda5a5e8c6c6
+    new: 956a88ba5942ba1acc9cc1ed22dab188a9aa77bf
+    log: |
+         956a88ba5942ba1acc9cc1ed22dab188a9aa77bf 6.13-stable patches
+         
 
---===============8733435291103312212==
+--===============3763315812982248926==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bcde7882db9d-7c1e7cca94fb.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-41f198d58b6f2b36f9f8a4481d517369b324e773 tomoyo: fix spelling error
-691a1f3f180133965d01e0ab0f332248d0345554 tomoyo: fix spelling errors
-bdc35f164b0f60480b2f5e098bb8f3c0cea05cd2 tomoyo: use better patterns for procfs in learning mode
-48e487b002891eb0aeaec704c9bed51f028deff1 HID: corsair-void: Add missing delayed work cancel for headset status
-c098363828f7006ef5c5121b673bc5e26571e6c8 HID: corsair-void: Initialise memory for psy_cfg
-4b54ae69197b9f416baa0fceadff7e89075f8454 HID: intel-ish-hid: fix the length of MNG_SYNC_FW_CLOCK in doorbell
-7e0d1cff12b895f44f4ddc8cf50311bc1f775201 HID: intel-ish-hid: Send clock sync message immediately after reset
-52572cde8b4a44676557ccb67b035291833112c5 HID: lenovo: select CONFIG_ACPI_PLATFORM_PROFILE
-a5a056c8d2ba60017dffb914bdf92c5562defc48 HID: intel-thc: fix CONFIG_HID dependency
-363236d709e75610b628c2a4337ccbe42e454b6d HID: ignore non-functional sensor in HP 5MP Camera
-05c4ede6951b5d8e083b6bb237950cac59bdeb92 HID: hid-steam: Fix issues with disabling both gamepad mode and lizard mode
-6f36f103cff1737094f2187b1f9a7b312820d377 pinctrl: cy8c95x0: Fix off-by-one in the regmap range settings
-3fbe3fe28764455e4fc3578afb9765f46f9ce93d pinctrl: cy8c95x0: Avoid accessing reserved registers
-aac4470fa6e695e4d6ac94cc77d4690b57f1d2bc pinctrl: cy8c95x0: Enable regmap locking for debug
-0a7404fc5399e1100b14e7e2a4af2e4fd5e3b602 pinctrl: cy8c95x0: Rename PWMSEL to SELPWM
-1ddee69108d305bbc059cbf31c0b47626796be77 pinctrl: cy8c95x0: Respect IRQ trigger settings from firmware
-45ab5166a82d038c898985b0ad43ead69c1f9573 HID: winwing: Add NULL check in winwing_init_led()
-9b8e2220d3a052a690b1d1b23019673e612494c5 HID: multitouch: Add NULL check in mt_input_configured
-18c966b62819b9d3b99eac8fb8cdc8950826e0c2 HID: intel-ish-hid: ipc: Add Panther Lake PCI device IDs
-9271af9d846c7e49c8709b58d5853cb73c00b193 HID: topre: Fix n-key rollover on Realforce R3S TKL boards
-1739cafdb8decad538410b05a4640055408826de samples/hid: remove unnecessary -I flags from libbpf EXTRA_CFLAGS
-8b125949df58a00e8797c6e6d3f3d3dc08f4d939 samples/hid: fix broken vmlinux path for VMLINUX_BTF
-0af4c120f5e7a1ea70aff7da2dfb65b6148a3e84 pinctrl: pinconf-generic: Print unsigned value if a format is registered
-2813e00dcd748cef47d2bffaa04071de93fddf00 HID: hid-apple: Apple Magic Keyboard a3203 USB-C support
-819083cb6eedcc8495cbf84845877bcc741b93b3 HID: apple: fix up the F6 key on the Omoton KB066 keyboard
-0b43d98ff29be3144e86294486b1373b5df74c0e HID: hid-thrustmaster: fix stack-out-of-bounds read in usb_check_int_endpoints()
-79504249d7e27cad4a3eeb9afc6386e418728ce0 HID: hid-steam: Move hidraw input (un)registering to work
-b051ffa2aeb2a60e092387b6fb2af1ad42f51a3c HID: hid-steam: Don't use cancel_delayed_work_sync in IRQ context
-c581f8c240f57a19c857da3e0eec24285354fdb7 Merge tag 'pinctrl-v6.14-2' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
-58c9bf3363e596d744f56616d407278ef5f97f5a Merge tag 'hid-for-linus-2025021001' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
-febbc555cf0fff895546ddb8ba2c9a523692fb55 Merge tag 'nfsd-6.14-1' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-5728c92ae112301936006c5e305677beb1a7f578 mfd: syscon: Restore device_node_to_regmap() for non-syscon nodes
-e328095ad357ab13943d6c240ed6973bc235a8d4 nfsd: adjust WARN_ON_ONCE in revoke_delegation
-f11d0e2a57ef31893c637145921c6c5a1252cef4 NFSD: Skip sending CB_RECALL_ANY when the backchannel isn't up
-b0527ee0eec88aad393b7852d111e3354132e537 nfsd: remove the redundant mapping of nfserr_mlink
-e0591b07a2b4b58e3552a4f77d2f834a0aae3cb5 NFSD: nfsd_unlink() clobbers non-zero status returned from fh_fill_pre_attrs()
-df516b459f545c17f3d2cdcaa0222da2e3fa5421 NFSD: Never return NFS4ERR_FILE_OPEN when removing a directory
-4ecdcbefd58e111e18d6f6eb148585a0aa0be001 NFSD: Return NFS4ERR_FILE_OPEN only when renaming over an open file
-48ad20cf4dc3990f6e6931d13be0b69a7ea1840e NFSD: Return NFS4ERR_FILE_OPEN only when linking an open file
-c5a4fc6ed74f46023e5e6be9116ae058ea7d151f SUNRPC: Remove unused make_checksum
-16d447fa6a65fe6dd5440f8aff0b347c6938aaa8 NFSD: Fix trace_nfsd_slot_seqid_sequence
-127783a24a4d9161c86f7198ce38da59e200f470 nfsd: don't ignore the return code of svc_proc_register()
-163781411dda456c932b19f55a069ac3fe53b773 svcrdma: do not unregister device for listeners
-318e8c339c9a0891c389298bb328ed0762a9935e x86/cpu/kvm: SRSO: Fix possible missing IBPB on VM-Exit
-09fbf3d502050282bf47ab3babe1d4ed54dd1fd8 Merge tag 'tomoyo-pr-20250211' of git://git.code.sf.net/p/tomoyo/tomoyo
-4dc1d1bec89864d8076e5ab314f86f46442bfb02 Merge tag 'mfd-fixes-6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/mfd
-eacabefbdef8fd8ad904d0890e29392dc351ae89 Merge remote-tracking branch 'mrchuck/nfsd-next' into kdevops
-dfb1464925c9a3c28f72dfe9a50c2396abb402d4 Merge remote-tracking branch 'mrchuck/nfsd-testing' into kdevops
-7c1e7cca94fbc3cc5a44c1fb9ca173061a9a0608 nfsd: allow SC_STATUS_FREEABLE when searching via nfs4_lookup_stateid()
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1739452374 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1739452342-0600cd944e768c73b55e2dd9a480b5fdca82d975
 
---===============8733435291103312212==--
+636797ad6e354a76b0289b720c27cda5a5e8c6c6 956a88ba5942ba1acc9cc1ed22dab188a9aa77bf refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmet79YbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+t3oQALywn47LEpyIq415isvb
+Lj2GWuUV1pHTCf2ec3VfszOIShSqQ0pl9q5OFfUsxAAPDGgCPg/WKExzp7QPnhHB
+VSZiymvaHdG56w/bywikXDQ1PO/6j1ZnX/zltdRLg/DsYHQOWTYVVdW7KpU0+/dP
++xa51okqmvbUwk5O6SNEpkMPSmQr5XoFgCzM3/VS/NVPGRPPOOSva8LsoI8/CE0j
+WgxEQZId/8gC0sWk4fsUaiC/eabKJwb/a6QjAoBqmR4E+qH+SD9f0Hl//nEuRaCP
+ghtjCny0bjyy2+2jdofXyPEHR7eYuqtd3KQmyYd+DWo6vAkJyJuMfvF7dKRIDQuU
+hkQfGkzDWwwCx+2yQOGczVLB/SAg+NmaH2h7NnsS7EnENyWJawLW09msRk/1EpGO
+JVvIGgub5bn9Joh14upIoyzI06+OqV4h/S3VFLMdCfjMyinQq8EWO4RmQRcIlo2v
+S/UqEU0Jub2xBXZhdtm3sndwTCetjkZrXd2izowgYrmxMvWrJcFiwQwcGTcfcYrG
+0KTcMMSR15VNTocYgbidWFH4FeoTcd5EE650dcLvbg1dEoevkUBWYJPZ6bEuOqoJ
+MzSn/dfan9HFDNIwdfMy4H/PPuNc/WOWPP3dx5wAnvgDrdcfuJ0XLLl0XzqHpj/I
+ywpVQ3tu3DG08O/PTMiKgmmg
+=c+Xr
+-----END PGP SIGNATURE-----
+
+--===============3763315812982248926==--
