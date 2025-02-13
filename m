@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4876666687094848246=="
+Content-Type: multipart/mixed; boundary="===============8827311452198039888=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Thu, 13 Feb 2025 13:46:03 -0000
-Message-Id: <173945436397.3564246.9157948206206921112@gitolite.kernel.org>
+Date: Thu, 13 Feb 2025 13:46:29 -0000
+Message-Id: <173945438925.3564558.8735612710791422634@gitolite.kernel.org>
 
---===============4876666687094848246==
+--===============8827311452198039888==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
 user: daeinki
 changes:
-  - ref: refs/heads/exynos-drm-fixes
-    old: 31b2be07afd06dfccfbef0629e9d00e0e05d6408
-    new: b0aa6c85c9d6c9fd670c640779fbf5c73adc112b
-    log: revlist-31b2be07afd0-b0aa6c85c9d6.txt
+  - ref: refs/heads/exynos-drm-next
+    old: d678c63534ed0d0fe52ff95cea83808f6f0ae382
+    new: a64dcfb451e254085a7daee5fe51bf22959d52d3
+    log: revlist-d678c63534ed-a64dcfb451e2.txt
 
---===============4876666687094848246==
+--===============8827311452198039888==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-31b2be07afd0-b0aa6c85c9d6.txt
+Content-Disposition: attachment; filename=revlist-d678c63534ed-a64dcfb451e2.txt
 
+5b7f7234ff18a5f48e0d36c417a0d07c7fdfc61a Merge tag 'x86-boot-2025-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 113691ce9f321c6d3d4da0cae2bfc233403251dc Merge tag 'x86_tdx_for_6.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 b5f022fe8ec58540e29a32e328f89b7298f70313 drm/amdkfd: Fix partial migrate issue
 36a21f2686dcf96bb61f1918f8b44156191b2543 drm/amdkfd: Sync trap handler binary with source
@@ -1049,6 +1050,5 @@ f4a45f14cf6902a96d9805ba51829054940ef3e7 Merge tag 'seccomp-v6.14-rc2' of git://
 146339ddb8b7520ee486389c7b0a7b24d68e5f60 Merge tag 'pm-6.14-rc2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 69b54314c975f4dfd3a29d6b9211ab68fff46682 Merge tag 'kbuild-fixes-v6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 a64dcfb451e254085a7daee5fe51bf22959d52d3 Linux 6.14-rc2
-b0aa6c85c9d6c9fd670c640779fbf5c73adc112b drm/exynos: Remove unnecessary checking
 
---===============4876666687094848246==--
+--===============8827311452198039888==--
