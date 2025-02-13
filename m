@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Thu, 13 Feb 2025 15:18:23 -0000
-Message-Id: <173945990355.3644998.3409745970733225439@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Thu, 13 Feb 2025 15:27:37 -0000
+Message-Id: <173946045726.3653541.15143482905916147844@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/network/wireless/iwd
+user: denkenz
 changes:
   - ref: refs/heads/master
-    old: 183c843c084a2d2f9521efac2cdc81af60a75f84
-    new: fa4d477ab535851d70fd542968325aaf09679454
+    old: 40af18f96af0c7f1b56f67339ef53e000e738754
+    new: 1662707f22476e16eaa7a545b19b6ecad602d716
     log: |
-         fa4d477ab535851d70fd542968325aaf09679454 btdev: Broadcast EXT_ADV packets based on its interval
+         5f4bf2a5e512b09d26e487d5f351ff0f7d8d806b wiphy: add driver quirk to disable SAE
+         1662707f22476e16eaa7a545b19b6ecad602d716 doc: document [DriverQuirks].SaeDisable
          
