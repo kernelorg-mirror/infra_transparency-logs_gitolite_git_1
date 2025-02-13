@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0747362246844475196=="
+Content-Type: multipart/mixed; boundary="===============2963077874662710352=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 13 Feb 2025 17:29:40 -0000
-Message-Id: <173946778035.3757043.13452100414472147487@gitolite.kernel.org>
+Date: Thu, 13 Feb 2025 17:29:53 -0000
+Message-Id: <173946779311.3757403.11744798275653820629@gitolite.kernel.org>
 
---===============0747362246844475196==
+--===============2963077874662710352==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 4e41231249f4083a095085ff86e317e29313c2c3
-    new: 4079918ae720e842ed7dff65fedeb9980b374995
-    log: revlist-4e41231249f4-4079918ae720.txt
+  - ref: refs/heads/dev-queue
+    old: dd529eeb4eb8cc6aaee6cb24a7e366a8938df4e2
+    new: e03e87017c62eada60d3d1cd1bd23c5848c2540a
+    log: revlist-dd529eeb4eb8-e03e87017c62.txt
 
---===============0747362246844475196==
+--===============2963077874662710352==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4e41231249f4-4079918ae720.txt
+Content-Disposition: attachment; filename=revlist-dd529eeb4eb8-e03e87017c62.txt
 
 e1d68ea58c7e9ebacd9ad7a99b25a3578fa62182 net/mlx5e: reduce the max log mpwrq sz for ECPF and reps
 b9cc8f9d700867aaa77aedddfea85e53d5e5d584 net/mlx5e: reduce rep rxq depth to 256 for ECPF
@@ -71,5 +71,34 @@ c3a97ccaed80986fc3c0581661bf9170847d23ba Documentation: dpaa2 ethernet switch dr
 5077bc7af28f649d669f9cda6b5fedecedfaef2d ixgene-v2: prepare for phylib stop exporting phy_10_100_features_array
 d30460f42675fef5cd4b44ffbc49b545524555e3 r8169: add support for Intel Killer E5000
 4079918ae720e842ed7dff65fedeb9980b374995 net: usb: asix_devices: add FiberGecko DeviceID
+ec53159eb28bc61b64ba957d23d3f5bc6bbf85ec dmaengine: tegra210-adma: Fix build error due to 64-by-32 division
+2f89dd8689bd2baecc6bfdcb3f6ac1422f9ab8be coccinelle: misc: secs_to_jiffies script: Create dummy report
+d22db54a408438c1489206a7eb30c7424b17ff5c virtchnl: add support for enabling PTP on iAVF
+03aad1ae62b570107d1164b85690966d9607f65f ice: support Rx timestamp on flex descriptor
+d25db904a216c874f752f99c0ab3a160159725f9 virtchnl: add enumeration for the rxdid format
+53082f040b53fd5c4ced217212c6b7e572a2d36d iavf: add support for negotiating flexible RXDID format
+39e5ac71289d05423f466e2af2648ea64e4e0d46 iavf: negotiate PTP capabilities
+b5b9ffd9c2144fa5740362f804d2a8a22862b5d1 iavf: add initial framework for registering PTP clock
+0b9ae84e41552d216b04699dd498140c88c8cba3 iavf: add support for indirect access to PHC time
+c7c04562db18f1dee5ad7ee1d0ffcafe7ca29700 iavf: periodically cache PHC time
+3024ff68bc047df72a8d29575dd7c3459c153493 libeth: move idpf_rx_csum_decoded and idpf_rx_extracted
+fa8667b455bc9c8dffb3e7f204ed7ef9a1f5e49d iavf: define Rx descriptors as qwords
+7e840b3c8eed21acc25100d2a625a8e41234fd9d iavf: refactor iavf_clean_rx_irq to support legacy and flex descriptors
+a00a7e42fafa4eedcc7f5b7b688bd5530269edba iavf: Implement checking DD desc field
+250d9182e714cef0810c060be01761fe8c20492a iavf: handle set and get timestamps ops
+dfe5341fe25a479b80e3a280348577926d9fbd99 iavf: add support for Rx timestamps to hotpath
+d5ed2159b03bfe794d2dce3727d2a2843146ee01 ice: do not configure destination override for switchdev
+0526d3e1c8f5bb2340d691fd0ba1d7bbddbc9114 ice: Add E830 checksum offload support
+b518862ee97c510df3ad3f1152c05850c0516daf ice: Fix switchdev slow-path in LAG
+f958c8e8dbfb737569e272ab7c00a769cb63190d idpf: fix handling rsc packet with a single segment
+0e2285d3c109fdbb2879b1dfd6da6bed4fe551cd idpf: record rx queue in skb for RSC packets
+228e5c985a91321292a671a25517a2c3d1ff64a5 ice: fix memory leak in aRFS after reset
+ab6769382816dfecc1c3a9b5248180dea49bcea9 igc: Fix HW RX timestamp when passed by ZC XDP
+79bbd67c39c6dd2fc40f4dee3cb03ff0c05a2fa9 ixgbe: Fix possible skb NULL pointer dereference
+beef90b287282a439b20dcc92845b6fed6674355 idpf: call set_real_num_queues in idpf_open
+acbcae3a1afe99008d38cc72ca2e2427b2ca14e9 igc: Set buffer type for empty frames in igc_init_empty_frame
+44f6d44a4e4e3e967d08de4e07e7a1d889e61f0e ixgbe: fix media cage present detection for E610 device
+a4ce96ac2c30e9b7b810a2555b261825f41d49c8 ice: health.c: fix compilation on gcc 7.5
+e03e87017c62eada60d3d1cd1bd23c5848c2540a ixgbe: add PTP support for E610 device
 
---===============0747362246844475196==--
+--===============2963077874662710352==--
