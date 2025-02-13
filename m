@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1471741662531156746=="
+Content-Type: multipart/mixed; boundary="===============1416647463784811054=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Thu, 13 Feb 2025 22:19:05 -0000
-Message-Id: <173948514597.4030784.649652264933308399@gitolite.kernel.org>
+Date: Thu, 13 Feb 2025 22:19:08 -0000
+Message-Id: <173948514873.4030859.2467289689906087794@gitolite.kernel.org>
 
---===============1471741662531156746==
+--===============1416647463784811054==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: fd4e9308312972d5bd11fe1d8c032b95b44748cb
-    new: f74de0c6cf4c03cd83be9eadc59e69ebfac2d51f
-    log: revlist-fd4e93083129-f74de0c6cf4c.txt
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: 9d89551994a430b50c4fffcb1e617a057fa76e20
+    new: a64dcfb451e254085a7daee5fe51bf22959d52d3
+    log: revlist-9d89551994a4-a64dcfb451e2.txt
 
---===============1471741662531156746==
+--===============1416647463784811054==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-fd4e93083129-f74de0c6cf4c.txt
+Content-Disposition: attachment; filename=revlist-9d89551994a4-a64dcfb451e2.txt
 
+5b7f7234ff18a5f48e0d36c417a0d07c7fdfc61a Merge tag 'x86-boot-2025-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+113691ce9f321c6d3d4da0cae2bfc233403251dc Merge tag 'x86_tdx_for_6.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+b5f022fe8ec58540e29a32e328f89b7298f70313 drm/amdkfd: Fix partial migrate issue
+36a21f2686dcf96bb61f1918f8b44156191b2543 drm/amdkfd: Sync trap handler binary with source
 9d63fbf75158811bccd08c5ac9b2db70427c3e51 drm/amd: Add debug option to disable subvp
 b1df8050e7c7b7c1ff8ce9715e12f1c825aedbc3 drm/amdgpu: Add handler for SDMA context empty
 a0db1ea0dd4d7442cded8be30474eadc6638caaa drm/amdgpu: Refine ip detection log message
@@ -1046,9 +1050,5 @@ f4a45f14cf6902a96d9805ba51829054940ef3e7 Merge tag 'seccomp-v6.14-rc2' of git://
 146339ddb8b7520ee486389c7b0a7b24d68e5f60 Merge tag 'pm-6.14-rc2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 69b54314c975f4dfd3a29d6b9211ab68fff46682 Merge tag 'kbuild-fixes-v6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 a64dcfb451e254085a7daee5fe51bf22959d52d3 Linux 6.14-rc2
-7c4d9c0de8460b02a4a9cc92747b7b05bf7fefc8 i2c: octeon: refactor common i2c operations
-fbfe2c7f4cfc69d1666488a364976066a2a4a4fb i2c: octeon: Add block-mode i2c operations
-86b239f0dc710450c7fde47d294ad0ef7fea86e8 dt-bindings: i2c: samsung,s3c2410: add exynos7870-i2c compatible
-f74de0c6cf4c03cd83be9eadc59e69ebfac2d51f dt-bindings: i2c: exynos5: add exynos7870-hsi2c compatible
 
---===============1471741662531156746==--
+--===============1416647463784811054==--
