@@ -1,63 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============9070740937797163231=="
+Content-Type: multipart/mixed; boundary="===============6761276902602597751=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 13 Feb 2025 03:35:43 -0000
-Message-Id: <173941774338.3039408.2457209446392595543@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 13 Feb 2025 03:36:38 -0000
+Message-Id: <173941779859.3039989.15543382222164271215@gitolite.kernel.org>
 
---===============9070740937797163231==
+--===============6761276902602597751==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkp/scsi
-user: mkp
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: 640a6af5099ae8f6a858a8612bec70048a4aee69
-    new: 3bcd901e4257d88cd3fc0e5cfa7d2fb3a1a1af99
-    log: |
-         b50532318793d28a7628c1ffc129a2226e83e495 scsi: target: spc: Fix RSOC parameter data header size
-         04ad06e41d1c74cc323b20a7bd023c47bd0e0c38 scsi: target: spc: Fix loop traversal in spc_rsoc_get_descr()
-         fb27da6e06a0869d2e36255bb7e0b6102daf712f scsi: mpt3sas: Reduce log level of ignore_delay_remove message to KERN_INFO
-         7c1b882ccb1320cc131d4f0e2e1032c11a08293c scsi: mpi3mr: Fix spelling mistake "skiping" -> "skipping"
-         035b9fa023fb4645e9cf104e0f1b4641b1938d08 scsi: target: iscsi: Fix typos
-         92186c1455a2d3563dcea58a6f4729d518b5be50 scsi: iscsi_tcp: Switch to using the crc32c library
-         edfaf868f3ae65099b41ec28724cb5241eeb9edf scsi: ufs: core: Critical health condition
-         0ea163a18b17f9e0f8350bb348ae69c4a376be66 scsi: usb: Rename the RESERVE and RELEASE constants
-         3bcd901e4257d88cd3fc0e5cfa7d2fb3a1a1af99 scsi: ufs: Constify the third pwr_change_notify() argument
-         
+  - ref: refs/heads/main
+    old: 443b5ca4d7245eec9a9192461113a4c341e441e5
+    new: ea80f2d9218c788104a509e900e1f3216be11211
+    log: revlist-443b5ca4d724-ea80f2d9218c.txt
 
---===============9070740937797163231==
+--===============6761276902602597751==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-443b5ca4d724-ea80f2d9218c.txt
 
-certificate version 0.1
-pusher 75C5DE3D 1739417771 -0500
-pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1739417741-5a37729e9c4d989e582fc487943b19f0008f937e
+2151003e773c7e7dba4d64bed4bfc483681b5f6a tools/net/ynl: remove extraneous plural from variable names
+678d8ddd0087a533c8eb06eabd0e3d25c02fcead tools/net/ynl: support decoding indexed arrays as enums
+569a5d63fd1b2b106a2134625f4ee7a7f9056996 tools/net/ynl: support rendering C array members to strings
+c578bc3a00f1fe04fd56bbef1fc779a848827ed2 tools/net/ynl: accept IP string inputs
+8798892b800f8f29573bbea759a122f92f83d32e tools/net/ynl: add s8, s16 to valid scalars in ynl-gen-c
+16cd1a5299eedc0328398bff9bf57e08b9925c52 tools/net/ynl: sanitise enums with leading digits in ynl-gen-c
+9fcfc1e210a662cfbd67a76511b45abc2c72e482 tools/net/ynl: add indexed-array scalar support to ynl-gen-c
+718a8360719b2cbde73b627bf45801b1780caf32 netlink: specs: support nested structs in genetlink legacy
+fdb8050e1a873c87d99dc65a0468e257b632602e netlink: specs: add s8, s16 to genetlink schemas
+31438709ecdb12539fc48ad691c27c4c11c0a56b netlink: specs: wireless: add a spec for nl80211
+ea80f2d9218c788104a509e900e1f3216be11211 Merge branch 'netlink-specs-add-a-spec-for-nl80211-wiphy'
 
-640a6af5099ae8f6a858a8612bec70048a4aee69 3bcd901e4257d88cd3fc0e5cfa7d2fb3a1a1af99 refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmetaKsACgkQ7ulgGnXF
-3j2WwBAAo/ppUep9EwoGgWlLpH2vSkYw/PFnzzWB3PB1Q7QPKZ6irazNXiNxq/yj
-o8PG8dikiQ5w5ejrpYD8vsyEeQyhYRtlvtp8WRxUwr3+pMQzkX/N+6sOv/M6E9CQ
-0sGyt5QcsWcrC5EtHMMG7tQrXXnjwenkLFjaLYssGpaHAXMQvETbVNMqDAH6gC/9
-2goSzQiG2PgHKf4kRNxc8lczaZ5Y3v+XtUPuRbNdb0OAXXTAUQz8sMDnrXksLUYa
-o8A+JsdxSHtGvusSaXlUWj/g0hRjYl5Sd2G4TicDp2BD87QyVJ+tF3VlIqvMB2TB
-DSKh2iQaWf1hYbnawJc9WKOgUbPGbdaUl7nrIGOZOmx/aYIbHSQRkGxr7hKvTI/v
-7fl3PtxJ63V5UzqOqTqAZ0vIySPKf5rxm2D72M0f04bXlbCtpU7x1QNjuxzufRJq
-ADQkhjlkk+gdgky3CPjHytrLXdi/NIVVLLNdeDFEL/G8YBthixVVRBuqNXMmQW8K
-EhC3B9fmyUfMMUkmQQ5h1xkCVDXnrDoJ6nPdrZO1NrDzAildngz9mNheEq+mk4IP
-Rmy0Vay9I5jLgbMEcCF6Qs+ICTvRI7Q8kylDhuNTZlkFMpohANfUh7hkurTUSiiM
-WlHFcXDsuIyNW3dWV61ixpRjoDrUmyqrjdmaSla/MnZLseFUMec=
-=AW+G
------END PGP SIGNATURE-----
-
---===============9070740937797163231==--
+--===============6761276902602597751==--
