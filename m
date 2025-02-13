@@ -1,54 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============0928503737025925155=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Thu, 13 Feb 2025 12:23:19 -0000
-Message-Id: <173944939945.3494792.14224601600659358193@gitolite.kernel.org>
-
---===============0928503737025925155==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Thu, 13 Feb 2025 12:40:53 -0000
+Message-Id: <173945045361.3509654.1985353177454291940@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
   - ref: refs/heads/for-next
-    old: bd820906ea9dc3acfcac9de4f1be89b78609e2ac
-    new: 432c2adb9e2f84f81c4b218acb07a2cd3dce64a9
+    old: 656dff55da19eb889f2b1df5a5f2aa1d28f024fd
+    new: f26e648a978ae7958e0958095768363c851a736d
     log: |
-         e4d4648eac8b4ef39f412d07715eb26f1ccd7342 platform/x86: ideapad-laptop: pass a correct pointer to the driver data
-         583ef25bb2a094813351a727ddec38b35a15b9f8 platform/x86/intel: pmc: fix ltr decode in pmc_core_ltr_show()
-         a787ab73e2e43c0a3df10bc8d9b9b7a679129d49 platform/x86/intel/ifs: Update documentation with image download path
-         1046cac109225eda0973b898e053aeb3d6c10e1d platform/x86: thinkpad_acpi: Fix invalid fan speed on ThinkPad X120e
-         9cff907cbf8c7fb5345918dbcc7b74a01656f34f platform/x86: thinkpad_acpi: Support for V9 DYTC platform profiles
-         fc22b06fbd2afefa1eddff69a6fd30c539cef577 platform/x86: int3472: Use correct type for "polarity", call it gpio_flags
-         569617dbbd06286fb73f3f1c2ac91e51d863c7de platform/x86: int3472: Call "reset" GPIO "enable" for INT347E
-         b3e127dacad60a384c92baafdc74f1508bf7dd47 platform/x86: thinkpad_acpi: Fix registration of tpacpi platform driver
-         432c2adb9e2f84f81c4b218acb07a2cd3dce64a9 Merge branch 'fixes' into for-next
+         5459f6523c1f1a053cdc6411a810061ee717219c IB/cache: Add log messages for IB device state changes
+         1fd119c6db838dbed7084ce48f76ad12f5441d59 RDMA/core: Use ib_port_state_to_str() for IB state sysfs
+         d9d9434a3fee5c2b05ef661d57e3e31e6990ed7b IB/hfi1: Remove state transition log message and opa_lstate_name()
+         bad4480934c8227d8a03b6b76e276349506b2bfe RDMA/mana_ib: Query feature_flags bitmask from FW
+         cd3c5ddf823016b0c670d1965c5d312b3cf8bb7b RDMA/mana_ib: request error CQEs when supported
+         79bccd746132afe12b8bc3785e7b74b90440060d RDMA/mana_ib: Add port statistics support
+         ccca5e8aa14572315dc9b9dadb3a06a6a6a607f7 RDMA/rxe: switch to using the crc32 library
+         607a7dcf2e981449a4b200f497f8ea97ddb5e13f RDMA/mana_ib: Fix error code in probe()
+         dbc641ecf1cbd41a649e7ac6ea7175562ef599b2 RDMA/bnxt_re: Fix buffer overflow in debugfs code
+         f26e648a978ae7958e0958095768363c851a736d RDMA/bnxt_re: Fix the condition check while programming congestion control
          
-
---===============0928503737025925155==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1739449427 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1739449396-e1e67d55f5169dbd098e28e97b1151896c07f37c
-
-bd820906ea9dc3acfcac9de4f1be89b78609e2ac 432c2adb9e2f84f81c4b218acb07a2cd3dce64a9 refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZ63kVAAKCRBZrE9hU+XO
-MScwAQCP1vz3A3OK+6hPDGpYNoNB+tFwJ3Q2FY71jBoksltAMAD+L6/qHM8yHC0i
-9BfsG7+u7a5HMQJTTHOOxAQeRFFt9gk=
-=kyfn
------END PGP SIGNATURE-----
-
---===============0928503737025925155==--
