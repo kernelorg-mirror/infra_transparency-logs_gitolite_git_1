@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 13 Feb 2025 15:17:09 -0000
-Message-Id: <173945982976.3644411.12538583280389652473@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Thu, 13 Feb 2025 15:18:23 -0000
+Message-Id: <173945990355.3644998.3409745970733225439@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/main
-    old: 7aca0d8a727da503a8adeb6866a136ded5bea4b1
-    new: c3a97ccaed80986fc3c0581661bf9170847d23ba
+  - ref: refs/heads/master
+    old: 183c843c084a2d2f9521efac2cdc81af60a75f84
+    new: fa4d477ab535851d70fd542968325aaf09679454
     log: |
-         c3a97ccaed80986fc3c0581661bf9170847d23ba Documentation: dpaa2 ethernet switch driver: Fix spelling
+         fa4d477ab535851d70fd542968325aaf09679454 btdev: Broadcast EXT_ADV packets based on its interval
          
