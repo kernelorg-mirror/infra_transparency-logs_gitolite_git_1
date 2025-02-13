@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============6710857175195911087=="
+Content-Type: multipart/mixed; boundary="===============5729036927614201357=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 13 Feb 2025 14:28:34 -0000
-Message-Id: <173945691411.3602424.2376737396885933751@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 13 Feb 2025 14:28:37 -0000
+Message-Id: <173945691710.3602538.17355818707059774786@gitolite.kernel.org>
 
---===============6710857175195911087==
+--===============5729036927614201357==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.15
+  - ref: refs/heads/asoc-6.15
     old: f22ba3561daa792dd138ed543e0bf48efe0b999c
     new: ae575d2145d1a2c8bb5d2835d7d54751f3b0bace
     log: |
@@ -24,28 +24,28 @@ changes:
          ae575d2145d1a2c8bb5d2835d7d54751f3b0bace ASoC: tegra: Remove the isomgr_bw APIs export
          
 
---===============6710857175195911087==
+--===============5729036927614201357==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1739456942 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1739456912-c30eb946daa9649405ab2ef3fd2d257cafbfda99
+pusher C3F436CA30F5D8EB 1739456945 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1739456915-8a13e5f7c070e054e7efeb38661fb9bb907889f8
 
-f22ba3561daa792dd138ed543e0bf48efe0b999c ae575d2145d1a2c8bb5d2835d7d54751f3b0bace refs/heads/for-6.15
+f22ba3561daa792dd138ed543e0bf48efe0b999c ae575d2145d1a2c8bb5d2835d7d54751f3b0bace refs/heads/asoc-6.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmeuAa4ACgkQJNaLcl1U
-h9BCtwf/cvYpKpPah9UuJ30jsWAJhMIHnoi9/0agDo39oQB2ki5GRUktFFPCglya
-qZaIxC2YfhuYqBzRCOnAZyfNQf6qCT3Pyo51YieYDZ8nnjc3qtzf8OuI08AlT1h+
-zAzj4KeU+EZwi1Hdv7I0yf97Nw5kfzrn11t7Wn21C9HwY7T+fhhaTjs3pJ3k6TVx
-1M2a9i1m5msZCa+2QxVVh7eWyu+q7G17o5PtPXM+2xevsbNfYGaEVVuE9/c2oUBY
-K3d8uhwywjwvmI1cK/C7ObpPaqyLOyWv2DXHLAom1tf5xc3WPRNM9ACiDrqED8yi
-FdpXo469Iyrnl5f5AdNzruHi6sMcfw==
-=Ym84
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmeuAbEACgkQJNaLcl1U
+h9B7UQf9Gi1YQfvCB3HHR+kPGU0y+eZEzYDVKBOtwDGUCzsxu3fsUEN3GMUw3ief
+EpAoyGtfFezviFfnORADh9OtGK6KNv1gOeU7AKi3TPeghkQslH4u9Wv7uRnR39c+
+omrYFEw3a4JSbkzVPBGkd4O4Z/kQJ5gjmIGyA0poAC9Cp2YxjUzStkFTR0Z4l0TL
+fToFqVvd/n+0XNHNNLVUQrrksItvDonSmnOp0zeCEC+EywO/zhGyuEyGpoUYRRze
+DTm1RLYEGQaw6fpLSDhSmlTUneweyb7Et2/aFrAtuMRI1K39WzYH2qi3Nbjr8ZOO
+Jxu634lw29KcnzwShyV0hWDtBROacw==
+=HvNT
 -----END PGP SIGNATURE-----
 
---===============6710857175195911087==--
+--===============5729036927614201357==--
