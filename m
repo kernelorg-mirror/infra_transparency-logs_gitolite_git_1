@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 13 Feb 2025 17:32:37 -0000
-Message-Id: <173946795780.3761460.8750964961327489814@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 13 Feb 2025 17:38:05 -0000
+Message-Id: <173946828527.3765695.8158812774601316753@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/asoc-6.15
-    old: 994719ed6d81a6f4677875ab6730254c0bc484ea
-    new: 74e0fcbd705d4277267311f8f26a00bb8ce93820
+  - ref: refs/heads/main
+    old: fee5d688940690cc845937459e340e4e02598e90
+    new: 0892b840318daa6ae739b7cdec5ecdfca4006689
     log: |
-         91931af18bd22437e08e2471f5484d6fbdd8ab93 gpiolib: add gpiod_multi_set_value_cansleep()
-         ad0fbcebb5f6e093d433a0873758a2778d747eb8 ASoC: adau1701: use gpiod_multi_set_value_cansleep
-         74e0fcbd705d4277267311f8f26a00bb8ce93820 gpiolib: add gpiod_multi_set_value_cansleep
+         0d0b752f2497471ddd2b32143d167d42e18a8f3c s390/qeth: move netif_napi_add_tx() and napi_enable() from under BH
+         0892b840318daa6ae739b7cdec5ecdfca4006689 Reapply "net: skb: introduce and use a single page frag cache"
          
