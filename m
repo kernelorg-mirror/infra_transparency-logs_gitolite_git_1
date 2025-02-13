@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 13 Feb 2025 16:38:42 -0000
-Message-Id: <173946472275.3713629.463330935157955777@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 13 Feb 2025 16:39:28 -0000
+Message-Id: <173946476850.3714146.8967325125907450710@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 0469b410c888414c3505d8d2b5814eb372404638
-    new: fee5d688940690cc845937459e340e4e02598e90
+    old: c3a97ccaed80986fc3c0581661bf9170847d23ba
+    new: 4079918ae720e842ed7dff65fedeb9980b374995
     log: |
-         5bef3ac184b5626ea62385d6b82a1992b89d7940 team: better TEAM_OPTION_TYPE_STRING validation
-         a527750d877fd334de87eef81f1cb5f0f0ca3373 ipv6: mcast: add RCU protection to mld_newpack()
-         fee5d688940690cc845937459e340e4e02598e90 mlxsw: Add return value check for mlxsw_sp_port_get_stats_raw()
+         34dba73b231f2a46af88519d573052cc57a84952 sctp: Remove commented out code
+         5077bc7af28f649d669f9cda6b5fedecedfaef2d ixgene-v2: prepare for phylib stop exporting phy_10_100_features_array
+         d30460f42675fef5cd4b44ffbc49b545524555e3 r8169: add support for Intel Killer E5000
+         4079918ae720e842ed7dff65fedeb9980b374995 net: usb: asix_devices: add FiberGecko DeviceID
          
