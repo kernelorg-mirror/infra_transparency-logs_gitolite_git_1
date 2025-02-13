@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 13 Feb 2025 23:42:39 -0000
-Message-Id: <173949015926.4135579.13524898712740809477@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
+Date: Thu, 13 Feb 2025 23:49:16 -0000
+Message-Id: <173949055671.4140259.9306093120728646097@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/hyperv/linux
+user: wei.liu
 changes:
-  - ref: refs/heads/master
-    old: 976f267424b7f7a2235c1ed50a07cfaeddb7d1d0
-    new: 72ab7fe8d26e1a9520d652f80e907af90920b01c
+  - ref: refs/heads/hyperv-next
+    old: 0222eb30a3572cc9c4e2f0a3bb37f8f71089f2b6
+    new: 3a7f7785eae7cf012af128ca9e383c91e4955354
     log: |
-         d8f27ad78e0e9fee07ac963a0d3e861061490e23 foo
-         72ab7fe8d26e1a9520d652f80e907af90920b01c foo
+         7c0db8a4f59d84554a9edc7409bec2ef59063439 cpu: export lockdep_assert_cpus_held()
+         5e4304ff8cd9330690de73df7d047014dce191bd drivers/hv: introduce vmbus_channel_set_cpu()
+         3a7f7785eae7cf012af128ca9e383c91e4955354 drivers/hv: add CPU offlining support
          
