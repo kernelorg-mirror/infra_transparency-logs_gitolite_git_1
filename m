@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4518903495455561273=="
+Content-Type: multipart/mixed; boundary="===============5715084766047693343=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 14 Feb 2025 07:56:01 -0000
-Message-Id: <173951976104.338166.5136826120555085754@gitolite.kernel.org>
+Date: Fri, 14 Feb 2025 07:56:20 -0000
+Message-Id: <173951978052.338454.659252707456777084@gitolite.kernel.org>
 
---===============4518903495455561273==
+--===============5715084766047693343==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,31 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: b36de8b904b8ff2095ece7af6b3cfff8c73c2fb1
-    new: da2e2b500d091293e6be6633d986d4251d926ce3
-    log: revlist-b36de8b904b8-da2e2b500d09.txt
+    old: da2e2b500d091293e6be6633d986d4251d926ce3
+    new: e4cb98b9ef02fede832955307f569ca2855fe133
+    log: |
+         2db7a4b48198b4d4b916d3faffef48f739cb69c1 Merge branch into tip/master: 'irq/urgent'
+         ffaa8aa352f4a76bbb0a39802bd410f83fa1a11e Merge branch into tip/master: 'objtool/urgent'
+         840451f67509423278add105ec272fa5bf81571e Merge branch into tip/master: 'perf/urgent'
+         c55d81b3c1b7e9e47f1d5c29d321141f7b51714a Merge branch into tip/master: 'sched/urgent'
+         e0f72b387900dee515f6980873c00a0a33e61bdf Merge branch into tip/master: 'irq/drivers'
+         01ae62d389e301bec69438e9b076a8d05051d990 Merge branch into tip/master: 'perf/core'
+         14e1f5f9b24f20542940d0227c4405704b5f180f Merge branch into tip/master: 'timers/core'
+         a606f4cd87bfe59e4752ed2eec3cba91a3beb6c9 Merge branch into tip/master: 'x86/cpu'
+         b20165695b5fc9ae151849906d83ca3a9acf2495 Merge branch into tip/master: 'x86/fpu'
+         c1ce18378c90571950444a049b5eb696d865d8ca Merge branch into tip/master: 'x86/misc'
+         e4cb98b9ef02fede832955307f569ca2855fe133 Merge branch into tip/master: 'x86/mm'
+         
+  - ref: refs/heads/tip/urgent
+    old: 43b7d463c11de4f321d8f8983cb262808af4a059
+    new: c55d81b3c1b7e9e47f1d5c29d321141f7b51714a
+    log: revlist-43b7d463c11d-c55d81b3c1b7.txt
 
---===============4518903495455561273==
+--===============5715084766047693343==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b36de8b904b8-da2e2b500d09.txt
+Content-Disposition: attachment; filename=revlist-43b7d463c11d-c55d81b3c1b7.txt
 
 ccb7276a6d26d6f8416e315b43b45e15ee7f29e2 batman-adv: fix panic during interface removal
 e7e34ffc976aaae4f465b7898303241b81ceefc3 batman-adv: Ignore neighbor throughput metrics in error case
@@ -170,6 +186,9 @@ f9af8e7718904f0b77595d1b610c96dd7796c655 Merge tag 'regmap-fix-v6.14-rc2' of git
 d70c6ae53d790d3528a14092ae208d0ed125d7a5 Merge tag 'drm-intel-fixes-2025-02-13' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
 04485cc34868892a823b909c6d5468ba21b63569 Merge tag 'drm-xe-fixes-2025-02-13' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
 128c8f96eb8638c060cd3532dc394d046ce64fe1 Merge tag 'drm-fixes-2025-02-14' of https://gitlab.freedesktop.org/drm/kernel
-da2e2b500d091293e6be6633d986d4251d926ce3 Merge branch 'linus'
+2db7a4b48198b4d4b916d3faffef48f739cb69c1 Merge branch into tip/master: 'irq/urgent'
+ffaa8aa352f4a76bbb0a39802bd410f83fa1a11e Merge branch into tip/master: 'objtool/urgent'
+840451f67509423278add105ec272fa5bf81571e Merge branch into tip/master: 'perf/urgent'
+c55d81b3c1b7e9e47f1d5c29d321141f7b51714a Merge branch into tip/master: 'sched/urgent'
 
---===============4518903495455561273==--
+--===============5715084766047693343==--
