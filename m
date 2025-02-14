@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
-Date: Fri, 14 Feb 2025 10:44:14 -0000
-Message-Id: <173952985447.469884.13930034845817547341@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/fuse
+Date: Fri, 14 Feb 2025 11:04:50 -0000
+Message-Id: <173953109094.486055.16084951129501915339@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jack/linux-fs
-user: jack
+repo: pub/scm/linux/kernel/git/mszeredi/fuse
+user: mszeredi
 changes:
-  - ref: refs/heads/for_next
-    old: 81a82e8f33880793029cd6f8a766fb13b737e6a7
-    new: ef51934a05d3a223b040a23b6e78335f63f74083
+  - ref: refs/heads/for-next
+    old: 56945039a99110ee9412417035cd88a57ef75816
+    new: 150b838b03e887f4e5ffdadcffafef698e34c619
     log: |
-         ef51934a05d3a223b040a23b6e78335f63f74083 ext2: Remove reference to bh->b_page
+         0c67c37e1710b2a8f61c8a02db95a51fe577e2c1 fuse: revert back to __readahead_folio() for readahead
+         d4593923e44af2363f5b9b1f4d77cbff7bae9291 fuse: removed unused function fuse_uring_create() from header
+         712c587442f3fcb09833d9ab3a14437b92b07d68 fuse: Return EPERM rather than ENOSYS from link()
+         150b838b03e887f4e5ffdadcffafef698e34c619 fuse: optmize missing FUSE_LINK support
          
