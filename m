@@ -1,23 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 14 Feb 2025 07:46:35 -0000
-Message-Id: <173951919549.329951.4985848374216350953@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Fri, 14 Feb 2025 07:47:30 -0000
+Message-Id: <173951925060.330395.9029959150006172955@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/sched/core
-    old: f5e5644f37620a7177ec30bf771fe90926ed9e7a
-    new: 2ca37ad02a5c6e954f074d23fbe3c36a90c11af2
+  - ref: refs/heads/for-linus
+    old: c5a9df928ec4d91e8ab7ab3b4c37012e79bc2a09
+    new: 822b7ec657e99b44b874e052d8540d8b54fe8569
     log: |
-         4b411f99745f0c7bf209632246e8a0a00552a8c2 sched: Cancel the slice protection of the idle entity
-         4bb492ccab68cf06b8a97874bde0e5468b424e1e sched: Reduce the default slice to avoid tasks getting an extra tick
-         acd27e39e4baf7e3e131b14e2e47b522178da201 sched: Don't define sched_clock_irqtime as static key
-         8812de7b4b758c2602bd2d886ff5687f3019cbd8 sched/eevdf: Force propagating min_slice of cfs_rq when {en,de}queue tasks
-         2ca37ad02a5c6e954f074d23fbe3c36a90c11af2 sched/fair: Refactor can_migrate_task() to elimate looping
+         325735e83d7d0016e7b61069df2570e910898466 ALSA: hda/tas2781: Fix index issue in tas2781 hda SPI driver
+         822b7ec657e99b44b874e052d8540d8b54fe8569 ALSA: hda: Add error check for snd_ctl_rename_id() in snd_hda_create_dig_out_ctls()
+         
+  - ref: refs/heads/master
+    old: 39d0d7ba54f08be9bd070bc5f0bddfe3952ce35d
+    new: d978c7146a1876c1425ae4718b7e4463fe5be7d4
+    log: |
+         325735e83d7d0016e7b61069df2570e910898466 ALSA: hda/tas2781: Fix index issue in tas2781 hda SPI driver
+         27304b1d141643ee9cfc4b818ed171fdda948099 Merge branch 'for-linus'
+         822b7ec657e99b44b874e052d8540d8b54fe8569 ALSA: hda: Add error check for snd_ctl_rename_id() in snd_hda_create_dig_out_ctls()
+         d978c7146a1876c1425ae4718b7e4463fe5be7d4 Merge branch 'for-linus'
          
