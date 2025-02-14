@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 14 Feb 2025 21:32:50 -0000
-Message-Id: <173956877010.1024161.894526316757470685@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 14 Feb 2025 21:36:13 -0000
+Message-Id: <173956897342.1027707.15446996030293982327@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 348f968b89bfeec0bb53dd82dba58b94d97fbd34
-    new: 054e61bb1de4fa02d148344152007facbcb28583
+    old: 4671bb1a6b2bfa3ca71b7063748d9f7d65fd0f7d
+    new: c6287e1a858e336cc202b484c6138a0fe252c6b3
     log: |
-         054e61bb1de4fa02d148344152007facbcb28583 gve: Update MAINTAINERS
+         c6287e1a858e336cc202b484c6138a0fe252c6b3 net: airoha: Fix TSO support for header cloned skbs
          
