@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0266156432571407967=="
+Content-Type: multipart/mixed; boundary="===============3674102356609282424=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
-Date: Fri, 14 Feb 2025 16:29:23 -0000
-Message-Id: <173955056391.749717.10933696450826590742@gitolite.kernel.org>
+Date: Fri, 14 Feb 2025 16:29:42 -0000
+Message-Id: <173955058297.750625.15489878349293395380@gitolite.kernel.org>
 
---===============0266156432571407967==
+--===============3674102356609282424==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/linux/kernel/git/vbabka/linux
 user: vbabka
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/slub-percpu-sheaves-v2-maple
-    old: 53b3e9903550d5d0e17a1eecda7b63e1dbfd601e
-    new: e0977df1eb1a677d1c1d5f453614df8c634d9fc8
-    log: revlist-53b3e9903550-e0977df1eb1a.txt
+  - ref: refs/heads/slub-percpu-sheaves-v2-maple-hack
+    old: a57edadea6d940fd90659bf172ce349679fb0013
+    new: f149e44ecb02faef3e47597eb05bad0c2f8ff81c
+    log: revlist-a57edadea6d9-f149e44ecb02.txt
 
---===============0266156432571407967==
+--===============3674102356609282424==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1739550590 +0100
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1739550609 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
-nonce 1739550559-be3453ba53529cf91e6ccf7daadcc4be50eb8ec4
+nonce 1739550578-6e9ccec1ef1057664a8e85c1a5ae817858f50ee3
 
-53b3e9903550d5d0e17a1eecda7b63e1dbfd601e e0977df1eb1a677d1c1d5f453614df8c634d9fc8 refs/heads/slub-percpu-sheaves-v2-maple
+a57edadea6d940fd90659bf172ce349679fb0013 f149e44ecb02faef3e47597eb05bad0c2f8ff81c refs/heads/slub-percpu-sheaves-v2-maple-hack
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmevb34ACgkQu+CwddJF
-iJo7bgf/dQoqyHczSw7Khcfw6U+Zz6Y07tKtQGphl/9Li0+8GCslwQCQgZ00PS/D
-5wIewkAun4y3vdh5xr6NUR4VI1Xaq+3Kg+MjXvAzC3dGzz+OWXWGEniF36ieyW4W
-J5AShLbn1/coC2yzw2byJ5QfqGFVvTNOuS8WgwJsvi+z6IAKGsxD14VLuSkT0T/7
-2m1o2M0Hz1lozAbQQof7Lo8bvUF1ZUtZJmq0uS8kI+OrYqNkiWDWyfxKLKL4dRqB
-3RV0MH6JnS0jeRox8IoQQG1zENMkIa/uPMezJNBR0BZj/VegDs6wDDhOOeQTDqn3
-FMvrJTqrzYH002dKuVBOQQe0m1ooEg==
-=e+fK
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmevb5EACgkQu+CwddJF
+iJroPwgAj7CYJQHO9ukKHI/JzTas44002VgaYZAPtouWuwdv+x5CFhS7ceTNjKWh
+C5prLQm+iX7WBrV4crRhqYq2TfG/0aTMQ+76a9sRiMWyTyLzt2xxqeSCZRS128G7
+aAbHfLG14z7hZ1sQ08Jd+oXTG7ZUHbiSiOjQ8vK9MLQo3Bl4XALFuyAhKXhDxyGK
+mhN0NpJkoHY+kSBJecn1e4YH38k2m+7XYNaSTzNYTrnqaN06ELYHYbJno5llUZmW
+gElfsx/+IuXQN2MvPT2zGr+JXMe4Oi3sqCg7dR48QBvET5SfCkwSwwUWWuHwLVeX
+09TyyZMI4qHP4HTJ5PXcqz6hR4nucw==
+=Zqfv
 -----END PGP SIGNATURE-----
 
---===============0266156432571407967==
+--===============3674102356609282424==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-53b3e9903550-e0977df1eb1a.txt
+Content-Disposition: attachment; filename=revlist-a57edadea6d9-f149e44ecb02.txt
 
 aa51424da22467e91af5e548ef1d9a198f97f42a SLUB percpu sheaves
 2f6aaad6cabea304dbf75d1c3636d9c1c4cbbd1f slab: add opt-in caching layer of percpu sheaves
@@ -68,5 +68,7 @@ ef8142115dafd3b1a29f19889e56d5c8508d2b12 maple_tree: Convert forking to use the 
 c6428a00de7edb39fc1155d88e43a43912948bfe maple_tree: Clean up sheaf
 21fe5c1407040a5bcb3fcd932bcd1683bb7d2a94 slab: more optimistic sheaf return
 e0977df1eb1a677d1c1d5f453614df8c634d9fc8 slab: avoid waiting on empty per-cpu sheaf replacement
+bbfcca31d7023d38eaebc6fdd3f10baf05df5753 TESTING, HACK: limit maple node sheaf_capacity to 2
+f149e44ecb02faef3e47597eb05bad0c2f8ff81c TESTING, HACK: sheaves for everyone
 
---===============0266156432571407967==--
+--===============3674102356609282424==--
