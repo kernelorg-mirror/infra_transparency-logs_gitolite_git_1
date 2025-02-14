@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Fri, 14 Feb 2025 14:57:36 -0000
-Message-Id: <173954505689.673541.9856601030140984659@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/ofono/ofono
+Date: Fri, 14 Feb 2025 15:11:40 -0000
+Message-Id: <173954590013.684838.17952116854823561029@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/network/ofono/ofono
+user: denkenz
 changes:
   - ref: refs/heads/master
-    old: 71154d16c5b5fe09b46acdfdf7c8a57f8f2fb892
-    new: b7deab7aacf9a08355cf13c28ce32ea1572864b1
+    old: 49a3e003f74d7fd80c3b9a88d6a218a799c7a420
+    new: 5874690e03ae91191a1d51205b394e6f26fc4429
     log: |
-         b7deab7aacf9a08355cf13c28ce32ea1572864b1 Changes: Ready for 6.11
+         e43d8f1a272e668f24ca944a02404bbe2fe148f4 data: Add T-Mobile MVNO IoT/M2M 'Public' APN.
+         5874690e03ae91191a1d51205b394e6f26fc4429 data: Add T-Mobile MVNO IoT/M2M 'Private' APN.
          
