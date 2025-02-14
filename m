@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2295567892767382516=="
+Content-Type: multipart/mixed; boundary="===============4633030200725460846=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 14 Feb 2025 17:05:58 -0000
-Message-Id: <173955275816.782681.2866774026468767679@gitolite.kernel.org>
+Date: Fri, 14 Feb 2025 17:06:00 -0000
+Message-Id: <173955276071.782760.2935239995871418021@gitolite.kernel.org>
 
---===============2295567892767382516==
+--===============4633030200725460846==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 4079918ae720e842ed7dff65fedeb9980b374995
     new: 7a7e0197133d18cfd9931e7d3a842d0f5730223f
     log: revlist-4079918ae720-7a7e0197133d.txt
 
---===============2295567892767382516==
+--===============4633030200725460846==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -384,4 +384,4 @@ ab68d7eb7b1a64f3f4710da46cc5f93c6c154942 Merge tag 'loongarch-fixes-6.14-1' of g
 348f968b89bfeec0bb53dd82dba58b94d97fbd34 Merge tag 'net-6.14-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 7a7e0197133d18cfd9931e7d3a842d0f5730223f Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============2295567892767382516==--
+--===============4633030200725460846==--
