@@ -1,2476 +1,446 @@
-Content-Type: multipart/mixed; boundary="===============1120842549220992755=="
+Content-Type: multipart/mixed; boundary="===============3769212779402401017=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djwong/xfstests-dev
-Date: Fri, 14 Feb 2025 19:12:09 -0000
-Message-Id: <173956032964.882635.17919501045021006550@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Fri, 14 Feb 2025 19:21:44 -0000
+Message-Id: <173956090442.892532.17650683879089804337@gitolite.kernel.org>
 
---===============1120842549220992755==
+--===============3769212779402401017==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djwong/xfstests-dev
-user: djwong
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/capture-mount-failures
-    old: 6eda447b974dcfb0f46be0096ca68aa933f345f8
-    new: bdb8d5b12dce088300febe37bcba4d1d491d93ca
-    log: revlist-6eda447b974d-bdb8d5b12dce.txt
-  - ref: refs/heads/defrag-freespace
-    old: 67a4d649741063da5f72aa25ad24b97bea4869dc
-    new: f5ab70a1cb4a070b3f54c36dcafbe7f029018726
-    log: revlist-67a4d6497410-f5ab70a1cb4a.txt
-  - ref: refs/heads/djwong-wtf
-    old: 95fc04c2a0dfeb49147a18724db519f7bf4a1482
-    new: c625e668d96fc68c6b5991c1f63e64d055b2ab96
-    log: revlist-95fc04c2a0df-c625e668d96f.txt
-  - ref: refs/heads/fix-fsck-test-classifications
-    old: 1f2b2dd22e5ace902bfc19b106037b4c3627238a
-    new: 8f3c6ef4f22d570b2e5b52814af3b98bc66f6bbd
-    log: revlist-1f2b2dd22e5a-8f3c6ef4f22d.txt
-  - ref: refs/heads/fuzz-baseline
-    old: 6a53aa4b34e333cd39bdba050b02a37883cdbc74
-    new: 05789a25580bc31b333498f52236c068dc1a359a
-    log: revlist-6a53aa4b34e3-05789a25580b.txt
-  - ref: refs/heads/health-monitoring
-    old: 08c7b0d9edfb0b1c8811d8966465d39bc4dbf15e
-    new: 55f3dff2d75008a9d511bab3e2a6885594f8f2e4
-    log: revlist-08c7b0d9edfb-55f3dff2d750.txt
-  - ref: refs/heads/linux-6.14-sync
-    old: 0ef94e61917a9178aa14aed6a664a0bf1a03f6e6
-    new: ccea7893fbab78113c98df2f9443d7658ef95473
-    log: revlist-0ef94e61917a-ccea7893fbab.txt
-  - ref: refs/heads/logwrites-fix-zeroing
-    old: 6f5843d2f4fd2d27bc002764d2950dae53bf3e5f
-    new: 2864104b825b638aa79097d434754839bdc4a396
-    log: revlist-6f5843d2f4fd-2864104b825b.txt
-  - ref: refs/heads/metadir
-    old: 211788a284f9c61b78cfa58f889fb772243d56bf
-    new: 8be87eb2ad2217b447bd74ebb3b0f08dfa90f89a
-    log: revlist-211788a284f9-8be87eb2ad22.txt
-  - ref: refs/heads/metadir-quotas
-    old: 90216122795aeccb8f8bc3f14293eb49c24a8d4f
-    new: ff82765085efe4952f829bfffd524ea97299c625
-    log: revlist-90216122795a-ff82765085ef.txt
-  - ref: refs/heads/protofiles
-    old: cfd0b086f0896b7031ee50d373214379f7c33795
-    new: 47af2b9cd14181655d4d519ba1f9f2f44102d4ae
-    log: revlist-cfd0b086f089-47af2b9cd141.txt
-  - ref: refs/heads/random-fixes
-    old: c71645f55601098372b8319b09370de54cb59d73
-    new: 05a09df063e22a555930b077b9241a39b1895d3d
-    log: revlist-c71645f55601-05a09df063e2.txt
-  - ref: refs/heads/rdump
-    old: a8ab29bcd96be205689fc1e747e806fad73e0c44
-    new: 58d410795d1598d4144ed84473919e7af7737051
-    log: revlist-a8ab29bcd96b-58d410795d15.txt
-  - ref: refs/heads/realtime-groups
-    old: d2bd4cbe8f5d9cd7a1d11cc467b77a8d38911e7b
-    new: 798ed5531c6c9518cf6e9bba823e613ab8cb4afa
-    log: revlist-d2bd4cbe8f5d-798ed5531c6c.txt
-  - ref: refs/heads/realtime-quotas
-    old: 7e71091c87d4f5dcf61b0693c2ed8c82d36efd1b
-    new: 7a38ce3989626fa31d48ae0f1061e1732e85d077
-    log: revlist-7e71091c87d4-7a38ce398962.txt
-  - ref: refs/heads/realtime-reflink
-    old: cc0cd05e1a21b09dc5602d231b448a1d3d1d9280
-    new: f96f21a89253600af0b9869e576b8084a651ce5a
-    log: revlist-cc0cd05e1a21-f96f21a89253.txt
-  - ref: refs/heads/realtime-reflink-extsize
-    old: c657a830dab28fdcbe29802f6a15af8281dca694
-    new: 90308efca65ba5f655d6977ee609c6054d46120e
-    log: revlist-c657a830dab2-90308efca65b.txt
-  - ref: refs/heads/realtime-rmap
-    old: 01a5e5f945830440d174964f71d2b179dc2b7366
-    new: b07e6a8f0405e640f64821e40a6d79df06709ae7
-    log: revlist-01a5e5f94583-b07e6a8f0405.txt
-  - ref: refs/heads/report-refcounts
-    old: 6664108f3b91fe612e7d95992ae9cecb9bb6e456
-    new: 1f2ee851bbce012267591b1ce332398bdb6c1d1a
-    log: revlist-6664108f3b91-1f2ee851bbce.txt
-  - ref: refs/heads/upgrade-newer-features
-    old: 3a3ca27fc61b86379415032a6f222a027a252c55
-    new: 917ba5b60a74a597ae1e5fdee76dba26f3bf5879
-    log: revlist-3a3ca27fc61b-917ba5b60a74.txt
-  - ref: refs/heads/upgrade-older-features
-    old: 0ad47cd78891f14ff3906dc9ba247781260ee856
-    new: 00878f4733cdbc72a795fd8f109bf3f207b8051a
-    log: revlist-0ad47cd78891-00878f4733cd.txt
-  - ref: refs/heads/zoned
-    old: 32a5c810d2695bec28d9f6d61a6f23b32bb3e79a
-    new: c4b8f400a504683f35eb820b0f53511725a4a8db
-    log: revlist-32a5c810d269-c4b8f400a504.txt
-  - ref: refs/tags/random-fixes_2025-02-14
-    old: 0000000000000000000000000000000000000000
-    new: d0bf3db2e5b75b8dfe199f7801f8fef4511ae5e7
-  - ref: refs/tags/logwrites-fix-zeroing_2025-02-14
-    old: 0000000000000000000000000000000000000000
-    new: f233ab8a5e6125ea0b824dea13d8551ab549db3b
-  - ref: refs/tags/fix-fsck-test-classifications_2025-02-14
-    old: 0000000000000000000000000000000000000000
-    new: 9a4ee0655eccb03abc473b34bf3c2349e0877f3e
-  - ref: refs/tags/metadir_2025-02-14
-    old: 0000000000000000000000000000000000000000
-    new: 6f5c7741fbed060b5871945a64c4784269c74b12
-  - ref: refs/tags/protofiles_2025-02-14
-    old: 0000000000000000000000000000000000000000
-    new: 469e039f6cc08c1490695907fe5bec054217505c
-  - ref: refs/tags/realtime-groups_2025-02-14
-    old: 0000000000000000000000000000000000000000
-    new: 802d10f6cda3317cf85ae939ce0ed9fb1634ca40
-  - ref: refs/tags/metadir-quotas_2025-02-14
-    old: 0000000000000000000000000000000000000000
-    new: 6bbac84495e1b23d96ffc6ff8f473597d8c10cbf
-  - ref: refs/tags/realtime-quotas_2025-02-14
-    old: 0000000000000000000000000000000000000000
-    new: 452bb8a591e4abe05bb48d883537776f240460cb
-  - ref: refs/tags/linux-6.14-sync_2025-02-14
-    old: 0000000000000000000000000000000000000000
-    new: e05d4eb2c74aa43f4cd4a3197d7841d38058ca62
-  - ref: refs/tags/realtime-rmap_2025-02-14
-    old: 0000000000000000000000000000000000000000
-    new: 01038b4a93744ce0ee66017b7808016fbe4cacd0
-  - ref: refs/tags/realtime-reflink_2025-02-14
-    old: 0000000000000000000000000000000000000000
-    new: 2ad6163a1e2a69c39c4968c9957c241c7d033a34
-  - ref: refs/tags/rdump_2025-02-14
-    old: 0000000000000000000000000000000000000000
-    new: 94b84ef85141d613d572368c8a85e4b81df82a57
-  - ref: refs/tags/upgrade-older-features_2025-02-14
-    old: 0000000000000000000000000000000000000000
-    new: 6adaf9c43e177467dd866f0945a496c3dbbadee3
-  - ref: refs/tags/zoned_2025-02-14
-    old: 0000000000000000000000000000000000000000
-    new: 7a96554442bccd88f112aacabe7f1c73203caf8c
-  - ref: refs/tags/realtime-reflink-extsize_2025-02-14
-    old: 0000000000000000000000000000000000000000
-    new: 7d5f55b1fb868c079cb5fa621986c01894acc8f2
-  - ref: refs/tags/report-refcounts_2025-02-14
-    old: 0000000000000000000000000000000000000000
-    new: 38fe1418119c908d007e387d660c709644282bba
-  - ref: refs/tags/defrag-freespace_2025-02-14
-    old: 0000000000000000000000000000000000000000
-    new: b18c8c62fcaf4ccbc2717d9456f69879eae4fffe
-  - ref: refs/tags/capture-mount-failures_2025-02-14
-    old: 0000000000000000000000000000000000000000
-    new: 5c3e9852f1b010d8d0765a5de253cd0561ba0351
-  - ref: refs/tags/health-monitoring_2025-02-14
-    old: 0000000000000000000000000000000000000000
-    new: da37d1e4e7a6f5b8f1a2c2b806179683bd82696f
-  - ref: refs/tags/upgrade-newer-features_2025-02-14
-    old: 0000000000000000000000000000000000000000
-    new: 30ab586364fca01a6c718d112e1e003b4bcc7897
-  - ref: refs/tags/fuzz-baseline_2025-02-14
-    old: 0000000000000000000000000000000000000000
-    new: 59b7cd0aca3fefeda95cf25f5fcd0889fd2b1caf
-  - ref: refs/tags/djwong-wtf_2025-02-14
-    old: 0000000000000000000000000000000000000000
-    new: 0060fae223340d28de76078c361349c1294d1f55
+  - ref: refs/heads/100GbE
+    old: 4e41231249f4083a095085ff86e317e29313c2c3
+    new: 48ccdcd87e0d2d4c82eb50eaff53c6aeb9a8372b
+    log: revlist-4e41231249f4-48ccdcd87e0d.txt
 
---===============1120842549220992755==
+--===============3769212779402401017==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6eda447b974d-bdb8d5b12dce.txt
+Content-Disposition: attachment; filename=revlist-4e41231249f4-48ccdcd87e0d.txt
 
-71b9fbc7dc60c9d57057d32a0a9d0e4014e11580 generic/476: fix fsstress process management
-71ba6462f79af02027b0940d010f68ab582e2b50 metadump: make non-local function variables more obvious
-9ac6e6551c36ae9078e35bfc4e71b20999a8aa4f metadump: fix cleanup for v1 metadump testing
-6daf90b77a497cdd8cdbb273e460466c4fd50360 generic/019: don't fail if fio crashes while shutting down
-8abb2fe36c8c2dce1c9fd146fd437f37fbaca243 fuzzy: do not set _FSSTRESS_PID when exercising fsx
-1f3725f9c4e85163325580000cfece6506164ff1 common/rc: revert recursive unmount in _clear_mount_stack
-0a77c9db4af8f84270cb2bf00675bfc2e2ea34fa common/dump: don't replace pids arbitrarily
-382f64ab64d0ee2ee3e99e2de617f8fc9789576d common/populate: correct the parent pointer name creation formulae
-a6d10c48a753f9fd5bffc6d6db7c06623ab53601 generic/759,760: fix MADV_COLLAPSE detection and inclusion
-62a6c738512e5a5560fa63fb599e042e33cfa2de generic/759,760: skip test if we can't set up a hugepage for IO
-b994081cca0d6899d149bbed5efb79233f46dd41 common/rc: create a wrapper for the su command
-09a0263fa1f10c575a23d9e232bafe8a33d00ec7 fuzzy: kill subprocesses with SIGPIPE, not SIGINT
-4c9814b08fe0bbf0002e7d25b33503fa24a13468 common/rc: hoist pkill to a helper function
-5a049b3acb18d3973640d0a6d7f5c519e8cf9b3e tools: add a Makefile
-a40000f7c5cc62dee902b341721e435a09cd4636 common: fix pkill by running test program in a separate session
-aa5626953c0e9e4f41a7e59a204d8238bfc443a9 check: run tests in a private pid/mount namespace
-10aa1570c280b1c2642d99616687aaa257923a55 check: deprecate using process sessions to isolate test instances
-2e0f4b85384039fa5d131ac27d92bf2059e2d283 common/rc: don't copy fsstress to $TEST_DIR
-318c61bfc97d58bb235846f0c038f328fb2a64fb unmount: resume logging of stdout and stderr for filtering
-c272d36ae2cbf09515a4383d2c1e4bfaf5f66e1b mkfs: don't hardcode log size
-e6ffb1248b3c8dad4a49d4117da5b167ad8b5e63 common/rc: return mount_ret in _try_scratch_mount
-aa4e8714b387942a2b58c0d660ed3dcc9a323cdb preamble: fix missing _kill_fsstress
-4467fd59324d3678b2cc145c6309ce8d3f024382 generic/650: revert SOAK DURATION changes
-c363f931277131b817d585594b07a3e45e995141 generic/032: fix pinned mount failure
-3bf5379f3c5a032aee200c8d97d0e082461933ea fuzzy: stop __stress_scrub_fsx_loop if fsx fails
-1bfba9f17d777007dc5345fdfa67bf4654ccb5d4 fuzzy: don't use readarray for xfsfind output
-edcd688315ba8e8f674a9f2eca3858825b7cadb6 fuzzy: always stop the scrub fsstress loop on error
-c86af3857d210e6450a86185e3ad705200144cc9 fuzzy: port fsx and fsstress loop to use --duration
-81b07f6f7ff1e8fbf34373d515c1c572801bba3a fix _require_scratch_duperemove ordering
-87c9bb1191e7d264c7276b29e3d873164a54e252 fsstress: fix a memory leak
-65b187eea39c66f0e7e95677a413c8669be1de01 fsx: fix leaked log file pointer
-501982639ede1089574f98a706367c8722a74cf1 misc: don't put nr_cpus into the fsstress -n argument
-186c55fc693ef0c5656b17f67906ccd2cd29b1ce common/config: add $here to FSSTRESS_PROG
-21dd6aa8add9b1ad5a6d6cf332c3af21711670d7 config: add FSX_PROG variable
-05a09df063e22a555930b077b9241a39b1895d3d build: initialize stack variables to zero by default
-0a327266fa41c76179744039a1fb0a3d2170e14f logwrites: warn if we don't think read after discard returns zeroes
-2d41bcb85d24bd0a5fc3f66535e8d42fc927cb74 logwrites: use BLKZEROOUT if it's available
-2864104b825b638aa79097d434754839bdc4a396 logwrites: only use BLKDISCARD if we know discard zeroes data
-1c9f4dace0b0b2fce38b44aa67aea4a472f2ac4c misc: drop the dangerous label from xfs_scrub fsstress tests
-64a59ec65090469ba089dd90e93728682d03eebc misc: rename the dangerous_repair group to fuzzers_repair
-7246c9b7af90e5cd27266da28ddb419a6097991d misc: rename the dangerous_online_repair group to fuzzers_online_repair
-1f7525c46184263be2372b856383a206e0610b5b misc: rename the dangerous_bothrepair group to fuzzers_bothrepair
-ad9d28f0b6408e9d4c2b741e386e8449ba273483 misc: rename the dangerous_norepair group to fuzzers_norepair
-25f41535a940ff42e4eeae1cc716733f909ac0d9 misc: fix misclassification of xfs_repair fuzz tests
-b4699f272dee01232ccd4db60085c101ebd48ad7 misc: fix misclassification of xfs_scrub + xfs_repair fuzz tests
-c8bd09c5f059cbf229c28f9241c4f1bd7cd692d9 misc: fix misclassification of verifier fuzz tests
-8e8a0fbd536f4a5e0ebe270c856be319a9e24fa0 misc: add xfs_scrub + xfs_repair fuzz tests to the scrub and repair groups
-b83d8c1733a62264932a34c660ddf310b3cd1e67 misc: remove the dangerous_scrub group
-5836b6b1672b0b795bc8adc581739419e83dd51e xfs/28[56],xfs/56[56]: add to the auto group
-8f3c6ef4f22d570b2e5b52814af3b98bc66f6bbd xfs/349: reclassify this test as not dangerous
-8687513be9f6f8f5f82c3cbac47f4e5ec8ca5567 various: fix finding metadata inode numbers when metadir is enabled
-d694b3b053dc3ad03dc64b138a3e5431abb7b18e xfs/{030,033,178}: forcibly disable metadata directory trees
-20a4bb362eb2b73ae0c477d4d90059cd039b3231 common/repair: patch up repair sb inode value complaints
-22130bbe38b59022be78279763223540f96cbfd8 xfs/206: update for metadata directory support
-1c9f3ea545426317edcc34faa4f8779163acc046 xfs/{050,144,153,299,330}: update quota reports to handle metadir trees
-6515675a941b02c549bcd1d3b10e5eb76bd6784b xfs/509: adjust inumbers accounting for metadata directories
-215411f56f4ef9fd056b746321db917f628cb930 xfs: create fuzz tests for metadata directories
-badf1a41abfd9a1036f103ef40eb34b09b86f1e3 xfs/163: bigger fs for metadir
-2258ffabb2f441df784e1bdfe44bfda827209644 xfs/122: disable this test for any codebase that knows about metadir
-34b1206de260b29db854627f8d1b567e3254683b common/populate: label newly created xfs filesystems
-c7e34d0e85df10504defb00b6e70b287c6648f46 scrub: race metapath online fsck with fsstress
-8be87eb2ad2217b447bd74ebb3b0f08dfa90f89a xfs: test metapath repairs
-911dcb4667c56ec3c535a259fcb3eccfa3d584fa xfs/019: reduce _fail calls in test
-758f1cee8877bd8f11b7e9fd816ae87ccb128cf6 xfs/019: test reserved file support
-bc892233c30147c0887d54889cee8b7b6078e99a xfs: test filesystem creation with xfs_protofile
-47af2b9cd14181655d4d519ba1f9f2f44102d4ae fstests: test mkfs.xfs protofiles with xattr support
-272f73b04effe28c8fc386601777c1d2189eb0e1 common/populate: refactor caching of metadumps to a helper
-39ced3a5ade28852b2a061b226ccdf6afbe832b9 common/{fuzzy,populate}: use _scratch_xfs_mdrestore
-3e6647019507585a6ca92cb4c00bb2eba1957c7e fuzzy: stress data and rt sections of xfs filesystems equally
-596dbc099f371145189fbdb5a0aec3ecc3a7efd7 fuzzy: run fsx on data and rt sections of xfs filesystems equally
-d747356eca2f78a9dfcf6bf8531eba46619423e7 common/ext4: reformat external logs during mdrestore operations
-92a2e7c6e08ae93efaa539af655aa10f746c886d common/populate: use metadump v2 format by default for fs metadata snapshots
-12ce398860d15232e133532bb44d74cd7097c324 punch-alternating: detect xfs realtime files with large allocation units
-265ebcf15239f11de95606ea2687b4aa9637080f xfs/206: update mkfs filtering for rt groups feature
-c3c5c34c6f30f27d1fb828511ae5996276acd120 common: pass the realtime device to xfs_db when possible
-fe50c474629ba27a42c287a5e993b0ffe823e028 xfs/185: update for rtgroups
-63624fab4aee35502d025e5eea386e65ba6bb709 xfs/449: update test to know about xfs_db -R
-b025145d9a96a7e0979f0ba46dd9c0f4418aa4ff xfs/271,xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
-44fdf216d95c07aa129330a0adb31aeead5cbea8 common/xfs: capture realtime devices during metadump/mdrestore
-34058229131b5fbe55a7d4bcf98da52694301f05 common/fuzzy: adapt the scrub stress tests to support rtgroups
-798ed5531c6c9518cf6e9bba823e613ab8cb4afa xfs: fix fuzz tests of rtgroups bitmap and summary files
-cebd1b62318ddae6544f174aad0fef7068b2706d xfs: update tests for quota files in the metadir
-be6577d3ee06d2803c82cc7b2b655b233d9b10c4 xfs: test persistent quota flags
-dd0ebc3bd519547aab7a7c5ddcc583b46568383b xfs: fix quota detection in fuzz tests
-ff82765085efe4952f829bfffd524ea97299c625 xfs: fix tests for persistent qflags
-15320637a298308a53935e0e765458b83c0f876d common: enable testing of realtime quota when supported
-c17f2f00bfa418a0a74c13e229356af74b17d4f4 xfs: fix quota tests to adapt to realtime quota
-7a38ce3989626fa31d48ae0f1061e1732e85d077 xfs: regression testing of quota on the realtime device
-ccea7893fbab78113c98df2f9443d7658ef95473 common: test statfs reporting with project quota
-fcd7870a3185b18aa286fc1593f6657877903c33 xfs: fix tests that try to access the realtime rmap inode
-bbe090d4c6e0ef574a9ecf49ac5fa5d9aa196f6a xfs/336: port to common/metadump
-9e9ee02e5295da1febd50dbf3444ddce4a39f82a fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
-4858f2d3a32369db38a6a4bb3985e7c18648ae4e xfs: race fsstress with realtime rmap btree scrub and repair
-8c46b2f68b05302bb9c790b31e1e0e8c32a10d12 xfs: fix various problems with fsmap detecting the data device
-0cc9170ab8577cc41beba1781f400e47cc044644 xfs/341: update test for rtgroup-based rmap
-cd3f52418fca1d6182ac70bdb8b1d1f418327782 xfs/3{43,32}: adapt tests for rt extent size greater than 1
-6d9a7890bba23515947b7381790c86a10a68041d xfs/291: use _scratch_mkfs_sized instead of opencoding the logic
-817f765e9e56e56a4d27e6f6166d9115c5a0c6bc xfs: skip tests if formatting small filesystem fails
-b4cae97490980889b1e6f7fccca104c79dc2a6ef xfs/443: use file allocation unit, not dbsize
-9157f88e14b9bfb93ee4d54ade8ec669efc8c9b7 populate: adjust rtrmap calculations for rtgroups
-8ea7b2ae8cb866151f6b57a965e5ae383713f9ea populate: check that we created a realtime rmap btree of the given height
-b07e6a8f0405e640f64821e40a6d79df06709ae7 fuzzy: create missing fuzz tests for rt rmap btrees
-e9e0a211a247a3a27950a9d761eeed3bb50cbb4c common/populate: create realtime refcount btree
-30851f0862575c642992d503a797830c6bc19549 xfs: create fuzz tests for the realtime refcount btree
-686e2972c8040b642d0869214043f7c4ecb8721e xfs/27[24]: adapt for checking files on the realtime volume
-dbc0d40594a5b9a3e3a27865375a04c5a13bfa03 xfs: race fsstress with realtime refcount btree scrub and repair
-9c3e8f0cbd42e02a56a82444d86296c233674f0b xfs: remove xfs/131 now that we allow reflink on realtime volumes
-2eddea095ccb9dbf214f85a8304fb21101c94e82 generic/331,xfs/240: support files that skip delayed allocation
-f96f21a89253600af0b9869e576b8084a651ce5a common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
-58d410795d1598d4144ed84473919e7af7737051 xfs: test filesystem recovery with rdump
-00878f4733cdbc72a795fd8f109bf3f207b8051a xfs: test upgrading old features
-601d58ed0ebc57ccd78babc56c705b6492332bf7 xfs/614: determine the sector size of the fs image by doing a test format
-c4b8f400a504683f35eb820b0f53511725a4a8db xfs/206: adapt for zoned realtime
-d12dc8e2317ed76210383e218de9408e9dcc105d xfs: make sure that CoW will write around when rextsize > 1
-bd2386c5254d6f564338f08c122f34c7a35b9d90 xfs: skip cowextsize hint fragmentation tests on realtime volumes
-daf3d9c6d1715fa7edd39c5807449bd5d0d687f3 misc: add more congruent oplen testing
-c39ac828e227759ed8766178bc3ab641318c35c8 xfs: test COWing entire rt extents
-90308efca65ba5f655d6977ee609c6054d46120e generic/303: avoid test failures on weird rt extent sizes
-1f2ee851bbce012267591b1ce332398bdb6c1d1a xfs: test output of new FSREFCOUNTS ioctl
-f5ab70a1cb4a070b3f54c36dcafbe7f029018726 xfs: test clearing of free space
-1275f0ff4d4f49128e12028b0dd80f75ce3e2659 treewide: convert all $MOUNT_PROG to _mount
-bdb8d5b12dce088300febe37bcba4d1d491d93ca check: capture dmesg of mount failures if test fails
+3c47c2ccd5a29c78780ccfd0227a805f3873ab1c nvmet: fix rw control endian access
+d68fc95a771e0a7edd876ede7913d61276be77fd nvme-pci: remove redundant dma frees in hmb
+dbf2bb1a1319b7c7d8828905378a6696cca6b0f2 nvme-pci: Add TUXEDO InfinityFlex to Samsung sleep quirk
+11cb3529d18514f7d28ad2190533192aedefd761 nvme-pci: Add TUXEDO IBP Gen9 to Samsung sleep quirk
+ccb7276a6d26d6f8416e315b43b45e15ee7f29e2 batman-adv: fix panic during interface removal
+9bcbb6104a344d3526e185ee1e7b985509914e90 KVM: arm64: Flush hyp bss section after initialization of variables in bss
+3429dd57f0deb1a602c2624a1dd7c4c11b6c4734 sched/fair: Fix inaccurate h_nr_runnable accounting with delayed dequeue
+b893d7ff853e27aa6000fc4ca12e0ffda3318bfc scsi: core: Add passthrough tests for success and no failure definitions
+1b3e2d4ec0c5848776cc56d2624998aa5b2f0d27 scsi: ufs: core: Fix the HIGH/LOW_TEMP Bit Definitions
+c9d2782988df354b5a2db00be93920b4ecdde7a2 scsi: target: core: Add line break to status show
+8c09f612b2937da109ed0df583ace3a29fc95a93 scsi: ufs: core: Simplify temperature exception event handling
+e7e34ffc976aaae4f465b7898303241b81ceefc3 batman-adv: Ignore neighbor throughput metrics in error case
+8c8ecc98f5c65947b0070a24bac11e12e47cc65d batman-adv: Drop unmanaged ELP metric worker
+d3d380eded7ee5fc2fc53b3b0e72365ded025c4a nvme-fc: go straight to connecting state when initializing
+294b2b7516fd06a8dd82e4a6118f318ec521e706 nvme: handle connectivity loss in nvme_set_queue_count
+ee59e3820ca92a9f4307ae23dfc7229dc8b8d400 nvme-fc: do not ignore connectivity loss during connecting
+93c66fbc280747ea700bd6199633d661e3c819b3 powercap: call put_device() on an error path in powercap_register_control_type()
+5e0e02f0d7e52cfc8b1adfc778dd02181d8b47b4 futex: Pass in task to futex_queue()
+58f5c8d5ca07a2f9fa93fb073f5b1646ec482ff2 nvmet: fix a memory leak in controller identify
+64a1ba4072b34af1b76bf15fca5c2075b8cc4d64 wifi: ath12k: fix handling of 6 GHz rules
+e0f63bc68f59d281e2d06e596f6c1bd9382a15cd drm/print: Include drm_device.h
+41f198d58b6f2b36f9f8a4481d517369b324e773 tomoyo: fix spelling error
+691a1f3f180133965d01e0ab0f332248d0345554 tomoyo: fix spelling errors
+fd39c41bcd82d5ebaaebadb944eab5598c668a90 drm/ast: astdp: Fix timeout for enabling video signal
+7bf6b497a747b0e28a411beacdd62f1488d0781c nvmet: the result field in nvmet_alloc_ctrl_args is little endian
+cc3d4671a0db9499b201c43faba6c46e1a21274c nvmet: add a missing endianess conversion in nvmet_execute_admin_connect
+0e9724d0f89e8d77fa683e3129cadaed7c6e609d wifi: brcmfmac: use random seed flag for BCM4355 and BCM4364 firmware
+3319569bf9d8b4d8c5aaf0d410b620210c4bb317 Merge tag 'ath-current-20250124' of git://git.kernel.org/pub/scm/linux/kernel/git/ath/ath
+f4c9c2cc827d803159730b1da813a0c595969831 batman-adv: Fix incorrect offset in batadv_tt_tvlv_ogm_handler_v1()
+e1e17a1715982201034024863efbf238bee2bdf9 firmware: iscsi_ibft: fix ISCSI_IBFT Kconfig entry
+07e0d99a2f701123ad3104c0f1a1e66bce74d6e5 iscsi_ibft: Fix UBSAN shift-out-of-bounds warning in ibft_attr_show_nic()
+79fc672a092d93a7eac24fe20a571d4efd8fa5a4 drm/komeda: Add check for komeda_get_layer_fourcc_list()
+bdc35f164b0f60480b2f5e098bb8f3c0cea05cd2 tomoyo: use better patterns for procfs in learning mode
+ee2ab467bddfb2d7f68d996dbab94d7b88f8eaf7 x86/boot: Use '-std=gnu11' to fix build with GCC 15
+9065ce69754dece78606c8bbb3821449272e56bf sched/debug: Provide slice length for fair tasks
+5f230f41fdd9e799f43a699348dc572bca7159aa KVM: s390: vsie: fix some corner-cases when grabbing vsie pages
+c5f64c98a1f7e4ca0e55b441620473389b8c7a72 KVM: s390: vsie: stop using page->index
+905f5ce0835c938c501237d9371cdbc91d8f7e02 KVM: s390: vsie: stop messing with page refcount
+4514eda4c1dbd0b7062e06c769d2ceafd25c9284 KVM: s390: vsie: stop using "struct page" for vsie page
+66119f8ce135de664cb2fb88d9aaa322d7451a1f KVM: Do not restrict the size of KVM-internal memory regions
+decff09adbeba4b75a1982b1dc3991761914e2df KVM: s390: wrapper for KVM_BUG
+413c98f24c63b3b8aff202fce6f01e8950730511 KVM: s390: fake memslot for ucontrol VMs
+63e71519891024b622d00c486c4d0348c44ca911 KVM: s390: selftests: fix ucontrol memory region test
+5cbe24350b7d8ef6d466a37d56b07ae643c622ca KVM: s390: move pv gmap functions into kvm
+3762e905ec2e498c96464e094b7d46be98151d3b KVM: s390: use __kvm_faultin_pfn()
+6eb84e130075b9ea35a946dcf9a2476ac2c749a0 KVM: s390: get rid of gmap_fault()
+d41993f71385ce7e9661c203e02a588a93a59b24 KVM: s390: get rid of gmap_translate()
+c9f721ed8ec6942dad951d2d8c4fca291170165e KVM: s390: move some gmap shadowing functions away from mm/gmap.c
+37d1b5d8d588a9761e47d9941005e2da7def8310 KVM: s390: stop using page->index for non-shadow gmaps
+ef0c8ef8485d9629c6d042cea8f2082f159b467e KVM: s390: stop using lists to keep track of used dat tables
+43656f774a4b4a2841035947e89dcde8ee136caa KVM: s390: move gmap_shadow_pgt_lookup() into kvm
+c27e002626b9fbd2729fa00ddda789319648e7ba KVM: s390: remove useless page->index usage
+1f4389931e9fea7e8b3c1f189d505b040b25be8a KVM: s390: move PGSTE softbits
+84b7387692a8c849bd8bddd0f5c5474d4923aa6e KVM: s390: remove the last user of page->index
+32239066776a27287837a193b37c6e55259e5c10 KVM: s390: selftests: Streamline uc_skey test to issue iske after sske
+6daaae5ff7f3b23a2dacc9c387ff3d4f95b67cad gpu: drm_dp_cec: fix broken CEC adapter properties check
+2d1a2dab95cdc6f2e0c6af3c0514b0bea94af482 nvme: make nvme_tls_attrs_group static
+c8ed6cb5d37bc09c7e25e49a670e9fd1a3bd1dfa nvme-fc: use ctrl state getter
+a572593ac80e51eb69ecede7e614289fcccdbf8d md: Fix linear_set_limits()
+0f1a6c5c9784eff7e31e4915e17285fb89ad3644 KVM: arm64: Flush/sync debug state in protected mode
+7faf14a7b0366f153284db0ad3347c457ea70136 nfsd: clear acl_access/acl_default after releasing them
+b9382e29ca538b879645899ce45d652a304e2ed2 nfsd: validate the nfsd_serv pointer before calling svc_wake_up
+64b48ec36dbed561ab1cd99708c33d96f4b7b729 drivers/block/sunvdc.c: update the correct AIP call
+fa803513ab68ba07369643393f1754b845160030 cpufreq/amd-pstate: Fix per-policy boost flag incorrect when fail
+f3be8a9b1afffbcc70f8e41063b151b1038d7813 accel/ivpu: Fix error handling in ivpu_boot()
+f2bc2afe34c107a02ce829a4039e85514feafe55 accel/ivpu: Clear runtime_error after pm_runtime_resume_and_get() fails
+41a2d8286c905614f29007f1bc8e652d54654b82 accel/ivpu: Fix error handling in recovery/reset
+48e487b002891eb0aeaec704c9bed51f028deff1 HID: corsair-void: Add missing delayed work cancel for headset status
+c098363828f7006ef5c5121b673bc5e26571e6c8 HID: corsair-void: Initialise memory for psy_cfg
+4b54ae69197b9f416baa0fceadff7e89075f8454 HID: intel-ish-hid: fix the length of MNG_SYNC_FW_CLOCK in doorbell
+7e0d1cff12b895f44f4ddc8cf50311bc1f775201 HID: intel-ish-hid: Send clock sync message immediately after reset
+52572cde8b4a44676557ccb67b035291833112c5 HID: lenovo: select CONFIG_ACPI_PLATFORM_PROFILE
+a5a056c8d2ba60017dffb914bdf92c5562defc48 HID: intel-thc: fix CONFIG_HID dependency
+363236d709e75610b628c2a4337ccbe42e454b6d HID: ignore non-functional sensor in HP 5MP Camera
+05c4ede6951b5d8e083b6bb237950cac59bdeb92 HID: hid-steam: Fix issues with disabling both gamepad mode and lizard mode
+6f36f103cff1737094f2187b1f9a7b312820d377 pinctrl: cy8c95x0: Fix off-by-one in the regmap range settings
+3fbe3fe28764455e4fc3578afb9765f46f9ce93d pinctrl: cy8c95x0: Avoid accessing reserved registers
+aac4470fa6e695e4d6ac94cc77d4690b57f1d2bc pinctrl: cy8c95x0: Enable regmap locking for debug
+0a7404fc5399e1100b14e7e2a4af2e4fd5e3b602 pinctrl: cy8c95x0: Rename PWMSEL to SELPWM
+448060463198924c0a485e7e1622fa8a9c03cf3e drm/i915/hdcp: Fix Repeater authentication during topology change
+8dd5a5eb6a209e3bdb4e536e36698400445c6c2e drm/i915/hdcp: Use correct function to check if encoder is HDMI
+cb5fab2afd906307876d79537ef0329033c40dd3 drm/i915/pmu: Fix zero delta busyness issue
+fa6182c8b13ebfdc70ebdc09161a70dd8131f3b1 drm/i915: Fix page cleanup on DMA remap failure
+c7b49506b3ba7a62335e6f666a43f67d5cd9fd1e drm/i915: Drop 64bpp YUV formats from ICL+ SDR planes
+57965269896313e1629a518d3971ad55f599b792 drm/i915/guc: Debug print LRC state entries only if the context is pinned
+4466302262b38f5e6c65325035b4036a42efc934 drm/i915/dp: fix the Adaptive sync Operation mode for SDP
+985a44b02484a47f2c6ecbe971a5f0c47830120b drm/i915/dp: Return min bpc supported by source instead of 0
+3cf3ec911d70ee7774978f639fd3364c98d42b2c drm/i915/backlight: Return immediately when scale() finds invalid parameters
+6bb05a33337b2c842373857b63de5c9bf1ae2a09 clocksource: Use migrate_disable() to avoid calling get_random_u32() in atomic context
+457bf49627ae19ba789c09e3960ab4cc41d6d129 Merge tag 'nvme-6.14-2025-01-31' of git://git.infradead.org/nvme into block-6.14
+2255b40cacc2e5ef1b127770fc1808c60de4a2fc drm/amdgpu: add a BO metadata flag to disable write compression for Vulkan
+8adbb2a98b00926315fd513b5fe2596b5716b82d drm/amd/display: Fix out-of-bound accesses
+e01f07cb92513ca4b9b219ab9caa34d607bc1e2d drm/amd/display: Fix seamless boot sequence
+588c20079e17dae9e1f49ba42981a05de1c9136e drm/xe/oa: Preserve oa_ctrl unused bits
+9f706fd8024208b0686bb8ec68589d758f765672 drm/xe/pf: Fix migration initialization
+990d35edc5d333ca6cd3acfdfc13683dc5bb105f drm/xe/oa: Set stream->pollin in xe_oa_buffer_check_unlocked
+042c48b73699c47d84b6ace73036e5a31a0d4cfc drm/xe/devcoredump: Move exec queue snapshot to Contexts section
+a9ab6591b45258b79af1cb66112fd9f83c8855da drm/xe: Fix and re-enable xe_print_blob_ascii85()
+1ddee69108d305bbc059cbf31c0b47626796be77 pinctrl: cy8c95x0: Respect IRQ trigger settings from firmware
+16b047c9a4dd4d4cc07284f5b38d4c7b9766c111 Merge branch '6.14/scsi-queue' into 6.14/scsi-fixes
+45ab5166a82d038c898985b0ad43ead69c1f9573 HID: winwing: Add NULL check in winwing_init_led()
+9b8e2220d3a052a690b1d1b23019673e612494c5 HID: multitouch: Add NULL check in mt_input_configured
+3d4114a1d34413dfffa0094c2eb7b95e61087abd scsi: ufs: core: Ensure clk_gating.lock is used only after initialization
+839a74b5649c9f41d939a05059b5ca6b17156d03 scsi: ufs: Fix toggling of clk_gating.state when clock gating is not allowed
+18c966b62819b9d3b99eac8fb8cdc8950826e0c2 HID: intel-ish-hid: ipc: Add Panther Lake PCI device IDs
+9271af9d846c7e49c8709b58d5853cb73c00b193 HID: topre: Fix n-key rollover on Realforce R3S TKL boards
+5363ee9d110e139584c2d92a0b640bc210588506 scsi: core: Use GFP_NOIO to avoid circular locking dependency
+9ff7c383b8ac0c482a1da7989f703406d78445c6 scsi: core: Do not retry I/Os during depopulation
+f8fb2403ddebb5eea0033d90d9daae4c88749ada scsi: ufs: core: Fix use-after free in init error and remove paths
+87c4b5e8a6b65189abd9ea5010ab308941f964a4 scsi: storvsc: Set correct data length for sending SCSI command without payload
+1a78a56ea65252bb089e0daace989167227f2d31 scsi: ufs: core: Fix error return with query response
+5233e3235dec3065ccc632729675575dbe3c6b8a scsi: qla1280: Fix kernel oops when debug level > 2
+1739cafdb8decad538410b05a4640055408826de samples/hid: remove unnecessary -I flags from libbpf EXTRA_CFLAGS
+8b125949df58a00e8797c6e6d3f3d3dc08f4d939 samples/hid: fix broken vmlinux path for VMLINUX_BTF
+32392e04cb50d87bb7a6a7d9213f44a1a0961820 KVM: arm64: Fail protected mode init if no vgic hardware is present
+5417a2e9b130a78bf48cb4cf92630efcee5ccf38 KVM: arm64: Fix nested S2 MMU structures reallocation
+b450dcce93bc2cf6d2bfaf5a0de88a94ebad8f89 KVM: arm64: timer: Always evaluate the need for a soft timer
+1b8705ad5365b5333240b46d5cd24e88ef2ddb14 KVM: arm64: timer: Correctly handle EL1 timer emulation when !FEAT_ECV
+0e459810285503fb354537e84049e212c5917c33 KVM: arm64: timer: Don't adjust the EL2 virtual timer offset
+ee3a66f431d689b796b9cb48aefd3d223540381c kvm: x86: SRSO_USER_KERNEL_NO is not synthesized
+35441cdd50920495cf93c267377a6964ef50388e Merge tag 'kvm-s390-next-6.14-2' of https://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into HEAD
+5e21d0c5b95c6351936bb1400a354af09cb74ace Merge tag 'kvmarm-fixes-6.14-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
+203a53029a9c6935ad38e0343d048e51488797cf KVM: selftests: Fix spelling mistake "initally" -> "initially"
+6f61269495260531e15d84d090ee63618110c470 KVM: remove kvm_arch_post_init_vm
+43fb96ae78551d7bfa4ecca956b258f085d67c40 KVM: x86/mmu: Ensure NX huge page recovery thread is alive before waking
+230b19bc2bcc5897d0e20b4ce7e9790a469a2db0 drm/i915/dp: Iterate DSC BPP from high to low on all platforms
+ecee4d0695067ae04959b121028b42a588e75370 accel/amdxdna: Add MODULE_FIRMWARE() declarations
+d6179f6c6204f9932aed3a7a2100b4a295dfed9d gpio: pca953x: Improve interrupt support
+820ccf8cb2b145ab9fc12651f7f80339614fa46c drm/amd/display: Respect user's CONFIG_FRAME_WARN more for dml files
+f245b400a223a71d6d5f4c72a2cb9b573a7fc2b6 Revert "drm/amd/display: Use HW lock mgr for PSR1"
+c4d3dfd8ccaef2cbd374860e307f1e056854a472 Revert "i2c: Replace list-based mechanism for handling userspace-created clients"
+3bfa08fe9ec8dd79e183c88e1275be74191e7bc8 Revert "i2c: Replace list-based mechanism for handling auto-detected clients"
+015b7dae084fa95465ff89f6cbf15fe49906a370 gpio: sim: lock hog configfs items if present
+5393f40a640b8c4f716bf87e7b0d4328bf1f22b2 gpio: GPIO_GRGPIO should depend on OF
+59ff2040f0a58923c787fdba5999100667338230 MAINTAINERS: Use my kernel.org address for ACPI GPIO work
+738fc998b639407346a9e026514f0562301462cd scripts/Makefile.extrawarn: Do not show clang's non-kprintf warnings at W=1
+4c56eb33e603c3b9eb4bd24efbfdd0283c1c37e4 kbuild: keep symbols for symbol_get() even with CONFIG_TRIM_UNUSED_KSYMS
+98a5cfd2320966f40fe049a9855f8787f0126825 x86/xen: fix xen_hypercall_hvm() to not clobber %rbx
+0bd797b801bd8ee06c822844e20d73aaea0878dd x86/xen: add FRAME_END to xen_hypercall_hvm()
+aaf5eefd374b6e006e1c224a2b37bac9d3737aa2 x86/xen: remove unneeded dummy push from xen_hypercall_hvm()
+d364eee14c682b141f4667efc3c65191339d88bd cpufreq/amd-pstate: Remove the goto label in amd_pstate_update_limits
+55db9b73c3a77544efc671d5e796d9674772c330 cpufreq/amd-pstate: Fix max_perf updation with schedutil
+069504f1fcfa1532e4e221290df428b15bd9d284 drm/i915/dp: Fix potential infinite loop in 128b/132b SST
+90508a1bb8f00618fa12cb2ad2276bc783656fc5 cpufreq: airoha: modify CONFIG_OF dependency
+0813fd2e14ca6ecd4e6ba005a9766f08e26020d7 cpufreq: prevent NULL dereference in cpufreq_online()
+ab930483eca9f3e816c35824b5868599af0c61d7 ACPI: property: Fix return value for nval == 0 in acpi_data_prop_read()
+607ab6f85f4194b644ea95ac5fe660ef575db3b4 ACPI: resource: IRQ override for Eluktronics MECH-17
+7f5704b6a143b8eca640cba820968e798d065e91 ACPI: PRM: Remove unnecessary strict handler address checks
+b1749432a52d3605151634b000fec0361ad45067 rust: kbuild: use host dylib naming in rusttestlib-kernel
+c21bdb3d8a850afdfa4afe77eea39ae9533629b0 rust: init: use explicit ABI to clean warning in future compilers
+77c2e45dbf9d2ced21d2cf6cc3b2a048d57ab7ad smb: client: don't trust DFSREF_STORAGE_SERVER bit
+773dc23ff81838b6f74d7fabba5a441cc6a93982 smb: client: fix noisy when tree connecting to DFS interlink targets
+be1963dd4ce4e467f062b023d1e696f40c926a04 smb: client: get rid of kstrdup() in get_ses_refpath()
+2c1ed907520c50326b8f604907a8478b27881a2e Merge remote-tracking branch 'drm-misc/drm-misc-next-fixes' into drm-misc-fixes
+0af4c120f5e7a1ea70aff7da2dfb65b6148a3e84 pinctrl: pinconf-generic: Print unsigned value if a format is registered
+ba958ac74800573f7f54dbe2a7a7b9a9a523ed52 kbuild: fix misspelling in scripts/Makefile.lib
+b029628be267cba3c7684ec684749fe3e4372398 alpha/elf: Fix misc/setarch test of util-linux by removing 32bit support
+7507eb3e7bfac7c3baef8dd377fdf5871eefd42b PCI/ASPM: Fix L1SS saving
+57e4a9bd61c308f607bc3e55e8fa02257b06b552 smb: client: change lease epoch type from unsigned int to __u16
+a9c621a217128eb3fb7522cf763992d9437fd5ba rust: kbuild: add -fzero-init-padding-bits to bindgen_skip_cflags
+6f64b83d9fe9729000a0616830cb1606945465d8 PCI/TPH: Restore TPH Requester Enable correctly
+0e446e3145011b8fe39759b59bd69d39fb47cfeb rust: kbuild: do not export generated KASAN ODR symbols
+3ace20038e19f23fe73259513f1f08d4bf1a3c83 cpufreq/amd-pstate: Fix cpufreq_policy ref counting
+bb5408801a5f2ecd76b61dcd539a5c466ebaac4c stackinit: Keep selftest union size small on m68k
+78bba6097b9318f4aa645afeade14024af86af4e stackinit: Fix comment for test_small_end
+b3cc5afc4d972ca30dc5d25ed5e1056e62b5efa8 Merge tag 'amd-pstate-v6.14-2025-02-06' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/superm1/linux
+5b734b49de8e195a9c9693d0d256ed1ca9fe6c9b Merge tag 'for-linus-6.14-rc2-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
+0db6b7d49b50c037b5eac19a8d8d1da986db80c6 MAINTAINERS: wifi: ath: remove Kalle
+b76adb9758f8eaaf22b824d0bcdd694551ce0557 MAINTAINERS: wifi: remove Kalle
+bb066fe812d6fb3a9d01c073d9f1e2fd5a63403b Merge tag 'pci-v6.14-fixes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
+cf6cb56ef24410fb5308f9655087f1eddf4452e6 seccomp: passthrough uretprobe systemcall without filtering
+c2debdb8544f415eaf9292a866d4073912eeb561 selftests/seccomp: validate uretprobe syscall passes through seccomp
+6273a058383e05465083b535ed9469f2c8a48321 x86: rust: set rustc-abi=x86-softfloat on rustc>=1.86.0
+482ad2a4ace2740ca0ff1cbc8f3c7f862f3ab507 net: add dev_net_rcu() helper
+469308552ca4560176cfc100e7ca84add1bebd7c ipv4: add RCU protection to ip4_dst_hoplimit()
+071d8012869b6af352acca346ade13e7be90a49f ipv4: use RCU protection in ip_dst_mtu_maybe_forward()
+71b8471c93fa0bcab911fcb65da1eb6c4f5f735f ipv4: use RCU protection in ipv4_default_advmss()
+dd205fcc33d92d54eee4d7f21bb073af9bd5ce2b ipv4: use RCU protection in rt_is_expired()
+719817cd293e4fa389e1f69c396f3f816ed5aa41 ipv4: use RCU protection in inet_select_addr()
+139512191bd06f1b496117c76372b2ce372c9a41 ipv4: use RCU protection in __ip_rt_update_pmtu()
+4b8474a0951e605d2a27a2c483da4eb4b8c63760 ipv4: icmp: convert to dev_net_rcu()
+afec62cd0a4191cde6dd3a75382be4d51a38ce9b flow_dissector: use RCU protection to fetch dev_net()
+3c8ffcd248da34fc41e52a46e51505900115fc2a ipv6: use RCU protection in ip6_default_advmss()
+34aef2b0ce3aa4eb4ef2e1f5cad3738d527032f5 ipv6: icmp: convert to dev_net_rcu()
+b768294d449da6d7dc0667c1ec92dc4af6ef766b ipv6: Use RCU in ip6_input()
+3da81cb9a4ac26ac6bc7ef48508b3ebea714eb1a Merge branch 'net-first-round-to-use-dev_net_rcu'
+6a774228e890ee04a0ee13f4e6e731ec8554b9c2 net: ethtool: tsconfig: Fix netlink type of hwtstamp flags
+bca0902e61731a75fc4860c8720168d9f1bae3b6 ax25: Fix refcount leak caused by setting SO_BINDTODEVICE sockopt
+1438f5d07b9a7afb15e1d0e26df04a6fd4e56a3c rtnetlink: fix netns leak with rtnl_setlink()
+cb7380de9e4cbc9a24216b722ec50e092ae83036 compiler.h: Move C string helpers into C-only kernel section
+20e5cc26e56db09cc612721f90b4994cce5e5b7b compiler.h: Introduce __must_be_byte_array()
+6270f4deba3fbd77d1717fb8634f1fc612ff69e2 string.h: Use ARRAY_SIZE() for memtostr*()/strtomem*()
+fdfd0ad82890f678398ee670c4e59747738540e7 bcachefs docs: SubmittingPatches.rst
+6b37037d6d1b42083642340efcf80f7a30203039 bcachefs: fix incorrect pointer check in __bch2_subvolume_delete()
+2ef995df0ce592f665d312008dbe1ad1c4bcf87f bcachefs: fix deadlock in journal_entry_open()
+9e9033522ad1e4bb697c9493aa449630fa2c98d2 bcachefs: Fix discard path journal flushing
+3539880ef1a5f8c970d0f69a6fdcfeffc000e63d bcachefs: Fix rcu imbalance in bch2_fs_btree_key_cache_exit()
+4be214c26936813b636eed2fac906f585ddbf0f9 bcachefs: bch2_bkey_sectors_need_rebalance() now only depends on bch_extent_rebalance
+f2e6f0025639228f6b024607d1ce3cd1c3b9d5d4 Merge tag 'amd-drm-fixes-6.14-2025-02-05' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
+e92e11b462b8d8d004da0091c824bec871ae87ba Merge tag 'drm-misc-fixes-2025-02-06' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
+7fa68b9f85973cd21eaf7dbb969b1c0f7fd95c63 Merge tag 'drm-xe-fixes-2025-02-06' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
+4f6993b3feab7bfb1869a8fa12eb8b375964c19f Merge tag 'drm-intel-fixes-2025-02-06' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
+29a61a1f40637ae010b828745fb41f60301c3a3d genirq: Remove leading space from irq_chip::irq_print_chip() callbacks
+868c9037df626b3c245ee26a290a03ae1f9f58d3 timers/migration: Fix off-by-one root mis-connection
+0fac3ed473dd2955053be6671cdd747807f5e488 fs/stat.c: avoid harmless garbage value problem in vfs_statx_path()
+4e7487245abcbc5a1a1aea54e4d3b33c53804bda vboxsf: fix building with GCC 15
+e52e97f09fb66fd868260d05bd6b74a9a3db39ee statmount: let unset strings be empty
+d9b3a3c70df2c2b87c83ca3f6e8ab49bd092fdbd gfs2: use lockref_init for gl_lockref
+34ad6fa2add2b38f2a89d28518de0142bff8fb43 gfs2: switch to lockref_init(..., 1)
+bb504b4d64266fa0d7460c218c85afed371db03a lockref: remove count argument of lockref_init
+b06ddfeedcbe3c493215c85e43ac48dbb8769038 Merge patch series "further lockref cleanups"
+95101401bb50ae2cf9deee1bbf4d2b28d0dfdc26 fsnotify: use accessor to set FMODE_NONOTIFY_*
+5eb987105357cb7cfa7cf3b1e2f66d5c0977e412 fs: fix adding security options to statmount.mnt_opt
+2a42754b3104d78a2bc7a2ad8844427411c76ca6 fsnotify: disable notification by default for all pseudo files
+2cc02059fbc79306b53a44b1f1a4444aa3c76598 selftests: always check mask returned by statmount(2)
+711f9b8fbe4f4936302804e246e206f0829f628f fsnotify: disable pre-content and permission events by default
+ec6164adc73e57c4c43b37682cae1d5c9ad40ca1 Merge patch series "Fix for huge faults regression"
+091ee63e36e8289f9067f659a48d497911e49d6f pidfs: improve ioctl handling
+37d11cfc63604b3886308e2111d845d148ced8bc vfs: sanity check the length passed to inode_set_cached_link()
+73195bed7899150cd1005cf0a902b68793adad23 Merge branch 'pm-powercap'
+3e3e377dd1f300bbdd230533686ce9c9f4f8a90d Merge branches 'acpi-property' and 'acpi-resource'
+2813e00dcd748cef47d2bffaa04071de93fddf00 HID: hid-apple: Apple Magic Keyboard a3203 USB-C support
+819083cb6eedcc8495cbf84845877bcc741b93b3 HID: apple: fix up the F6 key on the Omoton KB066 keyboard
+0b43d98ff29be3144e86294486b1373b5df74c0e HID: hid-thrustmaster: fix stack-out-of-bounds read in usb_check_int_endpoints()
+79504249d7e27cad4a3eeb9afc6386e418728ce0 HID: hid-steam: Move hidraw input (un)registering to work
+b051ffa2aeb2a60e092387b6fb2af1ad42f51a3c HID: hid-steam: Don't use cancel_delayed_work_sync in IRQ context
+96b531f9bb0da924299d1850bb9b2911f5c0c50a Merge tag 'md-6.14-20250206' of https://git.kernel.org/pub/scm/linux/kernel/git/mdraid/linux into block-6.14
+511121a48bbd12df4ae50a099a8936e833df8c46 MAINTAINERS: Move Pavel to kernel.org address
+1b3291f00013c86a9bb349d6158a9a7a4f0334fe MAINTAINERS: Remove myself
+94b481f7671f412b571e4ee5e3b24f33a889812d Merge tag 'bcachefs-2025-02-06.2' of git://evilpiepirate.org/bcachefs
+8c67da5bc11a79833d9fd464e82b1b271c67fc87 Merge tag 'vfs-6.14-rc2.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+78b2a2328bf931ff7791dbfb82c2da97d10b42f9 Merge tag 'gpio-fixes-for-v6.14-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
+0aa0282a720fd7c58f131eb5a5b0440e839e2977 Merge tag 'acpi-6.14-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+1fa9970a4e61e9383a8ee738b44e2194d4ce7ff5 Merge tag 'pm-6.14-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+f354fc88a72ae83dacd68370f6fa040e5733bcfe kbuild: install-extmod-build: add missing quotation marks for CC variable
+a67d0a051349d89afe4d5ad4ef85a7d576d69e2a Merge tag 'block-6.14-20250207' of git://git.kernel.dk/linux
+8aa0f49c0011ade597b1659df54e0c9fabbd6d58 Merge tag 'stable/for-linus-6.14-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/konrad/ibft
+595170d4b660640289003d1881a9a6ef8ded6865 bcachefs: Fix marking reflink pointers to missing indirect extents
+01af106a076352182b2916b143fc50272600bd81 btrfs: fix two misuses of folio_shift()
+cb827db50a88aebec516151681adb6db10b688ee net: fib_rules: annotate data-races around rule->[io]ifindex
+7ee983c850b40043ac4751836fbd9a2b4d0c5937 Merge tag 'drm-fixes-2025-02-08' of https://gitlab.freedesktop.org/drm/kernel
+011b0335903832facca86cd8ed05d7d8d94c9c76 Revert "net: skb: introduce and use a single page frag cache"
+2b753053980339a25d7ccc717b879f64e6a1cbea Merge tag 'v6.14rc1-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
+8f6629c004b193d23612641c3607e785819e97ab kbuild: Move -Wenum-enum-conversion to W=2
+d0b197b6505fe3788860fc2a81b3ce53cbecc69c Documentation/networking: fix basic node example document ISO 15765-2
+44de577e61ed239db09f0da9d436866bef9b77dd can: j1939: j1939_sk_send_loop(): fix unable to send messages with data length zero
+9bd24927e3eeb85642c7baa3b28be8bea6c2a078 can: ctucanfd: handle skb allocation failure
+257a2cd3eb578ee63d6bf90475dc4f4b16984139 can: c_can: fix unbalanced runtime PM disable in error path
+a1ad2109ce41c9e3912dadd07ad8a9c640064ffb can: etas_es58x: fix potential NULL pointer dereference on udev->serial
+f7f0adfe64de08803990dc4cbecd2849c04e314a can: rockchip: rkcanfd_handle_rx_fifo_overflow_int(): bail out if skb cannot be allocated
+c8c9b1d2d5b4377c72a979f5a26e842a869aefc9 fgraph: Fix set_graph_notrace with setting TRACE_GRAPH_NOTRACE_BIT
+fa76887bb72ae11347730271e6a04c147b7527e6 Merge tag 'locking-urgent-2025-02-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+a8f5fe68fc063913a77ec2df90c57e897c9aa7ae Merge tag 'irq-urgent-2025-02-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+c7b92e8969cd60a585629cef8d19b7ef330bc171 Merge tag 'sched-urgent-2025-02-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+3a0562d733b19d5f10ebf7643dab0ab1a4fd8cf7 Merge tag 'timers-urgent-2025-02-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+a5057ded6e882fc7a5f26de592259818ed07d397 Merge tag 'x86-urgent-2025-02-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+a0df483fe303e0c87a6d4a4f60213d5f8703c5ae Merge tag 'ftrace-v6.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+595ab66f1becea80c4182b2d2660f357c17db2a9 Merge tag 'rust-fixes-6.14' of https://github.com/Rust-for-Linux/linux
+74b5161d57c1dd221a20f89e3d490da56b223a29 Merge tag 'i2c-for-6.14-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
+493f3f38da21cf61b25254f7a3dc817179b497c8 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
+8b0582f50952a0e225fabd97bb6f90ca5138a0e7 Merge tag 'execve-v6.14-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+f4a45f14cf6902a96d9805ba51829054940ef3e7 Merge tag 'seccomp-v6.14-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+9946eaf552b194bb352c2945b54ff98c8193b3f1 Merge tag 'hardening-v6.14-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+7585946243d614bd2cd4e13377be2c711c9539e0 PM: sleep: core: Restrict power.set_active propagation
+954a209f431c06b62718a49b403bd4c549f0d6fb Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+146339ddb8b7520ee486389c7b0a7b24d68e5f60 Merge tag 'pm-6.14-rc2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+69b54314c975f4dfd3a29d6b9211ab68fff46682 Merge tag 'kbuild-fixes-v6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+a64dcfb451e254085a7daee5fe51bf22959d52d3 Linux 6.14-rc2
+1046cac109225eda0973b898e053aeb3d6c10e1d platform/x86: thinkpad_acpi: Fix invalid fan speed on ThinkPad X120e
+9cff907cbf8c7fb5345918dbcc7b74a01656f34f platform/x86: thinkpad_acpi: Support for V9 DYTC platform profiles
+c581f8c240f57a19c857da3e0eec24285354fdb7 Merge tag 'pinctrl-v6.14-2' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
+58c9bf3363e596d744f56616d407278ef5f97f5a Merge tag 'hid-for-linus-2025021001' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
+5fb25161217370eeee86b63e47060870b67ed2b4 nfsd: fix uninitialised slot info when a request is retried
+d9d6b74e4be989f919498798fa40df37a74b5bb0 nfsd: fix __fh_verify for localio
+036ac2778f7b28885814c6fbc07e156ad1624d03 NFSD: fix hang in nfsd4_shutdown_callback
+4990d098433db18c854e75fb0f90d941eb7d479e NFSD: Fix CB_GETATTR status fix
+febbc555cf0fff895546ddb8ba2c9a523692fb55 Merge tag 'nfsd-6.14-1' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+cb6cc8ed77177c7553c2f8ac8605d32de58f43ac net: stmmac: Apply new page pool parameters when SPH is enabled
+48145a57d4bbe3496e8e4880b23ea6b511e6e519 ndisc: ndisc_send_redirect() must use dev_get_by_index_rcu()
+628e6d18930bbd21f2d4562228afe27694f66da9 ndisc: use RCU protection in ndisc_alloc_skb()
+becbd5850c03ed33b232083dd66c6e38c0c0e569 neighbour: use RCU protection in __neigh_notify()
+a42b69f692165ec39db42d595f4f65a4c8f42e44 arp: use RCU protection in arp_xmit()
+90b2f49a502fa71090d9f4fe29a2f51fe5dff76d openvswitch: use RCU protection in ovs_vport_cmd_fill_info()
+6d0ce46a93135d96b7fa075a94a88fe0da8e8773 vrf: use RCU protection in l3mdev_l3_out()
+ed6ae1f325d3c43966ec1b62ac1459e2b8e45640 ndisc: extend RCU protection in ndisc_send_skb()
+087c1faa594fa07a66933d750c0b2610aa1a2946 ipv6: mcast: extend RCU protection in igmp6_send()
+9dfedb8dc78b4eff15873a2e29731cf7028058ab Merge branch 'net-second-round-to-use-dev_net_rcu'
+17847ea6ced8f645646ef93e8826a36e434fcb2c Merge tag 'wireless-2025-02-07' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
+8e248f2dbb1885647e259837d38200942f3591a3 Merge tag 'linux-can-fixes-for-6.14-20250208' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
+7b07b040257c1b658ef3eca86e4b6ae02d65069c ptp: vmclock: Add .owner to vmclock_miscdev_fops
+f7d07cd4f77d77f366c8ffbb8ba8b61f614e5fce ptp: vmclock: Set driver data before its usage
+39e926c3a21b25af6cae479fbb752f193240ce03 ptp: vmclock: Don't unregister misc device if it was not registered
+9a884c3800b207bac36e27be4ec7277c78a84568 ptp: vmclock: Clean up miscdev and ptp clock through devres
+b4c1fde5ced93d9f4ad89e2c940d3fd56ad82288 ptp: vmclock: Remove goto-based cleanup logic
+2196ceea2d39018a85a037cbb4c22666edb5a72c Merge branch 'ptp-vmclock-bugfixes-and-cleanups-for-error-handling'
+44ce3511c21c6ba87a719a0b9f140822cc1cc00b Merge tag 'batadv-net-pullrequest-20250207' of git://git.open-mesh.org/linux-merge
+5728c92ae112301936006c5e305677beb1a7f578 mfd: syscon: Restore device_node_to_regmap() for non-syscon nodes
+1c316eb57c11fb3dc447b04ef765459cd61c8647 bcachefs: Fix use after free
+1e690efa72596a1163dc56709707f459221889d2 bcachefs: Split out journal pins by btree level
+9f734cd076931fa4d7feb5728e5cd95cde0af114 bcachefs: Fix want_new_bset() so we write until the end of the btree node
+69ab25a74e2df53edc2de4acfce0a484bdb88155 idpf: fix handling rsc packet with a single segment
+2ff66c2f9ea4e9311e9a00004348b6c465bd5d3b idpf: record rx queue in skb for RSC packets
+52c11d31b5a1d1c747bb5f36cc4808e93e2348f4 idpf: call set_real_num_queues in idpf_open
+61fb097f9a644407b9342a8169d0edef868612d7 ixgbe: Fix possible skb NULL pointer dereference
+7822dd4d6d4bebca5045a395e1784ef09cae2d43 igc: Fix HW RX timestamp when passed by ZC XDP
+63f20f00d23d569e4e67859b4e8dcc9de79221cb igc: Set buffer type for empty frames in igc_init_empty_frame
+fc22b06fbd2afefa1eddff69a6fd30c539cef577 platform/x86: int3472: Use correct type for "polarity", call it gpio_flags
+569617dbbd06286fb73f3f1c2ac91e51d863c7de platform/x86: int3472: Call "reset" GPIO "enable" for INT347E
+318e8c339c9a0891c389298bb328ed0762a9935e x86/cpu/kvm: SRSO: Fix possible missing IBPB on VM-Exit
+09fbf3d502050282bf47ab3babe1d4ed54dd1fd8 Merge tag 'tomoyo-pr-20250211' of git://git.code.sf.net/p/tomoyo/tomoyo
+acc18e1c1d8c0d59d793cf87790ccfcafb1bf5f0 btrfs: fix stale page cache after race between readahead and direct IO write
+da2dccd7451de62b175fb8f0808d644959e964c7 btrfs: fix hole expansion when writing at an offset beyond EOF
+5805402dcc56241987bca674a1b4da79a249bab7 vxlan: check vxlan_vnigroup_init() return value
+1942b1c6f687b9d1efc93f35239f185a84900e93 net: phylink: make configuring clock-stop dependent on MAC support
+06ea2c9c4163b8a8fde890a9e21d1059f22bb76d rxrpc: Fix alteration of headers whilst zerocopy pending
+e589adf5b70c07b1ab974d077046fdbf583b2f36 iavf: Fix a locking bug in an error path
+cf56aa8dd26328a9af4ffe7fb0bd8fcfa9407112 Revert "netfilter: flowtable: teardown flow if cached mtu is stale"
+b3e127dacad60a384c92baafdc74f1508bf7dd47 platform/x86: thinkpad_acpi: Fix registration of tpacpi platform driver
+e1d68ea58c7e9ebacd9ad7a99b25a3578fa62182 net/mlx5e: reduce the max log mpwrq sz for ECPF and reps
+b9cc8f9d700867aaa77aedddfea85e53d5e5d584 net/mlx5e: reduce rep rxq depth to 256 for ECPF
+a38cc5706fb9f7dc4ee3a443f61de13ce1e410ed net/mlx5e: set the tx_queue_len for pfifo_fast
+38b3d42e5afa30bb59943b5410edeeb2a55b169d net/mlx5: Rename and move mlx5_esw_query_vport_vhca_id
+b820864335c8b39b0e90d04ecbebdeed4d3d6dfd net/mlx5: Expose ICM consumption per function
+913175b3f919eacba5e5d303897371f6058648a0 net/mlx5e: Move RQs diagnose to a dedicated function
+99c55284e85b3e2f28e1fd28e9946233424880d7 net/mlx5e: Add direct TIRs to devlink rx reporter diagnose
+896c92aa7429e1edd1418610e0b73120a89c7b07 net/mlx5e: Expose RSS via devlink rx reporter diagnose
+95b9606b15bb3ce1198d28d2393dd0e1f0a5f3e9 net/mlx5: Extend Ethtool loopback selftest to support non-linear SKB
+1a9304859b3a4119579524c293b902a8927180f3 net/mlx5: XDP, Enable TX side XDP multi-buffer support
+12739192b1996a6f8814ea3bef5f45110bc5a74c Merge branch 'rate-management-on-traffic-classes-misc'
+8bf47e4d7b87cbd6a69541643d3fa4003c99d95f net: phy: Add support for driver-specific next update time
+e252af1a67fe66ec901e33035210b231d9d211b7 net: phy: dp83tg720: Add randomized polling intervals for link detection
+fea5d562822bac85ceb44ad108f845ad6d04a704 Merge branch 'use-phylib-for-reset-randomization-and-adjustable-polling'
+4dc1d1bec89864d8076e5ab314f86f46442bfb02 Merge tag 'mfd-fixes-6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/mfd
+9cf6b84b71adb97f3c19476ebb5a42228fad89b5 bcachefs: CONFIG_BCACHEFS_INJECT_TRANSACTION_RESTARTS
+531323a2efc3fbe20b540e3f41ecc94d68e74b76 bcachefs: Pass _orig_restart_count to trans_was_restarted
+406e445b3c6be65ab0ee961145e74bfd7ef6c9e1 bcachefs: Reuse transaction
+34eea78a1112afc3579e06abb510a9f57521adaf net: report csum_complete via qstats
+93d2f2f36ea993841d2efec4caef1cc95f4baa84 eth: fbnic: wrap tx queue stats in a struct
+67dc4eb5fc926b96145ca6d81da35f0fa20396f0 eth: fbnic: report software Rx queue stats
+1e07e361fd8339eff761ef9bc4c3c1dd9a9cd887 eth: fbnic: report software Tx queue stats
+0ec023282a9d9487d5f80fd785b0c2e80a40ba43 eth: fbnic: re-sort the objects in the Makefile
+2f4720318d02b3879e858e373826aa0b63a55e5a Merge branch 'eth-fbnic-report-software-queue-stats'
+2001d21592e5eb531d23950223eedad55c987db8 net: phylink: provide phylink_mac_implements_lpi()
+b8927bd44f78eee1e754bb5d8c6db92732cd31dc net: dsa: allow use of phylink managed EEE support
+9cf21773f535d67d9301a8d2ef4f0c722deac5a1 net: dsa: mt7530: convert to phylink managed EEE
+443b5ca4d7245eec9a9192461113a4c341e441e5 Merge branch 'net: dsa: add support for phylink managed EEE'
+2151003e773c7e7dba4d64bed4bfc483681b5f6a tools/net/ynl: remove extraneous plural from variable names
+678d8ddd0087a533c8eb06eabd0e3d25c02fcead tools/net/ynl: support decoding indexed arrays as enums
+569a5d63fd1b2b106a2134625f4ee7a7f9056996 tools/net/ynl: support rendering C array members to strings
+c578bc3a00f1fe04fd56bbef1fc779a848827ed2 tools/net/ynl: accept IP string inputs
+8798892b800f8f29573bbea759a122f92f83d32e tools/net/ynl: add s8, s16 to valid scalars in ynl-gen-c
+16cd1a5299eedc0328398bff9bf57e08b9925c52 tools/net/ynl: sanitise enums with leading digits in ynl-gen-c
+9fcfc1e210a662cfbd67a76511b45abc2c72e482 tools/net/ynl: add indexed-array scalar support to ynl-gen-c
+718a8360719b2cbde73b627bf45801b1780caf32 netlink: specs: support nested structs in genetlink legacy
+fdb8050e1a873c87d99dc65a0468e257b632602e netlink: specs: add s8, s16 to genetlink schemas
+31438709ecdb12539fc48ad691c27c4c11c0a56b netlink: specs: wireless: add a spec for nl80211
+ea80f2d9218c788104a509e900e1f3216be11211 Merge branch 'netlink-specs-add-a-spec-for-nl80211-wiphy'
+f0e70409b7eb0584d451f74db0c72af67b6170b3 net: avoid unconditionally touching sk_tsflags on RX
+23fc9311a526aa3874ebf1fed4d8b8757d2a6bdb netlink: specs: add conntrack dump and stats dump support
+7229fa6b303cdaa3375b419a207b4d54c04c5b88 Merge branch '200GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+15d6f74f03f84c5b8d032bb1be6b90af82e5b679 MAINTAINERS: Add sctp headers to the general netdev entry
+78dafe1cf3afa02ed71084b350713b07e72a18fb vsock: Orphan socket after transport release
+440c9d488705366b00372ea7213af69827a6c7af vsock/test: Add test for SO_LINGER null ptr deref
+b698b9a8acc804e1b777aece0b3699850d736087 Merge branch 'vsock-null-ptr-deref-when-so_linger-enabled'
+edb1942542bc538707cea221e9c7923a6270465f LoongArch: Fix idle VS timer enqueue
+619b52777a4972bdb6ddf86ac54c6f68a47b51c4 LoongArch: Fix kernel_page_present() for KPRANGE/XKPRANGE
+03a99d16e64fad41c8d39700bef9b0ac9c4e148b LoongArch: Use str_yes_no() helper function for /proc/cpuinfo
+6b72cd9ef062702390fc96c469beea1729a5dffe LoongArch: Remove the deprecated notifier hook mechanism
+6287f1a8c16138c2ec750953e35039634018c84a LoongArch: csum: Fix OoB access in IP checksum code for negative lengths
+bdb13252e5d1518823b81f458d9975c85d5240c2 LoongArch: KVM: Fix typo issue about GCFG feature detection
+d8cc4fee3f8ad21f83326ec8a6d200e04c8f0a00 LoongArch: KVM: Remove duplicated cache attribute setting
+3011b29ec5a33ec16502e687c4264d57416a8b1f LoongArch: KVM: Set host with kernel mode when switch to VM mode
+8dbf0c7556454b52af91bae305ca71500c31495c net: stmmac: dwmac-loongson: Set correct {tx,rx}_fifo_size
+5db843258de1e4e6b1ef1cbd1797923c9e3de548 net: ethernet: ti: am65-cpsw: fix memleak in certain XDP cases
+8a9f82ff15da03a6804cdd6557fb36ff71c0924f net: ethernet: ti: am65-cpsw: fix RX & TX statistics for XDP_TX case
+4542536f664f752db5feba2c5998b165933c34f2 net: ethernet: ti: am65_cpsw: fix tx_cleanup for XDP case
+0469b410c888414c3505d8d2b5814eb372404638 Merge branch 'net-ethernet-ti-am65-cpsw-xdp-fixes'
+a3783dbf2574c2d76b37bcb8b669852f494e9932 net: phy: marvell-88q2xxx: Add support for PHY LEDs on 88q2xxx
+7aca0d8a727da503a8adeb6866a136ded5bea4b1 arp: Convert SIOCDARP and SIOCSARP to per-netns RTNL.
+c3a97ccaed80986fc3c0581661bf9170847d23ba Documentation: dpaa2 ethernet switch driver: Fix spelling
+b4f82f9ed43aefa79bec2504ae8c29be0c0f5d1d Bluetooth: L2CAP: Fix slab-use-after-free Read in l2cap_send_cmd
+872274b992839ff64fe560767fe7ee5f942ccdb1 Bluetooth: btintel_pcie: Fix a potential race condition
+ab4eedb790cae44313759b50fe47da285e2519d5 Bluetooth: L2CAP: Fix corrupted list in hci_chan_del
+34dba73b231f2a46af88519d573052cc57a84952 sctp: Remove commented out code
+5077bc7af28f649d669f9cda6b5fedecedfaef2d ixgene-v2: prepare for phylib stop exporting phy_10_100_features_array
+d30460f42675fef5cd4b44ffbc49b545524555e3 r8169: add support for Intel Killer E5000
+5bef3ac184b5626ea62385d6b82a1992b89d7940 team: better TEAM_OPTION_TYPE_STRING validation
+a527750d877fd334de87eef81f1cb5f0f0ca3373 ipv6: mcast: add RCU protection to mld_newpack()
+fee5d688940690cc845937459e340e4e02598e90 mlxsw: Add return value check for mlxsw_sp_port_get_stats_raw()
+4079918ae720e842ed7dff65fedeb9980b374995 net: usb: asix_devices: add FiberGecko DeviceID
+0d0b752f2497471ddd2b32143d167d42e18a8f3c s390/qeth: move netif_napi_add_tx() and napi_enable() from under BH
+d63609e4129596cbf86d91c1fb6903273ca26269 Merge tag 'platform-drivers-x86-v6.14-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+ab68d7eb7b1a64f3f4710da46cc5f93c6c154942 Merge tag 'loongarch-fixes-6.14-1' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+0892b840318daa6ae739b7cdec5ecdfca4006689 Reapply "net: skb: introduce and use a single page frag cache"
+458bf63d175ec5f192a3213380c1456bf17f2075 Merge tag 'nf-25-02-13' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
+82c260c8806bf248ee11a053dd69665b8b207531 Merge tag 'for-net-2025-02-13' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
+540cda75884a6ba4c289980c84392261b1f61a9c rxrpc: Fix ipv6 path MTU discovery
+488fb6effe03e20f38d34da7425de77bbd3e2665 net: pse-pd: Fix deadlock in current limit functions
+1854c7f79dcaaba9f1c0b131445ace03f9fd532d Merge tag 'bcachefs-2025-02-12' of git://evilpiepirate.org/bcachefs
+945ce413ac14388219afe09de84ee08994f05e53 Merge tag 'for-6.14-rc2-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+348f968b89bfeec0bb53dd82dba58b94d97fbd34 Merge tag 'net-6.14-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+7a7e0197133d18cfd9931e7d3a842d0f5730223f Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+27ebd8bf9e4b53388cef2d9cdb2947bc456b0b33 virtchnl: add support for enabling PTP on iAVF
+7c1178a9df583454fc76be2ca8a6f0bef6613fba ice: support Rx timestamp on flex descriptor
+6a88c797ab4005cd5dd02575c1b3d1e7b53fe715 virtchnl: add enumeration for the rxdid format
+2a86e210f1a102614116e347efda59896f780417 iavf: add support for negotiating flexible RXDID format
+3247d65ad9de39ae11261274899ac6a9fc04b7a9 iavf: negotiate PTP capabilities
+d734223b2f0dc4f5826204ee628ad6273148223d iavf: add initial framework for registering PTP clock
+52e3beac764def6ee1cb20ead8161d81b3113955 iavf: add support for indirect access to PHC time
+7c01dbfc8a1c5f8b8e4a7907ab06db1449d478d0 iavf: periodically cache PHC time
+ce5cf4af7ceb6c1350c7ae788659c1f0696b2267 libeth: move idpf_rx_csum_decoded and idpf_rx_extracted
+e9f476d7b39ce1aecc4913eda1562e87113df185 iavf: define Rx descriptors as qwords
+2dc8e7c36d805084756e170527423e64eb04aba8 iavf: refactor iavf_clean_rx_irq to support legacy and flex descriptors
+8447357e7b04d09dde4ad04d93672b9f0f47a66c iavf: Implement checking DD desc field
+51534239ef132afbc8cc65cf430aeaeec244a6ad iavf: handle set and get timestamps ops
+48ccdcd87e0d2d4c82eb50eaff53c6aeb9a8372b iavf: add support for Rx timestamps to hotpath
 
---===============1120842549220992755==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-67a4d6497410-f5ab70a1cb4a.txt
-
-71b9fbc7dc60c9d57057d32a0a9d0e4014e11580 generic/476: fix fsstress process management
-71ba6462f79af02027b0940d010f68ab582e2b50 metadump: make non-local function variables more obvious
-9ac6e6551c36ae9078e35bfc4e71b20999a8aa4f metadump: fix cleanup for v1 metadump testing
-6daf90b77a497cdd8cdbb273e460466c4fd50360 generic/019: don't fail if fio crashes while shutting down
-8abb2fe36c8c2dce1c9fd146fd437f37fbaca243 fuzzy: do not set _FSSTRESS_PID when exercising fsx
-1f3725f9c4e85163325580000cfece6506164ff1 common/rc: revert recursive unmount in _clear_mount_stack
-0a77c9db4af8f84270cb2bf00675bfc2e2ea34fa common/dump: don't replace pids arbitrarily
-382f64ab64d0ee2ee3e99e2de617f8fc9789576d common/populate: correct the parent pointer name creation formulae
-a6d10c48a753f9fd5bffc6d6db7c06623ab53601 generic/759,760: fix MADV_COLLAPSE detection and inclusion
-62a6c738512e5a5560fa63fb599e042e33cfa2de generic/759,760: skip test if we can't set up a hugepage for IO
-b994081cca0d6899d149bbed5efb79233f46dd41 common/rc: create a wrapper for the su command
-09a0263fa1f10c575a23d9e232bafe8a33d00ec7 fuzzy: kill subprocesses with SIGPIPE, not SIGINT
-4c9814b08fe0bbf0002e7d25b33503fa24a13468 common/rc: hoist pkill to a helper function
-5a049b3acb18d3973640d0a6d7f5c519e8cf9b3e tools: add a Makefile
-a40000f7c5cc62dee902b341721e435a09cd4636 common: fix pkill by running test program in a separate session
-aa5626953c0e9e4f41a7e59a204d8238bfc443a9 check: run tests in a private pid/mount namespace
-10aa1570c280b1c2642d99616687aaa257923a55 check: deprecate using process sessions to isolate test instances
-2e0f4b85384039fa5d131ac27d92bf2059e2d283 common/rc: don't copy fsstress to $TEST_DIR
-318c61bfc97d58bb235846f0c038f328fb2a64fb unmount: resume logging of stdout and stderr for filtering
-c272d36ae2cbf09515a4383d2c1e4bfaf5f66e1b mkfs: don't hardcode log size
-e6ffb1248b3c8dad4a49d4117da5b167ad8b5e63 common/rc: return mount_ret in _try_scratch_mount
-aa4e8714b387942a2b58c0d660ed3dcc9a323cdb preamble: fix missing _kill_fsstress
-4467fd59324d3678b2cc145c6309ce8d3f024382 generic/650: revert SOAK DURATION changes
-c363f931277131b817d585594b07a3e45e995141 generic/032: fix pinned mount failure
-3bf5379f3c5a032aee200c8d97d0e082461933ea fuzzy: stop __stress_scrub_fsx_loop if fsx fails
-1bfba9f17d777007dc5345fdfa67bf4654ccb5d4 fuzzy: don't use readarray for xfsfind output
-edcd688315ba8e8f674a9f2eca3858825b7cadb6 fuzzy: always stop the scrub fsstress loop on error
-c86af3857d210e6450a86185e3ad705200144cc9 fuzzy: port fsx and fsstress loop to use --duration
-81b07f6f7ff1e8fbf34373d515c1c572801bba3a fix _require_scratch_duperemove ordering
-87c9bb1191e7d264c7276b29e3d873164a54e252 fsstress: fix a memory leak
-65b187eea39c66f0e7e95677a413c8669be1de01 fsx: fix leaked log file pointer
-501982639ede1089574f98a706367c8722a74cf1 misc: don't put nr_cpus into the fsstress -n argument
-186c55fc693ef0c5656b17f67906ccd2cd29b1ce common/config: add $here to FSSTRESS_PROG
-21dd6aa8add9b1ad5a6d6cf332c3af21711670d7 config: add FSX_PROG variable
-05a09df063e22a555930b077b9241a39b1895d3d build: initialize stack variables to zero by default
-0a327266fa41c76179744039a1fb0a3d2170e14f logwrites: warn if we don't think read after discard returns zeroes
-2d41bcb85d24bd0a5fc3f66535e8d42fc927cb74 logwrites: use BLKZEROOUT if it's available
-2864104b825b638aa79097d434754839bdc4a396 logwrites: only use BLKDISCARD if we know discard zeroes data
-1c9f4dace0b0b2fce38b44aa67aea4a472f2ac4c misc: drop the dangerous label from xfs_scrub fsstress tests
-64a59ec65090469ba089dd90e93728682d03eebc misc: rename the dangerous_repair group to fuzzers_repair
-7246c9b7af90e5cd27266da28ddb419a6097991d misc: rename the dangerous_online_repair group to fuzzers_online_repair
-1f7525c46184263be2372b856383a206e0610b5b misc: rename the dangerous_bothrepair group to fuzzers_bothrepair
-ad9d28f0b6408e9d4c2b741e386e8449ba273483 misc: rename the dangerous_norepair group to fuzzers_norepair
-25f41535a940ff42e4eeae1cc716733f909ac0d9 misc: fix misclassification of xfs_repair fuzz tests
-b4699f272dee01232ccd4db60085c101ebd48ad7 misc: fix misclassification of xfs_scrub + xfs_repair fuzz tests
-c8bd09c5f059cbf229c28f9241c4f1bd7cd692d9 misc: fix misclassification of verifier fuzz tests
-8e8a0fbd536f4a5e0ebe270c856be319a9e24fa0 misc: add xfs_scrub + xfs_repair fuzz tests to the scrub and repair groups
-b83d8c1733a62264932a34c660ddf310b3cd1e67 misc: remove the dangerous_scrub group
-5836b6b1672b0b795bc8adc581739419e83dd51e xfs/28[56],xfs/56[56]: add to the auto group
-8f3c6ef4f22d570b2e5b52814af3b98bc66f6bbd xfs/349: reclassify this test as not dangerous
-8687513be9f6f8f5f82c3cbac47f4e5ec8ca5567 various: fix finding metadata inode numbers when metadir is enabled
-d694b3b053dc3ad03dc64b138a3e5431abb7b18e xfs/{030,033,178}: forcibly disable metadata directory trees
-20a4bb362eb2b73ae0c477d4d90059cd039b3231 common/repair: patch up repair sb inode value complaints
-22130bbe38b59022be78279763223540f96cbfd8 xfs/206: update for metadata directory support
-1c9f3ea545426317edcc34faa4f8779163acc046 xfs/{050,144,153,299,330}: update quota reports to handle metadir trees
-6515675a941b02c549bcd1d3b10e5eb76bd6784b xfs/509: adjust inumbers accounting for metadata directories
-215411f56f4ef9fd056b746321db917f628cb930 xfs: create fuzz tests for metadata directories
-badf1a41abfd9a1036f103ef40eb34b09b86f1e3 xfs/163: bigger fs for metadir
-2258ffabb2f441df784e1bdfe44bfda827209644 xfs/122: disable this test for any codebase that knows about metadir
-34b1206de260b29db854627f8d1b567e3254683b common/populate: label newly created xfs filesystems
-c7e34d0e85df10504defb00b6e70b287c6648f46 scrub: race metapath online fsck with fsstress
-8be87eb2ad2217b447bd74ebb3b0f08dfa90f89a xfs: test metapath repairs
-911dcb4667c56ec3c535a259fcb3eccfa3d584fa xfs/019: reduce _fail calls in test
-758f1cee8877bd8f11b7e9fd816ae87ccb128cf6 xfs/019: test reserved file support
-bc892233c30147c0887d54889cee8b7b6078e99a xfs: test filesystem creation with xfs_protofile
-47af2b9cd14181655d4d519ba1f9f2f44102d4ae fstests: test mkfs.xfs protofiles with xattr support
-272f73b04effe28c8fc386601777c1d2189eb0e1 common/populate: refactor caching of metadumps to a helper
-39ced3a5ade28852b2a061b226ccdf6afbe832b9 common/{fuzzy,populate}: use _scratch_xfs_mdrestore
-3e6647019507585a6ca92cb4c00bb2eba1957c7e fuzzy: stress data and rt sections of xfs filesystems equally
-596dbc099f371145189fbdb5a0aec3ecc3a7efd7 fuzzy: run fsx on data and rt sections of xfs filesystems equally
-d747356eca2f78a9dfcf6bf8531eba46619423e7 common/ext4: reformat external logs during mdrestore operations
-92a2e7c6e08ae93efaa539af655aa10f746c886d common/populate: use metadump v2 format by default for fs metadata snapshots
-12ce398860d15232e133532bb44d74cd7097c324 punch-alternating: detect xfs realtime files with large allocation units
-265ebcf15239f11de95606ea2687b4aa9637080f xfs/206: update mkfs filtering for rt groups feature
-c3c5c34c6f30f27d1fb828511ae5996276acd120 common: pass the realtime device to xfs_db when possible
-fe50c474629ba27a42c287a5e993b0ffe823e028 xfs/185: update for rtgroups
-63624fab4aee35502d025e5eea386e65ba6bb709 xfs/449: update test to know about xfs_db -R
-b025145d9a96a7e0979f0ba46dd9c0f4418aa4ff xfs/271,xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
-44fdf216d95c07aa129330a0adb31aeead5cbea8 common/xfs: capture realtime devices during metadump/mdrestore
-34058229131b5fbe55a7d4bcf98da52694301f05 common/fuzzy: adapt the scrub stress tests to support rtgroups
-798ed5531c6c9518cf6e9bba823e613ab8cb4afa xfs: fix fuzz tests of rtgroups bitmap and summary files
-cebd1b62318ddae6544f174aad0fef7068b2706d xfs: update tests for quota files in the metadir
-be6577d3ee06d2803c82cc7b2b655b233d9b10c4 xfs: test persistent quota flags
-dd0ebc3bd519547aab7a7c5ddcc583b46568383b xfs: fix quota detection in fuzz tests
-ff82765085efe4952f829bfffd524ea97299c625 xfs: fix tests for persistent qflags
-15320637a298308a53935e0e765458b83c0f876d common: enable testing of realtime quota when supported
-c17f2f00bfa418a0a74c13e229356af74b17d4f4 xfs: fix quota tests to adapt to realtime quota
-7a38ce3989626fa31d48ae0f1061e1732e85d077 xfs: regression testing of quota on the realtime device
-ccea7893fbab78113c98df2f9443d7658ef95473 common: test statfs reporting with project quota
-fcd7870a3185b18aa286fc1593f6657877903c33 xfs: fix tests that try to access the realtime rmap inode
-bbe090d4c6e0ef574a9ecf49ac5fa5d9aa196f6a xfs/336: port to common/metadump
-9e9ee02e5295da1febd50dbf3444ddce4a39f82a fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
-4858f2d3a32369db38a6a4bb3985e7c18648ae4e xfs: race fsstress with realtime rmap btree scrub and repair
-8c46b2f68b05302bb9c790b31e1e0e8c32a10d12 xfs: fix various problems with fsmap detecting the data device
-0cc9170ab8577cc41beba1781f400e47cc044644 xfs/341: update test for rtgroup-based rmap
-cd3f52418fca1d6182ac70bdb8b1d1f418327782 xfs/3{43,32}: adapt tests for rt extent size greater than 1
-6d9a7890bba23515947b7381790c86a10a68041d xfs/291: use _scratch_mkfs_sized instead of opencoding the logic
-817f765e9e56e56a4d27e6f6166d9115c5a0c6bc xfs: skip tests if formatting small filesystem fails
-b4cae97490980889b1e6f7fccca104c79dc2a6ef xfs/443: use file allocation unit, not dbsize
-9157f88e14b9bfb93ee4d54ade8ec669efc8c9b7 populate: adjust rtrmap calculations for rtgroups
-8ea7b2ae8cb866151f6b57a965e5ae383713f9ea populate: check that we created a realtime rmap btree of the given height
-b07e6a8f0405e640f64821e40a6d79df06709ae7 fuzzy: create missing fuzz tests for rt rmap btrees
-e9e0a211a247a3a27950a9d761eeed3bb50cbb4c common/populate: create realtime refcount btree
-30851f0862575c642992d503a797830c6bc19549 xfs: create fuzz tests for the realtime refcount btree
-686e2972c8040b642d0869214043f7c4ecb8721e xfs/27[24]: adapt for checking files on the realtime volume
-dbc0d40594a5b9a3e3a27865375a04c5a13bfa03 xfs: race fsstress with realtime refcount btree scrub and repair
-9c3e8f0cbd42e02a56a82444d86296c233674f0b xfs: remove xfs/131 now that we allow reflink on realtime volumes
-2eddea095ccb9dbf214f85a8304fb21101c94e82 generic/331,xfs/240: support files that skip delayed allocation
-f96f21a89253600af0b9869e576b8084a651ce5a common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
-58d410795d1598d4144ed84473919e7af7737051 xfs: test filesystem recovery with rdump
-00878f4733cdbc72a795fd8f109bf3f207b8051a xfs: test upgrading old features
-601d58ed0ebc57ccd78babc56c705b6492332bf7 xfs/614: determine the sector size of the fs image by doing a test format
-c4b8f400a504683f35eb820b0f53511725a4a8db xfs/206: adapt for zoned realtime
-d12dc8e2317ed76210383e218de9408e9dcc105d xfs: make sure that CoW will write around when rextsize > 1
-bd2386c5254d6f564338f08c122f34c7a35b9d90 xfs: skip cowextsize hint fragmentation tests on realtime volumes
-daf3d9c6d1715fa7edd39c5807449bd5d0d687f3 misc: add more congruent oplen testing
-c39ac828e227759ed8766178bc3ab641318c35c8 xfs: test COWing entire rt extents
-90308efca65ba5f655d6977ee609c6054d46120e generic/303: avoid test failures on weird rt extent sizes
-1f2ee851bbce012267591b1ce332398bdb6c1d1a xfs: test output of new FSREFCOUNTS ioctl
-f5ab70a1cb4a070b3f54c36dcafbe7f029018726 xfs: test clearing of free space
-
---===============1120842549220992755==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-95fc04c2a0df-c625e668d96f.txt
-
-71b9fbc7dc60c9d57057d32a0a9d0e4014e11580 generic/476: fix fsstress process management
-71ba6462f79af02027b0940d010f68ab582e2b50 metadump: make non-local function variables more obvious
-9ac6e6551c36ae9078e35bfc4e71b20999a8aa4f metadump: fix cleanup for v1 metadump testing
-6daf90b77a497cdd8cdbb273e460466c4fd50360 generic/019: don't fail if fio crashes while shutting down
-8abb2fe36c8c2dce1c9fd146fd437f37fbaca243 fuzzy: do not set _FSSTRESS_PID when exercising fsx
-1f3725f9c4e85163325580000cfece6506164ff1 common/rc: revert recursive unmount in _clear_mount_stack
-0a77c9db4af8f84270cb2bf00675bfc2e2ea34fa common/dump: don't replace pids arbitrarily
-382f64ab64d0ee2ee3e99e2de617f8fc9789576d common/populate: correct the parent pointer name creation formulae
-a6d10c48a753f9fd5bffc6d6db7c06623ab53601 generic/759,760: fix MADV_COLLAPSE detection and inclusion
-62a6c738512e5a5560fa63fb599e042e33cfa2de generic/759,760: skip test if we can't set up a hugepage for IO
-b994081cca0d6899d149bbed5efb79233f46dd41 common/rc: create a wrapper for the su command
-09a0263fa1f10c575a23d9e232bafe8a33d00ec7 fuzzy: kill subprocesses with SIGPIPE, not SIGINT
-4c9814b08fe0bbf0002e7d25b33503fa24a13468 common/rc: hoist pkill to a helper function
-5a049b3acb18d3973640d0a6d7f5c519e8cf9b3e tools: add a Makefile
-a40000f7c5cc62dee902b341721e435a09cd4636 common: fix pkill by running test program in a separate session
-aa5626953c0e9e4f41a7e59a204d8238bfc443a9 check: run tests in a private pid/mount namespace
-10aa1570c280b1c2642d99616687aaa257923a55 check: deprecate using process sessions to isolate test instances
-2e0f4b85384039fa5d131ac27d92bf2059e2d283 common/rc: don't copy fsstress to $TEST_DIR
-318c61bfc97d58bb235846f0c038f328fb2a64fb unmount: resume logging of stdout and stderr for filtering
-c272d36ae2cbf09515a4383d2c1e4bfaf5f66e1b mkfs: don't hardcode log size
-e6ffb1248b3c8dad4a49d4117da5b167ad8b5e63 common/rc: return mount_ret in _try_scratch_mount
-aa4e8714b387942a2b58c0d660ed3dcc9a323cdb preamble: fix missing _kill_fsstress
-4467fd59324d3678b2cc145c6309ce8d3f024382 generic/650: revert SOAK DURATION changes
-c363f931277131b817d585594b07a3e45e995141 generic/032: fix pinned mount failure
-3bf5379f3c5a032aee200c8d97d0e082461933ea fuzzy: stop __stress_scrub_fsx_loop if fsx fails
-1bfba9f17d777007dc5345fdfa67bf4654ccb5d4 fuzzy: don't use readarray for xfsfind output
-edcd688315ba8e8f674a9f2eca3858825b7cadb6 fuzzy: always stop the scrub fsstress loop on error
-c86af3857d210e6450a86185e3ad705200144cc9 fuzzy: port fsx and fsstress loop to use --duration
-81b07f6f7ff1e8fbf34373d515c1c572801bba3a fix _require_scratch_duperemove ordering
-87c9bb1191e7d264c7276b29e3d873164a54e252 fsstress: fix a memory leak
-65b187eea39c66f0e7e95677a413c8669be1de01 fsx: fix leaked log file pointer
-501982639ede1089574f98a706367c8722a74cf1 misc: don't put nr_cpus into the fsstress -n argument
-186c55fc693ef0c5656b17f67906ccd2cd29b1ce common/config: add $here to FSSTRESS_PROG
-21dd6aa8add9b1ad5a6d6cf332c3af21711670d7 config: add FSX_PROG variable
-05a09df063e22a555930b077b9241a39b1895d3d build: initialize stack variables to zero by default
-0a327266fa41c76179744039a1fb0a3d2170e14f logwrites: warn if we don't think read after discard returns zeroes
-2d41bcb85d24bd0a5fc3f66535e8d42fc927cb74 logwrites: use BLKZEROOUT if it's available
-2864104b825b638aa79097d434754839bdc4a396 logwrites: only use BLKDISCARD if we know discard zeroes data
-1c9f4dace0b0b2fce38b44aa67aea4a472f2ac4c misc: drop the dangerous label from xfs_scrub fsstress tests
-64a59ec65090469ba089dd90e93728682d03eebc misc: rename the dangerous_repair group to fuzzers_repair
-7246c9b7af90e5cd27266da28ddb419a6097991d misc: rename the dangerous_online_repair group to fuzzers_online_repair
-1f7525c46184263be2372b856383a206e0610b5b misc: rename the dangerous_bothrepair group to fuzzers_bothrepair
-ad9d28f0b6408e9d4c2b741e386e8449ba273483 misc: rename the dangerous_norepair group to fuzzers_norepair
-25f41535a940ff42e4eeae1cc716733f909ac0d9 misc: fix misclassification of xfs_repair fuzz tests
-b4699f272dee01232ccd4db60085c101ebd48ad7 misc: fix misclassification of xfs_scrub + xfs_repair fuzz tests
-c8bd09c5f059cbf229c28f9241c4f1bd7cd692d9 misc: fix misclassification of verifier fuzz tests
-8e8a0fbd536f4a5e0ebe270c856be319a9e24fa0 misc: add xfs_scrub + xfs_repair fuzz tests to the scrub and repair groups
-b83d8c1733a62264932a34c660ddf310b3cd1e67 misc: remove the dangerous_scrub group
-5836b6b1672b0b795bc8adc581739419e83dd51e xfs/28[56],xfs/56[56]: add to the auto group
-8f3c6ef4f22d570b2e5b52814af3b98bc66f6bbd xfs/349: reclassify this test as not dangerous
-8687513be9f6f8f5f82c3cbac47f4e5ec8ca5567 various: fix finding metadata inode numbers when metadir is enabled
-d694b3b053dc3ad03dc64b138a3e5431abb7b18e xfs/{030,033,178}: forcibly disable metadata directory trees
-20a4bb362eb2b73ae0c477d4d90059cd039b3231 common/repair: patch up repair sb inode value complaints
-22130bbe38b59022be78279763223540f96cbfd8 xfs/206: update for metadata directory support
-1c9f3ea545426317edcc34faa4f8779163acc046 xfs/{050,144,153,299,330}: update quota reports to handle metadir trees
-6515675a941b02c549bcd1d3b10e5eb76bd6784b xfs/509: adjust inumbers accounting for metadata directories
-215411f56f4ef9fd056b746321db917f628cb930 xfs: create fuzz tests for metadata directories
-badf1a41abfd9a1036f103ef40eb34b09b86f1e3 xfs/163: bigger fs for metadir
-2258ffabb2f441df784e1bdfe44bfda827209644 xfs/122: disable this test for any codebase that knows about metadir
-34b1206de260b29db854627f8d1b567e3254683b common/populate: label newly created xfs filesystems
-c7e34d0e85df10504defb00b6e70b287c6648f46 scrub: race metapath online fsck with fsstress
-8be87eb2ad2217b447bd74ebb3b0f08dfa90f89a xfs: test metapath repairs
-911dcb4667c56ec3c535a259fcb3eccfa3d584fa xfs/019: reduce _fail calls in test
-758f1cee8877bd8f11b7e9fd816ae87ccb128cf6 xfs/019: test reserved file support
-bc892233c30147c0887d54889cee8b7b6078e99a xfs: test filesystem creation with xfs_protofile
-47af2b9cd14181655d4d519ba1f9f2f44102d4ae fstests: test mkfs.xfs protofiles with xattr support
-272f73b04effe28c8fc386601777c1d2189eb0e1 common/populate: refactor caching of metadumps to a helper
-39ced3a5ade28852b2a061b226ccdf6afbe832b9 common/{fuzzy,populate}: use _scratch_xfs_mdrestore
-3e6647019507585a6ca92cb4c00bb2eba1957c7e fuzzy: stress data and rt sections of xfs filesystems equally
-596dbc099f371145189fbdb5a0aec3ecc3a7efd7 fuzzy: run fsx on data and rt sections of xfs filesystems equally
-d747356eca2f78a9dfcf6bf8531eba46619423e7 common/ext4: reformat external logs during mdrestore operations
-92a2e7c6e08ae93efaa539af655aa10f746c886d common/populate: use metadump v2 format by default for fs metadata snapshots
-12ce398860d15232e133532bb44d74cd7097c324 punch-alternating: detect xfs realtime files with large allocation units
-265ebcf15239f11de95606ea2687b4aa9637080f xfs/206: update mkfs filtering for rt groups feature
-c3c5c34c6f30f27d1fb828511ae5996276acd120 common: pass the realtime device to xfs_db when possible
-fe50c474629ba27a42c287a5e993b0ffe823e028 xfs/185: update for rtgroups
-63624fab4aee35502d025e5eea386e65ba6bb709 xfs/449: update test to know about xfs_db -R
-b025145d9a96a7e0979f0ba46dd9c0f4418aa4ff xfs/271,xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
-44fdf216d95c07aa129330a0adb31aeead5cbea8 common/xfs: capture realtime devices during metadump/mdrestore
-34058229131b5fbe55a7d4bcf98da52694301f05 common/fuzzy: adapt the scrub stress tests to support rtgroups
-798ed5531c6c9518cf6e9bba823e613ab8cb4afa xfs: fix fuzz tests of rtgroups bitmap and summary files
-cebd1b62318ddae6544f174aad0fef7068b2706d xfs: update tests for quota files in the metadir
-be6577d3ee06d2803c82cc7b2b655b233d9b10c4 xfs: test persistent quota flags
-dd0ebc3bd519547aab7a7c5ddcc583b46568383b xfs: fix quota detection in fuzz tests
-ff82765085efe4952f829bfffd524ea97299c625 xfs: fix tests for persistent qflags
-15320637a298308a53935e0e765458b83c0f876d common: enable testing of realtime quota when supported
-c17f2f00bfa418a0a74c13e229356af74b17d4f4 xfs: fix quota tests to adapt to realtime quota
-7a38ce3989626fa31d48ae0f1061e1732e85d077 xfs: regression testing of quota on the realtime device
-ccea7893fbab78113c98df2f9443d7658ef95473 common: test statfs reporting with project quota
-fcd7870a3185b18aa286fc1593f6657877903c33 xfs: fix tests that try to access the realtime rmap inode
-bbe090d4c6e0ef574a9ecf49ac5fa5d9aa196f6a xfs/336: port to common/metadump
-9e9ee02e5295da1febd50dbf3444ddce4a39f82a fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
-4858f2d3a32369db38a6a4bb3985e7c18648ae4e xfs: race fsstress with realtime rmap btree scrub and repair
-8c46b2f68b05302bb9c790b31e1e0e8c32a10d12 xfs: fix various problems with fsmap detecting the data device
-0cc9170ab8577cc41beba1781f400e47cc044644 xfs/341: update test for rtgroup-based rmap
-cd3f52418fca1d6182ac70bdb8b1d1f418327782 xfs/3{43,32}: adapt tests for rt extent size greater than 1
-6d9a7890bba23515947b7381790c86a10a68041d xfs/291: use _scratch_mkfs_sized instead of opencoding the logic
-817f765e9e56e56a4d27e6f6166d9115c5a0c6bc xfs: skip tests if formatting small filesystem fails
-b4cae97490980889b1e6f7fccca104c79dc2a6ef xfs/443: use file allocation unit, not dbsize
-9157f88e14b9bfb93ee4d54ade8ec669efc8c9b7 populate: adjust rtrmap calculations for rtgroups
-8ea7b2ae8cb866151f6b57a965e5ae383713f9ea populate: check that we created a realtime rmap btree of the given height
-b07e6a8f0405e640f64821e40a6d79df06709ae7 fuzzy: create missing fuzz tests for rt rmap btrees
-e9e0a211a247a3a27950a9d761eeed3bb50cbb4c common/populate: create realtime refcount btree
-30851f0862575c642992d503a797830c6bc19549 xfs: create fuzz tests for the realtime refcount btree
-686e2972c8040b642d0869214043f7c4ecb8721e xfs/27[24]: adapt for checking files on the realtime volume
-dbc0d40594a5b9a3e3a27865375a04c5a13bfa03 xfs: race fsstress with realtime refcount btree scrub and repair
-9c3e8f0cbd42e02a56a82444d86296c233674f0b xfs: remove xfs/131 now that we allow reflink on realtime volumes
-2eddea095ccb9dbf214f85a8304fb21101c94e82 generic/331,xfs/240: support files that skip delayed allocation
-f96f21a89253600af0b9869e576b8084a651ce5a common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
-58d410795d1598d4144ed84473919e7af7737051 xfs: test filesystem recovery with rdump
-00878f4733cdbc72a795fd8f109bf3f207b8051a xfs: test upgrading old features
-601d58ed0ebc57ccd78babc56c705b6492332bf7 xfs/614: determine the sector size of the fs image by doing a test format
-c4b8f400a504683f35eb820b0f53511725a4a8db xfs/206: adapt for zoned realtime
-d12dc8e2317ed76210383e218de9408e9dcc105d xfs: make sure that CoW will write around when rextsize > 1
-bd2386c5254d6f564338f08c122f34c7a35b9d90 xfs: skip cowextsize hint fragmentation tests on realtime volumes
-daf3d9c6d1715fa7edd39c5807449bd5d0d687f3 misc: add more congruent oplen testing
-c39ac828e227759ed8766178bc3ab641318c35c8 xfs: test COWing entire rt extents
-90308efca65ba5f655d6977ee609c6054d46120e generic/303: avoid test failures on weird rt extent sizes
-1f2ee851bbce012267591b1ce332398bdb6c1d1a xfs: test output of new FSREFCOUNTS ioctl
-f5ab70a1cb4a070b3f54c36dcafbe7f029018726 xfs: test clearing of free space
-1275f0ff4d4f49128e12028b0dd80f75ce3e2659 treewide: convert all $MOUNT_PROG to _mount
-bdb8d5b12dce088300febe37bcba4d1d491d93ca check: capture dmesg of mount failures if test fails
-dd374202f6cbf25a1f6326dc53177ae88824af28 xfs: test health monitoring code
-aaf0f90f18bc4a5cbc2c5f773bf45a176e098020 xfs: test for metadata corruption error reporting via healthmon
-32061a4c63a52f5262201b52156dbddddf9205f7 xfs: test io error reporting via healthmon
-55f3dff2d75008a9d511bab3e2a6885594f8f2e4 xfs: test new xfs_scrubbed daemon
-d5371362d8a4bd0f7cc61421a0e0011d815875b6 xfs/1856: add metadir upgrade to test matrix
-4e852c57032bd1722d50ba9e34fb9dca5b41b668 xfs/1856: add rtrmapbt upgrade to test matrix
-917ba5b60a74a597ae1e5fdee76dba26f3bf5879 xfs/1856: add rtreflink upgrade to test matrix
-d96225a88abc8e3b9a69e1f1dd1921d1ec050083 xfs: online fuzz test known output
-b07337c6db0e8987f4783069015d50a9bd33c552 xfs: offline fuzz test known output
-9df37e9adcd1b50b37b150085db043a9083035fd xfs: norepair fuzz test known output
-9b385315e67fe9c67af4bf1c6eeacb28f0c0a8ab xfs: bothrepair fuzz test known output
-9fabe980c7e538333e5087f9f73ea23abe946b38 xfs: baseline golden output for metadata directory fuzz tests
-fee008c535f50df58c4ed9e51e6d1880f40b561c fuzzy: create known output for rt rmap btree fuzz tests
-05789a25580bc31b333498f52236c068dc1a359a xfs: baseline golden output for rt refcount btree fuzz tests
-9364f638df3cc4f9734e5922980f631bf1e7b6e6 debug some arm problem
-281c812236f247b2aa643cfbf53dbcb0cd50cd75 generic/230: extend grace period to 6 seconds
-62b565e3b00c8fc35f4b4cd5853e28ee93a65b12 does this fix the writeback invalidation test on arm64?
-c625e668d96fc68c6b5991c1f63e64d055b2ab96 force local definition until we stabilize abi
-
---===============1120842549220992755==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1f2b2dd22e5a-8f3c6ef4f22d.txt
-
-71b9fbc7dc60c9d57057d32a0a9d0e4014e11580 generic/476: fix fsstress process management
-71ba6462f79af02027b0940d010f68ab582e2b50 metadump: make non-local function variables more obvious
-9ac6e6551c36ae9078e35bfc4e71b20999a8aa4f metadump: fix cleanup for v1 metadump testing
-6daf90b77a497cdd8cdbb273e460466c4fd50360 generic/019: don't fail if fio crashes while shutting down
-8abb2fe36c8c2dce1c9fd146fd437f37fbaca243 fuzzy: do not set _FSSTRESS_PID when exercising fsx
-1f3725f9c4e85163325580000cfece6506164ff1 common/rc: revert recursive unmount in _clear_mount_stack
-0a77c9db4af8f84270cb2bf00675bfc2e2ea34fa common/dump: don't replace pids arbitrarily
-382f64ab64d0ee2ee3e99e2de617f8fc9789576d common/populate: correct the parent pointer name creation formulae
-a6d10c48a753f9fd5bffc6d6db7c06623ab53601 generic/759,760: fix MADV_COLLAPSE detection and inclusion
-62a6c738512e5a5560fa63fb599e042e33cfa2de generic/759,760: skip test if we can't set up a hugepage for IO
-b994081cca0d6899d149bbed5efb79233f46dd41 common/rc: create a wrapper for the su command
-09a0263fa1f10c575a23d9e232bafe8a33d00ec7 fuzzy: kill subprocesses with SIGPIPE, not SIGINT
-4c9814b08fe0bbf0002e7d25b33503fa24a13468 common/rc: hoist pkill to a helper function
-5a049b3acb18d3973640d0a6d7f5c519e8cf9b3e tools: add a Makefile
-a40000f7c5cc62dee902b341721e435a09cd4636 common: fix pkill by running test program in a separate session
-aa5626953c0e9e4f41a7e59a204d8238bfc443a9 check: run tests in a private pid/mount namespace
-10aa1570c280b1c2642d99616687aaa257923a55 check: deprecate using process sessions to isolate test instances
-2e0f4b85384039fa5d131ac27d92bf2059e2d283 common/rc: don't copy fsstress to $TEST_DIR
-318c61bfc97d58bb235846f0c038f328fb2a64fb unmount: resume logging of stdout and stderr for filtering
-c272d36ae2cbf09515a4383d2c1e4bfaf5f66e1b mkfs: don't hardcode log size
-e6ffb1248b3c8dad4a49d4117da5b167ad8b5e63 common/rc: return mount_ret in _try_scratch_mount
-aa4e8714b387942a2b58c0d660ed3dcc9a323cdb preamble: fix missing _kill_fsstress
-4467fd59324d3678b2cc145c6309ce8d3f024382 generic/650: revert SOAK DURATION changes
-c363f931277131b817d585594b07a3e45e995141 generic/032: fix pinned mount failure
-3bf5379f3c5a032aee200c8d97d0e082461933ea fuzzy: stop __stress_scrub_fsx_loop if fsx fails
-1bfba9f17d777007dc5345fdfa67bf4654ccb5d4 fuzzy: don't use readarray for xfsfind output
-edcd688315ba8e8f674a9f2eca3858825b7cadb6 fuzzy: always stop the scrub fsstress loop on error
-c86af3857d210e6450a86185e3ad705200144cc9 fuzzy: port fsx and fsstress loop to use --duration
-81b07f6f7ff1e8fbf34373d515c1c572801bba3a fix _require_scratch_duperemove ordering
-87c9bb1191e7d264c7276b29e3d873164a54e252 fsstress: fix a memory leak
-65b187eea39c66f0e7e95677a413c8669be1de01 fsx: fix leaked log file pointer
-501982639ede1089574f98a706367c8722a74cf1 misc: don't put nr_cpus into the fsstress -n argument
-186c55fc693ef0c5656b17f67906ccd2cd29b1ce common/config: add $here to FSSTRESS_PROG
-21dd6aa8add9b1ad5a6d6cf332c3af21711670d7 config: add FSX_PROG variable
-05a09df063e22a555930b077b9241a39b1895d3d build: initialize stack variables to zero by default
-0a327266fa41c76179744039a1fb0a3d2170e14f logwrites: warn if we don't think read after discard returns zeroes
-2d41bcb85d24bd0a5fc3f66535e8d42fc927cb74 logwrites: use BLKZEROOUT if it's available
-2864104b825b638aa79097d434754839bdc4a396 logwrites: only use BLKDISCARD if we know discard zeroes data
-1c9f4dace0b0b2fce38b44aa67aea4a472f2ac4c misc: drop the dangerous label from xfs_scrub fsstress tests
-64a59ec65090469ba089dd90e93728682d03eebc misc: rename the dangerous_repair group to fuzzers_repair
-7246c9b7af90e5cd27266da28ddb419a6097991d misc: rename the dangerous_online_repair group to fuzzers_online_repair
-1f7525c46184263be2372b856383a206e0610b5b misc: rename the dangerous_bothrepair group to fuzzers_bothrepair
-ad9d28f0b6408e9d4c2b741e386e8449ba273483 misc: rename the dangerous_norepair group to fuzzers_norepair
-25f41535a940ff42e4eeae1cc716733f909ac0d9 misc: fix misclassification of xfs_repair fuzz tests
-b4699f272dee01232ccd4db60085c101ebd48ad7 misc: fix misclassification of xfs_scrub + xfs_repair fuzz tests
-c8bd09c5f059cbf229c28f9241c4f1bd7cd692d9 misc: fix misclassification of verifier fuzz tests
-8e8a0fbd536f4a5e0ebe270c856be319a9e24fa0 misc: add xfs_scrub + xfs_repair fuzz tests to the scrub and repair groups
-b83d8c1733a62264932a34c660ddf310b3cd1e67 misc: remove the dangerous_scrub group
-5836b6b1672b0b795bc8adc581739419e83dd51e xfs/28[56],xfs/56[56]: add to the auto group
-8f3c6ef4f22d570b2e5b52814af3b98bc66f6bbd xfs/349: reclassify this test as not dangerous
-
---===============1120842549220992755==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6a53aa4b34e3-05789a25580b.txt
-
-71b9fbc7dc60c9d57057d32a0a9d0e4014e11580 generic/476: fix fsstress process management
-71ba6462f79af02027b0940d010f68ab582e2b50 metadump: make non-local function variables more obvious
-9ac6e6551c36ae9078e35bfc4e71b20999a8aa4f metadump: fix cleanup for v1 metadump testing
-6daf90b77a497cdd8cdbb273e460466c4fd50360 generic/019: don't fail if fio crashes while shutting down
-8abb2fe36c8c2dce1c9fd146fd437f37fbaca243 fuzzy: do not set _FSSTRESS_PID when exercising fsx
-1f3725f9c4e85163325580000cfece6506164ff1 common/rc: revert recursive unmount in _clear_mount_stack
-0a77c9db4af8f84270cb2bf00675bfc2e2ea34fa common/dump: don't replace pids arbitrarily
-382f64ab64d0ee2ee3e99e2de617f8fc9789576d common/populate: correct the parent pointer name creation formulae
-a6d10c48a753f9fd5bffc6d6db7c06623ab53601 generic/759,760: fix MADV_COLLAPSE detection and inclusion
-62a6c738512e5a5560fa63fb599e042e33cfa2de generic/759,760: skip test if we can't set up a hugepage for IO
-b994081cca0d6899d149bbed5efb79233f46dd41 common/rc: create a wrapper for the su command
-09a0263fa1f10c575a23d9e232bafe8a33d00ec7 fuzzy: kill subprocesses with SIGPIPE, not SIGINT
-4c9814b08fe0bbf0002e7d25b33503fa24a13468 common/rc: hoist pkill to a helper function
-5a049b3acb18d3973640d0a6d7f5c519e8cf9b3e tools: add a Makefile
-a40000f7c5cc62dee902b341721e435a09cd4636 common: fix pkill by running test program in a separate session
-aa5626953c0e9e4f41a7e59a204d8238bfc443a9 check: run tests in a private pid/mount namespace
-10aa1570c280b1c2642d99616687aaa257923a55 check: deprecate using process sessions to isolate test instances
-2e0f4b85384039fa5d131ac27d92bf2059e2d283 common/rc: don't copy fsstress to $TEST_DIR
-318c61bfc97d58bb235846f0c038f328fb2a64fb unmount: resume logging of stdout and stderr for filtering
-c272d36ae2cbf09515a4383d2c1e4bfaf5f66e1b mkfs: don't hardcode log size
-e6ffb1248b3c8dad4a49d4117da5b167ad8b5e63 common/rc: return mount_ret in _try_scratch_mount
-aa4e8714b387942a2b58c0d660ed3dcc9a323cdb preamble: fix missing _kill_fsstress
-4467fd59324d3678b2cc145c6309ce8d3f024382 generic/650: revert SOAK DURATION changes
-c363f931277131b817d585594b07a3e45e995141 generic/032: fix pinned mount failure
-3bf5379f3c5a032aee200c8d97d0e082461933ea fuzzy: stop __stress_scrub_fsx_loop if fsx fails
-1bfba9f17d777007dc5345fdfa67bf4654ccb5d4 fuzzy: don't use readarray for xfsfind output
-edcd688315ba8e8f674a9f2eca3858825b7cadb6 fuzzy: always stop the scrub fsstress loop on error
-c86af3857d210e6450a86185e3ad705200144cc9 fuzzy: port fsx and fsstress loop to use --duration
-81b07f6f7ff1e8fbf34373d515c1c572801bba3a fix _require_scratch_duperemove ordering
-87c9bb1191e7d264c7276b29e3d873164a54e252 fsstress: fix a memory leak
-65b187eea39c66f0e7e95677a413c8669be1de01 fsx: fix leaked log file pointer
-501982639ede1089574f98a706367c8722a74cf1 misc: don't put nr_cpus into the fsstress -n argument
-186c55fc693ef0c5656b17f67906ccd2cd29b1ce common/config: add $here to FSSTRESS_PROG
-21dd6aa8add9b1ad5a6d6cf332c3af21711670d7 config: add FSX_PROG variable
-05a09df063e22a555930b077b9241a39b1895d3d build: initialize stack variables to zero by default
-0a327266fa41c76179744039a1fb0a3d2170e14f logwrites: warn if we don't think read after discard returns zeroes
-2d41bcb85d24bd0a5fc3f66535e8d42fc927cb74 logwrites: use BLKZEROOUT if it's available
-2864104b825b638aa79097d434754839bdc4a396 logwrites: only use BLKDISCARD if we know discard zeroes data
-1c9f4dace0b0b2fce38b44aa67aea4a472f2ac4c misc: drop the dangerous label from xfs_scrub fsstress tests
-64a59ec65090469ba089dd90e93728682d03eebc misc: rename the dangerous_repair group to fuzzers_repair
-7246c9b7af90e5cd27266da28ddb419a6097991d misc: rename the dangerous_online_repair group to fuzzers_online_repair
-1f7525c46184263be2372b856383a206e0610b5b misc: rename the dangerous_bothrepair group to fuzzers_bothrepair
-ad9d28f0b6408e9d4c2b741e386e8449ba273483 misc: rename the dangerous_norepair group to fuzzers_norepair
-25f41535a940ff42e4eeae1cc716733f909ac0d9 misc: fix misclassification of xfs_repair fuzz tests
-b4699f272dee01232ccd4db60085c101ebd48ad7 misc: fix misclassification of xfs_scrub + xfs_repair fuzz tests
-c8bd09c5f059cbf229c28f9241c4f1bd7cd692d9 misc: fix misclassification of verifier fuzz tests
-8e8a0fbd536f4a5e0ebe270c856be319a9e24fa0 misc: add xfs_scrub + xfs_repair fuzz tests to the scrub and repair groups
-b83d8c1733a62264932a34c660ddf310b3cd1e67 misc: remove the dangerous_scrub group
-5836b6b1672b0b795bc8adc581739419e83dd51e xfs/28[56],xfs/56[56]: add to the auto group
-8f3c6ef4f22d570b2e5b52814af3b98bc66f6bbd xfs/349: reclassify this test as not dangerous
-8687513be9f6f8f5f82c3cbac47f4e5ec8ca5567 various: fix finding metadata inode numbers when metadir is enabled
-d694b3b053dc3ad03dc64b138a3e5431abb7b18e xfs/{030,033,178}: forcibly disable metadata directory trees
-20a4bb362eb2b73ae0c477d4d90059cd039b3231 common/repair: patch up repair sb inode value complaints
-22130bbe38b59022be78279763223540f96cbfd8 xfs/206: update for metadata directory support
-1c9f3ea545426317edcc34faa4f8779163acc046 xfs/{050,144,153,299,330}: update quota reports to handle metadir trees
-6515675a941b02c549bcd1d3b10e5eb76bd6784b xfs/509: adjust inumbers accounting for metadata directories
-215411f56f4ef9fd056b746321db917f628cb930 xfs: create fuzz tests for metadata directories
-badf1a41abfd9a1036f103ef40eb34b09b86f1e3 xfs/163: bigger fs for metadir
-2258ffabb2f441df784e1bdfe44bfda827209644 xfs/122: disable this test for any codebase that knows about metadir
-34b1206de260b29db854627f8d1b567e3254683b common/populate: label newly created xfs filesystems
-c7e34d0e85df10504defb00b6e70b287c6648f46 scrub: race metapath online fsck with fsstress
-8be87eb2ad2217b447bd74ebb3b0f08dfa90f89a xfs: test metapath repairs
-911dcb4667c56ec3c535a259fcb3eccfa3d584fa xfs/019: reduce _fail calls in test
-758f1cee8877bd8f11b7e9fd816ae87ccb128cf6 xfs/019: test reserved file support
-bc892233c30147c0887d54889cee8b7b6078e99a xfs: test filesystem creation with xfs_protofile
-47af2b9cd14181655d4d519ba1f9f2f44102d4ae fstests: test mkfs.xfs protofiles with xattr support
-272f73b04effe28c8fc386601777c1d2189eb0e1 common/populate: refactor caching of metadumps to a helper
-39ced3a5ade28852b2a061b226ccdf6afbe832b9 common/{fuzzy,populate}: use _scratch_xfs_mdrestore
-3e6647019507585a6ca92cb4c00bb2eba1957c7e fuzzy: stress data and rt sections of xfs filesystems equally
-596dbc099f371145189fbdb5a0aec3ecc3a7efd7 fuzzy: run fsx on data and rt sections of xfs filesystems equally
-d747356eca2f78a9dfcf6bf8531eba46619423e7 common/ext4: reformat external logs during mdrestore operations
-92a2e7c6e08ae93efaa539af655aa10f746c886d common/populate: use metadump v2 format by default for fs metadata snapshots
-12ce398860d15232e133532bb44d74cd7097c324 punch-alternating: detect xfs realtime files with large allocation units
-265ebcf15239f11de95606ea2687b4aa9637080f xfs/206: update mkfs filtering for rt groups feature
-c3c5c34c6f30f27d1fb828511ae5996276acd120 common: pass the realtime device to xfs_db when possible
-fe50c474629ba27a42c287a5e993b0ffe823e028 xfs/185: update for rtgroups
-63624fab4aee35502d025e5eea386e65ba6bb709 xfs/449: update test to know about xfs_db -R
-b025145d9a96a7e0979f0ba46dd9c0f4418aa4ff xfs/271,xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
-44fdf216d95c07aa129330a0adb31aeead5cbea8 common/xfs: capture realtime devices during metadump/mdrestore
-34058229131b5fbe55a7d4bcf98da52694301f05 common/fuzzy: adapt the scrub stress tests to support rtgroups
-798ed5531c6c9518cf6e9bba823e613ab8cb4afa xfs: fix fuzz tests of rtgroups bitmap and summary files
-cebd1b62318ddae6544f174aad0fef7068b2706d xfs: update tests for quota files in the metadir
-be6577d3ee06d2803c82cc7b2b655b233d9b10c4 xfs: test persistent quota flags
-dd0ebc3bd519547aab7a7c5ddcc583b46568383b xfs: fix quota detection in fuzz tests
-ff82765085efe4952f829bfffd524ea97299c625 xfs: fix tests for persistent qflags
-15320637a298308a53935e0e765458b83c0f876d common: enable testing of realtime quota when supported
-c17f2f00bfa418a0a74c13e229356af74b17d4f4 xfs: fix quota tests to adapt to realtime quota
-7a38ce3989626fa31d48ae0f1061e1732e85d077 xfs: regression testing of quota on the realtime device
-ccea7893fbab78113c98df2f9443d7658ef95473 common: test statfs reporting with project quota
-fcd7870a3185b18aa286fc1593f6657877903c33 xfs: fix tests that try to access the realtime rmap inode
-bbe090d4c6e0ef574a9ecf49ac5fa5d9aa196f6a xfs/336: port to common/metadump
-9e9ee02e5295da1febd50dbf3444ddce4a39f82a fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
-4858f2d3a32369db38a6a4bb3985e7c18648ae4e xfs: race fsstress with realtime rmap btree scrub and repair
-8c46b2f68b05302bb9c790b31e1e0e8c32a10d12 xfs: fix various problems with fsmap detecting the data device
-0cc9170ab8577cc41beba1781f400e47cc044644 xfs/341: update test for rtgroup-based rmap
-cd3f52418fca1d6182ac70bdb8b1d1f418327782 xfs/3{43,32}: adapt tests for rt extent size greater than 1
-6d9a7890bba23515947b7381790c86a10a68041d xfs/291: use _scratch_mkfs_sized instead of opencoding the logic
-817f765e9e56e56a4d27e6f6166d9115c5a0c6bc xfs: skip tests if formatting small filesystem fails
-b4cae97490980889b1e6f7fccca104c79dc2a6ef xfs/443: use file allocation unit, not dbsize
-9157f88e14b9bfb93ee4d54ade8ec669efc8c9b7 populate: adjust rtrmap calculations for rtgroups
-8ea7b2ae8cb866151f6b57a965e5ae383713f9ea populate: check that we created a realtime rmap btree of the given height
-b07e6a8f0405e640f64821e40a6d79df06709ae7 fuzzy: create missing fuzz tests for rt rmap btrees
-e9e0a211a247a3a27950a9d761eeed3bb50cbb4c common/populate: create realtime refcount btree
-30851f0862575c642992d503a797830c6bc19549 xfs: create fuzz tests for the realtime refcount btree
-686e2972c8040b642d0869214043f7c4ecb8721e xfs/27[24]: adapt for checking files on the realtime volume
-dbc0d40594a5b9a3e3a27865375a04c5a13bfa03 xfs: race fsstress with realtime refcount btree scrub and repair
-9c3e8f0cbd42e02a56a82444d86296c233674f0b xfs: remove xfs/131 now that we allow reflink on realtime volumes
-2eddea095ccb9dbf214f85a8304fb21101c94e82 generic/331,xfs/240: support files that skip delayed allocation
-f96f21a89253600af0b9869e576b8084a651ce5a common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
-58d410795d1598d4144ed84473919e7af7737051 xfs: test filesystem recovery with rdump
-00878f4733cdbc72a795fd8f109bf3f207b8051a xfs: test upgrading old features
-601d58ed0ebc57ccd78babc56c705b6492332bf7 xfs/614: determine the sector size of the fs image by doing a test format
-c4b8f400a504683f35eb820b0f53511725a4a8db xfs/206: adapt for zoned realtime
-d12dc8e2317ed76210383e218de9408e9dcc105d xfs: make sure that CoW will write around when rextsize > 1
-bd2386c5254d6f564338f08c122f34c7a35b9d90 xfs: skip cowextsize hint fragmentation tests on realtime volumes
-daf3d9c6d1715fa7edd39c5807449bd5d0d687f3 misc: add more congruent oplen testing
-c39ac828e227759ed8766178bc3ab641318c35c8 xfs: test COWing entire rt extents
-90308efca65ba5f655d6977ee609c6054d46120e generic/303: avoid test failures on weird rt extent sizes
-1f2ee851bbce012267591b1ce332398bdb6c1d1a xfs: test output of new FSREFCOUNTS ioctl
-f5ab70a1cb4a070b3f54c36dcafbe7f029018726 xfs: test clearing of free space
-1275f0ff4d4f49128e12028b0dd80f75ce3e2659 treewide: convert all $MOUNT_PROG to _mount
-bdb8d5b12dce088300febe37bcba4d1d491d93ca check: capture dmesg of mount failures if test fails
-dd374202f6cbf25a1f6326dc53177ae88824af28 xfs: test health monitoring code
-aaf0f90f18bc4a5cbc2c5f773bf45a176e098020 xfs: test for metadata corruption error reporting via healthmon
-32061a4c63a52f5262201b52156dbddddf9205f7 xfs: test io error reporting via healthmon
-55f3dff2d75008a9d511bab3e2a6885594f8f2e4 xfs: test new xfs_scrubbed daemon
-d5371362d8a4bd0f7cc61421a0e0011d815875b6 xfs/1856: add metadir upgrade to test matrix
-4e852c57032bd1722d50ba9e34fb9dca5b41b668 xfs/1856: add rtrmapbt upgrade to test matrix
-917ba5b60a74a597ae1e5fdee76dba26f3bf5879 xfs/1856: add rtreflink upgrade to test matrix
-d96225a88abc8e3b9a69e1f1dd1921d1ec050083 xfs: online fuzz test known output
-b07337c6db0e8987f4783069015d50a9bd33c552 xfs: offline fuzz test known output
-9df37e9adcd1b50b37b150085db043a9083035fd xfs: norepair fuzz test known output
-9b385315e67fe9c67af4bf1c6eeacb28f0c0a8ab xfs: bothrepair fuzz test known output
-9fabe980c7e538333e5087f9f73ea23abe946b38 xfs: baseline golden output for metadata directory fuzz tests
-fee008c535f50df58c4ed9e51e6d1880f40b561c fuzzy: create known output for rt rmap btree fuzz tests
-05789a25580bc31b333498f52236c068dc1a359a xfs: baseline golden output for rt refcount btree fuzz tests
-
---===============1120842549220992755==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-08c7b0d9edfb-55f3dff2d750.txt
-
-71b9fbc7dc60c9d57057d32a0a9d0e4014e11580 generic/476: fix fsstress process management
-71ba6462f79af02027b0940d010f68ab582e2b50 metadump: make non-local function variables more obvious
-9ac6e6551c36ae9078e35bfc4e71b20999a8aa4f metadump: fix cleanup for v1 metadump testing
-6daf90b77a497cdd8cdbb273e460466c4fd50360 generic/019: don't fail if fio crashes while shutting down
-8abb2fe36c8c2dce1c9fd146fd437f37fbaca243 fuzzy: do not set _FSSTRESS_PID when exercising fsx
-1f3725f9c4e85163325580000cfece6506164ff1 common/rc: revert recursive unmount in _clear_mount_stack
-0a77c9db4af8f84270cb2bf00675bfc2e2ea34fa common/dump: don't replace pids arbitrarily
-382f64ab64d0ee2ee3e99e2de617f8fc9789576d common/populate: correct the parent pointer name creation formulae
-a6d10c48a753f9fd5bffc6d6db7c06623ab53601 generic/759,760: fix MADV_COLLAPSE detection and inclusion
-62a6c738512e5a5560fa63fb599e042e33cfa2de generic/759,760: skip test if we can't set up a hugepage for IO
-b994081cca0d6899d149bbed5efb79233f46dd41 common/rc: create a wrapper for the su command
-09a0263fa1f10c575a23d9e232bafe8a33d00ec7 fuzzy: kill subprocesses with SIGPIPE, not SIGINT
-4c9814b08fe0bbf0002e7d25b33503fa24a13468 common/rc: hoist pkill to a helper function
-5a049b3acb18d3973640d0a6d7f5c519e8cf9b3e tools: add a Makefile
-a40000f7c5cc62dee902b341721e435a09cd4636 common: fix pkill by running test program in a separate session
-aa5626953c0e9e4f41a7e59a204d8238bfc443a9 check: run tests in a private pid/mount namespace
-10aa1570c280b1c2642d99616687aaa257923a55 check: deprecate using process sessions to isolate test instances
-2e0f4b85384039fa5d131ac27d92bf2059e2d283 common/rc: don't copy fsstress to $TEST_DIR
-318c61bfc97d58bb235846f0c038f328fb2a64fb unmount: resume logging of stdout and stderr for filtering
-c272d36ae2cbf09515a4383d2c1e4bfaf5f66e1b mkfs: don't hardcode log size
-e6ffb1248b3c8dad4a49d4117da5b167ad8b5e63 common/rc: return mount_ret in _try_scratch_mount
-aa4e8714b387942a2b58c0d660ed3dcc9a323cdb preamble: fix missing _kill_fsstress
-4467fd59324d3678b2cc145c6309ce8d3f024382 generic/650: revert SOAK DURATION changes
-c363f931277131b817d585594b07a3e45e995141 generic/032: fix pinned mount failure
-3bf5379f3c5a032aee200c8d97d0e082461933ea fuzzy: stop __stress_scrub_fsx_loop if fsx fails
-1bfba9f17d777007dc5345fdfa67bf4654ccb5d4 fuzzy: don't use readarray for xfsfind output
-edcd688315ba8e8f674a9f2eca3858825b7cadb6 fuzzy: always stop the scrub fsstress loop on error
-c86af3857d210e6450a86185e3ad705200144cc9 fuzzy: port fsx and fsstress loop to use --duration
-81b07f6f7ff1e8fbf34373d515c1c572801bba3a fix _require_scratch_duperemove ordering
-87c9bb1191e7d264c7276b29e3d873164a54e252 fsstress: fix a memory leak
-65b187eea39c66f0e7e95677a413c8669be1de01 fsx: fix leaked log file pointer
-501982639ede1089574f98a706367c8722a74cf1 misc: don't put nr_cpus into the fsstress -n argument
-186c55fc693ef0c5656b17f67906ccd2cd29b1ce common/config: add $here to FSSTRESS_PROG
-21dd6aa8add9b1ad5a6d6cf332c3af21711670d7 config: add FSX_PROG variable
-05a09df063e22a555930b077b9241a39b1895d3d build: initialize stack variables to zero by default
-0a327266fa41c76179744039a1fb0a3d2170e14f logwrites: warn if we don't think read after discard returns zeroes
-2d41bcb85d24bd0a5fc3f66535e8d42fc927cb74 logwrites: use BLKZEROOUT if it's available
-2864104b825b638aa79097d434754839bdc4a396 logwrites: only use BLKDISCARD if we know discard zeroes data
-1c9f4dace0b0b2fce38b44aa67aea4a472f2ac4c misc: drop the dangerous label from xfs_scrub fsstress tests
-64a59ec65090469ba089dd90e93728682d03eebc misc: rename the dangerous_repair group to fuzzers_repair
-7246c9b7af90e5cd27266da28ddb419a6097991d misc: rename the dangerous_online_repair group to fuzzers_online_repair
-1f7525c46184263be2372b856383a206e0610b5b misc: rename the dangerous_bothrepair group to fuzzers_bothrepair
-ad9d28f0b6408e9d4c2b741e386e8449ba273483 misc: rename the dangerous_norepair group to fuzzers_norepair
-25f41535a940ff42e4eeae1cc716733f909ac0d9 misc: fix misclassification of xfs_repair fuzz tests
-b4699f272dee01232ccd4db60085c101ebd48ad7 misc: fix misclassification of xfs_scrub + xfs_repair fuzz tests
-c8bd09c5f059cbf229c28f9241c4f1bd7cd692d9 misc: fix misclassification of verifier fuzz tests
-8e8a0fbd536f4a5e0ebe270c856be319a9e24fa0 misc: add xfs_scrub + xfs_repair fuzz tests to the scrub and repair groups
-b83d8c1733a62264932a34c660ddf310b3cd1e67 misc: remove the dangerous_scrub group
-5836b6b1672b0b795bc8adc581739419e83dd51e xfs/28[56],xfs/56[56]: add to the auto group
-8f3c6ef4f22d570b2e5b52814af3b98bc66f6bbd xfs/349: reclassify this test as not dangerous
-8687513be9f6f8f5f82c3cbac47f4e5ec8ca5567 various: fix finding metadata inode numbers when metadir is enabled
-d694b3b053dc3ad03dc64b138a3e5431abb7b18e xfs/{030,033,178}: forcibly disable metadata directory trees
-20a4bb362eb2b73ae0c477d4d90059cd039b3231 common/repair: patch up repair sb inode value complaints
-22130bbe38b59022be78279763223540f96cbfd8 xfs/206: update for metadata directory support
-1c9f3ea545426317edcc34faa4f8779163acc046 xfs/{050,144,153,299,330}: update quota reports to handle metadir trees
-6515675a941b02c549bcd1d3b10e5eb76bd6784b xfs/509: adjust inumbers accounting for metadata directories
-215411f56f4ef9fd056b746321db917f628cb930 xfs: create fuzz tests for metadata directories
-badf1a41abfd9a1036f103ef40eb34b09b86f1e3 xfs/163: bigger fs for metadir
-2258ffabb2f441df784e1bdfe44bfda827209644 xfs/122: disable this test for any codebase that knows about metadir
-34b1206de260b29db854627f8d1b567e3254683b common/populate: label newly created xfs filesystems
-c7e34d0e85df10504defb00b6e70b287c6648f46 scrub: race metapath online fsck with fsstress
-8be87eb2ad2217b447bd74ebb3b0f08dfa90f89a xfs: test metapath repairs
-911dcb4667c56ec3c535a259fcb3eccfa3d584fa xfs/019: reduce _fail calls in test
-758f1cee8877bd8f11b7e9fd816ae87ccb128cf6 xfs/019: test reserved file support
-bc892233c30147c0887d54889cee8b7b6078e99a xfs: test filesystem creation with xfs_protofile
-47af2b9cd14181655d4d519ba1f9f2f44102d4ae fstests: test mkfs.xfs protofiles with xattr support
-272f73b04effe28c8fc386601777c1d2189eb0e1 common/populate: refactor caching of metadumps to a helper
-39ced3a5ade28852b2a061b226ccdf6afbe832b9 common/{fuzzy,populate}: use _scratch_xfs_mdrestore
-3e6647019507585a6ca92cb4c00bb2eba1957c7e fuzzy: stress data and rt sections of xfs filesystems equally
-596dbc099f371145189fbdb5a0aec3ecc3a7efd7 fuzzy: run fsx on data and rt sections of xfs filesystems equally
-d747356eca2f78a9dfcf6bf8531eba46619423e7 common/ext4: reformat external logs during mdrestore operations
-92a2e7c6e08ae93efaa539af655aa10f746c886d common/populate: use metadump v2 format by default for fs metadata snapshots
-12ce398860d15232e133532bb44d74cd7097c324 punch-alternating: detect xfs realtime files with large allocation units
-265ebcf15239f11de95606ea2687b4aa9637080f xfs/206: update mkfs filtering for rt groups feature
-c3c5c34c6f30f27d1fb828511ae5996276acd120 common: pass the realtime device to xfs_db when possible
-fe50c474629ba27a42c287a5e993b0ffe823e028 xfs/185: update for rtgroups
-63624fab4aee35502d025e5eea386e65ba6bb709 xfs/449: update test to know about xfs_db -R
-b025145d9a96a7e0979f0ba46dd9c0f4418aa4ff xfs/271,xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
-44fdf216d95c07aa129330a0adb31aeead5cbea8 common/xfs: capture realtime devices during metadump/mdrestore
-34058229131b5fbe55a7d4bcf98da52694301f05 common/fuzzy: adapt the scrub stress tests to support rtgroups
-798ed5531c6c9518cf6e9bba823e613ab8cb4afa xfs: fix fuzz tests of rtgroups bitmap and summary files
-cebd1b62318ddae6544f174aad0fef7068b2706d xfs: update tests for quota files in the metadir
-be6577d3ee06d2803c82cc7b2b655b233d9b10c4 xfs: test persistent quota flags
-dd0ebc3bd519547aab7a7c5ddcc583b46568383b xfs: fix quota detection in fuzz tests
-ff82765085efe4952f829bfffd524ea97299c625 xfs: fix tests for persistent qflags
-15320637a298308a53935e0e765458b83c0f876d common: enable testing of realtime quota when supported
-c17f2f00bfa418a0a74c13e229356af74b17d4f4 xfs: fix quota tests to adapt to realtime quota
-7a38ce3989626fa31d48ae0f1061e1732e85d077 xfs: regression testing of quota on the realtime device
-ccea7893fbab78113c98df2f9443d7658ef95473 common: test statfs reporting with project quota
-fcd7870a3185b18aa286fc1593f6657877903c33 xfs: fix tests that try to access the realtime rmap inode
-bbe090d4c6e0ef574a9ecf49ac5fa5d9aa196f6a xfs/336: port to common/metadump
-9e9ee02e5295da1febd50dbf3444ddce4a39f82a fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
-4858f2d3a32369db38a6a4bb3985e7c18648ae4e xfs: race fsstress with realtime rmap btree scrub and repair
-8c46b2f68b05302bb9c790b31e1e0e8c32a10d12 xfs: fix various problems with fsmap detecting the data device
-0cc9170ab8577cc41beba1781f400e47cc044644 xfs/341: update test for rtgroup-based rmap
-cd3f52418fca1d6182ac70bdb8b1d1f418327782 xfs/3{43,32}: adapt tests for rt extent size greater than 1
-6d9a7890bba23515947b7381790c86a10a68041d xfs/291: use _scratch_mkfs_sized instead of opencoding the logic
-817f765e9e56e56a4d27e6f6166d9115c5a0c6bc xfs: skip tests if formatting small filesystem fails
-b4cae97490980889b1e6f7fccca104c79dc2a6ef xfs/443: use file allocation unit, not dbsize
-9157f88e14b9bfb93ee4d54ade8ec669efc8c9b7 populate: adjust rtrmap calculations for rtgroups
-8ea7b2ae8cb866151f6b57a965e5ae383713f9ea populate: check that we created a realtime rmap btree of the given height
-b07e6a8f0405e640f64821e40a6d79df06709ae7 fuzzy: create missing fuzz tests for rt rmap btrees
-e9e0a211a247a3a27950a9d761eeed3bb50cbb4c common/populate: create realtime refcount btree
-30851f0862575c642992d503a797830c6bc19549 xfs: create fuzz tests for the realtime refcount btree
-686e2972c8040b642d0869214043f7c4ecb8721e xfs/27[24]: adapt for checking files on the realtime volume
-dbc0d40594a5b9a3e3a27865375a04c5a13bfa03 xfs: race fsstress with realtime refcount btree scrub and repair
-9c3e8f0cbd42e02a56a82444d86296c233674f0b xfs: remove xfs/131 now that we allow reflink on realtime volumes
-2eddea095ccb9dbf214f85a8304fb21101c94e82 generic/331,xfs/240: support files that skip delayed allocation
-f96f21a89253600af0b9869e576b8084a651ce5a common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
-58d410795d1598d4144ed84473919e7af7737051 xfs: test filesystem recovery with rdump
-00878f4733cdbc72a795fd8f109bf3f207b8051a xfs: test upgrading old features
-601d58ed0ebc57ccd78babc56c705b6492332bf7 xfs/614: determine the sector size of the fs image by doing a test format
-c4b8f400a504683f35eb820b0f53511725a4a8db xfs/206: adapt for zoned realtime
-d12dc8e2317ed76210383e218de9408e9dcc105d xfs: make sure that CoW will write around when rextsize > 1
-bd2386c5254d6f564338f08c122f34c7a35b9d90 xfs: skip cowextsize hint fragmentation tests on realtime volumes
-daf3d9c6d1715fa7edd39c5807449bd5d0d687f3 misc: add more congruent oplen testing
-c39ac828e227759ed8766178bc3ab641318c35c8 xfs: test COWing entire rt extents
-90308efca65ba5f655d6977ee609c6054d46120e generic/303: avoid test failures on weird rt extent sizes
-1f2ee851bbce012267591b1ce332398bdb6c1d1a xfs: test output of new FSREFCOUNTS ioctl
-f5ab70a1cb4a070b3f54c36dcafbe7f029018726 xfs: test clearing of free space
-1275f0ff4d4f49128e12028b0dd80f75ce3e2659 treewide: convert all $MOUNT_PROG to _mount
-bdb8d5b12dce088300febe37bcba4d1d491d93ca check: capture dmesg of mount failures if test fails
-dd374202f6cbf25a1f6326dc53177ae88824af28 xfs: test health monitoring code
-aaf0f90f18bc4a5cbc2c5f773bf45a176e098020 xfs: test for metadata corruption error reporting via healthmon
-32061a4c63a52f5262201b52156dbddddf9205f7 xfs: test io error reporting via healthmon
-55f3dff2d75008a9d511bab3e2a6885594f8f2e4 xfs: test new xfs_scrubbed daemon
-
---===============1120842549220992755==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0ef94e61917a-ccea7893fbab.txt
-
-71b9fbc7dc60c9d57057d32a0a9d0e4014e11580 generic/476: fix fsstress process management
-71ba6462f79af02027b0940d010f68ab582e2b50 metadump: make non-local function variables more obvious
-9ac6e6551c36ae9078e35bfc4e71b20999a8aa4f metadump: fix cleanup for v1 metadump testing
-6daf90b77a497cdd8cdbb273e460466c4fd50360 generic/019: don't fail if fio crashes while shutting down
-8abb2fe36c8c2dce1c9fd146fd437f37fbaca243 fuzzy: do not set _FSSTRESS_PID when exercising fsx
-1f3725f9c4e85163325580000cfece6506164ff1 common/rc: revert recursive unmount in _clear_mount_stack
-0a77c9db4af8f84270cb2bf00675bfc2e2ea34fa common/dump: don't replace pids arbitrarily
-382f64ab64d0ee2ee3e99e2de617f8fc9789576d common/populate: correct the parent pointer name creation formulae
-a6d10c48a753f9fd5bffc6d6db7c06623ab53601 generic/759,760: fix MADV_COLLAPSE detection and inclusion
-62a6c738512e5a5560fa63fb599e042e33cfa2de generic/759,760: skip test if we can't set up a hugepage for IO
-b994081cca0d6899d149bbed5efb79233f46dd41 common/rc: create a wrapper for the su command
-09a0263fa1f10c575a23d9e232bafe8a33d00ec7 fuzzy: kill subprocesses with SIGPIPE, not SIGINT
-4c9814b08fe0bbf0002e7d25b33503fa24a13468 common/rc: hoist pkill to a helper function
-5a049b3acb18d3973640d0a6d7f5c519e8cf9b3e tools: add a Makefile
-a40000f7c5cc62dee902b341721e435a09cd4636 common: fix pkill by running test program in a separate session
-aa5626953c0e9e4f41a7e59a204d8238bfc443a9 check: run tests in a private pid/mount namespace
-10aa1570c280b1c2642d99616687aaa257923a55 check: deprecate using process sessions to isolate test instances
-2e0f4b85384039fa5d131ac27d92bf2059e2d283 common/rc: don't copy fsstress to $TEST_DIR
-318c61bfc97d58bb235846f0c038f328fb2a64fb unmount: resume logging of stdout and stderr for filtering
-c272d36ae2cbf09515a4383d2c1e4bfaf5f66e1b mkfs: don't hardcode log size
-e6ffb1248b3c8dad4a49d4117da5b167ad8b5e63 common/rc: return mount_ret in _try_scratch_mount
-aa4e8714b387942a2b58c0d660ed3dcc9a323cdb preamble: fix missing _kill_fsstress
-4467fd59324d3678b2cc145c6309ce8d3f024382 generic/650: revert SOAK DURATION changes
-c363f931277131b817d585594b07a3e45e995141 generic/032: fix pinned mount failure
-3bf5379f3c5a032aee200c8d97d0e082461933ea fuzzy: stop __stress_scrub_fsx_loop if fsx fails
-1bfba9f17d777007dc5345fdfa67bf4654ccb5d4 fuzzy: don't use readarray for xfsfind output
-edcd688315ba8e8f674a9f2eca3858825b7cadb6 fuzzy: always stop the scrub fsstress loop on error
-c86af3857d210e6450a86185e3ad705200144cc9 fuzzy: port fsx and fsstress loop to use --duration
-81b07f6f7ff1e8fbf34373d515c1c572801bba3a fix _require_scratch_duperemove ordering
-87c9bb1191e7d264c7276b29e3d873164a54e252 fsstress: fix a memory leak
-65b187eea39c66f0e7e95677a413c8669be1de01 fsx: fix leaked log file pointer
-501982639ede1089574f98a706367c8722a74cf1 misc: don't put nr_cpus into the fsstress -n argument
-186c55fc693ef0c5656b17f67906ccd2cd29b1ce common/config: add $here to FSSTRESS_PROG
-21dd6aa8add9b1ad5a6d6cf332c3af21711670d7 config: add FSX_PROG variable
-05a09df063e22a555930b077b9241a39b1895d3d build: initialize stack variables to zero by default
-0a327266fa41c76179744039a1fb0a3d2170e14f logwrites: warn if we don't think read after discard returns zeroes
-2d41bcb85d24bd0a5fc3f66535e8d42fc927cb74 logwrites: use BLKZEROOUT if it's available
-2864104b825b638aa79097d434754839bdc4a396 logwrites: only use BLKDISCARD if we know discard zeroes data
-1c9f4dace0b0b2fce38b44aa67aea4a472f2ac4c misc: drop the dangerous label from xfs_scrub fsstress tests
-64a59ec65090469ba089dd90e93728682d03eebc misc: rename the dangerous_repair group to fuzzers_repair
-7246c9b7af90e5cd27266da28ddb419a6097991d misc: rename the dangerous_online_repair group to fuzzers_online_repair
-1f7525c46184263be2372b856383a206e0610b5b misc: rename the dangerous_bothrepair group to fuzzers_bothrepair
-ad9d28f0b6408e9d4c2b741e386e8449ba273483 misc: rename the dangerous_norepair group to fuzzers_norepair
-25f41535a940ff42e4eeae1cc716733f909ac0d9 misc: fix misclassification of xfs_repair fuzz tests
-b4699f272dee01232ccd4db60085c101ebd48ad7 misc: fix misclassification of xfs_scrub + xfs_repair fuzz tests
-c8bd09c5f059cbf229c28f9241c4f1bd7cd692d9 misc: fix misclassification of verifier fuzz tests
-8e8a0fbd536f4a5e0ebe270c856be319a9e24fa0 misc: add xfs_scrub + xfs_repair fuzz tests to the scrub and repair groups
-b83d8c1733a62264932a34c660ddf310b3cd1e67 misc: remove the dangerous_scrub group
-5836b6b1672b0b795bc8adc581739419e83dd51e xfs/28[56],xfs/56[56]: add to the auto group
-8f3c6ef4f22d570b2e5b52814af3b98bc66f6bbd xfs/349: reclassify this test as not dangerous
-8687513be9f6f8f5f82c3cbac47f4e5ec8ca5567 various: fix finding metadata inode numbers when metadir is enabled
-d694b3b053dc3ad03dc64b138a3e5431abb7b18e xfs/{030,033,178}: forcibly disable metadata directory trees
-20a4bb362eb2b73ae0c477d4d90059cd039b3231 common/repair: patch up repair sb inode value complaints
-22130bbe38b59022be78279763223540f96cbfd8 xfs/206: update for metadata directory support
-1c9f3ea545426317edcc34faa4f8779163acc046 xfs/{050,144,153,299,330}: update quota reports to handle metadir trees
-6515675a941b02c549bcd1d3b10e5eb76bd6784b xfs/509: adjust inumbers accounting for metadata directories
-215411f56f4ef9fd056b746321db917f628cb930 xfs: create fuzz tests for metadata directories
-badf1a41abfd9a1036f103ef40eb34b09b86f1e3 xfs/163: bigger fs for metadir
-2258ffabb2f441df784e1bdfe44bfda827209644 xfs/122: disable this test for any codebase that knows about metadir
-34b1206de260b29db854627f8d1b567e3254683b common/populate: label newly created xfs filesystems
-c7e34d0e85df10504defb00b6e70b287c6648f46 scrub: race metapath online fsck with fsstress
-8be87eb2ad2217b447bd74ebb3b0f08dfa90f89a xfs: test metapath repairs
-911dcb4667c56ec3c535a259fcb3eccfa3d584fa xfs/019: reduce _fail calls in test
-758f1cee8877bd8f11b7e9fd816ae87ccb128cf6 xfs/019: test reserved file support
-bc892233c30147c0887d54889cee8b7b6078e99a xfs: test filesystem creation with xfs_protofile
-47af2b9cd14181655d4d519ba1f9f2f44102d4ae fstests: test mkfs.xfs protofiles with xattr support
-272f73b04effe28c8fc386601777c1d2189eb0e1 common/populate: refactor caching of metadumps to a helper
-39ced3a5ade28852b2a061b226ccdf6afbe832b9 common/{fuzzy,populate}: use _scratch_xfs_mdrestore
-3e6647019507585a6ca92cb4c00bb2eba1957c7e fuzzy: stress data and rt sections of xfs filesystems equally
-596dbc099f371145189fbdb5a0aec3ecc3a7efd7 fuzzy: run fsx on data and rt sections of xfs filesystems equally
-d747356eca2f78a9dfcf6bf8531eba46619423e7 common/ext4: reformat external logs during mdrestore operations
-92a2e7c6e08ae93efaa539af655aa10f746c886d common/populate: use metadump v2 format by default for fs metadata snapshots
-12ce398860d15232e133532bb44d74cd7097c324 punch-alternating: detect xfs realtime files with large allocation units
-265ebcf15239f11de95606ea2687b4aa9637080f xfs/206: update mkfs filtering for rt groups feature
-c3c5c34c6f30f27d1fb828511ae5996276acd120 common: pass the realtime device to xfs_db when possible
-fe50c474629ba27a42c287a5e993b0ffe823e028 xfs/185: update for rtgroups
-63624fab4aee35502d025e5eea386e65ba6bb709 xfs/449: update test to know about xfs_db -R
-b025145d9a96a7e0979f0ba46dd9c0f4418aa4ff xfs/271,xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
-44fdf216d95c07aa129330a0adb31aeead5cbea8 common/xfs: capture realtime devices during metadump/mdrestore
-34058229131b5fbe55a7d4bcf98da52694301f05 common/fuzzy: adapt the scrub stress tests to support rtgroups
-798ed5531c6c9518cf6e9bba823e613ab8cb4afa xfs: fix fuzz tests of rtgroups bitmap and summary files
-cebd1b62318ddae6544f174aad0fef7068b2706d xfs: update tests for quota files in the metadir
-be6577d3ee06d2803c82cc7b2b655b233d9b10c4 xfs: test persistent quota flags
-dd0ebc3bd519547aab7a7c5ddcc583b46568383b xfs: fix quota detection in fuzz tests
-ff82765085efe4952f829bfffd524ea97299c625 xfs: fix tests for persistent qflags
-15320637a298308a53935e0e765458b83c0f876d common: enable testing of realtime quota when supported
-c17f2f00bfa418a0a74c13e229356af74b17d4f4 xfs: fix quota tests to adapt to realtime quota
-7a38ce3989626fa31d48ae0f1061e1732e85d077 xfs: regression testing of quota on the realtime device
-ccea7893fbab78113c98df2f9443d7658ef95473 common: test statfs reporting with project quota
-
---===============1120842549220992755==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6f5843d2f4fd-2864104b825b.txt
-
-71b9fbc7dc60c9d57057d32a0a9d0e4014e11580 generic/476: fix fsstress process management
-71ba6462f79af02027b0940d010f68ab582e2b50 metadump: make non-local function variables more obvious
-9ac6e6551c36ae9078e35bfc4e71b20999a8aa4f metadump: fix cleanup for v1 metadump testing
-6daf90b77a497cdd8cdbb273e460466c4fd50360 generic/019: don't fail if fio crashes while shutting down
-8abb2fe36c8c2dce1c9fd146fd437f37fbaca243 fuzzy: do not set _FSSTRESS_PID when exercising fsx
-1f3725f9c4e85163325580000cfece6506164ff1 common/rc: revert recursive unmount in _clear_mount_stack
-0a77c9db4af8f84270cb2bf00675bfc2e2ea34fa common/dump: don't replace pids arbitrarily
-382f64ab64d0ee2ee3e99e2de617f8fc9789576d common/populate: correct the parent pointer name creation formulae
-a6d10c48a753f9fd5bffc6d6db7c06623ab53601 generic/759,760: fix MADV_COLLAPSE detection and inclusion
-62a6c738512e5a5560fa63fb599e042e33cfa2de generic/759,760: skip test if we can't set up a hugepage for IO
-b994081cca0d6899d149bbed5efb79233f46dd41 common/rc: create a wrapper for the su command
-09a0263fa1f10c575a23d9e232bafe8a33d00ec7 fuzzy: kill subprocesses with SIGPIPE, not SIGINT
-4c9814b08fe0bbf0002e7d25b33503fa24a13468 common/rc: hoist pkill to a helper function
-5a049b3acb18d3973640d0a6d7f5c519e8cf9b3e tools: add a Makefile
-a40000f7c5cc62dee902b341721e435a09cd4636 common: fix pkill by running test program in a separate session
-aa5626953c0e9e4f41a7e59a204d8238bfc443a9 check: run tests in a private pid/mount namespace
-10aa1570c280b1c2642d99616687aaa257923a55 check: deprecate using process sessions to isolate test instances
-2e0f4b85384039fa5d131ac27d92bf2059e2d283 common/rc: don't copy fsstress to $TEST_DIR
-318c61bfc97d58bb235846f0c038f328fb2a64fb unmount: resume logging of stdout and stderr for filtering
-c272d36ae2cbf09515a4383d2c1e4bfaf5f66e1b mkfs: don't hardcode log size
-e6ffb1248b3c8dad4a49d4117da5b167ad8b5e63 common/rc: return mount_ret in _try_scratch_mount
-aa4e8714b387942a2b58c0d660ed3dcc9a323cdb preamble: fix missing _kill_fsstress
-4467fd59324d3678b2cc145c6309ce8d3f024382 generic/650: revert SOAK DURATION changes
-c363f931277131b817d585594b07a3e45e995141 generic/032: fix pinned mount failure
-3bf5379f3c5a032aee200c8d97d0e082461933ea fuzzy: stop __stress_scrub_fsx_loop if fsx fails
-1bfba9f17d777007dc5345fdfa67bf4654ccb5d4 fuzzy: don't use readarray for xfsfind output
-edcd688315ba8e8f674a9f2eca3858825b7cadb6 fuzzy: always stop the scrub fsstress loop on error
-c86af3857d210e6450a86185e3ad705200144cc9 fuzzy: port fsx and fsstress loop to use --duration
-81b07f6f7ff1e8fbf34373d515c1c572801bba3a fix _require_scratch_duperemove ordering
-87c9bb1191e7d264c7276b29e3d873164a54e252 fsstress: fix a memory leak
-65b187eea39c66f0e7e95677a413c8669be1de01 fsx: fix leaked log file pointer
-501982639ede1089574f98a706367c8722a74cf1 misc: don't put nr_cpus into the fsstress -n argument
-186c55fc693ef0c5656b17f67906ccd2cd29b1ce common/config: add $here to FSSTRESS_PROG
-21dd6aa8add9b1ad5a6d6cf332c3af21711670d7 config: add FSX_PROG variable
-05a09df063e22a555930b077b9241a39b1895d3d build: initialize stack variables to zero by default
-0a327266fa41c76179744039a1fb0a3d2170e14f logwrites: warn if we don't think read after discard returns zeroes
-2d41bcb85d24bd0a5fc3f66535e8d42fc927cb74 logwrites: use BLKZEROOUT if it's available
-2864104b825b638aa79097d434754839bdc4a396 logwrites: only use BLKDISCARD if we know discard zeroes data
-
---===============1120842549220992755==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-211788a284f9-8be87eb2ad22.txt
-
-71b9fbc7dc60c9d57057d32a0a9d0e4014e11580 generic/476: fix fsstress process management
-71ba6462f79af02027b0940d010f68ab582e2b50 metadump: make non-local function variables more obvious
-9ac6e6551c36ae9078e35bfc4e71b20999a8aa4f metadump: fix cleanup for v1 metadump testing
-6daf90b77a497cdd8cdbb273e460466c4fd50360 generic/019: don't fail if fio crashes while shutting down
-8abb2fe36c8c2dce1c9fd146fd437f37fbaca243 fuzzy: do not set _FSSTRESS_PID when exercising fsx
-1f3725f9c4e85163325580000cfece6506164ff1 common/rc: revert recursive unmount in _clear_mount_stack
-0a77c9db4af8f84270cb2bf00675bfc2e2ea34fa common/dump: don't replace pids arbitrarily
-382f64ab64d0ee2ee3e99e2de617f8fc9789576d common/populate: correct the parent pointer name creation formulae
-a6d10c48a753f9fd5bffc6d6db7c06623ab53601 generic/759,760: fix MADV_COLLAPSE detection and inclusion
-62a6c738512e5a5560fa63fb599e042e33cfa2de generic/759,760: skip test if we can't set up a hugepage for IO
-b994081cca0d6899d149bbed5efb79233f46dd41 common/rc: create a wrapper for the su command
-09a0263fa1f10c575a23d9e232bafe8a33d00ec7 fuzzy: kill subprocesses with SIGPIPE, not SIGINT
-4c9814b08fe0bbf0002e7d25b33503fa24a13468 common/rc: hoist pkill to a helper function
-5a049b3acb18d3973640d0a6d7f5c519e8cf9b3e tools: add a Makefile
-a40000f7c5cc62dee902b341721e435a09cd4636 common: fix pkill by running test program in a separate session
-aa5626953c0e9e4f41a7e59a204d8238bfc443a9 check: run tests in a private pid/mount namespace
-10aa1570c280b1c2642d99616687aaa257923a55 check: deprecate using process sessions to isolate test instances
-2e0f4b85384039fa5d131ac27d92bf2059e2d283 common/rc: don't copy fsstress to $TEST_DIR
-318c61bfc97d58bb235846f0c038f328fb2a64fb unmount: resume logging of stdout and stderr for filtering
-c272d36ae2cbf09515a4383d2c1e4bfaf5f66e1b mkfs: don't hardcode log size
-e6ffb1248b3c8dad4a49d4117da5b167ad8b5e63 common/rc: return mount_ret in _try_scratch_mount
-aa4e8714b387942a2b58c0d660ed3dcc9a323cdb preamble: fix missing _kill_fsstress
-4467fd59324d3678b2cc145c6309ce8d3f024382 generic/650: revert SOAK DURATION changes
-c363f931277131b817d585594b07a3e45e995141 generic/032: fix pinned mount failure
-3bf5379f3c5a032aee200c8d97d0e082461933ea fuzzy: stop __stress_scrub_fsx_loop if fsx fails
-1bfba9f17d777007dc5345fdfa67bf4654ccb5d4 fuzzy: don't use readarray for xfsfind output
-edcd688315ba8e8f674a9f2eca3858825b7cadb6 fuzzy: always stop the scrub fsstress loop on error
-c86af3857d210e6450a86185e3ad705200144cc9 fuzzy: port fsx and fsstress loop to use --duration
-81b07f6f7ff1e8fbf34373d515c1c572801bba3a fix _require_scratch_duperemove ordering
-87c9bb1191e7d264c7276b29e3d873164a54e252 fsstress: fix a memory leak
-65b187eea39c66f0e7e95677a413c8669be1de01 fsx: fix leaked log file pointer
-501982639ede1089574f98a706367c8722a74cf1 misc: don't put nr_cpus into the fsstress -n argument
-186c55fc693ef0c5656b17f67906ccd2cd29b1ce common/config: add $here to FSSTRESS_PROG
-21dd6aa8add9b1ad5a6d6cf332c3af21711670d7 config: add FSX_PROG variable
-05a09df063e22a555930b077b9241a39b1895d3d build: initialize stack variables to zero by default
-0a327266fa41c76179744039a1fb0a3d2170e14f logwrites: warn if we don't think read after discard returns zeroes
-2d41bcb85d24bd0a5fc3f66535e8d42fc927cb74 logwrites: use BLKZEROOUT if it's available
-2864104b825b638aa79097d434754839bdc4a396 logwrites: only use BLKDISCARD if we know discard zeroes data
-1c9f4dace0b0b2fce38b44aa67aea4a472f2ac4c misc: drop the dangerous label from xfs_scrub fsstress tests
-64a59ec65090469ba089dd90e93728682d03eebc misc: rename the dangerous_repair group to fuzzers_repair
-7246c9b7af90e5cd27266da28ddb419a6097991d misc: rename the dangerous_online_repair group to fuzzers_online_repair
-1f7525c46184263be2372b856383a206e0610b5b misc: rename the dangerous_bothrepair group to fuzzers_bothrepair
-ad9d28f0b6408e9d4c2b741e386e8449ba273483 misc: rename the dangerous_norepair group to fuzzers_norepair
-25f41535a940ff42e4eeae1cc716733f909ac0d9 misc: fix misclassification of xfs_repair fuzz tests
-b4699f272dee01232ccd4db60085c101ebd48ad7 misc: fix misclassification of xfs_scrub + xfs_repair fuzz tests
-c8bd09c5f059cbf229c28f9241c4f1bd7cd692d9 misc: fix misclassification of verifier fuzz tests
-8e8a0fbd536f4a5e0ebe270c856be319a9e24fa0 misc: add xfs_scrub + xfs_repair fuzz tests to the scrub and repair groups
-b83d8c1733a62264932a34c660ddf310b3cd1e67 misc: remove the dangerous_scrub group
-5836b6b1672b0b795bc8adc581739419e83dd51e xfs/28[56],xfs/56[56]: add to the auto group
-8f3c6ef4f22d570b2e5b52814af3b98bc66f6bbd xfs/349: reclassify this test as not dangerous
-8687513be9f6f8f5f82c3cbac47f4e5ec8ca5567 various: fix finding metadata inode numbers when metadir is enabled
-d694b3b053dc3ad03dc64b138a3e5431abb7b18e xfs/{030,033,178}: forcibly disable metadata directory trees
-20a4bb362eb2b73ae0c477d4d90059cd039b3231 common/repair: patch up repair sb inode value complaints
-22130bbe38b59022be78279763223540f96cbfd8 xfs/206: update for metadata directory support
-1c9f3ea545426317edcc34faa4f8779163acc046 xfs/{050,144,153,299,330}: update quota reports to handle metadir trees
-6515675a941b02c549bcd1d3b10e5eb76bd6784b xfs/509: adjust inumbers accounting for metadata directories
-215411f56f4ef9fd056b746321db917f628cb930 xfs: create fuzz tests for metadata directories
-badf1a41abfd9a1036f103ef40eb34b09b86f1e3 xfs/163: bigger fs for metadir
-2258ffabb2f441df784e1bdfe44bfda827209644 xfs/122: disable this test for any codebase that knows about metadir
-34b1206de260b29db854627f8d1b567e3254683b common/populate: label newly created xfs filesystems
-c7e34d0e85df10504defb00b6e70b287c6648f46 scrub: race metapath online fsck with fsstress
-8be87eb2ad2217b447bd74ebb3b0f08dfa90f89a xfs: test metapath repairs
-
---===============1120842549220992755==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-90216122795a-ff82765085ef.txt
-
-71b9fbc7dc60c9d57057d32a0a9d0e4014e11580 generic/476: fix fsstress process management
-71ba6462f79af02027b0940d010f68ab582e2b50 metadump: make non-local function variables more obvious
-9ac6e6551c36ae9078e35bfc4e71b20999a8aa4f metadump: fix cleanup for v1 metadump testing
-6daf90b77a497cdd8cdbb273e460466c4fd50360 generic/019: don't fail if fio crashes while shutting down
-8abb2fe36c8c2dce1c9fd146fd437f37fbaca243 fuzzy: do not set _FSSTRESS_PID when exercising fsx
-1f3725f9c4e85163325580000cfece6506164ff1 common/rc: revert recursive unmount in _clear_mount_stack
-0a77c9db4af8f84270cb2bf00675bfc2e2ea34fa common/dump: don't replace pids arbitrarily
-382f64ab64d0ee2ee3e99e2de617f8fc9789576d common/populate: correct the parent pointer name creation formulae
-a6d10c48a753f9fd5bffc6d6db7c06623ab53601 generic/759,760: fix MADV_COLLAPSE detection and inclusion
-62a6c738512e5a5560fa63fb599e042e33cfa2de generic/759,760: skip test if we can't set up a hugepage for IO
-b994081cca0d6899d149bbed5efb79233f46dd41 common/rc: create a wrapper for the su command
-09a0263fa1f10c575a23d9e232bafe8a33d00ec7 fuzzy: kill subprocesses with SIGPIPE, not SIGINT
-4c9814b08fe0bbf0002e7d25b33503fa24a13468 common/rc: hoist pkill to a helper function
-5a049b3acb18d3973640d0a6d7f5c519e8cf9b3e tools: add a Makefile
-a40000f7c5cc62dee902b341721e435a09cd4636 common: fix pkill by running test program in a separate session
-aa5626953c0e9e4f41a7e59a204d8238bfc443a9 check: run tests in a private pid/mount namespace
-10aa1570c280b1c2642d99616687aaa257923a55 check: deprecate using process sessions to isolate test instances
-2e0f4b85384039fa5d131ac27d92bf2059e2d283 common/rc: don't copy fsstress to $TEST_DIR
-318c61bfc97d58bb235846f0c038f328fb2a64fb unmount: resume logging of stdout and stderr for filtering
-c272d36ae2cbf09515a4383d2c1e4bfaf5f66e1b mkfs: don't hardcode log size
-e6ffb1248b3c8dad4a49d4117da5b167ad8b5e63 common/rc: return mount_ret in _try_scratch_mount
-aa4e8714b387942a2b58c0d660ed3dcc9a323cdb preamble: fix missing _kill_fsstress
-4467fd59324d3678b2cc145c6309ce8d3f024382 generic/650: revert SOAK DURATION changes
-c363f931277131b817d585594b07a3e45e995141 generic/032: fix pinned mount failure
-3bf5379f3c5a032aee200c8d97d0e082461933ea fuzzy: stop __stress_scrub_fsx_loop if fsx fails
-1bfba9f17d777007dc5345fdfa67bf4654ccb5d4 fuzzy: don't use readarray for xfsfind output
-edcd688315ba8e8f674a9f2eca3858825b7cadb6 fuzzy: always stop the scrub fsstress loop on error
-c86af3857d210e6450a86185e3ad705200144cc9 fuzzy: port fsx and fsstress loop to use --duration
-81b07f6f7ff1e8fbf34373d515c1c572801bba3a fix _require_scratch_duperemove ordering
-87c9bb1191e7d264c7276b29e3d873164a54e252 fsstress: fix a memory leak
-65b187eea39c66f0e7e95677a413c8669be1de01 fsx: fix leaked log file pointer
-501982639ede1089574f98a706367c8722a74cf1 misc: don't put nr_cpus into the fsstress -n argument
-186c55fc693ef0c5656b17f67906ccd2cd29b1ce common/config: add $here to FSSTRESS_PROG
-21dd6aa8add9b1ad5a6d6cf332c3af21711670d7 config: add FSX_PROG variable
-05a09df063e22a555930b077b9241a39b1895d3d build: initialize stack variables to zero by default
-0a327266fa41c76179744039a1fb0a3d2170e14f logwrites: warn if we don't think read after discard returns zeroes
-2d41bcb85d24bd0a5fc3f66535e8d42fc927cb74 logwrites: use BLKZEROOUT if it's available
-2864104b825b638aa79097d434754839bdc4a396 logwrites: only use BLKDISCARD if we know discard zeroes data
-1c9f4dace0b0b2fce38b44aa67aea4a472f2ac4c misc: drop the dangerous label from xfs_scrub fsstress tests
-64a59ec65090469ba089dd90e93728682d03eebc misc: rename the dangerous_repair group to fuzzers_repair
-7246c9b7af90e5cd27266da28ddb419a6097991d misc: rename the dangerous_online_repair group to fuzzers_online_repair
-1f7525c46184263be2372b856383a206e0610b5b misc: rename the dangerous_bothrepair group to fuzzers_bothrepair
-ad9d28f0b6408e9d4c2b741e386e8449ba273483 misc: rename the dangerous_norepair group to fuzzers_norepair
-25f41535a940ff42e4eeae1cc716733f909ac0d9 misc: fix misclassification of xfs_repair fuzz tests
-b4699f272dee01232ccd4db60085c101ebd48ad7 misc: fix misclassification of xfs_scrub + xfs_repair fuzz tests
-c8bd09c5f059cbf229c28f9241c4f1bd7cd692d9 misc: fix misclassification of verifier fuzz tests
-8e8a0fbd536f4a5e0ebe270c856be319a9e24fa0 misc: add xfs_scrub + xfs_repair fuzz tests to the scrub and repair groups
-b83d8c1733a62264932a34c660ddf310b3cd1e67 misc: remove the dangerous_scrub group
-5836b6b1672b0b795bc8adc581739419e83dd51e xfs/28[56],xfs/56[56]: add to the auto group
-8f3c6ef4f22d570b2e5b52814af3b98bc66f6bbd xfs/349: reclassify this test as not dangerous
-8687513be9f6f8f5f82c3cbac47f4e5ec8ca5567 various: fix finding metadata inode numbers when metadir is enabled
-d694b3b053dc3ad03dc64b138a3e5431abb7b18e xfs/{030,033,178}: forcibly disable metadata directory trees
-20a4bb362eb2b73ae0c477d4d90059cd039b3231 common/repair: patch up repair sb inode value complaints
-22130bbe38b59022be78279763223540f96cbfd8 xfs/206: update for metadata directory support
-1c9f3ea545426317edcc34faa4f8779163acc046 xfs/{050,144,153,299,330}: update quota reports to handle metadir trees
-6515675a941b02c549bcd1d3b10e5eb76bd6784b xfs/509: adjust inumbers accounting for metadata directories
-215411f56f4ef9fd056b746321db917f628cb930 xfs: create fuzz tests for metadata directories
-badf1a41abfd9a1036f103ef40eb34b09b86f1e3 xfs/163: bigger fs for metadir
-2258ffabb2f441df784e1bdfe44bfda827209644 xfs/122: disable this test for any codebase that knows about metadir
-34b1206de260b29db854627f8d1b567e3254683b common/populate: label newly created xfs filesystems
-c7e34d0e85df10504defb00b6e70b287c6648f46 scrub: race metapath online fsck with fsstress
-8be87eb2ad2217b447bd74ebb3b0f08dfa90f89a xfs: test metapath repairs
-911dcb4667c56ec3c535a259fcb3eccfa3d584fa xfs/019: reduce _fail calls in test
-758f1cee8877bd8f11b7e9fd816ae87ccb128cf6 xfs/019: test reserved file support
-bc892233c30147c0887d54889cee8b7b6078e99a xfs: test filesystem creation with xfs_protofile
-47af2b9cd14181655d4d519ba1f9f2f44102d4ae fstests: test mkfs.xfs protofiles with xattr support
-272f73b04effe28c8fc386601777c1d2189eb0e1 common/populate: refactor caching of metadumps to a helper
-39ced3a5ade28852b2a061b226ccdf6afbe832b9 common/{fuzzy,populate}: use _scratch_xfs_mdrestore
-3e6647019507585a6ca92cb4c00bb2eba1957c7e fuzzy: stress data and rt sections of xfs filesystems equally
-596dbc099f371145189fbdb5a0aec3ecc3a7efd7 fuzzy: run fsx on data and rt sections of xfs filesystems equally
-d747356eca2f78a9dfcf6bf8531eba46619423e7 common/ext4: reformat external logs during mdrestore operations
-92a2e7c6e08ae93efaa539af655aa10f746c886d common/populate: use metadump v2 format by default for fs metadata snapshots
-12ce398860d15232e133532bb44d74cd7097c324 punch-alternating: detect xfs realtime files with large allocation units
-265ebcf15239f11de95606ea2687b4aa9637080f xfs/206: update mkfs filtering for rt groups feature
-c3c5c34c6f30f27d1fb828511ae5996276acd120 common: pass the realtime device to xfs_db when possible
-fe50c474629ba27a42c287a5e993b0ffe823e028 xfs/185: update for rtgroups
-63624fab4aee35502d025e5eea386e65ba6bb709 xfs/449: update test to know about xfs_db -R
-b025145d9a96a7e0979f0ba46dd9c0f4418aa4ff xfs/271,xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
-44fdf216d95c07aa129330a0adb31aeead5cbea8 common/xfs: capture realtime devices during metadump/mdrestore
-34058229131b5fbe55a7d4bcf98da52694301f05 common/fuzzy: adapt the scrub stress tests to support rtgroups
-798ed5531c6c9518cf6e9bba823e613ab8cb4afa xfs: fix fuzz tests of rtgroups bitmap and summary files
-cebd1b62318ddae6544f174aad0fef7068b2706d xfs: update tests for quota files in the metadir
-be6577d3ee06d2803c82cc7b2b655b233d9b10c4 xfs: test persistent quota flags
-dd0ebc3bd519547aab7a7c5ddcc583b46568383b xfs: fix quota detection in fuzz tests
-ff82765085efe4952f829bfffd524ea97299c625 xfs: fix tests for persistent qflags
-
---===============1120842549220992755==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cfd0b086f089-47af2b9cd141.txt
-
-71b9fbc7dc60c9d57057d32a0a9d0e4014e11580 generic/476: fix fsstress process management
-71ba6462f79af02027b0940d010f68ab582e2b50 metadump: make non-local function variables more obvious
-9ac6e6551c36ae9078e35bfc4e71b20999a8aa4f metadump: fix cleanup for v1 metadump testing
-6daf90b77a497cdd8cdbb273e460466c4fd50360 generic/019: don't fail if fio crashes while shutting down
-8abb2fe36c8c2dce1c9fd146fd437f37fbaca243 fuzzy: do not set _FSSTRESS_PID when exercising fsx
-1f3725f9c4e85163325580000cfece6506164ff1 common/rc: revert recursive unmount in _clear_mount_stack
-0a77c9db4af8f84270cb2bf00675bfc2e2ea34fa common/dump: don't replace pids arbitrarily
-382f64ab64d0ee2ee3e99e2de617f8fc9789576d common/populate: correct the parent pointer name creation formulae
-a6d10c48a753f9fd5bffc6d6db7c06623ab53601 generic/759,760: fix MADV_COLLAPSE detection and inclusion
-62a6c738512e5a5560fa63fb599e042e33cfa2de generic/759,760: skip test if we can't set up a hugepage for IO
-b994081cca0d6899d149bbed5efb79233f46dd41 common/rc: create a wrapper for the su command
-09a0263fa1f10c575a23d9e232bafe8a33d00ec7 fuzzy: kill subprocesses with SIGPIPE, not SIGINT
-4c9814b08fe0bbf0002e7d25b33503fa24a13468 common/rc: hoist pkill to a helper function
-5a049b3acb18d3973640d0a6d7f5c519e8cf9b3e tools: add a Makefile
-a40000f7c5cc62dee902b341721e435a09cd4636 common: fix pkill by running test program in a separate session
-aa5626953c0e9e4f41a7e59a204d8238bfc443a9 check: run tests in a private pid/mount namespace
-10aa1570c280b1c2642d99616687aaa257923a55 check: deprecate using process sessions to isolate test instances
-2e0f4b85384039fa5d131ac27d92bf2059e2d283 common/rc: don't copy fsstress to $TEST_DIR
-318c61bfc97d58bb235846f0c038f328fb2a64fb unmount: resume logging of stdout and stderr for filtering
-c272d36ae2cbf09515a4383d2c1e4bfaf5f66e1b mkfs: don't hardcode log size
-e6ffb1248b3c8dad4a49d4117da5b167ad8b5e63 common/rc: return mount_ret in _try_scratch_mount
-aa4e8714b387942a2b58c0d660ed3dcc9a323cdb preamble: fix missing _kill_fsstress
-4467fd59324d3678b2cc145c6309ce8d3f024382 generic/650: revert SOAK DURATION changes
-c363f931277131b817d585594b07a3e45e995141 generic/032: fix pinned mount failure
-3bf5379f3c5a032aee200c8d97d0e082461933ea fuzzy: stop __stress_scrub_fsx_loop if fsx fails
-1bfba9f17d777007dc5345fdfa67bf4654ccb5d4 fuzzy: don't use readarray for xfsfind output
-edcd688315ba8e8f674a9f2eca3858825b7cadb6 fuzzy: always stop the scrub fsstress loop on error
-c86af3857d210e6450a86185e3ad705200144cc9 fuzzy: port fsx and fsstress loop to use --duration
-81b07f6f7ff1e8fbf34373d515c1c572801bba3a fix _require_scratch_duperemove ordering
-87c9bb1191e7d264c7276b29e3d873164a54e252 fsstress: fix a memory leak
-65b187eea39c66f0e7e95677a413c8669be1de01 fsx: fix leaked log file pointer
-501982639ede1089574f98a706367c8722a74cf1 misc: don't put nr_cpus into the fsstress -n argument
-186c55fc693ef0c5656b17f67906ccd2cd29b1ce common/config: add $here to FSSTRESS_PROG
-21dd6aa8add9b1ad5a6d6cf332c3af21711670d7 config: add FSX_PROG variable
-05a09df063e22a555930b077b9241a39b1895d3d build: initialize stack variables to zero by default
-0a327266fa41c76179744039a1fb0a3d2170e14f logwrites: warn if we don't think read after discard returns zeroes
-2d41bcb85d24bd0a5fc3f66535e8d42fc927cb74 logwrites: use BLKZEROOUT if it's available
-2864104b825b638aa79097d434754839bdc4a396 logwrites: only use BLKDISCARD if we know discard zeroes data
-1c9f4dace0b0b2fce38b44aa67aea4a472f2ac4c misc: drop the dangerous label from xfs_scrub fsstress tests
-64a59ec65090469ba089dd90e93728682d03eebc misc: rename the dangerous_repair group to fuzzers_repair
-7246c9b7af90e5cd27266da28ddb419a6097991d misc: rename the dangerous_online_repair group to fuzzers_online_repair
-1f7525c46184263be2372b856383a206e0610b5b misc: rename the dangerous_bothrepair group to fuzzers_bothrepair
-ad9d28f0b6408e9d4c2b741e386e8449ba273483 misc: rename the dangerous_norepair group to fuzzers_norepair
-25f41535a940ff42e4eeae1cc716733f909ac0d9 misc: fix misclassification of xfs_repair fuzz tests
-b4699f272dee01232ccd4db60085c101ebd48ad7 misc: fix misclassification of xfs_scrub + xfs_repair fuzz tests
-c8bd09c5f059cbf229c28f9241c4f1bd7cd692d9 misc: fix misclassification of verifier fuzz tests
-8e8a0fbd536f4a5e0ebe270c856be319a9e24fa0 misc: add xfs_scrub + xfs_repair fuzz tests to the scrub and repair groups
-b83d8c1733a62264932a34c660ddf310b3cd1e67 misc: remove the dangerous_scrub group
-5836b6b1672b0b795bc8adc581739419e83dd51e xfs/28[56],xfs/56[56]: add to the auto group
-8f3c6ef4f22d570b2e5b52814af3b98bc66f6bbd xfs/349: reclassify this test as not dangerous
-8687513be9f6f8f5f82c3cbac47f4e5ec8ca5567 various: fix finding metadata inode numbers when metadir is enabled
-d694b3b053dc3ad03dc64b138a3e5431abb7b18e xfs/{030,033,178}: forcibly disable metadata directory trees
-20a4bb362eb2b73ae0c477d4d90059cd039b3231 common/repair: patch up repair sb inode value complaints
-22130bbe38b59022be78279763223540f96cbfd8 xfs/206: update for metadata directory support
-1c9f3ea545426317edcc34faa4f8779163acc046 xfs/{050,144,153,299,330}: update quota reports to handle metadir trees
-6515675a941b02c549bcd1d3b10e5eb76bd6784b xfs/509: adjust inumbers accounting for metadata directories
-215411f56f4ef9fd056b746321db917f628cb930 xfs: create fuzz tests for metadata directories
-badf1a41abfd9a1036f103ef40eb34b09b86f1e3 xfs/163: bigger fs for metadir
-2258ffabb2f441df784e1bdfe44bfda827209644 xfs/122: disable this test for any codebase that knows about metadir
-34b1206de260b29db854627f8d1b567e3254683b common/populate: label newly created xfs filesystems
-c7e34d0e85df10504defb00b6e70b287c6648f46 scrub: race metapath online fsck with fsstress
-8be87eb2ad2217b447bd74ebb3b0f08dfa90f89a xfs: test metapath repairs
-911dcb4667c56ec3c535a259fcb3eccfa3d584fa xfs/019: reduce _fail calls in test
-758f1cee8877bd8f11b7e9fd816ae87ccb128cf6 xfs/019: test reserved file support
-bc892233c30147c0887d54889cee8b7b6078e99a xfs: test filesystem creation with xfs_protofile
-47af2b9cd14181655d4d519ba1f9f2f44102d4ae fstests: test mkfs.xfs protofiles with xattr support
-
---===============1120842549220992755==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c71645f55601-05a09df063e2.txt
-
-71b9fbc7dc60c9d57057d32a0a9d0e4014e11580 generic/476: fix fsstress process management
-71ba6462f79af02027b0940d010f68ab582e2b50 metadump: make non-local function variables more obvious
-9ac6e6551c36ae9078e35bfc4e71b20999a8aa4f metadump: fix cleanup for v1 metadump testing
-6daf90b77a497cdd8cdbb273e460466c4fd50360 generic/019: don't fail if fio crashes while shutting down
-8abb2fe36c8c2dce1c9fd146fd437f37fbaca243 fuzzy: do not set _FSSTRESS_PID when exercising fsx
-1f3725f9c4e85163325580000cfece6506164ff1 common/rc: revert recursive unmount in _clear_mount_stack
-0a77c9db4af8f84270cb2bf00675bfc2e2ea34fa common/dump: don't replace pids arbitrarily
-382f64ab64d0ee2ee3e99e2de617f8fc9789576d common/populate: correct the parent pointer name creation formulae
-a6d10c48a753f9fd5bffc6d6db7c06623ab53601 generic/759,760: fix MADV_COLLAPSE detection and inclusion
-62a6c738512e5a5560fa63fb599e042e33cfa2de generic/759,760: skip test if we can't set up a hugepage for IO
-b994081cca0d6899d149bbed5efb79233f46dd41 common/rc: create a wrapper for the su command
-09a0263fa1f10c575a23d9e232bafe8a33d00ec7 fuzzy: kill subprocesses with SIGPIPE, not SIGINT
-4c9814b08fe0bbf0002e7d25b33503fa24a13468 common/rc: hoist pkill to a helper function
-5a049b3acb18d3973640d0a6d7f5c519e8cf9b3e tools: add a Makefile
-a40000f7c5cc62dee902b341721e435a09cd4636 common: fix pkill by running test program in a separate session
-aa5626953c0e9e4f41a7e59a204d8238bfc443a9 check: run tests in a private pid/mount namespace
-10aa1570c280b1c2642d99616687aaa257923a55 check: deprecate using process sessions to isolate test instances
-2e0f4b85384039fa5d131ac27d92bf2059e2d283 common/rc: don't copy fsstress to $TEST_DIR
-318c61bfc97d58bb235846f0c038f328fb2a64fb unmount: resume logging of stdout and stderr for filtering
-c272d36ae2cbf09515a4383d2c1e4bfaf5f66e1b mkfs: don't hardcode log size
-e6ffb1248b3c8dad4a49d4117da5b167ad8b5e63 common/rc: return mount_ret in _try_scratch_mount
-aa4e8714b387942a2b58c0d660ed3dcc9a323cdb preamble: fix missing _kill_fsstress
-4467fd59324d3678b2cc145c6309ce8d3f024382 generic/650: revert SOAK DURATION changes
-c363f931277131b817d585594b07a3e45e995141 generic/032: fix pinned mount failure
-3bf5379f3c5a032aee200c8d97d0e082461933ea fuzzy: stop __stress_scrub_fsx_loop if fsx fails
-1bfba9f17d777007dc5345fdfa67bf4654ccb5d4 fuzzy: don't use readarray for xfsfind output
-edcd688315ba8e8f674a9f2eca3858825b7cadb6 fuzzy: always stop the scrub fsstress loop on error
-c86af3857d210e6450a86185e3ad705200144cc9 fuzzy: port fsx and fsstress loop to use --duration
-81b07f6f7ff1e8fbf34373d515c1c572801bba3a fix _require_scratch_duperemove ordering
-87c9bb1191e7d264c7276b29e3d873164a54e252 fsstress: fix a memory leak
-65b187eea39c66f0e7e95677a413c8669be1de01 fsx: fix leaked log file pointer
-501982639ede1089574f98a706367c8722a74cf1 misc: don't put nr_cpus into the fsstress -n argument
-186c55fc693ef0c5656b17f67906ccd2cd29b1ce common/config: add $here to FSSTRESS_PROG
-21dd6aa8add9b1ad5a6d6cf332c3af21711670d7 config: add FSX_PROG variable
-05a09df063e22a555930b077b9241a39b1895d3d build: initialize stack variables to zero by default
-
---===============1120842549220992755==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a8ab29bcd96b-58d410795d15.txt
-
-71b9fbc7dc60c9d57057d32a0a9d0e4014e11580 generic/476: fix fsstress process management
-71ba6462f79af02027b0940d010f68ab582e2b50 metadump: make non-local function variables more obvious
-9ac6e6551c36ae9078e35bfc4e71b20999a8aa4f metadump: fix cleanup for v1 metadump testing
-6daf90b77a497cdd8cdbb273e460466c4fd50360 generic/019: don't fail if fio crashes while shutting down
-8abb2fe36c8c2dce1c9fd146fd437f37fbaca243 fuzzy: do not set _FSSTRESS_PID when exercising fsx
-1f3725f9c4e85163325580000cfece6506164ff1 common/rc: revert recursive unmount in _clear_mount_stack
-0a77c9db4af8f84270cb2bf00675bfc2e2ea34fa common/dump: don't replace pids arbitrarily
-382f64ab64d0ee2ee3e99e2de617f8fc9789576d common/populate: correct the parent pointer name creation formulae
-a6d10c48a753f9fd5bffc6d6db7c06623ab53601 generic/759,760: fix MADV_COLLAPSE detection and inclusion
-62a6c738512e5a5560fa63fb599e042e33cfa2de generic/759,760: skip test if we can't set up a hugepage for IO
-b994081cca0d6899d149bbed5efb79233f46dd41 common/rc: create a wrapper for the su command
-09a0263fa1f10c575a23d9e232bafe8a33d00ec7 fuzzy: kill subprocesses with SIGPIPE, not SIGINT
-4c9814b08fe0bbf0002e7d25b33503fa24a13468 common/rc: hoist pkill to a helper function
-5a049b3acb18d3973640d0a6d7f5c519e8cf9b3e tools: add a Makefile
-a40000f7c5cc62dee902b341721e435a09cd4636 common: fix pkill by running test program in a separate session
-aa5626953c0e9e4f41a7e59a204d8238bfc443a9 check: run tests in a private pid/mount namespace
-10aa1570c280b1c2642d99616687aaa257923a55 check: deprecate using process sessions to isolate test instances
-2e0f4b85384039fa5d131ac27d92bf2059e2d283 common/rc: don't copy fsstress to $TEST_DIR
-318c61bfc97d58bb235846f0c038f328fb2a64fb unmount: resume logging of stdout and stderr for filtering
-c272d36ae2cbf09515a4383d2c1e4bfaf5f66e1b mkfs: don't hardcode log size
-e6ffb1248b3c8dad4a49d4117da5b167ad8b5e63 common/rc: return mount_ret in _try_scratch_mount
-aa4e8714b387942a2b58c0d660ed3dcc9a323cdb preamble: fix missing _kill_fsstress
-4467fd59324d3678b2cc145c6309ce8d3f024382 generic/650: revert SOAK DURATION changes
-c363f931277131b817d585594b07a3e45e995141 generic/032: fix pinned mount failure
-3bf5379f3c5a032aee200c8d97d0e082461933ea fuzzy: stop __stress_scrub_fsx_loop if fsx fails
-1bfba9f17d777007dc5345fdfa67bf4654ccb5d4 fuzzy: don't use readarray for xfsfind output
-edcd688315ba8e8f674a9f2eca3858825b7cadb6 fuzzy: always stop the scrub fsstress loop on error
-c86af3857d210e6450a86185e3ad705200144cc9 fuzzy: port fsx and fsstress loop to use --duration
-81b07f6f7ff1e8fbf34373d515c1c572801bba3a fix _require_scratch_duperemove ordering
-87c9bb1191e7d264c7276b29e3d873164a54e252 fsstress: fix a memory leak
-65b187eea39c66f0e7e95677a413c8669be1de01 fsx: fix leaked log file pointer
-501982639ede1089574f98a706367c8722a74cf1 misc: don't put nr_cpus into the fsstress -n argument
-186c55fc693ef0c5656b17f67906ccd2cd29b1ce common/config: add $here to FSSTRESS_PROG
-21dd6aa8add9b1ad5a6d6cf332c3af21711670d7 config: add FSX_PROG variable
-05a09df063e22a555930b077b9241a39b1895d3d build: initialize stack variables to zero by default
-0a327266fa41c76179744039a1fb0a3d2170e14f logwrites: warn if we don't think read after discard returns zeroes
-2d41bcb85d24bd0a5fc3f66535e8d42fc927cb74 logwrites: use BLKZEROOUT if it's available
-2864104b825b638aa79097d434754839bdc4a396 logwrites: only use BLKDISCARD if we know discard zeroes data
-1c9f4dace0b0b2fce38b44aa67aea4a472f2ac4c misc: drop the dangerous label from xfs_scrub fsstress tests
-64a59ec65090469ba089dd90e93728682d03eebc misc: rename the dangerous_repair group to fuzzers_repair
-7246c9b7af90e5cd27266da28ddb419a6097991d misc: rename the dangerous_online_repair group to fuzzers_online_repair
-1f7525c46184263be2372b856383a206e0610b5b misc: rename the dangerous_bothrepair group to fuzzers_bothrepair
-ad9d28f0b6408e9d4c2b741e386e8449ba273483 misc: rename the dangerous_norepair group to fuzzers_norepair
-25f41535a940ff42e4eeae1cc716733f909ac0d9 misc: fix misclassification of xfs_repair fuzz tests
-b4699f272dee01232ccd4db60085c101ebd48ad7 misc: fix misclassification of xfs_scrub + xfs_repair fuzz tests
-c8bd09c5f059cbf229c28f9241c4f1bd7cd692d9 misc: fix misclassification of verifier fuzz tests
-8e8a0fbd536f4a5e0ebe270c856be319a9e24fa0 misc: add xfs_scrub + xfs_repair fuzz tests to the scrub and repair groups
-b83d8c1733a62264932a34c660ddf310b3cd1e67 misc: remove the dangerous_scrub group
-5836b6b1672b0b795bc8adc581739419e83dd51e xfs/28[56],xfs/56[56]: add to the auto group
-8f3c6ef4f22d570b2e5b52814af3b98bc66f6bbd xfs/349: reclassify this test as not dangerous
-8687513be9f6f8f5f82c3cbac47f4e5ec8ca5567 various: fix finding metadata inode numbers when metadir is enabled
-d694b3b053dc3ad03dc64b138a3e5431abb7b18e xfs/{030,033,178}: forcibly disable metadata directory trees
-20a4bb362eb2b73ae0c477d4d90059cd039b3231 common/repair: patch up repair sb inode value complaints
-22130bbe38b59022be78279763223540f96cbfd8 xfs/206: update for metadata directory support
-1c9f3ea545426317edcc34faa4f8779163acc046 xfs/{050,144,153,299,330}: update quota reports to handle metadir trees
-6515675a941b02c549bcd1d3b10e5eb76bd6784b xfs/509: adjust inumbers accounting for metadata directories
-215411f56f4ef9fd056b746321db917f628cb930 xfs: create fuzz tests for metadata directories
-badf1a41abfd9a1036f103ef40eb34b09b86f1e3 xfs/163: bigger fs for metadir
-2258ffabb2f441df784e1bdfe44bfda827209644 xfs/122: disable this test for any codebase that knows about metadir
-34b1206de260b29db854627f8d1b567e3254683b common/populate: label newly created xfs filesystems
-c7e34d0e85df10504defb00b6e70b287c6648f46 scrub: race metapath online fsck with fsstress
-8be87eb2ad2217b447bd74ebb3b0f08dfa90f89a xfs: test metapath repairs
-911dcb4667c56ec3c535a259fcb3eccfa3d584fa xfs/019: reduce _fail calls in test
-758f1cee8877bd8f11b7e9fd816ae87ccb128cf6 xfs/019: test reserved file support
-bc892233c30147c0887d54889cee8b7b6078e99a xfs: test filesystem creation with xfs_protofile
-47af2b9cd14181655d4d519ba1f9f2f44102d4ae fstests: test mkfs.xfs protofiles with xattr support
-272f73b04effe28c8fc386601777c1d2189eb0e1 common/populate: refactor caching of metadumps to a helper
-39ced3a5ade28852b2a061b226ccdf6afbe832b9 common/{fuzzy,populate}: use _scratch_xfs_mdrestore
-3e6647019507585a6ca92cb4c00bb2eba1957c7e fuzzy: stress data and rt sections of xfs filesystems equally
-596dbc099f371145189fbdb5a0aec3ecc3a7efd7 fuzzy: run fsx on data and rt sections of xfs filesystems equally
-d747356eca2f78a9dfcf6bf8531eba46619423e7 common/ext4: reformat external logs during mdrestore operations
-92a2e7c6e08ae93efaa539af655aa10f746c886d common/populate: use metadump v2 format by default for fs metadata snapshots
-12ce398860d15232e133532bb44d74cd7097c324 punch-alternating: detect xfs realtime files with large allocation units
-265ebcf15239f11de95606ea2687b4aa9637080f xfs/206: update mkfs filtering for rt groups feature
-c3c5c34c6f30f27d1fb828511ae5996276acd120 common: pass the realtime device to xfs_db when possible
-fe50c474629ba27a42c287a5e993b0ffe823e028 xfs/185: update for rtgroups
-63624fab4aee35502d025e5eea386e65ba6bb709 xfs/449: update test to know about xfs_db -R
-b025145d9a96a7e0979f0ba46dd9c0f4418aa4ff xfs/271,xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
-44fdf216d95c07aa129330a0adb31aeead5cbea8 common/xfs: capture realtime devices during metadump/mdrestore
-34058229131b5fbe55a7d4bcf98da52694301f05 common/fuzzy: adapt the scrub stress tests to support rtgroups
-798ed5531c6c9518cf6e9bba823e613ab8cb4afa xfs: fix fuzz tests of rtgroups bitmap and summary files
-cebd1b62318ddae6544f174aad0fef7068b2706d xfs: update tests for quota files in the metadir
-be6577d3ee06d2803c82cc7b2b655b233d9b10c4 xfs: test persistent quota flags
-dd0ebc3bd519547aab7a7c5ddcc583b46568383b xfs: fix quota detection in fuzz tests
-ff82765085efe4952f829bfffd524ea97299c625 xfs: fix tests for persistent qflags
-15320637a298308a53935e0e765458b83c0f876d common: enable testing of realtime quota when supported
-c17f2f00bfa418a0a74c13e229356af74b17d4f4 xfs: fix quota tests to adapt to realtime quota
-7a38ce3989626fa31d48ae0f1061e1732e85d077 xfs: regression testing of quota on the realtime device
-ccea7893fbab78113c98df2f9443d7658ef95473 common: test statfs reporting with project quota
-fcd7870a3185b18aa286fc1593f6657877903c33 xfs: fix tests that try to access the realtime rmap inode
-bbe090d4c6e0ef574a9ecf49ac5fa5d9aa196f6a xfs/336: port to common/metadump
-9e9ee02e5295da1febd50dbf3444ddce4a39f82a fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
-4858f2d3a32369db38a6a4bb3985e7c18648ae4e xfs: race fsstress with realtime rmap btree scrub and repair
-8c46b2f68b05302bb9c790b31e1e0e8c32a10d12 xfs: fix various problems with fsmap detecting the data device
-0cc9170ab8577cc41beba1781f400e47cc044644 xfs/341: update test for rtgroup-based rmap
-cd3f52418fca1d6182ac70bdb8b1d1f418327782 xfs/3{43,32}: adapt tests for rt extent size greater than 1
-6d9a7890bba23515947b7381790c86a10a68041d xfs/291: use _scratch_mkfs_sized instead of opencoding the logic
-817f765e9e56e56a4d27e6f6166d9115c5a0c6bc xfs: skip tests if formatting small filesystem fails
-b4cae97490980889b1e6f7fccca104c79dc2a6ef xfs/443: use file allocation unit, not dbsize
-9157f88e14b9bfb93ee4d54ade8ec669efc8c9b7 populate: adjust rtrmap calculations for rtgroups
-8ea7b2ae8cb866151f6b57a965e5ae383713f9ea populate: check that we created a realtime rmap btree of the given height
-b07e6a8f0405e640f64821e40a6d79df06709ae7 fuzzy: create missing fuzz tests for rt rmap btrees
-e9e0a211a247a3a27950a9d761eeed3bb50cbb4c common/populate: create realtime refcount btree
-30851f0862575c642992d503a797830c6bc19549 xfs: create fuzz tests for the realtime refcount btree
-686e2972c8040b642d0869214043f7c4ecb8721e xfs/27[24]: adapt for checking files on the realtime volume
-dbc0d40594a5b9a3e3a27865375a04c5a13bfa03 xfs: race fsstress with realtime refcount btree scrub and repair
-9c3e8f0cbd42e02a56a82444d86296c233674f0b xfs: remove xfs/131 now that we allow reflink on realtime volumes
-2eddea095ccb9dbf214f85a8304fb21101c94e82 generic/331,xfs/240: support files that skip delayed allocation
-f96f21a89253600af0b9869e576b8084a651ce5a common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
-58d410795d1598d4144ed84473919e7af7737051 xfs: test filesystem recovery with rdump
-
---===============1120842549220992755==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d2bd4cbe8f5d-798ed5531c6c.txt
-
-71b9fbc7dc60c9d57057d32a0a9d0e4014e11580 generic/476: fix fsstress process management
-71ba6462f79af02027b0940d010f68ab582e2b50 metadump: make non-local function variables more obvious
-9ac6e6551c36ae9078e35bfc4e71b20999a8aa4f metadump: fix cleanup for v1 metadump testing
-6daf90b77a497cdd8cdbb273e460466c4fd50360 generic/019: don't fail if fio crashes while shutting down
-8abb2fe36c8c2dce1c9fd146fd437f37fbaca243 fuzzy: do not set _FSSTRESS_PID when exercising fsx
-1f3725f9c4e85163325580000cfece6506164ff1 common/rc: revert recursive unmount in _clear_mount_stack
-0a77c9db4af8f84270cb2bf00675bfc2e2ea34fa common/dump: don't replace pids arbitrarily
-382f64ab64d0ee2ee3e99e2de617f8fc9789576d common/populate: correct the parent pointer name creation formulae
-a6d10c48a753f9fd5bffc6d6db7c06623ab53601 generic/759,760: fix MADV_COLLAPSE detection and inclusion
-62a6c738512e5a5560fa63fb599e042e33cfa2de generic/759,760: skip test if we can't set up a hugepage for IO
-b994081cca0d6899d149bbed5efb79233f46dd41 common/rc: create a wrapper for the su command
-09a0263fa1f10c575a23d9e232bafe8a33d00ec7 fuzzy: kill subprocesses with SIGPIPE, not SIGINT
-4c9814b08fe0bbf0002e7d25b33503fa24a13468 common/rc: hoist pkill to a helper function
-5a049b3acb18d3973640d0a6d7f5c519e8cf9b3e tools: add a Makefile
-a40000f7c5cc62dee902b341721e435a09cd4636 common: fix pkill by running test program in a separate session
-aa5626953c0e9e4f41a7e59a204d8238bfc443a9 check: run tests in a private pid/mount namespace
-10aa1570c280b1c2642d99616687aaa257923a55 check: deprecate using process sessions to isolate test instances
-2e0f4b85384039fa5d131ac27d92bf2059e2d283 common/rc: don't copy fsstress to $TEST_DIR
-318c61bfc97d58bb235846f0c038f328fb2a64fb unmount: resume logging of stdout and stderr for filtering
-c272d36ae2cbf09515a4383d2c1e4bfaf5f66e1b mkfs: don't hardcode log size
-e6ffb1248b3c8dad4a49d4117da5b167ad8b5e63 common/rc: return mount_ret in _try_scratch_mount
-aa4e8714b387942a2b58c0d660ed3dcc9a323cdb preamble: fix missing _kill_fsstress
-4467fd59324d3678b2cc145c6309ce8d3f024382 generic/650: revert SOAK DURATION changes
-c363f931277131b817d585594b07a3e45e995141 generic/032: fix pinned mount failure
-3bf5379f3c5a032aee200c8d97d0e082461933ea fuzzy: stop __stress_scrub_fsx_loop if fsx fails
-1bfba9f17d777007dc5345fdfa67bf4654ccb5d4 fuzzy: don't use readarray for xfsfind output
-edcd688315ba8e8f674a9f2eca3858825b7cadb6 fuzzy: always stop the scrub fsstress loop on error
-c86af3857d210e6450a86185e3ad705200144cc9 fuzzy: port fsx and fsstress loop to use --duration
-81b07f6f7ff1e8fbf34373d515c1c572801bba3a fix _require_scratch_duperemove ordering
-87c9bb1191e7d264c7276b29e3d873164a54e252 fsstress: fix a memory leak
-65b187eea39c66f0e7e95677a413c8669be1de01 fsx: fix leaked log file pointer
-501982639ede1089574f98a706367c8722a74cf1 misc: don't put nr_cpus into the fsstress -n argument
-186c55fc693ef0c5656b17f67906ccd2cd29b1ce common/config: add $here to FSSTRESS_PROG
-21dd6aa8add9b1ad5a6d6cf332c3af21711670d7 config: add FSX_PROG variable
-05a09df063e22a555930b077b9241a39b1895d3d build: initialize stack variables to zero by default
-0a327266fa41c76179744039a1fb0a3d2170e14f logwrites: warn if we don't think read after discard returns zeroes
-2d41bcb85d24bd0a5fc3f66535e8d42fc927cb74 logwrites: use BLKZEROOUT if it's available
-2864104b825b638aa79097d434754839bdc4a396 logwrites: only use BLKDISCARD if we know discard zeroes data
-1c9f4dace0b0b2fce38b44aa67aea4a472f2ac4c misc: drop the dangerous label from xfs_scrub fsstress tests
-64a59ec65090469ba089dd90e93728682d03eebc misc: rename the dangerous_repair group to fuzzers_repair
-7246c9b7af90e5cd27266da28ddb419a6097991d misc: rename the dangerous_online_repair group to fuzzers_online_repair
-1f7525c46184263be2372b856383a206e0610b5b misc: rename the dangerous_bothrepair group to fuzzers_bothrepair
-ad9d28f0b6408e9d4c2b741e386e8449ba273483 misc: rename the dangerous_norepair group to fuzzers_norepair
-25f41535a940ff42e4eeae1cc716733f909ac0d9 misc: fix misclassification of xfs_repair fuzz tests
-b4699f272dee01232ccd4db60085c101ebd48ad7 misc: fix misclassification of xfs_scrub + xfs_repair fuzz tests
-c8bd09c5f059cbf229c28f9241c4f1bd7cd692d9 misc: fix misclassification of verifier fuzz tests
-8e8a0fbd536f4a5e0ebe270c856be319a9e24fa0 misc: add xfs_scrub + xfs_repair fuzz tests to the scrub and repair groups
-b83d8c1733a62264932a34c660ddf310b3cd1e67 misc: remove the dangerous_scrub group
-5836b6b1672b0b795bc8adc581739419e83dd51e xfs/28[56],xfs/56[56]: add to the auto group
-8f3c6ef4f22d570b2e5b52814af3b98bc66f6bbd xfs/349: reclassify this test as not dangerous
-8687513be9f6f8f5f82c3cbac47f4e5ec8ca5567 various: fix finding metadata inode numbers when metadir is enabled
-d694b3b053dc3ad03dc64b138a3e5431abb7b18e xfs/{030,033,178}: forcibly disable metadata directory trees
-20a4bb362eb2b73ae0c477d4d90059cd039b3231 common/repair: patch up repair sb inode value complaints
-22130bbe38b59022be78279763223540f96cbfd8 xfs/206: update for metadata directory support
-1c9f3ea545426317edcc34faa4f8779163acc046 xfs/{050,144,153,299,330}: update quota reports to handle metadir trees
-6515675a941b02c549bcd1d3b10e5eb76bd6784b xfs/509: adjust inumbers accounting for metadata directories
-215411f56f4ef9fd056b746321db917f628cb930 xfs: create fuzz tests for metadata directories
-badf1a41abfd9a1036f103ef40eb34b09b86f1e3 xfs/163: bigger fs for metadir
-2258ffabb2f441df784e1bdfe44bfda827209644 xfs/122: disable this test for any codebase that knows about metadir
-34b1206de260b29db854627f8d1b567e3254683b common/populate: label newly created xfs filesystems
-c7e34d0e85df10504defb00b6e70b287c6648f46 scrub: race metapath online fsck with fsstress
-8be87eb2ad2217b447bd74ebb3b0f08dfa90f89a xfs: test metapath repairs
-911dcb4667c56ec3c535a259fcb3eccfa3d584fa xfs/019: reduce _fail calls in test
-758f1cee8877bd8f11b7e9fd816ae87ccb128cf6 xfs/019: test reserved file support
-bc892233c30147c0887d54889cee8b7b6078e99a xfs: test filesystem creation with xfs_protofile
-47af2b9cd14181655d4d519ba1f9f2f44102d4ae fstests: test mkfs.xfs protofiles with xattr support
-272f73b04effe28c8fc386601777c1d2189eb0e1 common/populate: refactor caching of metadumps to a helper
-39ced3a5ade28852b2a061b226ccdf6afbe832b9 common/{fuzzy,populate}: use _scratch_xfs_mdrestore
-3e6647019507585a6ca92cb4c00bb2eba1957c7e fuzzy: stress data and rt sections of xfs filesystems equally
-596dbc099f371145189fbdb5a0aec3ecc3a7efd7 fuzzy: run fsx on data and rt sections of xfs filesystems equally
-d747356eca2f78a9dfcf6bf8531eba46619423e7 common/ext4: reformat external logs during mdrestore operations
-92a2e7c6e08ae93efaa539af655aa10f746c886d common/populate: use metadump v2 format by default for fs metadata snapshots
-12ce398860d15232e133532bb44d74cd7097c324 punch-alternating: detect xfs realtime files with large allocation units
-265ebcf15239f11de95606ea2687b4aa9637080f xfs/206: update mkfs filtering for rt groups feature
-c3c5c34c6f30f27d1fb828511ae5996276acd120 common: pass the realtime device to xfs_db when possible
-fe50c474629ba27a42c287a5e993b0ffe823e028 xfs/185: update for rtgroups
-63624fab4aee35502d025e5eea386e65ba6bb709 xfs/449: update test to know about xfs_db -R
-b025145d9a96a7e0979f0ba46dd9c0f4418aa4ff xfs/271,xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
-44fdf216d95c07aa129330a0adb31aeead5cbea8 common/xfs: capture realtime devices during metadump/mdrestore
-34058229131b5fbe55a7d4bcf98da52694301f05 common/fuzzy: adapt the scrub stress tests to support rtgroups
-798ed5531c6c9518cf6e9bba823e613ab8cb4afa xfs: fix fuzz tests of rtgroups bitmap and summary files
-
---===============1120842549220992755==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7e71091c87d4-7a38ce398962.txt
-
-71b9fbc7dc60c9d57057d32a0a9d0e4014e11580 generic/476: fix fsstress process management
-71ba6462f79af02027b0940d010f68ab582e2b50 metadump: make non-local function variables more obvious
-9ac6e6551c36ae9078e35bfc4e71b20999a8aa4f metadump: fix cleanup for v1 metadump testing
-6daf90b77a497cdd8cdbb273e460466c4fd50360 generic/019: don't fail if fio crashes while shutting down
-8abb2fe36c8c2dce1c9fd146fd437f37fbaca243 fuzzy: do not set _FSSTRESS_PID when exercising fsx
-1f3725f9c4e85163325580000cfece6506164ff1 common/rc: revert recursive unmount in _clear_mount_stack
-0a77c9db4af8f84270cb2bf00675bfc2e2ea34fa common/dump: don't replace pids arbitrarily
-382f64ab64d0ee2ee3e99e2de617f8fc9789576d common/populate: correct the parent pointer name creation formulae
-a6d10c48a753f9fd5bffc6d6db7c06623ab53601 generic/759,760: fix MADV_COLLAPSE detection and inclusion
-62a6c738512e5a5560fa63fb599e042e33cfa2de generic/759,760: skip test if we can't set up a hugepage for IO
-b994081cca0d6899d149bbed5efb79233f46dd41 common/rc: create a wrapper for the su command
-09a0263fa1f10c575a23d9e232bafe8a33d00ec7 fuzzy: kill subprocesses with SIGPIPE, not SIGINT
-4c9814b08fe0bbf0002e7d25b33503fa24a13468 common/rc: hoist pkill to a helper function
-5a049b3acb18d3973640d0a6d7f5c519e8cf9b3e tools: add a Makefile
-a40000f7c5cc62dee902b341721e435a09cd4636 common: fix pkill by running test program in a separate session
-aa5626953c0e9e4f41a7e59a204d8238bfc443a9 check: run tests in a private pid/mount namespace
-10aa1570c280b1c2642d99616687aaa257923a55 check: deprecate using process sessions to isolate test instances
-2e0f4b85384039fa5d131ac27d92bf2059e2d283 common/rc: don't copy fsstress to $TEST_DIR
-318c61bfc97d58bb235846f0c038f328fb2a64fb unmount: resume logging of stdout and stderr for filtering
-c272d36ae2cbf09515a4383d2c1e4bfaf5f66e1b mkfs: don't hardcode log size
-e6ffb1248b3c8dad4a49d4117da5b167ad8b5e63 common/rc: return mount_ret in _try_scratch_mount
-aa4e8714b387942a2b58c0d660ed3dcc9a323cdb preamble: fix missing _kill_fsstress
-4467fd59324d3678b2cc145c6309ce8d3f024382 generic/650: revert SOAK DURATION changes
-c363f931277131b817d585594b07a3e45e995141 generic/032: fix pinned mount failure
-3bf5379f3c5a032aee200c8d97d0e082461933ea fuzzy: stop __stress_scrub_fsx_loop if fsx fails
-1bfba9f17d777007dc5345fdfa67bf4654ccb5d4 fuzzy: don't use readarray for xfsfind output
-edcd688315ba8e8f674a9f2eca3858825b7cadb6 fuzzy: always stop the scrub fsstress loop on error
-c86af3857d210e6450a86185e3ad705200144cc9 fuzzy: port fsx and fsstress loop to use --duration
-81b07f6f7ff1e8fbf34373d515c1c572801bba3a fix _require_scratch_duperemove ordering
-87c9bb1191e7d264c7276b29e3d873164a54e252 fsstress: fix a memory leak
-65b187eea39c66f0e7e95677a413c8669be1de01 fsx: fix leaked log file pointer
-501982639ede1089574f98a706367c8722a74cf1 misc: don't put nr_cpus into the fsstress -n argument
-186c55fc693ef0c5656b17f67906ccd2cd29b1ce common/config: add $here to FSSTRESS_PROG
-21dd6aa8add9b1ad5a6d6cf332c3af21711670d7 config: add FSX_PROG variable
-05a09df063e22a555930b077b9241a39b1895d3d build: initialize stack variables to zero by default
-0a327266fa41c76179744039a1fb0a3d2170e14f logwrites: warn if we don't think read after discard returns zeroes
-2d41bcb85d24bd0a5fc3f66535e8d42fc927cb74 logwrites: use BLKZEROOUT if it's available
-2864104b825b638aa79097d434754839bdc4a396 logwrites: only use BLKDISCARD if we know discard zeroes data
-1c9f4dace0b0b2fce38b44aa67aea4a472f2ac4c misc: drop the dangerous label from xfs_scrub fsstress tests
-64a59ec65090469ba089dd90e93728682d03eebc misc: rename the dangerous_repair group to fuzzers_repair
-7246c9b7af90e5cd27266da28ddb419a6097991d misc: rename the dangerous_online_repair group to fuzzers_online_repair
-1f7525c46184263be2372b856383a206e0610b5b misc: rename the dangerous_bothrepair group to fuzzers_bothrepair
-ad9d28f0b6408e9d4c2b741e386e8449ba273483 misc: rename the dangerous_norepair group to fuzzers_norepair
-25f41535a940ff42e4eeae1cc716733f909ac0d9 misc: fix misclassification of xfs_repair fuzz tests
-b4699f272dee01232ccd4db60085c101ebd48ad7 misc: fix misclassification of xfs_scrub + xfs_repair fuzz tests
-c8bd09c5f059cbf229c28f9241c4f1bd7cd692d9 misc: fix misclassification of verifier fuzz tests
-8e8a0fbd536f4a5e0ebe270c856be319a9e24fa0 misc: add xfs_scrub + xfs_repair fuzz tests to the scrub and repair groups
-b83d8c1733a62264932a34c660ddf310b3cd1e67 misc: remove the dangerous_scrub group
-5836b6b1672b0b795bc8adc581739419e83dd51e xfs/28[56],xfs/56[56]: add to the auto group
-8f3c6ef4f22d570b2e5b52814af3b98bc66f6bbd xfs/349: reclassify this test as not dangerous
-8687513be9f6f8f5f82c3cbac47f4e5ec8ca5567 various: fix finding metadata inode numbers when metadir is enabled
-d694b3b053dc3ad03dc64b138a3e5431abb7b18e xfs/{030,033,178}: forcibly disable metadata directory trees
-20a4bb362eb2b73ae0c477d4d90059cd039b3231 common/repair: patch up repair sb inode value complaints
-22130bbe38b59022be78279763223540f96cbfd8 xfs/206: update for metadata directory support
-1c9f3ea545426317edcc34faa4f8779163acc046 xfs/{050,144,153,299,330}: update quota reports to handle metadir trees
-6515675a941b02c549bcd1d3b10e5eb76bd6784b xfs/509: adjust inumbers accounting for metadata directories
-215411f56f4ef9fd056b746321db917f628cb930 xfs: create fuzz tests for metadata directories
-badf1a41abfd9a1036f103ef40eb34b09b86f1e3 xfs/163: bigger fs for metadir
-2258ffabb2f441df784e1bdfe44bfda827209644 xfs/122: disable this test for any codebase that knows about metadir
-34b1206de260b29db854627f8d1b567e3254683b common/populate: label newly created xfs filesystems
-c7e34d0e85df10504defb00b6e70b287c6648f46 scrub: race metapath online fsck with fsstress
-8be87eb2ad2217b447bd74ebb3b0f08dfa90f89a xfs: test metapath repairs
-911dcb4667c56ec3c535a259fcb3eccfa3d584fa xfs/019: reduce _fail calls in test
-758f1cee8877bd8f11b7e9fd816ae87ccb128cf6 xfs/019: test reserved file support
-bc892233c30147c0887d54889cee8b7b6078e99a xfs: test filesystem creation with xfs_protofile
-47af2b9cd14181655d4d519ba1f9f2f44102d4ae fstests: test mkfs.xfs protofiles with xattr support
-272f73b04effe28c8fc386601777c1d2189eb0e1 common/populate: refactor caching of metadumps to a helper
-39ced3a5ade28852b2a061b226ccdf6afbe832b9 common/{fuzzy,populate}: use _scratch_xfs_mdrestore
-3e6647019507585a6ca92cb4c00bb2eba1957c7e fuzzy: stress data and rt sections of xfs filesystems equally
-596dbc099f371145189fbdb5a0aec3ecc3a7efd7 fuzzy: run fsx on data and rt sections of xfs filesystems equally
-d747356eca2f78a9dfcf6bf8531eba46619423e7 common/ext4: reformat external logs during mdrestore operations
-92a2e7c6e08ae93efaa539af655aa10f746c886d common/populate: use metadump v2 format by default for fs metadata snapshots
-12ce398860d15232e133532bb44d74cd7097c324 punch-alternating: detect xfs realtime files with large allocation units
-265ebcf15239f11de95606ea2687b4aa9637080f xfs/206: update mkfs filtering for rt groups feature
-c3c5c34c6f30f27d1fb828511ae5996276acd120 common: pass the realtime device to xfs_db when possible
-fe50c474629ba27a42c287a5e993b0ffe823e028 xfs/185: update for rtgroups
-63624fab4aee35502d025e5eea386e65ba6bb709 xfs/449: update test to know about xfs_db -R
-b025145d9a96a7e0979f0ba46dd9c0f4418aa4ff xfs/271,xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
-44fdf216d95c07aa129330a0adb31aeead5cbea8 common/xfs: capture realtime devices during metadump/mdrestore
-34058229131b5fbe55a7d4bcf98da52694301f05 common/fuzzy: adapt the scrub stress tests to support rtgroups
-798ed5531c6c9518cf6e9bba823e613ab8cb4afa xfs: fix fuzz tests of rtgroups bitmap and summary files
-cebd1b62318ddae6544f174aad0fef7068b2706d xfs: update tests for quota files in the metadir
-be6577d3ee06d2803c82cc7b2b655b233d9b10c4 xfs: test persistent quota flags
-dd0ebc3bd519547aab7a7c5ddcc583b46568383b xfs: fix quota detection in fuzz tests
-ff82765085efe4952f829bfffd524ea97299c625 xfs: fix tests for persistent qflags
-15320637a298308a53935e0e765458b83c0f876d common: enable testing of realtime quota when supported
-c17f2f00bfa418a0a74c13e229356af74b17d4f4 xfs: fix quota tests to adapt to realtime quota
-7a38ce3989626fa31d48ae0f1061e1732e85d077 xfs: regression testing of quota on the realtime device
-
---===============1120842549220992755==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cc0cd05e1a21-f96f21a89253.txt
-
-71b9fbc7dc60c9d57057d32a0a9d0e4014e11580 generic/476: fix fsstress process management
-71ba6462f79af02027b0940d010f68ab582e2b50 metadump: make non-local function variables more obvious
-9ac6e6551c36ae9078e35bfc4e71b20999a8aa4f metadump: fix cleanup for v1 metadump testing
-6daf90b77a497cdd8cdbb273e460466c4fd50360 generic/019: don't fail if fio crashes while shutting down
-8abb2fe36c8c2dce1c9fd146fd437f37fbaca243 fuzzy: do not set _FSSTRESS_PID when exercising fsx
-1f3725f9c4e85163325580000cfece6506164ff1 common/rc: revert recursive unmount in _clear_mount_stack
-0a77c9db4af8f84270cb2bf00675bfc2e2ea34fa common/dump: don't replace pids arbitrarily
-382f64ab64d0ee2ee3e99e2de617f8fc9789576d common/populate: correct the parent pointer name creation formulae
-a6d10c48a753f9fd5bffc6d6db7c06623ab53601 generic/759,760: fix MADV_COLLAPSE detection and inclusion
-62a6c738512e5a5560fa63fb599e042e33cfa2de generic/759,760: skip test if we can't set up a hugepage for IO
-b994081cca0d6899d149bbed5efb79233f46dd41 common/rc: create a wrapper for the su command
-09a0263fa1f10c575a23d9e232bafe8a33d00ec7 fuzzy: kill subprocesses with SIGPIPE, not SIGINT
-4c9814b08fe0bbf0002e7d25b33503fa24a13468 common/rc: hoist pkill to a helper function
-5a049b3acb18d3973640d0a6d7f5c519e8cf9b3e tools: add a Makefile
-a40000f7c5cc62dee902b341721e435a09cd4636 common: fix pkill by running test program in a separate session
-aa5626953c0e9e4f41a7e59a204d8238bfc443a9 check: run tests in a private pid/mount namespace
-10aa1570c280b1c2642d99616687aaa257923a55 check: deprecate using process sessions to isolate test instances
-2e0f4b85384039fa5d131ac27d92bf2059e2d283 common/rc: don't copy fsstress to $TEST_DIR
-318c61bfc97d58bb235846f0c038f328fb2a64fb unmount: resume logging of stdout and stderr for filtering
-c272d36ae2cbf09515a4383d2c1e4bfaf5f66e1b mkfs: don't hardcode log size
-e6ffb1248b3c8dad4a49d4117da5b167ad8b5e63 common/rc: return mount_ret in _try_scratch_mount
-aa4e8714b387942a2b58c0d660ed3dcc9a323cdb preamble: fix missing _kill_fsstress
-4467fd59324d3678b2cc145c6309ce8d3f024382 generic/650: revert SOAK DURATION changes
-c363f931277131b817d585594b07a3e45e995141 generic/032: fix pinned mount failure
-3bf5379f3c5a032aee200c8d97d0e082461933ea fuzzy: stop __stress_scrub_fsx_loop if fsx fails
-1bfba9f17d777007dc5345fdfa67bf4654ccb5d4 fuzzy: don't use readarray for xfsfind output
-edcd688315ba8e8f674a9f2eca3858825b7cadb6 fuzzy: always stop the scrub fsstress loop on error
-c86af3857d210e6450a86185e3ad705200144cc9 fuzzy: port fsx and fsstress loop to use --duration
-81b07f6f7ff1e8fbf34373d515c1c572801bba3a fix _require_scratch_duperemove ordering
-87c9bb1191e7d264c7276b29e3d873164a54e252 fsstress: fix a memory leak
-65b187eea39c66f0e7e95677a413c8669be1de01 fsx: fix leaked log file pointer
-501982639ede1089574f98a706367c8722a74cf1 misc: don't put nr_cpus into the fsstress -n argument
-186c55fc693ef0c5656b17f67906ccd2cd29b1ce common/config: add $here to FSSTRESS_PROG
-21dd6aa8add9b1ad5a6d6cf332c3af21711670d7 config: add FSX_PROG variable
-05a09df063e22a555930b077b9241a39b1895d3d build: initialize stack variables to zero by default
-0a327266fa41c76179744039a1fb0a3d2170e14f logwrites: warn if we don't think read after discard returns zeroes
-2d41bcb85d24bd0a5fc3f66535e8d42fc927cb74 logwrites: use BLKZEROOUT if it's available
-2864104b825b638aa79097d434754839bdc4a396 logwrites: only use BLKDISCARD if we know discard zeroes data
-1c9f4dace0b0b2fce38b44aa67aea4a472f2ac4c misc: drop the dangerous label from xfs_scrub fsstress tests
-64a59ec65090469ba089dd90e93728682d03eebc misc: rename the dangerous_repair group to fuzzers_repair
-7246c9b7af90e5cd27266da28ddb419a6097991d misc: rename the dangerous_online_repair group to fuzzers_online_repair
-1f7525c46184263be2372b856383a206e0610b5b misc: rename the dangerous_bothrepair group to fuzzers_bothrepair
-ad9d28f0b6408e9d4c2b741e386e8449ba273483 misc: rename the dangerous_norepair group to fuzzers_norepair
-25f41535a940ff42e4eeae1cc716733f909ac0d9 misc: fix misclassification of xfs_repair fuzz tests
-b4699f272dee01232ccd4db60085c101ebd48ad7 misc: fix misclassification of xfs_scrub + xfs_repair fuzz tests
-c8bd09c5f059cbf229c28f9241c4f1bd7cd692d9 misc: fix misclassification of verifier fuzz tests
-8e8a0fbd536f4a5e0ebe270c856be319a9e24fa0 misc: add xfs_scrub + xfs_repair fuzz tests to the scrub and repair groups
-b83d8c1733a62264932a34c660ddf310b3cd1e67 misc: remove the dangerous_scrub group
-5836b6b1672b0b795bc8adc581739419e83dd51e xfs/28[56],xfs/56[56]: add to the auto group
-8f3c6ef4f22d570b2e5b52814af3b98bc66f6bbd xfs/349: reclassify this test as not dangerous
-8687513be9f6f8f5f82c3cbac47f4e5ec8ca5567 various: fix finding metadata inode numbers when metadir is enabled
-d694b3b053dc3ad03dc64b138a3e5431abb7b18e xfs/{030,033,178}: forcibly disable metadata directory trees
-20a4bb362eb2b73ae0c477d4d90059cd039b3231 common/repair: patch up repair sb inode value complaints
-22130bbe38b59022be78279763223540f96cbfd8 xfs/206: update for metadata directory support
-1c9f3ea545426317edcc34faa4f8779163acc046 xfs/{050,144,153,299,330}: update quota reports to handle metadir trees
-6515675a941b02c549bcd1d3b10e5eb76bd6784b xfs/509: adjust inumbers accounting for metadata directories
-215411f56f4ef9fd056b746321db917f628cb930 xfs: create fuzz tests for metadata directories
-badf1a41abfd9a1036f103ef40eb34b09b86f1e3 xfs/163: bigger fs for metadir
-2258ffabb2f441df784e1bdfe44bfda827209644 xfs/122: disable this test for any codebase that knows about metadir
-34b1206de260b29db854627f8d1b567e3254683b common/populate: label newly created xfs filesystems
-c7e34d0e85df10504defb00b6e70b287c6648f46 scrub: race metapath online fsck with fsstress
-8be87eb2ad2217b447bd74ebb3b0f08dfa90f89a xfs: test metapath repairs
-911dcb4667c56ec3c535a259fcb3eccfa3d584fa xfs/019: reduce _fail calls in test
-758f1cee8877bd8f11b7e9fd816ae87ccb128cf6 xfs/019: test reserved file support
-bc892233c30147c0887d54889cee8b7b6078e99a xfs: test filesystem creation with xfs_protofile
-47af2b9cd14181655d4d519ba1f9f2f44102d4ae fstests: test mkfs.xfs protofiles with xattr support
-272f73b04effe28c8fc386601777c1d2189eb0e1 common/populate: refactor caching of metadumps to a helper
-39ced3a5ade28852b2a061b226ccdf6afbe832b9 common/{fuzzy,populate}: use _scratch_xfs_mdrestore
-3e6647019507585a6ca92cb4c00bb2eba1957c7e fuzzy: stress data and rt sections of xfs filesystems equally
-596dbc099f371145189fbdb5a0aec3ecc3a7efd7 fuzzy: run fsx on data and rt sections of xfs filesystems equally
-d747356eca2f78a9dfcf6bf8531eba46619423e7 common/ext4: reformat external logs during mdrestore operations
-92a2e7c6e08ae93efaa539af655aa10f746c886d common/populate: use metadump v2 format by default for fs metadata snapshots
-12ce398860d15232e133532bb44d74cd7097c324 punch-alternating: detect xfs realtime files with large allocation units
-265ebcf15239f11de95606ea2687b4aa9637080f xfs/206: update mkfs filtering for rt groups feature
-c3c5c34c6f30f27d1fb828511ae5996276acd120 common: pass the realtime device to xfs_db when possible
-fe50c474629ba27a42c287a5e993b0ffe823e028 xfs/185: update for rtgroups
-63624fab4aee35502d025e5eea386e65ba6bb709 xfs/449: update test to know about xfs_db -R
-b025145d9a96a7e0979f0ba46dd9c0f4418aa4ff xfs/271,xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
-44fdf216d95c07aa129330a0adb31aeead5cbea8 common/xfs: capture realtime devices during metadump/mdrestore
-34058229131b5fbe55a7d4bcf98da52694301f05 common/fuzzy: adapt the scrub stress tests to support rtgroups
-798ed5531c6c9518cf6e9bba823e613ab8cb4afa xfs: fix fuzz tests of rtgroups bitmap and summary files
-cebd1b62318ddae6544f174aad0fef7068b2706d xfs: update tests for quota files in the metadir
-be6577d3ee06d2803c82cc7b2b655b233d9b10c4 xfs: test persistent quota flags
-dd0ebc3bd519547aab7a7c5ddcc583b46568383b xfs: fix quota detection in fuzz tests
-ff82765085efe4952f829bfffd524ea97299c625 xfs: fix tests for persistent qflags
-15320637a298308a53935e0e765458b83c0f876d common: enable testing of realtime quota when supported
-c17f2f00bfa418a0a74c13e229356af74b17d4f4 xfs: fix quota tests to adapt to realtime quota
-7a38ce3989626fa31d48ae0f1061e1732e85d077 xfs: regression testing of quota on the realtime device
-ccea7893fbab78113c98df2f9443d7658ef95473 common: test statfs reporting with project quota
-fcd7870a3185b18aa286fc1593f6657877903c33 xfs: fix tests that try to access the realtime rmap inode
-bbe090d4c6e0ef574a9ecf49ac5fa5d9aa196f6a xfs/336: port to common/metadump
-9e9ee02e5295da1febd50dbf3444ddce4a39f82a fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
-4858f2d3a32369db38a6a4bb3985e7c18648ae4e xfs: race fsstress with realtime rmap btree scrub and repair
-8c46b2f68b05302bb9c790b31e1e0e8c32a10d12 xfs: fix various problems with fsmap detecting the data device
-0cc9170ab8577cc41beba1781f400e47cc044644 xfs/341: update test for rtgroup-based rmap
-cd3f52418fca1d6182ac70bdb8b1d1f418327782 xfs/3{43,32}: adapt tests for rt extent size greater than 1
-6d9a7890bba23515947b7381790c86a10a68041d xfs/291: use _scratch_mkfs_sized instead of opencoding the logic
-817f765e9e56e56a4d27e6f6166d9115c5a0c6bc xfs: skip tests if formatting small filesystem fails
-b4cae97490980889b1e6f7fccca104c79dc2a6ef xfs/443: use file allocation unit, not dbsize
-9157f88e14b9bfb93ee4d54ade8ec669efc8c9b7 populate: adjust rtrmap calculations for rtgroups
-8ea7b2ae8cb866151f6b57a965e5ae383713f9ea populate: check that we created a realtime rmap btree of the given height
-b07e6a8f0405e640f64821e40a6d79df06709ae7 fuzzy: create missing fuzz tests for rt rmap btrees
-e9e0a211a247a3a27950a9d761eeed3bb50cbb4c common/populate: create realtime refcount btree
-30851f0862575c642992d503a797830c6bc19549 xfs: create fuzz tests for the realtime refcount btree
-686e2972c8040b642d0869214043f7c4ecb8721e xfs/27[24]: adapt for checking files on the realtime volume
-dbc0d40594a5b9a3e3a27865375a04c5a13bfa03 xfs: race fsstress with realtime refcount btree scrub and repair
-9c3e8f0cbd42e02a56a82444d86296c233674f0b xfs: remove xfs/131 now that we allow reflink on realtime volumes
-2eddea095ccb9dbf214f85a8304fb21101c94e82 generic/331,xfs/240: support files that skip delayed allocation
-f96f21a89253600af0b9869e576b8084a651ce5a common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
-
---===============1120842549220992755==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c657a830dab2-90308efca65b.txt
-
-71b9fbc7dc60c9d57057d32a0a9d0e4014e11580 generic/476: fix fsstress process management
-71ba6462f79af02027b0940d010f68ab582e2b50 metadump: make non-local function variables more obvious
-9ac6e6551c36ae9078e35bfc4e71b20999a8aa4f metadump: fix cleanup for v1 metadump testing
-6daf90b77a497cdd8cdbb273e460466c4fd50360 generic/019: don't fail if fio crashes while shutting down
-8abb2fe36c8c2dce1c9fd146fd437f37fbaca243 fuzzy: do not set _FSSTRESS_PID when exercising fsx
-1f3725f9c4e85163325580000cfece6506164ff1 common/rc: revert recursive unmount in _clear_mount_stack
-0a77c9db4af8f84270cb2bf00675bfc2e2ea34fa common/dump: don't replace pids arbitrarily
-382f64ab64d0ee2ee3e99e2de617f8fc9789576d common/populate: correct the parent pointer name creation formulae
-a6d10c48a753f9fd5bffc6d6db7c06623ab53601 generic/759,760: fix MADV_COLLAPSE detection and inclusion
-62a6c738512e5a5560fa63fb599e042e33cfa2de generic/759,760: skip test if we can't set up a hugepage for IO
-b994081cca0d6899d149bbed5efb79233f46dd41 common/rc: create a wrapper for the su command
-09a0263fa1f10c575a23d9e232bafe8a33d00ec7 fuzzy: kill subprocesses with SIGPIPE, not SIGINT
-4c9814b08fe0bbf0002e7d25b33503fa24a13468 common/rc: hoist pkill to a helper function
-5a049b3acb18d3973640d0a6d7f5c519e8cf9b3e tools: add a Makefile
-a40000f7c5cc62dee902b341721e435a09cd4636 common: fix pkill by running test program in a separate session
-aa5626953c0e9e4f41a7e59a204d8238bfc443a9 check: run tests in a private pid/mount namespace
-10aa1570c280b1c2642d99616687aaa257923a55 check: deprecate using process sessions to isolate test instances
-2e0f4b85384039fa5d131ac27d92bf2059e2d283 common/rc: don't copy fsstress to $TEST_DIR
-318c61bfc97d58bb235846f0c038f328fb2a64fb unmount: resume logging of stdout and stderr for filtering
-c272d36ae2cbf09515a4383d2c1e4bfaf5f66e1b mkfs: don't hardcode log size
-e6ffb1248b3c8dad4a49d4117da5b167ad8b5e63 common/rc: return mount_ret in _try_scratch_mount
-aa4e8714b387942a2b58c0d660ed3dcc9a323cdb preamble: fix missing _kill_fsstress
-4467fd59324d3678b2cc145c6309ce8d3f024382 generic/650: revert SOAK DURATION changes
-c363f931277131b817d585594b07a3e45e995141 generic/032: fix pinned mount failure
-3bf5379f3c5a032aee200c8d97d0e082461933ea fuzzy: stop __stress_scrub_fsx_loop if fsx fails
-1bfba9f17d777007dc5345fdfa67bf4654ccb5d4 fuzzy: don't use readarray for xfsfind output
-edcd688315ba8e8f674a9f2eca3858825b7cadb6 fuzzy: always stop the scrub fsstress loop on error
-c86af3857d210e6450a86185e3ad705200144cc9 fuzzy: port fsx and fsstress loop to use --duration
-81b07f6f7ff1e8fbf34373d515c1c572801bba3a fix _require_scratch_duperemove ordering
-87c9bb1191e7d264c7276b29e3d873164a54e252 fsstress: fix a memory leak
-65b187eea39c66f0e7e95677a413c8669be1de01 fsx: fix leaked log file pointer
-501982639ede1089574f98a706367c8722a74cf1 misc: don't put nr_cpus into the fsstress -n argument
-186c55fc693ef0c5656b17f67906ccd2cd29b1ce common/config: add $here to FSSTRESS_PROG
-21dd6aa8add9b1ad5a6d6cf332c3af21711670d7 config: add FSX_PROG variable
-05a09df063e22a555930b077b9241a39b1895d3d build: initialize stack variables to zero by default
-0a327266fa41c76179744039a1fb0a3d2170e14f logwrites: warn if we don't think read after discard returns zeroes
-2d41bcb85d24bd0a5fc3f66535e8d42fc927cb74 logwrites: use BLKZEROOUT if it's available
-2864104b825b638aa79097d434754839bdc4a396 logwrites: only use BLKDISCARD if we know discard zeroes data
-1c9f4dace0b0b2fce38b44aa67aea4a472f2ac4c misc: drop the dangerous label from xfs_scrub fsstress tests
-64a59ec65090469ba089dd90e93728682d03eebc misc: rename the dangerous_repair group to fuzzers_repair
-7246c9b7af90e5cd27266da28ddb419a6097991d misc: rename the dangerous_online_repair group to fuzzers_online_repair
-1f7525c46184263be2372b856383a206e0610b5b misc: rename the dangerous_bothrepair group to fuzzers_bothrepair
-ad9d28f0b6408e9d4c2b741e386e8449ba273483 misc: rename the dangerous_norepair group to fuzzers_norepair
-25f41535a940ff42e4eeae1cc716733f909ac0d9 misc: fix misclassification of xfs_repair fuzz tests
-b4699f272dee01232ccd4db60085c101ebd48ad7 misc: fix misclassification of xfs_scrub + xfs_repair fuzz tests
-c8bd09c5f059cbf229c28f9241c4f1bd7cd692d9 misc: fix misclassification of verifier fuzz tests
-8e8a0fbd536f4a5e0ebe270c856be319a9e24fa0 misc: add xfs_scrub + xfs_repair fuzz tests to the scrub and repair groups
-b83d8c1733a62264932a34c660ddf310b3cd1e67 misc: remove the dangerous_scrub group
-5836b6b1672b0b795bc8adc581739419e83dd51e xfs/28[56],xfs/56[56]: add to the auto group
-8f3c6ef4f22d570b2e5b52814af3b98bc66f6bbd xfs/349: reclassify this test as not dangerous
-8687513be9f6f8f5f82c3cbac47f4e5ec8ca5567 various: fix finding metadata inode numbers when metadir is enabled
-d694b3b053dc3ad03dc64b138a3e5431abb7b18e xfs/{030,033,178}: forcibly disable metadata directory trees
-20a4bb362eb2b73ae0c477d4d90059cd039b3231 common/repair: patch up repair sb inode value complaints
-22130bbe38b59022be78279763223540f96cbfd8 xfs/206: update for metadata directory support
-1c9f3ea545426317edcc34faa4f8779163acc046 xfs/{050,144,153,299,330}: update quota reports to handle metadir trees
-6515675a941b02c549bcd1d3b10e5eb76bd6784b xfs/509: adjust inumbers accounting for metadata directories
-215411f56f4ef9fd056b746321db917f628cb930 xfs: create fuzz tests for metadata directories
-badf1a41abfd9a1036f103ef40eb34b09b86f1e3 xfs/163: bigger fs for metadir
-2258ffabb2f441df784e1bdfe44bfda827209644 xfs/122: disable this test for any codebase that knows about metadir
-34b1206de260b29db854627f8d1b567e3254683b common/populate: label newly created xfs filesystems
-c7e34d0e85df10504defb00b6e70b287c6648f46 scrub: race metapath online fsck with fsstress
-8be87eb2ad2217b447bd74ebb3b0f08dfa90f89a xfs: test metapath repairs
-911dcb4667c56ec3c535a259fcb3eccfa3d584fa xfs/019: reduce _fail calls in test
-758f1cee8877bd8f11b7e9fd816ae87ccb128cf6 xfs/019: test reserved file support
-bc892233c30147c0887d54889cee8b7b6078e99a xfs: test filesystem creation with xfs_protofile
-47af2b9cd14181655d4d519ba1f9f2f44102d4ae fstests: test mkfs.xfs protofiles with xattr support
-272f73b04effe28c8fc386601777c1d2189eb0e1 common/populate: refactor caching of metadumps to a helper
-39ced3a5ade28852b2a061b226ccdf6afbe832b9 common/{fuzzy,populate}: use _scratch_xfs_mdrestore
-3e6647019507585a6ca92cb4c00bb2eba1957c7e fuzzy: stress data and rt sections of xfs filesystems equally
-596dbc099f371145189fbdb5a0aec3ecc3a7efd7 fuzzy: run fsx on data and rt sections of xfs filesystems equally
-d747356eca2f78a9dfcf6bf8531eba46619423e7 common/ext4: reformat external logs during mdrestore operations
-92a2e7c6e08ae93efaa539af655aa10f746c886d common/populate: use metadump v2 format by default for fs metadata snapshots
-12ce398860d15232e133532bb44d74cd7097c324 punch-alternating: detect xfs realtime files with large allocation units
-265ebcf15239f11de95606ea2687b4aa9637080f xfs/206: update mkfs filtering for rt groups feature
-c3c5c34c6f30f27d1fb828511ae5996276acd120 common: pass the realtime device to xfs_db when possible
-fe50c474629ba27a42c287a5e993b0ffe823e028 xfs/185: update for rtgroups
-63624fab4aee35502d025e5eea386e65ba6bb709 xfs/449: update test to know about xfs_db -R
-b025145d9a96a7e0979f0ba46dd9c0f4418aa4ff xfs/271,xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
-44fdf216d95c07aa129330a0adb31aeead5cbea8 common/xfs: capture realtime devices during metadump/mdrestore
-34058229131b5fbe55a7d4bcf98da52694301f05 common/fuzzy: adapt the scrub stress tests to support rtgroups
-798ed5531c6c9518cf6e9bba823e613ab8cb4afa xfs: fix fuzz tests of rtgroups bitmap and summary files
-cebd1b62318ddae6544f174aad0fef7068b2706d xfs: update tests for quota files in the metadir
-be6577d3ee06d2803c82cc7b2b655b233d9b10c4 xfs: test persistent quota flags
-dd0ebc3bd519547aab7a7c5ddcc583b46568383b xfs: fix quota detection in fuzz tests
-ff82765085efe4952f829bfffd524ea97299c625 xfs: fix tests for persistent qflags
-15320637a298308a53935e0e765458b83c0f876d common: enable testing of realtime quota when supported
-c17f2f00bfa418a0a74c13e229356af74b17d4f4 xfs: fix quota tests to adapt to realtime quota
-7a38ce3989626fa31d48ae0f1061e1732e85d077 xfs: regression testing of quota on the realtime device
-ccea7893fbab78113c98df2f9443d7658ef95473 common: test statfs reporting with project quota
-fcd7870a3185b18aa286fc1593f6657877903c33 xfs: fix tests that try to access the realtime rmap inode
-bbe090d4c6e0ef574a9ecf49ac5fa5d9aa196f6a xfs/336: port to common/metadump
-9e9ee02e5295da1febd50dbf3444ddce4a39f82a fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
-4858f2d3a32369db38a6a4bb3985e7c18648ae4e xfs: race fsstress with realtime rmap btree scrub and repair
-8c46b2f68b05302bb9c790b31e1e0e8c32a10d12 xfs: fix various problems with fsmap detecting the data device
-0cc9170ab8577cc41beba1781f400e47cc044644 xfs/341: update test for rtgroup-based rmap
-cd3f52418fca1d6182ac70bdb8b1d1f418327782 xfs/3{43,32}: adapt tests for rt extent size greater than 1
-6d9a7890bba23515947b7381790c86a10a68041d xfs/291: use _scratch_mkfs_sized instead of opencoding the logic
-817f765e9e56e56a4d27e6f6166d9115c5a0c6bc xfs: skip tests if formatting small filesystem fails
-b4cae97490980889b1e6f7fccca104c79dc2a6ef xfs/443: use file allocation unit, not dbsize
-9157f88e14b9bfb93ee4d54ade8ec669efc8c9b7 populate: adjust rtrmap calculations for rtgroups
-8ea7b2ae8cb866151f6b57a965e5ae383713f9ea populate: check that we created a realtime rmap btree of the given height
-b07e6a8f0405e640f64821e40a6d79df06709ae7 fuzzy: create missing fuzz tests for rt rmap btrees
-e9e0a211a247a3a27950a9d761eeed3bb50cbb4c common/populate: create realtime refcount btree
-30851f0862575c642992d503a797830c6bc19549 xfs: create fuzz tests for the realtime refcount btree
-686e2972c8040b642d0869214043f7c4ecb8721e xfs/27[24]: adapt for checking files on the realtime volume
-dbc0d40594a5b9a3e3a27865375a04c5a13bfa03 xfs: race fsstress with realtime refcount btree scrub and repair
-9c3e8f0cbd42e02a56a82444d86296c233674f0b xfs: remove xfs/131 now that we allow reflink on realtime volumes
-2eddea095ccb9dbf214f85a8304fb21101c94e82 generic/331,xfs/240: support files that skip delayed allocation
-f96f21a89253600af0b9869e576b8084a651ce5a common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
-58d410795d1598d4144ed84473919e7af7737051 xfs: test filesystem recovery with rdump
-00878f4733cdbc72a795fd8f109bf3f207b8051a xfs: test upgrading old features
-601d58ed0ebc57ccd78babc56c705b6492332bf7 xfs/614: determine the sector size of the fs image by doing a test format
-c4b8f400a504683f35eb820b0f53511725a4a8db xfs/206: adapt for zoned realtime
-d12dc8e2317ed76210383e218de9408e9dcc105d xfs: make sure that CoW will write around when rextsize > 1
-bd2386c5254d6f564338f08c122f34c7a35b9d90 xfs: skip cowextsize hint fragmentation tests on realtime volumes
-daf3d9c6d1715fa7edd39c5807449bd5d0d687f3 misc: add more congruent oplen testing
-c39ac828e227759ed8766178bc3ab641318c35c8 xfs: test COWing entire rt extents
-90308efca65ba5f655d6977ee609c6054d46120e generic/303: avoid test failures on weird rt extent sizes
-
---===============1120842549220992755==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-01a5e5f94583-b07e6a8f0405.txt
-
-71b9fbc7dc60c9d57057d32a0a9d0e4014e11580 generic/476: fix fsstress process management
-71ba6462f79af02027b0940d010f68ab582e2b50 metadump: make non-local function variables more obvious
-9ac6e6551c36ae9078e35bfc4e71b20999a8aa4f metadump: fix cleanup for v1 metadump testing
-6daf90b77a497cdd8cdbb273e460466c4fd50360 generic/019: don't fail if fio crashes while shutting down
-8abb2fe36c8c2dce1c9fd146fd437f37fbaca243 fuzzy: do not set _FSSTRESS_PID when exercising fsx
-1f3725f9c4e85163325580000cfece6506164ff1 common/rc: revert recursive unmount in _clear_mount_stack
-0a77c9db4af8f84270cb2bf00675bfc2e2ea34fa common/dump: don't replace pids arbitrarily
-382f64ab64d0ee2ee3e99e2de617f8fc9789576d common/populate: correct the parent pointer name creation formulae
-a6d10c48a753f9fd5bffc6d6db7c06623ab53601 generic/759,760: fix MADV_COLLAPSE detection and inclusion
-62a6c738512e5a5560fa63fb599e042e33cfa2de generic/759,760: skip test if we can't set up a hugepage for IO
-b994081cca0d6899d149bbed5efb79233f46dd41 common/rc: create a wrapper for the su command
-09a0263fa1f10c575a23d9e232bafe8a33d00ec7 fuzzy: kill subprocesses with SIGPIPE, not SIGINT
-4c9814b08fe0bbf0002e7d25b33503fa24a13468 common/rc: hoist pkill to a helper function
-5a049b3acb18d3973640d0a6d7f5c519e8cf9b3e tools: add a Makefile
-a40000f7c5cc62dee902b341721e435a09cd4636 common: fix pkill by running test program in a separate session
-aa5626953c0e9e4f41a7e59a204d8238bfc443a9 check: run tests in a private pid/mount namespace
-10aa1570c280b1c2642d99616687aaa257923a55 check: deprecate using process sessions to isolate test instances
-2e0f4b85384039fa5d131ac27d92bf2059e2d283 common/rc: don't copy fsstress to $TEST_DIR
-318c61bfc97d58bb235846f0c038f328fb2a64fb unmount: resume logging of stdout and stderr for filtering
-c272d36ae2cbf09515a4383d2c1e4bfaf5f66e1b mkfs: don't hardcode log size
-e6ffb1248b3c8dad4a49d4117da5b167ad8b5e63 common/rc: return mount_ret in _try_scratch_mount
-aa4e8714b387942a2b58c0d660ed3dcc9a323cdb preamble: fix missing _kill_fsstress
-4467fd59324d3678b2cc145c6309ce8d3f024382 generic/650: revert SOAK DURATION changes
-c363f931277131b817d585594b07a3e45e995141 generic/032: fix pinned mount failure
-3bf5379f3c5a032aee200c8d97d0e082461933ea fuzzy: stop __stress_scrub_fsx_loop if fsx fails
-1bfba9f17d777007dc5345fdfa67bf4654ccb5d4 fuzzy: don't use readarray for xfsfind output
-edcd688315ba8e8f674a9f2eca3858825b7cadb6 fuzzy: always stop the scrub fsstress loop on error
-c86af3857d210e6450a86185e3ad705200144cc9 fuzzy: port fsx and fsstress loop to use --duration
-81b07f6f7ff1e8fbf34373d515c1c572801bba3a fix _require_scratch_duperemove ordering
-87c9bb1191e7d264c7276b29e3d873164a54e252 fsstress: fix a memory leak
-65b187eea39c66f0e7e95677a413c8669be1de01 fsx: fix leaked log file pointer
-501982639ede1089574f98a706367c8722a74cf1 misc: don't put nr_cpus into the fsstress -n argument
-186c55fc693ef0c5656b17f67906ccd2cd29b1ce common/config: add $here to FSSTRESS_PROG
-21dd6aa8add9b1ad5a6d6cf332c3af21711670d7 config: add FSX_PROG variable
-05a09df063e22a555930b077b9241a39b1895d3d build: initialize stack variables to zero by default
-0a327266fa41c76179744039a1fb0a3d2170e14f logwrites: warn if we don't think read after discard returns zeroes
-2d41bcb85d24bd0a5fc3f66535e8d42fc927cb74 logwrites: use BLKZEROOUT if it's available
-2864104b825b638aa79097d434754839bdc4a396 logwrites: only use BLKDISCARD if we know discard zeroes data
-1c9f4dace0b0b2fce38b44aa67aea4a472f2ac4c misc: drop the dangerous label from xfs_scrub fsstress tests
-64a59ec65090469ba089dd90e93728682d03eebc misc: rename the dangerous_repair group to fuzzers_repair
-7246c9b7af90e5cd27266da28ddb419a6097991d misc: rename the dangerous_online_repair group to fuzzers_online_repair
-1f7525c46184263be2372b856383a206e0610b5b misc: rename the dangerous_bothrepair group to fuzzers_bothrepair
-ad9d28f0b6408e9d4c2b741e386e8449ba273483 misc: rename the dangerous_norepair group to fuzzers_norepair
-25f41535a940ff42e4eeae1cc716733f909ac0d9 misc: fix misclassification of xfs_repair fuzz tests
-b4699f272dee01232ccd4db60085c101ebd48ad7 misc: fix misclassification of xfs_scrub + xfs_repair fuzz tests
-c8bd09c5f059cbf229c28f9241c4f1bd7cd692d9 misc: fix misclassification of verifier fuzz tests
-8e8a0fbd536f4a5e0ebe270c856be319a9e24fa0 misc: add xfs_scrub + xfs_repair fuzz tests to the scrub and repair groups
-b83d8c1733a62264932a34c660ddf310b3cd1e67 misc: remove the dangerous_scrub group
-5836b6b1672b0b795bc8adc581739419e83dd51e xfs/28[56],xfs/56[56]: add to the auto group
-8f3c6ef4f22d570b2e5b52814af3b98bc66f6bbd xfs/349: reclassify this test as not dangerous
-8687513be9f6f8f5f82c3cbac47f4e5ec8ca5567 various: fix finding metadata inode numbers when metadir is enabled
-d694b3b053dc3ad03dc64b138a3e5431abb7b18e xfs/{030,033,178}: forcibly disable metadata directory trees
-20a4bb362eb2b73ae0c477d4d90059cd039b3231 common/repair: patch up repair sb inode value complaints
-22130bbe38b59022be78279763223540f96cbfd8 xfs/206: update for metadata directory support
-1c9f3ea545426317edcc34faa4f8779163acc046 xfs/{050,144,153,299,330}: update quota reports to handle metadir trees
-6515675a941b02c549bcd1d3b10e5eb76bd6784b xfs/509: adjust inumbers accounting for metadata directories
-215411f56f4ef9fd056b746321db917f628cb930 xfs: create fuzz tests for metadata directories
-badf1a41abfd9a1036f103ef40eb34b09b86f1e3 xfs/163: bigger fs for metadir
-2258ffabb2f441df784e1bdfe44bfda827209644 xfs/122: disable this test for any codebase that knows about metadir
-34b1206de260b29db854627f8d1b567e3254683b common/populate: label newly created xfs filesystems
-c7e34d0e85df10504defb00b6e70b287c6648f46 scrub: race metapath online fsck with fsstress
-8be87eb2ad2217b447bd74ebb3b0f08dfa90f89a xfs: test metapath repairs
-911dcb4667c56ec3c535a259fcb3eccfa3d584fa xfs/019: reduce _fail calls in test
-758f1cee8877bd8f11b7e9fd816ae87ccb128cf6 xfs/019: test reserved file support
-bc892233c30147c0887d54889cee8b7b6078e99a xfs: test filesystem creation with xfs_protofile
-47af2b9cd14181655d4d519ba1f9f2f44102d4ae fstests: test mkfs.xfs protofiles with xattr support
-272f73b04effe28c8fc386601777c1d2189eb0e1 common/populate: refactor caching of metadumps to a helper
-39ced3a5ade28852b2a061b226ccdf6afbe832b9 common/{fuzzy,populate}: use _scratch_xfs_mdrestore
-3e6647019507585a6ca92cb4c00bb2eba1957c7e fuzzy: stress data and rt sections of xfs filesystems equally
-596dbc099f371145189fbdb5a0aec3ecc3a7efd7 fuzzy: run fsx on data and rt sections of xfs filesystems equally
-d747356eca2f78a9dfcf6bf8531eba46619423e7 common/ext4: reformat external logs during mdrestore operations
-92a2e7c6e08ae93efaa539af655aa10f746c886d common/populate: use metadump v2 format by default for fs metadata snapshots
-12ce398860d15232e133532bb44d74cd7097c324 punch-alternating: detect xfs realtime files with large allocation units
-265ebcf15239f11de95606ea2687b4aa9637080f xfs/206: update mkfs filtering for rt groups feature
-c3c5c34c6f30f27d1fb828511ae5996276acd120 common: pass the realtime device to xfs_db when possible
-fe50c474629ba27a42c287a5e993b0ffe823e028 xfs/185: update for rtgroups
-63624fab4aee35502d025e5eea386e65ba6bb709 xfs/449: update test to know about xfs_db -R
-b025145d9a96a7e0979f0ba46dd9c0f4418aa4ff xfs/271,xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
-44fdf216d95c07aa129330a0adb31aeead5cbea8 common/xfs: capture realtime devices during metadump/mdrestore
-34058229131b5fbe55a7d4bcf98da52694301f05 common/fuzzy: adapt the scrub stress tests to support rtgroups
-798ed5531c6c9518cf6e9bba823e613ab8cb4afa xfs: fix fuzz tests of rtgroups bitmap and summary files
-cebd1b62318ddae6544f174aad0fef7068b2706d xfs: update tests for quota files in the metadir
-be6577d3ee06d2803c82cc7b2b655b233d9b10c4 xfs: test persistent quota flags
-dd0ebc3bd519547aab7a7c5ddcc583b46568383b xfs: fix quota detection in fuzz tests
-ff82765085efe4952f829bfffd524ea97299c625 xfs: fix tests for persistent qflags
-15320637a298308a53935e0e765458b83c0f876d common: enable testing of realtime quota when supported
-c17f2f00bfa418a0a74c13e229356af74b17d4f4 xfs: fix quota tests to adapt to realtime quota
-7a38ce3989626fa31d48ae0f1061e1732e85d077 xfs: regression testing of quota on the realtime device
-ccea7893fbab78113c98df2f9443d7658ef95473 common: test statfs reporting with project quota
-fcd7870a3185b18aa286fc1593f6657877903c33 xfs: fix tests that try to access the realtime rmap inode
-bbe090d4c6e0ef574a9ecf49ac5fa5d9aa196f6a xfs/336: port to common/metadump
-9e9ee02e5295da1febd50dbf3444ddce4a39f82a fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
-4858f2d3a32369db38a6a4bb3985e7c18648ae4e xfs: race fsstress with realtime rmap btree scrub and repair
-8c46b2f68b05302bb9c790b31e1e0e8c32a10d12 xfs: fix various problems with fsmap detecting the data device
-0cc9170ab8577cc41beba1781f400e47cc044644 xfs/341: update test for rtgroup-based rmap
-cd3f52418fca1d6182ac70bdb8b1d1f418327782 xfs/3{43,32}: adapt tests for rt extent size greater than 1
-6d9a7890bba23515947b7381790c86a10a68041d xfs/291: use _scratch_mkfs_sized instead of opencoding the logic
-817f765e9e56e56a4d27e6f6166d9115c5a0c6bc xfs: skip tests if formatting small filesystem fails
-b4cae97490980889b1e6f7fccca104c79dc2a6ef xfs/443: use file allocation unit, not dbsize
-9157f88e14b9bfb93ee4d54ade8ec669efc8c9b7 populate: adjust rtrmap calculations for rtgroups
-8ea7b2ae8cb866151f6b57a965e5ae383713f9ea populate: check that we created a realtime rmap btree of the given height
-b07e6a8f0405e640f64821e40a6d79df06709ae7 fuzzy: create missing fuzz tests for rt rmap btrees
-
---===============1120842549220992755==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6664108f3b91-1f2ee851bbce.txt
-
-71b9fbc7dc60c9d57057d32a0a9d0e4014e11580 generic/476: fix fsstress process management
-71ba6462f79af02027b0940d010f68ab582e2b50 metadump: make non-local function variables more obvious
-9ac6e6551c36ae9078e35bfc4e71b20999a8aa4f metadump: fix cleanup for v1 metadump testing
-6daf90b77a497cdd8cdbb273e460466c4fd50360 generic/019: don't fail if fio crashes while shutting down
-8abb2fe36c8c2dce1c9fd146fd437f37fbaca243 fuzzy: do not set _FSSTRESS_PID when exercising fsx
-1f3725f9c4e85163325580000cfece6506164ff1 common/rc: revert recursive unmount in _clear_mount_stack
-0a77c9db4af8f84270cb2bf00675bfc2e2ea34fa common/dump: don't replace pids arbitrarily
-382f64ab64d0ee2ee3e99e2de617f8fc9789576d common/populate: correct the parent pointer name creation formulae
-a6d10c48a753f9fd5bffc6d6db7c06623ab53601 generic/759,760: fix MADV_COLLAPSE detection and inclusion
-62a6c738512e5a5560fa63fb599e042e33cfa2de generic/759,760: skip test if we can't set up a hugepage for IO
-b994081cca0d6899d149bbed5efb79233f46dd41 common/rc: create a wrapper for the su command
-09a0263fa1f10c575a23d9e232bafe8a33d00ec7 fuzzy: kill subprocesses with SIGPIPE, not SIGINT
-4c9814b08fe0bbf0002e7d25b33503fa24a13468 common/rc: hoist pkill to a helper function
-5a049b3acb18d3973640d0a6d7f5c519e8cf9b3e tools: add a Makefile
-a40000f7c5cc62dee902b341721e435a09cd4636 common: fix pkill by running test program in a separate session
-aa5626953c0e9e4f41a7e59a204d8238bfc443a9 check: run tests in a private pid/mount namespace
-10aa1570c280b1c2642d99616687aaa257923a55 check: deprecate using process sessions to isolate test instances
-2e0f4b85384039fa5d131ac27d92bf2059e2d283 common/rc: don't copy fsstress to $TEST_DIR
-318c61bfc97d58bb235846f0c038f328fb2a64fb unmount: resume logging of stdout and stderr for filtering
-c272d36ae2cbf09515a4383d2c1e4bfaf5f66e1b mkfs: don't hardcode log size
-e6ffb1248b3c8dad4a49d4117da5b167ad8b5e63 common/rc: return mount_ret in _try_scratch_mount
-aa4e8714b387942a2b58c0d660ed3dcc9a323cdb preamble: fix missing _kill_fsstress
-4467fd59324d3678b2cc145c6309ce8d3f024382 generic/650: revert SOAK DURATION changes
-c363f931277131b817d585594b07a3e45e995141 generic/032: fix pinned mount failure
-3bf5379f3c5a032aee200c8d97d0e082461933ea fuzzy: stop __stress_scrub_fsx_loop if fsx fails
-1bfba9f17d777007dc5345fdfa67bf4654ccb5d4 fuzzy: don't use readarray for xfsfind output
-edcd688315ba8e8f674a9f2eca3858825b7cadb6 fuzzy: always stop the scrub fsstress loop on error
-c86af3857d210e6450a86185e3ad705200144cc9 fuzzy: port fsx and fsstress loop to use --duration
-81b07f6f7ff1e8fbf34373d515c1c572801bba3a fix _require_scratch_duperemove ordering
-87c9bb1191e7d264c7276b29e3d873164a54e252 fsstress: fix a memory leak
-65b187eea39c66f0e7e95677a413c8669be1de01 fsx: fix leaked log file pointer
-501982639ede1089574f98a706367c8722a74cf1 misc: don't put nr_cpus into the fsstress -n argument
-186c55fc693ef0c5656b17f67906ccd2cd29b1ce common/config: add $here to FSSTRESS_PROG
-21dd6aa8add9b1ad5a6d6cf332c3af21711670d7 config: add FSX_PROG variable
-05a09df063e22a555930b077b9241a39b1895d3d build: initialize stack variables to zero by default
-0a327266fa41c76179744039a1fb0a3d2170e14f logwrites: warn if we don't think read after discard returns zeroes
-2d41bcb85d24bd0a5fc3f66535e8d42fc927cb74 logwrites: use BLKZEROOUT if it's available
-2864104b825b638aa79097d434754839bdc4a396 logwrites: only use BLKDISCARD if we know discard zeroes data
-1c9f4dace0b0b2fce38b44aa67aea4a472f2ac4c misc: drop the dangerous label from xfs_scrub fsstress tests
-64a59ec65090469ba089dd90e93728682d03eebc misc: rename the dangerous_repair group to fuzzers_repair
-7246c9b7af90e5cd27266da28ddb419a6097991d misc: rename the dangerous_online_repair group to fuzzers_online_repair
-1f7525c46184263be2372b856383a206e0610b5b misc: rename the dangerous_bothrepair group to fuzzers_bothrepair
-ad9d28f0b6408e9d4c2b741e386e8449ba273483 misc: rename the dangerous_norepair group to fuzzers_norepair
-25f41535a940ff42e4eeae1cc716733f909ac0d9 misc: fix misclassification of xfs_repair fuzz tests
-b4699f272dee01232ccd4db60085c101ebd48ad7 misc: fix misclassification of xfs_scrub + xfs_repair fuzz tests
-c8bd09c5f059cbf229c28f9241c4f1bd7cd692d9 misc: fix misclassification of verifier fuzz tests
-8e8a0fbd536f4a5e0ebe270c856be319a9e24fa0 misc: add xfs_scrub + xfs_repair fuzz tests to the scrub and repair groups
-b83d8c1733a62264932a34c660ddf310b3cd1e67 misc: remove the dangerous_scrub group
-5836b6b1672b0b795bc8adc581739419e83dd51e xfs/28[56],xfs/56[56]: add to the auto group
-8f3c6ef4f22d570b2e5b52814af3b98bc66f6bbd xfs/349: reclassify this test as not dangerous
-8687513be9f6f8f5f82c3cbac47f4e5ec8ca5567 various: fix finding metadata inode numbers when metadir is enabled
-d694b3b053dc3ad03dc64b138a3e5431abb7b18e xfs/{030,033,178}: forcibly disable metadata directory trees
-20a4bb362eb2b73ae0c477d4d90059cd039b3231 common/repair: patch up repair sb inode value complaints
-22130bbe38b59022be78279763223540f96cbfd8 xfs/206: update for metadata directory support
-1c9f3ea545426317edcc34faa4f8779163acc046 xfs/{050,144,153,299,330}: update quota reports to handle metadir trees
-6515675a941b02c549bcd1d3b10e5eb76bd6784b xfs/509: adjust inumbers accounting for metadata directories
-215411f56f4ef9fd056b746321db917f628cb930 xfs: create fuzz tests for metadata directories
-badf1a41abfd9a1036f103ef40eb34b09b86f1e3 xfs/163: bigger fs for metadir
-2258ffabb2f441df784e1bdfe44bfda827209644 xfs/122: disable this test for any codebase that knows about metadir
-34b1206de260b29db854627f8d1b567e3254683b common/populate: label newly created xfs filesystems
-c7e34d0e85df10504defb00b6e70b287c6648f46 scrub: race metapath online fsck with fsstress
-8be87eb2ad2217b447bd74ebb3b0f08dfa90f89a xfs: test metapath repairs
-911dcb4667c56ec3c535a259fcb3eccfa3d584fa xfs/019: reduce _fail calls in test
-758f1cee8877bd8f11b7e9fd816ae87ccb128cf6 xfs/019: test reserved file support
-bc892233c30147c0887d54889cee8b7b6078e99a xfs: test filesystem creation with xfs_protofile
-47af2b9cd14181655d4d519ba1f9f2f44102d4ae fstests: test mkfs.xfs protofiles with xattr support
-272f73b04effe28c8fc386601777c1d2189eb0e1 common/populate: refactor caching of metadumps to a helper
-39ced3a5ade28852b2a061b226ccdf6afbe832b9 common/{fuzzy,populate}: use _scratch_xfs_mdrestore
-3e6647019507585a6ca92cb4c00bb2eba1957c7e fuzzy: stress data and rt sections of xfs filesystems equally
-596dbc099f371145189fbdb5a0aec3ecc3a7efd7 fuzzy: run fsx on data and rt sections of xfs filesystems equally
-d747356eca2f78a9dfcf6bf8531eba46619423e7 common/ext4: reformat external logs during mdrestore operations
-92a2e7c6e08ae93efaa539af655aa10f746c886d common/populate: use metadump v2 format by default for fs metadata snapshots
-12ce398860d15232e133532bb44d74cd7097c324 punch-alternating: detect xfs realtime files with large allocation units
-265ebcf15239f11de95606ea2687b4aa9637080f xfs/206: update mkfs filtering for rt groups feature
-c3c5c34c6f30f27d1fb828511ae5996276acd120 common: pass the realtime device to xfs_db when possible
-fe50c474629ba27a42c287a5e993b0ffe823e028 xfs/185: update for rtgroups
-63624fab4aee35502d025e5eea386e65ba6bb709 xfs/449: update test to know about xfs_db -R
-b025145d9a96a7e0979f0ba46dd9c0f4418aa4ff xfs/271,xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
-44fdf216d95c07aa129330a0adb31aeead5cbea8 common/xfs: capture realtime devices during metadump/mdrestore
-34058229131b5fbe55a7d4bcf98da52694301f05 common/fuzzy: adapt the scrub stress tests to support rtgroups
-798ed5531c6c9518cf6e9bba823e613ab8cb4afa xfs: fix fuzz tests of rtgroups bitmap and summary files
-cebd1b62318ddae6544f174aad0fef7068b2706d xfs: update tests for quota files in the metadir
-be6577d3ee06d2803c82cc7b2b655b233d9b10c4 xfs: test persistent quota flags
-dd0ebc3bd519547aab7a7c5ddcc583b46568383b xfs: fix quota detection in fuzz tests
-ff82765085efe4952f829bfffd524ea97299c625 xfs: fix tests for persistent qflags
-15320637a298308a53935e0e765458b83c0f876d common: enable testing of realtime quota when supported
-c17f2f00bfa418a0a74c13e229356af74b17d4f4 xfs: fix quota tests to adapt to realtime quota
-7a38ce3989626fa31d48ae0f1061e1732e85d077 xfs: regression testing of quota on the realtime device
-ccea7893fbab78113c98df2f9443d7658ef95473 common: test statfs reporting with project quota
-fcd7870a3185b18aa286fc1593f6657877903c33 xfs: fix tests that try to access the realtime rmap inode
-bbe090d4c6e0ef574a9ecf49ac5fa5d9aa196f6a xfs/336: port to common/metadump
-9e9ee02e5295da1febd50dbf3444ddce4a39f82a fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
-4858f2d3a32369db38a6a4bb3985e7c18648ae4e xfs: race fsstress with realtime rmap btree scrub and repair
-8c46b2f68b05302bb9c790b31e1e0e8c32a10d12 xfs: fix various problems with fsmap detecting the data device
-0cc9170ab8577cc41beba1781f400e47cc044644 xfs/341: update test for rtgroup-based rmap
-cd3f52418fca1d6182ac70bdb8b1d1f418327782 xfs/3{43,32}: adapt tests for rt extent size greater than 1
-6d9a7890bba23515947b7381790c86a10a68041d xfs/291: use _scratch_mkfs_sized instead of opencoding the logic
-817f765e9e56e56a4d27e6f6166d9115c5a0c6bc xfs: skip tests if formatting small filesystem fails
-b4cae97490980889b1e6f7fccca104c79dc2a6ef xfs/443: use file allocation unit, not dbsize
-9157f88e14b9bfb93ee4d54ade8ec669efc8c9b7 populate: adjust rtrmap calculations for rtgroups
-8ea7b2ae8cb866151f6b57a965e5ae383713f9ea populate: check that we created a realtime rmap btree of the given height
-b07e6a8f0405e640f64821e40a6d79df06709ae7 fuzzy: create missing fuzz tests for rt rmap btrees
-e9e0a211a247a3a27950a9d761eeed3bb50cbb4c common/populate: create realtime refcount btree
-30851f0862575c642992d503a797830c6bc19549 xfs: create fuzz tests for the realtime refcount btree
-686e2972c8040b642d0869214043f7c4ecb8721e xfs/27[24]: adapt for checking files on the realtime volume
-dbc0d40594a5b9a3e3a27865375a04c5a13bfa03 xfs: race fsstress with realtime refcount btree scrub and repair
-9c3e8f0cbd42e02a56a82444d86296c233674f0b xfs: remove xfs/131 now that we allow reflink on realtime volumes
-2eddea095ccb9dbf214f85a8304fb21101c94e82 generic/331,xfs/240: support files that skip delayed allocation
-f96f21a89253600af0b9869e576b8084a651ce5a common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
-58d410795d1598d4144ed84473919e7af7737051 xfs: test filesystem recovery with rdump
-00878f4733cdbc72a795fd8f109bf3f207b8051a xfs: test upgrading old features
-601d58ed0ebc57ccd78babc56c705b6492332bf7 xfs/614: determine the sector size of the fs image by doing a test format
-c4b8f400a504683f35eb820b0f53511725a4a8db xfs/206: adapt for zoned realtime
-d12dc8e2317ed76210383e218de9408e9dcc105d xfs: make sure that CoW will write around when rextsize > 1
-bd2386c5254d6f564338f08c122f34c7a35b9d90 xfs: skip cowextsize hint fragmentation tests on realtime volumes
-daf3d9c6d1715fa7edd39c5807449bd5d0d687f3 misc: add more congruent oplen testing
-c39ac828e227759ed8766178bc3ab641318c35c8 xfs: test COWing entire rt extents
-90308efca65ba5f655d6977ee609c6054d46120e generic/303: avoid test failures on weird rt extent sizes
-1f2ee851bbce012267591b1ce332398bdb6c1d1a xfs: test output of new FSREFCOUNTS ioctl
-
---===============1120842549220992755==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3a3ca27fc61b-917ba5b60a74.txt
-
-71b9fbc7dc60c9d57057d32a0a9d0e4014e11580 generic/476: fix fsstress process management
-71ba6462f79af02027b0940d010f68ab582e2b50 metadump: make non-local function variables more obvious
-9ac6e6551c36ae9078e35bfc4e71b20999a8aa4f metadump: fix cleanup for v1 metadump testing
-6daf90b77a497cdd8cdbb273e460466c4fd50360 generic/019: don't fail if fio crashes while shutting down
-8abb2fe36c8c2dce1c9fd146fd437f37fbaca243 fuzzy: do not set _FSSTRESS_PID when exercising fsx
-1f3725f9c4e85163325580000cfece6506164ff1 common/rc: revert recursive unmount in _clear_mount_stack
-0a77c9db4af8f84270cb2bf00675bfc2e2ea34fa common/dump: don't replace pids arbitrarily
-382f64ab64d0ee2ee3e99e2de617f8fc9789576d common/populate: correct the parent pointer name creation formulae
-a6d10c48a753f9fd5bffc6d6db7c06623ab53601 generic/759,760: fix MADV_COLLAPSE detection and inclusion
-62a6c738512e5a5560fa63fb599e042e33cfa2de generic/759,760: skip test if we can't set up a hugepage for IO
-b994081cca0d6899d149bbed5efb79233f46dd41 common/rc: create a wrapper for the su command
-09a0263fa1f10c575a23d9e232bafe8a33d00ec7 fuzzy: kill subprocesses with SIGPIPE, not SIGINT
-4c9814b08fe0bbf0002e7d25b33503fa24a13468 common/rc: hoist pkill to a helper function
-5a049b3acb18d3973640d0a6d7f5c519e8cf9b3e tools: add a Makefile
-a40000f7c5cc62dee902b341721e435a09cd4636 common: fix pkill by running test program in a separate session
-aa5626953c0e9e4f41a7e59a204d8238bfc443a9 check: run tests in a private pid/mount namespace
-10aa1570c280b1c2642d99616687aaa257923a55 check: deprecate using process sessions to isolate test instances
-2e0f4b85384039fa5d131ac27d92bf2059e2d283 common/rc: don't copy fsstress to $TEST_DIR
-318c61bfc97d58bb235846f0c038f328fb2a64fb unmount: resume logging of stdout and stderr for filtering
-c272d36ae2cbf09515a4383d2c1e4bfaf5f66e1b mkfs: don't hardcode log size
-e6ffb1248b3c8dad4a49d4117da5b167ad8b5e63 common/rc: return mount_ret in _try_scratch_mount
-aa4e8714b387942a2b58c0d660ed3dcc9a323cdb preamble: fix missing _kill_fsstress
-4467fd59324d3678b2cc145c6309ce8d3f024382 generic/650: revert SOAK DURATION changes
-c363f931277131b817d585594b07a3e45e995141 generic/032: fix pinned mount failure
-3bf5379f3c5a032aee200c8d97d0e082461933ea fuzzy: stop __stress_scrub_fsx_loop if fsx fails
-1bfba9f17d777007dc5345fdfa67bf4654ccb5d4 fuzzy: don't use readarray for xfsfind output
-edcd688315ba8e8f674a9f2eca3858825b7cadb6 fuzzy: always stop the scrub fsstress loop on error
-c86af3857d210e6450a86185e3ad705200144cc9 fuzzy: port fsx and fsstress loop to use --duration
-81b07f6f7ff1e8fbf34373d515c1c572801bba3a fix _require_scratch_duperemove ordering
-87c9bb1191e7d264c7276b29e3d873164a54e252 fsstress: fix a memory leak
-65b187eea39c66f0e7e95677a413c8669be1de01 fsx: fix leaked log file pointer
-501982639ede1089574f98a706367c8722a74cf1 misc: don't put nr_cpus into the fsstress -n argument
-186c55fc693ef0c5656b17f67906ccd2cd29b1ce common/config: add $here to FSSTRESS_PROG
-21dd6aa8add9b1ad5a6d6cf332c3af21711670d7 config: add FSX_PROG variable
-05a09df063e22a555930b077b9241a39b1895d3d build: initialize stack variables to zero by default
-0a327266fa41c76179744039a1fb0a3d2170e14f logwrites: warn if we don't think read after discard returns zeroes
-2d41bcb85d24bd0a5fc3f66535e8d42fc927cb74 logwrites: use BLKZEROOUT if it's available
-2864104b825b638aa79097d434754839bdc4a396 logwrites: only use BLKDISCARD if we know discard zeroes data
-1c9f4dace0b0b2fce38b44aa67aea4a472f2ac4c misc: drop the dangerous label from xfs_scrub fsstress tests
-64a59ec65090469ba089dd90e93728682d03eebc misc: rename the dangerous_repair group to fuzzers_repair
-7246c9b7af90e5cd27266da28ddb419a6097991d misc: rename the dangerous_online_repair group to fuzzers_online_repair
-1f7525c46184263be2372b856383a206e0610b5b misc: rename the dangerous_bothrepair group to fuzzers_bothrepair
-ad9d28f0b6408e9d4c2b741e386e8449ba273483 misc: rename the dangerous_norepair group to fuzzers_norepair
-25f41535a940ff42e4eeae1cc716733f909ac0d9 misc: fix misclassification of xfs_repair fuzz tests
-b4699f272dee01232ccd4db60085c101ebd48ad7 misc: fix misclassification of xfs_scrub + xfs_repair fuzz tests
-c8bd09c5f059cbf229c28f9241c4f1bd7cd692d9 misc: fix misclassification of verifier fuzz tests
-8e8a0fbd536f4a5e0ebe270c856be319a9e24fa0 misc: add xfs_scrub + xfs_repair fuzz tests to the scrub and repair groups
-b83d8c1733a62264932a34c660ddf310b3cd1e67 misc: remove the dangerous_scrub group
-5836b6b1672b0b795bc8adc581739419e83dd51e xfs/28[56],xfs/56[56]: add to the auto group
-8f3c6ef4f22d570b2e5b52814af3b98bc66f6bbd xfs/349: reclassify this test as not dangerous
-8687513be9f6f8f5f82c3cbac47f4e5ec8ca5567 various: fix finding metadata inode numbers when metadir is enabled
-d694b3b053dc3ad03dc64b138a3e5431abb7b18e xfs/{030,033,178}: forcibly disable metadata directory trees
-20a4bb362eb2b73ae0c477d4d90059cd039b3231 common/repair: patch up repair sb inode value complaints
-22130bbe38b59022be78279763223540f96cbfd8 xfs/206: update for metadata directory support
-1c9f3ea545426317edcc34faa4f8779163acc046 xfs/{050,144,153,299,330}: update quota reports to handle metadir trees
-6515675a941b02c549bcd1d3b10e5eb76bd6784b xfs/509: adjust inumbers accounting for metadata directories
-215411f56f4ef9fd056b746321db917f628cb930 xfs: create fuzz tests for metadata directories
-badf1a41abfd9a1036f103ef40eb34b09b86f1e3 xfs/163: bigger fs for metadir
-2258ffabb2f441df784e1bdfe44bfda827209644 xfs/122: disable this test for any codebase that knows about metadir
-34b1206de260b29db854627f8d1b567e3254683b common/populate: label newly created xfs filesystems
-c7e34d0e85df10504defb00b6e70b287c6648f46 scrub: race metapath online fsck with fsstress
-8be87eb2ad2217b447bd74ebb3b0f08dfa90f89a xfs: test metapath repairs
-911dcb4667c56ec3c535a259fcb3eccfa3d584fa xfs/019: reduce _fail calls in test
-758f1cee8877bd8f11b7e9fd816ae87ccb128cf6 xfs/019: test reserved file support
-bc892233c30147c0887d54889cee8b7b6078e99a xfs: test filesystem creation with xfs_protofile
-47af2b9cd14181655d4d519ba1f9f2f44102d4ae fstests: test mkfs.xfs protofiles with xattr support
-272f73b04effe28c8fc386601777c1d2189eb0e1 common/populate: refactor caching of metadumps to a helper
-39ced3a5ade28852b2a061b226ccdf6afbe832b9 common/{fuzzy,populate}: use _scratch_xfs_mdrestore
-3e6647019507585a6ca92cb4c00bb2eba1957c7e fuzzy: stress data and rt sections of xfs filesystems equally
-596dbc099f371145189fbdb5a0aec3ecc3a7efd7 fuzzy: run fsx on data and rt sections of xfs filesystems equally
-d747356eca2f78a9dfcf6bf8531eba46619423e7 common/ext4: reformat external logs during mdrestore operations
-92a2e7c6e08ae93efaa539af655aa10f746c886d common/populate: use metadump v2 format by default for fs metadata snapshots
-12ce398860d15232e133532bb44d74cd7097c324 punch-alternating: detect xfs realtime files with large allocation units
-265ebcf15239f11de95606ea2687b4aa9637080f xfs/206: update mkfs filtering for rt groups feature
-c3c5c34c6f30f27d1fb828511ae5996276acd120 common: pass the realtime device to xfs_db when possible
-fe50c474629ba27a42c287a5e993b0ffe823e028 xfs/185: update for rtgroups
-63624fab4aee35502d025e5eea386e65ba6bb709 xfs/449: update test to know about xfs_db -R
-b025145d9a96a7e0979f0ba46dd9c0f4418aa4ff xfs/271,xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
-44fdf216d95c07aa129330a0adb31aeead5cbea8 common/xfs: capture realtime devices during metadump/mdrestore
-34058229131b5fbe55a7d4bcf98da52694301f05 common/fuzzy: adapt the scrub stress tests to support rtgroups
-798ed5531c6c9518cf6e9bba823e613ab8cb4afa xfs: fix fuzz tests of rtgroups bitmap and summary files
-cebd1b62318ddae6544f174aad0fef7068b2706d xfs: update tests for quota files in the metadir
-be6577d3ee06d2803c82cc7b2b655b233d9b10c4 xfs: test persistent quota flags
-dd0ebc3bd519547aab7a7c5ddcc583b46568383b xfs: fix quota detection in fuzz tests
-ff82765085efe4952f829bfffd524ea97299c625 xfs: fix tests for persistent qflags
-15320637a298308a53935e0e765458b83c0f876d common: enable testing of realtime quota when supported
-c17f2f00bfa418a0a74c13e229356af74b17d4f4 xfs: fix quota tests to adapt to realtime quota
-7a38ce3989626fa31d48ae0f1061e1732e85d077 xfs: regression testing of quota on the realtime device
-ccea7893fbab78113c98df2f9443d7658ef95473 common: test statfs reporting with project quota
-fcd7870a3185b18aa286fc1593f6657877903c33 xfs: fix tests that try to access the realtime rmap inode
-bbe090d4c6e0ef574a9ecf49ac5fa5d9aa196f6a xfs/336: port to common/metadump
-9e9ee02e5295da1febd50dbf3444ddce4a39f82a fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
-4858f2d3a32369db38a6a4bb3985e7c18648ae4e xfs: race fsstress with realtime rmap btree scrub and repair
-8c46b2f68b05302bb9c790b31e1e0e8c32a10d12 xfs: fix various problems with fsmap detecting the data device
-0cc9170ab8577cc41beba1781f400e47cc044644 xfs/341: update test for rtgroup-based rmap
-cd3f52418fca1d6182ac70bdb8b1d1f418327782 xfs/3{43,32}: adapt tests for rt extent size greater than 1
-6d9a7890bba23515947b7381790c86a10a68041d xfs/291: use _scratch_mkfs_sized instead of opencoding the logic
-817f765e9e56e56a4d27e6f6166d9115c5a0c6bc xfs: skip tests if formatting small filesystem fails
-b4cae97490980889b1e6f7fccca104c79dc2a6ef xfs/443: use file allocation unit, not dbsize
-9157f88e14b9bfb93ee4d54ade8ec669efc8c9b7 populate: adjust rtrmap calculations for rtgroups
-8ea7b2ae8cb866151f6b57a965e5ae383713f9ea populate: check that we created a realtime rmap btree of the given height
-b07e6a8f0405e640f64821e40a6d79df06709ae7 fuzzy: create missing fuzz tests for rt rmap btrees
-e9e0a211a247a3a27950a9d761eeed3bb50cbb4c common/populate: create realtime refcount btree
-30851f0862575c642992d503a797830c6bc19549 xfs: create fuzz tests for the realtime refcount btree
-686e2972c8040b642d0869214043f7c4ecb8721e xfs/27[24]: adapt for checking files on the realtime volume
-dbc0d40594a5b9a3e3a27865375a04c5a13bfa03 xfs: race fsstress with realtime refcount btree scrub and repair
-9c3e8f0cbd42e02a56a82444d86296c233674f0b xfs: remove xfs/131 now that we allow reflink on realtime volumes
-2eddea095ccb9dbf214f85a8304fb21101c94e82 generic/331,xfs/240: support files that skip delayed allocation
-f96f21a89253600af0b9869e576b8084a651ce5a common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
-58d410795d1598d4144ed84473919e7af7737051 xfs: test filesystem recovery with rdump
-00878f4733cdbc72a795fd8f109bf3f207b8051a xfs: test upgrading old features
-601d58ed0ebc57ccd78babc56c705b6492332bf7 xfs/614: determine the sector size of the fs image by doing a test format
-c4b8f400a504683f35eb820b0f53511725a4a8db xfs/206: adapt for zoned realtime
-d12dc8e2317ed76210383e218de9408e9dcc105d xfs: make sure that CoW will write around when rextsize > 1
-bd2386c5254d6f564338f08c122f34c7a35b9d90 xfs: skip cowextsize hint fragmentation tests on realtime volumes
-daf3d9c6d1715fa7edd39c5807449bd5d0d687f3 misc: add more congruent oplen testing
-c39ac828e227759ed8766178bc3ab641318c35c8 xfs: test COWing entire rt extents
-90308efca65ba5f655d6977ee609c6054d46120e generic/303: avoid test failures on weird rt extent sizes
-1f2ee851bbce012267591b1ce332398bdb6c1d1a xfs: test output of new FSREFCOUNTS ioctl
-f5ab70a1cb4a070b3f54c36dcafbe7f029018726 xfs: test clearing of free space
-1275f0ff4d4f49128e12028b0dd80f75ce3e2659 treewide: convert all $MOUNT_PROG to _mount
-bdb8d5b12dce088300febe37bcba4d1d491d93ca check: capture dmesg of mount failures if test fails
-dd374202f6cbf25a1f6326dc53177ae88824af28 xfs: test health monitoring code
-aaf0f90f18bc4a5cbc2c5f773bf45a176e098020 xfs: test for metadata corruption error reporting via healthmon
-32061a4c63a52f5262201b52156dbddddf9205f7 xfs: test io error reporting via healthmon
-55f3dff2d75008a9d511bab3e2a6885594f8f2e4 xfs: test new xfs_scrubbed daemon
-d5371362d8a4bd0f7cc61421a0e0011d815875b6 xfs/1856: add metadir upgrade to test matrix
-4e852c57032bd1722d50ba9e34fb9dca5b41b668 xfs/1856: add rtrmapbt upgrade to test matrix
-917ba5b60a74a597ae1e5fdee76dba26f3bf5879 xfs/1856: add rtreflink upgrade to test matrix
-
---===============1120842549220992755==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0ad47cd78891-00878f4733cd.txt
-
-71b9fbc7dc60c9d57057d32a0a9d0e4014e11580 generic/476: fix fsstress process management
-71ba6462f79af02027b0940d010f68ab582e2b50 metadump: make non-local function variables more obvious
-9ac6e6551c36ae9078e35bfc4e71b20999a8aa4f metadump: fix cleanup for v1 metadump testing
-6daf90b77a497cdd8cdbb273e460466c4fd50360 generic/019: don't fail if fio crashes while shutting down
-8abb2fe36c8c2dce1c9fd146fd437f37fbaca243 fuzzy: do not set _FSSTRESS_PID when exercising fsx
-1f3725f9c4e85163325580000cfece6506164ff1 common/rc: revert recursive unmount in _clear_mount_stack
-0a77c9db4af8f84270cb2bf00675bfc2e2ea34fa common/dump: don't replace pids arbitrarily
-382f64ab64d0ee2ee3e99e2de617f8fc9789576d common/populate: correct the parent pointer name creation formulae
-a6d10c48a753f9fd5bffc6d6db7c06623ab53601 generic/759,760: fix MADV_COLLAPSE detection and inclusion
-62a6c738512e5a5560fa63fb599e042e33cfa2de generic/759,760: skip test if we can't set up a hugepage for IO
-b994081cca0d6899d149bbed5efb79233f46dd41 common/rc: create a wrapper for the su command
-09a0263fa1f10c575a23d9e232bafe8a33d00ec7 fuzzy: kill subprocesses with SIGPIPE, not SIGINT
-4c9814b08fe0bbf0002e7d25b33503fa24a13468 common/rc: hoist pkill to a helper function
-5a049b3acb18d3973640d0a6d7f5c519e8cf9b3e tools: add a Makefile
-a40000f7c5cc62dee902b341721e435a09cd4636 common: fix pkill by running test program in a separate session
-aa5626953c0e9e4f41a7e59a204d8238bfc443a9 check: run tests in a private pid/mount namespace
-10aa1570c280b1c2642d99616687aaa257923a55 check: deprecate using process sessions to isolate test instances
-2e0f4b85384039fa5d131ac27d92bf2059e2d283 common/rc: don't copy fsstress to $TEST_DIR
-318c61bfc97d58bb235846f0c038f328fb2a64fb unmount: resume logging of stdout and stderr for filtering
-c272d36ae2cbf09515a4383d2c1e4bfaf5f66e1b mkfs: don't hardcode log size
-e6ffb1248b3c8dad4a49d4117da5b167ad8b5e63 common/rc: return mount_ret in _try_scratch_mount
-aa4e8714b387942a2b58c0d660ed3dcc9a323cdb preamble: fix missing _kill_fsstress
-4467fd59324d3678b2cc145c6309ce8d3f024382 generic/650: revert SOAK DURATION changes
-c363f931277131b817d585594b07a3e45e995141 generic/032: fix pinned mount failure
-3bf5379f3c5a032aee200c8d97d0e082461933ea fuzzy: stop __stress_scrub_fsx_loop if fsx fails
-1bfba9f17d777007dc5345fdfa67bf4654ccb5d4 fuzzy: don't use readarray for xfsfind output
-edcd688315ba8e8f674a9f2eca3858825b7cadb6 fuzzy: always stop the scrub fsstress loop on error
-c86af3857d210e6450a86185e3ad705200144cc9 fuzzy: port fsx and fsstress loop to use --duration
-81b07f6f7ff1e8fbf34373d515c1c572801bba3a fix _require_scratch_duperemove ordering
-87c9bb1191e7d264c7276b29e3d873164a54e252 fsstress: fix a memory leak
-65b187eea39c66f0e7e95677a413c8669be1de01 fsx: fix leaked log file pointer
-501982639ede1089574f98a706367c8722a74cf1 misc: don't put nr_cpus into the fsstress -n argument
-186c55fc693ef0c5656b17f67906ccd2cd29b1ce common/config: add $here to FSSTRESS_PROG
-21dd6aa8add9b1ad5a6d6cf332c3af21711670d7 config: add FSX_PROG variable
-05a09df063e22a555930b077b9241a39b1895d3d build: initialize stack variables to zero by default
-0a327266fa41c76179744039a1fb0a3d2170e14f logwrites: warn if we don't think read after discard returns zeroes
-2d41bcb85d24bd0a5fc3f66535e8d42fc927cb74 logwrites: use BLKZEROOUT if it's available
-2864104b825b638aa79097d434754839bdc4a396 logwrites: only use BLKDISCARD if we know discard zeroes data
-1c9f4dace0b0b2fce38b44aa67aea4a472f2ac4c misc: drop the dangerous label from xfs_scrub fsstress tests
-64a59ec65090469ba089dd90e93728682d03eebc misc: rename the dangerous_repair group to fuzzers_repair
-7246c9b7af90e5cd27266da28ddb419a6097991d misc: rename the dangerous_online_repair group to fuzzers_online_repair
-1f7525c46184263be2372b856383a206e0610b5b misc: rename the dangerous_bothrepair group to fuzzers_bothrepair
-ad9d28f0b6408e9d4c2b741e386e8449ba273483 misc: rename the dangerous_norepair group to fuzzers_norepair
-25f41535a940ff42e4eeae1cc716733f909ac0d9 misc: fix misclassification of xfs_repair fuzz tests
-b4699f272dee01232ccd4db60085c101ebd48ad7 misc: fix misclassification of xfs_scrub + xfs_repair fuzz tests
-c8bd09c5f059cbf229c28f9241c4f1bd7cd692d9 misc: fix misclassification of verifier fuzz tests
-8e8a0fbd536f4a5e0ebe270c856be319a9e24fa0 misc: add xfs_scrub + xfs_repair fuzz tests to the scrub and repair groups
-b83d8c1733a62264932a34c660ddf310b3cd1e67 misc: remove the dangerous_scrub group
-5836b6b1672b0b795bc8adc581739419e83dd51e xfs/28[56],xfs/56[56]: add to the auto group
-8f3c6ef4f22d570b2e5b52814af3b98bc66f6bbd xfs/349: reclassify this test as not dangerous
-8687513be9f6f8f5f82c3cbac47f4e5ec8ca5567 various: fix finding metadata inode numbers when metadir is enabled
-d694b3b053dc3ad03dc64b138a3e5431abb7b18e xfs/{030,033,178}: forcibly disable metadata directory trees
-20a4bb362eb2b73ae0c477d4d90059cd039b3231 common/repair: patch up repair sb inode value complaints
-22130bbe38b59022be78279763223540f96cbfd8 xfs/206: update for metadata directory support
-1c9f3ea545426317edcc34faa4f8779163acc046 xfs/{050,144,153,299,330}: update quota reports to handle metadir trees
-6515675a941b02c549bcd1d3b10e5eb76bd6784b xfs/509: adjust inumbers accounting for metadata directories
-215411f56f4ef9fd056b746321db917f628cb930 xfs: create fuzz tests for metadata directories
-badf1a41abfd9a1036f103ef40eb34b09b86f1e3 xfs/163: bigger fs for metadir
-2258ffabb2f441df784e1bdfe44bfda827209644 xfs/122: disable this test for any codebase that knows about metadir
-34b1206de260b29db854627f8d1b567e3254683b common/populate: label newly created xfs filesystems
-c7e34d0e85df10504defb00b6e70b287c6648f46 scrub: race metapath online fsck with fsstress
-8be87eb2ad2217b447bd74ebb3b0f08dfa90f89a xfs: test metapath repairs
-911dcb4667c56ec3c535a259fcb3eccfa3d584fa xfs/019: reduce _fail calls in test
-758f1cee8877bd8f11b7e9fd816ae87ccb128cf6 xfs/019: test reserved file support
-bc892233c30147c0887d54889cee8b7b6078e99a xfs: test filesystem creation with xfs_protofile
-47af2b9cd14181655d4d519ba1f9f2f44102d4ae fstests: test mkfs.xfs protofiles with xattr support
-272f73b04effe28c8fc386601777c1d2189eb0e1 common/populate: refactor caching of metadumps to a helper
-39ced3a5ade28852b2a061b226ccdf6afbe832b9 common/{fuzzy,populate}: use _scratch_xfs_mdrestore
-3e6647019507585a6ca92cb4c00bb2eba1957c7e fuzzy: stress data and rt sections of xfs filesystems equally
-596dbc099f371145189fbdb5a0aec3ecc3a7efd7 fuzzy: run fsx on data and rt sections of xfs filesystems equally
-d747356eca2f78a9dfcf6bf8531eba46619423e7 common/ext4: reformat external logs during mdrestore operations
-92a2e7c6e08ae93efaa539af655aa10f746c886d common/populate: use metadump v2 format by default for fs metadata snapshots
-12ce398860d15232e133532bb44d74cd7097c324 punch-alternating: detect xfs realtime files with large allocation units
-265ebcf15239f11de95606ea2687b4aa9637080f xfs/206: update mkfs filtering for rt groups feature
-c3c5c34c6f30f27d1fb828511ae5996276acd120 common: pass the realtime device to xfs_db when possible
-fe50c474629ba27a42c287a5e993b0ffe823e028 xfs/185: update for rtgroups
-63624fab4aee35502d025e5eea386e65ba6bb709 xfs/449: update test to know about xfs_db -R
-b025145d9a96a7e0979f0ba46dd9c0f4418aa4ff xfs/271,xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
-44fdf216d95c07aa129330a0adb31aeead5cbea8 common/xfs: capture realtime devices during metadump/mdrestore
-34058229131b5fbe55a7d4bcf98da52694301f05 common/fuzzy: adapt the scrub stress tests to support rtgroups
-798ed5531c6c9518cf6e9bba823e613ab8cb4afa xfs: fix fuzz tests of rtgroups bitmap and summary files
-cebd1b62318ddae6544f174aad0fef7068b2706d xfs: update tests for quota files in the metadir
-be6577d3ee06d2803c82cc7b2b655b233d9b10c4 xfs: test persistent quota flags
-dd0ebc3bd519547aab7a7c5ddcc583b46568383b xfs: fix quota detection in fuzz tests
-ff82765085efe4952f829bfffd524ea97299c625 xfs: fix tests for persistent qflags
-15320637a298308a53935e0e765458b83c0f876d common: enable testing of realtime quota when supported
-c17f2f00bfa418a0a74c13e229356af74b17d4f4 xfs: fix quota tests to adapt to realtime quota
-7a38ce3989626fa31d48ae0f1061e1732e85d077 xfs: regression testing of quota on the realtime device
-ccea7893fbab78113c98df2f9443d7658ef95473 common: test statfs reporting with project quota
-fcd7870a3185b18aa286fc1593f6657877903c33 xfs: fix tests that try to access the realtime rmap inode
-bbe090d4c6e0ef574a9ecf49ac5fa5d9aa196f6a xfs/336: port to common/metadump
-9e9ee02e5295da1febd50dbf3444ddce4a39f82a fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
-4858f2d3a32369db38a6a4bb3985e7c18648ae4e xfs: race fsstress with realtime rmap btree scrub and repair
-8c46b2f68b05302bb9c790b31e1e0e8c32a10d12 xfs: fix various problems with fsmap detecting the data device
-0cc9170ab8577cc41beba1781f400e47cc044644 xfs/341: update test for rtgroup-based rmap
-cd3f52418fca1d6182ac70bdb8b1d1f418327782 xfs/3{43,32}: adapt tests for rt extent size greater than 1
-6d9a7890bba23515947b7381790c86a10a68041d xfs/291: use _scratch_mkfs_sized instead of opencoding the logic
-817f765e9e56e56a4d27e6f6166d9115c5a0c6bc xfs: skip tests if formatting small filesystem fails
-b4cae97490980889b1e6f7fccca104c79dc2a6ef xfs/443: use file allocation unit, not dbsize
-9157f88e14b9bfb93ee4d54ade8ec669efc8c9b7 populate: adjust rtrmap calculations for rtgroups
-8ea7b2ae8cb866151f6b57a965e5ae383713f9ea populate: check that we created a realtime rmap btree of the given height
-b07e6a8f0405e640f64821e40a6d79df06709ae7 fuzzy: create missing fuzz tests for rt rmap btrees
-e9e0a211a247a3a27950a9d761eeed3bb50cbb4c common/populate: create realtime refcount btree
-30851f0862575c642992d503a797830c6bc19549 xfs: create fuzz tests for the realtime refcount btree
-686e2972c8040b642d0869214043f7c4ecb8721e xfs/27[24]: adapt for checking files on the realtime volume
-dbc0d40594a5b9a3e3a27865375a04c5a13bfa03 xfs: race fsstress with realtime refcount btree scrub and repair
-9c3e8f0cbd42e02a56a82444d86296c233674f0b xfs: remove xfs/131 now that we allow reflink on realtime volumes
-2eddea095ccb9dbf214f85a8304fb21101c94e82 generic/331,xfs/240: support files that skip delayed allocation
-f96f21a89253600af0b9869e576b8084a651ce5a common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
-58d410795d1598d4144ed84473919e7af7737051 xfs: test filesystem recovery with rdump
-00878f4733cdbc72a795fd8f109bf3f207b8051a xfs: test upgrading old features
-
---===============1120842549220992755==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-32a5c810d269-c4b8f400a504.txt
-
-71b9fbc7dc60c9d57057d32a0a9d0e4014e11580 generic/476: fix fsstress process management
-71ba6462f79af02027b0940d010f68ab582e2b50 metadump: make non-local function variables more obvious
-9ac6e6551c36ae9078e35bfc4e71b20999a8aa4f metadump: fix cleanup for v1 metadump testing
-6daf90b77a497cdd8cdbb273e460466c4fd50360 generic/019: don't fail if fio crashes while shutting down
-8abb2fe36c8c2dce1c9fd146fd437f37fbaca243 fuzzy: do not set _FSSTRESS_PID when exercising fsx
-1f3725f9c4e85163325580000cfece6506164ff1 common/rc: revert recursive unmount in _clear_mount_stack
-0a77c9db4af8f84270cb2bf00675bfc2e2ea34fa common/dump: don't replace pids arbitrarily
-382f64ab64d0ee2ee3e99e2de617f8fc9789576d common/populate: correct the parent pointer name creation formulae
-a6d10c48a753f9fd5bffc6d6db7c06623ab53601 generic/759,760: fix MADV_COLLAPSE detection and inclusion
-62a6c738512e5a5560fa63fb599e042e33cfa2de generic/759,760: skip test if we can't set up a hugepage for IO
-b994081cca0d6899d149bbed5efb79233f46dd41 common/rc: create a wrapper for the su command
-09a0263fa1f10c575a23d9e232bafe8a33d00ec7 fuzzy: kill subprocesses with SIGPIPE, not SIGINT
-4c9814b08fe0bbf0002e7d25b33503fa24a13468 common/rc: hoist pkill to a helper function
-5a049b3acb18d3973640d0a6d7f5c519e8cf9b3e tools: add a Makefile
-a40000f7c5cc62dee902b341721e435a09cd4636 common: fix pkill by running test program in a separate session
-aa5626953c0e9e4f41a7e59a204d8238bfc443a9 check: run tests in a private pid/mount namespace
-10aa1570c280b1c2642d99616687aaa257923a55 check: deprecate using process sessions to isolate test instances
-2e0f4b85384039fa5d131ac27d92bf2059e2d283 common/rc: don't copy fsstress to $TEST_DIR
-318c61bfc97d58bb235846f0c038f328fb2a64fb unmount: resume logging of stdout and stderr for filtering
-c272d36ae2cbf09515a4383d2c1e4bfaf5f66e1b mkfs: don't hardcode log size
-e6ffb1248b3c8dad4a49d4117da5b167ad8b5e63 common/rc: return mount_ret in _try_scratch_mount
-aa4e8714b387942a2b58c0d660ed3dcc9a323cdb preamble: fix missing _kill_fsstress
-4467fd59324d3678b2cc145c6309ce8d3f024382 generic/650: revert SOAK DURATION changes
-c363f931277131b817d585594b07a3e45e995141 generic/032: fix pinned mount failure
-3bf5379f3c5a032aee200c8d97d0e082461933ea fuzzy: stop __stress_scrub_fsx_loop if fsx fails
-1bfba9f17d777007dc5345fdfa67bf4654ccb5d4 fuzzy: don't use readarray for xfsfind output
-edcd688315ba8e8f674a9f2eca3858825b7cadb6 fuzzy: always stop the scrub fsstress loop on error
-c86af3857d210e6450a86185e3ad705200144cc9 fuzzy: port fsx and fsstress loop to use --duration
-81b07f6f7ff1e8fbf34373d515c1c572801bba3a fix _require_scratch_duperemove ordering
-87c9bb1191e7d264c7276b29e3d873164a54e252 fsstress: fix a memory leak
-65b187eea39c66f0e7e95677a413c8669be1de01 fsx: fix leaked log file pointer
-501982639ede1089574f98a706367c8722a74cf1 misc: don't put nr_cpus into the fsstress -n argument
-186c55fc693ef0c5656b17f67906ccd2cd29b1ce common/config: add $here to FSSTRESS_PROG
-21dd6aa8add9b1ad5a6d6cf332c3af21711670d7 config: add FSX_PROG variable
-05a09df063e22a555930b077b9241a39b1895d3d build: initialize stack variables to zero by default
-0a327266fa41c76179744039a1fb0a3d2170e14f logwrites: warn if we don't think read after discard returns zeroes
-2d41bcb85d24bd0a5fc3f66535e8d42fc927cb74 logwrites: use BLKZEROOUT if it's available
-2864104b825b638aa79097d434754839bdc4a396 logwrites: only use BLKDISCARD if we know discard zeroes data
-1c9f4dace0b0b2fce38b44aa67aea4a472f2ac4c misc: drop the dangerous label from xfs_scrub fsstress tests
-64a59ec65090469ba089dd90e93728682d03eebc misc: rename the dangerous_repair group to fuzzers_repair
-7246c9b7af90e5cd27266da28ddb419a6097991d misc: rename the dangerous_online_repair group to fuzzers_online_repair
-1f7525c46184263be2372b856383a206e0610b5b misc: rename the dangerous_bothrepair group to fuzzers_bothrepair
-ad9d28f0b6408e9d4c2b741e386e8449ba273483 misc: rename the dangerous_norepair group to fuzzers_norepair
-25f41535a940ff42e4eeae1cc716733f909ac0d9 misc: fix misclassification of xfs_repair fuzz tests
-b4699f272dee01232ccd4db60085c101ebd48ad7 misc: fix misclassification of xfs_scrub + xfs_repair fuzz tests
-c8bd09c5f059cbf229c28f9241c4f1bd7cd692d9 misc: fix misclassification of verifier fuzz tests
-8e8a0fbd536f4a5e0ebe270c856be319a9e24fa0 misc: add xfs_scrub + xfs_repair fuzz tests to the scrub and repair groups
-b83d8c1733a62264932a34c660ddf310b3cd1e67 misc: remove the dangerous_scrub group
-5836b6b1672b0b795bc8adc581739419e83dd51e xfs/28[56],xfs/56[56]: add to the auto group
-8f3c6ef4f22d570b2e5b52814af3b98bc66f6bbd xfs/349: reclassify this test as not dangerous
-8687513be9f6f8f5f82c3cbac47f4e5ec8ca5567 various: fix finding metadata inode numbers when metadir is enabled
-d694b3b053dc3ad03dc64b138a3e5431abb7b18e xfs/{030,033,178}: forcibly disable metadata directory trees
-20a4bb362eb2b73ae0c477d4d90059cd039b3231 common/repair: patch up repair sb inode value complaints
-22130bbe38b59022be78279763223540f96cbfd8 xfs/206: update for metadata directory support
-1c9f3ea545426317edcc34faa4f8779163acc046 xfs/{050,144,153,299,330}: update quota reports to handle metadir trees
-6515675a941b02c549bcd1d3b10e5eb76bd6784b xfs/509: adjust inumbers accounting for metadata directories
-215411f56f4ef9fd056b746321db917f628cb930 xfs: create fuzz tests for metadata directories
-badf1a41abfd9a1036f103ef40eb34b09b86f1e3 xfs/163: bigger fs for metadir
-2258ffabb2f441df784e1bdfe44bfda827209644 xfs/122: disable this test for any codebase that knows about metadir
-34b1206de260b29db854627f8d1b567e3254683b common/populate: label newly created xfs filesystems
-c7e34d0e85df10504defb00b6e70b287c6648f46 scrub: race metapath online fsck with fsstress
-8be87eb2ad2217b447bd74ebb3b0f08dfa90f89a xfs: test metapath repairs
-911dcb4667c56ec3c535a259fcb3eccfa3d584fa xfs/019: reduce _fail calls in test
-758f1cee8877bd8f11b7e9fd816ae87ccb128cf6 xfs/019: test reserved file support
-bc892233c30147c0887d54889cee8b7b6078e99a xfs: test filesystem creation with xfs_protofile
-47af2b9cd14181655d4d519ba1f9f2f44102d4ae fstests: test mkfs.xfs protofiles with xattr support
-272f73b04effe28c8fc386601777c1d2189eb0e1 common/populate: refactor caching of metadumps to a helper
-39ced3a5ade28852b2a061b226ccdf6afbe832b9 common/{fuzzy,populate}: use _scratch_xfs_mdrestore
-3e6647019507585a6ca92cb4c00bb2eba1957c7e fuzzy: stress data and rt sections of xfs filesystems equally
-596dbc099f371145189fbdb5a0aec3ecc3a7efd7 fuzzy: run fsx on data and rt sections of xfs filesystems equally
-d747356eca2f78a9dfcf6bf8531eba46619423e7 common/ext4: reformat external logs during mdrestore operations
-92a2e7c6e08ae93efaa539af655aa10f746c886d common/populate: use metadump v2 format by default for fs metadata snapshots
-12ce398860d15232e133532bb44d74cd7097c324 punch-alternating: detect xfs realtime files with large allocation units
-265ebcf15239f11de95606ea2687b4aa9637080f xfs/206: update mkfs filtering for rt groups feature
-c3c5c34c6f30f27d1fb828511ae5996276acd120 common: pass the realtime device to xfs_db when possible
-fe50c474629ba27a42c287a5e993b0ffe823e028 xfs/185: update for rtgroups
-63624fab4aee35502d025e5eea386e65ba6bb709 xfs/449: update test to know about xfs_db -R
-b025145d9a96a7e0979f0ba46dd9c0f4418aa4ff xfs/271,xfs/556: fix tests to deal with rtgroups output in bmap/fsmap commands
-44fdf216d95c07aa129330a0adb31aeead5cbea8 common/xfs: capture realtime devices during metadump/mdrestore
-34058229131b5fbe55a7d4bcf98da52694301f05 common/fuzzy: adapt the scrub stress tests to support rtgroups
-798ed5531c6c9518cf6e9bba823e613ab8cb4afa xfs: fix fuzz tests of rtgroups bitmap and summary files
-cebd1b62318ddae6544f174aad0fef7068b2706d xfs: update tests for quota files in the metadir
-be6577d3ee06d2803c82cc7b2b655b233d9b10c4 xfs: test persistent quota flags
-dd0ebc3bd519547aab7a7c5ddcc583b46568383b xfs: fix quota detection in fuzz tests
-ff82765085efe4952f829bfffd524ea97299c625 xfs: fix tests for persistent qflags
-15320637a298308a53935e0e765458b83c0f876d common: enable testing of realtime quota when supported
-c17f2f00bfa418a0a74c13e229356af74b17d4f4 xfs: fix quota tests to adapt to realtime quota
-7a38ce3989626fa31d48ae0f1061e1732e85d077 xfs: regression testing of quota on the realtime device
-ccea7893fbab78113c98df2f9443d7658ef95473 common: test statfs reporting with project quota
-fcd7870a3185b18aa286fc1593f6657877903c33 xfs: fix tests that try to access the realtime rmap inode
-bbe090d4c6e0ef574a9ecf49ac5fa5d9aa196f6a xfs/336: port to common/metadump
-9e9ee02e5295da1febd50dbf3444ddce4a39f82a fuzz: for fuzzing the rtrmapbt, find the path to the rt rmap btree file
-4858f2d3a32369db38a6a4bb3985e7c18648ae4e xfs: race fsstress with realtime rmap btree scrub and repair
-8c46b2f68b05302bb9c790b31e1e0e8c32a10d12 xfs: fix various problems with fsmap detecting the data device
-0cc9170ab8577cc41beba1781f400e47cc044644 xfs/341: update test for rtgroup-based rmap
-cd3f52418fca1d6182ac70bdb8b1d1f418327782 xfs/3{43,32}: adapt tests for rt extent size greater than 1
-6d9a7890bba23515947b7381790c86a10a68041d xfs/291: use _scratch_mkfs_sized instead of opencoding the logic
-817f765e9e56e56a4d27e6f6166d9115c5a0c6bc xfs: skip tests if formatting small filesystem fails
-b4cae97490980889b1e6f7fccca104c79dc2a6ef xfs/443: use file allocation unit, not dbsize
-9157f88e14b9bfb93ee4d54ade8ec669efc8c9b7 populate: adjust rtrmap calculations for rtgroups
-8ea7b2ae8cb866151f6b57a965e5ae383713f9ea populate: check that we created a realtime rmap btree of the given height
-b07e6a8f0405e640f64821e40a6d79df06709ae7 fuzzy: create missing fuzz tests for rt rmap btrees
-e9e0a211a247a3a27950a9d761eeed3bb50cbb4c common/populate: create realtime refcount btree
-30851f0862575c642992d503a797830c6bc19549 xfs: create fuzz tests for the realtime refcount btree
-686e2972c8040b642d0869214043f7c4ecb8721e xfs/27[24]: adapt for checking files on the realtime volume
-dbc0d40594a5b9a3e3a27865375a04c5a13bfa03 xfs: race fsstress with realtime refcount btree scrub and repair
-9c3e8f0cbd42e02a56a82444d86296c233674f0b xfs: remove xfs/131 now that we allow reflink on realtime volumes
-2eddea095ccb9dbf214f85a8304fb21101c94e82 generic/331,xfs/240: support files that skip delayed allocation
-f96f21a89253600af0b9869e576b8084a651ce5a common/xfs: fix _xfs_get_file_block_size when rtinherit is set and no rt section
-58d410795d1598d4144ed84473919e7af7737051 xfs: test filesystem recovery with rdump
-00878f4733cdbc72a795fd8f109bf3f207b8051a xfs: test upgrading old features
-601d58ed0ebc57ccd78babc56c705b6492332bf7 xfs/614: determine the sector size of the fs image by doing a test format
-c4b8f400a504683f35eb820b0f53511725a4a8db xfs/206: adapt for zoned realtime
-
---===============1120842549220992755==--
+--===============3769212779402401017==--
