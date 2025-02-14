@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3692587075411496922=="
+Content-Type: multipart/mixed; boundary="===============6156902176636525085=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 14 Feb 2025 08:27:05 -0000
-Message-Id: <173952162566.362737.14669769307232776519@gitolite.kernel.org>
+Date: Fri, 14 Feb 2025 08:29:52 -0000
+Message-Id: <173952179249.364563.2531560681397708695@gitolite.kernel.org>
 
---===============3692587075411496922==
+--===============6156902176636525085==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,60 +16,49 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 71db7b9a019b76df43512639c282c03733ba3eeb
-    new: 659f5d55feb75782bd46cf130da3c1f240afe9ba
-    log: revlist-71db7b9a019b-659f5d55feb7.txt
+  - ref: refs/heads/usb-testing
+    old: 9682c35ff6ecd76d9462d4749b8b413d3e8e605e
+    new: 257a087c8b5206e046048de6053fc8b3fa1af814
+    log: |
+         dcba69711fff8af4370cb4c00460db0bf47c7093 platform/chrome: add PD_EVENT_INIT bit definition
+         7f7283183c62411ea50730b3d0728fedd9aceb21 usb: typec: ucsi: resume work after EC init
+         8bc8a32a280410f68eae99e1ec623ac87586cb1f dt-bindings: usb: dwc3: Add a property to reserve endpoints
+         eafba0205426091354f050381c32ad1567c35844 usb: dwc3: gadget: Refactor loop to avoid NULL endpoints
+         5425191f85fea2e10248c699d64382999cb78c34 usb: dwc3: gadget: Add support for snps,reserved-endpoints property
+         461f24bff86808ee5fbfe74751a825f8a7ab24e0 usb: dwc3: gadget: Avoid using reserved endpoints on Intel Merrifield
+         07959ad5775f0fbbb8de9eb230d1b364b9800893 USB: dwc3: Use syscon_regmap_lookup_by_phandle_args
+         d73ddefaf97805dd2c549f2301785edb0a7a2147 dt-bindings: usb: Add Parade PS8830 Type-C retimer bindings
+         257a087c8b5206e046048de6053fc8b3fa1af814 usb: typec: Add support for Parade PS8830 Type-C Retimer
+         
 
---===============3692587075411496922==
+--===============6156902176636525085==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1739521653 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1739521820 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1739521621-7a9f540a4ce3225ea241045aa458f4c80ca64652
+nonce 1739521789-fe48dfa8f2cc3b08115824c931a02a632a554165
 
-71db7b9a019b76df43512639c282c03733ba3eeb 659f5d55feb75782bd46cf130da3c1f240afe9ba refs/heads/usb-linus
+9682c35ff6ecd76d9462d4749b8b413d3e8e605e 257a087c8b5206e046048de6053fc8b3fa1af814 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeu/nUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++/8P/0/wO+vdX2ngWSqI7dzX
-WE4BJVH5Y+ouGkPsc3Bsr7QK7ttemn+bh8/LzpfAeImaMZQcBUpANk0ZpbRqXaX/
-nP+DOdv5NsaycgkfqvHi5AKjLBPpO1OQjZpROMofwDbb30+YiMtyGCPcLZBmtIzz
-GqKU60OavFEiRLYHiFYH8O1OiP6SeFk91J2RsERtM2Y9fOmMKAjubDydy6zUTA12
-HXakLqraohF8H/OOHEoTCTeyrWItfgA3hTRPn0qfMuH61o+XkGZsDMv3HcvgiwNg
-sdvTVZQaQzrDha9lXKc2BMIVH7LXEK6+t34G3IGyMyrGOIIkiEf7DFl8L9DvZzj1
-pHMP2CKfMgWAptcYfhQ3YJpBil+C8PyAIf2RuBtbThda5jQBiX0Q4WFIYIv049Xe
-2Ca3cQZxZIc/YBkNT2m2byw5XqDZ4fHdMsaTeIiCsgZANNwC1WX9n0htA44m5TOO
-dj8YvR9yAcUaG1UxYLLYlbYk7ouItMew0oBSDz9HdTLy0lox05ZuF+qKlr6yMhDZ
-ZkVYwQT6Lk8Kp24/EeqXKPeoV9ZV5IDhoRm8jCvWUnaueNd9jP+Pjqf6AkU/Y4Au
-TUFGrKHFCpn1n3Y2Dr+eiHLhP+jHZKPmRV3XJrUSOcle34AbtNV2JhyV34LpnEhu
-ZRXYPhkl5BxRYTgf9TWtkbGu
-=7Epb
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmeu/xwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JGUP/jJUDqk3aZNCZ4Ggvbhk
+frsHzsrkhSgx/j3p5piBLm3b3sUp3N6HkOLB9lIAmoMlAkiVHPYjukvijdFDeNbM
+iB2kxjB11ZNwnh5MPjUK1cMLtYH0OF51FrIAgoDeoZK2VQLg/DHdNZIzpabGPCNF
+3HOKut7WQ20+sBAvac7ewwV2CXkiPItg+ciVLpXTlG/FYK6M54ErKUzhouYvk7iB
+xVrTJlsR27qy3oszx7uEDpvxU3Ep23b7PQFd/JfZdqZf/YGKvBe+UykkM4JAHW4G
+uF/5uRDExzZeBFDkJOaM2q1CfnsliGaGEu948ZXswkIdgnwyqD3STKANshLU51qt
+hVWFw5MPb1fKsj6vjcrNTaQ9JRPiIUObJv96lYfGxxbS8hQ9dcGled93zTE4vVqA
+64qYDoRi1PxI3Yt2LB7PtJ1fAv1JCjzqEWdxYpJC/WFn2oEmwa2lCzPf9qYEjsIJ
+9pYc7d+PTIwdTyo71Nc+OA1bWFVQVyhYyH6f4RM1bkx/Oj4AOkYG9hVBw194Kg5m
+cpMgnXJ8k93xeos1CadBBnMBEL7KsZRj9FauysLffkLy+DmURq/ccZT4cMAVi3sn
+KbJbCcCWSdgt2tSd6FzPzLoc4gu4+NJpos7nxzq2lQqtNCd4AEbu1/XHB/gE0o0R
+0ho6229P4sKy6HbamtDLXPh0
+=eaBM
 -----END PGP SIGNATURE-----
 
---===============3692587075411496922==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-71db7b9a019b-659f5d55feb7.txt
-
-e71f7f42e3c874ac3314b8f250e8416a706165af USB: pci-quirks: Fix HCCPARAMS register error for LS7A EHCI
-c81d9fcd5b9402166048f377d4e5e0ee6f9ef26d usb: xhci: Restore xhci_pci support for Renesas HCs
-e563b01208f4d1f609bcab13333b6c0e24ce6a01 usb: cdc-acm: Check control transfer buffer size before access
-12e712964f41d05ae034989892de445781c46730 usb: cdc-acm: Fix handling of oversized fragments
-7284922f3e4fa285dff1b8bb593aa9a0b8458f30 USB: cdc-acm: Fill in Renesas R-Car D3 USB Download mode quirk
-159daf1258227f44b26b5d38f4aa8f37b8cca663 USB: Add USB_QUIRK_NO_LPM quirk for sony xperia xz1 smartphone
-d3a8c28426fc1fb3252753a9f1db0d691ffc21b0 usb: dwc3: Fix timeout issue during controller enter/exit from halt state
-4aac0db5a0ebc599d4ad9bf5ebab78afa1f33e10 usb: core: fix pipe creation for get_bMaxPacketSize0
-4ab37fcb42832cdd3e9d5e50653285ca84d6686f USB: gadget: f_midi: f_midi_complete to call queue_work
-399a45e5237ca14037120b1b895bd38a3b4492ea usb: gadget: core: flush gadget workqueue after device removal
-e169d96eecd447ff7fd7542ca5fa0911f5622054 USB: quirks: add USB_QUIRK_NO_LPM quirk for Teclast dist
-e5644be4079750a0a0a5a7068fd90b97bf6fac55 usb: gadget: uvc: Fix unstarted kthread worker
-634775a752a86784511018a108f3b530cc3399a7 usb: roles: set switch registered flag early on
-659f5d55feb75782bd46cf130da3c1f240afe9ba usb: typec: tcpm: PSSourceOffTimer timeout in PR_Swap enters ERROR_RECOVERY
-
---===============3692587075411496922==--
+--===============6156902176636525085==--
