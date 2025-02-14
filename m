@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Fri, 14 Feb 2025 20:33:38 -0000
-Message-Id: <173956521813.974959.2039842503020575432@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Fri, 14 Feb 2025 20:36:21 -0000
+Message-Id: <173956538180.978327.8576486615217049589@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 7c1e94f5dc9ea0f38b8fac14ae8193233e4f6afe
-    new: 20600b8aab734877740d5292c0cdd5ccb6c7beb7
+  - ref: refs/heads/aer
+    old: c928d117f57c9ca1801c0e37019a357f86eb96f1
+    new: 28d3871db7ef8ad0112f195c48a72d8638af89d1
     log: |
-         d18c882f85745f3c622e74b93151514b745de2ca perf tools: Fix compilation error on arm64
-         20600b8aab734877740d5292c0cdd5ccb6c7beb7 perf tools: Fix compile error on sample->user_regs
+         28d3871db7ef8ad0112f195c48a72d8638af89d1 PCI: Descope pci_printk() to aer_printk()
          
