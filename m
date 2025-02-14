@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 14 Feb 2025 19:46:32 -0000
-Message-Id: <173956239200.937130.1457769020317414946@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Fri, 14 Feb 2025 19:46:43 -0000
+Message-Id: <173956240312.937393.8985538300431295563@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
   - ref: refs/heads/dev-queue
-    old: 2ebcd7fd7a160624e5b33c7d2427e0a1698a20d6
-    new: 4e783332257eb35229a08fe8e9c6252d63101fac
+    old: 8bf4fd78ce8ef9358dd77510042bfed99085bc75
+    new: d142eb657bb0367effe3c1a43f170dda379176b2
     log: |
-         d81fc86e6e4fa1fac04f4afd97b38872c844fdba ice: Fix deinitializing VF in error path
-         398c16dcbd5553d0b665b7d3955686c6ebed43c1 ice: Avoid setting default Rx VSI twice in switchdev setup
-         4e783332257eb35229a08fe8e9c6252d63101fac iavf: fix circular lock dependency with netdev_lock
+         0cf3f47dde540ec2869a5aede4aa397b2fefb285 ice: Fix deinitializing VF in error path
+         c5c25b68c4da2b81a901ba132031873ebf00e086 ice: Avoid setting default Rx VSI twice in switchdev setup
+         d6499413bbc5f527a255062b0a93ab7fe5f9ec12 iavf: fix circular lock dependency with netdev_lock
+         cbb1fd83440193bdd9637bd7cb52717ba27f0129 ice: Fix signedness bug in ice_init_interrupt_scheme()
+         d142eb657bb0367effe3c1a43f170dda379176b2 ice, irdma: fix an off by one in error handling code
          
