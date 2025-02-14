@@ -1,46 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============4100059001156667566=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Fri, 14 Feb 2025 21:04:28 -0000
-Message-Id: <173956706827.999573.17171792077326614227@gitolite.kernel.org>
-
---===============4100059001156667566==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/network/connman/connman
+Date: Fri, 14 Feb 2025 21:04:51 -0000
+Message-Id: <173956709185.1000437.3615113015488527041@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/network/connman/connman
+user: denkenz
 changes:
   - ref: refs/heads/master
-    old: 6353e06c0aace7171f96fc6a9008e3d29dd1bc06
-    new: ec49467dc0fd7d01d046d30c7e5cf90fb06321b4
+    old: d543e126896f822e05170936b9d653065293eec7
+    new: 0b091dd8fc8fc6fd4f780914587ab3969600dd40
     log: |
-         ec49467dc0fd7d01d046d30c7e5cf90fb06321b4 More key updates from keys.openpgp.org
+         ab83dbc8fa17b08e04282666d4c7d3f5f76aae19 ofono: Add additional 'DBG' statements.
+         36154342e5464bd3de6667212afa501822ae2f50 ofono: Use goto error-handling semantics in 'add_cm_context'.
+         00e7dc2d528f6d5cf5cc1061c38861b91ae69eff ofono: document entry condition for 'context_changed'
+         0b091dd8fc8fc6fd4f780914587ab3969600dd40 ofono: Provide a secondary opportunity to get CM props and contexts.
          
-
---===============4100059001156667566==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1739567097 -0500
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1739567067-9b712b17f8d445355540fe34f13733b7d5fdbbca
-
-6353e06c0aace7171f96fc6a9008e3d29dd1bc06 ec49467dc0fd7d01d046d30c7e5cf90fb06321b4 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZ6+v+QAKCRC2xBzjVmSZ
-bOnbAP9RG0LtZGGUDsGfk3hS83Cq/atLelAYlZU2bDTmB27uNAEA7vGa62UqtwyD
-MVWDEqSyM6Jmb4fcrXg/KMdtlm+O9wA=
-=LgcS
------END PGP SIGNATURE-----
-
---===============4100059001156667566==--
