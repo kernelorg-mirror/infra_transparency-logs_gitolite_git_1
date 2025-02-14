@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0621388698854727442=="
+Content-Type: multipart/mixed; boundary="===============3920239517176535700=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Fri, 14 Feb 2025 19:42:21 -0000
-Message-Id: <173956214114.933147.10803531165868940682@gitolite.kernel.org>
+Date: Fri, 14 Feb 2025 19:43:33 -0000
+Message-Id: <173956221357.933794.2564905152353252240@gitolite.kernel.org>
 
---===============0621388698854727442==
+--===============3920239517176535700==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ras/ras
 user: bp
 changes:
-  - ref: refs/heads/edac-urgent
-    old: 747367340ca6b5070728b86ae36ad6747f66b2fb
+  - ref: refs/heads/edac-for-next
+    old: 1d1a6ae52176d452afe5ef17a0fa3dacb64c441a
     new: c158647c107358bf1be579f98e4bb705c1953292
-    log: revlist-747367340ca6-c158647c1073.txt
+    log: revlist-1d1a6ae52176-c158647c1073.txt
 
---===============0621388698854727442==
+--===============3920239517176535700==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-747367340ca6-c158647c1073.txt
+Content-Disposition: attachment; filename=revlist-1d1a6ae52176-c158647c1073.txt
 
 113691ce9f321c6d3d4da0cae2bfc233403251dc Merge tag 'x86_tdx_for_6.14-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 b5f022fe8ec58540e29a32e328f89b7298f70313 drm/amdkfd: Fix partial migrate issue
@@ -1051,4 +1051,4 @@ f4a45f14cf6902a96d9805ba51829054940ef3e7 Merge tag 'seccomp-v6.14-rc2' of git://
 a64dcfb451e254085a7daee5fe51bf22959d52d3 Linux 6.14-rc2
 c158647c107358bf1be579f98e4bb705c1953292 EDAC/qcom: Correct interrupt enable register configuration
 
---===============0621388698854727442==--
+--===============3920239517176535700==--
