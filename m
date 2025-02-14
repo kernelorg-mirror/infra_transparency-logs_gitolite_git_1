@@ -1,28 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
-Date: Fri, 14 Feb 2025 13:17:39 -0000
-Message-Id: <173953905939.592018.16903106474550637010@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Fri, 14 Feb 2025 13:19:18 -0000
+Message-Id: <173953915865.592867.3281984030538176452@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/phy/linux-phy
-user: vkoul
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
   - ref: refs/heads/fixes
-    old: cd57e4327707126dca3f9517b84274c001d4c184
-    new: 55f1a5f7c97c3c92ba469e16991a09274410ceb7
+    old: 967154646b7cc0ac911d6b8335a2d97e5071598c
+    new: 208b9beb5e66c5cded6d3253e14dfdb9ea7aede3
     log: |
-         8789b4296aa796f658a19cac7d27365012893de1 phy: exynos5-usbdrd: gs101: ensure power is gated to SS phy in phy_exit()
-         5ab90f40121a9f6a9b368274cd92d0f435dc7cfa phy: ti: gmii-sel: Do not use syscon helper to build regmap
-         55f1a5f7c97c3c92ba469e16991a09274410ceb7 phy: tegra: xusb: reset VBUS & ID OVERRIDE
-         
-  - ref: refs/heads/next
-    old: d2317767723b63d28e3b93da92760b7934935536
-    new: 7dff18535b93ea1ce6dbaf36b7ae670f04113d08
-    log: |
-         b58f0f86fd6156d7b084257f5c91ceaf7d760927 phy: fsl-imx8mq-usb: add tca function driver for imx95
-         7dff18535b93ea1ce6dbaf36b7ae670f04113d08 phy: PHY_LAN966X_SERDES should depend on SOC_LAN966 || MCHP_LAN966X_PCI
+         c7e413660ba3283bbe6938ae2033cccf9d1ecad3 rseq/selftests: Fix riscv rseq_offset_deref_addv inline asm
+         7635b27c421c49fbc2c91c68aa69bd744c12bd15 riscv: signal: fix signal frame size
+         5a1d2acd06289c664ef014b43289a7683716efd0 riscv: signal: fix signal_minsigstksz
+         208b9beb5e66c5cded6d3253e14dfdb9ea7aede3 MAINTAINERS: Add myself as a riscv reviewer
          
