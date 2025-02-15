@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sat, 15 Feb 2025 18:10:41 -0000
-Message-Id: <173964304153.2033727.9765390624637931679@gitolite.kernel.org>
+Date: Sat, 15 Feb 2025 18:10:53 -0000
+Message-Id: <173964305301.2033939.15811135064302067772@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/fixes
-    old: 8d13a6b5da1775aa64a8ab162d42b0f7f4042dce
-    new: b28fb1f2ef45eeef1cd2c23149b50d184d545a3e
+  - ref: refs/heads/for-next
+    old: a64dcfb451e254085a7daee5fe51bf22959d52d3
+    new: 3625f980635f5521ac71bb288a7d506952bc1ed8
     log: |
-         1b71c2fb04e7a713abc6edde4a412416ff3158f2 kbuild: userprogs: fix bitsize and target detection on clang
-         b28fb1f2ef45eeef1cd2c23149b50d184d545a3e modpost: Fix a few typos in a comment
+         8d8c6f1e2c58984b51c3ca7e62087cd2c5745204 gendwarfksyms: Add a separate pass to resolve FQNs
+         ba52129e291a3dc0dafe073a387c87b1f6124f1a kbuild: remove EXTRA_*FLAGS support
+         f078c170cc95d60c04dd3701a654d7035529dce0 gen_compile_commands.py: remove code for '\#' replacement
+         82d921327e8ab218a2489888637fa9327f497035 genksyms: factor out APP for the ST_NORMAL state
+         4f46725464e46b1e636113791ec47f18d80ab403 kconfig: do not clear SYMBOL_VALID when reading include/config/auto.conf
+         0d41503645827808e76c3629d4d044595d11fab2 kconfig: remove unnecessary cast in sym_get_string()
+         34c39b69cd9b5a121cc6d16de9fd54a8022d63c5 modpost: introduce get_basename() helper
+         3625f980635f5521ac71bb288a7d506952bc1ed8 modpost: use strstarts() to clean up parse_source_files()
          
