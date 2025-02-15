@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 15 Feb 2025 17:23:41 -0000
-Message-Id: <173964022170.1995403.11926564530823632919@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sat, 15 Feb 2025 17:23:45 -0000
+Message-Id: <173964022500.1995498.14702503533483974102@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 7f89ec6c4537f2d9fdee98e8a7ec694c21c661f2
-    new: 0784d83df3bfc977c13252a0599be924f0afa68d
+    old: 9593172d93b9f91c362baec4643003dc29802929
+    new: 071ed42cff4fcdd89025d966d48eabef59913bf2
     log: |
-         0784d83df3bfc977c13252a0599be924f0afa68d ndisc: ndisc_send_redirect() cleanup
+         071ed42cff4fcdd89025d966d48eabef59913bf2 net/sched: cls_api: fix error handling causing NULL dereference
          
