@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/cpu/mce/mcelog
-Date: Sat, 15 Feb 2025 19:26:52 -0000
-Message-Id: <173964761271.2094097.4159784032652961568@gitolite.kernel.org>
+Date: Sat, 15 Feb 2025 19:29:35 -0000
+Message-Id: <173964777599.2095720.13254431218413950911@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,11 +12,11 @@ repo: pub/scm/utils/cpu/mce/mcelog
 user: ak
 changes:
   - ref: refs/heads/master
-    old: fb3ab059ce0e989d382d2eb8afc77fed6a8666ad
-    new: f91b3c365b9f4b7db30772ad756a6e6def634bae
+    old: f91b3c365b9f4b7db30772ad756a6e6def634bae
+    new: ad244c6b60fcbd08a5d73497bfb3487983801598
     log: |
-         f91b3c365b9f4b7db30772ad756a6e6def634bae Add ability to retry failed page offlines with an exponential backoff
+         ad244c6b60fcbd08a5d73497bfb3487983801598 Enable offline retries by default
          
-  - ref: refs/tags/v203
+  - ref: refs/tags/v204
     old: 0000000000000000000000000000000000000000
-    new: f91b3c365b9f4b7db30772ad756a6e6def634bae
+    new: ad244c6b60fcbd08a5d73497bfb3487983801598
