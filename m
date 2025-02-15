@@ -1,84 +1,116 @@
-Content-Type: multipart/mixed; boundary="===============2234139258858987010=="
+Content-Type: multipart/mixed; boundary="===============7595086938320504020=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Sat, 15 Feb 2025 13:42:08 -0000
-Message-Id: <173962692859.1820652.4170102256577946633@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
+Date: Sat, 15 Feb 2025 13:59:04 -0000
+Message-Id: <173962794475.1832941.7437472030758819181@gitolite.kernel.org>
 
---===============2234139258858987010==
+--===============7595086938320504020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/utils/cryptsetup/cryptsetup
+user: mbroz
 changes:
-  - ref: refs/heads/for-next
-    old: 909964c59f7e00a84882e86283c229c080c5ca23
-    new: 270ef847f54069c3afd22be34a4504be12740fe1
+  - ref: refs/heads/main
+    old: a2b2c6a8aeb67b7d943eb54072762259c79edab2
+    new: 63f7dc739bcd348c7dc38b1e4871633a1b438caa
     log: |
-         edf5ce245323d104724a681603c78a154a9fb078 arm64: dts: exynos: gs101: drop explicit regmap from reboot nodes
-         6572a93ab35eb5a34c65d561bd00e32f3a4b7ab2 arm64: dts: exynos: gs101: align poweroff writes with downstream
-         ae32b65c93590b0d63f61fa628d9d0846e53587b arm64: dts: exynos: gs101: add reboot-mode support (SYSIP_DAT0)
-         d19d7345a7bcdb083b65568a11b11adffe0687af clk: samsung: Fix UBSAN panic in samsung_clk_init()
-         c8222ef6cf29dd7cad21643228f96535cc02b327 soc: samsung: exynos-chipid: Add NULL pointer check in exynos_chipid_probe()
-         270ef847f54069c3afd22be34a4504be12740fe1 Merge branches 'next/clk', 'next/dt64' and 'next/soc' into for-next
+         63f7dc739bcd348c7dc38b1e4871633a1b438caa fuzz: Better log from installation script
          
-  - ref: refs/heads/next/clk
-    old: 480b1825d3806d744c589064df4af2bdbe2c7c2a
-    new: d19d7345a7bcdb083b65568a11b11adffe0687af
+  - ref: refs/heads/master
+    old: a2b2c6a8aeb67b7d943eb54072762259c79edab2
+    new: 63f7dc739bcd348c7dc38b1e4871633a1b438caa
     log: |
-         d19d7345a7bcdb083b65568a11b11adffe0687af clk: samsung: Fix UBSAN panic in samsung_clk_init()
+         63f7dc739bcd348c7dc38b1e4871633a1b438caa fuzz: Better log from installation script
          
-  - ref: refs/heads/next/dt64
-    old: ee24a95b891a215b5fbd2f6814754301070653c0
-    new: ae32b65c93590b0d63f61fa628d9d0846e53587b
+  - ref: refs/merge-requests/420/merge
+    old: c1c1ab881f6a5f2bd896d5798ede6936c476ca79
+    new: 709ab608961c68bf5c50e9311c50fee794f3c8f0
     log: |
-         edf5ce245323d104724a681603c78a154a9fb078 arm64: dts: exynos: gs101: drop explicit regmap from reboot nodes
-         6572a93ab35eb5a34c65d561bd00e32f3a4b7ab2 arm64: dts: exynos: gs101: align poweroff writes with downstream
-         ae32b65c93590b0d63f61fa628d9d0846e53587b arm64: dts: exynos: gs101: add reboot-mode support (SYSIP_DAT0)
+         3899484be87eaa9b6d1553cac8881d254ab6efa7 fuzz: Fix use of PWD variable.
+         a2b2c6a8aeb67b7d943eb54072762259c79edab2 Add workaround for memory sanitizer that cannot recognize explicit_bzero.
+         709ab608961c68bf5c50e9311c50fee794f3c8f0 Merge branch 'xchacha20-random' into 'main'
          
-  - ref: refs/heads/next/soc
-    old: 1fdadc8418bebba39899f341c3acdb189668e7f3
-    new: c8222ef6cf29dd7cad21643228f96535cc02b327
+  - ref: refs/merge-requests/693/merge
+    old: 13619afd820b53874bc4b3a12bf90dedb51b7da6
+    new: ab973e7606c7a0ec9235355fed3b24e059bdab2f
     log: |
-         c8222ef6cf29dd7cad21643228f96535cc02b327 soc: samsung: exynos-chipid: Add NULL pointer check in exynos_chipid_probe()
+         3899484be87eaa9b6d1553cac8881d254ab6efa7 fuzz: Fix use of PWD variable.
+         a2b2c6a8aeb67b7d943eb54072762259c79edab2 Add workaround for memory sanitizer that cannot recognize explicit_bzero.
+         ab973e7606c7a0ec9235355fed3b24e059bdab2f Merge branch 'integrity-phmac' into 'main'
          
+  - ref: refs/merge-requests/750/head
+    old: 0f2696eb354a21df33b75f9e7619fde5b997b598
+    new: e180958b72d8c726d634818d2376b5a8eef6c11f
+    log: revlist-0f2696eb354a-e180958b72d8.txt
+  - ref: refs/merge-requests/750/merge
+    old: e53f6926e13063d6a34af9f4d4d874ef1cc34fd8
+    new: f85ad19111c43b8e6db0866fba3f6f2c34fa6d70
+    log: revlist-e53f6926e130-f85ad19111c4.txt
+  - ref: refs/merge-requests/753/merge
+    old: 594635270ecc6c2268c3f093d2b093bbce32a321
+    new: 3edf6ea977b80600c420608db87aa28f38514bc0
+    log: |
+         3899484be87eaa9b6d1553cac8881d254ab6efa7 fuzz: Fix use of PWD variable.
+         a2b2c6a8aeb67b7d943eb54072762259c79edab2 Add workaround for memory sanitizer that cannot recognize explicit_bzero.
+         3edf6ea977b80600c420608db87aa28f38514bc0 Merge branch 'internal-64bit-flags' into 'main'
+         
+  - ref: refs/merge-requests/755/merge
+    old: a9ebfbfeb8bed5a490be333a809ab9e7c839a5c0
+    new: 972fd4092e435a15253f0f97112e65ea6f4e1c9b
+    log: |
+         3899484be87eaa9b6d1553cac8881d254ab6efa7 fuzz: Fix use of PWD variable.
+         a2b2c6a8aeb67b7d943eb54072762259c79edab2 Add workaround for memory sanitizer that cannot recognize explicit_bzero.
+         972fd4092e435a15253f0f97112e65ea6f4e1c9b Merge branch 'verity-error' into 'main'
+         
+  - ref: refs/merge-requests/756/head
+    old: 0000000000000000000000000000000000000000
+    new: 94bb92e63c249814aab721b701ca4bb520f93a3c
+  - ref: refs/merge-requests/756/merge
+    old: 0000000000000000000000000000000000000000
+    new: 7bf23e1db595e4934cdc0e1638ad0e1810498d69
 
---===============2234139258858987010==
+--===============7595086938320504020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-0f2696eb354a-e180958b72d8.txt
 
-certificate version 0.1
-pusher krzk@kernel.org 1739626956 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1739626925-5b101cbc5175ced786303ad42028108fe6d0149b
+3899484be87eaa9b6d1553cac8881d254ab6efa7 fuzz: Fix use of PWD variable.
+a2b2c6a8aeb67b7d943eb54072762259c79edab2 Add workaround for memory sanitizer that cannot recognize explicit_bzero.
+9d3f4fd6c1defef32f8a2635a71ca5f81f7f7821 Add severeal helpers (get methods) for volume key.
+9894b5755ffa2b702a058e5ddcc50a209eccff3f Switch away from accessing volume key internals directly.
+6412c3ebe8ae5872112e222c27414d7cee44a2db Add crypt_safe_alloc_size helper.
+3ff181e2dcdef71b35526f699d184e7b5496f6f4 Harden and limit access to volume key internals.
+86d1204930afd8274c553e26ceceafa54e7b0b34 Indicate volume key with initialized key content.
+198e464d07cc1ff8b97461b9a26e394e827624b1 Simplify volume key compare helper.
+c8c0eab6a20de2dff82cad162a44716ec880bf83 Add strict compare volume key comparison for non-LUKS2 devices.
+311cf1aeb468b076a5e4218785b11cb9ec6b5738 Harden LUKS2 volume key compare helper.
+bed58352fb60092795160fe48a9cab84509e38ee Add temporary helpers to indicate uploaded volume key.
+e180958b72d8c726d634818d2376b5a8eef6c11f Remove volume key internals from internal API.
 
-909964c59f7e00a84882e86283c229c080c5ca23 270ef847f54069c3afd22be34a4504be12740fe1 refs/heads/for-next
-480b1825d3806d744c589064df4af2bdbe2c7c2a d19d7345a7bcdb083b65568a11b11adffe0687af refs/heads/next/clk
-ee24a95b891a215b5fbd2f6814754301070653c0 ae32b65c93590b0d63f61fa628d9d0846e53587b refs/heads/next/dt64
-1fdadc8418bebba39899f341c3acdb189668e7f3 c8222ef6cf29dd7cad21643228f96535cc02b327 refs/heads/next/soc
------BEGIN PGP SIGNATURE-----
+--===============7595086938320504020==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-e53f6926e130-f85ad19111c4.txt
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmewmcwQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD18i2D/9Wvw9iO0WBOemVFB7kdm0Mnu2tgqQYici0
-eWlsFS2CxhO3ekNpg9UYK9Lh3Kr7sym/W2QCQXfTvfwBG5x60D5+lHl/lhVlNnNj
-aahb1+4Zhe6opHJ4P1fqJoV4dRKHDGKACzBcFd1hfYDr8NckxhkHEjlorSuA0GNw
-0gHV18S5te6zIePG85tWOpVLBzfMWKSyCPZY/j3LW7pOeGBBcSHJbhuCCO389ki8
-K0iEqT9DgbS1DxoFoyWSBwYOuFCCJW00c+OtzTeNwQbBFqxURrOfr2c4XaPGOwa7
-BjDdWTU8YcpwHZSRGdJbFcfRyU4WaFQifbhBQntage2Z2rJlF/9u66xifevyv3T7
-MxeGW+BDjpDWcRmMuwYk8hK/PGvdZZxMKaOkp9+Io15r5YK4pRBj0K+22Px0bHtq
-wq0t9tVGkzuaaS7QVOtH+e+2txeHsYdjJL9+y93fyqfzGtnkQHrWbI5m07R6Y8iR
-+TV182b6hK0zKC+2/60ceMokj8cjLJUsAfTO6opn4v4aAn9aSgbYvNm1mczzq8dz
-HeqvyyzmCuEFbM83yTv9YlK2T6tmeusczpqeiT5rS4Cjr1HLCZJJCqILjLuJAvb2
-0S0ocrZtA4k9MkHDlKByLW5UxJE3Dvu5z0V1adVwiwIWV92C2QKdbLv9Sc7SnCVL
-V7C4dbLEYw==
-=0FFW
------END PGP SIGNATURE-----
+3899484be87eaa9b6d1553cac8881d254ab6efa7 fuzz: Fix use of PWD variable.
+a2b2c6a8aeb67b7d943eb54072762259c79edab2 Add workaround for memory sanitizer that cannot recognize explicit_bzero.
+9d3f4fd6c1defef32f8a2635a71ca5f81f7f7821 Add severeal helpers (get methods) for volume key.
+9894b5755ffa2b702a058e5ddcc50a209eccff3f Switch away from accessing volume key internals directly.
+6412c3ebe8ae5872112e222c27414d7cee44a2db Add crypt_safe_alloc_size helper.
+3ff181e2dcdef71b35526f699d184e7b5496f6f4 Harden and limit access to volume key internals.
+86d1204930afd8274c553e26ceceafa54e7b0b34 Indicate volume key with initialized key content.
+198e464d07cc1ff8b97461b9a26e394e827624b1 Simplify volume key compare helper.
+c8c0eab6a20de2dff82cad162a44716ec880bf83 Add strict compare volume key comparison for non-LUKS2 devices.
+311cf1aeb468b076a5e4218785b11cb9ec6b5738 Harden LUKS2 volume key compare helper.
+bed58352fb60092795160fe48a9cab84509e38ee Add temporary helpers to indicate uploaded volume key.
+e180958b72d8c726d634818d2376b5a8eef6c11f Remove volume key internals from internal API.
+f85ad19111c43b8e6db0866fba3f6f2c34fa6d70 Merge branch 'volume-key-changes' into 'main'
 
---===============2234139258858987010==--
+--===============7595086938320504020==--
