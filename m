@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Sat, 15 Feb 2025 18:13:55 -0000
-Message-Id: <173964323523.2035717.8497864145220982074@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fdmanana/linux
+Date: Sat, 15 Feb 2025 18:35:46 -0000
+Message-Id: <173964454624.2054490.13519514848376985168@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/fdmanana/linux
+user: fdmanana
 changes:
-  - ref: refs/heads/todo
-    old: 9a307cd2d656df87bcab0772285a3602af3e9a42
-    new: 6b64ee2d16d3226b28d727d6b77c860d404d2898
+  - ref: refs/heads/em-shrinker-6.13.2
+    old: cb468e9448a56cc96461fa10b799dd214609820d
+    new: b6295f9bcbf3c31393a3e3e27543e8c3ba298d01
     log: |
-         6b64ee2d16d3226b28d727d6b77c860d404d2898 What's cooking (2025/02 #05)
+         cde06411b45b7b1c081490a848e53cf014fe4ae1 btrfs: skip inodes without loaded extent maps when shrinking extent maps
+         b6295f9bcbf3c31393a3e3e27543e8c3ba298d01 btrfs: do regular iput instead of delayed iput during extent map shrinking
          
