@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Sat, 15 Feb 2025 19:01:41 -0000
-Message-Id: <173964610194.2074694.13470691622259658278@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/cpu/mce/mcelog
+Date: Sat, 15 Feb 2025 19:26:52 -0000
+Message-Id: <173964761271.2094097.4159784032652961568@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: rostedt
+repo: pub/scm/utils/cpu/mce/mcelog
+user: ak
 changes:
-  - ref: refs/heads/ring-buffer/fixes
-    old: b9b289edd70d130f489317bbd04c2103053a77e3
-    new: 97937834ae876f29565415ab15f1284666dc6be3
+  - ref: refs/heads/master
+    old: fb3ab059ce0e989d382d2eb8afc77fed6a8666ad
+    new: f91b3c365b9f4b7db30772ad756a6e6def634bae
     log: |
-         129fe718819cc5e24ea2f489db9ccd4371f0c6f6 tracing: Do not allow mmap() of persistent ring buffer
-         97937834ae876f29565415ab15f1284666dc6be3 ring-buffer: Update pages_touched to reflect persistent buffer content
+         f91b3c365b9f4b7db30772ad756a6e6def634bae Add ability to retry failed page offlines with an exponential backoff
          
+  - ref: refs/tags/v203
+    old: 0000000000000000000000000000000000000000
+    new: f91b3c365b9f4b7db30772ad756a6e6def634bae
