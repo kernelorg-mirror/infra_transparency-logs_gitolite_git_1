@@ -1,25 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 15 Feb 2025 01:11:24 -0000
-Message-Id: <173958188437.1215413.1726871787898653209@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Sat, 15 Feb 2025 01:13:21 -0000
+Message-Id: <173958200175.1216258.16967668972351673342@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/main
-    old: a24c6ccc1351d4fabdfc65888c13a36588b7650a
-    new: de38503b74e28c47e28ed800d2a8d12c713b2c63
+  - ref: refs/heads/dev
+    old: 7bc147fafd53a2a9ff7c22399491079e5bfffafc
+    new: 3051162fefef9af9f274266a2ad9d5d612d50ccc
     log: |
-         ea47e70e476ffb3fc8969c842d95609da24266b1 net: phy: remove fixup-related definitions from phy.h which are not used outside phylib
-         d3a0e217f850a768851974a6efbd70f5673bb584 net: phy: stop exporting feature arrays which aren't used outside phylib
-         ef6249e37df5eac72bacdfe0a3000b08ae153146 net: phy: stop exporting phy_queue_state_machine
-         6b2edfba74696e0defd181989c9effe911e6f54f net: phy: remove helper phy_is_internal
-         6041d8bf32013968c26ffb6d8700ef950d1ed0de Merge branch 'net-phy-clean-up-phy-h'
-         bf1b8e0abc39b01091995e10163c0592b4d8a296 documentation: networking: Add NAPI config
-         de38503b74e28c47e28ed800d2a8d12c713b2c63 net: remove phylink_pcs .neg_mode boolean
+         bc8ec19a4ed741c9b457387dcba2b647e819b16d erofs-utils: mkfs: fragment: gracefully exit if temporary storage is low
+         d180c898bd0842eaeb54ca0073e6f444bdae8c40 erofs-utils: mkfs: reduce default dict size for LZMA
+         5e05ee09a3bc7331549d8e141dac0ccaf30feda5 erofs-utils: mkfs: add missing `errno = 0` before strto[u]l
+         b6b741d8daafc933ada19c3c5143357f87fb0e53 erofs-utils: lib: get rid of tmpfile()
+         5115db2f754563674a8f5baf4107beccbd0baed9 erofs-utils: mkfs: add per-segment reaper for multi-threaded compression
+         a26cd36a5e87095aa3396a9cb65e74c6242ef825 erofs-utils: avoid overly large temporary buffers for compressed data
+         3051162fefef9af9f274266a2ad9d5d612d50ccc erofs-utils: lib: shorten EROFS_FRAGMENT_INMEM_SZ_MAX
          
