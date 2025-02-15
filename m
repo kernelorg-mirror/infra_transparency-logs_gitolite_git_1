@@ -1,20 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Sat, 15 Feb 2025 06:11:02 -0000
-Message-Id: <173959986294.1469272.5888661294165368876@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Sat, 15 Feb 2025 07:40:46 -0000
+Message-Id: <173960524627.1538839.5401200477308563792@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/master
-    old: ae6ebdc7840db906e97fa0a4f7e4d412325ce51f
-    new: 247caa57adfe1f55bf4f54c4b364d85c61289759
+  - ref: refs/heads/for-linus
+    old: 362ff1e7c6c20f8d6ebe20682870d471373c608b
+    new: 6a7ed7ee16a963f0ca028861eca8f8b365861dd1
     log: |
-         106544d1cd69acf2c89f25048d81e07da5454dca foo
-         247caa57adfe1f55bf4f54c4b364d85c61289759 foo
+         08b613b9e2ba431db3bd15cb68ca72472a50ef5c ALSA: hda/cirrus: Correct the full scale volume set logic
+         6a7ed7ee16a963f0ca028861eca8f8b365861dd1 ALSA: hda/cirrus: Reduce codec resume time
+         
+  - ref: refs/heads/master
+    old: ec00cfac7d0afa7747edc199ebfa69f9fc55d652
+    new: a3c12d818c7fb106bbe560e9b169a1307d511abb
+    log: |
+         08b613b9e2ba431db3bd15cb68ca72472a50ef5c ALSA: hda/cirrus: Correct the full scale volume set logic
+         6a7ed7ee16a963f0ca028861eca8f8b365861dd1 ALSA: hda/cirrus: Reduce codec resume time
+         a3c12d818c7fb106bbe560e9b169a1307d511abb Merge branch 'for-linus'
          
