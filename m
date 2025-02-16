@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3632589947575965254=="
+Content-Type: multipart/mixed; boundary="===============1678021252998234799=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux
-Date: Sun, 16 Feb 2025 02:00:01 -0000
-Message-Id: <173967120162.2397333.15299806008798069395@gitolite.kernel.org>
+Date: Sun, 16 Feb 2025 02:00:52 -0000
+Message-Id: <173967125251.2399271.15807876956010070107@gitolite.kernel.org>
 
---===============3632589947575965254==
+--===============1678021252998234799==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux
 user: shuah
 changes:
-  - ref: refs/heads/linux-safety
+  - ref: refs/heads/master
     old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
     new: a64dcfb451e254085a7daee5fe51bf22959d52d3
     log: revlist-40384c840ea1-a64dcfb451e2.txt
 
---===============3632589947575965254==
+--===============1678021252998234799==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ f4a45f14cf6902a96d9805ba51829054940ef3e7 Merge tag 'seccomp-v6.14-rc2' of git://
 69b54314c975f4dfd3a29d6b9211ab68fff46682 Merge tag 'kbuild-fixes-v6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 a64dcfb451e254085a7daee5fe51bf22959d52d3 Linux 6.14-rc2
 
---===============3632589947575965254==--
+--===============1678021252998234799==--
