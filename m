@@ -1,51 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============6368372918691322062=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Sun, 16 Feb 2025 21:12:04 -0000
-Message-Id: <173974032468.3346298.3145170096617669998@gitolite.kernel.org>
-
---===============6368372918691322062==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 16 Feb 2025 22:05:57 -0000
+Message-Id: <173974355745.3387554.7366064284860588054@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damo
-user: sj
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/next
-    old: a6cc37961bc32fa12c8304a31e0e529f1689dc5f
-    new: ebd36452219b407d1ea00085df22a475c2eb509c
-    log: revlist-a6cc37961bc3-ebd36452219b.txt
-
---===============6368372918691322062==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a6cc37961bc3-ebd36452219b.txt
-
-2192f8cf55730808253db354e2a4aabefbd7ac5c _damon: remove pass_filter feature
-5f006cf1bf866f4e109247d28a6990397828b91d _damon: update comments about 6.14-rc1 merged features
-74d38080ffab44d12a6b786d17052fff42f51a7a _damon: add hugepage_size damos filter feature on the list
-4637f5d84530154c0082c3473ecc6de76bda94a9 _damon_sysfs: set schemes_filters_hugepage_size feature support
-ea8e06395b54e354e6bcc05db2753c48d77a6435 damo_report_access: add --repeat option
-097b95e7e88142fee9f01311c15c9a2e22d9bf9e damo_report_access: do infinite repeat if --repeat is given without arguments
-c1d7a708cd510d8b9133bce8515bb48f06470c4e damo_report_access: handle signal during repeats
-4cbbc5086b44203a545f0fabf30dfc2c3941a3f2 damo_report_access: add snapshot formatter for filter-passed memory bandwidth
-425a427471ae3626c2a02578fb9fd623b5c2da4d damo_report_access: show df-passed memory bandwidth estimation when filters are installed
-51fe6e3aa38c1f4c627df6cad4e2326cb1c16602 damo_report_access: don't use pager if --repeat is given
-63c58e744527b4883a634c7b2be2cecba185603b Add a module for subprocess handling
-9fbef27bc2217ca79825f032b4f8ba2cd09e9ef0 _damo_records: use _damo_subproc.avail_cmd()
-025af157145e800d37209bba0afde30cf08e6be2 _damon_args: use _damo_subproc.avail_cmd()
-4d73b9f3e9cfe35c08081e2bfaf81e1437958bdd damo_report_access: represent void reegions as [...] for only large void
-84264903f07a1f4e62a7efca4f646813001f3b12 damo_report_acceess: add an option to draw snapshot heatmap inelastically
-acde6410bfad7266fbc506e4448825387e52e70d _damon_args: support 'deny' and 'block' for rejecting filter
-87631f77cc66735a7703e73a132efa611bb3d441 _damn_args: fix wrong indentation of final error case on damos_filter_with_optional_args()
-4fe65bcf1646ecce16974e6b8b847b2c5343d28c damo_report_access: add a new style, 'cold'
-9684f200b93fdef691ccee3bd821f80b193990e5 damo_report_access: add a new style, 'hot'
-d4554bfbb9a760b7fbd85a93863658bd5b3900f5 README: use --repeat option of report access
-ebd36452219b407d1ea00085df22a475c2eb509c release_note: update for next release
-
---===============6368372918691322062==--
+  - ref: refs/heads/master
+    old: 224e74511041c2d33dcf24adf54d447eb72399c8
+    new: 0ad2507d5d93f39619fc42372c347d6006b64319
+    log: |
+         0ad2507d5d93f39619fc42372c347d6006b64319 Linux 6.14-rc3
+         
+  - ref: refs/tags/v6.14-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 2db77e8810aa26c8cd3fa119037f753a68b7dce4
