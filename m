@@ -1,73 +1,233 @@
-Content-Type: multipart/mixed; boundary="===============5366220510000927915=="
+Content-Type: multipart/mixed; boundary="===============0457891404365056442=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Sun, 16 Feb 2025 19:49:34 -0000
-Message-Id: <173973537448.3282070.14365677766297274699@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
+Date: Sun, 16 Feb 2025 19:53:59 -0000
+Message-Id: <173973563959.3285468.10134684003929918538@gitolite.kernel.org>
 
---===============5366220510000927915==
+--===============0457891404365056442==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/utils/cryptsetup/cryptsetup
+user: mbroz
 changes:
+  - ref: refs/heads/internal-64bit-flags
+    old: fa0e49795b90f09a4a5cd3b385a39c992beb05a2
+    new: 7ee0b02967c7524e9cbf90c14d0b058d7d5d29a4
+    log: revlist-fa0e49795b90-7ee0b02967c7.txt
+  - ref: refs/heads/main
+    old: 63f7dc739bcd348c7dc38b1e4871633a1b438caa
+    new: 036ed529994c83c2d653a21a663edc509e4163f5
+    log: |
+         fd9be9e777c14ab70ba9d91233dc1d7c00ba9482 Add severeal helpers (get methods) for volume key.
+         54d937dfc7846cbdf8faeec5ae80b8686bb1ba8e Switch away from accessing volume key internals directly.
+         f86ab28ad6a42091701a373961105c7ff361cfb8 Add crypt_safe_alloc_size helper.
+         6ee76934fabe0163d4c12126a6847b33f9286b77 Harden and limit access to volume key internals.
+         843fac813f3a13f8623a9aee56aaa9047a981e9e Indicate volume key with initialized key content.
+         f421ec08002c22edf97f7c4d1e29892deb8700c8 Simplify volume key compare helper.
+         6123ea2e0b3ae781b5b03897ad55ce8f90d06fd9 Add strict compare volume key comparison for non-LUKS2 devices.
+         9e0bcedbaa1ffd419f3131bf2ec691d3a3fefe51 Harden LUKS2 volume key compare helper.
+         1bec71dbe1762f936998b5b6c5152e975d91c385 Add temporary helpers to indicate uploaded volume key.
+         036ed529994c83c2d653a21a663edc509e4163f5 Remove volume key internals from internal API.
+         
   - ref: refs/heads/master
-    old: ad1b832bf1cf2df9304f8eb72943111625c7e5a7
-    new: ba643b6d84409e8a9057d5bdd6dd99255b1a88fe
-    log: revlist-ad1b832bf1cf-ba643b6d8440.txt
+    old: 63f7dc739bcd348c7dc38b1e4871633a1b438caa
+    new: 036ed529994c83c2d653a21a663edc509e4163f5
+    log: |
+         fd9be9e777c14ab70ba9d91233dc1d7c00ba9482 Add severeal helpers (get methods) for volume key.
+         54d937dfc7846cbdf8faeec5ae80b8686bb1ba8e Switch away from accessing volume key internals directly.
+         f86ab28ad6a42091701a373961105c7ff361cfb8 Add crypt_safe_alloc_size helper.
+         6ee76934fabe0163d4c12126a6847b33f9286b77 Harden and limit access to volume key internals.
+         843fac813f3a13f8623a9aee56aaa9047a981e9e Indicate volume key with initialized key content.
+         f421ec08002c22edf97f7c4d1e29892deb8700c8 Simplify volume key compare helper.
+         6123ea2e0b3ae781b5b03897ad55ce8f90d06fd9 Add strict compare volume key comparison for non-LUKS2 devices.
+         9e0bcedbaa1ffd419f3131bf2ec691d3a3fefe51 Harden LUKS2 volume key compare helper.
+         1bec71dbe1762f936998b5b6c5152e975d91c385 Add temporary helpers to indicate uploaded volume key.
+         036ed529994c83c2d653a21a663edc509e4163f5 Remove volume key internals from internal API.
+         
+  - ref: refs/heads/verity-error
+    old: d523d3cf1ea54c4741e50c6e118f58c75bae0930
+    new: dded9b3305106f39efc8d32909a532ce30e4c271
+    log: revlist-d523d3cf1ea5-dded9b330510.txt
+  - ref: refs/merge-requests/750/head
+    old: e180958b72d8c726d634818d2376b5a8eef6c11f
+    new: 036ed529994c83c2d653a21a663edc509e4163f5
+    log: |
+         63f7dc739bcd348c7dc38b1e4871633a1b438caa fuzz: Better log from installation script
+         fd9be9e777c14ab70ba9d91233dc1d7c00ba9482 Add severeal helpers (get methods) for volume key.
+         54d937dfc7846cbdf8faeec5ae80b8686bb1ba8e Switch away from accessing volume key internals directly.
+         f86ab28ad6a42091701a373961105c7ff361cfb8 Add crypt_safe_alloc_size helper.
+         6ee76934fabe0163d4c12126a6847b33f9286b77 Harden and limit access to volume key internals.
+         843fac813f3a13f8623a9aee56aaa9047a981e9e Indicate volume key with initialized key content.
+         f421ec08002c22edf97f7c4d1e29892deb8700c8 Simplify volume key compare helper.
+         6123ea2e0b3ae781b5b03897ad55ce8f90d06fd9 Add strict compare volume key comparison for non-LUKS2 devices.
+         9e0bcedbaa1ffd419f3131bf2ec691d3a3fefe51 Harden LUKS2 volume key compare helper.
+         1bec71dbe1762f936998b5b6c5152e975d91c385 Add temporary helpers to indicate uploaded volume key.
+         036ed529994c83c2d653a21a663edc509e4163f5 Remove volume key internals from internal API.
+         
+  - ref: refs/merge-requests/750/merge
+    old: f85ad19111c43b8e6db0866fba3f6f2c34fa6d70
+    new: 4fd52a81c8c27f33f4f8ee997a506dc9dd5962d2
+    log: revlist-f85ad19111c4-4fd52a81c8c2.txt
+  - ref: refs/merge-requests/753/head
+    old: fa0e49795b90f09a4a5cd3b385a39c992beb05a2
+    new: 7ee0b02967c7524e9cbf90c14d0b058d7d5d29a4
+    log: revlist-fa0e49795b90-7ee0b02967c7.txt
+  - ref: refs/merge-requests/753/merge
+    old: 3edf6ea977b80600c420608db87aa28f38514bc0
+    new: ac16545770f7abd52559bfe113cd62aac3fec3c5
+    log: revlist-3edf6ea977b8-ac16545770f7.txt
+  - ref: refs/merge-requests/755/head
+    old: d523d3cf1ea54c4741e50c6e118f58c75bae0930
+    new: dded9b3305106f39efc8d32909a532ce30e4c271
+    log: revlist-d523d3cf1ea5-dded9b330510.txt
+  - ref: refs/merge-requests/755/merge
+    old: 972fd4092e435a15253f0f97112e65ea6f4e1c9b
+    new: c5e421bf5126fde4d552216189b5e95be6bd6aed
+    log: revlist-972fd4092e43-c5e421bf5126.txt
+  - ref: refs/merge-requests/756/merge
+    old: 7bf23e1db595e4934cdc0e1638ad0e1810498d69
+    new: 942f1eaff1afddae4665e5707d1e0ca64aa165e2
+    log: revlist-7bf23e1db595-942f1eaff1af.txt
 
---===============5366220510000927915==
+--===============0457891404365056442==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ad1b832bf1cf-ba643b6d8440.txt
+Content-Disposition: attachment; filename=revlist-fa0e49795b90-7ee0b02967c7.txt
 
-3724062ca2b1364f02cf44dbea1a552227844ad1 objtool: Ignore dangling jump table entries
-7e501637bd5b702a2fa627e903a0025654110e1e objtool: Move dodgy linker warn to verbose
-bcc6244e13b4d4903511a1ea84368abf925031c0 sched: Clarify wake_up_q()'s write to task->wake_q.next
-469c76a83bb9f6b2c7b2989c46617c4fe01fee79 perf/x86/rapl: Fix the error checking order
-0a5561501397e2bbd0fb0e300eb489f72a90597a perf/x86/intel: Clean up PEBS-via-PT on hybrid
-47a973fd75639fe80d59f9e1860113bb2a0b112b perf/x86/intel: Fix ARCH_PERFMON_NUM_COUNTER_LEAF
-c631a2de7ae48d50434bdc205d901423f8577c65 perf/x86/intel: Ensure LBRs are disabled when a CPU is starting
-c53fbdb60fb61fd6bda2bc0dc89837966625c5dc KVM: arm64: Improve error handling from check_host_shared_guest()
-eabc7aaef7a553b64bf6e631ce04526af6c8d104 KVM: arm64: Simplify np-guest hypercalls
-8dbccafce3c8ae026606f5c7bc6637667d9d5595 KVM: arm64: Fix __pkvm_host_mkyoung_guest() return value
-a8de7f100bb5989d9c3627d3a223ee1c863f3b69 KVM: x86: Reject Hyper-V's SEND_IPI hypercalls if local APIC isn't in-kernel
-0b6db0dc43eefb4f89181546785c3609fd276524 KVM: selftests: Mark test_hv_cpuid_e2big() static in Hyper-V CPUID test
-cd5a0c2f0faeb4a3fab3b78f6693a2d55ee51efa KVM: selftests: Manage CPUID array in Hyper-V CPUID test's core helper
-e36454461c5ebe6372952560b2abad5dc9ac579d KVM: selftests: Add CPUID tests for Hyper-V features that need in-kernel APIC
-46d6c6f3ef0eaff71c2db6d77d4e2ebb7adac34f KVM: nSVM: Enter guest mode before initializing nested NPT MMU
-c2fee09fc167c74a64adb08656cb993ea475197e KVM: x86: Load DR6 with guest value only before entering .vcpu_run() loop
-ed975485a13d1f6080218aa71c29425ba2dfb332 MIPS: Export syscall stack arguments properly for remote use
-733a90561ad0a4a74035d2d627098da85d43b592 MIPS: fix mips_get_syscall_arg() for o32
-4cf7d58620bfc2ebe934e3dfa97208f13f14ab8b genirq: Remove unused CONFIG_GENERIC_PENDING_IRQ_CHIPFLAGS
-fbc7e61195e23f744814e78524b73b59faa54ab4 KVM: arm64: Unconditionally save+flush host FPSIMD/SVE/SME state
-8eca7f6d5100b6997df4f532090bc3f7e0203bef KVM: arm64: Remove host FPSIMD saving for non-protected KVM
-459f059be702056d91537b99a129994aa6ccdd35 KVM: arm64: Remove VHE host restore of CPACR_EL1.ZEN
-407a99c4654e8ea65393f412c421a55cac539f5b KVM: arm64: Remove VHE host restore of CPACR_EL1.SMEN
-ee14db31a9c84e65f5adfd45598760d851f1d817 KVM: arm64: Refactor CPTR trap deactivation
-9b66195063c5a145843547b1d692bd189be85287 KVM: arm64: Refactor exit handlers
-f9dd00de1e53a47763dfad601635d18542c3836d KVM: arm64: Mark some header functions as inline
-59419f10045bc955d2229819c7cf7a8b0b9c5b59 KVM: arm64: Eagerly switch ZCR_EL{1,2}
-332b7e6d62b7a3a988017f5184e547aa20e3a19a KVM: arm64: Simplify warning in kvm_arch_vcpu_load_fp()
-65729da9ce37f5a2c62e2542ef03bc9ac6775a7d KVM: arm64: Convert timer offset VA when accessed in HYP code
-b938731ed2d4eea8e268a27bfc600581fedae2a9 KVM: arm64: Fix alignment of kvm_hyp_memcache allocations
-e6e3e0022ef8f1d584ee4d5b89dca02472c5eb1f KVM: arm64: timer: Drop warning on failed interrupt signalling
-b3aa9283c0c505b5cfd25f7d6cfd720de2adc807 KVM: arm64: vgic: Hoist SGI/PPI alloc from vgic_init() to kvm_create_vgic()
-3bb7dcebd022fea8a696185592d21bceed7b426c Merge tag 'kvmarm-fixes-6.14-2' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
-435b344a7042e91fb4719d589f18310e8919e39f crypto: ccp: Add external API interface for PSP module initialization
-44e70718df4fc2fadf1665eb9374df71aeda1f03 KVM: SVM: Ensure PSP module is initialized if KVM module is built-in
-409f45387c937145adeeeebc6d6032c2ec232b35 x86/sev: Fix broken SNP support with KVM module built-in
-d3d0b8dfe06098d6d584266c35e9a0947f5b7132 Merge tag 'kvm-x86-fixes-6.14-rcN' of https://github.com/kvm-x86/linux into HEAD
-b878a1c072a4912e14a38e90a8b1883d4c513d9d Merge tag 'mips-fixes_6.14_1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
-82ff31645685559e3732f7143538c9fe88221453 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
-592c358ea963d7227e3e7b8ace91b2b5dd81f6cb Merge tag 'objtool_urgent_for_v6.14_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-ff3b373ecc88098103b6ae80d96d6527210b2e64 Merge tag 'sched_urgent_for_v6.14_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-ff1848d81ca63e49bce57c29ffb12c6539333ac4 Merge tag 'perf_urgent_for_v6.14_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-ba643b6d84409e8a9057d5bdd6dd99255b1a88fe Merge tag 'irq_urgent_for_v6.14_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+3899484be87eaa9b6d1553cac8881d254ab6efa7 fuzz: Fix use of PWD variable.
+a2b2c6a8aeb67b7d943eb54072762259c79edab2 Add workaround for memory sanitizer that cannot recognize explicit_bzero.
+63f7dc739bcd348c7dc38b1e4871633a1b438caa fuzz: Better log from installation script
+fd9be9e777c14ab70ba9d91233dc1d7c00ba9482 Add severeal helpers (get methods) for volume key.
+54d937dfc7846cbdf8faeec5ae80b8686bb1ba8e Switch away from accessing volume key internals directly.
+f86ab28ad6a42091701a373961105c7ff361cfb8 Add crypt_safe_alloc_size helper.
+6ee76934fabe0163d4c12126a6847b33f9286b77 Harden and limit access to volume key internals.
+843fac813f3a13f8623a9aee56aaa9047a981e9e Indicate volume key with initialized key content.
+f421ec08002c22edf97f7c4d1e29892deb8700c8 Simplify volume key compare helper.
+6123ea2e0b3ae781b5b03897ad55ce8f90d06fd9 Add strict compare volume key comparison for non-LUKS2 devices.
+9e0bcedbaa1ffd419f3131bf2ec691d3a3fefe51 Harden LUKS2 volume key compare helper.
+1bec71dbe1762f936998b5b6c5152e975d91c385 Add temporary helpers to indicate uploaded volume key.
+036ed529994c83c2d653a21a663edc509e4163f5 Remove volume key internals from internal API.
+c497945ab34ad290d03481ae3f360af52d8ff236 Make internal dm_flags 64bit.
+f07854ab4f914c0a37be1deea25e92ac16928db4 Make libdevmapper internal flags 64bit.
+a3455befe78489e55a7244205188f93b37bc34a9 Sync libdevmapper flags in tests.
+7ee0b02967c7524e9cbf90c14d0b058d7d5d29a4 Make test libdevmapper flags 64bit.
 
---===============5366220510000927915==--
+--===============0457891404365056442==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d523d3cf1ea5-dded9b330510.txt
+
+3899484be87eaa9b6d1553cac8881d254ab6efa7 fuzz: Fix use of PWD variable.
+a2b2c6a8aeb67b7d943eb54072762259c79edab2 Add workaround for memory sanitizer that cannot recognize explicit_bzero.
+63f7dc739bcd348c7dc38b1e4871633a1b438caa fuzz: Better log from installation script
+fd9be9e777c14ab70ba9d91233dc1d7c00ba9482 Add severeal helpers (get methods) for volume key.
+54d937dfc7846cbdf8faeec5ae80b8686bb1ba8e Switch away from accessing volume key internals directly.
+f86ab28ad6a42091701a373961105c7ff361cfb8 Add crypt_safe_alloc_size helper.
+6ee76934fabe0163d4c12126a6847b33f9286b77 Harden and limit access to volume key internals.
+843fac813f3a13f8623a9aee56aaa9047a981e9e Indicate volume key with initialized key content.
+f421ec08002c22edf97f7c4d1e29892deb8700c8 Simplify volume key compare helper.
+6123ea2e0b3ae781b5b03897ad55ce8f90d06fd9 Add strict compare volume key comparison for non-LUKS2 devices.
+9e0bcedbaa1ffd419f3131bf2ec691d3a3fefe51 Harden LUKS2 volume key compare helper.
+1bec71dbe1762f936998b5b6c5152e975d91c385 Add temporary helpers to indicate uploaded volume key.
+036ed529994c83c2d653a21a663edc509e4163f5 Remove volume key internals from internal API.
+c497945ab34ad290d03481ae3f360af52d8ff236 Make internal dm_flags 64bit.
+f07854ab4f914c0a37be1deea25e92ac16928db4 Make libdevmapper internal flags 64bit.
+a3455befe78489e55a7244205188f93b37bc34a9 Sync libdevmapper flags in tests.
+7ee0b02967c7524e9cbf90c14d0b058d7d5d29a4 Make test libdevmapper flags 64bit.
+41b8b02ccf586df0fd1790bafb8fcc009b12e59a verity: Add support for restart/panic on error flag.
+dded9b3305106f39efc8d32909a532ce30e4c271 veritysetup: Support --error-as-corruption option.
+
+--===============0457891404365056442==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-f85ad19111c4-4fd52a81c8c2.txt
+
+63f7dc739bcd348c7dc38b1e4871633a1b438caa fuzz: Better log from installation script
+fd9be9e777c14ab70ba9d91233dc1d7c00ba9482 Add severeal helpers (get methods) for volume key.
+54d937dfc7846cbdf8faeec5ae80b8686bb1ba8e Switch away from accessing volume key internals directly.
+f86ab28ad6a42091701a373961105c7ff361cfb8 Add crypt_safe_alloc_size helper.
+6ee76934fabe0163d4c12126a6847b33f9286b77 Harden and limit access to volume key internals.
+843fac813f3a13f8623a9aee56aaa9047a981e9e Indicate volume key with initialized key content.
+f421ec08002c22edf97f7c4d1e29892deb8700c8 Simplify volume key compare helper.
+6123ea2e0b3ae781b5b03897ad55ce8f90d06fd9 Add strict compare volume key comparison for non-LUKS2 devices.
+9e0bcedbaa1ffd419f3131bf2ec691d3a3fefe51 Harden LUKS2 volume key compare helper.
+1bec71dbe1762f936998b5b6c5152e975d91c385 Add temporary helpers to indicate uploaded volume key.
+036ed529994c83c2d653a21a663edc509e4163f5 Remove volume key internals from internal API.
+4fd52a81c8c27f33f4f8ee997a506dc9dd5962d2 Merge branch 'volume-key-changes' into 'main'
+
+--===============0457891404365056442==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-3edf6ea977b8-ac16545770f7.txt
+
+63f7dc739bcd348c7dc38b1e4871633a1b438caa fuzz: Better log from installation script
+fd9be9e777c14ab70ba9d91233dc1d7c00ba9482 Add severeal helpers (get methods) for volume key.
+54d937dfc7846cbdf8faeec5ae80b8686bb1ba8e Switch away from accessing volume key internals directly.
+f86ab28ad6a42091701a373961105c7ff361cfb8 Add crypt_safe_alloc_size helper.
+6ee76934fabe0163d4c12126a6847b33f9286b77 Harden and limit access to volume key internals.
+843fac813f3a13f8623a9aee56aaa9047a981e9e Indicate volume key with initialized key content.
+f421ec08002c22edf97f7c4d1e29892deb8700c8 Simplify volume key compare helper.
+6123ea2e0b3ae781b5b03897ad55ce8f90d06fd9 Add strict compare volume key comparison for non-LUKS2 devices.
+9e0bcedbaa1ffd419f3131bf2ec691d3a3fefe51 Harden LUKS2 volume key compare helper.
+1bec71dbe1762f936998b5b6c5152e975d91c385 Add temporary helpers to indicate uploaded volume key.
+036ed529994c83c2d653a21a663edc509e4163f5 Remove volume key internals from internal API.
+c497945ab34ad290d03481ae3f360af52d8ff236 Make internal dm_flags 64bit.
+f07854ab4f914c0a37be1deea25e92ac16928db4 Make libdevmapper internal flags 64bit.
+a3455befe78489e55a7244205188f93b37bc34a9 Sync libdevmapper flags in tests.
+7ee0b02967c7524e9cbf90c14d0b058d7d5d29a4 Make test libdevmapper flags 64bit.
+ac16545770f7abd52559bfe113cd62aac3fec3c5 Merge branch 'internal-64bit-flags' into 'main'
+
+--===============0457891404365056442==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-972fd4092e43-c5e421bf5126.txt
+
+63f7dc739bcd348c7dc38b1e4871633a1b438caa fuzz: Better log from installation script
+fd9be9e777c14ab70ba9d91233dc1d7c00ba9482 Add severeal helpers (get methods) for volume key.
+54d937dfc7846cbdf8faeec5ae80b8686bb1ba8e Switch away from accessing volume key internals directly.
+f86ab28ad6a42091701a373961105c7ff361cfb8 Add crypt_safe_alloc_size helper.
+6ee76934fabe0163d4c12126a6847b33f9286b77 Harden and limit access to volume key internals.
+843fac813f3a13f8623a9aee56aaa9047a981e9e Indicate volume key with initialized key content.
+f421ec08002c22edf97f7c4d1e29892deb8700c8 Simplify volume key compare helper.
+6123ea2e0b3ae781b5b03897ad55ce8f90d06fd9 Add strict compare volume key comparison for non-LUKS2 devices.
+9e0bcedbaa1ffd419f3131bf2ec691d3a3fefe51 Harden LUKS2 volume key compare helper.
+1bec71dbe1762f936998b5b6c5152e975d91c385 Add temporary helpers to indicate uploaded volume key.
+036ed529994c83c2d653a21a663edc509e4163f5 Remove volume key internals from internal API.
+c497945ab34ad290d03481ae3f360af52d8ff236 Make internal dm_flags 64bit.
+f07854ab4f914c0a37be1deea25e92ac16928db4 Make libdevmapper internal flags 64bit.
+a3455befe78489e55a7244205188f93b37bc34a9 Sync libdevmapper flags in tests.
+7ee0b02967c7524e9cbf90c14d0b058d7d5d29a4 Make test libdevmapper flags 64bit.
+41b8b02ccf586df0fd1790bafb8fcc009b12e59a verity: Add support for restart/panic on error flag.
+dded9b3305106f39efc8d32909a532ce30e4c271 veritysetup: Support --error-as-corruption option.
+c5e421bf5126fde4d552216189b5e95be6bd6aed Merge branch 'verity-error' into 'main'
+
+--===============0457891404365056442==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-7bf23e1db595-942f1eaff1af.txt
+
+63f7dc739bcd348c7dc38b1e4871633a1b438caa fuzz: Better log from installation script
+fd9be9e777c14ab70ba9d91233dc1d7c00ba9482 Add severeal helpers (get methods) for volume key.
+54d937dfc7846cbdf8faeec5ae80b8686bb1ba8e Switch away from accessing volume key internals directly.
+f86ab28ad6a42091701a373961105c7ff361cfb8 Add crypt_safe_alloc_size helper.
+6ee76934fabe0163d4c12126a6847b33f9286b77 Harden and limit access to volume key internals.
+843fac813f3a13f8623a9aee56aaa9047a981e9e Indicate volume key with initialized key content.
+f421ec08002c22edf97f7c4d1e29892deb8700c8 Simplify volume key compare helper.
+6123ea2e0b3ae781b5b03897ad55ce8f90d06fd9 Add strict compare volume key comparison for non-LUKS2 devices.
+9e0bcedbaa1ffd419f3131bf2ec691d3a3fefe51 Harden LUKS2 volume key compare helper.
+1bec71dbe1762f936998b5b6c5152e975d91c385 Add temporary helpers to indicate uploaded volume key.
+036ed529994c83c2d653a21a663edc509e4163f5 Remove volume key internals from internal API.
+942f1eaff1afddae4665e5707d1e0ca64aa165e2 Merge branch 'optimize-luks2-metadata-updates' into 'main'
+
+--===============0457891404365056442==--
