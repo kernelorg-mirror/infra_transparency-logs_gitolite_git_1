@@ -1,38 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============2746930266026248504=="
+Content-Type: multipart/mixed; boundary="===============8035291261719216134=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 16 Feb 2025 18:55:56 -0000
-Message-Id: <173973215616.3241015.16441382894978054743@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sun, 16 Feb 2025 18:59:04 -0000
+Message-Id: <173973234478.3242232.16498763456520217486@gitolite.kernel.org>
 
---===============2746930266026248504==
+--===============8035291261719216134==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
   - ref: refs/heads/master
-    old: ad1b832bf1cf2df9304f8eb72943111625c7e5a7
-    new: ba643b6d84409e8a9057d5bdd6dd99255b1a88fe
-    log: revlist-ad1b832bf1cf-ba643b6d8440.txt
+    old: 6836f20b462f296d340ea3baa8323e62e10d7f3b
+    new: 22d95660ef4451653a2cd30fb7e8fed21dccdc3e
+    log: revlist-6836f20b462f-22d95660ef44.txt
 
---===============2746930266026248504==
+--===============8035291261719216134==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ad1b832bf1cf-ba643b6d8440.txt
+Content-Disposition: attachment; filename=revlist-6836f20b462f-22d95660ef44.txt
 
-3724062ca2b1364f02cf44dbea1a552227844ad1 objtool: Ignore dangling jump table entries
-7e501637bd5b702a2fa627e903a0025654110e1e objtool: Move dodgy linker warn to verbose
-bcc6244e13b4d4903511a1ea84368abf925031c0 sched: Clarify wake_up_q()'s write to task->wake_q.next
-469c76a83bb9f6b2c7b2989c46617c4fe01fee79 perf/x86/rapl: Fix the error checking order
-0a5561501397e2bbd0fb0e300eb489f72a90597a perf/x86/intel: Clean up PEBS-via-PT on hybrid
-47a973fd75639fe80d59f9e1860113bb2a0b112b perf/x86/intel: Fix ARCH_PERFMON_NUM_COUNTER_LEAF
-c631a2de7ae48d50434bdc205d901423f8577c65 perf/x86/intel: Ensure LBRs are disabled when a CPU is starting
 c53fbdb60fb61fd6bda2bc0dc89837966625c5dc KVM: arm64: Improve error handling from check_host_shared_guest()
 eabc7aaef7a553b64bf6e631ce04526af6c8d104 KVM: arm64: Simplify np-guest hypercalls
 8dbccafce3c8ae026606f5c7bc6637667d9d5595 KVM: arm64: Fix __pkvm_host_mkyoung_guest() return value
@@ -44,7 +37,6 @@ e36454461c5ebe6372952560b2abad5dc9ac579d KVM: selftests: Add CPUID tests for Hyp
 c2fee09fc167c74a64adb08656cb993ea475197e KVM: x86: Load DR6 with guest value only before entering .vcpu_run() loop
 ed975485a13d1f6080218aa71c29425ba2dfb332 MIPS: Export syscall stack arguments properly for remote use
 733a90561ad0a4a74035d2d627098da85d43b592 MIPS: fix mips_get_syscall_arg() for o32
-4cf7d58620bfc2ebe934e3dfa97208f13f14ab8b genirq: Remove unused CONFIG_GENERIC_PENDING_IRQ_CHIPFLAGS
 fbc7e61195e23f744814e78524b73b59faa54ab4 KVM: arm64: Unconditionally save+flush host FPSIMD/SVE/SME state
 8eca7f6d5100b6997df4f532090bc3f7e0203bef KVM: arm64: Remove host FPSIMD saving for non-protected KVM
 459f059be702056d91537b99a129994aa6ccdd35 KVM: arm64: Remove VHE host restore of CPACR_EL1.ZEN
@@ -69,5 +61,6 @@ b878a1c072a4912e14a38e90a8b1883d4c513d9d Merge tag 'mips-fixes_6.14_1' of git://
 ff3b373ecc88098103b6ae80d96d6527210b2e64 Merge tag 'sched_urgent_for_v6.14_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ff1848d81ca63e49bce57c29ffb12c6539333ac4 Merge tag 'perf_urgent_for_v6.14_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ba643b6d84409e8a9057d5bdd6dd99255b1a88fe Merge tag 'irq_urgent_for_v6.14_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+22d95660ef4451653a2cd30fb7e8fed21dccdc3e Merge branch 'linus'
 
---===============2746930266026248504==--
+--===============8035291261719216134==--
