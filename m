@@ -1,74 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============1374841865198416784=="
+Content-Type: multipart/mixed; boundary="===============6368372918691322062=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 16 Feb 2025 21:00:03 -0000
-Message-Id: <173973960321.3336789.318200142972738707@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Sun, 16 Feb 2025 21:12:04 -0000
+Message-Id: <173974032468.3346298.3145170096617669998@gitolite.kernel.org>
 
---===============1374841865198416784==
+--===============6368372918691322062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/sj/damo
+user: sj
 changes:
-  - ref: refs/heads/master
-    old: ba643b6d84409e8a9057d5bdd6dd99255b1a88fe
-    new: 224e74511041c2d33dcf24adf54d447eb72399c8
-    log: revlist-ba643b6d8440-224e74511041.txt
+  - ref: refs/heads/next
+    old: a6cc37961bc32fa12c8304a31e0e529f1689dc5f
+    new: ebd36452219b407d1ea00085df22a475c2eb509c
+    log: revlist-a6cc37961bc3-ebd36452219b.txt
 
---===============1374841865198416784==
+--===============6368372918691322062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ba643b6d8440-224e74511041.txt
+Content-Disposition: attachment; filename=revlist-a6cc37961bc3-ebd36452219b.txt
 
-9e8b21410f310c50733f6e1730bae5a8e30d3570 usb: gadget: f_midi: Fixing wMaxPacketSize exceeded issue during MIDI bind retries
-309005e448c1f3e4b81e4416406991b7c3339c1d usb: phy: generic: Use proper helper for property detection
-1ed3af5a2aaefd0ecd887ecabdc8da07220e31fe usb: dwc3: Document nostream_work
-335a1fc1193481f8027f176649c72868172f6f8b usb: gadget: udc: renesas_usb3: Fix compiler warning
-2240fed37afbcdb5e8b627bc7ad986891100e05d USB: hub: Ignore non-compliant devices with too many configs or interfaces
-58cd423820d5b5610977e55e4acdd06628829ede usb: dwc2: gadget: remove of_node reference upon udc_stop
-da1668997052ed1cb00322e1f3b63702615c9429 usb: gadget: f_midi: fix MIDI Streaming descriptor lengths
-e8ed246ded863eb862806c5591afdcf70012ab5e serial: sc16is7xx: Fix IRQ number check behavior
-166ac2bba167d575e7146beaa66093bc7c072f43 serial: port: Assign ->iotype correctly when ->iobase is set
-e8486bd50ecf63c9a1e25271f258a8d959f2672f serial: port: Always update ->iotype in __uart_read_properties()
-12397549b5014071e1d2b315509f68eb93ef9144 serial: port: Make ->iotype validation global in __uart_read_properties()
-fe310f75327edbc042c7cc0df32c6b9ec29eb93a serial: 8250_of: Remove unneeded ->iotype assignment
-34bbb5d5137f32be3186a995a5ad4c60aaad11a7 serial: 8250_platform: Remove unneeded ->iotype assignment
-0f3fd9cf6491f5beecbb65abb41556c56135340c serial: 8250_pnp: Remove unneeded ->iotype assignment
-db79e75460fc59b19f9c89d4b068e61cee59f37d USB: serial: option: add MeiG Smart SLM828
-c979fb5ece2dc11cc9cc3d5c66f750e210bfdee2 USB: serial: option: add Telit Cinterion FN990B compositions
-12606fe73f33647c5e79bf666833bf0b225e649d USB: serial: option: fix Telit Cinterion FN990A name
-6aa8a63c471eb6756aabd03f880feffe6a7af6c9 USB: serial: option: drop MeiG Smart defines
-71db7b9a019b76df43512639c282c03733ba3eeb Merge tag 'usb-serial-6.14-rc3' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
-35fa2d88ca9481e5caf533d58b99ca259c63b2fe driver core: add a faux bus for use when a simple device/bus is needed
-78418f300d3999f1cf8a9ac71065bf2eca61f4dd rust/kernel: Add faux device bindings
-e71f7f42e3c874ac3314b8f250e8416a706165af USB: pci-quirks: Fix HCCPARAMS register error for LS7A EHCI
-c81d9fcd5b9402166048f377d4e5e0ee6f9ef26d usb: xhci: Restore xhci_pci support for Renesas HCs
-e563b01208f4d1f609bcab13333b6c0e24ce6a01 usb: cdc-acm: Check control transfer buffer size before access
-12e712964f41d05ae034989892de445781c46730 usb: cdc-acm: Fix handling of oversized fragments
-7284922f3e4fa285dff1b8bb593aa9a0b8458f30 USB: cdc-acm: Fill in Renesas R-Car D3 USB Download mode quirk
-159daf1258227f44b26b5d38f4aa8f37b8cca663 USB: Add USB_QUIRK_NO_LPM quirk for sony xperia xz1 smartphone
-d3a8c28426fc1fb3252753a9f1db0d691ffc21b0 usb: dwc3: Fix timeout issue during controller enter/exit from halt state
-4aac0db5a0ebc599d4ad9bf5ebab78afa1f33e10 usb: core: fix pipe creation for get_bMaxPacketSize0
-4ab37fcb42832cdd3e9d5e50653285ca84d6686f USB: gadget: f_midi: f_midi_complete to call queue_work
-399a45e5237ca14037120b1b895bd38a3b4492ea usb: gadget: core: flush gadget workqueue after device removal
-e169d96eecd447ff7fd7542ca5fa0911f5622054 USB: quirks: add USB_QUIRK_NO_LPM quirk for Teclast dist
-e5644be4079750a0a0a5a7068fd90b97bf6fac55 usb: gadget: uvc: Fix unstarted kthread worker
-634775a752a86784511018a108f3b530cc3399a7 usb: roles: set switch registered flag early on
-659f5d55feb75782bd46cf130da3c1f240afe9ba usb: typec: tcpm: PSSourceOffTimer timeout in PR_Swap enters ERROR_RECOVERY
-9e512eaaf8f4008c44ede3dfc0fbc9d9c5118583 serial: 8250: Fix fifo underflow on flush
-d1d0963121769d8d16150b913fe886e48efefa51 tools: fix annoying "mkdir -p ..." logs when building tools in parallel
-140332b6ed727a4ec2e5722a1ccda28b52d45771 kbuild: fix linux-headers package build when $(CC) cannot link userspace
-1b71c2fb04e7a713abc6edde4a412416ff3158f2 kbuild: userprogs: fix bitsize and target detection on clang
-b28fb1f2ef45eeef1cd2c23149b50d184d545a3e modpost: Fix a few typos in a comment
-6bfcc5fb2fcee1e914708ce55b70e707d03d8097 Merge tag 'usb-6.14-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
-56400391b1d312a14f912f36d2f04b0dba0d4a2f Merge tag 'tty-6.14-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
-ae5fa8ce7ef230be50ed63d16883bada29990293 Merge tag 'driver-core-6.14-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
-224e74511041c2d33dcf24adf54d447eb72399c8 Merge tag 'kbuild-fixes-v6.14-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+2192f8cf55730808253db354e2a4aabefbd7ac5c _damon: remove pass_filter feature
+5f006cf1bf866f4e109247d28a6990397828b91d _damon: update comments about 6.14-rc1 merged features
+74d38080ffab44d12a6b786d17052fff42f51a7a _damon: add hugepage_size damos filter feature on the list
+4637f5d84530154c0082c3473ecc6de76bda94a9 _damon_sysfs: set schemes_filters_hugepage_size feature support
+ea8e06395b54e354e6bcc05db2753c48d77a6435 damo_report_access: add --repeat option
+097b95e7e88142fee9f01311c15c9a2e22d9bf9e damo_report_access: do infinite repeat if --repeat is given without arguments
+c1d7a708cd510d8b9133bce8515bb48f06470c4e damo_report_access: handle signal during repeats
+4cbbc5086b44203a545f0fabf30dfc2c3941a3f2 damo_report_access: add snapshot formatter for filter-passed memory bandwidth
+425a427471ae3626c2a02578fb9fd623b5c2da4d damo_report_access: show df-passed memory bandwidth estimation when filters are installed
+51fe6e3aa38c1f4c627df6cad4e2326cb1c16602 damo_report_access: don't use pager if --repeat is given
+63c58e744527b4883a634c7b2be2cecba185603b Add a module for subprocess handling
+9fbef27bc2217ca79825f032b4f8ba2cd09e9ef0 _damo_records: use _damo_subproc.avail_cmd()
+025af157145e800d37209bba0afde30cf08e6be2 _damon_args: use _damo_subproc.avail_cmd()
+4d73b9f3e9cfe35c08081e2bfaf81e1437958bdd damo_report_access: represent void reegions as [...] for only large void
+84264903f07a1f4e62a7efca4f646813001f3b12 damo_report_acceess: add an option to draw snapshot heatmap inelastically
+acde6410bfad7266fbc506e4448825387e52e70d _damon_args: support 'deny' and 'block' for rejecting filter
+87631f77cc66735a7703e73a132efa611bb3d441 _damn_args: fix wrong indentation of final error case on damos_filter_with_optional_args()
+4fe65bcf1646ecce16974e6b8b847b2c5343d28c damo_report_access: add a new style, 'cold'
+9684f200b93fdef691ccee3bd821f80b193990e5 damo_report_access: add a new style, 'hot'
+d4554bfbb9a760b7fbd85a93863658bd5b3900f5 README: use --repeat option of report access
+ebd36452219b407d1ea00085df22a475c2eb509c release_note: update for next release
 
---===============1374841865198416784==--
+--===============6368372918691322062==--
