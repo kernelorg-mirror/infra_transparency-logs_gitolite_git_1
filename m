@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5348782269074007818=="
+Content-Type: multipart/mixed; boundary="===============1556081534402775837=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 16 Feb 2025 09:34:53 -0000
-Message-Id: <173969849356.2748578.6458327865438148837@gitolite.kernel.org>
+Date: Sun, 16 Feb 2025 09:35:15 -0000
+Message-Id: <173969851515.2750376.8265983711970629191@gitolite.kernel.org>
 
---===============5348782269074007818==
+--===============1556081534402775837==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,32 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 4a8a06e3d2f68260a5811c0b2180ae98f2c924c5
-    new: c4278f44d9a621176db2a6079ee8de2c221e9894
-    log: revlist-4a8a06e3d2f6-c4278f44d9a6.txt
+    old: c4278f44d9a621176db2a6079ee8de2c221e9894
+    new: 6836f20b462f296d340ea3baa8323e62e10d7f3b
+    log: |
+         3c00bf83697944bb9e662dc7153017d3f9f4126e Merge branch into tip/master: 'irq/urgent'
+         9cdab36911c6f78898b751fa3544cdec88f1cd37 Merge branch into tip/master: 'objtool/urgent'
+         8a297b07a1eecec1433ef53558616e0d255c1239 Merge branch into tip/master: 'perf/urgent'
+         d8c00e99c728b5cca3391e0c365fdc2675057a82 Merge branch into tip/master: 'sched/urgent'
+         6ef7e4d25e0b610b4fdb397f30d69c6f567f5607 Merge branch into tip/master: 'irq/drivers'
+         0fa2e3ba916b9b0647441010f89b128003dc6be8 Merge branch into tip/master: 'perf/core'
+         95e516dc9030404032747af90fb9f86aecc29ead Merge branch into tip/master: 'sched/core'
+         fdadf325c3512f26109f442f7da2411868982368 Merge branch into tip/master: 'timers/core'
+         13e72ce4686ed083d58f4b30504f695833cb980f Merge branch into tip/master: 'x86/core'
+         81efaca970b4915a74cda0803bbd16a13d79d7d2 Merge branch into tip/master: 'x86/cpu'
+         fc43b257633efc0c2902a57c18a2a6dce06dda5e Merge branch into tip/master: 'x86/fpu'
+         6836f20b462f296d340ea3baa8323e62e10d7f3b Merge branch into tip/master: 'x86/misc'
+         
+  - ref: refs/heads/tip/urgent
+    old: c55d81b3c1b7e9e47f1d5c29d321141f7b51714a
+    new: d8c00e99c728b5cca3391e0c365fdc2675057a82
+    log: revlist-c55d81b3c1b7-d8c00e99c728.txt
 
---===============5348782269074007818==
+--===============1556081534402775837==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4a8a06e3d2f6-c4278f44d9a6.txt
+Content-Disposition: attachment; filename=revlist-c55d81b3c1b7-d8c00e99c728.txt
 
 be8ee18152b0523752f3a44900363838bd1573bb sched_ext: Fixes typos in comments
 2279563e3a8cac367b267b09c15cf1e39c06c5cc sched_ext: Include task weight in the error state dump
@@ -144,6 +161,9 @@ f3d8b0ebaec4e755317e2e8b863a4004d6505288 Merge tag 's390-6.14-4' of git://git.ke
 5784d8c93eb0c3b26cbaa86237c3b106657fc0c1 Merge tag 'trace-ring-buffer-v6.14-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 ad73b9a17d66366d8c9198bc90f1ea99f24a912c Merge tag 'uml-for-linus-6.14-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/uml/linux
 ad1b832bf1cf2df9304f8eb72943111625c7e5a7 Merge tag 'devicetree-fixes-for-6.14-1' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
-c4278f44d9a621176db2a6079ee8de2c221e9894 Merge branch 'linus'
+3c00bf83697944bb9e662dc7153017d3f9f4126e Merge branch into tip/master: 'irq/urgent'
+9cdab36911c6f78898b751fa3544cdec88f1cd37 Merge branch into tip/master: 'objtool/urgent'
+8a297b07a1eecec1433ef53558616e0d255c1239 Merge branch into tip/master: 'perf/urgent'
+d8c00e99c728b5cca3391e0c365fdc2675057a82 Merge branch into tip/master: 'sched/urgent'
 
---===============5348782269074007818==--
+--===============1556081534402775837==--
