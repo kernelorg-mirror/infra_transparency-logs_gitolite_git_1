@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1048297678039497335=="
+Content-Type: multipart/mixed; boundary="===============6916394330693846148=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mbroz/linux
-Date: Sun, 16 Feb 2025 09:44:00 -0000
-Message-Id: <173969904023.2756024.11727350362514676376@gitolite.kernel.org>
+Date: Sun, 16 Feb 2025 09:45:29 -0000
+Message-Id: <173969912957.2758941.6128613649518003334@gitolite.kernel.org>
 
---===============1048297678039497335==
+--===============6916394330693846148==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mbroz/linux
 user: mbroz
 changes:
-  - ref: refs/heads/master
-    old: ccb98ccef0e543c2bd4ef1a72270461957f3d8d0
-    new: ad1b832bf1cf2df9304f8eb72943111625c7e5a7
-    log: revlist-ccb98ccef0e5-ad1b832bf1cf.txt
+  - ref: refs/heads/dm-cryptsetup
+    old: c2f66bc1a2449271d146b9d017e90684a07eb209
+    new: ed771d9025e435b457023eec363f628337a3bc2f
+    log: revlist-c2f66bc1a244-ed771d9025e4.txt
 
---===============1048297678039497335==
+--===============6916394330693846148==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ccb98ccef0e5-ad1b832bf1cf.txt
+Content-Disposition: attachment; filename=revlist-c2f66bc1a244-ed771d9025e4.txt
 
-f8d4a6cabb74f82c37ccb7c5e9dc3fdad50393d4 mm: make mmap_region() internal
-c6f239796b55dbc4225a6fca9f96232092b9df83 mm/memblock: add memblock_alloc_or_panic interface
 9cbfd1c3c83b62c42ff46e17227e996cc9b2b336 mm/mglru: clean up workingset
 cc8ec7be78ffaa29f6e0781fd12602974970eb53 mm/mglru: optimize deactivation
 798c0330c2ca078cc3e155e567c77c4d61345a38 mm/mglru: rework aging feedback
@@ -1050,5 +1048,7 @@ f3d8b0ebaec4e755317e2e8b863a4004d6505288 Merge tag 's390-6.14-4' of git://git.ke
 5784d8c93eb0c3b26cbaa86237c3b106657fc0c1 Merge tag 'trace-ring-buffer-v6.14-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 ad73b9a17d66366d8c9198bc90f1ea99f24a912c Merge tag 'uml-for-linus-6.14-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/uml/linux
 ad1b832bf1cf2df9304f8eb72943111625c7e5a7 Merge tag 'devicetree-fixes-for-6.14-1' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
+969447842524e0011c17e6bf5309731d0c5fef46 dm-integrity: Avoid divide by zero in table status in Inline mode
+ed771d9025e435b457023eec363f628337a3bc2f dm-integrity: Do not emit journal configuration in DM table for Inline mode
 
---===============1048297678039497335==--
+--===============6916394330693846148==--
