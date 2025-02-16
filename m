@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8035291261719216134=="
+Content-Type: multipart/mixed; boundary="===============3073731539707036872=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 16 Feb 2025 18:59:04 -0000
-Message-Id: <173973234478.3242232.16498763456520217486@gitolite.kernel.org>
+Date: Sun, 16 Feb 2025 18:59:22 -0000
+Message-Id: <173973236285.3242590.12336877403060445057@gitolite.kernel.org>
 
---===============8035291261719216134==
+--===============3073731539707036872==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,28 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 6836f20b462f296d340ea3baa8323e62e10d7f3b
-    new: 22d95660ef4451653a2cd30fb7e8fed21dccdc3e
-    log: revlist-6836f20b462f-22d95660ef44.txt
+    old: 22d95660ef4451653a2cd30fb7e8fed21dccdc3e
+    new: e9d68ca5f7a7d85f7172e40eeb58a4607a5fd4d5
+    log: |
+         6e43fffb8ef28d473616d174971d7f5dd7cbf449 Merge branch into tip/master: 'irq/drivers'
+         a522a13da0f7eb80741fdc863737a5de5fea3684 Merge branch into tip/master: 'perf/core'
+         4a7004cd528b7f2537646e2699ba35a5053204bc Merge branch into tip/master: 'sched/core'
+         a36511d15a03b2d9f95d5c226aae365e943914ec Merge branch into tip/master: 'timers/core'
+         a5a63eb9e3adbb07d390a6564c85d534f67d0607 Merge branch into tip/master: 'x86/core'
+         ff97cacca3d21d4fffb7328639fd735eed9a8c25 Merge branch into tip/master: 'x86/cpu'
+         607e9d63f9bf89ae5faffaa36a8d0e74b4ffe2f5 Merge branch into tip/master: 'x86/fpu'
+         e9d68ca5f7a7d85f7172e40eeb58a4607a5fd4d5 Merge branch into tip/master: 'x86/misc'
+         
+  - ref: refs/heads/tip/urgent
+    old: d8c00e99c728b5cca3391e0c365fdc2675057a82
+    new: ba643b6d84409e8a9057d5bdd6dd99255b1a88fe
+    log: revlist-d8c00e99c728-ba643b6d8440.txt
 
---===============8035291261719216134==
+--===============3073731539707036872==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6836f20b462f-22d95660ef44.txt
+Content-Disposition: attachment; filename=revlist-d8c00e99c728-ba643b6d8440.txt
 
 c53fbdb60fb61fd6bda2bc0dc89837966625c5dc KVM: arm64: Improve error handling from check_host_shared_guest()
 eabc7aaef7a553b64bf6e631ce04526af6c8d104 KVM: arm64: Simplify np-guest hypercalls
@@ -61,6 +74,5 @@ b878a1c072a4912e14a38e90a8b1883d4c513d9d Merge tag 'mips-fixes_6.14_1' of git://
 ff3b373ecc88098103b6ae80d96d6527210b2e64 Merge tag 'sched_urgent_for_v6.14_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ff1848d81ca63e49bce57c29ffb12c6539333ac4 Merge tag 'perf_urgent_for_v6.14_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ba643b6d84409e8a9057d5bdd6dd99255b1a88fe Merge tag 'irq_urgent_for_v6.14_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-22d95660ef4451653a2cd30fb7e8fed21dccdc3e Merge branch 'linus'
 
---===============8035291261719216134==--
+--===============3073731539707036872==--
