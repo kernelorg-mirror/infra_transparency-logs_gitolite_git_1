@@ -1,25 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sun, 16 Feb 2025 23:52:56 -0000
-Message-Id: <173974997662.3470032.8582938867363025717@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Sun, 16 Feb 2025 23:55:06 -0000
+Message-Id: <173975010617.3472940.14097505393532168919@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/20250208_broonie_asoc_tas2764_random_patches_from_the_asahi_linux_tree
-    old: 0000000000000000000000000000000000000000
-    new: d64c4c3d1c578f98d70db1c5e2535b47adce9d07
-  - ref: refs/heads/20250212_kuninori_morimoto_gx_asoc_random_cleanup
-    old: 0000000000000000000000000000000000000000
-    new: 42da18e62652b58ba5ecd1524c146b202cda9bb7
-  - ref: refs/heads/fileLEfU5Q
-    old: 0000000000000000000000000000000000000000
-    new: eb7393fc502c9b92f3472711b558da9828052379
-  - ref: refs/heads/fileufwkLU
-    old: 0000000000000000000000000000000000000000
-    new: 5998af2c0806894b7c7b57aab9075d520a4db17c
+  - ref: refs/heads/rcu/torture-init-stress-ng
+    old: 0bb18fb2ee4d73d9d5d53de0b1e6fcca1cbdc28c
+    new: 01f37b278999c9f28460962fb1d9d41650ffa426
+    log: |
+         ce58014840652d14c52227d8ef2aac3ef7550789 rcutorture: mkinitrd: Allow to run optional commands passed to it
+         226f1aa09937b76ed9e9a6ac4635494c19ae8cee rcutorture: mkinitrd: Use previous init.c to check if rebuild needed
+         5c5bd72eccaeee017d7fb1049d023b953571ddf3 rcutorture: kvm: Invoke stress-ng building it if necessary
+         a42ba81b9f5d817e5217c0d963d2c10461e157b8 rcutorture: Add support for multiple stress-ng stressors
+         2b4320265b03d00001af16ec5719f1279e8e4243 rcu: Merge rcu_seq_done_exact() logic into rcu_seq_done()
+         01f37b278999c9f28460962fb1d9d41650ffa426 TEST: force gpwraps
+         
