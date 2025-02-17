@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3502530511169652050=="
+Content-Type: multipart/mixed; boundary="===============6806224839421203182=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 17 Feb 2025 14:31:33 -0000
-Message-Id: <173980269309.303327.5117659668074651467@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 17 Feb 2025 14:31:42 -0000
+Message-Id: <173980270217.303566.305717568232098581@gitolite.kernel.org>
 
---===============3502530511169652050==
+--===============6806224839421203182==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.15
-    old: e08fe24c34d37d00e84009f2fb4c35f5978041e6
-    new: 3f02dedf1566858736f351a8d4a3ce91375e48f1
-    log: revlist-e08fe24c34d3-3f02dedf1566.txt
+  - ref: refs/heads/for-next
+    old: f1bcf032abc3a0517bf719a4c71c7c726f4c2e9a
+    new: 070026c1598182cd450448fb0f95277889c3a86e
+    log: revlist-f1bcf032abc3-070026c15981.txt
 
---===============3502530511169652050==
+--===============6806224839421203182==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1739802721 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1739802690-86fed0bfa09531dc31316c59039c7b3ffbbe75ff
-
-e08fe24c34d37d00e84009f2fb4c35f5978041e6 3f02dedf1566858736f351a8d4a3ce91375e48f1 refs/heads/asoc-6.15
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmezSGEACgkQJNaLcl1U
-h9Atgwf9FQupfSoaAipdpwDHV4sLhC8TophR+duHanlKJe42hQTi8scQj9H0hxFR
-bUmf4WGWX2P6Tz46aiH6Tnga2Wdxb5kZcgS460Tgzt3A0CoMe8hrTnazAFelzGfQ
-zYO1YMO7KWBPjY3VQ1SLSNSRYNLD4vozRLEFU+oJFzzFS5NFT8XnRLMTqG8h5Obl
-iPTufS9VARKUdqzbG6aEmCqGed9ud7DSu8pR1qw0hNm44VmWxnVt1iIDsOMLWb2r
-VqhIvrkfoF2AmRdJTQTtzU6vkaWjxDNB4eKdTLJ5FkfS6JN5L4Xs90bYjawT2U/2
-gSZgKS7naIYMuy61fQ/z+qpcMVxryQ==
-=nNsq
------END PGP SIGNATURE-----
-
---===============3502530511169652050==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e08fe24c34d3-3f02dedf1566.txt
+Content-Disposition: attachment; filename=revlist-f1bcf032abc3-070026c15981.txt
 
 3c47c2ccd5a29c78780ccfd0227a805f3873ab1c nvmet: fix rw control endian access
 d68fc95a771e0a7edd876ede7913d61276be77fd nvme-pci: remove redundant dma frees in hmb
@@ -735,5 +710,6 @@ f37f1748564ac51d32f7588bd7bfc99913ccab8e ASoC: tas2764: Mark SW_RESET as volatil
 d64c4c3d1c578f98d70db1c5e2535b47adce9d07 ASoC: tas2764: Add reg defaults for TAS2764_INT_CLK_CFG
 0770b7cc095e015af302f0758d3d85c7f17c719a ASoC: tas2764: Random patches from the Asahi Linux
 3f02dedf1566858736f351a8d4a3ce91375e48f1 ASoC: random cleanup
+070026c1598182cd450448fb0f95277889c3a86e Merge remote-tracking branch 'asoc/for-6.15' into asoc-next
 
---===============3502530511169652050==--
+--===============6806224839421203182==--
