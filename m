@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2881479243673886610=="
+Content-Type: multipart/mixed; boundary="===============7745828491573112700=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 17 Feb 2025 13:15:12 -0000
-Message-Id: <173979811222.240299.11109686220374010384@gitolite.kernel.org>
+Date: Mon, 17 Feb 2025 13:15:17 -0000
+Message-Id: <173979811709.240449.12322128388077382490@gitolite.kernel.org>
 
---===============2881479243673886610==
+--===============7745828491573112700==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 962dfbfe6fb163ff65e3481d0585208495080884
-    new: 5c6757054552b73c7996b7a4f2a76c99d297e71d
-    log: revlist-962dfbfe6fb1-5c6757054552.txt
+  - ref: refs/heads/m68k-queue
+    old: 2f77461eb23ab38a77ac3c709883de88badc3c5f
+    new: 229161200b035aa94edd0eabbee0e509b8030738
+    log: revlist-2f77461eb23a-229161200b03.txt
 
---===============2881479243673886610==
+--===============7745828491573112700==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-962dfbfe6fb1-5c6757054552.txt
+Content-Disposition: attachment; filename=revlist-2f77461eb23a-229161200b03.txt
 
 ccb7276a6d26d6f8416e315b43b45e15ee7f29e2 batman-adv: fix panic during interface removal
 e7e34ffc976aaae4f465b7898303241b81ceefc3 batman-adv: Ignore neighbor throughput metrics in error case
@@ -417,6 +417,10 @@ ba643b6d84409e8a9057d5bdd6dd99255b1a88fe Merge tag 'irq_urgent_for_v6.14_rc3' of
 ae5fa8ce7ef230be50ed63d16883bada29990293 Merge tag 'driver-core-6.14-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 224e74511041c2d33dcf24adf54d447eb72399c8 Merge tag 'kbuild-fixes-v6.14-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 0ad2507d5d93f39619fc42372c347d6006b64319 Linux 6.14-rc3
-5c6757054552b73c7996b7a4f2a76c99d297e71d Merge tag 'v6.14-rc3'
+71cf9541a9a03a6f8f1467512a8d34142e274dd6 m68k: sun3: Use str_read_write() helper in mmu_emu_handle_fault()
+2b7ded1d08cecda9cb4afebb6a04ba6dbdeb47e1 m68k: sun3: Fix DEBUG_MMU_EMU build
+ae6761d48e3227dbd06c4e35cc58eeb0f8e4c244 m68k: atari: usb: Add ISP1160 USB host controller support
+66974a5dc07236c6a559f0a15816c23c1f6072b0 m68k: atari: Update Kconfig.bus help text
+229161200b035aa94edd0eabbee0e509b8030738 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============2881479243673886610==--
+--===============7745828491573112700==--
