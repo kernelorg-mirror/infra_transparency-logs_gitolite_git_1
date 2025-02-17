@@ -1,49 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============7776132589198419253=="
+Content-Type: multipart/mixed; boundary="===============3422592758352264478=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Mon, 17 Feb 2025 19:10:12 -0000
-Message-Id: <173981941215.531681.6216383098062605013@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Mon, 17 Feb 2025 19:28:32 -0000
+Message-Id: <173982051295.544629.2813226441745497767@gitolite.kernel.org>
 
---===============7776132589198419253==
+--===============3422592758352264478==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/crypto-pending
-    old: 42fd3a59ed3642d3ce3c4a8bae61f03454256b26
-    new: ebff4d6a3d51459076a379ef776bf9f6c4695405
-    log: revlist-42fd3a59ed36-ebff4d6a3d51.txt
+  - ref: refs/heads/master
+    old: 0ad2507d5d93f39619fc42372c347d6006b64319
+    new: 2408a807bfc3f738850ef5ad5e3fd59d66168996
+    log: revlist-0ad2507d5d93-2408a807bfc3.txt
 
---===============7776132589198419253==
+--===============3422592758352264478==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-42fd3a59ed36-ebff4d6a3d51.txt
+Content-Disposition: attachment; filename=revlist-0ad2507d5d93-2408a807bfc3.txt
 
-872bfe77d63a97d00ef54d406cfd5f97dacf2fc0 Revert "crypto: ahash - make hash walk functions private to ahash.c"
-8c2415590632383713e35b71569c4ea09c9472f1 crypto: virtio - Fix kernel-doc of virtcrypto_dev_stop()
-70ed525e959a40ce275a27b7c7adae296a8ca6aa crypto: virtio - Simplify RSA key size caching
-b71409db1ef08ee5a8644b29ebe9cb9165974a70 crypto: virtio - Drop superfluous ctx->tfm backpointer
-2b26998bf8b39adfa2eb009e7a5b98574eb9325b crypto: virtio - Drop superfluous [as]kcipher_ctx pointer
-e6a6107eaa896d7aa1250e7d48923c123cf3863c crypto: virtio - Drop superfluous [as]kcipher_req pointer
-6fe847b413a0d3b8776218c36ac17a47e59859a6 dt-bindings: reset: Add SCMI reset IDs for RK3588
-3c6bc45edd55e2491c979dbcca2b96aa7544015c dt-bindings: rng: add binding for Rockchip RK3588 RNG
-ca59715db41cc9866cc0d3798652bfd7d961a308 hwrng: rockchip - store dev pointer in driver struct
-86a63550e7767567a46d9f460b6fc242df610f9e hwrng: rockchip - eliminate some unnecessary dereferences
-3c58d60de90bc0f03e7169449dcace9b16750b44 hwrng: rockchip - add support for rk3588's standalone TRNG
-ef51a9ee3aae920ea85525d524243a4d25c41ac2 MAINTAINERS: add Nicolas Frattaroli to rockchip-rng maintainers
-485adca45080584ea6ed0b0cb0476dc9db4f1bdc crypto: hisilicon/sec2 - fix for aead auth key length
-e57a4a8ebc839200f8ea21fd98d507b27049d283 crypto: hisilicon/sec2 - fix for aead authsize alignment
-628d3c01a0d34aa13b8766a9a767e741f2c16f86 crypto: hisilicon/sec2 - fix for sec spec check
-8368e1e462c779c33047a885e21a453bdbf8b33d crypto: ccp - Add support for PCI device 0x1134
-c346fef6fef53fa57ff323b701e7bad82290d0e7 crypto: inside-secure - Eliminate duplication in top-level Makefile
-21c546805e94d7f8f0155d91447f7c671e08f57c crypto: x86/aes-ctr - rewrite AESNI+AVX optimized CTR and add VAES support
-ebff4d6a3d51459076a379ef776bf9f6c4695405 crypto: x86/aes-xts - change license to Apache-2.0 OR BSD-2-Clause
+dc9c5166c3cb044f8a001e397195242fd6796eee powerpc/code-patching: Disable KASAN report during patching via temporary mm
+61bcc752d1b81fde3cae454ff20c1d3c359df500 powerpc/64s: Rewrite __real_pte() and __rpte_to_hidx() as static inline
+d262a192d38e527faa5984629aabda2e0d1c4f54 powerpc/code-patching: Fix KASAN hit by not flagging text patching area as VM_ALLOC
+56d5f3eba3f5de0efdd556de4ef381e109b973a9 acct: perform last write from workqueue
+890ed45bde808c422c3c27d3285fc45affa0f930 acct: block access to kernel internal filesystems
+240189294fbc9550f5cd7ae9b446ad3cf3c5386a Merge patch series "acct: don't allow access to internal filesystems"
+1d0013962d220b166d9f7c9fe2746f1542e459a3 netfs: Fix a number of read-retry hangs
+d01c495f432ce34df8bfd092e71720a2cf169a90 netfs: Add retry stat counters
+5de0219a9bb9dacc4ce6e8f2745540dcce786983 netfs: Fix setting NETFS_RREQ_ALL_QUEUED to be after all subreqs queued
+a33f72554adf4552e53af3784cebfc4f2886c396 Merge patch series "netfs: Miscellaneous fixes"
+6186bdd120eccf4ca44fcba8967fc59ea50b11b8 Merge tag 'powerpc-6.14-3' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+2408a807bfc3f738850ef5ad5e3fd59d66168996 Merge tag 'vfs-6.14-rc4.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 
---===============7776132589198419253==--
+--===============3422592758352264478==--
