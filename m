@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sysctl/sysctl
-Date: Mon, 17 Feb 2025 12:22:45 -0000
-Message-Id: <173979496597.180432.7571090487950169629@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 17 Feb 2025 12:22:58 -0000
+Message-Id: <173979497874.180625.14124886916769665705@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sysctl/sysctl
-user: joel.granados
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/sysctl-next
-    old: a231f5bdfdd0ac402656d82ee7e6c54ec86c0c3b
-    new: 2694b6bb871d4a93ed29ca47991a9b823ea744f6
-    log: |
-         2694b6bb871d4a93ed29ca47991a9b823ea744f6 MAINTAINERS: Update sysctl file list in MAINTAINERS
-         
+  - ref: refs/heads/fileum9bwH
+    old: 3d7a20f9ba7b09a35df4bdb5f0ddb2a0c8a4f39e
+    new: 0000000000000000000000000000000000000000
