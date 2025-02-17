@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============6786297440544444912=="
+Content-Type: multipart/mixed; boundary="===============8634245360064450652=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 17 Feb 2025 12:23:16 -0000
-Message-Id: <173979499665.181060.17390936012871202464@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 17 Feb 2025 12:23:19 -0000
+Message-Id: <173979499973.181157.14375339193011999231@gitolite.kernel.org>
 
---===============6786297440544444912==
+--===============8634245360064450652==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.14
+  - ref: refs/heads/spi-6.14
     old: 3588b1c0fde2f58d166e3f94a5a58d64b893526c
     new: 3d7a20f9ba7b09a35df4bdb5f0ddb2a0c8a4f39e
     log: revlist-3588b1c0fde2-3d7a20f9ba7b.txt
 
---===============6786297440544444912==
+--===============8634245360064450652==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1739795024 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1739794994-7277e365908c3544fc85d9196fdc34bccd5fcd5f
+pusher C3F436CA30F5D8EB 1739795028 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1739794997-e7d21382cdeb0d68505e93d45d4f0d1e86a6ae7d
 
-3588b1c0fde2f58d166e3f94a5a58d64b893526c 3d7a20f9ba7b09a35df4bdb5f0ddb2a0c8a4f39e refs/heads/for-6.14
+3588b1c0fde2f58d166e3f94a5a58d64b893526c 3d7a20f9ba7b09a35df4bdb5f0ddb2a0c8a4f39e refs/heads/spi-6.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmezKlAACgkQJNaLcl1U
-h9D9bQf+I9EXn2rKAM31wNHcmFmeJ8Gh1mAkYUnoy4eoknDj5dO4AEhk2t8t7MVW
-0cm2YBSW8+0DsVJa3wggFA6VR6DLOiQZRVbnsqo22gNpEZiRE7cSO/ejdZitZDUJ
-o3SkBncConn91XfuNK9RY6ryxyQ0R4ao7+C19ZQqpgeWFyC8Wt+Miz/z5JA1iafx
-sJ9IGUkQMj27pKgplYQ7sOqby5kYocmZQlL32T7NrFxjkgsVFYWRdsi47pIrqR3+
-Kcd0+Ivm7PEB8nE7IAq6K//lo7PvijC8htEdijwzHUB618vQ9KS+cRd3EBr351EF
-wIfPHzu8izodFh3D7TEENDM9oJ5trw==
-=gqaB
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmezKlQACgkQJNaLcl1U
+h9B6UAf+OpqKUaHt6aBr/ihzNWCnNdP571cQuBueK5fpowzB54Rfi0R0Uly2+lJM
+CP5hpCV3vSa36wo3CRqRj4N44NNkJAc8746uXC0PVgnOdia7b/24Mh1ZNaNqo1H2
+GHxsMNLoeEgQKzrN8Os/Z8AaIdEFcVFw9PHlF6A0Lkeqkl4XDJY/ayROFWOoNd0i
+TcLXtBXe2PtcacmpDOglB7zPPr9JPz/r4F25MrfKZ0JuciNddfTu3or9ImF7bti0
+Pl8mazHG0dqek9kemA5pY4LnltqDCA904lvDg1k7v3km+5uTnPaA2ie4lh8bN/Pv
+FImx21/V4Ol3le+Z0CA5zz6tAI2G1Q==
+=2dsf
 -----END PGP SIGNATURE-----
 
---===============6786297440544444912==
+--===============8634245360064450652==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -719,4 +719,4 @@ ae5fa8ce7ef230be50ed63d16883bada29990293 Merge tag 'driver-core-6.14-rc3' of git
 99e6ea912340d6a262a60d5dd0c87c5e7b2d6ff2 spi: atmel-quadspi: remove references to runtime PM on error path
 3d7a20f9ba7b09a35df4bdb5f0ddb2a0c8a4f39e MAINTAINERS: add tambarus as R for Samsung SPI
 
---===============6786297440544444912==--
+--===============8634245360064450652==--
