@@ -1,21 +1,43 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Mon, 17 Feb 2025 20:32:44 -0000
-Message-Id: <173982436414.598970.12428601797268566167@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/chromeos
+Date: Mon, 17 Feb 2025 20:41:50 -0000
+Message-Id: <173982491059.606658.4896401014895560604@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damo
-user: sj
+repo: pub/scm/linux/kernel/git/iwlwifi/chromeos
+user: mkorenbl
 changes:
-  - ref: refs/heads/next
-    old: 5f68b85aa897d8376d0a437cf4e24a10ee3f1553
-    new: cddd6b8d06282b1b2c8efc5ddd00284cf18c3d76
-    log: |
-         9fb4205b621477998ea3552cecc2ce4994a43cda _damon: add a feature name for 'core,ops_filters' sysfs directories
-         ba82e8a00a8e26ed6492f3b44793fe34ae4a28be _damon_sysfs: check {core,ops}_filters feature availablility
-         cddd6b8d06282b1b2c8efc5ddd00284cf18c3d76 _damon_sysfs: read/write {core,ops}_filters directories
-         
+  - ref: refs/heads/chromeos-5.4__release/core93-90
+    old: 0000000000000000000000000000000000000000
+    new: 9486e1b86873e22a962b4d4b42e21922b81cf1f0
+  - ref: refs/tags/chromeos-5.4__release/core93-2025-02-17
+    old: 0000000000000000000000000000000000000000
+    new: 9486e1b86873e22a962b4d4b42e21922b81cf1f0
+  - ref: refs/heads/chromeos-5.10__release/core93-90
+    old: 0000000000000000000000000000000000000000
+    new: afb6d7e8ebb1d210b683d82c2fe5bf5f8fc48910
+  - ref: refs/tags/chromeos-5.10__release/core93-2025-02-17
+    old: 0000000000000000000000000000000000000000
+    new: afb6d7e8ebb1d210b683d82c2fe5bf5f8fc48910
+  - ref: refs/heads/chromeos-5.15__release/core93-90
+    old: 0000000000000000000000000000000000000000
+    new: f22ad331799cc2d71ce185f5af972ea58d9f7972
+  - ref: refs/tags/chromeos-5.15__release/core93-2025-02-17
+    old: 0000000000000000000000000000000000000000
+    new: f22ad331799cc2d71ce185f5af972ea58d9f7972
+  - ref: refs/heads/chromeos-6.1__release/core93-90
+    old: 0000000000000000000000000000000000000000
+    new: f54e9e7a0491e247907f7aef43b12884ea266cde
+  - ref: refs/tags/chromeos-6.1__release/core93-2025-02-17
+    old: 0000000000000000000000000000000000000000
+    new: f54e9e7a0491e247907f7aef43b12884ea266cde
+  - ref: refs/heads/chromeos-6.6__release/core93-90
+    old: 0000000000000000000000000000000000000000
+    new: 7a1eedf77b401aa77e84720e4b200362f76daac1
+  - ref: refs/tags/chromeos-6.6__release/core93-2025-02-17
+    old: 0000000000000000000000000000000000000000
+    new: 7a1eedf77b401aa77e84720e4b200362f76daac1
