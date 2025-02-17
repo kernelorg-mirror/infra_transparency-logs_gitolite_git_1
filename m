@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6803929087869007301=="
+Content-Type: multipart/mixed; boundary="===============7152341004360023346=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 17 Feb 2025 01:08:54 -0000
-Message-Id: <173975453483.3533475.1431319467591655243@gitolite.kernel.org>
+Date: Mon, 17 Feb 2025 01:13:34 -0000
+Message-Id: <173975481470.3537518.6298333723847118766@gitolite.kernel.org>
 
---===============6803929087869007301==
+--===============7152341004360023346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/master
-    old: a64dcfb451e254085a7daee5fe51bf22959d52d3
-    new: 0ad2507d5d93f39619fc42372c347d6006b64319
-    log: revlist-a64dcfb451e2-0ad2507d5d93.txt
-  - ref: refs/tags/v6.14-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 2db77e8810aa26c8cd3fa119037f753a68b7dce4
+  - ref: refs/heads/kbuild
+    old: 3625f980635f5521ac71bb288a7d506952bc1ed8
+    new: a77b570b6c3f8f8dcdbdc38d7b05bf98c669ae1c
+    log: revlist-3625f980635f-a77b570b6c3f.txt
 
---===============6803929087869007301==
+--===============7152341004360023346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a64dcfb451e2-0ad2507d5d93.txt
+Content-Disposition: attachment; filename=revlist-3625f980635f-a77b570b6c3f.txt
 
 ccb7276a6d26d6f8416e315b43b45e15ee7f29e2 batman-adv: fix panic during interface removal
 e7e34ffc976aaae4f465b7898303241b81ceefc3 batman-adv: Ignore neighbor throughput metrics in error case
@@ -420,5 +417,13 @@ ba643b6d84409e8a9057d5bdd6dd99255b1a88fe Merge tag 'irq_urgent_for_v6.14_rc3' of
 ae5fa8ce7ef230be50ed63d16883bada29990293 Merge tag 'driver-core-6.14-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 224e74511041c2d33dcf24adf54d447eb72399c8 Merge tag 'kbuild-fixes-v6.14-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 0ad2507d5d93f39619fc42372c347d6006b64319 Linux 6.14-rc3
+a9059f62e384ae7c49a09d5627f0a5d410bc2f71 gendwarfksyms: Add a separate pass to resolve FQNs
+dbd83ea09699390892e5efecddd74ae43a00f071 kbuild: remove EXTRA_*FLAGS support
+e10572e04a268c1ae87ff6c0af9471d313a4e66a gen_compile_commands.py: remove code for '\#' replacement
+3da2007c331ba2ea42b656a506f7a01ab23f0569 genksyms: factor out APP for the ST_NORMAL state
+a3c9d2cc7b24e9a939714d6b016b22532bc38439 kconfig: do not clear SYMBOL_VALID when reading include/config/auto.conf
+b5e15e398d7d1d4bfe3f69fd02f5468e7e5c771d kconfig: remove unnecessary cast in sym_get_string()
+5568d651e92105b303b627522fb24024639b5140 modpost: introduce get_basename() helper
+a77b570b6c3f8f8dcdbdc38d7b05bf98c669ae1c modpost: use strstarts() to clean up parse_source_files()
 
---===============6803929087869007301==--
+--===============7152341004360023346==--
