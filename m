@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4552416460893413190=="
+Content-Type: multipart/mixed; boundary="===============2564118261352082668=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 17 Feb 2025 06:23:35 -0000
-Message-Id: <173977341517.3885168.3437593090140137542@gitolite.kernel.org>
+Date: Mon, 17 Feb 2025 06:23:40 -0000
+Message-Id: <173977342053.3885318.3512705098468113060@gitolite.kernel.org>
 
---===============4552416460893413190==
+--===============2564118261352082668==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 2014c95afecee3e76ca4a56956a936e23283f05b
+  - ref: refs/heads/usb-linus
+    old: 659f5d55feb75782bd46cf130da3c1f240afe9ba
     new: 0ad2507d5d93f39619fc42372c347d6006b64319
-    log: revlist-2014c95afece-0ad2507d5d93.txt
+    log: revlist-659f5d55feb7-0ad2507d5d93.txt
 
---===============4552416460893413190==
+--===============2564118261352082668==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1739773381 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1739773386 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1739773414-5fe262c453927df686d9aa9327855b2e23860d0a
+nonce 1739773418-a25f201ad51d2bb1f36cc96dc0d8c4706144b976
 
-2014c95afecee3e76ca4a56956a936e23283f05b 0ad2507d5d93f39619fc42372c347d6006b64319 refs/heads/main
+659f5d55feb75782bd46cf130da3c1f240afe9ba 0ad2507d5d93f39619fc42372c347d6006b64319 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmey1cUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uncP+we80yEtza1o/ANwZ2Ft
-/5zL8BEfg7T9wn2zlT/lB7Co9TzV8Y/Itu7/7iPpT+xMzG4rNdT4w/DsMjLIA310
-W88tiw505D+kvYh3xbT9KapqTDTD6pK97CE/HnTrVDVFHhHpRC1k1On1vPfGd0Lb
-hS5SNFdJsUzZGtL8UUrii7pa6YgWvK+IIIAD29eAUScQp2lV0X8VtDTT/nB1+20H
-hG+rLPmOqv+BtetGKq3WcoRoSJv74itMSyKu6L/FXWaxHcsgEgBmTo1PKBw85jU3
-kh45VuZEpXYutiVyR58hASidLU5hBTV5zeFb5TIMx9+o5aggH4hiJBdi/JSIA3w3
-uylki0bkI8UC6kqqRAeLsV0/dZKts078CpaNm0ZhktXlbTa2PPcpn8ZkwA9gytHj
-6w50JiCFtWdRKxLIV1U54hWv3hIVLWStJcQyrQjNy2v7zg91aVyR1kWyzl/NxXT/
-6pXpdqstz02OQPTXPhru7ZtdQYEM/OPbC/VELT5lS7n3wWQVyuTzctFPF88ifAwM
-WI0iGWch4rY2mx96g0D1JLeZ/OqB9HWlseXZ+HzMRI6tUdOY29NYdtJ5mJNYtGGv
-gjbUQQt0g2tRkkuLeaFgylHLsZBO5xjtoV9s2vTwQMyWXxArfgoQAobt+N9ZhTrG
-4GRwVnduHknf0Axw2NP60ux5
-=TKHq
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmey1cobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+214P/0NlA++CpS26vFlYo02H
+hFDk0dsnnYXhVfSPnZ05hgXqawWW3CiOMqg54xuLWx8aMjliW916/mVqr0k9UME1
+7tjLd7QyQXVixjK4QSnHv+AKQ8hu2ES7XIza5TJCFduV0to47KiT4YwryYlMVeUX
+/7LegBMhQEhA0iBV/ihfDzuYjBIbPJCl9xAu+8JfT4QAJ8qFYYxJNpGzCRlfh/41
+lzG+zfL+aQDtfVaQzQW2rgQF4dKRpPjkDXUq6mSfIWHDE9jfN9N/gk9047aQV9em
+jVOyVfVsHcdgl0875UrYAb5b63tzZo7iONeeih7merrE3VT6DUiOHZtvz7S1Vi7V
+6tOmwQl6V46ab/wR4ogSKyZaAoT1NQ7+WTcWXt/LU6wws1rJ7sH3ZHi0M4Zzs3va
+6UOOrtX5VRbU90ymkMWqiTpzlNGXYoocXqpKqxoVlA3BhWAUbS+9an+Jd5uqro7+
+1iQR6iSfN6d25r1PKV/9E7l9k0Wvol9/HlUA8Wu1WSfZmcnJfsmqt/bmKYd36rC4
+E/U5VWpgoc4JqKVMFsVuA5+n0YJglikWPrSKt4/gMV4BAJc/vCUgbsTZBIsiWIx0
+gAuZQg5tPvH13kzV1XvEN4a0SI9h+hLdqos03F9aeDCJdc8I0E7acwbyKGv6YSKy
+ZvK4ZqNxs/9QP7MLD5eoqDy6
+=Tm6J
 -----END PGP SIGNATURE-----
 
---===============4552416460893413190==
+--===============2564118261352082668==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2014c95afece-0ad2507d5d93.txt
+Content-Disposition: attachment; filename=revlist-659f5d55feb7-0ad2507d5d93.txt
 
 3c47c2ccd5a29c78780ccfd0227a805f3873ab1c nvmet: fix rw control endian access
 d68fc95a771e0a7edd876ede7913d61276be77fd nvme-pci: remove redundant dma frees in hmb
@@ -197,13 +197,6 @@ c7b49506b3ba7a62335e6f666a43f67d5cd9fd1e drm/i915: Drop 64bpp YUV formats from I
 3cf3ec911d70ee7774978f639fd3364c98d42b2c drm/i915/backlight: Return immediately when scale() finds invalid parameters
 6bb05a33337b2c842373857b63de5c9bf1ae2a09 clocksource: Use migrate_disable() to avoid calling get_random_u32() in atomic context
 4fd2707e3e71bfd5d4df4f4c9656a009f09dfc7e spi: atmel-quadspi: Fix warning in doc-comment
-9e8b21410f310c50733f6e1730bae5a8e30d3570 usb: gadget: f_midi: Fixing wMaxPacketSize exceeded issue during MIDI bind retries
-309005e448c1f3e4b81e4416406991b7c3339c1d usb: phy: generic: Use proper helper for property detection
-1ed3af5a2aaefd0ecd887ecabdc8da07220e31fe usb: dwc3: Document nostream_work
-335a1fc1193481f8027f176649c72868172f6f8b usb: gadget: udc: renesas_usb3: Fix compiler warning
-2240fed37afbcdb5e8b627bc7ad986891100e05d USB: hub: Ignore non-compliant devices with too many configs or interfaces
-58cd423820d5b5610977e55e4acdd06628829ede usb: dwc2: gadget: remove of_node reference upon udc_stop
-da1668997052ed1cb00322e1f3b63702615c9429 usb: gadget: f_midi: fix MIDI Streaming descriptor lengths
 457bf49627ae19ba789c09e3960ab4cc41d6d129 Merge tag 'nvme-6.14-2025-01-31' of git://git.infradead.org/nvme into block-6.14
 0a08238acfbaeb7d3605a5bec623ed1bc88734eb Merge tag 'xfs-fixes-6.14-rc2' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 a360f3ffd005fe00f002c033b2548aba57af8c9a Merge tag 'irq-urgent-2025-02-03' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -502,14 +495,10 @@ f7d07cd4f77d77f366c8ffbb8ba8b61f614e5fce ptp: vmclock: Set driver data before it
 b4c1fde5ced93d9f4ad89e2c940d3fd56ad82288 ptp: vmclock: Remove goto-based cleanup logic
 2196ceea2d39018a85a037cbb4c22666edb5a72c Merge branch 'ptp-vmclock-bugfixes-and-cleanups-for-error-handling'
 44ce3511c21c6ba87a719a0b9f140822cc1cc00b Merge tag 'batadv-net-pullrequest-20250207' of git://git.open-mesh.org/linux-merge
-db79e75460fc59b19f9c89d4b068e61cee59f37d USB: serial: option: add MeiG Smart SLM828
 5728c92ae112301936006c5e305677beb1a7f578 mfd: syscon: Restore device_node_to_regmap() for non-syscon nodes
-c979fb5ece2dc11cc9cc3d5c66f750e210bfdee2 USB: serial: option: add Telit Cinterion FN990B compositions
-12606fe73f33647c5e79bf666833bf0b225e649d USB: serial: option: fix Telit Cinterion FN990A name
 1c316eb57c11fb3dc447b04ef765459cd61c8647 bcachefs: Fix use after free
 1e690efa72596a1163dc56709707f459221889d2 bcachefs: Split out journal pins by btree level
 9f734cd076931fa4d7feb5728e5cd95cde0af114 bcachefs: Fix want_new_bset() so we write until the end of the btree node
-6aa8a63c471eb6756aabd03f880feffe6a7af6c9 USB: serial: option: drop MeiG Smart defines
 35e21de48e693af1dcfdbf2dc3d73dcfa3c8f2d9 regulator: core: let dt properties override driver init_data
 69ab25a74e2df53edc2de4acfce0a484bdb88155 idpf: fix handling rsc packet with a single segment
 2ff66c2f9ea4e9311e9a00004348b6c465bd5d3b idpf: record rx queue in skb for RSC packets
@@ -602,7 +591,6 @@ e93ec87286bd1fd30b7389e7a387cfb259f297e3 x86/xen: allow larger contiguous memory
 75ad02318af2e4ae669e26a79f001bd5e1f97472 Xen/swiotlb: mark xen_swiotlb_fixup() __init
 4cf7d58620bfc2ebe934e3dfa97208f13f14ab8b genirq: Remove unused CONFIG_GENERIC_PENDING_IRQ_CHIPFLAGS
 81f64e925c29fe6e99f04b131fac1935ac931e81 PCI: Avoid FLR for Mediatek MT7922 WiFi
-71db7b9a019b76df43512639c282c03733ba3eeb Merge tag 'usb-serial-6.14-rc3' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
 1f47ed294a2bd577d5ae43e6e28e1c9a3be4a833 block: cleanup and fix batch completion adding conditions
 6fe9116dd6bebee570406ec3f00a50388a62ccb3 MAINTAINERS: Use my kernel.org address for I2C ACPI work
 35fa2d88ca9481e5caf533d58b99ca259c63b2fe driver core: add a faux bus for use when a simple device/bus is needed
@@ -656,20 +644,6 @@ ef75966abf950c0539534effa4960caa29fb7167 iommu/amd: Expicitly enable CNTRL.EPHEn
 78be7f04537fa35f6cc694879e9a475ca1984936 iommu: Fix a spelling error
 4a8991fe9cd0b6a509bab3d056700d3520601d86 iommu/exynos: Fix typos
 add43c4fbc92f8b48c1acd64e953af3b1be4cd9c iommu/vt-d: Make intel_iommu_drain_pasid_prq() cover faults for RID
-e71f7f42e3c874ac3314b8f250e8416a706165af USB: pci-quirks: Fix HCCPARAMS register error for LS7A EHCI
-c81d9fcd5b9402166048f377d4e5e0ee6f9ef26d usb: xhci: Restore xhci_pci support for Renesas HCs
-e563b01208f4d1f609bcab13333b6c0e24ce6a01 usb: cdc-acm: Check control transfer buffer size before access
-12e712964f41d05ae034989892de445781c46730 usb: cdc-acm: Fix handling of oversized fragments
-7284922f3e4fa285dff1b8bb593aa9a0b8458f30 USB: cdc-acm: Fill in Renesas R-Car D3 USB Download mode quirk
-159daf1258227f44b26b5d38f4aa8f37b8cca663 USB: Add USB_QUIRK_NO_LPM quirk for sony xperia xz1 smartphone
-d3a8c28426fc1fb3252753a9f1db0d691ffc21b0 usb: dwc3: Fix timeout issue during controller enter/exit from halt state
-4aac0db5a0ebc599d4ad9bf5ebab78afa1f33e10 usb: core: fix pipe creation for get_bMaxPacketSize0
-4ab37fcb42832cdd3e9d5e50653285ca84d6686f USB: gadget: f_midi: f_midi_complete to call queue_work
-399a45e5237ca14037120b1b895bd38a3b4492ea usb: gadget: core: flush gadget workqueue after device removal
-e169d96eecd447ff7fd7542ca5fa0911f5622054 USB: quirks: add USB_QUIRK_NO_LPM quirk for Teclast dist
-e5644be4079750a0a0a5a7068fd90b97bf6fac55 usb: gadget: uvc: Fix unstarted kthread worker
-634775a752a86784511018a108f3b530cc3399a7 usb: roles: set switch registered flag early on
-659f5d55feb75782bd46cf130da3c1f240afe9ba usb: typec: tcpm: PSSourceOffTimer timeout in PR_Swap enters ERROR_RECOVERY
 9e512eaaf8f4008c44ede3dfc0fbc9d9c5118583 serial: 8250: Fix fifo underflow on flush
 80e648042e512d5a767da251d44132553fe04ae0 partitions: mac: fix handling of bogus partition table
 fd31a1bea3c94e01cb7b998485d2d7b14bdc8101 Merge tag 'for-linus-6.14-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
@@ -726,4 +700,4 @@ ae5fa8ce7ef230be50ed63d16883bada29990293 Merge tag 'driver-core-6.14-rc3' of git
 224e74511041c2d33dcf24adf54d447eb72399c8 Merge tag 'kbuild-fixes-v6.14-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 0ad2507d5d93f39619fc42372c347d6006b64319 Linux 6.14-rc3
 
---===============4552416460893413190==--
+--===============2564118261352082668==--
