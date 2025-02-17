@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5015359681164358754=="
+Content-Type: multipart/mixed; boundary="===============2200874992734547244=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 17 Feb 2025 08:27:01 -0000
-Message-Id: <173978082130.3985001.8542759907895585130@gitolite.kernel.org>
+Date: Mon, 17 Feb 2025 08:27:30 -0000
+Message-Id: <173978085003.3985348.15472378707728956009@gitolite.kernel.org>
 
---===============5015359681164358754==
+--===============2200874992734547244==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,31 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: e9d68ca5f7a7d85f7172e40eeb58a4607a5fd4d5
-    new: a869e7e73e20e6b94dcb96058aed06913a610377
-    log: revlist-e9d68ca5f7a7-a869e7e73e20.txt
+    old: a869e7e73e20e6b94dcb96058aed06913a610377
+    new: 2b09af91f0a2dfe729f829ff1fc4c0b6766663d3
+    log: |
+         81b951e4e2170d780466e6ef61e200e708f11f8e Merge branch into tip/master: 'irq/drivers'
+         3919cb69288cab8e02a708dd1b44545696380792 Merge branch into tip/master: 'perf/core'
+         1512c16aecbe8af2d6b893163013c3659f58d026 Merge branch into tip/master: 'sched/core'
+         dbd0cc0bd7083b1e1ddfd9316fbff31c34b53af9 Merge branch into tip/master: 'timers/core'
+         6bf88a77d52b4e8775ce18974990c2e65d51a1b0 Merge branch into tip/master: 'x86/core'
+         5b5628a9e62fada87fdf6abd92b034046ce876eb Merge branch into tip/master: 'x86/cpu'
+         0b8cf6b10c6d2ca3cb7bc4bc02011b6b49ab4bbe Merge branch into tip/master: 'x86/fpu'
+         2b09af91f0a2dfe729f829ff1fc4c0b6766663d3 Merge branch into tip/master: 'x86/misc'
+         
+  - ref: refs/heads/tip/urgent
+    old: ba643b6d84409e8a9057d5bdd6dd99255b1a88fe
+    new: 0ad2507d5d93f39619fc42372c347d6006b64319
+    log: revlist-ba643b6d8440-0ad2507d5d93.txt
+  - ref: refs/tags/v6.14-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 2db77e8810aa26c8cd3fa119037f753a68b7dce4
 
---===============5015359681164358754==
+--===============2200874992734547244==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e9d68ca5f7a7-a869e7e73e20.txt
+Content-Disposition: attachment; filename=revlist-ba643b6d8440-0ad2507d5d93.txt
 
 9e8b21410f310c50733f6e1730bae5a8e30d3570 usb: gadget: f_midi: Fixing wMaxPacketSize exceeded issue during MIDI bind retries
 309005e448c1f3e4b81e4416406991b7c3339c1d usb: phy: generic: Use proper helper for property detection
@@ -71,6 +87,5 @@ b28fb1f2ef45eeef1cd2c23149b50d184d545a3e modpost: Fix a few typos in a comment
 ae5fa8ce7ef230be50ed63d16883bada29990293 Merge tag 'driver-core-6.14-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 224e74511041c2d33dcf24adf54d447eb72399c8 Merge tag 'kbuild-fixes-v6.14-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 0ad2507d5d93f39619fc42372c347d6006b64319 Linux 6.14-rc3
-a869e7e73e20e6b94dcb96058aed06913a610377 Merge branch 'linus'
 
---===============5015359681164358754==--
+--===============2200874992734547244==--
