@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
-Date: Mon, 17 Feb 2025 02:35:43 -0000
-Message-Id: <173975974392.3603252.13363198968652642653@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mattst88/alpha
+Date: Mon, 17 Feb 2025 02:58:54 -0000
+Message-Id: <173976113417.3619856.5645793540370902769@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rcu/linux
-user: boqun
+repo: pub/scm/linux/kernel/git/mattst88/alpha
+user: mattst88
 changes:
-  - ref: refs/heads/rcu/dev
-    old: 8effb8d53c03d7649cf6c6bb49b70c5d361dda14
-    new: 23681503884197d222122c490a214f34031ec8d6
+  - ref: refs/tags/v6.14-rc2
+    old: 6a25088d268ce4c2163142ead7fe1975bb687cb7
+    new: 0000000000000000000000000000000000000000
