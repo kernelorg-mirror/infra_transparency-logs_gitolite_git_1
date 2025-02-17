@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2057389191108997182=="
+Content-Type: multipart/mixed; boundary="===============8717824056802594136=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Mon, 17 Feb 2025 14:55:27 -0000
-Message-Id: <173980412796.323651.2475833346341772723@gitolite.kernel.org>
+Date: Mon, 17 Feb 2025 15:08:38 -0000
+Message-Id: <173980491861.332755.12728925427767371760@gitolite.kernel.org>
 
---===============2057389191108997182==
+--===============8717824056802594136==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,65 +16,45 @@ repo: pub/scm/linux/kernel/git/powerpc/linux
 user: maddy
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: a64dcfb451e254085a7daee5fe51bf22959d52d3
-    new: 0ad2507d5d93f39619fc42372c347d6006b64319
-    log: revlist-a64dcfb451e2-0ad2507d5d93.txt
-  - ref: refs/heads/next-test
-    old: 6aa989ab2bd0d37540c812b4270006ff794662e7
-    new: 0bf03898c3cb652c68049945eccf60098c33605c
-    log: |
-         0a1aa23660bcc23ffd86df1bdeac4c87d60fa7dc static_call_inline: Provide trampoline address when updating sites
-         41413323f1d1911a63fc1a39c1441034631970c1 objtool/powerpc: Add support for decoding all types of uncond branches
-         aa1f709bde8bbedc53ed0d758dcb9130df55f6a1 powerpc: Prepare arch_static_call_transform() for supporting inline static calls
-         a727152a90f22d2410b708c56d4152a500c99730 powerpc/static_call: Implement inline static calls
-         88684f070d39f65c0d8f7cec2269bbe8b92bcf43 powerpc/44x: Declare primary_uic static in uic.c
-         b8c0b479bb96aa716a124bfc3bd57a298924009d powerpc/vmlinux: Remove etext, edata and end
-         715b9e339f5707ecbc303e3c48819b8aab5c286d powerpc/32: Stop printing Kernel virtual memory layout
-         0fd54d2e27efc5702be9c6751908ba56e9ccb0a5 powerpc/ipic: Stop printing address of registers
-         84ce0bb5c3eb8f86f15e5f506e7cd084da3c4178 powerpc/time: Define div128_by_32() static and __init
-         0bf03898c3cb652c68049945eccf60098c33605c arch/powerpc: Remove unused function icp_native_cause_ipi_rm()
-         
-  - ref: refs/tags/v6.14-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 2db77e8810aa26c8cd3fa119037f753a68b7dce4
+  - ref: refs/heads/merge
+    old: 3062e4bd79ed920c60453b56e08d3bda74513f7d
+    new: 956c5a532ca99463143d340261c0046bbe359e75
+    log: revlist-3062e4bd79ed-956c5a532ca9.txt
 
---===============2057389191108997182==
+--===============8717824056802594136==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1739804138 +0530
+pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1739804934 +0530
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1739804107-d431b8e253b1696bf7d65807050ff8f6a4ef2852
+nonce 1739804903-3208af94005859b36f65aa46f11b97efac915269
 
-a64dcfb451e254085a7daee5fe51bf22959d52d3 0ad2507d5d93f39619fc42372c347d6006b64319 refs/heads/master
-6aa989ab2bd0d37540c812b4270006ff794662e7 0bf03898c3cb652c68049945eccf60098c33605c refs/heads/next-test
-0000000000000000000000000000000000000000 2db77e8810aa26c8cd3fa119037f753a68b7dce4 refs/tags/v6.14-rc3
+3062e4bd79ed920c60453b56e08d3bda74513f7d 956c5a532ca99463143d340261c0046bbe359e75 refs/heads/merge
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmezTeoACgkQpnEsdPSH
-ZJSq9BAAhj+pB8RcDuteqcWWsV8gg/Et5FAbAsAKBz6UgJAvlCNbJGR6UutbnF/e
-iWbnkAeYT51fk+l4eKihBOwelSerT4b7pfl2Xqa9P2ZYvRPQt0h2PXSLEFt0bREp
-hFE2IGuRWGY0f3uXBDQrpw5jfTyy9LqQkFMV9j1mz39n+Mxnes9nYT+z9e/AodGd
-9yjbQFm/S3denM//dnbmBZrU+ifA4BbRYYoY2oN/tzaenkG+i1snuEKBNC/54q8q
-gwo70hwdIaQABoH2eXtw8EN4kkJuz1qO4Ab5FueW16u2D9HqSFEFln1V0j43Vyg3
-Yu6cca4XpGbttIqGySGOYV5pcFACDUrAM4G0hcRQxtvp0eyfd8v18LsRXI8cemYR
-qgPbToLi43pctc4GqtJErjIqGRsTW1XIzmnJIwXUFXTmq7ckBuD0nr2uDylq/qKd
-TxYUwxvLVPHlKffGMphoN+XYrVk58b/ZTxIRnJpyEhbcGtlQKuiaX0GF2qBf7r4y
-Qwzt6jQYj6gNuaY2nFS6p2hMhAhOVes6vFNl/nEiDVFNX1N6zP8RC+G1gTxYYF64
-aL2sKK7It4U2HnA4SHf6bhke+K6K7gYEv0L2o6nyXTsZQMs4Is2IC2rONbDaIIHd
-BD+7KO+wF5HkJ7w0TGTim7Bbm6jqk4rhfHuZIh6dgjO/XDcGTO4=
-=ijII
+iQIzBAABCAAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmezUQYACgkQpnEsdPSH
+ZJSlnA//dR9dhBtRZuuHWBDE2gdqzSj52WZtLDUyYsVF0dJR5bW9GwhwAuJLsbzI
+fP37+XnTa7KU8/oqn/KWxlU7X9BEZxEIdcRVwhGPRtnlIkyCgtYuGgMKOhQvt2we
+3+NZcbv2cEZXkgM+p6Bv8JJ0MZilyM6rYu8S6QPYmXwjN7zOYOD+QP9gTdHMRaUe
+Ezubg3ykAebU/hWSUwiVGishrVwF9uCEuKM7ukFSXN+4c038nNbip80P+LLafQyJ
+30iXOc4Mwv+KhG7JvakduO1SgD4OZwazGSmfiM+/VPIiLRUMgP9lH7iHCWXGDml4
+S0RxM4Agx9HwvBTMLBYnLA+7Rwe3VJ+AlSMYZSS1Irg+xG3dmRzYpHYARMbvnOsR
+E97CQ3vL+Hji/f0DshALe3Y3IM+BT6B38ZV3gtoPb/xSUa9LkVU3Bh+F6PqQNUeB
+s74g8L3oBIy8FdeN5bNUaDJwGmOat0GHpb6WsJXsbY8JoBXgsJA0Ex3OtYAggFhQ
+W2GDuQ+om8PeL387eqhaWik7pYFGIFtmKXXiyMSvR71pj4Q1qb9oYUnDLg6dF01y
+rQxx0oZQjByMQwkxpmR33ejaq6OfbJ0RdqAg1b/CJ2BfaNJgLPOPpUT9WGlkzpZe
+soUBrG3CiopFqgToQ6z/RYCqGZYbLoV7fUqgVuVvswxk9d9vi1c=
+=JvQN
 -----END PGP SIGNATURE-----
 
---===============2057389191108997182==
+--===============8717824056802594136==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a64dcfb451e2-0ad2507d5d93.txt
+Content-Disposition: attachment; filename=revlist-3062e4bd79ed-956c5a532ca9.txt
 
 ccb7276a6d26d6f8416e315b43b45e15ee7f29e2 batman-adv: fix panic during interface removal
 e7e34ffc976aaae4f465b7898303241b81ceefc3 batman-adv: Ignore neighbor throughput metrics in error case
@@ -467,5 +447,6 @@ ba643b6d84409e8a9057d5bdd6dd99255b1a88fe Merge tag 'irq_urgent_for_v6.14_rc3' of
 ae5fa8ce7ef230be50ed63d16883bada29990293 Merge tag 'driver-core-6.14-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 224e74511041c2d33dcf24adf54d447eb72399c8 Merge tag 'kbuild-fixes-v6.14-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 0ad2507d5d93f39619fc42372c347d6006b64319 Linux 6.14-rc3
+956c5a532ca99463143d340261c0046bbe359e75 Automatic merge of 'master' into merge (2025-02-17 20:37)
 
---===============2057389191108997182==--
+--===============8717824056802594136==--
