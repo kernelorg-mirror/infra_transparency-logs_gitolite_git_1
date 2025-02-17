@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Mon, 17 Feb 2025 10:59:24 -0000
-Message-Id: <173978996408.111877.16945861214200683373@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/fuse
+Date: Mon, 17 Feb 2025 11:05:16 -0000
+Message-Id: <173979031637.118573.6453255162982295302@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: mikulas
+repo: pub/scm/linux/kernel/git/mszeredi/fuse
+user: mszeredi
 changes:
-  - ref: refs/heads/for-next
-    old: 0ce46f4f751bc15375aea501a991ec931278b415
-    new: a8b8a126c8573b392432b0d1b23314bda59acbfc
-    log: |
-         a8b8a126c8573b392432b0d1b23314bda59acbfc dm: Enable inline crypto passthrough for striped target
-         
+  - ref: refs/tags/fuse-fixes-6.14-rc4
+    old: 0000000000000000000000000000000000000000
+    new: fe3fb979ab753c5026c5e96e4f554fda3eafeffc
