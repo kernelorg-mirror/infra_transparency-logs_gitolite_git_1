@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0862497797478216567=="
+Content-Type: multipart/mixed; boundary="===============7093296908751987039=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/modules/linux
-Date: Mon, 17 Feb 2025 09:42:14 -0000
-Message-Id: <173978533421.4146063.8300419157925479230@gitolite.kernel.org>
+Date: Mon, 17 Feb 2025 09:42:52 -0000
+Message-Id: <173978537289.4146491.3336312164875132355@gitolite.kernel.org>
 
---===============0862497797478216567==
+--===============7093296908751987039==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/modules/linux
 user: ppavlu
 changes:
-  - ref: refs/heads/master
-    old: 2014c95afecee3e76ca4a56956a936e23283f05b
-    new: 0ad2507d5d93f39619fc42372c347d6006b64319
-    log: revlist-2014c95afece-0ad2507d5d93.txt
+  - ref: refs/heads/modules-fixes
+    old: ccdbc07c71baba8fb8722265b53f150e8f460b80
+    new: 7ae75c73e5d8561c372e11e5ee482d6874d2f8b9
+    log: revlist-ccdbc07c71ba-7ae75c73e5d8.txt
 
---===============0862497797478216567==
+--===============7093296908751987039==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2014c95afece-0ad2507d5d93.txt
+Content-Disposition: attachment; filename=revlist-ccdbc07c71ba-7ae75c73e5d8.txt
 
 3c47c2ccd5a29c78780ccfd0227a805f3873ab1c nvmet: fix rw control endian access
 d68fc95a771e0a7edd876ede7913d61276be77fd nvme-pci: remove redundant dma frees in hmb
@@ -694,5 +694,6 @@ ba643b6d84409e8a9057d5bdd6dd99255b1a88fe Merge tag 'irq_urgent_for_v6.14_rc3' of
 ae5fa8ce7ef230be50ed63d16883bada29990293 Merge tag 'driver-core-6.14-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 224e74511041c2d33dcf24adf54d447eb72399c8 Merge tag 'kbuild-fixes-v6.14-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 0ad2507d5d93f39619fc42372c347d6006b64319 Linux 6.14-rc3
+7ae75c73e5d8561c372e11e5ee482d6874d2f8b9 tests/module: nix-ify
 
---===============0862497797478216567==--
+--===============7093296908751987039==--
