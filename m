@@ -1,46 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2252366865056162723=="
+Content-Type: multipart/mixed; boundary="===============8068396819433277834=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 17 Feb 2025 08:54:04 -0000
-Message-Id: <173978244484.4056940.9593202425587924321@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 17 Feb 2025 09:06:59 -0000
+Message-Id: <173978321944.4068235.12500521738096120665@gitolite.kernel.org>
 
---===============2252366865056162723==
+--===============8068396819433277834==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/review-ilpo-next
-    old: d497c47481f8e8f13e3191c9a707ed942d3bb3d7
-    new: c86e269c4da6dca2beaf99bdc6fd9f0a9f69035f
+  - ref: refs/heads/master
+    old: e4506e84364dd59be1f175a6e28dbead779d0e3b
+    new: a673b22af45497b9fe2a91476ce4381df33bbb9c
     log: |
-         c86e269c4da6dca2beaf99bdc6fd9f0a9f69035f platform/x86: dell: Use *-y instead of *-objs in Makefile
+         a673b22af45497b9fe2a91476ce4381df33bbb9c Linux 6.12.14
          
 
---===============2252366865056162723==
+--===============8068396819433277834==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1739782468 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1739782437-3b41743368d8924a7ed41508247d1efb0a1715dd
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1739783248 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1739783217-c6363db939b2657b3048cd94c9183c7df5751d36
 
-d497c47481f8e8f13e3191c9a707ed942d3bb3d7 c86e269c4da6dca2beaf99bdc6fd9f0a9f69035f refs/heads/review-ilpo-next
+e4506e84364dd59be1f175a6e28dbead779d0e3b a673b22af45497b9fe2a91476ce4381df33bbb9c refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZ7L5SAAKCRBZrE9hU+XO
-MWGYAQDjqEBAthVTUWypBgAS6qf4DlgRk1noL3+TAlzFmMpe1AEA7pmXEyKw93U8
-UCV8Y7Y/jahtMQzofNjlg2zJlHhKfQo=
-=ME82
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmey/FAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+blMQAIlKOnHZnZRe8nbinWYW
+7yM8oTRiPyRYLGgHScyJEFP9L1wM2htE7K9jRe/SPMj1yApatUcL0IGQ1i5ivTj+
+KoEfUEmtFAjivUD6V9kNEL2Zi0VKW/G3tV6Li6FvG6rOmLbuhyVz0KAoyh+y6fNL
+r3XLalzfBJtMOa+9jFJoNDoCR140R52Q6ucBWAWruIKXFRFZMl4bWoeoLqCDBPZm
+IUT8WUe4jkDin4BxlEF2pOptUOprkta1byYGv+J0Kgelv4p3zRHA+D3i5YPQMKnU
+biyifaKWnoKlwijA8mSY1s2uigYg89oiLLkep6QAJs+6xnkgW3y0shz7bkwGMC7r
+B1qfC7yiL4dRl+SInEwe1/+BeZ3CPlgSsybMBo0gFiHQl9lAoE47mNbNiKMVLIG5
+K6joZMvbHzd7eBKlBzqCd8CbQs2Gtsgd6ySXwUhKH0xz1kURIjkvOKUqQ5HSuu0v
+gJWbHtjcO6iGqsahLfWSTt4F2BdtSHiPAEyjTi9ZkpQvCKXs0KgqFzwqoGbCXq/J
+s2H+S4wQWmSuyndhN5PSbXrNlpvUydG2biEWwGpOohE0ackvq2Scq9wRyFfkA9WY
+RFJ2e6SPUvWF9wXgyP7o3W5Znyb/YXeANYz07DdksVtrpF9rP3wxnIont2qXodJO
+O+IrJm5ee9Qd3J9qYaGpWSws
+=kSRI
 -----END PGP SIGNATURE-----
 
---===============2252366865056162723==--
+--===============8068396819433277834==--
