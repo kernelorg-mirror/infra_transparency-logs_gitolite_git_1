@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============3460884099218891164=="
+Content-Type: multipart/mixed; boundary="===============8346408733404672216=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 17 Feb 2025 06:31:09 -0000
-Message-Id: <173977386983.3894120.2709810782638285267@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Mon, 17 Feb 2025 06:35:18 -0000
+Message-Id: <173977411831.3897939.16191133258967442752@gitolite.kernel.org>
 
---===============3460884099218891164==
+--===============8346408733404672216==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: eb07e3a946796b682b12897e080d856bc6d63c3d
-    new: e749820252c73a17da97cc18b68fec7b6299cfd3
-    log: revlist-eb07e3a94679-e749820252c7.txt
+  - ref: refs/heads/usb-next
+    old: 257a087c8b5206e046048de6053fc8b3fa1af814
+    new: f8da37e46253316d29a274a6747cb69007bc81f2
+    log: revlist-257a087c8b52-f8da37e46253.txt
 
---===============3460884099218891164==
+--===============8346408733404672216==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1739773836 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1739773868-14c0c70e04a517069111aa2c77ba7be652438787
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1739774080 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1739774112-f8f4f13127cc882602d893306183cf275a02d5a2
 
-eb07e3a946796b682b12897e080d856bc6d63c3d e749820252c73a17da97cc18b68fec7b6299cfd3 refs/heads/tty-testing
+257a087c8b5206e046048de6053fc8b3fa1af814 f8da37e46253316d29a274a6747cb69007bc81f2 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmey14wbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WQQP/1kytMnCHp92K3VpNPsm
-EF5VmR6BsCNS/3MzpezHzych7Lk9D3xAGBkfgN8tc+19/hvI016vJKfj1VQfuRWS
-vZyAsoIWYdFJ9789VgSYQemTKHYUStHEcNYsKcO4/7UMZGIk5zF1tlBzEr8HXf/a
-facc9dd6jQloKfL76/VIvntWZFjNdrc42yAKKXMBeUPcUbIljM5E/XEN9s+IJjOb
-KpnhHdu2/njm1jfMnDFYF12cWm45dfBlvdHcS/QH9m71iJVe2Emz+25EkdoKk1F6
-zdixfyeKJzkdD7SunS3RNfYeu82swy5W/fnWPujmqZIw9Yybuaihvh7IiNEbcdQ1
-W1X304woHsCNdEvOLQ/uGJ1sCsHcnXmjDLNjnUlZIBGyOr9yF20NmjN/jQ5cgtqo
-zZEIj/HpZ96PyltWpHZWTYzrAx55k+RK9ANoYkntWoXk6ueVT+ZL1eD3hVo3n4WY
-9OG9GxG0uk4byXfuJJidRFWA6RXWE/RKu1OkBU2+tuPv//9qbxfa14xuoIymbuzU
-FNFYh6h+TzKmHk1TbPXIugcIm86AEIFv5dKLdsRZsG8+x+oPpwoN7zATpSbigDbG
-RFNuewpOVETF5qpfjNhOgXK7/p4/lcB1L7wvyN6MRqboNcKieal1K0IjuJjyrO9n
-eOJQkiF6IAOWok3jJGOZRdB8
-=cdcg
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmey2IAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tmYQAMVETB9ke0FBTLl2ztWG
+Gyau3f/youiL1WgzetRfKbOyS6VJxOGWIRwi5byLwT6E62qcSlSBYY88Qwez4Td0
+WsC9l/2Z+e+vBBbtUsHAiUkJWCVXKZocJX98KikihMyOepvkQPvAcOQ4KDIP8JCE
+6ODhcKnO2+9zIjsuqXXetNepvJaQDJRIs82PJJigN4QJxs1MOP7KdsXla/mJIxU0
+XEIr+W0VmgtrltudVgMhDUiOj0MHYRfTr8d0KAy1nIBU+ITNxQq1fcH0LcZ5Z7jb
+0iMkcLHZEDoL2FAHbGMkZb9K/hf2ZR53YMdEIfocvAr/gLRNNEGa5vlKD+UCmMvN
+1Csz2lNF4Dc6AT0NwfDmhCEkvU5eC9Ecf3x3ico6i/esfFvVQTFJh1sFy+CNXdfD
+OhwhuvQrhNc0yDR1TfkjLyKtxwRXy7P/S4NUKrs+S2jfxxJaRi06HhVkVxoOAuyt
+qQ7zXRAi0nBdOV6/mdnViLX+Etj9gXrtvfpWhTE0Q/G4dEVMJJoboKGdAiPR1kc+
+1bg6dx7r1/VujQG8C14LK3N4TVwmSRwWYx/3m7DcXAog2vJ1RWb20ln5Tp3ZAeeI
+O2SUt3l2qZWdVR088uC7V4B9p3fkT98pVqzwcI0era3w034/tEC/pdAl1nvTFoXG
+2H/IkInpblASavgKRIU7ZlqL
+=63lZ
 -----END PGP SIGNATURE-----
 
---===============3460884099218891164==
+--===============8346408733404672216==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eb07e3a94679-e749820252c7.txt
+Content-Disposition: attachment; filename=revlist-257a087c8b52-f8da37e46253.txt
 
 3c47c2ccd5a29c78780ccfd0227a805f3873ab1c nvmet: fix rw control endian access
 d68fc95a771e0a7edd876ede7913d61276be77fd nvme-pci: remove redundant dma frees in hmb
@@ -725,6 +725,6 @@ ba643b6d84409e8a9057d5bdd6dd99255b1a88fe Merge tag 'irq_urgent_for_v6.14_rc3' of
 ae5fa8ce7ef230be50ed63d16883bada29990293 Merge tag 'driver-core-6.14-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 224e74511041c2d33dcf24adf54d447eb72399c8 Merge tag 'kbuild-fixes-v6.14-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 0ad2507d5d93f39619fc42372c347d6006b64319 Linux 6.14-rc3
-e749820252c73a17da97cc18b68fec7b6299cfd3 Merge 6.14-rc3 into tty-next
+f8da37e46253316d29a274a6747cb69007bc81f2 Merge 6.14-rc3 into usb-next
 
---===============3460884099218891164==--
+--===============8346408733404672216==--
