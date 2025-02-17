@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4118079167036500200=="
+Content-Type: multipart/mixed; boundary="===============1055107462849772677=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mricon/hook-test
-Date: Mon, 17 Feb 2025 18:02:57 -0000
-Message-Id: <173981537776.476542.13488507420568732384@gitolite.kernel.org>
+Date: Mon, 17 Feb 2025 18:06:03 -0000
+Message-Id: <173981556376.480092.6983174521110809828@gitolite.kernel.org>
 
---===============4118079167036500200==
+--===============1055107462849772677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,30 +17,30 @@ user: mricon
 git_push_cert_status: G
 changes:
   - ref: refs/heads/main
-    old: 51377015de81227652eb004eb43ed0897ca29bba
-    new: d2f37e48947c4594d4ca98b6cb2a60103be0254b
+    old: d2f37e48947c4594d4ca98b6cb2a60103be0254b
+    new: 20e32a4477655dfa5803d797a7346423d0c2b9a0
     log: |
-         d2f37e48947c4594d4ca98b6cb2a60103be0254b Go back to 0
+         20e32a4477655dfa5803d797a7346423d0c2b9a0 1->2
          
 
---===============4118079167036500200==
+--===============1055107462849772677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1739815406 -0500
+pusher B6C41CE35664996C! 1739815592 -0500
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mricon/hook-test
-nonce 1739815376-1415c097cf902ecfb4ec7638cce0981baecc4f4c
+nonce 1739815562-068f8e87fb9dcce742a1f94b524ed36fd8a60992
 
-51377015de81227652eb004eb43ed0897ca29bba d2f37e48947c4594d4ca98b6cb2a60103be0254b refs/heads/main
+d2f37e48947c4594d4ca98b6cb2a60103be0254b 20e32a4477655dfa5803d797a7346423d0c2b9a0 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZ7N57gAKCRC2xBzjVmSZ
-bMpHAQDc/KxgqkSyFT9r0YfR3vTew1N7p3vxx1X/ezfeYNm4+gEA+GNITk1Dd+Gm
-OmqDWm7JE4eLzbt0xSmnknJNpa7GPQQ=
-=pxcI
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZ7N6qAAKCRC2xBzjVmSZ
+bPKcAQDlXz6Xh+D+zpQNWASFZ8C/rFxOFzjxrevvMXXdIhYyZQEA9+OaIIiMCoGc
+VwzlMyemYLH38cA8zavK0mWBXVt1EgU=
+=jdcp
 -----END PGP SIGNATURE-----
 
---===============4118079167036500200==--
+--===============1055107462849772677==--
