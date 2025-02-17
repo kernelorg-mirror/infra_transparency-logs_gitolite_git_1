@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3723761539916616891=="
+Content-Type: multipart/mixed; boundary="===============5918683729425534209=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 17 Feb 2025 06:30:57 -0000
-Message-Id: <173977385757.3893732.11017042861838251916@gitolite.kernel.org>
+Date: Mon, 17 Feb 2025 06:31:06 -0000
+Message-Id: <173977386662.3893981.9494138813573608599@gitolite.kernel.org>
 
---===============3723761539916616891==
+--===============5918683729425534209==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: 9e512eaaf8f4008c44ede3dfc0fbc9d9c5118583
-    new: 0ad2507d5d93f39619fc42372c347d6006b64319
-    log: revlist-9e512eaaf8f4-0ad2507d5d93.txt
+  - ref: refs/heads/tty-next
+    old: eb07e3a946796b682b12897e080d856bc6d63c3d
+    new: e749820252c73a17da97cc18b68fec7b6299cfd3
+    log: revlist-eb07e3a94679-e749820252c7.txt
 
---===============3723761539916616891==
+--===============5918683729425534209==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1739773823 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1739773829 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1739773856-87b5f9ffe006a1c79ee0b69142a29b9274ab2b68
+nonce 1739773862-b5207c4b50f4d6cda271998be00a13bac3695c77
 
-9e512eaaf8f4008c44ede3dfc0fbc9d9c5118583 0ad2507d5d93f39619fc42372c347d6006b64319 refs/heads/tty-linus
+eb07e3a946796b682b12897e080d856bc6d63c3d e749820252c73a17da97cc18b68fec7b6299cfd3 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmey138bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+F8QQAK/naxhD4tLV7x6fgC3r
-kZwWOdX0txet0HM/R8oGpNeh8bxTzrQh3AiymnfXKqp0Hwkr9u/naB/OQ2W5tO4F
-aLfVz3craHLlDn2Q++DqnzPT5FDKg6JmloFINa1r9BYn7D0xkAIDFXSVGxl3uCcm
-zJVtkNbaejM052e+R+oiApecjt3K9FrGg5HV7d4Sj/tssfKz5nGkLE/Q9JYmT5jm
-C9JavN6KLpjTD37m2pWcR68F1LnyfawSuS/F3/7ahIM3LdknRIX5Htclky9dL+zk
-BbRqpr/LbFR2xCyaMwswvbT/94hj+hzopnk09AwT4mwjkH1rw1RzZv2qFksJPsSW
-b3owZIKQp59cQsH5L6gWzrnmHqX6kLTyn6Gy1PwXOTSrjgCcoxPZtp842/PD33Vt
-U22im0pBsVPyIYP7FCiSys11avtfNmn7XIW24S+LoB6JKLwNC7SGb80L9yXjOgzO
-5wUxlOMurmbPkbp3VmvJRBHhFtNJTyvFIcjct1eiNwmU/h6f5+MDcsGun9VSMsGH
-ARy1Kh823w8RwJDBWnTxZUKvRcmLwuVznY28iOIDNhjgKB6xfgc/qR/yT0RUIiqw
-XTnZ8WSufOuuAd73HlFssQZwC5jcidHNgnGVO4TobXqA4fjo1GBjRPvEDMCmGUdl
-6t/Yt4wTP8BE/HaqYQzGSk5b
-=oSW/
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmey14UbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cBgP/i65W/IkQMd5JPD9pULJ
+9+9ZttGDrFjIdiZ4NKxuQoToU458+twgklrQDXobq8UYiCDnTbx4GZsmGZFGmDUC
+rXsTJa3ZKYolLwfTvLu4YP+MCLru9uQ5gserAX7fRh/iJTRznoV028KYIW+eY4BN
+zMPuJswlHssV9Rt6kecbiY9OSUEQ0caDq3j1Jevph939gKPABE3w/yDEg9HL2TJn
+E0jly4i8PY21SgmJoXqYOeN3b+vY93hm6FM3EhXAlwdcQ1NhWmdqX0KiH1vSN3Fy
+WnSB8ZVIgDkX5NbZJd1/q4FfM/MfA7OHi/aURKAAXbg/R6l/qvN7XbMe6gzpPyCk
+RHMFV0rqHcQ0WJmzDeZzTXCwF0HrlICRmnebZpXgD62HuXOV6BVQsi+DFBhPtt34
+emCTEFgjf2IMcyXnICRnV30mwbCA2yvfbVwS47/7FOhRnbfBScbfjwINUMPrGhSZ
+KXDaumts0WyPQOXogTPP1DecJ282Pnpzx2gfoC+NRWvgXu4effTuVImxuvGaSRq/
+nYA0CNGBjKCHGHAEBDC4UoU9QW3oCIfk8IMDGu22Nfo6K/ixdauj6SvLGo2P0E83
+yl9lggA82cIW6mWJ/Lsa5E+a3IqY05Vl25Y6kGzg1R9MFQH84rPJ63PZqaxxACmL
+5LGnReo4AQds/Oax2rMdhpTW
+=FIOf
 -----END PGP SIGNATURE-----
 
---===============3723761539916616891==
+--===============5918683729425534209==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9e512eaaf8f4-0ad2507d5d93.txt
+Content-Disposition: attachment; filename=revlist-eb07e3a94679-e749820252c7.txt
 
 3c47c2ccd5a29c78780ccfd0227a805f3873ab1c nvmet: fix rw control endian access
 d68fc95a771e0a7edd876ede7913d61276be77fd nvme-pci: remove redundant dma frees in hmb
@@ -256,6 +256,13 @@ f64f9dddd1f58c41c140034f7d2b0beeef1bc548 arm64/gcs: Fix documentation for HWCAP
 21fed7c223e20e694b91dbf25936d922a50c8b19 arm64/hwcap: Remove stray references to SF8MMx
 ba69e0750b0362870294adab09339a0c39c3beaf efi: Avoid cold plugged memory for placing the kernel
 bbc4578537e350d5bf8a7a2c7d054d6b163b3c41 efi: Use BIT_ULL() constants for memory attributes
+e8ed246ded863eb862806c5591afdcf70012ab5e serial: sc16is7xx: Fix IRQ number check behavior
+166ac2bba167d575e7146beaa66093bc7c072f43 serial: port: Assign ->iotype correctly when ->iobase is set
+e8486bd50ecf63c9a1e25271f258a8d959f2672f serial: port: Always update ->iotype in __uart_read_properties()
+12397549b5014071e1d2b315509f68eb93ef9144 serial: port: Make ->iotype validation global in __uart_read_properties()
+fe310f75327edbc042c7cc0df32c6b9ec29eb93a serial: 8250_of: Remove unneeded ->iotype assignment
+34bbb5d5137f32be3186a995a5ad4c60aaad11a7 serial: 8250_platform: Remove unneeded ->iotype assignment
+0f3fd9cf6491f5beecbb65abb41556c56135340c serial: 8250_pnp: Remove unneeded ->iotype assignment
 4241a702e0d0c2ca9364cfac08dbf134264962de rxrpc: Fix the rxrpc_connection attend queue handling
 5417a2e9b130a78bf48cb4cf92630efcee5ccf38 KVM: arm64: Fix nested S2 MMU structures reallocation
 b450dcce93bc2cf6d2bfaf5a0de88a94ebad8f89 KVM: arm64: timer: Always evaluate the need for a soft timer
@@ -663,6 +670,7 @@ e169d96eecd447ff7fd7542ca5fa0911f5622054 USB: quirks: add USB_QUIRK_NO_LPM quirk
 e5644be4079750a0a0a5a7068fd90b97bf6fac55 usb: gadget: uvc: Fix unstarted kthread worker
 634775a752a86784511018a108f3b530cc3399a7 usb: roles: set switch registered flag early on
 659f5d55feb75782bd46cf130da3c1f240afe9ba usb: typec: tcpm: PSSourceOffTimer timeout in PR_Swap enters ERROR_RECOVERY
+9e512eaaf8f4008c44ede3dfc0fbc9d9c5118583 serial: 8250: Fix fifo underflow on flush
 80e648042e512d5a767da251d44132553fe04ae0 partitions: mac: fix handling of bogus partition table
 fd31a1bea3c94e01cb7b998485d2d7b14bdc8101 Merge tag 'for-linus-6.14-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
 f85478fb3fecad01927935c51fe7e9dd5731d0b7 Merge tag 'i2c-host-fixes-6.14-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-current
@@ -717,5 +725,6 @@ ba643b6d84409e8a9057d5bdd6dd99255b1a88fe Merge tag 'irq_urgent_for_v6.14_rc3' of
 ae5fa8ce7ef230be50ed63d16883bada29990293 Merge tag 'driver-core-6.14-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 224e74511041c2d33dcf24adf54d447eb72399c8 Merge tag 'kbuild-fixes-v6.14-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 0ad2507d5d93f39619fc42372c347d6006b64319 Linux 6.14-rc3
+e749820252c73a17da97cc18b68fec7b6299cfd3 Merge 6.14-rc3 into tty-next
 
---===============3723761539916616891==--
+--===============5918683729425534209==--
