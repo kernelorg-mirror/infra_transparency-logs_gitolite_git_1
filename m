@@ -1,46 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============1055107462849772677=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mricon/hook-test
-Date: Mon, 17 Feb 2025 18:06:03 -0000
-Message-Id: <173981556376.480092.6983174521110809828@gitolite.kernel.org>
-
---===============1055107462849772677==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Mon, 17 Feb 2025 18:29:39 -0000
+Message-Id: <173981697970.497473.5050182701820336169@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mricon/hook-test
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
   - ref: refs/heads/main
-    old: d2f37e48947c4594d4ca98b6cb2a60103be0254b
-    new: 20e32a4477655dfa5803d797a7346423d0c2b9a0
+    old: 5bc5868b7ee5a243abdd73cfcd3bbf7166f4f42f
+    new: 175c9204e88a0fbd2d70649d255d1552ab22d3e4
     log: |
-         20e32a4477655dfa5803d797a7346423d0c2b9a0 1->2
+         9ea3e5dd4265db0057c484a2e403c57f838cf18b ASoC: tas2781: Change regbin firmwares for single device
+         175c9204e88a0fbd2d70649d255d1552ab22d3e4 Merge branch 'robot/patch-0-1739514774' into 'main'
          
-
---===============1055107462849772677==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1739815592 -0500
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mricon/hook-test
-nonce 1739815562-068f8e87fb9dcce742a1f94b524ed36fd8a60992
-
-d2f37e48947c4594d4ca98b6cb2a60103be0254b 20e32a4477655dfa5803d797a7346423d0c2b9a0 refs/heads/main
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZ7N6qAAKCRC2xBzjVmSZ
-bPKcAQDlXz6Xh+D+zpQNWASFZ8C/rFxOFzjxrevvMXXdIhYyZQEA9+OaIIiMCoGc
-VwzlMyemYLH38cA8zavK0mWBXVt1EgU=
-=jdcp
------END PGP SIGNATURE-----
-
---===============1055107462849772677==--
