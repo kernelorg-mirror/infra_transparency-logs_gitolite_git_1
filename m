@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5163284066772897732=="
+Content-Type: multipart/mixed; boundary="===============2061967069785699455=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/fscrypt/linux
-Date: Mon, 17 Feb 2025 19:33:27 -0000
-Message-Id: <173982080745.548828.15761999724437893397@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/fsverity/linux
+Date: Mon, 17 Feb 2025 19:33:59 -0000
+Message-Id: <173982083930.549178.17320402161215335712@gitolite.kernel.org>
 
---===============5163284066772897732==
+--===============2061967069785699455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/fscrypt/linux
+repo: pub/scm/fs/fsverity/linux
 user: ebiggers
 changes:
   - ref: refs/heads/for-next
     old: 2014c95afecee3e76ca4a56956a936e23283f05b
-    new: 75eb8b9410ee5f75851cfda9a328dab891e452d8
-    log: revlist-2014c95afece-75eb8b9410ee.txt
+    new: a19bcde49998aac0a4ff99e9a84339adecffbfcb
+    log: revlist-2014c95afece-a19bcde49998.txt
 
---===============5163284066772897732==
+--===============2061967069785699455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2014c95afece-75eb8b9410ee.txt
+Content-Disposition: attachment; filename=revlist-2014c95afece-a19bcde49998.txt
 
 3c47c2ccd5a29c78780ccfd0227a805f3873ab1c nvmet: fix rw control endian access
 d68fc95a771e0a7edd876ede7913d61276be77fd nvme-pci: remove redundant dma frees in hmb
@@ -694,6 +694,7 @@ ba643b6d84409e8a9057d5bdd6dd99255b1a88fe Merge tag 'irq_urgent_for_v6.14_rc3' of
 ae5fa8ce7ef230be50ed63d16883bada29990293 Merge tag 'driver-core-6.14-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 224e74511041c2d33dcf24adf54d447eb72399c8 Merge tag 'kbuild-fixes-v6.14-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 0ad2507d5d93f39619fc42372c347d6006b64319 Linux 6.14-rc3
-75eb8b9410ee5f75851cfda9a328dab891e452d8 Revert "fscrypt: relax Kconfig dependencies for crypto API algorithms"
+212df80e01069da2a179e6ab28c3f52c325575e1 Documentation: add a usecase for FS_IOC_READ_VERITY_METADATA
+a19bcde49998aac0a4ff99e9a84339adecffbfcb Revert "fsverity: relax build time dependency on CRYPTO_SHA256"
 
---===============5163284066772897732==--
+--===============2061967069785699455==--
