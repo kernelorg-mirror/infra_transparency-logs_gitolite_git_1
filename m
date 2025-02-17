@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mattst88/alpha
-Date: Mon, 17 Feb 2025 03:16:29 -0000
-Message-Id: <173976218916.3669081.18000278415147604508@gitolite.kernel.org>
+Date: Mon, 17 Feb 2025 03:16:32 -0000
+Message-Id: <173976219204.3669202.14973618029193296167@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mattst88/alpha
 user: mattst88
 changes:
-  - ref: refs/tags/v2.6.17.6
-    old: 4cdff9c94373551b4bb9bab927aa774b42f10c05
+  - ref: refs/tags/v2.6.17.7
+    old: 9f3ace8bc5f8966281efa7e2242749b41225498b
     new: 0000000000000000000000000000000000000000
