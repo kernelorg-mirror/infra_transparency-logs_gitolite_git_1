@@ -1,49 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============2214789802703747807=="
+Content-Type: multipart/mixed; boundary="===============8725821501759373390=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Mon, 17 Feb 2025 08:28:11 -0000
-Message-Id: <173978089107.3985853.2855962844343552639@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+Date: Mon, 17 Feb 2025 08:32:48 -0000
+Message-Id: <173978116868.3990023.14597936830879092868@gitolite.kernel.org>
 
---===============2214789802703747807==
+--===============8725821501759373390==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libgpiod/libgpiod
-user: brgl
+repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+user: ijc
 changes:
   - ref: refs/heads/master
-    old: 5486f1f0ffa419bcbb25288b0157c8e2ab643403
-    new: dda57bd63f220d57bf80e3c1411ee612befda011
-    log: revlist-5486f1f0ffa4-dda57bd63f22.txt
+    old: 365255c7c43cd61c2b290013b451f1b5ff1316dd
+    new: 768c96beac4fbcd1e4c5f37b86e3c3a92e67f391
+    log: revlist-365255c7c43c-768c96beac4f.txt
 
---===============2214789802703747807==
+--===============8725821501759373390==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5486f1f0ffa4-dda57bd63f22.txt
+Content-Disposition: attachment; filename=revlist-365255c7c43c-768c96beac4f.txt
 
-3dac2c5d9c2ed3d77e9bcf89e03a6173ca28b9c5 gpiosim: defer removal of bank entries when device is not disabled
-e3c641ec7c52d15257119c2ff648b826b46a932a gpiosim: selftests: check that a disabled device can be re-enabled
-588a196abbebc82eaa3495a9db4e9edfbaa44ed9 build: set PACKAGE_URL
-e025e1cb5cbb5be933ab3d7b34cef2800a41eed1 bindings: cxx: doc: remove the gpiod_cxx doxygen group
-8aa4d84b6f8e2d5d5fbb1b5c23d0eab69f9bf72a bindings: python: doc: update the docstring for gpiod.request_lines()
-b1bc6664f697c2aa693192d43f58d01b8210d3e5 bindings: python: doc: make code examples appear as such in sphinx
-d46e8f67aa45e2acbe8b918ff9815628167aea9b bindings: python: doc: describe undocumented members
-7ac26508931ce6aa8a5b2f9e45bcdeb4fb9d80a1 bindings: gpiod: reword the docstring for LineRequest.__init__()
-d0139ffa9c02b594e36681d3bb2b48932b3d573d bindings: glib: add the configuration file for gi-docgen
-681c0c2767944f668f2e6649ff0663ce4dbbcbd1 dbus: daemon: add a more detailed description to help text
-1ddfa9fc4b5b58bcf11a8852c5b71a66223de9ac dbus: client: tweak help text
-91955a1f934452eafbc862de2b3392110cc338c0 dbus: improve comments in API xml
-3b4a2ced02138c2837f99bfd1ed3773390ded74a doc: create man entries for gpio-manager and gpiocli
-7e11886fffc095b9d3f211d49a49f96cfd73e578 doc: provide sphinx docs for the core C API and C++ bindings
-07da46218683322a246dfe5eda317589cd822a58 doc: add documentation for python bindings
-f37aaf2a6af66f22518091c7c58de596ff613010 doc: add documentation for GLib bindings
-6f8b77c712a30ebea4089d317f4f8617287341cc doc: add documentation for gpio-tools
-bbcb5d44611d15d4db5d4f9fdb3362a0f84d7d10 doc: add documentation for D-Bus API, daemon and command-line client
-dda57bd63f220d57bf80e3c1411ee612befda011 doc: move README contents to sphinx docs
+29c92fce9749bc843f4113996cbd9d8e832ba693 dt-bindings: clock: qcom: Add GPU clocks for QCS8300
+69087b69db1a680605b151d408a69f5b51bf16bc dt-bindings: clock: qcom: Add CAMCC clocks for QCS8300
+1d90b3b419bbb68d4de1286eb44d29fd6f20cccb dt-bindings: clock: qcom: Add QCS8300 video clock controller
+1884e01614beb55e66f0b50b1ed4cabd89fb94b8 dt-bindings: display: ti: Fix compatible for am62a7 dss
+d4fb22b914363e6c20d9b77cfd8d202855dad3b4 dt-bindings: nvmem: qcom,qfprom: Add SAR2130P compatible
+b8e2496984a1f5e842fffeae205dfe5617037e01 regulator: qcom_smd: Add l2, l5 sub-node to mp5496 regulator
+440869c2e7938a45f57576c9e4654c27b8e200d6 dt-bindings: display: Add powertip,{st7272|hx8238a} as DT Schema description
+2627c6aea08aee0f0170d41f331eb56ae2d527af MAINTAINERS: wifi: ath: remove Kalle
+6b5d78bd9d0a45e94e61a27e581e1b4d5d4c8bcc Merge tag 'wireless-2025-02-07' of git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
+47f65d04cad40a67c545f05b054ea005ea32da51 Merge tag 'regulator-fix-v6.14-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
+c34848635488af7cf6e4e0cb9677385bd6e20d9b Merge tag 'devicetree-fixes-for-6.14-1' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
+768c96beac4fbcd1e4c5f37b86e3c3a92e67f391 Merge tag 'v6.14-rc3-dts-raw'
 
---===============2214789802703747807==--
+--===============8725821501759373390==--
