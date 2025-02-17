@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7373294633136949493=="
+Content-Type: multipart/mixed; boundary="===============4709047387956613088=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Mon, 17 Feb 2025 03:29:51 -0000
-Message-Id: <173976299157.3692669.14614196375014204702@gitolite.kernel.org>
+Date: Mon, 17 Feb 2025 03:30:43 -0000
+Message-Id: <173976304398.3694861.18260652997801295129@gitolite.kernel.org>
 
---===============7373294633136949493==
+--===============4709047387956613088==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/dev-test
-    old: 1b0f0fc616e235d2b0c72220cc5aff13c780d0c9
-    new: 09284b6e841888a66cdb832dc57bcf527af6d563
-    log: revlist-1b0f0fc616e2-09284b6e8418.txt
+  - ref: refs/heads/master
+    old: 2014c95afecee3e76ca4a56956a936e23283f05b
+    new: 0ad2507d5d93f39619fc42372c347d6006b64319
+    log: revlist-2014c95afece-0ad2507d5d93.txt
 
---===============7373294633136949493==
+--===============4709047387956613088==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1b0f0fc616e2-09284b6e8418.txt
+Content-Disposition: attachment; filename=revlist-2014c95afece-0ad2507d5d93.txt
 
 3c47c2ccd5a29c78780ccfd0227a805f3873ab1c nvmet: fix rw control endian access
 d68fc95a771e0a7edd876ede7913d61276be77fd nvme-pci: remove redundant dma frees in hmb
@@ -694,6 +694,5 @@ ba643b6d84409e8a9057d5bdd6dd99255b1a88fe Merge tag 'irq_urgent_for_v6.14_rc3' of
 ae5fa8ce7ef230be50ed63d16883bada29990293 Merge tag 'driver-core-6.14-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 224e74511041c2d33dcf24adf54d447eb72399c8 Merge tag 'kbuild-fixes-v6.14-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 0ad2507d5d93f39619fc42372c347d6006b64319 Linux 6.14-rc3
-09284b6e841888a66cdb832dc57bcf527af6d563 erofs: use Z_EROFS_LCLUSTER_TYPE_MAX to simplify switches
 
---===============7373294633136949493==--
+--===============4709047387956613088==--
