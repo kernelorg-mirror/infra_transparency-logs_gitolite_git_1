@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3169294256908318197=="
+Content-Type: multipart/mixed; boundary="===============6749661597612220053=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
-Date: Mon, 17 Feb 2025 09:55:43 -0000
-Message-Id: <173978614392.4159213.10406871768019921652@gitolite.kernel.org>
+Date: Mon, 17 Feb 2025 09:55:50 -0000
+Message-Id: <173978615065.4159437.14521074553804000817@gitolite.kernel.org>
 
---===============3169294256908318197==
+--===============6749661597612220053==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/gnss-next
+  - ref: refs/heads/gnss-linus
     old: 2014c95afecee3e76ca4a56956a936e23283f05b
     new: 0ad2507d5d93f39619fc42372c347d6006b64319
     log: revlist-2014c95afece-0ad2507d5d93.txt
 
---===============3169294256908318197==
+--===============6749661597612220053==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -695,4 +695,4 @@ ae5fa8ce7ef230be50ed63d16883bada29990293 Merge tag 'driver-core-6.14-rc3' of git
 224e74511041c2d33dcf24adf54d447eb72399c8 Merge tag 'kbuild-fixes-v6.14-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 0ad2507d5d93f39619fc42372c347d6006b64319 Linux 6.14-rc3
 
---===============3169294256908318197==--
+--===============6749661597612220053==--
