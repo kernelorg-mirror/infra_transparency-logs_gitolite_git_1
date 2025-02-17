@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7152341004360023346=="
+Content-Type: multipart/mixed; boundary="===============7274395745020237574=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Mon, 17 Feb 2025 01:13:34 -0000
-Message-Id: <173975481470.3537518.6298333723847118766@gitolite.kernel.org>
+Date: Mon, 17 Feb 2025 01:13:51 -0000
+Message-Id: <173975483132.3537780.9923795571647129662@gitolite.kernel.org>
 
---===============7152341004360023346==
+--===============7274395745020237574==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: 3625f980635f5521ac71bb288a7d506952bc1ed8
     new: a77b570b6c3f8f8dcdbdc38d7b05bf98c669ae1c
     log: revlist-3625f980635f-a77b570b6c3f.txt
 
---===============7152341004360023346==
+--===============7274395745020237574==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -426,4 +426,4 @@ b5e15e398d7d1d4bfe3f69fd02f5468e7e5c771d kconfig: remove unnecessary cast in sym
 5568d651e92105b303b627522fb24024639b5140 modpost: introduce get_basename() helper
 a77b570b6c3f8f8dcdbdc38d7b05bf98c669ae1c modpost: use strstarts() to clean up parse_source_files()
 
---===============7152341004360023346==--
+--===============7274395745020237574==--
