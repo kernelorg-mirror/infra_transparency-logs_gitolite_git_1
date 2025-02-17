@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0196397757896464151=="
+Content-Type: multipart/mixed; boundary="===============6467202889315930233=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Mon, 17 Feb 2025 08:49:59 -0000
-Message-Id: <173978219930.4053055.6812109512879453936@gitolite.kernel.org>
+Date: Mon, 17 Feb 2025 08:50:14 -0000
+Message-Id: <173978221498.4055023.9722087719667500473@gitolite.kernel.org>
 
---===============0196397757896464151==
+--===============6467202889315930233==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mips/linux
 user: tsbogend
 changes:
-  - ref: refs/heads/master
-    old: 2014c95afecee3e76ca4a56956a936e23283f05b
+  - ref: refs/heads/mips-fixes
+    old: 733a90561ad0a4a74035d2d627098da85d43b592
     new: 0ad2507d5d93f39619fc42372c347d6006b64319
-    log: revlist-2014c95afece-0ad2507d5d93.txt
+    log: revlist-733a90561ad0-0ad2507d5d93.txt
 
---===============0196397757896464151==
+--===============6467202889315930233==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2014c95afece-0ad2507d5d93.txt
+Content-Disposition: attachment; filename=revlist-733a90561ad0-0ad2507d5d93.txt
 
 3c47c2ccd5a29c78780ccfd0227a805f3873ab1c nvmet: fix rw control endian access
 d68fc95a771e0a7edd876ede7913d61276be77fd nvme-pci: remove redundant dma frees in hmb
@@ -563,8 +563,6 @@ e00a2e5d485faf53c7a24b9d1b575a642227947f drm: Fix DSC BPP increment decoding
 d923782b041218ef3804b2fed87619b5b1a497f3 arm64: amu: Delay allocating cpumask for AMU FIE support
 f818227a2f3d1d4f26469347e428323d61cc83f0 ACPI: GTDT: Relax sanity checking on Platform Timers array count
 a4cc8494f1d853a0945d2a655b4891935d717355 arm64: Add missing registrations of hwcaps
-ed975485a13d1f6080218aa71c29425ba2dfb332 MIPS: Export syscall stack arguments properly for remote use
-733a90561ad0a4a74035d2d627098da85d43b592 MIPS: fix mips_get_syscall_arg() for o32
 446a8351f160d65a1c5df7097f31c74102ed2bb1 arm64: rust: clean Rust 1.85.0 warning using softfloat target
 85fcb57c983f423180ba6ec5d0034242da05cc54 xen/swiotlb: relax alignment requirements
 e93ec87286bd1fd30b7389e7a387cfb259f297e3 x86/xen: allow larger contiguous memory regions in PV guests
@@ -695,4 +693,4 @@ ae5fa8ce7ef230be50ed63d16883bada29990293 Merge tag 'driver-core-6.14-rc3' of git
 224e74511041c2d33dcf24adf54d447eb72399c8 Merge tag 'kbuild-fixes-v6.14-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 0ad2507d5d93f39619fc42372c347d6006b64319 Linux 6.14-rc3
 
---===============0196397757896464151==--
+--===============6467202889315930233==--
