@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/fsverity/fsverity-utils
-Date: Mon, 17 Feb 2025 19:42:11 -0000
-Message-Id: <173982133163.557417.7825570696418770080@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Mon, 17 Feb 2025 19:49:38 -0000
+Message-Id: <173982177871.563118.3690114014879647469@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/fsverity/fsverity-utils
-user: ebiggers
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/master
-    old: 2543e6e5037c0b1b448282c2793f8a6ce8b12d71
-    new: ee7d74d75a727463046bf380b3de9e602a6e2b40
+  - ref: refs/heads/main
+    old: 175c9204e88a0fbd2d70649d255d1552ab22d3e4
+    new: 487f2f2421ae4e05530de28b9acd0ab7db3ff6d9
     log: |
-         a7be30661305e1427e50eb87e5503ad37157b3b1 Revert "ci.yml: work around ASAN binaries crashing on ubuntu-latest"
-         ee7d74d75a727463046bf380b3de9e602a6e2b40 lib/sign_digest: disable PKCS#11 support when not available in OpenSSL
+         f71241766176be05e28219e26d34be615c294433 i915: Update Xe3LPD DMC to v2.17
+         487f2f2421ae4e05530de28b9acd0ab7db3ff6d9 Merge branch 'intel/dmc/xe3lpd/2.17' into 'main'
          
