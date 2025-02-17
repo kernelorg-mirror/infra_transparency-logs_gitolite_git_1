@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4528537668327576040=="
+Content-Type: multipart/mixed; boundary="===============5969965840106751801=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 17 Feb 2025 06:15:06 -0000
-Message-Id: <173977290682.3833504.495058444615596004@gitolite.kernel.org>
+Date: Mon, 17 Feb 2025 06:15:11 -0000
+Message-Id: <173977291152.3837638.9056752629556173019@gitolite.kernel.org>
 
---===============4528537668327576040==
+--===============5969965840106751801==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: a64dcfb451e254085a7daee5fe51bf22959d52d3
+  - ref: refs/heads/driver-core-linus
+    old: 78418f300d3999f1cf8a9ac71065bf2eca61f4dd
     new: 0ad2507d5d93f39619fc42372c347d6006b64319
-    log: revlist-a64dcfb451e2-0ad2507d5d93.txt
+    log: revlist-78418f300d39-0ad2507d5d93.txt
 
---===============4528537668327576040==
+--===============5969965840106751801==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1739772873 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1739772877 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1739772905-8abcca1bcc6ec83a5436ab946f5876b32c77fe38
+nonce 1739772909-af5ab4f40d5677dd8519171e215f68c0b722023d
 
-a64dcfb451e254085a7daee5fe51bf22959d52d3 0ad2507d5d93f39619fc42372c347d6006b64319 refs/heads/main
+78418f300d3999f1cf8a9ac71065bf2eca61f4dd 0ad2507d5d93f39619fc42372c347d6006b64319 refs/heads/driver-core-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmey08kbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bIEP/10Ojgws5vRJpGkzDsTX
-H2yon4j9pa3m5Ywe46XKYggSpw37rtFJaHspMlPiRUU+iDZVU7RIQd9YgJH0sq4V
-D7ffL1hvWLVwe3JI5ifRAEUWPtvvNFaCFboIzj2eykxIBAAe/7iCQZLke6iaE6aM
-kVrXA40cnBYxXkDXeM0/YQrFL9uEK71gkq2/m/ZgwI3h2e3obdVCx/+VjZWuP6He
-hYF/rzy8h2lb/Y7CZjgBLeuWSO0YqlWSqqCKxUKgd6pjcc/clcaFSLNfWeN2709p
-UVVZdfeusGV6UM6oULOG++Uo9kVlhJqgnFIIHA64kXD2aTv1fLPJd87Z1sX7uW77
-/JdrYnA0fnxqiX3XDm5Jwp6iGv+EbMBEj+kLiSWC4bxSwJLmjEWA/tpPBVZQPuSw
-SQYQZQ4NvTPPY6SUTMQG5TwotrdUu5S20Wi+OHxtcsqVoGvaBAZKFl9z37EktejK
-gCFlP45vq9Lq9x+hSNvYIun9Vs/Ykq+4xBECvBqXLbovQVIDHAk5ujE01ZwcJ3rQ
-fRHyVrXIfXQmelH5R5QGZiyquicnuliw2MzR9II68VU80s3CinEvv7cxOBW9zXyW
-xc1YMxOnFt4D9vm4D6ttTZx28k6rc7LghmjGRGJdDIlCnCaaG4af+y3RopfjeNn3
-nW1maaNGQSuvZQDTMfSi9AJL
-=KdxB
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmey080bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GhMQAKKQ5ZHwW061yV9WnVpW
+cjOqLIY0gNlxu5CJ7N6z0vp5qAaMNn70FPTadKqDDjbdRpkhTYa2krbDTA2Gxskt
+As0NqcVZWMvjoYkqvGUrNziEk1fTrGXlb2/9MbK08JD5gXgkibXfY7FpFHAbD4cz
+I7EGVjcKxepEUAFRGSEg+rBEgv/J6uSgiCg05H2L5gmBCEv+iBZ0Apzp6eDVYJRo
+L50t8A6j/6JJUyRENPAZ1yZGWICasR5vDJ/VLVBlk87bHqJJYOclaMEE8YPGzKsn
+90UGoZZ1nmnNDyjg+91VPfch47bwkO+2X4z6qZmp1m4NL8dI5Q28KT0ozZAJQlA8
+9Wwtw66cl684LatW9TUGLo58msKrl3qL/EuykwPOmv32n5b6L282QG69zRf/V65T
+7IEXeXp8KGwrUsgHcn+ZeySVBX16kcYrKTahZtFGL2pck+TpdmNOUn3mP0gKlYAf
+3RDLV3IJ46kn0u+vKiQbg7irkP1/k9q3fBRLW1q7W2MACVz0T0O3VMHX/V65iEhf
+DMykXc1OL0ILJNJUiACGxOVCztJEz7L1RqnG2TK226gPviTWSDNmvIm9rwrE+U5M
+UzORrN1WvvM56/h7KmAaSL4Z/0DaXvsq3n2luAkLxdmFEWL+nA75t0GlXCok2sCF
+3jJxPfeL8v2cLP48C3v+kjWC
+=vXUD
 -----END PGP SIGNATURE-----
 
---===============4528537668327576040==
+--===============5969965840106751801==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a64dcfb451e2-0ad2507d5d93.txt
+Content-Disposition: attachment; filename=revlist-78418f300d39-0ad2507d5d93.txt
 
 ccb7276a6d26d6f8416e315b43b45e15ee7f29e2 batman-adv: fix panic during interface removal
 e7e34ffc976aaae4f465b7898303241b81ceefc3 batman-adv: Ignore neighbor throughput metrics in error case
@@ -328,8 +328,6 @@ e93ec87286bd1fd30b7389e7a387cfb259f297e3 x86/xen: allow larger contiguous memory
 71db7b9a019b76df43512639c282c03733ba3eeb Merge tag 'usb-serial-6.14-rc3' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
 1f47ed294a2bd577d5ae43e6e28e1c9a3be4a833 block: cleanup and fix batch completion adding conditions
 6fe9116dd6bebee570406ec3f00a50388a62ccb3 MAINTAINERS: Use my kernel.org address for I2C ACPI work
-35fa2d88ca9481e5caf533d58b99ca259c63b2fe driver core: add a faux bus for use when a simple device/bus is needed
-78418f300d3999f1cf8a9ac71065bf2eca61f4dd rust/kernel: Add faux device bindings
 b4f82f9ed43aefa79bec2504ae8c29be0c0f5d1d Bluetooth: L2CAP: Fix slab-use-after-free Read in l2cap_send_cmd
 872274b992839ff64fe560767fe7ee5f942ccdb1 Bluetooth: btintel_pcie: Fix a potential race condition
 ab4eedb790cae44313759b50fe47da285e2519d5 Bluetooth: L2CAP: Fix corrupted list in hci_chan_del
@@ -449,4 +447,4 @@ ae5fa8ce7ef230be50ed63d16883bada29990293 Merge tag 'driver-core-6.14-rc3' of git
 224e74511041c2d33dcf24adf54d447eb72399c8 Merge tag 'kbuild-fixes-v6.14-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 0ad2507d5d93f39619fc42372c347d6006b64319 Linux 6.14-rc3
 
---===============4528537668327576040==--
+--===============5969965840106751801==--
