@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1259446504921751479=="
+Content-Type: multipart/mixed; boundary="===============9014757820957460487=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Mon, 17 Feb 2025 09:55:08 -0000
-Message-Id: <173978610836.4158232.14447247692118973963@gitolite.kernel.org>
+Date: Mon, 17 Feb 2025 09:55:17 -0000
+Message-Id: <173978611795.4158459.2286527789187251341@gitolite.kernel.org>
 
---===============1259446504921751479==
+--===============9014757820957460487==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-linus
-    old: 6aa8a63c471eb6756aabd03f880feffe6a7af6c9
+  - ref: refs/heads/usb-next
+    old: 2014c95afecee3e76ca4a56956a936e23283f05b
     new: 0ad2507d5d93f39619fc42372c347d6006b64319
-    log: revlist-6aa8a63c471e-0ad2507d5d93.txt
+    log: revlist-2014c95afece-0ad2507d5d93.txt
 
---===============1259446504921751479==
+--===============9014757820957460487==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6aa8a63c471e-0ad2507d5d93.txt
+Content-Disposition: attachment; filename=revlist-2014c95afece-0ad2507d5d93.txt
 
 3c47c2ccd5a29c78780ccfd0227a805f3873ab1c nvmet: fix rw control endian access
 d68fc95a771e0a7edd876ede7913d61276be77fd nvme-pci: remove redundant dma frees in hmb
@@ -471,10 +471,14 @@ f7d07cd4f77d77f366c8ffbb8ba8b61f614e5fce ptp: vmclock: Set driver data before it
 b4c1fde5ced93d9f4ad89e2c940d3fd56ad82288 ptp: vmclock: Remove goto-based cleanup logic
 2196ceea2d39018a85a037cbb4c22666edb5a72c Merge branch 'ptp-vmclock-bugfixes-and-cleanups-for-error-handling'
 44ce3511c21c6ba87a719a0b9f140822cc1cc00b Merge tag 'batadv-net-pullrequest-20250207' of git://git.open-mesh.org/linux-merge
+db79e75460fc59b19f9c89d4b068e61cee59f37d USB: serial: option: add MeiG Smart SLM828
 5728c92ae112301936006c5e305677beb1a7f578 mfd: syscon: Restore device_node_to_regmap() for non-syscon nodes
+c979fb5ece2dc11cc9cc3d5c66f750e210bfdee2 USB: serial: option: add Telit Cinterion FN990B compositions
+12606fe73f33647c5e79bf666833bf0b225e649d USB: serial: option: fix Telit Cinterion FN990A name
 1c316eb57c11fb3dc447b04ef765459cd61c8647 bcachefs: Fix use after free
 1e690efa72596a1163dc56709707f459221889d2 bcachefs: Split out journal pins by btree level
 9f734cd076931fa4d7feb5728e5cd95cde0af114 bcachefs: Fix want_new_bset() so we write until the end of the btree node
+6aa8a63c471eb6756aabd03f880feffe6a7af6c9 USB: serial: option: drop MeiG Smart defines
 35e21de48e693af1dcfdbf2dc3d73dcfa3c8f2d9 regulator: core: let dt properties override driver init_data
 69ab25a74e2df53edc2de4acfce0a484bdb88155 idpf: fix handling rsc packet with a single segment
 2ff66c2f9ea4e9311e9a00004348b6c465bd5d3b idpf: record rx queue in skb for RSC packets
@@ -691,4 +695,4 @@ ae5fa8ce7ef230be50ed63d16883bada29990293 Merge tag 'driver-core-6.14-rc3' of git
 224e74511041c2d33dcf24adf54d447eb72399c8 Merge tag 'kbuild-fixes-v6.14-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 0ad2507d5d93f39619fc42372c347d6006b64319 Linux 6.14-rc3
 
---===============1259446504921751479==--
+--===============9014757820957460487==--
