@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Tue, 18 Feb 2025 23:34:51 -0000
-Message-Id: <173992169169.2078732.14549399580415352258@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Tue, 18 Feb 2025 23:35:11 -0000
+Message-Id: <173992171143.2080562.12765917335638452197@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/master
-    old: 30bd7baa5627f066fc0bfbca293f950fdf3ef3f1
-    new: 27bbd57d5a9fb86f4fbcd49b10b1c475dad86161
-    log: |
-         27bbd57d5a9fb86f4fbcd49b10b1c475dad86161 test/zcrx: minor tweaks
-         
+  - ref: refs/heads/aspm
+    old: 0000000000000000000000000000000000000000
+    new: 99372590aeab0ac2d12c6ad5fe1a0bd31f5daaa3
