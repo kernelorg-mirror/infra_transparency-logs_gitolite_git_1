@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Tue, 18 Feb 2025 16:20:36 -0000
-Message-Id: <173989563693.1708141.14230200730029844423@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Tue, 18 Feb 2025 16:21:22 -0000
+Message-Id: <173989568283.1708863.4475555874994411853@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/master
-    old: 3ea019974e36a9c564627ac5ae6d55c79ef77feb
-    new: 334a409356678ad2a688997cb2590e00a45bd2a4
+  - ref: refs/heads/kernel-6.12/baseline
+    old: f0aedabc9c1908bbe4e89edda6490035bef00fc5
+    new: 5266486b869ffe69457ee616f8c0edd5ec68ab1b
     log: |
-         b16733b1b2302cab50098d402688ac3451902d8c workflows/build.yml: fix sanitizer typo
-         334a409356678ad2a688997cb2590e00a45bd2a4 Merge branch 'gha-fix' of https://github.com/cmazakas/liburing
+         8bb9872c22890ae5267c568b45b816b90be1dec5 redhat/configs: automotive: Set CONFIG_FSCACHE=y
+         5266486b869ffe69457ee616f8c0edd5ec68ab1b kernel-6.12.15-baseline
          
