@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 18 Feb 2025 08:48:40 -0000
-Message-Id: <173986852062.1287592.7783039570569515679@gitolite.kernel.org>
+Date: Tue, 18 Feb 2025 08:52:25 -0000
+Message-Id: <173986874552.1291481.17729152899314896551@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -9,31 +9,20 @@ Content-Transfer-Encoding: 7bit
 ---
 service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+user: tglx
 changes:
-  - ref: refs/heads/master
-    old: eadd1ccbb4c8381ca4e6c2e0160043ae64497c50
-    new: 83d00627694fb0b9e2b8fccc236f9acdca6beb63
+  - ref: refs/heads/irq/drivers
+    old: 0699e578e27910224ee09a55b824e5d494ce280f
+    new: 46b9ba2ac09003d0a09f2f730b64cae03af29041
     log: |
-         05730138b0728ed3b78abfc14efa984ac13678a9 Merge branch into tip/master: 'irq/urgent'
-         34e0e18f2cd3638a8c659011b1adbf280a5eef3a Merge branch into tip/master: 'objtool/urgent'
-         4627d19370235a397a12d05d703edfe53267903a Merge branch into tip/master: 'perf/urgent'
-         50fb3d9f5ebe9e24c223f85979b04a01fd5e1dbf Merge branch into tip/master: 'irq/drivers'
-         f15abed48311b945e234efe19391f8ee2c77112e Merge branch into tip/master: 'perf/core'
-         51d3ffabe2b8d9f5a6c38715a779af61b66314ce Merge branch into tip/master: 'sched/core'
-         4de9cfee50e853e96794f654045277d7a64311b7 Merge branch into tip/master: 'timers/core'
-         d8d8ecc53a2c7a1062fc67f3362c2894eea24ac2 Merge branch into tip/master: 'x86/core'
-         0e5bc28b5ec45149696de2ac95adda2e755a158b Merge branch into tip/master: 'x86/cpu'
-         0e0196cb2f3c5c6ed16d31c1654f24caa41b1513 Merge branch into tip/master: 'x86/fpu'
-         949528d5f30ad63869a9747541f878b3da66bf42 Merge branch into tip/master: 'x86/microcode'
-         83d00627694fb0b9e2b8fccc236f9acdca6beb63 Merge branch into tip/master: 'x86/misc'
-         
-  - ref: refs/heads/tip/urgent
-    old: 7a3e8aa6b30cb12d09e87271cb7a807542b7ca10
-    new: 4627d19370235a397a12d05d703edfe53267903a
-    log: |
-         ec5fd50aeff9c9156304853c6d75eda852d4a2c8 uprobes: Don't use %pK through printk
-         05730138b0728ed3b78abfc14efa984ac13678a9 Merge branch into tip/master: 'irq/urgent'
-         34e0e18f2cd3638a8c659011b1adbf280a5eef3a Merge branch into tip/master: 'objtool/urgent'
-         4627d19370235a397a12d05d703edfe53267903a Merge branch into tip/master: 'perf/urgent'
+         999f458c1771354371ba367dd84f55f9a62a4233 irqchip/riscv-imsic: Set irq_set_affinity() for IMSIC base
+         1eb4e8fdac707e9e7766c6e1cd1f7cbaaee4eac4 irqchip/irq-msi-lib: Optionally set default irq_eoi()/irq_ack()
+         44b70d9abe4c83a04804975f50fdf7c5594cb443 irqchip/riscv-imsic: Move to common MSI library
+         019bcaddb1cec3651fe911e69b54110be680163c genirq: Introduce common irq_force_complete_move() implementation
+         01cbc389161fe5a679cc87cc8011a41342e94aaf genirq: Introduce irq_can_move_in_process_context()
+         213ea5f92da586fe137dfa55004ed0f7706cfae5 RISC-V: Select CONFIG_GENERIC_PENDING_IRQ
+         9ce2dd6677c262880b0cbca53819aec2acc55c8e irqchip/riscv-imsic: Separate next and previous pointers in IMSIC vector
+         947958bcd0b32c8f0acf5e52062a4b6678913dd6 irqchip/riscv-imsic: Implement irq_force_complete_move() for IMSIC
+         3a854653de7096c19f9714fe6f33e5f5a851fba9 irqchip/riscv-imsic: Avoid interrupt translation in interrupt handler
+         46b9ba2ac09003d0a09f2f730b64cae03af29041 irqchip/riscv-imsic: Special handling for non-atomic device MSI update
          
