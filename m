@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 18 Feb 2025 11:28:50 -0000
-Message-Id: <173987813090.1456267.3642721699826101871@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/joel.granados/linux
+Date: Tue, 18 Feb 2025 11:30:41 -0000
+Message-Id: <173987824182.1459431.9238372181733130402@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/joel.granados/linux
+user: joel.granados
 changes:
-  - ref: refs/tags/sound-6.14-rc4
+  - ref: refs/heads/jag/const_qualify_straglers
     old: 0000000000000000000000000000000000000000
-    new: 6575f54a1efbd6b3e34e2059206d98cd53cfc1d6
+    new: ba7ca4eaf92012ddeb30868ceb576f277461edc3
