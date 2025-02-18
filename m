@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Tue, 18 Feb 2025 17:01:59 -0000
-Message-Id: <173989811902.1743940.12133863989230221917@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Tue, 18 Feb 2025 17:03:18 -0000
+Message-Id: <173989819817.1744527.4343133812991091281@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/security/vulns
+user: sashal
 changes:
   - ref: refs/heads/master
-    old: 264bf951f2d687f520898fa3e182291f1261e3a7
-    new: 3c62df13abbce6551166a25c481a1cd4d2d32ce7
+    old: ddcc9d4e7539962a89617f145a17ce50b0d681e3
+    new: 12bc09ed19689802590159ad453f72f51437993e
     log: |
-         fdbfe0018f6f216ff089c0e1db848ec8ae16585e monitor: Fix crash due to negative max_len
-         3c62df13abbce6551166a25c481a1cd4d2d32ce7 bthost: Set advertising intervals to valid value
+         12bc09ed19689802590159ad453f72f51437993e sasha: review v6.13.3
          
