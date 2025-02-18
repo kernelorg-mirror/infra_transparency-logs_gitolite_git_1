@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Tue, 18 Feb 2025 02:51:37 -0000
-Message-Id: <173984709715.910064.4866998737458020530@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Tue, 18 Feb 2025 02:52:23 -0000
+Message-Id: <173984714331.910482.11112830192378167791@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
 user: xiang
 changes:
   - ref: refs/heads/dev
-    old: 09284b6e841888a66cdb832dc57bcf527af6d563
-    new: 78ee54f6e0e8c9c1c39651ef79fe716c8717e403
+    old: 3051162fefef9af9f274266a2ad9d5d612d50ccc
+    new: 7ca5b26937018d4df76774b624a676dc58385566
     log: |
-         78ee54f6e0e8c9c1c39651ef79fe716c8717e403 erofs: get rid of erofs_kmap_type
+         fc8a1d6ab51e56fc32742c73fcc02e23705bb23b erofs-utils: fix potential buffer overrun in __erofs_io_write()
+         7ca5b26937018d4df76774b624a676dc58385566 erofs-utils: lib: fix an API usage error
          
