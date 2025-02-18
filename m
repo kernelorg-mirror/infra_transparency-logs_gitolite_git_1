@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Tue, 18 Feb 2025 17:03:29 -0000
-Message-Id: <173989820928.1744752.5310342784266286210@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Tue, 18 Feb 2025 17:10:22 -0000
+Message-Id: <173989862207.1751931.2356785454795826613@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
   - ref: refs/heads/master
-    old: 334a409356678ad2a688997cb2590e00a45bd2a4
-    new: 1c67c0e9cd57d2cf6455a713127dda07df765aca
+    old: 26a1ec07e153e714e4cf1c49f83e346bd2892877
+    new: 0a7dfc376192e8fb1e7bdb2d0c90d8b9b173a42b
     log: |
-         1c67c0e9cd57d2cf6455a713127dda07df765aca Bump version to 2.10
+         79a8f3d36b63e538f88bb98f744f7e1547f1aee2 docs: reduce and freeze NEWS file
+         0a7dfc376192e8fb1e7bdb2d0c90d8b9b173a42b build-sys: update version dates
          
