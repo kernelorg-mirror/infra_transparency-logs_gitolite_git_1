@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Tue, 18 Feb 2025 23:36:19 -0000
-Message-Id: <173992177971.2081569.3399418094294532291@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 18 Feb 2025 23:36:56 -0000
+Message-Id: <173992181692.2082131.250802984393341855@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 27bbd57d5a9fb86f4fbcd49b10b1c475dad86161
-    new: bf56ab2bf666d0d66aa8cea7c835717c84f222ea
+  - ref: refs/heads/main
+    old: 2e864f18e5a877a9cc377278e3c1019a992c2642
+    new: 8af2136e77989a64fae0284bf76fd584e32edd3a
     log: |
-         bf56ab2bf666d0d66aa8cea7c835717c84f222ea io_uring.h: fix spelling error
+         8af2136e77989a64fae0284bf76fd584e32edd3a net: phy: realtek: add helper RTL822X_VND2_C22_REG
          
