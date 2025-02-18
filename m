@@ -1,24 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Tue, 18 Feb 2025 22:11:58 -0000
-Message-Id: <173991671807.2007964.2566721712319539159@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Tue, 18 Feb 2025 22:12:01 -0000
+Message-Id: <173991672123.2008101.5959782875959743881@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/next
-    old: 1a5beb12dfdf0b14d05f14cca5ad965d124b1842
-    new: 6f01230b1cacf1bef07767ba141b8a42bb32a5cb
+  - ref: refs/heads/master
+    old: 8adc11faf87ccea65ad8329546715619fbe2c90c
+    new: 7323a362372cd7d5c99824d7b098e9cb09430724
     log: |
-         7d90d8d2bb1bfff8b33acbb6f815cba6f5250fad PCI: Avoid pointless capability searches
-         b1f7c5223fc96e35ed3f28745565edc306a4a95f PCI: Cache offset of Resizable BAR capability
-         70891a6ff19acd81ad1314bbf1b685127096ff88 Merge branch 'pci/aer'
-         acab003430903a27516232d89c286930956095a4 Merge branch 'pci/enumeration'
-         db7cf27a86b05be40cdc48bb1730adce688435d6 Merge branch 'pci/resource'
-         6f01230b1cacf1bef07767ba141b8a42bb32a5cb Merge branch 'pci/endpoint'
+         7323a362372cd7d5c99824d7b098e9cb09430724 build-sys: keep the most recent version in NEWS
+         
+  - ref: refs/heads/stable/v2.41
+    old: f589580816220bd70ec5970b41006e1adc82bcf7
+    new: c0b4dd0d2aec913df5580db8b0642320d752fa7a
+    log: |
+         c0b4dd0d2aec913df5580db8b0642320d752fa7a build-sys: keep the most recent version in NEWS
          
