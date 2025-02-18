@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 18 Feb 2025 17:49:34 -0000
-Message-Id: <173990097444.1786528.1233045282660901472@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Tue, 18 Feb 2025 17:55:06 -0000
+Message-Id: <173990130628.1792374.13816150770955285060@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/for-6.15/io_uring
-    old: 94a4274bb6ebc5b4293559304d0f00928de0d8c0
-    new: 62aa9805d123165102273eb277f776aaca908e0e
+  - ref: refs/heads/ath-next
+    old: 7b19d5adadfef791d52fd0412a75ebb8f9f27a6b
+    new: ceb3b35f5ef4a0c490f54eb8b53075fd83a97d11
     log: |
-         62aa9805d123165102273eb277f776aaca908e0e io_uring: use lockless_cq flag in io_req_complete_post()
-         
-  - ref: refs/heads/for-next
-    old: 65312026900b39d51c7d8802d28f2171da5a12c1
-    new: 4f70473784f0227fdeaf7cb0f986a389517c2d87
-    log: |
-         62aa9805d123165102273eb277f776aaca908e0e io_uring: use lockless_cq flag in io_req_complete_post()
-         4f70473784f0227fdeaf7cb0f986a389517c2d87 Merge branch 'for-6.15/io_uring' into for-next
+         9ee2578c343a2c8b6cf6c43f2f385cdb56a25250 wifi: ath11k: use union for vaddr and iaddr in target_mem_chunk
+         5edbb148bc57295a6abbb31b832878c0725ed10a wifi: ath11k: Add firmware coredump collection support
+         ceb3b35f5ef4a0c490f54eb8b53075fd83a97d11 wifi: ath12k: cleanup ath12k_mac_mlo_ready()
          
