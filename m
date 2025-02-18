@@ -1,27 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/joel.granados/linux
-Date: Tue, 18 Feb 2025 09:53:41 -0000
-Message-Id: <173987242179.1377027.4267858807436148160@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
+Date: Tue, 18 Feb 2025 09:56:52 -0000
+Message-Id: <173987261286.1380543.16330376895213180028@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/joel.granados/linux
-user: joel.granados
+repo: pub/scm/linux/kernel/git/gustavoars/linux
+user: gustavoars
 changes:
-  - ref: refs/heads/jag/mv_ctltables
-    old: badcd643be8750839cc60f82c4068396989181cd
-    new: 37d0d17706503560b239ca371cd4c885215c562f
+  - ref: refs/heads/testing/wfamnae-next20250210-2
+    old: 34c7452d336a112bfbc3e5cf7a2e286bc010647a
+    new: e1b8405de7073547ed6252a314fb467680b4c7e8
     log: |
-         4237e672ab135941011c7d85e7eba27a3396604b sysctl: Move sysctls from kern_table into their respective subsystems
-         341195a9e7055632e57aa3321f4c3a3422e8f1a4 panic: Move panic ctl tables into panic.c
-         9b49be26c132310ab689b16fde9f3f0b9bb22208 signal: Move signal ctl tables into signal.c
-         df7dbf3d8a91c6d866e84abcae7c7d3e95b59b28 ftrace: Move trace sysctls into trace.c
-         8127a7f95084d0bae2cae506eddc74fb94e50ada stack_tracer: move sysctl registration to kernel/trace/trace.c
-         cb11205cc38c0808e033f80b479d2c6e44546e95 events: Move perf_event sysctls into kernel/events
-         bc2ff3bebfac8333195138786a1861dcd2e9e364 sparc: mv sparc sysctls into their own file under arch/sparc/kernel
-         b576ebf322955e3cb9be2816862205ddc7ab7fa0 s390: mv s390 sysctls into their own file under arch/s390 dir
-         37d0d17706503560b239ca371cd4c885215c562f x86: Move sysctls into arch/x86
+         027bc1d965bfca9fb3446812329dbb342d5828fd drm/amd/pm: Avoid multiple -Wflex-array-member-not-at-end warnings
+         ccf673b997e771430b7570fb8a6dfc11d07a2bde block: blk_types.h: Use struct_group_tagged() in flex struct bio
+         7ceee2968cd7efa74c6a39147b14bb1b3bc3928c md/raid5-ppl: Avoid -Wflex-array-member-not-at-end warning
+         e1b8405de7073547ed6252a314fb467680b4c7e8 xfs: Avoid -Wflex-array-member-not-at-end warnings
          
