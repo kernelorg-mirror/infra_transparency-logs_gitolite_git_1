@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Tue, 18 Feb 2025 21:09:33 -0000
-Message-Id: <173991297387.1952858.14452009331951742773@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
+Date: Tue, 18 Feb 2025 21:15:55 -0000
+Message-Id: <173991335515.1959426.9776514272856695347@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/perf/perf-tools
+user: acme
 changes:
-  - ref: refs/heads/for-6.15/intel-thc
-    old: 03dcede2199a649c1190a135aaf6c70af4ed5a28
-    new: d05c76fceb096b4423745856325d72c048d681e4
+  - ref: refs/heads/tmp.perf-tools
+    old: 9fae5884bb0e3480dbb69314b82ed3d8f8482eef
+    new: 42367eca7604e16e170bd6bd94ef61ffdd335f4a
     log: |
-         d05c76fceb096b4423745856325d72c048d681e4 Hid: Intel-thc-hid: Intel-thc: Fix "dubious: !x | !y" issue
-         
-  - ref: refs/heads/for-next
-    old: 33c9e67e8a0be2bf030e448c206337d6902da2dd
-    new: 167a0a93be3e93533fd5d118aa3ff3ab6bbf92a8
-    log: |
-         d05c76fceb096b4423745856325d72c048d681e4 Hid: Intel-thc-hid: Intel-thc: Fix "dubious: !x | !y" issue
-         167a0a93be3e93533fd5d118aa3ff3ab6bbf92a8 Merge branch 'for-6.15/intel-thc' into for-next
+         293f324ce96d700112c726682b14094d1b54e09c tools: Unify top-level quiet infrastructure
+         42367eca7604e16e170bd6bd94ef61ffdd335f4a tools: Remove redundant quiet setup
          
