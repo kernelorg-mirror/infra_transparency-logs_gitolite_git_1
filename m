@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Tue, 18 Feb 2025 22:36:36 -0000
-Message-Id: <173991819682.2030123.4237635943326311777@gitolite.kernel.org>
+Date: Tue, 18 Feb 2025 22:36:40 -0000
+Message-Id: <173991820044.2030255.4740869130391586991@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host
+  - ref: refs/heads/i2c/i2c-host-next
     old: 71fbe524f39a5318256b0fba6c69a78fb4e88683
     new: 3c59e2039afcab803831c8db55cca7142e13421b
     log: |
