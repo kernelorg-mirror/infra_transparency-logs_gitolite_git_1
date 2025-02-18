@@ -1,31 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============7866640319343186587=="
+Content-Type: multipart/mixed; boundary="===============3045721337407739657=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 18 Feb 2025 05:14:06 -0000
-Message-Id: <173985564616.1018738.15502355923406505035@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 18 Feb 2025 05:14:15 -0000
+Message-Id: <173985565546.1019003.3653876227223127361@gitolite.kernel.org>
 
---===============7866640319343186587==
+--===============3045721337407739657==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 253c82b3a2cec22bf9db65645f934fbe095899a3
     new: e5d3fd687aac5eceb1721fa92b9f49afcf4c3717
     log: revlist-253c82b3a2ce-e5d3fd687aac.txt
-  - ref: refs/heads/stable
-    old: 224e74511041c2d33dcf24adf54d447eb72399c8
-    new: 2408a807bfc3f738850ef5ad5e3fd59d66168996
-    log: revlist-224e74511041-2408a807bfc3.txt
-  - ref: refs/tags/next-20241118
-    old: be3386994ae752653f7593dd7fa0b1a037d83f75
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20250218
     old: 0000000000000000000000000000000000000000
     new: a6dab04c056de51dfb6b42f93a421f339ffa6116
@@ -33,7 +26,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 2db77e8810aa26c8cd3fa119037f753a68b7dce4
 
---===============7866640319343186587==
+--===============3045721337407739657==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -587,24 +580,4 @@ c29651a55e85257350c44a7c2a136f8659b12802 Merge branch 'crc-next' of git://git.ke
 5695ca27706ce72a1c1daba1003de9fec83b2df9 fixup for "cpumask: drop cpumask_next_wrap_old()"
 e5d3fd687aac5eceb1721fa92b9f49afcf4c3717 Add linux-next specific files for 20250218
 
---===============7866640319343186587==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-224e74511041-2408a807bfc3.txt
-
-dc9c5166c3cb044f8a001e397195242fd6796eee powerpc/code-patching: Disable KASAN report during patching via temporary mm
-61bcc752d1b81fde3cae454ff20c1d3c359df500 powerpc/64s: Rewrite __real_pte() and __rpte_to_hidx() as static inline
-d262a192d38e527faa5984629aabda2e0d1c4f54 powerpc/code-patching: Fix KASAN hit by not flagging text patching area as VM_ALLOC
-56d5f3eba3f5de0efdd556de4ef381e109b973a9 acct: perform last write from workqueue
-890ed45bde808c422c3c27d3285fc45affa0f930 acct: block access to kernel internal filesystems
-240189294fbc9550f5cd7ae9b446ad3cf3c5386a Merge patch series "acct: don't allow access to internal filesystems"
-1d0013962d220b166d9f7c9fe2746f1542e459a3 netfs: Fix a number of read-retry hangs
-d01c495f432ce34df8bfd092e71720a2cf169a90 netfs: Add retry stat counters
-5de0219a9bb9dacc4ce6e8f2745540dcce786983 netfs: Fix setting NETFS_RREQ_ALL_QUEUED to be after all subreqs queued
-a33f72554adf4552e53af3784cebfc4f2886c396 Merge patch series "netfs: Miscellaneous fixes"
-0ad2507d5d93f39619fc42372c347d6006b64319 Linux 6.14-rc3
-6186bdd120eccf4ca44fcba8967fc59ea50b11b8 Merge tag 'powerpc-6.14-3' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
-2408a807bfc3f738850ef5ad5e3fd59d66168996 Merge tag 'vfs-6.14-rc4.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-
---===============7866640319343186587==--
+--===============3045721337407739657==--
