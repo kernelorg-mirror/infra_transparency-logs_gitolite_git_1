@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 18 Feb 2025 20:08:34 -0000
-Message-Id: <173990931489.1902940.18120680993608558172@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Tue, 18 Feb 2025 20:14:06 -0000
+Message-Id: <173990964616.1907360.4299215240604762017@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/v2_20250218_jcalligeros99_asoc_tas27_64_70_improve_support_for_apple_codec_variants
-    old: d706cd463f4841ab259c83924f3d9cc8503ee9bd
-    new: f5468beeab1b1adfc63c2717b1f29ef3f49a5fab
+  - ref: refs/heads/pending
+    old: ceb3b35f5ef4a0c490f54eb8b53075fd83a97d11
+    new: 897e883cc727c7f12dbbf18e28853dbc9967d677
     log: |
-         a3f172359e22b2c11b750d23560481a55bf86af1 ASoC: tas2764: Fix power control mask
-         f5468beeab1b1adfc63c2717b1f29ef3f49a5fab ASoC: tas2764: Set the SDOUT polarity correctly
+         4a4533cc2de167c026210f0b2467c630f1f924b5 wifi: ath12k: add configure country code for WCN7850
+         ec516b5c728cd7bbad297c529d4bd0a783688c8e wifi: ath12k: add 11d scan offload support
+         3be5d302f9709ebb9fd60811541e981a779f79a4 wifi: ath12k: use correct WMI command to set country code for WCN7850
+         897e883cc727c7f12dbbf18e28853dbc9967d677 wifi: ath12k: store and send country code to firmware after recovery
          
