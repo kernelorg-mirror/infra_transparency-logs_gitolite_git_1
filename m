@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Tue, 18 Feb 2025 20:14:06 -0000
-Message-Id: <173990964616.1907360.4299215240604762017@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Tue, 18 Feb 2025 20:20:54 -0000
+Message-Id: <173991005459.1914430.13926594607750809265@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/pending
-    old: ceb3b35f5ef4a0c490f54eb8b53075fd83a97d11
-    new: 897e883cc727c7f12dbbf18e28853dbc9967d677
+  - ref: refs/heads/for-6.14/upstream-fixes
+    old: b051ffa2aeb2a60e092387b6fb2af1ad42f51a3c
+    new: 0c28e4d1e10d2aae608094620bb386e6fd73d55e
     log: |
-         4a4533cc2de167c026210f0b2467c630f1f924b5 wifi: ath12k: add configure country code for WCN7850
-         ec516b5c728cd7bbad297c529d4bd0a783688c8e wifi: ath12k: add 11d scan offload support
-         3be5d302f9709ebb9fd60811541e981a779f79a4 wifi: ath12k: use correct WMI command to set country code for WCN7850
-         897e883cc727c7f12dbbf18e28853dbc9967d677 wifi: ath12k: store and send country code to firmware after recovery
+         0c28e4d1e10d2aae608094620bb386e6fd73d55e HID: corsair-void: Update power supply values with a unified work handler
+         
+  - ref: refs/heads/for-next
+    old: 3bf0bccd7960f0091cc6711254e8f7ebccd587fe
+    new: 9179ac2007f2f84810859c2d811c5a071d4f6fa5
+    log: |
+         0c28e4d1e10d2aae608094620bb386e6fd73d55e HID: corsair-void: Update power supply values with a unified work handler
+         9179ac2007f2f84810859c2d811c5a071d4f6fa5 Merge branch 'for-6.14/upstream-fixes' into for-next
          
