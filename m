@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5240547945303793667=="
+Content-Type: multipart/mixed; boundary="===============5502584192883131847=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Tue, 18 Feb 2025 15:11:04 -0000
-Message-Id: <173989146455.1646534.14394115640057567258@gitolite.kernel.org>
+Date: Tue, 18 Feb 2025 15:11:15 -0000
+Message-Id: <173989147596.1646804.4749165201770491617@gitolite.kernel.org>
 
---===============5240547945303793667==
+--===============5502584192883131847==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,47 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/main
     old: 8c7a6efc017e59f2b773a8a4c0897309dfe1d742
-    new: e0f67b522a1965026284e85d9c493848166e79c8
-    log: revlist-8c7a6efc017e-e0f67b522a19.txt
+    new: f7b5279b67e76978ad7b3800030680774bfba4cb
+    log: revlist-8c7a6efc017e-f7b5279b67e7.txt
+  - ref: refs/heads/master
+    old: 8c7a6efc017e59f2b773a8a4c0897309dfe1d742
+    new: f7b5279b67e76978ad7b3800030680774bfba4cb
+    log: revlist-8c7a6efc017e-f7b5279b67e7.txt
 
---===============5240547945303793667==
+--===============5502584192883131847==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1739891490 +0100
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1739891502 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1739891457-e6edb70d415ecbe8c68bb0fb08e42b56a2607503
+nonce 1739891472-5f0fb4ad5f058784135e92bf1e8c26766efa721b
 
-8c7a6efc017e59f2b773a8a4c0897309dfe1d742 e0f67b522a1965026284e85d9c493848166e79c8 refs/heads/testing
+8c7a6efc017e59f2b773a8a4c0897309dfe1d742 f7b5279b67e76978ad7b3800030680774bfba4cb refs/heads/main
+8c7a6efc017e59f2b773a8a4c0897309dfe1d742 f7b5279b67e76978ad7b3800030680774bfba4cb refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEn/sM2K9nqF/8FWzzDHRl3/mQkZwFAme0oyITHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRAMdGXf+ZCRnFrcB/0RoydClqTaLcZLKNGJZ+si4kO8JeK+
-DcBUiG+MH8OVukhI+VMWiEl9bi617jIZegBefgt0UvCQNMC5eE5CpMHhyvSwKlh3
-HStco4u6HeOSCKSY+bqSjxp2rmqZrQgIaN488D9RVGOU56ps+8zI/xcJGdLgQ7B0
-/TMF/Oj7lXeIP4TxBNHCQAZDqWlYq13FsaG11Bu/wbprUvEWjh9l3o2SHVxQGC7U
-wudphqZZoOQbdDmcdzjV7qiRQFnjR88uM0Wyopdla2nbYFsGy7yMKhCuhNtSne9w
-AfZr5Bcdaxye61Zsi8QIv4KGLmUimiIbv40fgAkrAu35uob5yNp7eJOO
-=oHjU
+iQFHBAABCgAxFiEEn/sM2K9nqF/8FWzzDHRl3/mQkZwFAme0oy4THG1rbEBwZW5n
+dXRyb25peC5kZQAKCRAMdGXf+ZCRnFgcB/9U66F5RPBUTr5uvRgYNZavzXvZguJJ
+8SA6Lh4yT/oQ5fVn3I6bWUTUFyXktzTeWL9OnlPuPQ48wh9aPH5VOyUp7CqO2Ovf
+DPa5D5TqwxnhPB52zxT9sQhGaevh95D3FaV22/tvXzFXFJ5eXfne8QQJN196HHFu
+YLWIo8OLYoNEjhhz2f+UxLofGdgJGzhZ455W39s+YpDUDBFb0RL4ET42oC4iQBLI
+oBHJn8KfS5fe6f1OcfHdybL04g3x9QuCdR7iblprRASr/E0BXQK+bZbf83aZKuim
+umh9aHLTpX9FHgIpnN25lyBaqDcAQ5yu3mmFG/1L9D6d4sFM9EvAR40v
+=tvKl
 -----END PGP SIGNATURE-----
 
---===============5240547945303793667==
+--===============5502584192883131847==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8c7a6efc017e-e0f67b522a19.txt
+Content-Disposition: attachment; filename=revlist-8c7a6efc017e-f7b5279b67e7.txt
 
+a53f311349ca967b481f73501df5dfabb47a1d2f mm, memcontrol: avoid duplicated memcg enable check
 40733e7e0c260d540447d3646e451274bc5d3374 mm/swap_cgroup: remove swap_cgroup_cmpxchg
 2b3a58b121344465cbf36b5f7f94a710f8677941 mm/swap_cgroup: remove global swap cgroup lock
 6769183166b33b1a5de8f938d1ff4d5f4be0f428 mm/swap_cgroup: decouple swap cgroup recording and clearing
@@ -1074,6 +1080,5 @@ bdf5d13aa05ec314d4385b31ac974d6c7e0997c9 ibmvnic: Don't reference skb after send
 8350695bfb169b1924626a68f76b369ad01f18f2 selftest/bpf: Adapt vsock_delete_on_close to sockmap rejecting unconnected
 85928e9c436398abcac32a9afa2f591895dd497d selftest/bpf: Add vsock test for sockmap rejecting unconnected
 f7b5279b67e76978ad7b3800030680774bfba4cb Merge branch 'sockmap-vsock-for-connectible-sockets-allow-only-connected'
-e0f67b522a1965026284e85d9c493848166e79c8 can: ucan: fix out of bound read in strscpy() source
 
---===============5240547945303793667==--
+--===============5502584192883131847==--
