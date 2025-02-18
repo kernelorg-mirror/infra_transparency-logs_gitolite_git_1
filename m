@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4069460825937387875=="
+Content-Type: multipart/mixed; boundary="===============2410352590753614698=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 18 Feb 2025 13:23:08 -0000
-Message-Id: <173988498842.1553232.9873707028054594078@gitolite.kernel.org>
+Date: Tue, 18 Feb 2025 13:24:29 -0000
+Message-Id: <173988506946.1553852.12394708688499096206@gitolite.kernel.org>
 
---===============4069460825937387875==
+--===============2410352590753614698==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,49 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: aeb15eeeb3f1c38ddd02d2a7a53b7a516a8a5833
-    new: 41ae8d16449dc67ddaffa2ef195bc6106c0f77c6
+    old: 41ae8d16449dc67ddaffa2ef195bc6106c0f77c6
+    new: 4de9bc31c7f286feaf21f396d3c52058e6676d82
     log: |
-         0c675f4daee4fe86bfc3bb45cd19b73814acdd72 5.4-stable patches
-         d897d020dec142bcbd13853822704aab813ef3da 5.10-stable patches
-         4ed78af5260114b37d0dd1a0c4bfbf240e6f9d1e 5.15-stable patches
-         74662219767940bb1d8afa88f635a5f793684602 6.1-stable patches
-         37d81a042bf495b4fc6f454ad778898f0b5490f5 5.15-stable patches
-         0e2ad992444463b5181c8c2d25594198b88eab64 6.1-stable patches
-         4a6cb4403afbff4d49a233073db171dea1ee8c26 6.6-stable patches
-         9a9c6c0f8c136b777b2a11a72fe6aac1fc144eb5 6.12-stable patches
-         b2050aa4c757a48e3f7ab1f0bb1f6e909abdb337 6.13-stable patches
-         41ae8d16449dc67ddaffa2ef195bc6106c0f77c6 Merge branch 'master' of gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue
+         4de9bc31c7f286feaf21f396d3c52058e6676d82 fix some comments so that quilt can handle them
          
 
---===============4069460825937387875==
+--===============2410352590753614698==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1739885016 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1739885098 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1739884985-b44e9f565909ecdd823e9e047589321c673dd0f0
+nonce 1739885067-58cee5a38bdb0f14e304cf89a0aeccf785c963b5
 
-aeb15eeeb3f1c38ddd02d2a7a53b7a516a8a5833 41ae8d16449dc67ddaffa2ef195bc6106c0f77c6 refs/heads/master
+41ae8d16449dc67ddaffa2ef195bc6106c0f77c6 4de9bc31c7f286feaf21f396d3c52058e6676d82 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAme0idgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QCgP/0y4HFMVx9MejrwscaUU
-43zGTAFXWTBx0PsbYM+H7ZeeqAaW7j6Y+I8VLtP2nCMZ2s2WgJWmQGunL5a7/sz2
-89K8m9Ny7phsRM5UvA1g9k74t4D8dXNyu990sX6q9cujb1KjRSUh33o+Sbi6KyfI
-HZOWvBbj+BSKbxvVi/FXVFh7jL/yJ42L2UVbRSx26wE6MKvl6gD5FE53u1/zw9Y/
-2vm21hNNGJa3ASIYUaroR9i1Mg0Dgt+emJPO6nSGvl7Ac5sFGg8/ombSXeYgB7Tx
-APlL54ahhd4RG5wFUvkIOC3x6q4fo4X4DJAT3Vg3TfessQlRCkxyOqtNaBh8sNLS
-FLnBA9KEy7RpwDCdlYi+myn3OUv/9XHA3zeRb+5CgtebYyKjXi/90IS1XTgnKrkj
-lnT056wxtbKY1BtWnI/KjDih1xNoawZ7eEgMUi3ZO9bXLCi0kKSZEzath8OIW56P
-pNOo4MRutP6Z1mf7hkJRNb3WkANhiB3mFRTdRKSLgRkrd/MvQRF6kzaYU2yjJGTj
-sOtlKdXjkehKMB2RIZjhYQmoYbqJWkmvLOAVklzHp/nuVBCeK31dMj4/lvx6BnCI
-WM5t9CIEDajS34Ekri5Vv65juHsilrKNGqujNq17HGUva+SUI4r6r/9C7vUUWrUk
-yFLxOufCPTnOZceR56vhnCKU
-=m/r4
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAme0iiobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ur0QAIzGznwlxItpaqcOn1CQ
+1cBvmsRm24idqxCLKe2TzdxAX+5hhF53zoj5Fz0z72U9o7u4ogkO1gsdhgptmMu+
+RzW2ya1pqCUez1I9P4y9MKENfV2xEoJxh/8kUmCIE6xCHSZlJGC7lNUNo3XWHPX/
+rY9q9mFrFZ6U3vtDnfDBGs35Uq8Ga/5i1ZyjBq/X7B3z17St9UEmJXllYl3e9dOL
+4fyFXpte8J1RfDSeStg19Y8UvGIdE+l30Ma/ugdRjA7qNyHPHSJeuChaflve8hWp
+TSQGsLL/EBb5HGbvex6wu6o6NZEmslHcbngZ22xD44XXT8MT7GQLLfncw5DMA741
+4PqX4MnocuFAmJt+nF1ZyUtQaxQgTKYZWMtYVdGxjmxAsP7mi47BhfXMGV9PWsyr
+2xUgGaB3rKbXVqlyK4vELg4uULQEMoQXTVkYnKSyiizA4PkYPx6+XgBxgEBuQJ2A
+u4b6Ku4SBoW1Te898ycwGF1qN8iCCDJZuIAXYbGGTsXqLJuwyXhv6JbwCGIpsiF2
+A9UN2dep6ccyfWum7V2hqlX+iO+vdS0Ig/PKs5v6pFz3v71rrFAgiRExYsspPGrd
+tfsVdNP9Rop86iLqgDiGQ/0sb0rYMXe7YqnGsrdk+Ylu/csM47zjnpDkTfDduT1u
+4pQoCBsXM2CyHDGKFJJQE5sO
+=yi09
 -----END PGP SIGNATURE-----
 
---===============4069460825937387875==--
+--===============2410352590753614698==--
