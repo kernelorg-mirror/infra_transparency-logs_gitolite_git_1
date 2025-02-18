@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5825721073311068355=="
+Content-Type: multipart/mixed; boundary="===============2035291434308527543=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Tue, 18 Feb 2025 22:15:03 -0000
-Message-Id: <173991690398.2011408.1218436905524247712@gitolite.kernel.org>
+Date: Tue, 18 Feb 2025 22:15:06 -0000
+Message-Id: <173991690654.2011687.3510207313660291592@gitolite.kernel.org>
 
---===============5825721073311068355==
+--===============2035291434308527543==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host-fixes
-    old: 7422c319fd805b956aab5ba93e0274517a8e3650
-    new: 0ad2507d5d93f39619fc42372c347d6006b64319
-    log: revlist-7422c319fd80-0ad2507d5d93.txt
+  - ref: refs/heads/i2c/i2c-host-next
+    old: 9fd5f9f81326fd4e76ce06c72987ef33167a0c0a
+    new: d0a56387e2a77ca5984b1a87048d01c1443c46e6
+    log: revlist-9fd5f9f81326-d0a56387e2a7.txt
 
---===============5825721073311068355==
+--===============2035291434308527543==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7422c319fd80-0ad2507d5d93.txt
+Content-Disposition: attachment; filename=revlist-9fd5f9f81326-d0a56387e2a7.txt
 
 ccb7276a6d26d6f8416e315b43b45e15ee7f29e2 batman-adv: fix panic during interface removal
 e7e34ffc976aaae4f465b7898303241b81ceefc3 batman-adv: Ignore neighbor throughput metrics in error case
@@ -415,5 +415,10 @@ ba643b6d84409e8a9057d5bdd6dd99255b1a88fe Merge tag 'irq_urgent_for_v6.14_rc3' of
 ae5fa8ce7ef230be50ed63d16883bada29990293 Merge tag 'driver-core-6.14-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 224e74511041c2d33dcf24adf54d447eb72399c8 Merge tag 'kbuild-fixes-v6.14-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 0ad2507d5d93f39619fc42372c347d6006b64319 Linux 6.14-rc3
+33148d75db3cc4bbcad8a66c4d9bc29051346b59 i2c: octeon: refactor common i2c operations
+b82333f503c35a2a5d8c630437442df9b53bf28a i2c: octeon: Add block-mode i2c operations
+706a38527bb5a3cec7b0a6a48832f5a39edba57e dt-bindings: i2c: samsung,s3c2410: add exynos7870-i2c compatible
+b6a143f33f5df69d50a8e586c4a9f4b19200b782 dt-bindings: i2c: exynos5: add exynos7870-hsi2c compatible
+d0a56387e2a77ca5984b1a87048d01c1443c46e6 i2c: pxa: fix call balance of i2c->clk handling routines
 
---===============5825721073311068355==--
+--===============2035291434308527543==--
