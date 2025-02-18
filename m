@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
-Date: Tue, 18 Feb 2025 14:22:32 -0000
-Message-Id: <173988855290.1603030.12908358362907982298@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Tue, 18 Feb 2025 14:23:26 -0000
+Message-Id: <173988860655.1603505.8984109353328868777@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtd/linux
-user: pratyush
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/spi-nor/next
-    old: 8079d5bc5c3dd606639dad44f7e1158f3eddf497
-    new: 03e7bb864d9a9efca02743d4a9fab8f3d0b00407
+  - ref: refs/heads/nfsd-testing
+    old: d3b03867b04fa51574955c2980358fc7ad789891
+    new: bcf482e3b1f4e622c6a1bfa971cd8035227b8b56
     log: |
-         a20d7d265eda6a7713a2e7e8d5a45c8abc3487eb mtd: spi-nor: sort headers alphabetically
-         03e7bb864d9a9efca02743d4a9fab8f3d0b00407 mtd: spi-nor: use scope-based mutex cleanup helpers
+         bcf482e3b1f4e622c6a1bfa971cd8035227b8b56 nfsd: decrease cl_cb_inflight if fail to queue cb_work
          
