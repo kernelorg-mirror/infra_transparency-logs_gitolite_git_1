@@ -1,29 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 18 Feb 2025 12:04:40 -0000
-Message-Id: <173988028056.1486409.5203936705201687542@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8055797590654562712=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 18 Feb 2025 12:05:49 -0000
+Message-Id: <173988034957.1488857.11474582307153099186@gitolite.kernel.org>
+
+--===============8055797590654562712==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: ec3106906cbf9ba864cf0431801984c335a96f26
-    new: 9fe5bb9e1aa4b00c0c1fe3ac3dbf4c5be477b22f
+    old: 69b86504fc545139fb4086c83ab8e1ff6a771fb3
+    new: f295b97a107692ebc51cbbdf573a15f42157c0ca
     log: |
-         e8f925c320478ee28b7ff89be56f19057f979365 Merge tag 'v6.14-rc3' into x86/core, to pick up fixes
-         c305a4e98378903da5322c598381ad1ce643f4b4 x86: Move sysctls into arch/x86
-         9fe5bb9e1aa4b00c0c1fe3ac3dbf4c5be477b22f Merge branch into tip/master: 'x86/core'
+         f295b97a107692ebc51cbbdf573a15f42157c0ca 5.4-stable patches
          
-  - ref: refs/heads/tip/urgent
-    old: 4627d19370235a397a12d05d703edfe53267903a
-    new: 8e9fb6349a80a2c97c24c257f197744c673a5e91
-    log: |
-         b5e7454bd610d3cb8601fc747088036c2f12ee4e Merge branch into tip/master: 'irq/urgent'
-         443b075a205b557d0496af5d5752d22228da0958 Merge branch into tip/master: 'objtool/urgent'
-         8e9fb6349a80a2c97c24c257f197744c673a5e91 Merge branch into tip/master: 'perf/urgent'
-         
+
+--===============8055797590654562712==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1739880378 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1739880347-f79506426677299d7463f302d1edb672f2e84411
+
+69b86504fc545139fb4086c83ab8e1ff6a771fb3 f295b97a107692ebc51cbbdf573a15f42157c0ca refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAme0d7obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dnoP/0+nF52kEBqKVxzXJi2R
+PWpCTQy8yo6wlCj9OJ1hVkDIj98vtlHHv8dK8+91cJV985PBu56/VJQ4/0eXhjpu
+5aSuTjs/PHKfTo9nOnU+vcY/sr3Afc7wbezyk5PS7Hyz4/BaIeyrWlI1mulMFS1n
+nik91CP2MQQ112/w51wRbA6WlEABrUk/aAXP2DPJOJ4D6/sJX+edxk0klN0hM0aX
+q4wGO0PlzYd6+Rq7kLkZNYwb7+1e8K8hjhEyE7wEC/xXJ25IlPjWBDwasUzjMLtQ
+bhLw61PiCkLWSyniNX9P+ZSQ11YvUXA+1hoMYrm8Ixb7DOBgmeB4Ah3RqnCXxfIW
+yzuL76ST/ZMNQ390fpPRNKUWWpg1cD9WXWSIVstfcO4KeejA/MAvtFwYZsdecfJ8
+ZEljBaSE6RT+Y7AMs+QO+tzyJfSbyKTIL+50ujPZKFq6cYLvsRZ2S741MsNUzrs2
+imNPe63cGOOWwzVaukhLaKXqrS1hNI+xAIbvQJLETCcNHiNI0VGUvLZLJnXEaQkJ
+rG8SJjs0U1VSewrGUCV+UmvqunfXblYwo/H0LWMyzxSwU52YRGL5m+7zKIvC/LIa
+hy6l7XBUBpsZBGddyvcAkUJlmkwas29UL/2mgPEc0ne2RT93mPAAcbY2fkaC7iJ7
+mBqKzgDBti0K1emJCGCTlj+u
+=XVlj
+-----END PGP SIGNATURE-----
+
+--===============8055797590654562712==--
