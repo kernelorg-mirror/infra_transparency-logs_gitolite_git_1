@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8769569385457861219=="
+Content-Type: multipart/mixed; boundary="===============5825721073311068355=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Tue, 18 Feb 2025 22:15:01 -0000
-Message-Id: <173991690140.2009921.3247144497605625860@gitolite.kernel.org>
+Date: Tue, 18 Feb 2025 22:15:03 -0000
+Message-Id: <173991690398.2011408.1218436905524247712@gitolite.kernel.org>
 
---===============8769569385457861219==
+--===============5825721073311068355==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: 47c191e0d806535a9efc0870833208a71618ccc0
-    new: 71fbe524f39a5318256b0fba6c69a78fb4e88683
-    log: revlist-47c191e0d806-71fbe524f39a.txt
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: 7422c319fd805b956aab5ba93e0274517a8e3650
+    new: 0ad2507d5d93f39619fc42372c347d6006b64319
+    log: revlist-7422c319fd80-0ad2507d5d93.txt
 
---===============8769569385457861219==
+--===============5825721073311068355==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-47c191e0d806-71fbe524f39a.txt
+Content-Disposition: attachment; filename=revlist-7422c319fd80-0ad2507d5d93.txt
 
 ccb7276a6d26d6f8416e315b43b45e15ee7f29e2 batman-adv: fix panic during interface removal
 e7e34ffc976aaae4f465b7898303241b81ceefc3 batman-adv: Ignore neighbor throughput metrics in error case
@@ -337,8 +337,6 @@ b3aa9283c0c505b5cfd25f7d6cfd720de2adc807 KVM: arm64: vgic: Hoist SGI/PPI alloc f
 f9af8e7718904f0b77595d1b610c96dd7796c655 Merge tag 'regmap-fix-v6.14-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
 85cc5751db7cc3211945bc380c944de6fe6979d1 Merge tag 'regulator-fix-v6.14-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 68763b29e0a6441f57f9ee652bbf8e7bc59183e5 Merge tag 'spi-fix-v6.14-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
-320702a76186222426e5dc8efb9d68ba9d4ed0ab MAINTAINERS: delete entry for AXXIA I2C
-7422c319fd805b956aab5ba93e0274517a8e3650 MAINTAINERS: Add maintainer for Qualcomm's I2C GENI driver
 79f9efa085f98353d0a7452806b82d6fe0923194 Merge tag 'drm-misc-fixes-2025-02-13' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
 981724b463141cf828744320ee8c93468d5dbe01 Merge tag 'amd-drm-fixes-6.14-2025-02-13' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
 d70c6ae53d790d3528a14092ae208d0ed125d7a5 Merge tag 'drm-intel-fixes-2025-02-13' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
@@ -417,9 +415,5 @@ ba643b6d84409e8a9057d5bdd6dd99255b1a88fe Merge tag 'irq_urgent_for_v6.14_rc3' of
 ae5fa8ce7ef230be50ed63d16883bada29990293 Merge tag 'driver-core-6.14-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 224e74511041c2d33dcf24adf54d447eb72399c8 Merge tag 'kbuild-fixes-v6.14-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 0ad2507d5d93f39619fc42372c347d6006b64319 Linux 6.14-rc3
-33148d75db3cc4bbcad8a66c4d9bc29051346b59 i2c: octeon: refactor common i2c operations
-ec90a8686a4f3e465fc2ff050b6722cee1df9abd dt-bindings: i2c: samsung,s3c2410: add exynos7870-i2c compatible
-7fdaf7b53fae8f0dbfa3b39a242716271d2246d9 dt-bindings: i2c: exynos5: add exynos7870-hsi2c compatible
-71fbe524f39a5318256b0fba6c69a78fb4e88683 i2c: pxa: fix call balance of i2c->clk handling routines
 
---===============8769569385457861219==--
+--===============5825721073311068355==--
