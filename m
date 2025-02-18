@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
-Date: Tue, 18 Feb 2025 15:57:44 -0000
-Message-Id: <173989426467.1687151.10151013849787652635@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Tue, 18 Feb 2025 15:59:05 -0000
+Message-Id: <173989434527.1687783.1969637298862839188@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mediatek/linux
-user: angelogioacchino.delregno
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/for-next
-    old: 9767801cb7d7b042e1237be349a606558d7c4ca1
-    new: b7e3ba5f431d3fed0eece0f5c90b5b4baa0b0b2a
+  - ref: refs/heads/kdevops
+    old: de42e26b12d09c41d31954c99b0a23e028cd9084
+    new: 76f6f2dc83983c01303872e85f94bd27cda4ce35
     log: |
-         76b35f59bbe66d3eda8a98021bc01f9200131f09 arm64: dts: mediatek: mt6359: fix dtbs_check error for audio-codec
-         da77c2d3d06c6fa36ed26a5a48490b80e4f94753 soc: mediatek: mtk-socinfo: Restructure SoC attribute information
-         ef09daffcb9b40277de6738941b1812454fbfd74 soc: mediatek: mtk-socinfo: Add entry for MT8370AV/AZA Genio 510
-         6b4506d01ad5db5a157ec34a9f3e0a07d6efe578 soc: mediatek: mtk-socinfo: Add entry for MT8390AV/AZA Genio 700
-         b7e3ba5f431d3fed0eece0f5c90b5b4baa0b0b2a Merge branch 'v6.14-next/soc' into for-next
+         edaf12528eda097ab29b77ee23b67d1a8cbff75d nfsd: prevent callback tasks running concurrently
+         379bd7011cb9992ce32092938c12d6d83ca19dfb nfsd: move cb_need_restart flag into cb_flags
+         7cb999fb3f4fb44ef301c1e9eae14e2a0fd39605 Merge branch 'nfsd-callback' into kdevops
+         76f6f2dc83983c01303872e85f94bd27cda4ce35 Merge branch 'nfsd-cleanup' into kdevops
          
