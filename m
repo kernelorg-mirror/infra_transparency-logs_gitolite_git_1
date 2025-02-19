@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 19 Feb 2025 23:02:12 -0000
-Message-Id: <174000613278.3252655.3595130474158000278@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 19 Feb 2025 23:05:30 -0000
+Message-Id: <174000633063.3256066.2392077430969365267@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: e8af068239ca735a5b915e454f6298988d833755
-    new: ac13c5087299e7690848302cd3073a37c7222364
-    log: |
-         ac13c5087299e7690848302cd3073a37c7222364 selftests/bpf: Enable kprobe_multi tests for ARM64
-         
+  - ref: refs/heads/fileaXughh
+    old: c8d08464bce947ee060e0174a3f4e87503269d0c
+    new: 0000000000000000000000000000000000000000
