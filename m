@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0891994816296804550=="
+Content-Type: multipart/mixed; boundary="===============0423600870573060994=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 19 Feb 2025 17:00:06 -0000
-Message-Id: <173998440619.2953945.3701766003137022098@gitolite.kernel.org>
+Date: Wed, 19 Feb 2025 17:00:08 -0000
+Message-Id: <173998440857.2954118.750924184586820131@gitolite.kernel.org>
 
---===============0891994816296804550==
+--===============0423600870573060994==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 7a7e0197133d18cfd9931e7d3a842d0f5730223f
     new: de7a88b639d488607352a270ef2e052c4442b1b3
     log: revlist-7a7e0197133d-de7a88b639d4.txt
 
---===============0891994816296804550==
+--===============0423600870573060994==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -175,4 +175,4 @@ aefd232de5eb2e77e3fc58c56486c7fe7426a228 Merge branch 'net-deduplicate-cookie-lo
 ce643fa62a70f0bb1c33d9fc98ed4d0300b00ff4 net: ethernet: ti am65_cpsw: Drop separate TX completion functions
 de7a88b639d488607352a270ef2e052c4442b1b3 Merge branch 'am65-cpsw-cleanup'
 
---===============0891994816296804550==--
+--===============0423600870573060994==--
