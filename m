@@ -1,55 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5107990239012027042=="
+Content-Type: multipart/mixed; boundary="===============7696754932310879025=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Wed, 19 Feb 2025 08:06:10 -0000
-Message-Id: <173995237081.2499352.18212345542481280371@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 19 Feb 2025 08:06:42 -0000
+Message-Id: <173995240225.2499684.751870465824526454@gitolite.kernel.org>
 
---===============5107990239012027042==
+--===============7696754932310879025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/powerpc/linux
-user: maddy
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes-test
-    old: d262a192d38e527faa5984629aabda2e0d1c4f54
-    new: eff2eb592efd73f00590d578c3d6021f604df62c
+  - ref: refs/heads/master
+    old: 31c69450ad04aeced4e29910dcfc7d31c52b0a12
+    new: e95f0d31036faf80f00707eda0e4a8233171f146
     log: |
-         eff2eb592efd73f00590d578c3d6021f604df62c cxl: Fix cross-reference in documentation and add deprecation warning
+         e95f0d31036faf80f00707eda0e4a8233171f146 drop queue-6.1/nfsd-release-svc_expkey-svc_export-with-rcu_work.patch
          
 
---===============5107990239012027042==
+--===============7696754932310879025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1739952382 +0530
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1739952351-4e80805a84ebcc140e3148f27ed4276693b2bee2
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1739952428 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1739952397-033949df6cf0074161e26fda8dc9ee9cae4a4897
 
-d262a192d38e527faa5984629aabda2e0d1c4f54 eff2eb592efd73f00590d578c3d6021f604df62c refs/heads/fixes-test
+31c69450ad04aeced4e29910dcfc7d31c52b0a12 e95f0d31036faf80f00707eda0e4a8233171f146 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAme1kP4ACgkQpnEsdPSH
-ZJTknxAAkxFD0tMZdj8JAqR7L2JXjPggq5A/E2b1DfSIT/r+I/a8gV7rP3JisIjL
-lB2myemMChk8qLPon0j+wcSKu+TOgRUMmybNoRZjIeYlzjVhVx1Ne9blcW2bu6UE
-YyEFkDauHIq92UM14W8c2p4LhLBRMAIbdBm8qWuJJunSXMp8jY/SR2Pd2RgWpMnI
-jX8g9D8wQvew+eiMDBUNf/l/xdIlzppAVFWfM0M7acPm9f7aGMH5VowfFEPn/cOw
-lJqztXwIkOyfn1WDvrQjbGfJSQ8ARkt4CQIcFQBCniHsYrZ/pCViHEkfdRaGZDXO
-3IjBg8i9By9ouzB5l8EvYQuyzCjXREt+O+AoWFSlxcGsOXLg7hWQSlwta3ZjNlKC
-J6xAB6ZtyhTL8rAOYO0+6q2mZWReXItOZyFwA2T/GpxIq4fM9KqIjyBJHKXsKLNk
-12GCGUmd1+rhnbX+LtxfWLF24Vd2KMNDn0W2CwsZXQhEwMtQYrIRxsNnkPQbJnXB
-KIaFDVdEw9+H6P1/fani/aUe3os2yBm/3IeytebXGoQhtj6pdih5UV2rO9+so2fq
-hxHSAHzq8552OFL0xJ9jSqhesVsnenhTCb6bADVMDiY7cG/Z95UWlfbjB+GwpXLo
-Maj69BpdKRl+O+vi3W/DKMFbmqTRdRjFAYYwMS7w+zIA78nohWM=
-=XxTM
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAme1kSwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wXAP/1c3rAM9QqqE3ExLH3xh
+grfcyz0jcvCJRle6vIFLvPg88wl6MAo9y33SCIWu9sYj+hbpRUh1wOMFfl0E4t0s
+pIGuKLZun6iAYX4sTwzNAjpyjlPU6O7az80shkeMFxEd7ESbCfoD30EsanLgMPxz
+7gWpcuY03J3o/uxhnyJ0+xjQUJoN6rNTrbu2nZKJZuvQ04a6f/ucR3PiYARDTkc/
+1QutpkiBTRlCnJu/R0uLMgeGcsw2hHg9sY9iN9Lnzp0hI2xfoc0Gnht53zpzfdEu
+oewad84Gi45V5vCUwYox6JqCKoYZzwbHuVGyIREsyty1b4Rq3zJpsIl30H2WP9KZ
+S/SB3rIQPBklXFBsiuzNne37sd8MAIUn8L2GA+IO3M+MwKuCCpua4F4iJJV5Fjp8
+lhOit6cV5YVgoic/JCfN/4QTxgbweM7tfj2DLTioKmODgdEqv2nmcbJ+Rh2apoke
+qgmHciyNVzjVjNcbD+nHGWV1ytXHXnRMbZqYMAwFeKQaGkbdwJJ2k+DmS8+upJc5
+dsmTaYAUVrxoe8uSPJ3vE/upixxg7R5T7CRzT/4mOr3BmgxDpEZjWXyzssRCske0
+7clbRATY/dVepVRlr7kJ0AtJrC8vYDGDrs77QXUpAHkPy4r1ZmYVfUdzKdPHJngt
+D6uuAc8JqJ/SOAcHtoMQWsm7
+=trHy
 -----END PGP SIGNATURE-----
 
---===============5107990239012027042==--
+--===============7696754932310879025==--
