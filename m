@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============8646644693787104955=="
+Content-Type: multipart/mixed; boundary="===============2647643085592935745=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 19 Feb 2025 14:15:19 -0000
-Message-Id: <173997451902.2812108.506957247476141073@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
+Date: Wed, 19 Feb 2025 14:15:48 -0000
+Message-Id: <173997454872.2812620.12693138713612738250@gitolite.kernel.org>
 
---===============8646644693787104955==
+--===============2647643085592935745==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/melver/linux
+user: melver
 changes:
-  - ref: refs/heads/usb-testing
-    old: f8da37e46253316d29a274a6747cb69007bc81f2
-    new: 7b2328c5a0091e4b85b59f9e758b8d2cd1cbefcc
-    log: |
-         af7ac64ebd6f3ecf7560c8b299f31e8669ea4cd5 dt-bindings: usb: microchip,usb2514: add support for vdda
-         233840bbdf7ca482645a934b3db8c41476d7391f dt-bindings: usb: microchip,usb2514: add support for USB2512/USB2513
-         673655f7944faa377744e707e5c7f46be0a0bc7f usb: misc: onboard_dev: add vdda support for Microchip USB2514
-         2ded07a8a21bfb6e48e49d293ae96a9705751feb dt-bindings: usb: usb-device: Replace free-form 'reg' with constraints
-         fe54c948d38e6c2426ada456a0c00714e87b3312 USB: docs: Fix typo in aspeed-lpc.yaml
-         7b2328c5a0091e4b85b59f9e758b8d2cd1cbefcc docs: Fix typo in usb/CREDITS
-         
+  - ref: refs/heads/cap-analysis/dev
+    old: 8c76483cfb7db74cf08aed86da7d3d692260d81d
+    new: d40fe03e8f6b4bca895c8a9695e3e858d4be19d1
+    log: revlist-8c76483cfb7d-d40fe03e8f6b.txt
 
---===============8646644693787104955==
+--===============2647643085592935745==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-8c76483cfb7d-d40fe03e8f6b.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1739974546 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1739974516-80b37a5746aa683ec8a58ca0e945f335ecf0e053
+98f823c1cb2ac8c150bb8ea43497314c30cbe717 compiler-capability-analysis: Add infrastructure for Clang's capability analysis
+a33556ed2a752875398c2603c8e21ebdcfef1908 compiler-capability-analysis: Add test stub
+c8802c98755ba6f2f01024c46433c49b524bc69c Documentation: Add documentation for Compiler-Based Capability Analysis
+870dbb0096ef081720e45376e4d937da9f6daf0e checkpatch: Warn about capability_unsafe() without comment
+ffcdc3fbdfd7e06abc9fec50d988343edc4f8f9d cleanup: Basic compatibility with capability analysis
+04e3c10b70c0fbeb55bb2cb542cb02124b641330 lockdep: Annotate lockdep assertions for capability analysis
+391d9f102e550e4fa19b70f22575321a421af5e2 locking/rwlock, spinlock: Support Clang's capability analysis
+03cc12750754f8a794d329824adb34c26178b7de compiler-capability-analysis: Change __cond_acquires to take return value
+250e2af03695e723948a816668a50b8c395b9726 locking/mutex: Support Clang's capability analysis
+b3a2d76f2ad9bb3033b6e06450c9fc55326f9094 locking/seqlock: Support Clang's capability analysis
+915de61fe3191465a53e9de6984a5f41a18813ae bit_spinlock: Include missing <asm/processor.h>
+130825d1204c86058fff29a86bc7bdd51aa815bf bit_spinlock: Support Clang's capability analysis
+b429884a9809b42dcaa3c43aafbf5d36fd40c000 rcu: Support Clang's capability analysis
+ca1bc55d06c6cae64a598042699b86949606e993 srcu: Support Clang's capability analysis
+b5cd4bec4765277ba4b7b0435b2d2530a36b0056 kref: Add capability-analysis annotations
+e08f06b0da8b64c964338a2a3c68ab769f4eb524 locking/rwsem: Support Clang's capability analysis
+a250617fceb664ff544bd47f6d0ec986caa867c5 locking/local_lock: Include missing <linux/irqflags.h>
+b6d6a9dc89213358120b699f23e2b05a4d8493be locking/local_lock: Support Clang's capability analysis
+42a14854e6f8d5bd16644960433be6cc0209f1cc locking/ww_mutex: Support Clang's capability analysis
+1dfa4d21067ec65b9a80ed4a7244eb65238c70bf debugfs: Make debugfs_cancellation a capability struct
+60354d0cd5538af67bd76c632590e3e37468ff7c compiler-capability-analysis: Remove Sparse support
+20ef06eee2f78e842da0df134afdedb7cf571617 compiler-capability-analysis: Remove __cond_lock() function-like helper
+24a91ce39fcd430ec05aae15907704d37857126d compiler-capability-analysis: Introduce header suppressions
+5ff865d13030be2bf99826ee05f5538b40784578 kfence: Enable capability analysis
+5fa2618b58ed2f99c9389658b6a5cea6ff1504fe kcov: Enable capability analysis
+8ccda6172fd567b5b79ebe0132162924f3159131 stackdepot: Enable capability analysis
+0c6a26ea7fda32c8cf295d4367e1ae03fcbd9e8c rhashtable: Enable capability analysis
+ae4495713aa6e57f16a36dd11aa8ecb6bed836ad printk: Move locking annotation to printk.c
+fb323019a3cdc44b57232983fc966f1b74d8a77b drivers/tty: Enable capability analysis for core files
+805a59d59cb9087dc8d8c694e9180c036d8bb273 security/tomoyo: Enable capability analysis
+d40fe03e8f6b4bca895c8a9695e3e858d4be19d1 crypto: Enable capability analysis
 
-f8da37e46253316d29a274a6747cb69007bc81f2 7b2328c5a0091e4b85b59f9e758b8d2cd1cbefcc refs/heads/usb-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAme155IbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+12kP/0GdMaddQLRGZnox0/72
-pVnF9v2zAWDfibNler3jUUJS15pFv4E/Tbe9X5nfNUGtDa+rN7ImyKeW5abtQU86
-b0f9XTNVuojxZNdIkhJbE8W6yWsXd5F/oQiZp6z8qN7Dki//Ns5CvzKpc+8HRcrF
-d6r56TZiY9BGa0h5m0nTyNRnDW+wniLSkhgwYfM6tmCyD7PEPkoqkEwFYFQKqBkW
-X6WNz5/z+bpJryevu9SB6PMMyZzDW3DAHa29UxHI5HhevALEsviX7rL5amkQ/n4W
-IBsOaMzlrHB1KChr0fTlRcO24DpM+yQEiUWM9i9tmx5iJ9Z8lH3hNR21V+ZorCIt
-U1iBZp6gjayUOBTylv90Fz5SS9mcM8T9IaONS+gbnR6bBKtW5w5/bRGCfOOsMlXv
-VtNtkOg2CXvWccdbcFxOszy9c7yeljlflXxo+7W/Sj/yhNSLjdqMkHasTyr1F1If
-2SrjUCjrqHdrMfR2UTCTh05MmgQsoIGtzJLA+Whsdkwox5MvcAuutp0iX65BwWfY
-PYEGTqoS0zw7ObWOGo9fsrlrg4oQqzv6ahl2I6zl0yEIR4cAyE9N+vnBBJZ0JJbg
-GzPEubpEXvbZklHXEjXQmQBvMrb7nw3E5Sf2YYJBU/C3iv3IQDk3JChgQnHNEGGd
-rEqq+5TTPyPe1hSnomvizWY5
-=1mCu
------END PGP SIGNATURE-----
-
---===============8646644693787104955==--
+--===============2647643085592935745==--
