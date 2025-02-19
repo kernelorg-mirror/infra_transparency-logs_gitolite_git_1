@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 19 Feb 2025 00:03:06 -0000
-Message-Id: <173992338625.2104804.12712197688192774983@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Wed, 19 Feb 2025 00:05:28 -0000
+Message-Id: <173992352820.2108056.979581733056049149@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/main
-    old: f7b5279b67e76978ad7b3800030680774bfba4cb
-    new: f5da7c45188eea71394bf445655cae2df88a7788
+  - ref: refs/heads/todo
+    old: 6b64ee2d16d3226b28d727d6b77c860d404d2898
+    new: 5fa232d8520f577dbc41cc0414e884dbd85fa66b
     log: |
-         f5da7c45188eea71394bf445655cae2df88a7788 tcp: adjust rcvq_space after updating scaling ratio
+         5fa232d8520f577dbc41cc0414e884dbd85fa66b What's cooking (2025/02 #06)
          
