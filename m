@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 19 Feb 2025 02:06:06 -0000
-Message-Id: <173993076617.2211198.13100242005859069074@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 19 Feb 2025 02:06:32 -0000
+Message-Id: <173993079267.2211568.16306910036737588804@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: f5da7c45188eea71394bf445655cae2df88a7788
-    new: 2f56be7f52ece7fc8c16a58ca9683f0a73e288e1
+    old: d5b595d3aec21576d6a7dad0bc008b29b1ad5d8e
+    new: fabcfd6d10999024a721ae1b965b57eb8a305ace
     log: |
-         415cadd505464d9a11ff5e0f6e0329c127849da5 gve: set xdp redirect target only when it is available
-         2f56be7f52ece7fc8c16a58ca9683f0a73e288e1 MAINTAINERS: trim the GVE entry
+         438989137acd6c620e9990c24dead5ffdd8e77c1 netlink: Unset cb_running when terminating dump on release
+         fabcfd6d10999024a721ae1b965b57eb8a305ace net: phy: realtek: add defines for shadowed c45 standard registers
          
