@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4791344638498298692=="
+Content-Type: multipart/mixed; boundary="===============4853481020218699296=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 19 Feb 2025 16:40:40 -0000
-Message-Id: <173998324092.2937253.2424415580330063746@gitolite.kernel.org>
+Date: Wed, 19 Feb 2025 16:40:43 -0000
+Message-Id: <173998324316.2937354.11750800740087350269@gitolite.kernel.org>
 
---===============4791344638498298692==
+--===============4853481020218699296==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: 348f968b89bfeec0bb53dd82dba58b94d97fbd34
     new: a92c3228766429fe175ecc815f895043ea505587
     log: revlist-348f968b89bf-a92c32287664.txt
 
---===============4791344638498298692==
+--===============4853481020218699296==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -49,4 +49,4 @@ e57a6320215c3967f51ab0edeff87db2095440e4 net: Add net_passive_inc() and net_pass
 d4c6bfc83936cb61fac99e9891c406fbdd40f964 dev: Use rtnl_net_dev_lock() in unregister_netdev().
 a92c3228766429fe175ecc815f895043ea505587 Merge branch 'net-fix-race-of-rtnl_net_lock-dev_net-dev'
 
---===============4791344638498298692==--
+--===============4853481020218699296==--
