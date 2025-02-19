@@ -1,23 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Wed, 19 Feb 2025 10:02:15 -0000
-Message-Id: <173995933507.2597905.1218811853636792693@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
+Date: Wed, 19 Feb 2025 10:33:04 -0000
+Message-Id: <173996118438.2621304.5356796765465782561@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/melver/linux
+user: melver
 changes:
-  - ref: refs/heads/work.overlayfs
-    old: 0409f4a561f8fc8f0db5f7ba2c59036e8f8d69c6
-    new: 447e9693080b86b8e23ec40bd2a026c44bf80f93
+  - ref: refs/heads/cap-analysis/dev
+    old: 3a2f82ad80de301e6111df724680b606dd93ad6c
+    new: c61b655e1ae785b7bfe9d964992ac2046546d696
     log: |
-         6f48a7f16f362cc0c9480c74ff1343d01738e254 ovl: allow to specify override credentials
-         2e8e7b9f7320d234e29ec7ac31ec63fa03ba24fc selftests/ovl: add first selftest for "override_creds"
-         8967c965340d45d2e03fd9ff5bd769544764f73b selftests/ovl: add second selftest for "override_creds"
-         52db4782812bbd14d8303809701b76125fe05583 selftests/ovl: add third selftest for "override_creds"
-         447e9693080b86b8e23ec40bd2a026c44bf80f93 ovl: add override_creds mount option
+         ff870b315c562f78c39909ad55d0050ed8ee679d compiler-capability-analysis: Introduce header suppressions
+         ef5a7321359265192e0df921dea75ee9c84f5cf1 kfence: Enable capability analysis
+         b21a130e8b5aa9b16f66716528842aea8ea30aa8 kcov: Enable capability analysis
+         c25f209bebab70b5492b2433c5fbf6a8b93986c4 stackdepot: Enable capability analysis
+         44eef7601667d46cf7e93ceb8c44bde3879f342d rhashtable: Enable capability analysis
+         efc85dd3838e1fef06f94a4b22f7eb39af0d83c6 printk: Move locking annotation to printk.c
+         40644578c0ee299bedf0b5a240c2256e9239824f drivers/tty: Enable capability analysis for core files
+         c61b655e1ae785b7bfe9d964992ac2046546d696 security/tomoyo: Enable capability analysis
          
