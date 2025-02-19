@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6353681278542258627=="
+Content-Type: multipart/mixed; boundary="===============4950178925119449864=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 19 Feb 2025 11:44:38 -0000
-Message-Id: <173996547842.2680801.18122582286122628384@gitolite.kernel.org>
+Date: Wed, 19 Feb 2025 11:45:46 -0000
+Message-Id: <173996554699.2683183.5062644203320232656@gitolite.kernel.org>
 
---===============6353681278542258627==
+--===============4950178925119449864==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,28 +16,35 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 5e8357bc3db2c901b02c62cfe7ff29831865440a
-    new: 47151fc60195c7cad638ab46593ac2474c3c0634
-    log: revlist-5e8357bc3db2-47151fc60195.txt
+    old: 47151fc60195c7cad638ab46593ac2474c3c0634
+    new: 545a9c178b6a7d5e0dcf91f34c038fb228f42836
+    log: revlist-47151fc60195-545a9c178b6a.txt
+  - ref: refs/heads/tip/urgent
+    old: 1ed5f925a4ac307d332c192de74189f3c56846c6
+    new: 8c9e204242798768f390417c7ad7d053082ae1f3
+    log: |
+         7d3105a2b70e353f42cc93718bdcd512836bf638 Merge branch into tip/master: 'irq/urgent'
+         8c9e204242798768f390417c7ad7d053082ae1f3 Merge branch into tip/master: 'perf/urgent'
+         
 
---===============6353681278542258627==
+--===============4950178925119449864==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5e8357bc3db2-47151fc60195.txt
+Content-Disposition: attachment; filename=revlist-47151fc60195-545a9c178b6a.txt
 
-735049b801cf3d597752017385cfc8768ce44303 x86/amd_node, platform/x86/amd/hsmp: Have HSMP use SMN through AMD_NODE
-bebe0afb74514ae51f4f348b28326c658b02209d x86/amd_node: Add SMN offsets to exclusive region access
-6b06755af6679fd7c98ebc017ac31c8a74127538 x86/amd_node: Add support for debugfs access to SMN registers
-d20610c19b4a22bc69085b7eb7a02741d51de30e perf/amd/ibs: Add support for OP Load Latency Filtering
-0b347a4218da08b1eb400c259d193bff463dae87 perf/amd/ibs: Update DTLB/PageSize decode logic
-3201bfa368fee5e70927e45222ff0b235352c01c perf amd ibs: Sync arch/x86/include/asm/amd-ibs.h header with the kernel
-eee00df8e1f1f5648ed8f9e40e2bb54c2877344a serial: xilinx_uartps: Use helper function hrtimer_update_function()
-3f8d93d1371f460ed30ebfa30fb930c0605035fc io_uring: Use helper function hrtimer_update_function()
-86a578e780a9fb0e1a1b6f3f3aa847c29b5255b9 wifi: rt2x00: Switch to use hrtimer_update_function()
-c893ee3f95f16fcb98da934d61483d0b7d8ed568 x86/amd_node: Add a smn_read_register() helper
-19a6d092d62a86ec274fc16a6b9b96a9135b042c Merge branch into tip/master: 'perf/core'
-ef4c9a68a02a1dbe5a566ad8bcbb6b4faa9e8aa1 Merge branch into tip/master: 'timers/cleanups'
-47151fc60195c7cad638ab46593ac2474c3c0634 Merge branch into tip/master: 'x86/misc'
+7d3105a2b70e353f42cc93718bdcd512836bf638 Merge branch into tip/master: 'irq/urgent'
+8c9e204242798768f390417c7ad7d053082ae1f3 Merge branch into tip/master: 'perf/urgent'
+8bb72d1fbf8174d5ccd29f9a2f7f3637a3b62859 Merge branch into tip/master: 'irq/drivers'
+1deddc5e095131fed32929178f1de2cb61ca6e43 Merge branch into tip/master: 'perf/core'
+906ce3870dbb1c4c5c0065d203d6fd9f35f8c964 Merge branch into tip/master: 'sched/core'
+14fb9260d2de31b56745dcbb56a9aa8e678b5ba9 Merge branch into tip/master: 'timers/cleanups'
+9894d15a35567a82b0b789654e570a2c988b8eb1 Merge branch into tip/master: 'timers/core'
+b3ea9968b61b9857427201b6f6a81ffa42fd42ca Merge branch into tip/master: 'x86/asm'
+eb55e0c2cf5840702d2f3a75e70f92ee122e1c62 Merge branch into tip/master: 'x86/core'
+20996139b56617796730400448e42426651a3d5e Merge branch into tip/master: 'x86/cpu'
+76dd7e9d0b15fad5c272688286e2081901ae9b4c Merge branch into tip/master: 'x86/fpu'
+6a22cdf82abdf7fa5593f7e8c3bd2630056e0405 Merge branch into tip/master: 'x86/microcode'
+545a9c178b6a7d5e0dcf91f34c038fb228f42836 Merge branch into tip/master: 'x86/misc'
 
---===============6353681278542258627==--
+--===============4950178925119449864==--
