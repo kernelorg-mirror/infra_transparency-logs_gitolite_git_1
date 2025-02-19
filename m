@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0119422990672988859=="
+Content-Type: multipart/mixed; boundary="===============3966189731559538626=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 19 Feb 2025 14:16:15 -0000
-Message-Id: <173997457580.2812982.18200706048257654769@gitolite.kernel.org>
+Date: Wed, 19 Feb 2025 14:18:58 -0000
+Message-Id: <173997473836.2814168.2870178787858185995@gitolite.kernel.org>
 
---===============0119422990672988859==
+--===============3966189731559538626==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,48 +16,44 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 7b2328c5a0091e4b85b59f9e758b8d2cd1cbefcc
-    new: 0a86e49acfbb4f97ba86f05eb250f4c65c8bec0d
+  - ref: refs/heads/usb-linus
+    old: 0ad2507d5d93f39619fc42372c347d6006b64319
+    new: d6b82dafd17db0658f089b9cdec573982ca82bc5
     log: |
-         3975e68cf31f670c1350710fa2d256556a5432b2 usb: dwc2: gadget: Introduce register restore flags
-         8b7a1b3da2e290bcbe8024519c86ddf1aa2096e8 usb: dwc2: Refactor backup/restore of registers
-         ba6e518d136b25b340ddedb97a79db5642e4ed7f usb: dwc2: Implement recovery after PM domain off
-         834d1cb7ecf3f2812fc3c8cbe870cf2ad192f68e usb: typec: ps883x: fix probe error handling
-         9f9de3e02d7f6f99ce6f4be92c28537706634ae9 usb: typec: ps883x: fix registration race
-         9e7968c4424875fe9ce87c993f2f75784a2989cb usb: typec: ps883x: fix missing accessibility check
-         21b1aea451b2790b17e0c8893fba914aeb6eed68 usb: typec: ps883x: fix configuration error handling
-         0a86e49acfbb4f97ba86f05eb250f4c65c8bec0d dt-bindings: usb: samsung,exynos-dwc3 Add exynos990 compatible
+         c90aad369899a607cfbc002bebeafd51e31900cd usb: atm: cxacru: fix a flaw in existing endpoint checks
+         17c2c87c37862c3e95b55f660681cc6e8d66660e usb: gadget: u_ether: Set is_suspend flag if remote wakeup fails
+         40e89ff5750fca2c1d6da93f98a2038716bba86c usb: gadget: Set self-powered based on MaxPower and bmAttributes
+         d6b82dafd17db0658f089b9cdec573982ca82bc5 usb: typec: tcpci_rt1711h: Unmask alert interrupts to fix functionality
          
 
---===============0119422990672988859==
+--===============3966189731559538626==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1739974602 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1739974766 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1739974572-a1ce5bba2ab0095812abf3a13104a1edc04ab189
+nonce 1739974735-29d783897fbda7afc7730bd79fe5f506cf0443bf
 
-7b2328c5a0091e4b85b59f9e758b8d2cd1cbefcc 0a86e49acfbb4f97ba86f05eb250f4c65c8bec0d refs/heads/usb-testing
+0ad2507d5d93f39619fc42372c347d6006b64319 d6b82dafd17db0658f089b9cdec573982ca82bc5 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAme158obHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DwAP/0m3UZmM0AK9Wme/dDeV
-r4RGx7BpnePRJ/Lkwv28g8SssRGMbmIEFXBKyLE5Psqw3b7S9AIe6GYRXHw8hVo3
-njfTCTqsnWYXCSd0jGd2J+ZJ4DhwZg3MKw8yCj5ksgkeaSQAZY+380Q5MLONP+J5
-dvLk//1+jkxCMGVfk4212TxGa9zAm1yltGyvGpvPbPysi47EBbeNSW1sgd3+BALg
-4VukIy79UlTJ/oxNugXBfgmW2ETPsgO2gzK1Z5CI67fnd4a3YMywW8JG7duhGhpA
-+GnG3fpUtJOTpZh3ZelC5lVeDeKVuVZBb2VhEwwk6EJRY4PpNaGrzi502wXpSOVq
-XMGCTYI8Su+6U9DF2i8SWUCzB7J7wbyTh1vm7SpQ28Ud7eerje+nPTvFAiq4tInt
-goKZGbj09XuwlPMku00un+XNcSFCqF/Obwj/Htg30hKmDSq5nvP7OIvdS1dC4ub8
-IeBUnwjYZOZgrE9jWgfkO9sUJtefdYZC1gcX5jH9VlSldcEROkawa270lV9xLb8R
-zW6whC4nGoB7/NUjT+HhmIKXXdL5QpZ6i9Uxw/PuPnN06TU8KR7T8ROJCLa7UlAw
-VUiPf9g6obNRva6UtcBv8jzvMVG4G/QOoaNpMo8AfABk6SyHR3nwZb3a7yDeQQen
-xTHvR8O795U/Cj2wOaTree9z
-=+n9K
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAme16G4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QTAP/0BEi1Ez9FfUCy6MGGiL
++DxXYMFBm6Evvb4j1R77kEdxWfV3QY8NMjmRNRFvnB+PnmiL8BkdFdWcbWiz0rSL
++DiJuuCa/Bha6v021rrpCJ7eeZHWxyUPmLqqVRHTIt2bcEtWWt1UGrixlty1nlp0
+m+rYMEUGjMlrx8ncL0UnHS66eQ78oLoEEI/Yy9h3MDk7zsLKxGH20lE057HPy0VY
+ynpXE2i+dmfksV3Vrqhl/5aipByOfwgfl7oO8gc4auObvVFezteSuiTO0y6BBite
+80XzN7lDC13svZ+HTtMuj/9/KAG7oRvmy28VDY1LD6NBgotfNLyhoSjFb1FaIYZi
+nKNNuCFKDNHSYOzumyvz4Lk9HqOwWwi6daQYXoLljgvX3fI6j0rL8ITytz22MahG
+IrcwAIDNhg05Z+HrlPEk57zXxpBSP97u7a2oRLl4uQqKkyfAJ1bdbpy/2LPPpLFP
+Zt0Gp/nQy48ZbNCAhEaesL651VIxTDi/YQB928UzbGhxUIlOQuIw6zkqWpnazQ6l
+e1a55eea8tv5VNgXLcncV/iGtsw2cAs/AjozdigdAdXbhSHkZ7ykKri/jDmVMvjR
+xLUnVnq3X1qpww290iUMDn586J7/YqIoWG85u2OQwBG+MjCY7wV4pRBvTZ33XwnU
+sw1T7/fYm613zOqqJ7Pn9mB5
+=djki
 -----END PGP SIGNATURE-----
 
---===============0119422990672988859==--
+--===============3966189731559538626==--
