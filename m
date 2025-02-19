@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Wed, 19 Feb 2025 13:57:43 -0000
-Message-Id: <173997346394.2795851.624205732274410255@gitolite.kernel.org>
+Date: Wed, 19 Feb 2025 14:03:45 -0000
+Message-Id: <173997382515.2800446.10570921721914200401@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
 user: chunkuang.hu
 changes:
   - ref: refs/heads/mediatek-drm-next
-    old: 2014c95afecee3e76ca4a56956a936e23283f05b
-    new: 0be123cafc06eed0fd1227166a66e786434b0c50
+    old: 0be123cafc06eed0fd1227166a66e786434b0c50
+    new: 72fcb88e7bbc053ed4fc74cebb0315b98a0f20c3
     log: |
-         0be123cafc06eed0fd1227166a66e786434b0c50 drm/mediatek: mtk_hdmi: Unregister audio platform device on failure
+         72fcb88e7bbc053ed4fc74cebb0315b98a0f20c3 drm/mediatek: mtk_hdmi: Fix typo for aud_sampe_size member
          
