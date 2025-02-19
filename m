@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Wed, 19 Feb 2025 13:04:22 -0000
-Message-Id: <173997026291.2748564.1371504261809330092@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Wed, 19 Feb 2025 13:08:47 -0000
+Message-Id: <173997052772.2752634.12123776649515929839@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/for-next
-    old: f26e648a978ae7958e0958095768363c851a736d
-    new: 486055f5e09df959ad4e3aa4ee75b5c91ddeec2e
+  - ref: refs/heads/kdevops
+    old: bf0ce61460e01af2a3e7ca1bc6735a1bae3bf87c
+    new: 28f8ef1b6e04fd01688a1f8a2fbdfc2f9f8ef371
     log: |
-         161072d43a8cd2f1e4c9612f7e41d5d070c1d01b RDMA/irdma: Switch to using the crc32c library
-         ffd67b6b420d0549e250f91eb670e98e189cd73a RDMA/mana_ib: Implement DMABUF MR support
-         0172be244ce367dd51d77b777244ea9c8de34a3a IB/iser: fix typos in iscsi_iser.c comments
-         486055f5e09df959ad4e3aa4ee75b5c91ddeec2e RDMA/core: Fix best page size finding when it can cross SG entries
+         28f8ef1b6e04fd01688a1f8a2fbdfc2f9f8ef371 DEBUG: dump_stack in nfs_permission
          
