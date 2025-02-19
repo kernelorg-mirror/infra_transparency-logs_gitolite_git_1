@@ -1,24 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Wed, 19 Feb 2025 21:34:06 -0000
-Message-Id: <174000084696.3178212.1589997275499781443@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 19 Feb 2025 21:49:34 -0000
+Message-Id: <174000177434.3190450.1825604513231843068@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 29bab85418efd329c1a984fc9b885b6709481b27
-    new: 6353255e7cfab568058580424fa0967bf4504fe5
+  - ref: refs/heads/io_uring-6.14
+    old: fb3331f53e3cb1f1505f918f4f33bb0a3a231e4f
+    new: 4614de748e78a295ee9b1f54ca87280b101fbdf0
     log: |
-         2ed0e3ea8aac156b43e9c6a452d751723785fc4b perf vendor events arm64: Fix incorrect CPU_CYCLE in metrics expr
-         687b8c3938af61230bc954f5ecf349d3a449b12a perf list: Also append PMU name in verbose mode
-         0cced76a0276610e86e8b187c09f0e9ef85b9299 perf tools: Fix up some comments and code to properly use the event_source bus
-         43c2b6139b188d8a756130147f7efd5ddf99f88d perf report: Switch data file correctly in TUI
-         acda4c200185f55f10023bd9fcbf97915cc0fa0a perf report: Support switching data w/ and w/o callchains
-         6353255e7cfab568058580424fa0967bf4504fe5 perf report: Fix input reload/switch with symbol sort key
+         67b0025d19f99fb9fbb8b62e6975553c183f3a16 io_uring/rw: forbid multishot async reads
+         4e43133c6f2319d3e205ea986c507b25d9b41e64 io_uring/rw: don't directly use ki_complete
+         74f3e875268f1ce2dd01029c29560263212077df io_uring/rw: move ki_complete init into prep
+         4614de748e78a295ee9b1f54ca87280b101fbdf0 io_uring/rw: clean up mshot forced sync mode
          
