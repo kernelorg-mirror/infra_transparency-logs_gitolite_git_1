@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 19 Feb 2025 17:21:20 -0000
-Message-Id: <173998568012.2973063.10219941468785817542@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Wed, 19 Feb 2025 17:24:39 -0000
+Message-Id: <173998587920.2974788.1798624526676480492@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/endpoint-test
-    old: bff83bc8295cb6c5f7845fb405c15bba5871f07b
-    new: 95bd01df1718bd6367b80e266d32e8c3ab1e2aaf
+  - ref: refs/heads/main
+    old: 4ef682fb2bfd320bf1195483969f324eb03302e9
+    new: a172edcb6739399507b49cad3867277cfeca3216
     log: |
-         95bd01df1718bd6367b80e266d32e8c3ab1e2aaf tools/Makefile: Remove pci target
+         1cc8c1bfa11251ce8bfcc97d1f15e312f7fe4df0 amdgpu: Update ISP FW for isp v4.1.1
+         a172edcb6739399507b49cad3867277cfeca3216 Merge branch 'amd-isp-staging' into 'main'
          
