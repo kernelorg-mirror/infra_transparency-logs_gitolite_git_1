@@ -1,28 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Wed, 19 Feb 2025 09:09:14 -0000
-Message-Id: <173995615476.2554148.11283902938921479823@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Wed, 19 Feb 2025 09:19:05 -0000
+Message-Id: <173995674553.2562064.12490228062885356667@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/for-6.14/upstream-fixes
-    old: 4bd0725c09f377ffaf22b834241f6c050742e4fc
-    new: 07583a0010696a17fb0942e0b499a62785c5fc9f
+  - ref: refs/heads/work.overlayfs
+    old: f2527354c46a5bbe2bc90adbcbecc4b66168f63d
+    new: 23c754cf18452b4fdd321254204bf86882338c5c
     log: |
-         823987841424289339fdb4ba90e6d2c3792836db HID: intel-ish-hid: Fix use-after-free issue in hid_ishtp_cl_remove()
-         07583a0010696a17fb0942e0b499a62785c5fc9f HID: intel-ish-hid: Fix use-after-free issue in ishtp_hid_remove()
-         
-  - ref: refs/heads/for-next
-    old: 38e90d5ee019c4154360a400fb3f217afd59bce1
-    new: 594050682df12677bfee7796777b31f2d80004c3
-    log: |
-         823987841424289339fdb4ba90e6d2c3792836db HID: intel-ish-hid: Fix use-after-free issue in hid_ishtp_cl_remove()
-         07583a0010696a17fb0942e0b499a62785c5fc9f HID: intel-ish-hid: Fix use-after-free issue in ishtp_hid_remove()
-         594050682df12677bfee7796777b31f2d80004c3 Merge branch 'for-6.14/upstream-fixes' into for-next
+         0e884635fd342722dc968d1516bf8abde0043aa7 ovl: allow to specify override credentials
+         8bca25c6266d37ccb64aafa250c60601bcc5a4d8 selftests/ovl: add first selftest for "override_creds"
+         38aaa0b03b66a773dfde28bad60a215b05252acf selftests/ovl: add second selftest for "override_creds"
+         147d98618524b601e317d5e4175dd34dc31413f4 selftests/ovl: add third selftest for "override_creds"
+         23c754cf18452b4fdd321254204bf86882338c5c ovl: add override_creds mount option
          
