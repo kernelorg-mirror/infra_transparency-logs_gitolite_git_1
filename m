@@ -1,21 +1,49 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 19 Feb 2025 10:55:41 -0000
-Message-Id: <173996254105.2641496.4261484623102450491@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
+Date: Wed, 19 Feb 2025 10:56:39 -0000
+Message-Id: <173996259972.2642069.2193790342045469619@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/utils/cryptsetup/cryptsetup
+user: mbroz
 changes:
-  - ref: refs/heads/perf/core
-    old: 1623ced247f7cb1b48a27cca6b0f17fe5ab5942b
-    new: 3201bfa368fee5e70927e45222ff0b235352c01c
+  - ref: refs/heads/main
+    old: 7ee0b02967c7524e9cbf90c14d0b058d7d5d29a4
+    new: 52c63b5de1b660d00cbc12b90acabf07fd8ec652
     log: |
-         d20610c19b4a22bc69085b7eb7a02741d51de30e perf/amd/ibs: Add support for OP Load Latency Filtering
-         0b347a4218da08b1eb400c259d193bff463dae87 perf/amd/ibs: Update DTLB/PageSize decode logic
-         3201bfa368fee5e70927e45222ff0b235352c01c perf amd ibs: Sync arch/x86/include/asm/amd-ibs.h header with the kernel
+         41b8b02ccf586df0fd1790bafb8fcc009b12e59a verity: Add support for restart/panic on error flag.
+         dded9b3305106f39efc8d32909a532ce30e4c271 veritysetup: Support --error-as-corruption option.
+         52c63b5de1b660d00cbc12b90acabf07fd8ec652 Note the need to omit separator characters from the PSID
+         
+  - ref: refs/heads/master
+    old: 7ee0b02967c7524e9cbf90c14d0b058d7d5d29a4
+    new: 52c63b5de1b660d00cbc12b90acabf07fd8ec652
+    log: |
+         41b8b02ccf586df0fd1790bafb8fcc009b12e59a verity: Add support for restart/panic on error flag.
+         dded9b3305106f39efc8d32909a532ce30e4c271 veritysetup: Support --error-as-corruption option.
+         52c63b5de1b660d00cbc12b90acabf07fd8ec652 Note the need to omit separator characters from the PSID
+         
+  - ref: refs/heads/verity-error
+    old: dded9b3305106f39efc8d32909a532ce30e4c271
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/757/head
+    old: 83d1ed07335d6af6f1172c5ace3d73dbf2e747be
+    new: 52c63b5de1b660d00cbc12b90acabf07fd8ec652
+    log: |
+         41b8b02ccf586df0fd1790bafb8fcc009b12e59a verity: Add support for restart/panic on error flag.
+         dded9b3305106f39efc8d32909a532ce30e4c271 veritysetup: Support --error-as-corruption option.
+         52c63b5de1b660d00cbc12b90acabf07fd8ec652 Note the need to omit separator characters from the PSID
+         
+  - ref: refs/merge-requests/757/merge
+    old: ddf3e51289dd8d7faffb7f98170153901fd6f407
+    new: d81829b3ccdecce365dc48973b10f8c29d839845
+    log: |
+         41b8b02ccf586df0fd1790bafb8fcc009b12e59a verity: Add support for restart/panic on error flag.
+         dded9b3305106f39efc8d32909a532ce30e4c271 veritysetup: Support --error-as-corruption option.
+         52c63b5de1b660d00cbc12b90acabf07fd8ec652 Note the need to omit separator characters from the PSID
+         d81829b3ccdecce365dc48973b10f8c29d839845 Merge branch 'psid-syntax' into 'main'
          
