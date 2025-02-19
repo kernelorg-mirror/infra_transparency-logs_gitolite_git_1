@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6973390490662930772=="
+Content-Type: multipart/mixed; boundary="===============1751317964932374859=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 19 Feb 2025 17:00:10 -0000
-Message-Id: <173998441095.2954197.6197921404402917513@gitolite.kernel.org>
+Date: Wed, 19 Feb 2025 17:00:13 -0000
+Message-Id: <173998441333.2954315.298012789233414098@gitolite.kernel.org>
 
---===============6973390490662930772==
+--===============1751317964932374859==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,31 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/100GbE
-    old: 48ccdcd87e0d2d4c82eb50eaff53c6aeb9a8372b
+  - ref: refs/heads/200GbE
+    old: 7a7e0197133d18cfd9931e7d3a842d0f5730223f
     new: de7a88b639d488607352a270ef2e052c4442b1b3
-    log: revlist-48ccdcd87e0d-de7a88b639d4.txt
+    log: revlist-7a7e0197133d-de7a88b639d4.txt
 
---===============6973390490662930772==
+--===============1751317964932374859==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-48ccdcd87e0d-de7a88b639d4.txt
+Content-Disposition: attachment; filename=revlist-7a7e0197133d-de7a88b639d4.txt
 
+27ebd8bf9e4b53388cef2d9cdb2947bc456b0b33 virtchnl: add support for enabling PTP on iAVF
+7c1178a9df583454fc76be2ca8a6f0bef6613fba ice: support Rx timestamp on flex descriptor
+6a88c797ab4005cd5dd02575c1b3d1e7b53fe715 virtchnl: add enumeration for the rxdid format
+2a86e210f1a102614116e347efda59896f780417 iavf: add support for negotiating flexible RXDID format
+3247d65ad9de39ae11261274899ac6a9fc04b7a9 iavf: negotiate PTP capabilities
+d734223b2f0dc4f5826204ee628ad6273148223d iavf: add initial framework for registering PTP clock
+52e3beac764def6ee1cb20ead8161d81b3113955 iavf: add support for indirect access to PHC time
+7c01dbfc8a1c5f8b8e4a7907ab06db1449d478d0 iavf: periodically cache PHC time
+ce5cf4af7ceb6c1350c7ae788659c1f0696b2267 libeth: move idpf_rx_csum_decoded and idpf_rx_extracted
+e9f476d7b39ce1aecc4913eda1562e87113df185 iavf: define Rx descriptors as qwords
+2dc8e7c36d805084756e170527423e64eb04aba8 iavf: refactor iavf_clean_rx_irq to support legacy and flex descriptors
+8447357e7b04d09dde4ad04d93672b9f0f47a66c iavf: Implement checking DD desc field
+51534239ef132afbc8cc65cf430aeaeec244a6ad iavf: handle set and get timestamps ops
+48ccdcd87e0d2d4c82eb50eaff53c6aeb9a8372b iavf: add support for Rx timestamps to hotpath
 54568a84c95bdea20227cf48d41f198d083e78dd net: introduce EXPORT_IPV6_MOD() and EXPORT_IPV6_MOD_GPL()
 95a3c96c746008a2abed2882e0da48a78f941c49 inetpeer: use EXPORT_IPV6_MOD[_GPL]()
 6dc4c2526f6d11f36c4e26d0231b345eabab584c tcp: use EXPORT_IPV6_MOD[_GPL]()
@@ -161,4 +175,4 @@ aefd232de5eb2e77e3fc58c56486c7fe7426a228 Merge branch 'net-deduplicate-cookie-lo
 ce643fa62a70f0bb1c33d9fc98ed4d0300b00ff4 net: ethernet: ti am65_cpsw: Drop separate TX completion functions
 de7a88b639d488607352a270ef2e052c4442b1b3 Merge branch 'am65-cpsw-cleanup'
 
---===============6973390490662930772==--
+--===============1751317964932374859==--
