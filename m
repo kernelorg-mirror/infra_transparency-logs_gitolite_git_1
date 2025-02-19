@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1094135232242480952=="
+Content-Type: multipart/mixed; boundary="===============3188321494484304938=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 19 Feb 2025 13:03:30 -0000
-Message-Id: <173997021037.2747772.8326268779342917199@gitolite.kernel.org>
+Date: Wed, 19 Feb 2025 13:03:49 -0000
+Message-Id: <173997022953.2748192.17149703957396617570@gitolite.kernel.org>
 
---===============1094135232242480952==
+--===============3188321494484304938==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,39 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 545a9c178b6a7d5e0dcf91f34c038fb228f42836
-    new: b6141b5f05f7a866daee60e1e0dcbfc4671ee259
-    log: revlist-545a9c178b6a-b6141b5f05f7.txt
+    old: b6141b5f05f7a866daee60e1e0dcbfc4671ee259
+    new: 5eaced72c8857ef350df9954688c1e8fcd718557
+    log: revlist-b6141b5f05f7-5eaced72c885.txt
+  - ref: refs/heads/tip/urgent
+    old: 8c9e204242798768f390417c7ad7d053082ae1f3
+    new: d5e608b7b081feaa442ec0322c6eb0cdc8661abc
+    log: revlist-8c9e20424279-d5e608b7b081.txt
 
---===============1094135232242480952==
+--===============3188321494484304938==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-545a9c178b6a-b6141b5f05f7.txt
+Content-Disposition: attachment; filename=revlist-b6141b5f05f7-5eaced72c885.txt
+
+c35d6b72aa07dbc29ff4e02e920cb04618745534 Merge branch into tip/master: 'irq/urgent'
+d5e608b7b081feaa442ec0322c6eb0cdc8661abc Merge branch into tip/master: 'perf/urgent'
+cda7d40f2dbb8b9ae2e993258f687f91681f157c Merge branch into tip/master: 'irq/drivers'
+368543f1d19aa5d7ec8ec0309e72129f0d8217ba Merge branch into tip/master: 'perf/core'
+9dfcbcda32003a541942dfbdcf4326912219bdc7 Merge branch into tip/master: 'sched/core'
+365ec6f3fd0bf96ed8e6c8d20c254be3d6e3d799 Merge branch into tip/master: 'timers/cleanups'
+3099a68fe2b4c233de285b06e391da424d9b8daa Merge branch into tip/master: 'timers/core'
+e9b65dc265e2894939effd5d3ecefc96c6bd9575 Merge branch into tip/master: 'x86/asm'
+890a7558f2f69aa4c59790d4a39d3bb6139e1081 Merge branch into tip/master: 'x86/core'
+79174a119ace97857e8df475fea358a15e5807d5 Merge branch into tip/master: 'x86/cpu'
+291888d65721d695f84258fe1cafc373b51ac774 Merge branch into tip/master: 'x86/fpu'
+961e1a20f171738926ea7382b3788a053ef9c383 Merge branch into tip/master: 'x86/microcode'
+5eaced72c8857ef350df9954688c1e8fcd718557 Merge branch into tip/master: 'x86/misc'
+
+--===============3188321494484304938==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-8c9e20424279-d5e608b7b081.txt
 
 a8c9a453387640dbe45761970f41301a6985e7fa ASoC: fsl_micfil: Enable default case in micfil_set_quality()
 fc016ef7da64fd473d73ee6c261ba1b0b47afe2b ASoC: Intel: sof_sdw: Add lookup of quirk using PCI subsystem ID
@@ -74,6 +98,7 @@ c5a9df928ec4d91e8ab7ab3b4c37012e79bc2a09 Merge tag 'asoc-fix-v6.14-rc2' of https
 6d1f86610f23b0bc334d6506a186f21a98f51392 ALSA: hda/conexant: Add quirk for HP ProBook 450 G4 mute LED
 e77aa4b2eaa7fb31b2a7a50214ecb946b2a8b0f6 ALSA: seq: Drop UMP events when no UMP-conversion is set
 6537cfb395f352782918d8ee7b7f10ba2cc3cbf2 Merge tag 'sound-6.14-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
-b6141b5f05f7a866daee60e1e0dcbfc4671ee259 Merge branch 'linus'
+c35d6b72aa07dbc29ff4e02e920cb04618745534 Merge branch into tip/master: 'irq/urgent'
+d5e608b7b081feaa442ec0322c6eb0cdc8661abc Merge branch into tip/master: 'perf/urgent'
 
---===============1094135232242480952==--
+--===============3188321494484304938==--
