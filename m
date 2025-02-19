@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Wed, 19 Feb 2025 13:32:20 -0000
-Message-Id: <173997194010.2773478.9205409129646150950@gitolite.kernel.org>
+Date: Wed, 19 Feb 2025 13:33:07 -0000
+Message-Id: <173997198783.2773908.9526379731539257514@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,11 +12,9 @@ repo: pub/scm/linux/kernel/git/jfern/linux
 user: jfern
 changes:
   - ref: refs/heads/rcu/next
-    old: 5a7a11f7612115be3f0fc65432ffc0b1d952db1f
-    new: ffd9c6fdb29c36373c88ce5c4c166b2573cb7e9f
+    old: ffd9c6fdb29c36373c88ce5c4c166b2573cb7e9f
+    new: 8a7fc4ca7b3b9c2b01bb84f6cd712d6e9725f54d
     log: |
-         902aa47501082f2f56f59727d15e971d6fecf724 srcu: Use rcu_seq_done_exact() for polling API
-         23a7efe4cd3c1192c32a59bc5f1d1b3284cb3462 DEBUG: TREE03: Modify for PREEMPT_RT test configuration
-         c218690f0e478f40229d24327059ec377d9abfb8 TEST: force gpwraps
-         ffd9c6fdb29c36373c88ce5c4c166b2573cb7e9f MAINTAINERS: Update Joel's email address
+         be9033aaba241d3d06f0d046e7ddfab78f6016ab MAINTAINERS: Update Joel's email address
+         8a7fc4ca7b3b9c2b01bb84f6cd712d6e9725f54d TEST: force gpwraps
          
