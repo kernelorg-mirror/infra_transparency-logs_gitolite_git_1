@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Wed, 19 Feb 2025 05:54:44 -0000
-Message-Id: <173994448473.2392076.15221106010863004703@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
+Date: Wed, 19 Feb 2025 06:00:09 -0000
+Message-Id: <173994480977.2398171.11763060735283190139@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/fs/xfs/xfstests-dev
+user: zlang
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: 0322f3e89b4eb32702321687a7636ee5290fe255
-    new: f2d32942026c05acc49d5f445dd38931419967aa
+  - ref: refs/heads/patches-in-queue
+    old: aa19116899cda436a70262d0cf7ed27b3c44f49a
+    new: 3acaf62e2c1de31c8afff23a189a88b9a41a3495
     log: |
-         f2d32942026c05acc49d5f445dd38931419967aa cpufreq: enable 1200Mhz clock speed for armada-37xx
+         3acaf62e2c1de31c8afff23a189a88b9a41a3495 fstests: btrfs/226: fill in missing comments changes
          
