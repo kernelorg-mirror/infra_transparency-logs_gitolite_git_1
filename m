@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 19 Feb 2025 02:01:14 -0000
-Message-Id: <173993047467.2207078.10269255359880231779@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 19 Feb 2025 02:06:06 -0000
+Message-Id: <173993076617.2211198.13100242005859069074@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 8af2136e77989a64fae0284bf76fd584e32edd3a
-    new: d5b595d3aec21576d6a7dad0bc008b29b1ad5d8e
+    old: f5da7c45188eea71394bf445655cae2df88a7788
+    new: 2f56be7f52ece7fc8c16a58ca9683f0a73e288e1
     log: |
-         c900e49d58eb32b192b6d200ace4ae3ab89779d4 net: xilinx: axienet: Implement BQL
-         75696dd0fd721f2148e7fabe8d544600f176bc13 net: cadence: macb: Convert to get_stats64
-         f6af690a295a106cca1849be6de5bf2d41ead8a8 net: cadence: macb: Report standard stats
-         d5b595d3aec21576d6a7dad0bc008b29b1ad5d8e Merge branch 'net-cadence-macb-modernize-statistics-reporting'
+         415cadd505464d9a11ff5e0f6e0329c127849da5 gve: set xdp redirect target only when it is available
+         2f56be7f52ece7fc8c16a58ca9683f0a73e288e1 MAINTAINERS: trim the GVE entry
          
