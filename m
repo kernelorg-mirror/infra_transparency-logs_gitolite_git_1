@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5222641926241367756=="
+Content-Type: multipart/mixed; boundary="===============7365089013977372351=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 19 Feb 2025 16:25:43 -0000
-Message-Id: <173998234387.2924680.8789995725734846393@gitolite.kernel.org>
+Date: Wed, 19 Feb 2025 16:25:51 -0000
+Message-Id: <173998235174.2924919.6393991977897868214@gitolite.kernel.org>
 
---===============5222641926241367756==
+--===============7365089013977372351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 348f968b89bfeec0bb53dd82dba58b94d97fbd34
-    new: a92c3228766429fe175ecc815f895043ea505587
-    log: revlist-348f968b89bf-a92c32287664.txt
+  - ref: refs/heads/dev-queue
+    old: 4e783332257eb35229a08fe8e9c6252d63101fac
+    new: 742e927b5934c5fdc56c674cf406a526d86e3989
+    log: revlist-4e783332257e-742e927b5934.txt
 
---===============5222641926241367756==
+--===============7365089013977372351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-348f968b89bf-a92c32287664.txt
+Content-Disposition: attachment; filename=revlist-4e783332257e-742e927b5934.txt
 
 054e61bb1de4fa02d148344152007facbcb28583 gve: Update MAINTAINERS
 0d1fac6d26aff5df21bb4ec980d9b7a11c410b96 net: wwan: mhi_wwan_mbim: Silence sequence number glitch errors
@@ -48,5 +48,16 @@ e57a6320215c3967f51ab0edeff87db2095440e4 net: Add net_passive_inc() and net_pass
 65161fb544aada499c912b6010a8f7d8e04f6130 net: Fix dev_net(dev) race in unregister_netdevice_notifier_dev_net().
 d4c6bfc83936cb61fac99e9891c406fbdd40f964 dev: Use rtnl_net_dev_lock() in unregister_netdev().
 a92c3228766429fe175ecc815f895043ea505587 Merge branch 'net-fix-race-of-rtnl_net_lock-dev_net-dev'
+8f8b0e9ee3bf4e258ef41c4f12cd522550db3c10 dmaengine: tegra210-adma: Fix build error due to 64-by-32 division
+ae071d0915440046a5ade3356ec0ff159a82b314 coccinelle: misc: secs_to_jiffies script: Create dummy report
+b579740625991874fa5e607aeb3a925ef40261ee ice: do not configure destination override for switchdev
+6a384bae4f9c29da2aaae1c4dbc7171e18075d65 ice: Fix switchdev slow-path in LAG
+836fae5d44f494de6436c1e1b43606b4bdef46ab idpf: synchronize pending IRQs after disable
+367cceb44ac53332d71ad175c382d6ef97c7fc23 ice: fix memory leak in aRFS after reset
+5139b68113b7eae9a93b59f99e81d76dca2dbe84 ixgbe: fix media cage present detection for E610 device
+805d7d5f23879f8b15710c13959a60c83b5ba436 ice: health.c: fix compilation on gcc 7.5
+0a9c876edffb794a7aa05562f0a85a9b207c1a86 ice: Fix deinitializing VF in error path
+d7939cdfdcd178eb3f3c4f75889162eeb1203536 ice: Avoid setting default Rx VSI twice in switchdev setup
+742e927b5934c5fdc56c674cf406a526d86e3989 iavf: fix circular lock dependency with netdev_lock
 
---===============5222641926241367756==--
+--===============7365089013977372351==--
