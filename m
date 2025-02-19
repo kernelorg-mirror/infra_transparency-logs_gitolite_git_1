@@ -1,58 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============3201200251147203703=="
+Content-Type: multipart/mixed; boundary="===============8175543477841713382=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Wed, 19 Feb 2025 11:08:21 -0000
-Message-Id: <173996330116.2651717.8183319561238228407@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
+Date: Wed, 19 Feb 2025 11:18:48 -0000
+Message-Id: <173996392818.2660203.14378961332401630600@gitolite.kernel.org>
 
---===============3201200251147203703==
+--===============8175543477841713382==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/samsung
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/mkl/linux-can-next
+user: mkl
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next
-    old: 2014c95afecee3e76ca4a56956a936e23283f05b
-    new: 574d0f2120b8e7e6a218d81267f4b543d586df11
+  - ref: refs/heads/main
+    old: 32f08b22f3b88b7ba43fa8f4090dfd9575343256
+    new: d9e1cc087a55286fe028e0f078159b30d7da90bd
     log: |
-         aced1f7b82b1594189be98ba7c51d0a60a4a279e dt-bindings: pinctrl: samsung: add exynos2200-wakeup-eint compatible
-         bbdb937962f2261355e48965b631742d12629451 dt-bindings: pinctrl: samsung: add exynos2200 compatible
-         574d0f2120b8e7e6a218d81267f4b543d586df11 pinctrl: samsung: add exynos2200 SoC pinctrl configuration
+         d9e1cc087a55286fe028e0f078159b30d7da90bd can: rockchip_canfd: rkcanfd_chip_fifo_setup(): remove duplicated setup of RX FIFO
+         
+  - ref: refs/heads/master
+    old: 32f08b22f3b88b7ba43fa8f4090dfd9575343256
+    new: d9e1cc087a55286fe028e0f078159b30d7da90bd
+    log: |
+         d9e1cc087a55286fe028e0f078159b30d7da90bd can: rockchip_canfd: rkcanfd_chip_fifo_setup(): remove duplicated setup of RX FIFO
          
 
---===============3201200251147203703==
+--===============8175543477841713382==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1739963329 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
-nonce 1739963299-838e35f03bc71710b8bbe887c0a486189d6bac1c
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1739963953 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
+nonce 1739963923-1f1fbd1d4aacc2afe32986a406b57e995555aa30
 
-2014c95afecee3e76ca4a56956a936e23283f05b 574d0f2120b8e7e6a218d81267f4b543d586df11 refs/heads/for-next
+32f08b22f3b88b7ba43fa8f4090dfd9575343256 d9e1cc087a55286fe028e0f078159b30d7da90bd refs/heads/main
+32f08b22f3b88b7ba43fa8f4090dfd9575343256 d9e1cc087a55286fe028e0f078159b30d7da90bd refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAme1u8EQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD10djD/wM8m/2EZADFUl9uO/AeIv02gnZxulE0V0l
-WWFvQP5cIWckP+9UAu4SGuOmfFV86BPM24oLpDMpP4I9dw7PKNgqCSKJY+VJ0SbT
-usOZZDojSQVx0g1vSnNz0mngjBLChY5GPOW6+bt+jy4rJFMF5aQJICJl8zAD4V/q
-D4u0mQgfaMAGgWjf0icEzDkZJtUGRJ2o5sTyHu73JpvHlkhUQvBCT++fWU9zQPGB
-d4+v1xjF+ikgHlHE8I+Egnf3KIYTUACLaxRXKqxxSG7CJzTeHjvc7reURd/aHNlc
-jpIFI1QwwT0iGG1AL+vY35F/hTgWtyN+NIxSYooTl4smyE1V2YDJFKJaf2rSNp9f
-sOp/hDU+jmDnqTVU1YwqaDgpYbxvij0UTOtKflKsKph/dYKg1t5KwqSwIvqLj3Rb
-VaoSxubacz39A633VWIgo8dZZMa7IzQ4rWR/2x2/c5HEd6mnZcplv2okohUi0C9n
-V3+Q95yZz3iR7DOr2soaFnPrHImRBxMqqs+ojRg2afbCQHiGicf94kNo9YnKwvdL
-EkIEWj4UlQzTZQtY1TOEOm1esYPxx6IZ+AKKG7eTKBNPq45GLCgWf8IPG3nX6Pyq
-9u1PKFg6o9XcZibuC7clrSRcE0lq3ejSamXFZFnd6jGsjCAvvkYOhoSJgDDOgBTf
-mp9sJGnvSg==
-=xcr6
+iQFHBAABCgAxFiEEn/sM2K9nqF/8FWzzDHRl3/mQkZwFAme1vjETHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRAMdGXf+ZCRnG9hB/92BGJ6606CIlkJx5n0ezSfnOOCnTaM
+46E4FNIkfwriXeTbotdAyW+XV6bOb45Q5VLtYBcFMGkmi9KwCV4mNTgd54I4gAUN
+iTyDE8hYPD7mWJN+NyIsOrematqrRZwgrli/qrpBBy39NRiCfHz9a1WR80tdNGqX
+XMag/g+/mOGwhahA9F0+JIsgJ7dpesOIQMmL8cjjw7NCLnS4s2Nz4Pvr2Imu8oUP
+AZcYwDd+DkOJSldo4QWLO+nsCa+yz9daDMHYqe6WCbOzKtaLx+ugdQZI31E7R/71
+7wJMnpiT3ZLenYrp++i9IJOPZqHO3aFV++35A4ZEi85w2jyxBuFlH+8d
+=ebwg
 -----END PGP SIGNATURE-----
 
---===============3201200251147203703==--
+--===============8175543477841713382==--
