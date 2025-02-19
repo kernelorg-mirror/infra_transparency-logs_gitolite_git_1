@@ -1,23 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 19 Feb 2025 21:11:16 -0000
-Message-Id: <173999947682.3161343.16651367391934910303@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Wed, 19 Feb 2025 21:34:06 -0000
+Message-Id: <174000084696.3178212.1589997275499781443@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/master
-    old: ce5fc26a57ac4ee2d1e1463a41d1bee38376fa4b
-    new: fc1c7f8d403883003c65b0af61b411ff527548f8
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 29bab85418efd329c1a984fc9b885b6709481b27
+    new: 6353255e7cfab568058580424fa0967bf4504fe5
     log: |
-         60afd111702bccf48866749147d1a36df6cc3826 foo
-         04e1fadceabab1c49b018aeeee2df8d730e9db68 foo
-         4db1e6ad18c49d34a9d199135c9bd010dfdb2862 foo
-         6c9914e62011f2d068e5046b7dde4438d412d521 foo
-         fc1c7f8d403883003c65b0af61b411ff527548f8 foo
+         2ed0e3ea8aac156b43e9c6a452d751723785fc4b perf vendor events arm64: Fix incorrect CPU_CYCLE in metrics expr
+         687b8c3938af61230bc954f5ecf349d3a449b12a perf list: Also append PMU name in verbose mode
+         0cced76a0276610e86e8b187c09f0e9ef85b9299 perf tools: Fix up some comments and code to properly use the event_source bus
+         43c2b6139b188d8a756130147f7efd5ddf99f88d perf report: Switch data file correctly in TUI
+         acda4c200185f55f10023bd9fcbf97915cc0fa0a perf report: Support switching data w/ and w/o callchains
+         6353255e7cfab568058580424fa0967bf4504fe5 perf report: Fix input reload/switch with symbol sort key
          
