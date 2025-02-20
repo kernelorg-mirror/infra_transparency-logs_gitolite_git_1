@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2277290931129935553=="
+Content-Type: multipart/mixed; boundary="===============1531665885633405889=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Thu, 20 Feb 2025 10:25:03 -0000
-Message-Id: <174004710397.3816141.14587523881951782441@gitolite.kernel.org>
+Date: Thu, 20 Feb 2025 10:25:49 -0000
+Message-Id: <174004714934.3816665.15981508178030280364@gitolite.kernel.org>
 
---===============2277290931129935553==
+--===============1531665885633405889==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: bedc7002f7978bb516aa36da41a22ab92166917f
-    new: 1cddb72bf892812407cc30f0d8eb47dac73d6de4
+    old: 1cddb72bf892812407cc30f0d8eb47dac73d6de4
+    new: 20a351c36afc7d72956b57bdefbc79858f18923d
     log: |
-         1cddb72bf892812407cc30f0d8eb47dac73d6de4 staging: sm750fb: fix checkpatch warning architecture specific defines should be avoided
+         82e3508046f9bce75e14b6cab5805e52f27f5405 staging: gpib: cb7210 console messaging cleanup
+         0de51244e7b7e3ea97f9da68318fbc9e7e16f6a5 staging: gpib: ines console messaging cleanup
+         20a351c36afc7d72956b57bdefbc79858f18923d staging: gpib: tnt4882 console messaging cleanup
          
 
---===============2277290931129935553==
+--===============1531665885633405889==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1740047132 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1740047177 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1740047101-2f9c99235384c2f4a381bc09bc0904bc83d0475b
+nonce 1740047146-8d3149eb4dad5f99e1a03f0876d2a13a0a0440d1
 
-bedc7002f7978bb516aa36da41a22ab92166917f 1cddb72bf892812407cc30f0d8eb47dac73d6de4 refs/heads/staging-testing
+1cddb72bf892812407cc30f0d8eb47dac73d6de4 20a351c36afc7d72956b57bdefbc79858f18923d refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAme3AxwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FeEQANWCalaeFMfFAzNY56uX
-iETVUm/vdgepegXXeo8UGEDL1wKz0TLwvaToRyMxzOIin2YIv9d93yMKXHS1w+UP
-CDy5RGBPpdFKRjF4K7Q01LODh3oCE97k/wSttyFd8in+EfSUjAXz/G5KI3yUeA5M
-km4Mg966qnYx+D4lxXMzH2tfoyT7T6DHMWmW1b+2S22+nINhQjzYuGwXq3K6kt+Y
-fMWN1WmWRsiYWCe8gSo+WkOkfWaACJL7LFiMJcWHbZjQ9Dw28flxqb+OvGzVSUkM
-JaJPL9GujziSK3XrLYI+O9UDoqncZuaAT7VUgoUI4BRrj/nigEaHibhksLWA4Z9E
-RKbnx5Dsp3PX4lZVk1hfmB/KQoSZjEgS0K6QX1ykctQ/dTy7SnYdUCDJV7ax0XWH
-0XI+zDhqZqDSnaH2SlHJMwWmsxVE2Ico/01S4Z0enIOmshoACg+IWWQjFaX8bj2T
-6z5mtOBSklcLA0/gDIW7ewu0ND554FvRMQA12KU8el4dWNXyVkQveemVWBoqGwmH
-liTZ2iUwiqfWiHCA9FkiRUnrWUyCJlvRUCzBfANnUbsXNktub5peNou5JBAB65we
-6N4Hm0+F+zatO2XDtVhBz1wZwqhMYDMFiUfg6Mk7U7d6E4WXZVKbMX6WeW4lcjlZ
-Uoq/Gk5ilf+hZ9bOS20ZZKca
-=hpOR
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAme3A0kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+r7AQAIukANxkpjzzm+0Zszj7
+EdFuWkhM5CXNX7scC2ElL2kpTCmfhPBoNeuO2hTYXUjqoPhi3iYPnqqFk91c4LI3
+SMPRi3VqIG5L65np3mA4aaACY/HoLAyOUepX/+dq2u6jOZwWgHCrkzbuyuSf8AlV
+EnEJwz+eDYJ3PwUEm8IHbz+WTsGksHBRc82QyuWDzPEQrRkF9navQTnd1V7hiZur
+YGcd7FMIJQqwXxvi0w714nuK6ZggPsnN2HR5TGK66aTkdTj/whq5QJLH4Ci+DUGo
+LFFIS5C7PZbOkrBjhZkSPoeApIsOeWsnDn4kyacq67klaaQV2iitBwlKuV3tUvXe
+w7UrmQzP2+YV4YWqIjlpeZS0y9ddEXP234raYr0YamR2IQUFAwjS/3/RNCJ9Ij6+
+A2WKUshWG9taquS0uO/fwHYxXTKQwEn2Kjz3orTlCFgxW4tPEr7KpbeHG48kxjcw
+I1SwMW4gRDwAswsRGVf1c5hPEk+XOBWnDdg5Cdm8vOA5dcC/wgQlK/QsicppVJw4
+1/sEDZtIhXwsvS/WAJnjJuJTjPJQEBP+QQELBt7Sjy1m7AH6rC9tCVqSNdi7BQsj
+mC50zGWCvntNkgOvBtT5CWqZfi44IjjU5jQStixt0JZ7Gtgt39bKu+6BhGSNafZB
+bPUQhbhW5O+2kqmsEStZaBfv
+=mgi1
 -----END PGP SIGNATURE-----
 
---===============2277290931129935553==--
+--===============1531665885633405889==--
