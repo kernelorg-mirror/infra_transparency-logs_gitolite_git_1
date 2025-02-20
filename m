@@ -1,51 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============4924665966929340713=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 20 Feb 2025 22:20:09 -0000
-Message-Id: <174009000950.230954.17027895246955263615@gitolite.kernel.org>
-
---===============4924665966929340713==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 20 Feb 2025 22:20:19 -0000
+Message-Id: <174009001971.231314.16669811013634500519@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.15
-    old: d1a09c610027e446ed30c21f61c2f2443bf92a3f
-    new: f3bfa0f07976a7996b6dedba21d2e0d164f08ce8
+  - ref: refs/heads/for-next
+    old: af32ee82a676f89cdfadb6e02c00b8b219c33bfb
+    new: ccf62ac683c20af0914978ff6f52260e8cac7029
     log: |
-         cb15abd47806b449e853caf43f41573c4c82fed3 spi: s3c64xx: extend description of compatible's fifo_depth
-         f3bfa0f07976a7996b6dedba21d2e0d164f08ce8 spi: dt-bindings: Convert Freescale SPI bindings to YAML
+         2e2f89b184644f0e29f1ec0b4dcfd0361d2635cb firmware: cs_dsp: test_bin_error: Use same test cases for adsp2 and Halo Core
+         42ae6e2559e63c2d4096b698cd47aaeb974436df firmware: cs_dsp: test_control_parse: null-terminate test strings
+         64899904d6103500ad01be7b763298dc939285ae ASoC: soc-core: Use str_yes_no() in snd_soc_close_delayed_work()
+         b47834ee4485bbdcc6d36f086ff61c3efd8870d4 ASoC: SOF: amd: Add depends on CPU_SUP_AMD
+         ccf62ac683c20af0914978ff6f52260e8cac7029 Merge remote-tracking branch 'asoc/for-6.15' into asoc-next
          
-
---===============4924665966929340713==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1740090038 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1740090007-a989722451e3fa5fcee0d6054bd613fdd0744029
-
-d1a09c610027e446ed30c21f61c2f2443bf92a3f f3bfa0f07976a7996b6dedba21d2e0d164f08ce8 refs/heads/spi-6.15
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAme3qrYTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0NoAB/9uo4x/G0S8/C8jKDzPGk9jkmBYZDXx
-VxATAx/xWHG+vaUzeE0B1ulIfmyhKxybTYwMB6HnnyNBhJh0HEogA6e5AUKCDBlH
-o3Eu6Zy4FQzZEgpmD1RlK1KTmOYGVzv+80n/irzE4/Kmxz56Pop1tRYFJ3LvW3Et
-ZgDFXVW4nfyREC/p1LgijXwY+Vz1vEkolGHJIJhr53a241K5sd9YBK0JKP6VeF1F
-VE1VMbAGivpcp+B+kU7ZrjrHvXKhTh/WRIQDPTyAgU9hcs92rEQtTFk7nYjNniID
-aGDGjYE1kJEZRGxISKyBYGmFKVcnsqzhyuaNGXCw1QSMqpDlbEUW4Gf9
-=YyVM
------END PGP SIGNATURE-----
-
---===============4924665966929340713==--
