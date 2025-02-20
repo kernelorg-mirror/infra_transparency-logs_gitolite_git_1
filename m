@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5475221167005168953=="
+Content-Type: multipart/mixed; boundary="===============3474335494064583522=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
-Date: Thu, 20 Feb 2025 15:44:52 -0000
-Message-Id: <174006629232.4092635.4146674741033139524@gitolite.kernel.org>
+Date: Thu, 20 Feb 2025 15:45:11 -0000
+Message-Id: <174006631104.4094372.1596239573367144889@gitolite.kernel.org>
 
---===============5475221167005168953==
+--===============3474335494064583522==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mnyman/xhci
 user: mnyman
 changes:
-  - ref: refs/heads/for-usb-next
-    old: bfa1c34652f6ffa428c2e80911d74251c47f976a
-    new: 72c2a40a4d7945bc5cbb43a4f85b9b72900583f7
-    log: revlist-bfa1c34652f6-72c2a40a4d79.txt
+  - ref: refs/heads/for-usb-linus
+    old: fd50bbc44689875c28072f0bf1dff90695b14244
+    new: 3521dd93edf6317661382b043bd7728cd47f73f3
+    log: revlist-fd50bbc44689-3521dd93edf6.txt
 
---===============5475221167005168953==
+--===============3474335494064583522==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bfa1c34652f6-72c2a40a4d79.txt
+Content-Disposition: attachment; filename=revlist-fd50bbc44689-3521dd93edf6.txt
 
 3c47c2ccd5a29c78780ccfd0227a805f3873ab1c nvmet: fix rw control endian access
 d68fc95a771e0a7edd876ede7913d61276be77fd nvme-pci: remove redundant dma frees in hmb
@@ -694,16 +694,6 @@ ba643b6d84409e8a9057d5bdd6dd99255b1a88fe Merge tag 'irq_urgent_for_v6.14_rc3' of
 ae5fa8ce7ef230be50ed63d16883bada29990293 Merge tag 'driver-core-6.14-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 224e74511041c2d33dcf24adf54d447eb72399c8 Merge tag 'kbuild-fixes-v6.14-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 0ad2507d5d93f39619fc42372c347d6006b64319 Linux 6.14-rc3
-95176a870a63668fb55345ac90a477599800d89b xhci: show correct U1 and U2 timeout values in debug messages
-ee7dab196a7dfc48a1608274329323cb10b4340d usb: xhci: remove redundant update_ring_for_set_deq_completion() function
-e9ff52d0d3ab37e4480835c125e7257340d4d33b usb: xhci: Complete 'error mid TD' transfers when handling Missed Service
-72958022e37daec7e6d47a9c57f4908f9894bd50 usb: xhci: Clean up the TD skipping loop
-df1d1a23cb1b231e2b07d8a3a4f0e564ca18d481 usb: xhci: Fix isochronous Ring Underrun/Overrun event handling
-fb17611f04a6231cbe4baccf20d3cfbc8e8e1c49 usb: xhci: Expedite skipping missed isoch TDs on modern HCs
-1fb2351459f383883a046973fba5978bc129581b usb: xhci: Skip only one TD on Ring Underrun/Overrun
-4d1c2ef8496c40661266aa75bb92feaf4e88da38 xhci: Add helper to find trb from its dma address
-5e8a39fc0ced055e70d80fbfdcba6429555673c8 usb: xhci: correct debug message page size calculation
-dfaad03d0cdc12b9ea3acb9436369e16095ab18f usb: xhci: set page size to the xHCI-supported size
-72c2a40a4d7945bc5cbb43a4f85b9b72900583f7 xhci: Prevent early endpoint restart when handling STALL errors.
+3521dd93edf6317661382b043bd7728cd47f73f3 usb: xhci: Enable the TRB overfetch quirk on VIA VL805
 
---===============5475221167005168953==--
+--===============3474335494064583522==--
