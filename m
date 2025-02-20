@@ -1,27 +1,62 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 20 Feb 2025 14:21:21 -0000
-Message-Id: <174006128124.4017483.17875024257628441211@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4020461115697484898=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Thu, 20 Feb 2025 14:21:23 -0000
+Message-Id: <174006128390.4017557.12013163718811284756@gitolite.kernel.org>
+
+--===============4020461115697484898==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/irq/drivers
-    old: 46b9ba2ac09003d0a09f2f730b64cae03af29041
-    new: 896f8e436f9951fa9ef68dab0a3d399ec3a6e1d7
+  - ref: refs/heads/char-misc-linus
+    old: 49114ff05770264ae233f50023fc64a719a9dcf9
+    new: 6d991f569c5ef6eaeadf1238df2c36e3975233ad
     log: |
-         1c000dcaad2bef20189f3868207f515ef4b637ee irqchip/irq-msi-lib: Optionally set default irq_eoi()/irq_ack()
-         fe35ecee8ec8d42b1d24ed70e5b33192294bcef0 irqchip/riscv-imsic: Move to common MSI library
-         751dc837dabd275d0ab165fc737c10f80e2e863a genirq: Introduce common irq_force_complete_move() implementation
-         e54b1b5e89ae765e6d71d41883a8f551fde8d0ab genirq: Introduce irq_can_move_in_process_context()
-         58d868b67a9ac0db477f714939f21849db5f5178 RISC-V: Select CONFIG_GENERIC_PENDING_IRQ
-         0f67911e821c67ecfccc365a2103ce276a9a56fe irqchip/riscv-imsic: Separate next and previous pointers in IMSIC vector
-         51611130d57d2061729010bd0575701aa4b7ff74 irqchip/riscv-imsic: Implement irq_force_complete_move() for IMSIC
-         0bd55080ba9e3c16719f75006fd85b932c85f2f4 irqchip/riscv-imsic: Avoid interrupt translation in interrupt handler
-         896f8e436f9951fa9ef68dab0a3d399ec3a6e1d7 irqchip/riscv-imsic: Special handling for non-atomic device MSI update
+         91d44c1afc61a2fec37a9c7a3485368309391e0b cdx: Fix possible UAF error in driver_override_show()
+         c99e1e1d0850ff157f1bc16871acd2dff5a9bcc3 vbox: add HAS_IOPORT dependency
+         dcb0d43ba8eb9517e70b1a0e4b0ae0ab657a0e5a slimbus: messaging: Free transaction ID in delayed interrupt scenario
+         e77aff5528a183462714f750e45add6cc71e276a binderfs: fix use-after-free in binder_devices
+         819cec1dc47cdeac8f5dd6ba81c1dbee2a68c3bb drivers: virt: acrn: hsm: Use kzalloc to avoid info leak in pmcmd_ioctl
+         038ef0754aae76f79b147b8867f9250e6a976872 eeprom: digsy_mtc: Make GPIO lookup table match the device
+         6d991f569c5ef6eaeadf1238df2c36e3975233ad char: misc: deallocate static minor in error path
          
+
+--===============4020461115697484898==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1740061311 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1740061280-e63380fcce8fafec849b7fc63e06be798d4130c4
+
+49114ff05770264ae233f50023fc64a719a9dcf9 6d991f569c5ef6eaeadf1238df2c36e3975233ad refs/heads/char-misc-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAme3On8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BJ0P/2bPC9j5pFlG5sPtVMTo
+GhXPv2r/PQMBJlo3AZZ8uuEsUkRD9BeeK1tXgGUPDISMriFdqz72HlajlOB4gsqZ
+DfJ9l6B4MZsKCmDrkorPth6d+GgJJwCLPF5hOOHgSc/DTjLCsVkiK4U6bwnT6a9u
+xUeV/hPTfX+WFMeqL789yn2FuRU+sBukjf0JmaqbZFR9mnHWt7EFBHcCWjhYepip
+AMLlqNdiaGTKFH+WUyda4h6yNLk2xAjEnHiL/3koUKxwt6t7E5XjZgJLo+0OmPtZ
+takBuflW4/s4+CsymRW0ruAUcj62s0dfCtNcG04CxpuUY940vncaXmqbKtzh4jF2
+bNY+NpPQEyN2BjrzcTzOV//qPNNYrdc3hSfcdtmNLCVP5P0JTfbu4gJSCklgCH8N
+hDGn11sPwPKooCpSfWzSeNCz91682ra9ApStqHIzEBpBRfsk2zcXte2yTpmp487+
+Vkkn+zPIbgMYT5U5yqqI/+EVo9FeNox6ooYGU+ZGUe+GRRLz5vh4e9Vpxhy4qoB9
+g8/q9TiIM6L/HFskNahwXxBnr/fPuj6lEs/tw1RMOoa/6Hw3T9D+x6p5PwGGYgfa
+4aAZPUnPJV/xuiVvnuuLsP4DzlTf/v8z2cPEmoMCLy7CgpKqGMdl9gwC4IJ9zAaS
+TymKQkCK/cpnlSkhOY4bK/5O
+=tEFK
+-----END PGP SIGNATURE-----
+
+--===============4020461115697484898==--
