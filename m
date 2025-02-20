@@ -1,28 +1,48 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Thu, 20 Feb 2025 11:16:58 -0000
-Message-Id: <174005021879.3861036.4830189815991444315@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7595863458413592920=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Thu, 20 Feb 2025 11:18:07 -0000
+Message-Id: <174005028712.3861652.6271396980090649126@gitolite.kernel.org>
+
+--===============7595863458413592920==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/heads/x86/fineibt-bhi2
-    old: 004096cfc8433b1f78dbea60c4340613dc5684a2
-    new: 72dcbaf7ccba99c82886dc0c574fb7fabd391f36
-    log: |
-         d662b12549f3ea7eb174c17de2bbf95ad4994b24 x86/cfi: Add 'warn' option
-         6e2d24ee0f109d6104e69c50e851473be5312a80 x86/ibt: Add exact_endbr() helper
-         2397ea124cf21a2567f48989755b03d0986bb525 x86/traps: Decode 0xEA #UD
-         a8d956631648aa99a0a68d01a7c708c25842ad34 x86/traps: Allow custom fixups in handle_bug()
-         1b0077bc70128bb859a9e52148cb3bea4aec807c x86/ibt: Optimize FineIBT sequence
-         38b5d15359b3404df8e23f17c2327395a234d01d x86/traps: Decode LOCK Jcc.d8 #UD
-         745211992037278df5246e0a5b9cc9a1dc38c101 x86/ibt: Add paranoid FineIBT mode
-         960cc59bab2884b26f509e04b1758e2e9d4c075e x86: BHI stubs
-         6acba385761a3c75f986dc1e6c0b7f8504557bcb x86/ibt: Implement FineIBT-BHI mitigation
-         72dcbaf7ccba99c82886dc0c574fb7fabd391f36 x86/ibt: Optimize fineibt-bhi arity 1 case
-         
+  - ref: refs/heads/rust/cpufreq-dt
+    old: cf30c653dafd0072f25b3c19a2ae2cbb8e126b96
+    new: a7a311af806f948ba0ae295adbb12139a1c27b9d
+    log: revlist-cf30c653dafd-a7a311af806f.txt
+
+--===============7595863458413592920==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-cf30c653dafd-a7a311af806f.txt
+
+86f1a5dbc9db4b11477e55a30f3ad301b07b0793 rust: Add clk helpers
+1591ef77c2c83d99ae4d03dcac1409b10379da67 rust: Add basic bindings for clk framework
+d33598af9064e8a4d51f04266b43da0bc021ec40 rust: macros: enable use of hyphens in module names
+775df536499d0ff78b6ebd654ce6f04518f7e883 cpufreq: Use enum for cpufreq flags that use BIT()
+900c720f8201d2bd526ea017c2c97b2964531004 rust: cpu: Add from_cpu()
+11a56bb17ac8f3649fbf4fc810d96d92f9fca6f8 rust: Add cpumask helpers
+634f6bf69056abcca6da869b1026a91ea46606da rust: Add bindings for cpumask
+936f40f23c20c00ff4d7f73a63e8f1e54da5a60a rust: Add initial bindings for OPP framework
+38f93602a7d56d6ef066484756c7402c7c73d507 rust: Extend OPP bindings for the OPP table
+ca0a9fa65b2fe63fb2c0a6c5a411f836a49db4b6 rust: Extend OPP bindings for the configuration options
+9a5f8c8080b5506be3188219524359f00346e505 rust: Add initial bindings for cpufreq framework
+7e47f0c840b13e34a22b211baa6e03f8ce39e46c rust: Extend cpufreq bindings for policy and driver ops
+2167b6ce6a52e60cd3bd18b0b7c0069b2fcfe0c8 rust: Extend cpufreq bindings for driver registration
+199a58b804868b33ff6de6437ec0ea519312d090 rust: Extend OPP bindings with CPU frequency table
+e1fd7b7e356277591059bc671565d5a9081db5fb cpufreq: Add Rust based cpufreq-dt driver
+71b50c3d0bd032d367c08bae69ae3ac0c59cbbfa defconfig: Run saveconfig
+03ff72e84c60290af1c1332ab6c3162ff5ff19c3 defconfig: Enable Rust
+a7a311af806f948ba0ae295adbb12139a1c27b9d phy: freescale: fsl-samsung-hdmi: fix build error in fsl_samsung_hdmi_phy_configure_pll_lock_det
+
+--===============7595863458413592920==--
