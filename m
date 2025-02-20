@@ -1,62 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============8861551086575508783=="
+Content-Type: multipart/mixed; boundary="===============1582227621485894734=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 20 Feb 2025 14:43:46 -0000
-Message-Id: <174006262677.4037137.9100409281263854980@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Thu, 20 Feb 2025 14:43:51 -0000
+Message-Id: <174006263123.4037372.11173430363671486880@gitolite.kernel.org>
 
---===============8861551086575508783==
+--===============1582227621485894734==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/usb-testing
-    old: 0a86e49acfbb4f97ba86f05eb250f4c65c8bec0d
-    new: a3498305792632bc16f421c9da992b8947e379d3
-    log: |
-         7c3b237ae9d256ab6a1556e07a4e81c2a80b9a18 USB: chipidea: Switch to use hrtimer_setup()
-         b48e46a96c8af28466c3aa946cdb012ab954e0a6 usb: dwc2: Switch to use hrtimer_setup()
-         25a51eaac0aec5e316372dccc3deac847da3540b usb: fotg210-hcd: Switch to use hrtimer_setup()
-         72d8a10a6b47526f6f558db4b6c9b0c296dd56d9 usb: gadget: Switch to use hrtimer_setup()
-         e2de967b0900d95ebba0eb963854f7d8e8463f0e usb: ehci: Switch to use hrtimer_setup()
-         6990971b3e1e9dbfd86c8e249ed9a3fccdb867e2 usb: musb: cppi41: Switch to use hrtimer_setup()
-         a3498305792632bc16f421c9da992b8947e379d3 usb: typec: tcpm: Switch to use hrtimer_setup()
-         
+  - ref: refs/heads/kdevops
+    old: 146de4ff1677c2b403ae14bb223763a5cb3edf2d
+    new: 8b709fbd63f792e9d545867d9977b9bc6efc4a93
+    log: revlist-146de4ff1677-8b709fbd63f7.txt
 
---===============8861551086575508783==
+--===============1582227621485894734==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-146de4ff1677-8b709fbd63f7.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1740062654 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1740062624-9b24013b2566c23101820d908662c16ecac9bbbd
+c8a3e63ff9d75b9f3f031c90d218876051dea0ba procfs: fix a locking bug in a vmcore_add_device_dump() error path
+f4b78260fc678ccd7169f32dc9f3bfa3b93931c7 lib/iov_iter: fix import_iovec_ubuf iovec management
+63895d20d63b446f5049a963983489319c2ea3e2 mm/zswap: fix inconsistency when zswap_store_page() fails
+2ede647a6fde3e54a6bfda7cf01c716649655900 mm,madvise,hugetlb: check for 0-length range after end address adjustment
+639375b0aa4323fe59b5fe2a6ebc68b022c36f50 .mailmap: add entries for Jeff Johnson
+3219585e894c12cbffd4ac93d3e6783d236f146e mailmap: add entry for Feng Tang
+035d3c778709680288b3954ee896043132bc3f8d tools/mm: fix build warnings with musl-libc
+41cddf83d8b00f29fd105e7a0777366edc69a5cf mm/migrate_device: don't add folio to be freed to LRU in migrate_device_finalize()
+2272dbc471037b78f308b44351ab1b9f88d32628 getdelays: fix error format characters
+b016d0873777462e55af4c615104cc684fce086d taskstats: modify taskstats version
+f39edcf6349abb2ca2df96acc8645f4d2631d0a7 mm: pgtable: fix incorrect reclaim of non-empty PTE pages
+8648ee2622aefa5b567ebea71609822373995f37 mailmap: update Nick's entry
+99333229dee41b992f3b0493f6aa2e3528138384 memcg: avoid dead loop when setting memory.max
+6d7bc938adca9024a6b51cf55d9b0542b653b69c mm: hugetlb: avoid fallback for specific node allocation of 1G pages
+5dcf52e2ce0fe3c4516b1e494c1af6d3a69e30e7 selftests/mm: fix check for running THP tests
+4998a6fa2a31176d0882bdfa27d5d03b665ba19b MAINTAINERS: update Nick's contact info
+ac7af1f57acd1e1d112b36e036584ca4bc4c284a kasan: don't call find_vm_area() in a PREEMPT_RT kernel
+8344017aaf32a7532cff293eb3df7fd2265ebafd test_xarray: fix failure in check_pause when CONFIG_XARRAY_MULTI is not defined
+87a132e73910e8689902aed7f2fc229d6908383b Merge tag 'mm-hotfixes-stable-2025-02-19-17-49' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+e48a1ae1d0d6055d29a6843f39ad050e91e29ff2 Merge branch 'mrchuck/nfsd-next'
+e3f67a9ae57b20c989db67e57ff4f89a1161b1ef Merge branch 'mrchuck/nfsd-testing'
+b7e85fd7c8964e31f8fa1cf7333b12f442b642f1 Revert "nfsd: decrease cl_cb_inflight if fail to queue cb_work"
+40eb6e670c505ede58e1c12b3aa82b670452af05 nfsd: don't allow concurrent queueing of workqueue jobs
+c1a4447872a23c3774c1e507dea71fcdbba78a8b nfsd: prevent callback tasks running concurrently
+aa753c7710c42d0bf39c4526c99d3bba94887e93 nfsd: eliminate cl_ra_cblist and NFSD4_CLIENT_CB_RECALL_ANY
+1449de40c5231a51686ae3c80a9f5495c9518f00 nfsd: replace CB_GETATTR_BUSY with NFSD4_CALLBACK_RUNNING
+35e32e5364a3955845582e0a01a7eb001d99c89b nfsd: move cb_need_restart flag into cb_flags
+8b709fbd63f792e9d545867d9977b9bc6efc4a93 nfsd: handle errors from rpc_call_async()
 
-0a86e49acfbb4f97ba86f05eb250f4c65c8bec0d a3498305792632bc16f421c9da992b8947e379d3 refs/heads/usb-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAme3P74bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NXYP/0V4tC/vl5P8k7g6H4uC
-9Ph/o9Mrry/JLxfeiQfN0FaZrpLY7DD1RS290jgRV4ptcxR8U930gspq4JAlUACL
-Q+T5C2y+XA617azEppB7uxhqCkdltBIfWOBL0pPwyk6hBp3y/raV8LkRF8ggGwO4
-QRkKuMXYKwndT6+t1O2ksVLu41pdvIWq0qatrGz+81i4oc0HIb8hPYnRCMUYCjSs
-vRST9m3gPDi/W0er5aiKsatxHdcCbttSO5i7WeHZZ8nDRMycjD4lrExvLeGJnqZl
-z1/5taLL7SJdBY25XCreul7i63eyRSNvsggyRUY8vesLNzKK26PeGr+5KmI+kawz
-/Xuivl9lWvKHWepbjXuDOBn3bcsxAd2r1d0WHiCcRdMxl4UPLIl/BwzjswBJFgzr
-Jct7jPib23arrPVqbXd3v0pm6Hf2DYgpFRr2Lk0p1EQqlOg1uqLMSqybzut/rwV9
-+7ngnshfS0P1jlKG6TvOlPceXfr1Nw6BBgOeBfh/ZVwoHKPvpHMSuvtlkVBcAClG
-Puy2oxsyFc+kn3anrwPJt8Tz2HBxeliEDukSNbwSMrCKyCpCzcof+BJ3iJp2eKZ+
-7G6TeHaLLvEev/0CxUxxGBMPJRnPmYeJ3UWHGL9GZSidgHMqocTC9Iml67HStTh3
-ngO007D3pb/Uv/Q4bDjP3dIm
-=0lBf
------END PGP SIGNATURE-----
-
---===============8861551086575508783==--
+--===============1582227621485894734==--
