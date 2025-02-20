@@ -1,61 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2209399540594418202=="
+Content-Type: multipart/mixed; boundary="===============1109578022615971457=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 20 Feb 2025 14:35:48 -0000
-Message-Id: <174006214844.4031076.5571225346465199049@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Thu, 20 Feb 2025 14:37:47 -0000
+Message-Id: <174006226786.4032203.8991890834459456148@gitolite.kernel.org>
 
---===============2209399540594418202==
+--===============1109578022615971457==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 6aa9826330539abcfd3435de93b45cb506e7b86d
-    new: 606a07ca933ecc80f35c675162fd3326623ce837
+  - ref: refs/heads/tty-testing
+    old: 1bd2aad57da95f7f2d2bb52f7ad15c0f4993a685
+    new: a2d1afe65a152e8e581b48cebb1517e6bdf09d04
     log: |
-         b416cf58ac37dd0edeed13e2160464f7217258bd pps: generators: pps_gen_parport: Switch to use hrtimer_setup()
-         fa811197c8b4f080de8b7f7fe9fb70dc0cf558e5 misc: vcpu_stall_detector: Switch to use hrtimer_setup()
-         04163b680d50c729a96ed81c279e9587d6aead9b pps: generators: replace copy of pps-gen info struct with const pointer
-         dc66006ea0b1324011838e9abbd02688e2366876 pps: generators: Add PPS Generator TIO Driver
-         2240d5d4b5950cf3011e3c7603f0a4a98ada2dd2 Documentation: driver-api: pps: Add Intel Timed I/O PPS generator
-         606a07ca933ecc80f35c675162fd3326623ce837 ABI: pps: Add ABI documentation for Intel TIO
+         a2d1afe65a152e8e581b48cebb1517e6bdf09d04 serial: xilinx_uartps: Use helper function hrtimer_update_function()
          
 
---===============2209399540594418202==
+--===============1109578022615971457==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1740062174 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1740062144-56874ba8acac0a780896930fbd17acb71d883c4b
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1740062295 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1740062265-5e35ae5246aca3582593804aca64bd2a23b802f3
 
-6aa9826330539abcfd3435de93b45cb506e7b86d 606a07ca933ecc80f35c675162fd3326623ce837 refs/heads/char-misc-testing
+1bd2aad57da95f7f2d2bb52f7ad15c0f4993a685 a2d1afe65a152e8e581b48cebb1517e6bdf09d04 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAme3Pd8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lcgQALeXFA5Bn4AMltrFReol
-j9MqbCZsst/iH+mOGNKUjAIiYAM/Z9+IgAjOqJG90cyKFMsJ07ovvS8C49Beufvc
-xB5yi2wg1R86MGmN7V7QfC+fWS371Zy0h+213vLoA4dKMpX+WwJeeiZoSD4OKRGq
-h/uO/rjp3VKPk/cT3xRs9xTOakjz6TwlrjheXMLQc+wEXPSbhymO4nsc6jejSkDu
-n1IGUlLfODY4pi3ECz360wsQ+NtWKv0R3Fftaa4TpINsjsMyhPlje+V7sgcvgIrI
-EDb2HKyQxjqQ2BVboDhsl+igGa6OpDkCzl40HiOj1ommjyc5DYjc0pXTyS0y0kn2
-jKYJpvP14o31WJPurgQdpeiRlfYqE9qhMCI8PWnDkZq7kfHexsA3h/e8oD2KJ4Q4
-fVDhsiVFFfY5S/TsSzhMK4wz0Z3nqGNMljeTeYIB36IJxlhmpkirsyu/+9NMKhzW
-MCMyRdL2fGGy1wAnGlp42HJ/MOLA0KHjKoWRr9zHrCKqGzOrnW0JDcthizYBaQ4H
-ynOqm8DjIMeaVbOesejKOL/nwDLSQZmue5DHLHqQ6AZ/lUuXs8LGEU3MshTWb26l
-Tz2MDJPoKuc4jgIxqbMYwL1nHUtebphta0inBkAw9Q/C8duF2Jjlbww0yKqeETXv
-vjoT3Ms4s1kelEEi/txMTTls
-=Ke/b
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAme3PlgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DucQAKDsElvCkbbIWgBJJNbO
+vtZ5L0oBIf92z1bBw20Kl2/VCuy9PeF0CEea0GLdownPfJfPvS7X1UYzNITFzABf
+oTT5B102fm2nxSINcD6BDn/qJFPLDDuAkN5fhGRbo/4TisdthQeRLyc2s/5dTZdL
+7PK/wBvJj2uMRKbKjtiz+XwJ9cDRkaE4hIG5AAaiHinCkluKafmQDIgZiOMxf6SM
+SKWClMPTCEcOPLgLjy8ukQIHjAAywQfqsTK2byTQ3HPU81AyWYKtxovEbHmYMUkl
+FLYgT0LD8btAAFenqqRNztamthYnpvVV9MjDcxN/WnON8cEeSszCLSd3keTCwfln
+/IcPv/wsG7IiUefg9x9oIq3yEf9ZoDZXpLFVfHCf0xGXQNFS3aHWUfZ8UhyB/DHk
+RBjmZiT6Jsg7zsICiWw/aOeVmrIZwlDlKQWjPqGKVFzd9BoXUG3XfmW/EYG+CuIH
+7I4Y2hxaFUTNDfaAsriAXhmLqcnYkE0/eITzQ7KkPwnA8F3QYcv5HNJSEUXL2CpD
+dXCN7ny4ilTJlnrTY6ij5MeaCD80Q1HftLr5iGOCNbp+z0f4IG+ByYV0dVzRcWLp
+b9yudoNZVVB/g2RFB0GKSz5kIBgt3z2DhFGtrAjDBCReufbTK0sOX2L8+jOyJmff
+2Rjp5WTVNJFh02dfTL1306TZ
+=PLDS
 -----END PGP SIGNATURE-----
 
---===============2209399540594418202==--
+--===============1109578022615971457==--
