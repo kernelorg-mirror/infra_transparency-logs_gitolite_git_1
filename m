@@ -1,45 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============0364556603747491616=="
+Content-Type: multipart/mixed; boundary="===============4532971933880485350=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Thu, 20 Feb 2025 19:17:16 -0000
-Message-Id: <174007903656.78153.17648049267374833139@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djiang/linux
+Date: Thu, 20 Feb 2025 19:32:32 -0000
+Message-Id: <174007995241.90261.9693921919476920141@gitolite.kernel.org>
 
---===============0364556603747491616==
+--===============4532971933880485350==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/djiang/linux
+user: djiang
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: 5aea7cd1e98f11108d019c3b629fce37f526377f
-    new: d0f1ba5ed270fbda06248ef8af822a9e14708ee1
-    log: revlist-5aea7cd1e98f-d0f1ba5ed270.txt
+  - ref: refs/heads/cxl/fwctl
+    old: a1e462273249c1c2689f66c5141996463085bada
+    new: 8d764de1e7af060c07ab55c250a6e314dde3c930
+    log: revlist-a1e462273249-8d764de1e7af.txt
 
---===============0364556603747491616==
+--===============4532971933880485350==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5aea7cd1e98f-d0f1ba5ed270.txt
+Content-Disposition: attachment; filename=revlist-a1e462273249-8d764de1e7af.txt
 
-d6c7ce793f6564af131cfe8a33e30b34ec7326a6 nfsd: disallow file locking and delegations for NFSv4 reexport
-71a18b9ac98875b9837513f35d085178ff65c2ca NFSD: Fix callback decoder status codes
-7a38c11166d27bc13beae1a7d98e10cff8ad8df6 fs: nfs: acl: Avoid -Wflex-array-member-not-at-end warning
-68e2e1456bed26bfa16146f283de73a4f4ce9373 nfsd: filecache: remove race handling.
-40eb0cd3e27306dbbd23b88d947529a174689d31 NFSD: Re-organize nfsd_file_gc_worker()
-7ec28ae6d6e34437e5878642c71111afaaa8da5b nfsd: filecache: use nfsd_file_dispose_list() in nfsd_file_close_inode_sync()
-a4582c2a612d08140b4cee40561c1c479adca0a2 nfsd: filecache: use list_lru_walk_node() in nfsd_file_gc()
-c47c8577710f7cdd09c93cf7c6f20845eccd8579 nfsd: filecache: introduce NFSD_FILE_RECENT
-bfb873c9d48d48654e0830b337dab62cead78bc1 nfsd: filecache: don't repeatedly add/remove files on the lru list
-a4ab62e450d6f6ea54b4a455103596100a53f541 nfsd: filecache: drop the list_lru lock during lock gc scans
-9a03a9d82410bdb758a6b342689e0c235bba94f1 nfsd: prevent callback tasks running concurrently
-743fda103062626c828dbac774716e718a74f81b nfsd: eliminate cl_ra_cblist and NFSD4_CLIENT_CB_RECALL_ANY
-d2d94554567f486eba111e953e75745eca09bee3 nfsd: replace CB_GETATTR_BUSY with NFSD4_CALLBACK_RUNNING
-355f1ec5ce21ab324d9b3978d2d5abe6d0c84024 nfsd: move cb_need_restart flag into cb_flags
-d0f1ba5ed270fbda06248ef8af822a9e14708ee1 nfsd: handle errors from rpc_call_async()
+2ec8ebdc0f019296f7d34b3c412c5dfcb0b0e406 cxl: Enumerate feature commands
+59ac14020efe022dd4954f4cdce6e77d20089a41 cxl: Add Get Supported Features command for kernel usage
+1f56bace69d491b35530b1efd79d41fd6461295d cxl/test: Add Get Supported Features mailbox command support
+f5335dd362fdd27b504c778d14f2858ab2575d22 cxl/mbox: Add GET_FEATURE mailbox command
+781da04c98fdeda68d9d84ef33659bca22c566f6 cxl/mbox: Add SET_FEATURE mailbox command
+b1668389cbda0381d772e6918764a81bee7a53ee cxl: Setup exclusive CXL features that are reserved for the kernel
+76da21f69a98ed6ecaa37392aa29d0d5723a191b cxl: Add FWCTL support to CXL
+ba52b3785c9d417872260267ef7597f13f398a8e cxl: Move cxl feature command structs to user header
+86589e7a6bddb526d7352ed70f326ab09b2dcf96 cxl: Add support for fwctl RPC command to enable CXL feature commands
+c03b7f9f91a80dc0706f65c14707aa16d68199f2 cxl: Add support to handle user feature commands for get feature
+de3eb1dd0d5c082fc7a1193b5df6265c86cd5fb4 cxl: Add support to handle user feature commands for set feature
+450b4d1373caeb8921125ceb6425a3b04f9caf69 cxl/test: Add Get Feature support to cxl_test
+cd24ada929f0b3d25054eac84e7951cd8ba8840a cxl/test: Add Set Feature support to cxl_test
+8d764de1e7af060c07ab55c250a6e314dde3c930 fwctl/cxl: Add documentation to FWCTL CXL
 
---===============0364556603747491616==--
+--===============4532971933880485350==--
