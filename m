@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nolibc/linux-nolibc
-Date: Thu, 20 Feb 2025 21:27:44 -0000
-Message-Id: <174008686424.183563.12743143222326700184@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Thu, 20 Feb 2025 21:28:21 -0000
+Message-Id: <174008690155.183988.565656285140578624@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nolibc/linux-nolibc
-user: thomas.weissschuh
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/next
-    old: 16681bea9a80080765c98b545ad74c17de2d513c
-    new: 9c812b01f13d37410ea103e00bc47e5e0f6d2bad
+  - ref: refs/heads/kernel-6.12/dontcache-for-6.12.15
+    old: 2d74cd851282a75b0ebe6f5b16d36ac29d858b11
+    new: 8e831338a580d127b91f2888fc029b966ad0d17f
     log: |
-         00ddf4cc9756b4974e6c1d61ae22ae5dcdf29084 selftests/nolibc: only run constructor tests on nolibc
-         3d1e67c615cb5487ee89ff6afdbfe7b9d09baf8b selftests/nolibc: rename s390 to s390x
-         9c812b01f13d37410ea103e00bc47e5e0f6d2bad tools/nolibc: add support for 32-bit s390
+         d7c0e9b6adbeae8b722589d61306c279a312122a mm/filemap: export folio_end_dropbehind_write
+         c87543db585374f971eee95de2ec89da256d94e5 NFS: Delay ending 'dropbehind write' until after COMMIT
+         8e831338a580d127b91f2888fc029b966ad0d17f nfs: flag as supporting FOP_DONTCACHE
          
