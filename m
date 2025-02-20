@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Thu, 20 Feb 2025 13:53:32 -0000
-Message-Id: <174005961285.3992634.10909449067479343239@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
+Date: Thu, 20 Feb 2025 13:58:27 -0000
+Message-Id: <174005990719.3996821.7631838966338703501@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: kwilczynski
+repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
+user: chunkuang.hu
 changes:
-  - ref: refs/heads/pwrctrl
-    old: 1308afeca0d6c09de0b78ef4d2a2468cc1064880
-    new: 9d2a5dfeab60f20a2b25a32927dd4819742f0a49
+  - ref: refs/heads/mediatek-drm-next
+    old: e2e4f07f0661b070383d386746dafaa863cec99c
+    new: 89dcc9e0becd2633df983e66845d7192def445df
     log: |
-         9d2a5dfeab60f20a2b25a32927dd4819742f0a49 PCI/pwrctrl: Add pwrctrl driver for PCI slots
+         89dcc9e0becd2633df983e66845d7192def445df drm/mediatek: mtk_hdmi: Remove unused members of struct mtk_hdmi
          
