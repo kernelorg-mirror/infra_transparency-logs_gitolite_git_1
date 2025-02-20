@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Thu, 20 Feb 2025 14:18:16 -0000
-Message-Id: <174006109643.4013707.15787411981321578909@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
+Date: Thu, 20 Feb 2025 14:19:09 -0000
+Message-Id: <174006114909.4014194.6728245952006941151@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
+user: chunkuang.hu
 changes:
-  - ref: refs/heads/fix-async-copy
-    old: 33a5cf672113ca0f100bcee0fd3a2fa094f9c09a
-    new: 8585c66672438dffc69ad48c210a4e4700b8fd70
+  - ref: refs/heads/mediatek-drm-next
+    old: 900f5b37a93d19820398a2cb9e5bb36f506344bf
+    new: bc3cbc0cf0f3a28afcd5f02b45697706241cf102
     log: |
-         1b84a5b00691e39f07255728b07f118eaca29d03 NFSD: Record each NFSv4 call's session slot index
-         8585c66672438dffc69ad48c210a4e4700b8fd70 NFSD: Use a referring call list for CB_OFFLOAD
+         bc3cbc0cf0f3a28afcd5f02b45697706241cf102 drm/mediatek: mtk_hdmi: Remove goto in mtk_hdmi_clk_enable_audio()
          
