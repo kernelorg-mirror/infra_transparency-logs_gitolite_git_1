@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Thu, 20 Feb 2025 02:27:42 -0000
-Message-Id: <174001846245.3427162.18108091169223870633@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gerg/m68knommu
+Date: Thu, 20 Feb 2025 02:30:02 -0000
+Message-Id: <174001860277.3429341.3399296903598340530@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/gerg/m68knommu
+user: gerg
 changes:
-  - ref: refs/heads/kernel-6.12/baseline
-    old: 5266486b869ffe69457ee616f8c0edd5ec68ab1b
-    new: c965752b425cae83cb22489645d889d4d3df13f0
+  - ref: refs/heads/for-next
+    old: e333ac9cf7f97accf0690734eb9bbfaf68617d00
+    new: 5b7d600664da12dd83726cbf75ae2a75fd14be98
     log: |
-         c965752b425cae83cb22489645d889d4d3df13f0 redhat: restore the ability to use %kernel_variant_files
+         5b7d600664da12dd83726cbf75ae2a75fd14be98 m68k: mm: Replace deprecated strncpy() with strscpy()
          
