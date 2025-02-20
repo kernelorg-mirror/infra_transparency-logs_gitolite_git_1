@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7602184747853753115=="
+Content-Type: multipart/mixed; boundary="===============2209399540594418202=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 20 Feb 2025 14:33:12 -0000
-Message-Id: <174006199213.4027852.6763131904844963475@gitolite.kernel.org>
+Date: Thu, 20 Feb 2025 14:35:48 -0000
+Message-Id: <174006214844.4031076.5571225346465199049@gitolite.kernel.org>
 
---===============7602184747853753115==
+--===============2209399540594418202==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,45 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: d9406677428e9234ea62bb2d2f5e996d1b777760
-    new: 6aa9826330539abcfd3435de93b45cb506e7b86d
+    old: 6aa9826330539abcfd3435de93b45cb506e7b86d
+    new: 606a07ca933ecc80f35c675162fd3326623ce837
     log: |
-         6aa9826330539abcfd3435de93b45cb506e7b86d char: misc: improve testing Kconfig description
+         b416cf58ac37dd0edeed13e2160464f7217258bd pps: generators: pps_gen_parport: Switch to use hrtimer_setup()
+         fa811197c8b4f080de8b7f7fe9fb70dc0cf558e5 misc: vcpu_stall_detector: Switch to use hrtimer_setup()
+         04163b680d50c729a96ed81c279e9587d6aead9b pps: generators: replace copy of pps-gen info struct with const pointer
+         dc66006ea0b1324011838e9abbd02688e2366876 pps: generators: Add PPS Generator TIO Driver
+         2240d5d4b5950cf3011e3c7603f0a4a98ada2dd2 Documentation: driver-api: pps: Add Intel Timed I/O PPS generator
+         606a07ca933ecc80f35c675162fd3326623ce837 ABI: pps: Add ABI documentation for Intel TIO
          
 
---===============7602184747853753115==
+--===============2209399540594418202==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1740062020 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1740062174 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1740061989-e3ef9a29ff5f10817cab07606a6b39cd94b839ec
+nonce 1740062144-56874ba8acac0a780896930fbd17acb71d883c4b
 
-d9406677428e9234ea62bb2d2f5e996d1b777760 6aa9826330539abcfd3435de93b45cb506e7b86d refs/heads/char-misc-testing
+6aa9826330539abcfd3435de93b45cb506e7b86d 606a07ca933ecc80f35c675162fd3326623ce837 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAme3PUQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FBMQAK34dlQRFxDZmLXsRnXS
-Mc/JK+ylAKaUbn0RV3tL2L/aBIWZkYq06tVVkU3jFcyhSAbcyxWBHUDvfG3+IsUf
-KeYeSAQ6Mq3I3Uidh4sodqMHNSl/et6qG+jPJUP7Q/LA5hiyCn0OVZ+9sU1SouDb
-y0IK7U1P4Rx8YQ7fUkyf0WnwO5llrMzzQ4Z3KvvK89h5MD7cSNXlq5mOlyryDObk
-AeSsqnMxIuIXwE1TLXP31SajGJ7FNAqugyyOG8J6TIjhwBuxuiK5wfs3XBUcqt3C
-lt/m4CzHdqJmmXubRNmkm7d2+MCEYrO/SglO0GIaLDDCNR7jfAdDMkpX7UY2gQ5K
-KPTCtlasYWVQvohWPuTAOfIcFewCEeT2iwhHxdkz6MFhCWrAlamRq507RYL3tZuG
-20WTMdux9ULO6ZMXTWNZcw81mnMODDidWtgCxzCQR1ZmZ/o0EFNbw8MjGSe3XjKZ
-hOxYgu2f/jnxBjlV73QBib/Wg25NL9tpe/pikIcqE1DmbfAKJZUqlJ9utzSY9rJ0
-KhPh0iSUubJnkzYcaOytzN+MVf2kiiAtqFoCqg66IG1aQLANPjfC1TkjPJ4s7xky
-SHDeXJNFNIrrnV4RCDwK72kaMrpiqGz/lah9F86vl7KSU8nbKhis/u3AVd3UimBk
-Xer8v3c5ZqeguGiecsDmjskH
-=yaJC
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAme3Pd8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lcgQALeXFA5Bn4AMltrFReol
+j9MqbCZsst/iH+mOGNKUjAIiYAM/Z9+IgAjOqJG90cyKFMsJ07ovvS8C49Beufvc
+xB5yi2wg1R86MGmN7V7QfC+fWS371Zy0h+213vLoA4dKMpX+WwJeeiZoSD4OKRGq
+h/uO/rjp3VKPk/cT3xRs9xTOakjz6TwlrjheXMLQc+wEXPSbhymO4nsc6jejSkDu
+n1IGUlLfODY4pi3ECz360wsQ+NtWKv0R3Fftaa4TpINsjsMyhPlje+V7sgcvgIrI
+EDb2HKyQxjqQ2BVboDhsl+igGa6OpDkCzl40HiOj1ommjyc5DYjc0pXTyS0y0kn2
+jKYJpvP14o31WJPurgQdpeiRlfYqE9qhMCI8PWnDkZq7kfHexsA3h/e8oD2KJ4Q4
+fVDhsiVFFfY5S/TsSzhMK4wz0Z3nqGNMljeTeYIB36IJxlhmpkirsyu/+9NMKhzW
+MCMyRdL2fGGy1wAnGlp42HJ/MOLA0KHjKoWRr9zHrCKqGzOrnW0JDcthizYBaQ4H
+ynOqm8DjIMeaVbOesejKOL/nwDLSQZmue5DHLHqQ6AZ/lUuXs8LGEU3MshTWb26l
+Tz2MDJPoKuc4jgIxqbMYwL1nHUtebphta0inBkAw9Q/C8duF2Jjlbww0yKqeETXv
+vjoT3Ms4s1kelEEi/txMTTls
+=Ke/b
 -----END PGP SIGNATURE-----
 
---===============7602184747853753115==--
+--===============2209399540594418202==--
