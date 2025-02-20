@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Thu, 20 Feb 2025 00:42:49 -0000
-Message-Id: <174001216930.3335866.13157452145694511890@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
+Date: Thu, 20 Feb 2025 00:45:00 -0000
+Message-Id: <174001230034.3337436.2563767149980944252@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+user: sre
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 6353255e7cfab568058580424fa0967bf4504fe5
-    new: 4bac7fb5862740087825eda3ed6168e91da8b7e6
+  - ref: refs/heads/for-next
+    old: a944cfd799e859753ad249372fa5d6d6d9300515
+    new: 45291874a762dbb12a619dc2efaf84598859007a
     log: |
-         4bac7fb5862740087825eda3ed6168e91da8b7e6 perf tools: Improve startup time by reducing unnecessary stat() calls
+         45291874a762dbb12a619dc2efaf84598859007a power: supply: bq27xxx_battery: do not update cached flags prematurely
          
