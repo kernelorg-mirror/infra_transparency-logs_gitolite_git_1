@@ -1,45 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============7106006510478416748=="
+Content-Type: multipart/mixed; boundary="===============8680876034505873897=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 20 Feb 2025 09:34:17 -0000
-Message-Id: <174004405754.3772745.16065270796808321947@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/linux
+Date: Thu, 20 Feb 2025 09:36:15 -0000
+Message-Id: <174004417536.3775848.7223188028725792215@gitolite.kernel.org>
 
---===============7106006510478416748==
+--===============8680876034505873897==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/vireshk/linux
+user: vireshk
 changes:
-  - ref: refs/heads/main
-    old: 67181985211850332c8ff942815c1961fd7058b9
-    new: 384cba25b886a06c9970189bfa50b7b03a57be65
-    log: revlist-671819852118-384cba25b886.txt
+  - ref: refs/heads/virtio/msg
+    old: adafc104922c94552cda579d7e470d5490502017
+    new: 05fca1037a60a55dc2aab5d424f44019b3ae07d0
+    log: |
+         b028d6dbfc26a5381a3ebb56883b0b00f1f34ffd virtio-msg: Add support for FFA based channel bus
+         3032fa7b7ae34a2856d6ce07f856de82242bb2b5 virtio-msg: Add DMA OPs support
+         009a422a3d2c0b5d2a2b4ca1fcff23f6b965dccd virtio-msg: ffa: Add reserved mem support
+         05fca1037a60a55dc2aab5d424f44019b3ae07d0 virtio: msg: Poll for events if indirect FFA messages aren't supported
+         
+  - ref: refs/heads/virtio/msg-xen
+    old: fd7756eb6acc8205834b0ecf3b0472cac3d6c034
+    new: c730e1395f647d9d1fa33df71071563ab13c599d
+    log: revlist-fd7756eb6acc-c730e1395f64.txt
 
---===============7106006510478416748==
+--===============8680876034505873897==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-671819852118-384cba25b886.txt
+Content-Disposition: attachment; filename=revlist-fd7756eb6acc-c730e1395f64.txt
 
-fd2a0c47fbae257bc7ff9c8d66aa7f039eb367b1 can: c_can: Drop useless final probe failure message
-6c00b580d1c95ba9fe76c99307a16e5f47a214ba can: c_can: Simplify handling syscon error path
-ab1bc2290fd8311d49b87c29f1eb123fcb581bee can: c_can: Use of_property_present() to test existence of DT property
-9f0f0345d0406cc17a764be4ce56e6c727cdf720 can: c_can: Use syscon_regmap_lookup_by_phandle_args
-ff98a2fdf62f5cb2d77b31790e5a57c7e85d03a0 Merge patch series "can: c_can: Simplify few things"
-51723790b718800014dc905ace0f8ffacd07f31e dt-bindings: can: fsl,flexcan: add S32G2/S32G3 SoC support
-8c652cf030a769fbfc73cfc280ed3f1656343c35 can: flexcan: Add quirk to handle separate interrupt lines for mailboxes
-8503a4b1a24d32e95f3a233062e8f1dc0b2052bd can: flexcan: add NXP S32G2/S32G3 SoC support
-28daf9a3cd8e66b6cb80be2bdb3dc2e79095f7eb Merge patch series "add FlexCAN support for S32G2/S32G3 SoCs"
-bcb13d33221d8ac340346c77a6fa8770495a5809 dt-binding: can: mcp251xfd: remove duplicate word
-6b89d89f2147dddd0da4e08e88840553c2d3c5a6 can: j1939: Extend stack documentation with buffer size behavior
-e1b2c7e902f7254b5ec90b02b012852911f8b740 can: canxl: support Remote Request Substitution bit access
-32f08b22f3b88b7ba43fa8f4090dfd9575343256 can: gs_usb: add VID/PID for the CANnectivity firmware
-d9e1cc087a55286fe028e0f078159b30d7da90bd can: rockchip_canfd: rkcanfd_chip_fifo_setup(): remove duplicated setup of RX FIFO
-384cba25b886a06c9970189bfa50b7b03a57be65 Merge tag 'linux-can-next-for-6.15-20250219' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can-next
+b028d6dbfc26a5381a3ebb56883b0b00f1f34ffd virtio-msg: Add support for FFA based channel bus
+3032fa7b7ae34a2856d6ce07f856de82242bb2b5 virtio-msg: Add DMA OPs support
+009a422a3d2c0b5d2a2b4ca1fcff23f6b965dccd virtio-msg: ffa: Add reserved mem support
+05fca1037a60a55dc2aab5d424f44019b3ae07d0 virtio: msg: Poll for events if indirect FFA messages aren't supported
+57ccf1137a95e33a9a9669c1b91a22f2d08d7419 virtio-msg: Add helpers to create per-bus miscdevice
+d25fffd7b5d1e9c74dc829db3d9af6fe63788e19 virtio: Add support for MMIO based channel bus
+4bb7dce2382946e7b14c8f5628f5be5f8d89e98c HACK: firmware: arm_ffa: Partitions can come online after the host
+8dbdb9ca16183da5d39d625214ab83188cf719c5 HACK: firmware: arm_ffa: Forcefully match UUID to virtio-msg-ffa
+1b65ff65c1edae4b21cadd7d3d4f45a90ac9bc2b HACK: virtio-msg: ffa: Make it work on the host side
+1c0eafbd8909067a230666389c3b2d321631a2ba HACK: virtio-msg: Virtqueue index not known for Xen based testing
+fbe67cce1188d8404f6abf43c7962e3fb1211636 Revert "virtio-msg: ffa: Add reserved mem support"
+78130e2f672485ccbf003aeffbee238498717c03 TEMP: defconfig: Reset
+7e899d225d013e3549e7d36fdacb5183bb047880 TEMP: defconfig: Enable virtio-msg + qemu/xen options
+4d16534b1efa13a439df02694cfd8b6551c44a28 TEMP: defconfig: Enable INITRAMFS for guest kernel
+c730e1395f647d9d1fa33df71071563ab13c599d phy: freescale: fsl-samsung-hdmi: fix build error in fsl_samsung_hdmi_phy_configure_pll_lock_det
 
---===============7106006510478416748==--
+--===============8680876034505873897==--
