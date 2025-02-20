@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6060810342048052273=="
+Content-Type: multipart/mixed; boundary="===============7325901260405620371=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 20 Feb 2025 13:24:42 -0000
-Message-Id: <174005788214.3968365.9505538879880125452@gitolite.kernel.org>
+Date: Thu, 20 Feb 2025 13:25:02 -0000
+Message-Id: <174005790243.3968872.15106480661893359514@gitolite.kernel.org>
 
---===============6060810342048052273==
+--===============7325901260405620371==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,39 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 5eaced72c8857ef350df9954688c1e8fcd718557
-    new: 67d724b9cb37142cf64625f2b94383ce2e85e226
-    log: revlist-5eaced72c885-67d724b9cb37.txt
+    old: 67d724b9cb37142cf64625f2b94383ce2e85e226
+    new: 070538568bc07ebe618056b8234a3cbda6c3d2ac
+    log: revlist-67d724b9cb37-070538568bc0.txt
+  - ref: refs/heads/tip/urgent
+    old: d5e608b7b081feaa442ec0322c6eb0cdc8661abc
+    new: fbfe9d82c75f5c012378f4807df4c5b87a7bbb69
+    log: revlist-d5e608b7b081-fbfe9d82c75f.txt
 
---===============6060810342048052273==
+--===============7325901260405620371==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5eaced72c885-67d724b9cb37.txt
+Content-Disposition: attachment; filename=revlist-67d724b9cb37-070538568bc0.txt
+
+3d306c2789aab4fdaa0d59d504c42f618896a58e Merge branch into tip/master: 'irq/urgent'
+fbfe9d82c75f5c012378f4807df4c5b87a7bbb69 Merge branch into tip/master: 'perf/urgent'
+8126975392b6dc1e8d71a729119148755440094e Merge branch into tip/master: 'irq/drivers'
+0616c61341f769e7908ea847be520d48e4455207 Merge branch into tip/master: 'perf/core'
+7b9e44028dbc2f56fc399523488caa984dff37db Merge branch into tip/master: 'sched/core'
+c5dcd50df9bedfde1eb9fb7cbded8f888441b4a6 Merge branch into tip/master: 'timers/cleanups'
+634237ef92e3eddffc329d4e4a97a6eaf6ca0b2a Merge branch into tip/master: 'timers/core'
+12eb5efbeb40c52625b7879f534ffa308aaeab81 Merge branch into tip/master: 'x86/asm'
+08a593eb484c8b6296461536b4e1e62a0305e509 Merge branch into tip/master: 'x86/core'
+aa14665389df1dd750e2c63b6b486b2374d120b5 Merge branch into tip/master: 'x86/cpu'
+70bce35ef3871fd021f1120597fc4a1e708169bc Merge branch into tip/master: 'x86/fpu'
+5fc1d2dc2ed8c88dcfcc636c86cae821d41878f9 Merge branch into tip/master: 'x86/microcode'
+070538568bc07ebe618056b8234a3cbda6c3d2ac Merge branch into tip/master: 'x86/misc'
+
+--===============7325901260405620371==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d5e608b7b081-fbfe9d82c75f.txt
 
 c8a3e63ff9d75b9f3f031c90d218876051dea0ba procfs: fix a locking bug in a vmcore_add_device_dump() error path
 f4b78260fc678ccd7169f32dc9f3bfa3b93931c7 lib/iov_iter: fix import_iovec_ubuf iovec management
@@ -45,6 +69,7 @@ f39edcf6349abb2ca2df96acc8645f4d2631d0a7 mm: pgtable: fix incorrect reclaim of n
 ac7af1f57acd1e1d112b36e036584ca4bc4c284a kasan: don't call find_vm_area() in a PREEMPT_RT kernel
 8344017aaf32a7532cff293eb3df7fd2265ebafd test_xarray: fix failure in check_pause when CONFIG_XARRAY_MULTI is not defined
 87a132e73910e8689902aed7f2fc229d6908383b Merge tag 'mm-hotfixes-stable-2025-02-19-17-49' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-67d724b9cb37142cf64625f2b94383ce2e85e226 Merge branch 'linus'
+3d306c2789aab4fdaa0d59d504c42f618896a58e Merge branch into tip/master: 'irq/urgent'
+fbfe9d82c75f5c012378f4807df4c5b87a7bbb69 Merge branch into tip/master: 'perf/urgent'
 
---===============6060810342048052273==--
+--===============7325901260405620371==--
