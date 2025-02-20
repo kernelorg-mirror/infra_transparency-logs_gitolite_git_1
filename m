@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Thu, 20 Feb 2025 01:49:48 -0000
-Message-Id: <174001618893.3396068.7588109826345315531@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Thu, 20 Feb 2025 02:27:42 -0000
+Message-Id: <174001846245.3427162.18108091169223870633@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/tags/mm-hotfixes-stable-2025-02-19-17-49
-    old: 0000000000000000000000000000000000000000
-    new: 7c94d2a43407662340a6042e66649142634a04b7
+  - ref: refs/heads/kernel-6.12/baseline
+    old: 5266486b869ffe69457ee616f8c0edd5ec68ab1b
+    new: c965752b425cae83cb22489645d889d4d3df13f0
+    log: |
+         c965752b425cae83cb22489645d889d4d3df13f0 redhat: restore the ability to use %kernel_variant_files
+         
