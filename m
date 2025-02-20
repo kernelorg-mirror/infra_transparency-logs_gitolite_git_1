@@ -1,58 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1531665885633405889=="
+Content-Type: multipart/mixed; boundary="===============8444102115438967758=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Thu, 20 Feb 2025 10:25:49 -0000
-Message-Id: <174004714934.3816665.15981508178030280364@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 20 Feb 2025 10:31:45 -0000
+Message-Id: <174004750546.3821298.16053915868135479345@gitolite.kernel.org>
 
---===============1531665885633405889==
+--===============8444102115438967758==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: 1cddb72bf892812407cc30f0d8eb47dac73d6de4
-    new: 20a351c36afc7d72956b57bdefbc79858f18923d
+  - ref: refs/heads/master
+    old: 17eff12d57bdcdce086d482be306f38db265de56
+    new: 1b1dd96cd517975f601f5ceb0746d88d04cf7045
     log: |
-         82e3508046f9bce75e14b6cab5805e52f27f5405 staging: gpib: cb7210 console messaging cleanup
-         0de51244e7b7e3ea97f9da68318fbc9e7e16f6a5 staging: gpib: ines console messaging cleanup
-         20a351c36afc7d72956b57bdefbc79858f18923d staging: gpib: tnt4882 console messaging cleanup
+         1b1dd96cd517975f601f5ceb0746d88d04cf7045 drop a bunch of 6.13 network patches
          
 
---===============1531665885633405889==
+--===============8444102115438967758==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1740047177 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1740047146-8d3149eb4dad5f99e1a03f0876d2a13a0a0440d1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1740047533 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1740047502-d3ba7526a8f54e375b5fda6ccfcf801f41e131f9
 
-1cddb72bf892812407cc30f0d8eb47dac73d6de4 20a351c36afc7d72956b57bdefbc79858f18923d refs/heads/staging-testing
+17eff12d57bdcdce086d482be306f38db265de56 1b1dd96cd517975f601f5ceb0746d88d04cf7045 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAme3A0kbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+r7AQAIukANxkpjzzm+0Zszj7
-EdFuWkhM5CXNX7scC2ElL2kpTCmfhPBoNeuO2hTYXUjqoPhi3iYPnqqFk91c4LI3
-SMPRi3VqIG5L65np3mA4aaACY/HoLAyOUepX/+dq2u6jOZwWgHCrkzbuyuSf8AlV
-EnEJwz+eDYJ3PwUEm8IHbz+WTsGksHBRc82QyuWDzPEQrRkF9navQTnd1V7hiZur
-YGcd7FMIJQqwXxvi0w714nuK6ZggPsnN2HR5TGK66aTkdTj/whq5QJLH4Ci+DUGo
-LFFIS5C7PZbOkrBjhZkSPoeApIsOeWsnDn4kyacq67klaaQV2iitBwlKuV3tUvXe
-w7UrmQzP2+YV4YWqIjlpeZS0y9ddEXP234raYr0YamR2IQUFAwjS/3/RNCJ9Ij6+
-A2WKUshWG9taquS0uO/fwHYxXTKQwEn2Kjz3orTlCFgxW4tPEr7KpbeHG48kxjcw
-I1SwMW4gRDwAswsRGVf1c5hPEk+XOBWnDdg5Cdm8vOA5dcC/wgQlK/QsicppVJw4
-1/sEDZtIhXwsvS/WAJnjJuJTjPJQEBP+QQELBt7Sjy1m7AH6rC9tCVqSNdi7BQsj
-mC50zGWCvntNkgOvBtT5CWqZfi44IjjU5jQStixt0JZ7Gtgt39bKu+6BhGSNafZB
-bPUQhbhW5O+2kqmsEStZaBfv
-=mgi1
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAme3BK0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yyoP/0MKGr8zxwezmZwe/jrD
+tD7iYY9lvt27lhb4ccPDXBrxZJkUD0PiNN+7zGgixAcdLoGIurqXsojwATbpnO4i
+0BMuhwyxai9OeSNzMOCiyvbaW0kRVI/OcfPEHFLlx/uX3B30k0XzFuDI2alppszd
+lVsXbBjpsCHBRjDjjvIQRUewAEhzlVxafF0bomyUe8XCYBX3lg+gjSsKJkmzgLOr
+CkHjweZvlS/hkjtLmWKnmPHM9dQBJS/qhlOeAoOP666vubyRfpDC6uNuyC556yo4
+AyVRH2YxXwc9HdKiIh9VZj229BDSD4B3BIdt1nkzLn7ZKFen9iZMP2fmwD6AEST2
+CVm3CzwzVDAMIATlLDv3HMlV/Uxti+Ubm8m/TzXWa1dk+JPw03WBn891RQKCI+cJ
+ZHCEv7xtLHyyetc3KFa32jgicgHeTpANnnBAYEUAG8r+FldjaA0CY6dPGlVtRVE0
+mC6qw/UEoWl+/KRfNEbHx9Kw00CtJ9ACBVOdisjEs9OUMvuEZOk7xvFOKQ8LukOY
+JMqFFBeKbl7ZC0OwV/ON2Tdz7BYKx3x9uGcZ+CdF/DX9+Byg4Rh+uN47rJ22zZoP
+1s9WwYgWUa1Fq4uLEkWjHNnR8QvqkKYuCyVN5fniVx2E7TUrjqflKBBK4h4NijeE
+1n1hNE7c8/K/+Dd3MvK+aK/9
+=k9cT
 -----END PGP SIGNATURE-----
 
---===============1531665885633405889==--
+--===============8444102115438967758==--
