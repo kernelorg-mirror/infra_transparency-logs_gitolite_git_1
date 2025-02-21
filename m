@@ -1,81 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============0748235377805430920=="
+Content-Type: multipart/mixed; boundary="===============1979005589122521660=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 21 Feb 2025 03:28:34 -0000
-Message-Id: <174010851472.501234.3400893753984009088@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Fri, 21 Feb 2025 03:57:34 -0000
+Message-Id: <174011025492.524355.13372022987973276293@gitolite.kernel.org>
 
---===============0748235377805430920==
+--===============1979005589122521660==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkp/scsi
-user: mkp
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/for-next
-    old: 3bcd901e4257d88cd3fc0e5cfa7d2fb3a1a1af99
-    new: 7e72900272b61c11f2fd4020d4f186124d0d171b
-    log: revlist-3bcd901e4257-7e72900272b6.txt
+  - ref: refs/heads/fixes-base
+    old: 2014c95afecee3e76ca4a56956a936e23283f05b
+    new: 5233e3235dec3065ccc632729675575dbe3c6b8a
+    log: revlist-2014c95afece-5233e3235dec.txt
 
---===============0748235377805430920==
+--===============1979005589122521660==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-2014c95afece-5233e3235dec.txt
 
-certificate version 0.1
-pusher 75C5DE3D 1740108543 -0500
-pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1740108513-ca5d9b54246f75fc2b9826dc303b941e09cb8c4b
+b893d7ff853e27aa6000fc4ca12e0ffda3318bfc scsi: core: Add passthrough tests for success and no failure definitions
+1b3e2d4ec0c5848776cc56d2624998aa5b2f0d27 scsi: ufs: core: Fix the HIGH/LOW_TEMP Bit Definitions
+c9d2782988df354b5a2db00be93920b4ecdde7a2 scsi: target: core: Add line break to status show
+8c09f612b2937da109ed0df583ace3a29fc95a93 scsi: ufs: core: Simplify temperature exception event handling
+16b047c9a4dd4d4cc07284f5b38d4c7b9766c111 Merge branch '6.14/scsi-queue' into 6.14/scsi-fixes
+3d4114a1d34413dfffa0094c2eb7b95e61087abd scsi: ufs: core: Ensure clk_gating.lock is used only after initialization
+839a74b5649c9f41d939a05059b5ca6b17156d03 scsi: ufs: Fix toggling of clk_gating.state when clock gating is not allowed
+5363ee9d110e139584c2d92a0b640bc210588506 scsi: core: Use GFP_NOIO to avoid circular locking dependency
+9ff7c383b8ac0c482a1da7989f703406d78445c6 scsi: core: Do not retry I/Os during depopulation
+f8fb2403ddebb5eea0033d90d9daae4c88749ada scsi: ufs: core: Fix use-after free in init error and remove paths
+87c4b5e8a6b65189abd9ea5010ab308941f964a4 scsi: storvsc: Set correct data length for sending SCSI command without payload
+1a78a56ea65252bb089e0daace989167227f2d31 scsi: ufs: core: Fix error return with query response
+5233e3235dec3065ccc632729675575dbe3c6b8a scsi: qla1280: Fix kernel oops when debug level > 2
 
-3bcd901e4257d88cd3fc0e5cfa7d2fb3a1a1af99 7e72900272b61c11f2fd4020d4f186124d0d171b refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAme38v8ACgkQ7ulgGnXF
-3j2gWBAAlfr9ZxPPPDvw22ROl4lwLRMPlbb5GEQ9Aiw070gSusiGHSBo6OHa9/mu
-dM83f7+FeLP/Ws0xbK2Ia9zwYI489Z4iq7qjcg7Dni0LTgbaYFgZxnXM+ED2y4k3
-TnZ32JqRHzYKnGMm4G9E6pAipw+xycbDlD7NI5NjzRFjpy0A7Sr/FnakhJ3oJXRf
-UqKjTN5/E/TYPQsc2CwnFqGwtL7WOsemrdfHK1iBG4mZioS3fytx4g9QoomUPrY9
-HUU+Qe2wQ+zfwCk3pwiqM4II1Kdz9LrOrhlLldXNve1I9ZEGwShFWgiHe9VhdPyJ
-TSFwdJ/PqmOVi1zo4Pn3R+cX9qXu64wCj/agrc2luPCwb1QpVIP5Fa8/iKJA9EQt
-dT8VpHkgrF9btNgJ+M320sGUtAws0kEV8Vspj4jRmFSCxxMvo2eI7jeLP20N7edA
-jNJWr08YrUASDatd/X0/qdnxtS77hz+1U8HrvQWzBHLvDJUfDvq1hd8zD39puQDH
-0myM4OtDut2jTwiF7AUUgraW1apxEOhRlp2A9QqsDsVqffRujq4l0eEoedylNtGA
-ilu+6WcdwaL9IuEfyiHvyy6mB+9OYZfAvjIpa8E6jZJ5gB97k/IsOhh1NfOEUk4q
-qoSUfNLlfKmiiiTVO0lyk7CPLKxJB/5ddyGXVXDz05RGskAJ51A=
-=dC5F
------END PGP SIGNATURE-----
-
---===============0748235377805430920==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3bcd901e4257-7e72900272b6.txt
-
-583e518e7100362e3937b583976f9470c39d1db2 scsi: ufs: core: Add hba parameter to trace events
-d69ddae194ca2c8ea426747efba730bfec20fe04 scsi: hpsa: Remove deprecated and unnecessary strncpy()
-ac3b7425db298aa88f22a4c5a6d0a4c26f7ed338 scsi: hpsa: Replace deprecated strncpy() with strscpy_pad()
-c733741ae1c3a5927f72664b0d760d5f4c14f96b scsi: mpi3mr: Fix locking in an error path
-38afcf0660f5c408ba6c2f0ba3a9729e0102fe2e scsi: mpt3sas: Fix a locking bug in an error path
-476cda1949031a6102057eb2b4f73e9d901ffc4c scsi: ufs: qcom: Remove dead code in ufs_qcom_cfg_timers()
-70684dcbec3ac54a6d111646a02128c0b53e9f75 scsi: mpt3sas: Update MPI headers to 02.00.62 version
-c72be4b5bb7cb1a9059d0b845f87223b52399cc2 scsi: mpt3sas: Add support for MCTP Passthrough commands
-8c2465e202006e17fefaaac364e9942bd9002c34 scsi: mpt3sas: Report driver capability as part of IOCINFO command
-5612d6d51ed2634a033c95de2edec7449409cbb9 scsi: mpt3sas: Send a diag reset if target reset fails
-51edde19f008eacaeba87aadbcea143076fd8a27 scsi: mpt3sas: update driver version to 52.100.00.00
-369552fd03f296261023872b8fc983d1fc55c8e9 Merge patch series "mpt3sas driver udpates"
-5e011fcc7d16d050ff2ec3977890137cfd163d32 scsi: ufs: core: Pass target_freq to clk_scale_notify() vop
-367a0f017c6145a7e7fc7df37a4535627f81356b scsi: ufs: qcom: Pass target_freq to clk scale pre and post change
-d7bead60b08e61abde46d63eae6cd72f44939358 scsi: ufs: core: Add a vop to map clock frequency to gear speed
-c02fe9e222d16bed8c270608c42f77bc62562ac3 scsi: ufs: qcom: Implement the freq_to_gear_speed() vop
-129b44c27c8a51cb74b2f68fde57f2a2e7f5696b scsi: ufs: core: Enable multi-level gear scaling
-eff26ad4c34fc78303c14be749e10ca61c4d211f scsi: ufs: core: Check if scaling up is required when disable clkscale
-2a25cbaa81d27f212439576fb5d406466055cfd0 scsi: ufs: core: Toggle Write Booster during clock scaling base on gear speed
-6d7696b4d447028315038645f8a47f7539819be8 scsi: ABI: sysfs-driver-ufs: Add missing UFS sysfs attributes
-7e72900272b61c11f2fd4020d4f186124d0d171b Merge patch series "Support Multi-frequency scale for UFS"
-
---===============0748235377805430920==--
+--===============1979005589122521660==--
