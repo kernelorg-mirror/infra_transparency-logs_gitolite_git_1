@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8881218741998665372=="
+Content-Type: multipart/mixed; boundary="===============4715023243459828862=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 21 Feb 2025 17:01:42 -0000
-Message-Id: <174015730277.1535980.2994123421255157364@gitolite.kernel.org>
+Date: Fri, 21 Feb 2025 17:01:44 -0000
+Message-Id: <174015730497.1536065.3908230735517870417@gitolite.kernel.org>
 
---===============8881218741998665372==
+--===============4715023243459828862==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 7b5b7a597fbc19dacf6eefba3dd632a149a539b8
     new: bb3bb6c92e5719c0f5d7adb9d34db7e76705ac33
     log: revlist-7b5b7a597fbc-bb3bb6c92e57.txt
 
---===============8881218741998665372==
+--===============4715023243459828862==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -54,4 +54,4 @@ d3726ab45c57d0ba26234e3b9e4d19903b740f97 selftests: drv-net: probe for AF_XDP so
 56b06a71fcdb6b39b4c0f38a79dfe0f24453f66a Merge branch 'selftests-drv-net-improve-the-queue-test-for-xsk'
 bb3bb6c92e5719c0f5d7adb9d34db7e76705ac33 net: phy: remove unused feature array declarations
 
---===============8881218741998665372==--
+--===============4715023243459828862==--
