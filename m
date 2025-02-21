@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 21 Feb 2025 19:14:41 -0000
-Message-Id: <174016528153.1659622.14403074057121817367@gitolite.kernel.org>
+Date: Fri, 21 Feb 2025 19:18:54 -0000
+Message-Id: <174016553483.1663226.16886442202361852336@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: peterz
 changes:
-  - ref: refs/heads/perf/urgent
-    old: ec5fd50aeff9c9156304853c6d75eda852d4a2c8
-    new: 782cffeec9ad96daa64ffb2d527b2a052fb02552
+  - ref: refs/heads/sched/core
+    old: d90c9de9de2f1712df56de6e4f7d6982d358cabe
+    new: 1a5d3492f8e14719184945893c610e0802c05533
     log: |
-         782cffeec9ad96daa64ffb2d527b2a052fb02552 perf/x86/intel: Fix event constraints for LNC
+         b796ea8489918efb34cef0972ec3771b4a7b6f9a sched/core: Remove duplicate included header file stats.h
+         1a5d3492f8e14719184945893c610e0802c05533 sched: Add unlikey branch hints to several system calls
          
