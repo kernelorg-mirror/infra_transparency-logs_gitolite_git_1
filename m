@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
-Date: Fri, 21 Feb 2025 19:49:58 -0000
-Message-Id: <174016739891.1688949.18434960318445123958@gitolite.kernel.org>
+Date: Fri, 21 Feb 2025 19:51:04 -0000
+Message-Id: <174016746456.1690982.15369767290225052987@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,8 @@ repo: pub/scm/utils/kernel/kmod/kmod
 user: demarchi
 changes:
   - ref: refs/heads/master
-    old: 1ae5179d4880344f4a0680eb15001003491082ef
-    new: 94131a4a343ca8384e1f0d410319c09dfeade25a
+    old: 94131a4a343ca8384e1f0d410319c09dfeade25a
+    new: 51ba885d5bea5962b10788f0b2a36f806b74a690
     log: |
-         4fe44cc7e3bfe88444abe51d6559c6d55cbdfe48 man: use = for long options
-         325b6c40fe078210e9c764ce94dcdf3e254fb02e man: add -h explanation to modinfo.8
-         94131a4a343ca8384e1f0d410319c09dfeade25a modprobe: unify help output
+         51ba885d5bea5962b10788f0b2a36f806b74a690 static-nodes: unify return statements
          
