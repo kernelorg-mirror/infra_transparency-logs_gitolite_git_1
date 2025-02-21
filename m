@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9001516430694524685=="
+Content-Type: multipart/mixed; boundary="===============6776835698663262295=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 21 Feb 2025 00:42:33 -0000
-Message-Id: <174009855348.347455.16281421874072245337@gitolite.kernel.org>
+Date: Fri, 21 Feb 2025 00:42:40 -0000
+Message-Id: <174009856009.347705.13352194348448577171@gitolite.kernel.org>
 
---===============9001516430694524685==
+--===============6776835698663262295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: a67a634dde15f8decd1d18738fe672afb185732b
-    new: c4813820042d447c687cf4f1d5e240740638e586
-    log: revlist-a67a634dde15-c4813820042d.txt
+  - ref: refs/heads/1GbE
+    old: a92c3228766429fe175ecc815f895043ea505587
+    new: 992ee3ed6e9fdd0be83a7daa5ff738e3cf86047f
+    log: revlist-a92c32287664-992ee3ed6e9f.txt
 
---===============9001516430694524685==
+--===============6776835698663262295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a67a634dde15-c4813820042d.txt
+Content-Disposition: attachment; filename=revlist-a92c32287664-992ee3ed6e9f.txt
 
 be8ee18152b0523752f3a44900363838bd1573bb sched_ext: Fixes typos in comments
 2279563e3a8cac367b267b09c15cf1e39c06c5cc sched_ext: Include task weight in the error state dump
@@ -380,20 +380,5 @@ bf0e5ed0082ef0dbaa43c0296b045d6d9832082e Merge tag 'bcachefs-2025-02-20' of git:
 e9a8cac0bf895efe0bc7b11d174e8dae9b195da8 Merge tag 'v6.14-rc3-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 27eddbf3449026a73d6ed52d55b192bfcf526a03 Merge tag 'net-6.14-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 992ee3ed6e9fdd0be83a7daa5ff738e3cf86047f net: phy: qcom: qca807x fix condition for DAC_DSP_BIAS_CURRENT
-7b47e3f39bd3b555e63a261fe61a0c41074bca10 coccinelle: misc: secs_to_jiffies script: Create dummy report
-e1bfdf0628677fa6527b1aca13cdec6cfca9bd77 ice: do not configure destination override for switchdev
-9cbe4dee3d134e7bed91e31ff12a990e27c8c82c ice: Fix switchdev slow-path in LAG
-7bea8e449ccfbb1738dbf6ec523bb53ef315bf00 idpf: synchronize pending IRQs after disable
-d23ccb0f337735f71c60ea37692c54c5938692fa ice: fix memory leak in aRFS after reset
-38b023b34ba4c40578a92ea72118b2483bd0bfef ixgbe: fix media cage present detection for E610 device
-6bd09e053e1f443385a3e14e1098222889520108 ice: health.c: fix compilation on gcc 7.5
-49d9aa117e3d438e4270a15a656aed3b383be713 ice: Fix deinitializing VF in error path
-f04dfcd131197acbef2c0b2bf02803f8fc65ea36 ice: Avoid setting default Rx VSI twice in switchdev setup
-606721f933f8854c0f226a8e55b00bf4c1cc8103 iavf: fix circular lock dependency with netdev_lock
-5a414dd87a2e5d388ce1514f9d3a5852117c64e1 idpf: check error for register_netdev() on init
-5f6b67bff89a0de5f78889e7978459a1e92c4f00 virtchnl: make proto and filter action count unsigned
-c9c348fc4409c725e36a1e4c6c7d6aa276d5030e ice: stop truncating queue ids when checking
-b1a3246354c94ced4383ae1fb4c39f726fd359d2 ice: validate queue quanta parameters to prevent OOB access
-c4813820042d447c687cf4f1d5e240740638e586 ice: fix input validation for virtchnl BW
 
---===============9001516430694524685==--
+--===============6776835698663262295==--
