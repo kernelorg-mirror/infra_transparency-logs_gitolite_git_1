@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2166626905222843944=="
+Content-Type: multipart/mixed; boundary="===============2934447150722174549=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 21 Feb 2025 00:55:54 -0000
-Message-Id: <174009935429.361687.4857383723602824841@gitolite.kernel.org>
+Date: Fri, 21 Feb 2025 00:56:01 -0000
+Message-Id: <174009936182.361926.3356521636074411821@gitolite.kernel.org>
 
---===============2166626905222843944==
+--===============2934447150722174549==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 76e04786735e2864bec8666e116cb1ba7bc4f578
-    new: 692375ca2a4e6916ddc2ef0d73faa37c7a93cd1a
-    log: revlist-76e04786735e-692375ca2a4e.txt
+  - ref: refs/heads/1GbE
+    old: de7a88b639d488607352a270ef2e052c4442b1b3
+    new: 7b5b7a597fbc19dacf6eefba3dd632a149a539b8
+    log: revlist-de7a88b639d4-7b5b7a597fbc.txt
 
---===============2166626905222843944==
+--===============2934447150722174549==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-76e04786735e-692375ca2a4e.txt
+Content-Disposition: attachment; filename=revlist-de7a88b639d4-7b5b7a597fbc.txt
 
 be8ee18152b0523752f3a44900363838bd1573bb sched_ext: Fixes typos in comments
 2279563e3a8cac367b267b09c15cf1e39c06c5cc sched_ext: Include task weight in the error state dump
@@ -459,55 +459,5 @@ ce114069a654be6b1597da983a201c72ceca7a85 net: wangxun: Support to get ts info
 2d8967e86c9b12e7b8a82a531572186b2b97e804 net: ngbe: Add support for 1PPS and TOD
 f438d8da3cbd4fb5f6d83366c74567b7df73498f Merge branch 'support-ptp-clock-for-wangxun-nics'
 7b5b7a597fbc19dacf6eefba3dd632a149a539b8 eth: fbnic: Add ethtool support for IRQ coalescing
-9e4011279b488e4e4c051f259f5543fa3fdfd927 coccinelle: misc: secs_to_jiffies script: Create dummy report
-c872b65f1a6cbd45c7d18b8c3051b874b0dd6018 ice: do not configure destination override for switchdev
-48c9bd836e22efc38a17218e1da3936f446abb0f ice: Add E830 checksum offload support
-4f5298ef731291a197b8ae492c093d09515183e7 ice: Fix switchdev slow-path in LAG
-0dd88a8f9653b1e7a5155ca43e488a757a3d6519 ice: fix memory leak in aRFS after reset
-df81ec36ee3d90455094f2d475c6723187f9a58b ixgbe: fix media cage present detection for E610 device
-c09e0634c8c95ac707a00355cf97c8470a8486b9 ice: health.c: fix compilation on gcc 7.5
-67680b79d9715818c59f6108f07e11ec7099cdb0 ixgbe: add PTP support for E610 device
-e39f63f962e33103bd62a797cf70c85b411da314 ice: rename ice_ptp_init_phc_eth56g function
-8f3ce4ec99f2172c67e04b886d49640d2ef27dd9 ice: Refactor E825C PHY registers info struct
-374be29e15a5c1b612b047057b19b220bad18785 ice: E825C PHY register cleanup
-67b3bd4b01f9e18b43cbfabf064ccefee7790e10 ice: Fix deinitializing VF in error path
-7047fa59549194505593add7fe251abec741cdec ice: Avoid setting default Rx VSI twice in switchdev setup
-50c1c257a65870877dba261254aa982b98a96dc0 iavf: fix circular lock dependency with netdev_lock
-1d554a569b9a9bd970f4f34c4ab0ebc5c863b4f5 ice, irdma: fix an off by one in error handling code
-a25c9186f2a8d41b1541ea13af85b0d76fc7a0a3 idpf: check error for register_netdev() on init
-e5ffb77bd72c0324b11f98f56eefe849411da197 ixgbe: add support for thermal sensor event reception
-96d3de4c68bd839932b19316af9773135895c9d8 ice: fix check for existing switch rule
-3dedab6c7ece1a4e39e444133dd6cf7ad13dac74 ice: do not add LLDP-specific filter if not necessary
-c139a3483e042e3b9b391ef60c13d1d922720717 ice: receive LLDP on trusted VFs
-1967f3da2b7ac6c9cabd9c1972295a60fb21d879 ice: remove headers argument from ice_tc_count_lkups
-9aebacd66f836ea5e4a85e4ab95d96bb9505d720 ice: support egress drop rules on PF
-cff3858cf6255df6f214feb3967782d0bcf52dbe ice: enable LLDP TX for VFs through tc
-9fad70156392b2a8d909a7f76a691e7ded11e8e0 irdma: free iwdev->rf after removing MSI-X
-7aafd10ac8f2f8a3f784b19a20b02aa8b044be54 ice: redesign dpll sma/u.fl pins control
-881085be06dcaed0cd26c9bdb0d22cd4ce0f13f3 ice: change SMA pins to SDP in PTP API
-38823a9a48d3c691a3219a73f1510e9955ce5a83 ice: add ice driver PTP pin documentation
-0d3911e91b8b309d4e5caf4d86068009fec91e03 virtchnl: make proto and filter action count unsigned
-10ff126d99796f4012adf05424e4bcf799e53717 ice: stop truncating queue ids when checking
-a4e3eac23e92ff3f2959263089a47d4cb312061c ice: validate queue quanta parameters to prevent OOB access
-96b4f75772d3b81f87bc2f484a65aac1cc4b70ce ice: fix input validation for virtchnl BW
-27141f4f247578f5bc43561e8b34b9250e0f1dd8 devlink: add value check to devlink_info_version_put()
-5e6611fb0a564e0a4655c5370662170d1a460f1e ixgbe: wrap netdev_priv() usage
-0d4ab25ca9c6a20c025f69c1e1b0fd4a752ff3ff ixgbe: add initial devlink support
-d55c4d2f57fe99ca653bcb3d8bc1143add2cc13a ixgbe: add handler for devlink .info_get()
-ae77396136dddba877612b642cae0133c12fc4ee ixgbe: add E610 functions for acquiring flash data
-20299012a28f70101cce43652b59a36950eb117f ixgbe: read the OROM version information
-cccfb62728282ea5344e47e01c58ad421540c28b ixgbe: read the netlist version information
-e13567198e8bd5dcbb29650d33f3acfcb6755778 ixgbe: add .info_get extension specific for E610 devices
-b883494c82248dfe80a636c8026aada357a1a4fd ixgbe: add E610 functions getting PBA and FW ver info
-6b998cf3e55cb55c817e12fdd5b05b3ab162cca7 ixgbe: extend .info_get with stored versions
-1cde63054c27425f757035cb5c6672369a0ffe41 ixgbe: add device flash update via devlink
-a65b3f70108a18a2a75ccbfb5d7534c06fe3bc96 ixgbe: add support for devlink reload
-15d7cd0985c693ac88208fcfb8d21b489d0f0881 ixgbe: add FW API version check
-de59a911f5793d17028b54e6df70ac14a5ec23f2 ixgbe: add E610 implementation of FW recovery mode
-2920c0bf6df680b2ad5d1631029dd355ca2e00ff ixgbe: add support for FW rollback mode
-013a0b9191932b797b212518cec650b3aff6577c ixgbe: add MDD support
-791040d6782674d51d4b27f685e548dcdca7f521 ixgbe: check for MDD events
-75db182abe8a6ba2c0bc92e80f788e42e314552c ixgbe: add Tx hang detection unhandled MDD
-692375ca2a4e6916ddc2ef0d73faa37c7a93cd1a ixgbe: turn off MDD while modifying SRRCTL
 
---===============2166626905222843944==--
+--===============2934447150722174549==--
