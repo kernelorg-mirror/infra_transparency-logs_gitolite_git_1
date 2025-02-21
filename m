@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Fri, 21 Feb 2025 14:03:28 -0000
-Message-Id: <174014660861.1361288.12880991651933845151@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 21 Feb 2025 14:05:35 -0000
+Message-Id: <174014673516.1364328.15820699821400716810@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mips/linux
-user: tsbogend
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/mips-next
-    old: 2398902f96e22b871640ca233fca8f4a88af492f
-    new: 25613b42c155d7fd5ec388d31ea788b62dcd0d61
+  - ref: refs/heads/master
+    old: bf7f621845ac9c8178f6f8c634544295f1642bb6
+    new: 4949a71f52c44a66d5af9e5d76a28aaed20ea205
     log: |
-         21ebe64a2450fa1875e3c24fe137b598e96b81e3 dt-bindings: mips: Document mti,mips-cm
-         57c7110b99a71738b860bd106981ce18b5037ebb dt-bindings: mips: mips-cm: Add a new compatible string for EyeQ6
-         e27fbe16af5cfc40639de4ced67d1a866a1953e9 MIPS: cm: Detect CM quirks from device tree
-         ccd015b02d18e708bfebe41f017634b88903f057 MIPS: CPS: Support broken HCI for multicluster
-         25613b42c155d7fd5ec388d31ea788b62dcd0d61 MIPS: mobileye: dts: eyeq6h: Enable cluster support
+         affe678f355738db56361d124757c38c09401341 Merge tag 'v6.14-rc3' into x86/mm, to pick up fixes before merging new changes
+         a9ebcb88136ca80cb53de27ca5ae77de18bbe368 mm/memremap: Pass down MEMREMAP_* flags to arch_memremap_wb()
+         81256a50aa0fddefbf4849db8cad9f70c5167c04 x86/mm: Make memremap(MEMREMAP_WB) map memory as encrypted by default
+         4949a71f52c44a66d5af9e5d76a28aaed20ea205 Merge branch into tip/master: 'x86/mm'
          
