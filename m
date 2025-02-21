@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2934447150722174549=="
+Content-Type: multipart/mixed; boundary="===============2206561058232482760=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 21 Feb 2025 00:56:01 -0000
-Message-Id: <174009936182.361926.3356521636074411821@gitolite.kernel.org>
+Date: Fri, 21 Feb 2025 00:56:04 -0000
+Message-Id: <174009936454.362009.12767703733925310998@gitolite.kernel.org>
 
---===============2934447150722174549==
+--===============2206561058232482760==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: de7a88b639d488607352a270ef2e052c4442b1b3
     new: 7b5b7a597fbc19dacf6eefba3dd632a149a539b8
     log: revlist-de7a88b639d4-7b5b7a597fbc.txt
 
---===============2934447150722174549==
+--===============2206561058232482760==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -460,4 +460,4 @@ ce114069a654be6b1597da983a201c72ceca7a85 net: wangxun: Support to get ts info
 f438d8da3cbd4fb5f6d83366c74567b7df73498f Merge branch 'support-ptp-clock-for-wangxun-nics'
 7b5b7a597fbc19dacf6eefba3dd632a149a539b8 eth: fbnic: Add ethtool support for IRQ coalescing
 
---===============2934447150722174549==--
+--===============2206561058232482760==--
