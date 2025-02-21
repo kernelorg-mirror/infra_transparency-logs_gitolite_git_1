@@ -1,64 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2732851720749657467=="
+Content-Type: multipart/mixed; boundary="===============1778420206284040206=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Fri, 21 Feb 2025 09:41:15 -0000
-Message-Id: <174013087516.801405.6968789766712660770@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Fri, 21 Feb 2025 09:45:22 -0000
+Message-Id: <174013112226.805204.16378338954391072831@gitolite.kernel.org>
 
---===============2732851720749657467==
+--===============1778420206284040206==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 413415a525af3c7791f13447329946126cb61c12
-    new: f4d315a1f9d8fcaf608f283f01ce4d66160f44a1
+  - ref: refs/heads/usb-testing
+    old: f7b0c25439786d3e730b1ee25c256cdf8ab31ee0
+    new: c749f058b4371430a8338e1ca72b9ae38fef613b
     log: |
-         0a86ea5534a9e4ae988a2e174e741b102d8a8691 dt-bindings: hwinfo: samsung,exynos-chipid: add exynos7870-chipid compatible
-         f4d315a1f9d8fcaf608f283f01ce4d66160f44a1 Merge branch 'next/drivers' into for-next
-         
-  - ref: refs/heads/next/drivers
-    old: c86e967e6ba73ec6ac2a189073e0f7b0f1313788
-    new: 0a86ea5534a9e4ae988a2e174e741b102d8a8691
-    log: |
-         0a86ea5534a9e4ae988a2e174e741b102d8a8691 dt-bindings: hwinfo: samsung,exynos-chipid: add exynos7870-chipid compatible
+         c749f058b4371430a8338e1ca72b9ae38fef613b USB: core: Add eUSB2 descriptor and parsing in USB core
          
 
---===============2732851720749657467==
+--===============1778420206284040206==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1740130903 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1740130873-4e60324c5a5728aec9d3e77b4121e6721981a7fe
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1740131150 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1740131119-fb8aea6c01d70e2df24872ac618a759a4db587ec
 
-413415a525af3c7791f13447329946126cb61c12 f4d315a1f9d8fcaf608f283f01ce4d66160f44a1 refs/heads/for-next
-c86e967e6ba73ec6ac2a189073e0f7b0f1313788 0a86ea5534a9e4ae988a2e174e741b102d8a8691 refs/heads/next/drivers
+f7b0c25439786d3e730b1ee25c256cdf8ab31ee0 c749f058b4371430a8338e1ca72b9ae38fef613b refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAme4SlcQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1/gJD/wKak8iUsGunAgdmro11RZjLinTqKqp+R8O
-UsR0XPbubxg6ONlaRGwusboZzQINW36BOhfr2BFdNMhamNEVtGOa46BpCZq7IAEA
-CE2eHhwoxb0tLNYaM3fCaBaujJfIgQkt+dMIG/nsWt5UROCaA6oX6jZe3CMb34Fm
-MU6bBv3f0A7AwOuZ5THbT8rxfELZ/kYGkNzsaL7Nm3HLep1wC2QlyphQjlIso4Wn
-qJIz5a0GYTmAIqjqoy9zdpNkcnXk6CTkpyCLTnIXVKel2NC6+pFVKpvS/j1lW+5C
-5/B2byjSKLCGXOZmadN5ZJ9XDB+LgVtTffJXqoFwgFlZAHh27GMCP5pCniediwoX
-7cREJ5DLQEsc6nrr727GfjMuuO7xGZSpXePTfZhQdwEJXoNHJOLa+7vVoYwMHEYS
-oJgb5F+mufFzO7ssbIdip8Shhgf878ZjXBBf7dgRYLbKOp8N2adKqPuuJ7Vr3pJv
-sZRijucoJ+Sc5G8Fm4A6/JgtdmZYJdg5rmTvHl3IJ1F8GVrg0fWyOmVynH6qbmDm
-agWBXqBhX6ZvOi0u8zBVkBEO7Gk8XvV1+nTSvKSNsg4XHqK6Wf2/2rV39/LkapsY
-LlNwA+dEuVMomfZjIG1TAuZc7Dj3ced+1rgV3u3V2wK2ao+jGQ2ggUfgWKPFGiGg
-FLijg4KVFg==
-=E8Oy
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAme4S04bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LCMQAKgUTR9gdM4Gjkh1v5+C
+8YkwgdKVGcoyU82vf5eUjrBxSZn3BXnvKghm4uzOGaesppfdm7V+bLyq6unMkeZq
+nf2wRqN0RrrWwlr4dxq9dHArGY+sLOFvlGFYnw0OsAYLNkXVMov65qBt0exxMI19
+arpXBFmT566Ol4wwmV2QjFigkAfIL4UaCvOFdF8vTw2ARH7GsZfo2hJVVbXB8eGl
+xr2eZZLYKQ+MkPcznl7DXzDzx1PipfR34tOKcOtjHm/Oa0urT7v6GDTGnAgsoYXH
+oxBoFbU8rF4XEMzeH3LRGz0i23G+rJpIf5NZs2l2HayOz0hcVTNOhYioGbMY0nJF
+UEZLCp8UmVklaehsCpK14/C/Pn4PdDt+K9IxfHOBJ5kYDeQPYNOA4kqDCse++xuh
+ewGcorMuymr1pN9N+IEJHSNIGTbhHSca6mea4Uto75ELynuPIiNaVdbtN98wkAF7
+pLf/KjWwRLSLEPwEgWVV3nFY/EQ6W9oyT8mkQ2Ml19ZLuc6yGa/SCr8ti5Ch7EoT
+1+uKczRUnrMN6SjyTwygd12mkPlK20ER2BwYj8guKUZX2ThaxY0C/zqq5lI1M9gM
+H/UO9gJXOCqflcoPst0ElBr8YFj1E4LjxzaS0oeByJDmYimqPFY9XfGOz37BAYb/
+YvOZuyX0LzAQM4Ij42glhCXU
+=tAev
 -----END PGP SIGNATURE-----
 
---===============2732851720749657467==--
+--===============1778420206284040206==--
