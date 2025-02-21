@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4484437894764182558=="
+Content-Type: multipart/mixed; boundary="===============4988255729234736493=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 21 Feb 2025 12:51:20 -0000
-Message-Id: <174014228019.1006741.10700835655530644484@gitolite.kernel.org>
+Date: Fri, 21 Feb 2025 12:51:41 -0000
+Message-Id: <174014230182.1007253.11856486324632787784@gitolite.kernel.org>
 
---===============4484437894764182558==
+--===============4988255729234736493==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,42 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 50aa1ae2916730bebac77a8759de7c98af0b31bf
-    new: d44ac93084745979e6249a3ee89644e9338ae10c
-    log: revlist-50aa1ae29167-d44ac9308474.txt
+    old: d44ac93084745979e6249a3ee89644e9338ae10c
+    new: 5d5c1f710921252365fd49afc99c4637ad4c56b6
+    log: revlist-d44ac9308474-5d5c1f710921.txt
+  - ref: refs/heads/tip/urgent
+    old: 041e057fd5b9014f126ec292a55b0effa145807c
+    new: 09f6ff84a3c57be7e145936d70db1b7a27c2cea3
+    log: revlist-041e057fd5b9-09f6ff84a3c5.txt
 
---===============4484437894764182558==
+--===============4988255729234736493==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-50aa1ae29167-d44ac9308474.txt
+Content-Disposition: attachment; filename=revlist-d44ac9308474-5d5c1f710921.txt
+
+9481894f42f1e5ee571c39cb47bbd757d251cac7 Merge branch into tip/master: 'irq/urgent'
+22e69011f436f5319877111a3acaa0aed01cbda6 Merge branch into tip/master: 'perf/urgent'
+978324dc64472e62411eb0bfa6263bffc20739bf Merge branch into tip/master: 'sched/urgent'
+09f6ff84a3c57be7e145936d70db1b7a27c2cea3 Merge branch into tip/master: 'x86/urgent'
+d170ff2758029a17c4e85bc2dd8235fd7178e351 Merge branch into tip/master: 'irq/drivers'
+e04c1f927e133c2b2496ffc774c854685c31f66f Merge branch into tip/master: 'perf/core'
+525f4f057c984727fbf349f82cc76a0c77e36759 Merge branch into tip/master: 'sched/core'
+09ce445567a4eb2e89d87709721fe381a42ae61a Merge branch into tip/master: 'timers/cleanups'
+5525771cffc23031d964555bde55c038e775361a Merge branch into tip/master: 'timers/core'
+8a2894ae6bb8a339338d52c2f8fc545e3bd02725 Merge branch into tip/master: 'timers/vdso'
+1020a8bbea4f4c32ae713caf77e62f70b7f9e646 Merge branch into tip/master: 'x86/asm'
+c4bd611db270002355533b12b6357b1bcdc464c6 Merge branch into tip/master: 'x86/core'
+0025c5442af5ad7c33cb400ce7482517d17b5dfe Merge branch into tip/master: 'x86/cpu'
+2637d27338d7524c19654f09783a944cb0d5c4e0 Merge branch into tip/master: 'x86/fpu'
+f74fe83f608da7557fa90bcd17030ef4eec2353e Merge branch into tip/master: 'x86/microcode'
+5d5c1f710921252365fd49afc99c4637ad4c56b6 Merge branch into tip/master: 'x86/misc'
+
+--===============4988255729234736493==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-041e057fd5b9-09f6ff84a3c5.txt
 
 7332537962956fab2c055b37e5e2e6a0d2a8d6bf bpf: Remove unnecessary BTF lookups in bpf_sk_storage_tracing_allowed
 6b3d638ca897e099fa99bd6d02189d3176f80a47 bpf, test_run: Fix use-after-free issue in eth_skb_pkt_type()
@@ -65,6 +92,7 @@ c78f4afbd962f43a3989f45f3ca04300252b19b5 bpf: Fix deadlock when freeing cgroup s
 915e34d5ad35a6a9e56113f852ade4a730fb88f0 s390/ism: add release function for struct device
 bdf5d13aa05ec314d4385b31ac974d6c7e0997c9 ibmvnic: Don't reference skb after sending to VIOS
 0a4f598c84fc0eeb143ba03cdd3fc3d857061c3c MAINTAINERS: create entry for ethtool MAC merge
+02d954c0fdf91845169cdacc7405b120f90afe01 sched: Compact RSEQ concurrency IDs with reduced threads and affinity
 8fb5bb169d17cdd12c2dcc2e96830ed487d77a0f sockmap, vsock: For connectible sockets allow only connected
 857ae05549ee2542317e7084ecaa5f8536634dd9 vsock/bpf: Warn on socket without transport
 8350695bfb169b1924626a68f76b369ad01f18f2 selftest/bpf: Adapt vsock_delete_on_close to sockmap rejecting unconnected
@@ -110,9 +138,14 @@ dd3188ddc4c49cb234b82439693121d2c1c69c38 Merge branch 'net-remove-the-single-pag
 bf0e5ed0082ef0dbaa43c0296b045d6d9832082e Merge tag 'bcachefs-2025-02-20' of git://evilpiepirate.org/bcachefs
 e9a8cac0bf895efe0bc7b11d174e8dae9b195da8 Merge tag 'v6.14-rc3-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 27eddbf3449026a73d6ed52d55b192bfcf526a03 Merge tag 'net-6.14-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+b522f180ee2b264b771fcbd0ab67d84cdd9e580d MAINTAINERS: Change maintainer for RDT
 319fc77f8f45a1b3dba15b0cc1a869778fd222f7 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 74ee48a2b4afa152b2d7f741677f6ada3c11be51 Merge tag 'ata-6.14-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 334426094588f8179fe175a09ecc887ff0c75758 Merge tag 'for-v6.14-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply
-d44ac93084745979e6249a3ee89644e9338ae10c Merge branch 'linus'
+e9a48ea4d90be251e0d057d41665745caccb0351 irqchip/qcom-pdc: Workaround hardware register bug on X1E80100
+9481894f42f1e5ee571c39cb47bbd757d251cac7 Merge branch into tip/master: 'irq/urgent'
+22e69011f436f5319877111a3acaa0aed01cbda6 Merge branch into tip/master: 'perf/urgent'
+978324dc64472e62411eb0bfa6263bffc20739bf Merge branch into tip/master: 'sched/urgent'
+09f6ff84a3c57be7e145936d70db1b7a27c2cea3 Merge branch into tip/master: 'x86/urgent'
 
---===============4484437894764182558==--
+--===============4988255729234736493==--
