@@ -1,32 +1,59 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Fri, 21 Feb 2025 13:35:43 -0000
-Message-Id: <174014494301.1338172.11832522333706709997@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6806204972323688953=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 21 Feb 2025 13:36:15 -0000
+Message-Id: <174014497512.1338500.14230637895793692671@gitolite.kernel.org>
+
+--===============6806204972323688953==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-linus
-    old: 9af3b4f2d879da01192d6168e6c651e7fb5b652d
-    new: c9ca8a4f89884eb352e4c58204d39842cc73db9c
-    log: |
-         579cd64b9df8a60284ec3422be919c362de40e41 ASoC: tas2770: Fix volume scale
-         a3f172359e22b2c11b750d23560481a55bf86af1 ASoC: tas2764: Fix power control mask
-         f5468beeab1b1adfc63c2717b1f29ef3f49a5fab ASoC: tas2764: Set the SDOUT polarity correctly
-         c9ca8a4f89884eb352e4c58204d39842cc73db9c Merge tag 'asoc-fix-v6.14-rc3' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-         
   - ref: refs/heads/master
-    old: 6f647b8250cf051fa94fdd3c408cad8d35e14d64
-    new: 05a5226cf2019685c9d3d214acb3b9232136c04c
+    old: fc78f90d978f326ea0cf8398f346952e7b25b280
+    new: 6090d0d51a89e7d7860435d2bff5a7c633e498be
     log: |
-         579cd64b9df8a60284ec3422be919c362de40e41 ASoC: tas2770: Fix volume scale
-         a3f172359e22b2c11b750d23560481a55bf86af1 ASoC: tas2764: Fix power control mask
-         f5468beeab1b1adfc63c2717b1f29ef3f49a5fab ASoC: tas2764: Set the SDOUT polarity correctly
-         c9ca8a4f89884eb352e4c58204d39842cc73db9c Merge tag 'asoc-fix-v6.14-rc3' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-         05a5226cf2019685c9d3d214acb3b9232136c04c Merge branch 'for-linus'
+         31dcfe5bdcdee872b989142d7be1b0173b4a9795 Linux 6.1.129
+         83e4039550e89692d6f43a232e6363aeae84754c Linux 6.6.79
+         6939ca5a1eff5b5968c68d1cfd76113bbff85d0a Linux 6.12.16
+         6090d0d51a89e7d7860435d2bff5a7c633e498be Linux 6.13.4
          
+
+--===============6806204972323688953==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1740145000 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1740144970-d405150d41324e6c2ed78b36299feb1f1a73f98f
+
+fc78f90d978f326ea0cf8398f346952e7b25b280 6090d0d51a89e7d7860435d2bff5a7c633e498be refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAme4gWgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UVwP+gMvu8fpJb63A1aSbn81
+zdwougTknjkKpHcTJ+JW7QL8j0PBKqovw66MFpaAFndQpWT7vg/KY9zOk/VoHNMK
+z6O9CFZgSnNaf98i/LOrncRu1INvtzzThSyKmWZSFkBdm/D8J3jtaOHuoOJncbkD
+brd7mRQoWnZB4pmKA3+FVc8wNM2IsASzM1bV4qW7PFJwd/j9XUMCBifvR87YYZs4
+337iFvNymMulG5pXKQo5yrBQX9v13huttlS9wfcJ177DPFPeykWvyTcV/6LwiIXt
+uI+CDBLvjeGwGmYth+sBvAdfIkf3nlok9M/0jLW6O6chwPnvFR8+UP7ZSD+bya6Q
+ZytSMy9QnXWO8lEwLnjsjoqiOZGjYelzDBqzFhMMQpWPCnxTK7pjy3KaMaWe8W7x
+Ypuav+bkDAEesf/QqQHc7RxoHQAeEEDL0CTMBH/0JJ52YEVO08vqB+js6pshWhXj
+7dONGVyUBI7Z8BXZME8Dvfuau0fvaTWqHWATjlQ0Q5rQdUL0CLodHj6oI5tIRv6g
+LcwC60DemwvM4LgN5++OtecpVobD7Gp44U5JJA8pdtoYYH69TWkySEYh/oQ/yHvD
+rFHs0CUbOuvyRVu7+xNaBGwI2JeMSbjSzeWISSR2K48bceFmCC9GbX/uECSOHzFX
+kKXmu7j9P6AdQkCOyS0ebkcl
+=aKmw
+-----END PGP SIGNATURE-----
+
+--===============6806204972323688953==--
