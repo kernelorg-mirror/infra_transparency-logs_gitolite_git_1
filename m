@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Fri, 21 Feb 2025 01:42:41 -0000
-Message-Id: <174010216161.408756.13180793009821046917@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
+Date: Fri, 21 Feb 2025 01:44:25 -0000
+Message-Id: <174010226595.409568.10135986273978509253@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chrome-platform/linux
-user: tzungbi
+repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+user: sre
 changes:
-  - ref: refs/heads/for-next
-    old: 435a3d78b87a93c52a4f84e36ba4a0857554c958
-    new: 9fc83373f0ffb8834da48b1446a5c2fef9525bb1
-    log: |
-         9fc83373f0ffb8834da48b1446a5c2fef9525bb1 platform/chrome: cros_ec_typec: Add support for setting USB mode via sysfs
-         
+  - ref: refs/tags/for-v6.14-rc
+    old: 0000000000000000000000000000000000000000
+    new: 679ab07efb43525fee9ecdceda7a54f17f888ea7
