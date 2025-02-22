@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 22 Feb 2025 16:40:05 -0000
-Message-Id: <174024240563.2735528.2984070760961487581@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
+Date: Sat, 22 Feb 2025 17:09:30 -0000
+Message-Id: <174024417067.2761736.9842718033134251608@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/mani/mhi
+user: mani
 changes:
-  - ref: refs/heads/testing
-    old: a440c94203181131f9e4922691649ab2f1d50351
-    new: faeaa1ec6c63b6676679f321601471772f2a0c9b
+  - ref: refs/heads/mhi-next
+    old: c8006fbd0f4fd15fa990786ff9a097b45eef616c
+    new: cba6bdfd79291b82422b6e6b4036ebc076d5625f
     log: |
-         b955b5f063c2ce5013a6aff896e9add1b81014a8 docs: iio: fix wrong driver name in documentation
-         faeaa1ec6c63b6676679f321601471772f2a0c9b iio: gyro: bmg160_i2c: add BMI088 to of_match_table
+         cba6bdfd79291b82422b6e6b4036ebc076d5625f bus: mhi: host: pci_generic: Add support for SA8775P endpoint
          
