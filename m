@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8979291701228604344=="
+Content-Type: multipart/mixed; boundary="===============1882321856551892703=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Sat, 22 Feb 2025 15:11:25 -0000
-Message-Id: <174023708597.2648856.193497243090098443@gitolite.kernel.org>
+Date: Sat, 22 Feb 2025 15:11:37 -0000
+Message-Id: <174023709719.2649183.7844415881805939264@gitolite.kernel.org>
 
---===============8979291701228604344==
+--===============1882321856551892703==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,28 @@ repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next/execve
-    old: d5fa41452ff46574deb463f54d8b98fa4c219d7a
-    new: 9a3e62e7aff182403c9cf21e7dc523a42ed66ea1
-    log: |
-         ff41385709f01519a97379ce7671ee4e91e301e1 coredump: Only sort VMAs when truncating or core_sort_vma sysctl is set
-         9a3e62e7aff182403c9cf21e7dc523a42ed66ea1 Merge branch 'for-next/topic/execve/core' into for-next/execve
-         
+  - ref: refs/heads/for-linus/execve
+    old: 0000000000000000000000000000000000000000
+    new: ff41385709f01519a97379ce7671ee4e91e301e1
 
---===============8979291701228604344==
+--===============1882321856551892703==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1740237114 -0800
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1740237126 -0800
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1740237084-36a9d37a20101cff35e067673509d64ffe847588
+nonce 1740237095-afaaa1b4079aa6a53988186c921f8c5f1cc5368f
 
-d5fa41452ff46574deb463f54d8b98fa4c219d7a 9a3e62e7aff182403c9cf21e7dc523a42ed66ea1 refs/heads/for-next/execve
+0000000000000000000000000000000000000000 ff41385709f01519a97379ce7671ee4e91e301e1 refs/heads/for-linus/execve
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCZ7npOgAKCRA2KwveOeQk
-u8cdAP4kCzWJo7zsU8fjKdsXfA3or7lnfzYKxO9ijh1xIK87BQEAtrqMVjWwYsAU
-REfcE/qcW+4rd9fpfj32tXiBItGjOQA=
-=L/SH
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCZ7npRgAKCRA2KwveOeQk
+u4qEAP9pkkXNBLTs/yCpfFBntZd9sN1EdvSOkQ77/lJN5jx/rgEAihCPGI8tv0Xu
+nYXcNV7L5tcCAQ3rQN2QPsnbHtlsngs=
+=3RIV
 -----END PGP SIGNATURE-----
 
---===============8979291701228604344==--
+--===============1882321856551892703==--
