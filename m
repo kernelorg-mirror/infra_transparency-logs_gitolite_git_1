@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0913144063849858599=="
+Content-Type: multipart/mixed; boundary="===============8178734592606481063=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Sat, 22 Feb 2025 23:44:37 -0000
-Message-Id: <174026787796.3158955.6154364115415395775@gitolite.kernel.org>
+Date: Sat, 22 Feb 2025 23:44:52 -0000
+Message-Id: <174026789225.3159221.6149079833458773318@gitolite.kernel.org>
 
---===============0913144063849858599==
+--===============8178734592606481063==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
 user: mmind
 changes:
-  - ref: refs/heads/for-next
-    old: 03fa1896664722f35cdfc41a37b3ab17d60bd66e
-    new: 4e09afea6eb9162f7f1713a64bc9c29ac7af20a6
-    log: revlist-03fa18966647-4e09afea6eb9.txt
+  - ref: refs/heads/v6.15-armsoc/dts64
+    old: 73f98f468415a31e61e149a42b56468cd4658a55
+    new: 5c349537e298c9657eaf48e2768b308d04523052
+    log: revlist-73f98f468415-5c349537e298.txt
 
---===============0913144063849858599==
+--===============8178734592606481063==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-03fa18966647-4e09afea6eb9.txt
+Content-Disposition: attachment; filename=revlist-73f98f468415-5c349537e298.txt
 
 1444eb8fed6204a2e472967637404181b47f3c4a arm64: dts: rockchip: add support for HAIKOU-LVDS-9904379 adapter for PX30 Ringneck
 9f889cf1783680835d3ed401279075690b7f078a arm64: dts: rockchip: add overlay for PX30 Ringneck Haikou Video Demo adapter
@@ -41,6 +41,5 @@ ef32404f99c5155044f4903c5441167f52aeb152 arm64: dts: rockchip: add EEPROM found 
 f65f71a4c33706146ca81822ed08319d6740d343 arm64: dts: rockchip: enable Ethernet in Haikou carrierboard, not Puma DTSI
 83c247e2bc1bb7bde2e54ab3767421e22a06ff77 arm64: dts: rockchip: enable I2C3 in Haikou carrierboard, not Ringneck DTSI
 5c349537e298c9657eaf48e2768b308d04523052 arm64: dts: rockchip: disable I2C2 bus by default on RK3588 Tiger
-4e09afea6eb9162f7f1713a64bc9c29ac7af20a6 Merge branch 'v6.15-armsoc/dts64' into for-next
 
---===============0913144063849858599==--
+--===============8178734592606481063==--
