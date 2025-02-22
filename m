@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
-Date: Sat, 22 Feb 2025 02:57:15 -0000
-Message-Id: <174019303597.2044776.8205982855856050134@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 22 Feb 2025 03:25:43 -0000
+Message-Id: <174019474378.2067978.596647988984753260@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hyperv/linux
-user: wei.liu
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/hyperv-next
-    old: 3a7f7785eae7cf012af128ca9e383c91e4955354
-    new: 21cfcbeb7bffd9ea02fde5fede2e52b08540ab2d
+  - ref: refs/heads/main
+    old: e6a532185daae9302bf2f358c8675733093b906e
+    new: b66e19dcf684b21b6d3a1844807bd1df97ad197a
     log: |
-         9d8731a1757bef8630cb47e5ae3a1abbcf863e90 hyperv: Convert hypercall statuses to linux error codes
-         db912b8954c23a55dbc6dc683e0e06ffcb433848 hyperv: Change hv_root_partition into a function
-         21cfcbeb7bffd9ea02fde5fede2e52b08540ab2d hyperv: Add CONFIG_MSHV_ROOT to gate root partition support
+         dcc35baae732b9079b2c6595cfd86da02b34a4e6 usb: Add base USB MCTP definitions
+         0791c0327a6e4e7691d6fc5ad334c215de04dcc9 net: mctp: Add MCTP USB transport driver
+         b66e19dcf684b21b6d3a1844807bd1df97ad197a Merge branch 'mctp-add-mctp-over-usb-hardware-transport-binding'
          
