@@ -1,92 +1,76 @@
-Content-Type: multipart/mixed; boundary="===============0104399247189098020=="
+Content-Type: multipart/mixed; boundary="===============1741492954556592676=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sat, 22 Feb 2025 14:39:29 -0000
-Message-Id: <174023516906.2615206.870938749777685947@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Sat, 22 Feb 2025 14:39:37 -0000
+Message-Id: <174023517716.2615971.15328890634544284237@gitolite.kernel.org>
 
---===============0104399247189098020==
+--===============1741492954556592676==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
-    old: 2ce177e9b3649afa9c19cc71460f3ad50e7fd344
-    new: c5020c5be9d266f66fa5ba3286f0e8d2d2265970
-    log: revlist-2ce177e9b364-c5020c5be9d2.txt
+  - ref: refs/heads/usb-next
+    old: f8da37e46253316d29a274a6747cb69007bc81f2
+    new: c749f058b4371430a8338e1ca72b9ae38fef613b
+    log: revlist-f8da37e46253-c749f058b437.txt
 
---===============0104399247189098020==
+--===============1741492954556592676==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1740235198 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1740235167-fe981b02976ea3c2074e600703e47b9c800733ec
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1740235206 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1740235175-fad6e2030bb14ae917dd079661b4f038d14206a9
 
-2ce177e9b3649afa9c19cc71460f3ad50e7fd344 c5020c5be9d266f66fa5ba3286f0e8d2d2265970 refs/heads/driver-core-next
+f8da37e46253316d29a274a6747cb69007bc81f2 c749f058b4371430a8338e1ca72b9ae38fef613b refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAme54b4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DcoQAMRYNzYBANjKu+RNXdKX
-vUzfceFIfv1JrIHlPN3mcbVmwjqEEFH1Fl+K7k4Ifazrx6ZP1j8MkdD4nMLCGcEh
-17nutxU4idepQl7xrSpx34n+tqzrGvmAjYS8ByeZzijBvvApALsb56fDnpP7FKNH
-Jpo/4NAexHv+QopxEnjUB+jFTjdQlAgy9i+6bQ5b+UlId06cEMjN+Xbukfw+mKBn
-24Wvci11NLpK6DONrK8f+0M5Q4MAo0m9Uu5502fy6YSNHDub0PgLmwvY80AiQJFs
-BJIPppou8/GPEyIST9zGYcd9p/2lmzQ5HTqs6KcYWKLxV6uD98l7PQuNF16gpD5e
-aNXRMpv5rLOXVwyCIeuLwaLsVL5UMZRzEWIcW1ThrhnYzedQ5Ils2i8Mgf+Q53ql
-+gtYJqYnWkUuLmCWdd25p4rQ1d/NHqYzsTYzae0W/gFFSoHSZmS8D8+dBn2XnJTh
-wUiDxrJKUlYPSdTiAkZIr+g9P28eko7p3M170UicAVij3qMy8QvlUd/gZ67Av+0E
-x3PQXkxxcwBnOnnroL1xUtcFGOWIkX+eRM24TItXwWA0ESJhaZ5oMFKzbXZtWLk/
-dQ6gep4c6pCqWu6Nj69ej32KDDJ/hUHa8VXUL78Ig+8v8PgWGU2l1IHpa1JwWpTw
-YtIo1QEMP3qXFBA62CMiq/zp
-=R6QY
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAme54cYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+II0P/RtmcxUO/J9Foa5Fvh/V
+BZyfKMGJ/kkOH59l1ylIDh+bhIGR4l1QmsKzRpD0V4JxiEA6vp8AJgs6w1Gn28Gh
+w+aoU8OPxhV3CsGuAsKSnDKuhQjSmYSRsbqHM6SGQ+dWvg9JlLcQCup6xKu+GCRN
+MAtKE6cOk4t+LfuQ5Jav7z3OCPukIrCzdJhSKZlHed71oriRzKdImmfevhlFMhQb
+0ZJX/zaT+Rlg8QA9Fe681rdNyXkwdIqxfE+L9YJoeHsiJ1Mc1Y+AY5LJsAl0BYZi
+bKtBlAj4ePPYfdf7gXN9tO4/HsnDuDl8dQ2iCX/s9P45QBFebsQPPE66sS6/9EeG
+cc/C9yY9xPlSjXGzs2YweNKRtB89XaXNeztOctTe6KpSz3AzQvUxYnxD8vHN/K+T
+XfyJbGPhQRFrAnJAwiJRWCIuScjCqM8A2tHz9lVO2WTb78LVmwg6D+UKGWUcNFgI
+f9GtzGKsZIS9zmaCai/CVOLu1wH69C5AwDtoC9BlM97qQZSaACfKUqjZgjIlnHAU
+URQeae8c5l43T+ayBnEJlcxNNnH9pkAIzK4kueL0C1hJHXuaSOxJEz+emdY9frcS
+VVLWEefuT1KaKPCQ0t/SNZXHm+DLj84GnGUb9UQSv3T8S0Fi0UlE3XkwV1HLzr2H
+7WMWTgHezr5/3VxsJQoL2OEZ
+=JTGL
 -----END PGP SIGNATURE-----
 
---===============0104399247189098020==
+--===============1741492954556592676==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2ce177e9b364-c5020c5be9d2.txt
+Content-Disposition: attachment; filename=revlist-f8da37e46253-c749f058b437.txt
 
-6ef5b6fae304091593956be59065c0c8633ad9e8 kernfs: Drop kernfs_rwsem while invoking lookup_positive_unlocked().
-8fd74a31eaf3def0d57264ada57fc981902aeadf driver core: class: Remove needless return in void API class_remove_file()
-a44073c28bc6d4118891d61e31c9fa9dc4333dc0 driver core: Remove needless return in void API device_remove_group()
-b1b620bfa984b8fb91a284b60df702346b4294a4 kernel: Fix "select" wording on HZ_250 description
-6fb1ee255ed92b903b9b74e8483d05390cf9cfe6 drivers/base/bus.c: fix spelling of "subsystem"
-0514059ca09e407614a02fb3687ea78e607e6526 MAINTAINERS: Add driver core headers to DRIVER CORE maintainers
-177cbd5249b1af0b92e47fbd480f277cf3a0598d drivers: base: component: Allow more space for device name
-1d2d45b62784e81b6e08ec0ab7cca4eaa23ff581 driver core: location: Use str_yes_no() helper function
-7de24e20a7aa83295e567982b0b29f3b53152759 cxl/port: Constify 'struct bin_attribute'
-14e694dbf285e74af97d50212e3272d0d22ea653 firmware: dmi: Mark bin_attributes as __ro_after_init
-80d3989b9ce3b05f7a12cc5c4c8c565fc4ed88f2 firmware: dmi: Define bin_attributes through macro
-1c83b02c91c1cc42c3030788f437fe403c7e3b37 firmware: dmi: Constify 'struct bin_attribute'
-7787bfb3b0ea62432d3ffcd31eb66daec4b462ba drm/sysfs: Constify 'struct bin_attribute'
-cf3864d84fe98b7f7ff37a90156c3fc8f2c0067e drm/lima: Constify 'struct bin_attribute'
-e3626a456599304f59f827494746940ec025ad6f drm/i915: Constify 'struct bin_attribute'
-2d0f5001b61c4831d413d12c10caed0e99d73b25 drm/amdgpu: Constify 'struct bin_attribute'
-600aa8d31af9bf46c62ca0375cc2abb4f1d20c8d drm/amd/display: Constify 'struct bin_attribute'
-4ab0279857bb0b1c7a1ed61186527e33db693b6e fsi: core: Use const 'struct bin_attribute' callbacks
-f800cc58598eb4564cabcc4129d5d1a6f7f598b4 accel/habanalabs: constify 'struct bin_attribute'
-f9c883f0df2765c0cb1db3c306a36787ccb2055a Input: goodix-berlin - constify 'struct bin_attribute'
-ae7a15fb2920844e61cc71199cd1a08795716c54 efi/mokvar: Use const 'struct bin_attribute' callback
-05a9896fa9e15466456a1b1dc9d2eacdf3551b79 pcmcia: cistpl: Constify 'struct bin_attribute'
-10f10210f674a79b1214abae58077475f5de81b3 powerpc/secvar: Mark __init functions as such
-982d13db108c9a30b98d1eb3445011dbc5616532 powerpc/secvar: Constify 'struct bin_attribute'
-f629576662e024f57cb2c8d4ca6f297db9b904a3 powerpc/powernv/ultravisor: Constify 'struct bin_attribute'
-f2b62c03a28279cbeeb34d12037740a7e7703a6b powerpc/powernv/opal: Constify 'struct bin_attribute'
-4aad348d0fa62f816ae3e9dfbfc6663443357c0c powerpc/perf/hv-24x7: Constify 'struct bin_attribute'
-80f756cabfbf81d0d629b45eb8e3f9f0196728d2 firmware: qemu_fw_cfg: constify 'struct bin_attribute'
-5d0fbf548cbfcd1d7559b2daddedbeaa212d477f rapidio: constify 'struct bin_attribute'
-e965efc4aa14d9195d26a956a6bff5041110a155 efi: rci2: mark bin_attribute as __ro_after_init
-c5020c5be9d266f66fa5ba3286f0e8d2d2265970 kernfs: Move dput() outside of the RCU section.
+af7ac64ebd6f3ecf7560c8b299f31e8669ea4cd5 dt-bindings: usb: microchip,usb2514: add support for vdda
+233840bbdf7ca482645a934b3db8c41476d7391f dt-bindings: usb: microchip,usb2514: add support for USB2512/USB2513
+673655f7944faa377744e707e5c7f46be0a0bc7f usb: misc: onboard_dev: add vdda support for Microchip USB2514
+2ded07a8a21bfb6e48e49d293ae96a9705751feb dt-bindings: usb: usb-device: Replace free-form 'reg' with constraints
+fe54c948d38e6c2426ada456a0c00714e87b3312 USB: docs: Fix typo in aspeed-lpc.yaml
+7b2328c5a0091e4b85b59f9e758b8d2cd1cbefcc docs: Fix typo in usb/CREDITS
+3975e68cf31f670c1350710fa2d256556a5432b2 usb: dwc2: gadget: Introduce register restore flags
+8b7a1b3da2e290bcbe8024519c86ddf1aa2096e8 usb: dwc2: Refactor backup/restore of registers
+ba6e518d136b25b340ddedb97a79db5642e4ed7f usb: dwc2: Implement recovery after PM domain off
+834d1cb7ecf3f2812fc3c8cbe870cf2ad192f68e usb: typec: ps883x: fix probe error handling
+9f9de3e02d7f6f99ce6f4be92c28537706634ae9 usb: typec: ps883x: fix registration race
+9e7968c4424875fe9ce87c993f2f75784a2989cb usb: typec: ps883x: fix missing accessibility check
+21b1aea451b2790b17e0c8893fba914aeb6eed68 usb: typec: ps883x: fix configuration error handling
+0a86e49acfbb4f97ba86f05eb250f4c65c8bec0d dt-bindings: usb: samsung,exynos-dwc3 Add exynos990 compatible
+c749f058b4371430a8338e1ca72b9ae38fef613b USB: core: Add eUSB2 descriptor and parsing in USB core
 
---===============0104399247189098020==--
+--===============1741492954556592676==--
