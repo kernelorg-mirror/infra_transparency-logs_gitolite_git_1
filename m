@@ -1,56 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============3685474714803051960=="
+Content-Type: multipart/mixed; boundary="===============9124356980952588831=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Sat, 22 Feb 2025 22:49:34 -0000
-Message-Id: <174026457419.3100936.3389795215599010172@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Sat, 22 Feb 2025 23:38:39 -0000
+Message-Id: <174026751948.3151220.10203945484644266115@gitolite.kernel.org>
 
---===============3685474714803051960==
+--===============9124356980952588831==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/master
-    old: ff202c5028a195c07b16e1a2fbb8ca6b7ba11a1c
-    new: 5cf80612d3f72c46ad53ef5042b4c609c393122f
-    log: revlist-ff202c5028a1-5cf80612d3f7.txt
+  - ref: refs/heads/v6.15-armsoc/dts64
+    old: 6ee0b9ad3995ee5fa229035c69013b7dd0d3634b
+    new: 73f98f468415a31e61e149a42b56468cd4658a55
+    log: revlist-6ee0b9ad3995-73f98f468415.txt
 
---===============3685474714803051960==
+--===============9124356980952588831==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ff202c5028a1-5cf80612d3f7.txt
+Content-Disposition: attachment; filename=revlist-6ee0b9ad3995-73f98f468415.txt
 
-4cb77793842a351b39a030f77caebace3524840e irqchip/gic-v3: Fix rk3399 workaround when secure interrupts are enabled
-d7e3fd658248f257006227285095d190e70ee73a irqchip/jcore-aic, clocksource/drivers/jcore: Fix jcore-pit interrupt request
-02d954c0fdf91845169cdacc7405b120f90afe01 sched: Compact RSEQ concurrency IDs with reduced threads and affinity
-ec5fd50aeff9c9156304853c6d75eda852d4a2c8 uprobes: Don't use %pK through printk
-ed83aff5a94e1d623c007159a6a7f1c3ef202c6c s390: Update defconfigs
-173767c218cc1da74704e7863f165ac8a9796f3e s390/purgatory: Use -D__DISABLE_EXPORTS
-c3a589fd9fcbf295a7402a4b188dc9277d505f4f s390/boot: Fix ESSA detection
-782cffeec9ad96daa64ffb2d527b2a052fb02552 perf/x86/intel: Fix event constraints for LNC
-b522f180ee2b264b771fcbd0ab67d84cdd9e580d MAINTAINERS: Change maintainer for RDT
-e9a48ea4d90be251e0d057d41665745caccb0351 irqchip/qcom-pdc: Workaround hardware register bug on X1E80100
-517120728484df1ab8b71cba8d2cad19f52f18a1 x86/cpufeatures: Make AVX-VNNI depend on AVX
-dc0a241ceaf3b7df6f1a7658b020c92682b75bfc rseq: Fix rseq registration with CONFIG_DEBUG_RSEQ
-c9876cdb3ac4dcdf3c710ff02094165982e2a557 docs: arch/x86/sva: Fix two grammar errors under Background and FAQ
-38b14061947fa546491656e3f5e388d4fedf8dba ftrace: Fix accounting of adding subops to a manager ops
-8eb4b09e0bbd30981305643229fe7640ad41b667 ftrace: Do not add duplicate entries in subops manager ops
-ded9140622358a154efb3a777025fa7f7ae2c2d9 fprobe: Always unregister fgraph function from ops
-ca26554a1498bc905c4a39fb42d55d93f3ae8df2 fprobe: Fix accounting of when to unregister from function graph
-e85c5e9792b942381ad92ccd0ff745b6d408a91f selftests/ftrace: Update fprobe test to check enabled_functions file
-57b76bedc5c52c66968183b5ef57234894c25ce7 ftrace: Correct preemption accounting for function tracing.
-2fa6a01345b538faa7b0fae8f723bb6977312428 tracing: Fix memory leak when reading set_event file
-b8c8c1414f6d585d40f5432f36a75509737c8a07 Merge tag 'ftrace-v6.14-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-cd59f1d80a6d01326e37318218a072a46899d237 Merge tag 's390-6.14-5' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
-f112eea3ccefc8a267fff592059f128b3166ca9e Merge tag 'irq-urgent-2025-02-22' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-1ceffff65f12d5f7e57e627555521a205f477ef5 Merge tag 'perf-urgent-2025-02-22' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-8b82c18bf98ff4b5e01a6c36649eafa2c7a4e476 Merge tag 'sched-urgent-2025-02-22' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-5cf80612d3f72c46ad53ef5042b4c609c393122f Merge tag 'x86-urgent-2025-02-22' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+d914e5b04d8da1fcb02253a756fab9dc8fae62b7 arm64: dts: rockchip: fix pinmux of UART0 for PX30 Ringneck on Haikou
+19570d1227941581dcdf435e0a4ffaecd1bd5cc2 arm64: dts: rockchip: fix pinmux of UART5 for PX30 Ringneck on Haikou
+a385b4740cf30733c6e466c719c194c47cd6902f arm64: dts: rockchip: add support for HAIKOU-LVDS-9904379 adapter for PX30 Ringneck
+0c773a425e6f853175df1046a7e4446955cd0873 arm64: dts: rockchip: add overlay for PX30 Ringneck Haikou Video Demo adapter
+d0d946dc30c093cce8fbbcfb1918f65bc50655bd arm64: dts: rockchip: add overlay for RK3399 Puma Haikou Video Demo adapter
+2368b20ccdf1a9e78932d60e2d99ebfb2c7c4cfa arm64: dts: rockchip: add rk3576 otp node
+29ca6d821d839f706ed336f69a3051ef1bc4eeb5 dt-bindings: arm: rockchip: Add Radxa ROCK 4D board
+c3c57aff072fdb7dae2232e7d5d7ba8ce068ddfa arm64: dts: rockchip: Add Radxa ROCK 4D device tree
+177b48e8a978c6ffd7b791906af43a1a13541436 arm64: dts: rockchip: enable UART5 on RK3588 Tiger Haikou
+a66eada3c63687d9105c2a056b76ee8c85574481 arm64: dts: rockchip: move DDC bus from Haikou carrierboard to RK3399 Puma DTSI
+eb7a13266ebce1ff4f13697dbecb5ba8e660dab3 arm64: dts: rockchip: move I2C6 from Haikou carrierboard to Puma DTSI
+576d87631405b173b5c237b6904f29f4f8675a64 arm64: dts: rockchip: disable I2C6 on Puma DTSI
+bf981b852fcbd31e8d781d1b8976cb2faf1ac840 arm64: dts: rockchip: enable I2S0 in Haikou carrierboard, not Puma DTSI
+592143477f2f780c7b6f650e45d0f4643f340c7b arm64: dts: rockchip: add EEPROM found on RK3399 Puma Haikou
+6caaed1009175f7a16153ca134f5d32f19da732c arm64: dts: rockchip: enable Ethernet in Haikou carrierboard, not Puma DTSI
+982ff2637f8adc8d04ee3b03ab6700396d2c4a34 arm64: dts: rockchip: enable I2C3 in Haikou carrierboard, not Ringneck DTSI
+73f98f468415a31e61e149a42b56468cd4658a55 arm64: dts: rockchip: disable I2C2 bus by default on RK3588 Tiger
 
---===============3685474714803051960==--
+--===============9124356980952588831==--
