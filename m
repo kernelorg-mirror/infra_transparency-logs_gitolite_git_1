@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8010697597210863047=="
+Content-Type: multipart/mixed; boundary="===============0522474694317548025=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chao/f2fs-tools
-Date: Sun, 23 Feb 2025 01:45:04 -0000
-Message-Id: <174027510419.3259664.11284189995978681890@gitolite.kernel.org>
+Date: Sun, 23 Feb 2025 01:46:00 -0000
+Message-Id: <174027516092.3260234.255316781456773155@gitolite.kernel.org>
 
---===============8010697597210863047==
+--===============0522474694317548025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chao/f2fs-tools
 user: chao
 changes:
-  - ref: refs/heads/dev
-    old: 151fdb1aa090894eaa3dcef3194f7aaaeafb94cb
-    new: ad3736cca5284ca1b1521e5826f81f496d86d0ff
-    log: revlist-151fdb1aa090-ad3736cca528.txt
+  - ref: refs/heads/dev-test
+    old: 91e736553310ae666d20c9d4f29de7283c7b30eb
+    new: d0f1dda6ef8eee5ba1295462b1d8c52181287b97
+    log: revlist-91e736553310-d0f1dda6ef8e.txt
 
---===============8010697597210863047==
+--===============0522474694317548025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-151fdb1aa090-ad3736cca528.txt
+Content-Disposition: attachment; filename=revlist-91e736553310-d0f1dda6ef8e.txt
 
-f611eac6d99cf766ffde76ecac3463774266a4ef f2fs-tools: reset only current zones
-5da4e5241503b385e4a7e75b1b2bb3367b38be96 f2fs-tools: give 6 sections for overprovision buffer
-cc40084468a192494c949f6485751b099441b567 f2fs-tools: print extension list properly
-91e736553310ae666d20c9d4f29de7283c7b30eb f2fs_io: support unset subcommand for pinfile
 acaa17359cffd249692a4bb8e32143052d154103 mkfs.f2fs: add description for ro feature in manual
 5cfe1971ad3b1491ce482690f4a4aa7bbe6ec51c mkfs.f2fs: align each device to zone size
 d5a053ee065343b7ed3cb47638530fca0d7cef36 dump.f2fs: Add ability to dump folders
@@ -86,5 +82,10 @@ b7b6cacc347d567a7d60767af470e33a30f0b91c fsck.f2fs: fix incorrect parent blkaddr
 036af19f6dde3f1b0261b1a39e5f204280b5f3c9 f2fs_io: support 1GB dio buffer
 05fde8ed32dbb66c7cae57627cc4e51eafcf167a f2fs_io: add more options for randread test
 ad3736cca5284ca1b1521e5826f81f496d86d0ff mkfs.f2fs: remove IMMUTABLE bit
+7437823fa46880cf89a515351d9e5a7776cfb016 f2fs-tools: use pread and pwrite when they are available.
+b569df580c250a300c7275b4e6dc7d797eb49a31 f2fs-tools: add HAVE_PREAD and HAVE_PWRITE
+cc5ec785eabd6d0dfb49283f09b87a68e44657a9 f2fs_io: support fadvise dontneed, random, and noreuse
+3da2115ffe92de74fdcab0768e7356fa57157a0c f2fs_io: add ioprio command to give a io priority hint
+d0f1dda6ef8eee5ba1295462b1d8c52181287b97 f2fs_io: fallocate when setting pinfile
 
---===============8010697597210863047==--
+--===============0522474694317548025==--
