@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Sun, 23 Feb 2025 11:58:03 -0000
-Message-Id: <174031188399.3786465.10359087841200572086@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Sun, 23 Feb 2025 12:05:50 -0000
+Message-Id: <174031235019.3793962.6731559360271968685@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/wip/leon-for-rc
-    old: e1a0bdbdfdf08428f0ede5ae49c7f4139ac73ef5
-    new: b66535356a4834a234f99e16a97eb51f2c6c5a7d
-    log: |
-         b66535356a4834a234f99e16a97eb51f2c6c5a7d RDMA/bnxt_re: Fix the page details for the srq created by kernel consumers
-         
+  - ref: refs/tags/i2c-for-6.14-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 42fcfc285f0135103a7b652e6e5574ea49e4fe93
