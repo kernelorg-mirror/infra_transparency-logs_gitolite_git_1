@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
-Date: Sun, 23 Feb 2025 09:43:23 -0000
-Message-Id: <174030380362.3681596.769101064189163723@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
+Date: Sun, 23 Feb 2025 10:00:20 -0000
+Message-Id: <174030482095.3696312.10141673148090896419@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mellanox/linux
-user: leon
+repo: pub/scm/linux/kernel/git/ras/ras
+user: bp
 changes:
-  - ref: refs/heads/mlx5-next
-    old: 0ad2507d5d93f39619fc42372c347d6006b64319
-    new: 80df31f384b4146a62a01b3d4beb376cc7b9a89e
-    log: |
-         531ca2b9a215d072ffb4b1ff760a73f5e80c9c46 net/mlx5: Add new health syndrome error and crr bit offset
-         80df31f384b4146a62a01b3d4beb376cc7b9a89e net/mlx5: Change POOL_NEXT_SIZE define value and make it global
-         
+  - ref: refs/tags/edac_urgent_for_v6.14_rc4
+    old: 0000000000000000000000000000000000000000
+    new: b8b44a41cdf60e14647a5a1030b3477dcf4636fd
