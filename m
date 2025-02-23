@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Sun, 23 Feb 2025 17:32:00 -0000
-Message-Id: <174033192082.4055485.263550635104332989@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Sun, 23 Feb 2025 17:53:59 -0000
+Message-Id: <174033323934.4071994.7311898723391958719@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
   - ref: refs/heads/master
-    old: 9f6055c30b3e47df87a3f6f65471e41cb320bb7f
-    new: dad12f9387cf22fe20c41de7d8cab1e8b43fcb59
+    old: fe7e094e78139a4ac5ee31b2321b77041c725794
+    new: 0b390e80034f9e134560309840fc4053196523f9
     log: |
-         746bdbf667de557d0568ff9f3850f69b77d8b992 patches/next: remove reset_aggregated operations callback
-         dad12f9387cf22fe20c41de7d8cab1e8b43fcb59 patches/next: rebase to latest mm-unstable
+         0b390e80034f9e134560309840fc4053196523f9 Changes: Ready for 6.12
          
