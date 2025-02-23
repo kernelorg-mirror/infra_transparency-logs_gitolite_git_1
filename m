@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sun, 23 Feb 2025 17:53:59 -0000
-Message-Id: <174033323934.4071994.7311898723391958719@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sun, 23 Feb 2025 18:18:48 -0000
+Message-Id: <174033472875.4091591.12255817864050411852@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/master
-    old: fe7e094e78139a4ac5ee31b2321b77041c725794
-    new: 0b390e80034f9e134560309840fc4053196523f9
+  - ref: refs/heads/x86/asm
+    old: 7861640aac52bbbb3dc2cd40fb93dfb3b3d0f43c
+    new: dc8bd769e70ecae0916bf1b05acad6120c6bd6f0
     log: |
-         0b390e80034f9e134560309840fc4053196523f9 Changes: Ready for 6.12
+         dc8bd769e70ecae0916bf1b05acad6120c6bd6f0 x86/ioperm: Use atomic64_inc_return() in ksys_ioperm()
          
