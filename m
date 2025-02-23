@@ -1,57 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============7557081200570017106=="
+Content-Type: multipart/mixed; boundary="===============8623562167113080304=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Sun, 23 Feb 2025 07:14:56 -0000
-Message-Id: <174029489678.3515964.18215801807186877830@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
+Date: Sun, 23 Feb 2025 08:24:45 -0000
+Message-Id: <174029908534.3569791.6765954249070770070@gitolite.kernel.org>
 
---===============7557081200570017106==
+--===============8623562167113080304==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/powerpc/linux
+user: maddy
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 62077040e520b5cc322126ac99b983f23acf6b7f
-    new: 6c974c65787f153adbcb28e5b7777ac31c845329
+  - ref: refs/heads/fixes
+    old: d262a192d38e527faa5984629aabda2e0d1c4f54
+    new: eff2eb592efd73f00590d578c3d6021f604df62c
     log: |
-         54d434ee5d827485d5f27d5b8b9f82be3c9a0d10 CVE-2025-21655: Provide Google p0 cross-reference
-         6c974c65787f153adbcb28e5b7777ac31c845329 update CVE-2025-21655 with new reference
+         eff2eb592efd73f00590d578c3d6021f604df62c cxl: Fix cross-reference in documentation and add deprecation warning
+         
+  - ref: refs/heads/merge
+    old: 956c5a532ca99463143d340261c0046bbe359e75
+    new: 79725863ce2f4b1da2fd9e92092d39335b0dab8b
+    log: |
+         eff2eb592efd73f00590d578c3d6021f604df62c cxl: Fix cross-reference in documentation and add deprecation warning
+         79725863ce2f4b1da2fd9e92092d39335b0dab8b Automatic merge of 'fixes' into merge (2025-02-23 13:54)
          
 
---===============7557081200570017106==
+--===============8623562167113080304==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1740294858 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1740294893-ce83a4a51b498eaf742a2e65c3fe9493811bcb86
+pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1740299107 +0530
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
+nonce 1740299076-6ad0b28eb7e4cccf17d1f5a4b1a40ce8df950d29
 
-62077040e520b5cc322126ac99b983f23acf6b7f 6c974c65787f153adbcb28e5b7777ac31c845329 refs/heads/master
+d262a192d38e527faa5984629aabda2e0d1c4f54 eff2eb592efd73f00590d578c3d6021f604df62c refs/heads/fixes
+956c5a532ca99463143d340261c0046bbe359e75 79725863ce2f4b1da2fd9e92092d39335b0dab8b refs/heads/merge
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAme6ysobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+t1QQAKobDRKD8bTxmYITqez/
-sDqsAHPocb5lF09yF+qZo5J/p25eguJTbm2a71/ZSv6ktcS+GGcWdNNrOIoEkUZq
-HcqBkCbhMWtBdLLRCskRjg+x6Fq0IpRxum2hjyI0fgas9IUvKRM8YKSFLc3+CrK4
-FUq562Q20IOaCMZwLFKCwJSujBM2sIN/IT/mg2GwZLgbkB+9EHQUjbKuXpdL0M1P
-cDCPMNAosEZcLQyqqtTKCwB5XiXmqTwy27d/pczSFQ17Gr9t8eyEU09nA9kiV3Hf
-ogiHG39qLNK/KMQwJd/uw/zhqbmdcYcxkCDky2106OeZRPlm5Fth+wT0fxlBt52K
-+SijSqiv/5Sj3svaQqpXpFijQtiSPEhiHWjS5Q8ElFiYeaoiebTfCkwCqkJ4JbV/
-jsBQkZX3IRwq80dBRLdfaTzw5naVrAkFrmIPvY6b0fzCxkOMzJhLXthpBMYBV8ZQ
-Nj4srrGla2HBMY0hYviRCri1AUaLmHUJJeRn9YhFKKWnAQqsTLhVoIURRDIQRBMW
-7+rLLwcoK0ZZrxvgP289okt//NywMAQZtTrz3LC67FqYOnQAWEa379llEtW9R9Lq
-0lYQXKVAIhmdlQIandbiEE1tVJJ21OE0d792rt0MwEcq7wnApYQuoIdwAkr7DQC4
-XxW+rRDmZRs1I+o/A55pzqsm
-=9Q+v
+iQIzBAABCAAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAme622MACgkQpnEsdPSH
+ZJSjdg//ZPxtHOEt6klCplqaR/doHvIQcEoOfpe5qV0ra2ZuQ02+jejWxQuKj6Oi
+u49gQvvv2hhqjbyNl1xs5MqRNNAKvE1fidywxgmiHLGJehWzNZAYehH01P9wM9cN
+cdul6y8MkSEVDagspHEBMiANgbL+ZGxaBwSY4RoaLOdrV9l0wYL5aR1mEB6zjyLE
+eXsz+AfqyvMeeiqm8D3x/cy7g8tnpOadmRkdU69xlkC6s1ODp/RWWb9Wfhxh1Z2n
+HL35rUDtaZC/MMGsyTkmAr2UwyDftFEBgzOnZwnkhWCKkFRyVOaQcXUa0DkxpC7T
+yaZHhGqKwG1+u3s5bGGerwTy1JMeRnHRb2dhDBg+WkRfUmfpYpSA57+ieyGzHI9G
+yaUisGuDOAAEcCaK5820U/fronFEHqMLVjVz74QdAadJqJ3sW2hvHEwEyynCx3cV
+BSoWzKjt7uDTq6VT/l3fxN2PyALOjMq50PgSgfN5up4QmmVoLxajtyaazkrp4ee6
+3g8WdaDSb2/wvE1dJpHmttnjwh1Plg71/qamdq6ODBWo9OYM6elY/YbxkBm1LpqU
+zgm92OT7STqCGqtnKJ9Uzs+NQhSwqmRFsjAyVBwQRTOrU2mpqdbhI49lVpaW4W2o
+g/KxOZ5K4Nwv95P4iGeUkaLgLQU1nw93Ub8NCm+H3AAVGeVMLvs=
+=xgNu
 -----END PGP SIGNATURE-----
 
---===============7557081200570017106==--
+--===============8623562167113080304==--
