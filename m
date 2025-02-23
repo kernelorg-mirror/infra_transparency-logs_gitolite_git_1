@@ -1,21 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Sun, 23 Feb 2025 16:30:40 -0000
-Message-Id: <174032824044.4006347.4805143028813070388@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
+Date: Sun, 23 Feb 2025 16:39:19 -0000
+Message-Id: <174032875982.4011946.15621143123372123659@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
-user: ardb
+repo: pub/scm/linux/kernel/git/sunxi/linux
+user: wens
 changes:
-  - ref: refs/heads/urgent
-    old: ec7518a867b6197f5bf331180ff9e86beb552ac2
-    new: cb6ae457bc6af58c84a7854df5e7e32ba1c6a715
+  - ref: refs/heads/sunxi/clk-for-6.15
+    old: 730feeaea72f1260548e57d35dd49603cd86a7e4
+    new: eb963d7948ce6571939c6875424b557b25f16610
     log: |
-         174e5e9da4f5946de3d09c32ee56cbbc9d70505b efi/cper: Fix cper_ia_proc_ctx alignment
-         d6a2d02aa060531607f4a8411ec384470faa2761 efi/cper: Fix cper_arm_ctx_info alignment
-         cb6ae457bc6af58c84a7854df5e7e32ba1c6a715 efivarfs: Defer PM notifier registration until .fill_super
+         eb963d7948ce6571939c6875424b557b25f16610 clk: sunxi-ng: h616: Reparent GPU clock during frequency changes
+         
+  - ref: refs/heads/sunxi/for-next
+    old: 3f218dfe063d19f3adcb4a1eb31b2f9065ef9c70
+    new: e2d0b639a4d955c6cc8b5a7b0c215980b023f41a
+    log: |
+         eb963d7948ce6571939c6875424b557b25f16610 clk: sunxi-ng: h616: Reparent GPU clock during frequency changes
+         e2d0b639a4d955c6cc8b5a7b0c215980b023f41a Merge branch 'sunxi/clk-for-6.15' into sunxi/for-next
          
