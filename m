@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 23 Feb 2025 05:05:39 -0000
-Message-Id: <174028713985.3416125.4137335948724470164@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
+Date: Sun, 23 Feb 2025 06:25:47 -0000
+Message-Id: <174029194772.3478027.15811929257961476019@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/boqun/linux
+user: boqun
 changes:
-  - ref: refs/heads/master
-    old: 5cf80612d3f72c46ad53ef5042b4c609c393122f
-    new: 27102b38b8ca7ffb1622f27bcb41475d121fb67f
+  - ref: refs/heads/lockdep-for-tip
+    old: 4e4f60fd8391c10204b2316f5566feb2f5c486ed
+    new: 80ad79dc4fd4670939019093c451dc025394bff7
     log: |
-         860ca5e50f73c2a1cef7eefc9d39d04e275417f7 smb: client: Add check for next_buffer in receive_encrypted_standard()
-         27102b38b8ca7ffb1622f27bcb41475d121fb67f Merge tag 'v6.14-rc3-smb3-client-fix-part2' of git://git.samba.org/sfrench/cifs-2.6
+         a60f7c3a4a5614e0d37a4929f039da54a4969af6 rust: sync: condvar: Add wait_interruptible_freezable()
+         5f1698343f52eb5f92e8955d1a57934248e032f4 rust: lockdep: Remove support for dynamically allocated LockClassKeys
+         80ad79dc4fd4670939019093c451dc025394bff7 rust: lockdep: Use Pin for all LockClassKey usages
          
