@@ -1,26 +1,51 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Mon, 24 Feb 2025 19:02:24 -0000
-Message-Id: <174042374462.1240001.2924396381937484621@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6112213853799405099=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Mon, 24 Feb 2025 19:04:45 -0000
+Message-Id: <174042388572.1241625.2056993578565470676@gitolite.kernel.org>
+
+--===============6112213853799405099==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: kwilczynski
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/controller/brcmstb
-    old: d1ad39abd8f8f32dc9c014414ba46dfc01d9af4a
-    new: a15a2270783471b4c224351a5a458c91e2776032
-    log: |
-         2df181e1aea4628a8fd257f866026625d0519627 PCI: brcmstb: Fix missing of_node_put() in brcm_pcie_probe()
-         2235e494ba2221e5215f27b6619088d6afb9b761 dt-bindings: interrupt-controller: Add BCM2712 MSI-X bindings
-         4215fd052fbba9217034d76d8e76f3b54b152547 dt-bindings: PCI: brcmstb: Update bindings for PCIe on BCM2712
-         32c6c054661a9b454837e3df409e9bd8fe9ba5f9 irqchip: Add Broadcom BCM2712 MSI-X interrupt controller
-         6b6a327cc0abd1089294730ceeeb333a8cf1c19a PCI: brcmstb: Adding a softdep to MIP MSI-X driver
-         aa4b6f425169f77b6c26305e08ebe2afce55261b PCI: brcmstb: Reuse pcie_cfg_data structure
-         4486664114959b0ed12d151ccaac225379a7f4c0 PCI: brcmstb: Expand inbound window size up to 64GB
-         a15a2270783471b4c224351a5a458c91e2776032 PCI: brcmstb: Add BCM2712 support
-         
+  - ref: refs/heads/100GbE
+    old: f06e4bfd010faefa637689d2df2c727dbf6e1d27
+    new: 868b96f6e310f318d5ffbf12c0ef13164a5df070
+    log: revlist-f06e4bfd010f-868b96f6e310.txt
+
+--===============6112213853799405099==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-f06e4bfd010f-868b96f6e310.txt
+
+bd30e8d7bfa6e528f9e746c940e6f7246c7899d6 Bluetooth: Always allow SCO packets for user channel
+b25120e1d5f2ebb3db00af557709041f47f7f3d0 Bluetooth: L2CAP: Fix L2CAP_ECRED_CONN_RSP response
+c34d999ca3145d9fe858258cc3342ec493f47d2e rxrpc: rxperf: Fix missing decoding of terminal magic cookie
+833fefa074444b1e7f7e834cbdce59ce02562ed0 rxrpc: peer->mtu_lock is redundant
+71f5409176f4ffd460689eb5423a20332d00e342 rxrpc: Fix locking issues with the peer record hash
+add117e48df4788a86a21bd0515833c0a6db1ad1 afs: Fix the server_list to unuse a displaced server rather than putting it
+1f0fc3374f3345ff1d150c5c56ac5016e5d3826a afs: Give an afs_server object a ref on the afs_cell object it points to
+b282c5482310cabba56bd972437a89bdd6754b06 Merge branch 'rxrpc-afs-miscellaneous-fixes'
+fde9836c40d0bd66edf915f654b408eb350b240c Merge tag 'for-net-2025-02-21' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
+5c70eb5c593d64d93b178905da215a9fd288a4b5 net: better track kernel sockets lifetime
+0e4427f8f587c4b603475468bb3aee9418574893 net: loopback: Avoid sending IP packets without an Ethernet header
+c180188ec02281126045414e90d08422a80f75b4 net: set the minimum for net_hotdata.netdev_budget_usecs
+27843ce6ba3d3122b65066550fe33fb8839f8aef ipvlan: ensure network headers are in skb linear part
+fa52f15c745ce55261b92873676f64f7348cfe82 net: cadence: macb: Synchronize stats calculations
+28b04731a38c80092f47437af6c2770765e0b99f MAINTAINERS: fix DWMAC S32 entry
+f15176b8b6e72ac30e14fd273282d2b72562d26b net: dsa: rtl8366rb: Fix compilation problem
+528ff0dc59889c00aee98936ca4e2d6ce0c95731 ice: Fix deinitializing VF in error path
+eeba323ec061e781d8b1c58f13a894e978d7af8b ice: Avoid setting default Rx VSI twice in switchdev setup
+f5bbc4655a265050ff412cf9a86e9770d2ddee1a idpf: synchronize pending IRQs after disable
+0f9778b7e19d410525499ac17dcb3d97577ba4c5 iavf: fix circular lock dependency with netdev_lock
+868b96f6e310f318d5ffbf12c0ef13164a5df070 ixgbe: fix media cage present detection for E610 device
+
+--===============6112213853799405099==--
