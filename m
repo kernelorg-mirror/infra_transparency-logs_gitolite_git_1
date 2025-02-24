@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7738142279911880675=="
+Content-Type: multipart/mixed; boundary="===============3600669654311797350=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 24 Feb 2025 17:43:36 -0000
-Message-Id: <174041901669.1167102.12497400106493376935@gitolite.kernel.org>
+Date: Mon, 24 Feb 2025 17:43:38 -0000
+Message-Id: <174041901895.1167273.16892643336317310788@gitolite.kernel.org>
 
---===============7738142279911880675==
+--===============3600669654311797350==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: f06e4bfd010faefa637689d2df2c727dbf6e1d27
     new: f15176b8b6e72ac30e14fd273282d2b72562d26b
     log: revlist-f06e4bfd010f-f15176b8b6e7.txt
 
---===============7738142279911880675==
+--===============3600669654311797350==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ fa52f15c745ce55261b92873676f64f7348cfe82 net: cadence: macb: Synchronize stats c
 28b04731a38c80092f47437af6c2770765e0b99f MAINTAINERS: fix DWMAC S32 entry
 f15176b8b6e72ac30e14fd273282d2b72562d26b net: dsa: rtl8366rb: Fix compilation problem
 
---===============7738142279911880675==--
+--===============3600669654311797350==--
