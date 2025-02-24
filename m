@@ -1,65 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============6490020023601247889=="
+Content-Type: multipart/mixed; boundary="===============5883483443185216103=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Mon, 24 Feb 2025 06:59:25 -0000
-Message-Id: <174038036581.612153.1089956977273514139@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
+Date: Mon, 24 Feb 2025 07:00:47 -0000
+Message-Id: <174038044763.614961.14162494389535800303@gitolite.kernel.org>
 
---===============6490020023601247889==
+--===============5883483443185216103==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/linux/kernel/git/powerpc/linux
+user: maddy
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/dev-test
-    old: 0f9ada80ceed1a1769a313b9acc6f6937956135e
-    new: ad3c46dfb0c2d9ea44a2a75fee22abda79c7ffa9
-    log: revlist-0f9ada80ceed-ad3c46dfb0c2.txt
+  - ref: refs/heads/next-test
+    old: 0bf03898c3cb652c68049945eccf60098c33605c
+    new: 65acbd1285f7fe8c8b82cb90e4db923db5b9fe03
+    log: |
+         779c501cab14ba0b441a3c802c56be46a24f5c3b powerpc/44x: Declare primary_uic static in uic.c
+         2c1cbbab626afd2e66ae980eabf610e660cd9126 powerpc/vmlinux: Remove etext, edata and end
+         2bf3caa7cc3b725eb671fb7e186daf685089eb86 powerpc/32: Stop printing Kernel virtual memory layout
+         67d939159764d0c826971f9a83b4df687df5cbf4 powerpc/ipic: Stop printing address of registers
+         f17bcb97ed415235bbbcf897a28de856b88ddf95 powerpc/time: Define div128_by_32() static and __init
+         65acbd1285f7fe8c8b82cb90e4db923db5b9fe03 arch/powerpc: Remove unused function icp_native_cause_ipi_rm()
+         
 
---===============6490020023601247889==
+--===============5883483443185216103==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0f9ada80ceed-ad3c46dfb0c2.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-eb85c2410d6f581e957cd03a644ff6ddbe592af9 f2fs: quota: fix to avoid warning in dquot_writeback_dquots()
-bd409934c0619a6c3507891844aeb0c0dca69e18 f2fs: fix to return SHRINK_EMPTY if no objects to free
-1534747d3170646ddeb9ea5f7caaac90359707cf f2fs: don't retry IO for corrupted data scenario
-4f91f074702af3931a35c244470ae0c4b66f909c f2fs: add dump_stack() in f2fs_handle_critical_error()
-5f95c1812a65e4e8a6b89b6c0bafd654e8bc03de f2fs: add ioctl to get IO priority hint
-48ea8b200414ac69ea96f4c231f5c7ef1fbeffef f2fs: fix to avoid panic once fallocation fails for pinfile
-ef0c333cad8d1940f132a7ce15f15920216a3bd5 f2fs: keep POSIX_FADV_NOREUSE ranges
-a907f3a68ee26ba493a08a958809208d17f3347e f2fs: add a sysfs entry to reclaim POSIX_FADV_NOREUSE pages
-dcd3d559401f4fd752f818841a8e7d354624bbfb f2fs: Add f2fs_folio_wait_writeback()
-69418c1ea9bb807c5448130019d71241a07ed502 mm: Remove wait_for_stable_page()
-ccb487d9867deb549efbc39010db9a49ebf9ed65 f2fs: Add f2fs_folio_put()
-8e40259a011c263ed356c8bb22411369de9c0d62 f2fs: Convert f2fs_flush_inline_data() to use a folio
-2f0737928d31bd0b39432bf4f13029b0737e9f1b f2fs: Convert f2fs_sync_node_pages() to use a folio
-91d70ae45c467f10bfc308ce20c4af67736e2d0c f2fs: Pass a folio to flush_dirty_inode()
-4c30fa75cebd2ae860fec797a7d91d1a06ddc831 f2fs: Convert f2fs_fsync_node_pages() to use a folio
-2188a4920e9f8d84a2b070b81319bb207be8c239 f2fs: Convert last_fsync_dnode() to use a folio
-1bd2b8d188262622c013bec6f778b550b16c4018 f2fs: Return a folio from last_fsync_dnode()
-eddaa6e7493e2b62f3e42f1b77b02a59a1496915 f2fs: Add f2fs_grab_cache_folio()
-71feb802e339e07e69112031fc6c0c21d9c3e750 mm: Remove grab_cache_page_write_begin()
-5ebcf98a1dc3bdb7942b5c159fa9f7a16913395c f2fs: Use a folio in __get_node_page()
-1aa2bbdcf99e94ca3301b755a3b97908b01137ca f2fs: Use a folio in do_write_page()
-53081515e1f7d9e8b0e73d925ec03692a94c9551 f2fs: Convert f2fs_write_end_io() to use a folio_iter
-7fef9a3cc131f48c8009be8f761a17cd72933217 f2fs: Mark some functions as taking a const page pointer
-7706816d0a79ee763d172931f62613340d5270f8 f2fs: Convert f2fs_in_warm_node_list() to take a folio
-b6436bd541e3df66c4efed35e6fb1477b5a44c1c f2fs: Add f2fs_get_node_folio()
-20a1407fff140f73ae7910297bb2b235c372ae9d f2fs: Use a folio throughout f2fs_truncate_inode_blocks()
-1cff52f2b15e0bf522b3e47702fd84a7383f8ad5 f2fs: Use a folio throughout __get_meta_page()
-4dd779ea1a96aa8a6d0d80256882373ffe9a6422 f2fs: Hoist the page_folio() call to the start of f2fs_merge_page_bio()
-89d9f3b670a445120d29005b3a5aafa4be8e7220 f2fs: Add f2fs_get_read_data_folio()
-ed02510a1e1ba39d1d108168a320e3e1d3b18c70 f2fs: Add f2fs_get_lock_data_folio()
-b23ca3683e3bb879964811780199b25e6c8c0ed9 f2fs: Convert move_data_page() to use a folio
-cf08376e998d1a1637b1a99ec2d1e5b644694ca7 f2fs: Convert truncate_partial_data_page() to use a folio
-15a1f64c75317e8bf78f0e7aada80beb8368f749 f2fs: Convert gc_data_segment() to use a folio
-37252e0a241fc09d46dc110605025990c71d7947 f2fs: Add f2fs_find_data_folio()
-ad3c46dfb0c2d9ea44a2a75fee22abda79c7ffa9 mm: Remove wait_on_page_locked()
+certificate version 0.1
+pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1740380469 +0530
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
+nonce 1740380438-6b9083f6227d6966014f92ea2b078f9808a3571e
 
---===============6490020023601247889==--
+0bf03898c3cb652c68049945eccf60098c33605c 65acbd1285f7fe8c8b82cb90e4db923db5b9fe03 refs/heads/next-test
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAme8GTUACgkQpnEsdPSH
+ZJQYzA//bzfAmBJifJHTuKmdglnyRCuf1mXIWaD/UCySlEqDQ1uB3b3r+qPrNgso
+bkt++X9r77n0S1SQlL0xkdmYpedsFJH0oIAPKsKqFLvPsv992SNCi0/oyQnKt55Q
+oeFtGh5dKsYFmZyRXchEDevVGTAfxc2y3RMWlKp6Cezcnoa4miocD86ZpdtYmwlS
+bNwf6T6feG+yluDx/sXIQur3aCsR9aQCpvdQ94NDMNU74Y8/R9R5G6fXMYzVHqRO
+/IsG0Vfq62mROdeVQLcpqDUxbG1DFdE1KmYcIgCbJRA8+cidi5H8dn2qC/68AWEx
+rLOy5JY+1mpnsRcRZpU7oW3Wj855adLwlZ6tBWm3aRKiftCuh8omui0xsmeIYj0z
+u2EKY+U0ATNLhQkLdcnNETL7WXHf5WzorrP4G2BXlWbm2lypEnnVvbh/SXSl3D+i
+vUppc8aAiXLQbehjrVCDZCT2NGoUeQEAT1ZKn4g6zSXKcSfRJQ5vS2aXS3D06TmE
+2nzQLv9I82N6h4+5eieazrje3z4j5mBQTuGqoWkYY3s4j3G5HTPHJYfZ+vmLSq9t
+K4mkQEUDWOgv/VIV0aTYesPV9hc8pIy6dDdX1tJbj6zE+eKQnkyfvle4YAhJy4Pf
+llm94ODOHovNXgVK0aPaeEb3gLOMz4164FmxaGY3G+taE3t8GkE=
+=N42U
+-----END PGP SIGNATURE-----
+
+--===============5883483443185216103==--
