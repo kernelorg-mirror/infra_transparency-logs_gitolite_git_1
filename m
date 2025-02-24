@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Mon, 24 Feb 2025 12:35:20 -0000
-Message-Id: <174040052048.895463.15500017145373759526@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hare/nvme
+Date: Mon, 24 Feb 2025 12:38:39 -0000
+Message-Id: <174040071980.897133.15928235660946827056@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: mikulas
+repo: pub/scm/linux/kernel/git/hare/nvme
+user: hare
 changes:
-  - ref: refs/tags/for-6.14/dm-fixes
+  - ref: refs/heads/secure-concat.v15
     old: 0000000000000000000000000000000000000000
-    new: 970a68ede004d8abdbf6be8ba5f3fca2b8a4d5c9
+    new: 8050fa7e033ba5e0566e0d46b053bacc0e92b149
