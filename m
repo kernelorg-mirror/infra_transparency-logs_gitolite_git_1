@@ -1,56 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============9217883553312131786=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 24 Feb 2025 14:08:43 -0000
-Message-Id: <174040612354.976083.10504012302075241879@gitolite.kernel.org>
-
---===============9217883553312131786==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Mon, 24 Feb 2025 14:09:30 -0000
+Message-Id: <174040617066.976520.16153725203113840998@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
   - ref: refs/heads/master
-    old: 73124313dcc3dbd20702c342cb0c7638ef9d77f5
-    new: 4fbd98d0162dab48001bf0ce2484da21d4bc3644
+    old: 5c788d514b9ed6d1a3624150de8aa6db403c1c65
+    new: fe8ebe7995512696d94e704c2823e30faa0bdcff
     log: |
-         4fbd98d0162dab48001bf0ce2484da21d4bc3644 6.1-stable patches
+         408e16de212d3d530e41addf4965fc41674dc607 test/connect: propagate return value from test()
+         c2ca45de889443c2a748af8fc91edee3656bc86f test/connect: skip on -EINVAL in io_uring_setup
+         59f4bfddd7070495ac8dcc384e198061d66eb653 test/iopoll-overflow: skip on -EINVAL in io_uring_setup
+         5bfe1a91e8c500622991cbef1355db44389acb44 test/resize-rings: skip on -EINVAL in io_uring_setup
+         d8be0b8f66d00c75b7d4ca72816d4ff341848d53 test/timeout: skip test_update_multishot_timeouts if not supported
+         c7fd16a7d7af305384c44baa74b4bd07bb378295 test/wq-aff: check io_uring_queue_init_params() success
+         fe8ebe7995512696d94e704c2823e30faa0bdcff Merge branch 'fix/test-einval' of https://github.com/calebsander/liburing
          
-
---===============9217883553312131786==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1740406151 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1740406120-3c30c3a38cd3088c07f91d1175150f4e141e8ffc
-
-73124313dcc3dbd20702c342cb0c7638ef9d77f5 4fbd98d0162dab48001bf0ce2484da21d4bc3644 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAme8fYcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+158P/0XrfUvDgAimRm4JDXFe
-dKMY4kmpYXfRzqI1XvKiaGH0GWPnVZFfbwaQs2sq5dCe0GWDAqKDNZoX/NfH2X0R
-mAdzQ8tHw2p6P/B32CaK9Lr0YitBd0ddbLJdqE7I+ojRc7/1sgdHHoWgiZY39HTD
-U5Ic4XiKSa6YCtpPV7cGjUBeGAVvqoB5IgdACLX7BcrIp7h+Fb/qmN38hmeuh5A9
-ZCjBWKMZC+UAHuu/cZT08lIn33G2bT4oh5KeSeX5fckpigQjEV0klWRSwRNypFQG
-EWLGrf6ot5tkhyMGxkzCb9RE0FHqYK7DQ7rhcbs7BeTe91yoMlfBfzY46as6L6o1
-vAPoaIg9ybl5ojgSx/uthlbN4Kl9Tm3Je2888MWwUudfr1GzrSL46emVYqhdExDY
-m2ev67Vd8WgekJlkIgJK9BndmcLub9XbxHFd6jxvq2aetbGT4pLZCjcpwy45otCC
-1UtJvJ5my/Kt59AnhHrXRr1iHXjnz4Ijl18oIF9M9kxh0Qeh9wLIQdM0Usz9FMnz
-NdfMWc7Ud5OPMO3V1GwLpUJbjfsUCArto8yiApzNhI+ypBQc9usGlbqLQ/FXjNrt
-P9rI325plBQRXX8r9L1qsGS5kErUAhvmwIzg/tvM+VuDnAtYt/MepTQc/a1uTDkr
-uZ3ch6ZjysJ0ni0Pd1218jMS
-=wbgg
------END PGP SIGNATURE-----
-
---===============9217883553312131786==--
