@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7546184448934742468=="
+Content-Type: multipart/mixed; boundary="===============5534660928540117807=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-rt-devel
-Date: Mon, 24 Feb 2025 11:24:05 -0000
-Message-Id: <174039624517.835593.4610575171710352377@gitolite.kernel.org>
+Date: Mon, 24 Feb 2025 11:24:36 -0000
+Message-Id: <174039627673.836439.10290802198576233490@gitolite.kernel.org>
 
---===============7546184448934742468==
+--===============5534660928540117807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,143 +16,49 @@ repo: pub/scm/linux/kernel/git/rt/linux-rt-devel
 user: bigeasy
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/linux-6.12.y
-    old: 77f85ccd3618f324d221f0faaed6d9cdc118c74a
-    new: 19b4657de424f48a588eb379fe3214d317f46cd7
-    log: revlist-77f85ccd3618-19b4657de424.txt
-  - ref: refs/heads/linux-6.12.y-rt
-    old: 284918266c1518846fc80e90cbb580d0bb250a2f
-    new: 5010737f6ee6a6fd181fef6ba24679e17a59fa59
-    log: revlist-284918266c15-5010737f6ee6.txt
-  - ref: refs/heads/linux-6.12.y-rt-patches
-    old: ac907cac0a6d4c7ed8d1307499d00615260f6916
-    new: b7402ed929a05397b5c02802bdfaae40df4f2fc8
-    log: |
-         b7402ed929a05397b5c02802bdfaae40df4f2fc8 [ANNOUNCE] v6.12.16-rt9
-         
-  - ref: refs/tags/v6.12.10
-    old: 0000000000000000000000000000000000000000
-    new: b1e08dd39d6ea3edeb811dfb8ba9d48d3be364c9
-  - ref: refs/tags/v6.12.11
-    old: 0000000000000000000000000000000000000000
-    new: 0d6b0b4c766d5140e8792086e22c759279d081d5
-  - ref: refs/tags/v6.12.12
-    old: 0000000000000000000000000000000000000000
-    new: bbec4d089cd2cf4678b83de59525407eace8cfad
-  - ref: refs/tags/v6.12.13
-    old: 0000000000000000000000000000000000000000
-    new: 129290a9bd50cde8b7454511be7423ce7d48c321
-  - ref: refs/tags/v6.12.14
-    old: 0000000000000000000000000000000000000000
-    new: d24976864e67abb8b5952f84865199933952dc57
-  - ref: refs/tags/v6.12.15
-    old: 0000000000000000000000000000000000000000
-    new: a346397db7824ffa8ac28b9ffb397106e8d24fe5
-  - ref: refs/tags/v6.12.16
-    old: 0000000000000000000000000000000000000000
-    new: dc683a11772aeb94fe904926b9030429200b4b7e
-  - ref: refs/tags/v6.12.16-rt9
-    old: 0000000000000000000000000000000000000000
-    new: 488da032bb9a9397a6945ba76b468ca5eccddde7
-  - ref: refs/tags/v6.12.16-rt9-patches
-    old: 0000000000000000000000000000000000000000
-    new: 7d5334e2ad3b7fe12fec9b0951e509d072da2988
-  - ref: refs/tags/v6.12.16-rt9-rebase
-    old: 0000000000000000000000000000000000000000
-    new: 7c0c92cb63ccb218b926f1df9330ea123e666128
-  - ref: refs/tags/v6.12.9
-    old: 0000000000000000000000000000000000000000
-    new: ad177ff2002cdd228c0f7c498cbbc938261e30b4
+  - ref: refs/heads/for-kbuild-bot/prepare-release
+    old: ecdc0d0bb42d9a77cd603ebfc7cbfac74284965f
+    new: 1dddb63461465631d33b6c844c3cea765e941713
+    log: revlist-ecdc0d0bb42d-1dddb6346146.txt
+  - ref: refs/heads/linux-6.12.y-rt-rebase
+    old: ef0fc7b32d759b7c850abd331503dc1061c4fc05
+    new: 1dddb63461465631d33b6c844c3cea765e941713
+    log: revlist-ef0fc7b32d75-1dddb6346146.txt
 
---===============7546184448934742468==
+--===============5534660928540117807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Sebastian Andrzej Siewior <bigeasy@linutronix.de> 1740396242 +0100
+pusher Sebastian Andrzej Siewior <bigeasy@linutronix.de> 1740396276 +0100
 pushee ssh://ko-g/pub/scm/linux/kernel/git/rt/linux-rt-devel.git
-nonce 1740396211-d62345fe2484ec2ecd3b87e323e4603a65949eea
+nonce 1740396246-9327a33249d9be014df72fb8fe26041e9a405e22
 
-77f85ccd3618f324d221f0faaed6d9cdc118c74a 19b4657de424f48a588eb379fe3214d317f46cd7 refs/heads/linux-6.12.y
-284918266c1518846fc80e90cbb580d0bb250a2f 5010737f6ee6a6fd181fef6ba24679e17a59fa59 refs/heads/linux-6.12.y-rt
-ac907cac0a6d4c7ed8d1307499d00615260f6916 b7402ed929a05397b5c02802bdfaae40df4f2fc8 refs/heads/linux-6.12.y-rt-patches
-0000000000000000000000000000000000000000 b1e08dd39d6ea3edeb811dfb8ba9d48d3be364c9 refs/tags/v6.12.10
-0000000000000000000000000000000000000000 0d6b0b4c766d5140e8792086e22c759279d081d5 refs/tags/v6.12.11
-0000000000000000000000000000000000000000 bbec4d089cd2cf4678b83de59525407eace8cfad refs/tags/v6.12.12
-0000000000000000000000000000000000000000 129290a9bd50cde8b7454511be7423ce7d48c321 refs/tags/v6.12.13
-0000000000000000000000000000000000000000 d24976864e67abb8b5952f84865199933952dc57 refs/tags/v6.12.14
-0000000000000000000000000000000000000000 a346397db7824ffa8ac28b9ffb397106e8d24fe5 refs/tags/v6.12.15
-0000000000000000000000000000000000000000 dc683a11772aeb94fe904926b9030429200b4b7e refs/tags/v6.12.16
-0000000000000000000000000000000000000000 488da032bb9a9397a6945ba76b468ca5eccddde7 refs/tags/v6.12.16-rt9
-0000000000000000000000000000000000000000 7d5334e2ad3b7fe12fec9b0951e509d072da2988 refs/tags/v6.12.16-rt9-patches
-0000000000000000000000000000000000000000 7c0c92cb63ccb218b926f1df9330ea123e666128 refs/tags/v6.12.16-rt9-rebase
-0000000000000000000000000000000000000000 ad177ff2002cdd228c0f7c498cbbc938261e30b4 refs/tags/v6.12.9
+ecdc0d0bb42d9a77cd603ebfc7cbfac74284965f 1dddb63461465631d33b6c844c3cea765e941713 refs/heads/for-kbuild-bot/prepare-release
+ef0fc7b32d759b7c850abd331503dc1061c4fc05 1dddb63461465631d33b6c844c3cea765e941713 refs/heads/linux-6.12.y-rt-rebase
 -----BEGIN PGP SIGNATURE-----
 
-iQHKBAABCgA0FiEEV4kucFIzBRM39v3RBWQfF1cS+lsFAme8VtIWHGJpZ2Vhc3lA
-bGludXRyb25peC5kZQAKCRAFZB8XVxL6W/IdDAChhyUJpTdtTVG7GpVruj6AavkP
-wvW7y5f4p+AZ3S19yhQlm8CYjcDz/U9NzT06TvsHJ2veB4rOQxpKTWTYkXKcNPZR
-hevEo/xzggSpM6blPNT/oA3eQKlCNALAQWjRfIuGtvzZvT5bQAdgh5YgQXblz+7E
-lNf59GVPeSdKytbZrt4okaHKvu7rLSecMW1fTwTbqo9ahTpydDOe2SfXl2N0avrJ
-QjbdUrMIwwOJtk31hLmhRkHTO2w+QgHyJ6YuLbCynlujkve1+4+0bJnGupSvluSD
-OPzQ4B9rQoeFW2e2GVAUmpWOiX/HinvNO30OnI8qR3qgCLidOIj6c7LBONPWxiQ6
-lHqT4WhjwWIENNW0VPqcmFZxgLo537wGA/flRo1UL0WvWLqUs7FpY1y27wcfVwY3
-OyOH4fU556uXXdzeSIfSdFS2A45Qb6Yr6o9w2iVjtxVWczyjiaKQQuTl7F2Ksfph
-c0P+krrkt7CLRi6RHEtTlWR4MkM6ql6m/LfjOqc=
-=emS4
+iQHKBAABCgA0FiEEV4kucFIzBRM39v3RBWQfF1cS+lsFAme8VvQWHGJpZ2Vhc3lA
+bGludXRyb25peC5kZQAKCRAFZB8XVxL6W12CC/90icsuiYNrFDM6Y7/qTFlHQPlz
+VE3lafvXo4sLY8ToSyA+6b9+fUZBQzNYAoUansIf6IjvRIvr9jvIQ7IwnwsMZeWP
+Lv6qYX6jwtROi2ErlJ9maYDenkNXd9Qku7snJsNpuZpPNEypEdoGnPx6emI87ABN
+yyUiBgTtqCD576Fb60yFX0Uk7OSrXSMKzhdCWIllMJ5960PhOjzL2wNJqseUSYOC
+gpfZTDDyfKbcHMTK0Jh+x8UAWOPMzSJdk7D0enHbXUHSIhMHLqFIx9ELPxHo9Lum
+Q+cG1fTwhBDXVdLqkjSfkXWt5R7p4W1tdqxKiMVklsiHMjJsBn0aeCn97Ht826r+
+OeYxzOeKUsdKgHbeYVwRhK1owWmsOQ+5laSGgWlQg7zcZGM1kn4xTi/pINGOD5yh
+EDGr+/P+dCDQFCKcl3lk/GkTeC8IQgQjtdZTC/gdIDjPiw5bDJe3uTzwLgphcoso
+hgzjni+pCI6a6ny9YWkCbtbanv6tABIiQseqEf8=
+=Sqhh
 -----END PGP SIGNATURE-----
 
---===============7546184448934742468==
+--===============5534660928540117807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-77f85ccd3618-19b4657de424.txt
+Content-Disposition: attachment; filename=revlist-ecdc0d0bb42d-1dddb6346146.txt
 
-776fb8be525f7f23de0606bcb200a593eff4e820 wifi: mt76: mt7996: fix ldpc setting
-1ed46901bb7c09baa0319f1d89cf3a54d0dc9b17 i2c: designware: Actually make use of the I2C_DW_COMMON and I2C_DW symbol namespaces
-1f3c13e32984182ddcafefc24386580a286a43d1 cpufreq: ACPI: Fix max-frequency computation
-09d28675a8345583540908d4f2abdbd462f51a75 selftests: timers: clocksource-switch: Adapt progress to kselftest framework
-9f6b2d4a0bca3f75bb1855c35fefa456c11988b6 selftests: harness: fix printing of mismatch values in __EXPECT()
-2e857fc25f4240ac07cf398b13a9912cf3dfa573 wifi: cfg80211: adjust allocation of colocated AP data
-df2f2d9199e61819cca5da0121dfa4d4cb57000f Bluetooth: btbcm: Fix NULL deref in btbcm_get_board_name()
-1158ad8e8abb361d4b2aaa010c9af74de20ab82b Bluetooth: btrtl: check for NULL in btrtl_setup_realtek()
-3d72635127707cbfbc35488b25c1f1d9bc0f29c4 inet: ipmr: fix data-races
-eb5516343dafc58554355f65c49be60304d47c39 clk: analogbits: Fix incorrect calculation of vco rate delta
-f98ccd7d77210ff939bb2a8d854d2ff3619ed8d7 dev: Acquire netdev_rename_lock before restoring dev->name in dev_change_name().
-e730500506e7846eff0d5bc6f7143740500a68d9 pwm: stm32: Add check for clk_enable()
-e9d01de8951fd1779892dc0b315ee935296ccc65 selftests/landlock: Fix build with non-default pthread linking
-f161d3c9e576434853476ee7135523945ff96a4a selftests/landlock: Fix error message
-33e2168788f8fb5cb8bd4f36cb1ef37d1d34dada net: let net.core.dev_weight always be non-zero
-f7b74f3d03021793d5a6cd315151d0b609df0a98 net/mlxfw: Drop hard coded max FW flash image size
-15cc4388d293d9c8195a685cc02de19346c6e3c6 octeon_ep: remove firmware stats fetch in ndo_get_stats64
-695359e2ffc8334bfa641d13626f4ecfdfa368eb octeon_ep_vf: remove firmware stats fetch in ndo_get_stats64
-b382ab9b885cbb665e0e70a727f101c981b4edf3 net: avoid race between device unregistration and ethnl ops
-73c7e1d6898ccbeee126194dcc05f58b8a795e70 net: sched: Disallow replacing of child qdisc from one parent to another
-d7fe7e1bbe95d2d1425ec985d92fe8169d6bdc35 netfilter: nf_tables: fix set size with rbtree backend
-bedfabb4e7c980ab72946336d169dacef11abeb2 netfilter: nft_flow_offload: update tcp state flags under lock
-5213efec9085715c77c57e20fef640b8f349aecb net: sched: refine software bypass handling in tc_run
-8448c87b3af68bebca21e3136913f7f77e363515 net: ethernet: ti: am65-cpsw: fix freeing IRQ in am65_cpsw_nuss_remove_tx_chns()
-a0753466f01c3645b85e7186048c426de2ec2fca tcp_cubic: fix incorrect HyStart round start detection
-d08f4074f9c69f7e95502587eb1b258a965ba7f0 net/rose: prevent integer overflows in rose_setsockopt()
-da0735df99dbd7be573ede235b91a146b34f753e platform/mellanox: mlxbf-pmc: incorrect type in assignment
-d3269ace1058c2e0599975650dbaf42adc011d7b platform/x86: x86-android-tablets: make platform data be static
-2bf01c4600a1772efc05ba5d32dcbbc6c2997257 pinctrl: samsung: Fix irq handling if an error occurs in exynos_irq_demux_eint16_31()
-a29129e2364c4b2153330e3decf3e3054b3b3a3f libbpf: don't adjust USDT semaphore address if .stapsdt.base addr is missing
-ae2205cdc46968b8c8c5fc7b44e503c9dafa88ce ASoC: cs40l50: Use *-y for Makefile
-3487c4c0b860854965702671755b5a1101273849 ASoC: mediatek: mt8365: Use *-y for Makefile
-950c0d172d3d996ce4f34e8194d9f1d7a389a845 ASoC: wcd937x: Use *-y for Makefile
-65f1b9773080bfdc5d218a1f6028c17ed435db76 tools/testing/selftests/bpf/test_tc_tunnel.sh: Fix wait for server bind
-a230cd305198491b67a19d6cfd442319340333ba libbpf: Fix segfault due to libelf functions not setting errno
-6a6e2beb2af8fd9c4f8e7eac40cde34cac57e453 ASoC: Intel: sof_sdw: correct mach_params->dmic_num
-829b0400e5c9d1dc209d562612fd2472173dd2d7 ASoC: sun4i-spdif: Add clock multiplier settings
-08b6ffea815840f678d12e78b6f9b7e7554498a5 selftests/bpf: Fix fill_link_info selftest on powerpc
-2122e8553cb48fd82fae158e6c79120813714ce9 iommu/arm-smmuv3: Update comments about ATS and bypass
-1dbc270f9df7f0ae1e591323431869059cee1b7d crypto: tegra - do not transfer req when tegra init fails
-b7de862bda9d848cb8467630e6d57568ca894972 crypto: api - Fix boot-up self-test race
-651959fae5fb0c1ae96e13ca71572f2fe97797fb crypto: caam - use JobR's space to access page 0 regs
-22ae75ad6ed793a20d36dd802b2765dd7a196aa6 perf header: Fix one memory leakage in process_bpf_btf()
 0db155d08b9fe6a47dde7a2ef74faf0317c63886 perf header: Fix one memory leakage in process_bpf_prog_info()
 e63deda2a51b2d89edb481774297be0c81044bea perf bpf: Fix two memory leakages when calling perf_env__insert_bpf_prog_info()
 2ac66e67678ad05e9278fb823658de1c77593d75 ASoC: renesas: rz-ssi: Use only the proper amount of dividers
@@ -1134,54 +1040,56 @@ e5aeac73ab046c759f79cdecae882b9cb91badb9 wifi: rtw89: pci: disable PCIE wake bit
 3a866f8376f0a5c848dcb59cd26df845fffbe6d8 vsock: Orphan socket after transport release
 61749c035911066e555e9b0a5891175312f7e0ba Revert "vfio/platform: check the bounds of read/write syscalls"
 19b4657de424f48a588eb379fe3214d317f46cd7 Linux 6.12.16
+83e2493f27e4ca411344e81e8dffff1dad89b243 hrtimer: Use __raise_softirq_irqoff() to raise the softirq.
+95fd48539340a0eb67aa796b3420506ea6c30e9a timers: Use __raise_softirq_irqoff() to raise the softirq.
+8d725e0d46bb9ed8ec37c0950e699f9866289965 softirq: Use a dedicated thread for timer wakeups on PREEMPT_RT.
+3f1ac4d6e68ff89c1c44051d13d310b27246b5bf serial: 8250: Switch to nbcon console
+399bf1923b65f22f54fc4eaf1c7ef4c998eac0d6 serial: 8250: Revert "drop lockdep annotation from serial8250_clear_IER()"
+1a2041287ffec64757c89d9f41e83a5625db5a40 locking/rt: Remove one __cond_lock() in RT's spin_trylock_irqsave()
+035fb450291f10015dfd4d9e3a8338f308221fad locking/rt: Add sparse annotation for RCU.
+d2f60f2b750df7c9eaff16e2602d42cd92413de7 locking/rt: Annotate unlock followed by lock for sparse.
+c4c325e2b18009400418d5507021fe1c1bad9ab5 drm/i915: Use preempt_disable/enable_rt() where recommended
+dbeb6038f6772980b8e4f87650751369f3ccacdb drm/i915: Don't disable interrupts on PREEMPT_RT during atomic updates
+1a1260f21ae16dfbfdb3a6f26e410ee515bc1747 drm/i915: Don't check for atomic context on PREEMPT_RT
+3e0cd1756e9eb708e0df756b0f2e03d5e8805b3b drm/i915: Disable tracing points on PREEMPT_RT
+f7d8ec8fe02ab5daae41970ec9957d9ed9abc541 drm/i915/gt: Use spin_lock_irq() instead of local_irq_disable() + spin_lock()
+be929e28d455baee75194753e21318ee27b044d6 drm/i915: Drop the irqs_disabled() check
+fe759290dd796ae52b1574b94ca578f0eeb94ce3 drm/i915/guc: Consider also RCU depth in busy loop.
+701ff528b3c85db4c724d06d35e664a5a975c0f8 Revert "drm/i915: Depend on !PREEMPT_RT."
+0beef4bf6ab923164b323585a20dc9480e6b0de0 sched: Add TIF_NEED_RESCHED_LAZY infrastructure
+4744094a1a779adefd86b62bb6e79ff0e0d92da9 sched: Add Lazy preemption model
+1b0e2aabfb60eae2807f1d03dbaf3fb374e36dca sched: Enable PREEMPT_DYNAMIC for PREEMPT_RT
+28ee2375df247d4b48afb926b390f62869798558 sched, x86: Enable Lazy preemption
+ba5aab0707aa5ce6fe57b1d6334c330cc3cb9a06 sched: Add laziest preempt model
+b7bdc0542440c70c6e877927404bfb7ccebb80df sched: Fixup the IS_ENABLED check for PREEMPT_LAZY
+cbb79fbf58f60ac31c0ebd991170eee0c27fc2bc powerpc: Add preempt lazy support
+241f1a452cac8e3b3f0598153b4ca7d6d190f02f powerpc: Large user copy aware of full:rt:lazy preemption
+a443fa44b9e0240dcbf202f730466aba3f19a5ef tracing: Remove TRACE_FLAG_IRQS_NOSUPPORT
+164155269ad708935edc6739d08a9325c6f5b436 tracing: Record task flag NEED_RESCHED_LAZY.
+d125ec807e0d4b0b87924dcb59c0602e2c3c3ccb riscv: add PREEMPT_LAZY support
+c8b76f40004ce81a881fac23c23e957386612a93 arm: Disable jump-label on PREEMPT_RT.
+e4542563f87d3ddc13f4994d1baaddd6607f2baf ARM: enable irq in translation/section permission fault handlers
+3d1d30c854bb87205648f095103cc5b93d46d897 arm: Disable FAST_GUP on PREEMPT_RT if HIGHPTE is also enabled.
+6375c8d97e448a54ec0b9986f9080a12e8624cf1 ARM: vfp: Provide vfp_state_hold() for VFP locking.
+ca8255eb77d40389c520cdf079bbb97ab5b279cd ARM: vfp: Use vfp_state_hold() in vfp_sync_hwstate().
+0606a1c6d7a662fc8aec2eeab8f34f11ff01d610 ARM: vfp: Use vfp_state_hold() in vfp_support_entry().
+f20361a3882eedffc63b26e1bcfeda960072ae23 ARM: vfp: Move sending signals outside of vfp_state_hold()ed section.
+3c0fb46efeb8eccaa9328f6fcbd23a2d4aac039a ARM: Allow to enable RT
+e4ae64faa53e7f9a633e8e54ad2820017266d948 powerpc: traps: Use PREEMPT_RT
+1f1bb83f0221b19432da1e9240aa0f490ec137f3 powerpc/pseries/iommu: Use a locallock instead local_irq_save()
+6683e889aeaa5c8651b1f2cb611f7f78b3b37f3d powerpc/pseries: Select the generic memory allocator.
+cc192b27b35b5d899779b4f13ea0abd52f95f22f powerpc/kvm: Disable in-kernel MPIC emulation for PREEMPT_RT
+60c273180abe377085ab99901950d02ab1a142c8 powerpc/stackprotector: work around stack-guard init from atomic
+7250b84ae14ce1397dbd0f4bd5a15b585d5ec9ba POWERPC: Allow to enable RT
+929f69ea6d43105691023e9ad8c3d757a7e8c57b sysfs: Add /sys/kernel/realtime entry
+1dddb63461465631d33b6c844c3cea765e941713 Add localversion for -RT release
 
---===============7546184448934742468==
+--===============5534660928540117807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-284918266c15-5010737f6ee6.txt
+Content-Disposition: attachment; filename=revlist-ef0fc7b32d75-1dddb6346146.txt
 
-1f3c13e32984182ddcafefc24386580a286a43d1 cpufreq: ACPI: Fix max-frequency computation
-09d28675a8345583540908d4f2abdbd462f51a75 selftests: timers: clocksource-switch: Adapt progress to kselftest framework
-9f6b2d4a0bca3f75bb1855c35fefa456c11988b6 selftests: harness: fix printing of mismatch values in __EXPECT()
-2e857fc25f4240ac07cf398b13a9912cf3dfa573 wifi: cfg80211: adjust allocation of colocated AP data
-df2f2d9199e61819cca5da0121dfa4d4cb57000f Bluetooth: btbcm: Fix NULL deref in btbcm_get_board_name()
-1158ad8e8abb361d4b2aaa010c9af74de20ab82b Bluetooth: btrtl: check for NULL in btrtl_setup_realtek()
-3d72635127707cbfbc35488b25c1f1d9bc0f29c4 inet: ipmr: fix data-races
-eb5516343dafc58554355f65c49be60304d47c39 clk: analogbits: Fix incorrect calculation of vco rate delta
-f98ccd7d77210ff939bb2a8d854d2ff3619ed8d7 dev: Acquire netdev_rename_lock before restoring dev->name in dev_change_name().
-e730500506e7846eff0d5bc6f7143740500a68d9 pwm: stm32: Add check for clk_enable()
-e9d01de8951fd1779892dc0b315ee935296ccc65 selftests/landlock: Fix build with non-default pthread linking
-f161d3c9e576434853476ee7135523945ff96a4a selftests/landlock: Fix error message
-33e2168788f8fb5cb8bd4f36cb1ef37d1d34dada net: let net.core.dev_weight always be non-zero
-f7b74f3d03021793d5a6cd315151d0b609df0a98 net/mlxfw: Drop hard coded max FW flash image size
-15cc4388d293d9c8195a685cc02de19346c6e3c6 octeon_ep: remove firmware stats fetch in ndo_get_stats64
-695359e2ffc8334bfa641d13626f4ecfdfa368eb octeon_ep_vf: remove firmware stats fetch in ndo_get_stats64
-b382ab9b885cbb665e0e70a727f101c981b4edf3 net: avoid race between device unregistration and ethnl ops
-73c7e1d6898ccbeee126194dcc05f58b8a795e70 net: sched: Disallow replacing of child qdisc from one parent to another
-d7fe7e1bbe95d2d1425ec985d92fe8169d6bdc35 netfilter: nf_tables: fix set size with rbtree backend
-bedfabb4e7c980ab72946336d169dacef11abeb2 netfilter: nft_flow_offload: update tcp state flags under lock
-5213efec9085715c77c57e20fef640b8f349aecb net: sched: refine software bypass handling in tc_run
-8448c87b3af68bebca21e3136913f7f77e363515 net: ethernet: ti: am65-cpsw: fix freeing IRQ in am65_cpsw_nuss_remove_tx_chns()
-a0753466f01c3645b85e7186048c426de2ec2fca tcp_cubic: fix incorrect HyStart round start detection
-d08f4074f9c69f7e95502587eb1b258a965ba7f0 net/rose: prevent integer overflows in rose_setsockopt()
-da0735df99dbd7be573ede235b91a146b34f753e platform/mellanox: mlxbf-pmc: incorrect type in assignment
-d3269ace1058c2e0599975650dbaf42adc011d7b platform/x86: x86-android-tablets: make platform data be static
-2bf01c4600a1772efc05ba5d32dcbbc6c2997257 pinctrl: samsung: Fix irq handling if an error occurs in exynos_irq_demux_eint16_31()
-a29129e2364c4b2153330e3decf3e3054b3b3a3f libbpf: don't adjust USDT semaphore address if .stapsdt.base addr is missing
-ae2205cdc46968b8c8c5fc7b44e503c9dafa88ce ASoC: cs40l50: Use *-y for Makefile
-3487c4c0b860854965702671755b5a1101273849 ASoC: mediatek: mt8365: Use *-y for Makefile
-950c0d172d3d996ce4f34e8194d9f1d7a389a845 ASoC: wcd937x: Use *-y for Makefile
-65f1b9773080bfdc5d218a1f6028c17ed435db76 tools/testing/selftests/bpf/test_tc_tunnel.sh: Fix wait for server bind
-a230cd305198491b67a19d6cfd442319340333ba libbpf: Fix segfault due to libelf functions not setting errno
-6a6e2beb2af8fd9c4f8e7eac40cde34cac57e453 ASoC: Intel: sof_sdw: correct mach_params->dmic_num
-829b0400e5c9d1dc209d562612fd2472173dd2d7 ASoC: sun4i-spdif: Add clock multiplier settings
-08b6ffea815840f678d12e78b6f9b7e7554498a5 selftests/bpf: Fix fill_link_info selftest on powerpc
-2122e8553cb48fd82fae158e6c79120813714ce9 iommu/arm-smmuv3: Update comments about ATS and bypass
-1dbc270f9df7f0ae1e591323431869059cee1b7d crypto: tegra - do not transfer req when tegra init fails
-b7de862bda9d848cb8467630e6d57568ca894972 crypto: api - Fix boot-up self-test race
-651959fae5fb0c1ae96e13ca71572f2fe97797fb crypto: caam - use JobR's space to access page 0 regs
-22ae75ad6ed793a20d36dd802b2765dd7a196aa6 perf header: Fix one memory leakage in process_bpf_btf()
 0db155d08b9fe6a47dde7a2ef74faf0317c63886 perf header: Fix one memory leakage in process_bpf_prog_info()
 e63deda2a51b2d89edb481774297be0c81044bea perf bpf: Fix two memory leakages when calling perf_env__insert_bpf_prog_info()
 2ac66e67678ad05e9278fb823658de1c77593d75 ASoC: renesas: rz-ssi: Use only the proper amount of dividers
@@ -2163,7 +2071,48 @@ e5aeac73ab046c759f79cdecae882b9cb91badb9 wifi: rtw89: pci: disable PCIE wake bit
 3a866f8376f0a5c848dcb59cd26df845fffbe6d8 vsock: Orphan socket after transport release
 61749c035911066e555e9b0a5891175312f7e0ba Revert "vfio/platform: check the bounds of read/write syscalls"
 19b4657de424f48a588eb379fe3214d317f46cd7 Linux 6.12.16
-0cdcaf7ccfee5c075bbd2e845f4e99f864570623 Merge tag 'v6.12.16' into linux-6.12.y-rt
-5010737f6ee6a6fd181fef6ba24679e17a59fa59 v6.12.16-rt9
+83e2493f27e4ca411344e81e8dffff1dad89b243 hrtimer: Use __raise_softirq_irqoff() to raise the softirq.
+95fd48539340a0eb67aa796b3420506ea6c30e9a timers: Use __raise_softirq_irqoff() to raise the softirq.
+8d725e0d46bb9ed8ec37c0950e699f9866289965 softirq: Use a dedicated thread for timer wakeups on PREEMPT_RT.
+3f1ac4d6e68ff89c1c44051d13d310b27246b5bf serial: 8250: Switch to nbcon console
+399bf1923b65f22f54fc4eaf1c7ef4c998eac0d6 serial: 8250: Revert "drop lockdep annotation from serial8250_clear_IER()"
+1a2041287ffec64757c89d9f41e83a5625db5a40 locking/rt: Remove one __cond_lock() in RT's spin_trylock_irqsave()
+035fb450291f10015dfd4d9e3a8338f308221fad locking/rt: Add sparse annotation for RCU.
+d2f60f2b750df7c9eaff16e2602d42cd92413de7 locking/rt: Annotate unlock followed by lock for sparse.
+c4c325e2b18009400418d5507021fe1c1bad9ab5 drm/i915: Use preempt_disable/enable_rt() where recommended
+dbeb6038f6772980b8e4f87650751369f3ccacdb drm/i915: Don't disable interrupts on PREEMPT_RT during atomic updates
+1a1260f21ae16dfbfdb3a6f26e410ee515bc1747 drm/i915: Don't check for atomic context on PREEMPT_RT
+3e0cd1756e9eb708e0df756b0f2e03d5e8805b3b drm/i915: Disable tracing points on PREEMPT_RT
+f7d8ec8fe02ab5daae41970ec9957d9ed9abc541 drm/i915/gt: Use spin_lock_irq() instead of local_irq_disable() + spin_lock()
+be929e28d455baee75194753e21318ee27b044d6 drm/i915: Drop the irqs_disabled() check
+fe759290dd796ae52b1574b94ca578f0eeb94ce3 drm/i915/guc: Consider also RCU depth in busy loop.
+701ff528b3c85db4c724d06d35e664a5a975c0f8 Revert "drm/i915: Depend on !PREEMPT_RT."
+0beef4bf6ab923164b323585a20dc9480e6b0de0 sched: Add TIF_NEED_RESCHED_LAZY infrastructure
+4744094a1a779adefd86b62bb6e79ff0e0d92da9 sched: Add Lazy preemption model
+1b0e2aabfb60eae2807f1d03dbaf3fb374e36dca sched: Enable PREEMPT_DYNAMIC for PREEMPT_RT
+28ee2375df247d4b48afb926b390f62869798558 sched, x86: Enable Lazy preemption
+ba5aab0707aa5ce6fe57b1d6334c330cc3cb9a06 sched: Add laziest preempt model
+b7bdc0542440c70c6e877927404bfb7ccebb80df sched: Fixup the IS_ENABLED check for PREEMPT_LAZY
+cbb79fbf58f60ac31c0ebd991170eee0c27fc2bc powerpc: Add preempt lazy support
+241f1a452cac8e3b3f0598153b4ca7d6d190f02f powerpc: Large user copy aware of full:rt:lazy preemption
+a443fa44b9e0240dcbf202f730466aba3f19a5ef tracing: Remove TRACE_FLAG_IRQS_NOSUPPORT
+164155269ad708935edc6739d08a9325c6f5b436 tracing: Record task flag NEED_RESCHED_LAZY.
+d125ec807e0d4b0b87924dcb59c0602e2c3c3ccb riscv: add PREEMPT_LAZY support
+c8b76f40004ce81a881fac23c23e957386612a93 arm: Disable jump-label on PREEMPT_RT.
+e4542563f87d3ddc13f4994d1baaddd6607f2baf ARM: enable irq in translation/section permission fault handlers
+3d1d30c854bb87205648f095103cc5b93d46d897 arm: Disable FAST_GUP on PREEMPT_RT if HIGHPTE is also enabled.
+6375c8d97e448a54ec0b9986f9080a12e8624cf1 ARM: vfp: Provide vfp_state_hold() for VFP locking.
+ca8255eb77d40389c520cdf079bbb97ab5b279cd ARM: vfp: Use vfp_state_hold() in vfp_sync_hwstate().
+0606a1c6d7a662fc8aec2eeab8f34f11ff01d610 ARM: vfp: Use vfp_state_hold() in vfp_support_entry().
+f20361a3882eedffc63b26e1bcfeda960072ae23 ARM: vfp: Move sending signals outside of vfp_state_hold()ed section.
+3c0fb46efeb8eccaa9328f6fcbd23a2d4aac039a ARM: Allow to enable RT
+e4ae64faa53e7f9a633e8e54ad2820017266d948 powerpc: traps: Use PREEMPT_RT
+1f1bb83f0221b19432da1e9240aa0f490ec137f3 powerpc/pseries/iommu: Use a locallock instead local_irq_save()
+6683e889aeaa5c8651b1f2cb611f7f78b3b37f3d powerpc/pseries: Select the generic memory allocator.
+cc192b27b35b5d899779b4f13ea0abd52f95f22f powerpc/kvm: Disable in-kernel MPIC emulation for PREEMPT_RT
+60c273180abe377085ab99901950d02ab1a142c8 powerpc/stackprotector: work around stack-guard init from atomic
+7250b84ae14ce1397dbd0f4bd5a15b585d5ec9ba POWERPC: Allow to enable RT
+929f69ea6d43105691023e9ad8c3d757a7e8c57b sysfs: Add /sys/kernel/realtime entry
+1dddb63461465631d33b6c844c3cea765e941713 Add localversion for -RT release
 
---===============7546184448934742468==--
+--===============5534660928540117807==--
