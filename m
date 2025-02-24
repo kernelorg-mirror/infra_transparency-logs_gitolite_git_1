@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5183542854984120880=="
+Content-Type: multipart/mixed; boundary="===============3969104576452161008=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 24 Feb 2025 05:47:41 -0000
-Message-Id: <174037606126.508526.11523011691872024846@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Mon, 24 Feb 2025 06:12:39 -0000
+Message-Id: <174037755954.576426.743898782437364642@gitolite.kernel.org>
 
---===============5183542854984120880==
+--===============3969104576452161008==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 777ead4b04f7715a57d7c73eec3bf8534a7f99b1
-    new: 7ce0d166ca5c51f71f79fc78c4eeea803d736651
+  - ref: refs/heads/driver-core-next
+    old: c5020c5be9d266f66fa5ba3286f0e8d2d2265970
+    new: 354fd6e86fac60b7c1ce2e6c83d4e6bf8af95f59
     log: |
-         77765910172bd9578e14490619372e5473f34abf 6.13-stable patches
-         7ce0d166ca5c51f71f79fc78c4eeea803d736651 Merge branch 'master' of gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue
+         354fd6e86fac60b7c1ce2e6c83d4e6bf8af95f59 rust: io: rename `io::Io` accessors
          
 
---===============5183542854984120880==
+--===============3969104576452161008==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1740376089 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1740376058-e75d3702c5fbe8d8e18d4be25717ca5ebe940b17
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1740377588 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1740377558-17152e4499b45f96f4d7b5632baf52ced8d14e2d
 
-777ead4b04f7715a57d7c73eec3bf8534a7f99b1 7ce0d166ca5c51f71f79fc78c4eeea803d736651 refs/heads/master
+c5020c5be9d266f66fa5ba3286f0e8d2d2265970 354fd6e86fac60b7c1ce2e6c83d4e6bf8af95f59 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAme8CBkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1roQANVES4qTxW0f/sih8AbD
-Oskh6f3SbYSNOsBa6h021mPU5CPN5oe2epCXpbpJYp4Z/L+2ml2xkDqriZ3V8JvT
-An9sK6EmMRTQQGMB/O9hKbqWZ1gIdubc6WBMmJAaDigWazKm/F3KooWJArO22XCH
-gyrMdG0hShtp2ofW3G3GwRhMhSqZ3PPnWJ/J2uzl/AX6Qo6pUwqgBCLZavlVhJ61
-YH8bNLlIBEo5sTQPixVcXmU481xkNqJrItGm361hX59JsueWgmH9iWDCEjv5hG2L
-eeb77Iq+zHp2+GMGGjn5Jl2xCqtfNvt2nq1vIf+nEKv2mDACHxOKg/4bHgp1ewHv
-fFNI36tf4Fy2cOCg0SqfkXhPEKr96y/Glx4KZPMXqTSDMuOy1pb0uUTYareXtdIU
-rLloiMHimn0aQt02c+YmDYRC+Mle8Lo/fN+12b2lmEDwkJl03yFyMrxgYDqd4bgg
-QVd952eI1vw1ODbNfCyJqd+dXgSWJCpqfn/cq9Z9p4dTFQzjTa/ewKJBge6/39c3
-o4XzuPl5WLzUNAq+N8HKnguLGfJhK1cHX2QQrXZgd4XOQYs0PdcjtwWUCviN790H
-Lam6ce6FgQsiJqh4j82a2SnxtwAh6/ogbJnSbNG4LUTQ6PaTnyPhLoaT8+9FIvtQ
-pj8xjMcpVImMESFxVv/3MGZ8
-=7zUf
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAme8DfQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pkwP/jx0OKUL3P1aKVVqH+Rx
+NFyKCThbQtmhHFm/3KUwjuRH7q13J/4GsKIlcz20DKZlb0eN/b+Go9Y/pvlnQYmK
+LkVDcEJStLFnRA8sn74Ocvh80MnM07+gB0wAwZkEJM0AP6UXDgPy36UC2wZDSNUl
+Ywl3lmZfKtfRF2yYYTcy0SmjQNpac/VKnTqm2MnrjVe4iAnyGLglLIOyLBPd+Bwo
+ao/Vt9U3ZCXyOaYe6kZ4g/fopDkIAlGG3MBLG7/r6Oo4RNTi9WNbMY8r3gIV0tWr
+rw5GihHltw9FxBiWTLxxChxueuOufwZWEMkBXcfbk3izQCwrnlHkLtaa9uxVXLRN
+B0AFiurJO1W6UpCp7EJdePqlNMPMybb6ia5LLBE08Sdby0ogEYJBOyC2M5urziC/
+EmJ44QgqFTpHRpf8cY/JYvDBZDh2Jvg7HRIM8g9Y/8VuYJrZn4J5lf42Jq084jnA
+gZwSz+BgTbEgTnDiHMtshnBFX5/WLanoymX9dzdqwscKCqTspDspBO9smLiGEBGX
+9W1GU8vuC/E+tzMWmieJa0GdwHWJszIt/OJHnwQ8I6PpsjP1bKwWsylgjSIeGGEE
+yCYKA9i3V5lDVc0/yw6aBQJ0p39jKc96YAZv+7dZ51r+C4B07jcEg5rTuGAyeUSh
+ucTZFVUsHULAPllwcn5yMnp+
+=wXLS
 -----END PGP SIGNATURE-----
 
---===============5183542854984120880==--
+--===============3969104576452161008==--
