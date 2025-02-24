@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6839668835178626349=="
+Content-Type: multipart/mixed; boundary="===============0703056163326419710=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 24 Feb 2025 01:07:02 -0000
-Message-Id: <174035922273.237289.15171936531670439450@gitolite.kernel.org>
+Date: Mon, 24 Feb 2025 01:07:47 -0000
+Message-Id: <174035926782.237886.9387464937585686588@gitolite.kernel.org>
 
---===============6839668835178626349==
+--===============0703056163326419710==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 71cdb645faf223735f4da22ed13817334b20ea19
-    new: f194595b9bd701e66dd0d2f13917cfab518a5c7f
-    log: revlist-71cdb645faf2-f194595b9bd7.txt
+  - ref: refs/heads/nfsd-testing
+    old: d0f1ba5ed270fbda06248ef8af822a9e14708ee1
+    new: f6557e6a91e708a11c0d161af27616bb1e4f4f59
+    log: revlist-d0f1ba5ed270-f6557e6a91e7.txt
 
---===============6839668835178626349==
+--===============0703056163326419710==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-71cdb645faf2-f194595b9bd7.txt
+Content-Disposition: attachment; filename=revlist-d0f1ba5ed270-f6557e6a91e7.txt
 
 7332537962956fab2c055b37e5e2e6a0d2a8d6bf bpf: Remove unnecessary BTF lookups in bpf_sk_storage_tracing_allowed
 6b3d638ca897e099fa99bd6d02189d3176f80a47 bpf, test_run: Fix use-after-free issue in eth_skb_pkt_type()
@@ -350,5 +350,20 @@ ba0bdd180d8cd911589f22c44b6a863a63eea817 nfsd: always release slot when requeuei
 61c8cc3a5cd1ad75a39864a5595d91b52d4cb565 nfsd: when CB_SEQUENCE gets ESERVERFAULT don't increment seq_nr
 d64697927979cabb1898b52a9a6f6bee47b68481 nfsd: handle NFS4ERR_BADSLOT on CB_SEQUENCE better
 f194595b9bd701e66dd0d2f13917cfab518a5c7f nfsd: eliminate special handling of NFS4ERR_SEQ_MISORDERED
+aea2954300ceb9bcd8c286b020f1b1a319cee7e2 nfsd: disallow file locking and delegations for NFSv4 reexport
+78cc0e51279a0e6be91ea214f0cdea675c06b9a3 NFSD: Fix callback decoder status codes
+bc7f514d259d1eafc5ee406fb76c05f460291ab1 fs: nfs: acl: Avoid -Wflex-array-member-not-at-end warning
+fad555bf1e84c78c8932cd809db1742d0eefef84 nfsd: filecache: remove race handling.
+c62ff7b5743433a323bdcaacf94de1522de73265 NFSD: Re-organize nfsd_file_gc_worker()
+0097c876163f9e037421cc44928ca3630b1e8e86 nfsd: filecache: use nfsd_file_dispose_list() in nfsd_file_close_inode_sync()
+abb676f53254d78c5710aa4be9a03648404f18f2 nfsd: filecache: use list_lru_walk_node() in nfsd_file_gc()
+7d84c4a950f99f360cb7d88ccc28c063eb359589 nfsd: filecache: introduce NFSD_FILE_RECENT
+d572ef215777072b2016dec7b4c08e562aab8005 nfsd: filecache: don't repeatedly add/remove files on the lru list
+85c4d5368a07e5fb9314a9b985a3e1bbe700eee4 nfsd: filecache: drop the list_lru lock during lock gc scans
+81760966d257ac3d085a1252db7ed020f2741eaf nfsd: prevent callback tasks running concurrently
+93fd0844fd6ed05943ffe6e806af5803ce1b3178 nfsd: eliminate cl_ra_cblist and NFSD4_CLIENT_CB_RECALL_ANY
+9ae3c73a3aeb8de80f0e12d45045f07cb6468bca nfsd: replace CB_GETATTR_BUSY with NFSD4_CALLBACK_RUNNING
+0555c8d77ce089d475380baf0d7b5f68ae6dc84d nfsd: move cb_need_restart flag into cb_flags
+f6557e6a91e708a11c0d161af27616bb1e4f4f59 nfsd: handle errors from rpc_call_async()
 
---===============6839668835178626349==--
+--===============0703056163326419710==--
