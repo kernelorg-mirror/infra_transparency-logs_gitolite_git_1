@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 24 Feb 2025 13:57:27 -0000
-Message-Id: <174040544770.965565.1111553808772774435@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Mon, 24 Feb 2025 13:58:42 -0000
+Message-Id: <174040552282.966446.11175751058770112001@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/locking/urgent
-    old: 5e0e02f0d7e52cfc8b1adfc778dd02181d8b47b4
-    new: b9a49520679e98700d3d89689cc91c08a1c88c1d
+  - ref: refs/heads/gpio/for-next
+    old: 11067f50458a5bb3b72f83c508e03f321e0c0c34
+    new: 45af02f06f6943d73cf9309fd2a63a908b587f57
     log: |
-         b9a49520679e98700d3d89689cc91c08a1c88c1d rcuref: Plug slowpath race in rcuref_put()
+         eb5ab6ffb4ca2d28121455dd7452061367ed5588 gpio: introduce utilities for synchronous fake device creation
+         2f41dbf9cb84349f510ebf2165c13102f79a550b gpio: sim: convert to use dev-sync-probe utilities
+         45af02f06f6943d73cf9309fd2a63a908b587f57 gpio: virtuser: convert to use dev-sync-probe utilities
          
