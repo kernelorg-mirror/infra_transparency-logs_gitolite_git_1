@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2011612045247503596=="
+Content-Type: multipart/mixed; boundary="===============7835142258251640783=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Mon, 24 Feb 2025 18:24:13 -0000
-Message-Id: <174042145347.1204611.15399642394851976586@gitolite.kernel.org>
+Date: Mon, 24 Feb 2025 18:25:28 -0000
+Message-Id: <174042152855.1207346.17794319584188468878@gitolite.kernel.org>
 
---===============2011612045247503596==
+--===============7835142258251640783==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/virt/kvm/kvm
 user: bonzini
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: d3d0b8dfe06098d6d584266c35e9a0947f5b7132
-    new: e93d78e05abb0da1f8a8409ba93c1a836536bffc
-    log: revlist-d3d0b8dfe060-e93d78e05abb.txt
+  - ref: refs/tags/for-linus
+    old: 2041b31cf28fe61f1606bfaa7ccdeafb79ba9d97
+    new: 20034e0d7a0431d92c945c08d055654f1da39eb0
+    log: revlist-2041b31cf28f-20034e0d7a04.txt
 
---===============2011612045247503596==
+--===============7835142258251640783==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1740421478 -0500
+pusher Paolo Bonzini <pbonzini@redhat.com> 1740421556 -0500
 pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1740421447-03da72907a91b0f1a8e3070aa93b02b9f2f95c9b
+nonce 1740421526-729b01ffb9924f9398d97d44153254895becf58b
 
-d3d0b8dfe06098d6d584266c35e9a0947f5b7132 e93d78e05abb0da1f8a8409ba93c1a836536bffc refs/heads/master
+2041b31cf28fe61f1606bfaa7ccdeafb79ba9d97 20034e0d7a0431d92c945c08d055654f1da39eb0 refs/tags/for-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAme8uWYUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroOZfQf/bADFAgA10OgEnBplZQvu4WqFqUoW
-dUErcdoLKeZAvFfopgXfUMJ2u/r21I8t5kltFd4gvDGauA8FaiB0Fe9+wvx0vEPd
-krJQwm4x+oRjkaNC4YK/CV5C0cYNZM6mxXxH47c3XxJkQJ9apIq7JzahM8946AGB
-Uzn1hUHDb+2InvkozAnJTHewMpgPds4AFCeSp3C+Nm5tqe64eDdjcoiy0ffk5kj8
-fzrwZ+FCzuwBYP2zbFhORIW50Y0FAgDAFAjCrlvT7tP7ksGRfFrJpQBE8fmVm06G
-iOTSGnL3ZgOZA6yUxPoMLxYnwcRcsD0HCdJADA+JK1BrpUvQGIqenLR6YQ==
-=3Vd8
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAme8ubQUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroPI4wf9FXsutnyrJUOd3txG0A89v7H4nHZ7
+VpsnTX0BVxnossJf5ZGpb+iz9ZAMRauMkcBSJCTcP6IH7TDEb4ppKCVAIwRKUpOx
+4LZGBanGcEL4NYXpPku6sMMA68cn4/Yrfk1oV3QlsTE+76hDr+Ou+Kw5q4WBW7sw
+F1TXTTptqL9qeZfWJW5JgHqVY9VHPzRjX16Qmp2Y3wzfLewXqYOJgyj8TDSmN5AN
+5VduIOzg0IpDVBcp3JyEzsr5PyQ3KeMXsS2oQ/u46o5Gd6lQYF3MyE/h2beMiq7G
+ZI3ZK6qyIbp2u9fN6PgDhGWyYyK0gY5cr+WVyoOXjR/6dl1a/ntlnzOH1w==
+=moqj
 -----END PGP SIGNATURE-----
 
---===============2011612045247503596==
+--===============7835142258251640783==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d3d0b8dfe060-e93d78e05abb.txt
+Content-Disposition: attachment; filename=revlist-2041b31cf28f-20034e0d7a04.txt
 
 ccb7276a6d26d6f8416e315b43b45e15ee7f29e2 batman-adv: fix panic during interface removal
 e7e34ffc976aaae4f465b7898303241b81ceefc3 batman-adv: Ignore neighbor throughput metrics in error case
@@ -426,4 +426,4 @@ d252435aca44d647d57b84de5108556f9c97614a riscv: KVM: Remove unnecessary vcpu kic
 4647c822764d7baaa064cf97c43cfad64e953763 Merge tag 'kvmarm-fixes-6.14-3' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
 e93d78e05abb0da1f8a8409ba93c1a836536bffc Merge tag 'kvm-riscv-fixes-6.14-1' of https://github.com/kvm-riscv/linux into HEAD
 
---===============2011612045247503596==--
+--===============7835142258251640783==--
