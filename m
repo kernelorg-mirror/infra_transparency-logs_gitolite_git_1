@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6132707509472953943=="
+Content-Type: multipart/mixed; boundary="===============2110715668914508422=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Mon, 24 Feb 2025 10:16:06 -0000
-Message-Id: <174039216650.778995.4569933172417032737@gitolite.kernel.org>
+Date: Mon, 24 Feb 2025 10:16:17 -0000
+Message-Id: <174039217715.779195.16397977794548143811@gitolite.kernel.org>
 
---===============6132707509472953943==
+--===============2110715668914508422==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
 user: andy
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/review-andy
     old: 9deb15de8ca27cf9cba0d2bac53bbe37c836591b
     new: 1f4c7f3b3afa90e10903234c86d5bd168c5f23b3
     log: revlist-9deb15de8ca2-1f4c7f3b3afa.txt
 
---===============6132707509472953943==
+--===============2110715668914508422==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ cdcc09a495a4fa60f1c612db207d78b82b6c4531 input: sparse-keymap: use devm_kmemdup_
 b8c38ccb2ca52b9a38cfeb9f89abab5d6e713221 input: ipaq-micro-keys: use devm_kmemdup_array()
 1f4c7f3b3afa90e10903234c86d5bd168c5f23b3 Merge patch series "Split devres APIs to device/devres.h and introduce devm_kmemdup_array()"
 
---===============6132707509472953943==--
+--===============2110715668914508422==--
