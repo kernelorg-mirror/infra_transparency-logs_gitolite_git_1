@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4728860297887027281=="
+Content-Type: multipart/mixed; boundary="===============2666883165930537148=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Mon, 24 Feb 2025 03:21:54 -0000
-Message-Id: <174036731467.344431.1012905697034089013@gitolite.kernel.org>
+Date: Mon, 24 Feb 2025 03:22:16 -0000
+Message-Id: <174036733647.344707.7056585705973884828@gitolite.kernel.org>
 
---===============4728860297887027281==
+--===============2666883165930537148==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: f3dae9aa06fa978a0ec3f3861b7400b330cb7f4d
-    new: 32b5f65914b92ef597bb75882c4bbb8b3e5e0415
-    log: revlist-f3dae9aa06fa-32b5f65914b9.txt
+  - ref: refs/heads/6.15/scsi-staging
+    old: 7e72900272b61c11f2fd4020d4f186124d0d171b
+    new: 1d67c48947c6d2aab0c50f2f201f78ed9e6fdfbc
+    log: revlist-7e72900272b6-1d67c48947c6.txt
 
---===============4728860297887027281==
+--===============2666883165930537148==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1740367318 -0500
+pusher 75C5DE3D 1740367348 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1740367288-2faa069b0b3684c6f59ea70fcc8990d9ed4c704a
+nonce 1740367317-e8c84f6cb6b21c70e0d621a6a05d370cdaf6cb26
 
-f3dae9aa06fa978a0ec3f3861b7400b330cb7f4d 32b5f65914b92ef597bb75882c4bbb8b3e5e0415 refs/tags/mkp-scsi-staging
+7e72900272b61c11f2fd4020d4f186124d0d171b 1d67c48947c6d2aab0c50f2f201f78ed9e6fdfbc refs/heads/6.15/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAme75dYACgkQ7ulgGnXF
-3j3hiA/8CPiaxzoG54M9kF7b6QGE9lZvP77CurLTIpgSTPlkxCeikIW0JiCL9dwI
-OXiMLvxFuFH3SMPpqbdLOWHjtM9lUC2C+CdJG48Mo8+zvY1khnPIKoDnysm3g2Hj
-cLh8JCUFEc9iHVi1xhBqOctsCRZa9yGRMD9+3i/1WFrtLan5aak07VkSE/MoG3KK
-Gc2tnjbCTe04pNl3siBc4ZhN/dwxH3DDzrmCZAYevYPOOQSvB4PKMGcVAftDp4ZQ
-wxz4YCIXUPD25uD5qRlkKuhlfD0BGc/i8oDv7VxflISL4FYzF8Whtft98R1Bg+X9
-nXbbYf5TjWrclqkz/fGorTU1jbFDo5Bp4vS3RtjOp3xd1ryAv0OsH7JicM9RU4dF
-kHg2qs76MGW55PERpx5IiEVABw35pwU5xB8yw5xLbAR/Lie7V2rf4uMSUv0Xw2Ix
-eSgnJMo+z1qjURJOen0XhDmnQ/Qpzi2ea8NfiQXZhv5yxgIcoSmzHmGZihcWKC5Z
-A1J7+RDwHJUJJfnkQOroNZoQt7CnYttUrsbxkvu+zGM7//Z0ZKJ543N+DgTFLgsN
-zxAhw1dume+/ni/p/uv/7W4MSZ30RBUJxL/ln/7sW7RLcpyoZSG948F7Gwxi/Itp
-75Kl7VrNyeV4jnHDDFQffmtDuzKa+ny9mX/Vxn2DU1YYdOz/s/o=
-=7p85
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAme75fQACgkQ7ulgGnXF
+3j1mAQ/9Hu4l7Umpe0iL1A35LBH8mUzRupTjwCsK3VFAKN6av9qPwBdQoM/B2bvK
+Bdy+qp+IAf7f6ZZfTdZnzLda+LxpaxUvvimlTQJkhqHWM2Bv/EwIrxVam9LZ78eS
+kpo71fzAlr8DJY3rNg2SnzoIXqgbtsRXx3wAk4wpEJkvXltN6XpxkMLoulSVXWOI
+quggw+q5GBfFRLlPGbM16czgiqoOxz44nJ6amwjBQ93LaX6qcFsxYMIlLoML01Ad
+1q4E7AuoLTB8TDcpzs5OYbh73NlbZ93wtSe0Qhie+/Qe/P/lbSewtUIQybJmH2Kd
+Fz1+g7d8KnFpIpIqQB7tNcfunpn5+mjoKJmBL3K8dHwm1K0x38GIr0HclTco/Tzh
+ZjDZC/9HsCNwlnlcKKCNln5gkzqP22RZEyh36fDjpUiw3B4MDntthAK7Dt2aoZK4
+k24cD41fDNBYj7omY/oWKXhSkxArBMdRmuzq5K1HmI75oSSueqLmrKFvRVK5uJri
+5KLU83Ny7e9d7vlcRvCi1cpZtrzWjjhHAJzS0tE3sFX87Iu+Hgeep561f5OdTw4x
+5TUGuMGWQ+FAdMRusiRuO3qHi+K3QOpN8UD8YcJVgFMfpWcIpqv4qAX/ZoriS/dL
+0Rrp39GTSmIo3CZil9L4o8sdy4nO/Zp5+57upyeZTnvcPQ5rFPE=
+=/XTH
 -----END PGP SIGNATURE-----
 
---===============4728860297887027281==
+--===============2666883165930537148==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f3dae9aa06fa-32b5f65914b9.txt
+Content-Disposition: attachment; filename=revlist-7e72900272b6-1d67c48947c6.txt
 
 3c47c2ccd5a29c78780ccfd0227a805f3873ab1c nvmet: fix rw control endian access
 d68fc95a771e0a7edd876ede7913d61276be77fd nvme-pci: remove redundant dma frees in hmb
@@ -351,4 +351,4 @@ e1ac21310aaa5810e08b2d2a9dcee93b60ad3f87 scsi: scsi_debug: Add write support wit
 23f4e82bb9eb326f798fc1a1d9a46f37c475fd41 scsi: scsi_debug: Add support for partitioning the tape
 1d67c48947c6d2aab0c50f2f201f78ed9e6fdfbc Merge patch series "scsi: scsi_debug: Add more tape support"
 
---===============4728860297887027281==--
+--===============2666883165930537148==--
