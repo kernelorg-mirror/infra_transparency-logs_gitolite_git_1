@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hare/nvme
-Date: Mon, 24 Feb 2025 12:38:39 -0000
-Message-Id: <174040071980.897133.15928235660946827056@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Mon, 24 Feb 2025 12:39:13 -0000
+Message-Id: <174040075358.897472.2186535722391825038@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hare/nvme
-user: hare
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/secure-concat.v15
-    old: 0000000000000000000000000000000000000000
-    new: 8050fa7e033ba5e0566e0d46b053bacc0e92b149
+  - ref: refs/heads/master
+    old: 20509a30d88c250879fe1d586ee165d462540baa
+    new: 3564de4d10aa0f4b51ab8b7d8b5fa268fa770720
+    log: |
+         04649d5ab4bb3ec8ac5886f6c70e417b5dbdf4a1 flock: support locking with byte-range
+         3564de4d10aa0f4b51ab8b7d8b5fa268fa770720 tests: (flock::range-lock) add a case testing --start/--length
+         
