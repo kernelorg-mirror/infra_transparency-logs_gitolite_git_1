@@ -1,53 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============5903812720398206763=="
+Content-Type: multipart/mixed; boundary="===============5183542854984120880=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Mon, 24 Feb 2025 05:45:26 -0000
-Message-Id: <174037592662.482073.16268725982025859258@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 24 Feb 2025 05:47:41 -0000
+Message-Id: <174037606126.508526.11523011691872024846@gitolite.kernel.org>
 
---===============5903812720398206763==
+--===============5183542854984120880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v6.14-rc4
-    old: 0000000000000000000000000000000000000000
-    new: ab680199364b446c9b642f1c1c1306b71535ace1
+  - ref: refs/heads/master
+    old: 777ead4b04f7715a57d7c73eec3bf8534a7f99b1
+    new: 7ce0d166ca5c51f71f79fc78c4eeea803d736651
+    log: |
+         77765910172bd9578e14490619372e5473f34abf 6.13-stable patches
+         7ce0d166ca5c51f71f79fc78c4eeea803d736651 Merge branch 'master' of gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue
+         
 
---===============5903812720398206763==
+--===============5183542854984120880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1740375955 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1740375924-d4f7ace3223ab3258198eea86522682f15886a3a
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1740376089 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1740376058-e75d3702c5fbe8d8e18d4be25717ca5ebe940b17
 
-0000000000000000000000000000000000000000 ab680199364b446c9b642f1c1c1306b71535ace1 refs/tags/v6.14-rc4
+777ead4b04f7715a57d7c73eec3bf8534a7f99b1 7ce0d166ca5c51f71f79fc78c4eeea803d736651 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAme8B5MbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/YYQAMdfEtqouh+Le8d0Tnvv
-lN9ayEAJuzdJCThxC3VQLRASoxwouKoyyint+mcPOd5WkcmoASKsJY7LW7MA/lGB
-bzfnwgOb5VhwVISBN+GUJbu3CnSQKaTEa7lQp7kenIqMLCPGwaQTxdAtM9SLIS/D
-MaymClLZLOc32q994i1wRKrVVsvPvOzUyG+c14JtV1GeTVFSZ2Ekl6GNEfoM5zKT
-+mGHgEIQiP30o7vGHDC1VPd9fOtVlJxuBZ46rJzj0LJLHbg3ntsSmRGAgJNWEyVB
-ry2B3INE0ZdOJBGH3xz/wiIT+OABR5RgRucU13dNe/hv/bwaV4/CM+PUPQYtIFwt
-ELyZ2YT7PFftLF8jqrpG9isVvjvWiK3WxAmJIkueQUkXH2A/uwvrFYFlPytgl6IX
-a6VjmcQbd9wsjwkm/BBr4csIb+Tk+JckSqIlQJRjYDTYF8kXhOXD/kwpqEkpj5Yo
-UIxX5WHrf4zm9BLAx0i31LGe4FBtEhgYAeZQZmLAVN9uoWg/lS9zi058dRed/9WB
-LhvMcha4xEeGvR5m8ywK6Vmesz8+R55U8kq9Jov5dix99Phc8Bq4UtW9EcaGsRTy
-GyYiVCy9UgKu+H0HKu4A99TqGCWttEUsXidLEgjgg6BJlXenVsWeVGBZz0MJ/fIk
-JK1nSAKsS1EfXuSeDPv00rdz
-=c7lH
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAme8CBkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1roQANVES4qTxW0f/sih8AbD
+Oskh6f3SbYSNOsBa6h021mPU5CPN5oe2epCXpbpJYp4Z/L+2ml2xkDqriZ3V8JvT
+An9sK6EmMRTQQGMB/O9hKbqWZ1gIdubc6WBMmJAaDigWazKm/F3KooWJArO22XCH
+gyrMdG0hShtp2ofW3G3GwRhMhSqZ3PPnWJ/J2uzl/AX6Qo6pUwqgBCLZavlVhJ61
+YH8bNLlIBEo5sTQPixVcXmU481xkNqJrItGm361hX59JsueWgmH9iWDCEjv5hG2L
+eeb77Iq+zHp2+GMGGjn5Jl2xCqtfNvt2nq1vIf+nEKv2mDACHxOKg/4bHgp1ewHv
+fFNI36tf4Fy2cOCg0SqfkXhPEKr96y/Glx4KZPMXqTSDMuOy1pb0uUTYareXtdIU
+rLloiMHimn0aQt02c+YmDYRC+Mle8Lo/fN+12b2lmEDwkJl03yFyMrxgYDqd4bgg
+QVd952eI1vw1ODbNfCyJqd+dXgSWJCpqfn/cq9Z9p4dTFQzjTa/ewKJBge6/39c3
+o4XzuPl5WLzUNAq+N8HKnguLGfJhK1cHX2QQrXZgd4XOQYs0PdcjtwWUCviN790H
+Lam6ce6FgQsiJqh4j82a2SnxtwAh6/ogbJnSbNG4LUTQ6PaTnyPhLoaT8+9FIvtQ
+pj8xjMcpVImMESFxVv/3MGZ8
+=7zUf
 -----END PGP SIGNATURE-----
 
---===============5903812720398206763==--
+--===============5183542854984120880==--
