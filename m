@@ -1,35 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Mon, 24 Feb 2025 19:49:34 -0000
-Message-Id: <174042657416.1280510.14446581998886602994@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Mon, 24 Feb 2025 19:50:06 -0000
+Message-Id: <174042660679.1282519.3284382186707374751@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/for-6.15/io_uring
-    old: 0243b56ffd3c69b030b90e046ebc38d5e54249e2
-    new: c457eed55d80bc06c2c55cd5d7a4646f102db5d4
+  - ref: refs/heads/gpio/for-next
+    old: 45af02f06f6943d73cf9309fd2a63a908b587f57
+    new: da5dd31efd2465ccc9a70a85bdc325e394256689
     log: |
-         0cd64345c4ba127d27fa07a133d108ea92d38361 io_uring/waitid: use io_is_compat()
-         91864064622b17e74f49fd42689a052eaac4f08e io_uring/net: use io_is_compat()
-         f6a89bf5278d6e15016a736db67043560d1b50d5 io_uring/net: fix accept multishot handling
-         185523ebc85342ed90c5a80034f281ac09fd29db io_uring/net: canonise accept mshot handling
-         c457eed55d80bc06c2c55cd5d7a4646f102db5d4 io_uring: make io_poll_issue() sturdier
-         
-  - ref: refs/heads/for-next
-    old: 3f37e82e25f95493862f5a57346c1ca9c711d803
-    new: 74d396505c1fb607dea4ef5ab2b4359a7cdd32a5
-    log: |
-         0cd64345c4ba127d27fa07a133d108ea92d38361 io_uring/waitid: use io_is_compat()
-         91864064622b17e74f49fd42689a052eaac4f08e io_uring/net: use io_is_compat()
-         f6a89bf5278d6e15016a736db67043560d1b50d5 io_uring/net: fix accept multishot handling
-         185523ebc85342ed90c5a80034f281ac09fd29db io_uring/net: canonise accept mshot handling
-         c457eed55d80bc06c2c55cd5d7a4646f102db5d4 io_uring: make io_poll_issue() sturdier
-         639d9e58a1dfea23bccbd0b410dfbf01296bbf97 Merge branch 'for-6.15/io_uring' into for-next
-         74d396505c1fb607dea4ef5ab2b4359a7cdd32a5 Merge branch 'for-6.15/io_uring-rx-zc' into for-next
+         2145ba374069ee8edc9d29c2a6b56fe4a28a6e2d gpio: mmio: Add flag for calling pinctrl back-end
+         da5dd31efd2465ccc9a70a85bdc325e394256689 gpio: vf610: Switch to gpio-mmio
          
