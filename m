@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 24 Feb 2025 16:02:49 -0000
-Message-Id: <174041296986.1080073.10600173582570422841@gitolite.kernel.org>
+Date: Mon, 24 Feb 2025 16:18:21 -0000
+Message-Id: <174041390152.1092492.296612493696221945@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/pending
-    old: 0e2180b67d8417729a69ff581e041db3b39dad25
-    new: e180a01bf2c4a67db13d70d2d91410a8c6f74be3
+  - ref: refs/heads/main
+    old: 2dba67975394b47249189fcf975352105306962b
+    new: 13a84b4e7dd5d843dfaa54283adb4bbbe0adee15
     log: |
+         cba6bdfd79291b82422b6e6b4036ebc076d5625f bus: mhi: host: pci_generic: Add support for SA8775P endpoint
          11d963d44c77261d6a948f3745bbd678eef4b83b wifi: ath12k: use link specific bss_conf as well in ath12k_mac_vif_cache_flush()
          e180a01bf2c4a67db13d70d2d91410a8c6f74be3 wifi: ath12k: Add NULL check to validate tpc_stats
+         a1abf7781c55a97b33ce97e4d8559d5454391dad Merge branch 'ath-next'
+         54d1c900f6fa3a5858593c165647fed19a230cd2 Merge remote-tracking branch 'mhi/mhi-next'
+         13a84b4e7dd5d843dfaa54283adb4bbbe0adee15 Add localversion-wireless-testing-ath
          
+  - ref: refs/tags/ath-202502241604
+    old: 0000000000000000000000000000000000000000
+    new: 13a84b4e7dd5d843dfaa54283adb4bbbe0adee15
