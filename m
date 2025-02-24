@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1550977916294011042=="
+Content-Type: multipart/mixed; boundary="===============8845900004961868566=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Mon, 24 Feb 2025 23:25:13 -0000
-Message-Id: <174043951333.1460698.8629763512053862842@gitolite.kernel.org>
+Date: Mon, 24 Feb 2025 23:25:20 -0000
+Message-Id: <174043952097.1460920.17380339711471938682@gitolite.kernel.org>
 
---===============1550977916294011042==
+--===============8845900004961868566==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/dt/next
+  - ref: refs/heads/for-next
     old: 6c10926fce847ab9726c33bcdb78061de58c02f3
     new: cd726b80a9b2e35397f3f4ecd845a8fd247ee79e
     log: revlist-6c10926fce84-cd726b80a9b2.txt
 
---===============1550977916294011042==
+--===============8845900004961868566==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -37,4 +37,4 @@ c7ecc9b1d163e82457b752d668811fbe084162a2 of/irq: Fix device node refcount leakag
 8d5008bf653cdb82c19dc876a57b5a81ff51bad4 of: resolver: Simplify of_resolve_phandles() using __free()
 cd726b80a9b2e35397f3f4ecd845a8fd247ee79e of: resolver: Fix device node refcount leakage in of_resolve_phandles()
 
---===============1550977916294011042==--
+--===============8845900004961868566==--
