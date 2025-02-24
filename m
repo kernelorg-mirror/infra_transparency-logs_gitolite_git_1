@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8680604701135086635=="
+Content-Type: multipart/mixed; boundary="===============6839668835178626349=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 24 Feb 2025 01:06:00 -0000
-Message-Id: <174035916052.236591.10387280740340448533@gitolite.kernel.org>
+Date: Mon, 24 Feb 2025 01:07:02 -0000
+Message-Id: <174035922273.237289.15171936531670439450@gitolite.kernel.org>
 
---===============8680604701135086635==
+--===============6839668835178626349==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
-    old: 0ad2507d5d93f39619fc42372c347d6006b64319
-    new: d082ecbc71e9e0bf49883ee4afd435a77a5101b6
-    log: revlist-0ad2507d5d93-d082ecbc71e9.txt
+  - ref: refs/heads/nfsd-next
+    old: 71cdb645faf223735f4da22ed13817334b20ea19
+    new: f194595b9bd701e66dd0d2f13917cfab518a5c7f
+    log: revlist-71cdb645faf2-f194595b9bd7.txt
 
---===============8680604701135086635==
+--===============6839668835178626349==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0ad2507d5d93-d082ecbc71e9.txt
+Content-Disposition: attachment; filename=revlist-71cdb645faf2-f194595b9bd7.txt
 
 7332537962956fab2c055b37e5e2e6a0d2a8d6bf bpf: Remove unnecessary BTF lookups in bpf_sk_storage_tracing_allowed
 6b3d638ca897e099fa99bd6d02189d3176f80a47 bpf, test_run: Fix use-after-free issue in eth_skb_pkt_type()
@@ -326,5 +326,29 @@ f112eea3ccefc8a267fff592059f128b3166ca9e Merge tag 'irq-urgent-2025-02-22' of gi
 ad328a3785a24a7e7a8053b06139a6bfb42d0280 Merge tag 'edac_urgent_for_v6.14_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 9d68911233472dc2b336f2cf99521bd684ba6092 Merge tag 'i2c-for-6.14-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 d082ecbc71e9e0bf49883ee4afd435a77a5101b6 Linux 6.14-rc4
+32dd8249a67a2cf679619d5ba1c6fbad99810fd0 sunrpc: clean cache_detail immediately when flush is written frequently
+0a25e9607b3012a0843f33bd380f65c72d11f3b3 lockd: add netlink control interface
+d0782c463a650a6a145d17b2a44fb6e4a6ddd1f5 SUNRPC: Remove unused krb5_decrypt
+59fcb6ce889471513ae367661619a5b6fe62ca7a nfsd: fix management of listener transports
+66a0b4acc2bb83728ef4a78f58fed1cd71d50388 nfsd: adjust WARN_ON_ONCE in revoke_delegation
+99e98a2312c8d08fba60d548009c03e7cfb1bf6b NFSD: Skip sending CB_RECALL_ANY when the backchannel isn't up
+f0d994eb6c848f22999e9079aff9dce8c364901c nfsd: remove the redundant mapping of nfserr_mlink
+e77c5d3de4d45e390bd493a0c15360fcf95e751a NFSD: nfsd_unlink() clobbers non-zero status returned from fh_fill_pre_attrs()
+e999172cda1f674f3710bfb91112ae247352b5ca NFSD: Never return NFS4ERR_FILE_OPEN when removing a directory
+a4ae943dbbbdc72e7da83465da4437feb3a5c2a8 NFSD: Return NFS4ERR_FILE_OPEN only when renaming over an open file
+a3eb15a7e21d79dbfd28c4bf4eb0e09c69a4f65f NFSD: Return NFS4ERR_FILE_OPEN only when linking an open file
+a6128732af3fd8fb6f8560ef19949bc39fe57890 SUNRPC: Remove unused make_checksum
+28df4132a4f51204517df4203c1a22ac42cde80f NFSD: Fix trace_nfsd_slot_seqid_sequence
+934b83ff35f1a803ff0a363a86e20eaaec98f250 nfsd: don't ignore the return code of svc_proc_register()
+cb7eeb8addb19737bdb79392d69a61a953ad61c5 svcrdma: do not unregister device for listeners
+17c7bd60d40e6670db892588f277c734394f75b7 nfsd: allow SC_STATUS_FREEABLE when searching via nfs4_lookup_stateid()
+90d98f1b5a5d849ee53d8d717bbf975b4980fa8c nfsd: put dl_stid if fail to queue dl_recall
+6ca2167fd9ab017a0123f2ae753b0dd362f9f0bd nfsd: prepare nfsd4_cb_sequence_done() for error handling rework
+b077f1d4707f1e96d791158e3477c607bded687d nfsd: lift NFSv4.0 handling out of nfsd4_cb_sequence_done()
+ba0bdd180d8cd911589f22c44b6a863a63eea817 nfsd: always release slot when requeueing callback
+9e57d556c55e6f17f022e95cc9f08518f770adf0 nfsd: only check RPC_SIGNALLED() when restarting rpc_task
+61c8cc3a5cd1ad75a39864a5595d91b52d4cb565 nfsd: when CB_SEQUENCE gets ESERVERFAULT don't increment seq_nr
+d64697927979cabb1898b52a9a6f6bee47b68481 nfsd: handle NFS4ERR_BADSLOT on CB_SEQUENCE better
+f194595b9bd701e66dd0d2f13917cfab518a5c7f nfsd: eliminate special handling of NFS4ERR_SEQ_MISORDERED
 
---===============8680604701135086635==--
+--===============6839668835178626349==--
