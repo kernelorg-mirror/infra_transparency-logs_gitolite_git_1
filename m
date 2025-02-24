@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1453139547040910013=="
+Content-Type: multipart/mixed; boundary="===============6421223595221308849=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 24 Feb 2025 17:50:56 -0000
-Message-Id: <174041945615.1175473.15614787465151283072@gitolite.kernel.org>
+Date: Mon, 24 Feb 2025 17:50:58 -0000
+Message-Id: <174041945857.1175660.6034377098571770428@gitolite.kernel.org>
 
---===============1453139547040910013==
+--===============6421223595221308849==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: bb3bb6c92e5719c0f5d7adb9d34db7e76705ac33
     new: e13b6da7045f997e1a5a5efd61d40e63c4fc20e8
     log: revlist-bb3bb6c92e57-e13b6da7045f.txt
 
---===============1453139547040910013==
+--===============6421223595221308849==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -85,4 +85,4 @@ dcc35baae732b9079b2c6595cfd86da02b34a4e6 usb: Add base USB MCTP definitions
 b66e19dcf684b21b6d3a1844807bd1df97ad197a Merge branch 'mctp-add-mctp-over-usb-hardware-transport-binding'
 e13b6da7045f997e1a5a5efd61d40e63c4fc20e8 virtio-net: tweak for better TX performance in NAPI mode
 
---===============1453139547040910013==--
+--===============6421223595221308849==--
