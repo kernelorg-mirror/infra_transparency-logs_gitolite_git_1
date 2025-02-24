@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============1805198647548236560=="
+Content-Type: multipart/mixed; boundary="===============4443057172769513812=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 24 Feb 2025 07:36:56 -0000
-Message-Id: <174038261672.644594.5442098510392166612@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Mon, 24 Feb 2025 07:39:34 -0000
+Message-Id: <174038277406.646391.1807824710979809172@gitolite.kernel.org>
 
---===============1805198647548236560==
+--===============4443057172769513812==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: westeri
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/master
     old: a64dcfb451e254085a7daee5fe51bf22959d52d3
     new: d082ecbc71e9e0bf49883ee4afd435a77a5101b6
     log: revlist-a64dcfb451e2-d082ecbc71e9.txt
 
---===============1805198647548236560==
+--===============4443057172769513812==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -718,4 +718,4 @@ ad328a3785a24a7e7a8053b06139a6bfb42d0280 Merge tag 'edac_urgent_for_v6.14_rc4' o
 9d68911233472dc2b336f2cf99521bd684ba6092 Merge tag 'i2c-for-6.14-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 d082ecbc71e9e0bf49883ee4afd435a77a5101b6 Linux 6.14-rc4
 
---===============1805198647548236560==--
+--===============4443057172769513812==--
