@@ -1,41 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2287839915594850125=="
+Content-Type: multipart/mixed; boundary="===============6940972420830653463=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
-Date: Mon, 24 Feb 2025 14:02:33 -0000
-Message-Id: <174040575330.970655.2597621951345827467@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 24 Feb 2025 14:07:50 -0000
+Message-Id: <174040607018.975198.8933489922388653142@gitolite.kernel.org>
 
---===============2287839915594850125==
+--===============6940972420830653463==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mediatek/linux
-user: angelogioacchino.delregno
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: dd48b7aa69b9e7e42848fa09865366a9572c546f
-    new: e08b8fd2f129221681122702e899159e93af73e9
-    log: revlist-dd48b7aa69b9-e08b8fd2f129.txt
+  - ref: refs/heads/master
+    old: 8fc3e353d3eaaacafc470cb6e4cc1a813fa2b0a2
+    new: 239cfd9e2fe7696a7d0c8805f1e99b186b82c551
+    log: |
+         239cfd9e2fe7696a7d0c8805f1e99b186b82c551 5.4-stable patches
+         
 
---===============2287839915594850125==
+--===============6940972420830653463==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dd48b7aa69b9-e08b8fd2f129.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-ac24d9767b53e6ff600c769d0e33f88d7c46fa28 dt-bindings: usb: mediatek,mtk-xhci: Add port for SuperSpeed EP
-6e5496804185392f51557bf39659d78fad9c6c83 arm64: dts: mediatek: mt8188: Add MTU3 nodes and correctly describe USB
-5fef91c267c150cb030808e219aa14f2be3f16dc arm64: dts: mediatek: mt8390-genio-700: Add USB, TypeC Controller, MUX
-eb016b44f64b85ae42b732035287067e4cee2f92 arm64: dts: mediatek: mt8188: Add base display controller graph
-be06e25e3cf6056efb53a8c8cfd1aa1a1cc8fdc7 arm64: dts: mediatek: mt8390-genio-common: Add Display on DSI0
-3897131ba0eb5bf7d077ae5c461cd8b673df9a6a arm64: dts: mediatek: mt8188-geralt: Add graph for DSI and DP displays
-81688e5cf75478d18bb1c10fb8d32c513305616e arm64: dts: mediatek: mt8390-genio-common: Configure touch vreg pins
-2da0795757e8f4dbd88326e5c69ff032ac994b76 dt-bindings: usb: mtu3: Add ports property
-89a2041f7f04dd3fa7f1aa53f3685b11ef552efd arm64: dts: mediatek: mt8395-genio-1200-evk: add support for TCPC port
-6b9a5fc65a7880f7ac6a981a0a30b5ecba7bd5ae mailbox: mtk-cmdq: Refine GCE_GCTL_VALUE setting
-e08b8fd2f129221681122702e899159e93af73e9 Merge branch 'v6.14-next/soc' into for-next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1740406098 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1740406064-e3b0e4422d16b56b625be81ab8ba4d43bdbd4c74
 
---===============2287839915594850125==--
+8fc3e353d3eaaacafc470cb6e4cc1a813fa2b0a2 239cfd9e2fe7696a7d0c8805f1e99b186b82c551 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAme8fVIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4/QP/RavkQLg9cbHPOvN7wdV
+nF83rBxqPFpUSJ8jSRjpEEiVyK7jS9L2o9mug+xcW/CZiKq81Asxfy5EZgIjAizc
+TqBS+UT6d61xk76CNrCVXIpnmbiGgFnSKxrMi+TLUcJMvWtx6lDR5qgLiuDSXo6X
+z24NrXZAFxBDXKH8PrfS03WYy98rglKNqJDbOdE8be609Rtvpc/daMUpV+ZlUwJ9
+LD81umWaD5osVznS/FC2z0lLoY1B5h8ItFQrzgP65L99IcfW7mseeVyoQzxYWTnk
+PAA3W/Rc8t5HNuME00OU12Vwv/6mlB6YqiD8dGMa0MZALAtKAmn2+GPqLYmy1yKD
+AwQO1l1UJGtkw84FwqskSAuX6KIS/D2yBbbexuoe3m/wUVbQTlS9D0TTm4+fM51a
+woW0qAMF7P+oQS2NTTXoFMyzG9hT7LZeS0PHppe0/N4KW86YFlb1oBkMLfSX1PkQ
+PUyhYyQLhqzR7JX41iLPZ/UzEcwaHpW34K/cthvFDkhEWtlxiT0QD+ZcxyML1QeM
+8sxbpqnHCIHv0eL4i+0Ij0BE1ZmqyEZPE0gE40TfyJnDMcyT4E6V+AUEj1arHYIC
+W+wNUO7WUYzRVHKs+JFZitsVRzJOifwTDBZ8lmsL5Xc0y81NAv1ec6Wufqd3vVsH
+iFFRCOkQ7/poNo+MOr9wv9SR
+=Mny7
+-----END PGP SIGNATURE-----
+
+--===============6940972420830653463==--
