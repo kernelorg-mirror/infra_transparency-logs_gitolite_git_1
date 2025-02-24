@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 24 Feb 2025 20:13:49 -0000
-Message-Id: <174042802966.1301102.11447675858510902405@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Mon, 24 Feb 2025 20:43:11 -0000
+Message-Id: <174042979177.1324292.12161442081816147085@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
   - ref: refs/heads/master
-    old: 239860828f8660e2be487e2fbdae2640cce3fd67
-    new: 11ba7ce076e5903e7bdc1fd1498979c331b3c286
+    old: 2fc8906de82f6d80dd222eef4f20f1b2a16101c9
+    new: 02aa832d14032da40f5c873d5d6753eba54efc97
     log: |
-         11ba7ce076e5903e7bdc1fd1498979c331b3c286 bpf: Fix kmemleak warning for percpu hashmap
+         02aa832d14032da40f5c873d5d6753eba54efc97 bluetooth: btusb: Initialize .owner field of force_poll_sync_fops
          
