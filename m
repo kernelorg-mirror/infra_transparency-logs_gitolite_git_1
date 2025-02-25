@@ -1,21 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 25 Feb 2025 15:34:41 -0000
-Message-Id: <174049768140.2279198.15075593190108564491@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 25 Feb 2025 15:46:32 -0000
+Message-Id: <174049839208.2291624.12389046118636647232@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/asoc-6.15
-    old: d909b8d13a13d0197877e16aaaa3b2fcbb502858
-    new: 22254fca9bc7655801ad5f2af15729e44d28b85c
+  - ref: refs/heads/for-linus
+    old: c9ca8a4f89884eb352e4c58204d39842cc73db9c
+    new: 9e7c6779e3530bbdd465214afcd13f19c33e51a2
     log: |
-         6542db20caf4987b938ed8feec07d199779823f2 ASoC: dt-bindings: fsl,easrc: Reference common DAI properties
-         3e7b375752b5e4de56e92dfb9c43309cd985b869 ASoC: dt-bindings: fsl,imx-asrc: Reference common DAI properties
-         22254fca9bc7655801ad5f2af15729e44d28b85c ASoC: dt-bindings: fsl: Reference common DAI
+         9e7c6779e3530bbdd465214afcd13f19c33e51a2 ALSA: hda/realtek: Fix wrong mic setup for ASUS VivoBook 15
+         
+  - ref: refs/heads/master
+    old: dea58d99784bab94d90c9326bef65a7f4f2aedc8
+    new: 315fc86d837ee48bc4938173a50e35c2889e512e
+    log: |
+         9e7c6779e3530bbdd465214afcd13f19c33e51a2 ALSA: hda/realtek: Fix wrong mic setup for ASUS VivoBook 15
+         315fc86d837ee48bc4938173a50e35c2889e512e Merge branch 'for-linus'
          
