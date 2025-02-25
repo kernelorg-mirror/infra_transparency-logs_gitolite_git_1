@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Tue, 25 Feb 2025 17:48:22 -0000
-Message-Id: <174050570282.2445260.14824366669630664923@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 25 Feb 2025 17:49:34 -0000
+Message-Id: <174050577455.2446942.7280922953956371876@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/objtool/urgent
-    old: b8bd16a0ae060862ff6215b27ab626dd7ff12484
-    new: 73cfc53cc3b6380eccf013049574485f64cb83ca
+  - ref: refs/heads/io_uring-6.14
+    old: 4614de748e78a295ee9b1f54ca87280b101fbdf0
+    new: 6ebf05189dfc6d0d597c99a6448a4d1064439a18
     log: |
-         68f3ea7ee199ef77551e090dfef5a49046ea8443 vmlinux.lds: Ensure that const vars with relocations are mapped R/O
-         73cfc53cc3b6380eccf013049574485f64cb83ca objtool: Fix C jump table annotations for Clang
+         6ebf05189dfc6d0d597c99a6448a4d1064439a18 io_uring/net: save msg_control for compat
          
