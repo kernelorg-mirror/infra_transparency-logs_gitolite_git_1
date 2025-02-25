@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3631842456572943653=="
+Content-Type: multipart/mixed; boundary="===============2239623489180158975=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Tue, 25 Feb 2025 11:20:40 -0000
-Message-Id: <174048244066.2047871.15614236298113514245@gitolite.kernel.org>
+Date: Tue, 25 Feb 2025 11:20:46 -0000
+Message-Id: <174048244679.2048052.9942403065665858612@gitolite.kernel.org>
 
---===============3631842456572943653==
+--===============2239623489180158975==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: andy
 changes:
-  - ref: refs/heads/review-andy
+  - ref: refs/heads/for-next
     old: 0eee258cdf172763502f142d85e967f27a573be0
     new: aa0554d3756ae57591737e8de9075be8c791daee
     log: revlist-0eee258cdf17-aa0554d3756a.txt
 
---===============3631842456572943653==
+--===============2239623489180158975==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ b8c38ccb2ca52b9a38cfeb9f89abab5d6e713221 input: ipaq-micro-keys: use devm_kmemdu
 1f4c7f3b3afa90e10903234c86d5bd168c5f23b3 Merge patch series "Split devres APIs to device/devres.h and introduce devm_kmemdup_array()"
 aa0554d3756ae57591737e8de9075be8c791daee Merge tag 'ib-devres-iio-input-pinctrl-v6.15' into intel/pinctrl
 
---===============3631842456572943653==--
+--===============2239623489180158975==--
