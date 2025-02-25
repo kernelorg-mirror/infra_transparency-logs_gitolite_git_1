@@ -1,44 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============6379585507024813758=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/aalbersh/xfsprogs-dev
-Date: Tue, 25 Feb 2025 12:42:57 -0000
-Message-Id: <174048737769.2117917.17303448643401943803@gitolite.kernel.org>
-
---===============6379585507024813758==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Tue, 25 Feb 2025 12:43:29 -0000
+Message-Id: <174048740987.2118521.12137595799486878949@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/aalbersh/xfsprogs-dev
-user: aalbersh
+repo: pub/scm/linux/kernel/git/pci/pci
+user: kwilczynski
 changes:
-  - ref: refs/heads/for-next
-    old: eff7226942a59fc78e8ecd7577657c30ed0cf9a8
-    new: 906b3482bdce008fcf3f0be52055e2ae44eaa9bc
-    log: revlist-eff7226942a5-906b3482bdce.txt
-
---===============6379585507024813758==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eff7226942a5-906b3482bdce.txt
-
-4fd999332e19993fb7fd381f5fcd40ff943d98ac xfsprogs: Release v6.13.0
-ce17559b64c3d09595354efbe03c664d96385c70 configure: additionally get icu-uc from pkg-config
-ed295b5c3a191b5ec528cb3dfbad0bbd88541091 release.sh: add signing and fix outdated commands
-0026ce95fd8b55e47b2b04850f2a3eb462cd25d5 release.sh: add --kup to upload release tarball to kernel.org
-ba8e4f3eb03e558a3e9de956fc833eb7702d1541 release.sh: update version files make commit optional
-a430270cb97de43696ad496771c66a0dee816399 Add git-contributors script to notify about merges
-3a17eed7139588d6fd1153d2a97589973054b432 git-contributors: better handling of hash mark/multiple emails
-d6938ff16c0ae5347ab04cc68ca3aee9d1634fa6 git-contributors: make revspec required and shebang fix
-4b0cf28c7bdeb7a40a6176d367665473f5872c14 release.sh: generate ANNOUNCE email
-610678dcdb9a00693414f91a22c12cdb954b1365 release.sh: add -f to generate for-next update email
-9b4bc5f8e9b1b43350f40cc46a0684634e676274 libxfs-apply: drop Cc: to stable release list
-26f3a4ae951f7a1150b3221a93288dceb077e113 gitignore: ignore a few newly generated files
-25073b6ffddca905b5f82f1e9752723536745ba5 xfs_io: don't fail FS_IOC_FSGETXATTR on filesystems that lack support
-906b3482bdce008fcf3f0be52055e2ae44eaa9bc xfs_scrub: fix buffer overflow in string_escape
-
---===============6379585507024813758==--
+  - ref: refs/heads/controller/dwc
+    old: 4fa1c5e70dab2338b17c5333814f6fdf21507761
+    new: a1d7f07eff78cd6441a06684b256151d44323b04
+    log: |
+         046f580a953c94f60c3d408fea889f104abf41ff perf/dwc_pcie: Move common DWC struct definitions to 'pcie-dwc.h'
+         bb3ac4099fc41b41f02621b8a7edff36b7c27d57 PCI: dwc: Add helper to find the Vendor Specific Extended Capability (VSEC)
+         6f64dc496ce9c53e6b60c855635c3010d7148e01 PCI: dwc: Add debugfs based silicon debug support in DWC
+         ebfc04aa79c59f58eb88140652e9fadcc1f2da4f PCI: dwc: Add debugfs based error injection support in DWC
+         a1d7f07eff78cd6441a06684b256151d44323b04 PCI: dwc: Add debugfs based statistical counter support in DWC
+         
