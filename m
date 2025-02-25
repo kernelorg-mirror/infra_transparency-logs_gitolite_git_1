@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============3719410735660546412=="
+Content-Type: multipart/mixed; boundary="===============0265644852870138052=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 25 Feb 2025 17:03:54 -0000
-Message-Id: <174050303462.2387738.5106153224083944776@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 25 Feb 2025 17:03:57 -0000
+Message-Id: <174050303758.2387820.7057627645963273554@gitolite.kernel.org>
 
---===============3719410735660546412==
+--===============0265644852870138052==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.14
+  - ref: refs/heads/asoc-6.14
     old: d31babd7e304d3b800d36ff74be6739405b985f2
     new: 769c1b79295c38d60fde4c0a8f5f31e01360c54f
     log: |
@@ -24,28 +24,28 @@ changes:
          769c1b79295c38d60fde4c0a8f5f31e01360c54f ASoC: cs35l56: Prevent races when soft-resetting using SPI control
          
 
---===============3719410735660546412==
+--===============0265644852870138052==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1740503062 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1740503032-d870cec00c8f4b8623856b13b2866abb0232b6b5
+pusher C3F436CA30F5D8EB 1740503065 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1740503035-80305c7438b0141828b809a677c835454638f7c4
 
-d31babd7e304d3b800d36ff74be6739405b985f2 769c1b79295c38d60fde4c0a8f5f31e01360c54f refs/heads/for-6.14
+d31babd7e304d3b800d36ff74be6739405b985f2 769c1b79295c38d60fde4c0a8f5f31e01360c54f refs/heads/asoc-6.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAme9+BYACgkQJNaLcl1U
-h9AxGgf+KmTQHxHG0EWJMzHwoaSSNMxaeEt9ryhTHDUkFumc0oMfn69nr90CqSrS
-YHmScvZYOegsJd4Il3Adk1nxZ6OSJFCA71ZhDU4zCsuBSLV7ADOLXGXcngvI1RAk
-JcEKjLyQ3wbGnPrz3IsvvdQf69Dl+DeO/oeyW+kSVFovN4eYv6DHQMowZgjixbwK
-5iNsWBrH54J7yqhorPoQfEZauTlM344w2JLvyvSsw6w7vmQlxRo/lKwNTfgEM5en
-0OINT2eGfqW0XcGrdNQ67f5pSlGIKm/mnF8Ypf9uuR9tIkaaTX+NEoppGN3Scljy
-4OQochpKQ/4n6CmAcHFO+NX/47ni/Q==
-=3h/l
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAme9+BkACgkQJNaLcl1U
+h9Brlgf+PUf96cDDkx2GJ+IpFX+RgGsAukFb2A42NSx8kb/gCdcjMwLKfRC49P6y
+UptimdP06zDSempQTMlhsCcFapXe7slyZkmbFxuN+A4nS2g4XHAes3xf8NpLRW5d
+QjG+O53X7F3rwm79ItJCXx/Q5AsoT+Ml8fXPajl1woKAYxCB6EbRhkfyCp3uMhld
+Hn+RtcoVzSZDePWOVaz8nBil0DgHKk+9vwSsSzyxnLre3FU2jBpv7ZVqQMdoxx0/
+OI1V5aqIO8E26/yLEXvDDDC3IzwBU+BQGLAnoANsomKTRNsySrZzsDMnB3UoeHBg
+BH5UFkKxUPMudGEfS4Lnc8PYKTv7Ig==
+=RfUR
 -----END PGP SIGNATURE-----
 
---===============3719410735660546412==--
+--===============0265644852870138052==--
