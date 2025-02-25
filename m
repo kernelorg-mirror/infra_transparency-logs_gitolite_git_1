@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3663197355858883518=="
+Content-Type: multipart/mixed; boundary="===============5752829567169778648=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Tue, 25 Feb 2025 13:00:59 -0000
-Message-Id: <174048845933.2134019.1098876283786210552@gitolite.kernel.org>
+Date: Tue, 25 Feb 2025 13:01:51 -0000
+Message-Id: <174048851136.2134649.13816337702731567119@gitolite.kernel.org>
 
---===============3663197355858883518==
+--===============5752829567169778648==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 3bcd901e4257d88cd3fc0e5cfa7d2fb3a1a1af99
-    new: 7e72900272b61c11f2fd4020d4f186124d0d171b
-    log: revlist-3bcd901e4257-7e72900272b6.txt
+  - ref: refs/heads/for-next
+    old: f6d13738292ec69a8c74a982820a59eee1e9e956
+    new: 5d51aea463752fcdbf78888ad946a8002169f1c6
+    log: revlist-f6d13738292e-5d51aea46375.txt
 
---===============3663197355858883518==
+--===============5752829567169778648==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3bcd901e4257-7e72900272b6.txt
+Content-Disposition: attachment; filename=revlist-f6d13738292e-5d51aea46375.txt
 
 583e518e7100362e3937b583976f9470c39d1db2 scsi: ufs: core: Add hba parameter to trace events
 d69ddae194ca2c8ea426747efba730bfec20fe04 scsi: hpsa: Remove deprecated and unnecessary strncpy()
@@ -47,5 +47,6 @@ eff26ad4c34fc78303c14be749e10ca61c4d211f scsi: ufs: core: Check if scaling up is
 2a25cbaa81d27f212439576fb5d406466055cfd0 scsi: ufs: core: Toggle Write Booster during clock scaling base on gear speed
 6d7696b4d447028315038645f8a47f7539819be8 scsi: ABI: sysfs-driver-ufs: Add missing UFS sysfs attributes
 7e72900272b61c11f2fd4020d4f186124d0d171b Merge patch series "Support Multi-frequency scale for UFS"
+5d51aea463752fcdbf78888ad946a8002169f1c6 Merge branch 'misc' into for-next
 
---===============3663197355858883518==--
+--===============5752829567169778648==--
