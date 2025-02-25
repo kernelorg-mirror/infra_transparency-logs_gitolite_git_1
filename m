@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Tue, 25 Feb 2025 18:36:42 -0000
-Message-Id: <174050860202.2511916.17271451852611639880@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Tue, 25 Feb 2025 18:37:06 -0000
+Message-Id: <174050862646.2512338.9322397112690443675@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/pci/pci
+user: kwilczynski
 changes:
-  - ref: refs/heads/for-6.15
-    old: fde7d64766c1142fe79507bbef4968cee274cc0b
-    new: 5e3b64246fe4cafed0755e3850de2874bf4a0da9
+  - ref: refs/heads/controller/dwc
+    old: d80d9b9bdd808cb1b60425cb8b5274cd219db455
+    new: b7188e58c7872523605094948c9b992aa1bfa9e0
     log: |
-         5e3b64246fe4cafed0755e3850de2874bf4a0da9 tools/sched_ext: Provide consistent access to scx flags
-         
-  - ref: refs/heads/for-next
-    old: 5780c4a0afcce45633e003da06cf33e72d9db273
-    new: 641e9dc2e05f3f47eee0d121a45b357245aa5af0
-    log: |
-         5e3b64246fe4cafed0755e3850de2874bf4a0da9 tools/sched_ext: Provide consistent access to scx flags
-         641e9dc2e05f3f47eee0d121a45b357245aa5af0 Merge branch 'for-6.15' into for-next
+         b7188e58c7872523605094948c9b992aa1bfa9e0 PCI: dwc: Add debugfs based Statistical Counter support for DWC
          
