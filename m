@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 25 Feb 2025 12:21:33 -0000
-Message-Id: <174048609350.2100473.13787815440293904865@gitolite.kernel.org>
+Date: Tue, 25 Feb 2025 12:28:18 -0000
+Message-Id: <174048649897.2105475.17957135084123670298@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: pabeni
 changes:
   - ref: refs/heads/main
-    old: 29b036be1b0bfcfc958380d5931325997fddf08a
-    new: de2c211868b9424f9aa9b3432c4430825bafb41b
+    old: de2c211868b9424f9aa9b3432c4430825bafb41b
+    new: bc50682128bde778a1ddc457a02d92a637c20c6f
     log: |
-         de2c211868b9424f9aa9b3432c4430825bafb41b ipvs: Always clear ipvs_property flag in skb_scrub_packet()
+         bc50682128bde778a1ddc457a02d92a637c20c6f MAINTAINERS: socket timestamping: add Jason Xing as reviewer
          
