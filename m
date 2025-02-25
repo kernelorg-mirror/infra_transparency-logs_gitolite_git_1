@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Tue, 25 Feb 2025 14:25:52 -0000
-Message-Id: <174049355255.2210314.2918551470786919573@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/niks/linux
+Date: Tue, 25 Feb 2025 14:31:23 -0000
+Message-Id: <174049388324.2215249.13364429694698239471@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: kwilczynski
+repo: pub/scm/linux/kernel/git/niks/linux
+user: niks
 changes:
-  - ref: refs/heads/controller/dwc
-    old: 7485414d20b179e22e0ffce29a31f26ff0161d34
-    new: 9f99c304c4679b52dc51eab265d230c079715bb2
+  - ref: refs/heads/b4/vfio_pci_mmap
+    old: ec5e598dfba5aea6f47ca2da07e90978563c675c
+    new: 4e132e8f0d79ed60cdd65e333205c8ba49ae771d
     log: |
-         01b7d331998d80505866d29200bf9dd1b579efdd perf/dwc_pcie: Move common DWC struct definitions to 'pcie-dwc.h'
-         dff3233c9413584022a67ab42588bdc3a7b569a2 PCI: dwc: Add helper to find the Vendor Specific Extended Capability (VSEC)
-         24c117c606589fac678241d4c8fe7d24b0ff2461 PCI: dwc: Add debugfs based Silicon Debug support for DWC
-         62a8681195d7c47e2be656e82474afff3dd1d6d1 PCI: dwc: Add debugfs based Error Injection support for DWC
-         9f99c304c4679b52dc51eab265d230c079715bb2 PCI: dwc: Add debugfs based Statistical Counter support for DWC
+         4e132e8f0d79ed60cdd65e333205c8ba49ae771d PCI: s390: Support mmap() of PCI resources except for ISM devices
          
