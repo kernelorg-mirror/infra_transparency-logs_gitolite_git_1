@@ -1,44 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============2239623489180158975=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Tue, 25 Feb 2025 11:20:46 -0000
-Message-Id: <174048244679.2048052.9942403065665858612@gitolite.kernel.org>
-
---===============2239623489180158975==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
+Date: Tue, 25 Feb 2025 11:27:50 -0000
+Message-Id: <174048287020.2053194.784047553385290244@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/intel
-user: andy
+repo: pub/scm/linux/kernel/git/klassert/ipsec
+user: klassert
 changes:
-  - ref: refs/heads/for-next
-    old: 0eee258cdf172763502f142d85e967f27a573be0
-    new: aa0554d3756ae57591737e8de9075be8c791daee
-    log: revlist-0eee258cdf17-aa0554d3756a.txt
-
---===============2239623489180158975==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0eee258cdf17-aa0554d3756a.txt
-
-18311a766c587fc69b1806f1d5943305903b7e6e err.h: move IOMEM_ERR_PTR() to err.h
-a21cad9312767d26b5257ce0662699bb202cdda1 driver core: Split devres APIs to device/devres.h
-99e297cdd338b8a18c986ed4e088676579b7fe96 iio: imu: st_lsm9ds0: Replace device.h with what is needed
-a103b833ac3806b816bc993cba77d0b17cf801f1 devres: Introduce devm_kmemdup_array()
-753764aa8eb52f54d8d1f42158595bfc16f0e748 pinctrl: intel: copy communities using devm_kmemdup_array()
-f192c8447f4ea0d6d35e17c599348f24ab264372 pinctrl: baytrail: copy communities using devm_kmemdup_array()
-d795fb90d6c63ef3182b49c766a6fef75b4f790d pinctrl: cherryview: use devm_kmemdup_array()
-91bfcc7a2fdb5f7833fa8f2a1919eaef0e6a98dd pinctrl: tangier: use devm_kmemdup_array()
-86068aca754880715960a218410749b929c037bd pinctrl: pxa2xx: use devm_kmemdup_array()
-a0d78eec88395e67117a3453f55a4fc3c7265cf2 iio: adc: xilinx-xadc-core: use devm_kmemdup_array()
-cdcc09a495a4fa60f1c612db207d78b82b6c4531 input: sparse-keymap: use devm_kmemdup_array()
-b8c38ccb2ca52b9a38cfeb9f89abab5d6e713221 input: ipaq-micro-keys: use devm_kmemdup_array()
-1f4c7f3b3afa90e10903234c86d5bd168c5f23b3 Merge patch series "Split devres APIs to device/devres.h and introduce devm_kmemdup_array()"
-aa0554d3756ae57591737e8de9075be8c791daee Merge tag 'ib-devres-iio-input-pinctrl-v6.15' into intel/pinctrl
-
---===============2239623489180158975==--
+  - ref: refs/heads/master
+    old: a1300691aed9ee852b0a9192e29e2bdc2411a7e6
+    new: 0aae2867aa6067f73d066bc98385e23c8454a1d7
+    log: |
+         5eddd76ec2fd1988f0a3450fde9730b10dd22992 xfrm: fix tunnel mode TX datapath in packet offload mode
+         0aae2867aa6067f73d066bc98385e23c8454a1d7 xfrm_output: Force software GSO only in tunnel mode
+         
