@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 25 Feb 2025 18:53:42 -0000
-Message-Id: <174050962233.2533664.11522749717768417996@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Tue, 25 Feb 2025 18:59:42 -0000
+Message-Id: <174050998251.2542604.6372226684467955019@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/pci/pci
+user: kwilczynski
 changes:
-  - ref: refs/heads/kernel-6.12/nfs
-    old: a3d764459e1cef6b7f8c5c658e3b9bf101f7cecc
-    new: 9951521e457a712c8576b4a65faec9b960fa5e78
+  - ref: refs/heads/controller/dwc
+    old: b7188e58c7872523605094948c9b992aa1bfa9e0
+    new: 5a82def925882d0211dc7b03f702b0df4918b5bc
     log: |
-         14255ec849910c8fc4d9db56025ed5cb10e37f5b NFSv4: Don't trigger uneccessary scans for return-on-close delegations
-         8febdd655d17ba7251550e6bb637b2d9acd0a309 NFSv4: Avoid unnecessary scans of filesystems for returning delegations
-         b2f238723fc92d474692ec818821b7e156f355f8 NFSv4: Avoid unnecessary scans of filesystems for expired delegations
-         9951521e457a712c8576b4a65faec9b960fa5e78 NFSv4: Avoid unnecessary scans of filesystems for delayed delegations
+         8490e27ba80e2ebb1ebc45b00322e3bef24eef52 PCI: dwc: Add debugfs based Silicon Debug support for DWC
+         814b6b9cc3655b1122f3a8d0c1383586dd8282ef PCI: dwc: Add debugfs based Error Injection support for DWC
+         5a82def925882d0211dc7b03f702b0df4918b5bc PCI: dwc: Add debugfs based Statistical Counter support for DWC
          
