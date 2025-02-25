@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7224967697080180524=="
+Content-Type: multipart/mixed; boundary="===============1018669771595734589=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Tue, 25 Feb 2025 00:34:17 -0000
-Message-Id: <174044365762.1516516.1041461247519645621@gitolite.kernel.org>
+Date: Tue, 25 Feb 2025 00:35:21 -0000
+Message-Id: <174044372197.1519199.14247048820994389515@gitolite.kernel.org>
 
---===============7224967697080180524==
+--===============1018669771595734589==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shawnguo/linux
 user: shawnguo
 changes:
-  - ref: refs/heads/imx/dt64
-    old: bda3de0bf0d6beca23371b8018aba8208a2cd7bc
-    new: 9e87325a9c189a40b265cf77e737330a1ba8a79b
-    log: revlist-bda3de0bf0d6-9e87325a9c18.txt
+  - ref: refs/heads/for-next
+    old: 6b85642caf395a7c1a1e73232b33d6d792749691
+    new: a76206a60d157a8e23b52e9c7a202a001c839ab2
+    log: revlist-6b85642caf39-a76206a60d15.txt
 
---===============7224967697080180524==
+--===============1018669771595734589==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bda3de0bf0d6-9e87325a9c18.txt
+Content-Disposition: attachment; filename=revlist-6b85642caf39-a76206a60d15.txt
 
+e34ba2a343137defb7bf197f7f31a4882c94cc2d ARM: dts: imx6ul-14x14-evk: Complete WM8960 power supplies
+6a69b494c6dbafa53c49c4da3e7cef4687e256cb ARM: dts: imx7d-sdb: Complete WM8960 power supplies
 8472751c4d96b558d60d0f6aede6b24b64bcb3c9 arm64: dts: imx8mm-kontron: Add support for reading SD_VSEL signal
 427ad6e2117f7161a19b0a641b167723461a822f arm64: dts: imx93-kontron: Fix SD card IO voltage control
 39e4189d9d63a0b6fc15458ce0136e99ecdfb1b8 arm64: dts: imx8mp-kontron: Add support for reading SD_VSEL signal
@@ -81,5 +83,9 @@ f8fab2dc4885c5c7fa9d0b2fec8e963015fe87d5 arm64: dts: imx8mm-phyboard-polis: Assi
 7b77622900aaacedbd354b457924379c0d6e267b arm64: dts: imx8mm-phycore-som: Add overlay for rproc
 f432f54377ae566c1082a1916fe7215469cb3fb3 arm64: dts: imx8mm-phycore-som: Add no-eth phy overlay
 9e87325a9c189a40b265cf77e737330a1ba8a79b arm64: dts: imx8mm-phycore-som: Add overlay to disable SPI NOR flash
+e84f56a2f05ffefd00954261a7f2ed9098bc35eb Merge branch 'imx/drivers' into for-next
+ef2f48585e1538bc47ec0158ba25176312b52ffe Merge branch 'imx/bindings' into for-next
+f1b6c30d38634232fb3fd759623fefa9e1593b8c Merge branch 'imx/dt' into for-next
+a76206a60d157a8e23b52e9c7a202a001c839ab2 Merge branch 'imx/dt64' into for-next
 
---===============7224967697080180524==--
+--===============1018669771595734589==--
