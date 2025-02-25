@@ -1,70 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============2302028778714706687=="
+Content-Type: multipart/mixed; boundary="===============0416431247187246653=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Tue, 25 Feb 2025 18:37:14 -0000
-Message-Id: <174050863478.2512530.18088287852101353299@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Tue, 25 Feb 2025 18:45:41 -0000
+Message-Id: <174050914143.2525450.12368952482110360605@gitolite.kernel.org>
 
---===============2302028778714706687==
+--===============0416431247187246653==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/dev
-    old: d6558730a4def01aa55c442dbbc5b32640c06c0e
-    new: 8979a891a365e9ac8e2e672f15cafaadee1518cf
-    log: revlist-d6558730a4de-8979a891a365.txt
-  - ref: refs/heads/non-rcu/next
-    old: de3ac915f986e6ecc1c219584797c196ff6d1fa2
-    new: a2bfbf847c96196d62c9a59bd32e1fdafd1c205c
-    log: |
-         fafa180683591f5f917bfa68e95aae463afc852a tools/memory-model: Switch to softcoded herd7 tags
-         dcc5197839f22655951056f399061872adfdb0b9 tools/memory-model: Distinguish between syntactic and semantic tags
-         fa9e35a0772a74fc190265a5d4e3e62384b999ff tools/memory-model/README: Fix typo
-         a2bfbf847c96196d62c9a59bd32e1fdafd1c205c tools/memory-model: glossary.txt: Fix indents
-         
-  - ref: refs/heads/dev.2025.02.24a
-    old: 0000000000000000000000000000000000000000
-    new: d6558730a4def01aa55c442dbbc5b32640c06c0e
+  - ref: refs/heads/kernel-6.12/nfs
+    old: d270f3fa1212aaa218b7911a279e814396a46749
+    new: a3d764459e1cef6b7f8c5c658e3b9bf101f7cecc
+    log: revlist-d270f3fa1212-a3d764459e1c.txt
 
---===============2302028778714706687==
+--===============0416431247187246653==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d6558730a4de-8979a891a365.txt
+Content-Disposition: attachment; filename=revlist-d270f3fa1212-a3d764459e1c.txt
 
-961357e8d22c6481dd0271d3a3f067fc996c30ef rcutorture: Update rcutorture_one_extend_check() for lazy preemption
-cbd152d8ad1c3060b36e47f6b3da6e75b3f8dab9 rcutorture: Update ->extendables check for lazy preemption
-58929f9d450c05ab1264cb282c1933378a00bc5f rcu: limit PREEMPT_RCU configurations
-21696d5e631162d173a0bc1700d688ac0f0a066d rcutorture: Make scenario TREE10 build CONFIG_PREEMPT_LAZY=y
-b35ea69acc78a157204b2286e9b6168473bc23cb rcutorture: Make scenario TREE07 build CONFIG_PREEMPT_LAZY=y
-c52f04dbdef4bcdf518e8073eac9568b6e40e88e Merge branches 'docs.2025.02.04a', 'lazypreempt.2025.02.24a', 'misc.2025.02.06a', 'srcu.2025.02.05a' and 'torture.2025.02.05a'
-d80a8e0164338638eb05babe20c3337554519089 MAINTAINERS: Update Joel's email address
-fafa180683591f5f917bfa68e95aae463afc852a tools/memory-model: Switch to softcoded herd7 tags
-dcc5197839f22655951056f399061872adfdb0b9 tools/memory-model: Distinguish between syntactic and semantic tags
-fa9e35a0772a74fc190265a5d4e3e62384b999ff tools/memory-model/README: Fix typo
-a2bfbf847c96196d62c9a59bd32e1fdafd1c205c tools/memory-model: glossary.txt: Fix indents
-fdd8eda2f446ad00cc5013ca9fb5262ad0599b40 Merge branches 'lkmm.2025.02.25a' and 'rcu.2025.02.24a' into HEAD
-3839dbb058693f261cd76158740bdf923722a629 rcutorture: Make srcu_lockdep.sh check kernel Kconfig
-b5aa1c4890857be10b7c56ffa094180135bd1e8b rcutorture: Make srcu_lockdep.sh check reader-conflict handling
-9a5720bad9edbc6325c279acc763c2b5ba9995cc rcu: Remove swake_up_one_online() bandaid
-04159042a62b9c39358058790a55d2bf5107288a Revert "rcu/nocb: Fix rcuog wake-up from offline softirq"
-fdc37fed1c8172240d6da8170501346ad8155e55 rcutorture: Split out beginning and end from rcu_torture_one_read()
-b71f605a10065cfeb7fde73ab4d33f4b17316771 printk: Flush console log from kernel_power_off()
-3c6b1925361ef00f5fa7a70b3b7cbb4a39b56c91 rcutorture: Make torture.sh --do-rt use CONFIG_PREEMPT_RT
-fadc715785cca7cfc8ae3baecd75fca84d83974b rcutorture: Add tests for SRCU up/down reader primitives
-90a8f490324c0b1d9d022cc87c2c330009da192d rcutorture: Pull rcu_torture_updown() loop body into new function
-5fbaa5179f6a36da8baca8a1b30e8154f3892ce2 rcutorture: Comment invocations of tick_dep_set_task()
-461810471faa7b4c7a82d6558a60173ee3e7d774 rcutorture: Complain if an ->up_read() is delayed more than 10 seconds
-35e1a180319d1d5713cea101d1fcade439259b41 rcutorture: Check for ->up_read() without matching ->down_read()
-0676ba797dfa06bbdfe2c26b3d2844683a02ce28 EXP srcu: Enable Tiny SRCU On all CONFIG_SMP=n kernels
-c8fff13fd2fd4fdd87fc19573599cfa0ac490bca EXP rcutorture: Add SRCU-V scenario for preemptible Tiny SRCU
-910a5f9ebf5f34eccc7f077dc7fc1470e6961363 EXP rcutorture: Limit callback flooding for Tiny SRCU in preemptible kernels
-8979a891a365e9ac8e2e672f15cafaadee1518cf EXP hrtimers: Force migrate away hrtimers queued after CPUHP_AP_HRTIMERS_DYING
+b22d8dd77df3cfbd3aec9ef6fc6826aae81edc95 PCI: Batch BAR sizing operations
+32137597467fcba63cc4f0493397ad21ff14b685 PCI: Fix BUILD_BUG_ON usage for old gcc
+358d18a3b0e1de8a4097d4ab195867d87f74488d arm/bL_switcher: Use kthread_run_on_cpu()
+75f30e8e1f5011f4cc21df420d1a4082b23ef6d8 soc/qman: test: Use kthread_run_on_cpu()
+e65b60a02a9c0472cf490591f3aade537f255766 kallsyms: Use kthread_run_on_cpu()
+c975bdf99a56304152f084cfc451e53c827b9952 lib: test_objpool: Use kthread_run_on_cpu()
+80f129927eed33440b23bb206deb838c0561935b arm64: Exclude nohz_full CPUs from 32bits el0 support
+03256a4caa5adeffc0e4563deab9d93264a06e10 sched,arm64: Handle CPU isolation on last resort fallback rq selection
+3d34f9e04cd207ce3e71c020bc66b9e2862c82a6 kthread: Make sure kthread hasn't started while binding it
+19a1acd017cc429b87037838c23021c9b3e0231f kthread: Default affine kthread to its preferred NUMA node
+6863928b4707a4dd462ec4eb3610e4fa2e7a7d81 mm: Create/affine kcompactd to its preferred node
+4a181aebb5ad002a946d57a895fd830528bcafbc mm: Create/affine kswapd to its preferred node
+ee0c4439dcf897584ac5e5da7097dde968c738a9 kthread: Implement preferred affinity
+04ff20c3acf1fc281867e6ce265cc2209b0b79fd rcu: Use kthread preferred affinity for RCU boost
+061a79024c53a192aafacf1f1f8dd591fb46a2c3 kthread: Unify kthread_create_on_cpu() and kthread_create_worker_on_cpu() automatic format
+04d1d4559aa634c198b2cbff7912bc726ae3e915 treewide: Introduce kthread_run_worker[_on_cpu]()
+13d0720135650554e86985ed88718954d7e469d9 rcu: Use kthread preferred affinity for RCU exp kworkers
+767c8eae5fbb5bade34a9c51df954f081758f57d kthread: modify kernel-doc function name to match code
+fd938242a7da304559d53f4e9a43ce47017f2eaa Merge remote-tracking branch 'snitzer/kernel-6.12/improvements' into kernel-6.12/nfs
+85d948cbc6a1d91caf5a5659e932069ac100970c Merge remote-tracking branch 'snitzer/kernel-6.12/nfs-for-6.12.15' into kernel-6.12/nfs
+d6126b65a5e218d9b274f63de493f504b58e9b3d NFS: fix nfs_release_folio() to not deadlock via kcompactd writeback
+a3d764459e1cef6b7f8c5c658e3b9bf101f7cecc NFS: free up memory without requiring allocation of new folios
 
---===============2302028778714706687==--
+--===============0416431247187246653==--
