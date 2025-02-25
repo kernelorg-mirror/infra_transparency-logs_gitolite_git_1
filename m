@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0569075855192356064=="
+Content-Type: multipart/mixed; boundary="===============9136748229840102528=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 25 Feb 2025 00:32:40 -0000
-Message-Id: <174044356040.1514773.5614089233580563018@gitolite.kernel.org>
+Date: Tue, 25 Feb 2025 00:33:02 -0000
+Message-Id: <174044358225.1515106.10308535877140536979@gitolite.kernel.org>
 
---===============0569075855192356064==
+--===============9136748229840102528==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,66 +16,46 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 3bcd901e4257d88cd3fc0e5cfa7d2fb3a1a1af99
-    new: 7e72900272b61c11f2fd4020d4f186124d0d171b
-    log: revlist-3bcd901e4257-7e72900272b6.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 32b5f65914b92ef597bb75882c4bbb8b3e5e0415
+    new: 2494cc5d6c127ce964efb6cfc4e13b909cba35d9
+    log: |
+         bc4bc2a1609712e6c5de01be8a20341b710dc99b pmdomain: rockchip: Fix build error
+         d90e9202377173f75bf7510d741b4bd1c76e5239 scsi: ufs: dt-bindings: Document Rockchip UFS host controller
+         6b070711b702638622f4b7072e36328a47356576 scsi: ufs: core: Export ufshcd_dme_reset() and ufshcd_dme_enable()
+         d3cbe455d6eb600dee27bf5294f6fe8c2bb06b5f scsi: ufs: rockchip: Initial support for UFS
+         c75e5e010fef2a62e6f2fe00ee8584e7b3ec82a6 scsi: arm64: dts: rockchip: Add UFS support for RK3576 SoC
+         adc4fb9c814b5d5cc6021022900fd5eb0b3c8165 Merge patch series "Initial support for RK3576 UFS controller"
+         42273e893157501ae119ea5459f3a7d2420c56d6 Merge patch series "scsi: scsi_debug: Add more tape support"
+         
 
---===============0569075855192356064==
+--===============9136748229840102528==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1740443588 -0500
+pusher 75C5DE3D 1740443594 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1740443558-dd3d9a4358e06904b6116345880e50a7289775de
+nonce 1740443564-337ef298a76f110d91122e9b7791792a5f8404f5
 
-3bcd901e4257d88cd3fc0e5cfa7d2fb3a1a1af99 7e72900272b61c11f2fd4020d4f186124d0d171b refs/heads/queue
+32b5f65914b92ef597bb75882c4bbb8b3e5e0415 2494cc5d6c127ce964efb6cfc4e13b909cba35d9 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAme9D8QACgkQ7ulgGnXF
-3j0w7A/6A493duwoe4FDxVq5Y/AejczQBLLVB0Q5VPkdo8zLQok/HgZD92BRLji1
-Yu/IECElymHklbVoydr0jZu80tj6TnTMdQfCML9c9dQwfiKk3n1ciBnGk675T/1R
-60p8hZsEVlgWUjRnbyEmbvqHRocxGMxg7XLrJP/H8g1wwmBBL1BRulCJUN4vttw4
-dm3KIofLRJ/7BZyClTkNLJcIvBhDWbXIzXEp05K6dOOrwuKJ1Qj6OI+S/SpX83dk
-gl8TXuQc8BbkwIueF75Txv3yofKLhrL1VJYwf7PaV7ZEXkmUmBS/tp2Mf1og6DUQ
-WqsMf929xfiHa9Zb5i9R1X29VVI1QTw7K2L5xj7Ct7/aBWkRfkmM3sz4WdIrufFw
-3TXSZ/dOlQPpKUUExdg5M6n3DgNm7CL4W+FOCE27U4waUA73sUuNRZdHDMBxGX9B
-6ahQX7+YtcPPcCLD6bMTeyPbg9DUCaONCaILv1QrwI4RcoHFF+gXVCqUxVMm7xWr
-07mmJJD2Uqykoq2Pi3nvqk8VuZFjKKBvBgyEGthr56E+PzZbbW6Jht+RlLEIjCVT
-DHFkUOHl+EWU7LsMfRXn6HR2WiC0n+QQvO1fGaQGqfbJslM/0EFDTcnzIEj+vkts
-LwniYMe8BnG+ZnkXTNuc2KwNjsiNp8PbHs1yUnp7EPO03DjdVyE=
-=ESUM
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAme9D8oACgkQ7ulgGnXF
+3j1RlBAAioe8oLvFe0h7SILq+uJ8pd0yNzuxmbIbzODrLYNMIYq1Hux1lgr0nlLk
+onleVSAbR16oL+CGVyN0yas0TETDc1horlgSa+TxKzJTzzS7NFZAauK5wEOulYvH
+9zY7LcsOTGl2MsGN0HyeIBy6Ys+DWQzNRvm6gmDtJt/QxskmaNunKwUfC2y0QrtG
+RLV1JR+DdPK4RcnGRAasUcIEWl2arqe15XEWHeXt3soOnVXUREIi3QBDehSbxEXB
+cTWuMjf0W9/+77eTdXA5UlGF4Doe1TeiwLboBeCXLn/PMSX45wKmGIsDjABMDozL
+/1CO5tadbni0QzoHGUyowu8QOamHlL540F0zd2tjeqI+tz3FIqBn8qAp7/1WYYqj
+VCd01wLYrPpt78LZZILDxUICwupAVfbT2DMZC8Etd3OBuFFU5pS5rW4kXbgYIC+5
+DfS9+XY3LjOm6k65WkMKmN7ysb9QLw66F8/YeD5un662jv65nJlQhCD4N2wXsWp8
+QRP0FBgZ4xZ1djwx7zpqxR9X89IMCece9RTg/ooE0MFvZdwGtRITsbnuUS3vp4Hu
+0Zhk4Zrq4VNT49FqSTnMIOdMkX7kJsnmrIGZzFHZMgGN7D9FAmgz/4rGU30sPWCf
+54fFe/aUppKwpxog8edvNeN+jjpDCxLw0LGF2CGtzh/hY1Nq/aw=
+=sEV7
 -----END PGP SIGNATURE-----
 
---===============0569075855192356064==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3bcd901e4257-7e72900272b6.txt
-
-583e518e7100362e3937b583976f9470c39d1db2 scsi: ufs: core: Add hba parameter to trace events
-d69ddae194ca2c8ea426747efba730bfec20fe04 scsi: hpsa: Remove deprecated and unnecessary strncpy()
-ac3b7425db298aa88f22a4c5a6d0a4c26f7ed338 scsi: hpsa: Replace deprecated strncpy() with strscpy_pad()
-c733741ae1c3a5927f72664b0d760d5f4c14f96b scsi: mpi3mr: Fix locking in an error path
-38afcf0660f5c408ba6c2f0ba3a9729e0102fe2e scsi: mpt3sas: Fix a locking bug in an error path
-476cda1949031a6102057eb2b4f73e9d901ffc4c scsi: ufs: qcom: Remove dead code in ufs_qcom_cfg_timers()
-70684dcbec3ac54a6d111646a02128c0b53e9f75 scsi: mpt3sas: Update MPI headers to 02.00.62 version
-c72be4b5bb7cb1a9059d0b845f87223b52399cc2 scsi: mpt3sas: Add support for MCTP Passthrough commands
-8c2465e202006e17fefaaac364e9942bd9002c34 scsi: mpt3sas: Report driver capability as part of IOCINFO command
-5612d6d51ed2634a033c95de2edec7449409cbb9 scsi: mpt3sas: Send a diag reset if target reset fails
-51edde19f008eacaeba87aadbcea143076fd8a27 scsi: mpt3sas: update driver version to 52.100.00.00
-369552fd03f296261023872b8fc983d1fc55c8e9 Merge patch series "mpt3sas driver udpates"
-5e011fcc7d16d050ff2ec3977890137cfd163d32 scsi: ufs: core: Pass target_freq to clk_scale_notify() vop
-367a0f017c6145a7e7fc7df37a4535627f81356b scsi: ufs: qcom: Pass target_freq to clk scale pre and post change
-d7bead60b08e61abde46d63eae6cd72f44939358 scsi: ufs: core: Add a vop to map clock frequency to gear speed
-c02fe9e222d16bed8c270608c42f77bc62562ac3 scsi: ufs: qcom: Implement the freq_to_gear_speed() vop
-129b44c27c8a51cb74b2f68fde57f2a2e7f5696b scsi: ufs: core: Enable multi-level gear scaling
-eff26ad4c34fc78303c14be749e10ca61c4d211f scsi: ufs: core: Check if scaling up is required when disable clkscale
-2a25cbaa81d27f212439576fb5d406466055cfd0 scsi: ufs: core: Toggle Write Booster during clock scaling base on gear speed
-6d7696b4d447028315038645f8a47f7539819be8 scsi: ABI: sysfs-driver-ufs: Add missing UFS sysfs attributes
-7e72900272b61c11f2fd4020d4f186124d0d171b Merge patch series "Support Multi-frequency scale for UFS"
-
---===============0569075855192356064==--
+--===============9136748229840102528==--
