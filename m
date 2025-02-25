@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============7914458908369809887=="
+Content-Type: multipart/mixed; boundary="===============8312275826194011293=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 25 Feb 2025 19:31:38 -0000
-Message-Id: <174051189808.2588653.7391456234197356490@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 25 Feb 2025 19:31:41 -0000
+Message-Id: <174051190156.2588733.9590916792670468893@gitolite.kernel.org>
 
---===============7914458908369809887==
+--===============8312275826194011293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.14
+  - ref: refs/heads/asoc-6.14
     old: 769c1b79295c38d60fde4c0a8f5f31e01360c54f
     new: 9da0ed4a85027063441fa1c73967cafc38f0677c
     log: |
@@ -24,7 +24,7 @@ changes:
          4bcef04ca67fa8c46591a211885bb9c37f25dbbd ASoC: Intel: sof_sdw: warn both sdw and pch dmic are used
          9da0ed4a85027063441fa1c73967cafc38f0677c ASoC: Intel: don't check number of sdw links when set
          
-  - ref: refs/heads/for-6.15
+  - ref: refs/heads/asoc-6.15
     old: 22254fca9bc7655801ad5f2af15729e44d28b85c
     new: dc64e1b9da22496b5867f90315ac406be041db15
     log: |
@@ -37,29 +37,29 @@ changes:
          dc64e1b9da22496b5867f90315ac406be041db15 Enable DMIC for Genio 700/510 EVK
          
 
---===============7914458908369809887==
+--===============8312275826194011293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1740511925 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1740511895-5feab91a2a99718170aad2fca00bc05fc5aa2ddc
+pusher C3F436CA30F5D8EB 1740511929 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1740511899-bb643538827358b4087e99c629af05589853ed63
 
-769c1b79295c38d60fde4c0a8f5f31e01360c54f 9da0ed4a85027063441fa1c73967cafc38f0677c refs/heads/for-6.14
-22254fca9bc7655801ad5f2af15729e44d28b85c dc64e1b9da22496b5867f90315ac406be041db15 refs/heads/for-6.15
+769c1b79295c38d60fde4c0a8f5f31e01360c54f 9da0ed4a85027063441fa1c73967cafc38f0677c refs/heads/asoc-6.14
+22254fca9bc7655801ad5f2af15729e44d28b85c dc64e1b9da22496b5867f90315ac406be041db15 refs/heads/asoc-6.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAme+GrUACgkQJNaLcl1U
-h9CE5wf9FUe5U9P2/EbGYtUFu5sshPL4ZfD7fYHnhBKaikBAVItTEogiL0crZ7l3
-7sYcIGoAqe5s+OYneNaoqzkKeXB6nnuqe9ndHvukXw7zagcQRZGke/tsla0EjTCw
-sAK5syRd8eNL0kDjuLhKlygjB3PCuI974nDyyywK42a14zEIrQXyVexjNYL8TxfN
-H7pbD4r2nSSYg2aMvuSZb4UgIkEcGMuCdTOPoLldJY/Wsu/pmeXEOFAXmoRFurZx
-hsFBod6XnrEEiPm0B/o7xYamgm4GthaS0KX/TBAY8YJ9SM5pIiReeEX+eHOr+ZXx
-U+O4RoSVk3D4c4zKybyDyELex7Upbg==
-=jrlM
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAme+GrkACgkQJNaLcl1U
+h9BLnAf/dGIbLMAriNPZYJnC0Y3cc0aYe7fXAXpYC+7urKh2iVfw3wBDT13ziNl4
+311GgeQkgym9IU/IsUL2b6xEXu1Mu4q3RCW5qHPmjXflgHOkQAf8pPhSIx2i1h7K
+RUMqSscvUgGVhLyRC2XkPIZMQhfi66d5h8YkET+OVlKtsnSJmnLuDb4r5A2Tm0UB
+h8YWfo+lujYYSZOW1b/+FHGbaTCFPyQLjrwAfnvIPFtNxU7MHdMljhn1dMVKCJ2B
+MFsFS6gAyou4bMCikhQOrhnwRTagDV0v9MAqr2hT05EfCImxEL3vAFGIed4fj4bk
+ocEr69E/B1BDHXN3O3krqsRzDcC74A==
+=vlDc
 -----END PGP SIGNATURE-----
 
---===============7914458908369809887==--
+--===============8312275826194011293==--
