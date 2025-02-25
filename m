@@ -1,27 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Tue, 25 Feb 2025 11:55:03 -0000
-Message-Id: <174048450354.2077344.17134941077109939072@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 25 Feb 2025 12:02:16 -0000
+Message-Id: <174048493650.2082709.13892446836537693521@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/master
-    old: 57df7ea01b2c3dddbe88651cbd1db9ab0b6c94f2
-    new: 0b48faea8224a9a016924073451e3a8f610ced14
+  - ref: refs/heads/main
+    old: a3e51d4711793be001220784bd7d8ce81517003e
+    new: 222e75358a7b7457518b97b6374e160b4a8e6273
     log: |
-         781a960cef0599db0aca074403db87f24394c1af libmount: add support for STATMOUNT_SB_SOURCE
-         0b48faea8224a9a016924073451e3a8f610ced14 Merge branch 'PR/libmount-statmount-source' of https://github.com/karelzak/util-linux-work
-         
-  - ref: refs/heads/stable/v2.41
-    old: 25dcc4c42509a0cb39e728daf1461a29e9a86e42
-    new: e41df3fb44df0efe9412fee31f43db925065606a
-    log: |
-         54e5654db40d46aa946127a7bd05c47564bac649 libmount: add support for STATMOUNT_SB_SOURCE
-         e41df3fb44df0efe9412fee31f43db925065606a fdisk: (man) add note about partition size calculation
+         c6aa4e2cdff6351ec32404b63b83e5a4126a019b eth: fbnic: Add PCIe registers dump
+         e4e7c9be21170bf60820d8db2ba9db29c7a7d9ac eth: fbnic: Consolidate PUL_USER CSR section
+         26aa7992b456629882b74b2f3916dd2b94a87e7b eth: fbnic: Update return value in kdoc
+         222e75358a7b7457518b97b6374e160b4a8e6273 Merge branch 'eth-fbnic-update-fbnic-driver'
          
