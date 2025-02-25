@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6543420172969834009=="
+Content-Type: multipart/mixed; boundary="===============3053691233713075138=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 25 Feb 2025 14:45:16 -0000
-Message-Id: <174049471693.2228144.6133821839464585391@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 25 Feb 2025 14:45:20 -0000
+Message-Id: <174049472030.2228299.3938062537918430856@gitolite.kernel.org>
 
---===============6543420172969834009==
+--===============3053691233713075138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.14
+  - ref: refs/heads/regulator-6.14
     old: 35e21de48e693af1dcfdbf2dc3d73dcfa3c8f2d9
     new: d082ecbc71e9e0bf49883ee4afd435a77a5101b6
     log: revlist-35e21de48e69-d082ecbc71e9.txt
-  - ref: refs/heads/for-6.15
+  - ref: refs/heads/regulator-6.15
     old: 66d8e76e8e85a30fbf9809837e07e15a8c5ccb8b
     new: b80fd34df2580f2c7a99e7188d68515bcf779714
     log: revlist-66d8e76e8e85-b80fd34df258.txt
 
---===============6543420172969834009==
+--===============3053691233713075138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1740494744 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1740494714-64e6886a688b3d3493f1d9335897f86eb0575a06
+pusher C3F436CA30F5D8EB 1740494748 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1740494718-75ca9531505bbf0affa21eb377f6ba6bd0f62dbb
 
-35e21de48e693af1dcfdbf2dc3d73dcfa3c8f2d9 d082ecbc71e9e0bf49883ee4afd435a77a5101b6 refs/heads/for-6.14
-66d8e76e8e85a30fbf9809837e07e15a8c5ccb8b b80fd34df2580f2c7a99e7188d68515bcf779714 refs/heads/for-6.15
+35e21de48e693af1dcfdbf2dc3d73dcfa3c8f2d9 d082ecbc71e9e0bf49883ee4afd435a77a5101b6 refs/heads/regulator-6.14
+66d8e76e8e85a30fbf9809837e07e15a8c5ccb8b b80fd34df2580f2c7a99e7188d68515bcf779714 refs/heads/regulator-6.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAme915gACgkQJNaLcl1U
-h9ABKAf7BTzfeH3YR7jVUA5XnHXMMXP+N2F6/1Q0qU07g7hOBXZZM0EpuoBNvelE
-p/yz1wdLIwnTR2JXHyf9EjGX5NK95Hv6UhhWEjgh0+yb3hDYBbPnCi5qY/pYlB68
-TLcXBN1aSH4lcb/np5+tsS6aZFlzYfEDKaQmQPaPH/8cEtG3o4g9j1m8U8Y40iR+
-n4CTs1Q0z2U67p99aJ6UwL0elStxU6IxBfteS9GkxVfH60JbSkl0V0AxSgUjt+Xq
-MNaqL4EXKuH2rDfi4CHjiXhS+76DY2p+4Xm+KQmE0Up/5o2VnSA24GUm2w2r4zpi
-q3rITjIO8ctVzfkZp6dt8xhMHC04fw==
-=U9h6
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAme915wACgkQJNaLcl1U
+h9D08Af+ORkcyDlZI1/3UeeOTXexr9zYXwcRvXEB0Bpml+/s8NWVRrfvc8Y5csWM
+3cR4u0zJ8XxI5k4LU4pl3eVTdQeQvtvAYmNvE+jNsCrwqafdnVqocAEmC8b71Dll
+DhtlGKYcwBnQ6oGYz6nEf2W4rvbT7hp8W/jLiHcx/NJTSC0AkB4Ais0/ohmCGXvD
+eu+ODQ1q6pSonLqxfD1THTf73rqjoqiTb872836ceGWvJxTriTu4W5fv9l9hvpsc
+U/TFcLXXCfnXAPk0g+SXWOct7dB5NqyttwqLNtj2ce7/MMi4h5RU7i0Isoawwwf8
+JgsO5NO2JxF1HoUn5KVaN5dBDs2bPA==
+=N72f
 -----END PGP SIGNATURE-----
 
---===============6543420172969834009==
+--===============3053691233713075138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1023,7 +1023,7 @@ ad328a3785a24a7e7a8053b06139a6bfb42d0280 Merge tag 'edac_urgent_for_v6.14_rc4' o
 9d68911233472dc2b336f2cf99521bd684ba6092 Merge tag 'i2c-for-6.14-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 d082ecbc71e9e0bf49883ee4afd435a77a5101b6 Linux 6.14-rc4
 
---===============6543420172969834009==
+--===============3053691233713075138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1700,4 +1700,4 @@ ae5fa8ce7ef230be50ed63d16883bada29990293 Merge tag 'driver-core-6.14-rc3' of git
 0dffacbbf8d044456d50c893adb9499775c489f4 regulator: Add (devm_)of_regulator_get()
 b80fd34df2580f2c7a99e7188d68515bcf779714 Fix RK3588 power domain problems
 
---===============6543420172969834009==--
+--===============3053691233713075138==--
