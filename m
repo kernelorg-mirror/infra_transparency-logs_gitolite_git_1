@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Tue, 25 Feb 2025 13:16:51 -0000
-Message-Id: <174048941178.2147965.1628971181124732987@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 25 Feb 2025 13:17:52 -0000
+Message-Id: <174048947270.2148530.13165412193879299944@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: mikulas
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/dm-6.15
-    old: 88f7f56d16f568f19e1a695af34a7f4a6ce537a6
-    new: e678900df2640b30c341c1c4121e859e7d3f267b
-    log: |
-         e678900df2640b30c341c1c4121e859e7d3f267b dm vdo indexer: reorder uds_request to reduce padding
-         
+  - ref: refs/heads/file5E0Cbd
+    old: b0e50286dc81e453040bcda1b0c7a176346f5be8
+    new: 0000000000000000000000000000000000000000
