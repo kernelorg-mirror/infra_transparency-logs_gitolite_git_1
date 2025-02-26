@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5947610788255197154=="
+Content-Type: multipart/mixed; boundary="===============0559422123081375363=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 26 Feb 2025 16:39:45 -0000
-Message-Id: <174058798549.3825051.16154288954463968342@gitolite.kernel.org>
+Date: Wed, 26 Feb 2025 16:39:47 -0000
+Message-Id: <174058798779.3825202.6966202297420691343@gitolite.kernel.org>
 
---===============5947610788255197154==
+--===============0559422123081375363==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: bc50682128bde778a1ddc457a02d92a637c20c6f
     new: 8d52da23b6c68a0f6bad83959ebb61a2cf623c4e
     log: revlist-bc50682128bd-8d52da23b6c6.txt
 
---===============5947610788255197154==
+--===============0559422123081375363==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -48,4 +48,4 @@ bbcbc906ab7b5834c1219cd17a38d78dba904aa0 net: enetc: update UDP checksum when up
 310a110cb69b8f077f79d71193f638247c5a3730 Merge branch 'net-enetc-fix-some-known-issues'
 8d52da23b6c68a0f6bad83959ebb61a2cf623c4e tcp: Defer ts_recent changes until req is owned
 
---===============5947610788255197154==--
+--===============0559422123081375363==--
