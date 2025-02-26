@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
-Date: Wed, 26 Feb 2025 04:04:24 -0000
-Message-Id: <174054266482.3196031.1244526612375590884@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
+Date: Wed, 26 Feb 2025 04:15:15 -0000
+Message-Id: <174054331590.3206300.14316328986832356319@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/boqun/linux
+repo: pub/scm/linux/kernel/git/rcu/linux
 user: boqun
 changes:
-  - ref: refs/tags/lockdep-for-tip.2025.02.25
+  - ref: refs/heads/rcu/misc
     old: 0000000000000000000000000000000000000000
-    new: 1d9c7d6e6ee289dcfb17c8fd620f1f295ef85546
+    new: f1e754b96016f879ecf617c0410b395db77f861b
