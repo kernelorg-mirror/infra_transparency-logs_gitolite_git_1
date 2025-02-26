@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3555002736615316500=="
+Content-Type: multipart/mixed; boundary="===============1503470337927404275=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 26 Feb 2025 16:50:41 -0000
-Message-Id: <174058864163.3838218.3515552199193447483@gitolite.kernel.org>
+Date: Wed, 26 Feb 2025 16:50:43 -0000
+Message-Id: <174058864394.3838298.7331769589652419828@gitolite.kernel.org>
 
---===============3555002736615316500==
+--===============1503470337927404275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: 287044abff8291993ce9565ac6e6a72b85e33b85
     new: 91c8d8e4b7a38dc099b26e14b22f814ca4e75089
     log: revlist-287044abff82-91c8d8e4b7a3.txt
 
---===============3555002736615316500==
+--===============1503470337927404275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -44,4 +44,4 @@ da87cabaf87702d43a016d255f11be5379892b6a selftests: drv-net-hw: Add a test for s
 ef4a47a8abb33d996ab6e0d5b7ad57535f37c88b Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/mellanox/linux
 91c8d8e4b7a38dc099b26e14b22f814ca4e75089 enic: add dependency on Page Pool
 
---===============3555002736615316500==--
+--===============1503470337927404275==--
