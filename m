@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 26 Feb 2025 16:47:22 -0000
-Message-Id: <174058844241.3833779.6581793553014820390@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 26 Feb 2025 16:48:18 -0000
+Message-Id: <174058849898.3834444.15863232773690154105@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/for-next
-    old: 155caaddc3e2c416e736f103fea27a06c352fb08
-    new: e788253702eabf891912f084bcee90cc9187e88b
+  - ref: refs/heads/master
+    old: b123480eec64dd879785c28f2a2d582d111cfb59
+    new: 4580f4e0ebdf8dc8d506ae926b88510395a0c1d1
     log: |
-         32fcd1b9c397ccca7fde2fcbcf4fc7e0ec8f34aa spi: spi-fsl-lpspi: convert timeouts to secs_to_jiffies()
-         1d2e01d53a8ebfffb49e8cc656f8c85239121b26 spi: spi-imx: convert timeouts to secs_to_jiffies()
-         e788253702eabf891912f084bcee90cc9187e88b Merge remote-tracking branch 'spi/for-6.15' into spi-next
+         4580f4e0ebdf8dc8d506ae926b88510395a0c1d1 bpf: Fix deadlock between rcu_tasks_trace and event_mutex.
          
