@@ -1,9 +1,13 @@
+Content-Type: multipart/mixed; boundary="===============7349332251242277047=="
+MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 26 Feb 2025 11:52:22 -0000
-Message-Id: <174057074263.3573321.15026008080605518716@gitolite.kernel.org>
+Date: Wed, 26 Feb 2025 11:55:35 -0000
+Message-Id: <174057093564.3576867.12434011932777770399@gitolite.kernel.org>
+
+--===============7349332251242277047==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -11,19 +15,31 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/x86/core
-    old: af908171aed7b0a7f6376f3ee6c53f40c84ae494
-    new: 496ce4741ccbc91838df4bf9e137eda99c61f500
-    log: |
-         9a54fb31343362f93680543e37afc14484c185d9 x86/cfi: Add 'cfi=warn' boot option
-         500a41acb05a973cb6826ee56df082a97e210a95 x86/ibt: Add exact_endbr() helper
-         5d703825fde301677e8a79b0738927490407f435 x86/alternatives: Clean up preprocessor conditional block comments
-         2e044911be75ce3321c5b3d10205ac0b54f8cb92 x86/traps: Decode 0xEA instructions as #UD
-         e33d805a1005bf7b8a5a53559c81a8e17f0b981b x86/traps: Allow custom fixups in handle_bug()
-         06926c6cdb955bf24521d4e13af95b4d062d02d0 x86/ibt: Optimize the FineIBT instruction sequence
-         029f718fedd72872f7475604fe71b2a841108834 x86/traps: Decode LOCK Jcc.d8 as #UD
-         97e59672a9d2aec0c27f6cd6a6b0edfdd6e5a85c x86/ibt: Add paranoid FineIBT mode
-         a18e6715ff4e6e71c2b5dc8ec78f2ddc3fe4b0a8 x86/bhi: Add BHI stubs
-         d8122c428076ee5281baa045edaa502b316e4157 x86/ibt: Implement FineIBT-BHI mitigation
-         496ce4741ccbc91838df4bf9e137eda99c61f500 x86/ibt: Optimize the fineibt-bhi arity 1 case
-         
+  - ref: refs/heads/master
+    old: 9af5371a642f1f063fda77ca2d0309a42b89cb9c
+    new: b730d3cf338f8af48781206e0779a40f76f22a33
+    log: revlist-9af5371a642f-b730d3cf338f.txt
+
+--===============7349332251242277047==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-9af5371a642f-b730d3cf338f.txt
+
+9d245214b683e9e4fe2d5c588691337b22c48841 dt-bindings: interrupt-controller: renesas,rzv2h-icu: Document RZ/G3E SoC
+72310650788ad3d3afe3810735656dd291fea885 irqchip/renesas-rzv2h: Fix wrong variable usage in rzv2h_tint_set_type()
+c56cab0c3ee063f30d1e53cca7614574e3c2cbd5 irqchip/renesas-rzv2h: Drop irqchip from struct rzv2h_icu_priv
+f5de95438834a3bc3ad747f67c9da93cd08e5008 irqchip/renesas-rzv2h: Simplify rzv2h_icu_init()
+ad773ebc6e41f0004487726e432b86795ae426d9 irqchip/renesas-rzv2h: Use devm_reset_control_get_exclusive_deasserted()
+5ec8cabc3b8622f95de973c1a245245c65e3337b irqchip/renesas-rzv2h: Use devm_pm_runtime_enable()
+0a9d6ef64e5e917f93db98935cd09bac38507ebf irqchip/renesas-rzv2h: Add struct rzv2h_hw_info with t_offs variable
+eb23d23d082d097e2a8154a57da72061cb7e33b3 irqchip/renesas-rzv2h: Add max_tssel to struct rzv2h_hw_info
+1a6ebcc10b138a6c55f8df2cf6cc630ddabe3cab irqchip/renesas-rzv2h: Add field_width to struct rzv2h_hw_info
+76c3b774734feb8224b78721e0c67a54760a75c5 irqchip/renesas-rzv2h: Update TSSR_TIEN macro
+e3a16c33db69ffd1369ebfdf93f93a93a785896a irqchip/renesas-rzv2h: Update macros ICU_TSSR_TSSEL_{MASK,PREP}
+399b2799985237cf5c3656b7cfc87cdaa489efd1 irqchip/renesas-rzv2h: Add RZ/G3E support
+6447828875b7d768e4ef0f58765b4bd4e16bcf18 x86/mce/inject: Remove call to mce_notify_irq()
+fa378afb6efc43d2fa5acf96f18150914f1c2cda Merge branch into tip/master: 'irq/drivers'
+b730d3cf338f8af48781206e0779a40f76f22a33 Merge branch into tip/master: 'ras/core'
+
+--===============7349332251242277047==--
