@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Wed, 26 Feb 2025 21:49:43 -0000
-Message-Id: <174060658379.4094123.6137643619549941572@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Wed, 26 Feb 2025 21:49:53 -0000
+Message-Id: <174060659325.4094426.14121156590836619162@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/dt/next
-    old: 44d755c1d698f60e70a177f802d8482a8c833cec
-    new: a78f7a337bc7f6c30699ea0c226516f6d39022d7
+  - ref: refs/heads/for-next
+    old: 51358a779359bf5fdd1113f6fd41b2ff08a32de9
+    new: 379518d74049dd9e4360c8ccbdb32ad2622f4d07
     log: |
-         eb50844d728f11e87491f7c7af15a4a737f1159d of: property: Increase NR_FWNODE_REFERENCE_ARGS
-         2ac95560fbe1946f0faf51d8db62f6f2b67ee5a3 of: Align macro MAX_PHANDLE_ARGS with NR_FWNODE_REFERENCE_ARGS
-         b31cc6af1bb1313a3e6139926dfdc0eba079e02c docs: dt: submitting-patches: Document sending DTS patches
-         a78f7a337bc7f6c30699ea0c226516f6d39022d7 docs: process: maintainer-soc-clean-dts: linux-next is decisive
+         a3b3b57ec92f46237b2478973aec65270f457bc2 arm64: dts: rockchip: Enable USB3 OTG on rk3588s Cool Pi 4B
+         379518d74049dd9e4360c8ccbdb32ad2622f4d07 Merge branch 'v6.15-armsoc/dts64' into for-next
+         
+  - ref: refs/heads/v6.15-armsoc/dts64
+    old: b9454434d0349223418f74fbfa7b902104da9bc5
+    new: a3b3b57ec92f46237b2478973aec65270f457bc2
+    log: |
+         a3b3b57ec92f46237b2478973aec65270f457bc2 arm64: dts: rockchip: Enable USB3 OTG on rk3588s Cool Pi 4B
          
