@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 26 Feb 2025 22:23:57 -0000
-Message-Id: <174060863764.4123657.14754700022460300989@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Wed, 26 Feb 2025 22:25:03 -0000
+Message-Id: <174060870304.4125928.734632660428493477@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/master
-    old: 5394eea106517d5b0d4a372f00e63d5db8cb0370
-    new: f4ce1f3318ad4bc12463698696ebc36b145a6aa3
+  - ref: refs/heads/tmp.perf-tools-next
+    old: c40aa8d98db64ee2144bf6cc55eddb4f7625d728
+    new: 556b58c19154a7060b72ab62c0cd0911ccdbf1ba
     log: |
-         8221fd1a73044adef712a5c9346a23c2447f629c workqueue: Log additional details when rejecting work
-         8fef0a3b17bb258130a4fcbcb5addf94b25e9ec5 sched_ext: Fix pick_task_scx() picking non-queued tasks when it's called without balance()
-         e6d3c4e535dfffc69cdbad0c12003a8a1e75f88f Merge tag 'sched_ext-for-6.14-rc4-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
-         f4ce1f3318ad4bc12463698696ebc36b145a6aa3 Merge tag 'wq-for-6.14-rc4-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
+         f4dc5a3355a84f53ff3287d496728c7b77160069 perf annotate-data: Handle direct use of stack pointer without fbreg
+         4a75e8c3b225e668d8e122ec66fd2c0fe9b53b76 perf ftrace latency: variable histogram buckets
+         833d025239491767d9009c956de03c14f9bbd990 perf ftrace latency: allow to hide empty buckets
+         556b58c19154a7060b72ab62c0cd0911ccdbf1ba perf probe: Pick the correct dwarf die while adding probe points
          
