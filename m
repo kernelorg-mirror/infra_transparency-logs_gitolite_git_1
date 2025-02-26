@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Wed, 26 Feb 2025 20:10:00 -0000
-Message-Id: <174060060032.4011312.11915004645969833203@gitolite.kernel.org>
+Date: Wed, 26 Feb 2025 20:22:55 -0000
+Message-Id: <174060137575.4022108.7302139279862113175@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/bluetooth/bluez
 user: vudentz
 changes:
   - ref: refs/heads/master
-    old: 4465c577778d812702d752dfd2812e25a2f69b31
-    new: 173045553c156185ba1bbdbf39ada139cd4bca65
+    old: 173045553c156185ba1bbdbf39ada139cd4bca65
+    new: f4617c531abe2cd263ce3b9ba7ba77dc5859215c
     log: |
-         173045553c156185ba1bbdbf39ada139cd4bca65 bap: Fix not generating releasing state
+         f4617c531abe2cd263ce3b9ba7ba77dc5859215c adapter: Prepend the new added device to the adapter devices list
          
