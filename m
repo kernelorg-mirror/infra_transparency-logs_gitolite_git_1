@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
-Date: Wed, 26 Feb 2025 09:24:40 -0000
-Message-Id: <174056188059.3448951.12295333148169661504@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Wed, 26 Feb 2025 09:38:09 -0000
+Message-Id: <174056268908.3459691.15156595483948928708@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mediatek/linux
-user: angelogioacchino.delregno
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/for-next
-    old: 7c597239973b26e7db68d5d4b7fb1468fb2dc5dd
-    new: 725c4999ffae33a6b9a16736fc9b1cd1d47e8611
+  - ref: refs/heads/next-fixes
+    old: db9dad9dfa9a36c88268fc18f197fd79c06699a3
+    new: f844c6fcebbaa6bb73626970521735aec9dd9e50
     log: |
-         ae78b980faf7ffc8c20d18c8d2a37980a85e138f arm64: dts: mediatek: mt8390-genio-common: Add routes for DMIC
-         d5a4028bf441a123e051cdfd201de49809ca58e4 arm64: dts: mediatek: mt8390-genio-common: Add delay codec for DMIC
-         725c4999ffae33a6b9a16736fc9b1cd1d47e8611 Merge branch 'v6.14-next/dts64' into for-next
+         5a4041f2c47247575a6c2e53ce14f7b0ac946c33 btrfs: zoned: fix extent range end unlock in cow_file_range()
+         2df2c6ed89600a02e1c7a581a6a55e53c38ce0f5 btrfs: replace deprecated strncpy() with strscpy()
+         f844c6fcebbaa6bb73626970521735aec9dd9e50 Merge branch 'misc-6.14' into next-fixes
          
