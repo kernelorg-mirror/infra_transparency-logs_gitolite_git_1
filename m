@@ -1,79 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============6796746359387489918=="
+Content-Type: multipart/mixed; boundary="===============7403932134719743009=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Wed, 26 Feb 2025 16:14:12 -0000
-Message-Id: <174058645236.3801473.16793428580197516015@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Wed, 26 Feb 2025 16:28:32 -0000
+Message-Id: <174058731292.3813723.17078122137319787429@gitolite.kernel.org>
 
---===============6796746359387489918==
+--===============7403932134719743009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
-user: jberg
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
   - ref: refs/heads/main
-    old: c61da149b9c2e439abe27845a71dae5ce5f5985c
-    new: 95da92e7c6ffd63aa0c30d20963793dae4ae94ef
-    log: revlist-c61da149b9c2-95da92e7c6ff.txt
+    old: bc50682128bde778a1ddc457a02d92a637c20c6f
+    new: 8d52da23b6c68a0f6bad83959ebb61a2cf623c4e
+    log: revlist-bc50682128bd-8d52da23b6c6.txt
 
---===============6796746359387489918==
+--===============7403932134719743009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-bc50682128bd-8d52da23b6c6.txt
 
-certificate version 0.1
-pusher 7BF9099A 1740586439 +0100
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
-nonce 1740586409-a35643338e4514f5def9f380a7901d95632177c1
+bab3a6e9ffd600f9db0ebaf8f45e1c6111cf314c net: ethernet: ti: am65-cpsw: select PAGE_POOL
+18912c520674ec4d920fe3826e7e4fefeecdf5ae tcp: devmem: don't write truncated dmabuf CMSGs to userspace
+f865c24bc55158313d5779fc81116023a6940ca3 mptcp: always handle address removal under msk socket lock
+8668860b0ad32a13fcd6c94a0995b7aa7638c9ef mptcp: reset when MPTCP opts are dropped after join
+db75a16813aabae3b78c06b1b99f5e314c1f55d3 mptcp: safety check before fallback
+5568e4ca9aedf0aa2a84c6c8c74c240db09aa89d Merge branch 'mptcp-misc-fixes'
+79990cf5e7aded76d0c092c9f5ed31eb1c75e02c ice: Fix deinitializing VF in error path
+5c07be96d8b3f8447e980f29b967bf2e1d7ac732 ice: Avoid setting default Rx VSI twice in switchdev setup
+c6124f6fd3ca37d53ec5cbf62f9d9130ef439eca iavf: fix circular lock dependency with netdev_lock
+b1e44b4aecb551727a368df5b85c535f2ce932ea ixgbe: fix media cage present detection for E610 device
+85c7ca916fc416c5bbc7b98b256d4b444413e6f7 Merge branch 'intel-wired-lan-driver-updates-2025-02-24-ice-idpf-iavf-ixgbe'
+39ab773e4c120f7f98d759415ccc2aca706bbc10 net: enetc: fix the off-by-one issue in enetc_map_tx_buffs()
+da291996b16ebd10626d4b20288327b743aff110 net: enetc: keep track of correct Tx BD count in enetc_map_tx_tso_buffs()
+432a2cb3ee97a7c6ea578888fe81baad035b9307 net: enetc: correct the xdp_tx statistics
+a562d0c4a893eae3ea51d512c4d90ab858a6b7ec net: enetc: VFs do not support HWTSTAMP_TX_ONESTEP_SYNC
+bbcbc906ab7b5834c1219cd17a38d78dba904aa0 net: enetc: update UDP checksum when updating originTimestamp field
+8e43decdfbb477dd7800e3902d2d2f105d22ef5f net: enetc: add missing enetc4_link_deinit()
+119049b66b883c7e7e575a0b69dc6e3d211662cc net: enetc: remove the mm_lock from the ENETC v4 driver
+249df695c3ffe8c8d36d46c2580ce72410976f96 net: enetc: fix the off-by-one issue in enetc_map_tx_tso_buffs()
+310a110cb69b8f077f79d71193f638247c5a3730 Merge branch 'net-enetc-fix-some-known-issues'
+8d52da23b6c68a0f6bad83959ebb61a2cf623c4e tcp: Defer ts_recent changes until req is owned
 
-c61da149b9c2e439abe27845a71dae5ce5f5985c 95da92e7c6ffd63aa0c30d20963793dae4ae94ef refs/heads/main
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAme/PccACgkQ10qiO8sP
-aAASsA//f+mW8FpKQB3T0qeF6h4/xvN8ZzwD3+xohYCqjQzGm7OHCswXN2EI+oHU
-SjQdiAK6eoMSkmhMRL3ciN/OlgS2uXhGNj7AdVr8fdKwdVDnyEv2SCU779ZCOghh
-bI1DfJ9/YnpqwDrx14jSa8ezvSK/uoEX00pQbL3e4RAzuySuD0pfgLMh/2lCtLMy
-5m4DPMMeQyO7L7hQmK9N8LXhjMWtxi3w7Ns7Zpkgimescc7u4VM0BrC5h+7qmS4C
-ih4PwViZ3FDzgwHnhnJwbl9EQInM+pVnGwNlv6J0JYkQr+gz8/5XEtkGZOtI+L5o
-VItYvALtj0cuNuqLPcDGcR+8h9oKafxCYdz9jPle+VcdVKr8cyYWQDWamUls+8or
-xzMeWkbbcVTDZxYBYmvRQNCyuyqMlr0iaCjsNbzR2wUFennGvulNCxm7WXOtEDvI
-e/miENGVyhJp50LuYOQke2fFEvMKezlpvRorsrhjGExFMPLTobhae8HTKguwomuV
-WzloMdHagexzX+Mga2+gd2RA7S938FMEBANW2zeqATktkX97l/LO9FDbU8irzLHm
-NX9bJnMK0aaJmUaGF72J5N8JnpVhsTwCZ36VOoZXuA04M4my12NeOPGe1L0xFEFH
-caqWkOeVhNPErxgq8mYhkrDe8umr0m22c203rkZDFORXsERTdsw=
-=EVkM
------END PGP SIGNATURE-----
-
---===============6796746359387489918==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c61da149b9c2-95da92e7c6ff.txt
-
-cf6b9ba172ddc1eb989695225c456c219370f1a5 wifi: iwlegacy: don't warn for unused variables with DEBUG_FS=n
-129860044c611008be37f49d04cf41874e3659e6 wifi: mac80211: Add counter for all monitor interfaces
-7d2497ff7e5ffd5a2e4fb1a7f2547db61bcbebdd wifi: cfg80211: convert timeouts to secs_to_jiffies()
-ebf9944bed4ef69d29371cd3b7276f858c513954 wifi: mac80211: Fix possible integer promotion issue
-d00c0c4105e5ab8a6a13ed23d701cceb285761fa wifi: mac80211: fix integer overflow in hwmp_route_info_get()
-ebba23e0779834e68a200b7968975274cbe260ef wifi: mac80211: add ieee80211_iter_chan_contexts_mtx
-ceaad3c435964f601602531d0f6f7deaff329e21 wifi: cfg80211: expose update timestamp to drivers
-180d52d224ccaf475a0279563381b5e7fd8d1f05 wifi: iwlwifi: location api cleanup
-79c06299e719f21ecb9b657cd2baa980698b1f0b wifi: iwlwifi: use 0xff instead of 0xffffffff for invalid
-e1fc9288a1faf77947990327593f7fdeef4a62bc wifi: iwlwifi: remove mvm prefix from iwl_mvm_esr_mode_notif
-2bfbd823abde3f462d956b03e7f0d043eaba385a wifi: iwlwifi: mld: add a debug level for PTP prints
-e51f035b5a0850061483537d14988b5677d2f748 wifi: iwlwifi: mld: add a debug level for EHT prints
-f8e02ca6497cfa8946b4599d75bb7cab04be2404 wifi: iwlwifi: add support for external 32 KHz clock
-f073cc3a66cb72cd811bd18033185fce2764e083 wifi: iwlwifi: export iwl_get_lari_config_bitmap
-d645fbb47dcf80d86ebe70e703277634824850ca wifi: iwlwifi: remember if the UATS table was read successfully
-048a3d94b0a80b6a4daeffc182ebb5bba4b5a71e wifi: iwlwifi: remove mvm prefix from iwl_mvm_d3_end_notif
-26fef6d386a0c6c0e1c848755687aa9c753bf22c wifi: iwlwifi: add OMI bandwidth reduction APIs
-5098c09a174c2e769bd016f989f6010c11fdef8c wifi: iwlwifi: add IWL_MAX_NUM_IGTKS macro
-95da92e7c6ffd63aa0c30d20963793dae4ae94ef wifi: iwlwifi: add Debug Host Command APIs
-
---===============6796746359387489918==--
+--===============7403932134719743009==--
