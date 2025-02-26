@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
-Date: Wed, 26 Feb 2025 17:00:23 -0000
-Message-Id: <174058922313.3847015.4861328429179567288@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Wed, 26 Feb 2025 17:14:42 -0000
+Message-Id: <174059008297.3857133.522972800150098757@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jack/linux-fs
-user: jack
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/for_next
-    old: 98f18c76c2c3089183c35d2c33e468ad6c03d86b
-    new: a7624ccdef4f020325893534914fad549e51ac83
+  - ref: refs/heads/kdevops
+    old: ee37d62e8ae264d2f83b5fd69147fa1dc4f66567
+    new: 46f27b8c81cd3928d083cda9b523a7f1ab2aa78c
     log: |
-         a7624ccdef4f020325893534914fad549e51ac83 ext2: Make ext2_params_spec static
+         75266a4886c1ff9efbf99876f71d2f3a7ae108ab nfsd: add dir inode to nfsd_file_fsnotify_handle_event() tracepoint
+         46f27b8c81cd3928d083cda9b523a7f1ab2aa78c DEBUG: nfsd: disable CB_RECALL_ANY
          
