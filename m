@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============2142746372949887514=="
+Content-Type: multipart/mixed; boundary="===============3864108550485010193=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 26 Feb 2025 20:04:36 -0000
-Message-Id: <174060027658.4005840.2741755236412441794@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 26 Feb 2025 20:04:39 -0000
+Message-Id: <174060027966.4005941.16640283100754368720@gitolite.kernel.org>
 
---===============2142746372949887514==
+--===============3864108550485010193==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.15
+  - ref: refs/heads/asoc-6.15
     old: 62142da241a08006f89b0620f7291e3a08c0a094
     new: be1e3607f29a5a182eaa70e3058aef32fd0cc4f8
     log: |
          be1e3607f29a5a182eaa70e3058aef32fd0cc4f8 ASoC: tas2781: Clean up for some define
          
 
---===============2142746372949887514==
+--===============3864108550485010193==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1740600304 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1740600274-0f8dff41e1a7c9f324ba578ea6c7e309491046a3
+pusher C3F436CA30F5D8EB 1740600307 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1740600277-e7b83803bd7718070925e4cbe909499f6cdca16a
 
-62142da241a08006f89b0620f7291e3a08c0a094 be1e3607f29a5a182eaa70e3058aef32fd0cc4f8 refs/heads/for-6.15
+62142da241a08006f89b0620f7291e3a08c0a094 be1e3607f29a5a182eaa70e3058aef32fd0cc4f8 refs/heads/asoc-6.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAme/c/AACgkQJNaLcl1U
-h9CMOQf/V80LTeSPrKDSkGeNLZISk3YblL5PL4vuT1SJ6ULOgr+h6O4fOXS9byq7
-9xMxvqiRpupTClKUuM0SzMKg2TfnlsKb30Ed6ZXYKuK2ocQAskoSZIm6EmHN/3t8
-CPCT61K+ekh1OjSohtHwilzx1jCdgNmkY9DiGLX5MrPyp+jMke8/iyAFXAJZR25P
-vHMqRWTHjXCGTxy7svMP3olnzfJUAIeYD+wnOu2zLM3R3e9FMzOTpfjJ8gVVuZEv
-FUH2oC5glvNB/DYiyE2Ty89FBJ19d+lgL0pHBOqPJ6Zis718gN4ocBxvf6ItFjAv
-x52uixFtQNpzqBsWrmSP6GCtHAQb5w==
-=m0IN
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAme/c/MACgkQJNaLcl1U
+h9Ct2gf9G5CgTb+i8Ku5uVH0ytDI6XACmaosRa8ofjZ2KIKqfDIfEEpjsVqv/8Ud
+XgFVGHzwtwFRisiUq/Vp0/kjTce2Lc6Bby2nAMstt0xdp/sOQN4u1TcXHxhnUTqu
+1fOmzDcL2VaO9bPxhpl2i6cnD6s/ZZz4p9laKVh6sPaFzNKB49SFaLfRbfPtqr/e
+RiiZvzr6EmZUMWBNGf7ZqwtadxGHsYorXkWL834ku/pn6euwfa84U+tP3kzvjK9j
+3rnL2ypAUktQzJDVTKmbUiZvrY7RmaSlRRMztjPWdrJ4FxRlY4A0w32xt6VDFWtF
+cHgKPDkye1g21/Ps0kUVTfOswLp6SA==
+=aeOd
 -----END PGP SIGNATURE-----
 
---===============2142746372949887514==--
+--===============3864108550485010193==--
