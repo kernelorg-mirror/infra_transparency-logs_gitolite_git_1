@@ -1,61 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6952902383617645829=="
+Content-Type: multipart/mixed; boundary="===============3275018892644636729=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 26 Feb 2025 14:44:11 -0000
-Message-Id: <174058105116.3720946.6299244061303888059@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 26 Feb 2025 14:49:34 -0000
+Message-Id: <174058137428.3725739.9271716761593501991@gitolite.kernel.org>
 
---===============6952902383617645829==
+--===============3275018892644636729==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 0788323afbf9ceaded25d6ea286713ade75c3cd8
-    new: 30667f61c9b31feb3df7d346ad11640d91d00337
-    log: revlist-0788323afbf9-30667f61c9b3.txt
-  - ref: refs/heads/tip/urgent
-    old: 1c0d6bbf5ca81fefd42a7ea922f2a629464371ca
-    new: 9283874c45b0a0f3f166ecac9451a521b09c8f94
+  - ref: refs/heads/for-6.15/block
+    old: c02eea7eeaebd7270cb8ff09049cc7e0fc9bc8da
+    new: 1972a1faaa026eb34322a2b4fcbb3c28d68cc5e2
     log: |
-         20a46c61ca20dba4abbbcbf6ae7e7f183e10b620 Merge branch into tip/master: 'locking/urgent'
-         c1f2bfbaab585216e6bf6bf802a0330f6fe8cf27 Merge branch into tip/master: 'perf/urgent'
-         9283874c45b0a0f3f166ecac9451a521b09c8f94 Merge branch into tip/master: 'x86/urgent'
+         6376ef2b6af3bbcb7c50dc657bdfb83aba467aef ublk: complete command synchronously on error
+         d8ae0061afb8bbdb0cf6b2cd4b5be5c54e42b228 null_blk: generate null_blk configfs features string
+         6b87fa3245a93913efb3d8b858f6750d655d5db9 null_blk: introduce badblocks_once parameter
+         7859d042b0954f843d2e97c1324bb04bf28df2f6 null_blk: replace null_process_cmd() call in null_zone_write()
+         6d9725d1000a0bc4e41fbe2db51181e80e4260eb null_blk: pass transfer size to null_handle_rq()
+         386d7f4be4cdfb0b3a937f26fe674818394f795e null_blk: do partial IO for bad blocks
+         e9945facd48d2d5da87fa247f5d6a19c23d935fd block: mark bounce buffering as incompatible with integrity
+         d2cfe5ceca59b74ef96bfe00632e3927d00c9918 block: move the block layer auto-integrity code into a new file
+         1972a1faaa026eb34322a2b4fcbb3c28d68cc5e2 block: split struct bio_integrity_payload
          
+  - ref: refs/heads/for-next
+    old: c77a2bf5fca62354ec1ee2e47d4808e7c367e365
+    new: 303015d980a1dd6f2d49ccebedd6d725415ac3da
+    log: revlist-c77a2bf5fca6-303015d980a1.txt
 
---===============6952902383617645829==
+--===============3275018892644636729==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0788323afbf9-30667f61c9b3.txt
+Content-Disposition: attachment; filename=revlist-c77a2bf5fca6-303015d980a1.txt
 
-20a46c61ca20dba4abbbcbf6ae7e7f183e10b620 Merge branch into tip/master: 'locking/urgent'
-c1f2bfbaab585216e6bf6bf802a0330f6fe8cf27 Merge branch into tip/master: 'perf/urgent'
-9283874c45b0a0f3f166ecac9451a521b09c8f94 Merge branch into tip/master: 'x86/urgent'
-f625f086ffc3538e6956f888170f91a89de0bc07 Merge branch into tip/master: 'irq/drivers'
-c00a4799b6db5a79d4e16d58d93a4ce2fcf3b570 Merge branch into tip/master: 'locking/core'
-c1184b671774af55059f39d485be41634e6f393f Merge branch into tip/master: 'perf/core'
-1fd3c9d4198a4102de7a2222646bab1a599334ea Merge branch into tip/master: 'ras/core'
-051ee313adef63f7a576550e5bd6f41bb3ef5587 Merge branch into tip/master: 'sched/core'
-4ea98b3e9a6ca8361c6b46dcb9773bc20bd30b94 Merge branch into tip/master: 'timers/cleanups'
-cef8717670b11c4e83b819d0527773dd78be2e5f Merge branch into tip/master: 'timers/core'
-0c23feebc20c8ea9a322f3681afb047a7e4bb71a Merge branch into tip/master: 'timers/vdso'
-9a1b6669bb947b6350aa52187eb0dc68f8625f72 Merge branch into tip/master: 'x86/asm'
-8e7d1f3aded457f3f752d3cb6832947e90344946 Merge branch into tip/master: 'x86/boot'
-455fc4a4de153d9e66cef7ccebb0e78beced12a7 Merge branch into tip/master: 'x86/bugs'
-e30ed779e36809dd9e867449be5200b8d275d498 Merge branch into tip/master: 'x86/build'
-5d022bed413698a0fb2a1df075fdcdbaade7cdab Merge branch into tip/master: 'x86/cleanups'
-a23f8e277e8c99c7d9badb53f8e6ab1d6aa79355 Merge branch into tip/master: 'x86/core'
-e7549537e879c02c5f2360a5ea348f7aaba30de3 Merge branch into tip/master: 'x86/cpu'
-af82a0a6e0003467defd6ad6d19750ddd9cae6b4 Merge branch into tip/master: 'x86/fpu'
-94dbe937edc5e43c9c98d35ad4a5d3d8c1a0c075 Merge branch into tip/master: 'x86/microcode'
-935cc05def706ad46bf9308d23ee218fb0905a12 Merge branch into tip/master: 'x86/misc'
-93b0422bed0ebabfea0fd9e7323c42a1cb0ce202 Merge branch into tip/master: 'x86/mm'
-30667f61c9b31feb3df7d346ad11640d91d00337 Merge branch into tip/master: 'x86/platform'
+6376ef2b6af3bbcb7c50dc657bdfb83aba467aef ublk: complete command synchronously on error
+6652fd51e3aa93bb745bfb40df59bec33aa0812e Merge branch 'for-6.15/block' into for-next
+d8ae0061afb8bbdb0cf6b2cd4b5be5c54e42b228 null_blk: generate null_blk configfs features string
+6b87fa3245a93913efb3d8b858f6750d655d5db9 null_blk: introduce badblocks_once parameter
+7859d042b0954f843d2e97c1324bb04bf28df2f6 null_blk: replace null_process_cmd() call in null_zone_write()
+6d9725d1000a0bc4e41fbe2db51181e80e4260eb null_blk: pass transfer size to null_handle_rq()
+386d7f4be4cdfb0b3a937f26fe674818394f795e null_blk: do partial IO for bad blocks
+f1d9c8de61e2fa52b364a65c0c6e6cdf7acbcc8f Merge branch 'for-6.15/block' into for-next
+e9945facd48d2d5da87fa247f5d6a19c23d935fd block: mark bounce buffering as incompatible with integrity
+d2cfe5ceca59b74ef96bfe00632e3927d00c9918 block: move the block layer auto-integrity code into a new file
+1972a1faaa026eb34322a2b4fcbb3c28d68cc5e2 block: split struct bio_integrity_payload
+303015d980a1dd6f2d49ccebedd6d725415ac3da Merge branch 'for-6.15/block' into for-next
 
---===============6952902383617645829==--
+--===============3275018892644636729==--
