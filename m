@@ -1,44 +1,78 @@
-Content-Type: multipart/mixed; boundary="===============4990168141308573643=="
+Content-Type: multipart/mixed; boundary="===============7960176356586623445=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Wed, 26 Feb 2025 14:30:21 -0000
-Message-Id: <174058022119.3708367.12520723180093622059@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Wed, 26 Feb 2025 14:30:59 -0000
+Message-Id: <174058025906.3708748.3171853379402050161@gitolite.kernel.org>
 
---===============4990168141308573643==
+--===============7960176356586623445==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/kdevops
-    old: 03f581805141cdcf41c7157791a53339ee08b826
-    new: 762996155ef7d11f6c1971a6f05886a6bafabfbb
-    log: revlist-03f581805141-762996155ef7.txt
+  - ref: refs/heads/master
+    old: 477bf2f01b7bf3f12abc93868e10272e8d17939b
+    new: 57fdc5e42cc88299be2d368363537e5d507a5bc7
+    log: revlist-477bf2f01b7b-57fdc5e42cc8.txt
 
---===============4990168141308573643==
+--===============7960176356586623445==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-03f581805141-762996155ef7.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-a5c5084c042c39ce198272e5fcc8b3b08a40f62e filelock: add new locks_wake_up_waiter() helper
-8fba8740c1fe51d006b4cb18e7031a927ae1ed90 filelock: add dir delegation break flag support
-eab3600af47899237874b15425e010e37170fd63 filelock: make break_deleg take LEASE_BREAK_* flags
-00996bf82388a25d3e0d6b1d814998275199fb17 filelock: add struct delegated_inode
-6509e5fcdf89c98a511091fae1e4dbfa8922349f filelock: add support for ignoring deleg breaks for dir change events
-11a9d63d0bcf3900b99d75c12947b94a6504527c nfsd: add protocol support for CB_NOTIFY
-539b6c7c610b1fdf8f7d558c7e35f4b007cffcca nfsd: add callback encoding and decoding linkages for CB_NOTIFY
-3bfebc4ba2802651d6147e0b2dc326675c4425cf nfsd: add directory deleg fields to struct nfs4_delegation
-a6cf02227b3493e030274d5452d96dfb8ceee14b filelock: add an inode_lease_ignore_mask helper
-ecf3ddcfe45235c3f87d17697ced1927be301897 nfsd: update the fsnotify mark when setting a new dir delegation
-4f689bfad135c4170d7df582521c6d8217d685da nfsd: make nfsd4_callback_ops->prepare operation bool return
-3c8a4c0e1d0ed034700d3c59bd45a904274659e6 nfsd: add notification handlers for dir events
-0bc13d789fbe381e73226d6ab5784fc8e0e2db4b nfsd: allow nfsd to get a dir lease with an ignore mask
-762996155ef7d11f6c1971a6f05886a6bafabfbb nfs: allow client to request NOTIFY4_REMOVE_ENTRY
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1740580217 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1740580256-80480e89eeb4fa48b5cde6165ad4d3d72482dc83
 
---===============4990168141308573643==--
+477bf2f01b7bf3f12abc93868e10272e8d17939b 57fdc5e42cc88299be2d368363537e5d507a5bc7 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAme/JXkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9FAQALQt4h543sZma8YJEq0d
+ojqNVTMM1+pglEf8l93HdeWig5dDq74EJDYHouThL8+lCBn1aKty7B/uk88Q3TcI
+WyH3gugw3FpQ9JNpD8BlEgeCYW/Zksn9vhVp4kq8mJVGYPESMYD9VD5Q2804KOc3
+pZ4K2FUoaefplib5SCSu7KEh705H3ZcdsPS8qAIq3fLFZz2qnD3WhlVmZatSmbmS
+Zkd+wM7NFpJK/lDJ0hixHR8R1eTsfg5KcVgt8LkIUm6+l5WWGUdP+takrF8Lj+Eo
+5E0/bEvgs/V+/K41SH27hAkjqGjDSvpiURG9DFsNyo6cHaENowsT4vjOVIPZThXK
+BOgh2u5SdTbipCgLl7HG7fVIc9N0DAXD4UaYhzptnVUYKH+IniGML/ss9olqVZrn
+g7MqVGhPpPe/D/7HVb2MysrvdXJLeERpfTqOSKpZmBS0Co2DmQBY4xwV5hK3VJmX
+H3xke6ShoXGyL1bBr0wTsSAvSVlT1BuNobDGyachP1hm89s6Ytb+SLLGrr5pmH/y
+QinJVq/GoOB8xY+xkYkSnp9EsJz+Q3lo+N4S0Y4Jvix5tk3loDTFK2FjTkooHBRP
+rBJzOyjQUSYhM2cNmmfO36yY3S5SpgP+HPwzHYob8fjxHmKASF0qGCCe5umZaUto
+PSYE02AgRAzO1BOi5yby488O
+=TyQ2
+-----END PGP SIGNATURE-----
+
+--===============7960176356586623445==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-477bf2f01b7b-57fdc5e42cc8.txt
+
+47f6d67265c0cd76e54690dcb8d697b62b51ca9a add .vulnerable id for CVE-2024-56784
+1c09a013598bbfda2339ae050983254e3257cd8c add .vulnerable id for CVE-2023-52926
+f99b1eac432baa86f67cfda2c7b1b92ebe6ab8b9 add .vulnerable id for CVE-2021-47643
+d688cc8e21858beb7936f91a31f853c9076911ff add .vulnerable id for CVE-2022-49049
+14a17a7ef753abad8605fc8755757794176911ec add .vulnerable id for CVE-2022-49102
+b087d23633841a6ce01a5bf0f799be36e7c99010 add .vulnerable id for CVE-2022-49104 and CVE-2022-49106
+6d7e4a8ebb5ca7854bc91b3ea9f33810fe6aefe8 add .vulnerable id for CVE-2022-49105
+04164e56d152c62013984b108f781f82c2de6b14 add .vulnerable id for CVE-2022-49108
+1622f9ad9ad1d0f974aad0d54e6b76bab545d569 add .vulnerable id for several CEPH CVEs
+ea0f8308be89cc936d96fcb4b14125d8de953445 add .vulnerable id for CVE-2022-49115
+0d09e98abca46d2e93ee518804ec32e4f31282b7 add .vulnerable id for several new ath11k CVEs
+2af3f563f03f50c20573fd8271ae05f44db21ee5 add .vulnerable id for CVE-2022-49125
+b1e7d6227466cb9d3a2ea2da53ad67491d823f8d add .vulnerable id for CVE-2022-49126
+9241e61e2f784f92d2fc1913d27a4c0e0d3acb3f add .vulnerable id for CVE-2022-49127
+4535eb6de1513f64a1ca49eea65165f91d9ab0eb add .vulnerable id for CVE-2022-49128
+7915b78157a7d54d2d483160ce42af812096b307 add .vulnerable id for several new mt76 CVEs
+57fdc5e42cc88299be2d368363537e5d507a5bc7 Update the entries based on the new .vulnerable settings.
+
+--===============7960176356586623445==--
