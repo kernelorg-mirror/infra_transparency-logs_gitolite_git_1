@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 26 Feb 2025 02:49:34 -0000
-Message-Id: <174053817404.3133386.14383565606887911515@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 26 Feb 2025 03:02:23 -0000
+Message-Id: <174053894350.3144183.14828145711512918186@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/block-6.14
-    old: 889c57066ceee5e9172232da0608a8ac053bb6e5
-    new: a6aa36e957a1bfb5341986dec32d013d23228fe1
+  - ref: refs/heads/master
+    old: 1ffe30efd2f2e58c36b754c42c2b61906078a4cf
+    new: f3c2d243a36ef23be07bc2bce7c6a5cb6e07d9e3
     log: |
-         a6aa36e957a1bfb5341986dec32d013d23228fe1 block: Remove zone write plugs when handling native zone append writes
+         f3c2d243a36ef23be07bc2bce7c6a5cb6e07d9e3 bpf: abort verification if env->cur_state->loop_entry != NULL
          
