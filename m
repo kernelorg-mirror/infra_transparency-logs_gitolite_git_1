@@ -1,58 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============9220821577096431580=="
+Content-Type: multipart/mixed; boundary="===============4990168141308573643=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
-Date: Wed, 26 Feb 2025 14:27:23 -0000
-Message-Id: <174058004366.3704949.11367731766728971644@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Wed, 26 Feb 2025 14:30:21 -0000
+Message-Id: <174058022119.3708367.12520723180093622059@gitolite.kernel.org>
 
---===============9220821577096431580==
+--===============4990168141308573643==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless
-user: jberg
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/main
-    old: 3640dbc1f75ce15d128ea4af44226960d894f3fd
-    new: 8c3170628a9ce24a59647bd24f897e666af919b8
-    log: |
-         99ca2c28e6b68084a0fb65585df09b9e28c3ec16 wifi: mac80211: fix MLE non-inheritance parsing
-         130067e9c13bdc4820748ef16076a6972364745f wifi: mac80211: fix vendor-specific inheritance
-         861d0445e72e9e33797f2ceef882c74decb16a87 wifi: mac80211: Fix sparse warning for monitor_sdata
-         8c3170628a9ce24a59647bd24f897e666af919b8 wifi: brcmfmac: keep power during suspend if board requires it
-         
+  - ref: refs/heads/kdevops
+    old: 03f581805141cdcf41c7157791a53339ee08b826
+    new: 762996155ef7d11f6c1971a6f05886a6bafabfbb
+    log: revlist-03f581805141-762996155ef7.txt
 
---===============9220821577096431580==
+--===============4990168141308573643==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-03f581805141-762996155ef7.txt
 
-certificate version 0.1
-pusher 7BF9099A 1740580040 +0100
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
-nonce 1740580010-a1c4ef2410d094e1e3c051961ef666ffd85c6253
+a5c5084c042c39ce198272e5fcc8b3b08a40f62e filelock: add new locks_wake_up_waiter() helper
+8fba8740c1fe51d006b4cb18e7031a927ae1ed90 filelock: add dir delegation break flag support
+eab3600af47899237874b15425e010e37170fd63 filelock: make break_deleg take LEASE_BREAK_* flags
+00996bf82388a25d3e0d6b1d814998275199fb17 filelock: add struct delegated_inode
+6509e5fcdf89c98a511091fae1e4dbfa8922349f filelock: add support for ignoring deleg breaks for dir change events
+11a9d63d0bcf3900b99d75c12947b94a6504527c nfsd: add protocol support for CB_NOTIFY
+539b6c7c610b1fdf8f7d558c7e35f4b007cffcca nfsd: add callback encoding and decoding linkages for CB_NOTIFY
+3bfebc4ba2802651d6147e0b2dc326675c4425cf nfsd: add directory deleg fields to struct nfs4_delegation
+a6cf02227b3493e030274d5452d96dfb8ceee14b filelock: add an inode_lease_ignore_mask helper
+ecf3ddcfe45235c3f87d17697ced1927be301897 nfsd: update the fsnotify mark when setting a new dir delegation
+4f689bfad135c4170d7df582521c6d8217d685da nfsd: make nfsd4_callback_ops->prepare operation bool return
+3c8a4c0e1d0ed034700d3c59bd45a904274659e6 nfsd: add notification handlers for dir events
+0bc13d789fbe381e73226d6ab5784fc8e0e2db4b nfsd: allow nfsd to get a dir lease with an ignore mask
+762996155ef7d11f6c1971a6f05886a6bafabfbb nfs: allow client to request NOTIFY4_REMOVE_ENTRY
 
-3640dbc1f75ce15d128ea4af44226960d894f3fd 8c3170628a9ce24a59647bd24f897e666af919b8 refs/heads/main
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAme/JMgACgkQ10qiO8sP
-aADlaQ//bJWPVbS01j/N3pz+DMWulp/5ro/KhaR8eCLRm2WG+dlg5wzB9JsWhzt9
-aZ5wsltTBpif/UHsaHTfyfNQYCQXtb5mpKOjtL+Ff/ZOK1sIcL1luD71MLko9tg6
-2hjfff7Ut3VWTp4T5ntqsxmF+O5J6kY3F/ksCQtB9doTj88bdxO7mv5YyZDS5SLt
-XqjXRmk0Bi+Eg/dl3bj6FGHlBRPPuXaPCjhmYnmXzmkIZxQzhO6VnTTNSglxpHOB
-yVGTm1CYgogMivChT8/gxH1XbdqhN6fxdFugFl6ThfknvsaeeKOI6CV28cSMpRql
-UKrnqbCBNkH2a+GuvJFk/YVNpHzzj3WaUiHFMO168ULuGBk1jGpCU6OzBX9i37Mq
-3UQ5Ws5HLXb50OuPRjaqBsKcM+bH73dDd/kKw+S9/Uui+0Wzo8/kDN4ZJ5E6Tu1b
-D1oGQIL++ollG8/mNVcjMRbmZtP7VTvFPuk4J6p54ITNwvp7Ps0eyoyugg8NjJ93
-VJgsbkTZsZw8mkjdHDSnTtgz5azjwJTJFETiSWH8JrufS7BnOFThdalcBEvZjxT/
-mgIr0HZrT5k3GIeb6VbPVR77nsDKygKSZgcrcfiPUkn0vhXrNeE5R6vj0wTzvoHt
-6Ca43HKJrSG9kyF8BMVCT0CLhLV+xmri79LYnl3g1An89qdYkOM=
-=NQ1K
------END PGP SIGNATURE-----
-
---===============9220821577096431580==--
+--===============4990168141308573643==--
