@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7403932134719743009=="
+Content-Type: multipart/mixed; boundary="===============3219770192233112491=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 26 Feb 2025 16:28:32 -0000
-Message-Id: <174058731292.3813723.17078122137319787429@gitolite.kernel.org>
+Date: Wed, 26 Feb 2025 16:28:41 -0000
+Message-Id: <174058732132.3813995.17743442244436534314@gitolite.kernel.org>
 
---===============7403932134719743009==
+--===============3219770192233112491==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: bc50682128bde778a1ddc457a02d92a637c20c6f
-    new: 8d52da23b6c68a0f6bad83959ebb61a2cf623c4e
-    log: revlist-bc50682128bd-8d52da23b6c6.txt
+  - ref: refs/heads/dev-queue
+    old: 7dd7329a060949bf574d22626157d372fdf0f165
+    new: e6cd82a32d9c0db0face9ba3e7781828ca5e78da
+    log: revlist-7dd7329a0609-e6cd82a32d9c.txt
 
---===============7403932134719743009==
+--===============3219770192233112491==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bc50682128bd-8d52da23b6c6.txt
+Content-Disposition: attachment; filename=revlist-7dd7329a0609-e6cd82a32d9c.txt
 
 bab3a6e9ffd600f9db0ebaf8f45e1c6111cf314c net: ethernet: ti: am65-cpsw: select PAGE_POOL
 18912c520674ec4d920fe3826e7e4fefeecdf5ae tcp: devmem: don't write truncated dmabuf CMSGs to userspace
@@ -47,5 +47,17 @@ bbcbc906ab7b5834c1219cd17a38d78dba904aa0 net: enetc: update UDP checksum when up
 249df695c3ffe8c8d36d46c2580ce72410976f96 net: enetc: fix the off-by-one issue in enetc_map_tx_tso_buffs()
 310a110cb69b8f077f79d71193f638247c5a3730 Merge branch 'net-enetc-fix-some-known-issues'
 8d52da23b6c68a0f6bad83959ebb61a2cf623c4e tcp: Defer ts_recent changes until req is owned
+f1352d8ee613fa1b8b502269edaa3cc5ba16c263 coccinelle: misc: secs_to_jiffies script: Create dummy report
+f483f038da0d7cc9c879b5efded0ea621e1886b1 ice: do not configure destination override for switchdev
+d803e852a1d852de446f78e973bdad36c4902dd1 ice: Fix switchdev slow-path in LAG
+02238e13c0eec1c2a14a7cec60d5f4dcdd122ed3 idpf: synchronize pending IRQs after disable
+3e4ad9cf58e4a317996c569825af411101345c22 ice: fix memory leak in aRFS after reset
+13950a80850190c9bca2728db4361cfaaf400527 ice: health.c: fix compilation on gcc 7.5
+6133772b0e15f38395f3f374761af72864853afb idpf: check error for register_netdev() on init
+954124470f32bce480fefce5ac1031f45177a7dc ice: register devlink prior to creating health reporters
+0768c41cb4e3bb551eb88658d4602868d89138af ice: ensure periodic output start time is in the future
+54da064535f428f089ffc4a2ec556ed1937c2e73 ice: fix Get Tx Topology AQ command error on E830
+5b8ed758027de387514c9998c92b6390e4e894b4 ice: fix lane number calculation
+e6cd82a32d9c0db0face9ba3e7781828ca5e78da ixgbe: fix media type detection for E610 device
 
---===============7403932134719743009==--
+--===============3219770192233112491==--
