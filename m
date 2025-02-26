@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Wed, 26 Feb 2025 01:05:46 -0000
-Message-Id: <174053194698.3041837.3919439901745902646@gitolite.kernel.org>
+Date: Wed, 26 Feb 2025 01:06:22 -0000
+Message-Id: <174053198212.3042412.982044655472411259@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/trace/linux-trace
 user: rostedt
 changes:
-  - ref: refs/heads/sorttable/for-next
+  - ref: refs/heads/for-next
     old: 264143c4e54412095f4b615e65bf736fc3c60af0
     new: dc208c69c033d3caba0509da1ae065d2b5ff165f
     log: |
