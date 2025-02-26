@@ -1,25 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Wed, 26 Feb 2025 17:22:18 -0000
-Message-Id: <174059053889.3864366.14231764441741038471@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Wed, 26 Feb 2025 17:38:40 -0000
+Message-Id: <174059152006.3876861.3101862981717506023@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/v6.15-clk/next
-    old: 4a918309d53f800dd07b94c4a4b1fcdb6289eca5
-    new: 5d0eb375e6857d270f6376d161ef02a1b7183fa2
+  - ref: refs/heads/bleeding-edge
+    old: 49b5ead14bf5860bf6c6b89cedc66b9471ad2afe
+    new: 9edd51c68d19ef333bb1a0a846bf237f31adf220
     log: |
-         d7169b8bcd855828cc691baee5e778af96855573 clk: rockchip: rk3188: use PCLK_CIF0/1 clock IDs on RK3066
-         83dbeca33f7422f4a30c8a91a79d6c0dba4fb6af clk: rockchip: rk3568: mark hclk_vi as critical
-         a9e60f1ffe1ca57d6af6a2573e2f950e76efbf5b clk: rockchip: rk3328: fix wrong clk_ref_usb3otg parent
-         e0c0a97bc308f71b0934e3637ac545ce65195df0 dt-bindings: clock: Document clock and reset unit of RK3528
-         3688efdbfda39428cfa325c4901f484a9cd001f1 Merge branch 'v6.15-shared/clkids' into v6.15-clk/next
-         651aabc9fb0f354ad2ba5fd06a6011e652447489 clk: rockchip: Add PLL flag ROCKCHIP_PLL_FIXED_MODE
-         5d0eb375e6857d270f6376d161ef02a1b7183fa2 clk: rockchip: Add clock controller driver for RK3528 SoC
+         7ebd85022c0075c4465a51e8ace4e08dfce747b1 PM: clk: remove unused of_pm_clk_add_clk()
+         d1ffcc2cc9f934befd5f89fc6f462088b10286c4 Merge branch 'pm-misc' into bleeding-edge
+         b5aeecbd19a1bab1211d6ca94bbef2f027556aa7 PM: hibernate: Avoid deadlock in hibernate_compressor_param_set()
+         1ee7837c9c84dcf32468f6d5b79db890f1613bab PM: sleep: Suppress sleeping parent warning in special case
+         883f9616e3f5a3dec7e0c81e4272adac71b3bc5a PM: wakeup: Remove needless return in three void APIs
+         9edd51c68d19ef333bb1a0a846bf237f31adf220 Merge branch 'pm-sleep' into bleeding-edge
          
