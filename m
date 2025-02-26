@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7708746351914041292=="
+Content-Type: multipart/mixed; boundary="===============4010272875427731178=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 26 Feb 2025 00:37:01 -0000
-Message-Id: <174053022138.3011368.3737412756719492246@gitolite.kernel.org>
+Date: Wed, 26 Feb 2025 00:37:03 -0000
+Message-Id: <174053022365.3011450.2868977601012393990@gitolite.kernel.org>
 
---===============7708746351914041292==
+--===============4010272875427731178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: e13b6da7045f997e1a5a5efd61d40e63c4fc20e8
     new: 287044abff8291993ce9565ac6e6a72b85e33b85
     log: revlist-e13b6da7045f-287044abff82.txt
 
---===============7708746351914041292==
+--===============4010272875427731178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -67,4 +67,4 @@ e4e7c9be21170bf60820d8db2ba9db29c7a7d9ac eth: fbnic: Consolidate PUL_USER CSR se
 222e75358a7b7457518b97b6374e160b4a8e6273 Merge branch 'eth-fbnic-update-fbnic-driver'
 287044abff8291993ce9565ac6e6a72b85e33b85 sctp: Remove unused payload from sctp_idatahdr
 
---===============7708746351914041292==--
+--===============4010272875427731178==--
