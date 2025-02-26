@@ -1,55 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============5244222880394280129=="
+Content-Type: multipart/mixed; boundary="===============2067171604162722612=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Wed, 26 Feb 2025 13:40:02 -0000
-Message-Id: <174057720288.3665257.7822043934993186660@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Wed, 26 Feb 2025 13:51:37 -0000
+Message-Id: <174057789741.3674970.13136867267293721184@gitolite.kernel.org>
 
---===============5244222880394280129==
+--===============2067171604162722612==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/arm64-for-6.15
-    old: 017c28788a4caffb14f4895597bdf38ee9fc8f2b
-    new: 0e2a500eff87c710f3947926e274fd83d0cabb02
-    log: revlist-017c28788a4c-0e2a500eff87.txt
+  - ref: refs/heads/master
+    old: cc8a0934d099b8153fc880a3588eec4791a7bccb
+    new: ac9c34d1e45a4c25174ced4fc0cfc33ff3ed08c7
+    log: revlist-cc8a0934d099-ac9c34d1e45a.txt
 
---===============5244222880394280129==
+--===============2067171604162722612==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-017c28788a4c-0e2a500eff87.txt
+Content-Disposition: attachment; filename=revlist-cc8a0934d099-ac9c34d1e45a.txt
 
-f95c37c339ab3917485fd7333be8de07331ff573 dt-bindings: clock: gcc-sdm660: Add missing SDCC resets
-467284a3097f4348cf227053b53eb1bba2af9ae5 arm64: dts: qcom: qcs8300: Add QUPv3 configuration
-62ca6669d62eb554eb467f2953cabb4238e18823 arm64: dts: qcom: x1e80100: Wire up PCIe PHY NOCSR resets
-fbf5e007588f3f2bace84309b4a0d428ad619322 arm64: dts: qcom: Commonize X1 CRD DTSI
-f08edb5299166b7c6d4eae439b1d3f81c31ba50e arm64: dts: qcom: Add X1P42100 SoC and CRD
-7f9a670396029116424a803d3971ff0e552ff0b3 arm64: dts: qcom: sm8650: drop cpu thermal passive trip points
-2250f65b32565eb8b757e89248c75977f370f498 arm64: dts: qcom: sm8650: setup gpu thermal with higher temperatures
-c516beb248a96f5a93fb4f9a6cb0dda4155eadbb arm64: dts: qcom: sm8650: harmonize all unregulated thermal trip points
-30235bb8b0487537ddd7dd4a480c907add6cd19b arm64: dts: qcom: sm8650: drop remaining polling-delay-passive properties
-542b34247f3a5aeb4d094b21522803448005685a arm64: dts: qcom: sm7325-nothing-spacewar: Add CAM fixed-regulators
-588a6d006d640fde038d794bbf8db99a2cc2646f arm64: dts: qcom: sm7325-nothing-spacewar: Enable camera EEPROMs
-c365a026155ca926f878dee528715be8a02dabc7 arm64: dts: qcom: qcm6490-fairphone-fp5: Enable display
-984748d30cd3ce0e11d63b0ba16dcbd61f7b4b9d arm64: dts: qcom: qcm6490-fairphone-fp5: Enable the GPU
-54df5e52777e1126862778a2796c3809df85acd7 arm64: dts: qcom: sm8550: use ICC tag for all interconnect phandles
-48c84d96dcd022de3b445e20d4cdfc96c2b05538 arm64: dts: qcom: sm8550: set CPU interconnect paths as ACTIVE_ONLY
-0acd169330b81036aebd27c025b0a5bb8a77ea4b arm64: dts: qcom: sm8550: add OPP table support to PCIe
-ac2b7b1e8432fc758f6cd345e9a2472b269cb1c5 arm64: dts: qcom: sm8550: add QUP serial engines OPP tables
-ee6dfc9c75d43a2e2b2ea4c5055e31545b2aee83 arm64: dts: qcom: sm8650: use ICC tag for IPA interconnect phandles
-a4da40505d72385495ef5d4f1cc8479ab75b95e4 arm64: dts: qcom: sm8650: set CPU interconnect paths as ACTIVE_ONLY
-e61d8377c7b5e9fa6c4d57a5478118043e94d907 arm64: dts: qcom: sm8650: add USB interconnect paths
-5cddecc3d1dce1e20bb64364cb6cd5d8edf376b3 arm64: dts: qcom: sm8650: add OPP table support to PCIe
-2c885d85dff832d9be99093bdae73e77795f0aec arm64: dts: qcom: sm8650: add QUP serial engines OPP tables
-61dcbf45110bb3c3bfd7c92abaca9fffb84110e0 arm64: dts: qcom: sm8650: add UFS OPP table instead of freq-table-hz property
-7cfc492d0de2b09a0afdcdb5e5c0171a950cbff1 Merge branch '20250203063427.358327-2-alexeymin@postmarketos.org' into arm64-for-6.15
-0e2a500eff87c710f3947926e274fd83d0cabb02 arm64: dts: qcom: sdm630: Add missing resets to mmc blocks
+d97505baea64d93538b16baf14ce7b8c1fbad746 RDMA/mlx5: Fix the recovery flow of the UMR QP
+12d044770e12c4205fa69535b4fa8a9981fea98f IB/mlx5: Set and get correct qp_num for a DCT QP
+cc668a11e6ac8adb0e016711080d3f314722cc91 RDMA/mlx5: Fix a race for DMABUF MR which can lead to CQE with error
+abc7b3f1f056d69a8f11d6dceecc0c9549ace770 RDMA/mlx5: Fix a WARN during dereg_mr for DM type
+29b7bb98234cc287cebef9bccf638c2e3f39be71 RDMA/mana_ib: Allocate PAGE aligned doorbell index
+ee9d1619ef6e4a3412a13788256cb8c3e5efbe3d MAINTAINERS: update maintainer for Microsoft MANA RDMA driver
+9747c0c7791d4a5a62018a0c9c563dd2e6f6c1c0 RDMA/hns: Fix mbox timing out by adding retry mechanism
+a27c6f46dcec8f697cbf15c8a10f8534c7b8a2c3 RDMA/bnxt_re: Fix an issue in bnxt_re_async_notifier
+f0df225d12fcb049429fb5bf5122afe143c2dd15 RDMA/bnxt_re: Add sanity checks on rdev validity
+e2f105277411c4ebacd00d4ae1a57f693ba7d22d RDMA/bnxt_re: Fix issue in the unload path
+8238c7bd84209c8216b1381ab0dbe6db9e203769 RDMA/bnxt_re: Fix the statistics for Gen P7 VF
+293f324ce96d700112c726682b14094d1b54e09c tools: Unify top-level quiet infrastructure
+42367eca7604e16e170bd6bd94ef61ffdd335f4a tools: Remove redundant quiet setup
+3d8c6f26893d55fab218ad086719de1fc9bb86ba RDMA/mlx5: Fix implicit ODP hang on parent deregistration
+c534ffda781f44a1c6ac25ef6e0e444da38ca8af RDMA/mlx5: Fix AH static rate parsing
+e1a0bdbdfdf08428f0ede5ae49c7f4139ac73ef5 RDMA/mlx5: Fix bind QP error cleanup flow
+b66535356a4834a234f99e16a97eb51f2c6c5a7d RDMA/bnxt_re: Fix the page details for the srq created by kernel consumers
+9f5270d758d955506dcb114cb863a86b30a4c783 Merge tag 'perf-tools-fixes-for-v6.14-2-2025-02-25' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
+ac9c34d1e45a4c25174ced4fc0cfc33ff3ed08c7 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 
---===============5244222880394280129==--
+--===============2067171604162722612==--
