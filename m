@@ -1,49 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============2067171604162722612=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Wed, 26 Feb 2025 13:51:37 -0000
-Message-Id: <174057789741.3674970.13136867267293721184@gitolite.kernel.org>
-
---===============2067171604162722612==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Wed, 26 Feb 2025 13:59:42 -0000
+Message-Id: <174057838220.3680975.17353698933934056867@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
+  - ref: refs/heads/for-linus
+    old: 9e7c6779e3530bbdd465214afcd13f19c33e51a2
+    new: c6557ccf8094ce2e1142c6e49cd47f5d5e2933a8
+    log: |
+         c6557ccf8094ce2e1142c6e49cd47f5d5e2933a8 ALSA: hda/realtek: Fix microphone regression on ASUS N705UD
+         
   - ref: refs/heads/master
-    old: cc8a0934d099b8153fc880a3588eec4791a7bccb
-    new: ac9c34d1e45a4c25174ced4fc0cfc33ff3ed08c7
-    log: revlist-cc8a0934d099-ac9c34d1e45a.txt
-
---===============2067171604162722612==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cc8a0934d099-ac9c34d1e45a.txt
-
-d97505baea64d93538b16baf14ce7b8c1fbad746 RDMA/mlx5: Fix the recovery flow of the UMR QP
-12d044770e12c4205fa69535b4fa8a9981fea98f IB/mlx5: Set and get correct qp_num for a DCT QP
-cc668a11e6ac8adb0e016711080d3f314722cc91 RDMA/mlx5: Fix a race for DMABUF MR which can lead to CQE with error
-abc7b3f1f056d69a8f11d6dceecc0c9549ace770 RDMA/mlx5: Fix a WARN during dereg_mr for DM type
-29b7bb98234cc287cebef9bccf638c2e3f39be71 RDMA/mana_ib: Allocate PAGE aligned doorbell index
-ee9d1619ef6e4a3412a13788256cb8c3e5efbe3d MAINTAINERS: update maintainer for Microsoft MANA RDMA driver
-9747c0c7791d4a5a62018a0c9c563dd2e6f6c1c0 RDMA/hns: Fix mbox timing out by adding retry mechanism
-a27c6f46dcec8f697cbf15c8a10f8534c7b8a2c3 RDMA/bnxt_re: Fix an issue in bnxt_re_async_notifier
-f0df225d12fcb049429fb5bf5122afe143c2dd15 RDMA/bnxt_re: Add sanity checks on rdev validity
-e2f105277411c4ebacd00d4ae1a57f693ba7d22d RDMA/bnxt_re: Fix issue in the unload path
-8238c7bd84209c8216b1381ab0dbe6db9e203769 RDMA/bnxt_re: Fix the statistics for Gen P7 VF
-293f324ce96d700112c726682b14094d1b54e09c tools: Unify top-level quiet infrastructure
-42367eca7604e16e170bd6bd94ef61ffdd335f4a tools: Remove redundant quiet setup
-3d8c6f26893d55fab218ad086719de1fc9bb86ba RDMA/mlx5: Fix implicit ODP hang on parent deregistration
-c534ffda781f44a1c6ac25ef6e0e444da38ca8af RDMA/mlx5: Fix AH static rate parsing
-e1a0bdbdfdf08428f0ede5ae49c7f4139ac73ef5 RDMA/mlx5: Fix bind QP error cleanup flow
-b66535356a4834a234f99e16a97eb51f2c6c5a7d RDMA/bnxt_re: Fix the page details for the srq created by kernel consumers
-9f5270d758d955506dcb114cb863a86b30a4c783 Merge tag 'perf-tools-fixes-for-v6.14-2-2025-02-25' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
-ac9c34d1e45a4c25174ced4fc0cfc33ff3ed08c7 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
-
---===============2067171604162722612==--
+    old: 315fc86d837ee48bc4938173a50e35c2889e512e
+    new: e489c62ba5dafefc8319569150c43cb1f30ef922
+    log: |
+         c6557ccf8094ce2e1142c6e49cd47f5d5e2933a8 ALSA: hda/realtek: Fix microphone regression on ASUS N705UD
+         e489c62ba5dafefc8319569150c43cb1f30ef922 Merge branch 'for-linus'
+         
