@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4294091784627049712=="
+Content-Type: multipart/mixed; boundary="===============0488288693923676466=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 26 Feb 2025 21:53:25 -0000
-Message-Id: <174060680569.4097407.1726032300274936063@gitolite.kernel.org>
+Date: Wed, 26 Feb 2025 21:53:27 -0000
+Message-Id: <174060680799.4097488.6673779916848697393@gitolite.kernel.org>
 
---===============4294091784627049712==
+--===============0488288693923676466==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: 3c59e2039afcab803831c8db55cca7142e13421b
-    new: c63d152c912b10f8e190bb00339280f660222818
-    log: revlist-3c59e2039afc-c63d152c912b.txt
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: 0ad2507d5d93f39619fc42372c347d6006b64319
+    new: d082ecbc71e9e0bf49883ee4afd435a77a5101b6
+    log: revlist-0ad2507d5d93-d082ecbc71e9.txt
 
---===============4294091784627049712==
+--===============0488288693923676466==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3c59e2039afc-c63d152c912b.txt
+Content-Disposition: attachment; filename=revlist-0ad2507d5d93-d082ecbc71e9.txt
 
 7332537962956fab2c055b37e5e2e6a0d2a8d6bf bpf: Remove unnecessary BTF lookups in bpf_sk_storage_tracing_allowed
 6b3d638ca897e099fa99bd6d02189d3176f80a47 bpf, test_run: Fix use-after-free issue in eth_skb_pkt_type()
@@ -326,13 +326,5 @@ f112eea3ccefc8a267fff592059f128b3166ca9e Merge tag 'irq-urgent-2025-02-22' of gi
 ad328a3785a24a7e7a8053b06139a6bfb42d0280 Merge tag 'edac_urgent_for_v6.14_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 9d68911233472dc2b336f2cf99521bd684ba6092 Merge tag 'i2c-for-6.14-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 d082ecbc71e9e0bf49883ee4afd435a77a5101b6 Linux 6.14-rc4
-47b76969040a78d6e55e11af2e53ebe602743b08 i2c: octeon: refactor common i2c operations
-0c26cbae0d4dfc8749e5b91182a95faff901e542 dt-bindings: i2c: samsung,s3c2410: add exynos7870-i2c compatible
-5861a05b23b80f36d40cb83e2bd5434185b5a54c dt-bindings: i2c: exynos5: add exynos7870-hsi2c compatible
-97be0c12423502e2cbd32ad07881e2bc59e4476f i2c: pxa: fix call balance of i2c->clk handling routines
-35060149d0eb94557849714bfb81d79f6aa11e80 i2c: amd: Switch to guard(mutex)
-b16becf4932931c57d981725980e8d9ec41ec386 i2c: dw: Update the master_xfer callback name
-f49569b4c630e789f774fe6d58c22245275c537a i2c: amd-asf: Modify callbacks of i2c_algorithm to align with the latest revision
-c63d152c912b10f8e190bb00339280f660222818 i2c: amd-asf: Set cmd variable when encountering an error
 
---===============4294091784627049712==--
+--===============0488288693923676466==--
