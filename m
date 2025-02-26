@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7349332251242277047=="
+Content-Type: multipart/mixed; boundary="===============2531654751249825233=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 26 Feb 2025 11:55:35 -0000
-Message-Id: <174057093564.3576867.12434011932777770399@gitolite.kernel.org>
+Date: Wed, 26 Feb 2025 11:56:30 -0000
+Message-Id: <174057099066.3577320.7632976700444698048@gitolite.kernel.org>
 
---===============7349332251242277047==
+--===============2531654751249825233==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,30 +16,56 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 9af5371a642f1f063fda77ca2d0309a42b89cb9c
-    new: b730d3cf338f8af48781206e0779a40f76f22a33
-    log: revlist-9af5371a642f-b730d3cf338f.txt
+    old: b730d3cf338f8af48781206e0779a40f76f22a33
+    new: 3c9f52b00668b81599967bf5242e1096721f3e49
+    log: revlist-b730d3cf338f-3c9f52b00668.txt
+  - ref: refs/heads/tip/urgent
+    old: 6f8011b528105b80ddf800b88bbcea2478ea7612
+    new: e2e7ca3df5b9253183e6e79b3632a1c7287f1929
+    log: |
+         27ba08bd352a6b601ae49395fde52b6fb2c9750a Merge branch into tip/master: 'locking/urgent'
+         baddf70bfa76cb0ef798ab49d0b1f285c4520e04 Merge branch into tip/master: 'perf/urgent'
+         e2e7ca3df5b9253183e6e79b3632a1c7287f1929 Merge branch into tip/master: 'x86/urgent'
+         
 
---===============7349332251242277047==
+--===============2531654751249825233==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9af5371a642f-b730d3cf338f.txt
+Content-Disposition: attachment; filename=revlist-b730d3cf338f-3c9f52b00668.txt
 
-9d245214b683e9e4fe2d5c588691337b22c48841 dt-bindings: interrupt-controller: renesas,rzv2h-icu: Document RZ/G3E SoC
-72310650788ad3d3afe3810735656dd291fea885 irqchip/renesas-rzv2h: Fix wrong variable usage in rzv2h_tint_set_type()
-c56cab0c3ee063f30d1e53cca7614574e3c2cbd5 irqchip/renesas-rzv2h: Drop irqchip from struct rzv2h_icu_priv
-f5de95438834a3bc3ad747f67c9da93cd08e5008 irqchip/renesas-rzv2h: Simplify rzv2h_icu_init()
-ad773ebc6e41f0004487726e432b86795ae426d9 irqchip/renesas-rzv2h: Use devm_reset_control_get_exclusive_deasserted()
-5ec8cabc3b8622f95de973c1a245245c65e3337b irqchip/renesas-rzv2h: Use devm_pm_runtime_enable()
-0a9d6ef64e5e917f93db98935cd09bac38507ebf irqchip/renesas-rzv2h: Add struct rzv2h_hw_info with t_offs variable
-eb23d23d082d097e2a8154a57da72061cb7e33b3 irqchip/renesas-rzv2h: Add max_tssel to struct rzv2h_hw_info
-1a6ebcc10b138a6c55f8df2cf6cc630ddabe3cab irqchip/renesas-rzv2h: Add field_width to struct rzv2h_hw_info
-76c3b774734feb8224b78721e0c67a54760a75c5 irqchip/renesas-rzv2h: Update TSSR_TIEN macro
-e3a16c33db69ffd1369ebfdf93f93a93a785896a irqchip/renesas-rzv2h: Update macros ICU_TSSR_TSSEL_{MASK,PREP}
-399b2799985237cf5c3656b7cfc87cdaa489efd1 irqchip/renesas-rzv2h: Add RZ/G3E support
-6447828875b7d768e4ef0f58765b4bd4e16bcf18 x86/mce/inject: Remove call to mce_notify_irq()
-fa378afb6efc43d2fa5acf96f18150914f1c2cda Merge branch into tip/master: 'irq/drivers'
-b730d3cf338f8af48781206e0779a40f76f22a33 Merge branch into tip/master: 'ras/core'
+9a54fb31343362f93680543e37afc14484c185d9 x86/cfi: Add 'cfi=warn' boot option
+500a41acb05a973cb6826ee56df082a97e210a95 x86/ibt: Add exact_endbr() helper
+5d703825fde301677e8a79b0738927490407f435 x86/alternatives: Clean up preprocessor conditional block comments
+2e044911be75ce3321c5b3d10205ac0b54f8cb92 x86/traps: Decode 0xEA instructions as #UD
+e33d805a1005bf7b8a5a53559c81a8e17f0b981b x86/traps: Allow custom fixups in handle_bug()
+06926c6cdb955bf24521d4e13af95b4d062d02d0 x86/ibt: Optimize the FineIBT instruction sequence
+029f718fedd72872f7475604fe71b2a841108834 x86/traps: Decode LOCK Jcc.d8 as #UD
+97e59672a9d2aec0c27f6cd6a6b0edfdd6e5a85c x86/ibt: Add paranoid FineIBT mode
+a18e6715ff4e6e71c2b5dc8ec78f2ddc3fe4b0a8 x86/bhi: Add BHI stubs
+d8122c428076ee5281baa045edaa502b316e4157 x86/ibt: Implement FineIBT-BHI mitigation
+496ce4741ccbc91838df4bf9e137eda99c61f500 x86/ibt: Optimize the fineibt-bhi arity 1 case
+27ba08bd352a6b601ae49395fde52b6fb2c9750a Merge branch into tip/master: 'locking/urgent'
+baddf70bfa76cb0ef798ab49d0b1f285c4520e04 Merge branch into tip/master: 'perf/urgent'
+e2e7ca3df5b9253183e6e79b3632a1c7287f1929 Merge branch into tip/master: 'x86/urgent'
+735b39826b59d8691071e4ac441f60e71b0eb4d6 Merge branch into tip/master: 'irq/drivers'
+5ad88600e69eb0a23ca0260d5d35630ddfdfd7b9 Merge branch into tip/master: 'locking/core'
+104aebd10a65515f19fbce3b6c40fd57e5de4a65 Merge branch into tip/master: 'perf/core'
+2e643befb7eb69a6dc35854b2f95fded188e341a Merge branch into tip/master: 'ras/core'
+52565e517dabf31d899ed78139a17afe358b8867 Merge branch into tip/master: 'sched/core'
+c433a50826e04157d831e0ea3652a91a5df8d188 Merge branch into tip/master: 'timers/cleanups'
+aa8568f0c6ff9401b97f2c0bb22bf81c2f2bdd61 Merge branch into tip/master: 'timers/core'
+adcb4766049ab18c5d97c6b41ce0acfe59c60ebf Merge branch into tip/master: 'timers/vdso'
+4c981816d53f370e6cf026eed015c40cbfe0c0b0 Merge branch into tip/master: 'x86/asm'
+d6bbf7b82c52130f8e2d6f251b029c5e0202b746 Merge branch into tip/master: 'x86/boot'
+932b7d45c34b1a1dc6dfa3b7616aed295861f70f Merge branch into tip/master: 'x86/build'
+c34b6ad65ac65c52323a59c2ba462c871c17f486 Merge branch into tip/master: 'x86/cleanups'
+86e3804da9f7a51e0c70af2490fea317da2a3e70 Merge branch into tip/master: 'x86/cpu'
+0e9fcfcbeac1b7d5ed29f287d8a9bef281522455 Merge branch into tip/master: 'x86/fpu'
+a24c33ca74f2104bb6b8dc575dfa292c3a03a145 Merge branch into tip/master: 'x86/microcode'
+cb9551e7d54a7525d3030dd9f9edac76d28cb468 Merge branch into tip/master: 'x86/misc'
+afe664941f32f477a3e69296a096cf97d775cbae Merge branch into tip/master: 'x86/mm'
+1c15adec56372da2394984463f6a9a757613852b Merge branch into tip/master: 'x86/platform'
+3c9f52b00668b81599967bf5242e1096721f3e49 Merge branch into tip/master: 'x86/core'
 
---===============7349332251242277047==--
+--===============2531654751249825233==--
