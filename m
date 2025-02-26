@@ -1,30 +1,77 @@
-Content-Type: multipart/mixed; boundary="===============5309317314844681401=="
+Content-Type: multipart/mixed; boundary="===============7843013481732505218=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Wed, 26 Feb 2025 09:42:36 -0000
-Message-Id: <174056295606.3464159.10120181423203173817@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Wed, 26 Feb 2025 09:47:25 -0000
+Message-Id: <174056324509.3468208.17859564142744811582@gitolite.kernel.org>
 
---===============5309317314844681401==
+--===============7843013481732505218==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/for-next
-    old: f9d3870b9957174e13787886512921934fa97e7f
-    new: 931e9bd7d513176bf1ae9f23fb9b32d50d36ec7c
-    log: revlist-f9d3870b9957-931e9bd7d513.txt
+  - ref: refs/heads/vfs-6.15.iomap
+    old: 30f530096166202cf70e1b7d1de5a8cdfba42af1
+    new: 53cfafdd1530f86c2ef8ecbbcb9aeae4da115cb2
+    log: revlist-30f530096166-53cfafdd1530.txt
+  - ref: refs/heads/vfs-6.15.mount
+    old: 7a54947e727b6df840780a66c970395ed9734ebe
+    new: 33cec19dc022369e02f860150e5dfe32708016dc
+    log: |
+         33cec19dc022369e02f860150e5dfe32708016dc samples/vfs: fix printf format string for size_t
+         
+  - ref: refs/heads/vfs-6.15.mount.namespace
+    old: 3873e065ff70334e9217f30829762995530c7aa6
+    new: 3c21bee07b53371dd9b9d61b09c4abcf0572f5b0
+    log: |
+         059028d7d71349423eb15db8149339f6a99d9929 fs: allow creating detached mounts from fsmount() file descriptors
+         9805121341630b12685146da02ca9222ebb5a060 fs: namespace: fix uninitialized variable use
+         e38e5e7eebeba53d78b49d293bfb9431655ebe83 mount: handle mount propagation for detached mount trees
+         b44cc211d07c5fa99d8fa7aa0ed0241849bdbd07 selftests: add test for detached mount tree propagation
+         7456aa4822a56fbf415cc3bbdfdfce0f15decf09 selftests: test subdirectory mounting
+         3c21bee07b53371dd9b9d61b09c4abcf0572f5b0 Merge patch series "mount: handle mount propagation for detached mount trees"
+         
+  - ref: refs/heads/vfs.all
+    old: de048109361af059670855835f62dc570335a1b8
+    new: f56e1a3fb6adc3ac44bdbafb5a776ac4304c70da
+    log: revlist-de048109361a-f56e1a3fb6ad.txt
+  - ref: refs/heads/vfs.fixes
+    old: 425e3e3bd62c568a4365af0923d6ebad71a7dcfc
+    new: b5799106b44e1df594f4696500dbbc3b326bba18
+    log: |
+         b5799106b44e1df594f4696500dbbc3b326bba18 iomap: Minor code simplification in iomap_dio_bio_iter()
+         
 
---===============5309317314844681401==
+--===============7843013481732505218==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f9d3870b9957-931e9bd7d513.txt
+Content-Disposition: attachment; filename=revlist-30f530096166-53cfafdd1530.txt
+
+d9dc477ff6a25c3812be2b24d81add8e6561c6ed iomap: advance the iter directly on buffered read
+8fecec46d10bafbce5d511c764ae2c2061b9adda iomap: advance the iter on direct I/O
+f145377da150b9606f3d51d66b03eca86514ea27 iomap: convert misc simple ops to incremental advance
+e1e6bae60732d1aea4f583a23794306a952bb76d dax: advance the iomap_iter in the read/write path
+e1dae77b50e31bf89236937c35eb891a2974cfae dax: push advance down into dax_iomap_iter() for read and write
+80fce30584076affbf7d84917f57968e2b812dde dax: advance the iomap_iter on zero range
+9ba439cbdcf2b14548a451d4f4e2bd274b1af490 dax: advance the iomap_iter on unshare range
+39eb05112987e15cbee1ada91e2dccb845675c30 dax: advance the iomap_iter on dedupe range
+6fe32fe1bbc1dce43daf3569dd8a84e11446257f dax: advance the iomap_iter on pte and pmd faults
+469739f1d8c55dc39939bdb4b558cf875be0ff4e iomap: remove unnecessary advance from iomap_iter()
+edd3e3b7d210747dec723edd2b6cb49d140c1256 iomap: rename iomap_iter processed field to status
+d79c9cc512973ef6583c3bfc0b343f9d312d85b3 iomap: introduce a full map advance helper
+53cfafdd1530f86c2ef8ecbbcb9aeae4da115cb2 Merge patch series "iomap: incremental advance conversion -- phase 2"
+
+--===============7843013481732505218==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-de048109361a-f56e1a3fb6ad.txt
 
 7332537962956fab2c055b37e5e2e6a0d2a8d6bf bpf: Remove unnecessary BTF lookups in bpf_sk_storage_tracing_allowed
 6b3d638ca897e099fa99bd6d02189d3176f80a47 bpf, test_run: Fix use-after-free issue in eth_skb_pkt_type()
@@ -78,8 +125,6 @@ b9cb90a5bf9d0e96e4ff353d113b8a483f2e3942 ASoC: rsnd: adjust convert rate in 1%
 7968c6581507052c1c6484ee6c5cbe07381e2dbc bpf: verifier: Disambiguate get_constant_map_key() errors
 310794c219e7b6bd4b21254ac3b871ee989cbece Merge branch 'bpf-some-fixes-for-nullness-elision'
 8784714d7f27045c7cb72456cf66705b73fbc804 bpf: Handle allocation failure in acquire_lock_state
-dc9c5166c3cb044f8a001e397195242fd6796eee powerpc/code-patching: Disable KASAN report during patching via temporary mm
-61bcc752d1b81fde3cae454ff20c1d3c359df500 powerpc/64s: Rewrite __real_pte() and __rpte_to_hidx() as static inline
 a1f7b7ff0e10ae574d388131596390157222f986 PCI: pci_ids: add INTEL_HDA_PTL_H
 214e6be2d91d5d58f28d3a37630480077a1aafbd ALSA: hda: intel-dsp-config: Add PTL-H support
 4e9c87cfcd0584f2a2e2f352a43ff003d688f3a4 ASoC: SOF: Intel: pci-ptl: Add support for PTL-H
@@ -103,16 +148,8 @@ f6841309b6de97c21a3ce25d1d9d945ad4f7ee2c ASoC: Intel: soc-acpi-intel-ptl-match t
 7d1163fc08936fcb5cf5d9daf366c322c3b4e882 arm64: dts: rockchip: disable IOMMU when running rk3588 in PCIe endpoint mode
 8546cfd08aa4b982acd2357403a1f15495d622ec arm64: dts: rockchip: adjust SMMU interrupt type on rk3588
 174448badb4409491bfba2e6b46f7aa078741c5e ALSA: hda/realtek: Fixup ALC225 depop procedure
-d262a192d38e527faa5984629aabda2e0d1c4f54 powerpc/code-patching: Fix KASAN hit by not flagging text patching area as VM_ALLOC
-56d5f3eba3f5de0efdd556de4ef381e109b973a9 acct: perform last write from workqueue
-890ed45bde808c422c3c27d3285fc45affa0f930 acct: block access to kernel internal filesystems
-240189294fbc9550f5cd7ae9b446ad3cf3c5386a Merge patch series "acct: don't allow access to internal filesystems"
 571b69f2f9b1ec7cf7d0e9b79e52115a87a869c4 ASoC: imx-audmix: remove cpu_mclk which is from cpu dai device
 ab027c488fc4a1fff0a5b712d4bdb2d2d324e8f8 firmware: arm_scmi: imx: Correct tx size of scmi_imx_misc_ctrl_set
-1d0013962d220b166d9f7c9fe2746f1542e459a3 netfs: Fix a number of read-retry hangs
-d01c495f432ce34df8bfd092e71720a2cf169a90 netfs: Add retry stat counters
-5de0219a9bb9dacc4ce6e8f2745540dcce786983 netfs: Fix setting NETFS_RREQ_ALL_QUEUED to be after all subreqs queued
-a33f72554adf4552e53af3784cebfc4f2886c396 Merge patch series "netfs: Miscellaneous fixes"
 a8972d5a49b408248294b5ecbdd0a085e4726349 drm: panel: jd9365da-h3: fix reset signal polarity
 fbe8f2fa971c537571994a0df532c511c4fb5537 md/raid*: Fix the set_queue_limits implementations
 c5a9df928ec4d91e8ab7ab3b4c37012e79bc2a09 Merge tag 'asoc-fix-v6.14-rc2' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
@@ -124,7 +161,6 @@ c5a9df928ec4d91e8ab7ab3b4c37012e79bc2a09 Merge tag 'asoc-fix-v6.14-rc2' of https
 9f0902091c332b2665951cfb970f60ae7cbdc0f3 xfs: Do not allow norecovery mount with quotacheck
 3cd6a8056f5a2e794c42fc2114ee2611e358b357 xfs: rename xfs_iomap_swapfile_activate to xfs_vm_swap_activate
 2d873efd174bae9005776937d5ac6a96050266db xfs: flush inodegc before swapon
-0c67c37e1710b2a8f61c8a02db95a51fe577e2c1 fuse: revert back to __readahead_folio() for readahead
 362ff1e7c6c20f8d6ebe20682870d471373c608b virtio_snd.h: clarify that `controls` depends on VIRTIO_SND_F_CTLS
 410014579eb0e891032e3c45092f17d186232fb1 Merge tag 'v6.14-rockchip-dtsfixes1' of https://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into HEAD
 5755eb0a8168493fddf63d72e0133de54b3a17dd MAINTAINERS: Mark Andrew as M: for ASPEED MACHINE SUPPORT
@@ -136,14 +172,6 @@ dd0f05b98925111f4530d7dab774398cdb32e9e3 platform: cznic: CZNIC_PLATFORMS should
 b3fefbb30a1691533cb905006b69b2a474660744 nouveau/svm: fix missing folio unlock + put after make_device_exclusive_range()
 41758630dd7ea9dce3eb152168c979534b415ab0 dt-bindings: mtd: cadence: document required clock-names
 c158647c107358bf1be579f98e4bb705c1953292 EDAC/qcom: Correct interrupt enable register configuration
-fb8179ce2996bffaa36a04e2b6262843b01b7565 riscv: cacheinfo: Use of_property_present() for non-boolean properties
-c6ec1e1b078d8e2ecd075e46db6197a14930a3fc riscv: cpufeature: use bitmap_equal() instead of memcmp()
-1898300abf3508bca152e65b36cce5bf93d7e63e riscv/atomic: Do proper sign extension also for unsigned in arch_cmpxchg
-599c44cd21f4967774e0acf58f734009be4aea9a riscv/futex: sign extend compare value in atomic cmpxchg
-713e788c0e07e185fd44dd581f74855ef149722f rseq/selftests: Fix riscv rseq_offset_deref_addv inline asm
-aa49bc2ca8524186ceb0811c23a7f00c3dea6987 riscv: signal: fix signal frame size
-564fc8eb6f78e01292ff10801f318feae6153fdd riscv: signal: fix signal_minsigstksz
-245aece3750d3692ae7a44516c1096936bded7ab MAINTAINERS: Add myself as a riscv reviewer
 054e61bb1de4fa02d148344152007facbcb28583 gve: Update MAINTAINERS
 0d1fac6d26aff5df21bb4ec980d9b7a11c410b96 net: wwan: mhi_wwan_mbim: Silence sequence number glitch errors
 13918315c5dc5a515926c8799042ea6885c2b734 io-wq: backoff when retrying worker creation
@@ -168,8 +196,6 @@ f063ac6b55df03ed25996bdc84d9e1c50147cfa1 drm/msm/dpu: Disable dither in phys enc
 5a97bc924ae0804b8dbf627e357acaa5ef761483 drm/msm/dsi/phy: Protect PHY_CMN_CLK_CFG1 against clock driver
 73f69c6be2a9f22c31c775ec03c6c286bfe12cfa drm/msm/dsi/phy: Do not overwite PHY_CMN_CLK_CFG1 when choosing bitclk source
 654292a0b264e9b8c51b98394146218a21612aa1 smb: client: fix chmod(2) regression with ATTR_READONLY
-7fb39882b20c98a9a393c244c86b56ef6933cff8 dm-integrity: Avoid divide by zero in table status in Inline mode
-c19525b5fb71a355079063bb14adcddae60cf922 dm-integrity: Do not emit journal configuration in DM table for Inline mode
 9d846b1aebbe488f245f1aa463802ff9c34cc078 gpiolib: check the return value of gpio_chip::get_direction()
 4e667a1968099c6deadee2313ecd648f8f0a8956 gpio: vf610: add locking to gpio direction functions
 6d1f86610f23b0bc334d6506a186f21a98f51392 ALSA: hda/conexant: Add quirk for HP ProBook 450 G4 mute LED
@@ -181,8 +207,6 @@ e49477f7f78598295551d486ecc7f020d796432e drm/i915/gt: Use spin_lock_irqsave() in
 07fb70d82e0df085980246bf17bc12537588795f drm/i915: Make sure all planes in use by the joiner have their crtc included
 dd8b0582e25e36bba483c60338741c0ba5bc426c block: fix NULL pointer dereferenced within __blk_rq_map_sg
 e77aa4b2eaa7fb31b2a7a50214ecb946b2a8b0f6 ALSA: seq: Drop UMP events when no UMP-conversion is set
-6186bdd120eccf4ca44fcba8967fc59ea50b11b8 Merge tag 'powerpc-6.14-3' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
-2408a807bfc3f738850ef5ad5e3fd59d66168996 Merge tag 'vfs-6.14-rc4.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 4cb77793842a351b39a030f77caebace3524840e irqchip/gic-v3: Fix rk3399 workaround when secure interrupts are enabled
 d7e3fd658248f257006227285095d190e70ee73a irqchip/jcore-aic, clocksource/drivers/jcore: Fix jcore-pit interrupt request
 07b598c0e6f06a0f254c88dafb4ad50f8a8c6eea drop_monitor: fix incorrect initialization order
@@ -207,7 +231,6 @@ f39edcf6349abb2ca2df96acc8645f4d2631d0a7 mm: pgtable: fix incorrect reclaim of n
 4998a6fa2a31176d0882bdfa27d5d03b665ba19b MAINTAINERS: update Nick's contact info
 ac7af1f57acd1e1d112b36e036584ca4bc4c284a kasan: don't call find_vm_area() in a PREEMPT_RT kernel
 8344017aaf32a7532cff293eb3df7fd2265ebafd test_xarray: fix failure in check_pause when CONFIG_XARRAY_MULTI is not defined
-b8d975e7cccfe0e12b869a23b350e5851a116583 Merge tag 'fuse-fixes-6.14-rc4' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse
 02d954c0fdf91845169cdacc7405b120f90afe01 sched: Compact RSEQ concurrency IDs with reduced threads and affinity
 ec5fd50aeff9c9156304853c6d75eda852d4a2c8 uprobes: Don't use %pK through printk
 81570d6a7ad37033c7895811551a5a9023706eda gpiolib: protect gpio_chip with SRCU in array_info paths in multi get/set
@@ -259,7 +282,6 @@ fb3331f53e3cb1f1505f918f4f33bb0a3a231e4f io_uring/rsrc: remove unused constants
 9df23801c83d3e12b4c09be39d37d2be385e52f9 smb311: failure to open files of length 1040 when mounting with SMB3.1.1 POSIX extensions
 cad3fc0a4c8cef07b07ceddc137f582267577250 cifs: Throw -EOPNOTSUPP error on unsupported reparse point type from parse_reparse_point()
 b587fd128660d48cd2122f870f720ff8e2b4abb3 cifs: Treat unhandled directory name surrogate reparse points as mount directory nodes
-c84e125fff2615b4d9c259e762596134eddd2f27 ovl: fix UAF in ovl_dentry_update_reval by moving dput() in ovl_link_up
 838c17fd077e611b12c78feb0feee1b30ed09b63 accel/amdxdna: Add missing include linux/slab.h
 b9ddb3e1a8aa86c61c4a93e27cf66414f5fa7b6e bcachefs: Fix fsck directory i_size checking
 b9275eabe31e6679ae12c46a4a0a18d622db4570 drm/i915/dp: Fix error handling during 128b/132b link training
@@ -290,7 +312,6 @@ a370295367b55662a32a4be92565fe72a5aa79bb net: axienet: Set mac_managed_pm
 6bc7e4eb0499562ccd291712fd7be0d1a5aad00a Revert "net: skb: introduce and use a single page frag cache"
 dd3188ddc4c49cb234b82439693121d2c1c69c38 Merge branch 'net-remove-the-single-page-frag-cache-for-good'
 96fa9ec477ff60bed87e1441fd43e003179f3253 gpiolib: don't bail out if get_direction() fails in gpiochip_add_data()
-b4c173dfbb6c78568578ff18f9e8822d7bd0e31b fuse: don't truncate cached, mutated symlink
 7543095ce0f313a7060d2b017acd6ccc1a709ad7 Merge tag 'md-6.14-20250218' of https://git.kernel.org/pub/scm/linux/kernel/git/mdraid/linux into block-6.14
 782cffeec9ad96daa64ffb2d527b2a052fb02552 perf/x86/intel: Fix event constraints for LNC
 770b7eec04c986ace0e632527ee7e1fafc2e5964 Merge tag 'xfs-fixes-6.14-rc4' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
@@ -312,9 +333,6 @@ b522f180ee2b264b771fcbd0ab67d84cdd9e580d MAINTAINERS: Change maintainer for RDT
 74ee48a2b4afa152b2d7f741677f6ada3c11be51 Merge tag 'ata-6.14-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 334426094588f8179fe175a09ecc887ff0c75758 Merge tag 'for-v6.14-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply
 e9a48ea4d90be251e0d057d41665745caccb0351 irqchip/qcom-pdc: Workaround hardware register bug on X1E80100
-8510edf191d2df0822ea22d6226e4eef87562271 mm/filemap: fix miscalculated file range for filemap_fdatawrite_range_kick()
-927289988068a65ccc168eda881ce60f8712707b mm/truncate: don't skip dirty page in folio_unmap_invalidate()
-4c7a22bda684f586910e2fadac70c65964a9a486 Merge patch series "fixes for uncached IO"
 517120728484df1ab8b71cba8d2cad19f52f18a1 x86/cpufeatures: Make AVX-VNNI depend on AVX
 dc0a241ceaf3b7df6f1a7658b020c92682b75bfc rseq: Fix rseq registration with CONFIG_DEBUG_RSEQ
 c9876cdb3ac4dcdf3c710ff02094165982e2a557 docs: arch/x86/sva: Fix two grammar errors under Background and FAQ
@@ -343,129 +361,44 @@ f112eea3ccefc8a267fff592059f128b3166ca9e Merge tag 'irq-urgent-2025-02-22' of gi
 ad328a3785a24a7e7a8053b06139a6bfb42d0280 Merge tag 'edac_urgent_for_v6.14_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 9d68911233472dc2b336f2cf99521bd684ba6092 Merge tag 'i2c-for-6.14-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 d082ecbc71e9e0bf49883ee4afd435a77a5101b6 Linux 6.14-rc4
-02cfe2b6529c6c5fcf39d52a826927f4f93392af pidfs: remove d_op->d_delete
-425e3e3bd62c568a4365af0923d6ebad71a7dcfc nsfs: remove d_op->d_delete
-36e1b81f599a093ec7477e4593e110104adcfb96 dm vdo: add missing spin_lock_init
-815291c11acda54515f1af5ce6fe307490de9127 configfs: update MAINTAINERS
-f7d5db965f3e132887779c6b449452db2b807caa dma-mapping: update MAINTAINERS
-2c24478e5f6e8a1060f5ad2f52210549a4819204 Merge tag 'for-6.14/dm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
-2a1944bff54907a4e68f167dcdf772b1e4c3ce6d Merge tag 'riscv-for-linus-6.14-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
+059028d7d71349423eb15db8149339f6a99d9929 fs: allow creating detached mounts from fsmount() file descriptors
 b5799106b44e1df594f4696500dbbc3b326bba18 iomap: Minor code simplification in iomap_dio_bio_iter()
-3d85d6c8539950dfcf4339f9ea865fb5d8f7ce03 Merge tag 'vfs-6.14-rc5.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-cc8a0934d099b8153fc880a3588eec4791a7bccb Merge tag 'for-6.14-rc4-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-836a1f5d15c3ce66e99bb8d9e1fe893ab2e2514d btrfs: keep private struct on stack for sync reads in btrfs_encoded_read_regular_fill_pages()
-5a1163aad203ed0b1c5025d899b360bb3d478c71 btrfs: update some folio related comments
-93825c859aec08a9999f2d8e5061e0487e70a3e4 btrfs: convert io_ctl_prepare_pages() to work on folios
-65c362a89429e78c28c0cf8cde49cecd0b244052 btrfs: remove duplicated metadata folio flag update in end_bbio_meta_read()
-9662c7925881313d61fc5500fe1e39a54ae776dc btrfs: always fallback to buffered write if the inode requires checksum
-0ef08864d3420130a74689150c1011c386131583 btrfs: avoid assigning twice to block_start at btrfs_do_readpage()
-cfb76c2f5a515460d4a737bf2ef6222ff6594f27 btrfs: zlib: refactor S390x HW acceleration buffer preparation
-5017f0ece7b85d08bcc6910a123aa77102100597 btrfs: expose per-inode stable writes flag
-4e9f413f39aeb994d76b9c90da7b39e412687bf8 btrfs: extract the nocow ordered extent and extent map generation into a helper
-d09a0d181c4bacc0904bb41cb809b7f6405aa99e btrfs: move ordered extent cleanup to where they are allocated
-f12baac0d55b4522c9e6a07839f9df798a6e40d0 btrfs: zstd: enable negative compression levels mount option
-0d9363dac138cc3bb6b443fe56be28e6d123bc5a btrfs: remove btrfs_fs_info::sectors_per_page
-2e3e7d12cf75c6b002a3f2a5c26e2cab4930d585 btrfs: factor out metadata subpage detection into a dedicated helper
-3eca1a4b2c9903b5099cde6d66ab89f5f32f2e39 btrfs: make subpage attach and detach to handle metadata properly
-730fe0e0aaa4aa707572936eb5db987b43942819 btrfs: use metadata specific helpers to simplify extent buffer helpers
-a46324b1742fad071cc839f1280df06816dee0df btrfs: simplify subpage handling of btrfs_clear_buffer_dirty()
-c1017686e624a399a9b7567fefcfa68e08dacebd btrfs: simplify subpage handling of write_one_eb()
-d6b0dd9c3763ff8674ef5577579de8925a1e2bd7 btrfs: simplify subpage handling of read_extent_buffer_pages_nowait()
-773c5115c980258a6a0077fac98155e6f437d061 btrfs: require strict data/metadata split for subpage checks
-a794ab381e34726a211e7f2d9567549f6ca5ad59 btrfs: zoned: exit btrfs_can_activate_zone if BTRFS_FS_NEED_ZONE_FINISH is set
-fcc7e3306e110105039974fdf760c17fd3b33d14 btrfs: add support for uncached writes (RWF_DONTCACHE)
-9c47733cec5730d814ad8d2a101406ed6d3bfc46 btrfs: add __cold attribute to extent_io_tree_panic()
-824a0e36f0a57b5f97c96241d2e9b976100cf14b btrfs: async-thread: switch local variables need_order bool
-c007270a75582ef77417971f2323e006524d73f1 btrfs: zstd: move zstd_parameters to the workspace
-34e023128a2ad06b6bd41498383b39f2be9003dd btrfs: zstd: remove local variable for storing page offsets
-c5ab71d5b4757c2f6f8351d62b564624c55957bc btrfs: unify ordering of btrfs_key initializations
-12288fafbe081367247883bc812f736ea51b5e46 btrfs: simplify returns and labels in btrfs_init_fs_root()
-a1bb4311ab77f52355f89923700da488c74c8102 btrfs: update include and forward declarations in headers
-4512de68cc1b26851365badf7b028d1a8eb4291e btrfs: pass struct btrfs_inode to can_nocow_extent()
-f15536b0e67c9b504f12b5781799213bce76840b btrfs: pass struct btrfs_inode to extent_range_clear_dirty_for_io()
-a7d30a69040fd84b03e867aebd4502c8d5377871 btrfs: pass struct btrfs_inode to btrfs_read_locked_inode()
-b4b49635db3fbe3254a26e3fb63915be8ae6f524 btrfs: pass struct btrfs_inode to btrfs_iget_locked()
-c4fb3ee6eab88d4c4c20f05942d5e7885639e94a btrfs: pass struct btrfs_inode to new_simple_dir()
-2257b37a015be8f902688699e4360039ed4bdf35 btrfs: pass struct btrfs_inode to btrfs_inode_type()
-1fcc09749562beab58ed4834b1204670d56ae777 btrfs: pass struct btrfs_inode to btrfs_defrag_file()
-84d711d47b9a6e5bf807d7f71a55e6c917cb1c0a btrfs: use struct btrfs_inode inside create_pending_snapshot()
-1e392a73fb98ea874eb83a857ae7a6fe993a588b btrfs: pass struct btrfs_inode to fill_stack_inode_item()
-9e968454786f71ca50086e1070f2afec0031001f btrfs: pass struct btrfs_inode to btrfs_fill_inode()
-a475d6f933642ad0ce92c383e8141f1dceebd8e5 btrfs: pass struct btrfs_inode to btrfs_load_inode_props()
-f5684b789c69451e0253b8b1be886422f558697d btrfs: pass struct btrfs_inode to btrfs_inode_inherit_props()
-62391f8ffe409eb833d845f7c8f2c324e5270f56 btrfs: props: switch prop_handler::apply to struct btrfs_inode
-4fd11199b8b16e5fb160e1d334b75a12bcd3339f btrfs: props: switch prop_handler::extract to struct btrfs_inode
-18a26db5915701fb5bb2ce7b5a9707a6b840402b btrfs: pass struct btrfs_inode to clone_copy_inline_extent()
-c66a758e2a3fb3125f9cc83a4234ba0f645eb976 btrfs: pass struct btrfs_inode to btrfs_double_mmap_lock()
-65e0f3c583ad06bf134c4adae4cb2c28588cf56e btrfs: pass struct btrfs_inode to btrfs_double_mmap_unlock()
-8bbc26af7dfdc3b43c7c07adec36129f992ad0f8 btrfs: pass struct btrfs_inode to btrfs_extent_same_range()
-6e39c6bde39af9765f204fb506d0189eabbe7e94 btrfs: use struct btrfs_inode inside btrfs_remap_file_range()
-f8d35edede7e298f0dce409496c522b413a557d7 btrfs: use struct btrfs_inode inside btrfs_remap_file_range_prep()
-f5fdfa77332d0451d07b92f6b1b6a317a9ed26bf btrfs: use struct btrfs_inode inside btrfs_get_parent()
-66db18e1dc579c5e16de9f232fe2d011bd09e9ff btrfs: use struct btrfs_inode inside btrfs_get_name()
-5a4041f2c47247575a6c2e53ce14f7b0ac946c33 btrfs: zoned: fix extent range end unlock in cow_file_range()
-2df2c6ed89600a02e1c7a581a6a55e53c38ce0f5 btrfs: replace deprecated strncpy() with strscpy()
-dbb33da4e30c15f249b901991da484505ff27cec btrfs: send: remove duplicated logic from fs_path_reset()
-d3a49f2ce8f56a94c1504396a106928e4aca22ed btrfs: send: make fs_path_len() inline and constify its argument
-c18969a3071aefd022b170a431a562c1dc173d90 btrfs: send: always use fs_path_len() to determine a path's length
-6a11b93a104cdd6758b34fae1f5917aa435e6932 btrfs: send: simplify return logic from fs_path_prepare_for_add()
-b6f6232e64da484b86e266c1366d140c8b2ec971 btrfs: send: simplify return logic from fs_path_add()
-8a6251c5e61fb6fb3c07971ded53a9b761992aea btrfs: send: implement fs_path_add_path() using fs_path_add()
-a67a2b80e816e4a50fb077204647f39e7232aa20 btrfs: send: simplify return logic from fs_path_add_from_extent_buffer()
-bbaa525c9f7d585a88698ec57a9c5ab03f94e98c btrfs: send: return -ENAMETOOLONG when attempting a path that is too long
-d528f32595793f5078610fb2def1ca28afa4f39d btrfs: send: simplify return logic from __get_cur_name_and_parent()
-872fb7fc3c5cd9d91898ca376fda9feb7f8a398b btrfs: send: simplify return logic from is_inode_existent()
-b21be6b272c667eeea223becb176702888307661 btrfs: send: simplify return logic from get_cur_inode_state()
-16b999eae40a98b388229814eec66fc16de25015 btrfs: send: factor out common logic when sending xattrs
-fa3232839ae40ce516e00a589f07026168a8325f btrfs: send: only use boolean variables at process_recorded_refs()
-4952b02244640a44f679a22e20ec12e6ca72b518 btrfs: send: add and use helper to rename current inode when processing refs
-50e362cb06e6a716dee0f152a2c67b19b6f461cf btrfs: send: simplify return logic from send_remove_xattr()
-d57e2d9be751de4e60b327b12834cafbf9f48b32 btrfs: send: simplify return logic from record_new_ref_if_needed()
-db2dff21bc885677ba489817b1d83efa7279fc8b btrfs: send: simplify return logic from record_deleted_ref_if_needed()
-2a040ee1e3cc632b18ffcb7c970d2e45d5a98e57 btrfs: send: simplify return logic from record_new_ref()
-8099ee8554d6add4bbd7bdea20bc1b5e9e50ff97 btrfs: send: simplify return logic from record_deleted_ref()
-96b2bd531ed8a423a9db28f5f3a8e75e80cd7b8b btrfs: send: simplify return logic from record_changed_ref()
-79923d5930f621a2528e9022f647d6b1edf56fa8 btrfs: send: remove unnecessary return variable from process_new_xattr()
-344ab818ba0a6bc0d2d646fdd24e9b3cbe8c6250 btrfs: send: simplify return logic from process_changed_xattr()
-63481db39a4a207e8ad8082b2b7ddeebe1bced51 btrfs: send: simplify return logic from send_verity()
-3fc27056b244754254406eb4c2d34797149073b9 btrfs: send: simplify return logic from send_rename()
-7598aaa7ff0428c15cb80e0dd6fcdd435eeef9dc btrfs: send: simplify return logic from send_link()
-f17d1c0615bc443b0ef7c460f22ef0f5ccd6341e btrfs: send: simplify return logic from send_unlink()
-27af5b5adfd259e65b9cbdb4812d4ceb328fd832 btrfs: send: simplify return logic from send_rmdir()
-8acf530e1085fe57e426a918dfbd7d4ba2baf4d3 btrfs: send: keep the current inode's path cached
-54f563cd4090a0592367d5a469dbd0d4a8bce5dd btrfs: send: avoid path allocation for the current inode when issuing commands
-6dcacb89f05b1f174698c9b7648918115101820e btrfs: send: simplify return logic from send_set_xattr()
-214d82a58164d3519e1006d4ea28304811fd555d btrfs: zoned: fix extent range end unlock in cow_file_range()
-83ecb90a7109cc82da841d1c9c513d22d5229a4b btrfs: replace deprecated strncpy() with strscpy()
-df1cb7e498d372da0aa52c072aedd1329bce95ac btrfs: === misc-next on b-for-next ===
-b2491fbeb19219f6322b098140dd487440176857 btrfs: scrub: fix incorrectly reported logical/physical address
-5e37848a03fad80be6ff13004b955152c96a1c53 btrfs: reduce the log level for btrfs_dev_stat_inc_and_print()
-6f06ff82387d7625ff59515a472ceebcde59a9b5 btrfs: scrub: remove unused is_super parameter from scrub_print_common_warning()
-8b50a3c68dc25d2a05921464ee5c10bbd68f26b5 btrfs: scrub: remove unnecessary dev/physical lookup for scrub_stripe_report_errors()
-2ece96f4673f2a7eb0ce9ecb161e0fe4bdf63886 btrfs: scrub: simplify the inode iteration output
-dc5d089280638c34c4b7c9b0e16b16a00efec67b btrfs: scrub: ensure we output at least one error message for unrepaired corruption
-974bd002b3016feee58dd630f419884883b17342 btrfs: scrub: use generic ratelimit helpers to output error messages
-180b5d61aa0cf13fb0877aeb8521585c01bcce76 btrfs: fix inline data extent reads which zero out the remaining part
-dbc1e6e03d8bd33fe1236cd0e82edbf0a375bf5b btrfs: fix the qgroup data free range for inline data extents
-c12145d43d0d04ad7974fd727940955e6452f73a btrfs: allow inline data extents creation if sector size < page size
-839b67441bb88266819cbd0aeb951a6e3063f6a8 btrfs: remove the subpage related warning message
-ef78236e369cde467625e47633e7e530455036c4 btrfs: introduce a read path dedicated extent lock helper
-2735f07fbf0699ab0e3eb70787d12644cc9754cb btrfs: make btrfs_do_readpage() to do block-by-block read
-713765305332692367acc9b7c09391922e4d02fc btrfs: allow buffered write to avoid full page read if it's block aligned
-1fd662b3285b3f149915f6370a7454a7c3046d86 btrfs: prepare subpage.c for larger folios support
-fd64cf47c97d95dba7d7b6a3cc113221d218f58c btrfs: remove the PAGE_SIZE usage inside inline extent reads
-1850dd8ffae2083f70714576723c2c1f92bfde31 btrfs: prepare btrfs_launcher_folio() for larger folios support
-11c9e7e914f1b4552c4a34188d622c41e38be747 btrfs: prepare extent_io.c for future larger folio support
-52c4778b4721de165d9b5d069eeba35e322c4370 btrfs: prepare btrfs_page_mkwrite() for larger folios
-2be165e35805384877a907cd2e357a16e2c7a4d7 btrfs: get zone unusable bytes while holding lock at btrfs_reclaim_bgs_work()
-4ac9b34d9c08382f206b2c629b6e48ef0ac6d8b8 btrfs: get used bytes while holding lock at btrfs_reclaim_bgs_work()
-2fd4a6e43e751947f7aa77c2a63867624022da68 btrfs: fix reclaimed bytes accounting after automatic block group reclaim
-14256368e11a9428c91487d750570d02d7965ab8 btrfs: add mapping_set_release_always to inode's mapping
-40524fd05deb86d970335504468c3f431bc8c82c btrfs: kill EXTENT_FOLIO_PRIVATE
-8e3c3c674d43a85a3103a5e1ec3c1f88f0cc45e3 Merge branch 'misc-6.14' into for-next-current-v6.13-20250226
-299626089a4011483db9660cef9e0113eb035312 Merge branch 'misc-6.14' into for-next-next-v6.14-20250226
-1ff5586d390a96f6dddf55430c9be5523b7de195 Merge branch 'misc-next' into for-next-next-v6.14-20250226
-81d28a29c841a15d9a50ccaa51428d844dfc3df4 Merge branch 'for-next-current-v6.13-20250226' into for-next-20250226
-931e9bd7d513176bf1ae9f23fb9b32d50d36ec7c Merge branch 'for-next-next-v6.14-20250226' into for-next-20250226
+33cec19dc022369e02f860150e5dfe32708016dc samples/vfs: fix printf format string for size_t
+9805121341630b12685146da02ca9222ebb5a060 fs: namespace: fix uninitialized variable use
+d9dc477ff6a25c3812be2b24d81add8e6561c6ed iomap: advance the iter directly on buffered read
+8fecec46d10bafbce5d511c764ae2c2061b9adda iomap: advance the iter on direct I/O
+f145377da150b9606f3d51d66b03eca86514ea27 iomap: convert misc simple ops to incremental advance
+e1e6bae60732d1aea4f583a23794306a952bb76d dax: advance the iomap_iter in the read/write path
+e1dae77b50e31bf89236937c35eb891a2974cfae dax: push advance down into dax_iomap_iter() for read and write
+80fce30584076affbf7d84917f57968e2b812dde dax: advance the iomap_iter on zero range
+9ba439cbdcf2b14548a451d4f4e2bd274b1af490 dax: advance the iomap_iter on unshare range
+39eb05112987e15cbee1ada91e2dccb845675c30 dax: advance the iomap_iter on dedupe range
+6fe32fe1bbc1dce43daf3569dd8a84e11446257f dax: advance the iomap_iter on pte and pmd faults
+469739f1d8c55dc39939bdb4b558cf875be0ff4e iomap: remove unnecessary advance from iomap_iter()
+edd3e3b7d210747dec723edd2b6cb49d140c1256 iomap: rename iomap_iter processed field to status
+d79c9cc512973ef6583c3bfc0b343f9d312d85b3 iomap: introduce a full map advance helper
+53cfafdd1530f86c2ef8ecbbcb9aeae4da115cb2 Merge patch series "iomap: incremental advance conversion -- phase 2"
+3ff6c8707c9a0116d00982851ec1216a42053ace nfs/vfs: discard d_exact_alias()
+4cf006b739958942ee8b59b22c057681c65a9be6 nfsd: drop fh_update() from S_IFDIR branch of nfsd_create_locked()
+9d778c0b90f4bea90336f330ab770922c1be4078 Merge patch series "prep patches for my mkdir series"
+739a06a93285603fe5b002d5283d1b6c79dea9a3 Merge branch 'vfs.fixes' into vfs.all
+656c5d8a00ecd06ec9d98ba876cab8b1fc7742fe Merge branch 'vfs-6.15.misc' into vfs.all
+4c38fdc3686f70dea834517548a693b43d95ad17 Merge branch 'vfs-6.15.mount' into vfs.all
+8eda5ca5d23100b279b95ed6a8cd91ec6f34c200 Merge branch 'vfs-6.15.pidfs' into vfs.all
+ed5e19d4f53d6269f0d978e89f3701f207a8eb63 Merge branch 'vfs-6.15.pipe' into vfs.all
+36b085babd4874e400c966084ad1a4c3b1cce835 Merge branch 'kernel-6.15.tasklist_lock' into vfs.all
+f872e69bbd3313883b83a91041661b58ad7b8697 Merge branch 'vfs-6.15.mount.api' into vfs.all
+21114be71f0475d11da4f5ed47176a3f24dd9c3e Merge branch 'vfs-6.15.iomap' into vfs.all
+9f3f89063fc881e2028c6e0de439add323dab391 Merge branch 'vfs-6.15.async.dir' into vfs.all
+24bd1583f111c2fe52e3a5128cfafc1b99932678 Merge branch 'vfs-6.15.overlayfs' into vfs.all
+dc4aff2b9d51912ffb74d27f165fc5857a159dd1 Merge branch 'vfs-6.15.nsfs' into vfs.all
+f7f274d74d4920e3754b9cc52aa0824029b8440e Merge branch 'vfs-6.15.eventpoll' into vfs.all
+7b849a519fe3b49faa04fbdc170d4a27b6feeff1 Merge branch 'vfs-6.15.sysv' into vfs.all
+52f365ccb604f03114ba62f3f1fe2b60b890b32e Merge branch 'vfs-6.15.pagesize' into vfs.all
+e38e5e7eebeba53d78b49d293bfb9431655ebe83 mount: handle mount propagation for detached mount trees
+b44cc211d07c5fa99d8fa7aa0ed0241849bdbd07 selftests: add test for detached mount tree propagation
+7456aa4822a56fbf415cc3bbdfdfce0f15decf09 selftests: test subdirectory mounting
+3c21bee07b53371dd9b9d61b09c4abcf0572f5b0 Merge patch series "mount: handle mount propagation for detached mount trees"
+f56e1a3fb6adc3ac44bdbafb5a776ac4304c70da Merge branch 'vfs-6.15.mount.namespace' into vfs.all
 
---===============5309317314844681401==--
+--===============7843013481732505218==--
