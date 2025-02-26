@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 26 Feb 2025 03:08:55 -0000
-Message-Id: <174053933561.3149624.5299389960476100374@gitolite.kernel.org>
+Date: Wed, 26 Feb 2025 03:10:20 -0000
+Message-Id: <174053942067.3152276.14077183616078845621@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,12 +12,12 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: bab3a6e9ffd600f9db0ebaf8f45e1c6111cf314c
-    new: 5568e4ca9aedf0aa2a84c6c8c74c240db09aa89d
+    old: 5568e4ca9aedf0aa2a84c6c8c74c240db09aa89d
+    new: 85c7ca916fc416c5bbc7b98b256d4b444413e6f7
     log: |
-         18912c520674ec4d920fe3826e7e4fefeecdf5ae tcp: devmem: don't write truncated dmabuf CMSGs to userspace
-         f865c24bc55158313d5779fc81116023a6940ca3 mptcp: always handle address removal under msk socket lock
-         8668860b0ad32a13fcd6c94a0995b7aa7638c9ef mptcp: reset when MPTCP opts are dropped after join
-         db75a16813aabae3b78c06b1b99f5e314c1f55d3 mptcp: safety check before fallback
-         5568e4ca9aedf0aa2a84c6c8c74c240db09aa89d Merge branch 'mptcp-misc-fixes'
+         79990cf5e7aded76d0c092c9f5ed31eb1c75e02c ice: Fix deinitializing VF in error path
+         5c07be96d8b3f8447e980f29b967bf2e1d7ac732 ice: Avoid setting default Rx VSI twice in switchdev setup
+         c6124f6fd3ca37d53ec5cbf62f9d9130ef439eca iavf: fix circular lock dependency with netdev_lock
+         b1e44b4aecb551727a368df5b85c535f2ce932ea ixgbe: fix media cage present detection for E610 device
+         85c7ca916fc416c5bbc7b98b256d4b444413e6f7 Merge branch 'intel-wired-lan-driver-updates-2025-02-24-ice-idpf-iavf-ixgbe'
          
