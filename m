@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5070864201210547580=="
+Content-Type: multipart/mixed; boundary="===============7617663973886003776=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 26 Feb 2025 16:39:53 -0000
-Message-Id: <174058799308.3825500.7385031255792533225@gitolite.kernel.org>
+Date: Wed, 26 Feb 2025 16:40:14 -0000
+Message-Id: <174058801461.3827305.12693782991504626025@gitolite.kernel.org>
 
---===============5070864201210547580==
+--===============7617663973886003776==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/200GbE
-    old: bc50682128bde778a1ddc457a02d92a637c20c6f
+  - ref: refs/heads/100GbE
+    old: 868b96f6e310f318d5ffbf12c0ef13164a5df070
     new: 8d52da23b6c68a0f6bad83959ebb61a2cf623c4e
-    log: revlist-bc50682128bd-8d52da23b6c6.txt
+    log: revlist-868b96f6e310-8d52da23b6c6.txt
 
---===============5070864201210547580==
+--===============7617663973886003776==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bc50682128bd-8d52da23b6c6.txt
+Content-Disposition: attachment; filename=revlist-868b96f6e310-8d52da23b6c6.txt
 
+db10fde5c4f96231e1d2bbfd01feb5f2f59b96d1 net: ethtool: fix ioctl confusing drivers about desired HDS user config
+29b036be1b0bfcfc958380d5931325997fddf08a selftests: drv-net: test XDP, HDS auto and the ioctl path
+de2c211868b9424f9aa9b3432c4430825bafb41b ipvs: Always clear ipvs_property flag in skb_scrub_packet()
+bc50682128bde778a1ddc457a02d92a637c20c6f MAINTAINERS: socket timestamping: add Jason Xing as reviewer
 bab3a6e9ffd600f9db0ebaf8f45e1c6111cf314c net: ethernet: ti: am65-cpsw: select PAGE_POOL
 18912c520674ec4d920fe3826e7e4fefeecdf5ae tcp: devmem: don't write truncated dmabuf CMSGs to userspace
 f865c24bc55158313d5779fc81116023a6940ca3 mptcp: always handle address removal under msk socket lock
@@ -48,4 +52,4 @@ bbcbc906ab7b5834c1219cd17a38d78dba904aa0 net: enetc: update UDP checksum when up
 310a110cb69b8f077f79d71193f638247c5a3730 Merge branch 'net-enetc-fix-some-known-issues'
 8d52da23b6c68a0f6bad83959ebb61a2cf623c4e tcp: Defer ts_recent changes until req is owned
 
---===============5070864201210547580==--
+--===============7617663973886003776==--
