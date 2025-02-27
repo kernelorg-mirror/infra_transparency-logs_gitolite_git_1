@@ -1,53 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============4410256064361125948=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Thu, 27 Feb 2025 12:18:47 -0000
-Message-Id: <174065872789.664701.18246696539228722975@gitolite.kernel.org>
-
---===============4410256064361125948==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
+Date: Thu, 27 Feb 2025 12:19:02 -0000
+Message-Id: <174065874269.665093.11299258101967358050@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/melver/linux
+user: melver
 changes:
-  - ref: refs/tags/v6.6.80
-    old: 0000000000000000000000000000000000000000
-    new: 9e2c11e6b9305f204c0f8248eaa17fcaf45af28b
-
---===============4410256064361125948==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1740658688 -0800
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1740658726-c820043773f8f838b56ccce500d0063c2d66b4f7
-
-0000000000000000000000000000000000000000 9e2c11e6b9305f204c0f8248eaa17fcaf45af28b refs/tags/v6.6.80
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfAWAAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2FIP/AwUS0mizAMGaDOOWEWT
-Y3eVjXP1k22ADZHrQIUrw1PZwkubAw+J+VMIEU2ZyK5eEP3gS3SqdNos+XeWk+hB
-IPryuXKn5esCUdP/Ja2myOlCUEOflvLa9ev/DKqZlod4QcQHBUOfeuLssrhkGKWo
-gHUING8bjkx2h5NsOaPBCmRJGJyiR5JwyT52XtLmzEFP7NfdPJSzWhSAo1yZ0bAR
-O0drOtmctWI5E9Tvk4BRjJAe1HQfaXr7eKAngzZLl6LoH3PDMIYNxMEVKEZWlKXS
-8OpPS+jBp1yn3nJseusO/k2Kwqc+ZC/LtKD4mQjCqyzHgYeJZkJKmWg72te3AvuV
-bcpVvcJYQwHGRF9G7Yh5naaEIXW7AkeF8nIh6O/GuuVDq0Td55+muk5qD/hEMTfQ
-Sk4R5+hxKVSKeov+yqvyPED/biGkK6qW+w+UZqs2TopfzyScSPQhwysGpKJK+2B2
-G6UCynl3o8fB4jM8YyiRpvxRf8KnY5iBtEngG0I2KgExta0vS1EDqm4lmi1m/cM+
-D4fmp6Y4gbZBYkTnnew7xJHJcbkO73DvUe4Wh1LjMwZ43uqrkHctsCI1zo8OclPB
-webL6tvlo/NVsMv2Gq50nhC9b89RdThBRudG1U8CszpA2Hie3tNac8wuB74noYbr
-c7RD96tVWde8USH7X+MF9Uqj
-=vK19
------END PGP SIGNATURE-----
-
---===============4410256064361125948==--
+  - ref: refs/heads/cap-analysis/dev
+    old: 3e3ad06fcafab46096eae2a071571d9ffadee0e4
+    new: 43d5819b543a38c2d8f599dfbed91b9d9b6302cf
+    log: |
+         df3b26d489a215c5fcad2ba134a9adbabc993838 compiler-capability-analysis: Introduce header suppressions
+         0dfc04b40460e577e757e270bb222fdb7612a220 compiler: Let data_race() imply disabled capability analysis
+         ba891e785c2f4b481afb5c444a3fc995f68a4eec kfence: Enable capability analysis
+         b058f4109423a7eb6d66e1c731c2ec42604ce806 kcov: Enable capability analysis
+         37120f730938ec3fde22b5b11149bb2293b4c964 stackdepot: Enable capability analysis
+         19529959593709af062c9a9e5a354e606867b247 rhashtable: Enable capability analysis
+         7bd3bd8f3d868cbeaead3994a05fb27fe447b50c printk: Move locking annotation to printk.c
+         0a01c624887194191a73fdfe1e897f03fbff1f52 drivers/tty: Enable capability analysis for core files
+         3959d2c4017e86f0a640e6bacc138022ee1418b3 security/tomoyo: Enable capability analysis
+         c9ff79725e413510a0b897aebc5eaf3c8d6c0904 crypto: Enable capability analysis
+         43d5819b543a38c2d8f599dfbed91b9d9b6302cf MAINTAINERS: Add entry for Capability Analysis
+         
