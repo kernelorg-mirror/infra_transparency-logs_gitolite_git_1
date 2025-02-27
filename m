@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Thu, 27 Feb 2025 21:10:34 -0000
-Message-Id: <174069063421.1273580.5459089591881951776@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
+Date: Thu, 27 Feb 2025 21:11:30 -0000
+Message-Id: <174069069022.1274123.17622138820721594314@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
+user: jejb
 changes:
-  - ref: refs/heads/main-pending
-    old: ca9162722aa99bb1bbb871aa2f4d36e1cc613df3
-    new: cfc287ccf5218abb54769906e12eb18065f9b85c
+  - ref: refs/heads/next
+    old: 84a25d89522de1efc234e195a18514e253feb061
+    new: 1649151f3cf7bde683ea8d771be92e94038d5c4d
     log: |
-         ae2842d5c1f380ddbb5a92bdbcf12e8ec7247d9f wifi: ath12k: Report proper tx completion status to mac80211
-         cfc287ccf5218abb54769906e12eb18065f9b85c Merge branch 'pending' into main-pending
+         31eabd998b0820f04581cfcd1b8be87a02b364af Fix TLS certificate generation with TPM key
+         1649151f3cf7bde683ea8d771be92e94038d5c4d Fix problem with openvpn and the tpm2 provider
          
-  - ref: refs/tags/ath-pending-202502272056
-    old: 0000000000000000000000000000000000000000
-    new: cfc287ccf5218abb54769906e12eb18065f9b85c
