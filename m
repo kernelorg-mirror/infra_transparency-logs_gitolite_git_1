@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 27 Feb 2025 18:31:22 -0000
-Message-Id: <174068108277.1131332.2129533802005988254@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 27 Feb 2025 18:33:27 -0000
+Message-Id: <174068120702.1132471.12660514165485685629@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: martin.lau
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/master
-    old: e4d68c0a36c9f983755cfc4849fd9844dde37f5b
-    new: 0b9363131daf4227d5ae11ee677acdcfff06e938
+  - ref: refs/heads/x86/asm
+    old: 79165720f31868d9a9f7e5a50a09d5fe510d1822
+    new: b6762467a09ba8838c499e4f36561e82fc608ed1
     log: |
-         0b9363131daf4227d5ae11ee677acdcfff06e938 bpf/selftests: test_select_reuseport_kern: Remove unused header
+         b6762467a09ba8838c499e4f36561e82fc608ed1 x86/percpu: Disable named address spaces for UBSAN_BOOL with KASAN for GCC < 14.2
          
