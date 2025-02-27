@@ -1,65 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============4701600331804978642=="
+Content-Type: multipart/mixed; boundary="===============7268693485375081755=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 27 Feb 2025 17:43:42 -0000
-Message-Id: <174067822210.1090144.5174754690959789272@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
+Date: Thu, 27 Feb 2025 17:45:35 -0000
+Message-Id: <174067833583.1093355.11448098742463669943@gitolite.kernel.org>
 
---===============4701600331804978642==
+--===============7268693485375081755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/lee/mfd
+user: lee
 changes:
-  - ref: refs/heads/for-next
-    old: d806176814b42a0f3f0418d766bcf43039d93168
-    new: b70c222ea9d66d51fc1f038f82e41ea17b38499f
-    log: revlist-d806176814b4-b70c222ea9d6.txt
+  - ref: refs/heads/for-mfd-next
+    old: bd315242821784e9384abae911a70d5fda9a3298
+    new: 6a8f122c5f073c8610c32636663f2512514b1270
+    log: revlist-bd3152428217-6a8f122c5f07.txt
 
---===============4701600331804978642==
+--===============7268693485375081755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d806176814b4-b70c222ea9d6.txt
+Content-Disposition: attachment; filename=revlist-bd3152428217-6a8f122c5f07.txt
 
-239860828f8660e2be487e2fbdae2640cce3fd67 bpf: arm64: Silence "UBSAN: negation-overflow" warning
-11ba7ce076e5903e7bdc1fd1498979c331b3c286 bpf: Fix kmemleak warning for percpu hashmap
-236d3910117e9f97ebf75e511d8bcc950f1a4e5f libbpf: Fix out-of-bound read
-1ffe30efd2f2e58c36b754c42c2b61906078a4cf kbuild, bpf: Correct pahole version that supports distilled base btf feature
-f3c2d243a36ef23be07bc2bce7c6a5cb6e07d9e3 bpf: abort verification if env->cur_state->loop_entry != NULL
-d519594ee2445d7cd1ad51f4db4cee58f8213400 bpf: Search and add kfuncs in struct_ops prologue and epilogue
-4e4136c6446753e6da4424a734f84de82c70600f selftests/bpf: Test gen_pro/epilogue that generate kfuncs
-c221d3744ad38a9655aba8235e1d783c6d4aed5a bpf: add get_netns_cookie helper to cgroup_skb programs
-9138048bb5899fc73cd951e8b7374351e37394d8 selftests/bpf: add cgroup_skb netns cookie tests
-b123480eec64dd879785c28f2a2d582d111cfb59 docs/bpf: Document some special sdiv/smod operations
-4580f4e0ebdf8dc8d506ae926b88510395a0c1d1 bpf: Fix deadlock between rcu_tasks_trace and event_mutex.
-b62dff14402a80962fd83a40f73f230fff78b18f libbpf: Implement bpf_usdt_arg_size BPF function
-0ba0ef012eba63652a50b318a7a3136963c37f74 selftests/bpf: Test bpf_usdt_arg_size() function
-e3c9abd0d14bce7852dd11ee65d868369d7cc664 selftests/bpf: Implement setting global variables in veristat
-3d1033caf0562a6d425b9841c27e56c592330deb selftests/bpf: Introduce veristat test
-fc3ab171f9a2e9e8aec405e0e0b5d88abd29c01a Merge branch 'selftests-bpf-implement-setting-global-variables-in-veristat'
-bacac2175c13a9482666f49d8af8a65174c82809 bpf/helpers: Refactor bpf_dynptr_read and bpf_dynptr_write
-9d15404d055b345b161593958de459d998315261 bpf/helpers: Introduce bpf_dynptr_copy kfunc
-8fc1834cbde0fdc127defaa62f3498d8e35f5fb8 selftests/bpf: Add tests for bpf_dynptr_copy
-43d9d4332011205a0afb4adc7dc460b6f57329ad Merge branch 'introduce-bpf_dynptr_copy-kfunc'
-27e3162a036406ee9b81eae86c43b2fec1067a39 selftests/bpf: Allow auto port binding for cgroup connect
-dbe7d46ed10937d15df682520d7a6adeedc3a15b selftests/bpf: Allow auto port binding for bpf nf
-09de329523c8b353dfeceb44a09740b40197ea89 selftests/bpf: Fixes for test_maps test
-0ffa0161b8805e9bc47d00d5350fd46d88200fbc Merge branch 'optimize-bpf-selftest-to-increase-ci-success-rate'
-78a8a8556040e9abde95fbd06dec83dd0ef2b2df bpf: Allow pre-ordering for bpf cgroup progs
-42c5e6d2accf31bba4cd31f8a742d5b9e19a7d28 selftests/bpf: Add selftests allowing cgroup prog pre-ordering
-0aaddfb06882504dded9cde57f91035ab9403b82 locking/local_lock: Introduce localtry_lock_t
-97769a53f117e2f33864c587d85992ee35194ecf mm, bpf: Introduce try_alloc_pages() for opportunistic page allocation
-8c57b687e8331eb80e302a2c528b18b966a9ac7a mm, bpf: Introduce free_pages_nolock()
-01d37228d331047a0bbbd1026cec2ccabef6d88d memcg: Use trylock to access memcg stock_lock.
-e8d78dbd0199a42f4e8599d768e77348f3e59741 mm, bpf: Use memcg in try_alloc_pages().
-c9eb8102e21e8c4c6fb74d1921d99e4d43713520 bpf: Use try_alloc_pages() to allocate pages for bpf needs.
-93ed6fc268c4cc3f1c2b3718d2beb0aa6d04ddc4 Merge branch 'bpf-mm-introduce-try_alloc_pages'
-e4d68c0a36c9f983755cfc4849fd9844dde37f5b Merge branch 'bpf-next/try_alloc_pages' into bpf-next/master
-b70c222ea9d66d51fc1f038f82e41ea17b38499f Merge branch 'bpf-next/master' into for-next
+6c4734a78370726ef9210f9357667d575e6d94fe dt-bindings: mfd: stm32-timers: Add support for stm32mp25
+eb9f29107edae0d6b504f99a3a34d39746d6a3fe mfd: stm32-timers: Add support for stm32mp25
+be4d94560969479f8592702ce021360bc88fcebb mfd: ipaq-micro/tps65010: Use str_enable_disable-like helpers
+637c7849de49fe1fb053e6e60b1f22311dffaf65 mfd: sm501: Switch to BIT() to mitigate integer overflows
+0d122508644016aa0edbde9f72fbfe59a4db7168 mfd: intel_soc_pmic_chtdc_ti: Drop unneeded assignment for cache_type
+8851ba13fc4f7db6dbb2e39192556a728205a233 mfd: intel_soc_pmic_crc: Drop unneeded assignment for cache_type
+e71467350e72f8097f1299a4fce523f4fa45bba4 mfd: at91-usart: Make it selectable for ARCH_LAN969X
+6301abe33b6233ba24ab802a82c8fa62499fbb32 mfd: upboard-fpga: Remove ACPI_PTR() annotation
+7f3cec12d0602a44016ebb57571b9a7181f5b46c dt-bindings: mfd: Convert fsl,mcu-mpc8349emitx binding to YAML
+249d02d563d9243ca48ee95ab171c912f660aa91 dt-bindings: regulator: Add TI TPS65215 PMIC bindings
+e4342b792ad24e0791beb0e5c7d593773865fb55 dt-bindings: regulator: Add TI TPS65214 PMIC bindings
+9b417b80528c4c359306cb065c7ad087739798e7 mfd: tps65219: Remove TPS65219_REG_TI_DEV_ID check
+d943cb6f087756529f7857444de0dbdb0ab8a895 mfd: tps65219: Add support for TI TPS65215 PMIC
+a3000682e1b3b65ff285aab6b0242b68ff0acac6 mfd: tps65219: Add support for TI TPS65214 PMIC
+5966c0505e8dc3abb5480fa0d64f8f36e70652db dt-bindings: mfd: samsung,s2mps11: Add compatible for s2mpu05-pmic
+2cfca11ba4138ce3f8ded6c832dca5f0724e8764 mfd: max8997: Remove unused function max8997_irq_exit()
+56641726122ec1811403a213df0b0c0ff2a77d2b mfd: lp3943: Drop #include <linux/pwm.h> from header
+b87fc7403345cbec938997e3c2e2365c971ed5e5 mfd: syscon: Add check for invalid resource size
+6a8f122c5f073c8610c32636663f2512514b1270 dt-bindings: mfd: qcom,tcsr: Add compatible for MSM8937
 
---===============4701600331804978642==--
+--===============7268693485375081755==--
