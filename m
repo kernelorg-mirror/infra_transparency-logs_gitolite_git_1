@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4534699471318038110=="
+Content-Type: multipart/mixed; boundary="===============5294084654320087450=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 27 Feb 2025 17:11:22 -0000
-Message-Id: <174067628292.1062306.11950771226538501501@gitolite.kernel.org>
+Date: Thu, 27 Feb 2025 17:11:25 -0000
+Message-Id: <174067628518.1062449.1501466527037688129@gitolite.kernel.org>
 
---===============4534699471318038110==
+--===============5294084654320087450==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: 91c8d8e4b7a38dc099b26e14b22f814ca4e75089
     new: 7fe0353606d77a32c4c7f2814833dd1c043ebdd2
     log: revlist-91c8d8e4b7a3-7fe0353606d7.txt
 
---===============4534699471318038110==
+--===============5294084654320087450==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -53,4 +53,4 @@ b696d289c07d8480a7d4752e448f4ee2bee9e443 xdp: remove xdp_alloc_skb_bulk()
 a0a9d4d2b7f3f5ea84853e658c8c396334654ce7 Merge branch 'bpf-cpumap-enable-gro-for-xdp_pass-frames'
 7fe0353606d77a32c4c7f2814833dd1c043ebdd2 net: ethernet: mtk_ppe_offload: Allow QinQ, double ETH_P_8021Q only
 
---===============4534699471318038110==--
+--===============5294084654320087450==--
