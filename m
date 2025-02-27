@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5667318834153387800=="
+Content-Type: multipart/mixed; boundary="===============6839208011171690834=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 27 Feb 2025 18:21:54 -0000
-Message-Id: <174068051424.1122904.12939601220282377647@gitolite.kernel.org>
+Date: Thu, 27 Feb 2025 18:22:32 -0000
+Message-Id: <174068055290.1123374.8549793803479911711@gitolite.kernel.org>
 
---===============5667318834153387800==
+--===============6839208011171690834==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,49 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 2889df55bcf4f6944294b1bd174a5e9952200afe
-    new: 6ad970fcd85c4b9e4abc5634827cb07ee73247ec
-    log: revlist-2889df55bcf4-6ad970fcd85c.txt
+    old: 6ad970fcd85c4b9e4abc5634827cb07ee73247ec
+    new: 088c4aa4682109daebc9c8055d76929d67bf5bb8
+    log: revlist-6ad970fcd85c-088c4aa46821.txt
+  - ref: refs/heads/tip/urgent
+    old: 2773e9d441de680bbc1b88aa1919a96fe352806d
+    new: a16e2a263ee3042603c4b38eeb826b9c893265df
+    log: revlist-2773e9d441de-a16e2a263ee3.txt
 
---===============5667318834153387800==
+--===============6839208011171690834==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2889df55bcf4-6ad970fcd85c.txt
+Content-Disposition: attachment; filename=revlist-6ad970fcd85c-088c4aa46821.txt
+
+1c500dea3d4562b0c423345fbab9afc6248587f5 Merge branch into tip/master: 'locking/urgent'
+349dfd30e55dc77c219e2791e533c3171e7f4dd3 Merge branch into tip/master: 'perf/urgent'
+a16e2a263ee3042603c4b38eeb826b9c893265df Merge branch into tip/master: 'x86/urgent'
+e4937293d994e2c1eca76c78730a1c0f34318a84 Merge branch into tip/master: 'irq/drivers'
+80cd30dd43e62967c263363a84bcfe22bcf512be Merge branch into tip/master: 'locking/core'
+e04abc0677e6c4a9d1ec05543f460fe82eedc5f0 Merge branch into tip/master: 'locking/futex'
+c8c4dbb845a597030d2a0e3fa69aec0af5657fe3 Merge branch into tip/master: 'perf/core'
+2b361b67841f2e05ec1e3a749b5c90921517cdcb Merge branch into tip/master: 'ras/core'
+13062dccdf4a9f3a1c60112281d3515335037a5c Merge branch into tip/master: 'sched/core'
+194223ca11dca43709e91f4decf397fc5a668eff Merge branch into tip/master: 'timers/cleanups'
+0cc7f7bbc3786d4e719b94f283224f75e2128ce4 Merge branch into tip/master: 'timers/core'
+5f5cf13782d6c2c369e71dee564cae6f4a2e23fa Merge branch into tip/master: 'timers/vdso'
+f51dd938e20921542d65f2df38aa497c1ab66cb2 Merge branch into tip/master: 'x86/asm'
+025a2c254d9144ee1c849cc284eb13165b1e9eb1 Merge branch into tip/master: 'x86/boot'
+d9e6d7a0730fcad45ab84bb99280aa855973410e Merge branch into tip/master: 'x86/bugs'
+6a04cbde7052bd9bab7d31e2d455c809c81b56f1 Merge branch into tip/master: 'x86/build'
+79254f2c22fc765d932dff4b665ea612c202bb45 Merge branch into tip/master: 'x86/cleanups'
+c400bb21226a70c53c1e78d9be376a72ab3f9a33 Merge branch into tip/master: 'x86/core'
+e3a4c3e1de7fef425e87c3c48f26add8376b5b55 Merge branch into tip/master: 'x86/cpu'
+e0aac8615ae912f27eb04b3c8c618d5ba77a3e51 Merge branch into tip/master: 'x86/fpu'
+43099bc39d67b621f2569c6f94df4dc398837ff2 Merge branch into tip/master: 'x86/microcode'
+94208c46033b9850e409947e5791d7a651973786 Merge branch into tip/master: 'x86/misc'
+088c4aa4682109daebc9c8055d76929d67bf5bb8 Merge branch into tip/master: 'x86/platform'
+
+--===============6839208011171690834==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-2773e9d441de-a16e2a263ee3.txt
 
 579cd64b9df8a60284ec3422be919c362de40e41 ASoC: tas2770: Fix volume scale
 a3bdd8f5c2217e1cb35db02c2eed36ea20fb50f5 ALSA: usb-audio: Avoid dropping MIDI events at closing multiple ports
@@ -105,6 +139,8 @@ c907db8d447b48454a2026740d2636370641053f Merge branch 'fixes-for-seg6-and-rpl-lw
 54e1b4becf5e220be03db4e1be773c1310e8cbbd net: ti: icss-iep: Reject perout generation request
 f09d694cf799d27d6de25f04f3fd5ba9190631e1 Merge tag 'sound-6.14-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 1e15510b71c99c6e49134d756df91069f7d18141 Merge tag 'net-6.14-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-6ad970fcd85c4b9e4abc5634827cb07ee73247ec Merge branch 'linus'
+1c500dea3d4562b0c423345fbab9afc6248587f5 Merge branch into tip/master: 'locking/urgent'
+349dfd30e55dc77c219e2791e533c3171e7f4dd3 Merge branch into tip/master: 'perf/urgent'
+a16e2a263ee3042603c4b38eeb826b9c893265df Merge branch into tip/master: 'x86/urgent'
 
---===============5667318834153387800==--
+--===============6839208011171690834==--
