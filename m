@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sysctl/sysctl
-Date: Thu, 27 Feb 2025 09:07:52 -0000
-Message-Id: <174064727299.455844.10938081545610863940@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 27 Feb 2025 09:13:42 -0000
+Message-Id: <174064762230.460322.16272471565438303268@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sysctl/sysctl
-user: joel.granados
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/sysctl-next
-    old: ae9ebda1bc32b865b895d5331a00f24f8fd324e6
-    new: 29fa7d7934216e0a93102a930ef28e2a6ae852b1
+  - ref: refs/heads/x86/boot
+    old: 7d8f03f7dd9f7d108b8d5af12fdc57e10555981f
+    new: adf6819278ba34be1d29ffcdca5c2ccd2123f667
     log: |
-         29fa7d7934216e0a93102a930ef28e2a6ae852b1 selftests/sysctl: fix wording of help messages
+         adf6819278ba34be1d29ffcdca5c2ccd2123f667 x86/bootflag: Micro-optimize sbf_write()
          
