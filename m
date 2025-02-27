@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
-Date: Thu, 27 Feb 2025 11:07:49 -0000
-Message-Id: <174065446943.557827.8688464403274467993@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Thu, 27 Feb 2025 11:13:03 -0000
+Message-Id: <174065478375.562127.17753486291954149432@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/linux
-user: xiang
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/erofs/48bits
-    old: 10f4515e043106938ffbc34358cca1876846970c
-    new: 2e6aed13b94be3aef1e7c95f53ea74ec8da6aeec
+  - ref: refs/heads/for-next/juno/updates
+    old: b560cc076abe5268408ba1a0a671439a665c4720
+    new: 6ceb0dd64727c9606fa8371c4fe23fea7b20b26d
     log: |
-         2e6aed13b94be3aef1e7c95f53ea74ec8da6aeec erofs: support dot-omitted directories
+         8fc53e26fdd8c6ad315d814ad079e0c37ff2c4af arm64: dts: morello: Add support for common functionalities
+         7f6838da3c673a15cee118d083810adaed09d400 arm64: dts: morello: Add support for soc dts
+         34f3b3745ce5850c5ea3f8cb80449a65e60be54b arm64: dts: morello: Add support for fvp dts
+         6ceb0dd64727c9606fa8371c4fe23fea7b20b26d MAINTAINERS: Add Vincenzo Frascino as Arm Morello Maintainer
          
