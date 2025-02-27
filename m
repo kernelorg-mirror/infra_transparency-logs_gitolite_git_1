@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Thu, 27 Feb 2025 22:07:43 -0000
-Message-Id: <174069406314.1323919.5402482781569876616@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Thu, 27 Feb 2025 22:27:40 -0000
+Message-Id: <174069526065.1339772.13764753676413263385@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/main-pending
-    old: cfc287ccf5218abb54769906e12eb18065f9b85c
-    new: 6d52628f1afa15584b61c5701089b4faf089630e
+  - ref: refs/heads/enumeration
+    old: f7c9bb759161280f7f702fa0e9a52bd6b979c6aa
+    new: e5d287b410fe5f330943f0a87838b931b4391bec
     log: |
-         9e880ef4379cd0b849525c6780f098c1768c47a9 wifi: ath12k: Fix invalid data access in ath12k_dp_rx_h_undecap_nwifi
-         6d52628f1afa15584b61c5701089b4faf089630e Merge branch 'pending' into main-pending
+         b80b4d4972e6de716b4071c94464eed8350c5b90 PCI: Fix reference leak in pci_register_host_bridge()
+         e5d287b410fe5f330943f0a87838b931b4391bec PCI: Fix reference leak in pci_alloc_child_bus()
          
-  - ref: refs/tags/ath-pending-202502272138
-    old: 0000000000000000000000000000000000000000
-    new: 6d52628f1afa15584b61c5701089b4faf089630e
