@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 27 Feb 2025 20:33:52 -0000
-Message-Id: <174068843213.1239461.12823418028686134121@gitolite.kernel.org>
+Date: Thu, 27 Feb 2025 20:34:03 -0000
+Message-Id: <174068844392.1239715.649216927421488941@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
-  - ref: refs/heads/dir-deleg
-    old: ee37d62e8ae264d2f83b5fd69147fa1dc4f66567
+  - ref: refs/heads/kdevops
+    old: 39164d81cd3ea2ee7480f3a6b950dfaaa61a8aa6
     new: 26e709733842cb3740ca8425ff551325a9b63312
     log: |
          0a19122b0105e687c38dd66d459ec76fac708dda SQUASH: fix up the queueing of the CB_NOTIFY callback
