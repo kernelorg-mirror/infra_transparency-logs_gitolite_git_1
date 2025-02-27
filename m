@@ -1,56 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============2963801451979209583=="
+Content-Type: multipart/mixed; boundary="===============1646691734272672134=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 27 Feb 2025 19:39:36 -0000
-Message-Id: <174068517658.1189650.8844512299181076234@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
+Date: Thu, 27 Feb 2025 19:41:15 -0000
+Message-Id: <174068527575.1191986.8542347397890525072@gitolite.kernel.org>
 
---===============2963801451979209583==
+--===============1646691734272672134==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/sj/hkml
+user: sj
 changes:
   - ref: refs/heads/master
-    old: d5ca7453632a0c5cda6b54764cbfbe9859617cfb
-    new: 9d19361cb076a633352f9d98c33ae7b4ce8650ac
-    log: |
-         9d19361cb076a633352f9d98c33ae7b4ce8650ac reject CVE-2024-36942
-         
+    old: bf0681731826d297b8eb55152a383a0eaae7de0b
+    new: b04c413bc99519f8dd73bba46a20477cc981c474
+    log: revlist-bf0681731826-b04c413bc995.txt
 
---===============2963801451979209583==
+--===============1646691734272672134==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-bf0681731826-b04c413bc995.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1740685133 -0800
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1740685173-2a7e651de1f7b833f564be07523a7c950a0fdff2
+efaaf4953fefa8108602b80dd12d96141848d6c3 hkml_patch: support adding cover letter as a merge commit
+424778d48f7434ae210b8dc590c4c8e24aac7883 hkml_patch: clarify cover letter merge commit
+792d9d1bbedda81767234415dae1469edf9ae367 hkml_patch: pass patch mails to apply_patches()
+a64197f49d584668babb8f282071b5732f980962 hkml_patch: add cv to first patch when applying question stage
+980e633f9843176cc2377a52f2e44d80ad1e4202 TODO,release_note: update for next release
+fd21e9bcd374560c8d12f8a729e2ca4ebec0ad1c hkml_patch: remove hkml_view_mail's main() call handling
+1d096f02181b04dc5fdb4c11431d6e71dca70022 hkml_patch: split out args.mail handling
+79207e94b9fb104e66c9a7827b9d1086d2b0ce66 hkml_patch: rename apply_action_to_mails() to more explicit ones
+7c462ec405ac844e8cd2f601eecbbe55ecfd4fde hkml_patch: move check action handling to check_apply_or_export case
+63f4a721067f6e0029ae0dc82603f58f42d0ffd4 hkml_common: implement command availability check function
+f48297aaa0299dbb716c971cac2796db65fa83ff treewide: use hkml_common.cmd_available()
+267bf63485f2990af98c4e6c66abbee4eb1fee28 hkml_patch: call get_mail_with_replies() in user_pointed_mail()
+e2ce0a775dd40cd28e997444da4f2b5a41f1abd4 hkml_patch: code layout change
+ac4f54390316b8a5e236298d5c96cfaccc29e4df hkml_patch: move cover letter check into apply_patches()
+cf3f379229482e2c391eebd2ed532fab0fd79c68 hkml_patch: remove unused vaiable in check_apply_or_export()
+651723c2477abe18024ec298f037844b27a2e35f hkml_patch: avoid unnecessary file io for applying with cv embedding
+229c23ba226eca8ca77d4d836f20f0bd59b472aa .gitignore: ignore .hkmllog file
+5704d29a36b8534b143f7d53b94f59d8da238345 hkml_view: add timestamp to log()
+b252ba50e2a6d4afb35c0e0388de544177cfe446 TODO: add item for old mails search
+ea7030f1ddb812e8345abbcb0f2ea4d52488d932 hkml_list: remove unnecessary exit() in get_mails()
+5691eecd07502fd93baa427eed92a408774942a9 TODO: add an item for showing print() logs properly
+3878663ba48f4c4baa97737a0592b55d7af22f89 hkml_list: let fetch_get_mails_from_git() return error
+d6d644861025c231b1a607d61a0de7b6ba53dcfb hkml_list: let get_mails_from_git() return error
+6cf0ef05cefc0698f469048e339efd472a922f58 hkml_list: return error from get_mails_from_pisearch()
+142fcc2c9d8ee2719d36efa449e29ce817c74e36 _hkml: drop '__' prefix from __get_epoch_from_git_path()
+ebb97f092af16d1f273f7d2894a93844930f3347 hkml_list: add warning about old epoches problem
+b04c413bc99519f8dd73bba46a20477cc981c474 hkml_signature: Fix signature numbering suffix
 
-d5ca7453632a0c5cda6b54764cbfbe9859617cfb 9d19361cb076a633352f9d98c33ae7b4ce8650ac refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfAv00bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xFYP/Ah+RMmRqVx6eTLZDXhY
-0nzo4VMdxmGbifb6aris37Y3eBEUWxBxp8U1Oms/Tn6iKbzRWTvWYBWUq1YJ2p0y
-RiKqh3NanpO2Q6hfQG+JcXR4bZhFVWp1JEIHJGWeEjhlV4+Dm53MqEfK0JL553F9
-Iqz6lXLXOFZz7jFbZIMToMCWR+LCKRDNZvr2eKAhQ9Esity3fBAcLzOCG7LP2WrA
-dINg22OQ78AkLnbvh0ILvKSKpo2AseB3xja4A9sN4v42LoOykk6ACKtSWFoJhrmp
-75RRkmfsiCqh4zgpdAMomHv7ohZ7kEyomX4guRCclViTRakRRD7nKRzUis3HiWMI
-cDI9Zgn7iPkjtzfmuoFB5XU042/8XxPVtlJEI6GxNEqY0zas1asj7o5kJCpJYLLA
-lInVKaovIcbn9YbSUFGX3xWxj1hq1DwbQsFVwScjnemTNEqMm/zh8N9KvR5WqCTb
-VtAVRyWgNaCeN8Oqn82yudg6qqeffF/ILpJ2BmU2XgUXvtT7ypsWozGP+Wd0udDw
-3xU8sJOcNa9j+QhHhppJ4HuSIVURpBMuqIx6aXp+2ZEK1KHUiOSkD1+rhn+fuNej
-ShbQAJYolZonz5xZ5ke3ziYBj+XkBFZWHQTT5vAARX63f1ggVHaHRo3u+oL36Kc9
-6YHMRInU31PGMmHnMNs2TTcm
-=Ytxs
------END PGP SIGNATURE-----
-
---===============2963801451979209583==--
+--===============1646691734272672134==--
