@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
-Date: Thu, 27 Feb 2025 17:00:48 -0000
-Message-Id: <174067564848.1051283.9081312015355512486@gitolite.kernel.org>
+Date: Thu, 27 Feb 2025 17:01:33 -0000
+Message-Id: <174067569348.1051803.8092030037635690613@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rcu/linux
 user: boqun
 changes:
-  - ref: refs/heads/misc.2025.02.27a
+  - ref: refs/heads/next.2025.02.27a
     old: 0000000000000000000000000000000000000000
-    new: 875396b53ed619f7d5de5905c3d803405f64fbad
+    new: ae225b03ce3e4097fa54a9ffd495ca78cd36aa0e
