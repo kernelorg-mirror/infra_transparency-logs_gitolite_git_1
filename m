@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
-Date: Thu, 27 Feb 2025 21:11:30 -0000
-Message-Id: <174069069022.1274123.17622138820721594314@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Thu, 27 Feb 2025 21:12:01 -0000
+Message-Id: <174069072127.1274536.16588353454168512401@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
-user: jejb
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/next
-    old: 84a25d89522de1efc234e195a18514e253feb061
-    new: 1649151f3cf7bde683ea8d771be92e94038d5c4d
+  - ref: refs/heads/200GbE
+    old: 54e1b4becf5e220be03db4e1be773c1310e8cbbd
+    new: bcfc46cf644e2a44fa73edd20b94b18ec088315d
     log: |
-         31eabd998b0820f04581cfcd1b8be87a02b364af Fix TLS certificate generation with TPM key
-         1649151f3cf7bde683ea8d771be92e94038d5c4d Fix problem with openvpn and the tpm2 provider
+         bcfc46cf644e2a44fa73edd20b94b18ec088315d idpf: synchronize pending IRQs after disable
          
