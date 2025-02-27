@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0761528414837294796=="
+Content-Type: multipart/mixed; boundary="===============8418292846693216959=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Thu, 27 Feb 2025 16:10:17 -0000
-Message-Id: <174067261772.1005706.664944197582471717@gitolite.kernel.org>
+Date: Thu, 27 Feb 2025 16:12:59 -0000
+Message-Id: <174067277967.1007024.14909662138663085411@gitolite.kernel.org>
 
---===============0761528414837294796==
+--===============8418292846693216959==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,37 @@ repo: pub/scm/linux/kernel/git/vbabka/slab
 user: vbabka
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/slab/for-6.15/fixes-cleanups
-    old: 09ddc0131e59de2b4db189d10e29cdec951f732b
-    new: 3e99b015a856cd2b20bc4188161f3c5dc573b019
+  - ref: refs/heads/slab/for-next
+    old: c6bb909b8f11b9403715a325b51c2bcf01e2bbc0
+    new: 0bbb50750400aa1c75bf83f6b2114ee6b1cee71e
     log: |
          e629d39cd00e8f55c71cd656baf572dbc40f2c19 mm: slub: Print the broken data before restoring them
          3e99b015a856cd2b20bc4188161f3c5dc573b019 mm: slub: call WARN() when the slab detect an error
+         0bbb50750400aa1c75bf83f6b2114ee6b1cee71e Merge branch 'slab/for-6.15/kfree_rcu_tiny' into slab/for-next
          
 
---===============0761528414837294796==
+--===============8418292846693216959==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1740672642 +0100
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1740672805 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1740672612-5339592fea6ddb3b29dea23edb7abbafb8711481
+nonce 1740672775-4f5f1b0f8c0c344fa3d9cab25ca0d059eded5e16
 
-09ddc0131e59de2b4db189d10e29cdec951f732b 3e99b015a856cd2b20bc4188161f3c5dc573b019 refs/heads/slab/for-6.15/fixes-cleanups
+c6bb909b8f11b9403715a325b51c2bcf01e2bbc0 0bbb50750400aa1c75bf83f6b2114ee6b1cee71e refs/heads/slab/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmfAjoIACgkQu+CwddJF
-iJo11Af5AUvtYXF8fwFtLAARKjYRm0Wn7X1dP3CYcncPIWSLU89y9+WMJ8EL0EP5
-06df7qSdaA9YJcp/zD3wHAfdCg6poOjPCPqltulMjqCHKrZoo9GJivEK+nCrtSLw
-+2IK1vUZILsfIt+jXOmJveatkSjji/WTP0fwOntN3UeGck1EK22wofyCi7VqmCbE
-a2YxmFbD5STV8j1SPnDJX7fzR7t1GGXrULuGN5ZAE/82C58UM1nv5i2iMy/Tji3Q
-9QsFhJZymc2vivKsfO+JigpMNDQSPx1wnxpdXPSWSciWAxYs2bvEWQzMoQkGzqfu
-Ix42mCmNJYuS6bJDtHZ8PDtHAYIgtg==
-=XFt6
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmfAjyUACgkQu+CwddJF
+iJpmiwgAjy8bKO/JY8OaD9owWWwdjHKm5yPUyeMAwpKThwUz10J2L26tXYOusE0B
+weTAFZXl9HscDidY4IFkj73Zblpx81GvUHeGXIFHlsw9kF0sEiE2oqpdQcw3etmr
+4KuHqIfwjRmPr4e707W21UPtx9UkPCfbH8grWxqPSWd1nUnj0ANXIY3MRg5K9+6I
+l/zTM3wYL/AiKgpY4uW5kuKXDXwvf1HZtfCRRYw6VRpKbUemFsXoVUx1hYpyrWrA
+9O1u/ujshxA1m3Ay3lIJfIAfUWL6T1fxpqlObB5UvqAcRwsVYCVfayRlKdV3bCVX
+dwSKkIWYa6BWzPLj4/nJtRmCzuPxeQ==
+=+jst
 -----END PGP SIGNATURE-----
 
---===============0761528414837294796==--
+--===============8418292846693216959==--
