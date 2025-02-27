@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7290574379881762752=="
+Content-Type: multipart/mixed; boundary="===============6645267389291893122=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Thu, 27 Feb 2025 00:12:19 -0000
-Message-Id: <174061513946.18100.9354238295341651865@gitolite.kernel.org>
+Date: Thu, 27 Feb 2025 00:21:33 -0000
+Message-Id: <174061569357.25788.4821167953356025770@gitolite.kernel.org>
 
---===============7290574379881762752==
+--===============6645267389291893122==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -13,21 +13,19 @@ Content-Transfer-Encoding: 7bit
 ---
 service: git-receive-pack
 repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: rostedt
+user: mhiramat
 changes:
-  - ref: refs/heads/trace/for-next
-    old: 8f21943e101a15f56a8f02970a80edc936de8ec8
-    new: 77feaf4a2efb078f4f8c703dce5918c0ce08b7e9
-    log: revlist-8f21943e101a-77feaf4a2efb.txt
+  - ref: refs/heads/probes/fixes
+    old: 30c8fd31c571db486a5331a92d03eb60a0fb277c
+    new: 96fe3c30751e869503298e48c05c77af3348a5c0
+    log: revlist-30c8fd31c571-96fe3c30751e.txt
 
---===============7290574379881762752==
+--===============6645267389291893122==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f21943e101a-77feaf4a2efb.txt
+Content-Disposition: attachment; filename=revlist-30c8fd31c571-96fe3c30751e.txt
 
-65c49767dd4fc058673f9259fda1772fd398eaa7 cifs: Remove symlink member from cifs_open_info_data union
-32ba03042ab2618f2622e4dae57ca802ac982e39 cifs: Simplify reparse point check in cifs_query_path_info() function
 12b466eb52d926802b6898d2cb7e67386467f54a cifs: Fix creating and resolving absolute NT-style symlinks
 660618dde2b4c372132a6be62f11ab68a0a1571a cifs: Add mount option -o symlink= for choosing symlink create type
 78f69467cbbfd24da5ce9917c4b738b38a615f8b cifs: Add mount option -o reparse=none
@@ -1047,8 +1045,10 @@ f112eea3ccefc8a267fff592059f128b3166ca9e Merge tag 'irq-urgent-2025-02-22' of gi
 ad328a3785a24a7e7a8053b06139a6bfb42d0280 Merge tag 'edac_urgent_for_v6.14_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 9d68911233472dc2b336f2cf99521bd684ba6092 Merge tag 'i2c-for-6.14-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 d082ecbc71e9e0bf49883ee4afd435a77a5101b6 Linux 6.14-rc4
-937fbf111ac17c456cfcbf18412a1417ff3b69ed tracing: Add traceoff_after_boot option
-bd04d52523db5fa7477ae1da30a7da4e2447ffcf mm/memblock: Add reserved memory release function
-77feaf4a2efb078f4f8c703dce5918c0ce08b7e9 tracing: Freeable reserved ring buffer
+ac965d7d88fc36fb42e3d50225c0a44dd8326da4 tracing: tprobe-events: Fix a memory leak when tprobe with $retval
+d0453655b6ddc685a4837f3cc0776ae8eef62d01 tracing: tprobe-events: Reject invalid tracepoint name
+db5e228611b118cf7b1f8084063feda5c037f4a7 tracing: fprobe-events: Log error for exceeding the number of entry args
+efddfc0c61671ee775d59f1813fd2adf3ff3b4b8 tracing: probe-events: Log errro for exceeding the number of arguments
+96fe3c30751e869503298e48c05c77af3348a5c0 tracing: probe-events: Remove unused MAX_ARG_BUF_LEN macro
 
---===============7290574379881762752==--
+--===============6645267389291893122==--
