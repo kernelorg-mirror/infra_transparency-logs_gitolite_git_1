@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 27 Feb 2025 03:00:24 -0000
-Message-Id: <174062522435.163946.2569387397433304352@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Thu, 27 Feb 2025 03:21:28 -0000
+Message-Id: <174062648897.180237.6876229056524144634@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/main
-    old: 3ba075278c11cdb19e2dbb80362042f1b0c08f74
-    new: 80c4a0015ce249cf0917a04dbb3cc652a6811079
+  - ref: refs/heads/dev
+    old: 7ca5b26937018d4df76774b624a676dc58385566
+    new: 396e9a0f33f29e139a6e79cd60e01d9dce0fbdff
     log: |
-         c1d6d629ab0b3dd991c7fb04587dd2adf2c4b426 selftests/net: prepare cmsg_ipv6.sh for ipv4
-         2e5584e0f913b53630238223443ae2a67eea714c selftests/net: expand cmsg_ipv6.sh with ipv4
-         80c4a0015ce249cf0917a04dbb3cc652a6811079 Merge branch 'expand-cmsg_ipv6-sh-with-ipv4-support'
+         f3728a162d2295e7cc86043e9102ced973ba2ac7 erofs-utils: fsck: fix stack-overflow due to directory loops
+         396e9a0f33f29e139a6e79cd60e01d9dce0fbdff erofs-utils: contrib: add stress test
          
