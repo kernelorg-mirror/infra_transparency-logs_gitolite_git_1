@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
-Date: Thu, 27 Feb 2025 16:55:40 -0000
-Message-Id: <174067534056.1046913.1344277650838138220@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
+Date: Thu, 27 Feb 2025 17:00:48 -0000
+Message-Id: <174067564848.1051283.9081312015355512486@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/phy/linux-phy
-user: vkoul
+repo: pub/scm/linux/kernel/git/rcu/linux
+user: boqun
 changes:
-  - ref: refs/heads/next
-    old: 7dff18535b93ea1ce6dbaf36b7ae670f04113d08
-    new: 49166afbf4ce3b5049295534150886a99b9867ec
-    log: |
-         49166afbf4ce3b5049295534150886a99b9867ec phy: exynos5-usbdrd: Do not depend on Type-C
-         
+  - ref: refs/heads/misc.2025.02.27a
+    old: 0000000000000000000000000000000000000000
+    new: 875396b53ed619f7d5de5905c3d803405f64fbad
