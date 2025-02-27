@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7315786296018930799=="
+Content-Type: multipart/mixed; boundary="===============5002907215276657851=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 27 Feb 2025 20:11:43 -0000
-Message-Id: <174068710381.1219125.244919621859098937@gitolite.kernel.org>
+Date: Thu, 27 Feb 2025 20:11:55 -0000
+Message-Id: <174068711591.1219395.6189181205247840586@gitolite.kernel.org>
 
---===============7315786296018930799==
+--===============5002907215276657851==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/security/vulns
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/gregkh-stat_scripts
-    old: 89b50197cd0994c42788b065f6c9a5e0ee6fb1c6
-    new: e14590a144634b0747f1fc49cc47364da9b0b11a
-    log: revlist-89b50197cd09-e14590a14463.txt
+  - ref: refs/heads/sasha-voting_results_cleanup
+    old: 74af553377828894d0f73c6f352e8084bd56b2c1
+    new: 47d0dcd32a6cab243bc9d535e8c0480565b71426
+    log: revlist-74af55337782-47d0dcd32a6c.txt
 
---===============7315786296018930799==
+--===============5002907215276657851==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1740687063 -0800
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1740687075 -0800
 pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1740687103-c9eab2bc57c075bef8843345255e4a8c10b32537
+nonce 1740687115-add674aca2e62b28fb35f6908b152b5b42825d39
 
-89b50197cd0994c42788b065f6c9a5e0ee6fb1c6 e14590a144634b0747f1fc49cc47364da9b0b11a refs/heads/gregkh-stat_scripts
+74af553377828894d0f73c6f352e8084bd56b2c1 47d0dcd32a6cab243bc9d535e8c0480565b71426 refs/heads/sasha-voting_results_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfAxtcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SOIP/1kvNf6I8zxZI1hH7AEz
-olwGmGTGTDmdDlLwAc8fRTCQ7qOoZ0VipuIR6dnYDUjcRSDLOFJ9UzIC1982rDXp
-niBhtpKjChbra0crlPNIW6a5b6y2wtiX22DBPJ+b/411Y8MshO92e1agOARyaQ0M
-IiKDxXnla0EaMAEOg+8I0v9ksFDSd9PaxD75KCN1BsvgAU4KyfjhewvZh0VgqDIU
-uYLwx8tFnAlEIar0jSmgCYH4AGo+tsxiES3A+okr/pv9nT60vOQv0PXPtNZaCAS8
-1siWKd2OZjJNrJT5TE909O1Y8AdLSaf1JqLwLYzS5mcHa6fydn8ED0zzftBFOErF
-hIrLlY150PKT/DIeiJYqnAtM/t5VabVIwbCVX8YPdzQvUjWQaruUO99Ia5rfu6CQ
-iqYcIKsQvNySB7Ca8qz9grxKg3rE+sonTjWSblCOJ2rgrVKN3fKGDvgUEQnHqkxA
-o+e9xvDcvVhIJFYbOhsP+bAtgPm6lqB6/eLwKxVdBspOgj7jw5hkwMmdFEuhVvW1
-zbZ0nQul+l0HxciCjUpuL6VM7Vr2xLFeSq/QHPW3KOBMNdDGY+sIL5FT8GuJkS7h
-2WAjHN+Jgj28aIyA6rwXJENUan9+p/sQQmp+hjFK85SOlkrVU6l5CoDEpQE0godS
-PDTawlBEdcki6dNd/6mDrie8
-=bVrb
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfAxuMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mnMP/j2uFQtIMQWmag9mlbsX
+CObFcf5qG4kohqgk5J61YGpRK4b5qY9uSYcMtv958WmTDFXjh3r9VATMwUcF7ZeB
+r5AhGGlUCQjD+w/iwzOqCR+q1thutusAwP8z2LPo9Qd7vud2oxH1mSc784HDlqFk
+k0JjfFvK2S5Lf3nFX5kYfookBesjG5q8qw1VLHsF0Scoc7a/bG8D0oc6vtzVBhbE
+f9lgwWDhoZrb2gMEgQWpryGFi1ffikXC7rIB53Te0iMJUkbluA+b04aNja97tNQZ
+B4cnPnYRo0UomH2+igoih+pxLIcA6+CyetzB+LIAZql98cg5epWPJWxJEj/bSixi
+JjKfYOcGHNWRR9QmqJNuBm5gQXkraddFTQk4qpQgL3O1hW7MlDlLIYQhG7UZzrvf
+t4Kwp97baut9JQzOmK05ms0E3Q8+zaV2W3sgxs+BUJIBJHqLOyxMqVNBn8lgHf9m
+nELKCUxL3fi5AjnscVfRvFfn5F5JlYzJQElJQ2JQJnk6lhyYvsbV0OVcNPOhc8Tg
+lYyWUBAlSoa6O5NNnAXkpTskitvwHocpLZKpUkQ5+GN/v+bZ6xefWS46Xna1yRLt
+3/dR4pny2jtq3oQwpAJmhr8laolu7D8BURBfdKh3hJQGIK0H8FcDN47JzTReElih
+a3RJUYnwq+GRGoz2buQ8XsAg
+=zN0P
 -----END PGP SIGNATURE-----
 
---===============7315786296018930799==
+--===============5002907215276657851==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-89b50197cd09-e14590a14463.txt
+Content-Disposition: attachment; filename=revlist-74af55337782-47d0dcd32a6c.txt
 
 5ead04628050d88272f2bf69b989e9656f0a9a9f cve_stats: pretty print some columns
 e86e5cbb0f143227e5f2d74fcf1afdf044119d0b add a .vulnerable entry for CVE-2025-21667
@@ -131,6 +131,6 @@ d5ca7453632a0c5cda6b54764cbfbe9859617cfb scripts/dyad: update to the newest vers
 28cc38a742633b236e33c8a90e46da788bfb9963 allocate some 2025 cve ids for 6.13.3
 4dc46ce1e5725631546be7b6a7c9a926e6c95028 Allocate some 2025 cve ids for 6.13.4
 745acb331d76593411b5af9647129d220966e2e3 strip the mbox files
-e14590a144634b0747f1fc49cc47364da9b0b11a initial horrible scripts to maybe give us better stats
+47d0dcd32a6cab243bc9d535e8c0480565b71426 voting_results: get rid of per-reviewer variable combinations
 
---===============7315786296018930799==--
+--===============5002907215276657851==--
