@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 27 Feb 2025 13:00:14 -0000
-Message-Id: <174066121493.847690.14315911039202072844@gitolite.kernel.org>
+Date: Thu, 27 Feb 2025 13:03:43 -0000
+Message-Id: <174066142310.849316.11548823501689631868@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: ff1e8e39bcaa1e5be3e6c63886e5cdf184d681a6
-    new: 8777f155d4776556b3e02e450eae8644c631925e
+    old: 8777f155d4776556b3e02e450eae8644c631925e
+    new: b6d6abed852258416eaee4b4228c94a2e3470058
     log: |
-         9c94c14ca39577b6324c667d8450ffa19fc1e5c4 x86/bootflag: Replace open-coded parity calculation with parity8()
-         8777f155d4776556b3e02e450eae8644c631925e Merge branch into tip/master: 'x86/boot'
+         b6d6abed852258416eaee4b4228c94a2e3470058 Merge branch into tip/master: 'x86/boot'
          
