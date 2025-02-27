@@ -1,56 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============8602042655643652745=="
+Content-Type: multipart/mixed; boundary="===============0164231931606963009=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 27 Feb 2025 19:43:57 -0000
-Message-Id: <174068543770.1193443.13062765861915006234@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Thu, 27 Feb 2025 19:50:18 -0000
+Message-Id: <174068581844.1200613.16609266783093568462@gitolite.kernel.org>
 
---===============8602042655643652745==
+--===============0164231931606963009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/master
-    old: 9d19361cb076a633352f9d98c33ae7b4ce8650ac
-    new: 4700afa934e444b194edec681f9b9671b421d007
-    log: |
-         4700afa934e444b194edec681f9b9671b421d007 update CVE-2025-21786
-         
+  - ref: refs/heads/main-pending
+    old: 246a554f99af31b4867e5a5cfc1518a55c12552f
+    new: ca9162722aa99bb1bbb871aa2f4d36e1cc613df3
+    log: revlist-246a554f99af-ca9162722aa9.txt
+  - ref: refs/tags/ath-pending-202502271910
+    old: 0000000000000000000000000000000000000000
+    new: ca9162722aa99bb1bbb871aa2f4d36e1cc613df3
 
---===============8602042655643652745==
+--===============0164231931606963009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-246a554f99af-ca9162722aa9.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1740685397 -0800
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1740685437-722dcf9526e39627c3cf13e19cf34bf8fa02dee2
+68410c5bd381a81bcc92b808e7dc4e6b9ed25d11 wifi: ath11k: Clear affinity hint before calling ath11k_pcic_free_irq() in error path
+b43b1e2c52db77c872bd60d30cdcc72c47df70c7 wifi: ath12k: Clear affinity hint before calling ath12k_pci_free_irq() in error path
+6f2d839d11b36c630dbcad2c68613f15409de392 wifi: ath11k/ath12k: Replace irq_set_affinity_hint() with irq_set_affinity_and_hint()
+912bf5c7649b69c71a914431083be223169d9c6b Merge branch 'ath-next'
+eaae6b0f709ad729b668452ae1e8577d9cf4a641 Merge remote-tracking branch 'mhi/mhi-next'
+4d915d21b1229287286f9d400839b65ecaf0e006 Add localversion-wireless-testing-ath
+1074842c97ba129557f923df80ce216e9a26d9f8 wifi: ath11k: refactor transmitted arvif retrieval
+e0b58493b31fab17a7a19b735e44dbff94e402b1 wifi: ath11k: pass tx arvif for MBSSID and EMA beacon generation
+307e0f6e133be2501b7d7f52f4faada2c1683d09 wifi: ath12k: refactor transmitted arvif retrieval
+464d860b65979f31e43b850fd0e889d3a7387c39 wifi: ath12k: pass tx arvif for MBSSID and EMA beacon generation
+18e1ac884c9a69bd9bc67e99bb932774e6310e8a wifi: ath12k: pass BSSID index as input for EMA
+68d9e72b5a9ba984ce8052cd1e739d093b51613e dt-bindings: wireless: ath10k: Strip ath10k prefix from calibration properties
+674038ced1246f6deddf5e009e9aeef79e9b24aa dt-bindings: wireless: ath11k: Strip ath11k prefix from calibration property
+f08d9d8fc0192f95fae74be3a743f5d8617b25c6 dt-bindings: wireless: ath12k: Strip ath12k prefix from calibration property
+fc6e39de762a028c4322c321f8be7dda9b973886 wifi: ath10k: Deprecate qcom,ath10k-calibration-variant properties
+2ff83974d12d36ba37f7c995b5f3a1f34a4630f1 wifi: ath11k: Deprecate qcom,ath11k-calibration-variant properties
+ca9162722aa99bb1bbb871aa2f4d36e1cc613df3 Merge branch 'pending' into main-pending
 
-9d19361cb076a633352f9d98c33ae7b4ce8650ac 4700afa934e444b194edec681f9b9671b421d007 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfAwFUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bPwP/3ivR5UrfSRp71OEEsKw
-ibDJ65BBpYHkDRga0TRvnA+8Bh1uc4By5heDE6/MqJg+W+A/6b1OcdzD3Bf9RDMg
-bPUMsujA0tax0AFtPOFuvixKlp6xkcqA4TQ/q/2REl4Lo8waf5Mq7jPfGidMywo2
-/LodxkmY/Q0Th6N5wU32QM97+fimotM3V9kqdw1aeaPXYE790NwpuL3Wj4GYhpx1
-3pkN+Koq/yqy+7vMO0bFNooiA79CwNvzjBfOS/Jv325+FNWnECCo+SlF1aHC97Ub
-4Y09Le2zDN5/PclmefpJdTLVhBMd42/lvJKY6i2spEFhLSM/v00Wtrdv+nUsQgWG
-RzbndUXCKIkM5mWXTrcIR5f7Xfbk/ESVcmsLXIY+o8L8izAIDtbG/rgicH0KRESG
-Q7w+2q7/G00VIe90Jk7Ao2iIyfDOf/1sAGsz45I/kqZJJLDQe30//d2Q7VUsy1Ll
-Nn8kKa5AIG0vphvtlODK5Kif8nc7qinQuNd2h7cwilJu4G8Ea8nSRrYxJUFGpcDY
-10cwnEEYhcSqaP0bVhDecAYb+ckPDhGF482ucNBO/zug9sw35SdPY5f5pkyJnmU7
-3pM6Yw6drhgC03we1YQTjdZ8n4VcOVbe48DYRqUuthR7hirSK/oR/IAx1fpQgDr+
-qw3D7FAUiBRYyVYCiGfRhsQq
-=r4tb
------END PGP SIGNATURE-----
-
---===============8602042655643652745==--
+--===============0164231931606963009==--
