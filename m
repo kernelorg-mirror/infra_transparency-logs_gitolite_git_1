@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Fri, 28 Feb 2025 16:58:17 -0000
-Message-Id: <174076189717.2274021.12271770272159882254@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 28 Feb 2025 17:02:07 -0000
+Message-Id: <174076212733.2278723.10700088161224810445@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelloni/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/rtc-next
-    old: 2014c95afecee3e76ca4a56956a936e23283f05b
-    new: 72ce39bc61fab14ef8eda1614763d6422ce38736
+  - ref: refs/heads/x86/mm
+    old: c1fcf41cf37f7a3fd3bbf6f0c04aba3ea4258888
+    new: fd5935f9c20431eeadd6993fd4d2672e3e17a6b8
     log: |
-         f36d6362c62c0acc2f45698495691b5cb349a375 rtc: fsl-ftm-alarm: Mark acpi_id table as maybe unused
-         72ce39bc61fab14ef8eda1614763d6422ce38736 rtc: pl030: Constify amba_id table
+         fd5935f9c20431eeadd6993fd4d2672e3e17a6b8 x86/mm: Check return value from memblock_phys_alloc_range()
          
