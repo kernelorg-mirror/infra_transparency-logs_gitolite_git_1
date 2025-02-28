@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Fri, 28 Feb 2025 13:45:10 -0000
-Message-Id: <174075031014.2092870.7149589103055473183@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
+Date: Fri, 28 Feb 2025 13:57:49 -0000
+Message-Id: <174075106925.2101719.2951739835945778694@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/chao/linux
+user: chao
 changes:
-  - ref: refs/heads/for-next
-    old: 5a3c40f58c1da6596b7548083bfd0da38abb1849
-    new: 17965220e23bbee093f2a94ff7c7c597b15cc979
+  - ref: refs/heads/bugfix/syzbot
+    old: a5a39d3fabbd3ddc5dd7f36e28fb2731c542d817
+    new: f355dcdab70fcc20241da68cdbf095fc50cd7a3b
     log: |
-         f94500eb7328b35f3d0927635b1aba26c85ea4b0 arm64: dts: rockchip: Add GPU power domain regulator dependency for RK3588
-         17965220e23bbee093f2a94ff7c7c597b15cc979 Merge branch 'v6.15-armsoc/dts64' into for-next
-         
-  - ref: refs/heads/v6.15-armsoc/dts64
-    old: 254324dbe364fb058279486767fa82cd2456595d
-    new: f94500eb7328b35f3d0927635b1aba26c85ea4b0
-    log: |
-         f94500eb7328b35f3d0927635b1aba26c85ea4b0 arm64: dts: rockchip: Add GPU power domain regulator dependency for RK3588
+         0205827468403306776dc2479cf7998fecb4feab f2fs: fix to avoid out-of-bounds access in f2fs_truncate_inode_blocks()
+         f355dcdab70fcc20241da68cdbf095fc50cd7a3b f2fs: fix to do sanity check inode footer in f2fs_get_inode_page()
          
