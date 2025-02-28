@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2436161748991299247=="
+Content-Type: multipart/mixed; boundary="===============7129360974139681255=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Fri, 28 Feb 2025 19:55:06 -0000
-Message-Id: <174077250628.2443671.13255800517629120517@gitolite.kernel.org>
+Date: Fri, 28 Feb 2025 19:55:20 -0000
+Message-Id: <174077252065.2443970.5513253342358815835@gitolite.kernel.org>
 
---===============2436161748991299247==
+--===============7129360974139681255==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: 6f2d839d11b36c630dbcad2c68613f15409de392
+  - ref: refs/heads/pending
+    old: 9e880ef4379cd0b849525c6780f098c1768c47a9
     new: 9a0dddfb30f120db3851627935851d262e4e7acb
-    log: revlist-6f2d839d11b3-9a0dddfb30f1.txt
+    log: revlist-9e880ef4379c-9a0dddfb30f1.txt
 
---===============2436161748991299247==
+--===============7129360974139681255==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6f2d839d11b3-9a0dddfb30f1.txt
+Content-Disposition: attachment; filename=revlist-9e880ef4379c-9a0dddfb30f1.txt
 
 ab8a17bc63e2d187ea4602e1d1b9baf10c7b252d wifi: ath11k: refactor transmitted arvif retrieval
 8e30bfad4dc96c27f52b84b3fc5928252dafee5d wifi: ath11k: pass tx arvif for MBSSID and EMA beacon generation
@@ -39,4 +39,4 @@ a97ed4ecb797a69f52f66445ebca538c93462ba4 wifi: ath10k: Deprecate qcom,ath10k-cal
 d2d9c9b8de725e1006d3aa3d18678a732f5d3584 wifi: ath12k: Report proper tx completion status to mac80211
 9a0dddfb30f120db3851627935851d262e4e7acb wifi: ath12k: Fix invalid data access in ath12k_dp_rx_h_undecap_nwifi
 
---===============2436161748991299247==--
+--===============7129360974139681255==--
