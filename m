@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Fri, 28 Feb 2025 20:35:39 -0000
-Message-Id: <174077493980.2476303.8738593192211312723@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Fri, 28 Feb 2025 20:36:00 -0000
+Message-Id: <174077496057.2476625.14636525768362280576@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+repo: pub/scm/bluetooth/bluez
 user: vudentz
 changes:
   - ref: refs/heads/master
-    old: 7c2203f91affcad4b45ff59945aa621b33f7a413
-    new: ebbeaffb5622dee1b21cd881b1f24589a0d70433
+    old: 7f1fa3d7ce39e2e3325c948ef2580b1d60c48c78
+    new: 711424319562ef2efcb7ad0d5f264400f72af8fd
     log: |
-         ebbeaffb5622dee1b21cd881b1f24589a0d70433 Bluetooth: SCO: fix sco_conn refcounting on sco_conn_ready
+         4130fe22fb8af7ebc02e737f2841da766e726b16 shared/bap: Fix not starting released operation
+         9efc138e98080e1e3f27e56c30cf289e014d5302 shared/bap: Fix state transition of sink for disable operation
+         711424319562ef2efcb7ad0d5f264400f72af8fd sco-tester: add test for disconnecting SCO
          
