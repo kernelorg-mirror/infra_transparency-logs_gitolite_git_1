@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2419406543818932015=="
+Content-Type: multipart/mixed; boundary="===============4534734023258037916=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 28 Feb 2025 09:12:56 -0000
-Message-Id: <174073397668.1867421.10555023979251940905@gitolite.kernel.org>
+Date: Fri, 28 Feb 2025 09:13:21 -0000
+Message-Id: <174073400129.1867894.16001205662499032830@gitolite.kernel.org>
 
---===============2419406543818932015==
+--===============4534734023258037916==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,51 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 0b8c04b9207d5ee92ab3b341f0211aaf2c0b6976
-    new: 225df9a64037e2eb383c05584e11f4a83c632dd2
-    log: revlist-0b8c04b9207d-225df9a64037.txt
+    old: 225df9a64037e2eb383c05584e11f4a83c632dd2
+    new: 62b283ac5de64cf22a9201ea1a71e1c6712b2e41
+    log: revlist-225df9a64037-62b283ac5de6.txt
+  - ref: refs/heads/tip/urgent
+    old: 0b3b01adfd52718dd8d27b4dc156e2442cad5cd9
+    new: 12e3f288d210ca002a2a343bac65d6200af4d704
+    log: revlist-0b3b01adfd52-12e3f288d210.txt
 
---===============2419406543818932015==
+--===============4534734023258037916==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0b8c04b9207d-225df9a64037.txt
+Content-Disposition: attachment; filename=revlist-225df9a64037-62b283ac5de6.txt
+
+3903780f5f83d23be249173d2c1fdc1f4528e587 Merge branch into tip/master: 'locking/urgent'
+4d5373f48a5b886f81f5d93df11ca3dbd9614847 Merge branch into tip/master: 'perf/urgent'
+8691e480a7d814ef6cf1583cd4d221bc459d9bd4 Merge branch into tip/master: 'sched/urgent'
+12e3f288d210ca002a2a343bac65d6200af4d704 Merge branch into tip/master: 'x86/urgent'
+45e3c1ff37c766ccf567f78f5852b426995ffa75 Merge branch into tip/master: 'irq/drivers'
+1eaedc157f46f90b817c04facdc6c2bf9975bb16 Merge branch into tip/master: 'locking/core'
+1dc2c4c1c8f48574b2c6de7d3402814954a0ddc4 Merge branch into tip/master: 'locking/futex'
+e09aa122f8a84486ea12bbb0af55f25a9f57b761 Merge branch into tip/master: 'perf/core'
+6cd5aeae761b908f28bc435abbad5763677371ef Merge branch into tip/master: 'ras/core'
+a5a4dfef2725d8a5e93226b53c0f434e827024ee Merge branch into tip/master: 'sched/core'
+34782b8091b7ba167f751f3c5d43651e4f677c96 Merge branch into tip/master: 'timers/cleanups'
+fa6d02fbe4768ea2f4de3837a47dfdcd267ef0f8 Merge branch into tip/master: 'timers/core'
+31ae27ebb277e70a271ffaa577088e0916c07657 Merge branch into tip/master: 'timers/vdso'
+b308d8f2a9f8dd56725a339bf55602e0029e8212 Merge branch into tip/master: 'x86/asm'
+267e86277c5a6f4f41919a469ed2e80a9ce9d1bc Merge branch into tip/master: 'x86/boot'
+3ed334178d3af677fcdd1bb6d6c06d51853b5548 Merge branch into tip/master: 'x86/bugs'
+c197253e659a6f2cd01bc64e9644bab093719946 Merge branch into tip/master: 'x86/build'
+d87f29460e4f14819aa86583ab6e3faa36d24cef Merge branch into tip/master: 'x86/cleanups'
+4dbc26cf4e21586a5adebcd6b0637c9349022a6d Merge branch into tip/master: 'x86/core'
+ac0d2c11114cc1c23ffc14dbb777ee00f0d63a66 Merge branch into tip/master: 'x86/cpu'
+0cfc094efb1cd4d5521dc8b69e011a33802a1e27 Merge branch into tip/master: 'x86/fpu'
+fc4ee68b0ffe877f3c7a25793def47f70c774251 Merge branch into tip/master: 'x86/microcode'
+d9f7e976129733652485149378aa4628ed7750b6 Merge branch into tip/master: 'x86/misc'
+b37216369db256dfd2eca676b399a677c0c853f0 Merge branch into tip/master: 'x86/platform'
+62b283ac5de64cf22a9201ea1a71e1c6712b2e41 Merge branch into tip/master: 'x86/sev'
+
+--===============4534734023258037916==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-0b3b01adfd52-12e3f288d210.txt
 
 511a3444f72efdc51fa923c4b1f5f0abd545fb20 MAINTAINERS: Add entry for DMEM cgroup controller
 e043dc16c28c8446e66c55adfe7c6e862a6a7bb7 drm/xe/userptr: restore invalidation list on error
@@ -56,6 +92,9 @@ debda50ad512b22264e7779a54c9033bf81b419e Merge tag 'drm-misc-fixes-2025-02-27' o
 c98c94dbadc2a5ad204d2cc630695958eb100ba3 Merge tag 'drm-intel-fixes-2025-02-27' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
 6a5884f200693eeffac4b008faf1e8bdf1c92af5 Merge tag 'drm-xe-fixes-2025-02-27' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
 76544811c850a1f4c055aa182b513b7a843868ea Merge tag 'drm-fixes-2025-02-28' of https://gitlab.freedesktop.org/drm/kernel
-225df9a64037e2eb383c05584e11f4a83c632dd2 Merge branch 'linus'
+3903780f5f83d23be249173d2c1fdc1f4528e587 Merge branch into tip/master: 'locking/urgent'
+4d5373f48a5b886f81f5d93df11ca3dbd9614847 Merge branch into tip/master: 'perf/urgent'
+8691e480a7d814ef6cf1583cd4d221bc459d9bd4 Merge branch into tip/master: 'sched/urgent'
+12e3f288d210ca002a2a343bac65d6200af4d704 Merge branch into tip/master: 'x86/urgent'
 
---===============2419406543818932015==--
+--===============4534734023258037916==--
