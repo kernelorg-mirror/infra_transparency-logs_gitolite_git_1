@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
-Date: Fri, 28 Feb 2025 14:24:44 -0000
-Message-Id: <174075268406.2124261.6892266586706920615@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
+Date: Fri, 28 Feb 2025 14:31:36 -0000
+Message-Id: <174075309606.2130848.3044428424201003355@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jgg/iommufd
-user: jgg
+repo: pub/scm/linux/kernel/git/chao/linux
+user: chao
 changes:
-  - ref: refs/heads/for-next
-    old: 598749522d4254afb33b8a6c1bea614a95896868
-    new: 5e9f822c9c683ae884fa5e71df41d1647b2876c6
+  - ref: refs/heads/bugfix/syzbot
+    old: f355dcdab70fcc20241da68cdbf095fc50cd7a3b
+    new: d5c37391b519f0232571288c0de4814e60688731
     log: |
-         40f5175d0eb77f902ba8e2a5df2a8f3a218c8843 iommufd: Implement sw_msi support natively
-         237603a46abf9637f9b71c6225293fac2b4d6ef7 iommu: Make @handle mandatory in iommu_{attach|replace}_group_handle()
-         473ec072a63370e37dddbadb2a7cc2419a0fdb28 iommu: Drop iommu_group_replace_domain()
-         e1ea9d30d84c65e96eba27b240be5b6798350490 iommu: Store either domain or handle in group->pasid_array
-         5e9f822c9c683ae884fa5e71df41d1647b2876c6 iommu: Swap the order of setting group->pasid_array and calling attach op of iommu drivers
+         5c665a5d0a9235ebbe76d9579b410f7a7f09726d f2fs: fix to do sanity check inode footer in f2fs_get_inode_page()
+         d5c37391b519f0232571288c0de4814e60688731 f2fs: fix to do sanity check xattr node footer in f2fs_get_xnode_page()
          
