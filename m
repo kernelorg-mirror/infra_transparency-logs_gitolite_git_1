@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
-Date: Fri, 28 Feb 2025 12:43:02 -0000
-Message-Id: <174074658247.2041880.5954104412757817812@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Fri, 28 Feb 2025 12:45:54 -0000
+Message-Id: <174074675411.2045396.10994081573606570033@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-integrator
-user: linusw
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/tags/arm-generic-entry-for-v6.15
-    old: 0000000000000000000000000000000000000000
-    new: ca08c29eda29d9c6fc22a4fc3f7e217bad7bfb1c
+  - ref: refs/heads/work.pidfs.reaped
+    old: 9c3a947ba4af88eda5ad408c39bd8eff376b9c4a
+    new: 059a3691883643f47b4ca9dae321e0dac9179e5f
+    log: |
+         059a3691883643f47b4ca9dae321e0dac9179e5f pidfs: provide information after task has been reaped
+         
