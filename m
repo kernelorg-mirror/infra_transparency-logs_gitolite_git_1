@@ -1,48 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============8097869961606150122=="
+Content-Type: multipart/mixed; boundary="===============6638654186762284518=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Fri, 28 Feb 2025 17:42:11 -0000
-Message-Id: <174076453137.2317102.14071621599708531404@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 28 Feb 2025 17:47:26 -0000
+Message-Id: <174076484687.2321925.3993774776218984814@gitolite.kernel.org>
 
---===============8097869961606150122==
+--===============6638654186762284518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-next/kspp
-    old: dc95913ce686acb13f5f961ef49adc0ba7281439
-    new: 3fe3ab91f9fa5c05ae21f02961a0ae559aa6dbfd
-    log: |
-         662cc05509e39db50ec310eaa617e4ae85f39de3 compiler.h: Introduce __must_be_noncstr()
-         82f87d34cd81fb351cdc186ac73646e24a397754 string.h: Validate memtostr*()/strtomem*() arguments more carefully
-         3fe3ab91f9fa5c05ae21f02961a0ae559aa6dbfd Merge branch 'for-next/hardening' into for-next/kspp
-         
+  - ref: refs/heads/master
+    old: 76544811c850a1f4c055aa182b513b7a843868ea
+    new: 276f98efb64a2c31c099465ace78d3054c662a0f
+    log: revlist-76544811c850-276f98efb64a.txt
 
---===============8097869961606150122==
+--===============6638654186762284518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-76544811c850-276f98efb64a.txt
 
-certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1740764559 -0800
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1740764528-a18067e0976b64a77a1364dd6e412223d9e32209
+174e5e9da4f5946de3d09c32ee56cbbc9d70505b efi/cper: Fix cper_ia_proc_ctx alignment
+d6a2d02aa060531607f4a8411ec384470faa2761 efi/cper: Fix cper_arm_ctx_info alignment
+cb6ae457bc6af58c84a7854df5e7e32ba1c6a715 efivarfs: Defer PM notifier registration until .fill_super
+889c57066ceee5e9172232da0608a8ac053bb6e5 block: make segment size limit workable for > 4K PAGE_SIZE
+6ebf05189dfc6d0d597c99a6448a4d1064439a18 io_uring/net: save msg_control for compat
+a6aa36e957a1bfb5341986dec32d013d23228fe1 block: Remove zone write plugs when handling native zone append writes
+fc20737d8b85691ecabab3739ed7d06c9b7bc00f efivarfs: allow creation of zero length files
+2b90e7ace79774a3540ce569e000388f8d22c9e0 efi: Don't map the entire mokvar table to determine its size
+e3cf2d91d0583cae70aeb512da87e3ade25ea912 efi/mokvar-table: Avoid repeated map/unmap of the same page
+b654f7a51ffb386131de42aa98ed831f8c126546 block: fix 'kmem_cache of name 'bio-108' already exists'
+ea185bdedb738b9ace114dd6806e95ccd53c6c52 Merge tag 'efi-fixes-for-v6.14-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
+3e5d15dd83e110da062d825be985529aa1d44029 Merge tag 'io_uring-6.14-20250228' of git://git.kernel.dk/linux
+276f98efb64a2c31c099465ace78d3054c662a0f Merge tag 'block-6.14-20250228' of git://git.kernel.dk/linux
 
-dc95913ce686acb13f5f961ef49adc0ba7281439 3fe3ab91f9fa5c05ae21f02961a0ae559aa6dbfd refs/heads/for-next/kspp
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCZ8H1jwAKCRA2KwveOeQk
-u0GaAQDykSfacNO01htZHEEFpHOsz4wlztZk2lkC5OvM3XrT1QD/ZOBCn+D6tNk4
-vXvDRAXq3c3KPj1hHqrzfjVTETsDXAU=
-=6SV9
------END PGP SIGNATURE-----
-
---===============8097869961606150122==--
+--===============6638654186762284518==--
