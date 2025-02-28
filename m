@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0069994123434305352=="
+Content-Type: multipart/mixed; boundary="===============7225609073629876511=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Fri, 28 Feb 2025 16:51:08 -0000
-Message-Id: <174076146832.2265512.12872641269815358644@gitolite.kernel.org>
+Date: Fri, 28 Feb 2025 16:52:09 -0000
+Message-Id: <174076152983.2266130.11223506630483687491@gitolite.kernel.org>
 
---===============0069994123434305352==
+--===============7225609073629876511==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,43 +17,41 @@ user: bonzini
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 982caaa1150479f022003390cd72a1941663d211
-    new: a56680abcb9578708477a8d645f9940c9de5cfbd
+    old: a56680abcb9578708477a8d645f9940c9de5cfbd
+    new: 3c20b0953a00780144e604587125ce8437bd7bb4
     log: |
-         cab17e9868e1d52f828dba56d276cbb73095157f vhost: return task creation error instead of NULL
-         a56680abcb9578708477a8d645f9940c9de5cfbd kvm: retry nx_huge_page_recovery_thread creation
+         3c20b0953a00780144e604587125ce8437bd7bb4 kvm: retry nx_huge_page_recovery_thread creation
          
   - ref: refs/heads/next
-    old: 982caaa1150479f022003390cd72a1941663d211
-    new: a56680abcb9578708477a8d645f9940c9de5cfbd
+    old: a56680abcb9578708477a8d645f9940c9de5cfbd
+    new: 3c20b0953a00780144e604587125ce8437bd7bb4
     log: |
-         cab17e9868e1d52f828dba56d276cbb73095157f vhost: return task creation error instead of NULL
-         a56680abcb9578708477a8d645f9940c9de5cfbd kvm: retry nx_huge_page_recovery_thread creation
+         3c20b0953a00780144e604587125ce8437bd7bb4 kvm: retry nx_huge_page_recovery_thread creation
          
 
---===============0069994123434305352==
+--===============7225609073629876511==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1740761493 -0500
+pusher Paolo Bonzini <pbonzini@redhat.com> 1740761557 -0500
 pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1740761463-0d224b1fd755cc2314608350aa34eec80163cc16
+nonce 1740761527-75d56750ff8df160cbf975fa31aa146da7e3b006
 
-982caaa1150479f022003390cd72a1941663d211 a56680abcb9578708477a8d645f9940c9de5cfbd refs/heads/master
-982caaa1150479f022003390cd72a1941663d211 a56680abcb9578708477a8d645f9940c9de5cfbd refs/heads/next
+a56680abcb9578708477a8d645f9940c9de5cfbd 3c20b0953a00780144e604587125ce8437bd7bb4 refs/heads/master
+a56680abcb9578708477a8d645f9940c9de5cfbd 3c20b0953a00780144e604587125ce8437bd7bb4 refs/heads/next
 -----BEGIN PGP SIGNATURE-----
 
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmfB6ZUUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroODRgf8Do0YbbjLNXrmPxYtvvHWLeGAONJq
-hI9b4MGVbPNHXOJR2ClEjuXux2pnp2tjRelkARUY38gmMhwMaMDDqT0pKFFt70/g
-5ksYIJK7o+9BrmrM64EXdCnW+CboXdor7X7gFu/fnOvFzBD//CJxeeL34qkEew/N
-yVph+dUQpG2kuD7LGF43tMJbyh62EbK3wIEW9pbQ7Oaj3c48X0P4HADN7NmxMEbe
-phqha7C+SICi10hBYDFaCfxbtwgofT3d3+GInfUGl2qQ4HclRfpxXJ3vC9dPP/JS
-5yUsxFlw1ijbOoyvsu214i5yqV+Ln9J2ZVtAmRU8xbaWtPjrDocm1C2rww==
-=qyEg
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmfB6dUUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroOpiQf9HnYZp/U9M+7HVFftTh242npb76oN
+1JAMvVPm0v+ncCEYyoeknfUDOHMUy0ERcGGhWp5S8AXqNs+9eUXPuOpPHYn8KzVs
+4w7TI+waI9cFoL8CUyFhM8lDdByqDqN+9TnQ80UqB3QfN1WeZOtOIkvCxVxWqUhW
+GGUyPX9rdvxxbRc0ULN24sqTurx/O1fXMy2rfPKd2ojY2RrohT1PbU/Zwiyy02hl
+M6WIe+43lTBLLw6bo1llAc4qiq3aQmuefDjYLYEHQDGguDXa6JOfRPtvFRI5/Fc4
+7M+GrGFDkilinwTfJC4QFPxl7d5QHsgUeTPEN3SjUw7/Pp7tKlQ/mGWjsQ==
+=gU+7
 -----END PGP SIGNATURE-----
 
---===============0069994123434305352==--
+--===============7225609073629876511==--
