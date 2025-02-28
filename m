@@ -1,30 +1,59 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 28 Feb 2025 16:49:34 -0000
-Message-Id: <174076137440.2262855.6577496164222390259@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0069994123434305352=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/virt/kvm/kvm
+Date: Fri, 28 Feb 2025 16:51:08 -0000
+Message-Id: <174076146832.2265512.12872641269815358644@gitolite.kernel.org>
+
+--===============0069994123434305352==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/virt/kvm/kvm
+user: bonzini
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.15/io_uring
-    old: ed9f3112a8a8f6e6919d3b9da2651fa302df7be3
-    new: bedc9cbc5f9709b97646fe3423dbf530b74b09d5
+  - ref: refs/heads/master
+    old: 982caaa1150479f022003390cd72a1941663d211
+    new: a56680abcb9578708477a8d645f9940c9de5cfbd
     log: |
-         6aecda00b7d1e187c31e702d607d2b51bbcddbcc selftests: ublk: add kernel selftests for ublk
-         5d95bfb5357111028b7a37464d1a18702722efe9 selftests: ublk: add file backed ublk
-         bedc9cbc5f9709b97646fe3423dbf530b74b09d5 selftests: ublk: add ublk zero copy test
+         cab17e9868e1d52f828dba56d276cbb73095157f vhost: return task creation error instead of NULL
+         a56680abcb9578708477a8d645f9940c9de5cfbd kvm: retry nx_huge_page_recovery_thread creation
          
-  - ref: refs/heads/for-next
-    old: a8f4a100740d699eda6b64a03bde25ac7453ab4a
-    new: 590f25e543b895578e10282b8d8fd0701ceea6ca
+  - ref: refs/heads/next
+    old: 982caaa1150479f022003390cd72a1941663d211
+    new: a56680abcb9578708477a8d645f9940c9de5cfbd
     log: |
-         6aecda00b7d1e187c31e702d607d2b51bbcddbcc selftests: ublk: add kernel selftests for ublk
-         5d95bfb5357111028b7a37464d1a18702722efe9 selftests: ublk: add file backed ublk
-         bedc9cbc5f9709b97646fe3423dbf530b74b09d5 selftests: ublk: add ublk zero copy test
-         590f25e543b895578e10282b8d8fd0701ceea6ca Merge branch 'for-6.15/io_uring' into for-next
+         cab17e9868e1d52f828dba56d276cbb73095157f vhost: return task creation error instead of NULL
+         a56680abcb9578708477a8d645f9940c9de5cfbd kvm: retry nx_huge_page_recovery_thread creation
          
+
+--===============0069994123434305352==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Paolo Bonzini <pbonzini@redhat.com> 1740761493 -0500
+pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
+nonce 1740761463-0d224b1fd755cc2314608350aa34eec80163cc16
+
+982caaa1150479f022003390cd72a1941663d211 a56680abcb9578708477a8d645f9940c9de5cfbd refs/heads/master
+982caaa1150479f022003390cd72a1941663d211 a56680abcb9578708477a8d645f9940c9de5cfbd refs/heads/next
+-----BEGIN PGP SIGNATURE-----
+
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmfB6ZUUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroODRgf8Do0YbbjLNXrmPxYtvvHWLeGAONJq
+hI9b4MGVbPNHXOJR2ClEjuXux2pnp2tjRelkARUY38gmMhwMaMDDqT0pKFFt70/g
+5ksYIJK7o+9BrmrM64EXdCnW+CboXdor7X7gFu/fnOvFzBD//CJxeeL34qkEew/N
+yVph+dUQpG2kuD7LGF43tMJbyh62EbK3wIEW9pbQ7Oaj3c48X0P4HADN7NmxMEbe
+phqha7C+SICi10hBYDFaCfxbtwgofT3d3+GInfUGl2qQ4HclRfpxXJ3vC9dPP/JS
+5yUsxFlw1ijbOoyvsu214i5yqV+Ln9J2ZVtAmRU8xbaWtPjrDocm1C2rww==
+=qyEg
+-----END PGP SIGNATURE-----
+
+--===============0069994123434305352==--
