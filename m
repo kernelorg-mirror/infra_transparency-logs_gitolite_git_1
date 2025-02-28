@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Fri, 28 Feb 2025 15:32:22 -0000
-Message-Id: <174075674234.2185052.4685143791139680880@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
+Date: Fri, 28 Feb 2025 15:35:48 -0000
+Message-Id: <174075694894.2188749.6394246772970180659@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/chao/linux
+user: chao
 changes:
-  - ref: refs/heads/gpio/for-current
-    old: d082ecbc71e9e0bf49883ee4afd435a77a5101b6
-    new: 64407f4b5807dc9dec8135e1bfd45d2cb11b4ea0
+  - ref: refs/heads/bugfix/syzbot
+    old: 32d48dcf113f5cefe690a1961106ccc2ad6f60b7
+    new: 447e14c72b5e9229f0acdc51b035ab2b6e19577f
     log: |
-         64407f4b5807dc9dec8135e1bfd45d2cb11b4ea0 gpiolib: Fix Oops in gpiod_direction_input_nonotify()
+         447e14c72b5e9229f0acdc51b035ab2b6e19577f f2fs: fix to do sanity check xattr node footer in f2fs_get_xnode_page()
          
