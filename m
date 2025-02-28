@@ -1,21 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
-Date: Fri, 28 Feb 2025 15:06:57 -0000
-Message-Id: <174075521766.2160388.11898522701916871795@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1733698945392776035=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Fri, 28 Feb 2025 15:17:06 -0000
+Message-Id: <174075582649.2168758.18061037206488716195@gitolite.kernel.org>
+
+--===============1733698945392776035==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
-user: jejb
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 84a25d89522de1efc234e195a18514e253feb061
-    new: a20723ba548ec14809be789411e2074fdda405fa
+    old: ec49467dc0fd7d01d046d30c7e5cf90fb06321b4
+    new: d733ae7424b3b88e5cedf600a6cdc59d8b1bdd1f
     log: |
-         31eabd998b0820f04581cfcd1b8be87a02b364af Fix TLS certificate generation with TPM key
-         1649151f3cf7bde683ea8d771be92e94038d5c4d Fix problem with openvpn and the tpm2 provider
-         a20723ba548ec14809be789411e2074fdda405fa Version 4.4.2
+         d733ae7424b3b88e5cedf600a6cdc59d8b1bdd1f Add 38DE270552497C47 (Marek Szyprowski)
          
+
+--===============1733698945392776035==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1740755855 -0500
+pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
+nonce 1740755825-7119c95959f3c5b6a9c0e526eed89cca9f76d27f
+
+ec49467dc0fd7d01d046d30c7e5cf90fb06321b4 d733ae7424b3b88e5cedf600a6cdc59d8b1bdd1f refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZ8HTjwAKCRC2xBzjVmSZ
+bGbfAP9EP3BrwO6yZoHhyWPjIlDaBaDSDtZklZXp4TMKiueM8AEA3hZN7yePMcRN
+gQe1lBxQpwchfwqBiVpo4VJNBO85lQQ=
+=SsWA
+-----END PGP SIGNATURE-----
+
+--===============1733698945392776035==--
