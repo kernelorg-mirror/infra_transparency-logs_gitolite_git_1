@@ -1,23 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Fri, 28 Feb 2025 18:50:48 -0000
-Message-Id: <174076864883.2383474.17387214067917238252@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5043572563389303394=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Fri, 28 Feb 2025 18:51:11 -0000
+Message-Id: <174076867180.2383855.15212197475044120651@gitolite.kernel.org>
+
+--===============5043572563389303394==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/asm-call-constraint-fix
-    old: 891796f70ea383c4832e286c8337fd49255f168f
-    new: 2373cd3097d0571c86f05326fd66e213ac75d277
+  - ref: refs/heads/master
+    old: d733ae7424b3b88e5cedf600a6cdc59d8b1bdd1f
+    new: b1febb9a104f8608ff08f3bc610ba9c0e6c5f1b7
     log: |
-         36589ac2f126112ed84c85c25ed1b93da2b94003 KVM: VMX: Use named operands in inline asm
-         ff6163b63be354fe4828ca68c510f6d316f08496 x86/hyperv: Use named operands in inline asm
-         ae0101f41eb371ee0aa3436e1468d723b16f2b60 x86/alternative: Simplify alternative_call() interface
-         b1fa9f1804329cca0b8bc02e8f4a35322d6b7a58 x86: Convert ASM_CALL_CONSTRAINT to input constraint
-         2373cd3097d0571c86f05326fd66e213ac75d277 x86: Make ASM_CALL_CONSTRAINT conditional on frame pointers
+         b1febb9a104f8608ff08f3bc610ba9c0e6c5f1b7 Update 0BAA159BA80750A9 (Andi Shyti)
          
+
+--===============5043572563389303394==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1740768700 -0500
+pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
+nonce 1740768670-9622b97daaf93e00a2fd9dd84121335803d7c16b
+
+d733ae7424b3b88e5cedf600a6cdc59d8b1bdd1f b1febb9a104f8608ff08f3bc610ba9c0e6c5f1b7 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZ8IFvAAKCRC2xBzjVmSZ
+bAFQAPsH57TBrZHJQdNfOvrDYkVfb/BwWFGfUj8SlLHm0LYRrAEAsbTk17bZK7m7
+mIEiRN83NZ/9jrU76JIjQx/UxjJtwQM=
+=rD4h
+-----END PGP SIGNATURE-----
+
+--===============5043572563389303394==--
