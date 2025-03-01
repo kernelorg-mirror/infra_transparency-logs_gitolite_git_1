@@ -1,25 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 01 Mar 2025 03:36:52 -0000
-Message-Id: <174080021220.2816149.12329624512832823867@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 01 Mar 2025 04:27:49 -0000
+Message-Id: <174080326977.2860956.16100999098816898503@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/testing
-    old: faeaa1ec6c63b6676679f321601471772f2a0c9b
-    new: bd9ffb54e566ad6f94ec4293f82f06d417b6cfc8
+  - ref: refs/heads/master
+    old: 7a5668899f54f6c9fe8619ecec23fb682d463f4a
+    new: 03d38806a902b36bf364cae8de6f1183c0a35a67
     log: |
-         0080b125beb71e9b2a6e55dc28d38542ab728c03 iio: adc: adi-axi-adc: replace of.h with mod_devicetable.h
-         2e9ac2510b9a9c9c35630d7839bf70098a8038d2 iio: adc: ad4695: fix out of bounds array access
-         f85d4d6cd4c3b4f1ac673ca66d82be0b8858d0e0 iio: adc: ad4695: simplify getting oversampling_ratio
-         747569c69242d063308ee3278c59bbf03cd00054 docs: iio: fix wrong driver name in documentation
-         6eb5b3555ca83e30a4fb99d068c846e8951a7eab iio: gyro: bmg160_i2c: add BMI088 to of_match_table
-         ee76b2162b638b343e3a68f8089a4a86e3abc1b8 iio: dac: adi-axi-dac: add io_mode check
-         bd9ffb54e566ad6f94ec4293f82f06d417b6cfc8 iio: imu: bmi270: move private struct declaration to source file
+         4ecaa75771a75f2b78a431bf67dea165d19d72a6 thermal: gov_power_allocator: Fix incorrect calculation in divvy_up_power()
+         423de5b5bc5b267586b449abd1c4fde562aa0cf9 thermal/of: Fix cdev lookup in thermal_of_should_bind()
+         0cde378a10c1cbfaa8dd2b89672d42f36c2809c3 thermal: gov_power_allocator: Update total_weight on bind and cdev updates
+         c157d351460bcf202970e97e611cb6b54a3dd4a4 intel_idle: Handle older CPUs, which stop the TSC in deeper C states, correctly
+         14ebe69091935d65d9dc452c1bad8fed20d06c29 Merge tag 'pm-6.14-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+         03d38806a902b36bf364cae8de6f1183c0a35a67 Merge tag 'thermal-6.14-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
          
