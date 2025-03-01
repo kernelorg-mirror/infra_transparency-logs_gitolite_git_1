@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4471633271802271079=="
+Content-Type: multipart/mixed; boundary="===============1701067239596497289=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Sat, 01 Mar 2025 07:54:27 -0000
-Message-Id: <174081566786.3025778.1850210976565864679@gitolite.kernel.org>
+Date: Sat, 01 Mar 2025 07:54:50 -0000
+Message-Id: <174081569059.3026723.13188801374831108706@gitolite.kernel.org>
 
---===============4471633271802271079==
+--===============1701067239596497289==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,44 +16,36 @@ repo: pub/scm/virt/kvm/kvm
 user: bonzini
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 3c20b0953a00780144e604587125ce8437bd7bb4
-    new: 916b7f42b3b3b539a71c204a9b49fdc4ca92cd82
-    log: |
-         cb380909ae3b1ebf14d6a455a4f92d7916d790cb vhost: return task creation error instead of NULL
-         916b7f42b3b3b539a71c204a9b49fdc4ca92cd82 kvm: retry nx_huge_page_recovery_thread creation
-         
-  - ref: refs/heads/next
-    old: 3c20b0953a00780144e604587125ce8437bd7bb4
-    new: 916b7f42b3b3b539a71c204a9b49fdc4ca92cd82
+  - ref: refs/tags/for-linus
+    old: 5db0c9507c0e3963b4f94ee3322f50ed22ad3be2
+    new: b2cd9c9f6cbb7460d8c119960296de8fc983dc27
     log: |
          cb380909ae3b1ebf14d6a455a4f92d7916d790cb vhost: return task creation error instead of NULL
          916b7f42b3b3b539a71c204a9b49fdc4ca92cd82 kvm: retry nx_huge_page_recovery_thread creation
          
 
---===============4471633271802271079==
+--===============1701067239596497289==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1740815692 -0500
+pusher Paolo Bonzini <pbonzini@redhat.com> 1740815718 -0500
 pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1740815662-7b0c03f296a91786ce2cf122f2627d9c4cb094f3
+nonce 1740815688-b8438fa6e720d4fc5d61c354c583cba90bdff2c7
 
-3c20b0953a00780144e604587125ce8437bd7bb4 916b7f42b3b3b539a71c204a9b49fdc4ca92cd82 refs/heads/master
-3c20b0953a00780144e604587125ce8437bd7bb4 916b7f42b3b3b539a71c204a9b49fdc4ca92cd82 refs/heads/next
+5db0c9507c0e3963b4f94ee3322f50ed22ad3be2 b2cd9c9f6cbb7460d8c119960296de8fc983dc27 refs/tags/for-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmfCvU0UHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroPLiAgAko+mtENuxSOJsCqDgpPw6kd3B3Be
-LwPOnk16RstQgSTvu8AziHzx5HtKZmHurj0CY0+BRHddAM5v+ZXnd6zjpREsJg1U
-BuheM7UXnjI9mAgxwgrvzPlm6PnHQepthBloPhKPD3hhUc3lgjoARGbptFZy88TK
-4tBTlySWNv05/5g6HU4XOG3fr+fVqFGPiEWWXHjmHi+zMhtaPnj3zfpGPVhVTAKQ
-RvOVXS+a9frZwpnV62h4u9KgV8+GMpFKav4FcrjHVWzgAvP2+jywJo2aiJlfRx/D
-C1ao4vN4ftp6ZI/+T1kdblEz6z8/1UjlnmbUE3iYIDJ+auuu/kWynTbGyg==
-=GV5T
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmfCvWYUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroP4FAgApHekItRN0ZkC8eIqZuzUd9ppKF0S
+s/PewS/x4EDZXl+fLDZIPraT0/87eh3E0QnvoHKI02TN2yQLHNuBMGYmchHKSyvz
+rnAwvPO0qZ+lM6+gIx8qRFdtmWctmqhJqVAeofoRU56ojwc0KLYuNhSbHWctsjJX
+kvi6rf6eEHi+VlDe/lXPLhxip+lxXCjc+9XMRbpNL9wHmPLwrN6y6wvN5rFyUoXH
+m/nbL+1z0G1pbO9xktlt+2xpzLW8ij4OlYCIpjGR6OTt8A5jTOx1QsfbS2nWAXVz
+tkS5sl5EYJX0cya8UoAhsw0Q6r2BBwWkdexyMfof7dYR2mQQx7yKL0HFIA==
+=YWpl
 -----END PGP SIGNATURE-----
 
---===============4471633271802271079==--
+--===============1701067239596497289==--
