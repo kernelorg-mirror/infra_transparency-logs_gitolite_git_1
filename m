@@ -1,56 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============2123236913416754142=="
+Content-Type: multipart/mixed; boundary="===============3991005191715097244=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Sat, 01 Mar 2025 07:21:12 -0000
-Message-Id: <174081367249.3000101.15059392379766341540@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Sat, 01 Mar 2025 07:30:30 -0000
+Message-Id: <174081423056.3008014.14107387887231610160@gitolite.kernel.org>
 
---===============2123236913416754142==
+--===============3991005191715097244==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: da2b44bcd7923b5a5023895014e300da4950f429
-    new: 84602582318ea3e60ea0c00ca432627225800817
+  - ref: refs/heads/driver-core-next
+    old: 040b17ae0e15bd7100432e0a20c6557d463a8c9f
+    new: 21b0dc55bed6d9b5dd5d1ad22b75d9d1c7426bbc
     log: |
-         84602582318ea3e60ea0c00ca432627225800817 proposed: Add Ruiqi's CVE review of v6.13.3
+         6853d9d13dbe596a73ae968e6fb27ba9680b2441 rust/faux: Drop #[repr(transparent)] from faux::Registration
+         95cb0cb546c2892b7a31ff2fce6573f201a214b8 rust/faux: Add missing parent argument to Registration::new()
+         21b0dc55bed6d9b5dd5d1ad22b75d9d1c7426bbc driver core: faux: only create the device if probe() succeeds
          
 
---===============2123236913416754142==
+--===============3991005191715097244==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1740813628 -0800
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1740813668-71cbd1715d40842b5e4928f1ca3d4c41d523cdfc
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1740814189 -0800
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1740814229-7b932c6e11a5b1cf97102ba082410ea29cec9463
 
-da2b44bcd7923b5a5023895014e300da4950f429 84602582318ea3e60ea0c00ca432627225800817 refs/heads/master
+040b17ae0e15bd7100432e0a20c6557d463a8c9f 21b0dc55bed6d9b5dd5d1ad22b75d9d1c7426bbc refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfCtTwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3XEP/2DIADrH7g6lczx1EX3M
-uEgnEHAfs1Ui6YsKRFTM5Xz2EFsLipAX9TXHAhpjRkDFUPY9ZBMAdE/np8nb3AQh
-kFJnH7DSYFCCOWqhQN6dXiXOgC2brKmiJXUEu2GFhzTJX5uwSDZJltCpvLAaP+se
-iNQJAWKnfrnqPIZUvRWeFBkrZTY2EqAzrMQX1c96rnEtygUntG9F5OcLvjWCbLzh
-0pj/9dfgKiyMnZws0VT7KsRwsx5HFxTIHF2SVQki+sb2tp9RYODqTVcnG5/ncGg+
-mSfqDkBskt5E0sL7N57m/6soCFBJQOVm8xtPiqEL0C4/yAp9a48AHSo/jWyJuy1S
-4bOMwxwYZwDCW2q5pXO6gJhHUUgXbpmdDxnMWTFZrcDGu58wbvFAnn+XPVQ8Yvlj
-FbLjBWpVziWu961k4xBMp9IVxkFKbsNNklT8JsbHetpDYCXKFGqgDUGFaLFXSu1V
-IDnricF9S6ouJ0i4knpL3GouIkxBzBC7XWB+Q/EDe9jCNweO7pt5Emutr9OXNP78
-Fsa/i4Zl/9VFUvINDZ/2WDChLlWjrEz0nYbaFq3ChFIAdE6SK46C3YCbGijv5Uj5
-ZRVobJKAYTHtlRKU2DckpbIv0AmzQQLrR1TIgoCQC5qzuFRcWGIs/vPw5o0+EDBZ
-M9UQIdfTP+9e5v7K6EyQvHfE
-=88/x
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfCt20bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zMAP/iaDb/TpzjyjRTG+apS1
+0BtCZr4e+4/pK6qC6zYN2FKDz2W9bW9T0sEjVHvHFc6SxGzLGQWmuHU3AKY6269a
+jR2oS/BY9Y9RCIyKOhVvHl9iuEvpzalxZX/PQftve6zLbxzyZotzhQEpIRwMuxAS
+FN64AZsgwKoMV8klQXws1U9WHCFGcMZfaKDhFFwWJzc8IwyFg0vCLDdJ/e/d1zZr
+XW8/c5huQerr9axIwEL/fzYGQmx7/BF+tUPQLYMDvWMazWKPDBj8C+UW/UJkGyWr
+Y2PVjmk7W9Imv+pA4LGf17IUeRcwOF/77EufWrTcfdWc6SDaXNXWJnV8F4C87Xks
+HUiruy7RQJSMy3lKjSI0eIMsjbQs0NtLB7OJ7n+ZYj0htZ78sw8Km0G9BsEL/KAB
+JHxKyA3d+W2jc4H//zZUVnKTQA101MFAplEMjLGtzesoH53EgSMOiLfOXV41LQq1
+xXbUWn/lu+jcZr/azulofaJyvYqMbP+HtvXByhKuSTkq7TeRtJ2zpvB7smPfTsKA
+dY82Y394ARpStLvZKeeUEx0MNxn6Isr4Roj7FypTnXXLblYk+rJrHQu93lIMp8D9
+qYp8HIdTnEOSErannWcUwV9PsZgtQL3YvnStREMH1gKBXOC1rTl/M/prPym3ohLX
+4sPvKvaEmglcS06wg5ROP6V6
+=uSS4
 -----END PGP SIGNATURE-----
 
---===============2123236913416754142==--
+--===============3991005191715097244==--
