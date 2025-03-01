@@ -1,43 +1,82 @@
-Content-Type: multipart/mixed; boundary="===============0477854918142516329=="
+Content-Type: multipart/mixed; boundary="===============4983018398019107714=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Sat, 01 Mar 2025 13:54:28 -0000
-Message-Id: <174083726887.3311598.8092443162593022884@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Sat, 01 Mar 2025 14:12:33 -0000
+Message-Id: <174083835357.3326732.12284993944175877373@gitolite.kernel.org>
 
---===============0477854918142516329==
+--===============4983018398019107714==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-user: chenhuacai
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/loongarch-next
-    old: 9b2ebce49f95b68d9cd65356c6bc441f483cc3dc
-    new: 89c866ff71ae35c4a1068bf74d1a7daec8834fdb
-    log: revlist-9b2ebce49f95-89c866ff71ae.txt
+  - ref: refs/heads/for-next
+    old: db9af58db84e1e2867ea90fe20e2cf5078a7c097
+    new: e57b17c06ae5720e70b9d7a9fddbb8c1335470ee
+    log: |
+         6662c09c0ddf10ef97b430533bb9e2f0a8fbe471 dt-bindings: clock: add Exynos2200 SoC
+         35b2b3328c2e02b544f49d010170fe981f20ff11 dt-bindings: clock: add clock definitions and documentation for exynos7870 CMU
+         d434e7851caf9352e014f6f527a32ff61b014cd7 Merge branch 'for-v6.15/samsung-clk-dt-bindings' into next/clk
+         f33807c30664d2b134ba17f2ae0740acbe91986a clk: samsung: clk-pll: add support for pll_4311
+         11fd259b7a9c386179f4bb9657c7597c8e8de067 clk: samsung: introduce Exynos2200 clock driver
+         4149066a5e958963f7123be51d3a65d336045c21 clk: samsung: add initial exynos7870 clock driver
+         e57b17c06ae5720e70b9d7a9fddbb8c1335470ee Merge branch 'next/clk' into for-next
+         
+  - ref: refs/heads/for-v6.15/samsung-clk-dt-bindings
+    old: 7fa119f5707f12f3ac00726345ea6b7a22977ab6
+    new: 35b2b3328c2e02b544f49d010170fe981f20ff11
+    log: |
+         6662c09c0ddf10ef97b430533bb9e2f0a8fbe471 dt-bindings: clock: add Exynos2200 SoC
+         35b2b3328c2e02b544f49d010170fe981f20ff11 dt-bindings: clock: add clock definitions and documentation for exynos7870 CMU
+         
+  - ref: refs/heads/next/clk
+    old: d19d7345a7bcdb083b65568a11b11adffe0687af
+    new: 4149066a5e958963f7123be51d3a65d336045c21
+    log: |
+         6662c09c0ddf10ef97b430533bb9e2f0a8fbe471 dt-bindings: clock: add Exynos2200 SoC
+         35b2b3328c2e02b544f49d010170fe981f20ff11 dt-bindings: clock: add clock definitions and documentation for exynos7870 CMU
+         d434e7851caf9352e014f6f527a32ff61b014cd7 Merge branch 'for-v6.15/samsung-clk-dt-bindings' into next/clk
+         f33807c30664d2b134ba17f2ae0740acbe91986a clk: samsung: clk-pll: add support for pll_4311
+         11fd259b7a9c386179f4bb9657c7597c8e8de067 clk: samsung: introduce Exynos2200 clock driver
+         4149066a5e958963f7123be51d3a65d336045c21 clk: samsung: add initial exynos7870 clock driver
+         
 
---===============0477854918142516329==
+--===============4983018398019107714==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9b2ebce49f95-89c866ff71ae.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-49c5cb6662fc4b1fe7c39c8af9b3957e54f0e3ac LoongArch: Always select HAVE_VIRT_CPU_ACCOUNTING_GEN
-7cb87de0b883c038ff5038e25c7f260b67641fb4 LoongArch: Enable UBSAN (Undefined Behavior Sanitizer)
-f26dd3549ea76f3a4fef416b72b79de6cdca4af0 LoongArch: Eliminate superfluous get_numa_distances_cnt()
-c13c4cac68ac591336ec76196373b98749f7b735 LoongArch: Use polling play_dead() when resuming from hibernation
-32bb5bb258a2dfb175c960394c8bec70b330bd9c LoongArch: vDSO: Remove --hash-style=sysv
-aa9c91bc0c56514dbfa23a02283aa66643229c46 LoongArch: vDSO: Make use of the t8 register for vgetrandom-chacha
-c6a00319bfd8a09ad9082d08d0dbea017e063c5e LoongArch: KVM: Remove unnecessary header include path
-db0ea8c56b35f4907da26537b3ca48ebafbb976f LoongArch: KVM: Remove PGD saving during VM context switch
-1c921e15b952aa765f53dfdb8e0b11a62bc8deb9 LoongArch: KVM: Fix GPA size issue about VM
-ee12809df710cda3b568f2fabf2e689bbff61e34 LoongArch: KVM: Add stub for kvm_arch_vcpu_preempted_in_kernel()
-6251d8bdca63c3a6346fb00943c6105031ab62f9 LoongArch: KVM: Implement arch-specific functions for guest perf
-49119a48c9b51a04c5743252ac5dc009df42c11a LoongArch: KVM: Register perf callbacks for guest
-89c866ff71ae35c4a1068bf74d1a7daec8834fdb Merge branch 'loongarch-kvm' into loongarch-next
+certificate version 0.1
+pusher krzk@kernel.org 1740838380 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1740838350-a8f4dd66a8d811781fe7cb38b84b250bb5d7c938
 
---===============0477854918142516329==--
+db9af58db84e1e2867ea90fe20e2cf5078a7c097 e57b17c06ae5720e70b9d7a9fddbb8c1335470ee refs/heads/for-next
+7fa119f5707f12f3ac00726345ea6b7a22977ab6 35b2b3328c2e02b544f49d010170fe981f20ff11 refs/heads/for-v6.15/samsung-clk-dt-bindings
+d19d7345a7bcdb083b65568a11b11adffe0687af 4149066a5e958963f7123be51d3a65d336045c21 refs/heads/next/clk
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmfDFewQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1/HpEACPcfIDFqaQ04O6xuwhA/HoygD55mtXvxPw
+pz61VIOX8fXfJwlQnj6imAZCQKN8CjT865XnrGQb2KL6F5yrXwPZi0nCxPKM1Xaq
+koS8d2ZE9Zj7gavOd46/QPLNxLj8HWSSxN/OaQ2CfjfXYq/AaImYsciOUzR4pjxe
+gQtV0c9Ei7iOhVzj94XK92roJzHh5oE/zcdD3eTf2TsjurSlCG+y43ShiXDWh8Bh
++iJbZnw6Pyfs4nk+HbHgh9NpLlcxExQngDARxXFEJUvWooVXahrw8rt7wkgOLEGR
+2yccf9mNKUJP7V7sHyhY7ZaVW5qKCPsbbHYaWaTlMAATs1TQpsoCt1+7joOXsBBO
+9VD43xV4p8YaPpaRW2wkDBzyx0NcGv3Bp3LqxEYrSVTfXamnS0DamFp0QgSxYrOa
+J6lYb8KpzPhuqx6+RbrrTpt7iFkdZ0lXcmX1ZMSJJL6nla8SZDUMwN+Ae74E12Qj
+i/PXrvVhD7GCEgnSt6JDWR92Wt8ExcZYZ7uq4MurMUsOIOib59EJvKce8yiKTTN/
+04POMdbzvKp0pTD6d4ZQkej7GNH/Szu9YpRprN89dJXZD/cjx3NhMbKrjldiTB3k
+ocC8hcqhQVmckV3zuINWEICv0UFU43UWcLaTQcQdJwW9/qnw8he3VxFO2LZAn0+c
+2ajuSAK62A==
+=34tC
+-----END PGP SIGNATURE-----
+
+--===============4983018398019107714==--
