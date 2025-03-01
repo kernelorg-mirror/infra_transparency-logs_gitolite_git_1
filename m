@@ -1,48 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============0124556999343324014=="
+Content-Type: multipart/mixed; boundary="===============8861387010039720616=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Sat, 01 Mar 2025 18:51:04 -0000
-Message-Id: <174085506488.3550687.3937138232786862386@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
+Date: Sat, 01 Mar 2025 19:21:31 -0000
+Message-Id: <174085689142.3574414.16545536895484488745@gitolite.kernel.org>
 
---===============0124556999343324014==
+--===============8861387010039720616==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/sj/hkml
+user: sj
 changes:
-  - ref: refs/heads/futex/scope
-    old: 50063817f6e71b787d3ba96cca9d2fff7b3ea7ff
-    new: b37932a2988afdd932334774c6e7536f5f5e1f70
-    log: revlist-50063817f6e7-b37932a2988a.txt
+  - ref: refs/heads/master
+    old: b04c413bc99519f8dd73bba46a20477cc981c474
+    new: ea4549e5b459f26809dad04a013a9d63c0dbf216
+    log: revlist-b04c413bc995-ea4549e5b459.txt
 
---===============0124556999343324014==
+--===============8861387010039720616==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-50063817f6e7-b37932a2988a.txt
+Content-Disposition: attachment; filename=revlist-b04c413bc995-ea4549e5b459.txt
 
-bcd96f6ec7b7f03cdd6b6ea1efe6c88779c28b0a futex: Move futex_queue() into futex_wait_setup()
-69d539b926ac9c8f7edaadf9108932a3da014faf futex: Pull futex_hash() out of futex_q_lock()
-fb089f49cc5558ec765e1b984710fb99a358b108 futex: Create hb scopes
-14489346b588de792f6f5ba32b5df727f8d76702 futex: Create futex_hash() get/put class
-0fc66a1a51f44db23d2b0aa84b616f82eec4b9ad futex: Create helper function to initialize a hash slot.
-9244561a60feb7dd41b91dc6c8b5cd79da2af4c4 futex: Add basic infrastructure for local task local hash.
-e53f6eab1d1ce60378612bd9e9bb3683dae051f7 futex: Hash only the address for private futexes.
-cff7e84b1d233ad5619d4af4fdb88cef258a5cd6 futex: Allow automatic allocation of process wide futex hash.
-ccec7f01c39ce1a06aa76c0fe10d414ef2894867 futex: Decrease the waiter count before the unlock operation.
-c0e65c1911bc7ee13c13819a1a70771bafe9be2a futex: Introduce futex_q_lockptr_lock().
-c6de95089ebc43b77d5c85bd4752774046d12094 futex: Acquire a hash reference in futex_wait_multiple_setup().
-83d48a9734a39cb50e09755ee421e16b86a64a7e futex: Allow to re-allocate the private local hash.
-9212fed3f1a61f42f80a30bb2c0de7436fe618f1 futex: Resize local futex hash table based on number of threads.
-d8ecd07bfd7c228b0e54ef8a15386fadca12243f futex: s/hb_p/fph/
-dd171ee4c1247db197ab4b1cadae0572e33418f4 futex: Fix BASE_SMALL clone
-f6f798343bebd692a667531bf0c1ceed46126354 futex: Remove superfluous state
-44bcbe5284e76b0a4b74d43190d136d0ec0cb471 futex: Untangle and naming
-b37932a2988afdd932334774c6e7536f5f5e1f70 futex: Rework SET_SLOTS
+6205c57bbf68e5b6755ad2cb3a355131a8a54494 hkml_view_text: receive mails list on show_text_viewer()
+80412dd97aacfb7bb955c15ccba558d37ff09a25 hkml_view_text: send mails list to hkml_view_mails.handle_patches_of_mail()
+d3182b31cf618057d742b375abc1b4a3c6d2cb12 hkml_view_mails: pass mails list to hkml_view_text
+1bc8666796b34d25c00b0b1f88698b2f4c0b12f4 hkml_view_text: add a class for managing text viewer data
+d14caf31a365e219d98abf786c62d4b59c068b5b hkml_view_text: add a function for gettign showing mail
+3c4f3ecfc3e8c4e772f356c089a23f141a99f901 hkml_view_text: use get_Showing_mail()
+bf35946c964bfd4b47204c5fa680d0084c4a6dc7 hkml_view_text: implement and use is_showing_mail()
+0372297b3822e89e509fd443125281fa86429b30 hkml_view_text: use is_showing_mail() from get_showing_mail()
+bbec7e4b9fa4111fe53d44e2dfdf680ac051ee26 hkml_view_text: support TextViewData type slist.data
+dd62fbff2d34db4b2c77e40a56473143ab7dbfe9 hkml_view_mails: pass TextViewData to hkml_view_text
+d132a254b04fdfd5e6e86a115cd1e1341cab39ab hkml_view_text: remove handle_patches()
+40f4ceda3124401d715088d7747ef4d55a2f01c8 hkml_view_text: ensure slist.data is TextViewData
+cba7717ec84de6da8a36e9b52eeba479afb72ed7 hkml_view_text: directly use slist.data.mails_list instead of slist.mails
+9233c617b06c2f6247d3403d947edbeee93a263b hkml_view_mails: do not pass mails argument to show_text_viewer()
+0b95f33a1c8a7836e3cc232308fc7be2b99777b8 hkml_view_text: remove mails argument from show_text_viewer()
+180ee82d3a01fb6ca571452f5c58567a5bd2f96e hkml_view_text: drop unnecessary type check from get_showing_mail()
+2b6a41f545127069d8e2228df56edd5dd6ce15ce hkml_view_text: drop unnecessary type check from is_showing_mail()
+264191454ba08820fee2a87def998a82bdf38463 hkml_view_text: drop _hkml.Mail type data assumption from get_text_viewer_handlers()
+27faefed7ba9dd3a7c6a6eb4a607c7ec36b7ac95 hkml_patch: print patch file names after exporting
+f9f60269087f5dd89e6a8944a387670c930a84c3 hkml_signature: add epilog for explanation of the behavior
+ea4549e5b459f26809dad04a013a9d63c0dbf216 TODO: mark private patch handling as done
 
---===============0124556999343324014==--
+--===============8861387010039720616==--
