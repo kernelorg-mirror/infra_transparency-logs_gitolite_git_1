@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3088149764526411656=="
+Content-Type: multipart/mixed; boundary="===============6700129952871390842=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sun, 02 Mar 2025 21:19:47 -0000
-Message-Id: <174095038717.622217.1921005728749315341@gitolite.kernel.org>
+Date: Sun, 02 Mar 2025 21:20:22 -0000
+Message-Id: <174095042260.624237.14748565479775615530@gitolite.kernel.org>
 
---===============3088149764526411656==
+--===============6700129952871390842==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: f194595b9bd701e66dd0d2f13917cfab518a5c7f
-    new: fdbad10e134205ca8ac3181534de4b5c075b391e
-    log: revlist-f194595b9bd7-fdbad10e1342.txt
+  - ref: refs/heads/nfsd-testing
+    old: 707f5c1dc5320be41b05d75624fa6423e058f4a8
+    new: 20fb104bce253dbde7eb12dd5c6e196b76873ea4
+    log: revlist-707f5c1dc532-20fb104bce25.txt
 
---===============3088149764526411656==
+--===============6700129952871390842==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f194595b9bd7-fdbad10e1342.txt
+Content-Disposition: attachment; filename=revlist-707f5c1dc532-20fb104bce25.txt
 
 b9a49520679e98700d3d89689cc91c08a1c88c1d rcuref: Plug slowpath race in rcuref_put()
 d97505baea64d93538b16baf14ce7b8c1fbad746 RDMA/mlx5: Fix the recovery flow of the UMR QP
@@ -355,5 +355,16 @@ e0990a09cb985e36b4d1fecc87e7f9f97e369e81 NFSD: Re-organize nfsd_file_gc_worker()
 f3f0eb83e478481772360ff27a60df810908e3dc nfsd: filecache: introduce NFSD_FILE_RECENT
 0663b5651e175f06b4e79e603774290d8651bc21 nfsd: filecache: don't repeatedly add/remove files on the lru list
 fdbad10e134205ca8ac3181534de4b5c075b391e nfsd: filecache: drop the list_lru lock during lock gc scans
+f2496ffd51902fd80d71b01c36b7906d5efe9c5a nfsd: disallow file locking and delegations for NFSv4 reexport
+2f897ab2eda4d9256a099b2b38ca1b6487d8e6d7 nfsd: prevent callback tasks running concurrently
+18ea1d87b83434f6a2569f0175d933f1450b4454 nfsd: eliminate cl_ra_cblist and NFSD4_CLIENT_CB_RECALL_ANY
+383afeb8ce7a63d3f26697f9e3088beec588f7c1 nfsd: replace CB_GETATTR_BUSY with NFSD4_CALLBACK_RUNNING
+79ae614d38aa6052d80d257c649c9c7e6de30909 nfsd: move cb_need_restart flag into cb_flags
+d153af08ed80dd882365625bd6e7b641a988afb1 nfsd: handle errors from rpc_call_async()
+c0b918aa0d93acf6224d84de746a7a5fd68c81be NFSD: OFFLOAD_CANCEL should mark an async COPY as completed
+5fafe11eb445d83784637fb46d2fd525e83d48c0 NFSD: Shorten CB_OFFLOAD response to NFS4ERR_DELAY
+9c6a20fb78db74cb734bd33bc173ac959fa32ce4 NFSD: Implement CB_SEQUENCE referring call lists
+4835da1b76e022764ff2e8719414ce8746731f1b NFSD: Implement CB_SEQUENCE referring call lists
+20fb104bce253dbde7eb12dd5c6e196b76873ea4 NFSD: Record each NFSv4 call's session slot index
 
---===============3088149764526411656==--
+--===============6700129952871390842==--
