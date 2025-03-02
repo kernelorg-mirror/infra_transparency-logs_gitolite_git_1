@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3172925454075714783=="
+Content-Type: multipart/mixed; boundary="===============4062025507928589275=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Sun, 02 Mar 2025 10:41:41 -0000
-Message-Id: <174091210119.105744.14709484998158639659@gitolite.kernel.org>
+Date: Sun, 02 Mar 2025 10:42:14 -0000
+Message-Id: <174091213483.106164.5712453855155123129@gitolite.kernel.org>
 
---===============3172925454075714783==
+--===============4062025507928589275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-kvm
-    old: 49119a48c9b51a04c5743252ac5dc009df42c11a
-    new: b6ad80e1c21ade0bce36cd469b339a090b693e3e
-    log: revlist-49119a48c9b5-b6ad80e1c21a.txt
+  - ref: refs/heads/loongarch-next
+    old: 89c866ff71ae35c4a1068bf74d1a7daec8834fdb
+    new: 529f5ff3fc237904c6924c024d1e838d0d53a5b4
+    log: revlist-89c866ff71ae-529f5ff3fc23.txt
 
---===============3172925454075714783==
+--===============4062025507928589275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-49119a48c9b5-b6ad80e1c21a.txt
+Content-Disposition: attachment; filename=revlist-89c866ff71ae-529f5ff3fc23.txt
 
 c7db342e3b4744688be1e27e31254c1d31a35274 riscv: KVM: Fix hart suspend status check
 e3219b0c491f2aa0e0b200a39d3352ab05cdda96 riscv: KVM: Fix hart suspend_type use
@@ -56,11 +56,18 @@ df87d843c6eb4dad31b7bf63614549dd3521fe71 Merge tag 'ata-6.14-rc5' of git://git.k
 b4b215cf3333bef6a95c84efb38580217e86a2d2 Merge tag 'i2c-for-6.14-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 9d20040d71ede4c0e5fc6ae7aaa92788de1e713a Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 ece144f151ac7bf8bb5b98f7d4aeeda7a2eed02a Merge tag 'v6.14-rc4-smb3-client-fix' of git://git.samba.org/sfrench/cifs-2.6
+082cb78002996fecf9bfc74e24ea05642de0f372 LoongArch: Always select HAVE_VIRT_CPU_ACCOUNTING_GEN
+30051fca45097c01b7270b3f2230a29645780897 LoongArch: Enable UBSAN (Undefined Behavior Sanitizer)
+a4b545d1263f3210d0f3abc0aa22f762ffd85646 LoongArch: Eliminate superfluous get_numa_distances_cnt()
+8c4dc6dc2096bd8c7fd8beddf77946e03f2726e2 LoongArch: Use polling play_dead() when resuming from hibernation
+0c1b810f727272496da328d759d40bcdcecb6770 LoongArch: vDSO: Remove --hash-style=sysv
+8d7ff3679078ac8996c43fd96ecb820a5c4aa1f5 LoongArch: vDSO: Make use of the t8 register for vgetrandom-chacha
 76601a96c65539e426abd4a8acb224e9dee3f178 LoongArch: KVM: Remove unnecessary header include path
 403c205dba7442b906c3bdc60cbd2b085031b033 LoongArch: KVM: Remove PGD saving during VM context switch
 b0c2ff6970d000fe161d455ff77b03cf76df613a LoongArch: KVM: Fix GPA size issue about VM
 9ccf14a07400a68dc416802b2af0ee60095cc921 LoongArch: KVM: Add stub for kvm_arch_vcpu_preempted_in_kernel()
 828fa538c162f3d40e9a297e6056f4d4aa060d1b LoongArch: KVM: Implement arch-specific functions for guest perf
 b6ad80e1c21ade0bce36cd469b339a090b693e3e LoongArch: KVM: Register perf callbacks for guest
+529f5ff3fc237904c6924c024d1e838d0d53a5b4 Merge branch 'loongarch-kvm' into loongarch-next
 
---===============3172925454075714783==--
+--===============4062025507928589275==--
