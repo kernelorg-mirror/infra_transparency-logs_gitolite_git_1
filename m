@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1811512106569634057=="
+Content-Type: multipart/mixed; boundary="===============7836351241346970962=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Sun, 02 Mar 2025 13:14:48 -0000
-Message-Id: <174092128872.230247.15956176689612245277@gitolite.kernel.org>
+Date: Sun, 02 Mar 2025 13:16:17 -0000
+Message-Id: <174092137746.232476.14368756368483568061@gitolite.kernel.org>
 
---===============1811512106569634057==
+--===============7836351241346970962==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ti/linux
 user: vigneshr
 changes:
-  - ref: refs/heads/ti-k3-dts-next
-    old: 2014c95afecee3e76ca4a56956a936e23283f05b
-    new: a5a7b2be9506d4483ddc9b4bd20e8948c456a8cb
-    log: revlist-2014c95afece-a5a7b2be9506.txt
+  - ref: refs/heads/ti-next
+    old: eba709bc57288292a595a78b5e46fa3d589daba9
+    new: 27786792cca98e36b6e3fd18cbd0cefdab722647
+    log: revlist-eba709bc5728-27786792cca9.txt
 
---===============1811512106569634057==
+--===============7836351241346970962==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2014c95afece-a5a7b2be9506.txt
+Content-Disposition: attachment; filename=revlist-eba709bc5728-27786792cca9.txt
 
 9e999a702701b621be7427a6f2cc29bd04defa7f arm64: dts: ti: k3-am62a-mcu: enable mcu domain pinmux
 8a3629a6a9e52b30c55910b26c9c0dbc376f9d29 arm64: dts: ti: k3-j784s4-evm-quad-port-eth-exp1: Remove duplicate hogs
@@ -48,5 +48,6 @@ eeab4a777eb490b9eca670379720b938226b1c79 arm64: dts: ti: k3-am64-phycore-som: Re
 c55701c73decaa7dcaf72e2906f7375cdce0e935 arm64: dts: ti: k3-am68-sk*: Add bootph-all property to necessary nodes to enable Ethernet boot
 a755d5cd3b146a09d39c067a7ef26baf3605e046 arm64: dts: ti: k3-am62p5*/k3-j722s: Add bootph-all property to necessary nodes to enable Ethernet boot
 a5a7b2be9506d4483ddc9b4bd20e8948c456a8cb arm64: dts: ti: k3-am62p: Enable AUDIO_REFCLKx
+27786792cca98e36b6e3fd18cbd0cefdab722647 Merge branch 'ti-k3-dts-next' into ti-next
 
---===============1811512106569634057==--
+--===============7836351241346970962==--
