@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/ell/ell
-Date: Sun, 02 Mar 2025 16:48:21 -0000
-Message-Id: <174093410101.401458.947997051836553067@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Sun, 02 Mar 2025 16:53:54 -0000
+Message-Id: <174093443476.406171.7729326996753529442@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/ell/ell
-user: holtmann
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/master
-    old: 60cf20b6c80c4dcf6004af7b3ea8610c5d8fb543
-    new: bca33c1d079b82c5f3324febb8bb6fbc1f84dafe
+  - ref: refs/heads/v6.15-clk/next
+    old: 36c7fdc8f585acbf11c8e5bc112fa9d8ef75146a
+    new: f863d4cc79a7e2f8c734d1fac84dc275805f41c7
     log: |
-         0907761b8f042b55d846f8a4b7cd6c3173fded1b checksum: Fix missing support for L_CHECKSUM_SHA224
-         bca33c1d079b82c5f3324febb8bb6fbc1f84dafe unit: Use L_TEST_FLAG_ALLOW_FAILURE instead of checking for support
+         f863d4cc79a7e2f8c734d1fac84dc275805f41c7 clk: rockchip: Add clock controller for the RK3562
          
