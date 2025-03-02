@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6810662540005433636=="
+Content-Type: multipart/mixed; boundary="===============2914539028209519845=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sun, 02 Mar 2025 19:07:24 -0000
-Message-Id: <174094244421.516437.2163918904557503012@gitolite.kernel.org>
+Date: Sun, 02 Mar 2025 19:07:37 -0000
+Message-Id: <174094245751.516790.3799148588195373166@gitolite.kernel.org>
 
---===============6810662540005433636==
+--===============2914539028209519845==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: 34c26c5e1cb0cc7f54c1b89c6e9168cad8ffb580
     new: e0ccf0c4c1b363e02fe665996b02dca57745ccbe
     log: revlist-34c26c5e1cb0-e0ccf0c4c1b3.txt
 
---===============6810662540005433636==
+--===============2914539028209519845==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1014,4 +1014,4 @@ a760b10147d96c642ff152eef85db0c3799c9f74 Merge tag 'phy-fixes-6.14' of git://git
 b91872c56940950a6a0852e499d249c3091d4284 Merge tag 'dmaengine-fix-6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
 e0ccf0c4c1b363e02fe665996b02dca57745ccbe tpm: do not start chip while suspended
 
---===============6810662540005433636==--
+--===============2914539028209519845==--
