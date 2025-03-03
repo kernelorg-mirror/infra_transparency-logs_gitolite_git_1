@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6441443308884757831=="
+Content-Type: multipart/mixed; boundary="===============4524216183149574484=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 03 Mar 2025 12:24:03 -0000
-Message-Id: <174100464388.1425969.16136262715891350226@gitolite.kernel.org>
+Date: Mon, 03 Mar 2025 12:24:17 -0000
+Message-Id: <174100465795.1426245.1401655918763954932@gitolite.kernel.org>
 
---===============6441443308884757831==
+--===============4524216183149574484==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/westeri/thunderbolt
 user: westeri
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/master
     old: d082ecbc71e9e0bf49883ee4afd435a77a5101b6
     new: 7eb172143d5508b4da468ed59ee857c6e5e01da6
     log: revlist-d082ecbc71e9-7eb172143d55.txt
 
---===============6441443308884757831==
+--===============4524216183149574484==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -323,4 +323,4 @@ a760b10147d96c642ff152eef85db0c3799c9f74 Merge tag 'phy-fixes-6.14' of git://git
 b91872c56940950a6a0852e499d249c3091d4284 Merge tag 'dmaengine-fix-6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
 7eb172143d5508b4da468ed59ee857c6e5e01da6 Linux 6.14-rc5
 
---===============6441443308884757831==--
+--===============4524216183149574484==--
