@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 03 Mar 2025 10:19:47 -0000
-Message-Id: <174099718754.1314597.13271302166950294473@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Mon, 03 Mar 2025 10:19:49 -0000
+Message-Id: <174099718913.1314678.8547172665421704257@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/x86/core
-    old: 73e8079be9e7ae5ed197d074e0ba6c43674c52f7
-    new: 3101900218d7b6acbdee8af3e7bcf04acf5bf9ef
-    log: |
-         3101900218d7b6acbdee8af3e7bcf04acf5bf9ef x86/paravirt: Remove unused paravirt_disable_iospace()
-         
+  - ref: refs/tags/sent/20241224-ffa_updates-106fd3df93d5-v1
+    old: 8f04b1bca92f0b9a874d108e9e58f3184353d750
+    new: 0000000000000000000000000000000000000000
