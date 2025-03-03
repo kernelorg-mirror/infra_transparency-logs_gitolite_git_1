@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Mon, 03 Mar 2025 22:04:30 -0000
-Message-Id: <174103947041.1926138.7768376898200566997@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/superm1/linux
+Date: Mon, 03 Mar 2025 22:06:16 -0000
+Message-Id: <174103957651.1929408.2288738540498200145@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelloni/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/superm1/linux
+user: superm1
 changes:
-  - ref: refs/heads/rtc-next
-    old: 90e0bcc9392d27396e0b004116aafbd585bb082a
-    new: d659dfec7d351e3a9138009bdaa82a533d7bc462
-    log: |
-         f432c5d502b41718b7b25fb07c6a2d1affaea18c rtc: ab-eoz9: Use HWMON_CHANNEL_INFO macro to simplify code
-         d659dfec7d351e3a9138009bdaa82a533d7bc462 rtc: ds3232: Use HWMON_CHANNEL_INFO macro to simplify code
-         
+  - ref: refs/tags/amd-pstate-v6.15-2025-03-03
+    old: 0000000000000000000000000000000000000000
+    new: 64430910c520ab698b69ffc78ef95f8770253ada
