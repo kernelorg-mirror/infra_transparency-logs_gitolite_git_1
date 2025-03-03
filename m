@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5212961026466265233=="
+Content-Type: multipart/mixed; boundary="===============6483660339724003668=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 03 Mar 2025 10:28:48 -0000
-Message-Id: <174099772814.1323778.8979328215674488065@gitolite.kernel.org>
+Date: Mon, 03 Mar 2025 10:36:40 -0000
+Message-Id: <174099820035.1331220.2776621691463061724@gitolite.kernel.org>
 
---===============5212961026466265233==
+--===============6483660339724003668==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -13,48 +13,37 @@ Content-Transfer-Encoding: 7bit
 ---
 service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+user: tglx
 changes:
-  - ref: refs/heads/master
-    old: 2275f92803d47ff751f1c25fe42013fe93a4966c
-    new: bbf9914cbf0ab75f02a95d9651e9005123f0282d
-    log: revlist-2275f92803d4-bbf9914cbf0a.txt
-  - ref: refs/heads/tip/urgent
-    old: e080ec68e117a8f6717dbf55d074804a4f8ac930
-    new: 1bdc9208cffae4d6ced0774607e1d5cf151cfa80
-    log: |
-         1bdc9208cffae4d6ced0774607e1d5cf151cfa80 Merge branch into tip/master: 'perf/urgent'
-         
+  - ref: refs/heads/timers/vdso
+    old: ac1a42f4e4e296b5ba5fdb39444f65d6e5196240
+    new: 9882ccb7c589303083111669cda1957b186e056e
+    log: revlist-ac1a42f4e4e2-9882ccb7c589.txt
 
---===============5212961026466265233==
+--===============6483660339724003668==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2275f92803d4-bbf9914cbf0a.txt
+Content-Disposition: attachment; filename=revlist-ac1a42f4e4e2-9882ccb7c589.txt
 
-1bdc9208cffae4d6ced0774607e1d5cf151cfa80 Merge branch into tip/master: 'perf/urgent'
-085c304d3b95c1cfad27e9d4979a2cb890506dec Merge branch into tip/master: 'irq/drivers'
-79e821367b92ab780671edb60bc248effdce64f8 Merge branch into tip/master: 'locking/core'
-b89f9622f9d80db9c7749ab3cd96cc36b3ba6921 Merge branch into tip/master: 'locking/futex'
-7d27f6529e6b3524095630c8e092439148d1c2ec Merge branch into tip/master: 'perf/core'
-d34dc82fef54fc794ba8c0c281f9a0ca81222d36 Merge branch into tip/master: 'ras/core'
-0656d71f1dc646a712f1c38481475d35576a66f4 Merge branch into tip/master: 'sched/core'
-62db61a925a4f6255b5eb32ef07fefe451f435dd Merge branch into tip/master: 'timers/cleanups'
-b68b769d891586694d22e6a5e0bb48564946c3ec Merge branch into tip/master: 'timers/core'
-f7702e109e6c29f5a3fd81f6ae5a42af664dae6e Merge branch into tip/master: 'timers/vdso'
-dcdcaff5fd657d80b6e853af8aa8788fe3704463 Merge branch into tip/master: 'x86/asm'
-39c20db5a729059e2eba632fcebed52c6d4cdb1c Merge branch into tip/master: 'x86/boot'
-51ba7173e879d3d0a151862b2290ac1eea4f3dba Merge branch into tip/master: 'x86/bugs'
-f492f41a443f85fabc1d071c64a5fd1e9b5b5a80 Merge branch into tip/master: 'x86/build'
-1bdabac5656f4eee3b9a8fb3b5b9be74be830129 Merge branch into tip/master: 'x86/cleanups'
-f9e3444ef4e283a40de21d17c36e680454187289 Merge branch into tip/master: 'x86/core'
-a86de9fc9c6b2844e5ad0fc11e1e750edb77eb07 Merge branch into tip/master: 'x86/cpu'
-655a68228da1a9b37ecc4be5f4b7d81e62adfe3d Merge branch into tip/master: 'x86/fpu'
-d34c8737d4b8489fe2cb8b3151903f8a258fb528 Merge branch into tip/master: 'x86/headers'
-67225285675fd64dd93414538d654f0ce784061c Merge branch into tip/master: 'x86/microcode'
-731a83493786267036caccad0f40fc5515f4bd28 Merge branch into tip/master: 'x86/misc'
-166c0416e6188bda34b6b998852c06a97dd6dfc8 Merge branch into tip/master: 'x86/mm'
-3d2c68a0290cf6fd310b1bde831c05818606ba15 Merge branch into tip/master: 'x86/platform'
-bbf9914cbf0ab75f02a95d9651e9005123f0282d Merge branch into tip/master: 'x86/sev'
+a753bfcac30e883cb792ee992f89b331bd14f397 vdso: Introduce vdso/cache.h
+4b6708a4a15dc73ac487f65ba0c6bb13dd6e42ff arm64: Make asm/cache.h compatible with vDSO
+48313da79b19fc4943be7507473a3501cf73906c vdso: Make vdso_time_data cacheline aligned
+0065d63c517b3c18a18b30049c7e93661fac8270 vdso/datapage: Define for vdso_data to make rework of vdso possible
+7b0ac1447135bc819db9954aaf86ff4c72427557 vdso/helpers: Prepare introduction of struct vdso_clock
+765afc515c2bf298226b5ef5b7a231b077091050 vdso/gettimeofday: Prepare introduction of struct vdso_clock
+73153eb2ce038f91e458b5640e7a94dc64fa0718 vdso/gettimeofday: Prepare do_hres() for introduction of struct vdso_clock
+ad75b1b9dcb534c342e40ab519e8a120248756b3 vdso/gettimeofday: Prepare do_hres_timens() for introduction of struct vdso_clock
+b887aee23b05bece8564bdf3e2cb66d05dd93aca vdso/gettimeofday: Prepare do_coarse() for introduction of struct vdso_clock
+631af2c64707236a4e67305e3b25eb59c9be0127 vdso/gettimeofday: Prepare do_coarse_timens() for introduction of struct vdso_clock
+2c6ebcd38275db332298c87ef19359ea7c51e71e vdso/gettimeofday: Prepare helper functions for introduction of struct vdso_clock
+7c40a0bd76db740eff76039a7cf43d90a633697e vdso/vsyscall: Prepare introduction of struct vdso_clock
+1b1ef5d92289204cf1c96deb5967156e4329062b vdso/namespace: Rename timens_setup_vdso_data() to reflect new vdso_clock struct
+3f58d4793b5d43e5b91876d712b808de8099ff2a time/namespace: Prepare introduction of struct vdso_clock
+30379f9af4108d554af5f3c600a2207dfb783e0e x86/vdso: Prepare introduction of struct vdso_clock
+493d34f40dabcc29a195310382efeda32ceb18d6 arm64/vdso: Prepare introduction of struct vdso_clock
+e2e2f7990d87cae85b648be0c3ff6f6ff025a788 powerpc/vdso: Prepare introduction of struct vdso_clock
+ece1e22d2caea94d1d836c22c4262c221f3b7f95 vdso: Move arch related data before basetime
+9882ccb7c589303083111669cda1957b186e056e vdso: Rework struct vdso_time_data and introduce struct vdso_clock
 
---===============5212961026466265233==--
+--===============6483660339724003668==--
