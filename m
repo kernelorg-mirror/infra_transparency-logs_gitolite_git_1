@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Mon, 03 Mar 2025 19:11:32 -0000
-Message-Id: <174102909284.1781931.7887544124933795007@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Mon, 03 Mar 2025 19:18:08 -0000
+Message-Id: <174102948859.1786923.6343147311504115749@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: kwilczynski
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/controller/mediatek
-    old: b6d7bb0d3bd74b491e2e6fd59c4d5110d06fd63b
-    new: 249b78298078448a699c39356d27d8183af4b281
+  - ref: refs/heads/wip/leon-for-rc
+    old: 8ce2eb9dfac8743d1c423b86339336a5b6a6069e
+    new: e8e6087c2f7407dfb8c7592bb6dd533e129b2932
     log: |
-         a1360a6a72b9e6aef29ab10b9c46ee027156ede9 dt-bindings: PCI: mediatek-gen3: Add mediatek,pbus-csr phandle array property
-         249b78298078448a699c39356d27d8183af4b281 PCI: mediatek-gen3: Configure PBUS_CSR registers for EN7581 SoC
+         82f1f575aa13a66906aff05ab05ffe757227b95f RDMA/bnxt_re: Fix allocation of QP table
+         67ee8d496511ad8e1cb88f72944847e7b3e4e47c RDMA/bnxt_re: Add missing paranthesis in map_qp_id_to_tbl_indx
+         e8e6087c2f7407dfb8c7592bb6dd533e129b2932 RDMA/bnxt_re: Fix reporting maximum SRQs on P7 chips
          
