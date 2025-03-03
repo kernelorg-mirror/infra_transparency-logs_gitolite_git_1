@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 03 Mar 2025 09:54:41 -0000
-Message-Id: <174099568154.1290953.8115273274414973643@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Mon, 03 Mar 2025 10:02:55 -0000
+Message-Id: <174099617529.1298142.11276159659841482884@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/x86/core
-    old: dfebe7362f6f461d771cdb9ac2c5172a4721f064
-    new: 73e8079be9e7ae5ed197d074e0ba6c43674c52f7
-    log: |
-         73e8079be9e7ae5ed197d074e0ba6c43674c52f7 x86/ibt: Make cfi_bhi a constant for FINEIBT_BHI=n
-         
+  - ref: refs/heads/b4/pcc_fixes_updates
+    old: 0000000000000000000000000000000000000000
+    new: 97b0c324212b6d48b91df624ec1ea9dc571efa9a
