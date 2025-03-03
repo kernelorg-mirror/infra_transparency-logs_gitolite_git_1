@@ -1,28 +1,47 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
-Date: Mon, 03 Mar 2025 14:21:15 -0000
-Message-Id: <174101167567.1531403.9646246065389386166@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8057616380261523731=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Mon, 03 Mar 2025 14:31:45 -0000
+Message-Id: <174101230573.1539817.8575289322934668136@gitolite.kernel.org>
+
+--===============8057616380261523731==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/melver/linux
-user: melver
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/cap-analysis/dev
-    old: 43d5819b543a38c2d8f599dfbed91b9d9b6302cf
-    new: 3f9a01ccad136c4aa755ef6a9b5f2164b7dd7777
+  - ref: refs/heads/review-ilpo-next
+    old: 0b6d8f9d2df78116afb159df05bbccf13a51b758
+    new: 61250669eaa9fd480e0f1c3cec107924b6a06b46
     log: |
-         73ab2f013883f34f374d4ddb68c681cbf3a78bdf compiler: Let data_race() imply disabled capability analysis
-         e406a84716f59d7a8bffe51e404c7f2e41a2544b kfence: Enable capability analysis
-         8d655f193d4945c2f954888acabdc9a89fef14ec kcov: Enable capability analysis
-         9c28d15d127097430f6fcd4755345609ce299847 stackdepot: Enable capability analysis
-         64f67ff9399c122bdf5e225a9583e8dfba24367e rhashtable: Enable capability analysis
-         45a9030bae468175398965b0aa28ad42817964b5 printk: Move locking annotation to printk.c
-         316dc49958b130450280a1006518cf2d48328339 drivers/tty: Enable capability analysis for core files
-         c9b2ee2066f5e17802a28d8f354eec617ad22bfd security/tomoyo: Enable capability analysis
-         5d7b8500b017227def24b1b9f7bb40df50119ad9 crypto: Enable capability analysis
-         3f9a01ccad136c4aa755ef6a9b5f2164b7dd7777 MAINTAINERS: Add entry for Capability Analysis
+         baa18b6ed4200aff869e78f2650123572b6a9ad6 platform/x86: hp-bioscfg: Replace deprecated strncpy() with strscpy()
+         61250669eaa9fd480e0f1c3cec107924b6a06b46 platform/x86:lenovo-wmi-hotkey-utilities.c: Support for mic and audio mute LEDs
          
+
+--===============8057616380261523731==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1741012331 +0200
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1741012301-b32b83fd3a89988671e335f65a80355dbe355f5a
+
+0b6d8f9d2df78116afb159df05bbccf13a51b758 61250669eaa9fd480e0f1c3cec107924b6a06b46 refs/heads/review-ilpo-next
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZ8W9bgAKCRBZrE9hU+XO
+MZ9HAQDKqvX3Jfzw25/MLPrGA9TeAmMrz/zRUEzxkqL5UmliEwEA/stbvYc40viP
+ZQGfb77z5C7deyiUtIR4Zl/UFNiYIQw=
+=sFD2
+-----END PGP SIGNATURE-----
+
+--===============8057616380261523731==--
