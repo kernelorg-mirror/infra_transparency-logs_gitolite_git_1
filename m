@@ -1,45 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============6423628032951675434=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 03 Mar 2025 20:10:11 -0000
-Message-Id: <174103261117.1833330.11979820343239046497@gitolite.kernel.org>
-
---===============6423628032951675434==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Mon, 03 Mar 2025 20:15:05 -0000
+Message-Id: <174103290590.1837648.1424601766092536512@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/master
-    old: be0e2cd203280cc6267e2acccab254d753c0c7f9
-    new: ae50cf86afe06706f588b78fa5d220cff842385d
-    log: revlist-be0e2cd20328-ae50cf86afe0.txt
-
---===============6423628032951675434==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-be0e2cd20328-ae50cf86afe0.txt
-
-1fff9f8730b00c39ec5055656e45ef69acd9409a Merge tag 'v6.14-rc5' into x86/core, to pick up fixes
-1b0ddcfe096f965b207f07634835d74d58b860e6 Merge branch 'x86/asm' into x86/core, to pick up dependent changes
-f4cc47e894780c445a98ed4dc12154ac6e652b6d Merge branch 'x86/headers' into x86/core, to pick up dependent changes
-56f91085a914d807477fc90b414998dcd7a0d0c3 percpu: Introduce percpu hot section
-5ffff7e389aa294bc71d3714f47188054ad6516e x86/percpu: Move pcpu_hot to percpu hot section
-01cf07d975cdf276ece22fdfc4c41731289377e8 x86/preempt: Move preempt count to percpu hot section
-d2cbb7d01600a30790bb349fac6ffdf3d34ed655 x86/smp: Move cpu number to percpu hot section
-f231a97ca8beb6a72454825ff3742cd1ad25cba5 x86/retbleed: Move call depth to percpu hot section
-a9fc162d3a65c73c713bc01753b963625ce3e754 x86/softirq: Move softirq_pending to percpu hot section
-f43c77e734196921c8af5f0302164efb30995629 x86/irq: Move irq stacks to percpu hot section
-7c37a1a821066c165bb4fd8edb1bc0b2180d49ba x86/percpu: Move top_of_stack to percpu hot section
-478179d702097649b9d29a06a2d42a6172db8d3b x86/percpu: Move current_task to percpu hot section
-abd1ca6de82574f2a7f1a04e398fa0d5be4aa98e x86/stackprotector: Move __stack_chk_guard to percpu hot section
-728372dc6f6494e20cb3261f88c6bc595896e3af x86/smp: Move this_cpu_off to percpu hot section
-ae50cf86afe06706f588b78fa5d220cff842385d Merge branch into tip/master: 'x86/core'
-
---===============6423628032951675434==--
+  - ref: refs/heads/work.pidfs.reaped
+    old: 059a3691883643f47b4ca9dae321e0dac9179e5f
+    new: 972440df0080a6deece45dc07f673b7d73c0d17c
+    log: |
+         b519ee0e23e7b796b9ceabe6810c54291762bea1 pidfs: move setting flags into pidfs_alloc_file()
+         a69a250c940dbb8770e09876ab84305d3a6ead29 pidfs: add inode allocation
+         6952dc68d320589cd7226bb25195baac5c7e5d19 pidfs: record exit code and cgroupid at exit
+         c9f7fc697cee5a1c93eadf331a116a322fb26c77 pidfs: allow to retrieve exit information
+         e92605d59f1cb437bdfe1121574fff6a331aa121 selftests/pidfd: fix header inclusion
+         5be11300e7a41090ed8599c8464b3f898adb1e38 pidfs/selftests: ensure correct headers for ioctl handling
+         88f731f04354c6a2c63ee5a237113b41a18e40b2 selftests/pidfd: move more defines to common header
+         991c142eb6f8360142d518320bb3b1f53d4be5df selftests/pidfd: add PIDFD_INFO_EXIT tests
+         972440df0080a6deece45dc07f673b7d73c0d17c pidfs: provide information after task has been reaped
+         
