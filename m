@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8880675447061484220=="
+Content-Type: multipart/mixed; boundary="===============4546969255066945270=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
-Date: Mon, 03 Mar 2025 17:29:12 -0000
-Message-Id: <174102295200.1689307.780276478957600263@gitolite.kernel.org>
+Date: Mon, 03 Mar 2025 17:29:22 -0000
+Message-Id: <174102296264.1689590.13777990134834178427@gitolite.kernel.org>
 
---===============8880675447061484220==
+--===============4546969255066945270==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/abelvesa/linux
 user: abelvesa
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/clk/imx
     old: 48806be086360846bb308c5ee21fcab8405a3da7
     new: 06a61b5cb6a8638fa8823cd09b17233b29696fa2
     log: revlist-48806be08636-06a61b5cb6a8.txt
 
---===============8880675447061484220==
+--===============4546969255066945270==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ d79bc8f79baacdd2549ec4af6d963ce3e69d7330 Merge tag 'turbostat-2025.02.02' of git
 d5992f1af1550a9e11e42cfa2ca1ad2a1b7fd7f3 dt-bindings: clock: imx8m: document nominal/overdrive properties
 06a61b5cb6a8638fa8823cd09b17233b29696fa2 clk: imx8mp: inform CCF of maximum frequency of clocks
 
---===============8880675447061484220==--
+--===============4546969255066945270==--
