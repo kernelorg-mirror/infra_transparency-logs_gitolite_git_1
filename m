@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 03 Mar 2025 12:14:48 -0000
-Message-Id: <174100408806.1417723.5049199561534570189@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 03 Mar 2025 12:20:41 -0000
+Message-Id: <174100444184.1424117.16914335762640142934@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 57b9340c0728b060a795180d2dbb823ebd87d787
-    new: a1ecb30f90856b0be4168ad51b8875148e285c1f
+  - ref: refs/heads/perf/core
+    old: 21d96cea578f83e43ec9016e5bba8703b290c748
+    new: 46bba3c183568982fc05a99421337c3593094112
     log: |
-         426370c860e8a276000144dd6470de4f1a96f8ee RDMA/siw: Switch to using the crc32c library
-         a1ecb30f90856b0be4168ad51b8875148e285c1f RDMA/core: Don't expose hw_counters outside of init net namespace
+         46bba3c183568982fc05a99421337c3593094112 perf/core: Detach 'struct perf_cpu_pmu_context' and 'struct pmu' lifetimes
          
