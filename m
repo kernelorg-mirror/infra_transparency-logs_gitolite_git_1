@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0737345402917698035=="
+Content-Type: multipart/mixed; boundary="===============7774827735028288570=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 03 Mar 2025 10:09:26 -0000
-Message-Id: <174099656637.1303327.10753036550127652041@gitolite.kernel.org>
+Date: Mon, 03 Mar 2025 10:09:30 -0000
+Message-Id: <174099657053.1303538.17531463285756031624@gitolite.kernel.org>
 
---===============0737345402917698035==
+--===============7774827735028288570==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/pcc
+  - ref: refs/heads/b4/pcc_fixes_updates
     old: 97b0c324212b6d48b91df624ec1ea9dc571efa9a
     new: 02df5f909f46566d4f408ce933f3414794d7c443
     log: revlist-97b0c324212b-02df5f909f46.txt
 
---===============0737345402917698035==
+--===============7774827735028288570==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ f3ec3dc46ca17e882f7589bc3cfb2f9ef2cd752f i2c: xgene-slimpro: Simplify PCC shared
 f2fa8cadf9bacb109344113ce1167b649175ee64 ACPI: PCC: Simplify PCC shared memory region handling
 02df5f909f46566d4f408ce933f3414794d7c443 ACPI: CPPC: Simplify PCC shared memory region handling
 
---===============0737345402917698035==--
+--===============7774827735028288570==--
