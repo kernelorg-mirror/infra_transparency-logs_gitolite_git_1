@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6155896511122037807=="
+Content-Type: multipart/mixed; boundary="===============4767292295414670849=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 03 Mar 2025 11:09:56 -0000
-Message-Id: <174100019671.1361919.1678944618582066763@gitolite.kernel.org>
+Date: Mon, 03 Mar 2025 11:10:00 -0000
+Message-Id: <174100020093.1362113.9120216403935188065@gitolite.kernel.org>
 
---===============6155896511122037807==
+--===============4767292295414670849==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 408ccbc6e2c615e4ee3ffd7d29bb7c1b8dba7e0d
-    new: 59284ec8a04bb6350c9da480a6c42bd0d0f36b88
-    log: revlist-408ccbc6e2c6-59284ec8a04b.txt
+  - ref: refs/heads/m68k-queue
+    old: cd625f3b8d47e2d85d498d500ccbe10334114146
+    new: e9f51b3c00268ecb88cc76958bf5ec87123a473f
+    log: revlist-cd625f3b8d47-e9f51b3c0026.txt
 
---===============6155896511122037807==
+--===============4767292295414670849==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-408ccbc6e2c6-59284ec8a04b.txt
+Content-Disposition: attachment; filename=revlist-cd625f3b8d47-e9f51b3c0026.txt
 
 b9a49520679e98700d3d89689cc91c08a1c88c1d rcuref: Plug slowpath race in rcuref_put()
 d97505baea64d93538b16baf14ce7b8c1fbad746 RDMA/mlx5: Fix the recovery flow of the UMR QP
@@ -322,6 +322,10 @@ ebb7d37abf675dd67f40efba1f9eb6ad2d2d71c5 Merge tag 'mips-fixes_6.14_2' of git://
 a760b10147d96c642ff152eef85db0c3799c9f74 Merge tag 'phy-fixes-6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 b91872c56940950a6a0852e499d249c3091d4284 Merge tag 'dmaengine-fix-6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
 7eb172143d5508b4da468ed59ee857c6e5e01da6 Linux 6.14-rc5
-59284ec8a04bb6350c9da480a6c42bd0d0f36b88 Merge tag 'v6.14-rc5'
+30e981c15bf05740257634387b76800cf922085a m68k: sun3: Use str_read_write() helper in mmu_emu_handle_fault()
+469b53ba30fea30f6d8fe11aa6440638fe91b3df m68k: sun3: Fix DEBUG_MMU_EMU build
+106212d1ffc49f8b95fc32763da201d9bce2bb05 m68k: atari: usb: Add ISP1160 USB host controller support
+91868cf1a836dd8781b59b971c67436e11219891 m68k: atari: Update Kconfig.bus help text
+e9f51b3c00268ecb88cc76958bf5ec87123a473f m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============6155896511122037807==--
+--===============4767292295414670849==--
