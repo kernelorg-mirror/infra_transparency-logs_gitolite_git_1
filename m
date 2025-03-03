@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Mon, 03 Mar 2025 01:21:28 -0000
-Message-Id: <174096488820.822457.15095257742640625646@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/dtc/dtc
+Date: Mon, 03 Mar 2025 01:55:17 -0000
+Message-Id: <174096691723.850462.8073577129890122827@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/utils/dtc/dtc
+user: dwg
 changes:
-  - ref: refs/heads/fixdep
-    old: 36953a0f3722eb32e112dfe02d568a454c2442b4
-    new: a63ddb79a9adc11ab68052da633fc01d7dc65c06
+  - ref: refs/heads/main
+    old: ce1d8588880aecd7af264e422a16a8b33617cef7
+    new: 1ccd232709d409798aac93f45b2a2e1c43e98ec4
     log: |
-         a63ddb79a9adc11ab68052da633fc01d7dc65c06 tools build: Fix fixdep dependencies
+         1ccd232709d409798aac93f45b2a2e1c43e98ec4 meson: don't build test programs by default
+         
+  - ref: refs/heads/master
+    old: ce1d8588880aecd7af264e422a16a8b33617cef7
+    new: 1ccd232709d409798aac93f45b2a2e1c43e98ec4
+    log: |
+         1ccd232709d409798aac93f45b2a2e1c43e98ec4 meson: don't build test programs by default
          
