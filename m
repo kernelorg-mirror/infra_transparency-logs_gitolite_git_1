@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/dtc/dtc
-Date: Mon, 03 Mar 2025 01:55:17 -0000
-Message-Id: <174096691723.850462.8073577129890122827@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Mon, 03 Mar 2025 02:21:55 -0000
+Message-Id: <174096851534.870209.12968100807897610779@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/dtc/dtc
-user: dwg
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: mhiramat
 changes:
-  - ref: refs/heads/main
-    old: ce1d8588880aecd7af264e422a16a8b33617cef7
-    new: 1ccd232709d409798aac93f45b2a2e1c43e98ec4
+  - ref: refs/heads/probes/fixes
+    old: 96fe3c30751e869503298e48c05c77af3348a5c0
+    new: fd5ba38390c59e1c147480ae49b6133c4ac24001
     log: |
-         1ccd232709d409798aac93f45b2a2e1c43e98ec4 meson: don't build test programs by default
-         
-  - ref: refs/heads/master
-    old: ce1d8588880aecd7af264e422a16a8b33617cef7
-    new: 1ccd232709d409798aac93f45b2a2e1c43e98ec4
-    log: |
-         1ccd232709d409798aac93f45b2a2e1c43e98ec4 meson: don't build test programs by default
+         fd5ba38390c59e1c147480ae49b6133c4ac24001 tracing: probe-events: Remove unused MAX_ARG_BUF_LEN macro
          
