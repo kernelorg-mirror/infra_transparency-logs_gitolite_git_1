@@ -1,43 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============1727442451749422888=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Mon, 03 Mar 2025 18:54:57 -0000
-Message-Id: <174102809768.1765290.10660875262970623697@gitolite.kernel.org>
-
---===============1727442451749422888==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
+Date: Mon, 03 Mar 2025 18:55:18 -0000
+Message-Id: <174102811816.1767347.15533802152470859707@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/at91/linux
+user: claudiu.beznea
 changes:
-  - ref: refs/tags/execve-v6.14-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 68cbfc194a1ad7fd8a657a07ed138073fa0cfebc
-
---===============1727442451749422888==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1741028126 -0800
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1741028096-47df9cd10d432e731c8917208694f59d4887f007
-
-0000000000000000000000000000000000000000 68cbfc194a1ad7fd8a657a07ed138073fa0cfebc refs/tags/execve-v6.14-rc6
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCZ8X7HgAKCRA2KwveOeQk
-u1AuAP9r9HfJIr6+HWTZ2TgKlSyS5WKXe0dyj26pXkbqy3z5pwEAh3JA5b0EjfXz
-siRaldJ68OpBp5kGe9m5xMMrGvXaJQw=
-=t9J7
------END PGP SIGNATURE-----
-
---===============1727442451749422888==--
+  - ref: refs/heads/at91-dt
+    old: e89b7cc877ac28b0efb1b1a4e9c8a5c2ee726fc8
+    new: a7f0b1adb15308f9da164f3af00a756b7a710982
+    log: |
+         59a8aff6e02202047e0e3849475d57b56ca93809 dt-bindings: watchdog: sama5d4-wdt: Add sama7d65-wdt
+         a7f0b1adb15308f9da164f3af00a756b7a710982 ARM: dts: microchip: sama7d65: Add watchdog for sama7d65
+         
+  - ref: refs/heads/at91-next
+    old: 492ac49af903f4f93ed5bc96384d4d6290f97042
+    new: 645d6537b9470c18ff4b16d911e86cc0c5ba4169
+    log: |
+         59a8aff6e02202047e0e3849475d57b56ca93809 dt-bindings: watchdog: sama5d4-wdt: Add sama7d65-wdt
+         a7f0b1adb15308f9da164f3af00a756b7a710982 ARM: dts: microchip: sama7d65: Add watchdog for sama7d65
+         645d6537b9470c18ff4b16d911e86cc0c5ba4169 Merge branch 'at91-dt' into at91-next
+         
