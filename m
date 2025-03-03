@@ -1,44 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============7875693768388450919=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Mon, 03 Mar 2025 16:06:13 -0000
-Message-Id: <174101797327.1620023.7361396418609420579@gitolite.kernel.org>
-
---===============7875693768388450919==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
+Date: Mon, 03 Mar 2025 16:06:51 -0000
+Message-Id: <174101801148.1620504.1799967644282953171@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/ti/linux
+user: vigneshr
 changes:
-  - ref: refs/heads/for-next
-    old: 48f920100b694f22effe01b7865d1b6bba84e93f
-    new: 5cea3da83a114efca35b5a02438970183edc63b0
-    log: revlist-48f920100b69-5cea3da83a11.txt
-
---===============7875693768388450919==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-48f920100b69-5cea3da83a11.txt
-
-ac965d7d88fc36fb42e3d50225c0a44dd8326da4 tracing: tprobe-events: Fix a memory leak when tprobe with $retval
-d0453655b6ddc685a4837f3cc0776ae8eef62d01 tracing: tprobe-events: Reject invalid tracepoint name
-db5e228611b118cf7b1f8084063feda5c037f4a7 tracing: fprobe-events: Log error for exceeding the number of entry args
-1250142a57d9737e1db1d82de51484c98715eadc ring-buffer: Fix typo in comment about header page pointer
-915f0c5835fb1b640727a23ace65db0a4db1576e tracing: Remove orphaned event_trace_printk
-a9a69ea8e363ccc7dbd49baec9f557cca79bcbe9 tracing: gfp: Remove duplication of recording GFP flags
-fd5ba38390c59e1c147480ae49b6133c4ac24001 tracing: probe-events: Remove unused MAX_ARG_BUF_LEN macro
-a2bd12124e28e12ef1858ab222b88a9041774510 tracing: probe-events: Log error for exceeding the number of arguments
-78c78218e1a88c17db9d31876bfa5efd29fefea1 selftests/ftrace: Expand the tprobe event test to check wrong format
-295112f7e0c13bd449f8ddc9b9728dcefd42870a selftests/ftrace: Add new syntax error test
-0c76851e1dd372e6d7e8924cf281a327b602f182 selftests/ftrace: Add dynamic events argument limitation test case
-761bb8c44b0fd01778a16fa9cbdd5057649893d0 tracing: probe-events: Add comments about entry data storing code
-2f898f01f1c0f0084a3f314de1c241a06ceb8412 Merge probes/for-next
-5cea3da83a114efca35b5a02438970183edc63b0 Merge sorttable/for-next
-
---===============7875693768388450919==--
+  - ref: refs/heads/ti-next
+    old: 27786792cca98e36b6e3fd18cbd0cefdab722647
+    new: 3546b51dae6df8df8e0b72b0a5173f0be5cf6581
+    log: |
+         6a02c9aa222ce0fff47f526686690f84b7a97f4e arm64: dts: ti: k3-am62p: Enable AUDIO_REFCLKx
+         38e7f9092efbbf2a4a67e4410b55b797f8d1e184 arm64: dts: ti: k3-j784s4-j742s2-main-common: Fix serdes_ln_ctrl reg-masks
+         d92a0ab61ed2137d174c2afef3475234ab2924b6 arm64: dts: ti: k3-j721e-evm: Add overlay for PCIe NTB functionality
+         e313a45b472cbf08cf26aaec5dc1f0adbb0edbd4 arm64: dts: ti: k3-j784s4-j742s2-evm: Add overlay for PCIe NTB
+         c36c858e92f378f110587196433e3c3c61a2039b arm64: dts: ti: k3-j784s4-j742s2-evm: Add overlay to enable USB0 Type-A
+         1c1b2e05b5c04554bcc3080b96456741e2b96010 arm64: dts: ti: am64-phyboard-electra: Add DT overlay for X27 connector
+         f4e9bdc9df113f0748c4585fa18f6eedd000b72a arm64: dts: ti: k3-am62p: fix pinctrl settings
+         f4dcc1f7d95d4bbce20074aaee2c2fadc52c9831 arm64: dts: ti: k3-j722s: fix pinctrl settings
+         3546b51dae6df8df8e0b72b0a5173f0be5cf6581 Merge branch 'ti-k3-dts-next' into ti-next
+         
