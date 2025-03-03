@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/fuse
-Date: Mon, 03 Mar 2025 11:37:17 -0000
-Message-Id: <174100183777.1384484.9578527173247219106@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 03 Mar 2025 11:39:02 -0000
+Message-Id: <174100194279.1385347.13899036068121941874@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mszeredi/fuse
-user: mszeredi
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/for-next
-    old: 150b838b03e887f4e5ffdadcffafef698e34c619
-    new: 6e010028d3ff70a4994795f9d601d6ecbef9be49
+  - ref: refs/heads/x86/cleanups
+    old: e008eeec7868a9ca6e159726aeb9bdbf2ab86647
+    new: 40fc7561013914ec08c200bb7a0805643a23e070
     log: |
-         6e010028d3ff70a4994795f9d601d6ecbef9be49 fuse: add kernel-enforced timeout option for requests
+         40fc7561013914ec08c200bb7a0805643a23e070 selftests/x86/syscall: Fix coccinelle WARNING recommending the use of ARRAY_SIZE()
          
