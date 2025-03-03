@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0251208920525899755=="
+Content-Type: multipart/mixed; boundary="===============2726226209541202945=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 03 Mar 2025 10:19:53 -0000
-Message-Id: <174099719337.1314958.1894086341131905573@gitolite.kernel.org>
+Date: Mon, 03 Mar 2025 10:20:55 -0000
+Message-Id: <174099725594.1317585.8774678513588270907@gitolite.kernel.org>
 
---===============0251208920525899755==
+--===============2726226209541202945==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,51 +16,45 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 229703d1fdbecb0e2212a4359b32b51c83848df6
-    new: 40134f7ce866df02847a8ef5b629cdafd060a4b8
-    log: revlist-229703d1fdbe-40134f7ce866.txt
+    old: 40134f7ce866df02847a8ef5b629cdafd060a4b8
+    new: 1f455582781593068b142c76ff427ed45d8963d1
+    log: revlist-40134f7ce866-1f4555827815.txt
   - ref: refs/heads/tip/urgent
-    old: 8aa827611b0aeed99a7c9d7e71b577a69b9b0bcc
-    new: 105a0f022f9d454b27f03b9b9be571acde5dc4af
+    old: 105a0f022f9d454b27f03b9b9be571acde5dc4af
+    new: e080ec68e117a8f6717dbf55d074804a4f8ac930
     log: |
-         7eb172143d5508b4da468ed59ee857c6e5e01da6 Linux 6.14-rc5
-         105a0f022f9d454b27f03b9b9be571acde5dc4af Merge branch into tip/master: 'perf/urgent'
+         e080ec68e117a8f6717dbf55d074804a4f8ac930 Merge branch into tip/master: 'perf/urgent'
          
-  - ref: refs/tags/v6.14-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 1d53763dc16c9fc9329a4cdc14d691979d47568f
 
---===============0251208920525899755==
+--===============2726226209541202945==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-229703d1fdbe-40134f7ce866.txt
+Content-Disposition: attachment; filename=revlist-40134f7ce866-1f4555827815.txt
 
-105a0f022f9d454b27f03b9b9be571acde5dc4af Merge branch into tip/master: 'perf/urgent'
-0cc85d096c7eca548b88bef864cbab536bde85bb Merge branch into tip/master: 'irq/drivers'
-18d8aab5a0eb712e4459896f61b163afac471734 Merge branch into tip/master: 'locking/core'
-ba8399ed1e3d090f7834de69fb38ec4209b97282 Merge branch into tip/master: 'locking/futex'
-bcb255a6f7f3fcde5a536224fe39f7f5911274b3 Merge branch into tip/master: 'perf/core'
-140a6e5b5505138c3bfd41ee4988563a5ba63b10 Merge branch into tip/master: 'ras/core'
-6d5a53e070885ac2ce88ec86e2db11ad8e322e16 Merge branch into tip/master: 'sched/core'
-7d9a03ee3f9fb7e4542bb04bbaf8a8e03990a277 Merge branch into tip/master: 'timers/cleanups'
-559b24205c82d4cf09310551d211203d7cd90c11 Merge branch into tip/master: 'timers/core'
-05391db9ff65c9ec17b5313e7a4fc4c611ac890a Merge branch into tip/master: 'timers/vdso'
-531bf1d1c0adb5c32d87757140aab922e5251b5f Merge branch into tip/master: 'x86/asm'
-15febd8ce0ed44c7f33ee09cfd1c3edd5512bc1c Merge branch into tip/master: 'x86/boot'
-770e468d912ba05d3d710198803efd2cfb41c3a1 Merge branch into tip/master: 'x86/bugs'
-d936c4c2c0276bb417beecbcffccb19aa3890c0a Merge branch into tip/master: 'x86/build'
-a299a03e66187982e08e0230dafe897c01b1614e Merge branch into tip/master: 'x86/cleanups'
-e0b3311498804312ea083dd7cd5a98a4f20cc27d Merge branch into tip/master: 'x86/core'
-219c60aa18913194be63fe636ca11ac93c82fb8b Merge branch into tip/master: 'x86/cpu'
-3fcd941cce2110f990a53586a3f4e867affe9411 Merge branch into tip/master: 'x86/fpu'
-7c5c1c2fbc92eeb2a9e359f3d677f770fc19eb26 Merge branch into tip/master: 'x86/headers'
-a4dda21933bad7c9d54d49ca33bc81ab382f3080 Merge branch into tip/master: 'x86/microcode'
-e2224ceb89076592503d07bf315a7d124788b1e1 Merge branch into tip/master: 'x86/misc'
-fb0c1633f250b7bb1de6749547c9398ba4e04155 Merge branch into tip/master: 'x86/mm'
-00f8458bf5038b2a6dedc53dcdc412e3f68c042b Merge branch into tip/master: 'x86/platform'
-14577bfe8edc398c9e2403646d8c070cae254ef2 Merge branch into tip/master: 'x86/sev'
-3101900218d7b6acbdee8af3e7bcf04acf5bf9ef x86/paravirt: Remove unused paravirt_disable_iospace()
-40134f7ce866df02847a8ef5b629cdafd060a4b8 Merge branch into tip/master: 'x86/core'
+e080ec68e117a8f6717dbf55d074804a4f8ac930 Merge branch into tip/master: 'perf/urgent'
+5559d2bf59dcf8f5f4d7bfa0569242b3b18f207d Merge branch into tip/master: 'irq/drivers'
+26c6a9a33f7b2bd39801f2f1953fa554f2fcc833 Merge branch into tip/master: 'locking/core'
+8dd77e4c504805acbe3f519c232cbb92a3a68f7e Merge branch into tip/master: 'locking/futex'
+5f6b2a12417e0720b5e8b1ac8f65b91a547019a9 Merge branch into tip/master: 'perf/core'
+b97fbc9cff6bef22ccfc0a1a6c278126e4d1fd97 Merge branch into tip/master: 'ras/core'
+f33bf2389872e9d513db690709eda0c186a24257 Merge branch into tip/master: 'sched/core'
+ded003bb260c9b40929bc315b07445ef768aa4c3 Merge branch into tip/master: 'timers/cleanups'
+0aea2e0045b81470d1d781eb441d8a388dce7988 Merge branch into tip/master: 'timers/core'
+1af196c92d5962c9d4d9f756fff99f1263aa81e6 Merge branch into tip/master: 'timers/vdso'
+8acc51389a1732126b43db75bc6bc834480861a2 Merge branch into tip/master: 'x86/asm'
+61913e9505799e51fc890b51a169b648cc442daa Merge branch into tip/master: 'x86/boot'
+ce7a5880c6e28eafa72ae98cac4dd8feda9542d5 Merge branch into tip/master: 'x86/bugs'
+ce3ecd3666b83a8f8687a749203661e9c38a35ae Merge branch into tip/master: 'x86/build'
+19806b605b7d126735d378d9f2fe344c29f4e03b Merge branch into tip/master: 'x86/cleanups'
+e139988be2ba8ecbb7a079f92f8d5ba80b49fa8a Merge branch into tip/master: 'x86/core'
+4fe6fb4e156a58cdee0e032d90f9cdab2822cf7d Merge branch into tip/master: 'x86/cpu'
+584c829847d56faeda8d1bce43d96fa23cf2eb32 Merge branch into tip/master: 'x86/fpu'
+e399fae40260ad81e5f64cbcbe5a5c240faac66e Merge branch into tip/master: 'x86/headers'
+c3e901fca4677583bcf8d377515a5bf31f9fdb73 Merge branch into tip/master: 'x86/microcode'
+84c0fdee85343dc61bcc097b9256c3622d96d79b Merge branch into tip/master: 'x86/misc'
+94b36c99cd962756b1605bf2a237570aab44de47 Merge branch into tip/master: 'x86/mm'
+d83ff8543bad7f2ac1db9eb604890e4936862d64 Merge branch into tip/master: 'x86/platform'
+1f455582781593068b142c76ff427ed45d8963d1 Merge branch into tip/master: 'x86/sev'
 
---===============0251208920525899755==--
+--===============2726226209541202945==--
