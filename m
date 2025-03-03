@@ -1,56 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============1665625717712355377=="
+Content-Type: multipart/mixed; boundary="===============2956984288545550672=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Mon, 03 Mar 2025 09:01:38 -0000
-Message-Id: <174099249867.1245057.7405324156383952632@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
+Date: Mon, 03 Mar 2025 09:07:25 -0000
+Message-Id: <174099284507.1249903.17518323077911901873@gitolite.kernel.org>
 
---===============1665625717712355377==
+--===============2956984288545550672==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/pinctrl/samsung
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/master
-    old: a0a60cb507273e481fd87efaa76f46e099695cb7
-    new: db2e6c9ab90c8a8332e60f29542feae6adcc0203
+  - ref: refs/heads/pinctrl-next
+    old: 574d0f2120b8e7e6a218d81267f4b543d586df11
+    new: eb76dc973cef741f74ce17d3bba8a7c9f2cc6113
     log: |
-         db2e6c9ab90c8a8332e60f29542feae6adcc0203 update cvelistV5
+         129bdbd05650f4c11fb8995f8b6e63589ce4cb33 dt-bindings: pinctrl: samsung: add exynos7870-pinctrl compatible
+         c1ab2297bc746b07b96205dddc45979feac22f4d dt-bindings: pinctrl: samsung: add exynos7870-wakeup-eint compatible
+         eb76dc973cef741f74ce17d3bba8a7c9f2cc6113 pinctrl: samsung: add support for exynos7870 pinctrl
          
 
---===============1665625717712355377==
+--===============2956984288545550672==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1740992525 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1740992495-af5c251ef7cba7384f6c46a5f1d34a96be7fe400
+pusher krzk@kernel.org 1740992870 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
+nonce 1740992840-0c0e1e02c69df4d030a178a6933c67a59365ee73
 
-a0a60cb507273e481fd87efaa76f46e099695cb7 db2e6c9ab90c8a8332e60f29542feae6adcc0203 refs/heads/master
+574d0f2120b8e7e6a218d81267f4b543d586df11 eb76dc973cef741f74ce17d3bba8a7c9f2cc6113 refs/heads/pinctrl-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfFcA0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RaMP+wUIZd4blWdwrcJEDd8O
-kvVUHZR9XuRl0FrwwmpGk1ssKbQPHI/n2mS8Lx9PS+NOwPrwdSTCn08xEtnHX4GM
-f7WBlpxYuGf8mkJ2hTnRRKiptbyL0rXMPtIZejEKtGC0RZZe5oNiIBCN65KzgA+6
-qKQNeuEgjuK/V1Hu944pm2HjliI6iyeheWb3ub2CEyMk5GT3WM5kpwuXwKvjKvAH
-CkRBLLabMKaUDFZ862PWlbm67FFhm/OGcTu1aGTUMzDFDGI5Z0izKUcpuFcts+vw
-0E5ccM6GkAe7EqbDXp32bm/DdK36cGt2zrdFJWPru3XvyhuBwc68Y1AUfTUhvkFd
-JUf3ZetOKUPt7FyYCZDW6swOHkq1Bl/LqVDQ07Ae5/Hg4xLTTwiZrBkRHBl9l4sW
-AmciqH17qHrT+bTgFMW99Hvj5lfvN6DM38nlfPt4N0IT3OGShe5l9tT4YT5oYDuP
-j7ZmKdWmv2yLbaBz5AOiygcgGJlCfhpaW/FUXw7SW6+TcKfyizf6BndU9K5mUzTY
-YLIGoTOX3qlXz8XUt3xWhc0EynWDehYZcAjxMvent0Sepe08xwtZ1+DAjUBxn96t
-aNjLYO81Rfb2nrmsBZDk/id61iaY5Nx2KUsDnh8cQkJgKm2/VXV33Q8NCp38zZfX
-YGF0PJYVNWUowWelRscpj7pV
-=uWu1
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmfFcWcQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD12u9D/sGSRv3PiKjFPmYr8Np+zb6bFyOjBFgfiFK
+unLgmlWRKsCwOJZkf3+beJQYF7N6VqKjJQyctn48KZlCi04meLlSXM1bb9H0Ie9l
+rfzHSs7/XVsn0pdCcbApp3VUtNWMqKcKyTFlvRRgX89vSaid7pWbu1YsqqdCBNZs
+z64BxLaabr7D7EXbCXMVPhczAgouU9kpgV4LonNwMjubOFQn3Wuh1WgvFSKRzqqu
+YbBUfWP4LSTOdEEwdXex9vzP2K8UpERdX6VAPSYtrrIZ/3BLJbEOtdqLQ8p7X+z7
+7GCDmaINDiZL+gdlKUrAtvkwnoULnAnM+Lp1R1U50I2wzlgHgR5vXnGVb4x2N+1w
+eO6fmswo2ViqNlZXhl+M9qobRsaczyGBirqcQGglImPfo/udlx3nfhpgJLGk/Vdu
+DibFU3tJdK5MDKZz6C/s1pAKu+lBYdFIhCEZAMthDxpGWcqDB65a9uggIfYzEpOe
+w5wWpnmALniENW1Bj69q49fxUEc3taWMQyMeeKVBCwjgS3zibp7gkyWuDrOWUT0g
+md38g1CAcSiDTY/3jpORrbUt3dMjSpujAqYfrRv+uKhqwzQDeIivJrsxHHtH4gY6
+ESro3pVWBPmAfdjkHEpW1BihMp6bvp5EUBrRErqmP9QCDtvBjNVjuZWnUYmoCgOy
+3sJhNZYW1g==
+=nopy
 -----END PGP SIGNATURE-----
 
---===============1665625717712355377==--
+--===============2956984288545550672==--
