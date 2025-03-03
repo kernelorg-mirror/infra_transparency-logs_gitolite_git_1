@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 03 Mar 2025 11:27:04 -0000
-Message-Id: <174100122493.1376464.3091230671506194986@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/fuse
+Date: Mon, 03 Mar 2025 11:37:17 -0000
+Message-Id: <174100183777.1384484.9578527173247219106@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/mszeredi/fuse
+user: mszeredi
 changes:
-  - ref: refs/heads/master
-    old: 8a69523f95dae34dc0988530fd028c3343a8b440
-    new: 455e609f06810d01336b61a273673e4fddeb33c2
+  - ref: refs/heads/for-next
+    old: 150b838b03e887f4e5ffdadcffafef698e34c619
+    new: 6e010028d3ff70a4994795f9d601d6ecbef9be49
     log: |
-         455e609f06810d01336b61a273673e4fddeb33c2 column: replace a mistaken word in an error message
-         
-  - ref: refs/heads/stable/v2.41
-    old: 33b20b000aa72ba6aa6d32c30f46b01268733762
-    new: 6fd6e70de83fa8cf30110405208ed1df8478b57b
-    log: |
-         6fd6e70de83fa8cf30110405208ed1df8478b57b column: replace a mistaken word in an error message
+         6e010028d3ff70a4994795f9d601d6ecbef9be49 fuse: add kernel-enforced timeout option for requests
          
