@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 03 Mar 2025 11:50:19 -0000
-Message-Id: <174100261903.1396927.14280098512657841020@gitolite.kernel.org>
+Date: Mon, 03 Mar 2025 11:51:14 -0000
+Message-Id: <174100267418.1397598.8761733588407663466@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
-    old: 4321f262864389e9a757c98e5254b297fcecb0cc
-    new: 8aa0c91061feedfc1a0bea00da384c669f6389df
+  - ref: refs/heads/x86/bugs
+    old: b8ce25df2999ac6a135ce1bd14b7243030a1338a
+    new: 2a08b832712980b9eb0e913d64a42c74fc56319b
     log: |
          2a08b832712980b9eb0e913d64a42c74fc56319b x86/bugs: Use the cpu_smt_possible() helper instead of open-coded code
-         98fdaeb296f51ef08e727a7cc72e5b5c864c4f4d x86/bugs: Make spectre user default depend on MITIGATION_SPECTRE_V2
-         8aa0c91061feedfc1a0bea00da384c669f6389df Merge branch into tip/master: 'x86/bugs'
          
