@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Tue, 04 Mar 2025 18:59:56 -0000
-Message-Id: <174111479628.3054416.3859077097513739273@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 04 Mar 2025 18:59:59 -0000
+Message-Id: <174111479968.3054539.9656944490832393494@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/fixes
-    old: 0ad2507d5d93f39619fc42372c347d6006b64319
-    new: c64c91f15da1f0974d88f971b6513d00ec9d1a41
+  - ref: refs/heads/perf/core
+    old: 66477c7230eb1f9b90deb8c0f4da2bac2053c329
+    new: 077dcef270361089c322a969b792438b33cfb479
     log: |
-         c64c91f15da1f0974d88f971b6513d00ec9d1a41 kbuild: userprogs: use correct lld when linking through clang
+         077dcef270361089c322a969b792438b33cfb479 perf/x86: Annotate struct bts_buffer with __counted_by()
          
