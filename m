@@ -1,68 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============1441232082099127259=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Tue, 04 Mar 2025 16:59:38 -0000
-Message-Id: <174110757823.2938912.18431802957336424168@gitolite.kernel.org>
-
---===============1441232082099127259==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/network/connman/connman
+Date: Tue, 04 Mar 2025 16:59:44 -0000
+Message-Id: <174110758463.2939172.4153163776487854302@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/network/connman/connman
+user: denkenz
 changes:
-  - ref: refs/heads/for-next
-    old: ce549602e1c73b7e9ffb3b33d8c4b063c93f7758
-    new: b098bcd8278b89cb3eb73fdb6e06dc49af75ad37
-    log: revlist-ce549602e1c7-b098bcd8278b.txt
-
---===============1441232082099127259==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ce549602e1c7-b098bcd8278b.txt
-
-801befff4c827aa72e3698367c5afc18987a6a3f arm64: dts: qcom: x1e80100: Fix video thermal zone
-03f2b8eed73418269a158ccebad5d8d8f2f6daa1 arm64: dts: qcom: x1e80100: Apply consistent critical thermal shutdown
-5ba21fa11f473c9827f378ace8c9f983de9e0287 arm64: dts: qcom: x1e80100: Add GPU cooling
-06eadce936971dd11279e53b6dfb151804137836 arm64: dts: qcom: x1e80100: Drop unused passive thermal trip points for CPU
-53fc6fe160c1b941e531a35e3a2e6d2aaef86999 dt-bindings: clock: qcom: sm8450-camcc: Remove qcom,x1e80100-camcc leftover
-0f358f1ad56d781642b00454b57e4f35c4d74295 clk: qcom: camcc: Constify 'struct qcom_cc_desc'
-1801cee7c6607dbf638d9e1e6a198c9b3e2bda90 clk: qcom: dispcc: Constify 'struct qcom_cc_desc'
-b9fe89a100ab1a31f56c91682de402c9aeb2f701 clk: qcom: gpucc: Constify 'struct qcom_cc_desc'
-a8e4ab5bdeeadf873a36f904066185acb1540021 clk: qcom: videocc: Constify 'struct qcom_cc_desc'
-2a26a02e668ff101580647221c898d75ed93f8f5 arm64: dts: qcom: qrb5165-rb5-vision-mezzanine: Drop CMA heap
-4de3e8d657f2111dd8d45c2ba0eef8b2437b85f2 arm64: dts: qcom: sdm845-db845c-navigation-mezzanine: Drop CMA heap
-01a3d5e3cdc833292bdc80a4320235551083982f arm64: dts: qcom: x1e80100-dell-xps13-9345: Enable external DP support
-027dcb3de88dfd1b82f5f712361d216f209110b0 arm64: dts: qcom: x1e001de-devkit: Enable HBR3 on external DPs
-9a49698252b78471a61873b4fe27dfd2e2fe2bad arm64: dts: qcom: x1e80100-hp-x14: Enable HBR3 on external DPs
-c72c7105c82de59fb711f8379843f80b4abef7e3 arm64: dts: qcom: x1e80100-qcp: Enable HBR3 on external DPs
-adbbdcf4b2d6556721b580385ba387baca5c26ee ARM: dts: qcom: ipq4018: Switch to undeprecated qcom,calibration-variant
-f1bf8a943bea70c7432731c11761d161882aeedc arm64: dts: qcom: msm8998: Switch to undeprecated qcom,calibration-variant
-41eeff2fc2292c56592206741b05fde63acef4f0 arm64: dts: qcom: qrb2210-rb1: Switch to undeprecated qcom,calibration-variant
-a83356f7ba575f536dd2bf2338cafd0d1d2d51ec arm64: dts: qcom: qrb4210-rb2: Switch to undeprecated qcom,calibration-variant
-4f8fc2038b3ce9fa1fd52491e774e43bf5e67547 arm64: dts: qcom: sc7180: Switch to undeprecated qcom,calibration-variant
-218718e0c2536bc17c1a10eed35e99100bed5b46 arm64: dts: qcom: sdm845: Switch to undeprecated qcom,calibration-variant
-020ec05884e97175a181b33eb60d556ceaa32de8 arm64: dts: qcom: sda660-ifc6560: Switch to undeprecated qcom,calibration-variant
-d39d4fd49337be1e8f6c28e4d31344a2124acb57 arm64: dts: qcom: sm6115: Switch to undeprecated qcom,calibration-variant
-b187df5a0224d2e1b5ab8ea19c98d6ebbe554fe8 arm64: dts: qcom: sm8150-hdk: Switch to undeprecated qcom,calibration-variant
-cfbcd6d483dc7203db230cb24c9ee286033682fa arm64: dts: qcom: qcm6490: Switch to undeprecated qcom,calibration-variant
-fda76284e9b4c4606758fb62cfd81dd57e8f2516 arm64: dts: qcom: sa8775p-ride: Switch to undeprecated qcom,calibration-variant
-d12ce84c88013cd4ea770d244d44362f691e1690 arm64: dts: qcom: sc8280xp: Switch to undeprecated qcom,calibration-variant
-37eb85ae550004790c98605762c2e0326a82e160 arm64: dts: qcom: sm8250-elish: Switch to undeprecated qcom,calibration-variant
-83934b5d6b1a9664867beb4e822a6f9fa1fac687 arm64: dts: qcom: qcs615: Add Command DB support
-09a3840bcb72bcd9b43cbffbb7dedccf85e6d558 arm64: dts: qcom: sdm632-fairphone-fp3: Move status properties last
-a4600b160eca7f889c4b4a370d42e4619fa5162a arm64: dts: qcom: sdm632-fairphone-fp3: Add newlines between regulator nodes
-9ab813d5191f61301dbaeaf8e82d21e689b080f4 arm64: dts: qcom: sdm632-fairphone-fp3: Add firmware-name for adsp & wcnss
-d0c38cbe3556fea446b9350ec597a8e9c2cdaf36 arm64: dts: qcom: sdm632-fairphone-fp3: Enable modem
-91e3ac15523fda23f5429d641248ab31b0d46fe7 arm64: dts: qcom: sm8750: Change labels to lower-case
-27fd3266e8bd615af8ec5e91addac0b1dedc0b29 arm64: dts: qcom: Correct white-space style
-97bf440d95f1bafd8345739663ad3c04627f1505 arm64: dts: qcom: sm8750: Add RPMh sleep stats
-d09ab685a8f51ba412d37305ea62628a01cbea57 arm64: dts: qcom: x1e80100-qcp: Add WiFi/BT pwrseq
-b098bcd8278b89cb3eb73fdb6e06dc49af75ad37 Merge branches 'arm32-for-6.15', 'arm64-defconfig-for-6.15', 'arm64-fixes-for-6.14', 'arm64-for-6.15', 'clk-fixes-for-6.14', 'clk-for-6.15', 'drivers-fixes-for-6.14' and 'drivers-for-6.15' into for-next
-
---===============1441232082099127259==--
+  - ref: refs/heads/master
+    old: 3f586b6cdb60fd82ffa83f8e11de992784a2d866
+    new: 81d651b269f984cbbcf489a84770dbdded1d6a9d
+    log: |
+         b0ea957e1973d5b19386c6f1a94924132166a373 service: Add 'service_log_pac' function.
+         298a1a8c28060c633b74b35fb73044e08460b6cc service: Add 'service_set_pac' function.
+         a73f053de1128bc5cfedb8f74969423ee654e6fb service: Ensure the PAC URL is set in '__connman_service_set_proxy_autoconfig'.
+         8f281ed058b054ca7115c0c89cd7d1607e3a9473 service: Document 'service_log_pac'.
+         34855234cc6d64cafae2efc8065d5919070406d5 service: Document 'service_set_pac'.
+         58c9eb5ab1f97a04a00ec9b2258c827c0d902784 wispr: Add 'wispr_log_proxy_failure' function.
+         0f26b82712c134cf57bfed9224b25707d098e901 wispr: Leverage 'wispr_log_proxy_failure'.
+         81d651b269f984cbbcf489a84770dbdded1d6a9d wispr: Document 'wispr_log_proxy_failure'.
+         
