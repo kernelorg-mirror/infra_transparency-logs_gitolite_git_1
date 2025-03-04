@@ -1,36 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 04 Mar 2025 14:49:34 -0000
-Message-Id: <174109977462.2820679.14519415965764526221@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Tue, 04 Mar 2025 14:53:13 -0000
+Message-Id: <174109999359.2824005.6000004527220576783@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/for-6.15/block
-    old: e84025d2a9cb0d30baf3f59e341d426ef57a2cd7
-    new: 3aab938c93ca952ebc96c85b753f2592de919369
+  - ref: refs/heads/testing
+    old: 443238858a2dccfefb37ce98b1328bec58f56b1c
+    new: 15a007e7ae5b0680bc236b478c5c680512ec45bd
     log: |
-         3aab938c93ca952ebc96c85b753f2592de919369 loop: Remove struct loop_func_table
-         
-  - ref: refs/heads/for-6.15/io_uring
-    old: 6e83a442fbbb5f136c50feb7d137017610bc0738
-    new: a1967280a1e5fb2c331f23d162b3672d64ba2549
-    log: |
-         9e12d09cfdaf89db894abdad392bb8dcd6c0f464 ublk: don't cast registered buffer index to int
-         a1967280a1e5fb2c331f23d162b3672d64ba2549 io_uring/rsrc: include io_uring_types.h in rsrc.h
-         
-  - ref: refs/heads/for-next
-    old: e8ae507e94a9853f1cd4eae8b6c147bb624c49a9
-    new: 03b1b0f71b9c90eb5989cdb00da79b269de8da1e
-    log: |
-         9e12d09cfdaf89db894abdad392bb8dcd6c0f464 ublk: don't cast registered buffer index to int
-         3aab938c93ca952ebc96c85b753f2592de919369 loop: Remove struct loop_func_table
-         a1967280a1e5fb2c331f23d162b3672d64ba2549 io_uring/rsrc: include io_uring_types.h in rsrc.h
-         c5c78255ce024178c73c7d5b12263e07dc83e2c8 Merge branch 'for-6.15/block' into for-next
-         03b1b0f71b9c90eb5989cdb00da79b269de8da1e Merge branch 'for-6.15/io_uring' into for-next
+         7867a0d1dd8c621e95772ac3addb7396ab2d5883 MAINTAINERS: remove adi,ad7606.yaml from SEPS525
+         d15fc646ccff50addb5b56bc71620691da642af6 dt-bindings: iio: adc: Add rockchip,rk3528-saradc variant
+         8a9aa0bbd615c9b377bd82e671519f0c4cb272dd iio: adc: rockchip_saradc: Add support for RK3528
+         fcd104f0ed9f620fc063d2edc5be08e239c43874 iio: buffer-dma: Fix docstrings
+         5017dcb8fcace47292b081cb729d392f908c0ef8 iio: light: Fix spelling mistake "regist" -> "register"
+         15a007e7ae5b0680bc236b478c5c680512ec45bd iio: adc: ad4030: fix error pointer dereference in probe()
          
