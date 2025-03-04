@@ -1,77 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============4967612174946280987=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 04 Mar 2025 03:19:13 -0000
-Message-Id: <174105835341.2221510.16762282641997107564@gitolite.kernel.org>
-
---===============4967612174946280987==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Tue, 04 Mar 2025 04:08:38 -0000
+Message-Id: <174106131803.2260379.5022552439638723711@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkp/scsi
-user: mkp
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/for-next
-    old: ac0fb4a55bde561c46fc7445642a722803176b33
-    new: f421692be10133a66a3a8a7d5c76fe9713ea5a8b
-    log: revlist-ac0fb4a55bde-f421692be101.txt
-
---===============4967612174946280987==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 75C5DE3D 1741058381 -0500
-pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1741058351-14ed32899685a7e487770742202ea3c8aed0fcad
-
-ac0fb4a55bde561c46fc7445642a722803176b33 f421692be10133a66a3a8a7d5c76fe9713ea5a8b refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmfGcU0ACgkQ7ulgGnXF
-3j1RTw/9HJdBAP60ZuKj7zQCenxm+N/N+D0F0KjJvNlc2k7D9wRRNHbKYjOWwOcS
-qy3ZaGxmYLwZx0Ju/M6EqZbGU36T8VEPnqLR/ruk4VGCZGBD0daWO1Xzc05GKdJB
-GTZox0AekzEGliT00a1QpW9zpmxNaHXuvqb+Sj0+mTOUgsTfxlwoy/v2VUiL0Bci
-meHi9Zvv1VRBwfz4fsEU1qxwuDKFD2DQnUvjGHT52B5NWp8DJYu1vBwnjBiFiea2
-RBpkenYsg3lGp37jIzW0QYvt96LbfWnAH7woLib80SQUk/uTtmpLnmMb04eubJP+
-PxZcAGTMo8j8BBTyl8JTVJhXTOpYfERXZqBWU1fxCRHsIjPIScylbE4H8HIXvXn+
-6VRDuFh9nA3tV+6p/fqv7FnClCT1KWiXxZ/b/gUApcxxt4TkGKvoqiC+adjgHnNS
-l3z/AcoDM5yA6EitukCLsVd5KPl/s0xXkY/Pu/Duo8WKTUbJnsU2Pc0KNV8yQgXP
-mqGxF41eSEZBqQ59m2KvtaaWJ7gcQoXH5Z8SQLTUSOqjtlhkshOwGkDQIyB9xcUw
-r2nX19dU3Slg0Ax/rz/r6hIzqk5hGRIcKMRjjceugawazTUaD9JBqLQPA54lp7nE
-R3ePT6qRKGr7boSy09siyiYVLI0CzCSG5cCO9tddApJIWnSdz7o=
-=rJ/0
------END PGP SIGNATURE-----
-
---===============4967612174946280987==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac0fb4a55bde-f421692be101.txt
-
-ed3e4842224ff721f48154c1fed6ef97241249e6 scsi: core: Fix missing lock protection
-cee4f928beee900fd05da24d6b5e9127d2adae37 scsi: scsi_debug: Fix uninitialized variable use
-24e81b821724395a466669bfe6ec3820bb8088b3 scsi: ufs: rockchip: Fix spelling mistake 'susped' -> 'suspend'
-4fffffd3b13439980d778c58b1f63439287b9fdc scsi: ufs: rockchip: Fix devm_clk_bulk_get_all_enabled() return value
-3d82569039340045faeaf14293956487c3498012 scsi: ufs: rockchip: Simplify bool conversion
-7a9c0476d4073e742f474e71feeef4f54add4bc9 scsi: hisi_sas: Remove incorrect ACPI_PTR annotations
-a131f20804d6a817140c1b78fb2a23696a1e2098 scsi: lpfc: Convert timeouts to secs_to_jiffies()
-8a9b76b7d9137e15e5036d082cb276c1e8a6e100 scsi: lpfc: Fix spelling mistake 'Toplogy' -> 'Topology'
-0711f1966a523d77d4c5f00776a7bd073d56251a scsi: mpt3sas: Fix buffer overflow in mpt3sas_send_mctp_passthru_req()
-e6a815673b3b4ed69745f7a954742e12fc60139a scsi: scsi_error: Add comments to scsi_check_sense()
-2cef5b4472c602e6c5a119aca869d9d4050586f3 scsi: logging: Fix scsi_logging_level bounds
-dfb7df1ddb29c89662e84b2c82c1ff7943358ae0 scsi: target: Replace deprecated strncpy() with strscpy()
-9b2d1ecf8797a82371c9f9209722949fb35b4d15 scsi: fnic: Remove unnecessary debug print
-9ae7563e270372f401a06486a92cdf151d1b27ee scsi: fnic: Fix indentation and remove unnecessary parenthesis
-e984fa2542e1308d67140bd7a76f678dabbcd9a8 scsi: fnic: Replace use of sizeof with standard usage
-7f5dce6e7f0150ee57b8d1186011f57fa62c2843 scsi: fnic: Replace fnic->lock_flags with local flags
-f421692be10133a66a3a8a7d5c76fe9713ea5a8b scsi: fnic: Remove unnecessary spinlock locking and unlocking
-
---===============4967612174946280987==--
+  - ref: refs/heads/arm64-for-6.15
+    old: 0e2a500eff87c710f3947926e274fd83d0cabb02
+    new: f22be5c1dd3e12519e3f3b80c14d10b90be2c2fc
+    log: |
+         92979f12a201c54ea94b8b3c9f0737c33bb45e23 arm64: dts: qcom: sa8775p: Partially revert "arm64: dts: qcom: sa8775p: add QCrypto nodes"
+         cdc117c40537c5babfa7f261360d5a98e434d59e arm64: dts: qcom: qcs8300: Partially revert "arm64: dts: qcom: qcs8300: add QCrypto nodes"
+         fb03174d17ec98e939dac81e29b372c9b568fca9 arm64: dts: qcom: x1e80100-slim7x: Drop incorrect qcom,ath12k-calibration-variant
+         327d489d1ecaf16182952f079cc21f04cf83f967 arm64: dts: qcom: sm8550: add missing cpu-cfg interconnect path in the mdss node
+         f22be5c1dd3e12519e3f3b80c14d10b90be2c2fc arm64: dts: qcom: sm8650: add missing cpu-cfg interconnect path in the mdss node
+         
+  - ref: refs/heads/clk-fixes-for-6.14
+    old: 0000000000000000000000000000000000000000
+    new: 787289a1d13d50ff4ce0f496947f8817ef3fdea9
