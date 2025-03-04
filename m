@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4635079422981278097=="
+Content-Type: multipart/mixed; boundary="===============9047254128489034772=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 04 Mar 2025 15:34:53 -0000
-Message-Id: <174110249322.2863648.10674525245972032070@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 04 Mar 2025 15:35:03 -0000
+Message-Id: <174110250372.2865300.13375087658456448167@gitolite.kernel.org>
 
---===============4635079422981278097==
+--===============9047254128489034772==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.15
-    old: 8243a49145e59f19032b86b20d8906f05e31bdcc
-    new: d6c08418955a7d88bd5fe18787456264c4408e22
-    log: revlist-8243a49145e5-d6c08418955a.txt
+  - ref: refs/heads/for-next
+    old: 2426b0a21d2edcfeb3fa2d840be153f345a2b5aa
+    new: ab78878cacc499570eb65b2b3d039b9a26d1ac42
+    log: revlist-2426b0a21d2e-ab78878cacc4.txt
 
---===============4635079422981278097==
+--===============9047254128489034772==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1741102519 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1741102489-8188340c79ac67de5604596793dade769ad30648
-
-8243a49145e59f19032b86b20d8906f05e31bdcc d6c08418955a7d88bd5fe18787456264c4408e22 refs/heads/asoc-6.15
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmfHHbcACgkQJNaLcl1U
-h9ASNQf+OZSg0T6ehIvW1W7vXRphG/OFVqJFonmzmZ2t3d61GjuKJiqGlnt2cQb9
-8woygBq6mRTHo0/nQyXh9Xjat1O0QlO+WPJ3LGDlXhwlLhiENbvY47MHNfbqMF0a
-WDSl0N2iNYSk7SlyQWUPil6SsgFOMzOPKC/khuLTXB3sGCblevaYCKoZIFC/fZ8K
-ydghaJCHvD1THCE7pPuY5Axs9xyPt/OU+kXiVvN5x13GXOv7oE+WGnXDla0lGrxu
-IIzNpChv3QNPDUfHqM160QTi/hXSa6EDCRMKs5g1EDZeDQ7jBMb5XNPgDGLb+Bnp
-uLPPlWJFOJ2kvQZFgp0gNd1TsQV0mQ==
-=sdu/
------END PGP SIGNATURE-----
-
---===============4635079422981278097==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8243a49145e5-d6c08418955a.txt
+Content-Disposition: attachment; filename=revlist-2426b0a21d2e-ab78878cacc4.txt
 
 b686559772d1baa28e2ad346d5a9932863d9523c ASoC: codecs: rt1011: Fix definition of device_id tables
 a859d2383f66002a442218bf5083faaa674bc4e4 ASoC: codecs: rt1015: Fix definition of device_id tables
@@ -243,5 +218,6 @@ c095b7a27529d1d18b3b36a47f77a1419f0de939 ASoC: samsung: tobermory: Drop unused i
 ee3cce59b1cecad7edd2022a443c8607faa9a4ad ASoC: use inclusive language for
 24056de9976dfc33801d2574c1672d91f840277a ASoC: codecs: Update device_id tables for Realtek
 d6c08418955a7d88bd5fe18787456264c4408e22 ASoC: samsung: GPIO descriptor conversion
+ab78878cacc499570eb65b2b3d039b9a26d1ac42 Merge remote-tracking branch 'asoc/for-6.15' into asoc-next
 
---===============4635079422981278097==--
+--===============9047254128489034772==--
