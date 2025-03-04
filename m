@@ -1,41 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============3199658763515202284=="
+Content-Type: multipart/mixed; boundary="===============5953928484327047630=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jolsa/perf
-Date: Tue, 04 Mar 2025 12:40:58 -0000
-Message-Id: <174109205862.2704628.1885974967186446832@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
+Date: Tue, 04 Mar 2025 12:42:41 -0000
+Message-Id: <174109216113.2705422.4092957145277921139@gitolite.kernel.org>
 
---===============3199658763515202284==
+--===============5953928484327047630==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jolsa/perf
-user: jolsa
+repo: pub/scm/linux/kernel/git/wireless/wireless
+user: jberg
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/bpf/optimized_usdt_9
-    old: fc0c16ab2003b6fc06b8ecfb9cd449ff9505c125
-    new: 2e71e2ff548047b3a8cb6d992271b1dd3bb151b3
-    log: revlist-fc0c16ab2003-2e71e2ff5480.txt
+  - ref: refs/tags/wireless-2025-03-04
+    old: 0000000000000000000000000000000000000000
+    new: cea87bbb544b0dcd6314a776204d1d69d92c16a3
 
---===============3199658763515202284==
+--===============5953928484327047630==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fc0c16ab2003-2e71e2ff5480.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-20551ffcf3018d5d447ffbfac5e59a4548ee913f uprobes/x86: Add uprobe syscall to speed up uprobe
-df63e12b6f4fd0c5806230f9fea2b9ee8a2bd44e uprobes/x86: Add mapping for optimized uprobe trampolines
-0d9f213cb0c73e9b4e3d37a29533210ceec22ac6 uprobes/x86: Add support to emulate nop5 instruction
-59058491f08ca39115a4fced6c50286b2e3d61b8 uprobes/x86: Add support to optimize uprobes
-591b07748b8533aba88826ed8400e9ba415fadd9 selftests/bpf: Reorg the uprobe_syscall test function
-4e95fb13844c4c3957dfa30ede3316f0eb094f84 selftests/bpf: Use 5-byte nop for x86 usdt probes
-944780e36fc57e2e4a5cdc2566a07985174be828 selftests/bpf: Add uprobe/usdt syscall tests
-b7d5a7dad2e34ec7b99f13626d8c8b5bb1f870d2 selftests/bpf: Add hit/attach/detach race optimized uprobe test
-322be48815cb662d89c8ba801e3e6a0b7770e6b3 selftests/bpf: Add uprobe syscall sigill signal test
-b20a57bc92db9f820c7d7cdadd0d81a2c3a05041 selftests/bpf: Add optimized usdt variant for basic usdt test
-2e71e2ff548047b3a8cb6d992271b1dd3bb151b3 selftests/bpf: Add 5-byte nop uprobe trigger bench
+certificate version 0.1
+pusher 7BF9099A 1741092159 +0100
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
+nonce 1741092129-9d4e511d097674dd25ab57eacb47c445b6bcd9bf
 
---===============3199658763515202284==--
+0000000000000000000000000000000000000000 cea87bbb544b0dcd6314a776204d1d69d92c16a3 refs/tags/wireless-2025-03-04
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmfG9T8ACgkQ10qiO8sP
+aACnaw//SkIRzGAU8Yu6d3nxQX8nVRsot4WdtFxFjhpZx9FBjCR5J/HHRBRjQZjH
+I8HtCtaq5p7xU4RbNf4pSa+h+iTOSBK9dcSmKwUhMkLfzXpm1fWHqfsi5mVxH12d
+jgA+2ECX3d1GhzFiZVbU9bAziUc0s53cGkivNKOi7ydgzzjXmSWrj0pKsO5qDWKq
+1BuFxla0En7qradQQCBIZTDQVjD+nKWGSFjbm9lTxDeb56t0heElvwzB71lRI+0W
+tCRu7SuB1/wEPIkULxURsrTEVAUOpWashkYXcJVpB6bWRlRYaqBDEucdZe0cSP5t
+fqrylm1X0msxHUBByAgc6uSNNFd5mHmTWyiFhydp8vMgTi5a75cEIwBTYcgAm4Tu
+S1rY+OJWxUVjudn0kQXL2MFDydpLnYJkxJzrHUFjsUcB5BN1VWBjh7KRk4snj+Y1
+yv0QSURCc2Poi0HwxOp1jdqFIWwdEAbCFB1ODv6rQGDgtZUb5tZpiBjbPXsLkYhz
+oRtUejwC5/U8Ko979/SeTS0VHEl7Hcz2fCV7F32RsYk8sZA4qHoExNM7WWiYpaOY
+XZThGtLU8b+EGQujavF4UvOkfsvLzXBmeSlJ5veOv7dkvvlv1xKe99fSSP0xIdLR
++/5/lY7y4br8RrvUoaPvM4EOrm6p1i2xns3gN5qJyohDgOAkChA=
+=Gs4e
+-----END PGP SIGNATURE-----
+
+--===============5953928484327047630==--
