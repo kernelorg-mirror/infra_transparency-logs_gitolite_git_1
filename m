@@ -1,30 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Tue, 04 Mar 2025 12:01:10 -0000
-Message-Id: <174108967052.2664785.803909793514934169@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Tue, 04 Mar 2025 12:08:29 -0000
+Message-Id: <174109010926.2669906.16305534840501938828@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/for-next
-    old: 5b207578942f2c72e31f10b385ab711031ecf314
-    new: 4a52bada7d8f61f190f290fa848ad83aed2580a5
+  - ref: refs/heads/kdevops
+    old: 48a9b0e38470d7f16625dbf51f85d0fb7315b15b
+    new: 2f5d76b8f5183d78ec2175e41ce1e22f55675eb3
     log: |
-         ac32ad07a97648eb8330b2c4cb840b0ef46903ae dt-bindings: soc: rockchip: Add RK3528 ioc grf syscon
-         a31fad19ae39ea27b5068e3b02bcbf30a905339b arm64: dts: rockchip: Add pinctrl and gpio nodes for RK3528
-         0d2312f0d3e4ce74af0977c1519a07dfc71a82ac arm64: dts: rockchip: Add uart0 pinctrl to Radxa E20C
-         4a52bada7d8f61f190f290fa848ad83aed2580a5 Merge branch 'v6.15-armsoc/dts64' into for-next
-         
-  - ref: refs/heads/v6.15-armsoc/dts64
-    old: c55c9e91d1643493d0434f246917aea7a2653e0f
-    new: 0d2312f0d3e4ce74af0977c1519a07dfc71a82ac
-    log: |
-         ac32ad07a97648eb8330b2c4cb840b0ef46903ae dt-bindings: soc: rockchip: Add RK3528 ioc grf syscon
-         a31fad19ae39ea27b5068e3b02bcbf30a905339b arm64: dts: rockchip: Add pinctrl and gpio nodes for RK3528
-         0d2312f0d3e4ce74af0977c1519a07dfc71a82ac arm64: dts: rockchip: Add uart0 pinctrl to Radxa E20C
+         d4a30966ce85ce35e64a9282420e0364dcf0a595 Merge branch 'mrchuck/nfsd-next'
+         7dc86d35a5f8a7ac24b53792c704b101e5041842 Merge branch 'mrchuck/nfsd-testing'
+         1baecaff33eec182274a2bb1141f63e712d058fd nfsd: observability improvements
+         25a202047bf2db72d7bdd4cefaa8e6b4f41d1431 nfsd: add commit start/done tracepoints around nfsd_commit()
+         c95ff9e9081722b04d4b98f3c4452d1b4c925478 nfsd: add a tracepoint for nfsd_setattr
+         45dc53d83a5a095c9953cd566c15c968624051cb nfsd: add some stub tracepoints around key vfs functions
+         9308fb8bd6a267965f9a23759716a8ec19316e3e sunrpc: keep a count of when there are no threads available
+         2f5d76b8f5183d78ec2175e41ce1e22f55675eb3 Merge branch 'nfsd-tracepoints' into kdevops
          
