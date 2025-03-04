@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7871693010622777072=="
+Content-Type: multipart/mixed; boundary="===============5593875571751065699=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Tue, 04 Mar 2025 14:17:06 -0000
-Message-Id: <174109782613.2787768.1473584193003818952@gitolite.kernel.org>
+Date: Tue, 04 Mar 2025 14:17:24 -0000
+Message-Id: <174109784453.2788122.364900536004836975@gitolite.kernel.org>
 
---===============7871693010622777072==
+--===============5593875571751065699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/testing
-    old: 5e0706ce8f26a8aea86e290d8ce586fa002669e7
+  - ref: refs/heads/togreg
+    old: 9cbc49c91d2f50f47f52c458d59253c21d883560
     new: 443238858a2dccfefb37ce98b1328bec58f56b1c
-    log: revlist-5e0706ce8f26-443238858a2d.txt
+    log: revlist-9cbc49c91d2f-443238858a2d.txt
 
---===============7871693010622777072==
+--===============5593875571751065699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5e0706ce8f26-443238858a2d.txt
+Content-Disposition: attachment; filename=revlist-9cbc49c91d2f-443238858a2d.txt
 
 bac4368fab62c7243bdc87856b9d6f7b6f6eb36d iio: imu: adis16550: add adis16550 support
 aaa9d61634e0095abe1a1111c8b3e2cd6f2b81d5 docs: iio: add documentation for adis16550 driver
@@ -78,4 +78,4 @@ a69b0bd304382b5e7050418614b1f5ddb36e77fe iio: accel: adxl345: add debug register
 eb2f9ab1f5133e5a16e3f6303464f5c60012aa05 iio: adc: ad4851: Fix signedness bug in ad4851_calibrate()
 443238858a2dccfefb37ce98b1328bec58f56b1c iio: imu: adis: fix uninitialized symbol warning
 
---===============7871693010622777072==--
+--===============5593875571751065699==--
