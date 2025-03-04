@@ -1,47 +1,66 @@
-Content-Type: multipart/mixed; boundary="===============7532029078923055198=="
+Content-Type: multipart/mixed; boundary="===============3702428099999114830=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 04 Mar 2025 10:17:45 -0000
-Message-Id: <174108346538.2573311.5552909608845652436@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Tue, 04 Mar 2025 10:20:53 -0000
+Message-Id: <174108365337.2577078.8652311812808960844@gitolite.kernel.org>
 
---===============7532029078923055198==
+--===============3702428099999114830==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/x86/cpu
-    old: 0d22030c49bfb2bd86ffa55c474f5f23b55e0533
-    new: 4f2a0b765c9731d2fa94e209ee9ae0e96b280f17
-    log: revlist-0d22030c49bf-4f2a0b765c97.txt
+  - ref: refs/heads/slab/for-next
+    old: 51d71f18be5723a3e4badf5bd721798bf2665d36
+    new: 46569b75fba9466988acf9704843d43a2d196483
+    log: revlist-51d71f18be57-46569b75fba9.txt
 
---===============7532029078923055198==
+--===============3702428099999114830==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0d22030c49bf-4f2a0b765c97.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-091b768604a8df7822aade75dd5bfc5c788154ee xen: Kconfig: Drop reference to obsolete configs MCORE2 and MK8
-4e32645cd8f97a308300623f81c902747df6b97b x86/smp: Fix mwait_play_dead() and acpi_processor_ffh_play_dead() noreturn behavior
-cfceff8526a426948b53445c02bcb98453c7330d x86/speculation: Simplify and make CALL_NOSPEC consistent
-052040e34c08428a5a388b85787e8531970c0c67 x86/speculation: Add a conditional CS prefix to CALL_NOSPEC
-27c3b452c1a554483ac692702639c826602d1089 x86/cpu: Remove unnecessary macro indirection related to CPU feature names
-681955761bf6845241c6d33e2fb222f5e92c8b89 x86/cpu: Warn louder about the {set,clear}cpuid boot parameters
-d0ba9bcf001c7907e4755b0e498f5ff9d1a228ef x86/cpu: Log CPU flag cmdline hacks more verbosely
-1b4c36f9b11e4a68f6174d1b6542b50cd29cddd2 Merge branch 'x86/urgent' into x86/cpu, to pick up dependent commits
-97c7d5723537de08e076892e07d6089ae9777965 x86/cpuid: Include <linux/build_bug.h> in <asm/cpuid.h>
-dec7fdc0b79c2ae0a537343b17f5ba1c6c47e1ca x86/cpu: Remove unnecessary headers and reorder the rest
-cb5f4c76b2a9314c35e00c67c98ccd03542c2634 x86/cpu: Use max() for CPUID leaf 0x2 TLB descriptors parsing
-8b7e54b542103753619a37cbb3216849a934872f x86/cpu: Simplify TLB entry count storage
-535d9a82702ee75b0da6e4547f367beeeef184a3 x86/cpu: Get rid of the smp_store_cpu_info() indirection
-1f61dfdf16cd3bab383741c2eb43e7f69e9f592f x86/cpu: Remove unused TLB strings
-b3a756bd72ec8d1ba43334b17115e0ece1144a88 x86/cacheinfo: Remove the P4 trace leftovers for real
-6309ff98f00bad118812f7f250fbbee4867e88d3 x86/cacheinfo: Remove unnecessary headers and reorder the rest
-4f2a0b765c9731d2fa94e209ee9ae0e96b280f17 <linux/sizes.h>: Cover all possible x86 CPU cache sizes
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1741083679 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1741083649-03c7483bd86eab1998688471729c2f5b0be6f65f
 
---===============7532029078923055198==--
+51d71f18be5723a3e4badf5bd721798bf2665d36 46569b75fba9466988acf9704843d43a2d196483 refs/heads/slab/for-next
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmfG1B8ACgkQu+CwddJF
+iJrEJQf/RYKubZ8TNI8JvDXWrOItyjn/RRTdusofUdGyzCFc5qDfiKTgbgawCtgO
+9GI+TZyocijuvgi8QSSMMa/ydMYCj/X5t/XD5KAy/p/XwywSukS9tLL7/LhBhAjy
+OXDzt3tr2UjLJNn24DtmMLqi6RFvRfRvufs0NCuszCdpB8Ka1WAjyDZ/q8Er+/bk
+w4FQ9hSj9y9TYGQulfIEP6AsrH61zQ7AuOHk1+fAbDX8dZa2kFBi74XjlNvIxg1S
+lRnDlzdXR/qzujYXG5U033zHA9Pf2XX2ogZM/oiuS6Jth8kvfi8IVa2DaS8cWrvp
+N7Vq5HMOLdpOvFytGe4sUiqYZ4RZfw==
+=Xmoo
+-----END PGP SIGNATURE-----
+
+--===============3702428099999114830==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-51d71f18be57-46569b75fba9.txt
+
+dfd3df31c9db752234d7d2e09bef2aeabb643ce4 mm/slab/kvfree_rcu: Switch to WQ_MEM_RECLAIM wq
+12f4888c9de0415ca9fc0aefc134e2800a7f47f0 mm/slab: simplify SLAB_* flag handling
+f1157db8b539cf1a98678667255fa7efa1f5b2cb slab: Adjust placement of __kvmalloc_node_noprof
+539f552892b757ca7a9eb1ba34f5be3c0a947f59 slab: Achieve better kmalloc caches randomization in kvmalloc
+ed5ec2e952595a469eae1f6dce040737359b6da2 mm: slub: Print the broken data before restoring them
+3f6f32b14ab35452d2ed52f7821cf2829923c98d mm: slub: call WARN() when detecting a slab corruption
+4b183dd9359d5772446cb634b12a383bed98c4fc mm, slab: cleanup slab_bug() parameters
+7e384dbb57e2c3cef7e70d4913b0cc4caedf0a1f kunit, slub: Add test_kfree_rcu_wq_destroy use case
+a6687c8ff613fc13a71ce1390593ba8d27c52db9 slab: Mark large folios for debugging purposes
+a6553ee4b00ba4b1466a81fb00fa4679b7ce5339 mm/slab: call kmalloc_noprof() unconditionally in kmalloc_array_noprof()
+46569b75fba9466988acf9704843d43a2d196483 Merge branch 'slab/for-6.15/kfree_rcu_tiny' into slab/for-next
+
+--===============3702428099999114830==--
