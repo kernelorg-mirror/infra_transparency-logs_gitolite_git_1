@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============4221873865347648289=="
+Content-Type: multipart/mixed; boundary="===============8186330591757301933=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 04 Mar 2025 12:31:56 -0000
-Message-Id: <174109151618.2692839.8908347172762992483@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 04 Mar 2025 12:31:59 -0000
+Message-Id: <174109151988.2692983.6301554183105718077@gitolite.kernel.org>
 
---===============4221873865347648289==
+--===============8186330591757301933==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.14
+  - ref: refs/heads/asoc-6.14
     old: 9da0ed4a85027063441fa1c73967cafc38f0677c
     new: 3d6c9dd4cb3013fe83524949b914f1497855e3de
     log: revlist-9da0ed4a8502-3d6c9dd4cb30.txt
-  - ref: refs/heads/for-6.15
+  - ref: refs/heads/asoc-6.15
     old: 579a20181cf2e9ddc2f1265ee4976a0e2631fd5d
     new: a02c42d41af7d66db71ca43c52531c3253ebe35e
     log: |
@@ -28,32 +28,32 @@ changes:
          a02c42d41af7d66db71ca43c52531c3253ebe35e ASoC: codecs: wsa883x: Implement temperature reading and hwmon
          
 
---===============4221873865347648289==
+--===============8186330591757301933==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1741091543 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1741091513-9ae990c6d639a2c7bebe5715badd5319e8335eb9
+pusher C3F436CA30F5D8EB 1741091547 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1741091517-16d99ee129476ba56c65ae95a36384715167e8f3
 
-9da0ed4a85027063441fa1c73967cafc38f0677c 3d6c9dd4cb3013fe83524949b914f1497855e3de refs/heads/for-6.14
-579a20181cf2e9ddc2f1265ee4976a0e2631fd5d a02c42d41af7d66db71ca43c52531c3253ebe35e refs/heads/for-6.15
+9da0ed4a85027063441fa1c73967cafc38f0677c 3d6c9dd4cb3013fe83524949b914f1497855e3de refs/heads/asoc-6.14
+579a20181cf2e9ddc2f1265ee4976a0e2631fd5d a02c42d41af7d66db71ca43c52531c3253ebe35e refs/heads/asoc-6.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmfG8tgACgkQJNaLcl1U
-h9C02Af+Oh0dol0hHmV5TEJKm/CqO3HJTjfrDjGqkA6IgvGsds3VtPsyDNsaWLQs
-3DBNTrrpDP1Ef4bmrqAuCgt46G95rCP80L94QdZeAcPZtfs8kOeqWlhGORzMsWJ8
-MGd4c7FwFvfUswUebYr8vr5lbEpvoyu0Vp36ipW4ZhAPAK/HWI1VASkQKmN5ngje
-Ogm53JLk3IFeOoupOra8W8wJMGuBsT0txGWtlA2towQ5r1jrffGcs2x1jnWvVh5C
-r53nCT62L+ADkNHBNvfydt5fPCGstn5IpAbQTCNf3n5rnAsBEw/NXONd1/w6cGsD
-Zo32wRpcMmY7bMudnibZ2YVUp9SRSQ==
-=lOyJ
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmfG8tsACgkQJNaLcl1U
+h9Acmwf+J9cgJDUjDp3RYCe8oamxBNueYuheQJT4Ia5NUfkR+p8nc4Ounh/YLE5d
+q7tqHm9uBgRZVieRYlkPPhBt9021j/XPFzR+AdyGsmWfQvpgqf0YpAvQxGnPR46Q
+OUHpU3WbelKVQlo69pkTvQsu004DW5ZEiMQ/rVdhVmpiW6ibecE76CiQPQqdIbG1
+F2eAZKodR5B/Y0xsjirjYLg2X8plkQClIBx2PE9+JAWrgpVV/Ax3BdGrgorzO6a5
+ZCoZ2bf6gMLpuliJzewzNrwwlXrac03SwFvd2UaL4wAeBcp+DFZfyXLLQrrpzrjl
+GL5OA5pJgeWO9HAw67FFLXL6aDM2wQ==
+=c2xL
 -----END PGP SIGNATURE-----
 
---===============4221873865347648289==
+--===============8186330591757301933==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1084,4 +1084,4 @@ b91872c56940950a6a0852e499d249c3091d4284 Merge tag 'dmaengine-fix-6.14' of git:/
 d776f016d24816f15033169dcd081f077b6c10f4 ASoC: codecs: wsa884x: report temps to hwmon in millidegree of Celsius
 3d6c9dd4cb3013fe83524949b914f1497855e3de ASoC: tegra: Fix ADX S24_LE audio format
 
---===============4221873865347648289==--
+--===============8186330591757301933==--
