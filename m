@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Tue, 04 Mar 2025 15:27:55 -0000
-Message-Id: <174110207504.2857471.3798432746788723406@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Tue, 04 Mar 2025 15:33:13 -0000
+Message-Id: <174110239319.2861869.364821838339194444@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/pci/pci
+user: kwilczynski
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: 48a9b0e38470d7f16625dbf51f85d0fb7315b15b
-    new: 08ddf3d5c12c96955bfb8e115828c444a66d9a8a
+  - ref: refs/heads/controller/dwc
+    old: 002fc4e1495daa88b59882cbfcbb29b851523034
+    new: 64e54f8d705d34552f4cb7619554f482701700c9
     log: |
-         f9d1cbf2b5d82e757dc50e73a5fa6534ebc51fda nfsd: use a long for the count in nfsd4_state_shrinker_count()
-         ac3f47220d92d63fa8216d481bc1a3f4de9f2d24 sysctl: Fixes nsm_local_state bounds
-         6e2be34f618648d649098c9b11a419732feeb527 sunrpc: update nextcheck time when adding new cache entries
-         08ddf3d5c12c96955bfb8e115828c444a66d9a8a sunrpc: fix race in cache cleanup causing stale nextcheck time
+         0ff9536b738060d7d378246857582c47445a1738 PCI: dwc: Add debugfs based Error Injection support for DWC
+         124f91440e70e03a8f3cb253a37e5d4a42c64294 PCI: dwc: Add debugfs based Statistical Counter support for DWC
+         67d111db2fed430c32b3533ff0d0848b87fb7156 PCI: dwc: Add debugfs property to provide LTSSM status of the PCIe link
+         fad782b20c44d149d3bc981ef8b16129d9c5bf3f PCI: Add Rockchip Vendor ID
+         64e54f8d705d34552f4cb7619554f482701700c9 PCI: dwc: Add Rockchip to the RAS DES allowed vendor list
          
