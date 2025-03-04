@@ -1,78 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============3302868323683172765=="
+Content-Type: multipart/mixed; boundary="===============1226745573989146684=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 04 Mar 2025 08:44:05 -0000
-Message-Id: <174107784568.2485424.5759453815826188696@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
+Date: Tue, 04 Mar 2025 08:45:48 -0000
+Message-Id: <174107794888.2488590.2643959247844843251@gitolite.kernel.org>
 
---===============3302868323683172765==
+--===============1226745573989146684==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/melver/linux
+user: melver
 changes:
-  - ref: refs/heads/master
-    old: f4c316c71fad68fdbbb480e56dd2da6bf64d7479
-    new: 9b72130df1a7f95bc41e7bae16ba67ee1e62ccc4
-    log: revlist-f4c316c71fad-9b72130df1a7.txt
-  - ref: refs/heads/tip/urgent
-    old: b73ce0d50eec6af589f6a7eab315ac8b3077efff
-    new: b0b40a15f4523fb72f2f610c57564b54b81698bb
-    log: |
-         5132e02af22ae5af228bbc4e724779661a1a9b2a Merge branch into tip/master: 'perf/urgent'
-         b0b40a15f4523fb72f2f610c57564b54b81698bb Merge branch into tip/master: 'x86/urgent'
-         
+  - ref: refs/heads/cap-analysis/dev
+    old: bfbe69eefc2fc6766ef77d2b0a3deb685944c6c9
+    new: 9b85b8a328378d6de3bb5de0ad4c048bcee829aa
+    log: revlist-bfbe69eefc2f-9b85b8a32837.txt
 
---===============3302868323683172765==
+--===============1226745573989146684==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f4c316c71fad-9b72130df1a7.txt
+Content-Disposition: attachment; filename=revlist-bfbe69eefc2f-9b85b8a32837.txt
 
-061c991697062f3bf87b72ed553d1d33a0e370dd perf/hw_breakpoint: Return EOPNOTSUPP for unsupported breakpoint type
-c70ca298036c58a88686ff388d3d367e9d21acf0 perf/core: Simplify the perf_event_alloc() error path
-8f4c4963d28349cbf1920ab71edea8276f6ac4c5 perf/core: Simplify the perf_pmu_register() error path
-6c8b0b835f003647e593c08331a4dd2150d5eb0e perf/core: Simplify perf_pmu_register()
-caf8b765d453198d4ca5305d9e207535934b6e3b perf/core: Simplify perf_init_event()
-8f2221f52eced88e74c7ae22b4b2d67dc7a96bd2 perf/core: Simplify perf_event_alloc()
-4baeb0687abf5eca3f7ab8b147c27cce82ec49ea perf/core: Merge struct pmu::pmu_disable_count into struct perf_cpu_pmu_context::pmu_disable_count
-b2996f56556e389a13377158904c218da6fffa91 perf/core: Add this_cpc() helper
-adc38b4ca1ed25ed2f1300e4d87c483bf51bfd50 perf/core: Introduce perf_free_addr_filters()
-c5b96789575b670b1e776071bb243e0ed3d3abaa perf/bpf: Robustify perf_event_free_bpf_prog()
-954878377bc81459b95937a05f01e8ebf6a05083 perf/core: Simplify the perf_mmap() control flow
-0c8a4e4139adf09b27fb910edbc596ea2d31a5db perf/core: Further simplify perf_mmap()
-8eaec7bb723c9a0addfc0457e2f28e41735607af perf/core: Remove retry loop from perf_mmap()
-0983593f32c4c94239e01e42e4a17664b64a3c63 perf/core: Lift event->mmap_mutex in perf_mmap()
-4eabf533fb1886089ef57e0c8ec52048b1741e39 perf/core: Detach 'struct perf_cpu_pmu_context' and 'struct pmu' lifetimes
-66477c7230eb1f9b90deb8c0f4da2bac2053c329 perf/core: Fix perf_mmap() failure path
-5132e02af22ae5af228bbc4e724779661a1a9b2a Merge branch into tip/master: 'perf/urgent'
-b0b40a15f4523fb72f2f610c57564b54b81698bb Merge branch into tip/master: 'x86/urgent'
-8c2bbc1023ba1f8fad4f2d735f569114dd0c6790 Merge branch into tip/master: 'irq/core'
-e4afa68c3aed0b896e5ff33e0f37c2f54eb73234 Merge branch into tip/master: 'irq/drivers'
-59650c61445ab00be14a01da40e9500dc2be803c Merge branch into tip/master: 'locking/core'
-432bb554f96a5eb5d7f37f03e1cb8c59450d4d37 Merge branch into tip/master: 'locking/futex'
-06b42b541f86c0d978bc3fe050fd986881b0fe37 Merge branch into tip/master: 'perf/core'
-6fc4d811d2dd8b7707a3bd675e886b3bae5d7e16 Merge branch into tip/master: 'ras/core'
-c08dc2f242a77244ad1f5d12af3fafb9b2310b29 Merge branch into tip/master: 'sched/core'
-cbc374b8322d10f13be790932507dddd69b12a5f Merge branch into tip/master: 'timers/cleanups'
-1808074e1714e06f3e75dceb9809664e18567305 Merge branch into tip/master: 'timers/core'
-04a6481a22c3a71d10521fdbca5250e6ecd140a9 Merge branch into tip/master: 'timers/vdso'
-6faf3c163b0568326744cb58de7dbd29be38b42a Merge branch into tip/master: 'x86/asm'
-b575836543fa03b9f5459432c13b0ac10b2a5f98 Merge branch into tip/master: 'x86/boot'
-239c92ae9bde7de15fa26cdc0ff47720b4bafe19 Merge branch into tip/master: 'x86/bugs'
-34f71005e94b27ec2b240231c956c643c3a3adc5 Merge branch into tip/master: 'x86/build'
-b12fe5130c933e4f5b5f3de9327c0f404257babe Merge branch into tip/master: 'x86/cleanups'
-ac02768c3665947092c7ce70d01ed77012bf0360 Merge branch into tip/master: 'x86/core'
-c55511e8e6d27c13c990934b32edb0a910320450 Merge branch into tip/master: 'x86/cpu'
-544c23ffdf1ddf9a5ae36403eaf89318c09d4858 Merge branch into tip/master: 'x86/fpu'
-4b603a372d333b6002f93346beb0c974e93378be Merge branch into tip/master: 'x86/microcode'
-8cfb1ebb9bc00e02ec3bb5b6ef8aa99c8fd6b3de Merge branch into tip/master: 'x86/misc'
-fd0004f21f33124e068b709ba864bcdb9a9b3937 Merge branch into tip/master: 'x86/mm'
-4c852ec6e3d8dcb9ef17377cec8aab98b3a6a5b9 Merge branch into tip/master: 'x86/platform'
-9b72130df1a7f95bc41e7bae16ba67ee1e62ccc4 Merge branch into tip/master: 'x86/sev'
+808bfe4063a948494f2ea63d70609b8f60cb90a3 compiler-capability-analysis: Add infrastructure for Clang's capability analysis
+9156dd1c964d319f1974c0de3caa4e0e9b4a200c compiler-capability-analysis: Add test stub
+73252f5988ca3267035e4317a893b8967ca7024d Documentation: Add documentation for Compiler-Based Capability Analysis
+3f2dc11f5a345788971f380836ccccc7c79880c0 checkpatch: Warn about capability_unsafe() without comment
+ee91f352ed1ceb0a51add99d18c6ed99f7a42b62 cleanup: Basic compatibility with capability analysis
+0271f1beafc85146274f96bd293250ed067a2d7a lockdep: Annotate lockdep assertions for capability analysis
+2d0da369056380ce08af3e30eb81cefe25298bbd locking/rwlock, spinlock: Support Clang's capability analysis
+d4a95fb24a4dc3483dc5dd580d7837abae5edcd9 compiler-capability-analysis: Change __cond_acquires to take return value
+b2e61aedce7e494e4620954fc6d68229fe917783 locking/mutex: Support Clang's capability analysis
+0bbb0d567c9ce0498d554040da1a7902dee952b6 locking/seqlock: Support Clang's capability analysis
+14592cbdf9d028d7af1c4062bab998078d63321d bit_spinlock: Include missing <asm/processor.h>
+99e1b124060ccab53b54e4e159f0b8a7d044323e bit_spinlock: Support Clang's capability analysis
+aae79717a486b446904da8dc9659125527f0416e rcu: Support Clang's capability analysis
+f4f4be07b281b4421cee83309499a7ad5d0e8544 srcu: Support Clang's capability analysis
+c1d854677af4e7b1654307b00709b81f9c13973e kref: Add capability-analysis annotations
+693cbaa29ed0b98cc6c0cff78e2a68c91d8101a5 locking/rwsem: Support Clang's capability analysis
+ed352a615f9bfda00dded943fe8020d0a924955e locking/local_lock: Include missing headers
+c92aba8199ed44edce985bb01181a025bff3228a locking/local_lock: Support Clang's capability analysis
+2b13775568579bc26b6c5be188d9e991bf3e8153 locking/ww_mutex: Support Clang's capability analysis
+77af5ffb1641822e152554b271736cb23f8f05d9 debugfs: Make debugfs_cancellation a capability struct
+9a1e858f124f548de678438adadcf0622373e6cc compiler-capability-analysis: Remove Sparse support
+d7a5bb9e474f2398d65a5f628b1a65ddf80bdd07 compiler-capability-analysis: Remove __cond_lock() function-like helper
+7f054b734be8096ef47f202836db5fc4fb9d3a7f compiler-capability-analysis: Introduce header suppressions
+3472511a675fcf4c9a17bb84cdd7f33d5a0a66bb compiler: Let data_race() imply disabled capability analysis
+5af755efb9627c76aeb0ffb2b0481f2b111c6506 kfence: Enable capability analysis
+240216b711a6dc77d2e5499f2b703d5d1882776f kcov: Enable capability analysis
+e92652df9aac084a39f7e4fc06f47983802e3e40 stackdepot: Enable capability analysis
+eb94e4a8a1bcdbc6dd1d6b18f37dfc523257d682 rhashtable: Enable capability analysis
+c4d5dc540d6d4c64c3d02b1f411494b6ba2a3d8a printk: Move locking annotation to printk.c
+5876d2aed33b823c0380a8ad52022f47be2c8161 drivers/tty: Enable capability analysis for core files
+1f4e17da5e1d4143779a762172cf2b3b66747e6c security/tomoyo: Enable capability analysis
+bbcc140810885085b5ff6dc5190185b3838e7ff2 crypto: Enable capability analysis
+9b85b8a328378d6de3bb5de0ad4c048bcee829aa MAINTAINERS: Add entry for Capability Analysis
 
---===============3302868323683172765==--
+--===============1226745573989146684==--
