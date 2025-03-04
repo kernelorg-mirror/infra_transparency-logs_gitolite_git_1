@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Tue, 04 Mar 2025 10:47:56 -0000
-Message-Id: <174108527601.2601623.12529972066221106162@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
+Date: Tue, 04 Mar 2025 10:49:09 -0000
+Message-Id: <174108534937.2602348.16720141870145741352@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/mtd/linux
+user: mraynal
 changes:
-  - ref: refs/heads/for-linux-next
-    old: 83d0167ddb6f8c9b22e314cd848fc2941ff48753
-    new: e16503f08126933d14183d257143ef0ff2c320ea
+  - ref: refs/heads/nand/next
+    old: 288573e43712b1e04562de1bb93be01d74aa5f48
+    new: b8a31dd4423bda78adbbf4abde2b8a7d56d82ead
     log: |
-         e16503f08126933d14183d257143ef0ff2c320ea Merge tags 'scmi-updates-6.15', 'juno-updates-6.15', 'ffa-updates-6.15' and 'smccc-update-6.15' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
+         833e553a7b2cc580e7610ecbbb2b85f1451394ad mtd: spi-nand: macronix: Add support for read retry
+         2431733277723f9fc6b5ace64a808987b3fa4f3b dt-bindings: mtd: mxc-nand: Document fsl,imx31-nand
+         b8a31dd4423bda78adbbf4abde2b8a7d56d82ead mtd: rawnand: brcmnand: fix PM resume warning
          
