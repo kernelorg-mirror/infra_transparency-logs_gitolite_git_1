@@ -1,52 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============6152729351359803383=="
+Content-Type: multipart/mixed; boundary="===============0278864599228278217=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Tue, 04 Mar 2025 12:59:27 -0000
-Message-Id: <174109316778.2720232.13216959353666882232@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Tue, 04 Mar 2025 13:03:42 -0000
+Message-Id: <174109342204.2724275.15959653676147424155@gitolite.kernel.org>
 
---===============6152729351359803383==
+--===============0278864599228278217==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
-user: jberg
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/iwlmld
-    old: 0000000000000000000000000000000000000000
-    new: 6bfe801dadbb60d187dd0de6dc7da2c39db4f272
+  - ref: refs/heads/testing
+    old: 8cca9edca867350e5f8dc65b71e7a6ef4157981e
+    new: 5e0706ce8f26a8aea86e290d8ce586fa002669e7
+    log: revlist-8cca9edca867-5e0706ce8f26.txt
 
---===============6152729351359803383==
+--===============0278864599228278217==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-8cca9edca867-5e0706ce8f26.txt
 
-certificate version 0.1
-pusher 7BF9099A 1741093166 +0100
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
-nonce 1741093136-9f8bf02c3186395f9bda81fe43384395d9e2c22a
+73d8d637938bf28a3380140a6253e5c8afc7cada iio: adc: adi-axi-adc: replace of.h with mod_devicetable.h
+cc9694ab1d45ae718f05c22e500af2ef2e8ac36b iio: adc: ad4695: fix out of bounds array access
+27dddc40b00e7af3e9e03602982973e59a6c29bc iio: adc: ad4695: simplify getting oversampling_ratio
+ec3b4602215aa8efcc4d5bdf217a78221faed61e docs: iio: fix wrong driver name in documentation
+4c212cbae59def88969ff736dff8153470de26ca iio: gyro: bmg160_i2c: add BMI088 to of_match_table
+0a7ec5fc0121257feb3b99c97571f7d09f3220d9 iio: dac: adi-axi-dac: add io_mode check
+ad6d46b1bcd46085b6267561e028abe2e60bcf1a iio: imu: bmi270: move private struct declaration to source file
+ce4bfc0519230c70ff8c035ae31360632ebc2bb3 iio: adc: Include cleanup.h when using guard()
+7e07937cafe2eb1dda718c33e4319b053aec805f Documentation: iio: Add ADC documentation
+f0d244dd1376a01c3805f6c0af4a9c6e115ee3e9 iio: imu: bmi270: rename variable bmi270_device to data
+9fcde865ee96765cf6b143d79e389c6d5f04dd6c iio: imu: bmi270: add support for data ready interrupt trigger
+ded2e9443f067eedbe79869a1e63eade2ad9d695 iio: accel: adxl345: reorganize measurement enable
+fdee4c92e1b48677df4f583a0c8d4e330ecb2823 iio: accel: adxl345: add debug register access
+5e0706ce8f26a8aea86e290d8ce586fa002669e7 iio: accel: adxl345: reorganize irq handler
 
-0000000000000000000000000000000000000000 6bfe801dadbb60d187dd0de6dc7da2c39db4f272 refs/heads/iwlmld
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmfG+S4ACgkQ10qiO8sP
-aAABZA/+M+r+rTrYY5XtoxZXtyT88TJN+rm0FI03XP8KWopQLBz6Iy0NadW4Ls41
-CeZUcQTvy2+vLcOvkQZpol16eBd1sF2ai0BTbOgVZi/yxphnuPAiYUIhz/doB/3N
-UDwNFjXus9jy9Y397EWaijKWNRi3YGVpMS5eVCzuOakEqTrdT1SiDLaEvF6OwcrQ
-1KxJZGeJbNsOQt+xoOlJ9uSB75eCxAfur39hKgysR2xcDL7qa9ahWlKUrqIgbN9b
-NQe3G7im+QujW7rtJnI56yt/6g1TbA6VifeN/XELiSd64uJmH9Xcc7rw5idz/aKA
-zH/Vr7ijVQb4qOpaMamZ3pnF9Ae3vbVGFN755wS1kHwTp2SMs0aJWbWw+pDGTFVT
-C/uo4om0Si+Ixfas8OYQzWpW1FQofYVUycEI7/Umv4bHZBe8fWjCRFB4PafphTNW
-CtT5ElNEr4ZMcdFcSlED4/0qZ8K9vFIpzDkhgdAzzicr2m6z9xwDNNsL9rVKBF6Y
-e3YGe7dnds9fkgCg94Kxm3n4AN7zUTOAZN44nvnV6oo7sLCsDO4TrQxAcOr6ZSvU
-WDdwi/png1BCjEu/HXGa5OEpDWMk+jgJCm5gwdyhcMi8A1u2kKpt/a/ad/dyoYYr
-hKJevBr5aWI4F3dm0PrcarpFvKK9z6tyolQ9b7037CabpsAi1C8=
-=+krv
------END PGP SIGNATURE-----
-
---===============6152729351359803383==--
+--===============0278864599228278217==--
