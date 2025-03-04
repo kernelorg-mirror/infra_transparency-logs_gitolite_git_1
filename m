@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7321355587707927656=="
+Content-Type: multipart/mixed; boundary="===============1441232082099127259=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Tue, 04 Mar 2025 16:59:36 -0000
-Message-Id: <174110757614.2938807.18203057475023564947@gitolite.kernel.org>
+Date: Tue, 04 Mar 2025 16:59:38 -0000
+Message-Id: <174110757823.2938912.18431802957336424168@gitolite.kernel.org>
 
---===============7321355587707927656==
+--===============1441232082099127259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,43 +15,33 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm32-for-6.15
-    old: 0a05ddb42ea942b21c7459f1b80d68508fea225e
-    new: adbbdcf4b2d6556721b580385ba387baca5c26ee
-    log: |
-         adbbdcf4b2d6556721b580385ba387baca5c26ee ARM: dts: qcom: ipq4018: Switch to undeprecated qcom,calibration-variant
-         
-  - ref: refs/heads/arm64-for-6.15
-    old: f22be5c1dd3e12519e3f3b80c14d10b90be2c2fc
-    new: d09ab685a8f51ba412d37305ea62628a01cbea57
-    log: revlist-f22be5c1dd3e-d09ab685a8f5.txt
-  - ref: refs/heads/clk-for-6.15
-    old: 63847e845c56d936abfc495fa8e192234f7a1f8f
-    new: a8e4ab5bdeeadf873a36f904066185acb1540021
-    log: |
-         53fc6fe160c1b941e531a35e3a2e6d2aaef86999 dt-bindings: clock: qcom: sm8450-camcc: Remove qcom,x1e80100-camcc leftover
-         0f358f1ad56d781642b00454b57e4f35c4d74295 clk: qcom: camcc: Constify 'struct qcom_cc_desc'
-         1801cee7c6607dbf638d9e1e6a198c9b3e2bda90 clk: qcom: dispcc: Constify 'struct qcom_cc_desc'
-         b9fe89a100ab1a31f56c91682de402c9aeb2f701 clk: qcom: gpucc: Constify 'struct qcom_cc_desc'
-         a8e4ab5bdeeadf873a36f904066185acb1540021 clk: qcom: videocc: Constify 'struct qcom_cc_desc'
-         
+  - ref: refs/heads/for-next
+    old: ce549602e1c73b7e9ffb3b33d8c4b063c93f7758
+    new: b098bcd8278b89cb3eb73fdb6e06dc49af75ad37
+    log: revlist-ce549602e1c7-b098bcd8278b.txt
 
---===============7321355587707927656==
+--===============1441232082099127259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f22be5c1dd3e-d09ab685a8f5.txt
+Content-Disposition: attachment; filename=revlist-ce549602e1c7-b098bcd8278b.txt
 
 801befff4c827aa72e3698367c5afc18987a6a3f arm64: dts: qcom: x1e80100: Fix video thermal zone
 03f2b8eed73418269a158ccebad5d8d8f2f6daa1 arm64: dts: qcom: x1e80100: Apply consistent critical thermal shutdown
 5ba21fa11f473c9827f378ace8c9f983de9e0287 arm64: dts: qcom: x1e80100: Add GPU cooling
 06eadce936971dd11279e53b6dfb151804137836 arm64: dts: qcom: x1e80100: Drop unused passive thermal trip points for CPU
+53fc6fe160c1b941e531a35e3a2e6d2aaef86999 dt-bindings: clock: qcom: sm8450-camcc: Remove qcom,x1e80100-camcc leftover
+0f358f1ad56d781642b00454b57e4f35c4d74295 clk: qcom: camcc: Constify 'struct qcom_cc_desc'
+1801cee7c6607dbf638d9e1e6a198c9b3e2bda90 clk: qcom: dispcc: Constify 'struct qcom_cc_desc'
+b9fe89a100ab1a31f56c91682de402c9aeb2f701 clk: qcom: gpucc: Constify 'struct qcom_cc_desc'
+a8e4ab5bdeeadf873a36f904066185acb1540021 clk: qcom: videocc: Constify 'struct qcom_cc_desc'
 2a26a02e668ff101580647221c898d75ed93f8f5 arm64: dts: qcom: qrb5165-rb5-vision-mezzanine: Drop CMA heap
 4de3e8d657f2111dd8d45c2ba0eef8b2437b85f2 arm64: dts: qcom: sdm845-db845c-navigation-mezzanine: Drop CMA heap
 01a3d5e3cdc833292bdc80a4320235551083982f arm64: dts: qcom: x1e80100-dell-xps13-9345: Enable external DP support
 027dcb3de88dfd1b82f5f712361d216f209110b0 arm64: dts: qcom: x1e001de-devkit: Enable HBR3 on external DPs
 9a49698252b78471a61873b4fe27dfd2e2fe2bad arm64: dts: qcom: x1e80100-hp-x14: Enable HBR3 on external DPs
 c72c7105c82de59fb711f8379843f80b4abef7e3 arm64: dts: qcom: x1e80100-qcp: Enable HBR3 on external DPs
+adbbdcf4b2d6556721b580385ba387baca5c26ee ARM: dts: qcom: ipq4018: Switch to undeprecated qcom,calibration-variant
 f1bf8a943bea70c7432731c11761d161882aeedc arm64: dts: qcom: msm8998: Switch to undeprecated qcom,calibration-variant
 41eeff2fc2292c56592206741b05fde63acef4f0 arm64: dts: qcom: qrb2210-rb1: Switch to undeprecated qcom,calibration-variant
 a83356f7ba575f536dd2bf2338cafd0d1d2d51ec arm64: dts: qcom: qrb4210-rb2: Switch to undeprecated qcom,calibration-variant
@@ -73,5 +63,6 @@ d0c38cbe3556fea446b9350ec597a8e9c2cdaf36 arm64: dts: qcom: sdm632-fairphone-fp3:
 27fd3266e8bd615af8ec5e91addac0b1dedc0b29 arm64: dts: qcom: Correct white-space style
 97bf440d95f1bafd8345739663ad3c04627f1505 arm64: dts: qcom: sm8750: Add RPMh sleep stats
 d09ab685a8f51ba412d37305ea62628a01cbea57 arm64: dts: qcom: x1e80100-qcp: Add WiFi/BT pwrseq
+b098bcd8278b89cb3eb73fdb6e06dc49af75ad37 Merge branches 'arm32-for-6.15', 'arm64-defconfig-for-6.15', 'arm64-fixes-for-6.14', 'arm64-for-6.15', 'clk-fixes-for-6.14', 'clk-for-6.15', 'drivers-fixes-for-6.14' and 'drivers-for-6.15' into for-next
 
---===============7321355587707927656==--
+--===============1441232082099127259==--
