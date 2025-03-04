@@ -1,24 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Tue, 04 Mar 2025 14:53:13 -0000
-Message-Id: <174109999359.2824005.6000004527220576783@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Tue, 04 Mar 2025 14:53:24 -0000
+Message-Id: <174110000476.2824306.12897860312758717216@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/testing
-    old: 443238858a2dccfefb37ce98b1328bec58f56b1c
-    new: 15a007e7ae5b0680bc236b478c5c680512ec45bd
+  - ref: refs/heads/kdevops
+    old: cb539e9d699a4507c28809edf2f8671fe1e1ef6e
+    new: 2327318960a4c4ebb1745f09d5d310b9bb545e98
     log: |
-         7867a0d1dd8c621e95772ac3addb7396ab2d5883 MAINTAINERS: remove adi,ad7606.yaml from SEPS525
-         d15fc646ccff50addb5b56bc71620691da642af6 dt-bindings: iio: adc: Add rockchip,rk3528-saradc variant
-         8a9aa0bbd615c9b377bd82e671519f0c4cb272dd iio: adc: rockchip_saradc: Add support for RK3528
-         fcd104f0ed9f620fc063d2edc5be08e239c43874 iio: buffer-dma: Fix docstrings
-         5017dcb8fcace47292b081cb729d392f908c0ef8 iio: light: Fix spelling mistake "regist" -> "register"
-         15a007e7ae5b0680bc236b478c5c680512ec45bd iio: adc: ad4030: fix error pointer dereference in probe()
+         a0f8129957c861f235abc7ae1c24ce11f9bb8d6d nfsd: clean up if statement in nfsd4_close_open_stateid()
+         2327318960a4c4ebb1745f09d5d310b9bb545e98 nfsd: use a long for the count in nfsd4_state_shrinker_count()
          
