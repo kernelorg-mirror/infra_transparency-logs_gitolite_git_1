@@ -1,25 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Tue, 04 Mar 2025 10:56:36 -0000
-Message-Id: <174108579609.2610004.14933469155056731916@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
+Date: Tue, 04 Mar 2025 11:02:10 -0000
+Message-Id: <174108613044.2614468.5707696497363495913@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/mtd/linux
+user: mraynal
 changes:
-  - ref: refs/heads/master
-    old: 455e609f06810d01336b61a273673e4fddeb33c2
-    new: 9dea40a4ad2b8c87e0bd11c09782f824cd82cd96
+  - ref: refs/heads/nand/next
+    old: b8a31dd4423bda78adbbf4abde2b8a7d56d82ead
+    new: ddc210cf8b8a8be68051ad958bf3e2cef6b681c2
     log: |
-         7130d901f1867061514296395589fe004a3e4bec fallocate: rework incompatible options
-         2a989ed5be9ced00d79fe79c7dcfa19aa7146957 irqtop: add batch mode support
-         2a5513d568737a3953ee94a06fd59f8704ce8dfb irqtop: add max iteration support
-         40092a872752c86a0a7459ce5f44f7e51d2fa8b9 irqtop: support json output format
-         4a1eeff0bc597efa4982f7faafcda597b38fbac4 lsirq: add support for reading data from given file
-         1d113038fd66510482e899a22e1aca708ad02da5 Merge branch 'fallocate-options-excl' of https://github.com/aerusso/util-linux
-         9dea40a4ad2b8c87e0bd11c09782f824cd82cd96 Merge branch 'PR/irq-misc' of https://github.com/karelzak/util-linux-work
+         f2cb43c98010181b532ff36643731dc2442b9b7d mtd: spinand: Add read retry support
+         a9d94a2a9e5a9a58487020e2f45584b3b663c8f5 mtd: spinand: macronix: Add support for read retry
+         87b726bc79f109d8ef57e8bc32f05d4f24b7d297 dt-bindings: mtd: mxc-nand: Document fsl,imx31-nand
+         ddc210cf8b8a8be68051ad958bf3e2cef6b681c2 mtd: rawnand: brcmnand: fix PM resume warning
          
