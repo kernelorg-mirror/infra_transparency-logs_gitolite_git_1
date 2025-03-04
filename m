@@ -1,20 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Tue, 04 Mar 2025 14:30:23 -0000
-Message-Id: <174109862315.2801768.5448661177078314658@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Tue, 04 Mar 2025 14:32:55 -0000
+Message-Id: <174109877521.2802874.11103407897577749416@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/syscon-rework-2
-    old: f55e907e93c55c943725dd62c2fc7dc76cdbd8d5
-    new: 693e8380bf26aff27b02f92eb938dc56d7da2577
+  - ref: refs/heads/for-next
+    old: 4a52bada7d8f61f190f290fa848ad83aed2580a5
+    new: 1c9925826970f3a5901b4a3d6a187603f236ea1f
     log: |
-         96afb7d625be5e12f10bd1c245acc400df5e45ca move driver to gate_regmap
-         693e8380bf26aff27b02f92eb938dc56d7da2577 clk-gate-regmap.c
+         d83f6c32d70f96037cb187e63785e7a58f9e751b arm64: dts: rockchip: Add ES8388 audio codec fallback on RK3399 ROC PC PLUS
+         ced36c336d241eafbc812fed27e6a52908d249bb arm64: dts: rockchip: Add ES8388 audio codec fallback on RK3588 boards
+         1c9925826970f3a5901b4a3d6a187603f236ea1f Merge branch 'v6.15-armsoc/dts64' into for-next
+         
+  - ref: refs/heads/v6.15-armsoc/dts64
+    old: 0d2312f0d3e4ce74af0977c1519a07dfc71a82ac
+    new: ced36c336d241eafbc812fed27e6a52908d249bb
+    log: |
+         d83f6c32d70f96037cb187e63785e7a58f9e751b arm64: dts: rockchip: Add ES8388 audio codec fallback on RK3399 ROC PC PLUS
+         ced36c336d241eafbc812fed27e6a52908d249bb arm64: dts: rockchip: Add ES8388 audio codec fallback on RK3588 boards
          
