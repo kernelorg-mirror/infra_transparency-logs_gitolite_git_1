@@ -1,46 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============2567955591219801337=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 04 Mar 2025 12:28:38 -0000
-Message-Id: <174109131887.2687810.11435827871533436436@gitolite.kernel.org>
-
---===============2567955591219801337==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 04 Mar 2025 12:29:56 -0000
+Message-Id: <174109139664.2689345.11148714196239725327@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: 265e352b6cc5f905a577da2b7016a6b7fa1f5ec9
-    new: d1352f76aed02ac607654dade8d5a60aebe18ba2
-    log: revlist-265e352b6cc5-d1352f76aed0.txt
-
---===============2567955591219801337==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-265e352b6cc5-d1352f76aed0.txt
-
-fb3dda82fd38ca42140f29b3082324dcdc128293 net: airoha: Move airoha_eth driver in a dedicated folder
-b38f4ff0ceacd6ce8d333a8dc90f405a040968d3 net: airoha: Move definitions in airoha_eth.h
-e0758a8694fbaffdc72940774db295585e951119 net: airoha: Move reg/write utility routines in airoha_eth.h
-ec663d9a82bf4d16721f6b1fc29df4892ba6c088 net: airoha: Move register definitions in airoha_regs.h
-af3cf757d5c99011b9b94ea8d78aeaccc0153fdc net: airoha: Move DSA tag in DMA descriptor
-ab667db1e6014634c6607ebdddc16c1b8394a935 net: dsa: mt7530: Enable Rx sptag for EN7581 SoC
-80369686737fe07c233a1152da0b84372dabdcd6 net: airoha: Enable support for multiple net_devices
-67fde5d58cd43d129a979e918ec9cd5d2e2fbcfb net: airoha: Move REG_GDM_FWD_CFG() initialization in airoha_dev_init()
-c28b8375f6d02ef3b5e8c51234cc3f6d47d9fb7f net: airoha: Rename airoha_set_gdm_port_fwd_cfg() in airoha_set_vip_for_gdm_port()
-266f7a0f81c059e68748d05f89258fc97f5b07f9 dt-bindings: net: airoha: Add the NPU node for EN7581 SoC
-9b1a0b72264cafdbc1e06ef8531bc6bd693b49ca dt-bindings: net: airoha: Add airoha,npu phandle property
-23290c7bc190def4e1ca61610992d9b7c32e33f3 net: airoha: Introduce Airoha NPU support
-00a7678310fe3d3f408513e55d9a0b67f0db380f net: airoha: Introduce flowtable offload support
-9cd451d414f6e29f507a216fb3b19fa68c011f8c net: airoha: Add loopback support for GDM2
-3fe15c640f3808c3faf235553c67c867d1389e5c net: airoha: Introduce PPE debugfs support
-d1352f76aed02ac607654dade8d5a60aebe18ba2 Merge branch 'introduce-flowtable-hw-offloading-in-airoha_eth-driver'
-
---===============2567955591219801337==--
+  - ref: refs/heads/20250303_linus_walleij_asoc_samsung_gpio_descriptor_conversion
+    old: fafc5d2d8f909c33f77bcfa878b4f403cdabfb4e
+    new: 0a22454ab2eca530702b2689858909b608953703
+    log: |
+         feb849404a8b677aa6760d1539acf597e4574337 ASoC: SOF: Intel: hda-dai: Remove unnecessary bool conversion
+         a02c42d41af7d66db71ca43c52531c3253ebe35e ASoC: codecs: wsa883x: Implement temperature reading and hwmon
+         b19d340d5d08c5940ce612c2a1b5fe3a8a401f9d ASoC: samsung: bells: Drop unused include
+         c4b2d9643a06a5326a778c4d77d6fa60e0f3d6b1 ASoC: samsung: littlemill: Drop unused include
+         5c06f7f3d8374df1cec3b353306a4d1032a60f44 ASoC: samsung: lowland: Drop unused include
+         da9146c19b1774926148ff271c4a3dc8d7891b18 ASoC: samsung: speyside: Convert to GPIO descriptor
+         c095b7a27529d1d18b3b36a47f77a1419f0de939 ASoC: samsung: tobermory: Drop unused include
+         0a22454ab2eca530702b2689858909b608953703 ASoC: samsung: tm2_wm5110: Drop unused include
+         
+  - ref: refs/heads/v2_20250303_ckeepax_tidy_up_asoc_value_control_macros
+    old: e9c41464868db36e766b4c287dd665d7e03573cb
+    new: 1743dbb45b2cbe5500068900794a355a7e0dd853
+  - ref: refs/heads/file1QHNCt
+    old: 0000000000000000000000000000000000000000
+    new: 8243a49145e59f19032b86b20d8906f05e31bdcc
