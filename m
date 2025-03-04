@@ -1,21 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dakr/linux
-Date: Tue, 04 Mar 2025 12:44:12 -0000
-Message-Id: <174109225249.2706249.8030815029991311676@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 04 Mar 2025 12:47:51 -0000
+Message-Id: <174109247111.2710061.4458957109370876774@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dakr/linux
-user: dakr
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/topic/rust-drm
-    old: cce12752058abaa4d6f601613369df257ee89520
-    new: 0722a3f4f15545a4a25fd124b6955a5b6498e23a
+  - ref: refs/heads/main
+    old: d1352f76aed02ac607654dade8d5a60aebe18ba2
+    new: 188fa9b9e20a2579ed8f4088969158fb55059fa0
     log: |
-         e336b5d518f8a9fc2c9d968871a30b16801fdd48 rust: drm: file: Add File abstraction
-         d7e517875764fee099f293a0d6642a840929d5db rust: drm: gem: Add GEM object abstraction
-         0722a3f4f15545a4a25fd124b6955a5b6498e23a nova: add initial driver stub
+         c0bf9bf31e79273196cbdaa045972617fdd1a498 net: hibmcge: Add support for dump statistics
+         833b65a3b54d715965d5c444ad1015321633b3f8 net: hibmcge: Add support for checksum offload
+         fd394a334b1c29caeae45f15d8b99b77c881bc63 net: hibmcge: Add support for abnormal irq handling feature
+         e0306637e85da84a0695452f42dc29a552051402 net: hibmcge: Add support for mac link exception handling feature
+         7a5d60dcf9981a5cc7b676e2d7472e10e0c1b681 net: hibmcge: Add support for BMC diagnose feature
+         615552c601ed3f7c8b88cdb9745e2ace769c264f net: hibmcge: Add support for ioctl
+         188fa9b9e20a2579ed8f4088969158fb55059fa0 Merge branch 'support-some-enhances-features-for-the-hibmcge-driver'
          
