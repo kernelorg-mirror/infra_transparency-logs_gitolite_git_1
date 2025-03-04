@@ -1,26 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 04 Mar 2025 16:04:18 -0000
-Message-Id: <174110425856.2890714.10071712723605943025@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mdraid/linux
+Date: Tue, 04 Mar 2025 16:34:11 -0000
+Message-Id: <174110605142.2914906.13661267853291027571@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/mdraid/linux
+user: yukuai
 changes:
-  - ref: refs/heads/for-linus
-    old: 172a0f509723fe4741d4b8e9190cf434b18320d8
-    new: d0bbe332669c5db32c8c92bc967f8e7f8d460ddf
+  - ref: refs/heads/md-6.15
+    old: 5fbcf76e0dfe68578ffa2a8a691cc44cf586ae35
+    new: 27d4cd61c0d19b13b4a71931f2ae6dc91d48f0ff
     log: |
-         d0bbe332669c5db32c8c92bc967f8e7f8d460ddf ALSA: hda: realtek: fix incorrect IS_REACHABLE() usage
-         
-  - ref: refs/heads/master
-    old: 97d9e333525f425749f5f2863fc81153157a7ffe
-    new: 2be1894bb567d8a25b043f08b7e694c56b6fe86a
-    log: |
-         d0bbe332669c5db32c8c92bc967f8e7f8d460ddf ALSA: hda: realtek: fix incorrect IS_REACHABLE() usage
-         2be1894bb567d8a25b043f08b7e694c56b6fe86a Merge branch 'for-linus'
+         a859f90d1f9f5236a69a95ee39f26e91e0cd9629 md: merge common code into find_pers()
+         ed1d6a190d07a2201e080a4f64618da4419a509c md: only include md-cluster.h if necessary
+         27aed498f2e67a871fd12b47103b80949ce82a56 md: introduce struct md_submodule_head and APIs
+         204813785f8867d9d8f8ad6faa185f5eedeafe72 md: switch personalities to use md_submodule_head
+         63da4b025dd857a2e5d3be6e81c27c57c2667641 md/md-cluster: cleanup md_cluster_ops reference
+         dac5a9a8803fbea544f905a43e2aec4162523dcb md: don't export md_cluster_ops
+         27d4cd61c0d19b13b4a71931f2ae6dc91d48f0ff md: switch md-cluster to use md_submodle_head
          
