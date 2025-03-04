@@ -1,63 +1,67 @@
-Content-Type: multipart/mixed; boundary="===============1226745573989146684=="
+Content-Type: multipart/mixed; boundary="===============7107013567085614602=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
-Date: Tue, 04 Mar 2025 08:45:48 -0000
-Message-Id: <174107794888.2488590.2643959247844843251@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jirislaby/linux
+Date: Tue, 04 Mar 2025 08:48:15 -0000
+Message-Id: <174107809508.2489648.18272935945217945424@gitolite.kernel.org>
 
---===============1226745573989146684==
+--===============7107013567085614602==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/melver/linux
-user: melver
+repo: pub/scm/linux/kernel/git/jirislaby/linux
+user: jirislaby
 changes:
-  - ref: refs/heads/cap-analysis/dev
-    old: bfbe69eefc2fc6766ef77d2b0a3deb685944c6c9
-    new: 9b85b8a328378d6de3bb5de0ad4c048bcee829aa
-    log: revlist-bfbe69eefc2f-9b85b8a32837.txt
+  - ref: refs/heads/devel
+    old: 2e34f839068291b65952cdcabb82b977d40d165c
+    new: 652bb2cea510d6f80c1f01cd6e1a5d47116cd5a9
+    log: revlist-2e34f8390682-652bb2cea510.txt
 
---===============1226745573989146684==
+--===============7107013567085614602==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bfbe69eefc2f-9b85b8a32837.txt
+Content-Disposition: attachment; filename=revlist-2e34f8390682-652bb2cea510.txt
 
-808bfe4063a948494f2ea63d70609b8f60cb90a3 compiler-capability-analysis: Add infrastructure for Clang's capability analysis
-9156dd1c964d319f1974c0de3caa4e0e9b4a200c compiler-capability-analysis: Add test stub
-73252f5988ca3267035e4317a893b8967ca7024d Documentation: Add documentation for Compiler-Based Capability Analysis
-3f2dc11f5a345788971f380836ccccc7c79880c0 checkpatch: Warn about capability_unsafe() without comment
-ee91f352ed1ceb0a51add99d18c6ed99f7a42b62 cleanup: Basic compatibility with capability analysis
-0271f1beafc85146274f96bd293250ed067a2d7a lockdep: Annotate lockdep assertions for capability analysis
-2d0da369056380ce08af3e30eb81cefe25298bbd locking/rwlock, spinlock: Support Clang's capability analysis
-d4a95fb24a4dc3483dc5dd580d7837abae5edcd9 compiler-capability-analysis: Change __cond_acquires to take return value
-b2e61aedce7e494e4620954fc6d68229fe917783 locking/mutex: Support Clang's capability analysis
-0bbb0d567c9ce0498d554040da1a7902dee952b6 locking/seqlock: Support Clang's capability analysis
-14592cbdf9d028d7af1c4062bab998078d63321d bit_spinlock: Include missing <asm/processor.h>
-99e1b124060ccab53b54e4e159f0b8a7d044323e bit_spinlock: Support Clang's capability analysis
-aae79717a486b446904da8dc9659125527f0416e rcu: Support Clang's capability analysis
-f4f4be07b281b4421cee83309499a7ad5d0e8544 srcu: Support Clang's capability analysis
-c1d854677af4e7b1654307b00709b81f9c13973e kref: Add capability-analysis annotations
-693cbaa29ed0b98cc6c0cff78e2a68c91d8101a5 locking/rwsem: Support Clang's capability analysis
-ed352a615f9bfda00dded943fe8020d0a924955e locking/local_lock: Include missing headers
-c92aba8199ed44edce985bb01181a025bff3228a locking/local_lock: Support Clang's capability analysis
-2b13775568579bc26b6c5be188d9e991bf3e8153 locking/ww_mutex: Support Clang's capability analysis
-77af5ffb1641822e152554b271736cb23f8f05d9 debugfs: Make debugfs_cancellation a capability struct
-9a1e858f124f548de678438adadcf0622373e6cc compiler-capability-analysis: Remove Sparse support
-d7a5bb9e474f2398d65a5f628b1a65ddf80bdd07 compiler-capability-analysis: Remove __cond_lock() function-like helper
-7f054b734be8096ef47f202836db5fc4fb9d3a7f compiler-capability-analysis: Introduce header suppressions
-3472511a675fcf4c9a17bb84cdd7f33d5a0a66bb compiler: Let data_race() imply disabled capability analysis
-5af755efb9627c76aeb0ffb2b0481f2b111c6506 kfence: Enable capability analysis
-240216b711a6dc77d2e5499f2b703d5d1882776f kcov: Enable capability analysis
-e92652df9aac084a39f7e4fc06f47983802e3e40 stackdepot: Enable capability analysis
-eb94e4a8a1bcdbc6dd1d6b18f37dfc523257d682 rhashtable: Enable capability analysis
-c4d5dc540d6d4c64c3d02b1f411494b6ba2a3d8a printk: Move locking annotation to printk.c
-5876d2aed33b823c0380a8ad52022f47be2c8161 drivers/tty: Enable capability analysis for core files
-1f4e17da5e1d4143779a762172cf2b3b66747e6c security/tomoyo: Enable capability analysis
-bbcc140810885085b5ff6dc5190185b3838e7ff2 crypto: Enable capability analysis
-9b85b8a328378d6de3bb5de0ad4c048bcee829aa MAINTAINERS: Add entry for Capability Analysis
+83405f666e9b150750852c90eff45e2a0eada762 irqdomain: mfd: Stop using irq_domain_add_simple()
+e7168c34e50a55a641192e9f324f387fb807b2ef irqdomain: misc: Stop using irq_domain_add_simple()
+c8b33d3e387abe108ef7511f723c463ec7327090 irqdomain: pinctrl: Stop using irq_domain_add_simple()
+2975ecb5687bae256294dd43e6387da99670d971 irqdomain: irqchip: Stop using irq_domain_add_simple()
+d324ce6ff4823f078cc429ba35a87997b5b592a9 irqdomain: Drop irq_domain_add_simple()
+fc23d94417ee47c290d12cdff41fcad6479e5c68 drop irq_domain_add_linear
+bac6eee85a299872b29c8defe53d0bc5a321b3dc drop irq_domain_add_hierarchy
+02c397f926718373a6251aa32401791b0bf21b51 drop irq_domain_add_legacy() WHITESPACE+
+a552a5f4c9342a6d8976531a448b4b526d480964 switch irq_domain_add_nomap() to fwnode
+1b62d78f0acce7bd9e8bb2ad0cfef28839f58c8d drop irq_domain_add_tree
+6d14492dd0a810bb08d7857aca2a8c12c263f059 irqdomain: Rename _instantiate functions to _add
+d62953f27444c8e970e35e9d3aa5493dbb64b158 irqdomain: Switch away from irq_linear_revmap() and drop it
+82e46f0ac0f7bab591d29458f5b393263a2a65d3 irqdomain.h: Improve kernel-docs of functions
+267a3a2793ff449465add2f62d60289e36e0549c docs: irq/concepts: Add commas and reflow
+1fff5bbd09086f6f44b8613696cb05b53cbe1ee6 docs: irq/concepts: Minor improvements
+42ae6347eab38f691b7071d413c87b60ec8904d6 docs: irq-domain.rst: Simple improvements
+498b4b6af2738c7a8c12592216984f8032f0f389 docs: irqdomain: Update
+91ec82a72a95eb4ca399a9b28ef5c657de290993 irqdomain.c: Fix kernel-doc and add it to Documentation
+b26e2fd492e5baa5d8dfa8dfb721987d394f8c31 genirq: warn about IRQs on isolated CPUs
+ae0d1b3188d7c9d62e674b8a4cbcca65bc1b8965 avoid tty_port_link_device
+f6984fa4ed76a0b393e309eb245e54a1a53d03a5 hide tty_port_link_device
+fa4cf049d42aefa91bd9c8c2217ed5e9f68913b8 tty: make tty_cdev_add() more readable
+6da83b2650220185a1f64d550dbca434cb566b3c tty_port_link_device retval
+666953f06ee21df38e6b50129a9debcabb296651 make free_tty_struct available
+513856ff63ec84930b79a94aebd9ce32d5201fe1 tty: convert driver::ttys to xarray
+e6b46d8936fd97d8f43e54e8f4120578380762df tty: convert driver::termios to xarray
+f10df3f77d9fa364b14c8e32c371136bba06b337 tty: convert driver::ports to xarray
+cd2a1b99f1135a2a1b25e9c082ced5e6d5ed2d0f tty: convert driver::cdevs to xarray
+d3a4bb1e8f89ca592c383ad3262999c1afedbd02 ttytest: add
+a2a1919b27d1ae0ab32777b31e719afc1fa55bda tty: use xarray for tty's file list
+08471ca89ba8f47a34cf78e7aa21ca4a4ccf02a5 amba-pl011: don't rely on amba_reg.state
+c191ccd6c4d2ac128dbae455dc277a8552b0335b serial: drv->state -> xarray
+27c714efacb02e3b3971704774ed337e21e21f54 +enum uart_iotype
+43b190fb83e99c551b7c06563195223c66a385e9 quirks
+0deb23061a7336d5f37c5b2fdcaf12c885068867 8250 ops
+3979eef596451ac6c746ef45aa8c2391d2c24808 ops2
+652bb2cea510d6f80c1f01cd6e1a5d47116cd5a9 BRANCH_MARKER: work
 
---===============1226745573989146684==--
+--===============7107013567085614602==--
