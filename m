@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1805034977946513472=="
+Content-Type: multipart/mixed; boundary="===============7777188446731968111=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 04 Mar 2025 03:18:43 -0000
-Message-Id: <174105832371.2220711.5837519728559659164@gitolite.kernel.org>
+Date: Tue, 04 Mar 2025 03:19:04 -0000
+Message-Id: <174105834414.2221107.5388473092665518874@gitolite.kernel.org>
 
---===============1805034977946513472==
+--===============7777188446731968111==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: abcf506f424cf3a133e349696d31e4f0e8b2391b
-    new: 30d83a85d672192e63fd689f054d02845e0176fe
-    log: revlist-abcf506f424c-30d83a85d672.txt
+  - ref: refs/heads/6.15/scsi-staging
+    old: ac0fb4a55bde561c46fc7445642a722803176b33
+    new: f421692be10133a66a3a8a7d5c76fe9713ea5a8b
+    log: revlist-ac0fb4a55bde-f421692be101.txt
 
---===============1805034977946513472==
+--===============7777188446731968111==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1741058335 -0500
+pusher 75C5DE3D 1741058356 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1741058305-4ec5131abc04818f4e408acb1e4383d7ab5ea8ee
+nonce 1741058326-2fa0af4da0bd5525cee864620d9578d14679a04c
 
-abcf506f424cf3a133e349696d31e4f0e8b2391b 30d83a85d672192e63fd689f054d02845e0176fe refs/tags/mkp-scsi-staging
+ac0fb4a55bde561c46fc7445642a722803176b33 f421692be10133a66a3a8a7d5c76fe9713ea5a8b refs/heads/6.15/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmfGcR8ACgkQ7ulgGnXF
-3j3zKw/+IeRKM9k0EWDuZL0pBPr6cbPrYgv5646zsp+3hOSSdGk1bEzkJCVE4WrS
-VeQzDrUJyjGpYyfds9WkDngpxJilv8Gm2zt81ysjlZsU4ch26kwh+eTiwV6fs+os
-IbYzkCEJHHbiSjaZLGbD6qvriJOZZrid43bJcrF5XnH3Kk7Nb4EHCL9EbEpinCoo
-RGOCA5c+9q0lMCUoWtbdLZtOFI/qwxobcobgvN+JuEFr7xG6wL4JwtXCcemY4v36
-vK6BZI/f9kph8Br7TDr16aP2eCd/e/mvRD1hE3PGWkHSqkjILZ+P9V3tN9wgIZbI
-ttubEKpEbAULj1WBOGd0qTKl7emKx2vXuA5ZmDkhfUhC4aQTmQyPZIxmDfyBdZnc
-fIjsMov5gUmhAvdg2rH+qlpJptaM8JprTs1laztf6BjbAjUH7vLQ5W2wp+dgLRVv
-SNJACZRLwEBxnL84iKCN9Gf666wkjwH6KtJLUfwHc1c1qgPw4OsA97QQWh21om6Q
-BJnL4OTxx2GSn9LdqB2LjCOOWGXeN8eSlwPZL+2Eor1VmXnhcCA9dogj240J0PFp
-pLuvlnAmMFmk5V9S4yiNaKYaSc6iV6PRZ02MiO0BqesZatjln3QRZK+XRdx116fJ
-+a+GMK+jV76Nq02nDglwF6MfHrvxybI+YKu+Oz5frVCtaQbPg+I=
-=W/t9
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmfGcTQACgkQ7ulgGnXF
+3j3SMg/6AvOt7g29gx6JZi6t+1YeUzRY9KSzda4ZHOGiN09j5V7FMDY1zdFtwGsx
+RCd/rSbsa3SCyo7q6YP07igE04LM+IRjn0whrQTQV56VwQm471pvqDUdeocjiRoG
+VxfRGxP7eTNHMkZ6SHjDa35fW+/jR/Br4tS+aka5HStBZg8owq/GHJ8lKLYtVWeI
+H7m7SwrXj/Mq7dVrmXLvNS5eFh5PKLPIpU2WGB9wwuymwVCVOKrXU4QkV7ddxal9
+YCb5NeUEvaG3glHSrZ4VgcAkWqTgBwrft/W61AF9UA5Fr0ay+7sC3zpH1RHGEnK+
+BsDBoxOzIlhZeS4+4pC5eER/sdZwNPPBXC9RNlBItX4oxPU4j3LYAXwfbBO2omrl
+v+/bC1Qf4cgxTJDPOlxBvCvXVZXVeQ+Xv4b+iTn9Awj1ENGZu8+7WCQZej1OuRLW
+F1IhW3EPHazwl6ew7OoNTdI8KaovQSrPWroS9yeQ4GHw7K9x024yEXQljHVBEw2z
+hF8DuFYdcJx6xKWerTjMGwGrMBZS2t+W2IkdqiboB8CYo9wir6sBgUuyarI0g16J
+JKdS94WMxuS9Q94v7E1wCT0tQk0kaNxZVvlyHlUxyxP1Q0Cnof8e9EEltl/hgu3T
+9ua50Q2H50zdpPr1fbwcH+zkl/SFE2uLrbwLKTXLgldVlRsR6nk=
+=JJ1O
 -----END PGP SIGNATURE-----
 
---===============1805034977946513472==
+--===============7777188446731968111==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-abcf506f424c-30d83a85d672.txt
+Content-Disposition: attachment; filename=revlist-ac0fb4a55bde-f421692be101.txt
 
 ed3e4842224ff721f48154c1fed6ef97241249e6 scsi: core: Fix missing lock protection
 cee4f928beee900fd05da24d6b5e9127d2adae37 scsi: scsi_debug: Fix uninitialized variable use
@@ -74,4 +74,4 @@ e984fa2542e1308d67140bd7a76f678dabbcd9a8 scsi: fnic: Replace use of sizeof with 
 7f5dce6e7f0150ee57b8d1186011f57fa62c2843 scsi: fnic: Replace fnic->lock_flags with local flags
 f421692be10133a66a3a8a7d5c76fe9713ea5a8b scsi: fnic: Remove unnecessary spinlock locking and unlocking
 
---===============1805034977946513472==--
+--===============7777188446731968111==--
