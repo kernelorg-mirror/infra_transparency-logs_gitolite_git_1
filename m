@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 04 Mar 2025 12:31:23 -0000
-Message-Id: <174109148354.2692197.6640118550977080600@gitolite.kernel.org>
+Date: Tue, 04 Mar 2025 12:31:27 -0000
+Message-Id: <174109148792.2692361.16872046314407796230@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/spi-6.14
-    old: 3d7a20f9ba7b09a35df4bdb5f0ddb2a0c8a4f39e
-    new: 91cf42c63f2d8a9c1bcdfe923218e079b32e1a69
+  - ref: refs/heads/spi-6.15
+    old: 825687c1662c53ecda991adf0ecfd8dd3d864043
+    new: 7304d1909080ef0c9da703500a97f46c98393fcd
     log: |
-         91cf42c63f2d8a9c1bcdfe923218e079b32e1a69 spi: microchip-core: prevent RX overflows when transmit size > FIFO size
+         fd6bc2ba410bf7828dc2104bf78b51ccbb216c40 spi: dt-bindings: Introduce qcom,spi-qpic-snand
+         7304d1909080ef0c9da703500a97f46c98393fcd spi: spi-qpic: add driver for QCOM SPI NAND flash Interface
          
