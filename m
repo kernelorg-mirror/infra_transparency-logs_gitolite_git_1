@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 04 Mar 2025 14:43:24 -0000
-Message-Id: <174109940478.2812584.8313058608578402985@gitolite.kernel.org>
+Date: Tue, 04 Mar 2025 14:43:29 -0000
+Message-Id: <174109940902.2812687.14798073667183900070@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/20250226_kuninori_morimoto_gx_asoc_use_inclusive_language_for_snd_soc_daifmt_cbx_cfx
-    old: 0f68f56ab7be101fc949177774107769e63f13e9
+  - ref: refs/heads/v2_20250226_cezary_rojewski_asoc_codecs_update_device_id_tables_for_realtek_drivers
+    old: 739db0529c2a3ac5a0dc3e5a76a46ce80735dcfa
     new: 0000000000000000000000000000000000000000
