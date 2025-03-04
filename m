@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 04 Mar 2025 12:31:17 -0000
-Message-Id: <174109147701.2691814.8176962416862243911@gitolite.kernel.org>
+Date: Tue, 04 Mar 2025 12:31:20 -0000
+Message-Id: <174109148036.2692026.508585291241779542@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-6.15
-    old: 579a20181cf2e9ddc2f1265ee4976a0e2631fd5d
-    new: a02c42d41af7d66db71ca43c52531c3253ebe35e
+  - ref: refs/heads/regulator-6.15
+    old: 1455f0badd6345b2606bafb32e719d252293ebcd
+    new: c8c1ab2c5cb797fe455aa18b4ab7bf39897627f6
     log: |
-         feb849404a8b677aa6760d1539acf597e4574337 ASoC: SOF: Intel: hda-dai: Remove unnecessary bool conversion
-         a02c42d41af7d66db71ca43c52531c3253ebe35e ASoC: codecs: wsa883x: Implement temperature reading and hwmon
+         c8c1ab2c5cb797fe455aa18b4ab7bf39897627f6 regulator: pca9450: Handle hardware with fixed SD_VSEL for LDO5
          
