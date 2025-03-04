@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Tue, 04 Mar 2025 18:22:00 -0000
-Message-Id: <174111252004.3017194.6787770624864074704@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Tue, 04 Mar 2025 18:23:10 -0000
+Message-Id: <174111259089.3017826.7415466348350927130@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/libata/linux
-user: cassel
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/for-next
-    old: 91ec84f8eaddbc93d7c62e363d68aeb7b89879c7
-    new: 885251dc35767b1c992f6909532ca366c830814a
+  - ref: refs/heads/master
+    old: 5c8b3de49913cf6a8d5ddd5a56134311d3abb9ff
+    new: 4f6135531ceb808e721f36937c0a11c865bb4bd8
     log: |
-         885251dc35767b1c992f6909532ca366c830814a ahci: add PCI ID for Marvell 88SE9215 SATA Controller
+         4f6135531ceb808e721f36937c0a11c865bb4bd8 tests: check for ns-get*-ok
          
