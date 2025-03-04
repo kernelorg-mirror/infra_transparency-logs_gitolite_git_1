@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 04 Mar 2025 18:51:57 -0000
-Message-Id: <174111431736.3044984.3991735197808317140@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Tue, 04 Mar 2025 18:53:04 -0000
+Message-Id: <174111438403.3045552.6379441868942848935@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: 1c89b6b1974b1985e8f23c256029c41464cf1ee3
-    new: d5727a55525db01a94f677100e5c1e1040755608
+  - ref: refs/heads/dev
+    old: 8979a891a365e9ac8e2e672f15cafaadee1518cf
+    new: 24576c728801d7dc293fd1311db0a663e3679925
     log: |
-         71cbbb7149e3de8c39dfe8a97eaa7f1cbcbff52f irqchip/davinci-cp-intc: Remove public header
-         d5727a55525db01a94f677100e5c1e1040755608 Merge branch into tip/master: 'irq/drivers'
+         24576c728801d7dc293fd1311db0a663e3679925 clocksource: Defer marking clocksources unstable to kthread
          
