@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============7804314889330043592=="
+Content-Type: multipart/mixed; boundary="===============8170364938856338105=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 04 Mar 2025 12:32:07 -0000
-Message-Id: <174109152726.2693283.14146627912374461652@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 04 Mar 2025 12:32:11 -0000
+Message-Id: <174109153114.2693433.3723008626522486174@gitolite.kernel.org>
 
---===============7804314889330043592==
+--===============8170364938856338105==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.14
+  - ref: refs/heads/regulator-6.14
     old: d082ecbc71e9e0bf49883ee4afd435a77a5101b6
     new: 7eb172143d5508b4da468ed59ee857c6e5e01da6
     log: revlist-d082ecbc71e9-7eb172143d55.txt
-  - ref: refs/heads/for-6.15
+  - ref: refs/heads/regulator-6.15
     old: 1455f0badd6345b2606bafb32e719d252293ebcd
     new: c8c1ab2c5cb797fe455aa18b4ab7bf39897627f6
     log: |
          c8c1ab2c5cb797fe455aa18b4ab7bf39897627f6 regulator: pca9450: Handle hardware with fixed SD_VSEL for LDO5
          
 
---===============7804314889330043592==
+--===============8170364938856338105==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1741091555 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1741091525-2d9fa5686ec70a37269d59115fc5b5558517076f
+pusher C3F436CA30F5D8EB 1741091559 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1741091528-ffb08eedd7b6a686d600fd202181871fe3bff60e
 
-d082ecbc71e9e0bf49883ee4afd435a77a5101b6 7eb172143d5508b4da468ed59ee857c6e5e01da6 refs/heads/for-6.14
-1455f0badd6345b2606bafb32e719d252293ebcd c8c1ab2c5cb797fe455aa18b4ab7bf39897627f6 refs/heads/for-6.15
+d082ecbc71e9e0bf49883ee4afd435a77a5101b6 7eb172143d5508b4da468ed59ee857c6e5e01da6 refs/heads/regulator-6.14
+1455f0badd6345b2606bafb32e719d252293ebcd c8c1ab2c5cb797fe455aa18b4ab7bf39897627f6 refs/heads/regulator-6.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmfG8uMACgkQJNaLcl1U
-h9ABKgf/VRSNg0Kw737Mt1YwkM6/5FO1P4UEPcpO4EdPO2QIeRjVCRG2o/G0xMyM
-PMDpER8B25HiZ8vtL+Vk93j+VY+FaKLCoUNxb2LXBFLzkIPClbYUTkodMaz66lUz
-5VKvolw31WkTH1KUObln48I/40zIzXJ24/LAou0SMGrqK/5LlWc8EKS55PsUbjDb
-6h2P/rC+M7vUzhS/mGGbnm0LmHxcdnxc8h9H+BBzxs0WrVBbQAUJZSIjkb2AwZnN
-fd64oAER/vcqVXVnyTUDUGMNs7bSD+p+dhDAaK7Pb4dZWQkAsssxn4z2UmgscdoH
-YTvkS7OwPVTujx6rEYnGCM3msQOigg==
-=YFlS
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmfG8ucACgkQJNaLcl1U
+h9D3gggAhIZSuxr/m8ygkkY/a9dddmKE3yL6q9bYr2ujiSAPjR+OXND5JyYPxHZf
+Ej/Ptt0BO1fd8jv5dCVKIKFXhmHygle2VSI415cL0OAAmU6xDmXXc1L89YMxw0Mc
+ONXEkEhmeP0Ytdkzr/oQdcCN7o6Vm/dnwcvDNXhTQXtXoUW+3UFFIt4VlNlW3Y50
+g/rFFhxhJkAShw2wgW9tTSiOZRSMzWLkF9BKxh4hL9Zo7jTNxLKr8GYXoj2l0q1/
+ZxJovxykMypjlOIoz36G41dZk6NLOf5FoiLRCfv1fvEr7ajvw2pl2iUPY8FBIDDm
+S+huc3GcaZR4p444u8Vk8sDYHzNXNg==
+=CAL8
 -----END PGP SIGNATURE-----
 
---===============7804314889330043592==
+--===============8170364938856338105==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -355,4 +355,4 @@ a760b10147d96c642ff152eef85db0c3799c9f74 Merge tag 'phy-fixes-6.14' of git://git
 b91872c56940950a6a0852e499d249c3091d4284 Merge tag 'dmaengine-fix-6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
 7eb172143d5508b4da468ed59ee857c6e5e01da6 Linux 6.14-rc5
 
---===============7804314889330043592==--
+--===============8170364938856338105==--
