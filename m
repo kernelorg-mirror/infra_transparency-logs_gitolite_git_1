@@ -1,27 +1,42 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Wed, 05 Mar 2025 04:19:14 -0000
-Message-Id: <174114835430.3555936.5449534821714166803@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6267361252270966518=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Wed, 05 Mar 2025 05:00:29 -0000
+Message-Id: <174115082955.3590097.11270090555167185283@gitolite.kernel.org>
+
+--===============6267361252270966518==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ti/linux
-user: vigneshr
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: iwamatsu
 changes:
-  - ref: refs/heads/ti-next
-    old: 3546b51dae6df8df8e0b72b0a5173f0be5cf6581
-    new: 6ef7e3d1f941178918b9684577d2ca0920e7048b
-    log: |
-         638ab30ce4c63edae4934dcaa7a61f37b96efe6c arm64: dts: ti: am64-phyboard-electra: Add DT overlay for X27 connector
-         33bab9d84e52188cf73c3573fd7cf3ec0e01d007 arm64: dts: ti: k3-am62p: fix pinctrl settings
-         06daad327d043c23bc1ab4cdb519f589094b9e98 arm64: dts: ti: k3-j722s: fix pinctrl settings
-         fb1b230bf9c45f5d6579dc329c2aafcd1263b70a arm64: dts: ti: k3-j722s-main: Add BCDMA CSI overrides
-         8fea4519f625e6c1b05078f2ecea252b7b28b06e arm64: dts: ti: k3-j722s-main: Add CSI2RX nodes
-         ce553288ad2368f0d27e47b39a23121a825a2b33 arm64: dts: ti: k3-j722s-evm: Add camera peripherals
-         c24ccb1cd77fb44087b2f7008d99626796b33ca4 arm64: dts: ti: k3-j722s-evm: Add overlay for quad IMX219
-         938806652b0a3c90d67e7137c91708d06940b03d arm64: dts: ti: k3-j722s-evm: Add overlay for TEVI OV5640
-         6ef7e3d1f941178918b9684577d2ca0920e7048b Merge branch 'ti-k3-dts-next' into ti-next
-         
+  - ref: refs/heads/linux-6.1.y-cip
+    old: 32083bae053d46e70264079b1627c75a11e00707
+    new: e9244106f9e26324853494ff7c2771409dc447db
+    log: revlist-32083bae053d-e9244106f9e2.txt
+
+--===============6267361252270966518==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-32083bae053d-e9244106f9e2.txt
+
+6f7b83813fad5927c5ac32c29e138126aaf0cda7 net: ravb: Fix maximum TX frame size for GbEth devices
+0f102188f543e5a1fe947ff8ea27d64232f6322d net: ravb: Fix R-Car RX frame size limit
+557d2590a9e3573220ef383ef327cc80a4696fe4 net: ravb: Factor out checksum offload enable bits
+9faa13fb6a433845a4fffb514b65c5e05ff96819 net: ravb: Disable IP header RX checksum offloading
+de6d1448e5e4a42df64a1952da9aae97579e898f net: ravb: Drop IP protocol check from RX csum verification
+2b210baecf2186661cb66d472849fb59a3230e3a net: ravb: Combine if conditions in RX csum validation
+e428569ed98838351434ad69731f0c480c91ad94 net: ravb: Simplify types in RX csum validation
+8c06b75139a6d02ab8a8bb687ed8cd482e2e5542 net: ravb: Disable IP header TX checksum offloading
+c32bf957b5fb373362881018d895eabfd078aad1 net: ravb: Simplify UDP TX checksum offload
+96d6bf67bbb5a075c18225ddd057ed64c30db006 net: ravb: Enable IPv6 RX checksum offloading for GbEth
+11997c24d92a6d0ca1e9fafb0f6fe1cfb6a6937a net: ravb: Enable IPv6 TX checksum offload for GbEth
+e9244106f9e26324853494ff7c2771409dc447db net: ravb: Add VLAN checksum support
+
+--===============6267361252270966518==--
