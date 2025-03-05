@@ -1,22 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 05 Mar 2025 00:24:23 -0000
-Message-Id: <174113426341.3341465.466102755510700624@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 05 Mar 2025 00:40:08 -0000
+Message-Id: <174113520855.3355643.11628933257038939895@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: 3c6a041b317a9bb0c707343c0b99d2a29d523390
-    new: 78da8ab86e798c7533bf49cdccb39e5cfedcb77f
+  - ref: refs/heads/stable-sve-6-13
+    old: 7c92594ee399b497718d3782e87438272b6e2161
+    new: 78d0f61c47b5032c4c4691cb34c2b22654e9a52a
     log: |
-         5eb3dc1396aa7e315486b24df80df782912334b7 net: ipa: Fix v4.7 resource group names
-         6a2843aaf551d87beb92d774f7d5b8ae007fe774 net: ipa: Fix QSB data for v4.7
-         934e69669e32eb653234898424ae007bae2f636e net: ipa: Enable checksum for IPA_ENDPOINT_AP_MODEM_{RX,TX} for v4.7
-         78da8ab86e798c7533bf49cdccb39e5cfedcb77f Merge branch 'fixes-for-ipa-v4-7'
+         86b7731780160aae8399348bcf5c8360a7dc2d81 KVM: arm64: Backport of SVE fixes to v6.13
+         ee770a21da5104c13fd6de11502785edb0fac441 KVM: arm64: Calculate cptr_el2 traps on activating traps
+         d2f7eb7a965e42e51f0cd1fb9d2aaf5380b86207 KVM: arm64: Unconditionally save+flush host FPSIMD/SVE/SME state
+         b5728b689e9f1ae487687ef421610aa013aaa614 KVM: arm64: Remove host FPSIMD saving for non-protected KVM
+         a3cd915a6fe501c5c2823ae524e16f8d63c0fc82 KVM: arm64: Remove VHE host restore of CPACR_EL1.ZEN
+         d72fa22c8936bf245dd151e7ec80df31ea8d99b8 KVM: arm64: Remove VHE host restore of CPACR_EL1.SMEN
+         78d0f61c47b5032c4c4691cb34c2b22654e9a52a KVM: arm64: Eagerly switch ZCR_EL{1,2}
          
