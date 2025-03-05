@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/ofono/ofono
-Date: Wed, 05 Mar 2025 18:39:09 -0000
-Message-Id: <174119994959.123810.273542788096509471@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
+Date: Wed, 05 Mar 2025 18:44:02 -0000
+Message-Id: <174120024294.128014.18018552162066928194@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/ofono/ofono
-user: denkenz
+repo: pub/scm/linux/kernel/git/tj/cgroup
+user: tj
 changes:
-  - ref: refs/heads/master
-    old: c9514c749c32c2e57f7c49928b46c7b77fc60345
-    new: 11b0628a68d82aa59b944cefff90974134303788
+  - ref: refs/heads/for-6.15
+    old: c4af66a95aa3bc1d4f607ebd4eea524fb58946e3
+    new: c7461cca916756a017f584126b8be73e58d55e53
     log: |
-         11b0628a68d82aa59b944cefff90974134303788 Update contact information
+         c7461cca916756a017f584126b8be73e58d55e53 cgroup, docs: Be explicit about independence of RT_GROUP_SCHED and non-cpu controllers
+         
+  - ref: refs/heads/for-next
+    old: 9e9f46bd7e165b47d0b8790375d7f4fed778533c
+    new: 34262c44e898e1008d1fb73562919dccd73deae3
+    log: |
+         c7461cca916756a017f584126b8be73e58d55e53 cgroup, docs: Be explicit about independence of RT_GROUP_SCHED and non-cpu controllers
+         34262c44e898e1008d1fb73562919dccd73deae3 Merge branch 'for-6.15' into for-next
          
