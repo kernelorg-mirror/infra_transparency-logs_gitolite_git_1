@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============7822409416107160654=="
+Content-Type: multipart/mixed; boundary="===============6149725640949459955=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 05 Mar 2025 19:55:45 -0000
-Message-Id: <174120454591.190844.12656884862805161246@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 05 Mar 2025 19:55:49 -0000
+Message-Id: <174120454954.191031.12959467419056383254@gitolite.kernel.org>
 
---===============7822409416107160654==
+--===============6149725640949459955==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.14
+  - ref: refs/heads/asoc-6.14
     old: 927e6bec5cf3624665b0a2e9f64a1d32f3d22cdd
     new: 0eba2a7e858907a746ba69cd002eb9eb4dbd7bf3
     log: |
          0eba2a7e858907a746ba69cd002eb9eb4dbd7bf3 ASoC: ops: Consistently treat platform_max as control value
          
-  - ref: refs/heads/for-6.15
+  - ref: refs/heads/asoc-6.15
     old: a1462fb8b5dd1018e3477a6861822d75c6a59449
     new: c6141ba0110f98266106699aca071fed025c3d64
     log: revlist-a1462fb8b5dd-c6141ba0110f.txt
 
---===============7822409416107160654==
+--===============6149725640949459955==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1741204573 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1741204543-ad9a4cab934d3bc899326b34dc955fd5e73958be
+pusher C3F436CA30F5D8EB 1741204577 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1741204547-c07bc82455061b9d3e6f3bc90b3465de129e2462
 
-927e6bec5cf3624665b0a2e9f64a1d32f3d22cdd 0eba2a7e858907a746ba69cd002eb9eb4dbd7bf3 refs/heads/for-6.14
-a1462fb8b5dd1018e3477a6861822d75c6a59449 c6141ba0110f98266106699aca071fed025c3d64 refs/heads/for-6.15
+927e6bec5cf3624665b0a2e9f64a1d32f3d22cdd 0eba2a7e858907a746ba69cd002eb9eb4dbd7bf3 refs/heads/asoc-6.14
+a1462fb8b5dd1018e3477a6861822d75c6a59449 c6141ba0110f98266106699aca071fed025c3d64 refs/heads/asoc-6.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmfIrF0ACgkQJNaLcl1U
-h9C1+gf+Pc4z649Z7A0kEaV1v2AtbdjP5EM+W/Ll+UAdUFvPi5/GV2P/jVkJO+Ou
-hANfF7cGbY96aDQnzhF7FgsGfULUKSOk3gvNbm3E7tTqrzbQpgVlEojGAj8DOpef
-ULqgRjYB3x73pI/cLoGegPpmrWlN1cGZBk5JFC+o87Cfd6PnREAd5inEC6SbhkRk
-VQwkUZ9QVRxK0Tcu4VDx9Q9JZLNrBf0KPrVw/yDAYB2IEjK1IbeYwpHt4X46aN7l
-guckGmZ2k53LfQa3xKpAq1jDzWlb0FT9djUEJ8QDlNxMr65JZp+tSCEbyp6BK055
-D6+uGd0fxL6HMPiv8pEhtEnhEa3VXQ==
-=uqdQ
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmfIrGEACgkQJNaLcl1U
+h9CPIgf+OWiy63OmD6CjUEgx1VUzM3WogV7Wf6ga0tiCCmeyQydve0hmkqI1c+V4
+GkGw8l2sT+KWgK7Cs0S8MXW3IeHmOnFrLkqjDHScJsbPmblKWqbQwPMlDsoet4+g
+A2Zy4EsmRkLGaCR2RPZ26UioVyKBSf5PhdxlVx6GrnXvAtGcgSBlcjw7citgO0q4
+5VgCnCP5Q88aU1w5dSp5C+QSUOpqIZ3zJ8uOujqH4MhldADTwg84DctchOLbUKC3
+Y+onzTpOfJ5Ur/v6deAdDQ1idCpcrF1RviCs2NWK3phJKLf5L0ePdtlOXIyc70VR
+0vILv453kflIfil2i4yM0LiB9rYAxA==
+=0JkR
 -----END PGP SIGNATURE-----
 
---===============7822409416107160654==
+--===============6149725640949459955==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -655,4 +655,4 @@ d776f016d24816f15033169dcd081f077b6c10f4 ASoC: codecs: wsa884x: report temps to 
 927e6bec5cf3624665b0a2e9f64a1d32f3d22cdd ASoC: rt1320: set wake_capable = 0 explicitly
 c6141ba0110f98266106699aca071fed025c3d64 ASoC: Merge up fixes
 
---===============7822409416107160654==--
+--===============6149725640949459955==--
