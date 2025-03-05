@@ -1,51 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============4511010274484122062=="
+Content-Type: multipart/mixed; boundary="===============6017644240533624512=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Wed, 05 Mar 2025 09:44:25 -0000
-Message-Id: <174116786561.3834932.4595177302267241399@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Wed, 05 Mar 2025 09:50:08 -0000
+Message-Id: <174116820868.3842124.4485830027327853512@gitolite.kernel.org>
 
---===============4511010274484122062==
+--===============6017644240533624512==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/slab/for-next
-    old: 46569b75fba9466988acf9704843d43a2d196483
-    new: 372b24ce2712509c6c0fd20a773dc0634799ce7e
-    log: |
-         939c5de3c70d145d7388db1b04d75cda79297c23 mm/slab: call kmalloc_noprof() unconditionally in kmalloc_array_noprof()
-         372b24ce2712509c6c0fd20a773dc0634799ce7e Merge branch 'slab/for-6.15/kfree_rcu_tiny' into slab/for-next
-         
+  - ref: refs/heads/work.pidfs.reaped
+    old: f739f5ce88b5e399a4f4034900f586fa5ef0319e
+    new: 5188bfd2a68322dfd516be5d8f1d7db6d107b871
+    log: revlist-f739f5ce88b5-5188bfd2a683.txt
 
---===============4511010274484122062==
+--===============6017644240533624512==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-f739f5ce88b5-5188bfd2a683.txt
 
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1741167891 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1741167861-5160e4610389d3413ffe23561aca0f8537370d45
+db9be97e3350eb8451fc91380b4d363467910088 pidfd: rely on automatic cleanup in __pidfd_prepare()
+a0638e0810a24e95c914f6b4b8b77c4114971862 pidfs: move setting flags into pidfs_alloc_file()
+41cc5a6fc7e289da79f818ae4b08c606aaa91d6f pidfs: add inode allocation
+12106aea5da2d4f09dc5c84a88ac4e77766e4a48 pidfs: record exit code and cgroupid at exit
+ae1b6d84e2781e39727354833bcb83436c5b9d6d pidfs: allow to retrieve exit information
+b552f25c1370a4127e96a3975df87347cb033ea4 selftests/pidfd: fix header inclusion
+646c195f4567a796f1eeab28132429f79a810a53 pidfs/selftests: ensure correct headers for ioctl handling
+507027f0e353201ea6e735b47b3b3932c93de776 selftests/pidfd: move more defines to common header
+9c663fea0c981bb29c7a74d885ce45c48e7cc933 selftests/pidfd: add first PIDFD_INFO_EXIT selftest
+c7e8d8598c968ee5790a5d4440b46a147e151bd6 selftests/pidfd: add second PIDFD_INFO_EXIT selftest
+cca0db1cb423d9e5ea487c6ed39e1131c6886be3 selftests/pidfd: add third PIDFD_INFO_EXIT selftest
+c4826b1b598a35bde8357ae701f71ebf409c011f selftests/pidfd: add fourth PIDFD_INFO_EXIT selftest
+619d19fa2c595c80914f2b97771d39e9b5cc1b9a selftests/pidfd: add fifth PIDFD_INFO_EXIT selftest
+02d8388ee79aaf3798559d6f6f98b2f9b332767f selftests/pidfd: add sixth PIDFD_INFO_EXIT selftest
+ea0bd70a0967f69bfe7324508044ce145d116b7d selftests/pidfd: add seventh PIDFD_INFO_EXIT selftest
+5188bfd2a68322dfd516be5d8f1d7db6d107b871 pidfs: provide information after task has been reaped
 
-46569b75fba9466988acf9704843d43a2d196483 372b24ce2712509c6c0fd20a773dc0634799ce7e refs/heads/slab/for-next
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmfIHRMACgkQu+CwddJF
-iJp5KAf/e6KXXNa3BiCsDLpAr9UdJVavytaqcj53RhTdwgfKc49CHNE2+riS5rQ7
-n4moIZz8FsTJARehtDFTL3NhJA5ooPMxzHi90sdldX9WBi/aDM/Odjsd57SoVK8j
-JILr5Sq5DKkcBlROpkxw73stKNKyO+CZVilPFaTMmU/oTbhQgP6sUVnioLUnjbsN
-QTPNdCaT8hBGFjY8tAdwA+QqGK9fGIjvFZUJ/plDOYlljiUEpiYy5GCHVZzuoWRq
-TX6ZPUbIv/Uu8MxW2MY3doeDrx0nZryHsrdJMlvC0oG16ABLPsPWN8NYVoRrVVOM
-tMuuoDob0lXuqevnMtN1fMZgv7Ipsw==
-=kX0K
------END PGP SIGNATURE-----
-
---===============4511010274484122062==--
+--===============6017644240533624512==--
