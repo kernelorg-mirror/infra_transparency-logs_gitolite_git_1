@@ -1,9 +1,13 @@
+Content-Type: multipart/mixed; boundary="===============7724562173528762037=="
+MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Wed, 05 Mar 2025 01:41:53 -0000
-Message-Id: <174113891328.3413299.10024369199726717401@gitolite.kernel.org>
+Date: Wed, 05 Mar 2025 01:42:52 -0000
+Message-Id: <174113897274.3413878.11098729513153318550@gitolite.kernel.org>
+
+--===============7724562173528762037==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -11,19 +15,28 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cip/linux-cip
 user: iwamatsu
 changes:
-  - ref: refs/heads/linux-5.10.y-cip
-    old: f9ff2e9e3f65a5e6d7480becf629532229ef463d
-    new: a81dada96b004e0658803a5ec2ec0864558df110
-    log: |
-         91058f80191c174e0e9296cdef9802ff110f6937 net: ravb: Fix maximum TX frame size for GbEth devices
-         b0f7c2b0672d909198c9cd4fc44797214bd62b1d net: ravb: Fix R-Car RX frame size limit
-         cac063ff58d986130f97eb45d4dd356b28de313f net: ravb: Factor out checksum offload enable bits
-         ac9b55d05c291290912c9306769398a6e94441a4 net: ravb: Disable IP header RX checksum offloading
-         92708ccf047d6a3939b286ce8e4700a4356e41f2 net: ravb: Drop IP protocol check from RX csum verification
-         919e9774d1885ee8bb8a080740d060fc4c652ecb net: ravb: Simplify types in RX csum validation
-         98ce584fd7864951a52687d889737bf4a750dcef net: ravb: Disable IP header TX checksum offloading
-         c12470a6fb1149276f3c1c1e75ef6dde9634ef87 net: ravb: Simplify UDP TX checksum offload
-         9ec454496acb2af5584346f2ebf8633061bcd8fe net: ravb: Enable IPv6 RX checksum offloading for GbEth
-         620bed7440a7f29cffeac5c1fd883ec83b54d57d net: ravb: Enable IPv6 TX checksum offload for GbEth
-         a81dada96b004e0658803a5ec2ec0864558df110 net: ravb: Add VLAN checksum support
-         
+  - ref: refs/heads/linux-6.1.y-cip
+    old: 4fcefd04cf3c247e3ce647185fb4f2ae07a24dca
+    new: 32083bae053d46e70264079b1627c75a11e00707
+    log: revlist-4fcefd04cf3c-32083bae053d.txt
+
+--===============7724562173528762037==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-4fcefd04cf3c-32083bae053d.txt
+
+08340f73767bbebac4e60013969375f2daaf0fd6 net: ravb: Fix maximum TX frame size for GbEth devices
+4383a7cee520f79b742ebcb95beccc56b05f2e8b net: ravb: Fix R-Car RX frame size limit
+32462fe4f2259ceff9ba398bc92381418100731d net: ravb: Factor out checksum offload enable bits
+557085558896348fcab932368a2093ed330e432d net: ravb: Disable IP header RX checksum offloading
+468eb71f1733c633932ac52b1c0ce58ef35ee1e0 net: ravb: Drop IP protocol check from RX csum verification
+83bc4e25befcddad7a4041bd3c6088d8543692b2 net: ravb: Combine if conditions in RX csum validation
+7f43cf44abc65aeb6e2f7e19152b3187c7623f4b net: ravb: Simplify types in RX csum validation
+685010cf3c574c762e99a3a9c89bbfa1a1fe0570 net: ravb: Disable IP header TX checksum offloading
+c4ee3a301b4d819d2828e3c05403993f40d74f61 net: ravb: Simplify UDP TX checksum offload
+db0ae7ddf99e91978d4487dc90b2ed0c90e443ae net: ravb: Enable IPv6 RX checksum offloading for GbEth
+651546390239ab051aa7aefacaa0e9c2172573c2 net: ravb: Enable IPv6 TX checksum offload for GbEth
+32083bae053d46e70264079b1627c75a11e00707 net: ravb: Add VLAN checksum support
+
+--===============7724562173528762037==--
