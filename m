@@ -1,29 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Wed, 05 Mar 2025 05:03:38 -0000
-Message-Id: <174115101894.3591614.876194088890345641@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Wed, 05 Mar 2025 06:57:31 -0000
+Message-Id: <174115785128.3696766.9501030334960743190@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: iwamatsu
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/linux-5.10.y-cip
-    old: a81dada96b004e0658803a5ec2ec0864558df110
-    new: 945788e279b2ebf8de15468f883199dfe3624bf1
+  - ref: refs/heads/master
+    old: 99fa936e8e4f117d62f229003c9799686f74cebc
+    new: 48a5eed9ad584315c30ed35204510536235ce402
     log: |
-         3ba0310e7b0b020d95fe59b4119d29ceb290466b net: ravb: Fix maximum TX frame size for GbEth devices
-         161b79c8ac1627534a48eeff0c8db97618ad667a net: ravb: Fix R-Car RX frame size limit
-         300b68413dc6a46614749028575baf19b6653152 net: ravb: Factor out checksum offload enable bits
-         2b1caae73f1504044e50ee818418e88e6fba6581 net: ravb: Disable IP header RX checksum offloading
-         f91e0c152224510887f3cf41c26919c25091c7a4 net: ravb: Drop IP protocol check from RX csum verification
-         c7a828446d6301b87818997a3ec03a153f916b17 net: ravb: Simplify types in RX csum validation
-         84bda8de7aa1c553626439ea36ee3ebce5e2d22e net: ravb: Disable IP header TX checksum offloading
-         ed0a0b4ce4f702191c39a294cae6816c9f5438d6 net: ravb: Simplify UDP TX checksum offload
-         786dde6086ebfc5647dafd80a3ea08575b20c898 net: ravb: Enable IPv6 RX checksum offloading for GbEth
-         4c13b78e1b5a8ad5c7ff1905cc3c517d4ae3d37e net: ravb: Enable IPv6 TX checksum offload for GbEth
-         945788e279b2ebf8de15468f883199dfe3624bf1 net: ravb: Add VLAN checksum support
+         75f1f311d883dfaffb98be3c1da208d6ed5d4df9 Revert "of: reserved-memory: Fix using wrong number of cells to get property 'alignment'"
+         3d252160b818045f3a152b13756f6f37ca34639d fs/pipe: Read pipe->{head,tail} atomically outside pipe->mutex
+         48a5eed9ad584315c30ed35204510536235ce402 Merge tag 'devicetree-fixes-for-6.14-2' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
          
