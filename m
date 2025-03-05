@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4460305686320067868=="
+Content-Type: multipart/mixed; boundary="===============1529874021513990787=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Wed, 05 Mar 2025 07:26:56 -0000
-Message-Id: <174115961691.3720969.11724193758291888513@gitolite.kernel.org>
+Date: Wed, 05 Mar 2025 07:28:53 -0000
+Message-Id: <174115973355.3721780.723958263442913536@gitolite.kernel.org>
 
---===============4460305686320067868==
+--===============1529874021513990787==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,46 @@ repo: pub/scm/linux/kernel/git/wireless/wireless-next
 user: jberg
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: 799b7f93c01060d3d24c09d971bb6ce3c9601c71
-    new: 71f8992e34a9f358a53da6bfcd8b00226df177a2
-    log: revlist-799b7f93c010-71f8992e34a9.txt
+  - ref: refs/heads/iwlmld
+    old: 6bfe801dadbb60d187dd0de6dc7da2c39db4f272
+    new: f0f53bab68715dd84dbb9e3c1e6c7fd03e63dece
+    log: revlist-6bfe801dadbb-f0f53bab6871.txt
 
---===============4460305686320067868==
+--===============1529874021513990787==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1741159618 +0100
+pusher 7BF9099A 1741159734 +0100
 pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
-nonce 1741159588-18cf94207d3dc19cf56d8de5af974dd6aff9ae5f
+nonce 1741159704-9c352e5752e62381300bd18e701b7c2418c39bef
 
-799b7f93c01060d3d24c09d971bb6ce3c9601c71 71f8992e34a9f358a53da6bfcd8b00226df177a2 refs/heads/main
+6bfe801dadbb60d187dd0de6dc7da2c39db4f272 f0f53bab68715dd84dbb9e3c1e6c7fd03e63dece refs/heads/iwlmld
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmfH/MIACgkQ10qiO8sP
-aADQpRAAj1hgROVIcAJRlwrquhUQ/E0bQpl32qwTejpiwZnwN6BmRi8QdgcsQDOp
-SyAGZznRplnDEu4aju7+bdoP/1hngaRYE17S7MOYRPfMr5sZFnQZZCYcMyx9asJ1
-gaMU98pYXUfW899rr6+l29unFnGAagOqFEjhJTGqchdACcRSaNBsV7yo/cXNoWp6
-u+CUt/+UU4yfrCC+rhA7ZDec/vZMCtCROqaBCRP3GXjh6GzQtV7+0cK/L9yrXR49
-p29Fvsjjy24Yhd+WcWRdPTBtMYYJtl0TG5JB+RE3QOCW4FL8kUXtNQg8Jo90Akv8
-lo/QgDL8SWS5uiMIskeSiCooDER7KaINcxmSFLxqyFnGmYhijWFBAIN5vd/qZmDB
-VSVkBnyxrP5g6T/GeUwT9GTulBLKNo5TFoQLkBBnx1g+Vs7zRnZUe1uYxiFfbiEo
-IxBoUGKFj8v/6zFu36BeMpNM57kcnMmgtaBsHL0TbFdGhYbPrl/A7I/GvMElsfEL
-MvTOZJp/q8XuztC5GFLl2GXpFC75VTEVPY5g2O2qJQBkBc9i4JIuitzbxSYogTXP
-uafMAOgL3ABzR77PJgDCNAcKeOSNZqGyS2+qpF+c53JiC9EPVSXCbAhEHFmrGID9
-fD8DMBcS3eOKNJVVhfnpfI3d6OjpgWR5qT9J7TwWf0dxgCWqbrA=
-=iOrw
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmfH/TYACgkQ10qiO8sP
+aACabRAAkXvpCiK4IInoc2Cpe2M9R7VrotH7wQcp67EAcoyC0d8DRoHsj3Jtxv7G
+pQboz5y9eBcoGNLoOw0Gej166JFo+SHrihqqrbBwCjD9bHmIUEBKdsvzHauAiPvB
+ILouBMGQ5e59uGXpllRyQ2PHQsqBgbwHivBB/jTGil86Ic6NYOSHF30Shh/X/GP+
+RO3bwwk1befltEEjgesOezLjiyVIhV5FjtlWrTFLv7Gvut9bnf/njUh1/ZH558TX
+d4LFqYcf3NY6N7J5vlxpfcSFD2Ew+XAXnUMSkvxw9/u28AtFRF03Gvuid0zRsBFr
+CBlaI9f9rHPDUJih/KTs83N2SXSyzDUalMky3+Bsl9CA4rqaLPNwPHKdMpIqU8u/
+hN/hqfJsEd5C/0INB4uDjXZkjawtixjIc77aewk15hEpbr9tThUJVFQDJYqa/wjs
+9AnzRfeH1SEK1HbEGJQ1YVfr8iEhvDgYjty4OicWs2pwXwdTHTU3YW20pO7rFTVQ
+29Bv7wWYycnJSKGvMAB4/8uRkKg3EXy2j34DI2hHru/Vr4GDnGdDy4SRpWuCUiyH
+T4oREUGrc6Je6trKvP8KZxbd92uy1tMWWRiPKpwCwZJmWi8J/j23rjZWfy0E1zmi
+hkXiMBzqYMoaIAyX9awvkcdvnFbgYHlVeZ8gUl28TJv6blAbZ2M=
+=PlBT
 -----END PGP SIGNATURE-----
 
---===============4460305686320067868==
+--===============1529874021513990787==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-799b7f93c010-71f8992e34a9.txt
+Content-Disposition: attachment; filename=revlist-6bfe801dadbb-f0f53bab6871.txt
 
-7229fa6b303cdaa3375b419a207b4d54c04c5b88 Merge branch '200GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 15d6f74f03f84c5b8d032bb1be6b90af82e5b679 MAINTAINERS: Add sctp headers to the general netdev entry
 78dafe1cf3afa02ed71084b350713b07e72a18fb vsock: Orphan socket after transport release
 440c9d488705366b00372ea7213af69827a6c7af vsock/test: Add test for SO_LINGER null ptr deref
@@ -1080,5 +1079,6 @@ dd30ae533242495a724b37066cae1fb03ee6b601 netconsole: add task name to extra data
 d7a2522426e86036f40fde6ba055aa20de1f3d8a netconsole: selftest: add task name append testing
 5b62996184ca5bb86660bcd11d6c4560ce127df9 Merge branch 'netconsole-add-taskname-sysdata-support'
 71f8992e34a9f358a53da6bfcd8b00226df177a2 Merge tag 'wireless-next-2025-03-04-v2' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless-next
+f0f53bab68715dd84dbb9e3c1e6c7fd03e63dece wifi: iwlwifi: add iwlmld sub-driver
 
---===============4460305686320067868==--
+--===============1529874021513990787==--
