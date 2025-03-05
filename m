@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Wed, 05 Mar 2025 08:43:29 -0000
-Message-Id: <174116420945.3782233.3037045883594586709@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 05 Mar 2025 08:44:37 -0000
+Message-Id: <174116427738.3783469.13308470165796021166@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/for-6.15/intel-thc
-    old: d05c76fceb096b4423745856325d72c048d681e4
-    new: f97455f936f17fa5fa3fe8430b1731ba5c799189
+  - ref: refs/heads/master
+    old: 361e02af3235092b160bc0faf7485595cd9465e9
+    new: 9b1326c767f55a40ed55640c620061cf52bf9f08
     log: |
-         f97455f936f17fa5fa3fe8430b1731ba5c799189 HID: Intel-thc-hid: Intel-quickspi: Correct device state names gramatically
-         
-  - ref: refs/heads/for-next
-    old: e7e55d2852dbf78af0a9d0be9cc554fde1d35bbc
-    new: 0f1e1944b14b9ff67ca1a4d0d257def3b2206082
-    log: |
-         f97455f936f17fa5fa3fe8430b1731ba5c799189 HID: Intel-thc-hid: Intel-quickspi: Correct device state names gramatically
-         0f1e1944b14b9ff67ca1a4d0d257def3b2206082 Merge branch 'for-6.15/intel-thc' into for-next
+         75f1f311d883dfaffb98be3c1da208d6ed5d4df9 Revert "of: reserved-memory: Fix using wrong number of cells to get property 'alignment'"
+         3d252160b818045f3a152b13756f6f37ca34639d fs/pipe: Read pipe->{head,tail} atomically outside pipe->mutex
+         48a5eed9ad584315c30ed35204510536235ce402 Merge tag 'devicetree-fixes-for-6.14-2' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
+         9b1326c767f55a40ed55640c620061cf52bf9f08 Merge branch 'linus'
          
