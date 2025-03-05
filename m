@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Wed, 05 Mar 2025 12:44:39 -0000
-Message-Id: <174117867955.3988826.17855271226174530915@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Wed, 05 Mar 2025 12:45:06 -0000
+Message-Id: <174117870628.3992004.14167869641646593051@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/main
-    old: 41a528251649772edbcb705a40e617fd14858e53
-    new: a3e1417a176de3f1cda1c504d6d060ff990c914b
+  - ref: refs/heads/dev-test
+    old: 0fb25a2943e12f559de081943ce3d0fbe2156488
+    new: e6e330b7b0cae104cd8932fec64582b8da195260
     log: |
-         312effe7857e88a5c28453361e8ef215ada6705d ASoC: tas2781: Update dsp firmware for Gemtree project
-         a3e1417a176de3f1cda1c504d6d060ff990c914b Merge branch 'robot/patch-0-1741163658' into 'main'
+         e6e330b7b0cae104cd8932fec64582b8da195260 erofs: move {in,out}pages into struct z_erofs_decompress_req
          
