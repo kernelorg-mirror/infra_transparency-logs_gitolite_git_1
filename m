@@ -1,48 +1,72 @@
-Content-Type: multipart/mixed; boundary="===============9133023354755148668=="
+Content-Type: multipart/mixed; boundary="===============6631222433993566894=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 05 Mar 2025 23:43:27 -0000
-Message-Id: <174121820701.382734.16496449638167684357@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 05 Mar 2025 23:49:34 -0000
+Message-Id: <174121857475.388152.11398327065681164290@gitolite.kernel.org>
 
---===============9133023354755148668==
+--===============6631222433993566894==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/dev-queue
-    old: ad3c75f5fcc2cb21b4b34693e7d5973b72f174f9
-    new: 19b1b4e9b94bb83a698d5f30075ef2a93de48ebf
-    log: revlist-ad3c75f5fcc2-19b1b4e9b94b.txt
+  - ref: refs/heads/for-6.15/block
+    old: 80bdfbb3545b6f16680a72c825063d08a6b44c7a
+    new: 6cc477c36875ea5329b8bfbdf4d91f83dc653c91
+    log: |
+         29cb955934302a5da525db6b327c795572538426 blk-throttle: fix lower bps rate by throtl_trim_slice()
+         483a393e7e6189aac7d47b5295029159ab7a1cf1 blk-throttle: remove last_bytes_disp and last_ios_disp
+         a9fc8868b350cbf4ff730a4ea9651319cc669516 blk-throttle: don't take carryover for prioritized processing of metadata
+         6cc477c36875ea5329b8bfbdf4d91f83dc653c91 blk-throttle: carry over directly
+         
+  - ref: refs/heads/for-next
+    old: b3d11b99b01963c8892720867f9f77927bfbd7da
+    new: 8e9265fb3a10148ed8638851a7acd7c9f3bbd13d
+    log: |
+         29cb955934302a5da525db6b327c795572538426 blk-throttle: fix lower bps rate by throtl_trim_slice()
+         483a393e7e6189aac7d47b5295029159ab7a1cf1 blk-throttle: remove last_bytes_disp and last_ios_disp
+         a9fc8868b350cbf4ff730a4ea9651319cc669516 blk-throttle: don't take carryover for prioritized processing of metadata
+         6cc477c36875ea5329b8bfbdf4d91f83dc653c91 blk-throttle: carry over directly
+         8e9265fb3a10148ed8638851a7acd7c9f3bbd13d Merge branch 'for-6.15/block' into for-next
+         
+  - ref: refs/heads/master
+    old: 48a5eed9ad584315c30ed35204510536235ce402
+    new: 848e076317446f9c663771ddec142d7c2eb4cb43
+    log: revlist-48a5eed9ad58-848e07631744.txt
 
---===============9133023354755148668==
+--===============6631222433993566894==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ad3c75f5fcc2-19b1b4e9b94b.txt
+Content-Disposition: attachment; filename=revlist-48a5eed9ad58-848e07631744.txt
 
-4ed3634f665de2a45265febab096fe9e3a7f9ab0 ice: fix fwlog after driver reinit
-47831ee22e1bff4cc6015834cabfb59e94a1367e ice: Allow 100M speed for E825C SGMII device
-13d81596b30e0c1a7de134c163aa911efb3faba1 ixgbe: add support for thermal sensor event reception
-97d0438c003daf066565cebc421cbdaa7c3bcc92 idpf: add initial PTP support
-5af98215f06bf53c478dc3a3ff4feffd71189497 virtchnl: add PTP virtchnl definitions
-a6c65c1ef7c3ac9c192f9c9687d047dead500f88 idpf: move virtchnl structures to the header file
-2ba2cd6e3ad586f95fe7aa28661648f2133e659c idpf: negotiate PTP capabilities and get PTP clock
-21e84b573e3f59dc971098827f02a4b1183345cb idpf: add mailbox access to read PTP clock time
-366332f10fb6ad8b97e68b44bdf9a482f26dd33b idpf: add PTP clock configuration
-d55479ab39048a8a1af13e57422ecc7e1dedd283 idpf: add Tx timestamp capabilities negotiation
-637d40cd7e2ae8f5f8d8a16f8c7061f0a761631e idpf: add Tx timestamp flows
-b141bd8cc067e6ca2e819142afa3d861f09f0376 idpf: add support for Rx timestamping
-b1882e2bd7346ebe11c0eecf47f8e3b54fc238bc idpf: change the method for mailbox workqueue allocation
-2f0504c550060b76617fc07f530947f8931f3e45 idpf: assign extracted ptype to struct libeth_rqe_info field
-9fca972dd2162b5572f12732823ad40e78e49872 ixgbe: create E610 specific ethtool_ops structure
-40ba8da25f581cee6be157f21097e4e3ea89be0b ixgbe: add support for ACPI WOL for E610
-4a0b41466d9109160041066c75d71823cfa45844 ixgbe: apply different rules for setting FC on E610
-19b1b4e9b94bb83a698d5f30075ef2a93de48ebf ixgbe: add E610 .set_phys_id() callback implementation
+7103f0589ac220eac3d2b1e8411494b31b883d06 x86/microcode/AMD: Remove ugly linebreak in __verify_patch_section() signature
+3ef0740d10b005a45e8ae5b4b7b5d37bfddf63c0 x86/microcode/AMD: Remove unused save_microcode_in_initrd_amd() declarations
+dc15675074dcfd79a2f10a6e39f96b0244961a01 x86/microcode/AMD: Merge early_apply_microcode() into its single callsite
+b39c387164879eef71886fc93cee5ca7dd7bf500 x86/microcode/AMD: Get rid of the _load_microcode_amd() forward declaration
+037e81fb9d2dfe7b31fd97e5f578854e38f09887 x86/microcode/AMD: Add get_patch_level()
+0c28e4d1e10d2aae608094620bb386e6fd73d55e HID: corsair-void: Update power supply values with a unified work handler
+44afc10d4678d5a3a4ab8c25750be00f037298cf HID: nintendo: fix gencon button events map
+4bd0725c09f377ffaf22b834241f6c050742e4fc HID: google: fix unused variable warning under !CONFIG_ACPI
+823987841424289339fdb4ba90e6d2c3792836db HID: intel-ish-hid: Fix use-after-free issue in hid_ishtp_cl_remove()
+07583a0010696a17fb0942e0b499a62785c5fc9f HID: intel-ish-hid: Fix use-after-free issue in ishtp_hid_remove()
+50cef76d5cb0e199cda19f026842560f6eedc4f7 x86/microcode/AMD: Load only SHA256-checksummed patches
+723aa55c08c9d1e0734e39a815fd41272eac8269 HID: i2c-hid: improve i2c_hid_get_report error message
+221cea1003d8a412e5ec64a58df7ab19b654f490 HID: apple: disable Fn key handling on the Omoton KB066
+2ff5baa9b5275e3acafdf7f2089f74cccb2f38d1 HID: appleir: Fix potential NULL dereference at raw event handle
+a6a4f4e9b8018806cca30049b59a1c3c8b513701 HID: debug: Fix spelling mistake "Messanger" -> "Messenger"
+e53fc232a65f7488ab75d03a5b95f06aaada7262 HID: hid-steam: Fix use-after-free when detaching device
+0132c406705a466b95854ce1058f3d8354f90a42 HID: intel-thc-hid: Fix spelling mistake "intput" -> "input"
+db52926fb0be40e1d588a346df73f5ea3a34a4c6 HID: Intel-thc-hid: Intel-quickspi: Correct device state after S4
+bb2281fb05e50108ce95c43ab7e701ee564565c8 Merge tag 'x86_microcode_for_v6.14_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+c27c66afc449b80f3b4b84d123358c0248f2cf63 fs/pipe: Fix pipe_occupancy() with 16-bit indexes
+cfced12f5100e50d56bc587299393fd33c1169a9 include/linux/pipe_fs_i: Add htmldoc annotation for "head_tail" member
+0d2d0f3d93ddd6556f23c917d910becd9925ddeb fs/pipe: remove buggy and unused 'helper' function
+848e076317446f9c663771ddec142d7c2eb4cb43 Merge tag 'hid-for-linus-2025030501' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
 
---===============9133023354755148668==--
+--===============6631222433993566894==--
