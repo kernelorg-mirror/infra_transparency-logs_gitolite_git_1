@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 05 Mar 2025 20:33:19 -0000
-Message-Id: <174120679903.220520.575469392489199406@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Wed, 05 Mar 2025 20:38:51 -0000
+Message-Id: <174120713160.224916.6888529072234245524@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: kwilczynski
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/controller/mediatek
-    old: 4f6f5f2c25048362a92a70d6d011174c93e19b9e
-    new: 98e87cc501c1018f11815e3e2fb20e4801243031
-    log: |
-         98e87cc501c1018f11815e3e2fb20e4801243031 PCI: mediatek-gen3: Fix inconsistent indentation
-         
+  - ref: refs/heads/nfsd-6.13.y
+    old: 2014c95afecee3e76ca4a56956a936e23283f05b
+    new: 6250ebe666e425e173df5e11e8a612d57921f48d
