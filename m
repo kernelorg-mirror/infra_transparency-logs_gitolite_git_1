@@ -1,44 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============3443033802531463565=="
+Content-Type: multipart/mixed; boundary="===============4793242097535636068=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 05 Mar 2025 21:54:48 -0000
-Message-Id: <174121168869.290594.10796683939906330075@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
+Date: Wed, 05 Mar 2025 21:55:51 -0000
+Message-Id: <174121175155.293133.12271150243678495689@gitolite.kernel.org>
 
---===============3443033802531463565==
+--===============4793242097535636068==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/remoteproc/linux
+user: andersson
 changes:
-  - ref: refs/heads/master
-    old: 32dc26a2f55f71907af0874468298c6ab8a8f7f9
-    new: a2ea9805662cf22b79815cdbe7fa09ee67f30082
-    log: revlist-32dc26a2f55f-a2ea9805662c.txt
+  - ref: refs/heads/rproc-next
+    old: 539c3845d320c33bcfd28885378905d5260b8bd2
+    new: 65991ea8a6d1e68effdc01d95ebe39f1653f7b71
+    log: revlist-539c3845d320-65991ea8a6d1.txt
 
---===============3443033802531463565==
+--===============4793242097535636068==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-32dc26a2f55f-a2ea9805662c.txt
+Content-Disposition: attachment; filename=revlist-539c3845d320-65991ea8a6d1.txt
 
-fd521566cc0cd5e327683fea70cba93b1966ebac x86/mm: Consolidate full flush threshold decision
-dc9a260e96d57cc60482a147205e60de35833d08 x86/mm: Add INVLPGB feature and Kconfig entry
-6272c3a217e5837c72c6714d1e7eddd34254fac3  x86/mm: Add INVLPGB support code
-ccc19c694b0fe063a90dd27470e9f4ba22990ea1 x86/mm: Use INVLPGB for kernel TLB flushes
-0b3a2f246a5bf016b80a136a9f8c24d886107dc3 x86/mm: Use broadcast TLB flushing in page reclaim
-6a7a65ddfd6d78ca2f075b0fe0a582792081fc03 x86/mm: Add global ASID allocation helper functions
-aac0a3aefb99eeaa26c6ddbd4fa208a794648a36 x86/mm: Handle global ASID context switch and TLB flush
-26a3633bfddfcdd57f5f2e3d157806d68aff5ac4 x86/mm: Add global ASID process exit helpers
-f37ff575b1fe47ff3eeccf751455b4ab05306008 x86/mm: Enable broadcast TLB invalidation for multi-threaded processes
-b95ef870dcd67c0fbfc57f808c4a0efd0bc2f144 x86/mm: Enable AMD translation cache extensions
-0896acd80782ec49c6d36e576fcd53786f0a2bfb x86/mm: Always set the ASID valid bit for the INVLPGB instruction
-9dd0aac81b670791c47e307e3a82afbe3ba99def Merge branch 'x86/cpu' into x86/merge, to ease integration testing
-f06709e6f17f38b07164887f58b7a29e3b4e88c1 Merge branch 'x86/mm' into x86/merge, to resolve conflict
-a2ea9805662cf22b79815cdbe7fa09ee67f30082 Merge branch into tip/master: 'x86/merge'
+1921f1a4639759b8026dec8d2f17adfb2e808158 dt-bindings: remoteproc: qcom,sm6115-pas: Use recommended MBN firmware format in DTS example
+82162db9a527dc27f4b6bd4fadffb3c352be4af0 dt-bindings: remoteproc: Add SM8750 CDSP
+a2935a38cd1939013a301a630c0072d9b8f941f7 dt-bindings: remoteproc: qcom,msm8916-mss-pil: Support platforms with one power domain
+01730659e7c58bd88a88af0086125ab073dc56b8 dt-bindings: remoteproc: qcom,msm8916-mss-pil: Add MSM8226
+41bf2a134f0309dcee0e8f75a51cf05e51d86418 dt-bindings: remoteproc: qcom,msm8916-mss-pil: Add MSM8926
+4641840341f37dc8231e0840ec1514b4061b4322 remoteproc: qcom_q6v5_mss: Handle platforms with one power domain
+155cd99d7d8e770f719846b2307c24260593be98 remoteproc: qcom_q6v5_mss: Add modem support on MSM8226
+df9e5103a2855ba3352f2c6e862adad17810605c remoteproc: qcom_q6v5_mss: Add modem support on MSM8926
+14198a0ca55ebec9890e33cb025a138542e2949d dt-bindings: remoteproc: qcom,wcnss-pil: Add support for single power-domain platforms
+65991ea8a6d1e68effdc01d95ebe39f1653f7b71 remoteproc: qcom_wcnss: Handle platforms with only single power domain
 
---===============3443033802531463565==--
+--===============4793242097535636068==--
