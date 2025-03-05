@@ -1,72 +1,65 @@
-Content-Type: multipart/mixed; boundary="===============6631222433993566894=="
+Content-Type: multipart/mixed; boundary="===============0605286520115860595=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 05 Mar 2025 23:49:34 -0000
-Message-Id: <174121857475.388152.11398327065681164290@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Wed, 05 Mar 2025 23:50:56 -0000
+Message-Id: <174121865681.390760.3182335131093234557@gitolite.kernel.org>
 
---===============6631222433993566894==
+--===============0605286520115860595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/clk/linux
+user: sboyd
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.15/block
-    old: 80bdfbb3545b6f16680a72c825063d08a6b44c7a
-    new: 6cc477c36875ea5329b8bfbdf4d91f83dc653c91
+  - ref: refs/heads/clk-next
+    old: 6329b51f14945466652b9271eb8794cf9a84112f
+    new: fbe661983152a89f727a41798f9ed77d0ad5ec42
     log: |
-         29cb955934302a5da525db6b327c795572538426 blk-throttle: fix lower bps rate by throtl_trim_slice()
-         483a393e7e6189aac7d47b5295029159ab7a1cf1 blk-throttle: remove last_bytes_disp and last_ios_disp
-         a9fc8868b350cbf4ff730a4ea9651319cc669516 blk-throttle: don't take carryover for prioritized processing of metadata
-         6cc477c36875ea5329b8bfbdf4d91f83dc653c91 blk-throttle: carry over directly
+         a250cd4c19015bb7fceb2e5ca1ea2258bee9492a clk: keystone: syscon-clk: Do not use syscon helper to build regmap
+         9c981c868f5f335e1b51e766b5d36799de163d43 clk: stm32f4: fix an uninitialized variable
+         e995f4d516a0e28e667c7e3e3550665d8c0d8134 clk: imgtec: use %pe for better readability of errors while printing
+         a1123951b24759188010a6aa3d9d0be7b996bd39 clk: Correct the data types of the variables in clk_calc_new_rates
+         12a0fd23e87000e69b1777a9765c0c6e6eed0cd9 clk: Print an error when clk registration fails
+         fbe661983152a89f727a41798f9ed77d0ad5ec42 Merge branch 'clk-cleanup' into clk-next
          
-  - ref: refs/heads/for-next
-    old: b3d11b99b01963c8892720867f9f77927bfbd7da
-    new: 8e9265fb3a10148ed8638851a7acd7c9f3bbd13d
-    log: |
-         29cb955934302a5da525db6b327c795572538426 blk-throttle: fix lower bps rate by throtl_trim_slice()
-         483a393e7e6189aac7d47b5295029159ab7a1cf1 blk-throttle: remove last_bytes_disp and last_ios_disp
-         a9fc8868b350cbf4ff730a4ea9651319cc669516 blk-throttle: don't take carryover for prioritized processing of metadata
-         6cc477c36875ea5329b8bfbdf4d91f83dc653c91 blk-throttle: carry over directly
-         8e9265fb3a10148ed8638851a7acd7c9f3bbd13d Merge branch 'for-6.15/block' into for-next
-         
-  - ref: refs/heads/master
-    old: 48a5eed9ad584315c30ed35204510536235ce402
-    new: 848e076317446f9c663771ddec142d7c2eb4cb43
-    log: revlist-48a5eed9ad58-848e07631744.txt
+  - ref: refs/heads/clk-cleanup
+    old: 0000000000000000000000000000000000000000
+    new: 12a0fd23e87000e69b1777a9765c0c6e6eed0cd9
 
---===============6631222433993566894==
+--===============0605286520115860595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-48a5eed9ad58-848e07631744.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-7103f0589ac220eac3d2b1e8411494b31b883d06 x86/microcode/AMD: Remove ugly linebreak in __verify_patch_section() signature
-3ef0740d10b005a45e8ae5b4b7b5d37bfddf63c0 x86/microcode/AMD: Remove unused save_microcode_in_initrd_amd() declarations
-dc15675074dcfd79a2f10a6e39f96b0244961a01 x86/microcode/AMD: Merge early_apply_microcode() into its single callsite
-b39c387164879eef71886fc93cee5ca7dd7bf500 x86/microcode/AMD: Get rid of the _load_microcode_amd() forward declaration
-037e81fb9d2dfe7b31fd97e5f578854e38f09887 x86/microcode/AMD: Add get_patch_level()
-0c28e4d1e10d2aae608094620bb386e6fd73d55e HID: corsair-void: Update power supply values with a unified work handler
-44afc10d4678d5a3a4ab8c25750be00f037298cf HID: nintendo: fix gencon button events map
-4bd0725c09f377ffaf22b834241f6c050742e4fc HID: google: fix unused variable warning under !CONFIG_ACPI
-823987841424289339fdb4ba90e6d2c3792836db HID: intel-ish-hid: Fix use-after-free issue in hid_ishtp_cl_remove()
-07583a0010696a17fb0942e0b499a62785c5fc9f HID: intel-ish-hid: Fix use-after-free issue in ishtp_hid_remove()
-50cef76d5cb0e199cda19f026842560f6eedc4f7 x86/microcode/AMD: Load only SHA256-checksummed patches
-723aa55c08c9d1e0734e39a815fd41272eac8269 HID: i2c-hid: improve i2c_hid_get_report error message
-221cea1003d8a412e5ec64a58df7ab19b654f490 HID: apple: disable Fn key handling on the Omoton KB066
-2ff5baa9b5275e3acafdf7f2089f74cccb2f38d1 HID: appleir: Fix potential NULL dereference at raw event handle
-a6a4f4e9b8018806cca30049b59a1c3c8b513701 HID: debug: Fix spelling mistake "Messanger" -> "Messenger"
-e53fc232a65f7488ab75d03a5b95f06aaada7262 HID: hid-steam: Fix use-after-free when detaching device
-0132c406705a466b95854ce1058f3d8354f90a42 HID: intel-thc-hid: Fix spelling mistake "intput" -> "input"
-db52926fb0be40e1d588a346df73f5ea3a34a4c6 HID: Intel-thc-hid: Intel-quickspi: Correct device state after S4
-bb2281fb05e50108ce95c43ab7e701ee564565c8 Merge tag 'x86_microcode_for_v6.14_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-c27c66afc449b80f3b4b84d123358c0248f2cf63 fs/pipe: Fix pipe_occupancy() with 16-bit indexes
-cfced12f5100e50d56bc587299393fd33c1169a9 include/linux/pipe_fs_i: Add htmldoc annotation for "head_tail" member
-0d2d0f3d93ddd6556f23c917d910becd9925ddeb fs/pipe: remove buggy and unused 'helper' function
-848e076317446f9c663771ddec142d7c2eb4cb43 Merge tag 'hid-for-linus-2025030501' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
+certificate version 0.1
+pusher Stephen Boyd <sboyd@kernel.org> 1741218684 -0800
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/clk/linux.git
+nonce 1741218655-f3994c5ab4898805143ae2434ab8795381b87302
 
---===============6631222433993566894==--
+6329b51f14945466652b9271eb8794cf9a84112f fbe661983152a89f727a41798f9ed77d0ad5ec42 refs/heads/clk-next
+0000000000000000000000000000000000000000 12a0fd23e87000e69b1777a9765c0c6e6eed0cd9 refs/heads/clk-cleanup
+-----BEGIN PGP SIGNATURE-----
+
+iQJFBAABCAAvFiEE9L57QeeUxqYDyoaDrQKIl8bklSUFAmfI43wRHHNib3lkQGtl
+cm5lbC5vcmcACgkQrQKIl8bklSU2YA//S3Reg2hCywSM54SgiN+kZNdX6LnxQR1Z
+ACDuXzJfBiT7lJ7+5EjyPveec9w70bd5/kgyp1LxEOSALseSk07UpUYlj+Y15hv4
+0RXYn8lOzf6g16FukEG7A4fUTKhw9Iu8H1PMfOYjFsNW0u9PGUjxMu0Yt2M33Y2K
+1SCqpbR0hN5q8vwJ13gHTU24FiSTu/hAWA/2A9ujhXVUJ9LYfXTZUGtpiQpkBGdx
+NY8qLc4nTXZoBT+Kk7DdJZ4yt/u0NI6zKLonRSuZ6fBMYhpYsTBwWeEVJ1+FRBpC
+AQVHqJg6dEy6lYdPLCT3ri28GbWE/gCsG6qI4WzvoZcoDGSJzHBBRhQ0UNDV6EQm
++gHUvWYCflzzCBlvQIp2ngEz9BCxhpd9URfk9+AWVEoZ7rrfCGOjLWGlEsf5xXMd
+DfoFj9RrVK2S4sxQAtekX7MQuN6vDaWx+bNGod6Egi9Lc4WgQEEvA/qUMlNQb96K
+kUg2Mfeup+tNRe8DpKN/KqLVJ2u9r/bjckhAxFzACokDCklDPN1/o3aDwaTlWOZu
+gRi0Do67DV1pG9rrIDC8ln5QRfVB0RBqu/FPyaNtRRHVfNCBe1OOQMNt1TrU/VSv
+Dz6pxmLvSj5MWc0DhvOMW8zGkZoSAgNGUnvTHPLPkfdpKLrtXYVUqG5Wy4yf7dIb
+M60orV0EqUE=
+=T+XL
+-----END PGP SIGNATURE-----
+
+--===============0605286520115860595==--
