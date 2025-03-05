@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4450405246259375568=="
+Content-Type: multipart/mixed; boundary="===============3666892302887230002=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 05 Mar 2025 16:14:26 -0000
-Message-Id: <174119126646.4176960.9977620424879036804@gitolite.kernel.org>
+Date: Wed, 05 Mar 2025 16:14:29 -0000
+Message-Id: <174119126918.4177065.15277014578174978095@gitolite.kernel.org>
 
---===============4450405246259375568==
+--===============3666892302887230002==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 54e1b4becf5e220be03db4e1be773c1310e8cbbd
     new: 3c9231ea6497dfc50ac0ef69fff484da27d0df66
     log: revlist-54e1b4becf5e-3c9231ea6497.txt
 
---===============4450405246259375568==
+--===============3666892302887230002==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -339,4 +339,4 @@ b7365eab39831487a84e63a9638209b68dc54008 net: hns3: make sure ptp clock is unreg
 b33a534610067ade2bdaf2052900aaad99701353 vlan: enforce underlying device type
 3c9231ea6497dfc50ac0ef69fff484da27d0df66 net-timestamp: support TCP GSO case for a few missing flags
 
---===============4450405246259375568==--
+--===============3666892302887230002==--
