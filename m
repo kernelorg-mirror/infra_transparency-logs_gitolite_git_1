@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8444104343200488580=="
+Content-Type: multipart/mixed; boundary="===============7548976912180336081=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Wed, 05 Mar 2025 16:33:33 -0000
-Message-Id: <174119241324.3330.1826911160228028696@gitolite.kernel.org>
+Date: Wed, 05 Mar 2025 16:34:29 -0000
+Message-Id: <174119246923.3903.3233631469663155138@gitolite.kernel.org>
 
---===============8444104343200488580==
+--===============7548976912180336081==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/b4/pcc_fixes_updates
-    old: 02df5f909f46566d4f408ce933f3414794d7c443
-    new: a46993cdd70d861c3728cff2f5387eec496398af
-    log: revlist-02df5f909f46-a46993cdd70d.txt
+  - ref: refs/heads/pcc
+    old: 344b0ae7c1d2419b822f65d1fa36626e92a26316
+    new: 92907ef11df5a7f0c2b9ecb48ccb3bfca0ee7dc5
+    log: revlist-344b0ae7c1d2-92907ef11df5.txt
 
---===============8444104343200488580==
+--===============7548976912180336081==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-02df5f909f46-a46993cdd70d.txt
+Content-Disposition: attachment; filename=revlist-344b0ae7c1d2-92907ef11df5.txt
 
 a60c47bfbeb4e1dc455c05593596838f7c260b90 mailbox: pcc: Fixes and cleanup/refactoring
 484893fe70ad924fda2b9505ccc9dbd0c14e56ce mailbox: pcc: Fix the possible race in updation of chan_in_use flag
@@ -40,5 +40,6 @@ e95a73e24e4442d907d80dfd72db355e434d09cd soc: hisilicon: kunpeng_hccs: Simplify 
 7d8e4369ec62a0907b21f674b3bce7a925464a43 hwmon: (xgene-hwmon) Simplify PCC shared memory region handling
 5b6f5b21f7e8eddf37fc686f2d0075ce4908b120 ACPI: PCC: Simplify PCC shared memory region handling
 a46993cdd70d861c3728cff2f5387eec496398af ACPI: CPPC: Simplify PCC shared memory region handling
+92907ef11df5a7f0c2b9ecb48ccb3bfca0ee7dc5 arm64: defconfig: [TESTING ONLY] Enable users of PCC to check build errors
 
---===============8444104343200488580==--
+--===============7548976912180336081==--
