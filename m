@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3656232001654223133=="
+Content-Type: multipart/mixed; boundary="===============2582661547612260941=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 05 Mar 2025 16:28:02 -0000
-Message-Id: <174119208279.4191589.8224802617429983494@gitolite.kernel.org>
+Date: Wed, 05 Mar 2025 16:28:06 -0000
+Message-Id: <174119208605.4191716.3186730890997472235@gitolite.kernel.org>
 
---===============3656232001654223133==
+--===============2582661547612260941==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: 7fe0353606d77a32c4c7f2814833dd1c043ebdd2
     new: c62e6f056ea308d6382450c1cb32e41727375885
     log: revlist-7fe0353606d7-c62e6f056ea3.txt
 
---===============3656232001654223133==
+--===============2582661547612260941==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -636,4 +636,4 @@ b4e53b15c04e3852949003752f48f7a14ae39e86 ptp: Add PHC file mode checks. Allow RO
 76868642e42795353106197abf9c607ad80f4c9e testptp: Add option to open PHC in readonly mode
 c62e6f056ea308d6382450c1cb32e41727375885 Merge branch 'dynamic-possix-clocks-permission-checks'
 
---===============3656232001654223133==--
+--===============2582661547612260941==--
