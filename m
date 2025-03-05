@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 05 Mar 2025 01:01:17 -0000
-Message-Id: <174113647771.3376852.3994873467788126590@gitolite.kernel.org>
+Date: Wed, 05 Mar 2025 01:10:42 -0000
+Message-Id: <174113704235.3385634.13122429596242993244@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,11 +12,15 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: a144da586c6bdf345c80598533673e1150c90b25
-    new: 24412be81d5cb64e5feca5ebe02e853672a9ecd2
+    old: 24412be81d5cb64e5feca5ebe02e853672a9ecd2
+    new: 00d66b5fcd4f9d1d8419b7c418575d1f2cd91cb5
     log: |
-         39e912a959c19338855b768eaaee2917d7841f71 dpll: Add an assertion to check freq_supported_num
-         a06a868a0cd96bc51401cdea897313a3f6ad01a0 net: phy: nxp-c45-tja11xx: add match_phy_device to TJA1103/TJA1104
-         7215e9375694dbb2306082b516d824b9335fa409 net: phy: nxp-c45-tja11xx: add support for TJA1121
-         24412be81d5cb64e5feca5ebe02e853672a9ecd2 Merge branch 'net-phy-nxp-c45-tja11xx-add-support-for-tja1121'
+         e4c4522390c90f9ef2d3491e9eb5f19a6fac00e2 dt-bindings: net: Convert fsl,gianfar-{mdio,tbi} to YAML
+         0386e29e60bdb0985f4bdf1c4a7fadebdef724be dt-bindings: net: fsl,gianfar-mdio: Update information about TBI
+         a70fdd936818c2c12b8c2dd04ce8586c31837d9a dt-bindings: net: Convert fsl,gianfar to YAML
+         35df5eb9bf6ea34ae79a261927cbf2123af25ae0 Merge branch 'net-convert-gianfar-triple-speed-ethernet-controller-bindings-to-yaml'
+         56bcc6ecff8fdc06258c637226986ed522027ca5 eth: fbnic: Prepend TSENE FW fields with FBNIC_FW
+         e5cf5107c9e4286377d9adae114e524787cbe104 eth: fbnic: Update fbnic_tlv_attr_get_string() to work like nla_strscpy()
+         8cb3e49b23cc673efcb844488aeb46ff4c615824 eth: fbnic: Replace firmware field macros
+         00d66b5fcd4f9d1d8419b7c418575d1f2cd91cb5 Merge branch 'eth-fbnic-cleanup-macros-and-string-function'
          
