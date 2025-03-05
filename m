@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/alexs/linux
-Date: Wed, 05 Mar 2025 02:40:04 -0000
-Message-Id: <174114240409.3476239.415364960699458797@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
+Date: Wed, 05 Mar 2025 02:48:53 -0000
+Message-Id: <174114293369.3482986.4809252979726122613@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/alexs/linux
-user: alexs
+repo: pub/scm/linux/kernel/git/rcu/linux
+user: boqun
 changes:
-  - ref: refs/heads/docs-next
-    old: 76a6782284dff53a08b688fdead3e46f22236e71
-    new: 1d5e3ce014d2d1675800c37975b57fec460f6e5b
-    log: |
-         1d5e3ce014d2d1675800c37975b57fec460f6e5b docs/zh_CN: Add snp-tdx-threat-model index Chinese translation
-         
+  - ref: refs/heads/next.2025.03.04a
+    old: 0000000000000000000000000000000000000000
+    new: 467c890f2d1ad6de9fd1dbd196fdc8f3ee63190a
