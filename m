@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Wed, 05 Mar 2025 14:58:09 -0000
-Message-Id: <174118668948.4113971.6457288023028441699@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
+Date: Wed, 05 Mar 2025 15:02:13 -0000
+Message-Id: <174118693354.4117971.18218134417408356047@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/xiang/linux
+user: xiang
 changes:
-  - ref: refs/heads/testing
-    old: 08808b3ef384974b1eaf4975de707f93f8cda62d
-    new: 21ce1ce04350fd46807622269018f9e2c09b7ac1
+  - ref: refs/heads/erofs/48bits
+    old: 629c9588920ea482111ad0456ba695f3b25365c8
+    new: ee0d3372582cd40caa324a4eb163ea341243e69b
     log: |
-         21ce1ce04350fd46807622269018f9e2c09b7ac1 staging: iio: accel: adis16240: Drop driver for this impact sensor
+         4567ab6c475c9544c307b5097321853dd9f90721 erofs: implement 48-bit block addressing for unencoded inodes
+         ee0d3372582cd40caa324a4eb163ea341243e69b erofs: support dot-omitted directories
          
