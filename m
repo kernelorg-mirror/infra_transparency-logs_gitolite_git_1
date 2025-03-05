@@ -1,40 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============4706520041031940476=="
+Content-Type: multipart/mixed; boundary="===============3715602941657160720=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 05 Mar 2025 10:09:34 -0000
-Message-Id: <174116937477.3857995.12907349590725261777@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 05 Mar 2025 10:09:47 -0000
+Message-Id: <174116938722.3858444.2393359144733217100@gitolite.kernel.org>
 
---===============4706520041031940476==
+--===============3715602941657160720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 20d5c66e1810e6e8805ec0d01373afb2dba9f51a
     new: 7ec162622e66a4ff886f8f28712ea1b13069e1aa
     log: revlist-20d5c66e1810-7ec162622e66.txt
-  - ref: refs/heads/stable
-    old: 99fa936e8e4f117d62f229003c9799686f74cebc
-    new: 48a5eed9ad584315c30ed35204510536235ce402
-    log: |
-         75f1f311d883dfaffb98be3c1da208d6ed5d4df9 Revert "of: reserved-memory: Fix using wrong number of cells to get property 'alignment'"
-         3d252160b818045f3a152b13756f6f37ca34639d fs/pipe: Read pipe->{head,tail} atomically outside pipe->mutex
-         48a5eed9ad584315c30ed35204510536235ce402 Merge tag 'devicetree-fixes-for-6.14-2' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
-         
-  - ref: refs/tags/next-20241205
-    old: 51e90119428104cc51aca369336c35d368706e0c
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20250305
     old: 0000000000000000000000000000000000000000
     new: a03be51d680391ba113e2e22b38743c276b6e2fa
 
---===============4706520041031940476==
+--===============3715602941657160720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1065,4 +1054,4 @@ ad017965fbf7f38c4e7b7fffa92cf04dca58f3a5 Merge branch 'bitmap-for-next' of https
 72b54f1d8b65403dd3d9c7511b9b7b33aa0e4054 Merge branch 'crc-next' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux.git
 7ec162622e66a4ff886f8f28712ea1b13069e1aa Add linux-next specific files for 20250305
 
---===============4706520041031940476==--
+--===============3715602941657160720==--
