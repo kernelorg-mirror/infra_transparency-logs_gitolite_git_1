@@ -1,37 +1,48 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-stable-rt
-Date: Wed, 05 Mar 2025 17:22:45 -0000
-Message-Id: <174119536543.51556.11437104350791210376@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1692932543317388164=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Wed, 05 Mar 2025 17:24:39 -0000
+Message-Id: <174119547927.53072.11572970573801622166@gitolite.kernel.org>
+
+--===============1692932543317388164==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rt/linux-stable-rt
-user: lclaudio
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/v5.10-rt
-    old: 5c5f37fc0ab0914da38776700e77a46ca3e30bf6
-    new: 0e289516823b672c36607b928401d426b8d7a08d
+  - ref: refs/heads/master
+    old: 2a86df302d28caf5313b34854c0dfb0f7bd327bc
+    new: 61537f31250a82a2d3a4760f8d0a6e4335b72201
     log: |
-         a821199e6e954d2f3127e01da171dcf5a7fa8a93 u64_stats: Introduce u64_stats_set()
-         75586db8a49410cea6951df3be8d2691f410d900 netfilter: nft_counter: Use u64_stats_t for statistic.
-         386242acb15ef7714b03c15b8c670a93546308bb rt: fix build issue in at_hdmac
-         0e289516823b672c36607b928401d426b8d7a08d Linux 5.10.234-rt127
+         b479e1647f5c37c5113957bbd5ece1ae93a64f96 Restore two keys from the previous cleanup
+         85143417aefdecb1d14414949eebf0f18f85038b Update the recently restored keys to get new expiry date
+         61537f31250a82a2d3a4760f8d0a6e4335b72201 Merge patch series "Restore and refresh two keys removed by 2dd67ee0231c"
          
-  - ref: refs/heads/v5.10-rt-rebase
-    old: 93649261a6376f74525152e2e49e4d809f37e586
-    new: 8bfc5353db5b6b776ecb0bc56984306dffbba588
-    log: |
-         3ad3c480864db254316f8a66c492e34793dd4e60 u64_stats: Introduce u64_stats_set()
-         dc5d32d1ac37068125bdb03b8219c9edb271e0d1 netfilter: nft_counter: Use u64_stats_t for statistic.
-         775a686ab7fcee0b849249f946f0f2dedafda763 rt: fix build issue in at_hdmac
-         8bfc5353db5b6b776ecb0bc56984306dffbba588 Linux 5.10.234-rt127 REBASE
-         
-  - ref: refs/tags/v5.10.234-rt127
-    old: 0000000000000000000000000000000000000000
-    new: 83cda5b4473e0b184925dcd8a52d8a02af198752
-  - ref: refs/tags/v5.10.234-rt127-rebase
-    old: 0000000000000000000000000000000000000000
-    new: 9d3c12d7b453f2293a7e2238becd8495c0313ec2
+
+--===============1692932543317388164==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1741195507 -0500
+pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
+nonce 1741195478-9e5c1d43d450d5ca2c836e77b43779e15a9bd606
+
+2a86df302d28caf5313b34854c0dfb0f7bd327bc 61537f31250a82a2d3a4760f8d0a6e4335b72201 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHQEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZ8iI8wAKCRC2xBzjVmSZ
+bJ03APinrhtC4aXFWbCnWb0U1hHCXbJ1L3fQFxV3RF+yzydKAQC/4YAyLf/g4c3w
+jPH5LXYuBIj7omfZREew0NYlNfCuAQ==
+=RVng
+-----END PGP SIGNATURE-----
+
+--===============1692932543317388164==--
