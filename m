@@ -1,22 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Wed, 05 Mar 2025 18:30:51 -0000
-Message-Id: <174119945142.118120.6656313434911265200@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/connman/connman
+Date: Wed, 05 Mar 2025 18:38:24 -0000
+Message-Id: <174119990452.123267.3901521730235474976@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/network/connman/connman
+user: denkenz
 changes:
   - ref: refs/heads/master
-    old: 8aa6911302c7a30412686678f2bf3913c145c7fc
-    new: 420c96c32f19e9f5dbd75303f2604fb5a0ef57d1
+    old: 81d651b269f984cbbcf489a84770dbdded1d6a9d
+    new: 288b28bd2c571d7c236eab308691223c234ad2d6
     log: |
-         0bcf801edd69170c87598045aefefc7b2d15a8fe patches/next: fix intervals auto-tune design typo
-         4bd02a03fa93e92f4518935c6e3b3abf14057860 patches/next: cleanup categories
-         e4333dcaa730d3c2e171314822e300234ed141cb patches/posted: add intervals auto-tune doc typo fix v1
-         420c96c32f19e9f5dbd75303f2604fb5a0ef57d1 patches/posted: add msgids for intervals autotune doc typo fix v1
+         eb65e1e3fb886e7ce530adb4414208adc721faa4 service: Leverage 'service_set_pac' function.
+         d8fcf6cc0c54418e86750d05244a44deb126bddf service: Add 'service_set_proxy_method' function.
+         bf532b3cceb923bb861b42334520f19a7339ac3c service: Refactor 'connman_service_set_proxy_method'.
+         5488cd6dcaa8d99739f1812f207a2f50943c3760 service: Refactor '__connman_service_set_proxy_autoconfig'.
+         25e6914c6e46ac8af0c70bb2332596138a4f025d service: Document 'service_set_proxy_method'.
+         1123f398de9fea37970be4a92e6d950bf7691507 service: Document 'service_set_proxy_method_auto_handler'.
+         288b28bd2c571d7c236eab308691223c234ad2d6 service: Document '__connman_service_set_proxy_autoconfig'.
          
