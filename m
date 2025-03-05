@@ -1,41 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============5108633988509185594=="
+Content-Type: multipart/mixed; boundary="===============4138984754102703316=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Wed, 05 Mar 2025 21:55:53 -0000
-Message-Id: <174121175349.293235.14329641469116581815@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 05 Mar 2025 21:57:37 -0000
+Message-Id: <174121185799.294221.6319682031010028954@gitolite.kernel.org>
 
---===============5108633988509185594==
+--===============4138984754102703316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/for-next
-    old: 539c3845d320c33bcfd28885378905d5260b8bd2
-    new: 3f7b2eb9f21e1b4cea4489e955788a89175713e4
-    log: revlist-539c3845d320-3f7b2eb9f21e.txt
+  - ref: refs/heads/master
+    old: a2ea9805662cf22b79815cdbe7fa09ee67f30082
+    new: 7b6859b8c618659b804ba3ae4a24d58e9422728a
+    log: revlist-a2ea9805662c-7b6859b8c618.txt
+  - ref: refs/heads/tip/urgent
+    old: d06361ab67f78e7422335ad88f8bb0ef537a307a
+    new: 3f4f67f126047f420d3f85cd8968658930bc30f5
+    log: |
+         9d62c9fd29506418a53863a68900b2d8d1506edd Merge branch into tip/master: 'perf/urgent'
+         069d317cb29e2381914922322dd51dc5cf528702 Merge branch into tip/master: 'sched/urgent'
+         3f4f67f126047f420d3f85cd8968658930bc30f5 Merge branch into tip/master: 'x86/urgent'
+         
 
---===============5108633988509185594==
+--===============4138984754102703316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-539c3845d320-3f7b2eb9f21e.txt
+Content-Disposition: attachment; filename=revlist-a2ea9805662c-7b6859b8c618.txt
 
-1921f1a4639759b8026dec8d2f17adfb2e808158 dt-bindings: remoteproc: qcom,sm6115-pas: Use recommended MBN firmware format in DTS example
-82162db9a527dc27f4b6bd4fadffb3c352be4af0 dt-bindings: remoteproc: Add SM8750 CDSP
-a2935a38cd1939013a301a630c0072d9b8f941f7 dt-bindings: remoteproc: qcom,msm8916-mss-pil: Support platforms with one power domain
-01730659e7c58bd88a88af0086125ab073dc56b8 dt-bindings: remoteproc: qcom,msm8916-mss-pil: Add MSM8226
-41bf2a134f0309dcee0e8f75a51cf05e51d86418 dt-bindings: remoteproc: qcom,msm8916-mss-pil: Add MSM8926
-4641840341f37dc8231e0840ec1514b4061b4322 remoteproc: qcom_q6v5_mss: Handle platforms with one power domain
-155cd99d7d8e770f719846b2307c24260593be98 remoteproc: qcom_q6v5_mss: Add modem support on MSM8226
-df9e5103a2855ba3352f2c6e862adad17810605c remoteproc: qcom_q6v5_mss: Add modem support on MSM8926
-14198a0ca55ebec9890e33cb025a138542e2949d dt-bindings: remoteproc: qcom,wcnss-pil: Add support for single power-domain platforms
-65991ea8a6d1e68effdc01d95ebe39f1653f7b71 remoteproc: qcom_wcnss: Handle platforms with only single power domain
-3f7b2eb9f21e1b4cea4489e955788a89175713e4 Merge branch 'rproc-next' into for-next
+9d62c9fd29506418a53863a68900b2d8d1506edd Merge branch into tip/master: 'perf/urgent'
+069d317cb29e2381914922322dd51dc5cf528702 Merge branch into tip/master: 'sched/urgent'
+3f4f67f126047f420d3f85cd8968658930bc30f5 Merge branch into tip/master: 'x86/urgent'
+3a19740c88ad96c8aee1e502f59eb753a7a83be9 Merge branch into tip/master: 'x86/merge'
+0900bd2e1f24038d7756971adb7744f8a3e0484e Merge branch into tip/master: 'irq/core'
+693aba953382d9ea535ab17294f3bcc8350e6cdb Merge branch into tip/master: 'irq/drivers'
+2e7302ba111f586d1d775359a3063901108fe471 Merge branch into tip/master: 'locking/core'
+481da7e001dd2c548243a82b7b9cdfd0ff8c625e Merge branch into tip/master: 'locking/futex'
+0b3156dfac54f914258fc24e1262efa2b78ba935 Merge branch into tip/master: 'perf/core'
+824ecb61a6ca7bc04d6dcaa36442b6b9c15bbde7 Merge branch into tip/master: 'ras/core'
+ee470072e00f517ccf3481c21ff994d4702dee52 Merge branch into tip/master: 'sched/core'
+13009fcb5e0cb9a882209aa5ab9fda45b9b38143 Merge branch into tip/master: 'timers/cleanups'
+09ece47eec3bf0b73ff324c43290cdc8658a9444 Merge branch into tip/master: 'timers/core'
+c5c6d65a2e49e893260b81b4908f7895e15acd96 Merge branch into tip/master: 'timers/vdso'
+efc24a608dc8c6a4e3911fe9f38effa70bed1c4f Merge branch into tip/master: 'x86/asm'
+94ae3da7defb1408603f8bb1332c8748c5678c34 Merge branch into tip/master: 'x86/boot'
+e5417043044dfb94aacf2c3ab470257915af4c2c Merge branch into tip/master: 'x86/bugs'
+93f972da85157ccef16e96f43c9cdc7bb1f16974 Merge branch into tip/master: 'x86/build'
+9d7f6fca1ac254a87aa32b0fa85b152a31073043 Merge branch into tip/master: 'x86/cleanups'
+c1ff4d6e3d3cb42cd29ed3226c32ed52d6e0bbed Merge branch into tip/master: 'x86/core'
+0f6c3a171b3f5c9e3158cbd97ed83c1b269ea976 Merge branch into tip/master: 'x86/fpu'
+a429118aaab402332b10811ecf764a5e4ce6066b Merge branch into tip/master: 'x86/microcode'
+aa213a4795466c14a56362aed4b29de600afc779 Merge branch into tip/master: 'x86/misc'
+a95f72ec4ddfb176e9c0b8fbae6d163bbb898983 Merge branch into tip/master: 'x86/platform'
+7b6859b8c618659b804ba3ae4a24d58e9422728a Merge branch into tip/master: 'x86/sev'
 
---===============5108633988509185594==--
+--===============4138984754102703316==--
