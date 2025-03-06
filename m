@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 06 Mar 2025 04:20:02 -0000
-Message-Id: <174123480213.651978.17919468507196984465@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Thu, 06 Mar 2025 04:20:11 -0000
+Message-Id: <174123481133.653434.5533618501819211912@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
+repo: pub/scm/linux/kernel/git/sj/damon-hack
 user: sj
 changes:
-  - ref: refs/heads/damon/next
-    old: 5c3a91c9677b1d9a5a417fa8a75a93c1b1ec58b1
-    new: 22bd5d4b002ce831c1fd4f290eb4606cc3edf80c
+  - ref: refs/heads/master
+    old: 683d21f79ef4d5ae5b85019cfb554d1141d9ab1d
+    new: b8cf659d8b835285cceeca48e7a2b554d234ab1b
     log: |
-         638eb7acf2a29727b975ad2b9746815e23ec9c0a ==== memory tiering ====
-         b7d56da4e63fd6f1ae8236fb11d7e196607e871a mm/damon/sysfs-schemes: fix wrong comment on damons_sysfs_quota_goal_metric_strs
-         22bd5d4b002ce831c1fd4f290eb4606cc3edf80c mm/damon/core: add damos quota goal metric type node_util_bp
+         da1095a519d7dd1e042660fc960b9aff9884d0f5 patches/next: start working on damon_tiering
+         b8cf659d8b835285cceeca48e7a2b554d234ab1b todo: mark DAMON-based memory tiering as wip
          
