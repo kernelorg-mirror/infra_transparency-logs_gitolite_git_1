@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============2220352150334033375=="
+Content-Type: multipart/mixed; boundary="===============3780337586429356060=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 06 Mar 2025 16:08:58 -0000
-Message-Id: <174127733810.1303550.6886679589236787340@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 06 Mar 2025 16:09:05 -0000
+Message-Id: <174127734509.1303776.17262113702225168043@gitolite.kernel.org>
 
---===============2220352150334033375==
+--===============3780337586429356060==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-6.14
-    old: 7eb172143d5508b4da468ed59ee857c6e5e01da6
-    new: 1c81a8c78ae653f3a21cde0f37a91f1b22b7d2fb
+  - ref: refs/heads/for-6.15
+    old: 5fac6c2785f95ddd73db33289dcd3cd5a68be226
+    new: 7dfc9bdde9fa20cf1ac5cbea97b0446622ca74c7
     log: |
-         1c81a8c78ae653f3a21cde0f37a91f1b22b7d2fb regulator: core: Fix deadlock in create_regulator()
+         7dfc9bdde9fa20cf1ac5cbea97b0446622ca74c7 spi: stm32-ospi: Fix an IS_ERR() vs NULL bug in stm32_ospi_get_resources()
          
 
---===============2220352150334033375==
+--===============3780337586429356060==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1741277366 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1741277335-b418d383e38efdaf91177e160dc7f8d23227f747
+pusher C3F436CA30F5D8EB 1741277373 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1741277343-ca52b9e4b15298372e10db8bbc8cd1cf6c3d3e5e
 
-7eb172143d5508b4da468ed59ee857c6e5e01da6 1c81a8c78ae653f3a21cde0f37a91f1b22b7d2fb refs/heads/regulator-6.14
+5fac6c2785f95ddd73db33289dcd3cd5a68be226 7dfc9bdde9fa20cf1ac5cbea97b0446622ca74c7 refs/heads/for-6.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmfJyLYACgkQJNaLcl1U
-h9CYoQf/RuoO7TuAIOm2rOcUsTi0K4Kumzr5tWk61/EUFja+APH0Nr8r2DiSfRYF
-hVI7KSbAgfExYk11gdfSSv26mC7SYtXMs4AJiX6QYitwkppIkZivP7TenJEZOACZ
-L7xAT0DVzsOh+s3sn6QkfpAtVmXmw7HZ3tLsEyjYZRpMShAV1ebLU/Gsdq+Yb2tq
-q9McMvnpAYMZ3Zp/DGLiBmJ6TNrFQaKUN+xk2uj50SvM+vaY2FWDCRU11R0T90GV
-H1cKs7FmanlKMX49q+gVtAjOgIe/hv2e+vXPgJ5MUyFJdKxt9hHSlgiQ7vBDEMMV
-6N4lQFXKU8akLIy/cP6gOAd/lVKtxg==
-=uWoW
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmfJyL0ACgkQJNaLcl1U
+h9A4lQf7Bp0KhewP+k0Yi2XbyxOSC1uDbgepkN+uH35SAvnSTwJopQJ4saDbs+eh
+Grz0v0y1i/ymW0DLu2zP5nbqXoMJPfbtrBL3xWSfw3dl4GZYUk+ecR5Ot1mnti9E
+QHCEZuJ6xF9I2CpOlkdtfPLT9jAeHN5NP7fySbn26GL3hioAtbYA7QzIMbHcZLiF
+gxDZx7GSNkYIa45IIuroOfrcvRri1q+zCQ8X5ZucoBkU6447t0Jfh4HKNDrC/NPt
+9jcykslJDGmqHjt48moA9XKPeD/CChD3ZhHKcNsNJRGXWIc7RNZB36TCa339N/q8
+gCsdRaHvOfx6VW8mV4tFEDnUgktfFA==
+=/9Fp
 -----END PGP SIGNATURE-----
 
---===============2220352150334033375==--
+--===============3780337586429356060==--
