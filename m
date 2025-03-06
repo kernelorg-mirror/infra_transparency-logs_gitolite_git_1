@@ -1,56 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============3607222304681677828=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 06 Mar 2025 14:29:57 -0000
-Message-Id: <174127139762.1202624.6551208689687492323@gitolite.kernel.org>
-
---===============3607222304681677828==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/mdraid/linux
+Date: Thu, 06 Mar 2025 14:33:09 -0000
+Message-Id: <174127158969.1205887.15591312152935901193@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/mdraid/linux
+user: yukuai
 changes:
-  - ref: refs/heads/master
-    old: 5bd9a4fedc2579df2a91e19fff97a986cbed9339
-    new: a8f5f65064b868cbde7677192261292c144baa87
+  - ref: refs/heads/md-6.15
+    old: 27d4cd61c0d19b13b4a71931f2ae6dc91d48f0ff
+    new: 6130825f34d41718c98a9b1504a79a23e379701e
     log: |
-         a8f5f65064b868cbde7677192261292c144baa87 drop a bunch of rdma patches from 6.1
+         9faab548974e3eb858250fea1ab7e823a689b44b md: merge common code into find_pers()
+         bf0a73264fa4a66612338da3fbc46262daa97881 md: only include md-cluster.h if necessary
+         d3beb7c9c61d239e73cb93481b27c7b94130dd03 md: introduce struct md_submodule_head and APIs
+         3d44e1d1575a877cf75a7776802506ce7ab8ecc4 md: switch personalities to use md_submodule_head
+         ff84e1b1d215d08651d3adee61d8b834c74ff223 md/md-cluster: cleanup md_cluster_ops reference
+         c594de0455b3d65525bad2020f7f7e41af233045 md: don't export md_cluster_ops
+         87a86277c9f54953e184318bf71630388aeaf000 md: switch md-cluster to use md_submodle_head
+         8542870237c3a48ff049b6c5df5f50c8728284fa md: fix mddev uaf while iterating all_mddevs list
+         1320fe874175fac395fa693195db68b2001c4d8f md/raid5: merge reshape_progress checking inside get_reshape_loc()
+         e879a0d9cb086c8e52ce6c04e5bfa63825a6213c md/raid1,raid10: don't ignore IO flags
+         6130825f34d41718c98a9b1504a79a23e379701e md/md-bitmap: fix wrong bitmap_limit for clustermd when write sb
          
-
---===============3607222304681677828==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1741271426 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1741271395-a8a7ddc0584210a9a73b8c66da14eab379115173
-
-5bd9a4fedc2579df2a91e19fff97a986cbed9339 a8f5f65064b868cbde7677192261292c144baa87 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfJsYIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hUMQAINmaHtIGKBojJ+6ukw3
-pK532+mdU55bZyh93jJk3W2XQXhWveSriMVaBT/dcOXAIsp60pB3jgBCoiYgpQjJ
-0YwG+pBrTk8t3JLa65QxVdTQAdK02xmXVug/+6yRbLMZ4d1YpGvWeocgtqJ33yko
-zQrPulQYrKWYILhjnoYJ0IYogo0ZItK8jzogJXlSaL5M2jJFhYckbl7DORNUCBmA
-zetenQZeyAuHkI3nAet2H6six6W3axyqdW77yULJ3QCO5tgDgMKn3OTowDLEqTAg
-ylPK9rcnWI+LSkZ2N+g0YHhVdIqMMpcsk38yGScn+++PDS8Aj2Q2H38hnCz9Wy4d
-1WvbAbpBI19SwtKzyfYH/EgBt/XR6WWsoPn7poEMoPmQdZdyWZWv/rGahIWatypp
-YH5NEw8d3YYeOQT8SefTcx+LrcTnc51Z5r/FgaB76TsQQCak1TYUtGXA1bPysRIr
-blpCRE2DpySQqbQbTgb9Zeq+0KyYVXBOh05RVe9H4N/rDgeRWyGghnI1q9ysAQ6v
-6fIizm/OhTMjn7jdzPtqCqgTpq+9JLVv4L2RA31WEq2eZPb2vcV0y0qphvu2LWHz
-xAB4/PcvOLyXK78qgmtT58ud9OoZuGFnBgyUCHkqnvat0q8K1PHeszhTuYdZ4yVq
-meIDNQqTEjhfbAjYIeRW76s+
-=lEc8
------END PGP SIGNATURE-----
-
---===============3607222304681677828==--
