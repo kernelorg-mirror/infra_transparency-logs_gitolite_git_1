@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0151640646971147100=="
+Content-Type: multipart/mixed; boundary="===============8762022848991057326=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Thu, 06 Mar 2025 07:47:07 -0000
-Message-Id: <174124722700.834319.13076355685417795620@gitolite.kernel.org>
+Date: Thu, 06 Mar 2025 07:47:37 -0000
+Message-Id: <174124725796.834769.2773287913996606599@gitolite.kernel.org>
 
---===============0151640646971147100==
+--===============8762022848991057326==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-kvm
-    old: b6ad80e1c21ade0bce36cd469b339a090b693e3e
-    new: 8714ec69c9b6c0d82f257101b6a2dbbdf5a1e023
-    log: revlist-b6ad80e1c21a-8714ec69c9b6.txt
+  - ref: refs/heads/loongarch-next
+    old: 529f5ff3fc237904c6924c024d1e838d0d53a5b4
+    new: 9da474ca5c71002888c5ec4055efce83824456b0
+    log: revlist-529f5ff3fc23-9da474ca5c71.txt
 
---===============0151640646971147100==
+--===============8762022848991057326==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b6ad80e1c21a-8714ec69c9b6.txt
+Content-Disposition: attachment; filename=revlist-529f5ff3fc23-9da474ca5c71.txt
 
 fcf5d353b09b3fc212ab24b89ef23a7a8f7b308e phy: rockchip: fix Kconfig dependency more
 3126ea9be66b53e607f87f067641ba724be24181 phy: rockchip: naneng-combphy: compatible reset with old DT
@@ -83,6 +83,14 @@ c27c66afc449b80f3b4b84d123358c0248f2cf63 fs/pipe: Fix pipe_occupancy() with 16-b
 cfced12f5100e50d56bc587299393fd33c1169a9 include/linux/pipe_fs_i: Add htmldoc annotation for "head_tail" member
 0d2d0f3d93ddd6556f23c917d910becd9925ddeb fs/pipe: remove buggy and unused 'helper' function
 848e076317446f9c663771ddec142d7c2eb4cb43 Merge tag 'hid-for-linus-2025030501' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
+453391d5a0b8833504db21e9ccb0e23a8fa86705 LoongArch: Always select HAVE_VIRT_CPU_ACCOUNTING_GEN
+8f409d34f9d1a1dfaf1ee5696d04694ef5dab6bc LoongArch: Enable UBSAN (Undefined Behavior Sanitizer)
+bd7c63b760f85dedbb92e4b9d660dc3e37f83fc0 LoongArch: Eliminate superfluous get_numa_distances_cnt()
+2b4c031659da632b7ee56e751afc01c4b5ede86e LoongArch: Use polling play_dead() when resuming from hibernation
+2d42c2281e85723159c41a327b6779bb9bf0e941 LoongArch: Set max_pfn with the PFN of the last page
+44ff5ff11b5f56ce5d912b9c5c561bf83c7986e9 LoongArch: Set hugetlb mmap base address aligned with pmd size
+88c64d455cd125594d580d2de3558208710d20f2 LoongArch: vDSO: Remove --hash-style=sysv
+44d79df6ba1c0e1309a98cc75329197cc7ddb3e8 LoongArch: vDSO: Make use of the t8 register for vgetrandom-chacha
 1ec861876da36f42ad05a9d9c8f4c05c13ecbc8f LoongArch: KVM: Remove unnecessary header include path
 e26704e020f12112260dae15e00de812f315de84 LoongArch: KVM: Add interrupt checking for AVEC
 73de6eb1471e3241e5245e97cc51b5de9b599019 LoongArch: KVM: Reload guest CSR registers after S4
@@ -91,5 +99,6 @@ c77fc7cf3a3b0edb581bb4f912a85650240e2339 LoongArch: KVM: Remove PGD saving durin
 134eb392b8eb652281c7fb1dd767971b6a87ed40 LoongArch: KVM: Add stub for kvm_arch_vcpu_preempted_in_kernel()
 934519cdd2510790ff8b71ad1ff8370dd825fa89 LoongArch: KVM: Implement arch-specific functions for guest perf
 8714ec69c9b6c0d82f257101b6a2dbbdf5a1e023 LoongArch: KVM: Register perf callbacks for guest
+9da474ca5c71002888c5ec4055efce83824456b0 Merge branch 'loongarch-kvm' into loongarch-next
 
---===============0151640646971147100==--
+--===============8762022848991057326==--
