@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5860935676917403329=="
+Content-Type: multipart/mixed; boundary="===============6789277661138546765=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Thu, 06 Mar 2025 11:23:53 -0000
-Message-Id: <174126023364.1024421.2020029403892868200@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Thu, 06 Mar 2025 11:24:06 -0000
+Message-Id: <174126024627.1024696.11290749681540335438@gitolite.kernel.org>
 
---===============5860935676917403329==
+--===============6789277661138546765==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 7eb172143d5508b4da468ed59ee857c6e5e01da6
     log: revlist-d082ecbc71e9-7eb172143d55.txt
 
---===============5860935676917403329==
+--===============6789277661138546765==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -323,4 +323,4 @@ a760b10147d96c642ff152eef85db0c3799c9f74 Merge tag 'phy-fixes-6.14' of git://git
 b91872c56940950a6a0852e499d249c3091d4284 Merge tag 'dmaengine-fix-6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
 7eb172143d5508b4da468ed59ee857c6e5e01da6 Linux 6.14-rc5
 
---===============5860935676917403329==--
+--===============6789277661138546765==--
