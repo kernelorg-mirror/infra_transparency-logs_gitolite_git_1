@@ -1,30 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
-Date: Thu, 06 Mar 2025 23:18:45 -0000
-Message-Id: <174130312590.1690787.15737882541287282313@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 06 Mar 2025 23:34:42 -0000
+Message-Id: <174130408287.1703598.1069695011823577673@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kmod/kmod
-user: demarchi
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 2f5f67e689cd374e61b9a3ecb5e3d207e35bdbd0
-    new: ec4d901d53aa311ab1c96b48c584256c66070ae1
+  - ref: refs/heads/main
+    old: 2525e16a2bae322641fd745412f3524d4455d8df
+    new: cd02ab73664dbf08dd5af8c9d3a97e8b6eb75dfc
     log: |
-         313e0e48a6d7daca54a2466cedb476db8980d4f6 ci: Drop autotools builds
-         04520dc91ec972e6d6aab320199fc48c9007d601 ci: Remove autotools dependencies from containers
-         09f236e0d168758ba69b8b35e23c199c7d2d7f2e build: Drop autotools
-         975638c91d870d8f4fdbcc56d686cd18e8c12465 ci: Use include to completly specify the matrix
-         23b45fc385c7b4a8bee3f747c202477d0917c8cf ci: Drop container object
-         ae7b0c309a38804e21ac04a5924030be14b88b58 ci: Test with Debian bullseye
-         5e49bae93357c2dda9038c7361d8806a4870954b ci: s/multilib/x32/
-         fa7ad9826bad570d62c378275b964b4cd882ec9b ci: Fix 32b build ignoring options
-         6b603b3c30f3c24b0dd1547e2c2f0a1bc9da08ae ci: Switch most builds to 64b
-         00d0c19a379a9621bac097f755a98601c9c7cdd4 ci: Add pipeline to test linking with lld
-         9cec89a4efb4a6af2e8cde2bb7a71188d0bce14a meson: Show compiler and linker in summary
-         ec4d901d53aa311ab1c96b48c584256c66070ae1 ci: Test with different moduledir
+         f8ece40786c9342249aa0a1b55e148ee23b2a746 tcp: bring back NUMA dispersion in inet_ehash_locks_alloc()
+         9544d60a2605d1500cf5c3e331a76b9eaf4538c9 inet: change lport contribution to inet_ehashfn() and inet6_ehashfn()
+         d4438ce68bf145aa1d7ed03ebf3b8ece337e3f64 inet: call inet6_ehashfn() once from inet6_hash_connect()
+         e8f57a762bb966f08e60000caf1882a07e6d3ec4 Merge branch 'tcp-even-faster-connect-under-stress'
+         1f6c3899833a328d42647cc3894cda3c9f9abaf8 dt-bindings: net: Add FSD EQoS device tree bindings
+         ae7f6b34f5cd3acab74b1042a065b22f873c195a net: stmmac: dwc-qos: Add FSD EQoS support
+         2c2166e872af61ead3df30420d7290533f75601d Merge branch 'net-stmmac-dwc-qos-add-fsd-eqos-support'
+         cd02ab73664dbf08dd5af8c9d3a97e8b6eb75dfc ptp: ocp: Remove redundant check in _signal_summary_show
          
