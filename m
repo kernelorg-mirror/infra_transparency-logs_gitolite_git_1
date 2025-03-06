@@ -1,73 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============3512441903673675816=="
+Content-Type: multipart/mixed; boundary="===============2808571504420602630=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Thu, 06 Mar 2025 10:01:06 -0000
-Message-Id: <174125526618.953464.17085445592601499460@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 06 Mar 2025 10:01:40 -0000
+Message-Id: <174125530037.953990.17950945877356699773@gitolite.kernel.org>
 
---===============3512441903673675816==
+--===============2808571504420602630==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/tags/tag.tmp
-    old: b748fcff6e2efeea6cc95d2fda8e8192e4ba2523
-    new: 61096c514ae7f51bf3ede8d486e506e9921c942d
-    log: revlist-b748fcff6e2e-61096c514ae7.txt
+  - ref: refs/heads/master
+    old: 151390c233c2e37ab3e3969dbacdb7d207d05f8c
+    new: bb712edd59291ee0003471fb9ac9f6b6a086d168
+    log: revlist-151390c233c2-bb712edd5929.txt
+  - ref: refs/heads/tip/urgent
+    old: 8b403c37f84a18e9c100307b8f3413da3b6e9401
+    new: c8f8d9791db1756705b259a41396648506bf0ac9
+    log: |
+         14672f059d83f591afb2ee1fff56858efe055e5a sched/deadline: Use online cpus for validating runtime
+         b1536481c81fb604074da799e4f2d2038a1663f7 sched/rt: Update limit of sched_rt sysctl in documentation
+         6dee17250c67a8534ec3563dfbfcec410a27a36b Merge branch into tip/master: 'perf/urgent'
+         2aa9ec4f1008367969af29b21aaccd0f53faf04f Merge branch into tip/master: 'sched/urgent'
+         c8f8d9791db1756705b259a41396648506bf0ac9 Merge branch into tip/master: 'x86/urgent'
+         
 
---===============3512441903673675816==
+--===============2808571504420602630==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b748fcff6e2e-61096c514ae7.txt
+Content-Disposition: attachment; filename=revlist-151390c233c2-bb712edd5929.txt
 
-c50105933f0c75aacc4f95c9bf36f7fbd9a83884 iomap: allow the file system to submit the writeback bios
-710273330663241d9ca5fbed51909e65807556ad iomap: simplify io_flags and io_type in struct iomap_ioend
-034c29fb3e7c119c42e650986e280f025a1bec7b iomap: add a IOMAP_F_ANON_WRITE flag
-5fcbd555d48390a8c819ba7fdf55fbfcabe05c80 iomap: split bios to zone append limits in the submission handlers
-63b66913d11c5f3572dfdee38e78d510d0f90aa8 iomap: move common ioend code to ioend.c
-ae2f33a519af3730cacd1c787ebe1f7475df5ba8 iomap: factor out a iomap_dio_done helper
-e523f2d4c974a819730830ce1c38834ee0cd7318 iomap: optionally use ioends for direct I/O
-d06244c60aec1d5d1589efe6b611a5b91a49465c iomap: add a io_private field to struct iomap_ioend
-02b39c4655d52141e07e80e9b2772d96daf67ff6 iomap: pass private data to iomap_page_mkwrite
-c6d1b8d15450cf061648d4e36d622da9d755654a iomap: pass private data to iomap_zero_range
-ddd402bbbf669c4ada106fd2e4c799e2b5745e3e iomap: pass private data to iomap_truncate_page
-f87897339a4cbf8bd27c731b18787db4131c9077 Merge patch series "iomap: allow the file system to submit the writeback bios"
-abb0ea1923a68ec8f45a7615ebad1fc87ea06da6 iomap: factor out iomap length helper
-2e4b0b6cf5333f3a8e36d211dd81dd1074ff66c2 iomap: split out iomap check and reset logic from iter advance
-f4799838662340b3e53da8ff6bcabac743d80f17 iomap: refactor iomap_iter() length check and tracepoint
-9183b2a0e439ffa7ba2e176416efc4ffa21406d8 iomap: lift error code check out of iomap_iter_advance()
-b26f2ea1cd068b0b902e3bb735d05398d8c05aba iomap: lift iter termination logic from iomap_iter_advance()
-b51d30ff51f9c325b65c8cd66ff6590530b14041 iomap: export iomap_iter_advance() and return remaining length
-bc264fea0f6f230e56f876cc4266b1982d20f35d iomap: support incremental iomap_iter advances
-1a1a3b574b979912882f19d655ddac73f5cbc159 iomap: advance the iter directly on buffered writes
-e60837da4d9daa8abadd9fafd9b1941fa1dba037 iomap: advance the iter directly on unshare range
-cbad829cef3ba7318a2380a0eadc5059770f004a iomap: advance the iter directly on zero range
-30f530096166202cf70e1b7d1de5a8cdfba42af1 Merge patch series "iomap: incremental per-operation iter advance"
-d9dc477ff6a25c3812be2b24d81add8e6561c6ed iomap: advance the iter directly on buffered read
-8fecec46d10bafbce5d511c764ae2c2061b9adda iomap: advance the iter on direct I/O
-f145377da150b9606f3d51d66b03eca86514ea27 iomap: convert misc simple ops to incremental advance
-e1e6bae60732d1aea4f583a23794306a952bb76d dax: advance the iomap_iter in the read/write path
-e1dae77b50e31bf89236937c35eb891a2974cfae dax: push advance down into dax_iomap_iter() for read and write
-80fce30584076affbf7d84917f57968e2b812dde dax: advance the iomap_iter on zero range
-9ba439cbdcf2b14548a451d4f4e2bd274b1af490 dax: advance the iomap_iter on unshare range
-39eb05112987e15cbee1ada91e2dccb845675c30 dax: advance the iomap_iter on dedupe range
-6fe32fe1bbc1dce43daf3569dd8a84e11446257f dax: advance the iomap_iter on pte and pmd faults
-469739f1d8c55dc39939bdb4b558cf875be0ff4e iomap: remove unnecessary advance from iomap_iter()
-edd3e3b7d210747dec723edd2b6cb49d140c1256 iomap: rename iomap_iter processed field to status
-d79c9cc512973ef6583c3bfc0b343f9d312d85b3 iomap: introduce a full map advance helper
-53cfafdd1530f86c2ef8ecbbcb9aeae4da115cb2 Merge patch series "iomap: incremental advance conversion -- phase 2"
-b194bc4efae97ad8cd453200e3004eba70851112 iomap: make buffered writes work with RWF_DONTCACHE
-d47c670061b5f9481ce494cd6c45078be301620e xfs: flag as supporting FOP_DONTCACHE
-51bd73d92f89173e3394276f4b840eed361f11b5 Merge branch 'vfs-6.15.shared.iomap' of gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
-af97c9498b28841e4c21caea8b9e333e1b19bd8d iomap: Rename IOMAP_ATOMIC -> IOMAP_ATOMIC_HW
-e5708b92d9bf543b731dce9e9903c8131792c44c iomap: Support SW-based atomic writes
-2ebcf55ea0c65cd492abd74be888878eee303d80 iomap: Lift blocksize restriction on atomic writes
-44bc4c1e8167528e2642f249cabbc70020287ec6 Merge patch series "iomap preliminaries for large atomic write for xfs with CoW"
+6dee17250c67a8534ec3563dfbfcec410a27a36b Merge branch into tip/master: 'perf/urgent'
+2aa9ec4f1008367969af29b21aaccd0f53faf04f Merge branch into tip/master: 'sched/urgent'
+c8f8d9791db1756705b259a41396648506bf0ac9 Merge branch into tip/master: 'x86/urgent'
+379c560dca456fe1405ee4e248035dd7ab16e38c Merge branch into tip/master: 'x86/merge'
+40bb14c006216232fc253876082e1526828f48f3 Merge branch into tip/master: 'irq/core'
+69afcea0f4c0c0b57ba10eac9dbb5e72061c4640 Merge branch into tip/master: 'irq/drivers'
+ebcb95c8b87fe25e78879ce76d9941efe3223256 Merge branch into tip/master: 'locking/core'
+4365d1e33918741f50eb951c405a1bb14621e7d6 Merge branch into tip/master: 'locking/futex'
+79043cd057d0b102ba3004335ab43bc0ae347ddb Merge branch into tip/master: 'perf/core'
+3ae928ffba74ba3c65c8cc95cb0f5a423240f113 Merge branch into tip/master: 'ras/core'
+41aa3df15b077dd5ced41c3576483eefe7e52484 Merge branch into tip/master: 'sched/core'
+e8c809422e0371538b90bb56054d9f2d0f6e7782 Merge branch into tip/master: 'timers/cleanups'
+d8a477c48cb82510e8888fe53a0859f166f08694 Merge branch into tip/master: 'timers/core'
+06d14d2e86265fad435929c49e1785473937ccd5 Merge branch into tip/master: 'timers/vdso'
+5e49b1f1bb4ff356f181aeec710559331bb422c5 Merge branch into tip/master: 'x86/asm'
+c86c24bd9a0b9b7eab56e6a534df1f890745e705 Merge branch into tip/master: 'x86/boot'
+980b808d54afd293c448506b194b23ffb6655579 Merge branch into tip/master: 'x86/bugs'
+74980b8b46ca0b4a558a7457e42c530337f71567 Merge branch into tip/master: 'x86/build'
+9d30e292da1ac6f450dd39536942f07017d14989 Merge branch into tip/master: 'x86/cleanups'
+fc1f3b46c45f231506b76020440b4486f3dc3862 Merge branch into tip/master: 'x86/core'
+2f7d196552401ca91952f8c495ad9ae672a45d5a Merge branch into tip/master: 'x86/fpu'
+7d7899f51746e411ab366a72311e9c27fd70acb9 Merge branch into tip/master: 'x86/misc'
+24b91813e0bcd1d35bb87aad5c61c89aff288c5d Merge branch into tip/master: 'x86/platform'
+bb712edd59291ee0003471fb9ac9f6b6a086d168 Merge branch into tip/master: 'x86/sev'
 
---===============3512441903673675816==--
+--===============2808571504420602630==--
