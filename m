@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 06 Mar 2025 21:14:35 -0000
-Message-Id: <174129567556.1582977.13332479353124087394@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pratyush/linux
+Date: Thu, 06 Mar 2025 21:15:28 -0000
+Message-Id: <174129572813.1585202.1970030276972827186@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/pratyush/linux
+user: pratyush
 changes:
-  - ref: refs/heads/for-next
-    old: 8c99d622016c37a5f8daca7603afa930a0c8f434
-    new: c62f419e771f47b1baf6ff6c4feabbebee32c56e
+  - ref: refs/heads/kho
+    old: be99727b7e7907c9202390980b2b6693a9242cf7
+    new: 623af50d0eabbb2b28b7c84ce0982ac42e3b743c
     log: |
-         02a838b01b8e7c00e2efe78db06fff356a112dec spi: dt-bindings: fsl-lpspi: Add i.MX94 support
-         c62f419e771f47b1baf6ff6c4feabbebee32c56e Merge remote-tracking branch 'spi/for-6.15' into spi-next
+         329482b1fc55f3dc84c511acdc1ff7c9a66331a7 misc: introduce FDBox
+         d82544794e048faac894ddb9318451f8d477bd98 misc: add documentation for FDBox
+         556fafa072b03afb050e80cdd30b4b1154a69f2d mm: shmem: allow callers to specify operations to shmem_undo_range
+         654d01ff0582a0c20318506be6d58df932c3cec3 mm: shmem: allow preserving file over FDBOX + KHO
+         623af50d0eabbb2b28b7c84ce0982ac42e3b743c mm/memfd: allow preserving FD over FDBOX + KHO
          
