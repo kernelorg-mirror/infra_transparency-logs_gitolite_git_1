@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5146031360793858664=="
+Content-Type: multipart/mixed; boundary="===============6127813394166294632=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 06 Mar 2025 20:52:17 -0000
-Message-Id: <174129433722.1559842.11043944284122195649@gitolite.kernel.org>
+Date: Thu, 06 Mar 2025 20:52:50 -0000
+Message-Id: <174129437044.1560449.12336175681072097293@gitolite.kernel.org>
 
---===============5146031360793858664==
+--===============6127813394166294632==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,51 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 67de62470d82328b051e21aba7d08d6731b8d9e1
-    new: a38e75a017ce79e15cbd831f942ead1c34724911
-    log: revlist-67de62470d82-a38e75a017ce.txt
+    old: a38e75a017ce79e15cbd831f942ead1c34724911
+    new: 2bc287e81e6cf9b8185a05c821aa85f86b41e047
+    log: revlist-a38e75a017ce-2bc287e81e6c.txt
+  - ref: refs/heads/tip/urgent
+    old: 719ce5cc7db7b1ec8e0462ef7794a7acfc3f65e5
+    new: 8d6815da1764f9b20ba15a5d4a37185dedfc95fe
+    log: revlist-719ce5cc7db7-8d6815da1764.txt
 
---===============5146031360793858664==
+--===============6127813394166294632==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-67de62470d82-a38e75a017ce.txt
+Content-Disposition: attachment; filename=revlist-a38e75a017ce-2bc287e81e6c.txt
+
+07968b0d39b2ee1af66fae9d4458e8a2ec7f79be Merge branch into tip/master: 'perf/urgent'
+78f6d50eb9c1fcb9b5a66f07055b80d312059a6a Merge branch into tip/master: 'sched/urgent'
+8d6815da1764f9b20ba15a5d4a37185dedfc95fe Merge branch into tip/master: 'x86/urgent'
+858027e481ffef5ec5b5fa5b90226637712e6a21 Merge branch into tip/master: 'x86/merge'
+991c06e1940141dc0ef336a2642b20e45ea8d46d Merge branch into tip/master: 'irq/core'
+192a2c432454d6d5f18cf55b81158f7213e0a5b9 Merge branch into tip/master: 'irq/drivers'
+e24e3e62cdc7d7dca7bbb4c642796fd7dadb4cf6 Merge branch into tip/master: 'locking/core'
+d01526ad5d4eb2dc225207ca5d6a8c65a4d18633 Merge branch into tip/master: 'locking/futex'
+5fe26d2c9030cc5fc7730a4c47f76948ec66fb76 Merge branch into tip/master: 'perf/core'
+9340534b2a5e8f7887099abe66205b1a07447c7e Merge branch into tip/master: 'ras/core'
+cb5e1a958d42f99c05843ac08ffa42f1e37130d6 Merge branch into tip/master: 'sched/core'
+8244c0bbad12931ae618a3d35cd0a604ea275ca2 Merge branch into tip/master: 'timers/cleanups'
+2ff68b67d59f61be6bdc9e055f786cba4aab990d Merge branch into tip/master: 'timers/core'
+a46591a4f2f5d0f4361f94814491d50ee9d3da08 Merge branch into tip/master: 'timers/vdso'
+39c0705cbfc1547bb3536962c766e5480b21d1b1 Merge branch into tip/master: 'x86/asm'
+43a20fb3ba70753ffae9594d08af10b6343e975b Merge branch into tip/master: 'x86/boot'
+4e851fbe6f821a005b6ac282ba994ceb3c12e650 Merge branch into tip/master: 'x86/bugs'
+f66dcba342bbe8cb40ed2605419ae71b407e9d34 Merge branch into tip/master: 'x86/build'
+8916a64834a1e5f034dcf2a5fd25efd39bb693d5 Merge branch into tip/master: 'x86/cleanups'
+a51290d24a6d1bedf454fb701438e8de2ff6add9 Merge branch into tip/master: 'x86/core'
+aa016b67c2d4c9dd89a31eacc8cbc2021af28476 Merge branch into tip/master: 'x86/fpu'
+a772ba0cdf0f9efa566cc2bfe66476f2c4346dec Merge branch into tip/master: 'x86/misc'
+cf131bc40acb745bc9389d0707777cff4ee28fb7 Merge branch into tip/master: 'x86/mm'
+e07746068c26e25b33c5734fa4c7eb748245b416 Merge branch into tip/master: 'x86/platform'
+2bc287e81e6cf9b8185a05c821aa85f86b41e047 Merge branch into tip/master: 'x86/sev'
+
+--===============6127813394166294632==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-719ce5cc7db7-8d6815da1764.txt
 
 49f27f29446a5bfe633dd2cc0cfebd48a1a5e77f wifi: nl80211: reject cooked mode if it is set along with other flags
 5b999006e35ea9c11116ddff7e375b256421d0af wifi: mac80211: Cleanup sta TXQs on flush
@@ -92,6 +128,8 @@ ebb0f38bb47f74b29e267babdbcd2c47d5292aa8 fs/pipe: fix pipe buffer index use in F
 5872cca23a017aae01d0b2f82346907169f7aa01 Merge tag 'exfat-for-6.14-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat
 1238f0af13495e14e1f40d011b9b7b414bf387fe Merge tag 'v6.14-rc5-smb3-fixes' of git://git.samba.org/ksmbd
 f315296c92fd4b7716bdea17f727ab431891dc3b Merge tag 'net-6.14-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-a38e75a017ce79e15cbd831f942ead1c34724911 Merge branch 'linus'
+07968b0d39b2ee1af66fae9d4458e8a2ec7f79be Merge branch into tip/master: 'perf/urgent'
+78f6d50eb9c1fcb9b5a66f07055b80d312059a6a Merge branch into tip/master: 'sched/urgent'
+8d6815da1764f9b20ba15a5d4a37185dedfc95fe Merge branch into tip/master: 'x86/urgent'
 
---===============5146031360793858664==--
+--===============6127813394166294632==--
