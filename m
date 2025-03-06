@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 06 Mar 2025 16:08:10 -0000
-Message-Id: <174127729087.1301357.1797535183641330209@gitolite.kernel.org>
+Date: Thu, 06 Mar 2025 16:08:14 -0000
+Message-Id: <174127729485.1301464.4031244490056564796@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-6.14
-    old: 0eba2a7e858907a746ba69cd002eb9eb4dbd7bf3
-    new: e26f1cfeac6712516bfeed80890da664f4f2e88a
+  - ref: refs/heads/asoc-6.15
+    old: c6141ba0110f98266106699aca071fed025c3d64
+    new: 2c2eadd07e747059ccd65e68cd1d1b23ca96b072
     log: |
-         e26f1cfeac6712516bfeed80890da664f4f2e88a ASoC: cs42l43: Fix maximum ADC Volume
+         269b844239149a9bbaba66518db99ebb06554a15 ASoC: dapm: Fix changes to DECLARE_ADAU17X1_DSP_MUX_CTRL
+         2c2eadd07e747059ccd65e68cd1d1b23ca96b072 ASoC: cs42l43: convert to SYSTEM_SLEEP_PM_OPS
          
