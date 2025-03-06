@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 06 Mar 2025 08:26:21 -0000
-Message-Id: <174124958141.867487.17884839767203329831@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Thu, 06 Mar 2025 08:32:59 -0000
+Message-Id: <174124997936.872301.14744458871311266231@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 3745242ad1e1c07d5990b33764529eb13565db44
-    new: 0b27b0e4d43aff78f996abd2d60faa838e8e30b1
+  - ref: refs/heads/stable/v2.41
+    old: d9f8ee6193360b9ffdb8a2cd7804c3e816506a78
+    new: abc869421145ef9a7fe5b00813c764dbf9701892
     log: |
-         0b27b0e4d43aff78f996abd2d60faa838e8e30b1 RDMA/vmw_pvrdma: Remove unused pvrdma_modify_device
+         e75fda58966e1f67f2216085fe10e222e0d8ff08 tests: (lsns/nsfs) check test_sysinfo helper
+         abc869421145ef9a7fe5b00813c764dbf9701892 tests: (lsns/nsfs) consider the cases that lsns returns multiple paths
          
