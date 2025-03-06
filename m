@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4535120771132933278=="
+Content-Type: multipart/mixed; boundary="===============3205634997763417655=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Thu, 06 Mar 2025 08:43:11 -0000
-Message-Id: <174125059102.881426.3129061428131729605@gitolite.kernel.org>
+Date: Thu, 06 Mar 2025 08:46:43 -0000
+Message-Id: <174125080385.885203.12561889190615675299@gitolite.kernel.org>
 
---===============4535120771132933278==
+--===============3205634997763417655==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,35 +16,36 @@ repo: pub/scm/linux/kernel/git/vbabka/slab
 user: vbabka
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/slab/for-6.15/fixes-cleanups
-    old: 939c5de3c70d145d7388db1b04d75cda79297c23
-    new: 747e2cf137f44058a093d3226bf83974d9d117e7
+  - ref: refs/heads/slab/for-next
+    old: 372b24ce2712509c6c0fd20a773dc0634799ce7e
+    new: 541702a666400da90185ebae54761d67d14b16d9
     log: |
          747e2cf137f44058a093d3226bf83974d9d117e7 slub: Handle freelist cycle in on_freelist()
+         541702a666400da90185ebae54761d67d14b16d9 Merge branch 'slab/for-6.15/kfree_rcu_tiny' into slab/for-next
          
 
---===============4535120771132933278==
+--===============3205634997763417655==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1741250616 +0100
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1741250829 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1741250586-2bf43db21a9cb59253b5bf947191caf64f50e7a0
+nonce 1741250799-7a178ec5bc8eb65385a17a5a5621ab581d304835
 
-939c5de3c70d145d7388db1b04d75cda79297c23 747e2cf137f44058a093d3226bf83974d9d117e7 refs/heads/slab/for-6.15/fixes-cleanups
+372b24ce2712509c6c0fd20a773dc0634799ce7e 541702a666400da90185ebae54761d67d14b16d9 refs/heads/slab/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmfJYDgACgkQu+CwddJF
-iJo2Pgf9HfFO4cm+9t2UCRCspVBoZvU1Knrush0K6xYrWdQaIJQG44GYAr8+U7zS
-tK4a84vtQnvu3FC+bwdnOhYzDJq6xgqDvWRoEXMNn9Msj4xRdc7Ks4YLp/MNTD0w
-J4taSmd7VNpeXOghTM9oHaXXjFEbjMnCEmO//vMy4ZfYIe+kuJDCjfpgdfqHAbLd
-5cIiHTDJDVWBmuCp0LmU+nqxSX+EE58y1a/qnGGMheHOGF/CTiT7CFPozU/WPcYz
-Rh6VBiu6DP0Y2DdgZzk47dkcL1R5kzn+jQ2eNGTjXLk3bgpokrElY7VGTayOJIoY
-j77LCGMbriWz9+Fr3p+jKcrzkcWWxQ==
-=BRjB
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmfJYQ0ACgkQu+CwddJF
+iJof8Af/S0tbSFWCRc5nMeqwp47E0jpaNqzN1lE2jlykHoQe4JI1FNaG6rGw1XyM
+V7ScWSljODJKPncuZSgBAZE7mZyL+BLms0TbyzePLH1csXwccTy+H5y7xZAiSmpy
+T+DD9605IJcRkm2FIR/WVUl47hDH8TyRMJ2+LOk/4+JpLudftgg1g9e2aBn+IrzI
+hCQOB5a2J+5E8mlvFdCIU7Ef5S1SjbN7pDU3MatKVWgohcGBdEWLtAYurLR15uwI
+8Q1r72UUUaCAY38GSTW+beJkXR/zDWBuJDUqMjZ4VkMqzrwZT7ZllsOS78ewz8zx
+815fnwBEU+Bxzl9pUSDt5swMJZhNBQ==
+=bdh+
 -----END PGP SIGNATURE-----
 
---===============4535120771132933278==--
+--===============3205634997763417655==--
