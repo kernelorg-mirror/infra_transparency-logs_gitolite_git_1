@@ -1,25 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/joel.granados/linux
-Date: Thu, 06 Mar 2025 13:38:41 -0000
-Message-Id: <174126832135.1151137.13318037981653288789@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Thu, 06 Mar 2025 13:44:59 -0000
+Message-Id: <174126869924.1156259.18350613005934990251@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/joel.granados/linux
-user: joel.granados
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/jag/mv_ctltables
-    old: 22c5606143c77d61223dbc71a9aaf486d50b8d46
-    new: 2b188f8b99f160f1ab242c652d88aec31f1c5cc3
+  - ref: refs/heads/for-next
+    old: 5c6c52e604500aa187f04ea786004f9af12433e6
+    new: e06522d357155601b8a0f683aa69c7354f81244e
     log: |
-         57f191a532a399362d4de6d7baa3b425c60921bc Changes in v3: - EDITME: describe what is new in this series revision. - EDITME: use bulletpoints and terse descriptions. - Link to v2: https://lore.kernel.org/r/20250306-jag-mv_ctltables-v2-0-71b243c8d3f8@kernel.org
-         497556330b57ba4ea52ee32ef8ced146d4ee2e5b panic: Move panic ctl tables into panic.c
-         f7fdc15cbddeaeb4a222396cc0054eb26ff01140 signal: Move signal ctl tables into signal.c
-         b1452ca991ae8c26b6bbb4ae3bffb8f45ab3ff7a tracing: Move trace sysctls into trace.c
-         236232f66625615e4ea952538952742fe3c963a8 stack_tracer: move sysctl registration to kernel/trace/trace_stack.c
-         9637e7ef1320cbe72a7628fd57af610d215af340 sparc: mv sparc sysctls into their own file under arch/sparc/kernel
-         2b188f8b99f160f1ab242c652d88aec31f1c5cc3 s390: mv s390 sysctls into their own file under arch/s390 dir
+         3bf4fc44c6544f994237d8475bf56548a62011f5 dt-bindings: arm: rockchip: Add MNT Reform 2 (RCORE)
+         5324af2d029d47a39ce22ae1613e2753e5e372a2 arm64: dts: rockchip: add MNT Reform 2 laptop
+         e06522d357155601b8a0f683aa69c7354f81244e Merge branch 'v6.15-armsoc/dts64' into for-next
+         
+  - ref: refs/heads/v6.15-armsoc/dts64
+    old: 8f814d7c9f6cdffc1f5cc97637e12cd699ff9085
+    new: 5324af2d029d47a39ce22ae1613e2753e5e372a2
+    log: |
+         3bf4fc44c6544f994237d8475bf56548a62011f5 dt-bindings: arm: rockchip: Add MNT Reform 2 (RCORE)
+         5324af2d029d47a39ce22ae1613e2753e5e372a2 arm64: dts: rockchip: add MNT Reform 2 laptop
          
