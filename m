@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Thu, 06 Mar 2025 08:55:29 -0000
-Message-Id: <174125132990.894093.18363376814278198667@gitolite.kernel.org>
+Date: Thu, 06 Mar 2025 09:08:14 -0000
+Message-Id: <174125209421.903215.5293548651030123154@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,15 +11,14 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pci/pci
 user: kwilczynski
 changes:
-  - ref: refs/heads/controller/dwc
-    old: a7c7244abc43886727015f351b5ed6dceb848614
-    new: 551d177411e13fb306ed9950bbcb52f10d0b33b0
+  - ref: refs/heads/scoped-cleanup
+    old: 3c0d83dfb384442f9f54a101519a84e0a11050fb
+    new: 22802f9f8a484fa47a2849d85f94c3e87f4f859e
     log: |
-         4fbfa17f9a075593281034f566ca79cbf4930c82 PCI: dwc: Add debugfs based Silicon Debug support for DWC
-         d20ee8e2dbd6c41a1e48ac38c352689b1d3cbbe4 PCI: dwc: Add debugfs based Error Injection support for DWC
-         27491ac2ccd7e111a9c058e7654d372cbfcdad4c PCI: dwc: Add debugfs based Statistical Counter support for DWC
-         f0f3044d2246495e01871212fc7ec5e206555338 PCI: dwc: Add debugfs property to provide LTSSM status of the PCIe link
-         20bbb083bbc9d3f8db390f2e35e168f1b23dae8a PCI: Add Rockchip Vendor ID
-         046e9b981d75df6b4ce8c42136e89cda8b6e9c14 PCI: dwc: Add Rockchip to the RAS DES allowed vendor list
-         551d177411e13fb306ed9950bbcb52f10d0b33b0 PCI: dwc: ep: Return -ENOMEM for allocation failures
+         9a0f3c50bd51bd60cedbfeb37b55368fcb70b1b6 PCI: kirin: Use helper function for_each_available_child_of_node_scoped()
+         e4adc9faaa32b6494f267ae56a83783f1b8c3a40 PCI: kirin: Tidy up _probe() related function with dev_err_probe()
+         e60dd93506a13f4ca70bfe1404ca9dace6b6cfe0 PCI: mediatek: Use helper function for_each_available_child_of_node_scoped()
+         5ffc53471dc9b91835e46b6f98fad690497be289 PCI: mt7621: Use helper function for_each_available_child_of_node_scoped()
+         a5df0b69b114589d53d7f6f54faad6a43cefecdd PCI: apple: Use helper function for_each_child_of_node_scoped()
+         22802f9f8a484fa47a2849d85f94c3e87f4f859e PCI: tegra: Use helper function for_each_child_of_node_scoped()
          
