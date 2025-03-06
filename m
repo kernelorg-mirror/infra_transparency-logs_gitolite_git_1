@@ -1,56 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============2511590905859209177=="
+Content-Type: multipart/mixed; boundary="===============8652106222829216929=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 06 Mar 2025 15:54:40 -0000
-Message-Id: <174127648042.1289168.9826243236110968172@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Thu, 06 Mar 2025 15:55:33 -0000
+Message-Id: <174127653304.1291447.577448247527453532@gitolite.kernel.org>
 
---===============2511590905859209177==
+--===============8652106222829216929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: a6aa8ea5b77749ff5a47e1b51672a55a0b1141f2
-    new: 825b2697a563704ffc79f6a1d8b3095dabf25463
+  - ref: refs/heads/usb-linus
+    old: c7c1f3b05c67173f462d73d301d572b3f9e57e3b
+    new: b13abcb7ddd8d38de769486db5bd917537b32ab1
     log: |
-         825b2697a563704ffc79f6a1d8b3095dabf25463 assign some more 6.13.2 cve ids
+         ff712188daa3fe3ce7e11e530b4dca3826dae14a usb: quirks: Add DELAY_INIT and NO_LPM for Prolific Mass Storage Card Reader
+         b13abcb7ddd8d38de769486db5bd917537b32ab1 usb: typec: ucsi: Fix NULL pointer access
          
 
---===============2511590905859209177==
+--===============8652106222829216929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1741276508 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1741276479-73b4eed955f05502fe70bafcd94779deb54ffdcf
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1741276560 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1741276530-6c8bbddc9d6986bf79db16d700267bacd3f309ef
 
-a6aa8ea5b77749ff5a47e1b51672a55a0b1141f2 825b2697a563704ffc79f6a1d8b3095dabf25463 refs/heads/master
+c7c1f3b05c67173f462d73d301d572b3f9e57e3b b13abcb7ddd8d38de769486db5bd917537b32ab1 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfJxV0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+m3cQAI9IEuKpBJl1WGGw62sN
-s1vllXCAYZcGzb/aemKNNL/76V0MSaQ1d33sBRABV2vX/4I1ixIzZyRZhEvX/eQA
-kSKKoFVq7FhFlaNrA0rdkA92b8DlQKTG8P16IvHBtrMxLcg0XYidKJ0VaVK6f3Ik
-k59nU5s8tlqbuS4K3dnMUiv5stRUuzpjpnoOn1LcmeBqej4ewZmilg46J2NACTcf
-7ytuL9wo1BOgY93VIaAM+tbPrGfYVtibRxvCYilMM3jlsLEyM78ub9mWW1QRxVrK
-U9V64WMVCUgyVQigVxKnsn5npHxIfy45vfu1F2fdHXIoFo9VoecTMJBiD/WSvFR5
-XWlouLQVTK4F0inaUyMWucmKRB7EA8+hlakaeZRpRqvbnXIDNScdFI1ZYvpC64FX
-zHD6Wf78Wx665fcRTFmRehLPtaHn422y2RyltS9knr8bzaaWk781VqVtcRQ8LD9O
-EXwUxcHUCT2v7SJovN7sA7ZUGiib2BLKIx4ZZJOtBPda0jpeA0TJHWjVih67i8SJ
-+NH2vRXhTSc3rXHvWJYZ3/zdkilfchIE2/aIVygRNcbxsJX33YQeKBmXNs0DvDYk
-IDv/o9mvFHyIx+ogjPdCPmcAiog+hOZ1zbPcdYL+GEw+qfp26iyzdDXFhnM3XWlr
-tgfxUSeZX8REQ7ashx7kW+/g
-=QSi8
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfJxZAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bc0QAMUruo2TZi2G4pXaAECK
+REe+7NK4Vw3vgUhUnt7rUyuVJLKlbbW2ZICp6k3v8QKRM0wFDp2UXhD+6s0Wbjv6
+TMge/p/+Ds1xeWCHJlAiEH+Bpky1CMt8IfH96qn88zv2AfWjnpsrMqY4VgOhTf3M
+48DJfbm5bGXB2t20yY+nSkirowJY/kiaXgXcvNN90XdO3sNycRR+nYF59uQG7Rmr
+dphG+WJn6l3c3kHQuJSldD/AB32+UuvCv6fFESNztBIlfZGj2afe39jDUy2k+RSq
+e8Ap8K3Z0PJY5PXt7iEGlSLekfYC6mWsA95SXFuFCTJuaICgjKFlAtk8arODob+D
+lWTszGtR71M7smUPepvjfhwlG9ofyZ/iWWV/fJ34b6r+5K8FBC70nulGhuKJbjDu
+imOiQf59K1UBbHC8/+c55/k7JmhUHtzWBHAJjxija2dG+Ecl2ZHmxxk8YGWpiMoV
+mKUZI8AZ8ZsxBX78Zk20veGTRf7O+2hkz+qVWKGPbiqw2yUGhlnY21X4xcem05I4
+7xjDqfqUqWc3XNcXIlH8gDalF6fGRNzaJUU69ksyWrestfMofaGk2OgdxfkSCYcT
+pYnPSFjG4XbDqKdAq06a4OUf1ssBiMpxQpVCOugeQ8tPfm+LsiAWGMGQIl1sCCib
+LJpStrJfFeC/tB7Z6k4aY7Nc
+=X7zS
 -----END PGP SIGNATURE-----
 
---===============2511590905859209177==--
+--===============8652106222829216929==--
