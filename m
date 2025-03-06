@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 06 Mar 2025 16:09:38 -0000
-Message-Id: <174127737874.1305648.2578248727070678155@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux
+Date: Thu, 06 Mar 2025 16:12:08 -0000
+Message-Id: <174127752823.1308651.11768871671042282720@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/shuah/linux
+user: shuah
 changes:
-  - ref: refs/heads/for-next
-    old: 1e60f07d5ce60da69a237156bca3ed6d399fd495
-    new: 0519037ac9e4a163685ee64f11c59f7f9a9cef31
+  - ref: refs/heads/vimc
+    old: d34036b7a0d4aca21d7b830c67f218f0efd44dec
+    new: d6813eb9c3de01307801f253d89d777b4669a0d0
     log: |
-         7dfc9bdde9fa20cf1ac5cbea97b0446622ca74c7 spi: stm32-ospi: Fix an IS_ERR() vs NULL bug in stm32_ospi_get_resources()
-         0519037ac9e4a163685ee64f11c59f7f9a9cef31 Merge remote-tracking branch 'spi/for-6.15' into spi-next
+         d6813eb9c3de01307801f253d89d777b4669a0d0 media: vimc: skip .s_stream() for stopped entities
          
