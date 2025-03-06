@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mdraid/linux
-Date: Thu, 06 Mar 2025 14:34:35 -0000
-Message-Id: <174127167597.1207135.3212895288200438402@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Thu, 06 Mar 2025 14:34:55 -0000
+Message-Id: <174127169512.1207514.2073404516165886622@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mdraid/linux
-user: yukuai
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/md-6.15
-    old: 6130825f34d41718c98a9b1504a79a23e379701e
-    new: 3db4404435397a345431b45f57876a3df133f3b4
+  - ref: refs/heads/master
+    old: 5871b3d1c157c3ed84a1738615bb84cf9c9189d2
+    new: e1799e0d8677793c26ed5c6a74278be12b4c8e87
     log: |
-         3db4404435397a345431b45f57876a3df133f3b4 md/raid10: wait barrier before returning discard request with REQ_NOWAIT
+         e1799e0d8677793c26ed5c6a74278be12b4c8e87 man/io_uring_prep_epoll_wait: add man page
          
