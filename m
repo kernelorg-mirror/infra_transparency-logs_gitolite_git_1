@@ -1,44 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============0862830163439960999=="
+Content-Type: multipart/mixed; boundary="===============4371270868679916568=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Thu, 06 Mar 2025 19:25:10 -0000
-Message-Id: <174128911019.1485828.7167137043488790815@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Thu, 06 Mar 2025 19:27:47 -0000
+Message-Id: <174128926703.1487300.15109183503832558010@gitolite.kernel.org>
 
---===============0862830163439960999==
+--===============4371270868679916568==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/master
-    old: 7f0e9ee5e44887272627d0fcde0b19a675daf597
-    new: 1238f0af13495e14e1f40d011b9b7b414bf387fe
-    log: revlist-7f0e9ee5e448-1238f0af1349.txt
+  - ref: refs/heads/for-next
+    old: 1d833093466f2696924928a623aa805d77906c08
+    new: dd633bdf9dbf5d2d7c4b2eddb4686f26f43a5854
+    log: |
+         4c57930f68d90e0d52c396d058cfa9ed8447a6c4 soc: samsung: include linux/array_size.h where needed
+         dd633bdf9dbf5d2d7c4b2eddb4686f26f43a5854 Merge branch 'next/drivers' into for-next
+         
 
---===============0862830163439960999==
+--===============4371270868679916568==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7f0e9ee5e448-1238f0af1349.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-4dd541f9d9e4d8cdfa9797e68d893b0c27e4c46c MAINTAINERS: update email address in cifs and ksmbd entry
-d6e13e19063db24f94b690159d0633aaf72a0f03 ksmbd: fix out-of-bounds in parse_sec_desc()
-e2ff19f0b7a30e03516e6eb73b948e27a55bc9d2 ksmbd: fix type confusion via race condition when using ipc_msg_send_request
-84d2d1641b71dec326e8736a749b7ee76a9599fc ksmbd: fix use-after-free in smb2_lock
-e26e2d2e15daf1ab33e0135caf2304a0cfa2744b ksmbd: fix bug on trap in smb2_lock
-62e7dd0a39c2d0d7ff03274c36df971f1b3d2d0d smb: common: change the data type of num_aces to le16
-1b8b67f3c5e5169535e26efedd3e422172e2db64 ksmbd: fix incorrect validation for num_aces field of smb_acl
-aa2a739a75ab6f24ef72fb3fdb9192c081eacf06 cifs: fix incorrect validation for num_aces field of smb_acl
-6697f819a10b238ccf01998c3f203d65d8374696 exfat: fix just enough dentries but allocate a new cluster to dir
-9da33619e0ca53627641bc97d1b93ec741299111 exfat: fix soft lockup in exfat_clear_bitmap
-fda94a9919fd632033979ad7765a99ae3cab9289 exfat: short-circuit zero-byte writes in exfat_file_write_iter
-13940cef95491472760ca261b6713692ece9b946 exfat: add a check for invalid data size
-5872cca23a017aae01d0b2f82346907169f7aa01 Merge tag 'exfat-for-6.14-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat
-1238f0af13495e14e1f40d011b9b7b414bf387fe Merge tag 'v6.14-rc5-smb3-fixes' of git://git.samba.org/ksmbd
+certificate version 0.1
+pusher krzk@kernel.org 1741289294 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1741289264-24277395ab534698d5c89400e200b242555d66c9
 
---===============0862830163439960999==--
+1d833093466f2696924928a623aa805d77906c08 dd633bdf9dbf5d2d7c4b2eddb4686f26f43a5854 refs/heads/for-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmfJ904QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD15pyD/481na4Zv8EdMn+GLIbYUgg5xSAxCqqgw+M
+IwFpspMsLAAj/ucAV9vgJFeFkfBj2wA66TNjck+AuZ57N3gUMU2ur/eEQ2qbDXBr
+j761xxsg5D6rmOCAMz4im9T4OYJmczEXmFnTyThmRXLXYG1HT0hWE7Xf8zrzkBdt
+Y5IFloFzFoCRZcNH10EawXhU2tHN1NqhNmIsmweGh0ui7UnHP708u+iPH+LRODwE
+kGVGxnOAPO7PZfVLMmCw6HIAVUlUgJnwdJh8hDmxnN7WlP/DVNf+jZAmfH/gkwut
+/dZpiiZ81euRme6K6/0fKd/dgxR5O0x0bBCVTjpAfjDok1i83IJQOUWt4zYdyKfa
+ic8IdfuxALJ4O3duHM2ikMfifV4+VhLDnRW/Z726m3JSb5yiS0wZqc63YgimuCAA
+2UgmQI9/6Tl5DHb+g9vNCg72eCo4WTJjaOGZVz335wMPHF++RZ+SBcDjkekfcKS2
+6qnJc5xQuCpkyhQjm5tOpNAPDOEM6DBRhH29qTwn1ojoSbfNMMPgkQevLHK4E7xx
+iG5iag+XNpN6YbbwbL4tdIfX3ouwQV8JRl8Rk8hZx4Y522fwTf0L0DPWZ0PH83Kl
+quJU+MKF3GP7PPW2i1x0IL6Gn84YyUUYLhsfCmQbTpFRISRzGZZbm1cCbbFlAMT/
+TLFGoVbNDA==
+=jqtm
+-----END PGP SIGNATURE-----
+
+--===============4371270868679916568==--
