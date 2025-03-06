@@ -1,58 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0925286662164313618=="
+Content-Type: multipart/mixed; boundary="===============2404947530752866866=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 06 Mar 2025 16:08:44 -0000
-Message-Id: <174127732490.1302671.13856165425504331569@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Thu, 06 Mar 2025 16:08:51 -0000
+Message-Id: <174127733166.1303031.10907675120361323761@gitolite.kernel.org>
 
---===============0925286662164313618==
+--===============2404947530752866866==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/security/vulns
+user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.14
-    old: 0eba2a7e858907a746ba69cd002eb9eb4dbd7bf3
-    new: e26f1cfeac6712516bfeed80890da664f4f2e88a
+  - ref: refs/heads/master
+    old: 8a97b6953f9be9a8740f85af5c006b0216c00b1c
+    new: 9bcbf431fbfe399b3e7e336ec4960ca1a475d5b3
     log: |
-         e26f1cfeac6712516bfeed80890da664f4f2e88a ASoC: cs42l43: Fix maximum ADC Volume
-         
-  - ref: refs/heads/asoc-6.15
-    old: c6141ba0110f98266106699aca071fed025c3d64
-    new: 2c2eadd07e747059ccd65e68cd1d1b23ca96b072
-    log: |
-         269b844239149a9bbaba66518db99ebb06554a15 ASoC: dapm: Fix changes to DECLARE_ADAU17X1_DSP_MUX_CTRL
-         2c2eadd07e747059ccd65e68cd1d1b23ca96b072 ASoC: cs42l43: convert to SYSTEM_SLEEP_PM_OPS
+         9bcbf431fbfe399b3e7e336ec4960ca1a475d5b3 actually add the new cve entries.
          
 
---===============0925286662164313618==
+--===============2404947530752866866==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1741277352 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1741277322-48dc660d98e49682a83bdc4b38588aaaa0c543d8
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1741277360 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1741277331-ab6010e2ea68cb33ca08da6a6c6e59932198a28f
 
-0eba2a7e858907a746ba69cd002eb9eb4dbd7bf3 e26f1cfeac6712516bfeed80890da664f4f2e88a refs/heads/asoc-6.14
-c6141ba0110f98266106699aca071fed025c3d64 2c2eadd07e747059ccd65e68cd1d1b23ca96b072 refs/heads/asoc-6.15
+8a97b6953f9be9a8740f85af5c006b0216c00b1c 9bcbf431fbfe399b3e7e336ec4960ca1a475d5b3 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmfJyKgACgkQJNaLcl1U
-h9BLHAf9HiAsau7kRy7VhfVAnrjsa9rlSEu1WMT4xwQyYdEy18tWmFoHpqS6mumT
-0U9LdBdV9LUuMp3kyzhYKpU2dgsYLpncU0SWAKjGTJNrVJA/XxULnlEYcwXbB2UQ
-EkIFd8FJT7P9lN9HNfb9IMJ0iWErY9UK9yVU8cVvjdYwqe7+tFsEgD5Gd8skgYI/
-cbnfPWVpsFMSf/EiySspLl/L4miWNBI/Msq/MfmpeLuWtRbx5Dq9EuvG1hlx8RuK
-Rf48eseAN+pOrJBYpZ3ANC98xjWuy2vKD3yiKRtdAMLh5jvRWQe22qGmkVfyAtZ1
-bTXQY9M2Cbx9BPuWsgfFE321WMSEJQ==
-=64Gx
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfJyLAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZlMQAMblqKHLCRwcVMMN+cOw
+KC+Ypj22ilE/aQX+u5Hc9MRoPKiDsz6k+2pKTpuemI0eXubIjVQQv6+lHpWv7kdW
+Y0j7LKn/lDX9JwA8OEuAeY3aC9bZlfoEtB+FQKjyTrYD/5j0Tq3sMNSK+lov/xhq
+V7z5detuAH4UZes4YxWGrk27ureioOxE9qyewSgvW34ZWe2BY2BWvThQaMCWPga9
+9uhXiIRJMdx3zB+quz4c+VLIcpbBZuXX9u6Hqt3J1/SYmg9VJOfm7FzDVQZCujUp
+gDn8v2y2IeC4ea791qdhbJpmqV2idwVKvvzuiX+7caOBVJGHFLQCe9z1hTNWThQU
+xgjzpq2GCN7HAwfojgdceAa0leNo+elzlqx+AAtD6y/i25Y54s+RSfCa+xfHOABP
+QsCvrB3gja0n/8tH71OQpO7BabV9sJvUIS3Ye+poZFAmb46KTM1M5Y7Mn0ctMlRL
+0Nz4sjjzyMpwV5MkR2vG/lOvh+tN8igpU/xaR16gEE/YDJkW12IFWCKx4xcqwPmV
+D5CZ85Ka2q5J+Gnia1TMviTm4Inss3M0X+eNcCHx6xPnZdjYsXcHJwz/cpoAaSCc
+ValqnrIhuyk7b7xotZRwof1JUPcGEjg3B85X8D8H6Z3oPkZGX9m9LtOh51Q1FFnS
+ubz8hc8MJzrOR21/wBSxPcXE
+=UlOQ
 -----END PGP SIGNATURE-----
 
---===============0925286662164313618==--
+--===============2404947530752866866==--
