@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2280905588456500532=="
+Content-Type: multipart/mixed; boundary="===============7680256439309509796=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wpan/wpan-next
-Date: Thu, 06 Mar 2025 20:58:46 -0000
-Message-Id: <174129472609.1566634.9101187471959325308@gitolite.kernel.org>
+Date: Thu, 06 Mar 2025 20:58:50 -0000
+Message-Id: <174129473066.1566882.2903428068940053197@gitolite.kernel.org>
 
---===============2280905588456500532==
+--===============7680256439309509796==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wpan/wpan-next
 user: sschmidt
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/main
     old: 3e5908172c05ab1511f2a6719b806d6eda6e1715
     new: a5d4d993fac4925410991eac3b427ea6b86e4872
     log: revlist-3e5908172c05-a5d4d993fac4.txt
 
---===============2280905588456500532==
+--===============7680256439309509796==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ f130a0cc1b4ff1ef28a307428d40436032e2b66e inet: fix lwtunnel_valid_encap_type() l
 20629a48d50ad98cb9376dedeec1e98aff092ad9 ieee802154: ca8210: Switch to using gpiod API
 a5d4d993fac4925410991eac3b427ea6b86e4872 dt-bindings: ieee802154: ca8210: Update polarity of the reset pin
 
---===============2280905588456500532==--
+--===============7680256439309509796==--
