@@ -1,35 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 06 Mar 2025 06:58:17 -0000
-Message-Id: <174124429741.794738.11456349476295472520@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Thu, 06 Mar 2025 07:04:45 -0000
+Message-Id: <174124468587.800176.12325502235683699596@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/master
-    old: b34b5b66b4bee1e87f557e1468fd7bcd83f12a02
-    new: f7a8b18e67c203b94ec0144916a561fdf8fa71ad
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 957d194163bf983da98bf7ec7e4f86caff8cd0eb
+    new: 41453107bfc3008302c2b98cc01da55890235b77
     log: |
-         73bf2b03845674de74a9de01b2244dabd907965c foo
-         0b273e456c341a0c672358f61e7f66870eecff2f foo
-         e7657be9194946c2f43ccdc1c7ab432c6d36dc0e foo
-         34d2c668be2fc2e752ec7c01a34f44665e0ff77b foo
-         5dbd002e7616d95006d7359389382d2820553d35 foo
-         882b6e915ecce87f977e3d35139b3b0355537d5b foo
-         c789744503eb8473d524eedd441117749720c4d7 foo
-         a03f1da527bc7dcf139f5396f3dd4e49bf8f7fe7 foo
-         750ed8b699f0a8861412544c604b943e35c83716 foo
-         c22991f82f2fd6bca4a69b639764c92031eef831 foo
-         ac98c643719945384f5f385412dcf1d78fc6ea2b foo
-         f5f42c98e27f5fb7f9924ce14a43257d08df36a6 foo
-         d393d174d60ab4b552b5e0e1ebe705235ab3744d foo
-         1fc4d485921a646e6b10135f6959c662d380ee4f foo
-         67f79f3fc5fc19601396d6cbffd74b4107e6645b foo
-         a1d63398060ba7113a76defcbd8b2486d1d2a559 foo
-         f7a8b18e67c203b94ec0144916a561fdf8fa71ad foo
+         74fb903b212925ca47c0d1bc3d37b320a22b6264 perf script: Fix output type for dynamically allocated core PMU's
+         99deaf5578cd768fa76363a598f6865fa6ecc891 perf maps: Introduce map__set_kmap_maps() for kernel maps
+         25d9c0301d36f4d80eb8bc8211e46900f177daf2 perf maps: Set the kmaps for newly created/added kernel maps
+         f7a46e028c394cd422326caa7a2ad6ba0cd87915 perf machine: Fixup kernel maps ends after adding extra maps
+         0d11fab32714a2da9038554d25a7b138802333a1 perf maps: Fixup maps_by_name when modifying maps_by_address
+         e0e4e0b8b7fabd8c214b838b8cb9a14ac618f16f perf maps: Add missing map__set_kmap_maps() when replacing a kernel map
+         41453107bfc3008302c2b98cc01da55890235b77 perf machine: Fix insertion of PERF_RECORD_KSYMBOL related kernel maps
          
