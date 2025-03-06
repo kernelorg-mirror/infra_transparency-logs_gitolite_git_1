@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Thu, 06 Mar 2025 09:44:21 -0000
-Message-Id: <174125426161.936795.16222603325018875208@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 06 Mar 2025 09:50:10 -0000
+Message-Id: <174125461095.943316.7997932774823365150@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/tags/vfs-6.14-rc6.fixes
-    old: 0000000000000000000000000000000000000000
-    new: d69546a70b2514bae50c40568014df4dccb241dd
+  - ref: refs/heads/main
+    old: cf7ee25e70c6edfac4553d6b671e8b19db1d9573
+    new: 0e7633d7b95b67f1758aea19f8e85621c5f506a3
+    log: |
+         0e7633d7b95b67f1758aea19f8e85621c5f506a3 net: ipv6: fix dst ref loop in ila lwtunnel
+         
