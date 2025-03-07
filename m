@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2657508284701985434=="
+Content-Type: multipart/mixed; boundary="===============2130339749426531633=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 07 Mar 2025 22:50:08 -0000
-Message-Id: <174138780860.3184475.14498783294537119@gitolite.kernel.org>
+Date: Fri, 07 Mar 2025 22:51:24 -0000
+Message-Id: <174138788416.3185445.6094165678748789267@gitolite.kernel.org>
 
---===============2657508284701985434==
+--===============2130339749426531633==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,48 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 033db38f25b396b615fcdd42d319270513d5ceed
-    new: a8124f44043ca260dc274ba94e2cdd1c96d503a7
-    log: revlist-033db38f25b3-a8124f44043c.txt
+    old: a8124f44043ca260dc274ba94e2cdd1c96d503a7
+    new: acf37af9e1d689c0e941a27b2f89c5fe957caa7b
+    log: revlist-a8124f44043c-acf37af9e1d6.txt
+  - ref: refs/heads/tip/urgent
+    old: 06d8f2e24331284eaf5f100794dcc0f5861a2dd7
+    new: 09d77941ca2ae402970d1ad2396094667380eafc
+    log: revlist-06d8f2e24331-09d77941ca2a.txt
 
---===============2657508284701985434==
+--===============2130339749426531633==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-033db38f25b3-a8124f44043c.txt
+Content-Disposition: attachment; filename=revlist-a8124f44043c-acf37af9e1d6.txt
+
+09d77941ca2ae402970d1ad2396094667380eafc Merge branch into tip/master: 'x86/urgent'
+8128639166a6c27766ff882e049a8a260efb348d Merge branch into tip/master: 'x86/merge'
+6186626db2369770a8d9347e29728161b3e93885 Merge branch into tip/master: 'irq/core'
+f0d458100818cab87b7c01370ef194af25082129 Merge branch into tip/master: 'irq/drivers'
+7e1f768958cb3a64b5e47120b262643928c8eb1f Merge branch into tip/master: 'locking/core'
+39ca1503736f2d729ef9cc2e8b5779b51832a524 Merge branch into tip/master: 'locking/futex'
+f60c8b7ebcb0666cd7dd6343847d8286dd3c27f2 Merge branch into tip/master: 'perf/core'
+bf327323f3ef48840e91fbb38a6bd5d357b3ef6d Merge branch into tip/master: 'ras/core'
+cabfd683246b5d75c2aed92b900db4928ce15e6c Merge branch into tip/master: 'sched/core'
+e515f339ceecabc727dd1a69eecdce13cc969d17 Merge branch into tip/master: 'timers/cleanups'
+184b6d309edf8d180e7925c66df71d1027b468aa Merge branch into tip/master: 'timers/core'
+a7eac654df18b83fa5d9f61338dd56acc21bca3d Merge branch into tip/master: 'timers/vdso'
+64dc71f13f283aab0c165fb3bfe55c4098450553 Merge branch into tip/master: 'x86/asm'
+e5e19031c79de6d4b17388d0c998f7abac874be4 Merge branch into tip/master: 'x86/boot'
+1dfaa22bb140ddcc624bc5ea6cbb77227c91ad0b Merge branch into tip/master: 'x86/bugs'
+0aaa4c1714c060925f13809d2641163813450bad Merge branch into tip/master: 'x86/build'
+2dbb55be43bbce46ee68ac1c981e828431767907 Merge branch into tip/master: 'x86/cleanups'
+5c8b9081cc4ba7d15268ed55558af9492236ab8d Merge branch into tip/master: 'x86/core'
+f2b86c823ffda68bf7efa030ac3919b0df806e1c Merge branch into tip/master: 'x86/fpu'
+79c21718134e08569f6a591b36c29f9a12d333bb Merge branch into tip/master: 'x86/misc'
+77678c1caebd71ab531675666436fa0b0264e091 Merge branch into tip/master: 'x86/platform'
+acf37af9e1d689c0e941a27b2f89c5fe957caa7b Merge branch into tip/master: 'x86/sev'
+
+--===============2130339749426531633==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-06d8f2e24331-09d77941ca2a.txt
 
 39ec9eaaa165d297d008d1fa385748430bd18e4d coredump: Only sort VMAs when core_sort_vma sysctl is set
 8c1624b63a7d24142a2bbc3a5ee7e95f004ea36e nvme-tcp: fix possible UAF in nvme_tcp_poll
@@ -78,6 +111,8 @@ ca57b5bfa214063a109ae9bc85862ce3ed155027 Merge tag 'nvme-6.14-2025-03-05' of git
 35d99c68af40a8ca175babc5a89ef7e2226fb3ca btrfs: fix a leaked chunk map issue in read_one_chunk()
 391b41f983bf7ff853de44704d8e14e7cc648a9b gpio: rcar: Fix missing of_node_put() call
 e7112524e5e885181cc5ae4d258f33b9dbe0b907 block: Name the RQF flags enum
+ac7c06acaa3738b38e83815ac0f07140ad320f13 virt: sev-guest: Allocate request data dynamically
+3e385c0d6ce88ac9916dcf84267bd5855d830748 virt: sev-guest: Move SNP Guest Request data pages handling under snp_cmd_mutex
 2a405b36a6418e9a9e07314c90c14ebe370ed79b Merge tag 'sound-6.14-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 8aed61b8334e00f4fe5de9f2df1cd183dc328a9d Merge tag 'platform-drivers-x86-v6.14-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 1222390d138d1f375fe28a9a052780009d2ce6ef Merge tag 'gpio-fixes-for-v6.14-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
@@ -91,6 +126,6 @@ d53276d2928345f68a3eb7722a849fb4a0aa2ad0 Merge tag 'io_uring-6.14-20250306' of g
 dd047efbe0e086f6ea82774cb239ec4c64a86d76 Merge tag 'execve-v6.14-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 d4fd25b6f883db41194e1760041560779d412d98 Merge tag 'acpi-6.14-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 21e4543a2e2f8538373d1d19264c4bae6f13e798 Merge tag 'slab-for-6.14-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
-a8124f44043ca260dc274ba94e2cdd1c96d503a7 Merge branch 'linus'
+09d77941ca2ae402970d1ad2396094667380eafc Merge branch into tip/master: 'x86/urgent'
 
---===============2657508284701985434==--
+--===============2130339749426531633==--
