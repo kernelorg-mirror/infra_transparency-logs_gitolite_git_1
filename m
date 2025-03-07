@@ -1,45 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5404867641968424190=="
+Content-Type: multipart/mixed; boundary="===============2552158594376352341=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Fri, 07 Mar 2025 15:56:07 -0000
-Message-Id: <174136296723.2621165.10835373714749761292@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 07 Mar 2025 15:57:14 -0000
+Message-Id: <174136303479.2621946.14125967348563542094@gitolite.kernel.org>
 
---===============5404867641968424190==
+--===============2552158594376352341==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: 5f5262b46b823cfcfdf224b1b6a5ba3027453ea1
-    new: bbd86bed1f2e5487286da9fdfede0567c878a8c1
-    log: revlist-5f5262b46b82-bbd86bed1f2e.txt
+  - ref: refs/heads/master
+    old: 80d46353c91421535e6eb2deed443f23000ae038
+    new: a6129285f8982ea67654f87aa61f6d0f875e0d61
+    log: |
+         a6129285f8982ea67654f87aa61f6d0f875e0d61 Linux 6.1.130
+         
 
---===============5404867641968424190==
+--===============2552158594376352341==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5f5262b46b82-bbd86bed1f2e.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-d6a783e87d391a9f299963301613a3756a19ae31 NFSD: OFFLOAD_CANCEL should mark an async COPY as completed
-128d5f8210b335154c3ec64d7a8cf4929c586de8 NFSD: Shorten CB_OFFLOAD response to NFS4ERR_DELAY
-952d99a6c659cfbae43f2b62e10e7eff0ab2363d NFSD: Implement CB_SEQUENCE referring call lists
-1ce0c23341cd76dd5040594bf47cbaf7c7e8c212 NFSD: Implement CB_SEQUENCE referring call lists
-2fbae5956fae3c0ac0aabefd2b92fa3fca8a091e NFSD: Record each NFSv4 call's session slot index
-1fdd3999ca5ba0496286b81ad9faa2479d19c475 nfsd: reorganize struct nfs4_delegation for better packing
-054ae8e06d9f3a1482505411e7ef02896488eb69 nfsd: remove unneeded forward declaration of nfsd4_mark_cb_fault()
-d70d831c423e15559968231b833bdc20303fb686 nfsd: remove obsolete comment from nfs4_alloc_stid
-e7aabf2fc47893f6e2abd0b7d447ce6f0701b709 nfsd: use a long for the count in nfsd4_state_shrinker_count()
-a1800030149222c5c40fbf7d473d87922db97c7c sysctl: Fixes nsm_local_state bounds
-69edfcac8cdb5e4f48e2d49ee7b0d6a9b8310c77 sunrpc: update nextcheck time when adding new cache entries
-811132572a8aafe84e0a60a5bdd99c2c1810eacb sunrpc: fix race in cache cleanup causing stale nextcheck time
-9683134862b8eeac82ea025dcc5ec6203ccd35b3 NFSD: Offer write delegation for OPEN with OPEN4_SHARE_ACCESS_WRITE
-88956122b221b6861892d8896272d917b71f1bd1 NFSD: unregister filesystem in case genl_register_family() fails
-bbd86bed1f2e5487286da9fdfede0567c878a8c1 NFSD: fix race between nfsd registration and exports_proc
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1741363063 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1741363032-40547b3d3ebcc223a01bb25957543ee53dbab755
 
---===============5404867641968424190==--
+80d46353c91421535e6eb2deed443f23000ae038 a6129285f8982ea67654f87aa61f6d0f875e0d61 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfLF3cbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+204QAKlqmSpN/x/KvdAFg3Cs
+kD724ofx2opW5wwXOK06kGcOwArTxzbsnDhzwVxO4QjpZp/FGqflbdn902BAdYWF
+mOUMBTlimvbbY+g63JpoFpsOmbUSiHA0CYFfKa3EfImKgvnE9KloSRcwk6u4s8Kn
+6eWawANA1o/zQCxGWCrvXxu+R+HmGaqJxaHg7o0t32feREB+KkluDVcucGw9bxUg
+sD4ifXogPbQThZfVOuyaZazMsojWGrYnTNZECHJCYBG3GElDAmRNbO89YrWG+L+b
+yefrEIk/D9KYRnNFZ8ueNl+a0m63WnjMCDtPKb7eXc2tomk2E31XZq1fxaj3bhYO
+CNivSGr5Zf5l2mumNbLbuIs51qV5CtEmZLRc6jFSV+kIOaTvySWE1yA1gszAoii8
+tS1oZ78qt4COUNzXXR3LsCX+r3IDeVZo8WP+dXBhEVb2e4+TAetc5qRNX5lfPhGS
+3v22gor/Kt1gCIWkEjL9DZmrMRDIGNhCvWJhLK/C1XZVsbbggZNtCO3+FSuAbQ39
+5dQ8ij2/aMn1ie6O3QRysogiL8QqHXw/IEf5U0JEYLfZJeX4RciSCWd72o/W6+zj
+gONuPrvFe39wYNhiC8yOfyS0zP1Ultu8rcAOtscu0M/i4M+ezu/xyR3Nq1svqdzv
+FOQKzf6cY6jmaG36ByNvR+bl
+=VS3a
+-----END PGP SIGNATURE-----
+
+--===============2552158594376352341==--
