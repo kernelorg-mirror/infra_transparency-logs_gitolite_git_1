@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 07 Mar 2025 12:23:57 -0000
-Message-Id: <174135023788.2344007.7194880255405387801@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Fri, 07 Mar 2025 12:28:53 -0000
+Message-Id: <174135053305.2348129.14393044769531798218@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/tags/sched-urgent-2025-03-07
+  - ref: refs/tags/gpio-fixes-for-v6.14-rc6
     old: 0000000000000000000000000000000000000000
-    new: 4f059acc4c2443e4bcb732a934222fcbb085aa5d
+    new: 5088179671dc85cc16c98f6b91b208fe0802f661
