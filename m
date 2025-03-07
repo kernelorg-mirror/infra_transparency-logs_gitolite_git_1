@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
-Date: Fri, 07 Mar 2025 04:36:52 -0000
-Message-Id: <174132221286.1959761.3573299765017004250@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
+Date: Fri, 07 Mar 2025 04:40:52 -0000
+Message-Id: <174132245202.1963612.11878048934368550970@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kmod/kmod
-user: demarchi
+repo: pub/scm/linux/kernel/git/wbg/counter
+user: wbg
 changes:
-  - ref: refs/heads/master
-    old: ec4d901d53aa311ab1c96b48c584256c66070ae1
-    new: 9cb87e2d3a21ef840096a49838892771483496c2
+  - ref: refs/heads/counter-current
+    old: 8744dcd4fc7800de2eb9369410470bb2930d4c14
+    new: c0c9c73434666dc99ee156b25e7e722150bee001
     log: |
-         9cb87e2d3a21ef840096a49838892771483496c2 testsuite: Improve fake_delete behavior
+         c0c9c73434666dc99ee156b25e7e722150bee001 counter: microchip-tcb-capture: Fix undefined counter channel state on probe
          
