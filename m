@@ -1,36 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Fri, 07 Mar 2025 19:21:58 -0000
-Message-Id: <174137531873.2999421.8724445137845271981@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Fri, 07 Mar 2025 19:40:14 -0000
+Message-Id: <174137641459.3014734.11860278136869367669@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: cmarinas
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/for-kernelci
-    old: 14d05f12084da11460c6accf589a598be3e59138
-    new: 77c95b8c7a16711ee26dcf12b2a2fef15bf419c1
+  - ref: refs/heads/master
+    old: 92e858ad3f23ab2cdacbb5123ddce4c437452d9f
+    new: df6667b6c26c7bfb74242e4f52289e724442bff6
     log: |
-         653884f88777b8858ef438cd8ee6ae4722fd5553 arm64: extable: Add fixup handling for uaccess CPY* instructions
-         04a9f771d81c109b3927d224a797dc21e2774a5e arm64: mm: Handle PAN faults on uaccess CPY* instructions
-         fe59e0358d9b032a09d903350d5fef73601166f2 arm64: lib: Use MOPS for usercopy routines
-         fd3a7f5e7f83f25fb8f18ff691f35a485653ddc7 Merge branch 'for-next/uaccess-mops' into for-next/core
-         b4ddc27fbd64778fd3fa1c886fac5314ef6921ab Merge branch 'for-next/core' into for-kernelci
-         77c95b8c7a16711ee26dcf12b2a2fef15bf419c1 Merge remote-tracking branch 'will/for-next/perf' into for-kernelci
+         d3540589b4ea399af71aa1dd616a64afca590a60 Add vectored registered buffer req init helpers
+         24f835c083eeea1e03e11a86042155b7f3068f11 test/sendzc: test registered vectored buffers
+         8b9a92ac1bd3b8c752fc52e9590cd18fda14ac8a tests/helpers: add t_create_socketpair_ip
+         b5b2e9f064b16a8f2390d52a0f290152c14a84d2 tests: targeted registered vector tests
+         df6667b6c26c7bfb74242e4f52289e724442bff6 test/vec-regbuf: fix skip exit code
          
-  - ref: refs/heads/for-next/core
-    old: eb1df6e758a0c6a8a73018acb43b54839b7dccfd
-    new: fd3a7f5e7f83f25fb8f18ff691f35a485653ddc7
-    log: |
-         653884f88777b8858ef438cd8ee6ae4722fd5553 arm64: extable: Add fixup handling for uaccess CPY* instructions
-         04a9f771d81c109b3927d224a797dc21e2774a5e arm64: mm: Handle PAN faults on uaccess CPY* instructions
-         fe59e0358d9b032a09d903350d5fef73601166f2 arm64: lib: Use MOPS for usercopy routines
-         fd3a7f5e7f83f25fb8f18ff691f35a485653ddc7 Merge branch 'for-next/uaccess-mops' into for-next/core
-         
-  - ref: refs/heads/for-next/uaccess-mops
-    old: 0000000000000000000000000000000000000000
-    new: fe59e0358d9b032a09d903350d5fef73601166f2
