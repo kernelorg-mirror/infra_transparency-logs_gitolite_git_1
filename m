@@ -1,47 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============8204482937366616374=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Fri, 07 Mar 2025 21:27:51 -0000
-Message-Id: <174138287172.3112856.2617762487941260369@gitolite.kernel.org>
-
---===============8204482937366616374==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
+Date: Fri, 07 Mar 2025 21:30:58 -0000
+Message-Id: <174138305889.3116342.14075348984997232324@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/dhowells/linux-fs
+user: dhowells
 changes:
-  - ref: refs/tags/slab-for-6.15-rc5
-    old: eb4ec3fc9fcd0a61969b28cd303809778146c88a
-    new: 0000000000000000000000000000000000000000
-
---===============8204482937366616374==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1741382897 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1741382867-4019b46008380c95d32a573126b075a795e70071
-
-eb4ec3fc9fcd0a61969b28cd303809778146c88a 0000000000000000000000000000000000000000 refs/tags/slab-for-6.15-rc5
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmfLZPEACgkQu+CwddJF
-iJoefgf+J1eGtW7L3ta+NmMophmElJs6BjLkGLAIjTPXpRLYRD8rkRw9Os7m/dkJ
-bNbEi/wtl1Do4u6nKSnua5A/C8RQl1o8VAgtA2SXtK9NupOulGM8XN+5EGeaiwZK
-8g6zr8RwbB5t1ScG6NjIEZWfmMYteh663pye37eZANN+IgWyJPj90gvtys23eowT
-iHhCoeeXsk48lTi3xYz2MPJu61e9LGrEqyxunGu+A14Lhp6l7v11MqIY9clRkqoM
-xWPAp5j+mORz/y3qXUq77nI+38iOEENq/BVu5rAkBJ1lfMDQOS8PDb3Yhd+GU21s
-xMLOcaI2IpuooY/xzXrY1aUENLM1XA==
-=sv4f
------END PGP SIGNATURE-----
-
---===============8204482937366616374==--
+  - ref: refs/heads/netfs-fixes
+    old: 786d00867539bba803c421015df4fa1ad9390e35
+    new: df64eabc446344b2c6101759164755c372ffa473
+    log: |
+         bc283949299e13fde520fbe2adfc6eb2f98c4dda netfs: Fix the request's work item to not require a ref
+         697e670d536b93004504e5ccf8dbfa0dda38cff0 netfs: Fix wait/wake to be consistent about the waitqueue used
+         5d434a9cf34b22cf1babb6ff2a41316cab3e3f38 netfs: Use rreq->issued_to instead of rreq->submitted
+         709bc28b3b9038844dcd01f09144f2db55d9dc25 smb: client: Fix netns refcount imbalance causing leaks and use-after-free
+         33f098c43d1e336f709fadb44bbcac6f477a11ee CIFS: Propagate min offload along with other parameters from primary to secondary channels.
+         df64eabc446344b2c6101759164755c372ffa473 netfs: Fix rolling_buffer_load_from_ra() to not clear mark bits
+         
