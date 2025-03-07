@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gclement/mvebu
-Date: Fri, 07 Mar 2025 16:51:09 -0000
-Message-Id: <174136626957.2772903.13439793945647880029@gitolite.kernel.org>
+Date: Fri, 07 Mar 2025 16:51:33 -0000
+Message-Id: <174136629322.2773269.16900531475906361610@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/gclement/mvebu
 user: gclement
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/mvebu/dt64
     old: 960766b45fa2fe3b097b9e74e7410a08c7a85dca
     new: 814ae20ada2c70b05d6f42be396c5d0b2903921b
     log: |
