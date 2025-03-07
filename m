@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Fri, 07 Mar 2025 12:28:53 -0000
-Message-Id: <174135053305.2348129.14393044769531798218@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 07 Mar 2025 12:30:41 -0000
+Message-Id: <174135064105.2351258.18399088101075248124@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/tags/gpio-fixes-for-v6.14-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 5088179671dc85cc16c98f6b91b208fe0802f661
+  - ref: refs/heads/x86/urgent
+    old: c00b413a96261faef4ce22329153c6abd4acef25
+    new: 14cb5d83068ecf15d2da6f7d0e9ea9edbcbc0457
+    log: |
+         14cb5d83068ecf15d2da6f7d0e9ea9edbcbc0457 x86/amd_nb: Use rdmsr_safe() in amd_get_mmconfig_range()
+         
