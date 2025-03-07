@@ -1,50 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============0181072528586252676=="
+Content-Type: multipart/mixed; boundary="===============1183850646650330639=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Fri, 07 Mar 2025 16:07:11 -0000
-Message-Id: <174136363189.2681526.6620618045411276388@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Fri, 07 Mar 2025 16:07:36 -0000
+Message-Id: <174136365630.2681912.11490329553711390657@gitolite.kernel.org>
 
---===============0181072528586252676==
+--===============1183850646650330639==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: bbd86bed1f2e5487286da9fdfede0567c878a8c1
-    new: aefeaaa2b099f3d2f802d11033f594997cdba9b1
-    log: revlist-bbd86bed1f2e-aefeaaa2b099.txt
+  - ref: refs/heads/next
+    old: 43d1f46dd9d089c2e7f956ba4b445febf9e32b94
+    new: d71fc910c58ed85a2ad5143502030bff73fc2088
+    log: revlist-43d1f46dd9d0-d71fc910c58e.txt
 
---===============0181072528586252676==
+--===============1183850646650330639==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bbd86bed1f2e-aefeaaa2b099.txt
+Content-Disposition: attachment; filename=revlist-43d1f46dd9d0-d71fc910c58e.txt
 
-a70b9d66a2b51051809eb8bac01a05792a3a5460 nfsd: prevent callback tasks running concurrently
-e7d33d4a10dabc6d1eaf1168ec98c8bb089b3c2f nfsd: eliminate cl_ra_cblist and NFSD4_CLIENT_CB_RECALL_ANY
-408f15ecddfb42121158a75a289bc57630c15768 nfsd: replace CB_GETATTR_BUSY with NFSD4_CALLBACK_RUNNING
-afa9335c67768f6f3757be79c823f452ea8c42e2 nfsd: move cb_need_restart flag into cb_flags
-ba96309c4e64550d7a2ef17a28d257c8636b7659 nfsd: handle errors from rpc_call_async()
-f4fa2bc156896aa6baa3fc0b103c557778040e7c NFSD: OFFLOAD_CANCEL should mark an async COPY as completed
-cd2ca571a01e27721c4b4475047f32a6d2797953 NFSD: Shorten CB_OFFLOAD response to NFS4ERR_DELAY
-c1f9522bba2ea7c379fd482169b0bd9cd4e22a01 NFSD: Implement CB_SEQUENCE referring call lists
-475d18b798f56d9e762bd9d558f10e2328758a39 NFSD: Implement CB_SEQUENCE referring call lists
-49479f4c5930e8173977e29c50078c2900039138 NFSD: Record each NFSv4 call's session slot index
-60debe69cc3c512ab41a7469368582e2bc14ead1 nfsd: reorganize struct nfs4_delegation for better packing
-5736b5dd040e959e9e16f4ce13712ecbe7e86702 nfsd: remove unneeded forward declaration of nfsd4_mark_cb_fault()
-a7555e7d84ad519127c38505e021d7876f44541e nfsd: remove obsolete comment from nfs4_alloc_stid
-5a517d5febaeb1edeaf149c6647f003ea6f783ca nfsd: use a long for the count in nfsd4_state_shrinker_count()
-c48a67c61a3d620044eef28d1f7069b842d38aa6 sysctl: Fixes nsm_local_state bounds
-ae26b3825d8a0ab96dea1a0f3a42f777458a5239 sunrpc: update nextcheck time when adding new cache entries
-31ebe65a3fce6b8fbbeb13ecb9489a57c12b7952 sunrpc: fix race in cache cleanup causing stale nextcheck time
-b6178bf8be86f082a19114f69d8fac280f3c2ca4 NFSD: Offer write delegation for OPEN with OPEN4_SHARE_ACCESS_WRITE
-c4b79536ec349d3b20b02b92f98d78562ed2bdd2 NFSD: unregister filesystem in case genl_register_family() fails
-aefeaaa2b099f3d2f802d11033f594997cdba9b1 NFSD: fix race between nfsd registration and exports_proc
+44d4ec3f93a832442bae461b9543382bc85634dc selftests: pci_endpoint: Add GET_IRQTYPE checks to each interrupt test
+2dcb87d5ff8026daf75a7ceeabc13af3200eace8 misc: pci_endpoint_test: Avoid issue of interrupts remaining after request_irq error
+7ecd3b911233bfc22433388996a3b59a66452228 misc: pci_endpoint_test: Fix displaying 'irq_type' after 'request_irq' error
+15d6f3c770d6c36172eb845c07e7297229a4652c misc: pci_endpoint_test: Fix 'irq_type' to convey the correct type
+a22182bd800fb153051cff09288828361d436216 misc: pci_endpoint_test: Remove global 'irq_type' and 'no_msi'
+c10505a0d6be33f1f1d47904fe40d38fd5306d0d misc: pci_endpoint_test: Do not use managed IRQ functions
+6843f38e16b96b072d0f576bf7cddde8cc5a103a dt-bindings: PCI: altera: Add binding for Agilex
+60f2ee5f1472972918de7eb14c8240de176f6b8d PCI: altera: Add Agilex support
+1c8caa83b58231b0c9b6909be29e742b001a49c4 Merge branch 'pci/acs'
+783d2785519507bd9e23586b3a3517f072ec59e5 Merge branch 'pci/aer'
+0f5853deb3d4447d3939ea977d9c21a62eccd947 Merge branch 'pci/aspm'
+9f6e4080305b3a505a34f004aa998e128b7fe28b Merge branch 'pci/bwctrl'
+c10e2e83c1cff020eb33d4b7fd6828cb4a5ba3f7 Merge branch 'pci/enumeration'
+5ecb6f804ef3ffd3dc4f855e25698b41a7b072e0 Merge branch 'pci/hotplug'
+b8a7b6fedf431486626ccd2e6c2b34ca82aa59c9 Merge branch 'pci/pwrctrl'
+972f50ac51c4dd4bd68024a0ada14a7d96d6c158 Merge branch 'pci/reset'
+1eb84e0eaef8e48251b3f187730600f42b743fc8 Merge branch 'pci/resource'
+7430f254d53d41a5bb90815d62c85f87a69fc271 Merge branch 'pci/devres'
+605361e98cf9e38377cf099678c71b10d03c5891 Merge branch 'pci/devtree-create'
+6e792f36f14e1f5bd43d8684ebea43dd100bf38b Merge branch 'pci/dt-bindings'
+841c924ee5584191b45b5876b180e8d880de1acf Merge branch 'pci/endpoint'
+fec8b07415c17108c43c775b885a45e59fcdd199 Merge branch 'pci/epf-mhi'
+698408fdd97f72670a27f1ec95331f4fed3ce62f Merge branch 'pci/scoped-cleanup'
+74774926bfb70aa247c967d09b7cbf2d30211f0f Merge branch 'pci/controller/altera'
+acd286384046eacce482781e6143e9ace1619e84 Merge branch 'pci/controller/amd-mdb'
+4a3482d266f9748d1bb1c7ba64416f9d097537ee Merge branch 'pci/controller/brcmstb'
+f263901e38d867a869442d11ce314c694266972e Merge branch 'pci/controller/cadence'
+cf0521378a3eee2aeef7076869030d4dfdf67096 Merge branch 'pci/controller/dwc'
+20d2c27869d149855c6409db60ad24818f92d128 Merge branch 'pci/controller/hyperv'
+df167bc8d9ac0e643f284159cbc042f23517e22b Merge branch 'pci/controller/mediatek'
+b6149a00ed5429c5857828524e1c5754897b3cba Merge branch 'pci/controller/qcom'
+24c80bee7c3dbc2a100929c1a7384a688c89d596 Merge branch 'pci/controller/vmd'
+d71fc910c58ed85a2ad5143502030bff73fc2088 Merge branch 'pci/misc'
 
---===============0181072528586252676==--
+--===============1183850646650330639==--
