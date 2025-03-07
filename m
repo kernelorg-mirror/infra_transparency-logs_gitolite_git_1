@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Fri, 07 Mar 2025 17:11:15 -0000
-Message-Id: <174136747512.2790466.4451647748289020646@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-auxdisplay
+Date: Fri, 07 Mar 2025 17:13:49 -0000
+Message-Id: <174136762967.2791804.9954976180984649433@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/andy/linux-auxdisplay
+user: andy
 changes:
-  - ref: refs/heads/resource
-    old: 1bbdc548920740dc2ed7769a45840e06c41dc829
-    new: 2994da16b009ffda339269b0c74af743564db31d
+  - ref: refs/heads/review-andy
+    old: 4711f852e78af4ac8869b6c4a66da63914b84c73
+    new: 6a3c3f3d557aa24153b77583e970a847e43259e9
     log: |
-         6ecce7f5abcaef2467b4243492eeb1478d408823 PCI: Fix BAR resizing when VF BARs are assigned
-         a7b6861b296ee6b94952580a3c50b56983c18a7e s390/pci: Fix s390_mmio_read/write syscall page fault handling
-         3d9f1fc21961a2321bb0372d5ddf8f65f3889904 s390/pci: Introduce pdev->non_mappable_bars and replace VFIO_PCI_MMAP
-         2994da16b009ffda339269b0c74af743564db31d s390/pci: Support mmap() of PCI resources except for ISM devices
+         a62f254f3743618653eebe55ebb41230dabcdcd4 auxdisplay: charlcd: Partially revert "Move hwidth and bwidth to struct hd44780_common"
+         c78c150215400861e4e9411f8679704ca4e91bee auxdisplay: lcd2s: Allocate memory for custom data in charlcd_alloc()
+         5edf58bf1ca205264f53d33071906a2c398baefc auxdisplay: hd44780: Introduce hd44780_common_free()
+         587c7064595cb2c13e3b0e86dc38934e94748d48 auxdisplay: hd44780: Make use of hd44780_common_free()
+         00279c1849b339d5a3c90122bf9aa1547c1d6705 auxdisplay: panel: Make use of hd44780_common_free()
+         93e90c7838587eabde7c2c09f68faa93968e74c4 auxdisplay: hd44780: Call charlcd_alloc() from hd44780_common_alloc()
+         1280b9996eb6279126d41d65098c62ff1f1a435e auxdisplay: hd44780: Rename hd to hdc in hd44780_common_alloc()
+         6a3c3f3d557aa24153b77583e970a847e43259e9 Merge patch series "auxdisplay: charlcd: Refactor memory allocation"
          
