@@ -1,25 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 07 Mar 2025 02:26:26 -0000
-Message-Id: <174131438659.1853668.18305979905729176192@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 07 Mar 2025 02:26:27 -0000
+Message-Id: <174131438711.1853686.3656990814181276183@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 92d369052018c9d8ac1c69f608f52c902ae8dd51
-    new: 865eddcf0afbcd54f79b81e6327ea40c997714c7
+    old: 115ef44a98220fddfab37a39a19370497cd718b9
+    new: fc14f9c02639dfbfe3529850eae23aef077939a6
     log: |
-         a2f61f1db85532e72fb8a3af51b06df94bb82912 net/mlx5: Relocate function declarations from port.h to mlx5_core.h
-         65a5d3557184974608761b6abae0701f7e63a6de net/mlx5: Refactor link speed handling with mlx5_link_info struct
-         7e959797f0218f8b8a5e38068a55661610eb935e net/mlx5e: Enable lanes configuration when auto-negotiation is off
-         5aa2e6de86d5408ec759a817877b4399172c02e3 net/mlx5: Lag, Enable Multiport E-Switch offloads on 8 ports LAG
-         348ed4b20546b80a67bb87b0fb32397efbae4c87 net/mlx5e: Separate address related variables to be in struct
-         ca7992f52c2cb5ef61fbfa590a2d7c926f290237 net/mlx5e: Properly match IPsec subnet addresses
-         865eddcf0afbcd54f79b81e6327ea40c997714c7 Merge branch 'mlx5-misc-enhancements-2025-03-04'
+         5cfe5612ca9590db69b9be29dc83041dbf001108 netfilter: nft_ct: Use __refcount_inc() for per-CPU nft_ct_pcpu_template.
+         df08c94baafb001de6cf44bb7098bb557f36c335 netfilter: nf_conncount: garbage collection is not skipped when jiffies wrap around
+         fb8286562ecfb585e26b033c5e32e6fb85efb0b3 netfilter: nf_tables: make destruction work queue pernet
+         fc14f9c02639dfbfe3529850eae23aef077939a6 Merge tag 'nf-25-03-06' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
          
