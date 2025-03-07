@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0006496486484700016=="
+Content-Type: multipart/mixed; boundary="===============7692012506055476255=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 07 Mar 2025 16:41:37 -0000
-Message-Id: <174136569766.2763674.7916521900194023056@gitolite.kernel.org>
+Date: Fri, 07 Mar 2025 16:41:40 -0000
+Message-Id: <174136570015.2763781.4973503220766474181@gitolite.kernel.org>
 
---===============0006496486484700016==
+--===============7692012506055476255==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: c62e6f056ea308d6382450c1cb32e41727375885
     new: 865eddcf0afbcd54f79b81e6327ea40c997714c7
     log: revlist-c62e6f056ea3-865eddcf0afb.txt
 
---===============0006496486484700016==
+--===============7692012506055476255==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -324,4 +324,4 @@ a2f61f1db85532e72fb8a3af51b06df94bb82912 net/mlx5: Relocate function declaration
 ca7992f52c2cb5ef61fbfa590a2d7c926f290237 net/mlx5e: Properly match IPsec subnet addresses
 865eddcf0afbcd54f79b81e6327ea40c997714c7 Merge branch 'mlx5-misc-enhancements-2025-03-04'
 
---===============0006496486484700016==--
+--===============7692012506055476255==--
