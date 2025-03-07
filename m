@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 07 Mar 2025 05:41:54 -0000
-Message-Id: <174132611409.2013055.10600264400331448123@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
+Date: Fri, 07 Mar 2025 06:24:36 -0000
+Message-Id: <174132867646.2045625.6148908053353883416@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: martin.lau
+repo: pub/scm/linux/kernel/git/mtd/linux
+user: tudor.ambarus
 changes:
-  - ref: refs/tags/for-netdev
-    old: 0000000000000000000000000000000000000000
-    new: 254471421d00dd18b03833f99342cb1c5a054ef1
+  - ref: refs/heads/spi-nor/next
+    old: 03e7bb864d9a9efca02743d4a9fab8f3d0b00407
+    new: 797bbaa7531f75985b199e484451fa3f954382b3
+    log: |
+         798aafeffb369c5eb36e406b18970ef27baa820d mtd: spi-nor: macronix: Add post_sfdp fixups for Quad Input Page Program
+         797bbaa7531f75985b199e484451fa3f954382b3 mtd: spi-nor: macronix: add support for mx66{l2, u1}g45g
+         
