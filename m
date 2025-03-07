@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 07 Mar 2025 12:00:59 -0000
-Message-Id: <174134885933.2324933.13661463954964548696@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
+Date: Fri, 07 Mar 2025 12:01:29 -0000
+Message-Id: <174134888995.2325368.16218682799432193396@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+user: westeri
 changes:
-  - ref: refs/heads/locking/core
-    old: c85391793f4ef47ba5275c57aea7653ead92632f
-    new: c929d08df8bee855528b9d15b853c892c54e1eee
+  - ref: refs/heads/fixes
+    old: 7eb172143d5508b4da468ed59ee857c6e5e01da6
+    new: 502843396ec2a3eb4f58a2e4618a4a85fc5e0f46
     log: |
-         c929d08df8bee855528b9d15b853c892c54e1eee x86/split_lock: Fix the delayed detection logic
+         502843396ec2a3eb4f58a2e4618a4a85fc5e0f46 thunderbolt: Prevent use-after-free in resume from hibernate
          
