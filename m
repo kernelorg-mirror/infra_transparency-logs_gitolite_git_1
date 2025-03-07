@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0319715808471810626=="
+Content-Type: multipart/mixed; boundary="===============5079129851124276946=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Fri, 07 Mar 2025 15:03:29 -0000
-Message-Id: <174135980916.2476755.18125508076158292368@gitolite.kernel.org>
+Date: Fri, 07 Mar 2025 15:05:50 -0000
+Message-Id: <174135995071.2480068.17870835166024830003@gitolite.kernel.org>
 
---===============0319715808471810626==
+--===============5079129851124276946==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,50 +17,50 @@ user: krzk
 git_push_cert_status: Y
 changes:
   - ref: refs/heads/for-next
-    old: dd633bdf9dbf5d2d7c4b2eddb4686f26f43a5854
-    new: 92184d175c0bd149fd34982938d785d6793ef32b
+    old: 92184d175c0bd149fd34982938d785d6793ef32b
+    new: 1ebdb672ba319af28aa0a0fa25ba488353b7d81a
     log: |
-         f32f5b0ec0f6eec0186de0607ab12f9cb1ecab73 clk: samsung: Add missing mod_devicetable.h header
-         017bbc922a09630579ff7b5b314fb186b8c0efcf clk: samsung: Drop unused clk.h and of.h headers
-         92184d175c0bd149fd34982938d785d6793ef32b Merge branch 'next/clk' into for-next
+         73fd2bb607387a77b2dde43a2c47db2b71c65a96 arm64: dts: exynos: gs101: Change labels to lower-case
+         056106b030b73c7d53749469bd1cdbc89b4d2daf arm64: dts: tesla: Change labels to lower-case
+         1ebdb672ba319af28aa0a0fa25ba488353b7d81a Merge branch 'next/dt64' into for-next
          
-  - ref: refs/heads/next/clk
-    old: 4149066a5e958963f7123be51d3a65d336045c21
-    new: 017bbc922a09630579ff7b5b314fb186b8c0efcf
+  - ref: refs/heads/next/dt64
+    old: 5893f538e331609fbea244ed14732291edd6ab22
+    new: 056106b030b73c7d53749469bd1cdbc89b4d2daf
     log: |
-         f32f5b0ec0f6eec0186de0607ab12f9cb1ecab73 clk: samsung: Add missing mod_devicetable.h header
-         017bbc922a09630579ff7b5b314fb186b8c0efcf clk: samsung: Drop unused clk.h and of.h headers
+         73fd2bb607387a77b2dde43a2c47db2b71c65a96 arm64: dts: exynos: gs101: Change labels to lower-case
+         056106b030b73c7d53749469bd1cdbc89b4d2daf arm64: dts: tesla: Change labels to lower-case
          
 
---===============0319715808471810626==
+--===============5079129851124276946==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1741359836 +0100
+pusher krzk@kernel.org 1741359978 +0100
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1741359806-0017ef99c8e11a64f746716934549c1cf7516f28
+nonce 1741359948-0140d78a5f9c860367d339ad974e7cd8d87cc42c
 
-dd633bdf9dbf5d2d7c4b2eddb4686f26f43a5854 92184d175c0bd149fd34982938d785d6793ef32b refs/heads/for-next
-4149066a5e958963f7123be51d3a65d336045c21 017bbc922a09630579ff7b5b314fb186b8c0efcf refs/heads/next/clk
+92184d175c0bd149fd34982938d785d6793ef32b 1ebdb672ba319af28aa0a0fa25ba488353b7d81a refs/heads/for-next
+5893f538e331609fbea244ed14732291edd6ab22 056106b030b73c7d53749469bd1cdbc89b4d2daf refs/heads/next/dt64
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmfLCtwQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD11TVD/9h52tIET1djBT1ma+Oczrjl7KC4Y4BdOOD
-nJDNUp9jEdroLJ4sGu4ug1jdT5szaDDx0M7HhyEsogW21CGdwuO3Ay4S6i7HIXnA
-PLlu11t7URkeeMLXMu3X7cuETKYy16CLTI5yyI1ZhCZHoIewDYQrzemaZQlBHGPu
-sj4omXA1an+klDruynH3Q0Sw6dih6uUx/I06KSvTULkVPsX1LXadyjRGUf4I+Psv
-HTkHJjMcpteWqXqI4JexRwnbs3Q930V8Yl5GxWNh9Nky4e/kkHo7MjyvA5Km6Aoa
-GJoTIh2WFy/t7baiMbBUJBqCis7bd/TTLGKdEdDjlCeInNKOcj9D7tIkGhZtozyF
-zOrr+xufE/4hz/lFfsYEZHgKrV75l4gDEQsE9oKagXqZiTpGXJu4CHtCnFKcZQmn
-Py7rM+Y0Me8IBXe0l1nssKLXsSiseYmCoyjTxud1Wu/JkX5LqB7j7MHVbJByI/mN
-k+ZhjMVEVICP3hL69xFQ5vIxhChjTxJ8Ugr1FZwIqtVMJ50GGLaZfNRy8gJNslpA
-KIMH0VhL6mAev8EK4+OSCrJc+eJW4G4e4kVE9Uzc+gTHVxJhAJWumkhINJ9bqwO1
-zdurWTCyJu6ochuiyzFrjPvoH52SuXZs+Vl8DycBCeye2tpHl4tdheOGmUo31T4t
-kdBlk9kZtg==
-=+rar
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmfLC2oQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD14S0D/4jnVRvW1YmIXxmUeFt7ngoeLsOcHeD8Wb2
+ZEWONyLKer1qQyQNjFOb2XEgqB/Bn0re4hBXqp+AwYuWgBG2uMmdpHhaIlL7TmAo
+Hlfo1tLpzr7Nx5wGrTvmIhhnZMYy+lZRaDelfN6fReAAOj4iOveNl8vBEN9hTu6z
+lNMyDDauxKoz2VVkYN3t4iaWA2tE9louiZvLF8F0/gxhUlD9zgCWKkwsMh/+oid/
+RBZPRLOEAyfkAjVV8JQCdWTmD86p2NI2fGP7Zs67jX8vg3iC1oU8OLNjsxrKkO78
+I7Z9aynbJZbxaiWK7oHFsGyQdVlLpMQ/mD2ueK45wswnWc7WMhZVccEGT5G7EPeB
+Dk+GGo+XDZNrY3ridtgd1X7P+3g9Er6VjFN8nV5mnwJNhxD285NuT1sI10OThUcL
+LkmBMr9b/kYmTOyMdMqRELXmsbPpIRPPg95anWv/4qbgvq2c6DlYiasys60DrvUv
+dlLh4SqCvkQJDmSQhygrf0FbrOrRseYct5RtbGWivtaSkqCQZYxka9T6pcryW43g
+9MQMU4LwEFct6Lov63X58ayurQdIEH0oRo4kGpL5RpWPG9tTp8n94sh/7GOneN3i
+zudC/SVECu0nDrpfDM6ZKCdY4hCGSMqhJLHZUYLxdCzAY9u6ri/TkgQr+4dQZrBp
+yokG/ZmKGw==
+=FgUj
 -----END PGP SIGNATURE-----
 
---===============0319715808471810626==--
+--===============5079129851124276946==--
