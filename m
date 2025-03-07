@@ -1,27 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Fri, 07 Mar 2025 21:53:14 -0000
-Message-Id: <174138439485.3135504.12168992242274069562@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1908031240795645564=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/korg/wotmate
+Date: Fri, 07 Mar 2025 22:01:38 -0000
+Message-Id: <174138489881.3143267.15945011948426086457@gitolite.kernel.org>
+
+--===============1908031240795645564==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/utils/korg/wotmate
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/dt/next
-    old: eeb237f7970f7ed1df4f27cf28bed015e506f441
-    new: 5935d1f1ea152b6382638b545ce76ffe3cc05c68
+  - ref: refs/heads/master
+    old: 93e1fbb1bab72162c75ba3311513daa6f8abd231
+    new: f4624640df1c3113e7122f8f160b7a86cbba80b9
     log: |
-         95dfaf71b091b88dac9aaf457753de6867c557f7 dt-bindings: memory-controllers: samsung,exynos4210-srom: Enforce child props
-         5935d1f1ea152b6382638b545ce76ffe3cc05c68 dt-bindings: memory-controllers: qcom,ebi2: Enforce child props
+         f4624640df1c3113e7122f8f160b7a86cbba80b9 Make the nodes representing a key a link to their respective graph
          
-  - ref: refs/heads/for-next
-    old: eeb237f7970f7ed1df4f27cf28bed015e506f441
-    new: 5935d1f1ea152b6382638b545ce76ffe3cc05c68
-    log: |
-         95dfaf71b091b88dac9aaf457753de6867c557f7 dt-bindings: memory-controllers: samsung,exynos4210-srom: Enforce child props
-         5935d1f1ea152b6382638b545ce76ffe3cc05c68 dt-bindings: memory-controllers: qcom,ebi2: Enforce child props
-         
+
+--===============1908031240795645564==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1741384927 -0500
+pushee gitolite.kernel.org:pub/scm/utils/korg/wotmate
+nonce 1741384897-691946abb7a5d5f204beccf64137796b065835d0
+
+93e1fbb1bab72162c75ba3311513daa6f8abd231 f4624640df1c3113e7122f8f160b7a86cbba80b9 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZ8ts3wAKCRC2xBzjVmSZ
+bN/VAP9X39kE9ZhHD7QnJPq1cA/vP76iClHKDaQ8M8f//mCuJgEAgZ0zcLGZ69HJ
+nb/AQKmK2SRahEKe1Mtmni7AREPYVgo=
+=MQMF
+-----END PGP SIGNATURE-----
+
+--===============1908031240795645564==--
