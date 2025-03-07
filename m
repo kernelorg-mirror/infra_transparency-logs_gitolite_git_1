@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0989706479638513251=="
+Content-Type: multipart/mixed; boundary="===============8026818854403219993=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 07 Mar 2025 16:30:11 -0000
-Message-Id: <174136501110.2753126.13296677340209275836@gitolite.kernel.org>
+Date: Fri, 07 Mar 2025 16:30:13 -0000
+Message-Id: <174136501360.2753212.1449795804811006455@gitolite.kernel.org>
 
---===============0989706479638513251==
+--===============8026818854403219993==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 3c9231ea6497dfc50ac0ef69fff484da27d0df66
     new: fc14f9c02639dfbfe3529850eae23aef077939a6
     log: revlist-3c9231ea6497-fc14f9c02639.txt
 
---===============0989706479638513251==
+--===============8026818854403219993==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -229,4 +229,4 @@ e4e832d2b9e84d1a290f0279b10593cf465e6fb1 Merge branch '100GbE' of git://git.kern
 115ef44a98220fddfab37a39a19370497cd718b9 sched: address a potential NULL pointer dereference in the GRED scheduler.
 fc14f9c02639dfbfe3529850eae23aef077939a6 Merge tag 'nf-25-03-06' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 
---===============0989706479638513251==--
+--===============8026818854403219993==--
