@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0662342447768453463=="
+Content-Type: multipart/mixed; boundary="===============6105023224666830033=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Sat, 08 Mar 2025 01:07:14 -0000
-Message-Id: <174139603451.3299095.17211383648370417867@gitolite.kernel.org>
+Date: Sat, 08 Mar 2025 01:10:08 -0000
+Message-Id: <174139620824.3302583.17758787449861492411@gitolite.kernel.org>
 
---===============0662342447768453463==
+--===============6105023224666830033==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: 9a0dddfb30f120db3851627935851d262e4e7acb
-    new: 0e28ee106c46c95eb322833c17c33e3c231ccd0d
-    log: revlist-9a0dddfb30f1-0e28ee106c46.txt
+  - ref: refs/heads/pending
+    old: 334be09cab090e43a61a135c73e81d2acc63370b
+    new: b9878fbacc79858fbd4e70d8d8d14f1e67b2725e
+    log: revlist-334be09cab09-b9878fbacc79.txt
 
---===============0662342447768453463==
+--===============6105023224666830033==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9a0dddfb30f1-0e28ee106c46.txt
+Content-Disposition: attachment; filename=revlist-334be09cab09-b9878fbacc79.txt
 
-ed975485a13d1f6080218aa71c29425ba2dfb332 MIPS: Export syscall stack arguments properly for remote use
-733a90561ad0a4a74035d2d627098da85d43b592 MIPS: fix mips_get_syscall_arg() for o32
-446a8351f160d65a1c5df7097f31c74102ed2bb1 arm64: rust: clean Rust 1.85.0 warning using softfloat target
-85fcb57c983f423180ba6ec5d0034242da05cc54 xen/swiotlb: relax alignment requirements
 e93ec87286bd1fd30b7389e7a387cfb259f297e3 x86/xen: allow larger contiguous memory regions in PV guests
 75ad02318af2e4ae669e26a79f001bd5e1f97472 Xen/swiotlb: mark xen_swiotlb_fixup() __init
 4cf7d58620bfc2ebe934e3dfa97208f13f14ab8b genirq: Remove unused CONFIG_GENERIC_PENDING_IRQ_CHIPFLAGS
@@ -1050,5 +1046,9 @@ d7a2522426e86036f40fde6ba055aa20de1f3d8a netconsole: selftest: add task name app
 71f8992e34a9f358a53da6bfcd8b00226df177a2 Merge tag 'wireless-next-2025-03-04-v2' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless-next
 d1e879ec600f9b3bdd253167533959facfefb17b wifi: iwlwifi: add iwlmld sub-driver
 0e28ee106c46c95eb322833c17c33e3c231ccd0d Merge tag 'ath-next-20250305' of git://git.kernel.org/pub/scm/linux/kernel/git/ath/ath
+7b6741da048e8296c4c95f89c72d4b9a65c0ca9c wifi: ath12k: move firmware stats out of debugfs
+0d11f1cd04bbb7772338c410c1d98d899b47da34 wifi: ath12k: add get_txpower mac ops
+c592ca3c7adbafc9893ff2cf7c242e308d359cea wifi: ath12k: Pass correct values of center freq1 and center freq2 for 160 MHz
+b9878fbacc79858fbd4e70d8d8d14f1e67b2725e wifi: ath12k: Pass correct values of center freq1 and center freq2 for 320 MHz
 
---===============0662342447768453463==--
+--===============6105023224666830033==--
