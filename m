@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Sat, 08 Mar 2025 19:23:34 -0000
-Message-Id: <174146181435.4193791.16318859684346959759@gitolite.kernel.org>
+Date: Sat, 08 Mar 2025 19:31:19 -0000
+Message-Id: <174146227912.7415.2495848058256738427@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,13 +12,12 @@ repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
   - ref: refs/heads/wip/leon-for-next
-    old: 1d5c69514e742846ad3b8727b51b1fd46ea251fd
-    new: 850a5ea27782a5bed5052796136b65d3fbab086f
+    old: 850a5ea27782a5bed5052796136b65d3fbab086f
+    new: 7bcd537adb21b5a1672f36a137e3fe9746dcb7bf
     log: |
-         054220ae51ceca9d1a7de5dceff28ef7a75c0981 RDMA/uverbs: Introduce UCAP (User CAPabilities) API
-         dc0633dbb2abcc22ae311d4a9316afd25e53b95b RDMA/mlx5: Create UCAP char devices for supported device capabilities
-         8108812389cf29fc863db9e2ba55848c53740084 RDMA/uverbs: Add support for UCAPs in context creation
-         984ec408e39bf810e66db746dd070a271044ae8a RDMA/mlx5: Check enabled UCAPs when creating ucontext
-         bec5f67b886710b82e2c4a152c57d52f08944306 RDMA/mlx5: Expose RDMA TRANSPORT flow table types to userspace
-         850a5ea27782a5bed5052796136b65d3fbab086f docs: infiniband: document the UCAP API
+         30c77a88e3ffe9b53a8b8b3a96f058e1f13e2125 RDMA/mlx5: Add optional counters for RDMA_TX/RX_packets/bytes
+         3644e21c005fcffee6058d14c960413e7c839a23 RDMA/core: Create and destroy rdma_counter using rdma_zalloc_drv_obj()
+         df5f4ff6319a6f582ac87fe4c8c296cc91538ea6 RDMA/core: Add support to optional-counters binding configuration
+         d73531da19eb566a0411ba90051c199b12565a3c RDMA/core: Pass port to counter bind/unbind operations
+         7bcd537adb21b5a1672f36a137e3fe9746dcb7bf RDMA/mlx5: Support optional-counters binding for QPs
          
