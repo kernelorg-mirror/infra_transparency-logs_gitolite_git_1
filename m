@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7284067486229457632=="
+Content-Type: multipart/mixed; boundary="===============8664987029641931076=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 08 Mar 2025 19:09:32 -0000
-Message-Id: <174146097294.4180282.10218576550536369290@gitolite.kernel.org>
+Date: Sat, 08 Mar 2025 19:10:02 -0000
+Message-Id: <174146100207.4182026.14543440422524403712@gitolite.kernel.org>
 
---===============7284067486229457632==
+--===============8664987029641931076==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,38 +16,47 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 6e7a5186a68fe14a8f4e8ba6b953da0ac74fc3b3
-    new: f7ac696c1e41327717927172ad1e2b0267e630ce
-    log: revlist-6e7a5186a68f-f7ac696c1e41.txt
+    old: f7ac696c1e41327717927172ad1e2b0267e630ce
+    new: 2821a3327f2ba5f4456784b53f85a780d5799680
+    log: revlist-f7ac696c1e41-2821a3327f2b.txt
+  - ref: refs/heads/tip/urgent
+    old: dc11fe43bec4b545b14a5711ddbac839f6b1123c
+    new: bd592e19b6b2d0282d29c7b5c719d9e56df801e0
+    log: |
+         14296d0e85d45695ad2dc65b653b29e5a3514cdb Merge branch 'linus' into x86/urgent, to pick up dependent patches
+         058a6bec37c6c3b826158f6d26b75de43816a880 x86/microcode/AMD: Add some forgotten models to the SHA check
+         6ca87ca5d350bd33e918247ce4bd74814ee2b421 Merge branch into tip/master: 'locking/urgent'
+         bd592e19b6b2d0282d29c7b5c719d9e56df801e0 Merge branch into tip/master: 'x86/urgent'
+         
 
---===============7284067486229457632==
+--===============8664987029641931076==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6e7a5186a68f-f7ac696c1e41.txt
+Content-Disposition: attachment; filename=revlist-f7ac696c1e41-2821a3327f2b.txt
 
-0704bf439655c1f82ff7e623b1124a3c1cb8c907 vdso: Introduce vdso/cache.h
-b69b47a6b5f67ac1074e0a6baac7f07bdc3dceed arm64: Make asm/cache.h compatible with vDSO
-fa8152ca221110e14e43040bd442c8140bc2e03c vdso: Make vdso_time_data cacheline aligned
-a05f14de04e989f0bc32cea128243090e5e5d54b vdso/datapage: Define vdso_clock to prepare for multiple PTP clocks
-e15bf9e34b5716e8c4a50b32a98752ff1f53d647 vdso/helpers: Prepare introduction of struct vdso_clock
-cddb82d1c4de5649b6841a1b94a610f934c5dd5f vdso/gettimeofday: Prepare introduction of struct vdso_clock
-64c3613ce31a1a58e43c2d86eafbb03364986450 vdso/gettimeofday: Prepare do_hres() for introduction of struct vdso_clock
-83a2a6b8cfc574dae4e3c65018392dcedc59079a vdso/gettimeofday: Prepare do_hres_timens() for introduction of struct vdso_clock
-70067ae181f302990002aa9f54e2b8503cde7160 vdso/gettimeofday: Prepare do_coarse() for introduction of struct vdso_clock
-8c3f5cb3d33bee748b0408418d0d2a627586a2b5 vdso/gettimeofday: Prepare do_coarse_timens() for introduction of struct vdso_clock
-80801972a11b4c8610cd403e1f235e98cd799350 vdso/gettimeofday: Prepare helper functions for introduction of struct vdso_clock
-b5afbc106d7cbfa1ffbe7c8da2693e5effbba95e vdso/vsyscall: Prepare introduction of struct vdso_clock
-0235220807033c7a1dc2a96cc23b6eae0dd11c81 vdso/namespace: Rename timens_setup_vdso_data() to reflect new vdso_clock struct
-5911e16cad61f1735c2f8c847dc43f03f8eaccd2 time/namespace: Prepare introduction of struct vdso_clock
-bf0eff816e467f8decb9b3ac0218cc26060e359f x86/vdso: Prepare introduction of struct vdso_clock
-5340f3cb20989ec9562f7fcd65005e25b2365e6a arm64/vdso: Prepare introduction of struct vdso_clock
-ed0c10f34ffd94d6e0d37b830c232f7ca38ea174 powerpc/vdso: Prepare introduction of struct vdso_clock
-97a5a90ca234eaa3de8a6aa44d43de2827393019 vdso: Move architecture related data before basetime data
-886653e36639177dd3ec2e7a4f0dc843d7def3f4 vdso: Rework struct vdso_time_data and introduce struct vdso_clock
-eab050b9ea73acaee2cbfc2c052c59f6c59f3df5 Merge branch into tip/master: 'timers/vdso'
-14296d0e85d45695ad2dc65b653b29e5a3514cdb Merge branch 'linus' into x86/urgent, to pick up dependent patches
-058a6bec37c6c3b826158f6d26b75de43816a880 x86/microcode/AMD: Add some forgotten models to the SHA check
-f7ac696c1e41327717927172ad1e2b0267e630ce Merge branch into tip/master: 'x86/urgent'
+6ca87ca5d350bd33e918247ce4bd74814ee2b421 Merge branch into tip/master: 'locking/urgent'
+bd592e19b6b2d0282d29c7b5c719d9e56df801e0 Merge branch into tip/master: 'x86/urgent'
+775a52670abbefcb2f736ea8dc1714a5c043cb22 Merge branch into tip/master: 'x86/merge'
+05199539e53f2c174ea552c31c6023f3f3682048 Merge branch into tip/master: 'irq/core'
+1a31ce34f893d61ba93fec6186f957a8317dc5ba Merge branch into tip/master: 'irq/drivers'
+1e7e603bb5b18e2186b5816a96d07e417ce22f5e Merge branch into tip/master: 'locking/core'
+81c3e11447c556115dec23af12040654b4a5db0f Merge branch into tip/master: 'locking/futex'
+be288e140df1bf6a7054e1ce97d54d71bf575c87 Merge branch into tip/master: 'perf/core'
+c1780f7097b2aba134b95d32b80d48efd63355de Merge branch into tip/master: 'ras/core'
+c42e261359a371e1077bd51c9ba8174432d8d731 Merge branch into tip/master: 'sched/core'
+b5033b91bd78ee0baeca4a0d7d3dda89247a589b Merge branch into tip/master: 'timers/cleanups'
+5039a66ea259cb52fec48629b060047b13ddfadd Merge branch into tip/master: 'timers/core'
+26032a5bcd16efea81a3a24199e61c3684e2f07c Merge branch into tip/master: 'timers/vdso'
+eeda567185d5aa65a14d3b1881ef01a80c8de782 Merge branch into tip/master: 'x86/asm'
+56b726550c2b01e5229fe6ba3834f90add3c7607 Merge branch into tip/master: 'x86/boot'
+9fc863791d5f1804febad6c5daf0fe27276329ee Merge branch into tip/master: 'x86/bugs'
+38490526d895021544bd1364aede176bf20ce820 Merge branch into tip/master: 'x86/build'
+b33bf8df7986f625f430068839d24fa49cee0b7b Merge branch into tip/master: 'x86/cleanups'
+4f6f22874d1819fe447af61d580028b0d8fb6da7 Merge branch into tip/master: 'x86/core'
+c87c1d0c59b77e0f4b4e5d5a03066f5dc65dbf13 Merge branch into tip/master: 'x86/fpu'
+2ee2b84e11d0d371ced82ea8240f3487671c5ce2 Merge branch into tip/master: 'x86/misc'
+52635826cf189f3535714ec30233fcc1c517acab Merge branch into tip/master: 'x86/platform'
+2821a3327f2ba5f4456784b53f85a780d5799680 Merge branch into tip/master: 'x86/sev'
 
---===============7284067486229457632==--
+--===============8664987029641931076==--
