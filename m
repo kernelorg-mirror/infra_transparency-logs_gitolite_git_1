@@ -1,21 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 08 Mar 2025 09:23:27 -0000
-Message-Id: <174142580717.3706115.680156961006227259@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Sat, 08 Mar 2025 11:13:06 -0000
+Message-Id: <174143238686.3791592.2251113962753123735@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/master
-    old: 7e437dcd3975d13674b943b5fb6c6d4764fa68dc
-    new: f28214603dc6c09b3b5e67b1ebd5ca83ad943ce3
+  - ref: refs/heads/vfs-6.15.initramfs
+    old: a89ac3a81ccf8afa919a703eac8a6637805aec1a
+    new: 6d52f1393380d614a8a37762142e5c39f13d6e11
     log: |
-         359d07044dd5d5ba1012437b06f9b36469bd687a selftests/bpf: lwt_seg6local: Remove unused routes
-         3fb97a2b2f2d3f8c7fe2f447ac1b3fc31c12b579 selftests/bpf: lwt_seg6local: Move test to test_progs
-         f28214603dc6c09b3b5e67b1ebd5ca83ad943ce3 Merge branch 'selftests-bpf-move-test_lwt_seg6local-to-test_progs'
+         83c0b27266ecfe8366d849be77ff6ff8f702ffed initramfs_test: kunit tests for initramfs unpacking
+         fcc155008a20fa31b01569e105250490750f0687 vsprintf: add simple_strntoul
+         a8a3bc2e3277858a7457da15225b08ca65a99b0b initramfs: avoid memcpy for hex header fields
+         7be37c94da01be3364d0798544401087f2464c8a initramfs: allocate heap buffers together
+         43094e109f6d0ace63690c5558b482606bdd2455 initramfs: reuse name_len for dir mtime tracking
+         225034cd510a014e673f5c131c77858fc2f372a1 initramfs: fix hardlink hash leak without TRAILER
+         7a329ed2dea95b14e3bd5e4ff0d22f2ce0ba4b86 initramfs: avoid static buffer for error message
+         6d52f1393380d614a8a37762142e5c39f13d6e11 Merge patch series "initramfs: kunit tests and cleanups"
          
