@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5818171982406504530=="
+Content-Type: multipart/mixed; boundary="===============6796081989926657646=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 08 Mar 2025 19:39:59 -0000
-Message-Id: <174146279972.14340.17002244660961323225@gitolite.kernel.org>
+Date: Sat, 08 Mar 2025 19:43:45 -0000
+Message-Id: <174146302582.17747.13491550011263664934@gitolite.kernel.org>
 
---===============5818171982406504530==
+--===============6796081989926657646==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,30 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 1f25be6f62c5d718a30641e021c67d9038c3c21f
-    new: b50dc47a8fed4a2d6ee863aa8d63f66577864e2d
-    log: revlist-1f25be6f62c5-b50dc47a8fed.txt
-  - ref: refs/heads/tip/urgent
-    old: bd592e19b6b2d0282d29c7b5c719d9e56df801e0
-    new: 9f0c9a7cea93ba9cdfc7dcf3fd254662bdce9656
-    log: |
-         2fd8790866911e7a4ab710aeda0b13d26f6b8b21 Merge branch into tip/master: 'locking/urgent'
-         9f0c9a7cea93ba9cdfc7dcf3fd254662bdce9656 Merge branch into tip/master: 'x86/urgent'
-         
+    old: b50dc47a8fed4a2d6ee863aa8d63f66577864e2d
+    new: 9e81a795988f04da2f8ebb6a61e867367cf69d42
+    log: revlist-b50dc47a8fed-9e81a795988f.txt
 
---===============5818171982406504530==
+--===============6796081989926657646==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1f25be6f62c5-b50dc47a8fed.txt
+Content-Disposition: attachment; filename=revlist-b50dc47a8fed-9e81a795988f.txt
 
-2fd8790866911e7a4ab710aeda0b13d26f6b8b21 Merge branch into tip/master: 'locking/urgent'
-9f0c9a7cea93ba9cdfc7dcf3fd254662bdce9656 Merge branch into tip/master: 'x86/urgent'
-5a1085303a165b00ccc70541719a95576a6e076d Merge branch into tip/master: 'x86/merge'
-b6ab95de2e3e6b3a5de60c175651b7ab8499e3f1 Merge branch into tip/master: 'irq/core'
-d6dfda49928027770dc67d452fdb3119c0a01c12 Merge branch into tip/master: 'irq/drivers'
-edd18392c015f348488a98f53da37e54585eae06 Merge branch into tip/master: 'locking/core'
-f6faae67314b473a9861641aaab4a1032d90f3e2 Merge branch into tip/master: 'locking/futex'
-867bc2fc82fd4cd31f1c7c92d8558599413f4a2e Merge branch into tip/master: 'perf/core'
-3f62ef50b3566bffee369304d39f95e9d820d92b Merge branch into tip/master: 'ras/core'
-498a65ac4059853a096fd3f47c07cf97c0b06b71 Merge branch into tip/master: 'sched/core'
-1009eb1fe8cc9253ee71cb21c48a8335b56d29af Merge branch into tip/master: 'timers/cleanups'
-f08c595dbf2c80fc3afe3a6b1203201ec4900373 Merge branch into tip/master: 'timers/core'
-1827b5e45650ba1f37ce5e130a7a6fcbc9fe6143 Merge branch into tip/master: 'timers/vdso'
-59e11674799710f4ceb8bdc9bd16700b28663eda Merge branch into tip/master: 'x86/asm'
-bad66e54a87a46ab8ed0c8423b27d5d7668ec0e7 Merge branch into tip/master: 'x86/boot'
-e6029f3959a22c0acca5385781351da103e324d3 Merge branch into tip/master: 'x86/bugs'
-5e63d05d04e750d80bd65f80a10e4cf15210e5ca Merge branch into tip/master: 'x86/build'
-da19d09c3f02e7d92e02495ef81a24cf9a0ecd06 Merge branch into tip/master: 'x86/cleanups'
-93b15a3f8a3092f4d67565908414d95ecf9e1686 Merge branch into tip/master: 'x86/core'
-c2f6f35f79e6bd9027a167b4d7e03698659e4ca9 Merge branch into tip/master: 'x86/fpu'
-f396c3eb7f2026a31f3a7b1ca180c2bb8a186aa9 Merge branch into tip/master: 'x86/misc'
-db0d7f70c67e0f0cb368bb836c8ceaf117413b8a Merge branch into tip/master: 'x86/platform'
-b50dc47a8fed4a2d6ee863aa8d63f66577864e2d Merge branch into tip/master: 'x86/sev'
+5623bc23a1cb9f9a9470fa73b3a20321dc4c4870 s390/traps: Fix test_monitor_call() inline assembly
+a22ee38d2efe18edc53791fd1036396c23b43ad0 selftests/vDSO: Fix GNU hash table entry size for s390x
+b4a1dec11793936ffe1a9fb811724532ff3b1174 s390/ftrace: Fix return address recovery of traced function
+2a520073e74fbb956b5564818fc5529dcc7e9f0e Merge tag 's390-6.14-6' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
+da64a2359092ceec4f9dea5b329d0aef20104217 LoongArch: Convert unreachable() to BUG()
+a0d3c8bcb9206ac207c7ad3182027c6b0a1319bb LoongArch: Eliminate superfluous get_numa_distances_cnt()
+c9117434c8f7523f0b77db4c5766f5011cc94677 LoongArch: Use polling play_dead() when resuming from hibernation
+c8477bb0a8e7f6b2e47952b403c5cb67a6929e55 LoongArch: Set max_pfn with the PFN of the last page
+3109d5ff484b7bc7b955f166974c6776d91f247b LoongArch: Set hugetlb mmap base address aligned with pmd size
+6fb1867d5a44b0a061cf39d2492d23d314bcb8ce LoongArch: KVM: Add interrupt checking for AVEC
+78d7bc5a02e1468df53896df354fa80727f35b7d LoongArch: KVM: Reload guest CSR registers after sleep
+6bdbb73dc8d99fbb77f5db79dbb6f108708090b4 LoongArch: KVM: Fix GPA size issue about VM
+2e51e0ac575c2095da869ea62d406f617550e6ed Merge tag 'loongarch-fixes-6.14-2' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+b7c90e3e717abff6fe06445b98be306b732bbd2b Merge tag 'x86-urgent-2025-03-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+9e81a795988f04da2f8ebb6a61e867367cf69d42 Merge branch 'linus'
 
---===============5818171982406504530==--
+--===============6796081989926657646==--
