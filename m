@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jolsa/perf
-Date: Sun, 09 Mar 2025 22:34:06 -0000
-Message-Id: <174155964605.1371036.12130341784889697155@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 09 Mar 2025 23:53:44 -0000
+Message-Id: <174156442499.1433726.15966823965698616104@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jolsa/perf
-user: jolsa
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/bpf/optimized_usdt_1
-    old: c63f2f86076da544bc726c0e4dc9cb92f556b3d5
-    new: 3312761025bbea62089f2b10e8a82b52961c9441
+  - ref: refs/heads/master
+    old: 9712d38c87087ae34f8cede6583092c272507c52
+    new: 80e54e84911a923c40d7bee33a34c1b4be148d7a
     log: |
-         53e34e70fba6ca329b5b7a42440200d450edebcb seccomp: passthrough uprobe systemcall without filtering
-         3312761025bbea62089f2b10e8a82b52961c9441 selftests/seccomp: validate uprobe syscall passes through seccomp
+         80e54e84911a923c40d7bee33a34c1b4be148d7a Linux 6.14-rc6
          
+  - ref: refs/tags/v6.14-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 8098cf067a7aae92a4f293df03964bf8474faca1
