@@ -1,56 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============6259087607474168109=="
+Content-Type: multipart/mixed; boundary="===============0310551549328504302=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Sun, 09 Mar 2025 08:57:48 -0000
-Message-Id: <174151066876.653012.9071560278034072590@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Sun, 09 Mar 2025 08:59:54 -0000
+Message-Id: <174151079400.654594.13583570459913463455@gitolite.kernel.org>
 
---===============6259087607474168109==
+--===============0310551549328504302==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/master
-    old: 0eef0499fe953ac43abb2efad979b397fb6fa822
-    new: 1d458b42d43acd595177602dbb102dcfb742a33c
-    log: |
-         1d458b42d43acd595177602dbb102dcfb742a33c update cvelistV5
-         
+  - ref: refs/heads/wip/leon-for-next
+    old: 7bcd537adb21b5a1672f36a137e3fe9746dcb7bf
+    new: 2213213e177666ec3750484c571060f5c8309499
+    log: revlist-7bcd537adb21-2213213e1776.txt
 
---===============6259087607474168109==
+--===============0310551549328504302==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-7bcd537adb21-2213213e1776.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1741510624 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1741510668-00ff3e04ceb8dd76f13bccc1c3c9dbc748d75761
+22dc95b314682fe8167f233de611c53ecce9d39b RDMA/uverbs: Introduce UCAP (User CAPabilities) API
+b5ebc0f8d44ca05c36ea280c3e46c89c4d330707 RDMA/mlx5: Create UCAP char devices for supported device capabilities
+877066067ad5d88215805a822e96fea209aba1f0 RDMA/uverbs: Add support for UCAPs in context creation
+9e2c52e0cd7e0cc9b5f73f17fbda04519bb8ef8f RDMA/mlx5: Check enabled UCAPs when creating ucontext
+ab1fa111e0eb552a484324a3b5dd73b039a6885b RDMA/mlx5: Expose RDMA TRANSPORT flow table types to userspace
+f0f8115911b8954254f25e45dbf2bc05067c8e00 docs: infiniband: document the UCAP API
+d15ec773057745131b38c60192073c34052de8f4 RDMA/mlx5: Add optional counters for RDMA_TX/RX_packets/bytes
+7c14f27f296bc517e0d5e70952da0110bc6957e6 RDMA/core: Create and destroy rdma_counter using rdma_zalloc_drv_obj()
+7b9b67c6fbf2065764845d939e4ee2782d8323ce RDMA/core: Add support to optional-counters binding configuration
+084a6fc6bb269c9fe7d970f3cb147ee0d1b01262 RDMA/core: Pass port to counter bind/unbind operations
+2213213e177666ec3750484c571060f5c8309499 RDMA/mlx5: Support optional-counters binding for QPs
 
-0eef0499fe953ac43abb2efad979b397fb6fa822 1d458b42d43acd595177602dbb102dcfb742a33c refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfNV+AbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gzQP/jTsYX2Fk9Px805M8Gqy
-6QWJYY82SGWCeUqHBAtl0hElWNO9FkPs65wvMn0NRw3zwdNlMX8KAVpEeXIqSVU9
-/0e20uqTocUiMyAuZQhiLT7aGmYuptMVvhUXbGUC3RFMcHrdAJJzi1nV1bTPkerJ
-CB9QwndoC/TU96yIx9Xw9D/NJxzYJ/XHO8kur+L8nNEJL5JT/b1sR0PPbf+vrnwe
-xQ6OlJjCh9V+w93TanLgul5zfq1rzlqez4Vzi7djcGeU5ZfTGRCrTZrfxIUem8w9
-2Jnk1XUNbB9VDdijmJhwYtZcYf/nitvtkvCvCRFC3UWxJw465e7lBhHGQR2bDBFV
-jOwbxqIPc1nr+ee37OU7WVd0+n6JQI6mPI1Zt9FfXaFx3C/KBWWjG3lpIMdcuC9P
-1mFw+fmDhKQsC//cwQnE/1cDcYIrNJs7R9sWpdjW0giYmJDRYzMTwJWMT1V1d7+U
-w/mIXrcKNN35LuD5wYLRdf5jxWnVMZp2KLRdfGBrhZbYNf7K8EF2cZNWYg2UhnES
-5vu7J2jFsF/HVLcVeZako7hPvS3GtWnAaNikPwnwLJE/94DiCjo1+YknaWJHIntN
-4a57pMhplGFRDUwUR2f9SpC/yVCvi1SqFxBRT3OF6EEozpPQgERz+sjA0tTs+gHy
-dACf7ClprKrEPGNZzmM/spBb
-=CRzV
------END PGP SIGNATURE-----
-
---===============6259087607474168109==--
+--===============0310551549328504302==--
