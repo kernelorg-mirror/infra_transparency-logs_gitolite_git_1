@@ -1,56 +1,101 @@
-Content-Type: multipart/mixed; boundary="===============6998279579414353235=="
+Content-Type: multipart/mixed; boundary="===============2759502311872959993=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Sun, 09 Mar 2025 07:07:18 -0000
-Message-Id: <174150403887.562830.11552217504099521382@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Sun, 09 Mar 2025 07:56:18 -0000
+Message-Id: <174150697887.601611.1352981108926646066@gitolite.kernel.org>
 
---===============6998279579414353235==
+--===============2759502311872959993==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/asm-call
-    old: 3688c8209c27cd871041b38371e3c44e219ed75a
-    new: 44613874d65bd54453e4f3c595459870cf4a8c9c
-    log: revlist-3688c8209c27-44613874d65b.txt
+  - ref: refs/tags/v6.1.129
+    old: 0000000000000000000000000000000000000000
+    new: 54f00370cced2d9cf81af766d64d90187058cdac
+  - ref: refs/tags/v6.1.130
+    old: 0000000000000000000000000000000000000000
+    new: 29c3ad06fcb34d6985b83d4385b26487db07a833
+  - ref: refs/tags/v6.12.16
+    old: 0000000000000000000000000000000000000000
+    new: dc683a11772aeb94fe904926b9030429200b4b7e
+  - ref: refs/tags/v6.12.17
+    old: 0000000000000000000000000000000000000000
+    new: aef79454fadc478ab3e7698ccdaf97b8a3e3387d
+  - ref: refs/tags/v6.12.18
+    old: 0000000000000000000000000000000000000000
+    new: 85402141de99a70e399e48ae78c021ea98fa2421
+  - ref: refs/tags/v6.13.4
+    old: 0000000000000000000000000000000000000000
+    new: 0baf836b211e0a3ceeb9e8985dd385c192a1df52
+  - ref: refs/tags/v6.13.5
+    old: 0000000000000000000000000000000000000000
+    new: e845c978825158a3b03ec32580ed9444221815bb
+  - ref: refs/tags/v6.13.6
+    old: 0000000000000000000000000000000000000000
+    new: fa8eb5e2f3138f513aa2002bee4ea583649535c1
+  - ref: refs/tags/v6.14-rc4
+    old: 0000000000000000000000000000000000000000
+    new: ab680199364b446c9b642f1c1c1306b71535ace1
+  - ref: refs/tags/v6.14-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 1d53763dc16c9fc9329a4cdc14d691979d47568f
+  - ref: refs/tags/v6.6.79
+    old: 0000000000000000000000000000000000000000
+    new: bbc9d101b30cf1de8b02d685cabfdd60d38c18ef
+  - ref: refs/tags/v6.6.80
+    old: 0000000000000000000000000000000000000000
+    new: 9e2c11e6b9305f204c0f8248eaa17fcaf45af28b
+  - ref: refs/tags/v6.6.81
+    old: 0000000000000000000000000000000000000000
+    new: 356e7e36bc4be13679652ba7f9081a6c37ff8671
 
---===============6998279579414353235==
+--===============2759502311872959993==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3688c8209c27-44613874d65b.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-edfdfcbe73739b8036fa89736e12a7b2188c7ac6 x86/uaccess: Use alternative_io() in __untagged_addr()
-a84fcb15f96ef150a30f175cce6fcaa6aed5d61e x86/alternative: Add alternative_2_io()
-5d8feb47ddf24457f933688d8004133aa867b3bd x86/msr: Use alternative_2_io() in rdtsc_ordered()
-1a2dcd2e46c7ff37162e38d04a88bbfc1f2b7e14 x86/asm: Introduce asm_call()
-f3416908c73e2c46ffef17a0b05aea618b84054a x86/alternative: Use asm_call() in alternative_call[_2]()
-92a17ee5544b509e4ffa6ceb582055be57083879 x86/alternative: Use asm_call() in alt_reloc_selftest()
-d9fc3276fb336c34783e1b1af9fca4117bec44a1 x86/paravirt: Use asm_call() in ____PVOP_[ALT_]CALL()
-47f850f577cce3214e8a6be438714b31e9d3e7e1 x86/locking: Use asm_call() in *_cmpxchg64_emu()
-3df907ec03d8ea0525a4ca14b966263f06f26825 x86/atomics: Use asm_call() in __alternative_atomic64()
-8f80993c1593bdb5cc346d066e6e88c8dacdb5ea x86/irq: Use asm_call() in call_on_stack()
-aa81a7d76185c9d4373a1f1d5d0b101328e8b4ce x86/hyperv: Use asm_call() in hypercall functions
-b0a00d79a6bcc3492e35581b11327661a22edb68 x86/preempt: Use asm_call() in __preempt_schedule[_notrace]()
-f6ea209fa7e5775f4119b5d83f591bf3795f228b x86/sync_core: Use named asm operands in iret_to_self()
-124563fa425574ae4a10d31a281734d935d341d1 x86/sync_core: Use asm_call() in iret_to_self()
-437b4fd960d3ee4b4ba817995fe37047ea10871b x86/uaccess: Remove matching constraints in uaccess functions
-9f4ac1c71d4fbfefd7d0208d1013ba6201801602 x86/uaccess: Use asm_call() in uaccess functions
-96d3258b6cb6c042087f728a1aff88caaf36cfe4 x86/xen: Use asm_call() in __hypercall*()
-a469d22112019d23728c62450992bc11cfe9565e x86/alternative: Use asm_call() in int3_selftest()
-0528fb9dd01f1f5b6ce8a7e1eba2ba010b8a0937 KVM: x86: Use asm_call() in test_cc() and fastop()
-f98103f1ddf018f7a5c99f48a6a9fd17ded399c3 KVM: VMX: Use asm_call() in __vmcs_readl()
-51327a8fe77caa2a3d0ad5f27dff48ee2bb463bf x86/hweight: Use named asm operands in __arch_hweight*()
-bc4f887435161fa6acf651717e6d33262b04e7a3 x86/hweight: Use asm_call() in __arch_hweight*()
-33fe10339dd61d6f8c20c8d64cd393af50140fca x86/percpu: Add __asm_call() and use it in percpu cmpxchg ops
-f58bf4bdc09e156026e6e1e3ba91d11894eb8301 x86/asm: Remove ASM_CALL_CONSTRAINT and ALT_OUTPUT_SP()
-8d6b51648ab842320012488db50f12fb14616a06 x86/asm: Disable asm_call() output constraint for non-FP configs
-44613874d65bd54453e4f3c595459870cf4a8c9c x86: Fix asm_call() for Clang 19 + KCOV + KMSAN
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1741506933 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc
+nonce 1741506975-2235b888771661a2b6e99182c61e833cb96b0921
 
---===============6998279579414353235==--
+0000000000000000000000000000000000000000 54f00370cced2d9cf81af766d64d90187058cdac refs/tags/v6.1.129
+0000000000000000000000000000000000000000 29c3ad06fcb34d6985b83d4385b26487db07a833 refs/tags/v6.1.130
+0000000000000000000000000000000000000000 dc683a11772aeb94fe904926b9030429200b4b7e refs/tags/v6.12.16
+0000000000000000000000000000000000000000 aef79454fadc478ab3e7698ccdaf97b8a3e3387d refs/tags/v6.12.17
+0000000000000000000000000000000000000000 85402141de99a70e399e48ae78c021ea98fa2421 refs/tags/v6.12.18
+0000000000000000000000000000000000000000 0baf836b211e0a3ceeb9e8985dd385c192a1df52 refs/tags/v6.13.4
+0000000000000000000000000000000000000000 e845c978825158a3b03ec32580ed9444221815bb refs/tags/v6.13.5
+0000000000000000000000000000000000000000 fa8eb5e2f3138f513aa2002bee4ea583649535c1 refs/tags/v6.13.6
+0000000000000000000000000000000000000000 ab680199364b446c9b642f1c1c1306b71535ace1 refs/tags/v6.14-rc4
+0000000000000000000000000000000000000000 1d53763dc16c9fc9329a4cdc14d691979d47568f refs/tags/v6.14-rc5
+0000000000000000000000000000000000000000 bbc9d101b30cf1de8b02d685cabfdd60d38c18ef refs/tags/v6.6.79
+0000000000000000000000000000000000000000 9e2c11e6b9305f204c0f8248eaa17fcaf45af28b refs/tags/v6.6.80
+0000000000000000000000000000000000000000 356e7e36bc4be13679652ba7f9081a6c37ff8671 refs/tags/v6.6.81
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfNSXUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JEoP/1fPBoeSu/MhjRg0fVXx
+jybDxwBa731g1kREG1iNH7ehjwR1nlASrdfIe4rDWZtVvOiJSc2Ij3sAzvLqYEO5
+6WqD/CliCXoHyXA4qHZtQ+MiT9Cwv1rdvZXAmMMuqsF5+d5kX/WXs0avtZ6KHrfC
+6y9OGLiZwQ0FFFuLd9XJZb6bUvGDj1ghI0WFjKwmzgUXZajyroeFOi/rUgGDE6vF
+R++TvOwDl3Y4ztn5pX8mz3d9QX4qagDs17vD5eQYRN/3qapfw3T5StG7TOLji3fJ
+51FT/3p16yHfO0bcDrtPAuKqbAixOmBb0PuUq4HRW8ZDGFsTVJ0/9WgC8YF2Rwmw
+gPlGQe4FbsUODLYG7srS+GcNrtyLELOgfM4T/Ya9CU9gQL7ICYaC2HKwE2tSQ2Az
+iXpIiJd1O0q10ceVZAHifA9e/aTLCLmlDdut5/2V52Xi+nz2Er4qef3NSoqoibli
+fVoUPGqBen6gZZ5aPzOdE6AO3K+mrK0BiAI6HC609fzr9YB8PTAbtPXlqNSoPKd6
+/0xDICtr4J8TKPNmOA7UvsMOkAsFy6nIHgT0PDRIgkX91ICMfKAhuAEIDmMyBr4Q
+dpbC2f9/DpuAJ5mLIfJ2JmxJJdeZO6Z2IbkxaMk/tnEp0FXShz3t6mBbm+IoTeJ4
+OQLvMzfrian2889+c2KByVAO
+=OgJx
+-----END PGP SIGNATURE-----
+
+--===============2759502311872959993==--
