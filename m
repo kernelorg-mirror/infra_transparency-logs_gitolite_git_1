@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Sun, 09 Mar 2025 21:52:08 -0000
-Message-Id: <174155712849.1338929.14400460558120312195@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jolsa/perf
+Date: Sun, 09 Mar 2025 22:34:06 -0000
+Message-Id: <174155964605.1371036.12130341784889697155@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/kernel/git/jolsa/perf
+user: jolsa
 changes:
-  - ref: refs/heads/for-next
-    old: b6e391beb544e08cb4cacbd43a9f7d1974e07497
-    new: b3c659727cd212f5efef0c23b10bc7be6223fd51
+  - ref: refs/heads/bpf/optimized_usdt_1
+    old: c63f2f86076da544bc726c0e4dc9cb92f556b3d5
+    new: 3312761025bbea62089f2b10e8a82b52961c9441
     log: |
-         3cc9332528aa801036d4c0555662d9bf5b133f07 gfs2: Convert gfs2_end_log_write_bh() to work on a folio
-         b3c659727cd212f5efef0c23b10bc7be6223fd51 gfs2: Convert gfs2_meta_read_endio() to use a folio
+         53e34e70fba6ca329b5b7a42440200d450edebcb seccomp: passthrough uprobe systemcall without filtering
+         3312761025bbea62089f2b10e8a82b52961c9441 selftests/seccomp: validate uprobe syscall passes through seccomp
          
