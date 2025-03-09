@@ -1,41 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0310551549328504302=="
+Content-Type: multipart/mixed; boundary="===============8965944965540542530=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Sun, 09 Mar 2025 08:59:54 -0000
-Message-Id: <174151079400.654594.13583570459913463455@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 09 Mar 2025 09:19:48 -0000
+Message-Id: <174151198840.719042.6493017480311539452@gitolite.kernel.org>
 
---===============0310551549328504302==
+--===============8965944965540542530==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 7bcd537adb21b5a1672f36a137e3fe9746dcb7bf
-    new: 2213213e177666ec3750484c571060f5c8309499
-    log: revlist-7bcd537adb21-2213213e1776.txt
+  - ref: refs/heads/master
+    old: a325d9c2874da93e3530ee04ec3c392782f52ffd
+    new: 2f35add2ff3416492e90c77ba21195b186824fec
+    log: |
+         2f35add2ff3416492e90c77ba21195b186824fec 6.1-stable patches
+         
 
---===============0310551549328504302==
+--===============8965944965540542530==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7bcd537adb21-2213213e1776.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-22dc95b314682fe8167f233de611c53ecce9d39b RDMA/uverbs: Introduce UCAP (User CAPabilities) API
-b5ebc0f8d44ca05c36ea280c3e46c89c4d330707 RDMA/mlx5: Create UCAP char devices for supported device capabilities
-877066067ad5d88215805a822e96fea209aba1f0 RDMA/uverbs: Add support for UCAPs in context creation
-9e2c52e0cd7e0cc9b5f73f17fbda04519bb8ef8f RDMA/mlx5: Check enabled UCAPs when creating ucontext
-ab1fa111e0eb552a484324a3b5dd73b039a6885b RDMA/mlx5: Expose RDMA TRANSPORT flow table types to userspace
-f0f8115911b8954254f25e45dbf2bc05067c8e00 docs: infiniband: document the UCAP API
-d15ec773057745131b38c60192073c34052de8f4 RDMA/mlx5: Add optional counters for RDMA_TX/RX_packets/bytes
-7c14f27f296bc517e0d5e70952da0110bc6957e6 RDMA/core: Create and destroy rdma_counter using rdma_zalloc_drv_obj()
-7b9b67c6fbf2065764845d939e4ee2782d8323ce RDMA/core: Add support to optional-counters binding configuration
-084a6fc6bb269c9fe7d970f3cb147ee0d1b01262 RDMA/core: Pass port to counter bind/unbind operations
-2213213e177666ec3750484c571060f5c8309499 RDMA/mlx5: Support optional-counters binding for QPs
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1741511943 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1741511986-31f9a4e0fc57fa18b5c3ed4d7c1bae275ec5839b
 
---===============0310551549328504302==--
+a325d9c2874da93e3530ee04ec3c392782f52ffd 2f35add2ff3416492e90c77ba21195b186824fec refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfNXQcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+t6kQAJoplPyXJtmQKoiz4XdA
+ElcZb3v2hpBQItweQ1/oOSE/1JeQuMn638rwD6GIhQ8T3CPDl6N510j7ub12mD75
+N8d+YemmT6U9j04Hp1npiX/nUMXo4BE8N7ZGPylJGURLkj8K+mYJrYjyyeFjDtrm
+NdifoN4BT4svwrmASB6t97pkl19QU0tFqhzjN8VJmnEm4/P+QGvGiO7J/Szlbm8j
+lp0dLnQzPg9BPQQCPi3APBFJ8v3+PsCu3GDKiW3TSsSc71MIfG6wqsWKkriwwo8J
+Z7wT0aitSyIKLB86Z39yF3y9+3Lmdm85K/jCDgdw5YEKjCUzDIr3dx7eiqXLbK0E
+lS/SV1xOIyMZbar59Du+GiuxXqpSqydto+ak4bh9aKz0FLSN0daudzAuH7xrmpk6
+fnjuHb47jWati7zIxEgrOPeHG2PNyvKJs3hw2fgpfb2aBaOYxNEUd2LAZVwhDujA
+pk5W9rGSb5CuescP7Wc4oS7WvYhnWjUuWpIVDN1ARc6bYIpFV3/V/Vx5+wwr1yUB
+awwGmjSDfMHUxGWBobMNeXfFtFNKxzfB6lXv2YojY9NuSxLIotFxqeVGBeFpI+2I
+CRLKmZeK7EPbyMTSMytS7IOcgFAsh0IXC+Rjbwg1wykDPcOhZNhEuOPObId2b+jI
+m5j4B9Wn5QoP5zMiRYkJ2t/X
+=zXe9
+-----END PGP SIGNATURE-----
+
+--===============8965944965540542530==--
