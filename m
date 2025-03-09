@@ -1,56 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============0723575504770308135=="
+Content-Type: multipart/mixed; boundary="===============4039376366565878675=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sun, 09 Mar 2025 17:49:13 -0000
-Message-Id: <174154255356.1129283.10074841135450693269@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Sun, 09 Mar 2025 17:53:53 -0000
+Message-Id: <174154283316.1133938.17725553050988604109@gitolite.kernel.org>
 
---===============0723575504770308135==
+--===============4039376366565878675==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/master
-    old: 70fdbf4db3b1354dcf4e4cb49ed2ecf85241541e
-    new: 7236f220d2b09982c56288470a74a3db0aa42e31
+  - ref: refs/heads/for-next
+    old: 1ebdb672ba319af28aa0a0fa25ba488353b7d81a
+    new: 567228a62bd27903efe53d0a3ab7d61675989793
     log: |
-         7236f220d2b09982c56288470a74a3db0aa42e31 drop broken 6.1 and 5.15 efi patches
+         8f299df1b75ad0939f1340182c265de019eab438 dt-bindings: soc: samsung: exynos-usi: Drop unnecessary status from example
+         567228a62bd27903efe53d0a3ab7d61675989793 Merge branch 'next/drivers' into for-next
+         
+  - ref: refs/heads/next/drivers
+    old: 4c57930f68d90e0d52c396d058cfa9ed8447a6c4
+    new: 8f299df1b75ad0939f1340182c265de019eab438
+    log: |
+         8f299df1b75ad0939f1340182c265de019eab438 dt-bindings: soc: samsung: exynos-usi: Drop unnecessary status from example
          
 
---===============0723575504770308135==
+--===============4039376366565878675==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1741542582 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1741542551-27142266f97ed4821b0c6224c51615ce27f44029
+pusher krzk@kernel.org 1741542860 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1741542830-fb7d7a558363b7eb07fb64ca464f853243e4a723
 
-70fdbf4db3b1354dcf4e4cb49ed2ecf85241541e 7236f220d2b09982c56288470a74a3db0aa42e31 refs/heads/master
+1ebdb672ba319af28aa0a0fa25ba488353b7d81a 567228a62bd27903efe53d0a3ab7d61675989793 refs/heads/for-next
+4c57930f68d90e0d52c396d058cfa9ed8447a6c4 8f299df1b75ad0939f1340182c265de019eab438 refs/heads/next/drivers
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfN1LYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DV4P/1Ls297S6J8FiWy/Oeh2
-gYmmMD4O7K6oQC6JBAVbzF4zE/GLQptYZbarZS3nAqboJigNq/zFCWz2od8tv3vX
-shHLpPf2Gil5qAerxOW4L6tqFurL70mEe74gTHD2tNsjzKxZxWjpUufYsM3/Fz5l
-zFr2gg8DET6TCiD977Cxv33ePUCibAp1yMTJy56iN/FZVD6QT5fKFpiGbsecT+2v
-1bvUEnk0FhSea2gLjq7SwUfnYDo/3OVAGrU68BIiF1UzWyTCinZVMu81mul1rez/
-NYTgel8Jozck+STQBqURuh9riyIcTqMGhf6FZKN3zXtx0vvG+lDp0IQljZMRH8Ez
-2cu7mG9RNbG0UGb8qXlRyB2v6t/OunhFBGBjwMjYO0b8rFLPMbR4mISZr5vy5/Nl
-rogdCnOsvWflQVU+mqHutEfnuUONUpuofcxaFNVDPBeFMqcQu4V1mCyPpZCXmtT7
-u2y0nJ0RQZuqFFpKTyWYNdhu3mTBA+pTXvQ8xQ5ZyDy9JiRpq8dotqm00XVRBk6X
-lwhI7u7CqHL9lAEZwiVRjPEm+euOccM1ou4vpcMtCkQv6NZ6+y5atpNLQzo6KkI+
-GWW5E0OSXk5VH5mJuPkOUDzrWVtok3PF4GIK18BWMS7ELDDTFNJBj3J+dQeqsl26
-3YKkqx5TiOq0G2sWuj/XpaTI
-=6AfO
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmfN1cwQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD188+D/9byZVO72pv+l9N/Hwu6qTNUWbiKoztjr5P
+c7BjN9UYKgPb+i9Br/es/XKExVJCKRemNdDaWx0N4/0bb6hTPs+XrTt2IYG9hVXz
+mGIhWWALT1GsbJX5uh7kGGHydelz01eTGqisPouteVSnCQl2JYp/LnmtmgAYHyPM
+GIawi3K4WNVNPp23STkkjA0pV2QeMDksKYoTs6A8UMl3bkxy+cMP/ZDQIT2FwDEp
+FBHbrTX/Iw2JFvKYKlhTEG3Sd7x5nc+V2fuTf6ur1FeM+8cRjSi0DsMhzevRvjws
+ZaJHMtHtZWAv6/RSR2zNJYnRWPDizQH5O76Lte48Q3eeckR1VjOGqdS50/GRyQo5
+FWynVwhtC9geqH8J6B39WgNF7PUJ9qdh68F3XgSbe0xb8IDFLKi1cgtLp080beIL
+AHMThR3giKqGnsG1ePyc2p2TJ/VVp02EAV/aIMX5F0K689dQBRjV06kQIcbtP14k
++5ShHKB/zTqQzZnEhbk2CfX9J07RhLUe8QjrfCXF/jzMAu2H5bFwBzZNrQCDtXHo
+DsnTWqK6eUu/T+I1dsO9MWb0na0B6quUYfZNI43KgXdJ4lvpNZVmBuVNi6hUoocc
+BVKwODD0iw7lfH4Y9URcxjbZh0IV4PNlH+e/Vg42fkncbSvU81wtVUZCOAxXCvxd
+n44IU7Ch8g==
+=jRgh
 -----END PGP SIGNATURE-----
 
---===============0723575504770308135==--
+--===============4039376366565878675==--
