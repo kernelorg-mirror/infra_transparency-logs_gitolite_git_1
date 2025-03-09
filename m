@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2962197559078736293=="
+Content-Type: multipart/mixed; boundary="===============2881812988236732170=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Sun, 09 Mar 2025 20:16:55 -0000
-Message-Id: <174155141559.1255249.11978456038454086293@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Sun, 09 Mar 2025 20:18:59 -0000
+Message-Id: <174155153904.1256229.14547929699268474406@gitolite.kernel.org>
 
---===============2962197559078736293==
+--===============2881812988236732170==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
 user: deller
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 9712d38c87087ae34f8cede6583092c272507c52
     log: revlist-1110ce6a1e34-9712d38c8708.txt
 
---===============2962197559078736293==
+--===============2881812988236732170==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -104,4 +104,4 @@ a382b06d297e78ed7ac67afd0d8e8690406ac4ca Merge tag 'for-linus' of git://git.kern
 0dc1f314f854257eb64dcea604a42a55225453a9 Merge tag 'usb-6.14-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 9712d38c87087ae34f8cede6583092c272507c52 Merge tag 'kbuild-fixes-v6.14-3' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 
---===============2962197559078736293==--
+--===============2881812988236732170==--
