@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4929175649699010130=="
+Content-Type: multipart/mixed; boundary="===============9204803756476313398=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 10 Mar 2025 06:46:16 -0000
-Message-Id: <174158917688.1824837.5186143044930468328@gitolite.kernel.org>
+Date: Mon, 10 Mar 2025 06:46:21 -0000
+Message-Id: <174158918112.1825103.2119691427234751770@gitolite.kernel.org>
 
---===============4929175649699010130==
+--===============9204803756476313398==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 0ad2507d5d93f39619fc42372c347d6006b64319
+  - ref: refs/heads/driver-core-linus
+    old: 78eb41f518f414378643ab022241df2a9dcd008b
     new: 80e54e84911a923c40d7bee33a34c1b4be148d7a
-    log: revlist-0ad2507d5d93-80e54e84911a.txt
+    log: revlist-78eb41f518f4-80e54e84911a.txt
 
---===============4929175649699010130==
+--===============9204803756476313398==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1741589205 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1741589210 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1741589175-4bc69ffa09d8d4921e8e7eb8e64927d9d735bc6b
+nonce 1741589179-a1c429847c35df23059132df7bc4585a8c63d2f6
 
-0ad2507d5d93f39619fc42372c347d6006b64319 80e54e84911a923c40d7bee33a34c1b4be148d7a refs/heads/main
+78eb41f518f414378643ab022241df2a9dcd008b 80e54e84911a923c40d7bee33a34c1b4be148d7a refs/heads/driver-core-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfOitUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7RoQAJ/jPpBwZvNQz/tV5RoT
-ndazg76UATSmIbSnXf68RhHaO3hyChSx7JwcEoDZAuCTO4Hde2Jmyel8IlNgI7BU
-93rkv+DnKAUEQHQqm+wTj7LO5Kn2ap3Rp+dUWuQg726T5XcpN5AmSIwOFYpCs3IZ
-/4Bl7NkPrCgtVeZzq2QeR52+xBJZyP6J1DNIlpY15WmJ7MF3gZyQ8usgCbq9n7Nc
-GZyVpvqL6GUrqDfRN0mWEsu8a3DWv8m8eUgfZz3pFoeZTJKQXFPRmEBWbOieYH0p
-f+wY+Y3lr1csRzUbkCcJ6oOCYPV4DYweWiN3aY6Xcv6S3DIxLqn1BJIQC3/XbfmJ
-3wtc7J0bxKDnrCLc5mMEGDJXsJ9lNGniPW1Ed3Ph9AEk/1k8RK2m6Iy2mzAJN6Mx
-t0gn210zU/aGvKG7Z4G2pvCp/orND6PqxuvIef5MmfzEKNeAkyMUXBbPdlJguZBU
-CP7SKPJyCjz+9lfhi0AbFLytSJ9aHKhTWGmKWhApB/FmCx5Lw0NTcF1vNPUdWWFa
-r6xrsDnfQRXD5IZXqxCdJMUsTEE1SkwQ60qdoBuLepDWqR01/p33FP5YuHpUw7r9
-0yIsdaH93D//zoqoB3v8AZSypblQQ90EeSWoxx28QqbPVME35rp58lcCf5OGPiWb
-N+1XdkBqKU87Cgd5X0wFCmhB
-=0eew
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfOitobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AmIP+gPjQKuKyC7KGI9Bsg4M
+Ftfb+e6Eq5Q71nh+Q/5yM2vAdonfkvUTFWa/6T53FKVPsdIUXxZFX3FjdcCY86MR
+hicJ42b4plCfhEvvvqXLbUeIWkBpT6eMfKdUUTgUUTAE6wHB2lSEE3fsiJ1V3617
+4f6DWeAj4WBGHAUNa3Q64fvm8lfoihhRoadsv+OiSYLScqE70cU2dZXk5fyRHL82
+jrWF1zE+H2Ho6haMkg/96QDXF6+nFuiet0j3+m6XRllNIrbPL8GnCWXGgfoxgyuq
+WH97N/LGJmsm12ZMqyxBMvXZzuBqp2Q6KC7/m3jspUW1yePgreRQdBmp8kIcp7yQ
+2liIg7Hkm+1Gg8PbepSr+a2XtDEOoFIzhvQ1kw9/VP15EFl5kKPeCt4UL/v/RlLx
+3uPgv+xBNkhtVZFIrvQrhP4lw7P18PikCkCpOsx3ktO4e27tWAzY97g/QGGG5/Y0
+MFpJyOZBN+5o/TRgg3aoskhsXCJjI6aljwpeoVrf8Wd/Adfj/jbd9yHtuS6xpMlz
+pNdi59KkQSfP9TLfs3bPOGwNjMVY0RLKzcOTQVqrTqBBGIVMr0sgPgnGx/2U/icn
+QCtKDvaqlx0vQY8PflOoI43t7BVPpo5vNFPBawn1WKx51wz1Nrg0hkRcjGc/PHtw
+DhK4sPe7nLGUTIGEIpB8WMJc
+=pUXD
 -----END PGP SIGNATURE-----
 
---===============4929175649699010130==
+--===============9204803756476313398==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0ad2507d5d93-80e54e84911a.txt
+Content-Disposition: attachment; filename=revlist-78eb41f518f4-80e54e84911a.txt
 
 b9a49520679e98700d3d89689cc91c08a1c88c1d rcuref: Plug slowpath race in rcuref_put()
 7332537962956fab2c055b37e5e2e6a0d2a8d6bf bpf: Remove unnecessary BTF lookups in bpf_sk_storage_tracing_allowed
@@ -424,7 +424,6 @@ a70034d6c0d5f3cdee40bb00a578e17fd2ebe426 intel_th: pci: Add Panther Lake-H suppo
 14ad6ed30a10afbe91b0749d6378285f4225d482 net: allow small head cache usage with large MAX_SKB_FRAGS values
 6bc7e4eb0499562ccd291712fd7be0d1a5aad00a Revert "net: skb: introduce and use a single page frag cache"
 dd3188ddc4c49cb234b82439693121d2c1c69c38 Merge branch 'net-remove-the-single-page-frag-cache-for-good'
-78eb41f518f414378643ab022241df2a9dcd008b drivers: core: fix device leak in __fw_devlink_relax_cycles()
 c783e1258f29c5caac9eea0aea6b172870f1baf8 usb: gadget: Fix setting self-powered state on suspend
 96fa9ec477ff60bed87e1441fd43e003179f3253 gpiolib: don't bail out if get_direction() fails in gpiochip_add_data()
 91d44c1afc61a2fec37a9c7a3485368309391e0b cdx: Fix possible UAF error in driver_override_show()
@@ -1000,4 +999,4 @@ a382b06d297e78ed7ac67afd0d8e8690406ac4ca Merge tag 'for-linus' of git://git.kern
 9712d38c87087ae34f8cede6583092c272507c52 Merge tag 'kbuild-fixes-v6.14-3' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 80e54e84911a923c40d7bee33a34c1b4be148d7a Linux 6.14-rc6
 
---===============4929175649699010130==--
+--===============9204803756476313398==--
