@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3291817732815288816=="
+Content-Type: multipart/mixed; boundary="===============1261941692241969538=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 10 Mar 2025 07:17:18 -0000
-Message-Id: <174159103879.1850803.4431808338481832192@gitolite.kernel.org>
+Date: Mon, 10 Mar 2025 07:17:27 -0000
+Message-Id: <174159104745.1851158.10708782323847904837@gitolite.kernel.org>
 
---===============3291817732815288816==
+--===============1261941692241969538==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: b13abcb7ddd8d38de769486db5bd917537b32ab1
-    new: 80e54e84911a923c40d7bee33a34c1b4be148d7a
-    log: revlist-b13abcb7ddd8-80e54e84911a.txt
+  - ref: refs/heads/usb-next
+    old: b331a3d8097fad4e541d212684192f21fedbd6e5
+    new: 525b139fb4033a9ba5abd6ca3f6a6baa3b2fe3d4
+    log: revlist-b331a3d8097f-525b139fb403.txt
 
---===============3291817732815288816==
+--===============1261941692241969538==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1741591067 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1741591072 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1741591037-a2188994312be0b9e7114a12699c46f054f65769
+nonce 1741591042-1bf95274cfc91a4173c5da17fd9be0ca4aeb97f4
 
-b13abcb7ddd8d38de769486db5bd917537b32ab1 80e54e84911a923c40d7bee33a34c1b4be148d7a refs/heads/usb-linus
+b331a3d8097fad4e541d212684192f21fedbd6e5 525b139fb4033a9ba5abd6ca3f6a6baa3b2fe3d4 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfOkhsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Q/QP/i0FySfksQn1XNQEbI9b
-3QRd7BoCKqA9EnIgxsl1a1sGOIq4aR/bgTrzO0qxnKpZ2dhJql7Y5NCw1dMer4lP
-vWxU7jUmxqH1J7qsBrF+37v8Bknl9XXg48Xpsay70v77N5p42fsxGpBfRO9iQwsP
-Yw7fgCaTylABF+yJD+GGivQtUPYQxui8oJgxe0GVtQ+us6/qS+TfYd8Fhx+n87Lr
-EEk95FzNIAKE0MLajRy5oAZG1+WGtkSw9y/+c4MOGXeCZP5Gx51tVkF9Qh3DrT5l
-Meq++5re8s5jh5nUs8DGWFeTX/nG8wpCqzeDR3kfhBv0wLx+tMXq+o4NEIjnRdIm
-e8Mg7LccgPVkLEEg8rL0ophRRS5DoYPnSTvJy0bfVUZ3M1tTRk4/Gp+L/nIYk1bt
-+zWR4naGsO3yKoviZVx1jR6znrvO0xSlu63cbkHx6nj+THS8vsLdm1fiUqo8ui12
-kNnrAM5W7lIV+/2bpvJBKrUcHEJIhyJznQmAyro2bjAQJKdxDwv37Sras/Ppjj82
-P7R9BzUNiESfBwXNOjMFBxfLbXY/L2BxG98PSk4jLlRerHrN/3iR0S/5ofpOxf6G
-L/vb0sDMRor9LZu4AY/Cs3KjgR1g2G4oPN8EA6z1PiMC+FsycoX0/jwkdrRVzeNE
-0G4VoeO6FP98CL/4aoXMt4sq
-=VvH4
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfOkiAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BPwP/1CHzRI0E1TOwyTpVkaM
+sKoo7/JipKTV6bFaz3PLqcemugizHA4HhBpsfJY54cQxHo7Zbp8oo9TZxasU0Qpf
+HldT5Sc/JTTIDGUhN/hQ8ylkLx8PVYY0sIBmNR7zVxbGUIn4+LDcnTf0P+dmK8Wu
+D1MmJSP4F6kDAw94rOrVbyL2rQLpqI4BBJuIekgGFgjSog7/8FfYifSdQgodB9jk
+09gf0pFA4VRJmQBeuvaCSp5PfwgV7SuL3RHnRcz48yHn3zDxvBV6opruzm3B25zG
+M9SS9qG8WxSXC6HcFee9jlKArh6ZrMsCeaUY/nxiqvxJldv44o3BdSL4pTrq1Kc8
+aDtjzqJXVNUsT2R9S50vgLR4VfpIFHshCGTD3lJEncZmpAjCxLbdp21/17wr27sF
+ZjNm19w/RfAvglfDeTtUcT0oCX5imRtUMMSFTKEtAjMuCWBwhYAvealwbrJ/yGxN
+DWaRku8U8fOPoMFc+4nXhKZgtmMiJTMAOs0T+VLpdBFWJhGjdDgMIumNQRuc9hmF
+6r1ZtLXk2wPMZLD+QgkWkkWRSWpA5R8UuFHekLb08Xv57k6LHap34mqTYfoA03LO
+0FFTj99fCRFUZluZfcoQM/jp57AhX3GYUYx8rc9Cavl+XPkeuV/DOrmrZJg2+2r/
+SHsjv4Qu0DGFBl5z5wsY2xSs
+=n8Ry
 -----END PGP SIGNATURE-----
 
---===============3291817732815288816==
+--===============1261941692241969538==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b13abcb7ddd8-80e54e84911a.txt
+Content-Disposition: attachment; filename=revlist-b331a3d8097f-525b139fb403.txt
 
 b9a49520679e98700d3d89689cc91c08a1c88c1d rcuref: Plug slowpath race in rcuref_put()
 7332537962956fab2c055b37e5e2e6a0d2a8d6bf bpf: Remove unnecessary BTF lookups in bpf_sk_storage_tracing_allowed
@@ -366,6 +366,12 @@ eff2eb592efd73f00590d578c3d6021f604df62c cxl: Fix cross-reference in documentati
 1dbf60277e9b6181d2366a94c974728106cdd551 Merge tag 'spi-nor/fixes-for-6.14-rc4' of https://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux into mtd/fixes
 a8e8ffcc3afce2ee5fb70162aeaef3f03573ee1e mei: me: add panther lake P DID
 fdb1ada57cf8b8752cdf54f08709d76d74999544 mei: vsc: Use "wakeuphostint" when getting the host wakeup GPIO
+c90aad369899a607cfbc002bebeafd51e31900cd usb: atm: cxacru: fix a flaw in existing endpoint checks
+17c2c87c37862c3e95b55f660681cc6e8d66660e usb: gadget: u_ether: Set is_suspend flag if remote wakeup fails
+40e89ff5750fca2c1d6da93f98a2038716bba86c usb: gadget: Set self-powered based on MaxPower and bmAttributes
+d6b82dafd17db0658f089b9cdec573982ca82bc5 usb: typec: tcpci_rt1711h: Unmask alert interrupts to fix functionality
+976e7e9bdc7719a023a4ecccd2e3daec9ab20a40 acpi: typec: ucsi: Introduce a ->poll_cci method
+bf4f9ae1cb08ccaafbe6874be6c46f59b83ae778 usb: typec: ucsi: increase timeout for PPM reset operations
 a321d163de3d8aa38a6449ab2becf4b1581aed96 bus: mhi: host: pci_generic: Use pci_try_reset_function() to avoid deadlock
 fa2e55811ae25020a5e9b23a8932e67e6d6261a4 ntsync: Set the permissions to be 0666
 fb3331f53e3cb1f1505f918f4f33bb0a3a231e4f io_uring/rsrc: remove unused constants
@@ -419,6 +425,7 @@ a70034d6c0d5f3cdee40bb00a578e17fd2ebe426 intel_th: pci: Add Panther Lake-H suppo
 6bc7e4eb0499562ccd291712fd7be0d1a5aad00a Revert "net: skb: introduce and use a single page frag cache"
 dd3188ddc4c49cb234b82439693121d2c1c69c38 Merge branch 'net-remove-the-single-page-frag-cache-for-good'
 78eb41f518f414378643ab022241df2a9dcd008b drivers: core: fix device leak in __fw_devlink_relax_cycles()
+c783e1258f29c5caac9eea0aea6b172870f1baf8 usb: gadget: Fix setting self-powered state on suspend
 96fa9ec477ff60bed87e1441fd43e003179f3253 gpiolib: don't bail out if get_direction() fails in gpiochip_add_data()
 91d44c1afc61a2fec37a9c7a3485368309391e0b cdx: Fix possible UAF error in driver_override_show()
 c99e1e1d0850ff157f1bc16871acd2dff5a9bcc3 vbox: add HAS_IOPORT dependency
@@ -691,6 +698,7 @@ e3cf2d91d0583cae70aeb512da87e3ade25ea912 efi/mokvar-table: Avoid repeated map/un
 eed6bfa8b28230382b797a88569f2c7569a1a419 arm64: hugetlb: Fix flush_hugetlb_tlb_range() invalidation level
 6b481ab0e6855fb30e2923c51f62f1662d1cda7e drm/nouveau: select FW caching
 82c387ef7568c0d96a918a5a78d9cad6256cfa15 sched/core: Prevent rescheduling when interrupts are disabled
+c133ec0e5717868c9967fa3df92a55e537b1aead usb: xhci: Enable the TRB overfetch quirk on VIA VL805
 2397d61ee45cddb8f3bd3a3a9840ef0f0b5aa843 Revert "drivers/card_reader/rtsx_usb: Restore interrupt based detection"
 b06a731cbc1b9371874221c2caa8f490f6942f33 Merge tag 'amd-drm-fixes-6.14-2025-02-26' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
 cbf85b9cb80bec6345ffe0368dfff98386f4714f bluetooth: btusb: Initialize .owner field of force_poll_sync_fops
@@ -775,6 +783,13 @@ e26e2d2e15daf1ab33e0135caf2304a0cfa2744b ksmbd: fix bug on trap in smb2_lock
 aa2a739a75ab6f24ef72fb3fdb9192c081eacf06 cifs: fix incorrect validation for num_aces field of smb_acl
 f603b159231b0c58f0c27ab39348534063d38223 ALSA: hda/realtek - add supported Mic Mute LED for Lenovo platform
 59b348be7597c4a9903cb003c69e37df20c04a30 wifi: cfg80211: regulatory: improve invalid hints checking
+487cfd4a8e3dc42d34a759017978a4edaf85fce0 xhci: Restrict USB4 tunnel detection for USB3 devices to Intel hosts
+8e812e9355a6f14dffd54a33d951ca403b9732f5 usb: gadget: Check bmAttributes only if configuration is valid
+69c58deec19628c8a686030102176484eb94fed4 usb: dwc3: gadget: Prevent irq storm when TH re-executes
+b5ea08aa883da05106fcc683d12489a4292d1122 usb: renesas_usbhs: Call clk_put()
+e0c92440938930e7fa7aa6362780d39cdea34449 usb: renesas_usbhs: Use devm_usb_get_phy()
+552ca6b87e3778f3dd5b87842f95138162e16c82 usb: renesas_usbhs: Flush the notify_hotplug_work
+2b66ef84d0d2a0ea955b40bd306f5e3abbc5cf9c usb: hub: lack of clearing xHC resources
 1be4e29e94a6be77de3bc210820b74f40814f17a platform/x86/amd/pmf: Initialize and clean up `cb_mutex`
 010c4a461c1dbf3fa75ddea8df018a6128b700c6 x86/speculation: Simplify and make CALL_NOSPEC consistent
 9af9ad85ac44cb754e526d468c3006b48db5dfd8 x86/speculation: Add a conditional CS prefix to CALL_NOSPEC
@@ -796,6 +811,7 @@ d88ed5fb7c88f404e57fe2b2a6d19fefc35b4dc7 KVM: selftests: Ensure all vCPUs hit -E
 26edad06d5c34038c5d15ee082c80a62dcbd74bc Merge tag 'probes-fixes-v6.14-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 d9a9c94dbc8bfeab2b29f860d38e5056894813ec Merge tag 'xfs-fixes-6.14-rc6' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 99fa936e8e4f117d62f229003c9799686f74cebc Merge tag 'affs-6.14-rc5-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+cc5bfc4e16fc1d1c520cd7bb28646e82b6e69217 usb: dwc3: Set SUSPENDENABLE soon after phy init
 dfd3df31c9db752234d7d2e09bef2aeabb643ce4 mm/slab/kvfree_rcu: Switch to WQ_MEM_RECLAIM wq
 8177c6bedb7013cf736137da586cf783922309dd x86/cacheinfo: Validate CPUID leaf 0x2 EDX output
 1881148215c67151b146450fb89ec22fd92337a7 x86/cpu: Validate CPUID leaf 0x2 EDX output
@@ -804,6 +820,7 @@ f6bdaab79ee4228a143ee1b4cb80416d6ffc0c63 x86/cpu: Properly parse CPUID leaf 0x2 
 c34424eb3be4c01db831428c0d7d483701ae820f net: dsa: rtl8366rb: don't prompt users for LED control
 1f860eb4cdda634589d75e78ff586d5dff20b8af wifi: nl80211: disable multi-link reconfiguration
 b7365eab39831487a84e63a9638209b68dc54008 net: hns3: make sure ptp clock is unregister and freed if hclge_ptp_get_cycle returns an error
+c7c1f3b05c67173f462d73d301d572b3f9e57e3b usb: xhci: Fix host controllers "dying" after suspend and resume
 d0bbe332669c5db32c8c92bc967f8e7f8d460ddf ALSA: hda: realtek: fix incorrect IS_REACHABLE() usage
 5623bc23a1cb9f9a9470fa73b3a20321dc4c4870 s390/traps: Fix test_monitor_call() inline assembly
 a22ee38d2efe18edc53791fd1036396c23b43ad0 selftests/vDSO: Fix GNU hash table entry size for s390x
@@ -923,6 +940,8 @@ b5e3956535466187657563b754ba0f1da8626c7f kbuild: install-extmod-build: Fix build
 ca57b5bfa214063a109ae9bc85862ce3ed155027 Merge tag 'nvme-6.14-2025-03-05' of git://git.infradead.org/nvme into block-6.14
 35d99c68af40a8ca175babc5a89ef7e2226fb3ca btrfs: fix a leaked chunk map issue in read_one_chunk()
 391b41f983bf7ff853de44704d8e14e7cc648a9b gpio: rcar: Fix missing of_node_put() call
+ff712188daa3fe3ce7e11e530b4dca3826dae14a usb: quirks: Add DELAY_INIT and NO_LPM for Prolific Mass Storage Card Reader
+b13abcb7ddd8d38de769486db5bd917537b32ab1 usb: typec: ucsi: Fix NULL pointer access
 74d42bdb3a4673b1c10d1f457184e4d3c9cb0196 fs/pipe: express 'pipe_empty()' in terms of 'pipe_occupancy()'
 d810d4c27bf34c719243bab9feb0d843edc09fd7 fs/pipe: do not open-code pipe head/tail logic in FIONREAD
 ebb0f38bb47f74b29e267babdbcd2c47d5292aa8 fs/pipe: fix pipe buffer index use in FUSE
@@ -980,5 +999,6 @@ a382b06d297e78ed7ac67afd0d8e8690406ac4ca Merge tag 'for-linus' of git://git.kern
 0dc1f314f854257eb64dcea604a42a55225453a9 Merge tag 'usb-6.14-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 9712d38c87087ae34f8cede6583092c272507c52 Merge tag 'kbuild-fixes-v6.14-3' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 80e54e84911a923c40d7bee33a34c1b4be148d7a Linux 6.14-rc6
+525b139fb4033a9ba5abd6ca3f6a6baa3b2fe3d4 Merge v6.14-rc6 into usb-next
 
---===============3291817732815288816==--
+--===============1261941692241969538==--
