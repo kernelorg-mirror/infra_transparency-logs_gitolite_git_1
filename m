@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0458489253542722061=="
+Content-Type: multipart/mixed; boundary="===============4442067307679747751=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 10 Mar 2025 10:50:38 -0000
-Message-Id: <174160383825.2043777.11410087438490690553@gitolite.kernel.org>
+Date: Mon, 10 Mar 2025 10:50:53 -0000
+Message-Id: <174160385360.2044197.5502879593774783300@gitolite.kernel.org>
 
---===============0458489253542722061==
+--===============4442067307679747751==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: c5932082dcd3c1dc8d5f345b45419e97d4c3438f
+  - ref: refs/heads/next
+    old: 000dc9d2c7219b524bd323eb2cbb8ea839413ff5
     new: e2a88fcd249c830b33a847b4909228e9082fec87
-    log: revlist-c5932082dcd3-e2a88fcd249c.txt
+    log: revlist-000dc9d2c721-e2a88fcd249c.txt
 
---===============0458489253542722061==
+--===============4442067307679747751==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c5932082dcd3-e2a88fcd249c.txt
+Content-Disposition: attachment; filename=revlist-000dc9d2c721-e2a88fcd249c.txt
 
 a96d3e2beca0e51c8444d0a3b6b3ec484c4c5a8f iio: light: apds9306: fix max_scale_nano values
 34d93804199fea23da2645dde35d0feb38a5d445 iio: adc: pac1921: Move ACPI_FREE() to cover all branches
@@ -377,4 +377,4 @@ a35372710f0d5eb08365c777ca791da6cf9f7432 tpm: do not start chip while suspended
 206f0bb4c503d9657e3349e08ce5e7791b9b4937 tpm: ftpm_tee: remove incorrect of_match_ptr annotation
 e2a88fcd249c830b33a847b4909228e9082fec87 tpm: Lazily flush auth session when getting random data
 
---===============0458489253542722061==--
+--===============4442067307679747751==--
