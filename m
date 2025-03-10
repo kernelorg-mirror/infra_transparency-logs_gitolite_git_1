@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 10 Mar 2025 17:16:55 -0000
-Message-Id: <174162701536.2412254.14099339668523991351@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
+Date: Mon, 10 Mar 2025 17:22:38 -0000
+Message-Id: <174162735837.2417124.555225758323175828@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/utils/kernel/kmod/kmod
+user: demarchi
 changes:
-  - ref: refs/heads/kernel-6.12/baseline
-    old: c81c096f6499640f9a4dc8f66edcfbc5df2ec719
-    new: 3b964058c89b3517c85c2dfab14122c01f49be2d
+  - ref: refs/heads/master
+    old: ee53ca3894ff4015175db26a9362ff6753a900bf
+    new: 7fe9be0046247ab1c38eb80d3887eacf94c70c79
     log: |
-         3b964058c89b3517c85c2dfab14122c01f49be2d redhat: disable building perf, libperf and bpftool
+         7fe9be0046247ab1c38eb80d3887eacf94c70c79 ci: Push documentation to kmod-project.github.io and trigger publishing
          
