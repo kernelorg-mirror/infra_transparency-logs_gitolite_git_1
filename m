@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Mon, 10 Mar 2025 17:24:26 -0000
-Message-Id: <174162746641.2418188.2603568160342964167@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Mon, 10 Mar 2025 17:38:15 -0000
+Message-Id: <174162829583.2430257.10653795694857946351@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
-user: ardb
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/next
-    old: b6b227e36b5ad878260f5a3a1838f2d79d5e68e9
-    new: ac2efaa8455021ce1e6216457684d60a9e2c77fd
+  - ref: refs/heads/crypto-pending
+    old: 57d0107f083cf391fdf65bd9c50de87d42f5e698
+    new: 06e5d3c73f4ba52aa2fa23d94860ac83a133a49d
     log: |
-         ac2efaa8455021ce1e6216457684d60a9e2c77fd efi: efibc: change kmalloc(size * count, ...) to kmalloc_array()
+         1dfe41d26274f9e8827725795b311176b124b755 crypto: scatterwalk - Change scatterwalk_next calling convention
+         7c6d0b4933c1bcb75370c2cf6214c8dafb9e6cbc crypto: scatterwalk - Add memcpy_sglist
+         b4b1698c6d1dc7b40cafd458eee8ae0863390a80 crypto: skcipher - Eliminate duplicate virt.addr field
+         06e5d3c73f4ba52aa2fa23d94860ac83a133a49d crypto: scatterwalk - simplify map and unmap calling convention
          
