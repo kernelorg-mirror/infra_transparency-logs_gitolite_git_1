@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Mon, 10 Mar 2025 10:46:26 -0000
-Message-Id: <174160358641.2038978.16068129071107715727@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Mon, 10 Mar 2025 10:50:11 -0000
+Message-Id: <174160381129.2043037.11347820651927292800@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: mikulas
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/dm-6.14
-    old: 36e1b81f599a093ec7477e4593e110104adcfb96
-    new: f771428cb8c652de0748fe2e456bacd12a5ffcc4
+  - ref: refs/heads/master
+    old: 000dc9d2c7219b524bd323eb2cbb8ea839413ff5
+    new: c5932082dcd3c1dc8d5f345b45419e97d4c3438f
     log: |
-         f771428cb8c652de0748fe2e456bacd12a5ffcc4 dm-flakey: Fix memory corruption
+         c5932082dcd3c1dc8d5f345b45419e97d4c3438f tpm: Lazily flush auth session when getting random data
          
