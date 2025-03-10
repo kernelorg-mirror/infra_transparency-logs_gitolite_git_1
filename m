@@ -1,56 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============4892742287869984708=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 10 Mar 2025 15:57:00 -0000
-Message-Id: <174162222024.2329607.11640018674467413912@gitolite.kernel.org>
-
---===============4892742287869984708==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-auxdisplay
+Date: Mon, 10 Mar 2025 16:03:00 -0000
+Message-Id: <174162258028.2334307.9040837033769609749@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/andy/linux-auxdisplay
+user: andy
 changes:
-  - ref: refs/heads/master
-    old: 94cca5cd37f4060cb8f406bd53a186ecfa4d6ea4
-    new: 698a0fd8009d8d4f37d717700ed57ffa9e0251f1
+  - ref: refs/heads/for-next
+    old: 6a3c3f3d557aa24153b77583e970a847e43259e9
+    new: 67200d70e45982f5120c43b3724f1b6e4a8a01e4
     log: |
-         698a0fd8009d8d4f37d717700ed57ffa9e0251f1 6.12-stable patches
+         09965a142078080fe7807bab0f6f1890cb5987a4 auxdisplay: charlcd: Partially revert "Move hwidth and bwidth to struct hd44780_common"
+         68917dfc6bf90a037817bef9d1038220a07a9ea1 auxdisplay: lcd2s: Allocate memory for custom data in charlcd_alloc()
+         d5c7c273d28d3748e00860613f24458b948fb4e3 auxdisplay: hd44780: Introduce hd44780_common_free()
+         33152d3660b8fe53763da1fa7715e2cdae910335 auxdisplay: hd44780: Make use of hd44780_common_free()
+         664d2179c6e3d08d5e1180beddd79ca8f0663d89 auxdisplay: panel: Make use of hd44780_common_free()
+         65f095b2b1f2ae2e0919a24a6f6883b580b72602 auxdisplay: hd44780: Call charlcd_alloc() from hd44780_common_alloc()
+         2c4849a41326b37a33b91595cba81f1f0f6a62f7 auxdisplay: hd44780: Rename hd to hdc in hd44780_common_alloc()
+         67200d70e45982f5120c43b3724f1b6e4a8a01e4 Merge patch series "auxdisplay: charlcd: Refactor memory allocation"
          
-
---===============4892742287869984708==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1741622248 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1741622218-ecd6a2a0f30ae948a509ebaadbf0ed31f64cc35c
-
-94cca5cd37f4060cb8f406bd53a186ecfa4d6ea4 698a0fd8009d8d4f37d717700ed57ffa9e0251f1 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfPC+gbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6iQQANEO4XLv5wXIv3cV2Kza
-SCqOJKmEGVWFlnjkg9JnDJWgvR42SiHqv/5ir4aqrWDRfCtbBUFhmFb/rzdg51K/
-aBy00NIJ8zSJFsFs4SRLVWWI+Ao1ABkXOAgcCmfNfdQ83rCwMsXQ9PCenPSDzlJ8
-WSpoLCH5c35FYVuOgTAXHH2C569QVLacevg+5LCnEjTtDTcQ8EufZCjT2Lf7TzB5
-tHolblB1wme1iVS2o3IEJBGXuNgA+RQPG2S/WzpmJPZRr/OxzqigK/Tjjndzn0KC
-cpuWqhmH/mnuPNS7QWV0mPFfW7Z91f1LEDWy5x48ezsL5ut1Nak6ZTO2FeFHX9E+
-Zkex+FIH5aWwBO6YVvIAhdbEGQGgclWwUvOmaBM9qnI09+YEwaM/FqtOmGFs2fWZ
-9NYoSjDdgX8TKhKAatd2AZfZqO1bptQI6lck07ZDhhEAYgYz6q5mFFvNdEWpolfX
-bc96ymWRTLaklttFano0BuhIxQm6VUJbEqXQmzkGkydyoaO7yXDv0f5bh68Hkalo
-RmB1b9vLTNAJx/pLRyMSd2CcaP+Ct4A0GqMdC+HV14zsUMeB/y/j5e4bge9CIIoB
-RR1eNYFl2bkOSbJF90JlhhbUD2OVkbzfBf+cjzvKb9y8BoKIFGKWid0VCZsdLML3
-pcd6/sKYFfmE+ggsOicrCPLp
-=ZKhQ
------END PGP SIGNATURE-----
-
---===============4892742287869984708==--
