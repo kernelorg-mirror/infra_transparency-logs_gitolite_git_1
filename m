@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Mon, 10 Mar 2025 20:49:33 -0000
-Message-Id: <174163977393.2602103.8391903313397761118@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Mon, 10 Mar 2025 20:49:36 -0000
+Message-Id: <174163977686.2602362.667555103667399920@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-6.15/io_uring
-    old: c93edef0374b203a7109e876ecd396446cb6e1d3
-    new: 8d7d714171b0002ea3a8eb0a41f25e3a162f8cec
+  - ref: refs/heads/master
+    old: 80e54e84911a923c40d7bee33a34c1b4be148d7a
+    new: 4d872d51bc9d7b899c1f61534e3dbde72613f627
     log: |
-         8d7d714171b0002ea3a8eb0a41f25e3a162f8cec io_uring/kbuf: enable bundles for incrementally consumed buffers
-         
-  - ref: refs/heads/for-next
-    old: d84b616069e921509ca55d77df066d39b91a2d05
-    new: 006630ebfc67f95213e45b723309e04223bb0ce5
-    log: |
-         8d7d714171b0002ea3a8eb0a41f25e3a162f8cec io_uring/kbuf: enable bundles for incrementally consumed buffers
-         006630ebfc67f95213e45b723309e04223bb0ce5 Merge branch 'for-6.15/io_uring' into for-next
+         65be5c95d08eedda570a6c888a12384c77fe7614 x86/sgx: Warn explicitly if X86_FEATURE_SGX_LC is not enabled
+         e3e89178a9f4a80092578af3ff3c8478f9187d59 x86/microcode/AMD: Fix out-of-bounds on systems with CPU-less NUMA nodes
+         4d872d51bc9d7b899c1f61534e3dbde72613f627 Merge tag 'x86-urgent-2025-03-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
          
