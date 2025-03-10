@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8358914029187780563=="
+Content-Type: multipart/mixed; boundary="===============4049571239050804995=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 10 Mar 2025 15:55:56 -0000
-Message-Id: <174162215644.2327971.5701811585861484339@gitolite.kernel.org>
+Date: Mon, 10 Mar 2025 15:55:58 -0000
+Message-Id: <174162215892.2328187.6131257828885192320@gitolite.kernel.org>
 
---===============8358914029187780563==
+--===============4049571239050804995==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 865eddcf0afbcd54f79b81e6327ea40c997714c7
     new: 8ef890df4031121a94407c84659125cbccd3fdbe
     log: revlist-865eddcf0afb-8ef890df4031.txt
 
---===============8358914029187780563==
+--===============4049571239050804995==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -78,4 +78,4 @@ b3aaf3c13baab4c6f024f0852ae970c75ca3b98f udp: expand SKB_DROP_REASON_UDP_CSUM us
 9bfc9d65a1dc9ca2d45210ff4227517b460c19af hamradio: use netdev_lockdep_set_classes() helper
 8ef890df4031121a94407c84659125cbccd3fdbe net: move misc netdev_lock flavors to a separate header
 
---===============8358914029187780563==--
+--===============4049571239050804995==--
