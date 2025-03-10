@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1301610027910622742=="
+Content-Type: multipart/mixed; boundary="===============7575593389034233648=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 10 Mar 2025 15:51:04 -0000
-Message-Id: <174162186477.2323274.7745051971854921762@gitolite.kernel.org>
+Date: Mon, 10 Mar 2025 15:51:31 -0000
+Message-Id: <174162189126.2323701.1213866785573748865@gitolite.kernel.org>
 
---===============1301610027910622742==
+--===============7575593389034233648==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 865eddcf0afbcd54f79b81e6327ea40c997714c7
-    new: 8ef890df4031121a94407c84659125cbccd3fdbe
-    log: revlist-865eddcf0afb-8ef890df4031.txt
+  - ref: refs/heads/dev-queue
+    old: daa2036c311e81ee32f8cccc8257e3dfd4985f79
+    new: 38c0f5d73c5b6b3c90acf9439f616726f6b93198
+    log: revlist-daa2036c311e-38c0f5d73c5b.txt
 
---===============1301610027910622742==
+--===============7575593389034233648==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-865eddcf0afb-8ef890df4031.txt
+Content-Disposition: attachment; filename=revlist-daa2036c311e-38c0f5d73c5b.txt
 
 c2315ebb0588f58a256d8411ac076e7350d830b2 net: tun: Enable XDP metadata support
 0ca23a4d64ce6db0ec1e1f66559c115eb100e426 net: tun: Enable transfer of XDP metadata to skb
@@ -77,5 +77,77 @@ fca9fe1aae4478c9b8f360169801f62b3da12d71 Merge branch 'net-phy-tja11xx-add-suppo
 b3aaf3c13baab4c6f024f0852ae970c75ca3b98f udp: expand SKB_DROP_REASON_UDP_CSUM use
 9bfc9d65a1dc9ca2d45210ff4227517b460c19af hamradio: use netdev_lockdep_set_classes() helper
 8ef890df4031121a94407c84659125cbccd3fdbe net: move misc netdev_lock flavors to a separate header
+60cef411379c36b0d3348a04535e1c5c16ca411b coccinelle: misc: secs_to_jiffies script: Create dummy report
+2d39994feff15b427eaad132551bab130a0e0932 ice: do not configure destination override for switchdev
+500ee251e45febb837fca12c989f1728e1c8e729 ice: Add E830 checksum offload support
+38d77b0f368b682c9769d39a03fdb926e7674c38 ice: Fix switchdev slow-path in LAG
+0d4fb1100f1e5c7ae394985d215eea0128226d00 ice: fix memory leak in aRFS after reset
+93a92a0c2e0f4b5968bb6c8f201303ac54fd33d4 ice: health.c: fix compilation on gcc 7.5
+6394986bec592b2e612511f62732914729663923 ixgbe: add PTP support for E610 device
+49860063286e2738e2d4251b65c9afd647abe5e5 ice: rename ice_ptp_init_phc_eth56g function
+6f812d283e66b14131b8ea64e1049e01e2ef4b6d ice: Refactor E825C PHY registers info struct
+99a1f7e55c91fd2416aeaa95fe911575476f5415 ice: E825C PHY register cleanup
+efcaa2bb71f312f3a76ba91f1933d32a5ea54cbe ice, irdma: fix an off by one in error handling code
+48bb862811f741e10f72f99fc627b666c13967ea idpf: check error for register_netdev() on init
+0d0b2bbc63d605f3158ab9665d050877142a724e ice: fix check for existing switch rule
+0ec708f2b37041ac9369e2c8da69291c22d13e70 ice: do not add LLDP-specific filter if not necessary
+7d83a1bc0d2db3e8461b235796d655427cd3009c ice: receive LLDP on trusted VFs
+8a09d540521ece6dcbb75c4ce417d8ed9710d70b ice: remove headers argument from ice_tc_count_lkups
+8a464584f20e178bfb3e4665a4a7adb4c0068457 ice: support egress drop rules on PF
+0ecb6bc2fdced045f165f3060db9eb04f6fd2d2f ice: enable LLDP TX for VFs through tc
+8d9654718db9822d906208cea90103687016b2a7 irdma: free iwdev->rf after removing MSI-X
+4b03fa41aaf90df28c45a50c27ad8f8818775ecc ice: redesign dpll sma/u.fl pins control
+4d4fec40b2447bf5e66156edc7adde78e91fb6c3 ice: change SMA pins to SDP in PTP API
+12d7d2450454c5e63a56ffc3f415671824386810 ice: add ice driver PTP pin documentation
+4ebdec43fbf4e8223cad7d858aebfd274e3d3b5b ixgbe: add MDD support
+237baa043e8c5fd2165f49dc17420f27528030e6 ixgbe: check for MDD events
+e6c5d72c2747441a66f9c75bd57f20f3fb1a7ecf ixgbe: add Tx hang detection unhandled MDD
+8f2514794fa6110aadb710bcbac27ba84cef3315 ixgbe: turn off MDD while modifying SRRCTL
+371b5a761e406ccb208237406917ab60db4633a9 ice: register devlink prior to creating health reporters
+855b1be0bbb432460858a4ebdc55649d20a7a1dd ice: ensure periodic output start time is in the future
+d8e93d0ce6f2fdc9fb3618943f0854b3f4d99248 ice: fix Get Tx Topology AQ command error on E830
+a38a2ef3b7bb4e0ac73d49fa78ad1cd33af62c55 ice: fix lane number calculation
+3dd94dc97f708f920cfba06cf4f6af4bd6d6c88d ixgbe: fix media type detection for E610 device
+6597dc4a87f4ef8f7584012793101eefcc7fcf62 devlink: add value check to devlink_info_version_put()
+5351fe2408ab31c000f9c3693f9d21e9ca4c4abb ixgbe: wrap netdev_priv() usage
+b843db7da51924e878073e0a4aa56921e600b2cd ixgbe: add initial devlink support
+c549eb181e010329353e637faed29b07b5f215e3 ixgbe: add handler for devlink .info_get()
+ef373aa2f1626c8bd6c22cce28da2e48544abcb9 ixgbe: add E610 functions for acquiring flash data
+debf386069dff8cf542fc52b693d55bfa665393d ixgbe: read the OROM version information
+377cb698199f09323f8a1de44db1c7e61d39bdc1 ixgbe: read the netlist version information
+ed438ed165771ea4cd01c144b491eb4c930a1867 ixgbe: add .info_get extension specific for E610 devices
+bef7c9a7c1b2690ce7ce27bf3f7e2111bf9b52ff ixgbe: add E610 functions getting PBA and FW ver info
+85ad35fd14e719b4dd8eb429e25b0bfd17477820 ixgbe: extend .info_get with stored versions
+d8a7a67385e7188860e658616a2da87511a843a7 ixgbe: add device flash update via devlink
+6a9edabd09741705bba2d16495991a2aed5b65a8 ixgbe: add support for devlink reload
+9c7697319b31b8ab23e09668c483a71509fb2140 ixgbe: add FW API version check
+ee5eaad65a1097a743e66605e4d98ee8ea5e0bf4 ixgbe: add E610 implementation of FW recovery mode
+c4f3198901e6abfb8e743b29f765f96a8c537743 ixgbe: add support for FW rollback mode
+10aa033eeac388efe4a73728629258f5f866cc8e net: e1000e: convert to ndo_hwtstamp_get() and ndo_hwtstamp_set()
+f721bbbadbf306ea4ff2aa858a8f08df593f1080 ice: fix fwlog after driver reinit
+250e8ed4e402e7f167672482718b98d5f8223e69 ice: Allow 100M speed for E825C SGMII device
+bc62d4333519391fd52c853780ee30103ce2b9de ixgbe: add support for thermal sensor event reception
+e1673eecc738b3065586ffeaad8cd4c862c60922 idpf: add initial PTP support
+ec92441e461f55bea7bd77a1e9f5d524a223f670 virtchnl: add PTP virtchnl definitions
+a7f5aa282715bbf0c5f8eda1d9c42193b28b0105 idpf: move virtchnl structures to the header file
+1f91f7db0e530af544cc5792287101844924f30a idpf: negotiate PTP capabilities and get PTP clock
+418fcdd891b0298157093f727d0e3645050f5c04 idpf: add mailbox access to read PTP clock time
+de3c2e6f74989b4ccc5906a7dd8b10adfdd14a75 idpf: add PTP clock configuration
+6fee33c107a7372fec21e2bee510a13a2d76252e idpf: add Tx timestamp capabilities negotiation
+238bc78d673d30f44f5acbf317ad7babce30aac8 idpf: add Tx timestamp flows
+9992879d25f051f993471bed1dc0791b71dac74c idpf: add support for Rx timestamping
+4d1421dd4dcd9f37408603da811ab6f2d632866a idpf: change the method for mailbox workqueue allocation
+65c52391059e6e5d5ab64abcfa1c451a1b24ec72 idpf: assign extracted ptype to struct libeth_rqe_info field
+15ce972b46dbb75800d20820d12bd549f6b6611a ixgbe: create E610 specific ethtool_ops structure
+2e4b2a0186b056a32d21686c00624beae42b060b ixgbe: add support for ACPI WOL for E610
+3a02105939128709566de09ea84f5ecbe58e8859 ixgbe: apply different rules for setting FC on E610
+e793067b886981ab49114de1c8eb7cbf685f9bf5 ixgbe: add E610 .set_phys_id() callback implementation
+7e169279ef90c2e33c9929ddb7ca311b4fc1b96a virtchnl: make proto and filter action count unsigned
+277e9278b6ec5c59ac8f8646df1fc681789c1d61 ice: stop truncating queue ids when checking
+5c43aa8ca17a9a6a8b54e7f4d1bf248025e6d14c ice: validate queue quanta parameters to prevent OOB access
+f1c00965ab04d6658786680f10b2401fc355d374 ice: fix input validation for virtchnl BW
+259cef415f49e2d0a4961745a50a8705dc127048 ice: fix using untrusted value of pkt_len in ice_vc_fdir_parse_raw()
+b3e9ffeee63159e69615b0f36e6a9dfde55e942d e1000e: change k1 configuration on MTP and later platforms
+38c0f5d73c5b6b3c90acf9439f616726f6b93198 igc: Fix XSK queue NAPI ID mapping
 
---===============1301610027910622742==--
+--===============7575593389034233648==--
