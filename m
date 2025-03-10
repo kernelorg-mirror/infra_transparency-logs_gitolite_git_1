@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 10 Mar 2025 15:06:39 -0000
-Message-Id: <174161919904.2282060.4181353091128274332@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 10 Mar 2025 15:17:48 -0000
+Message-Id: <174161986898.2290927.1849200373151743651@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/x86/urgent
-    old: 65be5c95d08eedda570a6c888a12384c77fe7614
-    new: e3e89178a9f4a80092578af3ff3c8478f9187d59
-    log: |
-         e3e89178a9f4a80092578af3ff3c8478f9187d59 x86/microcode/AMD: Fix out-of-bounds on systems with CPU-less NUMA nodes
-         
+  - ref: refs/heads/file9lz3qR
+    old: db57ed1d27f9626ed0c8bb636fad6e9d767dcd4b
+    new: 0000000000000000000000000000000000000000
