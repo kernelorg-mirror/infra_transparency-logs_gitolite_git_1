@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 10 Mar 2025 10:19:43 -0000
-Message-Id: <174160198311.2013298.196244044533914570@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Mon, 10 Mar 2025 10:22:58 -0000
+Message-Id: <174160217892.2016440.4486944869460817783@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/tags/v6.14-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 8098cf067a7aae92a4f293df03964bf8474faca1
+  - ref: refs/heads/gpio/for-next
+    old: 9b443b68d97983dfb9a92009a5c951364fa35985
+    new: e93160942585832a1836381018daf9729eb9ca64
+    log: |
+         e93160942585832a1836381018daf9729eb9ca64 dt-bindings: gpio: vf610: Add i.MX94 support
+         
