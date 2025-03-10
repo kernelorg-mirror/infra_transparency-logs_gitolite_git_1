@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-auxdisplay
-Date: Mon, 10 Mar 2025 16:03:00 -0000
-Message-Id: <174162258028.2334307.9040837033769609749@gitolite.kernel.org>
+Date: Mon, 10 Mar 2025 16:03:09 -0000
+Message-Id: <174162258923.2334630.1627253518509705712@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andy/linux-auxdisplay
 user: andy
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/review-andy
     old: 6a3c3f3d557aa24153b77583e970a847e43259e9
     new: 67200d70e45982f5120c43b3724f1b6e4a8a01e4
     log: |
