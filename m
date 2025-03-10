@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1250882884519597228=="
+Content-Type: multipart/mixed; boundary="===============8421326832009647070=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 10 Mar 2025 15:49:25 -0000
-Message-Id: <174162176574.2319678.7503713122463484996@gitolite.kernel.org>
+Date: Mon, 10 Mar 2025 15:49:28 -0000
+Message-Id: <174162176818.2319785.13916340011195141578@gitolite.kernel.org>
 
---===============1250882884519597228==
+--===============8421326832009647070==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: fc14f9c02639dfbfe3529850eae23aef077939a6
     new: 505ead7ab77f289f12d8a68ac83da068e4d4408b
     log: revlist-fc14f9c02639-505ead7ab77f.txt
 
---===============1250882884519597228==
+--===============8421326832009647070==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ a07364b394697d2e0baffeb517f41385259aa484 net: phy: nxp-c45-tja11xx: add TJA112X 
 e6360f0dc52b93a723c748e281fb99b430297da4 Merge branch 'net-phy-nxp-c45-tja11xx-add-errata-for-tja112xa-b'
 505ead7ab77f289f12d8a68ac83da068e4d4408b netpoll: hold rcu read lock in __netpoll_send_skb()
 
---===============1250882884519597228==--
+--===============8421326832009647070==--
