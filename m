@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1970545319315302735=="
+Content-Type: multipart/mixed; boundary="===============7183051719292555220=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 10 Mar 2025 14:17:16 -0000
-Message-Id: <174161623686.2235760.4006612344948781780@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Mon, 10 Mar 2025 14:18:00 -0000
+Message-Id: <174161628043.2236292.3164837165039421996@gitolite.kernel.org>
 
---===============1970545319315302735==
+--===============7183051719292555220==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/for-next
-    old: 567228a62bd27903efe53d0a3ab7d61675989793
-    new: f0dbe0d40d08199109cb689849877694a8b91033
+  - ref: refs/heads/mem-ctrl-next
+    old: 2f76a890fd2c636c640af1387b333aeb0cf69c75
+    new: 90a0fbaac4a588a1116a191521c3c837c25582ee
     log: |
-         d70754efb4156a6b1d655bc53725c8890bf63de6 Merge branches 'next/drivers', 'next/clk', 'fixes' and 'next/dt64' into for-next
-         f0dbe0d40d08199109cb689849877694a8b91033 Merge branch 'next/soc' into for-next
+         90a0fbaac4a588a1116a191521c3c837c25582ee memory: mtk-smi: Add ostd setting for mt8192
          
 
---===============1970545319315302735==
+--===============7183051719292555220==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1741616264 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1741616234-9b8717192ca1c54e2de12726103d22f310c4a1ce
+pusher krzk@kernel.org 1741616308 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
+nonce 1741616277-6ba307c1cca9b1e02b279e19567d54d1a6eef0e8
 
-567228a62bd27903efe53d0a3ab7d61675989793 f0dbe0d40d08199109cb689849877694a8b91033 refs/heads/for-next
+2f76a890fd2c636c640af1387b333aeb0cf69c75 90a0fbaac4a588a1116a191521c3c837c25582ee refs/heads/mem-ctrl-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmfO9IgQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD14thD/9xWmqT8o2inBXtQ140IMQBgCQOV1e9zavz
-zeqqkeDTwl/tMRD4So0JeCmS0N/AjDh5s1XdkNUSq3f7rn4Gn/TYU97aPQpZoNoP
-Pj0RPP14XMh7+WHaYCZjMR2tIr6w0wYvx0WZuI5uewZ3beIxrB6lT8DbryeknzCR
-HDZzftzMpHbnlz2g2U84De4OwDx1GL5gPb9c5RScIbJBxSlcndnKBfiS0AyX4Oai
-rscd04S1VyE2BOBRxiSmGQxsC6/BFHeqz9rb5ie7HLBrPqT5IWC6delok6CRjJOr
-pe3OueAt66jUWGLkqbJwbwta6BXTxrwYfecaQ29rPD8svDAoY/zvJe8vcsuzLXeW
-IHpi0vHXPulaLlo5hdfrbp+uoJsppXAzYOf52sAzduaEVVGx/2gUEH3pTBoL6l8z
-GY3DsoehLDdvs+MP+0pDMQ27uB7PPzGIQBSA/+PkZjPrGqlniHMzSK4Mpf63O55F
-qdaRpQO1yc9DIbY9kFv7n9ejuL9MYdy4lCac5uQuyMc8zBbDTOR6j3cUVjQFyyZX
-fZszN36hheJaf7WF2THpyKIyQ7MVwkpB70E0zaCT5+c1NFFDrtp1Fx1HiF/JpUjH
-xFPtEWiX/71Pf50khigLjs/j9WiklSqF+56kRAWz0brTlq+dhupYVku3LONe2zvV
-4sFrfhkQpA==
-=UEbo
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmfO9LQQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1xkSD/4mI5TAQjlxZZ4tFGrAx2kvKWMeqloGT7L2
+ex6FYQxxiQIXa1pmyoEmCl3TF+1BLRIEi/aVSCjoR/Sqfd4p09fMEGppPg3HX5Dw
+DRMzcsPAB99JL0f0QXUR69t1IENVSSCHU3QH8a7nC7WFjUwoYw2iHgPak+nKU3XA
++a4+kaU8F/Kg68fTIKFi4VhGF7pIepEg4e3RwotUhYOJOarTiAxSJYxepYuPx0kL
+Dionqj5RmQQ4uB6OJrGEagtramY5d+Hg0ml3mEmtIpS5mrdgYuKzL+D+qcI63tfH
+j8nesmFtes2zTJl2WTeN0EUDFyQ/jLLUt1Ma0Rrcg05K+tGBpzmfwiU542JRm22F
+QB5wOTmUeJJ7k8st79Y84Pv70ajo4iyElJ6IZNfvzZ1NK7HToFeyiS5X2JyYG68d
+iIAxg1JZY27XBM0jg2R128mSURhEjmctACifPx+c/b58dzdfp0F0NBaSIRrqnmEZ
+8Rx52uXR5OR6tiGo4KDx3Vk4uLQbSai5gh6ekYCSohQtd0ubxQR37d/YQboE8Ihk
+BDKk8cUGat42XBeAvmNRPfVJr9jQZQz2JjKWZTfjKwmfsouna/GIfDGjieaZInEX
+EMlYOh1/T/HV5EVjQXF1bKWDvWRY7pCdxGh9UOk3CHfjTFqEd8tSug6elOncM5/i
+EqnlEtPRKQ==
+=iNH4
 -----END PGP SIGNATURE-----
 
---===============1970545319315302735==--
+--===============7183051719292555220==--
