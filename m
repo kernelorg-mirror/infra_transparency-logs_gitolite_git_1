@@ -1,65 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============7533406345573193360=="
+Content-Type: multipart/mixed; boundary="===============1010595802417239339=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 10 Mar 2025 18:57:33 -0000
-Message-Id: <174163305338.2502656.4746006670528754619@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Mon, 10 Mar 2025 19:02:10 -0000
+Message-Id: <174163333019.2507042.68047681586921161@gitolite.kernel.org>
 
---===============7533406345573193360==
+--===============1010595802417239339==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/master
-    old: 20469d21213f81be86a328d913baecdc68680ca4
-    new: ec975b92f62c1230feab36f181d7e5441390a4f5
-    log: revlist-20469d21213f-ec975b92f62c.txt
-  - ref: refs/heads/tip/urgent
-    old: f33a473ca37e2b150a57e2f9864cfc57306ecf00
-    new: 85192a3507036fb984ddc0a1241f8c4f80644756
-    log: |
-         e3e89178a9f4a80092578af3ff3c8478f9187d59 x86/microcode/AMD: Fix out-of-bounds on systems with CPU-less NUMA nodes
-         e77d9387147f36ce7b565f85bdae490a70d1fd70 Merge branch into tip/master: 'locking/urgent'
-         8813b7cbe03760a27a9d8d8beb3f8aaa46431327 Merge branch into tip/master: 'sched/urgent'
-         85192a3507036fb984ddc0a1241f8c4f80644756 Merge branch into tip/master: 'x86/urgent'
-         
+  - ref: refs/heads/togreg
+    old: 08808b3ef384974b1eaf4975de707f93f8cda62d
+    new: 66cadadbc94e18070245af7053f115061a73f016
+    log: revlist-08808b3ef384-66cadadbc94e.txt
 
---===============7533406345573193360==
+--===============1010595802417239339==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-20469d21213f-ec975b92f62c.txt
+Content-Disposition: attachment; filename=revlist-08808b3ef384-66cadadbc94e.txt
 
-e77d9387147f36ce7b565f85bdae490a70d1fd70 Merge branch into tip/master: 'locking/urgent'
-8813b7cbe03760a27a9d8d8beb3f8aaa46431327 Merge branch into tip/master: 'sched/urgent'
-85192a3507036fb984ddc0a1241f8c4f80644756 Merge branch into tip/master: 'x86/urgent'
-c54719e6616cd7e7b054da93a3a92f4b000df32e Merge branch into tip/master: 'x86/merge'
-ef04c283764e69db394cd7a07dfb05c48ce404e7 Merge branch into tip/master: 'irq/core'
-a23b9655b136246a57e7be5f46b9361369780898 Merge branch into tip/master: 'irq/drivers'
-a7e25548c209566107452935a339a19dc4d18edf Merge branch into tip/master: 'locking/core'
-12f4154a8a6db4cc0830f64ca646ce7cc0333a92 Merge branch into tip/master: 'locking/futex'
-5d89bc8616ebf16343ef66c5b2b05203e32b2e7c Merge branch into tip/master: 'perf/core'
-61ebd2ba28f160d4628f87101bdd0b6c6f5bbe6d Merge branch into tip/master: 'ras/core'
-c732c2d8262fd6dfcc4bd410497a3384c6ecd885 Merge branch into tip/master: 'sched/core'
-0b666052f5b111fa89cf28ab96be348b8e41c912 Merge branch into tip/master: 'timers/cleanups'
-34f24af3dda1c8cc7d18ff3ab73ce4744f805909 Merge branch into tip/master: 'timers/core'
-b3f4a9cf7d161205245c65c2361f7bdaf439e718 Merge branch into tip/master: 'timers/vdso'
-6a9cfed7ebf5518cb8bf1f696cf49b5a713fa280 Merge branch into tip/master: 'x86/asm'
-4c45cd350d9cf175a6f2c4ba59d656172d637993 Merge branch into tip/master: 'x86/boot'
-f0e1f2d98657b668ff3e178a5f5b6cbd22ddeaff Merge branch into tip/master: 'x86/bugs'
-a520b9b3aa1c7bc1f67de86bcf82d18676e8b2ae Merge branch into tip/master: 'x86/build'
-70de37b79432b8f23db57b07cfb2deaca13ca8f6 Merge branch into tip/master: 'x86/cleanups'
-6434dba8dfa311b675112862d09b6b6df5f19659 Merge branch into tip/master: 'x86/core'
-158058f7fd5c46c6cdffdb807fb6c64e79ce14e1 Merge branch into tip/master: 'x86/cpu'
-63cae678f53b351411506e4441c24222e6f756d6 Merge branch into tip/master: 'x86/fpu'
-24a95563181e6071741fd0b6de3ba4ec8bcef018 Merge branch into tip/master: 'x86/headers'
-c01a6d05aeb24231d1bc3af0d9621bf9e51ae467 Merge branch into tip/master: 'x86/misc'
-63a835176d63f277768cdc3b5f9b93ba4e4eb8e9 Merge branch into tip/master: 'x86/platform'
-ec975b92f62c1230feab36f181d7e5441390a4f5 Merge branch into tip/master: 'x86/sev'
+21ce1ce04350fd46807622269018f9e2c09b7ac1 staging: iio: accel: adis16240: Drop driver for this impact sensor
+332218f24d3ecef8abfe8ebb5f6ed5e1eb7e8260 dt-bindings: iio: adc: add AD7191
+fb0657250b32a8269aaf1012f81e37503e4d1c11 iio: adc: ad7191: add AD7191
+af94f401e26f686f7391ce79b38a6129417c22dc docs: iio: add AD7191
+5859b8e7d0dc8103edad3ee56b5a3c1c7c281a51 iio: adc: ad_sigma_delta: Disable channel after calibration
+1855642a25f98ad66aa359a2e3202a7870d0c13c iio: adc: ad4130: Fix comparison of channel setups
+dbdef5babeee7981f5cdfda76296e219a914f17e iio: adc: ad7124: Fix comparison of channel configs
+58266c5da7dd55825a4f3bbb758443c936c2f79c iio: adc: ad7173: Fix comparison of channel configs
+87e5d78961256eb1e7e6b09508ebf3d58c4ea2e0 iio: adc: ad4130: Adapt internal names to match official filter_type ABI
+612e8f8ddbe22ab845b8749f6262cb7da0369562 iio: adc: ad_sigma_delta: Add error checking for ad_sigma_delta_set_channel()
+4f5fd0f2983c30b8bc77d94fb400f8869ae60c70 iio: adc: ad7124: Implement internal calibration at probe time
+9d97ef69c03a8d49d87ade893641ca24dcf20667 iio: adc: ad7124: Implement system calibration
+7d8c948ac60f3f08c663fcd9a75e3982dd8d9e12 iio: adc: ad7124: Benefit of dev = indio_dev->dev.parent in ad7124_parse_channel_config()
+b66ee45fdc9e66dfc94d547202485a3eee439f1a iio: adc: ad7768-1: Fix conversion result sign
+29b03355b29a1c8212033933a80adaccb97ddbd7 iio: adc: ad7768-1: set MOSI idle state to prevent accidental reset
+6fbca58ecded47aec0a1694c9bb5143310479a15 Documentation: ABI: add wideband filter type to sysfs-bus-iio
+b8d76692a8d35fb20c7df81d2317881fc5bf4b05 iio: adc: ad7768-1: remove unnecessary locking
+904aef52427d9e1dad39d64c9159d70256cfea08 dt-bindings: iio: adc: Add i.MX94 and i.MX95 support
+8570b2cface7b30c20b718db1d0371f3ef52e872 iio: gyro: bmg160_spi: add of_match_table
+1f678fbdef23207553bc228e032f15a5f83a0f3e staging: iio: ad9832: Use devm_regulator_get_enable()
+f122894ec75f4d8b349c98a1dc6496a256ea5425 staging: iio: ad9834: Use devm_regulator_get_enable()
+b104d62254672208bca919095310a0f3cb645f68 iio: adc: ti-ads7924 Drop unnecessary function parameters
+66cadadbc94e18070245af7053f115061a73f016 iio: light: Add check for array bounds in veml6075_read_int_time_ms
 
---===============7533406345573193360==--
+--===============1010595802417239339==--
