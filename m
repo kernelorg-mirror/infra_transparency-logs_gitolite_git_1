@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4753787709861419665=="
+Content-Type: multipart/mixed; boundary="===============5536877589038852917=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 10 Mar 2025 13:10:57 -0000
-Message-Id: <174161225788.2175514.13487016614904342140@gitolite.kernel.org>
+Date: Mon, 10 Mar 2025 13:19:36 -0000
+Message-Id: <174161277643.2182184.6623940281212677845@gitolite.kernel.org>
 
---===============4753787709861419665==
+--===============5536877589038852917==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: ba96309c4e64550d7a2ef17a28d257c8636b7659
-    new: 87480a8ce567340a518d992678224c09afab5f11
-    log: revlist-ba96309c4e64-87480a8ce567.txt
+  - ref: refs/heads/nfsd-testing
+    old: aefeaaa2b099f3d2f802d11033f594997cdba9b1
+    new: fbab53018aee1f7100f3b3b4abf2f5d86ba31770
+    log: revlist-aefeaaa2b099-fbab53018aee.txt
 
---===============4753787709861419665==
+--===============5536877589038852917==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ba96309c4e64-87480a8ce567.txt
+Content-Disposition: attachment; filename=revlist-aefeaaa2b099-fbab53018aee.txt
 
 a96d3e2beca0e51c8444d0a3b6b3ec484c4c5a8f iio: light: apds9306: fix max_scale_nano values
 34d93804199fea23da2645dde35d0feb38a5d445 iio: adc: pac1921: Move ACPI_FREE() to cover all branches
@@ -416,5 +416,17 @@ d917d78311e5d5e07c4de1e043fbafb64f7f72ab nfsd: remove unneeded forward declarati
 387625808c45ccd46350440436f4a2f5cec4d04a nfsd: remove obsolete comment from nfs4_alloc_stid
 261e3bbf9747e9c7c87b3bce519df94754e24ed8 nfsd: use a long for the count in nfsd4_state_shrinker_count()
 87480a8ce567340a518d992678224c09afab5f11 sysctl: Fixes nsm_local_state bounds
+be1a910e1af1226971c96760fbcaf8496b9f51f1 NFSD: OFFLOAD_CANCEL should mark an async COPY as completed
+f433496cb8d2bdcbaa087aedee59f9cefb23d915 NFSD: Shorten CB_OFFLOAD response to NFS4ERR_DELAY
+17e68ac8c77a1b4c66465818d3855dc34615110e NFSD: Implement CB_SEQUENCE referring call lists
+e027d840a8c7f7bf197e1ab0ac57970f11cb6adc NFSD: Implement CB_SEQUENCE referring call lists
+da6901f651f9ab78f4ff210d9a3320cf1a5180c2 NFSD: Record each NFSv4 call's session slot index
+649db3e483305e10c38b91088dcada3502bf9c27 sunrpc: update nextcheck time when adding new cache entries
+d7c7147b3d56a7209144fb42b8e7164f072e5d37 sunrpc: fix race in cache cleanup causing stale nextcheck time
+6ff47ef1fd33cca3d966b98b09ded3608f2ed8a4 NFSD: Offer write delegation for OPEN with OPEN4_SHARE_ACCESS_WRITE
+10ddb846af22fb91295adfe86d18931ed52e147c NFSD: unregister filesystem in case genl_register_family() fails
+7a957ce6f998581e2a2ef58f694fda4dc1810045 NFSD: fix race between nfsd registration and exports_proc
+22c7f69c7f71495a444fb47784808a8a55b71d6d NFSD: Add /sys/kernel/debug/nfsd
+fbab53018aee1f7100f3b3b4abf2f5d86ba31770 NFSD: Add experimental setting to disable the use of splice read
 
---===============4753787709861419665==--
+--===============5536877589038852917==--
