@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7476006750118947403=="
+Content-Type: multipart/mixed; boundary="===============1699438171177345736=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 10 Mar 2025 13:06:37 -0000
-Message-Id: <174161199747.2170621.16679667463927419409@gitolite.kernel.org>
+Date: Mon, 10 Mar 2025 13:06:49 -0000
+Message-Id: <174161200939.2170891.14760271647014883637@gitolite.kernel.org>
 
---===============7476006750118947403==
+--===============1699438171177345736==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,28 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/for-next
-    old: 723be3c6ab31b320afe0075e2eb9b8dd41f3b6d1
-    new: 3c4e4ec957b6243cce92fb7d450a71a93ce181c5
-    log: |
-         3c4e4ec957b6243cce92fb7d450a71a93ce181c5 m68k: setup: Remove size argument when calling strscpy()
-         
-  - ref: refs/heads/for-v6.15
-    old: 723be3c6ab31b320afe0075e2eb9b8dd41f3b6d1
-    new: 3c4e4ec957b6243cce92fb7d450a71a93ce181c5
-    log: |
-         3c4e4ec957b6243cce92fb7d450a71a93ce181c5 m68k: setup: Remove size argument when calling strscpy()
-         
-  - ref: refs/heads/master
-    old: 59284ec8a04bb6350c9da480a6c42bd0d0f36b88
-    new: 2f4ac69c34b2d4c2a7421048718d27811a2164f7
-    log: revlist-59284ec8a04b-2f4ac69c34b2.txt
+  - ref: refs/heads/m68k-queue
+    old: e9f51b3c00268ecb88cc76958bf5ec87123a473f
+    new: a1752797ec7e860181206b4e8a95355fdf21ac6a
+    log: revlist-e9f51b3c0026-a1752797ec7e.txt
 
---===============7476006750118947403==
+--===============1699438171177345736==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-59284ec8a04b-2f4ac69c34b2.txt
+Content-Disposition: attachment; filename=revlist-e9f51b3c0026-a1752797ec7e.txt
 
 a96d3e2beca0e51c8444d0a3b6b3ec484c4c5a8f iio: light: apds9306: fix max_scale_nano values
 34d93804199fea23da2645dde35d0feb38a5d445 iio: adc: pac1921: Move ACPI_FREE() to cover all branches
@@ -384,7 +372,11 @@ a382b06d297e78ed7ac67afd0d8e8690406ac4ca Merge tag 'for-linus' of git://git.kern
 0dc1f314f854257eb64dcea604a42a55225453a9 Merge tag 'usb-6.14-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 9712d38c87087ae34f8cede6583092c272507c52 Merge tag 'kbuild-fixes-v6.14-3' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 80e54e84911a923c40d7bee33a34c1b4be148d7a Linux 6.14-rc6
-dcf5d60074a6914ede964448c9d1bcc6e4d40ab6 Merge tag 'v6.14-rc6'
-2f4ac69c34b2d4c2a7421048718d27811a2164f7 m68k: setup: Remove size argument when calling strscpy()
+8f22a3bf4029fadfb8937b79de5d7f3e2976538f m68k: sun3: Use str_read_write() helper in mmu_emu_handle_fault()
+ee983763395ee899e69c59798ff6edb4b371796d m68k: sun3: Fix DEBUG_MMU_EMU build
+04a8552b6d33def9a908fe826c9a2f291c4b8c14 m68k: setup: Remove size argument when calling strscpy()
+fdf34f3da6b0e9d5151a42422495da77137bb6eb m68k: atari: usb: Add ISP1160 USB host controller support
+163265d4fe0c8bff9fe2ca75edaf6bc01b5aac28 m68k: atari: Update Kconfig.bus help text
+a1752797ec7e860181206b4e8a95355fdf21ac6a m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============7476006750118947403==--
+--===============1699438171177345736==--
