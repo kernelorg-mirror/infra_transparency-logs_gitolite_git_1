@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4127729467867309274=="
+Content-Type: multipart/mixed; boundary="===============7548428034920386267=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 10 Mar 2025 06:32:30 -0000
-Message-Id: <174158835007.1762849.3732545129469459594@gitolite.kernel.org>
+Date: Mon, 10 Mar 2025 06:32:43 -0000
+Message-Id: <174158836362.1763212.3601349071859287458@gitolite.kernel.org>
 
---===============4127729467867309274==
+--===============7548428034920386267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,70 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 2397d61ee45cddb8f3bd3a3a9840ef0f0b5aa843
-    new: 80e54e84911a923c40d7bee33a34c1b4be148d7a
-    log: revlist-2397d61ee45c-80e54e84911a.txt
+  - ref: refs/heads/char-misc-next
+    old: 74fc34937d72d04e89e4f75ea66147cdc9b785f5
+    new: 046cc01be6b9d139b49dfc396b7201c633ff1a26
+    log: revlist-74fc34937d72-046cc01be6b9.txt
 
---===============4127729467867309274==
+--===============7548428034920386267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1741588378 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1741588388 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1741588348-c0c5bbd89ada0430a65f234e7593840356aa8815
+nonce 1741588358-0277ddc138c88146238a3e5a4064891299d95e85
 
-2397d61ee45cddb8f3bd3a3a9840ef0f0b5aa843 80e54e84911a923c40d7bee33a34c1b4be148d7a refs/heads/char-misc-linus
+74fc34937d72d04e89e4f75ea66147cdc9b785f5 046cc01be6b9d139b49dfc396b7201c633ff1a26 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfOh5obHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xDkQAMUYvTVpWeyI9RTjWu0+
-epWfpKUXjU/zWI9e2fbHrysGQ++KDM9W3b0xNfrY41I3g6bKnPqmlazSc7kyqdYX
-4GHb5dNS65z6677dUcaPhS6ibaSW052cAKt7f23DhSjgLeLm4nLzzv1e+imaMplZ
-V6/gQFF4wtCsV1EE8azUh+0Ld44Or+4HDZziXIbal4ToRfNSrxafP5jpV+pVlPmo
-GXIC+AMc1M3kTMMjrW3zqeSzxjkZ8DYSNcH1FeJeEFW694hoH24MBS8AL8hmX1gk
-vd6uR8S8D+nmfycx/4n3V65clUQD4NGP2ZqGYCkFdqIGIRd0uwl87xUfzDsubMlH
-wf/zwwkkqW4X586eqjzz/CXP5RliWhRzaT0Bn/W4tJ403D3qQhsmsBwIB70kjA1M
-/v1Jxcfx4faOaRx9SLaBhIW2B2pPlgF9c1e80YvqYvItNbDVgh3T3XszQw0XDfg0
-dz+AImHccGpaJn3BooHP/9ju30Tfx0oIFNoXP/uwv+kI35oUQiC7KKUWxODLZD5z
-545FG6StgVlQZF1Bg+asqDdHAbWMcWL7Fgvv8aRwj1K4AKwmgef+o8IKyQiMsNyR
-DLOvi8ItzY7xnKXD1YbVqbLg74+dkF8bz83y5jqaCV2cxUIAnif7JU8nLtcipleX
-wJyb516zVR0XtyuXwChsiBoK
-=iABv
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfOh6QbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iGsP+gPVjKVYDtfRUk+HJP/5
+ld4OC3xCTSqQWXOJWmPn2XsozA7ay5BUEYXNY9okpoScKrdVKIthGu11XdtoykWP
+3pL1GtIlxLuOfI/t/0Plo6pSJn7GNbOfTIhLicBl8fxiDZsl3gUxX31G9HLS8zic
+oXA4+UXx7tXQ2QLkBZ3CyB8aCc/NhkmY3iZcdrgu2HtFv4UStliJwipP9JPt2V6i
+u8NBiyZk1m8uYmPskZUGty86gf0fCileBwEuiIIGWMY8f59XvgRhtezT+G39sZOD
+RfIPQgnKeUUUWyjKg5mD9Q3qKEPehSVJDof6mlIJPAq2+TJZRtFkSWlG5jyhalgh
+IhGAaWMyF1taZk/PsL29tAWyQ0AWXknBLL5Mxf9RIpuqdu5T2AySlPmDBJ8jdquI
+V1h24+8xtnxc3r8Zn6o8ZXwriSfgBx3grWzuL1xVGdkxcVFh8CHnyvWCF+WwbggX
+ZTXM50jBRB6ITxNt+yGZ5u2TXRX22/h/AY2OFFMidMoEnyv+MmplsvOAvYs7uL0x
+aCimaBl3QJ49U73Wjkb47eB9d1t4vvjPdKf18BVFkhxEKbxNOtgfhq35oypXrdIu
+1i73ZsbBWvpco13qu29QcZf9Z3K32My7mLwJu8eJjT5XNzyNz9poni0Ug06g2MZW
+loI4ZHrqAdrKBuEQV3IvobEA
+=FYVn
 -----END PGP SIGNATURE-----
 
---===============4127729467867309274==
+--===============7548428034920386267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2397d61ee45c-80e54e84911a.txt
+Content-Disposition: attachment; filename=revlist-74fc34937d72-046cc01be6b9.txt
 
-12606fe73f33647c5e79bf666833bf0b225e649d USB: serial: option: fix Telit Cinterion FN990A name
-1c316eb57c11fb3dc447b04ef765459cd61c8647 bcachefs: Fix use after free
-1e690efa72596a1163dc56709707f459221889d2 bcachefs: Split out journal pins by btree level
-9f734cd076931fa4d7feb5728e5cd95cde0af114 bcachefs: Fix want_new_bset() so we write until the end of the btree node
-6aa8a63c471eb6756aabd03f880feffe6a7af6c9 USB: serial: option: drop MeiG Smart defines
-35e21de48e693af1dcfdbf2dc3d73dcfa3c8f2d9 regulator: core: let dt properties override driver init_data
-69ab25a74e2df53edc2de4acfce0a484bdb88155 idpf: fix handling rsc packet with a single segment
-2ff66c2f9ea4e9311e9a00004348b6c465bd5d3b idpf: record rx queue in skb for RSC packets
-52c11d31b5a1d1c747bb5f36cc4808e93e2348f4 idpf: call set_real_num_queues in idpf_open
-61fb097f9a644407b9342a8169d0edef868612d7 ixgbe: Fix possible skb NULL pointer dereference
-7822dd4d6d4bebca5045a395e1784ef09cae2d43 igc: Fix HW RX timestamp when passed by ZC XDP
-63f20f00d23d569e4e67859b4e8dcc9de79221cb igc: Set buffer type for empty frames in igc_init_empty_frame
-fc22b06fbd2afefa1eddff69a6fd30c539cef577 platform/x86: int3472: Use correct type for "polarity", call it gpio_flags
-569617dbbd06286fb73f3f1c2ac91e51d863c7de platform/x86: int3472: Call "reset" GPIO "enable" for INT347E
-318e8c339c9a0891c389298bb328ed0762a9935e x86/cpu/kvm: SRSO: Fix possible missing IBPB on VM-Exit
-09fbf3d502050282bf47ab3babe1d4ed54dd1fd8 Merge tag 'tomoyo-pr-20250211' of git://git.code.sf.net/p/tomoyo/tomoyo
-8d1d1e8d3345b56d3d8a64f845962c71468cd776 s390/configs: Remove CONFIG_LSM
-32ae4a2992529e2c7934e422035fad1d9b0f1fb5 s390/cio: Fix CHPID "configure" attribute caching
-6166caf3bbe2429e4fac71b77e1c8254f2690383 s390/bitops: Disable arch_test_bit() optimization for PROFILE_ALL_BRANCHES
-05793884a1f30509e477de9da233ab73584b1c8c s390/pci: Pull search for parent PF out of zpci_iov_setup_virtfn()
-2844ddbd540fc84d7571cca65d6c43088e4d6952 s390/pci: Fix handling of isolated VFs
-c195b9c6ab9c383d7aa3f4a65879b3ca90cb378b thermal/netlink: Prevent userspace segmentation fault by adjusting UAPI header
-a6768c4f92e152265590371975d44c071a5279c7 thermal/cpufreq_cooling: Remove structure member documentation
 7d1163fc08936fcb5cf5d9daf366c322c3b4e882 arm64: dts: rockchip: disable IOMMU when running rk3588 in PCIe endpoint mode
 8546cfd08aa4b982acd2357403a1f15495d622ec arm64: dts: rockchip: adjust SMMU interrupt type on rk3588
 acc18e1c1d8c0d59d793cf87790ccfcafb1bf5f0 btrfs: fix stale page cache after race between readahead and direct IO write
@@ -92,6 +69,7 @@ e589adf5b70c07b1ab974d077046fdbf583b2f36 iavf: Fix a locking bug in an error pat
 174448badb4409491bfba2e6b46f7aa078741c5e ALSA: hda/realtek: Fixup ALC225 depop procedure
 8743d66979e494c5378563e6b5a32e913380abd8 gpiolib: acpi: Add a quirk for Acer Nitro ANV14
 d262a192d38e527faa5984629aabda2e0d1c4f54 powerpc/code-patching: Fix KASAN hit by not flagging text patching area as VM_ALLOC
+e45e07c16743b9e1ee8b43e4ca59998ff7feacb1 Merge tag 'iio-fixes-for-6.14a' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-linus
 cf56aa8dd26328a9af4ffe7fb0bd8fcfa9407112 Revert "netfilter: flowtable: teardown flow if cached mtu is stale"
 b9644fbfbcab13da7f8b37bef7c51e5b8407d031 gpio: stmpe: Check return value of stmpe_reg_read in stmpe_gpio_irq_sync_unlock
 56d5f3eba3f5de0efdd556de4ef381e109b973a9 acct: perform last write from workqueue
@@ -467,13 +445,18 @@ eff2eb592efd73f00590d578c3d6021f604df62c cxl: Fix cross-reference in documentati
 6586788f0a8d0f3b33b1383885575f5b5f7b9dad MAINTAINERS: Remove myself
 60255f3704fde70ed3c4d62f919aa4b46f841f70 mtd: rawnand: cadence: fix unchecked dereference
 1dbf60277e9b6181d2366a94c974728106cdd551 Merge tag 'spi-nor/fixes-for-6.14-rc4' of https://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux into mtd/fixes
+a8e8ffcc3afce2ee5fb70162aeaef3f03573ee1e mei: me: add panther lake P DID
+fdb1ada57cf8b8752cdf54f08709d76d74999544 mei: vsc: Use "wakeuphostint" when getting the host wakeup GPIO
 c90aad369899a607cfbc002bebeafd51e31900cd usb: atm: cxacru: fix a flaw in existing endpoint checks
 17c2c87c37862c3e95b55f660681cc6e8d66660e usb: gadget: u_ether: Set is_suspend flag if remote wakeup fails
 40e89ff5750fca2c1d6da93f98a2038716bba86c usb: gadget: Set self-powered based on MaxPower and bmAttributes
 d6b82dafd17db0658f089b9cdec573982ca82bc5 usb: typec: tcpci_rt1711h: Unmask alert interrupts to fix functionality
 976e7e9bdc7719a023a4ecccd2e3daec9ab20a40 acpi: typec: ucsi: Introduce a ->poll_cci method
 bf4f9ae1cb08ccaafbe6874be6c46f59b83ae778 usb: typec: ucsi: increase timeout for PPM reset operations
+a321d163de3d8aa38a6449ab2becf4b1581aed96 bus: mhi: host: pci_generic: Use pci_try_reset_function() to avoid deadlock
+fa2e55811ae25020a5e9b23a8932e67e6d6261a4 ntsync: Set the permissions to be 0666
 fb3331f53e3cb1f1505f918f4f33bb0a3a231e4f io_uring/rsrc: remove unused constants
+954b8915ff86353037d4246c7129d807a75f898b MAINTAINERS: change maintainer for FSI
 7330195e6018ece3e886177ffbc9349a0b6585e6 smb: client, common: Avoid multiple -Wflex-array-member-not-at-end warnings
 9df23801c83d3e12b4c09be39d37d2be385e52f9 smb311: failure to open files of length 1040 when mounting with SMB3.1.1 POSIX extensions
 cad3fc0a4c8cef07b07ceddc137f582267577250 cifs: Throw -EOPNOTSUPP error on unsupported reparse point type from parse_reparse_point()
@@ -510,15 +493,29 @@ dfc1580f960bf70bdaacda8f3d644e3e58160f9d selftests/net/forwarding: Add a test ca
 62520094e98c197c5ae34af9a17b67381678cb9d Merge branch 'net-core-improvements-to-device-lookup-by-hardware-address'
 3d8c6f26893d55fab218ad086719de1fc9bb86ba RDMA/mlx5: Fix implicit ODP hang on parent deregistration
 c534ffda781f44a1c6ac25ef6e0e444da38ca8af RDMA/mlx5: Fix AH static rate parsing
+6d306090ea23d94783b0e77ecb63bea566fb8da3 Merge tag 'mhi-fixes-for-v6.14' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/mani/mhi into char-misc-linus
 a370295367b55662a32a4be92565fe72a5aa79bb net: axienet: Set mac_managed_pm
 9b6412e6979f6f9e0632075f8f008937b5cd4efd tcp: drop secpath at the same time as we currently drop dst
 878e7b11736e062514e58f3b445ff343e6705537 nfp: bpf: Add check for nfp_app_ctrl_msg_alloc()
+4738d3d3e12d70a5067baba147daf57e57b77548 intel_th: msu: Fix kernel-doc warnings
+04190ec6d02aa8fee0f03189bb7762b44739c253 intel_th: msu: Fix less trivial kernel-doc warnings
+b5edccae9f447a92d475267d94c33f4926963eec intel_th: pci: Add Arrow Lake support
+a70034d6c0d5f3cdee40bb00a578e17fd2ebe426 intel_th: pci: Add Panther Lake-H support
+49114ff05770264ae233f50023fc64a719a9dcf9 intel_th: pci: Add Panther Lake-P/U support
 14ad6ed30a10afbe91b0749d6378285f4225d482 net: allow small head cache usage with large MAX_SKB_FRAGS values
 6bc7e4eb0499562ccd291712fd7be0d1a5aad00a Revert "net: skb: introduce and use a single page frag cache"
 dd3188ddc4c49cb234b82439693121d2c1c69c38 Merge branch 'net-remove-the-single-page-frag-cache-for-good'
 78eb41f518f414378643ab022241df2a9dcd008b drivers: core: fix device leak in __fw_devlink_relax_cycles()
 c783e1258f29c5caac9eea0aea6b172870f1baf8 usb: gadget: Fix setting self-powered state on suspend
 96fa9ec477ff60bed87e1441fd43e003179f3253 gpiolib: don't bail out if get_direction() fails in gpiochip_add_data()
+91d44c1afc61a2fec37a9c7a3485368309391e0b cdx: Fix possible UAF error in driver_override_show()
+c99e1e1d0850ff157f1bc16871acd2dff5a9bcc3 vbox: add HAS_IOPORT dependency
+dcb0d43ba8eb9517e70b1a0e4b0ae0ab657a0e5a slimbus: messaging: Free transaction ID in delayed interrupt scenario
+e77aff5528a183462714f750e45add6cc71e276a binderfs: fix use-after-free in binder_devices
+819cec1dc47cdeac8f5dd6ba81c1dbee2a68c3bb drivers: virt: acrn: hsm: Use kzalloc to avoid info leak in pmcmd_ioctl
+038ef0754aae76f79b147b8867f9250e6a976872 eeprom: digsy_mtc: Make GPIO lookup table match the device
+6d991f569c5ef6eaeadf1238df2c36e3975233ad char: misc: deallocate static minor in error path
+32ce5d87d52213a50a513750f01a56f4d01f50cb bus: simple-pm-bus: fix forced runtime PM use
 b4c173dfbb6c78568578ff18f9e8822d7bd0e31b fuse: don't truncate cached, mutated symlink
 7543095ce0f313a7060d2b017acd6ccc1a709ad7 Merge tag 'md-6.14-20250218' of https://git.kernel.org/pub/scm/linux/kernel/git/mdraid/linux into block-6.14
 782cffeec9ad96daa64ffb2d527b2a052fb02552 perf/x86/intel: Fix event constraints for LNC
@@ -558,6 +555,7 @@ c6c9c4d56483d941f567eb921434c25fc6086dfa btrfs: skip inodes without loaded exten
 b1bf18223a8340cf5d52162d320badcfe07b905d btrfs: output an error message if btrfs failed to find the seed fsid
 efa11fd269c139e29b71ec21bc9c9c0063fde40d btrfs: fix data overwriting bug during buffered write when block size < page size
 e9a48ea4d90be251e0d057d41665745caccb0351 irqchip/qcom-pdc: Workaround hardware register bug on X1E80100
+92527e473911b835c2c18b0c55c337c33e85ff00 ntsync: Check wait count based on byte size.
 d252435aca44d647d57b84de5108556f9c97614a riscv: KVM: Remove unnecessary vcpu kick
 8510edf191d2df0822ea22d6226e4eef87562271 mm/filemap: fix miscalculated file range for filemap_fdatawrite_range_kick()
 927289988068a65ccc168eda881ce60f8712707b mm/truncate: don't skip dirty page in folio_unmap_invalidate()
@@ -782,6 +780,7 @@ eed6bfa8b28230382b797a88569f2c7569a1a419 arm64: hugetlb: Fix flush_hugetlb_tlb_r
 6b481ab0e6855fb30e2923c51f62f1662d1cda7e drm/nouveau: select FW caching
 82c387ef7568c0d96a918a5a78d9cad6256cfa15 sched/core: Prevent rescheduling when interrupts are disabled
 c133ec0e5717868c9967fa3df92a55e537b1aead usb: xhci: Enable the TRB overfetch quirk on VIA VL805
+2397d61ee45cddb8f3bd3a3a9840ef0f0b5aa843 Revert "drivers/card_reader/rtsx_usb: Restore interrupt based detection"
 b06a731cbc1b9371874221c2caa8f490f6942f33 Merge tag 'amd-drm-fixes-6.14-2025-02-26' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
 cbf85b9cb80bec6345ffe0368dfff98386f4714f bluetooth: btusb: Initialize .owner field of force_poll_sync_fops
 f2176a07e7b19f73e05c805cf3d130a2999154cb Bluetooth: Add check for mgmt_alloc_skb() in mgmt_remote_name()
@@ -1081,5 +1080,6 @@ a382b06d297e78ed7ac67afd0d8e8690406ac4ca Merge tag 'for-linus' of git://git.kern
 0dc1f314f854257eb64dcea604a42a55225453a9 Merge tag 'usb-6.14-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 9712d38c87087ae34f8cede6583092c272507c52 Merge tag 'kbuild-fixes-v6.14-3' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 80e54e84911a923c40d7bee33a34c1b4be148d7a Linux 6.14-rc6
+046cc01be6b9d139b49dfc396b7201c633ff1a26 Merge 6.14-rc6 into char-misc-next
 
---===============4127729467867309274==--
+--===============7548428034920386267==--
