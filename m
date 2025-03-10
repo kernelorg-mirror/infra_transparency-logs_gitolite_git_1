@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Mon, 10 Mar 2025 19:49:34 -0000
-Message-Id: <174163617440.2548266.13720064589655890515@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 10 Mar 2025 19:50:25 -0000
+Message-Id: <174163622536.2550447.9312523091585490854@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/for-6.15/io_uring
-    old: 22c880f446a149f5ee11260690a34d4b3f95c221
-    new: c93edef0374b203a7109e876ecd396446cb6e1d3
+  - ref: refs/heads/perf/core
+    old: 7a310c644cf571fbdb1d447a1dc39cf048634589
+    new: fd3f5d385a52531589c8a7a26d9e108aa1d3f52e
     log: |
-         c93edef0374b203a7109e876ecd396446cb6e1d3 Revert "io_uring/rsrc: simplify the bvec iter count calculation"
-         
-  - ref: refs/heads/for-next
-    old: 4cfcc4faf9c2dfeff5be688e9cf753a34ac9ed79
-    new: d84b616069e921509ca55d77df066d39b91a2d05
-    log: |
-         c93edef0374b203a7109e876ecd396446cb6e1d3 Revert "io_uring/rsrc: simplify the bvec iter count calculation"
-         d84b616069e921509ca55d77df066d39b91a2d05 Merge branch 'for-6.15/io_uring' into for-next
+         fd3f5d385a52531589c8a7a26d9e108aa1d3f52e perf/core: Remove optional 'size' arguments from strscpy() calls
          
