@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4816550903141150970=="
+Content-Type: multipart/mixed; boundary="===============7081912648108152843=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Mon, 10 Mar 2025 17:57:11 -0000
-Message-Id: <174162943182.2449034.10210211804735220880@gitolite.kernel.org>
+Date: Mon, 10 Mar 2025 18:02:06 -0000
+Message-Id: <174162972612.2453535.15305209840460407317@gitolite.kernel.org>
 
---===============4816550903141150970==
+--===============7081912648108152843==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ras/ras
 user: aegl
 changes:
-  - ref: refs/heads/edac-drivers
-    old: d9207cf7760f5f5599e9ff7eb0fedf56821a1d59
-    new: a5db1b296b181c7ced38252d2ff40e3cf87a12df
-    log: revlist-d9207cf7760f-a5db1b296b18.txt
+  - ref: refs/heads/edac-for-next
+    old: 079b06b8b3a057b0f04381b4144602577f875080
+    new: af1a78613133542583c9a9875c824678a3c3a145
+    log: revlist-079b06b8b3a0-af1a78613133.txt
 
---===============4816550903141150970==
+--===============7081912648108152843==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d9207cf7760f-a5db1b296b18.txt
+Content-Disposition: attachment; filename=revlist-079b06b8b3a0-af1a78613133.txt
 
 d59d844e319d97682c8de29b88d2d60922a683b3 EDAC/ie31200: Fix the size of EDAC_MC_LAYER_CHIP_SELECT layer
 3427befbbca6b19fe0e37f91d66ce5221de70bf1 EDAC/ie31200: Fix the DIMM size mask for several SoCs
@@ -37,5 +37,6 @@ a217961b83ae845fe7247255f0b8a01e3b2ed8a2 EDAC/ie31200: Fold the two channel loop
 498550e1fa7c1cb52952433d64f9230c247c7c00 EDAC/ie31200: Break up ie31200_probe1()
 d0742284ec6da1435acdda428088136944c4c3c2 EDAC/ie31200: Add Intel Raptor Lake-S SoCs support
 a5db1b296b181c7ced38252d2ff40e3cf87a12df EDAC/ie31200: Switch Raptor Lake-S to interrupt mode
+af1a78613133542583c9a9875c824678a3c3a145 Merge branch 'edac-drivers' into edac-for-next
 
---===============4816550903141150970==--
+--===============7081912648108152843==--
