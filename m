@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0645831500448184723=="
+Content-Type: multipart/mixed; boundary="===============2881604985024663562=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Tue, 11 Mar 2025 02:38:24 -0000
-Message-Id: <174166070464.2898530.7342497035481282089@gitolite.kernel.org>
+Date: Tue, 11 Mar 2025 02:39:49 -0000
+Message-Id: <174166078911.2900027.12287250288799601971@gitolite.kernel.org>
 
---===============0645831500448184723==
+--===============2881604985024663562==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: ac0fb4a55bde561c46fc7445642a722803176b33
-    new: f421692be10133a66a3a8a7d5c76fe9713ea5a8b
-    log: revlist-ac0fb4a55bde-f421692be101.txt
+  - ref: refs/heads/for-next
+    old: ae142f3e458cb4b8944dca4a4e08770c9318e94a
+    new: 6888bc9da22408efdc62c14976c35f06c13936af
+    log: revlist-ae142f3e458c-6888bc9da224.txt
 
---===============0645831500448184723==
+--===============2881604985024663562==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac0fb4a55bde-f421692be101.txt
+Content-Disposition: attachment; filename=revlist-ae142f3e458c-6888bc9da224.txt
 
 ed3e4842224ff721f48154c1fed6ef97241249e6 scsi: core: Fix missing lock protection
 cee4f928beee900fd05da24d6b5e9127d2adae37 scsi: scsi_debug: Fix uninitialized variable use
@@ -43,5 +43,6 @@ dfb7df1ddb29c89662e84b2c82c1ff7943358ae0 scsi: target: Replace deprecated strncp
 e984fa2542e1308d67140bd7a76f678dabbcd9a8 scsi: fnic: Replace use of sizeof with standard usage
 7f5dce6e7f0150ee57b8d1186011f57fa62c2843 scsi: fnic: Replace fnic->lock_flags with local flags
 f421692be10133a66a3a8a7d5c76fe9713ea5a8b scsi: fnic: Remove unnecessary spinlock locking and unlocking
+6888bc9da22408efdc62c14976c35f06c13936af Merge branch 'misc' into for-next
 
---===============0645831500448184723==--
+--===============2881604985024663562==--
