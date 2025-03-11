@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0117866115913839174=="
+Content-Type: multipart/mixed; boundary="===============1312152743671701391=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 11 Mar 2025 15:30:02 -0000
-Message-Id: <174170700262.3586278.2482154365565194122@gitolite.kernel.org>
+Date: Tue, 11 Mar 2025 15:30:08 -0000
+Message-Id: <174170700819.3587216.10875568921769764037@gitolite.kernel.org>
 
---===============0117866115913839174==
+--===============1312152743671701391==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/200GbE
     old: 8ef890df4031121a94407c84659125cbccd3fdbe
     new: 0ea09cbf8350b70ad44d67a1dcb379008a356034
     log: revlist-8ef890df4031-0ea09cbf8350.txt
 
---===============0117866115913839174==
+--===============1312152743671701391==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -68,4 +68,4 @@ df9fd2a3ce01ea08e4e14e3d9e9d3c113eaeba91 enic: get max rq & wq entries supported
 6d99faf2541d519ec30a104d6b585484563e2c45 Merge branch 'net-ti-icssg-prueth-add-native-mode-xdp-support'
 0ea09cbf8350b70ad44d67a1dcb379008a356034 docs: netdev: add a note on selftest posting
 
---===============0117866115913839174==--
+--===============1312152743671701391==--
