@@ -1,56 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============8440237079162865929=="
+Content-Type: multipart/mixed; boundary="===============8715880055597224797=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 11 Mar 2025 10:00:38 -0000
-Message-Id: <174168723882.3258490.8818202673420584372@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Tue, 11 Mar 2025 10:02:26 -0000
+Message-Id: <174168734670.3259476.10672908319293466199@gitolite.kernel.org>
 
---===============8440237079162865929==
+--===============8715880055597224797==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: b2a9e9f6d2bfc81fc5678c9852a69cb6546058f5
-    new: de39703545d6757bcd2e38a7731df8c3066da047
+  - ref: refs/heads/char-misc-testing
+    old: 046cc01be6b9d139b49dfc396b7201c633ff1a26
+    new: 34ff7999dc4a3da6fe96821031975b8170dd36ee
     log: |
-         de39703545d6757bcd2e38a7731df8c3066da047 drop queue-6.6/riscv-save-restore-envcfg-csr-during-cpu-suspend.patch
+         bbb89c177208ad2557cb29ff04d4b13a37b36c23 tools/counter: gitignore counter_watch_events
+         a1cd339599a8cff197805c9c71c9cab83cec59c2 counter: add direction change event
+         37f7a388b3f1b14eaeb295c2fe554d15e34e8ab9 tools/counter: add direction change event to watcher
+         c2a756660324fceca26780a50950e6d91dfdc210 counter: ti-eqep: add direction support
+         e5d5813968217b99ef2b83f13353967b218e3841 counter: microchip-tcb-capture: Add IRQ handling
+         1adc6240a80278c613f655b71c6c0d447b2d5932 counter: microchip-tcb-capture: Add capture extensions for registers RA/RB
+         b5198201932635e19068cc2e83a99adf38f32c43 counter: Introduce the compare component
+         ba27a0247b7187af36cb0b1fe7f7a68067ccb555 counter: microchip-tcb-capture: Add support for RC Compare
+         34ff7999dc4a3da6fe96821031975b8170dd36ee Merge tag 'counter-updates-for-6.15' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/wbg/counter into char-misc-next
          
 
---===============8440237079162865929==
+--===============8715880055597224797==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1741687266 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1741687236-934adb6dab14f6983ef31cd678d86a84dd0b75c8
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1741687373 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1741687343-5aaef40e0faa231998824bcb561ad3fa045756af
 
-b2a9e9f6d2bfc81fc5678c9852a69cb6546058f5 de39703545d6757bcd2e38a7731df8c3066da047 refs/heads/master
+046cc01be6b9d139b49dfc396b7201c633ff1a26 34ff7999dc4a3da6fe96821031975b8170dd36ee refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfQCeIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/78QANieMS6b3Ru7igv8R0uY
-r7ou2apBmK2/97gs7/pvrD0JLIRbrN+1hatMPc3qrOHNF6mvGzRMtL/ooIpMzUE0
-NGuwkrD7AOw1jntI5EL28pWBiUAZA/bzHdWIX49jSSC4NyFaE6yDJEOV7l0xBHuM
-R1tqsHNNcbpz/QycbCXa2PuLnOlvPj9ADYmUJ9QVatpuNJT58N6Cv/snbS5sWhn+
-bTbiRn5D2NA8tKZjwVukzW6ItW+vzk5syUhda2KWLgB00IZQ2xK0UiEq/5y0HB5t
-D7uMddXw110+ip0qOTBE4gF0Dl0QiGPXJeXXN+b79OYirNf7/TMCuSEpzkJZ9b0P
-O+jae+o49pIfaQiZM0ZTmG3F8tW+hQU8GDM/L885m712W+mXtnMID0ZCxD8xVjKl
-Hf1UD50uDiIqCNErJrxQi+xMLJW2WoI1SLoW/eeajnLxuG8JvrxvPLMPidwM72G/
-XI9CuJphW7BYKGrmg1Hyxw+eGHNui+p9mYwVTt24Pi1/NHO/7yeRiWr9JNKPlNJe
-HPlGbgBUtIiEZwp5jg2UfcuRBk2xXwn/onsnniIukmXc5nJCmR+i6LovPngiwFyg
-FztDWO5vAB9Fbqo3IFjhsT+XGDhdWzJNLlmI2c2NGkRVQq5ld7lNcCONMgCvEt9K
-98sWHz5KO2I9QkbHz0eGwCg7
-=57Ba
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfQCk0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2z0P/jMETqCx0KP5Q4wR6POc
+SoLARLZi9yMC+8T9jbTqRjNE9k6osRXgaxW92kooczRNivCOcAnaELKNxi6IpnI5
+9Z2BjmMN5vtDyByELh+xrXTDrkZSbvvmN9ea4T2JQYfEblJV7+8RPbaCQjnkjFie
+wD5c9wI5GdeZNjh6egRqED9ZCAwVQqC+QmDAZyLDock61NPhqqvgCM7XuNP0cBff
+LWsumXqG7lGSvN9C4Lk5Ls0fY8Zh876f8yzd5/7F45/sAM1Pp3emaRAi/17pCKJT
+lIaZ/Wtzqn2McrY6X9RKm/9vdqLnugAq2gxVXkXpmRMU/NfQhwohKgwWdvoeuUX8
+MXZdRqj5O9bDkq/YhMIEhj7gpzrem7wduidYe8Wk2l7Dvk4HX6Q0HG6EspfYlW26
+fvXtGnaCtBUqC33+soh95NNMTV0VAMvZqMMJ2UOOetBeCkwAtZsYDoULpW6HSB8A
+bAVxb2+2wmIBY+8YarMwIQIXoNgV8n2JvWS/44qoo88JNplKXNA8grAy6waT9Ggy
+din4MqXI7mhligVetQBkiLlVps6lMwwpnhS33MbMau+b1d0a3bB8r3+dHTmie/Es
+LrVEL4jnylDEjL0Gs0JqPRRuknnUSocSG8qY/++t2MtddJuT6J1n/x678Z+CtP1P
+5vaAZKzLcs6mPFWoDK1twghr
+=jz3/
 -----END PGP SIGNATURE-----
 
---===============8440237079162865929==--
+--===============8715880055597224797==--
