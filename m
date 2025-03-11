@@ -1,27 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 11 Mar 2025 09:40:55 -0000
-Message-Id: <174168605551.3241777.5773367795349905046@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8197168282831854200=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Tue, 11 Mar 2025 09:54:08 -0000
+Message-Id: <174168684812.3251380.5660665894473671972@gitolite.kernel.org>
+
+--===============8197168282831854200==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 71ca3561c268a07888ba9ce089ab8c3f54710cd4
-    new: 40587f749df216889163dd6e02d88ad53e759e66
+  - ref: refs/heads/master
+    old: 340ed4bc6119d9453d6d4916214792098b89e770
+    new: b166179c1997ad260dea77cdb886ac42d728aa96
     log: |
-         025cf9318083d1d7c798846620be4559e03734f0 enic: Move function from header file to c file
-         eaa23db8686f119a5cadb0e47cfbdea347a6d239 enic: enic rq code reorg
-         2be2eb764343d5211b12b29fa45aaf518e8c3a7e enic: enic rq extended cq defines
-         bcb725c79cfa770aa1356eb2f26ffcfbae67fb13 enic: enable rq extended cq support
-         6dca618c94676ed87ff29a8cb95431f4f2c189ee enic: remove unused function cq_enet_wq_desc_dec
-         e5f1bcd93d96b338c486f2376f260f7fc98b3cd5 enic: added enic_wq.c and enic_wq.h
-         26b2c5f6ff479825957975518df4cb8e96da0271 enic: cleanup of enic wq request completion path
-         df9fd2a3ce01ea08e4e14e3d9e9d3c113eaeba91 enic: get max rq & wq entries supported by hw, 16K queues
-         40587f749df216889163dd6e02d88ad53e759e66 Merge branch 'enic-enable-32-64-byte-cqes-and-get-max-rx-tx-ring-size-from-hw'
+         d4b1e4d4b781be9cda6b3aca729256bff8001419 add .vulnerable id for CVE-2025-21751
+         b166179c1997ad260dea77cdb886ac42d728aa96 update cve entry based on new .vulnerable update
          
+
+--===============8197168282831854200==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1741686874 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1741686844-ae67dd3b96a3d4f6f33eb86a716d22a936ca0163
+
+340ed4bc6119d9453d6d4916214792098b89e770 b166179c1997ad260dea77cdb886ac42d728aa96 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfQCFobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zxwQAK6KKrHGZfoCWz5BezQp
+uk/JNgR+D7avYliEhPE2yPXNGcsCqV2LgBuNC19odiHHHoQsiP+6V2nD82MGdmX1
+JuNDEEvVrMCuGuDkh1tttW2Oey9xZx6HlQMQD3CsZmgkr8is3wOI0D29HM5tYnx+
+GWZUk47mVdq4gMAD1+RAEz/7JspCg4chbnAhuzqHkh+hnjNiAS6zqsg8V92t4te0
+qT7oiLE05d2iFJP7m9fkWiMKyB3TINVSBer4DEzmufa59CCj3IQT48eIUz+MNo7h
+j2gar7hGF8TBVhFKfiVByPUmdTckHWpHL+Gd/hjU1+LCKdV+vbr8P9gsRhyKHgEC
+bBjcg2z+meQwSLaFsLk0u2m/7dHEuxc1EvxrXf/elYmRXBV65CRDT3Q4nw3fSkAt
+K/akiC8ibLoypoUGOq69BmVkD92w/QVnpk8LZmm2ayyC/EYpTGt/Tu35h7OPcjwW
+coSyfrlhcLTwfZR/onQ/fu3c4qd28TQByBuHt6K1PdcXrFiu4wUD5f2wvydwXVzm
+hZnul4Nx/22I0gmCp/4esxO9HmkdNeh4OlgenvmbiXvjJDIJcRjJGZlb0WXZ86Uf
+j6A8O/E7uWnU3x/2LWEv9uNM06re7C6OL8sCsTBMALUfCQ+b5gkL9DaxlV9+ozA0
+sGwWiL3Gvzs/WQnrug6lPDVq
+=Ajky
+-----END PGP SIGNATURE-----
+
+--===============8197168282831854200==--
