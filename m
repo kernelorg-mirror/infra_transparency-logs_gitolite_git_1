@@ -1,28 +1,49 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 11 Mar 2025 19:17:03 -0000
-Message-Id: <174172062307.3794006.10567950911362539137@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/chromeos
+Date: Tue, 11 Mar 2025 19:22:42 -0000
+Message-Id: <174172096236.3798691.9790072391477165207@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
+repo: pub/scm/linux/kernel/git/iwlwifi/chromeos
+user: mkorenbl
 changes:
-  - ref: refs/heads/for-linus
-    old: 1c81a8c78ae653f3a21cde0f37a91f1b22b7d2fb
-    new: b60ef2a3334ca15f249188870fc029ddf06ef7c4
-    log: |
-         8619909b38eeebd3e60910158d7d68441fc954e9 regulator: dummy: force synchronous probing
-         b60ef2a3334ca15f249188870fc029ddf06ef7c4 regulator: check that dummy regulator has been probed before using it
-         
-  - ref: refs/heads/for-next
-    old: 03626f01845d592af70f5f333dc0c7e573312be4
-    new: 34c7fc9a18025c98d74d968493bfdfaa4045ca51
-    log: |
-         8619909b38eeebd3e60910158d7d68441fc954e9 regulator: dummy: force synchronous probing
-         b60ef2a3334ca15f249188870fc029ddf06ef7c4 regulator: check that dummy regulator has been probed before using it
-         34c7fc9a18025c98d74d968493bfdfaa4045ca51 Merge remote-tracking branch 'regulator/for-6.15' into regulator-next
-         
+  - ref: refs/heads/chromeos-5.4__release/core94-91
+    old: 0000000000000000000000000000000000000000
+    new: 12fff74a2a5bb0cf57c13750c45e19a57ff71183
+  - ref: refs/tags/chromeos-5.4__release/core94-2025-03-11
+    old: 0000000000000000000000000000000000000000
+    new: 12fff74a2a5bb0cf57c13750c45e19a57ff71183
+  - ref: refs/heads/chromeos-5.10__release/core94-91
+    old: 0000000000000000000000000000000000000000
+    new: b1311ffa2a1f5a6e1a0d43a278b1625a777b4e42
+  - ref: refs/tags/chromeos-5.10__release/core94-2025-03-11
+    old: 0000000000000000000000000000000000000000
+    new: b1311ffa2a1f5a6e1a0d43a278b1625a777b4e42
+  - ref: refs/heads/chromeos-5.15__release/core94-91
+    old: 0000000000000000000000000000000000000000
+    new: 7f60638612e92211e4e81b739a257e7662181bc6
+  - ref: refs/tags/chromeos-5.15__release/core94-2025-03-11
+    old: 0000000000000000000000000000000000000000
+    new: 7f60638612e92211e4e81b739a257e7662181bc6
+  - ref: refs/heads/chromeos-6.1__release/core94-91
+    old: 0000000000000000000000000000000000000000
+    new: 4900ea18889afeb8320d18d401c3c7a4c57ba2cc
+  - ref: refs/tags/chromeos-6.1__release/core94-2025-03-11
+    old: 0000000000000000000000000000000000000000
+    new: 4900ea18889afeb8320d18d401c3c7a4c57ba2cc
+  - ref: refs/heads/chromeos-6.6__release/core94-91
+    old: 0000000000000000000000000000000000000000
+    new: ca93def37cdcdcb62d18ebf332ae3774ead5b63d
+  - ref: refs/tags/chromeos-6.6__release/core94-2025-03-11
+    old: 0000000000000000000000000000000000000000
+    new: ca93def37cdcdcb62d18ebf332ae3774ead5b63d
+  - ref: refs/heads/chromeos-6.12__release/core94-91
+    old: 0000000000000000000000000000000000000000
+    new: 61545c8132ec7943371a37ae80f1f92d1d4fa1bf
+  - ref: refs/tags/chromeos-6.12__release/core94-2025-03-11
+    old: 0000000000000000000000000000000000000000
+    new: 61545c8132ec7943371a37ae80f1f92d1d4fa1bf
