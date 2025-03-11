@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6808514572822448221=="
+Content-Type: multipart/mixed; boundary="===============2808351294072098565=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 11 Mar 2025 02:30:51 -0000
-Message-Id: <174166025137.2893215.7576165309021945426@gitolite.kernel.org>
+Date: Tue, 11 Mar 2025 02:30:56 -0000
+Message-Id: <174166025656.2893437.14264227749686470832@gitolite.kernel.org>
 
---===============6808514572822448221==
+--===============2808351294072098565==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging
+  - ref: refs/heads/for-next
     old: f421692be10133a66a3a8a7d5c76fe9713ea5a8b
     new: e402ee093f748b3614aa549beef71d071617cddd
     log: revlist-f421692be101-e402ee093f74.txt
 
---===============6808514572822448221==
+--===============2808351294072098565==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1741660277 -0400
+pusher 75C5DE3D 1741660284 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1741660247-2b8c3b10c748029b750b3f17269fdce215325835
+nonce 1741660254-862bc4a9082462de7e637754109096cbb00a079d
 
-f421692be10133a66a3a8a7d5c76fe9713ea5a8b e402ee093f748b3614aa549beef71d071617cddd refs/heads/staging
+f421692be10133a66a3a8a7d5c76fe9713ea5a8b e402ee093f748b3614aa549beef71d071617cddd refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmfPoHUACgkQ7ulgGnXF
-3j1lFA//V36fHkAEeuSVvA+Fp+Kr3UMBrErb6EMKRB7kE5OhNjsHaUddrAb46tz5
-O/gDRUGToT46njaFG9SUf04G+NiCvKH2wx/hn75WnB/oGXrVbSTKlATnlGsda72P
-smvToqyR0XP+Y/YQ3JNleHulT/Is2zAb4HZUFYTxHHrml4wOoPt0CT1Vo6otd1SA
-j7BaosLytkC2TcAOJ/lxXiLNRVy/XibLEP17YmzwVoGprMbRNGHQQD04669Dpx7R
-Jen+1T+IqZfBz6YJqQncyR7dA7w8ZWS9R3T8SB/y9en0lHqzWkNesmm4w6L9Y4fy
-hiqDd23IBdvvu7FG3Ps2XTZ6bXaaavk1dgJ/lbXSjxLe9MNIzHzaODzMz43c1rzs
-HVA+/VzD9pY/SGvJdhUdeqy0ShF6G654TOropw8dlxexVWt9diAS+iUBZyN1UG45
-VMLjoiCRL1p+yVqXkNiZw+7RbZf2yEALgnRWv39JtY4o+4jp2PTrd8DqAEepV53Q
-GJojOUu7/sfCaqHYlLoN6YlL8O6HkPEk+GxEbkbBToLGPGiyR2wxvE+MjsND0U2f
-RdrtupXbvJGdM7OBn7F5IF+cAU2iqFPkcPnIJC0PK5YX2ovlvb5JC5v/u72ya7Cd
-Cxb454D4EWwRosqcsK5qIB++NHtDBTSViIGsLDXwuXG3NDJ/+m8=
-=wZQG
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmfPoHwACgkQ7ulgGnXF
+3j240xAAkjcg4Ug5K4b/ggGSOXpdrch5nwb6shJyTU+tQtStBXaG11O+Qi+UJadu
+Vdwkd9GXIqLu/EVahd4mSxyn0UBaS+qGddeGful4T6U7btd+fZe0e/2sBjBAMKuB
+SkZ+Jaqtnpt3ccLSDXDobn0+hxV7n7DL4w7dokP9nn/YgoffG1VE8C2ax9Q+w5ts
+mAeksYTVrx9G1mR2Xfu4Mf6eh664zEjeOT0n4579BB8NgjI6plcNEfLWuefVyiGw
+1VSIB25Kui2BSHOWkCryY+kdKv4dy8IqPIosdLMCYLLx1ZJ8ooFfr31xxQUXINO9
+iQ+XbgD1A+1KTyHr0UQW2Oa2gY3DfPC+y76XJR454Md8Yux8wzPfZsJ6qZmaEdVQ
+8Nr0Jm9LapaIHmSo+GzsFBu2rN2564If6pWMQt6aedzskLSfrlpBb00FoOWSugst
+FflapLev7mz6gSPvHp2tLFOR37F/N9sYbW4ND9jfAi+FOauSlfR4Z+u+FUaJrqg8
+5lKB+syLHWLMDosmGo6WGWUtv8/VssRjcTuvAXQbeW0K8Y89mWSPIyA+JO/N9nCW
+ijAGiqI1RcVB5HXXiBNX146UTrLl2wOzZMw4gAaSOH37CjqO/VbztFDkSNj023aS
+Gq2bfczSrYIekySBor76ezyK2fIry2gpiRcCKWzLy7P+6IlY0sw=
+=ySxd
 -----END PGP SIGNATURE-----
 
---===============6808514572822448221==
+--===============2808351294072098565==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -70,4 +70,4 @@ b3bb1762451a9b2e3374c35ce3f8745c3a68a1d3 scsi: ufs: renesas: Add initialization 
 ffd6c179286daf31ea0d6413228bbc2a3c7ee1de Merge patch series "scsi: ufs: renesas: Add support for R-Car S4-8 ES1.2"
 e402ee093f748b3614aa549beef71d071617cddd scsi: core: Use a switch statement when attaching VPD pages
 
---===============6808514572822448221==--
+--===============2808351294072098565==--
