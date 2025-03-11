@@ -1,48 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============2881604985024663562=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Tue, 11 Mar 2025 02:39:49 -0000
-Message-Id: <174166078911.2900027.12287250288799601971@gitolite.kernel.org>
-
---===============2881604985024663562==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Tue, 11 Mar 2025 02:50:31 -0000
+Message-Id: <174166143101.2910271.8421720509599639657@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/scsi
-user: jejb
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/for-next
-    old: ae142f3e458cb4b8944dca4a4e08770c9318e94a
-    new: 6888bc9da22408efdc62c14976c35f06c13936af
-    log: revlist-ae142f3e458c-6888bc9da224.txt
-
---===============2881604985024663562==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ae142f3e458c-6888bc9da224.txt
-
-ed3e4842224ff721f48154c1fed6ef97241249e6 scsi: core: Fix missing lock protection
-cee4f928beee900fd05da24d6b5e9127d2adae37 scsi: scsi_debug: Fix uninitialized variable use
-24e81b821724395a466669bfe6ec3820bb8088b3 scsi: ufs: rockchip: Fix spelling mistake 'susped' -> 'suspend'
-4fffffd3b13439980d778c58b1f63439287b9fdc scsi: ufs: rockchip: Fix devm_clk_bulk_get_all_enabled() return value
-3d82569039340045faeaf14293956487c3498012 scsi: ufs: rockchip: Simplify bool conversion
-7a9c0476d4073e742f474e71feeef4f54add4bc9 scsi: hisi_sas: Remove incorrect ACPI_PTR annotations
-a131f20804d6a817140c1b78fb2a23696a1e2098 scsi: lpfc: Convert timeouts to secs_to_jiffies()
-8a9b76b7d9137e15e5036d082cb276c1e8a6e100 scsi: lpfc: Fix spelling mistake 'Toplogy' -> 'Topology'
-0711f1966a523d77d4c5f00776a7bd073d56251a scsi: mpt3sas: Fix buffer overflow in mpt3sas_send_mctp_passthru_req()
-e6a815673b3b4ed69745f7a954742e12fc60139a scsi: scsi_error: Add comments to scsi_check_sense()
-2cef5b4472c602e6c5a119aca869d9d4050586f3 scsi: logging: Fix scsi_logging_level bounds
-dfb7df1ddb29c89662e84b2c82c1ff7943358ae0 scsi: target: Replace deprecated strncpy() with strscpy()
-9b2d1ecf8797a82371c9f9209722949fb35b4d15 scsi: fnic: Remove unnecessary debug print
-9ae7563e270372f401a06486a92cdf151d1b27ee scsi: fnic: Fix indentation and remove unnecessary parenthesis
-e984fa2542e1308d67140bd7a76f678dabbcd9a8 scsi: fnic: Replace use of sizeof with standard usage
-7f5dce6e7f0150ee57b8d1186011f57fa62c2843 scsi: fnic: Replace fnic->lock_flags with local flags
-f421692be10133a66a3a8a7d5c76fe9713ea5a8b scsi: fnic: Remove unnecessary spinlock locking and unlocking
-6888bc9da22408efdc62c14976c35f06c13936af Merge branch 'misc' into for-next
-
---===============2881604985024663562==--
+  - ref: refs/heads/sched/scx-dlserver-boost
+    old: bac6d97ec2be6650f81c945564fcb76669ef4251
+    new: dae97fbdb65cd50ba287dbeec58f27409609434c
+    log: |
+         8e7d26db01e9db0a36192d1ed15619a1c78dd392 Add a DL server for sched_ext tasks
+         37b91f2f2bfdb671c4a0f13f3babea58c91d9951 selftests/sched: Add test to verify CFS tasks aren't starved by RT tasks
+         0a966fd86313d1a59759ab6dabf64c89138419e3 Add tprints for debugging
+         dae97fbdb65cd50ba287dbeec58f27409609434c Tracing for scx
+         
