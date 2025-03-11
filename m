@@ -1,58 +1,69 @@
-Content-Type: multipart/mixed; boundary="===============6355070701936737852=="
+Content-Type: multipart/mixed; boundary="===============9213272235648332565=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 11 Mar 2025 16:58:40 -0000
-Message-Id: <174171232035.3666427.451074689384211856@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Tue, 11 Mar 2025 17:15:03 -0000
+Message-Id: <174171330391.3681203.17622201526328355858@gitolite.kernel.org>
 
---===============6355070701936737852==
+--===============9213272235648332565==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: cmarinas
 changes:
-  - ref: refs/heads/usb-testing
-    old: 525b139fb4033a9ba5abd6ca3f6a6baa3b2fe3d4
-    new: 28a76fcc4c85dd39633fb96edb643c91820133e3
+  - ref: refs/heads/for-kernelci
+    old: 0a6021b3fc201d540f0bbd387ec2ceccf4ed5140
+    new: 0ed841ede7acef81e0992ebd6e1c819f5a09968f
+    log: revlist-0a6021b3fc20-0ed841ede7ac.txt
+  - ref: refs/heads/for-next/core
+    old: 13bfadb7f7f2674592a94a956650a6e1f0d61142
+    new: 361d980bc9f11cc41612520f56f0a760020cd483
     log: |
-         0c74d232578b1a7071e0312312811cb75b26b202 xhci: Avoid queuing redundant Stop Endpoint command for stalled endpoint
-         dfc88357b6b6356dadea06b2c0bc8041f5e11720 usb: xhci: Don't change the status of stalled TDs on failed Stop EP
-         28a76fcc4c85dd39633fb96edb643c91820133e3 usb: xhci: Avoid Stop Endpoint retry loop if the endpoint seems Running
+         73276cee1a25c4a56266faf6cf0f33e88bb63859 selftest/powerpc/mm/pkey: fix build-break introduced by commit 00894c3fc917
+         c380931712d16e23f6aa90703f438330139e9731 dma: Fix encryption bit clearing for dma_to_phys
+         b66e2ee7b6c8d45bbe4b6f6885ee27511506812c dma: Introduce generic dma_addr_*crypted helpers
+         7d953a06241624ee2efb172d037a4168978f4147 arm64: realm: Use aliased addresses for device DMA to shared buffers
+         1ffed543056fea514de2516981a036586e30eb7f Merge branches 'for-next/pkey_unrestricted' and 'for-next/cca-dma-address' into for-next/core
+         858c7bfcb35e1100b58bb63c9f562d86e09418d9 arm64/boot: Enable EL2 requirements for FEAT_PMUv3p9
+         361d980bc9f11cc41612520f56f0a760020cd483 Merge branch 'for-next/el2-enable-feat-pmuv3p9' into for-next/core
          
+  - ref: refs/heads/for-next/el2-enable-feat-pmuv3p9
+    old: ea37be0773f04420515b8db49e50abedbaa97e23
+    new: 858c7bfcb35e1100b58bb63c9f562d86e09418d9
+    log: |
+         858c7bfcb35e1100b58bb63c9f562d86e09418d9 arm64/boot: Enable EL2 requirements for FEAT_PMUv3p9
+         
+  - ref: refs/heads/for-next/pkey_unrestricted
+    old: 00894c3fc91791c742c7724de6b8db1d1e383c16
+    new: 73276cee1a25c4a56266faf6cf0f33e88bb63859
+    log: |
+         73276cee1a25c4a56266faf6cf0f33e88bb63859 selftest/powerpc/mm/pkey: fix build-break introduced by commit 00894c3fc917
+         
+  - ref: refs/heads/for-next/cca-dma-address
+    old: 0000000000000000000000000000000000000000
+    new: 7d953a06241624ee2efb172d037a4168978f4147
 
---===============6355070701936737852==
+--===============9213272235648332565==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-0a6021b3fc20-0ed841ede7ac.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1741712346 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1741712316-560a793059a95af0ef9e4d8e140b3908e2f20839
+d4234d131b0a3f9e65973f1cdc71bb3560f5d14b arm64: mm: Populate vmemmap at the page level if not section aligned
+f7edb07ad7c66eab3dce57384f33b9799d579133 Fix mmu notifiers for range-based invalidates
+73276cee1a25c4a56266faf6cf0f33e88bb63859 selftest/powerpc/mm/pkey: fix build-break introduced by commit 00894c3fc917
+c380931712d16e23f6aa90703f438330139e9731 dma: Fix encryption bit clearing for dma_to_phys
+b66e2ee7b6c8d45bbe4b6f6885ee27511506812c dma: Introduce generic dma_addr_*crypted helpers
+7d953a06241624ee2efb172d037a4168978f4147 arm64: realm: Use aliased addresses for device DMA to shared buffers
+1ffed543056fea514de2516981a036586e30eb7f Merge branches 'for-next/pkey_unrestricted' and 'for-next/cca-dma-address' into for-next/core
+858c7bfcb35e1100b58bb63c9f562d86e09418d9 arm64/boot: Enable EL2 requirements for FEAT_PMUv3p9
+361d980bc9f11cc41612520f56f0a760020cd483 Merge branch 'for-next/el2-enable-feat-pmuv3p9' into for-next/core
+3fcc2367788721d99c3e9675526ab0931e25d06b Merge remote-tracking branch 'arm64/for-next/fixes' into for-kernelci
+4dff12a3ddcb6494686e38dbc50e954366da8b58 Merge branch 'for-next/core' into for-kernelci
+0ed841ede7acef81e0992ebd6e1c819f5a09968f Merge remote-tracking branch 'will/for-next/perf' into for-kernelci
 
-525b139fb4033a9ba5abd6ca3f6a6baa3b2fe3d4 28a76fcc4c85dd39633fb96edb643c91820133e3 refs/heads/usb-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfQa9sbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Ds0P/ipvyFEJaOQXEOzj/JAz
-72nElR5OQtYaPW4hwcldJFhJ2I1rnXUT80GwBdVsR51JXslx+M6rJ7yd9PAtqHhm
-30PuXqy/lPxFlO9VCM0jutdePEuygDiBTFcwGWwJTBAQdZIHe6O24TvuHNq7nKg5
-lbbpY9H8hMBxrxiif1GWH7bCUgCpgcI7gbV/+bjeFeFoSdzEv5Xk+4rkfMulvN02
-bn2ZN/hje5SxXXQWbbGB48v7q0S5mPRDxodarp4oM6YQv6W3CuowNuGMklrsdSqc
-IpT3czymVzhMnO5SDP1a36RMdDhWmIBaneTDFfRwVdRmwnhrHsjZB3a1hrUTT4Pw
-Tjze8xpgcy1aot5TJsdBZLYJ/qucFwut2CQKpJtUry9upxG2Vb7meyDRVVD4wOYL
-3t6fROvY4Yyx8eTkWPzlJoA206pn2aVTRHQijV9Rtwlue0B3jUOxitMyKXiY9hhi
-ggzs8zZ4Ib2nUDN8cZIK7t8rxhF6PkEafFi+KKUY1Qc3/YrRrO3J4RTdq+SiWxCn
-CQ4KpFFK5Yg0LFKY2rLtXV5Ma7dDN7RDRTJ2gKyKdKHni9dD24419AHfxDQgxSU7
-svlZreN/fnEtvROZDqvL7Wt5pD2BAk5BYpxrB33aVjnHJSRfK8inc2oVJ4V/BEmg
-SkMClDYL6bN5ypRffUe6qoBR
-=HJS3
------END PGP SIGNATURE-----
-
---===============6355070701936737852==--
+--===============9213272235648332565==--
