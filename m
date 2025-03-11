@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 11 Mar 2025 17:19:44 -0000
-Message-Id: <174171358477.3685279.9533561221650036590@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 11 Mar 2025 17:26:49 -0000
+Message-Id: <174171400955.3691982.7095571806390241112@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/v2_20250311_venkataprasad_potturu_implement_acp_common_hw_ops_support_for_all_acp_platforms
-    old: 0000000000000000000000000000000000000000
-    new: 02e1cf7a352a3ba5f768849f2b4fcaaaa19f89e3
+  - ref: refs/heads/dev-queue
+    old: 184669b0df0f26e704a97461a8dabaf73effab5e
+    new: 934a297cc6ad7d794d701a96fe16567482818227
+    log: |
+         934a297cc6ad7d794d701a96fe16567482818227 ice: fix reservation of resources for RDMA when disabled
+         
