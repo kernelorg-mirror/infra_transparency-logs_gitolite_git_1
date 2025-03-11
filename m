@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
-Date: Tue, 11 Mar 2025 18:48:50 -0000
-Message-Id: <174171893043.3767881.16216570935984080074@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iommu/linux
+Date: Tue, 11 Mar 2025 18:56:54 -0000
+Message-Id: <174171941490.3775453.8635463885976268659@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kmod/kmod
-user: demarchi
+repo: pub/scm/linux/kernel/git/iommu/linux
+user: will
 changes:
-  - ref: refs/heads/master
-    old: ec27bde27bd7bf130ed770a4240e6813102be338
-    new: f9c7fd707f35997d0950a25801931dd37a4b8bc8
+  - ref: refs/heads/arm/smmu/bindings
+    old: 7506be7d253fa6cd08fc0f47f7dcd1bc841adb93
+    new: df90abbc31e69863dd98c5498a50811e10cdb4b3
     log: |
-         f9c7fd707f35997d0950a25801931dd37a4b8bc8 ci: remove no longer needed libtool
+         df90abbc31e69863dd98c5498a50811e10cdb4b3 dt-bindings: arm-smmu: Document QCS8300 GPU SMMU
+         
+  - ref: refs/heads/arm/smmu/updates
+    old: 0ad2507d5d93f39619fc42372c347d6006b64319
+    new: 0a679336dc171db06d84679ae9180e5cda42166c
+    log: |
+         0a679336dc171db06d84679ae9180e5cda42166c iommu/arm-smmu: Set rpm auto_suspend once during probe
          
