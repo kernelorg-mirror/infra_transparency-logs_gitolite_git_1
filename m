@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/fpga/linux-fpga
-Date: Tue, 11 Mar 2025 01:32:20 -0000
-Message-Id: <174165674090.2845302.7827137100226309364@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Tue, 11 Mar 2025 02:24:26 -0000
+Message-Id: <174165986631.2885107.14009193472877119903@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/fpga/linux-fpga
-user: yilunxu
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/tags/fpga-for-6.15-rc1
+  - ref: refs/tags/qcom-drivers-fixes-for-6.14
     old: 0000000000000000000000000000000000000000
-    new: b28c184068b7eba0b327fdd6074ed5e500896b89
+    new: 82d1e068718e08dc867627728434a95ff100b76d
