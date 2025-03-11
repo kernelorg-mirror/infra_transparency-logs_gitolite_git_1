@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4147593964671579683=="
+Content-Type: multipart/mixed; boundary="===============2851276752666558383=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Tue, 11 Mar 2025 00:15:42 -0000
-Message-Id: <174165214297.2776494.13091459525861886955@gitolite.kernel.org>
+Date: Tue, 11 Mar 2025 00:15:45 -0000
+Message-Id: <174165214588.2776600.766202847470235245@gitolite.kernel.org>
 
---===============4147593964671579683==
+--===============2851276752666558383==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: ad50946dbf7413e4c9da43d2373de4df16298baf
-    new: 46c634284bdbf6976a304db888ac27a26c70abe8
-    log: revlist-ad50946dbf74-46c634284bdb.txt
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: 9f3c507cb44498067c980674139bcad56e582ee6
+    new: 80e54e84911a923c40d7bee33a34c1b4be148d7a
+    log: revlist-9f3c507cb444-80e54e84911a.txt
 
---===============4147593964671579683==
+--===============2851276752666558383==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ad50946dbf74-46c634284bdb.txt
+Content-Disposition: attachment; filename=revlist-9f3c507cb444-80e54e84911a.txt
 
 b9a49520679e98700d3d89689cc91c08a1c88c1d rcuref: Plug slowpath race in rcuref_put()
 d97505baea64d93538b16baf14ce7b8c1fbad746 RDMA/mlx5: Fix the recovery flow of the UMR QP
@@ -323,10 +323,7 @@ d62fdaf51b115f851dd151f7af054535890b5a0d Merge tag 'integrity-v6.14-fix' of git:
 c0d35086a21b8d5536da5029fd76b9aeecf3217d Merge tag 'landlock-6.14-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
 5394eea106517d5b0d4a372f00e63d5db8cb0370 Merge tag 'nfs-for-6.14-2' of git://git.linux-nfs.org/projects/anna/linux-nfs
 e6d3c4e535dfffc69cdbad0c12003a8a1e75f88f Merge tag 'sched_ext-for-6.14-rc4-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
-dd1998e243f5fa25d348a384ba0b6c84d980f2b2 i2c: npcm: disable interrupt enable bit before devm_request_irq
 f4ce1f3318ad4bc12463698696ebc36b145a6aa3 Merge tag 'wq-for-6.14-rc4-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
-71c49ee9bb41e1709abac7e2eb05f9193222e580 i2c: ls2x: Fix frequency division register access
-9f3c507cb44498067c980674139bcad56e582ee6 i2c: amd-asf: Fix EOI register write to enable successive interrupts
 102c16a1f9a9d0ba3b166bf5ca399adf832b65a1 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 ac965d7d88fc36fb42e3d50225c0a44dd8326da4 tracing: tprobe-events: Fix a memory leak when tprobe with $retval
 d0453655b6ddc685a4837f3cc0776ae8eef62d01 tracing: tprobe-events: Reject invalid tracepoint name
@@ -668,17 +665,5 @@ a382b06d297e78ed7ac67afd0d8e8690406ac4ca Merge tag 'for-linus' of git://git.kern
 0dc1f314f854257eb64dcea604a42a55225453a9 Merge tag 'usb-6.14-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 9712d38c87087ae34f8cede6583092c272507c52 Merge tag 'kbuild-fixes-v6.14-3' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 80e54e84911a923c40d7bee33a34c1b4be148d7a Linux 6.14-rc6
-b5a40cc1b0f50e99cc3275ee31158c8269b353b8 i2c: octeon: refactor common i2c operations
-9960de523ebaf52ad44c700a3f9a0ea30920f756 dt-bindings: i2c: samsung,s3c2410: add exynos7870-i2c compatible
-3e13efaa2e634f9c77a40337dcd194d2c440c39a dt-bindings: i2c: exynos5: add exynos7870-hsi2c compatible
-22941714ad85faceb73d1ba34f135df972e14e8b i2c: pxa: fix call balance of i2c->clk handling routines
-3131a7cdbf3f73fdafdaa53ad1e9ef263c97a78b i2c: amd: Switch to guard(mutex)
-5cba7e2de6998f80dfc4842a51001e537685a6a6 i2c: dw: Update the master_xfer callback name
-6b737126a825f5440a0c1e245c818feebfd43308 i2c: amd-asf: Modify callbacks of i2c_algorithm to align with the latest revision
-c948ebdf9a9024b81233e05e916966037e080300 i2c: amd-asf: Set cmd variable when encountering an error
-6a13e46550921124b61601e517a4b481faee002f i2c: mux: remove incorrect of_match_ptr annotations
-ae5ba2d98a2aba907ea1b1b2571fcd4876cd6348 dt-bindings: i2c: qcom,i2c-qup: Document power-domains
-476d70d5012857878ec1f0c759a5f1be9641f6dc dt-bindings: i2c: qup: Document interconnects
-46c634284bdbf6976a304db888ac27a26c70abe8 i2c: qup: Vote for interconnect bandwidth to DRAM
 
---===============4147593964671579683==--
+--===============2851276752666558383==--
