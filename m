@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 11 Mar 2025 13:11:40 -0000
-Message-Id: <174169870060.3457815.1703790816791257296@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Tue, 11 Mar 2025 13:11:42 -0000
+Message-Id: <174169870270.3457902.12158841998226626270@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: will
 changes:
-  - ref: refs/heads/fileeWhEKg
-    old: 0000000000000000000000000000000000000000
-    new: cf1ba3cb245020459f2ca446b7a7b199839f5d83
-  - ref: refs/heads/filePkLl5h
-    old: 0000000000000000000000000000000000000000
-    new: b60ef2a3334ca15f249188870fc029ddf06ef7c4
-  - ref: refs/heads/v2_20250304_looong_bin_spi_sophgo_add_sophgo_spi_nor_controller_driver
-    old: 0000000000000000000000000000000000000000
-    new: de16c322eefbe9026d4eabc8ae934bb778cffd1d
-  - ref: refs/heads/v2_20250311_linux_remove_pcf50633
-    old: 0000000000000000000000000000000000000000
-    new: 248bc01138b11ff3af38c3b4a39cb8db7aae6eb6
+  - ref: refs/heads/for-next/fixes
+    old: eed6bfa8b28230382b797a88569f2c7569a1a419
+    new: f7edb07ad7c66eab3dce57384f33b9799d579133
+    log: |
+         d4234d131b0a3f9e65973f1cdc71bb3560f5d14b arm64: mm: Populate vmemmap at the page level if not section aligned
+         f7edb07ad7c66eab3dce57384f33b9799d579133 Fix mmu notifiers for range-based invalidates
+         
