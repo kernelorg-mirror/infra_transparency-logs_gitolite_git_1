@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ojeda/linux
-Date: Tue, 11 Mar 2025 23:17:51 -0000
-Message-Id: <174173507169.3998448.14478896044733953321@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Tue, 11 Mar 2025 23:22:32 -0000
+Message-Id: <174173535278.4002695.17043949824132025545@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ojeda/linux
-user: ojeda
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
 changes:
-  - ref: refs/heads/rust-fixes
-    old: 2e0f91aba507a3cb59f7a12fc3ea2b7d4d6675b7
-    new: a1eb95d6b5f4cf5cc7b081e85e374d1dd98a213b
+  - ref: refs/heads/i2c/i2c-host
+    old: 0dd285faf342fdc9a102a17797843ece9c7f804b
+    new: d53e8666b0bf8dbf8992eb1ffc25c25ad4a487ab
     log: |
-         d1f928052439cad028438a8b8b34c1f01bc06068 scripts: generate_rust_analyzer: add missing include_dirs
-         a1eb95d6b5f4cf5cc7b081e85e374d1dd98a213b scripts: generate_rust_analyzer: add uapi crate
+         a981b4e0f694b4d8573dc819675eaf5dd4e950f3 i2c: i801: Cosmetic improvements
+         6b5bee5605637bf69f0a5b786547d9a9117e8e18 i2c: i801: Move i801_wait_intr and i801_wait_byte_done in the code
+         d53e8666b0bf8dbf8992eb1ffc25c25ad4a487ab i2c: i801: Improve too small kill wait time in i801_check_post
          
