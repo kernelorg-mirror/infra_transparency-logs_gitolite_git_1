@@ -1,43 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============0092521859828655225=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
-Date: Tue, 11 Mar 2025 09:39:46 -0000
-Message-Id: <174168598618.3239410.16775726869639290127@gitolite.kernel.org>
-
---===============0092521859828655225==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 11 Mar 2025 09:40:55 -0000
+Message-Id: <174168605551.3241777.5773367795349905046@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/srini/nvmem
-user: srini
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/for-next
-    old: 2014c95afecee3e76ca4a56956a936e23283f05b
-    new: accd056fc20b7d5a4e6b0004d307c2b13dd9f7c7
-    log: revlist-2014c95afece-accd056fc20b.txt
-
---===============0092521859828655225==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2014c95afece-accd056fc20b.txt
-
-cac92f737c8ffe2e32a4ff94c57a972ab7c98787 nvmem: rockchip-otp: Move read-offset into variant-data
-39910b01b538588c54cfa281c69d9c2adf5ed063 dt-bindings: nvmem: rockchip,otp: add missing limits for clock-names
-0a08ae4115d7800f5f5e44c1b0da3bcfd8e416ed dt-bindings: nvmem: rockchip,otp: Add compatible for RK3576
-f6b700d4356b183a2fd6fad179343f7935b3f687 nvmem: rockchip-otp: add rk3576 variant data
-cb507eba742e322bb6c7b495abd86b7632e576a8 dt-bindings: nvmem: qfprom: Add X1E80100 compatible
-7bbd1dde05ec34105fd1b997811e06cf6435ada7 dt-bindings: nvmem: Add compatible for MS8937
-0f02f5f6cbb512a2cab8abad245105d228c26649 dt-bindings: nvmem: fixed-cell: increase bits start value to 31
-3545a39d397765459257d07de6082767f3f61d15 nvmem: core: fix bit offsets of more than one byte
-d924009d01636fba6f0521daedde875e1ed360bc nvmem: core: verify cell's raw_len
-a81cadcf12343feb78fe9fddae7f278aad7ae26c nvmem: core: update raw_len if the bit reading is required
-f2c0a5e59ed71727df1ec45b5bee787bf5a01e06 nvmem: qfprom: switch to 4-byte aligned reads
-9cdd201334251d41087dfad2d0043a0c303e4863 dt-bindings: nvmem: Add compatible for IPQ5018
-accd056fc20b7d5a4e6b0004d307c2b13dd9f7c7 dt-bindings: nvmem: Add compatible for MSM8960
-
---===============0092521859828655225==--
+  - ref: refs/heads/main
+    old: 71ca3561c268a07888ba9ce089ab8c3f54710cd4
+    new: 40587f749df216889163dd6e02d88ad53e759e66
+    log: |
+         025cf9318083d1d7c798846620be4559e03734f0 enic: Move function from header file to c file
+         eaa23db8686f119a5cadb0e47cfbdea347a6d239 enic: enic rq code reorg
+         2be2eb764343d5211b12b29fa45aaf518e8c3a7e enic: enic rq extended cq defines
+         bcb725c79cfa770aa1356eb2f26ffcfbae67fb13 enic: enable rq extended cq support
+         6dca618c94676ed87ff29a8cb95431f4f2c189ee enic: remove unused function cq_enet_wq_desc_dec
+         e5f1bcd93d96b338c486f2376f260f7fc98b3cd5 enic: added enic_wq.c and enic_wq.h
+         26b2c5f6ff479825957975518df4cb8e96da0271 enic: cleanup of enic wq request completion path
+         df9fd2a3ce01ea08e4e14e3d9e9d3c113eaeba91 enic: get max rq & wq entries supported by hw, 16K queues
+         40587f749df216889163dd6e02d88ad53e759e66 Merge branch 'enic-enable-32-64-byte-cqes-and-get-max-rx-tx-ring-size-from-hw'
+         
