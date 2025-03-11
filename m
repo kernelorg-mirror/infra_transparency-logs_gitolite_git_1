@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0470425543258305281=="
+Content-Type: multipart/mixed; boundary="===============8440237079162865929=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 11 Mar 2025 09:55:16 -0000
-Message-Id: <174168691693.3253869.3659391283323967692@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 11 Mar 2025 10:00:38 -0000
+Message-Id: <174168723882.3258490.8818202673420584372@gitolite.kernel.org>
 
---===============0470425543258305281==
+--===============8440237079162865929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 993a47bd7b998156ffebc999617474c920dc9208
-    new: 10b20f2d1bbeddcb6c1f6c01b6eb1b8d2828b663
+  - ref: refs/heads/master
+    old: b2a9e9f6d2bfc81fc5678c9852a69cb6546058f5
+    new: de39703545d6757bcd2e38a7731df8c3066da047
     log: |
-         10b20f2d1bbeddcb6c1f6c01b6eb1b8d2828b663 rust/kernel/faux: mark Registration methods inline
+         de39703545d6757bcd2e38a7731df8c3066da047 drop queue-6.6/riscv-save-restore-envcfg-csr-during-cpu-suspend.patch
          
 
---===============0470425543258305281==
+--===============8440237079162865929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1741686944 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1741686914-db1d58591673522ad1e00f047aed42f2f9adddd2
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1741687266 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1741687236-934adb6dab14f6983ef31cd678d86a84dd0b75c8
 
-993a47bd7b998156ffebc999617474c920dc9208 10b20f2d1bbeddcb6c1f6c01b6eb1b8d2828b663 refs/heads/driver-core-testing
+b2a9e9f6d2bfc81fc5678c9852a69cb6546058f5 de39703545d6757bcd2e38a7731df8c3066da047 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfQCKAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HNkQAK1rfkfgpD2cv8QIJB3d
-8QDeREd06i6YpzJyHor3gVQbIwjYR8AztQQjW6M68ssnMeU0yVuDZiF0PtLYOihN
-PKe3fg5oYU3BUqLj5CLDmzzkxK8VUe+96aunZwxMS3cTh3bmJwK7xQiIAiaomRye
-E33UK9Ap1BYQcJKMLq9V85S4GkfrhgqEOIAqOKZbiU+gxyQCZTxE8ywCMEtI+UoX
-SnRRwrhopwmAAOYMRueSDUb5HHEWNwyE5UsFSUzHq0LpdVaXmbTCPExrWI7IorT8
-eIOw14/Kn0Ol/rPcIPfFi5H462ZCuurdC/6m63ZifJZJLf7AglvC+G9SLLLR1bTr
-9SGpgc2U83PsQxaof5LhDvb6/ecS0flvlBMBnCDPcHDcKEiJDi9qe0N4ZMizGK9+
-RFWusuOdoy1qB2MiGJhz872OHIGBB/2ISwHh0Vl02InpGxJSkQy1S+ZzTzLQI9NZ
-2JwHFxK3G9ds6arLbjx3D+d7SHvKRM++28gmq8W8M1qZ0F16tklibeYspulpEqdM
-y0XfANjN1Pv9ZCQMF4lWO440vZBUjX5Wsum2fqYf9PJz0pihKTv93BD0OAhAPtV7
-tNg6rFBvwC6JYi5QxStHBcxg4UCB98Gl5dcrcvrbcrkRxyNl1/K6za3jEFqapp8k
-MLx0H/Folrsjzz1l7iGOzaFU
-=ZDRh
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfQCeIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/78QANieMS6b3Ru7igv8R0uY
+r7ou2apBmK2/97gs7/pvrD0JLIRbrN+1hatMPc3qrOHNF6mvGzRMtL/ooIpMzUE0
+NGuwkrD7AOw1jntI5EL28pWBiUAZA/bzHdWIX49jSSC4NyFaE6yDJEOV7l0xBHuM
+R1tqsHNNcbpz/QycbCXa2PuLnOlvPj9ADYmUJ9QVatpuNJT58N6Cv/snbS5sWhn+
+bTbiRn5D2NA8tKZjwVukzW6ItW+vzk5syUhda2KWLgB00IZQ2xK0UiEq/5y0HB5t
+D7uMddXw110+ip0qOTBE4gF0Dl0QiGPXJeXXN+b79OYirNf7/TMCuSEpzkJZ9b0P
+O+jae+o49pIfaQiZM0ZTmG3F8tW+hQU8GDM/L885m712W+mXtnMID0ZCxD8xVjKl
+Hf1UD50uDiIqCNErJrxQi+xMLJW2WoI1SLoW/eeajnLxuG8JvrxvPLMPidwM72G/
+XI9CuJphW7BYKGrmg1Hyxw+eGHNui+p9mYwVTt24Pi1/NHO/7yeRiWr9JNKPlNJe
+HPlGbgBUtIiEZwp5jg2UfcuRBk2xXwn/onsnniIukmXc5nJCmR+i6LovPngiwFyg
+FztDWO5vAB9Fbqo3IFjhsT+XGDhdWzJNLlmI2c2NGkRVQq5ld7lNcCONMgCvEt9K
+98sWHz5KO2I9QkbHz0eGwCg7
+=57Ba
 -----END PGP SIGNATURE-----
 
---===============0470425543258305281==--
+--===============8440237079162865929==--
