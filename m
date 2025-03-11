@@ -1,47 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============6015748065886825872=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 11 Mar 2025 17:38:57 -0000
-Message-Id: <174171473715.3702766.97248961778900629@gitolite.kernel.org>
-
---===============6015748065886825872==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Tue, 11 Mar 2025 17:42:02 -0000
+Message-Id: <174171492280.3706457.16358704482882654094@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/devel/pahole/pahole
+user: almagui
 changes:
-  - ref: refs/heads/review-ilpo-fixes
-    old: 376a8c2a144397d9cf2a67d403dd64f4a7ff9104
-    new: a05507cef0ee6a0af402c0d7e994115033ff746b
+  - ref: refs/heads/next
+    old: 4ef47f84324e925051a55de10f9a4f44ef1da844
+    new: a0be596ae76c720d21eef257dec1cf2462130da1
     log: |
-         5b1122fc4995f308b21d7cfc64ef9880ac834d20 platform/x86/amd/pmf: fix cleanup in amd_pmf_init_smart_pc()
-         a05507cef0ee6a0af402c0d7e994115033ff746b platform/surface: aggregator_registry: Add Support for Surface Pro 11
+         f4b76280f81bde0bdb6baf01f38c49233b037528 btf_encoder: Fix memory access bugs
+         9810758003ce9f8ccab9f67c6434c6ac16011e56 btf_encoder: Verify 0 address DWARF variables are in ELF section
+         a0be596ae76c720d21eef257dec1cf2462130da1 Fix spelling error.
          
-
---===============6015748065886825872==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1741714761 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1741714731-02ca96e09cf64d8bcb2b26072f50116461ae7f2f
-
-376a8c2a144397d9cf2a67d403dd64f4a7ff9104 a05507cef0ee6a0af402c0d7e994115033ff746b refs/heads/review-ilpo-fixes
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZ9B1TgAKCRBZrE9hU+XO
-MQDSAQDUWWsRlt9OD+Djmm13clcOLs5ackfW5wLwUrbUvYVvngD/Qzjt5c2lxzLP
-DRgj0a4dvaIyftzGGrLYthRsqoWBDQc=
-=GhMh
------END PGP SIGNATURE-----
-
---===============6015748065886825872==--
