@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0788428892518153938=="
+Content-Type: multipart/mixed; boundary="===============8555201231000237701=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 11 Mar 2025 15:22:49 -0000
-Message-Id: <174170656921.3578150.12103246328878541655@gitolite.kernel.org>
+Date: Tue, 11 Mar 2025 15:24:48 -0000
+Message-Id: <174170668842.3579648.17206954804890750061@gitolite.kernel.org>
 
---===============0788428892518153938==
+--===============8555201231000237701==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 9f7ebec70e63e63c577846a5f19866912e8a2112
-    new: 184669b0df0f26e704a97461a8dabaf73effab5e
-    log: revlist-9f7ebec70e63-184669b0df0f.txt
+  - ref: refs/heads/1GbE
+    old: 505ead7ab77f289f12d8a68ac83da068e4d4408b
+    new: d2b9d97e89c79c95f8b517e4fa43fd100f936acc
+    log: revlist-505ead7ab77f-d2b9d97e89c7.txt
 
---===============0788428892518153938==
+--===============8555201231000237701==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9f7ebec70e63-184669b0df0f.txt
+Content-Disposition: attachment; filename=revlist-505ead7ab77f-d2b9d97e89c7.txt
 
 eab0396353be1c778eba1c0b5180176f04dd21ce net/mlx5: handle errors in mlx5_chains_create_table()
 d0a4a1b36d7a71b45972ef33762c3fc082bec1db net: ethtool: tsinfo: Fix dump command
@@ -46,20 +46,5 @@ f5d83cf0eeb90fade4d5c4d17d24b8bee9ceeecc net: mctp: unshare packets when reassem
 3121a1ef966e1eabcccf3960929b50d625bda78c Merge branch 'bonding-fix-incorrect-mac-address-setting'
 415f135ace7fd824cde083184a922e39156055b5 rtase: Fix improper release of ring list entries in rtase_sw_reset
 d2b9d97e89c79c95f8b517e4fa43fd100f936acc qlcnic: fix memory leak issues in qlcnic_sriov_common.c
-2b8183306bf516cb2e806a37397d21123fd228bb coccinelle: misc: secs_to_jiffies script: Create dummy report
-ccf92530f664cf16666c633896d3c015b84e7c20 ice: health.c: fix compilation on gcc 7.5
-3235b5a8c851cea0a429da76ec02a4e0144ed288 idpf: check error for register_netdev() on init
-23bad26912a269a4bc51346401f6164580f80d55 ice: ensure periodic output start time is in the future
-7651e2c9fe272b16d8ce7ee142051c00929ef7a5 ice: fix Get Tx Topology AQ command error on E830
-496a7b870724dadcb701e3d742b9c6429f54ddba ice: fix lane number calculation
-b11827a7a164ac2967efe89e1f6ae61805b91477 ixgbe: fix media type detection for E610 device
-3a51d8dcdad457ff184100bd129a58be7df8cf16 ice: fix fwlog after driver reinit
-fd70c3a705db906acd45241a67589bfa40c378d0 virtchnl: make proto and filter action count unsigned
-ff787675aa730600ff266b29a083d5e69d19f28d ice: stop truncating queue ids when checking
-7a0bdf9a869b03b655963cc2aa0d519b1188c234 ice: validate queue quanta parameters to prevent OOB access
-04c31e2a77fce24acdd02b0f0f3b6f5c9cb7000a ice: fix input validation for virtchnl BW
-fe0e5f370b453f6cd3b29c8ee4d44531f08efa07 ice: fix using untrusted value of pkt_len in ice_vc_fdir_parse_raw()
-eb6f7002ea9b18313e7f9e28420c288aadc01d61 e1000e: change k1 configuration on MTP and later platforms
-184669b0df0f26e704a97461a8dabaf73effab5e igc: Fix XSK queue NAPI ID mapping
 
---===============0788428892518153938==--
+--===============8555201231000237701==--
