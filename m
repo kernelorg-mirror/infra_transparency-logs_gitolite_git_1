@@ -1,25 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Tue, 11 Mar 2025 21:45:14 -0000
-Message-Id: <174172951469.3918893.13739075311306617340@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
+Date: Tue, 11 Mar 2025 21:57:12 -0000
+Message-Id: <174173023250.3927970.1205694793034228400@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/hyperv/linux
+user: wei.liu
 changes:
-  - ref: refs/heads/for-next
-    old: 9b66b6ede5c0149331db1cfe78b202e217a16683
-    new: 440358f4f179e4a45c4f7b13a1d463bcd4540dc8
+  - ref: refs/heads/hyperv-next
+    old: 21cfcbeb7bffd9ea02fde5fede2e52b08540ab2d
+    new: 5170c13ebf42a553d8ebb10640487f000b085c83
     log: |
-         7f4decf8f94431afb7e613ac05e927d3592afe37 ring-buffer: Have parameter to virt_addr_valid() cast to pointer
-         dc73cd52c6c2544a63dff287228f0aa7cf6bfc61 Merge ftrace/for-next
-         19c9b4af2af52fc49af2ab17ff8132e5ef33424c Merge latency/for-next
-         346668a904330fdba5bc614d7778ce559505de13 Merge probes/for-next
-         2a7d1f89aea3d6979260dfcef313faa557582e43 Merge ring-buffer/for-next
-         141f4a5c4163f1a746fcdf1a8a35e98e7fe87a97 Merge sorttable/for-next
-         440358f4f179e4a45c4f7b13a1d463bcd4540dc8 Merge tools/for-next
+         b4bf328381e760baccb946fdd5f17660cf5c8e47 hyperv: Remove unused union and structs
+         c68e89294eaf2974b90ea8e4ff6dac282caaf243 x86/hyperv: Add VTL mode emergency restart callback
+         5170c13ebf42a553d8ebb10640487f000b085c83 x86/hyperv: Add VTL mode callback for restarting the system
          
