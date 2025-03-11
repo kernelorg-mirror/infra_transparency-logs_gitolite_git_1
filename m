@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6597660608974443276=="
+Content-Type: multipart/mixed; boundary="===============4356402882338374853=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
-Date: Tue, 11 Mar 2025 18:22:44 -0000
-Message-Id: <174171736476.3742371.8396429996196209327@gitolite.kernel.org>
+Date: Tue, 11 Mar 2025 18:25:22 -0000
+Message-Id: <174171752278.3745851.15613623851469444768@gitolite.kernel.org>
 
---===============6597660608974443276==
+--===============4356402882338374853==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sunxi/linux
 user: wens
 changes:
-  - ref: refs/heads/sunxi/clk-for-6.15
-    old: eb963d7948ce6571939c6875424b557b25f16610
-    new: 575464821eb0f72c86d93794a79900a853b256b5
-    log: revlist-eb963d7948ce-575464821eb0.txt
-  - ref: refs/heads/sunxi/shared-clk-ids-for-6.15
-    old: c240648b78f9cbb76052959c099ea94ab6cba893
-    new: 17bed1817f11b7d3c4ea0b38254f1bab78531a3d
-    log: |
-         17bed1817f11b7d3c4ea0b38254f1bab78531a3d dt-bindings: clk: sunxi-ng: document two Allwinner A523 CCUs
-         
+  - ref: refs/heads/sunxi/for-next
+    old: e2d0b639a4d955c6cc8b5a7b0c215980b023f41a
+    new: c4bb609b57f56b17ecb26a7f36eb2fb6702f4157
+    log: revlist-e2d0b639a4d9-c4bb609b57f5.txt
 
---===============6597660608974443276==
+--===============4356402882338374853==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eb963d7948ce-575464821eb0.txt
+Content-Disposition: attachment; filename=revlist-e2d0b639a4d9-c4bb609b57f5.txt
 
 17bed1817f11b7d3c4ea0b38254f1bab78531a3d dt-bindings: clk: sunxi-ng: document two Allwinner A523 CCUs
 3dcb86bb77912091806fd6c05982510ee00e534f Merge branch 'sunxi/shared-clk-ids-for-6.15' into sunxi/clk-for-6.15
@@ -47,5 +41,6 @@ dd19c52e686eb9f66816cd55fddfae8c7be2e6ea clk: sunxi-ng: a523: add interface mod 
 4548c0414839989be821e106b5128d5e7e13f2a4 clk: sunxi-ng: a523: add bus clock gates
 9c8d960c13ab41c7e678eab5396b9258eaf8a159 clk: sunxi-ng: a523: add reset lines
 575464821eb0f72c86d93794a79900a853b256b5 clk: sunxi-ng: add support for the A523/T527 PRCM CCU
+c4bb609b57f56b17ecb26a7f36eb2fb6702f4157 Merge branch 'sunxi/clk-for-6.15' into sunxi/for-next
 
---===============6597660608974443276==--
+--===============4356402882338374853==--
