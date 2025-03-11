@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2292670419122997525=="
+Content-Type: multipart/mixed; boundary="===============3627142001595456485=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/aalbersh/xfsprogs-dev
-Date: Tue, 11 Mar 2025 10:47:47 -0000
-Message-Id: <174169006731.3297689.7226644397792695483@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
+Date: Tue, 11 Mar 2025 10:53:04 -0000
+Message-Id: <174169038409.3302155.3002262238381203619@gitolite.kernel.org>
 
---===============2292670419122997525==
+--===============3627142001595456485==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/aalbersh/xfsprogs-dev
+repo: pub/scm/fs/xfs/xfsprogs-dev
 user: aalbersh
 changes:
   - ref: refs/heads/for-next
@@ -20,7 +20,7 @@ changes:
     new: c34735adb5116b4edae110d788c44d2462017765
     log: revlist-a5466cee9874-c34735adb511.txt
 
---===============2292670419122997525==
+--===============3627142001595456485==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ f1314f4a59f128439e90733c53cde659dcaeb0eb libxfs-apply: drop Cc: to stable releas
 88940d905da40bbd94d1c70cfdda25e9b4210bd4 gitignore: ignore a few newly generated files
 c34735adb5116b4edae110d788c44d2462017765 xfs_{admin,repair},man5: tell the user to mount with nouuid for snapshots
 
---===============2292670419122997525==--
+--===============3627142001595456485==--
