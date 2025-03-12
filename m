@@ -1,52 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============8739032469442108444=="
+Content-Type: multipart/mixed; boundary="===============2066833130962599059=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 12 Mar 2025 12:38:30 -0000
-Message-Id: <174178311059.480613.4973827070272833541@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 12 Mar 2025 12:38:42 -0000
+Message-Id: <174178312298.481079.10706726483453902961@gitolite.kernel.org>
 
---===============8739032469442108444==
+--===============2066833130962599059==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.15
-    old: cf1ba3cb245020459f2ca446b7a7b199839f5d83
-    new: 37a1fcaf01ee1abb6fc74181eadfbd0d9bc3f32e
+  - ref: refs/heads/for-linus
+    old: 247fba13416af65b155949bae582d55c310f58b6
+    new: ed92bc5264c4357d4fca292c769ea9967cd3d3b6
     log: |
-         9f95e2dff3fe6a5f4cec786a106558bb8f268a16 dt-bindings: spi: add SG2044 SPI NOR controller driver
-         de16c322eefbe9026d4eabc8ae934bb778cffd1d spi: sophgo: add SG2044 SPI NOR controller driver
-         37a1fcaf01ee1abb6fc74181eadfbd0d9bc3f32e spi: sophgo: add Sophgo SPI NOR controller driver
+         ed92bc5264c4357d4fca292c769ea9967cd3d3b6 ASoC: codecs: wm0010: Fix error handling path in wm0010_spi_probe()
          
+  - ref: refs/heads/for-next
+    old: 8a2c13bf9aaa8b79b7ac677d1c1ec20415f0fdfa
+    new: 6f20e71c4b2753344d82e5ca577dd7f7d7d5c853
+    log: revlist-8a2c13bf9aaa-6f20e71c4b27.txt
 
---===============8739032469442108444==
+--===============2066833130962599059==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-8a2c13bf9aaa-6f20e71c4b27.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1741783138 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1741783108-6f11a8a490f275fb65fed66bfee4c48e2d7fcd75
+ed92bc5264c4357d4fca292c769ea9967cd3d3b6 ASoC: codecs: wm0010: Fix error handling path in wm0010_spi_probe()
+c3d5d331c96f35c6425f7dcfa5c60cf9a5055d0e ASoC: amd: acp: Remove redundant acp70 chip->name
+8ae746fe51041484e52eba99bed15a444c7d4372 ASoC: amd: acp: Implement acp_common_hw_ops support for acp platforms
+e2cda461765692757cd5c3b1fc80bd260ffe1394 ASoC: amd: acp: Refactor dmic-codec platform device creation
+a8b9d2d7376d2caf74c0ffbf9bc71b98ed9d1a01 ASoC: amd: acp: Refactor acp platform device creation
+6e60db74b69c29b528c8d10d86108f78f2995dcb ASoC: amd: acp: Refactor acp machine select
+aaf7a668bb3814f084f9f6f673567f6aa316632f ASoC: amd: acp: Add new interrupt handle callbacks in acp_common_hw_ops
+e3933683b25e2cc94485da4909e3338e1a177b39 ASoC: amd: acp: Remove redundant acp_dev_data structure
+a95a1dbbd3d64adf392fed13c8eef4f72b4e5b90 ASoC: amd: acp: Move spin_lock and list initialization to acp-pci driver
+c8b5f251f0e53edab220ac4edf444120815fed3c ASoC: amd: acp: Remove white line
+f8b4f3f525e82d78079a6ebbde68e4a0d79fd1c0 ASoC: amd: acp: Refactor acp70 platform resource structure
+d08220b6e32e88655f54b497fd45a3982b59093c ASoC: amd: acp: Refactor acp63 platform resource structure
+ee7ab0fd540877fceb3d51f87016e6531d86406f ASoC: amd: acp: Refactor rembrant platform resource structure
+e167e5b268b2d06a7b59872c189fae0f587562ee ASoC: amd: acp: Refactor renoir platform resource structure
+02e1cf7a352a3ba5f768849f2b4fcaaaa19f89e3 ASoC: amd: acp: Fix for enabling DMIC on acp platforms via _DSD entry
+6f20e71c4b2753344d82e5ca577dd7f7d7d5c853 Merge remote-tracking branch 'asoc/for-6.15' into asoc-next
 
-cf1ba3cb245020459f2ca446b7a7b199839f5d83 37a1fcaf01ee1abb6fc74181eadfbd0d9bc3f32e refs/heads/spi-6.15
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmfRgGIACgkQJNaLcl1U
-h9CVNwf/X07fIfN7TkqIrEd5Tr0fzQHGmyH8Lep0PzFybFGS3QQp8LZYJk/bjZZT
-LaNhtTG+PJdcTd1vo3qwhJ4quqA/kOgGW4Ftt9bW89sa+zagYmVeFLo3hYllvee3
-zkzX6JhBaQRCZwzDsVMJJonuV3pbvi7SHmXFRbr0ygY4Jas/VOcMV03HbjORl4XD
-F+qFDdcfQr/VZjY8eIFu9dbwhRfJgchCOGMgaAEi7suL+VeIpTQSX9WnoYNu/ev4
-mGAKrG1nvUqMm9Ih7iCmaNMzAV3JwYELBeFPFE5ZMOjdhN2xtJY6kHbS9JP7msvI
-LLlgg+BF94A5VqBVOpXVN41xwVC0WA==
-=wTFY
------END PGP SIGNATURE-----
-
---===============8739032469442108444==--
+--===============2066833130962599059==--
