@@ -1,26 +1,41 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Wed, 12 Mar 2025 13:56:19 -0000
-Message-Id: <174178777927.550148.3390497272549145683@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8733459100113533416=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 12 Mar 2025 13:57:05 -0000
+Message-Id: <174178782514.550793.12921526318710676763@gitolite.kernel.org>
+
+--===============8733459100113533416==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/perf/pmu-unregister
-    old: d38c1af7775321783b883c47f413f02ae26e3662
-    new: 063f0c877f6be0d5a1de7e09d44917f1821c48e7
-    log: |
-         fd3f5d385a52531589c8a7a26d9e108aa1d3f52e perf/core: Remove optional 'size' arguments from strscpy() calls
-         826d55651f01b66941095c223e727bdc88b33419 perf: Ensure bpf_perf_link path is properly serialized
-         789c9755bc3e90e5bf9d920e57346919a1528ad8 perf: Simplify child event tear-down
-         72597ab7fe4155c0baef28f3eac8e75c2ec3737c perf: Simplify perf_event_free_task() wait
-         2237388eb6f26f6eb9f5e404fe12cbfdef2022e0 perf: Simplify perf_event_release_kernel()
-         a7ee03d13c8c5a2deeea2bbad66f23096b9eb2ed perf: Unify perf_event_free_task() / perf_event_exit_task_context()
-         a870084df5c86001018348090fd8fad9d3b00396 perf: Rename perf_event_exit_task(.child)
-         063f0c877f6be0d5a1de7e09d44917f1821c48e7 perf: Make perf_pmu_unregister() useable
-         
+  - ref: refs/heads/main
+    old: d2b9d97e89c79c95f8b517e4fa43fd100f936acc
+    new: 081b575617e6f9355edf054cb907bdb8af7ed149
+    log: revlist-d2b9d97e89c7-081b575617e6.txt
+
+--===============8733459100113533416==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d2b9d97e89c7-081b575617e6.txt
+
+d048c84bc1d6b831ca4e3381a16fb616ad96d8db wifi: rework MAINTAINERS entries a bit
+bbb18f7e23a3f5f56d5c8b4ee0f78f00edb3b1b2 wifi: iwlwifi: pcie: Fix TSO preparation
+b8c8a03e9b7bfc06f366b75daf3d0812400e7123 wifi: iwlwifi: mvm: fix PNVM timeout for non-MSI-X platforms
+1801a94299a5c7fc1a6825e92e1ce0dc7099faa9 wifi: iwlwifi: trans: cancel restart work on op mode leave
+43e04077170799d0e6289f3e928f727e401b3d79 wifi: mac80211: flush the station before moving it to UN-AUTHORIZED state
+20d5a0b9cd0ccb32e886cf6baecf14936325bf10 wifi: mac80211: don't queue sdata::work for a non-running sdata
+2e85829ac7fbbd57b93f6cd334b6d448c9ce9db3 wifi: nl80211: fix assoc link handling
+9a267ce4a3fca93a34a8881046f97bcf472228c8 wifi: mac80211: fix SA Query processing in MLO
+72d520476a2fab6f3489e8388ab524985d6c4b90 wifi: cfg80211: cancel wiphy_work before freeing wiphy
+8ae227f8a7749eec92fc381dfbe213429c852278 wifi: mac80211: fix MPDU length parsing for EHT 5/6 GHz
+081b575617e6f9355edf054cb907bdb8af7ed149 Merge tag 'wireless-2025-03-12' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
+
+--===============8733459100113533416==--
