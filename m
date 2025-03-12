@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 12 Mar 2025 23:23:23 -0000
-Message-Id: <174182180325.1042030.228077301489392386@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Wed, 12 Mar 2025 23:25:21 -0000
+Message-Id: <174182192189.1045325.9746545984268543668@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/master
-    old: a74a2a3e639f056a8ec0558efa982ae60e9cb43c
-    new: be741c7b2cafb87fcb7485860fc94cbaa16e489a
+  - ref: refs/heads/todo
+    old: 72749cdeaf475612deb2ca4a959a59b0e9425c0e
+    new: b1c7cde9727c31ff56acec83d75bfc3f0e464cea
     log: |
-         be741c7b2cafb87fcb7485860fc94cbaa16e489a bpf: preload: Add MODULE_DESCRIPTION
+         b1c7cde9727c31ff56acec83d75bfc3f0e464cea What's cooking (2025/03 #03)
          
