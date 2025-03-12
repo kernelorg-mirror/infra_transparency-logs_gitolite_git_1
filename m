@@ -1,52 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============0975777254955594937=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
-Date: Wed, 12 Mar 2025 08:45:33 -0000
-Message-Id: <174176913352.277427.8596991124903898813@gitolite.kernel.org>
-
---===============0975777254955594937==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Wed, 12 Mar 2025 08:52:55 -0000
+Message-Id: <174176957519.282664.6143044309348643670@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless
-user: jberg
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/tags/wireless-2025-03-12
-    old: 0000000000000000000000000000000000000000
-    new: 8c0af8fefa44ce0af2e206d263d0f206a9f1dc0e
-
---===============0975777254955594937==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 7BF9099A 1741769139 +0100
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
-nonce 1741769109-8370df98631bffdabe136ffd5696cd5d54fb93a2
-
-0000000000000000000000000000000000000000 8c0af8fefa44ce0af2e206d263d0f206a9f1dc0e refs/tags/wireless-2025-03-12
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmfRSbMACgkQ10qiO8sP
-aAA8Yg/+J4AAW8ORmd9cteDUVM3yUphv+TbTs9TS1Z5F66XHqOjTP+PJbdCM51S/
-GfkomufYwlEz1wh6sAudy4vcGcJaQmc6inEpD48s8Fb+HMp5YYOiSOEsEiOx99DK
-xPP2V4z39pu98UGV5Eey+g3QlCnlsX9+2E7tACCR+/5D7ABPvPx5JX8R3CSD9in5
-5AduJmGTZmui25HVAcCsH+kW03FbWhKVTDj1v/D1gXi0LN+gAT7Q33f7kEZfFVym
-CMhOZLjTVU4UIBVB2FBPLRft1rQWx2L+RNEtZ8Qj9MXQDAHs6ojPDJu4xux0g8uD
-pEfcdeTW2fTNDZneiFlOa2gNSQXRBm6n6DRrh716iuE7WJseCof/cSJ//aLObH8/
-bcYbaALGI8Ff1XeazoSxJE14Vus8rI/3haGygmHwFfwvOW/PgEwq0JJhTyu7OiJ/
-Q8SS7l6YQclq1DhR0qdusYkqyIqtLleT0pmg8jxkepdb8BlJ7JzwN+8TPwwQG3zy
-vlMqgHx405oVNTeIPw8QIFgZH++jKhFU7ADQYvwTCZiZz6vpbuXNT98ALwyDf13E
-s0X/+RV2A357N1PaijwU/RrvwF+FjiECnd0yTz3JLn9Sy+U6sTH92dAtiIdy6vL/
-HTnj4qbujzuhUCmgP+Q5vMYZXlNtzW0Ougn2uSHItaJDJrgCLl8=
-=yQtq
------END PGP SIGNATURE-----
-
---===============0975777254955594937==--
+  - ref: refs/heads/master
+    old: 0b46b049d6eccd947c361018439fcb596e741d7a
+    new: 0fed89a961ea851945d23cc35beb59d6e56c0964
+    log: |
+         59115e2e25f42924181055ed7cc1d123af7598b7 x86/hyperv/vtl: Stop kernel from probing VTL0 low memory
+         7241c886a71797cc51efc6fadec7076fcf6435c2 fbdev: hyperv_fb: iounmap() the correct memory when removing a device
+         aed709355fd05ef747e1af24a1d5d78cd7feb81e drm/hyperv: Fix address space leak when Hyper-V DRM device is removed
+         304386373007aaca9236a3f36afac0bbedcd2bf0 fbdev: hyperv_fb: Fix hang in kdump kernel when on Hyper-V Gen 2 VMs
+         f5e728a50bb17336a20803dde488515b833ecd1d fbdev: hyperv_fb: Simplify hvfb_putmem
+         ea2f45ab0e53b255f72c85ccd99e2b394fc5fceb fbdev: hyperv_fb: Allow graceful removal of framebuffer
+         09beefefb57bbc3a06d98f319d85db4d719d7bcb x86/hyperv: Fix output argument to hypercall that changes page visibility
+         73fe9073c0cc28056cb9de0c8a516dac070f1d1f Drivers: hv: vmbus: Don't release fb_mmio resource in vmbus_free_mmio()
+         0fed89a961ea851945d23cc35beb59d6e56c0964 Merge tag 'hyperv-fixes-signed-20250311' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
+         
