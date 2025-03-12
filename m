@@ -1,66 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4878775645657005300=="
+Content-Type: multipart/mixed; boundary="===============2709162795116643991=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Wed, 12 Mar 2025 07:45:08 -0000
-Message-Id: <174176550825.226925.5392067878981578824@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 12 Mar 2025 07:54:16 -0000
+Message-Id: <174176605606.232891.9571477594607259387@gitolite.kernel.org>
 
---===============4878775645657005300==
+--===============2709162795116643991==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 7688f0a76b155755aa53ced703df717e13265abf
-    new: 4e14b7e71328a986aa2be85e1f1e05ab154cb185
-    log: revlist-7688f0a76b15-4e14b7e71328.txt
-  - ref: refs/heads/v6.14-armsoc/dtsfixes
-    old: b36402e4a0772d1b3da06a4f5fbd1cfe4d6f1cc0
-    new: 96d8d325324639f03fcca12e4ea92265ebb24837
+  - ref: refs/heads/master
+    old: c214139aeb23d7521a82818500581c4a51f9e403
+    new: 40e99f59196325582100cc643eac87ee7bf0dfa9
     log: |
-         e79abd605edbd45eb61a251c6b0d6e50e605a14a arm64: dts: rockchip: Fix pcie reset gpio on Orange Pi 5 Max
-         33a409dd1fc8be5ef8f33ebed76856c4cbc5bc15 dt-bindings: clock: rk3576: add SCMI clocks
-         825f48a12e597e7556768088b74f3384840df5e6 arm64: dts: rockchip: fix RK3576 SCMI clock IDs
-         96d8d325324639f03fcca12e4ea92265ebb24837 arm64: dts: rockchip: Fix PWM pinctrl names
-         
-  - ref: refs/heads/v6.15-armsoc/dts64
-    old: ba82f56bbf20e4166c988621cd0507509872848e
-    new: 9602f47fe6dcca9318f35f7b72b4e98b91c5a5cf
-    log: |
-         21f1208a3af4c30497f60ce220490edd761c5ed9 arm64: dts: rockchip: Enable HDMI0 audio output for Orange Pi 5/5B
-         01284d7e38fca8a4d6a9982cc69e618aadd30de1 arm64: dts: rockchip: Enable HDMI audio outputs for Orange Pi 5 Max
-         ffafe9c2dc31d1a346aff482157dd37eaadbe054 arm64: dts: rockchip: Enable HDMI1 on Orange Pi 5 Plus
-         1bfb987d1a54bc139b62261e3698006418835229 arm64: dts: rockchip: Enable HDMI audio outputs for Orange Pi 5 Plus
-         d6166ea4cc4943cbabdeeedb13f3545fdba3ebf6 arm64: dts: rockchip: Add AP6275P wireless support to ArmSoM Sige7
-         2973d077aedfc114affab96c3b2c7286163cc8c9 arm64: dts: rockchip: Add pwm nodes for RK3528
-         19f48b687566b0f52c9ca833fa1f0c27ce44e1ba arm64: dts: rockchip: Move rk356x scmi SHMEM to reserved memory
-         9602f47fe6dcca9318f35f7b72b4e98b91c5a5cf arm64: dts: rockchip: Remove bluetooth node from rock-3a
+         40e99f59196325582100cc643eac87ee7bf0dfa9 6.12-stable patches
          
 
---===============4878775645657005300==
+--===============2709162795116643991==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7688f0a76b15-4e14b7e71328.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-e79abd605edbd45eb61a251c6b0d6e50e605a14a arm64: dts: rockchip: Fix pcie reset gpio on Orange Pi 5 Max
-33a409dd1fc8be5ef8f33ebed76856c4cbc5bc15 dt-bindings: clock: rk3576: add SCMI clocks
-825f48a12e597e7556768088b74f3384840df5e6 arm64: dts: rockchip: fix RK3576 SCMI clock IDs
-21f1208a3af4c30497f60ce220490edd761c5ed9 arm64: dts: rockchip: Enable HDMI0 audio output for Orange Pi 5/5B
-01284d7e38fca8a4d6a9982cc69e618aadd30de1 arm64: dts: rockchip: Enable HDMI audio outputs for Orange Pi 5 Max
-ffafe9c2dc31d1a346aff482157dd37eaadbe054 arm64: dts: rockchip: Enable HDMI1 on Orange Pi 5 Plus
-1bfb987d1a54bc139b62261e3698006418835229 arm64: dts: rockchip: Enable HDMI audio outputs for Orange Pi 5 Plus
-d6166ea4cc4943cbabdeeedb13f3545fdba3ebf6 arm64: dts: rockchip: Add AP6275P wireless support to ArmSoM Sige7
-96d8d325324639f03fcca12e4ea92265ebb24837 arm64: dts: rockchip: Fix PWM pinctrl names
-2973d077aedfc114affab96c3b2c7286163cc8c9 arm64: dts: rockchip: Add pwm nodes for RK3528
-19f48b687566b0f52c9ca833fa1f0c27ce44e1ba arm64: dts: rockchip: Move rk356x scmi SHMEM to reserved memory
-9602f47fe6dcca9318f35f7b72b4e98b91c5a5cf arm64: dts: rockchip: Remove bluetooth node from rock-3a
-de453f4022854070bda373d7cd3fcf4ca7593ea3 Merge branch 'v6.14-armsoc/dtsfixes' into for-next
-4e14b7e71328a986aa2be85e1f1e05ab154cb185 Merge branch 'v6.15-armsoc/dts64' into for-next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1741766083 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1741766053-0b43d52a1cbffd5252adc7558f3627fe0bd47759
 
---===============4878775645657005300==--
+c214139aeb23d7521a82818500581c4a51f9e403 40e99f59196325582100cc643eac87ee7bf0dfa9 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfRPcQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DzgP/jlLkKFO1XCyxB0235D1
+fv9BAVdSVcx4wLJOyaIw4eptDsQjkJ7ri2xvOwbQv5D6k78Cyn12c+7hpebsVWN9
+BUgMYhWvWnXBmdiXZyBtHvyXReknBW3rOI5PvTTzKegCoLVqFo9ZMvnQYyb9gucZ
+eXRvMhwh0tbo4Ih7nHp1XPq3d+AYlgmvFF3xh4KAr3zaLO3QWIayJaboma/06lJH
+IH+ehrk6Nwwy0ESKcW6bO9IFkr1GMxfQ8ztDUFRM6LAATSzxBsu32d9p2PtbaySE
+fyYNYV6v7/xhG7fkDY26iJ0r8G1J+5abK6mESiOKF+LqUNFyVXozPrrCdJKfm7Vv
+j2pLIw6qypaUydgcNDq/qwMrSpjYc/nf6NLNo73rC0Kziu0SWAlDjQw7fWIMdpAY
+NZX9hpyPr4iAI+I0SaEFPB/+xuw9afvxlSEvYEIsoa8fqn6TAbryD85IIPIkrMdO
+ilUvFPcsCEakdeNjwQsk+BMfom/2xNRl8RfU9wlJqNcKQRxe5qKoGZx8MESKFWeU
+RfgWv3z5w4tRVh9MO5Mew9B+hUzgORIe4ZnlWttstUokNjJA+QshcSrzWoE2c9Z8
+qIwnbBqsxVzW7P5g8xxZZGjgG7HzyfkxC+nAf/7wURm/oQz89nqHVhUTEDblYqST
+o92Dy9NPRY/nm4scIJ35MtAr
+=BdVj
+-----END PGP SIGNATURE-----
+
+--===============2709162795116643991==--
