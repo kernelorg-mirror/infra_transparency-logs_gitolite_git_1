@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 12 Mar 2025 11:14:59 -0000
-Message-Id: <174177809907.403499.2507664511540526250@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Wed, 12 Mar 2025 11:15:05 -0000
+Message-Id: <174177810596.405169.6111536905281517018@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/x86/asm
-    old: aa3942d4d12ef57f031faa2772fe410c24191e36
-    new: 857716c8249ea9ada9d5657062833b6b5ef9fd63
-    log: |
-         857716c8249ea9ada9d5657062833b6b5ef9fd63 x86/head/64: Avoid Clang < 17 stack protector in startup code
-         
+  - ref: refs/tags/sent/20250312-b4-scmi_minor_cleanup-8f85228d435c-v1
+    old: 0000000000000000000000000000000000000000
+    new: b7cf26920b3b4037644ee82f25617ab004be6284
