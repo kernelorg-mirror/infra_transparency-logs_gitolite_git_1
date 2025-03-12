@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1853069919960474870=="
+Content-Type: multipart/mixed; boundary="===============1609712907044871020=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Wed, 12 Mar 2025 01:17:05 -0000
-Message-Id: <174174222596.4104088.5463789807926753364@gitolite.kernel.org>
+Date: Wed, 12 Mar 2025 01:17:19 -0000
+Message-Id: <174174223971.4104512.5942218702694838033@gitolite.kernel.org>
 
---===============1853069919960474870==
+--===============1609712907044871020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
-    old: 64342461fa91a2e1a690504bcaba90117611f962
+  - ref: refs/heads/for-next
+    old: a77b570b6c3f8f8dcdbdc38d7b05bf98c669ae1c
     new: bc5431693696b3f928b0b7acf8d7a120127db7a4
-    log: revlist-64342461fa91-bc5431693696.txt
+    log: revlist-a77b570b6c3f-bc5431693696.txt
 
---===============1853069919960474870==
+--===============1609712907044871020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-64342461fa91-bc5431693696.txt
+Content-Disposition: attachment; filename=revlist-a77b570b6c3f-bc5431693696.txt
 
 b9a49520679e98700d3d89689cc91c08a1c88c1d rcuref: Plug slowpath race in rcuref_put()
 7332537962956fab2c055b37e5e2e6a0d2a8d6bf bpf: Remove unnecessary BTF lookups in bpf_sk_storage_tracing_allowed
@@ -989,4 +989,4 @@ dafbec3f520bcdc21cd7fb5344c07d0c82cca94e docs: kconfig: Mention IS_REACHABLE as 
 ec43aa00389eb845e48c5221b63ced0434937948 kbuild: add Kbuild bash completion
 bc5431693696b3f928b0b7acf8d7a120127db7a4 kbuild: exclude .rodata.(cst|str)* when building ranges
 
---===============1853069919960474870==--
+--===============1609712907044871020==--
