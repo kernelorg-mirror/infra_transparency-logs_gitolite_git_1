@@ -1,44 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============4209007947554839259=="
+Content-Type: multipart/mixed; boundary="===============6933802776405306102=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
-Date: Wed, 12 Mar 2025 18:06:19 -0000
-Message-Id: <174180277925.768335.13952037340763681591@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Wed, 12 Mar 2025 18:08:36 -0000
+Message-Id: <174180291695.769602.14687707910476432756@gitolite.kernel.org>
 
---===============4209007947554839259==
+--===============6933802776405306102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rppt/linux
-user: rppt
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: cmarinas
 changes:
-  - ref: refs/heads/kho/v5
-    old: d5a7d2cfaba824b4c5af065e4a88b5d5676ce370
-    new: da109ef4d1ce566693b451ba27c72a4171b475cb
-    log: revlist-d5a7d2cfaba8-da109ef4d1ce.txt
+  - ref: refs/heads/for-kernelci
+    old: 5b4ec6e1eb7603b6d86a172d77efdf75eb741e7e
+    new: 78e3fd2b7e4bc9995701f2f6042bbbd8c2090aaa
+    log: revlist-5b4ec6e1eb76-78e3fd2b7e4b.txt
+  - ref: refs/heads/for-next/core
+    old: ad5ba60e26b756c117bdfb0f5d738bd742ea8cca
+    new: ac1965a4e87662d0394a96ee8fe752a107fd363c
+    log: |
+         0b626b245c570c9e9ef5bf03e0541fedab334a9d KVM: arm64: ptdump: Test PMD_TYPE_MASK for block mapping
+         f5e93819e2cc8433061e6f5787fffe8d8cdf9c35 arm64/ptdump: Test PMD_TYPE_MASK for block mapping
+         dba954801004ce79db69fdc4d710063a7eed006c arm64/mm: Clear PXX_TYPE_MASK in mk_[pmd|pud]_sect_prot()
+         1601df9e366eeeb0dd55cc7d74c0a1fc008223ef arm64/mm: Clear PXX_TYPE_MASK and set PXD_TYPE_SECT in [pmd|pud]_mkhuge()
+         4fa8a9c0fc996fe5cde5f201f33e2c1dba4b5498 arm64/mm: Check PXD_TYPE_TABLE in [p4d|pgd]_bad()
+         bfb1d2b9021c21891427acc86eb848ccedeb274e arm64/mm: Check PUD_TYPE_TABLE in pud_bad()
+         d1770e909898c108e8c7d30ca039053e8818a9c9 arm64/mm: Check pmd_table() in pmd_trans_huge()
+         50c2726654bbc5e156040618413e25a3467de6f2 arm64/mm: Drop PXD_TABLE_BIT
+         ac1965a4e87662d0394a96ee8fe752a107fd363c Merge branch 'for-next/drop-pxd_table_bit' into for-next/core
+         
+  - ref: refs/heads/for-next/drop-pxd_table_bit
+    old: 0000000000000000000000000000000000000000
+    new: 50c2726654bbc5e156040618413e25a3467de6f2
 
---===============4209007947554839259==
+--===============6933802776405306102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d5a7d2cfaba8-da109ef4d1ce.txt
+Content-Disposition: attachment; filename=revlist-5b4ec6e1eb76-78e3fd2b7e4b.txt
 
-3dc624772d3029224d2451c0b9d70f226fe99e07 mm/mm_init: rename init_reserved_page to init_deferred_page
-51ad52322259b0fc91eb7077ad3f0d53c5407df7 memblock: add MEMBLOCK_RSRV_KERN flag
-a37878ae69d6f65e961fbb4405dc89ba8022bdca memblock: Add support for scratch memory
-26b9529be2cee9276253ee80c84a69973e0c7947 memblock: introduce memmap_init_kho_scratch()
-d2f41c588a47a2e2005daca1ca1cd692f8d151e6 kexec: Add Kexec HandOver (KHO) generation helpers
-2dcf06a21312b1a3d0a179949ad71185848b1943 kexec: Add KHO parsing support
-c529f17c6a90ec7f6de9cbe2d63edc130c65f342 kexec: enable KHO support for memory preservation
-3872af40ee1ac6e34abd74cf1360b2acd8e0fed2 kexec: Add KHO support to kexec file loads
-f231873189dcaad56e833e24374cdba185bb0ff0 kexec: Add config option for KHO
-0b556a0ef6088a5fe2c6d01c0ab4056bc916a32e arm64: Add KHO support
-7572cbfcedc33e50f416cea3f801655c624be87a x86/setup: use memblock_reserve_kern for memory used by kernel
-7a7bfbd5840e0d67efbc4a01a642dbefa12c150a x86: Add KHO support
-1c7ca7327f4505591f273e7c337e6a0908313cfb memblock: Add KHO support for reserve_mem
-da109ef4d1ce566693b451ba27c72a4171b475cb Documentation: Add documentation for KHO
+0b626b245c570c9e9ef5bf03e0541fedab334a9d KVM: arm64: ptdump: Test PMD_TYPE_MASK for block mapping
+f5e93819e2cc8433061e6f5787fffe8d8cdf9c35 arm64/ptdump: Test PMD_TYPE_MASK for block mapping
+dba954801004ce79db69fdc4d710063a7eed006c arm64/mm: Clear PXX_TYPE_MASK in mk_[pmd|pud]_sect_prot()
+1601df9e366eeeb0dd55cc7d74c0a1fc008223ef arm64/mm: Clear PXX_TYPE_MASK and set PXD_TYPE_SECT in [pmd|pud]_mkhuge()
+4fa8a9c0fc996fe5cde5f201f33e2c1dba4b5498 arm64/mm: Check PXD_TYPE_TABLE in [p4d|pgd]_bad()
+bfb1d2b9021c21891427acc86eb848ccedeb274e arm64/mm: Check PUD_TYPE_TABLE in pud_bad()
+d1770e909898c108e8c7d30ca039053e8818a9c9 arm64/mm: Check pmd_table() in pmd_trans_huge()
+50c2726654bbc5e156040618413e25a3467de6f2 arm64/mm: Drop PXD_TABLE_BIT
+ac1965a4e87662d0394a96ee8fe752a107fd363c Merge branch 'for-next/drop-pxd_table_bit' into for-next/core
+b864d29e210f8e8cbd7cb75b90b6a7d911a9fec5 Merge remote-tracking branch 'arm64/for-next/fixes' into for-kernelci
+0e26a5947cc936ae10f1c7d18858e19b891b1976 Merge branch 'for-next/core' into for-kernelci
+78e3fd2b7e4bc9995701f2f6042bbbd8c2090aaa Merge remote-tracking branch 'will/for-next/perf' into for-kernelci
 
---===============4209007947554839259==--
+--===============6933802776405306102==--
