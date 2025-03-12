@@ -1,27 +1,61 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Wed, 12 Mar 2025 08:52:55 -0000
-Message-Id: <174176957519.282664.6143044309348643670@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6813850286228855209=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Wed, 12 Mar 2025 08:59:09 -0000
+Message-Id: <174176994928.287444.17900708069854591318@gitolite.kernel.org>
+
+--===============6813850286228855209==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
+user: jberg
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 0b46b049d6eccd947c361018439fcb596e741d7a
-    new: 0fed89a961ea851945d23cc35beb59d6e56c0964
+  - ref: refs/heads/main
+    old: 9324731b9985478faf7f77713cc5e5fee811716e
+    new: 34670beb481e5e1a40448fabd312d17a1fbf0a73
     log: |
-         59115e2e25f42924181055ed7cc1d123af7598b7 x86/hyperv/vtl: Stop kernel from probing VTL0 low memory
-         7241c886a71797cc51efc6fadec7076fcf6435c2 fbdev: hyperv_fb: iounmap() the correct memory when removing a device
-         aed709355fd05ef747e1af24a1d5d78cd7feb81e drm/hyperv: Fix address space leak when Hyper-V DRM device is removed
-         304386373007aaca9236a3f36afac0bbedcd2bf0 fbdev: hyperv_fb: Fix hang in kdump kernel when on Hyper-V Gen 2 VMs
-         f5e728a50bb17336a20803dde488515b833ecd1d fbdev: hyperv_fb: Simplify hvfb_putmem
-         ea2f45ab0e53b255f72c85ccd99e2b394fc5fceb fbdev: hyperv_fb: Allow graceful removal of framebuffer
-         09beefefb57bbc3a06d98f319d85db4d719d7bcb x86/hyperv: Fix output argument to hypercall that changes page visibility
-         73fe9073c0cc28056cb9de0c8a516dac070f1d1f Drivers: hv: vmbus: Don't release fb_mmio resource in vmbus_free_mmio()
-         0fed89a961ea851945d23cc35beb59d6e56c0964 Merge tag 'hyperv-fixes-signed-20250311' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
+         c04d96913c88fdc11400ca6dd7f436bb6ecc764c wifi: mwifiex: Add __nonstring annotations for unterminated strings
+         8300f2504afeceac234027d433a2f71d4a39c7fe wifi: zd1211rw: Add __nonstring annotations for unterminated strings
+         adb1ee4de04d496f3da409bb6791cfdd744ab2c3 wifi: virt_wifi: Add __nonstring annotations for unterminated strings
+         899da1830db112e6bd54ed4573ace753eae6ef22 wifi: mac80211: remove SSID from ML reconf
+         80834e7d857932553dc22b0addbec744060aaf9f wifi: mac80211: use supported selectors from assoc in ML reconf
+         b5c1622762f0937a66b69b7f15466c28fe85dcf1 wifi: cfg80211: expose cfg80211_chandef_get_width()
+         34670beb481e5e1a40448fabd312d17a1fbf0a73 wifi: mac80211: use cfg80211_chandef_get_width()
          
+
+--===============6813850286228855209==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 7BF9099A 1741769948 +0100
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
+nonce 1741769916-005c617ebd578d6f72818942ca45849350e033a6
+
+9324731b9985478faf7f77713cc5e5fee811716e 34670beb481e5e1a40448fabd312d17a1fbf0a73 refs/heads/main
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmfRTNwACgkQ10qiO8sP
+aABdLg//Wh885Eh0AboTYKJ31pE1bWsSnkmTr+fSHOf3Lr50mGigcblYIekYAgGc
+LOh/pou0Bx60IcPhQhiZMtSpaqxEiwzk/oyHRg0GqahaXmowf8xu9ztZSWfDMcyB
+6GuzKL1ZPv6+SLYMbNL0IOOVlixj+u11InZEymezcdmA3svlA3z+lpgfgso7RUwU
+MhMn/CS/pWxneO23z4F8PVmafUzviDvsNw+CZ3TqetwYqq1WWUJ/etXN+zZD4pTr
+U263xuE4F/TqEIKa8/WlSe4WzfezI/Q5FBrZO0LBjsuNws64ogHV4xUJ2Rz5KZjV
+3lF8u918HaOfd8rp/1BQx0fbf0AOkDB1XAl0cPjUleczMa/tW8z593ClPW25AYkv
+CNRtNf/3vWrTogMW5JZnV7yUDG6b5ULqixNxEuE92qW5tHXw4xlTX+MXTr4KIAa/
+3h032mJECJeWlUfcA57wkREJ7YFzMq7oHaLkV4oQl9QRSsxAFZ0V7ESIbZSQhY6s
+7kQ07SzucfCj7/3jFFaLX9schhfe1WOTQc7jXUMvzxZs6M4g8Yw9ibaDqTv3zLUp
+6/HrcV1lzd5z17sGrgKgULC3DqmryuiGrhxgWvVYDyYW5jLqOWOm3gcFwIzrMerT
+6mM/g2gFpPrsNkhwlkhyQm1O2s2mYdoeoi4pmg8S9kuwgHwoEvs=
+=L0Zs
+-----END PGP SIGNATURE-----
+
+--===============6813850286228855209==--
