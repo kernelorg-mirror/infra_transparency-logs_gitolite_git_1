@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============5126033202710995501=="
+Content-Type: multipart/mixed; boundary="===============5521458916362645631=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 12 Mar 2025 12:38:12 -0000
-Message-Id: <174178309299.479843.5706709159771604875@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 12 Mar 2025 12:38:16 -0000
+Message-Id: <174178309676.479976.14272690250667006754@gitolite.kernel.org>
 
---===============5126033202710995501==
+--===============5521458916362645631==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.14
+  - ref: refs/heads/asoc-6.14
     old: 247fba13416af65b155949bae582d55c310f58b6
     new: ed92bc5264c4357d4fca292c769ea9967cd3d3b6
     log: |
          ed92bc5264c4357d4fca292c769ea9967cd3d3b6 ASoC: codecs: wm0010: Fix error handling path in wm0010_spi_probe()
          
-  - ref: refs/heads/for-6.15
+  - ref: refs/heads/asoc-6.15
     old: ac5b4a24f16f2f56b5cc5092969930b867274edc
     new: 02e1cf7a352a3ba5f768849f2b4fcaaaa19f89e3
     log: revlist-ac5b4a24f16f-02e1cf7a352a.txt
 
---===============5126033202710995501==
+--===============5521458916362645631==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1741783120 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1741783090-be852556f10dd495e73f615615ee6f0c828b5cbe
+pusher C3F436CA30F5D8EB 1741783124 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1741783094-bdeef02bfb515a4be5e8809103e92c1197dd8110
 
-247fba13416af65b155949bae582d55c310f58b6 ed92bc5264c4357d4fca292c769ea9967cd3d3b6 refs/heads/for-6.14
-ac5b4a24f16f2f56b5cc5092969930b867274edc 02e1cf7a352a3ba5f768849f2b4fcaaaa19f89e3 refs/heads/for-6.15
+247fba13416af65b155949bae582d55c310f58b6 ed92bc5264c4357d4fca292c769ea9967cd3d3b6 refs/heads/asoc-6.14
+ac5b4a24f16f2f56b5cc5092969930b867274edc 02e1cf7a352a3ba5f768849f2b4fcaaaa19f89e3 refs/heads/asoc-6.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmfRgFAACgkQJNaLcl1U
-h9C/8Af/VuumveCyAnkYOwDhyYhveH7QBMsRQZpKHYfHnmcWVjpv2pXHhSar0h8I
-CTrsb1t3fGBcg1hMCCZHz9DWHxwDSkLhTnrsK2GbKI6daBv5DMPom2qeQDEVwwIQ
-V3ShXaNBrG99lLwrQqk7Qac4AXSjC1BYV0FNXEbuFv79zAq0Y/3FlAd+aiLbICog
-pteuS5vEL5Q2Edty5Zu8tRpRLHEaNT55/1tHDFiaOo7W3NPqgBCC4pGARAPNzwJJ
-Z0rvtrLTwzpJV3eAD1tK3QgfonedENDxrM27EwQhyF93bqlouORE8gONpruCKCFm
-OdOAPj2zmSPq+TRB8rgZu7yq6u/lKQ==
-=v2hi
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmfRgFQACgkQJNaLcl1U
+h9CKwwf/dUhWXOmcyLDOVAtT0qF/Du88lTg7gaPwcIriYIJPg51JYda7G5YrpoRK
+ZIDVg562HxgrbsOf4h+ORr/VJjTkTMOcJ6yXtJB4ZjXdYhWssfFs+BFb4pjUoAB8
+2WpXYTocaiIi9R9NEL4Puz+PFugSfIMg+4+FGiGZjSWVOqC9IlXhIXVcgHNkrZts
+nbhTiWnN/novY1AqRo/+pQCrQ8iCP8ZT/MeJL9AGuapu2EyVZHYZ7bc0xs9GccHT
+rP+OJGtmJs7gkOINDU/FXdnF04h/uQSQ42dwJ+CVUBg1iuJ62Am6uIyjNLwlkMA1
+bhTdSeXqSoGqazXRTxNQznWG63Hy7A==
+=5/1f
 -----END PGP SIGNATURE-----
 
---===============5126033202710995501==
+--===============5521458916362645631==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -73,4 +73,4 @@ ee7ab0fd540877fceb3d51f87016e6531d86406f ASoC: amd: acp: Refactor rembrant platf
 e167e5b268b2d06a7b59872c189fae0f587562ee ASoC: amd: acp: Refactor renoir platform resource structure
 02e1cf7a352a3ba5f768849f2b4fcaaaa19f89e3 ASoC: amd: acp: Fix for enabling DMIC on acp platforms via _DSD entry
 
---===============5126033202710995501==--
+--===============5521458916362645631==--
