@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Wed, 12 Mar 2025 06:00:02 -0000
-Message-Id: <174175920278.139713.9200730012610865603@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
+Date: Wed, 12 Mar 2025 06:01:29 -0000
+Message-Id: <174175928992.141605.5484490095205574869@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/rppt/linux
+user: rppt
 changes:
-  - ref: refs/heads/master
-    old: 006ed461df3da3dc71128b2b844a7dcdfc01d1c0
-    new: 4576ad38bb9b7a060b71d5d0231e9741b8248fbd
-    log: |
-         045020bddc6bc26b438277b5efdf0f7f2af4a170 tpm, tpm_tis: Fix timeout handling when waiting for TPM status
-         4576ad38bb9b7a060b71d5d0231e9741b8248fbd tpm, tpm_tis: Workaround failed command reception on Infineon devices
-         
+  - ref: refs/heads/mem_init/v2
+    old: 0000000000000000000000000000000000000000
+    new: 3e32ff055084020fd5780bfed058a34c2547c325
