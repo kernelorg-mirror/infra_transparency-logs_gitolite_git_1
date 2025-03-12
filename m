@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 12 Mar 2025 15:41:10 -0000
-Message-Id: <174179407031.645016.14282529902707284882@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Wed, 12 Mar 2025 15:57:16 -0000
+Message-Id: <174179503610.657634.10539432036195365952@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/20250305_miquel_raynal_spi_cadence_qspi_make_it_work_on_am62a_lp_sk
+  - ref: refs/tags/stm32-dt-for-v6.15-1
     old: 0000000000000000000000000000000000000000
-    new: cce2200dacd6d7e0501c3811f24f5216710968fb
-  - ref: refs/heads/filePbEMU9
-    old: 0000000000000000000000000000000000000000
-    new: 5e963493aa0435b12e19bccaf04f44543438d0f8
+    new: 301e1c1350e0b4190256ea36f9bc73374c08cc0b
