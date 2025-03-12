@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mszyprowski/linux
-Date: Wed, 12 Mar 2025 12:44:37 -0000
-Message-Id: <174178347759.486900.13208682572087558649@gitolite.kernel.org>
+Date: Wed, 12 Mar 2025 12:46:03 -0000
+Message-Id: <174178356388.489302.9182278940978717809@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mszyprowski/linux
 user: mszyprowski
 changes:
-  - ref: refs/heads/dma-mapping-fixes
+  - ref: refs/heads/dma-mapping-for-next
     old: 0000000000000000000000000000000000000000
-    new: 8324993f60305e50f27b98358b01b9837e10d159
+    new: 2014c95afecee3e76ca4a56956a936e23283f05b
