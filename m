@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Wed, 12 Mar 2025 11:40:58 -0000
-Message-Id: <174177965856.428609.16369336986568158827@gitolite.kernel.org>
+Date: Wed, 12 Mar 2025 11:41:07 -0000
+Message-Id: <174177966735.428916.14042273444630688631@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/tags/sent/20250312-b4-scmi_minor_cleanup-8f85228d435c-v1
-    old: b7cf26920b3b4037644ee82f25617ab004be6284
+  - ref: refs/heads/b4/scmi_minor_cleanup
+    old: 3272daaafd80e4dc5d462d434666f435f5d43e0a
     new: 387c5ec2b123bb9f23330e81005330eee10d9930
     log: |
          b29cbea2a3045c4fe19bdef77cb679479354d518 firmware: arm_scmi: Minor cleanups in the scmi bus layer
