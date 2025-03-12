@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Wed, 12 Mar 2025 04:46:10 -0000
-Message-Id: <174175477060.78626.4433453704508826529@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Wed, 12 Mar 2025 05:27:17 -0000
+Message-Id: <174175723767.111508.3090524319618271700@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shawnguo/linux
-user: shawnguo
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/tags/imx-dt-6.15
-    old: 0000000000000000000000000000000000000000
-    new: 6767ae9bcbe121520f4730c6c8d09bf2c4916cf8
+  - ref: refs/heads/master
+    old: 04ed42d71f55f66976d7cf119d10c99bc172057b
+    new: bc02a459d8bfa6c0ec4ea1e5104d516961bc5491
+    log: |
+         bc02a459d8bfa6c0ec4ea1e5104d516961bc5491 tpm, tpm_tis: Workaround failed command reception on Infineon devices
+         
