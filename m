@@ -1,60 +1,68 @@
-Content-Type: multipart/mixed; boundary="===============6733797969214238549=="
+Content-Type: multipart/mixed; boundary="===============0337883729149224393=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
-Date: Wed, 12 Mar 2025 21:18:17 -0000
-Message-Id: <174181429751.934167.10778642398691680879@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Wed, 12 Mar 2025 21:39:07 -0000
+Message-Id: <174181554771.950685.7257002567568425660@gitolite.kernel.org>
 
---===============6733797969214238549==
+--===============0337883729149224393==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tglx/devel
-user: tglx
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/timers/ptp/tkntp
-    old: e12967d2a152f8d9c0951c3705c36972043828ae
-    new: 6d854257fc06d461325c3fe67f8cae7d7e4483c7
-    log: revlist-e12967d2a152-6d854257fc06.txt
+  - ref: refs/heads/arm64-defconfig-for-6.15
+    old: 691b5b53dbcc30bb3572cbb255374990723af0d2
+    new: a1176f46e9bbf137f64170ef717be87f779729ff
+    log: |
+         a1176f46e9bbf137f64170ef717be87f779729ff arm64: defconfig: enable Qualcomm IRIS & VIDEOCC_8550 as module
+         
+  - ref: refs/heads/arm64-for-6.15
+    old: d09ab685a8f51ba412d37305ea62628a01cbea57
+    new: 1f552db1b953b737183fd7c11c4814d3d152d4cd
+    log: revlist-d09ab685a8f5-1f552db1b953.txt
+  - ref: refs/heads/clk-for-6.15
+    old: a8e4ab5bdeeadf873a36f904066185acb1540021
+    new: 8b75c2973997e66fd897b7e87b5ba2f3d683e94b
+    log: |
+         8b75c2973997e66fd897b7e87b5ba2f3d683e94b clk: qcom: gcc-sm8650: Do not turn off USB GDSCs during gdsc_disable()
+         
+  - ref: refs/heads/drivers-for-6.15
+    old: 2e14c17a2e3d697bef6b5bf49b253d6e52f3d186
+    new: e6512225fb0e101bd127444a6377d4c18f1b6f69
+    log: |
+         e6512225fb0e101bd127444a6377d4c18f1b6f69 dt-bindings: qcom: geni-se: Add 'firmware-name' property for firmware loading
+         
 
---===============6733797969214238549==
+--===============0337883729149224393==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e12967d2a152-6d854257fc06.txt
+Content-Disposition: attachment; filename=revlist-d09ab685a8f5-1f552db1b953.txt
 
-9105212bf0d3e5fed788abd8df8607ef3edfa572 timekeeping: Remove hardcoded access to tk_core
-628cdddd66fe4f856528534749df74ccc45d9ffd timekeeping: Avoid double notification in do_adjtimex()
-cf4302da6c66bbf2e7931ffe68f231df792370c7 timekeeping: Introduce timekeeper ID
-7d3284e339214f2c9e2fa121b2b858255a4a1bd2 time: Introduce PTP clocks
-4505e93d930f59681fe50b0baa1374858df20c99 ntp: Add support for PTP timekeepers
-830275e1ad46d27150e23009987ba48496e3edcd ntp: Add timekeeper ID arguments to public functions
-51956c1f5418490c3cee1c8fa0036c1716cfd574 ntp: Rename __do_adjtimex() to ntp_adjtimex()
-ae315000b8a18dfd1e270616c274fe2770b11071 timekeeping: Make __timekeeping_advance() reusable
-f9f765349c98a7b0482b1058189cb26931eadb37 timekeeping: Prepare timekeeping_update_from_shadow()
-934cfcc75e293682c07c00a020c22b6ff4f7c8a5 timekeeping: Add clock_valid flag to timekeeper
-96862d85cc9ea14b2a50885e2ef5c266579cd2bc timekeeping: Prepare initialization for PTP
-2500ed212f1eff9c351972a79ae0856f9a321f42 timekeeping: Provide ktime_get_ntp_seconds()
-9bb33df114973d6dc709491ef666e57b13be9e7d ntp: Use ktime_get_ntp_seconds()
-bf3c9d67e5c683c4dcf2496cd1f3379e928dfd13 timekeeping: Add PTP offset to timekeeper
-984f160d97f92400866844b4ed3fc431fb6f70b1 timekeeping: Update PTP timekeepers on clocksource change
-57f98b3000f02d625668471e9b854850ca4a51b9 timekeeping: Provide time getters for PTP clocks
-825bf7e89230ece547c31a7f25a6cfea94b437ce timekeeping: Add minimal posix-timers support for PTP clocks
-aaf6f03607ba49f0c2384394faee08d846c46e83 timekeeping: Provide time setter for PTP clocks
-2031ea11e8c1d158d5345a518e0759f6e035fd4b timekeeping: Make timekeeping_inject_offset() reusable
-d699586236ae7518ccfedc4bcd56826c7d1bd15c timekeeping: Add PTP clock support to __timekeeping_inject_offset()
-0b9bb7b82f5972cac8151a7166ef5fd8bcdd7dab timekeeping: Make do_adjimex() reusable
-2c8184ef490431861309b8186956fbd51e2afd0f timekeeping: Prepare do_adtimex() for PTP clocks
-a6b061eed75d95cfbf7071e7020ffbe58ff9bcbe timekeeping: Provide adjtimex for PTP clocks
-f80c3b17e00795829616e9798ec64cef90c3fc85 timekeeping: Provide update for PTP timekeepers
-c9634f976fef5cbb56a0362b9448a1b1a90a83b9 timekeeping: Add interfaces to assign, get and put PTP clocks
-8ce0f46012352eb86a7e5135a4edd9be39bdd89e timekeeping: Provide ktime_get_clock_ts64()
-e1b5640df609ebadacc9974b93b2d02f17943a98 ptp: Use ktime_get_clock_ts64() for timestamping
-a7fc1d550f8923c335b398efb6402c6412459401 ptp: Expose PCH index in sysfs
-d50fd3f4cb8c885b1cf578d1fcfb70fdc899a7be ptp: Prepare for PTP clock ids
-6d854257fc06d461325c3fe67f8cae7d7e4483c7 ptp: Support PTP POSIX clock IDs
+aeb520ce520a2fc69e7d692a44f72da431769b0a arm64: dts: qcom: sm8650: add all 8 coresight ETE nodes
+0783c8b3c06b9cf16b5108d558e2faffb8c533b7 arm64: dts: qcom: x1e80100-romulus: Keep L12B and L15B always on
+9db543299ec0d765083dd9a0bdb15707b33f7d73 arm64: dts: qcom: x1e80100-crd: Describe the Parade PS8830 retimers
+d9ff9537baea7433f9f6479876b8f1ef4d822bc7 arm64: dts: qcom: x1e80100-crd: Enable external DisplayPort support
+b7e331d18cd012bf972269f676d292604e23ae5e arm64: dts: qcom: x1e80100-t14s: Describe the Parade PS8830 retimers
+49215915cc57e6d506e464df2ccc810f11babd26 arm64: dts: qcom: x1e80100-t14s: Enable external DisplayPort support
+eb8b09e61bd2419263a15c37b068982be620eab6 arm64: dts: qcom: sdm845: enable gmu
+2d3dd4b237638853b8a99353401ab8d88a6afb6c arm64: dts: qcom: sdm845-starqltechn: remove wifi
+242e4126ee007b95765c21a9d74651fdcf221f2b arm64: dts: qcom: sdm845-starqltechn: fix usb regulator mistake
+cba1dd3d851ebc1b6c5ae4000208a9753320694b arm64: dts: qcom: sdm845-starqltechn: refactor node order
+fb5fce873b952f8b1c5f7edcabcc8611ef45ea7a arm64: dts: qcom: sdm845-starqltechn: remove excess reserved gpios
+b58e67cd607e43b56f7cd509bdef0577d4658f10 arm64: dts: qcom: sdm845-starqltechn: add gpio keys
+7a88a931d09564b3ae84e7abd5cd412af1dd5280 arm64: dts: qcom: sdm845-starqltechn: add max77705 PMIC
+3a4600448befafe598f30d7e30aa89cef8226519 arm64: dts: qcom: sdm845-starqltechn: add display PMIC
+801733b4757ccef4dfce046639cf3ddeae7253b1 arm64: dts: qcom: sdm845-starqltechn: add touchscreen support
+dd5c8d7222fbccd7d0accb7523e11657b827cc99 arm64: dts: qcom: Use recommended MBN firmware path
+eeb0f3e4ea67cb1c2dd7cacfef218bfa0ae56970 arm64: dts: qcom: sm8750: Add QCrypto nodes
+9f9dcac2f85e6a0641a4a4f7f3b2c35a984ed4cc arm64: dts: qcom: sm8750: Add TRNG nodes
+b1dac789c650a20a54d5089b23fbb800fb289b8b arm64: dts: qcom: sm8750: Add ICE nodes
+1f552db1b953b737183fd7c11c4814d3d152d4cd arm64: dts: qcom: ipq5424: Enable MMC
 
---===============6733797969214238549==--
+--===============0337883729149224393==--
