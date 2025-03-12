@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8577597548045129489=="
+Content-Type: multipart/mixed; boundary="===============2824331256290525172=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 12 Mar 2025 07:54:25 -0000
-Message-Id: <174176606513.233222.198566841877053277@gitolite.kernel.org>
+Date: Wed, 12 Mar 2025 08:04:53 -0000
+Message-Id: <174176669358.242343.4828398111590447779@gitolite.kernel.org>
 
---===============8577597548045129489==
+--===============2824331256290525172==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 40e99f59196325582100cc643eac87ee7bf0dfa9
-    new: 134b035338bb2623c0db7acfc4a57106bb235b3b
+    old: 134b035338bb2623c0db7acfc4a57106bb235b3b
+    new: be144683ec38f37d92b2948cdba8ce436c84c8e6
     log: |
-         134b035338bb2623c0db7acfc4a57106bb235b3b 6.13-stable patches
+         be144683ec38f37d92b2948cdba8ce436c84c8e6 fix up queue-5.4/udp-gso-do-not-drop-small-packets-when-pmtu-reduces.patch
          
 
---===============8577597548045129489==
+--===============2824331256290525172==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1741766093 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1741766718 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1741766063-18974c37b617e35a38e6d5e4fa8e8a95776c6981
+nonce 1741766688-b903e1022ff1b8be5de2a23a6fb84c18bfa11ddc
 
-40e99f59196325582100cc643eac87ee7bf0dfa9 134b035338bb2623c0db7acfc4a57106bb235b3b refs/heads/master
+134b035338bb2623c0db7acfc4a57106bb235b3b be144683ec38f37d92b2948cdba8ce436c84c8e6 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfRPc0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TzoP/iVU5sOxjbhSRl+6nN8m
-nUmXc+iNrk8OEOsW79sl0PMIslPyFy/CEVOayohbfEKqz320/F1G/Tp+yB8dhH9T
-4IJAf00R4G+F74thcR+q1YzdfBmnZjfyKy13FCBzAUoxIRLYqNEPt1ouhqDnq3gX
-t8QZP3uZCEQeTdLnwKvBK4lgIvadbHuit2Viig+vw0glf/su/WtMARnJtw0sC1Cs
-X6znGpTBilgF9uJ3J6rRkaQzcmhHWmHzymsWNgeVZiXpSe9gB/pf4k/Gt3gL+re2
-ZHd/GNnQENmTkuIWMfX+gP/JEnheCrNZM8xuuWeR1sLKYtTkSFQIqOBmaF94HxN9
-Pb8n+dXeWRBHWw+wImZo8YyMIskO9VnZqQp5hhREUwF+PBorwdSLq7Aeh1fFMUmA
-kkKhYAPnCOCPwzs6xDXw2IsgYBQQEf+RhFroWc8V1EblkZEy6ufsJ+ptCDTafTQY
-qGlt8rIHiDeZWCRYrm8l1rUn4W7QhG/lel5D6w2NSkR9qp7PS+LhVDT0mJr76tCN
-FAm7j4OoDu8FY8h5aT55lw2jINOdw37eiDCQsb0E8kDZUTgbhPHF+tNh+sB97UEN
-4ULIG+881UWjPAOulIzn8TczXrH8xn0g67s2njfZL3E+FQTQgbEk7B2tiI/JDliL
-4TbjfVT+6VyR54SuiEcahKFz
-=ke0+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfRQD8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FFMQAMdUYi5LBnZFSXV1yuOl
+kO6jiVwJ2EYyUrDW8V20Hph0lJr3/cW82ajWvKSyfIG8QbRM68jveBoVx5R+JGiZ
+r5Wrfssv5LIFVHqPA+hVhoHtWjSoaTdu11Rg4UoTcDnFlMN1g394hYWv6zRb9aoM
+tbf8ptq9R8beev/UXO0D/6x3LxwqU9NaJF2QTpXfk/kmYV2+OV6Yo/B3wu/9oXJ1
+JjIZi1IattU5C4vFnMCMBchRA5MRINFaWg+sDSfqXGqqJgaDprlSj9/+pgWVoTXs
+AXas/OjGU0F586RabLfSI5Cahn65WNbyDExsF169qb8hnBgtfXwqSE4XHPtWLZ1R
+p7wSJ3fZnVSLbm46WAghN80Q29f1OA/iumOiDQzbK/uXlV4Vg8OoShSN+lcWoomL
+rN1jo0XKVYhhB3wUmZWrt1gWjgYC8GZrZJ83JXabjpGPD4zKiR/3r2E3+dB8hECe
+wWPOdcX0J8qhP59kctVw47TVCR/6JzOCg7UMHjMVad2Hbg0PnuKJp5CU0xOFWdvN
+XU0qXNGJLZR4WwP6nESa5D7QrlC2fqbZyx4Kq04rwlilnd/rSQRoo9A34owhhiZ2
+NQt+R9b6aHxkiL8HQh6umcNVw3kNa81wfTfeLk8XxiinhS1djcNN7GU9518455+q
+n0irXCoBud5ulzts1e6cithk
+=LigP
 -----END PGP SIGNATURE-----
 
---===============8577597548045129489==--
+--===============2824331256290525172==--
