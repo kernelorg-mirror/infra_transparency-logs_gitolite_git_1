@@ -1,44 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============2318821988239089487=="
+Content-Type: multipart/mixed; boundary="===============6822344217071806082=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 12 Mar 2025 13:13:47 -0000
-Message-Id: <174178522720.513042.15849909222901501245@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 12 Mar 2025 13:13:59 -0000
+Message-Id: <174178523908.513459.6264621317547302397@gitolite.kernel.org>
 
---===============2318821988239089487==
+--===============6822344217071806082==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: eea255893718268e1ab852fb52f70c613d109b99
     new: 9fbcd7b32bf7c0a5bda0f22c25df29d00a872017
     log: revlist-eea255893718-9fbcd7b32bf7.txt
-  - ref: refs/heads/stable
-    old: 4d872d51bc9d7b899c1f61534e3dbde72613f627
-    new: 0b46b049d6eccd947c361018439fcb596e741d7a
-    log: |
-         68283c1cb573143c0b7515e93206f3503616bc10 pinctrl: bcm281xx: Fix incorrect regmap max_registers value
-         acf40ab42799e4ae1397ee6f5c5941092d66f999 pinctrl: nuvoton: npcm8xx: Add NULL check in npcm8xx_gpio_fw
-         7ff4faba63571c51004280f7eb5d6362b15ec61f pinctrl: spacemit: enable config option
-         0b46b049d6eccd947c361018439fcb596e741d7a Merge tag 'pinctrl-v6.14-3' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
-         
-  - ref: refs/tags/next-20241212
-    old: d1ce129deca60dea78f360861a806a5023b3c8ca
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/next-20241213
-    old: 2a72700b03a6937ab0be55774f089da2ebe845d5
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20250312
     old: 0000000000000000000000000000000000000000
     new: 3dc6dfee650a7f0175424667b8cdd18c456f6038
 
---===============2318821988239089487==
+--===============6822344217071806082==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1069,4 +1054,4 @@ c470617886440a5c7d8b26c8f29776cd47fee697 Merge branch 'next' of https://git.kern
 3215badef6bb1a159131e7074344d2a7136995c8 Revert "pinctrl: amd: Add an LPS0 check() callback"
 9fbcd7b32bf7c0a5bda0f22c25df29d00a872017 Add linux-next specific files for 20250312
 
---===============2318821988239089487==--
+--===============6822344217071806082==--
