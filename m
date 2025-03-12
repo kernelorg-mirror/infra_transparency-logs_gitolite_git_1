@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 12 Mar 2025 23:41:07 -0000
-Message-Id: <174182286764.1058361.9972716826349808435@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Wed, 12 Mar 2025 23:56:28 -0000
+Message-Id: <174182378839.1070797.3365976870951121085@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
 changes:
-  - ref: refs/heads/master
-    old: 7b0d6b6fc70252cc41f106101d08f739e941e1d5
-    new: f50c0d2132937bd479f1124884788f21fbe3d6da
+  - ref: refs/heads/i2c/i2c-host
+    old: d53e8666b0bf8dbf8992eb1ffc25c25ad4a487ab
+    new: 42c1c13f4b705c02afac72525b90066b61c51f02
     log: |
-         f50c0d2132937bd479f1124884788f21fbe3d6da foo
+         123236127d76cdef97476920292904a1dc12a6c7 i2c: i801: Switch to iomapped register access
+         42c1c13f4b705c02afac72525b90066b61c51f02 i2c: i801: Use MMIO if available
          
