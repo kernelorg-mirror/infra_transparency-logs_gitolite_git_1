@@ -1,43 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============1832904120845923480=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 12 Mar 2025 14:50:40 -0000
-Message-Id: <174179104071.598457.169009428811852998@gitolite.kernel.org>
-
---===============1832904120845923480==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Wed, 12 Mar 2025 14:50:51 -0000
+Message-Id: <174179105155.598799.9335481378522588138@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/pending
-    old: b9878fbacc79858fbd4e70d8d8d14f1e67b2725e
-    new: d2aa83923c9f866c7f9ee6a76d9a27ca76c10e24
-    log: revlist-b9878fbacc79-d2aa83923c9f.txt
-
---===============1832904120845923480==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b9878fbacc79-d2aa83923c9f.txt
-
-7facddf5ab535f6aff9c4e4f66203d2a261a9ea7 dt-bindings: net: wireless: describe the ath12k AHB module for IPQ5332
-5917c36eb83e7db004d311f7a0aa672ce2ee4f56 wifi: ath12k: fix incorrect CE addresses
-5fe644c3af5281ee8f6a454f2986fd742ed13af9 wifi: ath12k: refactor ath12k_hw_regs structure
-bcbc1b4b16648df714ea61a650760e77f7974d28 wifi: ath12k: add ath12k_hw_params for IPQ5332
-ec61416c3db3a5bbcc9878f2f4be995395f908b3 wifi: ath12k: avoid m3 firmware download in AHB device IPQ5332
-c2107ca61b9b55dbddf5dae935a7a4b0bc44d2bd wifi: ath12k: Add hw_params to remap CE register space for IPQ5332
-69f20f522caeab550623a749cfd38fb18bf5571a wifi: ath12k: add support for fixed QMI firmware memory
-71980e1c9c3fa7edab3fae23e1dc35a3e6228dd9 wifi: ath12k: add AHB driver support for IPQ5332
-6d41b129e5c9e4ecf0425ffad9857328ee994a71 wifi: ath12k: Power up root PD
-70acdf76dba6265c607b1b364ae583ae4334ebb1 wifi: ath12k: Register various userPD interrupts and save SMEM entries
-e7988029fd87ffbd16691a021f33e47bbd6a6866 wifi: ath12k: Power up userPD
-24c1708da4b0b9644f7d6a8ed4e845514eb5a28f wifi: ath12k: Power down userPD
-d2aa83923c9f866c7f9ee6a76d9a27ca76c10e24 wifi: ath12k: enable ath12k AHB support
-
---===============1832904120845923480==--
+  - ref: refs/heads/stm32-next
+    old: 9365fa46be3589092a06f403cf10faca703a05b6
+    new: 65954899a157832f68536b488194cf698248a26e
+    log: |
+         be977f2690cb79431b02ed69cdadaa1e86985a39 dt-bindings: stm32: document stm32mp257f-dk board
+         113ff0e048ff11e4c52ae97f9fa59fd39c1c0f6a arm64: dts: st: add stm32mp257f-dk board support
+         f5d548c9248c53c5adbae5201393ab5c60a85871 arm64: Kconfig: expand STM32 Armv8 SoC with STM32MP21/STM32MP23 SoCs family
+         04b2ca486456988a7d0890fdbe215fe5e37d6829 dt-bindings: stm32: add STM32MP21 and STM32MP23 compatibles for syscon
+         e9b03ef21386e7583806e1e624a8b44c6722b365 arm64: dts: st: introduce stm32mp23 SoCs family
+         5fbe1ead4c59954a149e0bcb758a69d07140a799 dt-bindings: stm32: document stm32mp235f-dk board
+         c57a222ab80168ff60a2cd1903dc0585faae5c61 arm64: dts: st: add stm32mp235f-dk board support
+         7a57b1bb1afbfbb21d0445f68a032c8591b7c9c1 arm64: dts: st: introduce stm32mp21 SoCs family
+         1a09f577aa65860da3dbfa29388e26ff970af49a dt-bindings: stm32: document stm32mp215f-dk board
+         65954899a157832f68536b488194cf698248a26e arm64: dts: st: add stm32mp215f-dk board support
+         
