@@ -1,56 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============4177139902407132572=="
+Content-Type: multipart/mixed; boundary="===============3107192655706558832=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 12 Mar 2025 17:25:36 -0000
-Message-Id: <174180033696.735030.147000954597472047@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Wed, 12 Mar 2025 17:26:38 -0000
+Message-Id: <174180039892.735648.17691847478424139565@gitolite.kernel.org>
 
---===============4177139902407132572==
+--===============3107192655706558832==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/security/vulns
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
-    old: 993a47bd7b998156ffebc999617474c920dc9208
-    new: 10b20f2d1bbeddcb6c1f6c01b6eb1b8d2828b663
+  - ref: refs/heads/master
+    old: db763bbea101ffbcbcdf10e165d6c0a3c8bdbfdf
+    new: e3bc5b8b6a8982015139ed216c55e8ce2007ed0d
     log: |
-         10b20f2d1bbeddcb6c1f6c01b6eb1b8d2828b663 rust/kernel/faux: mark Registration methods inline
+         2f356dcc40aa71b7c0402a576c86c1048e7c6838 Request to Update CVE-2024-42151 Data Not Applicable to v6.6.y
+         e3bc5b8b6a8982015139ed216c55e8ce2007ed0d update CVE-2024-42151 based on new .vulnerable entry
          
 
---===============4177139902407132572==
+--===============3107192655706558832==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1741800365 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1741800335-7d40cbebc43216c4b18dbf39aa0d7343478a289e
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1741800427 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1741800398-57ee946e3d7c72e07fcbc0e8e68d7950a508895e
 
-993a47bd7b998156ffebc999617474c920dc9208 10b20f2d1bbeddcb6c1f6c01b6eb1b8d2828b663 refs/heads/driver-core-next
+db763bbea101ffbcbcdf10e165d6c0a3c8bdbfdf e3bc5b8b6a8982015139ed216c55e8ce2007ed0d refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfRw60bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SHYQAMRjgAtOnw1eAJOJEHuS
-TeVQ9iqjfsSPBcf70bG253w16MufALFZYcgAiey/f9XrNRw6O70I6g3FSLwW2J1q
-xQYoDCAveHAUh0ipD5uERvRCHey2Cn7rWTDFUFeVkCeoN/Bo8eMmyfV6vWAb1xlo
-gDQx86huUNIcZ2VJNFzMoiOaQY1l+s98bsC4o1BTXA0S0sexro9YYS1bZstLG0rY
-6g2XcZei3pmArlKfmcSqTA8iNiQpRmzdgT5z+JUMljqTNMseOxbfoubMnuqs7Zhf
-ppTEMkeHGyYxNI/Uk6jUVK8co/cZ4wceLafXZjlng/ESy+nWPZhPQ29x2w1X2I6J
-042I+xa7/O4yr9T+zjnDNGBUnFmUFu0Z6WuoN5DGCVyGFX1hCEbw9FOt9+WpJzLP
-zcOvLhTXt1+5dLjnOEPosg+x6OzHygclDi9PdixxC7Dl8/yFQaLEndqnAsjXmp/4
-LL33kHE+vuyekTlH/zoycFw5gmngiTjQhE1MKXjXKsVE20zTVBZUEAkVi35jKuVW
-uxa5S/S4OfWs1lys3j85koJxuTBTaQ7N3vTt/mi6v3gTjyG4hZHaDHQl36NaTPny
-7f6p4JkYDoU6UH2vWHSKgiHFzL2Khr0IxlIvvDcbO0AJvMq7gLmgVPwpckUSHHYl
-QZpYDCxZQNXgOo/OqLOvM93s
-=4pt/
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfRw+sbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8KEP/3PINaH/tObDSLksrkZj
+Fj4kvAZuydyNErfVS5SbxvDfpvgkANF1Naf/DkGhMFZPaZEQeyzxTGeRRuluy+eW
+02OxJfTmBTZSJGXwHH0Qzrh719VEmPNIhLWbdCsKZJrJP6LWilUe0WgHOct9vaiA
+wAPV/GjLsX5R0TELLgwY6tpeMg/XLpnH7xQBj0HA5WWZ3XQ263f97RfA3nQppOfm
+s/ia0bMUWMY6etb1130j/KhaXfifZ/Mn3SfAUNjor90Cz4xEaIzfQ8QQQHckZJvp
+UDKqkN+RqluL6XVnCEc5Itr+ELUO6LB0aWdR39INFvsE5zfRIjbCO4uBTDJAA2uu
+6++H3CmQTYIyA/4uTYklDYSqBOg9Q/boSyE3/9K1CZk0U9BXV3rh9w09WKzLWcGI
+bjirJaqGipCq1+vizwxF2e2myr/Z6Y7YRzmoMoLvAsqGPpKU1T3g19kHSjOeNffU
+nZJv3pxGpy7ks9PJ+sIFq2ZQcHYpGnSf9N7bgBjUk9Qy5x2pLCpnfaRyKP8FbtwS
+T4Ftv2EEqfhyCLdWbymFNQS7dyoN+DfHcU+q6yCkvXzU/PJHaFkBCPxzlIx91dw4
+9I7RGmgjh6mNafuv+1gmEwnrRUsbQRmk9wwVtrQto9Plq8y2ZrjofrtiLSOBGSZg
+mDZz8cGZPIY6sT6ID7C/AOEy
+=um5Z
 -----END PGP SIGNATURE-----
 
---===============4177139902407132572==--
+--===============3107192655706558832==--
