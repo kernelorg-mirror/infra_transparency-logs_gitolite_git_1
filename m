@@ -1,61 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============6813850286228855209=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Wed, 12 Mar 2025 08:59:09 -0000
-Message-Id: <174176994928.287444.17900708069854591318@gitolite.kernel.org>
-
---===============6813850286228855209==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
+Date: Wed, 12 Mar 2025 08:59:47 -0000
+Message-Id: <174176998732.288383.6094686005747514799@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
-user: jberg
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/netfilter/nf
+user: fwestphal
 changes:
   - ref: refs/heads/main
-    old: 9324731b9985478faf7f77713cc5e5fee811716e
-    new: 34670beb481e5e1a40448fabd312d17a1fbf0a73
+    old: 77b2ab31fc65c595ca0a339f6c5b8ef3adfae5c6
+    new: d2b9d97e89c79c95f8b517e4fa43fd100f936acc
     log: |
-         c04d96913c88fdc11400ca6dd7f436bb6ecc764c wifi: mwifiex: Add __nonstring annotations for unterminated strings
-         8300f2504afeceac234027d433a2f71d4a39c7fe wifi: zd1211rw: Add __nonstring annotations for unterminated strings
-         adb1ee4de04d496f3da409bb6791cfdd744ab2c3 wifi: virt_wifi: Add __nonstring annotations for unterminated strings
-         899da1830db112e6bd54ed4573ace753eae6ef22 wifi: mac80211: remove SSID from ML reconf
-         80834e7d857932553dc22b0addbec744060aaf9f wifi: mac80211: use supported selectors from assoc in ML reconf
-         b5c1622762f0937a66b69b7f15466c28fe85dcf1 wifi: cfg80211: expose cfg80211_chandef_get_width()
-         34670beb481e5e1a40448fabd312d17a1fbf0a73 wifi: mac80211: use cfg80211_chandef_get_width()
+         62531a1effa87bdab12d5104015af72e60d926ff net: switchdev: Convert blocking notification chain to a raw one
+         f5d83cf0eeb90fade4d5c4d17d24b8bee9ceeecc net: mctp: unshare packets when reassembling
+         0c5e145a350de3b38cd5ae77a401b12c46fb7c1d bonding: fix incorrect MAC address setting to receive NS messages
+         9318dc2357b6b8b2ea1200ab7f2d5877851b7382 selftests: bonding: fix incorrect mac address
+         3121a1ef966e1eabcccf3960929b50d625bda78c Merge branch 'bonding-fix-incorrect-mac-address-setting'
+         415f135ace7fd824cde083184a922e39156055b5 rtase: Fix improper release of ring list entries in rtase_sw_reset
+         d2b9d97e89c79c95f8b517e4fa43fd100f936acc qlcnic: fix memory leak issues in qlcnic_sriov_common.c
          
-
---===============6813850286228855209==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 7BF9099A 1741769948 +0100
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
-nonce 1741769916-005c617ebd578d6f72818942ca45849350e033a6
-
-9324731b9985478faf7f77713cc5e5fee811716e 34670beb481e5e1a40448fabd312d17a1fbf0a73 refs/heads/main
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmfRTNwACgkQ10qiO8sP
-aABdLg//Wh885Eh0AboTYKJ31pE1bWsSnkmTr+fSHOf3Lr50mGigcblYIekYAgGc
-LOh/pou0Bx60IcPhQhiZMtSpaqxEiwzk/oyHRg0GqahaXmowf8xu9ztZSWfDMcyB
-6GuzKL1ZPv6+SLYMbNL0IOOVlixj+u11InZEymezcdmA3svlA3z+lpgfgso7RUwU
-MhMn/CS/pWxneO23z4F8PVmafUzviDvsNw+CZ3TqetwYqq1WWUJ/etXN+zZD4pTr
-U263xuE4F/TqEIKa8/WlSe4WzfezI/Q5FBrZO0LBjsuNws64ogHV4xUJ2Rz5KZjV
-3lF8u918HaOfd8rp/1BQx0fbf0AOkDB1XAl0cPjUleczMa/tW8z593ClPW25AYkv
-CNRtNf/3vWrTogMW5JZnV7yUDG6b5ULqixNxEuE92qW5tHXw4xlTX+MXTr4KIAa/
-3h032mJECJeWlUfcA57wkREJ7YFzMq7oHaLkV4oQl9QRSsxAFZ0V7ESIbZSQhY6s
-7kQ07SzucfCj7/3jFFaLX9schhfe1WOTQc7jXUMvzxZs6M4g8Yw9ibaDqTv3zLUp
-6/HrcV1lzd5z17sGrgKgULC3DqmryuiGrhxgWvVYDyYW5jLqOWOm3gcFwIzrMerT
-6mM/g2gFpPrsNkhwlkhyQm1O2s2mYdoeoi4pmg8S9kuwgHwoEvs=
-=L0Zs
------END PGP SIGNATURE-----
-
---===============6813850286228855209==--
