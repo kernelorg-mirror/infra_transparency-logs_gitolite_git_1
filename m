@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Wed, 12 Mar 2025 20:31:52 -0000
-Message-Id: <174181151222.894101.6542788950133137537@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Wed, 12 Mar 2025 20:34:14 -0000
+Message-Id: <174181165469.895321.7475600034218751070@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 99ca795d6b6a315efa26f03190e96fd4b84f76c9
-    new: 13f2c96c4bba641b12bd7614109b0d1ce125e038
+  - ref: refs/heads/master
+    old: 206790a9b59fc6293f7cd3b6d0cee267b4ee7d2a
+    new: 6e8feb8cdb23a03e4b797ba00992d1b5bab7d921
     log: |
-         3efeeaf85f5cab84aa05003308eddb62e2acf5bd PM: clk: Remove unused pm_clk_remove()
-         ca029ff3e0cd7a953d9483d4de6f538ec4b4f4ff Merge branch 'pm-misc' into bleeding-edge
-         68cb0139fec8e05b93978dc0ef1bc8df90a86419 cpuidle: Init cpuidle only for present CPUs
-         13f2c96c4bba641b12bd7614109b0d1ce125e038 Merge branch 'pm-cpuidle' into bleeding-edge
+         78c26d55a9fd3be2fc07e3803732b20e86d1920f foo
+         6e8feb8cdb23a03e4b797ba00992d1b5bab7d921 foo
          
