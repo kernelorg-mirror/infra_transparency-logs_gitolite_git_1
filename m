@@ -1,58 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============0611191129528014095=="
+Content-Type: multipart/mixed; boundary="===============4189498794428729937=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 12 Mar 2025 18:16:22 -0000
-Message-Id: <174180338278.776939.16537172116578589540@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
+Date: Wed, 12 Mar 2025 18:20:28 -0000
+Message-Id: <174180362828.781063.5742504506820798093@gitolite.kernel.org>
 
---===============0611191129528014095==
+--===============4189498794428729937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
+repo: pub/scm/linux/kernel/git/shemminger/iproute2
+user: shemminger
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: 525b139fb4033a9ba5abd6ca3f6a6baa3b2fe3d4
-    new: 28a76fcc4c85dd39633fb96edb643c91820133e3
+  - ref: refs/heads/main
+    old: e3f9681d4a777fb2595a322b421abf0036ab1aae
+    new: afbfd2f2b0a633d068990775f8e1b73b8ee83733
     log: |
-         0c74d232578b1a7071e0312312811cb75b26b202 xhci: Avoid queuing redundant Stop Endpoint command for stalled endpoint
-         dfc88357b6b6356dadea06b2c0bc8041f5e11720 usb: xhci: Don't change the status of stalled TDs on failed Stop EP
-         28a76fcc4c85dd39633fb96edb643c91820133e3 usb: xhci: Avoid Stop Endpoint retry loop if the endpoint seems Running
+         667817b4c34944175deaf6ca9aa3afdf5b668fc5 tc: nat: Fix mask calculation
+         afbfd2f2b0a633d068990775f8e1b73b8ee83733 tc: nat: ffs should operation on host byte ordered data
          
 
---===============0611191129528014095==
+--===============4189498794428729937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1741803411 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1741803381-02092156bf3ee4c911ccdc7d4aee2d3d4b518fda
+pusher Stephen Hemminger <stephen@networkplumber.org> 1741803657 -0700
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/shemminger/iproute2.git
+nonce 1741803627-1ab4fa6f86a5e082599e4f9d1521362575e3cb16
 
-525b139fb4033a9ba5abd6ca3f6a6baa3b2fe3d4 28a76fcc4c85dd39633fb96edb643c91820133e3 refs/heads/usb-next
+e3f9681d4a777fb2595a322b421abf0036ab1aae afbfd2f2b0a633d068990775f8e1b73b8ee83733 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfRz5MbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LioP/jNKwjqt4XtlGe11s4mi
-bfP6yLkotsSI/+R3U5MtSmOa9sjQqolGGWABV9ctQ7EweXgeenPf3UYY1K4GAffq
-h4g27W7SdnOEqPVvAfsIJEiXs4EhQvCrt6sANgnzm3iB8asUFA0MnqeDFR3NjR6c
-zOJoCt7lJyqTrGBSW4nYHb4BvzCiDGNT8AqywZpkQkBqCzhVBax09jHVaeinxp0s
-L7rYFmVoOuQbs0AT9kb+kE0qoYZtooU9mYqJWPL6MDnplhOwhCHWoPJh/4+Cx+vd
-r/OuJr7Bx64BQ859r1W67kYardlcLoP1XflukKEuuhtSuAwLYQ6QiTUw4lhN98+Q
-Dygv2/Lw1P7kEnk78mvO/NEUndjq0phi95cl8KFpHZzuHxk6IFHTD8e/l4de/75j
-avlONzLa+mSWNVeKBoU9/f/xoVYG++jrPeLUs3YvPNMk6JLf9Bbf9slmCO77VEL2
-DD4p11v0kCXvqoPKlVqKnxAZaqegPoS9EBxqj/dkVNA8GX2FWoxyARdYokRZ5hUP
-06HAK2qGA/ckpIjVkBAVI8+MesJgP/BIV69tjbJ+4H7c0GyU7wxXlHqv0AbSb9tG
-bcdZc9KMmt9rZkz2bX5VvaJJhejdEABUR1eCIo0LCzWg8EUY/LIbMQjwf46YsoVf
-9v///g0fZBzE+R9NxqIyVDbZ
-=39Ww
+iQJPBAABCAA5FiEEn2/DRbBb5+dmuDyPgKd/YJXN5H4FAmfR0IkbHHN0ZXBoZW5A
+bmV0d29ya3BsdW1iZXIub3JnAAoJEICnf2CVzeR+0VIQAIibLumKaD0E3m55ZAih
+fOSujLHb6Bl87hrnyJigunaqqCykbVlfFR17m9rkB5gvYXkbRp6YKXnv2mqz5gAk
+m8WwQ3lEwyk/Kw+2LwpT9sxPnVhAAT9CThL/TEjSuvc1tBi82MTMEPJJO1xH828i
+vlTrhyWvBzkE0Eenxp0xsdrdXuJj4MvMJn4acdMJPkZolitkXHjgAzFNtz51ve5I
+uEvkBzF5FsPP9AWZ07Xz8iEAe+GHp6CmI0QyKCKc4RTdUO1l4rDiqujBAuDdqg5M
+Zo4w0NGnBPRTB19bMWSeMzqv8g35QA+7jvJvo4FdrZ1ti3hiptWoRLR4zoSx4COD
+8GsoiLZ5+72PCbQ24y8YgksiYZvrW6itLVACgeeoAnrqIbCjsPlXEmc8DDEygTs9
+/pBl1G1JAe+oeCMts6Up+1yTlDmvTzDlQiqdGHR6hpZR4fT3W0os92UdjjhRzd2/
+8Hb9+F8h14THR+Xp0iW1RNSa9LomDlt/XB8dTbcaDvCokWPgaaxgO7d4PND09jTz
+BAzQlRNh+9kAiKWNpstrzaac0MlDdAv5uuz5BUMEhcqJGKE5Xe5gYbPu3stmMtcn
+J/mi8dpGJAATgyDwB56y7EdCGD4Oz04zRchYSEL4I/YiKtc/U4DKvAVuJ3qavH2B
+PncsXhGEWM4GMV2QsUPLeJ/6
+=CU+Y
 -----END PGP SIGNATURE-----
 
---===============0611191129528014095==--
+--===============4189498794428729937==--
