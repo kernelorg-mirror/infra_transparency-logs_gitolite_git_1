@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5895283686450286084=="
+Content-Type: multipart/mixed; boundary="===============3896041224478830095=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 13 Mar 2025 15:21:11 -0000
-Message-Id: <174187927164.2148285.3081775342633012534@gitolite.kernel.org>
+Date: Thu, 13 Mar 2025 15:21:20 -0000
+Message-Id: <174187928034.2148623.10894598832029132799@gitolite.kernel.org>
 
---===============5895283686450286084==
+--===============3896041224478830095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: d2b9d97e89c79c95f8b517e4fa43fd100f936acc
-    new: 2409fa66e29a2c09f26ad320735fbdfbb74420da
-    log: revlist-d2b9d97e89c7-2409fa66e29a.txt
+  - ref: refs/heads/dev-queue
+    old: 934a297cc6ad7d794d701a96fe16567482818227
+    new: 4c850e39416351ac0e02b7b3cdc5a67868caf752
+    log: revlist-934a297cc6ad-4c850e394163.txt
 
---===============5895283686450286084==
+--===============3896041224478830095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d2b9d97e89c7-2409fa66e29a.txt
+Content-Disposition: attachment; filename=revlist-934a297cc6ad-4c850e394163.txt
 
 d048c84bc1d6b831ca4e3381a16fb616ad96d8db wifi: rework MAINTAINERS entries a bit
 bbb18f7e23a3f5f56d5c8b4ee0f78f00edb3b1b2 wifi: iwlwifi: pcie: Fix TSO preparation
@@ -58,5 +58,21 @@ e92df790d07a8eea873efcb84776e7b71f81c7d5 net/mlx5e: Prevent bridge link show fai
 e1af35d666170f2f855afee1dc3f4966d566dff8 Merge branch 'mlx5-misc-fixes-2025-03-10'
 3e64bb2ae7d9f2b3a8259d4d6b86ed1984d5460a net: mana: cleanup mana struct after debugfs_remove()
 2409fa66e29a2c09f26ad320735fbdfbb74420da Merge tag 'nf-25-03-13' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
+81ba374226a8f32ce46e22da0f3024718009a12b coccinelle: misc: secs_to_jiffies script: Create dummy report
+15bd039dd7b552f6390f5423495cccb3a4b776ef ice: health.c: fix compilation on gcc 7.5
+8956463a39fcf4e511395c00b8fabc980e82df1f idpf: check error for register_netdev() on init
+5ff86fa7a5d76efd99936a3e59c707362c94d116 ice: ensure periodic output start time is in the future
+a2a2da6f704c67f98eddf406c28f9b40cc192dd6 ice: fix Get Tx Topology AQ command error on E830
+8d46bc00f9ac509c30b316cbfd43ef7b2b710724 ice: fix lane number calculation
+5c0a60fb64c468f8122d1a1519a8120bc6dc14d0 ixgbe: fix media type detection for E610 device
+1440e467d11459d794ebd090cebd85cd16551286 ice: fix fwlog after driver reinit
+ce57cb58536d4741402fbc3d89dbc506374badf4 virtchnl: make proto and filter action count unsigned
+f13e615497c0232721272a70a50ef27fcc19f73a ice: stop truncating queue ids when checking
+ebf3207bfeec3457c6d95d7b4cd9fdccfe5c97f8 ice: validate queue quanta parameters to prevent OOB access
+b93b92f61d19a1f12d232bfb678d37c3585f874f ice: fix input validation for virtchnl BW
+a18e1c8a2a6942cf6eb0befdb92da5f74371ec02 ice: fix using untrusted value of pkt_len in ice_vc_fdir_parse_raw()
+867192daab5a5ee87dfa6f57325c911623dee197 e1000e: change k1 configuration on MTP and later platforms
+51c10a66ec48eaeb5690ac34e97b137f17a66c0f igc: Fix XSK queue NAPI ID mapping
+4c850e39416351ac0e02b7b3cdc5a67868caf752 ice: fix reservation of resources for RDMA when disabled
 
---===============5895283686450286084==--
+--===============3896041224478830095==--
