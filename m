@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8230110720467790164=="
+Content-Type: multipart/mixed; boundary="===============3918519856524616576=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Thu, 13 Mar 2025 12:52:47 -0000
-Message-Id: <174187036732.2020149.15047439152600900304@gitolite.kernel.org>
+Date: Thu, 13 Mar 2025 12:53:39 -0000
+Message-Id: <174187041927.2020759.3030588631129405346@gitolite.kernel.org>
 
---===============8230110720467790164==
+--===============3918519856524616576==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,31 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: ij
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/fixes
-    old: 376a8c2a144397d9cf2a67d403dd64f4a7ff9104
-    new: a05507cef0ee6a0af402c0d7e994115033ff746b
+  - ref: refs/heads/review-ilpo-fixes
+    old: a05507cef0ee6a0af402c0d7e994115033ff746b
+    new: 4490fe973669360efaef7350aeb9706f70164176
     log: |
-         5b1122fc4995f308b21d7cfc64ef9880ac834d20 platform/x86/amd/pmf: fix cleanup in amd_pmf_init_smart_pc()
-         a05507cef0ee6a0af402c0d7e994115033ff746b platform/surface: aggregator_registry: Add Support for Surface Pro 11
+         4490fe973669360efaef7350aeb9706f70164176 platform/x86/amd: pmf: Fix missing hidden options for Smart PC
          
 
---===============8230110720467790164==
+--===============3918519856524616576==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1741870392 +0200
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1741870446 +0200
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1741870362-9c0f15c529660aedffc653f57e7461087990ff64
+nonce 1741870416-c2ea87f2b20cb9aeb90837a1a088d575b73dd1c0
 
-376a8c2a144397d9cf2a67d403dd64f4a7ff9104 a05507cef0ee6a0af402c0d7e994115033ff746b refs/heads/fixes
+a05507cef0ee6a0af402c0d7e994115033ff746b 4490fe973669360efaef7350aeb9706f70164176 refs/heads/review-ilpo-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZ9LVPAAKCRBZrE9hU+XO
-MSRlAPwNB3uFhnUg5wCFE3rssMOndpelS5LuN4DtClCuFdazuAEA/LBinQaaFcKJ
-pyAgUoY1CIT0rcZ5iyHYlItaqpdoBwg=
-=eK0o
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZ9LVcAAKCRBZrE9hU+XO
+MY08AQDJILKAZCiQytQaLWVmeIFunIjzhabqg1yCnQBk1aBA6wEA0DZWha5R9X0y
+79TnRZqPK0PwnaMIxjc3oSfViXRJ2gs=
+=zFW5
 -----END PGP SIGNATURE-----
 
---===============8230110720467790164==--
+--===============3918519856524616576==--
