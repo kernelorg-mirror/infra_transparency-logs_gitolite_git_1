@@ -1,43 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============7629991098652488117=="
+Content-Type: multipart/mixed; boundary="===============2523668823770378889=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Thu, 13 Mar 2025 16:28:24 -0000
-Message-Id: <174188330495.2214137.2987154465402178386@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Thu, 13 Mar 2025 16:28:47 -0000
+Message-Id: <174188332739.2214518.8208590205230892919@gitolite.kernel.org>
 
---===============7629991098652488117==
+--===============2523668823770378889==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: 5b562763d78a99e26054268003e3d0952e3ea89f
-    new: 2333cfa9f80464ba797a7d4c53886278ffe82cb9
-    log: revlist-5b562763d78a-2333cfa9f804.txt
+  - ref: refs/heads/dev-queue
+    old: 388f3df7a145fb3d0cee1fd34016b46f59bac0e7
+    new: 0ce0f862b933c5a5be6e2683f694cb168fe141cc
+    log: revlist-388f3df7a145-0ce0f862b933.txt
 
---===============7629991098652488117==
+--===============2523668823770378889==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5b562763d78a-2333cfa9f804.txt
+Content-Disposition: attachment; filename=revlist-388f3df7a145-0ce0f862b933.txt
 
-9c3344141866b83e1e339ab2dc2006e03c6e6cf2 perf ftrace: Fix latency stats with BPF
-79056b3fe8878fa77ea8e9cbe062e428d2845982 perf ftrace: Remove an unnecessary condition check in BPF
-e1cde2d5e92f6728a022754650b9cb1e38358d50 perf ftrace: Use atomic inc to update histogram in BPF
-ce2289ad0a2102f73d2b2b100f4dcf13021cf05b perf annotate-data: Add annotated_data_type__get_member_name()
-1f284082b167d275ca1d291869da4ef3b2261fb9 perf annotate: Remove unused len parameter from annotation_line__print()
-9aa3cbbffb166ffac6b276c00a6a991dc8de2f17 perf annotate: Pass annotation_options to annotation_line__print()
-fe8da6692aa8c1279b97a609f67dd56048b68bec perf annotate: Pass hist_entry to annotate functions
-236ee2569a5de7ae3bf2bce94a4101f528ce7de8 perf annotate: Factor out __hist_entry__get_data_type()
-30c5a3941d0f1633a6c4d6529eb3c6ff9b465b4a perf annotate: Implement code + data type annotation
-bbf006d6d199413f856db0aab36c7da1e2febe75 perf annotate: Add --code-with-type option.
-0c9f3a8597d2536cfd4709899f4b090bf54da4ca libapi: Add missing header with NAME_MAX define to io_dir.h
-cf67629f7f637fb988228abdb3aae46d0c1748fe perf units: Fix insufficient array space
-2333cfa9f80464ba797a7d4c53886278ffe82cb9 perf hist stdio: Do bounds check when printing callchains to avoid UB with new gcc versions
+64a45ad5119e98136fee686aeca7f163e05b9a2d igc: Fix XSK queue NAPI ID mapping
+e0ea244db23944919dc3aba1a33083a1917a462f ice: fix reservation of resources for RDMA when disabled
+2eccc845821f0b1c760d6967bae5ac11206a64e6 ixgbe: Fix unreachable retry logic in combined and byte I2C write functions
+b47c31e4ee672d485b62b4fc27c5b17fc5b90698 ice: refactor the Tx scheduler feature
+c6d9872fee10357a006de725896335ff8d531e71 net: stmmac: move frag_size handling out of spin_lock
+28a515cd0cdc760ffb820cc6c9e70df9fce4806a net: ethtool: mm: extract stmmac verification logic into common library
+73412b699f66df66f0d41cfe859f111eb4ea34e4 net: ethtool: mm: reset verification status when link is down
+9725b18f4aa6c54e07ed38f5e3a2bf6826356f04 igc: rename xdp_get_tx_ring() for non-xdp usage
+f349adc53ab9b4d6dc908d6f2387ed40351f0939 igc: rename I225_RXPBSIZE_DEFAULT and I225_TXPBSIZE_DEFAULT
+89bea6e43f1fa056471a0d07bc72290bf5381a66 igc: use FIELD_PREP and GENMASK for existing TX packet buffer size
+823c0f25d52b8ca74cc188c1b381f528f95ffe06 igc: optimize TX packet buffer utilization for TSN mode
+269f8cdd3a776af9f0ae50bff1ab8f490d46fc62 igc: use FIELD_PREP and GENMASK for existing RX packet buffer size
+d34a611786f7e10d476c02136a72448edd90cc69 igc: set the RX packet buffer size for TSN mode
+cb3499eabcea3f82c2ded3922431309d440b8ff3 igc: add support for frame preemption verification
+848380af88d621a2da199e09dd1bdb8a14b66e8f igc: add support to set tx-min-frag-size
+ff059684d6a82f6bf18dafc06c103c80e578d6de igc: block setting preemptible traffic class in taprio
+8f97e7c17be21b5b4feefd2f2e71d71761777ab8 igc: add support to get MAC Merge data via ethtool
+0ce0f862b933c5a5be6e2683f694cb168fe141cc igc: add support to get frame preemption statistics via ethtool
 
---===============7629991098652488117==--
+--===============2523668823770378889==--
