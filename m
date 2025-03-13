@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Thu, 13 Mar 2025 21:16:31 -0000
-Message-Id: <174190059133.2463490.12040657384595515686@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 13 Mar 2025 21:18:22 -0000
+Message-Id: <174190070252.2464536.355511416757944057@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/pending
-    old: 7ff92c0724aa4fe8a76b3bf6cc646fbfc5d18928
-    new: b81abc57c2f88c239523bdcf66e1c4526a52c896
+  - ref: refs/heads/master
+    old: 46d38f489ef02175dcff1e03a849c226eb0729a6
+    new: 956e816deb34342bf8f10d6a0a8fc33aee0d7b0b
     log: |
-         a39bca32cd16f234bb3a7213d8fbede4a05a44f5 wifi: ath12k: move firmware stats out of debugfs
-         b81abc57c2f88c239523bdcf66e1c4526a52c896 wifi: ath12k: add get_txpower mac ops
+         956e816deb34342bf8f10d6a0a8fc33aee0d7b0b selftests/bpf: Fix string read in strncmp benchmark
          
