@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Thu, 13 Mar 2025 09:01:48 -0000
-Message-Id: <174185650897.1518977.10794092145049946819@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 13 Mar 2025 09:06:53 -0000
+Message-Id: <174185681343.1523311.852794978381952166@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/tags/vfs-6.14-rc7.fixes
-    old: 0000000000000000000000000000000000000000
-    new: dafb0e764c75944981d5eba849f261bab4fd91c3
+  - ref: refs/heads/main
+    old: 676cc91e1f2a3f70f26dffa57b7e54bec9ab9d54
+    new: 814dbf4b6c955cad72e787a44f6e0cf90afc8fda
+    log: |
+         05fd00e5e7b1ac60d264f72423fba38cc382b447 net: hsr: Fix PRP duplicate detection
+         814dbf4b6c955cad72e787a44f6e0cf90afc8fda net: hsr: Add KUnit test for PRP
+         
