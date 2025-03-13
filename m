@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 13 Mar 2025 12:27:25 -0000
-Message-Id: <174186884586.1996921.9445916930608856123@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Thu, 13 Mar 2025 12:30:22 -0000
+Message-Id: <174186902233.2000567.14725466750035148291@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/main
-    old: e1af35d666170f2f855afee1dc3f4966d566dff8
-    new: 3e64bb2ae7d9f2b3a8259d4d6b86ed1984d5460a
+  - ref: refs/heads/wip/leon-for-next
+    old: 81f8f7454ad9e0bf95efdec6542afdc9a6ab1e24
+    new: 9e98eb80c518e14cee2c3ee7792b3dd80ccd9084
     log: |
-         3e64bb2ae7d9f2b3a8259d4d6b86ed1984d5460a net: mana: cleanup mana struct after debugfs_remove()
+         9e98eb80c518e14cee2c3ee7792b3dd80ccd9084 RDMA/rxe: Fix incorrect return value of rxe_odp_atomic_op()
          
