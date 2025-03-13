@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Thu, 13 Mar 2025 18:15:45 -0000
-Message-Id: <174188974575.2310591.8682181796078842322@gitolite.kernel.org>
+Date: Thu, 13 Mar 2025 18:15:59 -0000
+Message-Id: <174188975958.2310907.816555759233612691@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/dev-test
-    old: b2e0934c9f4d1b5438b28926d6a61afec7732640
+  - ref: refs/heads/dev
+    old: f7f8932ca6bb22494ef6db671633ad3b4d982271
     new: 71e9bd3d5c04c19ef80d0bb33bf7ff1a2f0eeafb
     log: |
          d7b549def0eb42a950eebd3bd5343f5c8088c305 f2fs: add carve_out sysfs node
