@@ -1,21 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Thu, 13 Mar 2025 20:57:47 -0000
-Message-Id: <174189946745.2447557.3583968112359364046@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Thu, 13 Mar 2025 21:01:22 -0000
+Message-Id: <174189968289.2451401.445608452412541076@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/b4/scmi_minor_cleanup
-    old: 387c5ec2b123bb9f23330e81005330eee10d9930
-    new: 51352dcbe987669cc05f54142918faf4240c4bb4
+  - ref: refs/heads/main-pending
+    old: bd7e494ddb58e7bca88d26cb451d757e158acce3
+    new: f37a0c3cf0d659962143037ad95d283601bd5457
     log: |
-         0b31e9cdfc0862115efd09d71fae89b0a1b98779 firmware: arm_scmi: Assign correct parent to arm-scmi platform device
-         e5f1a79a12565edefaa0cadab3109893c49b0f29 firmware: arm_scmi: Exclude transport devices from bus matching
-         51352dcbe987669cc05f54142918faf4240c4bb4 pmdomain: arm: scmi_pm_domain: Remove redundant state verification
+         d8154e7ac9e31b3ebb0cc952527c4a539a4d5ecd wifi: ath12k: Pass correct values of center freq1 and center freq2 for 160 MHz
+         7ff92c0724aa4fe8a76b3bf6cc646fbfc5d18928 wifi: ath12k: Pass correct values of center freq1 and center freq2 for 320 MHz
+         f37a0c3cf0d659962143037ad95d283601bd5457 Merge branch 'pending' into main-pending
          
+  - ref: refs/tags/ath-pending-202503132041
+    old: 0000000000000000000000000000000000000000
+    new: f37a0c3cf0d659962143037ad95d283601bd5457
