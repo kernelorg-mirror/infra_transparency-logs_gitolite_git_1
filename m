@@ -1,43 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============3436580618952950114=="
+Content-Type: multipart/mixed; boundary="===============3627069156410585026=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 13 Mar 2025 06:51:16 -0000
-Message-Id: <174184867619.1411766.15448985695479474379@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 13 Mar 2025 06:51:27 -0000
+Message-Id: <174184868758.1412143.2989047012558756009@gitolite.kernel.org>
 
---===============3436580618952950114==
+--===============3627069156410585026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 9fbcd7b32bf7c0a5bda0f22c25df29d00a872017
     new: 613af589b566093ce7388bf3202fca70d742c166
     log: revlist-9fbcd7b32bf7-613af589b566.txt
-  - ref: refs/heads/stable
-    old: 0b46b049d6eccd947c361018439fcb596e741d7a
-    new: 0fed89a961ea851945d23cc35beb59d6e56c0964
-    log: |
-         59115e2e25f42924181055ed7cc1d123af7598b7 x86/hyperv/vtl: Stop kernel from probing VTL0 low memory
-         7241c886a71797cc51efc6fadec7076fcf6435c2 fbdev: hyperv_fb: iounmap() the correct memory when removing a device
-         aed709355fd05ef747e1af24a1d5d78cd7feb81e drm/hyperv: Fix address space leak when Hyper-V DRM device is removed
-         304386373007aaca9236a3f36afac0bbedcd2bf0 fbdev: hyperv_fb: Fix hang in kdump kernel when on Hyper-V Gen 2 VMs
-         f5e728a50bb17336a20803dde488515b833ecd1d fbdev: hyperv_fb: Simplify hvfb_putmem
-         ea2f45ab0e53b255f72c85ccd99e2b394fc5fceb fbdev: hyperv_fb: Allow graceful removal of framebuffer
-         09beefefb57bbc3a06d98f319d85db4d719d7bcb x86/hyperv: Fix output argument to hypercall that changes page visibility
-         73fe9073c0cc28056cb9de0c8a516dac070f1d1f Drivers: hv: vmbus: Don't release fb_mmio resource in vmbus_free_mmio()
-         0fed89a961ea851945d23cc35beb59d6e56c0964 Merge tag 'hyperv-fixes-signed-20250311' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
-         
   - ref: refs/tags/next-20250313
     old: 0000000000000000000000000000000000000000
     new: d1b0b6e3834d439039285692623010e432bc1ebd
 
---===============3436580618952950114==
+--===============3627069156410585026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -801,4 +787,4 @@ c31df5fca765ba45849e797627ef287d5ab9ba6e Merge branch 'next' of https://git.kern
 0ac3b3bb8d31617041b6aa415ab90ec7960a49cb Merge branch 'crc-next' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux.git
 613af589b566093ce7388bf3202fca70d742c166 Add linux-next specific files for 20250313
 
---===============3436580618952950114==--
+--===============3627069156410585026==--
