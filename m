@@ -1,42 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============2770939071276655505=="
+Content-Type: multipart/mixed; boundary="===============1755790489988514899=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
-Date: Thu, 13 Mar 2025 12:57:08 -0000
-Message-Id: <174187062890.2025060.18265126554493222678@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Thu, 13 Mar 2025 13:00:33 -0000
+Message-Id: <174187083366.2028823.5444321236556208090@gitolite.kernel.org>
 
---===============2770939071276655505==
+--===============1755790489988514899==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tglx/devel
-user: tglx
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/irq/msi
-    old: aa0c0268b153440d5f59de73e445612749b3211a
-    new: 9cbac4a9147a685fcc2db7f00b8756864dcca459
-    log: revlist-aa0c0268b153-9cbac4a9147a.txt
+  - ref: refs/heads/review-ilpo-next
+    old: f895f2493098b862f1ada0568aba278e49bf05b4
+    new: 01db3d1ff43aeedeaf11c8bc9d09493ec00c8f4a
+    log: |
+         01db3d1ff43aeedeaf11c8bc9d09493ec00c8f4a platform/x86/amd/pmc: fix leak in probe()
+         
 
---===============2770939071276655505==
+--===============1755790489988514899==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aa0c0268b153-9cbac4a9147a.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-01499ae673dc66cf5e98589648848b520f6fdfe9 genirq/msi: Expose MSI message data in debugfs
-537625233537179cb2e8293b2c0dc9c989363f41 genirq/msi: Make a few functions static
-3d3b10a9a5a81363917238b42025f3c9b17c441c cleanup: Provide retain_ptr()
-ccacaca968d6aa65a507e9876d8c0b57dd912d28 genirq/msi: Use lock guards for MSI descriptor locking
-6837d052b055823ce4d15e3d1d1d23a519362d04 soc: ti: ti_sci_inta_msi: Switch MSI descriptor locking to guard()
-25dda34200a4e647212a598e4de3df275e0ac3d8 NTB/msi: Switch MSI descriptor locking to lock guard()
-85f59ae99134f8cde1e23725be26dada26f31a6e PCI/MSI: Switch to MSI descriptor locking to guard()
-d653b17078e057ba7c1593753677ee2e9a2419bd PCI: hv: Switch MSI descriptor locking to guard()
-751cb485bae03198c7abf3974b72534bc60decf7 PCI/MSI: Provide a sane mechanism for TPH
-51a42c506e68e21db1fb5a4e6113e89ce2249ed6 PCI/TPH: Replace the broken MSI-X control word update
-c9db3387e111d6a84ac7c6105f838ebc05bd5923 scsi: ufs: qcom: Remove the MSI descriptor abuse
-9cbac4a9147a685fcc2db7f00b8756864dcca459 genirq/msi: Rename msi_[un]lock_descs()
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1741870861 +0200
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1741870830-3329d91cdb0e337fa09e5513d3210c85cc58680f
 
---===============2770939071276655505==--
+f895f2493098b862f1ada0568aba278e49bf05b4 01db3d1ff43aeedeaf11c8bc9d09493ec00c8f4a refs/heads/review-ilpo-next
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZ9LXDgAKCRBZrE9hU+XO
+MZwhAQCCyuyNba4vtdO4dMrLHngjNNmbxOVR3qDHMNpPJehn8QEAs0xIFogF4vfA
+R7nQ0Pk6iDUdP0IvH1x5eXq2BCZk0w8=
+=hbrP
+-----END PGP SIGNATURE-----
+
+--===============1755790489988514899==--
