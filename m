@@ -1,24 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Thu, 13 Mar 2025 15:57:06 -0000
-Message-Id: <174188142617.2184158.8927806040537389103@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5142279347721449585=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 13 Mar 2025 16:02:18 -0000
+Message-Id: <174188173833.2188657.8212408597129034663@gitolite.kernel.org>
+
+--===============5142279347721449585==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/sched/scx-dlserver-boost
-    old: 74b97fefb276609915792ec3fce96ab4d4fa03cd
-    new: 890f02515e306c0d5e5a368e3adf0a0cd63e0416
+  - ref: refs/heads/master
+    old: 2ad7788604c5edbd49497aecfcad1add97c669d8
+    new: 84a4fe139cc46cbf364d77c60b60f7fe68ce34da
     log: |
-         ff87bd88fdb4702a3f264da85462b99d8f5bc593 sched/ext: Add a DL server for sched_ext tasks
-         ca05a77ffc615f9725bfaa49fc2edae735ec878c selftests/sched: Add test to verify CFS tasks aren't starved by RT tasks
-         2411dcb5b8cd186d5ca8b987bf5d38160ac84f73 DEBUG: Add tprints for debugging
-         b8386e9abb7a6a443027eba6f80d1c069afc5ed6 sched/debug: Fix updating of ppos on server write ops
-         54dc8246653110210ef68d6b248ea0c4896e4314 sched/debug: Stop and start server based on if it was active
-         890f02515e306c0d5e5a368e3adf0a0cd63e0416 sched/debug: Add support to change sched_ext server params
+         84a4fe139cc46cbf364d77c60b60f7fe68ce34da 5.4-stable patches
          
+
+--===============5142279347721449585==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1741881766 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1741881736-aadc0e93a9889528e12e1015af6044d8a63d1fd4
+
+2ad7788604c5edbd49497aecfcad1add97c669d8 84a4fe139cc46cbf364d77c60b60f7fe68ce34da refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfTAacbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1a4QAK3XhItiVahwOJqGMlkM
+HqF6zMlfKwXqbuYSDj9mEeZKVuEHNjSNbxHfg8vKxMhyRmE+53SS/3S4YBQeQutm
+3X0AFaR6gcCOJ/EdfQAu8GNc423SxYWmUq22/UO2uPaC65suZKQLqH2lbcazhUU9
+v/y9FflpZkXp7cLEbT8UE1h4FYPrT+ELxqf/t74DDgYaYxZFgPsQpXlmhm0H1H6d
+CWDY2pNMQ4UeHz9gtLUpY+G0eeLzTpZQGORMNDREPmv5+ybJCi14jVUqEbeQQWHf
+hdW/2pIjuUEK+6RJIwqkWI/2bLL5hBQYFDU5UD0ZKdtHKgERz6HKBAesPF2pQy9T
+xwS78rcp8+bBZWBAzG6bTIKVFdJ/4g+ExpYLi8ZsYdFv1UPcGrzmDZn4+d5mfOlD
+vzNZBP/9bHc91QEBRa9zvgVD+er7POn0qAny92WLFPu9+sYlr7DdMYB3yPdbbiaC
+1jf0puRisOQrKKmJz0hTTF7zk5qpfDg6+qgJnBB50vsAqezLZwKCpF0qLz73oiKt
+keZbQYXlxY/3h8OKvUe7WHF72gwx6SeUaPJAneClDNdYsJogVVl80wtxDZuQQ0/N
+Hsyx5Zs3KTKOMaXQ7uomTqpT3r8uyklK9xhVc23rRSke0fq/fcDcLQhC14Ln9y3Z
+P0BC8IZq21vxgD2esTHhl4YB
+=c8Ce
+-----END PGP SIGNATURE-----
+
+--===============5142279347721449585==--
