@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Thu, 13 Mar 2025 15:54:16 -0000
-Message-Id: <174188125655.2180131.6600747830530234950@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Thu, 13 Mar 2025 15:54:28 -0000
+Message-Id: <174188126885.2180458.9403507553818681892@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/broonie/regulator
+user: broonie
 changes:
-  - ref: refs/tags/scmi-fix-6.14
-    old: c3bc34457a21f6a5c99db97b0f483c8a3ef05f0f
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/for-6.14
+    old: b60ef2a3334ca15f249188870fc029ddf06ef7c4
+    new: 2c7a50bec4958f1d1c84d19cde518d0e96a676fd
+    log: |
+         2c7a50bec4958f1d1c84d19cde518d0e96a676fd regulator: check that dummy regulator has been probed before using it
+         
