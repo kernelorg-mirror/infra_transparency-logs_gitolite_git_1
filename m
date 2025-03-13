@@ -1,50 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============5518919056226120589=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
-Date: Thu, 13 Mar 2025 11:11:48 -0000
-Message-Id: <174186430841.1632826.5592432505112456398@gitolite.kernel.org>
-
---===============5518919056226120589==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Thu, 13 Mar 2025 11:14:42 -0000
+Message-Id: <174186448279.1634685.6845608507798986895@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/linux
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/locking-bench
-    old: e6e0f83446237c859dfdb8f6af6b4adc16d8b250
-    new: df4891c13ee02fedadd66a990dd65c911f6b7ada
+  - ref: refs/heads/main
+    old: 89ba9b7ce05c8dac3b659b6a0ebc87a601fc35b1
+    new: 8a333d1c460dba07f039cd5a68c040fdb5fd641f
     log: |
-         df4891c13ee02fedadd66a990dd65c911f6b7ada lib/test: add locking-benchmark module
+         913b0e59b9a838aba4589b07a87ea79a9e196f7e rtw89: 8852c: update fw to v0.27.125.0
+         733be574df9589b5576709b337775769fa607444 rtw89: 8922a: update fw to v0.35.63.0
+         da086994b2ad7ca25167baa78cd0a5385092c584 rtw89: 8922a: update fw to v0.35.64.0
+         8a333d1c460dba07f039cd5a68c040fdb5fd641f Merge branch 'robot/pr-0-1741834975' into 'main'
          
-
---===============5518919056226120589==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1741864333 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
-nonce 1741864302-6e7d01ed0b50e7a5142a47e6f0db3cbb425d846d
-
-e6e0f83446237c859dfdb8f6af6b4adc16d8b250 df4891c13ee02fedadd66a990dd65c911f6b7ada refs/heads/locking-bench
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmfSvY0ACgkQu+CwddJF
-iJoT+ggAhur6Sa0R/Knukxk6P03jdKJ3ZFWDihgNekh/lsUAxRKa2gD5PBZS9wNi
-qicBmck/Ol/3FT8Hdg4S2vhA6jZT2WMubmK9EedAXXUo7+Qh7JwNgYiGesB7h0aU
-ABo1erpwNr5vgLY8UZ+8UuII5wrw3KHzdjjFWRzRRnsosVsl/bP0tm6MmIHzM8FU
-RrzEfLUXkBESQpEwJLIDW4gFB2RbRCFWP2OUJ9n7J1MQs2pL06nBze9g3sxd4a7V
-xbbnBGGshvxCMIKI1LR/UTZLWoy7OY/0+MUgtu9FyJN5bVEzATCni4+5XpeQO8X9
-TA3xzhTyvQx7VuSljjGbVXAym+GqeA==
-=krNN
------END PGP SIGNATURE-----
-
---===============5518919056226120589==--
