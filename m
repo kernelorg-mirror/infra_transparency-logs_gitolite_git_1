@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 13 Mar 2025 09:06:53 -0000
-Message-Id: <174185681343.1523311.852794978381952166@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Thu, 13 Mar 2025 09:17:11 -0000
+Message-Id: <174185743161.1531677.9649607102265217824@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/main
-    old: 676cc91e1f2a3f70f26dffa57b7e54bec9ab9d54
-    new: 814dbf4b6c955cad72e787a44f6e0cf90afc8fda
+  - ref: refs/heads/master
+    old: 8097dd31c24cb7f10d404ec5f756f9f5a7c248a1
+    new: b674e9f517358537dab0132c6f9311dc0c47fee2
     log: |
-         05fd00e5e7b1ac60d264f72423fba38cc382b447 net: hsr: Fix PRP duplicate detection
-         814dbf4b6c955cad72e787a44f6e0cf90afc8fda net: hsr: Add KUnit test for PRP
+         f4c71fbb24a0a47e1c9e9d834bc05f4c02bdc4c7 tools: add SPDX-License-Identifier
+         b8d8e3c7a03e36e3e4ef1c31416f7ef1e36a3e58 autotools: add missing meson.build files
+         b674e9f517358537dab0132c6f9311dc0c47fee2 tools: add checktarball-meson.sh
          
