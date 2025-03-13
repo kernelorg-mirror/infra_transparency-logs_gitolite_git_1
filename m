@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 13 Mar 2025 08:44:40 -0000
-Message-Id: <174185548002.1503113.16560722654098896722@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Thu, 13 Mar 2025 08:45:47 -0000
+Message-Id: <174185554793.1505453.11654236251253519337@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/main
-    old: e016cf5f39e9c53e274a7b7122a949d8839b8782
-    new: 9e3285040514cafee035e1be24502097d3d0b75f
+  - ref: refs/heads/gpio/for-next
+    old: 21c853ad93097619c7966542e838c54c37f57c90
+    new: 240ba5b6df0fb14cc49577c25d75dd4a6290239a
     log: |
-         9e3285040514cafee035e1be24502097d3d0b75f net: hns3: use string choices helper
+         e646f0dae7b0f099b36d12d9cb5ca733b8273f10 gpiolib-acpi: Drop unneeded ERR_CAST() in __acpi_find_gpio()
+         240ba5b6df0fb14cc49577c25d75dd4a6290239a Merge tag 'intel-gpio-v6.15-1' of git://git.kernel.org/pub/scm/linux/kernel/git/andy/linux-gpio-intel into gpio/for-next
          
