@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3586046059535586430=="
+Content-Type: multipart/mixed; boundary="===============8442534609075381787=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 13 Mar 2025 15:28:50 -0000
-Message-Id: <174187973047.2153940.6642388759620244401@gitolite.kernel.org>
+Date: Thu, 13 Mar 2025 15:28:52 -0000
+Message-Id: <174187973267.2154155.8805369728501611140@gitolite.kernel.org>
 
---===============3586046059535586430==
+--===============8442534609075381787==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: d2b9d97e89c79c95f8b517e4fa43fd100f936acc
     new: 2409fa66e29a2c09f26ad320735fbdfbb74420da
     log: revlist-d2b9d97e89c7-2409fa66e29a.txt
 
---===============3586046059535586430==
+--===============8442534609075381787==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -59,4 +59,4 @@ e1af35d666170f2f855afee1dc3f4966d566dff8 Merge branch 'mlx5-misc-fixes-2025-03-1
 3e64bb2ae7d9f2b3a8259d4d6b86ed1984d5460a net: mana: cleanup mana struct after debugfs_remove()
 2409fa66e29a2c09f26ad320735fbdfbb74420da Merge tag 'nf-25-03-13' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 
---===============3586046059535586430==--
+--===============8442534609075381787==--
