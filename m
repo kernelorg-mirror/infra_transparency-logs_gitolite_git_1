@@ -1,37 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Thu, 13 Mar 2025 22:12:55 -0000
-Message-Id: <174190397591.2512693.2023934190302860049@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/will/linux
+Date: Thu, 13 Mar 2025 22:21:49 -0000
+Message-Id: <174190450958.2520605.13130156428623752231@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/will/linux
+user: will
 changes:
-  - ref: refs/heads/for-next
-    old: 156b53f51014d0b8e417db21e9eb6f5c2f773c72
-    new: 48233f9ac74128d669c5a9191dec453bbf92475c
+  - ref: refs/heads/for-next/perf
+    old: 7f35b429802a8065aa61e2a3f567089649f4d98e
+    new: a28f3cbfd11fcb13f826b33a4799c2ac77e70729
     log: |
-         8fbb9376f0c489dfdc7e20d16e90686b29dec8f2 arm64: dts: rockchip: Move rk356x scmi SHMEM to reserved memory
-         6b68387cf5ff5d7b86b189135affb0c679e3384a arm64: dts: rockchip: Remove bluetooth node from rock-3a
-         a98cc47f79ab5b8059b748bf0bd59335edfff7d9 arm64: dts: rockchip: Add SDHCI controller for RK3528
-         3a01b5f14a8ae2d45aea5aeed30001ac1655de86 arm64: dts: rockchip: Enable onboard eMMC on Radxa E20C
-         1f04a241759e78c0295f09731f9de3d7eb1ea6e5 arm64: dts: rockchip: Enable HDMI audio output for ArmSoM Sige7
-         d8f04333b77f823a717002f8696670448cf4a06c Merge branch 'v6.14-armsoc/dtsfixes' into for-next
-         64a2296ed990bed65b4a85c2b1610f8979b5aaf9 Merge branch 'v6.15-armsoc/defconfig64' into for-next
-         9ec94c94fdc99e1c3a3c87c739f607ffb018e2e8 Merge branch 'v6.15-armsoc/dts64' into for-next
-         48233f9ac74128d669c5a9191dec453bbf92475c Merge branch 'v6.15-clk/next' into for-next
-         
-  - ref: refs/heads/v6.15-armsoc/dts64
-    old: e2759a8d452bcc1b64ecd4e819411fa26b6ed72e
-    new: 1f04a241759e78c0295f09731f9de3d7eb1ea6e5
-    log: |
-         8fbb9376f0c489dfdc7e20d16e90686b29dec8f2 arm64: dts: rockchip: Move rk356x scmi SHMEM to reserved memory
-         6b68387cf5ff5d7b86b189135affb0c679e3384a arm64: dts: rockchip: Remove bluetooth node from rock-3a
-         a98cc47f79ab5b8059b748bf0bd59335edfff7d9 arm64: dts: rockchip: Add SDHCI controller for RK3528
-         3a01b5f14a8ae2d45aea5aeed30001ac1655de86 arm64: dts: rockchip: Enable onboard eMMC on Radxa E20C
-         1f04a241759e78c0295f09731f9de3d7eb1ea6e5 arm64: dts: rockchip: Enable HDMI audio output for ArmSoM Sige7
+         75ecffc361bbc85696c084f3d3c73eb207386e3f drivers/perf: apple_m1: Refactor event select/filter configuration
+         46573d944f00f440dc794fa87ebbdb0dd9dbf691 drivers/perf: apple_m1: Support host/guest event filtering
+         823437ed2935795837da033e41734f03efad1662 Merge branch 'perf/m1-guest-events' of git://git.kernel.org/pub/scm/linux/kernel/git/oupton/linux into for-next/perf
+         862f7ad4d7fdf5e8d7ff11ad8eda5af3ad44cdae perf/arm_cspmu: Move register definitons to header
+         6de0298a3925f1e6e313430c45ae314a93f89ef6 perf/arm_cspmu: Generalise event filtering
+         a28f3cbfd11fcb13f826b33a4799c2ac77e70729 perf/arm_cspmu: Add PMEVFILT2R support
          
