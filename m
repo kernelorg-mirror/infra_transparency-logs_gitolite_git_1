@@ -1,27 +1,49 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Thu, 13 Mar 2025 19:28:37 -0000
-Message-Id: <174189411782.2371635.3929376951709683076@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5897992101270026491=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Thu, 13 Mar 2025 19:33:48 -0000
+Message-Id: <174189442844.2376159.7714151470128966530@gitolite.kernel.org>
+
+--===============5897992101270026491==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/pending
-    old: d2aa83923c9f866c7f9ee6a76d9a27ca76c10e24
-    new: 46d03873acce482b344fd1668c2f606fffc87ddf
+  - ref: refs/heads/for-next/kspp
+    old: 2ec38f86ff339203e065a4bb09dc5300abc60a04
+    new: 438aa26cc40c2d9addb85bee93eb6a0de565f0d9
     log: |
-         d04c95e92fa2141c51f32f3ff73c03cbcd2f2291 wifi: ath12k: fix link valid field initialization in the monitor Rx
-         185068dd4f83c20d95df8187de96be950018baf6 wifi: ath12k: Add extra TLV tag parsing support in monitor Rx path
-         4b6671c991a559339196e3f378867ae2c293f251 wifi: ath12k: Avoid fetch Error bitmap and decap format from Rx TLV
-         01431c0bd0d237f23d8619743f22b890a9c48209 wifi: ath12k: Replace band define G with GHZ where appropriate
-         6562c361e152ecd455ead3da5823d3c6a5b1e410 wifi: ath12k: change the status update in the monitor Rx
-         391790826063f5ea60e04573de1f69ce409cdc09 wifi: ath12k: Avoid packet offset and FCS length from Rx TLV
-         d11777acf45ce411baccffd687f7e802c165766c wifi: ath12k: fix NULL access in assign channel context handler
-         e2e075910a310b9c2944bcf8b18ccdcfac910fa2 wifi: ath12k: Refactor the monitor channel context procedure
-         46d03873acce482b344fd1668c2f606fffc87ddf wifi: ath12k: add monitor interface support on QCN9274
+         7a79e7daa84e230266184a2018507551086c2317 printf: convert self-test to KUnit
+         81a03aa9b88c5db19a6008a3dc43280637e45d84 printf: break kunit into test cases
+         034bee685fd48101aff31591273258be0377b1ef printf: implicate test line in failure messages
+         438aa26cc40c2d9addb85bee93eb6a0de565f0d9 Merge branch 'for-next/hardening' into for-next/kspp
          
+
+--===============5897992101270026491==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1741894456 -0700
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
+nonce 1741894425-ac80477e558e97a6214f1ba70a52cf1b7b0c901d
+
+2ec38f86ff339203e065a4bb09dc5300abc60a04 438aa26cc40c2d9addb85bee93eb6a0de565f0d9 refs/heads/for-next/kspp
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCZ9MzOQAKCRA2KwveOeQk
+u4I4AP9MEK0ozgSbg9D4yQB7jHdfPBuUILjuI6f3IiLxkJJTiAD/YNtZ+rwEFGBk
+lzu8T8NQFH83/ERvLyfH3hAcouLfjgM=
+=CWxo
+-----END PGP SIGNATURE-----
+
+--===============5897992101270026491==--
