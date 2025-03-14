@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 14 Mar 2025 20:13:02 -0000
-Message-Id: <174198318229.3665687.579868378275817057@gitolite.kernel.org>
+Date: Fri, 14 Mar 2025 20:13:14 -0000
+Message-Id: <174198319425.3666049.9624121602241370119@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: peterz
 changes:
-  - ref: refs/heads/sched/core
-    old: e6644c967d3c076969336bd8a9b85ffb45f677f7
-    new: 3b15262e0019eb4bb212215951a45559d29381fc
+  - ref: refs/heads/locking/core
+    old: f73ca66f0d7f4371d172d6f5b1f9a00e367ba921
+    new: 35e6b537af85d97e0aafd8f2829dfa884a22df20
     log: |
-         12fc0fdcbd1cc2f906596b77c03d7e5ed58947d1 sched/uclamp: Always using uclamp_is_used()
-         4a14bd0c67d5670844c54356a163aa0ce623dbe1 sched/uclamp: Add uclamp_is_used() check before enable it
-         3b15262e0019eb4bb212215951a45559d29381fc Revert "sched/core: Reduce cost of sched_move_task when config autogroup"
+         87886b32d669abc11c7be95ef44099215e4f5788 lockdep: Don't disable interrupts on RT in disable_irq_nosync_lockdep.*()
+         35e6b537af85d97e0aafd8f2829dfa884a22df20 lockdep: Remove disable_irq_lockdep()
          
