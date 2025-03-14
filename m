@@ -1,56 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============7211648034101024330=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
-Date: Fri, 14 Mar 2025 21:29:39 -0000
-Message-Id: <174198777942.3733818.2406748693208806280@gitolite.kernel.org>
-
---===============7211648034101024330==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 14 Mar 2025 21:34:16 -0000
+Message-Id: <174198805624.3737462.5525844607953086550@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/linux
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/b4/slub-percpu-sheaves
-    old: 153284a79493d4d9a13837f2db82d0ef3435d26e
-    new: 3ec255cc7cf73599e461911ea6e234fa7b610246
+  - ref: refs/heads/master
+    old: 83158b21ae9a1a5c8285c3d542981bae914e26b6
+    new: b35233e7bfa04045388967d3dc219e80cc88bc74
     log: |
-         cdf8ff08e33b7076486caef9fa0edfd6114cff07 slab: add opt-in caching layer of percpu sheaves
-         3cd8c1fa1f7f8f205a74741fe3272d34ece740a3 slab: add sheaf support for batching kfree_rcu() operations
-         86b682491dd8891886bf8d9378f4bcf5e183e368 slab: sheaf prefilling for guaranteed allocations
-         f802195722083224921241606765a0790f79bebf slab: determine barn status racily outside of lock
-         a91c01db2662c3cc59049fb21fff13b0aabba71a tools: Add testing support for changes to rcu and slab for sheaves
-         f4fc9b227b91d15e9544dda7db2befbb23b9253b tools: Add sheafs support to testing infrastructure
-         3ec255cc7cf73599e461911ea6e234fa7b610246 maple_tree: use percpu sheaves for maple_node_cache
+         3f674e7b670b7b7d9261935820e4eba3c059f835 nvme-pci: fix stuck reset on concurrent DPC and HP
+         bf9b8020a80d32f6aa80591297a087d0519dc931 nvmet: pci-epf: Set NVMET_PCI_EPF_Q_LIVE when a queue is fully created
+         39393f5c5c795992507aa5005a9d58396a5b07f1 nvmet: pci-epf: Do not add an IRQ vector if not needed
+         e5c2bcc0cd47321d78bb4e865d7857304139f95d nvme: move error logging from nvme_end_req() to __nvme_end_req()
+         9bce6b5f8987678b9c6c1fe433af6b5fe41feadc block: change blk_mq_add_to_batch() third argument type to bool
+         a9381351dd6c52bf465233cae5f50da227834607 Merge tag 'nvme-6.14-2025-03-13' of git://git.infradead.org/nvme into block-6.14
+         57e9417f69839cb10f7ffca684c38acd28ceb57b dm-flakey: Fix memory corruption in optional corrupt_bio_byte feature
+         580b2032359d978418e5f7178511aef512229345 Merge tag 'block-6.14-20250313' of git://git.kernel.dk/linux
+         b35233e7bfa04045388967d3dc219e80cc88bc74 Merge tag 'for-6.14/dm-fixes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
          
-
---===============7211648034101024330==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1741987804 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
-nonce 1741987774-6efd479e0432f981073dbe6a6ba968832602e0fc
-
-153284a79493d4d9a13837f2db82d0ef3435d26e 3ec255cc7cf73599e461911ea6e234fa7b610246 refs/heads/b4/slub-percpu-sheaves
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmfUn9wACgkQu+CwddJF
-iJoFHQf/VmJRwG3WnG1nYaE0KjPsL5z1L32hNcNf5ERH9aB1MlxYSFmPjhq8P5vu
-JHwsxFh27GE5rLDbpXDP/sZpGlKhBM/fIttbV9rUko+QWowIupHglCk0GfzNt4hl
-bN5vAe+BY228y7pa9vfJTCHXpNYgaf3xGujWh5FFJqXZpNsLIZBwyllsgp4PH+IS
-wPc2RnlqDrx3/C5xF6Np1E34CkmVUSpoRZdRvUx9+YJA4kEBeNCpIl1Qv/moqqKF
-zOT8TxoFjMI0yT5IVw9aLYyJ0eGWMlbW+KrPt4+O45saB8msBQYwonElGEWD6R8K
-6Hrl9VRns7IqrImqWnjYzGJsR9sBMQ==
-=YP4l
------END PGP SIGNATURE-----
-
---===============7211648034101024330==--
