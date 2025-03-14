@@ -1,28 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 14 Mar 2025 21:29:26 -0000
-Message-Id: <174198776631.3732925.9547287519760340986@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7211648034101024330=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
+Date: Fri, 14 Mar 2025 21:29:39 -0000
+Message-Id: <174198777942.3733818.2406748693208806280@gitolite.kernel.org>
+
+--===============7211648034101024330==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/vbabka/linux
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/200GbE
-    old: bfc6c67ec2d64d0ca4e5cc3e1ac84298a10b8d62
-    new: 2da1b2e39d12f0478d31d3e6597d2e24b582bf06
+  - ref: refs/heads/b4/slub-percpu-sheaves
+    old: 153284a79493d4d9a13837f2db82d0ef3435d26e
+    new: 3ec255cc7cf73599e461911ea6e234fa7b610246
     log: |
-         dcb7632848672d877facd9ac6782e175ab8dc951 idpf: add initial PTP support
-         3eb3239f21df338e165135221e642347907c90ea virtchnl: add PTP virtchnl definitions
-         e8c2c7cb5082aed86bfe18eccfa83b8868ce5ca4 idpf: move virtchnl structures to the header file
-         cd050d9c95d302643c3e0eb8cbefccb3d5bd2722 idpf: negotiate PTP capabilities and get PTP clock
-         3a59ed8f1f6900931e9c9a8c2daf25f405492631 idpf: add mailbox access to read PTP clock time
-         88a7eb39b991a59a3c527839be978b43a0333586 idpf: add PTP clock configuration
-         b364cad391d0c4a04e59417234fb4e75629fdece idpf: add Tx timestamp capabilities negotiation
-         9a24ee8c03f0eacf887a28747b0dce6e6c09261c idpf: add Tx timestamp flows
-         ef8470233017c0371d46bf5c7dddc661432c941f idpf: add support for Rx timestamping
-         2da1b2e39d12f0478d31d3e6597d2e24b582bf06 idpf: change the method for mailbox workqueue allocation
+         cdf8ff08e33b7076486caef9fa0edfd6114cff07 slab: add opt-in caching layer of percpu sheaves
+         3cd8c1fa1f7f8f205a74741fe3272d34ece740a3 slab: add sheaf support for batching kfree_rcu() operations
+         86b682491dd8891886bf8d9378f4bcf5e183e368 slab: sheaf prefilling for guaranteed allocations
+         f802195722083224921241606765a0790f79bebf slab: determine barn status racily outside of lock
+         a91c01db2662c3cc59049fb21fff13b0aabba71a tools: Add testing support for changes to rcu and slab for sheaves
+         f4fc9b227b91d15e9544dda7db2befbb23b9253b tools: Add sheafs support to testing infrastructure
+         3ec255cc7cf73599e461911ea6e234fa7b610246 maple_tree: use percpu sheaves for maple_node_cache
          
+
+--===============7211648034101024330==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1741987804 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
+nonce 1741987774-6efd479e0432f981073dbe6a6ba968832602e0fc
+
+153284a79493d4d9a13837f2db82d0ef3435d26e 3ec255cc7cf73599e461911ea6e234fa7b610246 refs/heads/b4/slub-percpu-sheaves
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmfUn9wACgkQu+CwddJF
+iJoFHQf/VmJRwG3WnG1nYaE0KjPsL5z1L32hNcNf5ERH9aB1MlxYSFmPjhq8P5vu
+JHwsxFh27GE5rLDbpXDP/sZpGlKhBM/fIttbV9rUko+QWowIupHglCk0GfzNt4hl
+bN5vAe+BY228y7pa9vfJTCHXpNYgaf3xGujWh5FFJqXZpNsLIZBwyllsgp4PH+IS
+wPc2RnlqDrx3/C5xF6Np1E34CkmVUSpoRZdRvUx9+YJA4kEBeNCpIl1Qv/moqqKF
+zOT8TxoFjMI0yT5IVw9aLYyJ0eGWMlbW+KrPt4+O45saB8msBQYwonElGEWD6R8K
+6Hrl9VRns7IqrImqWnjYzGJsR9sBMQ==
+=YP4l
+-----END PGP SIGNATURE-----
+
+--===============7211648034101024330==--
