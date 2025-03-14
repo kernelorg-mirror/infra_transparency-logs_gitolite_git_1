@@ -1,58 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2991689149391927342=="
+Content-Type: multipart/mixed; boundary="===============6789823845411965517=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 14 Mar 2025 08:10:28 -0000
-Message-Id: <174193982809.3013424.2973836572214316469@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Fri, 14 Mar 2025 08:15:54 -0000
+Message-Id: <174194015445.3018072.3704761696364588196@gitolite.kernel.org>
 
---===============2991689149391927342==
+--===============6789823845411965517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 6f119e3da79ce5e586340059403ab77201c1bb45
-    new: 3b18ccb5472b78c48b03b98e8a0ef467c3e0a175
+  - ref: refs/heads/usb-linus
+    old: c44e3d3cdb74c066ece370d66021b9ebff315c9a
+    new: f2865c6300d75a9f187dd7918d248e010970fd44
     log: |
-         dcd2a9a5550ef556c8fc11601a0f729fb71ead5d regulator: dummy: convert to use the faux device interface
-         72239a78f9f5b9f05ea4bb7a15b92807906dab71 tlclk: convert to use faux_device
-         3b18ccb5472b78c48b03b98e8a0ef467c3e0a175 misc: lis3lv02d: convert to use faux_device
+         f2865c6300d75a9f187dd7918d248e010970fd44 usb: typec: tcpm: fix state transition for SNK_WAIT_CAPABILITIES state in run_state_machine()
          
 
---===============2991689149391927342==
+--===============6789823845411965517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1741939855 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1741939825-07c3db49e69b1f6096804c0b7333d6f7134e46b7
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1741940181 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1741940151-778b0ea8e08c05ea71ac0aa8d743985d6c49a015
 
-6f119e3da79ce5e586340059403ab77201c1bb45 3b18ccb5472b78c48b03b98e8a0ef467c3e0a175 refs/heads/char-misc-testing
+c44e3d3cdb74c066ece370d66021b9ebff315c9a f2865c6300d75a9f187dd7918d248e010970fd44 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfT5I8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3iIP/joH5xgiYJzVhL7fY61x
-yKgdnqb6z7Tib8/T9HdrGb+zl2RkSMCHHWp3ZNdRPTibEslXCoEKoOLrJFallZQS
-f4/uRQnHYHlaFMz9AbiOoNdAlfXS5iI1oBluzKDi4A7y2GS71Fxhe+nk25d2zSoK
-mjE0Z1fE4HxVQS2TOrY/Jcgumlja2EgV2Ys0jzbwQXoIaQCwoEgffFL+2AdhUbsF
-kHoRNS6p5AMynhw7gn9T5kS0qSD6PMNW6fn9XlUX08iQXBl0fNnptLMJBFrZBdpX
-giGDJUlvE6eM9FtfpbtiuWAYDVTT4SV7RmHI3dr2d5yTnPCRzUkuO3JBI0q/BEym
-AaWBRnM6kg0Gd7IlucpYzs7wLYpSw4mY3VcAv2MLRhYYee0j5MlS2ZhIN+t9X1GT
-vGGzpu8M1mrFKQnpQNEez4zdFQlJeTXyfSk6ecDk5doCifcagc/2C9QkyJksXrB3
-j+1fm9ffmI5RTYQ3kW5Ttq3yYkSkpiqrjY7JmQGbz3Hi+PEM0Np/1ooy05abbs4T
-mphiAEp2GsV9XHh5qvIhBrOEbXczooy2r+0LXACvIpO2DntJs4BWx/IRMOBIWu2p
-EK9//Ba0IAy2HqbiqwZAPJDYF2JDkRdtjfcVFurEaFh/mdk9sMNKLYDo7I2aCT7p
-QZ11ALUaWitc2CVCU+U3AGeN
-=FVfb
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfT5dUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uVYQAIzO/nozEHTTrRcn7a2h
+xsSGbp0tQkg9xxZf7sxSLm+/hnSdyPOR2SG6GEuMgZzAoos1NmyaVqy+GzXRjSD/
+a3YDymLEhu3N6qXO2gIm12+WjWef26xz93+kixZCX/J9a6AB6mI7VWD3s8vLsdTB
+VfBD9ze1m381fJqxUlCQpACjEpRpvnQy64RX9rUh0UDyJsgI8/2DFoKAQk+gtzAK
+MmmYh0f1aNdXNAR6yvC7X7wOP8c0nNMpKelE9chopk3n//WtK0M+d4ZQR5/kQsmy
+xABMD+vJ8PndwzIfg+NCPId3mMlEpTwrq9zpnJnjOwPlPghfU3PfoyiFCJjseEyG
+E744jktrqhkIdGLjqPE6sPKvEoLF5j/Yd4bGv2MJI/bqA31fti2UAQJ8Frof2KN5
+AT0sAhhBoPaBWiHn8lkNY1TrNC3K3HUeYR9IxcSXbnoZkq4E9A9M8pw02wv9n2Ez
+GdAjhK/VWzh0AbX4ACX7rM3KvKWCFXAj4RSj2pwmSNYJSBsg31oMXC6msJEnglOt
+Df54ZKlhcVLxEd8H7d8NMclmZyNWIIOLthqEXikRytNaIhefuxcFy0Gmd+J8fw6w
+2Z4wggTTj000J3Mb4VnQQtk4aWVB/qDDUZ3/bhe5iknjelHZZn3qFaenJqw2BayN
+XWbBwirRMqLoFvDodc0vdkJ/
+=RSfx
 -----END PGP SIGNATURE-----
 
---===============2991689149391927342==--
+--===============6789823845411965517==--
