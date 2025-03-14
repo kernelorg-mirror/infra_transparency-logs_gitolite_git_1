@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Fri, 14 Mar 2025 17:46:37 -0000
-Message-Id: <174197439728.3536476.14001434061554809064@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Fri, 14 Mar 2025 17:48:28 -0000
+Message-Id: <174197450855.3537410.4955922828563576149@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/asahi/dt-3
-    old: 0000000000000000000000000000000000000000
-    new: e1bc21d8f8fde47173073a2d6233f5faa4864cfc
+  - ref: refs/heads/ath-next
+    old: 54be64fdf3ba6dbad2f5c48e466e1db43ad74bca
+    new: 0e28ee106c46c95eb322833c17c33e3c231ccd0d
