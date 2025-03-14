@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6119784968948556194=="
+Content-Type: multipart/mixed; boundary="===============2999256949377107314=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Fri, 14 Mar 2025 13:00:35 -0000
-Message-Id: <174195723574.3279806.16235236394139164122@gitolite.kernel.org>
+Date: Fri, 14 Mar 2025 13:01:04 -0000
+Message-Id: <174195726472.3280217.14085688949033292095@gitolite.kernel.org>
 
---===============6119784968948556194==
+--===============2999256949377107314==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,54 +16,41 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: f7b5279b67e76978ad7b3800030680774bfba4cb
-    new: 4003c9e78778e93188a09d6043a74f7154449d43
-    log: revlist-f7b5279b67e7-4003c9e78778.txt
-  - ref: refs/heads/master
-    old: f7b5279b67e76978ad7b3800030680774bfba4cb
-    new: 4003c9e78778e93188a09d6043a74f7154449d43
-    log: revlist-f7b5279b67e7-4003c9e78778.txt
+  - ref: refs/heads/testing
+    old: e0f67b522a1965026284e85d9c493848166e79c8
+    new: 52d48a3d67e9288c6c51589e3a05040f57ccaa89
+    log: revlist-e0f67b522a19-52d48a3d67e9.txt
 
---===============6119784968948556194==
+--===============2999256949377107314==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1741957261 +0100
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1741957290 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1741957230-9ee26a9a15c878cbab2335f869c1e6b307e7609a
+nonce 1741957260-343f7b9b0138abca4d2a7ea24ced310787514f04
 
-f7b5279b67e76978ad7b3800030680774bfba4cb 4003c9e78778e93188a09d6043a74f7154449d43 refs/heads/main
-f7b5279b67e76978ad7b3800030680774bfba4cb 4003c9e78778e93188a09d6043a74f7154449d43 refs/heads/master
+e0f67b522a1965026284e85d9c493848166e79c8 52d48a3d67e9288c6c51589e3a05040f57ccaa89 refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEn/sM2K9nqF/8FWzzDHRl3/mQkZwFAmfUKI0THG1rbEBwZW5n
-dXRyb25peC5kZQAKCRAMdGXf+ZCRnFFfB/9sHYFNsV67SypmOJjQny3B8vFaeNgV
-09t/x1uKqOrcuqDwysaOLCfG08yjOcpxyKOloY25Ih+85UQDXhg6qvK0vzDfulwy
-6oO+VNTEDTitXdA9x4V693MqxrZuEl9lNXMkgQxPIqHhrHzWSeMCbfJt8QMbXZY1
-c5BfDNlCuBe19IetQHlbo5j1ZebabOu9axHmSjelyQuHcPhiwhjY8UEFaTghlbJ1
-EfWfwE4kHycPrPk7tQ9qwawAGDbXu1Yae1y+vMmvo8lBEVpJCky9qVjeDQ+pX0ao
-Yq0zxuQV2NfV1r9T3U50bb9T6WDsFi86RXHynH79VKTqb+lua0lSEVzQ
-=18iy
+iQFHBAABCgAxFiEEn/sM2K9nqF/8FWzzDHRl3/mQkZwFAmfUKKoTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRAMdGXf+ZCRnAbKB/9sPxJyzUl1dRzjxp3PLjbofr8tngEl
+nlYRBX8LJuAWw9e/4CZsLjMIvBeENvZPcuccihyCIraJX68qxhfYROpQ2MsnDQHI
+1O60LsnwvDd52h2Zw92+uhs/6GU64mS2QWWHkJ5DAk/DW7XEfUgAv5kq2boGKWgI
+kGNP4WA/HwROTjzIk+Hwp+RVPt6ShkNlDzcUN044aNREPh5iBBaKmmzDgefTnVBS
+sQrO9+9a/IT3/je0UN+Q1wd7+iVmFA83XnM3hge/H+bLD2hQo+2qxvzPTkY/1Oz6
+3rz7xjwG5v/8O1VmIW7bMdLrEytElyHAIm37pONCTeUyDrf9Enl4jteN
+=ar0W
 -----END PGP SIGNATURE-----
 
---===============6119784968948556194==
+--===============2999256949377107314==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f7b5279b67e7-4003c9e78778.txt
+Content-Disposition: attachment; filename=revlist-e0f67b522a19-52d48a3d67e9.txt
 
-e00a2e5d485faf53c7a24b9d1b575a642227947f drm: Fix DSC BPP increment decoding
-d923782b041218ef3804b2fed87619b5b1a497f3 arm64: amu: Delay allocating cpumask for AMU FIE support
-f818227a2f3d1d4f26469347e428323d61cc83f0 ACPI: GTDT: Relax sanity checking on Platform Timers array count
-a4cc8494f1d853a0945d2a655b4891935d717355 arm64: Add missing registrations of hwcaps
-571b69f2f9b1ec7cf7d0e9b79e52115a87a869c4 ASoC: imx-audmix: remove cpu_mclk which is from cpu dai device
-ed975485a13d1f6080218aa71c29425ba2dfb332 MIPS: Export syscall stack arguments properly for remote use
-733a90561ad0a4a74035d2d627098da85d43b592 MIPS: fix mips_get_syscall_arg() for o32
-446a8351f160d65a1c5df7097f31c74102ed2bb1 arm64: rust: clean Rust 1.85.0 warning using softfloat target
 85fcb57c983f423180ba6ec5d0034242da05cc54 xen/swiotlb: relax alignment requirements
 e93ec87286bd1fd30b7389e7a387cfb259f297e3 x86/xen: allow larger contiguous memory regions in PV guests
 75ad02318af2e4ae669e26a79f001bd5e1f97472 Xen/swiotlb: mark xen_swiotlb_fixup() __init
@@ -1080,5 +1067,13 @@ e1af35d666170f2f855afee1dc3f4966d566dff8 Merge branch 'mlx5-misc-fixes-2025-03-1
 2409fa66e29a2c09f26ad320735fbdfbb74420da Merge tag 'nf-25-03-13' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 8f7617f4500900f39b604ca724a34a9cfd1fa63a Merge tag 'vfs-6.14-rc7.fixes' of gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
 4003c9e78778e93188a09d6043a74f7154449d43 Merge tag 'net-6.14-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+1d22a122ffb116c3cf78053e812b8b21f8852ee9 can: ucan: fix out of bound read in strscpy() source
+80b5f90158d1364cbd80ad82852a757fc0692bf2 can: statistics: use atomic access in hot path
+51f6fc9eb1d77ae5cacc796fc043dedc1f0f0073 dt-bindings: can: renesas,rcar-canfd: Fix typo in pattern properties for R-Car V4M
+1dba0a37644ed3022558165bbb5cb9bda540eaf7 can: rcar_canfd: Fix page entries in the AFL list
+d5cd454825566989f97e0748e1047b9532338b99 Merge patch series "R-Car CANFD fixes"
+fd99d6ed20234b83d65b9c5417794343577cf3e5 can: flexcan: only change CAN state when link up in system PM
+5a19143124be42900b3fbc9ada3c919632eb45eb can: flexcan: disable transceiver during system PM
+52d48a3d67e9288c6c51589e3a05040f57ccaa89 Merge patch series "can: flexcan: only change CAN state when link up in system PM"
 
---===============6119784968948556194==--
+--===============2999256949377107314==--
