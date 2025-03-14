@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Fri, 14 Mar 2025 05:18:11 -0000
-Message-Id: <174192949137.2869674.10538079055151827018@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
+Date: Fri, 14 Mar 2025 05:47:08 -0000
+Message-Id: <174193122899.2892861.14580263824838421948@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/mani/mhi
+user: mani
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 2333cfa9f80464ba797a7d4c53886278ffe82cb9
-    new: 11ff825493d599983bc166c3a1aa59887ba174d8
+  - ref: refs/heads/mhi-next
+    old: cba6bdfd79291b82422b6e6b4036ebc076d5625f
+    new: 4e77a84740c3459bd3d9414d5053ff1bff411fd0
     log: |
-         2f39edece13da7b4fa2a783e05bc5a9bb00b20ca perf script: Fix typo in branch event mask
-         4b48cb65f236c8141d7f52b5768a298c6ed90e0d perf script: Update brstack syntax documentation
-         11ff825493d599983bc166c3a1aa59887ba174d8 perf test stat_all_pmu.sh: Correctly check 'perf stat' result
+         4e77a84740c3459bd3d9414d5053ff1bff411fd0 bus: mhi: host: Fix race between unprepare and queue_buf
          
