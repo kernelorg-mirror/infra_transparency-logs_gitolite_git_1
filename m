@@ -1,78 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============6125408630031418293=="
+Content-Type: multipart/mixed; boundary="===============6357918843318889522=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Fri, 14 Mar 2025 12:07:15 -0000
-Message-Id: <174195403576.3217701.1483059448868193038@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Fri, 14 Mar 2025 12:18:59 -0000
+Message-Id: <174195473905.3242975.18384999456721986837@gitolite.kernel.org>
 
---===============6125408630031418293==
+--===============6357918843318889522==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: uli
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.4.y-st-rc
-    old: 65a3da457f648af513ab6edfa1a9ef089b012425
-    new: ed0c3fd88746859f0f649e612916a640b410c641
-    log: revlist-65a3da457f64-ed0c3fd88746.txt
+  - ref: refs/heads/master
+    old: 081ad02b7a9eff97f5cff53990448e29628b1f09
+    new: 2d2060f6cb2da3a7483b62fd1787ef076e6c8fa4
+    log: |
+         c741c86c3280b45ccaf67e50301288f6083d9acb add .vulnerable id for CVE-2024-58087
+         b7bf9da95317ec238e9922a693f8ee1cea570447 add .vulnerable id for CVE-2022-49136
+         48765cff5e24460fb1cc1138cca544bdfc32e7d9 add .vulnerable id for CVE-2022-49310
+         2ab56d652c53e0659e5d5d6e30bd6065743ad4cb add .vulnerable id for CVE-2022-49516
+         4635dba973b99ff3fe716b2e33d11fd62b1ccbbd add .vulnerable id for CVE-2022-49518
+         cd510092ddfafd78acbe920deef4d94b02205cd3 add .vulnerable id for CVE-2022-49615
+         1fc1d10cb4a4d784616714f035b4614c461b4792 add .vulnerable id for CVE-2022-49616
+         2d2060f6cb2da3a7483b62fd1787ef076e6c8fa4 updated records based an new .vulnerable files
+         
 
---===============6125408630031418293==
+--===============6357918843318889522==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-65a3da457f64-ed0c3fd88746.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-af58e708b2d59529ddcbccf5cda2f693231eaf7e Update localversion-st, tree is up-to-date with 4.19-st1.
-39ed214f4a83aabcdc9e61e9030ee0d6b707cd41 m68k: Add missing mmap_read_lock() to sys_cacheflush()
-dd5c153b9b049da549c66b2969c7fa06d3c4d5d5 signal/m68k: Use force_sigsegv(SIGSEGV) in fpsp040_die
-19f5c3971881ce892731b500299be665703586b4 posix-clock: Fix backported timespec64 check
-af0b6b934f9a104b517c45296e28ac35f1a2b3b8 ravb: Fix use-after-free issue in ravb_tx_timeout_work()
-de298f6dd2d26c57a2cdd0507072b7308bcb5c10 jbd2: flush filesystem device before updating tail sequence
-a5cdb65b7a5fccb82f07be5df49cee2173e06122 net: 802: LLC+SNAP OID:PID lookup on start of skb data
-cb28a7576eda9bbe300cc6e27b0ff85a7c438285 tcp/dccp: complete lockless accesses to sk->sk_max_ack_backlog
-00db0acce89cf5240bd12d02a05c4753014cbd1f tcp/dccp: allow a connection when sk_max_ack_backlog is zero
-1401abc7851e8f3434970ed4aac7e324dd24b2a4 dm thin: make get_first_thin use rcu-safe list first function
-2e76ea68b952726646ad47fc504b65250a2592d5 sctp: sysctl: cookie_hmac_alg: avoid using current->nsproxy
-04daa3bf377bdd4af022e34bade45134b597758f sctp: sysctl: auth_enable: avoid using current->nsproxy
-617d4db000cc13182a389c5a1264b696de9372ef USB: serial: option: add MeiG Smart SRM815
-3c2fc0b8366762e129a6291548c96ed898f7a54b USB: serial: option: add Neoway N723-EA support
-985737e2f747eed4ce81cf8f6408f936f00473f3 staging: iio: ad9834: Correct phase range check
-fe525c5c7308765daf81a405848dec45c88258c0 staging: iio: ad9832: Correct phase range check
-0b74d45f1827d87be82988b5196915f8d7f4800f usb-storage: Add max sectors quirk for Nokia 208
-e934e37d7811343c79f32335149f1256c40de9ad USB: serial: cp210x: add Phoenix Contact UPS Device
-0ccb70d359b3d027c7736924decaae439f61cf8d usb: gadget: u_serial: Disable ep before setting port to null to fix the crash caused by port being null
-bf7e67d70fa1e208ae7029a2487b1c29a375f164 USB: usblp: return error when setting unsupported protocol
-0657fc61f540aafa8c693fa3b0c10d542d9ded2f usb: fix reference leak in usb_new_device()
-3b94f9edcee4432fde53a6f16aa7a1903a212c18 usb: gadget: f_fs: Remove WARN_ON in functionfs_bind
-6766c4122655eabbc32fca3bb703a4a1c72dcdb7 iio: dummy: iio_simply_dummy_buffer: fix information leak in triggered buffer
-fa345aeed91e7f487a2def571914633da5196392 iio: imu: kmx61: fix information leak in triggered buffer
-aafa3ee2dbd8063b90899c9558f737738fb74046 iio: adc: at91: call input_free_device() on allocated iio_dev
-f1dbf35627eb646eddc50736e95a5d0e1e3c5b04 iio: inkern: call iio_device_put() only on mapped devices
-c01769da982942fa240739b78277b5b47834dbd3 phy: core: fix code style in devm_of_phy_provider_unregister
-6eebb4c525adcfa5ef0bd5ceac9b89bbab7966f4 phy: core: Fix that API devm_of_phy_provider_unregister() fails to unregister the phy provider
-f8c6ad774fec0eda973aa7451ee474eeebbbdb3c ocfs2: correct return value of ocfs2_local_free_info()
-53928773ff25294b0c62fd42d1f94d086f609f67 sctp: sysctl: rto_min/max: avoid using current->nsproxy
-9892fb8b267a9a18be699798de85e7d1a6435e51 net: ethernet: ti: cpsw_ale: Fix cpsw_ale_get_field()
-970e0e9386da7b9f7ffd75f57fc50cf5e0e96417 mac802154: check local interfaces before deleting sdata list
-084dc46192e0096e29ac2b43d258468e19c6459d hfs: Sanity check the root record
-323e8ecfc12da77ee46fc9ea3f58d7b727124172 poll_wait: add mb() to fix theoretical race between waitqueue_active() and .poll()
-6b48d58f9f974f84f98e87a77d58eb5c1e68cdaf fs/proc: fix softlockup in __read_vmcore (part 2)
-eef04780ce5dd1ca1766ecb3745247787a16ab9d ipv6: avoid possible NULL deref in rt6_uncached_list_flush_dev()
-58b8d17a264edb2856ac98a74c9431150e90258c scsi: sg: Fix slab-use-after-free read in sg_release()
-08b44a200a336fb2833ece4ceed17774eef62356 ASoC: wm8994: Add depends on MFD core
-84ef5ed54998119f81bc663172e8fe8dd685041a irqchip/sunxi-nmi: Add missing SKIP_WAKE flag
-fbe36853dc275e9c5e4d69686a7f582835cee12b gfs2: Truncate address space when flipping GFS2_DIF_JDATA flag
-d2b4663116a13c66d98c0c27cb07f4dc93264355 vfio/platform: check the bounds of read/write syscalls
-15128bd8546360d3501596e236272c53f19c261b USB: serial: quatech2: fix null-ptr-deref in qt2_process_read_urb()
-27f7216b36a3c92ec219d8263d87faa06c910c94 Revert "usb: gadget: u_serial: Disable ep before setting port to null to fix the crash caused by port being null"
-911ef8409cdb6300e355aff4a3d6b193ed531131 Input: atkbd - map F23 key to support default copilot shortcut
-9a8bcc78c0c9b27e284774050455f8195e7ec8b0 Input: xpad - add unofficial Xbox 360 wireless receiver clone
-911b1c1f143de71b0e676cd9d0574832e37d04aa Input: xpad - add support for wooting two he (arm)
-30e94a5d266d9d8d2734d3e7c1b4680344ee2f99 irqchip/gic-v3: Handle CPU_PM_ENTER_FAILED correctly
-ed0c3fd88746859f0f649e612916a640b410c641 scsi: iscsi: Fix redundant response for ISCSI_UEVENT_GET_HOST_STATS request
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1741954765 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1741954735-0241c634390392678a43e9e4832ecfd86ebdd00b
 
---===============6125408630031418293==--
+081ad02b7a9eff97f5cff53990448e29628b1f09 2d2060f6cb2da3a7483b62fd1787ef076e6c8fa4 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfUHs0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YLYQAMVKvMLv2Yg0NzU9nSvN
+edlUtkHbVpQk4edJ1H3RcdKHTQ/27ftajJOe58rCS6/eM6WkTc+GTFbJPZlfElS/
+TUO4hWabzQtN8qqMk2VtttL3kpiazemchyfLzpWIP2UpbtDcLhOeGk0fDQFbBRMK
+sLZ0MY5cuTgxzki62gSbziJvphiMyqIt4Yf6Wc+Af8TePjKTu74FcqiMLiPXkLMq
+y1zyoFNC3myAlj49c7RyCnWYNUx5PrvNO6SN/7h510hKdL4J0S3DpZvnhpX2Pnru
+1FvDL0c7BjARgX66kJi6uKVg9wRjnwoM4pGMq+8Mv8lux1ZAGnSTwpsrmMFYjOB0
+So7OHLCOeRpxHECuJVIyETD2H+DsP/pItlK4pQrs3xN9abxxpc0ceraHRVsnFXh3
+glk5+WI5CFrdmD3QUYK3YdTBLiUMmswy7HAHJaZfcW9nU+x5bSdC3XMUiPNmXMXP
+H4D1x0yAg9n5qRSnph/032Lk9/pdNtDMn3l9fKUmHxR+A1v4YxyG5/kpaF8GidgQ
+K1w6eLh4az7vuuYPeR7R+F7tfQIouUuW1WCPfcbWSx6jYQ+f43x5QnmayD9JtEtx
+VFHKv6+Hp4OhPerCeBHIwvdCDhFmag2aQQSoLHCl9Ueg5zYQhs5AlORwEVoq4Oku
+Ewiq2RYHXH2T9Is6BPvUCb0b
+=s3Ll
+-----END PGP SIGNATURE-----
+
+--===============6357918843318889522==--
