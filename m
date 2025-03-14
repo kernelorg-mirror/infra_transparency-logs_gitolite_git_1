@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4303362440772982426=="
+Content-Type: multipart/mixed; boundary="===============8758673162169397491=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 14 Mar 2025 19:42:05 -0000
-Message-Id: <174198132578.3638307.7998341623622828438@gitolite.kernel.org>
+Date: Fri, 14 Mar 2025 19:42:14 -0000
+Message-Id: <174198133490.3638647.10178433862510248318@gitolite.kernel.org>
 
---===============4303362440772982426==
+--===============8758673162169397491==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12/improvements
-    old: e5b84d74837fb4b5a35f52a6492c60a224131d58
-    new: f079b1fb97325abb68d456abc238300875c278c1
-    log: revlist-e5b84d74837f-f079b1fb9732.txt
+  - ref: refs/heads/kernel-6.12/baseline
+    old: 3b964058c89b3517c85c2dfab14122c01f49be2d
+    new: 94bc78e0a7f2f43ca6c810bd6a3a680b492cbff0
+    log: revlist-3b964058c89b-94bc78e0a7f2.txt
 
---===============4303362440772982426==
+--===============8758673162169397491==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e5b84d74837f-f079b1fb9732.txt
+Content-Disposition: attachment; filename=revlist-3b964058c89b-94bc78e0a7f2.txt
 
 93745f5f2377c6e12e1607bcb8558b9f0b673483 arm64: mte: Do not allow PROT_MTE on MAP_HUGETLB user mappings
 49db780464ef786e650eeb895ef17de49044e513 drm/xe/oa: Separate batch submission from waiting for completion
@@ -602,25 +602,5 @@ e551a183d635811faa0944705065f6d375e5c920 selftests/bpf: Clean up open-coded gett
 e9cc806c0152fa9993f817cebf42989a3e2530bb Linux 6.12.19
 fba1069aca9e104353be0d62d05f18295ab8e1d3 Merge tag 'v6.12.19' into kernel-6.12/baseline
 94bc78e0a7f2f43ca6c810bd6a3a680b492cbff0 kernel-6.12.19-baseline
-c124076bc117dff62cb5d2d16084da0d9c51321f PCI: Batch BAR sizing operations
-e89cbb21e1bf513d096796d509fcb2db5032c3fb PCI: Fix BUILD_BUG_ON usage for old gcc
-2436e1116dffd6135b2068e7c02fc0a96a70eeb8 arm/bL_switcher: Use kthread_run_on_cpu()
-ea7cc61e3f7f8a36135da0ca1afdb00597a3ff1f soc/qman: test: Use kthread_run_on_cpu()
-00f821a382fc9981c8e41428753131e354773021 kallsyms: Use kthread_run_on_cpu()
-9b70fde19ef88a935d09af52a0237937a53ef1d3 lib: test_objpool: Use kthread_run_on_cpu()
-7087cfe277f4d3c2e053889074b0ff14401fe810 arm64: Exclude nohz_full CPUs from 32bits el0 support
-678a662306070ad21c93ac244d213bd93401f9c9 sched,arm64: Handle CPU isolation on last resort fallback rq selection
-f917e426450f981f98b3660958ea84fdf5a25ff2 kthread: Make sure kthread hasn't started while binding it
-80a17719f48f9764252b454eaf229f92e2bd75b7 kthread: Default affine kthread to its preferred NUMA node
-13a9033047a77ea8aed126b6a5b292610515f4c3 mm: Create/affine kcompactd to its preferred node
-22b4dc6c6e50a03a45d6b034351f328e286331eb mm: Create/affine kswapd to its preferred node
-3175f8197ce411dcbb849a5757854d2a16c2f680 kthread: Implement preferred affinity
-f4fba93769012a991db13b1a75da1f62822c71e5 rcu: Use kthread preferred affinity for RCU boost
-33f156a2d3ba455cecccf0ba302344f7f0078be2 kthread: Unify kthread_create_on_cpu() and kthread_create_worker_on_cpu() automatic format
-3f98d980ed1358e39f761c1ad574e4bd89d177c7 treewide: Introduce kthread_run_worker[_on_cpu]()
-af7b670a02e45041ede6b219977fde6a5013b5ec rcu: Use kthread preferred affinity for RCU exp kworkers
-3a277acd02ef8337b313e7fa779032000816fcb6 kthread: modify kernel-doc function name to match code
-a67fad8ddc9ddce350f7fca83abc1b874abcdf60 Reapply "nvme: make keep-alive synchronous operation"
-f079b1fb97325abb68d456abc238300875c278c1 Revert "nvme-fabrics: fix kernel crash while shutting down controller"
 
---===============4303362440772982426==--
+--===============8758673162169397491==--
