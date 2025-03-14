@@ -1,47 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============1137415503744442383=="
+Content-Type: multipart/mixed; boundary="===============8599357142599821793=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 14 Mar 2025 21:20:04 -0000
-Message-Id: <174198720447.3725907.11291658293209327260@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Fri, 14 Mar 2025 21:20:48 -0000
+Message-Id: <174198724857.3726703.1051487227760616006@gitolite.kernel.org>
 
---===============1137415503744442383==
+--===============8599357142599821793==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/sched/core
-    old: 5dc71b0e463090dbbc37b1dfbfb64be945881eec
-    new: e3ea1d51a9dc9ce9011ed660cda89ebeb186d62f
-    log: revlist-5dc71b0e4630-e3ea1d51a9dc.txt
+  - ref: refs/heads/kernel-6.12/improvements
+    old: f079b1fb97325abb68d456abc238300875c278c1
+    new: f80f4674eff3f6ae539dd4507db4fbb18bafc1a6
+    log: revlist-f079b1fb9732-f80f4674eff3.txt
 
---===============1137415503744442383==
+--===============8599357142599821793==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5dc71b0e4630-e3ea1d51a9dc.txt
+Content-Disposition: attachment; filename=revlist-f079b1fb9732-f80f4674eff3.txt
 
-c2713caaad79ffaca34352220e00303fb2e0d728 sched: Add a generic function to return the preemption string.
-b33a9ec72aa093d5c17a409e2a532fddd7b768d4 lib/dump_stack: Use preempt_model_str().
-ae94381e8e0e46eb767a812a5858e9b9b5fb7c01 arm: Rely on generic printing of preemption model.
-cac9b7d2d19710335e165eb9d7d5749da0eba981 arm64: Rely on generic printing of preemption model.
-bc8d88a14127ca692b5fd795445b7a1ffae72c4c powerpc: Rely on generic printing of preemption model.
-1cd510f0b71b79329a7b1ae5071cc9dca1b9a904 s390: Rely on generic printing of preemption model.
-787553fbf13b8341b6a631b4068b88d8cc548ed8 x86: Rely on generic printing of preemption model.
-fec05ae5cc37cdcb7e9b3ffd035a252c4068b42c xtensa: Rely on generic printing of preemption model.
-31e82121b3192549664968bba72cdaaad9238dc5 tracing: Use preempt_model_str().
-07a5068373711ae10496d07a9db863cf5423f1d3 sched/deadline: Ignore special tasks when rebuilding domains
-04863bdbf22d473083540e96eb1a53070d1af988 sched/topology: Wrappers for sched_domains_mutex
-f6e09f3605649837a70817b3a74f21e60b76b141 sched/deadline: Generalize unique visiting of root domains
-2b10cce4acda86abd104453ed3c5b7015254db12 sched/deadline: Rebuild root domain accounting after every update
-e55b785e3229d0d3b80096d74402aff311339bfc sched/topology: Remove redundant dl_clear_root_domain call
-d5c76930915dd1ee6939af612a615111512cc0c4 cgroup/cpuset: Remove partition_and_rebuild_sched_domains
-bcdc2ce518f47f1e87b77785a532f9858bacd0a0 sched/topology: Stop exposing partition_sched_domains_locked
-e3ea1d51a9dc9ce9011ed660cda89ebeb186d62f include/{topology,cpuset}: Move dl_rebuild_rd_accounting to cpuset.h
+d5bc87dfe055905b42cab545a4719bb49c09aef6 Set CONFIG_FW_CACHE=y for rhel to avoid config mismatch issues
+b40250e0679269ba3020efa7f6603beaede12a31 PCI: Batch BAR sizing operations
+d20cc8b0fe0d358b2f29bd30ba1da8840251d62e PCI: Fix BUILD_BUG_ON usage for old gcc
+50283fcfee1d5cfbcfd270a25c21680fddd3dc8e arm/bL_switcher: Use kthread_run_on_cpu()
+3b1934833ddee01a1bb2b3ed5685b270ebfe6184 soc/qman: test: Use kthread_run_on_cpu()
+4b0be92f4e2cbc7a5c2ebf73ffef6b91a9c71f31 kallsyms: Use kthread_run_on_cpu()
+2946a6ca89df689cc2ff3a6887700ecd3153ac32 lib: test_objpool: Use kthread_run_on_cpu()
+594388ab1237c23e0da21fc7273f6faabe58590a arm64: Exclude nohz_full CPUs from 32bits el0 support
+685d800f4098106c2b26333b962c9d7500d733e8 sched,arm64: Handle CPU isolation on last resort fallback rq selection
+544f5b51bad879c3d76abd9a909df7ff807741aa kthread: Make sure kthread hasn't started while binding it
+a5a6f9b04cf4c52cb25342f0b563ee4d8d9397c5 kthread: Default affine kthread to its preferred NUMA node
+24eb6c3d0e022272956c3fd19e3606b6853a4fc6 mm: Create/affine kcompactd to its preferred node
+a9e7e311c0b329e91bdc3e2146527e0cffaf5ee5 mm: Create/affine kswapd to its preferred node
+3d2014cfa3d8daec97500b11c26936c7338f8a4c kthread: Implement preferred affinity
+02294af524152934a152f54bd465c3e4a885dfa3 rcu: Use kthread preferred affinity for RCU boost
+917dae5bd16a39989785a2c970ff03ec5b4cb680 kthread: Unify kthread_create_on_cpu() and kthread_create_worker_on_cpu() automatic format
+af4cf57281a9498fbd460ab5c515806452bdb3c9 treewide: Introduce kthread_run_worker[_on_cpu]()
+b9447ab75b9232156b4ad190a65aeca22cfcdabd rcu: Use kthread preferred affinity for RCU exp kworkers
+1386eb58313876f89730d985f7ca0a5aea665210 kthread: modify kernel-doc function name to match code
+a10ce5b1c2fd1de49bd13925037df06c5157983e Reapply "nvme: make keep-alive synchronous operation"
+f80f4674eff3f6ae539dd4507db4fbb18bafc1a6 Revert "nvme-fabrics: fix kernel crash while shutting down controller"
 
---===============1137415503744442383==--
+--===============8599357142599821793==--
