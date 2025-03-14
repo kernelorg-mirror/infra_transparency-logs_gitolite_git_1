@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 14 Mar 2025 09:12:49 -0000
-Message-Id: <174194356952.3070491.15370388829590387263@gitolite.kernel.org>
+Date: Fri, 14 Mar 2025 09:23:11 -0000
+Message-Id: <174194419111.3078872.18085678881877333773@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/tags/x86-urgent-2025-03-14
-    old: 0000000000000000000000000000000000000000
-    new: e9f0fde65eca667d2aa195ae39ac3bb18363f282
+  - ref: refs/heads/x86/cpu
+    old: 8c7768105a84c16b9d71af2fa2d2c50ff3c80f4e
+    new: 96effb260ce507ed884a145d304ea1295a67844c
+    log: |
+         96effb260ce507ed884a145d304ea1295a67844c x86/cpufeatures: Warn about unmet CPU feature dependencies
+         
