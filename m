@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8165166366266500578=="
+Content-Type: multipart/mixed; boundary="===============8179383057574564373=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Fri, 14 Mar 2025 13:17:58 -0000
-Message-Id: <174195827865.3294298.18035033610036329651@gitolite.kernel.org>
+Date: Fri, 14 Mar 2025 13:18:07 -0000
+Message-Id: <174195828713.3294612.17608956732856316064@gitolite.kernel.org>
 
---===============8165166366266500578==
+--===============8179383057574564373==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,50 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can-next
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/testing
-    old: c1a6911485b022e093c589c295a953ff744112b9
-    new: 6bffe88452dbe284747442f10a7ac8249d6495d7
-    log: revlist-c1a6911485b0-6bffe88452db.txt
+  - ref: refs/heads/main
+    old: d9e1cc087a55286fe028e0f078159b30d7da90bd
+    new: a1e36ec36356e33fd089761021e0de031ae3a06a
+    log: revlist-d9e1cc087a55-a1e36ec36356.txt
+  - ref: refs/heads/master
+    old: d9e1cc087a55286fe028e0f078159b30d7da90bd
+    new: a1e36ec36356e33fd089761021e0de031ae3a06a
+    log: revlist-d9e1cc087a55-a1e36ec36356.txt
 
---===============8165166366266500578==
+--===============8179383057574564373==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1741958303 +0100
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1741958312 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1741958272-6c25845363dcf96290ad35a07314672eb6df02b2
+nonce 1741958282-af1020d0c6259f1f842e94d582697553d870595f
 
-c1a6911485b022e093c589c295a953ff744112b9 6bffe88452dbe284747442f10a7ac8249d6495d7 refs/heads/testing
+d9e1cc087a55286fe028e0f078159b30d7da90bd a1e36ec36356e33fd089761021e0de031ae3a06a refs/heads/main
+d9e1cc087a55286fe028e0f078159b30d7da90bd a1e36ec36356e33fd089761021e0de031ae3a06a refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEn/sM2K9nqF/8FWzzDHRl3/mQkZwFAmfULJ8THG1rbEBwZW5n
-dXRyb25peC5kZQAKCRAMdGXf+ZCRnKU5B/0Sj39uF+VD/7VlHWeDkCFZgf+8ouZz
-igYQq6XretjzDLE5fWXMrKA9DwdYK5cyoePlvVIqNQg483JmpS81amZk5cKa8edg
-oQe0KVJ6+tvkRFWTuk8sEwn+FzCN/oAWq46IzatXlq6X6nUTd4eMCkzgYgmqmcwN
-xrEI2ny5B3V1liWs/HU8IOorSSvRw29oXbUb83tJNOa9l/PAKOMLOeFsgc6TwTP0
-qAICaMznoVZXX8Z9iUgnjIl/uIMQzMF10PP1WH+/n33n73u7eyuTgbp4WwGHaeI8
-mMl2O9yvXG4gGER2z4HSnUiSZPJj0RP3W8Fee7H0MR6B7dqr6R0+sWNs
-=mlzz
+iQFHBAABCgAxFiEEn/sM2K9nqF/8FWzzDHRl3/mQkZwFAmfULKgTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRAMdGXf+ZCRnF0DB/9QQvmYMthifFU8jpwfnBEIXJIr7l0Z
+FXvzSKmnexFusOJo5MQQY1i+ZsZvOXgkUBKyfO04Nz7J0s8DFhUY30y6UKHP6HHW
+2AqikCVsPP3zBkdr5PJjkCZ9EF7qp+2RFYMZ3VgZ96C3utHU+lSvjdDYsrSqvXgB
+9xB/DMVlXbBFNlEZV0XBFUFcEUSI7MY7oEm6cRNgdwRYBMTlpjE/Wt6p9gxWQ9Zj
+ZeX8zgEA7y6hcisrVFWOxfe3IvCZoL2dmk1G1ymsu4ievNQ8AFPgH+aEkfPKbUn4
+dNHCMsMQpbvNuAwzevgOJpELoOGWosUzsJWUde+ZbhXcutMEERBbxvHB
+=kQaV
 -----END PGP SIGNATURE-----
 
---===============8165166366266500578==
+--===============8179383057574564373==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-c1a6911485b0-6bffe88452db.txt
+Content-Disposition: attachment; filename=revlist-d9e1cc087a55-a1e36ec36356.txt
 
+f112eea3ccefc8a267fff592059f128b3166ca9e Merge tag 'irq-urgent-2025-02-22' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+1ceffff65f12d5f7e57e627555521a205f477ef5 Merge tag 'perf-urgent-2025-02-22' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+8b82c18bf98ff4b5e01a6c36649eafa2c7a4e476 Merge tag 'sched-urgent-2025-02-22' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+5cf80612d3f72c46ad53ef5042b4c609c393122f Merge tag 'x86-urgent-2025-02-22' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 27102b38b8ca7ffb1622f27bcb41475d121fb67f Merge tag 'v6.14-rc3-smb3-client-fix-part2' of git://git.samba.org/sfrench/cifs-2.6
 e1a0bdbdfdf08428f0ede5ae49c7f4139ac73ef5 RDMA/mlx5: Fix bind QP error cleanup flow
 531ca2b9a215d072ffb4b1ff760a73f5e80c9c46 net/mlx5: Add new health syndrome error and crr bit offset
@@ -1070,10 +1079,6 @@ e1af35d666170f2f855afee1dc3f4966d566dff8 Merge branch 'mlx5-misc-fixes-2025-03-1
 8f7617f4500900f39b604ca724a34a9cfd1fa63a Merge tag 'vfs-6.14-rc7.fixes' of gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
 4003c9e78778e93188a09d6043a74f7154449d43 Merge tag 'net-6.14-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 941defcea7e11ad7ff8f0d4856716dd637d757dd Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-6263bad801ec08dadfd6fa3ac7673f556ef1795b dt-bindings: can: fsl,flexcan: add transceiver capabilities
-d80bfde3c57a02e67e7d3354d977b6376cc275ba can: flexcan: add transceiver capabilities
-85b51fa31b2c3113fd50d74b4c548fe2560b5d5b Merge patch series "can: flexcan: add transceiver capabilities"
-958ee3d715773d88e5d85c36311ef458d6b352a2 dt-bindings: can: fsl,flexcan: add i.MX94 support
-6bffe88452dbe284747442f10a7ac8249d6495d7 can: add protocol counter for AF_CAN sockets
+a1e36ec36356e33fd089761021e0de031ae3a06a selftests: drv-net: fix merge conflicts resolution
 
---===============8165166366266500578==--
+--===============8179383057574564373==--
