@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0013848232284041976=="
+Content-Type: multipart/mixed; boundary="===============8886634217347118816=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 14 Mar 2025 17:40:48 -0000
-Message-Id: <174197404807.3528802.1319806594541226741@gitolite.kernel.org>
+Date: Fri, 14 Mar 2025 17:40:50 -0000
+Message-Id: <174197405059.3529052.2894030241064167296@gitolite.kernel.org>
 
---===============0013848232284041976==
+--===============8886634217347118816==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 2409fa66e29a2c09f26ad320735fbdfbb74420da
     new: 4003c9e78778e93188a09d6043a74f7154449d43
     log: revlist-2409fa66e29a-4003c9e78778.txt
 
---===============0013848232284041976==
+--===============8886634217347118816==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -295,4 +295,4 @@ b7f94fcf55469ad3ef8a74c35b488dbfa314d1bb Merge tag 'sched_ext-for-6.14-rc6-fixes
 8f7617f4500900f39b604ca724a34a9cfd1fa63a Merge tag 'vfs-6.14-rc7.fixes' of gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
 4003c9e78778e93188a09d6043a74f7154449d43 Merge tag 'net-6.14-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============0013848232284041976==--
+--===============8886634217347118816==--
