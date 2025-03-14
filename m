@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6789823845411965517=="
+Content-Type: multipart/mixed; boundary="===============8386104881596624582=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 14 Mar 2025 08:15:54 -0000
-Message-Id: <174194015445.3018072.3704761696364588196@gitolite.kernel.org>
+Date: Fri, 14 Mar 2025 08:17:24 -0000
+Message-Id: <174194024498.3018930.16424004100767645102@gitolite.kernel.org>
 
---===============6789823845411965517==
+--===============8386104881596624582==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,45 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: c44e3d3cdb74c066ece370d66021b9ebff315c9a
-    new: f2865c6300d75a9f187dd7918d248e010970fd44
+  - ref: refs/heads/usb-testing
+    old: 28a76fcc4c85dd39633fb96edb643c91820133e3
+    new: 042c3dd1f2d3f8a27c5bb9c2e7866a674607d4d4
     log: |
-         f2865c6300d75a9f187dd7918d248e010970fd44 usb: typec: tcpm: fix state transition for SNK_WAIT_CAPABILITIES state in run_state_machine()
+         bcb71579db5e9ce0c1332a7574948ddacfaabfa9 usb: common: usb-conn-gpio: switch psy_cfg from of_node to fwnode
+         440ca0cfdfd0d7cf575e9176c07358a1ed2477ba dt-bindings: usb: qcom,dwc3: Synchronize minItems for interrupts and -names
+         8c75f3e6a433d92084ad4e78b029ae680865420f usb: gadget: aspeed: Add NULL pointer check in ast_vhub_init_dev()
+         f4aa6caa8b420bcc0813fccecbc35f43203297df usb: core: Don't use %pK through printk
+         042c3dd1f2d3f8a27c5bb9c2e7866a674607d4d4 usb: dwc3: Don't use %pK through printk
          
 
---===============6789823845411965517==
+--===============8386104881596624582==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1741940181 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1741940271 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1741940151-778b0ea8e08c05ea71ac0aa8d743985d6c49a015
+nonce 1741940241-ba10ecc8f6494044d1b045ae6b8fdede9fa4591f
 
-c44e3d3cdb74c066ece370d66021b9ebff315c9a f2865c6300d75a9f187dd7918d248e010970fd44 refs/heads/usb-linus
+28a76fcc4c85dd39633fb96edb643c91820133e3 042c3dd1f2d3f8a27c5bb9c2e7866a674607d4d4 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfT5dUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uVYQAIzO/nozEHTTrRcn7a2h
-xsSGbp0tQkg9xxZf7sxSLm+/hnSdyPOR2SG6GEuMgZzAoos1NmyaVqy+GzXRjSD/
-a3YDymLEhu3N6qXO2gIm12+WjWef26xz93+kixZCX/J9a6AB6mI7VWD3s8vLsdTB
-VfBD9ze1m381fJqxUlCQpACjEpRpvnQy64RX9rUh0UDyJsgI8/2DFoKAQk+gtzAK
-MmmYh0f1aNdXNAR6yvC7X7wOP8c0nNMpKelE9chopk3n//WtK0M+d4ZQR5/kQsmy
-xABMD+vJ8PndwzIfg+NCPId3mMlEpTwrq9zpnJnjOwPlPghfU3PfoyiFCJjseEyG
-E744jktrqhkIdGLjqPE6sPKvEoLF5j/Yd4bGv2MJI/bqA31fti2UAQJ8Frof2KN5
-AT0sAhhBoPaBWiHn8lkNY1TrNC3K3HUeYR9IxcSXbnoZkq4E9A9M8pw02wv9n2Ez
-GdAjhK/VWzh0AbX4ACX7rM3KvKWCFXAj4RSj2pwmSNYJSBsg31oMXC6msJEnglOt
-Df54ZKlhcVLxEd8H7d8NMclmZyNWIIOLthqEXikRytNaIhefuxcFy0Gmd+J8fw6w
-2Z4wggTTj000J3Mb4VnQQtk4aWVB/qDDUZ3/bhe5iknjelHZZn3qFaenJqw2BayN
-XWbBwirRMqLoFvDodc0vdkJ/
-=RSfx
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfT5i8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UK8QAMN2x0gOXIg2g5ZWECw6
+gWA3KDiCTJSq9ubnPyBBjasqc9f8vyPf0l0yZzkdi7wbcGs4DNpWlCqTqE1zoH5e
+Krx1I9eAB96KbwiBwWOCYqIXqcmYTOFUcV3wRUoacL8k03NjXMDK1/zrBjNoqu2c
+SNeoqQA5KjuuFnsfe7r0Y9QQjxuTCfxMMBSqqlCrGEddwmrLcxWuNWZgoJcUa7UC
+TZ3cJpra2GbWGu/6w261LBwWCPi+yBMqi4c0dEM1jEwRoHoF/VO7ceJHCUJdFduB
+R9RxA+eiC3ieSwhz5fdvI9DtJdcvB2q3vLnHFO9UATVtuHlYIHC8oRWl3Zg+cf6p
+1Vxk8jMrsQpdhKTAwGAlVYKlROzcVrhkZTHNCNtffevMHBnKf7ZeltjPtDhH/oJE
+UllWy4AmHW98XyAOwFaXWBznTCWcRYJB/9EJKRfC/jhOhcEa6sQsdl014Pvei4EF
+SaivwLihnvns23QMdp3xODSdcqMkfRlltUUEHBXBoKynQrqD3bI3AvWdYzleGTMQ
+PETmpxpFfM4AWsZuo7IcIOmHs/jsXd3y6ZfMdhqZW6tEqMumI/LUo8zYo/dgl9UU
+MOuMrMoXlBJ1PD0Wq6t+WQNWqkSyBgG4PcBB5dBrN7J2R7f+vHSxT3RhQ5VAA1nW
+aPNoOyt+HIcxKzUaVOl5s2pL
+=nAPF
 -----END PGP SIGNATURE-----
 
---===============6789823845411965517==--
+--===============8386104881596624582==--
