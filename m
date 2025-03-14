@@ -1,26 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Fri, 14 Mar 2025 13:38:24 -0000
-Message-Id: <174195950496.3313280.11934932676617548039@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8201144481031383916=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Fri, 14 Mar 2025 14:00:22 -0000
+Message-Id: <174196082235.3334270.7139288593173519083@gitolite.kernel.org>
+
+--===============8201144481031383916==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/sched/scx-dlserver-boost
-    old: b9fb6bd57dd59c996babc65c5120897a66dde4aa
-    new: 2cd48a837107698fb9c7797ae68e7a0feac7224c
+  - ref: refs/heads/for-next
+    old: f895f2493098b862f1ada0568aba278e49bf05b4
+    new: 01db3d1ff43aeedeaf11c8bc9d09493ec00c8f4a
     log: |
-         abb7ce648354e0df230397890866228e3e4f24ff sched: Add support to pick functions to take rf
-         735db84c41414fa2d6eacf45fbc3d962f94aa1ac sched: add a server arg to dl_server_update_idle_time()
-         f7bdc26536bc5589473df3c025a340f519b3d667 sched/ext: Add a DL server for sched_ext tasks
-         07240e485e231e545bf231decc4bc79e5d2561a2 selftests/sched: Add test to verify CFS tasks aren't starved by RT tasks
-         9f6effa69b50d44065f06a9af23f2e5824f16fc4 DEBUG: Add tprints for debugging
-         35b9067d2709f79cbf2598762a326e4a294450ad sched/debug: Fix updating of ppos on server write ops
-         df4de9b1d4011d64ae0770afa01f5d8adf8e0199 sched/debug: Stop and start server based on if it was active
-         2cd48a837107698fb9c7797ae68e7a0feac7224c sched/debug: Add support to change sched_ext server params
+         01db3d1ff43aeedeaf11c8bc9d09493ec00c8f4a platform/x86/amd/pmc: fix leak in probe()
          
+
+--===============8201144481031383916==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1741960847 +0200
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1741960817-c7c3216dcab13a7949a7022da2bbe42081bcab3a
+
+f895f2493098b862f1ada0568aba278e49bf05b4 01db3d1ff43aeedeaf11c8bc9d09493ec00c8f4a refs/heads/for-next
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZ9Q2lAAKCRBZrE9hU+XO
+MYRdAQCYwGcb/XmI2BzyWPRkL6Uwe8NX5dUfYcqzmfPUs40++AD/YDMWokw7aGkn
+cXO7qEbNVViyAi/n28I1UGVLyEA2tgs=
+=o2da
+-----END PGP SIGNATURE-----
+
+--===============8201144481031383916==--
