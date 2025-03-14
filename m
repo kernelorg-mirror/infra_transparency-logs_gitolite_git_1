@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Fri, 14 Mar 2025 11:20:56 -0000
-Message-Id: <174195125646.3180390.9777152807164387749@gitolite.kernel.org>
+Date: Fri, 14 Mar 2025 11:21:16 -0000
+Message-Id: <174195127680.3180760.18291945327163329796@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/efi/efi
 user: ardb
 changes:
   - ref: refs/heads/urgent
-    old: e3cf2d91d0583cae70aeb512da87e3ade25ea912
-    new: 3fbd322872520939efb5d3c839250d6102d3bc18
+    old: 3fbd322872520939efb5d3c839250d6102d3bc18
+    new: cb16dfed0093217a68c0faa9394fa5823927e04c
     log: |
-         3fbd322872520939efb5d3c839250d6102d3bc18 efi/libstub: Avoid physical address 0x0 when doing random allocation
+         cb16dfed0093217a68c0faa9394fa5823927e04c efi/libstub: Avoid physical address 0x0 when doing random allocation
          
