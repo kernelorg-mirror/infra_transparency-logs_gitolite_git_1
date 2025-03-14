@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1523246102861426752=="
+Content-Type: multipart/mixed; boundary="===============2776735593841674389=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Fri, 14 Mar 2025 16:26:49 -0000
-Message-Id: <174196960920.3464403.11559350083413861773@gitolite.kernel.org>
+Date: Fri, 14 Mar 2025 16:26:58 -0000
+Message-Id: <174196961866.3464698.10252004328604640528@gitolite.kernel.org>
 
---===============1523246102861426752==
+--===============2776735593841674389==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: 0e28ee106c46c95eb322833c17c33e3c231ccd0d
-    new: 54be64fdf3ba6dbad2f5c48e466e1db43ad74bca
-    log: revlist-0e28ee106c46-54be64fdf3ba.txt
+  - ref: refs/heads/pending
+    old: f31c53832adc1c40a91e291ceb89c104cf0419dc
+    new: 3966e825bc329054645f4e03df9cad0afe232be0
+    log: revlist-f31c53832adc-3966e825bc32.txt
 
---===============1523246102861426752==
+--===============2776735593841674389==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0e28ee106c46-54be64fdf3ba.txt
+Content-Disposition: attachment; filename=revlist-f31c53832adc-3966e825bc32.txt
 
 72a6caf5ec8b68f025babe63118b57d892830cc1 wifi: iwlegacy: avoid size increase
 d9819f537c45bf8c35d4eaf2ff6bc337e5adc787 wifi: wfx: align declarations between bus_spi.c and bus_sdio.c
@@ -83,5 +83,19 @@ adb1ee4de04d496f3da409bb6791cfdd744ab2c3 wifi: virt_wifi: Add __nonstring annota
 b5c1622762f0937a66b69b7f15466c28fe85dcf1 wifi: cfg80211: expose cfg80211_chandef_get_width()
 34670beb481e5e1a40448fabd312d17a1fbf0a73 wifi: mac80211: use cfg80211_chandef_get_width()
 54be64fdf3ba6dbad2f5c48e466e1db43ad74bca wifi: iwlwifi: Fix uninitialized variable with __free()
+3e9518773ce01d15ba8cc089787b3d4f60aa1862 wifi: ath12k: fix link valid field initialization in the monitor Rx
+b24b3d49f42757623cc0f8aec6fcdf07d2275173 wifi: ath12k: Add extra TLV tag parsing support in monitor Rx path
+d28ea495ea03020f528558c471cb46d2dbf958b3 wifi: ath12k: Avoid fetch Error bitmap and decap format from Rx TLV
+489814f6e8218db976d5845b3a4439386303bb5f wifi: ath12k: Replace band define G with GHZ where appropriate
+59e49306fb1ae2b5211046f2030cbc37676fc5c8 wifi: ath12k: change the status update in the monitor Rx
+2062add9dd5615ebe0ee15f97271d61fdf945253 wifi: ath12k: Avoid packet offset and FCS length from Rx TLV
+52cde326b3ab2c6c5732b5c0364c2d5b73d502bb wifi: ath12k: fix NULL access in assign channel context handler
+e65a7dba68649a7330133c522395caeec2bdb1a3 wifi: ath12k: Refactor the monitor channel context procedure
+a5d62d35ca97bd6dced67d317dfd3efbafd6c6b7 wifi: ath12k: add monitor interface support on QCN9274
+9a2d513907d3e6986a5dede5afd177b537b3355d wifi: ath12k: Pass correct values of center freq1 and center freq2 for 160 MHz
+c0591666ec05b7351356ef7853cbee4bebb54a14 wifi: ath12k: Pass correct values of center freq1 and center freq2 for 320 MHz
+b441375784251ad67f7e6b93adef511b786a09b8 wifi: ath12k: move firmware stats out of debugfs
+de3e0e66567da0a11d6d18615ca676bb42653dd0 wifi: ath12k: add get_txpower mac ops
+3966e825bc329054645f4e03df9cad0afe232be0 wifi: carl9170: Add __nonstring annotations for unterminated strings
 
---===============1523246102861426752==--
+--===============2776735593841674389==--
