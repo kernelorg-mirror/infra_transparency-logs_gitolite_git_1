@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5095255724665932733=="
+Content-Type: multipart/mixed; boundary="===============1104622954095985557=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Fri, 14 Mar 2025 17:27:19 -0000
-Message-Id: <174197323915.3514921.18050743669191220559@gitolite.kernel.org>
+Date: Fri, 14 Mar 2025 17:29:02 -0000
+Message-Id: <174197334238.3515911.13104742287436408904@gitolite.kernel.org>
 
---===============5095255724665932733==
+--===============1104622954095985557==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/arm/fixes
-    old: 98f3ab18a0a55aa1ff2cd6b74bd0c02c8f76f17e
-    new: 45d5fe1c53baaed1fb3043f45d1e15ebb4bbe86a
-    log: revlist-98f3ab18a0a5-45d5fe1c53ba.txt
+  - ref: refs/heads/for-next
+    old: a84db892511ab79e7a817a171fb4765daccffb88
+    new: 69e7831ba231cdf8db6d2119f118e8ec9fa2ee8f
+    log: revlist-a84db892511a-69e7831ba231.txt
 
---===============5095255724665932733==
+--===============1104622954095985557==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-98f3ab18a0a5-45d5fe1c53ba.txt
+Content-Disposition: attachment; filename=revlist-a84db892511a-69e7831ba231.txt
 
 1ac98d6484c4a53e9b3ed1f59d03a2dd2d287b70 soc: qcom: pmic_glink: Drop redundant pg assignment before taking lock
 7f048b202333b967782a98aa21bb3354dc379bbf firmware: qcom: scm: Fix error code in probe()
@@ -57,5 +57,6 @@ cfe614f5225bfbdfbcd7917533fc3c811f98169e Merge tag 'renesas-fixes-for-v6.14-tag1
 262666c04be6afa8f15b6c318596b54c37499cda soc: hisilicon: kunpeng_hccs: Fix incorrect string assembly
 5c81649d704202b19c5071b892c08a6380f30941 Merge tag 'reset-fixes-for-v6.14' of git://git.pengutronix.de/pza/linux into arm/fixes
 45d5fe1c53baaed1fb3043f45d1e15ebb4bbe86a ARM: davinci: da850: fix selecting ARCH_DAVINCI_DA8XX
+69e7831ba231cdf8db6d2119f118e8ec9fa2ee8f Merge branch 'arm/fixes' into for-next
 
---===============5095255724665932733==--
+--===============1104622954095985557==--
