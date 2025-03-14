@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9218655890129921235=="
+Content-Type: multipart/mixed; boundary="===============7576745474891105137=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 14 Mar 2025 08:34:09 -0000
-Message-Id: <174194124946.3034375.12215929971148064464@gitolite.kernel.org>
+Date: Fri, 14 Mar 2025 08:38:44 -0000
+Message-Id: <174194152433.3038701.11298741677763960977@gitolite.kernel.org>
 
---===============9218655890129921235==
+--===============7576745474891105137==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,56 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: d08c0d55110b7cbac186e5fa94b0c6d5f4d7905e
-    new: ae19a8aa35b186fb91af5346d625a8cdfe78508d
-    log: revlist-d08c0d55110b-ae19a8aa35b1.txt
+    old: ae19a8aa35b186fb91af5346d625a8cdfe78508d
+    new: e89a7fc3d058da78a33fc8abd245ae857b203799
+    log: revlist-ae19a8aa35b1-e89a7fc3d058.txt
+  - ref: refs/heads/tip/urgent
+    old: 0988a9cb3405ecbef57f1229dd5625d1400f01c9
+    new: e2751f3c3bc16b129ac59044b8601b20c2054ff3
+    log: revlist-0988a9cb3405-e2751f3c3bc1.txt
 
---===============9218655890129921235==
+--===============7576745474891105137==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d08c0d55110b-ae19a8aa35b1.txt
+Content-Disposition: attachment; filename=revlist-ae19a8aa35b1-e89a7fc3d058.txt
+
+3066376e59d9121dbbf72c9af7a93b5f5b00f40a Merge branch into tip/master: 'core/urgent'
+bc95a1b5ce164d975737207672d32c82d22c8c57 Merge branch into tip/master: 'locking/urgent'
+3bd9006207d40f28d850a0f10eb358d6fb1eec16 Merge branch into tip/master: 'sched/urgent'
+e2751f3c3bc16b129ac59044b8601b20c2054ff3 Merge branch into tip/master: 'x86/urgent'
+f7e3748427b0ff0019cb373230368142068e65e9 Merge branch into tip/master: 'x86/merge'
+4ec940edea8c0f45f5d8c82cc1a7b31f8e8654f2 Merge branch into tip/master: 'irq/core'
+4e84f4f3e8ed9818df24f372e4dd4586fcd55e00 Merge branch into tip/master: 'irq/drivers'
+48d4bd7e7b56438b11cda2cbb217671ed2f0cb26 Merge branch into tip/master: 'irq/msi'
+c2fe2e30773cf3b1a13161bdfc27a510800e553e Merge branch into tip/master: 'locking/core'
+6a228650725891c6158fda6502a99df5869cbfe8 Merge branch into tip/master: 'locking/futex'
+9628e7bc350b1cf9b9ae0e9960fc1d0b4d3a7c2e Merge branch into tip/master: 'perf/core'
+8104e95ee1717914e72c03f23e06fee833dcca34 Merge branch into tip/master: 'ras/core'
+4290f20c1a83fc02b850ea8f4697d7e0012bf8cd Merge branch into tip/master: 'sched/core'
+4f1e73b91c7234599beebc1fe9f740fe3d72f6bf Merge branch into tip/master: 'timers/cleanups'
+2804ee011d3ec272b20021a9671a9ff2091e990d Merge branch into tip/master: 'timers/core'
+a8deafbb547d9bda3139e5013dcf1a8e38bf047e Merge branch into tip/master: 'timers/vdso'
+349601f88f6ed3a6888253dddd9faaa35c745dca Merge branch into tip/master: 'x86/asm'
+87e6f95c30b84638320d0da02f6cd96e815b4420 Merge branch into tip/master: 'x86/boot'
+fe7cc52349d49d2668224efbb57704458ab77eb4 Merge branch into tip/master: 'x86/bugs'
+b5a9e89e06f03a5823b789329eff728ddb651484 Merge branch into tip/master: 'x86/build'
+f95c0ffb5ad37e485aadb5777945cad45242716c Merge branch into tip/master: 'x86/cache'
+7eb24bef2a99b55c2721eb4b637df45281369489 Merge branch into tip/master: 'x86/cleanups'
+1a2bf7a65ca23ce2604f55da2c6b0a1d9852d0dc Merge branch into tip/master: 'x86/core'
+58ad7d7b0f2f6cb7110556b848043f1efeb63628 Merge branch into tip/master: 'x86/cpu'
+a54f412b52b357de518411b6669ce77f5f26b850 Merge branch into tip/master: 'x86/fpu'
+237545597c0de5d0fe826bde64ac469a4b027f46 Merge branch into tip/master: 'x86/headers'
+61e8a18fa14e70015479db754b0ecebd67eed844 Merge branch into tip/master: 'x86/misc'
+c06e2b718aa4a0ca97b6877bdc94875e46ec1ebc Merge branch into tip/master: 'x86/mm'
+079587f8ce097ef08ed4dedbae46ed88e580c850 Merge branch into tip/master: 'x86/platform'
+e89a7fc3d058da78a33fc8abd245ae857b203799 Merge branch into tip/master: 'x86/sev'
+
+--===============7576745474891105137==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-0988a9cb3405-e2751f3c3bc1.txt
 
 b8501febdc513541afc5663d063bfac7ea575b71 clk: qcom: dispcc-sm8750: Drop incorrect CLK_SET_RATE_PARENT on byte intf parent
 5cfe5612ca9590db69b9be29dc83041dbf001108 netfilter: nft_ct: Use __refcount_inc() for per-CPU nft_ct_pcpu_template.
@@ -119,6 +160,9 @@ e1af35d666170f2f855afee1dc3f4966d566dff8 Merge branch 'mlx5-misc-fixes-2025-03-1
 4003c9e78778e93188a09d6043a74f7154449d43 Merge tag 'net-6.14-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 131c040bbb0f561ef68ad2ba6fcd28c97fa6d4cf Merge tag 'bcachefs-2025-03-13' of git://evilpiepirate.org/bcachefs
 e3a854b577cb05ceb77c0eba54bfef98a03278fa Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
-ae19a8aa35b186fb91af5346d625a8cdfe78508d Merge branch 'linus'
+3066376e59d9121dbbf72c9af7a93b5f5b00f40a Merge branch into tip/master: 'core/urgent'
+bc95a1b5ce164d975737207672d32c82d22c8c57 Merge branch into tip/master: 'locking/urgent'
+3bd9006207d40f28d850a0f10eb358d6fb1eec16 Merge branch into tip/master: 'sched/urgent'
+e2751f3c3bc16b129ac59044b8601b20c2054ff3 Merge branch into tip/master: 'x86/urgent'
 
---===============9218655890129921235==--
+--===============7576745474891105137==--
