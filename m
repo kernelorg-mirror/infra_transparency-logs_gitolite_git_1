@@ -1,25 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Fri, 14 Mar 2025 19:10:16 -0000
-Message-Id: <174197941684.3611841.6193851537385251560@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Fri, 14 Mar 2025 19:13:10 -0000
+Message-Id: <174197959089.3613179.5642738570945677052@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/master
-    old: 64199c5bf76806f13a78b9fd5792ccfcb28a5551
-    new: d2c2db8830f8fcbb736bdea52b398257447bef6b
+  - ref: refs/heads/v6.15-armsoc/dts64
+    old: 1f04a241759e78c0295f09731f9de3d7eb1ea6e5
+    new: 09b0a7b63a6cda138e2e47c6acb2aee80338624c
     log: |
-         0c1e05eb27abb5e8ed2aafca1af064e13867165a man/man7/ip.7: Document capabilities to use IP_TRANSPARENT
-         a5a0d879ed4d3632a6f1ecca656f0c2e2261804b man/man2/getsockopt.2: SYNOPSIS: Add missing _Nullable qualifier
-         12d0bfcece370d862554cfc399e7b54b45bfe64f man/man3/: SYNOPSIS: Fix incorrect array parameters
-         c9e9b0fc51a07f559a41c4e1a95da255444cf600 etc/cppcheck/cppcheck.suppress: Suppress nullPointerOutOfMemory
-         facbc15869a135d9d47a0884de9299a3e72ef1b5 man/: EXAMPLES: Add missing 'static'
-         44930b7b8eacbfff12acd1dcfbb66dd818e35254 etc/cppcheck/cppcheck.suppress: Suppress staticFunction
-         d2c2db8830f8fcbb736bdea52b398257447bef6b man/: SYNOPSIS: Use GNU forward-declarations of parameters for sizes of array parameters
+         e0945a08fc7f7ed26c8dae286a3d30a68ad37d50 arm64: dts: rockchip: Fix pcie reset gpio on Orange Pi 5 Max
+         28699ca6d9018201674787e7b6bdce68d9cf7256 dt-bindings: clock: rk3576: add SCMI clocks
+         b5cb721adbe8b6c7a8e3b178fa0feb283f4a660a arm64: dts: rockchip: fix RK3576 SCMI clock IDs
+         09b0a7b63a6cda138e2e47c6acb2aee80338624c arm64: dts: rockchip: Fix PWM pinctrl names
          
