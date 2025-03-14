@@ -1,43 +1,37 @@
-Content-Type: multipart/mixed; boundary="===============8076537402372456568=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Fri, 14 Mar 2025 14:28:12 -0000
-Message-Id: <174196249255.3357040.13142037036959867247@gitolite.kernel.org>
-
---===============8076537402372456568==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Fri, 14 Mar 2025 14:47:56 -0000
+Message-Id: <174196367681.3373225.2049095927651657262@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/tags/platform-drivers-x86-v6.14-5
-    old: 0000000000000000000000000000000000000000
-    new: 1090b25ed112080cf7c01bd0b180f41a89a69046
-
---===============8076537402372456568==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1741962520 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1741962489-6d9dbe91ed8c831056cd04032f4ad84c4ad79c65
-
-0000000000000000000000000000000000000000 1090b25ed112080cf7c01bd0b180f41a89a69046 refs/tags/platform-drivers-x86-v6.14-5
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZ9Q9GQAKCRBZrE9hU+XO
-MSBPAQCliUvEzFEw+lob1B73k0MZE0h8rhara2lmI9U+a4kpKAEAnBnKmt4Hw5Ml
-ZZPO1A5nZwkewK9w0mCWwhB57WE9NQU=
-=7G5P
------END PGP SIGNATURE-----
-
---===============8076537402372456568==--
+  - ref: refs/heads/bleeding-edge
+    old: ca47140abd6f3c129e8d938fbcbdfa9b77f7a86b
+    new: 1fe6dd9309d02a2f3487b5495bea602d9e057548
+    log: |
+         20452728fb3ed78e3446ecd87a2d043983a6c486 Merge branch 'pm-sleep' into pm-sleep-testing
+         4137c94233e2349d099333cfb5bdb3b327d59c47 PM: sleep: Resume children after resuming the parent
+         bd0e88e87a44a83eff49f7d6fc2179d25c4260f4 PM: sleep: Suspend async parents after suspending children
+         07bc2de24d6587bb966298d5b5c1c5667c261758 PM: sleep: Make suspend of devices more asynchronous
+         6236c5cdeff6cf31eba95af19d8dd18a09f3ca7a PM: sleep: Make async suspend handle suppliers like parents
+         e6265d5150986c49b3017afda0d1575fa2b2e19c PM: sleep: Make async resume handle consumers like children
+         1fe6dd9309d02a2f3487b5495bea602d9e057548 Merge branch 'pm-sleep-testing' into bleeding-edge
+         
+  - ref: refs/heads/pm-sleep-testing
+    old: 9c21d0b5f3bcb4dda78aee0f53ba8ce02be67293
+    new: e6265d5150986c49b3017afda0d1575fa2b2e19c
+    log: |
+         03f1444016b71feffa1dfb8a51f15ba592f94b13 PM: sleep: Fix handling devices with direct_complete set on errors
+         20452728fb3ed78e3446ecd87a2d043983a6c486 Merge branch 'pm-sleep' into pm-sleep-testing
+         4137c94233e2349d099333cfb5bdb3b327d59c47 PM: sleep: Resume children after resuming the parent
+         bd0e88e87a44a83eff49f7d6fc2179d25c4260f4 PM: sleep: Suspend async parents after suspending children
+         07bc2de24d6587bb966298d5b5c1c5667c261758 PM: sleep: Make suspend of devices more asynchronous
+         6236c5cdeff6cf31eba95af19d8dd18a09f3ca7a PM: sleep: Make async suspend handle suppliers like parents
+         e6265d5150986c49b3017afda0d1575fa2b2e19c PM: sleep: Make async resume handle consumers like children
+         
