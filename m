@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7864443415436943739=="
+Content-Type: multipart/mixed; boundary="===============2626776360385745876=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 14 Mar 2025 17:53:09 -0000
-Message-Id: <174197478986.3542335.5731972177877540095@gitolite.kernel.org>
+Date: Fri, 14 Mar 2025 17:53:12 -0000
+Message-Id: <174197479249.3542462.15064891114237153465@gitolite.kernel.org>
 
---===============7864443415436943739==
+--===============2626776360385745876==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 89d75c4c67aca1573aff905e72131a10847c5fda
     new: bfc6c67ec2d64d0ca4e5cc3e1ac84298a10b8d62
     log: revlist-89d75c4c67ac-bfc6c67ec2d6.txt
 
---===============7864443415436943739==
+--===============2626776360385745876==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -374,4 +374,4 @@ e1af35d666170f2f855afee1dc3f4966d566dff8 Merge branch 'mlx5-misc-fixes-2025-03-1
 a1e36ec36356e33fd089761021e0de031ae3a06a selftests: drv-net: fix merge conflicts resolution
 bfc6c67ec2d64d0ca4e5cc3e1ac84298a10b8d62 net/smc: use the correct ndev to find pnetid by pnetid table
 
---===============7864443415436943739==--
+--===============2626776360385745876==--
