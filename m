@@ -1,60 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============7515860763079071521=="
+Content-Type: multipart/mixed; boundary="===============1724430932528177942=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 14 Mar 2025 07:43:36 -0000
-Message-Id: <174193821681.2987714.770483371071976069@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Fri, 14 Mar 2025 07:44:15 -0000
+Message-Id: <174193825589.2988288.7718097350157673402@gitolite.kernel.org>
 
---===============7515860763079071521==
+--===============1724430932528177942==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: ac00bc2aeeacaa6e899d570e0c442cfc64978362
-    new: c44e3d3cdb74c066ece370d66021b9ebff315c9a
+  - ref: refs/heads/char-misc-testing
+    old: a425990fa96e4968b3774de4100728782dc412f4
+    new: 124bb4e757990e809ec1870f64704ea0921dc418
     log: |
-         9a665fe3d967fe46edb4fd2497c7a5cc2dac2f55 USB: serial: option: match on interface class for Telit FN990B
-         4981bb50392b7515b765da28cf8768ce624c2670 USB: serial: option: add Telit Cinterion FE990B compositions
-         6232f0d8e100a26275bbd773fc56a60af2c95322 USB: serial: option: fix Telit Cinterion FE990A name
-         18e0885bd2ca738407036434418a26a58394a60e USB: serial: ftdi_sio: add support for Altera USB Blaster 3
-         c44e3d3cdb74c066ece370d66021b9ebff315c9a Merge tag 'usb-serial-6.14-rc7' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
+         c8006fbd0f4fd15fa990786ff9a097b45eef616c bus: mhi: host: Remove unused functions
+         cba6bdfd79291b82422b6e6b4036ebc076d5625f bus: mhi: host: pci_generic: Add support for SA8775P endpoint
+         0686a818d77a431fc3ba2fab4b46bbb04e8c9380 bus: mhi: host: Fix race between unprepare and queue_buf
+         124bb4e757990e809ec1870f64704ea0921dc418 Merge tag 'mhi-for-v6.15' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/mani/mhi into char-misc-next
          
 
---===============7515860763079071521==
+--===============1724430932528177942==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1741938244 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1741938214-301e562ae80ede93c021f8f7020b14cf7095fa19
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1741938283 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1741938253-507d9d39e623ca5f369ab27bfb11c0ba49dd66b1
 
-ac00bc2aeeacaa6e899d570e0c442cfc64978362 c44e3d3cdb74c066ece370d66021b9ebff315c9a refs/heads/usb-linus
+a425990fa96e4968b3774de4100728782dc412f4 124bb4e757990e809ec1870f64704ea0921dc418 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfT3kQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CaoQAJnSTavpmJYNvesFLTUh
-aBbUgvq3anxkwUxoPNP0uOgeddxP3hipnqZTgJ5AX9hZAIlZvSyq6xB3oi4JWCHT
-12Ah9KaS73hdWL5E/j4kCCSIEc3H4cC8hOO4jLkxOwfnhKeyceYQNqYmnhzBVu++
-rBcQ+2TWj1CY+MlH2zy+HYGXIHjLKv+yk2Ox7fXGio+mRC8HJqO42QtJQiAbpBUF
-skyZOhFYJmBDM9CF2eomvIeGyqDN2Sg+h9Bf7FMTHb8VHp8zxEmUpQhztC392vuX
-PmaHtrbxahaZAMSyS+BdFUFGOu1sHzUo/6LHGVMG3dSi4J36+bet8qDSzr33Q8WQ
-SddXWqALNm1u7fKqV8duebDO6Kt0BtEjYWQ7KLmzZO2k5TeVuvexIbYI8tGLMl0E
-dnWzodZIq0Ll38TvWdsx/tbdf+BUhyLWoD821MF4+Akdsplvf59Nz3jwhF1HE2+W
-XLNtYzoe5iglWCM9sk5OUwHYAevtFLlOLvcFgNj52lAh7smPY0sO+kCGAErXBTUr
-rA9RXZweVOssJsP8WTXsVZZj5q74W3HjBdJLVOLMSpo4WUUxPueAQV0iEgaBGhQM
-Lmlov0UOh3q8UwuGbhJbkAdSCweVgebf0a4RLlMaJ6c6wpxQPrCCSzWuYpIcXJ1k
-0sZnCxkKdL3rJDgpys24FoDA
-=zCAm
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfT3msbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IFIP/2FLNnje3narnw3rRBXs
+mgSFS1a6RPZpTMJPa2E4cb67Z0LAaUzw5iCawxuB7p1dEm1B0zKVKc95kNWPjfjv
+DJ1gZ38yXtTRHFzfMu7I+15NBSccwScB5CiL2ZC7+H+1HeV3y53PDRqNCdjIhRjn
+PCDw+RU5Rr3ZJbcfqeZxx2+EIsiWSSd0+BRS1fLeGtPvnD2ltHTBl0LkCpchTP0k
+4oAMQgI0IMI8yf/+04a2AWimi5aOX5u1T0BdxX8pYlZk7DCB++BCBo/wCHLyAMf/
+Dk0SMjy9tieGSzdGCO+K3zjCGfER7AEkQ1PKrOSp4VRVIQ7p4YAIwwLJPJiUaIr+
+6gdMzspSaclJzX9bYbJFfRxIWGWVAnP8g9UrzvVRRO65yeKj9Pw/583/jQio7Wvr
+erv5phKsX4PMuWc9nyTcXjKMmfx4EzGs9/4ZWcn78OjNNSOu+1Lhb1Mpcyc6FWad
+pRiPzAqoGgIseh6QR0pMvhw50cl1bdkEb1AjR6SbBgkp2xoGsetFgC0/e8thHL2G
+egb6h0xYqrcax+x8zYohCUm3RbUH2YC230g1SM2lmpkPHEB7BrzM1lNyAww/IouC
+TighOYo4q8ChUy9m/2t9UazvYWvIsSnudyKL43wSdR0j9v7rK3V0uJ84GhHIc8lV
+RgFvB8PgHC7r1ZQs39FL45k/
+=UU0a
 -----END PGP SIGNATURE-----
 
---===============7515860763079071521==--
+--===============1724430932528177942==--
