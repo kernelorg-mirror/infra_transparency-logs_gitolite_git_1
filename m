@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 14 Mar 2025 20:13:14 -0000
-Message-Id: <174198319425.3666049.9624121602241370119@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Fri, 14 Mar 2025 20:13:33 -0000
+Message-Id: <174198321387.3666368.454597561737962392@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/locking/core
-    old: f73ca66f0d7f4371d172d6f5b1f9a00e367ba921
-    new: 35e6b537af85d97e0aafd8f2829dfa884a22df20
+  - ref: refs/heads/dev-queue
+    old: 36ae938f232abb00843a6ed903f8bcdefbd6220e
+    new: 9ad216aee37dcca320522fe288491289b2005793
     log: |
-         87886b32d669abc11c7be95ef44099215e4f5788 lockdep: Don't disable interrupts on RT in disable_irq_nosync_lockdep.*()
-         35e6b537af85d97e0aafd8f2829dfa884a22df20 lockdep: Remove disable_irq_lockdep()
+         9ad216aee37dcca320522fe288491289b2005793 i40e: fix MMIO write access to an invalid page in i40e_clear_hw
          
