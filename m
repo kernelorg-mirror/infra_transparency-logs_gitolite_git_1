@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8386104881596624582=="
+Content-Type: multipart/mixed; boundary="===============0044102908392378104=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 14 Mar 2025 08:17:24 -0000
-Message-Id: <174194024498.3018930.16424004100767645102@gitolite.kernel.org>
+Date: Fri, 14 Mar 2025 08:18:40 -0000
+Message-Id: <174194032071.3019636.4767726446134368642@gitolite.kernel.org>
 
---===============8386104881596624582==
+--===============0044102908392378104==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,44 +17,48 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 28a76fcc4c85dd39633fb96edb643c91820133e3
-    new: 042c3dd1f2d3f8a27c5bb9c2e7866a674607d4d4
+    old: 042c3dd1f2d3f8a27c5bb9c2e7866a674607d4d4
+    new: 3a85c10115407588fad696d6c121d54cd5ba5d72
     log: |
-         bcb71579db5e9ce0c1332a7574948ddacfaabfa9 usb: common: usb-conn-gpio: switch psy_cfg from of_node to fwnode
-         440ca0cfdfd0d7cf575e9176c07358a1ed2477ba dt-bindings: usb: qcom,dwc3: Synchronize minItems for interrupts and -names
-         8c75f3e6a433d92084ad4e78b029ae680865420f usb: gadget: aspeed: Add NULL pointer check in ast_vhub_init_dev()
-         f4aa6caa8b420bcc0813fccecbc35f43203297df usb: core: Don't use %pK through printk
-         042c3dd1f2d3f8a27c5bb9c2e7866a674607d4d4 usb: dwc3: Don't use %pK through printk
+         64eb182d5f7a5ec30227bce4f6922ff663432f44 usb: host: xhci-plat: mvebu: use ->quirks instead of ->init_quirk() func
+         7aad3a42fee569ad141798a958c22eb683c37b69 usb: xhci: tegra: rename `runtime` boolean to `is_auto_runtime`
+         0bde749c58c72405c54a1eabf6266a0273377226 usb: cdns3: rename hibernated argument of role->resume() to lost_power
+         17c6526b333cfd89a4c888a6f7c876c8c326e5ae usb: cdns3: call cdns_power_is_lost() only once in cdns_resume()
+         24346dc29174632237ad3f6f920fbe0765061cf9 usb: cdns3-ti: move reg writes to separate function
+         9925aa4b025e46cffc9fc98c5fb28a4a303a739b usb: cdns3-ti: run HW init at resume() if HW was reset
+         34cca0ceab5ba34a7cfaa32bbca5eb7abb85622b usb: xhci: change xhci_resume() parameters to explicit the desired info
+         668cc6bc1178ac94a6ff0eba3a9e8be59f89c318 usb: host: xhci-plat: allow upper layers to signal power loss
+         3a85c10115407588fad696d6c121d54cd5ba5d72 usb: host: cdns3: forward lost power information to xhci
          
 
---===============8386104881596624582==
+--===============0044102908392378104==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1741940271 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1741940346 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1741940241-ba10ecc8f6494044d1b045ae6b8fdede9fa4591f
+nonce 1741940316-cadadb24e40dd87077fe3365f71bc66b9948f4c1
 
-28a76fcc4c85dd39633fb96edb643c91820133e3 042c3dd1f2d3f8a27c5bb9c2e7866a674607d4d4 refs/heads/usb-testing
+042c3dd1f2d3f8a27c5bb9c2e7866a674607d4d4 3a85c10115407588fad696d6c121d54cd5ba5d72 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfT5i8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UK8QAMN2x0gOXIg2g5ZWECw6
-gWA3KDiCTJSq9ubnPyBBjasqc9f8vyPf0l0yZzkdi7wbcGs4DNpWlCqTqE1zoH5e
-Krx1I9eAB96KbwiBwWOCYqIXqcmYTOFUcV3wRUoacL8k03NjXMDK1/zrBjNoqu2c
-SNeoqQA5KjuuFnsfe7r0Y9QQjxuTCfxMMBSqqlCrGEddwmrLcxWuNWZgoJcUa7UC
-TZ3cJpra2GbWGu/6w261LBwWCPi+yBMqi4c0dEM1jEwRoHoF/VO7ceJHCUJdFduB
-R9RxA+eiC3ieSwhz5fdvI9DtJdcvB2q3vLnHFO9UATVtuHlYIHC8oRWl3Zg+cf6p
-1Vxk8jMrsQpdhKTAwGAlVYKlROzcVrhkZTHNCNtffevMHBnKf7ZeltjPtDhH/oJE
-UllWy4AmHW98XyAOwFaXWBznTCWcRYJB/9EJKRfC/jhOhcEa6sQsdl014Pvei4EF
-SaivwLihnvns23QMdp3xODSdcqMkfRlltUUEHBXBoKynQrqD3bI3AvWdYzleGTMQ
-PETmpxpFfM4AWsZuo7IcIOmHs/jsXd3y6ZfMdhqZW6tEqMumI/LUo8zYo/dgl9UU
-MOuMrMoXlBJ1PD0Wq6t+WQNWqkSyBgG4PcBB5dBrN7J2R7f+vHSxT3RhQ5VAA1nW
-aPNoOyt+HIcxKzUaVOl5s2pL
-=nAPF
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfT5nsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FqkQAL+1fd3kdQ6Bpr1ELgay
+2S4PsIZJxAWjk+e0wGX7OUEnzUcMlMyWz6gL4NXJJTfCt7ZRrIbTJ+z90WH2W3bn
+JiXneYLKfQqa52PWkYWP9jUBOlmuFQ/gz/P/T3zCcK6LABktMEcGKPgDgKrTpjwz
+vWGz6w8Vax56sbyw9pndMjSbQ7lMGn0D0XlSg5+Wm9RChBx4FKH0tIzbzVbBUWhE
+Uo59mnuJ46U8ffo+1dNIhN5/sx0sBVfyVLbk7X+oRQLbvj6C2BW2cHMYcxrifEEp
+BvoQyw3u3hy02xqbu9EWE7YxE9CU8weh/Qr35l6jkyfnVjh+pP01Lo3+s2qJwYFh
+fkgHlyYP4XqM9qpK6XrwvqCwvZ/7Fm1hKhEboosEdb1I8FVuSUPF8Eu3gg5ZseCX
+N+NPJqy54+DJyt+ahCVYFJnZmL1x0EpJ4ummdfaWsTHAM5jNIlyjKCaZfB0HRd48
+0SLrbegglR9jdkHaGiQBfZ0PBLzNEsy/TEUmqMyQNNC3Vvb1uDo/rcpGmIyu6TG2
+R9WtbZ3Rakjm1mdYct+gqKOxvc2hDAPgoVqqeFcI1/S3Q9G6SePPXWNaxXokeT/f
+nH25jIh4o9HCEI+pWOb/dDZOjjasNsOtBN6wZfhlVhZNsxYl9hO81k0P6y6lLauV
+xiP/X7I6MVHiMA3jWkuXWB2m
+=WGzK
 -----END PGP SIGNATURE-----
 
---===============8386104881596624582==--
+--===============0044102908392378104==--
