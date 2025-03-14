@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8114188656750177515=="
+Content-Type: multipart/mixed; boundary="===============1245176761548003578=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Fri, 14 Mar 2025 07:54:34 -0000
-Message-Id: <174193887401.2998869.4776446453846673335@gitolite.kernel.org>
+Date: Fri, 14 Mar 2025 07:56:03 -0000
+Message-Id: <174193896336.3001433.1665118237273090213@gitolite.kernel.org>
 
---===============8114188656750177515==
+--===============1245176761548003578==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xen/tip
 user: jgross
 changes:
-  - ref: refs/heads/master
-    old: ffd294d346d185b70e28b1a28abe367bbfe53c04
+  - ref: refs/heads/linux-next
+    old: 75ad02318af2e4ae669e26a79f001bd5e1f97472
     new: 80e54e84911a923c40d7bee33a34c1b4be148d7a
-    log: revlist-ffd294d346d1-80e54e84911a.txt
+    log: revlist-75ad02318af2-80e54e84911a.txt
 
---===============8114188656750177515==
+--===============1245176761548003578==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ffd294d346d1-80e54e84911a.txt
+Content-Disposition: attachment; filename=revlist-75ad02318af2-80e54e84911a.txt
 
+05793884a1f30509e477de9da233ab73584b1c8c s390/pci: Pull search for parent PF out of zpci_iov_setup_virtfn()
+2844ddbd540fc84d7571cca65d6c43088e4d6952 s390/pci: Fix handling of isolated VFs
+c195b9c6ab9c383d7aa3f4a65879b3ca90cb378b thermal/netlink: Prevent userspace segmentation fault by adjusting UAPI header
 a6768c4f92e152265590371975d44c071a5279c7 thermal/cpufreq_cooling: Remove structure member documentation
 7d1163fc08936fcb5cf5d9daf366c322c3b4e882 arm64: dts: rockchip: disable IOMMU when running rk3588 in PCIe endpoint mode
 8546cfd08aa4b982acd2357403a1f15495d622ec arm64: dts: rockchip: adjust SMMU interrupt type on rk3588
@@ -105,9 +108,6 @@ a4cc8494f1d853a0945d2a655b4891935d717355 arm64: Add missing registrations of hwc
 ed975485a13d1f6080218aa71c29425ba2dfb332 MIPS: Export syscall stack arguments properly for remote use
 733a90561ad0a4a74035d2d627098da85d43b592 MIPS: fix mips_get_syscall_arg() for o32
 446a8351f160d65a1c5df7097f31c74102ed2bb1 arm64: rust: clean Rust 1.85.0 warning using softfloat target
-85fcb57c983f423180ba6ec5d0034242da05cc54 xen/swiotlb: relax alignment requirements
-e93ec87286bd1fd30b7389e7a387cfb259f297e3 x86/xen: allow larger contiguous memory regions in PV guests
-75ad02318af2e4ae669e26a79f001bd5e1f97472 Xen/swiotlb: mark xen_swiotlb_fixup() __init
 4cf7d58620bfc2ebe934e3dfa97208f13f14ab8b genirq: Remove unused CONFIG_GENERIC_PENDING_IRQ_CHIPFLAGS
 ab027c488fc4a1fff0a5b712d4bdb2d2d324e8f8 firmware: arm_scmi: imx: Correct tx size of scmi_imx_misc_ctrl_set
 81f64e925c29fe6e99f04b131fac1935ac931e81 PCI: Avoid FLR for Mediatek MT7922 WiFi
@@ -1051,4 +1051,4 @@ a382b06d297e78ed7ac67afd0d8e8690406ac4ca Merge tag 'for-linus' of git://git.kern
 9712d38c87087ae34f8cede6583092c272507c52 Merge tag 'kbuild-fixes-v6.14-3' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 80e54e84911a923c40d7bee33a34c1b4be148d7a Linux 6.14-rc6
 
---===============8114188656750177515==--
+--===============1245176761548003578==--
