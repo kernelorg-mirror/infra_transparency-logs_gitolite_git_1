@@ -1,135 +1,87 @@
-Content-Type: multipart/mixed; boundary="===============6028931275470788402=="
+Content-Type: multipart/mixed; boundary="===============9037562652410956620=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Fri, 14 Mar 2025 16:35:43 -0000
-Message-Id: <174197014324.3472857.4568101849364741986@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Fri, 14 Mar 2025 16:58:24 -0000
+Message-Id: <174197150472.3490172.14244301943963211280@gitolite.kernel.org>
 
---===============6028931275470788402==
+--===============9037562652410956620==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/netfs-fixes
-    old: df64eabc446344b2c6101759164755c372ffa473
-    new: b819bc34999f552b54b700684f0904f27a47aed2
+  - ref: refs/heads/main
+    old: c9d3534de317f31915f37e9d9c0d52d4cf901482
+    new: 683c54c999c301c2cd6f715c411407c413b1d84e
     log: |
-         d4350791830f23b184abe46490a90f198d7fea72 netfs: Fix rolling_buffer_load_from_ra() to not clear mark bits
-         e1c4d78fb8c784b71d20a9934f3f897c019af64c netfs: Fix netfs_unbuffered_read() to return ssize_t rather than int
-         00fdd6f1c29c9b9eafe6fcf6d8bd9125fa41e5f0 netfs: Fix the request's work item to not require a ref
-         54a168592b427b595344b2e0fd4c82e168da182c netfs: Fix wait/wake to be consistent about the waitqueue used
-         9d1e5301fb3c94594481962f96bf3a61ee41fc90 netfs: Use rreq->issued_to instead of rreq->submitted
-         27f8f3167b7f72fcaec6a82c461260be41fbce5c smb: client: Fix netns refcount imbalance causing leaks and use-after-free
-         b819bc34999f552b54b700684f0904f27a47aed2 CIFS: Propagate min offload along with other parameters from primary to secondary channels.
+         683c54c999c301c2cd6f715c411407c413b1d84e Git 2.49
          
-  - ref: refs/remotes/linus/master
-    old: b7f94fcf55469ad3ef8a74c35b488dbfa314d1bb
-    new: e3a854b577cb05ceb77c0eba54bfef98a03278fa
-    log: revlist-b7f94fcf5546-e3a854b577cb.txt
+  - ref: refs/heads/master
+    old: c9d3534de317f31915f37e9d9c0d52d4cf901482
+    new: 683c54c999c301c2cd6f715c411407c413b1d84e
+    log: |
+         683c54c999c301c2cd6f715c411407c413b1d84e Git 2.49
+         
+  - ref: refs/heads/seen
+    old: 1e3fb46fec8a8184685ee5ba9878a5aff67b478b
+    new: f28410bfc82bb756a2a97afa00099e237befecea
+    log: revlist-1e3fb46fec8a-f28410bfc82b.txt
+  - ref: refs/notes/amlog
+    old: f58136daeeff5f660c7e66b2fa1a8645327ad17c
+    new: 62e55f7d143c1f8e3db963b59efc471b06ea9829
+    log: |
+         62e55f7d143c1f8e3db963b59efc471b06ea9829 amlog
+         
+  - ref: refs/tags/v2.49.0
+    old: 0000000000000000000000000000000000000000
+    new: 8c9ea59d6eeabbfc5642d99353fce2192645ba1c
 
---===============6028931275470788402==
+--===============9037562652410956620==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b7f94fcf5546-e3a854b577cb.txt
+Content-Disposition: attachment; filename=revlist-1e3fb46fec8a-f28410bfc82b.txt
 
-b8501febdc513541afc5663d063bfac7ea575b71 clk: qcom: dispcc-sm8750: Drop incorrect CLK_SET_RATE_PARENT on byte intf parent
-5cfe5612ca9590db69b9be29dc83041dbf001108 netfilter: nft_ct: Use __refcount_inc() for per-CPU nft_ct_pcpu_template.
-3be83ee9de0298f8321aa0b148d8f9995102e40f ice: do not configure destination override for switchdev
-23d97f18901ef5e4e264e3b1777fe65c760186b5 ice: fix memory leak in aRFS after reset
-dce97cb0a3e34204c0b99345418a714eac85953f ice: Fix switchdev slow-path in LAG
-2a3e89a14864090ee4804fcec655ffc15fabf45c ice: register devlink prior to creating health reporters
-f2052a4a62465c0037aef7ea7426bffdb3531e41 clk: samsung: gs101: fix synchronous external abort in samsung_clk_save()
-53517a70873c7a91675f7244768aad5006cc45de clk: samsung: update PLL locktime for PLL142XX used on FSD platform
-df08c94baafb001de6cf44bb7098bb557f36c335 netfilter: nf_conncount: garbage collection is not skipped when jiffies wrap around
-fb8286562ecfb585e26b033c5e32e6fb85efb0b3 netfilter: nf_tables: make destruction work queue pernet
-e4e832d2b9e84d1a290f0279b10593cf465e6fb1 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-115ef44a98220fddfab37a39a19370497cd718b9 sched: address a potential NULL pointer dereference in the GRED scheduler.
-fc14f9c02639dfbfe3529850eae23aef077939a6 Merge tag 'nf-25-03-06' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-d048c84bc1d6b831ca4e3381a16fb616ad96d8db wifi: rework MAINTAINERS entries a bit
-bbb18f7e23a3f5f56d5c8b4ee0f78f00edb3b1b2 wifi: iwlwifi: pcie: Fix TSO preparation
-b8c8a03e9b7bfc06f366b75daf3d0812400e7123 wifi: iwlwifi: mvm: fix PNVM timeout for non-MSI-X platforms
-1801a94299a5c7fc1a6825e92e1ce0dc7099faa9 wifi: iwlwifi: trans: cancel restart work on op mode leave
-43e04077170799d0e6289f3e928f727e401b3d79 wifi: mac80211: flush the station before moving it to UN-AUTHORIZED state
-20d5a0b9cd0ccb32e886cf6baecf14936325bf10 wifi: mac80211: don't queue sdata::work for a non-running sdata
-2e85829ac7fbbd57b93f6cd334b6d448c9ce9db3 wifi: nl80211: fix assoc link handling
-9a267ce4a3fca93a34a8881046f97bcf472228c8 wifi: mac80211: fix SA Query processing in MLO
-72d520476a2fab6f3489e8388ab524985d6c4b90 wifi: cfg80211: cancel wiphy_work before freeing wiphy
-75ddcd5ad40ecd9fbc9f5a7a2ed0e1e74921db3c Bluetooth: btusb: Configure altsetting for HCI_USER_CHANNEL
-8d74c9106be8da051b22f0cd81e665f17d51ba5d Bluetooth: SCO: fix sco_conn refcounting on sco_conn_ready
-0bdd88971519cfa8a76d1a4dde182e74cfbd5d5c Bluetooth: hci_event: Fix enabling passive scanning
-ab6ab707a4d060a51c45fc13e3b2228d5f7c0b87 Revert "Bluetooth: hci_core: Fix sleeping function called from invalid context"
-8ef0f2c01898559eede2c51cb89dbf07acdc6c7a Merge tag 'for-net-2025-03-07' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
-f3600c867c99a2cc8038680ecf211089c50e7971 netmem: prevent TX of unreadable skbs
-d749d901b2168389f060b654fdaa08acf6b367d2 net/mlx5: Fill out devlink dev info only for PFs
-dc5340c3133a3ebe54853fd299116149e528cfaa net: dsa: mv88e6xxx: Verify after ATU Load ops
-26db9c9ee19c36a97dbb1cfef007a3c189c4c874 net: mctp i3c: Copy headers if cloned
-df8ce77ba8b7c012a3edd1ca7368b46831341466 net: mctp i2c: Copy headers if cloned
-a07364b394697d2e0baffeb517f41385259aa484 net: phy: nxp-c45-tja11xx: add TJA112X PHY configuration errata
-48939523843e4813e78920f54937944a8787134b net: phy: nxp-c45-tja11xx: add TJA112XB SGMII PCS restart errata
-e6360f0dc52b93a723c748e281fb99b430297da4 Merge branch 'net-phy-nxp-c45-tja11xx-add-errata-for-tja112xa-b'
-505ead7ab77f289f12d8a68ac83da068e4d4408b netpoll: hold rcu read lock in __netpoll_send_skb()
-823869e1e61607ab0d433de3c8abed221dc80a5e afs: Fix afs_atcell_get_link() to handle RCU pathwalk
-accdd1198eaafd82d03390def709c9865ea5859b Merge afs RCU pathwalk fix
-eab0396353be1c778eba1c0b5180176f04dd21ce net/mlx5: handle errors in mlx5_chains_create_table()
-d0a4a1b36d7a71b45972ef33762c3fc082bec1db net: ethtool: tsinfo: Fix dump command
-cfa693bf9d5361608e2963f5dae053b3695af8eb net: usb: lan78xx: Sanitize return values of register read/write functions
-9f7b2aa5034e24d3c49db73d5f760c0435fe31c2 eth: bnxt: fix truesize for mb-xdp-pass case
-ca2456e073957781e1184de68551c65161b2bd30 eth: bnxt: return fail if interface is down in bnxt_queue_mem_alloc()
-661958552eda5bf64bfafb4821cbdded935f1f68 eth: bnxt: do not use BNXT_VNIC_NTUPLE unconditionally in queue restart logic
-c03e7d05aa0e2f7e9a9ce5ad8a12471a53f941dc eth: bnxt: do not update checksum in bnxt_xdp_build_skb()
-f09af5fdfbd9b0fcee73aab1116904c53b199e97 eth: bnxt: fix kernel panic in the bnxt_get_queue_stats{rx | tx}
-87dd2850835dd7886726b428a8ef7d73a60520c7 eth: bnxt: fix memory leak in queue reset
-a70f891e0fa0435379ad4950e156a15a4ef88b4d net: devmem: do not WARN conditionally after netdev_rx_queue_restart()
-75cc19c8ff8932d7da23480a49d1f9a050289c37 selftests: drv-net: add xdp cases for ping.py
-547d2db056f779bbaab67f5cec64fcda5bea819c Merge branch 'eth-bnxt-fix-several-bugs-in-the-bnxt-module'
-77b2ab31fc65c595ca0a339f6c5b8ef3adfae5c6 MAINTAINERS: sfc: remove Martin Habets
-62531a1effa87bdab12d5104015af72e60d926ff net: switchdev: Convert blocking notification chain to a raw one
-986a6f5eacb900ea0f6036ef724b26e76be40f65 vboxsf: Add __nonstring annotations for unterminated strings
-f5d83cf0eeb90fade4d5c4d17d24b8bee9ceeecc net: mctp: unshare packets when reassembling
-0c5e145a350de3b38cd5ae77a401b12c46fb7c1d bonding: fix incorrect MAC address setting to receive NS messages
-9318dc2357b6b8b2ea1200ab7f2d5877851b7382 selftests: bonding: fix incorrect mac address
-3121a1ef966e1eabcccf3960929b50d625bda78c Merge branch 'bonding-fix-incorrect-mac-address-setting'
-415f135ace7fd824cde083184a922e39156055b5 rtase: Fix improper release of ring list entries in rtase_sw_reset
-3a04334d6282d08fbdd6201e374db17d31927ba3 bcachefs: Fix b->written overflow
-d2b9d97e89c79c95f8b517e4fa43fd100f936acc qlcnic: fix memory leak issues in qlcnic_sriov_common.c
-58517f4df8424ec28dfe7290ccc61908eda57aae bcachefs: Initialize from_inode members for bch_io_opts
-dbac8feb23382af1efa2e1a86049e079b6e42e12 bcachefs: Make sure trans is unlocked when submitting read IO
-54493279312f9e6edf64173681cb18d1df4297c1 Merge tag 'samsung-clk-fixes-6.14' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into clk-fixes
-8ae227f8a7749eec92fc381dfbe213429c852278 wifi: mac80211: fix MPDU length parsing for EHT 5/6 GHz
-081b575617e6f9355edf054cb907bdb8af7ed149 Merge tag 'wireless-2025-03-12' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
-d653bfeb07ebb3499c403404c21ac58a16531607 netfilter: nf_conncount: Fully initialize struct nf_conncount_tuple in insert_tree()
-c21b02fd9cbf15aed6e32c89e0fd70070281e3d1 selftests: netfilter: skip br_netfilter queue tests if kernel is tainted
-80b78c39eb86e6b55f56363b709eb817527da5aa ipvs: prevent integer overflow in do_ip_vs_get_ctl()
-0c3057a5a04d07120b3d0ec9c79568fceb9c921e net_sched: Prevent creation of classes with TC_H_ROOT
-bb7737de5f593155aabbca283f4822176f4e7d6b selftests/tc-testing: Add a test case for DRR class with TC_H_ROOT
-83d2fe6b193c46088a78f1fbb134f5f8f752fffd Merge branch 'net_sched-prevent-creation-of-classes-with-tc_h_root'
-3bcde88d381a336ff252d67867c186ee602e6656 bcachefs: fix tiny leak in bch2_dev_add()
-6edd78af9506bb182518da7f6feebd75655d9a0e netfilter: nft_exthdr: fix offset with ipv4_find_option()
-183185a18ff96751db52a46ccf93fff3a1f42815 gre: Fix IPv6 link-local address generation.
-6f50175ccad4278ed3a9394c00b797b75441bd6e selftests: Add IPv6 link-local address generation tests for GRE devices.
-b3fc5927de4b24c3c0f3206dd1e26f9fa0eecdc6 Merge branch 'gre-fix-regressions-in-ipv6-link-local-address-generation'
-a1e64addf3ff9257b45b78bc7d743781c3f41340 net: openvswitch: remove misbehaving actions length check
-1063ae07383c0ddc5bcce170260c143825846b03 Revert "openvswitch: switch to per-action label counting in conntrack"
-03ebae19925519cca5b314443c6082e0aeaa6321 net/mlx5: DR, use the right action structs for STEv3
-521992337f67f71ce4436b98bc32563ddb1a5ce3 net/mlx5: HWS, Rightsize bwc matcher priority
-32d2724db5b2361ab293427ccd5c24f4f2bcca14 net/mlx5: Fix incorrect IRQ pool usage when releasing IRQs
-32966984bee1defd9f5a8f9be274d7c32f911ba1 net/mlx5: Lag, Check shared fdb before creating MultiPort E-Switch
-4b8eeed4fb105770ce6dc84a2c6ef953c7b71cbb net/mlx5: Bridge, fix the crash caused by LAG state check
-e92df790d07a8eea873efcb84776e7b71f81c7d5 net/mlx5e: Prevent bridge link show failure for non-eswitch-allowed devices
-e1af35d666170f2f855afee1dc3f4966d566dff8 Merge branch 'mlx5-misc-fixes-2025-03-10'
-3e64bb2ae7d9f2b3a8259d4d6b86ed1984d5460a net: mana: cleanup mana struct after debugfs_remove()
-2409fa66e29a2c09f26ad320735fbdfbb74420da Merge tag 'nf-25-03-13' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-69a5a13a22b1def29dce62b5b7c86e6098c20c68 bcachefs: target_congested -> get_random_u32_below()
-9c18ea7ffee090b47afaa7dc41903fb1b436d7bd bcachefs: bch2_get_random_u64_below()
-8f7617f4500900f39b604ca724a34a9cfd1fa63a Merge tag 'vfs-6.14-rc7.fixes' of gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
-4003c9e78778e93188a09d6043a74f7154449d43 Merge tag 'net-6.14-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-131c040bbb0f561ef68ad2ba6fcd28c97fa6d4cf Merge tag 'bcachefs-2025-03-13' of git://evilpiepirate.org/bcachefs
-e3a854b577cb05ceb77c0eba54bfef98a03278fa Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
+683c54c999c301c2cd6f715c411407c413b1d84e Git 2.49
+8c20ac14b16003c6e89d1f8ef9c5788ea5a91230 Merge branch 'jt/diff-pairs' into jch
+31ed4dcf5904e41a24e0cbbf7e034f06a41b8775 Merge branch 'sj/ref-consistency-checks-more' into jch
+d1d1dc9a87b184a65d0d190c7c023c8c5bf29aa0 Merge branch 'tb/refs-exclude-fixes' into jch
+04b9a2415fbc72b20896aeb2cabc5bb088d678ec Merge branch 'ua/some-builtins-wo-the-repository' into jch
+40e3eecd70bc64ff2ba3aeef8953043400cd008a Merge branch 'en/merge-process-renames-crash-fix' into jch
+7f8722d5fa6594ee18665e1deb328f5fad77754f Merge branch 'ja/doc-block-delimiter-markup-fix' into jch
+e748c2e6f2f105c909fb96041772452aa123bb97 ### match next
+18f2228a20f102bbdd4a270c8334e8ca75a9c138 Merge branch 'cc/signed-fast-export-import' into jch
+9e1cb7b633a0a1fe45433aaa29b2b275ffbca717 Merge branch 'ps/refname-avail-check-optim' into jch
+e8a636876e5e43a74e2141aa4b38b89cd3720e5f Merge branch 'en/merge-ort-prepare-to-remove-recursive' into jch
+b11b913e8e15bae1f3599a8885ca860669d139f7 Merge branch 'ab/decorate-code-cleanup' into jch
+ddfadaafe3f4c964f303a118535a96370d6c7f39 Merge branch 'jk/fetch-ref-prefix-cleanup' into jch
+6d40e29ee1e66bd87cffbba79d1e85f03f0fbb65 Merge branch 'ps/ci-meson-check-build-docs' into jch
+8892ab152c6d5f651f297b15500449f08160e515 Merge branch 'ps/meson-with-breaking-changes' into jch
+dd46f94cf5996b622099456ab44d9084b1c057c6 Merge branch 'am/dir-dedup-decl-of-repository' into jch
+e57ae82596ab4a4543715d64bab082af6e4db0e0 Merge branch 'jc/name-rev-stdin' into jch
+65e790f9f079a5436795e1601a0a82b82c3e93a4 ###
+ee0c87300bf4ea7ee7fda30d075081bcc8a94622 Merge branch 'ej/cat-file-remote-object-info' into jch
+6396bc1c358a53724d9520e8d7d9216240af8400 Merge branch 'tb/incremental-midx-part-2' into jch
+a426cf607c1d229a19ed21ec7798c7deb115c6fa Merge branch 'ps/reftable-sans-compat-util' into jch
+0f70ff61f49af2340b09ce998f49367b072203ff Merge branch 'ps/reftable-windows-unlink-fix' into jch
+5f1f4394dc604a7c5cf5f5b94946abb6f06cca92 Merge branch 'jk/zlib-inflate-fixes' into jch
+74beb33f6c0746283ef7be4ba18f8e7b1e0c845b Merge branch 'md/t1403-path-is-file' into jch
+39d6d4d5a2d36f5fce96896f7dfbdabda692c00d Merge branch 'sk/clar-trailer-urlmatch-norm-test' into jch
+f708e53e6a13622331313ce705f5ec003d58a3d0 Merge branch 'ps/maintenance-reflog-expire' into jch
+fb627a8343619c0471ebbfc7c4fe70c684010050 Merge branch 'dm/completion-remote-names-fix' into jch
+5ba2a153466315117bde4029d9db72b5242f409b Merge branch 'ps/object-wo-the-repository' into jch
+35fcca23230e07a2e231a81b2f8c203fb6d33946 Merge branch 'kn/reflog-drop' into jch
+904364112a34c8eb639f80cb6434b93fe463d7d2 Merge branch 'cc/lop-remote' into seen
+772493cc31cdf0711f906ae5e667177e1fab7604 Merge branch 'tb/multi-cruft-pack-refresh-fix' into seen
+8c1cfdab911618ad6b14cdeb2d0963246c020e28 Merge branch 'jt/rev-list-z' into seen
+181b5e88be34bb5caf7470f2993603ee9b503ef1 Merge branch 'jc/doc-attr-tree' into seen
+9fbbb2e365b50f245eaf7de15e38fc078d60aba1 Merge branch 'ib/diff-S-G-with-longhand' into seen
+232845f06b44300ddd91f45bfddc75c86c917c2e Merge branch 'ds/path-walk-2' into seen
+f28410bfc82bb756a2a97afa00099e237befecea Merge branch 'en/diff-rename-follow-fix' into seen
 
---===============6028931275470788402==--
+--===============9037562652410956620==--
