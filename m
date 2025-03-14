@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4001968200316626100=="
+Content-Type: multipart/mixed; boundary="===============4545201724389735952=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Fri, 14 Mar 2025 20:00:43 -0000
-Message-Id: <174198244319.3655305.7014689104342558451@gitolite.kernel.org>
+Date: Fri, 14 Mar 2025 20:00:44 -0000
+Message-Id: <174198244491.3655411.15411109814992366373@gitolite.kernel.org>
 
---===============4001968200316626100==
+--===============4545201724389735952==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,42 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm32-for-6.15
-    old: adbbdcf4b2d6556721b580385ba387baca5c26ee
-    new: 4712dbd5fabdd5909b8b3367dfafd61f502b3bb7
-    log: |
-         5ee449c75f49c9a6b0cbff7848f922183e7888c1 ARM: dts: qcom: msm8960: Add BAM
-         4712dbd5fabdd5909b8b3367dfafd61f502b3bb7 ARM: dts: qcom: msm8960: Add thermal sensor (tsens)
-         
-  - ref: refs/heads/arm64-for-6.15
-    old: 0bbdfaa204ce673570e41fe71d4f571a82c7b04d
-    new: b49e37de8e70bc433b526a9f4382f72b7ac6492e
-    log: revlist-0bbdfaa204ce-b49e37de8e70.txt
-  - ref: refs/heads/clk-for-6.15
-    old: 8b75c2973997e66fd897b7e87b5ba2f3d683e94b
-    new: e9ed0ac3ccba65c17ed0d59c77a340a75abc317b
-    log: |
-         25708f73ff171bb4171950c9f4be5aa8504b8459 clk: qcom: gdsc: Set retain_ff before moving to HW CTRL
-         172320f5ead5d1a0eed14472ce84146221c75675 clk: qcom: gdsc: Update the status poll timeout for GDSC
-         c16e576b8aea9fe985ee9e368ea5fd37eae47b2f dt-bindings: clock: qcom: Add compatible for QCM6490 boards
-         cdbbc480f4146cb659af97f4020601fde5fb65a7 clk: qcom: lpassaudiocc-sc7280: Add support for LPASS resets for QCM6490
-         e9ed0ac3ccba65c17ed0d59c77a340a75abc317b drivers: clk: qcom: ipq5424: fix the freq table of sdcc1_apps clock
-         
-  - ref: refs/heads/drivers-for-6.15
-    old: e6512225fb0e101bd127444a6377d4c18f1b6f69
-    new: 65f330ade7daec740ed8dbdf33ccfbfcc5fbf5c8
-    log: |
-         d4471b988582db2689692c81a577ce0421b60256 soc: qcom: pd-mapper: Add support for SDM630/636
-         a9ac4ba7dcace2b3b91e7b87bf0ba97c47edd94f bus: qcom-ssc-block-bus: Remove some duplicated iounmap() calls
-         f41658cd081ad7697796b3dacd9a717a57919268 bus: qcom-ssc-block-bus: Fix the error handling path of qcom_ssc_block_bus_probe()
-         65f330ade7daec740ed8dbdf33ccfbfcc5fbf5c8 dt-bindings: power: qcom,kpss-acc-v2: add qcom,msm8916-acc compatible
-         
+  - ref: refs/heads/for-next
+    old: c1d6c9620ffbc84178b9926710d4c54786fa3dff
+    new: c7ad756b9ed8a7f2a57795cf73b0b0115d6ac7d8
+    log: revlist-c1d6c9620ffb-c7ad756b9ed8.txt
 
---===============4001968200316626100==
+--===============4545201724389735952==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0bbdfaa204ce-b49e37de8e70.txt
+Content-Disposition: attachment; filename=revlist-c1d6c9620ffb-c7ad756b9ed8.txt
 
 75eefd474469abf95aa9ef6da8161d69f86b98b4 arm64: dts: qcom: sm8350: Reenable crypto & cryptobam
 0fe6357229cb15a64b6413c62f1c3d4de68ce55f arm64: dts: qcom: sm8450: Add missing properties for cryptobam
@@ -61,18 +35,29 @@ b4cd966edb2deb5c75fe356191422e127445b830 arm64: dts: qcom: ipq9574: Add missing 
 c87d58bc7f831bf3d887e6ec846246cb673c2e50 arm64: dts: qcom: ipq9574: fix the msi interrupt numbers of pcie3
 b18c1aa6404303888ab924f149135835d223f4e8 arm64: dts: qcom: pm8937: Add LPG PWM driver
 5b74065e6c2482507435cdf7c4d0aab1830b9676 arm64: dts: qcom: msm8917-xiaomi-riva: Add display backlight
+25708f73ff171bb4171950c9f4be5aa8504b8459 clk: qcom: gdsc: Set retain_ff before moving to HW CTRL
+172320f5ead5d1a0eed14472ce84146221c75675 clk: qcom: gdsc: Update the status poll timeout for GDSC
+5ee449c75f49c9a6b0cbff7848f922183e7888c1 ARM: dts: qcom: msm8960: Add BAM
+d4471b988582db2689692c81a577ce0421b60256 soc: qcom: pd-mapper: Add support for SDM630/636
 df52f9ab185e91886c8fb0660a0768d29b4cc379 arm64: dts: qcom: Drop `tx-sched-sp` property
+c16e576b8aea9fe985ee9e368ea5fd37eae47b2f dt-bindings: clock: qcom: Add compatible for QCM6490 boards
+cdbbc480f4146cb659af97f4020601fde5fb65a7 clk: qcom: lpassaudiocc-sc7280: Add support for LPASS resets for QCM6490
 84247db00a5c4f9b6fbf23cc46979508ddd8d855 arm64: dts: qcom: sar2130p: add PCIe EP device nodes
 bffe01a9b4bbccd07a1fe2bd78c3795004b56645 arm64: dts: qcom: sm8450: add PCIe EP device nodes
 778dc0f876c70b3d781a49981560ec88e1b7083a arm64: dts: qcom: sm8750: Fix cluster hierarchy for idle states
 a3daa844ed8104617174bc1ac4554f8b88a9c878 arm64: dts: qcom: qcs615: add TRNG node
+4712dbd5fabdd5909b8b3367dfafd61f502b3bb7 ARM: dts: qcom: msm8960: Add thermal sensor (tsens)
 9ce52e908bd5c0a93a3f17ef28d19209873b573f arm64: dts: qcom: sm8650: switch to interrupt-cells 4 to add PPI partitions
 2c06e0797c32997a2ea9d1458bcdbb97c7090406 arm64: dts: qcom: sm8650: add PPI interrupt partitions for the ARM PMUs
 e03ed4ee41c054dcfc3fe8d045e016cc0aa3a22a arm64: dts: qcom: qrb5165-rb5: add compressed playback support
+a9ac4ba7dcace2b3b91e7b87bf0ba97c47edd94f bus: qcom-ssc-block-bus: Remove some duplicated iounmap() calls
+f41658cd081ad7697796b3dacd9a717a57919268 bus: qcom-ssc-block-bus: Fix the error handling path of qcom_ssc_block_bus_probe()
 05ed68070d7a061f62f502d07f883c05dc666990 arm64: dts: qcom: sa8775p: Add CTCU and ETR nodes
 37bd695c16b1b443e357eb37c09ef30b401f8b83 arm64: dts: qcom: sc7280: drop video decoder and encoder nodes
 4ca8d6f898a85070934490071e429e97bc4e219b dt-bindings: arm: qcom: Add Xiaomi Redmi Note 8
 9b1a6c925c88ed9331a2cae64fb3580e05345ded arm64: dts: qcom: sm6125: Initial support for xiaomi-ginkgo
+e9ed0ac3ccba65c17ed0d59c77a340a75abc317b drivers: clk: qcom: ipq5424: fix the freq table of sdcc1_apps clock
+65f330ade7daec740ed8dbdf33ccfbfcc5fbf5c8 dt-bindings: power: qcom,kpss-acc-v2: add qcom,msm8916-acc compatible
 2eabf101f62a158fb66c2ff4a80ccd1581606568 arm64: dts: qcom: ipq9574: Add SPI nand support
 2f24e13c8f090344482fbff4911240eb3c1d9092 arm64: dts: qcom: ipq9574: Enable SPI NAND for ipq9574
 8140d10568a806864c915613ac03afb98ccd349c arm64: dts: qcom: ipq9574: Remove eMMC node
@@ -97,5 +82,6 @@ ee95bcc58890e63f52fdb9ab096c3d7b9cb889cc arm64: dts: qcom: x1e80100-crd: add gpi
 ace6b365cf2a49a3600271186455b1b281babe5c arm64: dts: qcom: x1e78100-t14s: Add OLED variant
 a2e617f4e6981aa514a569e927f90b0d39bb31b2 arm64: dts: qcom: sc8280xp-x13s: Drop duplicate DMIC supplies
 b49e37de8e70bc433b526a9f4382f72b7ac6492e arm64: dts: qcom: x1e80100-crd: Drop duplicate DMIC supplies
+c7ad756b9ed8a7f2a57795cf73b0b0115d6ac7d8 Merge branches 'arm32-for-6.15', 'arm64-defconfig-for-6.15', 'arm64-fixes-for-6.14', 'arm64-for-6.15', 'clk-fixes-for-6.14', 'clk-for-6.15', 'drivers-fixes-for-6.14' and 'drivers-for-6.15' into for-next
 
---===============4001968200316626100==--
+--===============4545201724389735952==--
