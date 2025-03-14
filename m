@@ -1,29 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/dtc/dtc
-Date: Fri, 14 Mar 2025 03:01:41 -0000
-Message-Id: <174192130168.2760833.2821216884647277480@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 14 Mar 2025 03:10:51 -0000
+Message-Id: <174192185104.2768847.8074013860830720836@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/dtc/dtc
-user: dwg
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: dd1b3e532d228ed75d34480ee539f71b76a4fa89
-    new: f4c53f4ebf7809a07666bf728c823005e1f1a612
+  - ref: refs/heads/for-6.15
+    old: f0066c8d1d3298e9f9d136a365139bac733e84c5
+    new: e0afd7d370c6f577c1dacb1512e18048eabf322e
     log: |
-         da85f91931e52c0f9661cff83fe0a5e83f6cc845 Remove duplicated words in documentation and comments
-         205fbef17b7b2f410e34ac79aa1559a8d492b66c Fix some typos
-         f4c53f4ebf7809a07666bf728c823005e1f1a612 Use __ASSEMBLER__ instead of __ASSEMBLY__
-         
-  - ref: refs/heads/master
-    old: dd1b3e532d228ed75d34480ee539f71b76a4fa89
-    new: f4c53f4ebf7809a07666bf728c823005e1f1a612
-    log: |
-         da85f91931e52c0f9661cff83fe0a5e83f6cc845 Remove duplicated words in documentation and comments
-         205fbef17b7b2f410e34ac79aa1559a8d492b66c Fix some typos
-         f4c53f4ebf7809a07666bf728c823005e1f1a612 Use __ASSEMBLER__ instead of __ASSEMBLY__
+         0eba2a7e858907a746ba69cd002eb9eb4dbd7bf3 ASoC: ops: Consistently treat platform_max as control value
+         e26f1cfeac6712516bfeed80890da664f4f2e88a ASoC: cs42l43: Fix maximum ADC Volume
+         0704a15b930cf97073ce091a0cd7ad32f2304329 ASoC: amd: yc: Support mic on another Lenovo ThinkPad E16 Gen 2 model
+         247fba13416af65b155949bae582d55c310f58b6 ASoC: rt722-sdca: add missing readable registers
+         ed92bc5264c4357d4fca292c769ea9967cd3d3b6 ASoC: codecs: wm0010: Fix error handling path in wm0010_spi_probe()
+         658fb7fe8e7f4014ea17a4da0e0c1d9bc319fa35 ASoC: cs42l43: convert to SYSTEM_SLEEP_PM_OPS
+         de74ec718e0788e1998eb7289ad07970e27cae27 ASoC: simple-card-utils: Don't use __free(device_node) at graph_util_parse_dai()
+         e0afd7d370c6f577c1dacb1512e18048eabf322e ASoC: Merge up fixes
          
