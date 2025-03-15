@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4805257605833548781=="
+Content-Type: multipart/mixed; boundary="===============3028596532957313836=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sat, 15 Mar 2025 12:24:38 -0000
-Message-Id: <174204147820.270662.3291183796527696354@gitolite.kernel.org>
+Date: Sat, 15 Mar 2025 12:24:53 -0000
+Message-Id: <174204149356.271012.9753079377396911908@gitolite.kernel.org>
 
---===============4805257605833548781==
+--===============3028596532957313836==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/master
-    old: 7eb172143d5508b4da468ed59ee857c6e5e01da6
+  - ref: refs/heads/fixes
+    old: b5e3956535466187657563b754ba0f1da8626c7f
     new: 80e54e84911a923c40d7bee33a34c1b4be148d7a
-    log: revlist-7eb172143d55-80e54e84911a.txt
-  - ref: refs/tags/v6.14-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 8098cf067a7aae92a4f293df03964bf8474faca1
+    log: revlist-b5e395653546-80e54e84911a.txt
 
---===============4805257605833548781==
+--===============3028596532957313836==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7eb172143d55-80e54e84911a.txt
+Content-Disposition: attachment; filename=revlist-b5e395653546-80e54e84911a.txt
 
 a96d3e2beca0e51c8444d0a3b6b3ec484c4c5a8f iio: light: apds9306: fix max_scale_nano values
 34d93804199fea23da2645dde35d0feb38a5d445 iio: adc: pac1921: Move ACPI_FREE() to cover all branches
@@ -204,10 +201,7 @@ b4a1dec11793936ffe1a9fb811724532ff3b1174 s390/ftrace: Fix return address recover
 3c6a041b317a9bb0c707343c0b99d2a29d523390 Merge tag 'wireless-2025-03-04' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
 f9dc8fb3afc968042bdaf4b6e445a9272071c9f3 KVM: x86: Explicitly zero EAX and EBX when PERFMON_V2 isn't supported by KVM
 3d252160b818045f3a152b13756f6f37ca34639d fs/pipe: Read pipe->{head,tail} atomically outside pipe->mutex
-dfc1b168a8c4b376fa222b27b97c2c4ad4b786e1 kbuild: userprogs: use correct lld when linking through clang
 48a5eed9ad584315c30ed35204510536235ce402 Merge tag 'devicetree-fixes-for-6.14-2' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
-02e9a22ceef0227175e391902d8760425fa072c6 kbuild: hdrcheck: fix cross build with clang
-dd0b7d4a56e3349de65bf9752734510fb55baf29 docs: Kconfig: fix defconfig description
 30bfc151f0c1ec80c27a80a7651b2c15c648ad16 drm/xe: Remove double pageflip
 d1039a3c12fffe501c5379c7eb1372eaab318e0a drm/i915/mst: update max stream count to match number of pipes
 475d06e00b7496c7915d87f7ae67af26738e4649 drm/xe/userptr: properly setup pfn_flags_mask
@@ -312,7 +306,6 @@ b1536481c81fb604074da799e4f2d2038a1663f7 sched/rt: Update limit of sched_rt sysc
 cf7ee25e70c6edfac4553d6b671e8b19db1d9573 mctp i3c: handle NULL header address
 0e7633d7b95b67f1758aea19f8e85621c5f506a3 net: ipv6: fix dst ref loop in ila lwtunnel
 5da15a9c11c1c47ef573e6805b60a7d8a1687a2a net: ipv6: fix missing dst ref drop in ila lwtunnel
-b5e3956535466187657563b754ba0f1da8626c7f kbuild: install-extmod-build: Fix build when specifying KBUILD_OUTPUT
 ca57b5bfa214063a109ae9bc85862ce3ed155027 Merge tag 'nvme-6.14-2025-03-05' of git://git.infradead.org/nvme into block-6.14
 35d99c68af40a8ca175babc5a89ef7e2226fb3ca btrfs: fix a leaked chunk map issue in read_one_chunk()
 391b41f983bf7ff853de44704d8e14e7cc648a9b gpio: rcar: Fix missing of_node_put() call
@@ -376,4 +369,4 @@ a382b06d297e78ed7ac67afd0d8e8690406ac4ca Merge tag 'for-linus' of git://git.kern
 9712d38c87087ae34f8cede6583092c272507c52 Merge tag 'kbuild-fixes-v6.14-3' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 80e54e84911a923c40d7bee33a34c1b4be148d7a Linux 6.14-rc6
 
---===============4805257605833548781==--
+--===============3028596532957313836==--
