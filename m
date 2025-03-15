@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Sat, 15 Mar 2025 18:12:46 -0000
-Message-Id: <174206236638.554190.16610241012326640441@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Sat, 15 Mar 2025 18:19:06 -0000
+Message-Id: <174206274621.558984.18170997301934018258@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/controller/imx6
-    old: 9aeb31ebf97c39e893282eb37389a2cf7f9fb81b
-    new: f6a1fdfc78e203d2f7ccb9b34c00e5f0ac3d3a74
+  - ref: refs/heads/try_alloc_pages
+    old: 93ed6fc268c4cc3f1c2b3718d2beb0aa6d04ddc4
+    new: f90b474a35744b5d43009e4fab232e74a3024cae
     log: |
-         81d1d214e171c9c4b283f9aeb9a97c4a88d0fcf6 PCI: imx6: Identify controller via 'linux,pci-domain', not address
-         f6a1fdfc78e203d2f7ccb9b34c00e5f0ac3d3a74 PCI: imx6: Use devm_clk_bulk_get_all() to fetch clocks
+         f90b474a35744b5d43009e4fab232e74a3024cae mm: Fix the flipped condition in gfpflags_allow_spinning()
          
