@@ -1,26 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sat, 15 Mar 2025 01:11:55 -0000
-Message-Id: <174200111548.3919031.15078856424561116803@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Sat, 15 Mar 2025 02:56:52 -0000
+Message-Id: <174200741295.4002849.3727324198145058834@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/master
-    old: 42d92a65bc91eee43207be874ba21d5bcf7efebb
-    new: 5da33922f2f155567112e361b76681f127568808
+  - ref: refs/heads/arm64-for-6.15
+    old: b49e37de8e70bc433b526a9f4382f72b7ac6492e
+    new: 55e52d055393f11ba0193975d3db87af36f4b273
     log: |
-         40691d9239fe24d31888936b01fc0b798436b9a5 mailbot: prevent hangs in python code
-         029bb04144d446c8d96211a0d639f1d2ffdb6b65 Fixes for 6.13
-         46398d433d45a470a17c08585e3001f5a49ab8ec Fixes for 6.12
-         05a19138c31eafac8080c9634fd3bd86f3eed9af Fixes for 6.6
-         d37a6ab6abe897f9aa74af92b0a78d21e5fa543a Fixes for 6.1
-         df5dc106a67d048b635aa09c56c385ec677585a8 Fixes for 5.15
-         761a3193dfa33b8fbc37084459a0c877dd35a67f Fixes for 5.10
-         5da33922f2f155567112e361b76681f127568808 Fixes for 5.4
+         3529d9536105b78d9756ef81722554a7f9e3c6b0 arm64: dts: qcom: sc8280xp-crd: add support for volume-up key
+         abf89bc4bb09c16a53d693b09ea85225cf57ff39 arm64: dts: qcom: x1e80100-crd: mark l12b and l15b always-on
+         673fa129e558c5f1196adb27d97ac90ddfe4f19c arm64: dts: qcom: x1e78100-t14s: mark l12b and l15b always-on
+         7d328cc134f7db1e062f616a30cffe96fbc43abb arm64: dts: qcom: x1e001de-devkit: mark l12b and l15b always-on
+         63169c07d74031c5e10a9f91229dabade880cf0f arm64: dts: qcom: x1e80100-dell-xps13-9345: mark l12b and l15b always-on
+         3ab4e212a41c46668adf93c8d10d0d3d6de8f0e4 arm64: dts: qcom: x1e80100-hp-x14: mark l12b and l15b always-on
+         f43a71dc6d8d8378af587675eec77c06e0298c79 arm64: dts: qcom: x1e80100-yoga-slim7x: mark l12b and l15b always-on
+         ff6ba96378367133b66587bd3ee9f068a39ff3a9 arm64: dts: qcom: x1e80100-qcp: mark l12b and l15b always-on
+         55e52d055393f11ba0193975d3db87af36f4b273 arm64: dts: qcom: x1e78100-t14s: fix missing HID supplies
          
