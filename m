@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Sat, 15 Mar 2025 12:08:26 -0000
-Message-Id: <174204050657.255713.1458371769833490504@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Sat, 15 Mar 2025 12:13:55 -0000
+Message-Id: <174204083503.260441.14469710436669470217@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/kdevops
-    old: c7301bfc8742e6e49f5d6a0f57c57edd74865abc
-    new: a3cf2fd2e331a220f439b8f7a6a4a62ad1bb438f
+  - ref: refs/heads/kbuild
+    old: 80c82ea2b90b113d8f9a18b3fe539fde0f897de1
+    new: 63b25491c889c4148e0303bcec227a47f962b1ce
     log: |
-         a3cf2fd2e331a220f439b8f7a6a4a62ad1bb438f net: add a debugfs directory for showing refcount tracking info
+         63b25491c889c4148e0303bcec227a47f962b1ce rust: kbuild: skip `--remap-path-prefix` for `rustdoc`
          
