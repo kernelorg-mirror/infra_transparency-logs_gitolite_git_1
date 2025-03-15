@@ -1,40 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============5331392312017414094=="
+Content-Type: multipart/mixed; boundary="===============6004104946549243450=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Sat, 15 Mar 2025 02:57:09 -0000
-Message-Id: <174200742998.4003236.15997394240333287361@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Sat, 15 Mar 2025 03:17:29 -0000
+Message-Id: <174200864935.4019556.12809896164858796007@gitolite.kernel.org>
 
---===============5331392312017414094==
+--===============6004104946549243450==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next
-    old: c7ad756b9ed8a7f2a57795cf73b0b0115d6ac7d8
-    new: d17c3369cbd4ee80af5bfe546bf6bbcf9893e470
-    log: revlist-c7ad756b9ed8-d17c3369cbd4.txt
+  - ref: refs/heads/dev/v6.14-rc2/alloc_obj
+    old: 348ada9c2a0521f1a2639ccc41adac8e6bd602d6
+    new: 0000000000000000000000000000000000000000
 
---===============5331392312017414094==
+--===============6004104946549243450==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c7ad756b9ed8-d17c3369cbd4.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-3529d9536105b78d9756ef81722554a7f9e3c6b0 arm64: dts: qcom: sc8280xp-crd: add support for volume-up key
-abf89bc4bb09c16a53d693b09ea85225cf57ff39 arm64: dts: qcom: x1e80100-crd: mark l12b and l15b always-on
-673fa129e558c5f1196adb27d97ac90ddfe4f19c arm64: dts: qcom: x1e78100-t14s: mark l12b and l15b always-on
-7d328cc134f7db1e062f616a30cffe96fbc43abb arm64: dts: qcom: x1e001de-devkit: mark l12b and l15b always-on
-63169c07d74031c5e10a9f91229dabade880cf0f arm64: dts: qcom: x1e80100-dell-xps13-9345: mark l12b and l15b always-on
-3ab4e212a41c46668adf93c8d10d0d3d6de8f0e4 arm64: dts: qcom: x1e80100-hp-x14: mark l12b and l15b always-on
-f43a71dc6d8d8378af587675eec77c06e0298c79 arm64: dts: qcom: x1e80100-yoga-slim7x: mark l12b and l15b always-on
-ff6ba96378367133b66587bd3ee9f068a39ff3a9 arm64: dts: qcom: x1e80100-qcp: mark l12b and l15b always-on
-55e52d055393f11ba0193975d3db87af36f4b273 arm64: dts: qcom: x1e78100-t14s: fix missing HID supplies
-d17c3369cbd4ee80af5bfe546bf6bbcf9893e470 Merge branches 'arm32-for-6.15', 'arm64-defconfig-for-6.15', 'arm64-fixes-for-6.14', 'arm64-for-6.15', 'clk-fixes-for-6.14', 'clk-for-6.15', 'drivers-fixes-for-6.14' and 'drivers-for-6.15' into for-next
+certificate version 0.1
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1742008678 -0700
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
+nonce 1742008633-96464c881542cde43fe00477141f57c12ac5ddbc
 
---===============5331392312017414094==--
+348ada9c2a0521f1a2639ccc41adac8e6bd602d6 0000000000000000000000000000000000000000 refs/heads/dev/v6.14-rc2/alloc_obj
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCZ9TxZgAKCRA2KwveOeQk
+u19qAP9YjrVBY/f0F2Ydvcs44B7r6/ghjMlBCPOFjJeLwRlrDAD/YGpeaH7RXS6G
+DJQGiyBp93M3l2e68yX8VGXdgw2KvgI=
+=q08A
+-----END PGP SIGNATURE-----
+
+--===============6004104946549243450==--
