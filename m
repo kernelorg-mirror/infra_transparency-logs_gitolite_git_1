@@ -1,58 +1,67 @@
-Content-Type: multipart/mixed; boundary="===============6139883658910089729=="
+Content-Type: multipart/mixed; boundary="===============1911605251708028714=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
-Date: Fri, 14 Mar 2025 23:43:06 -0000
-Message-Id: <174199578639.3846225.4934931833138515462@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Sat, 15 Mar 2025 00:05:23 -0000
+Message-Id: <174199712357.3865354.15376512778974481112@gitolite.kernel.org>
 
---===============6139883658910089729==
+--===============1911605251708028714==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cxl/cxl
-user: djiang
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/next
-    old: acc2913692413df9d1070896517e9f9c3a3b70ee
-    new: 74d9c59658e4d3b06f163da0c5ed7647656705c1
-    log: revlist-acc291369241-74d9c59658e4.txt
+  - ref: refs/heads/seen
+    old: f8bb0554ff5a28c6a462a8b40067ee0e49ead3ac
+    new: f901125fccd133e3b3a773a6710456b1ae6d70d0
+    log: revlist-f8bb0554ff5a-f901125fccd1.txt
+  - ref: refs/notes/amlog
+    old: 4220de34efadd0964d01c8e5466b34000b9eb223
+    new: 2108a885d85bb9fddfe8e63b551f8bf405f7d837
+    log: |
+         c785ee7ab03b656f7d8eea20bc9c9f629b341849 Notes added by 'git notes add'
+         2108a885d85bb9fddfe8e63b551f8bf405f7d837 Notes added by 'git notes add'
+         
 
---===============6139883658910089729==
+--===============1911605251708028714==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-acc291369241-74d9c59658e4.txt
+Content-Disposition: attachment; filename=revlist-f8bb0554ff5a-f901125fccd1.txt
 
-36f257e3b0ba904f5a4e7fa8dafaa60e88cdd28c acpi/ghes, cxl/pci: Process CXL CPER Protocol Errors
-02f4f0177d8e7647016fc29f11c1a7bb75bc2182 cxl/pci: Add trace logging for CXL PCIe Port RAS errors
-9387c6aec0b69cc9346b84838c04c6e550c016c1 Merge branch 'for-6.15/fw-first-error-logging' into cxl-for-next2
-eeba74747a6634c59887750efcf534b335899993 cxl/core: Use guard() to replace open-coded down_read/write()
-3ad4f59f38965071e429ace93c75a94a2ede5456 cxl/core: cxl_mem_sanitize() cleanup
-a58afda8bfd4a113295f0e12c0697c35a69614b2 cxl/memdev: cxl_memdev_ioctl() cleanup
-16fe6ec4ac3d828b3976bd36e4d99af73f8e43d2 cxl/core: Use guard() to drop the goto pattern of cxl_dpa_free()
-a81ebe7d19b6fdc6de0159878fbed9945120813e cxl/core: Use guard() to drop goto pattern of cxl_dpa_alloc()
-9e7b7ab5af69aaa5cd027656529663407da61e6f cxl/region: Drop goto pattern in cxl_dax_region_alloc()
-5ec67596e368cdddddd6770fc2dd2e577e82fbe8 cxl/region: Drop goto pattern of construct_region()
-16ca2f5431ee7c003ae3ba3b0c4d4ddc57670b44 cxl/memdev: Remove unused partition values
-e0feac20d150949dc8b74c1c5998dea70d19bf35 cxl/cdat: Remove redundant gp_port initialization
-2da9ad027e8094c0944b7dfc28c9e3db368d61cc cxl/pmem: debug invalid serial number data
-eb8081bcc53fdf951676ee199ed2a8f60d16f0ce cxl: Plug typos in ABI doc
-17218b02283a8b0de199cfbad079417c8e9de5c9 cxl: Document missing sysfs files
-a52b6a2c1c997b5047a724ccde955910f6150a97 cxl/pci: Support Global Persistent Flush (GPF)
-021b7e42fa7bc2c30a4bf676355f1079aa0fe6be cxl/pci: Introduce cxl_gpf_get_dvsec()
-86349aaaeacd6855914ee1b5a76ef0952fa134eb cxl/pmem: Rename cxl_dirty_shutdown_state()
-7d0ecc0bd83dc2b2f46087f955c9572073e45aca cxl/pmem: Export dirty shutdown count via sysfs
-6eb52f63ea47c6aa7f820262911be47602e12da6 tools/testing/cxl: Set Shutdown State support
-b6faa9c613787b894913638a76030018f6d62d54 Merge branch 'for-6.15/guard_cleanups' into cxl-for-next2
-d781a45270a8acabe2576cc5c47dc33180eca87c Merge branch 'for-6.15/dirty-shutdown' into cxl-for-next2
-763e15d04740ad2984bf009d9a5f70c099c8e6fd Merge branch 'for-6.15/extended-linear-cache' into cxl-for-next2
-84f8b6e242deb997f2b32b4fc0895e8703704029 cxl/mem: Do not return error if CONFIG_CXL_MCE unset
-114a89b433aa899cdcc867bb26806a41aae505ee cxl/test: Define a CFMWS capable of a 3 way HB interleave
-3d3e3b94440631179b7b6ffb1a64b944b27519c1 cxl: Fix warning from emitting resource_size_t as long long int on 32bit systems
-962ac4c83e81e38b0761f31b500b398cfbc33857 cxl/Documentation: Remove 'mixed' from sysfs mode doc
-74d9c59658e4d3b06f163da0c5ed7647656705c1 cxl/region: Quiet some dev_warn()s in extended linear cache setup
+d39e28e68c2b1bba25c5b1213fded95e525db15e xdiff: avoid arithmetic overflow in xdl_get_hunk()
+f319794b9f86afe331ce81b23a5183da69e7ae3e ci: strip down to Documentation only
+5ea83f44d982306f23c3b2763f61d9f6be037345 install meson for Documentation job
+77d9d182f78865e6ff8a4374d2dd9cd8573b692a Merge branch 'jc/ci-meson-check-build-docs-fix' into jch
+6cf88614ccd10bd1a8a53162862ebbd5686c1b93 Merge branch 'ps/meson-with-breaking-changes' into jch
+e06c63b1e3b8b3bb35d0f1330dd40fdb17ef25b8 Merge branch 'am/dir-dedup-decl-of-repository' into jch
+9c8fe37e156005baeb15e54f2d937d29f08e9b42 Merge branch 'jc/name-rev-stdin' into jch
+16bcb3e03211b06bdbd35fa8957e350e9e3644b6 ###
+ffef239d32e5094986acd6b3fe3403de422bb218 Merge branch 'ej/cat-file-remote-object-info' into jch
+08b52121dbdb55afc4d3c641635191a347bbd82f Merge branch 'ps/reftable-sans-compat-util' into jch
+0d406c4c76ca30aacce8c7579b5feda0ede93763 Merge branch 'ps/reftable-windows-unlink-fix' into jch
+50128b761da851d4767bb4bdbc021d18b7a088e5 Merge branch 'jk/zlib-inflate-fixes' into jch
+92970fb6e22862feba6fc2a983b165a4762a77c5 Merge branch 'md/t1403-path-is-file' into jch
+e079df8d36b01cd51904e9b719081403f38b1ab0 Merge branch 'sk/clar-trailer-urlmatch-norm-test' into jch
+06b752294465042767a3b2e8686db0234b298c11 Merge branch 'ps/maintenance-reflog-expire' into jch
+3e3fdeab51c4dc4854e4ffd3f1f98319c45ebf6f Merge branch 'dm/completion-remote-names-fix' into jch
+21ea2daa1ba3168d9d26498d019d2e19e5cbb179 Merge branch 'ps/object-wo-the-repository' into jch
+7a0af61fc66a66596abab7a9d52981073fc879ad Merge branch 'kn/reflog-drop' into jch
+a2ef6abdbef242dbce7de57757b6475b275ea0dc Merge branch 'cc/lop-remote' into jch
+8629aa59f06b0767ef69f800ca4dc7ae2b10e3d2 Merge branch 'tb/multi-cruft-pack-refresh-fix' into jch
+5bf988cc8ce85e6f96fca99344bbe8125b932c92 Merge branch 'ds/path-walk-2' into jch
+2265794a108e9738ca20f8fa44904e248e676a67 Merge branch 'en/diff-rename-follow-fix' into jch
+5abe36225cc3b914c94173e14008c6ba456165f6 Merge branch 'ps/mingw-creat-excl-fix' into jch
+a82a7c974424b68cd6ce0f443feb2adf1c53f278 Merge branch 'sj/meson-test-environ-fix' into jch
+2b55ebcee531a3d178b9473d8a9d2d75c16d4669 Merge branch 'jk/use-wunreachable-code-for-devs' into jch
+295908b1d51f84b83efc9186b002dabfe93ede7c Merge branch 'rs/xdiff-context-length-fix' into jch
+5c890e94199c2309a9afae1d03088bd95b893fba Merge branch 'tb/incremental-midx-part-2' into seen
+2ffbc93f7fc851a2b84e2bada64e22877446d632 Merge branch 'jt/rev-list-z' into seen
+ee0513eea2afa02231b598172fee42febca85fdb Merge branch 'jc/doc-attr-tree' into seen
+f901125fccd133e3b3a773a6710456b1ae6d70d0 Merge branch 'ib/diff-S-G-with-longhand' into seen
 
---===============6139883658910089729==--
+--===============1911605251708028714==--
