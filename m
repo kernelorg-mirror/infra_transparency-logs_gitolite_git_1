@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2173813386655913470=="
+Content-Type: multipart/mixed; boundary="===============1640396374358843863=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 15 Mar 2025 08:37:57 -0000
-Message-Id: <174202787762.85940.9468729114531456093@gitolite.kernel.org>
+Date: Sat, 15 Mar 2025 08:38:57 -0000
+Message-Id: <174202793711.86611.1869922077229938937@gitolite.kernel.org>
 
---===============2173813386655913470==
+--===============1640396374358843863==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,50 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: ff6b4a7d88831e2c2b87c0bb57a88cd6a2af3d7d
-    new: 572f6319f2c3948a02368d3f68c2ad553f87ee8f
-    log: revlist-ff6b4a7d8883-572f6319f2c3.txt
+    old: 572f6319f2c3948a02368d3f68c2ad553f87ee8f
+    new: 72b3dc29311aa8d1177b5edd6aab0f77fd967862
+    log: revlist-572f6319f2c3-72b3dc29311a.txt
+  - ref: refs/heads/tip/urgent
+    old: ac4b98ff48089aa3985e01b03f7d8b612db5c34b
+    new: 3571e8b091f4270d869dda7a6cc43616c6ad6897
+    log: revlist-ac4b98ff4808-3571e8b091f4.txt
 
---===============2173813386655913470==
+--===============1640396374358843863==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ff6b4a7d8883-572f6319f2c3.txt
+Content-Disposition: attachment; filename=revlist-572f6319f2c3-72b3dc29311a.txt
+
+c2851b125c3a6fc51361ea1643856243d568f4a8 Merge branch into tip/master: 'x86/merge'
+a5a17da32d57d0d917e0766788e2ea33559d5280 Merge branch into tip/master: 'timers/merge'
+2452bf5151ecf1c82f51ccbba2d1333e3f5fbc75 Merge branch into tip/master: 'irq/core'
+16a19e86cfdbc137baccf2a97cfffa921e47515a Merge branch into tip/master: 'irq/drivers'
+0145e3e9e774a8ba710e328eb47551d0e7b4ff09 Merge branch into tip/master: 'irq/msi'
+28b12aec62be1151290e1bc3658a13afbcaf7a47 Merge branch into tip/master: 'locking/core'
+e0d62d252442f4da309a8ccdf133fbb3f326965e Merge branch into tip/master: 'locking/futex'
+29b287941c8e27130e727019cb69c52fe83f01a9 Merge branch into tip/master: 'objtool/core'
+eced0b4fd50a0045ac276820ff320ceb24de410f Merge branch into tip/master: 'perf/core'
+1f4362ee077d547e5de8c69e9122deadd9da237f Merge branch into tip/master: 'ras/core'
+027d323f46e1bac530a5d1883268f191b45517d3 Merge branch into tip/master: 'sched/core'
+268066beb26fe51f193df1eeafea42dbb63b6987 Merge branch into tip/master: 'timers/cleanups'
+f573683cf797bd0b85f68ffaa48f2f8f76d83419 Merge branch into tip/master: 'timers/core'
+11bdf67e166ef62bff4fdc8fe0a5bd5a58cbb08f Merge branch into tip/master: 'x86/asm'
+d57a3a28862c3e0795e7b2f58e0a98570bba2f6d Merge branch into tip/master: 'x86/boot'
+83c871a87362f4664c12c5202d8d11c252fe7b86 Merge branch into tip/master: 'x86/bugs'
+e7c0f74b2d7c5d2483f471064640dbeee4746392 Merge branch into tip/master: 'x86/build'
+515cffdc8b14dbde5ab12da15c47d139eb6b95f5 Merge branch into tip/master: 'x86/cache'
+c8a4f474cb7d7686b07ab00e399583e3f5dc747b Merge branch into tip/master: 'x86/cleanups'
+8ec790b86fbfb28cdbb8041e4f9ee6c090f18be2 Merge branch into tip/master: 'x86/cpu'
+2cf03a6e2adc76f380e251fd6e272667e46b0cde Merge branch into tip/master: 'x86/fpu'
+f7f74f27fe6bb5dd4e5557ac1b7934086489179c Merge branch into tip/master: 'x86/mm'
+a5e0dfc9d5934c744bd7db98b1c8528b5f8b8597 Merge branch into tip/master: 'x86/platform'
+72b3dc29311aa8d1177b5edd6aab0f77fd967862 Merge branch into tip/master: 'x86/sev'
+
+--===============1640396374358843863==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-ac4b98ff4808-3571e8b091f4.txt
 
 b8501febdc513541afc5663d063bfac7ea575b71 clk: qcom: dispcc-sm8750: Drop incorrect CLK_SET_RATE_PARENT on byte intf parent
 c72e455b89f216b43cd0dbb518036ec4c98f5c46 leds: leds-st1202: Fix NULL pointer access on race condition
@@ -122,6 +157,5 @@ b35233e7bfa04045388967d3dc219e80cc88bc74 Merge tag 'for-6.14/dm-fixes-2' of git:
 85ac31fecb37f94bb667e9cda86153f03d5fd3bd Merge tag 'bcachefs-2025-03-14.2' of git://evilpiepirate.org/bcachefs
 a29967be967eebf049e89edb14c4edf9991bc929 Merge tag 'v6.14-rc6-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 3571e8b091f4270d869dda7a6cc43616c6ad6897 Merge tag 'v6.14-rc6-smb3-server-fixes' of git://git.samba.org/ksmbd
-572f6319f2c3948a02368d3f68c2ad553f87ee8f Merge branch 'linus'
 
---===============2173813386655913470==--
+--===============1640396374358843863==--
