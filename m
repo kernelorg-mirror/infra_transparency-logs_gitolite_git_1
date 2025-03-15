@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 15 Mar 2025 19:06:28 -0000
-Message-Id: <174206558875.600867.10792514649539632543@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Sat, 15 Mar 2025 19:17:47 -0000
+Message-Id: <174206626785.609786.1268964055078902946@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/master
-    old: 8c10109a979a5cc04b144d2fa6a6cacd57f390b3
-    new: bb2243f4328bc2e4aa4d8566a5a0a7f9ce947570
-    log: |
-         bb2243f4328bc2e4aa4d8566a5a0a7f9ce947570 bpf: Check map->record at the beginning of check_and_free_fields()
-         
+  - ref: refs/heads/b4/scmi_minor_cleanup
+    old: 51352dcbe987669cc05f54142918faf4240c4bb4
+    new: e5f1a79a12565edefaa0cadab3109893c49b0f29
