@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5995148399329576550=="
+Content-Type: multipart/mixed; boundary="===============7167997255878877090=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 15 Mar 2025 18:51:29 -0000
-Message-Id: <174206468900.588056.11792216699001473699@gitolite.kernel.org>
+Date: Sat, 15 Mar 2025 19:00:15 -0000
+Message-Id: <174206521534.595875.6929757137836238095@gitolite.kernel.org>
 
---===============5995148399329576550==
+--===============7167997255878877090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
-    old: 2d7597d67e3c7be7e5aa940e98115214061654dd
-    new: 8c10109a979a5cc04b144d2fa6a6cacd57f390b3
-    log: revlist-2d7597d67e3c-8c10109a979a.txt
+  - ref: refs/heads/for-next
+    old: 18b088ca268b445842151c4ed77b4db52d25a5fb
+    new: 722ce03eaed973ab89ff938043ceabeb7d1d30b7
+    log: revlist-18b088ca268b-722ce03eaed9.txt
 
---===============5995148399329576550==
+--===============7167997255878877090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2d7597d67e3c-8c10109a979a.txt
+Content-Disposition: attachment; filename=revlist-18b088ca268b-722ce03eaed9.txt
 
+f90b474a35744b5d43009e4fab232e74a3024cae mm: Fix the flipped condition in gfpflags_allow_spinning()
 b0f2ee6077ef1e880aee4758638bd0325275abb5 Merge branch 'selftests-bpf-implement-setting-global-variables-in-veristat'
 09206af69c5238909af208b3f46a4aa7997ac0e1 bpf/helpers: Refactor bpf_dynptr_read and bpf_dynptr_write
 daec295a70941c556708c59e1f970a24d8194d89 bpf/helpers: Introduce bpf_dynptr_copy kfunc
@@ -112,5 +113,7 @@ a9041fbd90a65b80395d322630024cf0852cd811 Merge branch 'security-propagate-caller
 1f375aef6cc0ae03ea714bff58ba7be1ca95997c selftests/bpf: Fix arena_spin_lock compilation on PowerPC
 de07b182899227d5fd1ca7a1a7d495ecd453d49c selftests/bpf: Fix string read in strncmp benchmark
 8c10109a979a5cc04b144d2fa6a6cacd57f390b3 selftests/bpf: Fix sockopt selftest failure on powerpc
+1b13483de34a8f7c6e62fb082b0da3ab159f7e05 Merge branch 'bpf-next/master' into for-next
+722ce03eaed973ab89ff938043ceabeb7d1d30b7 Merge branch 'bpf-next/try_alloc_pages' into for-next
 
---===============5995148399329576550==--
+--===============7167997255878877090==--
