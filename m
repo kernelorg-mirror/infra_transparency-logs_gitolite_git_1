@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sat, 15 Mar 2025 12:29:12 -0000
-Message-Id: <174204175209.274770.14334659023800482811@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Sat, 15 Mar 2025 12:42:24 -0000
+Message-Id: <174204254422.286276.12914780164778453600@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/for-next
-    old: 4b75fa2cce3354d462b37d4740527fb40a648912
-    new: a57512d6cd88eba04cdc1fb83832c00d248bd0d1
+  - ref: refs/heads/kdevops
+    old: 36ce6de6de8e9dd48c8e6f7bf51edc70641f53e2
+    new: d8613e3e031a8721849ff657e8314e2f5d5c7bdc
     log: |
-         f4f14fb02ddef832c1cf339e8b65c7c1c50bbdc1 kbuild: deb-pkg: add comment about future removal of KDEB_COMPRESS
-         a57512d6cd88eba04cdc1fb83832c00d248bd0d1 rust: kbuild: skip `--remap-path-prefix` for `rustdoc`
+         d8613e3e031a8721849ff657e8314e2f5d5c7bdc net: add a debugfs directory for showing refcount tracking info
          
