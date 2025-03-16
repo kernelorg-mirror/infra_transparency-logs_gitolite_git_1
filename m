@@ -1,53 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============1287224601400841012=="
+Content-Type: multipart/mixed; boundary="===============1650434461930873511=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Sun, 16 Mar 2025 14:34:07 -0000
-Message-Id: <174213564779.1637510.16944425190231920472@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
+Date: Sun, 16 Mar 2025 14:40:17 -0000
+Message-Id: <174213601773.1644294.13486481149057054447@gitolite.kernel.org>
 
---===============1287224601400841012==
+--===============1650434461930873511==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+repo: pub/scm/linux/kernel/git/krzk/linux-dt
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/tags/memory-controller-drv-6.15
+  - ref: refs/tags/dt-cleanup-6.15
     old: 0000000000000000000000000000000000000000
-    new: 72010739e2983e1f17cf82037c8799bfdab36f9e
+    new: 329b04b5eba39c2caadf085f9a77c8f3061f831c
 
---===============1287224601400841012==
+--===============1650434461930873511==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1742135674 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
-nonce 1742135645-a2f3b6fca616f3a450671f1b42eb5fd8e7de5c35
+pusher krzk@kernel.org 1742136045 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
+nonce 1742136015-e2ee4a44b068be0bec8d336b46b17a2659bd6e5a
 
-0000000000000000000000000000000000000000 72010739e2983e1f17cf82037c8799bfdab36f9e refs/tags/memory-controller-drv-6.15
+0000000000000000000000000000000000000000 329b04b5eba39c2caadf085f9a77c8f3061f831c refs/tags/dt-cleanup-6.15
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmfW4XoQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD18OcD/0eeUF0Axlze6TnVsVC+vCiLhpqRFloYpQg
-HE+TeGSMh3KvhQrUnCkd+Y8frvefOaVSE8G7RPSBoJ+vWRHaQs1Aj9x3Oa+pyjue
-/FEyHBc3A5BZ8rKDvIwdduI3DtwmBhEh+k5vwZFdgvVGqcsT80V8DtzDYa4/FEh5
-1HwI3E+eNsApO0bEw8dF78o7LymT5JtbKqb1KmTBAMBmjwer/rWKoZaCxHg96F0O
-yn80ODBBuRNRC9/EBibDmYjgEcvOdn8WmVYOzohxOi6y1jDiunB1t8A7SebvxQ2A
-VL4lMOO2sG5OsxHFJ07pJFcC/Wr5kcGDHx51d467TL9sGhZLBbkICKxQZK/zfjvH
-aKwA4YJvN5V02ms5YqWqXcBRvw8LvlN9SnIjoGwH00MLukUkPSPZ/FXAFddFhllr
-NdsObgWqCyc4XHw4Qn2PjBIL75M/aPe8zM0gtPe/Eym6UlUk0EnZelxSurTTxyQl
-t3AxQNm6H0exV8NRbS6+14qW6Dt7/2oWaxBD6HvyUVqT7oCcnQLU/nE6bCy8IPjC
-cV7aAtwiw0S2T3kYVRCxYazv8PA6zjci4mTPldvICzIhqtpYlGstuDzuKdfis0oO
-gtkf1YFvE63+zB2z6IZ5M0B+sAWFbDoWxhGCfhRAhMZS76o+C0LRAednYcnMcvcx
-tx6OinOFzQ==
-=TgIu
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmfW4u0QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD14VdEACMmnlao/PmkqCM6vmRG9t3Eo00YPaHq38o
+32H3AgdvGt+vVWygyfzrfnrRjFo5M3gLXicSzjpXpMHK70ixeEkweLMamHvmlHOO
+M+J+zffjv2BeBUMCtQqAIP5Mb6Qmn87/w3C1yc++Z2jFgbSyXs1shW7gujaBXlY1
+kJhnsZjtidrH9TkNSmMHoXzDa34mmmx2Ave5QkYUDEfhKi+w3BFQg6oYauI1WyNM
+CzEL5kZcyVD6SZBaz7fCsLMYX/x1Th1PZQy3eqwxFW+2nOyOwF4MAuJZJcxpzxTy
+FFZHJ8ybNviFphZCIj6c+YCWi8FxUelSEgh58FHk3Swh0IQseF8/5dsdY5IzWqym
+kuxYHEFJ8acs3ryPraip4xmMWej8FFUx0GT2+Ah4aWyWD0qJoAF6r2VT0uq78u2u
+KKaPRpVznepKtpt2mxNnqKmpplqbbcb0IZmhfow5OQxOaAO6t1EBbplsKjgDcjzO
+kAcrc+Z2alcJ5j52T6+b8idBkqhjyIyzHmygzaBPtpN3sgjGaHIP4ZW8HqpjC+Bp
+fW59V/NHwtXADeXX21/EpnP1ccCudkzXRTALy3Jid/uFIK090MbDB8mpjC1JVGu+
+qc+UoTGKN0lBoXzYckxOy/c9Tq9d9SoGRx6rZAqG6D32qKzh+ayrvDlTcMmyQXdt
+UPHu5qNklw==
+=O9x8
 -----END PGP SIGNATURE-----
 
---===============1287224601400841012==--
+--===============1650434461930873511==--
