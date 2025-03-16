@@ -1,44 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============5228386853622339264=="
+Content-Type: multipart/mixed; boundary="===============3618936089665994824=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Sun, 16 Mar 2025 22:07:30 -0000
-Message-Id: <174216285084.2002601.1957193756764177941@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Sun, 16 Mar 2025 22:09:28 -0000
+Message-Id: <174216296857.2003614.5681458372447559495@gitolite.kernel.org>
 
---===============5228386853622339264==
+--===============3618936089665994824==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damo
-user: sj
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/next
-    old: b19ca609485aa176a8d88743cb07f5cccf2c5394
-    new: 6f03c9f1e216d627294e6c52572a131fa35b8e42
-    log: revlist-b19ca609485a-6f03c9f1e216.txt
+  - ref: refs/heads/controller/dwc-cpu-addr-fixup
+    old: 40b96cba38232460c691b52bbf9183f9e4d34914
+    new: cab5f4a0173c5f18234429d823804cabdb1fa8c9
+    log: revlist-40b96cba3823-cab5f4a0173c.txt
 
---===============5228386853622339264==
+--===============3618936089665994824==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b19ca609485a-6f03c9f1e216.txt
+Content-Disposition: attachment; filename=revlist-40b96cba3823-cab5f4a0173c.txt
 
-d9340cb525e297f4f97f67333e874fc5ec4dc67d README: update 'damo report heatmap' example commands with '--draw_range' options
-c59c28f14a44b65b77590d0c7739f5b039b0bf5c USAGE: document '--draw_range' of 'damo report heatmap'
-0f62006c16d6cfc0d42330b1f8b83521d4775b49 TODO, release_note: updsate for damo report heatmap --draw_range
-cf89383315a053eaaef636a0d3c84fdb9f65f5c1 TODO: add misc items to implement and fix
-fe7a2a2a32c217fb1c0d2d282268dcdacddfeb98 damo_report_heatmap: put set_argparser() at the bottom
-ba9dbcd1a95d14bd8ac914cd10ad99f1b33850c2 _damon_args: separate argparser setup for damon parameters only
-ac253a19b9b0e101ed1675ba48fec3702c7b9546 damo_args_damon: remove non-damon params options
-95d78131a47e35e8085a3efe7731e9ffcc0fa09b TODO: update for next release
-a5b3899041376319332781347c0e8883c6f69c9b tests/unit/test_fmt_str: add a test for text_to_nr()
-bfa28cc7fc9c1dd0683f84ce6760629848661c9e _damo_fmt_str: support 'max' from text_to_nr()
-998d18d84ede75fa5120f54b079389fd6fcae72e tests/unit/test_fmt_str: test 'max' input to text_to_nr()
-2733cec130d9a2e51ff3fc6b3e445352ebba2b9e TODO: cleanup snapshot improvement items under auto-tuned intervals
-c4a7c2d1fb5f582bbc13ad7f00d46c8a85ccbbb4 TODO: mark 'max' text_to_nr() input as done
-6f03c9f1e216d627294e6c52572a131fa35b8e42 TODO: add ideas for snapshot under auto-tune intervals improvement
+1aa93f97c9098fac89c558a067092411711ce3b7 PCI: dwc: Use resource start as iomap() input in dw_pcie_pme_turn_off()
+72df161069a5694e2425ec4119721e4bde226575 PCI: dwc: Rename cpu_addr to parent_bus_addr for ATU configuration
+44e571a207cf05ae167681bbcd0ee76654297a0e PCI: dwc: Call devm_pci_alloc_host_bridge() early in dw_pcie_host_init()
+20c2df3acb47913d3dd336d94c481d1ff3b3a9cf PCI: dwc: Consolidate devicetree handling in dw_pcie_host_get_resources()
+9d80b2d5c6a5c7b7e2cd8c9f5270eb9cfa4440bd PCI: dwc: Add dw_pcie_parent_bus_offset()
+ed6509230934aaf32cbea3d171713b4725eaa175 PCI: dwc: Add dw_pcie_parent_bus_offset() checking and debug
+e9c6d48d88e5b52dfc9f279610b3c8ee734eceb4 PCI: dwc: Use devicetree 'reg[config]' to derive CPU -> ATU addr offset
+a757111aa12d6fee71788438772c43b7826a83ab PCI: dwc: ep: Call epc_create() early in dw_pcie_ep_init()
+77246e0eea0ea7fed15b6dbb04d4f7fd0282e980 PCI: dwc: ep: Consolidate devicetree handling in dw_pcie_ep_get_resources()
+82091e0be4ad1b782b6b15c2832da1077fa3b73b PCI: dwc: ep: Use devicetree 'reg[addr_space]' to derive CPU -> ATU addr offset
+0c63bfe5169a7bf0ef7751f778e76381025e038a PCI: dwc: ep: Ensure proper iteration over outbound map windows
+c5f1ad5f38b5c77aabd36e7b34bf91e9d1c95405 PCI: dwc: Use parent_bus_offset to remove need for .cpu_addr_fixup()
+cab5f4a0173c5f18234429d823804cabdb1fa8c9 PCI: imx6: Remove cpu_addr_fixup()
 
---===============5228386853622339264==--
+--===============3618936089665994824==--
