@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7219321061419397033=="
+Content-Type: multipart/mixed; boundary="===============4869750395806040979=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 16 Mar 2025 10:38:30 -0000
-Message-Id: <174212151079.1446254.14223563982561160888@gitolite.kernel.org>
+Date: Sun, 16 Mar 2025 10:39:05 -0000
+Message-Id: <174212154521.1446806.11887805431042041391@gitolite.kernel.org>
 
---===============7219321061419397033==
+--===============4869750395806040979==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,51 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: ab56b5a3eb651fc25bf530a8741a86683628a4be
-    new: dd9fd5e38e714ae5e5df68a8c986b195b4edf960
-    log: revlist-ab56b5a3eb65-dd9fd5e38e71.txt
+    old: dd9fd5e38e714ae5e5df68a8c986b195b4edf960
+    new: 781b8e87996f33b05f92b4b617688d4b92507d6d
+    log: revlist-dd9fd5e38e71-781b8e87996f.txt
+  - ref: refs/heads/tip/urgent
+    old: a4c78ca180cd3ea44008be604f52ffa6f423bb4b
+    new: edf84f7f205116b1c3aa71c5a769ef58e14e86de
+    log: revlist-a4c78ca180cd-edf84f7f2051.txt
 
---===============7219321061419397033==
+--===============4869750395806040979==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ab56b5a3eb65-dd9fd5e38e71.txt
+Content-Disposition: attachment; filename=revlist-dd9fd5e38e71-781b8e87996f.txt
+
+edf84f7f205116b1c3aa71c5a769ef58e14e86de Merge branch into tip/master: 'sched/urgent'
+a900827008d2569d2e0bd6bc7d05d0c02a7ff8c0 Merge branch into tip/master: 'x86/merge'
+f5ce2b4bb6240fd59b7b35e9611e3ff62727fa59 Merge branch into tip/master: 'timers/merge'
+1d795e435b6823365fc2e078ce9710a3bb657471 Merge branch into tip/master: 'irq/core'
+be25e9152964509900507e8e042955b10c99277e Merge branch into tip/master: 'irq/drivers'
+cb9b19e105b0268a6ab5b7f25d5cd194ebf4531c Merge branch into tip/master: 'irq/msi'
+7b5394d818315e7980ab0c36b2a5d793443fe562 Merge branch into tip/master: 'locking/core'
+61d7b7e9d147b033df69b323769e1e52826562d3 Merge branch into tip/master: 'locking/futex'
+c37e17c0cfa6a28983887d73e0bf7fc3332372f2 Merge branch into tip/master: 'objtool/core'
+04ecce96cecd8438c9b14cba93b87e0e70212870 Merge branch into tip/master: 'perf/core'
+3ce1f1cf42a4354a8f0e8d7c3e32cbab03921b5b Merge branch into tip/master: 'ras/core'
+4e1763994ceb641a7ba90771a87948b5f9268b1f Merge branch into tip/master: 'sched/core'
+d714ae09f1c5d5628a49883394fa9e805bb4c7cd Merge branch into tip/master: 'timers/cleanups'
+304ee409f74ebf8ae8464224c12093018009a7ae Merge branch into tip/master: 'timers/core'
+2d8ecc6eeb4620f6809251add8219ed68d03988d Merge branch into tip/master: 'x86/asm'
+abb94bfcc3f662ca2662106b5e8d565bbf6e05a2 Merge branch into tip/master: 'x86/boot'
+aeb5ddd48d77edcbfd74d7696d9972bc84c69899 Merge branch into tip/master: 'x86/bugs'
+de0269e0b72533938c162db5028d3cb5c0774fc4 Merge branch into tip/master: 'x86/build'
+f2df9a6b45cb1176dc94e113473f60d53bda2173 Merge branch into tip/master: 'x86/cache'
+72df5b2476a9017690ac1115b260032e852c8370 Merge branch into tip/master: 'x86/cleanups'
+20025a5e3eeecc71da6d4f313c88171d371df28f Merge branch into tip/master: 'x86/cpu'
+1e0de48d875ef58959ac12c9a911df8091621607 Merge branch into tip/master: 'x86/fpu'
+159023b64db8807d0d2d6dc59a53fce3b7b067fc Merge branch into tip/master: 'x86/mm'
+71a433596194937ef613a95bb2fe5b0c929d91fb Merge branch into tip/master: 'x86/platform'
+781b8e87996f33b05f92b4b617688d4b92507d6d Merge branch into tip/master: 'x86/sev'
+
+--===============4869750395806040979==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-a4c78ca180cd-edf84f7f2051.txt
 
 c8084a89bd91b05f51a36bff61f63a94c800b0d6 Input: wdt87xx_i2c - fix compiler warning
 c9ccb88f534ca760d06590b67571c353a2f0cbcd Input: ads7846 - fix gpiod allocation
@@ -67,6 +103,6 @@ f2865c6300d75a9f187dd7918d248e010970fd44 usb: typec: tcpm: fix state transition 
 cd3a56ac2d132beea747f7b41cc085c82fe2eac0 Merge tag 'rust-fixes-6.14-3' of git://git.kernel.org/pub/scm/linux/kernel/git/ojeda/linux
 31d7109a19f66dbce2ad3dc377343d734cdfa346 Merge tag 'input-for-v6.14-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 cb82ca153949c6204af793de24b18a04236e79fd Merge tag 'usb-6.14-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
-dd9fd5e38e714ae5e5df68a8c986b195b4edf960 Merge branch 'linus'
+edf84f7f205116b1c3aa71c5a769ef58e14e86de Merge branch into tip/master: 'sched/urgent'
 
---===============7219321061419397033==--
+--===============4869750395806040979==--
