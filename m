@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Sun, 16 Mar 2025 11:54:17 -0000
-Message-Id: <174212605755.1508487.8798144354614051447@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sun, 16 Mar 2025 11:55:51 -0000
+Message-Id: <174212615149.1511609.835339324419849428@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: kwilczynski
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/controller/histb
-    old: d8dba4a635bc94d08bedcd2446034a9c661abb26
-    new: b36fb50701619efca5f5450b355d42575cf532ed
+  - ref: refs/heads/perf/core
+    old: fd3f5d385a52531589c8a7a26d9e108aa1d3f52e
+    new: b6ecb57f1fec114cfa19b1bf06f25f904ca928f9
     log: |
-         b36fb50701619efca5f5450b355d42575cf532ed PCI: histb: Fix an error handling path in histb_pcie_probe()
+         b6ecb57f1fec114cfa19b1bf06f25f904ca928f9 perf/core: Use sysfs_emit() instead of scnprintf()
          
