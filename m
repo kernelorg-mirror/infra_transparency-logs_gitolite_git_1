@@ -1,61 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============0322457649010855144=="
+Content-Type: multipart/mixed; boundary="===============5661824269022005086=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 16 Mar 2025 10:51:51 -0000
-Message-Id: <174212231107.1458996.5699481269109764976@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Sun, 16 Mar 2025 10:57:11 -0000
+Message-Id: <174212263176.1463326.5864189033880237940@gitolite.kernel.org>
 
---===============0322457649010855144==
+--===============5661824269022005086==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: 48ef90b941355dbc9efa3bb19a5c9d5559bdd8be
-    new: 70d55453c7a2b91a6b7c4ed782a50f18a2cd0ba3
-    log: revlist-48ef90b94135-70d55453c7a2.txt
-  - ref: refs/heads/tip/urgent
-    old: edf84f7f205116b1c3aa71c5a769ef58e14e86de
-    new: 23bf142a5f94b7b12e1759a40cca236946b971bc
-    log: |
-         23bf142a5f94b7b12e1759a40cca236946b971bc Merge branch into tip/master: 'sched/urgent'
-         
+  - ref: refs/heads/experimental
+    old: c2181317b07880a800f9d23b90b0ba3615c9991a
+    new: de82e3447f303ab68caafde1197802b5bf5f7b67
+    log: revlist-c2181317b078-de82e3447f30.txt
 
---===============0322457649010855144==
+--===============5661824269022005086==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-48ef90b94135-70d55453c7a2.txt
+Content-Disposition: attachment; filename=revlist-c2181317b078-de82e3447f30.txt
 
-23bf142a5f94b7b12e1759a40cca236946b971bc Merge branch into tip/master: 'sched/urgent'
-5522ab722dcb6193e1337860ec9e8eb19db304ce Merge branch into tip/master: 'x86/merge'
-74247e83e244b303044ff439ef4898137c071f12 Merge branch into tip/master: 'timers/merge'
-e18c289618a1558fef39717095ddb20153b7c39d Merge branch into tip/master: 'irq/core'
-bfbf9e21c77f72b28fcfe266161c835dd9139382 Merge branch into tip/master: 'irq/drivers'
-4c7b1c2c503ded60b2c06eb11dddbb25cbe4c616 Merge branch into tip/master: 'irq/msi'
-b873789e4209bb5f7e71963d493ede84676b8ff5 Merge branch into tip/master: 'locking/core'
-420c02a174cb97138868338a52f324ca92960ce8 Merge branch into tip/master: 'locking/futex'
-91e5a339be7fc59dfdce83787955f50020528452 Merge branch into tip/master: 'objtool/core'
-995560c978e1afe5c244eb1b2e1d3da1629ba56e Merge branch into tip/master: 'perf/core'
-9bd90036e9c6ea3401b097162061fd34244c55cb Merge branch into tip/master: 'ras/core'
-febc8e093d3a156719a9ce55a66880949d0eaa94 Merge branch into tip/master: 'sched/core'
-5908997bf2e4d53211f903ceae0239a66dbcfb6b Merge branch into tip/master: 'timers/cleanups'
-43585f6008793cf05374ff2c7780da67d9dbd28b Merge branch into tip/master: 'timers/core'
-e3f11bd1901e4cf93686115460d4c107aba23713 Merge branch into tip/master: 'x86/asm'
-ad0d6ac5124e106d5e38d3d4706258001c2431c2 Merge branch into tip/master: 'x86/boot'
-7765b75fcc4ae9d949b91410dc3589b3cf948471 Merge branch into tip/master: 'x86/bugs'
-18a1b081b695bf5fc26a9aa4c11df32bf3c760d5 Merge branch into tip/master: 'x86/build'
-78d12512839deeffd5f527d8bc40690fd9d115b4 Merge branch into tip/master: 'x86/cache'
-8d816596fe6448e470e9bf06d7dde32ffd77f243 Merge branch into tip/master: 'x86/cleanups'
-df2756833575d833d60fa359eec26b5bd2b4452a Merge branch into tip/master: 'x86/cpu'
-508c7e41e5626736cd2061b2980d99b9435e88b3 Merge branch into tip/master: 'x86/fpu'
-ee6db71b2711ee15d5f8cb012791f1057b0d14bd Merge branch into tip/master: 'x86/mm'
-17018119eb16da6e8f624c825d41b95459d1a441 Merge branch into tip/master: 'x86/platform'
-70d55453c7a2b91a6b7c4ed782a50f18a2cd0ba3 Merge branch into tip/master: 'x86/sev'
+4e8b0ac83dcf0ab388673d69d8c36581174730cd erofs-utils: stress: add support for dumping inconsistent data
+2e9c0e96c8da283fcd1e1cb11dc444972f7b7de3 erofs-utils: lib: fix btype for the data tails of directories
+10d96aa75c9d1f0a097247bc3016d6ba20aa42b7 erofs-utils: lib: cache: get rid of required_ext
+745948709e902516b917c11ac5c848de33def0d3 erofs-utils: lib: move block boundary check into __erofs_battach()
+85653aceb959fc68556a68982b9f2bf7e2a60e5e erofs-utils: lib: support buffer block reservation
+96f59d3237a1b49514972229f2bc97bc5caaa6fb erofs-utils: mkfs: support data alignment
+3a269e7b319511ea115a70d6ce7ba1ff3060b62f erofs-utils: lib: use round_up() to avoid division
+de49a2fb61c5054bf3a0ddb9471c11bd3da27907 erofs-utils: lib: rename `mapped_buckets` to `watermeter`
+52558db7f3edfc62dd443b46a63931b1a3e7f010 erofs-utils: lib: optimize space allocation
+bab489f1284b77abe9f16695c3b463147a835f7f erofs-utils: lib: use bitmaps to accelerate bucket selection
+17059d3e90a2a1caab656b2c0d90e733cb535b81 erofs-utils: lib: fix inappropriate initialization in cache.c
+8f27ba9a4798052ab419184de1b55e077aff7829 erofs-utils: lib: move buffer allocation into z_erofs_write_indexes()
+836b4105881fa9d40e471bb095d8379da90c6a41 erofs-utils: get rid of NULL_ADDR{,_UL}
+22a6136baeff505b646be8b85c6766d48252cd31 erofs-utils: lib: sync up with the 48-bit kernel erofs_fs.h
+0966bb1b12006fe0a781d50db81983f7afd49c04 erofs-utils: implement 48-bit block addressing for unencoded inodes
+4feb350a0e265e7687c684a8148ce166aaced046 erofs-utils: mkfs: support 48-bit block addressing for unencoded inodes
+9bd9cfe9c9139f65533a30f7edcc010ed49ee913 erofs-utils: support dot-omitted directories
+6c612bf43d65fd9e001451455706f2df4311911c erofs-utils: lib: use compressed offsets in `struct z_erofs_inmem_extent`
+733614714d39b9f4307094f784b96889fc9cff99 erofs-utils: support encoded extents
+de82e3447f303ab68caafde1197802b5bf5f7b67 erofs-utils: lib: drop prefix_sha256 digests
 
---===============0322457649010855144==--
+--===============5661824269022005086==--
