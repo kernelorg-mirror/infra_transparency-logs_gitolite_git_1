@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8015925713824001620=="
+Content-Type: multipart/mixed; boundary="===============3583242797454922071=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Sun, 16 Mar 2025 17:25:25 -0000
-Message-Id: <174214592588.1782182.16871469274745951986@gitolite.kernel.org>
+Date: Sun, 16 Mar 2025 17:28:51 -0000
+Message-Id: <174214613166.1783793.13794117933441458743@gitolite.kernel.org>
 
---===============8015925713824001620==
+--===============3583242797454922071==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/dev-test
+  - ref: refs/heads/dev
     old: a650001ce7e5f700bd23e92a02893dbc07fc8a20
     new: f81398b33aeaf7dcf8df893fefffcbf846cdaeac
     log: revlist-a650001ce7e5-f81398b33aea.txt
 
---===============8015925713824001620==
+--===============3583242797454922071==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ f12c6354a9b3468ed8cdeb19ea561f0e74d0f390 erofs: implement encoded extent metadat
 46ae6fefc6a1cb987b532aae2995614a056c0bc6 erofs: support unaligned encoded data
 f81398b33aeaf7dcf8df893fefffcbf846cdaeac erofs: enable 48-bit layout support
 
---===============8015925713824001620==--
+--===============3583242797454922071==--
