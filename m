@@ -1,40 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============9183382461908427848=="
+Content-Type: multipart/mixed; boundary="===============9116498473314259068=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 16 Mar 2025 19:26:55 -0000
-Message-Id: <174215321506.1878172.7622242289982551116@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ojeda/linux
+Date: Sun, 16 Mar 2025 21:04:20 -0000
+Message-Id: <174215906087.1953038.15173275824058008940@gitolite.kernel.org>
 
---===============9183382461908427848==
+--===============9116498473314259068==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/ojeda/linux
+user: ojeda
 changes:
-  - ref: refs/heads/master
-    old: cb82ca153949c6204af793de24b18a04236e79fd
-    new: d1275e99d1c4f2e70452558b8da9d0d7bdcc9e16
-    log: revlist-cb82ca153949-d1275e99d1c4.txt
+  - ref: refs/heads/rust-next
+    old: ab2ebb7bc9d9af2f50b0ad54deb65e1d0b01bc70
+    new: cf25bc61f8aecad9b0c45fe32697e35ea4b13378
+    log: revlist-ab2ebb7bc9d9-cf25bc61f8ae.txt
 
---===============9183382461908427848==
+--===============9116498473314259068==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cb82ca153949-d1275e99d1c4.txt
+Content-Disposition: attachment; filename=revlist-ab2ebb7bc9d9-cf25bc61f8ae.txt
 
-285df995f90e3d61d97f327d34b9659d92313314 i2c: omap: fix IRQ storms
-9b5463f349d019a261f1e80803447efca3126151 i2c: ali1535: Fix an error handling path in ali1535_probe()
-6e55caaf30c88209d097e575a169b1dface1ab69 i2c: ali15x3: Fix an error handling path in ali15x3_probe()
-2b22459792fcb4def9f0936d64575ac11a95a58d i2c: sis630: Fix an error handling path in sis630_probe()
-d9e7c172a7f247f7ef0b151fa8c8f044b6a2a070 media: rtl2832_sdr: assign vb2 lock before vb2_queue_init
-0b4ffbe4888a2c71185eaf5c1a02dd3586a9bc04 tracing: Correct the refcount if the hist/hist_debug file fails to open
-3ef18b236690af5f6427c5b6d8636881116aa73a Merge tag 'i2c-host-fixes-6.14-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-current
-ad87a8d0c435a97e2bdcf714d7e1a84ab5fda1ad Merge tag 'trace-v6.14-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-0990528befe86e538e51d89824c2c091999d191c Merge tag 'i2c-for-6.14-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
-d1275e99d1c4f2e70452558b8da9d0d7bdcc9e16 Merge tag 'media/v6.14-3' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
+dc60dd0c688e794fefb6b3de8552b3c9452f812e rust: error: extend the Result documentation
+206dea39e55968d8f3ad56771507361eb799dfc7 rust: init: disable doctests
+fbf8fb328d1bfe3bd17d5c5626cb485a1ca1a50d rust: move pin-init API into its own directory
+86f7dacadeecb9e6cc3e79571fed790b5147652a rust: add extensions to the pin-init crate and move relevant documentation there
+4b11798e82d6f340c2afc94c57823b6fbc109fad rust: pin-init: move proc-macro documentation into pin-init crate
+84837cf6fa541150a3012ea233225a7ecfa8771a rust: pin-init: change examples to the user-space version
+c2ddbdbb8a66f43f881c5fe1b8cd615b6dce5c40 rust: pin-init: call `try_[pin_]init!` from `[pin_]init!` instead of `__init_internal!`
+578eb8b6db13cd923f1ffa80b9e8d32dcc06d35d rust: pin-init: move the default error behavior of `try_[pin_]init`
+114ca41fe7922ce85fcac30fa2b06b42b4956520 rust: pin-init: move `InPlaceInit` and impls of `InPlaceWrite` into the kernel crate
+9d29c682f00c3d8dd5727f6a350c4f6ecccc3913 rust: pin-init: move impl `Zeroable` for `Opaque` and `Option<KBox<T>>` into the kernel crate
+5657c3a9faf6c1243cecc9314244c92bfcd1ecad rust: add `ZeroableOption` and implement it instead of `Zeroable` for `Option<Box<T, A>>`
+129e97be8e2856884e01340e4070c003345e1cdc rust: pin-init: fix documentation links
+31547c988257b3ddd1badb23c166c42b5310735c rust: pin-init: remove kernel-crate dependency
+b321b9385409800859c2be722c6141909c7221b3 rust: pin-init: change the way the `paste!` macro is called
+d7659acca7a390b5830f0b67f3aa4a5f9929ab79 rust: add pin-init crate build infrastructure
+dbd5058ba60c3499b24a7133a4e2e24dba6ea77b rust: make pin-init its own crate
+9b2299af3b92eb5b2c2f87965a5fa24a93e90d06 rust: pin-init: add `std` and `alloc` support from the user-space version
+02c01c089d125ccc1ecbf331481e7de6f1f38f4e rust: pin-init: synchronize documentation with the user-space version
+7cb5dee4c8349f8cc3e1ce529df4e18ebe3fed2e rust: pin-init: internal: synchronize with user-space version
+a9fa3a9c6e28658cc6018a06310a9327add606ab rust: pin-init: miscellaneous synchronization with the user-space version
+2e5f4f3cf27b620ebf0f403fd0dfe680c437600b rust: pin-init: add miscellaneous files from the user-space version
+1ab10101cd311703d8d53ace36d96c4cfd406a69 rust: pin-init: re-enable doctests
+cf25bc61f8aecad9b0c45fe32697e35ea4b13378 MAINTAINERS: add entry for the `pin-init` crate
 
---===============9183382461908427848==--
+--===============9116498473314259068==--
