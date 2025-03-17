@@ -1,31 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 17 Mar 2025 20:42:44 -0000
-Message-Id: <174224416418.3231883.1844108479708677773@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 17 Mar 2025 20:45:16 -0000
+Message-Id: <174224431633.3235091.4584140451343072811@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/main-pending
-    old: f981b0780f70ff8ba6c5d7bb3873013fe596b12b
-    new: a0ceb91f477cab9ea08e8bcd8be28924e034390b
+  - ref: refs/heads/master
+    old: 812f7702d83d84cdf776d75e2ba5386de9e8acc0
+    new: b02f072a36560a89155a1ebcb2ca6bd881333a8b
     log: |
-         b1b01e46a3db5ad44d1e4691ba37c1e0832cd5cf wifi: ath12k: Pass correct values of center freq1 and center freq2 for 160 MHz
-         5e44b181bec8e2fe3826033360fc1a42bb432191 wifi: ath12k: Pass correct values of center freq1 and center freq2 for 320 MHz
-         b8a0d83fe4c7a8d5c060eab91d9cc16bf0dcaa46 wifi: ath12k: move firmware stats out of debugfs
-         e92c658b056b31fbc923a59bd72d51ca9f2ba921 wifi: ath12k: add get_txpower mac ops
-         9a1cf85c9c7cca15bfc452f207818977621dedf8 wifi: carl9170: Add __nonstring annotations for unterminated strings
-         d182327390c4fda9dabf9869b29ec7c0b3aeef29 Merge branch 'ath-next'
-         288b92a2d547b790f0a72fc2f60128d96e8a268e Merge remote-tracking branch 'mhi/mhi-next'
-         7fd16d1de09e014b2419ddd1b03ff41d6ac131c2 Add localversion-wireless-testing-ath
-         d03ce052e783db3461d1631187e609d1f451b604 wifi: ath12k: remove open parenthesis
-         a0ceb91f477cab9ea08e8bcd8be28924e034390b Merge branch 'pending' into main-pending
+         0de445d18e36ca5914337217c118016ba5db574d bpf: BPF token support for BPF_BTF_GET_FD_BY_ID
+         07651ccda9ff10a8ca427670cdd06ce2c8e4269c bpf: Return prog btf_id without capable check
+         974ef9f0d23edc1a802691c585b84514b414a96d libbpf: Pass BPF token from find_prog_btf_id to BPF_BTF_GET_FD_BY_ID
+         a024843d92cca491034dac648bcfec967199a4a4 selftests/bpf: Test freplace from user namespace
+         b02f072a36560a89155a1ebcb2ca6bd881333a8b Merge branch 'support-freplace-prog-from-user-namespace'
          
-  - ref: refs/tags/ath-pending-202503172018
-    old: 0000000000000000000000000000000000000000
-    new: a0ceb91f477cab9ea08e8bcd8be28924e034390b
