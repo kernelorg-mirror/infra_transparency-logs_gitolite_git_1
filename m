@@ -1,21 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 17 Mar 2025 19:42:48 -0000
-Message-Id: <174224056807.3178587.1666724887225591566@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1501346439706154159=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Mon, 17 Mar 2025 19:53:02 -0000
+Message-Id: <174224118252.3187201.9152765350596952046@gitolite.kernel.org>
+
+--===============1501346439706154159==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.15
-    old: d450cdd9c4398add1f2aa7200f2c95f1e3b9f9fa
-    new: ea327171a3b128a577fae6465e546c0038913fdc
+  - ref: refs/heads/master
+    old: e19e50f8b1a8ee52ea6381fa7b3aba9a0c211707
+    new: e66a297c0ec1875230a53b03058e9bbc229da1ea
     log: |
-         c6d94963333d6377382f26a480e687492f5a9174 spi: sg2044-nor: Fully convert to device managed resources
-         085cf53d71b9406d646c9f3f24876a36a68ef4e9 spi: sg2044-nor: Convert to dev_err_probe()
-         ea327171a3b128a577fae6465e546c0038913fdc spi: sg2044-nor: A couple of cleanups
+         e66a297c0ec1875230a53b03058e9bbc229da1ea Update C94035C21B4F2AEB (Chen-Yu Tsai)
          
+
+--===============1501346439706154159==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1742241211 -0400
+pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
+nonce 1742241181-4243184ff2f23a5a56ce54ac5cf8d8d5c94c383d
+
+e19e50f8b1a8ee52ea6381fa7b3aba9a0c211707 e66a297c0ec1875230a53b03058e9bbc229da1ea refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZ9h9uwAKCRC2xBzjVmSZ
+bKWTAPsGA0Gt6MdUN8+dKyrjoSj8Rg97SvWxK3HRmIJYqRf27gD9ExwDlYvB4Qtz
+1mstMB/FslObO8/jrG5F8T0ahxcmrgw=
+=hKAq
+-----END PGP SIGNATURE-----
+
+--===============1501346439706154159==--
