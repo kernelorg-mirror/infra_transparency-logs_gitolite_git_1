@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5522139583625827681=="
+Content-Type: multipart/mixed; boundary="===============0274055914177909444=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 17 Mar 2025 13:26:12 -0000
-Message-Id: <174221797216.2833216.10961687810691452619@gitolite.kernel.org>
+Date: Mon, 17 Mar 2025 13:26:16 -0000
+Message-Id: <174221797693.2833509.5941827208101514616@gitolite.kernel.org>
 
---===============5522139583625827681==
+--===============0274055914177909444==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,28 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/for-next
-    old: 3c4e4ec957b6243cce92fb7d450a71a93ce181c5
-    new: c94cf023dce30d5f28323a9f28ee2912f248a68f
-    log: |
-         c94cf023dce30d5f28323a9f28ee2912f248a68f m68k: defconfig: Update defconfigs for v6.14-rc1
-         
-  - ref: refs/heads/for-v6.15
-    old: 3c4e4ec957b6243cce92fb7d450a71a93ce181c5
-    new: c94cf023dce30d5f28323a9f28ee2912f248a68f
-    log: |
-         c94cf023dce30d5f28323a9f28ee2912f248a68f m68k: defconfig: Update defconfigs for v6.14-rc1
-         
-  - ref: refs/heads/master
-    old: 2f4ac69c34b2d4c2a7421048718d27811a2164f7
-    new: 3ae0cf875914e331b2239a960d6696ab944733e3
-    log: revlist-2f4ac69c34b2-3ae0cf875914.txt
+  - ref: refs/heads/m68k-queue
+    old: a1752797ec7e860181206b4e8a95355fdf21ac6a
+    new: 8fc78cd4c6bd8e5bd35f4eb9e04c181f6079a0d8
+    log: revlist-a1752797ec7e-8fc78cd4c6bd.txt
 
---===============5522139583625827681==
+--===============0274055914177909444==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2f4ac69c34b2-3ae0cf875914.txt
+Content-Disposition: attachment; filename=revlist-a1752797ec7e-8fc78cd4c6bd.txt
 
 c8084a89bd91b05f51a36bff61f63a94c800b0d6 Input: wdt87xx_i2c - fix compiler warning
 c9ccb88f534ca760d06590b67571c353a2f0cbcd Input: ads7846 - fix gpiod allocation
@@ -302,7 +290,12 @@ ad87a8d0c435a97e2bdcf714d7e1a84ab5fda1ad Merge tag 'trace-v6.14-rc5' of git://gi
 0990528befe86e538e51d89824c2c091999d191c Merge tag 'i2c-for-6.14-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 d1275e99d1c4f2e70452558b8da9d0d7bdcc9e16 Merge tag 'media/v6.14-3' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 4701f33a10702d5fc577c32434eb62adde0a1ae1 Linux 6.14-rc7
-a6e1f6abf05e741850e9d5517d76cda22c6cbe6e Merge tag 'v6.14-rc7'
-3ae0cf875914e331b2239a960d6696ab944733e3 m68k: defconfig: Update defconfigs for v6.14-rc1
+29f59d11915495f63a9bf55d4435fbe6dda4ef0e m68k: sun3: Use str_read_write() helper in mmu_emu_handle_fault()
+a113f3026e1ef5a99ed45b769ecc750938e4821c m68k: sun3: Fix DEBUG_MMU_EMU build
+77998f3190f297ca2a268e3e4ceb618479517344 m68k: setup: Remove size argument when calling strscpy()
+c13aee80007ba2f818d43b6479a4281ffcee8e47 m68k: defconfig: Update defconfigs for v6.14-rc1
+b81ae30c5511138090885d3324e68a54d5573534 m68k: atari: usb: Add ISP1160 USB host controller support
+7a457e5ccafdea5a48751ab4eee48343d7f5c3c7 m68k: atari: Update Kconfig.bus help text
+8fc78cd4c6bd8e5bd35f4eb9e04c181f6079a0d8 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============5522139583625827681==--
+--===============0274055914177909444==--
