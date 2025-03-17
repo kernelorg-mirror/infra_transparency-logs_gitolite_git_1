@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0461970265135340783=="
+Content-Type: multipart/mixed; boundary="===============7002552439390363510=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 17 Mar 2025 11:24:08 -0000
-Message-Id: <174221064809.2727022.12807945109104263199@gitolite.kernel.org>
+Date: Mon, 17 Mar 2025 11:24:34 -0000
+Message-Id: <174221067473.2727989.7382667383394017002@gitolite.kernel.org>
 
---===============0461970265135340783==
+--===============7002552439390363510==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,37 +16,46 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: deb00b8f64b1d740b91bc4b939501505bfd87730
-    new: a8e2289da35dbc0a9d46268b8aedbdecbf456908
-    log: revlist-deb00b8f64b1-a8e2289da35d.txt
+    old: a8e2289da35dbc0a9d46268b8aedbdecbf456908
+    new: bab03103a34f11b897fd7309d1036ed60d19c503
+    log: revlist-a8e2289da35d-bab03103a34f.txt
+  - ref: refs/heads/tip/urgent
+    old: 1b9df84acf2928fdacf3c07ecc3143b71d54acb2
+    new: 0a4f16e8a083df791b3ada480b2d727771a0c2c1
+    log: |
+         0a4f16e8a083df791b3ada480b2d727771a0c2c1 Merge branch into tip/master: 'sched/urgent'
+         
 
---===============0461970265135340783==
+--===============7002552439390363510==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-deb00b8f64b1-a8e2289da35d.txt
+Content-Disposition: attachment; filename=revlist-a8e2289da35d-bab03103a34f.txt
 
-bf71940fc16953bed84caa59b7b076ead70d42f6 objtool: Hide unnecessary compiler error message
-ab6ce22b789622ca732e91cbb3a5cb5ba370cbd0 objtool: Handle various symbol types of rodata
-091bf313f8a852a7f30c3a8dcef569edfd06f5dc objtool: Handle different entry size of rodata
-c4b93b06230ae49870187189d9f7342f6ad4f14e objtool: Handle PC relative relocation type
-b95f852d3af21513e19a54c1e971c79f2911b54a objtool/LoongArch: Add support for switch table
-88cbb468d4545526a33126f8a41352cac6dd0f3c objtool/LoongArch: Add support for goto table
-e20ab7d454ee8d1e0e8b9ff73a7c87e84c666b2f LoongArch: Enable jump table for objtool
-8085fcd78c1a3dbdf2278732579009d41ce0bc4e x86/traps: Make exc_double_fault() consistently noreturn
-b745962cb97569aad026806bb0740663cf813147 objtool: Fix error handling inconsistencies in check()
-acae6b5bfffedc0440837c52584696dadb2fa334 objtool: Improve __noreturn annotation warning
-dd95beba97b61ed53e6c96b5a43fbc9edf07c033 objtool: Update documentation
-0a7fb6f07e3ad497d31ae9a2082d2cacab43d54a objtool: Increase per-function WARN_FUNC() rate limit
-764d956145f21a0297004e9c67d7d60bde14e709 objtool: Remove --unret dependency on --rethunk
-acc8c6a798a011a5fe37b455b0286a85a4164b47 objtool: Consolidate option validation
-fdf5ff2934f4c5c6b483c906fea6e0288df36da2 objtool: Upgrade "Linked object detected" warning to error
-5a406031d0719d146d2033ee4270310b1ca9a1e3 objtool: Add --output option
-bb62243943dbef4592266e817f4e2e5a96293907 objtool: Add --Werror option
-a307dd28b1c6655b67b2367663331034ac8da79c objtool: Change "warning:" to "error:" for --Werror
-aa8b3e64fd397eddd6a627d148a964e4bc2ed9ab objtool: Create backup on error and print args
-36799069b48198e5ce92d99310060c4aecb4b3e3 objtool: Add CONFIG_OBJTOOL_WERROR
-73070466ed3b5e4620e03c159ee12a570b171d08 objtool: Use O_CREAT with explicit mode mask
-a8e2289da35dbc0a9d46268b8aedbdecbf456908 Merge branch into tip/master: 'objtool/core'
+0a4f16e8a083df791b3ada480b2d727771a0c2c1 Merge branch into tip/master: 'sched/urgent'
+af1b378a11ba9ac6631fbe76607967368c15a103 Merge branch into tip/master: 'x86/merge'
+c1b8aa1426a92baabd7d42a804753fecbb95ce57 Merge branch into tip/master: 'timers/merge'
+4afa98e5c7a04e6e72f15b7aa5e86ceefd252962 Merge branch into tip/master: 'irq/core'
+a327ace0913f02758b7f4229a0322e8284961681 Merge branch into tip/master: 'irq/drivers'
+61aa2f94bb18ee4c515e48c266709ade3fcd1d6a Merge branch into tip/master: 'irq/msi'
+3c27ad77366ace8c03601a089a49a070fd92dee1 Merge branch into tip/master: 'locking/core'
+8a42040351f34176a7e3b3d3f339162e618940a2 Merge branch into tip/master: 'locking/futex'
+b48a214df5efa919d050b47ffcdc53f51ebe15a3 Merge branch into tip/master: 'objtool/core'
+593f8f2660603befc2a3187f2467fa5556e998a6 Merge branch into tip/master: 'perf/core'
+25cb2858837df72492980662bd4b8a5f4870c893 Merge branch into tip/master: 'ras/core'
+92e4b4b251e078f00363d174e5bcc0ed80502fcc Merge branch into tip/master: 'sched/core'
+e2cd8a6b22415d3332a8e07d3bcdbb46ae27f91c Merge branch into tip/master: 'timers/cleanups'
+3972af2adf91787d2f338fea0e96216c36c4d810 Merge branch into tip/master: 'timers/core'
+4cc9965c6cba51ae63efbd2e4863553e3403d856 Merge branch into tip/master: 'x86/asm'
+c604327ec8c42ccedf43e79faf87f31e4b349e2c Merge branch into tip/master: 'x86/boot'
+6daed8b43e98337e6360e35dc36ddaa83a8574db Merge branch into tip/master: 'x86/bugs'
+b5b8070831470a5e980feea1e58a5870dfc661b2 Merge branch into tip/master: 'x86/build'
+b0a14517e44394b26c76e7b496093fc34398e0a9 Merge branch into tip/master: 'x86/cache'
+f6afef03b0fbeb1707083be05c3dc3e3ec65633d Merge branch into tip/master: 'x86/cleanups'
+283524bc74c906a4919048973f0840b6473a49b5 Merge branch into tip/master: 'x86/cpu'
+6968add2ba862024257eb1699d479488caf3d297 Merge branch into tip/master: 'x86/fpu'
+342138545624651727785c037e89fc542d3e04ce Merge branch into tip/master: 'x86/mm'
+999efda9de8ab6b37fd62e1b694fe0fbff4101ff Merge branch into tip/master: 'x86/platform'
+bab03103a34f11b897fd7309d1036ed60d19c503 Merge branch into tip/master: 'x86/sev'
 
---===============0461970265135340783==--
+--===============7002552439390363510==--
