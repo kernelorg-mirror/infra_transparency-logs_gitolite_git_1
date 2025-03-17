@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Mon, 17 Mar 2025 21:19:36 -0000
-Message-Id: <174224637668.3263130.5970498835079869155@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 17 Mar 2025 21:23:46 -0000
+Message-Id: <174224662604.3266666.2571192347229660159@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
-user: pcmoore
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/dev
-    old: 8af43b61c17e9a18b06fd6ab26370543f21eb4e4
-    new: a3d3043ef24ac750f05a164e48f3d0833ebf0252
+  - ref: refs/heads/master
+    old: bab03103a34f11b897fd7309d1036ed60d19c503
+    new: 07995291edb78f6f292037fe33cfb1adc3549930
     log: |
-         a3d3043ef24ac750f05a164e48f3d0833ebf0252 selinux: get netif_wildcard policycap from policy instead of cache
-         
-  - ref: refs/heads/next
-    old: 8af43b61c17e9a18b06fd6ab26370543f21eb4e4
-    new: a3d3043ef24ac750f05a164e48f3d0833ebf0252
-    log: |
-         a3d3043ef24ac750f05a164e48f3d0833ebf0252 selinux: get netif_wildcard policycap from policy instead of cache
+         4348e9177813656d5d8bd18f34b3e611df004032 x86/fpu: Clarify the "xa" symbolic name used in the XSTATE* macros
+         07995291edb78f6f292037fe33cfb1adc3549930 Merge branch into tip/master: 'x86/fpu'
          
