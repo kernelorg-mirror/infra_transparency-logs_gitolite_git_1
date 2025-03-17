@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8066902336006267044=="
+Content-Type: multipart/mixed; boundary="===============7516070384519451102=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 17 Mar 2025 15:11:41 -0000
-Message-Id: <174222430177.2927374.5230362319827564286@gitolite.kernel.org>
+Date: Mon, 17 Mar 2025 15:11:56 -0000
+Message-Id: <174222431602.2927820.11385182627169099052@gitolite.kernel.org>
 
---===============8066902336006267044==
+--===============7516070384519451102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 495aad2a0c59907565a0675ebc7ee5ba71f4165e
+  - ref: refs/heads/next
+    old: 4576ad38bb9b7a060b71d5d0231e9741b8248fbd
     new: 04c72b01f6188b7ecac892731db890620708401b
-    log: revlist-495aad2a0c59-04c72b01f618.txt
+    log: revlist-4576ad38bb9b-04c72b01f618.txt
 
---===============8066902336006267044==
+--===============7516070384519451102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-495aad2a0c59-04c72b01f618.txt
+Content-Disposition: attachment; filename=revlist-4576ad38bb9b-04c72b01f618.txt
 
 c8084a89bd91b05f51a36bff61f63a94c800b0d6 Input: wdt87xx_i2c - fix compiler warning
 c9ccb88f534ca760d06590b67571c353a2f0cbcd Input: ads7846 - fix gpiod allocation
@@ -303,4 +303,4 @@ abf6e84648ddea030583da6b77ef1207c86435d1 tpm_crb: ffa_tpm: Implement driver comp
 cebcb37cc8824f73218906aacd5387c917cf7cad tpm_crb: Add support for the ARM FF-A start method
 04c72b01f6188b7ecac892731db890620708401b Documentation: tpm: Add documentation for the CRB FF-A interface
 
---===============8066902336006267044==--
+--===============7516070384519451102==--
