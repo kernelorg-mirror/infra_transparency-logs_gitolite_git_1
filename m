@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 17 Mar 2025 18:10:27 -0000
-Message-Id: <174223502743.3095233.18318587305574614662@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Mon, 17 Mar 2025 18:10:38 -0000
+Message-Id: <174223503862.3095596.6268204192997251648@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/asoc-6.15
-    old: 18abb3797f1ceca97a705aa1c14cbec5c6fcab79
-    new: b9d98aea6b7baac85a46a7885a12437e5eaae228
+  - ref: refs/heads/hwmon-next
+    old: dbcfcb239b3b452ef8782842c36fb17dd1b9092f
+    new: c1d6afdbb8ed0ef9291c21214e0a11cc91f65c7f
     log: |
-         3fec903f2cb18805b1ef22a0e310498020c1f15e ASoC: dt-bindings: mediatek,mt8188-mt6359: Add mediatek,accdet
-         cf536e2622e2b0a60c99e799995b6e9acf539c17 ASoC: mediatek: common: Handle mediatek,accdet property
-         0116a7d84b32537a10d9bea1fd1bfc06577ef527 ASoC: mediatek: mt6359: Add stub for mt6359_accdet_enable_jack_detect
-         f35d834d67adbbf121ee4397376d9eac21d99a85 ASoC: mediatek: mt8188-mt6359: Add accdet headset jack detect support
-         b9d98aea6b7baac85a46a7885a12437e5eaae228 Allow retrieving accessory detection reference on
+         80d363e1b3b6665dc80ca45e72b97d4dd0dcae50 hwmon: (pmbus/ltc2978) Add support for LT717x - docs
+         156c6ebbab10e1eecc78403029a69d60dd8073bf dt-bindings: hwmon: ltc2978: add support for LT717x
+         c1d6afdbb8ed0ef9291c21214e0a11cc91f65c7f hwmon: (pmbus/ltc2978) add support for lt717x
          
