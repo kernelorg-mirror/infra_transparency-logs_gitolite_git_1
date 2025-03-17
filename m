@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============1443251607778321234=="
+Content-Type: multipart/mixed; boundary="===============1820281471953697239=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 17 Mar 2025 12:57:33 -0000
-Message-Id: <174221625312.2808150.8975636277576756039@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 17 Mar 2025 12:57:36 -0000
+Message-Id: <174221625618.2808365.156890949899998116@gitolite.kernel.org>
 
---===============1443251607778321234==
+--===============1820281471953697239==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.14
+  - ref: refs/heads/asoc-6.14
     old: de74ec718e0788e1998eb7289ad07970e27cae27
     new: 309b367eafc8e162603cd29189da6db770411fea
     log: |
@@ -24,28 +24,28 @@ changes:
          309b367eafc8e162603cd29189da6db770411fea ASoC: amd: Add DMI quirk for ACP6X mic support
          
 
---===============1443251607778321234==
+--===============1820281471953697239==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1742216281 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1742216251-b1358a994caa6898d66df069d806fb6f94d779ed
+pusher C3F436CA30F5D8EB 1742216284 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1742216254-8289f114171b9939c90942d93e210536309f930e
 
-de74ec718e0788e1998eb7289ad07970e27cae27 309b367eafc8e162603cd29189da6db770411fea refs/heads/for-6.14
+de74ec718e0788e1998eb7289ad07970e27cae27 309b367eafc8e162603cd29189da6db770411fea refs/heads/asoc-6.14
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmfYHFkACgkQJNaLcl1U
-h9DOngf/SK5veqeNnNYuYPicTQ66VE4X4HiOpBDsxwgbiFzbqIr3G2KHuTVGkmVU
-Gj3LJozasQWiqOALmIMj26iBk8qcEjG2IfTN3ypGguSVU2OMHPhFB92V7IuXVT1I
-TsjUnT7UPeM6QGQPmoOo8CxAhlKw0zH1dpQiCk8UaRHJJKR1uQDJhb13LgSau/Pe
-bQ48zzegVzYEIg5LHACvNefyrENkQfMwMOmHKkJQ8RbogjgNoVDRucXyFR/ovHK5
-SoR1i2wEgNfuePAIR4c3xhH1GF4d7rZPtutL2witPFNLQo253roFMn4qGmRyrJgT
-kuPDWzbqJr300m18aDue5EeYieHW8w==
-=lKji
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmfYHFwACgkQJNaLcl1U
+h9DPYwf/ZiiY0rX91kBw1cuJ+5igsB9IxsJ9s8HUI6W1DAyskWhmSY196HZdodNW
+O0mxFnmB2l0oR8Dg67O6vuVZ0rnA0P2ssfrv3bqxuBZ9NxIfRzmyEaelnpCVoRpG
+VfONJK46Tf/xIw8EypuW9KShgxtB9dvH0DSH6nu1U17W+Nqp50eLdwK/vX/6iDof
+Jwkm0Q5YG65mztESt1JudekIOpvTld61sO7CoL4NTuoxQP28XhTyL3eDn6MbkYCA
+lvhrz9bLBGGTfr37Km1OXITsyA+2WzUhFuJMjnCD9lgyqgdyaqPl4+8rh9m20Ofc
+IKJOplbUz/sqRbWJayrfytnvHHg0CQ==
+=704R
 -----END PGP SIGNATURE-----
 
---===============1443251607778321234==--
+--===============1820281471953697239==--
