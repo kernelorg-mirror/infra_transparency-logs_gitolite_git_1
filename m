@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Mon, 17 Mar 2025 22:29:08 -0000
-Message-Id: <174225054874.3322036.5410967508512385600@gitolite.kernel.org>
+Date: Mon, 17 Mar 2025 22:30:48 -0000
+Message-Id: <174225064847.3325203.9712945713280187835@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/abelloni/linux
 user: abelloni
 changes:
   - ref: refs/heads/rtc-next
-    old: 015b70bd6c759af9e4fd5824a4ffe145ccf6a615
-    new: eea7791e00f33a2a7a0c56479805bf1642ba378d
+    old: eea7791e00f33a2a7a0c56479805bf1642ba378d
+    new: 6c2b833525ebce518ff7056b2700dfe3d0244d8b
     log: |
-         0a243de9d009087fc99f591faa2c494ff5907fcd rtc: pcf50633: Remove
-         eea7791e00f33a2a7a0c56479805bf1642ba378d rtc: rzn1: implement one-second accuracy for alarms
+         6c2b833525ebce518ff7056b2700dfe3d0244d8b dt-bindings: rtc: pcf2127: Reference spi-peripheral-props.yaml
          
