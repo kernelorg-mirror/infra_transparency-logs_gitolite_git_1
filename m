@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 17 Mar 2025 12:33:06 -0000
-Message-Id: <174221478652.2785929.12731255569891702918@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Mon, 17 Mar 2025 12:34:27 -0000
+Message-Id: <174221486762.2786645.2125224997219462516@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: mhiramat
 changes:
-  - ref: refs/heads/v2_20250317_ethan_asoc_intel_avs_replace_devm_kzalloc_with_devm_kcalloc
+  - ref: refs/tags/probes-fixes-v6.14-rc6
     old: 0000000000000000000000000000000000000000
-    new: 3602571baf9a6864bde89422d179e422a3ea4d8d
+    new: 74f50e8db2a9d8eb99f1dd8b8286d11bb4099f97
