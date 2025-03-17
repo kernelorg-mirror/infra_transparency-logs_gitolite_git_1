@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 17 Mar 2025 20:17:28 -0000
-Message-Id: <174224264876.3209871.6066076483251274519@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 17 Mar 2025 20:17:36 -0000
+Message-Id: <174224265696.3210236.17440477737101593187@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/pending
-    old: 9a1cf85c9c7cca15bfc452f207818977621dedf8
-    new: d03ce052e783db3461d1631187e609d1f451b604
-    log: |
-         d03ce052e783db3461d1631187e609d1f451b604 wifi: ath12k: remove open parenthesis
-         
+  - ref: refs/heads/20250312_ckeepax_some_minor_sdca_preparation
+    old: d1cd13f80dc6c8525c539a28d4eb1df913d542de
+    new: 0000000000000000000000000000000000000000
