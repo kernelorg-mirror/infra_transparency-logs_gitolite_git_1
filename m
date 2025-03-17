@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4185422915564258430=="
+Content-Type: multipart/mixed; boundary="===============3425888780904027229=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Mon, 17 Mar 2025 07:12:53 -0000
-Message-Id: <174219557337.2496979.1417701470482522721@gitolite.kernel.org>
+Message-Id: <174219557354.2497001.9151936274868905834@gitolite.kernel.org>
 
---===============4185422915564258430==
+--===============3425888780904027229==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,103 +16,92 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: 551461a163a5de95649f1583a0e4d6b012c357ee
-    new: 08669f202d06507b16ef754d8e2889dcc6b9ccb5
-    log: revlist-551461a163a5-08669f202d06.txt
+  - ref: refs/heads/linux-5.4.y
+    old: 52bcf31d8e3d6864b64fd2f6afffe06635238dc2
+    new: bbf51067f14852464d75398076a963edbe1e5cc0
+    log: revlist-52bcf31d8e3d-bbf51067f148.txt
 
---===============4185422915564258430==
+--===============3425888780904027229==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1742195524 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1742195522 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1742195568-2bb83817d77baa1a38072eebcd9d51bd5839fb90
+nonce 1742195565-a107f7f099c41a44f093309c66f7a2f9062eb322
 
-551461a163a5de95649f1583a0e4d6b012c357ee 08669f202d06507b16ef754d8e2889dcc6b9ccb5 refs/heads/linux-5.10.y
+52bcf31d8e3d6864b64fd2f6afffe06635238dc2 bbf51067f14852464d75398076a963edbe1e5cc0 refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfXy0QbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Gd8P+wTrDwo1stX7eINuEE/f
-i/Km7WpvKFWreaCkF2r9OjxFA6eROVMrnSRm3osd3w1tEwzuJC9dWXUI/7POLFD7
-tqKNFryO5WQTGcPhTOrwpaERiQHamPyj4PKLe7pDV3Qn2o6RLuJiFEp5+W0zW4Fk
-WZGJ8TY2jmnVl55UeTB3ez4VCkNSHcc3H1laWmCxwzW4eGazWfIX6Cjz4QPrC5yl
-v8mZ1/kx+UEtUOrLdVtf+xC1drEpPHIRQjwJj25FqSyqZ6pE98oX6XGD6xkVcRZd
-9zGs5wmztcAW/OFXgMe5LLSBKkYsFbcQd7++GGGSx4jfORP10zUAkTnftGMmZVNo
-Inw1l8c2/Gt0Nrb8UuIQzVbwQqA5CwzozAgVl3iDt6TdGpavdIgOEMi24QEqqwYD
-7hDuMB+MuXG7J9geY/Fw2pzvIsWjkXwewdBMa9PhaIiXjZP3SceR+QNIw1vw0QIa
-N10mimDDRZnx5p0m1D7ETUd5sfvBKOBuk3wd47myPqvVNuosBCsmHbAUbvyqSqIm
-CHNDkhedE+NNpHPwYpxF5aUiRorvNivTe51RdWKPet3mf2SAJiwf2GgBjD4EMkr2
-IfEri0NF6jmjWPa/iKHbdGU4z4Dk+X5t61Enj3FwLp//+Smdn1ESEa5qjgMKH/MT
-yVvxLW04QBWNIh14S8O0TSCF
-=xCAP
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfXy0IbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nioQAIMHLyZ4aC5NNm6tZ/Ks
+Bef4daDykc/pJTJVaOSOxo5+b2rhONnwjuN0mxqJh7xLVNPQ+rOKa/jdgizmN9op
+vGbrq6GtQlDW8n+5GT8SmV1R7qnIl8TgiC1VRdsOyAsqVyK7xFB0tXvPGAshKlE9
+/U6XE//HIH87aty/Eem3nqUvxaKRJPgCc9oY7gW8jeBj/TF3gSaGkT/z/p8y93Wv
+q3QC9y/CDxnkV+t4LfMJ4DGLsemp5V4Bn+6NXAXfN/3d/yJYv2JQgP3qIrLRWU5S
+UXB35lmTHOiiGTpVgATXbO5Bq0dX8EWUZPCkr1ebMrDELTTkZ3RZitjBTmlrlGX4
+QrXbH+kLF6LP4rqs8yXazO4/bbKozYcQe2PEKnEY2vc1FPT55t1Yud8V0QV6K0yi
+OBYHx200t0tFgjzz2a+7kLM5yey9hi7bDjVZm8bp4hID1FncPxICDfLaBLtf859G
+QHCMXFbu4X4RRcsWjV1jQ/Sv0oBTu08bDNgY7Ws83PAiwqHR14YJ4NjK0GlXGWFf
+MjCAZqngbs5sdXNQ7h1ZvE+jLd0SW4xdfnydbYMdmgJcv1dMZW2aSCGOjCwKGnZD
+39o3XnWtKROi62zCBQRmcBXXmzbeFKVQfO89V+MHKaf7j6nqJps4CAeEJJVnMbrw
+ThvlX+N/xflVzjKA8h0rioU4
+=z72b
 -----END PGP SIGNATURE-----
 
---===============4185422915564258430==
+--===============3425888780904027229==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-551461a163a5-08669f202d06.txt
+Content-Disposition: attachment; filename=revlist-52bcf31d8e3d-bbf51067f148.txt
 
-23d21636abc9eaa6ab7ec5f84bc42a10487ca874 vlan: fix memory leak in vlan_newlink()
-c37b2cde2ac916bbfe95cf6c25daab1a4670e384 clockevents/drivers/i8253: Fix stop sequence for timer 0
-906f237ec5907243af6b51d6043635499ef39b4e sched/isolation: Prevent boot crash when the boot CPU is nohz_full
-52f1096a7862b59003577b52174d1eaa6b7e0ce7 ipv6: Fix signed integer overflow in __ip6_append_data
-a6b172b1593dbb4ad53b147c769d15b810437809 KVM: x86: Reject Hyper-V's SEND_IPI hypercalls if local APIC isn't in-kernel
-6fdf483fabba11afe5a7f23c5fda0b1411ecdac6 x86/kexec: fix memory leak of elf header buffer
-ebd190f0521db5c41889760f90df8e3189a613f5 fbdev: hyperv_fb: iounmap() the correct memory when removing a device
-02e3c15b610bf2c8085cd89cab9e97e5cb2153ac pinctrl: bcm281xx: Fix incorrect regmap max_registers value
-5f45f3fee434a454d16c055466ac84daacb56b1a netfilter: conntrack: convert to refcount_t api
-4a85c5d722895a1da72ede5a25f7d9ba6ad52e75 netfilter: nft_ct: fix use after free when attaching zone template
-833650864ca875287965d5fe3f66857052726404 netfilter: nft_ct: Use __refcount_inc() for per-CPU nft_ct_pcpu_template.
-bfb85fa1a0eb8ab46c8f554d1256ba17de8902d3 ice: fix memory leak in aRFS after reset
-94b5eda245c2079ff907e7a596a14c7bc8b0498f netpoll: hold rcu read lock in __netpoll_send_skb()
-65f92357fb401fbd8891d8929f28db50a6d9ca4e Drivers: hv: vmbus: Don't release fb_mmio resource in vmbus_free_mmio()
-40d247f73325b286f517a744db443c21b6fbbef7 net/mlx5: handle errors in mlx5_chains_create_table()
-ab8e74f70220f7aa6fdd8862ccc261d321e7218d netfilter: nf_conncount: Fully initialize struct nf_conncount_tuple in insert_tree()
-fa8f818f4d45544babb04996e1eddee7c10a24a9 ipvs: prevent integer overflow in do_ip_vs_get_ctl()
-7182a92a6536f576b3df4aaa839db3af8d18acbc net_sched: Prevent creation of classes with TC_H_ROOT
-4762f057430f2678e169397bb953328acdf0b98c netfilter: nft_exthdr: fix offset with ipv4_find_option()
-367da563354e7b639599bbbb4c23bcc127ac580d net/mlx5e: Prevent bridge link show failure for non-eswitch-allowed devices
-314dd5673e6dd6c0799202eaf6b366363fc35b0c nvme-fc: go straight to connecting state when initializing
-9c085aaa7090208e1dc2fa0154d3676d98cb55dc hrtimers: Mark is_migration_base() with __always_inline
-8404a5aae0f64156593b79ab333f3f0e6ab93f91 powercap: call put_device() on an error path in powercap_register_control_type()
-fa5c0e3e7d83b342374a1e075fba60a0cd7f79d1 iscsi_ibft: Fix UBSAN shift-out-of-bounds warning in ibft_attr_show_nic()
-91c3ac68c9a11d7b0e45b5d79ee6e299d3ac65aa scsi: qla1280: Fix kernel oops when debug level > 2
-06d097a274f336f55c27414705e6d64baf9beda9 ACPI: resource: IRQ override for Eluktronics MECH-17
-a36d7a18308660e6d34484fdb12f4a3531e8e838 alpha/elf: Fix misc/setarch test of util-linux by removing 32bit support
-a66d162f09038b958b55288d25e26f36ecbdc188 vboxsf: fix building with GCC 15
-47927a0668185112e333839f865686545e64a7a4 HID: intel-ish-hid: fix the length of MNG_SYNC_FW_CLOCK in doorbell
-daef28011c7bf296a3e362e8002b57b0fe7c9c06 HID: ignore non-functional sensor in HP 5MP Camera
-d549d6236c57ae9209a7b1cc63d64c54117cc3d4 s390/cio: Fix CHPID "configure" attribute caching
-321d9a47a63398e4913144188320d39e5f3d6741 thermal/cpufreq_cooling: Remove structure member documentation
-12026b96aad7d890024ec26c005b1032ed8fa947 ASoC: Intel: sof_sdw: Add support for Fatcat board with BT offload enabled in PTL platform
-8dc0054c427b36b19bceb52fb734705d75ad293e ASoC: rsnd: don't indicate warning on rsnd_kctrl_accept_runtime()
-3fe4aefdd98db964c28ae9c7b3c7ee48ae8e30e3 ASoC: arizona/madera: use fsleep() in up/down DAPM event delays.
-4a0fd778185726e452971ce2f13858f55eb0d9bc ASoC: SOF: Intel: hda: add softdep pre to snd-hda-codec-hdmi module
-3668711010045fcd6bd39c41b95e1926491f788c nvmet-rdma: recheck queue state is LIVE in state lock in recv done
-ce605fb071567fb89d33805f41a485966c7bdbad sctp: Fix undefined behavior in left shift operation
-116db14bdf7c6084e0c67b7020f4de29453e429c nvme: only allow entering LIVE from CONNECTING state
-00f6533b4e08319487a82dd5ae520f3bc6fad30d ASoC: tas2770: Fix volume scale
-aadd2a4032bdefb0dae9375a1d8323591f62ae23 ASoC: tas2764: Fix power control mask
-86360d02f8a4321a579a6eb37a258fc066b03a4d ASoC: tas2764: Set the SDOUT polarity correctly
-44ebd0cf8020cd6c97a871d3336966fd210fed2f fuse: don't truncate cached, mutated symlink
-6e56151a052cb010634154c6e45dc7b6a4495166 x86/irq: Define trace events conditionally
-a74ce0cfdbae4c73450f25f0206e88cfe5bb2ea0 mptcp: safety check before fallback
-5ff8221aebbb46fdd98018a678ac66b978a9b034 drm/nouveau: Do not override forced connector status
-7e00add9324cf332c8e5db01dfa0ae8bd4ef6644 block: fix 'kmem_cache of name 'bio-108' already exists'
-076cb9a2aefd7e60d437873322c948979a910225 USB: serial: ftdi_sio: add support for Altera USB Blaster 3
-520d4369a826d43a6bab390644587629c6f66131 USB: serial: option: add Telit Cinterion FE990B compositions
-e9bfaddb317edc1d0796ad99c8c661c6a07ca216 USB: serial: option: fix Telit Cinterion FE990A name
-a7bd51b22a63f7e32083e65b63b6c28ff2a1d650 USB: serial: option: match on interface class for Telit FN990B
-47d8e7aa4f13549d94dad8e7688adc6fd984b6a8 x86/microcode/AMD: Fix out-of-bounds on systems with CPU-less NUMA nodes
-67b4dd402223761da166c0cea951aa26f28f5b08 drm/atomic: Filter out redundant DPMS calls
-c6ccfed4618bed15254236404f6990a6494985ff drm/amd/display: Assign normalized_pix_clk when color depth = 14
-774d93985d5c1d9415c3f220d20b1d9d32e41b3a drm/amd/display: Fix slab-use-after-free on hdcp_work
-93c6dab90aafd8293b47f089aacbe20e1fa34cb0 qlcnic: fix memory leak issues in qlcnic_sriov_common.c
-08669f202d06507b16ef754d8e2889dcc6b9ccb5 Linux 5.10.236-rc1
+a988f76a2554b66c2055ceb5a0af97706f89ee6f vlan: fix memory leak in vlan_newlink()
+ab7894c9ab78d4e993e1f8c5e0e7858206e58205 clockevents/drivers/i8253: Fix stop sequence for timer 0
+132a298a7a4cb3e237a64ea4b6c96fd0f0312215 sched/isolation: Prevent boot crash when the boot CPU is nohz_full
+f5393f1ccbd4c09f126e3cc65422ab0fde0e9596 Revert "sctp: sysctl: cookie_hmac_alg: avoid using current->nsproxy"
+debb8649770d80cf5fe123073566a60a30aecf61 Revert "sctp: sysctl: auth_enable: avoid using current->nsproxy"
+252ba41753f78e6b4345bbfbea2ead0f01e11c06 sctp: sysctl: cookie_hmac_alg: avoid using current->nsproxy
+22e3ab0f15093f89bc83e3589a8d4771458e36f5 sctp: sysctl: auth_enable: avoid using current->nsproxy
+c3dfff8beba1d6518a74724c78503edfaabb7b60 pinctrl: bcm281xx: Fix incorrect regmap max_registers value
+ac76d5d6e5d31ed212c64fa8c0091af882e9f62f netpoll: Fix use correct return type for ndo_start_xmit()
+4476f041c921f8f30527d54994e579f95ffc235b netpoll: remove dev argument from netpoll_send_skb_on_dev()
+0ab8401457b3e52259d15293fe4c35204a5a56c0 netpoll: move netpoll_send_skb() out of line
+4e9c566ac5c0b53d1da691da64046476221adbac netpoll: netpoll_send_skb() returns transmit status
+b8058b40936508a24e0679f4e637d7d6360f0936 netpoll: hold rcu read lock in __netpoll_send_skb()
+7af05737c45f730e29af8e52bfb0ed5f9efe14d4 drivers/hv: Replace binary semaphore with mutex
+d0acaea149df4fc6ee3cbc3d16590e19e4f82a53 Drivers: hv: vmbus: Don't release fb_mmio resource in vmbus_free_mmio()
+4ec04bce9aacf5f85da064af67ecadd5ff2d6f42 netfilter: nf_conncount: Fully initialize struct nf_conncount_tuple in insert_tree()
+8ed7a3b976307be620092a1770e8a9dbff0777e8 ipvs: prevent integer overflow in do_ip_vs_get_ctl()
+7b100a327823041827b134eb24c6bc183fc5b70c net_sched: Prevent creation of classes with TC_H_ROOT
+031072f657afde3d219f6804f26348d4d711351f netfilter: nft_exthdr: fix offset with ipv4_find_option()
+425e80fa04070df7259cc4a85dc1a6b5f6dd8707 net/mlx5e: Prevent bridge link show failure for non-eswitch-allowed devices
+bee11d29ab8dc58a329eff8b3420590232a61dcc nvme-fc: go straight to connecting state when initializing
+db5acca9c5feda0479d7cb51bed4561529881086 hrtimers: Mark is_migration_base() with __always_inline
+d86e214ced3a0c6d61c3435be94add84abaf9434 powercap: call put_device() on an error path in powercap_register_control_type()
+bc8318175ee08f978165aaaabde936adf07162f8 iscsi_ibft: Fix UBSAN shift-out-of-bounds warning in ibft_attr_show_nic()
+7ef99fce16b3b17b5dd2147eb27d9de5ca5cd59d scsi: qla1280: Fix kernel oops when debug level > 2
+5fd1f5ccad9063a46ccdaee9b40b35d5f3777ddb ACPI: resource: IRQ override for Eluktronics MECH-17
+fbaca2d355f4f6194712f959bd803c893a66b40a HID: intel-ish-hid: fix the length of MNG_SYNC_FW_CLOCK in doorbell
+c58358c120ab5cc9ffed8e176ea383e30fc6c56c HID: ignore non-functional sensor in HP 5MP Camera
+c5c165d93c3bd4fb0c647fc384a1e5d892c45cb2 s390/cio: Fix CHPID "configure" attribute caching
+fb490aad894504b942c50b08a7d9e5633435738b ASoC: rsnd: don't indicate warning on rsnd_kctrl_accept_runtime()
+584c193b4ddba90f0c38b3d7b3f1b8887da5098e nvmet-rdma: recheck queue state is LIVE in state lock in recv done
+ed635593f896fb65f99859df551b6d9ad5f96bc4 sctp: Fix undefined behavior in left shift operation
+110491a4189de0c60f85c06edb903cb815e1302a nvme: only allow entering LIVE from CONNECTING state
+6e831bf7c75e89cfb546611d319decbbebad57f9 fuse: don't truncate cached, mutated symlink
+3b135454198672d377fa4a51a45baa741d527337 x86/irq: Define trace events conditionally
+35925575f620744907d9f3771c319b0b659b19c3 drm/nouveau: Do not override forced connector status
+45cc08aa1f61a0d76544ad6ac7db3728066f17a2 block: fix 'kmem_cache of name 'bio-108' already exists'
+b2e94d6dd46a3f56b4a7a77d3836ff360e1e7a67 USB: serial: ftdi_sio: add support for Altera USB Blaster 3
+bd184c9ecd15c590b09128e3ada73fd16cb65ca9 USB: serial: option: add Telit Cinterion FE990B compositions
+2906661ec0bc97e389daed30e0228bada6c98242 USB: serial: option: fix Telit Cinterion FE990A name
+02afdbfc8ad6fd450170bb465d48e65012005b69 USB: serial: option: match on interface class for Telit FN990B
+e1b3b7425ea9aba14c45636424ec19b47599d8c8 x86/microcode/AMD: Fix out-of-bounds on systems with CPU-less NUMA nodes
+caef446d3b62f85373a726fa4aac2b3a3b9866bf drm/atomic: Filter out redundant DPMS calls
+2601923d3f6e0134b9278e52a69361dd210e1bd1 drm/amd/display: Assign normalized_pix_clk when color depth = 14
+2ec53e7e8645d80efffdcda4cfa25d0e61161d67 qlcnic: fix memory leak issues in qlcnic_sriov_common.c
+bbf51067f14852464d75398076a963edbe1e5cc0 Linux 5.4.292-rc1
 
---===============4185422915564258430==--
+--===============3425888780904027229==--
