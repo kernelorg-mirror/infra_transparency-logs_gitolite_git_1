@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Mon, 17 Mar 2025 06:02:13 -0000
-Message-Id: <174219133343.2436551.427165149062967107@gitolite.kernel.org>
+Date: Mon, 17 Mar 2025 06:02:47 -0000
+Message-Id: <174219136733.2437043.6693975114544193550@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/dev-test
-    old: 93694617c2879b8fc145d310883371a7417b6850
+  - ref: refs/heads/dev
+    old: f81398b33aeaf7dcf8df893fefffcbf846cdaeac
     new: 0f24e3c05afeac905a9df557264cc48f3363ab47
     log: |
          fe1e57d44d7f106df9048e815e4862cf63921220 erofs: initialize decompression early
