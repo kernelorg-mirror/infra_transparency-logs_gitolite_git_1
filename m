@@ -1,48 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============7234215690013917450=="
+Content-Type: multipart/mixed; boundary="===============1547097640955910767=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 17 Mar 2025 11:31:34 -0000
-Message-Id: <174221109457.2734893.684034859394709466@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Mon, 17 Mar 2025 11:37:14 -0000
+Message-Id: <174221143439.2739454.6969244472093751013@gitolite.kernel.org>
 
---===============7234215690013917450==
+--===============1547097640955910767==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/stable/v2.41
-    old: 318cba1eda1b07f3857d046742471a217b74c13f
-    new: d32c037d546b0e94b6a337bf0c6b6cebe8eabd62
-    log: revlist-318cba1eda1b-d32c037d546b.txt
+  - ref: refs/heads/perf/core
+    old: ab416e78f5c4aac9684e062abfdafa03a0920712
+    new: 12e766d16814808b6a581597cef6ce9fc029e917
+    log: revlist-ab416e78f5c4-12e766d16814.txt
 
---===============7234215690013917450==
+--===============1547097640955910767==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-318cba1eda1b-d32c037d546b.txt
+Content-Disposition: attachment; filename=revlist-ab416e78f5c4-12e766d16814.txt
 
-fcde20efa7eb97e13e5acde4d29f0ba82ae6b520 tools/poman-translate: fix to work outside on source dir
-63b23d7f27f8daf0edac760cb319b6441b6c2195 lsfd: (man) fix a typo
-c003ca78ca5d65922a6e2454ede5d2ea470e42d7 swapon: make options --help and --version override --summary
-31ee0ccf754656536222c413b090d10d389f29a2 irqtop,lsirq: set up locale path, so messages get actually translated
-3c4668aff41c6cddb4ad3ef318d9582c16068ee0 swapon: remove unnecessary variable usage
-87e5d6228425a3fef3de270acf485b550a9f42e0 more: fix repeat command
-7f6fa5c9d28ae8a6b55f2586042361734b5477a8 lslogins: remove possible memory leaks [coverity scan]
-f8737a5f2211e5e9bbfff6c808cbffbaee6bfe7e test_sysinfo: remove memory lea [coverity scan]
-d362642d1ff65fffc27bf6467616949ce3741918 libmount: remove possible leak in mnt_context_guess_srcpath_fstype() [coverity scan]
-3cd7b92ce62c2b510563615d8ceebf04716e70ab liblastlog2: (test) fix memory leak in failed test [coverity scan]
-ae39afa104bdfb9d7cc8f6df5ff2310626e98d11 unshare: make strings more robust
-b00042008d5be154ab669af0804797c3819b86ab lsfd: initialize struct stat [coverity scan]
-59ebdd1d4ba3facb0968cce1bb1ac1bb5a15bfad hwclock: avoid dereferencing a pointer [coverity scan]
-c1334887344a884220f3983fbafc6def78334b4c lslogins: fix typo
-1d42e68236d82c1ac2cd60dfbc9ab061d3bb7184 more: remove a duplicate call of setlocale()
-12dea167e352e7b32c8579f3253d5f3da38e1303 various: (man) list --help and --version last among the options
-22ff5ce1017292ddcb02e20568001d1affc771d9 lsfd: (man) fix a typo
-d32c037d546b0e94b6a337bf0c6b6cebe8eabd62 Use ipc_stat::cgid for the column COL_CGID.
+b6ecb57f1fec114cfa19b1bf06f25f904ca928f9 perf/core: Use sysfs_emit() instead of scnprintf()
+f4b07fd62d4d11d57a15cb4ae01b3833282eb8f6 perf/core: Use POLLHUP for pinned events in error
+c96fff391c095c11dc87dab35be72dee7d217cde perf/ring_buffer: Allow the EPOLLRDNORM flag for poll
+c53e14f1ea4a8f8ddd9b2cd850fcbc0d934b79f5 perf: Extend per event callchain limit to branch stack
+cb4369129339060218baca718a578bb0b826e734 perf: Save PMU specific data in task_struct
+fdfda868ee3b5da1fbdb7710b731e09d8dd3a615 locking/percpu-rwsem: Add guard support
+506e64e710ff9573fd2b86686528762b7901b5e4 perf: attach/detach PMU specific data
+d57e94f5b891925e4f2796266eba31edd5a01903 perf: Supply task information to sched_task()
+3cec9fd03543c1e2919f906353e5cba079ae0a7c perf/x86/lbr: Fix shorter LBRs call stacks for the system-wide mode
+1fbc6c8e5289c252867c33bf12d54c11c8cfeac4 perf/x86: Remove swap_task_ctx()
+bd2da08d9363d191551d79e5b04121348e18af5a perf: Clean up pmu specific data
+12e766d16814808b6a581597cef6ce9fc029e917 perf: Fix __percpu annotation
 
---===============7234215690013917450==--
+--===============1547097640955910767==--
