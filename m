@@ -1,22 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Mon, 17 Mar 2025 23:46:53 -0000
-Message-Id: <174225521300.3390475.3023138924093490003@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Mon, 17 Mar 2025 23:59:26 -0000
+Message-Id: <174225596670.3399632.11848870229208006958@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/master
-    old: f6e0104fb6ce8d7a7017a91a71958df63584ea13
-    new: c9fe0d3c5d862cb8c80ad53ee39887cc0f53fd76
+  - ref: refs/heads/main
+    old: 7fd16d1de09e014b2419ddd1b03ff41d6ac131c2
+    new: b6f473c96421b8b451a8df8ccb620bcd71d4b3f4
     log: |
-         971bf0c8dfe29b8425be315e1785c7197a1d90ff patches/next: move memory tiering patches to categorized area
-         3a636c7ff38c1ee6ff41faa4db8137afceb4f544 patches/next: add active damos filter type
-         79b455c8047c3f93e3050b572fae808ad20d903c patches/next: add a few words on memory_tiering cover letter
-         c9fe0d3c5d862cb8c80ad53ee39887cc0f53fd76 patches/next: rebase to latest mm-unstable
+         47c91531edd2a552a8131414e4bdb0654277ad6a wifi: ath12k: remove open parenthesis
+         b17271b7f8c4b5cb24a3c32b7a094e6f0e5010a7 Merge branch 'ath-next'
+         6b4b80874a698a12f54259b2ade0da115f2cd601 Merge remote-tracking branch 'mhi/mhi-next'
+         b6f473c96421b8b451a8df8ccb620bcd71d4b3f4 Add localversion-wireless-testing-ath
          
+  - ref: refs/tags/ath-202503172347
+    old: 0000000000000000000000000000000000000000
+    new: b6f473c96421b8b451a8df8ccb620bcd71d4b3f4
