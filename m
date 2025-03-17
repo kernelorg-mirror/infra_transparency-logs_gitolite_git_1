@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 17 Mar 2025 12:56:57 -0000
-Message-Id: <174221621765.2806951.4990122013576351183@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 17 Mar 2025 12:57:15 -0000
+Message-Id: <174221623566.2807281.2342229115192816182@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/stable/v2.41
-    old: d32c037d546b0e94b6a337bf0c6b6cebe8eabd62
-    new: e1e1f28146c4f1131a98baade2e92429bb7f8d36
-    log: |
-         e1e1f28146c4f1131a98baade2e92429bb7f8d36 unshare: fix typo in --map-groups=subids map name [coverity scan]
-         
+  - ref: refs/heads/file8BFZrO
+    old: 309b367eafc8e162603cd29189da6db770411fea
+    new: 0000000000000000000000000000000000000000
