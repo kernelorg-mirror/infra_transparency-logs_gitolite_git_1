@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Mon, 17 Mar 2025 14:43:33 -0000
-Message-Id: <174222261364.2900432.14307953444436531977@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Mon, 17 Mar 2025 14:50:16 -0000
+Message-Id: <174222301679.2907730.2403967405305406465@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
-user: sre
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/for-next
-    old: aae075a93f7705e29c599d101abc7e467125d871
-    new: 30cc7b0d0e9341d419eb7da15fb5c22406dbe499
+  - ref: refs/heads/arm64-for-6.15
+    old: 9bb5ca464100e7c8f2d740148088f60e04fed8ed
+    new: b53c2c23d3c2e50473c0be17a392d4b03a296b52
     log: |
-         30cc7b0d0e9341d419eb7da15fb5c22406dbe499 power: supply: max77693: Fix wrong conversion of charge input threshold value
+         409803681a55e061f5ea6be82f05f14c0b9c707e arm64: dts: qcom: sc8280xp-x13s: switch to uefi rtc offset
+         b53c2c23d3c2e50473c0be17a392d4b03a296b52 arm64: dts: qcom: x1e80100: enable rtc
          
