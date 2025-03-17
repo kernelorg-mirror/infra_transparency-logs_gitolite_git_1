@@ -1,21 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Mon, 17 Mar 2025 18:10:38 -0000
-Message-Id: <174223503862.3095596.6268204192997251648@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Mon, 17 Mar 2025 18:12:51 -0000
+Message-Id: <174223517134.3096684.5272898047394083131@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/hwmon-next
-    old: dbcfcb239b3b452ef8782842c36fb17dd1b9092f
-    new: c1d6afdbb8ed0ef9291c21214e0a11cc91f65c7f
+  - ref: refs/heads/main
+    old: a2ef9d802c470bc1cc8cb78391ac2e290422cee1
+    new: 7fd16d1de09e014b2419ddd1b03ff41d6ac131c2
     log: |
-         80d363e1b3b6665dc80ca45e72b97d4dd0dcae50 hwmon: (pmbus/ltc2978) Add support for LT717x - docs
-         156c6ebbab10e1eecc78403029a69d60dd8073bf dt-bindings: hwmon: ltc2978: add support for LT717x
-         c1d6afdbb8ed0ef9291c21214e0a11cc91f65c7f hwmon: (pmbus/ltc2978) add support for lt717x
+         b1b01e46a3db5ad44d1e4691ba37c1e0832cd5cf wifi: ath12k: Pass correct values of center freq1 and center freq2 for 160 MHz
+         5e44b181bec8e2fe3826033360fc1a42bb432191 wifi: ath12k: Pass correct values of center freq1 and center freq2 for 320 MHz
+         b8a0d83fe4c7a8d5c060eab91d9cc16bf0dcaa46 wifi: ath12k: move firmware stats out of debugfs
+         e92c658b056b31fbc923a59bd72d51ca9f2ba921 wifi: ath12k: add get_txpower mac ops
+         9a1cf85c9c7cca15bfc452f207818977621dedf8 wifi: carl9170: Add __nonstring annotations for unterminated strings
+         d182327390c4fda9dabf9869b29ec7c0b3aeef29 Merge branch 'ath-next'
+         288b92a2d547b790f0a72fc2f60128d96e8a268e Merge remote-tracking branch 'mhi/mhi-next'
+         7fd16d1de09e014b2419ddd1b03ff41d6ac131c2 Add localversion-wireless-testing-ath
          
+  - ref: refs/tags/ath-202503171752
+    old: 0000000000000000000000000000000000000000
+    new: 7fd16d1de09e014b2419ddd1b03ff41d6ac131c2
