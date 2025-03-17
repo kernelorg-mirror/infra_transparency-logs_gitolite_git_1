@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 17 Mar 2025 17:50:33 -0000
-Message-Id: <174223383379.3075413.5640069936285371104@gitolite.kernel.org>
+Date: Mon, 17 Mar 2025 17:50:44 -0000
+Message-Id: <174223384426.3075741.3187354648765511629@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: 0e28ee106c46c95eb322833c17c33e3c231ccd0d
+  - ref: refs/heads/pending
+    old: 21fa9ea13730c288495e9d809f3ffc48b0feb278
     new: 9a1cf85c9c7cca15bfc452f207818977621dedf8
     log: |
          b1b01e46a3db5ad44d1e4691ba37c1e0832cd5cf wifi: ath12k: Pass correct values of center freq1 and center freq2 for 160 MHz
