@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8885627083450205279=="
+Content-Type: multipart/mixed; boundary="===============0103650073973841778=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 17 Mar 2025 21:52:49 -0000
-Message-Id: <174224836975.3292503.17752941915663256115@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 17 Mar 2025 21:53:26 -0000
+Message-Id: <174224840688.3293135.13073881874063318125@gitolite.kernel.org>
 
---===============8885627083450205279==
+--===============0103650073973841778==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.15
-    old: b9d98aea6b7baac85a46a7885a12437e5eaae228
-    new: ebfbcfc7b962c06c43cd19cf07396d1e5d545d4b
-    log: revlist-b9d98aea6b7b-ebfbcfc7b962.txt
+  - ref: refs/heads/for-next
+    old: 4abcd56a4add829dfe18b0f31412d92daf20380f
+    new: 64b430b15f1b78a151af834ba3c10cc5554546bc
+    log: revlist-4abcd56a4add-64b430b15f1b.txt
 
---===============8885627083450205279==
+--===============0103650073973841778==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1742248396 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1742248366-2c9b5c6e3f71a566b1d30bbfa6d4e9e773811afc
-
-b9d98aea6b7baac85a46a7885a12437e5eaae228 ebfbcfc7b962c06c43cd19cf07396d1e5d545d4b refs/heads/asoc-6.15
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmfYmcwACgkQJNaLcl1U
-h9BoJgf/VYfa7XylN3Kh//oIgz2fXR4VzXhbeZNEmiUv/h2Ad/0o5sWVaPMdKn3l
-U1lAtN0zHX7elcSkNqPEZwkJr0XYUtPB2zwk3pYol6PUlGNatkx+dogDo2hTNgdO
-SHjKXrEnEFLNXEjn7Jf6DVULEMlpu1y2+VczcGq6JpCRZP0/OxKu/thKZ49pVy+B
-wgaBu/p4EJLIMbxVTg632qqaYyW5pj9yguDcAHluC9nCybdQvD/h+e8uTtJSMEKk
-l0F/kVwUicYPjksYScQqTvIV+AdjL8qL46HaZg8MiU4Y0M+LPB4mTRV1QEkecXMX
-dOawUr37lF+Hjs+bUL5x0bQ8AZbZPA==
-=jtzA
------END PGP SIGNATURE-----
-
---===============8885627083450205279==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b9d98aea6b7b-ebfbcfc7b962.txt
+Content-Disposition: attachment; filename=revlist-4abcd56a4add-64b430b15f1b.txt
 
 98dba9dab5d9af3c25e61a5d751bc943fec3f918 ASoC: pcm1681: Drop unused include
 ef5aa8bd22372dd67b7fe19613b86181cd765af8 ASoC: pcm3008: Convert to GPIO descriptors
@@ -151,5 +126,6 @@ c7ef05c0061acf505523133986adc47086265d99 ASoC: xtensa: Convert to RUNTIME_PM_OPS
 65086ec200999ef645d22490b84c267a7eb3a343 ASoC: Convert PCM codecs to GPIO descriptors
 aaf08d734e20690e85857b6930d2ad3d767c6cc9 Some minor SDCA preparation
 ebfbcfc7b962c06c43cd19cf07396d1e5d545d4b ASoC: Convert to modern PM macros
+64b430b15f1b78a151af834ba3c10cc5554546bc Merge remote-tracking branch 'asoc/for-6.15' into asoc-next
 
---===============8885627083450205279==--
+--===============0103650073973841778==--
