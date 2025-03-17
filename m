@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Mon, 17 Mar 2025 21:58:36 -0000
-Message-Id: <174224871687.3297486.7903357308273425554@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Mon, 17 Mar 2025 22:08:33 -0000
+Message-Id: <174224931338.3305701.14166095274363176525@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/tags/qcom-arm64-for-6.15
-    old: 0000000000000000000000000000000000000000
-    new: 164f84761413c2c9340c1e4b6b8e48334e9e082a
+  - ref: refs/heads/dev-queue
+    old: 9aea6be0bd16b1a68e3b54e5a929e20aaef1474b
+    new: 2de26b802143654aea9c04df94d174ef4877d3e7
+    log: |
+         2de26b802143654aea9c04df94d174ef4877d3e7 ice: fix reservation of resources for RDMA when disabled
+         
