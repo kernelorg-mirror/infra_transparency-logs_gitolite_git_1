@@ -1,53 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============5309930547841306964=="
+Content-Type: multipart/mixed; boundary="===============0370616969657494249=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Mon, 17 Mar 2025 04:20:59 -0000
-Message-Id: <174218525953.2307952.2464413287431465873@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Mon, 17 Mar 2025 04:38:38 -0000
+Message-Id: <174218631831.2369397.11306578071151992914@gitolite.kernel.org>
 
---===============5309930547841306964==
+--===============0370616969657494249==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v6.14-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 12b58398bffc23db89e715414399b0533255da51
+  - ref: refs/heads/char-misc-testing
+    old: 3b18ccb5472b78c48b03b98e8a0ef467c3e0a175
+    new: 64612eb92d0e6f86ead2d141bb2107c41d7a062e
+    log: |
+         0dd6770a72f138dabea9eae87f3da6ffa68f0d06 w1: fix NULL pointer dereference in probe
+         33c145297840dddf0dc23d5822159c26aba920d3 w1: w1_therm: w1: Use HWMON_CHANNEL_INFO macro to simplify code
+         64612eb92d0e6f86ead2d141bb2107c41d7a062e Merge tag 'w1-drv-6.15' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/krzk/linux-w1 into char-misc-next
+         
 
---===============5309930547841306964==
+--===============0370616969657494249==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1742185211 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1742185257-e8912e4b55de2625fece51b291a10dcf359b3776
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1742186269 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1742186315-348d3209ea716c2328e526d80e1f0c479a321b1d
 
-0000000000000000000000000000000000000000 12b58398bffc23db89e715414399b0533255da51 refs/tags/v6.14-rc7
+3b18ccb5472b78c48b03b98e8a0ef467c3e0a175 64612eb92d0e6f86ead2d141bb2107c41d7a062e refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfXovsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vzgQAL5yxXhmeNJIR74PPrg2
-B3zCDK6UXwPmhrAJvk10TDy4uoEr9uht9ePUK7II83hECvL2BUCb/u46IoWB70Pu
-coPtpAOdWyA3G9JrnwayrTDW83k4HGHlbeyep4OSRC5AYZRx70nhFOwcEyVFxcnw
-T6SbN91EuOmnQbwT0CRw994Jw7HGk4DWKDrSQ3YUVnYxz3+yx9fKcaFJRkyi4927
-73B1tT/Tt2cSemxCKogX14ZiDalPN4eWJzk6VsPj4hQxiV6iKyvKyvl6WH8NvWzp
-r9Z0ZcRNVZqVRWAVO9QwvBIE4/fr4JhYY6ME2tPW2KevfVOevhqUAFxvh+ImE2+c
-camK7tgPgt6e4bxFzBQYPGEh9/CqVkO/5NIfKOszYtac54vEA2aZHQLD09xYl1dQ
-KBCns1PtFwo4XiQYMtwzxlkB9EN1UK9hTVE3wcuuu7UcerlAHZPVYL1sUxgqKNSq
-6Cjt9OcSzQqweCvMHnnq5M300uaFZuLV2tVERaLfvFcnhjb6Dx1N3tw6VK1B7B/7
-JChXt/Mu2fkk0T0uummrK6bQKwYNq9dWfT/54bPAM6wymi2nzA+6GJAhzwcOuoFU
-1UY25GA9wP+9f12hVnI2/mUxnYpKnqaKH/6z0uIAg0+mzrf1Qp0/OfjiA2m0rtlw
-D8jtioOhSSbe3p1NvFtSFShR
-=bKrM
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfXpx0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SgMP/27CVF3t/menEaO9SUog
+Dz2yP8jSMkzfELKghbQr04SX8yBMyoTSeTV80HR4N5/Oea7M6L92wNeZItAVPgoC
+Q6TS/2TvEuAmoishW44JPhKmdtDOSYjW3CTlbhpkvhqGvkwcL9rSmD0hBp8MpGjo
+Rytu8w/hokb9DG59ZQ1RVw4t9dKyzBMaiSKTQf/yebfMdVRFK25qqAMfa9aHsD7E
+wo5rw4RToDepO7hngcXe84wcbtNy1l712hFwTDiXSBaqsaEfXJLeZBUQLlD8Te66
+NkclpRoTMtnk4clY9XN09RXIS29IeeUZ0K3LKM756LeXd/Yi9oJRtJC8gCMcI2E+
+w2v5OlP6cvcnJWVrG3dk2Caesok7+QiKlPoHkhX8Uv8+oV8roNc+JNcfRtNuxi0O
+3jk0zSXe7M41pXugwgo4u3UT6o5Td22KLez33w9zsfKv8mH8r0RD4i31Ql1coBDr
+PQotncKdPWHXH1boSD20tgix1KfHGf1nwW54rvV7pypH1eBf7xjcNHWfZevo+nBi
+nZAki9ZItzoK/WnPvcbRn0ZbfUUYOxViKZK2nw+q7A0MMUjU3EFXO2L700eWCeXI
+FoYhk+P+4LioPWc9/qc5TYb5VqzJRJ4qwB97Zh5cfYVd2VRvaAMJ78+dTlbkaCYN
+4UWTovM92SI5ws3e8d6HdSCr
+=dFYN
 -----END PGP SIGNATURE-----
 
---===============5309930547841306964==--
+--===============0370616969657494249==--
