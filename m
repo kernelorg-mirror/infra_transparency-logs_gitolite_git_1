@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6226923800286867586=="
+Content-Type: multipart/mixed; boundary="===============0396288028284971462=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jirislaby/linux
-Date: Mon, 17 Mar 2025 09:48:52 -0000
-Message-Id: <174220493255.2632824.3004089289750910698@gitolite.kernel.org>
+Date: Mon, 17 Mar 2025 09:49:14 -0000
+Message-Id: <174220495411.2633195.17061582646327890629@gitolite.kernel.org>
 
---===============6226923800286867586==
+--===============0396288028284971462==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jirislaby/linux
 user: jirislaby
 changes:
+  - ref: refs/heads/devel
+    old: a51ffe221e2da2df430888699365394c646aed12
+    new: 45c822322ae4fe8c727cff6d5c9e829e4d69e248
+    log: revlist-a51ffe221e2d-45c822322ae4.txt
   - ref: refs/heads/next_master
-    old: da920b7df701770e006928053672147075587fb2
-    new: f5e55f2ec5633b04142172d989f8669884ca0aba
-    log: revlist-da920b7df701-f5e55f2ec563.txt
+    old: f5e55f2ec5633b04142172d989f8669884ca0aba
+    new: da920b7df701770e006928053672147075587fb2
 
---===============6226923800286867586==
+--===============0396288028284971462==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-da920b7df701-f5e55f2ec563.txt
+Content-Disposition: attachment; filename=revlist-a51ffe221e2d-45c822322ae4.txt
 
 c72e455b89f216b43cd0dbb518036ec4c98f5c46 leds: leds-st1202: Fix NULL pointer access on race condition
 73e8079be9e7ae5ed197d074e0ba6c43674c52f7 x86/ibt: Make cfi_bhi a constant for FINEIBT_BHI=n
@@ -376,5 +379,115 @@ c42d909cafdcd5c3727e21a486922f3216459c6c Merge branch into tip/master: 'x86/bugs
 2504a3a096df7ca4512bb7cb2a23584c6181dc66 Merge branch into tip/master: 'x86/platform'
 6cc1c14e05cfc1fccecd3e98a6e2e0834e3823b8 Merge branch into tip/master: 'x86/sev'
 f5e55f2ec5633b04142172d989f8669884ca0aba Merge remote-tracking branch 'tip/master' into HEAD
+4ac02d974a0379d8ecde04af4d7ca25334051430 perf: remove shebang from scripts/{perl,python}/*.{pl,py}
+99d90ece387bf355ad41459761ad51a1c764d593 tty: convert "TTY Struct Flags" to an enum
+8018b0a3329d91f4ea6822aea33000ffa3c401b0 tty: audit: do not use N_TTY_BUF_SIZE
+110c5c7748512fd836fdd09d83ab7348e905bc27 tty: caif: do not use N_TTY_BUF_SIZE
+34fdad9a9773e26b6c71430ac047ff63eb888f0a tty: move N_TTY_BUF_SIZE to n_tty
+c464d98e246dc2c849247c6561ed8de7a50db495 tty: n_tty: use uint for space returned by tty_write_room()
+2c4beb5b8fb7424e0a066bae47d7b2e3f56ee4f1 tty: n_tty: simplify process_output()
+c11fb0f442e8eb86fd58d15ec042b3ba8293670a tty: n_tty: clean up process_output_block()
+54a6c53003c7f61ca91e186030de1e30f7cfdd21 tty: n_tty: drop n_tty_trace()
+6cbc40db419e907b4bfe252e701a7ae65de2253d tty: n_tty: extract n_tty_continue_cookie() from n_tty_read()
+57270eb982b3e1773a8bb2642181140c786dd394 tty: n_tty: extract n_tty_wait_for_input()
+465eb17bdcb2088e79cb4caff83f0d0e0d19f607 tty: n_tty: move more_to_be_read to the end of n_tty_read()
+11768fea8570455352d71aab076613df506481e3 tty: tty_driver: move TTY macros to the top
+ecee9d9ae916e781d710df7822553c11f41e82c6 tty: tty_driver: convert "TTY Driver Flags" to an enum
+ab0cc9f6611f48a1cff38932d4bfbaa16ab6cb77 tty: tty_driver: document both {,__}tty_alloc_driver() properly
+963ccbc69d5925bd9420098bff641a1898204e9d tty: tty_driver: introduce TTY driver sub/types enums
+a0b7de508e4ad28f8e4100a401c82e1245cf6cdc tty: serdev: drop serdev_controller_ops::write_room()
+01f968afd900ea7c766b06760dfe2ddaafdf5f22 tty: mmc: sdio: use bool for cts and remove parentheses
+beeed29fce19b642cd203e0a353501bee426c678 tty: moxa: drop version dump to logs
+4402b1999e0a2a3e37cafeb11d886d16aa08dc2d tty: moxa: drop ISA support
+a01f8d01aeba7272ed57fd4573fd68824437a36d tty: moxa: carve out special ioctls and extra tty_port
+6bb8fada64ed098289fa851aa993b7444ce769e6 tty: srmcons: fix retval from srmcons_init()
+c59bdfb97d273a64ae555bffe4694b72d1e7eeb2 tty: staging/greybus: pass tty_driver flags to tty_alloc_driver()
+9806a6f656ac97037986b3386bd383c736ce92b6 tty: sunsu: drop serial_{in,out}p()
+83d6dad118da5fc5b1230b6b796f036f9033d282 tty: sunsu: remove unused serial_icr_read()
+9195d18bc0248e4504350517809a501f30a69b6a serial: remove redundant tty_port_link_device()
+ac755dd61349c78792f9e8086512e44a33272528 serial: pass struct uart_state to uart_line_info()
+5f38787158017bba00d6ea8875ef0162ea1ee13e serial: 8250: use serial_port_in/out() helpers
+e7f220448aca50033ef97da5813cdf760767d9d5 serial: 8250_rsa: simplify rsa8250_{request/release}_resource()
+2706f5942aa402679ba0a07cb765dc016fde96b4 serial: 8250_port: do not use goto for UPQ_NO_TXEN_TEST code flow
+42f4e0271782d7931bcc87a97c370e1d8da72379 serial: 8250_port: simplify serial8250_request_std_resource()
+e582959fab63d1594cf10720ca3fc7627356b3ca serial: switch change_irq and change_port to bool in uart_set_info()
+0d96cc6190573615ea6a23e83ad63c3a7138a991 BRANCH_MARKER: submit
+8c7d1c6b00b873a3e0fc06f577136f5e4714a390 irqdomain: um: use irq_domain_create_linear() helper
+a1fe78195f547707a8541df67e7a570f04936366 irqdomain: Rename irq_set_default_host() to irq_set_default_domain()
+ddc870c84ea26fe81830933523fd79e69c704863 irqdomain: Rename irq_get_default_host() to irq_get_default_domain()
+5489dfc3e06283f34f04cefe08a75da02784bd0e irqdomain.h: Stop using 'host' for domain
+15bcf3c8e7ab113d77f11e5d454f37475f87482e irqdomain: cdx: Switch to of_fwnode_handle()
+b7a439d3376a27b8e4a3162845ad6c7dfead0c20 irqdomain: irqchip: Switch to of_fwnode_handle()
+50af91bae29be05e65cf3ba324d700365854c197 irqdomain: pci: Switch to of_fwnode_handle()
+4b6e0df055dedc06a83fcad7491a1bcc74e4c9e7 irqdomain: ppc: Switch to of_fwnode_handle()
+54132c12d80098c7f27e97715d1fc7fc539f1662 irqdomain: remoteproc: Switch to of_fwnode_handle()
+035a05343ccce7fc99694c9e4ab7f446b5a3023d irqdomain: x86: Switch to of_fwnode_handle()
+4144048fa93c0d8006deb1fc066d02e04c49283a irqdomain: Drop of_node_to_fwnode()
+7aeacf4e916fe8bf1af40bb32e85a01080c434bf irqdomain: Make irq_domain_create_hierarchy() an inline
+e6b65615fd20aac8ba6aba1ae69639c13504814a irqdomain: arc: Switch to irq_domain_create_linear()
+e2c099f4a61b62b72cb8ec49e3143373323d10ca irqdomain: arm: Switch to irq_domain_create_*()
+5f746aa2ec61ffeefec82fe63455a5ca28ad1484 irqdomain: bus: Switch to irq_domain_create_simple()
+dd84fa9349399a9f176fcf679b7511f1aae5368d irqdomain: edac: Switch to irq_domain_create_linear()
+7ac452537548c96681cdd7b13b5e72be32697091 irqdomain: gpio: Switch to irq_domain_create_*()
+e239e95ac1881ec1ad30ef6dd79ca186f6326125 irqdomain: gpu: Switch to irq_domain_create_linear()
+cf29485bb5792b5fb0646e8480616163457f159d irqdomain: i2c: Switch to irq_domain_create_linear()
+9479d2091bee0b53dd3a8ef3313acf9273c015a3 irqdomain: iio: Switch to irq_domain_create_simple()
+0c946f6b8bc8c3721225b2fd5ba00af5b21c37cb irqdomain: irqchip: Switch to irq_domain_create_*()
+1860792aa24a92cf0520bf930aae5f7c195ea1a4 irqdomain: mailbox: Switch to irq_domain_create_tree()
+d2dbc21d78c00fc7931c7000ee7161d8868d4eea irqdomain: memory: Switch to irq_domain_create_linear()
+d5fcde4216b28fbd7946ab082767b9c3bbcb1ff0 irqdomain: mfd: Switch to irq_domain_create_*()
+8567cfdc83c9d6cf26e3173727f2f98287c232a5 irqdomain: mips: Switch to irq_domain_create_*()
+5bc17547749bf928e09ab944e22e93d76d541297 irqdomain: misc: Switch to irq_domain_create_simple()
+309f4db0131fc4519b7ab6e973286ce0785bc7d3 irqdomain: net: Switch to irq_domain_create_*()
+a575390d902658ec696b7ad1bb6aa32a789b1f4b irqdomain: nios2: Switch to irq_domain_create_linear()
+414c0e1e7150bf9399a2f64232089220f4dd5eab irqdomain: pci: Switch to irq_domain_create_linear()
+6f1e7db996aa921dca92cc0ca4b4ce8d05580e1c irqdomain: pinctrl: Switch to irq_domain_create_*()
+0dcb203d181fba50c996e7fdad71b378fcf8c658 irqdomain: platform/x86: Switch to irq_domain_create_linear()
+9314a06c89dc4795e1f576e4f87f3b14e3fc0172 irqdomain: ppc: Switch to irq_domain_create_*()
+9b42a78b7e01d9dcad8a6fd1855fc675af2792cc irqdomain: sh: Switch to irq_domain_create_*()
+025938c8c365c205c36b89a128dec7ce0b161f09 irqdomain: soc: Switch to irq_domain_create_*()
+00e6e2945d30b394adf5d2f0bb0e9e2621b7a0ee irqdomain: sound: Switch to irq_domain_create_linear()
+ef656d8b56696c21ad5deb80a690bb14e91fb191 irqdomain: spmi: Switch to irq_domain_create_tree()
+a8b97ba6eaa4b82700d568c76e151f207b4d0bc8 irqdomain: ssb: Switch to irq_domain_create_linear()
+da96d3f8a5001e05d418e239f748c3dd9ed4c981 irqdomain: thermal: Switch to irq_domain_create_linear()
+af09b8a28bb7b27e9ef137c580d996d5cde428d5 irqdomain: ppc: Switch irq_domain_add_nomap() to use fwnode
+b84fd56c8428a845d333cd292fca15bdcc7abb76 irqdomain: Drop irq_domain_add_*() functions
+7a466dd972593367b6bf2287268a4edb30c6b154 irqdomain: ppc: Switch to irq_find_mapping()
+6a4433f83e0d8481a4fa6c970c99ae2bc6fea4a7 irqdomain: sh: Switch to irq_find_mapping()
+999eb6fe031d85272feae46759c40f4c9a7e363d irqdomain: gpio: Switch to irq_find_mapping()
+82f81719e48ab389a0f09bf0756c23fad8d8406d irqdomain: gpu: Switch to irq_find_mapping()
+40710cdc5642482d3fd47fbdc027c0fd890e8a8d irqdomain: i2c: Switch to irq_find_mapping()
+1192a116d15a7cf127c058b692578084bd4ccf12 irqdomain: irqchip: Switch to irq_find_mapping()
+0ff4d5d4429d9c3de1f7dbb021f4c7fc03e28619 irqdomain: pinctrl: Switch to irq_find_mapping()
+dd89521030fb9a76ad69f1732fc3fa32d60727ce irqdomain: soc: Switch to irq_find_mapping()
+fdd98dba335024febab11010c1118cb1e9d15b30 irqdomain: Drop irq_linear_revmap()
+4d363cdfe46be8c77cbb8ddefd44983bad12af99 irqdomain: Use irq_domain_instantiate() retvals as initializers
+b6b20d9c0c61a7fe73ba59a3c6c5f0ef902dc7b8 irqdomain: Make struct irq_domain_info variables const
+13dab4442f33d8371872ab4b7f8761c2f60a3fe3 irqdomain.h: Improve kernel-docs of functions
+7688e4722cf274ff572d9882a3f95fbe90dcf09c docs: irq/concepts: Add commas and reflow
+772ff69e0a0d4efb189ba0cc67cf4415389ac16e docs: irq/concepts: Minor improvements
+590557e7c5e57de9fe6fcdbc856331d9b4efd025 docs: irq-domain.rst: Simple improvements
+f23b292b051999ccd50f64e737937e1fc8ea975e docs: irqdomain: Update
+01434f80bc549b7eeccb415fa8a6ecff396ff823 irqdomain.c: Fix kernel-doc and add it to Documentation
+f8e1407066b4453efca9d337fd58175acc22d209 genirq: warn about IRQs on isolated CPUs
+170cddcbd907b06e3524e4d22407951efcb79147 avoid tty_port_link_device
+709f2f642cbeea3924197c35db0dedf03d922578 hide tty_port_link_device
+ba230614421fc033036cc323e9fa79987b630f2f tty: make tty_cdev_add() more readable
+8e3f1363afdc2a9400109c3282163351654f344e tty_port_link_device retval
+f1346513c83e825ebc2f2e8832ca3fd57b66cac5 make free_tty_struct available
+0ab706d0050fb8329609aed9c00e4cc64b1acdca tty: convert driver::ttys to xarray
+a37d3525b6f7994f33019ee4743a1760a03518e8 tty: convert driver::termios to xarray
+e8c0de055d3ad1d4fceae3712951c03691b59701 tty: convert driver::ports to xarray
+ff8cc13114e747d888f6c362fc7278bd3a210085 tty: convert driver::cdevs to xarray
+1ba31fdc4b680b473245f0514cfc65259d1d225d ttytest: add
+d682c14c2113d8487b31b632efa862fb95de767d tty: use xarray for tty's file list
+d64d58b7afb91a7cf575799b88589eda9f226a36 amba-pl011: don't rely on amba_reg.state
+971ee2b2f364715e122dcad409cb8c43986e71b8 serial: drv->state -> xarray
+a1bd1d50863f9bd6538d7e3c215be3dba17ac6ae +enum uart_iotype
+d89e72e9aacd40274ae9e7b68b775ee5c95bef44 quirks
+a7c38dde14f892530b390c5a3119c2647f05f08c 8250 ops
+7baaf16e741fbed58dcf43371bda22149d9eb827 ops2
+dd23ea72bacf0015cb5566a54c92ee3995c3684b make parser
+45c822322ae4fe8c727cff6d5c9e829e4d69e248 BRANCH_MARKER: work
 
---===============6226923800286867586==--
+--===============0396288028284971462==--
