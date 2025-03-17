@@ -1,22 +1,17 @@
-Content-Type: multipart/mixed; boundary="===============5684015729647696612=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 17 Mar 2025 10:15:22 -0000
-Message-Id: <174220652272.2658394.11825439080112456622@gitolite.kernel.org>
-
---===============5684015729647696612==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 17 Mar 2025 10:16:40 -0000
+Message-Id: <174220660041.2659637.489784504458372886@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.15
+  - ref: refs/heads/for-next
     old: d9a06936ee9e64952e161849059f6cf096b33e4a
     new: 3cab1fc85f9d381de6767fe97299eecdb8c868fa
     log: |
@@ -30,29 +25,3 @@ changes:
          3e330acf4efd63876d673c046cd073a1d4ed57a8 ASoC: codecs: wcd937x: fix a potential memory leak in wcd937x_soc_codec_probe()
          3cab1fc85f9d381de6767fe97299eecdb8c868fa ASoC: cs35l56: Remove redundant 'flush_workqueue()' calls
          
-
---===============5684015729647696612==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1742206550 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1742206520-77c921b9ee83ff9bc68e8f084112a86e0cc2ba1c
-
-d9a06936ee9e64952e161849059f6cf096b33e4a 3cab1fc85f9d381de6767fe97299eecdb8c868fa refs/heads/asoc-6.15
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmfX9lYACgkQJNaLcl1U
-h9A8igf/fNQEXhvBRGInfeV6oUfv0rLp9hGssXgFJo2PUGoHdI+qENDn1bmU1F8o
-3QvnOtym9X4v1trfqJV4vIaWoWE1Y+i4FRYUoZsAzQD1HoLcF43Wngzapz5eY72G
-YZhtkqv7gpaVi5eADf1WWazOdDkqWKBsMiFJR2eHTPnBE2OwofdkNqvopAOR0jhy
-C/yE2ATXlrDwR5eto9BZZDdTzan3ryr4ybDJRZyv+h3YzwVEm/XQDYj0vrt4g/sI
-Ie8Ugoa52kztqjhVev6h0bKsgZRm0pMZejdE21wIXDMkSEzAFJs6su97+r38zbGj
-hrZrqQ5LSYjdxGSzKptJ5roQgpamvw==
-=YzVE
------END PGP SIGNATURE-----
-
---===============5684015729647696612==--
