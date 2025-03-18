@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8845435135187233970=="
+Content-Type: multipart/mixed; boundary="===============5378418114071583281=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 18 Mar 2025 16:27:53 -0000
-Message-Id: <174231527372.131061.1554991983972216187@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 18 Mar 2025 16:28:03 -0000
+Message-Id: <174231528397.131405.16632681671902655899@gitolite.kernel.org>
 
---===============8845435135187233970==
+--===============5378418114071583281==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.15
-    old: 1822c4484efeb8056de53bf4edfca377d2939418
-    new: 88f200955977c211be053afebe3264debb9680f8
-    log: revlist-1822c4484efe-88f200955977.txt
+  - ref: refs/heads/for-next
+    old: 36b4953c68134b83c20db08b6609d3f5d65da922
+    new: 76e2ad0e97334653c44281adfbede7d7dd9fdf14
+    log: revlist-36b4953c6813-76e2ad0e9733.txt
 
---===============8845435135187233970==
+--===============5378418114071583281==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1742315301 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1742315271-faacd79c3e1c5ecdc142dcf98cef0292eaeb90fe
-
-1822c4484efeb8056de53bf4edfca377d2939418 88f200955977c211be053afebe3264debb9680f8 refs/heads/asoc-6.15
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmfZnyUACgkQJNaLcl1U
-h9BGngf/fdfbxfs497mqfz05xInbotK8VniIwdY5Rk2movcezxhNU7hO7ZMVHM3L
-MRwBe6qpkWK1ahiuhk+h21IW//QWxh9gaKrnJhoF9askE6ZfAlJOTrA7Y4zdfvLr
-9S2Fj46t1oz9TkJsQQ0/1SW+Bmea4pNPgfrpWYWq3u4OCm0x6IdOvVlwPli3iIgA
-fsFK9BANSt6mrDnsXCiiJ2qISON42Jvezq1WyNohRI2kobgTd5FffRHu5vYHeR32
-NSHegaqElUcdX7kviXzIGEY7mmFBA0dLt+MNUjfbRBwDEnTTPypjn06fcCeYHuj2
-XTXUpmGSy74ktIfVOBx/tkRk+EZ3Qg==
-=EDFh
------END PGP SIGNATURE-----
-
---===============8845435135187233970==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1822c4484efe-88f200955977.txt
+Content-Disposition: attachment; filename=revlist-36b4953c6813-76e2ad0e9733.txt
 
 399f9bd01644c827be8bfca1236ec9b4c211ccbe ASoC: dt-bindings: Add schema for "awinic,aw88166"
 94e412c28e6144b86d669e4d7ecb6b097431eede ASoC: codecs: Add aw88166 amplifier driver
@@ -62,5 +37,6 @@ ed92f40eccc801bd0e5dfd78b1058072638471f1 ASoC: dt-bindings: audio-graph-card2: a
 b7a253db0a3aa1d1ec293ccbfae41205d25e4273 ASoC: Intel: avs: Replace devm_kzalloc() with
 4103337f3c069c3f833a0581e0bac1eedad3359c add sof support on imx95
 88f200955977c211be053afebe3264debb9680f8 ASoC: codecs: Add aw88166 amplifier driver
+76e2ad0e97334653c44281adfbede7d7dd9fdf14 Merge remote-tracking branch 'asoc/for-6.15' into asoc-next
 
---===============8845435135187233970==--
+--===============5378418114071583281==--
