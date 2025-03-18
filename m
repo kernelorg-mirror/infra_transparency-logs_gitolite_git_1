@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1816528654366074780=="
+Content-Type: multipart/mixed; boundary="===============6032326699138904224=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 18 Mar 2025 15:21:24 -0000
-Message-Id: <174231128449.32292.5352167920075464354@gitolite.kernel.org>
+Date: Tue, 18 Mar 2025 15:21:26 -0000
+Message-Id: <174231128671.32401.2858448984157201518@gitolite.kernel.org>
 
---===============1816528654366074780==
+--===============6032326699138904224==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 4003c9e78778e93188a09d6043a74f7154449d43
     new: 9a81fc3480bf5dbe2bf80e278c440770f6ba2692
     log: revlist-4003c9e78778-9a81fc3480bf.txt
 
---===============1816528654366074780==
+--===============6032326699138904224==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ d509d129be7a44a970a871ffd6f4d1abaae65bce Merge tag 'linux-can-fixes-for-6.14-202
 9740890ee20e01f99ff1dde84c63dcf089fabb98 ipv6: Fix memleak of nhc_pcpu_rth_output in fib_check_nh_v6_gw().
 9a81fc3480bf5dbe2bf80e278c440770f6ba2692 ipv6: Set errno after ip_fib_metrics_init() in ip6_route_info_create().
 
---===============1816528654366074780==--
+--===============6032326699138904224==--
