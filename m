@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 18 Mar 2025 10:51:55 -0000
-Message-Id: <174229511527.3981107.18410063319989080177@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
+Date: Tue, 18 Mar 2025 10:59:27 -0000
+Message-Id: <174229556794.3986175.10545518964112859696@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/libata/linux
+user: cassel
 changes:
-  - ref: refs/heads/main
-    old: 2fc8a346625eb1abfe202062c7e6a13d76cde5ea
-    new: daa624d3c2ddffdcbad140a9625a4064371db44f
+  - ref: refs/heads/for-6.15
+    old: b500ee5fde1bd0c85026dfcdadbc175548fb5216
+    new: 0507c777f5d8f9e34b137d28ee263599a7b81242
     log: |
-         daa624d3c2ddffdcbad140a9625a4064371db44f net: ipv6: fix TCP GSO segmentation with NAT
+         0507c777f5d8f9e34b137d28ee263599a7b81242 ahci: Marvell 88SE9215 controllers prefer DMA for ATAPI
          
