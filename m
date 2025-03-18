@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============0922483348626872957=="
+Content-Type: multipart/mixed; boundary="===============8845435135187233970=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 18 Mar 2025 16:27:50 -0000
-Message-Id: <174231527043.130905.1513792004096897065@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 18 Mar 2025 16:27:53 -0000
+Message-Id: <174231527372.131061.1554991983972216187@gitolite.kernel.org>
 
---===============0922483348626872957==
+--===============8845435135187233970==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.15
+  - ref: refs/heads/asoc-6.15
     old: 1822c4484efeb8056de53bf4edfca377d2939418
     new: 88f200955977c211be053afebe3264debb9680f8
     log: revlist-1822c4484efe-88f200955977.txt
 
---===============0922483348626872957==
+--===============8845435135187233970==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1742315298 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1742315268-0cb5284aeb126be545579fe4c0ce28b8391c940c
+pusher C3F436CA30F5D8EB 1742315301 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1742315271-faacd79c3e1c5ecdc142dcf98cef0292eaeb90fe
 
-1822c4484efeb8056de53bf4edfca377d2939418 88f200955977c211be053afebe3264debb9680f8 refs/heads/for-6.15
+1822c4484efeb8056de53bf4edfca377d2939418 88f200955977c211be053afebe3264debb9680f8 refs/heads/asoc-6.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmfZnyIACgkQJNaLcl1U
-h9CJpgf9F2UdxrXlSsJfdlSVCV9sZDLmWsmfi7PZsPz4bYW35jAkprGq2tyc3C5v
-DwkKzxkmiI/VU/IvYnxBnxcA5TyzOSXjfwbExDyQLgV8LldsIw4TvD3qp6Gxm9MJ
-E5SrQXRr2ZARznJAV8HmAI2pjJK2JuVQgcoq+kfX4xxjMCWJgo7w49zbmByK0YH9
-tHgPRJqA0S07GHvalXiWxWrUoy2xl8gABv9umv3ZfDTSLqOc4zmQPVClyY96x/Hb
-kA9kRKzx+cGTEIO7RF7RfG9EcBAYOjMon0bR1lWfEBa1AUY6F7ebKOXReKhBFOF6
-iRE4c/e+OFARdsS1rZUYIOAr2HpmTg==
-=bqa2
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmfZnyUACgkQJNaLcl1U
+h9BGngf/fdfbxfs497mqfz05xInbotK8VniIwdY5Rk2movcezxhNU7hO7ZMVHM3L
+MRwBe6qpkWK1ahiuhk+h21IW//QWxh9gaKrnJhoF9askE6ZfAlJOTrA7Y4zdfvLr
+9S2Fj46t1oz9TkJsQQ0/1SW+Bmea4pNPgfrpWYWq3u4OCm0x6IdOvVlwPli3iIgA
+fsFK9BANSt6mrDnsXCiiJ2qISON42Jvezq1WyNohRI2kobgTd5FffRHu5vYHeR32
+NSHegaqElUcdX7kviXzIGEY7mmFBA0dLt+MNUjfbRBwDEnTTPypjn06fcCeYHuj2
+XTXUpmGSy74ktIfVOBx/tkRk+EZ3Qg==
+=EDFh
 -----END PGP SIGNATURE-----
 
---===============0922483348626872957==
+--===============8845435135187233970==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -63,4 +63,4 @@ b7a253db0a3aa1d1ec293ccbfae41205d25e4273 ASoC: Intel: avs: Replace devm_kzalloc(
 4103337f3c069c3f833a0581e0bac1eedad3359c add sof support on imx95
 88f200955977c211be053afebe3264debb9680f8 ASoC: codecs: Add aw88166 amplifier driver
 
---===============0922483348626872957==--
+--===============8845435135187233970==--
