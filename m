@@ -1,37 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============7592174423055419186=="
+Content-Type: multipart/mixed; boundary="===============4483304366035474663=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 18 Mar 2025 11:08:28 -0000
-Message-Id: <174229610839.3994912.15452147869568623442@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 18 Mar 2025 11:08:40 -0000
+Message-Id: <174229612052.3995425.12878752578203842724@gitolite.kernel.org>
 
---===============7592174423055419186==
+--===============4483304366035474663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: e94bd4ec45ac156616da285a0bf03056cd7430fc
     new: c4d4884b67802c41fd67399747165d65c770621a
     log: revlist-e94bd4ec45ac-c4d4884b6780.txt
-  - ref: refs/heads/pending-fixes
-    old: 8285d5835db2993db60b219cb3400978283f7a2c
-    new: b26ff92d3d0643b3049ff5d32b1dbf88fdeb0739
-    log: revlist-8285d5835db2-b26ff92d3d06.txt
-  - ref: refs/heads/stable
-    old: d1275e99d1c4f2e70452558b8da9d0d7bdcc9e16
-    new: 4701f33a10702d5fc577c32434eb62adde0a1ae1
-    log: |
-         4701f33a10702d5fc577c32434eb62adde0a1ae1 Linux 6.14-rc7
-         
-  - ref: refs/tags/next-20241218
-    old: 4943c8eb069a1011ba12fe0269600640bf670fa6
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20250318
     old: 0000000000000000000000000000000000000000
     new: 8d26b159b8aa52e7bfa105293baf5de006ac2fc0
@@ -39,7 +26,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 12b58398bffc23db89e715414399b0533255da51
 
---===============7592174423055419186==
+--===============4483304366035474663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1070,71 +1057,4 @@ e95aa2fbbcfcc503c50677c0795b655611cddae8 Merge branch 'next' of git://git.kernel
 a9e472c340d3efeda0abe81b517c3cbd84443b8e Merge branch 'topic/cxl' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux.git
 c4d4884b67802c41fd67399747165d65c770621a Add linux-next specific files for 20250318
 
---===============7592174423055419186==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8285d5835db2-b26ff92d3d06.txt
-
-81c0db302a674f8004ed805393d17fd76f552e83 RDMA/bnxt_re: Avoid clearing VLAN_ID mask in modify qp path
-25655580136de59ec89f09089dd28008ea440fc9 RDMA/hns: Fix soft lockup during bt pages loop
-b9f59a24ba35a7d955a9f8e148dd9f85b7b40a01 RDMA/hns: Fix unmatched condition in error path of alloc_user_qp_db()
-13c90c222049764bb7e6a1689bd785f424bd8bd5 RDMA/hns: Fix invalid sq params not being blocked
-444907dd45cbe62fd69398805b6e2c626fab5b3a RDMA/hns: Fix a missing rollback in error path of hns_roce_create_qp_common()
-eda0a2fdbc24c35cd8d61d9c9111cafd5f89b2dc RDMA/hns: Fix missing xa_destroy()
-6b5e41a8b51fce520bb09bd651a29ef495e990de RDMA/hns: Fix wrong value of max_sge_rd
-4701f33a10702d5fc577c32434eb62adde0a1ae1 Linux 6.14-rc7
-3c423a68643cceb69c4e4244b5b4d09df2a19c79 ASoC: dt-bindings: fsl,sai: Add i.MX94 support
-309b367eafc8e162603cd29189da6db770411fea ASoC: amd: Add DMI quirk for ACP6X mic support
-654b33ada4ab5e926cd9c570196fefa7bec7c1df proc: fix UAF in proc_get_inode()
-665575cff098b696995ddaddf4646a4099941f5e filemap: move prefaulting out of hot write path
-39a326e6daba5703a8e4de17cacc7ddb0dc5b07f mm/damon: respect core layer filters' allowance decision on ops layer
-73d7a69de212aebb59f4ff23aae0422e86c488fe mm/damon/core: initialize damos->walk_completed in damon_new_scheme()
-cb402bbdabcaa5a765068c5b8673bbfc1c264242 mm/hugetlb: fix surplus pages in dissolve_free_huge_page()
-60cf233b585cdf1f3c5e52d1225606b86acd08b0 mm/migrate: fix shmem xarray update during migration
-d7147a33570ce07965d76e4491c7c9d8d38006f4 squashfs: fix invalid pointer dereference in squashfs_cache_delete
-8c6ff7f181786d0b296bb0f1bf269ca8770632c9 mm/vma: do not register private-anon mappings with khugepaged during mmap
-73f839b6d2ed75f281bd75aeb68e81bce373bdee mm: memcontrol: fix swap counter leak from offline cgroup
-182db972c9568dc530b2f586a2f82dfd039d9f2a mm: fix error handling in __filemap_get_folio() with FGP_NOWAIT
-67a2f86846f244d81601cf2e1552c4656b8556d6 selftests/mm: run_vmtests.sh: fix half_ufd_size_MB calculation
-14efb4793519d73fb2902bb0ece319b886e4b4b9 mm/huge_memory: drop beyond-EOF folios with the right number of refs
-9f01b4954490d4ccdbcc2b9be34a9921ceee9cbb memcg: drain obj stock on cpu hotplug teardown
-b9c0e49abfca06f1a109acea834bcfc934f33f76 mm: decline to manipulate the refcount on a slab page
-800f1059c99e2b39899bdc67a7593a7bea6375d8 mm/page_alloc: fix memory accept before watermarks gets initialized
-723ef0e20dbb2aa1b5406d2bb75374fc48187daa mmc: sdhci-brcmstb: add cqhci suspend/resume to PM ops
-53df59ddaadfa88afd0b1a097777a36eec09603b MAINTAINERS: correct list and scope of LTC4286 HARDWARE MONITOR
-815f80ad20b63830949a77c816e35395d5d55144 hwmon: (nct6775-core) Fix out of bounds access for NCT679{8,9}
-1742e7e978babb0f548f85c4c6bcfebe13b88722 regulator: rtq2208: Fix incorrect buck converter phase mapping
-b65439d9015024c37c6b8a17c0569ec44675a979 regulator: rtq2208: Fix the LDO DVS capability
-dec1277875a5974413068bfb67df7e87e51a189b efivarfs: use I_MUTEX_CHILD nested lock to traverse variables on resume
-236f50a2c7e68a464233ab9af5e02306dd41faca x86/vmemmap: use direct-mapped VA instead of vmemmap-based VA
-b2e21f9eaf2beed4a69bc810b4dcfa27df50cd53 mm/userfaultfd: fix release hang over concurrent GUP
-2deeb70482309bf2170eda2b862e773264c7c415 mm/contig_alloc: fix alloc_contig_range when __GFP_COMP and order < MAX_ORDER
-074416ab52a960906b17e78cb32bf69d27a29e04 mm/hugetlb_vmemmap: fix memory loads ordering
-88ab360afed10dd733e3d0b5572734b4057a2582 mm: page_isolation: avoid calling folio_hstate() without hugetlb_lock
-0b64a4e84e1d1269add9c0db69d57165c62478a0 Merge branch 'next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-718f32b6591dfa48ede326b7a07da3fbf10b7aeb Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
-65a99264f5e5a2bcc8c905f7b2d633e8991672ac perf/x86: Check data address for IBS software filter
-0778c17457688eb23d7f7f95c7a087603a119c20 Merge branch into tip/master: 'perf/urgent'
-f8e742a6faabc3ac99dc75aeb3e7039023076429 Merge branch into tip/master: 'sched/urgent'
-4a69ca6d5d7d33a8a2949ccced4a33547c15e7e3 Merge branch 'mm-hotfixes-unstable' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-02c8acbf1aa28397b8fb6c33cdba9360c50e0e8b Merge branch 'fs-current' of linux-next
-92fcbf1f61bf1f43cf5aec9bd26c85bf9fdd3128 Merge branch 'arm/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc.git
-434c9157bed56f95a30f31f8df095fca566c6c17 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf.git
-12ace3fb4c4e9c19e9d607c1174a88d2e736b5d3 Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec.git
-45e843a0b930706bfb402aa50863850f72dac62c Merge branch 'for-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma.git
-24fff98ba7f41ed249013e314d7611572159f7ba Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-89f5b28e60cee28eb26b8447cedb6624b1c065f6 Merge branch 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-f355e300d16e508d31291ce014b0c835fbf8ddcf Merge branch 'fixes-togreg' of git://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio.git
-b3e688d1abee19a1e0aaa27d72ab87130d3b9d70 Merge branch 'counter-current' of git://git.kernel.org/pub/scm/linux/kernel/git/wbg/counter.git
-0ecb5ce91b6a68c1e7efff2b3235a0c81aed4b0b Merge branch 'char-misc-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc.git
-0506305e8d585816f718bccb11ab3071db6be0be Merge branch 'master' of git://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux.git
-6e6a78cb5ee8528a71357ae22ac932a72c3cbd45 Merge branch 'hwmon' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging.git
-8c2000c34c566273546d7c7c668d9511e29178d3 Merge branch 'dma-mapping-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/mszyprowski/linux.git
-69a88adeaf92bed55a038dd253f9cd780c69e92b Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc.git
-8a95856eb0303a4bc3f2fb468c5fde8196c30947 Merge branch 'urgent' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi.git
-9ccaf162c76cc3d5d2c0706fe78214ae2f68b8bf Merge branch 'fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm.git
-b2f8a429ffd8524fd1dd9e6ffd078a2089b815a8 Merge branch 'tip/urgent' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip.git
-b26ff92d3d0643b3049ff5d32b1dbf88fdeb0739 Merge branch 'for-linux-next-fixes' of https://gitlab.freedesktop.org/drm/misc/kernel.git
-
---===============7592174423055419186==--
+--===============4483304366035474663==--
