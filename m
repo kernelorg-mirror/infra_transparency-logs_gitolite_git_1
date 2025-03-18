@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Tue, 18 Mar 2025 09:53:28 -0000
-Message-Id: <174229160856.3930497.7805654883820912185@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 18 Mar 2025 10:06:24 -0000
+Message-Id: <174229238489.3941867.5618395734441329385@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/work.pidfs.thread_group
-    old: de08d8c264168d69ddb6ac7ef54f0c7f1a444c2f
-    new: 9c660a31e367d9c004284bd223ee963441287a0f
+  - ref: refs/heads/main
+    old: 2a5f08b33ea07676886e0f7b27c2e51cb5b7caa4
+    new: f5825e79b2b7b1b0912c219d24cd7aa3eb3e300d
     log: |
-         9c660a31e367d9c004284bd223ee963441287a0f pidfs: handle multi-threaded exec and premature thread-group leader exit
+         f5825e79b2b7b1b0912c219d24cd7aa3eb3e300d qed: remove cast to pointers passed to kfree
          
