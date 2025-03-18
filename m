@@ -1,41 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============4196235968489410188=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 18 Mar 2025 11:27:24 -0000
-Message-Id: <174229724436.4012140.7456342299189941996@gitolite.kernel.org>
-
---===============4196235968489410188==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 18 Mar 2025 11:29:01 -0000
+Message-Id: <174229734198.4013028.6673268077886932498@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/main
-    old: aedfbe251e1c56034cb6ffd87eabe5895b31ae5d
-    new: ed6bcbe39ee446203a356eadf4fa1256a5026457
-    log: revlist-aedfbe251e1c-ed6bcbe39ee4.txt
-
---===============4196235968489410188==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aedfbe251e1c-ed6bcbe39ee4.txt
-
-b195d60408d49d3d2ed5f0e7baf5034ea0880ee6 batman-adv: Start new development cycle
-9a006e72d30c95c1bc7efd93441ece60ee15bd4e batman-adv: Drop batadv_priv_debug_log struct
-00b35530811f2aa3d7ceec2dbada80861c7632a8 batman-adv: adopt netdev_hold() / netdev_put()
-1666951c4424205d700143a55d75ced4982afb21 batman-adv: Add support for jumbo frames
-94433355027db60005551310975de94978549783 batman-adv: Use consistent name for mesh interface
-434becf57bdc89f939db635ed3337b9d1da5967e batman-adv: Limit number of aggregated packets directly
-77405977f1872249cb2bea69214c6b779dc06065 batman-adv: Switch to bitmap helper for aggregation handling
-0db110059e7900c3c197281e2ed11ff08484e3ed batman-adv: Use actual packet count for aggregated packets
-e4aa3412f632c70276b770fb3efb5b441c11f607 batman-adv: Limit aggregation size to outgoing MTU
-7cfb32456ed82cd548114234ec275d57d4f7554e batman-adv: add missing newlines for log macros
-ed6bcbe39ee446203a356eadf4fa1256a5026457 Merge tag 'batadv-next-pullrequest-20250313' of git://git.open-mesh.org/linux-merge
-
---===============4196235968489410188==--
+  - ref: refs/heads/master
+    old: 65c165c566175461cb466f31af3c592a53bb7cfa
+    new: 7c2b412e4cf117610a7fb79ea8ae779e138e299b
+    log: |
+         410701562ddee6df9ddf9455ed7e38a8f088782f Fixes for 6.13
+         d53d1d8bd33d6208416df5923a5a4654a0bba53e Fixes for 6.12
+         1d09042b9924c51c360cb7c10f366bab8fa42733 Fixes for 6.6
+         e6389a222bf2243e78e7433c88f746182c508124 Fixes for 6.1
+         a4b95dd7376a3a855a592c4398ca0b3c87fddd6d Fixes for 5.15
+         eabd8e9de6dd12b3bfd8897f13ffe10efc46f2cf Fixes for 5.10
+         7c2b412e4cf117610a7fb79ea8ae779e138e299b Fixes for 5.4
+         
