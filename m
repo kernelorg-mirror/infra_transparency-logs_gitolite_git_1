@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8646829825112198782=="
+Content-Type: multipart/mixed; boundary="===============5264312430997310240=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 18 Mar 2025 18:41:02 -0000
-Message-Id: <174232326257.247920.8383728872877482694@gitolite.kernel.org>
+Date: Tue, 18 Mar 2025 18:41:08 -0000
+Message-Id: <174232326872.248235.16822492453733387380@gitolite.kernel.org>
 
---===============8646829825112198782==
+--===============5264312430997310240==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,29 +15,49 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/x86/cpu
-    old: ba501f14e1e6dcc94ff0276301e997ae28e3f4b3
-    new: 08d9bb5b0d89826fedc5204c8bd2463220465996
-    log: revlist-ba501f14e1e6-08d9bb5b0d89.txt
+  - ref: refs/heads/master
+    old: e49cf69ba87c907d8e8cb54e445277a48107d331
+    new: 60c162a51180cb2b05d7505a565ab079bfa9cf12
+    log: revlist-e49cf69ba87c-60c162a51180.txt
+  - ref: refs/heads/tip/urgent
+    old: a1160dbc4aa577bbed9bb024d56f0e19d0fc5b1f
+    new: 978ca38e7d2cec384650d3c443199b0bd105fe12
+    log: |
+         57cc9a8f87b0d7fa399cb0ba389e20163f906acf Merge branch into tip/master: 'perf/urgent'
+         978ca38e7d2cec384650d3c443199b0bd105fe12 Merge branch into tip/master: 'sched/urgent'
+         
 
---===============8646829825112198782==
+--===============5264312430997310240==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ba501f14e1e6-08d9bb5b0d89.txt
+Content-Disposition: attachment; filename=revlist-e49cf69ba87c-60c162a51180.txt
 
-3447a2e710494fea44ba76a949b3d3afe17a7a23 x86/apic: Fix 32-bit APIC initialization for extended Intel Families
-d3c20b8ceadbe561033f51cb220859e3f1bcb44f x86/cpu/intel: Fix the MOVSL alignment preference for extended Families
-faeaa39c37c9334f0b57f551c106a54be387b524 x86/microcode: Update the Intel processor flag scan check
-23c905f7ec9d8dc3016fa4e3a9f321a920583b60 x86/mtrr: Modify a x86_model check to an Intel VFM check
-93ba53da7da3e5dd2ed7b78672f1e6c22b24a607 x86/cpu/intel: Replace early Family 6 checks with VFM ones
-93a1337433ab6ae596d9c8a3e4d6fbcbe128afad x86/cpu/intel: Replace Family 15 checks with VFM ones
-8aba98edb8701dad1f748205eb7a093d268f0d40 x86/cpu/intel: Replace Family 5 model checks with VFM ones
-38ed76e1aed9116dd549e3c6e3ab9581ff6dbd05 x86/acpi/cstate: Improve Intel Family model checks
-4f15efe5cecd8b2dc566f1c0c13e3551b72a34e5 x86/smpboot: Remove confusing quirk usage in INIT delay
-17b1dd60e367795b0b4f44c9a477185f8444e8b9 x86/smpboot: Fix INIT delay assignment for extended Intel Families
-8a1259836966af36c5d3fe68cf33ad9416e5e70a x86/cpu/intel: Fix fast string initialization for extended Families
-aa3e8239d8a2aa4dce2750968964afb5cdd424f8 x86/mm/pat: Replace Intel x86_model checks with VFM ones
-08d9bb5b0d89826fedc5204c8bd2463220465996 x86/cpu/intel: Limit the non-architectural constant_tsc model checks
+57cc9a8f87b0d7fa399cb0ba389e20163f906acf Merge branch into tip/master: 'perf/urgent'
+978ca38e7d2cec384650d3c443199b0bd105fe12 Merge branch into tip/master: 'sched/urgent'
+76f903725a748f63aa91e265cbfb4d2672f2a0d9 Merge branch into tip/master: 'x86/merge'
+84cc217a758a80d4e41ae110c736c282423c720e Merge branch into tip/master: 'timers/merge'
+35f1fb030f0237dd352fabd20d0120f6ec2579c5 Merge branch into tip/master: 'irq/core'
+7e7c2e299a8dcf07541defa703428047a6e268cb Merge branch into tip/master: 'irq/drivers'
+23c804e23ef290886e29440773376a89b662e77c Merge branch into tip/master: 'irq/msi'
+efbd55bf2262507a732b0e21cb2206ba7a391ad3 Merge branch into tip/master: 'locking/core'
+e7c739504e7dee3854c3117f021f890bca310054 Merge branch into tip/master: 'locking/futex'
+8a6da8a7998dc66890159394d1d10f12ae6b33e1 Merge branch into tip/master: 'objtool/core'
+ae6e3561645fcd27713d1b61eadff482c422de34 Merge branch into tip/master: 'perf/core'
+da4716eccf9b8f9fcc72a83d5859d081a38cc449 Merge branch into tip/master: 'ras/core'
+83e6740022ec0310abaa996dc66579a270d67de6 Merge branch into tip/master: 'sched/core'
+0fbe27ba7660fb0811978e65097ca3ae4360e992 Merge branch into tip/master: 'timers/cleanups'
+b8c270f780d52450aad53fa70dd5d1eb01bef061 Merge branch into tip/master: 'timers/core'
+27f4758223d4825ae1b4945a536e626c5ff158f7 Merge branch into tip/master: 'x86/asm'
+5870112018e7111b9f337d9392441bcd95dbae38 Merge branch into tip/master: 'x86/boot'
+03914e466de0037b313c52bf3cce534826cab9cf Merge branch into tip/master: 'x86/bugs'
+b13c32099a85b1bcfd347a159ce6e6ef38f21e1c Merge branch into tip/master: 'x86/build'
+1db2612c7e5b8418c7d519aa27a0bab45df4350f Merge branch into tip/master: 'x86/cache'
+bdc30183fe7b61bbcfff0d822618a0f6dd13cf06 Merge branch into tip/master: 'x86/cleanups'
+9001faf2254932b08b944592cefa1b737931d058 Merge branch into tip/master: 'x86/cpu'
+91bcd558963cdb9665515a51e534d76314ac8a11 Merge branch into tip/master: 'x86/fpu'
+c561ee191ededc9e87e3e0cb412f9cb842baa99e Merge branch into tip/master: 'x86/mm'
+bbdd0932d9be8294016e8f0645df0058dd35e92c Merge branch into tip/master: 'x86/platform'
+60c162a51180cb2b05d7505a565ab079bfa9cf12 Merge branch into tip/master: 'x86/sev'
 
---===============8646829825112198782==--
+--===============5264312430997310240==--
