@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Tue, 18 Mar 2025 23:34:18 -0000
-Message-Id: <174234085859.491446.14498245196698801760@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hubcap/linux
+Date: Tue, 18 Mar 2025 23:42:44 -0000
+Message-Id: <174234136468.499350.7707002050970301954@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/linux/kernel/git/hubcap/linux
+user: hubcap
 changes:
-  - ref: refs/heads/i2c/i2c-host-next
-    old: 73a380f041dbcfc5ec040da882accb3326ec9f7b
-    new: 4b60b1b586961e8d0ad45c1e7a8eb932017d5f23
+  - ref: refs/heads/for-next
+    old: a781031d10f486ba85c00d8acb5ef41ba5eb6caf
+    new: 121a83ce6fe69d3024dfc24fee48b7a2b5386f4c
     log: |
-         4b60b1b586961e8d0ad45c1e7a8eb932017d5f23 i2c: mediatek: add runtime PM operations and bus regulator control
+         121a83ce6fe69d3024dfc24fee48b7a2b5386f4c orangefs: Bufmap deadcoding
          
