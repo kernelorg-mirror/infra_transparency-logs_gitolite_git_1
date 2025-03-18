@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 18 Mar 2025 14:59:45 -0000
-Message-Id: <174230998539.10530.9082656439176103227@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Tue, 18 Mar 2025 15:03:26 -0000
+Message-Id: <174231020611.14032.7890486704566128044@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/for-next
-    old: 51eb90868f68170eda8c44e7e14f3e1af6ca2349
-    new: ddda74820f4ec01b68975195272b4399aede41c2
+  - ref: refs/heads/hwmon-next
+    old: 0acf08bf6c67a95eeca62443596c9f0dba901630
+    new: bf1bb26f23f10f835e596337604d32d34ab798a6
     log: |
-         64b3fb38b45f7f36954801c45d9b7c19d82d6f83 regulator: dt-bindings: rtq2208: Mark fixed LDO VOUT property as deprecated
-         5e9491370a58bee1784999aa42f48f1f7289f641 regulator: dt-bindings: rtq2208: Cleanup whitespace
-         ddda74820f4ec01b68975195272b4399aede41c2 Merge remote-tracking branch 'regulator/for-6.15' into regulator-next
+         b64b6cb163f16425c3c4fab077963bf6a67f45c7 hwmon: Add driver for TI INA233 Current and Power Monitor
+         fb36a0b3398a791d7266150f63b60e4cf1c98f34 dt-bindings: hwmon: Add description for sensor HTU31
+         bf1bb26f23f10f835e596337604d32d34ab798a6 hwmon: add driver for HTU31
          
