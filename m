@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3228711658655288277=="
+Content-Type: multipart/mixed; boundary="===============1951093965391069501=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 18 Mar 2025 19:22:15 -0000
-Message-Id: <174232573523.283715.17815042794979212098@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 18 Mar 2025 19:22:45 -0000
+Message-Id: <174232576571.284261.9074409751372841343@gitolite.kernel.org>
 
---===============3228711658655288277==
+--===============1951093965391069501==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/for-kernelci
-    old: fd3be53d789de5880cd586f766e5a0b512d9f47b
+  - ref: refs/heads/stable-sve-6-6
+    old: 15a76dc5812a1199fe81a50afcfd88fb2a1a4f04
     new: 3930a3a9d4cba81ca5353cda408a2856757da20a
-    log: revlist-fd3be53d789d-3930a3a9d4cb.txt
+    log: revlist-15a76dc5812a-3930a3a9d4cb.txt
 
---===============3228711658655288277==
+--===============1951093965391069501==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fd3be53d789d-3930a3a9d4cb.txt
+Content-Disposition: attachment; filename=revlist-15a76dc5812a-3930a3a9d4cb.txt
 
 8f16e0b94ab55e659793270ac92899291be4587b IB/mlx5: Set and get correct qp_num for a DCT QP
 44247323d75c59d99f2478271191404470c2ef39 RDMA/mana_ib: Allocate PAGE aligned doorbell index
@@ -337,4 +337,4 @@ b93e697edbcaf5f5ef034f904f7d7c562109263e KVM: arm64: Mark some header functions 
 9d65f2284a59ee436f8c9ab36eb081db1149504d KVM: arm64: Add accessor for per-CPU state
 3930a3a9d4cba81ca5353cda408a2856757da20a KVM: arm64: Eagerly switch ZCR_EL{1,2}
 
---===============3228711658655288277==--
+--===============1951093965391069501==--
