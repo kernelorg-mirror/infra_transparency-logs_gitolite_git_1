@@ -1,44 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============8439988770049865903=="
+Content-Type: multipart/mixed; boundary="===============5259975095147574032=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
 Date: Tue, 18 Mar 2025 15:21:35 -0000
-Message-Id: <174231129541.32963.11345888527313382997@gitolite.kernel.org>
+Message-Id: <174231129565.32985.17716705418101956094@gitolite.kernel.org>
 
---===============8439988770049865903==
+--===============5259975095147574032==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/broonie/spi
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/200GbE
-    old: 4003c9e78778e93188a09d6043a74f7154449d43
-    new: 9a81fc3480bf5dbe2bf80e278c440770f6ba2692
-    log: revlist-4003c9e78778-9a81fc3480bf.txt
+  - ref: refs/heads/for-6.15
+    old: cc1273dfac2697545adc9418c890ac194f18f523
+    new: 48303ef31d76b3138227133a741646abce057f42
+    log: |
+         16c6cac2463d57d3dc15057937fd7aedacff656e spi: sg2044-nor: fix signedness bug in sg2044_spifmc_write()
+         a1d8f70954f69e333b252795808164839bb2e7cf spi: sg2044-nor: fix uninitialized variable in probe
+         48303ef31d76b3138227133a741646abce057f42 spi: sg2044-nor: fix a couple static checker bugs
+         
 
---===============8439988770049865903==
+--===============5259975095147574032==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4003c9e78778-9a81fc3480bf.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-1d22a122ffb116c3cf78053e812b8b21f8852ee9 can: ucan: fix out of bound read in strscpy() source
-80b5f90158d1364cbd80ad82852a757fc0692bf2 can: statistics: use atomic access in hot path
-51f6fc9eb1d77ae5cacc796fc043dedc1f0f0073 dt-bindings: can: renesas,rcar-canfd: Fix typo in pattern properties for R-Car V4M
-1dba0a37644ed3022558165bbb5cb9bda540eaf7 can: rcar_canfd: Fix page entries in the AFL list
-d5cd454825566989f97e0748e1047b9532338b99 Merge patch series "R-Car CANFD fixes"
-fd99d6ed20234b83d65b9c5417794343577cf3e5 can: flexcan: only change CAN state when link up in system PM
-5a19143124be42900b3fbc9ada3c919632eb45eb can: flexcan: disable transceiver during system PM
-52d48a3d67e9288c6c51589e3a05040f57ccaa89 Merge patch series "can: flexcan: only change CAN state when link up in system PM"
-5f079290e5913a0060e059500b7d440990ac1066 net: ethernet: ti: am65-cpsw: Fix NAPI registration sequence
-2fc8a346625eb1abfe202062c7e6a13d76cde5ea net: mana: Support holes in device list reply msg
-daa624d3c2ddffdcbad140a9625a4064371db44f net: ipv6: fix TCP GSO segmentation with NAT
-d509d129be7a44a970a871ffd6f4d1abaae65bce Merge tag 'linux-can-fixes-for-6.14-20250314' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
-9740890ee20e01f99ff1dde84c63dcf089fabb98 ipv6: Fix memleak of nhc_pcpu_rth_output in fib_check_nh_v6_gw().
-9a81fc3480bf5dbe2bf80e278c440770f6ba2692 ipv6: Set errno after ip_fib_metrics_init() in ip6_route_info_create().
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1742311323 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1742311293-296bb8d9b53135ba1de7acab8beb01c8d5e4826d
 
---===============8439988770049865903==--
+cc1273dfac2697545adc9418c890ac194f18f523 48303ef31d76b3138227133a741646abce057f42 refs/heads/for-6.15
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmfZj5sACgkQJNaLcl1U
+h9ADUwf/TnRriEyjjoVtB2nO2V6x9JYt7gJhV8j5ElILhONW7C0/tKB7JwK/M1HC
+gWn4pwRGlenmv1fMqnxgdA4w23qkkjUBKCyyT3GlbSd+jtTBo3nBXBTDuxOVvnFU
+skHbMpUBIZOPG/sAykdfo48FKnzKIdjVYa0tXOTsAmVUC8TMYDp5PeAyp6N5qghH
+4VJ2C8/9rwfAcfdoHBFxaoJuuteLXZwy6mVMrGh/6gGPhboDBx7XdrpgrR8TMCSo
+OPH6UT2nHtI/2YjjGeo7d7EoBq3dGYMNMft0buw9my4IRlVjl9yMHsHVZO8thysC
+VIcm8naUcqh19NvE9Mnd9Qo2O8Aiyw==
+=su9f
+-----END PGP SIGNATURE-----
+
+--===============5259975095147574032==--
