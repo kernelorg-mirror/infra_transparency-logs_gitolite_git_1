@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Tue, 18 Mar 2025 15:23:21 -0000
-Message-Id: <174231140133.35314.7763435020754123927@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Tue, 18 Mar 2025 15:25:06 -0000
+Message-Id: <174231150614.38419.6487171841299269904@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
-user: khilman
+repo: pub/scm/linux/security/vulns
+user: sashal
 changes:
-  - ref: refs/heads/for-next
-    old: 065f3bd4f22b0cf01f9a5f62b45f2bc8fdb8c045
-    new: ef97bc8016e95d0d2baf4b3dec5a9217c42743d3
+  - ref: refs/heads/master
+    old: 4efe21f802a67da02222886cef0a4999593c593b
+    new: c69ad669c7585dd66181f522ca20ec70d7dcc6f1
     log: |
-         ef97bc8016e95d0d2baf4b3dec5a9217c42743d3 Merge branch 'omap-for-v6.15/soc' into tmp/omap-next-20250317.111912
+         c69ad669c7585dd66181f522ca20ec70d7dcc6f1 test-dyad: clean up
          
