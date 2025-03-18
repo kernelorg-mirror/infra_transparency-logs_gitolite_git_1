@@ -1,42 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============5378418114071583281=="
+Content-Type: multipart/mixed; boundary="===============4514967305995696641=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 18 Mar 2025 16:28:03 -0000
-Message-Id: <174231528397.131405.16632681671902655899@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Tue, 18 Mar 2025 16:28:39 -0000
+Message-Id: <174231531968.132002.10361652284985480022@gitolite.kernel.org>
 
---===============5378418114071583281==
+--===============4514967305995696641==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/for-next
-    old: 36b4953c68134b83c20db08b6609d3f5d65da922
-    new: 76e2ad0e97334653c44281adfbede7d7dd9fdf14
-    log: revlist-36b4953c6813-76e2ad0e9733.txt
+  - ref: refs/heads/for-kernelci
+    old: 533e09a4b2a4e7e9b4170be21d9a34a0871d8337
+    new: 43c96a9db1902c4e989394237c101eb4a66881a6
+    log: revlist-533e09a4b2a4-43c96a9db190.txt
 
---===============5378418114071583281==
+--===============4514967305995696641==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-36b4953c6813-76e2ad0e9733.txt
+Content-Disposition: attachment; filename=revlist-533e09a4b2a4-43c96a9db190.txt
 
-399f9bd01644c827be8bfca1236ec9b4c211ccbe ASoC: dt-bindings: Add schema for "awinic,aw88166"
-94e412c28e6144b86d669e4d7ecb6b097431eede ASoC: codecs: Add aw88166 amplifier driver
-6d9d66626c58bcd9b949574aca7d47149b8ad9e1 ASoC: Intel: avs: Replace devm_kzalloc() with devm_kcalloc()
-61b1a1bddf7d166946d7ca7054b6cbced29b72f5 ASoC: Intel: avs: ssm4567: Replace devm_kzalloc() with devm_kcalloc()
-bde479694a7da7c127bb5bba98e2e4773f1d7951 ASoC: Intel: avs: max98373: Replace devm_kzalloc() with devm_kcalloc()
-3602571baf9a6864bde89422d179e422a3ea4d8d ASoC: Intel: avs: max98927: Replace devm_kzalloc() with devm_kcalloc()
-811944a790451169876947a89338d2b86ff9fe5b ASoC: dt-bindings: support imx95's CM7 core
-ed92f40eccc801bd0e5dfd78b1058072638471f1 ASoC: dt-bindings: audio-graph-card2: add widgets and hp-det-gpios support
-b7a253db0a3aa1d1ec293ccbfae41205d25e4273 ASoC: Intel: avs: Replace devm_kzalloc() with
-4103337f3c069c3f833a0581e0bac1eedad3359c add sof support on imx95
-88f200955977c211be053afebe3264debb9680f8 ASoC: codecs: Add aw88166 amplifier driver
-76e2ad0e97334653c44281adfbede7d7dd9fdf14 Merge remote-tracking branch 'asoc/for-6.15' into asoc-next
+3addd87b9d01c8e2e7e96bc1c852969bc0f14eff devres: Export devm_ioremap_resource_wc()
+c7ad5971951d99d6f189e1a34c1bcff8cdb7d7e2 remoteproc: Use of_reserved_mem_region_* functions for "memory-region"
+721bf1a1c53a322ed91a85adf5e85e692251da51 tpm: Use of_reserved_mem_region_to_resource() for "memory-region"
+eec63741987bc6e4d61a4911fa2a4bd57873f6bc firmware: tegra: bpmp: Use of_reserved_mem_region_to_resource() for "memory-region"
+ac35f0defa084efab8e9c7eab5fea600232ccf2d fsi: master-ast-cf: Use of_reserved_mem_region_to_resource for "memory-region"
+b702a2c1ca36951213c1546599ba878bcafa7152 drm/msm: Use of_reserved_mem_region_to_resource() for "memory-region"
+0632408b79c39a4b204790438ac2d6b84ad734fa drm/simpledrm: Use of_reserved_mem_region_to_resource() for "memory-region"
+f966472b85455f674a9dfa7a177c4c096f551ec6 media: Use of_reserved_mem_region_to_resource() for "memory-region"
+adfb41bd6f9894c17421b8e5d21cff46ba38c0c3 misc: fastrpc: Use of_reserved_mem_region_to_resource() for "memory-region"
+d310ae2a84d05930542c40917fc69e2cfba45994 net: Use of_reserved_mem_region_to_resource{_byname}() for "memory-region"
+735c63894f6ca289c628b4fda00f8bc6cb40c794 wireless: Use of_reserved_mem_region_to_resource() for "memory-region"
+fb39eceeab6249c8c52799ebaaa4483b4329dd85 wireless: ath11k: Use of_property_present() to test property presence
+2dcf977de0cbed96ce2ee3768b00e30b87de9510 soc: aspeed: Use of_reserved_mem_region_to_resource() for "memory-region"
+e4cb66c6c827b678f51d2a4eb1c2a43ccd5c164a fbdev: simplefb: Use of_reserved_mem_region_to_resource() for "memory-region"
+0d883ae9e8248f93a207c81dc48d419782e5e8f1 watchdog: rti_wdt: Use of_reserved_mem_region_to_resource() for "memory-region"
+43c96a9db1902c4e989394237c101eb4a66881a6 ASoC: Use of_reserved_mem_region_to_resource() for "memory-region"
 
---===============5378418114071583281==--
+--===============4514967305995696641==--
