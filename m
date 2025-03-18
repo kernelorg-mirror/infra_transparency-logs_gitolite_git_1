@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7018973968770412539=="
+Content-Type: multipart/mixed; boundary="===============6551964206137908137=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 18 Mar 2025 15:30:56 -0000
-Message-Id: <174231185611.43924.7471468903622101059@gitolite.kernel.org>
+Date: Tue, 18 Mar 2025 15:30:58 -0000
+Message-Id: <174231185861.44157.10184914720142218704@gitolite.kernel.org>
 
---===============7018973968770412539==
+--===============6551964206137908137==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: bfc6c67ec2d64d0ca4e5cc3e1ac84298a10b8d62
     new: 23c9ff659140f97d44bf6fb59f89526a168f2b86
     log: revlist-bfc6c67ec2d6-23c9ff659140.txt
 
---===============7018973968770412539==
+--===============6551964206137908137==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -124,4 +124,4 @@ f07cb4b4b4816169cd4b051286d1bccff3fef666 net: stmmac: ipq806x: remove of_get_phy
 00d2c3c071245712a7fb3882f9074ecc594eaa68 net: stmmac: sunxi: remove of_get_phy_mode()
 23c9ff659140f97d44bf6fb59f89526a168f2b86 Merge branch 'net-stmmac-remove-unnecessary-of_get_phy_mode-calls'
 
---===============7018973968770412539==--
+--===============6551964206137908137==--
