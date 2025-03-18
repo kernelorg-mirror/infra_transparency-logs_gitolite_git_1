@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4977336134131049777=="
+Content-Type: multipart/mixed; boundary="===============0624837674547107385=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Tue, 18 Mar 2025 12:35:28 -0000
-Message-Id: <174230132875.4074579.10255327551205176647@gitolite.kernel.org>
+Date: Tue, 18 Mar 2025 12:35:43 -0000
+Message-Id: <174230134341.4074939.1032349477299272927@gitolite.kernel.org>
 
---===============4977336134131049777==
+--===============0624837674547107385==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
+  - ref: refs/heads/for-next
     old: e3de46f775ec29a17f671523798c28222a4ce818
     new: 1a78774bb35068bb143d2299da3f8a0b87807cdb
     log: revlist-e3de46f775ec-1a78774bb350.txt
 
---===============4977336134131049777==
+--===============0624837674547107385==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ beccfd3960efaa2cca19b2e3a12f46ebe36d7e7d kbuild: deb-pkg: fix versioning for -rc
 b8117eeee39b19c5129545bc1e4be95e0e13210e kbuild: pacman-pkg: hardcode module installation path
 1a78774bb35068bb143d2299da3f8a0b87807cdb rust: kbuild: skip `--remap-path-prefix` for `rustdoc`
 
---===============4977336134131049777==--
+--===============0624837674547107385==--
