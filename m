@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
-Date: Tue, 18 Mar 2025 09:31:03 -0000
-Message-Id: <174229026383.3912220.18342276443559002352@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Tue, 18 Mar 2025 09:46:11 -0000
+Message-Id: <174229117115.3924507.17129318717887692387@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ukleinek/linux
-user: ukleinek
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/pwm/for-nexxt
-    old: 5f0ba48628bfa544cd76e01ccfcba0a37d49ab47
-    new: 168dcc2ef0dd96574f903ddd187ea88119aa40d5
+  - ref: refs/heads/work.pidfs.thread_group
+    old: e444e71b815b39885d21452867a9d66a5617a8a1
+    new: de08d8c264168d69ddb6ac7ef54f0c7f1a444c2f
     log: |
-         168dcc2ef0dd96574f903ddd187ea88119aa40d5 pwm: meson: Simplify meson_pwm_cnt_to_ns()
+         7c5f618ceb1bc85badd2a489b1d0a666c0a4325e pidfs: improve multi-threaded exec and premature thread-group leader exit polling
+         b27ca97e8caf492464ed7279ce04acbd68ac8325 selftests/pidfd: first test for multi-threaded exec polling
+         ce55b946634d909cc2ce5b4b4541cfb57ee906ff selftests/pidfd: second test for multi-threaded exec polling
+         de08d8c264168d69ddb6ac7ef54f0c7f1a444c2f pidfs: handle multi-threaded exec and premature thread-group leader exit
          
-  - ref: refs/heads/pwm/for-nexxxt
-    old: 0000000000000000000000000000000000000000
-    new: 168dcc2ef0dd96574f903ddd187ea88119aa40d5
