@@ -1,56 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============6711100739529288682=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 18 Mar 2025 16:47:28 -0000
-Message-Id: <174231644825.148760.6759968843978512148@gitolite.kernel.org>
-
---===============6711100739529288682==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Tue, 18 Mar 2025 16:47:48 -0000
+Message-Id: <174231646881.149130.2789097664464153303@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/master
-    old: 4296705026f4912d1ea025fb4782f2f9e5980aa6
-    new: a1aab02fbd413760d798073db6e2d69ff645cc9a
+  - ref: refs/heads/for-next
+    old: 1ffcb5b6067f80e00846c22360290733ea69bba9
+    new: a0d593c3d1b52a2a29d84af62afed8dcb7aeec8d
     log: |
-         a1aab02fbd413760d798073db6e2d69ff645cc9a 6.13-stable patches
+         65d1f5507ed2c78c64fce40e44e5574a9419eb09 zstd: Import upstream v1.5.7
+         d3772219142590b273e1310b97ee25a51ecfc828 Merge branch 'misc-6.14' into for-next-current-v6.13-20250318
+         2f0b2cbc5a5e4b2e1b4ee97718b47154b8a3561d Merge branch 'misc-next' into for-next-next-v6.14-20250318
+         af4e4839b87b5433fb530271f34b1861668a0dd1 Merge branch 'zstd-1.5.7-for-next' into for-next-next-v6.14-20250318
+         5bccf831e6d1bc999bab41eea5df2114e35afa2a Merge branch 'for-next-current-v6.13-20250318' into for-next-20250318
+         a0d593c3d1b52a2a29d84af62afed8dcb7aeec8d Merge branch 'for-next-next-v6.14-20250318' into for-next-20250318
          
-
---===============6711100739529288682==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1742316399 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1742316447-c0c26ee9ebb46d938ff8951d1e5f527ad381486b
-
-4296705026f4912d1ea025fb4782f2f9e5980aa6 a1aab02fbd413760d798073db6e2d69ff645cc9a refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfZo28bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hLQQAK1gezf4kn/SkSAZaNrZ
-QcfrFH3LL66lrl0FAW6764r5mA6U0AOltV8GPSZjnta9wELqm/Y4assYihW9ZxWQ
-/Zd7MeucB2KTgMLzHViFNgw8dyBnl7zTPnZ3HKPkIYY1fSwdvk8em//yrf11c4gK
-ZH8qQjQZaw79wxIXSeG06ERDpwJUz6ueh6qPp3HAuqRzZnwr/EAHf2uJkhXAwWMD
-77PzNfoVK68tNIohWvzG6beeDsiTckuMvCPLQHVYHnC/OMxp0ec9V/DxlxgOHN/f
-98W2qtrDQ41EXXE//pnOzqHWz+tzqo/PFY9wcABjx383N8q26ekEt0qvNMnofRJn
-Z1rZEMI0FBmNMdBwJydQhqJH0VP1vrGa6mBPGRRs9iFHRPFId2xmFk3wzBbS9eUP
-M+WysUQwa1TKe7FLqRQGLF7kSVp3SwtVs3NBpVqmIHEvmf8ulpUg/bG1CufikC8G
-pixRBheKayOh99If5Y1XjyIZuS0HpBN6oLF2LgjkzfMksTCsulUerwfAKxVVCKID
-IxskPNUdo0o6Zj+fZ1aNNcQp5VUL9wEDhYCNBlSIsqO493/QE2ebE6JOycY9aeT9
-jR56F0ZSLTiGcLYwiyKGmYao+vGnucMf0dj0J/eNakuHOysAsDUKhrpAAYNPpXPT
-c0nLcjivKWR9SAzZVA+de0rK
-=CAJM
------END PGP SIGNATURE-----
-
---===============6711100739529288682==--
