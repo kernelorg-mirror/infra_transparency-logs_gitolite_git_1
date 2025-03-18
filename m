@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 18 Mar 2025 17:22:40 -0000
-Message-Id: <174231856007.179217.12048388485636057237@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Tue, 18 Mar 2025 17:25:57 -0000
+Message-Id: <174231875717.182908.17348022567554652431@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/security/vulns
+user: lee
 changes:
   - ref: refs/heads/master
-    old: f3f8649585a445414521a6d5b76f41b51205086d
-    new: ae0a457f5d33c336f3c4259a258f8b537531a04b
+    old: c69ad669c7585dd66181f522ca20ec70d7dcc6f1
+    new: 95edc72d450a97383d4daa40ce6880c0dbb3838c
     log: |
-         ae0a457f5d33c336f3c4259a258f8b537531a04b bpf: Make perf_event_read_output accessible in all program types.
+         95edc72d450a97383d4daa40ce6880c0dbb3838c proposed: Add Lee's v6.13.5 results
          
