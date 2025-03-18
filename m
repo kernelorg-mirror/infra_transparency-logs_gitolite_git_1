@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Tue, 18 Mar 2025 03:09:55 -0000
-Message-Id: <174226739568.3564075.8228400898313990414@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Tue, 18 Mar 2025 03:31:37 -0000
+Message-Id: <174226869757.3582332.8504641606412777867@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/tags/mm-hotfixes-stable-2025-03-17-20-09
-    old: 0000000000000000000000000000000000000000
-    new: 8fd3f95634fd8a1b0d548f24134a8cabbb8cf0a8
-  - ref: refs/tags/v6.14-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 12b58398bffc23db89e715414399b0533255da51
+  - ref: refs/heads/dev
+    old: 374161ab1ec8e2a49ef460c55ea949f1bb71ae8a
+    new: 594028c4b9138d1babdb7b0abf143e9a5ad5076f
+    log: |
+         594028c4b9138d1babdb7b0abf143e9a5ad5076f drm/amd/pm: Avoid open-coded use of ratelimit_state structure's ->missed field
+         
