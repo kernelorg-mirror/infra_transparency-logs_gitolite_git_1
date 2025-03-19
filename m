@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Wed, 19 Mar 2025 16:29:19 -0000
-Message-Id: <174240175908.1377005.13651943226519606006@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Wed, 19 Mar 2025 16:41:09 -0000
+Message-Id: <174240246997.1388215.16850111959860873702@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/libata/linux
-user: cassel
+repo: pub/scm/libs/ell/ell
+user: holtmann
 changes:
-  - ref: refs/heads/for-next
-    old: 0507c777f5d8f9e34b137d28ee263599a7b81242
-    new: 565d065acd7ea871874ac32e54e58af2d15a182a
+  - ref: refs/heads/master
+    old: d6419ba608fa81c2b5a4db8ce798edffb29577f7
+    new: c4895c6696e537b1066063826ba295326164974f
     log: |
-         565d065acd7ea871874ac32e54e58af2d15a182a ata: ahci: simplify init function
+         c4895c6696e537b1066063826ba295326164974f unit: Add test cases from RFC 2104 for MD5 HMAC hashes
          
