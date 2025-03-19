@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 19 Mar 2025 09:52:37 -0000
-Message-Id: <174237795755.1002552.13923772355868499222@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 19 Mar 2025 09:58:10 -0000
+Message-Id: <174237829061.1007114.15698022748601924094@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/i2c/i2c-host-next
-    old: f6cbfcb4d2b42c597022ae401a47fa676c8048ae
-    new: e944c67b0b8b5e67ca006039e929713cbd8a615a
+  - ref: refs/heads/main
+    old: 9a81fc3480bf5dbe2bf80e278c440770f6ba2692
+    new: d9c743b6990b1ee3925f3ced1844cafa955bacb0
     log: |
-         de2ab468a16533b88a0a5ba5b21d97e308ed3197 i2c: octeon: fix return commenting
-         7144093a3cce31c365f3a1a9dc0f476de250caa1 i2c: octeon: remove 10-bit addressing support
-         e944c67b0b8b5e67ca006039e929713cbd8a615a i2c: octeon: add block-mode i2c operations
+         f3b97b7d4bf316c3991e5634c9f4847c2df35478 devlink: fix xa_alloc_cyclic() error handling
+         3614bf90130d60f191a5fe218d04f6251c678e13 dpll: fix xa_alloc_cyclic() error handling
+         3178d2b048365fe2c078cd53f85f2abf1487733b phy: fix xa_alloc_cyclic() error handling
+         d9c743b6990b1ee3925f3ced1844cafa955bacb0 Merge branch 'xa_alloc_cyclic-checks'
          
