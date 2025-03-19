@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9019668268302097332=="
+Content-Type: multipart/mixed; boundary="===============3276769773723867319=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 19 Mar 2025 15:03:19 -0000
-Message-Id: <174239659998.1303474.5328373085327525554@gitolite.kernel.org>
+Date: Wed, 19 Mar 2025 15:05:23 -0000
+Message-Id: <174239672340.1306792.8157643496382467280@gitolite.kernel.org>
 
---===============9019668268302097332==
+--===============3276769773723867319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,22 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/res_spin_lock
-    old: a0ad714b5c74ee4bf4e57387692fa877dd945bfc
-    new: 6ffb9017e9329168b3b4216d15def8e78e1b1fac
-    log: revlist-a0ad714b5c74-6ffb9017e932.txt
+  - ref: refs/heads/for-next
+    old: 27f54b3b339edbe6b052e7d7889760a9bc08eee3
+    new: 0905f2afa35cdba88f1b6f52df9947a5448fb30f
+    log: revlist-27f54b3b339e-0905f2afa35c.txt
 
---===============9019668268302097332==
+--===============3276769773723867319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a0ad714b5c74-6ffb9017e932.txt
+Content-Disposition: attachment; filename=revlist-27f54b3b339e-0905f2afa35c.txt
 
+f4edc66e48a694b3e6d164cc71f059de542dfaec bpf: Only fails the busy counter check in bpf_cgrp_storage_get if it creates storage
+cfe816d469dce9c0864062cf65dd7b3c42adc6f8 bpf: Reject attaching fexit/fmod_ret to __noreturn functions
+be16ddeaae960f8d03472e8b62aae50fc469f1c9 selftests/bpf: Add selftest for attaching fexit to __noreturn functions
+6ca21620b475e9d359c80a5db9ede7ce4abc4d03 Merge branch 'bpf-reject-attaching-fexit-fmod_ret-to-noreturn-functions'
+a2598045ead99b51b00e81d46560757b9a95bd84 bpf: clarify a misleading verifier error message
 ac08f68f1fe32326fbe60a02f9ff5f6749a35ab8 locking: Move common qspinlock helpers to a private header
 c0149a034540ed24de0581a09983710c88253697 locking: Allow obtaining result of arch_mcs_spin_lock_contended
 a8fcf2a39bdd751e90657906889bc6619d264c19 locking: Copy out qspinlock.c to kernel/bpf/rqspinlock.c
@@ -50,5 +55,7 @@ f2ac0e5d1c4dcc55d6510dcaefb8f45661a9a1fb bpf: Convert percpu_freelist.c to rqspi
 ea21771c077c7aa85d46dd021d03eb0d96b5f418 bpf: Maintain FIFO property for rqspinlock unlock
 60ba5b3ed7278a5700c8d57c3f5486b6066f745c selftests/bpf: Add tests for rqspinlock
 6ffb9017e9329168b3b4216d15def8e78e1b1fac Merge branch 'resilient-queued-spin-lock'
+5c2ed38432307da6c72534bd946e83773115d8bc Merge branch 'bpf-next/master' into for-next
+0905f2afa35cdba88f1b6f52df9947a5448fb30f Merge branch 'bpf-next/res_spin_lock' into for-next
 
---===============9019668268302097332==--
+--===============3276769773723867319==--
