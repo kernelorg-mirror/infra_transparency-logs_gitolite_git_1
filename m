@@ -1,54 +1,16 @@
-Content-Type: multipart/mixed; boundary="===============3562256782861631369=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 19 Mar 2025 21:15:33 -0000
-Message-Id: <174241893358.1668983.1059246061115370356@gitolite.kernel.org>
-
---===============3562256782861631369==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Wed, 19 Mar 2025 21:15:54 -0000
+Message-Id: <174241895418.1669484.5247970264124455309@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/WIP.sched/core
-    old: 4a1349854b0e02c4e40764bdedf3734877ce7c35
-    new: e0d557e4806d2ff50c596e79a2ac4a87a1c5fca1
-    log: revlist-4a1349854b0e-e0d557e4806d.txt
-
---===============3562256782861631369==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4a1349854b0e-e0d557e4806d.txt
-
-8bdc5daaa01e3054647d394d354762210ad88f17 sched: Add a generic function to return the preemption string
-d167706f68ee22635a244bd414927f4202a3e942 lib/dump_stack: Use preempt_model_str()
-03288138baa522d143a208c2b7ab2931f26ef07f arm: Rely on generic printing of preemption model
-4769437de0e2dd9d2660499a72d5e58b7072b786 arm64: Rely on generic printing of preemption model
-732ed149f7ac6278e33ccd62d13c604a134e6933 powerpc: Rely on generic printing of preemption model
-b70f50be0c74bd9498fba9d33cc548722a2ec879 s390: Rely on generic printing of preemption model
-96389cf365915b53a53ac88c48b620f7db2e1eff x86: Rely on generic printing of preemption model
-6966cd46f63205adc07ce4563ebbc3609e1c9fd7 xtensa: Rely on generic printing of preemption model
-3bffa47a02636ed4134d558caecd35e92051e48d tracing: Use preempt_model_str()
-f6147af176eaa4027b692fdbb1a0a60dfaa1e9b6 sched/deadline: Ignore special tasks when rebuilding domains
-56209334dda1832c0a919e1d74768c6d0f3b2ca9 sched/topology: Wrappers for sched_domains_mutex
-45007c6fb5860cf63556a9cadc87c8984927e23d sched/deadline: Generalize unique visiting of root domains
-2ff899e3516437354204423ef0a94994717b8e6a sched/deadline: Rebuild root domain accounting after every update
-d735bab3d58c4c96e67037490d19d35392065da9 sched/topology: Remove redundant dl_clear_root_domain call
-ce9b3f93d770c699ffae30c595e34769c86e4a6c cgroup/cpuset: Remove partition_and_rebuild_sched_domains
-d128130f486b4aa86086655af0fbb943b26b0003 sched/topology: Stop exposing partition_sched_domains_locked
-34929a070b7fd06c386080c926b61ee844e6ad34 include/{topology,cpuset}: Move dl_rebuild_rd_accounting to cpuset.h
-d047e32b8d1b29d178074b5f4312372e991d5da2 rseq/selftests: Fix namespace collision with rseq UAPI header
-67c22b19ab405362662c90d7ae192d22c17d880a sched/debug: Change SCHED_WARN_ON() to WARN_ON_ONCE()
-a0ac66989d1b8cae666ce56f9d70d1dec2067a8a sched/debug: Make 'const_debug' tunables unconditional __read_mostly
-aff5abdbd10ebe4a0f751f78f0d10b078d873d38 sched/debug: Make CONFIG_SCHED_DEBUG functionality unconditional
-af2446806028a7867886580eb3e35655c4a23cf6 sched/debug, Documentation: Remove (most) CONFIG_SCHED_DEBUG references from documentation
-e825759e39b03d1e7517f4a099e7fe4881634f85 sched/debug: Remove CONFIG_SCHED_DEBUG
-e0d557e4806d2ff50c596e79a2ac4a87a1c5fca1 sched/debug: Remove CONFIG_SCHED_DEBUG from self-test config files
-
---===============3562256782861631369==--
+  - ref: refs/heads/riscv/dt
+    old: 0000000000000000000000000000000000000000
+    new: 38818f7c9c179351334b1faffc4d40bd28cc9c72
