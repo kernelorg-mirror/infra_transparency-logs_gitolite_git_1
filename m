@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1541517301562981419=="
+Content-Type: multipart/mixed; boundary="===============6513296268463076641=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vireshk/linux
-Date: Wed, 19 Mar 2025 04:54:08 -0000
-Message-Id: <174236004857.759121.3133701130674858213@gitolite.kernel.org>
+Date: Wed, 19 Mar 2025 05:06:08 -0000
+Message-Id: <174236076830.770199.12193095217118637037@gitolite.kernel.org>
 
---===============1541517301562981419==
+--===============6513296268463076641==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,37 @@ repo: pub/scm/linux/kernel/git/vireshk/linux
 user: vireshk
 changes:
   - ref: refs/heads/virtio/msg
-    old: 05fca1037a60a55dc2aab5d424f44019b3ae07d0
-    new: dca847e3bc772a4c61bf1c1427313ab5444799d2
+    old: dca847e3bc772a4c61bf1c1427313ab5444799d2
+    new: 04ca02b2dce8d030c508c1a4a8055613ea2dcebe
     log: |
-         1dea9ff9390f7af23eb310a5499f504b7b681bd4 virtio: Add support for virtio-msg transport
-         0b9cfce02499ff45fc7c387c0cbcdbba91967b4c virtio-msg: Add support for FFA based channel bus
-         bbb40ff2cc1e17f140f9da1b8e49d6360b2fbf31 virtio-msg: Add DMA OPs support
-         ae6df6fbc775a0cdb90ae6443cf772e7b556ac45 virtio-msg: ffa: Add reserved mem support
-         dca847e3bc772a4c61bf1c1427313ab5444799d2 virtio: msg: Poll for events if indirect FFA messages aren't supported
+         ddb317f75df2ef8e830e69cb7945ab47e8366d8a virtio-msg: Add DMA OPs support
+         07e6568951d1a4d23b43c1a2e4132b0bbc63895a virtio-msg: ffa: Add reserved mem support
+         04ca02b2dce8d030c508c1a4a8055613ea2dcebe virtio: msg: Poll for events if indirect FFA messages aren't supported
          
   - ref: refs/heads/virtio/msg-xen
-    old: c730e1395f647d9d1fa33df71071563ab13c599d
-    new: c3cc0eff01d062d97382c13573787dad3d098448
-    log: revlist-c730e1395f64-c3cc0eff01d0.txt
+    old: c3cc0eff01d062d97382c13573787dad3d098448
+    new: dd4f28ef237ef9221a468ffabacdaebb282483c4
+    log: revlist-c3cc0eff01d0-dd4f28ef237e.txt
 
---===============1541517301562981419==
+--===============6513296268463076641==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c730e1395f64-c3cc0eff01d0.txt
+Content-Disposition: attachment; filename=revlist-c3cc0eff01d0-dd4f28ef237e.txt
 
-1dea9ff9390f7af23eb310a5499f504b7b681bd4 virtio: Add support for virtio-msg transport
-0b9cfce02499ff45fc7c387c0cbcdbba91967b4c virtio-msg: Add support for FFA based channel bus
-bbb40ff2cc1e17f140f9da1b8e49d6360b2fbf31 virtio-msg: Add DMA OPs support
-ae6df6fbc775a0cdb90ae6443cf772e7b556ac45 virtio-msg: ffa: Add reserved mem support
-dca847e3bc772a4c61bf1c1427313ab5444799d2 virtio: msg: Poll for events if indirect FFA messages aren't supported
-5b6f88b423abd5259ab0f6bab0c839f5cc6b6bd2 virtio-msg: Add helpers to create per-bus miscdevice
-f1d62981e59651a1ecfcfd047fa59cb3219bdbfe virtio: Add support for MMIO based channel bus
-a73fde0f734427c1088838429aedd039c6362e6f HACK: firmware: arm_ffa: Partitions can come online after the host
-34beb62842db3dc58fe589e6e7a793fda364cbb2 HACK: firmware: arm_ffa: Forcefully match UUID to virtio-msg-ffa
-65d487af3d2d7d3307b4105565ca23cfe48d1179 HACK: virtio-msg: ffa: Make it work on the host side
-8cd64e5fad0c16cd0f32ab2d03620cdfadf634f5 HACK: virtio-msg: Virtqueue index not known for Xen based testing
-ae90d2b40e3ed8d05bf6826d966b225172021a11 Revert "virtio-msg: ffa: Add reserved mem support"
-7ad45ba5d4d5ab617aa1bc6c33a8d5aac155337d TEMP: defconfig: Reset
-1325785fafe97b2ad76f7fe9d11902e1c3992396 TEMP: defconfig: Enable virtio-msg + qemu/xen options
-e2e87b8727548a9f2bcf691577fcd99d2807a602 TEMP: defconfig: Enable INITRAMFS for guest kernel
-c3cc0eff01d062d97382c13573787dad3d098448 phy: freescale: fsl-samsung-hdmi: fix build error in fsl_samsung_hdmi_phy_configure_pll_lock_det
+ddb317f75df2ef8e830e69cb7945ab47e8366d8a virtio-msg: Add DMA OPs support
+07e6568951d1a4d23b43c1a2e4132b0bbc63895a virtio-msg: ffa: Add reserved mem support
+04ca02b2dce8d030c508c1a4a8055613ea2dcebe virtio: msg: Poll for events if indirect FFA messages aren't supported
+84ba6a1725c51e2bab8e2b291a9455050a5ee505 virtio-msg: Add helpers to create per-bus miscdevice
+36fcd391f818884587b3aa3c3e09471fa01f6075 virtio: Add support for MMIO based channel bus
+472c5aafb79c03ccb587427a3f3dec796caf7d90 HACK: firmware: arm_ffa: Partitions can come online after the host
+f6e0aa31c786eddd26c3085e3a26f4ea141bee81 HACK: firmware: arm_ffa: Forcefully match UUID to virtio-msg-ffa
+e3282f4dbc6a61bbae6998528049cc34fe1396c8 HACK: virtio-msg: ffa: Make it work on the host side
+033412708d8561df0eed7acbc43f80ddea67147e HACK: virtio-msg: Virtqueue index not known for Xen based testing
+e717d54d503bcf3e5a9ca2ea77f237bf0057a6ed Revert "virtio-msg: ffa: Add reserved mem support"
+9ede87421e8f498358d3f24a4a44f80a1d87620f TEMP: defconfig: Reset
+3f4c3afbd4969d2906385c8dba6c7bfd155bd79b TEMP: defconfig: Enable virtio-msg + qemu/xen options
+ccb4f1738db604d764fd88d29d1885de915baa8a TEMP: defconfig: Enable INITRAMFS for guest kernel
+dd4f28ef237ef9221a468ffabacdaebb282483c4 phy: freescale: fsl-samsung-hdmi: fix build error in fsl_samsung_hdmi_phy_configure_pll_lock_det
 
---===============1541517301562981419==--
+--===============6513296268463076641==--
