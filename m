@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/ell/ell
-Date: Wed, 19 Mar 2025 16:25:55 -0000
-Message-Id: <174240155593.1375280.16382492663874549266@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
+Date: Wed, 19 Mar 2025 16:29:03 -0000
+Message-Id: <174240174399.1376681.9144882763985852312@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/ell/ell
-user: holtmann
+repo: pub/scm/linux/kernel/git/libata/linux
+user: cassel
 changes:
-  - ref: refs/heads/master
-    old: 17f92ccd252bb5f66e09b43b72fa1c387913f159
-    new: d6419ba608fa81c2b5a4db8ce798edffb29577f7
+  - ref: refs/heads/for-6.15
+    old: 0507c777f5d8f9e34b137d28ee263599a7b81242
+    new: 565d065acd7ea871874ac32e54e58af2d15a182a
     log: |
-         d6419ba608fa81c2b5a4db8ce798edffb29577f7 unit: Add test cases from RFC 4231 for SHA-2 HMAC hashes
+         565d065acd7ea871874ac32e54e58af2d15a182a ata: ahci: simplify init function
          
