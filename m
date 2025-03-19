@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Wed, 19 Mar 2025 21:16:39 -0000
-Message-Id: <174241899942.1670067.4630984041319554768@gitolite.kernel.org>
+Date: Wed, 19 Mar 2025 21:18:17 -0000
+Message-Id: <174241909751.1670829.10474070481127239848@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/hisilicon/dts
+  - ref: refs/heads/qcom/dt32-2
     old: 0000000000000000000000000000000000000000
-    new: 8095a17b0ace09a280a5954096701b883dcaa135
+    new: f5b7564fedcfd32df68d56781b9d7698343f8fbf
