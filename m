@@ -1,56 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============7685167253759266327=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 19 Mar 2025 14:09:46 -0000
-Message-Id: <174239338618.1251808.8334905984822495990@gitolite.kernel.org>
-
---===============7685167253759266327==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Wed, 19 Mar 2025 14:10:09 -0000
+Message-Id: <174239340974.1253787.13125380184402624244@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/master
-    old: 934083e8940f6c913c8822faa210e88ec499bcb1
-    new: 915b17c887b9e1b25d0c6ec2550a93454e123a20
+  - ref: refs/heads/b4/plat2faux_dev
+    old: 14159d6574e30c1adeaa3460bd0abfae968987b2
+    new: acb88ecc2349693935568a8ae12519ce0aed026f
     log: |
-         915b17c887b9e1b25d0c6ec2550a93454e123a20 6.1-stable patches
+         920714c9879668d4bde1b514ee937027809b3cbb hwrng: arm-smccc-trng - transition to the faux device interface
+         907e17b4e5acd3467eda451726f6f15a12531d16 rtc: efi: Transition to the faux device interface
+         96a3d19494aa2cdd79092c454254414efa703997 virt: efi_secret: Transition to the faux device interface
+         cb1af733363a4d526292e9181955b28683d4e3bd efi: efivars: Transition to the faux device interface
+         acb88ecc2349693935568a8ae12519ce0aed026f ACPI: APEI: EINJ: Transition to the faux device interface
          
-
---===============7685167253759266327==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1742393336 -0700
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1742393385-1acc488f2abeaa45eb171bc7b0805b660118e297
-
-934083e8940f6c913c8822faa210e88ec499bcb1 915b17c887b9e1b25d0c6ec2550a93454e123a20 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfaz/gbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8+AQAM863TVKSMCmuUvUugla
-sbmlRESTGI9Uu4buI06YfWmzYkp2czXnz9CjTLYo/q5OOwGekTFE3kW4hYbeOCQi
-3qGrLL80V+euJ4TR5t46racG72zBecIrazRCpgAEaP6zXQSMW7MYKsUt2h6sXi8z
-uWkN0HEgt+0QXf36GBTgQT+ouBWYsXBeaXyXKdNmJROajLknYSS8HqOkmtGD2kOn
-PRJo24PgVJo+FkGop8C7A8vePHGbK/tZocUb5/5pN2vDlDiwoC3JuFoRsYc3uaAP
-xMtT5tJYzoAq+iSC6ycO06j6SKwNQiUhxP4D2W62HdrD3Xq3WcQyWmWXeqcvKgxa
-PVO4BjiYiHGgwQE7G0jPOua885z7UIijOI8IaZ8pwbAvNc6ccIiWkLzD4QcBQkIO
-lchnWJnbky1KbifJ9lp1YCy2bQLjq8UBU0blmH0ySlHLj5u8InkOodp0iegq3Hk6
-tAUwTBexchbBzGFewjTOFSvvSccgraitXvEHYFqzd/JFHv3NUqmqM02u8VAY9wIK
-mD0bMay3aOlPGDbphdNCpSGUcv991Km6VC6gAq1oMCg1e25Ijr0uuDO6XEv4dwKk
-Qtem4xSSAHjmKu4KjtmGoir/FpnQ20HQUNDhoEEpaZNi5Pn/8XaN9qPd0tqtUV8P
-g/CMTXTv1gcW0KBhiYTxtPBJ
-=yf26
------END PGP SIGNATURE-----
-
---===============7685167253759266327==--
