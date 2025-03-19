@@ -1,21 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/crng/random
-Date: Wed, 19 Mar 2025 17:15:01 -0000
-Message-Id: <174240450131.1417194.11242006260466229578@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Wed, 19 Mar 2025 17:15:49 -0000
+Message-Id: <174240454920.1419507.10394201885055759171@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/crng/random
-user: zx2c4
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/jd/vdso-test-harness
-    old: 9211bf87a9554b06afbc5ea7beed851495c6b893
-    new: e4050bb3b48402fa3e9cfd80fc18ff1f0b38c62c
+  - ref: refs/heads/controller/dwc-cpu-addr-fixup
+    old: 6266b829ace1cc9037e5c430033cd3b8f0e440bc
+    new: ec2e5396774bb0018e34f74313f51a4e4c2cbc32
     log: |
-         d4cc937f18f34b7548c8a3b96316a458857d7610 selftests: vDSO: unconditionally build chacha test
-         e32353ed92ab0de0500fac20934c0eeedc299a0c selftests: vDSO: unconditionally build getrandom test
-         e4050bb3b48402fa3e9cfd80fc18ff1f0b38c62c selftests: vDSO: improve getrandom and chacha error messages
+         2eeaeebf0652e2ccf8740fe18decfcdade43ca16 PCI: dwc: Add dw_pcie_parent_bus_offset() checking and debug
+         68bf50c2ae0292f8b359e43314accb8eeeb1b8d8 PCI: dwc: Use devicetree 'reg[config]' to derive CPU -> ATU addr offset
+         00946bc216bd5f7b7c9ea43db37d4b99ebf53423 PCI: dwc: ep: Call epc_create() early in dw_pcie_ep_init()
+         ddd2aec6a7bafa9ca1e79895183a48fce55b4115 PCI: dwc: ep: Consolidate devicetree handling in dw_pcie_ep_get_resources()
+         e800750c36186b180b53fb7dce03ad054af556e1 PCI: dwc: ep: Use devicetree 'reg[addr_space]' to derive CPU -> ATU addr offset
+         d09dda89c3682714cbf4451ad037fe8b7f7199f3 PCI: dwc: ep: Ensure proper iteration over outbound map windows
+         5900395c965b71864d32f95287e2942dbf105ac9 PCI: dwc: Use parent_bus_offset to remove need for .cpu_addr_fixup()
+         ec2e5396774bb0018e34f74313f51a4e4c2cbc32 PCI: imx6: Remove cpu_addr_fixup()
          
