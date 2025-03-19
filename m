@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 19 Mar 2025 22:32:17 -0000
-Message-Id: <174242353729.1743992.7848515551376654380@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Wed, 19 Mar 2025 22:44:35 -0000
+Message-Id: <174242427522.1753606.9178704084038135835@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/i2c/i2c-host-next
-    old: 9b177ee69537b47886cfaac7b7ebac271dbb2e8e
-    new: 95a8ca229032b4984bba959a2c5680a015719481
+  - ref: refs/heads/hwmon-next
+    old: bf1bb26f23f10f835e596337604d32d34ab798a6
+    new: c812cc42f92d3d0b17c01b5db9a1dee5793a1491
     log: |
-         c49b6cd23ff802583f370f50ce50bde3628c1101 dt-bindings: i2c: spacemit: add support for K1 SoC
-         95a8ca229032b4984bba959a2c5680a015719481 i2c: spacemit: add support for SpacemiT K1 SoC
+         c812cc42f92d3d0b17c01b5db9a1dee5793a1491 hwmon: (acpi_power_meter) Replace the deprecated hwmon_device_register
          
