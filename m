@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 19 Mar 2025 21:46:44 -0000
-Message-Id: <174242080439.1700758.16043145340907323937@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Wed, 19 Mar 2025 21:48:17 -0000
+Message-Id: <174242089786.1701538.9928718681894639494@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
+user: deller
 changes:
-  - ref: refs/heads/controller/amd-mdb
-    old: e229f853f5b277a5726898df307be11ddb8105e2
-    new: 6af0b51d9328d1309af9200bdc7ca3181eebc6ba
+  - ref: refs/heads/for-next
+    old: 9a248f9e6e6e02b32cb24300b868fbcb5da182c3
+    new: c8d8736fbaa18f87ce03d6417d924a720e948e86
     log: |
-         6af0b51d9328d1309af9200bdc7ca3181eebc6ba PCI: amd-mdb: Add AMD MDB Root Port driver
+         45feaa3baddf8ca7dd01e5daa3cb80770c6a657c fbcon: Register sysfs groups through device_add_group
+         c8d8736fbaa18f87ce03d6417d924a720e948e86 fbcon: Change return value type to void
          
