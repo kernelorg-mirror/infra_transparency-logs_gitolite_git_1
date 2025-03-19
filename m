@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1153776216400012124=="
+Content-Type: multipart/mixed; boundary="===============6651107753973817974=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 19 Mar 2025 10:55:18 -0000
-Message-Id: <174238171897.1055963.13798841514160700634@gitolite.kernel.org>
+Date: Wed, 19 Mar 2025 10:55:26 -0000
+Message-Id: <174238172638.1056268.16617858318402402324@gitolite.kernel.org>
 
---===============1153776216400012124==
+--===============6651107753973817974==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/x86/cpu
-    old: 08d9bb5b0d89826fedc5204c8bd2463220465996
+  - ref: refs/heads/x86/asm
+    old: 9628d19e91f1ef9e7b1321e74a88bfa646d2a8d3
     new: 4701f33a10702d5fc577c32434eb62adde0a1ae1
-    log: revlist-08d9bb5b0d89-4701f33a1070.txt
+    log: revlist-9628d19e91f1-4701f33a1070.txt
 
---===============1153776216400012124==
+--===============6651107753973817974==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-08d9bb5b0d89-4701f33a1070.txt
+Content-Disposition: attachment; filename=revlist-9628d19e91f1-4701f33a1070.txt
 
 c8084a89bd91b05f51a36bff61f63a94c800b0d6 Input: wdt87xx_i2c - fix compiler warning
 c9ccb88f534ca760d06590b67571c353a2f0cbcd Input: ads7846 - fix gpiod allocation
@@ -632,4 +632,4 @@ ad87a8d0c435a97e2bdcf714d7e1a84ab5fda1ad Merge tag 'trace-v6.14-rc5' of git://gi
 d1275e99d1c4f2e70452558b8da9d0d7bdcc9e16 Merge tag 'media/v6.14-3' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 4701f33a10702d5fc577c32434eb62adde0a1ae1 Linux 6.14-rc7
 
---===============1153776216400012124==--
+--===============6651107753973817974==--
