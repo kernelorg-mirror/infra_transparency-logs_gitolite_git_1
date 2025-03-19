@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Wed, 19 Mar 2025 21:59:53 -0000
-Message-Id: <174242159365.1715157.13869616363823815163@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 19 Mar 2025 22:00:40 -0000
+Message-Id: <174242164011.1717291.4198278928374095922@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/for-next
-    old: ac6a687683f23b625dc82c46656008fc88e648e7
-    new: 5bb4205c76ea9bf2a9c503cb696b1789e3d5e6c8
+  - ref: refs/heads/x86/urgent
+    old: 4701f33a10702d5fc577c32434eb62adde0a1ae1
+    new: 86049b4cf7a41cc5b33a556fc25772cc325f474f
     log: |
-         5bb4205c76ea9bf2a9c503cb696b1789e3d5e6c8 fbdev: fsl-diu-fb: add missing device_remove_file()
+         86049b4cf7a41cc5b33a556fc25772cc325f474f x86/pkeys: Add quirk to disable PKU when XFEATURE_PKRU is missing
          
