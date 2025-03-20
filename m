@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6976997391120503370=="
+Content-Type: multipart/mixed; boundary="===============0057406946707412413=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 20 Mar 2025 14:41:20 -0000
-Message-Id: <174248168005.2633568.7500671979630362095@gitolite.kernel.org>
+Date: Thu, 20 Mar 2025 14:42:45 -0000
+Message-Id: <174248176505.2634449.4495619436343990093@gitolite.kernel.org>
 
---===============6976997391120503370==
+--===============0057406946707412413==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/driver-core-testing
-    old: 4d320e30ee04c25c660eca2bb33e846ebb71a79a
-    new: 455943aa187fd93358ccd00c894934061153ec0c
+    old: 455943aa187fd93358ccd00c894934061153ec0c
+    new: 51d0de7596a458096756c895cfed6bc4a7ecac10
     log: |
-         e2942bb4e62938fcef1481c9c1470b661087cdb7 rust: pci: impl Send + Sync for pci::Device
-         455943aa187fd93358ccd00c894934061153ec0c rust: platform: impl Send + Sync for platform::Device
+         935e1d90bf6f14cd190b3a95f3cbf7e298123043 rust: pci: require Send for Driver trait implementers
+         51d0de7596a458096756c895cfed6bc4a7ecac10 rust: platform: require Send for Driver trait implementers
          
 
---===============6976997391120503370==
+--===============0057406946707412413==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1742481626 -0700
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1742481713 -0700
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1742481675-bc2c8341984dbd8dca354f9bc86e4777aa65c25b
+nonce 1742481762-f1dacfc16989e18b9f6066dc8c85d608b60dedd8
 
-4d320e30ee04c25c660eca2bb33e846ebb71a79a 455943aa187fd93358ccd00c894934061153ec0c refs/heads/driver-core-testing
+455943aa187fd93358ccd00c894934061153ec0c 51d0de7596a458096756c895cfed6bc4a7ecac10 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfcKNobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+D3YQAIYTZqbGZjpJzVHbTg0X
-0AJH6ADA9sN6b7vVMkVGZFSF7ThbNCbq87R6TsE3X8vC5LviXL6s+xrdSsYFOhv7
-DdQyd8PyJV7Wu2ELfKE8QqhO181DoqcK2gsnZT28u534vlYNjU9lZ+WzhPSQ8mxB
-l5B4u2NeVP8dGuS/UiY3hgtfMz3/YhKDZExFH5/ombbijPPnMii60vDiz0ggOHg7
-hTHMgaGttwNLjW0EYhGMtyKhBP13ssTlwQXcBF4ew+scd92vv24K3NSaLQNuUrb+
-OgA0p50cS3YpGbTITm5xj8kNTMtsJRWAT86kVOSv67cnM2fnuluohcina/WfJoFP
-eYybUM9a4Cc5aH1gvF16VMptyrr7x7dbEfO8oQde+2HytOgZpPGQq/2+6prvs5K/
-jLFOwwRUBZx3f7fpd5w/1F01+i18eAC2E1COYIec+6B69fawHLzayXUJk77Xb+Aq
-QjI4PjMFWIqTMZL77NnT26891RkLfLUTH6AfhPVp8TViGW/B9+ADwhNY7d384z1E
-OAcNA4c6Oxye8Vyu34SqU+BMr3/IVDBWw39SFicNvsTO9/qc3IQ1gNA0+dfKnuy6
-zC0JQTol553l7vFfFEw1iCOjvFNdrORT+whPkWOM/Oh620JT4UIXZeEOGXTsGOBs
-XpuCGmsn9Gw9g4Oy9DInilep
-=XV/w
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfcKTEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EzIQAL5TLAQU95rXX6XPqoH/
+DM6sIZrJC/1Z0Zk3QBdky8ZhL2LDdSBr3lTaVBzd2aZ8CV2V8f81eB7jvR6dGnYS
+uKLpe1R13fQ+Btj9HJKPay9qWG498HsLj7zTqBl2VFpjs4pbax72G2Bz5m4WP7oS
+HGF5fWPmea+H46SRr13aR7n7ivELv2Bf8ROmeBJONX9NeVza5yD0GsL641sBoMJh
+qQylB+YnbKDw0xsWMN44UxQJalk3TSbgvQo0UJ7qnNxJQBBVKMay1HQ0Jf3Sd4nf
+5/AgKgh5ITDsPHAXhwPwaZ9aGQZ9hviwhAg3Y7mfpd/6HmuRNeefg6utvWE9Eftd
+98CRUlaP0j9zb90aEnhzz9PnyKfXxA5nquA9ZqaMfG3No0tQGH9ZaTl5Cv2cW8P8
+boWRKCkgCkAykZR50SMsslnCtzSXYIZbKYelRUDHvpKp9QVqDaXcG155RbDP/RF6
+EPYViSsvsjlKtngBU+KLRqV7qPvmtlpigYfb1LmA/fvqhck2ws/ybl1wRbuerVZY
+BzIPAFefcSzLquYRVLhMhILtgmXVHTYQRXDixNIbvzB+KuDm5kTmAMj+5391ecC9
+LA9YtfD5X9wsUQ5YBYgGGEMSOXmLDCMi9YNV7SKas2L/V7RVFXnlsgy7Zo88lAR4
+Vkaj/IQkTScOfegH2jOMhZM5
+=AhEt
 -----END PGP SIGNATURE-----
 
---===============6976997391120503370==--
+--===============0057406946707412413==--
