@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2428125590000164557=="
+Content-Type: multipart/mixed; boundary="===============3881669131058624843=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 20 Mar 2025 15:13:47 -0000
-Message-Id: <174248362735.2663949.16233533230136439202@gitolite.kernel.org>
+Date: Thu, 20 Mar 2025 15:14:14 -0000
+Message-Id: <174248365490.2664491.7160515495216710108@gitolite.kernel.org>
 
---===============2428125590000164557==
+--===============3881669131058624843==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-testing
-    old: 81100b9a7b0515132996d62a7a676a77676cb6e3
-    new: fbb1dcd8871b7d04880ed793af03febb9669db04
+    old: fbb1dcd8871b7d04880ed793af03febb9669db04
+    new: 3d5390f4dbe633472b2a4824e66ca5c4eac6fb19
     log: |
-         9e2a0d4591d2fef24f79940b884470e674374ed8 serial: icom: fix code format problems
-         fbb1dcd8871b7d04880ed793af03febb9669db04 dt-bindings: serial: snps-dw-apb-uart: document RZ/N1 binding without DMA
+         3d5390f4dbe633472b2a4824e66ca5c4eac6fb19 serial: 8250: add driver for NI UARTs
          
 
---===============2428125590000164557==
+--===============3881669131058624843==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1742483575 -0700
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1742483603 -0700
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1742483624-c3661d37aa65e8e16e53b52b95c607e8afbf6010
+nonce 1742483652-78ef6dac5ed01c104cb9fe40761dc9774a58bd13
 
-81100b9a7b0515132996d62a7a676a77676cb6e3 fbb1dcd8871b7d04880ed793af03febb9669db04 refs/heads/tty-testing
+fbb1dcd8871b7d04880ed793af03febb9669db04 3d5390f4dbe633472b2a4824e66ca5c4eac6fb19 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfcMHcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7ZwP+wZYCjFkH3T0EdyL1JP2
-Vu3fkNhPTAeGmvIEWK7Zk4EYly1lb8JU7PZGYLv1Gz8Nne9ft8D+C32pv3OMvbQ6
-mBBZLBd6d5TGSbXaQeSzhBZUMPQee9cfIEGYghVXJDmo5pWBKgk813T3yC+RenUO
-BI+USSjzs21p4L4VgP2J18apyl1Xozf3eaJLzcWjOg+gcjslZDKcsssV0CXk7S7B
-HkgE+KSQv8NR+1jH3bqlWLoIRBZti9x7j0n3F/yHDyns4DvRGlJ7geVRoMTYEVOq
-v/6GWpDCdWhQJQkh3CCPMcs8zs9rXvN8pjTV7vakb6AtfqC2beicJ/YV6UuaVzLn
-s+dl0zTJ7T+1t/1aZh8zMMsIqqJk/nHV04JRX7hrLknEVSYRNAHlmsrLy1BTPqSy
-3iDDRov8+CwInWYr/McqO+dxJwowDJgN99agah6+GRlsWalAhvJKTEvA43Np7UIz
-e7v0dFPMC2RJV7by6E26AXrxyPJOBfzg/4tefGPjKZ+Y3+fUcaPUGxz4cQfOAJfJ
-YLWgg9rFcrqu/pb2lByI0/KuvEJAZtSRLPv7i5wsqBLRhfour+kAN+KiL+ycXO6U
-IowT5OZHSADAfShypfCKxLKkfrOqt+GmNWCHl6Hz+kDIHEinQWyehi/BZNU0Ie70
-xJifTqb7Xesywg7SXezjL9fc
-=NrGp
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfcMJMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Wi0P/0fyI7AnBkpP3Tuns/jY
+SdonGoyv4PfzQ9wULxR0eTag7PVpbt6HxGK2bttOEOc+u4aFkuy7Zk/Cm1PQd88k
+CzaXLUN91q5m6eYb6jv8cI0KJUJB9n0k+gjV5kVoDp4DatsmkAve7ERG4e/A8bkJ
+Qqk5p4N+TpiAWZ9AkkXr5zz8YTbnjX66oPwjabMnQ8yMaRM3M+GXoe5Eydm2IGk+
+E8bnJt+OB0P0OMEvna+HmgJm8dEHh1NPkub4/iJ3pC+706xrfmWruCzApiSD6sSm
+OiM0Djor/md8Ev4LxbkDOBBgsPR2aZojAL36nnyvlPHruAQWJunjtj9iOnvS4R3C
+r0Xp7zglxKTCQrkplVs4KlqkiOYY+rnSdpJeAI0dboaIuUbo6V5pmt2EnNVIksPX
+IMYVb/lrf7sVbs6FeQ+Zv4txXejeJsW9837HGV7CFFVAGfrm6xSwF1O+xAkcZaAY
+vYp0FUKle+DQOIjFlRweaT9gfS8kaSmFe3SudIV2KrAfaXtk16S+M2x6RtjNJjUp
+GX9nWJRrBxaLqdsCdUprzAZ063Dv5j65bgwKhAkYsb6AnH67aPrN/NxqE9nQlg4W
+acC7xZThiU12JR8JiaJSKoeusKlImyViKuWDCi3R0Dk03amPgB9v25B072zYPZZZ
+7hS0FrLjWi9CfLGKTsp0ea8F
+=4Ry/
 -----END PGP SIGNATURE-----
 
---===============2428125590000164557==--
+--===============3881669131058624843==--
