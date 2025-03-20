@@ -1,42 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============1449201287899424065=="
+Content-Type: multipart/mixed; boundary="===============1647344661664207660=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 20 Mar 2025 09:43:23 -0000
-Message-Id: <174246380383.2297565.6246486586959764760@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 20 Mar 2025 09:43:35 -0000
+Message-Id: <174246381596.2297981.18209318532336711231@gitolite.kernel.org>
 
---===============1449201287899424065==
+--===============1647344661664207660==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: ff7f9b199e3f4cc7d61df5a9a26a7cbb5c1492e6
     new: 73b8c1dbc2508188e383023080ce6a582ff5f279
     log: revlist-ff7f9b199e3f-73b8c1dbc250.txt
-  - ref: refs/heads/stable
-    old: 81e4f8d68c66da301bb881862735bd74c6241a19
-    new: a7f2e10ecd8f18b83951b0bab47ddaf48f93bf47
-    log: |
-         53df59ddaadfa88afd0b1a097777a36eec09603b MAINTAINERS: correct list and scope of LTC4286 HARDWARE MONITOR
-         815f80ad20b63830949a77c816e35395d5d55144 hwmon: (nct6775-core) Fix out of bounds access for NCT679{8,9}
-         f2aac4c73c9945cce156fd58a9a2f31f2c8a90c7 ata: libata-core: Add ATA_QUIRK_NO_LPM_ON_ATI for certain Samsung SSDs
-         281e239698357d60e1e2acd9eef1308c2ae2d73f Merge tag 'ata-6.14-final' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
-         a7f2e10ecd8f18b83951b0bab47ddaf48f93bf47 Merge tag 'hwmon-fixes-for-v6.14-rc8/6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
-         
-  - ref: refs/tags/next-20241220
-    old: b2c5bc987160cbc8478b982991f34f53189af909
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20250320
     old: 0000000000000000000000000000000000000000
     new: ffc6385e91a9884857729c11b36247b0ed0e96b2
 
---===============1449201287899424065==
+--===============1647344661664207660==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -896,4 +883,4 @@ b25df41aaa089e65a3656c6e74f19f2ce69a73e6 Merge branch 'topic/cxl' of git://git.k
 9dbafc534a8e3d30622760b93d481a3b842aaa6d fix up for "Merge branch 'kvm-arm64/pv-cpuid' into new-next"
 73b8c1dbc2508188e383023080ce6a582ff5f279 Add linux-next specific files for 20250320
 
---===============1449201287899424065==--
+--===============1647344661664207660==--
