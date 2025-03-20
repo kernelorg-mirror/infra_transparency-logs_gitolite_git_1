@@ -1,60 +1,38 @@
-Content-Type: multipart/mixed; boundary="===============1935134629516459358=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 20 Mar 2025 13:42:57 -0000
-Message-Id: <174247817715.2578555.5645841624244112984@gitolite.kernel.org>
-
---===============1935134629516459358==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/iommu/linux
+Date: Thu, 20 Mar 2025 13:43:06 -0000
+Message-Id: <174247818611.2578889.4069923745930478384@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/iommu/linux
+user: joro
 changes:
-  - ref: refs/heads/usb-next
-    old: 3a85c10115407588fad696d6c121d54cd5ba5d72
-    new: 434da42d7173bf097e9fab78ff97d51e8b74170d
+  - ref: refs/heads/apple/dart
+    old: 3bc0102835f666d934addedbd37ff7f2f26c865d
+    new: b8741496c058c6d65d09799081158d1593554638
     log: |
-         35ad0d62da83b2e027e2e3c8b3b265ce6a678c5a MAINTAINERS: Use my kernel.org address for USB4/Thunderbolt work
-         72cef52b353cc693d71ad37d80237d975f9951d9 thunderbolt: Make tb_tunnel_alloc_usb3() error paths consistent with the rest
-         75749d2c1d8cef439f8b69fa1f4f36d0fc3193e6 thunderbolt: Scan retimers after device router has been enumerated
-         ad79c278e478ca8c1a3bf8e7a0afba8f862a48a1 thunderbolt: Do not add non-active NVM if NVM upgrade is disabled for retimer
-         434da42d7173bf097e9fab78ff97d51e8b74170d Merge tag 'thunderbolt-for-v6.15-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-next
+         b8741496c058c6d65d09799081158d1593554638 iommu: apple-dart: fix potential null pointer deref
          
-
---===============1935134629516459358==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1742478127 -0700
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1742478176-29ea3101af9492aa2705a25d683ce65547b8673e
-
-3a85c10115407588fad696d6c121d54cd5ba5d72 434da42d7173bf097e9fab78ff97d51e8b74170d refs/heads/usb-next
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfcGy8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MlwQAJ/TecQVy+IVkaL+GFI+
-FksSYnH2MrhMKk13lKdNQZLMqdW/5KKLXS9vX8vV0RjOIUprVQl/JeoMqUPviLGO
-bfkN8wMP5+p9NwA3sx2pwvzOHU8P/eCuMMx2TACH+t9Twyq0naWxmNp1CLRP6Kn5
-G7nSzWc7IyGCR/8a3sCUwOS1MLg5XmwLUZrsP8BPij9eSOpepgy0mESa6LneuQpc
-6quCYmkxrH7Y2kHrLAJCIuwLhjfQaOX9YiWjmnRHofdEDRyrE9BPaSTAdHiA+Dd5
-iXcCLvwf+rJfrcSYrvtpEsKtMJ4+/MuSrdp+80lDV4ku1zHg6D6a96m9oz9gdiqm
-+g25gtu0olVLwwG+hCnZg62r6pfOJVGXIeKw1+SXxnGd9entQ4P84PX/J6NsSy9F
-4YiR1UUBbeuo3EoaaxXfMTES55AWslrTQ7p2fPfTWPHbKc02zhMN9YjD7FZyaXfW
-y8Z0Ur+zYl+FFtyNV6tVqlT4y69g1TGfV4HMYEKr3wbLxNiJdWtVvsybMFFnP6RJ
-ImQxN2trHsV6e1qET7dogoGumxvU54KOZFeNNtgLFOTBxW+zznorpojR0XXhaGqP
-q6QhZ+XG3Wol5wFFVRuZvnXQF9pySKgB2Q2zRsYG39ep798LbeJr7Z7Z27LPIYdw
-YkCZ17634+mAmFS1XqLcaIAl
-=QR/Y
------END PGP SIGNATURE-----
-
---===============1935134629516459358==--
+  - ref: refs/heads/intel/vt-d
+    old: 4c293add5874038dc82ef579663dd86744d8e872
+    new: 93ae6e68b6d6b62d92b3a89d1c253d4a1721a1d3
+    log: |
+         2454823e97a63d85a6b215905f71e5a06324eab7 iommu/vt-d: Put IRTE back into posted MSI mode if vCPU posting is disabled
+         688124cc541f60d26a7547f45637b23dada4e527 iommu/vt-d: Don't clobber posted vCPU IRTE when host IRQ affinity changes
+         93ae6e68b6d6b62d92b3a89d1c253d4a1721a1d3 iommu/vt-d: Fix possible circular locking dependency
+         
+  - ref: refs/heads/rockchip
+    old: 0ad2507d5d93f39619fc42372c347d6006b64319
+    new: dcde1c4aa7ceec94e8557191d5789fd76df2f671
+    log: |
+         f48dcda8f6a48d4592cc74f944d65d6a09f17895 iommu/rockchip: Allocate per-device data sensibly
+         f90aa59eb2999e4c33049f7e5679a6424da5c6b9 iommu/rockchip: Register in a sensible order
+         dcde1c4aa7ceec94e8557191d5789fd76df2f671 iommu/rockchip: Retire global dma_dev workaround
+         
+  - ref: refs/tags/v6.14-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 12b58398bffc23db89e715414399b0533255da51
