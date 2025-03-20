@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Wed, 19 Mar 2025 23:12:58 -0000
-Message-Id: <174242597897.1778383.13235235172757437545@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Thu, 20 Mar 2025 00:22:19 -0000
+Message-Id: <174243013950.1833626.1204722921429226675@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
 changes:
-  - ref: refs/tags/v6.15-rockchip-dts64-3
-    old: 0000000000000000000000000000000000000000
-    new: 3f557a70f4d263ee3de25e8e572324348a01c641
+  - ref: refs/heads/i2c/i2c-host
+    old: 95a8ca229032b4984bba959a2c5680a015719481
+    new: 088a53439990929cce4acffe210896ef36717a20
+    log: |
+         088a53439990929cce4acffe210896ef36717a20 i2c: pasemi: Add registers bits and switch to BIT()
+         
