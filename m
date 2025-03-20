@@ -1,56 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============1257328252334602576=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 20 Mar 2025 13:22:46 -0000
-Message-Id: <174247696696.2558342.10094922214437877603@gitolite.kernel.org>
-
---===============1257328252334602576==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+Date: Thu, 20 Mar 2025 13:23:06 -0000
+Message-Id: <174247698683.2558756.14711295919001107148@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+user: linusw
 changes:
-  - ref: refs/heads/master
-    old: 86964bfbbfaf53aab09222ff9bec426773e91c4b
-    new: e71c001f74c46fee5735688bd10edc94e682d713
+  - ref: refs/heads/devel
+    old: eb8578843f693040b15e7aad6b901588a511a6ac
+    new: 693c9ecd832669c55e8d8067eba064440d9a4709
     log: |
-         e71c001f74c46fee5735688bd10edc94e682d713 fix up 6.6 io_uring change
+         813b1a1a21fea47405dc44694c3031c3efcf0f03 pinctrl: PINCTRL_AMDISP should depend on DRM_AMD_ISP
+         5a062c3c3b82004766bc3ece82b594d337076152 pinctrl: tegra: Fix off by one in tegra_pinctrl_get_group()
+         113ec87b0f26a17b02c58aa2714a9b8f1020eed9 pinctrl: npcm8xx: Fix incorrect struct npcm8xx_pincfg assignment
+         1a65846509237f2c78dbba8add772d9ce5daed7b pinctrl: nuvoton: Convert to use struct pingroup and PINCTRL_PINGROUP()
+         1bce744173dd665af73cd8a27954e23f8fa031ac pinctrl: nuvoton: Make use of struct pinfunction and PINCTRL_PINFUNCTION()
+         d52ecc655a780da256e93575cd5b8a225a2fe601 pinctrl: nuvoton: Convert to use struct group_desc
+         693c9ecd832669c55e8d8067eba064440d9a4709 pinctrl: nuvoton: Reduce use of OF-specific APIs
          
-
---===============1257328252334602576==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1742476913 -0700
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1742476962-ff8aa11d84edd760ce9adff42a1cde510724b4f3
-
-86964bfbbfaf53aab09222ff9bec426773e91c4b e71c001f74c46fee5735688bd10edc94e682d713 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfcFnEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TfcQAJr/z+bhbT7BQHDxBu9U
-+uB7YnSCEaH/5XUwPgkjZriI1CACL/5vc20aHiAQGmZNC12Im/jDvPDTNAoYHUPL
-poRq2g5ujXBvCKuuuAh7GcamGfRNimXmGIVJf2qVFlGu+AZJkn9bRJtuQ2QF5ckB
-EOk07JTH9GG+W0PreFGvCRBhCDwP1tkT31d3IppHJcGMAnYjdBCTbCP/1NEAfdSl
-IBm5p80cO5xHmjDmar1ol3tEzfgIqaXk39AkdbrznXZpIJp67UulM3MboKqlNsOE
-+JSASTB+GuJsheCsLQ7iCrAULnQfNYIw+DyEAfCjZR4baD2GssZec7n6JDUDLkX4
-xF3YaQmFJGfJ+YnCkJ2PZQzWeK+8DccZlk8cec+BN37L/E7Eb3MaWtOIHQ0TVZsV
-2CCB1oCSOnXcHMH2UHiGBdCcq3Ga+GOO1WH3+RyRj/pj88f8QT07fCbwzRc5W491
-8F88cGZHLbV4XFOP/pNKvtiopkSrSGcB20IA9SNPrUX9cO3HhwTjAujyQGkaT3zq
-dZksVMaJ87mRPuEg42aYHpkt+wltzvUWOz4MNjVFJXEcWOr0Dibv+pB3xxHgyOkC
-nshmWGClfbml6jt+Pvm1dbGGFYdrSvm2UL2WafZvkVZTy/YQhUp/JMW2rOCyYADP
-dc+vcXQnxjSSu4b7ViyfAEY4
-=VSuL
------END PGP SIGNATURE-----
-
---===============1257328252334602576==--
+  - ref: refs/heads/fixes
+    old: 4701f33a10702d5fc577c32434eb62adde0a1ae1
+    new: c746ff4a67f4842e90fe232d2c9fc983f4034848
+    log: |
+         c746ff4a67f4842e90fe232d2c9fc983f4034848 pinctrl: spacemit: PINCTRL_SPACEMIT_K1 should not default to y unconditionally
+         
+  - ref: refs/heads/for-next
+    old: 8bbdb4baf4292bb5d6e2320bd2809da6ba51db78
+    new: 4d91bce0cdf7b13c0b6889383029e5c8bbbd86ef
+    log: |
+         c746ff4a67f4842e90fe232d2c9fc983f4034848 pinctrl: spacemit: PINCTRL_SPACEMIT_K1 should not default to y unconditionally
+         813b1a1a21fea47405dc44694c3031c3efcf0f03 pinctrl: PINCTRL_AMDISP should depend on DRM_AMD_ISP
+         5a062c3c3b82004766bc3ece82b594d337076152 pinctrl: tegra: Fix off by one in tegra_pinctrl_get_group()
+         113ec87b0f26a17b02c58aa2714a9b8f1020eed9 pinctrl: npcm8xx: Fix incorrect struct npcm8xx_pincfg assignment
+         1a65846509237f2c78dbba8add772d9ce5daed7b pinctrl: nuvoton: Convert to use struct pingroup and PINCTRL_PINGROUP()
+         1bce744173dd665af73cd8a27954e23f8fa031ac pinctrl: nuvoton: Make use of struct pinfunction and PINCTRL_PINFUNCTION()
+         d52ecc655a780da256e93575cd5b8a225a2fe601 pinctrl: nuvoton: Convert to use struct group_desc
+         693c9ecd832669c55e8d8067eba064440d9a4709 pinctrl: nuvoton: Reduce use of OF-specific APIs
+         4d91bce0cdf7b13c0b6889383029e5c8bbbd86ef Merge branch 'devel' into for-next
+         
