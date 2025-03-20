@@ -1,44 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============3025416377480174016=="
+Content-Type: multipart/mixed; boundary="===============5271860807610692538=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Thu, 20 Mar 2025 21:31:51 -0000
-Message-Id: <174250631134.3068172.9253024665495455703@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
+Date: Thu, 20 Mar 2025 21:34:53 -0000
+Message-Id: <174250649374.3070253.15389206098077598009@gitolite.kernel.org>
 
---===============3025416377480174016==
+--===============5271860807610692538==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/linux/kernel/git/hyperv/linux
+user: wei.liu
 changes:
-  - ref: refs/heads/i2c/i2c-host-next
-    old: 84f1ddcd0731142122d05f32a5d31869abaa1085
-    new: c68a3db290d6432f5008f062e9dc30e3c5593177
-    log: revlist-84f1ddcd0731-c68a3db290d6.txt
+  - ref: refs/heads/hyperv-next
+    old: f5288d14069b6580405b6f0d1c4ccd45c7ac97bf
+    new: 2ad088e2dbb0150d47b60b86ebb299a900bf8950
+    log: revlist-f5288d14069b-2ad088e2dbb0.txt
 
---===============3025416377480174016==
+--===============5271860807610692538==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-84f1ddcd0731-c68a3db290d6.txt
+Content-Disposition: attachment; filename=revlist-f5288d14069b-2ad088e2dbb0.txt
 
-4a3f77ea77013d8d0178503a8abff33d8c4ba5c5 i2c: i801: Switch to iomapped register access
-d50f2f5d51ea609194439e6e3f470d1a4fad761b i2c: i801: Use MMIO if available
-80b1bbf254969d8b9d66a0f9bdfc301f13ab2ecc i2c: mediatek: add runtime PM operations and bus regulator control
-ed4784172ffaed5e51a74b9127285c7c02ac0058 i2c: octeon: fix return commenting
-db15994307f54f82c2936625c4f16e77367efe21 i2c: octeon: remove 10-bit addressing support
-61f7ada75c3fb735e9994ca3ccf012683f177f64 dt-bindings: i2c: omap: Add mux-states property
-7634264655b1c7cbf9e3c25bd94ebc86ecf70b8b i2c: omap: Add support for setting mux
-258440cb759eadaf654b7ae5afa7622cf51660ca dt-bindings: i2c: spacemit: add support for K1 SoC
-e8a2fe5c489551c1cc62efae2602d7ec9e0055ac i2c: spacemit: add support for SpacemiT K1 SoC
-afe8c345f29f93b55abc97d8aeb69076c387709d i2c: pasemi: Add registers bits and switch to BIT()
-dd2554f482a8b7bc3e7087473ebae6352b901571 i2c: mlxbf: Use readl_poll_timeout_atomic() for polling
-59c2d5e7333233baa89d95becd498886154dea71 i2c: qcom-geni: Update i2c frequency table to match hardware guidance
-06c2248887d6728cd15b995cbb41b389cdcecd84 i2c: iproc: Refactor prototype and remove redundant error checks
-c68a3db290d6432f5008f062e9dc30e3c5593177 Merge branch 'i2c/i2c-host' into i2c/i2c-host-next
+461fbbd036b11d755b50e2ef7c165859a0f908d5 hyperv: Add CONFIG_MSHV_ROOT to gate root partition support
+fe14262695526145334bfa0bb51fcc365cf6dfb5 hyperv: Remove unused union and structs
+ced518ad55b4118dd77f8a455a06801b89f2f877 x86/hyperv: Add VTL mode emergency restart callback
+07b74192e6170571892c09bf5c4352a85db22557 x86/hyperv: Add VTL mode callback for restarting the system
+e792d843aa3c9d039074cdce728d5803262e57a7 x86/hyperv: Fix check of return value from snp_set_vmsa()
+3817854ba892016ddb03ee31208e9f8e440f5bee hyperv: Log hypercall status codes as strings
+8cac51796ecb162c437cc651f37152095af76591 x86/mshyperv: Add support for extended Hyper-V features
+feba84c2c98109cd784de931240c0dab6396c0d7 arm64/hyperv: Add some missing functions to arm64
+af37bc759f1064cc4dc0a6a12afd3fb25c12fe4d hyperv: Introduce hv_recommend_using_aeoi()
+4ee23f3a4a46dc07dd6f82801001aa370faa8312 acpi: numa: Export node_to_pxm()
+21050f619720029e89d365b0e1328eafe088dbd8 Drivers: hv: Export some functions for use by root partition module
+04df7ac39943aa1f503d99572782689d356e3e63 Drivers: hv: Introduce per-cpu event ring tail
+e2575ffe57ac07e730be16a6c451efca0471af7c x86: hyperv: Add mshv_handler() irq handler and setup function
+0bd921a4b4d9ca832578fcc61a6a99bd980776c9 hyperv: Add definitions for root partition driver to hv headers
+2ad088e2dbb0150d47b60b86ebb299a900bf8950 Drivers: hv: Introduce mshv_root module to expose /dev/mshv to VMMs
 
---===============3025416377480174016==--
+--===============5271860807610692538==--
