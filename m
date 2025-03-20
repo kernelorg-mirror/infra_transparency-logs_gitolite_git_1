@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 20 Mar 2025 15:17:07 -0000
-Message-Id: <174248382714.2669730.12650013514835505932@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 20 Mar 2025 15:17:28 -0000
+Message-Id: <174248384824.2670113.7899913713299313843@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-next
-    old: 6fefb17275d4863289e4e4dc4e46f65281cd5b33
-    new: c20f8d2224868a8971a82c4c05762ae0572b8555
+    old: 91e79a907ca73f2ca826a80836ffcbb9905e574d
+    new: 5cee92e160ac328018f1975d7725000008669a86
     log: |
-         83eddf0116b09186f909bc643f2093f266f204ea irqdomain: sound: Switch to irq_domain_create_linear()
-         c20f8d2224868a8971a82c4c05762ae0572b8555 Merge remote-tracking branch 'asoc/for-6.15' into asoc-next
+         ad4488845193e81549c11903a5083b4c9cc19785 spi: spi-mem: Introduce a default ->exec_op() debug log
+         5cee92e160ac328018f1975d7725000008669a86 Merge remote-tracking branch 'spi/for-6.15' into spi-next
          
