@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nvdimm/nvdimm
-Date: Thu, 20 Mar 2025 22:05:40 -0000
-Message-Id: <174250834092.3098015.7489011878733759315@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/i3c/linux
+Date: Thu, 20 Mar 2025 22:06:12 -0000
+Message-Id: <174250837270.3098480.5809785282358559942@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nvdimm/nvdimm
-user: iweiny
+repo: pub/scm/linux/kernel/git/i3c/linux
+user: abelloni
 changes:
-  - ref: refs/heads/libnvdimm-for-next
-    old: 2318fa87f808362994dee2773a7d3307c1cebabd
-    new: ef1d3455bbc1922f94a91ed58d3d7db440652959
+  - ref: refs/heads/i3c/next
+    old: 0430bf9bc1ac068c8b8c540eb93e5751872efc51
+    new: e8d2d287e26d9bd9114cf258a123a6b70812442e
     log: |
-         ef1d3455bbc1922f94a91ed58d3d7db440652959 libnvdimm/labels: Fix divide error in nd_label_data_init()
+         e8d2d287e26d9bd9114cf258a123a6b70812442e i3c: master: svc: Fix implicit fallthrough in svc_i3c_master_ibi_work()
          
