@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 20 Mar 2025 14:26:51 -0000
-Message-Id: <174248081146.2620905.5313651517123525219@gitolite.kernel.org>
+Date: Thu, 20 Mar 2025 14:31:52 -0000
+Message-Id: <174248111230.2625265.2620294220152820401@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: pabeni
 changes:
   - ref: refs/heads/main
-    old: 23b763302ce068d7c97441e75434dc9f903adc7d
-    new: 90a7138619a0c55e2aefaad27b12ffc2ddbeed78
+    old: 90a7138619a0c55e2aefaad27b12ffc2ddbeed78
+    new: 2fdf0880caa0e1e708b5e24848a2d27830c0d7ee
     log: |
-         90a7138619a0c55e2aefaad27b12ffc2ddbeed78 net/neighbor: add missing policy for NDTPA_QUEUE_LENBYTES
+         548b0c5de7619ef53bbde5590700693f2f6d2a56 batman-adv: Ignore own maximum aggregation size during RX
+         2fdf0880caa0e1e708b5e24848a2d27830c0d7ee Merge tag 'batadv-net-pullrequest-20250318' of git://git.open-mesh.org/linux-merge
          
