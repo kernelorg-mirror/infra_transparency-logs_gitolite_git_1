@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3497684820057693061=="
+Content-Type: multipart/mixed; boundary="===============4625316867401616199=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 20 Mar 2025 15:17:52 -0000
-Message-Id: <174248387252.2670623.12545842157726433996@gitolite.kernel.org>
+Date: Thu, 20 Mar 2025 15:17:54 -0000
+Message-Id: <174248387481.2670749.17835609235328262866@gitolite.kernel.org>
 
---===============3497684820057693061==
+--===============4625316867401616199==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 9a81fc3480bf5dbe2bf80e278c440770f6ba2692
     new: feaee98c6c505494e2188e5c644b881f5c81ee59
     log: revlist-9a81fc3480bf-feaee98c6c50.txt
 
---===============3497684820057693061==
+--===============4625316867401616199==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -55,4 +55,4 @@ fc486c2d060f67d672ddad81724f7c8a4d329570 Revert "gre: Fix IPv6 link-local addres
 8417db0be5bb98255f69a14ca8140ad1566f8109 Merge branch 'gre-revert-ipv6-link-local-address-fix'
 feaee98c6c505494e2188e5c644b881f5c81ee59 MAINTAINERS: Add Andrea Mayer as a maintainer of SRv6
 
---===============3497684820057693061==--
+--===============4625316867401616199==--
