@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 20 Mar 2025 23:04:46 -0000
-Message-Id: <174251188633.3149264.2763364559026734364@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mszyprowski/linux
+Date: Thu, 20 Mar 2025 23:08:44 -0000
+Message-Id: <174251212472.3152814.5623093166341901095@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/mszyprowski/linux
+user: mszyprowski
 changes:
-  - ref: refs/heads/regmap-spi-write-read
+  - ref: refs/tags/dma-mapping-6.14-2025-03-21
     old: 0000000000000000000000000000000000000000
-    new: 9eb8c9ee9671a47aafcd455dddb3a7e82f2d5e48
+    new: bafbf81b688e38c43c819dbf727acb2e3a874aed
