@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8616015228578743268=="
+Content-Type: multipart/mixed; boundary="===============8481888865850949829=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 20 Mar 2025 15:23:12 -0000
-Message-Id: <174248419267.2677017.8001763175434295530@gitolite.kernel.org>
+Date: Thu, 20 Mar 2025 15:23:15 -0000
+Message-Id: <174248419502.2677128.12283609523817042909@gitolite.kernel.org>
 
---===============8616015228578743268==
+--===============8481888865850949829==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 23c9ff659140f97d44bf6fb59f89526a168f2b86
     new: 6855b9be9cf70d3fd4b4b9a00696eae65335320c
     log: revlist-23c9ff659140-6855b9be9cf7.txt
 
---===============8616015228578743268==
+--===============8481888865850949829==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -80,4 +80,4 @@ fa3ee9dd8067e178b459f1df3081fd25fc03c4b5 mptcp: sysctl: add available_path_manag
 9cf0128e64ab4ecd46f734d5c9870549cd29053f selftests: mptcp: add pm sysctl mapping tests
 6855b9be9cf70d3fd4b4b9a00696eae65335320c Merge branch 'mptcp-pm-prep-work-for-new-ops-and-sysctl-knobs'
 
---===============8616015228578743268==--
+--===============8481888865850949829==--
