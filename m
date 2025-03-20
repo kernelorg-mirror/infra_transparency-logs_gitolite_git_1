@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Thu, 20 Mar 2025 00:22:22 -0000
-Message-Id: <174243014211.1833765.16809870177422352215@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Thu, 20 Mar 2025 00:24:47 -0000
+Message-Id: <174243028776.1835710.15899253830952537981@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/i2c/i2c-host-next
-    old: 95a8ca229032b4984bba959a2c5680a015719481
-    new: 088a53439990929cce4acffe210896ef36717a20
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 2b5b834cc3b97492901ed399ae0ceb737f6aaa06
+    new: f5b07010c13c77541e8ade167d05bef3b8a63739
     log: |
-         088a53439990929cce4acffe210896ef36717a20 i2c: pasemi: Add registers bits and switch to BIT()
+         ebf0b332732dcc64239119e554faa946562b0b93 perf dso: fix dso__is_kallsyms() check
+         58b8b5d142a8bd5cee3f5181b9d9088051a53a04 perf cpumap: Increment reference count for online cpumap
+         6d2dcd635204c023eb5328ad7d38b198a5558c9b perf: intel-tpebs: Fix incorrect usage of zfree()
+         431db90a7303cb394c5a881b4479946f64052727 perf pmu: Handle memory failure in tool_pmu__new()
+         f5b07010c13c77541e8ade167d05bef3b8a63739 libperf: Don't remove -g when EXTRA_CFLAGS are used
          
