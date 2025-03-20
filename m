@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0370417317591734828=="
+Content-Type: multipart/mixed; boundary="===============4035622262027409756=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 20 Mar 2025 15:18:16 -0000
-Message-Id: <174248389640.2671464.16612673978675845098@gitolite.kernel.org>
+Date: Thu, 20 Mar 2025 15:18:41 -0000
+Message-Id: <174248392108.2671920.9283585602552897233@gitolite.kernel.org>
 
---===============0370417317591734828==
+--===============4035622262027409756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 23c9ff659140f97d44bf6fb59f89526a168f2b86
-    new: 6855b9be9cf70d3fd4b4b9a00696eae65335320c
-    log: revlist-23c9ff659140-6855b9be9cf7.txt
+  - ref: refs/heads/dev-queue
+    old: 410597c085b1ab697bd40cc8cd532eb337a5405e
+    new: c7490d7514be6df97ba3aa600862b954f266ca32
+    log: revlist-410597c085b1-c7490d7514be.txt
 
---===============0370417317591734828==
+--===============4035622262027409756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-23c9ff659140-6855b9be9cf7.txt
+Content-Disposition: attachment; filename=revlist-410597c085b1-c7490d7514be.txt
 
 169b2262205836a5d1213ff44dca2962276bece1 ieee802154: ca8210: Use proper setters and getters for bitwise types
 0a3e89b06d36d55392829681f63ce0c74861901b ieee802154: ca8210: Get platform data via dev_get_platdata()
@@ -79,5 +79,73 @@ eff5b1578e99c031f8d33e3f2a972504a3933831 mptcp: pm: add struct_group in mptcp_pm
 fa3ee9dd8067e178b459f1df3081fd25fc03c4b5 mptcp: sysctl: add available_path_managers
 9cf0128e64ab4ecd46f734d5c9870549cd29053f selftests: mptcp: add pm sysctl mapping tests
 6855b9be9cf70d3fd4b4b9a00696eae65335320c Merge branch 'mptcp-pm-prep-work-for-new-ops-and-sysctl-knobs'
+114a4545ce1095918bddff0718d9786de78ce48d coccinelle: misc: secs_to_jiffies script: Create dummy report
+b313af461b52e118d289514b91daa14c0aa094f5 ice: health.c: fix compilation on gcc 7.5
+24ebd47b7d4c4a34a092df8e9c579e63df686ae6 ice, irdma: fix an off by one in error handling code
+4e0ba45cc289faa3664c46aee071c91cde24283d idpf: check error for register_netdev() on init
+1785d78ff658c806597bdf3776bcab483ca8ca35 ice: fix check for existing switch rule
+a5de285e4e06add566492a51bf963382d2fff950 ice: do not add LLDP-specific filter if not necessary
+4af617d3baec4df583e0168708ffe50bfce4b114 ice: receive LLDP on trusted VFs
+ffbc6742f663943f8261a5331672f3f39f421660 ice: remove headers argument from ice_tc_count_lkups
+0d0b73189d6e92c726d0250a3b619067bcf2c11d ice: support egress drop rules on PF
+5631284a6df2ba2fd6043d1611d1ea162707e3a1 ice: enable LLDP TX for VFs through tc
+740f306509776f38f57c200e7a8753598d77af30 irdma: free iwdev->rf after removing MSI-X
+cc6f1becf6d61bc141f40f7d5ec26aef66961ff4 ice: redesign dpll sma/u.fl pins control
+fc2ed69ea12ff33a0e93578ea4d33e192962c03e ice: change SMA pins to SDP in PTP API
+a3be11c7fa02e4302be344b8f43f272d053ada06 ice: add ice driver PTP pin documentation
+6e2199f601b0a81700f10a6419f3aae56bfb6602 ixgbe: add MDD support
+a1012c32bf3e4a82684f7cbd5d709e6246e9baef ixgbe: check for MDD events
+85d4b18ab784d1bff43741b033d55aa45c0d3e20 ixgbe: add Tx hang detection unhandled MDD
+394c3f254bbd379028336d5b4be135e12a21bb86 ixgbe: turn off MDD while modifying SRRCTL
+c64235fbcdc5256d46f8579fae69f043d7081985 ice: ensure periodic output start time is in the future
+84b41d518d58dda8224312ac1eb615954ca7776a ice: fix Get Tx Topology AQ command error on E830
+10b1a1e8fcbdee236591a04e62326496951f53a2 ice: fix lane number calculation
+6dff4534ca2d67f404c9ef73cefbd1d712a2affd ixgbe: fix media type detection for E610 device
+4fa3794057655fd1dadb27d5127c62485e369a22 devlink: add value check to devlink_info_version_put()
+3fdb08ea2a8ef521a2dfd9798f0e2cf6718acfe8 ixgbe: wrap netdev_priv() usage
+1592d4e5501372db4d34d658682e2b9db9c6f0d6 ixgbe: add initial devlink support
+83c762761c853acdae1cc3e93ee9fdbc744ff7e9 ixgbe: add handler for devlink .info_get()
+06bda231493c377483cae6af3f4dfd341a54e50e ixgbe: add E610 functions for acquiring flash data
+a11577232ffa3a2bdb59110d383d36f397cc90b2 ixgbe: read the OROM version information
+60b18af826d44789c8807b11b583071dee918524 ixgbe: read the netlist version information
+e340f4c2fbccc37d3a05ceb13f95de31e01c8ce3 ixgbe: add .info_get extension specific for E610 devices
+21652c7b4bfb8ca99c539824dc62ef1d10ed5d5d ixgbe: add E610 functions getting PBA and FW ver info
+4bec4bd052b2ce0764940e0521f62eeeac20f519 ixgbe: extend .info_get with() stored versions
+2d2eebfc21512427778c016633a9468df292b6a9 ixgbe: add device flash update via devlink
+8a567650f5c849af6300ca22ef345b33407d5432 ixgbe: add support for devlink reload
+700116044eed08da93719c7ba70c21a4269d888c ixgbe: add FW API version check
+8b19c3e3ce689c47c9761ae00b19b766c79b1787 ixgbe: add E610 implementation of FW recovery mode
+1cd462edd477b5221ca12741b51cbcee6e666cba ixgbe: add support for FW rollback mode
+cd0304fdf94f67e9d861f90b70e7d794639c0f13 net: e1000e: convert to ndo_hwtstamp_get() and ndo_hwtstamp_set()
+613fbcb0f9cd0d0d864adb90fe0630a26ca75adf ice: fix fwlog after driver reinit
+6cd331ec04627db98b6fb93e426eefdc32962c52 ice: Allow 100M speed for E825C SGMII device
+82a3058643f0ab29ce330c54e5afb117149cb819 idpf: add initial PTP support
+baf0559c942bb9312832b445b898a118c4869839 virtchnl: add PTP virtchnl definitions
+e1c30d761742a32ca6ea47d9ab4908bf447a1e92 idpf: move virtchnl structures to the header file
+23fca4d4f3b027c07a3e814c489a77b74a54862c idpf: negotiate PTP capabilities and get PTP clock
+691905cdd532ee67396b7ce30ec3609298a90e31 idpf: add mailbox access to read PTP clock time
+c910eb262997f8afad035e349f915e088d30c4aa idpf: add PTP clock configuration
+8d3e26ecdf20d6e2bc02f638b598a38cfcd4b5e4 idpf: add Tx timestamp capabilities negotiation
+4cf3d4a9905290b72919cf7170033bec039719c8 idpf: add Tx timestamp flows
+cc59a631a803812c525aa76ddfb1ae358f862931 idpf: add support for Rx timestamping
+5e802cfe105c6f8cda37310b07fc08076e8e7059 idpf: change the method for mailbox workqueue allocation
+a06352d628ea3ec482252bcf63bd0a094a74a332 idpf: assign extracted ptype to struct libeth_rqe_info field
+2fd1919f0661a55c86db8cc754b28d2ef72481f4 ixgbe: create E610 specific ethtool_ops structure
+8347a5972b6f239f9b38771d1f8e12d7c5c2395a ixgbe: add support for ACPI WOL for E610
+e4d00ba475106f770772d0bed94e3391f1aeea58 ixgbe: apply different rules for setting FC on E610
+813939fe223758d732e2ac956fd35ddaba7c7420 ixgbe: add E610 .set_phys_id() callback implementation
+a4b70f2f2dff2dee11bdddbcc222011d658257a8 virtchnl: make proto and filter action count unsigned
+4c7adf746651cd94931d822466e056a83eb78038 ice: stop truncating queue ids when checking
+0cd72c642236e8e78af674565758712e951b96b7 ice: validate queue quanta parameters to prevent OOB access
+599f3f79480f200ecb757b9d13423187b648b6a5 ice: fix input validation for virtchnl BW
+132cd13c881c5bfda48fd4f0856c6a821a9916ab ice: fix using untrusted value of pkt_len in ice_vc_fdir_parse_raw()
+9ca6fc228d224bcbfba5f69aa58e701ec742c0a9 igc: Fix XSK queue NAPI ID mapping
+1e41ac4774a852a7988bb55b83b4317659d26046 ixgbe: Fix unreachable retry logic in combined and byte I2C write functions
+bab8071430360bce9eeadd8c4d1e57ad704a69ac i40e: fix MMIO write access to an invalid page in i40e_clear_hw
+3a6400e1a5e3cc95beec962f25cc3a30a6e3ede5 e1000e: change k1 configuration on MTP and later platforms
+17dce97c89bb6f3f3947a198c34150d061d21556 ice: fix reservation of resources for RDMA when disabled
+ffd359bc5b67b60fbb5d9eff5fb6dcb0e16133e0 igc: enable HW vlan tag insertion/stripping by default
+5fc6ffdbbcea5901cc34f550214f119e95c2de1c ice: add E830 Earliest TxTime First Offload support
+c7490d7514be6df97ba3aa600862b954f266ca32 ice: improve error message for insufficient filter space
 
---===============0370417317591734828==--
+--===============4035622262027409756==--
