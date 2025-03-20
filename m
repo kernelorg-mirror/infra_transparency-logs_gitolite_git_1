@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libcap/libcap
-Date: Thu, 20 Mar 2025 03:18:22 -0000
-Message-Id: <174244070253.1980835.12644902646437438246@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/alexs/linux
+Date: Thu, 20 Mar 2025 03:26:35 -0000
+Message-Id: <174244119538.1988498.15206566900594127056@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libcap/libcap
-user: morgan
+repo: pub/scm/linux/kernel/git/alexs/linux
+user: alexs
 changes:
-  - ref: refs/heads/master
-    old: 087afa007dcd3ede6a8adc1edb5c02b5f5877bd2
-    new: 91e3124a29803dcc4c454d32c10c45689722b103
+  - ref: refs/heads/docs-next
+    old: 82ac75237379041db3a63e5d354a58966a69ec84
+    new: a9b02129b790ecbcba1e2e9ba85b06c795253a1d
     log: |
-         91e3124a29803dcc4c454d32c10c45689722b103 More useful cross linking for man pages.
+         a05600ae1d5915ba0767dcd910dac2d0224f7c89 Docs/zh_CN: Translate index.rst to Simplified Chinese
+         a9b02129b790ecbcba1e2e9ba85b06c795253a1d Docs/zh_CN: Translate msg_zerocopy.rst to Simplified Chinese
          
