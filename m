@@ -1,70 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============2367203725039779783=="
+Content-Type: multipart/mixed; boundary="===============8027058340000687480=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Thu, 20 Mar 2025 09:40:09 -0000
-Message-Id: <174246360927.2295496.2229012269193055547@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+Date: Thu, 20 Mar 2025 09:41:08 -0000
+Message-Id: <174246366875.2296233.10118801989242701557@gitolite.kernel.org>
 
---===============2367203725039779783==
+--===============8027058340000687480==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+user: herbert
 changes:
-  - ref: refs/heads/slab/for-linus
-    old: dfd3df31c9db752234d7d2e09bef2aeabb643ce4
-    new: dea2d9221e83ea02b45a60ab88284cd3bb4bb2a4
-    log: revlist-dfd3df31c9db-dea2d9221e83.txt
+  - ref: refs/heads/acomp
+    old: 2ffb998673ca977108a379721e7e743bdc2b44cd
+    new: 7c6582bc434a76e9f6da0c596d19e5bbf796b23c
+    log: revlist-2ffb998673ca-7c6582bc434a.txt
 
---===============2367203725039779783==
+--===============8027058340000687480==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-2ffb998673ca-7c6582bc434a.txt
 
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1742463634 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1742463604-659283105c04f7800ea4575d5c9690a85ce2db64
+e8bbb2b3f58d51227b3d9212161c29aaf6cd593d crypto: acomp - Add support for folios
+809a10ea0554abaeb500af5d2d5a1508c0dd33a6 xfrm: ipcomp: Use crypto_acomp interface
+e1626c4ca05315b3edce12f4e5f49e249e980aaa PM: hibernate: Use crypto_acomp interface
+0310e5d9db37baa5212442790328803eb93285a3 ubifs: Use crypto_acomp interface
+280a6b04441988260813e8fab1fb90c7a9172b77 ubifs: Pass folios to acomp
+af3b9d5cf2644780b2053407d7ab12a8f078e1b8 crypto: scompress - Fix scratch allocation failure handling
+3dbb0db6d26254195d4a2a2854ee36b85cc2ad0b crypto: nx - Migrate to scomp API
+2b6067b9b97a8031bd0b7da5102c00240524c9b8 crypto: 842 - drop obsolete 'comp' implementation
+076a50a6eb617a5b285018cca610b6af431095e7 crypto: deflate - drop obsolete 'comp' implementation
+e942638e65de8c682819bd0a6b1e13bdc4e3560b crypto: lz4 - drop obsolete 'comp' implementation
+b5713f108301db38e0216a7ad5f990cfcd1d6508 crypto: lz4hc - drop obsolete 'comp' implementation
+31e896e8152ec9fec47ca3b2c6bebc31cae607ed crypto: lzo-rle - drop obsolete 'comp' implementation
+b21a1b93a29964eef1c048ec293f4caabe9dcc33 crypto: lzo - drop obsolete 'comp' implementation
+28eec6b904d2996fc0fb004788c31c1a163f8f70 crypto: zstd - drop obsolete 'comp' implementation
+fcabbc31eff795776c3d46d66a3ae9fc55b12a5c crypto: cavium/zip - drop obsolete 'comp' implementation
+4c4a5c876c8d3c508c442b5c8c62a59bd36b48c1 crypto: compress_null - drop obsolete 'comp' implementation
+55f7ba3645ed81dab3f655460f17c7792adb2011 crypto: remove obsolete 'comp' compression API
+4a4732edd28b42859c5edc4264ab85403b92446f crypto: scompress - Fix incorrect stream freeing
+7c6582bc434a76e9f6da0c596d19e5bbf796b23c crypto: api - Call crypto_alg_put in crypto_unregister_alg
 
-dfd3df31c9db752234d7d2e09bef2aeabb643ce4 dea2d9221e83ea02b45a60ab88284cd3bb4bb2a4 refs/heads/slab/for-linus
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmfb4pIACgkQu+CwddJF
-iJonWwf/XK6HnsCPOxznKJRwMpTse5mOeBoQMiXyfmfsqygM+2rLTI4P83i68Uu0
-YrPJtlm5ZSfVZM88J8MJxfQsd6w3QXBkE39i4e86Udi21Dxh2vtqMSALeENNn4S2
-rDsnU98Wmg2fEjVI8/ae/jcl291vL7uDqGVqO+r1qFpcS8wEznR0H0tVsUkfl7LA
-w0+0AR6DjnW1wndFtnsCFkMQOXCwT+rNNMW/ogslgBR9CHTs3vwjbJKoMWPxtydP
-LJd/CtvezuS9HGJuI1PLu5xJZe7/W1IlZTq3JtjcOy0XNyZpHk+JkGf65/7S5m1E
-0sCmvJD84aRZHyHY2/cx3ee7flOYwQ==
-=RUuf
------END PGP SIGNATURE-----
-
---===============2367203725039779783==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dfd3df31c9db-dea2d9221e83.txt
-
-b14ff274e8aa5517ff86c94d682bf26bf8b5dcc8 slab, rcu: move TINY_RCU variant of kvfree_rcu() to SLAB
-7f4b19ef3129e1f2e1856b3ee475a02c0be34891 rcu: remove trace_rcu_kvfree_callback
-49d5377b38aa127451cf5dc6d6ea5d9da7f465a4 rcu, slab: use a regular callback function for kvfree_rcu
-c9f8f1242a4c3e48adc6c3cf6b31c1ffbaa49943 slab: don't batch kvfree_rcu() with SLUB_TINY
-12f4888c9de0415ca9fc0aefc134e2800a7f47f0 mm/slab: simplify SLAB_* flag handling
-f1157db8b539cf1a98678667255fa7efa1f5b2cb slab: Adjust placement of __kvmalloc_node_noprof
-539f552892b757ca7a9eb1ba34f5be3c0a947f59 slab: Achieve better kmalloc caches randomization in kvmalloc
-ed5ec2e952595a469eae1f6dce040737359b6da2 mm: slub: Print the broken data before restoring them
-3f6f32b14ab35452d2ed52f7821cf2829923c98d mm: slub: call WARN() when detecting a slab corruption
-4b183dd9359d5772446cb634b12a383bed98c4fc mm, slab: cleanup slab_bug() parameters
-7e384dbb57e2c3cef7e70d4913b0cc4caedf0a1f kunit, slub: Add test_kfree_rcu_wq_destroy use case
-a6687c8ff613fc13a71ce1390593ba8d27c52db9 slab: Mark large folios for debugging purposes
-939c5de3c70d145d7388db1b04d75cda79297c23 mm/slab: call kmalloc_noprof() unconditionally in kmalloc_array_noprof()
-747e2cf137f44058a093d3226bf83974d9d117e7 slub: Handle freelist cycle in on_freelist()
-dea2d9221e83ea02b45a60ab88284cd3bb4bb2a4 Merge branch 'slab/for-6.15/kfree_rcu_tiny' into slab/for-next
-
---===============2367203725039779783==--
+--===============8027058340000687480==--
