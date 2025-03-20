@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8272334442769510510=="
+Content-Type: multipart/mixed; boundary="===============3346614980902986321=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 20 Mar 2025 09:15:54 -0000
-Message-Id: <174246215411.2274329.15434916056373243206@gitolite.kernel.org>
+Date: Thu, 20 Mar 2025 09:16:09 -0000
+Message-Id: <174246216905.2274712.10152169940115936089@gitolite.kernel.org>
 
---===============8272334442769510510==
+--===============3346614980902986321==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/next
+  - ref: refs/heads/master
     old: d9fffeda5644adc1dfa6f8db9ac882777c54250b
     new: 2c18aacebfa2ab510a581a03f18534ab31455a32
     log: revlist-d9fffeda5644-2c18aacebfa2.txt
 
---===============8272334442769510510==
+--===============3346614980902986321==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -113,4 +113,4 @@ dc25279fdedb57da517754b05e4c1a1bcb3cf0c1 tpm_crb: ffa_tpm: Implement driver comp
 d64500edab3dc41e8c16c1e3a81c3c81cfd6dee9 tpm_crb: Add support for the ARM FF-A start method
 2c18aacebfa2ab510a581a03f18534ab31455a32 Documentation: tpm: Add documentation for the CRB FF-A interface
 
---===============8272334442769510510==--
+--===============3346614980902986321==--
