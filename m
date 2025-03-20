@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0837096118903923705=="
+Content-Type: multipart/mixed; boundary="===============3025416377480174016=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Thu, 20 Mar 2025 21:31:47 -0000
-Message-Id: <174250630762.3067989.17154401406604254394@gitolite.kernel.org>
+Date: Thu, 20 Mar 2025 21:31:51 -0000
+Message-Id: <174250631134.3068172.9253024665495455703@gitolite.kernel.org>
 
---===============0837096118903923705==
+--===============3025416377480174016==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: 7714cf9df50b258cc8ff81a53d61466bafacf8ca
-    new: 06c2248887d6728cd15b995cbb41b389cdcecd84
-    log: revlist-7714cf9df50b-06c2248887d6.txt
+  - ref: refs/heads/i2c/i2c-host-next
+    old: 84f1ddcd0731142122d05f32a5d31869abaa1085
+    new: c68a3db290d6432f5008f062e9dc30e3c5593177
+    log: revlist-84f1ddcd0731-c68a3db290d6.txt
 
---===============0837096118903923705==
+--===============3025416377480174016==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7714cf9df50b-06c2248887d6.txt
+Content-Disposition: attachment; filename=revlist-84f1ddcd0731-c68a3db290d6.txt
 
 4a3f77ea77013d8d0178503a8abff33d8c4ba5c5 i2c: i801: Switch to iomapped register access
 d50f2f5d51ea609194439e6e3f470d1a4fad761b i2c: i801: Use MMIO if available
@@ -39,5 +39,6 @@ afe8c345f29f93b55abc97d8aeb69076c387709d i2c: pasemi: Add registers bits and swi
 dd2554f482a8b7bc3e7087473ebae6352b901571 i2c: mlxbf: Use readl_poll_timeout_atomic() for polling
 59c2d5e7333233baa89d95becd498886154dea71 i2c: qcom-geni: Update i2c frequency table to match hardware guidance
 06c2248887d6728cd15b995cbb41b389cdcecd84 i2c: iproc: Refactor prototype and remove redundant error checks
+c68a3db290d6432f5008f062e9dc30e3c5593177 Merge branch 'i2c/i2c-host' into i2c/i2c-host-next
 
---===============0837096118903923705==--
+--===============3025416377480174016==--
