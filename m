@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5590763461139603223=="
+Content-Type: multipart/mixed; boundary="===============4459404810243515307=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 21 Mar 2025 01:35:23 -0000
-Message-Id: <174252092361.3283908.3312300215282604706@gitolite.kernel.org>
+Date: Fri, 21 Mar 2025 01:35:45 -0000
+Message-Id: <174252094574.3284304.14089476311544556902@gitolite.kernel.org>
 
---===============5590763461139603223==
+--===============4459404810243515307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,42 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: e402ee093f748b3614aa549beef71d071617cddd
-    new: 8db816c6f176321e42254badd5c1a8df8bfcfdb4
+  - ref: refs/tags/mkp-scsi-staging
+    old: 838b6da8c8b6c5e880081a83ed748d17b36b1ab4
+    new: 59e26c0178db2fe92b276230baa508347f64b607
     log: |
-         160d6ec69f401037a9a00b9b6569082e4d0649b0 scsi: fnic: Remove redundant flush_workqueue() calls
-         bd067766ee2aeb35589ad74d599b0e6311f68c73 scsi: fnic: Remove unnecessary NUL-terminations
-         750d4fbe2c20e65d764c70afe2c9e6cfa874b044 scsi: hisi_sas: Fixed failure to issue vendor specific commands
-         040492ac2578b66d3ff4dcefb4f56811634de53d scsi: lpfc: Restore clearing of NLP_UNREG_INP in ndlp->nlp_flag
-         1909b643034ef741af9f24a57ab735440c4b5d1a scsi: target: tcm_loop: Fix wrong abort tag
-         a018d1cf990d0c339fe0e29b762ea5dc10567d67 scsi: st: Fix array overflow in st_setup()
-         ad77cebf97bd42c93ab4e3bffd09f2b905c1959a scsi: st: ERASE does not change tape location
-         8db816c6f176321e42254badd5c1a8df8bfcfdb4 scsi: st: Tighten the page format heuristics with MODE SELECT
+         8aa580cd92843b60d4d6331f3b0a9e8409bb70eb scsi: hisi_sas: Enable force phy when SATA disk directly connected
+         daff37f00c7506ca322ccfce95d342022f06ec58 scsi: hisi_sas: Fix I/O errors caused by hardware port ID changes
+         20b97acc4cafa2be8ac91a777de135110e58a90b scsi: ufs: core: Fix a race condition related to device commands
          
 
---===============5590763461139603223==
+--===============4459404810243515307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1742520951 -0400
+pusher 75C5DE3D 1742520957 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1742520921-4a2de9a5a1d3fbd0e2d4fac265ceef5e2c79ec95
+nonce 1742520927-e92c7cde8db5f79207116e85ac400a91e4211fe9
 
-e402ee093f748b3614aa549beef71d071617cddd 8db816c6f176321e42254badd5c1a8df8bfcfdb4 refs/heads/queue
+838b6da8c8b6c5e880081a83ed748d17b36b1ab4 59e26c0178db2fe92b276230baa508347f64b607 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmfcwncACgkQ7ulgGnXF
-3j2Gww//UN6uDYxAqHq53ltUciwu/JL7znBANFwSGeC1wezLf2JBLMFKqhvYQypl
-NJQlPD1oxfZkAFockXijwu5DU7gE5AXjJWHyoKGYjauSDjXfaGsMhjMwHw4fAFAK
-GGmhwM8RtnXorqtcoKtKkQB5xtvhovGbgHEHL15VPTSCPWqTha2XNFuYuzFjEWw4
-DxIhtFzpBr+DdIXcNicxJOnM8p4I8u7/DXcJclp8sTd6svl5QRk4TApnFd1ER8i8
-2ChpitbeKFIt4c/StN8+VYO1e4CTuYpbLY3bd5bOCw/ONaazq6bXFRWyj2s/4xpR
-fGh8KOxqkLraMJnIoc2DSDTUnVNbXKmXgAcaVWXK54BI1Cz3wBRq3GQYIYYVPs3O
-H9ekStdRxY/WCcmGEr5mZv8ulujgdG0phRL4sU4FVK18GfTPbLiHOC5q7vfhN7Bh
-4SOG5DLYovUY5kEGbRlyoU7u3f/rRrquvkmz6nqcJA37ZuzAzku/JfMHIPDhv+CG
-yzLF6v6Q9UA7CFukNIq2jLDI6G2ICvHtyawD98Jj4aGvaSYfzn1XiV4ckQDWT2ap
-rwo5h3RQMDBkNIwuIxP39qLOwudBaW6M1eG1CS9cd41s57gAs5/UnhdXOz5SHjJ3
-wT1hG53o94hx2cD+ya65k25fOcUUM2/tSNETh0BtnvT8JQYZ+iw=
-=WzQi
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmfcwn0ACgkQ7ulgGnXF
+3j0FGg//bkKEuiNU6ryq1+dfGnbFLkptNnT7dkjXkBAmoDhH/Na+9Vjf7a+2QOH+
+4y3nnjNaoOqEVWeXpIv6kW7CBpr7GTV4m71dR5n9Tztjdq6Zc8OPV2z/lzy/a/mZ
+nGHPNXOnSvHfFs8eSBm8+VSRs1WSBTKUZPXhazuZ/ggH/84UmF9ckeBntpQsqvsA
+Xf4rjTkTXn4QoohBreVK4mMUXyCO7l9bD/PnidtHC+5TZwJVxFEZaCL/sPk1wxSb
+O24PlsuaGMm/BW2vT1S9QFMI8H+O25id/OlJXcinlupy5ghUXuBYJrH4bleVRijN
+XQTvuhbkSPZuJbPGjkQih/Zf2zGWlzh5hf6FgwYDERwbjpADIjaXC/RWGQI8VpyV
+YZfNom8mqmSzBi8wSlNOGeamtAvs0MG69/3dtiCAGiiGLVTEymNfkMjG88XBeVy5
+v3zuaT/fL4PiuZhttd5r9E29hSrFwhkMQY2CZoK87UwOKPC+RG+/PkM5NvQP8xgx
+0+J7izJLgSNAOnJTcEG85WfCh7QLPSQPbm3SoyJp+oBm2d2M0NDwh8PsoUvK3B9t
+D5CvGcV2aslHDPd9bRjUqm8b5t5KIEuseIo+is7eFyvpAsGQlISTFfD/t2RhVgqq
+b0lC0HOkmUYS8BR0ky7fBenHraTLA7dcYSj21cZjKFBnRgSawPc=
+=0sEr
 -----END PGP SIGNATURE-----
 
---===============5590763461139603223==--
+--===============4459404810243515307==--
