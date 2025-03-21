@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3827942637426489317=="
+Content-Type: multipart/mixed; boundary="===============2955251896689855804=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 21 Mar 2025 07:20:16 -0000
-Message-Id: <174254161640.3561547.6688278074914249831@gitolite.kernel.org>
+Date: Fri, 21 Mar 2025 07:20:40 -0000
+Message-Id: <174254164088.3562008.18125079519038316647@gitolite.kernel.org>
 
---===============3827942637426489317==
+--===============2955251896689855804==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,49 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 758ea9705c51865858c612f591c6e6950dcafccf
-    new: 9a667219c6204ce256c578ec811f5404fa2b3f43
-    log: revlist-758ea9705c51-9a667219c620.txt
+    old: 9a667219c6204ce256c578ec811f5404fa2b3f43
+    new: efb5901b88b7c7cf8a07603a3368f8e027e8876a
+    log: revlist-9a667219c620-efb5901b88b7.txt
+  - ref: refs/heads/tip/urgent
+    old: 5b6f906e3a9bafe06c2fea9f33fae705838aa875
+    new: 5bc7d7d46bb564f5ec6ee7427ae7ad8cdbcb7c35
+    log: revlist-5b6f906e3a9b-5bc7d7d46bb5.txt
 
---===============3827942637426489317==
+--===============2955251896689855804==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-758ea9705c51-9a667219c620.txt
+Content-Disposition: attachment; filename=revlist-9a667219c620-efb5901b88b7.txt
+
+573a31f7724c1f70afff200fe40fb0398b7f67b9 Merge branch into tip/master: 'perf/urgent'
+5bc7d7d46bb564f5ec6ee7427ae7ad8cdbcb7c35 Merge branch into tip/master: 'sched/urgent'
+ad056d3f0943f440deb386ead1051facb7c23fb9 Merge branch into tip/master: 'timers/merge'
+004b455204c938ce389527ba2dbf31065949e2a3 Merge branch into tip/master: 'irq/core'
+2407c66f37df54c1532164f3e2bd59bcc84041b1 Merge branch into tip/master: 'irq/drivers'
+57d0aafc98f2ef2f97e2d064c4aa73d4307a7f53 Merge branch into tip/master: 'irq/msi'
+f5a59020d40a4aeb676b6d09afd0e7f3456eb342 Merge branch into tip/master: 'locking/core'
+ba6125438f4ec48d30fc2923ba285d063770456e Merge branch into tip/master: 'locking/futex'
+cbec6d0573a5f13aba1a9b78438c65758e9eed50 Merge branch into tip/master: 'objtool/core'
+77d7d047bddae879331ea73b579dd1b04aeb1896 Merge branch into tip/master: 'perf/core'
+e0be78d0803f7abd4883052bab15944d6b4076c2 Merge branch into tip/master: 'ras/core'
+eb37924678fd7f3d1164535db3faa59d7c943446 Merge branch into tip/master: 'sched/core'
+52bd0ad323eba69875bde952020f206cc3c837bc Merge branch into tip/master: 'timers/cleanups'
+7a5e2e505be19c6cef9be2a09987ae689a46828c Merge branch into tip/master: 'timers/core'
+998347cfd6c1802623798d4821a5d9fc11169941 Merge branch into tip/master: 'x86/boot'
+8ebbbc42e164e389a45ed265a7706e9b385a9f5b Merge branch into tip/master: 'x86/bugs'
+0fa9e556b6716263ad53c5f11f559546d61d9eab Merge branch into tip/master: 'x86/build'
+1653d532a0a48b56b19e6350270c3715ac42b44a Merge branch into tip/master: 'x86/cache'
+46a1b887e92c08de15705286638a187ad048ee69 Merge branch into tip/master: 'x86/cleanups'
+2438a2d17bda2f41f268d93c51ba0a9eb2400a41 Merge branch into tip/master: 'x86/core'
+2f65fa8eb8989b5665592aaaaac7ed4ac6820a53 Merge branch into tip/master: 'x86/fpu'
+9fed15aae204229c83444d8968ff7a226cb6ebfc Merge branch into tip/master: 'x86/platform'
+efb5901b88b7c7cf8a07603a3368f8e027e8876a Merge branch into tip/master: 'x86/sev'
+
+--===============2955251896689855804==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5b6f906e3a9b-5bc7d7d46bb5.txt
 
 548b0c5de7619ef53bbde5590700693f2f6d2a56 batman-adv: Ignore own maximum aggregation size during RX
 5eddd76ec2fd1988f0a3450fde9730b10dd22992 xfrm: fix tunnel mode TX datapath in packet offload mode
@@ -131,6 +165,7 @@ d2738724e41c94774785ab9e1111c24fa3bfca63 Merge tag 'drm-misc-fixes-2025-03-20' o
 41e09ef6c26f0bd89f93691ef967fd621a38d759 Merge tag 'amd-drm-fixes-6.14-2025-03-20' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
 a7ea35b61e37149963d975814104302fe8d69862 Merge tag 'v6.14-rc7-smb3-client-fix' of git://git.samba.org/sfrench/cifs-2.6
 b3ee1e4609512dfff642a96b34d7e5dfcdc92d05 Merge tag 'drm-fixes-2025-03-21' of https://gitlab.freedesktop.org/drm/kernel
-9a667219c6204ce256c578ec811f5404fa2b3f43 Merge branch 'linus'
+573a31f7724c1f70afff200fe40fb0398b7f67b9 Merge branch into tip/master: 'perf/urgent'
+5bc7d7d46bb564f5ec6ee7427ae7ad8cdbcb7c35 Merge branch into tip/master: 'sched/urgent'
 
---===============3827942637426489317==--
+--===============2955251896689855804==--
