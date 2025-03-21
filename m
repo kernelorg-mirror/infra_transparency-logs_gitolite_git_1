@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3175888445973865285=="
+Content-Type: multipart/mixed; boundary="===============8798635550004817018=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 21 Mar 2025 21:21:39 -0000
-Message-Id: <174259209931.99857.15226316777493250448@gitolite.kernel.org>
+Date: Fri, 21 Mar 2025 21:21:41 -0000
+Message-Id: <174259210189.100096.8224361299459345484@gitolite.kernel.org>
 
---===============3175888445973865285==
+--===============8798635550004817018==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 6855b9be9cf70d3fd4b4b9a00696eae65335320c
     new: bfc17c1658353f22843c7c13e27c2d31950f1887
     log: revlist-6855b9be9cf7-bfc17c165835.txt
 
---===============3175888445973865285==
+--===============8798635550004817018==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -356,4 +356,4 @@ c3b999cad7ec39a5487b20e8b6e737d2ab0c5393 net/mlx5e: Expose port reset cycle reco
 4b9235a880f13ae3443465192603b298a603b2c5 net: phy: fix genphy_c45_eee_is_active() for disabled EEE
 bfc17c1658353f22843c7c13e27c2d31950f1887 net: phy: realtek: disable PHY-mode EEE
 
---===============3175888445973865285==--
+--===============8798635550004817018==--
