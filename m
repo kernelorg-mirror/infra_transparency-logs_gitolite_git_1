@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Fri, 21 Mar 2025 07:39:02 -0000
-Message-Id: <174254274203.3576486.6405110609114232452@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 21 Mar 2025 07:46:19 -0000
+Message-Id: <174254317933.3583745.11575279656629822081@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xen/tip
-user: jgross
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/linux-next
-    old: 421d62f47b7a61794f04ddd9ec2e4fa2e209da90
-    new: d9f2164238d814d119e8c979a3579d1199e271bb
+  - ref: refs/heads/x86/core
+    old: 3e57612561138d7142721a83743fb8eb2bf09ec5
+    new: 1400c87e6cac47eb243f260352c854474d9a9073
     log: |
-         5ccf1b8ae76ddf348e02a0d1564ff9baf8b6c415 xen/pci: Do not register devices with segments >= 0x10000
-         cae5129fccb15227c1d8f43fceb390a1080f1635 PCI: vmd: Disable MSI remapping bypass under Xen
-         d9f2164238d814d119e8c979a3579d1199e271bb PCI/MSI: Convert pci_msi_ignore_mask to per MSI domain flag
+         1400c87e6cac47eb243f260352c854474d9a9073 zstd: Increase DYNAMIC_BMI2 GCC version cutoff from 4.8 to 11.0 to work around compiler segfault
          
