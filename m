@@ -1,56 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============9100231130640417060=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Fri, 21 Mar 2025 04:54:44 -0000
-Message-Id: <174253288452.3444114.925700938131680747@gitolite.kernel.org>
-
---===============9100231130640417060==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tytso/ext4
+Date: Fri, 21 Mar 2025 05:50:36 -0000
+Message-Id: <174253623674.3488861.4466352829666683939@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tytso/ext4
+user: tytso
 changes:
-  - ref: refs/heads/master
-    old: 91b6e3e5f18ab514e30e320893ae5ef6a39149ff
-    new: 6adf3f062e3109645652a54765a563dc7db45a72
+  - ref: refs/heads/dev
+    old: 854c025fcb32dc92fdf2165db745185359ada111
+    new: d5e206778e96e8667d3bde695ad372c296dc9353
     log: |
-         6adf3f062e3109645652a54765a563dc7db45a72 add rust version of dyad to tools/ directory
+         f87d3af7419307ae26e705a2b2db36140db367a2 ext4: don't over-report free space or inodes in statvfs
+         aac45075f6d79a63ac8dff93b3e1d7053a6ba628 jbd2: add a missing data flush during file and fs synchronization
+         1e93d6f221e7cfe5e069583a2b664e79eb361ba6 ext4: hash: simplify kzalloc(n * 1, ...) to kzalloc(n, ...)
+         5a02a6204ca37e7c22fbb55a789c503f05e8e89a ext4: define ext4_journal_destroy wrapper
+         ce2f26e73783b4a7c46a86e3af5b5c8de0971790 ext4: avoid journaling sb update on error if journal is destroying
+         896b02d0b9e7deb4a4eb365e13dd912b49916519 ext4: Make sb update interval tunable
+         129245cfbd6d79c6d603f357f428010ccc0f0ee7 ext4: correct the error handle in ext4_fallocate()
+         d7b0befd09320e3356a75cb96541c030515e7f5f ext4: on a remount, only log the ro or r/w state when it has changed
+         d5e206778e96e8667d3bde695ad372c296dc9353 ext4: fix OOB read when checking dotdot dir
          
-
---===============9100231130640417060==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1742532829 -0700
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1742532879-9f8773a3c36fbccee50e6f27a04731be4781e7a6
-
-91b6e3e5f18ab514e30e320893ae5ef6a39149ff 6adf3f062e3109645652a54765a563dc7db45a72 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfc8N0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gVcP/1xZFmKHlogFlZS4ohYB
-MncHlPXcX+gWF/a4DviKzTjATXc2oX/ghgg+d8ibvIMQ0q/oZH7ZmKd3jcckpAnx
-WGye+BysVZSBP7yGyNwzE9kACIWxN8bAL/OAIaLQvRCeb1zOMgquWfvFISmpafKT
-b7Gsc3CjEacaslfIP1Wtro9qi2E7jyUbtf/5ROL47y5ULmcq/ZDOJdyJPabwVcUD
-uVv/ZrobUMfr5v2Xi6/gXRdZiPn5qYZlvmrj14VGzIHXdY5vYcGiBuDIomn0M4PJ
-eWYZn/SUneV0R+Y23ykgu9d4oYwGjJEcBW5v4RcpH1Yk1LToyfZBslF8pt6taQi8
-MfEupAh40deKjW0klDS5oL1uD7b4ndmOCrKAQGpvlOlN94l9b/Xb2bMNqXzSoUyr
-StZd/aH6tpoI9XBuD0TRPH9nY1veNrYyqA2FCRJkr9Xx/wPFyR+nrodEAMxqhwpa
-IfjGzBtRYVrMhx+jjzoobd9q0dByeJ+OJdCmL2dnUrNQujLpfAxTi3mBrocmMTHR
-jLoJN8wJRF0ZDlnHp5b+/XzxQEZJIbfDxBSMOB3TxwZ7lKL8N+Ux//vgpuzFWzk/
-WaA0nTfWaCjsLvHRI7mhu/Lix7Ey4QeCJJEzRktV+gE9rNbwHLEI7JNSSEdHMH2H
-bjtHFdw6gB/2k/MgGNHvVaCr
-=RPKc
------END PGP SIGNATURE-----
-
---===============9100231130640417060==--
