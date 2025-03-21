@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0576683905868221579=="
+Content-Type: multipart/mixed; boundary="===============8002987671928972398=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-Date: Fri, 21 Mar 2025 08:43:48 -0000
-Message-Id: <174254662826.3630992.12105145185149090290@gitolite.kernel.org>
+Date: Fri, 21 Mar 2025 08:43:54 -0000
+Message-Id: <174254663456.3631309.9255192136640245168@gitolite.kernel.org>
 
---===============0576683905868221579==
+--===============8002987671928972398==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
 user: herbert
 changes:
-  - ref: refs/heads/acomp
-    old: 7c6582bc434a76e9f6da0c596d19e5bbf796b23c
-    new: ff57644bcee51969b65e6fa1b0b79c63c9808f59
-    log: revlist-7c6582bc434a-ff57644bcee5.txt
+  - ref: refs/heads/acomp2
+    old: 3dceb2e2705023415f02eb905076cac6a4322293
+    new: 77e9e81ae7404260a77269d3077e506d402018ab
+    log: revlist-3dceb2e27050-77e9e81ae740.txt
 
---===============0576683905868221579==
+--===============8002987671928972398==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7c6582bc434a-ff57644bcee5.txt
+Content-Disposition: attachment; filename=revlist-3dceb2e27050-77e9e81ae740.txt
 
 182cad45249090ddd5af6ba5c6f1f0ef748beb06 crypto: arm/ghash-ce - Remove SIMD fallback code path
 9a84f666cc312786bb85def7d7f03b771a16d397 crypto: hash - Fix synchronous ahash chaining fallback
@@ -59,5 +59,14 @@ d959074e71779384569239b7fc1b24eb0c99d9da crypto: cavium/zip - drop obsolete 'com
 9c2746a68b9298d499a1b1d5f94c2a87eea23509 crypto: remove obsolete 'comp' compression API
 c5d9cc7558ee3856c0dc2e3e7618b37a854c7e4a crypto: scompress - Fix incorrect stream freeing
 ff57644bcee51969b65e6fa1b0b79c63c9808f59 crypto: api - Call crypto_alg_put in crypto_unregister_alg
+80d3c2b09b057e323f11a0183ff51dc3b07783bc crypto: api - Move alg destroy work from instance to template
+1c082b836942c680fac667668caf5afb4130baf2 crypto: api - Ensure cra_type->destroy is done in process context
+119fcf0963233556a4e9bd0c7f088d9361ae7b94 crypto: scomp - Allocate per-cpu buffer on first use of each CPU
+6e5321c177a73cbf9cd3eec5a26c673109c8244b crypto: acomp - Move scomp stream allocation code into acomp
+1faf11ddc44dc7a5072793b89645109d65fa376d crypto: acomp - Add acomp_walk
+3db3d2b34e9416ece3cf4eb7f8b7fabb58afabf7 crypto: deflate - Convert to acomp
+5d4362fa21f4a3f62b58c2fd520eed99f8ec027c crypto: cavium - Move cpt and nitrox rules into cavium Makefile
+109f8ee6bc619e282b902765ed53f6db67575c0a crypto: cavium/zip - Remove driver
+77e9e81ae7404260a77269d3077e506d402018ab crypto: scomp - Drop the dst scratch buffer
 
---===============0576683905868221579==--
+--===============8002987671928972398==--
