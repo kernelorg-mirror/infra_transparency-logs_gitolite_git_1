@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Fri, 21 Mar 2025 22:16:06 -0000
-Message-Id: <174259536644.147085.2013417306133223674@gitolite.kernel.org>
+Date: Fri, 21 Mar 2025 22:23:59 -0000
+Message-Id: <174259583983.152430.7755436289797825759@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/arighi/linux
 user: arighi
 changes:
   - ref: refs/heads/scx
-    old: 75500553ac7cbc62fca3deee4b607c788a89b4f1
-    new: c11979bc92d844e9cdb4fa0b02fb3db99b81cb9e
+    old: c11979bc92d844e9cdb4fa0b02fb3db99b81cb9e
+    new: 114a545d0d25df2089e3cd53206c6d5ef52ed163
     log: |
-         c11979bc92d844e9cdb4fa0b02fb3db99b81cb9e sched_ext: prevent starvation of user DSQs
+         114a545d0d25df2089e3cd53206c6d5ef52ed163 sched_ext: prevent starvation of user DSQs
          
