@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Fri, 21 Mar 2025 08:15:40 -0000
-Message-Id: <174254494076.3609029.8364828657035592147@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/sbc
+Date: Fri, 21 Mar 2025 08:16:41 -0000
+Message-Id: <174254500137.3609660.16864583119296401682@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/bluetooth/sbc
+user: holtmann
 changes:
-  - ref: refs/tags/i2c-host-fixes-6.14-rc8
-    old: 0000000000000000000000000000000000000000
-    new: 3f42f5a55dd67fd9f74eceb87129456ddc202663
+  - ref: refs/heads/master
+    old: 504546a266dab2518ec1596aa17aec2e7b16b6aa
+    new: 9b6c775f02b1ea944c8a203452ce23d7854e9187
+    log: |
+         9b6c775f02b1ea944c8a203452ce23d7854e9187 Release 2.1
+         
