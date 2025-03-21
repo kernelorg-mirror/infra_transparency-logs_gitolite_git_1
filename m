@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3606436264956246684=="
+Content-Type: multipart/mixed; boundary="===============8181159030055478028=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 21 Mar 2025 21:10:27 -0000
-Message-Id: <174259142769.88223.10777759007486480440@gitolite.kernel.org>
+Date: Fri, 21 Mar 2025 21:10:30 -0000
+Message-Id: <174259143011.88420.10604476819326866319@gitolite.kernel.org>
 
---===============3606436264956246684==
+--===============8181159030055478028==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: feaee98c6c505494e2188e5c644b881f5c81ee59
     new: 919f9f497dbcee75d487400e8f9815b74a6a37df
     log: revlist-feaee98c6c50-919f9f497dbc.txt
 
---===============3606436264956246684==
+--===============8181159030055478028==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -285,4 +285,4 @@ a4f586a9fc9b295ad1eb5c914ef48ff3c43bb8e5 Merge tag 'efi-fixes-for-v6.14-3' of gi
 f653b608f78363c26dc4ffd6c2465eb743ebdc13 MAINTAINERS: update bridge entry
 919f9f497dbcee75d487400e8f9815b74a6a37df eth: bnxt: fix out-of-range access of vnic_info array
 
---===============3606436264956246684==--
+--===============8181159030055478028==--
