@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Fri, 21 Mar 2025 02:35:29 -0000
-Message-Id: <174252452901.3333945.3190340851530675558@gitolite.kernel.org>
+Date: Fri, 21 Mar 2025 02:36:11 -0000
+Message-Id: <174252457197.3334609.17463933674923710749@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: e402ee093f748b3614aa549beef71d071617cddd
-    new: 8db816c6f176321e42254badd5c1a8df8bfcfdb4
+  - ref: refs/heads/for-next
+    old: de6cfdf2a0e815867c1fba2be26022b77df9aedb
+    new: 6cb447cade58bcb1e811a50a9849864bea7ea027
     log: |
          160d6ec69f401037a9a00b9b6569082e4d0649b0 scsi: fnic: Remove redundant flush_workqueue() calls
          bd067766ee2aeb35589ad74d599b0e6311f68c73 scsi: fnic: Remove unnecessary NUL-terminations
@@ -23,4 +23,5 @@ changes:
          a018d1cf990d0c339fe0e29b762ea5dc10567d67 scsi: st: Fix array overflow in st_setup()
          ad77cebf97bd42c93ab4e3bffd09f2b905c1959a scsi: st: ERASE does not change tape location
          8db816c6f176321e42254badd5c1a8df8bfcfdb4 scsi: st: Tighten the page format heuristics with MODE SELECT
+         6cb447cade58bcb1e811a50a9849864bea7ea027 Merge branch 'misc' into for-next
          
