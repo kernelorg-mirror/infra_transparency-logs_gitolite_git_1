@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1711594775689545755=="
+Content-Type: multipart/mixed; boundary="===============0401852781288219694=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/a.hindborg/linux
-Date: Fri, 21 Mar 2025 13:11:55 -0000
-Message-Id: <174256271516.3862712.17357371596669298562@gitolite.kernel.org>
+Date: Fri, 21 Mar 2025 13:12:04 -0000
+Message-Id: <174256272492.3863017.11824923823531038846@gitolite.kernel.org>
 
---===============1711594775689545755==
+--===============0401852781288219694==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,39 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/a.hindborg/linux
 user: a.hindborg
 changes:
-  - ref: refs/heads/rnvme
-    old: e77302923d1ed88c06e776e873fcb169435c4801
-    new: 1af3c02e8156249f6500269c3a6a300a03408466
-    log: revlist-e77302923d1e-1af3c02e8156.txt
+  - ref: refs/heads/rnull
+    old: e6a299e93af5d7cc237b3e4be2b23a8746ac0360
+    new: c21aabfff55a0b07e828482939b82d43b186771c
+    log: revlist-e6a299e93af5-c21aabfff55a.txt
 
---===============1711594775689545755==
+--===============0401852781288219694==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e77302923d1e-1af3c02e8156.txt
+Content-Disposition: attachment; filename=revlist-e6a299e93af5-c21aabfff55a.txt
 
+679074942c2502a95842a80471d8fb718165ac77 ASoC: arizona/madera: use fsleep() in up/down DAPM event delays.
+1d44a30ae3f9195cb4eb7d81bb9ced2776232094 ASoC: cs35l41: Fallback to using HID for system_name if no SUB is available
+6fd60136d256b3b948333ebdb3835f41a95ab7ef ASoC: SOF: ipc4-topology: Harden loops for looking up ALH copiers
+33b7dc7843dbdc9b90c91d11ba30b107f9138ffd ASoC: SOF: Intel: hda: add softdep pre to snd-hda-codec-hdmi module
+3588b1c0fde2f58d166e3f94a5a58d64b893526c spi: sn-f-ospi: Fix division by zero
+517e8a7835e8cfb398a0aeb0133de50e31cae32b bpf: Fix softlockup in arena_map_free on 64k page kernel
+fb97bc2e47f694f79d6358d981ae0428db8e8088 drm/tests: hdmi: Fix WW_MUTEX_SLOWPATH failures
+bb4f929a8875b4801db95b8cf3b2c527c1e475e0 drm/tests: hdmi: Remove redundant assignments
+6b6bfd63e1626ceedc738b2a06505aa5b46c1481 drm/tests: hdmi: Reorder DRM entities variables assignment
+5d14c08a47460e8eedf0185a28b116420ea7f29d drm/tests: hdmi: Fix recursive locking
+0b06000704f8ae72056ad777a67742b7799d6660 ASoC: tas2781: drop a redundant code
+b029628be267cba3c7684ec684749fe3e4372398 alpha/elf: Fix misc/setarch test of util-linux by removing 32bit support
+7507eb3e7bfac7c3baef8dd377fdf5871eefd42b PCI/ASPM: Fix L1SS saving
+57e4a9bd61c308f607bc3e55e8fa02257b06b552 smb: client: change lease epoch type from unsigned int to __u16
+a9c621a217128eb3fb7522cf763992d9437fd5ba rust: kbuild: add -fzero-init-padding-bits to bindgen_skip_cflags
+b9cb90a5bf9d0e96e4ff353d113b8a483f2e3942 ASoC: rsnd: adjust convert rate in 1%
+199b87f1409b936cc23a8ba2d66a1ce962db7f0f ASoC: SOF: Correct sps->stream and cstream nullity
+7858defd60d1f2d8e9f32bedb00ac754c3bdf69a ASoC: Intel: sof_sdw: Add support for new devices
+6f64b83d9fe9729000a0616830cb1606945465d8 PCI/TPH: Restore TPH Requester Enable correctly
+3cf0a98fea776adb09087e521fe150c295a4b031 Merge tag 'net-6.14-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+0e446e3145011b8fe39759b59bd69d39fb47cfeb rust: kbuild: do not export generated KASAN ODR symbols
+3ace20038e19f23fe73259513f1f08d4bf1a3c83 cpufreq/amd-pstate: Fix cpufreq_policy ref counting
 bb5408801a5f2ecd76b61dcd539a5c466ebaac4c stackinit: Keep selftest union size small on m68k
 78bba6097b9318f4aa645afeade14024af86af4e stackinit: Fix comment for test_small_end
 b3cc5afc4d972ca30dc5d25ed5e1056e62b5efa8 Merge tag 'amd-pstate-v6.14-2025-02-06' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/superm1/linux
@@ -946,109 +968,87 @@ ebb7d37abf675dd67f40efba1f9eb6ad2d2d71c5 Merge tag 'mips-fixes_6.14_2' of git://
 a760b10147d96c642ff152eef85db0c3799c9f74 Merge tag 'phy-fixes-6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 b91872c56940950a6a0852e499d249c3091d4284 Merge tag 'dmaengine-fix-6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
 7eb172143d5508b4da468ed59ee857c6e5e01da6 Linux 6.14-rc5
-249ca1a0d8fc54b1b81543a4b263ab00e707bf10 LIST: [PATCH 1/3] kbuild: rust: move `-Dwarnings` handling to `Makefile.extrawarn`
-989f22a3373d5b496344874bf95a62d811711091 LIST: [PATCH 2/3] kbuild: rust: apply `CONFIG_WERROR` to all Rust targets
-1e2b374c522280c65a112a347cefff066290908f LIST: [PATCH 3/3] kbuild: rust: support `W=e` for Rust
-cb801e8ac910ebe2a0466c6df69f6ee500fb4def LIST: [PATCH v2 1/3] kbuild: rust: add `CONFIG_RUSTC_CLANG_LLVM_COMPATIBLE`
-826293c4552f7ebd997e4ff5a3333dd571a104ce LIST: [PATCH v2 2/3] kbuild: rust: provide an option to inline C helpers into Rust
-fc5fdbb1523c7b79d6f78a846e3952413d111bf4 LIST: [PATCH v2 3/3] rust: alloc: make `ReallocFunc::call` inline
-369e2737fcd06b618db40627bd923ec455b62524 LIST: [PATCH v2 1/2] scripts: generate_rust_analyzer.py: add missing include_dirs
-f12e8fea806f3d529bffbea6653964dafd4f28c9 LIST: [PATCH v2 2/2] scripts: generate_rust_analyzer.py: add uapi crate
-3c9dde6dd81d8c94cacb2760d8bb71cb5fce6c2e LIST: [PATCH v4 1/3] rust: Add `OnceLite` for executing code once
-aefabbf889c236c5a03578293342340004727bb2 LIST: [PATCH v4 2/3] rust: print: Add pr_*_once macros
-651e4d01e2bed22cfeda852f3cf04e2b0e4e5b64 LIST: [PATCH v4 3/3] rust: error: Replace pr_warn by pr_warn_once
-17d1c22a174ea5212e4c7dafb7d0488b55cb9f88 LIST: [PATCH v7 1/6] rust: str: implement `PartialEq` for `BStr`
-ea0699e6dc3d3305a51d0a982074d79396797b10 LIST: [PATCH v7 2/6] rust: str: implement `Index` for `BStr`
-41d97ffb151f208be7f03a0c95329118e6bc0a47 LIST: [PATCH v7 3/6] rust: str: implement `AsRef<BStr>` for `[u8]` and `BStr`
-11049617df6632ba4f3f68fc060e56a5f2820360 LIST: [PATCH v7 4/6] rust: str: implement `strip_prefix` for `BStr`
-01d7f7917efe2b0b0ab75385644c1cf6a33754e1 LIST: [PATCH v7 5/6] rust: str: add radix prefixed integer parsing functions
-d88e15485aa8f2bd162a1c559567b7106e3e995c LIST: [PATCH v7 6/6] rust: add parameter support to the `module!` macro
-d4970c78dcd1c88f7878f1a850dce86b12d2e40a LIST: [PATCH v7 1/14] rust: time: Add Ktime::from_ns()
-9154e2a548be285ea30bea00e1c835be78a69c1f LIST: [PATCH v7 2/14] rust: hrtimer: introduce hrtimer support
-8a5f3596ee2658044d15036ce7aaddce151cf268 LIST: [PATCH v7 3/14] rust: sync: add `Arc::as_ptr`
-a0a8b4ad2a89d71d511c405c0f89ab32f171c7e4 LIST: [PATCH v7 4/14] rust: hrtimer: implement `HrTimerPointer` for `Arc`
-6a6604289fc1303ae8d760364939fecc626cf9d3 LIST: [PATCH v7 5/14] rust: hrtimer: allow timer restart from timer handler
-613b317c4ce5a247b625abbad2c964843038ac22 LIST: [PATCH v7 6/14] rust: hrtimer: add `UnsafeHrTimerPointer`
-83ec3262df61f97abbe51b91bcdf74d9459baae9 LIST: [PATCH v7 7/14] rust: hrtimer: add `hrtimer::ScopedHrTimerPointer`
-0a34eb9cb1fefda81d7e52c1633497ad6a8776b2 LIST: [PATCH v7 8/14] rust: hrtimer: implement `UnsafeHrTimerPointer` for `Pin<&T>`
-66230e2dc4d9c73a6eeb1b0ae95cfc17feaddd60 LIST: [PATCH v7 9/14] rust: hrtimer: implement `UnsafeHrTimerPointer` for `Pin<&mut T>`
-66da9eb307226b351371015e4df6f8f4b4d5ac1c LIST: [PATCH v7 10/14] rust: alloc: add `Box::into_pin`
-a32267b89093a1dac0d2ba8e71b9333bb974a7a5 LIST: [PATCH v7 11/14] rust: hrtimer: implement `HrTimerPointer` for `Pin<Box<T>>`
-47a5ff380370f7f0b2917401ec40d65ed4ed6d68 LIST: [PATCH v7 12/14] rust: hrtimer: add `HrTimerMode`
-238a03ac0e30af6be476f95dfc1226b1d0afb47c LIST: [PATCH v7 13/14] rust: hrtimer: add clocksource selection through `ClockSource`
-43aa152559fd65f3737bba984eb251a653c4277e LIST: [PATCH v7 14/14] rust: hrtimer: add maintainer entry
-e7b8f89f909ade0da2702bef4c4c634033f86668 LIST: [PATCH v17 1/3] rust: types: add `ForeignOwnable::PointedTo`
-e1b36d3cbf1110ea900dce09c23f9377ab4f37fe LIST: [PATCH v17 2/3] rust: xarray: Add an abstraction for XArray
-f441a8b0b3e3f8e61c008123bc653dcf54b6b611 LIST: [PATCH v17 3/3] MAINTAINERS: add entry for Rust XArray API
-65ca48889e0b1c1bcbc447c04c9a0f80171c6a6f LIST: [PATCH v2 1/3] rust: sync: change `<Arc<T> as ForeignOwnable>::PointedTo` to `T`
-fa46c045db49d640ebee26e39289f33770e2f3b3 LIST: [PATCH v2 2/3] rust: configfs: introduce rust support for configfs
-08d520cb49530b5fafa1b493c6d7498cf81b2398 LIST: [PATCH v2 3/3] MAINTAINERS: add entry for configfs Rust abstractions
-ee422a40206e39be7880285b011942bd2553a14f LIST: [PATCH v3 1/4] rust: implement `kernel::sync::Refcount`
-7a3d4c0bc5761d6bebb9846ca563123c8bdc27de LIST: [PATCH v3 2/4] rust: convert `Arc` to use `Refcount`
-d256363c27eac6e5754ca465d2d465442d6218b9 LIST: [PATCH v3 3/4] rust: block: convert `block::mq` to use `Refcount`
-13ab33ecba240dbe1a68dc71cd4c7533884352f0 LIST: [PATCH v3 4/4] MAINTAINERS: update atomic infrastructure entry to include Rust
-143fa7660ab55012ee74613d47f28adc9818fa64 rust: block: remove trait bound from struct
-de8db85f36f792bd5bc84dd686c8099d87d47285 rust: block: add some constants
-007cc2ffbe05c3b381a2ea0eab6404420e93ca17 rust: adding UniqueRefCounted and URef types
-cfe924de5e65a19de4f0d8e9eacca35c9eca6889 rust: allow to override dec_ref() for URef's
-880e494101f3f8dd0522881f794f0f3aac82fc69 rust: block: change `queue_rq` request type to unique
-bde1e5ecbcd3ba4e1443afd7f75021640f2506b6 rust: for fix dec_ref for URef<Request>
-2a23f7496c5efcac5c2a89c8134bc98d4d8c5da3 rust: URef: add TODO
-a74220aad17eb49a27f6589579fdd91ca20d6ff8 rust: block: simplify reference counting scheme
-ba707df36fbe08c185cfb1dfeafd3a9cbd0909fb rust: refactor: rename `RawWriter` to `BufferWriter`
-6b9b0261f98231965bba99a1e6cf71fc782a6580 rust: rnull: move driver to separate directory
-ac6ed7cf3e7f5981b293f992d5803fadb3258dda rust: rnull: enable configuration via `configfs`
-c4c67d4a80a14e61c3db6f359b6984778ed1739a rust: rnull: add module parameter support
-0057426070d9780eeaa08f404ebb9abed8cc0e24 rust: block: add `GenDisk` private data support
-e5ddc98035f3b3230fc13b7630ad36d654e58afd rust: block: mq: fix spelling in a safety comment
-1474e2baaa3342361b951214379a8dad99be98a2 rust: block: add remote completion to `Request`
-cdbd904c1d533c091c76e12fac6ae30a18360224 rnull: add `IRQMode` support
-53a4c64aa2bc7fe0e4dd4912bb8e109e9f14c241 rust: block: add `Request` private data support
-b947c8bd33899cf29d778cfcc6b5bcae155bca92 rust: block: add `data_ref` to `RequestDataWrapper`
-02346dbd01c17fee1b8f2bc4d9c5af7abfb77b00 rust: hrtimer: make `Timer::raw_cancel` public
-51283494a84b18c0fb8f710a5e33735085aa2955 rust: block: allow `hrtimer::Timer` in `RequestData`
-b52ae9cf7914571d65b4603374c456d7d6ffafe3 rust: rnull: add timer completion mode
-f2b740289f14982a0a256d668f1f22f95501b416 LIST: [PATCH 1/6] rust: types: Add Ownable/Owned types
-113dcc9448ab92323210e2d32d66a3cbc041bb9b LIST: [PATCH 2/6] rust: page: Convert to Ownable
-f86db01284a5ecf73e165fd0407c6d6030b7ce3b rust: implement `ForeignOwnable` for `Owned`
-4f6c184ed94a68ded14d18ad28ef4ff77a0e6e54 rust: page: add `from_raw()`
-f4d9ae36c084ecc74bda5d2246ced853b5e7e656 rust: add `BorrowIterator` trait
-3ae31ca5000e5a5fbe9adf4effecd6a85367d283 rust: block: introduce `kernel::block::bio` module
-b2c8dd596486f6beb33219395bfc13f0c4d9fe18 rust: add `CacheAligned` for easy cache line alignment of values
-ac6b5b52bd9f7a25183fbb34e8ae29f4fcf12753 rust: block: add `command` getter to `Request`
-4845a403e63d3c71e6edf2d863511064fbcb7005 rust: page: make `with_pointer_into_page` pub(crate)
-67b5850b9aaaee8d99efca81ae6e984de2f53a27 rust: alloc: add GFP_NOIO flag
-b252e87db609b1c09a22cee44c9189319b41eaa3 rnull: add memory backing
-a7d47a9105703fb71834eea0b851a1d806effb38 rust: add num_possible_cpus
-80ba2416eff52dea4d343ea018e10b36625023e6 block: rnull: add submit queue count config option
-3061bd2d633b4f723016ed022e8e08e513a7479f rust: add `num_online_nodes` function
-ae62a7ba8177260149af85945eb2d8e94c2d25a8 block: rnull: add `use_per_node_hctx` config option
-bc2f899ac299bd421f96659be928e66dfba2b85b rust: block: allow specifying home node when constructing `TagSet`
-7e4b68eab2784c528a1e5892aa4ba8db547052c6 block: rnull: allow specifying the home numa node
-4c3089572695c1791a85c0645b43b5c2764faef6 ci: add config fragments
-16f960b722c6edda49057dd68247b73a823eb036 rust: mq: add gendisk methods
-be618b9d318bab9f9eeb4b06839e38fe018cb8de rust: block: add `TagSet` private data support
-ef6ab11ffdb8b7300048bd258df3d9d92a0a255d rust: block: add `hctx` private data support
-c5785f0e9831daec828deefde2ed88a450cb669a rust: block: add `map_queues` support
-fd18f46568607cb302213e0acfecd8cb654c63aa rust: block: add `end` and `end_err` to `Request`
-93728a398bb002464c1e89dd165e2bce2e1ca029 rnull: add module drop implementation
-601409bd45217c69c635ee5fa7313abd0b1ae9ee LIST: [PATCH v12 1/3] rust: error: Add EOVERFLOW
-1293ad1e5e4046847b7893332b628abc0d2f40b1 LIST: [PATCH v12 2/3] rust: add dma coherent allocator abstraction.
-246b49b5c506e8d68b59f1ffb522e9fdd085d9e5 LIST: [PATCH v12 3/3] MAINTAINERS: add entry for Rust dma mapping helpers device driver API
-162f81ad51a387c2a2913ec5730c1aca81c83c53 rust: device: add dma map functions
-06d932aa56796c18e172f7566c7f81723e633318 rust: dma: add dma pool support
-ac38a1d1bba41dd4301fe1668ab76389555e980d rust: add atomic optional
-58f336bb8b83e57a04a788b662e2abf9f6c89aff rust: update blk-mq for nvme
-714b330c46eaafff8f233614196c8b54716e2637 rust: block: add `TagSet::tag_to_rq`
-b4a11edc852ae5ea8b14809f8c7f73e34c7c4685 rust: mq: make raw_tag_set pub for now
-efa6a48ba2c1f1609638f3769f9472a9a51b34c0 rust: blk-mq: add `Request::try_to_owned_ref`
-217977c25c47037c00edf2434278829c3092d511 rust: add irq abstractions
-f905e88efaaadcfdece62759f96ffa2925c26f8d rust: device: make `as_raw` public
-e47cd8d3e07f335586556d2717104720d18d9ab7 rust: pci: make `as_raw` public
-d7968eea53d91ef1c2aa5dbf14ec97262cff7213 rust: pci: add irq methods
-cab6028be3c975951e01b517c4b8b021c30150bc rust: dma: add data access methods
-1db5efbbda1d3cc16f1ac4808b7ef384aac417e8 rust: wip: Add nvme driver.
-139cd0ad402515f10abe3a43cd2db8fa60d86d21 ci: add ci configuration
-1af3c02e8156249f6500269c3a6a300a03408466 LIST: [PATCH] io_uring/rw: ensure reissue path is correctly handled for IOPOLL
+e1e5aca10cddee43721244ff5649c6bbe9ae7dce LIST: [PATCH 1/3] kbuild: rust: move `-Dwarnings` handling to `Makefile.extrawarn`
+fb458b8f258f07df836da151ab5974719e49b894 LIST: [PATCH 2/3] kbuild: rust: apply `CONFIG_WERROR` to all Rust targets
+5f153fe7f826bbb25c55dc45afd58f0868172bac LIST: [PATCH 3/3] kbuild: rust: support `W=e` for Rust
+53a12676098bb68c57649f7e2f4c3245d97c1ff9 LIST: [PATCH v2 1/3] kbuild: rust: add `CONFIG_RUSTC_CLANG_LLVM_COMPATIBLE`
+1b0d2721b6804d12bd6b47717b32b580f9efbca6 LIST: [PATCH v2 2/3] kbuild: rust: provide an option to inline C helpers into Rust
+2b8c363a547f7072ad3bddca714f04211a85a6af LIST: [PATCH v2 3/3] rust: alloc: make `ReallocFunc::call` inline
+2fe42abd95e6e29dc9bd339df981be1ce4908a24 LIST: [PATCH v2 1/2] scripts: generate_rust_analyzer.py: add missing include_dirs
+6e72bccee76ca02371686f325dd1eaf3c742bdf1 LIST: [PATCH v2 2/2] scripts: generate_rust_analyzer.py: add uapi crate
+ff378b00c47a1e4c1eef1055bf163d59a2166351 LIST: [PATCH v4 1/3] rust: Add `OnceLite` for executing code once
+a0d51cbee84a73ae9fe4ba6e6aeffe6738734b90 LIST: [PATCH v4 2/3] rust: print: Add pr_*_once macros
+3467873004be2b3afd479dd9e6061b9fa11b3540 LIST: [PATCH v4 3/3] rust: error: Replace pr_warn by pr_warn_once
+5d5707b3f83e2b31671399197bf4ff6fed4c8d09 LIST: [PATCH v7 1/6] rust: str: implement `PartialEq` for `BStr`
+246d8b32c745e142d79abcddaa0f5fec4c741341 LIST: [PATCH v7 2/6] rust: str: implement `Index` for `BStr`
+3b9d558e5aedc3b7c8fe38f9ab1277259af6d4c9 LIST: [PATCH v7 3/6] rust: str: implement `AsRef<BStr>` for `[u8]` and `BStr`
+cb3adf42cad1a309899f99e459432e30ae650bc2 LIST: [PATCH v7 4/6] rust: str: implement `strip_prefix` for `BStr`
+3e132e3219d88a58f09b4744eac78fcd8a2ce4cf LIST: [PATCH v7 5/6] rust: str: add radix prefixed integer parsing functions
+2e1cc3f6035a543e866bd1b6a8fcefdd31e8dd9e LIST: [PATCH v7 6/6] rust: add parameter support to the `module!` macro
+d6a91e97ebbd145ba6e45af7757b3928ea330f34 LIST: [PATCH v7 1/14] rust: time: Add Ktime::from_ns()
+3aa883472d47a0e8f330767786f9241e29990989 LIST: [PATCH v7 2/14] rust: hrtimer: introduce hrtimer support
+cd6f81eac2a02aeeecb24133e8dbb00f9fc622d9 LIST: [PATCH v7 3/14] rust: sync: add `Arc::as_ptr`
+6dbc3c39e180a6efaad537031e2a21170d22aeb3 LIST: [PATCH v7 4/14] rust: hrtimer: implement `HrTimerPointer` for `Arc`
+628fd0b2b21dae25e9644928d4c060b35e235976 LIST: [PATCH v7 5/14] rust: hrtimer: allow timer restart from timer handler
+e44d3a072872b704f9197696ad4e38f52c8a3faa LIST: [PATCH v7 6/14] rust: hrtimer: add `UnsafeHrTimerPointer`
+adbb1922ea9d954f5cd9b035b172fda6f28f5b2a LIST: [PATCH v7 7/14] rust: hrtimer: add `hrtimer::ScopedHrTimerPointer`
+331d90e3832595241ff470b23d68aace5752ee8a LIST: [PATCH v7 8/14] rust: hrtimer: implement `UnsafeHrTimerPointer` for `Pin<&T>`
+a0280b04360414217aafeadabbac873a3f3647c2 LIST: [PATCH v7 9/14] rust: hrtimer: implement `UnsafeHrTimerPointer` for `Pin<&mut T>`
+477b91f1fc40f48540c5c88cda3b046ca3444803 LIST: [PATCH v7 10/14] rust: alloc: add `Box::into_pin`
+e9aaaec26c29f0da5f4ed79074a32a727adb954d LIST: [PATCH v7 11/14] rust: hrtimer: implement `HrTimerPointer` for `Pin<Box<T>>`
+3c92d3a69bcb55fe37ed4cdb6b43988cc8d2c7b5 LIST: [PATCH v7 12/14] rust: hrtimer: add `HrTimerMode`
+ccc3d4051d1c0e893762e1b616b484e6c90ac8ec LIST: [PATCH v7 13/14] rust: hrtimer: add clocksource selection through `ClockSource`
+8835f74be218c1dc431a136444ae237cb4dd2ea2 LIST: [PATCH v7 14/14] rust: hrtimer: add maintainer entry
+fa8647eeb1ff0e7a15de66bed4fa79a0ea7ac022 LIST: [PATCH v17 1/3] rust: types: add `ForeignOwnable::PointedTo`
+2ac618e3173f52c99b776de4ee05c5ec29e2bcb7 LIST: [PATCH v17 2/3] rust: xarray: Add an abstraction for XArray
+68cad6e5772c903a780e65cfd011cf7c187bb641 LIST: [PATCH v17 3/3] MAINTAINERS: add entry for Rust XArray API
+b4d9c9f379d211c0b6676d4f130bce8e00bbb54b LIST: [PATCH v2 1/3] rust: sync: change `<Arc<T> as ForeignOwnable>::PointedTo` to `T`
+41ed0b6213c8f322aa49a1e7d1c1c3cda6bf1cd6 LIST: [PATCH v2 2/3] rust: configfs: introduce rust support for configfs
+3799ec28097f421efcce7e367108023ddc0bb09e LIST: [PATCH v2 3/3] MAINTAINERS: add entry for configfs Rust abstractions
+f687829220fa519b06d32b58961d1b2446b8285f LIST: [PATCH v3 1/4] rust: implement `kernel::sync::Refcount`
+316624085bdf581e34a0c4be8faadfa4abbc35a9 LIST: [PATCH v3 2/4] rust: convert `Arc` to use `Refcount`
+4f0eda991465bb148a2771b3de77861d66a750fb LIST: [PATCH v3 3/4] rust: block: convert `block::mq` to use `Refcount`
+94037d4bea53ad431c85ae4e79de3527c9abf311 LIST: [PATCH v3 4/4] MAINTAINERS: update atomic infrastructure entry to include Rust
+0e18356b9add46e46818a9359642c83d67f645ab rust: block: remove trait bound from struct
+befe72f54442dee31abf7640ecee81c07772e050 rust: block: add some constants
+56b6fb3db09177ffeff23715ccc126b4c5f770d4 rust: adding UniqueRefCounted and URef types
+2d6d32bce1f66a6eb86b352a8f6cc1bcb801af86 rust: allow to override dec_ref() for URef's
+04c9d9652dc95624f5a79c617c4dc09825da849f rust: block: change `queue_rq` request type to unique
+0da6f2774ca5497c73b8b67f447bbe5b0c979ac2 rust: for fix dec_ref for URef<Request>
+65cf9ce84220251d929c507e333c591545f9c21d rust: URef: add TODO
+7a57d78e7b9f2fb6fcdd9272d2c5ff786523860a rust: block: simplify reference counting scheme
+68abed274d475526673a8fc6e299478a9d47adb6 rust: refactor: rename `RawWriter` to `BufferWriter`
+53f9c6860c2d8276817a33940602db6944a3af8a rust: rnull: move driver to separate directory
+113c02c4c6801a4bb4c14d62cb01e46ddd5520f7 rust: rnull: enable configuration via `configfs`
+6a02aac7e02ca64a8b58b140954583350f0031a1 rust: rnull: add module parameter support
+b156c18e99c02483d9c4338f0c1f7ba1bff2c0e7 rust: block: add `GenDisk` private data support
+7e56baa8f1c6890c66b6b3522b1b2d7e2c2bebaa rust: block: mq: fix spelling in a safety comment
+7c1d5685f814afea79ad3b7e317bc99aa29c69a1 rust: block: add remote completion to `Request`
+df90b92a8d8b053161a5c9d3a9d7579e1652da9c rnull: add `IRQMode` support
+aa9ee7b1a30d6a3e0b1462159b4548db77f9c484 rust: block: add `Request` private data support
+edc8a6b54ff1801942de10da14ec33978920bcb4 rust: block: add `data_ref` to `RequestDataWrapper`
+ff44ea2a0d1b9ef610d531d20f748d97870fc3bf rust: hrtimer: make `Timer::raw_cancel` public
+ea18defcf695b93ff1f5a97dd141162a56037f33 rust: block: allow `hrtimer::Timer` in `RequestData`
+b7b741111e75c980a986e8803c29909f0b600fab rust: rnull: add timer completion mode
+1afe6a5d0586ceb49c790824d5aba9060a385bc4 LIST: [PATCH 1/6] rust: types: Add Ownable/Owned types
+7f5f7b9901c62fbbfc621114a5c98e680c76e83b LIST: [PATCH 2/6] rust: page: Convert to Ownable
+c1798ef2beb2d511c681cf4143903309787660f4 rust: implement `ForeignOwnable` for `Owned`
+0d836a35be42ce4375ee3ccc49bb7a8b3b8434a8 rust: page: add `from_raw()`
+e208cc08b8184abbb3d0ed968915e6ac8719d8cc rust: add `BorrowIterator` trait
+93282c83b8125edce319efde5dd9d8f421014129 rust: block: introduce `kernel::block::bio` module
+2d52918f9f5ad2d5665c95451802e7004b03de50 rust: add `CacheAligned` for easy cache line alignment of values
+2af4fa4bdf207227c6b068bc42ca544b9e23e3de rust: block: add `command` getter to `Request`
+02be041fbdf283c1705b1ac05a391b09a977e4f4 rust: page: make `with_pointer_into_page` pub(crate)
+96274b7cabf82f879058529ca6f9567ab649933c rust: alloc: add GFP_NOIO flag
+3ec615d64841ca457d0228a7d5a250002f928b89 rnull: add memory backing
+f10ff72b91a2c3dea6ae6d4295d0d09ed0aeea02 rust: add num_possible_cpus
+a2a145ef6fee2ae7309481db315e9a55b2cbcbb0 block: rnull: add submit queue count config option
+c957ab12d01c2969717a27e03657c0bd99c6c8de rust: add `num_online_nodes` function
+e1351711fbdfc0e0a9d20e1cceaf2c4554cc341a block: rnull: add `use_per_node_hctx` config option
+b833dc356128ab232def7bbd509cfe1999b99932 rust: block: allow specifying home node when constructing `TagSet`
+564198ae05ee0a52b5a7818f2499ed670e8de979 block: rnull: allow specifying the home numa node
+15e4a7c0c77bcee6d46e5e0d00313f562ecaafb6 ci: add config fragments
+f044aed72611c0e0ae4c198e09a66d248653c89b LIST: [PATCH] io_uring/rw: ensure reissue path is correctly handled for IOPOLL
+c21aabfff55a0b07e828482939b82d43b186771c ci: add scheduler configs
 
---===============1711594775689545755==--
+--===============0401852781288219694==--
