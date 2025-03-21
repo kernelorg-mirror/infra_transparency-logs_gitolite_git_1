@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Fri, 21 Mar 2025 21:24:57 -0000
-Message-Id: <174259229771.103320.12155407421541034528@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Fri, 21 Mar 2025 21:38:36 -0000
+Message-Id: <174259311626.114300.5553903826684624838@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/dt/next
-    old: 47026c4ffedd2cd664e3f70f63c4149c56355f37
-    new: 065cadf3c8ffac4f20df30744e5f8f70d5f7b552
-    log: |
-         065cadf3c8ffac4f20df30744e5f8f70d5f7b552 media: dt-bindings: mediatek,vcodec-encoder: Drop assigned-clock properties
-         
+  - ref: refs/heads/kernel-6.12.16/nfs-2
+    old: 0000000000000000000000000000000000000000
+    new: ece27d0f8b22f48264e27201e142e15b4a38fd77
