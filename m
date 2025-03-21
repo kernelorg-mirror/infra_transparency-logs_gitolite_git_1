@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Fri, 21 Mar 2025 15:51:44 -0000
-Message-Id: <174257230435.4006288.5959307800936743899@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Fri, 21 Mar 2025 15:54:36 -0000
+Message-Id: <174257247633.4008460.4430068638930897799@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: mjp
+repo: pub/scm/devel/pahole/pahole
+user: almagui
 changes:
-  - ref: refs/heads/for-next
-    old: 340bec0b725cff894ae5eb7ac98b79e22c9760f6
-    new: a514e68b7e61ab5e34cc2bde5bdacf9c7714718f
+  - ref: refs/heads/next
+    old: a0be596ae76c720d21eef257dec1cf2462130da1
+    new: cfdce160433adad4d80f47fc6e880614697b9b79
     log: |
-         aac584d35060083bd566a41f48c1b7df2a5270a3 remoteproc: imx_dsp_rproc: Document run_stall struct member
-         d2909538bff0189d4d038f4e903c70be5f5c2bfc remoteproc: qcom: pas: add minidump_id to SC7280 WPSS
-         5208cc34bb720649cebbf6e7e4e77feda0880cf0 irqdomain: remoteproc: Switch to of_fwnode_handle()
-         a514e68b7e61ab5e34cc2bde5bdacf9c7714718f Merge branch 'rproc-next' into for-next
+         cfdce160433adad4d80f47fc6e880614697b9b79 btf_encoder: Filter out __gendwarfksyms_ptr_
          
