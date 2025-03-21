@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 21 Mar 2025 16:15:04 -0000
-Message-Id: <174257370406.4027800.6801699014419282641@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Fri, 21 Mar 2025 16:20:42 -0000
+Message-Id: <174257404232.4033171.2827278828435993839@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/main
-    old: 6f13bec53a48c7120dc6dc358cacea13251a471f
-    new: 3fed9fda150d393d3f3f91a5631dab1e0c15d582
+  - ref: refs/heads/riscv-cache-for-next
+    old: 2014c95afecee3e76ca4a56956a936e23283f05b
+    new: 4a9d4db6ba17f01ac6360fdbde290b5f86f8f29a
     log: |
-         3fed9fda150d393d3f3f91a5631dab1e0c15d582 net: remove sb1000 cable modem driver
+         a506a819af373f839d0f0ff50aace25b2e3a21a5 dt-bindings: cache: sifive,ccache0: Add ESWIN EIC7700 SoC compatibility
+         4a9d4db6ba17f01ac6360fdbde290b5f86f8f29a cache: sifive_ccache: Add ESWIN EIC7700 support
          
