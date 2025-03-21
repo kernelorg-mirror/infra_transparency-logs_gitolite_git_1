@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 21 Mar 2025 17:07:44 -0000
-Message-Id: <174257686478.4074293.4362582850816512320@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Fri, 21 Mar 2025 17:11:46 -0000
+Message-Id: <174257710638.4078307.13240122130625172805@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/main
-    old: 3fed9fda150d393d3f3f91a5631dab1e0c15d582
-    new: d9917c7d533c86ffcf4151ac127982706f080485
+  - ref: refs/heads/pending
+    old: 5bc3e6ca41aa7982442c7c2002d339f1a3343eae
+    new: 56133b9a40bcaf765f8183cd33423e5091be9bef
     log: |
-         62e36b2441354000ef87bdcc6515986b46a40fc8 net: phy: realtek: remove call to devm_hwmon_sanitize_name
-         91ee219624307154675bf067aef83693390f91f2 net: phy: tja11xx: remove call to devm_hwmon_sanitize_name
-         0426bd18af928b729e89e35a5f8c5b613da03dbf net: phy: mxl-gpy: remove call to devm_hwmon_sanitize_name
-         345be5cd6e1daeec2c8b868efa284fc8f171d230 net: phy: marvell-88q2xxx: remove call to devm_hwmon_sanitize_name
-         d9917c7d533c86ffcf4151ac127982706f080485 Merge branch 'net-phy-remove-calls-to-devm_hwmon_sanitize_name'
+         56133b9a40bcaf765f8183cd33423e5091be9bef wifi: ath12k: don't put ieee80211_chanctx_conf struct in ath12k_link_vif
          
