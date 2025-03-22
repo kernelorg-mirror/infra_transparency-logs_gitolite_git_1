@@ -1,24 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Sat, 22 Mar 2025 12:12:14 -0000
-Message-Id: <174264553416.838860.5839598539161754342@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chao/f2fs-tools
+Date: Sat, 22 Mar 2025 12:30:35 -0000
+Message-Id: <174264663563.854353.17189730604876923857@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/linux/kernel/git/chao/f2fs-tools
+user: chao
 changes:
-  - ref: refs/heads/i2c/i2c-host-next
-    old: 256f995f53e7ef4c8801c486dbb8010319b152ff
-    new: d36c5054e99d44314b89d10497e0391f24062297
+  - ref: refs/heads/wip
+    old: 79acfef71f30f70ae7c6b0c91bf2ac2cdebde8c4
+    new: 2f045a522fd8756756bce3fdf9842ff449b4d1b2
     log: |
-         088b1ca970ba6cac141f684b7592ce56bd25e7ea i2c: k1: Initialize variable before use
-         8b4da3ef92060c281aa3c541ed7aab51500cf7c8 i2c: pasemi: Add registers bits and switch to BIT()
-         f8d311b4b8f34f3dd1e5b488547d7eb31bcc7083 i2c: mlxbf: Use readl_poll_timeout_atomic() for polling
-         a815975cbaeb4ab29f45312ef23be2871b2e8b82 i2c: qcom-geni: Update i2c frequency table to match hardware guidance
-         39f8d63804505222dccf265797c2d03de7f2d5b3 i2c: iproc: Refactor prototype and remove redundant error checks
-         d36c5054e99d44314b89d10497e0391f24062297 Merge branch 'i2c/i2c-host' into i2c/i2c-host-next
+         5d202fd101d19d83eda1405931c489aabb0379b0 f2fs_io: fix wrong ioctl
+         eba08414c585f90760c4312f57dea78ea45cb5cb f2fs-tools: disable nat_bits by default in Android
+         b25784559777eb27dbf5a11ef3acf6af961cf422 f2fs-tools: fix to set c.auto_fix only for fsck
+         33c5b9539af24468b4eb9493f7a9eb2ab7e98b64 f2fs_io: add fragread command to evaluate fragmented buffer for reads
+         2f045a522fd8756756bce3fdf9842ff449b4d1b2 mkfs.f2fs: fix to calculate total segments correctly
          
