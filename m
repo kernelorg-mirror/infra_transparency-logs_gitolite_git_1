@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 22 Mar 2025 09:38:02 -0000
-Message-Id: <174263628296.712658.10035545542345859790@gitolite.kernel.org>
+Date: Sat, 22 Mar 2025 10:19:31 -0000
+Message-Id: <174263877172.744855.3703846355943399336@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/tags/perf-core-2025-03-22
+  - ref: refs/tags/sched-core-2025-03-22
     old: 0000000000000000000000000000000000000000
-    new: d1d68fecb01e354a7f13d97b9190deb5de53e51b
+    new: 68d25f68c3e9adeaa23b4249ae76711e8463884d
