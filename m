@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Sat, 22 Mar 2025 14:16:26 -0000
-Message-Id: <174265298688.942574.14631348419939780635@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
+Date: Sat, 22 Mar 2025 14:28:39 -0000
+Message-Id: <174265371955.951585.10562853156704557659@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/fs/xfs/xfstests-dev
+user: zlang
 changes:
-  - ref: refs/heads/bugfix/common
-    old: 9d2e73ef8f6f8f3edd41169ba1049f0ee5763aba
-    new: 0750be81ee5a9d2fb0c3851eb7775ec06daa35f1
-    log: |
-         2dce01e0172ca7161ca9d3ad1c0c763ed3e9c8c0 f2fs: fix to avoid invalid wait context issue
-         0750be81ee5a9d2fb0c3851eb7775ec06daa35f1 f2fs: doc: disk layout
-         
+  - ref: refs/heads/patches-in-queue
+    old: 99618aaccbeaf80fb99fc076daeaba574fac7a3b
+    new: 0000000000000000000000000000000000000000
