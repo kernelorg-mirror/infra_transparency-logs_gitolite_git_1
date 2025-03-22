@@ -1,99 +1,120 @@
-Content-Type: multipart/mixed; boundary="===============3546929965350413681=="
+Content-Type: multipart/mixed; boundary="===============4325429472148157215=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sat, 22 Mar 2025 19:38:38 -0000
-Message-Id: <174267231833.1206952.7289585471851309732@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Sat, 22 Mar 2025 19:47:55 -0000
+Message-Id: <174267287592.1214885.14417930867526627609@gitolite.kernel.org>
 
---===============3546929965350413681==
+--===============4325429472148157215==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
-    old: 20a351c36afc7d72956b57bdefbc79858f18923d
-    new: 3b23d31e569ca19b7bf1059760b879f61cd71ded
-    log: revlist-20a351c36afc-3b23d31e569c.txt
+  - ref: refs/heads/master
+    old: 5fc31936081919a8572a3d644f3fbb258038f337
+    new: 88d324e69ea9f3ae1c1905ea75d717c08bdb8e15
+    log: revlist-5fc319360819-88d324e69ea9.txt
 
---===============3546929965350413681==
+--===============4325429472148157215==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1742672267 -0700
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1742672317-a8f099703d147bcbf178c5e9efc9dd8e01289c77
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1742672825 -0700
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1742672874-1f45b14864378efae172b612e61faa912f3f3706
 
-20a351c36afc7d72956b57bdefbc79858f18923d 3b23d31e569ca19b7bf1059760b879f61cd71ded refs/heads/staging-next
+5fc31936081919a8572a3d644f3fbb258038f337 88d324e69ea9f3ae1c1905ea75d717c08bdb8e15 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmffEYsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+97EP/1liXYMLfiPnDzYlKn0u
-Quosamm3Melqp4ZKa2PPjcg/oTVoMUMkx8mRmMhunKsnXxOBankeAcyJ23sGp73P
-G9+xxifh6AHKI3QRIXeSHCxhUnP8DQatXFz4SIhmbA50LZcVkpfnk0Pc1MZnc9Xv
-05sP819gGtcgQ6kcWLz5qwLhp3Liwd15cf5Q16le2RagOOXfC1Hpg8dG0YjPRuxA
-jrXn1tYilPsxbujPBJKVxhQuZ+kp3ZUBB18P9RKCi6Wg7NdknRhibaXC00+0SPOC
-a/TyThOHM+2Z4VtmfzooTj564N9PGnjAUMkCUN4qovdaAcWCp5jbKx6cl+R1khEO
-t+pDQ0ArdS3KX21x90/dl3BTZq+eywRVJr+h5JWR0ynmtMM+dq+ta6r14xW8cklT
-B6WKC6XBWRTv4Om9Y/u0WzoIoYEqeuI3rVcFEdDWm4kABRA1qs79weCc8zHr0nsr
-Wd8ztvOwkJjwvx4/jHvqll1WSoVIp8+mkGKKrItR7CWDRVOopIFD3/rciPAjIlkx
-/czsnC84w/dRg3jCjS8tRbTVpNfLAG0oINH4QnA/F9ZhARWovmCWUtnzkq28iHY6
-0nrPxAVgocopYd+GXl22c4Fhp8HF4pviv06fxyH117AOMWAvK1TwT4BeDTHtYNVS
-hx02KmDwvipcH7sYD+/91bmD
-=dQNo
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmffE7kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HoYQAJP/TGWVvHM8MrsY827r
+TSdyDmKVSc+Oa21ceHaqLCHv2pGwkmM89X0AdDxE2OuNkG9JU3Gqe43xa+Mfn4lA
+z+TaU3lo364X3aZIxk5aJBA+eWtpHmIXbKXcNqg3qUlr6/DZ32CMmNcAAylRpgZU
+Vk/fOlqo0iPUM4Lr5Wn8xeBK2ATwvsl0SIUlRGkgjPTEBfCCtuPnD4YpKPK04a37
+k/FXJx0kqaMs8zGAsRrkBZrbP2pUXcsS5theyg1Su1mAS/iAzp7L1+hmo61n+7B7
+1hKWsuMAS2mr3h+1TwRglq8JvrF0MM6m5uiuiEq1o+UHWaqkivXaoUCvqzkxvrgm
+GvFVgWWUiit+kjIDwHLThFCbkXwuO9ES2eXGd8GjSii8+NOhjRq3uK4fqNPhwlJL
+o1mHgylnlNE6QSlhtgDNtDPZymKy5LlL+xyGJJfbB1UOjm7wRTv5V2fSG9BMBbe7
+Tk954Ny61CNXYhSHnOrSJ8J2PCSg1LylZhCopHc3cBDhwbz2Tbpm5CFb2A61ud07
+3u4DguN12tvOH3go9egroNnqt/T9iHAKWcgHGKs4JKt9lebVCN5mI1Ngncoiuuvc
+51yXO5WJVz/rsRHSnyfEEPrUPqsyZ6uvf3r9mSXaDeMcMcpqudc53BxhGYFsvvO/
+XAz+3QTjtxuyqfP/w+/1qJbD
+=jct/
 -----END PGP SIGNATURE-----
 
---===============3546929965350413681==
+--===============4325429472148157215==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-20a351c36afc-3b23d31e569c.txt
+Content-Disposition: attachment; filename=revlist-5fc319360819-88d324e69ea9.txt
 
-a239c6e91b665f1837cf57b97fe638ef1baf2e78 staging: gpib: Fix Oops after disconnect in ni_usb
-8491e73a5223acb0a4b4d78c3f8b96aa9c5e774d staging: gpib: Fix Oops after disconnect in agilent usb
-82184cc11723f1a0c45d0829faed7723678ba0f4 staging: gpib: Correct CamelCase for BUS constants
-a8e233d0747fa0838a77280f79b8a744da96e56a staging: gpib: Correct CamelCase for VALID enums
-8982069fa8e2fb5759515134a2caed60cc5ba0f4 staging: gpib: struct typing for gpib_board
-53b86985c18265443296f002607035605e7353a5 staging: gpib: agilent_82350b: struct gpib_board
-7daafcc9a0c4f8a10d3ae07252f8e8997e019f9e staging: gpib: agilent_82357a: struct gpib_board
-990f25c6bc999905c0651f51ce70af74b7f50037 staging: gpib: cb7210: struct gpib_board
-f973adec9a5965ba5731646eea2c065f775748c6 staging: gpib: cec_gpib: struct gpib_board
-840459da1574dbfedd83eaf00995b3cfd8074679 staging: gpib: common: struct gpib_board
-1cadd195a22f5af6c4d70cec99e9fdbd99c4a2a3 staging: gpib: eastwood: struct gpib_board
-0ca4205bffa2434073f8c1432d40ac82f3d9055f staging: gpib: fmh_gpib: struct gpib_board
-d2167c03896fa333a5b43a02e01a7e292315d473 staging: gpib: gpio: struct gpib_board
-1691b2e3f20a9708991a6ec91137eb2a4a94ae38 staging: gpib: hp2335: struct gpib_board
-b35e450b8a2fc9a7cb411523a33787aca49d70b9 staging: gpib: hp_82341: struct gpib_board
-517c64917ea6002bc2d497589fe74a815e56410f staging: gpib: ines: struct gpib_board
-344a50b0f4eecc160c61d780f53d2f75586016ce staging: gpib: lpvo_usb_gpib: struct gpib_board
-4a55f2e13401515b43ee9816ca36c3ca4d06509e staging: gpib: nec7210 struct gpib_board
-f3ac015f4cee819a81f38e6fae6fb161e7010696 staging: gpib: ni_usb_gpib: struct gpib_board
-1d61a41b3bdb38682e2574b89492a816d71fbe30 staging: gpib: pc2: struct gpib_board
-e473ee288fb6fbc67963f7c92554947e14515a20 staging: gpib: tms9914: struct gpib_board
-fc2c620c3924f26919c7dc1fc46e63c43a7ab98f staging: gpib: tnt4882: struct gpib_board
-50af7beb90b355f6aa6914ff3f66ee6b848c0990 staging: gpib: struct typing for gpib_gboard_t
-4a2b4d93e8b3bf986ccdaa128354dddc3b8da7e0 staging: gpib: Removing typedef for gpib_board
-4f991a6430f7634d7e5c6cfa089160c6337f3bc2 staging: gpib: fix kernel-doc section for write_loop() function
-4ec9b9b584c9b3e3515d4174aa815589e70e65aa staging: gpib: fix kernel-doc section for function usb_gpib_interface_clear()
-f17cd486391cc24dcc3d4d63699721c6a7937b84 staging: gpib: fix kernel-doc section for usb_gpib_line_status() function
-97d83d292ba10313aec366141d24c24eeaa3cb7a staging: gpib: remove commented-out lines
-ed3751860e6ca5f4f3bb8db3006e607460b047cd staging: gpib: change return type of t1_delay function to report errors
-3691b585b909d4382f2c96da6900d19b613e9521 staging: rtl8723bs: Remove some unused functions, macros, and structs
-b2a9a6a26b7e954297e51822e396572026480bad staging: rtl8723bs: select CONFIG_CRYPTO_LIB_AES
-96622d58f50b8f364bb11d48f2d41e3348020b9e staging: vchiq_arm: Don't use %pK through printk
-63f4dbb196db60a8536ba3d1b835d597a83f6cbb staging: vchiq_arm: Register debugfs after cdev
-3db89bc6d973e2bcaa852f6409c98c228f39a926 staging: vchiq_arm: Fix possible NPR of keep-alive thread
-cfb320d990919836b49bd090c6c232c6c4d90b41 staging: vchiq_arm: Stop kthreads if vchiq cdev register fails
-86bc8821700665ad3962f3ef0d93667f59cf7031 staging: vchiq_arm: Create keep-alive thread during probe
-3e5def4249b9ad089aa0b46b84e6f5f8f70e2d85 staging: vchiq_arm: Improve initial VCHIQ connect
-3b23d31e569ca19b7bf1059760b879f61cd71ded staging: rtl8723bs: fixed a unnecessary parentheses coding style issue
+1c81a8c78ae653f3a21cde0f37a91f1b22b7d2fb regulator: core: Fix deadlock in create_regulator()
+8619909b38eeebd3e60910158d7d68441fc954e9 regulator: dummy: force synchronous probing
+8324993f60305e50f27b98358b01b9837e10d159 dma-mapping: fix missing clear bdr in check_ram_in_range_map()
+a952f1ab696873be124e31ce5ef964d36bce817f drm/sched: Fix fence reference count leak
+2c7a50bec4958f1d1c84d19cde518d0e96a676fd regulator: check that dummy regulator has been probed before using it
+80cbee810e4e13cdbd3ae9654e9ecddf17f3e828 drm/v3d: Don't run jobs that have errors flagged in its fence
+c3e4a25602f8b941b154f52a4da13ae77b4664c4 drm/v3d: Set job pointer to NULL when the job's fence has an error
+d8dfda5af0be6e48178b6f4b46c6af30b06335b2 KVM: s390: pv: fix race when making a page secure
+84a833d90635e4b846333e2df0ae72f9cbecac39 accel/qaic: Fix possible data corruption in BOs > 2G
+67d15c7aa0864dfd82325c7e7e7d8548b5224c7b accel/qaic: Fix integer overflow in qaic_validate_req()
+76f970ce51c80f625eb6ddbb24e9cb51b977b598 Revert "sched/core: Reduce cost of sched_move_task when config autogroup"
+1742e7e978babb0f548f85c4c6bcfebe13b88722 regulator: rtq2208: Fix incorrect buck converter phase mapping
+b65439d9015024c37c6b8a17c0569ec44675a979 regulator: rtq2208: Fix the LDO DVS capability
+7643dbd9db09fffebb4a62cd27599f17f4148b17 smb: client: don't retry IO on failed negprotos with soft mounts
+65a99264f5e5a2bcc8c905f7b2d633e8991672ac perf/x86: Check data address for IBS software filter
+c746ff4a67f4842e90fe232d2c9fc983f4034848 pinctrl: spacemit: PINCTRL_SPACEMIT_K1 should not default to y unconditionally
+dd8689b52a24807c2d5ce0a17cb26dc87f75235c drm/radeon: fix uninitialized size issue in radeon_vce_cs_parse()
+f0105e173103c9d30a2bb959f7399437d536c848 drm/amdgpu: Fix MPEG2, MPEG4 and VC1 video caps max size
+ec33964d9d88488fa954a03d476a8b811efc6e85 drm/amdgpu: Fix JPEG video caps max size for navi1x and raven
+7fc0765208502e53297ce72c49ca43729f9d6ff3 drm/amdgpu: Remove JPEG from vega and carrizo video caps
+19b53f96856b5316ee1fd6ca485af0889e001677 drm/amd/pm: add unique_id for gfx12
+5ca0040ecfe8ba0dee9df1f559e8d7587f12bf89 drm/amdgpu/pm: wire up hwmon fan speed for smu 14.0.2
+424648c3838133f93a34fdfe4f9d5597551e7b3b drm/amdkfd: Fix instruction hazard in gfx12 trap handler
+86730b5261d4d8dae3f5b97709d40d694ecf1ddf drm/amdgpu/gfx12: correct cleanup of 'me' field with gfx_v12_0_me_fini()
+35b6162bb790555ad56b7f0d120e307b8334d778 drm/amdgpu: Restore uncached behaviour on GFX12
+542c3bb836733a1325874310d54d25b4907ed10e drm/amdkfd: Fix user queue validation on Gfx7/8
+35f0f9f421390f66cb062f4d79f4924af5f55b04 drm/amd/display: Fix message for support_edp0_on_dp1
+acbf16a6ae775b4db86f537448cc466288aa307e drm/amd/display: Use HW lock mgr for PSR1 when only one eDP
+d60073294cc3b46b73d6de247e0e5ae8684a6241 drm/amd/display: Fix incorrect fw_state address in dmub_srv
+d9d4cb224e4140f51847642aa5a4a5c3eb998af0 drm/amdgpu/pm: Handle SCLK offset correctly in overdrive for smu 14.0.2
+0307d16f3610eb29ad0b7529846de7d62fed60ca afs: Fix afs_atcell_get_link() to check if ws_cell is unset first
+d9ecc77193cad25402ff5517fb26fb22b4db0e10 fuse: fix uring race condition for null dereference of fc
+f298e37655288272fad3766b82db0c3c03facbf9 netfs: Fix collection of results during pause when collection offloaded
+344b7ef248f420ed4ba3a3539cb0a0fc18df9a6c netfs: Call `invalidate_cache` only if implemented
+15e9aaf9fc494d1a7280bf1184b4b5830c095209 netfs: Fix rolling_buffer_load_from_ra() to not clear mark bits
+07c574eb53d4cc9aa7b985bc8bfcb302e5dc4694 netfs: Fix netfs_unbuffered_read() to return ssize_t rather than int
+613218fc74b32095152275fc11d5ab8e3f05d5e8 Merge patch series "netfs: Miscellaneous fixes"
+176fda56d72a267731f82aa4a3aeca430394f10e spi: Fix reference count leak in slave_show()
+d55011469b41d9da6c06cb1c4a4da7a87fe155bc fuse: fix possible deadlock if rings are never initialized
+abab683b972cb99378e0a1426c8f9db835fa43b4 Merge tag 'kvm-s390-master-6.14-1' of https://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into HEAD
+cb83f4b965a66d85e9a03621ef3b22c044f4a033 gpu: host1x: Do not assume that a NULL domain means no DMA IOMMU
+f70681e9e6066ab7b102e6b46a336a8ed67812ae libfs: Fix duplicate directory entry in offset_dir_lookup
+50af7cab7520e46680cf4633bba6801443b75856 drm/xe: Fix exporting xe buffers multiple times
+cc34d8330e036b6bffa88db9ea537bae6b03948f io_uring/net: don't clear REQ_F_NEED_CLEANUP unconditionally
+f45f8f0ed4c6d3a9be27ff27347408e1c1bbb364 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+7e512f5ad24458e2c930b5be5d96ddf9e176e05d perf/x86/rapl: Fix error handling in init_rapl_pmus()
+b5329d5a35582abbef57562f9fb6cb26a643f252 Merge tag 'vfs-6.14-final.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+a1cffe8cc8aef85f1b07c4464f0998b9785b795a Merge tag 'dma-mapping-6.14-2025-03-21' of git://git.kernel.org/pub/scm/linux/kernel/git/mszyprowski/linux
+d2738724e41c94774785ab9e1111c24fa3bfca63 Merge tag 'drm-misc-fixes-2025-03-20' of ssh://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
+5854df5017a570298dc272d7274c92ce4c12804f Merge tag 'drm-xe-fixes-2025-03-20' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
+41e09ef6c26f0bd89f93691ef967fd621a38d759 Merge tag 'amd-drm-fixes-6.14-2025-03-20' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
+a7ea35b61e37149963d975814104302fe8d69862 Merge tag 'v6.14-rc7-smb3-client-fix' of git://git.samba.org/sfrench/cifs-2.6
+b3ee1e4609512dfff642a96b34d7e5dfcdc92d05 Merge tag 'drm-fixes-2025-03-21' of https://gitlab.freedesktop.org/drm/kernel
+cb90c8df91d08aebb62ef77bd1c7f41a31bdc924 Merge tag 'sched-urgent-2025-03-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+5c7474b5449ccda2f0139e87425845baa2dae15a Merge tag 'perf-urgent-2025-03-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+d07de43e3f05576fd275c8c82e413d91932119a5 Merge tag 'io_uring-6.14-20250321' of git://git.kernel.dk/linux
+3e49db00df1f8959a6323bc0b21f44653677b302 Merge tag 'pinctrl-v6.14-4' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
+21d1ccf0e97d533d5dee470f5adce45358a0f996 Merge tag 'regulator-fix-v6.14-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
+88d324e69ea9f3ae1c1905ea75d717c08bdb8e15 Merge tag 'spi-fix-v6.14-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 
---===============3546929965350413681==--
+--===============4325429472148157215==--
