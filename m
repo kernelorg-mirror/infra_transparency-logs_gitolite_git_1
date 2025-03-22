@@ -1,29 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Sat, 22 Mar 2025 00:01:24 -0000
-Message-Id: <174260168447.233054.7964187316108121090@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Sat, 22 Mar 2025 00:07:40 -0000
+Message-Id: <174260206068.237834.2386234833744030484@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/hmm
-    old: 1fdf14532cf2503eaf437ea9a1521d634b96826a
-    new: 403257070602fcd1512af6f24cecdb23da8a914a
+  - ref: refs/heads/hwmon-next
+    old: 73d51cb9396b10f98851c64adb625d0074e24120
+    new: 2115cbeec8a3ccc69e3b7ecdf97b4472b0829cfc
     log: |
-         4d09dd11d7d0e7e7f535c0abc7de19b9da6612e9 pds_fwctl: initial driver framework
-         92c66ee829b99a860a90f62ef16df3e42f92edac pds_fwctl: add rpc and query support
-         403257070602fcd1512af6f24cecdb23da8a914a pds_fwctl: add Documentation entries
-         
-  - ref: refs/tags/for-linus-fwctl
-    old: 973cc61b4a4a3024081804d442e6694c314d2c42
-    new: ee81e8abf7c5535af618b651d317bba84724091c
-    log: |
-         4d09dd11d7d0e7e7f535c0abc7de19b9da6612e9 pds_fwctl: initial driver framework
-         92c66ee829b99a860a90f62ef16df3e42f92edac pds_fwctl: add rpc and query support
-         403257070602fcd1512af6f24cecdb23da8a914a pds_fwctl: add Documentation entries
+         a25633a00906a59f6e4323f1b5668771c520c7db dt-bindings: hwmon: Add Microchip emc2305 support
+         882bd6de1a5b4488dc0747d74420af34d419fd99 hwmon: emc2305: Add OF support
+         2115cbeec8a3ccc69e3b7ecdf97b4472b0829cfc hwmon: emc2305: Use devm_thermal_of_cooling_device_register
          
