@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sat, 22 Mar 2025 20:12:07 -0000
-Message-Id: <174267432772.1385601.6385281964292072410@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sat, 22 Mar 2025 20:48:31 -0000
+Message-Id: <174267651188.1414088.6049864728040069632@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/next
-    old: b2d07155693091f2a5225ea5f3201d877d231115
-    new: a2fbcecc7027944a2ce447d4dd72725c5822321f
+  - ref: refs/heads/x86/kconfig
+    old: 0480bc7e65dc9e7c69dd94ff463d9d7411443d3d
+    new: 03ad363e8f8a97372ae8ac1e7577b9c7a3e6db21
     log: |
-         a2fbcecc7027944a2ce447d4dd72725c5822321f MAINTAINERS: TPM DEVICE DRIVER: add missing includes
+         53d38a4de73076f355666380e3a3b4879f6c1268 x86/Kconfig: Correct X86_X2APIC help text
+         03ad363e8f8a97372ae8ac1e7577b9c7a3e6db21 x86/Kconfig: Fix lists in X86_EXTENDED_PLATFORM help text
          
