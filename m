@@ -1,61 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============7157197709190111825=="
+Content-Type: multipart/mixed; boundary="===============6158867588542654070=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Sat, 22 Mar 2025 17:49:34 -0000
-Message-Id: <174266577430.1117909.12251640251405066578@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/ext2/e2fsprogs
+Date: Sat, 22 Mar 2025 19:12:21 -0000
+Message-Id: <174267074144.1183348.2218734030651598002@gitolite.kernel.org>
 
---===============7157197709190111825==
+--===============6158867588542654070==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/fs/ext2/e2fsprogs
+user: tytso
 changes:
-  - ref: refs/heads/for-6.15/block
-    old: 3c9f0c9326b625bf008962d58996f89a3bba1e12
-    new: 4c3f4bad7a6e9022489a9f8392f7147ed3ce74b1
-    log: |
-         04dcb8a909b5b68464ec5ccb123e9614f3ac333d loop: simplify do_req_filebacked()
-         832c9fec8e2314170c5451023565b94f05477aa7 loop: cleanup lo_rw_aio()
-         a23d34a31758000b2b158288226bf24f96d8864d loop: move command blkcg/memcg initialization into loop_queue_work
-         dfc77a934a3acdb13dadf237b7417c6a31b19da8 loop: try to handle loop aio command via NOWAIT IO first
-         4c3f4bad7a6e9022489a9f8392f7147ed3ce74b1 loop: add hint for handling aio via IOCB_NOWAIT
-         
-  - ref: refs/heads/for-next
-    old: 83c18f749401f300b7a543b0982532799aeb9f20
-    new: a067889444d504a9c9d763086f5db13c7b1a7fe9
-    log: |
-         04dcb8a909b5b68464ec5ccb123e9614f3ac333d loop: simplify do_req_filebacked()
-         832c9fec8e2314170c5451023565b94f05477aa7 loop: cleanup lo_rw_aio()
-         a23d34a31758000b2b158288226bf24f96d8864d loop: move command blkcg/memcg initialization into loop_queue_work
-         dfc77a934a3acdb13dadf237b7417c6a31b19da8 loop: try to handle loop aio command via NOWAIT IO first
-         4c3f4bad7a6e9022489a9f8392f7147ed3ce74b1 loop: add hint for handling aio via IOCB_NOWAIT
-         a067889444d504a9c9d763086f5db13c7b1a7fe9 Merge branch 'for-6.15/block' into for-next
-         
   - ref: refs/heads/master
-    old: d07de43e3f05576fd275c8c82e413d91932119a5
-    new: 88d324e69ea9f3ae1c1905ea75d717c08bdb8e15
-    log: revlist-d07de43e3f05-88d324e69ea9.txt
+    old: c3cce4a07efefc62bc7fc57a678cb870af27d0f2
+    new: 92b6e93936d7a0f6d7ce7a9f142e2c0ee9afbeaf
+    log: revlist-c3cce4a07efe-92b6e93936d7.txt
+  - ref: refs/heads/next
+    old: c3cce4a07efefc62bc7fc57a678cb870af27d0f2
+    new: 92b6e93936d7a0f6d7ce7a9f142e2c0ee9afbeaf
+    log: revlist-c3cce4a07efe-92b6e93936d7.txt
 
---===============7157197709190111825==
+--===============6158867588542654070==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d07de43e3f05-88d324e69ea9.txt
+Content-Disposition: attachment; filename=revlist-c3cce4a07efe-92b6e93936d7.txt
 
-1c81a8c78ae653f3a21cde0f37a91f1b22b7d2fb regulator: core: Fix deadlock in create_regulator()
-8619909b38eeebd3e60910158d7d68441fc954e9 regulator: dummy: force synchronous probing
-2c7a50bec4958f1d1c84d19cde518d0e96a676fd regulator: check that dummy regulator has been probed before using it
-1742e7e978babb0f548f85c4c6bcfebe13b88722 regulator: rtq2208: Fix incorrect buck converter phase mapping
-b65439d9015024c37c6b8a17c0569ec44675a979 regulator: rtq2208: Fix the LDO DVS capability
-c746ff4a67f4842e90fe232d2c9fc983f4034848 pinctrl: spacemit: PINCTRL_SPACEMIT_K1 should not default to y unconditionally
-176fda56d72a267731f82aa4a3aeca430394f10e spi: Fix reference count leak in slave_show()
-3e49db00df1f8959a6323bc0b21f44653677b302 Merge tag 'pinctrl-v6.14-4' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
-21d1ccf0e97d533d5dee470f5adce45358a0f996 Merge tag 'regulator-fix-v6.14-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
-88d324e69ea9f3ae1c1905ea75d717c08bdb8e15 Merge tag 'spi-fix-v6.14-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+4ce91d349124ecf4f38ec522040ffbe09440af0c Update RELEASE-NOTES symlink
+3c8d4f6e0183388be05b49555658920ac8dc9edf Fix parallel "make -j install"
+dc3fd9d6996e579de3b920b609b298b80cb73a40 Fix dependencies in scrub's Makefile
+0d1fcc0ed4cea828dad8b252293f47d822569b85 Teach the makefile to build all of the programs in the util directory
+7accd05297968ba92e68f30de90ceeffa8b3c47c release-checklist: add reminder to update the RELEASE-NOTES symlink
+6de10c745d7f15be288a4cef57216a88d571043a misc: fix a typo which broke "configure --without-libarchive"
+bccbf730b1056a18721afb4a30a891090246c05c misc: fix missing variable names in function prototype
+6137323c883db5fe9c840b09f94cb1f1bfda599c blkid: use offsetof() to avoid UBSAN warnings
+181d1c2e6f2d6200559b02f7ff6ac5b251d18500 Fix continuous integration testing workflow on Windows with mingw64
+a0ae27b8bfd2cbf239aa1af39869f63e47f9350b lsattr: fix potential 32-bit integer overflow warning
+1d41d03671fc4acf2e069b962a3e7e087360ef2f Don't compile util/symlinks on Windows
+92b6e93936d7a0f6d7ce7a9f142e2c0ee9afbeaf e2fsck: fix logic bug when there are no references to an EA inode
 
---===============7157197709190111825==--
+--===============6158867588542654070==--
