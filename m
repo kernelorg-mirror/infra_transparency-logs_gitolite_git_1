@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7502801517046744865=="
+Content-Type: multipart/mixed; boundary="===============8400290809256733072=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/kernel/ndctl/ndctl
-Date: Sat, 22 Mar 2025 16:02:32 -0000
-Message-Id: <174265935252.1029727.16756496092492864124@gitolite.kernel.org>
+Date: Sat, 22 Mar 2025 16:03:15 -0000
+Message-Id: <174265939537.1030345.8633895315326331186@gitolite.kernel.org>
 
---===============7502801517046744865==
+--===============8400290809256733072==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/utils/kernel/ndctl/ndctl
 user: aschofie
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/pending
     old: 04815e5f8b87e02a4fb5a61aeebaa5cad25a15c3
     new: 92d5203077553bfc9f7bf1c219563db0fc28e660
     log: revlist-04815e5f8b87-92d520307755.txt
 
---===============7502801517046744865==
+--===============8400290809256733072==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ d82c1dc842c0f3e34c74e10cfd6d8474ce9ce4bd ndctl/namespace: close file descriptor 
 d49ba4b2fe3c39e2f5d64d2d4d1ac319675a6944 ndctl/namespace: protect against under|over-flow w bad param.align
 92d5203077553bfc9f7bf1c219563db0fc28e660 ndctl: release v81
 
---===============7502801517046744865==--
+--===============8400290809256733072==--
