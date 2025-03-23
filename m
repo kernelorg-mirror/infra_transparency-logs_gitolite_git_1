@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Sun, 23 Mar 2025 05:37:09 -0000
-Message-Id: <174270822910.1871045.10176607747690791136@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Sun, 23 Mar 2025 05:52:01 -0000
+Message-Id: <174270912115.1883390.8544728830360070712@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/pci/pci
+user: kwilczynski
 changes:
-  - ref: refs/heads/fixes
-    old: bdb43af4fdb39f844ede401bdb1258f67a580a27
-    new: 00cdfdcfa0806202aea56b02cedbf87ef1e75df8
+  - ref: refs/heads/controller/amd-mdb
+    old: 6af0b51d9328d1309af9200bdc7ca3181eebc6ba
+    new: 5f3de23d858edf5df89c397678ba492b96646df4
     log: |
-         00cdfdcfa0806202aea56b02cedbf87ef1e75df8 hypfs_create_cpu_files(): add missing check for hypfs_mkdir() failure
+         5f3de23d858edf5df89c397678ba492b96646df4 PCI: amd-mdb: Add AMD MDB Root Port driver
          
