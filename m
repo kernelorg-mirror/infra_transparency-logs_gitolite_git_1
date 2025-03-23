@@ -1,31 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============0885598446064304747=="
+Content-Type: multipart/mixed; boundary="===============5755793946551717006=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/fscrypt/linux
-Date: Sun, 23 Mar 2025 21:47:34 -0000
-Message-Id: <174276645433.2650576.6121023502950908017@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/fsverity/linux
+Date: Sun, 23 Mar 2025 21:47:39 -0000
+Message-Id: <174276645909.2650850.18281786028082692987@gitolite.kernel.org>
 
---===============0885598446064304747==
+--===============5755793946551717006==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/fscrypt/linux
+repo: pub/scm/fs/fsverity/linux
 user: ebiggers
 changes:
-  - ref: refs/tags/fscrypt-for-linus
-    old: d7881a4820c04dfa893df435804e3605d0fd2e86
-    new: c953e18010ce6697d5e2f5cf447511886cfeb410
-    log: revlist-d7881a4820c0-c953e18010ce.txt
+  - ref: refs/tags/fsverity-for-linus
+    old: 493243bb5cff8ee160e738ffc0e69fab85e56750
+    new: d3c64b329a64a42dd3550ddd077c0b0e02c43e7f
+    log: revlist-493243bb5cff-d3c64b329a64.txt
 
---===============0885598446064304747==
+--===============5755793946551717006==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d7881a4820c0-c953e18010ce.txt
+Content-Disposition: attachment; filename=revlist-493243bb5cff-d3c64b329a64.txt
 
+3d846daafb2fe89e9f1ecf48d2a5d8fec52189f9 s390/boot: Add field width and padding handling to boot_printk()
 92b712fa7d5b67ffa3d1ee6147643e9f60154c10 s390/boot: Add decimal conversion specifiers to boot_printk()
 d538fdc49a7d7dd068fc29bcc6093e8dd45abbd9 s390/boot: Add support for boot messages loglevels
 42fc158c7e789ccb8f9d42e5b18d00ca00d93cfe s390/boot: Replace boot_printk() with loglevel-specific helpers
@@ -1047,8 +1048,7 @@ ba643b6d84409e8a9057d5bdd6dd99255b1a88fe Merge tag 'irq_urgent_for_v6.14_rc3' of
 ae5fa8ce7ef230be50ed63d16883bada29990293 Merge tag 'driver-core-6.14-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 224e74511041c2d33dcf24adf54d447eb72399c8 Merge tag 'kbuild-fixes-v6.14-2' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 0ad2507d5d93f39619fc42372c347d6006b64319 Linux 6.14-rc3
-75eb8b9410ee5f75851cfda9a328dab891e452d8 Revert "fscrypt: relax Kconfig dependencies for crypto API algorithms"
-eea957d8db1d1764c9c4b3c7fc5c86dbccb71fdc fscrypt: drop obsolete recommendation to enable optimized ChaCha20
-13dc8eb90067f3aae45269214978e552400d5e28 fscrypt: mention init_on_free instead of page poisoning
+212df80e01069da2a179e6ab28c3f52c325575e1 Documentation: add a usecase for FS_IOC_READ_VERITY_METADATA
+a19bcde49998aac0a4ff99e9a84339adecffbfcb Revert "fsverity: relax build time dependency on CRYPTO_SHA256"
 
---===============0885598446064304747==--
+--===============5755793946551717006==--
