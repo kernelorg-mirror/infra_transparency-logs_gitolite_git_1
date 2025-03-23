@@ -1,53 +1,39 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
-Date: Sun, 23 Mar 2025 13:43:57 -0000
-Message-Id: <174273743739.2263299.2617743080561579223@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3062864841235589681=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Sun, 23 Mar 2025 13:49:34 -0000
+Message-Id: <174273777449.2268407.6553317067341651332@gitolite.kernel.org>
+
+--===============3062864841235589681==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cryptsetup/cryptsetup
-user: mbroz
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/main
-    old: 70f0938fff7b8f762833566b7462df6cf04669cd
-    new: a0b4ae7e27bd349f66260e7359f3d30f91037b32
-    log: |
-         4b39379c5ba475a3ad5cdef19310700faf367d3d po: update sr.po (from translationproject.org)
-         a0b4ae7e27bd349f66260e7359f3d30f91037b32 po: update zh_CN.po (from translationproject.org)
-         
   - ref: refs/heads/master
-    old: 9e6fcefefc25ae8ef12b79b80ba1cb628a80397f
-    new: a0b4ae7e27bd349f66260e7359f3d30f91037b32
-    log: |
-         fbb8d2e910855fe88c380670c1cae0c2a78f2f19 Revert "Add temporary workaround for broken kernels since 6.14-rc3."
-         70f0938fff7b8f762833566b7462df6cf04669cd tests: disable broken OPAL HW
-         4b39379c5ba475a3ad5cdef19310700faf367d3d po: update sr.po (from translationproject.org)
-         a0b4ae7e27bd349f66260e7359f3d30f91037b32 po: update zh_CN.po (from translationproject.org)
-         
-  - ref: refs/merge-requests/420/merge
-    old: df144c1c15c9e01ebe6a0c3fcbd9aa99a55356f2
-    new: bb5d4bccabc79e4b8976db04a9a6d5e945ae4e9d
-    log: |
-         fbb8d2e910855fe88c380670c1cae0c2a78f2f19 Revert "Add temporary workaround for broken kernels since 6.14-rc3."
-         70f0938fff7b8f762833566b7462df6cf04669cd tests: disable broken OPAL HW
-         bb5d4bccabc79e4b8976db04a9a6d5e945ae4e9d Merge branch 'xchacha20-random' into 'main'
-         
-  - ref: refs/merge-requests/693/merge
-    old: c915937c337afadf26c0413db18b64846d3ef65b
-    new: 68cb2a98773b0c587e0945faab6e89e84b1f3227
-    log: |
-         fbb8d2e910855fe88c380670c1cae0c2a78f2f19 Revert "Add temporary workaround for broken kernels since 6.14-rc3."
-         70f0938fff7b8f762833566b7462df6cf04669cd tests: disable broken OPAL HW
-         68cb2a98773b0c587e0945faab6e89e84b1f3227 Merge branch 'integrity-phmac' into 'main'
-         
-  - ref: refs/merge-requests/738/merge
-    old: 6eb0c875d7a262348ad6d5b89b4c8aac9cd76012
-    new: 88dcd216c4174adbf84c7a3f8624088c0221fa78
-    log: |
-         fbb8d2e910855fe88c380670c1cae0c2a78f2f19 Revert "Add temporary workaround for broken kernels since 6.14-rc3."
-         70f0938fff7b8f762833566b7462df6cf04669cd tests: disable broken OPAL HW
-         88dcd216c4174adbf84c7a3f8624088c0221fa78 Merge branch 'sb_roothash_and_sig' into 'main'
-         
+    old: 88d324e69ea9f3ae1c1905ea75d717c08bdb8e15
+    new: 586de92313fcab8ed84ac5f78f4d2aae2db92c59
+    log: revlist-88d324e69ea9-586de92313fc.txt
+
+--===============3062864841235589681==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-88d324e69ea9-586de92313fc.txt
+
+6ea39cc388899a121b5b19b6968692e9460ee4a3 i2c: amd-mp2: drop free_irq() of devm_request_irq() allocated irq
+807d47a6dc054859eef90066516ae4f44fe22e6d Merge tag 'i2c-host-fixes-6.14-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-current
+50a53b60e141d7e31368a87e222e4dd5597bd4ae perf/amd/ibs: Prevent leaking sensitive data to userspace
+75845c6c1a64483e9985302793dbf0dfa5f71e32 keys: Fix UAF in key_put()
+67c007d6c12da3e456c005083696c20d4498ae72 io_uring/net: fix sendzc double notif flush
+bb18645ac1ee5b655f07a70e63ad27213a2596c8 Merge tag 'io_uring-6.14-20250322' of git://git.kernel.dk/linux
+fcea541800539899ba0073259cd35d615488a415 Merge tag 'keys-next-6.14-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+183601b78a9b1c3da2b59f2bee915f97ba745c0b Merge tag 'perf-urgent-2025-03-22' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+586de92313fcab8ed84ac5f78f4d2aae2db92c59 Merge tag 'i2c-for-6.14-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
+
+--===============3062864841235589681==--
