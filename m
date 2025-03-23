@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Sun, 23 Mar 2025 03:17:05 -0000
-Message-Id: <174269982566.1759120.11634547916202054519@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Sun, 23 Mar 2025 04:13:36 -0000
+Message-Id: <174270321607.1804327.6793820139003895774@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/tags/sched_ext-for-6.15
-    old: ddb5481f07154ad320126d018bbb6372f3144b8b
-    new: 18d7c77512df1ed5717170b1c4fea2c5ab831fcf
+  - ref: refs/heads/master
+    old: bf098db94ffd49e3de506b475a6cb17900b27f80
+    new: e39b2bd7a177a27d9aabea42254c9619458c6995
+    log: |
+         e39b2bd7a177a27d9aabea42254c9619458c6995 foo
+         
