@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libcap/libcap
-Date: Sun, 23 Mar 2025 13:31:58 -0000
-Message-Id: <174273671807.2253713.16077075648332089551@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Sun, 23 Mar 2025 13:37:35 -0000
+Message-Id: <174273705520.2258349.11825817762369551260@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libcap/libcap
-user: morgan
+repo: pub/scm/linux/kernel/git/pci/pci
+user: kwilczynski
 changes:
-  - ref: refs/heads/master
-    old: 04b285680bfb45117af685eabf1675917118bdb5
-    new: 89b0e7a69a07025874b94478efdc5d1280b1704c
+  - ref: refs/heads/bwctrl
+    old: 5cea4f7efa8dc45d56323112670fe676478145b5
+    new: 667f053b05f00a007738cd7ed6fa1901de19dc7e
     log: |
-         89b0e7a69a07025874b94478efdc5d1280b1704c Add support for some less mainstream architectures.
+         667f053b05f00a007738cd7ed6fa1901de19dc7e PCI/bwctrl: Fix NULL pointer dereference on bus number exhaustion
          
