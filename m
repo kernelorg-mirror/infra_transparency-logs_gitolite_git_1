@@ -1,39 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============6713720791790762778=="
+Content-Type: multipart/mixed; boundary="===============0843636782150970428=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Sun, 23 Mar 2025 23:17:21 -0000
-Message-Id: <174277184147.2772532.11399878478216790213@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Mon, 24 Mar 2025 00:00:06 -0000
+Message-Id: <174277440692.2807289.18139377331644812218@gitolite.kernel.org>
 
---===============6713720791790762778==
+--===============0843636782150970428==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/master
-    old: 88d324e69ea9f3ae1c1905ea75d717c08bdb8e15
-    new: 586de92313fcab8ed84ac5f78f4d2aae2db92c59
-    log: revlist-88d324e69ea9-586de92313fc.txt
+  - ref: refs/heads/objtool-werror
+    old: 77b6c78c72975ae91f30aa0380c230ec77efc1d0
+    new: 12a82d5070b5045128567a25f0ef30c24120f448
+    log: revlist-77b6c78c7297-12a82d5070b5.txt
 
---===============6713720791790762778==
+--===============0843636782150970428==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-88d324e69ea9-586de92313fc.txt
+Content-Disposition: attachment; filename=revlist-77b6c78c7297-12a82d5070b5.txt
 
-6ea39cc388899a121b5b19b6968692e9460ee4a3 i2c: amd-mp2: drop free_irq() of devm_request_irq() allocated irq
-807d47a6dc054859eef90066516ae4f44fe22e6d Merge tag 'i2c-host-fixes-6.14-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-current
-50a53b60e141d7e31368a87e222e4dd5597bd4ae perf/amd/ibs: Prevent leaking sensitive data to userspace
-75845c6c1a64483e9985302793dbf0dfa5f71e32 keys: Fix UAF in key_put()
-67c007d6c12da3e456c005083696c20d4498ae72 io_uring/net: fix sendzc double notif flush
-bb18645ac1ee5b655f07a70e63ad27213a2596c8 Merge tag 'io_uring-6.14-20250322' of git://git.kernel.dk/linux
-fcea541800539899ba0073259cd35d615488a415 Merge tag 'keys-next-6.14-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-183601b78a9b1c3da2b59f2bee915f97ba745c0b Merge tag 'perf-urgent-2025-03-22' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-586de92313fcab8ed84ac5f78f4d2aae2db92c59 Merge tag 'i2c-for-6.14-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
+ef03b6fe84264ed672b21d3430e6968e4a37fa8c lkdtm: Obfuscate do_nothing() pointer
+4c87c90df94d4b95c41e042bb24d075a0088d289 panic: Disable SMAP in __stack_chk_fail()
+eb3bb8486e45760b2b71a14d853e28ee7f6790bd regulator: rk808: Remove undefined behavior in rk806_set_mode_dcdc()
+5df19c008364465ef3260622f15f1e0e94f50e4d media: dib8000: Prevent divide-by-zero in dib8000_set_dds()
+b4201ee093a1483b4235cda5ab7446797327b589 pwm: mediatek: Prevent divide-by-zero in pwm_mediatek_config()
+0cb18366dbde1cc847643e550e0a486e551211aa objtool: Fix detection of consecutive jump tables
+c848456b5bf79c2fc41b9d2970e9973582f7141e objtool: Warn when disabling unreachable warnings
+b0e0e9efb58cf2622d98db87b075534b430a6b6d objtool: Ignore entire functions rather than instructions
+d92cb8a994c581248d717cb08357df8b76be980e objtool: Fix X86_FEATURE_SMAP alternative handling
+17297d49f62ea856e6537774bf040818abe0bbf9 objtool: Fix CONFIG_OBJTOOL_WERROR for vmlinux.o
+2a8976c4ebc277e6d479d6f9a36f14d5b2afd036 objtool: Remove --no-unreachable for noinstr-only vmlinux.o runs
+426b460c024d52daec27798bc3b033dd4de8b599 objtool: Silence more KCOV warnings
+30d57f3fed8bc45b7a35a59bfe6164de116bec12 objtool: Remove redundant opts.noinstr dependency
+f8d2b54cdcc41c7881b8a55745d64647f6900021 objtool: Properly disable uaccess validation
+1e837d6cd791ef56e5370cb356b7d2188aafc980 objtool: Fix up some outdated references to ENTRY/ENDPROC
+09a8da5ba896f21401e5e46d9acc44f695cba230 objtool: Improve error messages with strerror(errno)
+d1c30dc89dfffa1db71680bbf42d8c8915f19d43 objtool: Add a comment to explain the cmdline output
+0c10a8f0fede137230a1f445bc1840077b81d5fb objtool: Fix init_module() handling
+12a82d5070b5045128567a25f0ef30c24120f448 objtool: Make error handling more consistent
 
---===============6713720791790762778==--
+--===============0843636782150970428==--
