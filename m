@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/f2fs-tools
-Date: Mon, 24 Mar 2025 11:50:08 -0000
-Message-Id: <174281700885.3389643.8824019087099144941@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/alexghiti/linux
+Date: Mon, 24 Mar 2025 11:55:24 -0000
+Message-Id: <174281732427.3394237.14515264352993477449@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/f2fs-tools
-user: chao
+repo: pub/scm/linux/kernel/git/alexghiti/linux
+user: alexghiti
 changes:
-  - ref: refs/heads/wip
-    old: 2f045a522fd8756756bce3fdf9842ff449b4d1b2
-    new: a862fc9da6d405a20e5d85e2b5e297cf4ee67bc1
-    log: |
-         a862fc9da6d405a20e5d85e2b5e297cf4ee67bc1 mkfs.f2fs: fix to update compact summary's footer correctly
-         
+  - ref: refs/heads/dev/alex/for_next_mw1_manual
+    old: 0000000000000000000000000000000000000000
+    new: cb410bad599d97fcb2455a8d0395098bb346f2f3
