@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Mon, 24 Mar 2025 16:57:41 -0000
-Message-Id: <174283546119.3763096.103027616118296162@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Mon, 24 Mar 2025 16:59:33 -0000
+Message-Id: <174283557345.3764516.13743709119294808680@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/tags/f2fs-for-6.15-rc1
-    old: 0000000000000000000000000000000000000000
-    new: add238ba8dab1ecdba3b18d7ba424b1826dad7e1
+  - ref: refs/heads/master
+    old: a37df2815c1b51468a2fe71758b81cb2084433eb
+    new: 402f42938757da8d2917f142e18e4d01c15d0af0
+    log: |
+         402f42938757da8d2917f142e18e4d01c15d0af0 Bluetooth: MGMT: Add LL Privacy Setting
+         
