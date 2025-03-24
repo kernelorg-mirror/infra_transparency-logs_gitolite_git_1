@@ -1,23 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Mon, 24 Mar 2025 16:40:14 -0000
-Message-Id: <174283441481.3747827.10616921043197531973@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Mon, 24 Mar 2025 16:46:06 -0000
+Message-Id: <174283476695.3752652.3922616595484981452@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/master
-    old: f77e72c3ab11d8c06f487ff7892afef2aefbd0f6
-    new: 912e2f54fd57ba4fbe66b6331149d7131122ad09
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 99476fa085da764fbed0684e22b831de8cd22512
+    new: 9a352a90e88a041f4b26d359493e12a7f5ae1a6a
     log: |
-         e45343a37bf8a30ba1059743a3645551639974b7 mgmt-api: Add missing Device Flag
-         cf8b2f308e31be757b5aa08a6c11887244cb5b21 mgmt-api: Add LL Privacy setting
-         a0d6d3c78b28e667e53524b5e5961711e60ff13e gatt-database: Fix always registering CentralAddressResolution
-         122c9fcacfa93266051de2edabef608bc63986a3 mgmt-tester: Fix missing MGMT_SETTING_LL_PRIVACY
-         912e2f54fd57ba4fbe66b6331149d7131122ad09 monitor: Add decoding of MGMT LL Privacy setting
+         935e7cb5bb80106ff4f2fe39640f430134ef8cd8 tools/build: Don't pass test log files to linker
+         ef238109a3d20a2af474bf758c50072a09591f19 perf build: Rename TEST_LOGS to SHELL_TEST_LOGS
+         168910d0f9377b23b98404c88c13d4c51cdc5f15 perf build: Add mypy build tests
+         8a54784e708b51c1dcead1471bbee5fb31ae92cc perf build: Add pylint build tests
+         21944462d5a90e1b87637a5f2fa3f5d76bbc042b perf test: Address attr.py mypy error
+         ba3b0861edc5ec7754872ce7426d86642fd4d44a perf python: Fix setup.py mypy errors
+         9a352a90e88a041f4b26d359493e12a7f5ae1a6a perf tools: annotate asm_pure_loop.S
          
