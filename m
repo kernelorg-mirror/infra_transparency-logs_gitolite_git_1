@@ -1,46 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============4502606303123610941=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 24 Mar 2025 13:51:20 -0000
-Message-Id: <174282428015.3489875.1536826253185672288@gitolite.kernel.org>
-
---===============4502606303123610941==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Mon, 24 Mar 2025 13:52:27 -0000
+Message-Id: <174282434714.3490516.263066815973840699@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/review-ilpo-next
-    old: 96b8f4658b70ac2efe543ddbeb328b5b1941a571
-    new: 2c30357e755b087217c7643fda2b8aea6d6deda4
+  - ref: refs/heads/stable/v2.41
+    old: caa26876bc75041833c9644491cc2670d623f750
+    new: 5a9a737ce8d334415028bcd95026747e109cdd2c
     log: |
-         2c30357e755b087217c7643fda2b8aea6d6deda4 platform/x86: x86-android-tablets: Add select POWER_SUPPLY to Kconfig
+         11a5728bf5f729a8244cd8d999641fe2722e15ea irqtop,lsirq: use scols debug
+         f5e79a429ec331509ba55449b7fdeb3cba1bfc54 lib/fileeq.c Fix a typo in message.
+         5b237d26baf063009ad2e8bea930947b1153c5d9 column: fix compiler warning for non-widechar compilation
+         906b597b5781b007116c5cbe51bb75b53024f173 autotools: don't use wide-character ncurses if --disable-widechar
+         778fbe77eff16fb33b222224275fc329e6435cc2 misc: never include wchar.h
+         5a9a737ce8d334415028bcd95026747e109cdd2c meson: fix po-man installation
          
-
---===============4502606303123610941==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1742824303 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1742824273-c83e88839beb8dbf6f81365dae557e2861ad841e
-
-96b8f4658b70ac2efe543ddbeb328b5b1941a571 2c30357e755b087217c7643fda2b8aea6d6deda4 refs/heads/review-ilpo-next
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZ+FjcwAKCRBZrE9hU+XO
-MdLoAP9fR4HpLja5BgB44mA2mbKTVWAYnc7QOmH58rKK8d+qsAEAj45JMJJzNnVQ
-KMucLJMjNC9nvrDAMwxW8yGHIC0xlAU=
-=+ID1
------END PGP SIGNATURE-----
-
---===============4502606303123610941==--
