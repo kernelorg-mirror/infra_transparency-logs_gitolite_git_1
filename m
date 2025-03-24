@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Mon, 24 Mar 2025 19:51:08 -0000
-Message-Id: <174284586889.3918507.13727668060547140088@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Mon, 24 Mar 2025 20:03:49 -0000
+Message-Id: <174284662934.3927872.13657355976846850361@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/khilman/linux-omap
-user: khilman
+repo: pub/scm/libs/ell/ell
+user: holtmann
 changes:
-  - ref: refs/tags/omap-for-v6.14/soc-signed
-    old: 0000000000000000000000000000000000000000
-    new: 31c31d81347e9b5fef34964f752781c1d723e3c7
+  - ref: refs/heads/master
+    old: 1de305f8de3ef0b8473440ae8a6ce2b589efbdd2
+    new: b7eab9f5930fae6f4db9e686816be5fad3076c32
+    log: |
+         b7eab9f5930fae6f4db9e686816be5fad3076c32 unit: Genrate and compare public keys for ECDH test cases
+         
