@@ -1,59 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============6825267852204611267=="
+Content-Type: multipart/mixed; boundary="===============0752543277547844708=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Mon, 24 Mar 2025 04:00:11 -0000
-Message-Id: <174278881131.3006631.8470878277464051789@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Mon, 24 Mar 2025 04:18:15 -0000
+Message-Id: <174278989596.3019851.461490211856983173@gitolite.kernel.org>
 
---===============6825267852204611267==
+--===============0752543277547844708==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/bugfix/syzbot
-    old: 6e57fc3341b71b398a5a107cb288761dacd8d8ba
-    new: 6f7b592cc1c33d79f362e9d05c6cc3635f827526
-    log: revlist-6e57fc3341b7-6f7b592cc1c3.txt
+  - ref: refs/heads/objtool-werror
+    old: e7cd97c6d494952da7791febf6301a81b2a20ee8
+    new: a83027487e43186e3eb3dd0a39733ee2eb102d30
+    log: revlist-e7cd97c6d494-a83027487e43.txt
 
---===============6825267852204611267==
+--===============0752543277547844708==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6e57fc3341b7-6f7b592cc1c3.txt
+Content-Disposition: attachment; filename=revlist-e7cd97c6d494-a83027487e43.txt
 
-8a2d9f00d502e6ef68c6d52f0863856040ddd2db f2fs: set highest IO priority for checkpoint thread
-c2ecba026586cda6c7dc0fe9e6e60e7e9386c3bd f2fs: control nat_bits feature via mount option
-1cf6b5670af1f4e9d5bf2f7201e368733c59cbdd f2fs: do sanity check on inode footer in f2fs_get_inode_page()
-2aac2538a97d35b0a1beb60dce6001f5625b82e6 f2fs: do sanity check on xattr node footer in f2fs_get_xnode_page()
-1788971e0bfae0911e356ba7f8a517d659d6709d f2fs: introduce FAULT_INCONSISTENT_FOOTER
-986c50f6bca109c6cf362b4e2babcb85aba958f6 f2fs: fix to avoid accessing uninitialized curseg
-19426c4988aa85298c1b4caf2889d37ec5c80fea Revert "f2fs: rebuild nat_bits during umount"
-448a834f89add24191f73661e6133062cc580317 f2fs: Remove check for ->writepage
-6ad3ddbee892884706ab227af3f5c75deb206442 f2fs: Remove f2fs_write_data_page()
-3b47398d9861db170931a0f9e3ec894eebbbb1f0 f2fs: Remove f2fs_write_meta_page()
-7ff0104a805245d76cd2bdcbb9e2ca4f4fcff3e4 f2fs: Remove f2fs_write_node_page()
-f7f8932ca6bb22494ef6db671633ad3b4d982271 f2fs: fix to avoid running out of free segments
-d7b549def0eb42a950eebd3bd5343f5c8088c305 f2fs: add carve_out sysfs node
-64ee7503cbf662a3f4d6f464178de1607849e37e f2fs: use f2fs_sb_has_device_alias during option parsing
-277352b6cbeda5c0976e56d25e3fcd775db96305 f2fs: consolidate unsupported option handling errors
-abd0e040e9a516fe1205d12ee33e1778ec546941 f2fs: factor out an f2fs_default_check function
-7d6ee503307125b5fb30b4863d3e8ffd0d808ca4 f2fs: make INLINECRYPT a mount option flag
-9100adf326fa246beb03a26e5b374af4a6b4047d f2fs: make LAZYTIME a mount option flag
-0edcb2197e761db482d485bc0e0f5fd42cc1bc3d f2fs: Pass sbi rather than sb to f2fs_set_test_dummy_encryption
-9cca49875997a1a7e92800a828a62bacb0f577b9 f2fs: defer readonly check vs norecovery
-b7de231b9df4eafc87ec693312c8889fc20f4e55 f2fs: pass sbi rather than sb to quota qf_name helpers
-71e9bd3d5c04c19ef80d0bb33bf7ff1a2f0eeafb f2fs: pass sbi rather than sb to parse_options()
-f098aeba04c9328571567dca45159358a250240c f2fs: fix to avoid atomicity corruption of atomic file
-351bc761338d9be29065c2b99e603bab336792b7 f2fs: optimize f2fs DIO overwrites
-21263d035ff21fa0ccf79adba20bab9cd8cca0f2 f2fs: fix missing discard for active segments
-1e8b2cc0041b3c436af3c07bf7b65c6df8084ca3 f2fs: remove redundant assignment to variable err
-cce2429e46d00f450eca06b0b57cbe83cc68f54f f2fs: add a proc entry show inject stats
-eab1e1bc212dc0509fff439389a089feedc698aa f2fs: fix to update injection attrs according to fault_option
-6f7b592cc1c33d79f362e9d05c6cc3635f827526 f2fs: fix to do sanity check on ino and xnid
+57af0b50eb3eda9f183312b81e1da6d5044e0146 objtool: Reduce default verbosity
+f4393f5be79a2b0fe00e1434a7097e42fec24370 objtool: Fix CONFIG_OBJTOOL_WERROR for vmlinux.o
+482e9144ed1797e932e90bd1642d2744ff97549c objtool: Remove --no-unreachable for noinstr-only vmlinux.o runs
+a64f8814934755fc0b193240258c7a38a1135c95 objtool: Silence more KCOV warnings
+7d23f5d01eabcecd4e789d0531a86283a108db80 objtool: Remove redundant opts.noinstr dependency
+8c763aa78c87eebdab2231226b6a914f457dfd47 objtool: Properly disable uaccess validation
+ff1674238818910265bb87c3e37807afe3e60009 objtool: Fix up some outdated references to ENTRY/ENDPROC
+3579e94a107ebce9afd2b78d46b69c9d52367591 objtool: Improve error handling
+db302d6ac0573a4fb45531f891238aa5bc02c536 objtool: Fix init_module() handling
+28b029aa91b735adb6eb8650b2db0ccd1a5ad82d spi: amd: Fix out-of-bounds stack access in amd_set_spi_freq()
+a0dcf311b782a2d5b88a7fbb5e2d0a9fc8e3fe31 nvmet: Fix out-of-bounds stack access in nvmet_ctrl_state_show()
+78906cf38eee061c46aec178d81d649b851c52a5 media: dib8000: Prevent divide-by-zero in dib8000_set_dds()
+3a06761205dbd4aac1d3c94783c9d6b14139185d panic: Disable SMAP in __stack_chk_fail()
+5e5d493ab79b7a0bfa5941790e967dbd78a08423 Input: cyapa - remove undefined behavior in cyapa_update_fw_store()
+0b8a85e5429f1f3ee19f744aea5eb5fa079cea2e ASoC: codecs: wcd934x: Remove undefined behavior in wcd934x_slim_irq_handler()
+50e8a061392d762b5456f8c53948e93a68e88395 regulator: rk808: Remove undefined behavior in rk806_set_mode_dcdc()
+b31869ae7173a6350b6b764f36a90003dedd8902 pwm: mediatek: Prevent divide-by-zero in pwm_mediatek_config()
+a83027487e43186e3eb3dd0a39733ee2eb102d30 lkdtm: Obfuscate do_nothing() pointer
 
---===============6825267852204611267==--
+--===============0752543277547844708==--
