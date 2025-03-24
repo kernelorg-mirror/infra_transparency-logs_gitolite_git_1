@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 24 Mar 2025 16:32:33 -0000
-Message-Id: <174283395335.3739696.17152942217541049410@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Mon, 24 Mar 2025 16:33:39 -0000
+Message-Id: <174283401939.3740527.4538949685406588766@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/main
-    old: bfc17c1658353f22843c7c13e27c2d31950f1887
-    new: 6bb0dcb3d321c14be7ca33b71a149034d6a2cde8
+  - ref: refs/heads/perf-tools-next
+    old: 182f12f3193341c3400ae719a34c00a8a1204cff
+    new: 99476fa085da764fbed0684e22b831de8cd22512
     log: |
-         ca1914a32cdcad26c4b003df743fe4f9e4bb2877 net: phy: phy_interface_t: Fix RGMII_TXID code comment
-         6bb0dcb3d321c14be7ca33b71a149034d6a2cde8 net: openvswitch: fix kernel-doc warnings in internal headers
+         9480cc14a95e3883f895b5a2baa8f6c0c199c604 perf build: filter all combinations of -flto for libperl
+         7e442be7015af524d2b5fb84f0ff04a44501542b perf tools: Fix is_compat_mode build break in ppc64
+         99476fa085da764fbed0684e22b831de8cd22512 perf bench sched pipe: fix enforced blocking reads in worker_thread
          
