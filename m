@@ -1,22 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Mon, 24 Mar 2025 14:09:24 -0000
-Message-Id: <174282536437.3504858.17154867863720529439@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Mon, 24 Mar 2025 14:20:06 -0000
+Message-Id: <174282600689.3515406.243844180329993462@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/master
-    old: 586de92313fcab8ed84ac5f78f4d2aae2db92c59
-    new: 38fec10eb60d687e30c8c6b5420d86e8149f7557
-    log: |
-         38fec10eb60d687e30c8c6b5420d86e8149f7557 Linux 6.14
-         
-  - ref: refs/tags/v6.14
-    old: 0000000000000000000000000000000000000000
-    new: 35ff3b0f4596c82ec0a3e1cc43e2a85f5e976023
+  - ref: refs/heads/pending
+    old: 56133b9a40bcaf765f8183cd33423e5091be9bef
+    new: 47c91531edd2a552a8131414e4bdb0654277ad6a
