@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 24 Mar 2025 19:17:54 -0000
-Message-Id: <174284387454.3888638.18003270907019716997@gitolite.kernel.org>
+Date: Mon, 24 Mar 2025 19:19:34 -0000
+Message-Id: <174284397423.3890138.8070697671683794778@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,10 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 3099f9e156b3bd37b3825fc527dd018bb76957f7
-    new: 6d1929475e361ef4e1972da600dfa3cea060a184
+    old: 6d1929475e361ef4e1972da600dfa3cea060a184
+    new: b037832126c44dec258633918f7dfcb0ae66589a
     log: |
-         66034f78a5583bc10c195647629a137e8ed02208 tcp/dccp: Remove inet_connection_sock_af_ops.addr2sockaddr().
-         f8e1bcec62efbce2c6acd116b1f4a82a8441ce11 docs: fix the path of example code and example commands for device memory TCP
-         6d1929475e361ef4e1972da600dfa3cea060a184 docs: networking: strparser: Fix a typo
+         3d9b8ac5341269d31e59fd5d58d47266ac78bc32 r8169: enable RTL8168H/RTL8168EP/RTL8168FP ASPM support
+         b48688ea3c9ac8d5d910c6e91fb7f80d846581f0 r8169: disable RTL8126 ZRX-DC timeout
+         b037832126c44dec258633918f7dfcb0ae66589a Merge branch 'r8169-enable-more-devices-aspm-support'
          
