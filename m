@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 24 Mar 2025 21:35:48 -0000
-Message-Id: <174285214858.4008407.4773903194716832830@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Mon, 24 Mar 2025 21:54:51 -0000
+Message-Id: <174285329162.4022562.947320488269194286@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/main
-    old: b71f29272f5f835f6e67e4bea7ffdd3aef90317b
-    new: c353e8983e0dea5dbba7789033326e1ad34135b7
+  - ref: refs/heads/soc/arm
+    old: 911a44cf6ddcb809ef5a5e0345986285a62ef462
+    new: 46367f09b2203f7c63f89293aea9279b875d0ff2
     log: |
-         29abdf662597ae2e8f34664a5e03f217e816a9a3 tty: caif: removed unused function debugfs_tx()
-         c353e8983e0dea5dbba7789033326e1ad34135b7 net: introduce per netns packet chains
+         46367f09b2203f7c63f89293aea9279b875d0ff2 ARM: davinci: always enable CONFIG_ARCH_DAVINCI_DA850
+         
+  - ref: refs/heads/soc/drivers
+    old: cf2ae5e5b68b06b4c8bceb42d46fa311e6db9a60
+    new: 6ba14668e6f415a9da15588c5e5957784e0798f0
+    log: |
+         6ef4ea3c944b9fc5d78317d1172cdcd10f9724f1 Input: tsc2007 - accept standard properties
+         6ba14668e6f415a9da15588c5e5957784e0798f0 Merge tag 'omap-for-v6.14/drivers-signed' of https://git.kernel.org/pub/scm/linux/kernel/git/khilman/linux-omap into soc/drivers
          
