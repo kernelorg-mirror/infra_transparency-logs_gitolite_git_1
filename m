@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8262876112841352758=="
+Content-Type: multipart/mixed; boundary="===============3450415456121382342=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 24 Mar 2025 18:47:28 -0000
-Message-Id: <174284204883.3857780.15858610235746594536@gitolite.kernel.org>
+Date: Mon, 24 Mar 2025 18:47:33 -0000
+Message-Id: <174284205306.3858056.8312820643159034281@gitolite.kernel.org>
 
---===============8262876112841352758==
+--===============3450415456121382342==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 3ae0cf875914e331b2239a960d6696ab944733e3
-    new: 788af3771c30e6469dfbec0adfe55cc5dcd7f354
-    log: revlist-3ae0cf875914-788af3771c30.txt
+  - ref: refs/heads/m68k-queue
+    old: 8fc78cd4c6bd8e5bd35f4eb9e04c181f6079a0d8
+    new: d87a504930461395e7fc56220f559238d7f238f0
+    log: revlist-8fc78cd4c6bd-d87a50493046.txt
 
---===============8262876112841352758==
+--===============3450415456121382342==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3ae0cf875914-788af3771c30.txt
+Content-Disposition: attachment; filename=revlist-8fc78cd4c6bd-d87a50493046.txt
 
 1b133129ad6b28186214259af3bd5fc651a85509 riscv: dts: starfive: Fix a typo in StarFive JH7110 pin function definitions
 1ac98d6484c4a53e9b3ed1f59d03a2dd2d287b70 soc: qcom: pmic_glink: Drop redundant pg assignment before taking lock
@@ -232,6 +232,12 @@ fcea541800539899ba0073259cd35d615488a415 Merge tag 'keys-next-6.14-rc8' of git:/
 183601b78a9b1c3da2b59f2bee915f97ba745c0b Merge tag 'perf-urgent-2025-03-22' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 586de92313fcab8ed84ac5f78f4d2aae2db92c59 Merge tag 'i2c-for-6.14-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 38fec10eb60d687e30c8c6b5420d86e8149f7557 Linux 6.14
-788af3771c30e6469dfbec0adfe55cc5dcd7f354 Merge tag 'v6.14'
+da3fe52487763c39c9621fa365d55a061ff7beb7 m68k: sun3: Use str_read_write() helper in mmu_emu_handle_fault()
+ea0b29c99f376203293c62cfc9466bfa5707fb7a m68k: sun3: Fix DEBUG_MMU_EMU build
+35e46112466512e0dd969e0a2b915b0192b613b4 m68k: setup: Remove size argument when calling strscpy()
+5b7817fd203713868d108cf686fa3a18a626e92d m68k: defconfig: Update defconfigs for v6.14-rc1
+ee39b1b79ad7738bbc655689a97c63756677b739 m68k: atari: usb: Add ISP1160 USB host controller support
+e5d10387ef06e7a9493eb8505f996d8623832431 m68k: atari: Update Kconfig.bus help text
+d87a504930461395e7fc56220f559238d7f238f0 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============8262876112841352758==--
+--===============3450415456121382342==--
