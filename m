@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/alexghiti/linux
-Date: Mon, 24 Mar 2025 09:52:10 -0000
-Message-Id: <174280993083.3295414.3144567565606944810@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Mon, 24 Mar 2025 11:08:27 -0000
+Message-Id: <174281450700.3355131.18333135460488038321@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/alexghiti/linux
-user: alexghiti
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/tags/riscv-mw1-6.15-rc1
+  - ref: refs/heads/sched/hrtick
     old: 0000000000000000000000000000000000000000
-    new: 59dd6beceea567ebcc4dca0dfa0b0a377affcb97
+    new: adf71785ae176daaf2d8c0de6cac055d18c35d96
