@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arnd/asm-generic
-Date: Mon, 24 Mar 2025 07:53:21 -0000
-Message-Id: <174280280102.3192052.15589461587169931095@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 24 Mar 2025 08:25:38 -0000
+Message-Id: <174280473823.3218648.3383834841229587830@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arnd/asm-generic
-user: arnd
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/asm-generic
-    old: eb6a0803c9dbd1307e26509a01e4ecf69db6b953
-    new: a36995e2a64711556c6773797367d165828f6705
+  - ref: refs/heads/x86/kconfig
+    old: 55fb3dcdb89cfffe7b1d35d0bb4f547b365d2678
+    new: 7c241e07bddf9300af40c0dd44367a83df633f35
     log: |
-         a36995e2a64711556c6773797367d165828f6705 m68k: coldfire: select PCI_IOMAP for PCI
-         
-  - ref: refs/heads/master
-    old: eb6a0803c9dbd1307e26509a01e4ecf69db6b953
-    new: a36995e2a64711556c6773797367d165828f6705
-    log: |
-         a36995e2a64711556c6773797367d165828f6705 m68k: coldfire: select PCI_IOMAP for PCI
+         7c241e07bddf9300af40c0dd44367a83df633f35 x86/kbuild/64: Test for the availability of the -mtune=native compiler flag
          
