@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/ell/ell
-Date: Mon, 24 Mar 2025 14:03:34 -0000
-Message-Id: <174282501455.3499496.16840395994411929053@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Mon, 24 Mar 2025 14:05:23 -0000
+Message-Id: <174282512322.3502605.532131768212783739@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/ell/ell
-user: holtmann
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
   - ref: refs/heads/master
-    old: 8a4992d147dda10f6c660e3e9be72bf5ae8b7d6f
-    new: 1de305f8de3ef0b8473440ae8a6ce2b589efbdd2
+    old: 3961d6d3b2aa1585be2af99f8f68d97dd093f31c
+    new: b7d5146c8147ea271ea86ffd6a78e05335101f9b
     log: |
-         d41dd7eaf2614d71524c2673a268f6f319488f1b ecc: Add support for NIST P-224 curve
-         1de305f8de3ef0b8473440ae8a6ce2b589efbdd2 unit: Add key pair generation tests for P-224 curve
+         bee7a00d9770e6abea27fd23c5a15729dd786837 Revert "hwclock-rtc.c: try the 'new' rtc class first"
+         b7d5146c8147ea271ea86ffd6a78e05335101f9b Merge branch 'rtc-default' of https://github.com/Villemoes/util-linux
          
