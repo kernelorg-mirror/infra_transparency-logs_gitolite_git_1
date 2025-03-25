@@ -1,56 +1,115 @@
-Content-Type: multipart/mixed; boundary="===============0017570295502200038=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
-Date: Tue, 25 Mar 2025 13:19:46 -0000
-Message-Id: <174290878682.667551.4438318568190089475@gitolite.kernel.org>
-
---===============0017570295502200038==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Tue, 25 Mar 2025 13:21:15 -0000
+Message-Id: <174290887551.670112.15505240673721121305@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jgg/iommufd
-user: jgg
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/for-next
-    old: 2f3fe4a0d2710eda21861999c360030644557dfb
-    new: a4f387a884209636e3c48e8c92c3e885ef2cd9b8
-    log: revlist-2f3fe4a0d271-a4f387a88420.txt
-
---===============0017570295502200038==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2f3fe4a0d271-a4f387a88420.txt
-
-6aa63a4ec947f350d1a2f9f6aba8591a2455d192 iommu: Sort out domain user data
-ec031e1b35ded5acfcef100d9ee7144bbfa4bc12 iommufd: Move iommufd_sw_msi and related functions to driver.c
-06d54f00f3f5a29cbf43410ac93ee2dd89e3b711 iommu: Drop sw_msi from iommu_domain
-ada14b9f1aab5b60d50dec14c17eb84a55c0f682 iommu: Require passing new handles to APIs supporting handle
-8a9e1e773f60080f6d56bd997719d4e62048b2d3 iommu: Introduce a replace API for device pasid
-03c9b102bea6f4f0b517c841fe1d2f9c616c95b9 iommufd: Pass @pasid through the device attach/replace path
-bc06f7f66de404ae6323963361fe4e2f5f71a1e5 iommufd/device: Only add reserved_iova in non-pasid path
-2eaa7f845e149370a162bedb0437c9e26229760c iommufd/device: Replace idev->igroup with local variable
-ba1de6cd41d0654245864640b62ae45a1bc01bcd iommufd/device: Add helper to detect the first attach of a group
-75f990aef38e930f8b676562c4d4b02c1f5eccfd iommufd/device: Wrap igroup->hwpt and igroup->device_list into attach struct
-831b40f8416cf393faf41b3ae2e877a73aa6baa3 iommufd/device: Replace device_list with device_array
-c0e301b2978d319d78ed332290989f3499ef9e63 iommufd/device: Add pasid_attach array to track per-PASID attach
-ff3f014ebb1e2fbafd407243e57fbad314472cc1 iommufd: Enforce PASID-compatible domain in PASID path
-2fb69c602d57f77483b8dcdd12d17408a09f76fe iommufd: Support pasid attach/replace
-4c3f4f432c2d61ed266c797702bb58659f90bdff iommufd: Enforce PASID-compatible domain for RID
-ce15c13e7a1423cf418f825d33ab1747b151cfd6 iommu/vt-d: Add IOMMU_HWPT_ALLOC_PASID support
-dbc5f37b4f8ad833132f77c1f67e68bb11ca9b9e iommufd: Allow allocating PASID-compatible domain
-9eb59204d5197b4add63968c8c5b7633631f9a5a iommufd/selftest: Add set_dev_pasid in mock iommu
-068e14025158986842f783147f9e41a59fbc97cd iommufd/selftest: Add a helper to get test device
-c1b52b0a97aeae22462496cda064323255d10b3b iommufd/selftest: Add test ops to test pasid attach/detach
-d57a1fb3425513ec0b02acb9a9f81e5da99b4b85 iommufd/selftest: Add coverage for iommufd pasid attach/detach
-7fe6b987166b901efc5c6fce5fe853c9ebb835be ida: Add ida_find_first_range()
-290641346d0d1eaf400c4f968d5b2cd91f483733 vfio-iommufd: Support pasid [at|de]tach for physical VFIO devices
-ad744ed5dd8b70e9256fc1ff18aaaffeedf5f21e vfio: VFIO_DEVICE_[AT|DE]TACH_IOMMUFD_PT support pasid
-5be5493516601921b020d1cf0c6f381f057c4d82 iommufd: Extend IOMMU_GET_HW_INFO to report PASID capability
-a4f387a884209636e3c48e8c92c3e885ef2cd9b8 iommufd/selftest: Add coverage for reporting max_pasid_log2 via IOMMU_HW_INFO
-
---===============0017570295502200038==--
+  - ref: refs/heads/nfs-localio-6.12-to-6.14
+    old: 0000000000000000000000000000000000000000
+    new: be973019e32b7ee04594b85598903ada06e13d66
+  - ref: refs/tags/block-6.13-20241207
+    old: 0000000000000000000000000000000000000000
+    new: 257d046675bb35cd2b0bf5440b26b9dea4c84738
+  - ref: refs/tags/block-6.13-20241213
+    old: 0000000000000000000000000000000000000000
+    new: 4248efeb4410874ecdb40c2f6dd6e27d3585ce7c
+  - ref: refs/tags/block-6.13-20241220
+    old: 0000000000000000000000000000000000000000
+    new: 4f642c8fbe791c78534fe022edbf821f7ea60524
+  - ref: refs/tags/block-6.13-20241228
+    old: 0000000000000000000000000000000000000000
+    new: ff26091733c870dde2367bc9b196daae21dfd5e0
+  - ref: refs/tags/block-6.13-20242901
+    old: 0000000000000000000000000000000000000000
+    new: 99794d2d2975d03d1529dcc51caddb9583b0379b
+  - ref: refs/tags/block-6.13-20250103
+    old: 0000000000000000000000000000000000000000
+    new: 10022b3911c254fa08cb7909a03b0e2bb9950d6b
+  - ref: refs/tags/block-6.13-20250111
+    old: 0000000000000000000000000000000000000000
+    new: 1d9508095fb77acbf3a8fc4231835410379bc39e
+  - ref: refs/tags/block-6.14-20250131
+    old: 0000000000000000000000000000000000000000
+    new: 521cce908d5917357836068689a68b6b99db7789
+  - ref: refs/tags/block-6.14-20250207
+    old: 0000000000000000000000000000000000000000
+    new: fe90d001dfc253f5422c957fac5180c88118f242
+  - ref: refs/tags/block-6.14-20250214
+    old: 0000000000000000000000000000000000000000
+    new: a37c41b92e1a5124ac66774d0f4887cbc37111c7
+  - ref: refs/tags/for-6.13/dm-changes
+    old: 0000000000000000000000000000000000000000
+    new: 98157b44a459d341c01acbf3f2e1ffc13155da70
+  - ref: refs/tags/for-6.13/dm-fixes
+    old: 0000000000000000000000000000000000000000
+    new: c335610a0d35fde682213b32b27eb12457ce2371
+  - ref: refs/tags/for-6.14/block-20250118
+    old: 0000000000000000000000000000000000000000
+    new: 02468259d15ac7d6bfb362201c1dd57c2e79d4eb
+  - ref: refs/tags/for-6.14/dm-changes
+    old: 0000000000000000000000000000000000000000
+    new: a38fe13999753ccc02d9fd742543547a916e1015
+  - ref: refs/tags/for-6.14/dm-fixes
+    old: 0000000000000000000000000000000000000000
+    new: 970a68ede004d8abdbf6be8ba5f3fca2b8a4d5c9
+  - ref: refs/tags/for-6.14/io_uring-20250118
+    old: 0000000000000000000000000000000000000000
+    new: 96f97097610ff8e38a80b3ea7bc9a0abdf3bafd6
+  - ref: refs/tags/for-6.14/io_uring-20250119
+    old: 0000000000000000000000000000000000000000
+    new: 4754d91887c9fce180518834cb5488c431d35889
+  - ref: refs/tags/io_uring-6.13-20241207
+    old: 0000000000000000000000000000000000000000
+    new: 752c258b68a12e5ce0b63e05e2f672becddb325f
+  - ref: refs/tags/io_uring-6.13-20241213
+    old: 0000000000000000000000000000000000000000
+    new: e538d2a7c178796456a2b5ccda561d5afc9221b8
+  - ref: refs/tags/io_uring-6.13-20241220
+    old: 0000000000000000000000000000000000000000
+    new: b3e46bfc78cde29fd8964ff19dcd66f5fff4fb19
+  - ref: refs/tags/io_uring-6.13-20241228
+    old: 0000000000000000000000000000000000000000
+    new: 94840f55db35ec2ea901a0be52b09e9837ae4f74
+  - ref: refs/tags/io_uring-6.13-20242901
+    old: 0000000000000000000000000000000000000000
+    new: aeb36b1b1e61cf0a24321a9c55a3bcda4d312b52
+  - ref: refs/tags/io_uring-6.13-20250103
+    old: 0000000000000000000000000000000000000000
+    new: 8e65fda32103a793f4c88c150394b491afe6ad55
+  - ref: refs/tags/io_uring-6.13-20250111
+    old: 0000000000000000000000000000000000000000
+    new: 896ec9c0a30bbc073064eabd4108fd52a6abb6a4
+  - ref: refs/tags/io_uring-6.13-20250116
+    old: 0000000000000000000000000000000000000000
+    new: 23f19a153ea028fadb288dfb392bd08836238059
+  - ref: refs/tags/io_uring-6.14-20250131
+    old: 0000000000000000000000000000000000000000
+    new: b0d29f670ad18a579e23875d300ba66ff3900ea1
+  - ref: refs/tags/io_uring-6.14-20250214
+    old: 0000000000000000000000000000000000000000
+    new: 5510563295e22f5fa903fa4299692c468a3e7c07
+  - ref: refs/tags/nfs-for-6.13-2
+    old: 0000000000000000000000000000000000000000
+    new: 20881e950d2b64f011312d54a78bcf40a8cbbed9
+  - ref: refs/tags/nfs-for-6.14-1
+    old: 0000000000000000000000000000000000000000
+    new: 979d7818b68bf62131262ea99a4b1acde6f33170
+  - ref: refs/tags/nfs-for-6.14-2
+    old: 0000000000000000000000000000000000000000
+    new: f23e5342a9ba11660c7ffd605204cee197882bd0
+  - ref: refs/tags/nfsd-6.13-1
+    old: 0000000000000000000000000000000000000000
+    new: 2da9a6b0aabe795fda7125989c5c696a09c18fdb
+  - ref: refs/tags/nfsd-and-nfs-for-6.13-v3
+    old: 0000000000000000000000000000000000000000
+    new: 7559779c0d8a879ff29afb9b64c19137a49aeff4
+  - ref: refs/tags/v6.14-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 12b58398bffc23db89e715414399b0533255da51
