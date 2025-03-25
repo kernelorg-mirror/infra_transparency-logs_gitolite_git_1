@@ -1,44 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5419531370899705013=="
+Content-Type: multipart/mixed; boundary="===============2396438593421158595=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 25 Mar 2025 21:31:44 -0000
-Message-Id: <174293830434.1175069.14206244182594766455@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Tue, 25 Mar 2025 21:33:12 -0000
+Message-Id: <174293839210.1175987.10827265884948779219@gitolite.kernel.org>
 
---===============5419531370899705013==
+--===============2396438593421158595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
   - ref: refs/heads/master
-    old: e54ceb624ecf2a8260f4acd177872ff6bafd392c
-    new: 2bd85ac28cd0a6bb4bf04fb4488e7fd41c36115e
-    log: |
-         4cf9d48f2fad2a6564d7aebab5018e6b26548b21 Merge branch into tip/master: 'locking/urgent'
-         79ddaabf70f03efaa13fd053b1687c13a4887e2e Merge branch into tip/master: 'objtool/urgent'
-         fb0d37cb3c5a1649a166a1c235bbebc9c7a0604f Merge branch into tip/master: 'x86/urgent'
-         0d115a2d3b9fa077c0ab46d365b0a5e1e2da8805 Merge branch into tip/master: 'timers/clocksource'
-         08c22638f5436aa59bd0708967ba6694ac9d67a5 Merge branch into tip/master: 'x86/alternatives'
-         e85046dbf962ef89dbeea6d46bb418a79ec2a0d4 Merge branch into tip/master: 'x86/asm'
-         f669078fb7fba7766a42c940c646ffe4885a136d Merge branch into tip/master: 'x86/cpu'
-         6e9ba1ae85f582942aa7f22d742b40246d159333 Merge branch into tip/master: 'x86/fpu'
-         2bd85ac28cd0a6bb4bf04fb4488e7fd41c36115e Merge branch into tip/master: 'x86/kconfig'
-         
-  - ref: refs/heads/tip/urgent
-    old: 3bcc714e91b8862957c61e3b4857c01b7a7defbd
-    new: fb0d37cb3c5a1649a166a1c235bbebc9c7a0604f
-    log: revlist-3bcc714e91b8-fb0d37cb3c5a.txt
+    old: 2df0c02dab829dd89360d98a8a1abaa026ef5798
+    new: 0d86c2395390efd61d111698ec120b5a79303b99
+    log: revlist-2df0c02dab82-0d86c2395390.txt
 
---===============5419531370899705013==
+--===============2396438593421158595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3bcc714e91b8-fb0d37cb3c5a.txt
+Content-Disposition: attachment; filename=revlist-2df0c02dab82-0d86c2395390.txt
 
 c057b6e4213519e3ac167318238cd772b483f14a dt-bindings: interrupt-controller: Add risc-v,aplic hart indexes
 b93afe8a3ac53ae52296d65acfaa9c5f582a48cc irqchip/riscv-aplic: Add support for hart indexes
@@ -434,8 +420,5 @@ a50b4fe095fb98e0b7da03b0a42fd1247284868e Merge tag 'timers-cleanups-2025-03-23' 
 2899aa3973efa3b0a7005cb7fb60475ea0c3b8a0 Merge tag 'x86_cache_for_v6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ae8371a46e59d768a5540a237309962b50b8bec7 Merge tag 'edac_updates_for_v6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 0d86c2395390efd61d111698ec120b5a79303b99 Merge tag 'ras_core_for_v6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-4cf9d48f2fad2a6564d7aebab5018e6b26548b21 Merge branch into tip/master: 'locking/urgent'
-79ddaabf70f03efaa13fd053b1687c13a4887e2e Merge branch into tip/master: 'objtool/urgent'
-fb0d37cb3c5a1649a166a1c235bbebc9c7a0604f Merge branch into tip/master: 'x86/urgent'
 
---===============5419531370899705013==--
+--===============2396438593421158595==--
