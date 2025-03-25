@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4871655771227234914=="
+Content-Type: multipart/mixed; boundary="===============7214555164606397701=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 25 Mar 2025 15:38:16 -0000
-Message-Id: <174291709677.793723.12555267960828573719@gitolite.kernel.org>
+Date: Tue, 25 Mar 2025 15:38:19 -0000
+Message-Id: <174291709906.793832.8992585356527503298@gitolite.kernel.org>
 
---===============4871655771227234914==
+--===============7214555164606397701==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 919f9f497dbcee75d487400e8f9815b74a6a37df
     new: 094ee6017ea09c11d6af187935a949df32803ce0
     log: revlist-919f9f497dbc-094ee6017ea0.txt
 
---===============4871655771227234914==
+--===============7214555164606397701==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -63,4 +63,4 @@ e1cd42a2143115e3bebb15b77e6276c9fdc06373 Merge branch '100GbE' of git://git.kern
 0dd765fae295832934bf28e45dd5a355e0891ed4 vmxnet3: unregister xdp rxq info in the reset path
 094ee6017ea09c11d6af187935a949df32803ce0 bonding: check xdp prog when set bond mode
 
---===============4871655771227234914==--
+--===============7214555164606397701==--
