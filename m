@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Tue, 25 Mar 2025 18:36:24 -0000
-Message-Id: <174292778457.968647.15496058120792842341@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/connman/connman
+Date: Tue, 25 Mar 2025 18:45:17 -0000
+Message-Id: <174292831730.978550.5693516459245858175@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/network/connman/connman
+user: denkenz
 changes:
-  - ref: refs/heads/dt/next
-    old: 31594827c3f41f3481ca40c45780b437c8aee56e
-    new: d5d50a69104e52bf90729cca6279b074d34a27cf
+  - ref: refs/heads/master
+    old: 300daeb9829f89da027c3c3f18fc08f6c1581bcd
+    new: 4e1c4469b1076c8f8f068b520cec72564afa24e3
     log: |
-         71a4cdc92976da70957315a4b8b98bf11aeb01cf dt-bindings: pps: gpio: Correct indentation and style in DTS example
-         d5d50a69104e52bf90729cca6279b074d34a27cf dt-bindings: edac: altera: socfpga: Convert to YAML
+         4e1c4469b1076c8f8f068b520cec72564afa24e3 wispr: Do not pass a negative error status to 'strerror'.
          
