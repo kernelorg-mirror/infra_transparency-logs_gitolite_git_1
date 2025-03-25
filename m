@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 25 Mar 2025 16:18:27 -0000
-Message-Id: <174291950705.832519.8269344214614466309@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Tue, 25 Mar 2025 16:29:29 -0000
+Message-Id: <174292016946.841845.14336751855351828348@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/tags/x86_cache_for_v6.15
-    old: 0000000000000000000000000000000000000000
-    new: 8d16c62e66770daa6be5c4300a45075351d7dd9b
+  - ref: refs/heads/dev
+    old: 2a00401917ecaf1610c0df9f67ae3d9f968c7848
+    new: 837fd4e6bd10d6556e23c77605a7987113e20cdf
+    log: |
+         837fd4e6bd10d6556e23c77605a7987113e20cdf srcu: Make FORCE_NEED_SRCU_NMI_SAFE depend on RCU_EXPERT
+         
