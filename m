@@ -1,16 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 25 Mar 2025 16:48:57 -0000
-Message-Id: <174292133753.861199.1321435689319087161@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arnd/asm-generic
+Date: Tue, 25 Mar 2025 16:50:50 -0000
+Message-Id: <174292145050.864407.18387588936006938593@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/arnd/asm-generic
+user: arnd
 changes:
-  - ref: refs/tags/sound-6.15-rc1
-    old: 0000000000000000000000000000000000000000
-    new: aad9b177fecc922ed65eeb55d58aa2dd03bf683e
+  - ref: refs/heads/asm-generic
+    old: dcce85484d3abe0fe0a930a154bdc076f1eb4ae0
+    new: ece69af2ede103e190ffdfccd9f9ec850606ab5e
+    log: |
+         ece69af2ede103e190ffdfccd9f9ec850606ab5e rwonce: handle KCSAN like KASAN in read_word_at_a_time()
+         
+  - ref: refs/heads/master
+    old: dcce85484d3abe0fe0a930a154bdc076f1eb4ae0
+    new: ece69af2ede103e190ffdfccd9f9ec850606ab5e
+    log: |
+         ece69af2ede103e190ffdfccd9f9ec850606ab5e rwonce: handle KCSAN like KASAN in read_word_at_a_time()
+         
