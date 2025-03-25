@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2538827309818425218=="
+Content-Type: multipart/mixed; boundary="===============0093967096390822263=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Tue, 25 Mar 2025 14:56:05 -0000
-Message-Id: <174291456508.752775.10257151554621325466@gitolite.kernel.org>
+Date: Tue, 25 Mar 2025 14:56:18 -0000
+Message-Id: <174291457881.753098.6209237006967939929@gitolite.kernel.org>
 
---===============2538827309818425218==
+--===============0093967096390822263==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: ce0779378c62758a0c503bf85e643c6d8f343703
+  - ref: refs/heads/pending
+    old: e6a200d672a28954840cb0c8dad40e7181c35cea
     new: c0dd3f4f70918cbcdd8da611811036a91b7dce33
-    log: revlist-ce0779378c62-c0dd3f4f7091.txt
+    log: revlist-e6a200d672a2-c0dd3f4f7091.txt
 
---===============2538827309818425218==
+--===============0093967096390822263==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ce0779378c62-c0dd3f4f7091.txt
+Content-Disposition: attachment; filename=revlist-e6a200d672a2-c0dd3f4f7091.txt
 
 94fcd39ca255758335ace05f70365f2126190ee0 dt-bindings: net: wireless: describe the ath12k AHB module for IPQ5332
 60031d9c3589c7983fd1deb4a4c0bebf0929890e wifi: ath12k: fix incorrect CE addresses
@@ -40,4 +40,4 @@ c01d5cc9b9fe2673885db738ec8d2e01de169b92 wifi: ath12k: Power up userPD
 881edc164071c2da3504b72fdc08ca8f1b915fdb wifi: ath12k: Power down userPD
 c0dd3f4f70918cbcdd8da611811036a91b7dce33 wifi: ath12k: enable ath12k AHB support
 
---===============2538827309818425218==--
+--===============0093967096390822263==--
