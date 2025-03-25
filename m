@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 25 Mar 2025 17:36:05 -0000
-Message-Id: <174292416528.906298.11919201639462776015@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 25 Mar 2025 17:41:36 -0000
+Message-Id: <174292449602.911462.12114660533026047038@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/tags/bpf-next-6.15
-    old: 0000000000000000000000000000000000000000
-    new: 9625f4032352aa8a2ccc81c3e52228497e9d3abd
+  - ref: refs/heads/main
+    old: 0032c99e83b9ce6d5995d65900aa4b6ffb501cce
+    new: 1ae1d705a1120e8e0ca41698c5a0fff6f5290bc1
+    log: |
+         1ae1d705a1120e8e0ca41698c5a0fff6f5290bc1 net: dsa: microchip: fix DCB apptrust configuration on KSZ88x3
+         
