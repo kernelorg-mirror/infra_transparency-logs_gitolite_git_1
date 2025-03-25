@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6025487517365084940=="
+Content-Type: multipart/mixed; boundary="===============8619440831080066176=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 25 Mar 2025 08:53:34 -0000
-Message-Id: <174289281427.381691.5520734508140001173@gitolite.kernel.org>
+Date: Tue, 25 Mar 2025 08:53:56 -0000
+Message-Id: <174289283641.382230.12328771519154684246@gitolite.kernel.org>
 
---===============6025487517365084940==
+--===============8619440831080066176==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,38 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: f37f47f59e362942eebbbba92d28b398d277bb94
-    new: d3450526a0daa74190ec4eeb4ac5a6dffa34eb73
-    log: revlist-f37f47f59e36-d3450526a0da.txt
+    old: d3450526a0daa74190ec4eeb4ac5a6dffa34eb73
+    new: a449a163a7d0816171a94ca7a5a2c1f136e05328
+    log: revlist-d3450526a0da-a449a163a7d0.txt
+  - ref: refs/heads/tip/urgent
+    old: 6140fc7d2da25bb7e0c689e526a4bde9c747a110
+    new: 5161668e7ad0b7f9d3343f43c79b56d94726c37b
+    log: |
+         d02ab43d3809a08b3dc99598c6661221de735e83 Merge branch into tip/master: 'objtool/urgent'
+         5161668e7ad0b7f9d3343f43c79b56d94726c37b Merge branch into tip/master: 'x86/urgent'
+         
 
---===============6025487517365084940==
+--===============8619440831080066176==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f37f47f59e36-d3450526a0da.txt
+Content-Disposition: attachment; filename=revlist-d3450526a0da-a449a163a7d0.txt
 
-116edfe173d0c59ec2aa87fb91f2f31d477b61b3 tools/x86/kcpuid: Fix error handling
-a866a6775793a2554585073704b83c4691d80740 tools/x86/kcpuid: Exit the program on invalid parameters
-660c29fe53deeb3b3aef1d666ed3bde7608380bd tools/x86/kcpuid: Simplify usage() handling
-6bef74cab03ada39f16f1fb86b732f7c71a9f07a tools/x86/kcpuid: Save CPUID output in an array
-ce61b6067d8cbfcd3607d942913b21c7ce2b384b tools/x86/kcpuid: Print correct CPUID output register names
-c061ded035b5bdeb21adc1046c0bfbba4bcee2d2 tools/x86/kcpuid: Remove unused local variable
-2b383ca0896f0ffc24fd4d93440320d2dd5daad1 tools/x86/kcpuid: Remove unused global variable
-8984cea5c4743d7fabf5de9da142cfc5dde1a144 tools/x86/kcpuid: Set parse_line() return type to void
-0a8f12ccd2e6edac89292af63c3a2050b4aac61b tools/x86/kcpuid: Use C99-style for loops
-c479a84488d10b3d4259186d80839f99e26b1706 tools/x86/kcpuid: Use <cpuid.h> intrinsics
-3151ec059dd1e71761f3beccc1e5f5c18fac4afa tools/x86/kcpuid: Refactor CPUID range handling for future expansion
-f2e2efe9489d883fdaac8b7b46bd669b6214b1cb tools/x86/kcpuid: Extend CPUID index mask macro
-74d29127f83042500c20c903dd67151dbdd86ec8 tools/x86/kcpuid: Consolidate index validity checks
-72383c8274edf0a1736973462603dcfd0a088bb9 tools/x86/kcpuid: Filter valid CPUID ranges
-87669e74d8481a066eb8d319cef7b2ea93d4e24b tools/x86/kcpuid: Define Transmeta and Centaur index ranges
-e1dde2f5a4ef4a0e91a67adebb7037bbfbcb0c50 tools/x86/kcpuid: Update bitfields to x86-cpuid-db v2.0
-f5e7fd6857963e697600d881242bbb39b0b9ac37 tools/x86/kcpuid: Update bitfields to x86-cpuid-db v2.1
-5e0c3c5e95f09236e5f7a73615bfa2666c58f182 tools/x86/kcpuid: Update bitfields to x86-cpuid-db v2.2
-300ba891418ae72df8d16fc26886f1d049c70907 tools/x86/kcpuid: Update bitfields to x86-cpuid-db v2.3
-0efb4dc3b084579efe7f5f88370b76d4f1c3bcee MAINTAINERS: Include the entire kcpuid/ directory under the X86 CPUID DATABASE entry
-d3450526a0daa74190ec4eeb4ac5a6dffa34eb73 Merge branch into tip/master: 'x86/cpu'
+d02ab43d3809a08b3dc99598c6661221de735e83 Merge branch into tip/master: 'objtool/urgent'
+5161668e7ad0b7f9d3343f43c79b56d94726c37b Merge branch into tip/master: 'x86/urgent'
+e2962d9c5c61c7cf1fe14d65e1253eb8ce8a1358 Merge branch into tip/master: 'timers/merge'
+d5ea3184324eba441bac90eaaebdb635ac198d3f Merge branch into tip/master: 'irq/core'
+00b4de1d54cbb804a93555752b4defebb3002441 Merge branch into tip/master: 'irq/drivers'
+496df3cb0ca29132f14fa4f84b7ee70bd2e04b0d Merge branch into tip/master: 'irq/msi'
+583b7b14646cdbb874791045c1f039c438f528ae Merge branch into tip/master: 'locking/futex'
+6b1a32e226c110ce40341a907ada3d8f6267f8f7 Merge branch into tip/master: 'ras/core'
+851fd4361ecfbc4f0fda380b476267cebd9e239f Merge branch into tip/master: 'timers/cleanups'
+be040b257652f1df3dbe269d2f7a12319d78877b Merge branch into tip/master: 'timers/clocksource'
+1848d9ab6deddd61feef0d527ddee4ac716dc9c7 Merge branch into tip/master: 'timers/core'
+486c7d01ce73ec735399b183529112163f1a7be3 Merge branch into tip/master: 'x86/alternatives'
+a8722897e3432ca5bfb11c4f09c1d6ab17faf220 Merge branch into tip/master: 'x86/bugs'
+2648317f9cc9b3f65e1b0ca2031d78de62ab24c6 Merge branch into tip/master: 'x86/cache'
+6834c7a3f01904b0d0eb7a93f9ccf8913421f71b Merge branch into tip/master: 'x86/cpu'
+a449a163a7d0816171a94ca7a5a2c1f136e05328 Merge branch into tip/master: 'x86/kconfig'
 
---===============6025487517365084940==--
+--===============8619440831080066176==--
