@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============5966850569263668830=="
+Content-Type: multipart/mixed; boundary="===============3105325831004353021=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Tue, 25 Mar 2025 05:56:38 -0000
-Message-Id: <174288219883.230418.7367320055401353181@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Tue, 25 Mar 2025 05:56:53 -0000
+Message-Id: <174288221306.230787.13648701595121526707@gitolite.kernel.org>
 
---===============5966850569263668830==
+--===============3105325831004353021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: westeri
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/master
     old: 4701f33a10702d5fc577c32434eb62adde0a1ae1
     new: 38fec10eb60d687e30c8c6b5420d86e8149f7557
     log: revlist-4701f33a1070-38fec10eb60d.txt
 
---===============5966850569263668830==
+--===============3105325831004353021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -233,4 +233,4 @@ fcea541800539899ba0073259cd35d615488a415 Merge tag 'keys-next-6.14-rc8' of git:/
 586de92313fcab8ed84ac5f78f4d2aae2db92c59 Merge tag 'i2c-for-6.14-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 38fec10eb60d687e30c8c6b5420d86e8149f7557 Linux 6.14
 
---===============5966850569263668830==--
+--===============3105325831004353021==--
