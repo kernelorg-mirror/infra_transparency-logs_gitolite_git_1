@@ -1,24 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 25 Mar 2025 14:30:50 -0000
-Message-Id: <174291305080.730861.6265184094135379675@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/connman/connman
+Date: Tue, 25 Mar 2025 14:31:45 -0000
+Message-Id: <174291310558.731480.74245669118761533@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/network/connman/connman
+user: denkenz
 changes:
-  - ref: refs/heads/main
-    old: 9da10c2d69c31eb88cb2df8599953eddd5371617
-    new: 4a5524a2f7607c323229bdc69b12cac96546ecae
+  - ref: refs/heads/master
+    old: acb4bb421530ad23b1a788b19b5c3bc2726c7cc3
+    new: 4c8e985e296bceec5952673e3085827a0e12fd8f
     log: |
-         16ad8394bf310791d2ad171e266b639b6b265fc5 net/mlx5: Lag, use port selection tables when available
-         ade4794fe8934e9c277ef50acb11db9e68cbea7c net/mlx5: fw reset, check bridge accessibility at earlier stage
-         91e7398e0603a8b9b028cd53ce3170c8ceef54f0 net/mlx5: Update pfnum retrieval for devlink port attributes
-         0fe234769ea6ca0e03516867b550348f6fe9db47 net/mlx5e: CT: Filter legacy rules that are unrelated to nic
-         56617e11bd6a5e968351f0788a1b9b29de8afbec net/mlx5e: TC, Don't offload CT commit if it's the last action
-         4a5524a2f7607c323229bdc69b12cac96546ecae Merge branch 'mlx5-misc-enhancements-2025-03-19'
+         8d0117f5ffed51feae84f8d2ed128d7e21cf91cd gweb: Adopt optional, immutable GError instance for GWeb result errors.
+         32d7fcb1f1e480b9d98377a998055951dec2857a gweb: Added and leveraged 'call_result_func_{failure,success}' wrappers.
+         6975c4b8a3bb354ac1ba94d8237bf327bc0e1278 gweb: Close web request session finalization 'hole'.
+         4c8e985e296bceec5952673e3085827a0e12fd8f gweb: Add documentation to 'received_data_{finalize,continue}'.
          
