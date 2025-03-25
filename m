@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8689146454889976784=="
+Content-Type: multipart/mixed; boundary="===============4364078802294262879=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 25 Mar 2025 15:50:29 -0000
-Message-Id: <174291782985.808390.7173709864064386669@gitolite.kernel.org>
+Date: Tue, 25 Mar 2025 15:50:32 -0000
+Message-Id: <174291783261.808535.8676017266391418629@gitolite.kernel.org>
 
---===============8689146454889976784==
+--===============4364078802294262879==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: bfc17c1658353f22843c7c13e27c2d31950f1887
     new: 00a25cca0d7be87285c5d0acf7ed2a04910559f1
     log: revlist-bfc17c165835-00a25cca0d7b.txt
 
---===============8689146454889976784==
+--===============4364078802294262879==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -448,4 +448,4 @@ f3483c8e1da62993fe0f57af23b925de7661adaa net: rfs: hash function change
 5e8df79497ce522170b5964d92c7f7df28dc1fa7 net: au1000_eth: Mark au1000_ReleaseDB() static
 00a25cca0d7be87285c5d0acf7ed2a04910559f1 Merge tag 'nf-next-25-03-23' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf-next
 
---===============8689146454889976784==--
+--===============4364078802294262879==--
