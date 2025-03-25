@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5595857198411923630=="
+Content-Type: multipart/mixed; boundary="===============0329728972086471690=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 25 Mar 2025 15:38:47 -0000
-Message-Id: <174291712729.794847.10615986305104831023@gitolite.kernel.org>
+Date: Tue, 25 Mar 2025 15:39:18 -0000
+Message-Id: <174291715867.795333.9816347357837624506@gitolite.kernel.org>
 
---===============5595857198411923630==
+--===============0329728972086471690==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: bfc17c1658353f22843c7c13e27c2d31950f1887
-    new: 00a25cca0d7be87285c5d0acf7ed2a04910559f1
-    log: revlist-bfc17c165835-00a25cca0d7b.txt
+  - ref: refs/heads/dev-queue
+    old: 2e42180ee7b87a42dc4e7e58bab838ca66e8e52a
+    new: 327687c3756dc1347271668bf31fb3bd78bbb99a
+    log: revlist-2e42180ee7b8-327687c3756d.txt
 
---===============5595857198411923630==
+--===============0329728972086471690==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bfc17c165835-00a25cca0d7b.txt
+Content-Disposition: attachment; filename=revlist-2e42180ee7b8-327687c3756d.txt
 
 7f2e104f2eebc2c3e15ae34740c7b05d0362040a wifi: ath9k: cleanup struct ath_tx_control and ath_tx_prepare()
 8fe64b0fedcb7348080529c46c71ae23f60c9d3e wifi: ath9k: use unsigned long for activity check timestamp
@@ -447,5 +447,94 @@ dd557266cf5fb01a8cd85482dd258c1e172301d1 net: stmmac: block PHY RXC clock-stop
 f3483c8e1da62993fe0f57af23b925de7661adaa net: rfs: hash function change
 5e8df79497ce522170b5964d92c7f7df28dc1fa7 net: au1000_eth: Mark au1000_ReleaseDB() static
 00a25cca0d7be87285c5d0acf7ed2a04910559f1 Merge tag 'nf-next-25-03-23' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf-next
+05506af4626c073e3ed3943eabef9db86f35f7c7 coccinelle: misc: secs_to_jiffies script: Create dummy report
+774d752bb599e9253f5c9e965bc0a25525924f3b ice: health.c: fix compilation on gcc 7.5
+ec06a10be9946a905320d25fdf00f1e0097a0f55 ice, irdma: fix an off by one in error handling code
+515c84ed48aa4f6098dd6ff9a94e4e0615488151 idpf: check error for register_netdev() on init
+5995a25d5fbfdb9ff55d5d6fc0533b7ec69281a4 ice: fix check for existing switch rule
+d44769194f803e557bf10300075acd3ac04d7cce ice: do not add LLDP-specific filter if not necessary
+0c11cb2243da3743c8459a6a81f28e3b18d9e5c1 ice: receive LLDP on trusted VFs
+1dca15eaea68743e17f1f3ae1be33161b3ff2039 ice: remove headers argument from ice_tc_count_lkups
+0b13c7014cb14bd4ab60dac95d3dcec93ed0d1d5 ice: support egress drop rules on PF
+b13e2a722e86c52603612119105cad2998aae10e ice: enable LLDP TX for VFs through tc
+623dcbde1260e5b872888af5c325331277d820f3 irdma: free iwdev->rf after removing MSI-X
+808c8179da643fd05fa0bfe56090e61a3813c823 ice: redesign dpll sma/u.fl pins control
+6876689cbc4c2aaf807672d9e9f8183462e35db2 ice: change SMA pins to SDP in PTP API
+d5bd261e83af6f6c4857c66856287dc25fc222bd ice: add ice driver PTP pin documentation
+914ca3f460ee3c71e600b73b5c90dbe360ae027f ixgbe: add MDD support
+c0041d5cf05d34bbca691c22b165fca6df44d930 ixgbe: check for MDD events
+35394f9d96e4727e57703a9787fa9495714e8bee ixgbe: add Tx hang detection unhandled MDD
+24dcc7c0d08a4afe480e429c30dad677fa3ff2b8 ixgbe: turn off MDD while modifying SRRCTL
+2046317e68fa16116a0d6f467eb6056aec594897 ice: ensure periodic output start time is in the future
+e84f1a50efc3da5fbc5d7ea045230858b2be68b3 ice: fix Get Tx Topology AQ command error on E830
+0b46d412f5f0f3ca472d0389827a8d6be42f4da6 ice: fix lane number calculation
+1f5b1bd8e39ab8fbc94d35fa9862c7706998e554 ixgbe: fix media type detection for E610 device
+24f4741cdf44c4e10728a3b622afe1f916dcef3b devlink: add value check to devlink_info_version_put()
+af66deb778f110f574003fb71112ce0ee248a45a ixgbe: wrap netdev_priv() usage
+e0834c7becb121031718bffab0988600c1d32436 ixgbe: add initial devlink support
+fc42225a64293a78fddc381bc3fece2265136ea7 ixgbe: add handler for devlink .info_get()
+09e30f95a665afceba981c51e9faa1e6bdaf218d ixgbe: add E610 functions for acquiring flash data
+827aa5def014d0f296a1d70ab6b756101d6ab67b ixgbe: read the OROM version information
+e6a6db321cece1af41d4c13ef2fd7ceb0d7edae1 ixgbe: read the netlist version information
+13db7dfdb888c7cb19bb70d0cbe5166d0621983f ixgbe: add .info_get extension specific for E610 devices
+1b4ff5c45b82ca3c0dd7643097fcf971c9d838fb ixgbe: add E610 functions getting PBA and FW ver info
+f4165c3d5220b1ec0631492d367cc27b0e938e1f ixgbe: extend .info_get with() stored versions
+8da9e3529f055caa5c22e9ebce724de55eac38cc ixgbe: add device flash update via devlink
+856e749b8883b2504a08aeeea819f2dc7d009ee3 ixgbe: add support for devlink reload
+18ebcbab372ed973c3f6cb47141115216b6d7bca ixgbe: add FW API version check
+6fde92c3224bc778c97132cd6497d32c0f8db6af ixgbe: add E610 implementation of FW recovery mode
+9f0dd75549bd34480588607fd6f991e846fc7c25 ixgbe: add support for FW rollback mode
+a6dc0f871ab145ccc4ed82faa24ceaa78c275206 net: e1000e: convert to ndo_hwtstamp_get() and ndo_hwtstamp_set()
+2977f3b55e6e7c0d4dae2a01b95192243c7cc7c9 ice: fix fwlog after driver reinit
+9cde8d1aa44dc2aca5704051537a7d0015bf9715 ice: Allow 100M speed for E825C SGMII device
+368766d26f1982b505afbb542f5ed117c23d9466 idpf: add initial PTP support
+e7d04e14a41e8e4701e1486ef03ff5ac3775cbaf virtchnl: add PTP virtchnl definitions
+517bbd92be193f3ce18f46ff3d9b8306a05de47b idpf: move virtchnl structures to the header file
+2c54af2e302d82338b216a3c9472b8e5e4d64b51 idpf: negotiate PTP capabilities and get PTP clock
+d904de09fc5676867955450c4d4c6ede8abb3caf idpf: add mailbox access to read PTP clock time
+dbd171fb867ce3261fd743f829f646858fb464df idpf: add PTP clock configuration
+52dab0a4343b45fc8994674d8fbf86fe81e0df81 idpf: add Tx timestamp capabilities negotiation
+719f5269b7dcdb9cc8ba811305de03ad139267f8 idpf: add Tx timestamp flows
+6513dd97f9b73e3b1ddbb590646ee6b076dcaea7 idpf: add support for Rx timestamping
+7a7def040923d4e0df4763c0233c94ba5b875a67 idpf: change the method for mailbox workqueue allocation
+5196f24c8425f0641469455971031fa906b98ec3 idpf: assign extracted ptype to struct libeth_rqe_info field
+a40550f77a95934c320a3ddf5c046bec079d0180 ixgbe: create E610 specific ethtool_ops structure
+429a273dde6a4eb420a9a9b296d97a017728b3eb ixgbe: add support for ACPI WOL for E610
+b1316f4c761a86b111113d50b1f0f5a54503f2c1 ixgbe: apply different rules for setting FC on E610
+7e7b1587872cf155453ad07a5f605d91e285a03a ixgbe: add E610 .set_phys_id() callback implementation
+2ea1017c833e788ed3522346ca42b01d19165e8e virtchnl: make proto and filter action count unsigned
+7777aa46aa3d20a9e9f4319cfcec6accd95bc97d ice: stop truncating queue ids when checking
+5e7ba3993c9eab896ea0882f1f376678727128db ice: validate queue quanta parameters to prevent OOB access
+eb4b792a730ca7a352d776c3f43c14edf703cb73 ice: fix input validation for virtchnl BW
+8245ba5502376bbeefc0419bbd085cb4de76e4fa ice: fix using untrusted value of pkt_len in ice_vc_fdir_parse_raw()
+519b6b66bab20bb6cd96b9cf0d24e058d538dc9c igc: Fix XSK queue NAPI ID mapping
+86d333e005506ae2c2813df6258b82cbfa8f4fea ixgbe: Fix unreachable retry logic in combined and byte I2C write functions
+2da514669e0ae34fe769557a7350ca9030afb0d1 i40e: fix MMIO write access to an invalid page in i40e_clear_hw
+5fc78f1546ce07d73344b0465e0fe54363c5a026 e1000e: change k1 configuration on MTP and later platforms
+d71b7fe83c07e79e61946387b5d12f1ad337d2b6 ice: fix reservation of resources for RDMA when disabled
+9798c8edb4b182ac71ae30de1c37c5a90d8d606a igc: enable HW vlan tag insertion/stripping by default
+c8686a7f2ba5e6d8c6063d7e0667e8c7a2e4a2f1 ice: add E830 Earliest TxTime First Offload support
+c5775cd4ac523ab8b55bae4ec8236cae26bddda2 ice: improve error message for insufficient filter space
+c23b6f594befc4f0aa7bad11aafee03588a87644 idpf: fix adapter NULL pointer dereference on reboot
+e82f1bb3f0571f4c14119959829ea637318790d1 ice: make const read-only array dflt_rules static
+3b04abe3abd0fe9a3f1592ffd3318a9318bbdabf net: stmmac: move frag_size handling out of spin_lock
+541caeb18d5987c7f2dd00108e67b5510ab406de net: ethtool: mm: extract stmmac verification logic into common library
+e2510cfbb8eaf6a9ac45ccbe7e7a80b61049ffab net: ethtool: mm: reset verification status when link is down
+48201617c8442a85591cde93d08e26a24e13058e igc: rename xdp_get_tx_ring() for non-xdp usage
+3328b3154b946120e7862103e36d1407a42ca98b igc: rename I225_RXPBSIZE_DEFAULT and I225_TXPBSIZE_DEFAULT
+e1e9defc43f8f8aee3f8b633b360a71d8a568971 igc: use FIELD_PREP and GENMASK for existing TX packet buffer size
+dfe7e4b3c008d9eb106d5438b950d279d881d249 igc: optimize TX packet buffer utilization for TSN mode
+5d05eb26a77105356ff14faa2852d72db6a12f0e igc: use FIELD_PREP and GENMASK for existing RX packet buffer size
+37a0b39279beb201b60d6f6fe294636b8708f23c igc: set the RX packet buffer size for TSN mode
+0798a1d3ef18d738f382e46612d912fb6bdc7df1 igc: add support for frame preemption verification
+1cd30848bcede4fd740d780a067df9a71452ad0b igc: add support to set tx-min-frag-size
+c5bf7babaa6ff6939c54de42d95709e4bb23dfb1 igc: block setting preemptible traffic class in taprio
+1739e13ed5c24372a0bb50cd14b9e26e147227c3 igc: add support to get MAC Merge data via ethtool
+1136f13e22310ae98b7a8cfca5800866b411517b igc: add support to get frame preemption statistics via ethtool
+cf7497c0df900da22f40eace39cfdaca478cb6f1 igc: Fix TX drops in XDP ZC
+e7bcda3f5d7f26f3818df23e284a0bd19930e2b0 igb: Link IRQs to NAPI instances
+3fdb73d6d75ce58ad81adb3a7f088e3532987fdc igb: Link queues to NAPI instances
+591751d0127b45021740b1d448b67cf5970c8f7a igb: Add support for persistent NAPI config
+327687c3756dc1347271668bf31fb3bd78bbb99a igb: Get rid of spurious interrupts
 
---===============5595857198411923630==--
+--===============0329728972086471690==--
