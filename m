@@ -1,25 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/ell/ell
-Date: Tue, 25 Mar 2025 13:03:06 -0000
-Message-Id: <174290778633.653419.15790997060434057176@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 25 Mar 2025 13:10:32 -0000
+Message-Id: <174290823264.660854.10125536160578685236@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/ell/ell
-user: holtmann
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: b7eab9f5930fae6f4db9e686816be5fad3076c32
-    new: ba3c325273e6b65d86d1c80729520c19056a241b
+  - ref: refs/heads/main
+    old: cec7dde2a926b496b3227ee59973b298cf76cc2a
+    new: e1cd42a2143115e3bebb15b77e6276c9fdc06373
     log: |
-         dbabcb3f65b2d95271f4444c6cb36fd109574263 ecdh: Allow l_ecc_scalar_new_random to fail and handle failure
-         2e787d17631980ce0a1c5240a3639633db85f158 ecc: Fix random scalar generation for NIST P-224 and P-521 curves
-         2e1adf5302b42c4f9652b8754cbd8f4194281eeb unit: Fix test case data for ECDH P-384
-         efcddbbc76fe95576005476c19f95a56d1fa173e unit: Add test case for ECDH P-224
-         85df5fdb14d61b38dbdcd2a017156a9d03c46616 unit: Add test case for ECDH P-521
-         8b2fff9ace50f9a5caca247c021bf05c2186eab9 unit: Fix ECDH test vector descriptions
-         ba3c325273e6b65d86d1c80729520c19056a241b unit: Add basic ECDH test for all supported curves
+         fa8eda19015ca9ae625f46d4ecb13df651bb54cc ice: health.c: fix compilation on gcc 7.5
+         53ce7166cbffd2b8f3bd821fd3918be665afd4c6 ice: ensure periodic output start time is in the future
+         7fd71f317288d5150d353ce9d65b1e2abf99a8e2 ice: fix reservation of resources for RDMA when disabled
+         db5e8ea155fc1d89c87cb81f0e4a681a77b9b03f virtchnl: make proto and filter action count unsigned
+         f91d0efcc3dd7b341bb370499b99dc02d4fb792f ice: stop truncating queue ids when checking
+         e2f7d3f7331b92cb820da23e8c45133305da1e63 ice: validate queue quanta parameters to prevent OOB access
+         c5be6562de5a19c44605b1c1edba8e339f2022c8 ice: fix input validation for virtchnl BW
+         1388dd564183a5a18ec4a966748037736b5653c5 ice: fix using untrusted value of pkt_len in ice_vc_fdir_parse_raw()
+         680811c67906191b237bbafe7dabbbad64649b39 idpf: check error for register_netdev() on init
+         e1cd42a2143115e3bebb15b77e6276c9fdc06373 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
          
