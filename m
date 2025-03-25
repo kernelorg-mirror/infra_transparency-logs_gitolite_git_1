@@ -1,24 +1,34 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Tue, 25 Mar 2025 08:14:16 -0000
-Message-Id: <174289045641.348338.16779661857358458313@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Tue, 25 Mar 2025 08:18:05 -0000
+Message-Id: <174289068568.352297.14155883853706347777@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/bugfix/common
-    old: c56afb50b5061938e7c0b45d1077d0da14fe31ee
-    new: 3adfb905dc793a4215fdabac98bec7a2cbb93159
+  - ref: refs/heads/seen
+    old: 8abb858c72fb134dfec5b586f2f580f5ae533a10
+    new: f82120a9d18969c7db998cb35e4e26a1610590f4
     log: |
-         07b638d5ebf4c6922b3c5033b4299b0e94b71a1e f2fs: add a fast path in finish_preallocate_blocks()
-         ecd5fd09e53b63b9482bfa54f5ff60dac5cb1ba6 f2fs: zone: fix to calculate first_zoned_segno correctly
-         d9418470884622c2affdde540c3f08f73005c168 f2fs: zone: fix to avoid inconsistence in between SIT and SSA
-         e96e4b853b7b17c4996650655bedcf8f051b7cf4 f2fs: add f2fs_bug_on() to detect potential bug
-         1dc8f5c11bc87f6d15d3e1b1e6123055d14faf22 f2fs: fix to avoid invalid wait context issue
-         3adfb905dc793a4215fdabac98bec7a2cbb93159 f2fs: doc: disk layout
+         4451a164e5a5a5910c632112d7d27bd85adc8c80 install meson for Documentation job
+         7f316161fb985b19e86b1c42298322ca14f771ec Merge branch 'ta/bulk-checkin-signed-compare-false-warning-fix' into jch
+         03ddfb379086572a3d97c561157433f0f1278011 Merge branch 'jt/clone-guess-remote-head-fix' into jch
+         e29bfe075f2409a745ba4c29d256511022df72e7 Merge branch 'jc/ci-meson-check-build-docs-fix' into jch
+         53d28f8788b7390dc246ced5d6557f539c208110 Merge branch 'kn/non-transactional-batch-updates' into seen
+         6e08a6ab0a6cd5c5edd271f702cb7a4fcb3f44fc Merge branch 'jt/ref-transaction-abort-fix' into seen
+         a1a93a6bfaea61449b05906ea1941ea13a7472d5 Merge branch 'jt/rev-list-z' into seen
+         4d054b219eee312586c8790fcb4b693189b4a1c7 Merge branch 'jc/doc-attr-tree' into seen
+         b7b61ccfd9f521f8f56dbc9bb4fe45624b2fd8e6 Merge branch 'ib/diff-S-G-with-longhand' into seen
+         f82120a9d18969c7db998cb35e4e26a1610590f4 Merge branch 'sj/meson-test-environ-fix' into seen
+         
+  - ref: refs/notes/amlog
+    old: 6282bcf7e3ebe7e06a6c52d6d33fb9af15c5fc88
+    new: 8ba62b182c07b5409df635ef06a41aaeb444eb4b
+    log: |
+         8ba62b182c07b5409df635ef06a41aaeb444eb4b amlog
          
