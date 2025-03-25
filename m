@@ -1,57 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============6071281689023336813=="
+Content-Type: multipart/mixed; boundary="===============1887804520698782416=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 25 Mar 2025 09:30:28 -0000
-Message-Id: <174289502802.414828.68121744392532394@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Tue, 25 Mar 2025 09:34:57 -0000
+Message-Id: <174289529704.417337.18000520334209423208@gitolite.kernel.org>
 
---===============6071281689023336813==
+--===============1887804520698782416==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/master
-    old: a78961ce8c8816f4be5fa83a4680ca96cc041813
-    new: 135bdbb1734a7902d139b4ba744fea97290c176b
-    log: revlist-a78961ce8c88-135bdbb1734a.txt
-  - ref: refs/heads/tip/urgent
-    old: 5161668e7ad0b7f9d3343f43c79b56d94726c37b
-    new: 190733e8805717f45a52f4431c7a1ebf1a9eb9e1
-    log: |
-         878477a5953769d4fe5facc5033481f81d0dfce7 x86/fpu: Update the outdated comment above fpstate_init_user()
-         0e1ff67d164be45e8ddfea5aaf5803224ede0805 x86/split_lock: Simplify reenabling
-         e2daeec8774b989d8610c201698ef413e3b44ccb Merge branch into tip/master: 'locking/urgent'
-         53adaed56edade18d634fc14073e3017f529182d Merge branch into tip/master: 'objtool/urgent'
-         190733e8805717f45a52f4431c7a1ebf1a9eb9e1 Merge branch into tip/master: 'x86/urgent'
-         
+  - ref: refs/heads/pci/pcie-apple-t6020
+    old: 0e43f0ac92d01719800757480635833f2bc1066f
+    new: fdc85c3f44c3a1f17b084720362d07f757f7b1ee
+    log: revlist-0e43f0ac92d0-fdc85c3f44c3.txt
 
---===============6071281689023336813==
+--===============1887804520698782416==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a78961ce8c88-135bdbb1734a.txt
+Content-Disposition: attachment; filename=revlist-0e43f0ac92d0-fdc85c3f44c3.txt
 
-e2daeec8774b989d8610c201698ef413e3b44ccb Merge branch into tip/master: 'locking/urgent'
-53adaed56edade18d634fc14073e3017f529182d Merge branch into tip/master: 'objtool/urgent'
-190733e8805717f45a52f4431c7a1ebf1a9eb9e1 Merge branch into tip/master: 'x86/urgent'
-7c80201a9265e90472db96d1b14020bb8f72364e Merge branch into tip/master: 'timers/merge'
-5c17f66372566e321a8a2fd275265efd60bd7ba6 Merge branch into tip/master: 'irq/core'
-97c32fa2ba94f4573627967859d23a2e50f3ee2f Merge branch into tip/master: 'irq/drivers'
-fef1eb5c8c27e829d9c0a48823add50fd9e949fe Merge branch into tip/master: 'irq/msi'
-e943a52c5ea97a5fb5d36d94b531de59ee42b975 Merge branch into tip/master: 'locking/futex'
-1a39b7e870c371c1364b65326a47563bd169f993 Merge branch into tip/master: 'ras/core'
-3c2054f6da3e7757d3198a71610311472e2a0890 Merge branch into tip/master: 'timers/cleanups'
-276c5d68de38a51814823f3a731312a05ede03cb Merge branch into tip/master: 'timers/clocksource'
-722515af991118ac862c447ba8f7b2f839104f3f Merge branch into tip/master: 'timers/core'
-d69c6d2ad78767ae4b8ecac4c522166371f5c556 Merge branch into tip/master: 'x86/alternatives'
-601aaf27a6fb2228a20f25d1d98a221fb9fc19a4 Merge branch into tip/master: 'x86/bugs'
-c8101e581f940395ebc8a94edb56f98748b3e884 Merge branch into tip/master: 'x86/cache'
-b6ff6bbc66d3f93ee754b01f77ddcd5ce1308018 Merge branch into tip/master: 'x86/cpu'
-135bdbb1734a7902d139b4ba744fea97290c176b Merge branch into tip/master: 'x86/kconfig'
+18f8435993c76d23ac25369d211e8e51a48368cb dt-bindings: pci: apple,pcie: Add t6020 compatible string
+e23cf73d4de27637e75ee44d0f3a7a5adb3e71fa PCI: host-generic: Extract an ecam bridge creation helper from pci_host_common_probe()
+33dd7f61f26224ce0fdb8cd99f4fc6fbdd2d8328 PCI: ecam: Allow cfg->priv to be pre-populated from the root port device
+d930150e75b017eb41c6050574d3c182d52ae944 PCI: apple: Move over to standalone probing
+f9b81290f87702e49be379e6f91dd99d999a07aa PCI: apple: Dynamically allocate RID-to_SID bitmap
+e7c82dd2afaaa10eb9acf591d1778acb377ea41a PCI: apple: Move away from INTMSK{SET,CLR} for INTx and private interrupts
+7e67aad7eec16ca04f75701fc7d1e7ecf56899ac PCI: apple: Fix missing OF node reference in apple_pcie_setup_port
+61ef69b62733e10ab37f8d8efb86ff70ae33788d PCI: apple: Set only available ports up
+46f97453657b5bed6046a1ddc2b4a4ece81a45ff PCI: apple: Move port PHY registers to their own reg items
+ff755048dc1e9b2cd2e31f2b1b29cb211633226a PCI: apple: Drop poll for CORE_RC_PHYIF_STAT_REFCLK
+b849420b95e830a9c98dcdd60aa3823cf0deb5a7 PCI: apple: Use gpiod_set_value_cansleep in probe flow
+78c9a982d357e9a037fd2507481657f76b5a5a4f PCI: apple: Abstract register offsets via a SoC-specific structure
+fdc85c3f44c3a1f17b084720362d07f757f7b1ee PCI: apple: Add T602x PCIe support
 
---===============6071281689023336813==--
+--===============1887804520698782416==--
