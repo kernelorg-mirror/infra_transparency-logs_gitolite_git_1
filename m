@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6696795520520374897=="
+Content-Type: multipart/mixed; boundary="===============4462681143679290395=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 25 Mar 2025 15:26:36 -0000
-Message-Id: <174291639642.782753.14622664095667079700@gitolite.kernel.org>
+Date: Tue, 25 Mar 2025 15:26:44 -0000
+Message-Id: <174291640443.783037.2496626790582601827@gitolite.kernel.org>
 
---===============6696795520520374897==
+--===============4462681143679290395==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 919f9f497dbcee75d487400e8f9815b74a6a37df
-    new: 094ee6017ea09c11d6af187935a949df32803ce0
-    log: revlist-919f9f497dbc-094ee6017ea0.txt
+  - ref: refs/heads/dev-queue
+    old: fab5ec4c830a4949f7a201bc75205c646b9b13d6
+    new: 7bfc05a17feb3aeafb184cc4121f8f964485bb8b
+    log: revlist-fab5ec4c830a-7bfc05a17feb.txt
 
---===============6696795520520374897==
+--===============4462681143679290395==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-919f9f497dbc-094ee6017ea0.txt
+Content-Disposition: attachment; filename=revlist-fab5ec4c830a-7bfc05a17feb.txt
 
 fa8eda19015ca9ae625f46d4ecb13df651bb54cc ice: health.c: fix compilation on gcc 7.5
 53ce7166cbffd2b8f3bd821fd3918be665afd4c6 ice: ensure periodic output start time is in the future
@@ -62,5 +62,13 @@ cec7dde2a926b496b3227ee59973b298cf76cc2a Merge branch 'mlx5-misc-fixes-2025-03-1
 e1cd42a2143115e3bebb15b77e6276c9fdc06373 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 0dd765fae295832934bf28e45dd5a355e0891ed4 vmxnet3: unregister xdp rxq info in the reset path
 094ee6017ea09c11d6af187935a949df32803ce0 bonding: check xdp prog when set bond mode
+b8af9e700f1df8777bcf52f1415b2a6401e91bf2 coccinelle: misc: secs_to_jiffies script: Create dummy report
+e355178c0d1def3c17eba48d60e80994ea2764dd ice: fix Get Tx Topology AQ command error on E830
+52116071b6dd8f02d9cba781750f305e7d40cb1a ice: fix lane number calculation
+21578dddac9a5a5dc4070202d87921a5e27ccd51 ixgbe: fix media type detection for E610 device
+c87d4f6025366bacea8ffe48862333769e93ac45 ice: fix fwlog after driver reinit
+4d33bcdaff91e23e29a064c1d0f7488514c874d0 igc: Fix XSK queue NAPI ID mapping
+ed9ee3a0caa847cf114469fc2be1f509f956f6ba e1000e: change k1 configuration on MTP and later platforms
+7bfc05a17feb3aeafb184cc4121f8f964485bb8b idpf: fix adapter NULL pointer dereference on reboot
 
---===============6696795520520374897==--
+--===============4462681143679290395==--
