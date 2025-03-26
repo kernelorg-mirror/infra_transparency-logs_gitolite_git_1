@@ -1,23 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Wed, 26 Mar 2025 14:03:43 -0000
-Message-Id: <174299782369.2153510.14094916042622274294@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2263453450735989696=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Wed, 26 Mar 2025 14:05:43 -0000
+Message-Id: <174299794311.2156747.9262717093527427281@gitolite.kernel.org>
+
+--===============2263453450735989696==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/ring-buffer/for-next
-    old: 0e5d1a4b22bca3d9a9a2d2ba79ed67c5e74607d7
-    new: 6858889ca9e9f8be32606db5a3ea872ea183cd27
-    log: |
-         bab85a646dd91089bd4de518951be068096c7a20 tracing: Show last module text symbols in the stacktrace
-         3262f698d9974c0c8df1f8b7f6bba2a42a77ab5c tracing: Update function trace addresses with module addresses
-         1cb3e1b2964e363e4565d49153007b7edec21e3e tracing: Show function names when possible when listing fields
-         98172f69f4c547efaad7a8da5807a836a76e9fe6 tracing: Only return an adjusted address if it matches the kernel address
-         6858889ca9e9f8be32606db5a3ea872ea183cd27 tracing: Adjust addresses for printing out fields
-         
+  - ref: refs/tags/platform-drivers-x86-v6.15-1
+    old: 0000000000000000000000000000000000000000
+    new: c3a2b4a65a33fa7ca9576bcbf82a484e3930f69a
+
+--===============2263453450735989696==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1742997970 +0200
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1742997940-6af331f76e318a98d2003d4deb8eb58f179269ea
+
+0000000000000000000000000000000000000000 c3a2b4a65a33fa7ca9576bcbf82a484e3930f69a refs/tags/platform-drivers-x86-v6.15-1
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZ+QJ1QAKCRBZrE9hU+XO
+MeP2AQDwXKaT8wX9pgGaY6eASHDU/7oNc/8AgSdO1wTrZRtnhwEA+Oz/9+MGdtsz
+cTU71u9os6J6leS73dTK07qccF9O1Q4=
+=pZVd
+-----END PGP SIGNATURE-----
+
+--===============2263453450735989696==--
