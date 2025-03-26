@@ -1,60 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============3344362046783477228=="
+Content-Type: multipart/mixed; boundary="===============6444823098978855515=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Wed, 26 Mar 2025 22:02:00 -0000
-Message-Id: <174302652073.2574461.5973675525009227653@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Wed, 26 Mar 2025 22:05:03 -0000
+Message-Id: <174302670316.2577746.13806496459255175713@gitolite.kernel.org>
 
---===============3344362046783477228==
+--===============6444823098978855515==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/heads/master
-    old: 848e076317446f9c663771ddec142d7c2eb4cb43
-    new: 5e06802b426baa2d3c2a5d7784a6d4c2a9338c3e
-    log: revlist-848e07631744-5e06802b426b.txt
+  - ref: refs/heads/scx
+    old: ba75374b3b89f160291ee325742b214fc3d09603
+    new: 219f0058160385256d5882d65f0be1123d362c4c
+    log: revlist-ba75374b3b89-219f00581603.txt
 
---===============3344362046783477228==
+--===============6444823098978855515==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-848e07631744-5e06802b426b.txt
+Content-Disposition: attachment; filename=revlist-ba75374b3b89-219f00581603.txt
 
-2b22459792fcb4def9f0936d64575ac11a95a58d i2c: sis630: Fix an error handling path in sis630_probe()
-f62b4e45e0b467cba75ae816338b996c6dc4dafa x86/resctrl: Move get_config_index() to a header
-823beb31e55673bf2fd21374e095eec73a761ee7 x86/resctrl: Move get_{mon,ctrl}_domain_from_cpu() to live with their callers
-e471a86a8c523eccdfd1c4745ed7ac7cbdcc1f3f x86/boot: Add back some padding for the CRC-32 checksum
-e6644c967d3c076969336bd8a9b85ffb45f677f7 rseq/selftests: Ensure the rseq ABI TLS is actually 1024 bytes
-0b626b245c570c9e9ef5bf03e0541fedab334a9d KVM: arm64: ptdump: Test PMD_TYPE_MASK for block mapping
-f5e93819e2cc8433061e6f5787fffe8d8cdf9c35 arm64/ptdump: Test PMD_TYPE_MASK for block mapping
-dba954801004ce79db69fdc4d710063a7eed006c arm64/mm: Clear PXX_TYPE_MASK in mk_[pmd|pud]_sect_prot()
-1601df9e366eeeb0dd55cc7d74c0a1fc008223ef arm64/mm: Clear PXX_TYPE_MASK and set PXD_TYPE_SECT in [pmd|pud]_mkhuge()
-4fa8a9c0fc996fe5cde5f201f33e2c1dba4b5498 arm64/mm: Check PXD_TYPE_TABLE in [p4d|pgd]_bad()
-bfb1d2b9021c21891427acc86eb848ccedeb274e arm64/mm: Check PUD_TYPE_TABLE in pud_bad()
-d1770e909898c108e8c7d30ca039053e8818a9c9 arm64/mm: Check pmd_table() in pmd_trans_huge()
-50c2726654bbc5e156040618413e25a3467de6f2 arm64/mm: Drop PXD_TABLE_BIT
-87fa872a1ecf542efc66a9184127faf03037f827 ASoC: samsung: speyside: Free gpiod table
-8324993f60305e50f27b98358b01b9837e10d159 dma-mapping: fix missing clear bdr in check_ram_in_range_map()
-81c0db302a674f8004ed805393d17fd76f552e83 RDMA/bnxt_re: Avoid clearing VLAN_ID mask in modify qp path
-081b575617e6f9355edf054cb907bdb8af7ed149 Merge tag 'wireless-2025-03-12' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
-9bce6b5f8987678b9c6c1fe433af6b5fe41feadc block: change blk_mq_add_to_batch() third argument type to bool
-d653bfeb07ebb3499c403404c21ac58a16531607 netfilter: nf_conncount: Fully initialize struct nf_conncount_tuple in insert_tree()
-c21b02fd9cbf15aed6e32c89e0fd70070281e3d1 selftests: netfilter: skip br_netfilter queue tests if kernel is tainted
-520a563b9a162d8a7484a32086de8e7c84d69945 ALSA: ctxfi: change dao_set_input functions from kzalloc to kcalloc
-80b78c39eb86e6b55f56363b709eb817527da5aa ipvs: prevent integer overflow in do_ip_vs_get_ctl()
-b11a74ac4f545626d0dc95a8ca8c41df90532bf3 ALSA: hda/realtek: Add mute LED quirk for HP Pavilion x360 14-dy1xxx
-b8665a1b49f5498edb7b21d730030c06b7348a3c spi: cadence-qspi: Fix probe on AM62A LP SK
-cce2200dacd6d7e0501c3811f24f5216710968fb spi: cadence-qspi: Improve spi memory performance
-d9e7c172a7f247f7ef0b151fa8c8f044b6a2a070 media: rtl2832_sdr: assign vb2 lock before vb2_queue_init
-658fb7fe8e7f4014ea17a4da0e0c1d9bc319fa35 ASoC: cs42l43: convert to SYSTEM_SLEEP_PM_OPS
-18e0885bd2ca738407036434418a26a58394a60e USB: serial: ftdi_sio: add support for Altera USB Blaster 3
-066e053fe208a3b83ee89dc5a192146add688861 fsnotify: add pre-content hooks on mmap()
 fe0fb58325e519008e2606a5aa2cff7ad23e212d HID: remove superfluous (and wrong) Makefile entry for CONFIG_INTEL_ISH_FIRMWARE_DOWNLOADER
 25655580136de59ec89f09089dd28008ea440fc9 RDMA/hns: Fix soft lockup during bt pages loop
 b9f59a24ba35a7d955a9f8e148dd9f85b7b40a01 RDMA/hns: Fix unmatched condition in error path of alloc_user_qp_db()
@@ -166,7 +137,6 @@ bc71aab4513f7fecd23c051703ef5adea2230a54 Revert "ext4: add pre-content fsnotify 
 a9381351dd6c52bf465233cae5f50da227834607 Merge tag 'nvme-6.14-2025-03-13' of git://git.infradead.org/nvme into block-6.14
 69a5a13a22b1def29dce62b5b7c86e6098c20c68 bcachefs: target_congested -> get_random_u32_below()
 9c18ea7ffee090b47afaa7dc41903fb1b436d7bd bcachefs: bch2_get_random_u64_below()
-97e13ecb026684dcd428910701662275175a2315 sched_ext: Skip per-CPU tasks in scx_bpf_reenqueue_local()
 e27dffba1b1d6c047b48c325adcb1342d3e3fa69 x86/boot: Move the LA57 trampoline to separate source file
 7a79e7daa84e230266184a2018507551086c2317 printf: convert self-test to KUnit
 81a03aa9b88c5db19a6008a3dc43280637e45d84 printf: break kunit into test cases
@@ -286,8 +256,6 @@ e403e8538359d8580cbee1976ff71813e947101e arm64: errata: Assume that unknown CPUs
 0c9fc6e652cd5aed48c5f700c32b7642bea7f453 arm64: errata: Add KRYO 2XX/3XX/4XX silver cores to Spectre BHB safe list
 a9b5bd81b294d30a747edd125e9f6aef2def7c79 arm64: cputype: Add MIDR_CORTEX_A76AE
 a5951389e58d2e816eed3dbec5877de9327fd881 arm64: errata: Add newer ARM cores to the spectre_bhb_loop_affected() lists
-c414c2171cd9ec2475fd641a16d6b2cac3344390 sched_ext: idle: Honor idle flags in the built-in idle selection policy
-e4855fc90e52efef7e3926205c8dc53ce39b6138 sched_ext: idle: Refactor scx_select_cpu_dfl()
 74c1807f6c4feddb3c3cb1056c54531d4adbaea6 KVM: x86: block KVM_CAP_SYNC_REGS if guest state is protected
 70e23dda3817f8e74f71385e4c24dc891780deca Merge tag 'core-urgent-2025-03-14' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 28c50999c977fc60ecbadfee4359a93116163d4f Merge tag 'locking-urgent-2025-03-14' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -583,6 +551,8 @@ dda366083e5ff307a4a728757db874bbfe7550be x86/fpu/xstate: Fix inconsistencies in 
 5b8f85d081da449ab35e4bd009d7c00afaab2fab docs: driver-api: firmware: clarify userspace requirements
 9130945f81613bf1b7103e27accbbea924d97c18 MAINTAINERS: Remove myself
 76b6905c11fd3c6dc4562aefc3e8c4429fefae1e Merge tag 'mm-hotfixes-stable-2025-03-17-20-09' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+fafa240a179886b387de9e81ce26688d2ca99ad1 mtd: spi-nor: explicitly include <linux/of.h>
+eec373688d91f7f8988702e36d4a0e07b8e782b2 mtd: spi-nor: drop unused <linux/of_platform.h>
 250f25367b58d8c65a1b060a2dda037eea09a672 KVM: arm64: Tear down vGIC on failed vCPU creation
 11092db5b57377ac99e6339cfd16ca35ef011f3c efivarfs: fix NULL dereference on resume
 e27b0e3c54f057ef6cb26ac60a2291f1451ea142 rust: file: optimize rust symbol generation for FileDescriptorReservation
@@ -625,6 +595,13 @@ bf1bb26f23f10f835e596337604d32d34ab798a6 hwmon: add driver for HTU31
 b7a253db0a3aa1d1ec293ccbfae41205d25e4273 ASoC: Intel: avs: Replace devm_kzalloc() with
 4103337f3c069c3f833a0581e0bac1eedad3359c add sof support on imx95
 88f200955977c211be053afebe3264debb9680f8 ASoC: codecs: Add aw88166 amplifier driver
+b28f47ac3ddd072cce0e447ace89e2b4d6932c66 mtd: spinand: Improve spinand_info macros style
+ca8cbbb2be8f906d9602a6e4324f8adf279e9cc2 mtd: nand: Fix a kdoc comment
+b0e63a0847ee2d01ac34a45eafb112227262820f dt-bindings: mtd: gpmi-nand: Add compatible string for i.MX8 chips
+6bc9f42739889eaaaa47b90f48e4ef8323efa3ea mtd: mtdpart: Do not supply NULL to printf()
+9fe1617df3c8f522755996383b9a3abf8ce81662 mtd: rawnand: gpmi: Use str_enabled_disabled() in gpmi_nand_attach_chip()
+3081f26059a88ce9f39a2fe1c1bfee853200bd79 mtd: mchp48l640: Use str_enable_disable() in mchp48l640_write_prepare()
+48a29721c967da1af657279fa696d6c386bdd5ca dt-bindings: mtd: atmel,dataflash: convert txt to yaml
 81e4f8d68c66da301bb881862735bd74c6241a19 Merge tag 'pmdomain-v6.14-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm
 dd8689b52a24807c2d5ce0a17cb26dc87f75235c drm/radeon: fix uninitialized size issue in radeon_vce_cs_parse()
 f0105e173103c9d30a2bb959f7399437d536c848 drm/amdgpu: Fix MPEG2, MPEG4 and VC1 video caps max size
@@ -1048,7 +1025,30 @@ e4f7cc8c36e7cab391683db682402ab2f185bf92 Merge branch 'for-6.15/google' into for
 6fe38a26b25a45f43f44185f45c829ad0af4e842 Merge branch 'for-6.15/usb-hidbp' into for-linus
 4ee4d7b177cff042c7135c8a7c87fbfbe28f04d8 Merge branch 'for-6.15/wacom' into for-linus
 e50da555ca4d42b1b98d0f26789db64f26a0919a Merge tag 'sound-6.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+59ee921ca7ec13c879ffbd101cece0049e81dac2 Merge tag 'spi-nor/for-6.15' into mtd/next
+2dd33fc2a81d7a1268e1bcaa286412f9c44994ae Merge tag 'nand/for-6.15' into mtd/next
 fb1ceb29b27cda91af35851ebab01f298d82162e Merge tag 'platform-drivers-x86-v6.15-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 5e06802b426baa2d3c2a5d7784a6d4c2a9338c3e Merge tag 'hid-for-linus-2025032601' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
+f6e0150b2003fb2b9265028a618aa1732b3edc8f Merge tag 'mtd/for-6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
+37477d9ecabd15323700313724479bea94d0421e sched_ext: idle: Fix return code of scx_select_cpu_dfl()
+883cc35e9fef6ee5cedf535d26d7143172d60225 sched_ext: Remove a meaningless conditional goto in scx_select_cpu_dfl()
+a8897ed8523d4c9d782e282b18005a3779c92714 sched_ext: create_dsq: Return -EEXIST on duplicate request
+f0c6eab5e45c529f449fbc595873719e00de6d79 sched_ext: initialize built-in idle state before ops.init()
+778911992b651dd2752e93eb25cc668f6ff8556a Revert "PCI/MSI: Convert pci_msi_ignore_mask to per MSI domain flag"
+5281886256b4ab7e85c69b47e8d4f4241951a0c4 sched_ext: Fix missing rq lock in scx_bpf_cpuperf_set()
+af7bf618c9bf0b5eb3e471bdb21d366fbc469391 sched_ext: idle: Extend topology optimizations to all tasks
+c90ec1df12173fe36c987bdb9483140a8ac83492 sched_ext: idle: Explicitly pass allowed cpumask to scx_select_cpu_dfl()
+572d9feaa4bb2107d83d2174c6bd808e8a7dcca8 sched_ext: idle: Accept an arbitrary cpumask in scx_select_cpu_dfl()
+076e948141dafdf94dbf21f2b15c5f890c39df56 sched_ext: idle: Introduce scx_bpf_select_cpu_and()
+808cf61e55af341ded574cff260a13f790602506 selftests/sched_ext: Add test for scx_bpf_select_cpu_and()
+f6b802b833b3b2194629489fb2edf6f0b991f870 sched_ext: idle: Deprecate scx_bpf_select_cpu_dfl()
+a3031e3899935a5702fe099bcb4ca3728192e6d9 sched: Add support to pick functions to take rf
+30a9a5c1cf63bdd613f2da24f8b82766c914e45f sched: Add a server arg to dl_server_update_idle_time()
+ec0dc099da3778600a6eb7e89c8a9bf55d0a5519 sched/ext: Add a DL server for sched_ext tasks
+e8592819790debf72d79badd3582364003e635c6 sched/debug: Fix updating of ppos on server write ops
+2ae202a7665d74614e9375dfcaed93b0e55cd98f sched/debug: Stop and start server based on if it was active
+172376fabf02f64a3241d5a6a71fc9ea8b5188e7 sched/debug: Add support to change sched_ext server params
+4b870eae51dbecf47de2199db7d8b6a24f4641bb sched/deadline: Clear defer params
+219f0058160385256d5882d65f0be1123d362c4c selftests/sched_ext: Add test for sched_ext dl_server
 
---===============3344362046783477228==--
+--===============6444823098978855515==--
