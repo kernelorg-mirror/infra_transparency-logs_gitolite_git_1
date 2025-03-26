@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0539132026110662300=="
+Content-Type: multipart/mixed; boundary="===============5300246089627597217=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Wed, 26 Mar 2025 21:32:54 -0000
-Message-Id: <174302477419.2546839.10227098660916264332@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Wed, 26 Mar 2025 21:35:28 -0000
+Message-Id: <174302492867.2550181.363165022669355265@gitolite.kernel.org>
 
---===============0539132026110662300==
+--===============5300246089627597217==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
 user: deller
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: f6e0150b2003fb2b9265028a618aa1732b3edc8f
     log: revlist-9712d38c8708-f6e0150b2003.txt
 
---===============0539132026110662300==
+--===============5300246089627597217==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ fb1ceb29b27cda91af35851ebab01f298d82162e Merge tag 'platform-drivers-x86-v6.15-1
 5e06802b426baa2d3c2a5d7784a6d4c2a9338c3e Merge tag 'hid-for-linus-2025032601' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
 f6e0150b2003fb2b9265028a618aa1732b3edc8f Merge tag 'mtd/for-6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
 
---===============0539132026110662300==--
+--===============5300246089627597217==--
