@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Wed, 26 Mar 2025 12:54:15 -0000
-Message-Id: <174299365552.2077079.1151482965041756744@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mtkaczyk/mdadm-test
+Date: Wed, 26 Mar 2025 12:54:17 -0000
+Message-Id: <174299365775.2077261.10574284697089712255@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/linux/kernel/git/mtkaczyk/mdadm-test
+user: mtkaczyk
 changes:
-  - ref: refs/heads/testing/wfamnae-next20250325
-    old: f1ab6aa61d5bb05f0911580eeb45698c535eebff
-    new: 60ded8444c8330528411ac34f745f0bcffef7ed6
+  - ref: refs/heads/master
+    old: c2fbf66ba0243f499f78ed43fa1207a9bd9361b5
+    new: 4e2e208c8d3e9ba0fae88136d7c4cd0292af73b0
     log: |
-         e210d3c589927d764b5e4b7bac22ec005e2ca5d1 pwm: cros-ec: Avoid -Wflex-array-member-not-at-end warnings
-         60ded8444c8330528411ac34f745f0bcffef7ed6 iio: proximity: cros_ec_mkbp_proximity: Avoid -Wflex-array-member-not-at-end warning
+         4e2e208c8d3e9ba0fae88136d7c4cd0292af73b0 super1: Clear extra flags when initializing metadata
          
