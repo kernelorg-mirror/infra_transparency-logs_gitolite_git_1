@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 26 Mar 2025 06:52:42 -0000
-Message-Id: <174297196220.1758643.8147531741469759031@gitolite.kernel.org>
+Date: Wed, 26 Mar 2025 07:06:52 -0000
+Message-Id: <174297281224.1770288.16870603291628648995@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/pci/pci
 user: kwilczynski
 changes:
   - ref: refs/heads/controller/j721e
-    old: 1505852c6b21536ccbc7b278fc6230424bc37d0d
-    new: b97b5b8cb603a4ba6b3f7f1b6065fa76e69bdb56
+    old: b97b5b8cb603a4ba6b3f7f1b6065fa76e69bdb56
+    new: d66b5b336245b91681c2042e7eedf63ef7c2f6db
     log: |
-         b97b5b8cb603a4ba6b3f7f1b6065fa76e69bdb56 PCI: j721e: Fix the value of .linkdown_irq_regfield for J784S4
+         d66b5b336245b91681c2042e7eedf63ef7c2f6db PCI: j721e: Fix the value of .linkdown_irq_regfield for J784S4
          
