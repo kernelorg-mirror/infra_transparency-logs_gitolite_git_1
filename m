@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 26 Mar 2025 07:50:32 -0000
-Message-Id: <174297543270.1807295.3602882673889431416@gitolite.kernel.org>
+Date: Wed, 26 Mar 2025 07:52:12 -0000
+Message-Id: <174297553243.1808221.943572721300022439@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,5 +12,10 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/x86/tdx
-    old: c087c275b8e37a79990d7369b5b72c5480f2c910
-    new: 0d86c2395390efd61d111698ec120b5a79303b99
+    old: 0d86c2395390efd61d111698ec120b5a79303b99
+    new: e8f45927ee5d99fa52f14205a2c7ac3820c64457
+    log: |
+         22cc5ca5de52bbfc36a7d4a55323f91fb4492264 x86/paravirt: Move halt paravirt calls under CONFIG_PARAVIRT
+         9f98a4f4e7216dbe366010b4cdcab6b220f229c4 x86/tdx: Fix arch_safe_halt() execution for TDX VMs
+         e8f45927ee5d99fa52f14205a2c7ac3820c64457 x86/tdx: Emit warning if IRQs are enabled during HLT #VE handling
+         
