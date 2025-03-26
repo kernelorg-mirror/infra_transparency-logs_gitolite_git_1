@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
-Date: Wed, 26 Mar 2025 16:08:50 -0000
-Message-Id: <174300533054.2266539.376524947645720084@gitolite.kernel.org>
+Date: Wed, 26 Mar 2025 16:09:48 -0000
+Message-Id: <174300538868.2267901.2820789376527442814@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/utils/kernel/kmod/kmod
 user: demarchi
 changes:
-  - ref: refs/heads/kmod-34.y
-    old: 5d8a0745ab0f32aec9ad3665b981719d031a5611
-    new: edfde290c9f371088d3ebb06da1e4664bee5ff5f
+  - ref: refs/heads/master
+    old: ae4f0975efab51a88595bab85f1a231bac819e59
+    new: 8266349d839a7e72fd3bdfa4261e39c90b2d4a8d
     log: |
-         edfde290c9f371088d3ebb06da1e4664bee5ff5f autotools: Fix generated files in tarball
+         8266349d839a7e72fd3bdfa4261e39c90b2d4a8d README: remove autotools instruction
          
