@@ -1,51 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============3368573952390633118=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 26 Mar 2025 13:53:49 -0000
-Message-Id: <174299722995.2145185.12690460102728516760@gitolite.kernel.org>
-
---===============3368573952390633118==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Wed, 26 Mar 2025 14:03:43 -0000
+Message-Id: <174299782369.2153510.14094916042622274294@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/ath12k-ng
-    old: b6f473c96421b8b451a8df8ccb620bcd71d4b3f4
-    new: 11cea2b6a2e3a5ddf3562314d1a378e7ea1c26eb
-    log: revlist-b6f473c96421-11cea2b6a2e3.txt
-  - ref: refs/tags/ath12k-ng-base
-    old: b6f473c96421b8b451a8df8ccb620bcd71d4b3f4
-    new: 11cea2b6a2e3a5ddf3562314d1a378e7ea1c26eb
-    log: revlist-b6f473c96421-11cea2b6a2e3.txt
-
---===============3368573952390633118==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b6f473c96421-11cea2b6a2e3.txt
-
-ce0779378c62758a0c503bf85e643c6d8f343703 wifi: ath12k: don't put ieee80211_chanctx_conf struct in ath12k_link_vif
-94fcd39ca255758335ace05f70365f2126190ee0 dt-bindings: net: wireless: describe the ath12k AHB module for IPQ5332
-60031d9c3589c7983fd1deb4a4c0bebf0929890e wifi: ath12k: fix incorrect CE addresses
-5257324583e32fd5bd6bbb6c82b4f5880b842f99 wifi: ath12k: refactor ath12k_hw_regs structure
-5fa2fab69f59da8eaf9cbb53fd89727c750b14cf wifi: ath12k: add ath12k_hw_params for IPQ5332
-11794f8540043c230ec4bf57ee1227e765ab52ab wifi: ath12k: avoid m3 firmware download in AHB device IPQ5332
-12070392be0b39d5305a235401d3ff9f03fdba13 wifi: ath12k: Add hw_params to remap CE register space for IPQ5332
-6757079c5890f7168a9bc111b2345209f05ae278 wifi: ath12k: add support for fixed QMI firmware memory
-6cee30f0da751284662affaa0d7fc567cdd65f48 wifi: ath12k: add AHB driver support for IPQ5332
-10a355ba6238e13d196be2f226a59f7886d7b5bd wifi: ath12k: Power up root PD
-f73e089745a000b6eb99457f71b47dc862ab221a wifi: ath12k: Register various userPD interrupts and save SMEM entries
-c01d5cc9b9fe2673885db738ec8d2e01de169b92 wifi: ath12k: Power up userPD
-881edc164071c2da3504b72fdc08ca8f1b915fdb wifi: ath12k: Power down userPD
-c0dd3f4f70918cbcdd8da611811036a91b7dce33 wifi: ath12k: enable ath12k AHB support
-702d45c201ae9d8ce504528a2ed91c49fde430bc Merge branch 'ath-next'
-4348b64af3909597a02e50d97d07ad5b89cdda5f Merge remote-tracking branch 'mhi/mhi-next'
-11cea2b6a2e3a5ddf3562314d1a378e7ea1c26eb Add localversion-wireless-testing-ath
-
---===============3368573952390633118==--
+  - ref: refs/heads/ring-buffer/for-next
+    old: 0e5d1a4b22bca3d9a9a2d2ba79ed67c5e74607d7
+    new: 6858889ca9e9f8be32606db5a3ea872ea183cd27
+    log: |
+         bab85a646dd91089bd4de518951be068096c7a20 tracing: Show last module text symbols in the stacktrace
+         3262f698d9974c0c8df1f8b7f6bba2a42a77ab5c tracing: Update function trace addresses with module addresses
+         1cb3e1b2964e363e4565d49153007b7edec21e3e tracing: Show function names when possible when listing fields
+         98172f69f4c547efaad7a8da5807a836a76e9fe6 tracing: Only return an adjusted address if it matches the kernel address
+         6858889ca9e9f8be32606db5a3ea872ea183cd27 tracing: Adjust addresses for printing out fields
+         
