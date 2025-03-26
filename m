@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1714266706273387619=="
+Content-Type: multipart/mixed; boundary="===============6596027396012729822=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Wed, 26 Mar 2025 11:16:30 -0000
-Message-Id: <174298779077.1977618.268350939409957918@gitolite.kernel.org>
+Date: Wed, 26 Mar 2025 11:16:54 -0000
+Message-Id: <174298781450.1978185.13749690459349805364@gitolite.kernel.org>
 
---===============1714266706273387619==
+--===============6596027396012729822==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: ce9e99902ea971797320f8fa0e03278bc56100d3
     new: 1bc6f75e3f47e1cf776abf56ee1a7f664b0a1555
     log: revlist-ce9e99902ea9-1bc6f75e3f47.txt
 
---===============1714266706273387619==
+--===============6596027396012729822==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e55c33c7fe1ba236911733d68bc27453685faa4a ACPICA: Add start method for ARM FF-A
 f094a577551d181be7d71818a026f90e05496d9a tpm: End any active auth session before shutdown
 1bc6f75e3f47e1cf776abf56ee1a7f664b0a1555 MAINTAINERS: TPM DEVICE DRIVER: add missing includes
 
---===============1714266706273387619==--
+--===============6596027396012729822==--
