@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/toke/linux
-Date: Wed, 26 Mar 2025 09:13:58 -0000
-Message-Id: <174298043837.1875096.14295596092267252668@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Wed, 26 Mar 2025 09:28:21 -0000
+Message-Id: <174298130191.1887134.5974488775809682624@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/toke/linux
-user: toke
+repo: pub/scm/libs/ell/ell
+user: holtmann
 changes:
-  - ref: refs/heads/tc-filter-reliable-notify
-    old: c103ea71572a7a06283ffd011ed63f19be3af788
-    new: 7402d80eb1b47026dd120972bd6d7b07983acf8c
+  - ref: refs/heads/master
+    old: ba3c325273e6b65d86d1c80729520c19056a241b
+    new: 037a6c7abaaf6b32d54f24674495de289648d962
     log: |
-         7402d80eb1b47026dd120972bd6d7b07983acf8c tc: More reliable netlink notify on filter operations
+         037a6c7abaaf6b32d54f24674495de289648d962 Release 0.75
          
