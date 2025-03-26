@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Wed, 26 Mar 2025 20:48:44 -0000
-Message-Id: <174302212435.2508169.16892092993617795142@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Wed, 26 Mar 2025 21:01:56 -0000
+Message-Id: <174302291629.2520202.7648213081130822941@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/for-6.15-fixes
-    old: a8897ed8523d4c9d782e282b18005a3779c92714
-    new: f0c6eab5e45c529f449fbc595873719e00de6d79
+  - ref: refs/heads/nova-gsp
+    old: fe9f1c2329e9c32ae35ef006c8c786774241561f
+    new: 7a85142a753afbd661dd97d74d7057ba693fc147
     log: |
-         f0c6eab5e45c529f449fbc595873719e00de6d79 sched_ext: initialize built-in idle state before ops.init()
-         
-  - ref: refs/heads/for-next
-    old: a8897ed8523d4c9d782e282b18005a3779c92714
-    new: f0c6eab5e45c529f449fbc595873719e00de6d79
-    log: |
-         f0c6eab5e45c529f449fbc595873719e00de6d79 sched_ext: initialize built-in idle state before ops.init()
+         786e85413c476ee0739f4a6f5afe5b6b5cdd8750 Add functionality to enable rom shadowing
+         7a85142a753afbd661dd97d74d7057ba693fc147 Add support to read from and dump first 32 bytes from Bios
          
