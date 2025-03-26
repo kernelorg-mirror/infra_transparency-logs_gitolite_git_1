@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Wed, 26 Mar 2025 14:09:14 -0000
-Message-Id: <174299815476.2158466.14103627180463288752@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Wed, 26 Mar 2025 14:12:02 -0000
+Message-Id: <174299832205.2161962.7921069375918355106@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: rostedt
 changes:
-  - ref: refs/tags/devicetree-for-6.15
-    old: 0000000000000000000000000000000000000000
-    new: 43ff79578cb67dc14c1234532cedbb6bba1e8f89
+  - ref: refs/heads/ring-buffer/for-next
+    old: 6858889ca9e9f8be32606db5a3ea872ea183cd27
+    new: bab85a646dd91089bd4de518951be068096c7a20
