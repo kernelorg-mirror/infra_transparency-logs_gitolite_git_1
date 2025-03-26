@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/ofono/ofono
-Date: Wed, 26 Mar 2025 10:20:39 -0000
-Message-Id: <174298443960.1932861.14352888348231949326@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Wed, 26 Mar 2025 10:35:30 -0000
+Message-Id: <174298533084.1944951.14463106236273925630@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/ofono/ofono
-user: holtmann
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/tags/2.16
-    old: 0000000000000000000000000000000000000000
-    new: 8a09422cbe5c52591c57c07e443493e087c05885
+  - ref: refs/heads/todo
+    old: dd541aee9b0c9b889e01c5ef5da075a5a19a3681
+    new: 0084a813e725aaab79848773e390465283101287
+    log: |
+         0084a813e725aaab79848773e390465283101287 What's cooking (2025/03 #07)
+         
