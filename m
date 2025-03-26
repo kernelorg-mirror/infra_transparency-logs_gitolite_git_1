@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8981536911521105937=="
+Content-Type: multipart/mixed; boundary="===============8524605528174715766=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 26 Mar 2025 22:27:39 -0000
-Message-Id: <174302805948.2597164.2466049689922189450@gitolite.kernel.org>
+Date: Wed, 26 Mar 2025 22:27:42 -0000
+Message-Id: <174302806209.2597384.499011354697126778@gitolite.kernel.org>
 
---===============8981536911521105937==
+--===============8524605528174715766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 00a25cca0d7be87285c5d0acf7ed2a04910559f1
     new: 023b1e9d265ca0662111a9df23d22b4632717a8a
     log: revlist-00a25cca0d7b-023b1e9d265c.txt
 
---===============8981536911521105937==
+--===============8524605528174715766==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -185,4 +185,4 @@ a19f40d919ca6d16bbc03d858690f60f1a9bf3ed Merge branch 'net-usb-asix-ax88772-fix-
 705094f6556d88540e1076e432cbca6b596421dd unix: fix up for "apparmor: add fine grained af_unix mediation"
 023b1e9d265ca0662111a9df23d22b4632717a8a Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============8981536911521105937==--
+--===============8524605528174715766==--
