@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Wed, 26 Mar 2025 11:41:32 -0000
-Message-Id: <174298929234.1998936.9274190118209583546@gitolite.kernel.org>
+Date: Wed, 26 Mar 2025 11:43:54 -0000
+Message-Id: <174298943491.2000225.7075213066441446668@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/jfern/linux
 user: jfern
 changes:
   - ref: refs/heads/nova-gsp
-    old: 3f69eb82aa6c7b07b902947c37cfe1fff2d0c294
-    new: 363a53563d1ee2d715cbdebe5b2d9dc90d26b913
+    old: 363a53563d1ee2d715cbdebe5b2d9dc90d26b913
+    new: 755310fa49660f282be4e1acc30a45038a032af2
     log: |
-         fc536665aa5ea200a8f224938912080ea020eaa5 joel: Remove possible build errors by commenting unused deadcode
-         363a53563d1ee2d715cbdebe5b2d9dc90d26b913 joel: Add a defconfig that works for me
+         755310fa49660f282be4e1acc30a45038a032af2 joel: Add a defconfig that works for me
          
