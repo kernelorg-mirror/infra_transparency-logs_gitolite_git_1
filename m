@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 26 Mar 2025 07:06:52 -0000
-Message-Id: <174297281224.1770288.16870603291628648995@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 26 Mar 2025 07:24:41 -0000
+Message-Id: <174297388113.1784001.8729659482916728352@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: kwilczynski
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/controller/j721e
-    old: b97b5b8cb603a4ba6b3f7f1b6065fa76e69bdb56
-    new: d66b5b336245b91681c2042e7eedf63ef7c2f6db
+  - ref: refs/heads/objtool/urgent
+    old: 26d2ab43acdd1fd5fab3c3abb0b79d7ff14fedaa
+    new: 89721c2ca8aec6f45166acf61ae32f64f2f1d2db
     log: |
-         d66b5b336245b91681c2042e7eedf63ef7c2f6db PCI: j721e: Fix the value of .linkdown_irq_regfield for J784S4
+         89721c2ca8aec6f45166acf61ae32f64f2f1d2db objtool: Fix NULL printf() '%s' argument in builtin-check.c:save_argv()
          
