@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/ksmap
-Date: Wed, 26 Mar 2025 09:41:09 -0000
-Message-Id: <174298206925.1899306.15617899628650677823@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Wed, 26 Mar 2025 10:01:28 -0000
+Message-Id: <174298328852.1915727.9870918202199756187@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/ksmap
-user: mkorpershoek
+repo: pub/scm/network/wireless/iwd
+user: holtmann
 changes:
   - ref: refs/heads/master
-    old: 51ae0a5cae01fc24afacdd28ce0126871f63bc34
-    new: a1bf6cac36a20a737023af2579d783761e4e6731
+    old: ea571861d6d4a35106e3e3c80f972d36a2e005f4
+    new: bff5006b38b3bccddc3de25fea3c21e26a67396b
     log: |
-         a1bf6cac36a20a737023af2579d783761e4e6731 users: add Mattijs Korpershoek
+         bff5006b38b3bccddc3de25fea3c21e26a67396b Release 3.5
          
