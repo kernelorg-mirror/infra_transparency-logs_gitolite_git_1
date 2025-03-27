@@ -1,43 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============7754063901406957517=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/website
-Date: Thu, 27 Mar 2025 14:06:19 -0000
-Message-Id: <174308437999.3526572.7054306595652954407@gitolite.kernel.org>
-
---===============7754063901406957517==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/bigeasy/staging
+Date: Thu, 27 Mar 2025 14:37:35 -0000
+Message-Id: <174308625549.3550783.12315819117129500545@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/website
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/bigeasy/staging
+user: bigeasy
 changes:
-  - ref: refs/tags/v2025-03-27-01
-    old: 0000000000000000000000000000000000000000
-    new: 53301492ce500466a75b4506d66b86c98281d6bb
-
---===============7754063901406957517==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1743084409 -0400
-pushee gitolite.kernel.org:pub/scm/docs/kernel/website
-nonce 1743084379-c08afc14543fe0412ddff413a1752bd8b0cbccc9
-
-0000000000000000000000000000000000000000 53301492ce500466a75b4506d66b86c98281d6bb refs/tags/v2025-03-27-01
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZ+VbeQAKCRC2xBzjVmSZ
-bLvoAP9jH08JePVUbLpIA9gI0m/YdiUgMxLNDO2LGnegoAdfKAEAmzWLm+9EzmNm
-RPJ1TvzLl+P2ejhW7acTwQf1GeMxXwo=
-=sekm
------END PGP SIGNATURE-----
-
---===============7754063901406957517==--
+  - ref: refs/heads/kernfs_v4
+    old: d7855eb7fc0de633686865fd10555013bd31d8ce
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/kernfs_v7
+    old: 9563b911cf5983754f9d262a127c0fb9be5dc0ed
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/module_v2
+    old: 044b857f4eb403c4bba7c9b1cbff080bfbfee447
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/module_v3
+    old: 1e0faffd24fb3f9924280ec7685a612c277e8c0b
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/net_ipi_5
+    old: f4398e4e39f5c08debece60a77442b1b851d3d26
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/net_ipi_7-net-next
+    old: 0f90bec861c291b48e66cc2cfa3272a265e8402b
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/preemption_string
+    old: 5a90ea32905efa7b135f975621097fbc490000f6
+    new: 0000000000000000000000000000000000000000
