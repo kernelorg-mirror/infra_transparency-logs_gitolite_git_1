@@ -1,30 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============0464874431295962065=="
+Content-Type: multipart/mixed; boundary="===============8688439169083238736=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
-Date: Thu, 27 Mar 2025 12:17:14 -0000
-Message-Id: <174307783423.3284635.15202980108925511171@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Thu, 27 Mar 2025 12:17:48 -0000
+Message-Id: <174307786819.3285167.15136845290876776225@gitolite.kernel.org>
 
---===============0464874431295962065==
+--===============8688439169083238736==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/exfat
-user: linkinjeon
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 80e54e84911a923c40d7bee33a34c1b4be148d7a
+  - ref: refs/heads/fixes
+    old: 03fc0a2dc9f8c292fad8a1bcfb6d1f0dec1824be
     new: 1a9239bb4253f9076b5b4b2a1a4e8d7defd77a95
-    log: revlist-80e54e84911a-1a9239bb4253.txt
+    log: revlist-03fc0a2dc9f8-1a9239bb4253.txt
 
---===============0464874431295962065==
+--===============8688439169083238736==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1743077895 +0200
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1743077865-8c474125b51a28be7845f8a38fe1f603c6df3380
+
+03fc0a2dc9f8c292fad8a1bcfb6d1f0dec1824be 1a9239bb4253f9076b5b4b2a1a4e8d7defd77a95 refs/heads/fixes
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZ+VCCQAKCRBZrE9hU+XO
+MXwvAP9JYI3EcKSW6q5cEaVRmaTqJiPlGiOU8qa3EqNUMf6o2QD9EpbfwIJu7cBz
+Psz+NxAKhMhA3nr+mYR4EqbDuTJ4Qw8=
+=l2SP
+-----END PGP SIGNATURE-----
+
+--===============8688439169083238736==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-80e54e84911a-1a9239bb4253.txt
+Content-Disposition: attachment; filename=revlist-03fc0a2dc9f8-1a9239bb4253.txt
 
 dbcd85b05c5ba520b75dbf51d0b48b5a366b6c68 net: phy: phy_caps: Implement link_capabilities lookup by linkmode
 fc81e257d19f5733c22732eef29fa15ee8bef221 net: phy: phy_caps: Allow looking-up link caps based on speed and duplex
@@ -1051,4 +1072,4 @@ f6e0150b2003fb2b9265028a618aa1732b3edc8f Merge tag 'mtd/for-6.15' of git://git.k
 e61f33273ca755b3e2ebee4520a76097199dc7a8 Merge tag 'zstd-linus-v6.15-rc1' of https://github.com/terrelln/linux
 1a9239bb4253f9076b5b4b2a1a4e8d7defd77a95 Merge tag 'net-next-6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 
---===============0464874431295962065==--
+--===============8688439169083238736==--
