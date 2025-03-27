@@ -1,31 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============1590596757065983203=="
+Content-Type: multipart/mixed; boundary="===============4094712576304584474=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
-Date: Thu, 27 Mar 2025 12:18:03 -0000
-Message-Id: <174307788378.3285465.17282933664591288317@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Thu, 27 Mar 2025 12:18:51 -0000
+Message-Id: <174307793133.3286088.13038215451955431512@gitolite.kernel.org>
 
---===============1590596757065983203==
+--===============4094712576304584474==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/exfat
-user: linkinjeon
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/dev
-    old: e8eefc758d0e72d29e72b320568c1c53d6e2e489
-    new: 312a0d25e85b0b0d110861489b31b1b696bd0a3b
-    log: revlist-e8eefc758d0e-312a0d25e85b.txt
+  - ref: refs/heads/for-next
+    old: 2c30357e755b087217c7643fda2b8aea6d6deda4
+    new: 1a9239bb4253f9076b5b4b2a1a4e8d7defd77a95
+    log: revlist-2c30357e755b-1a9239bb4253.txt
 
---===============1590596757065983203==
+--===============4094712576304584474==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1743077958 +0200
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1743077928-71c47c70b39e11350d70f8be71703eb5be190b89
+
+2c30357e755b087217c7643fda2b8aea6d6deda4 1a9239bb4253f9076b5b4b2a1a4e8d7defd77a95 refs/heads/for-next
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZ+VCSAAKCRBZrE9hU+XO
+MTYHAQCfZWlPoKml2M4gO4DS+YX4aA+3D9iuCw9TFrRN6J5Q9wEAsarHzc0b83RR
+HB4G/vU008/MF7PYY1xejImiiXT1yQY=
+=1yF2
+-----END PGP SIGNATURE-----
+
+--===============4094712576304584474==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-e8eefc758d0e-312a0d25e85b.txt
+Content-Disposition: attachment; filename=revlist-2c30357e755b-1a9239bb4253.txt
 
+d8c838a57ce25c746c9882ffa427d8bb3f22b526 net: phy: Use an internal, searchable storage for the linkmodes
+8c8c4a87933dd924f9fb56dfd35bae7e8f30a4b5 net: phy: phy_caps: Move phy_speeds to phy_caps
+4823ed0609194e164bcacac04a610dd86717689f net: phy: phy_caps: Move __set_linkmode_max_speed to phy_caps
+87b22ce312350170af5e970c5abfb2bb87e39964 net: phy: phy_caps: Introduce phy_caps_valid
+dbcd85b05c5ba520b75dbf51d0b48b5a366b6c68 net: phy: phy_caps: Implement link_capabilities lookup by linkmode
+fc81e257d19f5733c22732eef29fa15ee8bef221 net: phy: phy_caps: Allow looking-up link caps based on speed and duplex
+c7ae89c6b4d55de583eb08da8100dc20a2828d9e net: phy: phy_device: Use link_capabilities lookup for PHY aneg config
+de7d3f87be3cba8ad06978271a3135bd08810c97 net: phylink: Use phy_caps_lookup for fixed-link configuration
+ce60fef7feccb5c71d5b49e489d24db7d79c2ac7 net: phy: drop phy_settings and the associated lookup helpers
+3bea75002a05b86bf4d87773c456f39f7693f5c4 net: phylink: Add a mapping between MAC_CAPS and LINK_CAPS
+4ca5b8a258b67aa5e06af56e53708cc23ea05e79 net: phylink: Convert capabilities to linkmodes using phy_caps
 3bd87f3b4405cefa12b6be7ebf75a021cac4738a net: phylink: Use phy_caps to get an interface's capabilities and modes
 b500ee5fde1bd0c85026dfcdadbc175548fb5216 ata: libata: Fix NCQ Non-Data log not supported print
 50698b298b3995d253bd0b85ff7f60cae6f51e6a Merge branch 'net-phy-rework-linkmodes-handling-in-a-dedicated-file'
@@ -595,11 +627,8 @@ e8e472d0c5a410227bbde2bba6eb0f428eaf761c Merge tag 'asoc-fix-v6.14-rc7' of https
 807d47a6dc054859eef90066516ae4f44fe22e6d Merge tag 'i2c-host-fixes-6.14-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-current
 5a4dd520ef8a94ecf81ac77b90d6a03e91c100a9 ASoC: amd: yc: update quirk data for new Lenovo model
 9ef52d529bb75071e03cf85078f724d69c4abe89 ASoC: SDCA: Correct handling of selected mode DisCo property
-80bb29fe1717a6c8a4501648781141e2280ef3b5 irqdomain: platform/x86: Switch to irq_domain_create_linear()
 cb90c8df91d08aebb62ef77bd1c7f41a31bdc924 Merge tag 'sched-urgent-2025-03-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 5c7474b5449ccda2f0139e87425845baa2dae15a Merge tag 'perf-urgent-2025-03-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-b3e8dc1143b93e0048c631eeb2947584960da33b platform/x86: thinkpad_acpi: convert timeouts to secs_to_jiffies()
-96b8f4658b70ac2efe543ddbeb328b5b1941a571 platform/x86/amd/pmf: convert timeouts to secs_to_jiffies()
 3fed9fda150d393d3f3f91a5631dab1e0c15d582 net: remove sb1000 cable modem driver
 62e36b2441354000ef87bdcc6515986b46a40fc8 net: phy: realtek: remove call to devm_hwmon_sanitize_name
 91ee219624307154675bf067aef83693390f91f2 net: phy: tja11xx: remove call to devm_hwmon_sanitize_name
@@ -677,7 +706,6 @@ af54a2fbdf45b1fd32cdcab916f422e6d097f430 gpio: TODO: add an item to track rework
 c3b659b74541f4564f9f5a39f65e625c47e77e21 Merge branches 'thermal-core' and 'thermal-misc'
 1774be7cfc2fc3a606aa8e9b855427877104804b Merge branch 'pm-cpufreq'
 7a9072d8599427679ab5e72a834af87bf818cae5 Merge branch 'pm-cpuidle'
-2c30357e755b087217c7643fda2b8aea6d6deda4 platform/x86: x86-android-tablets: Add select POWER_SUPPLY to Kconfig
 38fec10eb60d687e30c8c6b5420d86e8149f7557 Linux 6.14
 871302441256b3d34a0625d33014c882036258cc Merge branches 'pm-em' and 'pm-runtime'
 5a98796468e655048a3b37bf94cbe9a36ce58e32 Merge branch 'pm-sleep'
@@ -1043,12 +1071,5 @@ f6e0150b2003fb2b9265028a618aa1732b3edc8f Merge tag 'mtd/for-6.15' of git://git.k
 592329e5e94e26080f4815c6cc6cd0f487a91064 Merge tag 'sysctl-6.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/sysctl/sysctl
 e61f33273ca755b3e2ebee4520a76097199dc7a8 Merge tag 'zstd-linus-v6.15-rc1' of https://github.com/terrelln/linux
 1a9239bb4253f9076b5b4b2a1a4e8d7defd77a95 Merge tag 'net-next-6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
-a36e0ab44cb344728f7c0fdc34edcbae64739c16 exfat: support batch discard of clusters when freeing clusters
-f6369ae1f088cb6d18d7a07eec95d7c10c2a2a5e exfat: remove count used cluster from exfat_statfs()
-1bb7ff4204b6d4927e982cd256286c09ed4fd8ca exfat: fix random stack corruption after get_block
-b0522303f67255926b946aa66885a0104d1b2980 exfat: fix the infinite loop in exfat_find_last_cluster()
-47e35366bc6fa3cf189a8305bce63992495f3efa exfat: fix missing shutdown check
-8b98886721ab1df216843badc9a52da07baf0d58 exfat: fix potential wrong error return from get_block
-312a0d25e85b0b0d110861489b31b1b696bd0a3b exfat: call bh_read in get_block only when necessary
 
---===============1590596757065983203==--
+--===============4094712576304584474==--
