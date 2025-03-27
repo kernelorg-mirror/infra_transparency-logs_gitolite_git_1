@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7393326711018913708=="
+Content-Type: multipart/mixed; boundary="===============6609004284023709347=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 27 Mar 2025 15:29:12 -0000
-Message-Id: <174308935267.3598222.17505070087734166351@gitolite.kernel.org>
+Date: Thu, 27 Mar 2025 15:29:20 -0000
+Message-Id: <174308936011.3598554.18031188169349473090@gitolite.kernel.org>
 
---===============7393326711018913708==
+--===============6609004284023709347==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,25 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 7bbb29e8459b9f26d36c12b90decda0079caefba
-    new: be2c203eb250c5a0cd5054779c17be6813f4cbbe
-    log: revlist-7bbb29e8459b-be2c203eb250.txt
+  - ref: refs/heads/1GbE
+    old: 70facbf978ac90c6da17a3de2a8dd111b06f1bac
+    new: 1a9239bb4253f9076b5b4b2a1a4e8d7defd77a95
+    log: revlist-70facbf978ac-1a9239bb4253.txt
 
---===============7393326711018913708==
+--===============6609004284023709347==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-7bbb29e8459b-be2c203eb250.txt
+Content-Disposition: attachment; filename=revlist-70facbf978ac-1a9239bb4253.txt
 
+5a406031d0719d146d2033ee4270310b1ca9a1e3 objtool: Add --output option
+bb62243943dbef4592266e817f4e2e5a96293907 objtool: Add --Werror option
+a307dd28b1c6655b67b2367663331034ac8da79c objtool: Change "warning:" to "error:" for --Werror
+aa8b3e64fd397eddd6a627d148a964e4bc2ed9ab objtool: Create backup on error and print args
+12e766d16814808b6a581597cef6ce9fc029e917 perf: Fix __percpu annotation
+36799069b48198e5ce92d99310060c4aecb4b3e3 objtool: Add CONFIG_OBJTOOL_WERROR
+73070466ed3b5e4620e03c159ee12a570b171d08 objtool: Use O_CREAT with explicit mode mask
+6d9d66626c58bcd9b949574aca7d47149b8ad9e1 ASoC: Intel: avs: Replace devm_kzalloc() with devm_kcalloc()
 61b1a1bddf7d166946d7ca7054b6cbced29b72f5 ASoC: Intel: avs: ssm4567: Replace devm_kzalloc() with devm_kcalloc()
 bde479694a7da7c127bb5bba98e2e4773f1d7951 ASoC: Intel: avs: max98373: Replace devm_kzalloc() with devm_kcalloc()
 3602571baf9a6864bde89422d179e422a3ea4d8d ASoC: Intel: avs: max98927: Replace devm_kzalloc() with devm_kcalloc()
@@ -1042,13 +1050,5 @@ f6e0150b2003fb2b9265028a618aa1732b3edc8f Merge tag 'mtd/for-6.15' of git://git.k
 592329e5e94e26080f4815c6cc6cd0f487a91064 Merge tag 'sysctl-6.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/sysctl/sysctl
 e61f33273ca755b3e2ebee4520a76097199dc7a8 Merge tag 'zstd-linus-v6.15-rc1' of https://github.com/terrelln/linux
 1a9239bb4253f9076b5b4b2a1a4e8d7defd77a95 Merge tag 'net-next-6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
-03f9d400aea889d58b64a7c2b0145c9beb6558ca coccinelle: misc: secs_to_jiffies script: Create dummy report
-7a00b4dfe480b27ceac79047775115e3df6d093e ice: fix Get Tx Topology AQ command error on E830
-625817df109deea4b3f7c17e87e639b7daeac0d4 ice: fix lane number calculation
-f077f1c2e43d96f2af54865a7903315b539fb09e ixgbe: fix media type detection for E610 device
-57f261e5f990f8ca7a9161b19a33ce7a352cce80 ice: fix fwlog after driver reinit
-eddfca8d3525b8935b088b294789bf4849fa95d6 igc: Fix XSK queue NAPI ID mapping
-82c03d140a3f3e790ce79282ce3743e32bbeb7d0 e1000e: change k1 configuration on MTP and later platforms
-be2c203eb250c5a0cd5054779c17be6813f4cbbe idpf: fix adapter NULL pointer dereference on reboot
 
---===============7393326711018913708==--
+--===============6609004284023709347==--
