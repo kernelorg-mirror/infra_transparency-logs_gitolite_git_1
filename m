@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============8580844791310627549=="
+Content-Type: multipart/mixed; boundary="===============5719888799846677338=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 27 Mar 2025 15:20:56 -0000
-Message-Id: <174308885643.3591639.9194143093144145838@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 27 Mar 2025 15:21:00 -0000
+Message-Id: <174308886022.3591891.12921525129065339608@gitolite.kernel.org>
 
---===============8580844791310627549==
+--===============5719888799846677338==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.15
+  - ref: refs/heads/spi-6.15
     old: 7a874e8b54ea21094f7fd2d428b164394c6cb316
     new: d32c4e58545f17caaa854415f854691e32d42075
     log: |
          d32c4e58545f17caaa854415f854691e32d42075 spi: SPI_QPIC_SNAND should be tristate and depend on MTD
          
 
---===============8580844791310627549==
+--===============5719888799846677338==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1743088884 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1743088854-cbbbb8e00358874a98f74263a294ffe99baa7381
+pusher C3F436CA30F5D8EB 1743088888 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1743088857-c970ea7e6579a90996c2cc48b63f2c3383035e02
 
-7a874e8b54ea21094f7fd2d428b164394c6cb316 d32c4e58545f17caaa854415f854691e32d42075 refs/heads/for-6.15
+7a874e8b54ea21094f7fd2d428b164394c6cb316 d32c4e58545f17caaa854415f854691e32d42075 refs/heads/spi-6.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmflbPQACgkQJNaLcl1U
-h9DWpAf7BvjvWglL4T7WLYxUUZ6HnkNcvJYVnDj5Vt1OYX66M7AeAEsKzeeAHCVJ
-ytAD7Ol9PagHQHqiBJvGdDru2fYdG0F0dWAJpFXSE2WLKqZQBaAwAFaPv6pHJrSC
-Zemw1CcaWjHFWp2Bvd/hXwFruBsiVX1oKkxt+GYuvt+JCmPNvUa7YoF7AIsIYWAA
-uP/iRjKw+tz3R0eQzc94rZ3A5bJ/TAcwRg237PFuwxqI7BD1qb9HPTe9Qpvjem/7
-aI0QxqWSmofiiRjK9lApS/JNcXjfxdd6+RnWNc7S8ORXRVaSVwdJmmlaJS2OP0om
-nT8pLOkrLgyeRWJzF6cjfFHEMdw7zg==
-=9QTq
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmflbPgACgkQJNaLcl1U
+h9BrdQf8DoiBLGUvtukW6s04FqOHWIsgUQ1Y1ZLIMlRd7hxeOm2jdb2uDjJ/c2qA
+aMjQKHB4hgA5slkYzywnNJA5Nlyj6fI8xZUyz9BaHneg5gnMfJeKj9vQw6T/Y7kj
+9y/DYAQXdPvjHf15+QGwMc/LLv/xMZEndSpCL2ozAlyWxwSu4fprsl/pniCKicGl
+de9bbvrwnkRE6lNhQrimNjv5tlsQDI+OSSRKGFG99f1dnqvbl6af6u7Zes0koXYl
+EMvdthOnGacWdRAnP4W9MJAa81PqS+0kChq1u+2rBD89kUa4rxME82ARq3Rllz1w
+RIagQSgmNPy2oIUJ34gbyxzEZ8WJqQ==
+=EWVl
 -----END PGP SIGNATURE-----
 
---===============8580844791310627549==--
+--===============5719888799846677338==--
