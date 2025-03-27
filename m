@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2806434841580174101=="
+Content-Type: multipart/mixed; boundary="===============6448413384724386309=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Thu, 27 Mar 2025 12:15:24 -0000
-Message-Id: <174307772447.3283425.9213291014690645516@gitolite.kernel.org>
+Date: Thu, 27 Mar 2025 12:16:45 -0000
+Message-Id: <174307780554.3284230.1031975940833805479@gitolite.kernel.org>
 
---===============2806434841580174101==
+--===============6448413384724386309==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,37 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: ij
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/review-ilpo-next
-    old: 2c30357e755b087217c7643fda2b8aea6d6deda4
+  - ref: refs/heads/review-ilpo-fixes
+    old: 03fc0a2dc9f8c292fad8a1bcfb6d1f0dec1824be
     new: 1a9239bb4253f9076b5b4b2a1a4e8d7defd77a95
-    log: revlist-2c30357e755b-1a9239bb4253.txt
+    log: revlist-03fc0a2dc9f8-1a9239bb4253.txt
 
---===============2806434841580174101==
+--===============6448413384724386309==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1743077733 +0200
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1743077831 +0200
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1743077702-100682e0c7ed3a5d20eabea3aea351a5002df213
+nonce 1743077801-29616f957142fcd731222659a8c734f28026396c
 
-2c30357e755b087217c7643fda2b8aea6d6deda4 1a9239bb4253f9076b5b4b2a1a4e8d7defd77a95 refs/heads/review-ilpo-next
+03fc0a2dc9f8c292fad8a1bcfb6d1f0dec1824be 1a9239bb4253f9076b5b4b2a1a4e8d7defd77a95 refs/heads/review-ilpo-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZ+VBaQAKCRBZrE9hU+XO
-MRImAP9x5rSw9E4mDihGVKDxCniRgH9v6l/X8EM8k2+pj8ddRwEA2QJxLyH7bJ2b
-IEiReguIChgcLy8XyPfEKvD3I1hdtQw=
-=YTTN
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZ+VBygAKCRBZrE9hU+XO
+MZwmAQDS5RbtcYp5mZSs55pdf+4Vq7XCzUJUqcvtBaZZnrclQAEAuGPlmSlB/XM7
+pWDQxIh11W7vow6YjnjSpBVgt17+PAs=
+=DuvF
 -----END PGP SIGNATURE-----
 
---===============2806434841580174101==
+--===============6448413384724386309==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-2c30357e755b-1a9239bb4253.txt
+Content-Disposition: attachment; filename=revlist-03fc0a2dc9f8-1a9239bb4253.txt
 
-d8c838a57ce25c746c9882ffa427d8bb3f22b526 net: phy: Use an internal, searchable storage for the linkmodes
-8c8c4a87933dd924f9fb56dfd35bae7e8f30a4b5 net: phy: phy_caps: Move phy_speeds to phy_caps
-4823ed0609194e164bcacac04a610dd86717689f net: phy: phy_caps: Move __set_linkmode_max_speed to phy_caps
-87b22ce312350170af5e970c5abfb2bb87e39964 net: phy: phy_caps: Introduce phy_caps_valid
 dbcd85b05c5ba520b75dbf51d0b48b5a366b6c68 net: phy: phy_caps: Implement link_capabilities lookup by linkmode
 fc81e257d19f5733c22732eef29fa15ee8bef221 net: phy: phy_caps: Allow looking-up link caps based on speed and duplex
 c7ae89c6b4d55de583eb08da8100dc20a2828d9e net: phy: phy_device: Use link_capabilities lookup for PHY aneg config
@@ -627,8 +623,11 @@ e8e472d0c5a410227bbde2bba6eb0f428eaf761c Merge tag 'asoc-fix-v6.14-rc7' of https
 807d47a6dc054859eef90066516ae4f44fe22e6d Merge tag 'i2c-host-fixes-6.14-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-current
 5a4dd520ef8a94ecf81ac77b90d6a03e91c100a9 ASoC: amd: yc: update quirk data for new Lenovo model
 9ef52d529bb75071e03cf85078f724d69c4abe89 ASoC: SDCA: Correct handling of selected mode DisCo property
+80bb29fe1717a6c8a4501648781141e2280ef3b5 irqdomain: platform/x86: Switch to irq_domain_create_linear()
 cb90c8df91d08aebb62ef77bd1c7f41a31bdc924 Merge tag 'sched-urgent-2025-03-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 5c7474b5449ccda2f0139e87425845baa2dae15a Merge tag 'perf-urgent-2025-03-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+b3e8dc1143b93e0048c631eeb2947584960da33b platform/x86: thinkpad_acpi: convert timeouts to secs_to_jiffies()
+96b8f4658b70ac2efe543ddbeb328b5b1941a571 platform/x86/amd/pmf: convert timeouts to secs_to_jiffies()
 3fed9fda150d393d3f3f91a5631dab1e0c15d582 net: remove sb1000 cable modem driver
 62e36b2441354000ef87bdcc6515986b46a40fc8 net: phy: realtek: remove call to devm_hwmon_sanitize_name
 91ee219624307154675bf067aef83693390f91f2 net: phy: tja11xx: remove call to devm_hwmon_sanitize_name
@@ -706,6 +705,7 @@ af54a2fbdf45b1fd32cdcab916f422e6d097f430 gpio: TODO: add an item to track rework
 c3b659b74541f4564f9f5a39f65e625c47e77e21 Merge branches 'thermal-core' and 'thermal-misc'
 1774be7cfc2fc3a606aa8e9b855427877104804b Merge branch 'pm-cpufreq'
 7a9072d8599427679ab5e72a834af87bf818cae5 Merge branch 'pm-cpuidle'
+2c30357e755b087217c7643fda2b8aea6d6deda4 platform/x86: x86-android-tablets: Add select POWER_SUPPLY to Kconfig
 38fec10eb60d687e30c8c6b5420d86e8149f7557 Linux 6.14
 871302441256b3d34a0625d33014c882036258cc Merge branches 'pm-em' and 'pm-runtime'
 5a98796468e655048a3b37bf94cbe9a36ce58e32 Merge branch 'pm-sleep'
@@ -1072,4 +1072,4 @@ f6e0150b2003fb2b9265028a618aa1732b3edc8f Merge tag 'mtd/for-6.15' of git://git.k
 e61f33273ca755b3e2ebee4520a76097199dc7a8 Merge tag 'zstd-linus-v6.15-rc1' of https://github.com/terrelln/linux
 1a9239bb4253f9076b5b4b2a1a4e8d7defd77a95 Merge tag 'net-next-6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 
---===============2806434841580174101==--
+--===============6448413384724386309==--
