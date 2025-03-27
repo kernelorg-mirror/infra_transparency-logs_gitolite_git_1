@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2137380600040455095=="
+Content-Type: multipart/mixed; boundary="===============6091991256314262337=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 27 Mar 2025 15:54:59 -0000
-Message-Id: <174309089917.3625180.15880379608266511952@gitolite.kernel.org>
+Date: Thu, 27 Mar 2025 15:55:03 -0000
+Message-Id: <174309090335.3626468.10158039297182657673@gitolite.kernel.org>
 
---===============2137380600040455095==
+--===============6091991256314262337==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 023b1e9d265ca0662111a9df23d22b4632717a8a
     new: 1a9239bb4253f9076b5b4b2a1a4e8d7defd77a95
     log: revlist-023b1e9d265c-1a9239bb4253.txt
 
---===============2137380600040455095==
+--===============6091991256314262337==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f6e0150b2003fb2b9265028a618aa1732b3edc8f Merge tag 'mtd/for-6.15' of git://git.k
 e61f33273ca755b3e2ebee4520a76097199dc7a8 Merge tag 'zstd-linus-v6.15-rc1' of https://github.com/terrelln/linux
 1a9239bb4253f9076b5b4b2a1a4e8d7defd77a95 Merge tag 'net-next-6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 
---===============2137380600040455095==--
+--===============6091991256314262337==--
