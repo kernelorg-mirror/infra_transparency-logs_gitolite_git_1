@@ -1,59 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============8688439169083238736=="
+Content-Type: multipart/mixed; boundary="===============1590596757065983203=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Thu, 27 Mar 2025 12:17:48 -0000
-Message-Id: <174307786819.3285167.15136845290876776225@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
+Date: Thu, 27 Mar 2025 12:18:03 -0000
+Message-Id: <174307788378.3285465.17282933664591288317@gitolite.kernel.org>
 
---===============8688439169083238736==
+--===============1590596757065983203==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/linkinjeon/exfat
+user: linkinjeon
 changes:
-  - ref: refs/heads/fixes
-    old: 03fc0a2dc9f8c292fad8a1bcfb6d1f0dec1824be
-    new: 1a9239bb4253f9076b5b4b2a1a4e8d7defd77a95
-    log: revlist-03fc0a2dc9f8-1a9239bb4253.txt
+  - ref: refs/heads/dev
+    old: e8eefc758d0e72d29e72b320568c1c53d6e2e489
+    new: 312a0d25e85b0b0d110861489b31b1b696bd0a3b
+    log: revlist-e8eefc758d0e-312a0d25e85b.txt
 
---===============8688439169083238736==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1743077895 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1743077865-8c474125b51a28be7845f8a38fe1f603c6df3380
-
-03fc0a2dc9f8c292fad8a1bcfb6d1f0dec1824be 1a9239bb4253f9076b5b4b2a1a4e8d7defd77a95 refs/heads/fixes
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZ+VCCQAKCRBZrE9hU+XO
-MXwvAP9JYI3EcKSW6q5cEaVRmaTqJiPlGiOU8qa3EqNUMf6o2QD9EpbfwIJu7cBz
-Psz+NxAKhMhA3nr+mYR4EqbDuTJ4Qw8=
-=l2SP
------END PGP SIGNATURE-----
-
---===============8688439169083238736==
+--===============1590596757065983203==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-03fc0a2dc9f8-1a9239bb4253.txt
+Content-Disposition: attachment; filename=revlist-e8eefc758d0e-312a0d25e85b.txt
 
-dbcd85b05c5ba520b75dbf51d0b48b5a366b6c68 net: phy: phy_caps: Implement link_capabilities lookup by linkmode
-fc81e257d19f5733c22732eef29fa15ee8bef221 net: phy: phy_caps: Allow looking-up link caps based on speed and duplex
-c7ae89c6b4d55de583eb08da8100dc20a2828d9e net: phy: phy_device: Use link_capabilities lookup for PHY aneg config
-de7d3f87be3cba8ad06978271a3135bd08810c97 net: phylink: Use phy_caps_lookup for fixed-link configuration
-ce60fef7feccb5c71d5b49e489d24db7d79c2ac7 net: phy: drop phy_settings and the associated lookup helpers
-3bea75002a05b86bf4d87773c456f39f7693f5c4 net: phylink: Add a mapping between MAC_CAPS and LINK_CAPS
-4ca5b8a258b67aa5e06af56e53708cc23ea05e79 net: phylink: Convert capabilities to linkmodes using phy_caps
 3bd87f3b4405cefa12b6be7ebf75a021cac4738a net: phylink: Use phy_caps to get an interface's capabilities and modes
 b500ee5fde1bd0c85026dfcdadbc175548fb5216 ata: libata: Fix NCQ Non-Data log not supported print
 50698b298b3995d253bd0b85ff7f60cae6f51e6a Merge branch 'net-phy-rework-linkmodes-handling-in-a-dedicated-file'
@@ -1071,5 +1043,12 @@ f6e0150b2003fb2b9265028a618aa1732b3edc8f Merge tag 'mtd/for-6.15' of git://git.k
 592329e5e94e26080f4815c6cc6cd0f487a91064 Merge tag 'sysctl-6.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/sysctl/sysctl
 e61f33273ca755b3e2ebee4520a76097199dc7a8 Merge tag 'zstd-linus-v6.15-rc1' of https://github.com/terrelln/linux
 1a9239bb4253f9076b5b4b2a1a4e8d7defd77a95 Merge tag 'net-next-6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
+a36e0ab44cb344728f7c0fdc34edcbae64739c16 exfat: support batch discard of clusters when freeing clusters
+f6369ae1f088cb6d18d7a07eec95d7c10c2a2a5e exfat: remove count used cluster from exfat_statfs()
+1bb7ff4204b6d4927e982cd256286c09ed4fd8ca exfat: fix random stack corruption after get_block
+b0522303f67255926b946aa66885a0104d1b2980 exfat: fix the infinite loop in exfat_find_last_cluster()
+47e35366bc6fa3cf189a8305bce63992495f3efa exfat: fix missing shutdown check
+8b98886721ab1df216843badc9a52da07baf0d58 exfat: fix potential wrong error return from get_block
+312a0d25e85b0b0d110861489b31b1b696bd0a3b exfat: call bh_read in get_block only when necessary
 
---===============8688439169083238736==--
+--===============1590596757065983203==--
