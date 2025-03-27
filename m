@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4149269373102029481=="
+Content-Type: multipart/mixed; boundary="===============8412681538937255695=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 27 Mar 2025 07:17:42 -0000
-Message-Id: <174305986289.3035191.195416558195312930@gitolite.kernel.org>
+Date: Thu, 27 Mar 2025 07:18:10 -0000
+Message-Id: <174305989059.3035622.8778703223485458988@gitolite.kernel.org>
 
---===============4149269373102029481==
+--===============8412681538937255695==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,31 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: fdb7337b62841984405e2284f7a68226226f6759
-    new: 4f4b1837c0b96642b44122469fa677d820f87daa
-    log: revlist-fdb7337b6284-4f4b1837c0b9.txt
+    old: 4f4b1837c0b96642b44122469fa677d820f87daa
+    new: f531231efdf79c7b7ac25cfe6612c67f93eea83d
+    log: |
+         8c4bf5829763b95a470ab6f91e6b3c595b65d2e6 Merge branch into tip/master: 'irq/urgent'
+         2604d0ac8559164eefec5dbcc3d886cd4528fedb Merge branch into tip/master: 'locking/urgent'
+         3426fb710d6141098496e574ae8c7f71a2dd426a Merge branch into tip/master: 'objtool/urgent'
+         38ea41da795a8c28d9ef8f953f9b580a62c951d6 Merge branch into tip/master: 'x86/urgent'
+         15ba1a07a12e88e9ae83b5ee93996a76a25de481 Merge branch into tip/master: 'timers/clocksource'
+         26f791d05fca143830a96be172fd5b503485c1f9 Merge branch into tip/master: 'x86/alternatives'
+         43ced5c6e5dddcf9a5b03ed40a25007d70e6d1b9 Merge branch into tip/master: 'x86/asm'
+         c7b65c3a3fbbd6cd9412ed1ef33d76ddef046f2c Merge branch into tip/master: 'x86/cpu'
+         5762be48a9f2652b4597bb4913ada0adcf604c4f Merge branch into tip/master: 'x86/fpu'
+         59f685f3dab44421a6ae3f1635b26ac13c76ce51 Merge branch into tip/master: 'x86/kconfig'
+         f531231efdf79c7b7ac25cfe6612c67f93eea83d Merge branch into tip/master: 'x86/tdx'
+         
+  - ref: refs/heads/tip/urgent
+    old: b53771956748a94ffeb6ab6779ef410c536c4dcc
+    new: 38ea41da795a8c28d9ef8f953f9b580a62c951d6
+    log: revlist-b53771956748-38ea41da795a.txt
 
---===============4149269373102029481==
+--===============8412681538937255695==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-fdb7337b6284-4f4b1837c0b9.txt
+Content-Disposition: attachment; filename=revlist-b53771956748-38ea41da795a.txt
 
 97d0d1655ea82ac8a54241d5457e6944fbff954c KVM: selftests: Fix typos in x86's PMU counter test's macro variable use
 c76a923828059ac9999e4415dcbd9706ac9540a0 KVM: selftests: Add defines for AMD PMU CPUID features and properties
@@ -278,6 +294,9 @@ c3164d2e0d181027da8fc94f8179d8607c3d440f PCI/MSI: Convert pci_msi_ignore_mask to
 edb0e8f6e2e19c10a240d08c5d6f3ab3cdd38808 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 dce3ab4c57e662ae019c22e7c2f2aa887617beae Merge tag 'for-linus-6.15-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
 3ece3e8e5976c49c3f887e5923f998eabd54ff40 PCI/MSI: Handle the NOMASK flag correctly for all PCI/MSI backends
-4f4b1837c0b96642b44122469fa677d820f87daa Merge branch into tip/master: 'irq/urgent'
+8c4bf5829763b95a470ab6f91e6b3c595b65d2e6 Merge branch into tip/master: 'irq/urgent'
+2604d0ac8559164eefec5dbcc3d886cd4528fedb Merge branch into tip/master: 'locking/urgent'
+3426fb710d6141098496e574ae8c7f71a2dd426a Merge branch into tip/master: 'objtool/urgent'
+38ea41da795a8c28d9ef8f953f9b580a62c951d6 Merge branch into tip/master: 'x86/urgent'
 
---===============4149269373102029481==--
+--===============8412681538937255695==--
