@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 27 Mar 2025 15:10:13 -0000
-Message-Id: <174308821343.3580897.15114583073958892398@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Thu, 27 Mar 2025 15:10:28 -0000
+Message-Id: <174308822877.3581302.5207815557806401861@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/tags/v6.14
-    old: 0000000000000000000000000000000000000000
-    new: 35ff3b0f4596c82ec0a3e1cc43e2a85f5e976023
+  - ref: refs/heads/master
+    old: a3a754007cb71fabd1388e2d7f6c747876f92a99
+    new: 980a573621ea4b5032123937df0115bdbec6b2de
+    log: |
+         980a573621ea4b5032123937df0115bdbec6b2de tpm: Make chip->{status,cancel,req_canceled} opt
+         
