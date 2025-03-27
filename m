@@ -1,56 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============6167047430825494352=="
+Content-Type: multipart/mixed; boundary="===============2835462484071303820=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 27 Mar 2025 15:01:12 -0000
-Message-Id: <174308767206.3571517.14436163037977510713@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Thu, 27 Mar 2025 15:02:59 -0000
+Message-Id: <174308777955.3572517.8327433447893001069@gitolite.kernel.org>
 
---===============6167047430825494352==
+--===============2835462484071303820==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/master
-    old: 180e76455d51853c03d14cc79a6089b7e8cb43a0
-    new: d7ed46f65b721c7a1a7f4e8e07ccecfe685509de
-    log: |
-         d7ed46f65b721c7a1a7f4e8e07ccecfe685509de assign some ids for 6.13.6
-         
+  - ref: refs/heads/kernel-6.12.16/nfs-2
+    old: 6e2bb0c032e42ce1a22c6b6c6df9cd77a26c9ff2
+    new: c3e90e0e07d600e13f891c9ed30e66baadd73270
+    log: revlist-6e2bb0c032e4-c3e90e0e07d6.txt
 
---===============6167047430825494352==
+--===============2835462484071303820==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-6e2bb0c032e4-c3e90e0e07d6.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1743087699 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1743087669-8c1aba30462f31cad3014c40b97d7e3932ae999f
+7447965ba30d407e278a86785b5ee357b6b07e6d nvme-tcp: fix I/O stalls on congested sockets
+36bd3047efeca86c0c53676184d92b0c9a70cba4 nfs: add dummy definition for nfsd_file
+cb3c308094c9879278b43c8ee8a072763ce1dcec Merge branch 'kernel-6.12.16/nvme' into kernel-6.12.16/nfs-2
+7469f950394abd68cc519e724728ffeea3854d30 Merge branch 'kernel-6.12.16/localio' into kernel-6.12.16/nfs-2
+cfa99c079755f5cb5b22d2ccb04280f1b5e0ff6a NFS: O_DIRECT writes must check and adjust the file length
+8d63e30e0d6be24dc1de4a9ee88b2f69e40d33fe NFS: Adjust delegated timestamps for O_DIRECT reads and writes
+3c93ccdf7c4bbd44655cd6a3e0137e80bc174323 SUNRPC: Prevent looping due to rpc_signal_task() races
+55cfd40e3941a4a7cad6f63c00b8b8f0cb5a42c8 NFSv4: Fix a deadlock when recovering state on a sillyrenamed file
+b24a51d95c23552d146368da39a72eb06e9b6018 SUNRPC: Handle -ETIMEDOUT return from tlshd
+d9c421728211c220ade3d125785860d539a1f243 NFS: fix nfs_release_folio() to not deadlock via kcompactd writeback
+03da0b01ba76bee3777bf2fb2f9d90309006470c NFSv4: Don't trigger uneccessary scans for return-on-close delegations
+8b6990584f8827ebb9a8ab6872e9a26ef095e5c8 NFSv4: Avoid unnecessary scans of filesystems for returning delegations
+c57628b4610eb82e38adb6e0efcb7688e57fa771 NFSv4: Avoid unnecessary scans of filesystems for expired delegations
+dfe0cf855a40ad01b78af75daaf28a70c6b74001 NFSv4: Avoid unnecessary scans of filesystems for delayed delegations
+394fa2915757188635aaac4ff628654275326e1e NFS: fix open_owner_id_maxsz and related fields.
+a2e109bc6b21657cd78883728d0890ac72c3fcf6 NFS: Extend rdirplus mount option with "force|none"
+c582a0dedab171e46caca97b6a3b4e55dfd04223 NFS: Add a mount option to make ENETUNREACH errors fatal
+5b0067dab1edaae94e8cec766e7f6a06963b2c90 NFS: Treat ENETUNREACH errors as fatal in containers
+46ec83229fef5f7b44cacbdec277e6fe06a3dfac pNFS/flexfiles: Treat ENETUNREACH errors as fatal in containers
+1dfdc325b054e48ba07e2f4454841bb2112c6ed4 pNFS/flexfiles: Report ENETDOWN as a connection error
+6ad4f1e5496cf64be897967d97c0a5a76b23f11b SUNRPC: rpcbind should never reset the port to the value '0'
+873c216487da2231b6f0a6ac58909a09c1d6602e SUNRPC: rpc_clnt_set_transport() must not change the autobind setting
+42ac90f228c24758770a9691f1775117df41bc7f NFS: Shut down the nfs_client only after all the superblocks
+073c819f9291b7fa00d61cdd3296b426282c5877 NFSv4: Further cleanups to shutdown loops
+61335b9f7359f9bfcd9c527d64c80ba9619548c4 NFSv4: clp->cl_cons_state < 0 signifies an invalid nfs_client
+1e590148dd15aa6884e7372eb2eef8c2f343c5b8 NFSv4: Treat ENETUNREACH errors as fatal for state recovery
+c3e90e0e07d600e13f891c9ed30e66baadd73270 kernel-6.12.16-2
 
-180e76455d51853c03d14cc79a6089b7e8cb43a0 d7ed46f65b721c7a1a7f4e8e07ccecfe685509de refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmflaFMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KREP/i6UZSp/ctTJX8g9m4PB
-OTwMbisaucDXhbXd2nIzu1g/1St2gwB23jr370j28TYvJvzQZK1Sc/Xr392ps/g3
-nIo1C01FTeYr0wK2x6gRk0T9F/SUkcyNowXM6AAcZvCD6GYbW+/IAYzrb7vlOSRz
-lFt+XDyXnX+zrIEZDPriwrYmj0Ke72CYcS55MtL08Xy9XJ/pCC3v4oqWuU2Jm3+F
-cUW0/xrsh+oK8KbEtwQzeX+qR2aT2okG3QRXUsgTaozJ2CTcpbdPnLW5cr1Yx8J+
-+gvcYi2EMrLIMfaFKh2OBUPiyuhhj+VOnW8+O6LhhQMsi7zhbSIRPv+X3c5Ydy2Q
-itJM6WocFEWs2/hP7Bzr1KS3va4mdUvFBSyKBM72qxV4CUaTijhW2I+BcxTZ3vf0
-hAeIB0xQB5VacNbb69mWckFYwe+UUIl1SMfHkatlveAb7KfrgjaD+lhqplFsBPjJ
-IEA/o5Ri2awBUyeOH4AnFgr/06WvwKyNJPn230q9nEO78Bs/U9yf8hxNWt94RZwG
-sWguzcbs10dfvy43sffRhVin0ETm2DZAZ/IZ9OrjBsQy8PXAft+X9BIfIQZj7qOB
-fpiQKtqAFnndwmYtZLEPhCZixwZCCTZCPWXE+0iiWg1nKKyukJvx9fJ42I5yQ7BA
-/6OzKurkKRJTn750stFDOKTJ
-=06rS
------END PGP SIGNATURE-----
-
---===============6167047430825494352==--
+--===============2835462484071303820==--
