@@ -1,24 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Thu, 27 Mar 2025 18:22:40 -0000
-Message-Id: <174309976054.3752490.11006981254697487818@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Thu, 27 Mar 2025 18:40:24 -0000
+Message-Id: <174310082425.3767631.16356291918251517917@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/testing/wfamnae-next20250325
-    old: 1c7aff4bbcb305b863e2456d7977b84431d8261f
-    new: f29155ee7de3c4b008525226c438ee3d6a37d3f8
+  - ref: refs/heads/bleeding-edge
+    old: e5905b8b6fdf2f7576b8ddf0a90330857e68f5e5
+    new: e82e4ab06400c42ff65ef497186e1de2f2e4ada6
     log: |
-         e7e396703b4c80687f0a14faf912c4951b14ce85 watchdog: cros-ec: Avoid -Wflex-array-member-not-at-end warning
-         19f02a745b0e619404ce8bad10fd4c17b0cf239e ext4: Avoid -Wflex-array-member-not-at-end warning
-         1898ff2dcb06ae4e4b373c45ab0770616211d7e2 wifi: mac80211: Avoid -Wflex-array-member-not-at-end warnings
-         1e70363ba203157eb68c58c79a507af6f69a30fb wifi: iwlwifi: mvm: Avoid -Wflex-array-member-not-at-end warning
-         dd911470d9b62f59005eb94bfdf89ab0f0d9822d fs: namespace: Avoid -Wflex-array-member-not-at-end warning
-         f29155ee7de3c4b008525226c438ee3d6a37d3f8 w1: Avoid -Wflex-array-member-not-at-end warnings
+         359595b20a3617da9fe611f35f2197023bdbda62 ACPI: NUMA: Use str_enabled_disabled() helper function
+         e82e4ab06400c42ff65ef497186e1de2f2e4ada6 Merge branch 'acpi-misc' into bleeding-edge
          
