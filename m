@@ -1,41 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============5923322429397697259=="
+Content-Type: multipart/mixed; boundary="===============2621860555614278733=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Thu, 27 Mar 2025 09:53:09 -0000
-Message-Id: <174306918974.3162001.11652984142349506161@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Thu, 27 Mar 2025 09:58:10 -0000
+Message-Id: <174306949031.3166278.16227732248823661483@gitolite.kernel.org>
 
---===============5923322429397697259==
+--===============2621860555614278733==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/heads/master
-    old: bb8dbc6e30bff86f95a3660b4233758ee8ba29c7
-    new: ed0efcb48a0ddf12ec2205e9c4324b33e348fcfa
-    log: revlist-bb8dbc6e30bf-ed0efcb48a0d.txt
+  - ref: refs/heads/scx
+    old: a0df5fccef16880f600d8dee4b689cdcfd073d8b
+    new: 73a1d74399fb556eee4c2261f0544efc0fcef486
+    log: revlist-a0df5fccef16-73a1d74399fb.txt
 
---===============5923322429397697259==
+--===============2621860555614278733==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bb8dbc6e30bf-ed0efcb48a0d.txt
+Content-Disposition: attachment; filename=revlist-a0df5fccef16-73a1d74399fb.txt
 
-66d03a5ce78c7b539a733c72fc4198fd0d12c6b0 ipcrm: move a constant argument in order to gettextize the message
-3d9573b98196ab34bc45e862d7700109015e6603 ipcrm: in usage text, use two lines when option+arguments is very long
-b3c7bbffddade43cc355f22f139c51ab819fdc08 ipcutils, lsipc: unabbreviate two words in some error messages
-48675a7442000405910bec9e6a68305e4a67a93c chmem: print warnings about failures always (not only with --verbose)
-f5362d25dfebd6a198268bb539cca7c1c7f937aa chmem: (man) add missing end-of-bold marker, and add missing OR bar
-e27ee134279d3e27495e24330b331ea0ab8bebaa fstrim: mark only the mountpoint as placeholder, not options -A and -a
-3a8ba45c2559ffa219e0fd61d827a6061352c8e6 swapon: improve a translator hint, and remove a pointless one
-6d9b61a40e1d47176cf11366826a0dee93f2d0e0 mkfs.cramfs: reduce the synopsis to the standard, succinct form
-593bd690d5f3faaa4860036fcf9c245efbe9967c mkfs.cramfs: vertically align the option descriptions of the usage text
-b026dcc3b46a0f755a6a144c571cc57ea43a5307 mkfs.cramfs: (man) mark arguments of -N and -l in bold, not italics
-ed0efcb48a0ddf12ec2205e9c4324b33e348fcfa ipcs: align the first group of options with later ones in the usage text
+3d1658e99c271334926531d2c3458d33dce5f333 sched_ext: idle: Extend topology optimizations to all tasks
+5e6ebcc5df73f64f052d1849fe6a46ea202ffe8b sched_ext: idle: Explicitly pass allowed cpumask to scx_select_cpu_dfl()
+0717ef651638d8038f9351272bca7c9d5aaf53b7 sched_ext: idle: Accept an arbitrary cpumask in scx_select_cpu_dfl()
+9cdb69086da0b819841d97414560fc004feeff0f sched_ext: idle: Introduce scx_bpf_select_cpu_and()
+4b47de1ec333265597c1e6ea1e326b34b4d33a38 selftests/sched_ext: Add test for scx_bpf_select_cpu_and()
+0784607a8b4a3d7787ff69af793ad213c5b65fb1 sched_ext: idle: Deprecate scx_bpf_select_cpu_dfl()
+2cd59527e0e63573c9825d243e25a32e5cd311a3 sched: Add support to pick functions to take rf
+b20d3383dc1c0db799ddfac110232e53b73432b1 sched: Add a server arg to dl_server_update_idle_time()
+b142b49e77b140dd89e6223374bb6217518f9633 sched/ext: Add a DL server for sched_ext tasks
+a134ba95c298c3bd3d866a2cc28b41e48ab48d44 sched/debug: Fix updating of ppos on server write ops
+d25118cb00078ed97de4af37a4ac0368d976a197 sched/debug: Stop and start server based on if it was active
+264ccea0efad342748bafaea4aa79cc102768d07 sched/debug: Add support to change sched_ext server params
+825e87a5f6d52d75605fafa62628abaa97d0151a sched/deadline: Clear defer params
+dfb2624a4ee5672f64f48a470cd4b85c263a1d1f selftests/sched_ext: Add test for sched_ext dl_server
+73a1d74399fb556eee4c2261f0544efc0fcef486 sched_ext: Fix missing rq lock in scx_bpf_cpuperf_set()
 
---===============5923322429397697259==--
+--===============2621860555614278733==--
