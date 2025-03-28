@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Fri, 28 Mar 2025 20:07:05 -0000
-Message-Id: <174319242520.851923.17738121995548103486@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/ext2/xfstests-bld
+Date: Fri, 28 Mar 2025 20:26:28 -0000
+Message-Id: <174319358858.867675.11188261771445422391@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: cmarinas
+repo: pub/scm/fs/ext2/xfstests-bld
+user: tytso
 changes:
-  - ref: refs/heads/for-next/core
-    old: 64fa6b9322a904198589c0479dca6f2ed7f2eb04
-    new: e18c09b204e81702ea63b9f1a81ab003b72e3174
+  - ref: refs/heads/master
+    old: 109e74fe62561969528de5740c1880632102dbc3
+    new: 821ba916a41f0ce3749ae0beea315e9774a3a2ca
     log: |
-         89f43e1ce6f60d4f44399059595ac47f7a90a393 arm64: mm: Correct the update of max_pfn
-         a13bfa4fe0d6949cea14718df2d1fe84c38cd113 arm64: mops: Do not dereference src reg for a set operation
-         0fff2aa96f6be6d33b584d73b16d3672fd30fd5c arm64: mm: Drop dead code for pud special bit handling
-         e18c09b204e81702ea63b9f1a81ab003b72e3174 arm64: Add support for HIP09 Spectre-BHB mitigation
+         a91591289b55cc3d3d2d730faf024ed986365a0a kvm-xfstests: fix wget progress bar support
+         84b55b509a01fe540a93d03f0f27844e59cbc025 kernel-configs: enable virtio-console
+         821ba916a41f0ce3749ae0beea315e9774a3a2ca test-appliance: disable the nfs server in the test appliance
          
