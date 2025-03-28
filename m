@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5108431477114527546=="
+Content-Type: multipart/mixed; boundary="===============3215622236368162320=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 28 Mar 2025 21:57:25 -0000
-Message-Id: <174319904544.1144921.5647706695652533081@gitolite.kernel.org>
+Date: Fri, 28 Mar 2025 21:57:43 -0000
+Message-Id: <174319906318.1145409.16429447689053700717@gitolite.kernel.org>
 
---===============5108431477114527546==
+--===============3215622236368162320==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/x86/urgent
-    old: ca5a69afadec0a3691aa4a26b43b1ae05a65119f
-    new: f710202b2a45addea3dcdcd862770ecbaf6597ef
-    log: revlist-ca5a69afadec-f710202b2a45.txt
+  - ref: refs/heads/master
+    old: d3bd178661d56a410495cdeb9260c21643c1fa66
+    new: 9d667ce9aa857f3b3534278e96310977574cc783
+    log: revlist-d3bd178661d5-9d667ce9aa85.txt
 
---===============5108431477114527546==
+--===============3215622236368162320==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-ca5a69afadec-f710202b2a45.txt
+Content-Disposition: attachment; filename=revlist-d3bd178661d5-9d667ce9aa85.txt
 
-ffa1e7ada456087c2402b37cd6b2863ced29aff0 block: Make request_queue lockdep splats show up earlier
-86947bdc28894520ed5aab0cf21b99ff0b659e07 loop: move vfs_fsync() out of loop_update_dio()
 48303ef31d76b3138227133a741646abce057f42 spi: sg2044-nor: fix a couple static checker bugs
 8ee1c926f31e9b13a67a235ba8cf7c05f37f4296 net: stmmac: qcom-ethqos: remove of_get_phy_mode()
 46f84d700cb88f934ea1e4fc7d9d814e9bcf06f1 net: stmmac: mediatek: remove of_get_phy_mode()
@@ -566,7 +564,6 @@ f2639ed11e256b957690e241bb04ec9912367d60 selftests: ublk: add single sqe allocat
 3b4aff61ca5dd696856d2db98e9268d94504eff3 netfilter: xtables: Use strscpy() instead of strscpy_pad()
 932b32ffd7604fb00b5c57e239a3cc4d901ccf6e netfilter: socket: Lookup orig tuple for IPv6 SNAT
 e3a4182edd1ae60e7e3539ff3b3784af9830d223 netfilter: nf_tables: Only use nf_skip_indirect_calls() when MITIGATION_RETPOLINE
-0f920690a82cc99ae08cab08bee2e5685b62fd04 dt-bindings: timer: Add SiFive CLINT2
 81c7a515b0f1e1254edd8adcfa1b780c31833565 tracing: Align synth event print fmt
 7e6b3fcc9c5294aeafed0dbe1a09a1bc899bd0f2 tracing/osnoise: Fix possible recursive locking for cpus_read_lock()
 0c588ac0ca6c22b774d9ad4a6594681fdfa57d9d tracing: fix return value in __ftrace_event_enable_disable for TRACE_REG_UNREGISTER
@@ -704,7 +701,6 @@ d7a550d6c68b6f13a9bbc208de9894abb41f2e97 Merge branch 'sja1105-driver-fixes'
 bdf549a7a4d738838d50833168881a0b6247446a net/mlx5: LAG, reload representors on LAG creation failure
 1726ad035cb0c93cc5c3f2227ec71322ccd7c2f8 net/mlx5: Start health poll after enable hca
 cec7dde2a926b496b3227ee59973b298cf76cc2a Merge branch 'mlx5-misc-fixes-2025-03-18'
-abfa6d6fe2e9539a6e080088a6e5762f4651017b Merge tag 'timers-v6.15-rc1' of https://git.linaro.org/people/daniel.lezcano/linux into timers/clocksource
 be8cd366beb80c709adbc7688ee72750f5aee3ff ALSA: hda/realtek: Bass speaker fixup for ASUS UM5606KA
 09e269f550f548a1249ba5282747fe67ba177608 ALSA: hda: cs35l56: Remove unnecessary NULL check before release_firmware()
 3a949fc08103c0ce3a1d0ef30459c7b3acc6a214 ALSA: hda: tas2781-i2c: Remove unnecessary NULL check before release_firmware()
@@ -957,7 +953,6 @@ e1156872efa70b470534eed455861de3725aa867 selftests/landlock: Add audit tests for
 a5c369e45b3e066c8defee149fad9f25dbcdaa11 selftests/landlock: Add audit tests for network
 8e2dd47b10e77452733eae23cc83078fa29c1e9a landlock: Add audit documentation
 70facbf978ac90c6da17a3de2a8dd111b06f1bac mctp: Fix incorrect tx flow invalidation condition in mctp-i2c
-3ece3e8e5976c49c3f887e5923f998eabd54ff40 PCI/MSI: Handle the NOMASK flag correctly for all PCI/MSI backends
 814d051ebed40b27285ab3c5e2454bd01a0f9631 tools/build: Use SYSTEM_BPFTOOL for system bpftool
 c57c58a62e564c615520839742b28d315427a280 rtla: Fix segfault in save_trace_to_file call
 025b217990ea5cdc24a33ad60c889c696cbf9a32 rtla/osnoise: Unify params struct
@@ -1048,7 +1043,12 @@ a2d4f473df1117e437fee125fa7e9420e19207ec Merge tag 'integrity-v6.15' of git://gi
 72885116069abdd05c245707c3989fc605632970 Merge tag 'landlock-6.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
 f8a4eba343cafc7e9ec11e45f53eddb88f90e397 Merge tag 'crc-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
 15cb9a2b66fc623843c68bd508e2731782ae6570 Merge tag 'tpmdd-next-6.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+ca5a69afadec0a3691aa4a26b43b1ae05a65119f x86/uaccess: Improve performance by aligning writes to 8 bytes in copy_user_generic(), on non-FSRM/ERMS CPUs
+d37898e31bec215ed53237a5347b193d84c028d5 x86/tools: Drop duplicate unlikely() definition in insn_decoder_test.c
+f9bc20fa0febe1fd28abf36c64b350d7e35385eb Merge branch into tip/master: 'x86/urgent'
 b5322b6ec06a6c58650f52abcd2492000396363b x86/uaccess: Improve performance by aligning writes to 8 bytes in copy_user_generic(), on non-FSRM/ERMS CPUs
 f710202b2a45addea3dcdcd862770ecbaf6597ef x86/tools: Drop duplicate unlikely() definition in insn_decoder_test.c
+393dfe5691f55a49266402f2557a16ee34368d54 Merge branch 'linus'
+9d667ce9aa857f3b3534278e96310977574cc783 Merge branch into tip/master: 'x86/urgent'
 
---===============5108431477114527546==--
+--===============3215622236368162320==--
