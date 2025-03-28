@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
-Date: Fri, 28 Mar 2025 16:01:34 -0000
-Message-Id: <174317769448.650509.4721700160301194791@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Fri, 28 Mar 2025 16:14:41 -0000
+Message-Id: <174317848102.660264.15085360024453596503@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kmod/kmod
-user: demarchi
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/master
-    old: da2654b78ce3af083e42c2f7512d09082b872676
-    new: 2fb3d0fd68f7cc24e5ddfc208b46dd6c381a2ce7
+  - ref: refs/heads/main
+    old: 710a336b31981773a3a16e7909fd83daeaec9db1
+    new: fa185545de654beb80471694984caab18a3a559e
     log: |
-         b73b52004ec52f7f4d4786f57336bed2761be06e Added the test case of using multiple softdep for a module
-         2fb3d0fd68f7cc24e5ddfc208b46dd6c381a2ce7 Remove the softdep modinfo in the modules mod-softdep-a and mod-softdep-b
+         152e5e12df704b78d1fda9e29d9c893d76db615d amdgpu: update dcn 3.1.4 firmware to 8.0.78.0
+         fa185545de654beb80471694984caab18a3a559e Merge branch 'amd-staging' into 'main'
          
