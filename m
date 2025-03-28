@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7343433508952712696=="
+Content-Type: multipart/mixed; boundary="===============1722235213790288136=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Fri, 28 Mar 2025 00:12:39 -0000
-Message-Id: <174312075971.4045217.7903665016277064742@gitolite.kernel.org>
+Date: Fri, 28 Mar 2025 00:12:41 -0000
+Message-Id: <174312076161.4045322.6705752563606188682@gitolite.kernel.org>
 
---===============7343433508952712696==
+--===============1722235213790288136==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: 39f8d63804505222dccf265797c2d03de7f2d5b3
-    new: 280deda134db13ee951141a4ae86eeaf5f3a64eb
-    log: revlist-39f8d6380450-280deda134db.txt
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: 6ea39cc388899a121b5b19b6968692e9460ee4a3
+    new: 38fec10eb60d687e30c8c6b5420d86e8149f7557
+    log: revlist-6ea39cc38889-38fec10eb60d.txt
 
---===============7343433508952712696==
+--===============1722235213790288136==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-39f8d6380450-280deda134db.txt
+Content-Disposition: attachment; filename=revlist-6ea39cc38889-38fec10eb60d.txt
 
 1b133129ad6b28186214259af3bd5fc651a85509 riscv: dts: starfive: Fix a typo in StarFive JH7110 pin function definitions
 1ac98d6484c4a53e9b3ed1f59d03a2dd2d287b70 soc: qcom: pmic_glink: Drop redundant pg assignment before taking lock
@@ -192,7 +192,6 @@ f3009d0d6ab78053117f8857b921a8237f4d17b3 net: atm: fix use after free in lec_sen
 3ed61b8938c66680e13a1d1929afb9b145c26a86 selftests: net: test for lwtunnel dst ref loops
 f31b6fbfe8c7f1da319b5a51a08ed730bf7e7fc2 Merge branch 'net-fix-lwtunnel-reentry-loops'
 f70681e9e6066ab7b102e6b46a336a8ed67812ae libfs: Fix duplicate directory entry in offset_dir_lookup
-6ea39cc388899a121b5b19b6968692e9460ee4a3 i2c: amd-mp2: drop free_irq() of devm_request_irq() allocated irq
 2c1f97a52cb827a5f2768e67a9dddffae1ed47ab mptcp: Fix data stream corruption in the address announcement
 23b763302ce068d7c97441e75434dc9f903adc7d tools headers: Sync uapi/asm-generic/socket.h with the kernel sources
 90a7138619a0c55e2aefaad27b12ffc2ddbeed78 net/neighbor: add missing policy for NDTPA_QUEUE_LENBYTES
@@ -232,48 +231,5 @@ fcea541800539899ba0073259cd35d615488a415 Merge tag 'keys-next-6.14-rc8' of git:/
 183601b78a9b1c3da2b59f2bee915f97ba745c0b Merge tag 'perf-urgent-2025-03-22' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 586de92313fcab8ed84ac5f78f4d2aae2db92c59 Merge tag 'i2c-for-6.14-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 38fec10eb60d687e30c8c6b5420d86e8149f7557 Linux 6.14
-eadae9e7606ffdddbad162e9602fff569db6f8b7 i2c: octeon: refactor common i2c operations
-b7fc85a98f9654bce90e9951c0237665aae6fa2b dt-bindings: i2c: samsung,s3c2410: add exynos7870-i2c compatible
-7a8c4bdbee5c974d6c99f93d9f85d80a8bb88adb dt-bindings: i2c: exynos5: add exynos7870-hsi2c compatible
-94505359bbf0028cc2491e7c0f7509a8c47d6ccd i2c: pxa: fix call balance of i2c->clk handling routines
-0c5620203c08cbdb389e60c59a44357d17fd36d6 i2c: amd: Switch to guard(mutex)
-3c10f034fff0593c7182130f950115ba6c5b85f7 i2c: dw: Update the master_xfer callback name
-e02ea71a6ff623c07ee103c24e2fc0b8b78fca68 i2c: amd-asf: Modify callbacks of i2c_algorithm to align with the latest revision
-01879dd3b07d21e6233c8f3d2309ecf13057e2d7 i2c: amd-asf: Set cmd variable when encountering an error
-a20a217ac502f2e3b9f76ae9a47e691bd8e402b5 i2c: mux: remove incorrect of_match_ptr annotations
-ee280e4d4e6dfc903478a230dcf0791cb5d7242d dt-bindings: i2c: qcom,i2c-qup: Document power-domains
-8b9de656fc8ff3c4f1e868bd4e53be7c77a92e50 dt-bindings: i2c: qup: Document interconnects
-646edba35872a3ac8096025f43a4a3d6c517e1c7 i2c: qup: Vote for interconnect bandwidth to DRAM
-b402ffba81ca7a03d64e7d7ad0ebd7bfba2d3b76 i2c: Introduce i2c_10bit_addr_*_from_msg() helpers
-19f3af22ccbf90b77ef1a1b59083d1e7ef008322 i2c: axxia: Use i2c_10bit_addr_*_from_msg() helpers
-6fc176e1830c93007948df39c14740549aab344f i2c: bcm-kona: Use i2c_10bit_addr_*_from_msg() helpers
-04bbb78be54e31d7b5b182510c41b722fa1275a8 i2c: brcmstb: Use i2c_10bit_addr_*_from_msg() helpers
-1a32c37c73ea9445f92be1e8a91695ddb8bf46d1 i2c: eg20t: Use i2c_10bit_addr_*_from_msg() helpers
-aff120a4546b8c21cf30d4820bee14344e54f528 i2c: kempld: Use i2c_10bit_addr_*_from_msg() helpers
-470787fb5b27d41fb5b94f1fbabfbfd865cbb091 i2c: mt7621: Use i2c_10bit_addr_*_from_msg() helpers
-c9a73204f14c902c0ad8088935909a8f3ae3b028 i2c: rzv2m: Use i2c_10bit_addr_*_from_msg() helpers
-9a3208cb7c2125ea523684d93e002f75be682ef6 i2c: ibm_iic: Use i2c_*bit_addr*_from_msg() helpers
-6ef61d097224ad962b739703a2bd3a5a033486e5 i2c: mv64xxx: Use i2c_*bit_addr*_from_msg() helpers
-594f71eabcc5fad4c242b956d78a7d596fcbd502 dt-bindings: i2c: imx-lpi2c: add i.MX94 LPI2C
-9b982a430344f7940b9d0f8220b76637d5ac9c49 i2c: i2c-exynos5: fixed a spelling error
-c529a82a7f8f17f19b3664113a283dade224ba25 dt-bindings: i2c: i2c-rk3x: Add rk3562 support
-b22c902580a8004506df383e1f0d9567a3aee1b6 i2c: cadence: Simplify using devm_clk_get_enabled()
-992961d3a4b1ee31b7fb926fd07ccdc894ca0999 i2c: cadence: Move reset_control_assert after pm_runtime_set_suspended in probe error path
-813fe8a1c1508d43167321c4f3bad9d4bf5f5c23 i2c: i801: Cosmetic improvements
-ad9769d81ac4a5f4fb16ce91965632ae177eaadd i2c: i801: Move i801_wait_intr and i801_wait_byte_done in the code
-676bacdd6eb4ab0488814e0a82d151c4e75c6355 i2c: i801: Improve too small kill wait time in i801_check_post
-6c47a63bdddad8939bb20cb0d597e96790f2e157 i2c: i801: Switch to iomapped register access
-1a63160e08844fc4da2ada76bc040607701cad54 i2c: i801: Use MMIO if available
-92a8d36abbd805a2fc200756ebfa6f0f20fd3415 i2c: octeon: fix return commenting
-85175a591d67823db3027cafe42dde404c7ffab3 i2c: octeon: remove 10-bit addressing support
-d0120c8e9a5ea855831693f455a68070476ebc92 dt-bindings: i2c: omap: Add mux-states property
-2951c695bf4a6869757348e87c3ce8eadaf93aba i2c: omap: Add support for setting mux
-a41771366857f510777ff284ca2bbaad451e1e22 dt-bindings: i2c: spacemit: add support for K1 SoC
-a516fd98fbbb493066a6884dcbfa75129593bd63 i2c: spacemit: add support for SpacemiT K1 SoC
-78cc2f229e92190b39711709465cad12479c40ca i2c: k1: Initialize variable before use
-5721ac2c5ac4dc2e051d97230c58315033b86b96 i2c: pasemi: Add registers bits and switch to BIT()
-408fbbbbce6a8fe9b4b3f9067d623d3659d224f6 i2c: mlxbf: Use readl_poll_timeout_atomic() for polling
-9427b4680e0ef43069d9dd81057fc36d6c39bcac i2c: qcom-geni: Update i2c frequency table to match hardware guidance
-280deda134db13ee951141a4ae86eeaf5f3a64eb i2c: iproc: Refactor prototype and remove redundant error checks
 
---===============7343433508952712696==--
+--===============1722235213790288136==--
