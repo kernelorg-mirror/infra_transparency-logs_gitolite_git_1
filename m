@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Fri, 28 Mar 2025 21:25:59 -0000
-Message-Id: <174319715913.1066978.9343275668890809948@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 28 Mar 2025 21:26:19 -0000
+Message-Id: <174319717962.1067369.12307966429547212547@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/tags/trace-ringbuffer-v6.15-2
+  - ref: refs/tags/x86-urgent-2025-03-28
     old: 0000000000000000000000000000000000000000
-    new: 506231bd8ae8677d720f64f7afe438f21d94147e
+    new: fa8afd68947fc6a0d4a0510f20e2864e4cfb88b9
