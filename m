@@ -1,55 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5364062559889657870=="
+Content-Type: multipart/mixed; boundary="===============7515626247799415996=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 28 Mar 2025 14:49:35 -0000
-Message-Id: <174317337524.583994.18148263183107508491@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 28 Mar 2025 14:50:49 -0000
+Message-Id: <174317344925.586428.16356287538535468658@gitolite.kernel.org>
 
---===============5364062559889657870==
+--===============7515626247799415996==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.15/io_uring-reg-vec
-    old: f20cf4ffec98663bfa0fa234a82dfd8fd92de9e0
-    new: 6889ae1b4df1579bcdffef023e2ea9a982565dff
-  - ref: refs/heads/for-next
-    old: 7e07c7cdab597a5b7a8c0879e749d79f1124add7
-    new: b98ef746601e96abc16ab135541fe500370279cb
-    log: revlist-7e07c7cdab59-b98ef746601e.txt
-  - ref: refs/heads/io_uring-6.15
-    old: 0000000000000000000000000000000000000000
-    new: 888ba37f212022926462d7d0b993ee5354a30907
+  - ref: refs/heads/master
+    old: 8c8eb037c8b994b11c920975c682b89449f395c9
+    new: 4d8441cc2fe03517c57587a50b3523653214adda
+    log: |
+         4d8441cc2fe03517c57587a50b3523653214adda drop queue-6.6/memcg-drain-obj-stock-on-cpu-hotplug-teardown.patch
+         
 
---===============5364062559889657870==
+--===============7515626247799415996==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7e07c7cdab59-b98ef746601e.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-4b672ce5574ba8ece2385022f6823c90fa636bbe Merge branch 'for-6.15/io_uring-rx-zc' into for-next
-552101e9e5d1ed99b2e9874584b1321654c6ca65 Merge branch 'for-6.15/io_uring-epoll-wait' into for-next
-b063421038ec67274e07ecff84a3eeb776735b30 Merge branch 'for-6.15/io_uring-reg-vec' into for-next
-a43f4ef05d3543e0739e1e65d39a233878368b2b Merge branch 'for-6.15/io_uring-rx-zc' into io_uring-6.15
-1777549072fc5fb5d27aa4c6cae76e143d1045be Merge branch 'for-6.15/io_uring-epoll-wait' into io_uring-6.15
-efa9f8796da12b6dd83f00992d519bf8d6833a01 Merge branch 'for-6.15/io_uring-reg-vec' into io_uring-6.15
-ae28c40eef0d7b0c28cbe21e4bd1e71f433a700d io_uring/net: account memory for zc sendmsg
-9c397ab202da574da65be6f4901d6260ad28d420 ublk: make sure ubq->canceling is set when queue is frozen
-2563451efc04e6e32b089696d221498277b5addb ublk: comment on ubq->canceling handling in ublk_queue_rq()
-b4ce4eae5c0e3afcdf4a1fb8c85e5c171a2ea5db ublk: remove two unused fields from 'struct ublk_queue'
-8a799a1616dd34724d9283ca0c4b96003da53d6a ublk: add helper of ublk_need_map_io()
-639cf001d7cca2bdaccff3f545d80394b6b36a53 ublk: call io_uring_cmd_to_pdu to get uring_cmd pdu
-e14e391fc9cc38a54f7528077930eae4f573b58e ublk: add segment parameter
-9f7862ebfb05db6ce88f6eeb0e6144cda284cdc2 ublk: document zero copy feature
-d7aad08075f13bd9eb9cc73df831278f6c843aa4 ublk: implement ->queue_rqs()
-48c74741b43f77e7fef74f2ad2bb714bdf1675e1 ublk: rename ublk_rq_task_work_cb as ublk_cmd_tw_cb
-7e1121b53e27978c5e33f241e87f4ffee45febd9 selftests: ublk: add more tests for covering MQ
-888ba37f212022926462d7d0b993ee5354a30907 selftests: ublk: add test for checking zero copy related parameter
-b98ef746601e96abc16ab135541fe500370279cb Merge branch 'io_uring-6.15' into for-next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1743173396 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1743173447-a2d9216813683bf224aa914ff10f1238baebf9c5
 
---===============5364062559889657870==--
+8c8eb037c8b994b11c920975c682b89449f395c9 4d8441cc2fe03517c57587a50b3523653214adda refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfmtxQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VQ8QAJvt5OmbdLCt9h8LvXKd
+dY7/KT7MOQMidcSoiidNYKKQJLr59Uj1Sphq5jyyW6ybN8gJ6eeLYkoqAXHAKHt5
+qWEwPftRdigTXVFMc5brbhALippomoEd5WtUqRsA6iXk7zVlUMMr0i4TqGw4I6OC
+AzHEXfm7Zypp3XSXYtOQXzw577Fos8WfLhyzRcTZZrryBUJZrZynSsfhNukDFHZF
+6JcGfOEpobLNlMbnDRfwmvNx4KIS09frf3OWgQb/AwAe7dNxUPQ1vNheNAAlL2ul
+0ZxpbTveAZ5rB1kBWOVVrfnqxhL5Pr5mdfGBc1NKGFXZrK8mfzCQlICQG8OO4Bb3
+8eumZ+1Uz0Yuu+i14P/1po3WBzVXirEOZK3GBnitlfDDKLRU+SNBpWLtPEOdV2Gu
+JUU5YxAt5wtXroQ2HbXPyfuGas4D7NrHQ0/1Yb3WKvOtUp5CnLsO6nB7lfcZEq4K
+mj8i+jFK+0t+6qm5ydyoWi/5smQlo0umCUeVzrdzlqJ6S4IIB0Hs7/E3KHS6ayfe
+1IqlUhu9NA2JlTNjpHLUlWmUVFFiT3lx9lnrMZQVTYY+aDpM5e+eee9Xpu618SVk
+rbl74OM95ZPpkaajHVyCRsc0z6iqumdbZYDbu7U7TtT5OJgpOx2ujxtedXwwGdg0
+hGMd32PdMD1deEdYKO5COkVu
+=AGCU
+-----END PGP SIGNATURE-----
+
+--===============7515626247799415996==--
