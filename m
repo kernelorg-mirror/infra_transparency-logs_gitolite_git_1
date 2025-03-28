@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
-Date: Fri, 28 Mar 2025 15:31:48 -0000
-Message-Id: <174317590847.623571.466107544947917995@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/modules/linux
+Date: Fri, 28 Mar 2025 15:40:43 -0000
+Message-Id: <174317644322.632050.11131423044997122112@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kmod/kmod
-user: demarchi
+repo: pub/scm/linux/kernel/git/modules/linux
+user: ppavlu
 changes:
-  - ref: refs/heads/master
-    old: bb8aa10a73eb274aec7401f2384dbabb98810820
-    new: da2654b78ce3af083e42c2f7512d09082b872676
-    log: |
-         da2654b78ce3af083e42c2f7512d09082b872676 tools/rmmod: fix garbled error message
-         
+  - ref: refs/tags/modules-6.15-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 80002aaf0162dbde4a9c7c218e535180be02f233
