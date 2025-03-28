@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Fri, 28 Mar 2025 15:50:17 -0000
-Message-Id: <174317701780.640062.16745366544206650027@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
+Date: Fri, 28 Mar 2025 15:52:41 -0000
+Message-Id: <174317716179.641411.1446677341502004915@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arighi/linux
-user: arighi
+repo: pub/scm/utils/kernel/kmod/kmod
+user: demarchi
 changes:
-  - ref: refs/heads/scx
-    old: 73a1d74399fb556eee4c2261f0544efc0fcef486
-    new: 1cba4b19c2a424668b232985c4961262de37719d
+  - ref: refs/heads/kmod-34.y
+    old: 13330c958deef15c227a9c83d8ba72106152fd7f
+    new: 95275d23fb269f67e427535bb39df961b03e9484
     log: |
-         1cba4b19c2a424668b232985c4961262de37719d sched_ext: idle: always prefer local idle CPUs before cross-node CPUs
+         95275d23fb269f67e427535bb39df961b03e9484 tools/rmmod: fix garbled error message
          
