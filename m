@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/modules/linux
-Date: Fri, 28 Mar 2025 15:40:43 -0000
-Message-Id: <174317644322.632050.11131423044997122112@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Fri, 28 Mar 2025 15:50:17 -0000
+Message-Id: <174317701780.640062.16745366544206650027@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/modules/linux
-user: ppavlu
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/tags/modules-6.15-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 80002aaf0162dbde4a9c7c218e535180be02f233
+  - ref: refs/heads/scx
+    old: 73a1d74399fb556eee4c2261f0544efc0fcef486
+    new: 1cba4b19c2a424668b232985c4961262de37719d
+    log: |
+         1cba4b19c2a424668b232985c4961262de37719d sched_ext: idle: always prefer local idle CPUs before cross-node CPUs
+         
