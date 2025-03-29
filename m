@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sat, 29 Mar 2025 18:26:20 -0000
-Message-Id: <174327278005.2140015.10911618728908295861@gitolite.kernel.org>
+Date: Sat, 29 Mar 2025 18:28:50 -0000
+Message-Id: <174327293067.2141299.17031711059048623880@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
   - ref: refs/heads/keys-graveyard
-    old: 1f4dc907539926b1a6cd34027946c1c6f9b40aff
-    new: ffbd0575407998f199955fbebbe5ff456db1310d
+    old: ffbd0575407998f199955fbebbe5ff456db1310d
+    new: aa52a1fbfc9a9fcfe467c256dc2d91d8333db80e
     log: |
-         ffbd0575407998f199955fbebbe5ff456db1310d keys: Add a list for unreferenced keys
+         aa52a1fbfc9a9fcfe467c256dc2d91d8333db80e keys: Add a list for unreferenced keys
          
