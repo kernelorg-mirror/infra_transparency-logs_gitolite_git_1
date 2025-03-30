@@ -1,56 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============7428559728963402531=="
+Content-Type: multipart/mixed; boundary="===============4247695535683430331=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Sun, 30 Mar 2025 14:16:05 -0000
-Message-Id: <174334416550.3098410.5729972152073553748@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
+Date: Sun, 30 Mar 2025 14:37:20 -0000
+Message-Id: <174334544030.3115014.16820482550414749893@gitolite.kernel.org>
 
---===============7428559728963402531==
+--===============4247695535683430331==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/fs/xfs/xfstests-dev
+user: zlang
 changes:
-  - ref: refs/heads/master
-    old: 5d84ab3ec265b7d5ad23459447513ed45c175c63
-    new: 63f5c5d154ddc19189a5d4520a3e04aaffac84a0
-    log: |
-         63f5c5d154ddc19189a5d4520a3e04aaffac84a0 move Cargo.toml to tools directory
-         
+  - ref: refs/heads/for-next
+    old: d71157da4ef4cfdbf39e2c4a07f8013633e6bcbe
+    new: 0e33d528cf8940d8e40f2a252e2d2853f9249794
+    log: revlist-d71157da4ef4-0e33d528cf89.txt
 
---===============7428559728963402531==
+--===============4247695535683430331==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-d71157da4ef4-0e33d528cf89.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1743344192 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1743344162-d57037efbfa8f7ce8cd406596e9ba7223077b13f
+0acf53d6d9d3ff728fc39c7f1722797576dcf80f fstests: remove privatens test way from check
+b6ccf12727347122109e8adb325dd5e586fc6fad fstests: remove run_setsid test way from check
+d3053a227494c45c27a2b05e05635a0bc6539e4c common/config: remove redundant export variables
+bf36679ee7121783fef6e3b6ecf584e343d564a1 common/config: export F2FS_INJECT_PROG
+b2c469debb76821320999e04a32443c76866285c common/config: export F2FS_FSCK_PROG
+520d651ee9ccc2f7de19cb12d7adaef261debdea common/rc: use -f for mkfs.f2fs by default
+b9d1c36bcce499010d8ecd20b683f1391cf5491a common/rc: introduce _check_f2fs_filesystem()
+82d0ff759c6746b1ba1ff5b4f0a55ddb7fac93ef f2fs: new test to detect and repair nlink corruption
+32272b1e895e4a4752e5b631ca0cb63d3783a5f2 f2fs: test dirty status handling on database file
+3e73e52ad931b32542fddbe7e9ded51e77b2a6ac xfs: test filesystem recovery with rdump
+5efe0accdc55a9680c4189e44be2b33ddcadae5d generic/45[34]: add colored emoji variants to unicode tests
+8e4282818e578dd0ba1c0d8860a58ea17897920a xfs/614: determine the sector size of the fs image by doing a test format
+768c74f4542244be7ded19806844b77fd605f8ae generic/537: disable quota mount options for pre-metadir rt filesystems
+eff1baf42a79c5650b857108412d1dcc0c54e537 common/populate: drop fallocate mode 0 requirement
+faa0190b363deab4bc2517aa3ee6f6a2c2f2f29d xfs/818: fix some design issues
+415846d433df10bc2ce4189b9eec202f104f19bf xfs/177: force a small file system size
+5f57ee3ad4f155cd6eea6c7a486b242cc1f744b3 xfs/419: use _scratch_mkfs_xfs
+332dd50da02b835ad5be7af764011aac21333bfe xfs/540: use _scratch_mkfs_xfs
+21810ac207c3c89433340f68b8280756f6562345 common: extend the zoned device checks in _require_dm_target
+4d2283f87ed2f609df4a442efda459dd17fb7e60 common: allow _require_non_zoned_device without an argument
+9b6b461417ab7f8cc0c00da9f901d25e563c720d xfs: add helpers to require zoned/non-zoned file systems
+2dbbf5debad19cbb7381094d0114725021619af4 xfs: handle zoned file systems in _scratch_xfs_force_no_metadir
+8d221e7be774a7161a373d64bc1d822387510b4a xfs: no quota support with internal rtdev
+54cabdaa03e651f80472d60d2329d55ce82c35a9 xfs: xfs_copy doesn't like RT sections
+9ec7d058eb926e9ede342419b091cc08cd7a2cee xfs: skip filestreams tests on internal RT devices
+ea888a5571e096fc7f1a4fae6edad2e8c596f274 xfs: skip various tests when using the zoned allocator
+283339e65cc7b0cbd88d6c3b0ba26de5e6f5c137 xfs/049: skip on zoned devices
+8893b54c0a60816a7c2966f28bcdedb002db7f4f xfs/206: filter out the zoned line from mkfs output
+6542628fc958a0acc58f764659ee6680637a005f generic: test fsync of file with no more hard links
+b8cbda37d9cece70805000dbf79c646e1b4129e6 btrfs/058: fix test to actually have an open tmpfile during the send operation
+4368c82e2a7e45df0c49baa43f585d9b58c5b8eb fstests: btrfs: zoned: verify RAID conversion with write pointer mismatch
+cd4ca5ac3512cbfd5fd929c243c90aa3b2d7613d fstests: test for CONFIG_QFMT_V2 in _require_quota
+0e33d528cf8940d8e40f2a252e2d2853f9249794 xfs/235: add to the auto group
 
-5d84ab3ec265b7d5ad23459447513ed45c175c63 63f5c5d154ddc19189a5d4520a3e04aaffac84a0 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfpUkAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NI4P/iWzshe1rY8p5vAhIu1O
-uwDhFh/6opHuv3ni5X3+JPupwo4MzfjCF6TXQE2sl8tubbLf/F65B31GOSMGvsw1
-qXJPcQLJ3hHdtbLmRKSOlSZ4Ebvq0/eqtifYIuiLOB47CXhK2LnuDp0QuGIrMumA
-LQ9xb8ki7pzZgb2/J14IEnOp/rhQuNW8YlnPv84xEC3hlAdE5AnSa81k2b/tbNH3
-T6eGa4FKYmuMCal46+Jzc5ULyhiBgshfunbpxlwF+/MAKFEKtPhtbNcveQYDXD3B
-wdf9tax7xvn6GiE9lzGZknttII4DU1iHayEZuui/pf1eecIQha6Ogvza2RmAJxT9
-hUM0ej6jCBUgN75NOpeGarp3WOR9p/Xo7itqT7uMJRIX+dXwGd/i3DR+yu+lrRzN
-8ndyArTylB1SUHicJmSmRD3i5ETY6OFjqmC8YhQRNsW3y1m2JN9/p5ZctQ9qD+sP
-cpxmc1GouBJ0jd6gl7d0z5RTLbusx7giuSipnvcjkZfXk7bq3oomild1SYkCttyd
-BU79ImRItN7HaOGOfiZCXhTjIJ5bSQudUKTFL8HZLoLWC4SVbIZ62z8ryGVhCHEp
-TNU6cjVymgHrT6MhjGYrcq5Ea30mPnzsJHL4RFWrY8NkYeGDQuxmFyeo7ViYBcvg
-WjbPxnygItLe8tT3A2MmEnsp
-=F5z8
------END PGP SIGNATURE-----
-
---===============7428559728963402531==--
+--===============4247695535683430331==--
