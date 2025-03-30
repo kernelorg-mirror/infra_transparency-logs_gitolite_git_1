@@ -1,51 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============7889875832897648949=="
+Content-Type: multipart/mixed; boundary="===============2253896393681692359=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 30 Mar 2025 08:31:20 -0000
-Message-Id: <174332348029.2820235.4142860571932546165@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+Date: Sun, 30 Mar 2025 08:31:22 -0000
+Message-Id: <174332348287.2820357.5677048454536444266@gitolite.kernel.org>
 
---===============7889875832897648949==
+--===============2253896393681692359==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+user: chenhuacai
 changes:
-  - ref: refs/heads/WIP.x86/alternatives
-    old: 5c21e894a3e5752ac672af6e542775b3914c6668
-    new: 4976f7c61a6b75aa96ec6fae67d486a2e740090d
-    log: revlist-5c21e894a3e5-4976f7c61a6b.txt
+  - ref: refs/heads/loongarch-next
+    old: 88707ea73ede7f022025313d326a494a8c8015c6
+    new: 17ba839c3c6c95562f329340e67da432309dd0d4
+    log: revlist-88707ea73ede-17ba839c3c6c.txt
 
---===============7889875832897648949==
+--===============2253896393681692359==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5c21e894a3e5-4976f7c61a6b.txt
+Content-Disposition: attachment; filename=revlist-88707ea73ede-17ba839c3c6c.txt
 
-17b9a61a82797e2e8dfaa3320b1a5f59c829d6a6 x86/alternatives: Simplify try_get_text_poke_array()
-5c74e3dde76c116993df40706d06264321f954ea x86/alternatives: Simplify smp_text_poke_int3_trap_handler()
-ba20ed5ec409b14b19c60034fb5c56071e2725c0 x86/alternatives: Simplify smp_text_poke_batch_process()
-0e928663977ce02511b55e18a46925050cce18f3 x86/alternatives: Rename 'int3_refs' to 'text_poke_array_refs'
-67f99087a6ca285c57c3fbde414f9f5f37d00ccd x86/alternatives: Move the text_poke_array manipulation into text_poke_int3_loc_init() and rename it to __smp_text_poke_batch_add()
-88470db8f6ef687c0a3933b575fdaf7dd70b7d55 x86/alternatives: Remove the mixed-patching restriction on smp_text_poke_single()
-c47c5c2905e7af207475b8fbfc549153662edc58 x86/alternatives: Document 'smp_text_poke_single()'
-153ce24ead2ed3e49330388d9cc4f49da84a243c x86/alternatives: Add documentation for smp_text_poke_batch_add()
-20ceb8cc0e74a92e133dc237553ebcdae30097fa x86/alternatives: Move text_poke_array completion from smp_text_poke_batch_finish() and smp_text_poke_batch_flush() to smp_text_poke_batch_process()
-98e95049008b0272d3905773d9cbdfed1db8141c x86/alternatives: Rename 'text_poke_sync()' to 'smp_text_poke_sync_each_cpu()'
-be4c7bea5daed36380df8a7d88706747fa9cb6e0 x86/alternatives: Simplify text_poke_addr_ordered()
-4fdb31689272c9c3cc1538208f6b566cad6ccdfe x86/alternatives: Constify text_poke_addr()
-36334a26e910d88e22b0438c886012379a6eb136 x86/alternatives: Simplify and clean up patch_cmp()
-3eb7eb8e8dc4b718e6bef7e7b31068ade487f1ec x86/alternatives: Standardize on 'tpl' local variable names for 'struct smp_text_poke_loc *'
-4f643726b2429d56786fa9e54968ca8523476fe3 x86/alternatives: Rename 'TP_ARRAY_NR_ENTRIES_MAX' to 'TEXT_POKE_ARRAY_MAX'
-436cd431f0498d355ae5791e87889b2aa05ed7ba x86/alternatives: Rename 'POKE_MAX_OPCODE_SIZE' to 'TEXT_POKE_MAX_OPCODE_SIZE'
-567f2b6be4ea46ebabe25f3bcf31774fe9ccc957 x86/alternatives: Simplify the #include section
-cf5a479a5aad667049954093e58b5ba206a55215 x86/alternatives: Move declarations of vmlinux.lds.S defined section symbols to <asm/alternative.h>
-79fe18de4543cc95c2269f9666ac033c5206f08b x86/alternatives: Remove 'smp_text_poke_batch_flush()'
-53f648b96cbf7345697962ff897e03244b14b7f6 x86/alternatives: Update the comments in smp_text_poke_batch_process()
-4976f7c61a6b75aa96ec6fae67d486a2e740090d x86/alternatives: Rename 'apply_relocation()' to 'text_poke_apply_relocation()'
+13c23cb4ed09466d73f1beae8956810b95add6ef rust: Fix enabling Rust and building with GCC for LoongArch
+08dac3b83aac99ad0e07139d350079f63bb24095 LoongArch: Always select HAVE_VIRT_CPU_ACCOUNTING_GEN
+892a79634196d2729b81bb8e5b029d095704df63 LoongArch: Enable UBSAN (Undefined Behavior Sanitizer)
+be216cbc1ddf99a51915414ce147311c0dfd50a2 LoongArch: Fix help text of CMDLINE_EXTEND in Kconfig
+ec105cadff5d8c0a029a3dc1084cae46cf3f799d LoongArch: Increase MAX_IO_PICS up to 8
+4103cfe9dcb88010ae4911d3ff417457d1b6a720 LoongArch: Increase ARCH_DMA_MINALIGN up to 16
+2e3bc71e4f394ecf8f499d21923cf556b4bfa1e7 LoongArch: Fix device node refcount leak in fdt_cpu_clk_init()
+29c92a41c6d2879c1f62220fe4758dce191bb38f LoongArch: Rework the arch_kgdb_breakpoint() implementation
+7e2586991e36663c9bc48c828b83eab180ad30a9 LoongArch: BPF: Fix off-by-one error in build_prologue()
+52266f1015a8b5aabec7d127f83d105f702b388e LoongArch: BPF: Use move_addr() for BPF_PSEUDO_FUNC
+60f3caff1492e5b8616b9578c4bedb5c0a88ed14 LoongArch: BPF: Don't override subprog's return value
+c271c86a4c72c771b313fd9c3b06db61ab8ab8bf LoongArch: vDSO: Remove --hash-style=sysv
+a34ea549aacefeb01678320cff18a59ec095382d LoongArch: vDSO: Make use of the t8 register for vgetrandom-chacha
+17ba839c3c6c95562f329340e67da432309dd0d4 LoongArch: Update Loongson-3 default config file
 
---===============7889875832897648949==--
+--===============2253896393681692359==--
