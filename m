@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3860900596495080665=="
+Content-Type: multipart/mixed; boundary="===============5476987991577220552=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 30 Mar 2025 07:55:33 -0000
-Message-Id: <174332133317.2790449.2884841480387301456@gitolite.kernel.org>
+Date: Sun, 30 Mar 2025 08:00:22 -0000
+Message-Id: <174332162221.2794606.5372063717745605224@gitolite.kernel.org>
 
---===============3860900596495080665==
+--===============5476987991577220552==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,30 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: c22733f41d8d8b3a870ac3e43d7617e2ad998cbc
-    new: 3ace5e9e59904bb803e0157b069a9e6d29b73a2b
-    log: revlist-c22733f41d8d-3ace5e9e5990.txt
+    old: 3ace5e9e59904bb803e0157b069a9e6d29b73a2b
+    new: 2b6547f56ac622a031e27de9a3f43553bcd6382f
+    log: |
+         5dc166184a710ded18481584c28098cf306706e9 Merge branch into tip/master: 'core/urgent'
+         871b90f281494ff9be1cd9ac85826da5d30ee8f7 Merge branch into tip/master: 'locking/urgent'
+         5e2ebe8f3c3b40f12d2c1e424844079d6938107a Merge branch into tip/master: 'objtool/urgent'
+         d2270b076d7766332a891daee33bc53c962006e0 Merge branch into tip/master: 'x86/urgent'
+         24db5cf2b1232c220b94a3f367e4c29155bb27cf Merge branch into tip/master: 'x86/alternatives'
+         8294cc8c1c85d8a8d782c7b4197bd48a1bd27002 Merge branch into tip/master: 'x86/asm'
+         c7c789b2ae01ac3dc083e639def03d2a71251be8 Merge branch into tip/master: 'x86/cpu'
+         970dc1a2a34ab34ce7bc010bfa9af43dbffcd446 Merge branch into tip/master: 'x86/fpu'
+         a2eed9505fb07aabcddb2aeb537c347148750c01 Merge branch into tip/master: 'x86/kconfig'
+         2b6547f56ac622a031e27de9a3f43553bcd6382f Merge branch into tip/master: 'x86/tdx'
+         
+  - ref: refs/heads/tip/urgent
+    old: 41edf7564bc3b12035819724e13302202395f884
+    new: d2270b076d7766332a891daee33bc53c962006e0
+    log: revlist-41edf7564bc3-d2270b076d77.txt
 
---===============3860900596495080665==
+--===============5476987991577220552==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c22733f41d8d-3ace5e9e5990.txt
+Content-Disposition: attachment; filename=revlist-41edf7564bc3-d2270b076d77.txt
 
 995cf0e014b0144edf1125668a97c252c5ab775e regmap: Reorder 'struct regmap'
 8e54033b4250cecadd653817e7d3497e98af9a09 pinctrl: baytrail: Use dedicated helpers for chained IRQ handlers
@@ -956,6 +971,9 @@ cb9b4c34031f8271cf6d6eedd2606e3c4b5e91ad Merge tag 'leds-next-6.15' of git://git
 556f1b4874ca87feede736e1b2b4d11bc76f5bb9 Merge tag 'for-v6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply
 91481c4ad0e532e8459372fa91306de8c02f2fc1 Merge tag 'hsi-for-6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-hsi
 7f2ff7b6261742ed52aa973ccdf99151b7cc3a50 Merge tag 'mailbox-v6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
-3ace5e9e59904bb803e0157b069a9e6d29b73a2b Merge branch 'linus'
+5dc166184a710ded18481584c28098cf306706e9 Merge branch into tip/master: 'core/urgent'
+871b90f281494ff9be1cd9ac85826da5d30ee8f7 Merge branch into tip/master: 'locking/urgent'
+5e2ebe8f3c3b40f12d2c1e424844079d6938107a Merge branch into tip/master: 'objtool/urgent'
+d2270b076d7766332a891daee33bc53c962006e0 Merge branch into tip/master: 'x86/urgent'
 
---===============3860900596495080665==--
+--===============5476987991577220552==--
