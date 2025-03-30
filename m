@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 30 Mar 2025 09:20:50 -0000
-Message-Id: <174332645050.2861139.18192557060687638639@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Sun, 30 Mar 2025 10:32:57 -0000
+Message-Id: <174333077797.2917154.748134987976422190@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/WIP.x86/alternatives
-    old: e57ae70ed0c4677da6fda8f941daec1c2090ba1e
-    new: 21e327420a672edd1070e6c947504dcaf41c341a
+  - ref: refs/heads/master
+    old: c47826785d91e9cd8c2957d789e50a50e36833e0
+    new: a82917ada0509758ac6d717402858536af3a032d
     log: |
-         3069a940c51637b3845096ca56526ce78297d98c x86/alternatives: Update the comments in smp_text_poke_batch_process()
-         e2e5d197638a39d047306d2ebcacb3128b0ad26b x86/alternatives: Rename 'apply_relocation()' to 'text_poke_apply_relocation()'
-         21e327420a672edd1070e6c947504dcaf41c341a x86/alternatives: Add comment about noinstr expectations
+         a82917ada0509758ac6d717402858536af3a032d man/: srcfix (\fX => \f[X])
          
