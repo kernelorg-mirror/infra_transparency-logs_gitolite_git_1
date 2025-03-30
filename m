@@ -1,44 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2253896393681692359=="
+Content-Type: multipart/mixed; boundary="===============7129891969480068728=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Sun, 30 Mar 2025 08:31:22 -0000
-Message-Id: <174332348287.2820357.5677048454536444266@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Sun, 30 Mar 2025 08:46:50 -0000
+Message-Id: <174332441095.2833076.597507274969683249@gitolite.kernel.org>
 
---===============2253896393681692359==
+--===============7129891969480068728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-user: chenhuacai
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/loongarch-next
-    old: 88707ea73ede7f022025313d326a494a8c8015c6
-    new: 17ba839c3c6c95562f329340e67da432309dd0d4
-    log: revlist-88707ea73ede-17ba839c3c6c.txt
+  - ref: refs/heads/master
+    old: bfbdf1cb749be20739c52ae4b04bc86d5e4f2602
+    new: be70c6dc5e83600bc2b56ed74f63e810a931f56b
+    log: |
+         be70c6dc5e83600bc2b56ed74f63e810a931f56b dyad: add a harder git sorting test
+         
 
---===============2253896393681692359==
+--===============7129891969480068728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-88707ea73ede-17ba839c3c6c.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-13c23cb4ed09466d73f1beae8956810b95add6ef rust: Fix enabling Rust and building with GCC for LoongArch
-08dac3b83aac99ad0e07139d350079f63bb24095 LoongArch: Always select HAVE_VIRT_CPU_ACCOUNTING_GEN
-892a79634196d2729b81bb8e5b029d095704df63 LoongArch: Enable UBSAN (Undefined Behavior Sanitizer)
-be216cbc1ddf99a51915414ce147311c0dfd50a2 LoongArch: Fix help text of CMDLINE_EXTEND in Kconfig
-ec105cadff5d8c0a029a3dc1084cae46cf3f799d LoongArch: Increase MAX_IO_PICS up to 8
-4103cfe9dcb88010ae4911d3ff417457d1b6a720 LoongArch: Increase ARCH_DMA_MINALIGN up to 16
-2e3bc71e4f394ecf8f499d21923cf556b4bfa1e7 LoongArch: Fix device node refcount leak in fdt_cpu_clk_init()
-29c92a41c6d2879c1f62220fe4758dce191bb38f LoongArch: Rework the arch_kgdb_breakpoint() implementation
-7e2586991e36663c9bc48c828b83eab180ad30a9 LoongArch: BPF: Fix off-by-one error in build_prologue()
-52266f1015a8b5aabec7d127f83d105f702b388e LoongArch: BPF: Use move_addr() for BPF_PSEUDO_FUNC
-60f3caff1492e5b8616b9578c4bedb5c0a88ed14 LoongArch: BPF: Don't override subprog's return value
-c271c86a4c72c771b313fd9c3b06db61ab8ab8bf LoongArch: vDSO: Remove --hash-style=sysv
-a34ea549aacefeb01678320cff18a59ec095382d LoongArch: vDSO: Make use of the t8 register for vgetrandom-chacha
-17ba839c3c6c95562f329340e67da432309dd0d4 LoongArch: Update Loongson-3 default config file
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1743324355 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1743324408-0ca433ced6d62346a75fecc74ce6c43d74f55898
 
---===============2253896393681692359==--
+bfbdf1cb749be20739c52ae4b04bc86d5e4f2602 be70c6dc5e83600bc2b56ed74f63e810a931f56b refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfpBMMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/rUP/3cEo+2wYDgW/ZLxVhd4
+yeNG3J1rcLKkt1ZfobGl1PXbMBFmgxm7NjrfbsXYwPY/UkFtdFLE2+aHkEk/4Kza
+y19v8g14YgQGyig1g0lUuNtNMCGuqtWwWxhOhQ5Q3Ds9WyL9bpYjd1UApRuzqy0a
+fzC2MTgB+NYFWy44in9HpVfheyDPraLz7f2ASkPzqWmza4ex6W63tTqqenxNh5ks
+JD+r5em5f0FSlw0Zl43Y2Lean3BXG/Q/s0AT/BgrHtCnJA1ScW2gOn6h3zxWw2Eo
+qcB9O1HAiV0PGUHJjAknywLfzRL5Obir2n0LQjjYLokmC5GN6lqjIQylXujk5RCu
+ruonA9qqt59T6v5fCaa5cNBAgfxlbO9KORmwWTjtcXD2rVIjs89URjezPyc6UF9T
+qw40NVAJ28ezJyXcs8XoF5WlwQhhmnhCApV08t0Vvf1Wc9hF0bzck2ZENBtm0RBy
+kJkcgYJVoABGasyWrYaD1sWSa6zx1Mjfe1Z+1gpwTmfNkOmtBls3vPnWC0eHeeYR
+4rVPepG82BTIkIZfvYZpdTK3VOlTD1rRRj1GVX67KbBL8tLl9NK9GLVqVjMG/ieC
+sBH4ta6nIJVuJzcKR65WmxOIep4Vn/W/+Vusd5KPZwrvsfbIss2SViHo8aRu4POF
+/G0FLyjqrA8hllwD11E3vjCz
+=PFuc
+-----END PGP SIGNATURE-----
+
+--===============7129891969480068728==--
