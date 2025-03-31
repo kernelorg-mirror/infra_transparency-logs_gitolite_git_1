@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
-Date: Mon, 31 Mar 2025 15:59:59 -0000
-Message-Id: <174343679941.191772.6418319044895851226@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
+Date: Mon, 31 Mar 2025 16:04:47 -0000
+Message-Id: <174343708759.195940.14228691274285242258@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/boqun/linux
-user: boqun
+repo: pub/scm/linux/kernel/git/cxl/cxl
+user: djiang
 changes:
-  - ref: refs/heads/dev-shazptr
+  - ref: refs/tags/cxl-for-6.15
     old: 0000000000000000000000000000000000000000
-    new: 9099ccb96c84c6aa7a7bdbbda27fbf7fd55b6ffd
+    new: e2a569ba8e0598efaa571189077c7aeda0a966b9
