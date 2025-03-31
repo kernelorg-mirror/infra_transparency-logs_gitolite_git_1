@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============4647801799504244038=="
+Content-Type: multipart/mixed; boundary="===============4392216118812772366=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 31 Mar 2025 18:22:21 -0000
-Message-Id: <174344534176.314220.7505770540436576416@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 31 Mar 2025 18:22:24 -0000
+Message-Id: <174344534484.314325.9314819018468134301@gitolite.kernel.org>
 
---===============4647801799504244038==
+--===============4392216118812772366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.15
+  - ref: refs/heads/asoc-6.15
     old: 1ebd4944266e86a7ce274f197847f5a6399651e8
     new: cc80b44b69fde7806f01739e47b965a149c13492
     log: |
@@ -28,28 +28,28 @@ changes:
          cc80b44b69fde7806f01739e47b965a149c13492 ASoC: q6apm: fix under runs and fragment sizes
          
 
---===============4647801799504244038==
+--===============4392216118812772366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1743445370 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1743445339-3d644e8b7e3c5c5a594b4449eccbedff6c69c7cb
+pusher C3F436CA30F5D8EB 1743445373 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1743445342-9e7dba06f7457aabb70f5d08a897cb1435046152
 
-1ebd4944266e86a7ce274f197847f5a6399651e8 cc80b44b69fde7806f01739e47b965a149c13492 refs/heads/for-6.15
+1ebd4944266e86a7ce274f197847f5a6399651e8 cc80b44b69fde7806f01739e47b965a149c13492 refs/heads/asoc-6.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmfq3XoACgkQJNaLcl1U
-h9A5uwf8Dr+yC0zEon20by3PsE3kDUxqgAjutJqZhnDSokGT7fNGrvAnYtPm3W6l
-Qla/0GPn34pI8Ta9iiuwhTGkv+qXGOC5njJuqCU2R5ycQ2mBR1Jfxzjt4gttf+cQ
-ANUhv1Sa9uULGlw0eK0MEq1px2anSS3raHdLJdjLW5ef4hMNAD4O6PW1p7GbwVFz
-OHlV63HnCMlWhX2k5bFXcaofVahM9365kBTkQmGmctVcYdYFIHvdnwkQOfIquM43
-qaY6TFiMnpraAI6pqgIhfF/BLMjNrcwy7HTZYVYSpf6EKV4t0ayrsYlZPXOvqITc
-NHzWwMKdSnh/3+VI94kFd3rh2eDuDw==
-=yiKu
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmfq3X0ACgkQJNaLcl1U
+h9BV3gf8DU8Db3cbeVPuPFoPovieRsDLelF6IhH1e184EL9AmafUcKhda5IBlA+T
+iC1ferBYr/KvLQ3Qywjtlme/NnBfraUeBrZxKeMXvwkaprAlmiW3txcNCO94UraS
+SAsP41TMheIraXB0+9DuuEN1EUQHglZ7WPCjSkJ+eP1KPKB9egSvhWxEykIyfA9s
+8Yts6/EiJ15ACD/BXtYaWbrkqtyXIliZwVONxUgbM4rF9vxa1v8Cf1MOLvvpOskZ
+9e39k3LuT55MSKxUXKkxCMT+ksTyNUyMmW3aTpoyO35ciTQbEpYbkzXCcsT1ydlH
+O/fdl2D6DAmoBAVyvvXSRUjOczMXqw==
+=tT1q
 -----END PGP SIGNATURE-----
 
---===============4647801799504244038==--
+--===============4392216118812772366==--
