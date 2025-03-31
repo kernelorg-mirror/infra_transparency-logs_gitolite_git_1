@@ -1,41 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============7251763824960514051=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Mon, 31 Mar 2025 22:26:09 -0000
-Message-Id: <174345996994.523026.8068392274043426241@gitolite.kernel.org>
-
---===============7251763824960514051==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Mon, 31 Mar 2025 22:39:39 -0000
+Message-Id: <174346077972.533138.15265205479911633183@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/objtool-werror
-    old: 3d93865075b935f292715d6befb7a62265e093eb
-    new: b97844e60230a7c42bfb21c857381d95abb1bfba
-    log: revlist-3d93865075b9-b97844e60230.txt
-
---===============7251763824960514051==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3d93865075b9-b97844e60230.txt
-
-513a490b5d3fc836a9473639de249fa143004b2a objtool: Silence more KCOV warnings, part 2
-ede32c367f759cd5bf8dadb0c807b0643c59e605 objtool: Ignore end-of-section jumps for KCOV/GCOV
-7ccb3bd6ee9e040eccf6bd01a59ad6a8a587a0d1 objtool: Add "()" to function name in "unexpected end of section" warning
-ef1d45a134059f9d38145b483f4c5eb959d0174a Revert "objtool: Increase per-function WARN_FUNC() rate limit"
-3e8f653f3944eb4500c93fb862e9f7acb6d4a6c4 objtool: Always fail on fatal errors
-e84972a74aea1f898152fbf6ca26d56075e733c8 objtool: Change "warning:" to "error:" for fatal errors
-a0ee7b1f3d5e6f2566be9c4655cc200e4b84a2b1 objtool: Fix verbose disassembly if CROSS_COMPILE not set
-afc9cef8d9f393ca5ad201bdc9f669d5cdb8bbc5 objtool/loongarch: Add unwind hints in prepare_frametrace()
-cbc1edaf8104a5b3e937d3868739df853ebb07e8 sched/smt: Always inline sched_smt_active()
-fab41ad59e8122961c0de241ea5d28a2f1080a9d context_tracking: Always inline ct_{nmi,irq}_{enter,exit}()
-b97844e60230a7c42bfb21c857381d95abb1bfba rcu-tasks: Always inline rcu_irq_work_resched()
-
---===============7251763824960514051==--
+  - ref: refs/heads/vfs-6.16.super
+    old: a1151f6e857ccf46a456cf179e1c53db90b79dfa
+    new: a68c99192db8060f383a2680333866c0be688ece
+    log: |
+         e88a8b3ca0c638a7afe9add4e7e7db10f0d09a01 locking/percpu-rwsem: add freezable alternative to down_read
+         2409c0b5876ad30f50c1ce3cff44c83ee83b97a0 vfs: make sb_start_write freezable
+         5bacd20b4997d81445632c014d1977a241c101e9 super: remove pointless s_root checks
+         0c023b3efc8aa4bd5a58658741925e29f7534d62 super: simplify user_get_super()
+         0afd983f38261b4e528a0d7a845abb2a5bc06d53 super: skip dying superblocks early
+         0bb08ecbfa0d6b71a069203b8eabe27de411f54b super: use a common iterator (Part 1)
+         b4ae5af90aea0aa6c090e42817de8bf09e580c14 super: use common iterator (Part 2)
+         17fb8c5d0fb4be61006b4c65bbdd66886b8710b2 super: add filesystem freezing helpers for suspend and hibernate
+         8102873c6cefe8a1afab229f4b0c16a48b63728e Merge patch series "Extend freeze support to suspend and hibernate"
+         07e90005510798bfafb16e28467187e9d7a241e0 libfs: export find_next_child()
+         1a426edb5da3b511fbd3a6b5ec0aafa49282d788 efivarfs: support freeze/thaw
+         a68c99192db8060f383a2680333866c0be688ece Merge patch series "efivarfs: support freeze/thaw"
+         
