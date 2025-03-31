@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1613353300644051113=="
+Content-Type: multipart/mixed; boundary="===============9197521612834364786=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-rt-devel
-Date: Mon, 31 Mar 2025 09:55:08 -0000
-Message-Id: <174341490887.4061289.10585477337273027679@gitolite.kernel.org>
+Date: Mon, 31 Mar 2025 09:55:42 -0000
+Message-Id: <174341494211.4062204.9583011621520091489@gitolite.kernel.org>
 
---===============1613353300644051113==
+--===============9197521612834364786==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,168 +16,54 @@ repo: pub/scm/linux/kernel/git/rt/linux-rt-devel
 user: bigeasy
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/linux-6.14.y
-    old: 2014c95afecee3e76ca4a56956a936e23283f05b
-    new: 38fec10eb60d687e30c8c6b5420d86e8149f7557
-    log: revlist-2014c95afece-38fec10eb60d.txt
-  - ref: refs/heads/linux-6.14.y-rt
+  - ref: refs/heads/for-kbuild-bot/current-stable
     old: ecdc0d0bb42d9a77cd603ebfc7cbfac74284965f
-    new: 9b3bbd7fcdee32c8b24d076cc03222a2bb911434
-    log: revlist-ecdc0d0bb42d-9b3bbd7fcdee.txt
-  - ref: refs/heads/linux-6.14.y-rt-patches
-    old: 6c81d7ae2dd5afe3b5b49179b97470eaa9fcab07
-    new: 08c1372c4ea100c5b3f853edc932d6ab7ff7e4d2
-    log: |
-         90cc107c00ce7eae131451d5b03f107038c91eef [ANNOUNCE] v6.14-rt2
-         08c1372c4ea100c5b3f853edc932d6ab7ff7e4d2 [ANNOUNCE] v6.14-rt3
-         
-  - ref: refs/heads/master
-    old: 2014c95afecee3e76ca4a56956a936e23283f05b
-    new: 38fec10eb60d687e30c8c6b5420d86e8149f7557
-    log: revlist-2014c95afece-38fec10eb60d.txt
-  - ref: refs/tags/v6.14-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 6a25088d268ce4c2163142ead7fe1975bb687cb7
-  - ref: refs/tags/v6.14-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 2db77e8810aa26c8cd3fa119037f753a68b7dce4
-  - ref: refs/tags/v6.14-rc4
-    old: 0000000000000000000000000000000000000000
-    new: ab680199364b446c9b642f1c1c1306b71535ace1
-  - ref: refs/tags/v6.14-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 1d53763dc16c9fc9329a4cdc14d691979d47568f
-  - ref: refs/tags/v6.14-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 8098cf067a7aae92a4f293df03964bf8474faca1
-  - ref: refs/tags/v6.14-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 12b58398bffc23db89e715414399b0533255da51
-  - ref: refs/tags/v6.14-rt2
-    old: 0000000000000000000000000000000000000000
-    new: d816dc0660606a08b85f8b07dd1e3a94e474e691
-  - ref: refs/tags/v6.14-rt2-patches
-    old: 0000000000000000000000000000000000000000
-    new: 1f5b38bb7630dc580b5607a87629720b2ec51a39
-  - ref: refs/tags/v6.14-rt2-rebase
-    old: 0000000000000000000000000000000000000000
-    new: 6d462582b04d9bb2d1e045a8394d66c2c7404c82
-  - ref: refs/tags/v6.14-rt3
-    old: 0000000000000000000000000000000000000000
-    new: fc9e8a8a0b37ddecd1b35700548b7225eb7a972b
-  - ref: refs/tags/v6.14-rt3-patches
-    old: 0000000000000000000000000000000000000000
-    new: 6c6890cced3655f41c246c7b3d5b6445603de1cd
-  - ref: refs/tags/v6.14-rt3-rebase
-    old: 0000000000000000000000000000000000000000
-    new: c36912587aa2c2485ed10a85bd25cbb298859ce4
+    new: 9739775a72b0a37cad4454c3bc1fb86632073eb8
+    log: revlist-ecdc0d0bb42d-9739775a72b0.txt
+  - ref: refs/heads/for-kbuild-bot/prepare-release
+    old: 1dddb63461465631d33b6c844c3cea765e941713
+    new: 9739775a72b0a37cad4454c3bc1fb86632073eb8
+    log: revlist-1dddb6346146-9739775a72b0.txt
+  - ref: refs/heads/linux-6.14.y-rt-rebase
+    old: ecdc0d0bb42d9a77cd603ebfc7cbfac74284965f
+    new: 9739775a72b0a37cad4454c3bc1fb86632073eb8
+    log: revlist-ecdc0d0bb42d-9739775a72b0.txt
 
---===============1613353300644051113==
+--===============9197521612834364786==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Sebastian Andrzej Siewior <bigeasy@linutronix.de> 1743414901 +0200
+pusher Sebastian Andrzej Siewior <bigeasy@linutronix.de> 1743414940 +0200
 pushee ssh://ko-g/pub/scm/linux/kernel/git/rt/linux-rt-devel.git
-nonce 1743414870-c93fe07ef70c14a97f86af1eaf12fc4352a1e71a
+nonce 1743414910-355123db8efb38dffecf290a04e9897c5b5a003e
 
-2014c95afecee3e76ca4a56956a936e23283f05b 38fec10eb60d687e30c8c6b5420d86e8149f7557 refs/heads/linux-6.14.y
-ecdc0d0bb42d9a77cd603ebfc7cbfac74284965f 9b3bbd7fcdee32c8b24d076cc03222a2bb911434 refs/heads/linux-6.14.y-rt
-6c81d7ae2dd5afe3b5b49179b97470eaa9fcab07 08c1372c4ea100c5b3f853edc932d6ab7ff7e4d2 refs/heads/linux-6.14.y-rt-patches
-2014c95afecee3e76ca4a56956a936e23283f05b 38fec10eb60d687e30c8c6b5420d86e8149f7557 refs/heads/master
-0000000000000000000000000000000000000000 6a25088d268ce4c2163142ead7fe1975bb687cb7 refs/tags/v6.14-rc2
-0000000000000000000000000000000000000000 2db77e8810aa26c8cd3fa119037f753a68b7dce4 refs/tags/v6.14-rc3
-0000000000000000000000000000000000000000 ab680199364b446c9b642f1c1c1306b71535ace1 refs/tags/v6.14-rc4
-0000000000000000000000000000000000000000 1d53763dc16c9fc9329a4cdc14d691979d47568f refs/tags/v6.14-rc5
-0000000000000000000000000000000000000000 8098cf067a7aae92a4f293df03964bf8474faca1 refs/tags/v6.14-rc6
-0000000000000000000000000000000000000000 12b58398bffc23db89e715414399b0533255da51 refs/tags/v6.14-rc7
-0000000000000000000000000000000000000000 d816dc0660606a08b85f8b07dd1e3a94e474e691 refs/tags/v6.14-rt2
-0000000000000000000000000000000000000000 1f5b38bb7630dc580b5607a87629720b2ec51a39 refs/tags/v6.14-rt2-patches
-0000000000000000000000000000000000000000 6d462582b04d9bb2d1e045a8394d66c2c7404c82 refs/tags/v6.14-rt2-rebase
-0000000000000000000000000000000000000000 fc9e8a8a0b37ddecd1b35700548b7225eb7a972b refs/tags/v6.14-rt3
-0000000000000000000000000000000000000000 6c6890cced3655f41c246c7b3d5b6445603de1cd refs/tags/v6.14-rt3-patches
-0000000000000000000000000000000000000000 c36912587aa2c2485ed10a85bd25cbb298859ce4 refs/tags/v6.14-rt3-rebase
+ecdc0d0bb42d9a77cd603ebfc7cbfac74284965f 9739775a72b0a37cad4454c3bc1fb86632073eb8 refs/heads/for-kbuild-bot/current-stable
+1dddb63461465631d33b6c844c3cea765e941713 9739775a72b0a37cad4454c3bc1fb86632073eb8 refs/heads/for-kbuild-bot/prepare-release
+ecdc0d0bb42d9a77cd603ebfc7cbfac74284965f 9739775a72b0a37cad4454c3bc1fb86632073eb8 refs/heads/linux-6.14.y-rt-rebase
 -----BEGIN PGP SIGNATURE-----
 
-iQHKBAABCgA0FiEEV4kucFIzBRM39v3RBWQfF1cS+lsFAmfqZnUWHGJpZ2Vhc3lA
-bGludXRyb25peC5kZQAKCRAFZB8XVxL6W6jNC/oC2lKlr3NW15xqmcahM6klzKsH
-/7TMluGp7me3LWSGJCLQYcAVzMUHqZQw+6K/9372i4XUpNDsZWbNF0VGqZ8+YqXN
-nWrJK+XXlgi9ZknFlZux7x26kT91kHhOlzIUARu+sXYpwTyfVCOR2IkGYQDQgqZk
-t4IRSAwGc3PvHn1wdqIB/pkigeLEAPDDJcuM+K3pxLTntHGf6aePtl8FQB/yiTIr
-wwpEPuA5cjlMPcRkD1KBERJ+BnrHhZVizGDfOvpTelc+NAMFhHZW6e8e4tq6aaIq
-y3DbWcAfWLm/RLjel7e5TrohFf0ChHZqRbQPEmIgYu1GilZPx/8u8tILRIT5vy4S
-pNN3mEhRi9d862ih93tTRxTDN2lyMyO5j8ihhQ9Q+y976wRFFomvClOaHwFIF2C/
-ezPujxX9Mifz5hn0eATOAhDhFlscGqkmkfpYdVfcrFR52OckeMuRZfJ5anBZfa0n
-K6+GjQZtr5oIgqhRbHfJhU+MWgRV0kY0qMJLZTI=
-=+dL4
+iQHKBAABCgA0FiEEV4kucFIzBRM39v3RBWQfF1cS+lsFAmfqZpwWHGJpZ2Vhc3lA
+bGludXRyb25peC5kZQAKCRAFZB8XVxL6W008C/9a6eR6/Rn/I1RwhXcZqgfDcM58
+gvcqXRvah2WrEdM4/M0kR1XK41u/JMYvuRiXos6U9/vcrQARuvk6ATkyaNwbFYwg
+kYpXUOPT5NwfVkswQaSV4yM9+y1TWZXKEicAKy67ZlBQYTNixinaXPedk1PWYiI/
+GeANnu/fG9fCgcfogtrRGTA/zGYyc0OHu7Z5m3STVf1Y1k1baArT8LRZshj/LloM
+dwX7PFIfhIeWbWLaebHI36Jn0KGMBPC9P4LC9L+eWx63kd/LjwdEotdzzAqIxWFe
+faC963vLbInEcvRB03tSXXTygFC++4qIHn/+2BB8/TH4Bl2xSvWGDStKJjhSJ9i+
+ZXdS0qMoJvunHwSWwp+sbkn/P7/Y8pEE4Kr6fKurH3Ct46NClyYEyLuGbtdhOqp8
+LU2XSolePF44UDA3HFyYCR7278TI6Mq5eXUhi7CKlg1m6//zkZPVUTw2D+P2VXPL
+B38ssVnpfqL3KKsb5WrRzHVNa2E5MiBluz3rWbk=
+=RP/K
 -----END PGP SIGNATURE-----
 
---===============1613353300644051113==
+--===============9197521612834364786==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2014c95afece-38fec10eb60d.txt
+Content-Disposition: attachment; filename=revlist-ecdc0d0bb42d-9739775a72b0.txt
 
-91d44c1afc61a2fec37a9c7a3485368309391e0b cdx: Fix possible UAF error in driver_override_show()
-c99e1e1d0850ff157f1bc16871acd2dff5a9bcc3 vbox: add HAS_IOPORT dependency
-dcb0d43ba8eb9517e70b1a0e4b0ae0ab657a0e5a slimbus: messaging: Free transaction ID in delayed interrupt scenario
-e77aff5528a183462714f750e45add6cc71e276a binderfs: fix use-after-free in binder_devices
-819cec1dc47cdeac8f5dd6ba81c1dbee2a68c3bb drivers: virt: acrn: hsm: Use kzalloc to avoid info leak in pmcmd_ioctl
-038ef0754aae76f79b147b8867f9250e6a976872 eeprom: digsy_mtc: Make GPIO lookup table match the device
-6d991f569c5ef6eaeadf1238df2c36e3975233ad char: misc: deallocate static minor in error path
-32ce5d87d52213a50a513750f01a56f4d01f50cb bus: simple-pm-bus: fix forced runtime PM use
-b4c173dfbb6c78568578ff18f9e8822d7bd0e31b fuse: don't truncate cached, mutated symlink
-7543095ce0f313a7060d2b017acd6ccc1a709ad7 Merge tag 'md-6.14-20250218' of https://git.kernel.org/pub/scm/linux/kernel/git/mdraid/linux into block-6.14
-782cffeec9ad96daa64ffb2d527b2a052fb02552 perf/x86/intel: Fix event constraints for LNC
-fa808ed4e199ed17d878eb75b110bda30dd52434 KVM: arm64: Ensure a VMID is allocated before programming VTTBR_EL2
-770b7eec04c986ace0e632527ee7e1fafc2e5964 Merge tag 'xfs-fixes-6.14-rc4' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
-bf0e5ed0082ef0dbaa43c0296b045d6d9832082e Merge tag 'bcachefs-2025-02-20' of git://evilpiepirate.org/bcachefs
-e9a8cac0bf895efe0bc7b11d174e8dae9b195da8 Merge tag 'v6.14-rc3-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
-9af3b4f2d879da01192d6168e6c651e7fb5b652d ALSA: usb-audio: Re-add sample rate quirk for Pioneer DJM-900NXS2
-f13409bb3f9140dad7256febcb478f0c9600312c nvme-fc: rely on state transitions to handle connectivity loss
-d2fe192348f93fe3a0cb1e33e4aba58e646397f4 nvme: only allow entering LIVE from CONNECTING state
-860ca5e50f73c2a1cef7eefc9d39d04e275417f7 smb: client: Add check for next_buffer in receive_encrypted_standard()
-27eddbf3449026a73d6ed52d55b192bfcf526a03 Merge tag 'net-6.14-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-bd30e8d7bfa6e528f9e746c940e6f7246c7899d6 Bluetooth: Always allow SCO packets for user channel
-b25120e1d5f2ebb3db00af557709041f47f7f3d0 Bluetooth: L2CAP: Fix L2CAP_ECRED_CONN_RSP response
-511a3444f72efdc51fa923c4b1f5f0abd545fb20 MAINTAINERS: Add entry for DMEM cgroup controller
-992ee3ed6e9fdd0be83a7daa5ff738e3cf86047f net: phy: qcom: qca807x fix condition for DAC_DSP_BIAS_CURRENT
-e1fc41045c71819ae0fe44486fc965a48ea88f4f Merge tag 'scmi-fix-6.14' of https://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into arm/fixes
-e31e3f6c0ce473f7ce1e70d54ac8e3ed190509f8 soc: loongson: loongson2_guts: Add check for devm_kstrdup()
-68aaa637162787dc3374080efe03366f70b344f1 bcachefs: print op->nonce on data update inconsistency
-c522093b02835f2e897b83e9764e7919edac5d08 bcachefs: Fix memmove when move keys down
-395436f3bd0c12701c565e23b8b23ee44b969d7f Merge tag 'drm-misc-fixes-2025-02-20' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
-b522f180ee2b264b771fcbd0ab67d84cdd9e580d MAINTAINERS: Change maintainer for RDT
-319fc77f8f45a1b3dba15b0cc1a869778fd222f7 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
-619a1148c6d614aee29685269408a881657b0942 Merge tag 'drm-xe-fixes-2025-02-20' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
-70550442f28eba83b3e659618bba2b64eb91575f Merge tag 'nvme-6.14-2025-02-20' of git://git.infradead.org/nvme into block-6.14
-930293b70e46dc8a3734ed4c990e4e814549e021 Merge tag 'drm-intel-fixes-2025-02-20' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
-9a1cd7d6df5d708ef244f93715855c8e54d79448 Merge tag 'drm-msm-fixes-2025-02-20' of https://gitlab.freedesktop.org/drm/msm into drm-fixes
-f06e4bfd010faefa637689d2df2c727dbf6e1d27 net: stmmac: dwmac-loongson: Add fix_soc_reset() callback
-74ee48a2b4afa152b2d7f741677f6ada3c11be51 Merge tag 'ata-6.14-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
-334426094588f8179fe175a09ecc887ff0c75758 Merge tag 'for-v6.14-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply
-dce5c4afd035e8090a26e5d776b1682c0e649683 scsi: core: Clear driver private data when retrying request
-fe06b7c07f3fbcce2a2ca6f7b0d543b5699ea00f scsi: ufs: core: Set default runtime/system PM levels before ufshcd_hba_init()
-f27a95845b01e86d67c8b014b4f41bd3327daa63 scsi: ufs: core: bsg: Fix crash when arpmb command fails
-5eddd76ec2fd1988f0a3450fde9730b10dd22992 xfrm: fix tunnel mode TX datapath in packet offload mode
-0aae2867aa6067f73d066bc98385e23c8454a1d7 xfrm_output: Force software GSO only in tunnel mode
-59f37036bb7ab3d554c24abc856aabca01126414 btrfs: fix use-after-free on inode when scanning root during em shrinking
-c6c9c4d56483d941f567eb921434c25fc6086dfa btrfs: skip inodes without loaded extent maps when shrinking extent maps
-15b3b3254d1453a8db038b7d44b311a2d6c71f98 btrfs: do regular iput instead of delayed iput during extent map shrinking
-b1bf18223a8340cf5d52162d320badcfe07b905d btrfs: output an error message if btrfs failed to find the seed fsid
-efa11fd269c139e29b71ec21bc9c9c0063fde40d btrfs: fix data overwriting bug during buffered write when block size < page size
-e9a48ea4d90be251e0d057d41665745caccb0351 irqchip/qcom-pdc: Workaround hardware register bug on X1E80100
-92527e473911b835c2c18b0c55c337c33e85ff00 ntsync: Check wait count based on byte size.
-d252435aca44d647d57b84de5108556f9c97614a riscv: KVM: Remove unnecessary vcpu kick
-8510edf191d2df0822ea22d6226e4eef87562271 mm/filemap: fix miscalculated file range for filemap_fdatawrite_range_kick()
-927289988068a65ccc168eda881ce60f8712707b mm/truncate: don't skip dirty page in folio_unmap_invalidate()
-4c7a22bda684f586910e2fadac70c65964a9a486 Merge patch series "fixes for uncached IO"
-517120728484df1ab8b71cba8d2cad19f52f18a1 x86/cpufeatures: Make AVX-VNNI depend on AVX
-dc0a241ceaf3b7df6f1a7658b020c92682b75bfc rseq: Fix rseq registration with CONFIG_DEBUG_RSEQ
-c9876cdb3ac4dcdf3c710ff02094165982e2a557 docs: arch/x86/sva: Fix two grammar errors under Background and FAQ
-c9ca8a4f89884eb352e4c58204d39842cc73db9c Merge tag 'asoc-fix-v6.14-rc3' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
 38b14061947fa546491656e3f5e388d4fedf8dba ftrace: Fix accounting of adding subops to a manager ops
 8eb4b09e0bbd30981305643229fe7640ad41b667 ftrace: Do not add duplicate entries in subops manager ops
 ded9140622358a154efb3a777025fa7f7ae2c2d9 fprobe: Always unregister fgraph function from ops
@@ -1144,66 +1030,71 @@ fcea541800539899ba0073259cd35d615488a415 Merge tag 'keys-next-6.14-rc8' of git:/
 183601b78a9b1c3da2b59f2bee915f97ba745c0b Merge tag 'perf-urgent-2025-03-22' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 586de92313fcab8ed84ac5f78f4d2aae2db92c59 Merge tag 'i2c-for-6.14-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 38fec10eb60d687e30c8c6b5420d86e8149f7557 Linux 6.14
+85b5b4f30ff52c1f322743fb88ade1959d8d896a Reapply "serial: 8250: Switch to nbcon console"
+71e92002a5aec97b75aece51b8360efced13913e Reapply "serial: 8250: Revert "drop lockdep annotation from serial8250_clear_IER()""
+88b15c7c4b5cc573d4e4063198b0dac41fe3e613 sched: Add a generic function to return the preemption string.
+45a8bfdfe35b6b7d1a3363bc20b32eb1c17346c8 lib/dump_stack: Use preempt_model_str().
+49149c4ea05476003fa6632c2c405c9da85916fe arm: Rely on generic printing of preemption model.
+9c0178175e8d8711f624e7f61030cfe01081774e arm64: Rely on generic printing of preemption model.
+c6700ed97d734058767dd11b63c4d5aa1bd2c153 powerpc: Rely on generic printing of preemption model.
+327964a631acdcfdeaa46cd1630f7f6809179c00 s390: Rely on generic printing of preemption model.
+98ce291a86fea08c304a07b974fd591f889d8e7a x86: Rely on generic printing of preemption model.
+e7a84ebe95a6e12a70fe07ee0140654d90db3ace xtensa: Rely on generic printing of preemption model.
+829cd2fb6686a70f5616d0c5ba185f23f96ad32b tracing: Use preempt_model_str().
+da3e229468efc358e97a40fcf1476c859fab901f arm64: enable PREEMPT_LAZY
+e156c59a1df44a398e886cadec4f28784ac17f80 module: Begin to move from RCU-sched to RCU.
+d5a4e1e57e99ae9edf68b643ab5a827f13cb53bb module: Use proper RCU assignment in add_kallsyms().
+ee8e7183bffb4a2c61442e0177dddffb77ad7289 module: Use RCU in find_kallsyms_symbol().
+ba11d20fad7d6cc2e854d803312aad028b3f57a1 module: Use RCU in module_get_kallsym().
+3e8d9268b266a76210ee92b9a8ae849e824c4188 module: Use RCU in find_module_all().
+b06de4861dbdd5f394e8b31b4c24f391b4a254c5 module: Use RCU in __find_kallsyms_symbol_value().
+3d99af42f1a46cde9cee2967b93de3ce964206ec module: Use RCU in module_kallsyms_on_each_symbol().
+1098130694bc91517943a0c98961e8b460b859af module: Remove module_assert_mutex_or_preempt() from try_add_tainted_module().
+6a52d610868f4904b7b60cfeb5500a7e865c7d41 module: Use RCU in find_symbol().
+87a849bceaee203b9ca66a8a325696c55b345ccc module: Use RCU in __is_module_percpu_address().
+42b2fb76b6b345b20033fcc02235da72c8423ed9 module: Allow __module_address() to be called from RCU section.
+231b902318b264e97162653656cce2b0c690f74d module: Use RCU in search_module_extables().
+58a83b2a6d107d32fc64f0f57c65c77b401752e9 module: Use RCU in all users of __module_address().
+d36435a9608fffe20588273cecc116fd9ead267c module: Use RCU in all users of __module_text_address().
+628be7e8f02e07666425c1901c22cf08ff3aeda0 ARM: module: Use RCU in all users of __module_text_address().
+2fb69f2d7344698995d54aef02720e1d4ef093c6 arm64: module: Use RCU in all users of __module_text_address().
+e1e9288f22838313b7e533ee5c8060ccad67c14c LoongArch/orc: Use RCU in all users of __module_address().
+d9400f0351605f82ec4ecb46db0ce2820559cdbf LoongArch: ftrace: Use RCU in all users of __module_text_address().
+5b9008f6d290c03b949720584c936761274ee09b powerpc/ftrace: Use RCU in all users of __module_text_address().
+28549934cdef54f2c76fd3728c1ed9e139a581b4 cfi: Use RCU while invoking __module_address().
+a22c8006c0e2ef96a0e04e38462387e38d322f42 x86: Use RCU in all users of __module_address().
+9a7480248677ddb32937bde989d0df07f12b4c09 jump_label: Use RCU in all users of __module_address().
+30f80d8a5ee24cd0e49285a0dc057547f7e3aee1 jump_label: Use RCU in all users of __module_text_address().
+612c880364f664db24589c7b79fc61aae1f56d45 bpf: Use RCU in all users of __module_text_address().
+14d6e84f27243a43444c74133a0a4b4bf776e4bb kprobes: Use RCU in all users of __module_text_address().
+56e4ac2435de633b6f81660b15b8b032b56ef45f static_call: Use RCU in all users of __module_text_address().
+f6ababd3fddf2cc93621af79bc786cdcd75d33c7 bug: Use RCU instead RCU-sched to protect module_bug_list.
+a2ca9726f5d389cc88245cb255f76da1dd2ff3c2 drm/i915: Use preempt_disable/enable_rt() where recommended
+cb72710b89546d6caaa7b48cd3acdd62d7fe3e1b drm/i915: Don't disable interrupts on PREEMPT_RT during atomic updates
+e14e8fc785dd3566b189bbb69ba93e01a341f60e drm/i915: Don't check for atomic context on PREEMPT_RT
+0bb2cf10187dc01ce67df427b70039ab2a0a905d drm/i915: Disable tracing points on PREEMPT_RT
+1e646cec1e9ac3989200cded5f9fed11c5f0bb3c drm/i915/gt: Use spin_lock_irq() instead of local_irq_disable() + spin_lock()
+78f62896604a56c5fa0e471d6579f170605052f4 drm/i915: Drop the irqs_disabled() check
+fd9e6e0117483953a8d125d29cadf076d5ae5a48 drm/i915/guc: Consider also RCU depth in busy loop.
+48ec11a3b68a91614aed8d75d1396511687ef9e9 Revert "drm/i915: Depend on !PREEMPT_RT."
+a9c17e4d0ddf0d415f7dc89054ac15bbe56f9343 arm: Disable jump-label on PREEMPT_RT.
+74b1e151e5bacd54ae2bbdfb7cacb11ffd7cdb7a ARM: enable irq in translation/section permission fault handlers
+18b4dec6e143d959de6f39a55d706bb8006a1638 arm: Disable FAST_GUP on PREEMPT_RT if HIGHPTE is also enabled.
+6ba8199da3e3c1c8af954a3c363c6d1626db86be ARM: Allow to enable RT
+b5f9738dac8b4938ae6148792a15d6715c0e0ccb powerpc/pseries/iommu: Use a locallock instead local_irq_save()
+607cb9643dafb2ea1c0ea240685ec49dfed3e603 powerpc/pseries: Select the generic memory allocator.
+0f26bbc206a216756c7cf315a99fdea3b75370b7 powerpc/kvm: Disable in-kernel MPIC emulation for PREEMPT_RT
+5af74cac96eba17484d790069f54aa7ad68bdd78 powerpc/stackprotector: work around stack-guard init from atomic
+9af251c42d93b9ae0f14252848018d85de4d03e0 POWERPC: Allow to enable RT
+8c716846c9825e9bd4bf38d995becf1a0d598d47 sysfs: Add /sys/kernel/realtime entry
+9739775a72b0a37cad4454c3bc1fb86632073eb8 Add localversion for -RT release
 
---===============1613353300644051113==
+--===============9197521612834364786==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ecdc0d0bb42d-9b3bbd7fcdee.txt
+Content-Disposition: attachment; filename=revlist-1dddb6346146-9739775a72b0.txt
 
-038ef0754aae76f79b147b8867f9250e6a976872 eeprom: digsy_mtc: Make GPIO lookup table match the device
-6d991f569c5ef6eaeadf1238df2c36e3975233ad char: misc: deallocate static minor in error path
-32ce5d87d52213a50a513750f01a56f4d01f50cb bus: simple-pm-bus: fix forced runtime PM use
-b4c173dfbb6c78568578ff18f9e8822d7bd0e31b fuse: don't truncate cached, mutated symlink
-7543095ce0f313a7060d2b017acd6ccc1a709ad7 Merge tag 'md-6.14-20250218' of https://git.kernel.org/pub/scm/linux/kernel/git/mdraid/linux into block-6.14
-782cffeec9ad96daa64ffb2d527b2a052fb02552 perf/x86/intel: Fix event constraints for LNC
-fa808ed4e199ed17d878eb75b110bda30dd52434 KVM: arm64: Ensure a VMID is allocated before programming VTTBR_EL2
-770b7eec04c986ace0e632527ee7e1fafc2e5964 Merge tag 'xfs-fixes-6.14-rc4' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
-bf0e5ed0082ef0dbaa43c0296b045d6d9832082e Merge tag 'bcachefs-2025-02-20' of git://evilpiepirate.org/bcachefs
-e9a8cac0bf895efe0bc7b11d174e8dae9b195da8 Merge tag 'v6.14-rc3-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
-9af3b4f2d879da01192d6168e6c651e7fb5b652d ALSA: usb-audio: Re-add sample rate quirk for Pioneer DJM-900NXS2
-f13409bb3f9140dad7256febcb478f0c9600312c nvme-fc: rely on state transitions to handle connectivity loss
-d2fe192348f93fe3a0cb1e33e4aba58e646397f4 nvme: only allow entering LIVE from CONNECTING state
-860ca5e50f73c2a1cef7eefc9d39d04e275417f7 smb: client: Add check for next_buffer in receive_encrypted_standard()
-27eddbf3449026a73d6ed52d55b192bfcf526a03 Merge tag 'net-6.14-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-bd30e8d7bfa6e528f9e746c940e6f7246c7899d6 Bluetooth: Always allow SCO packets for user channel
-b25120e1d5f2ebb3db00af557709041f47f7f3d0 Bluetooth: L2CAP: Fix L2CAP_ECRED_CONN_RSP response
-511a3444f72efdc51fa923c4b1f5f0abd545fb20 MAINTAINERS: Add entry for DMEM cgroup controller
-992ee3ed6e9fdd0be83a7daa5ff738e3cf86047f net: phy: qcom: qca807x fix condition for DAC_DSP_BIAS_CURRENT
-e1fc41045c71819ae0fe44486fc965a48ea88f4f Merge tag 'scmi-fix-6.14' of https://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into arm/fixes
-e31e3f6c0ce473f7ce1e70d54ac8e3ed190509f8 soc: loongson: loongson2_guts: Add check for devm_kstrdup()
-68aaa637162787dc3374080efe03366f70b344f1 bcachefs: print op->nonce on data update inconsistency
-c522093b02835f2e897b83e9764e7919edac5d08 bcachefs: Fix memmove when move keys down
-395436f3bd0c12701c565e23b8b23ee44b969d7f Merge tag 'drm-misc-fixes-2025-02-20' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
-b522f180ee2b264b771fcbd0ab67d84cdd9e580d MAINTAINERS: Change maintainer for RDT
-319fc77f8f45a1b3dba15b0cc1a869778fd222f7 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
-619a1148c6d614aee29685269408a881657b0942 Merge tag 'drm-xe-fixes-2025-02-20' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
-70550442f28eba83b3e659618bba2b64eb91575f Merge tag 'nvme-6.14-2025-02-20' of git://git.infradead.org/nvme into block-6.14
-930293b70e46dc8a3734ed4c990e4e814549e021 Merge tag 'drm-intel-fixes-2025-02-20' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
-9a1cd7d6df5d708ef244f93715855c8e54d79448 Merge tag 'drm-msm-fixes-2025-02-20' of https://gitlab.freedesktop.org/drm/msm into drm-fixes
-f06e4bfd010faefa637689d2df2c727dbf6e1d27 net: stmmac: dwmac-loongson: Add fix_soc_reset() callback
-74ee48a2b4afa152b2d7f741677f6ada3c11be51 Merge tag 'ata-6.14-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
-334426094588f8179fe175a09ecc887ff0c75758 Merge tag 'for-v6.14-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply
-dce5c4afd035e8090a26e5d776b1682c0e649683 scsi: core: Clear driver private data when retrying request
-fe06b7c07f3fbcce2a2ca6f7b0d543b5699ea00f scsi: ufs: core: Set default runtime/system PM levels before ufshcd_hba_init()
-f27a95845b01e86d67c8b014b4f41bd3327daa63 scsi: ufs: core: bsg: Fix crash when arpmb command fails
-5eddd76ec2fd1988f0a3450fde9730b10dd22992 xfrm: fix tunnel mode TX datapath in packet offload mode
-0aae2867aa6067f73d066bc98385e23c8454a1d7 xfrm_output: Force software GSO only in tunnel mode
-59f37036bb7ab3d554c24abc856aabca01126414 btrfs: fix use-after-free on inode when scanning root during em shrinking
-c6c9c4d56483d941f567eb921434c25fc6086dfa btrfs: skip inodes without loaded extent maps when shrinking extent maps
-15b3b3254d1453a8db038b7d44b311a2d6c71f98 btrfs: do regular iput instead of delayed iput during extent map shrinking
-b1bf18223a8340cf5d52162d320badcfe07b905d btrfs: output an error message if btrfs failed to find the seed fsid
-efa11fd269c139e29b71ec21bc9c9c0063fde40d btrfs: fix data overwriting bug during buffered write when block size < page size
-e9a48ea4d90be251e0d057d41665745caccb0351 irqchip/qcom-pdc: Workaround hardware register bug on X1E80100
-92527e473911b835c2c18b0c55c337c33e85ff00 ntsync: Check wait count based on byte size.
-d252435aca44d647d57b84de5108556f9c97614a riscv: KVM: Remove unnecessary vcpu kick
-8510edf191d2df0822ea22d6226e4eef87562271 mm/filemap: fix miscalculated file range for filemap_fdatawrite_range_kick()
-927289988068a65ccc168eda881ce60f8712707b mm/truncate: don't skip dirty page in folio_unmap_invalidate()
-4c7a22bda684f586910e2fadac70c65964a9a486 Merge patch series "fixes for uncached IO"
-517120728484df1ab8b71cba8d2cad19f52f18a1 x86/cpufeatures: Make AVX-VNNI depend on AVX
-dc0a241ceaf3b7df6f1a7658b020c92682b75bfc rseq: Fix rseq registration with CONFIG_DEBUG_RSEQ
-c9876cdb3ac4dcdf3c710ff02094165982e2a557 docs: arch/x86/sva: Fix two grammar errors under Background and FAQ
-c9ca8a4f89884eb352e4c58204d39842cc73db9c Merge tag 'asoc-fix-v6.14-rc3' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
 38b14061947fa546491656e3f5e388d4fedf8dba ftrace: Fix accounting of adding subops to a manager ops
 8eb4b09e0bbd30981305643229fe7640ad41b667 ftrace: Do not add duplicate entries in subops manager ops
 ded9140622358a154efb3a777025fa7f7ae2c2d9 fprobe: Always unregister fgraph function from ops
@@ -2170,10 +2061,63 @@ fcea541800539899ba0073259cd35d615488a415 Merge tag 'keys-next-6.14-rc8' of git:/
 183601b78a9b1c3da2b59f2bee915f97ba745c0b Merge tag 'perf-urgent-2025-03-22' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 586de92313fcab8ed84ac5f78f4d2aae2db92c59 Merge tag 'i2c-for-6.14-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 38fec10eb60d687e30c8c6b5420d86e8149f7557 Linux 6.14
-f24224ab84141ea1d3cd5ef5120df144b0010a7e Merge tag 'v6.14' into linux-6.14.y-rt
-72e4b4b0320feec039dbf968b068382b601f6eda v6.14-rt2
-85c00de825e7b14cf49a552e001d04895b8e94c9 arm64: enable PREEMPT_LAZY
-27b84ea5b630bc287abd7dea3c183d0eb0b676e5 preempt: Add a generic function to return the preemption string.
-9b3bbd7fcdee32c8b24d076cc03222a2bb911434 v6.14-rt3
+85b5b4f30ff52c1f322743fb88ade1959d8d896a Reapply "serial: 8250: Switch to nbcon console"
+71e92002a5aec97b75aece51b8360efced13913e Reapply "serial: 8250: Revert "drop lockdep annotation from serial8250_clear_IER()""
+88b15c7c4b5cc573d4e4063198b0dac41fe3e613 sched: Add a generic function to return the preemption string.
+45a8bfdfe35b6b7d1a3363bc20b32eb1c17346c8 lib/dump_stack: Use preempt_model_str().
+49149c4ea05476003fa6632c2c405c9da85916fe arm: Rely on generic printing of preemption model.
+9c0178175e8d8711f624e7f61030cfe01081774e arm64: Rely on generic printing of preemption model.
+c6700ed97d734058767dd11b63c4d5aa1bd2c153 powerpc: Rely on generic printing of preemption model.
+327964a631acdcfdeaa46cd1630f7f6809179c00 s390: Rely on generic printing of preemption model.
+98ce291a86fea08c304a07b974fd591f889d8e7a x86: Rely on generic printing of preemption model.
+e7a84ebe95a6e12a70fe07ee0140654d90db3ace xtensa: Rely on generic printing of preemption model.
+829cd2fb6686a70f5616d0c5ba185f23f96ad32b tracing: Use preempt_model_str().
+da3e229468efc358e97a40fcf1476c859fab901f arm64: enable PREEMPT_LAZY
+e156c59a1df44a398e886cadec4f28784ac17f80 module: Begin to move from RCU-sched to RCU.
+d5a4e1e57e99ae9edf68b643ab5a827f13cb53bb module: Use proper RCU assignment in add_kallsyms().
+ee8e7183bffb4a2c61442e0177dddffb77ad7289 module: Use RCU in find_kallsyms_symbol().
+ba11d20fad7d6cc2e854d803312aad028b3f57a1 module: Use RCU in module_get_kallsym().
+3e8d9268b266a76210ee92b9a8ae849e824c4188 module: Use RCU in find_module_all().
+b06de4861dbdd5f394e8b31b4c24f391b4a254c5 module: Use RCU in __find_kallsyms_symbol_value().
+3d99af42f1a46cde9cee2967b93de3ce964206ec module: Use RCU in module_kallsyms_on_each_symbol().
+1098130694bc91517943a0c98961e8b460b859af module: Remove module_assert_mutex_or_preempt() from try_add_tainted_module().
+6a52d610868f4904b7b60cfeb5500a7e865c7d41 module: Use RCU in find_symbol().
+87a849bceaee203b9ca66a8a325696c55b345ccc module: Use RCU in __is_module_percpu_address().
+42b2fb76b6b345b20033fcc02235da72c8423ed9 module: Allow __module_address() to be called from RCU section.
+231b902318b264e97162653656cce2b0c690f74d module: Use RCU in search_module_extables().
+58a83b2a6d107d32fc64f0f57c65c77b401752e9 module: Use RCU in all users of __module_address().
+d36435a9608fffe20588273cecc116fd9ead267c module: Use RCU in all users of __module_text_address().
+628be7e8f02e07666425c1901c22cf08ff3aeda0 ARM: module: Use RCU in all users of __module_text_address().
+2fb69f2d7344698995d54aef02720e1d4ef093c6 arm64: module: Use RCU in all users of __module_text_address().
+e1e9288f22838313b7e533ee5c8060ccad67c14c LoongArch/orc: Use RCU in all users of __module_address().
+d9400f0351605f82ec4ecb46db0ce2820559cdbf LoongArch: ftrace: Use RCU in all users of __module_text_address().
+5b9008f6d290c03b949720584c936761274ee09b powerpc/ftrace: Use RCU in all users of __module_text_address().
+28549934cdef54f2c76fd3728c1ed9e139a581b4 cfi: Use RCU while invoking __module_address().
+a22c8006c0e2ef96a0e04e38462387e38d322f42 x86: Use RCU in all users of __module_address().
+9a7480248677ddb32937bde989d0df07f12b4c09 jump_label: Use RCU in all users of __module_address().
+30f80d8a5ee24cd0e49285a0dc057547f7e3aee1 jump_label: Use RCU in all users of __module_text_address().
+612c880364f664db24589c7b79fc61aae1f56d45 bpf: Use RCU in all users of __module_text_address().
+14d6e84f27243a43444c74133a0a4b4bf776e4bb kprobes: Use RCU in all users of __module_text_address().
+56e4ac2435de633b6f81660b15b8b032b56ef45f static_call: Use RCU in all users of __module_text_address().
+f6ababd3fddf2cc93621af79bc786cdcd75d33c7 bug: Use RCU instead RCU-sched to protect module_bug_list.
+a2ca9726f5d389cc88245cb255f76da1dd2ff3c2 drm/i915: Use preempt_disable/enable_rt() where recommended
+cb72710b89546d6caaa7b48cd3acdd62d7fe3e1b drm/i915: Don't disable interrupts on PREEMPT_RT during atomic updates
+e14e8fc785dd3566b189bbb69ba93e01a341f60e drm/i915: Don't check for atomic context on PREEMPT_RT
+0bb2cf10187dc01ce67df427b70039ab2a0a905d drm/i915: Disable tracing points on PREEMPT_RT
+1e646cec1e9ac3989200cded5f9fed11c5f0bb3c drm/i915/gt: Use spin_lock_irq() instead of local_irq_disable() + spin_lock()
+78f62896604a56c5fa0e471d6579f170605052f4 drm/i915: Drop the irqs_disabled() check
+fd9e6e0117483953a8d125d29cadf076d5ae5a48 drm/i915/guc: Consider also RCU depth in busy loop.
+48ec11a3b68a91614aed8d75d1396511687ef9e9 Revert "drm/i915: Depend on !PREEMPT_RT."
+a9c17e4d0ddf0d415f7dc89054ac15bbe56f9343 arm: Disable jump-label on PREEMPT_RT.
+74b1e151e5bacd54ae2bbdfb7cacb11ffd7cdb7a ARM: enable irq in translation/section permission fault handlers
+18b4dec6e143d959de6f39a55d706bb8006a1638 arm: Disable FAST_GUP on PREEMPT_RT if HIGHPTE is also enabled.
+6ba8199da3e3c1c8af954a3c363c6d1626db86be ARM: Allow to enable RT
+b5f9738dac8b4938ae6148792a15d6715c0e0ccb powerpc/pseries/iommu: Use a locallock instead local_irq_save()
+607cb9643dafb2ea1c0ea240685ec49dfed3e603 powerpc/pseries: Select the generic memory allocator.
+0f26bbc206a216756c7cf315a99fdea3b75370b7 powerpc/kvm: Disable in-kernel MPIC emulation for PREEMPT_RT
+5af74cac96eba17484d790069f54aa7ad68bdd78 powerpc/stackprotector: work around stack-guard init from atomic
+9af251c42d93b9ae0f14252848018d85de4d03e0 POWERPC: Allow to enable RT
+8c716846c9825e9bd4bf38d995becf1a0d598d47 sysfs: Add /sys/kernel/realtime entry
+9739775a72b0a37cad4454c3bc1fb86632073eb8 Add localversion for -RT release
 
---===============1613353300644051113==--
+--===============9197521612834364786==--
