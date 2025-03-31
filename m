@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0965858296558602199=="
+Content-Type: multipart/mixed; boundary="===============5378356437876093567=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 31 Mar 2025 09:23:02 -0000
-Message-Id: <174341298219.4031624.5696949634107109662@gitolite.kernel.org>
+Date: Mon, 31 Mar 2025 09:27:00 -0000
+Message-Id: <174341322092.4035614.16508126966599722151@gitolite.kernel.org>
 
---===============0965858296558602199==
+--===============5378356437876093567==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,29 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 8fc8ae1aeed6dc895bf35a4797c6e770574f4612
-    new: 7da557adbab2eaa04b620b2cb3ea9975f75ed67f
-    log: revlist-8fc8ae1aeed6-7da557adbab2.txt
+    old: 7da557adbab2eaa04b620b2cb3ea9975f75ed67f
+    new: 9089d37de2c80d4fc978d9d8db5e565e4a099b3f
+    log: |
+         d475198478dc3b6331cecdd53090a29cde7e0a8d Merge branch into tip/master: 'objtool/urgent'
+         49346ff97c3bb743e10a554c3df7bf18cad15e0b Merge branch into tip/master: 'sched/urgent'
+         362df6c1cbe20e66dd89cd0a4fc9038bae51c8e5 Merge branch into tip/master: 'x86/urgent'
+         f33340fa6d989f02423d2c7178ed7321bdaaae1c Merge branch into tip/master: 'x86/alternatives'
+         6f2da2fb15e10df0b04421ecd86ae84b78e5f498 Merge branch into tip/master: 'x86/asm'
+         d120a7a2ef6b1e39128394646ceaf1518bbe8ca7 Merge branch into tip/master: 'x86/cpu'
+         acb57adb9c78f742cb5fe75bcb4b645d68c876ee Merge branch into tip/master: 'x86/fpu'
+         fc57ad963b2113489d487d063366170b39bad22f Merge branch into tip/master: 'x86/kconfig'
+         9089d37de2c80d4fc978d9d8db5e565e4a099b3f Merge branch into tip/master: 'x86/tdx'
+         
+  - ref: refs/heads/tip/urgent
+    old: 2b530e17fa77a7aa790bd3e7f0431e07854326f2
+    new: 362df6c1cbe20e66dd89cd0a4fc9038bae51c8e5
+    log: revlist-2b530e17fa77-362df6c1cbe2.txt
 
---===============0965858296558602199==
+--===============5378356437876093567==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8fc8ae1aeed6-7da557adbab2.txt
+Content-Disposition: attachment; filename=revlist-2b530e17fa77-362df6c1cbe2.txt
 
 723f1b9ce332ae50dede24daa7a1abc0c87a6f83 selftests/bpf: helpers: Add append_tid()
 6d34f5b728eb28e4f5acb00dc147507fea2e510c selftests/bpf: test_xdp_veth: Remove unused defines
@@ -384,6 +398,8 @@ b4c5c57c2d8d00c982b3620f8c95d5cd468e16e9 Merge tag 'locking-urgent-2025-03-28' o
 7405c0f01aa281e20d9f9f34ac450537985bfb05 Merge tag 'x86-urgent-2025-03-28' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 01d5b167dc230cf3b6eb9dd7205f6a705026d1ce Merge tag 'modules-6.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/modules/linux
 4e82c87058f45e79eeaa4d5bcc3b38dd3dce7209 Merge tag 'rust-6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/ojeda/linux
-7da557adbab2eaa04b620b2cb3ea9975f75ed67f Merge branch 'linus'
+d475198478dc3b6331cecdd53090a29cde7e0a8d Merge branch into tip/master: 'objtool/urgent'
+49346ff97c3bb743e10a554c3df7bf18cad15e0b Merge branch into tip/master: 'sched/urgent'
+362df6c1cbe20e66dd89cd0a4fc9038bae51c8e5 Merge branch into tip/master: 'x86/urgent'
 
---===============0965858296558602199==--
+--===============5378356437876093567==--
