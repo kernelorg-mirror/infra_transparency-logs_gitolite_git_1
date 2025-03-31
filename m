@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Mon, 31 Mar 2025 22:11:37 -0000
-Message-Id: <174345909747.509795.10562087258568346227@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
+Date: Mon, 31 Mar 2025 22:18:42 -0000
+Message-Id: <174345952206.514816.1608917397821317777@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/linux/kernel/git/abelloni/linux
+user: abelloni
 changes:
-  - ref: refs/heads/objtool-werror
-    old: 95ad15a4bfc510b88e215f471c22d99bbef05cbe
-    new: 5bd94be6ad317bf8ae78a9faf7f029cd3ea9bd44
+  - ref: refs/heads/rtc-next
+    old: 0176188220a7822b7a5f57f971d8af291d05e98c
+    new: a4193578631b7c55eae31f52cef6b0f09203fd17
     log: |
-         704a39d4b2035c42b83a34bc2db80e45dd83aaea context_tracking: Make empty functions __always_inline
-         5bd94be6ad317bf8ae78a9faf7f029cd3ea9bd44 rcu-tasks: Make empty rcu_irq_work_resched() __always_inline
+         fe135955bed2cad5c1e5797bb8320af06fe085f7 dt-bindings: rtc: max31335: Add max31331 support
+         a4193578631b7c55eae31f52cef6b0f09203fd17 rtc: max31335: Add driver support for max31331
          
