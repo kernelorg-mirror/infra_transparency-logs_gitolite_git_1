@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2627206483782398207=="
+Content-Type: multipart/mixed; boundary="===============5601242547383814070=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Mon, 31 Mar 2025 10:52:13 -0000
-Message-Id: <174341833354.4110939.13287820149208386791@gitolite.kernel.org>
+Date: Mon, 31 Mar 2025 10:52:28 -0000
+Message-Id: <174341834810.4111467.7915352622726024685@gitolite.kernel.org>
 
---===============2627206483782398207==
+--===============5601242547383814070==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/features
-    old: 0dafe9968ac7c78c67ee6bb2d970d413fb493b95
+  - ref: refs/heads/for-next
+    old: ee57c8aa47a243b612972f686fb92e24f5997c3b
     new: 807c2743035446cf0484772a76e1c35ce27fd8e3
-    log: revlist-0dafe9968ac7-807c27430354.txt
+    log: revlist-ee57c8aa47a2-807c27430354.txt
 
---===============2627206483782398207==
+--===============5601242547383814070==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-0dafe9968ac7-807c27430354.txt
+Content-Disposition: attachment; filename=revlist-ee57c8aa47a2-807c27430354.txt
 
 f0417e0ec5d727ddd8974778344b66637e8df27f Merge branch 'support-loopback-mode-speed-selection'
 5eada2aabf13dcc4574b0a281b963b8cc55a52cc igb: reject invalid external timestamp requests for 82580-based HW
@@ -1051,4 +1051,4 @@ b9be1bee2f271ed3c68e0bd3ec099951b656447b s390/asm-offsets: Remove ASM_OFFSETS_C
 af6bfcd1698d822ab6a2d543b884b3eedc8c7d82 s390/mm: Dump fault info in case of low address protection fault
 807c2743035446cf0484772a76e1c35ce27fd8e3 s390/pci: Fix dev.dma_range_map missing sentinel element
 
---===============2627206483782398207==--
+--===============5601242547383814070==--
