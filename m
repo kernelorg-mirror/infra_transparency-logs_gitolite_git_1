@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 31 Mar 2025 21:44:01 -0000
-Message-Id: <174345744178.485736.16047363841848755157@gitolite.kernel.org>
+Date: Mon, 31 Mar 2025 21:44:07 -0000
+Message-Id: <174345744708.486031.7095111198129097815@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: 79ce49513222a89338e78bc7c7cb4a0fb4d6cb23
+  - ref: refs/heads/pending
+    old: 481c86025acc2d2925865500a01a9648e538db70
     new: 3b199a58cc585f423a85af2e57045c9a783361bb
     log: |
          ce8669a27016354dfa8bf3c954255cb9f3583bae wifi: ath11k: determine PM policy based on machine model
