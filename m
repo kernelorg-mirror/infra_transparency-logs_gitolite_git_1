@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Mon, 31 Mar 2025 13:54:37 -0000
-Message-Id: <174342927793.80963.3713907365243519020@gitolite.kernel.org>
+Date: Mon, 31 Mar 2025 13:55:29 -0000
+Message-Id: <174342932971.83273.15330368358396683411@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,60 +11,48 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pci/pci
 user: helgaas
 changes:
-  - ref: refs/heads/acs
-    old: 9cf8a952d57b422d3ff8a9a0163f8adf694f4b2b
+  - ref: refs/heads/controller/altera
+    old: 60f2ee5f1472972918de7eb14c8240de176f6b8d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/aer
-    old: 7e077e6707b3428562ba30d883ff8f54e98dc18b
+  - ref: refs/heads/controller/amd-mdb
+    old: 5f3de23d858edf5df89c397678ba492b96646df4
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/aspm
-    old: cbf937dcadfd571a434f8074d057b32cd14fbea5
+  - ref: refs/heads/controller/brcmstb
+    old: 2d72d81caccad516ece9f91f86ac65ff1f2c68a2
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/bwctrl
-    old: 667f053b05f00a007738cd7ed6fa1901de19dc7e
+  - ref: refs/heads/controller/cadence
+    old: 3ac47fbf4f6e8c3a7c3855fac68cc3246f90f850
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/devres
-    old: b1a7f99967fc0c052db8e65b449c7b32b1e9177f
+  - ref: refs/heads/controller/dwc
+    old: 1f5a69f1b3132054d8d82b8d7546d0af6a2ed4f6
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/devtree-create
-    old: 1f340724419eda8ab07a20edcaf5ec8f70134231
+  - ref: refs/heads/controller/dwc-cpu-addr-fixup
+    old: 07ae413e169da3697e633dd4489db0d681a04460
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/doe
-    old: 6fc6ded50ffc09a5cb3a9ec22dd1976401ea0bbc
+  - ref: refs/heads/controller/histb
+    old: b36fb50701619efca5f5450b355d42575cf532ed
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/dt-bindings
-    old: 01a1e9d6a0077d17e737fbc0681d567dbdb3029e
+  - ref: refs/heads/controller/hyperv
+    old: 25a3c220a2b46dbeec1e5a24904d0b038bbc0878
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/endpoint
-    old: a60a7084200591f57ad7e90a0497130d1c685670
+  - ref: refs/heads/controller/imx6
+    old: f6a1fdfc78e203d2f7ccb9b34c00e5f0ac3d3a74
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/endpoint-test
-    old: 73028616f3050a9c1b5586779bd098ee75b86a12
+  - ref: refs/heads/controller/j721e
+    old: d66b5b336245b91681c2042e7eedf63ef7c2f6db
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/enumeration
-    old: 6e8d06e5096c80cbf41313b4a204f43071ca42be
+  - ref: refs/heads/controller/layerscape
+    old: 4c8c0ffd41d16cf08ccb0d3626beb54adfe5450a
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/epf-mhi
-    old: 4f13dd9e2b1d2b317bb36704f8a7bd1d3017f7a2
+  - ref: refs/heads/controller/mediatek
+    old: 98e87cc501c1018f11815e3e2fb20e4801243031
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/hotplug
-    old: 527664f738afb6f2c58022cd35e63801e5dc7aec
+  - ref: refs/heads/controller/qcom
+    old: 42c812d07088777a3439e51bd1461d215151150e
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/misc
-    old: f4e026f454d7bb6aa84901a37641132961054735
+  - ref: refs/heads/controller/vmd
+    old: 18056a48669a040bef491e63b25896561ee14d90
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/pm
-    old: a5fb3ff632876d63ee1fc5ed3af2464240145a00
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/pwrctrl
-    old: 75996c92f4de309f855471927e6489f5a354cfd4
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/reset
-    old: 479380efe1625e251008d24b2810283db60d6fcd
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/resource
-    old: aa9f168d55dc47c0de564f7dfe0e90467c9fee71
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/scoped-cleanup
-    old: bffc72387aefc4545af04200be8affb51c3726cf
+  - ref: refs/heads/controller/xilinx-cpm
+    old: 9e141923cf86b2e1c83d21b87fb4de3d14a20c99
     new: 0000000000000000000000000000000000000000
