@@ -1,25 +1,30 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Mon, 31 Mar 2025 21:51:46 -0000
-Message-Id: <174345790605.493421.3266032143633781895@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Mon, 31 Mar 2025 21:53:23 -0000
+Message-Id: <174345800343.494352.12783689408091249229@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/objtool-werror
-    old: 26b0836c90a7c977a04c80a89b178573f81bb610
-    new: 95ad15a4bfc510b88e215f471c22d99bbef05cbe
+  - ref: refs/heads/main
+    old: c34fb584f35846b9e0d6bb8e2418a7152ec3499c
+    new: ba613742db305037ca2193b2b552b769c4f2a5f7
     log: |
-         b8f47118d4625a7bacb7bec305bf405b81c3d863 objtool: Ignore end-of-section jumps for KCOV/GCOV
-         bb26b631a7d2e1d60e45f6e246576f2947339794 objtool: Suffix function name with parentheses in "unexpected end of section" warning
-         dedc76b1318b256c25e28f6e625395684389cd48 Revert "objtool: Increase per-function WARN_FUNC() rate limit"
-         24cd44dd0c18a3d677efecf2696afb450b0ea9e5 objtool: Always fail on fatal errors
-         ca882af11d29c1442515eb8517df33b9e4da8228 objtool: Change "warning:" to "error:" for fatal errors
-         9feb588f87f434bf8f7322e18640502aecf9a5a2 objtool: Fix verbose disassembly if CROSS_COMPILE not set
-         95ad15a4bfc510b88e215f471c22d99bbef05cbe objtool/loongarch: Add unwind hints for prepare_frametrace()
+         ce8669a27016354dfa8bf3c954255cb9f3583bae wifi: ath11k: determine PM policy based on machine model
+         3d2ce6ad9126b96a721542c6299a2f0967b5a63f wifi: ath11k: introduce ath11k_core_continue_suspend_resume()
+         662cc5b92c327e94587a959d7ed75862eda4b059 wifi: ath11k: refactor ath11k_core_suspend/_resume()
+         88fd03cf51a7d67dac976ecce079ccfc79376966 wifi: ath11k: support non-WoWLAN mode suspend as well
+         32d93b51bc7e2e557771abe4a88da69c609e3d52 wifi: ath11k: choose default PM policy for hibernation
+         3b199a58cc585f423a85af2e57045c9a783361bb Reapply "wifi: ath11k: restore country code during resume"
+         9872d580a9e5a81004b24fcb48fcbaab671f8d9d Merge branch 'ath-next'
+         4f407d4bcba18babd787097fa497c40824faeb09 Merge remote-tracking branch 'mhi/mhi-next'
+         ba613742db305037ca2193b2b552b769c4f2a5f7 Add localversion-wireless-testing-ath
          
+  - ref: refs/tags/ath-202503312147
+    old: 0000000000000000000000000000000000000000
+    new: ba613742db305037ca2193b2b552b769c4f2a5f7
