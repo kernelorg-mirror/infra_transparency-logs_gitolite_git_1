@@ -1,62 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4149307350425257227=="
+Content-Type: multipart/mixed; boundary="===============5465619566742778951=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 01 Apr 2025 09:11:37 -0000
-Message-Id: <174349869738.1105771.17248516596052171863@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 01 Apr 2025 09:12:02 -0000
+Message-Id: <174349872256.1106272.7403979891835486353@gitolite.kernel.org>
 
---===============4149307350425257227==
+--===============5465619566742778951==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: eb3fab0725b4e8b27280948db8997d6d2ae746cc
-    new: 6a2da70e9982fc9c9a81efc4111728461d193fb8
-    log: revlist-eb3fab0725b4-6a2da70e9982.txt
-  - ref: refs/heads/tip/urgent
-    old: 0e296b292485f006bcac588ccedf9480f1fd2380
-    new: 72f5501f84bdd5348a975f84b6d7729674b5bb31
+    old: 52067e9be53eea55613b6446ede54eb4c77ce37a
+    new: de0e56818055f057eb1e4d222ceb707fd004415b
     log: |
-         26d0b9bbc14494ce8d80b818a0b9c5d7c8154b40 Merge branch into tip/master: 'objtool/urgent'
-         80ca8e7142dba121f6c52f58e225e9d7d99532ad Merge branch into tip/master: 'perf/urgent'
-         b77e6225100121c8e140b6cf16e509487461d332 Merge branch into tip/master: 'sched/urgent'
-         72f5501f84bdd5348a975f84b6d7729674b5bb31 Merge branch into tip/master: 'x86/urgent'
+         de0e56818055f057eb1e4d222ceb707fd004415b 5.10-stable patches
          
 
---===============4149307350425257227==
+--===============5465619566742778951==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eb3fab0725b4-6a2da70e9982.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-c43970f764a6fef5027e5cd6f314cc285816e0e0 x86/nmi: Simplify unknown NMI panic handling
-7e707cd0bcf82633e3460138ebbfb24c77def1f6 x86/nmi: Consolidate NMI panic variables
-6ea31b825d1c167b82e1c5d5983c6e106e166a53 x86/nmi: Use a macro to initialize NMI descriptors
-d26858067cd3105e5720ca817df4afe050965c53 x86/nmi: Remove export of local_touch_nmi()
-46aaf25739255485644cbe1c6ba66b4928af6ecf x86/nmi: Fix comment in unknown_nmi_error()
-313bae27ae7e2922203d40c09e7b361b5104b467 x86/nmi: Improve and relocate NMI handler comments
-37097fb24eb392f21b6a342944f53500188f112d x86/nmi: Improve <asm/nmi.h> documentation
-5e0057a113eca7e97fd5089610d3497e558570fa x86/nmi: Add missing description x86_platform_ops::get_nmi_reason to <asm/x86_init.h>
-2f929388dfae6896660ac0375eb6d29556ea6323 x86/nmi: Clean up NMI selftest
-efb68463786ff08184ddccb34e55df91378923e5 x86/nmi: Improve NMI duration console printouts
-26d0b9bbc14494ce8d80b818a0b9c5d7c8154b40 Merge branch into tip/master: 'objtool/urgent'
-80ca8e7142dba121f6c52f58e225e9d7d99532ad Merge branch into tip/master: 'perf/urgent'
-b77e6225100121c8e140b6cf16e509487461d332 Merge branch into tip/master: 'sched/urgent'
-72f5501f84bdd5348a975f84b6d7729674b5bb31 Merge branch into tip/master: 'x86/urgent'
-e03d1cc086d28a4e9fd154266e85a22af29672cf Merge branch into tip/master: 'sched/core'
-3522f3e9d60c41cb2070199ed7999eba60d38f5b Merge branch into tip/master: 'x86/alternatives'
-cc8d676c6e7091a0b3a8b0202cea75793534de2d Merge branch into tip/master: 'x86/asm'
-fa51cf3019aeb229972c2de54f6d0b610ce4ece8 Merge branch into tip/master: 'x86/cpu'
-e9ab5d9018c5adcec32b8b2dfdd4fdd42cf589c6 Merge branch into tip/master: 'x86/fpu'
-3d76a34fa5ac2b6d9c35553a2695043d88b05175 Merge branch into tip/master: 'x86/kconfig'
-bebe995aac938adad31c6748c9724df3dc586656 Merge branch into tip/master: 'x86/mm'
-4968d2fb316e94128b71bd759fa82c6d82d44708 Merge branch into tip/master: 'x86/nmi'
-6a2da70e9982fc9c9a81efc4111728461d193fb8 Merge branch into tip/master: 'x86/tdx'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1743498667 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1743498720-f05e0274b532a353758dc12703ff8d6cba0abf8e
 
---===============4149307350425257227==--
+52067e9be53eea55613b6446ede54eb4c77ce37a de0e56818055f057eb1e4d222ceb707fd004415b refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfrrasbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CAQP/jVVou9Rlsx58frHVBOK
+dv5kkHaDODxKBzOHtAVuPgw38EC55mBZUI7DsGfj+e6v/ANIvKYeH9W8rA8scDn5
+HTokqOSDFJtDD/5qWpjdIwvXNAz03xs3Nio6rEilQt73jWfkAyEufTdmGGgdAAxM
+SYh5cFGTw0fvYE6L0FTXhz1Tip2SS5H0TMqFi/nDTuQjVBEcExBIpLKB7l2N/5nQ
+hcr9tSJWFEvyihThCazv6v2kh1rcF/Kyt1LqEPg1gaR/q03sTEWlCS2FThGNxQS5
++rx3bR+G87dO8LqM0/rhqQX1L8hgw+aZyGeuJzYesNxiTj0no/0TjOa0DaiZtAO6
+fSYDpfzmxI7v0nHygcB5pGyWzVGWIyfjnD70FrnaUUoH+IaXYuncLC8iP3zaPoky
+lkyr9Ch+4VU5Rbbbon0B+iJlZOPFqzRIOoBTCn2qk08yzkgxU1fN6Ma/nxgm3HT4
+xj4WhnP98kWFg7Sj+AQjYSWqxGFYUvAfh3WwUxU+MwmWikF1O4Yqd3K6tzweO/B1
+8HBbahLJRPsP2Wm08jeEkCJx3mcv0SvBd4oGWXlwLwxz++qtSIfRZMRavwF8iVkK
+POYdp2cE8YTJzppKS/qg+vWdHufxnXo+2o25jJYH4wWGV3kI3IfNvP/w7boXuG3b
+cbdgyfcpVIq+uK5X9fOQ+0WY
+=h3SM
+-----END PGP SIGNATURE-----
+
+--===============5465619566742778951==--
