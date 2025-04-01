@@ -1,49 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============1271479015128244296=="
+Content-Type: multipart/mixed; boundary="===============6315607157744168717=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 01 Apr 2025 02:49:33 -0000
-Message-Id: <174347577340.741851.1861196457183789208@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Tue, 01 Apr 2025 02:53:20 -0000
+Message-Id: <174347600062.745270.14539105651699063086@gitolite.kernel.org>
 
---===============1271479015128244296==
+--===============6315607157744168717==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/sj/damo
+user: sj
 changes:
   - ref: refs/heads/master
-    old: 609706855d90bcab6080ba2cd030b9af322a1f0c
-    new: 1e7857b28020ba57ca7fdafae7ac855ba326c697
-    log: revlist-609706855d90-1e7857b28020.txt
+    old: a020b17abf52e43addee803bcbf0f03904f44498
+    new: 206e370e316e438bd89f13d901870835e910c56a
+    log: revlist-a020b17abf52-206e370e316e.txt
+  - ref: refs/heads/next
+    old: 390ff87cccbf7cff16f8dfddefbabf098531e75b
+    new: 206e370e316e438bd89f13d901870835e910c56a
+    log: |
+         206e370e316e438bd89f13d901870835e910c56a Update the version
+         
+  - ref: refs/tags/v2.7.3
+    old: 0000000000000000000000000000000000000000
+    new: c3e1035708c8ab57748b6de4e1276eb53c113047
 
---===============1271479015128244296==
+--===============6315607157744168717==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-609706855d90-1e7857b28020.txt
+Content-Disposition: attachment; filename=revlist-a020b17abf52-206e370e316e.txt
 
-c73f0b69648501978e8b3e8fa7eef7f4197d0481 ring-buffer: Fix bytes_dropped calculation issue
-bcba8d4dbe6880ce9883409df486de35d3946704 ring-buffer: Use kaslr address instead of text delta
-4009cc31e7813ed66a04237ddff76706ff57a771 ring-buffer: Add buffer meta data for persistent ring buffer
-4af0a9c518522892b36cb7ecedf0c6004dc0a581 ring-buffer: Add ring_buffer_meta_scratch()
-b65334825fb14cae15e93d627c3cfc2986c7eea6 tracing: Have persistent trace instances save KASLR offset
-966b7d0e524da03a18ba1b111d0fa0d81e840f77 module: Add module_for_each_mod() function
-fd39e48fe8eddfa84a2dbaf468fde8c2b2679211 tracing: Have persistent trace instances save module addresses
-1bd25a6f7173c005844cd0076718b3c87bccd891 tracing: Show module names and addresses of last boot
-5f3719f697c3fdfae5cd6805f10ac7a04b0f4e43 tracing: Update modules to persistent instances when loaded
-74e2498ccf7b303e7fdd881f58a849e884afb486 mm/memblock: Add reserved memory release function
-fb6d03238e35f96cc1d6a5411ee1d684221d1c39 tracing: Freeable reserved ring buffer
-f00c9201f942dddb58617c881ffd4e4a1a1c49ab tracing: Fix a compilation error without CONFIG_MODULES
-5dbeb56bb9589e1051f6af6877cd375f3a901afb tracing: Initialize scratch_size to zero to prevent UB
-486fbcb3806c0c7a5dbeea326c4a146fd4ed4eff tracing: Skip update_last_data() if cleared and remove active check for save_mod()
-de48d7fff7b4668a61c3c1d13ca0f6a6b3995519 ring-buffer: Remove the unused variable bmeta
-35a380ddbc653c07ee64e2a74c274b9835b0efc2 tracing: Show last module text symbols in the stacktrace
-028a58ec154257e618c27fb0eba8d9e30379bc3d tracing: Use _text and the kernel offset in last_boot_info
-46d29f23a7213d3ce3925725057344a28f7de2b0 Merge tag 'trace-ringbuffer-v6.15-2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-1e7857b28020ba57ca7fdafae7ac855ba326c697 x86: don't re-generate cpufeaturemasks.h so eagerly
+63577fe587e46f3678dd5486bdabca7ddf2cb583 sort with node_id and start when collapse_ranges for memblock
+67e0f85d463cec8e9dd96c4ae268cebc201ffe8e _damon[_args]: support active type DAMOS filter
+dfcf45e938bc26dc58c650bab532310c46df4c95 remove --damos_filter_out option
+4abe462adc8934a1b5ef78c1cae4b8abca3d5d64 TODO: add an item for multiple ctx/kdamonds support from command line interface
+6f4a227f5776592c52cf075f6d5f4e46ff98b8ab implement help subcommand
+5aab006e416f04b601c4a05a3efd4296568cd2d4 release_note: update for next release
+65a7e64902e70e6fbd9992ea898b508e5b83047f _damon_args: suggest 'damo help' instead of 'damo args damon'
+4babd08f9b6e110c82ef5df0bea830be50de53db TODO: add an item for active page filter feature check
+afc19c894654dbfb0e8587a6ac730f80b5e0c57a _damon_args: split out misc DAMON parameters option from set_damon_params_argparser()
+66980803b05e1ddc545680b08f703610f44160d6 damo_help_damon_param_options: show only misc options for 'all' category
+4cd5dd5f80811ccd3aabb922f280eee27f0931d6 _damon_args: place --damos_wmarks at the end of DAMOS parameter options section
+5c4a47c0d4b0c497046b4068478a8f456ecbfbb5 TODO: remove single report formatter item
+fdcdb4e0e29f61525b2f3ccb5edd9d4b975a84df TODO: mark automatic damos filter translation as done
+355b931032c3551bd28b22289a533ccca8c1ad45 _damon_args: simplify intervals overriding
+390ff87cccbf7cff16f8dfddefbabf098531e75b _damon_args: simplify nr_regions overriding
+206e370e316e438bd89f13d901870835e910c56a Update the version
 
---===============1271479015128244296==--
+--===============6315607157744168717==--
