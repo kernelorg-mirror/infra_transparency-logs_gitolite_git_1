@@ -1,62 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============3110240810683628825=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Tue, 01 Apr 2025 15:06:33 -0000
-Message-Id: <174351999399.1411582.7805741123686024999@gitolite.kernel.org>
-
---===============3110240810683628825==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Tue, 01 Apr 2025 15:09:13 -0000
+Message-Id: <174352015377.1412913.9260644187599836761@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/master
-    old: 953681eee231bff84cd77fefc24dee7cc18ca9b0
-    new: 573c5bc2455d8567318ae897f763b5e372cea74f
+  - ref: refs/heads/main-pending
+    old: aadcc1f2ec3c02e80cb32027275a1fafa3bf6ed6
+    new: 8c4801f96cc2395bce51911b9a374aa71758fc4f
     log: |
-         e23608c51308e93eea71603d12ac2957f62f50cd add .vulnerable id for CVE-2024-53094
-         e6813864dbf470c34a378523c2c072dc8e1440e9 add .vulnerable id for CVE-2024-36026
-         b1f5c6342e1516ac7aa17f79b2241f2b9f09dcac add .vulnerable id for CVE-2022-49747
-         5c292b187d3c3a6ca11d53ba42fb3c7c99df9ea4 add .vulnerable id for CVE-2023-52990
-         59840c9496ff4d362c1ee9f66fed57f5d0eb649f add .vulnerable id for several amdkfd svm range CVEs
-         65491b2c4c938104f1fd80c29e66b6ba9a6ba766 add .vulnerable id for CVE-2025-21780
-         573c5bc2455d8567318ae897f763b5e372cea74f update the entries based on the new .vulnerable files
+         ce8669a27016354dfa8bf3c954255cb9f3583bae wifi: ath11k: determine PM policy based on machine model
+         3d2ce6ad9126b96a721542c6299a2f0967b5a63f wifi: ath11k: introduce ath11k_core_continue_suspend_resume()
+         662cc5b92c327e94587a959d7ed75862eda4b059 wifi: ath11k: refactor ath11k_core_suspend/_resume()
+         88fd03cf51a7d67dac976ecce079ccfc79376966 wifi: ath11k: support non-WoWLAN mode suspend as well
+         32d93b51bc7e2e557771abe4a88da69c609e3d52 wifi: ath11k: choose default PM policy for hibernation
+         3b199a58cc585f423a85af2e57045c9a783361bb Reapply "wifi: ath11k: restore country code during resume"
+         9872d580a9e5a81004b24fcb48fcbaab671f8d9d Merge branch 'ath-next'
+         4f407d4bcba18babd787097fa497c40824faeb09 Merge remote-tracking branch 'mhi/mhi-next'
+         ba613742db305037ca2193b2b552b769c4f2a5f7 Add localversion-wireless-testing-ath
+         221e0b95ea29e4552ee3ae7299208b3e9d467750 wifi: ath12k: Fix memory leak due to multiple rx_stats allocation
+         8c4801f96cc2395bce51911b9a374aa71758fc4f Merge branch 'pending' into main-pending
          
-
---===============3110240810683628825==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1743519936 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1743519990-fd33beeef5585629d013daf85f5936ccc53035c7
-
-953681eee231bff84cd77fefc24dee7cc18ca9b0 573c5bc2455d8567318ae897f763b5e372cea74f refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfsAMAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mlIP/2YXLQJs+mMJfxuSs20z
-42tZdZhESrexzEWcRChheB2AryQNuccNQV+DmBK+H0laCmbzRC+rsYMvw/DERZvK
-m5dt08JsY+U0cW8hQDvDWyMd9+OzmiOLcGXR/kcMLa2GvasLS0oDlBtE08R0fef/
-QsiejhWAzxvyxlMkflS1UPwTa4KBm6/uNrAgcUPZwtirLhORD3DzCQWMU0Iokbmm
-rvPTWOQ0+h513aYvm3JhgdkJ9sDGFPaasrmBDmDJHCwQ3yY1waN1Ms9BTuW+r/pd
-z5NguSHalI9ZnYhfdLTsTgucm55vHeGW6QZsdLy+l5GbJTgnzxrRidfq1As81Vlj
-a3+4dYxfijM96aOJNVH+DEkSbATEftX3PfAgpBIeGLutMMw9WZulchgedp7Gg468
-0OMXApLTbQoynL3OI7ftptWDozkKBJ+csEbGZaZcFa+dZI5FPttH/HFeWW3QzHiA
-LnJCu7BDD+U/lesFxrP3/5dzpWvxB4PRWPs8jZdlScN8PnnhIXsGC5w2VMhDj3iL
-J1ZjvV0zM8mQdIf3sCRtc5OleZhICtiAJ/DvwMNVK8Yn6YeiJnd4vhYupomNsq/R
-alSF8C7s4UwtJQh+XxucpFfMkoGbRaxMOV0vzd+9pCqdLOYIU4lu8wKtFFwWpzEI
-SoNq/bM8BwUqAZ2X5WceKdgG
-=fYXc
------END PGP SIGNATURE-----
-
---===============3110240810683628825==--
+  - ref: refs/tags/ath-pending-202504011440
+    old: 0000000000000000000000000000000000000000
+    new: 8c4801f96cc2395bce51911b9a374aa71758fc4f
