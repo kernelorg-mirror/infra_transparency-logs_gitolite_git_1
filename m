@@ -1,370 +1,313 @@
-Content-Type: multipart/mixed; boundary="===============8945804573236535310=="
+Content-Type: multipart/mixed; boundary="===============6644388590575733038=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djwong/xfsprogs-dev
-Date: Tue, 01 Apr 2025 14:39:52 -0000
-Message-Id: <174351839245.1386399.1637398552147637007@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djwong/xfstests-dev
+Date: Tue, 01 Apr 2025 14:40:27 -0000
+Message-Id: <174351842797.1388557.5916988633530129682@gitolite.kernel.org>
 
---===============8945804573236535310==
+--===============6644388590575733038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djwong/xfsprogs-dev
+repo: pub/scm/linux/kernel/git/djwong/xfstests-dev
 user: djwong
 changes:
+  - ref: refs/heads/capture-mount-failures
+    old: 04a109a6ddd63df48bc68c16ea905394689514de
+    new: 23009383288c5a2ae0dff0e68fef76f4e1f6e094
+    log: revlist-04a109a6ddd6-23009383288c.txt
   - ref: refs/heads/djwong-wtf
-    old: 7e9cfe66a68ade6e4cfff17d276dfba2d41478e0
-    new: cbc547a323b0135d577bec44199cd180e5871d26
-    log: revlist-7e9cfe66a68a-cbc547a323b0.txt
-  - ref: refs/heads/for-next
-    old: c34735adb5116b4edae110d788c44d2462017765
-    new: 8cd85addd72f1f6e569bd286f6a44dfce90355f1
-    log: revlist-c34735adb511-8cd85addd72f.txt
+    old: 5e2ec014998a31bd3d368a78e7db547d6e5a3b3b
+    new: e580a54a8c13b499af4f2ae439c7d83cd82ccf55
+    log: revlist-5e2ec014998a-e580a54a8c13.txt
+  - ref: refs/heads/fuzz-baseline
+    old: 265ba8f7b58c0df67240d16a4fe2017329936e78
+    new: ad403d416834f0036fac826869bc314742407dd9
+    log: revlist-265ba8f7b58c-ad403d416834.txt
   - ref: refs/heads/health-monitoring
-    old: f5611e98af6abbc6d3f3689f8934589c76259858
-    new: 4457f705aa4183a9793ce3c9c09b8e1ce9cf7657
-    log: revlist-f5611e98af6a-4457f705aa41.txt
-  - ref: refs/heads/health-monitoring-rust
-    old: b724904ca93bea0388854e6712481ed34d041342
-    new: fb3705bc61ab8741183c7b8da5be04b34df98a46
-    log: revlist-b724904ca93b-fb3705bc61ab.txt
-  - ref: refs/heads/localization
-    old: e2bb94f816bad030cdb42f8e44b952d569cc0e6a
-    new: cf7f33332ffd04126b7fbd03afc3a77520e68ca1
-    log: revlist-e2bb94f816ba-cf7f33332ffd.txt
+    old: c4c48e361b46a9d1352636f8db2a1c66a26c4cfd
+    new: 99b6384eb025efc3e472248cf3004a47257d8395
+    log: revlist-c4c48e361b46-99b6384eb025.txt
+  - ref: refs/heads/logwrites-fix-zeroing
+    old: 024b86862e9878d43453aa5e36724b5d3726c8ba
+    new: 22f786e8fa994b2bd06202366bb1e08dfae214dc
+    log: |
+         b6ecb3a82aed7c628cd82b047226645663314a12 logwrites: warn if we don't think read after discard returns zeroes
+         e5728504f8474da566e83e376209f4404662a2bd logwrites: use BLKZEROOUT if it's available
+         22f786e8fa994b2bd06202366bb1e08dfae214dc logwrites: only use BLKDISCARD if we know discard zeroes data
+         
   - ref: refs/heads/upgrade-newer-features
-    old: 9e7b3c3ddb67afe1e3dfffe07592cc106a9ab523
-    new: 6169cb97a7656851abe8b4750e3eba115002dbe6
-    log: revlist-9e7b3c3ddb67-6169cb97a765.txt
-  - ref: refs/tags/origin/for-next_2025-04-01
+    old: ab875df27bbef9c623248c58d108242b01cfbbf9
+    new: 39c245fc7d8832a754d0b9ac856628f32bcd7b5b
+    log: revlist-ab875df27bbe-39c245fc7d88.txt
+  - ref: refs/heads/upgrade-older-features
+    old: 91a35a6c57e8d6fca51c379b13efc40c73c272ca
+    new: cfc977b9aa6f2404b80100a2d2d5f6dbd734868c
+    log: |
+         b6ecb3a82aed7c628cd82b047226645663314a12 logwrites: warn if we don't think read after discard returns zeroes
+         e5728504f8474da566e83e376209f4404662a2bd logwrites: use BLKZEROOUT if it's available
+         22f786e8fa994b2bd06202366bb1e08dfae214dc logwrites: only use BLKDISCARD if we know discard zeroes data
+         cfc977b9aa6f2404b80100a2d2d5f6dbd734868c xfs: test upgrading old features
+         
+  - ref: refs/heads/zoned
+    old: a0822bb1fb2148866c91325906520b798731bda1
+    new: 4d66fe780e4f23ad1da140b8f6bee7df97c1296f
+    log: revlist-a0822bb1fb21-4d66fe780e4f.txt
+  - ref: refs/tags/logwrites-fix-zeroing_2025-04-01
     old: 0000000000000000000000000000000000000000
-    new: b4237312c44fef3c13d2727b9279bffefa04db1b
-  - ref: refs/tags/localization_2025-04-01
+    new: 8a9c2bb22912fc08c5ec9b3681f6df84d92d1b37
+  - ref: refs/tags/upgrade-older-features_2025-04-01
     old: 0000000000000000000000000000000000000000
-    new: b3a2fb53b2b8f81b44c16f1f9e821b32d66bc4ce
+    new: e41098c38920511274e3fab1dff3f2720e738e25
+  - ref: refs/tags/zoned_2025-04-01
+    old: 0000000000000000000000000000000000000000
+    new: b858d59a388bea15700a8f49b03fc58e7d5d6fe0
+  - ref: refs/tags/capture-mount-failures_2025-04-01
+    old: 0000000000000000000000000000000000000000
+    new: 5aa1b3b4f71a9c0008972d0150c1cd7fef53ccd0
   - ref: refs/tags/health-monitoring_2025-04-01
     old: 0000000000000000000000000000000000000000
-    new: a77310a82c73953433b3be9c37369abead3aef2d
-  - ref: refs/tags/health-monitoring-rust_2025-04-01
-    old: 0000000000000000000000000000000000000000
-    new: aa9fdd6a2cd77e8be40f16cc737cdef144463e46
+    new: b98bb3a6a2e93fb781ac37fbb5ab812e51766427
   - ref: refs/tags/upgrade-newer-features_2025-04-01
     old: 0000000000000000000000000000000000000000
-    new: de187afe19a55038626853c5b102888180a27c11
+    new: 4f88edc781833c8ca6ff063195dcc58af31cee3e
+  - ref: refs/tags/fuzz-baseline_2025-04-01
+    old: 0000000000000000000000000000000000000000
+    new: f901c827d30612353667a5ae603d446acf455638
   - ref: refs/tags/djwong-wtf_2025-04-01
     old: 0000000000000000000000000000000000000000
-    new: 9f9b0320b2013824aef965004563f59082912a80
+    new: f0978c89662eab4efb58bd3dfc72dabe8026691f
 
---===============8945804573236535310==
+--===============6644388590575733038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7e9cfe66a68a-cbc547a323b0.txt
+Content-Disposition: attachment; filename=revlist-04a109a6ddd6-23009383288c.txt
 
-d2d034be62f490af3bb5381930462ad377e24a35 make: remove the .extradep file in libxfs on "make clean"
-c2dcf4a8a3a561b12e81795de7c0e49eeaffe671 xfs_io: Add support for preadv2
-92c62bdfa1d206f97b9baba7c1894f1b65896de1 xfs_io: Add RWF_DONTCACHE support to pwritev2
-840b472675eddf12e405d8821185439a4cf5fa6c xfs_io: Add RWF_DONTCACHE support to preadv2
-2d5aa51bee121208da9c11be6d14c463c5661d26 xfs_io: Add cachestat syscall support
-e6caefbdcf10b3c74d26c02c454c9e4134850f95 xfs_repair: fix wording of error message about leftover CoW blocks on the rt device
-28db545be050f4571e9bf642133c1b969091f82c xfs_repair: don't recreate /quota metadir if there are no quota inodes
-b26d16875213a6a25cc9194d45e4547a42ded5e1 xfs_repair: fix crash in reset_rt_metadir_inodes
-bbd8ba73e64b43b29e96b813173aafd6da4ab1fc xfs_repair: fix infinite loop in longform_dir2_entry_check*
-06adb3cb38beb304b7b1f002de95e59cfa9098fb xfs_repair: fix stupid argument error in verify_inode_chunk
-0b4156b99b2a5af1fdb04ad26911520d41b9ce87 xfs: Use abs_diff instead of XFS_ABSDIFF
-8cd85addd72f1f6e569bd286f6a44dfce90355f1 xfs_repair: handling a block with bad crc, bad uuid, and bad magic number needs fixing
-5dde71f07fa06d81e416e9fb7450aec433bd1cb1 xfs_protofile: rename source code to .py.in
-baba1934e818f001771b56051f7b9fa61a983185 xfs_scrub_all: rename source code to .py.in
-7eb9140ba995c0cddb86ca5ea35a73c3d874a629 Makefile: inject package name/version/bugreport into pot file
-60703cb53d1c859a11be04ff01d7be3135328432 xfs_protofile: add messages to localization catalog
-cf7f33332ffd04126b7fbd03afc3a77520e68ca1 xfs_scrub_all: localize the strings in the program
-095aa3f608cd5a31f7492062fd131d5990aff0ec xfs: create hooks for monitoring health updates
-20559e082e93448fc7b6abfff623261613c8a460 xfs: create a special file to pass filesystem health to userspace
-d29bbafc3615a32451ff515f9419f4e83020fe77 xfs: create event queuing, formatting, and discovery infrastructure
-7bec47b505ed98e620ae121bb51d513a421be658 xfs: report metadata health events through healthmon
-bc16960042a00d61508aeb08576a4eee32543807 xfs: report shutdown events through healthmon
-a72ec765fb5e000cee53af6490f3863193cc2883 xfs: report media errors through healthmon
-73963eed54731c479c6348dadd3ad4f21b107f1d xfs: report file io errors through healthmon
-ec0a71516cb083f5d34bd32b2a5b40310b36c59d xfs: add media error reporting ioctl
-d99156d4e48ab2bde00e4ef01c7ada27d2371cd1 xfs_io: monitor filesystem health events
-b6bb1b34861805c6d647cb5d925295edf5084a52 xfs_io: add a media error reporting command
-3173c037b03d7bffaa318f680d1cbf8bc527b70a xfs_healer: create daemon to listen for health events
-2751438142daef3e77156a5e09980c4d420f085a xfs_healer: check events against schema
-11bd5907f6853c3660a58a38f8170019e93af7d0 xfs_healer: enable repairing filesystems
-7f39f599b0e61b16849e348cb2b6be571761da85 xfs_healer: check for fs features needed for effective repairs
-af5e98e6c4eb77992a774baf5d803b37ce8ee401 xfs_healer: use getparents to look up file names
-9e27a210cd7c885040d650f41df2c96da1980e5c builddefs: refactor udev directory specification
-846043694e5ea409e989614a7177fdffc105baba xfs_healer: create a background monitoring service
-e150f9671b282b54ba36b2047b74d1b87e1048fb xfs_healer: don't start service if kernel support unavailable
-5b955251c7cf5427e534d6e1d1bf086a2ba3f7f0 xfs_healer: use the autofsck fsproperty to select mode
-d7ec3a302ea10e76719a23e5652cd56d5068c427 xfs_healer: run full scrub after lost corruption events or targeted repair failure
-4e97f671066f9d9b955186c43e335c0ebeed2aea xfs_healer: add a manual page
-985e4e212fa10c4ba14339ba4779685350576295 xfs_scrub: report media scrub failures to the kernel
-4457f705aa4183a9793ce3c9c09b8e1ce9cf7657 debian: enable xfs_healer on the root filesystem by default
-fdb9ccdd9c0f8d395d6b6f58fee3f6d9c117bfb0 xfs_healer: start building a Rust version
-29f5f17711a4ed902f7f8fa08c15a90fe9f20299 xfs_healer: enable gettext for localization
-cf807767f0411d33ab64ea7389eb06e7af2f20ee xfs_healer: bindgen xfs_fs.h
-a786289817adb4a2198be0df80c38dced53b8f5c xfs_healer: define Rust objects for health events and kernel interface
-8e3ba88e6dddd98a4e931eb240c18346ecab8e08 xfs_healer: read binary health events from the kernel
-a05ef6c66a391cdc6d0fab045ab81396b7444ea9 xfs_healer: read json health events from the kernel
-9f0a61dabed81494be9eb3f2956bfa1fa4d765ee xfs_healer: create a weak file handle so we don't pin the mount
-73d695f3963d3c80b2ccd7b1211005bb495486c9 xfs_healer: fix broken filesystem metadata
-c3aaa1d47fbad3bdea379f9b96e8086aa399625f xfs_healer: check for fs features needed for effective repairs
-7e436ae0c0f264fa85968c34af5f82f9d9943235 xfs_healer: use getparents to look up file names
-a211b52e0fd3f7335a088ddae59e3590f733b12f xfs_healer: make the rust program check if kernel support available
-dc7fb14234993dbe11e1a3831fcbad2e4bcb3238 xfs_healer: use the autofsck fsproperty to select mode
-06b538ef01c7b4ccfb66323d08e1a01f844fb77c xfs_healer: use rc on the mountpoint instead of lifetime annotations
-b4934e7381befb821d68513342f64ae5ca24e255 xfs_healer: use thread pools
-6173e7faf27d06f617bb89be314aef72ed5064b6 xfs_healer: run full scrub after lost corruption events or targeted repair failure
-6801eacee0dfcb2ab366d5e0b9006ce8161ce9ca debian/control: listify the build dependencies
-fb3705bc61ab8741183c7b8da5be04b34df98a46 debian/control: pull in build dependencies for xfs_healer
-541c3b680b798a432b1bfa596d870965801f8c6d xfs_repair: allow sysadmins to add free inode btree indexes
-a6c729677e977afba88daee3962b6b830fa9cde9 xfs_repair: allow sysadmins to add reflink
-d8b2ee95fa79067f6ac48f67e734b0f9902b3451 xfs_repair: allow sysadmins to add reverse mapping indexes
-b4030ba73948192ff73c7f320e47cd25e6a2cb59 xfs_repair: upgrade an existing filesystem to have parent pointers
-0e97b60071f8e90396d9b6acd6b7019f14790552 xfs_repair: allow sysadmins to add metadata directories
-6b67ff6b7e04b18993f5014f785b0022fb759dae xfs_repair: upgrade filesystems to support rtgroups when adding metadir
-1d6e35016351dad203c072dc9f29b4b8ad77110f xfs_repair: allow sysadmins to add realtime reverse mapping indexes
-7eac353c7205d2f83082a835e106913627233b3c xfs_repair: allow sysadmins to add realtime reflink
-a2acc6c4ef83315aeefb7dd855104ae7bb2645fb xfs_repair: skip free space checks when upgrading
-6169cb97a7656851abe8b4750e3eba115002dbe6 xfs_repair: allow adding rmapbt to reflink filesystems
-e8d2d2beb2e766658ef6ed963e8507ec776aae5e mkfs: allow specification of default options via configuration file
-41aa0699ae4ce26449c13ec820dcd57e825f4f13 xfs: upgrade filesystem features
-8b757a6d4926552fac0d5052f174b867b958fa1c debug xfs/422 rmap shutdowns
-dbeef396dcd09bf71263c1e60ddc7ad2fa756111 xfs_scrub: retry threaded phase4 repairs
-bf504bcc21bc717cbe246602686d2430f044100c xfs_scrub: quiet down unicrash warnings about weird names
-4dc30ff9150e3d0d2c5d232a8001aafdd2bbc583 xfs_scrub: complain about case-insensitive names
-cbc547a323b0135d577bec44199cd180e5871d26 xfs_scrub/healer: enable everything via a systemd preset file
+b6ecb3a82aed7c628cd82b047226645663314a12 logwrites: warn if we don't think read after discard returns zeroes
+e5728504f8474da566e83e376209f4404662a2bd logwrites: use BLKZEROOUT if it's available
+22f786e8fa994b2bd06202366bb1e08dfae214dc logwrites: only use BLKDISCARD if we know discard zeroes data
+cfc977b9aa6f2404b80100a2d2d5f6dbd734868c xfs: test upgrading old features
+f716ae71a0a0e585add6626c83074db891897312 common: support internal RT device in _require_realtime
+dfd2a2de42ac47f24070332af6c97a78a8a6c519 common: support internal RT devices in scratch_mkfs_sized
+72d7a3a10cefcdf3bd662db6e53d49689c274ee4 xfs: check for zoned-specific errors in _try_scratch_mkfs_xfs
+eb039ebc95cb61c37249aceb042798dd0db52644 common: notrun in mkfs_dev for too small zoned file systems
+0f955e10d46daf1e81b4341d652e762f7349cec2 xfs: skip various tests on zoned devices
+6966b81fb0154409fd803f2b32f6b23edaf1eb7e xfs: add a zoned growfs test
+88432a970e2ac7c14c8f78761b701e30d4aa7ac6 xfs: add a test for zoned block accounting after remount
+dc12d2c568070f032f9a2a47d86a5ef2663b2224 xfs: add test to check for block layer reordering
+72bb5081f6027a9a5d32238daa52562df8b3be7d xfs: add a test to check that data growfs fails with internal rt device
+9eb9c74870b90a1b8b3cecb571ad10413dae3da1 add a new rw_hint helper
+5ed33a9de770f425e91033818647786d35123e9c xfs: add a test for write lifetime hints
+b321664ff056d79eeaed80c7c7f71df5e3d9ad2f xfs: add a test for writeback after close
+65476c4babe596ecd0992c77ca03f415ae11f64c xfs: test zone stream separation for two direct writers
+9fa039259d76ea25f7a1efbdb91f7b7bd89efc5f xfs: test zone stream separation for two buffered writers
+90bc1ab55ab1ab83cf256ee3b2aae0552119c4f1 xfs: test zoned ENOSPC behavior with multiple writers
+05731f2a94d8f4673557d880eb2c02b7d140b41b xfs: test zoned GC file defragmentation for sequential writers
+8dfcb751b613f1e437e8746366b604ac41aa8fb6 xfs: test zoned GC file defragmentation for random writers
+a9a665e0ce82d33eb83a29f55697d65a1515eb75 xfs: test that xfs_repair does not mess up the zone used counter
+4d66fe780e4f23ad1da140b8f6bee7df97c1296f xfs: test that truncate does not spuriously return ENOSPC
+c024c10bd6e6957c6a7f824aea9d7d549f6dde2a treewide: convert all $MOUNT_PROG to _mount
+23009383288c5a2ae0dff0e68fef76f4e1f6e094 check: capture dmesg of mount failures if test fails
 
---===============8945804573236535310==
+--===============6644388590575733038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c34735adb511-8cd85addd72f.txt
+Content-Disposition: attachment; filename=revlist-5e2ec014998a-e580a54a8c13.txt
 
-d2d034be62f490af3bb5381930462ad377e24a35 make: remove the .extradep file in libxfs on "make clean"
-c2dcf4a8a3a561b12e81795de7c0e49eeaffe671 xfs_io: Add support for preadv2
-92c62bdfa1d206f97b9baba7c1894f1b65896de1 xfs_io: Add RWF_DONTCACHE support to pwritev2
-840b472675eddf12e405d8821185439a4cf5fa6c xfs_io: Add RWF_DONTCACHE support to preadv2
-2d5aa51bee121208da9c11be6d14c463c5661d26 xfs_io: Add cachestat syscall support
-e6caefbdcf10b3c74d26c02c454c9e4134850f95 xfs_repair: fix wording of error message about leftover CoW blocks on the rt device
-28db545be050f4571e9bf642133c1b969091f82c xfs_repair: don't recreate /quota metadir if there are no quota inodes
-b26d16875213a6a25cc9194d45e4547a42ded5e1 xfs_repair: fix crash in reset_rt_metadir_inodes
-bbd8ba73e64b43b29e96b813173aafd6da4ab1fc xfs_repair: fix infinite loop in longform_dir2_entry_check*
-06adb3cb38beb304b7b1f002de95e59cfa9098fb xfs_repair: fix stupid argument error in verify_inode_chunk
-0b4156b99b2a5af1fdb04ad26911520d41b9ce87 xfs: Use abs_diff instead of XFS_ABSDIFF
-8cd85addd72f1f6e569bd286f6a44dfce90355f1 xfs_repair: handling a block with bad crc, bad uuid, and bad magic number needs fixing
+b6ecb3a82aed7c628cd82b047226645663314a12 logwrites: warn if we don't think read after discard returns zeroes
+e5728504f8474da566e83e376209f4404662a2bd logwrites: use BLKZEROOUT if it's available
+22f786e8fa994b2bd06202366bb1e08dfae214dc logwrites: only use BLKDISCARD if we know discard zeroes data
+cfc977b9aa6f2404b80100a2d2d5f6dbd734868c xfs: test upgrading old features
+f716ae71a0a0e585add6626c83074db891897312 common: support internal RT device in _require_realtime
+dfd2a2de42ac47f24070332af6c97a78a8a6c519 common: support internal RT devices in scratch_mkfs_sized
+72d7a3a10cefcdf3bd662db6e53d49689c274ee4 xfs: check for zoned-specific errors in _try_scratch_mkfs_xfs
+eb039ebc95cb61c37249aceb042798dd0db52644 common: notrun in mkfs_dev for too small zoned file systems
+0f955e10d46daf1e81b4341d652e762f7349cec2 xfs: skip various tests on zoned devices
+6966b81fb0154409fd803f2b32f6b23edaf1eb7e xfs: add a zoned growfs test
+88432a970e2ac7c14c8f78761b701e30d4aa7ac6 xfs: add a test for zoned block accounting after remount
+dc12d2c568070f032f9a2a47d86a5ef2663b2224 xfs: add test to check for block layer reordering
+72bb5081f6027a9a5d32238daa52562df8b3be7d xfs: add a test to check that data growfs fails with internal rt device
+9eb9c74870b90a1b8b3cecb571ad10413dae3da1 add a new rw_hint helper
+5ed33a9de770f425e91033818647786d35123e9c xfs: add a test for write lifetime hints
+b321664ff056d79eeaed80c7c7f71df5e3d9ad2f xfs: add a test for writeback after close
+65476c4babe596ecd0992c77ca03f415ae11f64c xfs: test zone stream separation for two direct writers
+9fa039259d76ea25f7a1efbdb91f7b7bd89efc5f xfs: test zone stream separation for two buffered writers
+90bc1ab55ab1ab83cf256ee3b2aae0552119c4f1 xfs: test zoned ENOSPC behavior with multiple writers
+05731f2a94d8f4673557d880eb2c02b7d140b41b xfs: test zoned GC file defragmentation for sequential writers
+8dfcb751b613f1e437e8746366b604ac41aa8fb6 xfs: test zoned GC file defragmentation for random writers
+a9a665e0ce82d33eb83a29f55697d65a1515eb75 xfs: test that xfs_repair does not mess up the zone used counter
+4d66fe780e4f23ad1da140b8f6bee7df97c1296f xfs: test that truncate does not spuriously return ENOSPC
+c024c10bd6e6957c6a7f824aea9d7d549f6dde2a treewide: convert all $MOUNT_PROG to _mount
+23009383288c5a2ae0dff0e68fef76f4e1f6e094 check: capture dmesg of mount failures if test fails
+870a1cc8cc1542a05645628e8e7849fe3b478944 xfs: test health monitoring code
+3263c60ed8805d7e9fc5edc89538badadb849ae0 xfs: test for metadata corruption error reporting via healthmon
+b7f2ee39725c0af3a9780109860fd09bd3492a03 xfs: test io error reporting via healthmon
+99b6384eb025efc3e472248cf3004a47257d8395 xfs: test new xfs_healer daemon
+a2dcc40d8e5a1bf4d845450e405ec047977ada8e xfs/1856: add metadir upgrade to test matrix
+c312ec304dd65b8be1e301075176115a20320bf4 xfs/1856: add rtrmapbt upgrade to test matrix
+39c245fc7d8832a754d0b9ac856628f32bcd7b5b xfs/1856: add rtreflink upgrade to test matrix
+51b892d2ce32275cc91222c0585293fbaae87638 xfs: online fuzz test known output
+e5476ebba78ec17287d05e5a8506f78960ceb7a9 xfs: offline fuzz test known output
+363ca4d9959ef2c1fccdc33b09448b9235c3747c xfs: norepair fuzz test known output
+ad403d416834f0036fac826869bc314742407dd9 xfs: bothrepair fuzz test known output
+e8a3ed47b49a1ce5eee8aefe50c7b3f5852dc228 debug some arm problem
+d56a8f4a3cb8107a20724f62673902a8941e7487 generic/230: extend grace period to 6 seconds
+daa3e708799bc0cc971cf24196d038c40da106cc does this fix the writeback invalidation test on arm64?
+94683502afff742a48168379233d46651ff83d0d force local definition until we stabilize abi
+ad870941698b65f3b1c9478532ed177289740ee6 revert commit 790f4d8444fa4b ("xfs: new EOF fragmentation tests")
+e580a54a8c13b499af4f2ae439c7d83cd82ccf55 selftest: add tests for dmesg and mount failure collection
 
---===============8945804573236535310==
+--===============6644388590575733038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f5611e98af6a-4457f705aa41.txt
+Content-Disposition: attachment; filename=revlist-265ba8f7b58c-ad403d416834.txt
 
-d2d034be62f490af3bb5381930462ad377e24a35 make: remove the .extradep file in libxfs on "make clean"
-c2dcf4a8a3a561b12e81795de7c0e49eeaffe671 xfs_io: Add support for preadv2
-92c62bdfa1d206f97b9baba7c1894f1b65896de1 xfs_io: Add RWF_DONTCACHE support to pwritev2
-840b472675eddf12e405d8821185439a4cf5fa6c xfs_io: Add RWF_DONTCACHE support to preadv2
-2d5aa51bee121208da9c11be6d14c463c5661d26 xfs_io: Add cachestat syscall support
-e6caefbdcf10b3c74d26c02c454c9e4134850f95 xfs_repair: fix wording of error message about leftover CoW blocks on the rt device
-28db545be050f4571e9bf642133c1b969091f82c xfs_repair: don't recreate /quota metadir if there are no quota inodes
-b26d16875213a6a25cc9194d45e4547a42ded5e1 xfs_repair: fix crash in reset_rt_metadir_inodes
-bbd8ba73e64b43b29e96b813173aafd6da4ab1fc xfs_repair: fix infinite loop in longform_dir2_entry_check*
-06adb3cb38beb304b7b1f002de95e59cfa9098fb xfs_repair: fix stupid argument error in verify_inode_chunk
-0b4156b99b2a5af1fdb04ad26911520d41b9ce87 xfs: Use abs_diff instead of XFS_ABSDIFF
-8cd85addd72f1f6e569bd286f6a44dfce90355f1 xfs_repair: handling a block with bad crc, bad uuid, and bad magic number needs fixing
-5dde71f07fa06d81e416e9fb7450aec433bd1cb1 xfs_protofile: rename source code to .py.in
-baba1934e818f001771b56051f7b9fa61a983185 xfs_scrub_all: rename source code to .py.in
-7eb9140ba995c0cddb86ca5ea35a73c3d874a629 Makefile: inject package name/version/bugreport into pot file
-60703cb53d1c859a11be04ff01d7be3135328432 xfs_protofile: add messages to localization catalog
-cf7f33332ffd04126b7fbd03afc3a77520e68ca1 xfs_scrub_all: localize the strings in the program
-095aa3f608cd5a31f7492062fd131d5990aff0ec xfs: create hooks for monitoring health updates
-20559e082e93448fc7b6abfff623261613c8a460 xfs: create a special file to pass filesystem health to userspace
-d29bbafc3615a32451ff515f9419f4e83020fe77 xfs: create event queuing, formatting, and discovery infrastructure
-7bec47b505ed98e620ae121bb51d513a421be658 xfs: report metadata health events through healthmon
-bc16960042a00d61508aeb08576a4eee32543807 xfs: report shutdown events through healthmon
-a72ec765fb5e000cee53af6490f3863193cc2883 xfs: report media errors through healthmon
-73963eed54731c479c6348dadd3ad4f21b107f1d xfs: report file io errors through healthmon
-ec0a71516cb083f5d34bd32b2a5b40310b36c59d xfs: add media error reporting ioctl
-d99156d4e48ab2bde00e4ef01c7ada27d2371cd1 xfs_io: monitor filesystem health events
-b6bb1b34861805c6d647cb5d925295edf5084a52 xfs_io: add a media error reporting command
-3173c037b03d7bffaa318f680d1cbf8bc527b70a xfs_healer: create daemon to listen for health events
-2751438142daef3e77156a5e09980c4d420f085a xfs_healer: check events against schema
-11bd5907f6853c3660a58a38f8170019e93af7d0 xfs_healer: enable repairing filesystems
-7f39f599b0e61b16849e348cb2b6be571761da85 xfs_healer: check for fs features needed for effective repairs
-af5e98e6c4eb77992a774baf5d803b37ce8ee401 xfs_healer: use getparents to look up file names
-9e27a210cd7c885040d650f41df2c96da1980e5c builddefs: refactor udev directory specification
-846043694e5ea409e989614a7177fdffc105baba xfs_healer: create a background monitoring service
-e150f9671b282b54ba36b2047b74d1b87e1048fb xfs_healer: don't start service if kernel support unavailable
-5b955251c7cf5427e534d6e1d1bf086a2ba3f7f0 xfs_healer: use the autofsck fsproperty to select mode
-d7ec3a302ea10e76719a23e5652cd56d5068c427 xfs_healer: run full scrub after lost corruption events or targeted repair failure
-4e97f671066f9d9b955186c43e335c0ebeed2aea xfs_healer: add a manual page
-985e4e212fa10c4ba14339ba4779685350576295 xfs_scrub: report media scrub failures to the kernel
-4457f705aa4183a9793ce3c9c09b8e1ce9cf7657 debian: enable xfs_healer on the root filesystem by default
+b6ecb3a82aed7c628cd82b047226645663314a12 logwrites: warn if we don't think read after discard returns zeroes
+e5728504f8474da566e83e376209f4404662a2bd logwrites: use BLKZEROOUT if it's available
+22f786e8fa994b2bd06202366bb1e08dfae214dc logwrites: only use BLKDISCARD if we know discard zeroes data
+cfc977b9aa6f2404b80100a2d2d5f6dbd734868c xfs: test upgrading old features
+f716ae71a0a0e585add6626c83074db891897312 common: support internal RT device in _require_realtime
+dfd2a2de42ac47f24070332af6c97a78a8a6c519 common: support internal RT devices in scratch_mkfs_sized
+72d7a3a10cefcdf3bd662db6e53d49689c274ee4 xfs: check for zoned-specific errors in _try_scratch_mkfs_xfs
+eb039ebc95cb61c37249aceb042798dd0db52644 common: notrun in mkfs_dev for too small zoned file systems
+0f955e10d46daf1e81b4341d652e762f7349cec2 xfs: skip various tests on zoned devices
+6966b81fb0154409fd803f2b32f6b23edaf1eb7e xfs: add a zoned growfs test
+88432a970e2ac7c14c8f78761b701e30d4aa7ac6 xfs: add a test for zoned block accounting after remount
+dc12d2c568070f032f9a2a47d86a5ef2663b2224 xfs: add test to check for block layer reordering
+72bb5081f6027a9a5d32238daa52562df8b3be7d xfs: add a test to check that data growfs fails with internal rt device
+9eb9c74870b90a1b8b3cecb571ad10413dae3da1 add a new rw_hint helper
+5ed33a9de770f425e91033818647786d35123e9c xfs: add a test for write lifetime hints
+b321664ff056d79eeaed80c7c7f71df5e3d9ad2f xfs: add a test for writeback after close
+65476c4babe596ecd0992c77ca03f415ae11f64c xfs: test zone stream separation for two direct writers
+9fa039259d76ea25f7a1efbdb91f7b7bd89efc5f xfs: test zone stream separation for two buffered writers
+90bc1ab55ab1ab83cf256ee3b2aae0552119c4f1 xfs: test zoned ENOSPC behavior with multiple writers
+05731f2a94d8f4673557d880eb2c02b7d140b41b xfs: test zoned GC file defragmentation for sequential writers
+8dfcb751b613f1e437e8746366b604ac41aa8fb6 xfs: test zoned GC file defragmentation for random writers
+a9a665e0ce82d33eb83a29f55697d65a1515eb75 xfs: test that xfs_repair does not mess up the zone used counter
+4d66fe780e4f23ad1da140b8f6bee7df97c1296f xfs: test that truncate does not spuriously return ENOSPC
+c024c10bd6e6957c6a7f824aea9d7d549f6dde2a treewide: convert all $MOUNT_PROG to _mount
+23009383288c5a2ae0dff0e68fef76f4e1f6e094 check: capture dmesg of mount failures if test fails
+870a1cc8cc1542a05645628e8e7849fe3b478944 xfs: test health monitoring code
+3263c60ed8805d7e9fc5edc89538badadb849ae0 xfs: test for metadata corruption error reporting via healthmon
+b7f2ee39725c0af3a9780109860fd09bd3492a03 xfs: test io error reporting via healthmon
+99b6384eb025efc3e472248cf3004a47257d8395 xfs: test new xfs_healer daemon
+a2dcc40d8e5a1bf4d845450e405ec047977ada8e xfs/1856: add metadir upgrade to test matrix
+c312ec304dd65b8be1e301075176115a20320bf4 xfs/1856: add rtrmapbt upgrade to test matrix
+39c245fc7d8832a754d0b9ac856628f32bcd7b5b xfs/1856: add rtreflink upgrade to test matrix
+51b892d2ce32275cc91222c0585293fbaae87638 xfs: online fuzz test known output
+e5476ebba78ec17287d05e5a8506f78960ceb7a9 xfs: offline fuzz test known output
+363ca4d9959ef2c1fccdc33b09448b9235c3747c xfs: norepair fuzz test known output
+ad403d416834f0036fac826869bc314742407dd9 xfs: bothrepair fuzz test known output
 
---===============8945804573236535310==
+--===============6644388590575733038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b724904ca93b-fb3705bc61ab.txt
+Content-Disposition: attachment; filename=revlist-c4c48e361b46-99b6384eb025.txt
 
-d2d034be62f490af3bb5381930462ad377e24a35 make: remove the .extradep file in libxfs on "make clean"
-c2dcf4a8a3a561b12e81795de7c0e49eeaffe671 xfs_io: Add support for preadv2
-92c62bdfa1d206f97b9baba7c1894f1b65896de1 xfs_io: Add RWF_DONTCACHE support to pwritev2
-840b472675eddf12e405d8821185439a4cf5fa6c xfs_io: Add RWF_DONTCACHE support to preadv2
-2d5aa51bee121208da9c11be6d14c463c5661d26 xfs_io: Add cachestat syscall support
-e6caefbdcf10b3c74d26c02c454c9e4134850f95 xfs_repair: fix wording of error message about leftover CoW blocks on the rt device
-28db545be050f4571e9bf642133c1b969091f82c xfs_repair: don't recreate /quota metadir if there are no quota inodes
-b26d16875213a6a25cc9194d45e4547a42ded5e1 xfs_repair: fix crash in reset_rt_metadir_inodes
-bbd8ba73e64b43b29e96b813173aafd6da4ab1fc xfs_repair: fix infinite loop in longform_dir2_entry_check*
-06adb3cb38beb304b7b1f002de95e59cfa9098fb xfs_repair: fix stupid argument error in verify_inode_chunk
-0b4156b99b2a5af1fdb04ad26911520d41b9ce87 xfs: Use abs_diff instead of XFS_ABSDIFF
-8cd85addd72f1f6e569bd286f6a44dfce90355f1 xfs_repair: handling a block with bad crc, bad uuid, and bad magic number needs fixing
-5dde71f07fa06d81e416e9fb7450aec433bd1cb1 xfs_protofile: rename source code to .py.in
-baba1934e818f001771b56051f7b9fa61a983185 xfs_scrub_all: rename source code to .py.in
-7eb9140ba995c0cddb86ca5ea35a73c3d874a629 Makefile: inject package name/version/bugreport into pot file
-60703cb53d1c859a11be04ff01d7be3135328432 xfs_protofile: add messages to localization catalog
-cf7f33332ffd04126b7fbd03afc3a77520e68ca1 xfs_scrub_all: localize the strings in the program
-095aa3f608cd5a31f7492062fd131d5990aff0ec xfs: create hooks for monitoring health updates
-20559e082e93448fc7b6abfff623261613c8a460 xfs: create a special file to pass filesystem health to userspace
-d29bbafc3615a32451ff515f9419f4e83020fe77 xfs: create event queuing, formatting, and discovery infrastructure
-7bec47b505ed98e620ae121bb51d513a421be658 xfs: report metadata health events through healthmon
-bc16960042a00d61508aeb08576a4eee32543807 xfs: report shutdown events through healthmon
-a72ec765fb5e000cee53af6490f3863193cc2883 xfs: report media errors through healthmon
-73963eed54731c479c6348dadd3ad4f21b107f1d xfs: report file io errors through healthmon
-ec0a71516cb083f5d34bd32b2a5b40310b36c59d xfs: add media error reporting ioctl
-d99156d4e48ab2bde00e4ef01c7ada27d2371cd1 xfs_io: monitor filesystem health events
-b6bb1b34861805c6d647cb5d925295edf5084a52 xfs_io: add a media error reporting command
-3173c037b03d7bffaa318f680d1cbf8bc527b70a xfs_healer: create daemon to listen for health events
-2751438142daef3e77156a5e09980c4d420f085a xfs_healer: check events against schema
-11bd5907f6853c3660a58a38f8170019e93af7d0 xfs_healer: enable repairing filesystems
-7f39f599b0e61b16849e348cb2b6be571761da85 xfs_healer: check for fs features needed for effective repairs
-af5e98e6c4eb77992a774baf5d803b37ce8ee401 xfs_healer: use getparents to look up file names
-9e27a210cd7c885040d650f41df2c96da1980e5c builddefs: refactor udev directory specification
-846043694e5ea409e989614a7177fdffc105baba xfs_healer: create a background monitoring service
-e150f9671b282b54ba36b2047b74d1b87e1048fb xfs_healer: don't start service if kernel support unavailable
-5b955251c7cf5427e534d6e1d1bf086a2ba3f7f0 xfs_healer: use the autofsck fsproperty to select mode
-d7ec3a302ea10e76719a23e5652cd56d5068c427 xfs_healer: run full scrub after lost corruption events or targeted repair failure
-4e97f671066f9d9b955186c43e335c0ebeed2aea xfs_healer: add a manual page
-985e4e212fa10c4ba14339ba4779685350576295 xfs_scrub: report media scrub failures to the kernel
-4457f705aa4183a9793ce3c9c09b8e1ce9cf7657 debian: enable xfs_healer on the root filesystem by default
-fdb9ccdd9c0f8d395d6b6f58fee3f6d9c117bfb0 xfs_healer: start building a Rust version
-29f5f17711a4ed902f7f8fa08c15a90fe9f20299 xfs_healer: enable gettext for localization
-cf807767f0411d33ab64ea7389eb06e7af2f20ee xfs_healer: bindgen xfs_fs.h
-a786289817adb4a2198be0df80c38dced53b8f5c xfs_healer: define Rust objects for health events and kernel interface
-8e3ba88e6dddd98a4e931eb240c18346ecab8e08 xfs_healer: read binary health events from the kernel
-a05ef6c66a391cdc6d0fab045ab81396b7444ea9 xfs_healer: read json health events from the kernel
-9f0a61dabed81494be9eb3f2956bfa1fa4d765ee xfs_healer: create a weak file handle so we don't pin the mount
-73d695f3963d3c80b2ccd7b1211005bb495486c9 xfs_healer: fix broken filesystem metadata
-c3aaa1d47fbad3bdea379f9b96e8086aa399625f xfs_healer: check for fs features needed for effective repairs
-7e436ae0c0f264fa85968c34af5f82f9d9943235 xfs_healer: use getparents to look up file names
-a211b52e0fd3f7335a088ddae59e3590f733b12f xfs_healer: make the rust program check if kernel support available
-dc7fb14234993dbe11e1a3831fcbad2e4bcb3238 xfs_healer: use the autofsck fsproperty to select mode
-06b538ef01c7b4ccfb66323d08e1a01f844fb77c xfs_healer: use rc on the mountpoint instead of lifetime annotations
-b4934e7381befb821d68513342f64ae5ca24e255 xfs_healer: use thread pools
-6173e7faf27d06f617bb89be314aef72ed5064b6 xfs_healer: run full scrub after lost corruption events or targeted repair failure
-6801eacee0dfcb2ab366d5e0b9006ce8161ce9ca debian/control: listify the build dependencies
-fb3705bc61ab8741183c7b8da5be04b34df98a46 debian/control: pull in build dependencies for xfs_healer
+b6ecb3a82aed7c628cd82b047226645663314a12 logwrites: warn if we don't think read after discard returns zeroes
+e5728504f8474da566e83e376209f4404662a2bd logwrites: use BLKZEROOUT if it's available
+22f786e8fa994b2bd06202366bb1e08dfae214dc logwrites: only use BLKDISCARD if we know discard zeroes data
+cfc977b9aa6f2404b80100a2d2d5f6dbd734868c xfs: test upgrading old features
+f716ae71a0a0e585add6626c83074db891897312 common: support internal RT device in _require_realtime
+dfd2a2de42ac47f24070332af6c97a78a8a6c519 common: support internal RT devices in scratch_mkfs_sized
+72d7a3a10cefcdf3bd662db6e53d49689c274ee4 xfs: check for zoned-specific errors in _try_scratch_mkfs_xfs
+eb039ebc95cb61c37249aceb042798dd0db52644 common: notrun in mkfs_dev for too small zoned file systems
+0f955e10d46daf1e81b4341d652e762f7349cec2 xfs: skip various tests on zoned devices
+6966b81fb0154409fd803f2b32f6b23edaf1eb7e xfs: add a zoned growfs test
+88432a970e2ac7c14c8f78761b701e30d4aa7ac6 xfs: add a test for zoned block accounting after remount
+dc12d2c568070f032f9a2a47d86a5ef2663b2224 xfs: add test to check for block layer reordering
+72bb5081f6027a9a5d32238daa52562df8b3be7d xfs: add a test to check that data growfs fails with internal rt device
+9eb9c74870b90a1b8b3cecb571ad10413dae3da1 add a new rw_hint helper
+5ed33a9de770f425e91033818647786d35123e9c xfs: add a test for write lifetime hints
+b321664ff056d79eeaed80c7c7f71df5e3d9ad2f xfs: add a test for writeback after close
+65476c4babe596ecd0992c77ca03f415ae11f64c xfs: test zone stream separation for two direct writers
+9fa039259d76ea25f7a1efbdb91f7b7bd89efc5f xfs: test zone stream separation for two buffered writers
+90bc1ab55ab1ab83cf256ee3b2aae0552119c4f1 xfs: test zoned ENOSPC behavior with multiple writers
+05731f2a94d8f4673557d880eb2c02b7d140b41b xfs: test zoned GC file defragmentation for sequential writers
+8dfcb751b613f1e437e8746366b604ac41aa8fb6 xfs: test zoned GC file defragmentation for random writers
+a9a665e0ce82d33eb83a29f55697d65a1515eb75 xfs: test that xfs_repair does not mess up the zone used counter
+4d66fe780e4f23ad1da140b8f6bee7df97c1296f xfs: test that truncate does not spuriously return ENOSPC
+c024c10bd6e6957c6a7f824aea9d7d549f6dde2a treewide: convert all $MOUNT_PROG to _mount
+23009383288c5a2ae0dff0e68fef76f4e1f6e094 check: capture dmesg of mount failures if test fails
+870a1cc8cc1542a05645628e8e7849fe3b478944 xfs: test health monitoring code
+3263c60ed8805d7e9fc5edc89538badadb849ae0 xfs: test for metadata corruption error reporting via healthmon
+b7f2ee39725c0af3a9780109860fd09bd3492a03 xfs: test io error reporting via healthmon
+99b6384eb025efc3e472248cf3004a47257d8395 xfs: test new xfs_healer daemon
 
---===============8945804573236535310==
+--===============6644388590575733038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e2bb94f816ba-cf7f33332ffd.txt
+Content-Disposition: attachment; filename=revlist-ab875df27bbe-39c245fc7d88.txt
 
-d2d034be62f490af3bb5381930462ad377e24a35 make: remove the .extradep file in libxfs on "make clean"
-c2dcf4a8a3a561b12e81795de7c0e49eeaffe671 xfs_io: Add support for preadv2
-92c62bdfa1d206f97b9baba7c1894f1b65896de1 xfs_io: Add RWF_DONTCACHE support to pwritev2
-840b472675eddf12e405d8821185439a4cf5fa6c xfs_io: Add RWF_DONTCACHE support to preadv2
-2d5aa51bee121208da9c11be6d14c463c5661d26 xfs_io: Add cachestat syscall support
-e6caefbdcf10b3c74d26c02c454c9e4134850f95 xfs_repair: fix wording of error message about leftover CoW blocks on the rt device
-28db545be050f4571e9bf642133c1b969091f82c xfs_repair: don't recreate /quota metadir if there are no quota inodes
-b26d16875213a6a25cc9194d45e4547a42ded5e1 xfs_repair: fix crash in reset_rt_metadir_inodes
-bbd8ba73e64b43b29e96b813173aafd6da4ab1fc xfs_repair: fix infinite loop in longform_dir2_entry_check*
-06adb3cb38beb304b7b1f002de95e59cfa9098fb xfs_repair: fix stupid argument error in verify_inode_chunk
-0b4156b99b2a5af1fdb04ad26911520d41b9ce87 xfs: Use abs_diff instead of XFS_ABSDIFF
-8cd85addd72f1f6e569bd286f6a44dfce90355f1 xfs_repair: handling a block with bad crc, bad uuid, and bad magic number needs fixing
-5dde71f07fa06d81e416e9fb7450aec433bd1cb1 xfs_protofile: rename source code to .py.in
-baba1934e818f001771b56051f7b9fa61a983185 xfs_scrub_all: rename source code to .py.in
-7eb9140ba995c0cddb86ca5ea35a73c3d874a629 Makefile: inject package name/version/bugreport into pot file
-60703cb53d1c859a11be04ff01d7be3135328432 xfs_protofile: add messages to localization catalog
-cf7f33332ffd04126b7fbd03afc3a77520e68ca1 xfs_scrub_all: localize the strings in the program
+b6ecb3a82aed7c628cd82b047226645663314a12 logwrites: warn if we don't think read after discard returns zeroes
+e5728504f8474da566e83e376209f4404662a2bd logwrites: use BLKZEROOUT if it's available
+22f786e8fa994b2bd06202366bb1e08dfae214dc logwrites: only use BLKDISCARD if we know discard zeroes data
+cfc977b9aa6f2404b80100a2d2d5f6dbd734868c xfs: test upgrading old features
+f716ae71a0a0e585add6626c83074db891897312 common: support internal RT device in _require_realtime
+dfd2a2de42ac47f24070332af6c97a78a8a6c519 common: support internal RT devices in scratch_mkfs_sized
+72d7a3a10cefcdf3bd662db6e53d49689c274ee4 xfs: check for zoned-specific errors in _try_scratch_mkfs_xfs
+eb039ebc95cb61c37249aceb042798dd0db52644 common: notrun in mkfs_dev for too small zoned file systems
+0f955e10d46daf1e81b4341d652e762f7349cec2 xfs: skip various tests on zoned devices
+6966b81fb0154409fd803f2b32f6b23edaf1eb7e xfs: add a zoned growfs test
+88432a970e2ac7c14c8f78761b701e30d4aa7ac6 xfs: add a test for zoned block accounting after remount
+dc12d2c568070f032f9a2a47d86a5ef2663b2224 xfs: add test to check for block layer reordering
+72bb5081f6027a9a5d32238daa52562df8b3be7d xfs: add a test to check that data growfs fails with internal rt device
+9eb9c74870b90a1b8b3cecb571ad10413dae3da1 add a new rw_hint helper
+5ed33a9de770f425e91033818647786d35123e9c xfs: add a test for write lifetime hints
+b321664ff056d79eeaed80c7c7f71df5e3d9ad2f xfs: add a test for writeback after close
+65476c4babe596ecd0992c77ca03f415ae11f64c xfs: test zone stream separation for two direct writers
+9fa039259d76ea25f7a1efbdb91f7b7bd89efc5f xfs: test zone stream separation for two buffered writers
+90bc1ab55ab1ab83cf256ee3b2aae0552119c4f1 xfs: test zoned ENOSPC behavior with multiple writers
+05731f2a94d8f4673557d880eb2c02b7d140b41b xfs: test zoned GC file defragmentation for sequential writers
+8dfcb751b613f1e437e8746366b604ac41aa8fb6 xfs: test zoned GC file defragmentation for random writers
+a9a665e0ce82d33eb83a29f55697d65a1515eb75 xfs: test that xfs_repair does not mess up the zone used counter
+4d66fe780e4f23ad1da140b8f6bee7df97c1296f xfs: test that truncate does not spuriously return ENOSPC
+c024c10bd6e6957c6a7f824aea9d7d549f6dde2a treewide: convert all $MOUNT_PROG to _mount
+23009383288c5a2ae0dff0e68fef76f4e1f6e094 check: capture dmesg of mount failures if test fails
+870a1cc8cc1542a05645628e8e7849fe3b478944 xfs: test health monitoring code
+3263c60ed8805d7e9fc5edc89538badadb849ae0 xfs: test for metadata corruption error reporting via healthmon
+b7f2ee39725c0af3a9780109860fd09bd3492a03 xfs: test io error reporting via healthmon
+99b6384eb025efc3e472248cf3004a47257d8395 xfs: test new xfs_healer daemon
+a2dcc40d8e5a1bf4d845450e405ec047977ada8e xfs/1856: add metadir upgrade to test matrix
+c312ec304dd65b8be1e301075176115a20320bf4 xfs/1856: add rtrmapbt upgrade to test matrix
+39c245fc7d8832a754d0b9ac856628f32bcd7b5b xfs/1856: add rtreflink upgrade to test matrix
 
---===============8945804573236535310==
+--===============6644388590575733038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9e7b3c3ddb67-6169cb97a765.txt
+Content-Disposition: attachment; filename=revlist-a0822bb1fb21-4d66fe780e4f.txt
 
-d2d034be62f490af3bb5381930462ad377e24a35 make: remove the .extradep file in libxfs on "make clean"
-c2dcf4a8a3a561b12e81795de7c0e49eeaffe671 xfs_io: Add support for preadv2
-92c62bdfa1d206f97b9baba7c1894f1b65896de1 xfs_io: Add RWF_DONTCACHE support to pwritev2
-840b472675eddf12e405d8821185439a4cf5fa6c xfs_io: Add RWF_DONTCACHE support to preadv2
-2d5aa51bee121208da9c11be6d14c463c5661d26 xfs_io: Add cachestat syscall support
-e6caefbdcf10b3c74d26c02c454c9e4134850f95 xfs_repair: fix wording of error message about leftover CoW blocks on the rt device
-28db545be050f4571e9bf642133c1b969091f82c xfs_repair: don't recreate /quota metadir if there are no quota inodes
-b26d16875213a6a25cc9194d45e4547a42ded5e1 xfs_repair: fix crash in reset_rt_metadir_inodes
-bbd8ba73e64b43b29e96b813173aafd6da4ab1fc xfs_repair: fix infinite loop in longform_dir2_entry_check*
-06adb3cb38beb304b7b1f002de95e59cfa9098fb xfs_repair: fix stupid argument error in verify_inode_chunk
-0b4156b99b2a5af1fdb04ad26911520d41b9ce87 xfs: Use abs_diff instead of XFS_ABSDIFF
-8cd85addd72f1f6e569bd286f6a44dfce90355f1 xfs_repair: handling a block with bad crc, bad uuid, and bad magic number needs fixing
-5dde71f07fa06d81e416e9fb7450aec433bd1cb1 xfs_protofile: rename source code to .py.in
-baba1934e818f001771b56051f7b9fa61a983185 xfs_scrub_all: rename source code to .py.in
-7eb9140ba995c0cddb86ca5ea35a73c3d874a629 Makefile: inject package name/version/bugreport into pot file
-60703cb53d1c859a11be04ff01d7be3135328432 xfs_protofile: add messages to localization catalog
-cf7f33332ffd04126b7fbd03afc3a77520e68ca1 xfs_scrub_all: localize the strings in the program
-095aa3f608cd5a31f7492062fd131d5990aff0ec xfs: create hooks for monitoring health updates
-20559e082e93448fc7b6abfff623261613c8a460 xfs: create a special file to pass filesystem health to userspace
-d29bbafc3615a32451ff515f9419f4e83020fe77 xfs: create event queuing, formatting, and discovery infrastructure
-7bec47b505ed98e620ae121bb51d513a421be658 xfs: report metadata health events through healthmon
-bc16960042a00d61508aeb08576a4eee32543807 xfs: report shutdown events through healthmon
-a72ec765fb5e000cee53af6490f3863193cc2883 xfs: report media errors through healthmon
-73963eed54731c479c6348dadd3ad4f21b107f1d xfs: report file io errors through healthmon
-ec0a71516cb083f5d34bd32b2a5b40310b36c59d xfs: add media error reporting ioctl
-d99156d4e48ab2bde00e4ef01c7ada27d2371cd1 xfs_io: monitor filesystem health events
-b6bb1b34861805c6d647cb5d925295edf5084a52 xfs_io: add a media error reporting command
-3173c037b03d7bffaa318f680d1cbf8bc527b70a xfs_healer: create daemon to listen for health events
-2751438142daef3e77156a5e09980c4d420f085a xfs_healer: check events against schema
-11bd5907f6853c3660a58a38f8170019e93af7d0 xfs_healer: enable repairing filesystems
-7f39f599b0e61b16849e348cb2b6be571761da85 xfs_healer: check for fs features needed for effective repairs
-af5e98e6c4eb77992a774baf5d803b37ce8ee401 xfs_healer: use getparents to look up file names
-9e27a210cd7c885040d650f41df2c96da1980e5c builddefs: refactor udev directory specification
-846043694e5ea409e989614a7177fdffc105baba xfs_healer: create a background monitoring service
-e150f9671b282b54ba36b2047b74d1b87e1048fb xfs_healer: don't start service if kernel support unavailable
-5b955251c7cf5427e534d6e1d1bf086a2ba3f7f0 xfs_healer: use the autofsck fsproperty to select mode
-d7ec3a302ea10e76719a23e5652cd56d5068c427 xfs_healer: run full scrub after lost corruption events or targeted repair failure
-4e97f671066f9d9b955186c43e335c0ebeed2aea xfs_healer: add a manual page
-985e4e212fa10c4ba14339ba4779685350576295 xfs_scrub: report media scrub failures to the kernel
-4457f705aa4183a9793ce3c9c09b8e1ce9cf7657 debian: enable xfs_healer on the root filesystem by default
-fdb9ccdd9c0f8d395d6b6f58fee3f6d9c117bfb0 xfs_healer: start building a Rust version
-29f5f17711a4ed902f7f8fa08c15a90fe9f20299 xfs_healer: enable gettext for localization
-cf807767f0411d33ab64ea7389eb06e7af2f20ee xfs_healer: bindgen xfs_fs.h
-a786289817adb4a2198be0df80c38dced53b8f5c xfs_healer: define Rust objects for health events and kernel interface
-8e3ba88e6dddd98a4e931eb240c18346ecab8e08 xfs_healer: read binary health events from the kernel
-a05ef6c66a391cdc6d0fab045ab81396b7444ea9 xfs_healer: read json health events from the kernel
-9f0a61dabed81494be9eb3f2956bfa1fa4d765ee xfs_healer: create a weak file handle so we don't pin the mount
-73d695f3963d3c80b2ccd7b1211005bb495486c9 xfs_healer: fix broken filesystem metadata
-c3aaa1d47fbad3bdea379f9b96e8086aa399625f xfs_healer: check for fs features needed for effective repairs
-7e436ae0c0f264fa85968c34af5f82f9d9943235 xfs_healer: use getparents to look up file names
-a211b52e0fd3f7335a088ddae59e3590f733b12f xfs_healer: make the rust program check if kernel support available
-dc7fb14234993dbe11e1a3831fcbad2e4bcb3238 xfs_healer: use the autofsck fsproperty to select mode
-06b538ef01c7b4ccfb66323d08e1a01f844fb77c xfs_healer: use rc on the mountpoint instead of lifetime annotations
-b4934e7381befb821d68513342f64ae5ca24e255 xfs_healer: use thread pools
-6173e7faf27d06f617bb89be314aef72ed5064b6 xfs_healer: run full scrub after lost corruption events or targeted repair failure
-6801eacee0dfcb2ab366d5e0b9006ce8161ce9ca debian/control: listify the build dependencies
-fb3705bc61ab8741183c7b8da5be04b34df98a46 debian/control: pull in build dependencies for xfs_healer
-541c3b680b798a432b1bfa596d870965801f8c6d xfs_repair: allow sysadmins to add free inode btree indexes
-a6c729677e977afba88daee3962b6b830fa9cde9 xfs_repair: allow sysadmins to add reflink
-d8b2ee95fa79067f6ac48f67e734b0f9902b3451 xfs_repair: allow sysadmins to add reverse mapping indexes
-b4030ba73948192ff73c7f320e47cd25e6a2cb59 xfs_repair: upgrade an existing filesystem to have parent pointers
-0e97b60071f8e90396d9b6acd6b7019f14790552 xfs_repair: allow sysadmins to add metadata directories
-6b67ff6b7e04b18993f5014f785b0022fb759dae xfs_repair: upgrade filesystems to support rtgroups when adding metadir
-1d6e35016351dad203c072dc9f29b4b8ad77110f xfs_repair: allow sysadmins to add realtime reverse mapping indexes
-7eac353c7205d2f83082a835e106913627233b3c xfs_repair: allow sysadmins to add realtime reflink
-a2acc6c4ef83315aeefb7dd855104ae7bb2645fb xfs_repair: skip free space checks when upgrading
-6169cb97a7656851abe8b4750e3eba115002dbe6 xfs_repair: allow adding rmapbt to reflink filesystems
+b6ecb3a82aed7c628cd82b047226645663314a12 logwrites: warn if we don't think read after discard returns zeroes
+e5728504f8474da566e83e376209f4404662a2bd logwrites: use BLKZEROOUT if it's available
+22f786e8fa994b2bd06202366bb1e08dfae214dc logwrites: only use BLKDISCARD if we know discard zeroes data
+cfc977b9aa6f2404b80100a2d2d5f6dbd734868c xfs: test upgrading old features
+f716ae71a0a0e585add6626c83074db891897312 common: support internal RT device in _require_realtime
+dfd2a2de42ac47f24070332af6c97a78a8a6c519 common: support internal RT devices in scratch_mkfs_sized
+72d7a3a10cefcdf3bd662db6e53d49689c274ee4 xfs: check for zoned-specific errors in _try_scratch_mkfs_xfs
+eb039ebc95cb61c37249aceb042798dd0db52644 common: notrun in mkfs_dev for too small zoned file systems
+0f955e10d46daf1e81b4341d652e762f7349cec2 xfs: skip various tests on zoned devices
+6966b81fb0154409fd803f2b32f6b23edaf1eb7e xfs: add a zoned growfs test
+88432a970e2ac7c14c8f78761b701e30d4aa7ac6 xfs: add a test for zoned block accounting after remount
+dc12d2c568070f032f9a2a47d86a5ef2663b2224 xfs: add test to check for block layer reordering
+72bb5081f6027a9a5d32238daa52562df8b3be7d xfs: add a test to check that data growfs fails with internal rt device
+9eb9c74870b90a1b8b3cecb571ad10413dae3da1 add a new rw_hint helper
+5ed33a9de770f425e91033818647786d35123e9c xfs: add a test for write lifetime hints
+b321664ff056d79eeaed80c7c7f71df5e3d9ad2f xfs: add a test for writeback after close
+65476c4babe596ecd0992c77ca03f415ae11f64c xfs: test zone stream separation for two direct writers
+9fa039259d76ea25f7a1efbdb91f7b7bd89efc5f xfs: test zone stream separation for two buffered writers
+90bc1ab55ab1ab83cf256ee3b2aae0552119c4f1 xfs: test zoned ENOSPC behavior with multiple writers
+05731f2a94d8f4673557d880eb2c02b7d140b41b xfs: test zoned GC file defragmentation for sequential writers
+8dfcb751b613f1e437e8746366b604ac41aa8fb6 xfs: test zoned GC file defragmentation for random writers
+a9a665e0ce82d33eb83a29f55697d65a1515eb75 xfs: test that xfs_repair does not mess up the zone used counter
+4d66fe780e4f23ad1da140b8f6bee7df97c1296f xfs: test that truncate does not spuriously return ENOSPC
 
---===============8945804573236535310==--
+--===============6644388590575733038==--
