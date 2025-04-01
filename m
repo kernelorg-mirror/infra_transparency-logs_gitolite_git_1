@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2164744940103705994=="
+Content-Type: multipart/mixed; boundary="===============6621989271738846537=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 01 Apr 2025 19:06:43 -0000
-Message-Id: <174353440335.1619814.11935421993059078315@gitolite.kernel.org>
+Date: Tue, 01 Apr 2025 19:06:50 -0000
+Message-Id: <174353441081.1620167.8641418553815764856@gitolite.kernel.org>
 
---===============2164744940103705994==
+--===============6621989271738846537==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 80e54e84911a923c40d7bee33a34c1b4be148d7a
+  - ref: refs/heads/char-misc-next
+    old: 5d1a5c4f121f0ec50327e899c9450978505f1560
     new: 25601e85441dd91cf7973b002f27af4c5b8691ea
-    log: revlist-80e54e84911a-25601e85441d.txt
+    log: revlist-5d1a5c4f121f-25601e85441d.txt
 
---===============2164744940103705994==
+--===============6621989271738846537==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1743534334 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1743534354 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1743534389-d2fcb36edaecf822cd2bce7e2fa0402d421021c5
+nonce 1743534409-be3a1745ebc89919e8082c6bf4511357cca8c95f
 
-80e54e84911a923c40d7bee33a34c1b4be148d7a 25601e85441dd91cf7973b002f27af4c5b8691ea refs/heads/main
+5d1a5c4f121f0ec50327e899c9450978505f1560 25601e85441dd91cf7973b002f27af4c5b8691ea refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfsOP4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+az4P/j0jBku4BtVgAYmgc75h
-+5ordiyXm5XXh4QpFlwNYPcKqghZ68Q4cOLkjo3NYuu/iUsq5hlYR96/q5XMLaLD
-SFQpMediIHYlJKw8G74+eapXcWHN7XoUIGQcQ2d6ZjcuWNcUbvI2wscFngwuaqga
-z/OR7t96L/os6f82qUH93P7HCjWqB8FJcOIwViK88EbhciPr6P/IR6egM7EMS/Ze
-FtveSE+JkICb7eb3YnlRBBzxcfRQsmtDkJd3kJYsCAdRpFUPuWXRK2fiDRNrdCBQ
-OPcr2mY/xE7TFBdZVh/pFBfL1hGxB1Rx1Xz9U0p8gpQYRvFPqZAZ3yvdNHXgEqn6
-d7MLYhpU/5+I2IvgAdetzNk0943wbwt4koeHXK2fy3SN8xAhO1ebIGjlngtfpfUu
-SzPPO+aMs0p9r+0bSlDECqOwqMNwshBv6U6qzETD3frkCl+8zi5DnU7++/DUZ3uA
-mZ/huG15XaCpzS6jIhPJxb/aMJaQAf0nqJ/GTghq1X5zG2m+oOhtoQmEYCjXVbaF
-6ydIKc8DYUNt5V0EWBn5WhhpmZOaaH9G2fERE3BwWbrlG66/60yICheaqqdUND0M
-wosPjnaZh8/TzylSxDDpR3E9bvnPbLXDqdEaRhR/n3Vn5xmhZDPvt4qMi9owQOUh
-nUU45P6iLnmGIFp2wBwqyZGE
-=fhh8
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfsORIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+L/gQAIqx2YANh1EyXWDMYw/t
+Eha/aztXbVdkh6s8eSRHvHbnMkirNTGzbTu4dQN3PZbReOGFv0CHV0pu1lyyPCjg
+2sVVWlit6pVJ0h7pzFqeN/JmLQoMn9BFc506b3SljBJjU3L2kpiE6iEi4/qUcxxK
+xQ30SqR0+Iwsnilnzw/5ainpn8MArEvshWj2BAd+1TMVR7f2DAj5C83iozH8xFuh
+CcJme+1qCdXzdiEO8G2xSulnNAKgnee5rztZ8x5omYDvB2bo9z61Hz/yTWBkOOSH
+x5HY9niosXaB4L4a4xdsB5TPV4T4L2oc/PCuzpzWYEEOmx+bLNOQbOcpcCjq8kTo
+OCIdL4l1uYYw/LXebw2vGtaPUYQ6qllpBWYnCXt8LhPCdHDs3VMmntoS8dD2v54G
+MW0Ox8jef6a1QX+5zrlq0w3hQnajzyYoQpISXGPLAc5g3kaSoOvp0B5Mf/k7WxYt
+xP97BPwxz55BzbBqRRU7hi6cMfZEhmpsB7jvrzpV0DOSquap1vM0gDIeoB/zx44R
+P5+nxaMd8i0bDNXtgPB9Yvr1g3lvVxdPnXYVHQTMSMBTYE0i4XeXPEaOcnNnKF0X
+Tdflab7xdb+Fg4C8PThiH5PQCwaxEzWWEv8HtscrJ84KE8rnIeAvP1QWTnPglkJG
+OxX+PTO/z0BJicLr2wp+5+Im
+=jqEz
 -----END PGP SIGNATURE-----
 
---===============2164744940103705994==
+--===============6621989271738846537==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-80e54e84911a-25601e85441d.txt
+Content-Disposition: attachment; filename=revlist-5d1a5c4f121f-25601e85441d.txt
 
 3fed9fda150d393d3f3f91a5631dab1e0c15d582 net: remove sb1000 cable modem driver
 f82d27dcff939d3cbecbc60e1b71e2518c37e81d drm/amdkfd: set precise mem ops caps to disabled for gfx 11 and 12
@@ -1082,4 +1082,4 @@ d6b02199cde4b9cb99b311eeab1cdbe23165082c Merge tag 'mm-nonmm-stable-2025-03-30-1
 2cd5769fb0b78b8ef583ab4c0015c2c48d525dac Merge tag 'driver-core-6.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/driver-core
 25601e85441dd91cf7973b002f27af4c5b8691ea Merge tag 'char-misc-6.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 
---===============2164744940103705994==--
+--===============6621989271738846537==--
