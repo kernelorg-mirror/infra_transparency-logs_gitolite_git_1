@@ -1,32 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Tue, 01 Apr 2025 15:09:13 -0000
-Message-Id: <174352015377.1412913.9260644187599836761@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5532540810058432929=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Tue, 01 Apr 2025 15:22:51 -0000
+Message-Id: <174352097185.1425750.11062033133658657583@gitolite.kernel.org>
+
+--===============5532540810058432929==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main-pending
-    old: aadcc1f2ec3c02e80cb32027275a1fafa3bf6ed6
-    new: 8c4801f96cc2395bce51911b9a374aa71758fc4f
+  - ref: refs/heads/master
+    old: 573c5bc2455d8567318ae897f763b5e372cea74f
+    new: f9ad22f2859d441a3bc6805e612e3b8d0c22410b
     log: |
-         ce8669a27016354dfa8bf3c954255cb9f3583bae wifi: ath11k: determine PM policy based on machine model
-         3d2ce6ad9126b96a721542c6299a2f0967b5a63f wifi: ath11k: introduce ath11k_core_continue_suspend_resume()
-         662cc5b92c327e94587a959d7ed75862eda4b059 wifi: ath11k: refactor ath11k_core_suspend/_resume()
-         88fd03cf51a7d67dac976ecce079ccfc79376966 wifi: ath11k: support non-WoWLAN mode suspend as well
-         32d93b51bc7e2e557771abe4a88da69c609e3d52 wifi: ath11k: choose default PM policy for hibernation
-         3b199a58cc585f423a85af2e57045c9a783361bb Reapply "wifi: ath11k: restore country code during resume"
-         9872d580a9e5a81004b24fcb48fcbaab671f8d9d Merge branch 'ath-next'
-         4f407d4bcba18babd787097fa497c40824faeb09 Merge remote-tracking branch 'mhi/mhi-next'
-         ba613742db305037ca2193b2b552b769c4f2a5f7 Add localversion-wireless-testing-ath
-         221e0b95ea29e4552ee3ae7299208b3e9d467750 wifi: ath12k: Fix memory leak due to multiple rx_stats allocation
-         8c4801f96cc2395bce51911b9a374aa71758fc4f Merge branch 'pending' into main-pending
+         f9ad22f2859d441a3bc6805e612e3b8d0c22410b tools/voting_results: always print the header
          
-  - ref: refs/tags/ath-pending-202504011440
-    old: 0000000000000000000000000000000000000000
-    new: 8c4801f96cc2395bce51911b9a374aa71758fc4f
+
+--===============5532540810058432929==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1743520914 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1743520968-9ce7b804363d72a2a192e0101301f93287942d84
+
+573c5bc2455d8567318ae897f763b5e372cea74f f9ad22f2859d441a3bc6805e612e3b8d0c22410b refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfsBJIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kIoP/jAwrH1+LEyKlrcpEjKA
+n9VpXCF5T7WrrydzdDGz6B8y/64tAlvNZ4SQa9y221uV6o7qaYA3uzyiK+5Zupq7
+UCJLwMZNyJopxRGX7Wumz6wyKiS3LELr6BOF4ZDqweVo2/BZ2fPPv5fFrX+hF+e2
+TJp4ofyCdy97/ZzGVE2+7j99kqjsUqWtAYjg724QcLYDI3aMFYF/tjp0NFFsy8qa
+GeIcWA3rahPUUbCSjJ7id+swY1vXsgpeJ21ifMAjJHdSFxAEAMcXFQOXaynSEfcu
+84FcwsqzPlNWKXuFwKFzzPnqS0gJdrNzdSctKyBTo8wQeM/0FNpUJe0BX/9/srVb
+Re1gLNbucMi5fTG/J+MZgOS17DEp/Fhr037ycIy3e6a+cT4FUzeU2lkoOppJQBFu
+L116ZhIE+SeZF+IAeAbb0wLOZUpTcmDdP/md4okPTR1us+yxGG4mfl0EtzRDYhwU
+5OJ2/DTR4+gJg/c0ib4ZthwIXSHBuWRxj6JSwUsnCpO04rYvusMn2u8XqTs0JSYm
+9E2t0c2dpMDE3ungp9+0Xt7aISfX/zfh32TPfJU5IYc5vDc7IuJ+sEpQwqIw7S+F
+YiSu9sayl7LOcblYgusWuU56+7AaXiZIrL9+NUuU35f/5W839H1XqujolSBzxb0p
+NSpAS/pBoO39xXMLgfFJKp0S
+=BzTw
+-----END PGP SIGNATURE-----
+
+--===============5532540810058432929==--
