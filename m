@@ -1,19 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Tue, 01 Apr 2025 14:47:19 -0000
-Message-Id: <174351883904.1394045.11297734203342274521@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 01 Apr 2025 14:49:10 -0000
+Message-Id: <174351895018.1395024.9164404306489326745@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/nova-gsp
-    old: 994a57b8f680bd3654a548ca357837932696a9c7
-    new: 00a09e9bddf808e8c49d56e90ff83c8c7d6272a6
+  - ref: refs/heads/for-linus
+    old: 986da36806b1a45b8502f0cc23cfcc685c8f2a1c
+    new: bb12ef088c5113101abf2f734fbcb44011343d61
     log: |
-         00a09e9bddf808e8c49d56e90ff83c8c7d6272a6 Loop through images and create BiosImage(s) if theyre valid
+         bb12ef088c5113101abf2f734fbcb44011343d61 ALSA: pcm: Release paused streams before suspend if resume is not supported
+         
+  - ref: refs/heads/for-next
+    old: 986da36806b1a45b8502f0cc23cfcc685c8f2a1c
+    new: bb12ef088c5113101abf2f734fbcb44011343d61
+    log: |
+         bb12ef088c5113101abf2f734fbcb44011343d61 ALSA: pcm: Release paused streams before suspend if resume is not supported
+         
+  - ref: refs/heads/master
+    old: d5245d5babb0ff601f3091c4d3f212ee725d05fa
+    new: 8cbfe81db78927112f5303bc56fcc7f45c6c580f
+    log: |
+         bb12ef088c5113101abf2f734fbcb44011343d61 ALSA: pcm: Release paused streams before suspend if resume is not supported
+         8cbfe81db78927112f5303bc56fcc7f45c6c580f Merge branch 'for-linus'
          
