@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 01 Apr 2025 19:46:15 -0000
-Message-Id: <174353677562.1655127.13757118359275262411@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Tue, 01 Apr 2025 19:48:55 -0000
+Message-Id: <174353693507.1656553.2124284956874140211@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/keys-graveyard
-    old: 980a573621ea4b5032123937df0115bdbec6b2de
-    new: 13c6debc9b86b8bec9747d10085092d3149dce3b
+  - ref: refs/heads/main-pending
+    old: c61516b14aad108caa419dd3cd911986044edebf
+    new: 50afcd9a825a7d542d456942c2eac2d64e9b8875
     log: |
-         13c6debc9b86b8bec9747d10085092d3149dce3b KEYS: Add a list for unreferenced keys
+         a8242b35cfa273a86c605d192d3049186a5f2691 wifi: ath11k: fix node corruption in ar->arvifs list
+         50afcd9a825a7d542d456942c2eac2d64e9b8875 Merge branch 'pending' into main-pending
          
+  - ref: refs/tags/ath-pending-202504011937
+    old: 0000000000000000000000000000000000000000
+    new: 50afcd9a825a7d542d456942c2eac2d64e9b8875
