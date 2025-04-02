@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============0915279010729902343=="
+Content-Type: multipart/mixed; boundary="===============1749084320443214714=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 02 Apr 2025 15:22:22 -0000
-Message-Id: <174360734208.2682465.6706716523476295107@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Wed, 02 Apr 2025 15:22:39 -0000
+Message-Id: <174360735901.2683026.6557453838512293464@gitolite.kernel.org>
 
---===============0915279010729902343==
+--===============1749084320443214714==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/200GbE
+  - ref: refs/heads/10GbE
     old: 1a9239bb4253f9076b5b4b2a1a4e8d7defd77a95
     new: acc4d5ff0b61eb1715c498b6536c38c1feb7f3c1
     log: revlist-1a9239bb4253-acc4d5ff0b61.txt
 
---===============0915279010729902343==
+--===============1749084320443214714==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e63a165308468d0dce39e07c97279152b043875b Merge tag 'phy-for-6.15' of git://git.k
 3491aa04787f4d7e00da98d94b1b10001c398b5a Merge tag 'vfio-v6.15-rc1' of https://github.com/awilliam/linux-vfio
 acc4d5ff0b61eb1715c498b6536c38c1feb7f3c1 Merge tag 'net-6.15-rc0' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============0915279010729902343==--
+--===============1749084320443214714==--
