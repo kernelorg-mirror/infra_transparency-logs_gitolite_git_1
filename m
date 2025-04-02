@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Wed, 02 Apr 2025 18:21:41 -0000
-Message-Id: <174361810112.2831921.11153008846313435087@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Wed, 02 Apr 2025 18:23:04 -0000
+Message-Id: <174361818403.2832748.1615709024912225207@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/libs/ell/ell
+user: holtmann
 changes:
-  - ref: refs/heads/nova-gsp
-    old: 2b96c31d6da2c0cb90a4eec2fb2b58927fb88050
-    new: adfcae502979187ee23610acc0ec8cfe368b9d5d
+  - ref: refs/heads/master
+    old: 037a6c7abaaf6b32d54f24674495de289648d962
+    new: ec1b8358898ea5aedf66b2b307a51fa998ff8684
     log: |
-         57b0c58601286b22ea8df4a0f7e04006b4f519e7 fixup! fixup! Add NPDE struct parsing, required to determine if last image and image size
-         adfcae502979187ee23610acc0ec8cfe368b9d5d Add support to find the BIT header offset in the PciAt image
+         dacf4af863ece70c9fa0a7ad550d36f752ab0cc0 util: Move STRLOC macro into private header
+         c55edee86985f01e8d8b6b0ff9f4ce0ff84c223a ecc: Make l_ecc_scalar_new_random() abort if random source is invalid
+         ec1b8358898ea5aedf66b2b307a51fa998ff8684 ecdh: The l_ecc_scalar_new_random() can no longer return NULL
          
