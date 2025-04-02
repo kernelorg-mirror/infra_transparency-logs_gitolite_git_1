@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5295734041645761586=="
+Content-Type: multipart/mixed; boundary="===============4380785433025100227=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Wed, 02 Apr 2025 00:25:45 -0000
-Message-Id: <174355354557.1894297.11879840092196881790@gitolite.kernel.org>
+Date: Wed, 02 Apr 2025 00:26:01 -0000
+Message-Id: <174355356175.1894624.11822735591050015993@gitolite.kernel.org>
 
---===============5295734041645761586==
+--===============4380785433025100227==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ebiggers/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/wip-fscrypt
-    old: 7fbe1bebf23e9076b43d960dba6454baff4d564e
-    new: ab0fe8e1404ebee14305fbf8e868954544a4207b
-    log: revlist-7fbe1bebf23e-ab0fe8e1404e.txt
+  - ref: refs/heads/wip-ufs
+    old: cfff70fe05ea0399729f949ab4480c6934ff79df
+    new: 86c873422209dd564fc8f30d00ca64f05ac1d891
+    log: revlist-cfff70fe05ea-86c873422209.txt
 
---===============5295734041645761586==
+--===============4380785433025100227==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7fbe1bebf23e-ab0fe8e1404e.txt
+Content-Disposition: attachment; filename=revlist-cfff70fe05ea-86c873422209.txt
 
-49bdbdb11f70edef73ff9015f9b4ce717338def9 nfsd: replace CB_GETATTR_BUSY with NFSD4_CALLBACK_RUNNING
-32ce62c0f09cdc5a6b06bb38daec9b9a47302437 nfsd: move cb_need_restart flag into cb_flags
 ff383e8f9440209cf15441bc04627c70a4fe7964 nfsd: handle errors from rpc_call_async()
 87055f8aea273712c35706f11a4250e243137dc9 nfsd: reorganize struct nfs4_delegation for better packing
 d917d78311e5d5e07c4de1e043fbafb64f7f72ab nfsd: remove unneeded forward declaration of nfsd4_mark_cb_fault()
@@ -1049,6 +1047,8 @@ d6b02199cde4b9cb99b311eeab1cdbe23165082c Merge tag 'mm-nonmm-stable-2025-03-30-1
 4d31167e844bac8be7587781c52af450b6451f01 Merge tag 'soundwire-6.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire
 e63a165308468d0dce39e07c97279152b043875b Merge tag 'phy-for-6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 91e5bfe317d8f8471fbaa3e70cf66cae1314a516 Merge tag 'dmaengine-6.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
-ab0fe8e1404ebee14305fbf8e868954544a4207b fscrypt: add support for hardware-wrapped keys
+79cd54f7b7bc7fc68395a6533c3455af87d3b3d4 soc: qcom: ice: make qcom_ice_program_key() take struct blk_crypto_key
+26dc6c9ae7a3024563852fd3c5f7bf40ed42059e soc: qcom: ice: add HWKM support to the ICE driver
+86c873422209dd564fc8f30d00ca64f05ac1d891 ufs: qcom: add support for wrapped keys
 
---===============5295734041645761586==--
+--===============4380785433025100227==--
