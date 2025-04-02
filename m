@@ -1,51 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============4995754733830472700=="
+Content-Type: multipart/mixed; boundary="===============2356547239984942126=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 02 Apr 2025 20:03:56 -0000
-Message-Id: <174362423623.2924913.12140630665567419283@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Wed, 02 Apr 2025 20:05:14 -0000
+Message-Id: <174362431454.2927886.9213887706586020895@gitolite.kernel.org>
 
---===============4995754733830472700==
+--===============2356547239984942126==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/gregkh/tty
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 9846251577d42d77db1f41bce52912980a5ced93
-    new: 74cbb985db3b9c5e5632e497dbbcc285a29241ba
-    log: revlist-9846251577d4-74cbb985db3b.txt
-  - ref: refs/heads/tip/urgent
-    old: 17aab750fc212342ed43786627eeaeb30c19eb1c
-    new: 2745242705f26c57b8130620943f06320b964544
-    log: |
-         030f656ef624b62563596b2a76103e919664bf52 Merge branch into tip/master: 'perf/urgent'
-         74f00e0d915f0a568627f8486bed80951bff16bf Merge branch into tip/master: 'sched/urgent'
-         2745242705f26c57b8130620943f06320b964544 Merge branch into tip/master: 'x86/urgent'
-         
+  - ref: refs/tags/tty-6.15-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 191d04fb531dcb6c20a55a83e80f2ea07a3d282e
 
---===============4995754733830472700==
+--===============2356547239984942126==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9846251577d4-74cbb985db3b.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-1f13c60d84e880df6698441026e64f84c7110c49 x86/idle: Remove MFENCEs for X86_BUG_CLFLUSH_MONITOR in mwait_idle_with_hints() and prefer_mwait_c1_over_halt()
-030f656ef624b62563596b2a76103e919664bf52 Merge branch into tip/master: 'perf/urgent'
-74f00e0d915f0a568627f8486bed80951bff16bf Merge branch into tip/master: 'sched/urgent'
-2745242705f26c57b8130620943f06320b964544 Merge branch into tip/master: 'x86/urgent'
-4d4e318cdaca5de48ae5875e630f3cc60a5c1333 Merge branch into tip/master: 'sched/core'
-360c535acd7eb3a3d02182a648ec8e94751d3200 Merge branch into tip/master: 'x86/alternatives'
-84c91f80ebf8c79147527b6009757c94af5f1e82 Merge branch into tip/master: 'x86/asm'
-1b2dac3e57e0e2754181e357aee8cd871ee755af Merge branch into tip/master: 'x86/cpu'
-eca793166a6e70badab1bfca3dc644e0322f5fcd Merge branch into tip/master: 'x86/fpu'
-ad2ffe29b639726971f5f07a9c1677fc8da1a40e Merge branch into tip/master: 'x86/kconfig'
-261a5b2cc88db84d5466c58e9d7cdf2e191726e0 Merge branch into tip/master: 'x86/mm'
-8423611c5f86cc2ab8ac0b7114095b9737d4b7f5 Merge branch into tip/master: 'x86/nmi'
-74cbb985db3b9c5e5632e497dbbcc285a29241ba Merge branch into tip/master: 'x86/tdx'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1743624256 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1743624311-5690d78f0cbd44fda2dc2f0678f3c85e872152a7
 
---===============4995754733830472700==--
+0000000000000000000000000000000000000000 191d04fb531dcb6c20a55a83e80f2ea07a3d282e refs/tags/tty-6.15-rc1
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmftmEAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3JkP/iPxUMDAQf/BuzbKSfMU
+L1BKGMditBvbuaSzjD3SfxE11FnYfrC7l91y5y0qEEO7Dfaff8tSNNO/Q4oQ8km8
+zIqBJGXjkRnOHNjIUS2hUkklkjeBZnUuV8t8xkq/Q+QSHPxq3qFO96S9p1RtMA2Y
+NMrv/AHWiYjXCFvM8YkfhE5wj/A74SuCOYpuA1NNinMao1aLfQoc/3cjnqGtCtd4
+odIcXh1eyJNWA+duZAHE9pq3A0u/rEyGNuuH0N1BGkKFJ+eET5rCEWMr1LtF8y5r
+Hm1sA0gBSC41FecAcwFIfNxd0RPyPE014cA3zLMuO0z3HFJZe/b6XBRjumLKwOxI
+3X6ZZQjTnLYYYcOd4ka9i3TwmkD1VNmtOaxXqYEq/IY/WROzJnqqyhuXBkOlhMia
+ynGU19rwXnxVGsRKL9bB4QjsUzRQ9+w7J7W3MDWQcyqHjd+ULCMQ/67DIXjHWejr
+T/t1Npd32kFbBNiBYjVhAgwCFmAnP4Aj2jwOht3/va6pg6T3wT8VKroHjtpcOWVW
+3bMdl08moNs0bM0GCyjKGa+7bi0b5XblYfwegOgrGwvwGLuv8GOGhkM+2hdTZrMp
+gYQvkD8nFJIHsFyjQWFHnZ9pKXfSgsXrvim4w5TD7UblykyGwFR/E3OR4cI8+8JU
+9vDkXJAbKk3Gg1y+kjPol43c
+=9Ypu
+-----END PGP SIGNATURE-----
+
+--===============2356547239984942126==--
