@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1795298792297473424=="
+Content-Type: multipart/mixed; boundary="===============9035829236033873432=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Wed, 02 Apr 2025 14:30:37 -0000
-Message-Id: <174360423788.2633498.3657304529306546745@gitolite.kernel.org>
+Date: Wed, 02 Apr 2025 14:30:49 -0000
+Message-Id: <174360424910.2633804.17458433902128296962@gitolite.kernel.org>
 
---===============1795298792297473424==
+--===============9035829236033873432==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,46 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 26a80762153ba0dc98258b5e6d2e9741178c5114
-    new: fe43b5e8b5b604e939ecc6d28de2c9216357daac
-    log: revlist-26a80762153b-fe43b5e8b5b6.txt
+  - ref: refs/heads/nfsd-testing
+    old: 8ac4577d204541e0a41a054ce2584ea4e9004212
+    new: 7cac8ea8a76e0c88d6a3b0e9234395b87ee4a6dc
+    log: revlist-8ac4577d2045-7cac8ea8a76e.txt
 
---===============1795298792297473424==
+--===============9035829236033873432==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-26a80762153b-fe43b5e8b5b6.txt
+Content-Disposition: attachment; filename=revlist-8ac4577d2045-7cac8ea8a76e.txt
 
-fce8b8d5986b76a4fdd062e3eec1bb6420fee6c5 crypto: remove obsolete 'comp' compression API
-ca17aa664054a5b809dc823ff1c202370ef398ef crypto: lib/chacha - remove unused arch-specific init support
-5a06ef1f8da226b2de587e22c17f88b72cede3be crypto: scompress - Fix incorrect stream freeing
-27b13425349e94ad77b174b032674097cab241c8 crypto: api - Call crypto_alg_put in crypto_unregister_alg
-fdd305803bc1eb59c300503fb37911330692ef69 crypto: essiv - Replace memcpy() + NUL-termination with strscpy()
-52fc80729b06501c5609b91b168be8d9d5d79994 leds: mlxcpld: Remove unused ACPI header inclusion
-161e3bea8fa5ba34b2291e5cfeb3e533cf991613 leds: nic78bx: Tidy up ACPI ID table
-624f177d8f62032b4f3343c289120269645cec37 landlock: Move code to ease future backports
-15383a0d63dbcd63dc7e8d9ec1bf3a0f7ebf64ac landlock: Add the errata interface
-48fce74fe209ba9e9b416d7100ccee546edc9fc6 landlock: Add erratum for TCP fix
-6d9ac5e4d70eba3e336f9809ba91ab2c49de6d87 landlock: Prepare to add second errata
-ddbc194589e20ec0470a97715b2025e89e627cc5 mfd: cgbc: Add support for HWMON
-2b4d2bdc07a152b3869f7888f64f37d4b09ae58e dt-bindings: mfd: syscon: Add microchip,sama7d65-ddr3phy
-7e3ff6785039796728a515ea6e07378823e71be1 dt-bindings: mfd: syscon: Add microchip,sama7d65-sfrbu
-a8d1376568619d5b7fb867929b01eeaa59bb9097 mfd: cgbc-core: Add support for conga-SA8
-8ce2a15b1e6464a8681fb2f787602fc78f8e2f39 arm: defconfig: drop RT_GROUP_SCHED=y from bcm2835/tegra/omap2plus
-0b1b5161648f35fb96967fb9d80965614657a84e ALSA: hda/realtek: fix micmute LEDs on HP Laptops with ALC3315
-78f4ca3c6f6fd305b9af8c51470643617df85e11 ALSA: hda/realtek: fix micmute LEDs on HP Laptops with ALC3247
-e8e472d0c5a410227bbde2bba6eb0f428eaf761c Merge tag 'asoc-fix-v6.14-rc7' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-16746ce8adfe04f9ff8df75c1133286ba93c0e17 hwmon: (acpi_power_meter) Replace the deprecated hwmon_device_register
-73d51cb9396b10f98851c64adb625d0074e24120 dt-bindings: hwmon: Drop stray blank line in the header
-807d47a6dc054859eef90066516ae4f44fe22e6d Merge tag 'i2c-host-fixes-6.14-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-current
-5208cc34bb720649cebbf6e7e4e77feda0880cf0 irqdomain: remoteproc: Switch to of_fwnode_handle()
-5a4dd520ef8a94ecf81ac77b90d6a03e91c100a9 ASoC: amd: yc: update quirk data for new Lenovo model
-9ef52d529bb75071e03cf85078f724d69c4abe89 ASoC: SDCA: Correct handling of selected mode DisCo property
-80bb29fe1717a6c8a4501648781141e2280ef3b5 irqdomain: platform/x86: Switch to irq_domain_create_linear()
-cb90c8df91d08aebb62ef77bd1c7f41a31bdc924 Merge tag 'sched-urgent-2025-03-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-5c7474b5449ccda2f0139e87425845baa2dae15a Merge tag 'perf-urgent-2025-03-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-b3e8dc1143b93e0048c631eeb2947584960da33b platform/x86: thinkpad_acpi: convert timeouts to secs_to_jiffies()
 96b8f4658b70ac2efe543ddbeb328b5b1941a571 platform/x86/amd/pmf: convert timeouts to secs_to_jiffies()
 3fed9fda150d393d3f3f91a5631dab1e0c15d582 net: remove sb1000 cable modem driver
 f82d27dcff939d3cbecbc60e1b71e2518c37e81d drm/amdkfd: set precise mem ops caps to disabled for gfx 11 and 12
@@ -1050,5 +1021,34 @@ bf0d2150af44e064d27fb4b4903316ecf3a73192 NFSD: Implement CB_SEQUENCE referring c
 44994ec1c2af65c8558691e4349fb7b543fa7bc1 NFSD: fix race between nfsd registration and exports_proc
 886f85b504b3bdbb0d4361faa51a155b404925b8 NFSD: Add /sys/kernel/debug/nfsd
 fe43b5e8b5b604e939ecc6d28de2c9216357daac NFSD: Add experimental setting to disable the use of splice read
+e20ef2bd835ca8c6e4b835a8e3f7cfa09957b7ab nfsd: remove redundant WARN_ON_ONCE in nfsd4_write
+803e5fc652961c2b90aae8cfcb7727c7c512bdca nfsd: fix access checking for NLM under XPRTSEC policies
+b4804ca4fc70991975a29098f66cf688e4faf9d7 nfsd: adjust nfsd4_spo_must_allow checking order
+38e0f01ed7afae82e7f89911b6fe3441ccd6cd04 nfsd: nfsd4_spo_must_allow() must check this is a v4 compound request
+ed81ef9262986c84c398e2d98665b6fed896692b nfsd: reset access mask for NLM calls in nfsd_permission
+f1ed09918a928f83ee5eda717f967134b4fe8b5e Add include entries for NFSv4 POSIX draft ACLs
+27e3c8e82b4196c13e4c3d80ce1373effb1871b2 Add include entries for the POSIX draft ACL attributes
+cda269432bacdedc0936da9fdaf83612e1e1cf67 Fix up a comment that specifies the draft
+ad3677651e4b63cb50eca02aeb0c254bb6eb4d82 Add a new ACL function to get a POSIX ACL
+985a899e44ec1148e3daa4d2be5805197cbf4419 Add a new function to set a POSIX draft ACL
+55d024cfaa741b733b7a43fb7be45f4580b1b799 Add the FATTR4_xxx bits for the POSIX draft ACL attributes
+4b4bc0102fa2684640d744b1a5042df18492278e Add fields for the default and access POSIX ACLs
+e1c221496f511ce0627a71c527b51fd211f8aa59 Add handling of the XDR for the POSIX draft ACL attributes
+94700c5ded3133b59c1bbce59cff014ccefb346b Add a check to ensure POSIX and NFSv4 ACLs are not both being set
+bf25b38591e6fa61bbcdb275b3dd900db14a677a No need to check for a NULL acl pointer
+1e60b33e743e27757e3faeea26c44db7833cc6df Add na_dpaclerr and na_paclerr for file creation
+95ae38b7204025b9b8ad67bba48c0fa0d4f64ac2 Add support for POSIX draft ACLs for file object creation
+fc5a004cfbb74364a1fffe735aade62c51f5455b Decode the POSIX draft ACLs for file object creation
+e9889cd70148db0ccfea91bac888e65f78ffe82c Fix the posix acl release function names
+3fa681bea66201df357c9568cdab76cff84d179f Fix a couple of bugs in POSIX ACL decoding
+efe47c476a5c7300a50600b5fe9bec72a5ecec63 NFSD: Fix compiler warnings due to incorrect format specifiers
+a8b997e90e1505230264956e228d05f99dd02e76 Clarify the comment and use 3 * XDR_UNIT instead of 12.
+e54efbe6f629704ecec708df9542be099b801398 Fix indentation of switch statements
+940d359bc9ed5fb8eb992808a0314553ced05f76 Fix the array index for word2
+f45cb9c94612a619b81ad5ab50379c1d16db9915 Improve correctness for the ACL_TRUEFORM attribute reply
+1b8fcdc6f481c580d9724b8d8e66d17d4d8ed091 Make sort_pacl_range() global
+5ec62195ba6b21840281c0dff93fd446edce6430 Call sort_pacl_range() for decoded POSIX draft ACLs
+6925c893db40e0b21413dec7504ac6c281ab5469 Fix handling of POSIX draft default ACLs
+7cac8ea8a76e0c88d6a3b0e9234395b87ee4a6dc Fix handling of zero length ACLs for file object creation
 
---===============1795298792297473424==--
+--===============9035829236033873432==--
