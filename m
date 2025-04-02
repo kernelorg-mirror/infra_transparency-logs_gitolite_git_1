@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 02 Apr 2025 15:07:00 -0000
-Message-Id: <174360642011.2665462.5053830032776986736@gitolite.kernel.org>
+Date: Wed, 02 Apr 2025 15:07:12 -0000
+Message-Id: <174360643211.2665775.18075366090233053278@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: 3b199a58cc585f423a85af2e57045c9a783361bb
+  - ref: refs/heads/pending
+    old: 52bb81d3a6787a35d81df2057f7190736ce4723d
     new: 31e98e277ae47f56632e4d663b1d4fd12ba33ea8
     log: |
          c426497fa2055c8005196922e7d29c41d7e0948a wifi: ath12k: Fix memory leak due to multiple rx_stats allocation
