@@ -1,56 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============7945493488167128718=="
+Content-Type: multipart/mixed; boundary="===============2486410398648590601=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Wed, 02 Apr 2025 12:12:02 -0000
-Message-Id: <174359592239.2512361.10152908539185824487@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
+Date: Wed, 02 Apr 2025 12:12:03 -0000
+Message-Id: <174359592301.2512427.11891005355923268194@gitolite.kernel.org>
 
---===============7945493488167128718==
+--===============2486410398648590601==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/powerpc/linux
+user: mpe
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 6e7144ff668100c2cc206bbb0410980327b43116
-    new: 9e11e105d8ac3741bb37783afad7a59d68b2edaf
-    log: |
-         9e11e105d8ac3741bb37783afad7a59d68b2edaf move ./cve/published/2023/CVE-2023-52990.vulnerable to the rejected dir
-         
+  - ref: refs/tags/powerpc-6.15-2
+    old: 0000000000000000000000000000000000000000
+    new: f7f2805629e256f8db97ed78beea470bec1aca56
 
---===============7945493488167128718==
+--===============2486410398648590601==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1743595864 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1743595919-4f7999b2bfa19e1b085fad0dfadd0b4c06b6b737
+pusher 63BE2D79AEFD13493684F92205D280035FCB1E21 1743595952 +1100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
+nonce 1743595921-70b9148c887a013713553ed76e6907c70d01ea09
 
-6e7144ff668100c2cc206bbb0410980327b43116 9e11e105d8ac3741bb37783afad7a59d68b2edaf refs/heads/master
+0000000000000000000000000000000000000000 f7f2805629e256f8db97ed78beea470bec1aca56 refs/tags/powerpc-6.15-2
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmftKVgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PWIQALPoXYauTB7qNCEnKxb4
-HNl3GF2jp7KrpuUV1sKbmVkVioFwh9R0u9kKNc3BoPjrmIfokvCySf34OUDtauMF
-qKYIGPp2OYDzcb5vkpVvM/Rh0uqNPsNq0sFctQW4xmgnvN4OXIfQ7ywb6j/cLG5s
-RIm4v5nXU7gYigoKEXYvdX6ej+8iX99w4o7snb7mvpYEX9rINS8/tID+1sAnwRfs
-VffcwPDOYDwgxFyPav01+3lPM4dIbPYuid6eOUPEK5tUadyTxP/95tPXM0bNHRaZ
-F7YYBTxXNZ+Iwne3RIAHJNk2FwpwXvxgbea3DIOBdzHKYSQXqdEHiySa7iTqsAVQ
-RZjJST5F5wTItLO2h2R0we7zG/WXtixkjrv6ES9LtPNykbCPinVqkd9UwqAzvHeW
-03eOLu5F/ulsxXOt4Dcd/b3CRcTNGOkIqc+pmOc3aLYBDtWgJJnY74SMHdZq6Qkf
-MpL00cai30Tl6K6PymEW9vDj++VYb5hTCPD3KN0GdO+nX7y7N4am2VGvrEBA3ddJ
-vgVlxNCURSj43igu3F0fVQY/bjsdHS5Nm7tU1TsS4zjkz+SLL3tO9p75foZoE4U7
-YJwjAXruI8+fLCUnX3duViUwT00AlI7c9e3gMOBEZMyMzY1MLK4LR5xPV5hYxzV3
-1pingW7SGbYqMPcGPYWYZogg
-=h+Ee
+iHUEABYKAB0WIQRjvi15rv0TSTaE+SIF0oADX8seIQUCZ+0psAAKCRAF0oADX8se
+ISIuAP41fHE8pqGoWNxeefALW6qoEIu0hwBHIyKCAAI6tYySZwD9GsxHpy7LHT/S
+yZscqWpskoCyncJ0gy8/+cEf5jRP9gg=
+=h1ZY
 -----END PGP SIGNATURE-----
 
---===============7945493488167128718==--
+--===============2486410398648590601==--
