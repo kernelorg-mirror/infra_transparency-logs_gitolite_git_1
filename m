@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2552195577485545954=="
+Content-Type: multipart/mixed; boundary="===============6306074869804805606=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 02 Apr 2025 19:16:13 -0000
-Message-Id: <174362137393.2880326.14482165307497572060@gitolite.kernel.org>
+Date: Wed, 02 Apr 2025 19:16:45 -0000
+Message-Id: <174362140522.2880837.1884039695415666076@gitolite.kernel.org>
 
---===============2552195577485545954==
+--===============6306074869804805606==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,18 +16,33 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 1c13554a1d43317fe9009837ef6524f808e107b7
-    new: 7e61cfe47974cedb34349ee0bca5c1e9854be473
-    log: revlist-1c13554a1d43-7e61cfe47974.txt
+    old: 7e61cfe47974cedb34349ee0bca5c1e9854be473
+    new: 0780b7abeef2d857ae695c04d57d997df92efe5e
+    log: |
+         ad413af1d38b7d4074b63725d13b255dddde8654 Merge branch into tip/master: 'perf/urgent'
+         dfb7978ced37f30e0f84ed2a779241bde3f650da Merge branch into tip/master: 'sched/urgent'
+         ce010e52b44bf8cda84f731e7c5de9a6e6d6cdf1 Merge branch into tip/master: 'x86/urgent'
+         4432c3ae9605e126a49d2fa418dedddef907cc6b Merge branch into tip/master: 'sched/core'
+         67af6cfd7a427b905d161178a12b550f41648cb8 Merge branch into tip/master: 'x86/alternatives'
+         bbe1e0ae686f7d34d6a01da2e219c373df87150b Merge branch into tip/master: 'x86/asm'
+         5ced664b7e42106641a56957426511dcc9b5113f Merge branch into tip/master: 'x86/cpu'
+         14c68bee7ea5145983740da2750cf9b5e7f29197 Merge branch into tip/master: 'x86/fpu'
+         3b71660f2f03e474f3256ee1987d1a7aa57600a1 Merge branch into tip/master: 'x86/kconfig'
+         cb3cb347b61907837b1d1478a9d7ad1afb470354 Merge branch into tip/master: 'x86/mm'
+         26018925cc11d0d964561c11e280a197da9f6d7c Merge branch into tip/master: 'x86/nmi'
+         0780b7abeef2d857ae695c04d57d997df92efe5e Merge branch into tip/master: 'x86/tdx'
+         
+  - ref: refs/heads/tip/urgent
+    old: d5cfe793201ffebcdc41b3495393d0cc464dcc25
+    new: ce010e52b44bf8cda84f731e7c5de9a6e6d6cdf1
+    log: revlist-d5cfe793201f-ce010e52b44b.txt
 
---===============2552195577485545954==
+--===============6306074869804805606==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1c13554a1d43-7e61cfe47974.txt
+Content-Disposition: attachment; filename=revlist-d5cfe793201f-ce010e52b44b.txt
 
-e4c569742b600dad560bbf62dd4d4f53cd7a19c7 iio: addac: ad74413r: Stop using iio_device_claim_direct_scoped()
-5e802eed70b140dd267811f881c345c2eda6cd0d iio: chemical: ens160: Stop using iio_device_claim_direct_scoped()
 798fa301e19ffc8fc23e5d8c9ea2078e5bc9796a iio: dac: ad3552r-hs: Stop using iio_device_claim_direct_scoped()
 41a316c8e531bc14d84918d29f3cac04caa2f003 iio: dac: ad8460: Stop using iio_device_claim_direct_scoped()
 73dad3ec96ae3f2da947ff0396c2910bd73f00a2 iio: dummy: Stop using iio_device_claim_direct_scoped()
@@ -1049,6 +1064,8 @@ acc4d5ff0b61eb1715c498b6536c38c1feb7f3c1 Merge tag 'net-6.15-rc0' of git://git.k
 da0512b2a3b4124b1483751f090d7ac13a713f0e Merge tag 'rcu-fixes-v6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/rcu/linux
 af54a3a151691a969b04396cff15afe70d4da824 Merge tag 'printk-for-6.15-2' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
 92b71befc349587d58fdbbe6cdd68fb67f4933a8 Merge tag 'objtool-urgent-2025-04-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-7e61cfe47974cedb34349ee0bca5c1e9854be473 Merge branch 'linus'
+ad413af1d38b7d4074b63725d13b255dddde8654 Merge branch into tip/master: 'perf/urgent'
+dfb7978ced37f30e0f84ed2a779241bde3f650da Merge branch into tip/master: 'sched/urgent'
+ce010e52b44bf8cda84f731e7c5de9a6e6d6cdf1 Merge branch into tip/master: 'x86/urgent'
 
---===============2552195577485545954==--
+--===============6306074869804805606==--
