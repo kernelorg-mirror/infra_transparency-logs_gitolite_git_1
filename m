@@ -1,78 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============1688565935549874743=="
+Content-Type: multipart/mixed; boundary="===============5665318622544679568=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 02 Apr 2025 12:13:08 -0000
-Message-Id: <174359598882.2513309.12963862312570460989@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Wed, 02 Apr 2025 12:18:10 -0000
+Message-Id: <174359629055.2517620.18018076708955614959@gitolite.kernel.org>
 
---===============1688565935549874743==
+--===============5665318622544679568==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-linus
-    old: 8983dc1b66c0e1928a263b8af0bb06f6cb9229c4
-    new: 02dc9b9617e4d2b93676f0ea1de797e1da8e7c37
-    log: revlist-8983dc1b66c0-02dc9b9617e4.txt
-  - ref: refs/heads/for-next
-    old: 8983dc1b66c0e1928a263b8af0bb06f6cb9229c4
-    new: 02dc9b9617e4d2b93676f0ea1de797e1da8e7c37
-    log: revlist-8983dc1b66c0-02dc9b9617e4.txt
   - ref: refs/heads/master
-    old: 43acd0f5c2cc52d8b93ed05fdc0ae125269db119
-    new: bcc1bbb4e3fd80189e0c6f7389b66447bfa781b7
-    log: revlist-43acd0f5c2cc-bcc1bbb4e3fd.txt
+    old: 9e11e105d8ac3741bb37783afad7a59d68b2edaf
+    new: 9687a73941c08a5e4dc152695d6333d2816d08a9
+    log: |
+         e67265fd76cc209c3b6aa0285c278997acf78159 add .vulnerable id for CVE-2025-21915
+         3e54c012981a42e453f67e12e4edae25a8376b64 add .vulnerable id for several ksmbd CVEs
+         a23351fc24f0a4c2c011b7692c8ca819905aa499 add .vulnerable id for CVE-2025-21949
+         9687a73941c08a5e4dc152695d6333d2816d08a9 updates based on new .vulnerable files
+         
 
---===============1688565935549874743==
+--===============5665318622544679568==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8983dc1b66c0-02dc9b9617e4.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-2593f7e0dc93a898a84220b3fb180d86f1ca8c60 firmware: cs_dsp: Ensure cs_dsp_load[_coeff]() returns 0 on success
-ed3b274abc4008efffebf1997968a3f2720a86d3 ASoC: codecs: wsa883x: Correct VI sense channel mask
-060fac202eb8e5c83961f0e0bf6dad8ab6e46643 ASoC: codecs: wsa884x: Correct VI sense channel mask
-012a6efcc805308b1d90a1056ba963eb08858645 ASoC: sma1307: Fix error handling in sma1307_setting_loaded()
-7e010a045330cbfea0ee052b4678f78849bc7303 ASoC: codecs: wsa88xx: Correct VI sense channel mask
-7eccc86e90f04a0d758d16c08627a620ac59604d ASoC: qdsp6: q6asm-dai: fix q6asm_dai_compr_set_params error path
-7d783d9074cb1d54179ca03df514fe4b0bbae5ab ASoC: SOF: hda/ptl: Move mic privacy change notification sending to a work
-3d4a4411aa8bbc3653ff22a1ff0432eb93d22ae0 ASoC: q6apm-dai: schedule all available frames to avoid dsp under-runs
-0badb5432fd525a00db5630c459b635e9d47f445 ASoC: q6apm: add q6apm_get_hw_pointer helper
-3107019501842c27334554ba9d6583b1f200f61f ASoC: qdsp6: q6apm-dai: set 10 ms period and buffer alignment.
-5d01ed9b9939b4c726be74db291a982bc984c584 ASoC: qdsp6: q6apm-dai: fix capture pipeline overruns.
-a93dad6f4e6a04a5943f6ee5686585f24abf7063 ASoC: q6apm-dai: make use of q6apm_get_hw_pointer
-1ebd4944266e86a7ce274f197847f5a6399651e8 ASoC: codecs: rt5665: Fix some error handling paths in rt5665_probe()
-cc80b44b69fde7806f01739e47b965a149c13492 ASoC: q6apm: fix under runs and fragment sizes
-93d34608fd162f725172e780b1c60cc93a920719 ASoC: imx-card: Add NULL check in imx_card_probe()
-02dc9b9617e4d2b93676f0ea1de797e1da8e7c37 Merge tag 'asoc-fix-v6.15-merge-window' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1743596235 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1743596290-a8abbf5837507056e3b7f3f170511c14aa02b94d
 
---===============1688565935549874743==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-43acd0f5c2cc-bcc1bbb4e3fd.txt
+9e11e105d8ac3741bb37783afad7a59d68b2edaf 9687a73941c08a5e4dc152695d6333d2816d08a9 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
 
-2593f7e0dc93a898a84220b3fb180d86f1ca8c60 firmware: cs_dsp: Ensure cs_dsp_load[_coeff]() returns 0 on success
-ed3b274abc4008efffebf1997968a3f2720a86d3 ASoC: codecs: wsa883x: Correct VI sense channel mask
-060fac202eb8e5c83961f0e0bf6dad8ab6e46643 ASoC: codecs: wsa884x: Correct VI sense channel mask
-012a6efcc805308b1d90a1056ba963eb08858645 ASoC: sma1307: Fix error handling in sma1307_setting_loaded()
-7e010a045330cbfea0ee052b4678f78849bc7303 ASoC: codecs: wsa88xx: Correct VI sense channel mask
-7eccc86e90f04a0d758d16c08627a620ac59604d ASoC: qdsp6: q6asm-dai: fix q6asm_dai_compr_set_params error path
-7d783d9074cb1d54179ca03df514fe4b0bbae5ab ASoC: SOF: hda/ptl: Move mic privacy change notification sending to a work
-3d4a4411aa8bbc3653ff22a1ff0432eb93d22ae0 ASoC: q6apm-dai: schedule all available frames to avoid dsp under-runs
-0badb5432fd525a00db5630c459b635e9d47f445 ASoC: q6apm: add q6apm_get_hw_pointer helper
-3107019501842c27334554ba9d6583b1f200f61f ASoC: qdsp6: q6apm-dai: set 10 ms period and buffer alignment.
-5d01ed9b9939b4c726be74db291a982bc984c584 ASoC: qdsp6: q6apm-dai: fix capture pipeline overruns.
-a93dad6f4e6a04a5943f6ee5686585f24abf7063 ASoC: q6apm-dai: make use of q6apm_get_hw_pointer
-1ebd4944266e86a7ce274f197847f5a6399651e8 ASoC: codecs: rt5665: Fix some error handling paths in rt5665_probe()
-cc80b44b69fde7806f01739e47b965a149c13492 ASoC: q6apm: fix under runs and fragment sizes
-93d34608fd162f725172e780b1c60cc93a920719 ASoC: imx-card: Add NULL check in imx_card_probe()
-02dc9b9617e4d2b93676f0ea1de797e1da8e7c37 Merge tag 'asoc-fix-v6.15-merge-window' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-bcc1bbb4e3fd80189e0c6f7389b66447bfa781b7 Merge branch 'for-linus'
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmftKssbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qccP/2COEMEqoiyBs/D+ARal
+SNgUXv7DFXwDeSjcjAK5IS4iiZpcn05KjTVP7R0kwE9kHPAltp781zYVJC3fdjs4
+cstYCTDaalcdNaVbYCDrNjhOVmv68mhDBM9szp/4VSJUadtJEjVPAtViFNFWZBkS
+vZhvZaLt2WxcfZnXP4mHFB4UPvY5VTmWsT4eHoaKBMZtGvUMFYUBxJVrjbi2UYy4
+5t6e+81U51pklqfZzF3q1IQnrIpsewhwtv1GPDGl4ORA8UZLOIanXynh20FaGJ0z
+uOCzom5nMIxucWG/8TuqnIqgniBPttUruLds8XMhXAtFIDCy2zWoLazQ8PUc3ery
+1VbwTRcsyCD5bFGcYgWNl2CIWUG45EtQfY+hqo6jRhT7oOIOAIxwpITpQXORzvK0
+mVQS9vl+IJChveITOI758AJkmy3+Co/Vf0kSuCrlMqidk4rGuCar7Odx6sdKlAvC
+DoHaBooBh3/os3nRD99PgawWvqShuI39EBBs9K/7cRiSbpXTRUFK8hcI1tr3CEHq
+3tIAQCRU6ISAuu0NkZ7ODdZsGGeY/yPcR2/RBg1ggD32UR0/05lRDpfmfDw454N2
+tiRuVblhDnLzG2wHewlk/teEpa52xpGCTmq2EZYlSZLBgeJGh8duIbGvh/FxZnd0
+yC2hZQYxNPgIWVqEWQJUwGrH
+=6WgG
+-----END PGP SIGNATURE-----
 
---===============1688565935549874743==--
+--===============5665318622544679568==--
