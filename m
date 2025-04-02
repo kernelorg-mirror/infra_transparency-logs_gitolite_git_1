@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 02 Apr 2025 07:27:03 -0000
-Message-Id: <174357882353.2240248.8732078605470428958@gitolite.kernel.org>
+Date: Wed, 02 Apr 2025 07:28:01 -0000
+Message-Id: <174357888172.2240902.12752332890422202280@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,21 +12,21 @@ repo: pub/scm/linux/kernel/git/tiwai/sound
 user: tiwai
 changes:
   - ref: refs/heads/for-linus
-    old: 986da36806b1a45b8502f0cc23cfcc685c8f2a1c
-    new: d1faa3b4398b87dcd9154d15a23ec32d47bd30ea
+    old: d1faa3b4398b87dcd9154d15a23ec32d47bd30ea
+    new: 22c7f77247a84d27b785ec5b706f673421ab269d
     log: |
-         d1faa3b4398b87dcd9154d15a23ec32d47bd30ea ALSA: hda/realtek - Support mute led function for HP platform
+         22c7f77247a84d27b785ec5b706f673421ab269d ALSA: hda/realtek - Support mute led function for HP platform
          
   - ref: refs/heads/for-next
-    old: 986da36806b1a45b8502f0cc23cfcc685c8f2a1c
-    new: d1faa3b4398b87dcd9154d15a23ec32d47bd30ea
+    old: d1faa3b4398b87dcd9154d15a23ec32d47bd30ea
+    new: 22c7f77247a84d27b785ec5b706f673421ab269d
     log: |
-         d1faa3b4398b87dcd9154d15a23ec32d47bd30ea ALSA: hda/realtek - Support mute led function for HP platform
+         22c7f77247a84d27b785ec5b706f673421ab269d ALSA: hda/realtek - Support mute led function for HP platform
          
   - ref: refs/heads/master
-    old: d5245d5babb0ff601f3091c4d3f212ee725d05fa
-    new: c7f1f9031d8f515340a44a13593aaa9ea86654ab
+    old: c7f1f9031d8f515340a44a13593aaa9ea86654ab
+    new: 8df3b94126ef65ff7dcbb68917470ffe8807dfd5
     log: |
-         d1faa3b4398b87dcd9154d15a23ec32d47bd30ea ALSA: hda/realtek - Support mute led function for HP platform
-         c7f1f9031d8f515340a44a13593aaa9ea86654ab Merge branch 'for-linus'
+         22c7f77247a84d27b785ec5b706f673421ab269d ALSA: hda/realtek - Support mute led function for HP platform
+         8df3b94126ef65ff7dcbb68917470ffe8807dfd5 Merge branch 'for-linus'
          
