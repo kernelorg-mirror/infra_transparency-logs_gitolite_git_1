@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Wed, 02 Apr 2025 22:57:35 -0000
-Message-Id: <174363465589.3075586.17953242122747178606@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 02 Apr 2025 23:01:34 -0000
+Message-Id: <174363489467.3079750.5516261143353810068@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/ring-buffer/fixes
-    old: 028a58ec154257e618c27fb0eba8d9e30379bc3d
-    new: e4d4b8670c44cdd22212cab3c576e2d317efa67c
+  - ref: refs/heads/main
+    old: acc4d5ff0b61eb1715c498b6536c38c1feb7f3c1
+    new: 078aabd567de3d63d37d7673f714e309d369e6e2
     log: |
-         c44a14f216f45d8bf1634b52854a699d7090f1e8 tracing: Enforce the persistent ring buffer to be page aligned
-         34ea8fa084dd96a2e130ec871ade9ed3003f7eea tracing: Have reserve_mem use phys_to_virt() and separate from memmap buffer
-         394f3f02de5311ea976dd8046304194d22329bbc tracing: Use vmap_page_range() to map memmap ring buffer
-         e4d4b8670c44cdd22212cab3c576e2d317efa67c ring-buffer: Use flush_kernel_vmap_range() over flush_dcache_folio()
+         078aabd567de3d63d37d7673f714e309d369e6e2 netlabel: Fix NULL pointer exception caused by CALIPSO on IPv4 sockets
          
