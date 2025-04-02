@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
-Date: Wed, 02 Apr 2025 05:56:17 -0000
-Message-Id: <174357337739.2168245.1595134991825337674@gitolite.kernel.org>
+Date: Wed, 02 Apr 2025 05:57:38 -0000
+Message-Id: <174357345891.2169078.11293638017902102973@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/boqun/linux
 user: boqun
 changes:
-  - ref: refs/heads/dev-shazptr
-    old: 5fe5309c7100ecd0abeb805a0bbc94817c63028e
-    new: 8e60e1ed2cbf3c817b1c07cd533f96470f065471
+  - ref: refs/heads/rust-thread
+    old: cfff97083d56d7a0f53230aa88a1602696cc0c6e
+    new: 49cb8471b5a4815cafe2503033d20615c5b6b1f3
     log: |
-         8e60e1ed2cbf3c817b1c07cd533f96470f065471 WIP: shazptr: Avoid busy waiting for wildcard slots
+         70555ec2cc6435d808d907786e14f1ce08a179ed kthread: Add kthread_start()
+         49cb8471b5a4815cafe2503033d20615c5b6b1f3 rust: task: Add kernel thread support
          
