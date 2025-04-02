@@ -1,32 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 02 Apr 2025 07:43:16 -0000
-Message-Id: <174357979696.2253668.11975970386651331853@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
+Date: Wed, 02 Apr 2025 07:49:45 -0000
+Message-Id: <174358018515.2259309.6590783433804802307@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/tj/cgroup
+user: tj
 changes:
-  - ref: refs/heads/for-linus
-    old: 22c7f77247a84d27b785ec5b706f673421ab269d
-    new: 8983dc1b66c0e1928a263b8af0bb06f6cb9229c4
+  - ref: refs/heads/for-6.15-fixes
+    old: 7d6c63c3191427a69ffd1383146df01f695d6195
+    new: a22b3d54de94f82ca057cc2ebf9496fa91ebf698
     log: |
-         8983dc1b66c0e1928a263b8af0bb06f6cb9229c4 ALSA: hda/realtek: Fix built-in mic on another ASUS VivoBook model
+         a22b3d54de94f82ca057cc2ebf9496fa91ebf698 cgroup/cpuset: Fix race between newly created partition and dying one
          
   - ref: refs/heads/for-next
-    old: 22c7f77247a84d27b785ec5b706f673421ab269d
-    new: 8983dc1b66c0e1928a263b8af0bb06f6cb9229c4
+    old: c6eb12e37b38bfce07087b500c60b2c80da655ed
+    new: 765962b98e85ed313a0cba5d80bf5ba6870cd12d
     log: |
-         8983dc1b66c0e1928a263b8af0bb06f6cb9229c4 ALSA: hda/realtek: Fix built-in mic on another ASUS VivoBook model
-         
-  - ref: refs/heads/master
-    old: 8df3b94126ef65ff7dcbb68917470ffe8807dfd5
-    new: 43acd0f5c2cc52d8b93ed05fdc0ae125269db119
-    log: |
-         8983dc1b66c0e1928a263b8af0bb06f6cb9229c4 ALSA: hda/realtek: Fix built-in mic on another ASUS VivoBook model
-         43acd0f5c2cc52d8b93ed05fdc0ae125269db119 Merge branch 'for-linus'
+         a22b3d54de94f82ca057cc2ebf9496fa91ebf698 cgroup/cpuset: Fix race between newly created partition and dying one
+         765962b98e85ed313a0cba5d80bf5ba6870cd12d Merge branch 'for-6.15-fixes' into for-next
          
