@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Wed, 02 Apr 2025 20:29:02 -0000
-Message-Id: <174362574276.2947507.13536519491962170917@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 02 Apr 2025 20:37:26 -0000
+Message-Id: <174362624647.2955261.2204846155885061075@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/dev
-    old: aa360b19f1e63c1a014d3403f1ab903115f3ec50
-    new: 46907de078d99ccc20554d64fb0136369c3d42a3
+  - ref: refs/heads/x86/mm
+    old: 1f13c60d84e880df6698441026e64f84c7110c49
+    new: cdc018e6b1c403b6a94416acea4649f9778c68c0
     log: |
-         2e780ebb32a67bde83c8ed8810d73b20016d2d34 fixup! torture: Add testing of RCU's Rust bindings to torture.sh
-         af38cd2317abd9a8ef4b0d900187563b8cad2f39 squash! ratelimit: Reduce ratelimit's false-positive misses
-         46907de078d99ccc20554d64fb0136369c3d42a3 squash! rcutorture: Make torture.sh --do-rt use CONFIG_PREEMPT_RT
+         1ae899e413105aa81068d0282ab6e22974891d74 x86/idle: Standardize argument types for MONITOR{,X} and MWAIT{,X} instruction wrappers on 'u32'
+         cd3b85b27542968198e3d588a2bc0591930ee2ee x86/idle: Use MONITOR and MWAIT mnemonics in <asm/mwait.h>
+         8ad521aaf7438e4fae996f51d02b960cc97a15a3 x86/idle: Remove .s output beautifying delimiters from simpler asm() templates
+         cdc018e6b1c403b6a94416acea4649f9778c68c0 x86/idle: Remove CONFIG_AS_TPAUSE
          
