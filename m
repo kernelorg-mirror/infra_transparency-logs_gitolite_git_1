@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0516931826107384975=="
+Content-Type: multipart/mixed; boundary="===============1125678632295083866=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 02 Apr 2025 15:21:36 -0000
-Message-Id: <174360729654.2681286.6222398193182485188@gitolite.kernel.org>
+Date: Wed, 02 Apr 2025 15:22:02 -0000
+Message-Id: <174360732222.2681746.14355588997465343182@gitolite.kernel.org>
 
---===============0516931826107384975==
+--===============1125678632295083866==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,94 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: e3cb4610cd4e000804df2336249d70b5dac25703
-    new: 5daec3a3e1642d6540bc754225c394c7f677447e
-    log: revlist-e3cb4610cd4e-5daec3a3e164.txt
+  - ref: refs/heads/1GbE
+    old: 1a9239bb4253f9076b5b4b2a1a4e8d7defd77a95
+    new: acc4d5ff0b61eb1715c498b6536c38c1feb7f3c1
+    log: revlist-1a9239bb4253-acc4d5ff0b61.txt
 
---===============0516931826107384975==
+--===============1125678632295083866==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e3cb4610cd4e-5daec3a3e164.txt
+Content-Disposition: attachment; filename=revlist-1a9239bb4253-acc4d5ff0b61.txt
 
+aaa5ae8f6d15c7f662b639ac8907c34794a4d52c btrfs: use BTRFS_PATH_AUTO_FREE in load_global_roots()
+72f2bae3c15ce54b0c38d7ee348de1ca74ef6de9 btrfs: use BTRFS_PATH_AUTO_FREE in btrfs_init_root_free_objectid()
+899c8798b59b16f7ffdc73e3766bfcf126cad483 btrfs: use BTRFS_PATH_AUTO_FREE in btrfs_get_name()
+2267214a05ca845385af500e79f271b8d25fe63c btrfs: use BTRFS_PATH_AUTO_FREE in btrfs_lookup_extent_info()
+e5344080cfcca41e8d32b3f016a444e5974d6760 btrfs: use BTRFS_PATH_AUTO_FREE in run_delayed_extent_op()
+3349ae34b75c790cf78aed64893599d0bec0e8ec btrfs: use BTRFS_PATH_AUTO_FREE in btrfs_lookup_bio_sums()
+c42c0db1bbcca13c130c5f1b1b802e1ded50b2e9 btrfs: use BTRFS_PATH_AUTO_FREE in btrfs_remove_free_space_inode()
+3bfd9ead8131e02516b3ac96a5df06788485d736 btrfs: use BTRFS_PATH_AUTO_FREE in populate_free_space_tree()
+2e70d126f9dcef0efba3711c7da8820ac1d036d2 btrfs: use BTRFS_PATH_AUTO_FREE in clear_free_space_tree()
+19eaf5fd8c73437bb1f70bc5a062bdc14f152c9a btrfs: use BTRFS_PATH_AUTO_FREE in load_free_space_tree()
+a66b39f699cbd9125c0f248d18fc1381265ee42c btrfs: sysfs: accept size suffixes for read policy values
+1a5b5668d711d3d1ef447446beab920826decec3 btrfs: prevent inline data extents read from touching blocks beyond its range
+0bb067ca64e35536f1f5d9ef6aaafc40f4833623 btrfs: fix the qgroup data free range for inline data extents
+d2da21a6e06c40b9fd380ada93f1b48279e48b16 btrfs: introduce a read path dedicated extent lock helper
+b2e743927fdd7ef83b865cb1a4ffd04faeecbfaa btrfs: make btrfs_do_readpage() to do block-by-block read
+0d31ca6584f21821c708752d379871b9fce2dc48 btrfs: allow buffered write to avoid full page read if it's block aligned
+9951ec02f255c7b1e6f684090f464268d4c45184 btrfs: allow inline data extents creation if block size < page size
+2ef9d73f2b3b7f9c9c36c2a5bab5f44381867c16 btrfs: remove the subpage related warning message
+23019d3e6617a8ec99a8d2f5947aa3dd8a74a1b8 btrfs: properly limit inline data extent according to block size
+306a75e647fe0ccb060d5098ee0829e418f01818 btrfs: allow debug builds to accept 2K block size
+5e54f9420fc9b8096d0a4b579a84806a3ef0bf88 btrfs: parameter constification in ioctl.c
+4e043cd196c85bf9958148a84df65e0585a554de btrfs: pass btrfs_root pointers to send ioctl parameters
+68dc1cb231e6a9d623e675a356f5e687ee574898 btrfs: pass root pointers to search tree ioctl helpers
+4f27a693940bcf313d17792ac4ec13a83f71cf25 btrfs: pass struct btrfs_inode to btrfs_sync_inode_flags_to_i_flags()
+f6c2ccfc3b6427626129f331e6058db878c9243d btrfs: simplify local variables in btrfs_ioctl_resize()
+f272c004d257fc55766d51ff6415dcf47662091b btrfs: pass struct to btrfs_ioctl_subvol_getflags()
+f6e8a436119fb29de7cdac0bbb4b616a2c6c8f9c btrfs: unify inode variable naming
+4c782247b89376a83fa132f7d45d6977edae0629 btrfs: fix non-empty delayed iputs list on unmount due to compressed write workers
+530b601b912c42900a37d849b8a3592c8a560432 btrfs: move __btrfs_bio_end_io() code into its single caller
+477a7a9c1f46b179ccc5eb2bbf18a0966055a464 btrfs: move btrfs_cleanup_bio() code into its single caller
+c01b7114b809bbd3804d8a5b7e397f87f4ce52cb btrfs: return a literal instead of a variable in btrfs_init_dev_replace()
+7ca3e84980ef6484a5c6f004aa180b61ce0c37d9 btrfs: reject out-of-band dirty folios during writeback
+cda76788f8b0f7de3171100e3164ec1ce702292e btrfs: fix non-empty delayed iputs list on unmount due to async workers
+9024b744e716819b0130673b9ae242e46b00b6cb btrfs: avoid unnecessary bio dereference at run_one_async_done()
+0c8337c22043511549162df877cf752566aeedb9 btrfs: send: remove unnecessary inode lookup at send_encoded_inline_extent()
+08f340767dde5fd302af5b94ce6ce2d5e38a233d btrfs: send: simplify return logic from send_encoded_extent()
+fc5c0c5825874859069ac44c367c724acd7190fb btrfs: defrag: extend ioctl to accept compression levels
+df94a342efb451deb0e32b495d1d6cd4bb3a1648 btrfs: run btrfs_error_commit_super() early
+7ef3cbf17d2734ca66c4ed8573be45f4e461e7ee btrfs: avoid linker error in btrfs_find_create_tree_block()
+a488d8ac2c4d96ecc7da59bb35a573277204ac6b btrfs: return a btrfs_inode from btrfs_iget_logging()
+b4c50cbb01a1b6901d2b94469636dd80fa93de81 btrfs: return a btrfs_inode from read_one_inode()
+14d063ec852f7020f4c2664ce4eb55f3466b3999 btrfs: pass a btrfs_inode to fixup_inode_link_count()
+b204e5c7d4dce859bc2feed7685baf656e234f6d btrfs: make btrfs_iget() return a btrfs inode instead
+92be661a57915e54ddf64d05cd67da8db314c13b btrfs: make btrfs_iget_path() return a btrfs inode instead
+f75a043737ecf1d9499e58739746af447643096f btrfs: remove unnecessary fs_info argument from create_reloc_inode()
+20faaab2c32f370d142b6ff1d0113fc9bf0e81f1 btrfs: remove unnecessary fs_info argument from delete_block_group_cache()
+f378b4c3e3e0f10ae7f62dab0071c85f22c628bf btrfs: remove unnecessary fs_info argument from btrfs_add_block_group_cache()
+2d8e5168d48a91e7a802d3003e72afb4304bebfa btrfs: fix block group refcount race in btrfs_create_pending_block_groups()
+7511e29cf1355b2c47d0effb39e463119913e2f6 btrfs: harden block_group::bg_list against list_del() races
+895c6721d310c036dcfebb5ab845822229fa35eb btrfs: make btrfs_discard_workfn() block_group ref explicit
+7cbce3cb4c5cfffd8b08f148e2136afc1ec1ba94 btrfs: explicitly ref count block_group on new_bgs list
+0497dfba98c00edbc7af12d53c0b1138eb318bf7 btrfs: codify pattern for adding block_group to bg_list
+009ca358486ded9b4822eddb924009b6848d7271 btrfs: tests: fix chunk map leak after failure to add it to the tree
+140ac522de14c1e44dde9ca69a4a1a853953c891 btrfs: simplify the return value handling in search_ioctl()
+10de00c7d4e3a12ffbb996e03aefcad0c107981d btrfs: remove unnecessary btrfs_key local variable in btrfs_search_forward()
+0aaaf10ae9aef82bf6589ced2510ff4e249cb3af btrfs: avoid redundant path slot assignment in btrfs_search_forward()
+19e60b2a95f5d6b77d972c7bec35a11e70fd118c btrfs: add extra warning if delayed iput is added when it's not allowed
+4c14d5c85503da0a21540b1fb80bf5abb723f16e btrfs: subpage: make btrfs_is_subpage() check against a folio
+cb3c11d2f5e11e274095fc162669c8d2b7a77944 btrfs: add a size parameter to btrfs_alloc_subpage()
+a416637f905f26b64658adb2fed2b79cc4fb0fda btrfs: replace PAGE_SIZE with folio_size for subpage.[ch]
+accaec2cbaac98c6225d50c792bc5c36af89bc58 btrfs: prepare btrfs_launcher_folio() for large folios support
+ebaa602d52cf6a726955af172c97b2abd950ded1 btrfs: prepare extent_io.c for future large folio support
+49990d8fa27d75f8ecf4ad013b13de3c4b1ff433 btrfs: prepare btrfs_page_mkwrite() for large folios
+9db9c7dd5b4e1d3205137a094805980082c37716 btrfs: don't clobber ret in btrfs_validate_super()
+e48264e601b39df3c8c75f3e7ae896d15cbbebcc btrfs: avoid unnecessary memory allocation and copy at overwrite_item()
+5fbfb3f01d298077ce749a0381369202f456a9f7 btrfs: use variables to store extent buffer and slot at overwrite_item()
+e0d5e3b743f93953229bbbf36d9ca5b4893b515e btrfs: update outdated comment for overwrite_item()
+6f7d81d88bf099b00ebba61eb9834e8b78862849 btrfs: use memcmp_extent_buffer() at replay_one_extent()
+37b0c3150bcb72fe51aa7c7660fcb54c06c84427 btrfs: remove redundant else statement from btrfs_log_inode_parent()
+26558ce574b86e7c81f28f3f10767fcab0f3abb3 btrfs: simplify condition for logging new dentries at btrfs_log_inode_parent()
+fe84a1e2358cddfb8282e9823ba0bb0e0c55e37a btrfs: remove end_no_trans label from btrfs_log_inode_parent()
+2bbc4a45e5eb6b868357c1045bf6f38f6ba576e0 btrfs: zoned: fix zone activation with missing devices
+35fec1089ebb5617f85884d3fa6a699ce6337a75 btrfs: zoned: fix zone finishing with missing devices
+517ec053eeb48f4fe96271b32b3df9c8e269a29c i2c: octeon: refactor common i2c operations
+c6d859cf287ed78f09b112815dbad94c850e39af dt-bindings: i2c: samsung,s3c2410: add exynos7870-i2c compatible
+fad3d2e3014957d99e4616bc1a698b8d719614b3 dt-bindings: i2c: exynos5: add exynos7870-hsi2c compatible
+be7113d2e2a6f20cbee99c98d261a1fd6fd7b549 i2c: pxa: fix call balance of i2c->clk handling routines
 8f95d1da03e9cc3797038538369518ad685a7748 i2c: amd: Switch to guard(mutex)
 a71248d96662da5f5d0e276776d1679864ad1bf2 i2c: dw: Update the master_xfer callback name
 1505986abf18c40003ebc6d2357454e05b927a7e i2c: amd-asf: Modify callbacks of i2c_algorithm to align with the latest revision
@@ -973,82 +1050,5 @@ e63a165308468d0dce39e07c97279152b043875b Merge tag 'phy-for-6.15' of git://git.k
 4b98d5dcd145aab10219b9f259b70110cd34f01a Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 3491aa04787f4d7e00da98d94b1b10001c398b5a Merge tag 'vfio-v6.15-rc1' of https://github.com/awilliam/linux-vfio
 acc4d5ff0b61eb1715c498b6536c38c1feb7f3c1 Merge tag 'net-6.15-rc0' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-390b52e8a7d11fc1a932935d9a9c8750cbcc2393 fwctl/cxl: Fix uuid_t usage in uapi
-0aafcf4e3371eb51d11ab340315acd26a89bc232 ice, irdma: fix an off by one in error handling code
-b0a155f6b75d4a1b1bdb79ed589032fa1c99bc48 ice: fix check for existing switch rule
-2a049f1265de5b36382aacb8185d7a6f21ad1cf9 ice: do not add LLDP-specific filter if not necessary
-f6d8b0c36eebd22e38595b837d45429602414fb1 ice: receive LLDP on trusted VFs
-9de26953eadd6014d772ed6da2700c1ec8dd460e ice: remove headers argument from ice_tc_count_lkups
-3feb82d3c9d58f4dd5a9582ee4de6c13bd6391c2 ice: support egress drop rules on PF
-b0dad750033c507bc2a05ea2bcc8bba35f5c1b7a ice: enable LLDP TX for VFs through tc
-900ff107e63285699afdc5bf8e72926968fe40cb irdma: free iwdev->rf after removing MSI-X
-2838e68e3a8a5da5619e046032ea74dcd6dd23fd ice: redesign dpll sma/u.fl pins control
-6c3e9059df32992a9c75ce5ca070ef591abc5a3e ice: change SMA pins to SDP in PTP API
-c9201c4f2b1c1e828f192732725f6454868badff ice: add ice driver PTP pin documentation
-136e9aa7ed7ab81b0cfe4c672590da0759591e26 ixgbe: add MDD support
-48626a66d1f3f971ce9cfb1a7297a0de474e5f09 ixgbe: check for MDD events
-9408956dc5842c14aa67d3cfb6ae34ec6d225a2d ixgbe: add Tx hang detection unhandled MDD
-071f10cb348503b8e5b3ca51d5b1f110dc0a4a14 ixgbe: turn off MDD while modifying SRRCTL
-adb182d86d1d3807c8c9a1f47f2eed6da46f1a47 ice: fix Get Tx Topology AQ command error on E830
-0912ace2eae8f7f75bcfcf8e4270ce510ef34740 ice: fix lane number calculation
-01a23bc3ee17b89f38511e748b5a5412bd996576 ixgbe: fix media type detection for E610 device
-b3dddba2fcbabfc163eb17e6a53fee15b77e10f9 devlink: add value check to devlink_info_version_put()
-4edcbdaf403dcc4e7781837e67cb3434bf0d3612 ixgbe: wrap netdev_priv() usage
-ebd73b688a66c7293880915886c22ffe393583d0 ixgbe: add initial devlink support
-3d26530a1ea3d61eab3eeb7c460e65d0c83b048e ixgbe: add handler for devlink .info_get()
-a5790625e84d758a0be5e50f8132580172056efe ixgbe: add E610 functions for acquiring flash data
-e568bb9ed5bc88049994905059a0522bb7a8e38e ixgbe: read the OROM version information
-22f8886693c001535d305138faf115d575d25a0d ixgbe: read the netlist version information
-5f0e60c90d1866f64b4a06e19d9bdd0d22c55129 ixgbe: add .info_get extension specific for E610 devices
-0666ae63c755e34b5fbfada3d7c2bb8cc7303620 ixgbe: add E610 functions getting PBA and FW ver info
-41f4ca6ed37f5a031dad518d6951887703211bc3 ixgbe: extend .info_get with() stored versions
-c04d79a761b9bf3a93e5d9f5fe3d641fdbb7f9dc ixgbe: add device flash update via devlink
-ae01ba3ecaf0aa223d68d7ab19cae37020e6781d ixgbe: add support for devlink reload
-46c13d578c8f971463c7fdc25f03eef01fd69426 ixgbe: add FW API version check
-3fb1a5cd3e6adfc0aac7bacc67d4f04ac3216fde ixgbe: add E610 implementation of FW recovery mode
-fe10942d3d9061df95d4a9c92f094d8409c45a06 ixgbe: add support for FW rollback mode
-8aab974f83dc99559b928cabadad79a2b5fe5467 net: e1000e: convert to ndo_hwtstamp_get() and ndo_hwtstamp_set()
-57bdbaf72c95f3ed6e4e49860fa393089945514c ice: fix fwlog after driver reinit
-c61f834afdd4ce1d3e3742fb5e9bfb84fbb1fcfa ice: Allow 100M speed for E825C SGMII device
-7e4c240e9a7fa90f7c5ba7579b4ef80369d44785 idpf: assign extracted ptype to struct libeth_rqe_info field
-30d56af5243c87e238df651f3bf16694137947f3 ixgbe: create E610 specific ethtool_ops structure
-f048bf5392fd3cb3a7612207b01a7bb52e9f1aa9 ixgbe: add support for ACPI WOL for E610
-6b1533a9f37a08324a9e4d2222f5224d6f779188 ixgbe: apply different rules for setting FC on E610
-9d4525cbf2d382faf46de3ee94e8ba78dda69f7e ixgbe: add E610 .set_phys_id() callback implementation
-1fd9876980b6cfdf078412237a6225af5fa1a0a5 igc: Fix XSK queue NAPI ID mapping
-458abfce0bb68e1820818c6ff8fd52c7558a7277 ixgbe: Fix unreachable retry logic in combined and byte I2C write functions
-4759ccf3d8a7ffee75c167cd7f8aeb74aa200973 i40e: fix MMIO write access to an invalid page in i40e_clear_hw
-c309e3c32f92a38e2531bee1c65e280eab4dcfc1 e1000e: change k1 configuration on MTP and later platforms
-962275af6164a11a405ddcee445dc94b68727422 igc: enable HW vlan tag insertion/stripping by default
-b1777d31eadff28286538c09b1985767b0b5a248 ice: add E830 Earliest TxTime First Offload support
-2e14e39929c3797bbc152a07c5e5a42a1f936330 ice: improve error message for insufficient filter space
-e49a14c24c9bf3856d77dfc7b7d354dbde9b4099 idpf: fix adapter NULL pointer dereference on reboot
-c10f238ed6bcbf73d18e873806b6e5697e7c1b6b ice: make const read-only array dflt_rules static
-4bbc5935c15ec754af8a1d103f389d98faaaa149 igc: Limit netdev_tc calls to MQPRIO
-453cd053204f281e4957f01c223858e66553b713 igc: Change Tx mode for MQPRIO offloading
-ee17adb931a719a6013f0ebc5654422630cc67a9 net: stmmac: move frag_size handling out of spin_lock
-a17cf7a09e7d6d7d9baab5c75ad68a1f99db3580 net: ethtool: mm: extract stmmac verification logic into common library
-19dfba1e221d3b16569531e8d44a8d46a9f02504 net: ethtool: mm: reset verification status when link is down
-380f8a14cf6a79c34615404e913b740a8b45455f igc: rename xdp_get_tx_ring() for non-xdp usage
-60c6ad3ac938324d83b7ba3b992b47e143356493 igc: rename I225_RXPBSIZE_DEFAULT and I225_TXPBSIZE_DEFAULT
-418f73f104792e1e12f6a741daf3ad6bb1bceffd igc: use FIELD_PREP and GENMASK for existing TX packet buffer size
-abc3a95cbe62a0fa90df662a4618362e7e647b25 igc: optimize TX packet buffer utilization for TSN mode
-b98a6ce85a20349095a77d3aa016ac2c0337dd16 igc: use FIELD_PREP and GENMASK for existing RX packet buffer size
-9e8e616a232c53c72e6d0910fb080d0ee1dd8cb0 igc: set the RX packet buffer size for TSN mode
-7da919adbe6f8c26605b7a519ae50982f0cb015f igc: add support for frame preemption verification
-f169cb6316264675875e4d7d65deccada6b67084 igc: add support to set tx-min-frag-size
-3308c4dcdbd99d5d0e7012a2beb6b006488b6073 igc: block setting preemptible traffic class in taprio
-ca902564efe27c2b9b0868ba0947615ada9c7c55 igc: add support to get MAC Merge data via ethtool
-da45adaa40fdbda86b67c371a666b234b2a50ef6 igc: add support to get frame preemption statistics via ethtool
-991cde07ef00281b2ffd90055ea093aa967c8617 igc: Fix TX drops in XDP ZC
-690144c8b38744b02b2edc0aaa2488a5fa8ed542 igb: Link IRQs to NAPI instances
-73068b1422aa8cd338cc60aa0d59a3d561be5eee igb: Link queues to NAPI instances
-d76f97d1e26f75074ae565ecda120a4e1c1f909c igb: Add support for persistent NAPI config
-20bd9ffd3d2f8fb51d43770bcc4e13db866dbd04 igb: Get rid of spurious interrupts
-ff96834b77923fd763f41922a7aec8dbce3bc4f3 ice: remove SW side band access workaround for E825
-b5d13698652e661a7207b64e22da116f44bbd26d ice: refactor ice_sbq_msg_dev enum
-0ad54c951e4bc3adb0b150412fcb99c9e9d411f8 ice: enable timesync operation on 2xNAC E825 devices
-babe214afcd73c475592954af1c5bd5f9e002413 ice: add a separate Rx handler for flow director commands
-5daec3a3e1642d6540bc754225c394c7f677447e ice: Check VF VSI Pointer Value in ice_vc_add_fdir_fltr()
 
---===============0516931826107384975==--
+--===============1125678632295083866==--
