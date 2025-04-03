@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7970942252627411765=="
+Content-Type: multipart/mixed; boundary="===============3105810063310023297=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 03 Apr 2025 16:33:50 -0000
-Message-Id: <174369803077.4115346.6934086714917679987@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 03 Apr 2025 16:34:36 -0000
+Message-Id: <174369807633.4116329.9262848334701700150@gitolite.kernel.org>
 
---===============7970942252627411765==
+--===============3105810063310023297==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/for-kernelci
+  - ref: refs/heads/stable-sve-5-15
     old: 1295bbc791693e07927b16d03a5fc1e9f4cc093f
     new: 0187c01a47f6dab9c3ae9470f2fc0ec061fa9f17
     log: revlist-1295bbc79169-0187c01a47f6.txt
 
---===============7970942252627411765==
+--===============3105810063310023297==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ ea053eb357d23c8bb325788258d495ceb420265b arm64/fpsimd: Track the saved FPSIMD st
 66674b63843fd5818ac0dac80a7c570049a9a6be KVM: arm64: Calculate cptr_el2 traps on activating traps
 0187c01a47f6dab9c3ae9470f2fc0ec061fa9f17 KVM: arm64: Eagerly switch ZCR_EL{1,2}
 
---===============7970942252627411765==--
+--===============3105810063310023297==--
