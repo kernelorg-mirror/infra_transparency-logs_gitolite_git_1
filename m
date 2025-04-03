@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3168805084734623922=="
+Content-Type: multipart/mixed; boundary="===============4321577712487515618=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 03 Apr 2025 05:18:43 -0000
-Message-Id: <174365752368.3392729.3327367926057539572@gitolite.kernel.org>
+Date: Thu, 03 Apr 2025 05:18:55 -0000
+Message-Id: <174365753547.3393065.6425480985584565376@gitolite.kernel.org>
 
---===============3168805084734623922==
+--===============4321577712487515618==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 0a87d6bb6fd274cde3bf217a821153714374198f
     new: a1b5bd45d4ee58af4f56e49497b8c3db96d8f8a3
     log: revlist-0a87d6bb6fd2-a1b5bd45d4ee.txt
 
---===============3168805084734623922==
+--===============4321577712487515618==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -362,4 +362,4 @@ a0935e4ca3e1f2d5176a5b60bf6092cd7eba9914 Merge tag 'char-misc-6.15-rc1-2' of git
 ddd0172f182e3e869a3a960e433578aeedcb37c9 Merge tag 'tty-6.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 a1b5bd45d4ee58af4f56e49497b8c3db96d8f8a3 Merge tag 'usb-6.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 
---===============3168805084734623922==--
+--===============4321577712487515618==--
