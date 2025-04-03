@@ -1,24 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 03 Apr 2025 22:41:49 -0000
-Message-Id: <174372010923.228270.10273862745388614729@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Thu, 03 Apr 2025 22:41:58 -0000
+Message-Id: <174372011884.228606.9136628413696886496@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
   - ref: refs/heads/dev-queue
-    old: e913ddd0773133e710cb9f772eafe54b9344b56b
-    new: cacc42f6cb8e1e415eb02131b46d3fa3a3bfc6c2
+    old: efd42036b5df4aaaa00d5e05bb47d9befd0ab5be
+    new: 4109e0c6e0dbe10d386f685d6394ccc11403b2f7
     log: |
-         666508a37b56a7e403755fcdbb802eb949314c63 igc: fix PTM cycle trigger logic
-         4928d586f6ba31fe8477e671a8165cf9ef1ac194 igc: increase wait time before retrying PTM
-         1ca2583e004e8895d6fd3b0a8ce917605a9a817c igc: move ktime snapshot into PTM retry loop
-         ea8bb49cb7e365abb01b9c6104dcfaba85e74c0a igc: handle the IGC_PTP_ENABLED flag correctly
-         98155e516ea98a2dbd26be1d9e1450bb0930c1b9 igc: cleanup PTP module if probe fails
-         cacc42f6cb8e1e415eb02131b46d3fa3a3bfc6c2 igc: add lock preventing multiple simultaneous PTM transactions
+         89f2d4f4feec1528a56e6ae514de683fa937d934 igc: fix PTM cycle trigger logic
+         752425d44b4ecf5484ab66372d205294e7c1a02f igc: increase wait time before retrying PTM
+         93447f41205ecc470ed06f3874cc707474cd17d9 igc: move ktime snapshot into PTM retry loop
+         2d152073a8c8799a31ec9f0dcaa2439d87b34304 igc: handle the IGC_PTP_ENABLED flag correctly
+         e227b0f268e0e210fa9aa3cfd390c88f6ffc106b igc: cleanup PTP module if probe fails
+         4109e0c6e0dbe10d386f685d6394ccc11403b2f7 igc: add lock preventing multiple simultaneous PTM transactions
          
