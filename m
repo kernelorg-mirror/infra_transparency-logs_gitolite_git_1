@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
-Date: Thu, 03 Apr 2025 04:09:19 -0000
-Message-Id: <174365335914.3334987.2634627278813525011@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
+Date: Thu, 03 Apr 2025 04:28:26 -0000
+Message-Id: <174365450637.3350769.15521022941811220904@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/hkml
-user: sj
+repo: pub/scm/utils/kernel/kmod/kmod
+user: demarchi
 changes:
   - ref: refs/heads/master
-    old: 400192aa1aa1863f5262bcf02772c9ba427f8852
-    new: 0f14393b7e58f89b6fc696a62440782eeb685826
+    old: 9078a01c0e2e1ef64ba292c7b386e8c2ad077bd0
+    new: aae48bc9f73a1bce726871027f73cbc0543c65d4
     log: |
-         fa349b26fcf812dc846bff6f80a6249c111d948c TODO: add an item for ensuring shell_mode() outputs not ignored
-         0f5bd9c0646f6fa65d5dff15bfb5aee12862d589 TODO: add an item for backup of sent/draft patches
-         0f14393b7e58f89b6fc696a62440782eeb685826 TODO: add an item for adding Cc: tags on patch body
+         aae48bc9f73a1bce726871027f73cbc0543c65d4 depmod: add tmpfile-util to generate temporary file
          
