@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5948344649884012684=="
+Content-Type: multipart/mixed; boundary="===============8099956391422718734=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Thu, 03 Apr 2025 17:17:39 -0000
-Message-Id: <174370065956.4151375.2266394723319067473@gitolite.kernel.org>
+Date: Thu, 03 Apr 2025 17:19:25 -0000
+Message-Id: <174370076554.4152259.2575883339130893496@gitolite.kernel.org>
 
---===============5948344649884012684==
+--===============8099956391422718734==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,31 +17,31 @@ user: kees
 git_push_cert_status: E
 changes:
   - ref: refs/heads/for-next/hardening
-    old: b688f369ae0d5d25865f5441fa62e54c7d5d0de6
-    new: 61df817d1d1bfe54c751e0f135aa1cdf817de4ad
+    old: 61df817d1d1bfe54c751e0f135aa1cdf817de4ad
+    new: 48ac25ef250da7478ea54afbb1aced40c342e78d
     log: |
-         21592017d38487785b50304d135569d061d6b8b5 include: Move typedefs in nls.h to their own header
-         61df817d1d1bfe54c751e0f135aa1cdf817de4ad lib/string.c: Add wcslen()
+         acc66d46810d1ce0fe530dd1dcc52ce4551731b7 string: Add load_unaligned_zeropad() code path to sized_strscpy()
+         48ac25ef250da7478ea54afbb1aced40c342e78d kasan: Add strscpy() test to trigger tag fault on arm64
          
 
---===============5948344649884012684==
+--===============8099956391422718734==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1743700688 -0700
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1743700794 -0700
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1743700647-703b1d316cb729ddca72bd3c87d4880fedc95594
+nonce 1743700763-f825f82b0e6f93004138882b2560e757998bdb9a
 
-b688f369ae0d5d25865f5441fa62e54c7d5d0de6 61df817d1d1bfe54c751e0f135aa1cdf817de4ad refs/heads/for-next/hardening
+61df817d1d1bfe54c751e0f135aa1cdf817de4ad 48ac25ef250da7478ea54afbb1aced40c342e78d refs/heads/for-next/hardening
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCZ+7C0AAKCRA2KwveOeQk
-u5uKAP4p/6PJh5XBFhVRmjcmur7CxTZ/NB5aIfd7ctgBiOkg0gD/a+O+5OYAKJMA
-0iMllVuwhS73TYCw2uqsZrIqaJAbegM=
-=dG+w
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCZ+7DOgAKCRA2KwveOeQk
+u5akAPwN4DNFoGM+UM+GXX90QIK58CrpKAViRmL1rSwcB3cGzgEAwCitOsWdIDFF
+u2zDi0Ud2jKnxqyTUgVx5WFtiaxMhwc=
+=1OcX
 -----END PGP SIGNATURE-----
 
---===============5948344649884012684==--
+--===============8099956391422718734==--
