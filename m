@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2367641574434514689=="
+Content-Type: multipart/mixed; boundary="===============4046130787331674260=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/linux
-Date: Thu, 03 Apr 2025 16:07:31 -0000
-Message-Id: <174369645150.4093158.12669177257842588920@gitolite.kernel.org>
+Date: Thu, 03 Apr 2025 16:07:58 -0000
+Message-Id: <174369647862.4093609.3441643615818416341@gitolite.kernel.org>
 
---===============2367641574434514689==
+--===============4046130787331674260==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/linux
 user: tnguy
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/for-next
     old: 1a9239bb4253f9076b5b4b2a1a4e8d7defd77a95
     new: 092e335082f22880207384ad736729c67d784665
     log: revlist-1a9239bb4253-092e335082f2.txt
 
---===============2367641574434514689==
+--===============4046130787331674260==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e5e0e6bebef3a21081fd1057c40468d4cff1a60d Merge tag 'v6.15-p1' of git://git.kerne
 0ccff074d6aa45835ccb7c0e4a995a32e4c90b5a Merge tag 'for-linus-fwctl' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 092e335082f22880207384ad736729c67d784665 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 
---===============2367641574434514689==--
+--===============4046130787331674260==--
