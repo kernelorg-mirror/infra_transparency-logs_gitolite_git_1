@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============2470156943300496928=="
+Content-Type: multipart/mixed; boundary="===============1497040570000404453=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 03 Apr 2025 07:12:38 -0000
-Message-Id: <174366435827.3540214.1472861028120819244@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Thu, 03 Apr 2025 07:12:39 -0000
+Message-Id: <174366435940.3540352.3559909899884358408@gitolite.kernel.org>
 
---===============2470156943300496928==
+--===============1497040570000404453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: 9f8fe348ac9544f6855f82565e754bf085d81f88
+  - ref: refs/heads/usb-testing
+    old: ed492c95f13a7a27f1c0426b33c920ad343232c4
     new: a2cc6ff5ec8f91bc463fd3b0c26b61166a07eb11
-    log: revlist-9f8fe348ac95-a2cc6ff5ec8f.txt
+    log: revlist-ed492c95f13a-a2cc6ff5ec8f.txt
 
---===============2470156943300496928==
+--===============1497040570000404453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1743664302 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1743664356-9754fe13bacd34ca23c13ffa51e3acc662d8973e
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1743664303 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1743664357-f1f237b0257020de0121cdf52b90ca753804ef64
 
-9f8fe348ac9544f6855f82565e754bf085d81f88 a2cc6ff5ec8f91bc463fd3b0c26b61166a07eb11 refs/heads/tty-testing
+ed492c95f13a7a27f1c0426b33c920ad343232c4 a2cc6ff5ec8f91bc463fd3b0c26b61166a07eb11 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfuNK4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+K7YQAICHPq+NnRoU7xj+MnIz
-cbR5/leOvu4AhzLlwHgHN3ZG7Iky+8B4zgzenzZ0OwqXGqrCLtatXOjqo3Agbwhy
-dwHAabKXzZvw1MvxdizSa7kFzF9QVD3WNvD0KaBdTAvrrE9IYKNejB9y4wm6RDGL
-jQymVS6obFWXe9gk4pu9ZYczUldD9VfqEfGgqoFppo6nr/RDNjR5xsVji07CYUgU
-+HiRAt533F+B1f0Z9UA5DtY5AscAdaOSd+40HRXiki9uCg6zPLr65UAzENUn8L//
-xS59wGySiz0fiYYbVtQ8Yzp4bY7Slp8BdPgW5Pf0MX0itpFoBYCpTolzsYMnvdR/
-oTqryq2rHOwDcRMv1wvrbDRL7IY46fDtIo8RsV3Xcj3qfTLub72DPUxUuhQVNOWu
-B7JhSACM1aNAwUzUwyVBdSBSYJ3WFDZQUjA4SMDDoF9YJQK3ccSWTb4xFxeN+JsR
-YHWxoTb9cfXcBimpWlrpH763BxAAce6JSoBEGI0psDM1oG0OYeHpPCJ0LMZBzbe/
-jVz3EVZtZt2whNd2ao+RQ9oM+lzya4gqVqu6ECPxAEmrLG2yiyuvb4ZrkwgXlnp6
-pt8us4qJDEmZPA7TuHi3FrmQSOSCl8sq8V+uC+Ott5/vlEz+97YLXS0reiMHLx/U
-zhfXu1DfNQP2hxWaDbZrkvFI
-=yJd6
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfuNK8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kZ8P/A2kYtl+9UTFKoGUKcQ1
+kc1bQdXaUBkEcIvoooVEAUOnpcg680lUj9q9xQTO2bEBlyvopI7wBFgjuh1sZ8RS
+g0t/Fsw0GN5ih4mPuyeMMiWncT8q6OPIXlbIgc8JYbUVa11XBPXUVwpa+yJNbKgV
+ZKKLHgmVE1C0uLf3Rn8hjTEldP1bFQwGrUr8ry/zRh7R7ajO7wMo13xMGJr0/Bss
+o7OliYhL4Nwxh23iAtVLDoq069ThO2BBN/zRUpRmK2vJkLM0tVwv7hHuizgMYGxg
+3eS70b5Wkfo66i/96jz/w4ruTIBjU3kCA9dqdy8YOWGe8FMzfm3D/PhqHkKZRuHl
+VoHfJC/dqZWCnxmOY+kGXaSOOny9DNDkgv0g8mrg//VVPELUEBVCEaoTq+1QqbuN
+azXuMWVrl0a8ty4J2w9ZsuKDR0u3SQpFQ3aQ9t0KqHltT3kjXp6N/5ZnVJ5lY74x
+ecQpB1oekPhFEQz7xlOvwOLW00hmAftkxum7XgYs56ikRPQH1gc1k5ocbBgoTZGU
+1oi9Yfu3cDCJxz8VTycJyFNdAigNX50xl7qb0yed1gRXmISjJzZZ5cwj/mkgi4m5
+B4HqtUXAaghmr+1ms2GoW/kizU4PtXOTktDhipnOQF27wrGT0tFy2oIZ+SkEpBwr
+fqTSv8sD04OykrNVVvXrA869
+=0pjH
 -----END PGP SIGNATURE-----
 
---===============2470156943300496928==
+--===============1497040570000404453==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-9f8fe348ac95-a2cc6ff5ec8f.txt
+Content-Disposition: attachment; filename=revlist-ed492c95f13a-a2cc6ff5ec8f.txt
 
 9b39835e932e94a3cef3d02c08a5b1df585c74bd bcachefs: #if 0 out (enable|disable)_encryption()
 39abc73b595587180ce4d57c4ca56a52ca796fc2 bcachefs: Remove unnecessary softdeps on crc32c and crc64
@@ -1082,4 +1082,4 @@ a1b5bd45d4ee58af4f56e49497b8c3db96d8f8a3 Merge tag 'usb-6.15-rc1' of git://git.k
 5014bebee0cffda14fafae5a2534d08120b7b9e8 Merge tag 'for-6.15/dm-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
 a2cc6ff5ec8f91bc463fd3b0c26b61166a07eb11 Merge tag 'firewire-updates-6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
 
---===============2470156943300496928==--
+--===============1497040570000404453==--
