@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Thu, 03 Apr 2025 17:44:20 -0000
-Message-Id: <174370226067.4174053.7081577440799927808@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 03 Apr 2025 17:50:26 -0000
+Message-Id: <174370262635.4181071.17820011121358597580@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/testing/wfamnae-next20250325
-    old: 78166d38196e09db482494d953755fe59eac0393
-    new: 34d3d057918f442cd214c7f2c64830b9ee5a43d6
-    log: |
-         34d3d057918f442cd214c7f2c64830b9ee5a43d6 drm/nouveau: fifo: Avoid -Wflex-array-member-not-at-end warning
-         
+  - ref: refs/heads/kselftest-mm-cgroup2-detection
+    old: 0000000000000000000000000000000000000000
+    new: b133c0e732f75061cdd01b8a999c8dd031c5823e
