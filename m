@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 03 Apr 2025 14:30:22 -0000
-Message-Id: <174369062278.4001295.2628312289406768496@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arj/bmc
+Date: Thu, 03 Apr 2025 14:32:07 -0000
+Message-Id: <174369072717.4002262.5634179636091056604@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/arj/bmc
+user: arj
 changes:
-  - ref: refs/heads/keys-graveyard
-    old: ca5b76e45c384d9a7e84116d2c4524642eda3273
-    new: b533010774ad9194821fc2152e5ddf9b66f08e18
+  - ref: refs/heads/nuvoton/dt
+    old: 072bd30ff8c2a501e683f102bf878d016858d723
+    new: 95a2385157d33ad1bd7e1a4e315ccfd17fca556a
     log: |
-         b533010774ad9194821fc2152e5ddf9b66f08e18 KEYS: Add a list for unreferenced keys
+         95a2385157d33ad1bd7e1a4e315ccfd17fca556a ARM: dts: nuvoton: Add UDC nodes
          
