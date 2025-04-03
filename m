@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 03 Apr 2025 13:21:25 -0000
-Message-Id: <174368648598.3936280.11019287710492818006@gitolite.kernel.org>
+Date: Thu, 03 Apr 2025 13:29:53 -0000
+Message-Id: <174368699322.3942528.9991702169282039729@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/tip/tip
-    old: 7a98c0ab3ffb110f23938a77b289af852866f56c
-    new: 2888b24bf97a1889ba6f6ab66707ab34fa13ef54
+  - ref: refs/heads/x86/mm
+    old: 2fb34b1566a386913b291d04f91ba6f6e6a5bb99
+    new: defea9e60d3f440ca8da070a478f668fec0ba659
     log: |
-         2bfedcff7268b3592965532f48a28e0a9981dc20 auto-x86-next: Add x86/kconfig
-         2888b24bf97a1889ba6f6ab66707ab34fa13ef54 auto-x86-next: Add x86/nmi
+         defea9e60d3f440ca8da070a478f668fec0ba659 x86/idle: Use MONITOR and MWAIT mnemonics in <asm/mwait.h>
          
