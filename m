@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Fri, 04 Apr 2025 07:25:36 -0000
-Message-Id: <174375153686.657827.16126481094667654049@gitolite.kernel.org>
+Date: Fri, 04 Apr 2025 08:00:33 -0000
+Message-Id: <174375363304.685656.6614681508193018416@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/jfern/linux
 user: jfern
 changes:
   - ref: refs/heads/nova-gsp
-    old: 938dc5e774c455fe42ef481da11524e10cd39bf8
-    new: aacb4801f14fe0c687816dda53f6e8510cacac00
+    old: aacb4801f14fe0c687816dda53f6e8510cacac00
+    new: ce9ac7a26065207e73de53104f0177596af24f03
     log: |
-         b79e65c1189ffea3176855370b94480889458a10 fixup! fixup! Store images in a vector and generalize BiosImage via macro
-         aacb4801f14fe0c687816dda53f6e8510cacac00 fixup! fixup! fixup! Store images in a vector and generalize BiosImage via macro
+         ce9ac7a26065207e73de53104f0177596af24f03 Store images in options and generalize BiosImage via macro
          
