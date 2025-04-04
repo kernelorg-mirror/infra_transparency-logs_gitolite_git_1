@@ -1,16 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Fri, 04 Apr 2025 16:11:37 -0000
-Message-Id: <174378309722.1093370.13535814511383827543@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Fri, 04 Apr 2025 16:13:32 -0000
+Message-Id: <174378321230.1094379.17957412743306566393@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/testing/wfamnae-next20250404
-    old: 0000000000000000000000000000000000000000
-    new: 74be3f75065b45f7612094c0668010823b202c53
+  - ref: refs/heads/stable-sve-6-12
+    old: c6f6b66f119e267fcacaa0fb3483c35168ea2561
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/stable-sve-6-13
+    old: 3f4d9e8226e5def1722b432916313e2498757eba
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/stable-sve-6-6
+    old: a6949bd789e216ad87533d8a8a6f878bb5d46e43
+    new: 0000000000000000000000000000000000000000
