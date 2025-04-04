@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4805446848519110013=="
+Content-Type: multipart/mixed; boundary="===============1926307594339349025=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 04 Apr 2025 01:03:16 -0000
-Message-Id: <174372859619.348125.7364593309032034114@gitolite.kernel.org>
+Date: Fri, 04 Apr 2025 01:03:23 -0000
+Message-Id: <174372860326.348415.3551068701704008120@gitolite.kernel.org>
 
---===============4805446848519110013==
+--===============1926307594339349025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: e8b471285262d1561feb2eb266aab6ebe7094124
     new: 06a22366d6a11ca8ed03c738171822ac9b714cfd
     log: revlist-e8b471285262-06a22366d6a1.txt
 
---===============4805446848519110013==
+--===============1926307594339349025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -171,4 +171,4 @@ c0dbd11ada2c94edc337a5f6665cbaa6079ff785 fs: actually hold the namespace semapho
 6cb0bd94c08e37236f7ba2ff474c1e70c8318484 Merge tag 'trace-ringbuffer-v6.15-3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 06a22366d6a11ca8ed03c738171822ac9b714cfd Merge tag 'v6.15rc-part2-ksmbd-server-fixes' of git://git.samba.org/ksmbd
 
---===============4805446848519110013==--
+--===============1926307594339349025==--
