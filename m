@@ -1,15 +1,15 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 04 Apr 2025 04:16:06 -0000
-Message-Id: <174374016658.507555.2097359450998481438@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Fri, 04 Apr 2025 04:18:09 -0000
+Message-Id: <174374028946.508548.3376971078118042909@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: ast
 changes:
   - ref: refs/heads/master
     old: 06a22366d6a11ca8ed03c738171822ac9b714cfd
