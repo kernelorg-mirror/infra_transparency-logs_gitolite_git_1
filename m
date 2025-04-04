@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7312157850746989618=="
+Content-Type: multipart/mixed; boundary="===============1893912048204820535=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Fri, 04 Apr 2025 19:31:33 -0000
-Message-Id: <174379509355.1261705.276892685374837395@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Fri, 04 Apr 2025 19:31:44 -0000
+Message-Id: <174379510490.1262145.13520258035543415677@gitolite.kernel.org>
 
---===============7312157850746989618==
+--===============1893912048204820535==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
+repo: pub/scm/linux/kernel/git/riscv/linux
 user: palmer
 changes:
   - ref: refs/heads/for-next
@@ -20,7 +20,7 @@ changes:
     new: 4a1d8ababde685a77fd4fd61e58f973cbdf29f8c
     log: revlist-3eb64093f533-4a1d8ababde6.txt
 
---===============7312157850746989618==
+--===============1893912048204820535==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ a05c6e6694c1601bdefd160332d3deba8393644f Merge tag 'soc-drivers-6.15-2' of git:/
 61f96e684edd28ca40555ec49ea1555df31ba619 Merge tag 'net-6.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 4a1d8ababde685a77fd4fd61e58f973cbdf29f8c Merge tag 'riscv-for-linus-6.15-mw1' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 
---===============7312157850746989618==--
+--===============1893912048204820535==--
