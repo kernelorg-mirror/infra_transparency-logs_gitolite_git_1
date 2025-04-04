@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5325114089450778811=="
+Content-Type: multipart/mixed; boundary="===============6302200256689158688=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 04 Apr 2025 15:31:15 -0000
-Message-Id: <174378067510.1056898.1534479294686770591@gitolite.kernel.org>
+Date: Fri, 04 Apr 2025 15:31:17 -0000
+Message-Id: <174378067772.1057006.3422489150013584096@gitolite.kernel.org>
 
---===============5325114089450778811==
+--===============6302200256689158688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,22 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
-    old: 4c9106f4906a85f6b13542d862e423bcdc118cc3
+  - ref: refs/heads/10GbE
+    old: acc4d5ff0b61eb1715c498b6536c38c1feb7f3c1
     new: 94f68c0f99a548d33a102672690100bf76a7c460
-    log: revlist-4c9106f4906a-94f68c0f99a5.txt
+    log: revlist-acc4d5ff0b61-94f68c0f99a5.txt
 
---===============5325114089450778811==
+--===============6302200256689158688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4c9106f4906a-94f68c0f99a5.txt
+Content-Disposition: attachment; filename=revlist-acc4d5ff0b61-94f68c0f99a5.txt
 
+dddeeaa16ce9d163ccf3b681715512d338afa541 igc: Fix XSK queue NAPI ID mapping
+d931cf9b38da0f533cacfe51c863a9912e67822f igc: Fix TX drops in XDP ZC
+efaaf344bc2917cbfa5997633bc18a05d3aed27f e1000e: change k1 configuration on MTP and later platforms
+40206599beec98cfeb01913ee417f015e3f6190c ixgbe: fix media type detection for E610 device
+4c9106f4906a85f6b13542d862e423bcdc118cc3 idpf: fix adapter NULL pointer dereference on reboot
 9d74da1177c800eb3d51c13f9821b7b0683845a5 netfilter: nft_set_hash: GC reaps elements with conncount for dynamic sets only
 688c15017d5cd5aac882400782e7213d40dc3556 netfilter: nf_tables: don't unregister hook when table is dormant
 078aabd567de3d63d37d7673f714e309d369e6e2 netlabel: Fix NULL pointer exception caused by CALIPSO on IPv4 sockets
@@ -86,4 +91,4 @@ d84366bc5b1b8171f1ec9bba94c491be1c57d336 Merge branch 'net-make-memory-provider-
 af6610ef2e6bab8bd80d09e000a7f314fd7d85a0 Merge branch 'netlink-specs-rt_addr-fix-problems-revealed-by-c-codegen'
 94f68c0f99a548d33a102672690100bf76a7c460 selftests: net: amt: indicate progress in the stress test
 
---===============5325114089450778811==--
+--===============6302200256689158688==--
