@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6550688402198898579=="
+Content-Type: multipart/mixed; boundary="===============4819188728354182447=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 04 Apr 2025 20:47:08 -0000
-Message-Id: <174379962846.1323810.3355894512627494910@gitolite.kernel.org>
+Date: Fri, 04 Apr 2025 20:47:17 -0000
+Message-Id: <174379963726.1324088.11999547955107374274@gitolite.kernel.org>
 
---===============6550688402198898579==
+--===============4819188728354182447==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 94f68c0f99a548d33a102672690100bf76a7c460
-    new: 61f96e684edd28ca40555ec49ea1555df31ba619
-    log: revlist-94f68c0f99a5-61f96e684edd.txt
+  - ref: refs/heads/dev-queue
+    old: 658437b1bb493788e20c0f3644905e81b813d4be
+    new: ebf55eeae3397cda7d4685f8817b24412f07d649
+    log: revlist-658437b1bb49-ebf55eeae339.txt
 
---===============6550688402198898579==
+--===============4819188728354182447==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-94f68c0f99a5-61f96e684edd.txt
+Content-Disposition: attachment; filename=revlist-658437b1bb49-ebf55eeae339.txt
 
 6ef4ea3c944b9fc5d78317d1172cdcd10f9724f1 Input: tsc2007 - accept standard properties
 a22a29655c42d0263a7a84d5d808bfd55f20c53a net/9p/fd: support ipv6 for trans=tcp
@@ -811,5 +811,17 @@ fffb5cd21e0b4ac4a5e26f7b356bbd97ed0cb5bb Merge tag 'x86-urgent-2025-04-04' of gi
 a05c6e6694c1601bdefd160332d3deba8393644f Merge tag 'soc-drivers-6.15-2' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 96364527357980ea68bb8bc7ec1490e22b9ed0cd Merge tag 'spi-fix-v6.15-merge-window' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 61f96e684edd28ca40555ec49ea1555df31ba619 Merge tag 'net-6.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+4082f48415a390d0b4290040743aad1f98aaf749 coccinelle: misc: secs_to_jiffies script: Create dummy report
+1b40d6f378d3003be3a8d161f6c186083284dac7 ice: fix Get Tx Topology AQ command error on E830
+08cd73d7bc6fd0b74129d6dbdafa36936ba56dc9 ice: fix lane number calculation
+18a968c63956841a446e3c821d0e468b9ee27ae7 ice: fix fwlog after driver reinit
+eaa81bbe74f06fbf39a7ed0864a9b16eeb83ef9e ice: Check VF VSI Pointer Value in ice_vc_add_fdir_fltr()
+1c805fcecd7e60fb517a69b6e3a6aa1ae9b69f38 igc: fix PTM cycle trigger logic
+cf04a4cd96e55e4490bb455911462f16bf47e72f igc: increase wait time before retrying PTM
+768298289556c455fd5a69d9afcb822024d1f825 igc: move ktime snapshot into PTM retry loop
+323aafd8f5003968c02b0a0c36b860a9a851d270 igc: handle the IGC_PTP_ENABLED flag correctly
+fa9b1f3227d686e8c65dfdc509569e5b9f895b0f igc: cleanup PTP module if probe fails
+226f412d4a8d165ee6dae6f9893d582ddcc33d0d igc: add lock preventing multiple simultaneous PTM transactions
+ebf55eeae3397cda7d4685f8817b24412f07d649 idpf: fix offloads support for encapsulated packets
 
---===============6550688402198898579==--
+--===============4819188728354182447==--
