@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Fri, 04 Apr 2025 22:00:22 -0000
-Message-Id: <174380402237.1388965.11536421580973532181@gitolite.kernel.org>
+Date: Fri, 04 Apr 2025 22:00:24 -0000
+Message-Id: <174380402409.1389044.16805155330373159566@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ebiggers/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/fscrypt-pending
-    old: 0000000000000000000000000000000000000000
-    new: 28b8ed6312b9bbcc475dedcb702a6959714cc067
+  - ref: refs/heads/wip-fscrypt
+    old: a1c5263dd28810ca5372338ed7615d2884509f2e
+    new: 0000000000000000000000000000000000000000
