@@ -1,21 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Fri, 04 Apr 2025 20:08:41 -0000
-Message-Id: <174379732168.1291190.17882680240815743484@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
+Date: Fri, 04 Apr 2025 20:08:51 -0000
+Message-Id: <174379733160.1291554.12719280456273272872@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/linux/kernel/git/tj/cgroup
+user: tj
 changes:
-  - ref: refs/heads/objtool-werror
-    old: 41761c1db9acfc34d4f71d44284aa23b3f020f74
-    new: 449363264d269ad1a7708447c2ed718e7170143c
+  - ref: refs/heads/for-next
+    old: 765962b98e85ed313a0cba5d80bf5ba6870cd12d
+    new: 09fec7c341ff8d57732bde45e46e1b7a951bba45
     log: |
-         b1c60a498c6146de0706572d3f47d3723ca91743 objtool: Fix SYSCALL instruction handling and INSN_CONTEXT_SWITCH
-         81f7881931314b305515aecb95c4b50bda105f02 objtool: Remove CLAC/STAC annotations
-         449363264d269ad1a7708447c2ed718e7170143c objtool, x86/hweight: Remove ANNOTATE_IGNORE_ALTERNATIVE
+         f6e9a26e2d488c743757d66898ae91c53ffbe528 cgroup: move rstat base stat objects into their own struct
+         845a7245801142bfff411bc84afa8cdbc789562f cgroup: add helper for checking when css is cgroup::self
+         a97915559f5c5ff1972d678b94fd460c72a3b5f2 cgroup: change rstat function signatures from cgroup-based to css-based
+         09fec7c341ff8d57732bde45e46e1b7a951bba45 Merge branch 'for-6.16' into for-next
          
+  - ref: refs/heads/for-6.16
+    old: 0000000000000000000000000000000000000000
+    new: a97915559f5c5ff1972d678b94fd460c72a3b5f2
