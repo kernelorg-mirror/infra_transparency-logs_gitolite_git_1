@@ -1,37 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 04 Apr 2025 08:32:29 -0000
-Message-Id: <174375554956.710774.9893116382343826761@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/oupton/kvmtool
+Date: Fri, 04 Apr 2025 08:38:45 -0000
+Message-Id: <174375592502.715574.15203679648671202588@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/oupton/kvmtool
+user: oupton
 changes:
-  - ref: refs/heads/master
-    old: 421f7dc914d2b3404470be89f3af5da7316df908
-    new: 37f61ebe10242e71eb93f91483bedeaba739d2c3
+  - ref: refs/heads/arm64/flush-coprolite
+    old: 600306e8a6be5c68043516f7934126184a6624b9
+    new: 810821d290a59dff755e6e98df3b80eaa0841254
     log: |
-         5a62ae22599ea7e1d19e8d303ad8143af81cf5dd Merge branch into tip/master: 'perf/urgent'
-         8141204a611e36d1b276b45607d61e07816283bb Merge branch into tip/master: 'sched/urgent'
-         a07ae3ac9cf94150c124c9533c474949c1c2a429 Merge branch into tip/master: 'x86/urgent'
-         69962252a1cfeeb8d12659d1d66a022bec573a03 Merge branch into tip/master: 'sched/core'
-         9da71f30116cca4c8772689687394f1e673751ec Merge branch into tip/master: 'x86/alternatives'
-         72175c2c8ab83aa5ec2c540a1d527cde07e980ea Merge branch into tip/master: 'x86/asm'
-         25ee103fb288c064135e1e4fffa0a9816da5d0fa Merge branch into tip/master: 'x86/cpu'
-         24013ac2371526bb8a5bc5f3229106bcc7d14567 Merge branch into tip/master: 'x86/fpu'
-         860ee768563395860d1372153b14c2106aa1ea50 Merge branch into tip/master: 'x86/kconfig'
-         c47cf9ae7937b902777e40674fd3114cc9e655ad Merge branch into tip/master: 'x86/mm'
-         37f61ebe10242e71eb93f91483bedeaba739d2c3 Merge branch into tip/master: 'x86/nmi'
-         
-  - ref: refs/heads/tip/urgent
-    old: e5b0fc9221944a2461ef2280609fce5e9f9fce94
-    new: a07ae3ac9cf94150c124c9533c474949c1c2a429
-    log: |
-         5a62ae22599ea7e1d19e8d303ad8143af81cf5dd Merge branch into tip/master: 'perf/urgent'
-         8141204a611e36d1b276b45607d61e07816283bb Merge branch into tip/master: 'sched/urgent'
-         a07ae3ac9cf94150c124c9533c474949c1c2a429 Merge branch into tip/master: 'x86/urgent'
+         d1eafbd7dbb5e926e75ebebd3a813568200d2d1f Drop support for 32-bit arm
+         441733f3e6e59df18aaf49cbb495a74fb57eb56c arm64: Move arm64-only features into main directory
+         0a7108be65db3ced11faf2855be3bd6751d61e6e arm64: Combine kvm.c
+         3d48a1e892f5c44c6b1a0786fd558e55ad1e1be0 arm64: Merge kvm-cpu.c
+         5c4d9f633f787171b64d146b0dcaa3aa9a01e7db arm64: Combine kvm-config-arch.h
+         6000dba5ed6445931130993ff4a69ea0787cbdb9 arm64: Move remaining kvm/* headers
+         8efcdd66b3d9df9145b1fa921beaf3d5edd7c2e2 arm64: Move asm headers
+         41091dfc6ad25bbee4bb801d026c8ba9b5619f22 arm64: Rename top-level directory
+         810821d290a59dff755e6e98df3b80eaa0841254 arm64: Get rid of the 'arm-common' include directory
          
