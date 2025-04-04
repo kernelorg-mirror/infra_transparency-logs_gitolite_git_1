@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6730366249399398876=="
+Content-Type: multipart/mixed; boundary="===============1210362155737186579=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 04 Apr 2025 15:31:20 -0000
-Message-Id: <174378068043.1057274.13623315103104798592@gitolite.kernel.org>
+Date: Fri, 04 Apr 2025 15:31:23 -0000
+Message-Id: <174378068305.1057364.5078957895023068052@gitolite.kernel.org>
 
---===============6730366249399398876==
+--===============1210362155737186579==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: acc4d5ff0b61eb1715c498b6536c38c1feb7f3c1
     new: 94f68c0f99a548d33a102672690100bf76a7c460
     log: revlist-acc4d5ff0b61-94f68c0f99a5.txt
 
---===============6730366249399398876==
+--===============1210362155737186579==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -91,4 +91,4 @@ d84366bc5b1b8171f1ec9bba94c491be1c57d336 Merge branch 'net-make-memory-provider-
 af6610ef2e6bab8bd80d09e000a7f314fd7d85a0 Merge branch 'netlink-specs-rt_addr-fix-problems-revealed-by-c-codegen'
 94f68c0f99a548d33a102672690100bf76a7c460 selftests: net: amt: indicate progress in the stress test
 
---===============6730366249399398876==--
+--===============1210362155737186579==--
