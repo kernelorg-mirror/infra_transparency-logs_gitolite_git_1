@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8012557585602050084=="
+Content-Type: multipart/mixed; boundary="===============6463839619603487403=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Fri, 04 Apr 2025 19:31:13 -0000
-Message-Id: <174379507376.1261151.17841250488925241218@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Fri, 04 Apr 2025 19:31:30 -0000
+Message-Id: <174379509056.1261549.3275939359539938380@gitolite.kernel.org>
 
---===============8012557585602050084==
+--===============6463839619603487403==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
+repo: pub/scm/linux/kernel/git/riscv/linux
 user: palmer
 changes:
   - ref: refs/heads/fixes
-    old: 38fec10eb60d687e30c8c6b5420d86e8149f7557
+    old: 245aece3750d3692ae7a44516c1096936bded7ab
     new: 4a1d8ababde685a77fd4fd61e58f973cbdf29f8c
-    log: revlist-38fec10eb60d-4a1d8ababde6.txt
+    log: revlist-245aece3750d-4a1d8ababde6.txt
 
---===============8012557585602050084==
+--===============6463839619603487403==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-38fec10eb60d-4a1d8ababde6.txt
+Content-Disposition: attachment; filename=revlist-245aece3750d-4a1d8ababde6.txt
 
 caa074573ca0a110b609bf35b7fec3d967945315 nexthop: Move NHA_OIF validation to rtm_to_nh_config_rtnl().
 53b18aa998b733d91ee4be45619d8e9738aac67c nexthop: Check NLM_F_REPLACE and NHA_ID in rtm_new_nexthop().
@@ -1051,4 +1051,4 @@ a05c6e6694c1601bdefd160332d3deba8393644f Merge tag 'soc-drivers-6.15-2' of git:/
 61f96e684edd28ca40555ec49ea1555df31ba619 Merge tag 'net-6.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 4a1d8ababde685a77fd4fd61e58f973cbdf29f8c Merge tag 'riscv-for-linus-6.15-mw1' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 
---===============8012557585602050084==--
+--===============6463839619603487403==--
