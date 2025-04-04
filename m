@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5712406935952537667=="
+Content-Type: multipart/mixed; boundary="===============2316538513973528130=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 04 Apr 2025 20:57:31 -0000
-Message-Id: <174380025162.1333199.4104248949270884241@gitolite.kernel.org>
+Date: Fri, 04 Apr 2025 20:57:35 -0000
+Message-Id: <174380025534.1333395.15260546471099210844@gitolite.kernel.org>
 
---===============5712406935952537667==
+--===============2316538513973528130==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 94f68c0f99a548d33a102672690100bf76a7c460
     new: 61f96e684edd28ca40555ec49ea1555df31ba619
     log: revlist-94f68c0f99a5-61f96e684edd.txt
 
---===============5712406935952537667==
+--===============2316538513973528130==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -812,4 +812,4 @@ a05c6e6694c1601bdefd160332d3deba8393644f Merge tag 'soc-drivers-6.15-2' of git:/
 96364527357980ea68bb8bc7ec1490e22b9ed0cd Merge tag 'spi-fix-v6.15-merge-window' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 61f96e684edd28ca40555ec49ea1555df31ba619 Merge tag 'net-6.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============5712406935952537667==--
+--===============2316538513973528130==--
