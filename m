@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6559827813620405492=="
+Content-Type: multipart/mixed; boundary="===============3605253983018280017=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 04 Apr 2025 15:25:24 -0000
-Message-Id: <174378032420.1051592.15425857870848013655@gitolite.kernel.org>
+Date: Fri, 04 Apr 2025 15:25:32 -0000
+Message-Id: <174378033267.1051884.4096237891618077070@gitolite.kernel.org>
 
---===============6559827813620405492==
+--===============3605253983018280017==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: acc4d5ff0b61eb1715c498b6536c38c1feb7f3c1
-    new: 94f68c0f99a548d33a102672690100bf76a7c460
-    log: revlist-acc4d5ff0b61-94f68c0f99a5.txt
+  - ref: refs/heads/dev-queue
+    old: 4109e0c6e0dbe10d386f685d6394ccc11403b2f7
+    new: 41ab790c342f99d9eb891807b2ff00caa56804b9
+    log: revlist-4109e0c6e0db-41ab790c342f.txt
 
---===============6559827813620405492==
+--===============3605253983018280017==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-acc4d5ff0b61-94f68c0f99a5.txt
+Content-Disposition: attachment; filename=revlist-4109e0c6e0db-41ab790c342f.txt
 
 dddeeaa16ce9d163ccf3b681715512d338afa541 igc: Fix XSK queue NAPI ID mapping
 d931cf9b38da0f533cacfe51c863a9912e67822f igc: Fix TX drops in XDP ZC
@@ -90,5 +90,17 @@ d84366bc5b1b8171f1ec9bba94c491be1c57d336 Merge branch 'net-make-memory-provider-
 1a1eba0e9899c286914032c78708c614b016704b netlink: specs: rt_route: pull the ifa- prefix out of the names
 af6610ef2e6bab8bd80d09e000a7f314fd7d85a0 Merge branch 'netlink-specs-rt_addr-fix-problems-revealed-by-c-codegen'
 94f68c0f99a548d33a102672690100bf76a7c460 selftests: net: amt: indicate progress in the stress test
+e003f43ebb70fd7deb4c42b6c3108bdc12ea88b0 coccinelle: misc: secs_to_jiffies script: Create dummy report
+a4bf8e3b34147889963e4c46d1e7916f7157b784 fwctl/cxl: Fix uuid_t usage in uapi
+d01ac12552497091fe4152e1292ecbe25b4a9f5e ice: fix Get Tx Topology AQ command error on E830
+ef231a79600efe017a4104be89d6236c4cfa16a0 ice: fix lane number calculation
+f443b2597b9528ad09ef3bfd42df941a3d0bf4a6 ice: fix fwlog after driver reinit
+a9524f0c67e5a41349ed4842af4fd5195fab94a4 ice: Check VF VSI Pointer Value in ice_vc_add_fdir_fltr()
+c9f8208e074fa8645126f7105c2d5c5d359d4ac6 igc: fix PTM cycle trigger logic
+084eae1c44f15d4c7beb6b281b8fad4e5a6a37c2 igc: increase wait time before retrying PTM
+183e13facdbee124445ac5a7fcba24644bafbdcf igc: move ktime snapshot into PTM retry loop
+26648d3177febbbb4080f95ecb54c59d7cf05cae igc: handle the IGC_PTP_ENABLED flag correctly
+020f43d093900ab7fe7481afe0747563d7ffbe99 igc: cleanup PTP module if probe fails
+41ab790c342f99d9eb891807b2ff00caa56804b9 igc: add lock preventing multiple simultaneous PTM transactions
 
---===============6559827813620405492==--
+--===============3605253983018280017==--
