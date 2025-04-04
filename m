@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8686644823613235118=="
+Content-Type: multipart/mixed; boundary="===============2413268527174868142=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Fri, 04 Apr 2025 11:15:11 -0000
-Message-Id: <174376531173.843854.13972617696847671621@gitolite.kernel.org>
+Date: Fri, 04 Apr 2025 11:17:04 -0000
+Message-Id: <174376542489.845239.17302489481395217499@gitolite.kernel.org>
 
---===============8686644823613235118==
+--===============2413268527174868142==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/virt/kvm/kvm
 user: bonzini
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 6e06117b2a6fc57b08aa47b10f90dd5c92e8dab0
-    new: 6cbc0cca3fe9c3ab58d62e40eb326d7de3fdf656
-    log: revlist-6e06117b2a6f-6cbc0cca3fe9.txt
+  - ref: refs/heads/master
+    old: adb9061ecc02bcfd5dc140f33c4fcd795d6ed012
+    new: c77eee50caa289fee6cfde146471aa7b0f311471
+    log: revlist-adb9061ecc02-c77eee50caa2.txt
 
---===============8686644823613235118==
+--===============2413268527174868142==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1743765337 -0400
+pusher Paolo Bonzini <pbonzini@redhat.com> 1743765452 -0400
 pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1743765306-e3b2636f1f1948afa6d2fb1224d85706ffa89887
+nonce 1743765422-5b7a7bbccf4f0addef1edcb51c7443d3fee885c4
 
-6e06117b2a6fc57b08aa47b10f90dd5c92e8dab0 6cbc0cca3fe9c3ab58d62e40eb326d7de3fdf656 refs/heads/queue
+adb9061ecc02bcfd5dc140f33c4fcd795d6ed012 c77eee50caa289fee6cfde146471aa7b0f311471 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmfvv1kUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroOMcAgAgS/JuYkhN8rdWHoPsDXO93Qcx/BD
-+jyifQBkEm2fVbrQTOJ/gpAmVdkzYAGKdu+FVCsvQbImup8NT3L1VtbsU/nSwV6Z
-hEo5uq5qzWWYiOrHXNS9OQ2pjgoiHtz7BmqHTJ7uozJXV4uPLqP3EzTIBWWv28T7
-LKO203EduJgwmnCMG9jBIcUJJ0wb3mOTfpbV2LlUlsq2s3fa7Z94ZZSg7wGgq0yR
-/5qd72E7ihv3WeyBD9jOKMhAZveTXBXKkhY96D1z8hwWwd44dIM00HMfn6vAFKkO
-/UpdBDVRTmjcwobt0hssD/d2sNuHhOPAAwT3F4zuhFQ6gHEJS+Uu73hgGg==
-=+/9m
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmfvv80UHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroP/swf8CIGMl9bvtvgy8yJ05CNiYB49RZy7
+grfu4v2VuHGQ4enAmT9QI2uA+3RBIzwli6tyjHipYseAvSiU5PyQ2K93VdRWeD7N
+InavmxajuIINqJR6Jy+tjA1GsDAgkd7GYsV1VQsxy3HpFdId3cUtLgAI15xaQkhT
+Zfpe3TILzL6NwOsnlmdGSvnDvY7EfsoIvnV7v4Nicx+lONnIQPz86kBhvV18Nu4t
+QkEKg2FExtLXWvSSlogdjkKqrE0TuAuZ0fe2Z+q6hV3M5Q7WW/XD1YVlCe2o+5xD
+G7GjRQQTsGhEyJpULLb9brCkIHxc9ZUb9t4S3/QEd7EcPxNcnL8+gRwSDw==
+=WCoB
 -----END PGP SIGNATURE-----
 
---===============8686644823613235118==
+--===============2413268527174868142==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6e06117b2a6f-6cbc0cca3fe9.txt
+Content-Disposition: attachment; filename=revlist-adb9061ecc02-c77eee50caa2.txt
 
 80fd663590cf4c6a7baaa405cd65060469c95eca selftests: kvm: revamp MONITOR/MWAIT tests
 11934771e7e79dcf4528803f9e3299b214c36f30 selftests: kvm: bring list of exit reasons up to date
@@ -67,9 +67,8 @@ ef01cac401f18647d62720cf773d7bb0541827da KVM: x86: Acquire SRCU in KVM_GET_MP_ST
 bc52ae0a708cb6fa3926d11c88e3c55e1171b4a1 KVM: x86: Explicitly zero-initialize on-stack CPUID unions
 6bad6ecc63b75af294ff3f56f54d6b857c8964a5 KVM: VMX: Assert that IRQs are disabled when putting vCPU on PI wakeup list
 c0b8dcabb2cddc98c265548632c39e97422f61b6 KVM: VMX: Use separate subclasses for PI wakeup lock to squash false positive
-b38ccce263015fa49d97c710d2999b92f02f9788 Merge branch 'kvm-tdx-initial' into HEAD
-a257da65a291096fb9826745d8e9f01ea3abc9e7 Merge branch 'kvm-6.15-rc2-cleanups' into HEAD
-8dc33ebf9b49e5951a4c30538696aac8b36adddc Merge branch 'kvm-6.15-rc2-fixes' into HEAD
-6cbc0cca3fe9c3ab58d62e40eb326d7de3fdf656 Merge branch 'kvm-pi-fix-lockdep' into HEAD
+70817b2b4624f2174d58e1a2f7195fc8f0193c09 Merge branch 'kvm-6.15-rc2-cleanups' into HEAD
+369348e1d8ce809a50fd63a71941f6af553ffa80 Merge branch 'kvm-6.15-rc2-fixes' into HEAD
+c77eee50caa289fee6cfde146471aa7b0f311471 Merge branch 'kvm-pi-fix-lockdep' into HEAD
 
---===============8686644823613235118==--
+--===============2413268527174868142==--
