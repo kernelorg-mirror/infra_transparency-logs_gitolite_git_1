@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============7841555242779980420=="
+Content-Type: multipart/mixed; boundary="===============5911164497252981026=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sat, 05 Apr 2025 11:11:45 -0000
-Message-Id: <174385150542.2029415.1973650157226891926@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Sat, 05 Apr 2025 11:11:50 -0000
+Message-Id: <174385151054.2029724.1116640777706787938@gitolite.kernel.org>
 
---===============7841555242779980420==
+--===============5911164497252981026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: d68fbdabac3e3ff3f68049acfbd77c3bd1acc71c
-    new: 04cde93d66198a35abd1d150e5428ff9848adaa6
-    log: revlist-d68fbdabac3e-04cde93d6619.txt
+  - ref: refs/heads/main
+    old: a2cc6ff5ec8f91bc463fd3b0c26b61166a07eb11
+    new: a8662bcd2ff152bfbc751cab20f33053d74d0963
+    log: revlist-a2cc6ff5ec8f-a8662bcd2ff1.txt
 
---===============7841555242779980420==
+--===============5911164497252981026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1743851444 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1743851500-5680d2c0ecd3a1b2116ee0c646ebda1083251d07
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1743851453 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1743851509-1b5fe604da868c13d4ca7da27c3164f011deed49
 
-d68fbdabac3e3ff3f68049acfbd77c3bd1acc71c 04cde93d66198a35abd1d150e5428ff9848adaa6 refs/heads/staging-testing
+a2cc6ff5ec8f91bc463fd3b0c26b61166a07eb11 a8662bcd2ff152bfbc751cab20f33053d74d0963 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfxD7QbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AqAQAL9OY+6WsLIyhLod9DBP
-fsVW7bZMfOYqFMiAytqD1O3NxTOQyHSuTrvdNZ9bn9H/Ub1lf2yau4x2EhHzhpea
-gqGRrUYztxkkjbrO4vnGNU7yocCPHm7zrcu6YA8ODdF6B2wESZ6KmQGtYeG2ccfz
-Um6xw6k9KRFHLkScjG17cgn8aDE7Z9RCokprTOFbEonuSNMcNq9kAycO32YqaRfs
-yuJoAkLwLV9lHn3BXMGYzlCgbbsZJG+Mm0u/lks+DCG8dUSSmOVQaMoiOQJiOCjb
-CCSldUmOLUsKbyXVCMx/2bAksXhUoX5hY6h5mIhE6O4MpVcd6FvM6rKu7lA4P9gH
-4kG0bKjpdaFczBZwUVCsizK9YoA8KGtaQT9aLKMOaDIqc0GGnU5ws27pw9JVR+7a
-ahhLKAu5hSa3s38Uzx6tqX93GF9sXtc0VB/nOciQjWxpZfNht3uZvrJKXN2S9u2k
-fwTvLKJD6CYswem3Fb457w2cjku8Sa6jloVWN9L66jcZiRHkJOpkOCdSdB5dCEg1
-VZdJ6wu3seu1Zdxk2tqNQZFYS1q0UAoqoWjuFvrcXyYMEYWBoWgFotwQx95+Ia6y
-HJMRaBgq8YPYpb8fo0RDwqWQPMhdRbzbruF/3Vs3NVQL1+izSxCTzXqNMBv/q8J8
-Lypm1p6A+xJoG19xvUJBwnZ5
-=ydSr
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfxD70bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZowQAJOh0cIVetESMfwB1ng1
+LzlfTSzx3xPSDqAiNb5jc851ojSJqsk22QDSpe0UocCSzEJ5+Yt1uN55ty1/JLZ7
+d8jLh+mb4HLn6PL9bkQ4z/oG9aJa38lQlPstilwjX4m3qnwMghvwGMgySuD5Q6AU
+30wglU8HXK2oVWzd+7pah86U5gz4gUSsh9X/3CrkMpfxxDl+AKf5By94tYdTbAo/
+5yuzDt0ODH+tV2UyU7i5TvQE5s12L15UmvKS0kKf5gWqdcLslxjA8oc9XYhVbR2+
+OdZdkiDj/waUFT1CvKApjLbpHjqrftmAT/3t4HjWKFxpjnX70wCn0uYohmlAElZB
+iJ2an5EztrxOySzKoh75PGtEUtpLvQltFTR2AQPbBiwzCUZX7b2ad2jRFAMOMcQx
+pzGAnLvzEoviO+DZ5+8MR1KxEHnmbT75dwKqAqDWSvvoL8veyg1bKWYeyTgfP0d6
+cdapIej1n7cb4qYFj7na6BS9NHUC2p8SIQk99XFiN97L3LHw2j57PP+bt7XonCFQ
+rOLad2/yJFvFOv/94QhFNTED+4s0U8Px60rkqKPXDfXH4EnZVudvIAwwXeepf3SE
+rHJnY7C+xKKeUyGhMDoXqG5hjIzm859q6R3r3Ma7RBLVzDVPBGW1XgYGt8l1YdRN
+e4SrxacN4DyvprhL2GwQKC29
+=JNkd
 -----END PGP SIGNATURE-----
 
---===============7841555242779980420==
+--===============5911164497252981026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d68fbdabac3e-04cde93d6619.txt
+Content-Disposition: attachment; filename=revlist-a2cc6ff5ec8f-a8662bcd2ff1.txt
 
 6ef4ea3c944b9fc5d78317d1172cdcd10f9724f1 Input: tsc2007 - accept standard properties
 a22a29655c42d0263a7a84d5d808bfd55f20c53a net/9p/fd: support ipv6 for trans=tcp
@@ -514,12 +514,5 @@ a52a3c18cdf369a713aca7593332bbb998c71d96 Merge tag 'ntb-6.15' of https://github.
 9f867ba24d3665d9ac9d9ef1f51844eb4479b291 Merge tag '6.15-rc-part2-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 dd9db3bff8ec419ab0e5f18092f89a8fddc37f15 Merge tag 's390-6.15-2' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 a8662bcd2ff152bfbc751cab20f33053d74d0963 Merge tag 'v6.15-p3' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
-5cc412159a27956ae66c8fdda0db79747c2e754a staging: bcm2835-camera: Modify function call formatting
-cf6e4ac450ab0dc75e2e9ee91201006e6d9946d7 staging: sm750fb: fix casing style on getDeviceID
-cff6353d9ce4abff34a1010b1967f5a1c6af7f73 staging: greybus: camera: fix code alignment warning
-adde094c8f9e8f6bca2762f912648d12b14d1c3c staging: rtl8723bs: simplify if-else block by removing unnecessary braces
-841ec4ca05aa058671487068b59ca1eda55104dd staging: rtl8723bs: remove unnecessary else block after return
-902858c503b53131b90e9aaac89c445c1a4fa07b staging: rtl8723bs: remove braces around single statements
-04cde93d66198a35abd1d150e5428ff9848adaa6 staging: rtl8723bs: Rename variables
 
---===============7841555242779980420==--
+--===============5911164497252981026==--
