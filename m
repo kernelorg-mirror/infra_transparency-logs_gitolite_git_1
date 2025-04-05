@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8141975523039348079=="
+Content-Type: multipart/mixed; boundary="===============1440721382209642164=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 05 Apr 2025 08:35:54 -0000
-Message-Id: <174384215417.1901974.280023755125812509@gitolite.kernel.org>
+Date: Sat, 05 Apr 2025 08:37:29 -0000
+Message-Id: <174384224951.1902950.2656071278284830931@gitolite.kernel.org>
 
---===============8141975523039348079==
+--===============1440721382209642164==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,39 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 719784e929824015317ba7566aec63b10d75ed75
-    new: cfb0042118303a0384cf7110011f92efc20a323c
-    log: revlist-719784e92982-cfb004211830.txt
+    old: cfb0042118303a0384cf7110011f92efc20a323c
+    new: 932a6b5136fa402524ffb6f865118eb489bbe68b
+    log: revlist-cfb004211830-932a6b5136fa.txt
+  - ref: refs/heads/tip/urgent
+    old: 671e5679cc1edde92c32870d1b8ecd16105476a6
+    new: d5f631ac765b5f18282a1812e9648a0773b4fb5f
+    log: revlist-671e5679cc1e-d5f631ac765b.txt
 
---===============8141975523039348079==
+--===============1440721382209642164==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-719784e92982-cfb004211830.txt
+Content-Disposition: attachment; filename=revlist-cfb004211830-932a6b5136fa.txt
+
+71e29d8c42d77e89ea23d22b309488978b8d7820 Merge branch into tip/master: 'irq/urgent'
+6eac14103b7d7fb57312035a25cdc710fa30837a Merge branch into tip/master: 'perf/urgent'
+1efdd47ff8bec1085ee3a099f263c9f43082c7ab Merge branch into tip/master: 'sched/urgent'
+d5f631ac765b5f18282a1812e9648a0773b4fb5f Merge branch into tip/master: 'timers/urgent'
+25708d39aeac1ec442c61fa815e7bed1e00aafad Merge branch into tip/master: 'sched/core'
+de9e00c0c800a3f1b3825afa94f6316e9918610a Merge branch into tip/master: 'timers/cleanups'
+80a59a5d3f11deb1a35b404d5ccac14c6f04efc1 Merge branch into tip/master: 'x86/alternatives'
+1f72edc26459ca73027d75dcf9a4d7cdc01b67f7 Merge branch into tip/master: 'x86/asm'
+548be1790eb37a399d9f0580e92c0fd26590b115 Merge branch into tip/master: 'x86/cpu'
+d2de59540723424b24f795569d9d60216dd8902c Merge branch into tip/master: 'x86/fpu'
+d55fe6bae2a4aca414949e6c6d6d9532237a1c5e Merge branch into tip/master: 'x86/kconfig'
+f457a7d5d7726a8e17baeed4736cb301788ffc72 Merge branch into tip/master: 'x86/mm'
+932a6b5136fa402524ffb6f865118eb489bbe68b Merge branch into tip/master: 'x86/nmi'
+
+--===============1440721382209642164==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-671e5679cc1e-d5f631ac765b.txt
 
 6ef4ea3c944b9fc5d78317d1172cdcd10f9724f1 Input: tsc2007 - accept standard properties
 6216182fb776ae546c5566f21976d116c8650cee RISC-V: clarify what some RISCV_ISA* config options do
@@ -260,20 +284,9 @@ a52a3c18cdf369a713aca7593332bbb998c71d96 Merge tag 'ntb-6.15' of https://github.
 9f867ba24d3665d9ac9d9ef1f51844eb4479b291 Merge tag '6.15-rc-part2-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 dd9db3bff8ec419ab0e5f18092f89a8fddc37f15 Merge tag 's390-6.15-2' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 a8662bcd2ff152bfbc751cab20f33053d74d0963 Merge tag 'v6.15-p3' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
-8fa7292fee5c5240402371ea89ab285ec856c916 treewide: Switch/rename to timer_delete[_sync]()
-48ad7bbfd53af0d3fe6490a4dd30c169db6f12aa treewide: Convert new and leftover hrtimer_init() users
-9779489a31d77a7b9cb6f20d2d2caced4e29dbe6 hrtimers: Delete hrtimer_init()
-50177a8b2ec756a03f635444538da928dc5ac488 hrtimers: Switch to use __htimer_setup()
-87d82cff3829733fa6838492a9215303ad98a61c hrtimers: Merge __hrtimer_init() into __hrtimer_setup()
-04257da0c99c9d4ff7c5bb93046482e1f7d34938 hrtimers: Make callback function pointer private
-1cc24f2e766c5a6606b834a677bd58991c1b9781 hrtimers: Remove unnecessary NULL check in hrtimer_start_range_ns()
-fcea1ccf2476ca793b0ca3f80ca23f5a28cbb0b3 hrtimers: Rename __hrtimer_init_sleeper() to __hrtimer_setup_sleeper()
-e9ef2093ad9edec8d8a060e14891952570c82b8b hrtimers: Rename debug_init() to debug_setup()
-59c9edafc0f3843c3e616eb8136a310c7c552595 hrtimers: Rename debug_init_on_stack() to debug_setup_on_stack()
-244132c4e5777fe0a4544ef23afba0d9a50e5ec5 tracing/timers: Rename the hrtimer_init event to hrtimer_setup
-28d2a2cff5fddc502ed9251dccd794b4f58c2070 Merge branch 'linus'
-f0c8899ab72fb16fe59639c25538f1bb207a1d0d Merge branch into tip/master: 'irq/urgent'
-9dc605b5e3b1f3893d747af084231cb039a5fd6d Merge branch into tip/master: 'timers/urgent'
-cfb0042118303a0384cf7110011f92efc20a323c Merge branch into tip/master: 'timers/cleanups'
+71e29d8c42d77e89ea23d22b309488978b8d7820 Merge branch into tip/master: 'irq/urgent'
+6eac14103b7d7fb57312035a25cdc710fa30837a Merge branch into tip/master: 'perf/urgent'
+1efdd47ff8bec1085ee3a099f263c9f43082c7ab Merge branch into tip/master: 'sched/urgent'
+d5f631ac765b5f18282a1812e9648a0773b4fb5f Merge branch into tip/master: 'timers/urgent'
 
---===============8141975523039348079==--
+--===============1440721382209642164==--
