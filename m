@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5218947401669980559=="
+Content-Type: multipart/mixed; boundary="===============4233057129400928281=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Sat, 05 Apr 2025 02:51:53 -0000
-Message-Id: <174382151371.1621937.1609955168030580412@gitolite.kernel.org>
+Date: Sat, 05 Apr 2025 02:52:36 -0000
+Message-Id: <174382155640.1622522.3384766536048780225@gitolite.kernel.org>
 
---===============5218947401669980559==
+--===============4233057129400928281==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,29 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ebiggers/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/crypto-pending
-    old: 244980d6d76227858a5b86d6249ff18d45d90235
-    new: e5786a6deba30223a70845201a0dcdfd9e23324e
-    log: revlist-244980d6d762-e5786a6deba3.txt
+  - ref: refs/heads/master
+    old: 91e5bfe317d8f8471fbaa3e70cf66cae1314a516
+    new: a52a3c18cdf369a713aca7593332bbb998c71d96
+    log: revlist-91e5bfe317d8-a52a3c18cdf3.txt
 
---===============5218947401669980559==
+--===============4233057129400928281==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-244980d6d762-e5786a6deba3.txt
+Content-Disposition: attachment; filename=revlist-91e5bfe317d8-a52a3c18cdf3.txt
 
+b6fe18d08d18943bdb139c4cf9a88e31a7f6959a staging: gpib: comment out pnp_device_id tables
+0865b297b3a89fe371ded617ac87493b422a6d5d static: gpib: hp82341: add MODULE_DESCRIPTION
+020b814c2f864d1e1a19b3013266b73057f9f99b staging;gpib: Use Kconfig PCMCIA compilation symbol
+3c9a0cf6a1ed45d454a1d3fa1033adc2dcd8df26 staging:gpib: Remove GPIB_PCMCIA in Makefiles
+99ed5f695fac3d9a4991a8a8b939db58540b406e staging: gpib: cb7210: remove unused variable
+c725363401e228986848c67579153dc259eccb4b staging: gpib: eastwood: remove unused variable
+a990ae96e6ef3e431a99b686fc174cd429d27288 staging: gpib: ni_usb: remove unused variable
+1b268f7a47a46b46d09639902bd63c21d2a1fbb2 staging: gpib: tnt4882: remove unused variable
+bedc7002f7978bb516aa36da41a22ab92166917f staging: gpib: ines: remove unused variable
+1cddb72bf892812407cc30f0d8eb47dac73d6de4 staging: sm750fb: fix checkpatch warning architecture specific defines should be avoided
+82e3508046f9bce75e14b6cab5805e52f27f5405 staging: gpib: cb7210 console messaging cleanup
+0de51244e7b7e3ea97f9da68318fbc9e7e16f6a5 staging: gpib: ines console messaging cleanup
 20a351c36afc7d72956b57bdefbc79858f18923d staging: gpib: tnt4882 console messaging cleanup
 a2d1afe65a152e8e581b48cebb1517e6bdf09d04 serial: xilinx_uartps: Use helper function hrtimer_update_function()
 d45545c32904d933a423a8f35edd1cb3cd4adf40 serial: 8250: Switch to use hrtimer_setup()
@@ -1038,17 +1050,5 @@ a05c6e6694c1601bdefd160332d3deba8393644f Merge tag 'soc-drivers-6.15-2' of git:/
 61f96e684edd28ca40555ec49ea1555df31ba619 Merge tag 'net-6.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 4a1d8ababde685a77fd4fd61e58f973cbdf29f8c Merge tag 'riscv-for-linus-6.15-mw1' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 a52a3c18cdf369a713aca7593332bbb998c71d96 Merge tag 'ntb-6.15' of https://github.com/jonmason/ntb
-983fc1a8b53148a5596963b1973eef00b2436769 crypto: x86/aes - drop the avx10_256 AES-XTS and AES-CTR code
-fb3d306133b085a0d8127fa78d303480287cca2d crypto: x86/aegis - stop using the SIMD helper
-fc5bab95d1cc916b08adbedcfbfa6784be4bc13e crypto: x86/aes - stop using the SIMD helper
-59d566197185434237ebf44533372dedf90c8ac0 crypto: x86/aria - stop using the SIMD helper
-3baab78ba37fbd642d17a9c80ca87f8cf8b865e2 crypto: x86/camellia - stop using the SIMD helper
-03955465a686a371bb4fc9c5f71266300eac3f7a crypto: x86/cast - stop using the SIMD helper
-9684efb9a58666e217593051129639be47a8cfaf crypto: x86/serpent - stop using the SIMD helper
-d45e09471f3991b32e3ef59b9943fa4976ca8294 crypto: x86/sm4 - stop using the SIMD helper
-30cf1c812f7268818ab1929c1647f451b91c3c2b crypto: x86/twofish - stop using the SIMD helper
-01574886240f66732821b221d2d13638e1230c16 crypto: arm/aes-ce - stop using the SIMD helper
-eccda3b7c70f04959ea0fdddcad20642099f561c crypto: arm/aes-neonbs - stop using the SIMD helper
-e5786a6deba30223a70845201a0dcdfd9e23324e crypto: ctr - remove unused crypto_ctr_encrypt_walk()
 
---===============5218947401669980559==--
+--===============4233057129400928281==--
