@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
-Date: Sun, 06 Apr 2025 02:24:15 -0000
-Message-Id: <174390625507.2810592.4857372627158297058@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Sun, 06 Apr 2025 04:23:42 -0000
+Message-Id: <174391342200.2905848.16188772268447763267@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kmod/kmod
-user: demarchi
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: aae48bc9f73a1bce726871027f73cbc0543c65d4
-    new: ec9ccdadf07675b2ae6b65e92d810ba0e6bfdad9
+  - ref: refs/heads/experimental
+    old: cb4921824e525b091ab1827a898697c6e04cb305
+    new: fa73dc4c8b5b59fdbd1ac7e3fd084f34ab662b52
     log: |
-         ec9ccdadf07675b2ae6b65e92d810ba0e6bfdad9 tmpfile-util: Drop libgen.h
+         f6a0806761c39cacade6323ed17da4e59a05e670 erofs-utils: lib: fix `fragmentoff` larger than 4GiB
+         fa73dc4c8b5b59fdbd1ac7e3fd084f34ab662b52 erofs-utils: release 1.8.6
          
