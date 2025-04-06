@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Sun, 06 Apr 2025 18:14:46 -0000
-Message-Id: <174396328675.3575498.556836359159405744@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Sun, 06 Apr 2025 18:17:00 -0000
+Message-Id: <174396342036.3578393.6750171041114565435@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damo
-user: sj
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/heads/next
-    old: c5b21a3b66ba03d71e8604cc2f75f0bef37d98b4
-    new: dcb56a2f3c41d8c67d721a7e877294c8215d8010
+  - ref: refs/heads/master
+    old: dd844c5b3fcf839a409027967e05ccc3a8dbdd5c
+    new: 0685b56dfb58bba53f8b2d2732e0ca1f088010c0
     log: |
-         987ebc0d64d5ee561bf4c8993d8ee18f9f41e322 _damon_args: handle --nr_schemes and other parts mismatch
-         56784a7b71021d6840c1c5451237bf0230bcea75 _damon_args: add --nr_ctxs for multiple kdamonds
-         82423e9e4a5be1c77c9fc148373d04773216573d _damon_args: move args.ops setup into damon_ctx_for()
-         dcb56a2f3c41d8c67d721a7e877294c8215d8010 _damon_args: support multiple kdamonds creation via command line arguments
+         301df12702c9bcc61e62ee03bafeef367ba52ef6 memorder: Add index marker for "LKMM" as acronym
+         38dfbc85da1cc01edf4e57cb2514d9e92e773036 cpu, SMPdesign, debugging: Add index markers for "thermal throttling"
+         0685b56dfb58bba53f8b2d2732e0ca1f088010c0 memorder: Add index markers for "multicopy atomicity"
          
