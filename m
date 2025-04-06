@@ -1,24 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 06 Apr 2025 17:51:17 -0000
-Message-Id: <174396187793.3554354.1777162051153367997@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7307406361424544904=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Sun, 06 Apr 2025 17:52:35 -0000
+Message-Id: <174396195517.3555223.5259069848798431212@gitolite.kernel.org>
+
+--===============7307406361424544904==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 16cd1c2657762c62a00ac78eecaa25868f7e601b
-    new: dda8887894965369a87ba27320f6b337c4cd9e12
-    log: |
-         a3c3c66670cee11eb13aa43905904bf29cb92d32 perf/core: Fix child_total_time_enabled accounting bug at task exit
-         975776841e689dd8ba36df9fa72ac3eca3c2957a sched/isolation: Make CONFIG_CPU_ISOLATION depend on CONFIG_SMP
-         169eae7711ea4b745e2d33d53e7b88689b10e1a0 rseq: Eliminate useless task_work on execve
-         6f110a5e4f9977c31ce76fefbfef6fd4eab6bfb7 Disable SLUB_TINY for build testing
-         302deb109d6c1674073d8dd4156ca0f36889a7b7 Merge tag 'sched-urgent-2025-04-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-         dda8887894965369a87ba27320f6b337c4cd9e12 Merge tag 'perf-urgent-2025-04-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-         
+  - ref: refs/tags/hardening-v6.15-rc1-fix1
+    old: 0000000000000000000000000000000000000000
+    new: c89dba42bb2251dd148bbe7e6f9c6bbc3ab5ff74
+
+--===============7307406361424544904==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1743961984 -0700
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
+nonce 1743961952-361ca9f6a8076ab8df5f5f63af7b90f302aaf235
+
+0000000000000000000000000000000000000000 c89dba42bb2251dd148bbe7e6f9c6bbc3ab5ff74 refs/tags/hardening-v6.15-rc1-fix1
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCZ/K/gAAKCRA2KwveOeQk
+u8tOAQCCAMVRKWtl+p7+8zLK6t5I7A9rRYKO6Q8nxiY5bVGYuwEAq2kopcDTCSvK
+rZbHoteKsuUtL+vjMuAGleBfPLqKfwo=
+=xLUZ
+-----END PGP SIGNATURE-----
+
+--===============7307406361424544904==--
