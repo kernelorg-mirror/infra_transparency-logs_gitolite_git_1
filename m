@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5774172295949299109=="
+Content-Type: multipart/mixed; boundary="===============5711796959389511549=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wpan/wpan-next
-Date: Sun, 06 Apr 2025 20:54:17 -0000
-Message-Id: <174397285753.3707906.7151754794673559986@gitolite.kernel.org>
+Date: Sun, 06 Apr 2025 20:54:22 -0000
+Message-Id: <174397286219.3708040.6844217776803658861@gitolite.kernel.org>
 
---===============5774172295949299109==
+--===============5711796959389511549==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wpan/wpan-next
 user: sschmidt
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/staging
     old: a5d4d993fac4925410991eac3b427ea6b86e4872
     new: 1dd9291eb90378f8096669d9cb33761fd84599e0
     log: revlist-a5d4d993fac4-1dd9291eb903.txt
 
---===============5774172295949299109==
+--===============5711796959389511549==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ a05c6e6694c1601bdefd160332d3deba8393644f Merge tag 'soc-drivers-6.15-2' of git:/
 44dcb0bbc4a4e775eb9da57b797eaf56a23f188d ieee802154: Avoid calling WARN_ON() on -ENOMEM in cfg802154_switch_netns()
 1dd9291eb90378f8096669d9cb33761fd84599e0 ieee802154: Remove WARN_ON() in cfg802154_pernet_exit()
 
---===============5774172295949299109==--
+--===============5711796959389511549==--
