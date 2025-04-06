@@ -1,29 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lenb/linux
-Date: Sun, 06 Apr 2025 18:53:13 -0000
-Message-Id: <174396559302.3610690.3898791675152307120@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Sun, 06 Apr 2025 19:01:58 -0000
+Message-Id: <174396611870.3618660.15596499533331032436@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lenb/linux
-user: lenb
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/turbostat
-    old: 447c98c1ca4a4b0d43be99f76c558c09956484f3
-    new: 03e00e373cab981ad808271b2650700cfa0fbda6
+  - ref: refs/tags/scsi-misc
+    old: 45b641150a71589eeeb50a9d7a18b4f6a7b745fd
+    new: d9806c5e7c47556b3a5e2f09e9663ab299bf053c
     log: |
-         ed625c61b85c2333324dca43146c4ebabf8b236f tools/power turbostat: Add idle governor statistics reporting
-         eb187540d13ae260b91dbca7257bc44bd83ca8c6 tools/power turbostat: Increase CPU_SUBSET_MAXCPUS to 8192
-         f729775f79a9c942c6c82ed6b44bd030afe10423 tools/power turbostat: report CoreThr per measurement interval
-         3ae8508663372b93c5556a887e96ed0ca5df0711 tools/power turbostat: Document GNR UncMHz domain convention
-         f8b136ef2605c1bf62020462d10e35228760aa19 tools/power turbostat: Restore GFX sysfs fflush() call
-         994633894f208a0151baaee1688ab3c431912553 tools/power turbostat: re-factor sysfs code
-         ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle" invocation counters, by default
-         03e00e373cab981ad808271b2650700cfa0fbda6 tools/power turbostat: v2025.05.06
+         8aa580cd92843b60d4d6331f3b0a9e8409bb70eb scsi: hisi_sas: Enable force phy when SATA disk directly connected
+         daff37f00c7506ca322ccfce95d342022f06ec58 scsi: hisi_sas: Fix I/O errors caused by hardware port ID changes
+         20b97acc4cafa2be8ac91a777de135110e58a90b scsi: ufs: core: Fix a race condition related to device commands
          
-  - ref: refs/tags/turbostat-2025.05.06
-    old: 0000000000000000000000000000000000000000
-    new: 4d62c586235ab340ef0a1c5522c0b31abf232dd6
