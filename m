@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3730467568318530074=="
+Content-Type: multipart/mixed; boundary="===============5378817451545261253=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sun, 06 Apr 2025 23:49:40 -0000
-Message-Id: <174398338006.3855395.12960212413186565455@gitolite.kernel.org>
+Date: Sun, 06 Apr 2025 23:50:00 -0000
+Message-Id: <174398340095.3855823.4814811187614678627@gitolite.kernel.org>
 
---===============3730467568318530074==
+--===============5378817451545261253==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: 980a573621ea4b5032123937df0115bdbec6b2de
     new: b0d023797e3e3b615dc46e7c9fbbba4beb1c92c8
     log: revlist-980a573621ea-b0d023797e3e.txt
 
---===============3730467568318530074==
+--===============5378817451545261253==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
 b0d023797e3e3b615dc46e7c9fbbba4beb1c92c8 keys: Add a list for unreferenced keys
 
---===============3730467568318530074==--
+--===============5378817451545261253==--
