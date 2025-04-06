@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6086912165798070013=="
+Content-Type: multipart/mixed; boundary="===============2227858216615337270=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 06 Apr 2025 16:59:50 -0000
-Message-Id: <174395879039.3512397.9223161091441492368@gitolite.kernel.org>
+Date: Sun, 06 Apr 2025 17:01:12 -0000
+Message-Id: <174395887210.3514798.3267513734730681240@gitolite.kernel.org>
 
---===============6086912165798070013==
+--===============2227858216615337270==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,30 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 932a6b5136fa402524ffb6f865118eb489bbe68b
-    new: a3eaa60038e8326685a748b033b7445c8c410fb7
-    log: revlist-932a6b5136fa-a3eaa60038e8.txt
+    old: a3eaa60038e8326685a748b033b7445c8c410fb7
+    new: b21990b6dc9d40440b6075b2fc4ba6cfdf541790
+    log: |
+         d5c1da7803d466897a2259fefcdd8be18529940b Merge branch into tip/master: 'perf/urgent'
+         05efc85d13983e8b81b9e24fae8baee3aa39d991 Merge branch into tip/master: 'sched/urgent'
+         02a75a94de7051329022dc4e59e83eece516ec9e Merge branch into tip/master: 'sched/core'
+         95b1bd92e56d00a9fabf1bce8ca18e33aa53e17e Merge branch into tip/master: 'x86/alternatives'
+         a1baabfcdddd20ac0a0e76f750ba233f04758ec7 Merge branch into tip/master: 'x86/asm'
+         ff4cccf89e9d31b09903ae358933b256730827ef Merge branch into tip/master: 'x86/cpu'
+         7192e27e1ca0dbba8d70e4bbc310c99f1815bf45 Merge branch into tip/master: 'x86/fpu'
+         1544d9932b05d4ee6c00660a4808e6907fc6bf7a Merge branch into tip/master: 'x86/kconfig'
+         722e5af2e2c0dc00946ee3629fc0050a5b10b626 Merge branch into tip/master: 'x86/mm'
+         b21990b6dc9d40440b6075b2fc4ba6cfdf541790 Merge branch into tip/master: 'x86/nmi'
+         
+  - ref: refs/heads/tip/urgent
+    old: d5f631ac765b5f18282a1812e9648a0773b4fb5f
+    new: 05efc85d13983e8b81b9e24fae8baee3aa39d991
+    log: revlist-d5f631ac765b-05efc85d1398.txt
 
---===============6086912165798070013==
+--===============2227858216615337270==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-932a6b5136fa-a3eaa60038e8.txt
+Content-Disposition: attachment; filename=revlist-d5f631ac765b-05efc85d1398.txt
 
 ab4976976ee117ed53b752bac83453e6f64dad08 Input: drop vb2_ops_wait_prepare/finish
 a7550ff59edfc768a8600c1e5c24c304208696a5 Input: Switch to use hrtimer_setup()
@@ -121,6 +136,17 @@ dce8bd9137b88735dd0efc4e2693213d98c15913 drm/amdgpu/gfx12: fix num_mec
 526da2436b899605386bfd7faefc59d2f7a9930a Merge tag 'amd-drm-next-6.15-2025-03-27' of https://gitlab.freedesktop.org/agd5f/linux into drm-next
 e2cb28ea3e01cb25095d1a341459901363dc39e9 Merge tag 'drm-misc-next-fixes-2025-04-04' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-next
 946661e3bef8efa11ba8079d4ebafe6fc3b0aaad Merge branch 'next' into for-linus
+8fa7292fee5c5240402371ea89ab285ec856c916 treewide: Switch/rename to timer_delete[_sync]()
+48ad7bbfd53af0d3fe6490a4dd30c169db6f12aa treewide: Convert new and leftover hrtimer_init() users
+9779489a31d77a7b9cb6f20d2d2caced4e29dbe6 hrtimers: Delete hrtimer_init()
+50177a8b2ec756a03f635444538da928dc5ac488 hrtimers: Switch to use __htimer_setup()
+87d82cff3829733fa6838492a9215303ad98a61c hrtimers: Merge __hrtimer_init() into __hrtimer_setup()
+04257da0c99c9d4ff7c5bb93046482e1f7d34938 hrtimers: Make callback function pointer private
+1cc24f2e766c5a6606b834a677bd58991c1b9781 hrtimers: Remove unnecessary NULL check in hrtimer_start_range_ns()
+fcea1ccf2476ca793b0ca3f80ca23f5a28cbb0b3 hrtimers: Rename __hrtimer_init_sleeper() to __hrtimer_setup_sleeper()
+e9ef2093ad9edec8d8a060e14891952570c82b8b hrtimers: Rename debug_init() to debug_setup()
+59c9edafc0f3843c3e616eb8136a310c7c552595 hrtimers: Rename debug_init_on_stack() to debug_setup_on_stack()
+244132c4e5777fe0a4544ef23afba0d9a50e5ec5 tracing/timers: Rename the hrtimer_init event to hrtimer_setup
 56f944529ec2292cbe63377a76df3759d702dd39 Merge tag 'input-for-v6.15-rc0' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 427011db477dfb8cca001e492c2b312fdf7c7173 sh: Align .bss section padding to 8-byte boundary
 5f2efd67a17e5f4e2fccdb86014efaf8725f57a7 sh: defconfig: Drop obsolete CONFIG_NET_CLS_TCINDEX
@@ -133,6 +159,7 @@ f4d2ef48250ad057e4f00087967b5ff366da9f39 Merge tag 'kbuild-v6.15' of git://git.k
 a91c49517de3445bc438d29a5bb481338817791e Merge tag 'timers-urgent-2025-04-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ff0c66685d93659655886fa61750947bb7733ba9 Merge tag 'irq-urgent-2025-04-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 16cd1c2657762c62a00ac78eecaa25868f7e601b Merge tag 'timers-cleanups-2025-04-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-a3eaa60038e8326685a748b033b7445c8c410fb7 Merge branch 'linus'
+d5c1da7803d466897a2259fefcdd8be18529940b Merge branch into tip/master: 'perf/urgent'
+05efc85d13983e8b81b9e24fae8baee3aa39d991 Merge branch into tip/master: 'sched/urgent'
 
---===============6086912165798070013==--
+--===============2227858216615337270==--
