@@ -1,73 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============3789582505018217688=="
+Content-Type: multipart/mixed; boundary="===============6930656720909392476=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sun, 06 Apr 2025 21:12:03 -0000
-Message-Id: <174397392351.3724566.2724975947876718073@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Sun, 06 Apr 2025 21:17:23 -0000
+Message-Id: <174397424373.3729034.2899313301366570172@gitolite.kernel.org>
 
---===============3789582505018217688==
+--===============6930656720909392476==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/sj/damo
+user: sj
 changes:
-  - ref: refs/heads/master
-    old: f4d2ef48250ad057e4f00087967b5ff366da9f39
-    new: 0efdedb3358aa78102967f242379686f94315830
-    log: revlist-f4d2ef48250a-0efdedb3358a.txt
+  - ref: refs/heads/next
+    old: dcb56a2f3c41d8c67d721a7e877294c8215d8010
+    new: 730daa957a05521cc3043b704b37ae8fde9342e9
+    log: revlist-dcb56a2f3c41-730daa957a05.txt
 
---===============3789582505018217688==
+--===============6930656720909392476==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f4d2ef48250a-0efdedb3358a.txt
+Content-Disposition: attachment; filename=revlist-dcb56a2f3c41-730daa957a05.txt
 
-1c7c7388e6c31f46b26a884d80b45efbad8237b2 tools/power turbostat: Clustered Uncore MHz counters should honor show/hide options
-b312d880fb462d4759396950865ec914de9d253c tools/power turbostat: Allow Zero return value for some RAPL registers
-5132681dcd96b2a8c357b6e5d93e9876924bb80b tools/power turbostat: Fix names matching
-ed625c61b85c2333324dca43146c4ebabf8b236f tools/power turbostat: Add idle governor statistics reporting
-fcc0f16923621e670d5ccf486160e4a1b960b17f ASoC: SOF: Intel: Let SND_SOF_SOF_HDA_SDW_BPT select SND_HDA_EXT_CORE
-a3c3c66670cee11eb13aa43905904bf29cb92d32 perf/core: Fix child_total_time_enabled accounting bug at task exit
-975776841e689dd8ba36df9fa72ac3eca3c2957a sched/isolation: Make CONFIG_CPU_ISOLATION depend on CONFIG_SMP
-169eae7711ea4b745e2d33d53e7b88689b10e1a0 rseq: Eliminate useless task_work on execve
-825dfab23bca520629a9e5a21ba5b03aaccc75f2 irqdomain: Rename irq_set_default_host() to irq_set_default_domain()
-0a27ea384c82e70d16e40adbaebeb3725f7e6342 irqdomain: Rename irq_get_default_host() to irq_get_default_domain()
-d2705d33885e3a19f727dff2521fb7d5b1fc5cda irqdomain: Stop using 'host' for domain
-9b305678c55dd45044aa565fee04f8d88382bc4d genirq/migration: Use irqd_get_parent_data() in irq_force_complete_move()
-324a2219ba38b00ab0e53bd535782771ba9614b2 Revert "timekeeping: Fix possible inconsistencies in _COARSE clockids"
-8fa7292fee5c5240402371ea89ab285ec856c916 treewide: Switch/rename to timer_delete[_sync]()
-48ad7bbfd53af0d3fe6490a4dd30c169db6f12aa treewide: Convert new and leftover hrtimer_init() users
-9779489a31d77a7b9cb6f20d2d2caced4e29dbe6 hrtimers: Delete hrtimer_init()
-50177a8b2ec756a03f635444538da928dc5ac488 hrtimers: Switch to use __htimer_setup()
-87d82cff3829733fa6838492a9215303ad98a61c hrtimers: Merge __hrtimer_init() into __hrtimer_setup()
-04257da0c99c9d4ff7c5bb93046482e1f7d34938 hrtimers: Make callback function pointer private
-1cc24f2e766c5a6606b834a677bd58991c1b9781 hrtimers: Remove unnecessary NULL check in hrtimer_start_range_ns()
-fcea1ccf2476ca793b0ca3f80ca23f5a28cbb0b3 hrtimers: Rename __hrtimer_init_sleeper() to __hrtimer_setup_sleeper()
-e9ef2093ad9edec8d8a060e14891952570c82b8b hrtimers: Rename debug_init() to debug_setup()
-59c9edafc0f3843c3e616eb8136a310c7c552595 hrtimers: Rename debug_init_on_stack() to debug_setup_on_stack()
-244132c4e5777fe0a4544ef23afba0d9a50e5ec5 tracing/timers: Rename the hrtimer_init event to hrtimer_setup
-427011db477dfb8cca001e492c2b312fdf7c7173 sh: Align .bss section padding to 8-byte boundary
-5f2efd67a17e5f4e2fccdb86014efaf8725f57a7 sh: defconfig: Drop obsolete CONFIG_NET_CLS_TCINDEX
-1f80fbac0ba7d10218b0902c3c51460617cc7cf8 Merge tag 'sh-for-v6.15-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
-a91c49517de3445bc438d29a5bb481338817791e Merge tag 'timers-urgent-2025-04-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-ff0c66685d93659655886fa61750947bb7733ba9 Merge tag 'irq-urgent-2025-04-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-16cd1c2657762c62a00ac78eecaa25868f7e601b Merge tag 'timers-cleanups-2025-04-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-eb187540d13ae260b91dbca7257bc44bd83ca8c6 tools/power turbostat: Increase CPU_SUBSET_MAXCPUS to 8192
-f729775f79a9c942c6c82ed6b44bd030afe10423 tools/power turbostat: report CoreThr per measurement interval
-3ae8508663372b93c5556a887e96ed0ca5df0711 tools/power turbostat: Document GNR UncMHz domain convention
-f8b136ef2605c1bf62020462d10e35228760aa19 tools/power turbostat: Restore GFX sysfs fflush() call
-994633894f208a0151baaee1688ab3c431912553 tools/power turbostat: re-factor sysfs code
-6f110a5e4f9977c31ce76fefbfef6fd4eab6bfb7 Disable SLUB_TINY for build testing
-302deb109d6c1674073d8dd4156ca0f36889a7b7 Merge tag 'sched-urgent-2025-04-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-dda8887894965369a87ba27320f6b337c4cd9e12 Merge tag 'perf-urgent-2025-04-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle" invocation counters, by default
-03e00e373cab981ad808271b2650700cfa0fbda6 tools/power turbostat: v2025.05.06
-59f392fa7cf83b02d5b40ddf3cde3b25b18445e7 Merge tag 'soundwire-6.15-rc1-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire
-710329254dc303cd3b2df1a24674adecb1189385 Merge tag 'turbostat-2025.05.06' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
-0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
+dc27d11816cab7b297f38fef6256d69dfa1bbea2 release_note: update for multiple kdamonds command line support
+3ca44aaed73bf06745f14e5f1eb15277058b7f6d USAGE: recommend 'damo help damon_param_options' instead of 'damo start -h'
+b4300bd3f931ac616544936548e149194dec9778 USAGE: wordsmith
+a3f612a89d112cf01029d1e4c6883541747406f3 _damon_args: set --nr_ctxs from set_monitoring_argparser()
+8a53be9bc9e8b3f8f9a5e262807006cc8e728ef2 _damon_args: split out DAMON target from command line option creation
+e095a9296f730a087f5479133acfec0ad56f49fa _damon_args: avoid error from --nr_schemes ungiven multi context usage
+48dc2c59af9de9879acfbfcdb37800c726db8068 _damon_args: support --nr_targets
+f4960df93f8e734f56fd74a577230b3440e08870 _damon_args: error for absence of --nr_{targets,schemes} for multiple contexts
+f2f4906577fa9ee67bacae834c49f71841fce628 release_note: update for --nr_targets
+dbe3d9f76d33c4229fa33d11819eb4443069e912 USAGE: remove full DAMON parameters intro from 'Simple Target Argument' section
+740830af0b8c1d8420ec636bde40e707c8cc4559 _damon_args/get_nr_ctxs(): do not assume single target per context
+51b87b878ee8017bce0f193833bfdc2458148771 _damon_args: calculate target numbers and set None separately
+eba3c6de14f715c23b541b2dfd97b719b028faa3 _damon_args: pass ops to damon_target_for()
+db5daeea5d6ecdcb0a4f73bff619c51011f24466 USAGE: update 'Partial DAMON Parameters Update' section for multiple targets,contexts,kdamonds change
+46a871753f0e98f8020216a0027f3481db0cccdf _damon_args: support zero schemes case
+56ecf82da3ef95bd35d73440687ea184ac870a6a USAGE: wordsmith 'Partial DAMOS Parameters Update' section
+d5ed2bf3d3789961417e89ed3a700617847f4e3a _damon_args/get_nr_ctxs(): handle no explict option given case
+7390c38f7875d7e1632dbf44443dcfade2a34366 _damon_args: ensure arg.nr_targets set before using it
+48400f6be885a8694dfd234691547222b5268dfb _damon_args/damon_ctxs_for(): reduce unnecessary get_nr_targets() call
+3a9c78957c433645ef3541c800f9ee986a083552 _damon_args/damon_ctx_for(): split out target creation and setup
+2022a0422940c4406159deed2bf1e180f4f57ce4 _damon_args/damon_ctxs_for(): split out schemes generation and assigning
+730daa957a05521cc3043b704b37ae8fde9342e9 _damon_args: consider --nr_targets and --nr_schemes from get_nr_ctxs()
 
---===============3789582505018217688==--
+--===============6930656720909392476==--
