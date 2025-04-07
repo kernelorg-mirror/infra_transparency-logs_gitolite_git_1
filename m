@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
-Date: Mon, 07 Apr 2025 08:49:51 -0000
-Message-Id: <174401579147.382499.15467550973729913852@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+Date: Mon, 07 Apr 2025 08:57:16 -0000
+Message-Id: <174401623686.389069.2344982073902450908@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rppt/linux
-user: rppt
+repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+user: andy
 changes:
-  - ref: refs/heads/x86/initmem_init
-    old: 0000000000000000000000000000000000000000
-    new: 4473ad8a570559afdf61aa4bb5350db1329e9735
+  - ref: refs/heads/for-next
+    old: 71114cd1d386988bc90dca1d1f1fee5fb23817ad
+    new: 3258b979c1b4d868ba506a50b691509e78120eee
+    log: |
+         3258b979c1b4d868ba506a50b691509e78120eee gpio: ich: use new line value setter callbacks
+         
