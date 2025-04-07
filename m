@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 07 Apr 2025 22:14:17 -0000
-Message-Id: <174406405757.1112547.4823762980898063265@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Mon, 07 Apr 2025 22:15:25 -0000
+Message-Id: <174406412541.1115382.17454727061237070337@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/for-next
-    old: b3d9e96c96b0076a11aa1001d55b3dc189b8cd1c
-    new: 16b19bfd80402bb98135c4b65344e859883766ec
+  - ref: refs/heads/hwmon-next
+    old: 5abf4fa82125f06b34ac9539859bd71e759b1506
+    new: 5213482fc9f78352658ac7d34b1a1b455bb05946
     log: |
-         4e310626eb4df52a31a142c1360fead0fcbd3793 gpiolib: of: Add polarity quirk for s5m8767
-         ce2eadc6f99263dd200e52f692dc7a22698c99f3 regulator: s5m8767: Convert to GPIO descriptors
-         16b19bfd80402bb98135c4b65344e859883766ec regulator: s5m8767: Convert to GPIO descriptors
+         7acde5c4b3f52fdbdda1091fdcd8d812be27018e hwmon: (pmbus): Introduce page_change_delay
+         99bd4ed5d48bfca2083b9932bd6e8d7c87065efb hwmon: (ltc2992) Use new GPIO line value setter callbacks
+         34b0c109d6b9c8b3e8c7b7e5096af5cf3106ecdb hwmon: (pmbus/ucd9000) Use new GPIO line value setter callbacks
+         0835744b2445c2e66143dc63651a27be7b151f18 hwmon: (pmbus/max34440): Fix support for max34451
+         5213482fc9f78352658ac7d34b1a1b455bb05946 hwmon: (pmbus/max34440): add support adpm12160
          
