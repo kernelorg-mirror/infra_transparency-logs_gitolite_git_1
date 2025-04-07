@@ -1,93 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============3527682290874109589=="
+Content-Type: multipart/mixed; boundary="===============4604268994184306915=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
-Date: Mon, 07 Apr 2025 04:56:26 -0000
-Message-Id: <174400178651.4113331.6425390236300061188@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+Date: Mon, 07 Apr 2025 04:58:47 -0000
+Message-Id: <174400192755.4114361.4500316213866016151@gitolite.kernel.org>
 
---===============3527682290874109589==
+--===============4604268994184306915==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtd/linux
-user: vigneshr
+repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+user: herbert
 changes:
-  - ref: refs/heads/cfi/next
-    old: 2014c95afecee3e76ca4a56956a936e23283f05b
-    new: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    log: revlist-2014c95afece-0af2f6be1b42.txt
+  - ref: refs/heads/master
+    old: 12e0b15b1986736af8c64b920efad00c655a3c79
+    new: 8ad06e88ebd134580b9a1996006e85aad4002204
+    log: revlist-12e0b15b1986-8ad06e88ebd1.txt
 
---===============3527682290874109589==
+--===============4604268994184306915==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-2014c95afece-0af2f6be1b42.txt
+Content-Disposition: attachment; filename=revlist-12e0b15b1986-8ad06e88ebd1.txt
 
-d327a12e636e902fd0c7178732813b041a1c9214 stmmac: Remove pcim_* functions for driver detach
-45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
-e364e4cebeb70a5f4f8cb28ca7480e1ddb361752 Merge branch 'stmmac-several-pci-related-improvements'
-cc04ed502457412960d215b9cd55f0d966fda255 stmmac: intel: interface switching support for RPL-P platform
-1ae1d705a1120e8e0ca41698c5a0fff6f5290bc1 net: dsa: microchip: fix DCB apptrust configuration on KSZ88x3
-a50b4fe095fb98e0b7da03b0a42fd1247284868e Merge tag 'timers-cleanups-2025-03-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-317a76a996043d336b85197aed5f44184b36ac4a Merge tag 'timers-vdso-2025-03-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-3f0cb8de56b9a5c052a9e43fa548856926059810 io_uring: fix retry handling off iowq
-3afcb3b2e3a4ead24e3ab476576e87877d55ee22 io_uring: defer iowq cqe overflow via task_work
-4c76de42cb6971fc2cc7984ed974caffe6ea7fda io_uring: open code __io_post_aux_cqe()
-d73acd7af3a329e8ebe5df1c738ae8c1d0a5f778 io_uring: rename "min" arg in io_iopoll_check()
-816619782bdc70d7f33a8d0cda36d61414cec467 io_uring: move min_events sanitisation
-c59d88101cd9ed609678880e93b8e7684c7ba68e Bluetooth: btnxpuart: Add correct bootloader error codes
-bf81cf29b77c09b8c0a5ef3d574945e57dfde787 Bluetooth: btnxpuart: Handle bootloader error during cmd5 and cmd7
-1f77c05408c96bc0b58ae476a9cadc9e5b9cfd0f Bluetooth: btnxpuart: Fix kernel panic during FW release
-3a7fdfb7d876910cfe734488f553dbbc938f8f16 Bluetooth: hci_event: Fix handling of HCI_EV_LE_DIRECT_ADV_REPORT
-eed14eb510c040a3826b633048244bb7a816c67d Bluetooth: MGMT: Add LL Privacy Setting
-fd87b7783802b45cdd261b273e6b2b792823064d net: Fix the devmem sock opts and msgs for parisc
-355d63e5de95de72561891b4d17b83ba82cfe42a arch: mips: defconfig: Drop obsolete CONFIG_NET_CLS_TCINDEX
-8cc14fdcc1b8473adcf90dae63a246042ebdcc25 Merge branches 'for-next/amuv1-avg-freq', 'for-next/pkey_unrestricted', 'for-next/sysreg', 'for-next/misc', 'for-next/pgtable-cleanups', 'for-next/kselftest', 'for-next/uaccess-mops', 'for-next/pie-poe-cleanup', 'for-next/cputype-kryo', 'for-next/cca-dma-address', 'for-next/drop-pxd_table_bit' and 'for-next/spectre-bhb-assume-vulnerable', remote-tracking branch 'arm64/for-next/perf' into for-next/core
-8ae9e2d8325698edc1335ede5401f68bcd7cc400 Merge branch 'for-next/smt-control' into for-next/core
-64fa6b9322a904198589c0479dca6f2ed7f2eb04 Merge branch 'for-next/el2-enable-feat-pmuv3p9' into for-next/core
-92009c3ba8903820077d29b6bb8be68780fedbdb thermal/drivers/qoriq: Use dev_err_probe() simplify the code
-229f3feb4b0442835b27d519679168bea2de96c2 thermal/drivers/qoriq: Power down TMU on system suspend
-1a685e2b3fc70f9a31ea28057471ba6615d8fa7b dt-bindings: thermal: tsens: Add ipq5332, ipq5424 compatible
-ff0cf0ab9073727a67f9902dba77a758654ae895 thermal/drivers/tsens: Add TSENS enable and calibration support for V2
-ee022e5cae052e0c67ca7c5fec0f2e7bc897c70e thermal/drivers/rockchip: Add missing rk3328 mapping entry
-9e6ec8cf64e2973f0ec74f09023988cabd218426 thermal: core: Remove duplicate struct declaration
-65594b3745024857f812145a58db3601d733676c thermal/drivers/mediatek/lvts: Disable monitor mode during suspend
-c612cbcdf603aefb3358b2e3964dcd5aa3f827a0 thermal/drivers/mediatek/lvts: Disable Stage 3 thermal threshold
-fa17ff8e325a657c84be1083f06e54ee7eea82e4 thermal/drivers/mediatek/lvts: Disable low offset IRQ for minimum threshold
-2738fb3ec6838a10d2c4ce65cefdb3b90b11bd61 thermal/drivers/mediatek/lvts: Start sensor interrupts disabled
-1ec52c157b4298986257c0380bfcfe72e05c7c9b thermal/drivers/mediatek/lvts: Only update IRQ enable for valid sensors
-2395a02809b06ff619883f5b8437e99de550b7ea dt-bindings: thermal: Update for BCM74110
-09daf8f0d4204ccfdb59116daa7fe2badb7683bc thermal/drivers/brcmstb_thermal: Add support for BCM74110
-5ad72c2b24e1e35f2718bd1d04dcd041aa6047ee dt-bindings: thermal: Correct indentation and style in DTS example
-b744af1180dbadcfd994a48d613b4431373da70d thermal: rcar_gen3: Use lowercase hex constants
-bccdbba51a946fdfa08e972f14526a081c6f8bf7 thermal: rcar_gen3: Reuse logic to read fuses on Gen3 and Gen4
-1b4ef46fd6660712afcfdd841eadd928193e850f thermal/drivers/qcom-spmi-temp-alarm: Drop unused driver data
-2d09a9449ecd9a2b9fdac62408c12ee20b6307d2 Merge tag 'arm64-upstream' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
-906174776c0eb539e4d65c54a8019d954a6fb35d Merge tag 'x86_bugs_for_v6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-855912be0b046028abc9c0577787e749a8d26cf5 MIPS: config: omega2+, vocore2: enable CLK_MTMIPS
-f1ae32a709e0b525d7963207eb3a4747626f4818 net: phylink: force link down on major_config failure
-c2b900958535a6b958f86245e9afca2df59329bd gve: remove xdp_xsk_done and xdp_xsk_wakeup statistics
-542a58f1b090cdcea951b7c9c48c3ba57d1e35b1 gve: introduce config-based allocation for XDP
-57a070c2672b41242dc1f80e3ec943df6dc54933 gve: update GQ RX to use buf_size
-904effd02df72501fc8fcd8c9573de221c58cb60 gve: merge packet buffer size fields
-346fb86ddd862012bde63cf20c0ac8bc94000ef4 gve: update XDP allocation path support RX buffer posting
-293b49361f91737d7c39ab913714d20cb05d8f71 gve: add XDP DROP and PASS support for DQ
-e2ac75a8a9676dcede9ba4042efe7f02978f3eb4 Merge branch 'basic-xdp-support-for-dqo-rda-queue-format'
-2899aa3973efa3b0a7005cb7fb60475ea0c3b8a0 Merge tag 'x86_cache_for_v6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-43564f062bfe6580e0249b63d0ea733371411363 net: phy: Add swnode support to mdiobus_scan
-74e4264efe479ff6fd90b2872956d85bbdc1cfbb net: phy: aquantia: add probe function to aqr105 for firmware loading
-5f27092328ce47104d2d569bab4d6ec329cb6fec net: phy: aquantia: search for firmware-name in fwnode
-e31e67f58cf2acc6ef25462b1479a2a8d8f82e57 net: phy: aquantia: add essential functions to aqr105 driver
-25b6a6d29d4082f6ac231c056ac321a996eb55c9 net: tn40xx: create swnode for mdio and aqr105 phy and add to mdiobus
-07cfe3a557564ad7d982625ce1f5d8b05a016f68 net: tn40xx: prepare tn40xx driver to find phy of the TN9510 card
-53377b5c2952097527b01ce2f1d9a9332f042f70 net: tn40xx: add pci-id of the aqr105-based Tehuti TN4010 cards
-b6f61a312a77c20e6ecb1e84fa1e68abcc2ed2de Merge branch 'net-tn40xx-add-support-for-aqr105-based-cards'
-bf2986fcf82a449441f9ee4335df19be19e83970 atm: Fix NULL pointer dereference
-ae8371a46e59d768a5540a237309962b50b8bec7 Merge tag 'edac_updates_for_v6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
-a44940d094afa2e04b5b164b1e136fc18bcb4a2d net: libwx: fix Tx descriptor content for some tunnel packets
 c7d82913d5f9e97860772ee4051eaa66b56a6273 net: libwx: fix Tx L4 checksum
 4f74a45c6b1906574669999b9748feb1a92bee84 Merge tag 'for-net-next-2025-03-25' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth-next
 0d86c2395390efd61d111698ec120b5a79303b99 Merge tag 'ras_core_for_v6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -598,7 +536,6 @@ b3981564ca8fa341a57c16dcbed1a9bd7f4e3be1 bcachefs: Clear fs_path_parent on subvo
 556f1b4874ca87feede736e1b2b4d11bc76f5bb9 Merge tag 'for-v6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply
 91481c4ad0e532e8459372fa91306de8c02f2fc1 Merge tag 'hsi-for-6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-hsi
 7f2ff7b6261742ed52aa973ccdf99151b7cc3a50 Merge tag 'mailbox-v6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
-9764d5b0cd0ea4846fd46c7d0b4238ea122075a9 Revert "crypto: testmgr - Add multibuffer hash testing"
 13c23cb4ed09466d73f1beae8956810b95add6ef rust: Fix enabling Rust and building with GCC for LoongArch
 08dac3b83aac99ad0e07139d350079f63bb24095 LoongArch: Always select HAVE_VIRT_CPU_ACCOUNTING_GEN
 892a79634196d2729b81bb8e5b029d095704df63 LoongArch: Enable UBSAN (Undefined Behavior Sanitizer)
@@ -924,7 +861,6 @@ a2cc6ff5ec8f91bc463fd3b0c26b61166a07eb11 Merge tag 'firewire-updates-6.15' of gi
 41ae768afbf514d491d0852b6c927d63291354d3 Merge tag 'drm-intel-next-fixes-2025-03-25' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-next
 227bcf2c55c80cf61144b4ac2d5a29babee35b8b Merge tag 'drm-xe-next-fixes-2025-03-27' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-next
 526da2436b899605386bfd7faefc59d2f7a9930a Merge tag 'amd-drm-next-6.15-2025-03-27' of https://gitlab.freedesktop.org/agd5f/linux into drm-next
-12e0b15b1986736af8c64b920efad00c655a3c79 crypto: inside-secure/eip93 - acquire lock on eip93_put_descriptor hash
 3a0a3ff6593d670af2451ec363ccb7b18aec0c0a net: decrease cached dst counters in dst_release
 975776841e689dd8ba36df9fa72ac3eca3c2957a sched/isolation: Make CONFIG_CPU_ISOLATION depend on CONFIG_SMP
 169eae7711ea4b745e2d33d53e7b88689b10e1a0 rseq: Eliminate useless task_work on execve
@@ -1050,5 +986,69 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 710329254dc303cd3b2df1a24674adecb1189385 Merge tag 'turbostat-2025.05.06' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
+17310f872639b59780386c6b7b4ab3d3481a3f97 crypto: api - Move alg destroy work from instance to template
+37ee5b51467c33fbee85f5f0ac55004b8bc93e03 crypto: api - Ensure cra_type->destroy is done in process context
+c2587e788a8d52f2fb36b19426d7e4d9613c1be1 crypto: scomp - Allocate per-cpu buffer on first use of each CPU
+f1bf32a29e0f83f20e712a3448a8e4dc9a698e6c dt-bindings: crypto: qcom-qce: document QCS615 crypto engine
+87c0ba896f853d2e9d1d2a5b7d39a98a05513158 crypto: acomp - Move scomp stream allocation code into acomp
+53ec41080e217938377b3480e906a17b3159aab5 crypto: acomp - Add acomp_walk
+33595c7e5491b469b34b7f33dee7a50e33d295bd crypto: deflate - Convert to acomp
+d9512a6d8c83b868c6a647eabc7f1854a00bd081 crypto: crypto4xx - Fix gcc12 uninitialized warning in crypto4xx_crypt
+6e2deb9f5b2c7a98d2c6c5fc54a8e55d01e3ee6e crypto: cavium - Move cpt and nitrox rules into cavium Makefile
+158968fdb4c413095a27ced822739525ccfa34f8 crypto: cavium/zip - Remove driver
+15f8abb565c4673604862428f5fb4d6d583d1976 crypto: scomp - Drop the dst scratch buffer
+a93b26aacaf33f618d63da0ee766e0ffdd06d745 crypto: iaa - Move compression CRC into request object
+7d35beafe177370bda5e4415653990ccfc247d1d crypto: iaa - Do not clobber req->base.data
+d99dfb1fc262a9c6cea455984076b4444b2debd8 crypto: iaa - Remove unused disable_async argument from iaa_decompress
+1f73b987232918fc9f57ef1abd57244da79a2c89 crypto: ccp - Abort doing SEV INIT if SNP INIT fails
+44d65e89b90e2bb7348be02ab36aa8036c6f0da4 crypto: ccp - Move dev_info/err messages for SEV/SNP init and shutdown
+94eb1b56bd4f1893a145be6df2f3f4c6d8b6a976 crypto: ccp - Ensure implicit SEV/SNP init and shutdown in ioctls
+49c5cca81c293d7990f02b0353783968dafcdcc8 crypto: ccp - Reset TMR size at SNP Shutdown
+d78b7c9bc977908f019ffe48116a795e5432c17e crypto: ccp - Register SNP panic notifier only if SNP is enabled
+53e4d105882310dbec5debb2a825f55c0d88244f crypto: ccp - Add new SEV/SNP platform shutdown API
+272284355d74838494d270e82160f17fc731006d crypto: sa2ul - Use proper helpers to setup request
+b19ff2956d652a7fdc0ca85ab0a72600c91adf77 crypto: tegra - Fix IV usage for AES ECB
+dd16b609dc30fe528952ebd299bb092f66b9343b crypto: qat - add shutdown handler to qat_4xxx
+e934035b4abcea1d6e7917b64644a8ba8fd09d49 crypto: qat - add shutdown handler to qat_420xx
+4463f58e5591af81c72d5deb343ea15b69bf0cbe crypto: qat - remove redundant prototypes in qat_dh895xcc
+0e507276f26ad29befaf228dc893a2d43d0686fd crypto: qat - add shutdown handler to qat_dh895xcc
+02ca0708af0729eab4dbb72b4628b139be432e4f crypto: qat - remove redundant prototypes in qat_c62x
+f3371b14c210d24e83b405f518d5f17a419a9c1a crypto: qat - add shutdown handler to qat_c62x
+ee7eba724725108aaf620a21bd83fd9711feb737 crypto: qat - remove redundant prototypes in qat_c3xxx
+bc8ef9ca64e4d966b1473b18676d2067fc453791 crypto: qat - add shutdown handler to qat_c3xxx
+8bb2434bbb28efa048945292bac5b15b730cc5d1 crypto: qat - remove initialization in device class
+55125402eae548724a17ee049d98ae500e9d839e crypto: qat - remove BITS_IN_DWORD()
+3699243a5f4f53213bc23c7337708e8e08d18399 crypto: omap-aes - use dev_groups to register attribute groups
+97eec80dc252b1574570015987c724bbb4ad5b7c crypto: omap-sham - use dev_groups to register attribute groups
+5609f6db9a1be97b71b6f3c62a385e86e2613ca6 MAINTAINERS: Update maintainers for crypto/marvell
+092ad3fab01d60c4b381231d9a6c93b1050e4696 crypto: x86/aes - drop the avx10_256 AES-XTS and AES-CTR code
+1cd129e432a59302a2cb1ec3ab02bfe827d991f5 crypto: x86/aegis - stop using the SIMD helper
+0f4682e481b8df663478db20040809068120320d crypto: x86/aes - stop using the SIMD helper
+89a84707c7eddd1742b41269196133f469561094 crypto: x86/aria - stop using the SIMD helper
+f4804270aad5648b9efc7772518bd7aed59c38e7 crypto: x86/camellia - stop using the SIMD helper
+f7f985ae2a16c4b0195d3c8f8ac4fed7a43e9908 crypto: x86/cast - stop using the SIMD helper
+7d78df89265e314f9a00b8cdbbd26c52b350a03d crypto: x86/serpent - stop using the SIMD helper
+f95bfc5d0063a594ce676685b384e0ee52fca211 crypto: x86/sm4 - stop using the SIMD helper
+9a5cc9c1bb99f531f099996721de53748a232edc crypto: x86/twofish - stop using the SIMD helper
+0685398f75d4ad2b9474f835a8b764bb361b70a8 crypto: eip93 - Make read-only arrays static const
+5aafd11da7d0683aac2c87b6a68716de6bbfc6b9 crypto: hash - Do not use shash in hard IRQs
+cff552aa35d45ba8872ec1e65370f6da1050e502 crypto: x86/chacha - Remove SIMD fallback path
+ab1d38d8371a2e5b4ccc0b20b80adc1512ea24fc crypto: arm/aes-ce - stop using the SIMD helper
+c7c886197f2d31290133624708431b0dedf12d4f crypto: arm/aes-neonbs - stop using the SIMD helper
+e2c1b100a540c3b1f5e65da79870dc2cbeae903d crypto: ctr - remove unused crypto_ctr_encrypt_walk()
+c8e95a112ea00879990f925ea99ad15ae9fa346d crypto: qat - switch to standard pattern for PCI IDs
+ead498ba699dbca6310c0706b13de0c163308f17 crypto: x86 - Remove CONFIG_AS_SHA1_NI
+77e669d0b59ed0147be7d3e11150d85e39d370a7 crypto: x86 - Remove CONFIG_AS_SHA256_NI
+2e7da9c9ed762e07454db040d83267beb813b2fe crypto: x86 - Remove CONFIG_AS_AVX512 handling
+9ad1742d7fde1b243933829092fcb9652a590aae crypto: x86/aes-xts - optimize _compute_first_set_of_tweaks for AVX-512
+ace77995ece23112c1536e275c2242b9b075dda7 crypto: riscv/chacha - implement library instead of skcipher
+d6f50942677f599573797219497b68fb835689d2 crypto: chacha - centralize the skcipher wrappers for arch code
+2caf1e6c579d02652f8a565247f8cba311b675b6 crypto: arm/chacha - remove the redundant skcipher algorithms
+eafba08f48a267537f8ab2d2529c84f72cca7c22 crypto: arm64/chacha - remove the skcipher algorithms
+cca5faf922f1b2d718df04e552ce5c179d350fbb crypto: mips/chacha - remove the skcipher algorithms
+71a91a84376b86903797f2d687dd9f6e15cfb459 crypto: powerpc/chacha - remove the skcipher algorithms
+992891b54c580378787f633856f6abe34fff18c4 crypto: s390/chacha - remove the skcipher algorithms
+ec72cfd2225f9e6a25888fd926cb306c11bae76c crypto: x86/chacha - remove the skcipher algorithms
+8ad06e88ebd134580b9a1996006e85aad4002204 crypto: chacha - remove <crypto/internal/chacha.h>
 
---===============3527682290874109589==--
+--===============4604268994184306915==--
