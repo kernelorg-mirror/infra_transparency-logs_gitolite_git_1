@@ -1,38 +1,69 @@
-Content-Type: multipart/mixed; boundary="===============9039564902731019209=="
+Content-Type: multipart/mixed; boundary="===============1439041995993963668=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Mon, 07 Apr 2025 16:14:35 -0000
-Message-Id: <174404247582.789496.1038146901312987409@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Mon, 07 Apr 2025 16:14:53 -0000
+Message-Id: <174404249304.789829.5467887127684911588@gitolite.kernel.org>
 
---===============9039564902731019209==
+--===============1439041995993963668==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 32ffed055dcee17f6705f545b069e44a66067808
-    new: 6ea36a3e12c5ee0806761659972912de37af4e95
-    log: |
-         995cf0e014b0144edf1125668a97c252c5ab775e regmap: Reorder 'struct regmap'
-         153dbf4adad0082d030c30d20541df2b1af52db6 regmap: irq: Use one way of setting all bits in the register
-         6ea36a3e12c5ee0806761659972912de37af4e95 Merge remote-tracking branch 'regmap/for-6.14' into regmap-linus
-         
+    old: b65439d9015024c37c6b8a17c0569ec44675a979
+    new: 00c847c546e950ba70b0bc5fa79911af9dd95e30
+    log: revlist-b65439d90150-00c847c546e9.txt
   - ref: refs/heads/for-next
-    old: 14b33926f5768e86494749def9f6d48f29239791
-    new: 2385ba6d1dc4705616b658419bae09ca0702cbbc
-    log: revlist-14b33926f576-2385ba6d1dc4.txt
+    old: 454d13c5d233dc81114e09bed86bf0c4c602b9b7
+    new: dae2682f18294670e60622d1a271bfa26a35e36b
+    log: revlist-454d13c5d233-dae2682f1829.txt
 
---===============9039564902731019209==
+--===============1439041995993963668==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-b65439d90150-00c847c546e9.txt
+
+19d022d67d7353f0e6e9ba255435d3de93862ac4 regulator: ad5398: change enable bit name to improve readibility
+5a6a461079decea452fdcae955bccecf92e07e97 regulator: ad5398: Add device tree support
+f9cbf56b0a1966d977df87d15a5bdbff2c342062 dt-bindings: regulator: pca9450: Add properties for handling LDO5
+b5ec74c2aec76fbdff9bc16951455602e11902bf arm64: dts: imx8mp-skov-reva: Use hardware signal for SD card VSELECT
+c73be62caabbec6629689c705aea65e5ce364d5d Revert "regulator: pca9450: Add SD_VSEL GPIO for LDO5"
+3ce6f4f943ddd9edc03e450a2a0d89cb025b165b regulator: pca9450: Fix control register for LDO5
+f5aab0438ef17f01c5ecd25e61ae6a03f82a4586 regulator: pca9450: Fix enable register for LDO5
+3c32a4386909e8023b3c49253fec33d267be16bb regulator: Add device tree support to AD5398
+0a7c85b516830c0bb088b0bdb2f2c50c76fc531a regulator: ad5398: Fix incorrect power down bit mask
+66d8e76e8e85a30fbf9809837e07e15a8c5ccb8b regulator: pca9450: Remove duplicate code in probe
+18311a766c587fc69b1806f1d5943305903b7e6e err.h: move IOMEM_ERR_PTR() to err.h
+a21cad9312767d26b5257ce0662699bb202cdda1 driver core: Split devres APIs to device/devres.h
+99e297cdd338b8a18c986ed4e088676579b7fe96 iio: imu: st_lsm9ds0: Replace device.h with what is needed
+a103b833ac3806b816bc993cba77d0b17cf801f1 devres: Introduce devm_kmemdup_array()
+0dffacbbf8d044456d50c893adb9499775c489f4 regulator: Add (devm_)of_regulator_get()
+b80fd34df2580f2c7a99e7188d68515bcf779714 Fix RK3588 power domain problems
+6ddd1159825c516b8f64fda83177c161434141f5 regulator: devres: use devm_kmemdup_array()
+c5c4ce6612bb25ce6d6936d8ade96fcba635da54 regulator: cros-ec: use devm_kmemdup_array()
+1455f0badd6345b2606bafb32e719d252293ebcd Convert regulator drivers to use
+c8c1ab2c5cb797fe455aa18b4ab7bf39897627f6 regulator: pca9450: Handle hardware with fixed SD_VSEL for LDO5
+248bc01138b11ff3af38c3b4a39cb8db7aae6eb6 regulator: pcf50633-regulator: Remove
+276c2fe14632a393c1b4d418e4fc2d9d656e1c30 regulator: dt-bindings: pca9450: Add nxp,pf9453 compatible string
+0959b6706325bf147f253841eea312e27a3bf013 regulator: pf9453: add PMIC PF9453 support
+502d16c0bd8fa40ba194f00ccac4bc205a5c253f regulator: rtq6752: make const read-only array fault_mask static
+64b3fb38b45f7f36954801c45d9b7c19d82d6f83 regulator: dt-bindings: rtq2208: Mark fixed LDO VOUT property as deprecated
+5e9491370a58bee1784999aa42f48f1f7289f641 regulator: dt-bindings: rtq2208: Cleanup whitespace
+c94764d3f4e503c0c4d56c8f64a8a63645091898 regulator: axp20x: AXP717: dcdc4 doesn't have delay
+00c847c546e950ba70b0bc5fa79911af9dd95e30 Merge remote-tracking branch 'regulator/for-6.14' into regulator-linus
+
+--===============1439041995993963668==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-14b33926f576-2385ba6d1dc4.txt
+Content-Disposition: attachment; filename=revlist-454d13c5d233-dae2682f1829.txt
 
 e364e4cebeb70a5f4f8cb28ca7480e1ddb361752 Merge branch 'stmmac-several-pci-related-improvements'
 cc04ed502457412960d215b9cd55f0d966fda255 stmmac: intel: interface switching support for RPL-P platform
@@ -1056,7 +1087,7 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 710329254dc303cd3b2df1a24674adecb1189385 Merge tag 'turbostat-2025.05.06' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
-6ea36a3e12c5ee0806761659972912de37af4e95 Merge remote-tracking branch 'regmap/for-6.14' into regmap-linus
-2385ba6d1dc4705616b658419bae09ca0702cbbc Merge branch 'regmap-linus' into regmap-next
+00c847c546e950ba70b0bc5fa79911af9dd95e30 Merge remote-tracking branch 'regulator/for-6.14' into regulator-linus
+dae2682f18294670e60622d1a271bfa26a35e36b Merge branch 'regulator-linus' into regulator-next
 
---===============9039564902731019209==--
+--===============1439041995993963668==--
