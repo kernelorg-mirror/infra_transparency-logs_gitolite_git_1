@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 07 Apr 2025 19:40:21 -0000
-Message-Id: <174405482134.981511.16314791541743471682@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
+Date: Mon, 07 Apr 2025 19:43:58 -0000
+Message-Id: <174405503804.983155.10941706836599490074@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/pcmoore/audit
+user: pcmoore
 changes:
-  - ref: refs/heads/pending
-    old: faa21eab729605e7960e933576aaae8e4ac51cb2
-    new: 68218fa0862aaa8fcc5f968663efc781eb4c91df
-    log: |
-         68218fa0862aaa8fcc5f968663efc781eb4c91df wifi: ath12k: Fix misspelling "upto" in dp.c
-         
+  - ref: refs/tags/v6.15-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 64e9fdfc89a76fed38d8ddeed72d42ec71957ed9
