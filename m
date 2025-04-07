@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0731314077550980837=="
+Content-Type: multipart/mixed; boundary="===============8667831558026725525=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Mon, 07 Apr 2025 05:10:48 -0000
-Message-Id: <174400264881.4126591.13189670215658397694@gitolite.kernel.org>
+Date: Mon, 07 Apr 2025 05:10:54 -0000
+Message-Id: <174400265473.4126893.357895253466539083@gitolite.kernel.org>
 
---===============0731314077550980837==
+--===============8667831558026725525==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ti/linux
 user: vigneshr
 changes:
-  - ref: refs/heads/ti-k3-dts-next
-    old: 377fde74eae4abcbcd5475676d58fb595a07ff85
+  - ref: refs/heads/ti-k3-config-next
+    old: 75a41c26351a77cd5dd01e14d059eaf11358689c
     new: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    log: revlist-377fde74eae4-0af2f6be1b42.txt
+    log: revlist-75a41c26351a-0af2f6be1b42.txt
 
---===============0731314077550980837==
+--===============8667831558026725525==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-377fde74eae4-0af2f6be1b42.txt
+Content-Disposition: attachment; filename=revlist-75a41c26351a-0af2f6be1b42.txt
 
 d327a12e636e902fd0c7178732813b041a1c9214 stmmac: Remove pcim_* functions for driver detach
 45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
@@ -1051,4 +1051,4 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
 
---===============0731314077550980837==--
+--===============8667831558026725525==--
