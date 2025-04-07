@@ -1,36 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5606556849466376671=="
+Content-Type: multipart/mixed; boundary="===============2352119174644569153=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 07 Apr 2025 19:02:27 -0000
-Message-Id: <174405254739.947638.3907065544515001584@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
+Date: Mon, 07 Apr 2025 19:06:42 -0000
+Message-Id: <174405280265.951724.2944332669763686362@gitolite.kernel.org>
 
---===============5606556849466376671==
+--===============2352119174644569153==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
+repo: pub/scm/linux/kernel/git/remoteproc/linux
+user: andersson
 changes:
-  - ref: refs/heads/for-linus
-    old: 00c847c546e950ba70b0bc5fa79911af9dd95e30
+  - ref: refs/heads/hwspinlock-next
+    old: fec04edb74126f21ac628c7be763c97deb49f69d
     new: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    log: revlist-00c847c546e9-0af2f6be1b42.txt
-  - ref: refs/heads/for-next
-    old: dae2682f18294670e60622d1a271bfa26a35e36b
-    new: b3d9e96c96b0076a11aa1001d55b3dc189b8cd1c
-    log: |
-         b3d9e96c96b0076a11aa1001d55b3dc189b8cd1c regulator: pf9453: Improve documentation for pf9453_regulator_set_ramp_delay_regmap
-         
+    log: revlist-fec04edb7412-0af2f6be1b42.txt
 
---===============5606556849466376671==
+--===============2352119174644569153==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-00c847c546e9-0af2f6be1b42.txt
+Content-Disposition: attachment; filename=revlist-fec04edb7412-0af2f6be1b42.txt
 
 d327a12e636e902fd0c7178732813b041a1c9214 stmmac: Remove pcim_* functions for driver detach
 45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
@@ -1057,4 +1051,4 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
 
---===============5606556849466376671==--
+--===============2352119174644569153==--
