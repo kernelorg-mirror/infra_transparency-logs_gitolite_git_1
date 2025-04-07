@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============1072557589331290899=="
+Content-Type: multipart/mixed; boundary="===============5693687676481344807=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-hsi
-Date: Mon, 07 Apr 2025 11:25:14 -0000
-Message-Id: <174402511430.518759.9793864679060940818@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
+Date: Mon, 07 Apr 2025 11:25:23 -0000
+Message-Id: <174402512386.519098.13834636020317305496@gitolite.kernel.org>
 
---===============1072557589331290899==
+--===============5693687676481344807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-hsi
+repo: pub/scm/linux/kernel/git/sre/linux-power-supply
 user: sre
 changes:
   - ref: refs/heads/for-next
-    old: e3f88665a78045fe35c7669d2926b8d97b892c11
+    old: 0b8d073f6c66d7110ac9fab1f13a09337e03f1b6
     new: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    log: revlist-e3f88665a780-0af2f6be1b42.txt
+    log: revlist-0b8d073f6c66-0af2f6be1b42.txt
 
---===============1072557589331290899==
+--===============5693687676481344807==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-e3f88665a780-0af2f6be1b42.txt
+Content-Disposition: attachment; filename=revlist-0b8d073f6c66-0af2f6be1b42.txt
 
 d327a12e636e902fd0c7178732813b041a1c9214 stmmac: Remove pcim_* functions for driver detach
 45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
@@ -1051,4 +1051,4 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
 
---===============1072557589331290899==--
+--===============5693687676481344807==--
