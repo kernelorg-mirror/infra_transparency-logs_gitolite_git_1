@@ -1,84 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============6358008688374058756=="
+Content-Type: multipart/mixed; boundary="===============1913642999990249361=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Mon, 07 Apr 2025 08:31:29 -0000
-Message-Id: <174401468903.318355.15935757544156763935@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hkrogeru/usb
+Date: Mon, 07 Apr 2025 08:36:13 -0000
+Message-Id: <174401497375.371466.9451597876469613049@gitolite.kernel.org>
 
---===============6358008688374058756==
+--===============1913642999990249361==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: cmarinas
+repo: pub/scm/linux/kernel/git/hkrogeru/usb
+user: hkrogeru
 changes:
-  - ref: refs/heads/devel/mte-strscpy
-    old: 322326cc4dee382f4c7c907a937da5b1dfd09b7c
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/for-kernelci
-    old: d6b13dbd03b7eb7b3b6a8c8009d1586a4f8c903d
+  - ref: refs/heads/master
+    old: 38fec10eb60d687e30c8c6b5420d86e8149f7557
     new: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    log: revlist-d6b13dbd03b7-0af2f6be1b42.txt
-  - ref: refs/heads/for-next/amuv1-avg-freq
-    old: 20711efa91e8ba44149f5e2ed1cf81e5355650e5
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/for-next/cca-dma-address
-    old: 7d953a06241624ee2efb172d037a4168978f4147
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/for-next/cputype-kryo
-    old: 53a52a0ec7680287b170b36488203b5822e6da2d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/for-next/drop-pxd_table_bit
-    old: 50c2726654bbc5e156040618413e25a3467de6f2
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/for-next/el2-enable-feat-pmuv3p9
-    old: 858c7bfcb35e1100b58bb63c9f562d86e09418d9
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/for-next/kselftest
-    old: 306219d59b72cfca4005229b2c6ad43a16479e3b
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/for-next/misc
-    old: 892d20acf36c3f633a1320610f3327acd28e90de
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/for-next/pgtable-cleanups
-    old: 51ecb29f7a6518aeb5beeaa7ac433fe62ca3dc4d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/for-next/pie-poe-cleanup
-    old: 650701e4ead6c97b0fbfbcb6920451e4070aadb0
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/for-next/pkey_unrestricted
-    old: 73276cee1a25c4a56266faf6cf0f33e88bb63859
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/for-next/smt-control
-    old: eed4583bcf9a60f8d6dd3a3c7c94dea28134b1eb
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/for-next/spectre-bhb-assume-vulnerable
-    old: a5951389e58d2e816eed3dbec5877de9327fd881
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/for-next/sysreg
-    old: 2fdbf2ff388441476aae5d914a04c47b247b5e7b
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/for-next/uaccess-mops
-    old: fe59e0358d9b032a09d903350d5fef73601166f2
-    new: 0000000000000000000000000000000000000000
+    log: revlist-38fec10eb60d-0af2f6be1b42.txt
 
---===============6358008688374058756==
+--===============1913642999990249361==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-d6b13dbd03b7-0af2f6be1b42.txt
+Content-Disposition: attachment; filename=revlist-38fec10eb60d-0af2f6be1b42.txt
 
-310ae9eb2617c62deedef8f121d7ca1ae774fa76 net: designate queue -> napi linking as "ops protected"
-b52458652eca5a551ddb55605201b136f091b04d net: protect rxq->mp_params with the instance lock
-7bd2e6b74ad56a49459ba84e8d4fa3730055ab5e Merge branch 'net-skip-taking-rtnl_lock-for-queue-get'
-d5048d1176b8e76e687fc145df785118424e1ec2 Merge tag 'timers-core-2025-03-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-a7c428ee8f59f171a3b57474f2bd5cee0ef1e036 tcp/dccp: remove icsk->icsk_timeout
-f1e30061e8a5af48c91ef2f25762f792114a6a90 tcp/dccp: remove icsk->icsk_ack.timeout
-071ccde6e511e3d82dfcc6d9caf40155a33d7428 Merge branch 'tcp-dccp-remove-16-bytes-from-icsk'
-9db2426a324ea4aceea071b3069108840a3fa3fe stmmac: loongson: Remove surplus loop
 d327a12e636e902fd0c7178732813b041a1c9214 stmmac: Remove pcim_* functions for driver detach
 45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
 e364e4cebeb70a5f4f8cb28ca7480e1ddb361752 Merge branch 'stmmac-several-pci-related-improvements'
@@ -98,6 +45,9 @@ bf81cf29b77c09b8c0a5ef3d574945e57dfde787 Bluetooth: btnxpuart: Handle bootloader
 eed14eb510c040a3826b633048244bb7a816c67d Bluetooth: MGMT: Add LL Privacy Setting
 fd87b7783802b45cdd261b273e6b2b792823064d net: Fix the devmem sock opts and msgs for parisc
 355d63e5de95de72561891b4d17b83ba82cfe42a arch: mips: defconfig: Drop obsolete CONFIG_NET_CLS_TCINDEX
+8cc14fdcc1b8473adcf90dae63a246042ebdcc25 Merge branches 'for-next/amuv1-avg-freq', 'for-next/pkey_unrestricted', 'for-next/sysreg', 'for-next/misc', 'for-next/pgtable-cleanups', 'for-next/kselftest', 'for-next/uaccess-mops', 'for-next/pie-poe-cleanup', 'for-next/cputype-kryo', 'for-next/cca-dma-address', 'for-next/drop-pxd_table_bit' and 'for-next/spectre-bhb-assume-vulnerable', remote-tracking branch 'arm64/for-next/perf' into for-next/core
+8ae9e2d8325698edc1335ede5401f68bcd7cc400 Merge branch 'for-next/smt-control' into for-next/core
+64fa6b9322a904198589c0479dca6f2ed7f2eb04 Merge branch 'for-next/el2-enable-feat-pmuv3p9' into for-next/core
 92009c3ba8903820077d29b6bb8be68780fedbdb thermal/drivers/qoriq: Use dev_err_probe() simplify the code
 229f3feb4b0442835b27d519679168bea2de96c2 thermal/drivers/qoriq: Power down TMU on system suspend
 1a685e2b3fc70f9a31ea28057471ba6615d8fa7b dt-bindings: thermal: tsens: Add ipq5332, ipq5424 compatible
@@ -569,6 +519,10 @@ ff4e0f7de6f0e73e901ed69a1f598ad3f310f6a7 bcachefs: add missing newline in bch2_t
 f174ac5ba2d0c77b406b3f73bdcde819d6ed6704 Merge tag 'ipe-pr-20250324' of git://git.kernel.org/pub/scm/linux/kernel/git/wufan/ipe
 a2d4f473df1117e437fee125fa7e9420e19207ec Merge tag 'integrity-v6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/zohar/linux-integrity
 78fb88eca684ed6f09f01a232c925b6da75d8131 Merge tag 'caps-pr-20250327' of git://git.kernel.org/pub/scm/linux/kernel/git/sergeh/linux
+89f43e1ce6f60d4f44399059595ac47f7a90a393 arm64: mm: Correct the update of max_pfn
+a13bfa4fe0d6949cea14718df2d1fe84c38cd113 arm64: mops: Do not dereference src reg for a set operation
+0fff2aa96f6be6d33b584d73b16d3672fd30fd5c arm64: mm: Drop dead code for pud special bit handling
+e18c09b204e81702ea63b9f1a81ab003b72e3174 arm64: Add support for HIP09 Spectre-BHB mitigation
 72885116069abdd05c245707c3989fc605632970 Merge tag 'landlock-6.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
 f8a4eba343cafc7e9ec11e45f53eddb88f90e397 Merge tag 'crc-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
 15cb9a2b66fc623843c68bd508e2731782ae6570 Merge tag 'tpmdd-next-6.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
@@ -802,6 +756,7 @@ c2004b6efb1c891b80bef186771a3668fc25f6b3 rtc: mt6397: drop unused defines
 9462e74c5c983cce34019bfb27f734552bebe59f platform/x86: ISST: Correct command storage data length
 566d3a52b8f618d22664171633d7106a630f46b9 MAINTAINERS: consistently use my dedicated email address
 0cd73ab4df45ed9a78051cfb96a6de48d421852f selftest: rtc: skip some tests if the alarm only supports minutes
+c28f31deeacda307acfee2f18c0ad904e5123aac arm64: Don't call NULL in do_compat_alignment_fixup()
 e3e68311ead15d8be61e8e1a8d2f0d1773a7ba9c block: remove unused nseg parameter
 424dfcd441f035769890e6d1faec2081458627b9 rtc: remove 'setdate' test program
 3cb2a2f7eebbb0752a834708e720a914e61841a1 spi: cadence-qspi: revert "Improve spi memory performance"
@@ -1096,4 +1051,4 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
 
---===============6358008688374058756==--
+--===============1913642999990249361==--
