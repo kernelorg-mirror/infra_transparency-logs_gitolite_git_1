@@ -1,58 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============6724940878092156918=="
+Content-Type: multipart/mixed; boundary="===============0802166213328780025=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 07 Apr 2025 19:01:49 -0000
-Message-Id: <174405250939.946962.13923116828482320257@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 07 Apr 2025 19:01:53 -0000
+Message-Id: <174405251319.947175.2950384813944848160@gitolite.kernel.org>
 
---===============6724940878092156918==
+--===============0802166213328780025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.15
+  - ref: refs/heads/regulator-6.15
     old: c94764d3f4e503c0c4d56c8f64a8a63645091898
     new: 0af2f6be1b4281385b618cb86ad946eded089ac8
     log: revlist-c94764d3f4e5-0af2f6be1b42.txt
-  - ref: refs/heads/for-6.16
-    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
+  - ref: refs/heads/regulator-6.16
+    old: 0000000000000000000000000000000000000000
     new: b3d9e96c96b0076a11aa1001d55b3dc189b8cd1c
-    log: |
-         b3d9e96c96b0076a11aa1001d55b3dc189b8cd1c regulator: pf9453: Improve documentation for pf9453_regulator_set_ramp_delay_regmap
-         
 
---===============6724940878092156918==
+--===============0802166213328780025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1744052537 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1744052507-43dfacc0d32a03dac092e9eb8f8c070c69bbc34a
+pusher C3F436CA30F5D8EB 1744052540 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1744052510-2ad4e1ceeb5a8e9f6200c23f48983cf5d6a95824
 
-c94764d3f4e503c0c4d56c8f64a8a63645091898 0af2f6be1b4281385b618cb86ad946eded089ac8 refs/heads/for-6.15
-0af2f6be1b4281385b618cb86ad946eded089ac8 b3d9e96c96b0076a11aa1001d55b3dc189b8cd1c refs/heads/for-6.16
+c94764d3f4e503c0c4d56c8f64a8a63645091898 0af2f6be1b4281385b618cb86ad946eded089ac8 refs/heads/regulator-6.15
+0000000000000000000000000000000000000000 b3d9e96c96b0076a11aa1001d55b3dc189b8cd1c refs/heads/regulator-6.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmf0ITkACgkQJNaLcl1U
-h9Bmigf/T1QkQzTbX8A7IL+gxHWh3Mw6Ve8PvH7/icuegIlHqah+/rUaM3UZkDA3
-i0wQcOZBeaawjRsBMeqRY2rzN1JWGa/a+YEZTd7E+vNon0pvm/Vb6SnF7qD6IeQO
-qLauuW+6lOk/NW7QVIKWaGxMf8g0wNl6xgY6KcUpxkbY5PEcqm77ZgluiG6wy3rP
-Bh9iKNHXznEXTsBs62rV5lCmKU4+Y1Fq2OOTQsHlwk2nNNJQalRPO1dYBPoHsKdm
-DAFhWssFhZ3HfVV3TTwoZUj0nEfS4P/K/ChMunr0O+rcyZtoKnQdQ9xZBUvfyiwk
-Q1YehrVHa1F/HUj658uignGabz2AxA==
-=rY+H
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmf0ITwACgkQJNaLcl1U
+h9CsMgf+MneVDorp04QpQrenj8yTfSsqArsenG3G3A3cGS0P7p2ObPMfIImZklhv
+9meobA8wrtXubqF/Gq+IWAvibc8DSA1FCuYT/7e09pjISHKupqduZwKvyY5nzW6f
+fm7r/1eV1PpHTSb7eQRvXbIkWKurzxnXOFVr/hRmB6DYsVDtkA8oBX5pcrF/7eUl
+l/ZtGLhiJzpuJHRGpHCJVIHYy33BDQ9QOoYvLMmhsFZle6Otyp2s/7kjPBsz+H6c
+E5fXb+FJkOyJAHlcdQezU/Wv+hyRsbOe5M/Q8PmEhH3TpOaKG6wrC7bt0rJnmwej
+NjFIXFExD3yY8vLmpUTGqZrMw3hmGg==
+=UHe+
 -----END PGP SIGNATURE-----
 
---===============6724940878092156918==
+--===============0802166213328780025==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1083,4 +1080,4 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
 
---===============6724940878092156918==--
+--===============0802166213328780025==--
