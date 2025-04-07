@@ -1,59 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============0802166213328780025=="
+Content-Type: multipart/mixed; boundary="===============5606556849466376671=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 07 Apr 2025 19:01:53 -0000
-Message-Id: <174405251319.947175.2950384813944848160@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Mon, 07 Apr 2025 19:02:27 -0000
+Message-Id: <174405254739.947638.3907065544515001584@gitolite.kernel.org>
 
---===============0802166213328780025==
+--===============5606556849466376671==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-6.15
-    old: c94764d3f4e503c0c4d56c8f64a8a63645091898
+  - ref: refs/heads/for-linus
+    old: 00c847c546e950ba70b0bc5fa79911af9dd95e30
     new: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    log: revlist-c94764d3f4e5-0af2f6be1b42.txt
-  - ref: refs/heads/regulator-6.16
-    old: 0000000000000000000000000000000000000000
+    log: revlist-00c847c546e9-0af2f6be1b42.txt
+  - ref: refs/heads/for-next
+    old: dae2682f18294670e60622d1a271bfa26a35e36b
     new: b3d9e96c96b0076a11aa1001d55b3dc189b8cd1c
+    log: |
+         b3d9e96c96b0076a11aa1001d55b3dc189b8cd1c regulator: pf9453: Improve documentation for pf9453_regulator_set_ramp_delay_regmap
+         
 
---===============0802166213328780025==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1744052540 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1744052510-2ad4e1ceeb5a8e9f6200c23f48983cf5d6a95824
-
-c94764d3f4e503c0c4d56c8f64a8a63645091898 0af2f6be1b4281385b618cb86ad946eded089ac8 refs/heads/regulator-6.15
-0000000000000000000000000000000000000000 b3d9e96c96b0076a11aa1001d55b3dc189b8cd1c refs/heads/regulator-6.16
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmf0ITwACgkQJNaLcl1U
-h9CsMgf+MneVDorp04QpQrenj8yTfSsqArsenG3G3A3cGS0P7p2ObPMfIImZklhv
-9meobA8wrtXubqF/Gq+IWAvibc8DSA1FCuYT/7e09pjISHKupqduZwKvyY5nzW6f
-fm7r/1eV1PpHTSb7eQRvXbIkWKurzxnXOFVr/hRmB6DYsVDtkA8oBX5pcrF/7eUl
-l/ZtGLhiJzpuJHRGpHCJVIHYy33BDQ9QOoYvLMmhsFZle6Otyp2s/7kjPBsz+H6c
-E5fXb+FJkOyJAHlcdQezU/Wv+hyRsbOe5M/Q8PmEhH3TpOaKG6wrC7bt0rJnmwej
-NjFIXFExD3yY8vLmpUTGqZrMw3hmGg==
-=UHe+
------END PGP SIGNATURE-----
-
---===============0802166213328780025==
+--===============5606556849466376671==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-c94764d3f4e5-0af2f6be1b42.txt
+Content-Disposition: attachment; filename=revlist-00c847c546e9-0af2f6be1b42.txt
 
 d327a12e636e902fd0c7178732813b041a1c9214 stmmac: Remove pcim_* functions for driver detach
 45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
@@ -1080,4 +1057,4 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
 
---===============0802166213328780025==--
+--===============5606556849466376671==--
