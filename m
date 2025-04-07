@@ -1,41 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============0622844387908945388=="
+Content-Type: multipart/mixed; boundary="===============1755467322388983841=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Mon, 07 Apr 2025 06:40:08 -0000
-Message-Id: <174400800895.79525.15045792360570748344@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+Date: Mon, 07 Apr 2025 06:40:13 -0000
+Message-Id: <174400801380.79751.7357196617530248600@gitolite.kernel.org>
 
---===============0622844387908945388==
+--===============1755467322388983841==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/intel
-user: westeri
+repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+user: andy
 changes:
-  - ref: refs/heads/for-next
-    old: 0ee2261d08aa21a7327f145cbf1bfb6ac2205c7d
-    new: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    log: revlist-0ee2261d08aa-0af2f6be1b42.txt
+  - ref: refs/heads/review-andy
+    old: 1f4c7f3b3afa90e10903234c86d5bd168c5f23b3
+    new: cec329e5436acbcddef7cf3740d08bdc22b74979
+    log: revlist-1f4c7f3b3afa-cec329e5436a.txt
 
---===============0622844387908945388==
+--===============1755467322388983841==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-0ee2261d08aa-0af2f6be1b42.txt
+Content-Disposition: attachment; filename=revlist-1f4c7f3b3afa-cec329e5436a.txt
 
-d327a12e636e902fd0c7178732813b041a1c9214 stmmac: Remove pcim_* functions for driver detach
-45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
-e364e4cebeb70a5f4f8cb28ca7480e1ddb361752 Merge branch 'stmmac-several-pci-related-improvements'
-cc04ed502457412960d215b9cd55f0d966fda255 stmmac: intel: interface switching support for RPL-P platform
-1ae1d705a1120e8e0ca41698c5a0fff6f5290bc1 net: dsa: microchip: fix DCB apptrust configuration on KSZ88x3
-a50b4fe095fb98e0b7da03b0a42fd1247284868e Merge tag 'timers-cleanups-2025-03-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-317a76a996043d336b85197aed5f44184b36ac4a Merge tag 'timers-vdso-2025-03-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-3f0cb8de56b9a5c052a9e43fa548856926059810 io_uring: fix retry handling off iowq
-3afcb3b2e3a4ead24e3ab476576e87877d55ee22 io_uring: defer iowq cqe overflow via task_work
-4c76de42cb6971fc2cc7984ed974caffe6ea7fda io_uring: open code __io_post_aux_cqe()
 d73acd7af3a329e8ebe5df1c738ae8c1d0a5f778 io_uring: rename "min" arg in io_iopoll_check()
 816619782bdc70d7f33a8d0cda36d61414cec467 io_uring: move min_events sanitisation
 c59d88101cd9ed609678880e93b8e7684c7ba68e Bluetooth: btnxpuart: Add correct bootloader error codes
@@ -1050,5 +1040,15 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 710329254dc303cd3b2df1a24674adecb1189385 Merge tag 'turbostat-2025.05.06' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
+2c6c34e0cabe1351c6b1894ba8093cac11882e71 gpiolib: acpi: Improve struct acpi_gpio_info memory footprint
+d5ab616eb89659ef8f5c3a94eaf444992e34a2cd gpiolib: acpi: Remove index parameter from acpi_gpio_property_lookup()
+1be1cd03a93339f14c8f4fe300bca321fddc6478 gpiolib: acpi: Reduce memory footprint for struct acpi_gpio_params
+8de54265eba0e7d7d6b0f46c0cff7a7b862a0df9 gpiolib: acpi: Rename par to params for better readability
+bd0df44795053e53a25c521016d083311a05fae0 gpiolib: acpi: Reuse struct acpi_gpio_params in struct acpi_gpio_lookup
+8b4f52ef7a412dd8e0b390ad4815bd74323f6f99 gpiolib: acpi: Deduplicate some code in __acpi_find_gpio()
+71114cd1d386988bc90dca1d1f1fee5fb23817ad Merge patch series "gpiolib: acpi: Refactor to shrink the code by ~8%"
+08c23f26a97176a9ffddc142baec100b1a995cb5 devres: Move devm_*_action*() APIs to devres.h
+584165ba19bdb1fcfc08155c27a4a3424c715c53 devres: Add devm_is_action_added() helper
+cec329e5436acbcddef7cf3740d08bdc22b74979 gpiolib: devres: Finish the conversion to use devm_add_action()
 
---===============0622844387908945388==--
+--===============1755467322388983841==--
