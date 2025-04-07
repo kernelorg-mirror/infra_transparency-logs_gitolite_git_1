@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3285679872619379681=="
+Content-Type: multipart/mixed; boundary="===============8299721810002548391=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 07 Apr 2025 06:36:47 -0000
-Message-Id: <174400780771.74644.14359292508712203090@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Mon, 07 Apr 2025 06:37:39 -0000
+Message-Id: <174400785903.75212.7055285540839470214@gitolite.kernel.org>
 
---===============3285679872619379681==
+--===============8299721810002548391==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: westeri
 changes:
-  - ref: refs/heads/next
-    old: ad79c278e478ca8c1a3bf8e7a0afba8f862a48a1
+  - ref: refs/heads/master
+    old: 38fec10eb60d687e30c8c6b5420d86e8149f7557
     new: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    log: revlist-ad79c278e478-0af2f6be1b42.txt
+    log: revlist-38fec10eb60d-0af2f6be1b42.txt
 
---===============3285679872619379681==
+--===============8299721810002548391==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-ad79c278e478-0af2f6be1b42.txt
+Content-Disposition: attachment; filename=revlist-38fec10eb60d-0af2f6be1b42.txt
 
 d327a12e636e902fd0c7178732813b041a1c9214 stmmac: Remove pcim_* functions for driver detach
 45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
@@ -1051,4 +1051,4 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
 
---===============3285679872619379681==--
+--===============8299721810002548391==--
