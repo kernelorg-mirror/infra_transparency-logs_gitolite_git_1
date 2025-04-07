@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============1098675830840358340=="
+Content-Type: multipart/mixed; boundary="===============5113549755306031728=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Mon, 07 Apr 2025 06:47:38 -0000
-Message-Id: <174400845887.86481.14323863770164023671@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
+Date: Mon, 07 Apr 2025 06:49:39 -0000
+Message-Id: <174400857988.88032.12233475293402681199@gitolite.kernel.org>
 
---===============1098675830840358340==
+--===============5113549755306031728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/intel
-user: andy
+repo: pub/scm/linux/kernel/git/mips/linux
+user: tsbogend
 changes:
-  - ref: refs/heads/review-andy
-    old: 0ee2261d08aa21a7327f145cbf1bfb6ac2205c7d
+  - ref: refs/heads/mips-fixes
+    old: 6d48ad04075729519f6baaa1dc9e5a3a39d05f53
     new: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    log: revlist-0ee2261d08aa-0af2f6be1b42.txt
+    log: revlist-6d48ad040757-0af2f6be1b42.txt
 
---===============1098675830840358340==
+--===============5113549755306031728==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-0ee2261d08aa-0af2f6be1b42.txt
+Content-Disposition: attachment; filename=revlist-6d48ad040757-0af2f6be1b42.txt
 
 d327a12e636e902fd0c7178732813b041a1c9214 stmmac: Remove pcim_* functions for driver detach
 45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
@@ -1051,4 +1051,4 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
 
---===============1098675830840358340==--
+--===============5113549755306031728==--
