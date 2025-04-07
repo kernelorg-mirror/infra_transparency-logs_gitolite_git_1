@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3530257455798856064=="
+Content-Type: multipart/mixed; boundary="===============7030739876984593344=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/horms/ipvs-next
-Date: Mon, 07 Apr 2025 14:35:40 -0000
-Message-Id: <174403654035.694129.6092837857934360366@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/horms/ipvs
+Date: Mon, 07 Apr 2025 14:35:44 -0000
+Message-Id: <174403654470.694406.2750173939263006420@gitolite.kernel.org>
 
---===============3530257455798856064==
+--===============7030739876984593344==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/horms/ipvs-next
+repo: pub/scm/linux/kernel/git/horms/ipvs
 user: horms
 changes:
   - ref: refs/heads/main
-    old: 71ca3561c268a07888ba9ce089ab8c3f54710cd4
+    old: 4003c9e78778e93188a09d6043a74f7154449d43
     new: 61f96e684edd28ca40555ec49ea1555df31ba619
-    log: revlist-71ca3561c268-61f96e684edd.txt
+    log: revlist-4003c9e78778-61f96e684edd.txt
 
---===============3530257455798856064==
+--===============7030739876984593344==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-71ca3561c268-61f96e684edd.txt
+Content-Disposition: attachment; filename=revlist-4003c9e78778-61f96e684edd.txt
 
 ad744ed5dd8b70e9256fc1ff18aaaffeedf5f21e vfio: VFIO_DEVICE_[AT|DE]TACH_IOMMUFD_PT support pasid
 3a17f23f7c36bac3a3584aaf97d3e3e0b2790396 dql: Fix dql->limit value when reset.
@@ -1051,4 +1051,4 @@ a05c6e6694c1601bdefd160332d3deba8393644f Merge tag 'soc-drivers-6.15-2' of git:/
 96364527357980ea68bb8bc7ec1490e22b9ed0cd Merge tag 'spi-fix-v6.15-merge-window' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 61f96e684edd28ca40555ec49ea1555df31ba619 Merge tag 'net-6.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============3530257455798856064==--
+--===============7030739876984593344==--
