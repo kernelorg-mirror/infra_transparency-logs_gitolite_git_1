@@ -1,61 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============0674967379873964525=="
+Content-Type: multipart/mixed; boundary="===============3806423946098978242=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 07 Apr 2025 16:13:58 -0000
-Message-Id: <174404243847.787940.2328977573771811363@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 07 Apr 2025 16:14:02 -0000
+Message-Id: <174404244261.788162.12930717472836443195@gitolite.kernel.org>
 
---===============0674967379873964525==
+--===============3806423946098978242==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.15
+  - ref: refs/heads/spi-6.15
     old: e19c1272c80a5ecce387c1b0c3b995f4edf9c525
     new: 0af2f6be1b4281385b618cb86ad946eded089ac8
     log: revlist-e19c1272c80a-0af2f6be1b42.txt
-  - ref: refs/heads/for-6.16
-    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
+  - ref: refs/heads/spi-6.16
+    old: 0000000000000000000000000000000000000000
     new: b644c2776652671256edcd7a8e71161e212b59ac
-    log: |
-         dd8a9807fa03666bff52cb28472fb227eaac36c9 spi: Group CS related fields in struct spi_device
-         1f1d979fbf741c3608a344373f88444dc8749967 spi: Simplify conditionals in spi_set_cs()
-         f48d80503504257682e493dc17408f2f0b47bcfa spi: spi-qpic-snand: use kmalloc() for OOB buffer allocation
-         b644c2776652671256edcd7a8e71161e212b59ac spi: spi_amd: Add PCI-based driver for AMD HID2 SPI controller
-         
 
---===============0674967379873964525==
+--===============3806423946098978242==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1744042466 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1744042435-40029c738c02226e2953b60c16cf7b7d5dcc0719
+pusher C3F436CA30F5D8EB 1744042470 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1744042439-005d09f7b2039763387ad175dd5f41d84d656fdb
 
-e19c1272c80a5ecce387c1b0c3b995f4edf9c525 0af2f6be1b4281385b618cb86ad946eded089ac8 refs/heads/for-6.15
-0af2f6be1b4281385b618cb86ad946eded089ac8 b644c2776652671256edcd7a8e71161e212b59ac refs/heads/for-6.16
+e19c1272c80a5ecce387c1b0c3b995f4edf9c525 0af2f6be1b4281385b618cb86ad946eded089ac8 refs/heads/spi-6.15
+0000000000000000000000000000000000000000 b644c2776652671256edcd7a8e71161e212b59ac refs/heads/spi-6.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmfz+eIACgkQJNaLcl1U
-h9DR0Qf+J/k+6gSp9/8cnmpETMEKAv1jg4KBvsrVeyZrubj1Rvf0JghYJbe564rR
-SHBBIx5aXtB8yZwPcHS9qHJfVcarQGeCtYbL7ZbIteSvE0DfzNZREEScugUFz67D
-wE8G1tGwk/Q+JqNOzCQXT9zehg8vf4lTvTdmWlVvpMpQlHnDG8tb/o5Ej4rHSpgR
-ixppHvQCC+6ikKeZ/wrW4xn56oobA2Sj/ZXM96fX0iK9nBUh8CTYwJ54J+LizzNz
-ExrV1kmPk42Z+8lk5rvOhmX1lidax5xQhenoseoBm6AsN6zFsC6teeeu9ZLq9dIy
-L59K1JAo6+TBHK6jVqLA9rnrveUj0g==
-=++xs
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmfz+eYACgkQJNaLcl1U
+h9DyiAf/SjbwU3ZpDXrhz4iXXOrIKfVn1NSJi1NinPJPXQtbehU0PpVvkmknw9Rp
+740wqH9xnWJ0GEeKl/ClkaiLiCGCCG+GYf2OqOfFW2sjyNbOG+tefdnWRyZTPmmS
+iIXYWbNCjuM9DW8Z3Vdztnc9SMwg8HGOLT9ZzjaKN0Pmauv5molyRYLmcMc0BEkQ
+uYxmE76KkM5jwxt6s1rxina2ncUn6quvU/PlkXXJiNWKC545RDsayTT42V09arFF
+W8hiCWvOiEPsc+IQz7jncMeT2ocxe6fYiXnvH01P1rfE0E1D2N5lcie8NnqUH/zW
+rXheF5L1LkGKwwnfB27hMTW3FQZRdQ==
+=c7CY
 -----END PGP SIGNATURE-----
 
---===============0674967379873964525==
+--===============3806423946098978242==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1086,4 +1080,4 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
 
---===============0674967379873964525==--
+--===============3806423946098978242==--
