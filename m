@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0987804166193495111=="
+Content-Type: multipart/mixed; boundary="===============7061941156274988153=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Mon, 07 Apr 2025 15:32:41 -0000
-Message-Id: <174403996125.748567.2861142898139167323@gitolite.kernel.org>
+Date: Mon, 07 Apr 2025 15:33:21 -0000
+Message-Id: <174404000162.749079.7110518799679590501@gitolite.kernel.org>
 
---===============0987804166193495111==
+--===============7061941156274988153==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,49 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/master
-    old: 5c2a430e85994f4873ea5ec42091baa1153bc731
-    new: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    log: revlist-5c2a430e8599-0af2f6be1b42.txt
-  - ref: refs/tags/v6.15-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 64e9fdfc89a76fed38d8ddeed72d42ec71957ed9
+  - ref: refs/heads/dev-test
+    old: aeb9513dc9a36df62a71fefbb64ba97006501cee
+    new: e86b7e2ffa9f606d900c2d18317828570e9357b0
+    log: revlist-aeb9513dc9a3-e86b7e2ffa9f.txt
 
---===============0987804166193495111==
+--===============7061941156274988153==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5c2a430e8599-0af2f6be1b42.txt
+Content-Disposition: attachment; filename=revlist-aeb9513dc9a3-e86b7e2ffa9f.txt
 
-f72e21eaaefe54e3f2eadaa63f55f9f3ba01a786 Merge tag 'amd-drm-next-6.15-2025-03-14' of https://gitlab.freedesktop.org/agd5f/linux into drm-next
-a82866fbecca6961c00edb2035ad66478571012c Merge tag 'amd-drm-next-6.15-2025-03-21' of https://gitlab.freedesktop.org/agd5f/linux into drm-next
-9f8fe348ac9544f6855f82565e754bf085d81f88 tty: serial: fsl_lpuart: Fix unused variable 'sport' build warning
-f2a54094b24f9f7ce5c1099426ea89cdd07685c9 smb: minor cleanup to remove unused function declaration
-faf1b64888ff13caa94fa09835fcfdabee18b057 smb: mark the new channel addition log as informational log with cifs_info
-9fb2e20e4f6acade2807d35cea3318786866d08d smb: client: Remove redundant check in cifs_oplock_break()
-f089ee00f205a6e487291f347ea99bf26370643a smb: client: Remove redundant check in smb2_is_path_accessible()
-b4885bd5935bb26f0a414ad55679a372e53f9b9b cifs: avoid NULL pointer dereference in dbg call
-4d03570f08f4775c34e2b90e650a78e5b9ddfba2 ksmbd: Use str_read_write() and str_true_false() helpers
-ae989ee1d355dfbc70ac7bad53d9e1789f186182 ksmbd: make SMB_SERVER_KERBEROS5 enable by default
-542027e123fc0bfd61dd59e21ae0ee4ef2101b29 ksmbd: add bounds check for durable handle context
-935e7cb5bb80106ff4f2fe39640f430134ef8cd8 tools/build: Don't pass test log files to linker
-ef238109a3d20a2af474bf758c50072a09591f19 perf build: Rename TEST_LOGS to SHELL_TEST_LOGS
-168910d0f9377b23b98404c88c13d4c51cdc5f15 perf build: Add mypy build tests
-8a54784e708b51c1dcead1471bbee5fb31ae92cc perf build: Add pylint build tests
-21944462d5a90e1b87637a5f2fa3f5d76bbc042b perf test: Address attr.py mypy error
-ba3b0861edc5ec7754872ce7426d86642fd4d44a perf python: Fix setup.py mypy errors
-9a352a90e88a041f4b26d359493e12a7f5ae1a6a perf tools: annotate asm_pure_loop.S
-d43929ef65a60b4c44a5f85cdce826c4e33a67d3 dm-delay: support zoned devices
-9de3f3cd470b25fafd150cf243e3a51e40b036ee PCI: dwc: Add dw_pcie_parent_bus_offset()
-28bb48c4cb34f65a9aa602142e76e1426da31293 rust: dma: add `Send` implementation for `CoherentAllocation`
-3b69e1d3815f376eae785a71705b5c2a621eaf19 PCI: dwc: Add dw_pcie_parent_bus_offset() checking and debug
-7db02f725df44b072e89f6b4ead4145d53be3c0f PCI: dwc: Use devicetree 'reg[config]' to derive CPU -> ATU addr offset
-92eb132ad1b27a6850acadfe4b3f7b25ada749cb PCI: dwc: ep: Call epc_create() early in dw_pcie_ep_init()
-d7ae671eba8b3aafed6af47a087d400eefbcff94 PCI: dwc: ep: Consolidate devicetree handling in dw_pcie_ep_get_resources()
-f28b3c9c429d8841adecfca82e0702e791b11226 PCI: dwc: ep: Use devicetree 'reg[addr_space]' to derive CPU -> ATU addr offset
-f3e1dccba0a0833fc9a05fb838ebeb6ea4ca0e1a PCI: dwc: ep: Ensure proper iteration over outbound map windows
-befc86a0b354285f49b6d0dccd50956e95f437c4 PCI: dwc: Use parent_bus_offset to remove need for .cpu_addr_fixup()
-b9812179f601590b1939dd46adc2b8f395afc771 PCI: imx6: Remove imx_pcie_cpu_addr_fixup()
 07ae413e169da3697e633dd4489db0d681a04460 PCI: intel-gw: Remove intel_pcie_cpu_addr()
 01a1e9d6a0077d17e737fbc0681d567dbdb3029e dt-bindings: PCI: Add common schema for devices accessible through PCI BARs
 6df401a2ee4a91f4fd1095507d6f461f1082d814 ipe: policy_fs: fix kernel-doc warnings
@@ -1053,5 +1021,34 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 710329254dc303cd3b2df1a24674adecb1189385 Merge tag 'turbostat-2025.05.06' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
+6032b46556e8cd1c5af482895af3358de680325f f2fs: Use a folio in f2fs_compress_free_page()
+9d3c54c2d8765b6e456a8b83df01a4ceb118647e f2fs: Use a folio in f2fs_write_raw_pages()
+d85cbfae32fa28b05cbd0f4d7a64ce8e3c67b421 f2fs: Introduce fio_inode()
+fba3b18f5bada08b5b43c77c237054ec136491d4 f2fs: Use F2FS_P_SB() in f2fs_is_compressed_page()
+c1d4905d79d84128e5a0c96369ad9679c652d770 f2fs: Use bio_for_each_folio_all() in __has_merged_page()
+305148979f3f2c0e30e8f679db7ca5296c8e8551 f2fs: Use a folio in add_ipu_page()
+38769aca792813d8b422a7fcdf25157b11ffdb73 f2fs: Remove access to page->mapping in f2fs_is_cp_guaranteed()
+ddff88e08ef9861703dd8a32d038bf48224eda75 f2fs: Use a folio in move_data_block()
+8e602b965ba34ef83907b192b1cd38511c6af4fa f2fs: Use a folio in f2fs_quota_read()
+0ecde163c8cbf1a12ecf54cd51252242acd85709 f2fs: Add f2fs_grab_meta_folio()
+93abc9b239c386d2aa642a5e2f69683a46fe4fe4 f2fs: Use a folio in commit_checkpoint()
+57d8eb33aa437e457ef656c819f01cf2ecd3fffc f2fs: Convert __f2fs_write_meta_page() to __f2fs_write_meta_folio()
+89a06a8a5816f9fc7ad239a80ae198465a593a0a f2fs: Use f2fs_folio_wait_writeback()
+a7be707f03d4b5b33667688823dd133a399017aa f2fs: Pass a folio to f2fs_submit_merged_ipu_write()
+ba79c397c4aa7ad6177f9a5baba0b0203aab1d0e f2fs: Convert __get_meta_page() to __get_meta_folio()
+3578d9debe3bf0da5cf76d1288fffbb8e27c2d81 f2fs: Convert f2fs_get_tmp_page() to f2fs_get_tmp_folio()
+0225f2d28abefe066dab8cefb38096879e235eac f2fs: Pass a folio to next_blkaddr_of_node()
+42e6f31a73d7a3f2ae42bacb9cce6f460db1db15 f2fs: Use a folio in f2fs_ra_meta_pages()
+5e708b5c60ca56b5701cf9e07b76817100a655cf f2fs: Use a folio in f2fs_ra_meta_pages_cond()
+f6768b622c52260ebe4b9fbd3ec17f9ca7ebbd93 f2fs: Use a folio in write_orphan_inodes()
+ae8ca2bf9211b7099b8a3df47edfeb0729b6f9eb f2fs: remove redundant assignment to variable err
+b627a3e12287c75d60494ab25026b077a8388775 f2fs: add a proc entry show inject stats
+2e89ad1804d45c262953f9a1ec5425b557d76dda f2fs: fix to update injection attrs according to fault_option
+94c5c99f667923151a8ca0b526ec9ad2e4518e32 f2fs: fix to set atomic write status more clear
+9ad8cc6f22a51480cd2421c0436bc4c30b38759c f2fs: zone: fix to avoid inconsistence in between SIT and SSA
+91f86062b5eb7253582b8f8c6c06a9bba661cdcd f2fs: add a fast path in finish_preallocate_blocks()
+deef454cda22610772db6fbfb7087a13197faa04 f2fs: fix to do sanity check on ino and xnid
+65394b451aaa43203beb7bb5e3d632ca5f9814f6 f2fs: clean up unnecessary indentation
+e86b7e2ffa9f606d900c2d18317828570e9357b0 f2fs: prevent the current section from being selected as a victim during GC
 
---===============0987804166193495111==--
+--===============7061941156274988153==--
