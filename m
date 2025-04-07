@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2223802741642742737=="
+Content-Type: multipart/mixed; boundary="===============6457021323027291771=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Mon, 07 Apr 2025 05:12:08 -0000
-Message-Id: <174400272844.4128904.1530106375722832354@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
+Date: Mon, 07 Apr 2025 05:20:00 -0000
+Message-Id: <174400320072.4134702.18050476617670788980@gitolite.kernel.org>
 
---===============2223802741642742737==
+--===============6457021323027291771==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ti/linux
-user: vigneshr
+repo: pub/scm/linux/kernel/git/hyperv/linux
+user: wei.liu
 changes:
-  - ref: refs/heads/ti-drivers-soc-next
-    old: 9a9b7cd77b2427d0722fe52301fa270690928989
+  - ref: refs/heads/hyperv-fixes
+    old: 73fe9073c0cc28056cb9de0c8a516dac070f1d1f
     new: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    log: revlist-9a9b7cd77b24-0af2f6be1b42.txt
+    log: revlist-73fe9073c0cc-0af2f6be1b42.txt
 
---===============2223802741642742737==
+--===============6457021323027291771==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-9a9b7cd77b24-0af2f6be1b42.txt
+Content-Disposition: attachment; filename=revlist-73fe9073c0cc-0af2f6be1b42.txt
 
 d327a12e636e902fd0c7178732813b041a1c9214 stmmac: Remove pcim_* functions for driver detach
 45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
@@ -1051,4 +1051,4 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
 
---===============2223802741642742737==--
+--===============6457021323027291771==--
