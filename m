@@ -1,23 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 07 Apr 2025 18:33:22 -0000
-Message-Id: <174405080298.921552.12100133048201203549@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Mon, 07 Apr 2025 18:41:51 -0000
+Message-Id: <174405131154.929399.14720418777971802225@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/main
-    old: 61f96e684edd28ca40555ec49ea1555df31ba619
-    new: 04efcee6ef8d0f01eef495db047e7216d6e6e38f
+  - ref: refs/heads/wip/jgg-for-next
+    old: aae85e007dffda49d1a611474f9653021ec763bd
+    new: 4dab26bed543584577b64b36aadb8b5b165bf44f
     log: |
-         216a61d33c0728a8cf1650aaed2c523c6ce16354 net: ethtool: fix ethtool_ringparam_get_cfg() returns a hds_thresh value always as 0.
-         22d3a63d5321326cb05a6dff7d2c488236cf56f2 selftests: drv-net: test random value for hds-thresh
-         cf46e18efdd55107315ce874f4638591aabbab6b Merge branch 'fix-wrong-hds-thresh-value-setting'
-         54f5fafcced113c7d203f6848f4f14840e74e9d1 ipv6: Fix null-ptr-deref in addrconf_add_ifaddr().
-         04efcee6ef8d0f01eef495db047e7216d6e6e38f net: hold instance lock during NETDEV_CHANGE
+         3aadd652c2c816a908abe55079e2590e3259e8ba RDMA/hns: Remove unused parameters
+         4dab26bed543584577b64b36aadb8b5b165bf44f IB/cm: use rwlock for MAD agent lock
+         
+  - ref: refs/heads/wip/jgg-for-rc
+    old: 1b2fe85f3cf19026a0e9037242bcbf7e736b22e3
+    new: 9beb2c91fb86e0be70a5833c6730441fa3c9efa8
+    log: |
+         9beb2c91fb86e0be70a5833c6730441fa3c9efa8 RDMA/hns: Fix wrong maximum DMA segment size
          
