@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7332759499401559482=="
+Content-Type: multipart/mixed; boundary="===============6880099252759467374=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Mon, 07 Apr 2025 14:33:45 -0000
-Message-Id: <174403642502.690079.14822521312414091587@gitolite.kernel.org>
+Date: Mon, 07 Apr 2025 14:33:52 -0000
+Message-Id: <174403643209.690374.11956746840335009198@gitolite.kernel.org>
 
---===============7332759499401559482==
+--===============6880099252759467374==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/dt/next
+  - ref: refs/heads/for-next
     old: 314655d41e650b3d72c60aa80a449e0ab22e2ffd
     new: af134b1145e6e1b64d41c144d4b5a8d17af22f45
     log: revlist-314655d41e65-af134b1145e6.txt
 
---===============7332759499401559482==
+--===============6880099252759467374==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
 af134b1145e6e1b64d41c144d4b5a8d17af22f45 dt-bindings: writing-schema: Explain sub-nodes with additionalProperties:true
 
---===============7332759499401559482==--
+--===============6880099252759467374==--
