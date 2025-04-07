@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============2356933090661112999=="
+Content-Type: multipart/mixed; boundary="===============0960691279797761960=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
 Date: Mon, 07 Apr 2025 05:56:23 -0000
-Message-Id: <174400538303.34159.15933954373719715908@gitolite.kernel.org>
+Message-Id: <174400538326.34170.16239627009724133974@gitolite.kernel.org>
 
---===============2356933090661112999==
+--===============0960691279797761960==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/gregkh/spdx
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next/soc64
+  - ref: refs/heads/spdx-linus
     old: 2014c95afecee3e76ca4a56956a936e23283f05b
     new: 0af2f6be1b4281385b618cb86ad946eded089ac8
     log: revlist-2014c95afece-0af2f6be1b42.txt
 
---===============2356933090661112999==
+--===============0960691279797761960==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1744005410 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1744005380-a1ae20cbbf05345f222dc82497281c56c047642f
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1744005324 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
+nonce 1744005381-9fc7cda136f89b382a874eefd97b8c6ca63beda9
 
-2014c95afecee3e76ca4a56956a936e23283f05b 0af2f6be1b4281385b618cb86ad946eded089ac8 refs/heads/next/soc64
+2014c95afecee3e76ca4a56956a936e23283f05b 0af2f6be1b4281385b618cb86ad946eded089ac8 refs/heads/spdx-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmfzaSIQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1yB8D/4/vsckz0pHpjglTKf9pxVaLVxaUk4Fqgw3
-BUYxRzgQJnX+g9Kzeu4B0F6ma8jdDhUv8i8Cdq+PAV7HdHIRI2xoLFmJOZah+3+Y
-XeOY+n/8lfIoFsPeRpnCMS0PXmGWW89c69xzEfDyxguYaJ0ytrk1OA6VUhliW8aY
-knmOI2yYduNwji3zeXVMXxWXAoKUQxVtnjq+7taxxAX2hOXPQ+z+9sIr31AqIiGO
-+wC7Kv9bfihVnNusHyvAVtbVxIFqzhMN+XpHeHUW+RgTmODUckA57eI4+yqEftp3
-GPpbLPPW40nLpwgghIPqWGTBM5sQaiHma/Zt3CO7jiRj96HZxYH5vjjorNmUrJaz
-+oq3k0DxKhWP/G3nIu7Wr/cY97OrXdk20FcKDfnQ6ExQnZ1HsjkjkKVzSGdET41u
-PPB87QFU2UGRqcxM+elJMQb829rnPXgiirx1KpsRkzcvlW7bmrJyFDjKeVoPRO+9
-JrPmrJUC9H51otMlmggc8upYdAQATnIU8rrIqHKZep32IHzdGALsWzHe35n11yTa
-wsMkphAWCBGn/Oiia/h2H7USvhliZO2Ptq5lfUl2bmdPsH5ClhOVKJ4Q9ZyujvLI
-GfffNalQtbmMFGRLaej+rwkwCyqjDjw4RPRVhnl0bA+rO+UYOG7wZo/l7FV+dxFf
-MZn6OCqLPw==
-=/wj8
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfzaMwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AK8P/2RF23TlVhy8TkEH5Bdj
+kzaQ/rpBRRLMTvm711RKqFa/1CBqAD7h7p4HtMLcrP9t/Im7Z5XLHVhOSCCifHP1
+9CqZdYxTpWZQy2T4yvXrVtb4b8K7xOUrVzC+IVwKA54k+vrH8JF01dtMRzobfGID
+NovZpQty5rGGzseqzfG5nOLy45yZkywaV9U1shOvr8GqQ30SINK9e6SHYVo6pSZp
+u8NdwVWl49GBJ2M2GUAb2aempV6OhfzEhuUB6s1ZMjUGzwNWMRpRL5Zt03XpDS9s
+WEbnXSOZNxDG0JPrDsuFb7BaLDdnDCmrxmnxHAYEFlhZFvffSUyGZUMArowxoQPs
+9vJBN/pLvEKC5tqRft2rdDZCzdtsIMZlcYum8UbTMyeRooMFHe6yGoNZRgTpNozz
+l7C4rrN069CsG4C6QZ7Lv3f+T8toKJgK0Mix8phM2MYiY2S+CGNn8/slBk4Os+l7
+IC4Y0ExHf/RmNKSZ3sw7egm7qkcCDLhENQseyYUFIQgSREBb0YtFvr50RhTzQlC1
+9wHq8fs9lL1dHp9FfPzToVUOCsVia9+DWkxg90Qg/obuUXBIusav7l3TAe/L3D3/
+a3EncL+As8Mritd/JbItGJkfhBz6RUTEKWku6oHy2ZM5nuG59Y9FlWT+VdZLKlm3
+5rTPwER7I5ix+dsovv3isb/t
+=ZqQ+
 -----END PGP SIGNATURE-----
 
---===============2356933090661112999==
+--===============0960691279797761960==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1082,4 +1082,4 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
 
---===============2356933090661112999==--
+--===============0960691279797761960==--
