@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2797129434899262102=="
+Content-Type: multipart/mixed; boundary="===============6069932458579742779=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 07 Apr 2025 01:12:07 -0000
-Message-Id: <174398832778.3929597.5095815181629149928@gitolite.kernel.org>
+Date: Mon, 07 Apr 2025 01:13:32 -0000
+Message-Id: <174398841268.3930405.5463189778212146095@gitolite.kernel.org>
 
---===============2797129434899262102==
+--===============6069932458579742779==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,47 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: fe43b5e8b5b604e939ecc6d28de2c9216357daac
-    new: d0aeaab89dad97be2e197d2a44dd1241a325da29
-    log: revlist-fe43b5e8b5b6-d0aeaab89dad.txt
+  - ref: refs/heads/nfsd-testing
+    old: a1fa18c31849c7871c75fdf634a81de78cc9aa6b
+    new: 27949255e3ced424a9a72a683bc512a063e68727
+    log: revlist-a1fa18c31849-27949255e3ce.txt
 
---===============2797129434899262102==
+--===============6069932458579742779==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fe43b5e8b5b6-d0aeaab89dad.txt
+Content-Disposition: attachment; filename=revlist-a1fa18c31849-27949255e3ce.txt
 
-0d98484ee3330c35d1dc0da0be0871b3596cbe0d arch, mm: introduce arch_mm_preinit
-8afa901c147a41f92e83943cddf154bbb7995ee6 arch, mm: make releasing of memory to page allocator more explicit
-4c9ea539ad59ec60676930dacee02b7adde2e0c0 mm/damon/sysfs: validate user inputs from damon_sysfs_commit_input()
-bf74bdfd2edb60ab44b48a6ef705207dc889dc3d mm/damon/core: invoke kdamond_call() after merging is done if possible
-258d941e5877f5fd40d5e636540c0a00458b8825 mm/damon/core: make damon_set_attrs() be safe to be called from damon_call()
-3301f1861d34f53911a30a8f5f41b9141bd8ed39 mm/damon/sysfs: handle commit command using damon_call()
-8b40db0edf3c4e02369509ace9c29f558f7b5cba mm/damon/sysfs: remove damon_sysfs_cmd_request code from damon_sysfs_handle_cmd()
-311f34ff85d2a0fb36b3566ef45dc21ee5089476 mm/damon/sysfs: remove damon_sysfs_cmd_request_callback() and its callers
-d682f5f643420aa5b06d34c679f3fb3fd60fbe14 mm/damon/sysfs: remove damon_sysfs_cmd_request and its readers
-52f7c351fc3e0bc372b5e3da21244f7e068ba9ec mm/damon/sysfs-schemes: remove obsolete comment for damon_sysfs_schemes_clear_regions()
-53058c762afff714ceaec14b87cf8fdce3b6d33e mm/damon: remove damon_callback->private
-07da21855b270c17b2a2d20e644c1419fcaafdd1 mm/damon: remove ->before_start of damon_callback
-cedee98f68875605dad644a95a63eae04de250b2 mm/damon: remove damon_callback->after_sampling
-99ce7c9c6d855716356f2f839c53905592fd780b mm/damon: remove damon_callback->before_damos_apply
-105f830fa35c49ada7db785a7f9b70386f193529 mm/damon: remove damon_operations->reset_aggregated
-11e88e9265ec192cff33fc2e43e36c211851b32c mm: remove redundant return in set_huge_zero_folio()
-9039b9096ea27a20f0349d1537537663c935c8ed mm: page_ext: add an iteration API for page extensions
-4e30b94cdad659d8ec5d32b61159138ce8d4ad1b mm: page_table_check: use new iteration API
-3a812bed3d32ae8c7443d1dd82f20b9a7e503ed2 mm: page_owner: use new iteration API
-f0e11a997ab438ce91a7dc9a6dd64c0c4a6af112 mm/vmalloc: refactor __vmalloc_node_range_noprof()
-d9a04a2615c0b8767a42dc26a8c26383e8513cdc mm: swap_cgroup: remove double initialization of locals
-fa17ad58f8328e5c089377fed55ca8ed62f7cd1d hugetlb: convert hugetlb_vma_maps_page() to hugetlb_vma_maps_pfn()
-fcc09f5b56601e618c3dafc9fdd74882924d9143 hugetlb: convert adjust_range_hwpoison() to take a folio
-3fec86f8aa8c7ae84567a0d1396e84ada96141d8 xarray: add xas_try_split() to split a multi-index entry
-00527733d0dc806a72bb9a56cfbd6c44d5f74872 mm/huge_memory: add two new (not yet used) functions for folio_split()
-6384dd1d18de7b84bc346981419e63a5fa72ced4 mm/huge_memory: move folio split common code to __folio_split()
-58729c04cf1092b87aeef0bf0998c9e2e4771133 mm/huge_memory: add buddy allocator like (non-uniform) folio_split()
-1f43d5aa24b2741d9bf68b0dc2c5b10e87dc60a9 mm/huge_memory: remove the old, unused __split_huge_page()
-4b94c18d15199658f1a86231663e97d3cc12d8de mm/huge_memory: add folio_split() to debugfs testing interface
-7460b470a131f985a70302a322617121efdd7caa mm/truncate: use folio_split() in truncate operation
 80a5c494c89f73907ed659a9233a70253774cdae selftests/mm: add tests for folio_split(), buddy allocator like split
 200a89c159a7a416115e6e309183c82183bf98aa mm/filemap: use xas_try_split() in __filemap_add_folio()
 d53c78fffe7ad364397c693522ceb4d152c2aacd mm/shmem: use xas_try_split() in shmem_split_large_entry()
@@ -1050,5 +1020,35 @@ d85eb1927cee0508eb4753ec6bdc3d4c06dfac95 NFSD: unregister filesystem in case gen
 0291e252646dbc4e1eac660f85887cf9b0d3799a NFSD: fix race between nfsd registration and exports_proc
 967ebb147aa9f31db5cc56ffc96725e9f620f89b NFSD: Add /sys/kernel/debug/nfsd
 d0aeaab89dad97be2e197d2a44dd1241a325da29 NFSD: Add experimental setting to disable the use of splice read
+45f04fc6bf4d4d6f49e905783d9733dbfeeff241 nfsd: remove redundant WARN_ON_ONCE in nfsd4_write
+179d93fd6772bf0bffbf8be45be9ad2a876cb8ee nfs: add missing selections of CONFIG_CRC32
+c1ca045803b570bae1fcc455aa8f06c70b3e66f9 nfsd: fix access checking for NLM under XPRTSEC policies
+179e9994aeb000a789a596f0e8838b2dcf0ea23d nfsd: adjust nfsd4_spo_must_allow checking order
+4275e484e46654c52019641ebfed8a90a0a81ac3 nfsd: nfsd4_spo_must_allow() must check this is a v4 compound request
+6ec7ec661a4bb61bd279fed2aa2bbdb6efefde4d nfsd: reset access mask for NLM calls in nfsd_permission
+4ab1b0c1ca853243d1398e45e8da4f0698a63dd6 Add include entries for NFSv4 POSIX draft ACLs
+59f1cda579d510a04aa678e77b05f310a4efca95 Add include entries for the POSIX draft ACL attributes
+7ac0e9a22fbc95bcc94d862099482c37e33b134b Fix up a comment that specifies the draft
+8209b9a97c5efece65e12313b66bab3fd3746180 Add a new ACL function to get a POSIX ACL
+749f3134f91596e5d3a300acb8c862a396b87257 Add a new function to set a POSIX draft ACL
+e5dd1b3d733c15f9638172bae5cd45b2de2ae596 Add the FATTR4_xxx bits for the POSIX draft ACL attributes
+794d1d8de155233b0ce71ee02a1d4f798c8c00ff Add fields for the default and access POSIX ACLs
+c9491c4d5cd5b49a0c1eeb845d9821962c01e75b Add handling of the XDR for the POSIX draft ACL attributes
+783dc5c483fde894ff3f867ecd878b2676c24eaf Add a check to ensure POSIX and NFSv4 ACLs are not both being set
+e73751cb849ac5d442c8aa44fba1731b649ad553 No need to check for a NULL acl pointer
+51d1521b1387e508c92d84da637ae0a762e13953 Add na_dpaclerr and na_paclerr for file creation
+050b0ed3d0a23bd2dd7a8501f9cfd8ffaf34886b Add support for POSIX draft ACLs for file object creation
+552b82d45fabac707734d0e1fdc1faaf908d66d0 Decode the POSIX draft ACLs for file object creation
+3f3e548ad813d02ee12332757041318e9c2307da Fix the posix acl release function names
+c57d020986920a635969acae1aaa83dec26a0cf8 Fix a couple of bugs in POSIX ACL decoding
+97554848c940930ec16caca3f4531f26320a9427 NFSD: Fix compiler warnings due to incorrect format specifiers
+82d10d091f04c55f8dbd75bb908fa146c0f76468 Clarify the comment and use 3 * XDR_UNIT instead of 12.
+564bd2bb3d6466b328f7b731fb7ea47a4abc854f Fix indentation of switch statements
+7f86537bd7f601639b0cb5c1d3f6cd1f5455a600 Fix the array index for word2
+5b1380d654d525b13d2753d4001d437c8829aa00 Improve correctness for the ACL_TRUEFORM attribute reply
+16bbcb8f9633e08936f694f9c3e8694d709f8bc2 Make sort_pacl_range() global
+3452a4a9533e68d1390a3d90be7d1e02d635550c Call sort_pacl_range() for decoded POSIX draft ACLs
+0e4733b927c4ad4061c80032edbcd4c98f205d47 Fix handling of POSIX draft default ACLs
+27949255e3ced424a9a72a683bc512a063e68727 Fix handling of zero length ACLs for file object creation
 
---===============2797129434899262102==--
+--===============6069932458579742779==--
