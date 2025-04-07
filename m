@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7066208389433439289=="
+Content-Type: multipart/mixed; boundary="===============5386668747432369939=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Mon, 07 Apr 2025 05:11:54 -0000
-Message-Id: <174400271427.4128348.5607950629639503493@gitolite.kernel.org>
+Date: Mon, 07 Apr 2025 05:12:00 -0000
+Message-Id: <174400272024.4128615.7982008847735043970@gitolite.kernel.org>
 
---===============7066208389433439289==
+--===============5386668747432369939==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ti/linux
 user: vigneshr
 changes:
-  - ref: refs/heads/ti-keystone-dts-next
+  - ref: refs/heads/ti-keystone-next
     old: 2014c95afecee3e76ca4a56956a936e23283f05b
     new: 0af2f6be1b4281385b618cb86ad946eded089ac8
     log: revlist-2014c95afece-0af2f6be1b42.txt
 
---===============7066208389433439289==
+--===============5386668747432369939==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
 
---===============7066208389433439289==--
+--===============5386668747432369939==--
