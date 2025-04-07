@@ -1,109 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============0405183638643747344=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 07 Apr 2025 08:22:56 -0000
-Message-Id: <174401417649.312609.8323023989012825293@gitolite.kernel.org>
-
---===============0405183638643747344==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
+Date: Mon, 07 Apr 2025 08:23:04 -0000
+Message-Id: <174401418402.312711.7423208070997354658@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ukleinek/linux
+user: ukleinek
 changes:
-  - ref: refs/tags/v6.1.132
-    old: 0000000000000000000000000000000000000000
-    new: 70d27ed19c2717a299d60c0502ef6628e62e54fd
-  - ref: refs/tags/v6.1.133
-    old: 0000000000000000000000000000000000000000
-    new: ff8b29f3dd30a44831faa4b1f91f6e1e8ff89e91
-  - ref: refs/tags/v6.12.20
-    old: 0000000000000000000000000000000000000000
-    new: 0402e13ddfd2343f5b5b31258c8a48e677bfde91
-  - ref: refs/tags/v6.12.21
-    old: 0000000000000000000000000000000000000000
-    new: e0f3750ee897d6e8b51e9616c84afc79bbd0c422
-  - ref: refs/tags/v6.12.22
-    old: 0000000000000000000000000000000000000000
-    new: 440c280c7f7750e63df7dba7e4e0ea9c16d2c196
-  - ref: refs/tags/v6.13.10
-    old: 0000000000000000000000000000000000000000
-    new: e1b2c962d55e60d59cdc578910738f2e4406b1c3
-  - ref: refs/tags/v6.13.8
-    old: 0000000000000000000000000000000000000000
-    new: 313a45119549ede91c2b85966ee92bfad913b244
-  - ref: refs/tags/v6.13.9
-    old: 0000000000000000000000000000000000000000
-    new: 5329c79c372f621d81bc22b41ed76db80eb8a274
-  - ref: refs/tags/v6.14
-    old: 0000000000000000000000000000000000000000
-    new: 35ff3b0f4596c82ec0a3e1cc43e2a85f5e976023
-  - ref: refs/tags/v6.14-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 12b58398bffc23db89e715414399b0533255da51
-  - ref: refs/tags/v6.14.1
-    old: 0000000000000000000000000000000000000000
-    new: 7dc8cba8c8cde28b5dcd115e6f6edb2b74e56f5c
-  - ref: refs/tags/v6.15-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 64e9fdfc89a76fed38d8ddeed72d42ec71957ed9
-  - ref: refs/tags/v6.6.84
-    old: 0000000000000000000000000000000000000000
-    new: 469eafc06cc7eba6b961379fd5a5e786a124d29e
-  - ref: refs/tags/v6.6.85
-    old: 0000000000000000000000000000000000000000
-    new: 9a76824390149302cfc4c70a6de6fed6056b1175
-  - ref: refs/tags/v6.6.86
-    old: 0000000000000000000000000000000000000000
-    new: fd20f439b8e922f60ef5eee97f8cdfb4a505d56e
-
---===============0405183638643747344==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1744014110 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc
-nonce 1744014167-d5913493b9c38266e16ccaad50b7ef1fe72c38f4
-
-0000000000000000000000000000000000000000 70d27ed19c2717a299d60c0502ef6628e62e54fd refs/tags/v6.1.132
-0000000000000000000000000000000000000000 ff8b29f3dd30a44831faa4b1f91f6e1e8ff89e91 refs/tags/v6.1.133
-0000000000000000000000000000000000000000 0402e13ddfd2343f5b5b31258c8a48e677bfde91 refs/tags/v6.12.20
-0000000000000000000000000000000000000000 e0f3750ee897d6e8b51e9616c84afc79bbd0c422 refs/tags/v6.12.21
-0000000000000000000000000000000000000000 440c280c7f7750e63df7dba7e4e0ea9c16d2c196 refs/tags/v6.12.22
-0000000000000000000000000000000000000000 e1b2c962d55e60d59cdc578910738f2e4406b1c3 refs/tags/v6.13.10
-0000000000000000000000000000000000000000 313a45119549ede91c2b85966ee92bfad913b244 refs/tags/v6.13.8
-0000000000000000000000000000000000000000 5329c79c372f621d81bc22b41ed76db80eb8a274 refs/tags/v6.13.9
-0000000000000000000000000000000000000000 35ff3b0f4596c82ec0a3e1cc43e2a85f5e976023 refs/tags/v6.14
-0000000000000000000000000000000000000000 12b58398bffc23db89e715414399b0533255da51 refs/tags/v6.14-rc7
-0000000000000000000000000000000000000000 7dc8cba8c8cde28b5dcd115e6f6edb2b74e56f5c refs/tags/v6.14.1
-0000000000000000000000000000000000000000 64e9fdfc89a76fed38d8ddeed72d42ec71957ed9 refs/tags/v6.15-rc1
-0000000000000000000000000000000000000000 469eafc06cc7eba6b961379fd5a5e786a124d29e refs/tags/v6.6.84
-0000000000000000000000000000000000000000 9a76824390149302cfc4c70a6de6fed6056b1175 refs/tags/v6.6.85
-0000000000000000000000000000000000000000 fd20f439b8e922f60ef5eee97f8cdfb4a505d56e refs/tags/v6.6.86
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfzix4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KbwP/0qQu7QhR0HDixKqLFf8
-OLlKTXsaaLLIgJdZwTXHSI7EDOtw4nRJ5/YoROEXV3+PB70BcmStB5UGsLoiJuPB
-j3cYDMk1toVxGcPDEd1xW25WrrIQJQ7/bTNf5j+3e8mbHzNykcJSlZpMRApfjaj8
-G9OkhsdHmQ/gugetk846Cc8NS0ai0DtS3xwHb2BHolajrrzCdpait0Q0ZUYbSqhz
-snGxMx1mC9ZE2BKNu6YqVe3Xl+ZzV5DbdjQvIktkk82i3hjUxbKaRXXCna1G8BaU
-3e9/Fbh9Kch58OTpYPAJJiX2YYWpWJG3UcXHEMz5RfoelxUOPmxjD9AhnQfLmfxg
-sw3xkK/ZW9fL00UKPJzq0olr8J5Z+arr7AF9kDvkvxHwbhoPXZAzDWDoGeosPk5t
-piqWTp0F0W7nuUVx9udbX4o0ydC29IafF95eK1ce8iftByAz5K82xhp+5fqOJ4Db
-yFV3I34eBWXdqEdPvdrax8DpxsRrFmnYEL3cN1OyXBM1tcfOyEQR9oYDqJVTBzDE
-TSa8JaXRjhovANkr1oW6K+ZMS6JfsIPxQ8QAZ8P7JwgErjKjAVA0oGOcIaftyLva
-/igcmspEKDli7H5+p0NyM0FZciAPWVFOmtGUZ8F6QJxt5EzvkFN9qoonSL2SK+Vo
-YPjgTfw+9ykZW3OVLBo8TFjh
-=rkDV
------END PGP SIGNATURE-----
-
---===============0405183638643747344==--
+  - ref: refs/heads/pwm/fixes
+    old: 928446a5302eee30ebb32075c0db5dda5a138fb7
+    new: 0330e1833246c9c86e39bbbd906a9de5dfd35818
+    log: |
+         2e3f705be111303d00f13eb960c3682d5ee52718 pwm: Let pwm_set_waveform() succeed even if lowlevel driver rounded up
+         c7eca9e9dd72a009b0b98273a20669b6e0d61a35 pwm: stm32: Search an appropriate duty_cycle if period cannot be modified
+         0330e1833246c9c86e39bbbd906a9de5dfd35818 pwm: axi-pwmgen: Let .round_waveform_tohw() signal when request was rounded up
+         
+  - ref: refs/heads/pwm/for-next
+    old: 928446a5302eee30ebb32075c0db5dda5a138fb7
+    new: 0330e1833246c9c86e39bbbd906a9de5dfd35818
+    log: |
+         2e3f705be111303d00f13eb960c3682d5ee52718 pwm: Let pwm_set_waveform() succeed even if lowlevel driver rounded up
+         c7eca9e9dd72a009b0b98273a20669b6e0d61a35 pwm: stm32: Search an appropriate duty_cycle if period cannot be modified
+         0330e1833246c9c86e39bbbd906a9de5dfd35818 pwm: axi-pwmgen: Let .round_waveform_tohw() signal when request was rounded up
+         
