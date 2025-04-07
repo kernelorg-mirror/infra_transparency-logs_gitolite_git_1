@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5668098118079178331=="
+Content-Type: multipart/mixed; boundary="===============5122598300073627361=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-auxdisplay
-Date: Mon, 07 Apr 2025 06:47:03 -0000
-Message-Id: <174400842317.85713.5448892978479513059@gitolite.kernel.org>
+Date: Mon, 07 Apr 2025 06:47:10 -0000
+Message-Id: <174400843025.86001.14027706276751314585@gitolite.kernel.org>
 
---===============5668098118079178331==
+--===============5122598300073627361==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andy/linux-auxdisplay
 user: andy
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/review-andy
     old: 67200d70e45982f5120c43b3724f1b6e4a8a01e4
     new: 0af2f6be1b4281385b618cb86ad946eded089ac8
     log: revlist-67200d70e459-0af2f6be1b42.txt
 
---===============5668098118079178331==
+--===============5122598300073627361==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
 
---===============5668098118079178331==--
+--===============5122598300073627361==--
