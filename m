@@ -1,59 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============1225982594770903937=="
+Content-Type: multipart/mixed; boundary="===============0946095471334113446=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 07 Apr 2025 23:34:35 -0000
-Message-Id: <174406887529.1182118.130279340031239368@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 07 Apr 2025 23:34:43 -0000
+Message-Id: <174406888301.1182458.18104911445192738660@gitolite.kernel.org>
 
---===============1225982594770903937==
+--===============0946095471334113446==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.15
-    old: 93d34608fd162f725172e780b1c60cc93a920719
+  - ref: refs/heads/for-linus
+    old: 3b57c568a314a6f8a479cb7b07fd472cd60c3758
     new: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    log: revlist-93d34608fd16-0af2f6be1b42.txt
-  - ref: refs/heads/asoc-6.16
-    old: 0000000000000000000000000000000000000000
+    log: revlist-3b57c568a314-0af2f6be1b42.txt
+  - ref: refs/heads/for-next
+    old: 91600569b5e05fb34ef37a1ad8534862fd12e015
     new: ea61f39b38bdbb7c77ba2c70e130acdb808c8d68
+    log: revlist-91600569b5e0-ea61f39b38bd.txt
 
---===============1225982594770903937==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1744068902 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1744068872-482296ee3f1f7d35edb5ca5ab4fb505ee574f74b
-
-93d34608fd162f725172e780b1c60cc93a920719 0af2f6be1b4281385b618cb86ad946eded089ac8 refs/heads/asoc-6.15
-0000000000000000000000000000000000000000 ea61f39b38bdbb7c77ba2c70e130acdb808c8d68 refs/heads/asoc-6.16
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmf0YSYACgkQJNaLcl1U
-h9BLagf7BfylHBsOPl8biZ9FjIdfwDwS9cLOIZi2nHcFXJnWi5xx1T2nvMUyjB1k
-nDnmu+VTfldgcfhoGCca/HO/r/ca8V6FvpV9T509Jq2JGMvuiddFV3G8arZNHQoU
-/uV9T5wo1TdwJFF0uGTdLQzbVWJsLf4APF+F7ZfdSww14EJtrvZNye6xYXxxj8Xn
-wgY5BhgT0z52SDKEo6oMZFjKByzhjkmXAZaMdo2ngc5tY/TmX1vmuvw6ru+yTQaf
-hf1TUP2J2qp4dt43NK4oGUSZbtRiiC355FxMPzjIN+2gCEIC+SwmvnrsZ8dzF6Fe
-v0fUfErlaYK5rscqtuCTco5jG/2Zow==
-=X6Jx
------END PGP SIGNATURE-----
-
---===============1225982594770903937==
+--===============0946095471334113446==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-93d34608fd16-0af2f6be1b42.txt
+Content-Disposition: attachment; filename=revlist-3b57c568a314-0af2f6be1b42.txt
 
 0ae2062ee3ebf11981f9bdb6198fa734d8c0f46c Merge tag 'locking-futex-2025-03-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ba6f418fbf64bb8c0e98dc1b548c151beeedd16c net: bubble up taking netdev instance lock to callers of net_devmem_unbind_dmabuf()
@@ -1080,4 +1055,22 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
 
---===============1225982594770903937==--
+--===============0946095471334113446==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-91600569b5e0-ea61f39b38bd.txt
+
+d01131e3ce14f9837884aef1f3e463a3a492291f ASoC: stm: stm32_sai: Use dev_err_probe()
+a3375522bb5e28285cb1845ad5601bf4a581da04 ASoC: core: Complete support for card rebinding
+d0e1a832ce60354da2159d4d2b1fa324843622d5 ASoC: Intel: avs: Permit deferred card registration
+ad20e1f877b6e0c523154d2c6533b836d4d05260 ASoC: sun8i-codec: Remove unnecessary NULL check before clk_prepare_enable/clk_disable_unprepare
+7288aa73e5cfb3f37ae93b55d7b7d63eca5140a8 ASoC: loongson: Replace deprecated PCI functions
+d1ecbcc3d82d65655685d3a05b3faf79e836d94a ASoC: dt-bindings: maxim,max98925: Fix include placement in DTS example
+5a4c3ce480031c4654ea8ee6c5cb4621819973f3 ASoC: dt-bindings: fsl,mqs: Reference common DAI properties
+e0cd450a2d207ce44aa88137a045f2d2a31810c2 ASoC: Intel: Remove unused SND_SOC_INTEL_DA7219_MAX98357A_GENERIC
+7afa96026f0a1d81b7e9cc8f1811cae4b80d4d94 ASoC: codecs: rt5677: Use secs_to_jiffies() instead of msecs_to_jiffies()
+5533518834a3acc75919e8db671f6a8539e64f42 ASoC: hdmi-codec: wire up the .prepare callback also for SPDIF DAI ops
+ea61f39b38bdbb7c77ba2c70e130acdb808c8d68 ASoC: sta32x: Remove unnecessary NULL check before clk_disable_unprepare()
+
+--===============0946095471334113446==--
