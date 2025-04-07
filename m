@@ -1,31 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============0161282709914581152=="
+Content-Type: multipart/mixed; boundary="===============3540453486113364259=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-Date: Mon, 07 Apr 2025 10:54:06 -0000
-Message-Id: <174402324654.490262.6410093952572416359@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfs-linux
+Date: Mon, 07 Apr 2025 10:55:58 -0000
+Message-Id: <174402335810.493416.9507211808646018168@gitolite.kernel.org>
 
---===============0161282709914581152==
+--===============3540453486113364259==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-user: thomas.weissschuh
+repo: pub/scm/fs/xfs/xfs-linux
+user: cem
 changes:
-  - ref: refs/heads/b4/must_check-devm_mutex_init
-    old: f623cd9631b1577437a7c4353bfe77b32c173da6
-    new: 8292a62d2fd925f1b320ea293ca0de31f94b376b
-    log: revlist-f623cd9631b1-8292a62d2fd9.txt
+  - ref: refs/heads/for-next
+    old: cdb809a573c4dd92f57f716c9c34ace1cf108f70
+    new: 71700ac47ad8bbf314424b38178a7a92fe0f57d7
+    log: revlist-cdb809a573c4-71700ac47ad8.txt
 
---===============0161282709914581152==
+--===============3540453486113364259==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-f623cd9631b1-8292a62d2fd9.txt
+Content-Disposition: attachment; filename=revlist-cdb809a573c4-71700ac47ad8.txt
 
+45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
 e364e4cebeb70a5f4f8cb28ca7480e1ddb361752 Merge branch 'stmmac-several-pci-related-improvements'
 cc04ed502457412960d215b9cd55f0d966fda255 stmmac: intel: interface switching support for RPL-P platform
 1ae1d705a1120e8e0ca41698c5a0fff6f5290bc1 net: dsa: microchip: fix DCB apptrust configuration on KSZ88x3
@@ -1048,7 +1049,6 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 710329254dc303cd3b2df1a24674adecb1189385 Merge tag 'turbostat-2025.05.06' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
-39fb13be80fe2745a91f3bd8418abb140afcf78c EDITME
-8292a62d2fd925f1b320ea293ca0de31f94b376b locking/mutex: Mark devm_mutex_init() as __must_check
+71700ac47ad8bbf314424b38178a7a92fe0f57d7 Merge tag 'v6.15-rc1' into for-next
 
---===============0161282709914581152==--
+--===============3540453486113364259==--
