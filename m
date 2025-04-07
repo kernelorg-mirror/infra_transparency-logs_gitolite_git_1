@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6369296389528796086=="
+Content-Type: multipart/mixed; boundary="===============0192844383221231894=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 07 Apr 2025 11:33:40 -0000
-Message-Id: <174402562038.525428.1014901210084867010@gitolite.kernel.org>
+Date: Mon, 07 Apr 2025 11:33:45 -0000
+Message-Id: <174402562546.525678.16191152652293045038@gitolite.kernel.org>
 
---===============6369296389528796086==
+--===============0192844383221231894==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/for-next
-    old: 37826f0a8c2f6b6add5179003b8597e32a445362
+  - ref: refs/heads/for-rc
+    old: 6b5e41a8b51fce520bb09bd651a29ef495e990de
     new: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    log: revlist-37826f0a8c2f-0af2f6be1b42.txt
+    log: revlist-6b5e41a8b51f-0af2f6be1b42.txt
 
---===============6369296389528796086==
+--===============0192844383221231894==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-37826f0a8c2f-0af2f6be1b42.txt
+Content-Disposition: attachment; filename=revlist-6b5e41a8b51f-0af2f6be1b42.txt
 
 d327a12e636e902fd0c7178732813b041a1c9214 stmmac: Remove pcim_* functions for driver detach
 45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
@@ -1051,4 +1051,4 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
 
---===============6369296389528796086==--
+--===============0192844383221231894==--
