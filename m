@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 07 Apr 2025 00:35:34 -0000
-Message-Id: <174398613408.3895908.11992206996470040487@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Mon, 07 Apr 2025 01:10:49 -0000
+Message-Id: <174398824940.3928436.7316451515240809907@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/keys-graveyard
-    old: 6873230b7eaa0250ecc9e764eb1cc14281685f23
-    new: 79bc48e5f05d04e8e31ac2d280a81670e1ff02dd
-    log: |
-         79bc48e5f05d04e8e31ac2d280a81670e1ff02dd KEYS: Add a list for unreferenced keys
-         
+  - ref: refs/tags/v6.15-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 64e9fdfc89a76fed38d8ddeed72d42ec71957ed9
