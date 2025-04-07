@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3709531105165763208=="
+Content-Type: multipart/mixed; boundary="===============3703982882702305064=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
-Date: Mon, 07 Apr 2025 05:31:10 -0000
-Message-Id: <174400387041.3037.17778335626083666859@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
+Date: Mon, 07 Apr 2025 05:33:01 -0000
+Message-Id: <174400398107.4138.4380370474486090648@gitolite.kernel.org>
 
---===============3709531105165763208==
+--===============3703982882702305064==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/phy/linux-phy
+repo: pub/scm/linux/kernel/git/vkoul/dmaengine
 user: vkoul
 changes:
   - ref: refs/heads/fixes
@@ -24,9 +24,9 @@ changes:
     new: 0af2f6be1b4281385b618cb86ad946eded089ac8
     log: revlist-2014c95afece-0af2f6be1b42.txt
   - ref: refs/heads/next
-    old: f13bff25161b8a0a9d716764ebe57334d496c6d9
+    old: 6565439894570a07b00dba0b739729fe6b56fba4
     new: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    log: revlist-f13bff25161b-0af2f6be1b42.txt
+    log: revlist-656543989457-0af2f6be1b42.txt
   - ref: refs/tags/v6.15-rc1
     old: 0000000000000000000000000000000000000000
     new: 64e9fdfc89a76fed38d8ddeed72d42ec71957ed9
@@ -52,7 +52,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 12b58398bffc23db89e715414399b0533255da51
 
---===============3709531105165763208==
+--===============3703982882702305064==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1083,7 +1083,7 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
 
---===============3709531105165763208==
+--===============3703982882702305064==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -2114,11 +2114,11 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
 
---===============3709531105165763208==
+--===============3703982882702305064==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-f13bff25161b-0af2f6be1b42.txt
+Content-Disposition: attachment; filename=revlist-656543989457-0af2f6be1b42.txt
 
 d327a12e636e902fd0c7178732813b041a1c9214 stmmac: Remove pcim_* functions for driver detach
 45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
@@ -3145,4 +3145,4 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
 
---===============3709531105165763208==--
+--===============3703982882702305064==--
