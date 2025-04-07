@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6853281444730065068=="
+Content-Type: multipart/mixed; boundary="===============8860536129280125905=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
-Date: Mon, 07 Apr 2025 10:13:51 -0000
-Message-Id: <174402083186.457369.3899375147980081322@gitolite.kernel.org>
+Date: Mon, 07 Apr 2025 10:37:03 -0000
+Message-Id: <174402222344.476856.13775821489971276616@gitolite.kernel.org>
 
---===============6853281444730065068==
+--===============8860536129280125905==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ukleinek/linux
 user: ukleinek
 changes:
-  - ref: refs/heads/pwm/for-next
-    old: 0330e1833246c9c86e39bbbd906a9de5dfd35818
+  - ref: refs/heads/pwm/for-nexxt
+    old: f09762d6f6d6e81eddded89c4ae77a8b3897ab77
     new: d2002ac92158603204a4dc5f906060fb565a4ae2
-    log: revlist-0330e1833246-d2002ac92158.txt
+    log: revlist-f09762d6f6d6-d2002ac92158.txt
 
---===============6853281444730065068==
+--===============8860536129280125905==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-0330e1833246-d2002ac92158.txt
+Content-Disposition: attachment; filename=revlist-f09762d6f6d6-d2002ac92158.txt
 
-4c76de42cb6971fc2cc7984ed974caffe6ea7fda io_uring: open code __io_post_aux_cqe()
-d73acd7af3a329e8ebe5df1c738ae8c1d0a5f778 io_uring: rename "min" arg in io_iopoll_check()
-816619782bdc70d7f33a8d0cda36d61414cec467 io_uring: move min_events sanitisation
 c59d88101cd9ed609678880e93b8e7684c7ba68e Bluetooth: btnxpuart: Add correct bootloader error codes
 bf81cf29b77c09b8c0a5ef3d574945e57dfde787 Bluetooth: btnxpuart: Handle bootloader error during cmd5 and cmd7
 1f77c05408c96bc0b58ae476a9cadc9e5b9cfd0f Bluetooth: btnxpuart: Fix kernel panic during FW release
@@ -1016,6 +1013,9 @@ e9ef2093ad9edec8d8a060e14891952570c82b8b hrtimers: Rename debug_init() to debug_
 59c9edafc0f3843c3e616eb8136a310c7c552595 hrtimers: Rename debug_init_on_stack() to debug_setup_on_stack()
 244132c4e5777fe0a4544ef23afba0d9a50e5ec5 tracing/timers: Rename the hrtimer_init event to hrtimer_setup
 56f944529ec2292cbe63377a76df3759d702dd39 Merge tag 'input-for-v6.15-rc0' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
+2e3f705be111303d00f13eb960c3682d5ee52718 pwm: Let pwm_set_waveform() succeed even if lowlevel driver rounded up
+c7eca9e9dd72a009b0b98273a20669b6e0d61a35 pwm: stm32: Search an appropriate duty_cycle if period cannot be modified
+0330e1833246c9c86e39bbbd906a9de5dfd35818 pwm: axi-pwmgen: Let .round_waveform_tohw() signal when request was rounded up
 427011db477dfb8cca001e492c2b312fdf7c7173 sh: Align .bss section padding to 8-byte boundary
 5f2efd67a17e5f4e2fccdb86014efaf8725f57a7 sh: defconfig: Drop obsolete CONFIG_NET_CLS_TCINDEX
 3b8241f64c469e449e862cf2bdc50b879fa18f93 nios2: migrate to the generic rule for built-in DTB
@@ -1051,4 +1051,4 @@ bb0df2a9a8ecd90da3a89811916b9dadff023c6a pwm: meson: Support constant and polari
 63a00265e24ba1a995071e80e93ffe048c8c3c97 pwm: Add Loongson PWM controller support
 d2002ac92158603204a4dc5f906060fb565a4ae2 pwm: pxa: Improve using dev_err_probe()
 
---===============6853281444730065068==--
+--===============8860536129280125905==--
