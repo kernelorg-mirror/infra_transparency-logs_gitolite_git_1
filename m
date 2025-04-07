@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4532088777623210082=="
+Content-Type: multipart/mixed; boundary="===============8644074945817147479=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 07 Apr 2025 12:24:24 -0000
-Message-Id: <174402866457.570439.15103055181778086123@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 07 Apr 2025 12:25:05 -0000
+Message-Id: <174402870577.573147.8991785827722056354@gitolite.kernel.org>
 
---===============4532088777623210082==
+--===============8644074945817147479==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 0af2f6be1b4281385b618cb86ad946eded089ac8
     log: revlist-4701f33a1070-0af2f6be1b42.txt
 
---===============4532088777623210082==
+--===============8644074945817147479==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
 
---===============4532088777623210082==--
+--===============8644074945817147479==--
