@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4518877611359133360=="
+Content-Type: multipart/mixed; boundary="===============3072292832926045434=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Mon, 07 Apr 2025 16:23:38 -0000
-Message-Id: <174404301887.798966.5464643534913204854@gitolite.kernel.org>
+Date: Mon, 07 Apr 2025 16:27:10 -0000
+Message-Id: <174404323010.802625.9129931605237566096@gitolite.kernel.org>
 
---===============4518877611359133360==
+--===============3072292832926045434==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/remoteproc/linux
 user: mjp
 changes:
-  - ref: refs/heads/rpmsg-next
-    old: a64dcfb451e254085a7daee5fe51bf22959d52d3
-    new: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    log: revlist-a64dcfb451e2-0af2f6be1b42.txt
+  - ref: refs/heads/for-next
+    old: 63a63c50d2d116b286d196f391ba98ffaed96d62
+    new: 8532691d0a85ab2a826808207e904f7d62a9d804
+    log: revlist-63a63c50d2d1-8532691d0a85.txt
 
---===============4518877611359133360==
+--===============3072292832926045434==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-a64dcfb451e2-0af2f6be1b42.txt
+Content-Disposition: attachment; filename=revlist-63a63c50d2d1-8532691d0a85.txt
 
-d327a12e636e902fd0c7178732813b041a1c9214 stmmac: Remove pcim_* functions for driver detach
-45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
-e364e4cebeb70a5f4f8cb28ca7480e1ddb361752 Merge branch 'stmmac-several-pci-related-improvements'
 cc04ed502457412960d215b9cd55f0d966fda255 stmmac: intel: interface switching support for RPL-P platform
 1ae1d705a1120e8e0ca41698c5a0fff6f5290bc1 net: dsa: microchip: fix DCB apptrust configuration on KSZ88x3
 a50b4fe095fb98e0b7da03b0a42fd1247284868e Merge tag 'timers-cleanups-2025-03-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1050,5 +1047,8 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 710329254dc303cd3b2df1a24674adecb1189385 Merge tag 'turbostat-2025.05.06' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
+385a2de38e45d0bbb6efa64e95f03e3dff54fc95 dt-bindings: remoteproc: stm32-rproc: Add firmware-name property
+710028a2e4d76c3bdca8167012a0395b53a7f3e3 remoteproc: stm32_rproc: Allow to specify firmware default name
+8532691d0a85ab2a826808207e904f7d62a9d804 Merge branch 'rproc-next' into for-next
 
---===============4518877611359133360==--
+--===============3072292832926045434==--
