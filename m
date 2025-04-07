@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1453298012779373823=="
+Content-Type: multipart/mixed; boundary="===============5123371596118896875=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Mon, 07 Apr 2025 05:24:36 -0000
-Message-Id: <174400347605.4139615.3690924178906587857@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-w1
+Date: Mon, 07 Apr 2025 05:24:44 -0000
+Message-Id: <174400348415.4139871.1136814748373332636@gitolite.kernel.org>
 
---===============1453298012779373823==
+--===============5123371596118896875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/samsung
+repo: pub/scm/linux/kernel/git/krzk/linux-w1
 user: krzk
 git_push_cert_status: Y
 changes:
@@ -24,38 +24,38 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 64e9fdfc89a76fed38d8ddeed72d42ec71957ed9
 
---===============1453298012779373823==
+--===============5123371596118896875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1744003503 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
-nonce 1744003472-9ed259a6f3968d75a1c12636281ebf8241715b0c
+pusher krzk@kernel.org 1744003511 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-w1.git
+nonce 1744003481-661123dc40c7cf7d5fbcfac037d320e474ca1ae4
 
 2014c95afecee3e76ca4a56956a936e23283f05b 0af2f6be1b4281385b618cb86ad946eded089ac8 refs/heads/master
 0000000000000000000000000000000000000000 64e9fdfc89a76fed38d8ddeed72d42ec71957ed9 refs/tags/v6.15-rc1
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmfzYa8QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1xkLD/9fIIuYdWteauK7wbsTiF0y593POsD4nwtg
-Oj56O2+DZ4EmtiTPQ0SYo7bQ5WqI9Riyotew3OcEi8Q44znKU4LYLPyTWs9p8XNx
-GU/EvUO4VDB7yEHbY241FQ4bpQOg3QlHyGsWAK08tHn9kTEvgpql2EwiaU7yf7SV
-KaW7hF1pWvkLFwKOrzJhBybqv8Iuw0ImDCYNvz+Ef6L7SLW0dX02L/wbrJfiLaeE
-e0dGEdfMuAFo5BrQRJd6R980O64eKoGKUE9+aBkoOvsrGGXDI+93Y3YPrzEF4tJh
-Bc2ZJ2ZewHoeXe7U5PkbVVbO8b60ByZPgJlH28p6gyOz1oRkAHx0Ic8XYrAOXde3
-syVWGS3UjxIlAilT4IEKjIUrVimXXigsVkkd4TO3G/dimXcCKN8wnZTIC3e4r9p3
-PPpJW/thYkESXjaG5zfvTde3yquwciZ0TBhsuexUKCLUMGrH2ln+ofig0KZNtRmm
-y8FnpnxWiejzIbs6tTrWRwCJcbTJex5Yk31WGQ0w8NQEOdYSaAxrKHwklPEx6RhG
-nFf6Tc+QfMtKKoRcVvA6o1qzFisQ5NHNKXuvVYOrHTW4WaR0yywVhsmp/D9aKMZA
-rUiF1CB+wD1w5uPenKLficsWnMhOYJ+/lUc36mRczUqUh5mElmjbNDsnmLg5EHSv
-MW7/3CjL/g==
-=sq7E
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmfzYbcQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD157nD/0Q4168NDDPJtPJ+RvoC0LacoBFa8uhUC2z
+HEigIhGkjU7y0uARb0kDMLBmcAk3rSTEo9yG9pxQ5oEdLyGru1h5s0c0DZa/Y/7z
+UY2mXM/EmUAJe0JQNFDb5eApcTb6RF0cuW67L7+2bp+B2y6dW8I0ZcRAEvqpnw9u
+ickzZnNsF4fEnmb5DNtO7M8PUL81BMVSIwULR8Tr2driYaSg54xfsf5uHanOlrFv
+ntzZrTtc8RXZf57e5Nv9mWr2Ix8yrJYHcblrX+H99uEzxgPVKfci0A9S+xCwafCh
+qmxLXnf1rQNason0Z7ityZFkIf8mavzXZNBjzwrx8UQAk5nNcPRlvfSEFNp7DyBX
+Nm1PwhjeZyBirI228kThy8o1brli2NqVbP6LariLxxIBttBYfpCIIutooOLF5om7
+4KvKJzN5xFycSXMV2MRl/Z7m1mc4zRF/gjYJPIUjaZkpzH0gWcQZya7uYD9R6dH3
+Fin0xD3FDjuW4y8H2ZdZL4/hrqlkbsR0hKcTi+b9gS7FC43jiCDfmQFOaNeppIhT
+NJyIABPnHmb9U5sv5dIibTtfuSsNkGFBFfDxASXRwPXbj8HG++7J/B9e2TDjz8Fl
+mBBM+tE1PzQp2WeV0yKTRGCp6dNp/6cCS6B3tCg3uzNxC9wjF208ENYfRbOouSpL
+5KW2iVsKaw==
+=obmR
 -----END PGP SIGNATURE-----
 
---===============1453298012779373823==
+--===============5123371596118896875==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1086,4 +1086,4 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
 
---===============1453298012779373823==--
+--===============5123371596118896875==--
