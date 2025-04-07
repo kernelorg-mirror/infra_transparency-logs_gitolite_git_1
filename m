@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4297633834265676563=="
+Content-Type: multipart/mixed; boundary="===============6084668461141138041=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 07 Apr 2025 05:56:11 -0000
-Message-Id: <174400537135.33170.4425815250296851275@gitolite.kernel.org>
+Date: Mon, 07 Apr 2025 05:56:15 -0000
+Message-Id: <174400537516.33534.5010000771881051713@gitolite.kernel.org>
 
---===============4297633834265676563==
+--===============6084668461141138041==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/next/dt
-    old: 2014c95afecee3e76ca4a56956a936e23283f05b
+  - ref: refs/heads/next/dt64
+    old: 056106b030b73c7d53749469bd1cdbc89b4d2daf
     new: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    log: revlist-2014c95afece-0af2f6be1b42.txt
+    log: revlist-056106b030b7-0af2f6be1b42.txt
 
---===============4297633834265676563==
+--===============6084668461141138041==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1744005399 +0200
+pusher krzk@kernel.org 1744005403 +0200
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1744005368-c2123322d9cf5cbc369aba3b0f5cfb5a36a06633
+nonce 1744005372-bac7cb99fbf997b9dc28ccd16defcfefe214e21e
 
-2014c95afecee3e76ca4a56956a936e23283f05b 0af2f6be1b4281385b618cb86ad946eded089ac8 refs/heads/next/dt
+056106b030b73c7d53749469bd1cdbc89b4d2daf 0af2f6be1b4281385b618cb86ad946eded089ac8 refs/heads/next/dt64
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmfzaRcQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1wmYEACLMNj/9MlurpHnRDBKoICpiEOQUlkKX/ck
-4LYmA2EfypQXU8eEQp0twTlPRF41G1rMPdvWBV4x8lbU2fpdhlrRr43o0hqu4dS1
-5tA0UIVYAfb92OBXIHfJlQ5OhevRuEEsVwfsBQawHOrZ1TUZI6FIBJi9Yd6oKi5j
-efca6wsP7y3MxOb1P08w7IHiS6el2WLAWefzZ0izkhVARmIM7+npRpUCW5ybvJ/V
-LLPcSSUqSaLwKPY+voEWYxRuA2Li9UWkF1bZRlAcXbNiAK4am9KIGwm1gp8v8GZb
-+Zv34QEOwHrfiElPI3KGjSiFJ1KcPlkFm/uqkcaG6JwxISzhLTmlLILTlMynNY7Y
-wQjOkKQRXHDkGpJebtZmFfk94pKdjyX/V05l0fP8N66ctp4fbKsveqbh8asZBoyQ
-3dF2ToHC9IO0hU6jvhU8xr5AtdlN6Tqyx902XllPl+bWmWzOKfaoBKiGEGt+6/6F
-IGbOTXZNmI4/uA4roax1OgNXX+OVUYSAzKmF8ye/ahkCgdC0auM22fvXc5HW3IW8
-x4P7yQnOJDEUFefq1scjlk6Ok9CkJ8C+F0u051v7UGK150drxEQ87dq4aZ/nUFj8
-qkrbQPrC3hfYOoiuQ046j4Oc1RUZvjn0kfVEYFe+ClqvmDwVapDoTWoWxH04ASsV
-/zHKtHc6Sg==
-=sG8G
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmfzaRsQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD154FD/4ucv3Yk5iE6QhHKqdwHclptTTiS9UYsUs4
+VxTtOF0SBfYEyr6zdbb4m+nVdZ1XwJdNwA0Na0r0rJL5RSZI0NxMdfzWn8VjVlTF
+fUXiXaOisXA6COdjXY5JpYp/NVEvrjCMlAFJt+RVwwwss0ZuLrL0NnIWhwJF4p8r
+mfrPccK30DZXPDW8xD+QGFf/p46l7/DIIjd1jPk+o46tuuMMthkzt5yeY/T3p6Oy
+5gszbHBI4Ugekf3P68nwq0OZX6whLtgza736e9gqkAvV171VY4492pxHG6E1ulO5
+n7wDMOfctuHsOVe0LmNQGxh3Zt2zj4gHSHVQEPRk+n+IVBcV1I8On7hs839MfHWE
+WFyrvuYxgf1M/HZ4rjVlqQ2XkniHnsPZvLysWUqPytoqQsnzXQpMS/PEL5dN1tHN
+aAEhR/nxCJlzU50Gfgdry8tWbFWrojd87t29cNFnnE8y0A6ry1UM2DNnRXUXk9/f
+Htk72xj+8ByQpZZF78x4zWQb9uHTNzYnbw2HXqK69KaMUqxd2WXJVZBlOJzFy8cR
+KmOEBvA2oGm9sTMm7XJwbIqCEtnBDr3awS9zO5R4zxViVrHrML+0769obaPQ6n04
+1yUCIddtdGi5gHGnoyEKnXQy4K8PGIHPIfHLsQFBo/uHa6hFPElCo3x1cfuH0ee+
+ftd071Sy6A==
+=cmkE
 -----END PGP SIGNATURE-----
 
---===============4297633834265676563==
+--===============6084668461141138041==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-2014c95afece-0af2f6be1b42.txt
+Content-Disposition: attachment; filename=revlist-056106b030b7-0af2f6be1b42.txt
 
 d327a12e636e902fd0c7178732813b041a1c9214 stmmac: Remove pcim_* functions for driver detach
 45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
@@ -1082,4 +1082,4 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
 
---===============4297633834265676563==--
+--===============6084668461141138041==--
