@@ -1,31 +1,35 @@
-Content-Type: multipart/mixed; boundary="===============4917190977835303425=="
+Content-Type: multipart/mixed; boundary="===============8935086113144210369=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Mon, 07 Apr 2025 11:06:32 -0000
-Message-Id: <174402399210.502560.6017556783666067633@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
+Date: Mon, 07 Apr 2025 11:11:30 -0000
+Message-Id: <174402429029.506892.17627015425431457663@gitolite.kernel.org>
 
---===============4917190977835303425==
+--===============8935086113144210369==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-linux
-user: cem
+repo: pub/scm/linux/kernel/git/ulfh/mmc
+user: ulfh
 changes:
-  - ref: refs/heads/next-rc
-    old: 04d9ad26e103c83f2f9ebb25d3519f9bdd64b78a
-    new: 71700ac47ad8bbf314424b38178a7a92fe0f57d7
-    log: revlist-04d9ad26e103-71700ac47ad8.txt
+  - ref: refs/heads/fixes
+    old: 723ef0e20dbb2aa1b5406d2bb75374fc48187daa
+    new: 0af2f6be1b4281385b618cb86ad946eded089ac8
+    log: revlist-723ef0e20dbb-0af2f6be1b42.txt
+  - ref: refs/tags/v6.15-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 64e9fdfc89a76fed38d8ddeed72d42ec71957ed9
 
---===============4917190977835303425==
+--===============8935086113144210369==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-04d9ad26e103-71700ac47ad8.txt
+Content-Disposition: attachment; filename=revlist-723ef0e20dbb-0af2f6be1b42.txt
 
+d327a12e636e902fd0c7178732813b041a1c9214 stmmac: Remove pcim_* functions for driver detach
 45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
 e364e4cebeb70a5f4f8cb28ca7480e1ddb361752 Merge branch 'stmmac-several-pci-related-improvements'
 cc04ed502457412960d215b9cd55f0d966fda255 stmmac: intel: interface switching support for RPL-P platform
@@ -1049,6 +1053,5 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 710329254dc303cd3b2df1a24674adecb1189385 Merge tag 'turbostat-2025.05.06' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
-71700ac47ad8bbf314424b38178a7a92fe0f57d7 Merge tag 'v6.15-rc1' into for-next
 
---===============4917190977835303425==--
+--===============8935086113144210369==--
