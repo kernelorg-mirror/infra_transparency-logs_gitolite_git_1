@@ -1,31 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============6589684545528992131=="
+Content-Type: multipart/mixed; boundary="===============8074090154652867826=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
-Date: Mon, 07 Apr 2025 18:22:48 -0000
-Message-Id: <174405016851.911981.15086786023890050867@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Mon, 07 Apr 2025 18:26:30 -0000
+Message-Id: <174405039027.915908.2469706520786985456@gitolite.kernel.org>
 
---===============6589684545528992131==
+--===============8074090154652867826==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zohar/linux-integrity
-user: zohar
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/next-integrity-testing
-    old: cfdefa678ece68dd2df0a6b62524273ba743acbd
-    new: 976e5b974fef865404c474effae944e02509bd37
-    log: revlist-cfdefa678ece-976e5b974fef.txt
+  - ref: refs/heads/affs
+    old: 38fec10eb60d687e30c8c6b5420d86e8149f7557
+    new: 0af2f6be1b4281385b618cb86ad946eded089ac8
+    log: revlist-38fec10eb60d-0af2f6be1b42.txt
 
---===============6589684545528992131==
+--===============8074090154652867826==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-cfdefa678ece-976e5b974fef.txt
+Content-Disposition: attachment; filename=revlist-38fec10eb60d-0af2f6be1b42.txt
 
+d327a12e636e902fd0c7178732813b041a1c9214 stmmac: Remove pcim_* functions for driver detach
 45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
 e364e4cebeb70a5f4f8cb28ca7480e1ddb361752 Merge branch 'stmmac-several-pci-related-improvements'
 cc04ed502457412960d215b9cd55f0d966fda255 stmmac: intel: interface switching support for RPL-P platform
@@ -1049,6 +1050,5 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 710329254dc303cd3b2df1a24674adecb1189385 Merge tag 'turbostat-2025.05.06' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
-976e5b974fef865404c474effae944e02509bd37 ima: process_measurement() needlessly takes inode_lock() on MAY_READ
 
---===============6589684545528992131==--
+--===============8074090154652867826==--
