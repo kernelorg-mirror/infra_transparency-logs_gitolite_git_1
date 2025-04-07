@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8935086113144210369=="
+Content-Type: multipart/mixed; boundary="===============0112420318657468286=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Mon, 07 Apr 2025 11:11:30 -0000
-Message-Id: <174402429029.506892.17627015425431457663@gitolite.kernel.org>
+Date: Mon, 07 Apr 2025 11:11:47 -0000
+Message-Id: <174402430797.507384.8263695868010739421@gitolite.kernel.org>
 
---===============8935086113144210369==
+--===============0112420318657468286==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/fixes
-    old: 723ef0e20dbb2aa1b5406d2bb75374fc48187daa
+  - ref: refs/heads/next
+    old: c48e13e83513bd7eb4efffeeb562df9e4e1452d0
     new: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    log: revlist-723ef0e20dbb-0af2f6be1b42.txt
-  - ref: refs/tags/v6.15-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 64e9fdfc89a76fed38d8ddeed72d42ec71957ed9
+    log: revlist-c48e13e83513-0af2f6be1b42.txt
 
---===============8935086113144210369==
+--===============0112420318657468286==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-723ef0e20dbb-0af2f6be1b42.txt
+Content-Disposition: attachment; filename=revlist-c48e13e83513-0af2f6be1b42.txt
 
 d327a12e636e902fd0c7178732813b041a1c9214 stmmac: Remove pcim_* functions for driver detach
 45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
@@ -1054,4 +1051,4 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
 
---===============8935086113144210369==--
+--===============0112420318657468286==--
