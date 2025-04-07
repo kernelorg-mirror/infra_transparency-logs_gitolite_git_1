@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Mon, 07 Apr 2025 17:13:44 -0000
-Message-Id: <174404602460.844178.1054337032031537865@gitolite.kernel.org>
+Date: Mon, 07 Apr 2025 17:14:59 -0000
+Message-Id: <174404609903.845426.14081366273503084922@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tj/sched_ext
 user: tj
 changes:
-  - ref: refs/heads/for-6.16
+  - ref: refs/heads/for-next
     old: 29b49be6c97ef45e709c7d7676ecaa5dfdd0f1b6
     new: 01d541baedd74530831c8c98b946622cb7487f30
     log: |
