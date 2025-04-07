@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7141126174579568841=="
+Content-Type: multipart/mixed; boundary="===============1638259535541596564=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Mon, 07 Apr 2025 07:35:18 -0000
-Message-Id: <174401131835.132648.3541227725070917126@gitolite.kernel.org>
+Date: Mon, 07 Apr 2025 07:35:55 -0000
+Message-Id: <174401135589.133218.15993405589898910089@gitolite.kernel.org>
 
---===============7141126174579568841==
+--===============1638259535541596564==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,23 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vfs/vfs
 user: brauner
 changes:
-  - ref: refs/heads/vfs-6.16.async.dir
-    old: 6ddb0a09afa8fda296f6a6484f96ac417fc416b5
-    new: ae41fb0990b8e559a19dd85ed7385ae1d01c6b19
-    log: revlist-6ddb0a09afa8-ae41fb0990b8.txt
+  - ref: refs/heads/vfs-6.16.mount.api
+    old: 609a32850f9d796b266f55dc7389ebb9f789d679
+    new: 9d5c8dc8111539260e59276a095132a585cb5aaf
+    log: revlist-609a32850f9d-9d5c8dc81115.txt
 
---===============7141126174579568841==
+--===============1638259535541596564==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6ddb0a09afa8-ae41fb0990b8.txt
+Content-Disposition: attachment; filename=revlist-609a32850f9d-9d5c8dc81115.txt
 
+45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
+e364e4cebeb70a5f4f8cb28ca7480e1ddb361752 Merge branch 'stmmac-several-pci-related-improvements'
+cc04ed502457412960d215b9cd55f0d966fda255 stmmac: intel: interface switching support for RPL-P platform
+1ae1d705a1120e8e0ca41698c5a0fff6f5290bc1 net: dsa: microchip: fix DCB apptrust configuration on KSZ88x3
+a50b4fe095fb98e0b7da03b0a42fd1247284868e Merge tag 'timers-cleanups-2025-03-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+317a76a996043d336b85197aed5f44184b36ac4a Merge tag 'timers-vdso-2025-03-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3f0cb8de56b9a5c052a9e43fa548856926059810 io_uring: fix retry handling off iowq
 3afcb3b2e3a4ead24e3ab476576e87877d55ee22 io_uring: defer iowq cqe overflow via task_work
 4c76de42cb6971fc2cc7984ed974caffe6ea7fda io_uring: open code __io_post_aux_cqe()
@@ -1043,12 +1049,6 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 710329254dc303cd3b2df1a24674adecb1189385 Merge tag 'turbostat-2025.05.06' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
-5741909697a31cfb08e45d56b4211959fb791487 VFS: improve interface for lookup_one functions
-8ad9248471138e08a91d5e54b74d95d02f9518b2 nfsd: Use lookup_one() rather than lookup_one_len()
-2011067c6477b55ef510e4ef830bca2869cd8136 cachefiles: Use lookup_one() rather than lookup_one_len()
-973256a7be6ed574f242995c15a8aa80cc0cc566 VFS: rename lookup_one_len family to lookup_noperm and remove permission check
-64ca068d7cfc6d60d1a5fa3fbe3a90f09e6907ab Use try_lookup_noperm() instead of d_hash_and_lookup() outside of VFS
-6bf7366de00a942bf9f8e6fe1d9f96b5140e9374 VFS: change lookup_one_common and lookup_noperm_common to take a qstr
-ae41fb0990b8e559a19dd85ed7385ae1d01c6b19 Merge patch series "VFS: improve interface for lookup_one functions"
+9d5c8dc8111539260e59276a095132a585cb5aaf bfs: convert bfs to use the new mount api
 
---===============7141126174579568841==--
+--===============1638259535541596564==--
