@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8472447779878610531=="
+Content-Type: multipart/mixed; boundary="===============6261244756225841310=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Mon, 07 Apr 2025 09:56:11 -0000
-Message-Id: <174401977179.439783.12447760214496274606@gitolite.kernel.org>
+Date: Mon, 07 Apr 2025 09:56:24 -0000
+Message-Id: <174401978499.440100.15622814975586960201@gitolite.kernel.org>
 
---===============8472447779878610531==
+--===============6261244756225841310==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/linux-pm
 user: ulfh
 changes:
-  - ref: refs/heads/fixes
-    old: ef17b519088ee0c167cf507820609732ec8bad1a
+  - ref: refs/heads/dt
+    old: b0c4f44b87e4011034e4cb60dc93477f765ff42e
     new: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    log: revlist-ef17b519088e-0af2f6be1b42.txt
+    log: revlist-b0c4f44b87e4-0af2f6be1b42.txt
 
---===============8472447779878610531==
+--===============6261244756225841310==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-ef17b519088e-0af2f6be1b42.txt
+Content-Disposition: attachment; filename=revlist-b0c4f44b87e4-0af2f6be1b42.txt
 
 d327a12e636e902fd0c7178732813b041a1c9214 stmmac: Remove pcim_* functions for driver detach
 45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
@@ -1051,4 +1051,4 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
 
---===============8472447779878610531==--
+--===============6261244756225841310==--
