@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4407215198296737079=="
+Content-Type: multipart/mixed; boundary="===============1185371311683370029=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/modules/linux
-Date: Mon, 07 Apr 2025 13:22:46 -0000
-Message-Id: <174403216614.624657.1075232876904065909@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Mon, 07 Apr 2025 13:32:20 -0000
+Message-Id: <174403274009.632849.15320400796212139700@gitolite.kernel.org>
 
---===============4407215198296737079==
+--===============1185371311683370029==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/modules/linux
-user: ppavlu
+repo: pub/scm/linux/kernel/git/jgg/iommufd
+user: jgg
 changes:
-  - ref: refs/heads/modules-fixes
-    old: aa0fdccda4076c81d07a0c0b05602ee2aa17a2be
+  - ref: refs/heads/for-rc
+    old: 2ca704f55e22b7b00cc7025953091af3c82fa5c0
     new: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    log: revlist-aa0fdccda407-0af2f6be1b42.txt
+    log: revlist-2ca704f55e22-0af2f6be1b42.txt
 
---===============4407215198296737079==
+--===============1185371311683370029==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-aa0fdccda407-0af2f6be1b42.txt
+Content-Disposition: attachment; filename=revlist-2ca704f55e22-0af2f6be1b42.txt
 
 d327a12e636e902fd0c7178732813b041a1c9214 stmmac: Remove pcim_* functions for driver detach
 45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
@@ -1051,4 +1051,4 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
 
---===============4407215198296737079==--
+--===============1185371311683370029==--
