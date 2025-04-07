@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libtrace/libtracefs
-Date: Mon, 07 Apr 2025 21:33:04 -0000
-Message-Id: <174406158400.1078197.191619361696446137@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Mon, 07 Apr 2025 21:44:17 -0000
+Message-Id: <174406225777.1086791.11545424136072818784@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libtrace/libtracefs
-user: rostedt
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/heads/libtracefs
-    old: 6e913f740a36b99148be750ed40b0c4ff8e362ab
-    new: a8d57d26a13542a969d8834f34860aa054cfa8c1
+  - ref: refs/heads/master
+    old: 0685b56dfb58bba53f8b2d2732e0ca1f088010c0
+    new: b8bdf71fbc315fa0be01626baf3f53361a37f17a
     log: |
-         a8d57d26a13542a969d8834f34860aa054cfa8c1 libtracefs: Fix mistaken update to TRACEFS_STACKTRACE macro
+         b8bdf71fbc315fa0be01626baf3f53361a37f17a glossary: Add definitions of the flavors of multi-copy atomic
          
