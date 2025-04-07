@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8819136212308120936=="
+Content-Type: multipart/mixed; boundary="===============7546152192684805484=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Mon, 07 Apr 2025 02:15:45 -0000
-Message-Id: <174399214537.3984381.15472873098503453675@gitolite.kernel.org>
+Date: Mon, 07 Apr 2025 02:16:46 -0000
+Message-Id: <174399220659.3985148.17893181763731524109@gitolite.kernel.org>
 
---===============8819136212308120936==
+--===============7546152192684805484==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chrome-platform/linux
 user: tzungbi
 changes:
-  - ref: refs/heads/for-next
-    old: 9fc83373f0ffb8834da48b1446a5c2fef9525bb1
-    new: da90147bf52b7ab6d8f021418496a7b6f39b2249
-    log: revlist-9fc83373f0ff-da90147bf52b.txt
+  - ref: refs/heads/for-firmware-next
+    old: 2014c95afecee3e76ca4a56956a936e23283f05b
+    new: 0af2f6be1b4281385b618cb86ad946eded089ac8
+    log: revlist-2014c95afece-0af2f6be1b42.txt
 
---===============8819136212308120936==
+--===============7546152192684805484==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-9fc83373f0ff-da90147bf52b.txt
+Content-Disposition: attachment; filename=revlist-2014c95afece-0af2f6be1b42.txt
 
+d327a12e636e902fd0c7178732813b041a1c9214 stmmac: Remove pcim_* functions for driver detach
+45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
+e364e4cebeb70a5f4f8cb28ca7480e1ddb361752 Merge branch 'stmmac-several-pci-related-improvements'
+cc04ed502457412960d215b9cd55f0d966fda255 stmmac: intel: interface switching support for RPL-P platform
 1ae1d705a1120e8e0ca41698c5a0fff6f5290bc1 net: dsa: microchip: fix DCB apptrust configuration on KSZ88x3
 a50b4fe095fb98e0b7da03b0a42fd1247284868e Merge tag 'timers-cleanups-2025-03-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 317a76a996043d336b85197aed5f44184b36ac4a Merge tag 'timers-vdso-2025-03-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1046,9 +1050,5 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 710329254dc303cd3b2df1a24674adecb1189385 Merge tag 'turbostat-2025.05.06' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
-8dc528bed728ca0b887d9d5edecbcf23d7fed5a4 platform/chrome: of_hw_prober: Support Google Spherion
-db4ea66acddf95b4bb13ef17537097820218fb7a platform/chrome: cros_ec_proto: Avoid -Wflex-array-member-not-at-end warnings
-04251bc86653a839ccb1f5ec248ad5e8afd9a627 platform/chrome: cros_kbd_led_backlight: Avoid -Wflex-array-member-not-at-end warnings
-da90147bf52b7ab6d8f021418496a7b6f39b2249 platform/chrome: cros_ec_debugfs: Avoid -Wflex-array-member-not-at-end warnings
 
---===============8819136212308120936==--
+--===============7546152192684805484==--
