@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3410275378813455269=="
+Content-Type: multipart/mixed; boundary="===============6589684545528992131=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
-Date: Mon, 07 Apr 2025 18:22:34 -0000
-Message-Id: <174405015431.911640.10842297443206662309@gitolite.kernel.org>
+Date: Mon, 07 Apr 2025 18:22:48 -0000
+Message-Id: <174405016851.911981.15086786023890050867@gitolite.kernel.org>
 
---===============3410275378813455269==
+--===============6589684545528992131==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/zohar/linux-integrity
 user: zohar
 changes:
-  - ref: refs/heads/next-integrity
-    old: a414016218ca97140171aa3bb926b02e1f68c2cc
+  - ref: refs/heads/next-integrity-testing
+    old: cfdefa678ece68dd2df0a6b62524273ba743acbd
     new: 976e5b974fef865404c474effae944e02509bd37
-    log: revlist-a414016218ca-976e5b974fef.txt
+    log: revlist-cfdefa678ece-976e5b974fef.txt
 
---===============3410275378813455269==
+--===============6589684545528992131==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-a414016218ca-976e5b974fef.txt
+Content-Disposition: attachment; filename=revlist-cfdefa678ece-976e5b974fef.txt
 
-9db2426a324ea4aceea071b3069108840a3fa3fe stmmac: loongson: Remove surplus loop
-d327a12e636e902fd0c7178732813b041a1c9214 stmmac: Remove pcim_* functions for driver detach
 45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
 e364e4cebeb70a5f4f8cb28ca7480e1ddb361752 Merge branch 'stmmac-several-pci-related-improvements'
 cc04ed502457412960d215b9cd55f0d966fda255 stmmac: intel: interface switching support for RPL-P platform
@@ -376,7 +374,9 @@ da086d4e7282477fc0d907550dacb8f7be3af3c7 Documentation: tpm: Add documentation f
 4bb5d82b66002b770f8917d68ab4fbefcb7f5f9b Documentation/rv: Add sched pages to the indices
 a9fc2304972b1db28b88af8203dffef23e1e92ba Merge tag 'soc-drivers-6.15-1' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 3bb3396d778816ac7618c522c4cd180273edeeaf Merge tag 'soc-defconfig-6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+5b3cd801155f0b34b0b95942a5b057c9b8cad33e ima: limit the number of open-writers integrity violations
 3536cb1e5753a832f88c268e328c644f6e367980 Merge tag 'soc-arm-6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+a414016218ca97140171aa3bb926b02e1f68c2cc ima: limit the number of ToMToU integrity violations
 3a90a72aca0a98125f0c7350ffb7cc63665f8047 Merge tag 'asm-generic-6.15-2' of git://git.kernel.org/pub/scm/linux/kernel/git/arnd/asm-generic
 23f00807619d15063d676218f36c5dfeda1eb420 rtnetlink: Allocate vfinfo size for VF GUIDs when supported
 67d1a8956d2d62fe6b4c13ebabb57806098511d8 rndis_host: Flag RNDIS modems as WWAN devices
@@ -1051,4 +1051,4 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
 976e5b974fef865404c474effae944e02509bd37 ima: process_measurement() needlessly takes inode_lock() on MAY_READ
 
---===============3410275378813455269==--
+--===============6589684545528992131==--
