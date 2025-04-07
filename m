@@ -1,32 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============4548824385535799958=="
+Content-Type: multipart/mixed; boundary="===============3709531105165763208=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
-Date: Mon, 07 Apr 2025 05:30:01 -0000
-Message-Id: <174400380172.4145880.1050167263918808740@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
+Date: Mon, 07 Apr 2025 05:31:10 -0000
+Message-Id: <174400387041.3037.17778335626083666859@gitolite.kernel.org>
 
---===============4548824385535799958==
+--===============3709531105165763208==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/soundwire
+repo: pub/scm/linux/kernel/git/phy/linux-phy
 user: vkoul
 changes:
   - ref: refs/heads/fixes
-    old: fcc0f16923621e670d5ccf486160e4a1b960b17f
+    old: 7eb172143d5508b4da468ed59ee857c6e5e01da6
     new: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    log: revlist-fcc0f1692362-0af2f6be1b42.txt
+    log: revlist-7eb172143d55-0af2f6be1b42.txt
   - ref: refs/heads/master
     old: 2014c95afecee3e76ca4a56956a936e23283f05b
     new: 0af2f6be1b4281385b618cb86ad946eded089ac8
     log: revlist-2014c95afece-0af2f6be1b42.txt
   - ref: refs/heads/next
-    old: 08ae0d61c3d79bb5d52ae30ad4fc12442e966a23
+    old: f13bff25161b8a0a9d716764ebe57334d496c6d9
     new: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    log: revlist-08ae0d61c3d7-0af2f6be1b42.txt
+    log: revlist-f13bff25161b-0af2f6be1b42.txt
   - ref: refs/tags/v6.15-rc1
     old: 0000000000000000000000000000000000000000
     new: 64e9fdfc89a76fed38d8ddeed72d42ec71957ed9
@@ -52,13 +52,12 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 12b58398bffc23db89e715414399b0533255da51
 
---===============4548824385535799958==
+--===============3709531105165763208==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-fcc0f1692362-0af2f6be1b42.txt
+Content-Disposition: attachment; filename=revlist-7eb172143d55-0af2f6be1b42.txt
 
-9db2426a324ea4aceea071b3069108840a3fa3fe stmmac: loongson: Remove surplus loop
 d327a12e636e902fd0c7178732813b041a1c9214 stmmac: Remove pcim_* functions for driver detach
 45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
 e364e4cebeb70a5f4f8cb28ca7480e1ddb361752 Merge branch 'stmmac-several-pci-related-improvements'
@@ -662,6 +661,7 @@ edaed8ee8cb3fdb6b9fcde65ff31e99e4db59cab bcachefs: BCH_JSET_ENTRY_log_bkey
 01d5b167dc230cf3b6eb9dd7205f6a705026d1ce Merge tag 'modules-6.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/modules/linux
 4e82c87058f45e79eeaa4d5bcc3b38dd3dce7209 Merge tag 'rust-6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/ojeda/linux
 650f5353dcc9b6e690a1c763754fa1e98d217bfc bcachefs: fix bch2_write_point_to_text() units
+fcc0f16923621e670d5ccf486160e4a1b960b17f ASoC: SOF: Intel: Let SND_SOF_SOF_HDA_SDW_BPT select SND_HDA_EXT_CORE
 e5182305a5199246dbcb4053299dcb1c8867b6ff ALSA: hda/realtek: Enable Mute LED on HP OMEN 16 Laptop xd000xx
 c1f4534b213d7be41b5d8b815a42d201a8f2978f scripts: generate_rust_analyzer: fix pin-init name in kernel deps
 986da36806b1a45b8502f0cc23cfcc685c8f2a1c ALSA/hda: intel-sdw-acpi: Remove (explicitly) unused header
@@ -1083,7 +1083,7 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
 
---===============4548824385535799958==
+--===============3709531105165763208==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -2114,11 +2114,11 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
 
---===============4548824385535799958==
+--===============3709531105165763208==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-08ae0d61c3d7-0af2f6be1b42.txt
+Content-Disposition: attachment; filename=revlist-f13bff25161b-0af2f6be1b42.txt
 
 d327a12e636e902fd0c7178732813b041a1c9214 stmmac: Remove pcim_* functions for driver detach
 45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
@@ -3145,4 +3145,4 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
 
---===============4548824385535799958==--
+--===============3709531105165763208==--
