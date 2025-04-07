@@ -1,81 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============1817686244392058730=="
+Content-Type: multipart/mixed; boundary="===============5067487223308259480=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
-Date: Mon, 07 Apr 2025 05:56:57 -0000
-Message-Id: <174400541725.34961.3168779242051583589@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Mon, 07 Apr 2025 05:57:05 -0000
+Message-Id: <174400542540.35266.2993804820548530106@gitolite.kernel.org>
 
---===============1817686244392058730==
+--===============5067487223308259480==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/spdx
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v6.14
-    old: 0000000000000000000000000000000000000000
-    new: 35ff3b0f4596c82ec0a3e1cc43e2a85f5e976023
-  - ref: refs/tags/v6.14-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 6a25088d268ce4c2163142ead7fe1975bb687cb7
-  - ref: refs/tags/v6.14-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 2db77e8810aa26c8cd3fa119037f753a68b7dce4
-  - ref: refs/tags/v6.14-rc4
-    old: 0000000000000000000000000000000000000000
-    new: ab680199364b446c9b642f1c1c1306b71535ace1
-  - ref: refs/tags/v6.14-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 1d53763dc16c9fc9329a4cdc14d691979d47568f
-  - ref: refs/tags/v6.14-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 8098cf067a7aae92a4f293df03964bf8474faca1
-  - ref: refs/tags/v6.14-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 12b58398bffc23db89e715414399b0533255da51
-  - ref: refs/tags/v6.15-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 64e9fdfc89a76fed38d8ddeed72d42ec71957ed9
+  - ref: refs/heads/staging-next
+    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
+    new: d486f2e07836fd8435c2ec0512b5d81cfc00781c
+    log: |
+         31fce300a1fef7b54ffb98e4cece8589529ca3bf staging: bcm2835-camera: Modify function call formatting
+         b0c3d42658a89a09bcd51d0013444d608b45836a staging: sm750fb: fix casing style on getDeviceID
+         5771897aed7b24ff8c2acc5f38d1337024a7e82b staging: greybus: camera: fix code alignment warning
+         7fc3a367b2f51004e4c0bd7b215502b7be6a042b staging: rtl8723bs: simplify if-else block by removing unnecessary braces
+         f6d1d0ac1735ff4fccf84d08eadf291123b8e310 staging: rtl8723bs: remove unnecessary else block after return
+         9f61589a8b50715fb7c11f4d899c9689ae6674bc staging: rtl8723bs: remove braces around single statements
+         d486f2e07836fd8435c2ec0512b5d81cfc00781c staging: rtl8723bs: Rename variables
+         
 
---===============1817686244392058730==
+--===============5067487223308259480==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1744005356 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
-nonce 1744005413-d1f217691e07b8e9eb6a79c4cc8642bfe1cbbde3
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1744005367 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1744005424-fd6d014740bac2a4db51c08e2cb780d92fdbdb04
 
-0000000000000000000000000000000000000000 35ff3b0f4596c82ec0a3e1cc43e2a85f5e976023 refs/tags/v6.14
-0000000000000000000000000000000000000000 6a25088d268ce4c2163142ead7fe1975bb687cb7 refs/tags/v6.14-rc2
-0000000000000000000000000000000000000000 2db77e8810aa26c8cd3fa119037f753a68b7dce4 refs/tags/v6.14-rc3
-0000000000000000000000000000000000000000 ab680199364b446c9b642f1c1c1306b71535ace1 refs/tags/v6.14-rc4
-0000000000000000000000000000000000000000 1d53763dc16c9fc9329a4cdc14d691979d47568f refs/tags/v6.14-rc5
-0000000000000000000000000000000000000000 8098cf067a7aae92a4f293df03964bf8474faca1 refs/tags/v6.14-rc6
-0000000000000000000000000000000000000000 12b58398bffc23db89e715414399b0533255da51 refs/tags/v6.14-rc7
-0000000000000000000000000000000000000000 64e9fdfc89a76fed38d8ddeed72d42ec71957ed9 refs/tags/v6.15-rc1
+0af2f6be1b4281385b618cb86ad946eded089ac8 d486f2e07836fd8435c2ec0512b5d81cfc00781c refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfzaOwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JXwP/RtP7ESsY5baHVxQCjG7
-FafKm6XspZAdAiR0oOM6Js5oSFDQTooCg1A8Qns9mw/GyO12DMaaqmCclN4p453F
-VMVgMmM9grOrNOEgFHKMc8gtStZl/ERszbOcMSrBoiDJk+hKz3lFJD3hd1zRvSTJ
-J35xJXWZhdo7DnDiZWgaOv2buSbFIYHXXAMmtWTOcWZEuaGISEgBNyrrXS/1YCjy
-n4omrRW4thtecrvlTvxRKO/NeI0I4lQ1WH+B3hpwUyWNYhkc10TrkS2Ve51emHIb
-5A8Iu17F3EMOk6L39movOMvv5Ryf2IK/14v4jpqqZunaF4+94UAmF05gdt3wV1SV
-8aG3i2OnilEBv2RrgFrTx118j8C9bYg0NjxcK9i0GeyJoGs6b5wl2sUJ6nPmGkdy
-PL2ArmkEDeY5fem0RSE/TnisFRQqF3/mp31LvJXR2YGgUnFdbXiW5p7tVqc98Hik
-RvMq22BHwX2OKqvRK2Ai1KIEOIElhsOtjZYHwdcDSpnmxyVWo8sxJawGyrP/FL8f
-SZX3/kAgpnv0PYrFGrCyGXzvGkRHFjslwzq+Ic/x/kIF4O9Y0NjTQA7IPlf8YxCq
-sJwndzBU3U/EFU2XWWyOiJhB267jNfpaNdCjfHwqT7FIOvO2ili5gy3juvhzd+Cd
-ftN9gvwgjwx+TzieNB8P3IaO
-=mB65
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfzaPcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rlgQANe8u5zLLzEvTTQJBhZM
+zTk7Z+olOpDQA9iKooqkXCRHu+5ZOTdH33ejQ/okoP8osgPV2XeL29yj7wDrcXyg
+eIGAy4+Kd/LPRI9DMghw+sPejvOMnxgm/IudUmoND7gVxEz25puKw2yHb/kTR1w7
+7X0u4j8Su/glDm/cT8kWjGe2cw9JqfKMNo7aoxZ27Bkr48QMgIYsGtVTpXScPD4V
+myL3IHN5miZaI0pEXJ5E7GGtxzs1e2bYkh7k4hAeAADnwGhbqNItvwn7CS5s2hfm
+KxixS8hh/iNdGOnpEV2sjaLRkPr3qcjZeo/FSfjQrrvUlDlO5FAiQqWwey3TYVAv
+5rr3mPbMqJ8GJupnElizFpjU9aZlbkg9zMV58hGT6X8UIJw28v9uLFypKEnwp+DW
+uj1GRr3nZX3o2ueYNhKXU55mix79fV5DcrABmjRxU1ThzebhiKqx/TvAAGnJL4yt
+Is9RDfvUGawTXp6T0FxqLqrzHMy5GUmAEE5wzdFHDeHLefFeN5ceaOiZwPHot+Sn
+spOvg9QCGM/Ws95sLWAqVO11HCEmsPGJ94wz7+WN+k1tACRBHOIEfT8j7DGCBpcX
+i5iiCTzxn11HFZXWwbEGBokfLHqKQnQb/vwQlpHoxDFQ/PpNH+ZVlLeI6Qw56zPo
+FZcLozlUqjRW3eDn/PvV9lpJ
+=2t4C
 -----END PGP SIGNATURE-----
 
---===============1817686244392058730==--
+--===============5067487223308259480==--
