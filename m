@@ -1,32 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============1185371311683370029=="
+Content-Type: multipart/mixed; boundary="===============4480700260416905014=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
-Date: Mon, 07 Apr 2025 13:32:20 -0000
-Message-Id: <174403274009.632849.15320400796212139700@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
+Date: Mon, 07 Apr 2025 13:32:26 -0000
+Message-Id: <174403274618.633121.3153474896713349666@gitolite.kernel.org>
 
---===============1185371311683370029==
+--===============4480700260416905014==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jgg/iommufd
-user: jgg
+repo: pub/scm/linux/kernel/git/ras/ras
+user: bp
 changes:
-  - ref: refs/heads/for-rc
-    old: 2ca704f55e22b7b00cc7025953091af3c82fa5c0
-    new: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    log: revlist-2ca704f55e22-0af2f6be1b42.txt
+  - ref: refs/heads/edac-urgent
+    old: 74e956a7dd32604397ab18b14b98e5b2d01308a3
+    new: 6c44e5354d4d16d9d891a419ca3f57abfe18ce7a
+    log: revlist-74e956a7dd32-6c44e5354d4d.txt
 
---===============1185371311683370029==
+--===============4480700260416905014==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-2ca704f55e22-0af2f6be1b42.txt
+Content-Disposition: attachment; filename=revlist-74e956a7dd32-6c44e5354d4d.txt
 
-d327a12e636e902fd0c7178732813b041a1c9214 stmmac: Remove pcim_* functions for driver detach
 45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
 e364e4cebeb70a5f4f8cb28ca7480e1ddb361752 Merge branch 'stmmac-several-pci-related-improvements'
 cc04ed502457412960d215b9cd55f0d966fda255 stmmac: intel: interface switching support for RPL-P platform
@@ -1050,5 +1049,6 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 710329254dc303cd3b2df1a24674adecb1189385 Merge tag 'turbostat-2025.05.06' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
+6c44e5354d4d16d9d891a419ca3f57abfe18ce7a RAS/AMD/ATL: Include row[13] bit in row retirement
 
---===============1185371311683370029==--
+--===============4480700260416905014==--
