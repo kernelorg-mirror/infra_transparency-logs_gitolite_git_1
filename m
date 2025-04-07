@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6935613241361887430=="
+Content-Type: multipart/mixed; boundary="===============3525275238644516223=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 07 Apr 2025 13:13:01 -0000
-Message-Id: <174403158136.614621.740809501681389362@gitolite.kernel.org>
+Date: Mon, 07 Apr 2025 13:13:11 -0000
+Message-Id: <174403159179.614990.2535598007533958548@gitolite.kernel.org>
 
---===============6935613241361887430==
+--===============3525275238644516223==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,24 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 788af3771c30e6469dfbec0adfe55cc5dcd7f354
-    new: 980a18fc42328fa04f9494089c74506ecbcd7dc7
-    log: revlist-788af3771c30-980a18fc4232.txt
+  - ref: refs/heads/m68k-queue
+    old: d87a504930461395e7fc56220f559238d7f238f0
+    new: 52c33b373bc0238803e60ce86419f8236b933fa7
+    log: revlist-d87a50493046-52c33b373bc0.txt
+  - ref: refs/heads/zorro-mfd
+    old: af4c780f235ce709d5e70334bce74c518a12290c
+    new: af626c6bf559ce5f7f1b19f5dba5eda4dffdf808
+    log: |
+         034313b290b0ffcdd8cd4a9e5ed5600f5dc0563f [WIP] Zorro MFD experiments
+         af626c6bf559ce5f7f1b19f5dba5eda4dffdf808 [WIP] zorro: Add helper macro for zorro_register_driver boilerplate
+         
 
---===============6935613241361887430==
+--===============3525275238644516223==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-788af3771c30-980a18fc4232.txt
+Content-Disposition: attachment; filename=revlist-d87a50493046-52c33b373bc0.txt
 
-45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
-e364e4cebeb70a5f4f8cb28ca7480e1ddb361752 Merge branch 'stmmac-several-pci-related-improvements'
 cc04ed502457412960d215b9cd55f0d966fda255 stmmac: intel: interface switching support for RPL-P platform
 1ae1d705a1120e8e0ca41698c5a0fff6f5290bc1 net: dsa: microchip: fix DCB apptrust configuration on KSZ88x3
 a50b4fe095fb98e0b7da03b0a42fd1247284868e Merge tag 'timers-cleanups-2025-03-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1049,6 +1054,8 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 710329254dc303cd3b2df1a24674adecb1189385 Merge tag 'turbostat-2025.05.06' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
-980a18fc42328fa04f9494089c74506ecbcd7dc7 Merge tag 'v6.15-rc1'
+2977e8117e3b765ce633e45c78523f291eba865f m68k: atari: usb: Add ISP1160 USB host controller support
+765f9c860aa0c15b5b8a1d6e876cf15b24c12bed m68k: atari: Update Kconfig.bus help text
+52c33b373bc0238803e60ce86419f8236b933fa7 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============6935613241361887430==--
+--===============3525275238644516223==--
