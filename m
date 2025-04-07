@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============2914184242869844775=="
+Content-Type: multipart/mixed; boundary="===============7416561201172367675=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Mon, 07 Apr 2025 06:00:32 -0000
-Message-Id: <174400563232.41889.16793406901138746030@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-w1
+Date: Mon, 07 Apr 2025 06:00:48 -0000
+Message-Id: <174400564801.42327.6434594595406697269@gitolite.kernel.org>
 
---===============2914184242869844775==
+--===============7416561201172367675==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/samsung
+repo: pub/scm/linux/kernel/git/krzk/linux-w1
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/pinctrl-next
-    old: 701d0e910955627734917c3587258aa7e73068bb
+  - ref: refs/heads/fixes
+    old: 2014c95afecee3e76ca4a56956a936e23283f05b
     new: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    log: revlist-701d0e910955-0af2f6be1b42.txt
+    log: revlist-2014c95afece-0af2f6be1b42.txt
 
---===============2914184242869844775==
+--===============7416561201172367675==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1744005660 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
-nonce 1744005629-69b524ad403fbba5c412341184161da0c965550e
+pusher krzk@kernel.org 1744005675 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-w1.git
+nonce 1744005644-3538baaa0bc8360230ceceaf837ddd6e7b248cfd
 
-701d0e910955627734917c3587258aa7e73068bb 0af2f6be1b4281385b618cb86ad946eded089ac8 refs/heads/pinctrl-next
+2014c95afecee3e76ca4a56956a936e23283f05b 0af2f6be1b4281385b618cb86ad946eded089ac8 refs/heads/fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmfzahwQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD14iZEACJV8rb/KT0TX3eIIh4rgg0tSF3wL43g4EC
-H6/MtkVEsMGFaCVzZ9/+t8wBZT0H21xjTjwUW3urvmA24ELNmE/fiQPH4eMt5vZ0
-zamtBcqe/ly9Quy9+IZnW+l7/GlYnzIA68KxRgXGTyGgKA1oS+A6PNSiY/qnpu8A
-MgHwKEl0sSL3C6C1pSdgdZM34/MxQEvAx+caiLRLyD2L+hbz+c7yKZV3mWYCtji1
-zU77QfBedC2x9EwZC5qr9s8CBfbBoVvFaJF+R/lG2YNLzW7sTjjM0Um4GwD+xkRD
-AhdugdOjNyK3n2ZfJ9pwA7cgWgy1WmRIxYcjR+nVJKPc6HWltk8eNgPtF8AUF0H7
-AO8sBu8TQlbnS0SA93jtdcQURtANmDLhi2mFOpG03P0HDs/+oK7ZQ3vSF9PXcq4G
-ElYBMYu2fh4aB7NUDlpL8fwZog8AUhgf/7Dss1Qc2iWT+21AyPNb+CRYkARcIr1F
-GS7L1I/Qi7W1M8MSiwewnkTVX3lNZaCli0e62ZO4ZiHIwjKzoOZGNVS+GR4Pwwks
-6MBwtSWjKOv3SNtghaVW/CxkznG01C0pJgC72GDGgizeS9HdtVooM+S9zwS8IRCI
-FthfjBxWiJfIlFfBTXEq0xZzdZfQkvAzDanvb6ytaGqhzzgNJL6Rwrs/rJOOxtWR
-i7sGeeCH+g==
-=qKWV
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmfzaisQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1zQqD/4+9i9uOwC7s+RZ77J6vQmoWg6rVvNgDv42
+gXmGuIC+KCd3djzV+M16r3EDKyaMSwBP02+xk2OXjFwZXX+PWgBhb0uoej3gOO3A
+4kFNXuEFuFpAVun8XcccPKElmd91/BYpo0f8I1VwhiYW680m5BmbJMbXWMwlJjD1
+xo+YJiZ2cS/HGLcDQ6vzDph9FQiLMBU7czfTShivCxHynQd7ggSJqDVgCpT+cup9
+eWAtA8+ldj5cMPPjBw+PfyTyUi7Hpr0cKIknf8AVpmwCeEcYuYBB568MfLmo9sUZ
+w33ZJU3M92xtRqzI0wd9gp12/YuVuRZfquzFl7X/7lX22vXipYneswvYAxQ2apnw
+sh/Jm+Dm75qydjdikHMgrUBim7uzy6jp/ijCgRLQhwrSE+xuRkB/6ZGhtQqNSbK3
+uR6Vo2Td6UQ47QI5eDngxxpaauhDWvKdSbw9V16j/6jC4W4/GYdd0yK0SOjN+WFU
+Q3n6CNVtcBk1xSv5ijRNdKk2Js9Roge2spXPW9Rz8nTri+89MzzBZDDx0GIEl1xq
+16zam0/rMqKTAtp+P3chEDYX1eUh/v1i6kX1g1JWi9ohBS8sqUkxmrDgyd/+n+wk
+yL/ftAA6fCZkwbEu9HaMlWOLtQQ10+bvZ6pYGdbYt2aAN65Px/NGey+mMnNHjXeI
+fmch8Q7O6w==
+=QACQ
 -----END PGP SIGNATURE-----
 
---===============2914184242869844775==
+--===============7416561201172367675==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-701d0e910955-0af2f6be1b42.txt
+Content-Disposition: attachment; filename=revlist-2014c95afece-0af2f6be1b42.txt
 
 d327a12e636e902fd0c7178732813b041a1c9214 stmmac: Remove pcim_* functions for driver detach
 45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
@@ -1082,4 +1082,4 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
 
---===============2914184242869844775==--
+--===============7416561201172367675==--
