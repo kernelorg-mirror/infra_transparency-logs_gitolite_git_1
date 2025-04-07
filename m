@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4480700260416905014=="
+Content-Type: multipart/mixed; boundary="===============6997684402295750006=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Mon, 07 Apr 2025 13:32:26 -0000
-Message-Id: <174403274618.633121.3153474896713349666@gitolite.kernel.org>
+Date: Mon, 07 Apr 2025 13:34:55 -0000
+Message-Id: <174403289578.634771.1842474826252642668@gitolite.kernel.org>
 
---===============4480700260416905014==
+--===============6997684402295750006==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ras/ras
 user: bp
 changes:
-  - ref: refs/heads/edac-urgent
-    old: 74e956a7dd32604397ab18b14b98e5b2d01308a3
+  - ref: refs/heads/edac-for-next
+    old: ff719e243db5de2ca595bf4e2ab6ad530a08f378
     new: 6c44e5354d4d16d9d891a419ca3f57abfe18ce7a
-    log: revlist-74e956a7dd32-6c44e5354d4d.txt
+    log: revlist-ff719e243db5-6c44e5354d4d.txt
 
---===============4480700260416905014==
+--===============6997684402295750006==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-74e956a7dd32-6c44e5354d4d.txt
+Content-Disposition: attachment; filename=revlist-ff719e243db5-6c44e5354d4d.txt
 
 45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
 e364e4cebeb70a5f4f8cb28ca7480e1ddb361752 Merge branch 'stmmac-several-pci-related-improvements'
@@ -1051,4 +1051,4 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
 6c44e5354d4d16d9d891a419ca3f57abfe18ce7a RAS/AMD/ATL: Include row[13] bit in row retirement
 
---===============4480700260416905014==--
+--===============6997684402295750006==--
