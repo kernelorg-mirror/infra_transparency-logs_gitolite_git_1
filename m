@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Mon, 07 Apr 2025 07:53:48 -0000
-Message-Id: <174401242847.166963.9569176003822641500@gitolite.kernel.org>
+Date: Mon, 07 Apr 2025 07:55:38 -0000
+Message-Id: <174401253821.170034.14130705812011958311@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/brgl/linux
 user: brgl
 changes:
   - ref: refs/heads/gpio/for-next
-    old: 8257afa5b14357bb4e0d434b34c6537f8d73757c
-    new: f4271a891dca46ecf6813273ed63e502862f45da
+    old: f4271a891dca46ecf6813273ed63e502862f45da
+    new: ac7d33f3899762b5d0c90a51a96ea11b6d7660ba
     log: |
-         f4271a891dca46ecf6813273ed63e502862f45da dt-bindings: gpio: Correct indentation and style in DTS example
+         ac7d33f3899762b5d0c90a51a96ea11b6d7660ba dt-bindings: gpio: pca95xx: add Toradex ecgpiol16
          
