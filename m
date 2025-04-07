@@ -1,30 +1,65 @@
-Content-Type: multipart/mixed; boundary="===============6457021323027291771=="
+Content-Type: multipart/mixed; boundary="===============1956005488003073752=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
-Date: Mon, 07 Apr 2025 05:20:00 -0000
-Message-Id: <174400320072.4134702.18050476617670788980@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Mon, 07 Apr 2025 05:24:10 -0000
+Message-Id: <174400345020.4138215.13057283267331890541@gitolite.kernel.org>
 
---===============6457021323027291771==
+--===============1956005488003073752==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hyperv/linux
-user: wei.liu
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/hyperv-fixes
-    old: 73fe9073c0cc28056cb9de0c8a516dac070f1d1f
+  - ref: refs/heads/master
+    old: 38fec10eb60d687e30c8c6b5420d86e8149f7557
     new: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    log: revlist-73fe9073c0cc-0af2f6be1b42.txt
+    log: revlist-38fec10eb60d-0af2f6be1b42.txt
+  - ref: refs/tags/v6.15-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 64e9fdfc89a76fed38d8ddeed72d42ec71957ed9
 
---===============6457021323027291771==
+--===============1956005488003073752==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher krzk@kernel.org 1744003473 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1744003442-f88d62ad2fc19ec5b0f8e09c09b3e5fd2ae3f4fb
+
+38fec10eb60d687e30c8c6b5420d86e8149f7557 0af2f6be1b4281385b618cb86ad946eded089ac8 refs/heads/master
+0000000000000000000000000000000000000000 64e9fdfc89a76fed38d8ddeed72d42ec71957ed9 refs/tags/v6.15-rc1
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmfzYZEQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1/LuD/4pN8HgXHNiq7ktI8PLGvZIDz00yB7QMk3K
+A2BHrTeeXsGvFZsLLwLKmyGdZNi+JqKOhDzhIJhl9CM1635kOCytdvbWVNnQoqzO
+75miQovWN/rAEltfGRNUk2k9RjZE2LGwLpnaZI1iVfgtUMw/dT6f4i0UZZxnntVc
+QcveWpeqnOvsEVEKqWwhTTMKXdKMVsfhXL1NhjvuJ873AjYDDa8o9ZqZC0KhVeqt
+TjqkEOWYixtXZ2vJrcg5+jilkZCXOLIM1tZeOUEO2dDh2/hhq6WIeNblUjAW0JQC
+GkIJ7ykc29ua3yOxQzOF5NA0wo0Y8BcXdTwfn0KMvLEO1o9gozjjcoQFt6Bdfmga
+UwLgY623NeVucbanI9jNYYs3H6/3Aa9KxCLdKNLuFf07uZVqHUUz5GYjOLb8xxIv
++GmpaAtG/PllyPBzaENgEBADoKOdfQ2guRYxrVGDxY8Am68Ahei8j+f/XuUGXxsM
+JAdF/hGUo/+ezSxiPG1qmi6lUA3FY6kJLajq8mLKA2O6SBbrpoU5KgbQREKrDL6r
+Ads4FWqMFL45UH3+igqxP/Rbp3+jt5jxgh0lAAAXEPINAFbeivHySD1AxEiNJRHG
+czRSgi6mM1FF0BccBOQ+/pe3eIJaeOChvH5x1vrTU0mHH2muSOmZtKHbRCVc1wEL
+etQGixmIbA==
+=eUD6
+-----END PGP SIGNATURE-----
+
+--===============1956005488003073752==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-73fe9073c0cc-0af2f6be1b42.txt
+Content-Disposition: attachment; filename=revlist-38fec10eb60d-0af2f6be1b42.txt
 
 d327a12e636e902fd0c7178732813b041a1c9214 stmmac: Remove pcim_* functions for driver detach
 45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
@@ -1051,4 +1086,4 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
 
---===============6457021323027291771==--
+--===============1956005488003073752==--
