@@ -1,27 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Mon, 07 Apr 2025 08:03:06 -0000
-Message-Id: <174401298634.175462.13257938053657693519@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1828001717310013944=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 07 Apr 2025 08:07:09 -0000
+Message-Id: <174401322973.196336.17720534599046551304@gitolite.kernel.org>
+
+--===============1828001717310013944==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: pavel
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.1.y-cip
-    old: e423d82c34b97a74229e4c139d8bafa422a086f8
-    new: d6310a5ce394d752fc4e84236218a3b29eb36360
+  - ref: refs/heads/master
+    old: 5ad3996c72f4083a57c9d61d72184bd276510419
+    new: d7310c70368586aa1e7fbfa3bb4dc35792b8cfbc
     log: |
-         89b234ccde2c018014941ee412e0e027ca863476 clk: renesas: r9a09g047: Add I2C clocks/resets
-         9ee4b19403668514c427985b4b342cb752efafa6 dt-bindings: i2c: renesas,riic: Document RZ/Five SoC
-         400467a8cd7d07e52a0263a19fd21384f15ce8de dt-bindings: i2c: renesas,riic: Document R9A09G057 support
-         8523c36c5705aa523691126fb3a43d166dc0b04e dt-bindings: i2c: renesas,riic: Document the R9A08G045 support
-         078d2a8d04dbb163d063df5c570a729aa9944fd7 dt-bindings: i2c: renesas,riic: Document the R9A09G047 support
-         aa545793f807bb869fea0f7139376a7d3d9e5e53 i2c: riic: Introduce helper functions for I2C read/write operations
-         a7a20c882cda71b366821eaf6b19fb192dd2c16e i2c: riic: Pass register offsets and chip details as OF data
-         b961aa1949cedff201685738ba19c447f6f36b97 i2c: riic: Add support for R9A09G057 SoC
-         d6310a5ce394d752fc4e84236218a3b29eb36360 arm64: dts: renesas: r9a09g047: Add I2C nodes
+         d7310c70368586aa1e7fbfa3bb4dc35792b8cfbc Linux 6.1.133
          
+
+--===============1828001717310013944==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1744013170 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1744013227-398855e281798934c10eb69ce7dd0d6c60f21eca
+
+5ad3996c72f4083a57c9d61d72184bd276510419 d7310c70368586aa1e7fbfa3bb4dc35792b8cfbc refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmfzh3IbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZKEP/AkXtmsbsY4jsktRYfUg
+P2uVAdoYtOeE7V/ue+f94SMI1rrp8w8xPoKoK8o4M30+rPzjc+LkU9X5imLlrzOH
+btND88iLHYF7G0hTdHPQEjM0lSg0xF8ZkiAtcWlsStfZ4yeB1zL5fPLp74YCXkLM
+2rCbVQ+HoKyf+0Z3Jk+yIMNJQ5Pgol1t6/fLbEJedB21rMITY5MOAH7zR1geTZ3t
+NLxaoVL/6hLBYmzZIrNy5xtu1BhBgf24/yeoZl/UV9b3N4bM5N2KmonU4pNKQkfW
+F6WzU/ftb/SWJuk7FQnKfKjhSmdP7cC8NXC+gL79oguWv9VNr998olYLzg6+Y5u/
+OkbkYc88oOs6APQH+f7P5jsCo7Wy8nU24kh2i4p7TdnWNxfCUYYH1n8pTc3iCokp
+DBVxfp7sV4WV0IBOXCSaALRkPpkXWcYDTSwSfxkkvTCHiAwL/8J5LbZpSrsIcnWL
+oTBpNIq89DjS1Ky4uCMyW6hAUV3c0L7+I5Uv+FUKuBTMXOP5SUwVgZ8Cn3hx79uC
+Gq8rcwIMsAl2mBVVdorW90soYyBA8UZFCIvmW3/EGV3FNeD1vNvWgDsoQLUapf9m
+zPrYz8pPqC4su3G+Tfm7uRQZK+kDB8a4zuJrquQtj2NxEWxcI1Pz/47CTnggOr49
+jzPbnw6/R00t+Ze/+6CuTLmL
+=7HDm
+-----END PGP SIGNATURE-----
+
+--===============1828001717310013944==--
