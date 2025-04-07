@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6880099252759467374=="
+Content-Type: multipart/mixed; boundary="===============4088349230792331908=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Mon, 07 Apr 2025 14:33:52 -0000
-Message-Id: <174403643209.690374.11956746840335009198@gitolite.kernel.org>
+Date: Mon, 07 Apr 2025 14:34:34 -0000
+Message-Id: <174403647453.691279.7182126316471074442@gitolite.kernel.org>
 
---===============6880099252759467374==
+--===============4088349230792331908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/for-next
-    old: 314655d41e650b3d72c60aa80a449e0ab22e2ffd
-    new: af134b1145e6e1b64d41c144d4b5a8d17af22f45
-    log: revlist-314655d41e65-af134b1145e6.txt
+  - ref: refs/heads/dt/linus
+    old: 75f1f311d883dfaffb98be3c1da208d6ed5d4df9
+    new: 1296dcbad2316882f98559762b518eaa6aefcd92
+    log: revlist-75f1f311d883-1296dcbad231.txt
 
---===============6880099252759467374==
+--===============4088349230792331908==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-314655d41e65-af134b1145e6.txt
+Content-Disposition: attachment; filename=revlist-75f1f311d883-1296dcbad231.txt
 
-071ccde6e511e3d82dfcc6d9caf40155a33d7428 Merge branch 'tcp-dccp-remove-16-bytes-from-icsk'
-9db2426a324ea4aceea071b3069108840a3fa3fe stmmac: loongson: Remove surplus loop
-d327a12e636e902fd0c7178732813b041a1c9214 stmmac: Remove pcim_* functions for driver detach
 45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
 e364e4cebeb70a5f4f8cb28ca7480e1ddb361752 Merge branch 'stmmac-several-pci-related-improvements'
 cc04ed502457412960d215b9cd55f0d966fda255 stmmac: intel: interface switching support for RPL-P platform
@@ -421,6 +418,9 @@ a80b04dffe1c3180422c8f043c59b2f8021f98a0 Merge branch 'pci/controller/vmd'
 dea140198b846f7432d78566b7b0b83979c72c2b Merge branch 'pci/misc'
 7eccc86e90f04a0d758d16c08627a620ac59604d ASoC: qdsp6: q6asm-dai: fix q6asm_dai_compr_set_params error path
 40369bfe717e96e26650eeecfa5a6363563df6e4 spi: fsl-qspi: use devm function instead of driver remove
+18ddd99a01d8e2ae37828db7181ca1cc82085c84 dt-bindings: pps: gpio: Correct indentation and style in DTS example
+dd7af14795682986f6f77705f8c9c8dade7adcf6 dt-bindings: edac: altera: socfpga: Convert to YAML
+314655d41e650b3d72c60aa80a449e0ab22e2ffd scripts/make_fit: Print DT name before libfdt errors
 ef479de65a700437159d59c00ee5cad6cfc2a89d Merge tag 'gfs2-for-6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2
 f06777cf2bbc21dd8c71d6e3906934e56b4e18e4 ACPI: PNP: Add Intel OC Watchdog IDs to non-PNP device list
 2da31ea2a085cd189857f2db0f7b78d0162db87a ACPI: resource: Skip IRQ override on ASUS Vivobook 14 X1404VAP
@@ -1049,6 +1049,6 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 710329254dc303cd3b2df1a24674adecb1189385 Merge tag 'turbostat-2025.05.06' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
-af134b1145e6e1b64d41c144d4b5a8d17af22f45 dt-bindings: writing-schema: Explain sub-nodes with additionalProperties:true
+1296dcbad2316882f98559762b518eaa6aefcd92 dt-bindings: xilinx: Remove myself from maintainership
 
---===============6880099252759467374==--
+--===============4088349230792331908==--
