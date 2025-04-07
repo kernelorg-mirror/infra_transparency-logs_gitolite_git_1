@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
-Date: Mon, 07 Apr 2025 20:38:37 -0000
-Message-Id: <174405831795.1028842.9159582244472390571@gitolite.kernel.org>
+Date: Mon, 07 Apr 2025 20:38:59 -0000
+Message-Id: <174405833906.1029231.14655082768300727583@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,13 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
 user: egrumbach
 changes:
-  - ref: refs/heads/release/core95
-    old: 45478d524975c035970388e71f048946dc7914b0
-    new: 5675b71b3d62258a26b55b9d43b85c00ff034c25
+  - ref: refs/heads/release/core96
+    old: e6e096cce5c9121c9cece392050a270a45188473
+    new: 721ef2286329bfa8d03fe0fa0ea6432975cb8c88
     log: |
-         6a4ee7a5ca3d99aaf94ff4135ccfaf736f7a74e1 [BUGFIX] wifi: mac80211: avoid weird state in error path
-         60b50092e15ed150ba8756ac3988c9d8a13eb110 [BUGFIX] wifi: iwlwifi: do not use iwlmld for non-wifi7 devices
-         5675b71b3d62258a26b55b9d43b85c00ff034c25 [BUGFIX] wifi: iwlfiwi: mvm: Fix the rate reporting
+         266bc0a38e710d5dbc453d750a1dcdc778cdcfe9 [BUGFIX] wifi: iwlwifi: mld: respect AUTO_EML_ENABLE in iwl_mld_retry_emlsr()
+         b62041f4f4d5d63b2071ea1799fba50660f18762 [BUGFIX] wifi: iwlwifi: always use a0 firmware for QuZ
+         f614aca49dd0e3f0e13f072819b452775a41e998 [BUGFIX] wifi: iwlfiwi: mvm: Fix the rate reporting
+         806807fc34b38e806875e523b6ab813222c9e3fc [BUGFIX] wifi: iwlwifi: pcie: call NIC error for TOP issues
+         721ef2286329bfa8d03fe0fa0ea6432975cb8c88 Revert "[BUGFIX][NOUPSTREAM] wifi: iwlwifi: set IEEE80211_HE_MAC_CAP0_TWT_REQ in the he cap elem"
          
