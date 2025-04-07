@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1755467322388983841=="
+Content-Type: multipart/mixed; boundary="===============3927232055056935964=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Mon, 07 Apr 2025 06:40:13 -0000
-Message-Id: <174400801380.79751.7357196617530248600@gitolite.kernel.org>
+Date: Mon, 07 Apr 2025 06:40:43 -0000
+Message-Id: <174400804397.80327.8498718896023078484@gitolite.kernel.org>
 
---===============1755467322388983841==
+--===============3927232055056935964==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
 user: andy
 changes:
-  - ref: refs/heads/review-andy
-    old: 1f4c7f3b3afa90e10903234c86d5bd168c5f23b3
-    new: cec329e5436acbcddef7cf3740d08bdc22b74979
-    log: revlist-1f4c7f3b3afa-cec329e5436a.txt
+  - ref: refs/heads/for-next
+    old: e646f0dae7b0f099b36d12d9cb5ca733b8273f10
+    new: 71114cd1d386988bc90dca1d1f1fee5fb23817ad
+    log: revlist-e646f0dae7b0-71114cd1d386.txt
 
---===============1755467322388983841==
+--===============3927232055056935964==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-1f4c7f3b3afa-cec329e5436a.txt
+Content-Disposition: attachment; filename=revlist-e646f0dae7b0-71114cd1d386.txt
 
+3f0cb8de56b9a5c052a9e43fa548856926059810 io_uring: fix retry handling off iowq
+3afcb3b2e3a4ead24e3ab476576e87877d55ee22 io_uring: defer iowq cqe overflow via task_work
+4c76de42cb6971fc2cc7984ed974caffe6ea7fda io_uring: open code __io_post_aux_cqe()
 d73acd7af3a329e8ebe5df1c738ae8c1d0a5f778 io_uring: rename "min" arg in io_iopoll_check()
 816619782bdc70d7f33a8d0cda36d61414cec467 io_uring: move min_events sanitisation
 c59d88101cd9ed609678880e93b8e7684c7ba68e Bluetooth: btnxpuart: Add correct bootloader error codes
@@ -1047,8 +1050,5 @@ d5ab616eb89659ef8f5c3a94eaf444992e34a2cd gpiolib: acpi: Remove index parameter f
 bd0df44795053e53a25c521016d083311a05fae0 gpiolib: acpi: Reuse struct acpi_gpio_params in struct acpi_gpio_lookup
 8b4f52ef7a412dd8e0b390ad4815bd74323f6f99 gpiolib: acpi: Deduplicate some code in __acpi_find_gpio()
 71114cd1d386988bc90dca1d1f1fee5fb23817ad Merge patch series "gpiolib: acpi: Refactor to shrink the code by ~8%"
-08c23f26a97176a9ffddc142baec100b1a995cb5 devres: Move devm_*_action*() APIs to devres.h
-584165ba19bdb1fcfc08155c27a4a3424c715c53 devres: Add devm_is_action_added() helper
-cec329e5436acbcddef7cf3740d08bdc22b74979 gpiolib: devres: Finish the conversion to use devm_add_action()
 
---===============1755467322388983841==--
+--===============3927232055056935964==--
