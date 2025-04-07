@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Mon, 07 Apr 2025 07:52:43 -0000
-Message-Id: <174401236354.166318.8412780831635829419@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Mon, 07 Apr 2025 07:53:48 -0000
+Message-Id: <174401242847.166963.9569176003822641500@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/master.v6.15-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 0af2f6be1b4281385b618cb86ad946eded089ac8
+  - ref: refs/heads/gpio/for-next
+    old: 8257afa5b14357bb4e0d434b34c6537f8d73757c
+    new: f4271a891dca46ecf6813273ed63e502862f45da
+    log: |
+         f4271a891dca46ecf6813273ed63e502862f45da dt-bindings: gpio: Correct indentation and style in DTS example
+         
