@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0407898572038242625=="
+Content-Type: multipart/mixed; boundary="===============7493066926708756106=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Tue, 08 Apr 2025 20:58:04 -0000
-Message-Id: <174414588470.2377340.12789297940878222172@gitolite.kernel.org>
+Date: Tue, 08 Apr 2025 20:59:08 -0000
+Message-Id: <174414594825.2377977.6277391931985652300@gitolite.kernel.org>
 
---===============0407898572038242625==
+--===============7493066926708756106==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
-  - ref: refs/heads/devel
+  - ref: refs/heads/test
     old: a64dcfb451e254085a7daee5fe51bf22959d52d3
     new: 0af2f6be1b4281385b618cb86ad946eded089ac8
     log: revlist-a64dcfb451e2-0af2f6be1b42.txt
 
---===============0407898572038242625==
+--===============7493066926708756106==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
 
---===============0407898572038242625==--
+--===============7493066926708756106==--
