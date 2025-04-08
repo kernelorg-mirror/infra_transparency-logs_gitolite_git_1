@@ -1,27 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Tue, 08 Apr 2025 23:21:10 -0000
-Message-Id: <174415447000.2498053.2986311350449468634@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 08 Apr 2025 23:21:33 -0000
+Message-Id: <174415449397.2498519.2612719011152736624@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/main-pending
-    old: 471ed859ad3c4184bbb80900f5486d361578aefd
-    new: 83078ab9ec2f77abd3f29ad4f15650925173566f
+  - ref: refs/heads/main
+    old: 445e99bdf68d62cc8cd9c129ea177b2b847d654d
+    new: 7f1ff1b38a7c8b872382b796023419d87d78c47e
     log: |
-         68218fa0862aaa8fcc5f968663efc781eb4c91df wifi: ath12k: Fix misspelling "upto" in dp.c
-         4b2013620a52f15356e64247c11da2cacd36105f Merge branch 'ath-next'
-         f0bf5f06295d6b216e997137610b4b90009eb6b5 Merge remote-tracking branch 'mhi/mhi-next'
-         ac17b1211841c98a9b4c2900ba2a7f457c80cf90 Add localversion-wireless-testing-ath
-         54df71965ba9a23dceb8dc54f0107d385dfdd971 wifi: ath12k: ahb: Replace del_timer_sync() with timer_delete_sync()
-         83078ab9ec2f77abd3f29ad4f15650925173566f Merge branch 'pending' into main-pending
+         21c02e8272bc95ba0dd44943665c669029b42760 mptcp: only inc MPJoinAckHMacFailure for HMAC failures
+         6767698cf9c144c8d4c72925e9a1cd2cbc031d25 selftests: mptcp: validate MPJoin HMacFailure counters
+         dd17a7f1d3b35fa2708d0a81a5b5e865371c43e4 Merge branch 'mptcp-only-inc-mpjoinackhmacfailure-for-hmac-failures'
+         7f1ff1b38a7c8b872382b796023419d87d78c47e net: libwx: handle page_pool_dev_alloc_pages error
          
-  - ref: refs/tags/ath-pending-202504081929
-    old: 0000000000000000000000000000000000000000
-    new: 83078ab9ec2f77abd3f29ad4f15650925173566f
