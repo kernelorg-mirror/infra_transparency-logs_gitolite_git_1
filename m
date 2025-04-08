@@ -1,29 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 08 Apr 2025 09:50:01 -0000
-Message-Id: <174410580169.1754339.7029288420296904705@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
+Date: Tue, 08 Apr 2025 09:51:20 -0000
+Message-Id: <174410588051.1756760.7498693375172425020@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/chao/linux
+user: chao
 changes:
-  - ref: refs/heads/for-linus
-    old: df540af51fa820763091f2cb54257f38635111e2
-    new: 080410fe61e6df035960f5cbec9e381ac8b4ced0
+  - ref: refs/heads/bugfix/common
+    old: 5a05c28c73799d098b80b7133e47636adb6bfe7d
+    new: 9f6cf3edc08d9b9c521475bf3be0e01c2bba6811
     log: |
-         080410fe61e6df035960f5cbec9e381ac8b4ced0 ALSA: azt2320: Replace deprecated strcpy() with strscpy()
+         98c729996acfe99daeb37ba86ecc21cc48bbd24b f2fs: fix to do sanity check on sbi->total_valid_block_count
+         649d8539e6f15feb355a2c289c80f35201ea9762 f2fs: add f2fs_bug_on() to detect potential bug
+         0e1bc9a07c458d87e116b07ec33c57c6a5a79b46 f2fs: fix to avoid invalid wait context issue
+         743a3c6919fbe95eb3f11b8e46b8096f78945bb0 f2fs: doc: disk layout
+         9f6cf3edc08d9b9c521475bf3be0e01c2bba6811 f2fs: zone: fix to calculate first_zoned_segno correctly
          
-  - ref: refs/heads/for-next
-    old: a81aca6f8ed81d3607a5e06a64c02b7af0a705b5
-    new: 1fc74be5f0287ac18bde4c020228c66054af2713
-    log: |
-         080410fe61e6df035960f5cbec9e381ac8b4ced0 ALSA: azt2320: Replace deprecated strcpy() with strscpy()
-         1fc74be5f0287ac18bde4c020228c66054af2713 Merge branch 'for-linus' into for-next
-         
-  - ref: refs/heads/master
-    old: ebcea9fd36ad8b280b815e017b63eb2796197e78
-    new: ee3a377fe6ec35533420d670148634b9297e40a4
