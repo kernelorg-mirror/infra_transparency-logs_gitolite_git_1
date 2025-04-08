@@ -1,31 +1,58 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Tue, 08 Apr 2025 08:51:55 -0000
-Message-Id: <174410231522.1694475.14467332780250187327@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1450233509701037354=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Tue, 08 Apr 2025 08:54:08 -0000
+Message-Id: <174410244849.1695511.17461074309983643044@gitolite.kernel.org>
+
+--===============1450233509701037354==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 8aae9e2d2d4bb6392a62857881a82d59380c59cf
-    new: 627870728d3b52afa5bc03ecbc793cdc558912ee
+    old: 56ff4cfcb64d6651013bbe102473b87285a264ba
+    new: 8550af5b36138881c1037be8b120c7a56051413a
     log: |
-         0ecaef693ea60aab709e79dd4a8eb2865ec08967 findmnt: fix -k option parsing regression
-         10ee66ed1b08586bde42582e34355418eef33ef5 namespace.h: fix compilation on Linux < 4.10
-         c4a24f5301ec9779a0492dd110824c2ce813f3eb treewide: fix optional arguments usage
-         000913f4706e3525b602c66c186510db8cbb17d8 Merge branch 'PR/findmnt-fix-k' of https://github.com/karelzak/util-linux-work
-         627870728d3b52afa5bc03ecbc793cdc558912ee Merge branch 'PR/treewide-fix-optarg' of https://github.com/karelzak/util-linux-work
+         44da351fab3965f6d174c3fa1574601fb4173765 dyad: use hard-coded name for now
+         1551b0a718e8455616921809216048776d3115cc tools/Cargo.toml: change name of whole package to "vuln_utils"
+         8550af5b36138881c1037be8b120c7a56051413a justfile: add build target for rust utilities
          
-  - ref: refs/heads/stable/v2.41
-    old: 138117a83e79956fb23410ab3dca82ac247add6f
-    new: 9d4df7905ec03c3ea6e9bdf0aaa91e862168d29a
-    log: |
-         e28ce84b2ebec03082dd9045e9be18785ec4dbd2 namespace.h: fix compilation on Linux < 4.10
-         a3cff26d4b01ef19763964527e4270a105dc48e5 treewide: fix optional arguments usage
-         9d4df7905ec03c3ea6e9bdf0aaa91e862168d29a findmnt: fix -k option parsing regression
-         
+
+--===============1450233509701037354==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1744102383 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1744102443-19dda70e2ab5a9d932c5c41183b4325ce305fe33
+
+56ff4cfcb64d6651013bbe102473b87285a264ba 8550af5b36138881c1037be8b120c7a56051413a refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmf04+8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+O+oP/07guiMQflBHJY5Nb4XE
+OFsS29S0KbGi3+5ie974xncvG1zfQ0CFgIo+7qveLT1DEVRLHnHMTkxqugrYYClm
+lb0YxDaJQ5n/wdMWpGZ2Xlxf4JyMVztDlrwam1rcuSKr9uqi9r28CzUCaBIXf/I4
+CgFJ28bT2CwBUmrqpPzDAGzLDqgYlIHR5YAEMqFEVKuX9Y04Z7npPzlkjJ95TKMU
+/7tiKq50uZVU5VvNP9k2AlA4ej1myWPadzuGQJTZHVyYKaDcjsX8rEd+8jfa10hr
+CqBXFJElVDIKdkEyMpcgFzl8bvadghKLNaAniMk0dmedtefLQWTxyLHSoEPhRWwz
+aJ/GWSSK9zU8OPJQ8+1d7Q3iy4FYbezIDbK5jbUGnc+4q2FyghRJcWLZBTvn5F2D
+8KKkfsjoz4sQjOc1OgpiMNtpRKYADIulXiqryihdmulwGRSW43yjXI+tWsgbVS0F
+GVE5Oa5iQ3kyUEd+LoZQjkuAHvOOpATM9AI9vJzIp5jmnylfAqwhgkply3rmRR8I
+FH1MJgtH1rFr2on6xled255NzaI4AbnN3SRH99dA/YiHQt36phR09X5TEYlEyM0Q
+bTh7fGnL/PXgjDiT/JQyqq4ZQoBDwAevgdZMomzYG8A0aXUsuqgr/EiZddjEI4dI
+YdlU1cWf6eKv/QvViV8eGvDZ
+=JMx4
+-----END PGP SIGNATURE-----
+
+--===============1450233509701037354==--
