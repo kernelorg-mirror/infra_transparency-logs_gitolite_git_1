@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8028695955066163765=="
+Content-Type: multipart/mixed; boundary="===============1368725948789316069=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ojeda/linux
-Date: Tue, 08 Apr 2025 17:00:43 -0000
-Message-Id: <174413164383.2166880.13067394170032705826@gitolite.kernel.org>
+Date: Tue, 08 Apr 2025 17:00:53 -0000
+Message-Id: <174413165311.2167204.10712479954133028499@gitolite.kernel.org>
 
---===============8028695955066163765==
+--===============1368725948789316069==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ojeda/linux
 user: ojeda
 changes:
-  - ref: refs/heads/rust-next
+  - ref: refs/heads/rust-fixes
     old: a2cc6ff5ec8f91bc463fd3b0c26b61166a07eb11
     new: 0af2f6be1b4281385b618cb86ad946eded089ac8
     log: revlist-a2cc6ff5ec8f-0af2f6be1b42.txt
 
---===============8028695955066163765==
+--===============1368725948789316069==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -629,4 +629,4 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
 
---===============8028695955066163765==--
+--===============1368725948789316069==--
