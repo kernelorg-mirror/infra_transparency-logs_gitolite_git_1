@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0862373903768083528=="
+Content-Type: multipart/mixed; boundary="===============5869782877511129416=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Tue, 08 Apr 2025 20:53:09 -0000
-Message-Id: <174414558984.2371703.7742504046803373230@gitolite.kernel.org>
+Date: Tue, 08 Apr 2025 20:53:52 -0000
+Message-Id: <174414563235.2372270.1557199505714888102@gitolite.kernel.org>
 
---===============0862373903768083528==
+--===============5869782877511129416==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
-  - ref: refs/heads/master
-    old: a64dcfb451e254085a7daee5fe51bf22959d52d3
+  - ref: refs/heads/next
+    old: 82ef781f24ac26f4aa71f02d7624c439ab8389a7
     new: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    log: revlist-a64dcfb451e2-0af2f6be1b42.txt
+    log: revlist-82ef781f24ac-0af2f6be1b42.txt
 
---===============0862373903768083528==
+--===============5869782877511129416==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-a64dcfb451e2-0af2f6be1b42.txt
+Content-Disposition: attachment; filename=revlist-82ef781f24ac-0af2f6be1b42.txt
 
 d327a12e636e902fd0c7178732813b041a1c9214 stmmac: Remove pcim_* functions for driver detach
 45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
@@ -1051,4 +1051,4 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
 
---===============0862373903768083528==--
+--===============5869782877511129416==--
