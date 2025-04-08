@@ -1,40 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============7601280344769461585=="
+Content-Type: multipart/mixed; boundary="===============3576087678634859645=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Tue, 08 Apr 2025 09:32:40 -0000
-Message-Id: <174410476057.1738899.1920499216693535077@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Tue, 08 Apr 2025 09:34:10 -0000
+Message-Id: <174410485079.1739707.13753666052379639320@gitolite.kernel.org>
 
---===============7601280344769461585==
+--===============3576087678634859645==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/for-linux-next
-    old: de80bff15295bac60b4af09604dfd5ee4c6bde9d
-    new: 7be5389b4c37fc5ee3652dc03eb30c8ce3a88b7d
-    log: revlist-de80bff15295-7be5389b4c37.txt
+  - ref: refs/heads/ipsec-fixes
+    old: 538989aa4b12a975d435bd1838935bedf9f465ca
+    new: 80a54ca4583d87530baf2c13268df5fb75430bac
+    log: revlist-538989aa4b12-80a54ca4583d.txt
 
---===============7601280344769461585==
+--===============3576087678634859645==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-de80bff15295-7be5389b4c37.txt
+Content-Disposition: attachment; filename=revlist-538989aa4b12-80a54ca4583d.txt
 
-45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
-e364e4cebeb70a5f4f8cb28ca7480e1ddb361752 Merge branch 'stmmac-several-pci-related-improvements'
-cc04ed502457412960d215b9cd55f0d966fda255 stmmac: intel: interface switching support for RPL-P platform
-1ae1d705a1120e8e0ca41698c5a0fff6f5290bc1 net: dsa: microchip: fix DCB apptrust configuration on KSZ88x3
-a50b4fe095fb98e0b7da03b0a42fd1247284868e Merge tag 'timers-cleanups-2025-03-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-317a76a996043d336b85197aed5f44184b36ac4a Merge tag 'timers-vdso-2025-03-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-3f0cb8de56b9a5c052a9e43fa548856926059810 io_uring: fix retry handling off iowq
-3afcb3b2e3a4ead24e3ab476576e87877d55ee22 io_uring: defer iowq cqe overflow via task_work
-4c76de42cb6971fc2cc7984ed974caffe6ea7fda io_uring: open code __io_post_aux_cqe()
 d73acd7af3a329e8ebe5df1c738ae8c1d0a5f778 io_uring: rename "min" arg in io_iopoll_check()
 816619782bdc70d7f33a8d0cda36d61414cec467 io_uring: move min_events sanitisation
 c59d88101cd9ed609678880e93b8e7684c7ba68e Bluetooth: btnxpuart: Add correct bootloader error codes
@@ -1049,6 +1040,15 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 710329254dc303cd3b2df1a24674adecb1189385 Merge tag 'turbostat-2025.05.06' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
-7be5389b4c37fc5ee3652dc03eb30c8ce3a88b7d Merge branches 'for-next/scmi/fixes' and 'for-next/ffa/fixes' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
+5aa5a8678875bc3087b49abe16b9fdc34eae140e xfrm: validate assignment of maximal possible SEQ number
+95f30100ad0365ad76ed2f687211b2e360f5ccfa xfrm: advance SEQ number in non-ESN mode
+5e9b9ea69912f15e553db17924a28c18a597806a xfrm: advance SEQ number in ESN mode
+6dd24d06430668da6114a0977b528adae3f984bf xfrm: advance SEQ number in BMP mode
+9315156eace72d683b044acd15276fe497c09554 net/mlx5e: Reflect outband SEQ numbers in anti-replay context
+8202c035686c8a9197eff23fd3bbf75eb2f2af37 net/mlx5e: Advance SEQ numbers in SA statistics
+74bf784fa6e15ab7784fca8ff489c5ee20691b5c net/mlx5e: Configure initial IPsec SEQ number in non-ESN mode too
+d19008bc8cf10aecabf738719b967bccbbf880df net/mlx5e: Don't update neigh entries in IPsec ESN overlap
+de5cb73278618c0e5a5c5bf6f318b26b017dc8bb net/mlx5e: Support routed networks during IPsec accel MACs init
+80a54ca4583d87530baf2c13268df5fb75430bac xfrm: prevent configuration of interface index when offload is used
 
---===============7601280344769461585==--
+--===============3576087678634859645==--
