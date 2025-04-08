@@ -1,55 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============4051110145420202300=="
+Content-Type: multipart/mixed; boundary="===============6925864529432330620=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Tue, 08 Apr 2025 20:31:25 -0000
-Message-Id: <174414428567.2353320.15573107865860805354@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 08 Apr 2025 20:31:33 -0000
+Message-Id: <174414429371.2353636.5443795016856538637@gitolite.kernel.org>
 
---===============4051110145420202300==
+--===============6925864529432330620==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
   - ref: refs/heads/master
-    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    new: bec7dcbc242c6c087cede1a6fdfaeb5d6eaf25bf
-    log: revlist-0af2f6be1b42-bec7dcbc242c.txt
+    old: 9da702b19a32c88e1468241b1da0058b86f7fd1b
+    new: 6d1998d84ce7c589730a65a9e39b522e9878c537
+    log: revlist-9da702b19a32-6d1998d84ce7.txt
+  - ref: refs/heads/tip/urgent
+    old: 5b46fbc937f6b121f7ab7f9112feb1b77c10d039
+    new: 0eb81f9fa43239ce82c25abe2d59e6fd3836ea97
+    log: |
+         2d12c6fb78753925f494ca9079e2383529e8ae0e objtool: Remove ANNOTATE_IGNORE_ALTERNATIVE from CLAC/STAC
+         ee4b7c0ec70c65aa3c90e8f46669504f33f43d90 Merge branch into tip/master: 'irq/urgent'
+         848aea26627fc4ca0731d5ebb7e4e38f16229dde Merge branch into tip/master: 'objtool/urgent'
+         838529229eecce0b208265b742fe2fb20883213a Merge branch into tip/master: 'perf/urgent'
+         0eb81f9fa43239ce82c25abe2d59e6fd3836ea97 Merge branch into tip/master: 'x86/urgent'
+         
 
---===============4051110145420202300==
+--===============6925864529432330620==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0af2f6be1b42-bec7dcbc242c.txt
+Content-Disposition: attachment; filename=revlist-9da702b19a32-6d1998d84ce7.txt
 
-668e041662e92ab3ebcb9eb606d3ec01884546ab cgroup/cpuset: Fix incorrect isolated_cpus update in update_parent_effective_cpumask()
-8bf450f3aec3d1bbd725d179502c64b8992588e4 cgroup/cpuset: Fix error handling in remote_partition_disable()
-f62a5d39368e34a966c8df63e1f05eed7fe9c5de cgroup/cpuset: Remove remote_partition_check() & make update_cpumasks_hier() handle remote partition
-6da580ec656a5ed135db2cdf574b47635611a4d7 cgroup/cpuset: Don't allow creation of local partition over a remote one
-f0a0bd3d23a44a2c5f628e8ca8ad882498ca5aae cgroup/cpuset: Code cleanup and comment update
-52e039f9e2557f46b083d5d8ca94793ddea44a07 cgroup/cpuset: Remove unneeded goto in sched_partition_write() and rename it
-65046b5e0ad71990b5a0256710cf050d2d2ab3dd selftest/cgroup: Update test_cpuset_prs.sh to use | as effective CPUs and state separator
-b2b2b4d058b776be0168b4ea46ed84cfb0f884e9 selftest/cgroup: Clean up and restructure test_cpuset_prs.sh
-e8a457b73569d7096ff46c307c37dbba55dd7a9c selftest/cgroup: Add a remote partition transition test to test_cpuset_prs.sh
-7d6c63c3191427a69ffd1383146df01f695d6195 cgroup: rstat: call cgroup_rstat_updated_list with cgroup_rstat_lock
-a22b3d54de94f82ca057cc2ebf9496fa91ebf698 cgroup/cpuset: Fix race between newly created partition and dying one
-d24fa977eec53399a9a49a2e1dc592430ea0a607 tracing: fprobe: Fix to lock module while registering fprobe
-dd941507a9486252d6fcf11814387666792020f3 tracing: fprobe events: Fix possible UAF on modules
-9ad19171b6d6fa5dcdd8a1d5d1b82dbdeaf65ab0 lib/crc: remove unnecessary prompt for CONFIG_CRC32 and drop 'default y'
-7939da264bcc91ced4d01014241a581e79d414d9 lib/crc: remove unnecessary prompt for CONFIG_CRC_CCITT
-2038af8edae281283ee10e220a3df19dcad3b61c lib/crc: remove unnecessary prompt for CONFIG_CRC16
-a6d0dbba950880e269d433222ca6d516ebe8a6ae lib/crc: remove unnecessary prompt for CONFIG_CRC_T10DIF
-a0d55dd740db75acca2afbd84a2f54f644dbc268 lib/crc: remove unnecessary prompt for CONFIG_CRC_ITU_T
-31ab49a99f0572da6a62f121878e2155b04904e5 lib/crc: document all the CRC library kconfig options
-b261d2222063a9a8b9ec284244c285f2998ee01e lib/crc: remove CONFIG_LIBCRC32C
-a3dc2983ca7b90fd35f978502de6d4664d965cfb tracing: fprobe: Cleanup fprobe hash when module unloading
-84ffc79bfbf70c779e60218563f2f3ad45288671 kbuild: Add '-fno-builtin-wcslen'
-97c484ccb804ac07f8be80d66a250a260cc9339e Merge tag 'crc-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
-e37f72b3b417ed793cf23a523a4d96d42c9824e5 Merge tag 'cgroup-for-6.15-rc1-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
-bec7dcbc242c6c087cede1a6fdfaeb5d6eaf25bf Merge tag 'probes-fixes-v6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+ee4b7c0ec70c65aa3c90e8f46669504f33f43d90 Merge branch into tip/master: 'irq/urgent'
+848aea26627fc4ca0731d5ebb7e4e38f16229dde Merge branch into tip/master: 'objtool/urgent'
+838529229eecce0b208265b742fe2fb20883213a Merge branch into tip/master: 'perf/urgent'
+0eb81f9fa43239ce82c25abe2d59e6fd3836ea97 Merge branch into tip/master: 'x86/urgent'
+8748c805023d8f311f28a6905b40c3edeac5f846 Merge branch into tip/master: 'irq/core'
+ecce52aaaa117e9dfba68309c278720326c5cfa1 Merge branch into tip/master: 'irq/drivers'
+e91c88b547723ac46caf3078f0f97092cda5f71d Merge branch into tip/master: 'irq/msi'
+7964229ef458aa3a3720b52354b452be7d51fe7c Merge branch into tip/master: 'perf/core'
+790e0acfe4507e6c9923f53debd10fcde820abc0 Merge branch into tip/master: 'sched/core'
+92a4c542a13a0f071a65cecb609a21a410ca633f Merge branch into tip/master: 'x86/alternatives'
+aeeb1dc8ff37ada48e77ba2b69ed3229c6228964 Merge branch into tip/master: 'x86/asm'
+84be77c0beab4684ebe8eac7c2047f8068c6a251 Merge branch into tip/master: 'x86/boot'
+a00bd3665a130cd9fe310559084191e99e45822b Merge branch into tip/master: 'x86/cpu'
+d5f6abc1e75c4fdf712525d16b06bc5b6c533a6c Merge branch into tip/master: 'x86/fpu'
+87f5e5f436f9f6b062b5f46199e09932cd48949c Merge branch into tip/master: 'x86/kconfig'
+a3e76fb168e2ed4f2873e5a611efaa3b6332a864 Merge branch into tip/master: 'x86/microcode'
+6b91a6e8beb7f328efad21b0c7911a54ae54cac8 Merge branch into tip/master: 'x86/mm'
+6d1998d84ce7c589730a65a9e39b522e9878c537 Merge branch into tip/master: 'x86/nmi'
 
---===============4051110145420202300==--
+--===============6925864529432330620==--
