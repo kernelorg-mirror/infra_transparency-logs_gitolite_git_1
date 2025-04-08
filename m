@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8011714727834347934=="
+Content-Type: multipart/mixed; boundary="===============9063920848164227211=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Tue, 08 Apr 2025 12:29:03 -0000
-Message-Id: <174411534373.1909603.7120597512024887255@gitolite.kernel.org>
+Date: Tue, 08 Apr 2025 12:30:06 -0000
+Message-Id: <174411540664.1912435.7496121822838747911@gitolite.kernel.org>
 
---===============8011714727834347934==
+--===============9063920848164227211==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/renesas-drivers
 user: geert
 changes:
-  - ref: refs/heads/renesas-clk-for-v6.16
-    old: d6def20625e52e64f829c733ff41b8e755f7d192
+  - ref: refs/heads/renesas-clk
+    old: e1a098330ef0555ad216e549a018d99aee7752c1
     new: b6f2c6bd4e9ea47afa2b66c0c64c296a1fbf4489
-    log: revlist-d6def20625e5-b6f2c6bd4e9e.txt
+    log: revlist-e1a098330ef0-b6f2c6bd4e9e.txt
 
---===============8011714727834347934==
+--===============9063920848164227211==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-d6def20625e5-b6f2c6bd4e9e.txt
+Content-Disposition: attachment; filename=revlist-e1a098330ef0-b6f2c6bd4e9e.txt
 
 a50b4fe095fb98e0b7da03b0a42fd1247284868e Merge tag 'timers-cleanups-2025-03-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 317a76a996043d336b85197aed5f44184b36ac4a Merge tag 'timers-vdso-2025-03-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1051,4 +1051,4 @@ fea942bc15135e065b456421f7a163df036242c5 clk: renesas: rzv2h: Add support for en
 360387a8f17d2cf7afd894c318df959112f377c7 clk: renesas: rzv2h: Rename PLL field macros for consistency
 b6f2c6bd4e9ea47afa2b66c0c64c296a1fbf4489 clk: renesas: r9a09g057: Add clock and reset entries for GE3D
 
---===============8011714727834347934==--
+--===============9063920848164227211==--
