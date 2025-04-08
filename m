@@ -1,31 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============6796575389417280795=="
+Content-Type: multipart/mixed; boundary="===============7601280344769461585=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rppt/memblock
-Date: Tue, 08 Apr 2025 09:29:35 -0000
-Message-Id: <174410457549.1735647.14419042595911991033@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Tue, 08 Apr 2025 09:32:40 -0000
+Message-Id: <174410476057.1738899.1920499216693535077@gitolite.kernel.org>
 
---===============6796575389417280795==
+--===============7601280344769461585==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rppt/memblock
-user: rppt
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/for-next
-    old: 98b7beba1ee6fb4ee755812e6c06cfc9084e7430
-    new: 3b394dff15e14550a26b133fc7b556b5b526f6a5
-    log: revlist-98b7beba1ee6-3b394dff15e1.txt
+  - ref: refs/heads/for-linux-next
+    old: de80bff15295bac60b4af09604dfd5ee4c6bde9d
+    new: 7be5389b4c37fc5ee3652dc03eb30c8ce3a88b7d
+    log: revlist-de80bff15295-7be5389b4c37.txt
 
---===============6796575389417280795==
+--===============7601280344769461585==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-98b7beba1ee6-3b394dff15e1.txt
+Content-Disposition: attachment; filename=revlist-de80bff15295-7be5389b4c37.txt
 
+45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
+e364e4cebeb70a5f4f8cb28ca7480e1ddb361752 Merge branch 'stmmac-several-pci-related-improvements'
+cc04ed502457412960d215b9cd55f0d966fda255 stmmac: intel: interface switching support for RPL-P platform
 1ae1d705a1120e8e0ca41698c5a0fff6f5290bc1 net: dsa: microchip: fix DCB apptrust configuration on KSZ88x3
 a50b4fe095fb98e0b7da03b0a42fd1247284868e Merge tag 'timers-cleanups-2025-03-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 317a76a996043d336b85197aed5f44184b36ac4a Merge tag 'timers-vdso-2025-03-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1046,9 +1049,6 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 710329254dc303cd3b2df1a24674adecb1189385 Merge tag 'turbostat-2025.05.06' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
-ed471e1984939a500eea179bc16e1c2aadf00db5 memblock tests: Fix mutex related build error
-06eaa824fd239edd1eab2754f29b2d03da313003 mm/memblock: pass size instead of end to memblock_set_node()
-eac8ea8736ccc09513152d970eb2a42ed78e87e8 mm/memblock: repeat setting reserved region nid if array is doubled
-3b394dff15e14550a26b133fc7b556b5b526f6a5 memblock tests: add test for memblock_set_node
+7be5389b4c37fc5ee3652dc03eb30c8ce3a88b7d Merge branches 'for-next/scmi/fixes' and 'for-next/ffa/fixes' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
 
---===============6796575389417280795==--
+--===============7601280344769461585==--
