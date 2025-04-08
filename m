@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Tue, 08 Apr 2025 17:20:07 -0000
-Message-Id: <174413280714.2183597.8482697100951927961@gitolite.kernel.org>
+Date: Tue, 08 Apr 2025 17:22:39 -0000
+Message-Id: <174413295947.2185045.12421566895305122453@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,10 @@ repo: pub/scm/linux/kernel/git/axboe/liburing
 user: axboe
 changes:
   - ref: refs/heads/reserve-sqes
-    old: 9400bb7409d27b10eae19512e0a2a14c92f42431
-    new: dc844d1dc90d4c6426c829e1cd0d498d42ab4c5f
+    old: dc844d1dc90d4c6426c829e1cd0d498d42ab4c5f
+    new: edf7bfe35f5b055b60df6390a78a50debbbb2208
     log: |
-         bf20e70ecfbae64b68caa9c204196446300d3eb9 Add reservation man pages
-         dc844d1dc90d4c6426c829e1cd0d498d42ab4c5f examples/proxy: convert linked SQE usage to reservations
+         53bcd37867c7d72367180041834084439bceb9f0 Add SQE reservation API
+         84de739a6f4fe2c155b41a09282a30792f30566c Add reservation man pages
+         edf7bfe35f5b055b60df6390a78a50debbbb2208 examples/proxy: convert linked SQE usage to reservations
          
