@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Tue, 08 Apr 2025 16:33:06 -0000
-Message-Id: <174412998682.2142329.11551510395313948@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 08 Apr 2025 16:36:59 -0000
+Message-Id: <174413021957.2146259.13520396381663078075@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/reserve-sqes
-    old: df4c2139989ed2a969d410af6e209e38323fd863
-    new: 9400bb7409d27b10eae19512e0a2a14c92f42431
+  - ref: refs/heads/arm64-sve-mangler
+    old: cb34864ec8e07048808a4c163a2d6d25573769ec
+    new: 5db70dcba840c0d85e6b6849dd3748c4d1763a83
     log: |
-         9400bb7409d27b10eae19512e0a2a14c92f42431 Add SQE reservation API
+         5db70dcba840c0d85e6b6849dd3748c4d1763a83 kselftest/arm64: Add test program to force SVE syscalls
          
