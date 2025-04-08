@@ -1,46 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============3161914667922533820=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 08 Apr 2025 16:19:14 -0000
-Message-Id: <174412915476.2128517.18423317958437850873@gitolite.kernel.org>
-
---===============3161914667922533820==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Tue, 08 Apr 2025 16:21:15 -0000
+Message-Id: <174412927592.2132481.8147257127344594227@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/for-rc
     old: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    new: d8455a63f731b4f585acc4d49fd7ad78db63b3d0
+    new: 9beb2c91fb86e0be70a5833c6730441fa3c9efa8
     log: |
-         d8455a63f731b4f585acc4d49fd7ad78db63b3d0 platform/x86: intel_pmc_ipc: add option to build without ACPI
+         6b395d31146a3fae775823ea8570a37b922f6685 RDMA/bnxt_re: Fix budget handling of notification queue
+         62dd71e691109bb44ba8ad7f58b3a2ac6b69d496 RDMA/ucaps: Avoid format-security warning
+         95ba3850fed03e01b422ab5d7943aeba130c9723 RDMA/usnic: Fix passing zero to PTR_ERR in usnic_ib_pci_probe()
+         d247667ecd6411ec5bec9a38db7feaa599ce3ee2 RDMA/mlx5: Fix compilation warning when USER_ACCESS isn't set
+         1b2fe85f3cf19026a0e9037242bcbf7e736b22e3 RDMA/rxe: Fix null pointer dereference in ODP MR check
+         9beb2c91fb86e0be70a5833c6730441fa3c9efa8 RDMA/hns: Fix wrong maximum DMA segment size
          
-
---===============3161914667922533820==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1744129179 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1744129149-42a2cab6b92d84333d7cc36ef49c5b0543bd678e
-
-0af2f6be1b4281385b618cb86ad946eded089ac8 d8455a63f731b4f585acc4d49fd7ad78db63b3d0 refs/heads/fixes
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZ/VMoAAKCRBZrE9hU+XO
-MeeFAQCetmsj0qUxUX/dXEQIalCx4NGbN8WoXOHUzGTyezRcTgEAxraFd7Vj1uTC
-3aNIuwHaZWTuwf9HjBao95A8LfynZQo=
-=57Dn
------END PGP SIGNATURE-----
-
---===============3161914667922533820==--
