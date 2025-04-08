@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4378014255463634022=="
+Content-Type: multipart/mixed; boundary="===============0407898572038242625=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Tue, 08 Apr 2025 20:57:09 -0000
-Message-Id: <174414582940.2376729.5290309132216475889@gitolite.kernel.org>
+Date: Tue, 08 Apr 2025 20:58:04 -0000
+Message-Id: <174414588470.2377340.12789297940878222172@gitolite.kernel.org>
 
---===============4378014255463634022==
+--===============0407898572038242625==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
-  - ref: refs/heads/kunit
-    old: 9fbde5d6ad5d5e7fea9325bd28d2afd361c61d17
-    new: d1be0cf3b8aeae75bc8fff5b7a3e01ebfe276008
-    log: revlist-9fbde5d6ad5d-d1be0cf3b8ae.txt
+  - ref: refs/heads/devel
+    old: a64dcfb451e254085a7daee5fe51bf22959d52d3
+    new: 0af2f6be1b4281385b618cb86ad946eded089ac8
+    log: revlist-a64dcfb451e2-0af2f6be1b42.txt
 
---===============4378014255463634022==
+--===============0407898572038242625==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-9fbde5d6ad5d-d1be0cf3b8ae.txt
+Content-Disposition: attachment; filename=revlist-a64dcfb451e2-0af2f6be1b42.txt
 
+d327a12e636e902fd0c7178732813b041a1c9214 stmmac: Remove pcim_* functions for driver detach
+45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
 e364e4cebeb70a5f4f8cb28ca7480e1ddb361752 Merge branch 'stmmac-several-pci-related-improvements'
 cc04ed502457412960d215b9cd55f0d966fda255 stmmac: intel: interface switching support for RPL-P platform
 1ae1d705a1120e8e0ca41698c5a0fff6f5290bc1 net: dsa: microchip: fix DCB apptrust configuration on KSZ88x3
@@ -1048,7 +1050,5 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 710329254dc303cd3b2df1a24674adecb1189385 Merge tag 'turbostat-2025.05.06' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
-14e594a1fc8b879734f8057a870d28c86a889c5f kunit: tool: fix count of tests if late test plan
-d1be0cf3b8aeae75bc8fff5b7a3e01ebfe276008 kunit: Spelling s/slowm/slow/
 
---===============4378014255463634022==--
+--===============0407898572038242625==--
