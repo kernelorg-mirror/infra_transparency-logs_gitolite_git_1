@@ -1,22 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============3090851358990422214=="
+Content-Type: multipart/mixed; boundary="===============1213175416018297013=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 08 Apr 2025 12:47:55 -0000
-Message-Id: <174411647583.1927575.784106250656812557@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 08 Apr 2025 12:48:04 -0000
+Message-Id: <174411648480.1927869.1258238760274870846@gitolite.kernel.org>
 
---===============3090851358990422214==
+--===============1213175416018297013==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.15
+  - ref: refs/heads/for-linus
     old: d639e7fd9aa038f46728206bdb23cf7109b3b53b
     new: d4c29a336073d49f7216abf361c6e70ab8396a4d
     log: |
@@ -24,42 +23,19 @@ changes:
          7648beb65600220996ebb2da207610b1ff9b735e ASoC: codecs:lpass-wsa-macro: Fix logic of enabling vi channels
          d4c29a336073d49f7216abf361c6e70ab8396a4d ASoC: codecs: lpass-wsa: fix VI capture setup.
          
-  - ref: refs/heads/asoc-6.16
-    old: 4c035fab9f42071c4024495afb2cec1409280eed
-    new: f4f20f7a5030f580e1706b7fd804f82ee7dac6ed
-    log: revlist-4c035fab9f42-f4f20f7a5030.txt
+  - ref: refs/heads/for-next
+    old: 259777f8975ec1d9fcaa1b01554f54b8062deca2
+    new: 192bfb884934d82ec39509983ca7811eec556f46
+    log: revlist-259777f8975e-192bfb884934.txt
 
---===============3090851358990422214==
+--===============1213175416018297013==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-259777f8975e-192bfb884934.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1744116502 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1744116471-4056c058543ae09637c1dec73b65d9738e09f7cc
-
-d639e7fd9aa038f46728206bdb23cf7109b3b53b d4c29a336073d49f7216abf361c6e70ab8396a4d refs/heads/asoc-6.15
-4c035fab9f42071c4024495afb2cec1409280eed f4f20f7a5030f580e1706b7fd804f82ee7dac6ed refs/heads/asoc-6.16
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmf1GxYACgkQJNaLcl1U
-h9Dutwf/SmcetLEq82/AAf2vzWTwQRIQIWt4/uqTTNvW0f5nzEFXMqgs12AA6GbI
-hPT8ePzu0lBDg7lnBmauxxWbO/pFnFYJ66qettvD3thh1GC/L0rhdGqvqMuHcZhJ
-+JawpqzKBr8zWWwa6pvVPL8wc31uk2xNc1Urkag8Y96z+NtF6AaNiLaDACIAusQg
-7lxgSDuD0zczWn93d6iko/cgE9RoVe50B3wcDaC8cbvihU3r1TIYAMMX7me/Oq9g
-yF5xpK9mlTLl8PUYTzFvYEDeg4ZWwIEyqxZmurOmMr0jO/yPbdc+kxkqVmZ3dl25
-v3mvqjv1cDXZ4jTpZpQaHqf62L99Zg==
-=NMpt
------END PGP SIGNATURE-----
-
---===============3090851358990422214==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4c035fab9f42-f4f20f7a5030.txt
-
+d7bff1415e85b889dc8908be6aedba8807ae5e37 ASoC: codecs:lpass-wsa-macro: Fix vi feedback rate
+7648beb65600220996ebb2da207610b1ff9b735e ASoC: codecs:lpass-wsa-macro: Fix logic of enabling vi channels
 4bba5d0e51647e06c83036b6c3f0ec65465adc68 ASoC: codec: wcd939x: Convert to GPIO descriptors
 c2d359b4acfbe847d3edcc25d3dc4e594daf9010 ASoC: codec: wcd938x: Convert to GPIO descriptors
 d5099bc1b56417733f4cccf10c61ee74dadd5562 ASoC: codec: wcd9335: Convert to GPIO descriptors
@@ -108,11 +84,13 @@ d360b713727db0093fe9a8cf475d1d536075c12f ASoC: Intel: avs: Allow for 16 channels
 79138dbff53ab0e9891ebdfce8d7b298c3783cd1 ASoC: Intel: avs: Assign unique ID to platform devices
 6a68cbe09e9a7dc9f53857510bee1bc34bdbbfd9 ASoC: Intel: avs: Iterate over correct number of TDMs
 8d18e67abbdf380cd1cfd2c313aac625092d7777 ASoC: Intel: avs: Support 16 TDMs in dynamic assignment
+d4c29a336073d49f7216abf361c6e70ab8396a4d ASoC: codecs: lpass-wsa: fix VI capture setup.
 25293be4a778123a5dc2415cb3d79d4797ba4d1e ASoC: Intel: avs: Update machine board card names
 aa446b5d9a8efffb40c5fd244163dc04f98cf865 ASoC: Intel: avs: Add support for FCL platform
 1f4db3cb1a5984cf1b845a82f66f53947ffad6e5 ASoC: Intel: avs: 16 channels support
 94112d3d9422d59a5d4230802ce46a27e1bc5226 ASoC: codec: wcd93xx: Convert to GPIO descriptors
 8e5e0e7110f8671e30f6ef08dc9613565f947058 ASoC: fsl_sai: add several improvements
 f4f20f7a5030f580e1706b7fd804f82ee7dac6ed ASoC: wcd938x: enable t14s audio headset
+192bfb884934d82ec39509983ca7811eec556f46 Merge remote-tracking branch 'asoc/for-6.16' into asoc-next
 
---===============3090851358990422214==--
+--===============1213175416018297013==--
