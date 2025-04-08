@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7871334067939739852=="
+Content-Type: multipart/mixed; boundary="===============0120633140986961105=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Tue, 08 Apr 2025 07:48:36 -0000
-Message-Id: <174409851697.1602309.14653318217882044260@gitolite.kernel.org>
+Date: Tue, 08 Apr 2025 07:49:07 -0000
+Message-Id: <174409854751.1602838.3560680644632040502@gitolite.kernel.org>
 
---===============7871334067939739852==
+--===============0120633140986961105==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cip/linux-cip
 user: uli
 changes:
-  - ref: refs/heads/linux-4.19.y-st
-    old: 66dfc2e5e79384a9cd9c6f767c14d8263967a08a
-    new: 15d0dbc2c65b285d7e109ae6bb384f2d0073ef42
-    log: revlist-66dfc2e5e793-15d0dbc2c65b.txt
+  - ref: refs/heads/linux-4.19.y-cip
+    old: 897293ec51a382f6f3534a971e06a3440c7c92ca
+    new: c63e0d34ca9af8eb01e494e06579a11141a23715
+    log: revlist-897293ec51a3-c63e0d34ca9a.txt
 
---===============7871334067939739852==
+--===============0120633140986961105==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-66dfc2e5e793-15d0dbc2c65b.txt
+Content-Disposition: attachment; filename=revlist-897293ec51a3-c63e0d34ca9a.txt
 
 5ef5e4a2b1d1f212c368f55e6fca807a21e84878 udf: Fix use of check_add_overflow() with mixed type arguments
 31171118a16b49448b0c35f05146b2bfe1fe94a2 overflow: Add __must_check attribute to check_*() helpers
@@ -290,5 +290,8 @@ d6ff1c114a59105857050de7cdcaab603a8ebbd1 pps: Fix a use-after-free
 0d2ae420efb33e989981ac7feb433997bc2cb00f gtp: Destroy device along with udp socket's netns dismantle.
 611b5185833bb2293b620b5c03d0dd3ee511142b gtp: Suppress list corruption splat in gtp_net_exit_batch_rtnl().
 15d0dbc2c65b285d7e109ae6bb384f2d0073ef42 Update localversion-st, tree is up-to-date with 5.4.291.
+dd3342ba1d2e4ddec2ddd0b186e71e00e559eed2 watchdog: renesas_wdt: support handover from bootloader
+afc51dcc494615224954c593b3e18a8298efe459 Merge branch 'linux-4.19.y-st' into linux-4.19.y-cip
+c63e0d34ca9af8eb01e494e06579a11141a23715 CIP: Bump version suffix to -cip119 after merge from cip/linux-4.19.y-st tree
 
---===============7871334067939739852==--
+--===============0120633140986961105==--
