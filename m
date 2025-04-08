@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Tue, 08 Apr 2025 22:13:58 -0000
-Message-Id: <174415043806.2439891.6986324285575134155@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Tue, 08 Apr 2025 22:21:16 -0000
+Message-Id: <174415087674.2447165.1157306892381905523@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/nova-gsp.04.07.2025
+  - ref: refs/tags/linux_kselftest-kunit-6.15-rc2
     old: 0000000000000000000000000000000000000000
-    new: 3ee990d50c4712fb5143eef7846f1138cdccbc1d
+    new: 9ae6c7cc1210699441148ad0f1820e53e2f50e1f
