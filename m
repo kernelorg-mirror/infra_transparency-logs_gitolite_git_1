@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 08 Apr 2025 11:45:28 -0000
-Message-Id: <174411272874.1874079.2031216853972424639@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 08 Apr 2025 11:48:42 -0000
+Message-Id: <174411292211.1875721.15340599879074005434@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: pabeni
 changes:
   - ref: refs/heads/main
-    old: 4acdd3de31c878804c6be826cb8c508f18962d0e
-    new: 34a07c5b257453b5fcadc2408719c7b075844014
+    old: b7db94734e785e380b0db0f9295e07024f4d42a0
+    new: 13e7d7240a43d8ea528c12ae5a912be1ff7fa29b
     log: |
-         34a07c5b257453b5fcadc2408719c7b075844014 amd-xgbe: Convert to SPDX identifier
+         13e7d7240a43d8ea528c12ae5a912be1ff7fa29b net: libwx: Fix the wrong Rx descriptor field
          
