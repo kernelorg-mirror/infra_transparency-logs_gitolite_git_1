@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arj/bmc
-Date: Tue, 08 Apr 2025 00:55:21 -0000
-Message-Id: <174407372106.1253658.10388079439193522305@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 08 Apr 2025 01:09:54 -0000
+Message-Id: <174407459462.1270280.9078539728399003757@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arj/bmc
-user: arj
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/for-next
-    old: 8312262c85ac2f54c66de0e9ea526d494050314f
-    new: 9c21b5eb7f6d85881301d3a074d409a98ec0b58c
+  - ref: refs/heads/master
+    old: 6791477c1029c352b16ab87456528fa1be209c86
+    new: a5b3c1ed27e6e855e927b0d6d5ac938fb993a7be
     log: |
-         42695865714ebbe99a33d4f71b7c2543bfad2766 ARM: dts: nuvoton: Add MMC Nodes
-         9c21b5eb7f6d85881301d3a074d409a98ec0b58c Merge branches 'aspeed/dt', 'aspeed/fixes', 'aspeed/drivers' and 'nuvoton/dt' into for-next
+         a5b3c1ed27e6e855e927b0d6d5ac938fb993a7be Drop timekeeping-fix-possible-inconsistencies-in-_coarse-.patch
          
