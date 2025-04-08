@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1611337272182637231=="
+Content-Type: multipart/mixed; boundary="===============8707618909650616957=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Tue, 08 Apr 2025 10:16:59 -0000
-Message-Id: <174410741904.1780588.3879859348373447120@gitolite.kernel.org>
+Date: Tue, 08 Apr 2025 10:17:06 -0000
+Message-Id: <174410742688.1780964.15737357146114331086@gitolite.kernel.org>
 
---===============1611337272182637231==
+--===============8707618909650616957==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/for-next/scmi/fixes
-    old: 873097bcc18fe111122fb3086ce6d06d8394918a
-    new: c23c03bf1faa1e76be1eba35bad6da6a2a7c95ee
-    log: revlist-873097bcc18f-c23c03bf1faa.txt
+  - ref: refs/heads/for-next/ffa/fixes
+    old: 051aa4cdbe20ead3c9aa5d594604d70742595365
+    new: 4567bdaaaaa1744da3d7da07d9aca2f941f5b4e5
+    log: revlist-051aa4cdbe20-4567bdaaaaa1.txt
 
---===============1611337272182637231==
+--===============8707618909650616957==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-873097bcc18f-c23c03bf1faa.txt
+Content-Disposition: attachment; filename=revlist-051aa4cdbe20-4567bdaaaaa1.txt
 
+45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
 e364e4cebeb70a5f4f8cb28ca7480e1ddb361752 Merge branch 'stmmac-several-pci-related-improvements'
 cc04ed502457412960d215b9cd55f0d966fda255 stmmac: intel: interface switching support for RPL-P platform
 1ae1d705a1120e8e0ca41698c5a0fff6f5290bc1 net: dsa: microchip: fix DCB apptrust configuration on KSZ88x3
@@ -1048,7 +1049,6 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 710329254dc303cd3b2df1a24674adecb1189385 Merge tag 'turbostat-2025.05.06' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
-9ca67840c0ddf3f39407339624cef824a4f27599 firmware: arm_scmi: Balance device refcount when destroying devices
-c23c03bf1faa1e76be1eba35bad6da6a2a7c95ee firmware: arm_scmi: Fix timeout checks on polling path
+4567bdaaaaa1744da3d7da07d9aca2f941f5b4e5 firmware: arm_ffa: Skip Rx buffer ownership release if not acquired
 
---===============1611337272182637231==--
+--===============8707618909650616957==--
