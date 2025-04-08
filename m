@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============7493066926708756106=="
+Content-Type: multipart/mixed; boundary="===============7908737342447058570=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Tue, 08 Apr 2025 20:59:08 -0000
-Message-Id: <174414594825.2377977.6277391931985652300@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux
+Date: Tue, 08 Apr 2025 21:02:39 -0000
+Message-Id: <174414615922.2381914.8897019661270914927@gitolite.kernel.org>
 
---===============7493066926708756106==
+--===============7908737342447058570==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+repo: pub/scm/linux/kernel/git/shuah/linux
 user: shuah
 changes:
-  - ref: refs/heads/test
-    old: a64dcfb451e254085a7daee5fe51bf22959d52d3
+  - ref: refs/heads/cpupower
+    old: fffadbdd6b5acdb6390d6d0bc3ad6d3da5d2bd53
     new: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    log: revlist-a64dcfb451e2-0af2f6be1b42.txt
+    log: revlist-fffadbdd6b5a-0af2f6be1b42.txt
 
---===============7493066926708756106==
+--===============7908737342447058570==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-a64dcfb451e2-0af2f6be1b42.txt
+Content-Disposition: attachment; filename=revlist-fffadbdd6b5a-0af2f6be1b42.txt
 
 d327a12e636e902fd0c7178732813b041a1c9214 stmmac: Remove pcim_* functions for driver detach
 45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
@@ -1051,4 +1051,4 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
 
---===============7493066926708756106==--
+--===============7908737342447058570==--
