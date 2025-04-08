@@ -1,55 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6053139068276885656=="
+Content-Type: multipart/mixed; boundary="===============8274237018328520579=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 08 Apr 2025 19:52:35 -0000
-Message-Id: <174414195532.2317616.9226811100493877773@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 08 Apr 2025 19:52:36 -0000
+Message-Id: <174414195679.2317681.93628604939605058@gitolite.kernel.org>
 
---===============6053139068276885656==
+--===============8274237018328520579==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    new: bec7dcbc242c6c087cede1a6fdfaeb5d6eaf25bf
-    log: revlist-0af2f6be1b42-bec7dcbc242c.txt
+    old: 6c792ac8e121d22968b3b33845eba370cd87aa31
+    new: 2d9df59ebcd4f9d87f29ad897963af4d4df24161
+    log: |
+         2d9df59ebcd4f9d87f29ad897963af4d4df24161 drop some more rust patches
+         
 
---===============6053139068276885656==
+--===============8274237018328520579==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0af2f6be1b42-bec7dcbc242c.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-668e041662e92ab3ebcb9eb606d3ec01884546ab cgroup/cpuset: Fix incorrect isolated_cpus update in update_parent_effective_cpumask()
-8bf450f3aec3d1bbd725d179502c64b8992588e4 cgroup/cpuset: Fix error handling in remote_partition_disable()
-f62a5d39368e34a966c8df63e1f05eed7fe9c5de cgroup/cpuset: Remove remote_partition_check() & make update_cpumasks_hier() handle remote partition
-6da580ec656a5ed135db2cdf574b47635611a4d7 cgroup/cpuset: Don't allow creation of local partition over a remote one
-f0a0bd3d23a44a2c5f628e8ca8ad882498ca5aae cgroup/cpuset: Code cleanup and comment update
-52e039f9e2557f46b083d5d8ca94793ddea44a07 cgroup/cpuset: Remove unneeded goto in sched_partition_write() and rename it
-65046b5e0ad71990b5a0256710cf050d2d2ab3dd selftest/cgroup: Update test_cpuset_prs.sh to use | as effective CPUs and state separator
-b2b2b4d058b776be0168b4ea46ed84cfb0f884e9 selftest/cgroup: Clean up and restructure test_cpuset_prs.sh
-e8a457b73569d7096ff46c307c37dbba55dd7a9c selftest/cgroup: Add a remote partition transition test to test_cpuset_prs.sh
-7d6c63c3191427a69ffd1383146df01f695d6195 cgroup: rstat: call cgroup_rstat_updated_list with cgroup_rstat_lock
-a22b3d54de94f82ca057cc2ebf9496fa91ebf698 cgroup/cpuset: Fix race between newly created partition and dying one
-d24fa977eec53399a9a49a2e1dc592430ea0a607 tracing: fprobe: Fix to lock module while registering fprobe
-dd941507a9486252d6fcf11814387666792020f3 tracing: fprobe events: Fix possible UAF on modules
-9ad19171b6d6fa5dcdd8a1d5d1b82dbdeaf65ab0 lib/crc: remove unnecessary prompt for CONFIG_CRC32 and drop 'default y'
-7939da264bcc91ced4d01014241a581e79d414d9 lib/crc: remove unnecessary prompt for CONFIG_CRC_CCITT
-2038af8edae281283ee10e220a3df19dcad3b61c lib/crc: remove unnecessary prompt for CONFIG_CRC16
-a6d0dbba950880e269d433222ca6d516ebe8a6ae lib/crc: remove unnecessary prompt for CONFIG_CRC_T10DIF
-a0d55dd740db75acca2afbd84a2f54f644dbc268 lib/crc: remove unnecessary prompt for CONFIG_CRC_ITU_T
-31ab49a99f0572da6a62f121878e2155b04904e5 lib/crc: document all the CRC library kconfig options
-b261d2222063a9a8b9ec284244c285f2998ee01e lib/crc: remove CONFIG_LIBCRC32C
-a3dc2983ca7b90fd35f978502de6d4664d965cfb tracing: fprobe: Cleanup fprobe hash when module unloading
-84ffc79bfbf70c779e60218563f2f3ad45288671 kbuild: Add '-fno-builtin-wcslen'
-97c484ccb804ac07f8be80d66a250a260cc9339e Merge tag 'crc-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
-e37f72b3b417ed793cf23a523a4d96d42c9824e5 Merge tag 'cgroup-for-6.15-rc1-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
-bec7dcbc242c6c087cede1a6fdfaeb5d6eaf25bf Merge tag 'probes-fixes-v6.14' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1744141892 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1744141951-d75c10b12369b4d40818bf5c55ff34092ebc0cd5
 
---===============6053139068276885656==--
+6c792ac8e121d22968b3b33845eba370cd87aa31 2d9df59ebcd4f9d87f29ad897963af4d4df24161 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmf1fkQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+l4IQAJxxKQXaMW8GDctI6S4c
+OSlWmV0I1uiG1eFCFVvVheM565SfCshQ0BZZEHtNUzuwYDJu0wwTAVEMwq0HSHjr
+Pbn1LZSx6nhUirWT0/2x+s2n/RKt+HRXykhw44lzKpRchrrG53hqnq2RkVCZMtXy
+ieDGheU29OdNDxV5FDNweuEaH1U7cf8OMWHVDUhYnsScyj0BSdlUa4mJuLOh3pKD
+wIrlK+AoBkA8pTeL9SN7tI1j2HJqnN74aB3+g+hKB+oDLgZsRKwia2/poz5Otirs
+Oh3GlMMUsSMaoWqGwkJVU72TZOpyrc5EkSD63kErHhaRiVc3548k0HWs8EvVzll7
+8/uCCb3pGG975UDSCDpmDBv/jq1IzYpNAuAiMlHeiGyVIQ/a7KvFerVSzYxr5Mns
+c+T0HiFHoOkTuZ2+pfTl+lr/nMt0m38fRGvfmuYH6HSW54Aga3JnpXf5Ja0PGV4g
+s97JnIBgrvNvIbZ49kyfRoMgS9B4dksD1mvtAOGMiGxbLEqHyEahkz8dFwROuVK3
+2JKZaGJMut5arNxAlZjIvH12E0RR9SyDrYG8k3y18rhrTrF1DcAeODavl5aGskxQ
+juiRCa4ejWaqkg8eS+2i6YmNkiVDh7vicCvGa7/uJCtfmXahk+uQJy4ZeFm2t8bA
+/vdumxNA3MOdgCH9VkgL4Gvx
+=eXzp
+-----END PGP SIGNATURE-----
+
+--===============8274237018328520579==--
