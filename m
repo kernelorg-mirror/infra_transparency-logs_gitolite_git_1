@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2213378309460799303=="
+Content-Type: multipart/mixed; boundary="===============4378014255463634022=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Tue, 08 Apr 2025 20:56:29 -0000
-Message-Id: <174414578953.2376125.465107415424998801@gitolite.kernel.org>
+Date: Tue, 08 Apr 2025 20:57:09 -0000
+Message-Id: <174414582940.2376729.5290309132216475889@gitolite.kernel.org>
 
---===============2213378309460799303==
+--===============4378014255463634022==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
-  - ref: refs/heads/fixes
-    old: 2f856325242cb25f407fceaa93f32ba8d4724cf8
-    new: 170ec11935de4acced0ae001562cca3a144acd67
-    log: revlist-2f856325242c-170ec11935de.txt
+  - ref: refs/heads/kunit
+    old: 9fbde5d6ad5d5e7fea9325bd28d2afd361c61d17
+    new: d1be0cf3b8aeae75bc8fff5b7a3e01ebfe276008
+    log: revlist-9fbde5d6ad5d-d1be0cf3b8ae.txt
 
---===============2213378309460799303==
+--===============4378014255463634022==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-2f856325242c-170ec11935de.txt
+Content-Disposition: attachment; filename=revlist-9fbde5d6ad5d-d1be0cf3b8ae.txt
 
 e364e4cebeb70a5f4f8cb28ca7480e1ddb361752 Merge branch 'stmmac-several-pci-related-improvements'
 cc04ed502457412960d215b9cd55f0d966fda255 stmmac: intel: interface switching support for RPL-P platform
@@ -1048,7 +1048,7 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 710329254dc303cd3b2df1a24674adecb1189385 Merge tag 'turbostat-2025.05.06' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
-5cd2950359ef31c9e273588c33f372ff8e546e2e selftests: tpm2: create a dedicated .gitignore
-170ec11935de4acced0ae001562cca3a144acd67 selftests: tpm2: test_smoke: use POSIX-conformant expression operator
+14e594a1fc8b879734f8057a870d28c86a889c5f kunit: tool: fix count of tests if late test plan
+d1be0cf3b8aeae75bc8fff5b7a3e01ebfe276008 kunit: Spelling s/slowm/slow/
 
---===============2213378309460799303==--
+--===============4378014255463634022==--
