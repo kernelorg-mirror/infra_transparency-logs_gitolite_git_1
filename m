@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7608265003495488044=="
+Content-Type: multipart/mixed; boundary="===============3132826273827592141=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/srini/fastrpc
-Date: Tue, 08 Apr 2025 07:42:09 -0000
-Message-Id: <174409812913.1596445.2392451022753594620@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
+Date: Tue, 08 Apr 2025 07:42:16 -0000
+Message-Id: <174409813672.1596767.11931982765821446957@gitolite.kernel.org>
 
---===============7608265003495488044==
+--===============3132826273827592141==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/srini/fastrpc
+repo: pub/scm/linux/kernel/git/srini/nvmem
 user: srini
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/for-fixes
     old: 2014c95afecee3e76ca4a56956a936e23283f05b
     new: 0af2f6be1b4281385b618cb86ad946eded089ac8
     log: revlist-2014c95afece-0af2f6be1b42.txt
 
---===============7608265003495488044==
+--===============3132826273827592141==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
 
---===============7608265003495488044==--
+--===============3132826273827592141==--
