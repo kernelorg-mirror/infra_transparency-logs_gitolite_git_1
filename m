@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Tue, 08 Apr 2025 06:52:13 -0000
-Message-Id: <174409513361.1549762.5672641654233279567@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
+Date: Tue, 08 Apr 2025 06:53:52 -0000
+Message-Id: <174409523203.1550704.15680628869351581723@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
+user: egrumbach
 changes:
-  - ref: refs/heads/objtool-werror
-    old: 8be4252edcc41406fff7bea650ae110935217132
-    new: 844ec30814acd05535be6846cf6b6e1a00aedf96
+  - ref: refs/heads/master
+    old: 96a50b59c375046b21b8ace93100e31999e26a97
+    new: eb3b37592e899f9d41714372c45fef5f079b6171
     log: |
-         4287361847613565e33d1036b1b5c1047f9c12e0 objtool: Improve code generation readability
-         844ec30814acd05535be6846cf6b6e1a00aedf96 x86/alternative: Improve code generation readability
+         eb3b37592e899f9d41714372c45fef5f079b6171 [BUGFIX] wifi: iwlwifi: fix the check for the SCRATCH register upon resume
          
