@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pali/linux
-Date: Tue, 08 Apr 2025 22:28:35 -0000
-Message-Id: <174415131507.2452434.17224662190059076288@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Tue, 08 Apr 2025 22:48:18 -0000
+Message-Id: <174415249812.2468027.7065587180565768781@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pali/linux
-user: pali
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/cifs
-    old: 0a2c8d45731b784bb8834d003cdd7a3dc017fa48
-    new: 13620081476632b216b5c4fb00adf463464f35a8
+  - ref: refs/heads/nova-gsp
+    old: 3ee990d50c4712fb5143eef7846f1138cdccbc1d
+    new: 12ac2284474a4bdaab56059d7c351cb21475c3ed
     log: |
-         13620081476632b216b5c4fb00adf463464f35a8 cifs: Fix support for WSL-style symlinks
+         12ac2284474a4bdaab56059d7c351cb21475c3ed First round of release cleanup (adding comments, etc)
          
