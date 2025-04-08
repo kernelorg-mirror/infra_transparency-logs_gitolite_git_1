@@ -1,58 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============9043224417808575464=="
+Content-Type: multipart/mixed; boundary="===============1034584486472166929=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Tue, 08 Apr 2025 19:06:43 -0000
-Message-Id: <174413920380.2277644.2311956393069058472@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Tue, 08 Apr 2025 19:13:37 -0000
+Message-Id: <174413961793.2282942.7512265208372457093@gitolite.kernel.org>
 
---===============9043224417808575464==
+--===============1034584486472166929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 50b46f3a5b6b788a5ba2036ceae486cbcdc72f16
-    new: fa683526da6c5920b09abab11976a2458d86db2c
+  - ref: refs/heads/master
+    old: 5e1e51eeb2100d5c556f8cd7372d310a7b31e971
+    new: b9d468f5f882d1f600377cd77ed61f8304c87311
     log: |
-         1d62af229b18bff2430ea5dde0e129d43515e12c arm64: dts: fsd: Add Ethernet support for FSYS0 Block of FSD SoC
-         ebeab0be707ddcffd2b7f6ff4f9bd8e0c1c49fdd arm64: dts: fsd: Add Ethernet support for PERIC Block of FSD SoC
-         fa683526da6c5920b09abab11976a2458d86db2c Merge branch 'next/dt64' into for-next
+         b9d468f5f882d1f600377cd77ed61f8304c87311 dyad: do NOT fall back to sort -V
          
 
---===============9043224417808575464==
+--===============1034584486472166929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1744139231 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1744139201-36b70992f5f875f23e1117885124894b692be75b
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1744139553 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1744139614-7f5c4fb618ac9dda1c7cdf54a54fd44a6a2f653b
 
-50b46f3a5b6b788a5ba2036ceae486cbcdc72f16 fa683526da6c5920b09abab11976a2458d86db2c refs/heads/for-next
+5e1e51eeb2100d5c556f8cd7372d310a7b31e971 b9d468f5f882d1f600377cd77ed61f8304c87311 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmf1c+AQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD10QoD/9ZMOYjAfa9l/EiBQAw3eG6oJoOZOL50uf8
-5nph3PLjDjhtLC8xChkJ80baCsb+G+wll7TI2BHpntV+sKoJH5JUGVDhX3Spek59
-cPrjJ+pS5W/1MDzOsFvnQXXMXH2e6KD02fNYlOuy4TkY26RAOJePxrMAnUPbEzgE
-I1V/3z8p+JCigyyMxNEzta5mM7+CfVewQqjDJHw4zVA00npYoFwYTmv6BRH3lrax
-vQbirPCaLs4tsJfpQmMuUT6GUNmSb7DdoIS8kIMJ8bPABS92UiQcXGgp2TOtM6+d
-Jn+XsW7zmea4k+y/z6ntHHVzyk2aRlYhbkBgkyn50Al8v16T2IO+snotRfR8cJ65
-fD35xCNyt3OomSdN8j9j2baOgM3HQo+n8bheUy4ob+L8bg0gQVLIKM0u7vLb8Vm7
-vpEy4bdY59k6yLGqCBZKsOnQ2mCUIcVthO00cLRIooR7/2ISYS4mv3yxjru2Fs6W
-7ratSBxkjd9ToFtFCFQyq+MMxZH6HTksyzS9Rw9LQt7rleWHuj7raOMa9sAgOuaD
-yaNmKvmqqJORy7xg8W2NPZsjC+dBzspTJZ8A9JXV+fi75q7UY52z6HdDqDa5i2Qb
-BVIq28n/jY7xaubRDClkg3tbJwDdlrlw+/47o6VQFEEh01KhV+d8yELqe56pfQ/1
-U8GQXswlog==
-=XJ+8
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmf1dSEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+piUP/29+S4tkmg/2Solcy3of
+1p+R/IfszZ2G4BcJ9of6c9ceYqPM1r+xBQjDRWrZMxOQz1h61IXnM7phKJ9ZWtVY
+dMJQKqV13arQBuidM0MLVu2rhQKWiFmuukm0BpoSWIAwV5P5LfzrDuGLqn7FbJBC
+O1gldK+zh3cdn+Qxn5IyceG2w/c+BG+Hfuif9C3YyclgEeA25JnTMGAJivjWbn8Z
+W1HT7S5i6K45LOVYPF7bR7ce5hm6W55M5kTASO9JMHm5VmvmYHpNDguyETI7G+CX
+JyJjhK/nslWjek8qWiFRO+ojQBPsI+WgEF4S9skWLTdsF2fw3CPt2nJZb4P9M8EW
+PQ1fvwTt10MLSWHoueAXl0tLvROWt7J2vAJ9E28gGlWpdJz6hA+Ia8sdeGW3CNd5
+59NUFMJmzP/cNURQ0tMppCC4Lm5VOmzhM4+8GSuLNacPX4QXGlTY/R0+WsZ09sMz
+f26bPSPhQl56MW1cpstELyB2SvTZTs90C0b4NfaVqZl/ae1SBvit9yszz9ie3uXN
+Exk8bob/hAhAANbcaQW9pQ0g4tyNDHDATBwEf1raRGstRHW3UBTErd8/ZqOmzNja
+mMISbhgZRspJAimR2MgXumaJ8cXh7Y9IsAmoUHFLUNsd89PgM0z3QJQxNjn9P2Pf
+HdgDdtGb8qudpY7ZtB/z1AXh
+=9xep
 -----END PGP SIGNATURE-----
 
---===============9043224417808575464==--
+--===============1034584486472166929==--
