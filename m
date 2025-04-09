@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Wed, 09 Apr 2025 14:39:14 -0000
-Message-Id: <174420955487.3277965.10348183561383082612@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Wed, 09 Apr 2025 14:40:58 -0000
+Message-Id: <174420965804.3281147.11340881179533134472@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 0a4e6b9d70feee9a96fbc665d3a996ef9be5ae19
-    new: 9fa84eee4db80240b73591344e210694fa7bb523
+  - ref: refs/heads/ath-next
+    old: 68218fa0862aaa8fcc5f968663efc781eb4c91df
+    new: 25b2f46bd7de2f0007d742de9d2e72e65db0edf3
     log: |
-         e89fe4df47c1113b7a589372f5606dc9038b4586 hwmon: (ina2xx) make regulator 'vs' support optional
-         9fa84eee4db80240b73591344e210694fa7bb523 hwmon: (gpio-fan) Add regulator support
+         25b2f46bd7de2f0007d742de9d2e72e65db0edf3 wifi: ath12k: ahb: Replace del_timer_sync() with timer_delete_sync()
          
