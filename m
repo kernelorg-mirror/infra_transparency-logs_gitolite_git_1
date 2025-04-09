@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
-Date: Wed, 09 Apr 2025 07:18:01 -0000
-Message-Id: <174418308143.2893227.12931604005941470212@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Wed, 09 Apr 2025 07:40:05 -0000
+Message-Id: <174418440519.2911992.13583438948158051874@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mcgrof/linux
-user: mcgrof
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/20250408-bh-meta-migrate-optimal
-    old: dd7a079fe5a3dd5c353f0a1027ac2e88679c8402
-    new: 4ef43f4d32fc686b57bc248c79e1b5cbd85fe707
-    log: |
-         4ef43f4d32fc686b57bc248c79e1b5cbd85fe707 migrate: fix debug stat for meta data
-         
+  - ref: refs/heads/gpio/gpiod-is-equal
+    old: 0000000000000000000000000000000000000000
+    new: 265daffe788aa1cc5925d0afcde4fe6e99c66638
+  - ref: refs/tags/gpiod-is-equal-for-v6.16-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 8e38a0f6a14f21a1e3eed546d845df8a0348bed5
