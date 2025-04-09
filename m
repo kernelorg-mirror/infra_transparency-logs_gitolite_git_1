@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4901485009014092378=="
+Content-Type: multipart/mixed; boundary="===============4921310335300930841=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Wed, 09 Apr 2025 21:13:16 -0000
-Message-Id: <174423319643.3631114.12821464531065817256@gitolite.kernel.org>
+Date: Wed, 09 Apr 2025 21:13:43 -0000
+Message-Id: <174423322372.3631575.11669271728039297467@gitolite.kernel.org>
 
---===============4901485009014092378==
+--===============4921310335300930841==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/WIP.x86/cpu
-    old: 9d97c5718365bd7e12ece70ea7bb5f01cef934a1
+  - ref: refs/heads/WIP.x86/core
+    old: 9262ee6499954dd387e4507e03b84512ab100706
     new: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    log: revlist-9d97c5718365-0af2f6be1b42.txt
+    log: revlist-9262ee649995-0af2f6be1b42.txt
 
---===============4901485009014092378==
+--===============4921310335300930841==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-9d97c5718365-0af2f6be1b42.txt
+Content-Disposition: attachment; filename=revlist-9262ee649995-0af2f6be1b42.txt
 
 d327a12e636e902fd0c7178732813b041a1c9214 stmmac: Remove pcim_* functions for driver detach
 45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
@@ -1051,4 +1051,4 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
 
---===============4901485009014092378==--
+--===============4921310335300930841==--
