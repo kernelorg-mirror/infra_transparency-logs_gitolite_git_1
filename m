@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Wed, 09 Apr 2025 23:36:22 -0000
-Message-Id: <174424178258.3751245.12659495316975817052@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Wed, 09 Apr 2025 23:46:01 -0000
+Message-Id: <174424236135.3759301.14014834508810325311@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/heads/for-rc
-    old: 9beb2c91fb86e0be70a5833c6730441fa3c9efa8
-    new: 9a0e6f15029e1a8a21e40f06fd05aa52b7f063de
+  - ref: refs/heads/master
+    old: b8bdf71fbc315fa0be01626baf3f53361a37f17a
+    new: 6e66e280e548545c69dde85f8eeee400f66b4bfc
     log: |
-         45f5dcdd049719fb999393b30679605f16ebce14 RDMA/cma: Fix workqueue crash in cma_netevent_work_handler
-         9a0e6f15029e1a8a21e40f06fd05aa52b7f063de RDMA/core: Silence oversized kvmalloc() warning
+         1cf8a09100c69bee49a7adb44a2617eb6af3bea5 Refactor indexing of "multi-copy atomic(ity)"
+         6c76a352d96a9ae0d84f79ebecec86d9fb784ab8 glossary: "full(y) multi-copy atomic" is synonymous with "multi-copy atomic"
+         6e66e280e548545c69dde85f8eeee400f66b4bfc indexsee: Lowercase "Heisenbug"
          
