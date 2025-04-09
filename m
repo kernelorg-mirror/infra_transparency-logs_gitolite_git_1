@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6037032070040215531=="
+Content-Type: multipart/mixed; boundary="===============4247542376942260343=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sysctl/sysctl
-Date: Wed, 09 Apr 2025 19:38:27 -0000
-Message-Id: <174422750752.3543391.7352285780692093816@gitolite.kernel.org>
+Date: Wed, 09 Apr 2025 19:41:02 -0000
+Message-Id: <174422766200.3546688.18180175172362822398@gitolite.kernel.org>
 
---===============6037032070040215531==
+--===============4247542376942260343==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sysctl/sysctl
 user: joel.granados
 changes:
-  - ref: refs/heads/sysctl-testing
-    old: ca618fbffd893dcf03c5841dcd184377e1451f6c
-    new: 5c68f4ffb4ba269ea4632c2d500e9e5ce6347039
-    log: revlist-ca618fbffd89-5c68f4ffb4ba.txt
+  - ref: refs/heads/sysctl-next
+    old: 29fa7d7934216e0a93102a930ef28e2a6ae852b1
+    new: bc4f328ff516f6ea53c3c0d385a84ea7ae423c20
+    log: revlist-29fa7d793421-bc4f328ff516.txt
 
---===============6037032070040215531==
+--===============4247542376942260343==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-ca618fbffd89-5c68f4ffb4ba.txt
+Content-Disposition: attachment; filename=revlist-29fa7d793421-bc4f328ff516.txt
 
-1ae1d705a1120e8e0ca41698c5a0fff6f5290bc1 net: dsa: microchip: fix DCB apptrust configuration on KSZ88x3
 a50b4fe095fb98e0b7da03b0a42fd1247284868e Merge tag 'timers-cleanups-2025-03-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 317a76a996043d336b85197aed5f44184b36ac4a Merge tag 'timers-vdso-2025-03-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3f0cb8de56b9a5c052a9e43fa548856926059810 io_uring: fix retry handling off iowq
@@ -1046,9 +1045,10 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 710329254dc303cd3b2df1a24674adecb1189385 Merge tag 'turbostat-2025.05.06' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
-c45582eeae0939beaa4a72c51d51e5fd3ce52124 sysctl: move u8 register test to lib/test_sysctl.c
-530fabaf6307f000949231732af6fa5058a9f112 sysctl: Add 0012 to test the u8 range check
-a0cccf1177160b52b00fe201063f27fbd73f228d sysctl: call sysctl tests with a for loop
-5c68f4ffb4ba269ea4632c2d500e9e5ce6347039 sysctl: Close test ctl_headers with a for loop
+c09b9810414d09d5a66e6e397506f5c657303eef panic: Move panic ctl tables into panic.c
+256db5c9b507d770f8b99b10f0671d994d5c9d64 signal: Move signal ctl tables into signal.c
+dd293df6395a2c9e0fc4faa8defeceaa907e7717 tracing: Move trace sysctls into trace.c
+67049b53e06fa1758df1463789f286a7cba67c50 stack_tracer: move sysctl registration to kernel/trace/trace_stack.c
+bc4f328ff516f6ea53c3c0d385a84ea7ae423c20 sparc: mv sparc sysctls into their own file under arch/sparc/kernel
 
---===============6037032070040215531==--
+--===============4247542376942260343==--
