@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Wed, 09 Apr 2025 07:40:05 -0000
-Message-Id: <174418440519.2911992.13583438948158051874@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Wed, 09 Apr 2025 07:50:37 -0000
+Message-Id: <174418503797.2920573.11037304720730897436@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/gpio/gpiod-is-equal
-    old: 0000000000000000000000000000000000000000
-    new: 265daffe788aa1cc5925d0afcde4fe6e99c66638
-  - ref: refs/tags/gpiod-is-equal-for-v6.16-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 8e38a0f6a14f21a1e3eed546d845df8a0348bed5
+  - ref: refs/heads/dma-split-wip
+    old: 1343bfcba6eb74ab5c6406108866114dc0442174
+    new: 3a890d88f1f66a216de3e0d21c60ea5a6a1ba1ed
+    log: |
+         3a890d88f1f66a216de3e0d21c60ea5a6a1ba1ed nvme-pci: rely on already checked p2p pages in request
+         
