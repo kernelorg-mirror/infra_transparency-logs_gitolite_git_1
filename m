@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Wed, 09 Apr 2025 00:30:01 -0000
-Message-Id: <174415860122.2554230.5352459922635533716@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Wed, 09 Apr 2025 00:30:08 -0000
+Message-Id: <174415860861.2556042.13071524748971402365@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/nova-gsp
-    old: 12ac2284474a4bdaab56059d7c351cb21475c3ed
-    new: 9186aeda0a89c55ccc581b11f8dc1909b84706dc
+  - ref: refs/heads/master
+    old: 0e8863244ef5b7d4391816062fcc07ff49aa7dcf
+    new: a24588245776dafc227243a01bfbeb8a59bafba9
     log: |
-         9186aeda0a89c55ccc581b11f8dc1909b84706dc Second round of release cleanup (adding comments, etc)
+         14e594a1fc8b879734f8057a870d28c86a889c5f kunit: tool: fix count of tests if late test plan
+         d1be0cf3b8aeae75bc8fff5b7a3e01ebfe276008 kunit: Spelling s/slowm/slow/
+         a24588245776dafc227243a01bfbeb8a59bafba9 Merge tag 'linux_kselftest-kunit-6.15-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
          
