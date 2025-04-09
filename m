@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 09 Apr 2025 18:28:36 -0000
-Message-Id: <174422331612.3479463.18181531337654207774@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Wed, 09 Apr 2025 18:30:47 -0000
+Message-Id: <174422344758.3482696.6035600051016755990@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/master
-    old: 53166b69fcf6164dd00152d63a8bffdc1fe58475
-    new: a0f0d8496e49e8d029fe49ff7d43b1525bddba2b
+  - ref: refs/heads/wip/leon-for-next
+    old: 9452c85b58d315ad126be7eb5f861cdeaa31619d
+    new: 9334003d1335b1d086334f946eab158503487e58
     log: |
-         f0df00ebc57f803603f2a2e0df197e51f06fbe90 x86/cpu: Avoid running off the end of an AMD erratum table
-         a0f0d8496e49e8d029fe49ff7d43b1525bddba2b Merge branch into tip/master: 'x86/urgent'
+         b84001ad0ceeb34bc3fd6c383f197326d4fe8353 RDMA/rxe: Enable ODP in ATOMIC WRITE operation
+         9334003d1335b1d086334f946eab158503487e58 RDMA: Don't use %pK through printk
          
