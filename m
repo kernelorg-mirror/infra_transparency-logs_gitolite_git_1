@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4436980380610944537=="
+Content-Type: multipart/mixed; boundary="===============3906558318417673282=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 09 Apr 2025 16:02:46 -0000
-Message-Id: <174421456600.3353745.1352386669841668419@gitolite.kernel.org>
+Date: Wed, 09 Apr 2025 16:02:51 -0000
+Message-Id: <174421457126.3354033.9574761590992972299@gitolite.kernel.org>
 
---===============4436980380610944537==
+--===============3906558318417673282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/40GbE
     old: 61f96e684edd28ca40555ec49ea1555df31ba619
     new: 420aabef3ab5fa743afb4d3d391f03ef0e777ca8
     log: revlist-61f96e684edd-420aabef3ab5.txt
 
---===============4436980380610944537==
+--===============3906558318417673282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ a36283e2b683f172aa1760c77325e50b16c0f792 udp_tunnel: create a fastpath GRO looku
 6a0f72c5e208c5980fe4bb7d0c2ecc31714207c4 Merge branch 'udp_tunnel-gro-optimizations'
 420aabef3ab5fa743afb4d3d391f03ef0e777ca8 net: Drop unused @sk of __skb_try_recv_from_queue()
 
---===============4436980380610944537==--
+--===============3906558318417673282==--
