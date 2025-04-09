@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 09 Apr 2025 14:24:35 -0000
-Message-Id: <174420867566.3265205.15710160357217798635@gitolite.kernel.org>
+Date: Wed, 09 Apr 2025 14:25:23 -0000
+Message-Id: <174420872348.3267352.3623475685992251082@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/filePuYW8M
-    old: 6b2c6be030256461f48cd7bfa7b8971b85916d24
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/fileucs2az
+    old: 0000000000000000000000000000000000000000
+    new: 5fc7d2b5cab47f2ac712f689140b1fed978fb91c
