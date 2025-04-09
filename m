@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Wed, 09 Apr 2025 06:26:18 -0000
-Message-Id: <174417997871.2852577.11317618348919838202@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
+Date: Wed, 09 Apr 2025 07:07:37 -0000
+Message-Id: <174418245725.2884704.11439287024815383651@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/libata/linux
-user: dlemoal
+repo: pub/scm/linux/kernel/git/mcgrof/linux
+user: mcgrof
 changes:
-  - ref: refs/heads/for-6.15-fixes
-    old: ad320e408a8c95a282ab9c05cdf0c9b95e317985
-    new: 8d46a27085039158eb5e253ab8a35a0e33b5e864
-    log: |
-         8d46a27085039158eb5e253ab8a35a0e33b5e864 ata: sata_sx4: Add error handling in pdc20621_i2c_read()
-         
+  - ref: refs/heads/20250408-bh-meta-migrate-optimal
+    old: 0000000000000000000000000000000000000000
+    new: dd7a079fe5a3dd5c353f0a1027ac2e88679c8402
