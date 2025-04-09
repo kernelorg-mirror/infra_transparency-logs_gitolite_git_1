@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2428167318578590447=="
+Content-Type: multipart/mixed; boundary="===============3841853729087827447=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 09 Apr 2025 15:44:07 -0000
-Message-Id: <174421344716.3336914.14845267778393216386@gitolite.kernel.org>
+Date: Wed, 09 Apr 2025 15:44:09 -0000
+Message-Id: <174421344958.3337147.8536389981547160608@gitolite.kernel.org>
 
---===============2428167318578590447==
+--===============3841853729087827447==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 61f96e684edd28ca40555ec49ea1555df31ba619
     new: 29d261466fa6ef540e991681069a736791d7b60a
     log: revlist-61f96e684edd-29d261466fa6.txt
 
---===============2428167318578590447==
+--===============3841853729087827447==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -61,4 +61,4 @@ b3bf8f63e6179076b57c9de660c9f80b5abefe70 net_sched: sch_sfq: move the limit vali
 26e705184e7a67bdcded69b4b86b583fc81971ce selftests/tc-testing: sfq: check that a derived limit of 1 is rejected
 29d261466fa6ef540e991681069a736791d7b60a Merge branch 'sch_sfq-derived-limit'
 
---===============2428167318578590447==--
+--===============3841853729087827447==--
