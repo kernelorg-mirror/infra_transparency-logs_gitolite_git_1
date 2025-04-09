@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1247274476778383849=="
+Content-Type: multipart/mixed; boundary="===============8644084548700922302=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Wed, 09 Apr 2025 23:14:53 -0000
-Message-Id: <174424049390.3730829.15394627100512511118@gitolite.kernel.org>
+Date: Wed, 09 Apr 2025 23:15:24 -0000
+Message-Id: <174424052430.3732846.11132331508835751142@gitolite.kernel.org>
 
---===============1247274476778383849==
+--===============8644084548700922302==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
 user: chunkuang.hu
 changes:
-  - ref: refs/heads/mediatek-drm-next
-    old: dcb166ee43c3d594e7b73a24f6e8cf5663eeff2c
+  - ref: refs/heads/mediatek-drm-fixes
+    old: 2014c95afecee3e76ca4a56956a936e23283f05b
     new: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    log: revlist-dcb166ee43c3-0af2f6be1b42.txt
+    log: revlist-2014c95afece-0af2f6be1b42.txt
 
---===============1247274476778383849==
+--===============8644084548700922302==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-dcb166ee43c3-0af2f6be1b42.txt
+Content-Disposition: attachment; filename=revlist-2014c95afece-0af2f6be1b42.txt
 
 d327a12e636e902fd0c7178732813b041a1c9214 stmmac: Remove pcim_* functions for driver detach
 45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
@@ -1051,4 +1051,4 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
 
---===============1247274476778383849==--
+--===============8644084548700922302==--
