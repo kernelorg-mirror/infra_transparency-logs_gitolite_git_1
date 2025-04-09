@@ -1,43 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============9167177058358777940=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Wed, 09 Apr 2025 13:12:33 -0000
-Message-Id: <174420435391.3202415.4898607819782283785@gitolite.kernel.org>
-
---===============9167177058358777940==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+Date: Wed, 09 Apr 2025 13:35:45 -0000
+Message-Id: <174420574569.3222460.2425161635224110719@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/mmc
-user: ulfh
+repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+user: herbert
 changes:
-  - ref: refs/heads/next
-    old: 68a3b37b2ccfb955026abd878fdde827b77ce2a4
-    new: 6b8dba9a7fdba6d669e4119e390a071e44383934
-    log: revlist-68a3b37b2ccf-6b8dba9a7fdb.txt
-
---===============9167177058358777940==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-68a3b37b2ccf-6b8dba9a7fdb.txt
-
-e33e24eff20f0f8186056cbf58cb131d67f77ff4 mmc: core: Convert mmc_can_poweroff_notify() into a bool
-578f04210ffc5af52460fa38c9832bf5fdf277aa mmc: core: Further avoid re-storing power to the eMMC before a shutdown
-01ba57f9a03dbc042bdd80e7a1874c0d9f8587b5 mmc: core: Convert into an enum for the poweroff-type for eMMC
-a21936250e1d24345cd81a2cf86827145719cf9c mmc: core: Add support for graceful host removal for eMMC
-e4f6aa7c7f46ef8cdd87aec41f95c5be416dc0a1 mmc: core: Add support for graceful host removal for SD
-3d1eea493894093744cf5d1a60b91a1057cc8b94 mmc: sdhci-esdhc-imx: Save tuning value when card stays powered in suspend
-afebfdf3604f881a18a7d1d04a88fbf414e9b889 mmc: mtk-sd: Clarify patch bit register initialization and layout
-d78f648509b98fc33d9919769357bfd4d94cf32a mmc: mtk-sd: Aggregate writes for MSDC_PATCH_BIT1/2 setup
-094079abbb677fea4c33c9cb2e89416d45173717 mmc: mtk-sd: Do single write in function msdc_new_tx_setting
-1eca72212c9d86e9ab44aec477603601dae08c5d mmc: mtk-sd: Aggregate R/W for top_base iospace case where possible
-d51319962422162dcc1a980fee3090ab45212b95 dt-bindings: mmc: arasan,sdhci: Add Renesas RZ/N1D
-2859786d9c4be601502a32ab1a1be5fc346e1262 mmc: renesas_sdhi: Use of_get_available_child_by_name()
-6b8dba9a7fdba6d669e4119e390a071e44383934 mmc: alcor: Use str_read_write() helper
-
---===============9167177058358777940==--
+  - ref: refs/heads/master
+    old: af7e23c616f523b1c4d1f5f0cd7f9852fa4aa24f
+    new: 3be3f70ee95da03a87d94c4a714ee679a5c7b34d
+    log: |
+         cfb32c656eb7bf1d7a776b8793bb6baa6f58b5a4 crypto: scomp - Fix null-pointer deref when freeing streams
+         b7b39df7e710b0068356e4c696af07aa10e2cd3d crypto: caam/qi - Fix drv_ctx refcount bug
+         5322584385d938773cbb562db64d8423dd5fd026 Merge git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
+         3be3f70ee95da03a87d94c4a714ee679a5c7b34d crypto: x86/chacha - Restore SSSE3 fallback path
+         
