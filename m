@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 09 Apr 2025 23:29:38 -0000
-Message-Id: <174424137835.3744205.6878033488926497043@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Wed, 09 Apr 2025 23:33:41 -0000
+Message-Id: <174424162121.3747605.7150564173257566665@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/master
-    old: a76116f422c442ab691b4dcabb25613486d34360
-    new: 967e8def1100cb4b08c28a54d27ce69563fdf281
+  - ref: refs/heads/wip-crc
+    old: cff926e0819ea6fd89574e1bdf6c44a832c2b8eb
+    new: 9f5166eeb71eb34d88043eea1db1d31e29092b16
     log: |
-         967e8def1100cb4b08c28a54d27ce69563fdf281 selftests/bpf: Fix bpf_nf selftest failure
+         9f5166eeb71eb34d88043eea1db1d31e29092b16 lib/crc: make the CPU feature static keys __ro_after_init
          
