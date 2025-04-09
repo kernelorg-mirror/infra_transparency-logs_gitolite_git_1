@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============0083902548346918015=="
+Content-Type: multipart/mixed; boundary="===============4032980490236465196=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Wed, 09 Apr 2025 20:17:13 -0000
-Message-Id: <174422983387.3578165.17853453547222059760@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 09 Apr 2025 20:17:17 -0000
+Message-Id: <174422983762.3578356.10881111344306478527@gitolite.kernel.org>
 
---===============0083902548346918015==
+--===============4032980490236465196==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.16
+  - ref: refs/heads/regulator-6.16
     old: 4a7c28e659b85c96ebc87ad00d11c47a538dc15e
     new: 48e6872b467a444352c2333c5aa6e7bd59677cef
     log: |
@@ -28,28 +28,28 @@ changes:
          48e6872b467a444352c2333c5aa6e7bd59677cef Add support for ADP5055 triple buck regulator.
          
 
---===============0083902548346918015==
+--===============4032980490236465196==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1744229861 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1744229831-0db327015c337ae13c4e0c42b7e5581707449d85
+pusher C3F436CA30F5D8EB 1744229865 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1744229835-4a64f6287b6e57dcff897e0badc9e1a440e25d94
 
-4a7c28e659b85c96ebc87ad00d11c47a538dc15e 48e6872b467a444352c2333c5aa6e7bd59677cef refs/heads/for-6.16
+4a7c28e659b85c96ebc87ad00d11c47a538dc15e 48e6872b467a444352c2333c5aa6e7bd59677cef refs/heads/regulator-6.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmf21eYACgkQJNaLcl1U
-h9BYLgf+K8s7FdL0FqumtZK+zW9OMXBP75UXeQUnOhjk1y/qZOXzKgDKu68FxnKX
-tGbQxHkp3c4zVyrLbHknCzMLT6ZRxnDKtaamtuuwfJ+h+Hza4zxXrWvrvhlr+3x0
-hdqjaOkc9sVlPp0L0acqyonxxXtqqC7Z1ipBJ43BVMy7jDuZ/J3Wn/X78194xrbB
-XOSc0uVhlBE6QI177UDDVZeSQTf77bfNmhJhmiW160oC/tGfbBAQ8LrtHz/THF3M
-zulie2Wr4UBVp9yVsP7DlXEYu8NXwxWC3mbP9xpbSymPi8SdJOAFdBdqohdgiYWM
-lT3MY0z6K4IOH9PezmEFQ7MYYivn5A==
-=HtaJ
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmf21ekACgkQJNaLcl1U
+h9D8ewf/WEA8bg/AWdcasak9XpKd0W/XcUdyOt/paYBVtfxOAVyEGh10jj1DeWoF
+quJ6Y9Ru8K823lMSA6wtw8YQpHpJ5i9ep0p/MNaEwBfSKCjzSupVbsO3lAsJVqsS
+/WrNA3WHECkmHr2J967qUxTYen7waKdtHS2UZt4v2HY8xbA1AymRJ27CsD0P6iwa
+uzJBzIQh0sdvhbclgeY0nWgo8gPP1bzY5ipNrCw+5o7yuXcP9HKF9Tal5M5JqWVL
+zrovqMOqXCn9tXASsF1Ao3i4FC6ce7B8FXFVb3PSgK6kiQKm9cwQUYqcZVLrcy6f
+rptjhhGXFV1Wbpde9z+p5YvGAa/VFA==
+=jCY8
 -----END PGP SIGNATURE-----
 
---===============0083902548346918015==--
+--===============4032980490236465196==--
