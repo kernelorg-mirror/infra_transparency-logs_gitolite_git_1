@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Wed, 09 Apr 2025 14:34:49 -0000
-Message-Id: <174420928971.3274164.3925237781016838835@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Wed, 09 Apr 2025 14:39:07 -0000
+Message-Id: <174420954719.3277676.17207424872956769413@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/master
-    old: 1288facd554823b302024d7f0589a68a58fa2ac8
-    new: 0b3d49f4e03014a911c421896ae727bba9e09ba1
+  - ref: refs/heads/bleeding-edge
+    old: 8651ffc1c7b47d12e3a657db849ab105e0a355bc
+    new: 089d4e79e2c932faef79e0061cb874000f755009
     log: |
-         0b3d49f4e03014a911c421896ae727bba9e09ba1 policy: fix HSP/HFP reconnection
+         6db0261f3776bde01ae916ad8e1cb2ded3ba1a2b Documentation: ACPI: Use all-string data node references
+         089d4e79e2c932faef79e0061cb874000f755009 Merge branch 'acpi-docs' into bleeding-edge
          
