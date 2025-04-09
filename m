@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0209757560227056717=="
+Content-Type: multipart/mixed; boundary="===============2788413261716301097=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 09 Apr 2025 15:33:36 -0000
-Message-Id: <174421281656.3327182.15763098317908480076@gitolite.kernel.org>
+Date: Wed, 09 Apr 2025 15:33:44 -0000
+Message-Id: <174421282430.3327461.5984448115920805685@gitolite.kernel.org>
 
---===============0209757560227056717==
+--===============2788413261716301097==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 61f96e684edd28ca40555ec49ea1555df31ba619
-    new: 29d261466fa6ef540e991681069a736791d7b60a
-    log: revlist-61f96e684edd-29d261466fa6.txt
+  - ref: refs/heads/dev-queue
+    old: ebf55eeae3397cda7d4685f8817b24412f07d649
+    new: 0c9647a0c0c61536856f50e668e956cd5a4f23f6
+    log: revlist-ebf55eeae339-0c9647a0c0c6.txt
 
---===============0209757560227056717==
+--===============2788413261716301097==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-61f96e684edd-29d261466fa6.txt
+Content-Disposition: attachment; filename=revlist-ebf55eeae339-0c9647a0c0c6.txt
 
 216a61d33c0728a8cf1650aaed2c523c6ce16354 net: ethtool: fix ethtool_ringparam_get_cfg() returns a hds_thresh value always as 0.
 22d3a63d5321326cb05a6dff7d2c488236cf56f2 selftests: drv-net: test random value for hds-thresh
@@ -60,5 +60,17 @@ dd17a7f1d3b35fa2708d0a81a5b5e865371c43e4 Merge branch 'mptcp-only-inc-mpjoinackh
 b3bf8f63e6179076b57c9de660c9f80b5abefe70 net_sched: sch_sfq: move the limit validation
 26e705184e7a67bdcded69b4b86b583fc81971ce selftests/tc-testing: sfq: check that a derived limit of 1 is rejected
 29d261466fa6ef540e991681069a736791d7b60a Merge branch 'sch_sfq-derived-limit'
+f04f5bcec4983bc308a22d5ef86b4cc6c3944b87 coccinelle: misc: secs_to_jiffies script: Create dummy report
+9d1bccd0754c875e21c19d5f9601f13b30ac8ce7 ice: fix Get Tx Topology AQ command error on E830
+33062908a662ef9c8365c6b9ca989a31f54e6873 ice: fix lane number calculation
+9f569dab8f9f1195c27d97b5b5edba7eecb539c6 ice: fix fwlog after driver reinit
+520612f5a7d81c9461efd89cbde20341fac803cf ice: Check VF VSI Pointer Value in ice_vc_add_fdir_fltr()
+19517c1914ba4080898ca188e1013a3db24b5a8e igc: fix PTM cycle trigger logic
+54f5e9c36e350b77ee275c42a42e6341bdc120fe igc: increase wait time before retrying PTM
+1f61a6059f1028da1105f34301aeff5b06013197 igc: move ktime snapshot into PTM retry loop
+1eb7cc7f9f2a86d581c6f081a21797eb043a8f44 igc: handle the IGC_PTP_ENABLED flag correctly
+91ea208ee706c5631ef223ec718b9e3ed7598b5a igc: cleanup PTP module if probe fails
+042ea5fc0689493a685c95c88dac2b04fccf6dc3 igc: add lock preventing multiple simultaneous PTM transactions
+0c9647a0c0c61536856f50e668e956cd5a4f23f6 idpf: fix offloads support for encapsulated packets
 
---===============0209757560227056717==--
+--===============2788413261716301097==--
