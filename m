@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 09 Apr 2025 14:58:47 -0000
-Message-Id: <174421072755.3297345.7607257772643130216@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+Date: Wed, 09 Apr 2025 14:59:04 -0000
+Message-Id: <174421074457.3297682.7162658561961283687@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+user: andy
 changes:
-  - ref: refs/heads/pending
-    old: 25b2f46bd7de2f0007d742de9d2e72e65db0edf3
-    new: ef4c701a6b39653a974f222f624324f7a6d1eb74
+  - ref: refs/heads/for-next
+    old: 8f4543e980ffd80b8b08f0fe7e6ec32f8584bae1
+    new: a02af05f41c7242cf8e0ca7527a3dc7cfb54770f
     log: |
-         87b47851dd575c283960627ee62155959a4da1a6 wifi: ath12k: add rx_info to capture required field from rx descriptor
-         ef4c701a6b39653a974f222f624324f7a6d1eb74 wifi: ath12k: replace the usage of rx desc with rx_info
+         f5b060b1f5470d62888871cc445944489078c62d gpiolib: acpi: Use temporary variable for struct acpi_gpio_info
+         454acfc394d33a34213044bba7fbcd5831d2c2d5 gpiolib: acpi: Make sure we fill struct acpi_gpio_info
+         a02af05f41c7242cf8e0ca7527a3dc7cfb54770f Merge patch series "gpiolib: acpi: Fix missing info filling"
          
