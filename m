@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6770440766867432129=="
+Content-Type: multipart/mixed; boundary="===============1562893846399752159=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
-Date: Wed, 09 Apr 2025 20:38:07 -0000
-Message-Id: <174423108756.3598602.14993001742192591323@gitolite.kernel.org>
+Date: Wed, 09 Apr 2025 20:39:03 -0000
+Message-Id: <174423114386.3599213.15416129910221335062@gitolite.kernel.org>
 
---===============6770440766867432129==
+--===============1562893846399752159==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cxl/cxl
 user: djiang
 changes:
-  - ref: refs/heads/fixes
-    old: 2014c95afecee3e76ca4a56956a936e23283f05b
-    new: 36aace15d9bdcfe6f03e078915067e89719478f5
-    log: revlist-2014c95afece-36aace15d9bd.txt
+  - ref: refs/heads/next
+    old: aae0594a7053c60b82621136257c8b648c67b512
+    new: a9d9a12728910ea587cb2be717edcffbb80949ec
+    log: revlist-aae0594a7053-a9d9a1272891.txt
 
---===============6770440766867432129==
+--===============1562893846399752159==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-2014c95afece-36aace15d9bd.txt
+Content-Disposition: attachment; filename=revlist-aae0594a7053-a9d9a1272891.txt
 
+45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
+e364e4cebeb70a5f4f8cb28ca7480e1ddb361752 Merge branch 'stmmac-several-pci-related-improvements'
 cc04ed502457412960d215b9cd55f0d966fda255 stmmac: intel: interface switching support for RPL-P platform
 1ae1d705a1120e8e0ca41698c5a0fff6f5290bc1 net: dsa: microchip: fix DCB apptrust configuration on KSZ88x3
 a50b4fe095fb98e0b7da03b0a42fd1247284868e Merge tag 'timers-cleanups-2025-03-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1047,8 +1049,6 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 710329254dc303cd3b2df1a24674adecb1189385 Merge tag 'turbostat-2025.05.06' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
-87d2de042c602e12230283cd40fa604b881e12f7 cxl/core: Fix caching dport GPF DVSEC issue
-6af941db6a60a27209bdb2da1a3a780574d617fe cxl/pci: Update Port GPF timeout only when the first EP attaching
-36aace15d9bdcfe6f03e078915067e89719478f5 cxl/pci: Drop the parameter is_port of cxl_gpf_get_dvsec()
+a9d9a12728910ea587cb2be717edcffbb80949ec cxl: Remove always true condition for cxlctl_validate_hw_command()
 
---===============6770440766867432129==--
+--===============1562893846399752159==--
