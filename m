@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4521543030970550691=="
+Content-Type: multipart/mixed; boundary="===============1085047529816023471=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Wed, 09 Apr 2025 04:02:07 -0000
-Message-Id: <174417132763.2736314.16701051233655536939@gitolite.kernel.org>
+Date: Wed, 09 Apr 2025 04:02:09 -0000
+Message-Id: <174417132932.2736398.15591526827065863371@gitolite.kernel.org>
 
---===============4521543030970550691==
+--===============1085047529816023471==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-for-6.16
-    old: a422fa8a55631978cb045511127ff39ef3366a4f
-    new: 314ffec606514cdf6d4bbedaaeeba0c826b6afc2
-    log: revlist-a422fa8a5563-314ffec60651.txt
-  - ref: refs/heads/arm32-for-6.16
-    old: 0000000000000000000000000000000000000000
-    new: 1afdd80d1e021f758c975d857c6beb6da5c891bd
+  - ref: refs/heads/for-next
+    old: 7483c7cc0b2cebf842ec0f5902e354650c4a0d29
+    new: 088f07a6bd61fea73b382807420052a10e9b18a5
+    log: revlist-7483c7cc0b2c-088f07a6bd61.txt
 
---===============4521543030970550691==
+--===============1085047529816023471==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a422fa8a5563-314ffec60651.txt
+Content-Disposition: attachment; filename=revlist-7483c7cc0b2c-088f07a6bd61.txt
 
+17268faf29992d37033d6ad1a5ed5d924f2430d8 ARM: dts: qcom: msm8226: Use the header with DSI phy clock IDs
+1afdd80d1e021f758c975d857c6beb6da5c891bd ARM: dts: qcom: msm8974: Use the header with DSI phy clock IDs
 651af46f33ab284400e0fc307e5a81de54c75945 arm64: dts: qcom: msm8916: Use the header with DSI phy clock IDs
 7c92da246e1a6933f25fa015d6c43a6bcfb2c7b3 arm64: dts: qcom: msm8917: Use the header with DSI phy clock IDs
 011e7f2c26dcb42c255ab54207f548d68c3b8e38 arm64: dts: qcom: msm8939: Use the header with DSI phy clock IDs
@@ -51,5 +50,6 @@ ee4bb3169263bad99d68e0039e944ae53e77691a arm64: dts: qcom: sm8350: Use the heade
 0d18a031499d4ea2b86cdc8120c22bdcf22bcac0 arm64: dts: qcom: sm8450: Use the header with DSI phy clock IDs
 0d046b7ad7d3c7f2dfc53fc5ad48e2fe2c3f2186 arm64: dts: qcom: sm8550: Use the header with DSI phy clock IDs
 314ffec606514cdf6d4bbedaaeeba0c826b6afc2 arm64: dts: qcom: sm8650: Use the header with DSI phy clock IDs
+088f07a6bd61fea73b382807420052a10e9b18a5 Merge branches 'arm32-for-6.16' and 'arm64-for-6.16' into for-next
 
---===============4521543030970550691==--
+--===============1085047529816023471==--
