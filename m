@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mszyprowski/linux
-Date: Wed, 09 Apr 2025 16:35:27 -0000
-Message-Id: <174421652746.3385770.1081389383165951229@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Wed, 09 Apr 2025 16:38:17 -0000
+Message-Id: <174421669740.3387241.18220712869267813066@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mszyprowski/linux
-user: mszyprowski
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/tags/v6.15-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 64e9fdfc89a76fed38d8ddeed72d42ec71957ed9
-  - ref: refs/tags/v6.14
-    old: 0000000000000000000000000000000000000000
-    new: 35ff3b0f4596c82ec0a3e1cc43e2a85f5e976023
-  - ref: refs/tags/v6.14-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 12b58398bffc23db89e715414399b0533255da51
+  - ref: refs/heads/experimental
+    old: fa271ea5336661fbabdb0a721e3327158c9a6a0a
+    new: 6d62d8b0dda25f8dc23c09c2971445d979bffe75
+    log: |
+         6d62d8b0dda25f8dc23c09c2971445d979bffe75 erofs-utils: lib: fix `1UL << vi->u.chunkbits` on 32-bit platforms
+         
