@@ -1,22 +1,34 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 09 Apr 2025 10:21:24 -0000
-Message-Id: <174419408418.3053879.3263345171446562370@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Wed, 09 Apr 2025 10:27:13 -0000
+Message-Id: <174419443379.3058526.15291125169851218791@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/s390/linux
+user: heiko
 changes:
-  - ref: refs/heads/master
-    old: b35f138993d84e9df932d07fbcc2f536ef36e2c9
-    new: 95fb7f3bb7068251a6ace21c275b267b7e54911e
+  - ref: refs/heads/fixes
+    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
+    new: aa1ac98268cd1f380c713f07e39b1fa1d5c7650c
     log: |
-         3256a83335a40b435cc2ea3aed159608879f6ed8 perf/x86/intel/bts: Rename local bts_buffer variables for clarity
-         72dbf2284aa0f53b1c542e0eb4c7db448a0cb1bf Merge branch into tip/master: 'perf/core'
-         fd88d16c6d7b4ca8798ac12aebe4bddd8a95c0bb x86/early_printk: Use 'mmio32' for consistency
-         95fb7f3bb7068251a6ace21c275b267b7e54911e Merge branch into tip/master: 'x86/urgent'
+         2ccd42b959aaf490333dbd3b9b102eaf295c036a s390/virtio_ccw: Don't allocate/assign airqs for non-existing queues
+         8231a0e632405a03018034848d3c4620d7ba1dca s390: Add z17 elf platform
+         c51ea9888e88fc20df656dab01263f17529c7374 s390: Allow to compile with z17 optimizations
+         df194f57de7136b94bf25d2dce1da765b6c13654 s390/cpumf: Update CPU Measurement facility extended counter set support
+         aa1ac98268cd1f380c713f07e39b1fa1d5c7650c s390/cpumf: Fix double free on error in cpumf_pmu_event_init()
+         
+  - ref: refs/heads/for-next
+    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
+    new: 23bf61c87a71c5e678f569321c46458f41e739d9
+    log: |
+         2ccd42b959aaf490333dbd3b9b102eaf295c036a s390/virtio_ccw: Don't allocate/assign airqs for non-existing queues
+         8231a0e632405a03018034848d3c4620d7ba1dca s390: Add z17 elf platform
+         c51ea9888e88fc20df656dab01263f17529c7374 s390: Allow to compile with z17 optimizations
+         df194f57de7136b94bf25d2dce1da765b6c13654 s390/cpumf: Update CPU Measurement facility extended counter set support
+         aa1ac98268cd1f380c713f07e39b1fa1d5c7650c s390/cpumf: Fix double free on error in cpumf_pmu_event_init()
+         23bf61c87a71c5e678f569321c46458f41e739d9 Merge branch 'fixes' into for-next
          
