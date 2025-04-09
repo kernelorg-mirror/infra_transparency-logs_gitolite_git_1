@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4663810693063044247=="
+Content-Type: multipart/mixed; boundary="===============8612968014216501851=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Wed, 09 Apr 2025 16:15:06 -0000
-Message-Id: <174421530600.3367055.2466715593960018204@gitolite.kernel.org>
+Date: Wed, 09 Apr 2025 16:20:42 -0000
+Message-Id: <174421564208.3372182.15062124869405865847@gitolite.kernel.org>
 
---===============4663810693063044247==
+--===============8612968014216501851==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,31 +16,31 @@ repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next/hardening
-    old: f2ca4ed59a2357820cfbbe979abf6a0e07a69e6c
-    new: 9891398efae81f041de54977cd6936c2f93fbe2f
+  - ref: refs/heads/for-linus/hardening
+    old: 7e87e28084654a9d165df113dd2b48807d1a74f1
+    new: 1ded828affa35f4b216e99f53d8d031a392f2b0a
     log: |
-         9891398efae81f041de54977cd6936c2f93fbe2f lkdtm: use SLAB_NO_MERGE instead of an empty constructor
+         1ded828affa35f4b216e99f53d8d031a392f2b0a hardening: Disable GCC randstruct for COMPILE_TEST
          
 
---===============4663810693063044247==
+--===============8612968014216501851==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1744215334 -0700
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1744215668 -0700
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1744215304-078e0cd6ef326f98398e386066478960a6e988a1
+nonce 1744215636-f8246821183bddf2ca294726eac9000c09120029
 
-f2ca4ed59a2357820cfbbe979abf6a0e07a69e6c 9891398efae81f041de54977cd6936c2f93fbe2f refs/heads/for-next/hardening
+7e87e28084654a9d165df113dd2b48807d1a74f1 1ded828affa35f4b216e99f53d8d031a392f2b0a refs/heads/for-linus/hardening
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCZ/adJgAKCRA2KwveOeQk
-u4IDAP9M1rS7vIaVvpC+M8XgzeUz+VEHWd4xuWwXjtGol2nRyAEAu+Z/jqOVYure
-qw0dl7WaNntuakKnpP/2nwDwd8bQQAs=
-=N6VJ
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCZ/aedAAKCRA2KwveOeQk
+u9UxAQD+Qxz9dEnlosuWTwyuZCLwTzI862nBtvPydPqfCYVwBwD/c95zwwZxIddl
+GNuZwJSmHiQBPm3vKMBWHfgmGa5QMg0=
+=MdF3
 -----END PGP SIGNATURE-----
 
---===============4663810693063044247==--
+--===============8612968014216501851==--
