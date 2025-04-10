@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 10 Apr 2025 11:21:16 -0000
-Message-Id: <174428407678.157999.15913784587111843131@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 10 Apr 2025 11:25:48 -0000
+Message-Id: <174428434809.162163.11310715037487153441@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: sashal
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: 64fcc7ec8441d220bd2fd76af93845da551b3545
-    new: 35a6e17879c121cbc50cd131d6d7fac2be50c9a9
-    log: |
-         739d16d17324f2fcd7d82f2250c93a552b447d09 update_dyad: use the right path for dyad
-         35a6e17879c121cbc50cd131d6d7fac2be50c9a9 bippy: fix up test_determine_default_status
-         
+  - ref: refs/heads/20250410_haokexin_spi_fsl_qspi_fix_double_cleanup_in_probe_error_path
+    old: 0000000000000000000000000000000000000000
+    new: 3f7b48efb79d91883d98dd7e33dc2a0abfa9f923
+  - ref: refs/heads/20250410_srinivas_kandagatla_maintainers_update_my_email_address
+    old: 0000000000000000000000000000000000000000
+    new: 807c1c83152138e2fc22101a57b9346159ad4f4c
+  - ref: refs/heads/filecL1FRe
+    old: 0000000000000000000000000000000000000000
+    new: 6bbb2b1286f437b45ccf4828a537429153cd1096
+  - ref: refs/heads/fileq2rB8C
+    old: 0000000000000000000000000000000000000000
+    new: b5d057a86e2086af0b1e6d0ca8b306be1c73a627
