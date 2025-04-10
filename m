@@ -1,24 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
-Date: Thu, 10 Apr 2025 14:39:16 -0000
-Message-Id: <174429595611.536724.9642348638626871560@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2342550947871849386=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Thu, 10 Apr 2025 14:42:31 -0000
+Message-Id: <174429615131.540430.6554928031327014935@gitolite.kernel.org>
+
+--===============2342550947871849386==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rcu/linux
-user: boqun
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: 9a867a59e76932151743fae9e6cf081ec160e2fe
-    new: 1342aec2e44231a8bf6d9cbc24ee069694e5bf86
+  - ref: refs/heads/master
+    old: 64a88338d894446c5e17f618b8a19846232ed43b
+    new: 3dab90be2abbe5e36edbad698070ff390ea3f886
     log: |
-         c64509a86540786b0b318c742961c973b61049f2 rcu/cpu_stall_cputime: fix the hardirq count for x86 architecture
-         97fa9f2f310be7408fb7dab261c28bff45da8b13 rust: sync: rcu: Mark Guard methods as inline
-         d05a9ddd94299827dfef41a39cb68c3e479eb604 Revert "rcu/nocb: Fix rcuog wake-up from offline softirq"
-         662af48419772a6e3fc2896393c07a8025e28737 doc: Update LWN RCU API links in whatisRCU.rst
-         22a98eebada19346f5e357328f83dc40e4837928 doc/RCU/listRCU: refine example code for eliminating stale data
-         1342aec2e44231a8bf6d9cbc24ee069694e5bf86 Merge branches 'rcu/misc-for-6.16', 'rcu/seq-counters-for-6.16' and 'rcu/torture-for-6.16' into rcu/for-next
+         3dab90be2abbe5e36edbad698070ff390ea3f886 Update D36F769BC11804F0 (Theodore Ts'o)
          
+
+--===============2342550947871849386==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1744296180 -0400
+pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
+nonce 1744296150-d55596930cb7b27c184b04de56a7805410f581da
+
+64a88338d894446c5e17f618b8a19846232ed43b 3dab90be2abbe5e36edbad698070ff390ea3f886 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCZ/fY9AAKCRC2xBzjVmSZ
+bDp9AQC2EfO7eoOiIvooufdXU0TISgM2LeYWfTG0RlgxNafWHgD/SEcmfVwWTh7i
+r9sBt1v9VaiTmuAcKOMTV2+p1d0WjA0=
+=viaA
+-----END PGP SIGNATURE-----
+
+--===============2342550947871849386==--
