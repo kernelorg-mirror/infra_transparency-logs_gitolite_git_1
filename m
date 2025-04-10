@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6240671615637027860=="
+Content-Type: multipart/mixed; boundary="===============0269372915439146955=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 10 Apr 2025 13:11:54 -0000
-Message-Id: <174429071443.406509.13869947839065684815@gitolite.kernel.org>
+Date: Thu, 10 Apr 2025 13:11:56 -0000
+Message-Id: <174429071615.406609.8030974031975113093@gitolite.kernel.org>
 
---===============6240671615637027860==
+--===============0269372915439146955==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.12.y
-    old: 83b4161a63b87ce40d9f24f09b5b006f63d95b7c
-    new: 8e0839d169570208d18434f6909df76e898c0894
+  - ref: refs/heads/linux-6.14.y
+    old: 9bc5c94e278f780af15b3f6e13ae08310aeae880
+    new: 5612bb049d99b4bc3d5f7b298f69fa936beaab05
     log: |
-         df42487509b7b2f45e3b69ed64d0e69660172625 ASoC: Intel: adl: add 2xrt1316 audio configuration
-         8e0839d169570208d18434f6909df76e898c0894 Linux 6.12.24-rc1
+         43f7eb5acabd77ddb6e949b107c3f2c3b20404fd ASoC: Intel: adl: add 2xrt1316 audio configuration
+         5612bb049d99b4bc3d5f7b298f69fa936beaab05 Linux 6.14.3-rc1
          
 
---===============6240671615637027860==
+--===============0269372915439146955==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1744290650 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1744290652 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1744290706-6955ac23a045311b44e529877981f6563082ab30
 
-83b4161a63b87ce40d9f24f09b5b006f63d95b7c 8e0839d169570208d18434f6909df76e898c0894 refs/heads/linux-6.12.y
+9bc5c94e278f780af15b3f6e13ae08310aeae880 5612bb049d99b4bc3d5f7b298f69fa936beaab05 refs/heads/linux-6.14.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmf3w1obHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9bgQANcxLp7nhqDCcVoAmKzQ
-YSysGhOopavlTo6Ery882eJQAlQ5j+96qp0krSiuWcZhlfBHLbSkwnUD3dtrCc+H
-ALd2cp0kqv4mEeBpJoqH4CHshKauvNG83nql4q7eFjamYwKvg9McyGLRMvd05Jmp
-f04tM00s8cErpkSWJ6ee1INhqj+hG239WMz8+52nGYTE/Y5tlM6l1YFpEjaZtrBS
-N2lMBtAVGqq+SdOsOUZ5BWbbh8TnUwqy1juFon5L5kE7/aM7R7ZZnPEzI4PD3lqP
-P8490B6/Enw0xB2pGZL2VqQC3TkiMhVQb2JX6cTUq1DIwE8g6nryjbj2WOhsl75W
-y/JaEHWHTz0nh3PsqB4laWbMj4SxZ+Rs8CWw+NcMMrze0LKVDHiJFhzzh9idrW1z
-DDDOzYj0DTylY8z6jiOQnUYEAjdjjaBkqNPZyBtSdJ+bnzh8m3KL1Wo64YtU+Sn9
-GBX99EHo2JhyBa4xGPvVq4BePeq7TCUKpZYb8Ox+QW/TwrUuM6bR4XY4ZQKxq55A
-za2g12qFVT0F5AmdOoAde9U5BAG3rWwwM0gyEIqOZGuMgdMIiNX6Vyy6ug/Eq4y0
-qs7oWgCt2ScPUO6m/zCN+bKm6oKVARpfGib6bilq1S5Gk1U49kggwrr4o8lIcNDo
-OnjuocGIetm+3FqQ9C5N+B6F
-=biHW
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmf3w1wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1N0P/i3C6hIbMQxktQnVrUnG
+VjR5lcK8GcblB1fVexILYti513MRljZ/5FP8tX9F/LSTHhgUnWCMLkhLY+SPSdQa
+y4vLJ5/PnxU/pssFqIV63v7JDxk0JJ8dG06N7OmR3jhCXokn/sjppC7gjGWHsuyN
+/BvCErIjVWQ1m835y5nyMIZM0jNr61o1r7qSvTi9vwUrXFHp6N72ELEgLD5wkjE6
+O5a2vpFCdiuJlkrpH6XOznG/R1h+teGqyfBBcQlbgewHmKeaKepxwR525YSChqID
+tA43NU7qfxGrRcilqmT5ZE1ORERhxGHpmMzv+r6SxYUIp6SUA8TAQgNj84//xNSv
+/r+o0d49wuRl6iRecWFc5zO7MW0Rq4wgE6cNYZOLFi+Pero2fPB9gmqtwste3F/L
+qVbJKO9aZexvHbRVgu/3N+Q+X8vH0/JU66v+kbdGL2mytVJQrCk8Yu8ibHl4s/bP
+k8zxVB4yX4j+MVrG4zwXGH3R9HxKqpCFgtWsIOTgxeYs3NWu9rgrT1k4U2NAII7N
+kXkrgnjGClvzAQEV2KWGpjYIp59FUHn6Azkc3SSQ9fc01owRKufFOv3mqOrIFBsg
+DKTSnSJm7ZBMaAv1fWvKkfpldrw5DLHQ1p64UqiluYsjMqcYJvbGzlqoBRL0rJv4
+BekaF5mPXk9vAtc0vzzMB7M/
+=9XlO
 -----END PGP SIGNATURE-----
 
---===============6240671615637027860==--
+--===============0269372915439146955==--
