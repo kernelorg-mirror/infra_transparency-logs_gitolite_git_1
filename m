@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Thu, 10 Apr 2025 16:08:53 -0000
-Message-Id: <174430133374.616813.11714322067491305240@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
+Date: Thu, 10 Apr 2025 16:23:08 -0000
+Message-Id: <174430218876.629434.8449966359309661855@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/cxl/cxl
+user: djiang
 changes:
-  - ref: refs/heads/not-for-next
-    old: 0d3d078e7de9ca815cf5b6b9254a226e0ac79ef1
-    new: 3c1a1c997a74fbab9aeafc25cd4f56c2f4f187e4
+  - ref: refs/heads/next
+    old: b2cde9351054eddd8d64390742b3dc34cd386e9d
+    new: 73c117c17b562213242f432db2ddf1bcc22f39dd
     log: |
-         3c1a1c997a74fbab9aeafc25cd4f56c2f4f187e4 gcc-plugins: Disable GCC plugins for compile test builds
+         73c117c17b562213242f432db2ddf1bcc22f39dd cxl: core/region - ignore interleave granularity when ways=1
          
