@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9205366689091639862=="
+Content-Type: multipart/mixed; boundary="===============6975291189978834858=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-rt-devel
-Date: Thu, 10 Apr 2025 14:03:12 -0000
-Message-Id: <174429379205.501902.7698027217309016904@gitolite.kernel.org>
+Date: Thu, 10 Apr 2025 14:03:17 -0000
+Message-Id: <174429379740.502165.4777660182814878640@gitolite.kernel.org>
 
---===============9205366689091639862==
+--===============6975291189978834858==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,94 +16,53 @@ repo: pub/scm/linux/kernel/git/rt/linux-rt-devel
 user: bigeasy
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/master
-    old: 38fec10eb60d687e30c8c6b5420d86e8149f7557
-    new: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    log: revlist-38fec10eb60d-0af2f6be1b42.txt
-  - ref: refs/heads/linux-6.15.y
-    old: 0000000000000000000000000000000000000000
-    new: 0af2f6be1b4281385b618cb86ad946eded089ac8
-  - ref: refs/heads/linux-6.15.y-rt
+  - ref: refs/heads/for-kbuild-bot/current-stable
+    old: 9739775a72b0a37cad4454c3bc1fb86632073eb8
+    new: dffd411602b44c7872b109d6df3e228b39ca9ee2
+    log: revlist-9739775a72b0-dffd411602b4.txt
+  - ref: refs/heads/for-kbuild-bot/prepare-release
+    old: 9739775a72b0a37cad4454c3bc1fb86632073eb8
+    new: dffd411602b44c7872b109d6df3e228b39ca9ee2
+    log: revlist-9739775a72b0-dffd411602b4.txt
+  - ref: refs/heads/linux-6.15.y-rt-rebase
     old: 0000000000000000000000000000000000000000
     new: dffd411602b44c7872b109d6df3e228b39ca9ee2
-  - ref: refs/heads/linux-6.15.y-rt-patches
-    old: 0000000000000000000000000000000000000000
-    new: a858d49ea450fbe49252418cc84f1f063b2f6656
-  - ref: refs/tags/v6.15-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 64e9fdfc89a76fed38d8ddeed72d42ec71957ed9
-  - ref: refs/tags/v6.15-rc1-rt1
-    old: 0000000000000000000000000000000000000000
-    new: df767d2f4b22a582b0893fa2a2a785fae76d3038
-  - ref: refs/tags/v6.15-rc1-rt1-patches
-    old: 0000000000000000000000000000000000000000
-    new: 4f8bba44defccd49e6cb99ca3825cfdb88b6de0f
-  - ref: refs/tags/v6.15-rc1-rt1-rebase
-    old: 0000000000000000000000000000000000000000
-    new: b13482dca20232de1412417748763a43c09a7917
 
---===============9205366689091639862==
+--===============6975291189978834858==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Sebastian Andrzej Siewior <bigeasy@linutronix.de> 1744293786 +0200
+pusher Sebastian Andrzej Siewior <bigeasy@linutronix.de> 1744293824 +0200
 pushee ssh://ko-g/pub/scm/linux/kernel/git/rt/linux-rt-devel.git
-nonce 1744293755-20a47749bf08a8f4391a1b1fa085ad0f9e930ade
+nonce 1744293793-79dee8a005bb8a45d1128c8f1d797a58db8eb309
 
-38fec10eb60d687e30c8c6b5420d86e8149f7557 0af2f6be1b4281385b618cb86ad946eded089ac8 refs/heads/master
-0000000000000000000000000000000000000000 0af2f6be1b4281385b618cb86ad946eded089ac8 refs/heads/linux-6.15.y
-0000000000000000000000000000000000000000 dffd411602b44c7872b109d6df3e228b39ca9ee2 refs/heads/linux-6.15.y-rt
-0000000000000000000000000000000000000000 a858d49ea450fbe49252418cc84f1f063b2f6656 refs/heads/linux-6.15.y-rt-patches
-0000000000000000000000000000000000000000 64e9fdfc89a76fed38d8ddeed72d42ec71957ed9 refs/tags/v6.15-rc1
-0000000000000000000000000000000000000000 df767d2f4b22a582b0893fa2a2a785fae76d3038 refs/tags/v6.15-rc1-rt1
-0000000000000000000000000000000000000000 4f8bba44defccd49e6cb99ca3825cfdb88b6de0f refs/tags/v6.15-rc1-rt1-patches
-0000000000000000000000000000000000000000 b13482dca20232de1412417748763a43c09a7917 refs/tags/v6.15-rc1-rt1-rebase
+9739775a72b0a37cad4454c3bc1fb86632073eb8 dffd411602b44c7872b109d6df3e228b39ca9ee2 refs/heads/for-kbuild-bot/current-stable
+9739775a72b0a37cad4454c3bc1fb86632073eb8 dffd411602b44c7872b109d6df3e228b39ca9ee2 refs/heads/for-kbuild-bot/prepare-release
+0000000000000000000000000000000000000000 dffd411602b44c7872b109d6df3e228b39ca9ee2 refs/heads/linux-6.15.y-rt-rebase
 -----BEGIN PGP SIGNATURE-----
 
-iQHKBAABCgA0FiEEV4kucFIzBRM39v3RBWQfF1cS+lsFAmf3z5oWHGJpZ2Vhc3lA
-bGludXRyb25peC5kZQAKCRAFZB8XVxL6W8lQC/9KlWu0gCJVvwNp55CeM99UUxVm
-+S33qwJAmJXPcCaitbQCe3fIQlQy+PPaYBibWu3i8BIfHZkkyDNK6NuEzfyY2ite
-RyGxFixPVkF2zy87BD9O5otYpREheR+n9/xg8HseSVB5idjnYGQvHEJeoToY53c+
-fKnl/+ngFFkoBQfqgtErEGc/SYN/6TJbBYrEdBgqwwNinLLCfasEUdZIPTrchc9o
-2hP3++bSAqEbKTMRr0yoEOIGZ/ET10aOLo3R8Zr5YvUA5cxEW9u/hmso/ukDWa4L
-RPQb8gbGjkaYQC9jcsjtB8KrJ6Xin4rlVb8jfPom8aCDGARt4UqfP4OlZqgEJ00c
-QeQVgiNSVsOUceR+mRm1GY1M/Po1LB6JH50e67ytRt2oWGA2mB6g7TBrkcO0Acu8
-r5hjqbLhNGY9u0585rYbqHTZQvdXSxBnrRATiprwhSrWCZo4EGbA6L0CkJ3E6rU5
-uHgJ0L3YdzIxnR8v4H7LHW2QwMT7A9gY8XzTqd8=
-=KWZ/
+iQHKBAABCgA0FiEEV4kucFIzBRM39v3RBWQfF1cS+lsFAmf3z8AWHGJpZ2Vhc3lA
+bGludXRyb25peC5kZQAKCRAFZB8XVxL6W6H4DACB8Hk/nhxPQ031f5twHLv22IPm
+or0+Nb9EncpOGJgvja6axA8YVnaR8o/euxqk+35yLHS1Wu5JcaTMS7kc3pGf86Ir
+UZ7KAK5vzKeX2vdCXeF6hX/dHu1z+DM3tGo4p6TwZ0z+qUnLDym/T+me7oZ7DRKU
+7f4JP0/jOwW+H66zuL4u6Pv1gh80PmxK/iNlsIyzknBi/LrTMJ5shWvVWpzhrIGC
+N+TFx+SttnUDvWe1TjM8K5N4y7ymXitDAcXvyC70LRJhQnk01ukOuE8Wmu4dNRqT
+oZl5bTRdxLO+SbjGrJGfhdf8dcjDvjPwXr2zz/ijZlwtTigoJVTbnIauX9xj8aHl
+m9nKHWEtMlX5E0t/5RFEIIf9a2Ay5DLYQVA7GSWbwYUs/2wDkXyzixoVRcm3bg61
+1Em642kyl6gP1YewVqkf3Qefh7MGXErszBlNR5Kknej12XcrOJFJE62kghIh5hI4
+6oBv6SlnW1HWb9CIzLYXRQWTPZ0zhVwsUnH6hKA=
+=ABDw
 -----END PGP SIGNATURE-----
 
---===============9205366689091639862==
+--===============6975291189978834858==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-38fec10eb60d-0af2f6be1b42.txt
+Content-Disposition: attachment; filename=revlist-9739775a72b0-dffd411602b4.txt
 
-d327a12e636e902fd0c7178732813b041a1c9214 stmmac: Remove pcim_* functions for driver detach
-45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
-e364e4cebeb70a5f4f8cb28ca7480e1ddb361752 Merge branch 'stmmac-several-pci-related-improvements'
-cc04ed502457412960d215b9cd55f0d966fda255 stmmac: intel: interface switching support for RPL-P platform
-1ae1d705a1120e8e0ca41698c5a0fff6f5290bc1 net: dsa: microchip: fix DCB apptrust configuration on KSZ88x3
-a50b4fe095fb98e0b7da03b0a42fd1247284868e Merge tag 'timers-cleanups-2025-03-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-317a76a996043d336b85197aed5f44184b36ac4a Merge tag 'timers-vdso-2025-03-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-3f0cb8de56b9a5c052a9e43fa548856926059810 io_uring: fix retry handling off iowq
-3afcb3b2e3a4ead24e3ab476576e87877d55ee22 io_uring: defer iowq cqe overflow via task_work
-4c76de42cb6971fc2cc7984ed974caffe6ea7fda io_uring: open code __io_post_aux_cqe()
-d73acd7af3a329e8ebe5df1c738ae8c1d0a5f778 io_uring: rename "min" arg in io_iopoll_check()
-816619782bdc70d7f33a8d0cda36d61414cec467 io_uring: move min_events sanitisation
-c59d88101cd9ed609678880e93b8e7684c7ba68e Bluetooth: btnxpuart: Add correct bootloader error codes
-bf81cf29b77c09b8c0a5ef3d574945e57dfde787 Bluetooth: btnxpuart: Handle bootloader error during cmd5 and cmd7
-1f77c05408c96bc0b58ae476a9cadc9e5b9cfd0f Bluetooth: btnxpuart: Fix kernel panic during FW release
-3a7fdfb7d876910cfe734488f553dbbc938f8f16 Bluetooth: hci_event: Fix handling of HCI_EV_LE_DIRECT_ADV_REPORT
-eed14eb510c040a3826b633048244bb7a816c67d Bluetooth: MGMT: Add LL Privacy Setting
-fd87b7783802b45cdd261b273e6b2b792823064d net: Fix the devmem sock opts and msgs for parisc
-355d63e5de95de72561891b4d17b83ba82cfe42a arch: mips: defconfig: Drop obsolete CONFIG_NET_CLS_TCINDEX
-8cc14fdcc1b8473adcf90dae63a246042ebdcc25 Merge branches 'for-next/amuv1-avg-freq', 'for-next/pkey_unrestricted', 'for-next/sysreg', 'for-next/misc', 'for-next/pgtable-cleanups', 'for-next/kselftest', 'for-next/uaccess-mops', 'for-next/pie-poe-cleanup', 'for-next/cputype-kryo', 'for-next/cca-dma-address', 'for-next/drop-pxd_table_bit' and 'for-next/spectre-bhb-assume-vulnerable', remote-tracking branch 'arm64/for-next/perf' into for-next/core
-8ae9e2d8325698edc1335ede5401f68bcd7cc400 Merge branch 'for-next/smt-control' into for-next/core
-64fa6b9322a904198589c0479dca6f2ed7f2eb04 Merge branch 'for-next/el2-enable-feat-pmuv3p9' into for-next/core
 92009c3ba8903820077d29b6bb8be68780fedbdb thermal/drivers/qoriq: Use dev_err_probe() simplify the code
 229f3feb4b0442835b27d519679168bea2de96c2 thermal/drivers/qoriq: Power down TMU on system suspend
 1a685e2b3fc70f9a31ea28057471ba6615d8fa7b dt-bindings: thermal: tsens: Add ipq5332, ipq5424 compatible
@@ -1106,5 +1065,27 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 710329254dc303cd3b2df1a24674adecb1189385 Merge tag 'turbostat-2025.05.06' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
+2842e50a4404e8cd8bcb3c7bec78856909368edf Reapply "serial: 8250: Switch to nbcon console"
+87d0d1256a30def9167aac4402a645887fd9d345 Reapply "serial: 8250: Revert "drop lockdep annotation from serial8250_clear_IER()""
+d2e40a492f78899ddb5f67a2ee779f04343bc2fd arm64: enable PREEMPT_LAZY
+bf1765de40adf65637c5e489ea13eab367c2693f drm/i915: Use preempt_disable/enable_rt() where recommended
+b6f68524728bb2cd009151a7a78da555a61cb772 drm/i915: Don't disable interrupts on PREEMPT_RT during atomic updates
+10c0fc1e11fe4385a8adde4e96588fe04d65dd96 drm/i915: Don't check for atomic context on PREEMPT_RT
+8609a2441b2a3f40781c487427374f0835e7123c drm/i915: Disable tracing points on PREEMPT_RT
+a182bf47a7db9f3e101fa8a69a68adac7f88e321 drm/i915/gt: Use spin_lock_irq() instead of local_irq_disable() + spin_lock()
+05a42e75ff07d718f58449fb1afe58ae6c5487b6 drm/i915: Drop the irqs_disabled() check
+24785af8f5d22b24951dd5976651d3923411598a drm/i915/guc: Consider also RCU depth in busy loop.
+0a21740e8fa1eab459529b09805657f646ae0012 Revert "drm/i915: Depend on !PREEMPT_RT."
+7567dafd7e98c61fc41072a8e13afed91e04f315 arm: Disable jump-label on PREEMPT_RT.
+0c3b213bf352cf6b8903a4d23c4c1071adc2f45d ARM: enable irq in translation/section permission fault handlers
+5e4799f49b075a05cdb68e96a4ef04fb79c07760 arm: Disable FAST_GUP on PREEMPT_RT if HIGHPTE is also enabled.
+9cced2ce8f0295ea5c823ffb227247b590999132 ARM: Allow to enable RT
+d27df6c5168230814b3b8f7fda4a6fa662bb8344 powerpc/pseries/iommu: Use a locallock instead local_irq_save()
+be6d8463f8ea208f67a88d9fd4de373397488393 powerpc/pseries: Select the generic memory allocator.
+1246218118bb83002ff1c989749364046913b37a powerpc/kvm: Disable in-kernel MPIC emulation for PREEMPT_RT
+156f379e5b0af69a12a85e2140d63cb6171ac3a5 powerpc/stackprotector: work around stack-guard init from atomic
+7379ae4796d42b6c93da7f426d18497c447047cd POWERPC: Allow to enable RT
+1de3ab536f9cbc31ef571ebcdd5488e25af7595d sysfs: Add /sys/kernel/realtime entry
+dffd411602b44c7872b109d6df3e228b39ca9ee2 Add localversion for -RT release
 
---===============9205366689091639862==--
+--===============6975291189978834858==--
