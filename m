@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2202145516702546083=="
+Content-Type: multipart/mixed; boundary="===============7895608152735445531=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Thu, 10 Apr 2025 10:45:16 -0000
-Message-Id: <174428191604.122709.17166887690065647733@gitolite.kernel.org>
+Date: Thu, 10 Apr 2025 10:45:47 -0000
+Message-Id: <174428194788.123227.8981896335382330040@gitolite.kernel.org>
 
---===============2202145516702546083==
+--===============7895608152735445531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/WIP.x86/alternatives
-    old: edd09912234b65a552a9cfbdba6294f9b9d14b2b
-    new: 39407a123fdfa32f36a1bd84f5f3aa380c1e5fae
-    log: revlist-edd09912234b-39407a123fdf.txt
+  - ref: refs/heads/WIP.x86/mm
+    old: 8fb4ee0dc9a96f793bae4f86b411cd32f6c1a6f7
+    new: f0f3f2eef6a5a8ee53af25ae1d5d7ffcbb6e988e
+    log: revlist-8fb4ee0dc9a9-f0f3f2eef6a5.txt
 
---===============2202145516702546083==
+--===============7895608152735445531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-edd09912234b-39407a123fdf.txt
+Content-Disposition: attachment; filename=revlist-8fb4ee0dc9a9-f0f3f2eef6a5.txt
 
 9139e7edb16205c07637a4146efe11142b589db0 x86/alternatives: Improve code-patching scalability by removing false sharing in poke_int3_handler()
 c7948cb2afd9e55efd1b8befde7d7c63213a38f8 x86/alternatives: Document the text_poke_bp_batch() synchronization rules a bit more
@@ -79,5 +79,12 @@ d468da890d4d568aa2c04369c7320ecf690cec48 x86/alternatives: Simplify the #include
 077fe74a3befd007ae6e25b483d6af22400e85b3 x86/alternatives: Rename 'apply_relocation()' to 'text_poke_apply_relocation()'
 09783a0ce3a26fccf9dc4da70cec42745e5ce6d0 x86/alternatives: Add comment about noinstr expectations
 39407a123fdfa32f36a1bd84f5f3aa380c1e5fae x86/alternatives: Make smp_text_poke_batch_process() subsume smp_text_poke_batch_finish()
+7a50357bee43563074828c2cc7fa236ac489bcf5 x86/mm: Add 'mm' argument to unuse_temporary_mm()
+db7e4bbda38805e2e6883a342c59734b8e540042 x86/events, x86/insn-eval: Remove incorrect current->active_mm references
+570eea73a1766b0e0de872d7fbf155e771d97adc x86/mm: Make use_/unuse_temporary_mm() non-static
+dd1c6333b4da0e50fa349734e84ab65ddceac328 x86/mm: Remove 'mm' argument from unuse_temporary_mm() again
+88ad5772f6a351b0aed224a1cba051b4a8bb28c9 x86/mm: Allow temporary MMs when IRQs are on
+731da9656ec5f3477d12f303c3d63c18a8399f86 x86/efi: Make efi_enter/leave_mm() use the use_/unuse_temporary_mm() machinery
+f0f3f2eef6a5a8ee53af25ae1d5d7ffcbb6e988e x86/mm: Opt-in to IRQs-off activate_mm()
 
---===============2202145516702546083==--
+--===============7895608152735445531==--
