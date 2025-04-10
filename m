@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2854206677485560090=="
+Content-Type: multipart/mixed; boundary="===============9178135993368329867=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
-Date: Thu, 10 Apr 2025 14:14:01 -0000
-Message-Id: <174429444104.513620.798651269507460638@gitolite.kernel.org>
+Date: Thu, 10 Apr 2025 14:14:09 -0000
+Message-Id: <174429444985.513931.8657261171803700486@gitolite.kernel.org>
 
---===============2854206677485560090==
+--===============9178135993368329867==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/gnss-next
     old: 0ad2507d5d93f39619fc42372c347d6006b64319
     new: 0af2f6be1b4281385b618cb86ad946eded089ac8
     log: revlist-0ad2507d5d93-0af2f6be1b42.txt
 
---===============2854206677485560090==
+--===============9178135993368329867==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
 
---===============2854206677485560090==--
+--===============9178135993368329867==--
