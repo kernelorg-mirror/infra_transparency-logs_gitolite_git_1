@@ -1,62 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============6688691185017609550=="
+Content-Type: multipart/mixed; boundary="===============5366851054271321846=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Thu, 10 Apr 2025 14:51:23 -0000
-Message-Id: <174429668316.549934.6634408245117733874@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 10 Apr 2025 14:58:59 -0000
+Message-Id: <174429713952.555336.7694872536800432812@gitolite.kernel.org>
 
---===============6688691185017609550==
+--===============5366851054271321846==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/broonie/spi
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: f9a0df8682f9c40a9b488710fba237853bc9239d
-    new: 9aaa8bad658786c8ad5e1f7682a4b10b5be30f4a
-    log: revlist-f9a0df8682f9-9aaa8bad6587.txt
-  - ref: refs/heads/v6.15-armsoc/dtsfixes
-    old: 7fc027e894fae7c8661b52b1fde223004b2a8e0c
-    new: 6833cbdc733c9e1088fe9936b2dad95cc7d4c580
+  - ref: refs/heads/for-6.15
+    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
+    new: 82bedbfedd2fc7cd1287732879e515ceb94f8963
     log: |
-         c8c59bcac9300c22abf1afd7e236978a413c3644 arm64: dts: rockchip: Use "regulator-fixed" for btreg on px30-engicam for vcc3v3-btreg
-         6833cbdc733c9e1088fe9936b2dad95cc7d4c580 arm64: dts: rockchip: Fix mmc-pwrseq clock name on rock-pi-4
+         5d07ab2a7fa1305e429d9221716582f290b58078 spi: fsl-qspi: Fix double cleanup in probe error path
+         82bedbfedd2fc7cd1287732879e515ceb94f8963 spi: fsl-spi: Remove redundant probe error message
          
-  - ref: refs/heads/v6.16-armsoc/dts64
-    old: 200b3fa574c9377ff0b4e69a6ca4668939bf0cad
-    new: 8ecd096d018be8a6bd3bd930f3a41a85db66a67d
+  - ref: refs/heads/for-6.16
+    old: e686365c0411275474527c2055ac133f2eb47526
+    new: ed4db69169121ffd9d5a4bcf4d7acd5856cb20cd
     log: |
-         cdba8e71599a1a1cf9ca6e9573c243c9a21f899c arm64: dts: rockchip: Rename vcc3v3_pcie0 to vcc3v3_pcie1 for rk3576-evb1-v10
-         a37d21a9b45e47ed6bc1f94e738096c07db78a07 arm64: dts: rockchip: Add missing uart3 interrupt for RK3528
-         762b1f6503340b4729bc8a5fa6a5780712012cd8 arm64: dts: rockchip: Add DMA controller for RK3528
-         ab6fcb58aedf7df1d146b47d5fedd844a7c346e2 arm64: dts: rockchip: Add UART DMA support for RK3528
-         8ecd096d018be8a6bd3bd930f3a41a85db66a67d arm64: dts: rockchip: Move SHMEM memory to reserved memory on rk3588
+         5d07ab2a7fa1305e429d9221716582f290b58078 spi: fsl-qspi: Fix double cleanup in probe error path
+         82bedbfedd2fc7cd1287732879e515ceb94f8963 spi: fsl-spi: Remove redundant probe error message
+         3f7b48efb79d91883d98dd7e33dc2a0abfa9f923 spi: fsl-qspi: Simplify probe error handling using managed API
+         ed4db69169121ffd9d5a4bcf4d7acd5856cb20cd spi: fsl-qspi: Fix double cleanup in probe error path
          
-  - ref: refs/heads/v6.16-clk/next
-    old: 0000000000000000000000000000000000000000
-    new: 646bfc52bbe184c0579060c3919e5d70885b0dcc
 
---===============6688691185017609550==
+--===============5366851054271321846==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f9a0df8682f9-9aaa8bad6587.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-c8c59bcac9300c22abf1afd7e236978a413c3644 arm64: dts: rockchip: Use "regulator-fixed" for btreg on px30-engicam for vcc3v3-btreg
-6833cbdc733c9e1088fe9936b2dad95cc7d4c580 arm64: dts: rockchip: Fix mmc-pwrseq clock name on rock-pi-4
-831a8ac72264426ccd0ee5d2b0d74491ea7d2bfb clk: rockchip: rk3588: Add PLL rate for 1500 MHz
-cdba8e71599a1a1cf9ca6e9573c243c9a21f899c arm64: dts: rockchip: Rename vcc3v3_pcie0 to vcc3v3_pcie1 for rk3576-evb1-v10
-a37d21a9b45e47ed6bc1f94e738096c07db78a07 arm64: dts: rockchip: Add missing uart3 interrupt for RK3528
-762b1f6503340b4729bc8a5fa6a5780712012cd8 arm64: dts: rockchip: Add DMA controller for RK3528
-ab6fcb58aedf7df1d146b47d5fedd844a7c346e2 arm64: dts: rockchip: Add UART DMA support for RK3528
-8ecd096d018be8a6bd3bd930f3a41a85db66a67d arm64: dts: rockchip: Move SHMEM memory to reserved memory on rk3588
-646bfc52bbe184c0579060c3919e5d70885b0dcc clk: rockchip: Drop empty init callback for rk3588 PLL type
-fc08ef34b116c0f285cb32d66c5e07f0d0ec0087 Merge branch 'v6.15-armsoc/dtsfixes' into for-next
-a73507912b7c2dd172eb29f314fb83e76880bc9c Merge branch 'v6.16-armsoc/dts64' into for-next
-9aaa8bad658786c8ad5e1f7682a4b10b5be30f4a Merge branch 'v6.16-clk/next' into for-next
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1744297167 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1744297137-dcbc96e1dfab3a037da22e730dece80fea7cd5ae
 
---===============6688691185017609550==--
+0af2f6be1b4281385b618cb86ad946eded089ac8 82bedbfedd2fc7cd1287732879e515ceb94f8963 refs/heads/for-6.15
+e686365c0411275474527c2055ac133f2eb47526 ed4db69169121ffd9d5a4bcf4d7acd5856cb20cd refs/heads/for-6.16
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmf33M8ACgkQJNaLcl1U
+h9BT5wf9HIdPQ6cHGpC5nkYHwa5H5RUtMXJ/04M/ZBljXU3owBbmj3qequeLSLtm
+6+ISxdFTNYO34Zm60Nbv8WjDo3gIjwHuz3o36wgeVH+kUzW1OoZKLDBfh8E3qUhK
++fWbS2jnFzFvPh2XPeoe20MHs9xHto6TOIP5auQVa4IiJKxsRjG0BBRCxJ+ogzjn
+31H7HxqRWrA6Ece9iGG8Oh0lALt0gr1X4xhWXs35goY0Bt/h1Z65eNtDxOtfYH2O
+7h/2ViwHABZboGfV/u3cUTR6UB2qrt0v3rSg85cTijfvPDZAe3TKyaIhbRV6sxHe
+yktJIG6j8siBJqI2W7+cu4EOWhs1oQ==
+=a4B6
+-----END PGP SIGNATURE-----
+
+--===============5366851054271321846==--
