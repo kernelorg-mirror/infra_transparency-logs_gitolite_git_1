@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 10 Apr 2025 14:08:16 -0000
-Message-Id: <174429409696.507350.8362330126938842465@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
+Date: Thu, 10 Apr 2025 14:08:52 -0000
+Message-Id: <174429413242.507907.8745084750175185195@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/printk/linux
+user: pmladek
 changes:
-  - ref: refs/heads/spi-6.16
-    old: e686365c0411275474527c2055ac133f2eb47526
-    new: ed4db69169121ffd9d5a4bcf4d7acd5856cb20cd
+  - ref: refs/heads/for-6.15-printf-attribute
+    old: bd67c1c3c353b6560f2983bdd23c665e26cf83f9
+    new: b5960a06b90eeba147c50c2d14de57b923371651
     log: |
-         5d07ab2a7fa1305e429d9221716582f290b58078 spi: fsl-qspi: Fix double cleanup in probe error path
-         82bedbfedd2fc7cd1287732879e515ceb94f8963 spi: fsl-spi: Remove redundant probe error message
-         3f7b48efb79d91883d98dd7e33dc2a0abfa9f923 spi: fsl-qspi: Simplify probe error handling using managed API
-         ed4db69169121ffd9d5a4bcf4d7acd5856cb20cd spi: fsl-qspi: Fix double cleanup in probe error path
+         7efa84b5cdd6d473c7e80912638fca9d7167f202 compiler-gcc.h: Introduce __diag_GCC_all
+         b5960a06b90eeba147c50c2d14de57b923371651 vsprintf: Use __diag macros to disable '-Wsuggest-attribute=format'
          
