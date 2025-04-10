@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3998869961939750437=="
+Content-Type: multipart/mixed; boundary="===============0925763480176037947=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 10 Apr 2025 17:15:14 -0000
-Message-Id: <174430531454.677729.3001940538118689619@gitolite.kernel.org>
+Date: Thu, 10 Apr 2025 17:15:20 -0000
+Message-Id: <174430532081.678019.3051321616059179886@gitolite.kernel.org>
 
---===============3998869961939750437==
+--===============0925763480176037947==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/40GbE
     old: 420aabef3ab5fa743afb4d3d391f03ef0e777ca8
     new: a9843689e2de1a3727d58b4225e4f8664937aefd
     log: revlist-420aabef3ab5-a9843689e2de.txt
 
---===============3998869961939750437==
+--===============0925763480176037947==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -51,4 +51,4 @@ c52d4b898901f697c3b0b1bc2c61480b70dcc976 net: libwx: Redesign flow when sriov is
 877253d2cbf224ef5d1f239c8fd9bd2ad37d2cbe net: ngbe: add sriov function support
 a9843689e2de1a3727d58b4225e4f8664937aefd net: txgbe: add sriov function support
 
---===============3998869961939750437==--
+--===============0925763480176037947==--
