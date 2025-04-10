@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4244398428159750020=="
+Content-Type: multipart/mixed; boundary="===============8135419345107623652=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Thu, 10 Apr 2025 10:43:16 -0000
-Message-Id: <174428179647.119344.4174307476989782452@gitolite.kernel.org>
+Date: Thu, 10 Apr 2025 10:43:34 -0000
+Message-Id: <174428181475.119738.15041852040252447601@gitolite.kernel.org>
 
---===============4244398428159750020==
+--===============8135419345107623652==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,24 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/WIP.x86/mm
-    old: cab4f824fe3f029bb7f754713aa5e33e729bc11d
-    new: 8fb4ee0dc9a96f793bae4f86b411cd32f6c1a6f7
-    log: revlist-cab4f824fe3f-8fb4ee0dc9a9.txt
+  - ref: refs/heads/WIP.x86/alternatives
+    old: e23644ae3c2497717952a782db817a6a8fc57ed3
+    new: edd09912234b65a552a9cfbdba6294f9b9d14b2b
+    log: revlist-e23644ae3c24-edd09912234b.txt
 
---===============4244398428159750020==
+--===============8135419345107623652==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-cab4f824fe3f-8fb4ee0dc9a9.txt
+Content-Disposition: attachment; filename=revlist-e23644ae3c24-edd09912234b.txt
 
+5f27092328ce47104d2d569bab4d6ec329cb6fec net: phy: aquantia: search for firmware-name in fwnode
+e31e67f58cf2acc6ef25462b1479a2a8d8f82e57 net: phy: aquantia: add essential functions to aqr105 driver
+25b6a6d29d4082f6ac231c056ac321a996eb55c9 net: tn40xx: create swnode for mdio and aqr105 phy and add to mdiobus
+07cfe3a557564ad7d982625ce1f5d8b05a016f68 net: tn40xx: prepare tn40xx driver to find phy of the TN9510 card
+53377b5c2952097527b01ce2f1d9a9332f042f70 net: tn40xx: add pci-id of the aqr105-based Tehuti TN4010 cards
+b6f61a312a77c20e6ecb1e84fa1e68abcc2ed2de Merge branch 'net-tn40xx-add-support-for-aqr105-based-cards'
+bf2986fcf82a449441f9ee4335df19be19e83970 atm: Fix NULL pointer dereference
 ae8371a46e59d768a5540a237309962b50b8bec7 Merge tag 'edac_updates_for_v6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 a44940d094afa2e04b5b164b1e136fc18bcb4a2d net: libwx: fix Tx descriptor content for some tunnel packets
 c7d82913d5f9e97860772ee4051eaa66b56a6273 net: libwx: fix Tx L4 checksum
@@ -1043,12 +1050,5 @@ cb9b1582de72dc6b88a102c1d5db0ddf0bfc5969 x86/alternatives: Move declarations of 
 e711c5e52884a485e5cf989b7b4214d893f694ea x86/alternatives: Rename 'apply_relocation()' to 'text_poke_apply_relocation()'
 61be552c9b45cd837b52feed2880c90a9d4408ab x86/alternatives: Add comment about noinstr expectations
 edd09912234b65a552a9cfbdba6294f9b9d14b2b x86/alternatives: Make smp_text_poke_batch_process() subsume smp_text_poke_batch_finish()
-4902436d017b6136eda0c203fe9ec151a5b75bc4 x86/mm: Add 'mm' argument to unuse_temporary_mm()
-039f78a387bbd54ce457f55f2fa0b354fd566dba x86/events, x86/insn-eval: Remove incorrect current->active_mm references
-1f70bc9638c669bc1d02d363dd99f22f046b1a83 x86/mm: Make use_/unuse_temporary_mm() non-static
-fdc2f75350600ccb45a6a149317f1437872f36e3 x86/mm: Remove 'mm' argument from unuse_temporary_mm() again
-4f985c7efde74064439392d29800cd22cf83544e x86/mm: Allow temporary MMs when IRQs are on
-67c9be84496dba3df7b0c9aab98e7f6bd2557123 x86/efi: Make efi_enter/leave_mm() use the use_/unuse_temporary_mm() machinery
-8fb4ee0dc9a96f793bae4f86b411cd32f6c1a6f7 x86/mm: Opt-in to IRQs-off activate_mm()
 
---===============4244398428159750020==--
+--===============8135419345107623652==--
