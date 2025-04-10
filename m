@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3023209173969951715=="
+Content-Type: multipart/mixed; boundary="===============2854206677485560090=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Thu, 10 Apr 2025 14:13:50 -0000
-Message-Id: <174429443043.513342.12975030002980784953@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
+Date: Thu, 10 Apr 2025 14:14:01 -0000
+Message-Id: <174429444104.513620.798651269507460638@gitolite.kernel.org>
 
---===============3023209173969951715==
+--===============2854206677485560090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/johan/usb-serial
+repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/usb-linus
-    old: 4701f33a10702d5fc577c32434eb62adde0a1ae1
+  - ref: refs/heads/master
+    old: 0ad2507d5d93f39619fc42372c347d6006b64319
     new: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    log: revlist-4701f33a1070-0af2f6be1b42.txt
+    log: revlist-0ad2507d5d93-0af2f6be1b42.txt
 
---===============3023209173969951715==
+--===============2854206677485560090==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-4701f33a1070-0af2f6be1b42.txt
+Content-Disposition: attachment; filename=revlist-0ad2507d5d93-0af2f6be1b42.txt
 
 d327a12e636e902fd0c7178732813b041a1c9214 stmmac: Remove pcim_* functions for driver detach
 45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
@@ -1051,4 +1051,4 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
 
---===============3023209173969951715==--
+--===============2854206677485560090==--
