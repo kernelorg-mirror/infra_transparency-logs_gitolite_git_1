@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7761609361353218265=="
+Content-Type: multipart/mixed; boundary="===============8385999010480334429=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Thu, 10 Apr 2025 06:26:06 -0000
-Message-Id: <174426636652.4099530.12159231625231268790@gitolite.kernel.org>
+Date: Thu, 10 Apr 2025 06:28:06 -0000
+Message-Id: <174426648639.4100660.5608189593733975851@gitolite.kernel.org>
 
---===============7761609361353218265==
+--===============8385999010480334429==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,42 @@ repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/next/drivers
-    old: 2d14c680e92f09d18b984cd1a8fae437f9ebc2ab
-    new: 935e5bd95df2c79404630a691caf42c3d7bc3a93
+  - ref: refs/heads/for-next
+    old: fa683526da6c5920b09abab11976a2458d86db2c
+    new: 7f5cd39bff85f127db0a2a22c4510ad4450a44b1
     log: |
          935e5bd95df2c79404630a691caf42c3d7bc3a93 dt-bindings: firmware: google,gs101-acpm-ipc: add PMIC child node
+         7f5cd39bff85f127db0a2a22c4510ad4450a44b1 Merge branch 'next/drivers' into for-next
          
 
---===============7761609361353218265==
+--===============8385999010480334429==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1744266392 +0200
+pusher krzk@kernel.org 1744266514 +0200
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1744266361-cc998fe06850b6f723ae6fc74105db5f12642498
+nonce 1744266484-251ab5be691f3b40ca84864b906bac72ba10bce7
 
-2d14c680e92f09d18b984cd1a8fae437f9ebc2ab 935e5bd95df2c79404630a691caf42c3d7bc3a93 refs/heads/next/drivers
+fa683526da6c5920b09abab11976a2458d86db2c 7f5cd39bff85f127db0a2a22c4510ad4450a44b1 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmf3ZJgQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD12kFD/9/+MH1lsdutQTIj2sZjE1ApoJQmRtl94pW
-4m40itKkVKKq52nu81dXZYI9/CJV4HXfGfW8kxP+KPzRsS8zAloc5TRAuBM/mJbG
-DrCaGHTcl1Y01wjfRUt9VEPm7q8Ww/sxkFUJU2QCh4o2SiKKo3nQkrkYkCxq3QA9
-QcTLgGyOvky2hLryXei/Py6R353ltSZ709tAMaaor1Xisl7doLQxleCCyYupBToK
-GYWr1c2hjea1OTu75HGOt+xywRjr1iH9ddyhnHmNrFKS7s5IuRik3iF9+yi58V+A
-5W4Ir+t4v3e3/K5rozO+eTJ8/yEHWClNeAC4M5GqlZUZluNz6ZahKBTPLcYo9zgR
-E4kP2e/7BVJ94fnDhwZiDVcfaxV3TMSTCREfYeX8mMFsi216UyAXLnJ0ppDc+DeF
-WQhw7cLBv+20eid+c7hcnUR908335gilQ4F6MEZr9Fz55OE6IEoK96zB7475wiA/
-ZK/mtJ7HZPJOUQElEapCRriS1sSwDO0D0epyoVnKHJsYb6xKRX9S5uS4yM4XpwoS
-/f575wK83CS2M6QRT9GEqyXwRyQt9cq62VF9pyNpkxPWSXelcSYaSUPTftUNGo0Q
-BrVHSKYZIIYuK0S39CJNDNHGFVvV/6YLLy9QFHomUgyeTv6y4Ki28BW/oTwxMGCK
-fjBAZy72Vw==
-=FXpT
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmf3ZRIQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1xEbD/45jwx3qSZZqRgQTwE2UJAYbEJG1Yg3XgsP
+XKD0y7plzSuW25ooaGHl4a8Wud0errfbOSY3UmQ3xIsWG7k1e7zXwsU8QxOVdbRH
+1eDUz2dShPbUOxrkXawllPvkpBFmBufzmq9X1zkh4eIQuK/GrN4Ij3XAfvoYWHOc
+XqxshjZNaFpcVyKCtWosJAftb/1eaHv6suR4WpRUYfCMMPI9QxZYVKbYHPWXMix8
+S10Ljew7OSoYpl919Tv2BX+B9pkPIAOc3pFA2RYG7e5UxOuUXdG8qlvRGfZo6qG7
+OIg1ESohCVur9335ZosNZ8ZBLYZgqOFlLU24k7J/vrmLWd2NLaG0lp1bdU+oT4N2
+7CluyI+mPBGroSXUxt/dyeiOA7TsGMHnQFKP5Swg3shEL6dGz54ktba6e5Yf2zvn
+tzaI3PtEhjPUDm/dbSEqF4ZC1hgFH0Fn7k3dLnN2S8u7OD3Zlv/imOYQ8h8TpAeW
+QpX3G1vpslj6Vy5GEQ/xOxNHZqMsHoKMza4DMgCpbGPcxVVn55fvM9uNxkQyup0B
+A1UPfVGekXgSWl1A/y4oD2ELqEwA9AEhx1IsOMp/djdcV/dcSL6jMkBmuK/BJCnK
+/NwLwzlO/4aMQz8RHFURpVOttt1cvlo4TpJzqMPNQG0CTThOWm3InxdRBAcT0YV+
+3G1WmXLTlQ==
+=hV7Q
 -----END PGP SIGNATURE-----
 
---===============7761609361353218265==--
+--===============8385999010480334429==--
