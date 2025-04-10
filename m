@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6958507239083429021=="
+Content-Type: multipart/mixed; boundary="===============3329482325237586835=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Thu, 10 Apr 2025 17:08:48 -0000
-Message-Id: <174430492835.670302.14315552011727346954@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Thu, 10 Apr 2025 17:09:03 -0000
+Message-Id: <174430494339.670742.7746636880780477317@gitolite.kernel.org>
 
---===============6958507239083429021==
+--===============3329482325237586835==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
+repo: pub/scm/linux/kernel/git/riscv/linux
 user: palmer
 changes:
   - ref: refs/heads/fixes
@@ -20,7 +20,7 @@ changes:
     new: d6890adc70a0cc84b6296c090b80be3f2dbfcb8e
     log: revlist-4a1d8ababde6-d6890adc70a0.txt
 
---===============6958507239083429021==
+--===============3329482325237586835==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -217,4 +217,4 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 70fc03cd76311a06c8c84deb70b2e16837497774 Documentation: riscv: Fix typo MIMPLID -> MIMPID
 d6890adc70a0cc84b6296c090b80be3f2dbfcb8e Merge tag 'riscv-fixes-6.15-rc2' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/alexghiti/linux into fixes
 
---===============6958507239083429021==--
+--===============3329482325237586835==--
