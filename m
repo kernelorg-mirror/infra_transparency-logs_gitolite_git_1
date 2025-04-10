@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 10 Apr 2025 01:03:11 -0000
-Message-Id: <174424699184.3826402.3365884498530803983@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Thu, 10 Apr 2025 01:26:12 -0000
+Message-Id: <174424837248.3846413.4680420166982903256@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/main
-    old: fc75ea20ffb452652f0d4033f38fe88d7cfdae35
-    new: 6933cd4714861eea6848f18396a119d741f25fc3
+  - ref: refs/heads/perf-annotate+build
+    old: 6b4e380deb02de46aaab35d0d3f4a8cd8c9ffdba
+    new: 4af32d73e850cb2c0c1679a0d30a65d8d5f4222d
     log: |
-         6933cd4714861eea6848f18396a119d741f25fc3 ipv6: Align behavior across nexthops during path selection
+         dd2ca9ca0d76a04ba77e10bc39bf68a259053450 perf ui browser: Accept the left arrow key as a Zoom out if done on the first column
+         caab12ee523ccf7c144992e1bb32e3d3f58fe628 perf ui browser hists: Simplify the routines that add entries to the popup menu
+         4af32d73e850cb2c0c1679a0d30a65d8d5f4222d perf ui browser hists: Set actions->thread before calling do_zoom_thread()
          
