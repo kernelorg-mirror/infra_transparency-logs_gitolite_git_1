@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 10 Apr 2025 00:56:01 -0000
-Message-Id: <174424656132.3816864.2379784587427293295@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 10 Apr 2025 00:59:02 -0000
+Message-Id: <174424674225.3818248.11383999113936986127@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: f8cb38c32eb1ba14f82226bee1825e67cffe432f
-    new: 311920774c408ce3366888d3817e7e648e9ccf1c
+    old: 29d261466fa6ef540e991681069a736791d7b60a
+    new: fc75ea20ffb452652f0d4033f38fe88d7cfdae35
     log: |
-         e4cb911780231bb5bee35cd164a24bee8a3ef6a4 net: remove __get_unaligned_cpu32 from macvlan driver
-         1635eecdd298e46c9abce66695e55587d3957393 net: ipvlan: remove __get_unaligned_cpu32 from ipvlan driver
-         311920774c408ce3366888d3817e7e648e9ccf1c configs/debug: run and debug PREEMPT
+         f40a673d6b4a128fe95dd9b8c3ed02da50a6a862 net: phy: move phy_link_change() prior to mdio_bus_phy_may_suspend()
+         fc75ea20ffb452652f0d4033f38fe88d7cfdae35 net: phy: allow MDIO bus PM ops to start/stop state machine for phylink-controlled PHY
          
