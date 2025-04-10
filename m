@@ -1,34 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============7099269277683028560=="
+Content-Type: multipart/mixed; boundary="===============8837774452828125568=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/backlight
-Date: Thu, 10 Apr 2025 09:09:42 -0000
-Message-Id: <174427618274.39589.9704897432303579449@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
+Date: Thu, 10 Apr 2025 09:09:45 -0000
+Message-Id: <174427618553.39714.15158095140549059469@gitolite.kernel.org>
 
---===============7099269277683028560==
+--===============8837774452828125568==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/backlight
+repo: pub/scm/linux/kernel/git/lee/leds
 user: lee
 changes:
-  - ref: refs/heads/for-backlight-next
-    old: dfc034a0494b8fb8ea881aeb41a0c4e2619ff1e4
-    new: 7bb5c7961daafbf07e14e4c59284e87e20560758
-    log: revlist-dfc034a0494b-7bb5c7961daa.txt
+  - ref: refs/heads/for-leds-next
+    old: 161e3bea8fa5ba34b2291e5cfeb3e533cf991613
+    new: 74b4caf0042ebae250681daee4264e38bfee7e11
+    log: revlist-161e3bea8fa5-74b4caf0042e.txt
 
---===============7099269277683028560==
+--===============8837774452828125568==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-dfc034a0494b-7bb5c7961daa.txt
+Content-Disposition: attachment; filename=revlist-161e3bea8fa5-74b4caf0042e.txt
 
-45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
-e364e4cebeb70a5f4f8cb28ca7480e1ddb361752 Merge branch 'stmmac-several-pci-related-improvements'
-cc04ed502457412960d215b9cd55f0d966fda255 stmmac: intel: interface switching support for RPL-P platform
 1ae1d705a1120e8e0ca41698c5a0fff6f5290bc1 net: dsa: microchip: fix DCB apptrust configuration on KSZ88x3
 a50b4fe095fb98e0b7da03b0a42fd1247284868e Merge tag 'timers-cleanups-2025-03-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 317a76a996043d336b85197aed5f44184b36ac4a Merge tag 'timers-vdso-2025-03-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -1049,6 +1046,9 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 710329254dc303cd3b2df1a24674adecb1189385 Merge tag 'turbostat-2025.05.06' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
-7bb5c7961daafbf07e14e4c59284e87e20560758 backlight: pm8941: Add NULL check in wled_configure()
+312777f3e7bd268f1ceeae810444c0223a4a2cbf leds: led-triggers: Improvements for default trigger
+a41e1f06bd6ee3f472d7761ce4cc4c1d8f731eca leds: core: Bail out when composed name can't fit the buffer
+8cf1470f88b67169ad5147d16eb78840fcb611ff Documentation: leds: Remove .rst extension for leds-st1202 on index
+74b4caf0042ebae250681daee4264e38bfee7e11 leds: leds-cros_ec: Avoid -Wflex-array-member-not-at-end warning
 
---===============7099269277683028560==--
+--===============8837774452828125568==--
