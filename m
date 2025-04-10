@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2077703815784942538=="
+Content-Type: multipart/mixed; boundary="===============5273133222405376881=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Thu, 10 Apr 2025 17:57:09 -0000
-Message-Id: <174430782981.711869.12997874322589628515@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Thu, 10 Apr 2025 17:57:42 -0000
+Message-Id: <174430786211.712456.16881350993749217358@gitolite.kernel.org>
 
---===============2077703815784942538==
+--===============5273133222405376881==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
-    old: 35d13f841a3d8159ef20d5e32a9ed3faa27875bc
+    old: e9cbc854d8b148e3491291fb615e94261970fb54
     new: 1741189d843a1d5ef38538bc52a3760e2e46cb2e
-    log: revlist-35d13f841a3d-1741189d843a.txt
+    log: revlist-e9cbc854d8b1-1741189d843a.txt
 
---===============2077703815784942538==
+--===============5273133222405376881==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-35d13f841a3d-1741189d843a.txt
+Content-Disposition: attachment; filename=revlist-e9cbc854d8b1-1741189d843a.txt
 
 8ae9e2d8325698edc1335ede5401f68bcd7cc400 Merge branch 'for-next/smt-control' into for-next/core
 64fa6b9322a904198589c0479dca6f2ed7f2eb04 Merge branch 'for-next/el2-enable-feat-pmuv3p9' into for-next/core
@@ -1051,4 +1051,4 @@ bf5ea13bae3515ff1b6481a87e33b3a13f68096c perf ui browser annotate: Don't show th
 fd889776df3b9e0187cf2048c2c5407c8a9c205e perf ui browser hists: Simplify the routines that add entries to the popup menu
 1741189d843a1d5ef38538bc52a3760e2e46cb2e perf ui browser hists: Set actions->thread before calling do_zoom_thread()
 
---===============2077703815784942538==--
+--===============5273133222405376881==--
