@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6700581982021467195=="
+Content-Type: multipart/mixed; boundary="===============3211773233995464715=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Thu, 10 Apr 2025 14:13:25 -0000
-Message-Id: <174429440596.512665.13454405758333100589@gitolite.kernel.org>
+Date: Thu, 10 Apr 2025 14:13:33 -0000
+Message-Id: <174429441385.512949.9111795117613683814@gitolite.kernel.org>
 
---===============6700581982021467195==
+--===============3211773233995464715==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-next
-    old: 6a7713ec5337d3a535a1e35a7a7a71020436770e
+  - ref: refs/heads/master
+    old: 0ad2507d5d93f39619fc42372c347d6006b64319
     new: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    log: revlist-6a7713ec5337-0af2f6be1b42.txt
+    log: revlist-0ad2507d5d93-0af2f6be1b42.txt
 
---===============6700581982021467195==
+--===============3211773233995464715==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6a7713ec5337-0af2f6be1b42.txt
+Content-Disposition: attachment; filename=revlist-0ad2507d5d93-0af2f6be1b42.txt
 
 d327a12e636e902fd0c7178732813b041a1c9214 stmmac: Remove pcim_* functions for driver detach
 45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
@@ -1051,4 +1051,4 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
 
---===============6700581982021467195==--
+--===============3211773233995464715==--
