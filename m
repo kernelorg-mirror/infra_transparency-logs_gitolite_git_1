@@ -1,31 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============0253593891279763581=="
+Content-Type: multipart/mixed; boundary="===============7099269277683028560=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
-Date: Thu, 10 Apr 2025 09:09:32 -0000
-Message-Id: <174427617226.38643.2017652171115414410@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/backlight
+Date: Thu, 10 Apr 2025 09:09:42 -0000
+Message-Id: <174427618274.39589.9704897432303579449@gitolite.kernel.org>
 
---===============0253593891279763581==
+--===============7099269277683028560==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/mfd
+repo: pub/scm/linux/kernel/git/lee/backlight
 user: lee
 changes:
-  - ref: refs/heads/for-mfd-next
-    old: a8d1376568619d5b7fb867929b01eeaa59bb9097
-    new: f8aadaca01ce79bef149ecf4f31597a90fd3bde8
-    log: revlist-a8d137656861-f8aadaca01ce.txt
+  - ref: refs/heads/for-backlight-next
+    old: dfc034a0494b8fb8ea881aeb41a0c4e2619ff1e4
+    new: 7bb5c7961daafbf07e14e4c59284e87e20560758
+    log: revlist-dfc034a0494b-7bb5c7961daa.txt
 
---===============0253593891279763581==
+--===============7099269277683028560==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-a8d137656861-f8aadaca01ce.txt
+Content-Disposition: attachment; filename=revlist-dfc034a0494b-7bb5c7961daa.txt
 
+45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
+e364e4cebeb70a5f4f8cb28ca7480e1ddb361752 Merge branch 'stmmac-several-pci-related-improvements'
+cc04ed502457412960d215b9cd55f0d966fda255 stmmac: intel: interface switching support for RPL-P platform
+1ae1d705a1120e8e0ca41698c5a0fff6f5290bc1 net: dsa: microchip: fix DCB apptrust configuration on KSZ88x3
+a50b4fe095fb98e0b7da03b0a42fd1247284868e Merge tag 'timers-cleanups-2025-03-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 317a76a996043d336b85197aed5f44184b36ac4a Merge tag 'timers-vdso-2025-03-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3f0cb8de56b9a5c052a9e43fa548856926059810 io_uring: fix retry handling off iowq
 3afcb3b2e3a4ead24e3ab476576e87877d55ee22 io_uring: defer iowq cqe overflow via task_work
@@ -1044,11 +1049,6 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 710329254dc303cd3b2df1a24674adecb1189385 Merge tag 'turbostat-2025.05.06' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
-041738301ddb6746bfc4ae2903c98e7ab2d1d220 mfd: aat2870: Use per-client debugfs directory
-e38872441ee6bfc0ef3a1f915145180549c33d26 mfd: tps65010: Use per-client debugfs directory
-2c8de7df74185bd28f561a2986a9f47a2052b521 dt-bindings: mfd: syscon: Add qcom,apq8064-mmss-sfpb
-afbf564055696cfbf42ff839e2ab123c783a58f5 mfd: lpc_ich: Fix ARRAY_SIZE usage for apl_gpio_resources
-3f0b6b04d0840f879e5df22cbf90d1c37a0eedbd MAINTAINERS: Adjust the file entry in SIEMENS IPC LED DRIVERS
-f8aadaca01ce79bef149ecf4f31597a90fd3bde8 mfd: bcm590xx: Drop unused "id" member of bcm590xx struct
+7bb5c7961daafbf07e14e4c59284e87e20560758 backlight: pm8941: Add NULL check in wled_configure()
 
---===============0253593891279763581==--
+--===============7099269277683028560==--
