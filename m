@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 10 Apr 2025 22:01:13 -0000
-Message-Id: <174432247355.918868.8846563180014260258@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Thu, 10 Apr 2025 22:04:21 -0000
+Message-Id: <174432266119.920548.137905652877317308@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
   - ref: refs/heads/dev-queue
-    old: 06cfd31093d5bbbbf189de4d8c40644d92a31e31
-    new: 310ab4f6c1f3f6d9cf61e5d351131f3f43f59e46
+    old: 1b327db93ff5d306ef730f1a12bfa7b8a215f301
+    new: d4b5572f6411a4161380e89cdee00af1e133b7a7
     log: |
-         310ab4f6c1f3f6d9cf61e5d351131f3f43f59e46 idpf: fix potential memory leak on kcalloc() failure
+         d4b5572f6411a4161380e89cdee00af1e133b7a7 idpf: fix potential memory leak on kcalloc() failure
          
