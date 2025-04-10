@@ -1,61 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============6995723969807650711=="
+Content-Type: multipart/mixed; boundary="===============6551952509589341774=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 10 Apr 2025 09:54:56 -0000
-Message-Id: <174427889619.78923.6129632390037392606@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
+Date: Thu, 10 Apr 2025 09:59:40 -0000
+Message-Id: <174427918052.83230.7393448129862073194@gitolite.kernel.org>
 
---===============6995723969807650711==
+--===============6551952509589341774==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
+repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
-    old: 56de51508e6648907c3467e16cbac6e6656e1f10
-    new: 451e1a26d083e3564ab776c402ae426dd1006b7c
-    log: revlist-56de51508e66-451e1a26d083.txt
-  - ref: refs/heads/tip/urgent
-    old: ae3958efb5535afa48479e265aefdacce1c91b2f
-    new: d6e4cecb420c8ce05bf48305eafc7982e678170e
-    log: |
-         acea9943271b62905033f2f8ca571cdd52d6ea7b vdso: Address variable shadowing in macros
-         a2c4f3fbb369abbfc18344c8cf7aad45d2a04fbe Merge branch into tip/master: 'irq/urgent'
-         a452a59dc6ffac8654f9229266bb3165dd00b0b6 Merge branch into tip/master: 'objtool/urgent'
-         376a3b31b6aed39d7bc5e2a18774b217a3728cfc Merge branch into tip/master: 'perf/urgent'
-         cae1b61b02696127d2b6482408bc03eeceb1b239 Merge branch into tip/master: 'timers/urgent'
-         d6e4cecb420c8ce05bf48305eafc7982e678170e Merge branch into tip/master: 'x86/urgent'
-         
+  - ref: refs/heads/WIP.x86/msr
+    old: d8f039f279d08a8e117972559fbe394fa989b31d
+    new: eef476f15c8350078efb48bd9b9f3ff50ae1bbbb
+    log: revlist-d8f039f279d0-eef476f15c83.txt
 
---===============6995723969807650711==
+--===============6551952509589341774==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-56de51508e66-451e1a26d083.txt
+Content-Disposition: attachment; filename=revlist-d8f039f279d0-eef476f15c83.txt
 
-a2c4f3fbb369abbfc18344c8cf7aad45d2a04fbe Merge branch into tip/master: 'irq/urgent'
-a452a59dc6ffac8654f9229266bb3165dd00b0b6 Merge branch into tip/master: 'objtool/urgent'
-376a3b31b6aed39d7bc5e2a18774b217a3728cfc Merge branch into tip/master: 'perf/urgent'
-cae1b61b02696127d2b6482408bc03eeceb1b239 Merge branch into tip/master: 'timers/urgent'
-d6e4cecb420c8ce05bf48305eafc7982e678170e Merge branch into tip/master: 'x86/urgent'
-831386db82997088e83439fffcfd9385abc0d90e Merge branch into tip/master: 'irq/core'
-c578d839fdbdb9c3bf5adde2a374f5145a6e6602 Merge branch into tip/master: 'irq/drivers'
-f31a65e60718fdacffd6e3dc86e74a102018edcf Merge branch into tip/master: 'irq/msi'
-f0696268bb9ced7e17983bfc4e12186bd89ff1ab Merge branch into tip/master: 'perf/core'
-f9cc03cc2772e87741aa4cd7b76825e30114140a Merge branch into tip/master: 'sched/core'
-b012d3146ebce3ff58f863b28d28a3691a3580ce Merge branch into tip/master: 'timers/core'
-a0fb92089ea6bd0ff67908843b3662c256290636 Merge branch into tip/master: 'x86/alternatives'
-f08b3130b5865e97a221eaf8670809d5007682c5 Merge branch into tip/master: 'x86/asm'
-6edd474d325dc5b63d60e9da47e27a42019550e7 Merge branch into tip/master: 'x86/boot'
-54b8f05a046118967fd3af2e34b0f3a2e4dfbd22 Merge branch into tip/master: 'x86/cpu'
-e1043edfffe819f7002566772f02c0e8a36fcdb0 Merge branch into tip/master: 'x86/fpu'
-7fabf1e61c3b2d9ccd3f7b828884ea59920e5d97 Merge branch into tip/master: 'x86/kconfig'
-ce5e44a0bc27c824f02a62d102462cb8396846f2 Merge branch into tip/master: 'x86/microcode'
-cb36eaf6af77039cfc98bee13e22d6e6e9972587 Merge branch into tip/master: 'x86/mm'
-451e1a26d083e3564ab776c402ae426dd1006b7c Merge branch into tip/master: 'x86/nmi'
+dfe2574ce87e031c0c37d49b9bee7e1f3c95bff9 x86/msr: Standardize on u64 in <asm/msr.h>
+f4138de5e41fae1a0b406f0d354a3028dc46bf1f x86/msr: Standardize on u64 in <asm/msr-index.h>
+73bd1e01e98e71715aa060d40b8273ff6434e8d7 x86/msr: Use u64 in rdmsrl_amd_safe() and wrmsrl_amd_safe()
+cd905826cbc833b7494573998bd1c407dfa7924f x86/msr: Use u64 in rdmsrl_safe() and paravirt_read_pmc()
+d8f8aad698b85f197c877ec51f8585e2b2abb195 x86/msr: Harmonize the prototype and definition of do_trace_rdpmc()
+d58c04cf1d702fd6e133e89130f11a2ccd9269fa x86/msr: Standardize on 'u32' MSR indices in <asm/msr.h>
+c435e608cf59ffab815aa2571182dc8c50fe4112 x86/msr: Rename 'rdmsrl()' to 'rdmsrq()'
+78255eb23973323633432d9ec40b65c15e41888a x86/msr: Rename 'wrmsrl()' to 'wrmsrq()'
+6fe22abacd40e259fffec744a02d5ca3febccd68 x86/msr: Rename 'rdmsrl_safe()' to 'rdmsrq_safe()'
+6fa17efe45440f43fa4e059d7a487179bbba053e x86/msr: Rename 'wrmsrl_safe()' to 'wrmsrq_safe()'
+5e404cb7ac4c097e95896a4a3fba5f5aabf7f679 x86/msr: Rename 'rdmsrl_safe_on_cpu()' to 'rdmsrq_safe_on_cpu()'
+27a23a544a55b55259ee6b438497dd4384c387c5 x86/msr: Rename 'wrmsrl_safe_on_cpu()' to 'wrmsrq_safe_on_cpu()'
+d7484babd2c4dcfa1ca02e7e303fab3fab529d75 x86/msr: Rename 'rdmsrl_on_cpu()' to 'rdmsrq_on_cpu()'
+c895ecdab2e4ded78a362721c5a63053060030c9 x86/msr: Rename 'wrmsrl_on_cpu()' to 'wrmsrq_on_cpu()'
+ebe29309c4d2821d5fdccd5393eba9c77540e260 x86/msr: Rename 'mce_rdmsrl()' to 'mce_rdmsrq()'
+8e44e83f57c3289a41507eb79a315400629978ae x86/msr: Rename 'mce_wrmsrl()' to 'mce_wrmsrq()'
+e2b8af0c693993e80415997f4842a372359b463e x86/msr: Rename 'rdmsrl_amd_safe()' to 'rdmsrq_amd_safe()'
+604d15d15ebd6148a084ea53d0fa493a74e51b11 x86/msr: Rename 'wrmsrl_amd_safe()' to 'wrmsrq_amd_safe()'
+7cbc2ba7c107a1a537524ae505e192f4f88cc209 x86/msr: Rename 'native_wrmsrl()' to 'native_wrmsrq()'
+eef476f15c8350078efb48bd9b9f3ff50ae1bbbb x86/msr: Rename 'wrmsrl_cstar()' to 'wrmsrq_cstar()'
 
---===============6995723969807650711==--
+--===============6551952509589341774==--
