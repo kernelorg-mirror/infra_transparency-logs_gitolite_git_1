@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 10 Apr 2025 13:09:53 -0000
-Message-Id: <174429059361.403968.13165548732242987585@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Thu, 10 Apr 2025 13:10:04 -0000
+Message-Id: <174429060456.404309.9752120480494836372@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/next
-    old: 47a371695d8d2e1cab3bc3f80fa04efc16a0535e
-    new: 692770ea5f0bfb53046fe0dd1128d3a1ac8c9770
-    log: |
-         692770ea5f0bfb53046fe0dd1128d3a1ac8c9770 KEYS: Add a list for unreferenced keys
-         
+  - ref: refs/tags/juno-fix-6.15
+    old: 0000000000000000000000000000000000000000
+    new: ceb6fc6b37c484ebc197cfd8746713ee422c2c19
