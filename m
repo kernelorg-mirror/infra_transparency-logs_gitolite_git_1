@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 11 Apr 2025 07:12:57 -0000
-Message-Id: <174435557779.1383200.16723071656297661293@gitolite.kernel.org>
+Date: Fri, 11 Apr 2025 07:13:02 -0000
+Message-Id: <174435558291.1383466.15106584240285756558@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/filePf3Lns
-    old: 28cce24d6596a3d8a34689031f2a8a5ac918cde5
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/regulator-6.16
+    old: 48e6872b467a444352c2333c5aa6e7bd59677cef
+    new: 28cce24d6596a3d8a34689031f2a8a5ac918cde5
+    log: |
+         28cce24d6596a3d8a34689031f2a8a5ac918cde5 regulator: adp5055: remove duplicate device table
+         
