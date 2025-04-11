@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 11 Apr 2025 08:38:31 -0000
-Message-Id: <174436071171.1458495.11607492599412141128@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Fri, 11 Apr 2025 09:00:12 -0000
+Message-Id: <174436201262.1477148.15531180562973743635@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/xen/tip
+user: jgross
 changes:
-  - ref: refs/heads/main
-    old: 0c49baf099ba2147a6ff3bbdc3197c6ddbee5469
-    new: 61499764e5cc5918c9f63026d3b7a34c8668d4b8
+  - ref: refs/heads/linux-next
+    old: 64a66e2c3b3113dc78a6124e14825d68ddc2e188
+    new: 34d1957b6b6fea958bb6fb78e0c181cd91620243
     log: |
-         61499764e5cc5918c9f63026d3b7a34c8668d4b8 net: stmmac: stm32: simplify clock handling
+         715ad3e0ec2b13c27335749f27a5c9f0c0e84064 xen: fix multicall debug feature
+         34d1957b6b6fea958bb6fb78e0c181cd91620243 x86/xen: Fix __xen_hypercall_setfunc
          
