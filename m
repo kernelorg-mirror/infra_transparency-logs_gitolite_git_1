@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6781396601310419661=="
+Content-Type: multipart/mixed; boundary="===============3473122312527574339=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/trace-cmd/trace-cmd
-Date: Fri, 11 Apr 2025 20:42:47 -0000
-Message-Id: <174440416772.2135845.4082835567283921509@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rostedt/trace-cmd
+Date: Fri, 11 Apr 2025 20:42:51 -0000
+Message-Id: <174440417188.2136134.754626544638584626@gitolite.kernel.org>
 
---===============6781396601310419661==
+--===============3473122312527574339==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/trace-cmd/trace-cmd
+repo: pub/scm/linux/kernel/git/rostedt/trace-cmd
 user: rostedt
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 2fbeb31794b4e93e6d7325fea17be0a2778d499d
     log: revlist-a1b8a0f5461a-2fbeb31794b4.txt
 
---===============6781396601310419661==
+--===============3473122312527574339==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ f4ede17d96d3515afd866e834b7b5219ddedaf1f trace-cmd list: Show events in bash com
 6448ea34fe0a5a5ae53737d486a55b6fbdf8e843 trace-cmd show: Update help message for --hist and --trigger options
 2fbeb31794b4e93e6d7325fea17be0a2778d499d trace-cmd list: Show all functions that match string by default
 
---===============6781396601310419661==--
+--===============3473122312527574339==--
