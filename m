@@ -1,72 +1,145 @@
-Content-Type: multipart/mixed; boundary="===============4124510921697672287=="
+Content-Type: multipart/mixed; boundary="===============6851451546899777667=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 11 Apr 2025 15:38:08 -0000
-Message-Id: <174438588866.1877377.17402459191115568304@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Fri, 11 Apr 2025 15:42:26 -0000
+Message-Id: <174438614600.1881519.17114620734906909455@gitolite.kernel.org>
 
---===============4124510921697672287==
+--===============6851451546899777667==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/master
-    old: 900241a5cc15e6e0709a012051cc72d224cd6a6e
-    new: e618ee89561b6b0fdc69f79e6fd0c33375d3e6b4
-    log: revlist-900241a5cc15-e618ee89561b.txt
+  - ref: refs/heads/next
+    old: 153de2bbd5a1ce082d4d036a9daca0f0100fe8a1
+    new: 082f7c87e043e091852db09dfb249d68a17ac7a4
+    log: revlist-153de2bbd5a1-082f7c87e043.txt
+  - ref: refs/heads/seen
+    old: 0f08c0b09e498421455ae4221f9ea2fc78514c3a
+    new: 5df46d1cce222442fe6de3f563f8687693c10856
+    log: revlist-0f08c0b09e49-5df46d1cce22.txt
+  - ref: refs/notes/amlog
+    old: fca99aa6d2083ef33f396e510bd384ff8c76d38f
+    new: 6fabb16e4df2e6eb9acb28a4500d9c97a7b94909
+    log: |
+         4f354833d9c434a5c949745185334107384fa62e amlog
+         e0d8ccb2e34edd4ead940cb8ceb48e4bad0f9256 Notes added by 'git notes add'
+         a82916f53b5c6eb434e2a833ce3b4b60528e8c02 Notes added by 'git notes add'
+         13be6a05b4c3b4258020ea8804e26b80a12b691a Notes added by 'git notes add'
+         580f0a5628317026a76c932ece51799673c2c0d1 Notes added by 'git notes add'
+         525216ce6a37ca8d3780d9a3e4c46d4ea961b5e6 Notes added by 'git notes add'
+         217cb48de9fa763af32bc0bf72b4a955bdd4bb55 Notes added by 'git notes add'
+         589146eb024f3181c5d6b99e6e7a979eea26c749 Notes added by 'git notes add'
+         cfb5e7e81a56f1d91c32860c044b054fc5b283f7 Notes added by 'git notes add'
+         f84e1071f65ded4f1dcc83a1a654f1362f88428e Notes added by 'git notes add'
+         eef3ad6c38f619c8e2ae61c43f5a57f9fe9aa7f4 Notes added by 'git notes add'
+         b54c1437eac5a94396c76d582bd5a5f51e499123 Notes added by 'git notes add'
+         6fabb16e4df2e6eb9acb28a4500d9c97a7b94909 Notes added by 'git notes add'
+         
 
---===============4124510921697672287==
+--===============6851451546899777667==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-900241a5cc15-e618ee89561b.txt
+Content-Disposition: attachment; filename=revlist-153de2bbd5a1-082f7c87e043.txt
 
-9546ad1a9bda7362492114f5866b95b0ac4a100e nvme: requeue namespace scan on missed AENs
-a8605b0ed187f53f077a769ce2b52ddb97f3eb42 ACPI: button: Only send `KEY_POWER` for `ACPI_BUTTON_NOTIFY_STATUS`
-b988685388effd648150aab272533f833a2a70f0 ACPI: EC: Set ec_no_wakeup for Lenovo Go S
-7ab4f0e37a0f4207e742a8de69be03984db6ebf0 ACPI PPTT: Fix coding mistakes in a couple of sizeof() calls
-ad320e408a8c95a282ab9c05cdf0c9b95e317985 ata: pata_pxa: Fix potential NULL pointer dereference in pxa_ata_probe()
-62baf70c327444338c34703c71aa8cc8e4189bd6 nvme: re-read ANA log page after ns scan completes
-e3105f54a51554fb1bbf19dcaf93c4411d2d6c8a nvme: multipath: fix return value of nvme_available_path
-8d46a27085039158eb5e253ab8a35a0e33b5e864 ata: sata_sx4: Add error handling in pdc20621_i2c_read()
-b013b817f32fb8c560b6970e1002e94f1c725923 nvme-tcp: fix use-after-free of netns by kernel TCP socket.
-2ccd42b959aaf490333dbd3b9b102eaf295c036a s390/virtio_ccw: Don't allocate/assign airqs for non-existing queues
-8231a0e632405a03018034848d3c4620d7ba1dca s390: Add z17 elf platform
-c51ea9888e88fc20df656dab01263f17529c7374 s390: Allow to compile with z17 optimizations
-df194f57de7136b94bf25d2dce1da765b6c13654 s390/cpumf: Update CPU Measurement facility extended counter set support
-aa1ac98268cd1f380c713f07e39b1fa1d5c7650c s390/cpumf: Fix double free on error in cpumf_pmu_event_init()
-2b5f0c5bc819af2b0759a8fcddc1b39102735c0f nvmet-fcloop: swap list_add_tail arguments
-f22c458f9495f9164358961dd73b2f62356c9750 nvmet-fcloop: replace kref with refcount
-72511b1dc4147dc4af74ddb98c22366124b26d4e nvmet-fcloop: add ref counting to lport
-aeaa0913a6994bf56572a7035df3bce9ea183556 nvmet-fc: inline nvmet_fc_delete_assoc
-88517565b5929436741012938702385ef885a9c2 nvmet-fc: inline nvmet_fc_free_hostport
-1a909565733edb1d46c8e9692a1ee278912b5a77 nvmet-fc: update tgtport ref per assoc
-b0b26ad0e1943de25ce82a7e5af3574f31b1cf99 nvmet-fc: take tgtport reference only once
-70289ae5cac4d3a39575405aaf63330486cea030 nvmet-fc: put ref when assoc->del_work is already scheduled
-5d07ab2a7fa1305e429d9221716582f290b58078 spi: fsl-qspi: Fix double cleanup in probe error path
-82bedbfedd2fc7cd1287732879e515ceb94f8963 spi: fsl-spi: Remove redundant probe error message
-818ad0bb4000ac3540bcdc4f50a6e5b509c99ad0 Merge tag 'nvme-6.15-2025-04-10' of git://git.infradead.org/nvme into block-6.15
-df4bf3fa1b1e8d03380206fa027f956a62de517b iommu: Fix crash in report_iommu_fault()
-548183ea388c12b6d76d6982f3d72df3887af0da iommu/vt-d: Wire up irq_ack() to irq_move_irq() for posted MSIs
-7d8c490ba3967719bc023c1f81592659a79bd964 iommu/vt-d: Remove an unnecessary call set_dma_ops()
-280e5a30100578106a4305ce0118e0aa9b866f12 iommu: Clear iommu-dma ops on cleanup
-d9d3cede416719c2d41cd4da1955b12a85856e2f iommu/ipmmu-vmsa: Register in a sensible order
-99deffc409b69000ac4877486e69ec6516becd53 iommu/exynos: Fix suspend/resume with IDENTITY domain
-38e8844005e6068f336a3ad45451a562a0040ca1 iommu/mediatek: Fix NULL pointer deference in mtk_iommu_device_group
-ae4814a3aab54ce548950161937176b7f9ec6f77 iommu: remove unneeded semicolon
-767e22001dfce64cc03b7def1562338591ab6031 iommu/tegra241-cmdqv: Fix warnings due to dmam_free_coherent()
-3b607b75a345b1d808031bf1bb1038e4dac8d521 null_blk: Use strscpy() instead of strscpy_pad() in null_add_dev()
-dcc4aca53338d09f7b3272e00aab4a1ff8c69067 Merge branches 'acpi-ec' and 'acpi-button'
-9b03fa105c6978f0e20fd311ac903226a9e89890 Merge tag 's390-6.15-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
-c86e5b561a4a6b81828528fe61adf7352b756c7f Merge tag 'acpi-6.15-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-023e62ce85ced0ea6e71719d168be6b269d7f836 Merge tag 'iommu-fixes-v6.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/iommu/linux
-ff885625298f83785b7db1b95af051a080aab7b4 Merge tag 'block-6.15-20250411' of git://git.kernel.dk/linux
-2f3e5ef271e82836cefc3adbf4d1724a2c2aebbc Merge tag 'ata-6.15-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
-e618ee89561b6b0fdc69f79e6fd0c33375d3e6b4 Merge tag 'spi-fix-v6.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+4d253071ddd44ee5fad88702431603d43215b3af blame: print unblamable and ignored commits in porcelain mode
+b5dff2bd619d47aa09e757761e5ff72ecb0637b7 checkout: replace merge_trees() with merge_ort_nonrecursive()
+77c029493a671d9ee200bda42da0a3c04cdf110f builtin/merge-recursive: switch to using merge_ort_generic()
+2e806d8464decacc307cdbfa45c98be8e28382da merge-ort: enable diff-algorithms other than histogram
+f7ca9bbea6de24ff375bfba38c536b0a89474900 sequencer: switch non-recursive merges over to ort
+75cd9ae05fbc9d3e9ccbd8923f4fad76b3ec609f merge, sequencer: switch recursive merges over to ort
+ad45b327c0a13718ed5955319d1e735025676cc8 merge-recursive.[ch]: thoroughly debug these
+bfbd201e39b86028440fc95c47173d8da38e1cd2 tests: remove GIT_TEST_MERGE_ALGORITHM and test_expect_merge_algorithm
+170e30d6957e1f7b8d88046ae122f98d57dca988 builtin/{merge,rebase,revert}: remove GIT_TEST_MERGE_ALGORITHM
+09d86e0bb5159a767b97ec2e319ab49f1d9f28b3 t6020: test for duplicate refnames in bundle creation
+a52d459e72b890c192485002ec518bb9e01c19a6 bundle: fix non-linear performance scaling with refs
+9ec327d922298f7adfa366c1d1ab2a795985c51e builtin/update-server-info: remove unnecessary if statement
+da87b58014c1673ed8c47a14d315ad5ad4d801db sparse: ignore warning from new glibc headers
+832d9f6d0b57c353d18cf145835659ab5ac0124c ci: upgrade `sparse` to supported build agents
+f9356f9cb4c2c9c6baab30c1a8579445fddfe502 fetch: make set_head() call easier to read
+f1fb0644650a3c2ca5f957e29c626924c870b6cc refs/packed: fix BUG when seeking refs with UTF-8 characters
+c56b7746f23c5a5fb1d859ac82fc4e10f9948079 refs: fix duplicated word in comment
+27b7264206613a0fb36b4df21d24939b2a589095 environment.h: remove unused variables
+3071fce5776ab48506187e973b1966f00c88b1a3 Merge branch 'jk/fetch-follow-remote-head-fix' into next
+971ba23ba0715bc264d6fbc25d339f913d89acfa Merge branch 'kn/blame-porcelain-unblamable' into next
+555be94c733fbb6ebea9878cfc665821f9091d3e Merge branch 'en/merge-recursive-debug' into next
+f0d47e97b50a08143513e986591a4ec478b94c26 Merge branch 'ua/update-update-server-info' into next
+95fe0828729065ea2bd3970721ab1c1168cb0769 Merge branch 'cj/refname-avail-check-optim-typofix' into next
+0d351041479c9ed50b8d70c60188ccbf23dd658f Merge branch 'ps/refname-avail-check-optim' into next
+845b92c7ef7be9bc9acf25e2a54c722d664f024d Merge branch 'ab/environment-clean-header' into next
+14ee53c8e4b5d0074abbd3d1a21097f0f6ad5b01 Merge branch 'dd/sparse-glibc-workaround' into next
+fae10a2b5bcf241a7f4fe491c32a322ad59fcef6 Merge branch 'js/ci-github-update-ubuntu' into next
+082f7c87e043e091852db09dfb249d68a17ac7a4 Merge branch 'kn/bundle-dedup-optim' into next
 
---===============4124510921697672287==--
+--===============6851451546899777667==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-0f08c0b09e49-5df46d1cce22.txt
+
+955e00e24457eb161469feb0acddd525847be1d1 object-file: move `safe_create_leading_directories()` into "dir.c"
+e21581ed69ac0e83f87bf79a973a9491d4e42e44 object-file: move `git_open_cloexec()` to "compat/open.c"
+5f3ccd64ad23ad69bf5c836ea1ebb8a74d9c5dd9 object-file: move `xmmap()` into "wrapper.c"
+8c07b63de4da85047cb7f27856c40b1e593e961c object-file: split out functions relating to object store subsystem
+b3bf8cef5032b9e40a8cad5034e7eb2a17f5d507 object-file: split up concerns of `HASH_*` flags
+7498a964f3866f9deeb5f1d935ada3b33eea138a object-file: split out functions relating to index subsystem
+a706b12dc6bdd8a9b5cd5b5c3f24e6a6254ed940 object: split out functions relating to object store subsystem
+2b1bc611fa7a276b4b06186b507b113d27fe9ddb object-store: remove global array of cached objects
+1d4d3daec1d62acc1910742b2e02c03409456586 object-store: merge "object-store-ll.h" and "object-store.h"
+812084db4abfae8002a5a78038be71b677fb09fd Merge branch 'ps/reftable-windows-unlink-fix' into jch
+3700f66a9a683efc7143d1673f8818c4aa90c169 Merge branch 'jk/zlib-inflate-fixes' into jch
+13eb0b193c0a80491f6206ad3aac9429417d2acd Merge branch 'md/t1403-path-is-file' into jch
+2142e2a01cee4d191b1fdc43f0f2971b3846f0be Merge branch 'ps/object-wo-the-repository' into jch
+1ce1d7ec68ea48781feba8ccdd230d37ba805b25 Merge branch 'kn/reflog-drop' into jch
+22fe3ce0cadedfe8add95c0ac9741effc23604cb Merge branch 'ps/mingw-creat-excl-fix' into jch
+81574cd84370a51539d61a7b0737827c4af37c64 Merge branch 'lo/userdiff-gitconfig' into jch
+768601a87ff895fc14c0cb68ffbcc174cd4589a0 Merge branch 'ds/maintenance-loose-objects-batchsize' into jch
+06957456d077bc942cafe3422d2f8f92f128be75 Merge branch 'jt/clone-guess-remote-head-fix' into jch
+39482efe3b0861252299015dfd5fb8cdf9047a26 Merge branch 'js/comma-semicolon-confusion' into jch
+d346a28f6dee5f0e4dcc6c9a3bee65ac8b565241 Merge branch 'pw/custom-conflict-marker-size-for-merge-related-docs' into jch
+83f1f45ecfe7e0c2bbf103abb443e009e2a0d8cb Merge branch 'bc/allow-upload-pack-from-other-people' into jch
+e106bec28b92fa3f51a2608524fb433cd4cfd5ce Merge branch 'jt/ref-transaction-abort-fix' into jch
+3482f43944b8290b1ea607e2502c596b9be23168 Merge branch 'ab/rm-sign-compare' into jch
+ad011b2df3e3f86c3e75f9d6bd2525ca17ee1202 Merge branch 'sk/clar-trailer-urlmatch-norm-test' into jch
+df3ad05500568f8d3f4324c5d5a0b303378060df Merge branch 'ps/misc-build-fixes' into jch
+4dc12a852340110c7a82150ab753ef02cc6be460 Merge branch 'pb/perf-test-fixes' into jch
+3b9fa94636d6071805d4556c1fa03a32a1acfc4f Merge branch 'ab/pathspec-sign-compare-workaround' into jch
+264a6ea30d6dd6796d6a08edb5b9af42e21206e3 Merge branch 'jt/rev-list-z' into jch
+1c72142e3ad3161ec13ca4ea45822b14807b2885 Merge branch 'ps/maintenance-reflog-expire' into jch
+5e8500c724da5b4ef16e4b8e610576fe945f0f1d Merge branch 'zy/send-email-error-handling' into jch
+4f20d46b456377f94ded6a4d15dbca8e46a9c601 Merge branch 'kn/non-transactional-batch-updates' into jch
+576fdf6326a4ffa0aa52fca01aa18044e0f3c9ae Merge branch 'jt/help-sha-backend-info-in-build-options' into jch
+bca3bb589d4fac94a028d5c3567264ab2a087e32 Merge branch 'ps/test-wo-perl-prereq' into jch
+3a9c27b85a053adaa93bfbe071febfd790b46bc4 Merge branch 'ps/cat-file-filter-batch' into jch
+3976f8412062053b539438303393db062b85f98f Merge branch 'jk/fetch-follow-remote-head-fix' into jch
+119bcb5d867b20b0c561692471375b6d459315b7 Merge branch 'kn/blame-porcelain-unblamable' into jch
+d9364968c71c51e27d57e98bdfcc1ac87eb84d49 Merge branch 'en/merge-recursive-debug' into jch
+0bbaba3efe77cd2ab3572168990df94ee40a1906 Merge branch 'ua/update-update-server-info' into jch
+db0b213adea1038bd9670e37adaf4aa58fcbe8c5 Merge branch 'cj/refname-avail-check-optim-typofix' into jch
+198dd65818eaef40d834ec196547b18c9e8fa305 Merge branch 'ps/refname-avail-check-optim' into jch
+1a3f70cdbd025a63cf8d4a8511fbf849a767775e Merge branch 'ab/environment-clean-header' into jch
+1b5113c81d9b4f91141d0c3664843d314140d07c Merge branch 'dd/sparse-glibc-workaround' into jch
+ca905cc11a5f6a2d9afc4bff9b3d6e4a7fd07079 Merge branch 'js/ci-github-update-ubuntu' into jch
+a76a4578cdd240e00808d10ecfcee688b750c7bd Merge branch 'kn/bundle-dedup-optim' into jch
+440362cfa4b13c357748f7d9ceb8c9f6ca0e33e2 ### match next
+639858b4bf2ff717a223508293d5318db1eba837 Merge branch 'js/range-check-codeql-workaround' into jch
+b2c38fa904dc0febf80c9c511b42afc5916cd2e8 Merge branch 'mh/left-right-limited' into jch
+2e4923dc213c530bb62eb9c3bdbfe9f3a208f4df Merge branch 'ej/cat-file-remote-object-info' into jch
+8d42857a2c52fcc424ba5fce63fa7a57e68d0177 Merge branch 'ds/path-walk-2' into jch
+04572b8a35038b773e58eb21fef3973191864fe2 Merge branch 'sc/bundle-uri-use-all-refs-in-bundle' into jch
+dde3ad11b241b0c513d010ee1767a6d5aa5aff49 Merge branch 'pb/status-rebase-fixes' into jch
+30174dcd9c17a0d97afaa24445fa297ea4e20751 Merge branch 'ja/doc-reset-mv-rm-markup-updates' into jch
+865bd28d827363f67db734f01c81881f614f1c30 Merge branch 'md/userdiff-bash-shell-function' into jch
+07b7d8836916010235153157bbbc6889eff368b7 Merge branch 'ps/reftable-api-revamp' into jch
+2d958a9ff863ad2abefb90e8181ca079ec9f4b11 Merge branch 'kn/meson-hdr-check' into jch
+fe6194b4ff57c2b9f207992826fc846f9ad50251 Merge branch 'rj/build-tweaks' into jch
+839cb70fe00a218cda6ce36563bd3a13e0a4e5ac Merge branch 'ps/object-file-cleanup' into jch
+5df46d1cce222442fe6de3f563f8687693c10856 Merge branch 'ib/diff-S-G-with-longhand' into seen
+
+--===============6851451546899777667==--
