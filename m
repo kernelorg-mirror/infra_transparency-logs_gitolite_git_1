@@ -1,54 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============1682811330848362311=="
+Content-Type: multipart/mixed; boundary="===============7087811444838664353=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Fri, 11 Apr 2025 12:58:52 -0000
-Message-Id: <174437633274.1732053.12705637196211806955@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Fri, 11 Apr 2025 13:00:23 -0000
+Message-Id: <174437642337.1734921.8068070560516658747@gitolite.kernel.org>
 
---===============1682811330848362311==
+--===============7087811444838664353==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/rcu/for-next
-    old: d57a11502f548ee669f2c5fccb4b38da4f0ffbc6
-    new: 75cf58ef310a394ac4f04f962caa603ce3f8bcff
-    log: revlist-d57a11502f54-75cf58ef310a.txt
-  - ref: refs/heads/rcu/torture-for-6.16
-    old: 21b711d8f8726a5ec20443f6bc3649798241719d
-    new: d2209fd1f385a044bad58baa61e07611025999a0
+  - ref: refs/heads/review-ilpo-next
+    old: 88f67f2a99f061cb938812db3deb965504cf5c5c
+    new: 8c173c39e3474c816bc5e9bb2124e2318a7aad4b
     log: |
-         a3204f778cf7e37c7344404768398b4f9d43a368 rcutorture: Make torture.sh --do-rt use CONFIG_PREEMPT_RT
-         86b00896e29b07105b2b0acccfbfa8270ee0be8e rcutorture: Add tests for SRCU up/down reader primitives
-         1507f995dad31cb01832ec93e729ef7d60f51a54 rcutorture: Pull rcu_torture_updown() loop body into new function
-         1b983c34d56955f054dcd6c2aa490017df165087 rcutorture: Comment invocations of tick_dep_set_task()
-         ddd062f7536cc09fe7ff1a66816601984bc68af8 rcutorture: Complain if an ->up_read() is delayed more than 10 seconds
-         1c81e4d38304dc5504595b19c8e4f7ea0a48fadc rcutorture: Check for ->up_read() without matching ->down_read()
-         571a2489fb59b729ace2b0226011c4541375ed61 checkpatch: Deprecate srcu_read_lock_lite() and srcu_read_unlock_lite()
-         86b30552c9d1f4b15bb1d412601fe6d964700a19 torture: Add --do-{,no-}normal to torture.sh
-         d2209fd1f385a044bad58baa61e07611025999a0 torture: Add testing of RCU's Rust bindings to torture.sh
+         78a7491d5cba8b63c8dbaafc15cc92a2e3f049ca platform/x86:intel/pmc: Move PMC Core related functions
+         e9f9cf3fe3ead543d006c2ddf1d03df23b11f7f5 platform/x86:intel/pmc: Rename core_ssram to ssram_telemetry
+         1b1aaa9cbe8dc848d143124cf6e1990f4761c6d7 platform/x86:intel/pmc: Move PMC devid to core.h
+         052fabddeaa70bdb256cbdae152291bd8a1bee0c platform/x86:intel/pmc: Convert index variables to be unsigned
+         41c5c2215ee86a9a27c76c8d0ef0a3d1aa49698a platform/x86:intel/pmc: Remove unneeded header file inclusion
+         8c173c39e3474c816bc5e9bb2124e2318a7aad4b platform/x86:intel/pmc: Remove unneeded io operations
          
 
---===============1682811330848362311==
+--===============7087811444838664353==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d57a11502f54-75cf58ef310a.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-a3204f778cf7e37c7344404768398b4f9d43a368 rcutorture: Make torture.sh --do-rt use CONFIG_PREEMPT_RT
-86b00896e29b07105b2b0acccfbfa8270ee0be8e rcutorture: Add tests for SRCU up/down reader primitives
-1507f995dad31cb01832ec93e729ef7d60f51a54 rcutorture: Pull rcu_torture_updown() loop body into new function
-1b983c34d56955f054dcd6c2aa490017df165087 rcutorture: Comment invocations of tick_dep_set_task()
-ddd062f7536cc09fe7ff1a66816601984bc68af8 rcutorture: Complain if an ->up_read() is delayed more than 10 seconds
-1c81e4d38304dc5504595b19c8e4f7ea0a48fadc rcutorture: Check for ->up_read() without matching ->down_read()
-571a2489fb59b729ace2b0226011c4541375ed61 checkpatch: Deprecate srcu_read_lock_lite() and srcu_read_unlock_lite()
-86b30552c9d1f4b15bb1d412601fe6d964700a19 torture: Add --do-{,no-}normal to torture.sh
-d2209fd1f385a044bad58baa61e07611025999a0 torture: Add testing of RCU's Rust bindings to torture.sh
-75cf58ef310a394ac4f04f962caa603ce3f8bcff Merge branches 'rcu/misc-for-6.16', 'rcu/seq-counters-for-6.16' and 'rcu/torture-for-6.16' into rcu/for-next
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1744376449 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1744376418-ce1f2c8c43338ef1bb135b7b8846d11d5a0f893f
 
---===============1682811330848362311==--
+88f67f2a99f061cb938812db3deb965504cf5c5c 8c173c39e3474c816bc5e9bb2124e2318a7aad4b refs/heads/review-ilpo-next
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZ/kShQAKCRBZrE9hU+XO
+McfhAQC+720Md5njZzqGHAabvlEe6/ktQ+2WXf4HEQHewXMKcwEAp6Vnf4IbI1j6
+L6pdA/9I277DN41SdOqJUH9uV+oA3w4=
+=YwX9
+-----END PGP SIGNATURE-----
+
+--===============7087811444838664353==--
