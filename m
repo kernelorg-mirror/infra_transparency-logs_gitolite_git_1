@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2806039475201449550=="
+Content-Type: multipart/mixed; boundary="===============1380986150419513685=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Fri, 11 Apr 2025 08:17:13 -0000
-Message-Id: <174435943336.1440258.12722260762985326408@gitolite.kernel.org>
+Date: Fri, 11 Apr 2025 08:18:03 -0000
+Message-Id: <174435948323.1440939.12759597967228007930@gitolite.kernel.org>
 
---===============2806039475201449550==
+--===============1380986150419513685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 0aae2867aa6067f73d066bc98385e23c8454a1d7
     new: cfe82469a00f0c0983bf4652de3a2972637dfc56
     log: revlist-0aae2867aa60-cfe82469a00f.txt
 
---===============2806039475201449550==
+--===============1380986150419513685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ab59a8605604f71bbbc16077270dc3f39648b7fc Merge tag 'net-6.15-rc2' of git://git.k
 6afd0a3c7ecb5049d75801a3efda0ada70483bd0 io_uring/zcrx: enable tcp-data-split in selftest
 cfe82469a00f0c0983bf4652de3a2972637dfc56 ipv6: add exception routes to GC list in rt6_insert_exception
 
---===============2806039475201449550==--
+--===============1380986150419513685==--
