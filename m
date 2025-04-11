@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Fri, 11 Apr 2025 21:54:15 -0000
-Message-Id: <174440845519.2195360.15557186188151641992@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 11 Apr 2025 23:35:48 -0000
+Message-Id: <174441454870.2276476.10155564014895372191@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arighi/linux
-user: arighi
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/scx
-    old: 0010c3931c87b3746351b29e52c2e95051796aaa
-    new: d9245d988410cd4cb93f3db4443c0f0bf061e7c9
+  - ref: refs/heads/main
+    old: 61499764e5cc5918c9f63026d3b7a34c8668d4b8
+    new: faeefc173be40512341b102cf1568aa0b6571acd
     log: |
-         d9245d988410cd4cb93f3db4443c0f0bf061e7c9 sched/fair: Prefer full-idle SMT cores
+         faeefc173be40512341b102cf1568aa0b6571acd sock: Correct error checking condition for (assign|release)_proto_idx()
          
