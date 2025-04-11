@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Fri, 11 Apr 2025 17:28:08 -0000
-Message-Id: <174439248826.1976467.12593774118797540116@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Fri, 11 Apr 2025 17:37:02 -0000
+Message-Id: <174439302208.1984178.16865285743297084493@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/master
-    old: 0b51f0ac3dc5dab8d530c4f86e0adf57237cfb75
-    new: a650d38915c194b87616a0747a339b20958d17db
+  - ref: refs/heads/wip/leon-for-rc
+    old: 9a0e6f15029e1a8a21e40f06fd05aa52b7f063de
+    new: ffc59e32c67e599cc473d6427a4aa584399d5b3c
     log: |
-         a650d38915c194b87616a0747a339b20958d17db bpf: Convert ringbuf map to rqspinlock
+         ffc59e32c67e599cc473d6427a4aa584399d5b3c RDMA/bnxt_re: Remove unusable nq variable
          
