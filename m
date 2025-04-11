@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5222393484826389325=="
+Content-Type: multipart/mixed; boundary="===============5917045981461970114=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 11 Apr 2025 15:36:28 -0000
-Message-Id: <174438578811.1874815.5414468632384841202@gitolite.kernel.org>
+Date: Fri, 11 Apr 2025 15:36:32 -0000
+Message-Id: <174438579244.1875008.5668438560146499549@gitolite.kernel.org>
 
---===============5222393484826389325==
+--===============5917045981461970114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: eaa517b77e63442260640d875f824d1111ca6569
     new: cfe82469a00f0c0983bf4652de3a2972637dfc56
     log: revlist-eaa517b77e63-cfe82469a00f.txt
 
---===============5222393484826389325==
+--===============5917045981461970114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -388,4 +388,4 @@ ab59a8605604f71bbbc16077270dc3f39648b7fc Merge tag 'net-6.15-rc2' of git://git.k
 6afd0a3c7ecb5049d75801a3efda0ada70483bd0 io_uring/zcrx: enable tcp-data-split in selftest
 cfe82469a00f0c0983bf4652de3a2972637dfc56 ipv6: add exception routes to GC list in rt6_insert_exception
 
---===============5222393484826389325==--
+--===============5917045981461970114==--
