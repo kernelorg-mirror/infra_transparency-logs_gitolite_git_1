@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0065644039846381831=="
+Content-Type: multipart/mixed; boundary="===============4863653389809031152=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 11 Apr 2025 14:57:45 -0000
-Message-Id: <174438346533.1839325.14919258024902813643@gitolite.kernel.org>
+Date: Fri, 11 Apr 2025 14:59:25 -0000
+Message-Id: <174438356523.1840132.8993800895048678823@gitolite.kernel.org>
 
---===============0065644039846381831==
+--===============4863653389809031152==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,62 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-testing
-    old: 86bcae88c9209e334b2f8c252f4cc66beb261886
-    new: 043806bc9dbc6597dd15e6ca9220ae2746425f2f
-    log: revlist-86bcae88c920-043806bc9dbc.txt
+  - ref: refs/heads/tty-linus
+    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
+    new: ee6a44da3c87cf64d67dd02be8c0127a5bf56175
+    log: |
+         7094832b5ac861b0bd7ed8866c93cb15ef619996 serial: msm: Configure correct working mode before starting earlycon
+         ee6a44da3c87cf64d67dd02be8c0127a5bf56175 tty: Require CAP_SYS_ADMIN for all usages of TIOCL_SELMOUSEREPORT
+         
 
---===============0065644039846381831==
+--===============4863653389809031152==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1744383489 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1744383592 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1744383459-c9da9c5be9e5c67735f6f40afe05a46ad62c26b7
+nonce 1744383561-1f615bfcd3bb375fcb7bc3d3d929744c27cd8a2c
 
-86bcae88c9209e334b2f8c252f4cc66beb261886 043806bc9dbc6597dd15e6ca9220ae2746425f2f refs/heads/tty-testing
+0af2f6be1b4281385b618cb86ad946eded089ac8 ee6a44da3c87cf64d67dd02be8c0127a5bf56175 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmf5LgIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RmcQAKMpuxbp9x399sFaOEq6
-hrsLbR2ivKKqP+Ta2V8qB2aCdNJcG7Io3hv1lhn+ZqiaD4AA1rFLRGnzgpONqAwn
-a5DvxViNUomHxGwuJ7xSXP0+c6j/gBwte8mKz+8EmZw0QhXEtM7uRB8KX7rEuWdd
-qybJOoHjLPxNWOFoHP1ozLnD78Ei0VWoR/MNhOxjm7Yfeq723yoHnd8U9C/7FhTP
-J4fM8tOxZ37u6lQUuqhND8mtR35qgtKCau4oDAn8lh8uexjc/FD8IrYMUcGrwYox
-B/gHGcxYLPFs9yYtSrN/vZHlpUz1+TsJxHCTX0EjVvq7vgR7O83M+/lWSWWHmG2L
-Ea1xHyyNHvFr7dBBXLMMmyfTLSJaI93khxr3MCgHwsG8RbHjZlhw6lTs6G74luiQ
-i8XOy/T6754yprniBCSaPCRRSNehmoLwGQcFQy28bDC4hlcBDbJnyc6I88hpmwy7
-fzxU5Q2Z24mXHV65rvE4ffnUmMrgFDCvDIsxm7lUv0B03VqKuQKZja5pkqDi+zmw
-gRw6U8Xj4rEZaBdqOSwb3i/ZoW5o7fUnNKvO6nl1ygcG8xKtO8rU/dWriiTx5EhH
-FLTtNw1gBxRbK8sOI2VxaNMNmCVPZf3jV0IN9AaQou49O7niWrFDEw4LtiHXQ8Se
-7LBAoMtfacLlabmoWImFaueX
-=aOpX
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmf5LmgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+raIQAIVfa5F7doZpjsRrb5uT
+xZ8ADgVW8/PgEhwrp4yX9vpDNZxN6k3v1ne5V8SOt9az+MEEwQXBvwBtBQukaYPm
+tTeU2Ef8OrSTNJYgNEV1Dyn8VqT9xq7A7HYpR3rLY5ySSZ3OanxMNsop0Q/0gC0L
+W61hLRcEQ/zOCTFM3Cs1sqXOkF4ZPsiOmA/phaDgmyU2BwuzOKa3aOiViA063mjP
+Glh2rBQRLrT969/VXpH/3fNMTHYBfhzrlDefi8zeGkVveXHRvOJVzEI2XDCvXQf0
+SvLXLDkMAmcDjkSnGNdnMcaCGepkAAYB3TL/F3DfPJPhbnpOfeV91cgTp2v8ykEo
+WiWKiyRd9o+feB66uXwvAPEJs9lbh6zCcSib1FTKG/vdMNuYiG3c0B9Ec0dH3e1R
+U6II0bw5EG9lO4+QK6vCc35WcpYyRsmYBzobqFp5XEE2iN8NVdK8w3OEBWshwkmv
+OAUU2nQ0ZIbt5n+p0BLk5hP1w7J2FrcpAK1SWW8g/alshcMWsIqg33KxWxw7cr02
+q2dCRraVO8bRH8xRS/z2DZpE1xvLFcpRuPVWOkxPu6J0hILfDxMh3aRnk+cHj7WJ
+9j4lqM9ic+F2v4qYrBfgZ3PHSKgwEYZpNstmXfgyVSCXJMUs1JCrYgK4dnfYoHd2
+IjVx3LPUudll3PKdEkP2ICAG
+=1mYE
 -----END PGP SIGNATURE-----
 
---===============0065644039846381831==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-86bcae88c920-043806bc9dbc.txt
-
-74045f6658f11241a09d93404d79828cc99e94dc vt: minor cleanup to vc_translate_unicode()
-2acaf27cd7f4f32bfe8bf7335690618e2417e744 vt: move unicode processing to a separate file
-e88391f730e46d208b7fb37b02611d24137af1ef vt: properly support zero-width Unicode code points
-26c94eb4842ada96f9709b43ef225417a6b4df63 vt: introduce gen_ucs_width.py to create ucs_width.c
-3a1ab63aa05b4736a7d30ae0a769385662f13def vt: update ucs_width.c using gen_ucs_width.py
-f2347b0cdf65e614732c2307863c95304f72d9d9 vt: introduce gen_ucs_recompose.py to create ucs_recompose.c
-54af55b990eda5a6a0140a3cded8094b42c0c3b7 vt: create ucs_recompose.c using gen_ucs_recompose.py
-cd6937d42bca46f2143544918e535d6fd22b71b7 vt: support Unicode recomposition
-119ff0b0f4541972d829da606599441dace2444d vt: update gen_ucs_width.py to produce more space efficient tables
-c7cb5b0779d782c1bda10414af7a9fcadcc87e93 vt: update ucs_width.c following latest gen_ucs_width.py
-547f57b88d5f2ad4e9ab5e0d63a668467c10c736 vt: pad double-width code points with a zero-white-space
-b35f7a773cbcbfea3bc87a33c7d0f39e34ed83ec vt: remove zero-white-space handling from conv_uni_to_pc()
-25422e8f46c1fd147886f0dc8851eb66c9ba2d48 dt-bindings: serial: Add compatible for Renesas RZ/T2H SoC in sci
-d004e3595718b8b55009c08ff59cf13be5490f59 serial: sh-sci: Fix a comment about SCIFA
-21fc3d6b45ba42c471fb718ce922d1f9abe26238 serial: sh-sci: Introduced function pointers
-043806bc9dbc6597dd15e6ca9220ae2746425f2f serial: sh-sci: Introduced sci_of_data
-
---===============0065644039846381831==--
+--===============4863653389809031152==--
