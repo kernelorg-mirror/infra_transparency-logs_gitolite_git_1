@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4812568723540091898=="
+Content-Type: multipart/mixed; boundary="===============2505795636042252169=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 11 Apr 2025 14:11:44 -0000
-Message-Id: <174438070488.1797227.13831227303669089107@gitolite.kernel.org>
+Date: Fri, 11 Apr 2025 14:12:25 -0000
+Message-Id: <174438074561.1797716.8732613295650207984@gitolite.kernel.org>
 
---===============4812568723540091898==
+--===============2505795636042252169==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: d4e5b10c55627e2f3fc9e5b337a28b4e2f02a55e
-    new: 1d73df245b19579109193372e7ffe1601ca19323
+    old: 1d73df245b19579109193372e7ffe1601ca19323
+    new: 1692632146451184c4bcb68554098470a119fb01
     log: |
-         1d73df245b19579109193372e7ffe1601ca19323 usb: Remove orphaned UDC drivers
+         1692632146451184c4bcb68554098470a119fb01 USB: core: Correct API usb_(enable|disable)_autosuspend() prototypes
          
 
---===============4812568723540091898==
+--===============2505795636042252169==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1744380732 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1744380772 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1744380701-a38d3bb0d065afa0773cbdc42fcd3fa90e05ec4a
+nonce 1744380741-c78bdfc00d1f1ef7cacfd26892f53324a190a940
 
-d4e5b10c55627e2f3fc9e5b337a28b4e2f02a55e 1d73df245b19579109193372e7ffe1601ca19323 refs/heads/usb-testing
+1d73df245b19579109193372e7ffe1601ca19323 1692632146451184c4bcb68554098470a119fb01 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmf5IzwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mw0QAKskyZip9uqh3l2/GCwR
-yUyVZNZ2wB6gE8zgX+uHYYRLtqPN/Nk/CPTXd8dapaAHj+Sxn2WURE6DHxTd++a4
-4MVoSoOfI1j50KZKazKvXDZuvOUkbUfSGjDEcUFGJ9P+ZpyMJNpDBcfO2ScpuyKC
-BciohLsEr7vIu5KV9jvUVD3eUAURfZGMargCKImz+MTPQG5YguBlE1lvUP8Jmg6i
-GzTqW/2b45n0KgGkQEwGnD7m50UwmDkQrfmUH/TjUNiJaZouKeCph3fWZeux4Cpk
-xdZexkplMDEUhW3pfI6BlqgL/9KXKV8LaH42Ido7D5q9yDDkm8POgjUSJiUWbygA
-jEL5ZbQZGOsACM7v6VV/l3+36yK1s1pB57lrLAaQTISwgZZnrAlTyX9zOH9cfBCG
-GB17XuasiksclJNXCs6tGtZuTRvnaLmACrxeqa8+ZC2qKRNLzoBRVPwaGmxWz/mg
-qV/EL/AppILcxTnBxHPzg1lW4a29LeNQPxrgmwzLcn8swqt1nb1ub50LQBNogD6g
-IIrbxz5A1tI8lY5+cvPAHkB9r6X5RzEH9cZb8cst8bKLgugvDodmjJ5T5g+ZD3NY
-xjOYmJMiW2LPirGYcf7Zh7vbw+knP0ZpM7c590Egrjw7+Hgb79vw0Lxu2j05QQTt
-yjJIlPi3176miuZjNULSANAp
-=ECyv
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmf5I2QbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+N2AP/3h2iZXJLFuQw6FSAwNA
+L6g+5V1hJD4ccrzMtchxlNd9yoOyHbY/n5J9A7FbXPV/pB+3jasiksuTkWKHD4zo
+7YV243LjTdo6oHENBqDvkamI55KbTeKmqSgCFJHdRJnCte5b9CYWkiZQ4G5gRlTW
+3WdAGFZPUwwBysECLDKv7qfhitSxETU9AfaFTwMrO6t2edQfyitYxAMr8/veqd9n
+mcfTosIKafnlQw3Hgq00W/AEkVQVWta05jaUEsnfIGWiZry3DkySIndH0Rs69nPw
+TmSE87T8v8sH5addctfFtfsqCCZUdyyXp2dYjhJO+8451Sylu7I7ENjaUEsa4VBU
+cgozVAYRcm0TP+Pb38N6lBFiI36Y1jzkJOJR/Pm6GGrYRbAWT6YKSGk9cvVb7vsa
+fQEUrBQM5cb21iMCa9t+93kJDALhZyN/QDoKNoWFhPkw2OnDW1Rih2a99oyP1P8Z
+4wJs164wjjm9KpckKPqDzVDbSOYocWlX0omsOBbNU7jMlKItUFIT+QOBIOovOUZP
+fzsBT+pnP46DNLVlXdjo0GjOG+xTEUJjWwKaMik+QJIcYV7h9cd7AZrVG1K5un+s
+HzHx09rLocvmalT3X8KrjDblq9kiR2LbR3jUFZOEEc6pGZ8RREfVd+jiYbFKQUj5
+YG/YBhMxvhojobAQdh8KF6cq
+=iprs
 -----END PGP SIGNATURE-----
 
---===============4812568723540091898==--
+--===============2505795636042252169==--
