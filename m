@@ -1,33 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============8929316217298324992=="
+Content-Type: multipart/mixed; boundary="===============0320199652113984236=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Fri, 11 Apr 2025 09:02:12 -0000
-Message-Id: <174436213294.1478875.11364678219023971473@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 11 Apr 2025 09:06:05 -0000
+Message-Id: <174436236588.1482950.3724091040213620359@gitolite.kernel.org>
 
---===============8929316217298324992==
+--===============0320199652113984236==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mingo/tip
+repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/WIP.x86/mm
-    old: f0f3f2eef6a5a8ee53af25ae1d5d7ffcbb6e988e
-    new: e19bfff40f18a7ffbb30d32d9fb8bcd0ca66112b
-    log: revlist-f0f3f2eef6a5-e19bfff40f18.txt
+  - ref: refs/heads/master
+    old: bd7f669d1f5b5c57b360bcc40216fcab866988c7
+    new: abc3549f730e845c308db5a62bd54f3effc746a0
+    log: revlist-bd7f669d1f5b-abc3549f730e.txt
 
---===============8929316217298324992==
+--===============0320199652113984236==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f0f3f2eef6a5-e19bfff40f18.txt
+Content-Disposition: attachment; filename=revlist-bd7f669d1f5b-abc3549f730e.txt
 
-4334336e769bea1351ab82b22b06118c81bd217f x86/alternatives: Improve code-patching scalability by removing false sharing in poke_int3_handler()
-d60e4b2410e1b9f7c5ca347c78c6b07175c2e873 x86/alternatives: Document the text_poke_bp_batch() synchronization rules a bit more
 84e5ba949b0a3fcf2fd0a1b6c9ce14d8436dbbb8 x86/alternatives: Rename 'struct bp_patching_desc' to 'struct text_poke_int3_vec'
 28fb79092d9f7db3397e886d637d3006551693b3 x86/alternatives: Rename 'bp_refs' to 'text_poke_array_refs'
 bee4fcfbc128c3ad604539f88307dc2c0fc6f843 x86/alternatives: Rename 'text_poke_bp_batch()' to 'smp_text_poke_batch_process()'
@@ -44,7 +42,9 @@ e8d7b8c2bbcd5e50c93902af4ba53029fc0497fc x86/alternatives: Rename 'text_poke_fin
 732c7c33a0c17f68393497766445cbd2878ee95e x86/alternatives: Rename 'text_poke_queue()' to 'smp_text_poke_batch_add()'
 fb802d639340d041e32d48057c7f15175a57c2de x86/alternatives: Rename 'text_poke_loc_init()' to 'text_poke_int3_loc_init()'
 a81d43c46e6e89fef1961147c5f3faca31f6b84e x86/alternatives: Rename 'struct text_poke_loc' to 'struct smp_text_poke_loc'
+4334336e769bea1351ab82b22b06118c81bd217f x86/alternatives: Improve code-patching scalability by removing false sharing in poke_int3_handler()
 3bd7546ff24ecf9dbd74adf92b843eebd2862d1c x86/alternatives: Rename 'int3_desc' to 'int3_vec'
+d60e4b2410e1b9f7c5ca347c78c6b07175c2e873 x86/alternatives: Document the text_poke_bp_batch() synchronization rules a bit more
 87836af1eafc6616bde680be556f49ba3325f798 x86/alternatives: Add text_mutex) assert to smp_text_poke_batch_flush()
 2d0cf10a1eb60deded109c2357326a5ca44e3845 x86/alternatives: Use non-inverted logic instead of 'tp_order_fail()'
 eaa24c9177c8c765ec9b9ccab392ac07ae8acda0 x86/alternatives: Remove the 'addr == NULL means forced-flush' hack from smp_text_poke_batch_finish()/smp_text_poke_batch_flush()/text_poke_addr_ordered()
@@ -77,12 +77,7 @@ dac0d7542782bae98a4d8cedde3028a07f1915d2 x86/alternatives: Update the comments i
 023f42dd59203be8ad2fc0574af32d3b4ad041ec x86/alternatives: Rename 'apply_relocation()' to 'text_poke_apply_relocation()'
 4f9534719e524affb1aa8e0ff0c8b30c1c65e574 x86/alternatives: Add comment about noinstr expectations
 23a76739d6afe6f98ccdb2517d7985b4335c7a3a x86/alternatives: Make smp_text_poke_batch_process() subsume smp_text_poke_batch_finish()
-4f404edbffb6e81fcf0b87558bc15217984113e6 x86/mm: Add 'mm' argument to unuse_temporary_mm()
-4e15bc47aaa073d1e6d4573f76e1e830f044ed48 x86/events, x86/insn-eval: Remove incorrect current->active_mm references
-39e8810b3d9b790ab05051fd49f3d7cfffaa7c77 x86/mm: Make use_/unuse_temporary_mm() non-static
-b041ab53388451e61018e34c832196026141e110 x86/mm: Remove 'mm' argument from unuse_temporary_mm() again
-16115a250141b72f775d4f1bcc6f560cfe816e58 x86/mm: Allow temporary MMs when IRQs are on
-a3d80540a4bf13726302cfd7af2f44430b64a839 x86/efi: Make efi_enter/leave_mm() use the use_/unuse_temporary_mm() machinery
-e19bfff40f18a7ffbb30d32d9fb8bcd0ca66112b x86/mm: Opt-in to IRQs-off activate_mm()
+0705055c7e53b2227fa5db3d1969c4494aa7e6c8 Merge branch 'x86.alternatives.part1'
+abc3549f730e845c308db5a62bd54f3effc746a0 Merge branch into tip/master: 'x86/alternatives'
 
---===============8929316217298324992==--
+--===============0320199652113984236==--
