@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7624146305073444521=="
+Content-Type: multipart/mixed; boundary="===============1210388648644821783=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 11 Apr 2025 15:58:01 -0000
-Message-Id: <174438708149.1896529.15075656181016069828@gitolite.kernel.org>
+Date: Fri, 11 Apr 2025 15:58:24 -0000
+Message-Id: <174438710427.1896912.13492147336975817661@gitolite.kernel.org>
 
---===============7624146305073444521==
+--===============1210388648644821783==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,63 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: f27a95845b01e86d67c8b014b4f41bd3327daa63
-    new: a1af6f1a1433348c93f0b3a7a64f20a0a898ef78
-    log: revlist-f27a95845b01-a1af6f1a1433.txt
+  - ref: refs/tags/mkp-scsi-queue
+    old: 216b43f5a917380df9051bbe4170ac55f5f9906d
+    new: 2a94255d7efb9b10650fec28764f886c1f98147d
+    log: revlist-216b43f5a917-2a94255d7efb.txt
 
---===============7624146305073444521==
+--===============1210388648644821783==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1744387109 -0400
+pusher 75C5DE3D 1744387115 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1744387076-dc7b8705d29081b3a0d993c64f290a0a6daf15bb
+nonce 1744387085-ee639046fafc0993abbc1982cdc2352074fe3dfd
 
-f27a95845b01e86d67c8b014b4f41bd3327daa63 a1af6f1a1433348c93f0b3a7a64f20a0a898ef78 refs/heads/fixes
+216b43f5a917380df9051bbe4170ac55f5f9906d 2a94255d7efb9b10650fec28764f886c1f98147d refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmf5PCUACgkQ7ulgGnXF
-3j04/Q//Zbfd3LHasJruo7VgDyMtyuK5C5f8sELC9goKP4uG8ypfsU491FaLV/d4
-cVaISmqjYQgt+r2QGew5sVsBtbEBinPKjg16HGFeRC0QU9O2+95BKKXYBEMy+wH/
-WgNAGxsVeHiH9AUrb4HOoEA3a1ygCtFocUOmPeU2cNM1DalTu++NTp0sxWNuTfhF
-jU1Thah58ij+86bW0Ps9V1yzKYDS580yjR5KMZYEhx9ATPiAnl5LNlBD0APjXB08
-u/lqwSYoGckHyXb3v0mrfs3fvN6BP37j6JHsvKa4+ZxnQFbE8bUVSaHaUou/LhxO
-wDWhgG9XCwCElemJNbaxp0RJQZr8ZytS+AUZ80eP9k6Xaq+vhPMUUKUVXtVdO0ex
-G/o+JNkTO0pi5sMlwYv90xYFAB/NMzclQX/OIVVnaT0QPn1QPf/BSt+JtzeXhzlU
-4PuUMKc2h2rXvPCE+k+om2W+2p2VQm/JiZi57e700HR+C5+ozj0rstMMClaLClto
-vuMxYy/GfJB4Ntj1sIKaWzFdX9qs6dw9bQgJvNsG9IEnmxapqu1S9gxZRVPjc9kg
-PFJn1Xcb6hmq4lBK7RFrZEtFgADXCz6pUesjwTjZCygnbInE9M6a2xFAwb1N37u9
-X06ndHYRYEBSqKKkweWhHxaz5qL8JRmkwpukcu/oTKI9bSaXUUM=
-=LzhT
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmf5PCsACgkQ7ulgGnXF
+3j1fiBAAoa2lZGcspxniIk+eRWi8/9NOQo8u+2FKAv01eHUZ5R92Acl8y2d2E86e
+KX8c3tyOlcIGnfdeaaP6my/60gvPjofYy4FLQ4sxJbvi+uqjkxF0gBsFzg3L0JbC
+oVDtQzjVo6LjGUM0V6IrEDioOZAOhV7oA6fKs+dZZUn4NeXNCXdSvCakfPaFgrqL
+E3hDLFEmACvSXm+GL4PfWjpgEFvLpV03Aknh7Gsxn/yh5YuZdMTwFe+Yo5zZzqKz
+0+PkEU/mC5XakzAD18pUqMFD8ye8VheBxPIlm3ffdw/GiCmjB1K+PqHEeYfWC2yp
+lm+CcMGyKP9wisEraP4hZPJ8vVnwYvqJKuPoiBV0Lb+3Dp/uOIUeFd1somhkeEaY
+etNzoTpXBCofzivCKKxGEcv8AvH5KQHwm2/GguprNceDkWLmngPlxH4+hebGVLPA
+RpcYybUH6FNDkR5fuBS7B9qx2lQYh0b16FKz3zZEgQqHhLtM7s91Vb7x+pqD9Tms
+mIz+UOu2t1L2ugv9HHRVVDSiFGhUzDfQzDo3NaQZ3PFu2T3J1J7AHU/uaSCD2an5
+XDtkgcWmqw1nP18tPBHISNGhst1Ic9hmGdJEtdNufocM8mSzPFY8pbZL/tai5KHH
+t8YeBg9awOdf+kcok1TtK00QfLZ6CPjs/8sr0t375jnba83V5Mk=
+=YveD
 -----END PGP SIGNATURE-----
 
---===============7624146305073444521==
+--===============1210388648644821783==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-f27a95845b01-a1af6f1a1433.txt
+Content-Disposition: attachment; filename=revlist-216b43f5a917-2a94255d7efb.txt
 
+d327a12e636e902fd0c7178732813b041a1c9214 stmmac: Remove pcim_* functions for driver detach
+45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
+e364e4cebeb70a5f4f8cb28ca7480e1ddb361752 Merge branch 'stmmac-several-pci-related-improvements'
+cc04ed502457412960d215b9cd55f0d966fda255 stmmac: intel: interface switching support for RPL-P platform
+1ae1d705a1120e8e0ca41698c5a0fff6f5290bc1 net: dsa: microchip: fix DCB apptrust configuration on KSZ88x3
+a50b4fe095fb98e0b7da03b0a42fd1247284868e Merge tag 'timers-cleanups-2025-03-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+317a76a996043d336b85197aed5f44184b36ac4a Merge tag 'timers-vdso-2025-03-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+3f0cb8de56b9a5c052a9e43fa548856926059810 io_uring: fix retry handling off iowq
+3afcb3b2e3a4ead24e3ab476576e87877d55ee22 io_uring: defer iowq cqe overflow via task_work
+4c76de42cb6971fc2cc7984ed974caffe6ea7fda io_uring: open code __io_post_aux_cqe()
+d73acd7af3a329e8ebe5df1c738ae8c1d0a5f778 io_uring: rename "min" arg in io_iopoll_check()
+816619782bdc70d7f33a8d0cda36d61414cec467 io_uring: move min_events sanitisation
+c59d88101cd9ed609678880e93b8e7684c7ba68e Bluetooth: btnxpuart: Add correct bootloader error codes
+bf81cf29b77c09b8c0a5ef3d574945e57dfde787 Bluetooth: btnxpuart: Handle bootloader error during cmd5 and cmd7
+1f77c05408c96bc0b58ae476a9cadc9e5b9cfd0f Bluetooth: btnxpuart: Fix kernel panic during FW release
+3a7fdfb7d876910cfe734488f553dbbc938f8f16 Bluetooth: hci_event: Fix handling of HCI_EV_LE_DIRECT_ADV_REPORT
+eed14eb510c040a3826b633048244bb7a816c67d Bluetooth: MGMT: Add LL Privacy Setting
 fd87b7783802b45cdd261b273e6b2b792823064d net: Fix the devmem sock opts and msgs for parisc
 355d63e5de95de72561891b4d17b83ba82cfe42a arch: mips: defconfig: Drop obsolete CONFIG_NET_CLS_TCINDEX
 8cc14fdcc1b8473adcf90dae63a246042ebdcc25 Merge branches 'for-next/amuv1-avg-freq', 'for-next/pkey_unrestricted', 'for-next/sysreg', 'for-next/misc', 'for-next/pgtable-cleanups', 'for-next/kselftest', 'for-next/uaccess-mops', 'for-next/pie-poe-cleanup', 'for-next/cputype-kryo', 'for-next/cca-dma-address', 'for-next/drop-pxd_table_bit' and 'for-next/spectre-bhb-assume-vulnerable', remote-tracking branch 'arm64/for-next/perf' into for-next/core
@@ -942,24 +959,8 @@ a2cc6ff5ec8f91bc463fd3b0c26b61166a07eb11 Merge tag 'firewire-updates-6.15' of gi
 975776841e689dd8ba36df9fa72ac3eca3c2957a sched/isolation: Make CONFIG_CPU_ISOLATION depend on CONFIG_SMP
 169eae7711ea4b745e2d33d53e7b88689b10e1a0 rseq: Eliminate useless task_work on execve
 1b755d8eb1ace3870789d48fbd94f386ad6e30be netfilter: nft_tunnel: fix geneve_opt type confusion addition
-72eea84a1092b50a10eeecfeba4b28ac9f1312ab scsi: iscsi: Fix missing scsi_host_put() in error path
-3d101165e72316775947d71321d97194f03dfef3 scsi: ufs: exynos: Ensure pre_link() executes before exynos_ufs_phy_init()
-68f5ef7eebf0f41df4d38ea55a54c2462af1e3d6 scsi: ufs: exynos: Move UFS shareability value to drvdata
-f92bb7436802f8eb7ee72dc911a33c8897fde366 scsi: ufs: exynos: Disable iocc if dma-coherent property isn't set
-7f05fd9a3b6fb3a9abc5a748307d11831c03175f scsi: ufs: exynos: Ensure consistent phy reference counts
-deac9ad496ec17e1ec06848964ecc635bdaca703 scsi: ufs: exynos: Enable PRDT pre-fetching with UFSHCD_CAP_CRYPTO
-67e4085015c33bf2fb552af1f171c58b81ef0616 scsi: ufs: exynos: Move phy calls to .exit() callback
-cd4c0025069f16fc666c6ffc56c49c9b1154841f scsi: ufs: exynos: gs101: Put UFS device in reset on .suspend()
-8a65b75dc4b235349fa6f3c89d381405956d431f Merge patch series "ufs-exynos stability fixes for gs101"
-f7b705c238d1483f0a766e2b20010f176e5c0fb7 scsi: pm80xx: Set phy_attached to zero when device is gone
-a2d5a0072235a69749ceb04c1a26dc75df66a31a scsi: smartpqi: Use is_kdump_kernel() to check for kdump
 390513642ee6763c7ada07f0a1470474986e6c1c io_uring: always do atomic put from iowq
 01b91bf14f6d4893e03e357006e7af3a20c03fee block: don't grab elevator lock during queue initialization
-bdab40480b146e2f37f4c7164cb47f526e77ee6d scsi: ufs: core: Rename ufshcd_wb_presrv_usrspc_keep_vcc_on()
-1fd2e77b889761d9bde0c580518689d1d8e83117 scsi: ufs: core: Add device level exception support
-a63b69f05f999acae91b0b50d7c5fe4fb241dbaf scsi: scsi_transport_srp: Replace min/max nesting with clamp()
-aad9945623ab4029ae7789609fb6166c97976c62 scsi: megaraid_sas: Block zero-length ATA VPD inquiry
-1b4902f0a4f20aaea14d51a378368fa697467901 scsi: megaraid_sas: Driver version update to 07.734.00.00-rc1
 3eb64093f533a29d3291a463fd65126bf430ba60 Merge tag 'riscv-mw2-6.15-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/alexghiti/linux into for-next
 9364f17ba40422d2661da295bb0da68ca87cc57e bcachefs: Add error handling for zlib_deflateInit2()
 b2ffadcc7f8fd2059e389d640f9c81febd606daf bcachefs: Fix scheduling while atomic from logging changes
@@ -1079,6 +1080,5 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 710329254dc303cd3b2df1a24674adecb1189385 Merge tag 'turbostat-2025.05.06' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
-a1af6f1a1433348c93f0b3a7a64f20a0a898ef78 Merge branch '6.15/scsi-queue' into 6.15/scsi-fixes
 
---===============7624146305073444521==--
+--===============1210388648644821783==--
