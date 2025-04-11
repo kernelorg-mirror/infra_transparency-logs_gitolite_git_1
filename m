@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8471098515582649191=="
+Content-Type: multipart/mixed; boundary="===============8529731654532722772=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Fri, 11 Apr 2025 00:46:08 -0000
-Message-Id: <174433236876.1055782.15765155123646355524@gitolite.kernel.org>
+Date: Fri, 11 Apr 2025 00:46:18 -0000
+Message-Id: <174433237897.1056054.1196801021492611540@gitolite.kernel.org>
 
---===============8471098515582649191==
+--===============8529731654532722772==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,23 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/khilman/linux-omap
 user: khilman
 changes:
-  - ref: refs/heads/fixes
-    old: 2014c95afecee3e76ca4a56956a936e23283f05b
-    new: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    log: revlist-2014c95afece-0af2f6be1b42.txt
+  - ref: refs/heads/for-next
+    old: ea07a4775df03852c353514b5b7646a17bd425be
+    new: 4349ce7c41afc9336cfd6404f443aef115375bc7
+    log: revlist-ea07a4775df0-4349ce7c41af.txt
 
---===============8471098515582649191==
+--===============8529731654532722772==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-2014c95afece-0af2f6be1b42.txt
+Content-Disposition: attachment; filename=revlist-ea07a4775df0-4349ce7c41af.txt
 
-d327a12e636e902fd0c7178732813b041a1c9214 stmmac: Remove pcim_* functions for driver detach
-45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
-e364e4cebeb70a5f4f8cb28ca7480e1ddb361752 Merge branch 'stmmac-several-pci-related-improvements'
-cc04ed502457412960d215b9cd55f0d966fda255 stmmac: intel: interface switching support for RPL-P platform
-1ae1d705a1120e8e0ca41698c5a0fff6f5290bc1 net: dsa: microchip: fix DCB apptrust configuration on KSZ88x3
-a50b4fe095fb98e0b7da03b0a42fd1247284868e Merge tag 'timers-cleanups-2025-03-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 317a76a996043d336b85197aed5f44184b36ac4a Merge tag 'timers-vdso-2025-03-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3f0cb8de56b9a5c052a9e43fa548856926059810 io_uring: fix retry handling off iowq
 3afcb3b2e3a4ead24e3ab476576e87877d55ee22 io_uring: defer iowq cqe overflow via task_work
@@ -1050,5 +1044,11 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 710329254dc303cd3b2df1a24674adecb1189385 Merge tag 'turbostat-2025.05.06' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
+36305857b1ead8f6ca033a913162ebc09bee0b43 Revert "bus: ti-sysc: Probe for l4_wkup and l4_cfg interconnect devices first"
+ce424c3051ded73bc3e07eb90e12a9588b7dc6da ARM: omap2plus_defconfig: enable I2C devices of GTA04
+614665105d12f5a669be018ed8a2d2f3db4006b2 ARM: dts: nokia n900: remove useless io-channel-cells property
+7397daf1029d5bfd3415ec8622f5179603d5702d ARM: omap: pmic-cpcap: do not mess around without CPCAP or OMAP4
+1fb6b141e03d67464eda81e2a29adab21e5fc0af Merge branch 'omap-for-v6.16/soc' into tmp/omap-next-20250410.174249
+4349ce7c41afc9336cfd6404f443aef115375bc7 Merge branch 'omap-for-v6.16/drivers' into tmp/omap-next-20250410.174249
 
---===============8471098515582649191==--
+--===============8529731654532722772==--
