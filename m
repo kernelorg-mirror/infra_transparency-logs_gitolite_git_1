@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7311429328464261187=="
+Content-Type: multipart/mixed; boundary="===============8166988682177814679=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 11 Apr 2025 11:06:18 -0000
-Message-Id: <174436957803.1636723.13514854957238533006@gitolite.kernel.org>
+Date: Fri, 11 Apr 2025 11:06:58 -0000
+Message-Id: <174436961856.1637325.17433448097219027430@gitolite.kernel.org>
 
---===============7311429328464261187==
+--===============8166988682177814679==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
+  - ref: refs/heads/usb-testing
+    old: 843308666da7118f6e1d12fbb5053db13686864a
     new: 9bf4294d0c1e5268332964604ece43eaf7f33cc3
-    log: revlist-0af2f6be1b42-9bf4294d0c1e.txt
+    log: revlist-843308666da7-9bf4294d0c1e.txt
 
---===============7311429328464261187==
+--===============8166988682177814679==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1744369605 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1744369647 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1744369572-5917b7722fae6bd365116ddf1e3ba78d97a21d91
+nonce 1744369616-f1b30424091c131518305f262786a004db5824fd
 
-0af2f6be1b4281385b618cb86ad946eded089ac8 9bf4294d0c1e5268332964604ece43eaf7f33cc3 refs/heads/usb-next
+843308666da7118f6e1d12fbb5053db13686864a 9bf4294d0c1e5268332964604ece43eaf7f33cc3 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmf498UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PosP/2wk2g5Bwa3IP0/+fhSZ
-GXu69xm6ETaespIDp04ZkOC3Y06/4JUDrqstGyUXURnQPxY3mO9X+ejXE20oe/rJ
-EZzjm7WHUezcn9LvWvrwRjhqdKt8pK7IwqkfZL0K/UTDGzMfwZy41mJsjO/kitbS
-AX0UHRIBTTWBRwptkSpySpzXR5G86k+Yv2BdkL/BpDq3m17GAIn7DQVVd7Xchtxp
-vcr6eLcFzz49hFC7q0McskoXCQ02ECzIm/uTBBu8bMRyIBIsh169N1BfxQ3AAcKc
-H8nASTWKt59WuyuUC6bVsANs5tbQsqUuETqu5LTXo5/wv2ARL1xlRKzrtWgayInq
-mmIfZ89PKpqPO52SzC5unsLXFX+JMisXUOkYMEM26WsvsOX479SLM1FVe2Eclb/m
-hwY3SoJxv4Pz+KobV6WRdLHsghxd3C65r1O8WXXTEwrGOTIknyBUeTHTjlPxxh1h
-w8LOGG9fa3KQMr1AUnbMhHPgeJXc8CTgT1b0Z0Kc53HBXnosp6uazS/FMRQchSt1
-PdwTxdVJnxWMkCJuGWVRSfO6kEwk4UqmwxiDmWJSL1sFl5C7qzvj7Pq+cPNsfPhi
-mYtnLj8L2VTq2S4E58M96Wfy7tgkmq5DP/x1ePQtziRR4HdimBK7x5A9cHshKzua
-57p5R0GR0B77X2sB/cev0vHN
-=dsxk
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmf49/AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XqQQALyD2nPnfFYSLti5dJw2
+QqMahQRX/agfs7Z7LFHE8/u2koa4dNKnckN5IE+6Kpx56Q9Sw8gF4s/Ti5DxMPFj
+jWkj5bNMAt7nbJHsuVh1+/0UOKBE0Uoz2TYbfHCfsXkWbgIYIn8FlMd7BE5+cA1L
+YmbagzOignPl+O4JsmtzCwaLgevCgCFQuC04a4iVU+FB+vK5yVbbgmj6D5iJ1gyt
+HVNsOBVZTdrHX6YwOu90lU28MT8j1/ydGwRcWCgjCAg4qIVX7a7LpvosE5uiiJnh
+8RpWsWmr4eJg8U8hYkTV69zdXGpPhUCX1Blobh9D01dDjxbvM1s/EbB3oBEuqw4T
+qMLxiSgV4AhBALClm4PnjZftY0ohA2UYdY7s6NbmUUo8UO5JRon2QfgyZntN/k/N
+aS6b3qYJyn6ASo8jfFYQ0wOc9Bx10eNgrWYdDCvTzK+dJfJ0LYc1484i3md1BPyH
+Ou2mw4kAcXPbDOLE5Y/pYuzElMmrxZO5gwPIwp3xwgqPmTii6epXaE7J78TPRUVP
+KYzy21jrJS6UoRm/Lo0RtxAqQD08smoRkXfDJAGWJ24XJ1avGbquPvG0x1EW/EO+
+hgjoqSaBwQ4I9IzMshR2etEXdHzIGHT+Y/JR7U84xvvv8xG9Je6pV9Bc952dAuMD
+g3pC8X9HwWHwNIH7s2VZRePu
+=KdlQ
 -----END PGP SIGNATURE-----
 
---===============7311429328464261187==
+--===============8166988682177814679==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0af2f6be1b42-9bf4294d0c1e.txt
+Content-Disposition: attachment; filename=revlist-843308666da7-9bf4294d0c1e.txt
 
 de66754e9f8029f8ae955a588959b99cab56b506 xhci: sideband: add initial api to register a secondary interrupter entity
 5beb4a53a1dd1868aa0ba0d48b1bbc557126caaa usb: host: xhci-mem: Cleanup pending secondary event ring events
@@ -89,4 +89,4 @@ bd1979b9d3fcbba6632550e9d86d9acac481884f ALSA: usb-audio: qcom: Add USB QMI defi
 a67656f011d18c58a1e5c6744ba7d6061b5bfd3b ALSA: usb-audio: qcom: Add USB offload route kcontrol
 9bf4294d0c1e5268332964604ece43eaf7f33cc3 ALSA: usb-audio: qcom: Notify USB audio devices on USB offload probing
 
---===============7311429328464261187==--
+--===============8166988682177814679==--
