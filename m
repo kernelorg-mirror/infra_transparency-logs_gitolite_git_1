@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
-Date: Fri, 11 Apr 2025 04:26:56 -0000
-Message-Id: <174434561695.1244059.6585233078957240120@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Fri, 11 Apr 2025 05:05:20 -0000
+Message-Id: <174434792013.1275543.3900992836520587166@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfstests-dev
-user: zlang
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/patches-in-queue
-    old: 0000000000000000000000000000000000000000
-    new: 2cc8c822f864e272251460e05b0cba5bada0f9ee
+  - ref: refs/heads/fileq2rB8C
+    old: b5d057a86e2086af0b1e6d0ca8b306be1c73a627
+    new: 0000000000000000000000000000000000000000
