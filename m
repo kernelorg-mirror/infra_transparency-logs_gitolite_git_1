@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0220492274189439826=="
+Content-Type: multipart/mixed; boundary="===============8141193377126022659=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 11 Apr 2025 12:52:52 -0000
-Message-Id: <174437597217.1726648.10781206774493646650@gitolite.kernel.org>
+Date: Fri, 11 Apr 2025 12:57:22 -0000
+Message-Id: <174437624295.1730773.530327121033881124@gitolite.kernel.org>
 
---===============0220492274189439826==
+--===============8141193377126022659==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,50 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 7731e39db200ea2ffba4a7f92bcbcdfdeb0e6cc6
-    new: c3838c6eb5b2b8c603b04640f01b8a588213bf41
+  - ref: refs/heads/usb-linus
+    old: bea5892d0ed274e03655223d1977cf59f9aff2f2
+    new: 66e1a887273c6b89f09bc11a40d0a71d5a081a8e
     log: |
-         9b1539142549dd371bfe2090b399212bb5d6e395 usb: typec: ucsi: add Huawei Matebook E Go ucsi driver
-         fe64e2ae73a6bb15354b22df0d01343b8c55090d usb: typec: ucsi: Add the UCSI commands in debugfs
-         5c6ed4d41159ccb924b4de9a686d2f1842360fd0 usb: typec: mux: do not return on EOPNOTSUPP in {mux, switch}_set
-         bea19dc06b39d3f8306076d2bc50eabb87f0114e usb: typec: tcpm: allow to use sink in accessory mode
-         910936b6ad6b7fe0b0c013450564d056c19640c5 usb: typec: tcpm: allow sink (ufp) to toggle into accessory mode debug
-         89fec21544db21347886040d93445a7d840a4933 usb: typec: tcpm: allow switching to mode accessory to mux properly
-         9eda5898360215a074a913df54850c92b3170839 usb: typec: tcpci: add regulator support
-         38c8c1ce617615143d1304df6897325ce8e4bcb2 usb: typec: tcpci: Fix wakeup source leaks on device unbind
-         1b28397a7d0b98594c2eac0a2bdcbbc99ec3c6db usb: typec: tipd: Fix wakeup source leaks on device unbind
-         c3838c6eb5b2b8c603b04640f01b8a588213bf41 usb: typec: displayport: Receive DP Status Update NAK request exit dp altmode
+         ec27386de23a511008c53aa2f3434ad180a3ca9a usb: typec: class: Fix NULL pointer access
+         66e1a887273c6b89f09bc11a40d0a71d5a081a8e usb: typec: class: Invalidate USB device pointers on partner unregistration
          
 
---===============0220492274189439826==
+--===============8141193377126022659==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1744375995 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1744376270 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1744375965-b82660758d0be05ff4ea29395a997ad0f190889d
+nonce 1744376239-eb18e92c6e42b4df276201df5177f77a6e47f94d
 
-7731e39db200ea2ffba4a7f92bcbcdfdeb0e6cc6 c3838c6eb5b2b8c603b04640f01b8a588213bf41 refs/heads/usb-testing
+bea5892d0ed274e03655223d1977cf59f9aff2f2 66e1a887273c6b89f09bc11a40d0a71d5a081a8e refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmf5ELsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8BkQAJN2ozxUbtTFAxnqePDg
-JZ2X/kX3nQLyKZpVh5Qa1HblGkXz05X6qJOn0jpyWnF/g45rlZ0625onCKO7D9Je
-mXcgTvkJqHtoN7GkudEPIFvzEOthDcJZxzbqafzgPox25Hlh4YDZjooROSY86WXc
-EE3h8HQCSZURf7Dxa+8baSE/vgMGiC11Cr6DJHlLcZdiypYNZ7vXQWZgT1ikcBpK
-6HU1FooICf8D+ji60iTRZ4DyAiE0VzCQbhsXPtb48FgiCD1l7Sk+X1wDqSKYOqFD
-tuqH7NljHWxWhEWP4Q3ulpV6pK/ujuV2XCSEZsw1WO5BeWolTvzr9oDQzStqA++Z
-XWEQUiu1QKBM5H9n9RVSi/tPCLSBMdNICHvTMoCsmWlTmZ9Gh/klpEVSbrs2fobh
-Uk/VWH33t7kYxiwzwnSJ2VSdX1xK88TcifB84UZLnqwjT6THj/kJR2YcVpLQ5Hr+
-3TIgbi5uoTfoWMbWzrAx7u2zF7fSVpkB8OBqJikoIBwqMsXiTeEzajavKIC8BGLW
-K/jToHe4/lulA/8CvWc4eA5Jro+NDaBhfI8RMwUpwEGkTljHzMuyJBWbBympS3tc
-kviFQKvWJKOGTrhgd6jKBQR/vpFFr7msizu2eROQPXKLa8rVyXyOxTinjPW8p8PR
-t4+68w01dZLVJjXW+pglh+Fa
-=9wdQ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmf5Ec4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fNIP/AgpGyw8+re0Tb4lC7fi
+QEH0IHJ0VHQoVcOk5J0A70pvLnXBuNx2cOHJE6qui28zYYEg7AGyfy7SoVsSzi+w
+qC14EjQ1XepleIVEB+Cn850xR8948BMetKxPOgMqw4Raz/NBs1tMZGHuR2w0Dd4S
+UY+7rtkuJL23/qjFOfOC90Z1MSNcYx1U2Y1tXnAvdCM/eCTmod1fZDDemaYUT910
+KOn7yWpIn9ayu3EwAKECdNm1U1NubQv8VEcK9Q+bTSSIoFjCUEZdan3dct35F0hA
+8OQWkBPbJOBqq/DsOcZn0UnLVwil5A+Nab6wecaH3yTtUoOv8yzuoZ5ltNihrhT1
+F8JiSUq7T3qtdQfSsXMhQcp7g+JuureI/+KME3duZ486xyJ26Ag8IGvyuzqj0J13
+rUcRvw8H3YjZkW+NmbDAmLe+iYc+36M1EhW93B97u1B9SCc8OiKF3XNaGSDu4gjp
+WIhPSriwqqfrG44yOb/ZWsdp5gbHr1a6L9sW8SP+uh9ME/cU7jl6VIP+oZacpgxQ
+BUpr+s4LK4MkmEJAxLmZRnW7M4FYyCHK2P+Uvn8q3d4DR0N/sXRJvzx0mv3TSPPe
+ksLzr4PO9dlPlVqRbzMzdfyccjZD4a7K1v5mxI8Mtqn8o44aO2TLR8EGlQqZvsTl
+Eh274aGIS9/kjdzHwMZ1IP4W
+=diAf
 -----END PGP SIGNATURE-----
 
---===============0220492274189439826==--
+--===============8141193377126022659==--
