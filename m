@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 12 Apr 2025 12:23:26 -0000
-Message-Id: <174446060664.2906784.8435289207580816372@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Sat, 12 Apr 2025 12:28:44 -0000
+Message-Id: <174446092499.2911223.7627740921363728174@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/heads/master
-    old: 8f69b0feb0925073aa5af0527bb5a3d497d0c379
-    new: 09b9dad50fa80766b9a468086f98c4a39250271f
+  - ref: refs/heads/scx
+    old: d9245d988410cd4cb93f3db4443c0f0bf061e7c9
+    new: 5994cf89166589eacda2d2437b4dbe7a0b3576c9
     log: |
-         09b9dad50fa80766b9a468086f98c4a39250271f Merge branch into tip/master: 'x86/boot'
+         e81090d22a72942316df75e97e55c68ba634f005 sched/fair: Prefer full-idle SMT cores
+         5994cf89166589eacda2d2437b4dbe7a0b3576c9 sched: Disable wakee stacking with per-CPU kthreads
          
