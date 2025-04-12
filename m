@@ -1,42 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============8682824692821925200=="
+Content-Type: multipart/mixed; boundary="===============5912378080233603648=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 12 Apr 2025 09:14:56 -0000
-Message-Id: <174444929611.2752702.181436908399343930@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Sat, 12 Apr 2025 10:20:53 -0000
+Message-Id: <174445325361.2806285.9136892647645919680@gitolite.kernel.org>
 
---===============8682824692821925200==
+--===============5912378080233603648==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: de17908f1fee4e76a0a5fa8e30f56d9eccb39a95
-    new: 8f69b0feb0925073aa5af0527bb5a3d497d0c379
-    log: revlist-de17908f1fee-8f69b0feb092.txt
+  - ref: refs/heads/faux_bus
+    old: 7eb13655f5df90a39e482fdf21ea98d8e71b5b5e
+    new: 0000000000000000000000000000000000000000
 
---===============8682824692821925200==
+--===============5912378080233603648==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-de17908f1fee-8f69b0feb092.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-bcceba3c72c0cf06dfbae77f5aec70fb6187e8df x86/asm: Make rip_rel_ptr() usable from fPIC code
-4cecebf200efea0fc865b5656f6d12ead2eb5573 x86/boot: Move the early GDT/IDT setup code into startup/
-dbe0ad775cbbd614583409d96abbc8ea7edb5eb4 x86/boot: Move early kernel mapping code into startup/
-dafb26f4271b9cc9cad07d9abf3c71c492e14f4c x86/boot: Drop RIP_REL_REF() uses from early mapping code
-7ae089ee75f3c77b94ff23204b41ea06da9f0193 x86/boot: Move early SME init code into startup/
-bee174b27e54462ef18b38f8377d27ac0ad14350 x86/boot: Drop RIP_REL_REF() uses from SME startup code
-221df25fdf827b1fe5b904c6a396af06461a32f6 x86/sev: Prepare for splitting off early SEV code
-cc05db0f06de6e97a24f8276de7147bf84b80497 x86/sev: Split off startup code from core code
-c223623495eb68f53526d473b0c7786bc08b4b54 x86/boot: Move SEV startup code into startup/
-e3e823b019d8392040bfbfbded0b868f62b5529b x86/boot: Drop RIP_REL_REF() uses from early SEV code
-2e5582720da36e30ec3b537ed6319e4d92aea93e x86/asm: Retire RIP_REL_REF()
-8f69b0feb0925073aa5af0527bb5a3d497d0c379 Merge branch into tip/master: 'x86/boot'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1744453190 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1744453252-1cf523345d748f328ee36ab89b9232115a7ad832
 
---===============8682824692821925200==--
+7eb13655f5df90a39e482fdf21ea98d8e71b5b5e 0000000000000000000000000000000000000000 refs/heads/faux_bus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmf6PkYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dugQAL12OFtSaFGKpGXR2XIq
+i6s8qELwNaVWUv0yBbVPdiZCSWw5jRlgwecz+zZfQRanhsnBhLUXGZgCHhD1pc5F
+Q8PPEkCYi9FSvAtPNy+uazFLvBhHu5xW4LolgnzTY5aX1g/dVk/tMi58gSKBW8dh
+MS7zvhsUWv5BI5lOci7p67Lzh1/tcF+JDf/E3BXuUV5UM/WAUpTeh4qRfhyrVJa7
+v68doB6KWZGh+DO6awC+frAN5givRBJN0U4Tzm/EocOrqV1zM4QduyfTZzuh8P87
+MBwFBWksuO99LhyCiz1d+AHY5z56Cf45LzHnR1FoLzqzN3qYrrldnrYr9SMgnRd7
+oIWwpGngsNgKBGNu2+me69+2h26tL/+KDrJSGHfnPOBGr6wc7GoNnwm/ajjNdOtn
+FQzs0Po7ND3NfAOyoRrxLOb2JR57Z3toycjXoOqAb8+q6/Frj4oEbc6oJWhQwlJ2
+urPugkIO/fHLrULfthHTMOjV8ifvZY2djy5qB2ersidStiZ/oak3evF8+T5UVc1q
+of8BRsao80IEKRKr0ZgsebqavzfvAf0ljicFSqo9fMt2pPGNbs3DW8zNI9o/b/7R
+bnbZXTTLDE6ElhZU2ujkjCB17s7elsCZrcrbk732p9i22Cg04ai86w4L9PX4pevW
+O8YNvhC5bfsHjOC7Tmbcv7ED
+=b2l+
+-----END PGP SIGNATURE-----
+
+--===============5912378080233603648==--
