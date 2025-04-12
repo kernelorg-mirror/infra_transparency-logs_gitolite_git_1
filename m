@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Sat, 12 Apr 2025 08:06:50 -0000
-Message-Id: <174444521087.2697884.15983040978589716108@gitolite.kernel.org>
+Date: Sat, 12 Apr 2025 08:35:37 -0000
+Message-Id: <174444693783.2721312.4853299631362975082@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,15 +11,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/WIP.x86/mm
-    old: e19bfff40f18a7ffbb30d32d9fb8bcd0ca66112b
-    new: af8967158f9ad759a93e8e7a933c10e7cbb01ba2
+  - ref: refs/heads/WIP.x86/fpu
+    old: 787d605365f4a2eb7b0781875cbbef93f2f18355
+    new: 95d6968aa12899153b154f58cfb5d009cde9d1d1
     log: |
-         0812e096cff0fd58d88a21a413fba56c0e6c3caa x86/mm: Add 'mm' argument to unuse_temporary_mm()
-         81e3cbdef230fd9adfa8569044b07290afd66708 x86/events, x86/insn-eval: Remove incorrect current->active_mm references
-         d376972c9825ac4e8ad74872ee0730a5b4292e44 x86/mm: Make use_/unuse_temporary_mm() non-static
-         4873f494bbe4670f353a9b76ce44e6028c811cbb x86/mm: Remove 'mm' argument from unuse_temporary_mm() again
-         58f8ffa917669a0c8c027e24d5349f0b488f8181 x86/mm: Allow temporary MMs when IRQs are on
-         e7021e2fe0b4335523d3f6e2221000bdfc633b62 x86/efi: Make efi_enter/leave_mm() use the use_/unuse_temporary_mm() machinery
-         af8967158f9ad759a93e8e7a933c10e7cbb01ba2 x86/mm: Opt-in to IRQs-off activate_mm()
+         a2d643e6ea727c3d7ea809df3022ddf2c467ac1f x86/fpu: Introduce the x86_task_fpu() helper method
+         1d7bffa7616d2bcc6218708c14247ea2d228e64b x86/fpu: Convert task_struct::thread.fpu accesses to use x86_task_fpu()
+         c20e6ae23bcd48b591bd01474bba679b338f43c9 x86/fpu: Make task_struct::thread constant size
+         cc1255f46e8dccfd90a08750119ed0fab9e67c71 x86/fpu: Remove the thread::fpu pointer
+         7df653407c7b2fe88db37f6c023ce2e7e965db64 x86/fpu: Push 'fpu' pointer calculation into the fpu__drop() call
+         5c84deca17b71290a69adc0d730208fe66285cb3 x86/fpu: Make sure x86_task_fpu() doesn't get called for PF_KTHREAD|PF_USER_WORKER tasks during exit
+         8fe5a322d9dc465a84d143c591c64c9d1d6fac58 x86/fpu: Remove init_task FPU state dependencies, add debugging warning for PF_KTHREAD tasks
+         77431c3083bda7a863e4ec59b5b8fbbc4dfe5afa x86/fpu: Use 'fpstate' variable names consistently
+         95d6968aa12899153b154f58cfb5d009cde9d1d1 x86/fpu: Clarify FPU context cacheline alignment
          
