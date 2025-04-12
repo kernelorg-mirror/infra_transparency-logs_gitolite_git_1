@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5461093093616565304=="
+Content-Type: multipart/mixed; boundary="===============7627552849917045528=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Sat, 12 Apr 2025 04:23:01 -0000
-Message-Id: <174443178183.2515671.2445888585019808098@gitolite.kernel.org>
+Date: Sat, 12 Apr 2025 04:23:10 -0000
+Message-Id: <174443179099.2516009.2171107215396486125@gitolite.kernel.org>
 
---===============5461093093616565304==
+--===============7627552849917045528==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: 25b2f46bd7de2f0007d742de9d2e72e65db0edf3
+  - ref: refs/heads/pending
+    old: 7fb76d228ba6a6aa67e69f20c15734dd0ce92f75
     new: f5755c23ed8a4603194f6425828a2760f814e117
-    log: revlist-25b2f46bd7de-f5755c23ed8a.txt
+    log: revlist-7fb76d228ba6-f5755c23ed8a.txt
 
---===============5461093093616565304==
+--===============7627552849917045528==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-25b2f46bd7de-f5755c23ed8a.txt
+Content-Disposition: attachment; filename=revlist-7fb76d228ba6-f5755c23ed8a.txt
 
 e88e6e3c9ada84ceed3fa223ce11af94fcaf3ad3 wifi: ath12k: add rx_info to capture required field from rx descriptor
 bd00cc7e8a4c1048d14c9a9e9790c582119785fb wifi: ath12k: replace the usage of rx desc with rx_info
@@ -47,4 +47,4 @@ dce7aec6b1f74b0a46b901ab8de1f7bd0515f733 wifi: ath12k: fix failed to set mhi sta
 929069c1bdb70c6332c15f3978d4c8830bc43efd wifi: ath12k: handle ath12k_core_reset() with hardware grouping
 f5755c23ed8a4603194f6425828a2760f814e117 wifi: ath12k: reset MLO global memory during recovery
 
---===============5461093093616565304==--
+--===============7627552849917045528==--
