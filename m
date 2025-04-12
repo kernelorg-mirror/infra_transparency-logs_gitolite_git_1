@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3858534879414963552=="
+Content-Type: multipart/mixed; boundary="===============5902402095586663670=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sat, 12 Apr 2025 02:19:21 -0000
-Message-Id: <174442436125.2410750.7039325505940222339@gitolite.kernel.org>
+Date: Sat, 12 Apr 2025 02:19:42 -0000
+Message-Id: <174442438289.2411660.12182474673742115064@gitolite.kernel.org>
 
---===============3858534879414963552==
+--===============5902402095586663670==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 14cea3d31c705d5f0503128ef175864340cb5782
-    new: 1181cfd0ad143011c3d3edfd65fb7cd802ab2a33
-    log: revlist-14cea3d31c70-1181cfd0ad14.txt
+  - ref: refs/heads/6.16/scsi-staging
+    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
+    new: 1f8eb295790001e0f498e62c186130055d3d496f
+    log: revlist-0af2f6be1b42-1f8eb2957900.txt
 
---===============3858534879414963552==
+--===============5902402095586663670==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1744424371 -0400
+pusher 75C5DE3D 1744424394 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1744424341-1340800a7694aa78bc583bcb1baa9083e0e17f36
+nonce 1744424363-6f50e4647d2433e2994dc4f0558a41179ec3190e
 
-14cea3d31c705d5f0503128ef175864340cb5782 1181cfd0ad143011c3d3edfd65fb7cd802ab2a33 refs/tags/mkp-scsi-staging
+0af2f6be1b4281385b618cb86ad946eded089ac8 1f8eb295790001e0f498e62c186130055d3d496f refs/heads/6.16/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmf5zbMACgkQ7ulgGnXF
-3j3RKA/+LPkicCbWAeaTGQZ05iIIZ/Dxn87hlfdK2+QYu2ByDvIcqrN++3CTjsT1
-8Nyq5GBGZIskYksG3eKbyiFV42Q5sNqBDV/K8q0nvCy+DJjYh9fuS24m/lwIU6Vm
-y3nVuDvT11wZdoqvlYqnWF7bcZdtwJHImhb1UrzEGNdVmRMDEej/PnrwBHZ/FG38
-CPqcB4Fps7fTFL6p/W/ldeJJdrculsdf7doYXABnoMYMH4c0s/Bw4RGfQG2uoILu
-cDyVZH+vnIX0mFnWmwoLvILxA3OMuatb/PLDXh+ru6n4T2aFkMm6zmdicjdp+d83
-SZjSZrhQMIk+JVq8NhTKs2rwWf7rOZfH0l4zg/ij5BgMkxWnKN58oUSA/oyO0TeG
-PqYAdQ0Hyc1kYp3M0hclndeIafLpQQLfCGKrCMivqdWt0dgY5dHZYFTA5EaSV9yM
-siSjrV7/CvYDQrB7soCkifl4utp/Ko9ZDL67ezQiVujk0wY+BFHvkPaquV53iBIf
-zftHNr0vL0LWl4Y2VJFf5qoLmktZpRc23VdAXIwvM8vft1RMUgaPgPHiOrHuwzFI
-2rmiHv9FPV9Orqd16aSBwAZP2PuKY8P9J2yWo8w1CJerWBsMePYaxyGa2wg6PDlW
-c6qiQUx88Hds2eBea9mPHWThrNsR++u9LEDXvszFxnUeEIi2XXY=
-=1TGT
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmf5zcoACgkQ7ulgGnXF
+3j3A8BAArAsrVGn6wd6c+dtIzOVtICELcc6oA8xyPgwJgRgXguWBwAsnRCNy2tzY
+nuhhnVGcTVJH8MSH880Qs2oTLXsx9IhoapnITx46kh7Suk5sR+CIrwpkCA+xFGGB
+GMkQf69Z3k5ieNaTP+2xFZVhmt3fXf6k9eFJHqBNv5g5dj/3SvcuCaTXcKQcCqKs
+PxeuwMmrDzyImI9nOSqsfnm5cAtE2AFMfSmn54oK2BoiuTV9QMaKgw8cquVbnr+k
+VCcJsVrOsF9v5cJKMuA0fci4kzxwLb5zn5w1WmO3bvBqHyRSU8CGmQs/MmoqP7UB
+W1PNIrJKF4dhTc6QfgugYVQDhtnSoIWZm16EsEaJUHAkdraJ3lfgJW3LLWOq/YhU
+Jq7q3hrk/iMDfDUlM1aEBOqqvPYBj3deXB2tlEXcVSCesoWzhAWoGXV/2TcweOrV
+u1rcEUFwolt1BxEeEYoQATUQyELYAradGvOk0q+8osf0nkcw01mcBt0CzH7k790f
+sD4fsTSg2EA0vdPpDi3tvxdI6q2YA9fqgMZgVC8s+0qCXcPq4d5hDgWD3phSh9nf
+np/tCGMPpCHurk5UXbZuG06WSVG2odKXAsdcbYoYf/ZbocWA5+aXitIBIPVIeMoq
+n4Bwt/x1TckjRX5IDL4w+AqErUSDtMSmV5hnJ2Cx+uAntlHLn38=
+=Ld/v
 -----END PGP SIGNATURE-----
 
---===============3858534879414963552==
+--===============5902402095586663670==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-14cea3d31c70-1181cfd0ad14.txt
+Content-Disposition: attachment; filename=revlist-0af2f6be1b42-1f8eb2957900.txt
 
 a040adb78005cc35de61318975768c3d82138232 scsi: scsi_debug: Fix two typos in command definitions
 eaa326f5a8e8996711c0cb6d0aa70fa9b2ea38ea scsi: scsi_debug: Enable different command definitions for different device types
@@ -76,4 +76,4 @@ ae82eaf4aeea060bb736c3e20c0568b67c701d7d scsi: lpfc: Use memcpy() for BIOS versi
 fc8a5ee50743516700d10a83c598b6adb3c2dbef scsi: pm80xx: Add __nonstring annotations for unterminated strings
 1f8eb295790001e0f498e62c186130055d3d496f scsi: target: Remove size arguments when calling strscpy()
 
---===============3858534879414963552==--
+--===============5902402095586663670==--
