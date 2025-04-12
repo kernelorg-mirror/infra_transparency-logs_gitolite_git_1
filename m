@@ -1,25 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
-Date: Sat, 12 Apr 2025 19:10:26 -0000
-Message-Id: <174448502667.3243143.10789681362649226642@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
+Date: Sat, 12 Apr 2025 19:13:04 -0000
+Message-Id: <174448518492.3244496.8249510175710625554@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/hkml
-user: sj
+repo: pub/scm/linux/kernel/git/mingo/tip
+user: mingo
 changes:
-  - ref: refs/heads/master
-    old: 04256811a0c4ffe761baa4b0a49e65ae4fec8eef
-    new: 5e3aacf279f3ac4bb186aa0e21a9c30119eca15a
+  - ref: refs/heads/WIP.x86/alternatives
+    old: 23a76739d6afe6f98ccdb2517d7985b4335c7a3a
+    new: af8967158f9ad759a93e8e7a933c10e7cbb01ba2
     log: |
-         2bb28311beca119221f17d6e583fccc72b4680f3 hkml_view: implement ScrollableList.can_wrap_text()
-         b3ff95658b1c5d1a6a7797abb733c663c5686b93 hkml_view_text: suggest wrapping text if there are lines longer than the screen
-         dd64d26d0462e5ad98b2601c389b3f2e48ee25dd TODO,release_note: update for wrapping text suggestion
-         ae81c6bee352fa90f2ed8d35b614b0a062d8a5a3 hkml_patch_format: add Cc: patch tags to coverletter recipients
-         635da06a4d6360d87a8e938d3e6e9685950a220a TODO,release_note: update for patch commit message Cc: handling
-         0eb1824ce0d22870b11d478c40b11903091236a7 hkml_tag: add a class for changes
-         5e3aacf279f3ac4bb186aa0e21a9c30119eca15a hkml_tag: split tags file for 100 tag items
+         0812e096cff0fd58d88a21a413fba56c0e6c3caa x86/mm: Add 'mm' argument to unuse_temporary_mm()
+         81e3cbdef230fd9adfa8569044b07290afd66708 x86/events, x86/insn-eval: Remove incorrect current->active_mm references
+         d376972c9825ac4e8ad74872ee0730a5b4292e44 x86/mm: Make use_/unuse_temporary_mm() non-static
+         4873f494bbe4670f353a9b76ce44e6028c811cbb x86/mm: Remove 'mm' argument from unuse_temporary_mm() again
+         58f8ffa917669a0c8c027e24d5349f0b488f8181 x86/mm: Allow temporary MMs when IRQs are on
+         e7021e2fe0b4335523d3f6e2221000bdfc633b62 x86/efi: Make efi_enter/leave_mm() use the use_/unuse_temporary_mm() machinery
+         af8967158f9ad759a93e8e7a933c10e7cbb01ba2 x86/mm: Opt-in to IRQs-off activate_mm()
          
