@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7895298082987492692=="
+Content-Type: multipart/mixed; boundary="===============0141567803434906121=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sat, 12 Apr 2025 02:18:31 -0000
-Message-Id: <174442431184.2409634.9684479292788500473@gitolite.kernel.org>
+Date: Sat, 12 Apr 2025 02:18:53 -0000
+Message-Id: <174442433310.2410121.18000479010980930466@gitolite.kernel.org>
 
---===============7895298082987492692==
+--===============0141567803434906121==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: 415628746e15b96a67138ba613d235e7f04a3b48
-    new: eae3e76385fdba8535f83a8c823fb23d1ff3dfaa
+  - ref: refs/heads/6.15/scsi-fixes
+    old: a1af6f1a1433348c93f0b3a7a64f20a0a898ef78
+    new: 569330a34a31a52c904239439984a59972c11d28
     log: |
          4c324085062919d4e21c69e5e78456dcec0052fe scsi: ufs: mcq: Add NULL check in ufshcd_mcq_abort()
          cdd445258db9919e9dde497a6d5c3477ea7faf4d scsi: mpi3mr: Fix pending I/O counter
@@ -28,33 +28,33 @@ changes:
          569330a34a31a52c904239439984a59972c11d28 scsi: ufs: Introduce quirk to extend PA_HIBERN8TIME for UFS devices
          
 
---===============7895298082987492692==
+--===============0141567803434906121==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1744424307 -0400
+pusher 75C5DE3D 1744424344 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1744424277-85de7e94fb4fae75857245f702bcfddc10625811
+nonce 1744424314-ca5d8aa0b0bedf1fba1311b44ab25b3d0de314e2
 
-415628746e15b96a67138ba613d235e7f04a3b48 eae3e76385fdba8535f83a8c823fb23d1ff3dfaa refs/tags/mkp-scsi-fixes
+a1af6f1a1433348c93f0b3a7a64f20a0a898ef78 569330a34a31a52c904239439984a59972c11d28 refs/heads/6.15/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmf5zXMACgkQ7ulgGnXF
-3j1AQQ//ZNo/lm+9Y98EC0m5hh4UcYlYiEGU8HeIQrVifddAAZ0tIEEHxbmJth6m
-5l82RKfL3FC9gqnl/7ov6jYjgu1e2bVP7YghzdIRW+nCfpt6eEMJ3o4zk++q/dT+
-8LsQM+7TfJDqZouBsI6r6zIzaxao7E1yyjZmHMhXywZZ0pu4oL/wQhB6h5Y7GMHE
-8OddlrDdQQMl0AA3L/Desm3G7fTUYCDWKxwNyHcufTvEQdXefAKQv1gkthGLnpvH
-4/UQvzJdvOJL7hVmOD31qyRu59pma28kDD948xXE+K1teqDsCC/b4h2JMGGVHgOX
-o/H/we7FBI+aJSDjfGIhO+HwUEToiXhvtcRzIsbhnZpGYm6pfM12WeKpK+3uOmlo
-GJ958LLsFpLkDCM9XoqPHEYn2qVGRq5p1PopZ/bOdNcGGrPRMoIv7zNT3RpDZGTD
-ZK+J4gaOkhKFobAtrB7JeOvGVAN2r+Y8UbYLPjFAxb+QNKp1GCcLreBpwnhUGw1M
-x2hRSws0LnfWZ6gpLZlQTlSq2vEjIFZ6EZCxaNZZDkVh8ASndDTeGGwx/R2AKQZs
-ApvFhXza3wwk30QdbT8cFQd8Ew6aiv5/pLFsTUjmnakF9HcOARxNbgLA3QnDcSS0
-OgE+jCKe1UB63C6cQbyuhnKYA50gAxkp1X+pZ6CSGuUzpxy2r3U=
-=GHL4
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmf5zZgACgkQ7ulgGnXF
+3j194RAAmfeNzAXdH26EFLvlZXdeG00zK0IibAjq1aLbsMyw7vBBi5avy4o9tpon
+uQ8M7ESSwc86ydCD3zcbg+LNKZMhNtmGLHkqX4PWOoDzhsUHuWOoPLZGp41Qg/hW
+GADQmWYjLt8BM4/vkp3T21qNigOZjBjtCtL5Ejerl3X5jImA5dIvdOa9FaiV6Ibt
+EPkc5rQr5gpaEsmgPBhNXQ1nAvn8Qd6dqzlgp1ADcj+Xs7U+VPx2zmVA0UqYpqXE
+li9oWit6tirC1TlqbkzKEmPFSvfNWQ7ZGUipt3XadeQnDn8Z9p1+jjHeM/X7F9Jc
+DZi9NF3BA7IfG+u/A2mpEIr57tsZZwzbwBQhLKLV2D2Jdp0Hxf/7wQoLdNcV4fiA
+SNV/hayHC0Cvow4TCVeqv0nXBEU3Ma22ucDCGN4i1/qutbrgEBSM5f8luRQL4yZA
+PZqeRlvIJIUVkdTuNj7PvkuIy0oEINv3wDQi2HKxpdYcJteMPOMLaB7HdE/MaLff
+g4CVh8KTPAMarsomPF/VM0ORTO4rrxqaaSWmstWLbeBpbqGHPrGOwOYcIXRaTXnB
+Xk8e1ZV/eRvqmLOFeBRbUkxME/tihGHD3OJi5XbSLAnYZrbSc8LXsIDu/IkaibAK
+mn1pddliarOf7V+9QsaSj8juA+j1YWv28KKC1lm2CNAVprd8BpM=
+=8e3S
 -----END PGP SIGNATURE-----
 
---===============7895298082987492692==--
+--===============0141567803434906121==--
