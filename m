@@ -1,55 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============4234379527614722799=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 12 Apr 2025 20:44:30 -0000
-Message-Id: <174449067015.3318475.3867477015975269904@gitolite.kernel.org>
-
---===============4234379527614722799==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 12 Apr 2025 20:57:17 -0000
+Message-Id: <174449143760.3329883.3623052011165569011@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: dd137c284133cd36483c27a8ebe65c4da9ec9e08
-    new: f193152d003d6549518bde968a8a097cbbbec5b4
-    log: revlist-dd137c284133-f193152d003d.txt
-  - ref: refs/heads/tip/urgent
-    old: e862c01cce651cdaae5762fb1ade4d78431f50ee
-    new: 14b0ec0cf054a5f4509509332f00a232f38d3a6c
+    old: ecd5d67ad602c2c12e8709762717112ef0958767
+    new: b676ac484f847bbe5c7d29603f41475b64fefe55
     log: |
-         5c0f13a135a709d997ff8bea31a20538550cf474 Merge branch into tip/master: 'timers/urgent'
-         14b0ec0cf054a5f4509509332f00a232f38d3a6c Merge branch into tip/master: 'x86/urgent'
+         9bae8f4f21689b96a4b4fc505740dd97b9142c41 selftests/bpf: Make res_spin_lock test less verbose
+         d4bac0288a2b444e468e6df9cb4ed69479ddf14a bpf: support SKF_NET_OFF and SKF_LL_OFF on skb frags
+         fcd7132cb1f93e4d4594ecb19b8dcecdf0497d9e selftests/net: test sk_filter support for SKF_NET_OFF on frags
+         7bbb38f1f920e761d56fec257bc8df67566084b9 Merge branch 'support-skf_net_off-and-skf_ll_off-on-skb-frags'
+         1ddb9ad2ac6e527f220d5821ad54d37d3f9d122a selftests/bpf: Make res_spin_lock AA test condition stronger
+         92b90f780d056a28f3c751c2dfbcd9540c7ae28a bpf: Use architecture provided res_smp_cond_load_acquire
+         2f41503d647629cfafea42cf6f827e4139536703 bpf: Convert queue_stack map to rqspinlock
+         a650d38915c194b87616a0747a339b20958d17db bpf: Convert ringbuf map to rqspinlock
+         b676ac484f847bbe5c7d29603f41475b64fefe55 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
          
-
---===============4234379527614722799==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dd137c284133-f193152d003d.txt
-
-5c0f13a135a709d997ff8bea31a20538550cf474 Merge branch into tip/master: 'timers/urgent'
-14b0ec0cf054a5f4509509332f00a232f38d3a6c Merge branch into tip/master: 'x86/urgent'
-ee32c5bf65f8adda38d19da8975cdd634ff6b33d Merge branch into tip/master: 'irq/core'
-fa55727b91b206cb78495dce1e738446a50e8e0f Merge branch into tip/master: 'irq/drivers'
-4d88205e81121e47ed55a1d31ab3b130a871cb1e Merge branch into tip/master: 'irq/msi'
-1e0516524595457c5ec29b46493a820f6445c909 Merge branch into tip/master: 'perf/core'
-130591a80c914a212240329880feedcbc7f958f9 Merge branch into tip/master: 'sched/core'
-27159a73b482fe34fffd7a2665b34d2508514961 Merge branch into tip/master: 'timers/core'
-9377a3035cb9daedfb27f7eef84367e9f36ea6d5 Merge branch into tip/master: 'x86/alternatives'
-26b51f37b08384e0245b7e3ec7bc8e0330315fc1 Merge branch into tip/master: 'x86/asm'
-8052cbe00a071f4c560ef1ae8c8543d0529900bc Merge branch into tip/master: 'x86/boot'
-11ef8f6d2b21306523c7b9d11ef1dc7e759229b0 Merge branch into tip/master: 'x86/cpu'
-7b973abc1e65949b7c5644e4c8b2465e0fdcd11e Merge branch into tip/master: 'x86/fpu'
-fb3026d30a6f509a7c69a2a65904a91ec34d725b Merge branch into tip/master: 'x86/kconfig'
-9aec84cda18744e06c9a5ee165e4b1b853e0d5a3 Merge branch into tip/master: 'x86/microcode'
-213d9e4127bfbfc7e9f9d195d33406ca20a81551 Merge branch into tip/master: 'x86/mm'
-2e3ed420d8942a20ecfc5a6371f1ec495861c1c1 Merge branch into tip/master: 'x86/nmi'
-f193152d003d6549518bde968a8a097cbbbec5b4 Merge branch into tip/master: 'x86/sev'
-
---===============4234379527614722799==--
