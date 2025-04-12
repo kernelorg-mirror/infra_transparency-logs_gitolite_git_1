@@ -1,27 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Sat, 12 Apr 2025 15:38:35 -0000
-Message-Id: <174447231514.3066615.9888075515786114822@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+Date: Sat, 12 Apr 2025 15:44:30 -0000
+Message-Id: <174447267008.3071211.5846799482458887143@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
-user: pcmoore
+repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+user: agruen
 changes:
-  - ref: refs/heads/dev
-    old: 5d7ddc59b3d89b724a5aa8f30d0db94ff8d2d93f
-    new: 05f1a939225ec895a97a6b2f1cf64e329b6474f5
+  - ref: refs/heads/for-next
+    old: fc45ff6b9cd9ab2e8f2c6b7e0caf17c7c101d23b
+    new: e8ce6ab025a189a0d7744c6edc30f330f5ecf090
     log: |
-         1ec31f14a83bcad8039fe695a17346a94cab1fd9 selinux: remove a duplicated include
-         05f1a939225ec895a97a6b2f1cf64e329b6474f5 selinux: fix the kdoc header for task_avdcache_update
-         
-  - ref: refs/heads/next
-    old: 5d7ddc59b3d89b724a5aa8f30d0db94ff8d2d93f
-    new: 05f1a939225ec895a97a6b2f1cf64e329b6474f5
-    log: |
-         1ec31f14a83bcad8039fe695a17346a94cab1fd9 selinux: remove a duplicated include
-         05f1a939225ec895a97a6b2f1cf64e329b6474f5 selinux: fix the kdoc header for task_avdcache_update
+         d0caa354b1b9e756f1b3a4f3ece9835987b744e9 gfs2: replace sd_aspace with sd_inode
+         e8ce6ab025a189a0d7744c6edc30f330f5ecf090 gfs2: check sb_min_blocksize return value
          
