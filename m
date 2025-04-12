@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5902265109832205323=="
+Content-Type: multipart/mixed; boundary="===============2264770837193456419=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 12 Apr 2025 08:00:08 -0000
-Message-Id: <174444480811.2692564.6217667012221094889@gitolite.kernel.org>
+Date: Sat, 12 Apr 2025 08:00:49 -0000
+Message-Id: <174444484946.2693074.15018305394406496127@gitolite.kernel.org>
 
---===============5902265109832205323==
+--===============2264770837193456419==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,45 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 17bb98d104944a8c4293370803c3fcb37dc9f2a5
-    new: 0b4ede64c44317d61fe588c311b1a047bd18f850
-    log: revlist-17bb98d10494-0b4ede64c443.txt
+    old: 0b4ede64c44317d61fe588c311b1a047bd18f850
+    new: 6676bd09cc3a06292ead0c896225d8cfe4809728
+    log: revlist-0b4ede64c443-6676bd09cc3a.txt
+  - ref: refs/heads/tip/urgent
+    old: a6f75f79ad4a4e8f5e094ddcd252d8c27b33b6ff
+    new: b47994a847d49d4aa189ffd826c7587d01e3fa82
+    log: revlist-a6f75f79ad4a-b47994a847d4.txt
 
---===============5902265109832205323==
+--===============2264770837193456419==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-17bb98d10494-0b4ede64c443.txt
+Content-Disposition: attachment; filename=revlist-0b4ede64c443-6676bd09cc3a.txt
+
+a0695a2d903564a076364871e1567d785024ccfe Merge branch into tip/master: 'core/urgent'
+4373e37118e03cabe72e71559a14dcb73691befd Merge branch into tip/master: 'timers/urgent'
+b47994a847d49d4aa189ffd826c7587d01e3fa82 Merge branch into tip/master: 'x86/urgent'
+b2a0588e339d3770aa19dd63e4c120ea35398596 Merge branch into tip/master: 'irq/core'
+31db84cab90909ec8c989199c019bf29839e452a Merge branch into tip/master: 'irq/drivers'
+7bdaf712cf49a90f577128209da11c134a34e1ec Merge branch into tip/master: 'irq/msi'
+b75d3d3b692955e0384d0a736c144fc8dcaab99c Merge branch into tip/master: 'perf/core'
+b1fd7034ba3a565f365b82c8f448732a8cd3ea30 Merge branch into tip/master: 'sched/core'
+0de080c6dacbe8c29614c8c152c09ef10ca08c22 Merge branch into tip/master: 'timers/core'
+9305e2680488685550668cd22c3bed1fa09d11b1 Merge branch into tip/master: 'x86/alternatives'
+275c15ba66ce2574a817152e59794c1dcec8e7e5 Merge branch into tip/master: 'x86/asm'
+41d01fb4347127d396e67645ad56e5b4cc7b367f Merge branch into tip/master: 'x86/boot'
+0656556e683505900dd9bec3757ed1292ba8c459 Merge branch into tip/master: 'x86/cpu'
+a335b12b7069b2c68491e1ee346bde9f95d8dd8b Merge branch into tip/master: 'x86/fpu'
+b330df0c6d3d302dc66b4ffad8313a67624e1430 Merge branch into tip/master: 'x86/kconfig'
+83083c3727fac5312a24605d3e65e5de84c2da31 Merge branch into tip/master: 'x86/microcode'
+fc6eff01099811c454d91f119d481fcd3f83d5ba Merge branch into tip/master: 'x86/mm'
+f4785b4fa5cbb527256cf3cdc83a03fc72f3b902 Merge branch into tip/master: 'x86/nmi'
+6676bd09cc3a06292ead0c896225d8cfe4809728 Merge branch into tip/master: 'x86/sev'
+
+--===============2264770837193456419==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-a6f75f79ad4a-b47994a847d4.txt
 
 6f8a394aa952257575910d57cf0a63627fa949a2 cifs: Ensure that all non-client-specific reparse points are processed by the server
 b365b9d404b7376c60c91cd079218bfef11b7822 smb311 client: fix missing tcon check when mounting with linux/posix extensions
@@ -81,6 +111,8 @@ e618ee89561b6b0fdc69f79e6fd0c33375d3e6b4 Merge tag 'spi-fix-v6.15-rc1' of git://
 c8ba3f8aff672a5ea36e895f0f8f657271d855d7 PCI: Run quirk_huawei_pcie_sva() before arm_smmu_probe_device()
 5d74992343b969cd8e2d0a3d00cd152eeedcf57c Merge tag 'pci-v6.15-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
 3bde70a2c82712f05c7220b8b94fc2cbdf7fbfe0 Merge tag 'v6.15-rc1-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
-0b4ede64c44317d61fe588c311b1a047bd18f850 Merge branch 'linus'
+a0695a2d903564a076364871e1567d785024ccfe Merge branch into tip/master: 'core/urgent'
+4373e37118e03cabe72e71559a14dcb73691befd Merge branch into tip/master: 'timers/urgent'
+b47994a847d49d4aa189ffd826c7587d01e3fa82 Merge branch into tip/master: 'x86/urgent'
 
---===============5902265109832205323==--
+--===============2264770837193456419==--
