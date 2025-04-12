@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 12 Apr 2025 12:50:06 -0000
-Message-Id: <174446220630.2931078.4672740245945465751@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Sat, 12 Apr 2025 12:52:34 -0000
+Message-Id: <174446235468.2932478.4450234597772099377@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/heads/testing
-    old: 958b592c59eccfc8e5f4dd55fa0c1be689c2f0b0
-    new: 1d421d00a3b9f7355bad4738d00f734fd973b60b
+  - ref: refs/heads/scx
+    old: a90addc1fa499857d58f5cccb22c7a7c895c7e68
+    new: 7e53aa46bc362c330e755fc915c2af838778aac1
     log: |
-         5c3d92d73128fc2e1e7ff2dfa9347dd63a4360af dt-bindings: iio: imu: icm42600: add interrupt naming support
-         1d421d00a3b9f7355bad4738d00f734fd973b60b iio: imu: inv_icm42600: switch to use generic name irq get
+         e96f50615fab0224750acacaace0d33b9302596b sched/fair: Prefer full-idle SMT cores
+         7e53aa46bc362c330e755fc915c2af838778aac1 sched: Disable wakee stacking with per-CPU kthreads
          
