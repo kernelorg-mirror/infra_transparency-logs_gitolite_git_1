@@ -1,27 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sat, 12 Apr 2025 20:57:17 -0000
-Message-Id: <174449143760.3329883.3623052011165569011@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Sat, 12 Apr 2025 21:02:10 -0000
+Message-Id: <174449173022.3334376.1491534316231198502@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/master
-    old: ecd5d67ad602c2c12e8709762717112ef0958767
-    new: b676ac484f847bbe5c7d29603f41475b64fefe55
+  - ref: refs/heads/damon/next
+    old: c7cae100cc336794ce20b2d99dd649bce44cc320
+    new: 0f12a5cf6e1aef7b47221dae67324b64f1c118b5
     log: |
-         9bae8f4f21689b96a4b4fc505740dd97b9142c41 selftests/bpf: Make res_spin_lock test less verbose
-         d4bac0288a2b444e468e6df9cb4ed69479ddf14a bpf: support SKF_NET_OFF and SKF_LL_OFF on skb frags
-         fcd7132cb1f93e4d4594ecb19b8dcecdf0497d9e selftests/net: test sk_filter support for SKF_NET_OFF on frags
-         7bbb38f1f920e761d56fec257bc8df67566084b9 Merge branch 'support-skf_net_off-and-skf_ll_off-on-skb-frags'
-         1ddb9ad2ac6e527f220d5821ad54d37d3f9d122a selftests/bpf: Make res_spin_lock AA test condition stronger
-         92b90f780d056a28f3c751c2dfbcd9540c7ae28a bpf: Use architecture provided res_smp_cond_load_acquire
-         2f41503d647629cfafea42cf6f827e4139536703 bpf: Convert queue_stack map to rqspinlock
-         a650d38915c194b87616a0747a339b20958d17db bpf: Convert ringbuf map to rqspinlock
-         b676ac484f847bbe5c7d29603f41475b64fefe55 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
+         141e9d783b2f9fd875a29b1a641057bb3249e6f6 ==== addr_unit (arm32 lpae) ====
+         bd2416b5b3bca240693ba6f64458a8718f7eaba1 mm/damon: add damon_target->addr_unit
+         c4db33d71a5113cb72acc19842d92c467566ecca mm/damon/core: set damon_target->addr_unit from commit_target()
+         8d5c77bf57f37818d3c992302aa4f476100190c6 mm/damon/paddr: support damon_target->addr_unit for access monitoring
+         9dea01bbc2adeed87e49e4124449ce7efa7201fb mm/damon/paddr: support target->addr_unit for DAMOS_PAGEOUT
+         fefcdd8f92e4573251f720762e9e0464160cf348 mm/damon/paddr: support target->addr_unit for DAMOS_PAGEOUT
+         adaa32f24cbb383a1926d727bba945e75442426c mm/damon/paddr: support target->addr_unit for DAMOS_MIGRATE_{HOT,COLD}
+         0f12a5cf6e1aef7b47221dae67324b64f1c118b5 mm/damon/paddr: support ->addr_unit for DAMOS_STAT
          
