@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/chromeos
-Date: Sun, 13 Apr 2025 19:12:08 -0000
-Message-Id: <174457152850.220882.634380862384046839@gitolite.kernel.org>
+Date: Sun, 13 Apr 2025 19:12:53 -0000
+Message-Id: <174457157308.221477.2488916629376809095@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/iwlwifi/chromeos
 user: egrumbach
 changes:
-  - ref: refs/tags/chromeos-5.4__release/core95-2025-04-13
-    old: 0000000000000000000000000000000000000000
+  - ref: refs/heads/chromeos-5.4__release/core95-82
+    old: b686970b9ea961dd299581c0b57bad68d361a22c
     new: 00a38c3ac69956c20e392e14e49f058b9bef29f5
+    log: |
+         00a38c3ac69956c20e392e14e49f058b9bef29f5 Merge remote-tracking branch 'google/chromeos-5.4' into HEAD
+         
