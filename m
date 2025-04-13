@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rppt/memblock
-Date: Sun, 13 Apr 2025 10:38:20 -0000
-Message-Id: <174454070008.3988402.16469425473498813476@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sun, 13 Apr 2025 10:47:30 -0000
+Message-Id: <174454125012.3996070.179594261738566386@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rppt/memblock
-user: rppt
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/tags/fixes-2025-04-13
-    old: 0000000000000000000000000000000000000000
-    new: a7ea41268167bd4400d381b8fef664cf776abdf9
+  - ref: refs/heads/testing
+    old: d1252dbc19c16cff58186f859a63b7a543d140fe
+    new: d3d6cb27a945c6fc7ddd3e7423c4303b4b6bad36
+    log: |
+         d3d6cb27a945c6fc7ddd3e7423c4303b4b6bad36 iio: normalize array sentinel style
+         
