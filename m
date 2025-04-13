@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8162333457825355564=="
+Content-Type: multipart/mixed; boundary="===============1877302874189348153=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sun, 13 Apr 2025 20:36:08 -0000
-Message-Id: <174457656827.292483.5168027910089091728@gitolite.kernel.org>
+Date: Sun, 13 Apr 2025 20:40:19 -0000
+Message-Id: <174457681958.296353.740164154399482500@gitolite.kernel.org>
 
---===============8162333457825355564==
+--===============1877302874189348153==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
-    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    new: 8ffd015db85fea3e15a77027fda6c02ced4d2444
-    log: revlist-0af2f6be1b42-8ffd015db85f.txt
+  - ref: refs/heads/nfsd-next
+    old: 6aee8b8ccbc7ccfa8b0fdfd4e6096c910c04e05a
+    new: fec8e74d64677ff8b96269ec6f56f11b71699a3d
+    log: revlist-6aee8b8ccbc7-fec8e74d6467.txt
 
---===============8162333457825355564==
+--===============1877302874189348153==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0af2f6be1b42-8ffd015db85f.txt
+Content-Disposition: attachment; filename=revlist-6aee8b8ccbc7-fec8e74d6467.txt
 
 6c9567e0850be2f0f94ab64fa6512413fd1a1eb1 KVM: s390: Don't use %pK through tracepoints
 0c7fbae5bc782429c97d68dc40fb126748d7e352 KVM: s390: Don't use %pK through debug printing
@@ -365,5 +365,20 @@ ccad447a3d331a239477c281533bacb585b54a98 ext4: make block validity check resiste
 5aaaedb0cb540cda1cdcef34f2d30de67d972d9b Merge tag 'ext4_for_linus-6.15-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 004a365eb8b9c6d7d409bbeb5687a4a5ebf8f110 Merge tag 'erofs-for-6.15-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
 8ffd015db85fea3e15a77027fda6c02ced4d2444 Linux 6.15-rc2
+f73e3d92466dacb798132e104a32db726598c7a1 NFSD: OFFLOAD_CANCEL should mark an async COPY as completed
+d688a9b0b67986ff52f0287c5826ad0998208c88 NFSD: Shorten CB_OFFLOAD response to NFS4ERR_DELAY
+8a9cd76060bec8140d7030ab3fba61a091280be4 NFSD: Implement CB_SEQUENCE referring call lists
+99bf0f3c3980c1f447b1c8fb7d628bb3547d2c62 NFSD: Implement CB_SEQUENCE referring call lists
+4bdcb183e2b6b6e25ac749ceb2b9777e5326f90f NFSD: Record each NFSv4 call's session slot index
+f190d77ed5f3208a95236b1419e7b627d70362c6 sunrpc: update nextcheck time when adding new cache entries
+2baebc5d7838f069eda749d5f194f0d041801179 sunrpc: fix race in cache cleanup causing stale nextcheck time
+2646606a33f27213e16aa937a44804200548b9d3 NFSD: Offer write delegation for OPEN with OPEN4_SHARE_ACCESS_WRITE
+98480262c72e4f4ab7ae29f64ee728abd414a3c0 NFSD: unregister filesystem in case genl_register_family() fails
+803a193acfd7cdbe9790529035ab34efef192b00 NFSD: fix race between nfsd registration and exports_proc
+a4502705c979466f0c3bb2f50611f4088190a0ff NFSD: Add /sys/kernel/debug/nfsd
+9eed34295676a8fb18650ebfc2e03c1029f0ce0c NFSD: Add experimental setting to disable the use of splice read
+db0971d77e44d7485c49f5bfd6b7e9537a572d6c nfsd: remove redundant WARN_ON_ONCE in nfsd4_write
+8fd08d990102acef6d26698d9e5b0d5f7178a7fe nfsd: fix access checking for NLM under XPRTSEC policies
+fec8e74d64677ff8b96269ec6f56f11b71699a3d nfsd: nfsd4_spo_must_allow() must check this is a v4 compound request
 
---===============8162333457825355564==--
+--===============1877302874189348153==--
