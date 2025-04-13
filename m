@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4021981406024587249=="
+Content-Type: multipart/mixed; boundary="===============2965509641480777750=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 13 Apr 2025 09:23:25 -0000
-Message-Id: <174453620553.3928185.3064433374099379616@gitolite.kernel.org>
+Date: Sun, 13 Apr 2025 09:24:10 -0000
+Message-Id: <174453625005.3928803.10626899034049606454@gitolite.kernel.org>
 
---===============4021981406024587249==
+--===============2965509641480777750==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/testing
-    old: 251fedd7b6dc495c433b959e31c29a867c079872
-    new: d1252dbc19c16cff58186f859a63b7a543d140fe
-    log: revlist-251fedd7b6dc-d1252dbc19c1.txt
+  - ref: refs/heads/togreg
+    old: 1c2409fe38d5c19015d69851d15ba543d1911932
+    new: f583e9d6f9561a3139f0f7bafe2402f5d4c8c681
+    log: revlist-1c2409fe38d5-f583e9d6f956.txt
 
---===============4021981406024587249==
+--===============2965509641480777750==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-251fedd7b6dc-d1252dbc19c1.txt
+Content-Disposition: attachment; filename=revlist-1c2409fe38d5-f583e9d6f956.txt
 
 273dda6ce82ca428db8c18ee0283acb0fd6c4626 iio: addac: ad74115: Switch to sparse friendly iio_device_claim/release_direct()
 9eefda9828bdd76f8611dcf8edec07041878a57f iio: chemical: ccs811: Factor out handling of read of IIO_INFO_RAW to simplify error paths.
@@ -72,31 +72,5 @@ db1156b55354a6842707575f4e5e70900dfd3899 iio: adc: ad7380: add ad7389-4
 c8773587ec2308dc581d234c60898c6b57e9c891 doc: iio: ad7606: describe offload support
 395bc9d09567913c978053a616b30f150d611dff iio: adc: ad7606: add SPI offload support
 f583e9d6f9561a3139f0f7bafe2402f5d4c8c681 MAINTAINERS: IIO: Update reviewers for the subsystem
-100213b908cfb08e97ca000fe7f5cf1bf0077526 iio: bd79124: Use set_rv and set_multiple_rv
-c48389b406f7abfd232048da7974334a82da6c6e iio: dac: ad5592r: destroy mutexes in detach paths
-dd919f514e9af6cab44d065b21f06d800b0aaa9e iio: dac: ad5592r: use lock guards
-b1dadfbc6327b45b1990fa73c8b851993ff47826 iio: dac: ad5592r: use new GPIO line value setter callbacks
-ba5cde68b683556e571bcdbbdc13924b2e1dec3d iio: adc: ti-ads7950: use new GPIO line value setter callbacks
-46c7d11cc2a97d82237bd1be7d0c24d1c03b2684 iio: adc: ad4130: use new GPIO line value setter callbacks
-610a238efd394cbefdca1189eea6e48694e19766 iio: addac: ad74413r: use new GPIO line value setter callbacks
-f2e68c2aa86b743d7a9eb3377eaf96f4a30b73d9 iio: addac: ad74115: use new GPIO line value setter callbacks
-b9e030d9bd9f03f1939d8a84a0134a64e0d294a3 dt-bindings: ROHM BD79104 ADC
-1d07543c832e91e790632388044a0721f83fc2b8 iio: adc: ti-adc128s052: Simplify using be16_to_cpu()
-717ff6de2b71fafbc9f5ca7a6b246528d1943d2e iio: adc: ti-adc128s052: Be consistent with arrays
-7ef1b381c112e2f1640c9f3133a5aba0b06ee757 iio: adc: ti-adc128s052: Use devm_mutex_init()
-6b95959269f0fcbb222839159e10ab9e6775e1e4 iio: adc: ti-adc128s052: Simplify using guard(mutex)
-81d3fc84323595eef7c966cf9d5ef548593fcdfa iio: adc: ti-adc128s052: Support ROHM BD79104
-e00ca46e8b10ac64722a4fc80666cca77bf58c39 MAINTAINERS: A driver for TI/ROHM ADCs
-840798907083578f9c12db1d365682cdd60e925e dt-bindings: iio: imu: icm42600: add interrupt naming support
-bc901a13b0ec06039de3845f57f20fe6922d170e iio: imu: inv_icm42600: switch to use generic name irq get
-bc1bacc233adc9e45fd44411a39e8bb05bfa492a iio: dac: adi-axi-dac: add cntrl chan check
-98ecbc5050b6453cc28e40dc7713ef356203b931 docs: iio: add documentation for ad3552r driver
-e40dfedc26f8e96db0accd20d23a4f86d352f179 iio: backend: add support for data source get
-417b5a36fd93141810d34f5f9ce0f758ccde2fdd iio: dac: adi-axi-dac: add data source get
-57974b422a056d33b41b3bcff5d9f9f563c4cd07 iio: dac: ad3552r-hs: add support for internal ramp
-9e82ce83b04da4dcb8d6c9b23d0ec4d259437699 iio: adc: ad_sigma_delta: Fix use of uninitialized status_pos
-53e04c212c22aab333d07d83e2d6c999ea1349a2 iio: adc: ad7768-1: convert driver to use regmap
-ca66f998e52872f9c831e5ae1422b45a0870b1b9 iio: adc: ad7768-1: Add reset gpio
-d1252dbc19c16cff58186f859a63b7a543d140fe iio: adc: ad7768-1: Move buffer allocation to a separate function
 
---===============4021981406024587249==--
+--===============2965509641480777750==--
