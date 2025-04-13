@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-testing
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
 Date: Sun, 13 Apr 2025 18:37:50 -0000
-Message-Id: <174456947034.189263.15797293245811844822@gitolite.kernel.org>
+Message-Id: <174456947034.189261.9277178512190636357@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-testing
-user: bcopeland
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/tags/v6.15-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 64e9fdfc89a76fed38d8ddeed72d42ec71957ed9
+  - ref: refs/heads/tip/tip
+    old: 2888b24bf97a1889ba6f6ab66707ab34fa13ef54
+    new: b0f1b2fa2b1e6dedf89e950e10a127c897421a17
+    log: |
+         b0f1b2fa2b1e6dedf89e950e10a127c897421a17 auto-x86-next: Add x86/msr
+         
