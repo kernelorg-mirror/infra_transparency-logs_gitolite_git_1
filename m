@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7758467261053463790=="
+Content-Type: multipart/mixed; boundary="===============1606972650506258460=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/dakr/linux
-Date: Sun, 13 Apr 2025 17:29:18 -0000
-Message-Id: <174456535868.129798.7033022122925521022@gitolite.kernel.org>
+Date: Sun, 13 Apr 2025 17:29:28 -0000
+Message-Id: <174456536859.130125.11625156692958600386@gitolite.kernel.org>
 
---===============7758467261053463790==
+--===============1606972650506258460==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/dakr/linux
 user: dakr
 changes:
-  - ref: refs/heads/rust/auxiliary
+  - ref: refs/heads/for-driver-core
     old: 9a3ffcdf3be434fae744da2584368ec047154306
     new: 3c10436d99355e474c2a8b502c009ef5cf410579
     log: revlist-9a3ffcdf3be4-3c10436d9935.txt
 
---===============7758467261053463790==
+--===============1606972650506258460==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ c324865fbfaa692495144528ae9d984235125e9c rust: auxiliary: add auxiliary device /
 4469214c9c1e44b95167e8342e61a36ab3598cec rust: auxiliary: add auxiliary registration
 3c10436d99355e474c2a8b502c009ef5cf410579 samples: rust: add Rust auxiliary driver sample
 
---===============7758467261053463790==--
+--===============1606972650506258460==--
