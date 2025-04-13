@@ -1,31 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libcap/libcap
-Date: Sun, 13 Apr 2025 18:22:58 -0000
-Message-Id: <174456857852.176168.12058581589227741154@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
+Date: Sun, 13 Apr 2025 18:34:27 -0000
+Message-Id: <174456926700.184962.16827041863042801821@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libcap/libcap
-user: morgan
+repo: pub/scm/linux/kernel/git/mingo/tip
+user: mingo
 changes:
-  - ref: refs/tags/cap/v1.2.76
-    old: 0000000000000000000000000000000000000000
-    new: 04c13a2b044f1f335012bb2289267563fdf06488
-  - ref: refs/tags/libcap-2.76
-    old: 0000000000000000000000000000000000000000
-    new: 0bb4bc35116c05a0847d147dacc77d16f031cdb2
-  - ref: refs/tags/libcap-korg-2.76
-    old: 0000000000000000000000000000000000000000
-    new: 80b5dd0b96b6871cc915f6af7523d8c1830960bc
-  - ref: refs/tags/psx/v1.2.76
-    old: 0000000000000000000000000000000000000000
-    new: d22f42596ce50a404a47fbb52bebe89370d7cabf
-  - ref: refs/tags/sig-libcap-2.76
-    old: 0000000000000000000000000000000000000000
-    new: e34b7494ebeeb683eb164d1cfd2a1eb11f5f7c38
-  - ref: refs/tags/v1.2.76
-    old: 0000000000000000000000000000000000000000
-    new: 413789501269f0f258a6716c6fa3edae178ba4a3
+  - ref: refs/heads/WIP.x86/platform
+    old: 57f052eb17b987aea36c9d32d4a21f550b62a2b7
+    new: f5c8e942bed30e54c1894a29d4c7945dfe38879b
+    log: |
+         f81e0cf02874499aac72accf5d87828ab66357aa x86/platform/amd: Move the <asm/amd-ibs.h> header to <asm/amd/ibs.h>
+         8b4eac1c85ec6386a424bad6fa6c37c21fa79eb1 x86/platform/amd: Add standard header guards to <asm/amd/ibs.h>
+         d98dde593a57d4d2c6192250056118b74c58c8c6 x86/platform/amd: Move the <asm/amd_nb.h> header to <asm/amd/nb.h>
+         a8ec80897c276d6ad7b4d6bdbaee279d87b3066e x86/platform/amd: Move the <asm/amd_hsmp.h> header to <asm/amd/hsmp.h>
+         f3502f90522b0133fd36c0b7b36880cde0447194 x86/platform/amd: Clean up the <asm/amd/hsmp.h> header guards a bit
+         f5c8e942bed30e54c1894a29d4c7945dfe38879b x86/platform/amd: Move the <asm/amd_node.h> header to <asm/amd/node.h>
+         
