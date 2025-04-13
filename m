@@ -1,26 +1,44 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sun, 13 Apr 2025 17:12:29 -0000
-Message-Id: <174456434927.116930.4946983982957679437@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7758467261053463790=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dakr/linux
+Date: Sun, 13 Apr 2025 17:29:18 -0000
+Message-Id: <174456535868.129798.7033022122925521022@gitolite.kernel.org>
+
+--===============7758467261053463790==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/dakr/linux
+user: dakr
 changes:
-  - ref: refs/heads/master
-    old: 8fe2f8563870772d2d20dad6621254ecc4fdc3c3
-    new: a24583e10f1a16e8fd36450cb9f6163cfb2b52af
-    log: |
-         5b9d09aef16de0e5701ac0df3406b6dc74690b62 Fixes for 6.14
-         4165291057484ece5362e67ca979ff408a215be6 Fixes for 6.13
-         607a8d40d004a2c17648b23e069df3f1dab011db Fixes for 6.12
-         6dd287e4704e4b3061aa09a63b937ecd610cb846 Fixes for 6.6
-         22f0c33cd4b7a7f59de8b8d620be187043525848 Fixes for 6.1
-         a8309fa2e11ec034133a2a8e175cf8ff611ce4be Fixes for 5.15
-         089812ed7a0feb30992936d5ff0fd40a325f9bcb Fixes for 5.10
-         a24583e10f1a16e8fd36450cb9f6163cfb2b52af Fixes for 5.4
-         
+  - ref: refs/heads/rust/auxiliary
+    old: 9a3ffcdf3be434fae744da2584368ec047154306
+    new: 3c10436d99355e474c2a8b502c009ef5cf410579
+    log: revlist-9a3ffcdf3be4-3c10436d9935.txt
+
+--===============7758467261053463790==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-9a3ffcdf3be4-3c10436d9935.txt
+
+e0e606d3ff666af1aff2a8e46ab9224d0e55c053 rust: device: implement device context for Device
+2e5731068d411db911d61ee9e658a9611734bac9 rust: platform: preserve device context in AsRef
+45484a5c27c7b26b38b3538225d99b0ca70ef29b rust: pci: preserve device context in AsRef
+47013c1a2f679766c07a4fd35658931c700a2e96 rust: device: implement Bound device context
+6bb52fd8a1abf6ca1bddde711788d6407bf6bf6a rust: pci: move iomap_region() to impl Device<Bound>
+830f434717d3b9b2bdd0fe1fb75ea80a2c6cd85a rust: devres: require a bound device
+9d19521eb5f6cdf82f5058f66668f8b8c963ee73 rust: dma: require a bound device
+bda16b7f06030b248d408576db91e98ebcad6568 rust: pci: impl TryFrom<&Device> for &pci::Device
+41c4170ad8fe5b17f40f1f55bfda7b980b594b22 rust: platform: impl TryFrom<&Device> for &platform::Device
+537ded4f6e9c0edb2867d058b244e1f5c8099446 rust: types: add `Opaque::zeroed`
+ea22990aa85ef20aeaa67591700da65f08fee774 rust: device: implement Device::parent()
+c324865fbfaa692495144528ae9d984235125e9c rust: auxiliary: add auxiliary device / driver abstractions
+4469214c9c1e44b95167e8342e61a36ab3598cec rust: auxiliary: add auxiliary registration
+3c10436d99355e474c2a8b502c009ef5cf410579 samples: rust: add Rust auxiliary driver sample
+
+--===============7758467261053463790==--
