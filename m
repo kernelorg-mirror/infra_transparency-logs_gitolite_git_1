@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/dakr/linux
-Date: Sun, 13 Apr 2025 21:27:16 -0000
-Message-Id: <174457963642.334483.9497218582061854852@gitolite.kernel.org>
+Date: Sun, 13 Apr 2025 21:27:23 -0000
+Message-Id: <174457964323.334806.8763490078762636550@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/dakr/linux
 user: dakr
 changes:
-  - ref: refs/heads/for-driver-core
+  - ref: refs/heads/rust/auxiliary
     old: 3c10436d99355e474c2a8b502c009ef5cf410579
     new: dc3680dbf38a5115155eaa7173b792e13b8b15e9
     log: |
