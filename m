@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6099745594538321629=="
+Content-Type: multipart/mixed; boundary="===============5812585716901429653=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Sun, 13 Apr 2025 19:26:44 -0000
-Message-Id: <174457240437.234327.9064542718355972687@gitolite.kernel.org>
+Date: Sun, 13 Apr 2025 19:26:47 -0000
+Message-Id: <174457240725.234567.10081752940098981728@gitolite.kernel.org>
 
---===============6099745594538321629==
+--===============5812585716901429653==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host-fixes
-    old: 38fec10eb60d687e30c8c6b5420d86e8149f7557
-    new: 8ffd015db85fea3e15a77027fda6c02ced4d2444
-    log: revlist-38fec10eb60d-8ffd015db85f.txt
+  - ref: refs/heads/i2c/i2c-host-next
+    old: 280deda134db13ee951141a4ae86eeaf5f3a64eb
+    new: 5d9b9e741c8f260493dba2bf36ce2583ffc4aa29
+    log: revlist-280deda134db-5d9b9e741c8f.txt
 
---===============6099745594538321629==
+--===============5812585716901429653==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-38fec10eb60d-8ffd015db85f.txt
+Content-Disposition: attachment; filename=revlist-280deda134db-5d9b9e741c8f.txt
 
-668f953bb4dfeddad854c0141a77b1738cdc1fdf tpm: Lazily flush auth session when getting random data
 6359691b4fbcaf3ed86f53043a1f7c6cc54c09be tpm: Convert warn to dbg in tpm2_start_auth_session()
 7146dffa875cd00e7a7f918e1fce79c7593ac1fa tpm, tpm_tis: Fix timeout handling when waiting for TPM status
 de9e33df7762abbfc2a1568291f2c3a3154c6a9d tpm, tpm_tis: Workaround failed command reception on Infineon devices
@@ -1050,5 +1049,6 @@ ccad447a3d331a239477c281533bacb585b54a98 ext4: make block validity check resiste
 5aaaedb0cb540cda1cdcef34f2d30de67d972d9b Merge tag 'ext4_for_linus-6.15-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 004a365eb8b9c6d7d409bbeb5687a4a5ebf8f110 Merge tag 'erofs-for-6.15-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
 8ffd015db85fea3e15a77027fda6c02ced4d2444 Linux 6.15-rc2
+5d9b9e741c8f260493dba2bf36ce2583ffc4aa29 i2c: xgene-slimpro: Simplify PCC shared memory region handling
 
---===============6099745594538321629==--
+--===============5812585716901429653==--
