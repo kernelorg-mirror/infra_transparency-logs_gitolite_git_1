@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sun, 13 Apr 2025 20:44:36 -0000
-Message-Id: <174457707608.299945.17304856088747803285@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Sun, 13 Apr 2025 20:46:29 -0000
+Message-Id: <174457718972.302536.14160159953952875983@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
 changes:
-  - ref: refs/heads/nfsd-fixes
-    old: 26a80762153ba0dc98258b5e6d2e9741178c5114
-    new: a1d14d931bf700c1025db8c46d6731aa5cf440f9
+  - ref: refs/heads/i2c/i2c-host
+    old: bdc070524784c8f8881f33d4f0bf5065c8fe235c
+    new: 341fa0501dccedfd91e00c06a7f3d12e57bc9994
     log: |
-         cd35b6cb46649750b7dbd0df0e2d767415d8917b nfs: add missing selections of CONFIG_CRC32
-         a1d14d931bf700c1025db8c46d6731aa5cf440f9 nfsd: decrease sc_count directly if fail to queue dl_recall
+         341fa0501dccedfd91e00c06a7f3d12e57bc9994 i2c: npcm7xx: Remove redundant ret variable
          
