@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Mon, 14 Apr 2025 15:48:11 -0000
-Message-Id: <174464569144.1330174.3970008034876664215@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Mon, 14 Apr 2025 15:48:26 -0000
+Message-Id: <174464570648.1330591.2441815242013778521@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: mikulas
 changes:
-  - ref: refs/heads/work.audit.fix
-    old: 9111629a77cfe6018a931892a623ee96f1a78ae1
-    new: 5d23749842c38878a0853a8a45d18eddb1adf629
+  - ref: refs/heads/dm-6.16
+    old: ac3ca3d875d83363d0f4b7d7c23a73af56b17e12
+    new: a94c989dcb959f98bd9998f38f12163b89d73203
     log: |
-         5d23749842c38878a0853a8a45d18eddb1adf629 fs: add kern_path_locked_negative()
+         a94c989dcb959f98bd9998f38f12163b89d73203 dm-delay: don't busy-wait in kthread
          
