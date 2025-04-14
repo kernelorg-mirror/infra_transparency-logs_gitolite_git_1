@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 14 Apr 2025 11:39:47 -0000
-Message-Id: <174463078738.1102763.15586929986775151010@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Mon, 14 Apr 2025 11:42:01 -0000
+Message-Id: <174463092155.1105446.12116661220176567781@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: davem
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/main
-    old: 6a325aed130bb68790e765f923e76ec5669d2da7
-    new: b65999e7238e6f2a48dc77c8c2109c48318ff41b
+  - ref: refs/heads/vfs-6.16.pidfs
+    old: a9d7de0f68b79e5e481967fc605698915a37ac13
+    new: c9e3b2f7726829ded44cdc83e5a83a05788b187b
     log: |
-         b65999e7238e6f2a48dc77c8c2109c48318ff41b net: hsr: sync hw addr of slave2 according to slave1 hw addr on PRP
+         c9e3b2f7726829ded44cdc83e5a83a05788b187b release_task: kill the no longer needed get/put_pid(thread_pid)
          
