@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5551309669221303119=="
+Content-Type: multipart/mixed; boundary="===============4186002952840307008=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 14 Apr 2025 12:01:55 -0000
-Message-Id: <174463211532.1123032.770661697237616015@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 14 Apr 2025 12:01:59 -0000
+Message-Id: <174463211951.1123271.9520856288613794102@gitolite.kernel.org>
 
---===============5551309669221303119==
+--===============4186002952840307008==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.15
+  - ref: refs/heads/asoc-6.15
     old: e6c4618422a25cb266bf752040eb509865caeb0e
     new: 1749125091cd0834632ac295caa65f8c57628be6
     log: revlist-e6c4618422a2-1749125091cd.txt
-  - ref: refs/heads/for-6.16
+  - ref: refs/heads/asoc-6.16
     old: e78e7856d233010e6afef62f15567a8e7777c8bc
     new: 5865e8c4ae9d90796570a9d181c64afe1f455100
     log: revlist-e78e7856d233-5865e8c4ae9d.txt
 
---===============5551309669221303119==
+--===============4186002952840307008==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1744632142 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1744632111-714b8ddb6e279bee6c8b3008f413f329f66f8e35
+pusher C3F436CA30F5D8EB 1744632147 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1744632116-78fcf964f6571149776dff46ea9f92d82f69af29
 
-e6c4618422a25cb266bf752040eb509865caeb0e 1749125091cd0834632ac295caa65f8c57628be6 refs/heads/for-6.15
-e78e7856d233010e6afef62f15567a8e7777c8bc 5865e8c4ae9d90796570a9d181c64afe1f455100 refs/heads/for-6.16
+e6c4618422a25cb266bf752040eb509865caeb0e 1749125091cd0834632ac295caa65f8c57628be6 refs/heads/asoc-6.15
+e78e7856d233010e6afef62f15567a8e7777c8bc 5865e8c4ae9d90796570a9d181c64afe1f455100 refs/heads/asoc-6.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmf8+U4ACgkQJNaLcl1U
-h9AR6Qf+OERJWwIVP5akn/PoPIJtAplMQcRjJaHhwd89RE7gnKDx7p+DfAHKJNPt
-QbV5ackiCK9ja5YrqEBacGmdD6i8Oaps39B167Nv1xT84h3aXxV+JSVGa1Yi83ww
-L+jrHr4B3VemD4VBrGDC4+UeOUCDHAfsJxwGYehvjucOMHcXZL8Gc++lcr5w0XPq
-nWjvKIzfxq885wxUhulmzi4au2fqj7ZcyuMeZQAGLx3lEY5CjGGA6B7laJz74GXg
-kKSOGAVKsxohDvOdWIQ9MYEtJY76O1yRHUV9S/cPunGnB8oOAGK0my3FQBhaC9Ib
-sXbQNsZVLoc8B31kkJAY60zHEHEoDQ==
-=iMV3
+iQEyBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmf8+VMACgkQJNaLcl1U
+h9Daigf3RqPFkNnmrkahgKFB4olvQy3PsyUNsWqanrWbBRF0Pj6xH/Yn6zF++Xj0
+AY2bG+IJpvBdQb/ZgxgtcK6pNZxIiGIc7SBBw4FxyKEIGdDkcJNG6o3zlHIrwxMv
+v/BGgdViVxoLz2In53aIHtvRpoCEd5isx7p4akHxg7UeD/jN5AFxb1+MCT0ofyq3
+VO7W6X4rUaiCcq+Xns4gc04lF792Fm5/I8LLfQnP3rTfU1vgLA2/COXoxFcn3U9U
+gwojAaCFuxZmLF52byCTlpPsQjOhtBolHDHtxZLlSfMjtoDRPbVFE4WywccE6AfS
+WOf31enmXqnrGXUgUrvBFEKeQnDw
+=hhRB
 -----END PGP SIGNATURE-----
 
---===============5551309669221303119==
+--===============4186002952840307008==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -402,7 +402,7 @@ a9a69c3b38c89d7992fb53db4abb19104b531d32 ASoC: imx-card: Adjust over allocation 
 9aff2e8df240e84a36f2607f98a0a9924a24e65d ASoC: soc-pcm: Fix hw_params() and DAPM widget sequence
 1749125091cd0834632ac295caa65f8c57628be6 Fix up building KUnit tests for Cirrus Logic modules
 
---===============5551309669221303119==
+--===============4186002952840307008==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -780,4 +780,4 @@ ff73e2780169a43617cc339686f5bd3d74fa8652 ASoC: tas2770: expose die temp to hwmon
 fabb0a108a848a3b264a46aa6137ab88daade9b3 ASoC: convert GPIO chips to using new value setters
 5865e8c4ae9d90796570a9d181c64afe1f455100 Add support for Loongson-1 AC97
 
---===============5551309669221303119==--
+--===============4186002952840307008==--
