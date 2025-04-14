@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Mon, 14 Apr 2025 09:54:55 -0000
-Message-Id: <174462449530.1005427.12239514994184706543@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
+Date: Mon, 14 Apr 2025 09:54:58 -0000
+Message-Id: <174462449848.1005622.15382208548769334843@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec-next
-user: klassert
+repo: pub/scm/linux/kernel/git/mediatek/linux
+user: angelogioacchino.delregno
 changes:
-  - ref: refs/heads/master
-    old: 0c49baf099ba2147a6ff3bbdc3197c6ddbee5469
-    new: ee2fc517feba7eab7c71acffa69d953e0dc0d057
+  - ref: refs/heads/v6.15-next/soc
+    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
+    new: e5ea18102c9d3bc2fcb186a6e9f43c5a4aba4f98
     log: |
-         20eb35da409fa60fa03ea828cd3d1d9c8a51e103 xfrm: Remove unnecessary strscpy_pad() size arguments
-         4f1d804e288e022c0eeb10d065a5e6f445b59ebb espintcp: fix skb leaks
-         ee2fc517feba7eab7c71acffa69d953e0dc0d057 espintcp: remove encap socket caching to avoid reference leak
+         ba3297872a237c8949e812ffa72c64e81da38cec dt-bindings: soc: mediatek: dvfsrc: Add support for MT6893
+         b06785283ec1c24fadce95390047feb9db840051 soc: mediatek: mtk-dvfsrc: Rename and move bw constraints data
+         e5ea18102c9d3bc2fcb186a6e9f43c5a4aba4f98 soc: mediatek: mtk-dvfsrc: Add support for Dimensity 1200 MT6893
          
