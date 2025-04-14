@@ -1,135 +1,154 @@
-Content-Type: multipart/mixed; boundary="===============6306873943282551985=="
+Content-Type: multipart/mixed; boundary="===============4543843606628207934=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Mon, 14 Apr 2025 09:17:53 -0000
-Message-Id: <174462227339.919466.11966648920801124306@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Mon, 14 Apr 2025 09:23:37 -0000
+Message-Id: <174462261731.924584.8518834043461842665@gitolite.kernel.org>
 
---===============6306873943282551985==
+--===============4543843606628207934==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/stable/linux
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 1a05d2ab30946a21b548d31e5a1e81dfec68300a
-    new: bac63ef046699923be9a757c8f3466750f45bfda
-    log: revlist-1a05d2ab3094-bac63ef04669.txt
+  - ref: refs/heads/master
+    old: 900241a5cc15e6e0709a012051cc72d224cd6a6e
+    new: 8ffd015db85fea3e15a77027fda6c02ced4d2444
+    log: revlist-900241a5cc15-8ffd015db85f.txt
 
---===============6306873943282551985==
+--===============4543843606628207934==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1a05d2ab3094-bac63ef04669.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-2c3d02e282bd71dbdca6e7196ce3f3bc5f135c4d btrfs: move block perfect compression out of experimental features
-d47cef4b4864867adb56a71c3c0eb6c4b53f953c btrfs: ioctl: don't free iov when btrfs_encoded_read() returns -EAGAIN
-c64779b18b9278514aa9f317e1338321ffeafcff btrfs: correctly escape subvol in btrfs_show_options()
-a440f11716c1ec074cd8159116ca106a67f55b1f btrfs: remove force_page_uptodate variable from btrfs_buffered_write()
-8be8407eda91eb5111bb8a676facc0eb03033c12 btrfs: cleanup the reserved space inside loop of btrfs_buffered_write()
-1e231c60eecf4d5f15e2bce200d90a5cce30c43f btrfs: extract the space reservation code from btrfs_buffered_write()
-5fa3344240e08f8949d774a578b6a7a35dc34eb0 btrfs: extract the main loop of btrfs_buffered_write() into a helper
-69ee6880320b38214d374e902adf74929bbda9aa btrfs: remove unused flag EXTENT_BUFFER_READ_ERR
-54f1dca3ed5c7761043f9c1120317db21b8b675b btrfs: remove unused flag EXTENT_BUFFER_READAHEAD
-0ecdd3c1130d80476b04f2f72ac2b932105e7274 btrfs: remove unused flag EXTENT_BUFFER_CORRUPT
-bfb6f5f9ed0581d7dd12e84accabc571ead26405 btrfs: remove unused flag EXTENT_BUFFER_IN_TREE
-57f8280dd3685f911a63aece1cf9c66f035aa996 btrfs: fix typo in space info explanation
-8df0e63e94765df6e2d106982de4ef8ab6fb4dfb btrfs: remove folio order ASSERT()s in super block writeback path
-5c11ff5b9ce88d9a5ff31dcf23afee9806d287bb btrfs: fix fsync of files with no hard links not persisting deletion
-f28dd6a8cdefd63d6d405ff9c65f9a923a8067b6 btrfs: remove leftover EXTENT_UPTODATE clear from an inode's io_tree
-3f6f72af168355bea9955ecbdde484acc01c905e btrfs: stop searching for EXTENT_DIRTY bit in the excluded extents io tree
-79211a81d03b66d4bcaaddc10b51a86fe6488efa btrfs: remove EXTENT_UPTODATE io tree flag
-0343f88be4540b7bbe63b2beba34ecf8416bfdaa btrfs: subpage: access correct object when reading bitmap start in subpage_calc_start_bit()
-53dda1b821c4996a865742c327e50c0c917b6866 btrfs: avoid page_lockend underflow in btrfs_punch_hole_lock_range()
-61247d792eb033cc5373cd1ae840aad7fb139f01 btrfs: refactor how we handle reserved space inside copy_one_range()
-606433d7b8edf5890ba85961990a2157d7af92b3 btrfs: prepare btrfs_buffered_write() for large data folios
-18eb85fdb68e02bfebeace7167166b53effa730a btrfs: prepare btrfs_punch_hole_lock_range() for large data folios
-f3d2dbba2af52f359fa6408b0155cb4b0fb82e17 btrfs: update comment for try_release_extent_state()
-86a1141a4699a9be79acf469e7c07a12874fbfca btrfs: allow folios to be released while ordered extent is finishing
-bfd0dc4cb1fe902086fbd4be60442dc3e1c1848b btrfs: pass a pointer to get_range_bits() to cache first search result
-6ba6155e3b5d090e0e47141bbd4c33681ce48f43 btrfs: use rb_entry_safe() where possible to simplify code
-4853650cc31d44a38c4a4afc95b09f536502a394 btrfs: fix the ASSERT() inside GET_SUBPAGE_BITMAP()
-2b474686701e2ef5ff6027e79014eb83e8f0b320 btrfs: fix the file offset calculation inside btrfs_decompress_buf2page()
-defd4bcf0a1cab2bab565e41918ac39c130693c8 btrfs: use clear_extent_bit() at try_release_extent_state()
-0b2acb015356cae7c9e426beb4af5863553349ba btrfs: use clear_extent_bits() at chunk_map_device_clear_bits()
-bf229b1d7988284ee490c50f2c969dd0a75db538 btrfs: use clear_extent_bits() instead of clear_extent_bit() where possible
-f5c019a04e35fe47801b926dcfd95d491563ffdc btrfs: simplify last record detection at test_range_bit_exists()
-de49da2f2b0d5a83ce7fab84fdf6b748fe65a3de btrfs: fix documentation for tree_search_for_insert()
-0266a41484d1a237c48bf3c3573a71324d68ce36 btrfs: remove redundant check at find_first_extent_bit_state()
-71bba730e1fa616db1c6ef9f53c23182989abdf8 btrfs: simplify last record detection at test_range_bit()
-1bdfeca01d7d18e47b7ecfe49b98fdb2596ffc01 btrfs: remove redundant record start offset check at test_range_bit()
-7d3143ccdcf7e8cf03c62eb58e68af0726881de3 btrfs: do more trivial BTRFS_PATH_AUTO_FREE conversions
-7f43a5b9a7c9dae542b322dcf6359de3d0b2f67c btrfs: use BTRFS_PATH_AUTO_FREE in may_destroy_subvol()
-60fa7811feacab894c9721875678c24f95edec17 btrfs: use BTRFS_PATH_AUTO_FREE in btrfs_set_inode_index_count()
-f34b3ad796cd382ef59352222b50352347dcfe17 btrfs: use BTRFS_PATH_AUTO_FREE in can_nocow_extent()
-ad98e0fb639bf169765acf30b283a91e6e53489d btrfs: use BTRFS_PATH_AUTO_FREE in btrfs_encoded_read_inline()
-53e26b6f3da0aec0542666656e3ecea2e5dba0d1 btrfs: use BTRFS_PATH_AUTO_FREE in btrfs_del_inode_extref()
-64bfa5f02e7634d529cdb62597cb9e94cd0c896f btrfs: use BTRFS_PATH_AUTO_FREE in btrfs_insert_inode_extref()
-308a921d5c4555308695e5354d432b88e6df6b26 btrfs: zoned: return EIO on RAID1 block group write pointer mismatch
-3090f9a3ffb1f8a6ff804d4ccf02cce9558aa58b btrfs: send: remove the again label inside put_file_data()
-5bcad93f697612292f7bda4e609793c1026ac3d9 btrfs: send: prepare put_file_data() for larger data folios
-ada962e3c661d486d51d7e7841163f13b32a1ae3 btrfs: prepare btrfs_page_mkwrite() for large data folios
-aa46796c29188c9dea4e38d05ee1ac1d1f7478d5 btrfs: prepare prepare_one_folio() for large data folios
-2db07df25e2794f034d9791d68e112de81bc0a1e btrfs: prepare end_bbio_data_write() for large data folios
-09cc06e336181bf448b10f4ad655a364441b0d6e btrfs: subpage: prepare for large data folios
-bcf31e2a043d123c03e2f62881eefa214f60fac1 btrfs: zlib: prepare copy_data_into_buffer() for large data folios
-ff9a41499b8d8934b8ae49606745534f693e8813 btrfs: tracepoints: use btrfs_root_id() to get the id of a root
-fb1f2fdbcf36494405b0309582c1be233dca215c btrfs: fix invalid inode pointer after failure to create reloc inode
-158e06010767243056b04b32b01fa1929f5052d5 btrfs: remove unnecessary early exits in delalloc folio lock and unlock
-d7e27b39c3136486c728e4bdb373b7bcc78fd72c btrfs: use folio_contains() for EOF detection
-59c931988d8b223939eb70cd009081de7c7f593b btrfs: get rid of filemap_get_folios_contig() calls
-b7c4e4ebc531b21eef1f79f76c3caef382518757 btrfs: tree-checker: more unlikely annotations
-a304dc71bd26f98749a6b3b77db9953b3418f1a2 btrfs: tree-checker: adjust error code for header level check
-d5b9cd9100441fb36fcb85f9f6f9600398de9129 btrfs: remove extent_io_tree_to_inode() and is_inode_io_tree()
-7e83cf3fc2a7f6946bf6bc2a64fd9c626c5f68ac btrfs: add btrfs prefix to trace events for extent state alloc and free
-96997fff904a34aab352ef6adc80b77c3e2925d4 btrfs: add btrfs prefix to main lock, try lock and unlock extent functions
-c08ab167fc39aeb9c15ed3fa6dc9696245cad663 btrfs: add btrfs prefix to dio lock and unlock extent functions
-2b0b16923f836bb421b56abf172b3d6fd32e242c btrfs: rename __lock_extent() and __try_lock_extent()
-20cee1368d00c596972d6a0883d9c73b83594bed btrfs: rename the functions to clear bits for an extent range
-e957eea91c62db5b557b086f75477947ad475fcc btrfs: rename set_extent_bit() to include a btrfs prefix
-01f4993cba68b43590f183b0f9bbebdd92310f5f btrfs: rename the functions to search for bits in extent ranges
-41c64373d9791bb697238912f8d72361db95a2df btrfs: rename the functions to get inode and fs_info from an extent io tree
-32d293720c4114ccf8354fe11f8f45fbe944fc43 btrfs: directly grab inode at __btrfs_debug_check_extent_io_range()
-56502b022afbdfdfb77ba29aed6a2152aaef6500 btrfs: rename the functions to init and release an extent io tree
-6a369aa6511b4514b3d150b6ee17878bbb44a7ff btrfs: rename the functions to count, test and get bit ranges in io trees
-5a70689ff8a71d25961e1ca76b4a7e62c53c659c btrfs: rename free_extent_state() to include a btrfs prefix
-a8864c738bd023f62fa95941c5ed100ebfada5c1 btrfs: rename remaining exported functions from extent-io-tree.h
-e29a73d509c5a3d9af3262248182c745b33fcfc8 btrfs: remove double underscore prefix from __set_extent_bit()
-b17066f32c043fbe1a3c51ad5d91a53d42c1b8c8 btrfs: make btrfs_find_contiguous_extent_bit() return bool instead of int
-187de0d32553a1ce8a01cd3766841c2baf50daf4 block: introduce zone capacity helper
-ed735dd6243d016cefb13884cf040c42f6c09ee4 btrfs: zoned: skip reporting zone for new block group
-0b3a3a5663b1633551cc842236637244d858d81f btrfs: tracepoints: add btrfs prefix to names where it's missing
-133f318a4c873355350ee2d2bf8cc8b0b9decee2 btrfs: tracepoints: remove no longer used tracepoints for eb locking
-6ca4042684e90df9dea9a0081097f0257bac0050 btrfs: rename exported extent map compression functions
-8eb47d6efa11c579ceded80e67a9f50420d0c2d5 btrfs: rename extent map functions to get block start, end and check if in tree
-5c64a32ae21691191cb65efadef5d60139594539 btrfs: rename functions to allocate and free extent maps
-8e193680f9d5c977262e740f1f0a208cb48e77f1 btrfs: rename remaining exported extent map functions
-c0dac82c4d0cfe990a0e3986f7fd5eb2d062af97 btrfs: rename __lookup_extent_mapping() to remove double underscore prefix
-75f5eabb759167d1c620af192edf621145734134 btrfs: rename __tree_search() to remove double underscore prefix
-f9ebf7dbc6ac726a7934786b09aebf1cea0d5b72 btrfs: === misc-next on b-for-next ===
-cbec40bb3ed7c7e0ee17e872385544a70f494519 btrfs: scrub: fix incorrectly reported logical/physical address
-84ee9e693b33caae353a49bec4aa1f9e625d6343 btrfs: reduce the log level for btrfs_dev_stat_inc_and_print()
-f95e95ed493936493a22ffc58daee36c67b89012 btrfs: scrub: remove unused is_super parameter from scrub_print_common_warning()
-a985adfc66f214267acf3924b80629f5b45b5ee9 btrfs: scrub: remove unnecessary dev/physical lookup for scrub_stripe_report_errors()
-222681cb81ee1811466da846e0ebecc795060ad5 btrfs: scrub: simplify the inode iteration output
-19545e58c15fae162edbed22a797c6c9d98bf77a btrfs: scrub: ensure we output at least one error message for unrepaired corruption
-4b41a4dc1677f1cfd50e03ef0ad27e6a35b1a6c2 btrfs: scrub: use generic ratelimit helpers to output error messages
-75492ab357ef34b010bd794bdac5f4094e71b23f btrfs: extend trim callchains to pass the operation type
-1f00c48ec7cc7cb1086e4e3a5e5f2242bad01d5f btrfs: add new ioctl CLEAR_FREE
-7f8483738bfaf158e2f01a2594f0d36b82eac052 btrfs: add zeroout mode to CLEAR_FREE ioctl
-e0e35d05ba4cca06eddafbac46a03f6955415ef9 btrfs: add secure erase mode to CLEAR_FREE ioctl
-10c8fdd89bf91cf48feff79752eeb77acde0123e btrfs: add more zeroout modes to CLEAR_FREE ioctl
-6dca06b201cc7f4c678ab294fb18988423920f07 btrfs: add mode to clear chunk map status to CLEAR_FREE ioctl
-310facadbc954105231dbf11bcfd719bdbc042fd btrfs: add mapping_set_release_always to inode's mapping
-e043c0b71d0a23a25b526e0be81dc35ba1543dcc btrfs: kill EXTENT_FOLIO_PRIVATE
-1aee46f2600b235ef669aa2c30fc72360b4fe229 Merge branch 'misc-6.15' into for-next-current-v6.14-20250414
-ca150bcfdc268eda1290edd4baeb46e6acf8989a Merge branch 'misc-6.15' into for-next-next-v6.15-20250414
-b8c81b06e847b17d3bedd13102efdce92cda6728 Merge branch 'misc-next' into for-next-next-v6.15-20250414
-23633a0a1865ffe969d0fca6fe3e7e0cc4ca7825 Merge branch 'for-next-current-v6.14-20250414' into for-next-20250414
-bac63ef046699923be9a757c8f3466750f45bfda Merge branch 'for-next-next-v6.15-20250414' into for-next-20250414
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1744622645 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1744622613-9f1fd28649a0faeff852eb74d692cb9a5896cb71
 
---===============6306873943282551985==--
+900241a5cc15e6e0709a012051cc72d224cd6a6e 8ffd015db85fea3e15a77027fda6c02ced4d2444 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmf81DUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9eMQAIe9yvvievddXsJEBkYr
+2lnY8WorJkAzVCKpnQk0HiKm8ehqRFS7XtyAFEm9XN8rzzXwkzqH3uw6o9kCumoZ
+pwxTjUanLa9Ga99pzEH1O5G0XBd0eAJu5KuPY+rfuHlzTGgaaTDHKA4hSDWCar8h
+Vs0dkgjwqLJJu5hRgThPO5YwWgjnXgrGnHbsV/9Yyl0IVJo2lMAaaJ/1VOlSp4o1
+X99+N3tlYdBbsCplRTwuaRhG1IyaG3NFu+2svWTV6A3JVvv84DJW+keALaFmqnD0
+91f1XqPt/S74eVNZM5/pk6FkL8OjgDvovIXNtwebnn6mKRwFsyk8zoI2ecmch4r2
+oaEtGa09Lu8MauX/Wy9aNN1dtTdrpbiuDZcUj0hqAFi3Rp8MIu4eVTZiNV+oOLWZ
+AEqWy7fSvmK4bdaN2DhOXFdyhoa+dEHUQ3yYbnd2+LlXTAAJd3rJ8mv3CvjBaoyY
+zFSxjeoBZRuNRVb1GpXsb+lKptPqkHx0f42ZD1o4gb92aw0N1j3eDgDSrwqRgT0p
+G2eHl1/Vn0Qr7RTigCOT3wQMqoJg0mKaOpNnEvYEWAPhtPcJ525XEGZfX9anZHul
+nqe3RRWPTJcqA5SBZaMD0QRNZN+RSbEH+6YhKtqzZNNalRkVogZUps65t/DCiBuZ
+ke60wqYD+kMjieHUjmr+5VQZ
+=MCa+
+-----END PGP SIGNATURE-----
+
+--===============4543843606628207934==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-900241a5cc15-8ffd015db85f.txt
+
+7ca59947b5fcf94e7ea4029d1bd0f7c41500a161 pwm: mediatek: Prevent divide-by-zero in pwm_mediatek_config()
+e7327c193014a4d8666e9c1cda09cf2c060518e8 pwm: rcar: Improve register calculation
+928446a5302eee30ebb32075c0db5dda5a138fb7 pwm: fsl-ftm: Handle clk_get_rate() returning 0
+9bae8f4f21689b96a4b4fc505740dd97b9142c41 selftests/bpf: Make res_spin_lock test less verbose
+6f8a394aa952257575910d57cf0a63627fa949a2 cifs: Ensure that all non-client-specific reparse points are processed by the server
+b365b9d404b7376c60c91cd079218bfef11b7822 smb311 client: fix missing tcon check when mounting with linux/posix extensions
+ed471e1984939a500eea179bc16e1c2aadf00db5 memblock tests: Fix mutex related build error
+00e53d0f4baedd72196b65f00698b2a5a537dc2b pwm: Let pwm_set_waveform() succeed even if lowlevel driver rounded up
+fda6e0034e9da64e1cec31f4539b6c7abd9ed8be pwm: stm32: Search an appropriate duty_cycle if period cannot be modified
+a85e08a05bf77d5d03b4ac0c59768a606a1b640b pwm: axi-pwmgen: Let .round_waveform_tohw() signal when request was rounded up
+9546ad1a9bda7362492114f5866b95b0ac4a100e nvme: requeue namespace scan on missed AENs
+4808595a9922e89726ec5611d7749b63966b7fa8 tracing: Hide get_vm_area() from MMUless builds
+a8605b0ed187f53f077a769ce2b52ddb97f3eb42 ACPI: button: Only send `KEY_POWER` for `ACPI_BUTTON_NOTIFY_STATUS`
+b988685388effd648150aab272533f833a2a70f0 ACPI: EC: Set ec_no_wakeup for Lenovo Go S
+7ab4f0e37a0f4207e742a8de69be03984db6ebf0 ACPI PPTT: Fix coding mistakes in a couple of sizeof() calls
+ad320e408a8c95a282ab9c05cdf0c9b95e317985 ata: pata_pxa: Fix potential NULL pointer dereference in pxa_ata_probe()
+62baf70c327444338c34703c71aa8cc8e4189bd6 nvme: re-read ANA log page after ns scan completes
+e3105f54a51554fb1bbf19dcaf93c4411d2d6c8a nvme: multipath: fix return value of nvme_available_path
+c7efac7f1c71470ecd9b1a9a49b1b8164583c7dc cifs: Fix support for WSL-style symlinks
+8d46a27085039158eb5e253ab8a35a0e33b5e864 ata: sata_sx4: Add error handling in pdc20621_i2c_read()
+b013b817f32fb8c560b6970e1002e94f1c725923 nvme-tcp: fix use-after-free of netns by kernel TCP socket.
+2ccd42b959aaf490333dbd3b9b102eaf295c036a s390/virtio_ccw: Don't allocate/assign airqs for non-existing queues
+8231a0e632405a03018034848d3c4620d7ba1dca s390: Add z17 elf platform
+c51ea9888e88fc20df656dab01263f17529c7374 s390: Allow to compile with z17 optimizations
+df194f57de7136b94bf25d2dce1da765b6c13654 s390/cpumf: Update CPU Measurement facility extended counter set support
+aa1ac98268cd1f380c713f07e39b1fa1d5c7650c s390/cpumf: Fix double free on error in cpumf_pmu_event_init()
+2b5f0c5bc819af2b0759a8fcddc1b39102735c0f nvmet-fcloop: swap list_add_tail arguments
+f22c458f9495f9164358961dd73b2f62356c9750 nvmet-fcloop: replace kref with refcount
+72511b1dc4147dc4af74ddb98c22366124b26d4e nvmet-fcloop: add ref counting to lport
+aeaa0913a6994bf56572a7035df3bce9ea183556 nvmet-fc: inline nvmet_fc_delete_assoc
+88517565b5929436741012938702385ef885a9c2 nvmet-fc: inline nvmet_fc_free_hostport
+1a909565733edb1d46c8e9692a1ee278912b5a77 nvmet-fc: update tgtport ref per assoc
+b0b26ad0e1943de25ce82a7e5af3574f31b1cf99 nvmet-fc: take tgtport reference only once
+70289ae5cac4d3a39575405aaf63330486cea030 nvmet-fc: put ref when assoc->del_work is already scheduled
+1595f15391b81815e4ef91c339991913d556c1b6 erofs: set error to bio if file-backed IO fails
+d385f15d5ba0b4f62575eea09912268bf8136a56 erofs: add __packed annotation to union(__le16..)
+be45319c9fb1d5c272da9fd34854a7d39e7f58d1 erofs: fix encoded extents handling
+9502dd5c7029902f4a425bf959917a5a9e7c0e50 smb: client: fix UAF in decryption with multichannel
+e1a453a57bc76be678bd746f84e3d73f378a9511 tracing: Do not add length to print format in synthetic events
+16cb6b0509b65ac89187e9402e0b7a9ddf1765ef cifs: Fix encoding of SMB1 Session Setup Kerberos Request in non-UNICODE mode
+9ce7351291a6c64fa8dc36c786632ae5ded19bd5 cifs: Remove explicit handling of IO_REPARSE_TAG_MOUNT_POINT in inode.c
+12193b9801e7559745a7a3202d3d3c9265905461 cifs: Improve handling of name surrogate reparse points in reparse.c
+56c0bea52cef0bb02c4d6c23669ef485b5f67c87 cifs: Split parse_reparse_point callback to functions: get buffer and parse buffer
+ef86ab131d9127dfbfa8f06e12441d05fdfb090b cifs: Fix querying of WSL CHR and BLK reparse points over SMB1
+d4bac0288a2b444e468e6df9cb4ed69479ddf14a bpf: support SKF_NET_OFF and SKF_LL_OFF on skb frags
+fcd7132cb1f93e4d4594ecb19b8dcecdf0497d9e selftests/net: test sk_filter support for SKF_NET_OFF on frags
+7bbb38f1f920e761d56fec257bc8df67566084b9 Merge branch 'support-skf_net_off-and-skf_ll_off-on-skb-frags'
+56c283b9e001098362c76547cfaae022d48549c8 smb3: Add defines for two new FileSystemAttributes
+f5ffef9881a76764477978c39f1ad0136a4adcab erofs: remove duplicate code
+5d07ab2a7fa1305e429d9221716582f290b58078 spi: fsl-qspi: Fix double cleanup in probe error path
+82bedbfedd2fc7cd1287732879e515ceb94f8963 spi: fsl-spi: Remove redundant probe error message
+642335f3ea2b3fd6dba03e57e01fa9587843a497 ext4: don't treat fhandle lookup of ea_inode as FS corruption
+818ad0bb4000ac3540bcdc4f50a6e5b509c99ad0 Merge tag 'nvme-6.15-2025-04-10' of git://git.infradead.org/nvme into block-6.15
+1ddb9ad2ac6e527f220d5821ad54d37d3f9d122a selftests/bpf: Make res_spin_lock AA test condition stronger
+92b90f780d056a28f3c751c2dfbcd9540c7ae28a bpf: Use architecture provided res_smp_cond_load_acquire
+2f41503d647629cfafea42cf6f827e4139536703 bpf: Convert queue_stack map to rqspinlock
+df4bf3fa1b1e8d03380206fa027f956a62de517b iommu: Fix crash in report_iommu_fault()
+548183ea388c12b6d76d6982f3d72df3887af0da iommu/vt-d: Wire up irq_ack() to irq_move_irq() for posted MSIs
+7d8c490ba3967719bc023c1f81592659a79bd964 iommu/vt-d: Remove an unnecessary call set_dma_ops()
+280e5a30100578106a4305ce0118e0aa9b866f12 iommu: Clear iommu-dma ops on cleanup
+d9d3cede416719c2d41cd4da1955b12a85856e2f iommu/ipmmu-vmsa: Register in a sensible order
+99deffc409b69000ac4877486e69ec6516becd53 iommu/exynos: Fix suspend/resume with IDENTITY domain
+38e8844005e6068f336a3ad45451a562a0040ca1 iommu/mediatek: Fix NULL pointer deference in mtk_iommu_device_group
+ae4814a3aab54ce548950161937176b7f9ec6f77 iommu: remove unneeded semicolon
+767e22001dfce64cc03b7def1562338591ab6031 iommu/tegra241-cmdqv: Fix warnings due to dmam_free_coherent()
+3b607b75a345b1d808031bf1bb1038e4dac8d521 null_blk: Use strscpy() instead of strscpy_pad() in null_add_dev()
+dcc4aca53338d09f7b3272e00aab4a1ff8c69067 Merge branches 'acpi-ec' and 'acpi-button'
+9b03fa105c6978f0e20fd311ac903226a9e89890 Merge tag 's390-6.15-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
+c86e5b561a4a6b81828528fe61adf7352b756c7f Merge tag 'acpi-6.15-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+023e62ce85ced0ea6e71719d168be6b269d7f836 Merge tag 'iommu-fixes-v6.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/iommu/linux
+ff885625298f83785b7db1b95af051a080aab7b4 Merge tag 'block-6.15-20250411' of git://git.kernel.dk/linux
+2f3e5ef271e82836cefc3adbf4d1724a2c2aebbc Merge tag 'ata-6.15-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
+e618ee89561b6b0fdc69f79e6fd0c33375d3e6b4 Merge tag 'spi-fix-v6.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+a650d38915c194b87616a0747a339b20958d17db bpf: Convert ringbuf map to rqspinlock
+c8ba3f8aff672a5ea36e895f0f8f657271d855d7 PCI: Run quirk_huawei_pcie_sva() before arm_smmu_probe_device()
+04a80a34c22f4db245f553d8696d1318d1c00ece ftrace: Properly merge notrace hashes
+0ae6b8ce200da00a78f33c055fdc4fe3225d22ec ftrace: Fix accounting of subop hashes
+a1fc89d409d8fd927622c238b7c7d719e9ecab3d tracing/selftest: Add test to better test subops filtering of function graph
+5d74992343b969cd8e2d0a3d00cd152eeedcf57c Merge tag 'pci-v6.15-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
+3bde70a2c82712f05c7220b8b94fc2cbdf7fbfe0 Merge tag 'v6.15-rc1-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
+ecd5d67ad602c2c12e8709762717112ef0958767 Merge tag 'pwm/for-6.15-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
+485acd207d7daf8cf941a5f0fd0c09bc6d049402 ftrace: Do not have print_graph_retval() add a newline
+8d7861ac507d23024c7d74b6cb59a9cca248bcb7 rv: Fix out-of-bound memory access in rv_is_container_monitor()
+b676ac484f847bbe5c7d29603f41475b64fefe55 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
+7cdabafc001202de9984f22c973305f424e0a8b7 Merge tag 'trace-v6.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+ce7e8a65aa1b7e8a6833403b314fa8f2cf133119 Documentation: ext4: Add fields to ext4_super_block documentation
+7e50bbb134aba1df0854f171b596b3a42d35605a ext4: avoid -Wflex-array-member-not-at-end warning
+ccad447a3d331a239477c281533bacb585b54a98 ext4: make block validity check resistent to sb bh corruption
+94824ac9a8aaf2fb3c54b4bdde842db80ffa555d ext4: fix off-by-one error in do_split
+051ea726ee4518ac5279eecaa40a4421f1ac69b6 Merge tag 'fixes-2025-04-13' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
+5aaaedb0cb540cda1cdcef34f2d30de67d972d9b Merge tag 'ext4_for_linus-6.15-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
+004a365eb8b9c6d7d409bbeb5687a4a5ebf8f110 Merge tag 'erofs-for-6.15-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
+8ffd015db85fea3e15a77027fda6c02ced4d2444 Linux 6.15-rc2
+
+--===============4543843606628207934==--
