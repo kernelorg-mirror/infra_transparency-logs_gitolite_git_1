@@ -1,24 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Mon, 14 Apr 2025 11:05:44 -0000
-Message-Id: <174462874448.1074796.14683034930041553616@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jirislaby/linux
+Date: Mon, 14 Apr 2025 11:10:54 -0000
+Message-Id: <174462905477.1079563.6918272331656885083@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/jirislaby/linux
+user: jirislaby
 changes:
-  - ref: refs/heads/x86/core
-    old: c08c01c51ede1b79b73fe142e4bc9f7bb9d0ea5e
-    new: 121fb1768c4c335cbd8b6142ce62b3ccc4ab2f78
+  - ref: refs/heads/devel
+    old: ac9a8fc8ed9f4142705b31360a63186b64c0c63f
+    new: ce2acf1d57f754b5623a6830d0a48a9c6aca7eab
     log: |
-         ef25d41af594b0d9665bb714cc88e15b482b4508 x86/nospec: JMP_NOSPEC
-         e8fb833995cd76cb2484b98540144fc7c99309ad x86/kvm/emulate: Implement test_cc() in C
-         c2939ccce8ec00c75758428a66eaa717df9ecc44 x86/kvm/emulate: Avoid RET for fastops
-         0942c7d7c443f5a960bc566b980104cf1c26d0d8 x86,hyperv: Clean up hv_do_hypercall()
-         e221778131c2ad6e493fbe479e82c1a59cc0734f x86_64,hyperv: Use direct call to hypercall-page
-         121fb1768c4c335cbd8b6142ce62b3ccc4ab2f78 objtool: Validate kCFI calls
+         e8b98055f5a24c7b3e10b376e67a29946781ce2d serial: introduce uart_port_lock() GUARDs
+         356a24e497658af3c1615a31ecf84b546b289afa serial: 8250: add rpm guards
+         9b8b68a1b6262546cc6b87da1774da0ace159970 8250: use guards
+         ce2acf1d57f754b5623a6830d0a48a9c6aca7eab BRANCH_MARKER: work
          
