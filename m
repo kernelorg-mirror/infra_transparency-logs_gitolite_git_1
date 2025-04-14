@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============8372073967207484709=="
+Content-Type: multipart/mixed; boundary="===============0501263488386388947=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 14 Apr 2025 10:02:14 -0000
-Message-Id: <174462493426.1014231.2816368780153869155@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 14 Apr 2025 10:02:17 -0000
+Message-Id: <174462493780.1014377.15968770756821265109@gitolite.kernel.org>
 
---===============8372073967207484709==
+--===============0501263488386388947==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.15
+  - ref: refs/heads/spi-6.15
     old: 82bedbfedd2fc7cd1287732879e515ceb94f8963
     new: 8ffd015db85fea3e15a77027fda6c02ced4d2444
     log: revlist-82bedbfedd2f-8ffd015db85f.txt
-  - ref: refs/heads/for-6.16
+  - ref: refs/heads/spi-6.16
     old: 7a978d8fcf57b283cb8c88dd4c9431502bd36ea8
     new: 279b418f477fd6c1c21b1cf212837622c774f15f
     log: |
@@ -28,32 +28,32 @@ changes:
          279b418f477fd6c1c21b1cf212837622c774f15f spi: fsl-qspi: Optimize fsl_qspi struct
          
 
---===============8372073967207484709==
+--===============0501263488386388947==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1744624962 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1744624932-87464a715dd8b131b491049478d11f3eb1ca6667
+pusher C3F436CA30F5D8EB 1744624966 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1744624935-1675ec4b0b701574532a17cd49ba26011bf7dc3f
 
-82bedbfedd2fc7cd1287732879e515ceb94f8963 8ffd015db85fea3e15a77027fda6c02ced4d2444 refs/heads/for-6.15
-7a978d8fcf57b283cb8c88dd4c9431502bd36ea8 279b418f477fd6c1c21b1cf212837622c774f15f refs/heads/for-6.16
+82bedbfedd2fc7cd1287732879e515ceb94f8963 8ffd015db85fea3e15a77027fda6c02ced4d2444 refs/heads/spi-6.15
+7a978d8fcf57b283cb8c88dd4c9431502bd36ea8 279b418f477fd6c1c21b1cf212837622c774f15f refs/heads/spi-6.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmf83UIACgkQJNaLcl1U
-h9DJDgf+Jtx3gLv5V3DjD1Dfw7dI4nUgpFsLZFPyc6a7QNWP5Hq59vZ4vWu7dDXs
-/EciEDLZ0MjO+YvZbPDDZAKBfHIuuVvtFiUO4Oj6LxBAgCAST0RNS8Ec+DCo0Hju
-adRtKbCdljdKfRKhKr1Jgxm1j8B0+Ox3kdXxICHRsQ3v5kFXrkNN7CKaN/mB9aBc
-VLj2MxjMDNScBp+UvUXHlK4j+UUanCsB6/TJm6cpSAqbVCfSYI0POGDFjVKUrG3+
-02dAax005WuEY36+eIgZxIbvSmVieUM5dBeK2hNsrbrpNZ0/sFNulOCCg0OJa6Gb
-cwHuZO68bL7fvwGDMAg21UFSpPVOmw==
-=/Yju
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmf83UYACgkQJNaLcl1U
+h9BdFwf9FODwfIRNpeuVAP6KwLZlNRg1SgpCyXZ4/QkQmIxfFbVTdwsZi5UWQ6gs
+kNDCdvs+BguXMV658thVr55O5bpVbTpR05y1D0foMnTFrETBCEUVcP8isRCdsGuh
+IH4w2wcnCH66Mk0Y60QF8p2b1Y9BoSBspy07ov/xgAjEwdY35IHST7zzhyWPQq5X
+iI2rC/TbWDrNoBRdoZKli8rVt1gEqr+Wp66Dx9EHVx26uyJYeT1S1MlBTcprQEqH
+jqI9JCG75XyCWvg7EyPfYLRf5G4AUReLslgBNWTuYzC2l/NGhspI5w88i/+eF5WL
+sds8DBa4qSmoGU6c1xWE2aGpmckAkQ==
+=rXaG
 -----END PGP SIGNATURE-----
 
---===============8372073967207484709==
+--===============0501263488386388947==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -397,4 +397,4 @@ ccad447a3d331a239477c281533bacb585b54a98 ext4: make block validity check resiste
 004a365eb8b9c6d7d409bbeb5687a4a5ebf8f110 Merge tag 'erofs-for-6.15-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
 8ffd015db85fea3e15a77027fda6c02ced4d2444 Linux 6.15-rc2
 
---===============8372073967207484709==--
+--===============0501263488386388947==--
