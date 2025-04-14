@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kexec/kexec-tools
-Date: Mon, 14 Apr 2025 10:37:14 -0000
-Message-Id: <174462703426.1049316.4792242349668524994@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tomba/linux
+Date: Mon, 14 Apr 2025 10:39:51 -0000
+Message-Id: <174462719128.1051392.2153981946401098459@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kexec/kexec-tools
-user: horms
+repo: pub/scm/linux/kernel/git/tomba/linux
+user: tomba
 changes:
-  - ref: refs/heads/main
-    old: a7fcd424c4c80dea5a2fd5ffa274ffeb8129c790
-    new: f80553597da191a8ccabe3f6762611c6d60f0f95
-    log: |
-         f80553597da191a8ccabe3f6762611c6d60f0f95 kexec-tools 2.0.31-rc1
-         
+  - ref: refs/heads/toradex/dsi-6.6
+    old: 0000000000000000000000000000000000000000
+    new: 0725ce3e2ae09e6fdb1aeb87bebb3058a1f32fa7
