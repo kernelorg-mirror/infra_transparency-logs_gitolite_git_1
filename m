@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Mon, 14 Apr 2025 13:42:38 -0000
-Message-Id: <174463815821.1210143.11284584840995315934@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Mon, 14 Apr 2025 13:51:41 -0000
+Message-Id: <174463870166.1217975.14420832066669179412@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: mikulas
 changes:
-  - ref: refs/heads/work.coredump
-    old: 8c544d719f6a94e4280f3c56871e77d992f71aa1
-    new: 3061d6a9b866336b8906fd69d646940bb03144d7
+  - ref: refs/heads/for-next
+    old: ac3ca3d875d83363d0f4b7d7c23a73af56b17e12
+    new: a94c989dcb959f98bd9998f38f12163b89d73203
     log: |
-         3061d6a9b866336b8906fd69d646940bb03144d7 coredump: hand a pidfd to the usermode coredump helper
+         a94c989dcb959f98bd9998f38f12163b89d73203 dm-delay: don't busy-wait in kthread
          
