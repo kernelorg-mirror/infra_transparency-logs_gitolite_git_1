@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2497979825679389343=="
+Content-Type: multipart/mixed; boundary="===============7908206847175741278=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 14 Apr 2025 10:29:49 -0000
-Message-Id: <174462658957.1041511.16206902103607869529@gitolite.kernel.org>
+Date: Mon, 14 Apr 2025 10:29:56 -0000
+Message-Id: <174462659663.1041882.2463585398424210415@gitolite.kernel.org>
 
---===============2497979825679389343==
+--===============7908206847175741278==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-6.15
-    old: e6c4618422a25cb266bf752040eb509865caeb0e
-    new: 1749125091cd0834632ac295caa65f8c57628be6
-    log: revlist-e6c4618422a2-1749125091cd.txt
+  - ref: refs/heads/asoc-6.16
+    old: e78e7856d233010e6afef62f15567a8e7777c8bc
+    new: 5865e8c4ae9d90796570a9d181c64afe1f455100
+    log: revlist-e78e7856d233-5865e8c4ae9d.txt
 
---===============2497979825679389343==
+--===============7908206847175741278==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e6c4618422a2-1749125091cd.txt
+Content-Disposition: attachment; filename=revlist-e78e7856d233-5865e8c4ae9d.txt
 
 6c9567e0850be2f0f94ab64fa6512413fd1a1eb1 KVM: s390: Don't use %pK through tracepoints
 0c7fbae5bc782429c97d68dc40fb126748d7e352 KVM: s390: Don't use %pK through debug printing
@@ -365,11 +365,37 @@ ccad447a3d331a239477c281533bacb585b54a98 ext4: make block validity check resiste
 5aaaedb0cb540cda1cdcef34f2d30de67d972d9b Merge tag 'ext4_for_linus-6.15-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 004a365eb8b9c6d7d409bbeb5687a4a5ebf8f110 Merge tag 'erofs-for-6.15-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
 8ffd015db85fea3e15a77027fda6c02ced4d2444 Linux 6.15-rc2
-1aa495a6572f8641da4ec4cd32210deca61bed64 kunit: configs: Add some Cirrus Logic modules to all_tests
-96014d91cffb335d3b396771524ff2aba3549865 ASoC: cs-amp-lib-test: Don't select SND_SOC_CS_AMP_LIB
-a0b887f6eb9a0d1be3c57d00b0f3ba8408d3018a firmware: cs_dsp: tests: Depend on FW_CS_DSP rather then enabling it
-a9a69c3b38c89d7992fb53db4abb19104b531d32 ASoC: imx-card: Adjust over allocation of memory in imx_card_parse_of()
-9aff2e8df240e84a36f2607f98a0a9924a24e65d ASoC: soc-pcm: Fix hw_params() and DAPM widget sequence
-1749125091cd0834632ac295caa65f8c57628be6 Fix up building KUnit tests for Cirrus Logic modules
+d60007fc9b739d939d5b6148c25805f206c836f9 ASoC: dt-bindings: Add Loongson-1 AC97 Controller
+0142b45000457b9d112d40d5685d0898e51ed52f ASoC: dt-bindings: Add Realtek ALC203 Codec
+1fc55a2baef5289c9535ce10a4f5f37664ce854a ASoC: loongson: Add Loongson-1 AC97 Driver
+436a3cc8afbf34bb68166c2c5c19ca5113c0c756 ASoC: ac97: Add DT support
+cf16c640143161ed5d4b196e38b7aa3fc7787510 ASoC: soc-ac97: use new GPIO line value setter callbacks
+60631801abb7112c8a086dabca89d5fbb06d7d1c ASoC: ti: davinci-mcasp:: use new GPIO line value setter callbacks
+403dddbdcb49a77ba8873b0a15a9ae683aec2cee ASoC: codecs: wm8962: use new GPIO line value setter callbacks
+a336078f23343931db99bbda857965c5b7ebefd9 ASoC: codecs: wm5100: use new GPIO line value setter callbacks
+317349ce80aaa404abfa0bbbcf99876736d8c237 ASoC: codecs: rt5677: use new GPIO line value setter callbacks
+a8d4913690479217832ab1e73f4c5af0b52a0f27 ASoC: codecs: wm8996: use new GPIO line value setter callbacks
+346d3632303aa67c698b0b05e0126ebd29ac99f3 ASoC: codecs: tlv320adc3xxx: use new GPIO line value setter callbacks
+b0cf20b43363fb04851c4773a107f7ecb9731883 ASoC: codecs: idt821034: use new GPIO line value setter callbacks
+c849a7cfdcd14333604fdf60bedb2e183b4164bd ASoC: codecs: peb2466: use new GPIO line value setter callbacks
+127c53d620cb134adbbdd7d43a369f3940f71172 ASoC: codecs: wm8903: use new GPIO line value setter callbacks
+db81f6fa2771681249ca1d23366c893f3535fe10 ASoC: codecs: zl38060: use new GPIO line value setter callbacks
+8d2e914482311f7746fe7b0e520bd42794d6aed8 ALSA: hda: cirrus_scodec_test: use new GPIO line value setter callbacks
+f529c91be8a34ac12e7599bf87c65b6f4a2c9f5c ASoC: tas2770: Power cycle amp on ISENSE/VSENSE change
+7699892ad3cf3a9afc8c63886344f6e2b73166e2 ASoC: tas2770: Support setting the PDM TX slot
+592ab3936b096da5deb64d4c906edbeb989174d6 ASoC: tas2764: Reinit cache on part reset
+dd50f0e38563f15819059c923bf142200453e003 ASoC: tas2764: Enable main IRQs
+f0aff451f399d09aaf2a23c4e2ef2077b9857ca5 ASoC: tas2764: Raise regmap range maximum
+f33b01e0947d81c514bc8ff31ad28cae7ff6d91f ASoC: tas2764: Apply Apple quirks
+ff73e2780169a43617cc339686f5bd3d74fa8652 ASoC: tas2770: expose die temp to hwmon
+186dfc85f9a824e3f8383322747ca75e988486e9 ASoC: tas2764: expose die temp to hwmon
+667ebcc13dd63f59e2a1132e0f54d2f3067597db ASoC: dt-bindings: Add bindings for Richtek rt9123
+8bffd24e45618b6c3d6ce11947193c6d8ba846a7 ASoC: codecs: Add support for Richtek rt9123
+4a046b67d2d267daf884798ee8509a502abe7a58 ASoC: dt-bindings: Add bindings for Richtek rt9123p
+38c2585c7439cc678ae105dd826f10321db29552 ASoC: codecs: Add support for Richtek rt9123p
+4aa502d28bc2deffcdf62f2908d9e52902b36f02 ASoC: tas27{64,70}: improve support for Apple codec
+416e3bd3b0b6a4fa0316559f799e63fcfc79107a ASoC: Add Richtek rt9123 and rt9123p support
+fabb0a108a848a3b264a46aa6137ab88daade9b3 ASoC: convert GPIO chips to using new value setters
+5865e8c4ae9d90796570a9d181c64afe1f455100 Add support for Loongson-1 AC97
 
---===============2497979825679389343==--
+--===============7908206847175741278==--
