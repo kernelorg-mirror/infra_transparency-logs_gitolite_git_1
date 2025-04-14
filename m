@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2689864528399073263=="
+Content-Type: multipart/mixed; boundary="===============5557314186832146998=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Mon, 14 Apr 2025 18:25:11 -0000
-Message-Id: <174465511185.1466396.9273849574347390147@gitolite.kernel.org>
+Date: Mon, 14 Apr 2025 18:28:26 -0000
+Message-Id: <174465530698.1467888.16434859763937648293@gitolite.kernel.org>
 
---===============2689864528399073263==
+--===============5557314186832146998==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/testing
-    old: d3d6cb27a945c6fc7ddd3e7423c4303b4b6bad36
+  - ref: refs/heads/togreg
+    old: f583e9d6f9561a3139f0f7bafe2402f5d4c8c681
     new: 27192d35784396c2edade96a79cea48b91fb595b
-    log: revlist-d3d6cb27a945-27192d357843.txt
+    log: revlist-f583e9d6f956-27192d357843.txt
 
---===============2689864528399073263==
+--===============5557314186832146998==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d3d6cb27a945-27192d357843.txt
+Content-Disposition: attachment; filename=revlist-f583e9d6f956-27192d357843.txt
 
 8f8efd6c2f091e7c0b68434ca110b274dde0f6d0 iio: adc: ad7606: add SPI offload support
 4fdce710d461e5511847873def6a89e172e4862f MAINTAINERS: IIO: Update reviewers for the subsystem
@@ -56,4 +56,4 @@ b1d96dd95318e576c7daafcf1428ef239898f30b iio: adc: ad7768-1: convert driver to u
 b85140349ef6991e9c040d8d28b4f07e3a30477d iio: adc: ad7768-1: Move buffer allocation to a separate function
 27192d35784396c2edade96a79cea48b91fb595b iio: normalize array sentinel style
 
---===============2689864528399073263==--
+--===============5557314186832146998==--
