@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 14 Apr 2025 13:54:57 -0000
-Message-Id: <174463889747.1220113.17619259478110163284@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Mon, 14 Apr 2025 13:55:04 -0000
+Message-Id: <174463890494.1221912.2853808479920750282@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/regulator-6.16
-    old: 28cce24d6596a3d8a34689031f2a8a5ac918cde5
-    new: 7762fdab23100514e5cb612331c96bd65126ada5
+  - ref: refs/heads/work.coredump
+    old: 3061d6a9b866336b8906fd69d646940bb03144d7
+    new: 0582bf840b8c1c8a7413861efea1db0b85a79fe4
     log: |
-         7762fdab23100514e5cb612331c96bd65126ada5 regulator: adp5055: Remove unneeded semicolon
+         0582bf840b8c1c8a7413861efea1db0b85a79fe4 coredump: hand a pidfd to the usermode coredump helper
          
