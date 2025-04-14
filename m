@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4043009179648109173=="
+Content-Type: multipart/mixed; boundary="===============2977810693831797307=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Mon, 14 Apr 2025 16:02:45 -0000
-Message-Id: <174464656518.1343599.1447959815596227660@gitolite.kernel.org>
+Date: Mon, 14 Apr 2025 16:05:24 -0000
+Message-Id: <174464672449.1346944.12575637059171284547@gitolite.kernel.org>
 
---===============4043009179648109173==
+--===============2977810693831797307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
-  - ref: refs/heads/kunit
-    old: d1be0cf3b8aeae75bc8fff5b7a3e01ebfe276008
-    new: 9aa08e761b67e3d8b5ca2ff1e9194a73d3000cce
-    log: revlist-d1be0cf3b8ae-9aa08e761b67.txt
+  - ref: refs/heads/kunit-fixes
+    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
+    new: 8ffd015db85fea3e15a77027fda6c02ced4d2444
+    log: revlist-0af2f6be1b42-8ffd015db85f.txt
 
---===============4043009179648109173==
+--===============2977810693831797307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d1be0cf3b8ae-9aa08e761b67.txt
+Content-Disposition: attachment; filename=revlist-0af2f6be1b42-8ffd015db85f.txt
 
 6c9567e0850be2f0f94ab64fa6512413fd1a1eb1 KVM: s390: Don't use %pK through tracepoints
 0c7fbae5bc782429c97d68dc40fb126748d7e352 KVM: s390: Don't use %pK through debug printing
@@ -221,6 +221,8 @@ bec7dcbc242c6c087cede1a6fdfaeb5d6eaf25bf Merge tag 'probes-fixes-v6.14' of git:/
 0e8863244ef5b7d4391816062fcc07ff49aa7dcf Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 5cd2950359ef31c9e273588c33f372ff8e546e2e selftests: tpm2: create a dedicated .gitignore
 170ec11935de4acced0ae001562cca3a144acd67 selftests: tpm2: test_smoke: use POSIX-conformant expression operator
+14e594a1fc8b879734f8057a870d28c86a889c5f kunit: tool: fix count of tests if late test plan
+d1be0cf3b8aeae75bc8fff5b7a3e01ebfe276008 kunit: Spelling s/slowm/slow/
 7d50e00fef2832e98d7e06bbfc85c1d66ee110ca selftests/futex: futex_waitv wouldblock test should fail
 197c1eaa7ba633a482ed7588eea6fd4aa57e08d4 selftests/mincore: Allow read-ahead pages to reach the end of the file
 21c02e8272bc95ba0dd44943665c669029b42760 mptcp: only inc MPJoinAckHMacFailure for HMAC failures
@@ -363,7 +365,5 @@ ccad447a3d331a239477c281533bacb585b54a98 ext4: make block validity check resiste
 5aaaedb0cb540cda1cdcef34f2d30de67d972d9b Merge tag 'ext4_for_linus-6.15-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 004a365eb8b9c6d7d409bbeb5687a4a5ebf8f110 Merge tag 'erofs-for-6.15-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
 8ffd015db85fea3e15a77027fda6c02ced4d2444 Linux 6.15-rc2
-a571a9a1b120264e24b41eddf1ac5140131bfa84 kunit: configs: Enable CONFIG_INIT_STACK_ALL_PATTERN in all_tests
-9aa08e761b67e3d8b5ca2ff1e9194a73d3000cce kunit: qemu_configs: Add riscv32 config
 
---===============4043009179648109173==--
+--===============2977810693831797307==--
