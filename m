@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============3361065266519294536=="
+Content-Type: multipart/mixed; boundary="===============1468886336502782319=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 14 Apr 2025 13:55:10 -0000
-Message-Id: <174463891016.1222075.13570313607755565436@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 14 Apr 2025 13:55:13 -0000
+Message-Id: <174463891344.1222262.1863829496462637561@gitolite.kernel.org>
 
---===============3361065266519294536==
+--===============1468886336502782319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.15
+  - ref: refs/heads/regulator-6.15
     old: 0af2f6be1b4281385b618cb86ad946eded089ac8
     new: 8ffd015db85fea3e15a77027fda6c02ced4d2444
     log: revlist-0af2f6be1b42-8ffd015db85f.txt
-  - ref: refs/heads/for-6.16
+  - ref: refs/heads/regulator-6.16
     old: 28cce24d6596a3d8a34689031f2a8a5ac918cde5
     new: 7762fdab23100514e5cb612331c96bd65126ada5
     log: |
          7762fdab23100514e5cb612331c96bd65126ada5 regulator: adp5055: Remove unneeded semicolon
          
 
---===============3361065266519294536==
+--===============1468886336502782319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1744638938 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1744638908-f39b59379c69062c01aadc7fc6d820998a450917
+pusher C3F436CA30F5D8EB 1744638941 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1744638911-4c1938bfb7a4f146aa6bbd079fbed65d8c725532
 
-0af2f6be1b4281385b618cb86ad946eded089ac8 8ffd015db85fea3e15a77027fda6c02ced4d2444 refs/heads/for-6.15
-28cce24d6596a3d8a34689031f2a8a5ac918cde5 7762fdab23100514e5cb612331c96bd65126ada5 refs/heads/for-6.16
+0af2f6be1b4281385b618cb86ad946eded089ac8 8ffd015db85fea3e15a77027fda6c02ced4d2444 refs/heads/regulator-6.15
+28cce24d6596a3d8a34689031f2a8a5ac918cde5 7762fdab23100514e5cb612331c96bd65126ada5 refs/heads/regulator-6.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmf9E9oACgkQJNaLcl1U
-h9DWWgf/YTG6jELGIUi0s4vDgDYFY3u0p9VhhVSm3+biufJu6LlwItKlj9gOHRKJ
-clIaCrdJPkbE6QtxYbrPof8R6PbTPcwl21vwNTv4UdpnIgyruwGrpwvbOvZweeiz
-70JuzHS3poW1UqN67Hg3cB4Tk6dtaiL1Gvpl3dM7d5oAZZLhOza0yPIRLa2gSbcg
-HG/MVZoQw2x9r/eU1pB88EU3AtQLO4lqM+QVqIMk6oOeYLY2b70WwLREf+OgMKIV
-iqpmR+OQwshKRIXn0Hr58ziJzG4dCQgdJ8oQojVzomSnxO7wY4cHDPSffyNrvKs8
-hdPk/6XJ1sFzxJtzx6sYIiTu3AvDaA==
-=CMxZ
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmf9E90ACgkQJNaLcl1U
+h9DWsAf/aoSsZGuo0ajn3SCuKfz/UAIUVlkU9yfiqWvR1Hd7W7aAztqpLhPT6pg2
+qhuplzN9Xn3kt8AFW2/qgmSxljZhByWzysXc66axChxoRzxR/HoH0lrYS8z0MWlG
+8pKLPfGCHZ9yM6MSmwAwnNaTlK2CfNIh9ixfbRj/+f7UMermsft0Y/3Ym+gK74X/
+gB3w9w6y5tu34eQ7WGS9VdTsgsGST7R3KpAEarmm4K+SHLe9OPeenBBOFFMtVcQY
+RHNHENgggF7AiGROjlUYh4uRqVS+pKGIHkLSP6Voxj+B/XrasdJW+aV2QjCaHOi5
++P+sp8LGtltPz3v7zd53ZrYyUX+zyw==
+=2Nyv
 -----END PGP SIGNATURE-----
 
---===============3361065266519294536==
+--===============1468886336502782319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -398,4 +398,4 @@ ccad447a3d331a239477c281533bacb585b54a98 ext4: make block validity check resiste
 004a365eb8b9c6d7d409bbeb5687a4a5ebf8f110 Merge tag 'erofs-for-6.15-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
 8ffd015db85fea3e15a77027fda6c02ced4d2444 Linux 6.15-rc2
 
---===============3361065266519294536==--
+--===============1468886336502782319==--
