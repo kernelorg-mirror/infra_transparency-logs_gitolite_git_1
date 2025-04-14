@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4102694218886139415=="
+Content-Type: multipart/mixed; boundary="===============6525472462499638582=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 14 Apr 2025 17:04:16 -0000
-Message-Id: <174465025600.1395891.5494967585331781960@gitolite.kernel.org>
+Date: Mon, 14 Apr 2025 17:04:25 -0000
+Message-Id: <174465026538.1396184.7246836086384666177@gitolite.kernel.org>
 
---===============4102694218886139415==
+--===============6525472462499638582==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/40GbE
     old: 61499764e5cc5918c9f63026d3b7a34c8668d4b8
     new: b65999e7238e6f2a48dc77c8c2109c48318ff41b
     log: revlist-61499764e5cc-b65999e7238e.txt
 
---===============4102694218886139415==
+--===============6525472462499638582==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ e5566162af8b9690e096d2e6089e4ed955a0d13d net: phy: mediatek: permit to compile t
 6a325aed130bb68790e765f923e76ec5669d2da7 net: phy: mediatek: add Airoha PHY ID to SoC driver
 b65999e7238e6f2a48dc77c8c2109c48318ff41b net: hsr: sync hw addr of slave2 according to slave1 hw addr on PRP
 
---===============4102694218886139415==--
+--===============6525472462499638582==--
