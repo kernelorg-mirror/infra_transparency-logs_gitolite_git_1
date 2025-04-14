@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7040600770297090446=="
+Content-Type: multipart/mixed; boundary="===============5510910397545453038=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Mon, 14 Apr 2025 08:11:20 -0000
-Message-Id: <174461828020.861462.12364114750483660043@gitolite.kernel.org>
+Date: Mon, 14 Apr 2025 08:12:36 -0000
+Message-Id: <174461835685.862264.18237796750732418151@gitolite.kernel.org>
 
---===============7040600770297090446==
+--===============5510910397545453038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: cem
 changes:
-  - ref: refs/heads/xfs-6.16-merge
+  - ref: refs/heads/xfs-6.15-fixes
     old: 71700ac47ad8bbf314424b38178a7a92fe0f57d7
     new: 8ffd015db85fea3e15a77027fda6c02ced4d2444
     log: revlist-71700ac47ad8-8ffd015db85f.txt
 
---===============7040600770297090446==
+--===============5510910397545453038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -366,4 +366,4 @@ ccad447a3d331a239477c281533bacb585b54a98 ext4: make block validity check resiste
 004a365eb8b9c6d7d409bbeb5687a4a5ebf8f110 Merge tag 'erofs-for-6.15-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
 8ffd015db85fea3e15a77027fda6c02ced4d2444 Linux 6.15-rc2
 
---===============7040600770297090446==--
+--===============5510910397545453038==--
