@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7881044660529555519=="
+Content-Type: multipart/mixed; boundary="===============6335598120384868177=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 14 Apr 2025 14:25:55 -0000
-Message-Id: <174464075504.1251427.9296430728995629005@gitolite.kernel.org>
+Date: Mon, 14 Apr 2025 14:26:07 -0000
+Message-Id: <174464076776.1251822.9769075633480772276@gitolite.kernel.org>
 
---===============7881044660529555519==
+--===============6335598120384868177==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 980a18fc42328fa04f9494089c74506ecbcd7dc7
-    new: 55d011e6288f823a930f638a4e538df55ef83391
-    log: revlist-980a18fc4232-55d011e6288f.txt
+  - ref: refs/heads/m68k-queue
+    old: 52c33b373bc0238803e60ce86419f8236b933fa7
+    new: 419261c5448eecc9b71d8d8ae658790c6ad1379a
+    log: revlist-52c33b373bc0-419261c5448e.txt
 
---===============7881044660529555519==
+--===============6335598120384868177==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-980a18fc4232-55d011e6288f.txt
+Content-Disposition: attachment; filename=revlist-52c33b373bc0-419261c5448e.txt
 
 6c9567e0850be2f0f94ab64fa6512413fd1a1eb1 KVM: s390: Don't use %pK through tracepoints
 0c7fbae5bc782429c97d68dc40fb126748d7e352 KVM: s390: Don't use %pK through debug printing
@@ -365,6 +365,8 @@ ccad447a3d331a239477c281533bacb585b54a98 ext4: make block validity check resiste
 5aaaedb0cb540cda1cdcef34f2d30de67d972d9b Merge tag 'ext4_for_linus-6.15-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 004a365eb8b9c6d7d409bbeb5687a4a5ebf8f110 Merge tag 'erofs-for-6.15-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
 8ffd015db85fea3e15a77027fda6c02ced4d2444 Linux 6.15-rc2
-55d011e6288f823a930f638a4e538df55ef83391 Merge tag 'v6.15-rc2'
+6d70b3470efe1c78ff05bf2ff22351abdffebbbc m68k: atari: usb: Add ISP1160 USB host controller support
+42b6b138662ae736c8fadae6034d09501c52f01a m68k: atari: Update Kconfig.bus help text
+419261c5448eecc9b71d8d8ae658790c6ad1379a m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============7881044660529555519==--
+--===============6335598120384868177==--
