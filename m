@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7651288474885466670=="
+Content-Type: multipart/mixed; boundary="===============6407069576526758980=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 14 Apr 2025 16:15:32 -0000
-Message-Id: <174464733218.1355579.1641185145418455161@gitolite.kernel.org>
+Date: Mon, 14 Apr 2025 16:15:41 -0000
+Message-Id: <174464734192.1355967.18398133311031408726@gitolite.kernel.org>
 
---===============7651288474885466670==
+--===============6407069576526758980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: cfe82469a00f0c0983bf4652de3a2972637dfc56
-    new: 8c941f14a694b40a91d381e77bcd334622aa7196
-    log: revlist-cfe82469a00f-8c941f14a694.txt
+  - ref: refs/heads/dev-queue
+    old: a5195d5670e5a5f5e99a21d854e20860d873ec6e
+    new: 2673670da707235fc6c9a07a1dc306aa6b0d1471
+    log: revlist-a5195d5670e5-2673670da707.txt
 
---===============7651288474885466670==
+--===============6407069576526758980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cfe82469a00f-8c941f14a694.txt
+Content-Disposition: attachment; filename=revlist-a5195d5670e5-2673670da707.txt
 
 99f201a9a7d59d95da75695c41b3baf72c39efd3 wifi: iwlwifi: mld: reduce scope for uninitialized variable
 676b902db4766aaec049d6ca4800dfa093599005 wifi: iwlwifi: mld: fix PM_SLEEP -Wundef warning
@@ -62,5 +62,24 @@ f7a11cba0ed79d9d37941dddf69a8a655c8644bc bonding: hold ops lock around get_link
 ae6c1dce3244e31011ee65f89fc2484f3cf6cf85 net: hibmcge: fix not restore rx pause mac addr after reset issue
 e1d0b52d87ca68a92f2f8693b8eb475795a9a73f net: hibmcge: fix multiple phy_stop() issue
 8c941f14a694b40a91d381e77bcd334622aa7196 Merge branch 'there-are-some-bugfix-for-hibmcge-driver'
+eca6d1b8297ec565da8a72c8ba331dc83aea39e0 coccinelle: misc: secs_to_jiffies script: Create dummy report
+8b6262179cdc873b1ee12582f42d3a2a32ccb0c1 ice: fix Get Tx Topology AQ command error on E830
+74f41d9b2c9d92d8473abc5c6aaf278726e8ad84 ice: fix lane number calculation
+0c3d8900c44eb995a03e35208d75cdc86f66c0bb ice: fix fwlog after driver reinit
+edd7991540863aa4a3cfbc4d552058f3a1be584c ice: Check VF VSI Pointer Value in ice_vc_add_fdir_fltr()
+0517692af6a61ef489bc424cf4acf217d9a14031 igc: fix PTM cycle trigger logic
+aecbe0b285e0fc4eba0c406039a7417cdd5879fb igc: increase wait time before retrying PTM
+5607313f0d0b6866974b8272f66268dda855df1e igc: move ktime snapshot into PTM retry loop
+22c4e8b8fa7274c811a802ebe37da867663ed776 igc: handle the IGC_PTP_ENABLED flag correctly
+28dfd0abbd21c5a16c7b12f56ba1886195cae02f igc: cleanup PTP module if probe fails
+916a070e8eafb468db0f51f46d74c050f301abf6 igc: add lock preventing multiple simultaneous PTM transactions
+8a6108829109c9f0de827285c65631f05d6d562e idpf: fix offloads support for encapsulated packets
+e35905d255d122bc285fd03e7c51dd57f8e7129e iavf: iavf_suspend(): take RTNL before netdev_lock()
+18c34d475235f21a071cae795a09693f3b33b801 iavf: centralize watchdog requeueing itself
+0d64a9a32ad2909cd2d15b4d9e920ad06353e73e iavf: simplify watchdog_task in terms of adminq task scheduling
+f46a5baf9e2d3492b949fbdd66833c6c10a2c55f iavf: extract iavf_watchdog_step() out of iavf_watchdog_task()
+0c173742bedbfb692e2b8828a4b5507a7780286f iavf: sprinkle netdev_assert_locked() annotations
+877865ced32fbb9f898ab4960484a757f4f2eb7e iavf: get rid of the crit lock
+2673670da707235fc6c9a07a1dc306aa6b0d1471 idpf: fix potential memory leak on kcalloc() failure
 
---===============7651288474885466670==--
+--===============6407069576526758980==--
