@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-Date: Mon, 14 Apr 2025 14:37:36 -0000
-Message-Id: <174464145644.1262205.11435624086095689104@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Mon, 14 Apr 2025 14:43:18 -0000
+Message-Id: <174464179865.1266765.117970240795873519@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-user: thomas.weissschuh
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/remotes/lx/b4/printk-ringbuffer-test
+  - ref: refs/heads/vfs-6.16.coredump
     old: 0000000000000000000000000000000000000000
-    new: 27963a21ab7f55a82cc3c4cc328b5b4ed1b38adc
+    new: 84c75c92928db3efaa5781a10d78c0998e9500a6
