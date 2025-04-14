@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 14 Apr 2025 07:42:52 -0000
-Message-Id: <174461657284.836289.4792655184682281087@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Mon, 14 Apr 2025 07:46:29 -0000
+Message-Id: <174461678907.840002.632617279943990461@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/master
-    old: 1661404cc53f95dcc1a666ca3a118684cc892d09
-    new: 56b326ece05892a85c4650234b7d6d78240a7caa
+  - ref: refs/heads/work.coredump
+    old: cac548863167038da9751bd38857932478860311
+    new: 80675cb8a56467a7c1d2ac3a3bda146604f332b3
     log: |
-         f99002b9a9cc441a8f362e6fb32cf8a5a990261a x86/alternatives, um: Rename UML's text_poke_sync() wrapper to smp_text_poke_sync_each_cpu()
-         56b326ece05892a85c4650234b7d6d78240a7caa Merge branch into tip/master: 'x86/alternatives'
+         8fa1e1ed0b4eca499389dbbb8d06e138bd9a6281 coredump: fix error handling for replace_fd()
+         bc275b2ce2f94a175aa6cfc9d877ae0184ceedf9 coredump: hand a pidfd to the usermode coredump helper
+         80675cb8a56467a7c1d2ac3a3bda146604f332b3 coredump: hand a pidfd to the usermode coredump helper
          
