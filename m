@@ -1,56 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============1203395540236553066=="
+Content-Type: multipart/mixed; boundary="===============3459665704719829562=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Tue, 15 Apr 2025 16:15:39 -0000
-Message-Id: <174473373930.2588599.2742895232395946751@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Tue, 15 Apr 2025 16:19:24 -0000
+Message-Id: <174473396409.2590412.4608825565564873742@gitolite.kernel.org>
 
---===============1203395540236553066==
+--===============3459665704719829562==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: 1ae5e4c0626d6954114d9725990ac9c498f3b1ab
-    new: bc2c46426f2d95e58c82f394531afdd034c8706c
+  - ref: refs/heads/char-misc-testing
+    old: 6d2253de8fe2c510ea0424e3d450250a0bed9413
+    new: da7bdd350ac051d4400e9e812729b797cdfd5245
     log: |
-         bc2c46426f2d95e58c82f394531afdd034c8706c software node: Prevent link creation failure from causing kobj reference count imbalance
+         ea184c5538f2838ff8375cde1753322089ffb2a6 scripts: Add git-resolve tool for full SHA-1 resolution
+         8d46727b488ecf39388a6983f380459d1f068535 apm-emulation: hide an unused variable
+         da7bdd350ac051d4400e9e812729b797cdfd5245 comedi: ni_atmio: avoid warning for unused device_ids[] table
          
 
---===============1203395540236553066==
+--===============3459665704719829562==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1744733766 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1744733736-4c97b7b866ff152e168b9c4a301e4c19c27bd324
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1744733991 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1744733960-c01bed805adee3fd6a08fc02861f93242e5bca1a
 
-1ae5e4c0626d6954114d9725990ac9c498f3b1ab bc2c46426f2d95e58c82f394531afdd034c8706c refs/heads/driver-core-linus
+6d2253de8fe2c510ea0424e3d450250a0bed9413 da7bdd350ac051d4400e9e812729b797cdfd5245 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmf+hkYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+C4gP/ReImLirZzggqXYNagBk
-gzWCQBFkXb3DN+xOVzkIcoj2km984AewytDVZ6Cb/VC4JTcaM+pFgksvjDsww5db
-k5aBxsKF53s4UFkeEzbY3nYKJTX4CIms3VqQfjdqvN3PyyA90HMKy5nmn7doC8r4
-t6Nb9IzFxQwmdxZ8auNKMpvn7MHHk4wyXbZfuADtSYVbFjxAYtE0U/GTGLeuR3Fx
-wtYDZhV80h6nijN997Dx8EhN+H4GWyaM84cPwQTIPaOKLocMDlFhQQm1YupSvVdY
-FDnH5Ckj1I1oSCGE8fLv1JO+kLQ4II/wyidIMJmhBD9oeRjbX+Zr3aIMZltsRLG2
-NotG38fhyt5kgZgCKcVu/Mq2sG5DRWW5Erodyq4bzk/bMiR6uenVs6/hdhet3JAD
-3qldmmLNxMeaRphf6It5coL2prcado1kv/9o6WlNh0DuNzZLGLR0v3dZ0BUesBZV
-iXiHsmOlXDJQwHVsP/k+EYlp2zKrWnjUjxg5loltXjYflBwsekVHYl/UdEpDshs/
-A2gLkn8vj3DzKDebB31XDagaLysIqyc37YdKQb6wlmSFOWBQMCp3dKyCAnlaXUJf
-sdK5vnlvswsGVSpZHxshiwV3GtyCWxEqpeSMVPOIf2zfFfP37sabHtGxO78bysIH
-qTKCoPYNF2K2l/09hSVIrgqU
-=pmFS
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmf+hycbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+X0UQAKTIzjyaJL/Scgw1C6gD
+5MWvmENZjqXsOnCcL8mOVoc5GPCG8rj6rG/7hSPR/M4MB4PlzH71q/nrnwxUkjRy
+0PRFr6s1Wtt1anJaDEl4/a1iJuf8ylcYRHPy/Cs5vwrFIqu+Oo2WZg7N2FgBqyVX
+Ilm9CbPtO5f8J5teXJUxDRW9QMSpuj3mOZPt1m68GsenmJ4Cy4X++bzU9fvSVs3M
+Z0ODWPSN4CUK3mZYQKu32bvoIyFA/29LKifqW6FzuqKb3dkMH07pcp8PZZBE6Hc+
+Dg9nhH6oZy6TZTy7U7iq1yhNWYm3Unib31sf/BLzuEU/VjFSTECrwzgufzsshZ4m
+uXoOVBxB5G2LmnoKemLQnhLSV1mfEgX81anTKIu+cGGbM8l506cfkB/wAVQXYDLR
+rRHfFs2hXRi38rGB64cQk1ySSXLwVIoyk6LmMGaG95CscqQwAzp7FmG39XOhj/q7
+yF1uFW8rjnGZVvWYo2hL1SLNEn9k+APbFJiJp5xHumuFDA/NF0Q+YdbSfiizGc/1
+ajI7I5xbydXP3uVFcGW+xNQ/0ZOoENS8dL8B4BlNdO5zVGwijo6GSIsSYgLb+8gH
+wuY2GYp+ra+eVpb2+bcarbTo2aQR1PMKaUKRw9pHYM4s8/yy70eHcKc0fJpzky5+
+3nqkRnbxNt9wEEsfyHlzsMcS
+=7aLI
 -----END PGP SIGNATURE-----
 
---===============1203395540236553066==--
+--===============3459665704719829562==--
