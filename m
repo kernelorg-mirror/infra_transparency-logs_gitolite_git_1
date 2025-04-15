@@ -1,21 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
-Date: Tue, 15 Apr 2025 17:02:59 -0000
-Message-Id: <174473657987.2630956.14958575803911697206@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7023064862790641616=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Tue, 15 Apr 2025 17:13:00 -0000
+Message-Id: <174473718042.2639324.10750191303486767357@gitolite.kernel.org>
+
+--===============7023064862790641616==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/leds
-user: lee
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-leds-next
-    old: 0ba60da6c493c2bba370554b99631119016144d3
-    new: cd704688cb842a898f51a0a07c91454ab578c96f
+  - ref: refs/heads/master
+    old: 9e2726658955dd8889d38f7d56491cd410e78c9b
+    new: 228fae3299330b8eeda99cdc6cbea455d5ef4c0c
     log: |
-         bdb461421a9c0dacdf42d3473a4fc06a8d6bdb18 leds: lp8860: Enable regulator using enable_optional helper
-         26db011c2529052cc2786d5ead364108e7756d5a leds: lp8860: Only unlock in lp8860_unlock_eeprom()
-         cd704688cb842a898f51a0a07c91454ab578c96f leds: lp8860: Disable GPIO with devm action
+         228fae3299330b8eeda99cdc6cbea455d5ef4c0c proposed: Add Allen's v6.14.1 & v6.14.2 results
          
+
+--===============7023064862790641616==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1744737207 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1744737177-f424cd372735199277b95477d3aa7dbf4e965b0f
+
+9e2726658955dd8889d38f7d56491cd410e78c9b 228fae3299330b8eeda99cdc6cbea455d5ef4c0c refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmf+k7cbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YG0QAIPqp9czbDOneA85Ltcf
+/HyhiRyKrUcOxTPo8E4QL8Nf2G705hlCFFqj31+7Pp2Y6gRcE2MRglMpvrY+cTQH
+c7bChBQ/7lwffkfmR2uTLqKV0dnrJVkGjnrjJ3/edkfGf8d22q1q8hySlpLOykJg
+I9iyUzwwPBBj+1p9EavAk8bHWh3nF37Jw8JL7crPiuYPIIXJka7eS4BSmlcg4E1G
+q6nZc06yQQ/+hZTnVQxKFbeQykhvA8IdwqmpLuN1AlH1l2klyhjuJb59Fbv3q9zR
+vSdEJTN9C1oT280lw3tsvXvSh4vwPwP9uzQNL8OFLvceu+kwDyK5d/uBvDKPOXSo
+lcdx/o9CMdNRb3A4bIN9ZoNr4p7cCWNnXtgFZHlmaWxQiwxSBIw+BlYKpxk6yHN7
+UdiJaXu6FfR9bBEihdHmN4qBmzquTnrj1aJpKcW0pNy+wYrHeTDI/3b4883OTHFX
++QnOAJueF+UE1NPlSjdnV3mvyKrlHbl63ps/E8K3BlIj6S2TMtlN3JR+bGlTa96o
+lt1lieBh+KLNFT+NErNqg5GEkolApVzmsmnYpig9oHhIJOmrMHav6WFQta98DUv5
+SLozuji3GUtEDySDM1WkBUrYK0p1/Q8zDb1azR+HB1sHtTpi8/3X4nwGjFecfGdU
++JolQcMnh++yQlq6SL/RVbnn
+=t9m+
+-----END PGP SIGNATURE-----
+
+--===============7023064862790641616==--
