@@ -1,53 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============6127608683445526009=="
+Content-Type: multipart/mixed; boundary="===============5130007622431787008=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 15 Apr 2025 12:53:13 -0000
-Message-Id: <174472159369.2396813.5864502771622366381@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
+Date: Tue, 15 Apr 2025 12:54:00 -0000
+Message-Id: <174472164083.2397462.9106338745316112385@gitolite.kernel.org>
 
---===============6127608683445526009==
+--===============5130007622431787008==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/rndis-removal
-    old: cde3ad8022ee13db05e600e6578d7a0301ced0bc
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/rndis
+    old: cbca451fe06cd4415dbe1f793de4594fe6e5d687
+    new: a63a9f7c6685765de1638bc349803a30fe690eca
+    log: |
+         4c02a615b64f01072f67971e15a4a018fff093f5 USB: disable all RNDIS protocol drivers
+         a63a9f7c6685765de1638bc349803a30fe690eca USB: potential rndis host fix
+         
 
---===============6127608683445526009==
+--===============5130007622431787008==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1744721623 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1744721592-db91ab22043fb310be963746c766b3ddc3365877
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1744721655 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
+nonce 1744721622-c8e9b3bd7ea89b5d876e46e05adbd20679a1ece4
 
-cde3ad8022ee13db05e600e6578d7a0301ced0bc 0000000000000000000000000000000000000000 refs/heads/rndis-removal
+cbca451fe06cd4415dbe1f793de4594fe6e5d687 a63a9f7c6685765de1638bc349803a30fe690eca refs/heads/rndis
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmf+VtcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IusP/AwGEo6QrQrh9niGkxqK
-su5JBaDvtBcToSPVZJ9DQ108NT54wzCk2oPp5EEIEQjY75nCtpBVRcSLVnx/iq3f
-w2XZrUQ3b39KC/DCqyQ+nCNyBuWEPWQv71XpdLHHW6A/Jtqj2K5SOXG+lyOE+m/u
-nLAO1z89h5LGKnTzL5OCjsFiMI4ZtQQyyH2PDglX9isDx4Fjd4w8qgl0sr21Rkgk
-a3Wo7Rwbo6YtaXOrFnXHgITB0I4+qPdy6R+ihpwQKVusxeuklzTL8eMX/oww//PZ
-ELG760ULaY7gJa/zFGlNS/zIQ5XTn/JPt7lzMRyRHRkpGc66dTBIyDrx1BvfZ2AY
-I5MFLLJRWNk1N6/Q+lrft7QBOiwYGJTFchMM4LzB1fmPay3Rhk+dpLS5HAr9tO0L
-/M3zOkiuU47nxIMLNbErytjaHBdqlNqs2daFacNzMFTC/3nIECkuQncvo8pmj6eh
-QCufdGI/agRyEiAqmiRyWpzGbEsANIrnm3ASVVEGqmwEoFM1BqlU6i6vTY/gI50q
-bw05jrTp2azukJdqb947hgLiwUgx0UDu9FRVe1RafjB1z/hP7eVYdAc3wGJbnaOh
-jtXb6vNTNnXjdP6Fd7+L7kbNkBr8xTsGxBZwY6CMLpBkX4eEviPh0TiqT6HSBRJp
-vNdh07Jc5XNqdCgTMK47uGA1
-=PquA
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmf+VvcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dKwP/junhaAE1xO9ZIE2Yr21
+c5FExInUj07K5k6Tp6KVcSr9VUvVncDA+OLM8B8R7BLNg1B5eD15GH2RqsVWzwyS
+djtrpvdKaVkBdC1tQFvSgRJyoAPQy9Q9xqbJTEE64OuDGKIfu3qEDv+RKl3PJQs6
+HsEqklpxuyYvKu8AHsk7w3CheN4q4BwvRGwHjrAeuD93dLE34sq5YtWd79R+D7sT
+urZNAXG91NqGRQX0bkMMBVKEOnQTalPfQCy1tfDAfyc58o1DGcxNQQ3nbk2WrOUF
+MiTcb9LsLaAz7/DxZW9e4u/BzOAfVLMxU0ZAfv9acSHu2cItTY0gDSeTmdr+aKhI
+2VhZhysmYE0qMlzdXNlTI7t5eoeRASktnAk1oD5NEbRkNYysnb+Y66s5Qbcexxv9
+muaC7jfFU8ZOUmtOF2CK3r9Zm7KTn6ntWKNeVjYKeoQ3AW+/C8zU4WC4ni6cph7j
+lSnV/7rujbcWnr4Up0cmU3eCZz2BOR41mVx1jbu0jMPJYrD/5g+YQCYVcPYVGDVn
+weWxIk+URL4GPstJCQ/K5FnrtQzmVHahj9uwd2eV+dHIkKamDoGYCbQqMaGdv82o
+0WLrdwIZDfdEMG3V4e+pr+x2Cz/KNo0kE90tycM/LofFOn74KyjvPfwIsWmI1uAO
+VsKWmAPfBOseQW2za/YKexCE
+=iCI5
 -----END PGP SIGNATURE-----
 
---===============6127608683445526009==--
+--===============5130007622431787008==--
