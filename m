@@ -1,90 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============8880436616695980821=="
+Content-Type: multipart/mixed; boundary="===============6174230920533265959=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Tue, 15 Apr 2025 12:41:45 -0000
-Message-Id: <174472090502.2384904.10110106609595806526@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Tue, 15 Apr 2025 12:42:36 -0000
+Message-Id: <174472095638.2385488.8161242122795232114@gitolite.kernel.org>
 
---===============8880436616695980821==
+--===============6174230920533265959==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/simple_bus
-    old: 70d7d5fbbca04aba4ffb591b63fd02ba511c68bd
-    new: 878f1b8ec2937b16dde7c903ada72838f29a926b
-    log: revlist-70d7d5fbbca0-878f1b8ec293.txt
+  - ref: refs/heads/for-kernelci
+    old: 0d7aea765c41401c36c9d0a1d039a2cf30df430e
+    new: ee001af47148a75f45f85367636e28292e7e0f58
+    log: revlist-0d7aea765c41-ee001af47148.txt
 
---===============8880436616695980821==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1744720931 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1744720900-6f9eb23a196a95f0ad0a530b56a69c28af26d6b7
-
-70d7d5fbbca04aba4ffb591b63fd02ba511c68bd 878f1b8ec2937b16dde7c903ada72838f29a926b refs/heads/simple_bus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmf+VCMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+muIQALtT1pdefGaPImcHK7yW
-HAojjlWf1mvdNbQAw37YhlLtIe5gRQftX1Cs7Da7ZSisfrd+l6CcXv5SWKdnC+BA
-YlrGulpnePOC/Yf9hEEzf9R27/AhUXduuq1WUxU6gruxDbmIIeHoWnJOcm9sDp7Z
-tQAbOpUnG4xr9Sl3rvQGVMJtW/Q/i2GLp4hjHO2cgRYen8oNXVB+SbGi6IA9LYZ0
-VpoOxPrAg+OqKB1BjB8b7eHpO1XjyL6fSPxMThpAENzZoXtmRoDRYQYFsFOjYL2K
-pO3BXAYK7YRFUnN6f5dq2Zy8fZW8tcsAa/7gPr3l2oR8lei62h/aZ17f+KY7aSBD
-djN9jEBab9PdvovD1JsLnjJsnpS6/ywa2sah1g/u5kbwRnDVu9KXTcJ1spZwhrES
-G7vThf+d0JQuDJWTE4fwI/vXMSHbZ+cOgC9daGpwfNVRgGHhvo4vhNShV5L4QqLl
-NJNRtENYepqcalFW8xLuShvkVELoPgIZ2JKEWpE3jirn5cmIxIhYQmQip10Mnfe5
-PJg46/47+XLD1nAHfVKAGxJpFQbvuTztU6R51lN4lr5GEsj7/canvv6Iue0WXXEo
-ArgcePAfKjsf0RomqwK/X3XJRUl5TrXzuWBDpjH2FR8v705s2ulRknil0DZFl0Ob
-HdsqZfX7OPgsmLQ7H4tFDhyD
-=Ma1Q
------END PGP SIGNATURE-----
-
---===============8880436616695980821==
+--===============6174230920533265959==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-70d7d5fbbca0-878f1b8ec293.txt
+Content-Disposition: attachment; filename=revlist-0d7aea765c41-ee001af47148.txt
 
-45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
-e364e4cebeb70a5f4f8cb28ca7480e1ddb361752 Merge branch 'stmmac-several-pci-related-improvements'
-cc04ed502457412960d215b9cd55f0d966fda255 stmmac: intel: interface switching support for RPL-P platform
-1ae1d705a1120e8e0ca41698c5a0fff6f5290bc1 net: dsa: microchip: fix DCB apptrust configuration on KSZ88x3
-a50b4fe095fb98e0b7da03b0a42fd1247284868e Merge tag 'timers-cleanups-2025-03-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-317a76a996043d336b85197aed5f44184b36ac4a Merge tag 'timers-vdso-2025-03-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-3f0cb8de56b9a5c052a9e43fa548856926059810 io_uring: fix retry handling off iowq
-3afcb3b2e3a4ead24e3ab476576e87877d55ee22 io_uring: defer iowq cqe overflow via task_work
-4c76de42cb6971fc2cc7984ed974caffe6ea7fda io_uring: open code __io_post_aux_cqe()
-d73acd7af3a329e8ebe5df1c738ae8c1d0a5f778 io_uring: rename "min" arg in io_iopoll_check()
-816619782bdc70d7f33a8d0cda36d61414cec467 io_uring: move min_events sanitisation
-c59d88101cd9ed609678880e93b8e7684c7ba68e Bluetooth: btnxpuart: Add correct bootloader error codes
-bf81cf29b77c09b8c0a5ef3d574945e57dfde787 Bluetooth: btnxpuart: Handle bootloader error during cmd5 and cmd7
-1f77c05408c96bc0b58ae476a9cadc9e5b9cfd0f Bluetooth: btnxpuart: Fix kernel panic during FW release
-3a7fdfb7d876910cfe734488f553dbbc938f8f16 Bluetooth: hci_event: Fix handling of HCI_EV_LE_DIRECT_ADV_REPORT
-eed14eb510c040a3826b633048244bb7a816c67d Bluetooth: MGMT: Add LL Privacy Setting
-fd87b7783802b45cdd261b273e6b2b792823064d net: Fix the devmem sock opts and msgs for parisc
-355d63e5de95de72561891b4d17b83ba82cfe42a arch: mips: defconfig: Drop obsolete CONFIG_NET_CLS_TCINDEX
-8cc14fdcc1b8473adcf90dae63a246042ebdcc25 Merge branches 'for-next/amuv1-avg-freq', 'for-next/pkey_unrestricted', 'for-next/sysreg', 'for-next/misc', 'for-next/pgtable-cleanups', 'for-next/kselftest', 'for-next/uaccess-mops', 'for-next/pie-poe-cleanup', 'for-next/cputype-kryo', 'for-next/cca-dma-address', 'for-next/drop-pxd_table_bit' and 'for-next/spectre-bhb-assume-vulnerable', remote-tracking branch 'arm64/for-next/perf' into for-next/core
-8ae9e2d8325698edc1335ede5401f68bcd7cc400 Merge branch 'for-next/smt-control' into for-next/core
-64fa6b9322a904198589c0479dca6f2ed7f2eb04 Merge branch 'for-next/el2-enable-feat-pmuv3p9' into for-next/core
-92009c3ba8903820077d29b6bb8be68780fedbdb thermal/drivers/qoriq: Use dev_err_probe() simplify the code
-229f3feb4b0442835b27d519679168bea2de96c2 thermal/drivers/qoriq: Power down TMU on system suspend
-1a685e2b3fc70f9a31ea28057471ba6615d8fa7b dt-bindings: thermal: tsens: Add ipq5332, ipq5424 compatible
-ff0cf0ab9073727a67f9902dba77a758654ae895 thermal/drivers/tsens: Add TSENS enable and calibration support for V2
-ee022e5cae052e0c67ca7c5fec0f2e7bc897c70e thermal/drivers/rockchip: Add missing rk3328 mapping entry
-9e6ec8cf64e2973f0ec74f09023988cabd218426 thermal: core: Remove duplicate struct declaration
-65594b3745024857f812145a58db3601d733676c thermal/drivers/mediatek/lvts: Disable monitor mode during suspend
 c612cbcdf603aefb3358b2e3964dcd5aa3f827a0 thermal/drivers/mediatek/lvts: Disable Stage 3 thermal threshold
 fa17ff8e325a657c84be1083f06e54ee7eea82e4 thermal/drivers/mediatek/lvts: Disable low offset IRQ for minimum threshold
 2738fb3ec6838a10d2c4ce65cefdb3b90b11bd61 thermal/drivers/mediatek/lvts: Start sensor interrupts disabled
@@ -1074,12 +1015,40 @@ f8b136ef2605c1bf62020462d10e35228760aa19 tools/power turbostat: Restore GFX sysf
 6f110a5e4f9977c31ce76fefbfef6fd4eab6bfb7 Disable SLUB_TINY for build testing
 302deb109d6c1674073d8dd4156ca0f36889a7b7 Merge tag 'sched-urgent-2025-04-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 dda8887894965369a87ba27320f6b337c4cd9e12 Merge tag 'perf-urgent-2025-04-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+0ee07a07920285d519152974872ca6e43f8742e8 x86/boot: Use __ALIGN_KERNEL_MASK() instead of open coded analogue
+5d4456fc88f7aa9bd139b7c5bd4f1c03f552b973 x86/boot/compressed: Merge the local pgtable.h include into <asm/boot.h>
+5a67da1f49cf4f16ec9966446885131dad0eb245 x86/boot: Move the 5-level paging trampoline into /startup
+4f2d1bbc2c92a32fd612e6c3b51832d5c1c3678e x86/boot: Move the EFI mixed mode startup code back under arch/x86, into startup/
 ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle" invocation counters, by default
 03e00e373cab981ad808271b2650700cfa0fbda6 tools/power turbostat: v2025.05.06
 59f392fa7cf83b02d5b40ddf3cde3b25b18445e7 Merge tag 'soundwire-6.15-rc1-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire
 710329254dc303cd3b2df1a24674adecb1189385 Merge tag 'turbostat-2025.05.06' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
-878f1b8ec2937b16dde7c903ada72838f29a926b driver core: Create a simple bus for anyone to use
+d9fa398fe82728ee703ad2bd9cf5247df9626470 x86/boot/startup: Disable objtool validation for library code
+9e8e879426d863fc326cda53d704bbc7369c1afc Merge tag 'v6.15-rc1' into x86/boot, to pick up fixes and refresh to a known base
+c9311dbeb4c2af989284b3909499737f12d41089 x86/boot/sev: Avoid shared GHCB page for early memory acceptance
+e4aef8075377aedeca973c5619946c99ef97bfac x86/asm: Make rip_rel_ptr() usable from fPIC code
+74f312332359f38f9b80ba078820e29654799b77 x86/boot: Move the early GDT/IDT setup code into startup/
+8f400a61aba913c52d7931a34ecf107afa5951f9 x86/boot: Move early kernel mapping code into startup/
+64aa069b89c58cad284d0dde1c3bbe87f91896dc x86/boot: Drop RIP_REL_REF() uses from early mapping code
+af586889c396fc2ac68ff21b37cd0f3646bdcbf8 x86/boot: Move early SME init code into startup/
+950e63bbd98f5eea9f4d0fe1655e2eae4b94ff89 x86/boot: Drop RIP_REL_REF() uses from SME startup code
+024044742427fdf0fd9442216d726740400f8e3b x86/sev: Prepare for splitting off early SEV code
+616998825029e5ae25c35018beef922ba182fdcf x86/sev: Move noinstr NMI handling code into separate source file
+69841fb45690ddcb0e1df4419fe56d572580edeb x86/sev: Split off startup code from core code
+4fa7b30c02b8e20d59c6d7fb2b1f6e6e04341b6f x86/boot: Move SEV startup code into startup/
+a904986c657afdf0f3421cc35ba8886f3444520e x86/boot: Drop RIP_REL_REF() uses from early SEV code
+5238effe965099836db851e61ef6d21b5017b0ed x86/asm: Retire RIP_REL_REF()
+ff02feef43cc6aecc7d082ea74d408e6b26e705a x86/boot: Move startup code out of .head.text
+c298ba78aebb15eeb1df953d88533e05c1a3b593 x86/xen: Move PVH startup code out of .head.text
+508083c566b7827114011c6671d448b058c41f13 x86/boot: Move startup code out of .head.text
+85868baad57672137a74afc82139579213821220 x86/boot: Move SEV status check into separate source file in startup/
+f3a6de4447a04a6f7956871afe2b7381b4c95440 x86/sev: Move #VC handler instruction decoder to separate source file
+f1d7486f217488f6c508ce468b7bdc46736f985a WIP
+49f33590ea85a43b3508be435dd336acbf07d746 x86/boot: Drop redundant RMPADJUST in SEV SVSM presence check
+ef4d7fd6f5068d340960a7c924a980c27bfbd9e1 x86/sev: Clone SVSM hypervisor feature check into the core kernel
+1a5f6f3efca31c7635991906a1827f8bfc33d339 x86/efistub: Obtain SEV CC blob address from the stub
+ee001af47148a75f45f85367636e28292e7e0f58 x86/efistub: Don't bother enabling SEV in the EFI stub
 
---===============8880436616695980821==--
+--===============6174230920533265959==--
