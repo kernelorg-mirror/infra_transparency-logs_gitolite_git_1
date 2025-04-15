@@ -1,51 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4064460701153940912=="
+Content-Type: multipart/mixed; boundary="===============1209544570021594436=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Tue, 15 Apr 2025 20:52:28 -0000
-Message-Id: <174475034844.2830266.16603310175970849354@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/superm1/linux
+Date: Tue, 15 Apr 2025 20:54:42 -0000
+Message-Id: <174475048292.2832027.14415415289326799407@gitolite.kernel.org>
 
---===============4064460701153940912==
+--===============1209544570021594436==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/superm1/linux
+user: superm1
 changes:
-  - ref: refs/heads/for-next/kspp
-    old: 6e1fa8af216631ed4c5e425d8d09c8b6e03ef682
-    new: 26c35a034798f5e81afd3cfe1d02e14b991dff39
-    log: revlist-6e1fa8af2166-26c35a034798.txt
+  - ref: refs/heads/bleeding-edge
+    old: d87e4026d1b20e4f237b29e0c956ad415f533de2
+    new: 342826846fcb7d48737a5d2c29ab241cc89b5c08
+    log: revlist-d87e4026d1b2-342826846fcb.txt
 
---===============4064460701153940912==
+--===============1209544570021594436==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1744750377 -0700
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1744750346-17c096617ae061e885426fe0ac1b02f852a992dd
-
-6e1fa8af216631ed4c5e425d8d09c8b6e03ef682 26c35a034798f5e81afd3cfe1d02e14b991dff39 refs/heads/for-next/kspp
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCZ/7HKQAKCRA2KwveOeQk
-u2HvAQDOcd6rtG6BkE0LWjll3iN8+Rqz5dHBQ3w6bXLiD+SphwD/Xl7r/C2v+4g8
-Isxli33bp+DSMpMmdrrPgwvEKiIZvw8=
-=S1Ih
------END PGP SIGNATURE-----
-
---===============4064460701153940912==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6e1fa8af2166-26c35a034798.txt
+Content-Disposition: attachment; filename=revlist-d87e4026d1b2-342826846fcb.txt
 
 6c9567e0850be2f0f94ab64fa6512413fd1a1eb1 KVM: s390: Don't use %pK through tracepoints
 0c7fbae5bc782429c97d68dc40fb126748d7e352 KVM: s390: Don't use %pK through debug printing
@@ -386,16 +365,10 @@ ccad447a3d331a239477c281533bacb585b54a98 ext4: make block validity check resiste
 5aaaedb0cb540cda1cdcef34f2d30de67d972d9b Merge tag 'ext4_for_linus-6.15-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 004a365eb8b9c6d7d409bbeb5687a4a5ebf8f110 Merge tag 'erofs-for-6.15-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
 8ffd015db85fea3e15a77027fda6c02ced4d2444 Linux 6.15-rc2
-d94c12bd97d567de342fd32599e7cd9e50bfa140 string: Add load_unaligned_zeropad() code path to sized_strscpy()
-62d32440ac127b79747ef930205052803a8efd0f kasan: Add strscpy() test to trigger tag fault on arm64
-f5c68a4e84f9feca3be578199ec648b676db2030 hardening: Disable GCC randstruct for COMPILE_TEST
-cdc2e1d9d929d7f7009b3a5edca52388a2b0891f lib/Kconfig.ubsan: Remove 'default UBSAN' from UBSAN_INTEGER_WRAP
-9b044614be12d78d3a93767708b8d02fb7dfa9b0 ubsan: Fix panic from test_ubsan_out_of_bounds
-3f2925174f8bd811f9399cb4049f6b75fd2fba91 lib/prime_numbers: KUnit test should not select PRIME_NUMBERS
-e54d5c5456bbcd84fa412b09f8a9053af743311a cachefiles: Add __nonstring annotations for unterminated strings
-ebf38900146ec2660afc506cce7c826970868d96 misc: bcm-vk: avoid -Wflex-array-member-not-at-end warning
-fe062a571f3a87cdc7994d3bec130a6e3c0b7147 lkdtm: use SLAB_NO_MERGE instead of an empty constructor
-0ea46a39c37fef4042a9c59096fabf0857fe04da gcc-plugins: Remove ARM_SSP_PER_TASK plugin
-26c35a034798f5e81afd3cfe1d02e14b991dff39 Merge branches 'for-linus/hardening' and 'for-next/hardening' into for-next/kspp
+c180ca234d9954f2ac54d81bae4cd8498dbec3f7 cpufreq/amd-pstate: Fix min_limit perf and freq updation for performance governor
+721004ec5a315855dfc64eaf4f635a2945ab60cc cpufreq/amd-pstate: Enable ITMT support after initializing core rankings
+01ae9457963addcc6bd42bbcca64f932ae5c8f60 cpufreq/amd-pstate: Move max_perf limiting in amd_pstate_update
+2bac34796586c992cd231940df6227668a401ede cpufreq/amd-pstate: Add offline, online and suspend callbacks for amd_pstate_driver
+342826846fcb7d48737a5d2c29ab241cc89b5c08 cpufreq/amd-pstate: Add support for the "Requested CPU Min frequency" BIOS option
 
---===============4064460701153940912==--
+--===============1209544570021594436==--
