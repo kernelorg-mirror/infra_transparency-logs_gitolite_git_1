@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8608667018327550369=="
+Content-Type: multipart/mixed; boundary="===============1849563479564563060=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 15 Apr 2025 06:33:14 -0000
-Message-Id: <174469879490.2070188.11220874211330940787@gitolite.kernel.org>
+Date: Tue, 15 Apr 2025 06:34:57 -0000
+Message-Id: <174469889711.2071973.14482799729901528838@gitolite.kernel.org>
 
---===============8608667018327550369==
+--===============1849563479564563060==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,47 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 3add7e66ac136706d740c8705cd1735961bfb50f
-    new: b057791f08592f3f8a67c879ba3bb947b942212f
-    log: revlist-3add7e66ac13-b057791f0859.txt
+    old: b057791f08592f3f8a67c879ba3bb947b942212f
+    new: b4d2bada09b17fcd68a0f00811ca7f900ec988e6
+    log: revlist-b057791f0859-b4d2bada09b1.txt
+  - ref: refs/heads/tip/urgent
+    old: a5a0858e75e618cfa1f2c981eb26dce999a990b6
+    new: 33f9635443ba0966d3bffd82b82b1c643a1f7208
+    log: revlist-a5a0858e75e6-33f9635443ba.txt
 
---===============8608667018327550369==
+--===============1849563479564563060==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3add7e66ac13-b057791f0859.txt
+Content-Disposition: attachment; filename=revlist-b057791f0859-b4d2bada09b1.txt
+
+cf761e3dacc6ad5f65a4886d00da1f9681e6805a PCI/MSI: Add an option to write MSIX ENTRY_DATA before any reads
+fbb429ddff5c8e479edcc7dde5a542c9295944e6 net/niu: Niu requires MSIX ENTRY_DATA fields touch before entry reads
+22b2016a2bd4271c220250588d29c75a441c626c Merge branch into tip/master: 'core/urgent'
+8b7abbbb2a234356408f8328204a7214bc6f7e89 Merge branch into tip/master: 'irq/urgent'
+e2034ce1212d4e88fb4eb349bc78f93b0b940103 Merge branch into tip/master: 'timers/urgent'
+33f9635443ba0966d3bffd82b82b1c643a1f7208 Merge branch into tip/master: 'x86/urgent'
+61737ece62f3651e61fdeea95874618876da3f0c Merge branch into tip/master: 'x86/merge'
+8b29838d929b89868f9986c3c08f5f2430fb739d Merge branch into tip/master: 'irq/core'
+cf3315386c3ed1c230c0a0eea5f2a3ac711d3585 Merge branch into tip/master: 'irq/drivers'
+25ea3408747b10ef37fc66e365a3c3154699b505 Merge branch into tip/master: 'irq/msi'
+4b7bc6ad3aa4c9a06c198962740ac469aab06008 Merge branch into tip/master: 'perf/core'
+79bb5ea360c6f025a06a8b276764220c0cf04cfa Merge branch into tip/master: 'sched/core'
+364ea04496c2d638f62d3e40d9ef7ad8f23e8d82 Merge branch into tip/master: 'timers/core'
+f84222c2f3b1f3ad8ab5a7ae592f463a1c6d7e02 Merge branch into tip/master: 'x86/alternatives'
+6bf1618c2367a793068553034e62e48a4c0128d5 Merge branch into tip/master: 'x86/asm'
+ab3274490ec8699fe14e5dfbbc1b4054595bd0a4 Merge branch into tip/master: 'x86/boot'
+5bf0695d12ffa38159d27bdc9d055dccad6cfece Merge branch into tip/master: 'x86/cpu'
+6d719589167bef2a2a629222fe6a678219adecde Merge branch into tip/master: 'x86/kconfig'
+0e6bf67d53b50b7dfaf66c1992ef477d489f43d0 Merge branch into tip/master: 'x86/microcode'
+f8291b9bfec7bcdeda69c1eccee9c88f7d782585 Merge branch into tip/master: 'x86/nmi'
+b4d2bada09b17fcd68a0f00811ca7f900ec988e6 Merge branch into tip/master: 'x86/sev'
+
+--===============1849563479564563060==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-a5a0858e75e6-33f9635443ba.txt
 
 eb3a04a8516ee9b5174379306f94279fc90424c4 ovl: don't allow datadir only
 a6eb9a4a69cc360b930dad9dc8513f8fd9b3577f ovl: remove unused forward declaration
@@ -63,6 +95,11 @@ e2aef868a8c39f411eb7bcee3c42e165a21d5cd6 Merge tag 'ovl-fixes-6.15-rc2' of ssh:/
 10e66f29fad2bac7f44e99372398b39358daf6e3 Merge tag 'perf-tools-fixes-for-v6.15-2025-04-13' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 3618002d007244be851fb5f314c6ddc61b8b860d Merge tag 'vfs-6.15-rc3.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 834a4a689699090a406d1662b03affa8b155d025 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
-b057791f08592f3f8a67c879ba3bb947b942212f Merge branch 'linus'
+cf761e3dacc6ad5f65a4886d00da1f9681e6805a PCI/MSI: Add an option to write MSIX ENTRY_DATA before any reads
+fbb429ddff5c8e479edcc7dde5a542c9295944e6 net/niu: Niu requires MSIX ENTRY_DATA fields touch before entry reads
+22b2016a2bd4271c220250588d29c75a441c626c Merge branch into tip/master: 'core/urgent'
+8b7abbbb2a234356408f8328204a7214bc6f7e89 Merge branch into tip/master: 'irq/urgent'
+e2034ce1212d4e88fb4eb349bc78f93b0b940103 Merge branch into tip/master: 'timers/urgent'
+33f9635443ba0966d3bffd82b82b1c643a1f7208 Merge branch into tip/master: 'x86/urgent'
 
---===============8608667018327550369==--
+--===============1849563479564563060==--
