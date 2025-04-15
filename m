@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3220149146702838946=="
+Content-Type: multipart/mixed; boundary="===============2400520688737438062=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 15 Apr 2025 14:30:15 -0000
-Message-Id: <174472741589.2489269.2054875159961552604@gitolite.kernel.org>
+Date: Tue, 15 Apr 2025 14:30:21 -0000
+Message-Id: <174472742162.2489758.15700024656749759546@gitolite.kernel.org>
 
---===============3220149146702838946==
+--===============2400520688737438062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/40GbE
     old: b65999e7238e6f2a48dc77c8c2109c48318ff41b
     new: e8a1bd8344054ce27bebf59f48e3f6bc10bc419b
     log: revlist-b65999e7238e-e8a1bd834405.txt
 
---===============3220149146702838946==
+--===============2400520688737438062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -136,4 +136,4 @@ c3b904c6dd814507c70c2c5c24b3ba359ff41d0a net: dsa: mt7530: move remaining MIB co
 8c9b406ff470a8346232eec979dc84f518aabfd9 tipc: Removing deprecated strncpy()
 e8a1bd8344054ce27bebf59f48e3f6bc10bc419b net: ncsi: Fix GCPS 64-bit member variables
 
---===============3220149146702838946==--
+--===============2400520688737438062==--
