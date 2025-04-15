@@ -1,45 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5106078075849669663=="
+Content-Type: multipart/mixed; boundary="===============7003415799313438433=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Tue, 15 Apr 2025 14:50:44 -0000
-Message-Id: <174472864496.2511489.2705250061878608622@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Tue, 15 Apr 2025 14:56:25 -0000
+Message-Id: <174472898537.2516166.8778011199158990247@gitolite.kernel.org>
 
---===============5106078075849669663==
+--===============7003415799313438433==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: b80c52642c1159c2596776b39b06eb1c2e36baff
-    new: d0bcc5eaaa611aacbffe6b2cc2fb64bfc3bdfcbc
-    log: revlist-b80c52642c11-d0bcc5eaaa61.txt
-  - ref: refs/tags/ath-202504151443
-    old: 0000000000000000000000000000000000000000
-    new: d0bcc5eaaa611aacbffe6b2cc2fb64bfc3bdfcbc
+  - ref: refs/heads/char-misc-testing
+    old: 9f240f7b8e40bdf35e45fce5c6a5e956db3938ce
+    new: c15e81fc07afae0fafc5976991ee8557ef47d8a3
+    log: |
+         c15e81fc07afae0fafc5976991ee8557ef47d8a3 char: xillybus: Use to_delayed_work()
+         
 
---===============5106078075849669663==
+--===============7003415799313438433==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b80c52642c11-d0bcc5eaaa61.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-dad6de9070a8dfc8268ed7c1684b81d1e2eeaa97 wifi: ath12k: introduce ath12k_fw_feature_supported()
-6b85b83e46516ce38ce82dd2f1c4e40d183aa311 wifi: ath12k: use fw_features only when it is valid
-32f7b19668bd2894f1a236580c2132fc4b9f4449 wifi: ath12k: support MLO as well if single_chip_mlo_support flag is set
-0cd46d1f36ced0e61bd6d8cdce7c9eec9563d294 wifi: ath12k: identify assoc link vif in station mode
-ead6d41116b81098061c878d9bfc0b1a6c629090 wifi: ath12k: make assoc link associate first
-3aba3a1422656850dd1f87843ca34acd379a29ce wifi: ath12k: group REO queue buffer parameters together
-3b9cbce6fdd3d511107e7eaf27a0f1e0d73038ea wifi: ath12k: alloc REO queue per station
-bcdf2620f95752af542c18ee81a83231d4993953 wifi: ath12k: don't skip non-primary links for WCN7850
-176f3009ae598d0523b267db319fe16f69577231 wifi: ath12k: support 2 channels for single pdev device
-865efaec7e20e419b0dbaad9c9b7885ff8237150 Merge branch 'ath-next'
-e0e36248d81c13f538802d810437627e831dd4c5 Merge remote-tracking branch 'mhi/mhi-next'
-d0bcc5eaaa611aacbffe6b2cc2fb64bfc3bdfcbc Add localversion-wireless-testing-ath
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1744729012 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1744728982-b8aa2e908261d6b26abe516fdd094e81dae31dec
 
---===============5106078075849669663==--
+9f240f7b8e40bdf35e45fce5c6a5e956db3938ce c15e81fc07afae0fafc5976991ee8557ef47d8a3 refs/heads/char-misc-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmf+c7QbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+U+oP/AwSJnoevNTGPSOwOnlo
+oqURB/NkzSH9nS2iUBGYKR/i5diIdKUe9vruzyCSHmPWziNF0HH/reYnaCGdo/H+
+rIhG6nEzCOss5w67wpJ90fsh2xhmFwlKohmpsNhGBvQtVR/VBUpEFVucqfCmxqS6
+avLAL7hrOWUgQxb7/tall/hL2eHxwWHAZKfQu+WSYBGjwBw+prRYYxwK18mRToo9
++suSc3tbBhailVk0mPocjC1urWwIqdhzi9zIh14Y/iRT3Pwi0FGGUtW96bz8K4sf
+OpCCKz5MBE+RlgmYBeMr6iaSOqcmU9XNcYfNo+7e3ecO8PRdE2v/tw2Jd5UMfpaW
+MUYZIY2Z+gjuuHR150dnM9ktkByMwJaXEsCFdnLHgsX86vL5yr19PZO3Ey/a4h3P
+3PkoJduZ+jZRrkFK0OQ8MwlBiFgwYnEfeeC/+vAz9sX5yB0RJPSTfWYxu7B7x8kB
+8A7YCFsG06M9BXYVCJPC5izjMREknz1Lead76uv20037SmT6ls91S6DeZpdtADn3
+Qus3eG8ktDj5Gwpfg4JrXTt3uNcq/zz7O4C3oExx3g83ostsI1dVUZmtDXHsNKrf
+e4TCuxsom4aSjabu17jnO94+6BbbghNDfstF+pu34r/DnS3CkhUm1ETlxfYrPOYe
+H1AIh/gDvf+dwAZUFPV/85CI
+=whEE
+-----END PGP SIGNATURE-----
+
+--===============7003415799313438433==--
