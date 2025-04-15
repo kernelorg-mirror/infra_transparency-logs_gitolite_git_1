@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Tue, 15 Apr 2025 10:52:44 -0000
-Message-Id: <174471436482.2285736.70065760609919242@gitolite.kernel.org>
+Date: Tue, 15 Apr 2025 11:00:38 -0000
+Message-Id: <174471483854.2293220.8665515564824335203@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/utils/util-linux/util-linux
 user: kzak
 changes:
   - ref: refs/heads/stable/v2.41
-    old: 9d4df7905ec03c3ea6e9bdf0aaa91e862168d29a
-    new: f59b47d44ecef8a7697d5e1cbfa2038a11a11373
+    old: f59b47d44ecef8a7697d5e1cbfa2038a11a11373
+    new: fa3aeb51e14190ecc084c1ba03037fc2a9403343
     log: |
-         f59b47d44ecef8a7697d5e1cbfa2038a11a11373 libuuid: fix uuid_time on macOS without attribute((alias))
+         616f4ecea6172814e87aebe191903d607b65e76b meson: remove tinfo dependency from 'more'
+         fa3aeb51e14190ecc084c1ba03037fc2a9403343 meson: add feature for translated documentation
          
