@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============6375553068794567033=="
+Content-Type: multipart/mixed; boundary="===============1748690996757415838=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 15 Apr 2025 20:10:59 -0000
-Message-Id: <174474785962.2789883.17953384427654158345@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 15 Apr 2025 20:11:03 -0000
+Message-Id: <174474786306.2790029.5448795690618988341@gitolite.kernel.org>
 
---===============6375553068794567033==
+--===============1748690996757415838==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.15
+  - ref: refs/heads/spi-6.15
     old: 36ff6c3f5084f2dbb6cd89d15b78cf734e9abfa6
     new: 21f4314e66ed8d40b2ee24185d1a06a07a512eb1
     log: |
@@ -24,28 +24,28 @@ changes:
          21f4314e66ed8d40b2ee24185d1a06a07a512eb1 spi: tegra210-quad: add rate limiting and simplify timeout error message
          
 
---===============6375553068794567033==
+--===============1748690996757415838==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1744747888 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1744747857-4c6f3df357f06c51844ae57ea970b5fdca8b9c71
+pusher C3F436CA30F5D8EB 1744747891 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1744747860-4a1358d9e5d4ee6f6d997fd0530f21b14f7d9d5a
 
-36ff6c3f5084f2dbb6cd89d15b78cf734e9abfa6 21f4314e66ed8d40b2ee24185d1a06a07a512eb1 refs/heads/for-6.15
+36ff6c3f5084f2dbb6cd89d15b78cf734e9abfa6 21f4314e66ed8d40b2ee24185d1a06a07a512eb1 refs/heads/spi-6.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmf+vXAACgkQJNaLcl1U
-h9DKOQf/WroEiyHrbB6MjZPCxBs/AykHUdWyOYoNi3eHlEZoxDH8Zot8F3zzO3/f
-2LJ8jCDDApLrvZcrtfvnEEVlVHPEIHG9eLlz4HlXnYoRx3vgxjYBm58GoSArxroB
-2KkY+qErjCjcHRnCMTgrzCUJ5PLPTVuU3WT/570HAF/1jWvZ8pwhQQYudX3gV8hm
-6AR2Kh45ad/uQfo8o5dQovOZQUljxp98epzZXc3FM756sPgQnapuZxZLQOeoMFNw
-akTgR58XiGDqnmVWmPQ7bDgB9FTK1MrDkhkppc3nqEyZQ+1+rinYY528XyZoRdKH
-Jus+96gN085jh+4EzXtHZQIKEE10sw==
-=zCWb
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmf+vXMACgkQJNaLcl1U
+h9Dllwf/bAifAdt/L3zuD5J8ueJ4ffVp47/VIRFtBMq2eEzhBee/xeDvvlEak1kG
+BEKk05RQLERTg9U+HydMypu4Ocvz5Xq50OjgzpHDs5hSNEL7bzVxt3EuWQHTbGGZ
+vdJu9wyFLbCV5UC//T/dXGq/tmWVHFN94P3Sg7TP9rZhDxY5dF2fTGs+H62Zbxot
+cAR8T9nmEzqZsoIsF5qE/5IR4mhpnd0lUU3A+G2el09BKuu0jMsvOyKWP1I2yVyr
+92oNlcj39maGWLPYsEnt1MeY7C9tqmYhExFd8X6UFYKjoxqya+jC+Rkd08YTurd/
+D4MI6nPx+VVNOfLz2bLZMEwH29qZ+g==
+=yz8/
 -----END PGP SIGNATURE-----
 
---===============6375553068794567033==--
+--===============1748690996757415838==--
