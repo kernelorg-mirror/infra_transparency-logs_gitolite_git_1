@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6891104461136527711=="
+Content-Type: multipart/mixed; boundary="===============3718670648316735487=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 15 Apr 2025 14:30:24 -0000
-Message-Id: <174472742417.2489937.88234651036603450@gitolite.kernel.org>
+Date: Tue, 15 Apr 2025 14:30:26 -0000
+Message-Id: <174472742672.2490149.17376843571688588440@gitolite.kernel.org>
 
---===============6891104461136527711==
+--===============3718670648316735487==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,30 +15,32 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/100GbE
-    old: 39aa687a849489897a15cd8a2d8a4b513def6237
+  - ref: refs/heads/200GbE
+    old: b65999e7238e6f2a48dc77c8c2109c48318ff41b
     new: e8a1bd8344054ce27bebf59f48e3f6bc10bc419b
-    log: revlist-39aa687a8494-e8a1bd834405.txt
+    log: revlist-b65999e7238e-e8a1bd834405.txt
 
---===============6891104461136527711==
+--===============3718670648316735487==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-39aa687a8494-e8a1bd834405.txt
+Content-Disposition: attachment; filename=revlist-b65999e7238e-e8a1bd834405.txt
 
-faeefc173be40512341b102cf1568aa0b6571acd sock: Correct error checking condition for (assign|release)_proto_idx()
-ba5560e53dacefddf8c47802b7a30b2e53afdcb8 net: phy: air_en8811h: Add clk provider for CKO pin
-b2bdce7adc9027ae25d3dd864a58c435bcfcabac selftest: net: Remove DCCP bits.
-2a63dd0edf388802074f1d4d6b588a3b4c380688 net: Retire DCCP socket.
-22d6c9eebf2e68e6ab831ded37daaa83daff6bb8 net: Unexport shared functions for DCCP.
-235bd9d21fcdf07dd125daa3e60ab64f8aefb927 tcp: Rename tcp_or_dccp_get_hashinfo().
-8bb3212be4b45f7a6089e45dda7dfe9abcee4d65 Merge branch 'net-retire-dccp-socket'
-b4916f67902e2ae1dc8e37dfa45e8894ad2f8921 net: airoha: Add l2_flows rhashtable
-cd53f622611f9a6dd83b858c85448dd3568b67ec net: airoha: Add L2 hw acceleration support
-da1cd04bf1ac36139718ded3b64acbf89464874c Merge branch 'add-l2-hw-acceleration-for-airoha_eth-driver'
-e5566162af8b9690e096d2e6089e4ed955a0d13d net: phy: mediatek: permit to compile test GE SOC PHY driver
-6a325aed130bb68790e765f923e76ec5669d2da7 net: phy: mediatek: add Airoha PHY ID to SoC driver
-b65999e7238e6f2a48dc77c8c2109c48318ff41b net: hsr: sync hw addr of slave2 according to slave1 hw addr on PRP
+a808691df39b52cd9db861b118e88e18b63e2299 ice: fix check for existing switch rule
+4d5a1c4e6d49e1a521c97c991d1aa81702f4c3d9 ice: do not add LLDP-specific filter if not necessary
+2296345416b02aa9a7216bfec2725948f034feff ice: receive LLDP on trusted VFs
+5787179c5183c99d9d2d49818186d43c49d6cc04 ice: remove headers argument from ice_tc_count_lkups
+40f42dc1cbb6b5841eb350fc81a5c26f9aa5b420 ice: support egress drop rules on PF
+517f7a08ca5fa82dc1d9e4c153f2dc93dc61a20f ice: enable LLDP TX for VFs through tc
+1e05c5a05d0d91085f2c0cca8a038ee5251a99cc ice: remove SW side band access workaround for E825
+1fd9c91f7e8f2e0d91043e09f3b61c6783d75e5c ice: refactor ice_sbq_msg_dev enum
+e2193f9f9ec989d7d3e5ff1fd96f71abc4426fc5 ice: enable timesync operation on 2xNAC E825 devices
+6cb10c063d6c2b4ae659f8221f4dc70343185319 ice: improve error message for insufficient filter space
+fee4a79a12240af90283034709518296544a9039 ice: make const read-only array dflt_rules static
+015bac5daca978448f2671478c553ce1f300c21e i40e: fix MMIO write access to an invalid page in i40e_clear_hw
+cdcb3804eeda24d588348bbab6766cf14fddbeaa ixgbe: Fix unreachable retry logic in combined and byte I2C write functions
+f9c961efb0f44b4319e73a3c40e831db2de4d074 igc: enable HW vlan tag insertion/stripping by default
+39aa687a849489897a15cd8a2d8a4b513def6237 net: e1000e: convert to ndo_hwtstamp_get() and ndo_hwtstamp_set()
 c26c192c3d486a2a7d83d254bae294c2f8f50abf udp: properly deal with xfrm encap and ADDRFORM
 097f171f98289cf737437599c40b0d1e81266e9e net: convert dev->rtnl_link_state to a bool
 81e92f4fb825b08d63641656f1510f38ad07390b net: pktgen: fix code style (ERROR: "foo * bar" should be "foo *bar")
@@ -134,4 +136,4 @@ c3b904c6dd814507c70c2c5c24b3ba359ff41d0a net: dsa: mt7530: move remaining MIB co
 8c9b406ff470a8346232eec979dc84f518aabfd9 tipc: Removing deprecated strncpy()
 e8a1bd8344054ce27bebf59f48e3f6bc10bc419b net: ncsi: Fix GCPS 64-bit member variables
 
---===============6891104461136527711==--
+--===============3718670648316735487==--
