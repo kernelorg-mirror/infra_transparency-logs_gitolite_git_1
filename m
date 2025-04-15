@@ -1,24 +1,44 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 15 Apr 2025 09:26:50 -0000
-Message-Id: <174470921015.2214394.1652108795836217312@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6264107227106582824=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Tue, 15 Apr 2025 09:47:52 -0000
+Message-Id: <174471047253.2230756.4448042397704346482@gitolite.kernel.org>
+
+--===============6264107227106582824==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/main
-    old: 24e31e4747698dc50d408f0082d7eb9b9520d2f6
-    new: 0f2be57686c7e61b65158a09f0036d1be1ed5175
-    log: |
-         9f61eb2d185b06d49ef8c25af994d6fc571433cc eth: fbnic: add locking support for hw stats
-         8f20a2bfa4b7a2ddfd4890ca220012cbe263c97f eth: fbnic: add coverage for hw queue stats
-         986c63a0295e498b2afb38c6e969a3e0b41455d6 eth: fbnic: add coverage for RXB stats
-         5f8bd2ce8269b055accc1653609186c9c3beb102 eth: fbnic: add support for TMI stats
-         f2957147ae7a1780217bb2f7b29f4d9ae14ef4b8 eth: fbnic: add support for TTI HW stats
-         0f2be57686c7e61b65158a09f0036d1be1ed5175 Merge branch 'eth-fbnic-extend-hardware-stats-coverage'
-         
+  - ref: refs/heads/hwmon-next
+    old: 6003bf4bb4bb120338295d54742801743752bfe3
+    new: 8f47f2d1355a3846d0ac2b1e05b3bb8aaf3a6c2f
+    log: revlist-6003bf4bb4bb-8f47f2d1355a.txt
+
+--===============6264107227106582824==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-6003bf4bb4bb-8f47f2d1355a.txt
+
+6b7615385e10c92bb4b98abbdfea45f47db79123 hwmon: (ltc2992) Use new GPIO line value setter callbacks
+04fcd2cefe2b6bbe97d0489075783b51c7f50afe hwmon: (pmbus/ucd9000) Use new GPIO line value setter callbacks
+4d06d5b476d3bf003636d61b8eba122b3f46c8c9 hwmon: (pmbus/max34440) Fix support for max34451
+d7219afe85c856090a43ce1974bdc5a094cbbb15 hwmon: (pmbus/max34440) Add support for ADPM12160
+d3223f800e3df069985994239a65de90bc80f124 hwmon: (pmbus) Do not set regulators_node for single-channel chips
+862b2cb2caccfb721deb46354e642cda12cd69e9 hwmon: (max6639) Allow setting target RPM
+0da7a983788a481a343a051ddbc83e3ba588fe60 hwmon: (max34451) Work around lost page
+35d94a2e80d904eb6748c53bdc28157ef4c077e1 hwmon: (asus-ec-sensors) sort sensor definition arrays
+5f0993c7ba326baa88ccbe5306e8ee0af14dab73 hwmon: (ina2xx) make regulator 'vs' support optional
+df5bec4d57f1a62901815beba16e897db945db23 hwmon: (gpio-fan) Add regulator support
+c84e2a7f44a421f3486b6451c7db746b01b75729 hwmon: Add KEBA battery monitoring controller support
+1e51a7b790f0f279af40b2b44d9dfca96c615f84 hwmon: (pwm-fan) disable threaded interrupts
+7e40b990f73dd2f184572b100bfa40318ff3f025 hwmon: (xgene-hwmon) Simplify PCC shared memory region handling
+8f47f2d1355a3846d0ac2b1e05b3bb8aaf3a6c2f hwmon: (lm90) Use to_delayed_work()
+
+--===============6264107227106582824==--
