@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8524805303242101298=="
+Content-Type: multipart/mixed; boundary="===============1203395540236553066=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Tue, 15 Apr 2025 16:11:48 -0000
-Message-Id: <174473350894.2584794.13662242163470816041@gitolite.kernel.org>
+Date: Tue, 15 Apr 2025 16:15:39 -0000
+Message-Id: <174473373930.2588599.2742895232395946751@gitolite.kernel.org>
 
---===============8524805303242101298==
+--===============1203395540236553066==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/driver-core-linus
-    old: 18daa52418e7e4629ed1703b64777294209d2622
-    new: 1ae5e4c0626d6954114d9725990ac9c498f3b1ab
+    old: 1ae5e4c0626d6954114d9725990ac9c498f3b1ab
+    new: bc2c46426f2d95e58c82f394531afdd034c8706c
     log: |
-         10076ae01388caffec3b90abcce05f24a9e4b15e drivers/base: Extend documentation with preferred way to use auxbus
-         a8e858e29955175ab7587190d449fa6a566d90e5 drivers/base: Add myself as auxiliary bus reviewer
-         1ae5e4c0626d6954114d9725990ac9c498f3b1ab device property: Add a note to the fwnode.h
+         bc2c46426f2d95e58c82f394531afdd034c8706c software node: Prevent link creation failure from causing kobj reference count imbalance
          
 
---===============8524805303242101298==
+--===============1203395540236553066==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1744733531 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1744733766 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1744733501-9d02c5f6f6f04f86f5d9be6d9470753c41ff8bc2
+nonce 1744733736-4c97b7b866ff152e168b9c4a301e4c19c27bd324
 
-18daa52418e7e4629ed1703b64777294209d2622 1ae5e4c0626d6954114d9725990ac9c498f3b1ab refs/heads/driver-core-linus
+1ae5e4c0626d6954114d9725990ac9c498f3b1ab bc2c46426f2d95e58c82f394531afdd034c8706c refs/heads/driver-core-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmf+hVwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fsgP/0ashCNaaModB3T5EMY9
-sUprHwlqUj5O1TTwATTo275Feuua8pAAzhaeZYcZx10oogmo1zOyBOIeuAF8P3tN
-VvOOJQkFRK7qVVS7F6b9ARHOhnbWFrWmI2w6K++QXMM6a18+lLVQMsh7Mm08TCjy
-qacn/m7JOXAfgieAvQcENWgHIKCFuQeNga/eLCC6cGjJpwqDPiYp7tUwJE0JZAn+
-F/v/7FWHqXewMlc8dB1wYFYMQ0W6KHcrgFYzDJW5DCYYnuTQ9O4igsuKGuAHuIao
-udqpY4FmR6wbpor0PnU2uCWhceMQQVmDSQPZn1Z6BbkxKt7MqrFwv3N4XYiOpI8v
-ujtgi7j68ICOnsYYu6INK0cPsafBONHia58Yh8GTGPzAvoKTTgqui4k34kArCWjn
-mxjr90ArhTTzD3doj98wvDN9eeJIaT1Hc2AP4Gt/Mxsv2U/9lwQNyIrB+IvP5tI1
-hWoeSguEQf2YXYKdTZlcWshxvh9j3Dy/4n8O18lLsprohc8CFqDaG0pwDHbNjJq5
-RucQJPzCu2M5AqnlUQIOIxbIe2cn1ccpHHkQD1Hpscf7uJ/mvcwukTogqMIwlZ5w
-jCarsxITPzpG5+0bDirSTRk65dxSaDxd+mE6Vdcj/CjTGvusmisOM6rjFOcHZSc2
-90bNizR6Rujn3w2AxfArCDWd
-=0HNS
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmf+hkYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+C4gP/ReImLirZzggqXYNagBk
+gzWCQBFkXb3DN+xOVzkIcoj2km984AewytDVZ6Cb/VC4JTcaM+pFgksvjDsww5db
+k5aBxsKF53s4UFkeEzbY3nYKJTX4CIms3VqQfjdqvN3PyyA90HMKy5nmn7doC8r4
+t6Nb9IzFxQwmdxZ8auNKMpvn7MHHk4wyXbZfuADtSYVbFjxAYtE0U/GTGLeuR3Fx
+wtYDZhV80h6nijN997Dx8EhN+H4GWyaM84cPwQTIPaOKLocMDlFhQQm1YupSvVdY
+FDnH5Ckj1I1oSCGE8fLv1JO+kLQ4II/wyidIMJmhBD9oeRjbX+Zr3aIMZltsRLG2
+NotG38fhyt5kgZgCKcVu/Mq2sG5DRWW5Erodyq4bzk/bMiR6uenVs6/hdhet3JAD
+3qldmmLNxMeaRphf6It5coL2prcado1kv/9o6WlNh0DuNzZLGLR0v3dZ0BUesBZV
+iXiHsmOlXDJQwHVsP/k+EYlp2zKrWnjUjxg5loltXjYflBwsekVHYl/UdEpDshs/
+A2gLkn8vj3DzKDebB31XDagaLysIqyc37YdKQb6wlmSFOWBQMCp3dKyCAnlaXUJf
+sdK5vnlvswsGVSpZHxshiwV3GtyCWxEqpeSMVPOIf2zfFfP37sabHtGxO78bysIH
+qTKCoPYNF2K2l/09hSVIrgqU
+=pmFS
 -----END PGP SIGNATURE-----
 
---===============8524805303242101298==--
+--===============1203395540236553066==--
