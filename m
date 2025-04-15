@@ -1,46 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============2810946740311485697=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Tue, 15 Apr 2025 13:54:40 -0000
-Message-Id: <174472528033.2452864.625739336110423133@gitolite.kernel.org>
-
---===============2810946740311485697==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 15 Apr 2025 14:03:11 -0000
+Message-Id: <174472579137.2461240.7454024220888519230@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
   - ref: refs/heads/main
-    old: 6a006cef10cebfaa282100a81cb45ad3a9212721
-    new: 2f411c10e4570d03426d3cb095471aa1120114ab
-    log: revlist-6a006cef10ce-2f411c10e457.txt
-
---===============2810946740311485697==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6a006cef10ce-2f411c10e457.txt
-
-452e4fc378dd9c3bd736ece97dd6ae9853749a24 intel: avs: Update topology file for I2S Dialog 7219
-53958b3945c63d97be6792f99dcc95d0c1a61c09 intel: avs: Update topology file for Digital Microphone Array
-1e53e2242ab91369af822f732da34d495a1198b8 intel: avs: Update topology file for HDMI codecs
-c98ceb499c00e1444e268705b485d8966b1476c6 intel: avs: Update topology file for HDAudio codecs
-1593be09f0a38c5dd907b6a1abd73cb99954ee40 intel: avs: Update topology file for I2S Maxim 98357a
-ba5cccdd0edbbbfd2a8b238698b51483ff128daf intel: avs: Update topology file for I2S Maxim 98373
-607edf958ba4a2f611ed1de04269b40560c74cb7 intel: avs: Update topology file for I2S Maxim 98927
-31efaf10d5dd6e486f587b554a59be9cd9cdba60 intel: avs: Update topology file for I2S Nuvoton 8825
-28eecfdfd508ee53444229865872b15fd9efcb2e intel: avs: Update topology file for I2S Realtek 274
-b78fe3bcfd23236b6e3a41a79c1b10324289f074 intel: avs: Update topology file for I2S Realtek 286
-e5b81bae0be8eab960d0a86aa2cd2211dce797c7 intel: avs: Update topology file for I2S Realtek 298
-03939aed99b0c6b4c88b3e13e862bf5fc3bb4db5 intel: avs: Update topology file for I2S Realtek 5514
-754412d59cb6902189d1af45334242cbc3b399c4 intel: avs: Update topology file for I2S Realtek 5640
-475e9e00de7f87b41e1fe1ebe2a1cbe034eb239d intel: avs: Update topology file for I2S Realtek 5663
-75a26a64e907139c2979852003fe88cdb62c103c intel: avs: Update topology file for I2S Analog Devices 4567
-2f411c10e4570d03426d3cb095471aa1120114ab Merge branch 'intel-avs' into 'main'
-
---===============2810946740311485697==--
+    old: 8c941f14a694b40a91d381e77bcd334622aa7196
+    new: 65d91192aa66f05710cfddf6a14b5a25ee554dba
+    log: |
+         8e404ad95d2c10c261e2ef6992c7c12dde03df0e igc: fix PTM cycle trigger logic
+         714cd033da6fea4cf54a11b3cfd070afde3f31df igc: increase wait time before retrying PTM
+         cd7f7328d691937102732f39f97ead35b15bf803 igc: move ktime snapshot into PTM retry loop
+         26a3910afd111f7c1a96dace6dc02f3225063896 igc: handle the IGC_PTP_ENABLED flag correctly
+         1f025759ba394dd53e434d2668cb0597886d9b69 igc: cleanup PTP module if probe fails
+         1a931c4f5e6862e61a4b130cb76b422e1415f644 igc: add lock preventing multiple simultaneous PTM transactions
+         f0433eea468810aebd61d0b9d095e9acd6bea2ed net: don't mix device locking in dev_close_many() calls
+         747fb8413aaa36e4c988d45c4fe20d4c2b0778cd netlink: specs: ovs_vport: align with C codegen capabilities
+         186e5888fdb3a16a64e0e6c49d7eac4146a9bb1a Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+         65d91192aa66f05710cfddf6a14b5a25ee554dba net: openvswitch: fix nested key length validation in the set() action
+         
