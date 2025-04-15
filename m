@@ -1,56 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============1456710298134119497=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 15 Apr 2025 14:37:59 -0000
-Message-Id: <174472787953.2497542.12827272131203178725@gitolite.kernel.org>
-
---===============1456710298134119497==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Tue, 15 Apr 2025 14:39:07 -0000
+Message-Id: <174472794718.2498316.16810802270290436138@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/staging-testing
-    old: 72ba314072a66774d5a90141ec99128c6bab033a
-    new: 94e71cd4f08a606131970aff82c023690c608c64
+  - ref: refs/heads/ath-next
+    old: f5755c23ed8a4603194f6425828a2760f814e117
+    new: 176f3009ae598d0523b267db319fe16f69577231
     log: |
-         94e71cd4f08a606131970aff82c023690c608c64 staging: gpib: agilent_82357a uses completion
+         dad6de9070a8dfc8268ed7c1684b81d1e2eeaa97 wifi: ath12k: introduce ath12k_fw_feature_supported()
+         6b85b83e46516ce38ce82dd2f1c4e40d183aa311 wifi: ath12k: use fw_features only when it is valid
+         32f7b19668bd2894f1a236580c2132fc4b9f4449 wifi: ath12k: support MLO as well if single_chip_mlo_support flag is set
+         0cd46d1f36ced0e61bd6d8cdce7c9eec9563d294 wifi: ath12k: identify assoc link vif in station mode
+         ead6d41116b81098061c878d9bfc0b1a6c629090 wifi: ath12k: make assoc link associate first
+         3aba3a1422656850dd1f87843ca34acd379a29ce wifi: ath12k: group REO queue buffer parameters together
+         3b9cbce6fdd3d511107e7eaf27a0f1e0d73038ea wifi: ath12k: alloc REO queue per station
+         bcdf2620f95752af542c18ee81a83231d4993953 wifi: ath12k: don't skip non-primary links for WCN7850
+         176f3009ae598d0523b267db319fe16f69577231 wifi: ath12k: support 2 channels for single pdev device
          
-
---===============1456710298134119497==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1744727906 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1744727876-0add8c4091fe2fa61a81b028a3e333b3e4ed8751
-
-72ba314072a66774d5a90141ec99128c6bab033a 94e71cd4f08a606131970aff82c023690c608c64 refs/heads/staging-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmf+b2IbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+H98P/ixyZTkIov4NBUv0sooo
-tC7Leka2eaFysQ+j0mBXSchYYb17G6Z51m8I3vgXSSZg7eN6odEFuM9v0XqeKevZ
-p6iWwaOvUfDRRuagbDY7Yc+Sso9V7VqJSPTnKwdlmD+Qmv7htzU1hRt0LNCwzYjF
-zN2M7by+Zqfy3fqe3lKrc9ny1ouwXg1aJ2dtRuP2M1liH1CqnaGQntwuaM5NKQ9h
-pOnJwdy6LmRfpiC3HV4muNAvzWGY4WB9XzmvCTnrG1fBedxFv/S8dPQCtM6lgxA9
-EcSnLi5TVaFH9PEEqwj0qJEY9sMUlJghKcwJo0/DMh2f9+qnZ/1wE2W3Elv3hWjW
-b6I9mdf/YsWUlDtAD3tDNjGymh0FJmUReuAMC7WGXTm+RcTwagsqMQJgbFsVBttZ
-fGN1/nh029GYJ+YjqMAk9725h7fPeWoFsMyBMQDmHf627cirX93XN7Uep3FiHgwC
-kN+e8i4UI+HJset1KHdZloXGZnRmIEGdr0d4I4sgvUyjThgZXeOoFR4sAx4JiXLm
-T5IcfQ6A6b3TVmeWF5BbtjCgllltPn7Hw7Kwb0at+UbfTfH1x2soeGgPlGBzERhw
-IcNLyVQmVmOHzdzcFrKrm6uaBzZ1xlfM9jSQkhFtsObayxS2snIRWjqvK3M5dKS5
-hdWvYmJE7BKLLw1180m7BphY
-=m4dM
------END PGP SIGNATURE-----
-
---===============1456710298134119497==--
