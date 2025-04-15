@@ -1,49 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============4462459479379938068=="
+Content-Type: multipart/mixed; boundary="===============2621020855861055462=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Tue, 15 Apr 2025 15:14:15 -0000
-Message-Id: <174473005572.2531042.16058709008018916008@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Tue, 15 Apr 2025 15:15:09 -0000
+Message-Id: <174473010912.2533587.6671783666021931393@gitolite.kernel.org>
 
---===============4462459479379938068==
+--===============2621020855861055462==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/nova-gsp
-    old: c7df6bf85bb8b5fdb806536f324dbd0943fd6e7d
-    new: 7d51d803e2769b982ea45c5268a8608e3b2bbd6e
-    log: revlist-c7df6bf85bb8-7d51d803e276.txt
+  - ref: refs/heads/usb-testing
+    old: 153874010354d050f62f8ae25cbb960c17633dc5
+    new: ba6474f19fd1b91c172f6877b1af094e3720321e
+    log: |
+         8176dd6e1cf4adff6422a0e3a335abef3f0256f3 ALSA: usb-audio: qcom: delete a stray tab
+         ba6474f19fd1b91c172f6877b1af094e3720321e ASoC: qcom: qdsp6: Set error code in q6usb_hw_params()
+         
 
---===============4462459479379938068==
+--===============2621020855861055462==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c7df6bf85bb8-7d51d803e276.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-d3e467590e4ff6cf0548407ca9d77b2a89cf810c gpu: nova-core: add basic timer device
-b874ce4bba4da25468551cf1df108423fdc9c2a0 [WIP] gpu: nova-core: add devinit
-9cdfe2b803f60695888c0b6641fe3a4e6d58ed73 [WIP] gpu: nova-core: add dma
-9cc571e74cf94073deb265ead0bda88e36912ff8 gpu: nova-core: add register_rel!() macro
-ce8eee17fb4e5c14130a8fe1ee5719ba7bb3062a [WIP] add log delimiter and apparently needed register write
-3c1a78874e1c90322ffde6f10bc03493e2ad8560 [WIP] gpu: nova-core: add falcon register definitions and probe code
-30db5ce24ba84b81a8c43cf298fb93bc6d2eda84 [WIP] add base firmware support
-42153614566a2574c5b75abc691cfb7f9cb95b8d gpu: nova-core: add nvfw definitions for 570.133.07
-0f3c4415732f19f4c77e41074b52f860439dbab8 gpu: nova-core: patch Booter firmware
-f7fa494d81da686ed924f31bb8600f87e6ce56ea gpu: nova-core: load and run fwsec-frts
-2f273d1ef29044982eeb3704248f9f681f7e8973 [WIP] add riscv firmware
-e70c680f56759e051dc3e74d6cf67cb7fd3783b8 boot moar stuff
-3ab8f67362e7804441342ae214ad312a405d6549 [DO NOT UPSTREAM] nova-core: add elf module from Dave
-57f0f5d1dbfb48487636d38cf3f84faf4f00e6dc [WIP] firmware: parse GSP firmware
-8daf475324a3150bc1d7b61f529fda7ada4b0187 [WIP] GSP module
-1f990e4e02fd9f0d03b52e253cbfc395ad9ba81b joel: Update .gitignore
-8e2e18eea229b871311b1e12ffd0962f785a8c6e joel: Add a defconfig that works for me
-f849ee1626f00aad458aa86f7f38e3a438d24e75 joel: Remove possible build errors by commenting unused deadcode
-7d51d803e2769b982ea45c5268a8608e3b2bbd6e nova-core: Add support for VBIOS ucode extraction for boot
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1744730136 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1744730105-c7d599e25f9a2c9c3180c801a901f9f3acdf06c5
 
---===============4462459479379938068==--
+153874010354d050f62f8ae25cbb960c17633dc5 ba6474f19fd1b91c172f6877b1af094e3720321e refs/heads/usb-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmf+eBgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lhAQAKyBxZwedA3V4q+IV+vc
+9+3I5cRZBwwA45gK+kNmbCqo6WahnWpZKXEoQ1fLoLzOmai8Kb6wHhaK6heDWUSA
+59QurX17T/cGbduBbZlaOrFtyHxJvXJyyQROqNbADrrBAAz+dF/tyXr4gvFFcyzh
+ybYg/J9Y0sjWIdxeSAUaBXe8xrzNPwFInJS2SwBTWhY7oDmqfpDkXXqkqf3oxV/1
+RsLrYe2Dv/eIngq47NhVRMyH+0kAcmiefVpcpP0UVTpL27oG9Uh3iiHuREwSs31o
+ZXfGkztPdywcBsM4zyV4jUeAlKZfKNTHzYubLJX5ylOk0guggtP0I8unLhKLSebd
+9rlor9e6Sivtb1Z93gGaORl6uYLinsvrLiH3dRdeSUdRZe2c1KcsLs5zqy7FzF7X
+8HkFlznB8GzFW5I/X5mW2tvQT4E/8zRmSk7Pt2araxlRFLqL/1B6RlPGDBmltYTO
+mMsr8zxvPpPYRlUqtTqPhPtfmnPMBhFj0V4HAd+EoVtobMsUWPpM938fEtTuae1v
+mIeeL6+yREQiyLMPUs45vBhfwWD5oYowQNv+nF/zQVvvoAmvMPhZjjyiGaXsux9O
+AKd4FyejkFtQtsd02CLU/iH1mvom18lwLSa9haJKkIVaNZTdoEYbrxLi2tCg7AzG
+ybGReYEZWsEq7OgJ83dbhE+4
+=CamY
+-----END PGP SIGNATURE-----
+
+--===============2621020855861055462==--
