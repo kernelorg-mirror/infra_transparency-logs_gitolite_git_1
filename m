@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1907610958880468937=="
+Content-Type: multipart/mixed; boundary="===============2027333454710530789=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 15 Apr 2025 14:46:32 -0000
-Message-Id: <174472839276.2506993.3507156742170821471@gitolite.kernel.org>
+Date: Tue, 15 Apr 2025 14:50:01 -0000
+Message-Id: <174472860146.2509370.15069365646959019535@gitolite.kernel.org>
 
---===============1907610958880468937==
+--===============2027333454710530789==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,66 +17,63 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 930ce1959c2a05029128ce7d82c37174cb821261
-    new: 132ea5875df7c6cc35930e12d21a5c1a46d0c872
-    log: revlist-930ce1959c2a-132ea5875df7.txt
+    old: 132ea5875df7c6cc35930e12d21a5c1a46d0c872
+    new: 1adf3edaa0ce52eed664fff9102d0f7afe57406e
+    log: revlist-132ea5875df7-1adf3edaa0ce.txt
 
---===============1907610958880468937==
+--===============2027333454710530789==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1744728419 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1744728625 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1744728389-6f75d7f5f2e761f7756a49a54b368d7985745f78
+nonce 1744728595-15b8cb3749a2ac80b78d5bf70e28db0124dc539e
 
-930ce1959c2a05029128ce7d82c37174cb821261 132ea5875df7c6cc35930e12d21a5c1a46d0c872 refs/heads/staging-testing
+132ea5875df7c6cc35930e12d21a5c1a46d0c872 1adf3edaa0ce52eed664fff9102d0f7afe57406e refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmf+cWMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+floP+QH/BmSQAsLPXXZjKmYX
-fxb0486slGRy5fz6doLVKracdvkpwQ6cT55lcfDV106STAm3Qlglp1yf+rXeNZYA
-vJBpSE8nrLIDL9q+lCSkEzjozwSE5JvGN6w1J3/GLs+PWHPABUF0CA2NeY37mkE0
-z9Y/JMKdLmP1cu9zGGn9c+I/vGt7wTg+B6X868cY5x5z5wN/YdqGue0es9dRLuO1
-tWw4bUFCxx6wmz9K4mdybdEJbl4a+0QBpRX7ImB+T5e6APS7P7Hxgvs4HSiqAEbC
-a5aU5A0PTc89XBbuiA/Y5SyoKiuplP1A7wS+lLBCsuv7UU4UTRm1d0X4kDBbVQSe
-5MRFYdB04T8Jjg9yj3CZyc+Ebgmwk8tC/trRnHXSMSU2hfaAopkqNRLwdetuMsQh
-S7PhR2DgLP3D2uoFJjchcxFpfTAvsc7q25TyfntMzpn/BfXx6Yf/hHA1aUAMicli
-CmlvTOokMvDBD3VgCQHkSeNhS9oXrBmG8cBVkajqSrCMMPwXm+Rvucx1Mu8PEQ16
-mLHAEQqqjZY45EUKsbHTdJ72BrFUU7B7vU9z3pHB5NievVTBTiA3a993smZ4ZTDA
-dBQWteKc/7GUNgCT+Cvf/Dwl1BCU7qE8slX5HKPhZnwAHegXMtSrIV5boR6wHReb
-lgMMk/siG5DdmQvCBw2sYNT+
-=Z0ov
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmf+cjEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1nMP/ii383C3pyPljP+3UCQJ
+OeJNViqEdzyFsOFQUf65dwC97w/FRLiguw+oh1lnRfAdrmNgLNb512AyLUvVRIOt
+EwKm1g+Xq13XmrgSlvg20ObTNf2IXUvW72sth7ZL75aYb3b2EbVFmp4MTHtWdCH5
++xRL8hnQ4N98B7hy76Bm2n89ZS+fd1xLBSiLCaBfqQ5OW1lokehTQh6uPeMt94Xf
+veVB1mzMCOoj/jBHupCZ3lxYuG6lo5+BkglehqmnaJKM53W5npPSl7Rd2xTmK/dM
+csKr1dmISRQ8Md1L1Wf5iHtYcBY0HNgQkCAjqSHBIQuYUn4iWZ80y46g5GReNaXH
+sf+Y5VPRKv2Oh8dE1+Ljwat3iqok8ZxxbXr/mpGA3aVEXYBWVe4NPgryJz0lgiPB
+znm1LPb+7fj37caPL4snVEzbOnJbEc3wMtmAzQeadfkUAxK5cygt1niDjak1OZoI
+XkPNSXNHzhxwItDEC+fNh5emo+qxWR89WXzX/0sR8vRoS4Ajmfmp3HBZ3LYLXF+/
+FJ2ASLpnBi4HupBCOHjeNPz5J4kSaleNUx1WTQB89MvFO7Sz3rOfMPxPzsCs9hXE
+9ASGBW+cxDjYs5CVdIbizAAXNPbLrPxGVWpVEz5p1Eq1Zu8duj3EbYJCkLY/pRtZ
+AjeeA+S2JhW438TcnePmgyaK
+=aCe5
 -----END PGP SIGNATURE-----
 
---===============1907610958880468937==
+--===============2027333454710530789==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-930ce1959c2a-132ea5875df7.txt
+Content-Disposition: attachment; filename=revlist-132ea5875df7-1adf3edaa0ce.txt
 
-6215fb3d44998bde8c260931e2da6e77f5253772 staging: gpib: Using struct gpib_board_type_ioctl
-28396c51c5d18180b46e168062b8b59efe69bb05 staging: gpib: Using struct gpib_read_write_ioctl
-6e5f0402c87e7033120868c44b31925a89945e79 staging: gpib: Using struct gpib_open_dev_ioctl
-2e9a95ddffc60c567670ca5b54db1557d26d68a2 staging: gpib: Using struct gpib_close_dev_ioctl
-262040faa5e9522848f6c7aa9d772a6f1995f85d staging: gpib: Using struct gpib_serial_poll_ioctl
-7e9f21bb1be8a96df31a61fc4fd1a438f0993483 staging: gpib: Using struct gpib_eos_ioctl
-15738cb610430ea52f3eb8ccc994fd3bc02c91f6 staging: gpib: Using struct gpib_wait_ioctl
-7e17963fa99086e809d70191417aa9ef77f1db58 staging: gpib: Using struct gpib_online_ioctl
-770b63fd93739d5ba48241faa8ecb8cf716ad95e staging: gpib: Using struct gpib_spoll_bytes_ioctl
-c39eabbffeca621f54bb5a4477a43fdf9e253e47 staging: gpib: Using struct gpib_board_info_ioctl
-4c2170378cb426e02d398e1beabeb18b806df6a9 staging: gpib: Using struct gpib_select_pci_ioctl
-419a3433f03cb1bedbdb2e14ad7a3eee4deed4bf staging: gpib: Using struct gpib_ppoll_config_ioctl`
-faebdfab317c73581fbd0853ccd6467e2385c311 staging: gpib: Using struct gpib_pad_ioctl
-d178bc14c9281f616ef98f76b4859928e81dcece staging: gpib: Using struct gpib_sad_ioctl
-1b462bf26c1e92e6abbe60ec26bc50368306642a staging: gpib: Using gpib_select_device_path_ioctl
-ad368b53ac0999a4861899148a60606aad548d0d staging: gpib: Using struct gpib_request_service2
-8cc35955b5ab71e3cf8a39204be3a724f72c5487 staging: gpib: event_ioctl_t now short
-6856bb17cf6fe0007f66c61280def9c00db71869 staging: gpib: rsc_ioctl_t now int
-7c3a08ffb07e89373d6f461952d14b4c10a6fcf2 staging: gpib: t1_delay_ioctl_t now unsigned int
-9979a80cf5d0d54b202d44bbb8ebf2d2f4137043 staging: gpib: autospoll_ioctl_t now short
-132ea5875df7c6cc35930e12d21a5c1a46d0c872 staging: gpib: local_ppoll_mode_ioctl_t now short
+51ab134daf5b9b6be9b9c0d19f7963e971497c63 staging: gpib: eastwood: Remove unnecessary print function dev_err()
+1269b01cdf3fd3727af2e6b24e6eb61fc750cdb9 staging: gpib: fmh_gpib: Remove unnecessary print function dev_err()
+86796b69c8c2048fe1e5745ed20e8cc7976bf0c3 staging: gpib: fmh_gpib: Remove unnecessary .owner assignment
+a1c7fc159583f7d30844fb774357c7cb90b09d84 staging: gpib: agilent_82357a: fixes multiline comments style
+55fae2fb503fb1345c264a451bf61dd39ebfd2d4 staging: gpib: cb7210: fixes multiline comments style
+79d1aa8cb7695947f95a8980fdf9df2f30731c60 staging: gpib: common: fixes multiline comments style
+073b54f342be3ea8fadcc6e416edf1e42ffe5de2 staging: gpib: eastwood: fixes multiline comments style
+6008c89dbdfc867519ee5530522a5802959cd3be staging: gpib: fmh_gpib: fixes multiline comments style
+c35371bc08e81a1900e3e085675bc5e75f0d28b0 staging: gpib: gpio: fixes multiline comments style
+3381060f5ad96cc3aacdea7cd599d80c7a6755eb staging: gpib: hp_82335: fixes multiline comments style
+c899f4586b1f8c8c3b3b9ae403d7b9bc4d888da8 staging: gpib: hp_82341: fixes multiline comments style
+2de3fa2c3f4e25b1d7feb567e108a255d8d6b5c1 staging: gpib: ines: fixes multiline comments style
+9c77850d9d7bee41a30824ea916ac892c45f5944 staging: gpib: lpvo_usb_gpib: fixes multiline comments style
+b5c0bd6b6c4feda1715e756e2bbb58a4f3cee55f staging: gpib: nec7210: fixes multiline comments style
+c22fc80984c8da0da165fbbe2c8d6de1a2e52756 staging: gpib: ni_usb: fixes multiline comments style
+9c95c9d1fac80ede2d3d45eeafd16a658c514b61 staging: gpib: pc2: fixes multiline comments style
+d7814813ed9d61d38a76cfa70ffa09f47c5c1efa staging: gpib: tms9914: fixes multiline comments style
+1adf3edaa0ce52eed664fff9102d0f7afe57406e staging: gpib: tnt4882: fixes multiline comments style
 
---===============1907610958880468937==--
+--===============2027333454710530789==--
