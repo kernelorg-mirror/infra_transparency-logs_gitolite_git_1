@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 15 Apr 2025 20:23:29 -0000
-Message-Id: <174474860991.2802095.2971967084302653478@gitolite.kernel.org>
+Date: Tue, 15 Apr 2025 20:23:33 -0000
+Message-Id: <174474861393.2802372.9213521976053747246@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/20250414_yung_chuan_liao_asoc_skip_the_endpoint_that_doesn_t_present_and
-    old: 4f8ef33dd44a3d1136d3934609b8a43e62aaaa0d
+  - ref: refs/heads/v4_20250415_rf_asoc_add_codec_driver_for_cirrus_logic_cs48l32_dsp
+    old: e2bcbf99d045f6ae3826e39d1ed25978de17cbfe
     new: 0000000000000000000000000000000000000000
