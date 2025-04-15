@@ -1,27 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Tue, 15 Apr 2025 14:39:24 -0000
-Message-Id: <174472796429.2498697.5565454930506192562@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 15 Apr 2025 14:39:59 -0000
+Message-Id: <174472799937.2499657.2747239636206161746@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/pending
-    old: 8b62c167206abf0086aca0334022f2c73cb73ca5
-    new: 176f3009ae598d0523b267db319fe16f69577231
-    log: |
-         dad6de9070a8dfc8268ed7c1684b81d1e2eeaa97 wifi: ath12k: introduce ath12k_fw_feature_supported()
-         6b85b83e46516ce38ce82dd2f1c4e40d183aa311 wifi: ath12k: use fw_features only when it is valid
-         32f7b19668bd2894f1a236580c2132fc4b9f4449 wifi: ath12k: support MLO as well if single_chip_mlo_support flag is set
-         0cd46d1f36ced0e61bd6d8cdce7c9eec9563d294 wifi: ath12k: identify assoc link vif in station mode
-         ead6d41116b81098061c878d9bfc0b1a6c629090 wifi: ath12k: make assoc link associate first
-         3aba3a1422656850dd1f87843ca34acd379a29ce wifi: ath12k: group REO queue buffer parameters together
-         3b9cbce6fdd3d511107e7eaf27a0f1e0d73038ea wifi: ath12k: alloc REO queue per station
-         bcdf2620f95752af542c18ee81a83231d4993953 wifi: ath12k: don't skip non-primary links for WCN7850
-         176f3009ae598d0523b267db319fe16f69577231 wifi: ath12k: support 2 channels for single pdev device
-         
+  - ref: refs/heads/filenMzMId
+    old: 0000000000000000000000000000000000000000
+    new: 51f04358d8c887c5d117440335c7f94285a403f2
+  - ref: refs/heads/v2_20250401_leitao_spi_tegra210_quad_improve_messages_on_pathological_case
+    old: 0000000000000000000000000000000000000000
+    new: 5d284952f06dd21bdfd093a4c29f1c43c126358e
