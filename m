@@ -1,59 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============5759254844431536973=="
+Content-Type: multipart/mixed; boundary="===============8596015580479591512=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 15 Apr 2025 14:22:17 -0000
-Message-Id: <174472693777.2479667.12610628371253876905@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Tue, 15 Apr 2025 14:26:06 -0000
+Message-Id: <174472716653.2483526.15470159272858117863@gitolite.kernel.org>
 
---===============5759254844431536973==
+--===============8596015580479591512==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 44d9b3f584c59a606b521e7274e658d5b866c699
-    new: e9d7748a7468581859d2b85b378135f9688a0aff
+  - ref: refs/heads/review-ilpo-next
+    old: 8c173c39e3474c816bc5e9bb2124e2318a7aad4b
+    new: 981527828c301644bc4014faa9c523e8a5e32a32
     log: |
-         86ce5c0a1dec02e21b4c864b2bc0cc5880a2c13c mei: me: add panther lake H DID
-         c876be906ce7e518d9ef9926478669c151999e69 char: misc: register chrdev region with all possible minors
-         18eb77c75ed01439f96ae5c0f33461eb5134b907 misc: microchip: pci1xxxx: Fix Kernel panic during IRQ handler registration
-         e9d7748a7468581859d2b85b378135f9688a0aff misc: microchip: pci1xxxx: Fix incorrect IRQ status handling during ack
+         981527828c301644bc4014faa9c523e8a5e32a32 platform/mellanox: Rename field to improve code readability
          
 
---===============5759254844431536973==
+--===============8596015580479591512==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1744726965 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1744726934-9270e35b90e44c894ca909af20c5624a2701c2d0
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1744727192 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1744727161-f04cd5a1603ed315877f7adde4ddd7558277485c
 
-44d9b3f584c59a606b521e7274e658d5b866c699 e9d7748a7468581859d2b85b378135f9688a0aff refs/heads/char-misc-linus
+8c173c39e3474c816bc5e9bb2124e2318a7aad4b 981527828c301644bc4014faa9c523e8a5e32a32 refs/heads/review-ilpo-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmf+a7UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+l6AP/0Ik2dB0qpmN00JsYHsx
-Nri1xCrkEVz6HlFbDSEaH206jrMuk2l5DUuWM9NJlSBoBz7YzcxJ581l63urORkM
-RK18b6h4p/osCmX0j6GebLv8xLBRbsMXuf072+PTknT03qpGPDInM9ff8gLi+Gya
-ivB5MCtalWhC4FUKFT1tBbTy22fim0W9GmFeSPbBjjeFhFftr9JzkZeEIKZ75iI/
-HjMA3+H83FLs2S11f0ls0DJSoDnMgxnMuHwqvd/kSA4OSfWJp8I8v5AmahGuNL59
-n8WwXGF1IYZf0OIpNy9Kg4IvJZS/I7zVlrOtkbGVWL2zLh6dpUqwo43AvhxKJNEU
-OtI/HKhMaM+mUo9tceLed38D4/3slG5joPhJBNylqTL+pSM9MRgSllYlUCS7onol
-MoVdraYMh2wbbRND6lFxOnjGOweCnxCLQ/9CgHeKh5Fmg1zO3WnIF94wXONRtMyi
-kjnphEVKnBj+6Awt72B+dkflZEqdAvKJO6VSezh47SlbKDZqCwCvUmdpNzgelrQH
-ZenOpWlowwDzs0OaMl2iNV4i9ZRDsRKhPlBWaTzMj9zUA2p1j7XXqNZHq/nrnC2G
-bZFj7kDoKeq0ZxKujl7deC/BmZAn/LP2Y0dZmRAQtzUsJ9teE62dlbp//v4fFBjX
-4k/1FJPGfbyuJYGDg1JLulgE
-=f8m3
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCZ/5smwAKCRBZrE9hU+XO
+MQPvAQCRFA3PUuYa5fPETZXg+fFrQTzhfueeKIJvUh5Q2ke1lgD/XFFHtfP+MXJP
+qQOh00SoA/lfqKtRJ/45jfMC3R6dsQc=
+=IBa5
 -----END PGP SIGNATURE-----
 
---===============5759254844431536973==--
+--===============8596015580479591512==--
