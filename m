@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5537477354789726691=="
+Content-Type: multipart/mixed; boundary="===============4064460701153940912=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Tue, 15 Apr 2025 20:51:52 -0000
-Message-Id: <174475031211.2829827.3744758139057992865@gitolite.kernel.org>
+Date: Tue, 15 Apr 2025 20:52:28 -0000
+Message-Id: <174475034844.2830266.16603310175970849354@gitolite.kernel.org>
 
---===============5537477354789726691==
+--===============4064460701153940912==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,36 @@ repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next/hardening
-    old: 87f4ce3d5b3682970284f2376a6fc3aecf842ea3
-    new: 0ea46a39c37fef4042a9c59096fabf0857fe04da
-    log: revlist-87f4ce3d5b36-0ea46a39c37f.txt
+  - ref: refs/heads/for-next/kspp
+    old: 6e1fa8af216631ed4c5e425d8d09c8b6e03ef682
+    new: 26c35a034798f5e81afd3cfe1d02e14b991dff39
+    log: revlist-6e1fa8af2166-26c35a034798.txt
 
---===============5537477354789726691==
+--===============4064460701153940912==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1744750340 -0700
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1744750377 -0700
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1744750309-5a8b72b361ecb40a5a02752bf87adce0a950ea21
+nonce 1744750346-17c096617ae061e885426fe0ac1b02f852a992dd
 
-87f4ce3d5b3682970284f2376a6fc3aecf842ea3 0ea46a39c37fef4042a9c59096fabf0857fe04da refs/heads/for-next/hardening
+6e1fa8af216631ed4c5e425d8d09c8b6e03ef682 26c35a034798f5e81afd3cfe1d02e14b991dff39 refs/heads/for-next/kspp
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCZ/7HBAAKCRA2KwveOeQk
-u8etAQCBv0IjT2gzrJmMmwNUrPPusGkO6VNAVunslh3kd6NQ8AD/Z9axOkldySYT
-UYo/pjunRRQigOAgCvbSA61txAJn9gI=
-=oH8l
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCZ/7HKQAKCRA2KwveOeQk
+u2HvAQDOcd6rtG6BkE0LWjll3iN8+Rqz5dHBQ3w6bXLiD+SphwD/Xl7r/C2v+4g8
+Isxli33bp+DSMpMmdrrPgwvEKiIZvw8=
+=S1Ih
 -----END PGP SIGNATURE-----
 
---===============5537477354789726691==
+--===============4064460701153940912==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-87f4ce3d5b36-0ea46a39c37f.txt
+Content-Disposition: attachment; filename=revlist-6e1fa8af2166-26c35a034798.txt
 
 6c9567e0850be2f0f94ab64fa6512413fd1a1eb1 KVM: s390: Don't use %pK through tracepoints
 0c7fbae5bc782429c97d68dc40fb126748d7e352 KVM: s390: Don't use %pK through debug printing
@@ -386,9 +386,16 @@ ccad447a3d331a239477c281533bacb585b54a98 ext4: make block validity check resiste
 5aaaedb0cb540cda1cdcef34f2d30de67d972d9b Merge tag 'ext4_for_linus-6.15-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 004a365eb8b9c6d7d409bbeb5687a4a5ebf8f110 Merge tag 'erofs-for-6.15-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
 8ffd015db85fea3e15a77027fda6c02ced4d2444 Linux 6.15-rc2
+d94c12bd97d567de342fd32599e7cd9e50bfa140 string: Add load_unaligned_zeropad() code path to sized_strscpy()
+62d32440ac127b79747ef930205052803a8efd0f kasan: Add strscpy() test to trigger tag fault on arm64
+f5c68a4e84f9feca3be578199ec648b676db2030 hardening: Disable GCC randstruct for COMPILE_TEST
+cdc2e1d9d929d7f7009b3a5edca52388a2b0891f lib/Kconfig.ubsan: Remove 'default UBSAN' from UBSAN_INTEGER_WRAP
+9b044614be12d78d3a93767708b8d02fb7dfa9b0 ubsan: Fix panic from test_ubsan_out_of_bounds
+3f2925174f8bd811f9399cb4049f6b75fd2fba91 lib/prime_numbers: KUnit test should not select PRIME_NUMBERS
 e54d5c5456bbcd84fa412b09f8a9053af743311a cachefiles: Add __nonstring annotations for unterminated strings
 ebf38900146ec2660afc506cce7c826970868d96 misc: bcm-vk: avoid -Wflex-array-member-not-at-end warning
 fe062a571f3a87cdc7994d3bec130a6e3c0b7147 lkdtm: use SLAB_NO_MERGE instead of an empty constructor
 0ea46a39c37fef4042a9c59096fabf0857fe04da gcc-plugins: Remove ARM_SSP_PER_TASK plugin
+26c35a034798f5e81afd3cfe1d02e14b991dff39 Merge branches 'for-linus/hardening' and 'for-next/hardening' into for-next/kspp
 
---===============5537477354789726691==--
+--===============4064460701153940912==--
