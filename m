@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Tue, 15 Apr 2025 21:30:11 -0000
-Message-Id: <174475261141.2865651.4591602320422289120@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Tue, 15 Apr 2025 21:43:35 -0000
+Message-Id: <174475341526.2875186.3819210690242017174@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/todo
-    old: 976f154ea287dc26b51e01567e1cecd02e68690d
-    new: f438db7b0896c9339d24d11fd8151d0c77b5e3ea
+  - ref: refs/heads/nova-gsp
+    old: d80e6f9e6bda8a129d8bd41d0e8840168dfc5753
+    new: e897ee4024323aec51f13fad29d436cc6732194b
     log: |
-         f438db7b0896c9339d24d11fd8151d0c77b5e3ea What's cooking (2025/04 #04)
+         e897ee4024323aec51f13fad29d436cc6732194b nova-core: Add support for VBIOS ucode extraction for boot
          
