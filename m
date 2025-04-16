@@ -1,23 +1,48 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 16 Apr 2025 19:09:25 -0000
-Message-Id: <174483056596.3988335.16503703172210947012@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============9169048276132698377=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Wed, 16 Apr 2025 19:28:54 -0000
+Message-Id: <174483173485.4004300.16360982055678688356@gitolite.kernel.org>
+
+--===============9169048276132698377==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/sched/core
-    old: 6432e163ba1b7d80b5876792ce53e511f041ab91
-    new: c70fc32f44431bb30f9025ce753ba8be25acbba3
+  - ref: refs/heads/for-next/hardening
+    old: 0ea46a39c37fef4042a9c59096fabf0857fe04da
+    new: 2122b4571745874d64804af42729da277478a16f
     log: |
-         872aa4de18889be63317a8c0f2de71a3a01e487c sched/fair: Use READ_ONCE() to read sg->asym_prefer_cpu
-         0e3f6c3696424fa90d6f512779d617a05a1cf031 sched/topology: Introduce sched_update_asym_prefer_cpu()
-         8157fbc907452aa5674df2de23c1c7305c907006 cpufreq/amd-pstate: Update asym_prefer_cpu when core rankings change
-         44671e21e3463f36f6c6e4b691216f60e85840e4 sched/debug: Print the local group's asym_prefer_cpu
-         c70fc32f44431bb30f9025ce753ba8be25acbba3 sched/fair: Adhere to place_entity() constraints
+         b2044b94a6a91f10a9bafd6d9c3ea03f297b7ac7 kunit/usercopy: Disable u64 test on 32-bit SPARC
+         833dd6a6a1b1118b86cd629fb10a533d978a7854 compiler_types: Identify compiler versions for __builtin_dynamic_object_size
+         2122b4571745874d64804af42729da277478a16f overflow: Clarify expectations for getting DEFINE_FLEX variable sizes
          
+
+--===============9169048276132698377==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1744831763 -0700
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
+nonce 1744831721-942e69d7e5af7f5a62eb6c5d2fdfa75dc7648ab8
+
+0ea46a39c37fef4042a9c59096fabf0857fe04da 2122b4571745874d64804af42729da277478a16f refs/heads/for-next/hardening
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCaAAFEwAKCRA2KwveOeQk
+u4uIAQCHZyxZaej51buemxmvC93ueX9UcegYjXR8nX2i83HfPwD+IdrU69Al7jRp
+YuZnVaSPQdXaKUJkTOn7iYtuJxGI3wg=
+=jurg
+-----END PGP SIGNATURE-----
+
+--===============9169048276132698377==--
