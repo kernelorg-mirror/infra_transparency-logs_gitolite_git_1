@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Wed, 16 Apr 2025 03:04:15 -0000
-Message-Id: <174477265512.3146137.16751248797694412060@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 16 Apr 2025 03:31:37 -0000
+Message-Id: <174477429779.3169055.521545523632034913@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/nova-gsp
-    old: 19899bb0e91395fa16975a822d210535a3687d85
-    new: 5fbb9ad5e5582cd6fed4a5678012b2905c578649
+  - ref: refs/heads/main
+    old: a496d2f0fd612ab9e10700afe00dc9267bad788b
+    new: ac1df712442c64b50cfdbe01da0e5aca8319b559
     log: |
-         842fa812de8c81f8bf2e7b6b302f46ef013a60af joel: Add a defconfig that works for me
-         10576c5f95194685e1ffeb1e1732db64af1b241f joel: Remove possible build errors by commenting unused deadcode
-         5fbb9ad5e5582cd6fed4a5678012b2905c578649 nova-core: Add support for VBIOS ucode extraction for boot
+         7c571ac57d9d97190dcba18212fabf99888b0c48 net: ptp: introduce .supported_extts_flags to ptp_clock_info
+         d9f3e9ecc4562ae07aaf614cf0a6690ef7ca0e10 net: ptp: introduce .supported_perout_flags to ptp_clock_info
+         ac1df712442c64b50cfdbe01da0e5aca8319b559 Merge branch 'net-ptp-driver-opt-in-for-supported-ptp-ioctl-flags'
          
