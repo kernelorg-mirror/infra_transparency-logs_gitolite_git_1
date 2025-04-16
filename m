@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Wed, 16 Apr 2025 17:11:55 -0000
-Message-Id: <174482351599.3887635.1123940998667639849@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/alexghiti/linux
+Date: Wed, 16 Apr 2025 17:20:33 -0000
+Message-Id: <174482403399.3895413.5245730791813285416@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/alexghiti/linux
+user: alexghiti
 changes:
-  - ref: refs/heads/nova-gsp
-    old: 5fbb9ad5e5582cd6fed4a5678012b2905c578649
-    new: 25a99f9ae566c3ca222f5a31649660e9f21d062a
-    log: |
-         19e2229905c24ce88f2fa571047dd877d9de4c16 JOEL: Use older firmware to make it boot
-         16572c310788680aefdbfe458215431a5fb415bf JOEL: Update .gitignore
-         25a99f9ae566c3ca222f5a31649660e9f21d062a nova-core: Add support for VBIOS ucode extraction for boot
-         
+  - ref: refs/tags/riscv-fixes-6.15-rc3
+    old: 681a48c45d8d55d3ff00d3f2d2dc2bac14ce8262
+    new: 6cc459293f6ec8d453d53c41275c9e8c6c0c5c95
