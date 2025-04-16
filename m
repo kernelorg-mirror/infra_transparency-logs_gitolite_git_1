@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3283198064813418937=="
+Content-Type: multipart/mixed; boundary="===============7959475027973348223=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/modules/linux
-Date: Wed, 16 Apr 2025 13:43:17 -0000
-Message-Id: <174481099743.3702479.6272634700191409758@gitolite.kernel.org>
+Date: Wed, 16 Apr 2025 13:51:19 -0000
+Message-Id: <174481147990.3710233.15684581743244499218@gitolite.kernel.org>
 
---===============3283198064813418937==
+--===============7959475027973348223==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/modules/linux
 user: ppavlu
 changes:
-  - ref: refs/heads/modules-fixes
-    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    new: f95bbfe18512c5c018720468959edac056a17196
-    log: revlist-0af2f6be1b42-f95bbfe18512.txt
+  - ref: refs/heads/modules-next
+    old: b464e570f8e69d5516157347dfed984dd745682e
+    new: 1b7b9e30cf33051c18ba7cd1d556ce41f33b2320
+    log: revlist-b464e570f8e6-1b7b9e30cf33.txt
 
---===============3283198064813418937==
+--===============7959475027973348223==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0af2f6be1b42-f95bbfe18512.txt
+Content-Disposition: attachment; filename=revlist-b464e570f8e6-1b7b9e30cf33.txt
 
 6c9567e0850be2f0f94ab64fa6512413fd1a1eb1 KVM: s390: Don't use %pK through tracepoints
 0c7fbae5bc782429c97d68dc40fb126748d7e352 KVM: s390: Don't use %pK through debug printing
@@ -369,5 +369,8 @@ bbc9462f0cb0c8917a4908e856731708f0cee910 kernel: param: rename locate_module_kob
 1c7777feb0e2f5925908c489513656ebb443a699 kernel: refactor lookup_or_create_module_kobject()
 7c76c813cfc42a7376378a0c4b7250db2eebab81 kernel: globalize lookup_or_create_module_kobject()
 f95bbfe18512c5c018720468959edac056a17196 drivers: base: handle module_kobject creation
+6b007afe8b3315b1925ce49182f8cbe920547e37 module: Constify parameters of module_enforce_rwx_sections()
+88c8fea2c677cfd257507b8d5303a28a58137ffc module: Add a separate function to mark sections as read-only after init
+1b7b9e30cf33051c18ba7cd1d556ce41f33b2320 module: Make .static_call_sites read-only after init
 
---===============3283198064813418937==--
+--===============7959475027973348223==--
