@@ -1,82 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============0363877632558057436=="
+Content-Type: multipart/mixed; boundary="===============2912469778776506342=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 16 Apr 2025 01:49:33 -0000
-Message-Id: <174476817382.3086212.2439372210840153528@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
+Date: Wed, 16 Apr 2025 01:50:54 -0000
+Message-Id: <174476825439.3088693.12851364833222701505@gitolite.kernel.org>
 
---===============0363877632558057436==
+--===============2912469778776506342==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/chao/linux
+user: chao
 changes:
-  - ref: refs/heads/block-6.15
-    old: 0dba7a05b9e47d8b546399117b0ddf2426dc6042
-    new: 0b7a4817756c7906d0a8112c953ce88d7cd8d4c6
-    log: |
-         f2fed441c69b9237760840a45a004730ff324faf loop: stop using vfs_iter_{read,write} for buffered I/O
-         0b7a4817756c7906d0a8112c953ce88d7cd8d4c6 ublk: don't suggest CONFIG_BLK_DEV_UBLK=Y
-         
-  - ref: refs/heads/for-6.16/block
-    old: 834a4a689699090a406d1662b03affa8b155d025
-    new: 6b702ed0630eb5f67e4284a72ad4812989feee1d
-    log: |
-         6b702ed0630eb5f67e4284a72ad4812989feee1d block: Simplify blk_mq_dispatch_rq_list() and its callers
-         
-  - ref: refs/heads/for-next
-    old: d3b4b25e363e4ce193e6103e64f7de12b96668b9
-    new: ab15762e1a6b46abb4d256d4ef53707c2f449f8e
-    log: revlist-d3b4b25e363e-ab15762e1a6b.txt
+  - ref: refs/heads/bugfix/common
+    old: 6c7d4e19d83bb3dd6e986862d47e682a3c7fff5e
+    new: 960576ea9abc2baf2aaf388641fb9e782dabceaf
+    log: revlist-6c7d4e19d83b-960576ea9abc.txt
 
---===============0363877632558057436==
+--===============2912469778776506342==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d3b4b25e363e-ab15762e1a6b.txt
+Content-Disposition: attachment; filename=revlist-6c7d4e19d83b-960576ea9abc.txt
 
-eb3a04a8516ee9b5174379306f94279fc90424c4 ovl: don't allow datadir only
-a6eb9a4a69cc360b930dad9dc8513f8fd9b3577f ovl: remove unused forward declaration
-cfa5f336bdbde49cf0102ab55007b34361988fd1 devpts: Fix type for uid and gid params
-a94fd938df2b1628da66b498aa0eeb89593bc7a2 virtiofs: add filesystem context source name check
-bb5e07cb927724e0b47be371fa081141cfb14414 hfs/hfsplus: fix slab-out-of-bounds in hfs_bnode_read_key
-6b395d31146a3fae775823ea8570a37b922f6685 RDMA/bnxt_re: Fix budget handling of notification queue
-62dd71e691109bb44ba8ad7f58b3a2ac6b69d496 RDMA/ucaps: Avoid format-security warning
-95ba3850fed03e01b422ab5d7943aeba130c9723 RDMA/usnic: Fix passing zero to PTR_ERR in usnic_ib_pci_probe()
-d247667ecd6411ec5bec9a38db7feaa599ce3ee2 RDMA/mlx5: Fix compilation warning when USER_ACCESS isn't set
-1b2fe85f3cf19026a0e9037242bcbf7e736b22e3 RDMA/rxe: Fix null pointer dereference in ODP MR check
-9beb2c91fb86e0be70a5833c6730441fa3c9efa8 RDMA/hns: Fix wrong maximum DMA segment size
-45f5dcdd049719fb999393b30679605f16ebce14 RDMA/cma: Fix workqueue crash in cma_netevent_work_handler
-9a0e6f15029e1a8a21e40f06fd05aa52b7f063de RDMA/core: Silence oversized kvmalloc() warning
-ddc592972ff4f1350f456edc3047fc5fb01777aa tools headers: Update the KVM headers with the kernel sources
-9dbe66640f43a3530a0e7897557f4ea41c3abe85 tools headers: Update the socket headers with the kernel sources
-ae62977331fcbf5c9a4260c88d9f94450db2d99a tools headers: Update the uapi/linux/perf_event.h copy with the kernel sources
-af74e5fe7453c1cb2b86c601426cfc4ad9ea9753 tools headers: Update the VFS headers with the kernel sources
-22f72088ffe69a375e07020795264faaaa175979 tools headers: Update the syscall table with the kernel sources
-df4bd8c76d49cf5948d63987f4a795c544155906 tools headers: Update the uapi/linux/prctl.h copy with the kernel sources
-4056cf407253ac81fc960088acfe9579496a871f tools headers: Update the uapi/asm-generic/mman-common.h copy with the kernel sources
-74709981873d2baa5573735b1f24108206d0197e tools headers: Update the linux/unaligned.h copy with the kernel sources
-847f1403d3ee51278dfbece84ec7f199de43daa5 tools headers: Update the x86 headers with the kernel sources
-7f56978e5876521eaa90fda0e63630fa64f69bce tools headers: Update the arch/x86/lib/memset_64.S copy with the kernel sources
-ffc59e32c67e599cc473d6427a4aa584399d5b3c RDMA/bnxt_re: Remove unusable nq variable
-1293dacbbd43ab9848ac4655f6f2ba1dcc5a96ad perf libunwind arm64: Fix missing close parens in an if statement
-a64e4d48a0b77e4ada19ac26ca3a08cd492f6362 afs: Fix afs_dynroot_readdir() to not use the RCU read lock
-b2b4483b5d05026218127fc8f38c69adf69c235b dcache: convert dentry flag macros to enum
-d43dbf7322a356733b3e3a997cad51dce174d83c mount: ensure we don't pointlessly walk the mount tree
-40cb48eba3b4b79e110c1a35d33a48cac54507a2 netfs: Only create /proc/fs/netfs with CONFIG_PROC_FS
-b463d7fd118b984884da7493ae999a62c9892aa3 fs: Fix filename init after recent refactoring
-8e3c15ee0d292c413c66fe10201d1b035a0bea72 iomap: skip unnecessary ifs_block_is_uptodate check
-47a742fd977a7a8c39fea890712e9bfdf76f98f1 fs: use namespace_{lock,unlock} in dissolve_on_fput()
-e2aef868a8c39f411eb7bcee3c42e165a21d5cd6 Merge tag 'ovl-fixes-6.15-rc2' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/overlayfs/vfs
-2b70702917337a8d6d07f03eed961e0119091647 perf tools: Remove evsel__handle_error_quirks()
-10e66f29fad2bac7f44e99372398b39358daf6e3 Merge tag 'perf-tools-fixes-for-v6.15-2025-04-13' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
-3618002d007244be851fb5f314c6ddc61b8b860d Merge tag 'vfs-6.15-rc3.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-834a4a689699090a406d1662b03affa8b155d025 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
-6b702ed0630eb5f67e4284a72ad4812989feee1d block: Simplify blk_mq_dispatch_rq_list() and its callers
-ab15762e1a6b46abb4d256d4ef53707c2f449f8e Merge branch 'for-6.16/block' into for-next
+539d33455f96532ac88115c35b1769db966003c6 f2fs: remove redundant assignment to variable err
+e073e92789839d10a8828c13f9fe47ee517aa8e6 f2fs: add a proc entry show inject stats
+2be96c2147e25d5845c1b06dc20521ab9e0eeeb0 f2fs: fix to update injection attrs according to fault_option
+db03c20c0850dc8d2bcabfa54b9438f7d666c863 f2fs: fix to set atomic write status more clear
+773704c1ef96a8b70d0d186ab725f50548de82c4 f2fs: zone: fix to avoid inconsistence in between SIT and SSA
+ecf68ffee7be3f012c978e8e31d7b243af340f77 f2fs: add a fast path in finish_preallocate_blocks()
+061cf3a84bde038708eb0f1d065b31b7c2456533 f2fs: fix to do sanity check on ino and xnid
+05d3273ad03fa5ea1177b4f3dfeeb6de4899b504 f2fs: clean up unnecessary indentation
+d26fecb03e1f1069480d41fa2a6cea87ebbb89b8 f2fs: prevent the current section from being selected as a victim during GC
+aa00c6d5d05a80ef5946984025c25ab231b722f9 f2fs: support to disable linear lookup fallback
+05872a167c2cab80ef186ef23cc34a6776a1a30c f2fs: fix to do sanity check on sbi->total_valid_block_count
+42cb74a92adaf88061039601ddf7c874f58b554e f2fs: prevent kernel warning due to negative i_nlink from corrupted image
+3f4ab4faf79ce66c85f9fa68e63c2d763ba71966 f2fs: clean up w/ fscrypt_is_bounce_page()
+ea2b44372d75e0854aa3b450ea614d472b5626c8 f2fs: fix to detect gcing page in f2fs_is_cp_guaranteed()
+b76bc3445f84b06ab3f5c21b27e829503a827d60 f2fs: fix to do sanity check on sit_bitmap_size
+625da4af6ba2e224df4ee2afbba1409a6af50d72 f2fs: zone: fix to calculate first_zoned_segno correctly
+148b7d02ca767a95f5d3edf3b701472cc8f56b08 f2fs: add f2fs_bug_on() to detect potential bug
+08c1b5a8710a9e2afc86ddcea543131a65cae4f4 f2fs: fix to avoid invalid wait context issue
+960576ea9abc2baf2aaf388641fb9e782dabceaf f2fs: doc: disk layout
 
---===============0363877632558057436==--
+--===============2912469778776506342==--
