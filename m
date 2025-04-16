@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
-Date: Wed, 16 Apr 2025 08:38:59 -0000
-Message-Id: <174479273940.3429425.10494757975111667533@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfs-linux
+Date: Wed, 16 Apr 2025 08:39:14 -0000
+Message-Id: <174479275411.3429816.14728040505978573501@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mediatek/linux
-user: angelogioacchino.delregno
+repo: pub/scm/fs/xfs/xfs-linux
+user: cem
 changes:
   - ref: refs/heads/for-next
-    old: 07732d8bc40915ceac73acaf18c30be3e352a09e
-    new: 7a24a1c3ef8ed1fd647931d0673ea5d72b1e3cb6
+    old: 8ffd015db85fea3e15a77027fda6c02ced4d2444
+    new: 57265e6ac675b4306d52848029dca0a389c6337e
     log: |
-         c6419e4f2ae22bf1404ac39e88c9bf0de8767874 arm64: dts: mediatek: mt8195: Add power domain for dp_intf0
-         c0f1fd9eeb317ee57b62127c8da48b309da0525d arm64: dts: mediatek: Add MT6893 pinmux macro header file
-         f5d2cbe5d8374fd094235102688f511283573abc arm64: dts: mediatek: mt8196: Add pinmux macro header file
-         7a24a1c3ef8ed1fd647931d0673ea5d72b1e3cb6 Merge branch 'v6.15-next/dts64' into for-next
+         b73e05281cd9e37b5525641ca6f4544867372533 xfs: remove the leftover xfs_{set,clear}_li_failed infrastructure
+         a1a56f541a8f634007de4bcb45aa3eaf803154a8 xfs: mark xfs_buf_free as might_sleep()
+         845abeb1f06a8a44e21314460eeb14cddfca52cc xfs: add tunable threshold parameter for triggering zone GC
+         a37b3b9c3cc595521c7f9d9b2b0b2ad367bf9c98 xfs: compute buffer address correctly in xmbuf_map_backing_mem
+         f2c61ce66ea74ba4a63d86ae8eda50fdb1fb3763 xfs: document zoned rt specifics in admin-guide
+         57265e6ac675b4306d52848029dca0a389c6337e xfs: Fix spelling mistake "drity" -> "dirty"
          
