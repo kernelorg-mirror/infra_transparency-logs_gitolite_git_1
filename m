@@ -1,27 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Wed, 16 Apr 2025 21:46:17 -0000
-Message-Id: <174483997727.4121645.2638953361236463713@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Wed, 16 Apr 2025 21:46:40 -0000
+Message-Id: <174484000014.4122125.18203602166509957524@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
 changes:
-  - ref: refs/heads/for-kernelci
-    old: ac9252f2062b80ef589a29d1ed4f5707c84c2de5
-    new: 3a713d1e497d13840cee332eba3e484744d1746a
+  - ref: refs/heads/i2c/i2c-host
+    old: 59fd747eef4aa9c188348f4f6764211a7bb3ec4a
+    new: 97a2e9ff93c40b6aadc1425c55f6bb861db32c8a
     log: |
-         eb929471f2eb95acbef2d0dace9a74218dc52829 x86/boot: Move SEV startup code into startup/
-         d02be792c526ac755f93f344ed749cfd70e93bda x86/boot: Drop RIP_REL_REF() uses from early SEV code
-         cc4d157c7297a79faf1e100dfcf3930d6f0fd505 x86/asm: Retire RIP_REL_REF()
-         d2d5e6da748ee2910bfabb12d4dcfe8e8da65e96 x86/boot: Move startup code out of .head.text
-         45304a23103d3de8309b200196424c60ac46ffc9 x86/xen: Move PVH startup code out of .head.text
-         f4fefc62c070bded1263b0238071785d1f96fdd4 x86/boot: Move startup code out of .head.text
-         7a3130475c96540aa0cff90b691b521d4646e53a x86/boot: Move SEV status check into separate source file in startup/
-         76680146e95f419e3d5beed0927b2a1bac4b7695 x86/sev: Move #VC handler instruction decoder to separate source file
-         3a713d1e497d13840cee332eba3e484744d1746a vmlinux.lds: Include .data.rel.local into .data section
+         0a59e39aa9d67ed2f217377d724214ced160a8cf i2c: npcm: Add clock toggle recovery
+         32ecdb704b4712f5b8f3babc7c7e9d010912d0b8 i2c: uniphier(-f): Replace dev_err() with dev_err_probe() in probe function
+         252a827827ecb674b9ba25a42ff33695f709a2fa i2c: uniphier: Replace dev_err() with dev_err_probe() in probe function
+         9b106ee4af37e988b128f57f5b7ec3875992e9a0 i2c: via: Replace dev_err() with dev_err_probe() in probe function
+         3dd323e0500271f7822922445fee1c1024681093 i2c: viapro: Replace dev_err() with dev_err_probe() in probe function
+         d989a93b3a9da35f154bc83e09ca5d6dcba3e566 i2c: viperboard: Replace dev_err() with dev_err_probe() in probe function
+         61be705dc260021c81055342e4caca44991ae829 i2c: virtio: Replace dev_err() with dev_err_probe() in probe function
+         565d1eef5aa985318e7f2a9342ac21bd5f735129 i2c: i2c-xiic: Replace dev_err() with dev_err_probe() in probe function
+         97a2e9ff93c40b6aadc1425c55f6bb861db32c8a i2c: scx200_acb: Replace dev_err() with dev_err_probe() in probe function
          
