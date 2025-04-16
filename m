@@ -1,56 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============4470730485586203454=="
+Content-Type: multipart/mixed; boundary="===============3074998335579637324=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Wed, 16 Apr 2025 05:51:45 -0000
-Message-Id: <174478270581.3284431.5038634919754538931@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Wed, 16 Apr 2025 06:03:32 -0000
+Message-Id: <174478341236.3293159.10275252096495614422@gitolite.kernel.org>
 
---===============4470730485586203454==
+--===============3074998335579637324==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/heads/master
-    old: 9b61f3bda7a9ce6862d00af4de6ead8336356bd5
-    new: 54db0f1ad37ea40d5ba330dd00621b6855f535cf
-    log: |
-         54db0f1ad37ea40d5ba330dd00621b6855f535cf strip a mbox
-         
+  - ref: refs/heads/rust/cpufreq-dt
+    old: a5dda7351e92b8dfe29a177b51359992ad0a8e06
+    new: 33c99cd5c6de033606b751c07e6a68d6c63d0652
+    log: revlist-a5dda7351e92-33c99cd5c6de.txt
 
---===============4470730485586203454==
+--===============3074998335579637324==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-a5dda7351e92-33c99cd5c6de.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1744782641 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1744782705-ac3da028a3dfc8c6e0884d17a41ea8ccb2e22487
+944ee57ad1b190f6975c739802b4d93166bd00c5 rust: cpumask: Add few more helpers
+4a8f23fd447897cb76ccc46d03cc30a2086a0e90 rust: cpumask: Add initial abstractions
+9115c43e4eae9fd958344e7befc945e0e649a6c5 MAINTAINERS: Add entry for Rust cpumask API
+97741e1c82feecbd650183c6a52d2e8bbafad79f rust: clk: Add helpers for Rust code
+4207f5bf540de148e1bd31a88dc75eaac1aaf897 rust: clk: Add initial abstractions
+b7f534dfbb63aa0e8acfe90f122e23ad052d5e19 rust: macros: enable use of hyphens in module names
+cf7c84e4fcd5ef0430d11e02cd727120ba94a248 rust: cpu: Add from_cpu()
+18bf0ffd9c0ea525d28235378fc15dbe4d496d97 rust: opp: Add initial abstractions for OPP framework
+1fcad3f3da1e516293a7df65b3ffdd037a33831a rust: opp: Add abstractions for the OPP table
+25a286667b785734f534ba13fefc693e06e8b8ef rust: opp: Add abstractions for the configuration options
+ac6854885277b23f100c6033fab51a080cdb70eb rust: cpufreq: Add initial abstractions for cpufreq framework
+7a859b2da97e44a7b8e9d694bb7ffdd34e886cdc rust: cpufreq: Extend abstractions for policy and driver ops
+8d04ef19d7a16610dbf0dfb5c9a611c6e1e3e318 rust: cpufreq: Extend abstractions for driver registration
+a940d1b1a02d99fdc80ba8d0526c35a776854cb3 rust: opp: Extend OPP abstractions with cpufreq support
+312f14531b97a7530446cc44e38d6dbe10fef083 cpufreq: Add Rust-based cpufreq-dt driver
+f5cbb60245d67ea6026d5e8c8736b9f901f550fd defconfig: Run saveconfig
+33c99cd5c6de033606b751c07e6a68d6c63d0652 defconfig: Enable Rust
 
-9b61f3bda7a9ce6862d00af4de6ead8336356bd5 54db0f1ad37ea40d5ba330dd00621b6855f535cf refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmf/RTEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LtwP/Al5olqE6k3IUgp+XnWo
-EFS4wyY/QPfMsi+wjwQTVBjfC2+d+fw9BvvGcRa0GtyOmhYCQoy0ogqXDLczmsfU
-ncCvP7pvDh+UwzDbk7Gn30FHBT7eXK0mc54FmldPvNKV8nd0qel215DnBYnJbKSo
-GcSz3Y/GCOodvPzJ92evJfzFZdhxLWDceKjzl69tR+tLCyVYOmFWXx4btJ4xAlfT
-oyztBB6aZbdYRkgNY1iPD4gr7bdVZXIys7YLZ+m9U45Lu8kA2Q7u3Flj7f5k61Vi
-B0q5mvB08HJNIWAQ8yu4pGMN1vXX0insRo3ifjf1s8sfL9PGhj9h4kn0jS3mMhtA
-p1clS4L+CT91IcAm1mVrkkfoiokUbcQ8jKm3jqBwA+a8DqRzJzV4Ixo3eFpl3I1F
-/tlrXstR7i9xQjzen9D5nk1znJJ6m702wmkENGbEk26gDjgBe6/2MyPfwxLONRZC
-YAJM5lLPAM7okIgQrLSZsntNSRRWXhk4V+BA9kU4P8wT3D0NwbgjYywCof+nwBWY
-C0axodVeLZVrj1fPRJfjCE1TJ2srjH+CbKtAQv0fWX3ed5u5JIrdkyp3SyYLdIj2
-Xng7dRq5LgmuDGRLz3xxSaiOBn1ZTUeC/JwX5c9Bx7ZcgA8MGVyzIJkHcY1Z0YPG
-jxrh/wEQ07tPn6Cu3qwUx/p1
-=RLYz
------END PGP SIGNATURE-----
-
---===============4470730485586203454==--
+--===============3074998335579637324==--
