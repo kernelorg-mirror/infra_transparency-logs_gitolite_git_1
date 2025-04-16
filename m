@@ -1,28 +1,42 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Wed, 16 Apr 2025 07:41:55 -0000
-Message-Id: <174478931542.3378844.8513838708976192059@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8676543764672488797=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 16 Apr 2025 07:43:55 -0000
+Message-Id: <174478943582.3380253.16536860278238500847@gitolite.kernel.org>
+
+--===============8676543764672488797==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/perf/core
-    old: 9de65c23967cf848d153002776af280b68aeeb89
-    new: a64467bdb1972554d0b146f035f54901b1cfd7a3
-    log: |
-         f09b3965b80291ca0e3aacdbd26e45516d10e94e perf: Fix put_ctx() ordering
-         0279cb7bbfb8747eeeaca7fa0802b754703752fd perf: Fix event->parent life-time issue
-         dc7a83be7b1e86a1fb618cdb14aa2b2d33df2eee perf/x86/intel: Don't clear perf metrics overflow bit unconditionally
-         31eb5bf5818d46172b921c8fae032abab4cb4ef0 perf/x86/intel: Allow to update user space GPRs from PEBS records
-         9b0cc417f87c996a247cfc9cc6e44a72e710318c perf/x86/intel: Add Panther Lake support
-         ab4dd9404f2d076f61434bcf6be9822e43246058 perf/x86/intel: Add PMU support for Clearwater Forest
-         efba11a5dbc93f15ddaf963fee5953783f5aeaf8 perf/x86/intel: Parse CPUID archPerfmonExt leaves for non-hybrid CPUs
-         a910136e2f3d48ba970b7665a63b6237f4c17262 perf/x86/intel: Decouple BTS initialization from PEBS initialization
-         94220c47da7ce03ffd679486d5e372e3b80709c9 perf/x86/intel: Rename x86_pmu.pebs to x86_pmu.ds_pebs
-         a64467bdb1972554d0b146f035f54901b1cfd7a3 perf/x86/intel: Introduce pairs of PEBS static calls
-         
+  - ref: refs/heads/master
+    old: 3d84445be522026973aad55628898f58dc16ee94
+    new: 53864d879a17421cab94fce0c9760cd878114da2
+    log: revlist-3d84445be522-53864d879a17.txt
+
+--===============8676543764672488797==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-3d84445be522-53864d879a17.txt
+
+4e2547509f472d77d5c6d27feae318ac9d5eba5d Merge branch 'x86/cpu' into x86/fpu, to pick up dependent commits
+b02dc185ee86836cf1d8a37b81349374e4018ee0 x86/cpufeatures: Add X86_FEATURE_APX
+bd0b10b795c5c4c587e83c0498251356874c655c x86/fpu/apx: Define APX state component
+ea68e39190cff86f457bd286c70b535e2a99a94d x86/fpu/apx: Disallow conflicting MPX presence
+50c5b071e2833d2b61e3774cd792620311df157c x86/fpu/apx: Enable APX state support
+ab6f87ddd0c6d3fb114cdf897eb9839cbd429439 selftests/x86/apx: Add APX test
+39cd7fad39ce2ffbeb21939c805ee55f3ec808d4 x86/fpu: Log XSAVE disablement consistently
+515ce4399ffe38ff643741219f6e503c19df0fa3 x86/fpu: Refactor xfeature bitmask update code for sigframe XSAVE
+ec75d951244121b583260204ab020a0fe5b5a810 x86/pkeys: Simplify PKRU update in signal frame
+9f59f0c7c59c9398b2ebd93b43c348697e8ec939 x86/fpu: Remove export of mxcsr_feature_mask
+18ffe42e427a1d2da76f61deb038a2751a200205 x86/fpu: Rename fpu_reset_fpregs() to fpu_reset_fpstate_regs()
+53864d879a17421cab94fce0c9760cd878114da2 Merge branch into tip/master: 'x86/fpu'
+
+--===============8676543764672488797==--
