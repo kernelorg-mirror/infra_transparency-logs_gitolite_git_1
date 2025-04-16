@@ -1,60 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============5770902152608126276=="
+Content-Type: multipart/mixed; boundary="===============2970299856277139913=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 16 Apr 2025 07:17:28 -0000
-Message-Id: <174478784891.3356202.16521277055162425039@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Wed, 16 Apr 2025 07:18:47 -0000
+Message-Id: <174478792780.3357002.3137463068304774568@gitolite.kernel.org>
 
---===============5770902152608126276==
+--===============2970299856277139913==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: a505df96d9703924d0334090a622ce8acc07e759
-    new: 3d84445be522026973aad55628898f58dc16ee94
-    log: revlist-a505df96d970-3d84445be522.txt
-  - ref: refs/heads/tip/urgent
-    old: cee614805d6bf5d6aa09c4ffafcbffa804c67364
-    new: df82522a83f93c118cd5c1b44fa71805cacfd250
+    old: 6702ad03e093e732f80bd07dba77e08ec21d3f55
+    new: 3d67b965707bff2e09698b573f6954c0487e268c
     log: |
-         d466304c4322ad391797437cd84cca7ce1660de0 x86/cpu: Add CPU model number for Bartlett Lake CPUs with Raptor Cove cores
-         e71b6094c20f5dc9c43dc89af8a569ffa511d676 x86/e820: Discard high memory that can't be addressed by 32-bit systems
-         05b2c9c25af827a54eb9e697549a3a6c99ec78f1 Merge branch into tip/master: 'core/urgent'
-         9ab0cd7513a6d93baa970180a2ffca6be64db0fa Merge branch into tip/master: 'irq/urgent'
-         e016eeb1a0e7d3404a4061cf3376e8f2bb97e11a Merge branch into tip/master: 'timers/urgent'
-         df82522a83f93c118cd5c1b44fa71805cacfd250 Merge branch into tip/master: 'x86/urgent'
+         30466ff57624b2ed00de5362cccab370e9d4d85a reserve some 2022 cve ids
+         3d67b965707bff2e09698b573f6954c0487e268c reserve some 2023 cve ids
          
 
---===============5770902152608126276==
+--===============2970299856277139913==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a505df96d970-3d84445be522.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-05b2c9c25af827a54eb9e697549a3a6c99ec78f1 Merge branch into tip/master: 'core/urgent'
-9ab0cd7513a6d93baa970180a2ffca6be64db0fa Merge branch into tip/master: 'irq/urgent'
-e016eeb1a0e7d3404a4061cf3376e8f2bb97e11a Merge branch into tip/master: 'timers/urgent'
-df82522a83f93c118cd5c1b44fa71805cacfd250 Merge branch into tip/master: 'x86/urgent'
-0491181df03344c82f1ffffc7a975c9064a33b31 Merge branch into tip/master: 'x86/merge'
-b49f11b535df3fd33231d7af5f899770f4d3733f Merge branch into tip/master: 'irq/core'
-3719e9600fb7af2acf31b3a3089adb24f9dcd89d Merge branch into tip/master: 'irq/drivers'
-33c2eac15413e9cbc9f993d5ab6e13ed1cee6dbc Merge branch into tip/master: 'irq/msi'
-a9f27844fa19bee8541364bab0e5eea41a54c5e4 Merge branch into tip/master: 'perf/core'
-95689a4bba5e63553e41a065158c9761f3e16d9d Merge branch into tip/master: 'sched/core'
-a3b9644932160694df1ab9eedfdfce6959f9f9c0 Merge branch into tip/master: 'timers/core'
-037380cf20f4d509f57c35c82008b7250e63903a Merge branch into tip/master: 'x86/alternatives'
-60c15c1981c773e79e132a7913e7540ba3205bc2 Merge branch into tip/master: 'x86/asm'
-8ef54dc7931563965c285dfd5279026140901259 Merge branch into tip/master: 'x86/boot'
-36af91f22992dd46464883d9be98e4a641adc910 Merge branch into tip/master: 'x86/cpu'
-b7dfc722169d0f81a35f7cb6ab138ae0ca5d1461 Merge branch into tip/master: 'x86/kconfig'
-5adf3bd26ebd73b65a095f2f8f52ba7f2792545c Merge branch into tip/master: 'x86/microcode'
-73f3d62a58cb4015eace1ae6701a592539e07208 Merge branch into tip/master: 'x86/nmi'
-3d84445be522026973aad55628898f58dc16ee94 Merge branch into tip/master: 'x86/sev'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1744787957 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1744787927-a29791f2887d731bad42d31a5ffa005cbed73289
 
---===============5770902152608126276==--
+6702ad03e093e732f80bd07dba77e08ec21d3f55 3d67b965707bff2e09698b573f6954c0487e268c refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmf/WfUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7HcQAKgISWIe5TcdDT5ep+wB
+f4/EoW/Lxkc1uKhrDNs2cq/K3iAOrDLFSAt7V7M9xMP/xOAO+tT1XwpO2foEB3Vr
+2XuUZvdXpi9JlfI1jNNmnl3BGfc5tBbIuAlQ7nZc7bd1/x840ZV8j0ZTPSkxA8zr
+XN5N/n6enV0Csp1J4j3sumJdfwV45lR1aSB0Khneg1mI/+UkvWcye3yvdNsPGPg/
+qdOjiK1z5Nxkni+44ETquc+L4QeJeHWAzYbFbDkMowm9orzhGZ8pcJ0ZljqiZ1UA
+/zNE88e+FO5RhCwWnfXQ3OSEquyELSGkY+XTFvzkzYjjwcwHZfYST9XLSRyxlzmt
+L3Dbwx5Yb1G2dL1wke5bFpxQKfNFu7gWfHLNZqzidWUzg4E+CRC24XQfo3nTRBB6
+AduM+bRBM4voF188ZftUuhCJjccfzSS5FMIDQsK4Aze2xSZJFwHltA1pOLtcjr13
+7s2J408aeoJTyvGE1cEUNhE6KBA7xyOKvAJ2sATl8++g5VJn2oyUfh0hRTx+aLW0
+I1X6X80VSMcLoEeA4KFiURE7PzU+sUnXwPfyEq6b9B0+UxmUMSDgx7uvXPIfUpWP
+Ju9qF9204A5Tz7DraM5MwhNrwzEzMOZTRwL6QdPNCCWpDkvgNVj0xC3D1GX7P0Qt
+Cry6/tElkDqJ8OtlxmMn3k9w
+=+tbR
+-----END PGP SIGNATURE-----
+
+--===============2970299856277139913==--
