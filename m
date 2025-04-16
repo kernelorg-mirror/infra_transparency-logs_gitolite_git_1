@@ -1,56 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============7182590622959841518=="
+Content-Type: multipart/mixed; boundary="===============3158374366395134382=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Wed, 16 Apr 2025 07:21:57 -0000
-Message-Id: <174478811779.3361088.7060855835229328923@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hare/scsi-devel
+Date: Wed, 16 Apr 2025 07:27:21 -0000
+Message-Id: <174478844183.3365486.4240547636276887382@gitolite.kernel.org>
 
---===============7182590622959841518==
+--===============3158374366395134382==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/hare/scsi-devel
+user: hare
 changes:
-  - ref: refs/heads/master
-    old: 422e2b87bdfdb07b23196f8cafc680a8d1f618f9
-    new: 8c0b07583dfd582ef1f4b6ed5ea6855a920f4ef7
-    log: |
-         8c0b07583dfd582ef1f4b6ed5ea6855a920f4ef7 reserve come more 2025 cve ids
-         
+  - ref: refs/heads/reserved-tags.v9
+    old: b734f6a1dc097d72408e753b7d7022516d7174f4
+    new: 91c42de08585d031d0c45cb6b3f55d3b5e17eb79
+    log: revlist-b734f6a1dc09-91c42de08585.txt
 
---===============7182590622959841518==
+--===============3158374366395134382==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-b734f6a1dc09-91c42de08585.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1744788147 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1744788117-d09c99021d54ad1d3c65a82557c397b6bbd2cd77
+e31f9bb672cffe3bee795ae9be58619296c92144 aacraid: use scsi_cmd_to_rq()
+fec2c6065b79c6d7ca31920c44398b14ca4cef5b hpsa: use HPSA_MAX_LUN for .this_id
+6b5333f5ad42795744616e88013ac6829e21b997 scsi_scan: use 'this_id' for the scsi host device
+6a894aac8cd11d8f2c31538ca09e86fc14dac953 scsi: use 'unsigned int' in scsi_get_internal_cmd()
+85fa20b263d3d90b5b1388559c3bb43088960414 aacraid: more scsi_cmd_to_rq fixes
+9613669f0e0ea2772bfd8ccf812db60cf403e09b scsi: use dma_data_direction
+a901f08676a5c16e424b79c43b076564267fda1c myrb: switch to use internal commands
+bc3b806b6e7164093d36cda3d652c3eac845e9c1 ahci: kill AHCI_MAX_CMDS
+0b2b3c5a178387661495198cc1245543fbc03223 scsi: don't check for non-empty inquiry data
+d8cfa31715b1121bed26a595a1bac40e9e138e2b ata: inline ata_qc_new_init()
+ae4df1529d542923d3b6012b3a4c1cb9a8501224 ata: kill sas_allocate_task()
+c4c59923f1c8fa7ca80cd698666c122120a0858c ata: kill qc.tag
+6d6ba59f70a15d495d6bf3c97b2942858cba8c8f sata_sil24: drop sil24_tag()
+4cd0359dedcf598208730ea50ac0300b259621c0 libata: drop ata_tag_internal()
+7fdaa3be2d2bf5bdd6bff67c072a1430947265d8 ata: implement ata_qc_internal_init()
+9e58281696da2fbcfb60213bc6194d38a7b19d29 blk-mq: implement reversed tag order
+c10e1e3d2f46c0ad2d6ef064dea3b8af4cafc8be scsi: add 'tag_reverse_order' host template flag
+91c42de08585d031d0c45cb6b3f55d3b5e17eb79 libata: use reserved commands in ata_exec_internal_sg()
 
-422e2b87bdfdb07b23196f8cafc680a8d1f618f9 8c0b07583dfd582ef1f4b6ed5ea6855a920f4ef7 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmf/WrMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WOoP/R64+41esbv/bdaa4Mu8
-0CvZ5MZTOD0NwajACKxT41MUvjW/o69S75l7Qh/7Q2svroFpwj3QCq2UBg8sNWe+
-Uo2f3ItKK4t3IYZQVSorRWNYbT0c5im+/vjRgnAeHS4JEXigcJanZR/8aXKI/Fiu
-OI0kM+jurxpXGg+KBUq2n3gvGJX8idefKxy1aB2UK0yQsPLmDn+7AfM9IERoap2H
-qyUcHXr/d2TnaFA85vvlYKh1Qy2AdgnLNp7+idGaK82sP9Uwh/v2ll6Ww+387n7y
-iMIfulYI+ZKI29ibxLsFIhHWzajn8K1XJpFOSTsxl1FAcpf01nstlWCl8JZKSPPw
-0wt+WCtK1Bj4FVNTiyEtdoIngrNkkTtjv6LHXS2qOXNyC8XWPDNPwAC8GBafmUQQ
-7ZMh8fb1x5dgoz0qq9Oo3n+6co6g/XDKNH+tmLjzgWT5mXBAYZfBf/hltLf8IOH1
-XfZML9mvjjtPYL1yogVdgMh4Y6sVqoE7yjRgCoaAhyw86Ds1BkZksFzP2A8WXfM6
-lmZzLV8kpdhi78/Ds+MoIFcRokSZBBaxh7K0ekpC9J+t3dzantdfsPKEnjTDG23I
-Hf4kVAKiOi4IJGmzOsDVevjh0d8IlHbTSmeWT0F7HL098JsY3B8wxnQ987r9qLJD
-oS7JKSQ3MdNuFwTkXTOODB3y
-=4RMs
------END PGP SIGNATURE-----
-
---===============7182590622959841518==--
+--===============3158374366395134382==--
