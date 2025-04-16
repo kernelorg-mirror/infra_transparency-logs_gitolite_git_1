@@ -1,65 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============3504887136751960624=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
-Date: Wed, 16 Apr 2025 07:40:53 -0000
-Message-Id: <174478925354.3378140.7271311004061777580@gitolite.kernel.org>
-
---===============3504887136751960624==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Wed, 16 Apr 2025 07:41:55 -0000
+Message-Id: <174478931542.3378844.8513838708976192059@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-dt
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/for-next
-    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    new: 62db22c2af6ce306943df5de6f5198ea9bd3d47b
+  - ref: refs/heads/perf/core
+    old: 9de65c23967cf848d153002776af280b68aeeb89
+    new: a64467bdb1972554d0b146f035f54901b1cfd7a3
     log: |
-         b112d9ffaa65635ec38dfa18661f6d8a358c275c ARM: dts: vt8500: use correct ohci/ehci node names
-         6e3b067d3c5e00dea2e38c609fcd247baa74dec4 arm64: dts: mediatek: mt7622: Align GPIO hog name with bindings
-         62db22c2af6ce306943df5de6f5198ea9bd3d47b Merge branch 'next/dt64' into for-next
+         f09b3965b80291ca0e3aacdbd26e45516d10e94e perf: Fix put_ctx() ordering
+         0279cb7bbfb8747eeeaca7fa0802b754703752fd perf: Fix event->parent life-time issue
+         dc7a83be7b1e86a1fb618cdb14aa2b2d33df2eee perf/x86/intel: Don't clear perf metrics overflow bit unconditionally
+         31eb5bf5818d46172b921c8fae032abab4cb4ef0 perf/x86/intel: Allow to update user space GPRs from PEBS records
+         9b0cc417f87c996a247cfc9cc6e44a72e710318c perf/x86/intel: Add Panther Lake support
+         ab4dd9404f2d076f61434bcf6be9822e43246058 perf/x86/intel: Add PMU support for Clearwater Forest
+         efba11a5dbc93f15ddaf963fee5953783f5aeaf8 perf/x86/intel: Parse CPUID archPerfmonExt leaves for non-hybrid CPUs
+         a910136e2f3d48ba970b7665a63b6237f4c17262 perf/x86/intel: Decouple BTS initialization from PEBS initialization
+         94220c47da7ce03ffd679486d5e372e3b80709c9 perf/x86/intel: Rename x86_pmu.pebs to x86_pmu.ds_pebs
+         a64467bdb1972554d0b146f035f54901b1cfd7a3 perf/x86/intel: Introduce pairs of PEBS static calls
          
-  - ref: refs/heads/next/dt64
-    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    new: 6e3b067d3c5e00dea2e38c609fcd247baa74dec4
-    log: |
-         6e3b067d3c5e00dea2e38c609fcd247baa74dec4 arm64: dts: mediatek: mt7622: Align GPIO hog name with bindings
-         
-
---===============3504887136751960624==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher krzk@kernel.org 1744789281 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
-nonce 1744789251-478d32cded8c801e424f6ba37276853585962e0c
-
-0af2f6be1b4281385b618cb86ad946eded089ac8 62db22c2af6ce306943df5de6f5198ea9bd3d47b refs/heads/for-next
-0af2f6be1b4281385b618cb86ad946eded089ac8 6e3b067d3c5e00dea2e38c609fcd247baa74dec4 refs/heads/next/dt64
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmf/XyEQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD15+KD/93yv+jENeasWxfsciVbwqbF1GAmXQVmG1j
-M4re4bQ5LOliq7kpHrvisZJSCcxfwIjOu5HkAAvtYq46duxMCz9ITckfVEDW5QPg
-VDgMwiOnIgcTnyxrrVy/3tVaqeM9VEC9hNaGLptSJocl90rvSuWWhdbkp8idzsCN
-lXy3MHntrZaTX55qhzvwd+tYCEAzjCSGD5glCyu1EQBxxPIeVN6RivXOktbWIQ2x
-9XV0azZTI3myvfzkk1XDeSf/gWyDIsCwwSi7Z4IV7QmN+nDxawRuNN8VIoxIhORj
-i86I4MWOGGlne5vaubb9/C3sCSZqmGjRLhmN8ITJeCNsuJ/IJxd6Ef2FvsuWpRVB
-S4DLxp4cVcrAcw/tvxe5TbqB+pb9akSvuCcLTBkUcnWCevAkOVhhlvtwyhXubTYr
-QqFh0jlKwLq4EiyHyouSIw2hFnNcPbMNampFhIGV2f+iKESig5L96LhZNMZv4XaK
-qLchSo1rttphEEA5HYx0jmK7zi/WsZ2CEP3bom2gXiFBCaWMqjSEsDLWOHm346I7
-3G/9SZZX9gvVtVaeMqorcDQ3uMvl0voZ5repXreJHmt4Ee6nFQr2EiSi/cDzf8yJ
-ol6lIBgzpRAG8MLnXdUQPZLw/p9ZVXt48Zg1JEp3/0qYdys0JjzuuevbPxeYnNaD
-G2Janz0Cew==
-=bjHF
------END PGP SIGNATURE-----
-
---===============3504887136751960624==--
