@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6778684119731616199=="
+Content-Type: multipart/mixed; boundary="===============3294220781093618169=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Wed, 16 Apr 2025 14:27:52 -0000
-Message-Id: <174481367274.3742548.4564109031615941413@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Wed, 16 Apr 2025 14:27:57 -0000
+Message-Id: <174481367737.3742804.11103430337086804667@gitolite.kernel.org>
 
---===============6778684119731616199==
+--===============3294220781093618169==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
+repo: pub/scm/linux/kernel/git/riscv/linux
 user: palmer
 changes:
   - ref: refs/heads/for-next
@@ -20,7 +20,7 @@ changes:
     new: 0af2f6be1b4281385b618cb86ad946eded089ac8
     log: revlist-4a1d8ababde6-0af2f6be1b42.txt
 
---===============6778684119731616199==
+--===============3294220781093618169==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -214,4 +214,4 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
 
---===============6778684119731616199==--
+--===============3294220781093618169==--
