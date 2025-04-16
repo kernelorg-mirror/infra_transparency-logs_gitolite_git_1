@@ -1,73 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3908634070485596475=="
+Content-Type: multipart/mixed; boundary="===============4826030756468544203=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Wed, 16 Apr 2025 07:36:58 -0000
-Message-Id: <174478901882.3373479.16333956986656940843@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-w1
+Date: Wed, 16 Apr 2025 07:37:08 -0000
+Message-Id: <174478902890.3373833.15886346723637445027@gitolite.kernel.org>
 
---===============3908634070485596475==
+--===============4826030756468544203==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
+repo: pub/scm/linux/kernel/git/krzk/linux-w1
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/for-next
-    old: 1027c3d04b91fdea08758f807c317caaedbd8f5f
-    new: 9e4c72333b5d1a9a8d2509b3dad383b8442852e0
-    log: |
-         62120d819f5b5818fa07d3121f7693f6bf18d18b clk: samsung: Use samsung CCF common function
-         4855244996578ac25495a708b426c3f27632a068 arm64: dts: exynos: update all samsung,mode constants
-         3a863bd911befc90020d94bdebb6b390b8b89b16 Merge branch 'next/clk' into for-next
-         9e4c72333b5d1a9a8d2509b3dad383b8442852e0 Merge branch 'next/dt64' into for-next
-         
-  - ref: refs/heads/next/clk
+  - ref: refs/heads/w1-next
     old: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    new: 62120d819f5b5818fa07d3121f7693f6bf18d18b
+    new: a9b3ecc7bcf6cb8d3c4947a7ae260f508c4c5fd1
     log: |
-         62120d819f5b5818fa07d3121f7693f6bf18d18b clk: samsung: Use samsung CCF common function
-         
-  - ref: refs/heads/next/dt64
-    old: ebeab0be707ddcffd2b7f6ff4f9bd8e0c1c49fdd
-    new: 4855244996578ac25495a708b426c3f27632a068
-    log: |
-         4855244996578ac25495a708b426c3f27632a068 arm64: dts: exynos: update all samsung,mode constants
+         a9b3ecc7bcf6cb8d3c4947a7ae260f508c4c5fd1 w1: Avoid -Wflex-array-member-not-at-end warnings
          
 
---===============3908634070485596475==
+--===============4826030756468544203==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1744789043 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1744789013-885ea3caf4c43fd51cb272f15701f59b84d2749d
+pusher krzk@kernel.org 1744789057 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-w1.git
+nonce 1744789026-66b2bd956d83d98e533502857744ee567975031a
 
-1027c3d04b91fdea08758f807c317caaedbd8f5f 9e4c72333b5d1a9a8d2509b3dad383b8442852e0 refs/heads/for-next
-0af2f6be1b4281385b618cb86ad946eded089ac8 62120d819f5b5818fa07d3121f7693f6bf18d18b refs/heads/next/clk
-ebeab0be707ddcffd2b7f6ff4f9bd8e0c1c49fdd 4855244996578ac25495a708b426c3f27632a068 refs/heads/next/dt64
+0af2f6be1b4281385b618cb86ad946eded089ac8 a9b3ecc7bcf6cb8d3c4947a7ae260f508c4c5fd1 refs/heads/w1-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmf/XjMQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD13sED/4snpI/P0yVK9lasGM48t/YRXO6vvTJ8EVo
-wICNlVZUcZxYeuQgIJ+Q339fCV54/yFc1yD3vf0LnN0T5P00r2N8AP3sPTa2dzOi
-w7kKtCAfyNfMPqQWmgGJm8PwYskO2zEPlTrc7iqZ5DNomDHctlxWyEgi/+mHSAF/
-DvZzAbTps1KrGE7De2Gh/QU6JtuJzj3nJoEB0NW2qnoBQUS1Vh5WYIiidiWtSAoJ
-UYa5uZEVylL+E34OyMzMT2Ac2XOelrnuujQISt8dFQJMjnpWA7xCeFjaFfBwAxpH
-1GP9s3rLO1hgK/hAfXFdVHikvRopOR1NgqI5KEzWNA4X1SKYLPv7nuev7JRn3eza
-FrCrj2ZM1YHMGwMRra8xJErQyGFQNyk+r8oIdO2MUHZWjGLqBmOvf+w8XJgkVcML
-7OMlCY8F2iD4f8b7qRSFvVyynpwCIBYbZpcogIntfUwBsvSzz7CGEfQO14PiCGRa
-5IPUwlkqsN94nUJEM3Rj0UMPiacHN/7g78Lkktvk/cuFbVMyVkzedmNApaqLP5hE
-1pjhrYe8PAB5zkdN2Qlp+TGuCDYT8WeNG1lK5Wg6OGYyafQkVFtMfLwcqvuB4YIj
-NsUtVjA4sidNSUVgnoZ5aFeZNoKdyNvLzO1YFR6k9c7fE0rvknWaErugnR45lNrE
-GhhZ7b5pJA==
-=7hFg
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmf/XkEQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1+BED/0eajgK34IWg3/WDv86F28ZPcTUGwfIhOok
+gyby8yaPW4yVXfsb9yBoCDcHwssaVi5+fV5SUlZCgjvG2T7nqS7l2J8Im2Rrqdro
+E5AvIP042qcRR3MG8AdyWWsJe+s6p3sQcAzUfHGBFkcrDzhJ56einVLIATJ4YB8o
+QyfTILma7m33/dxOqy6xdi3HknaZ/GE8q5QS+vF97ub+zqO+hJYfkr1c+R3/BhzI
+A/SJ8cMn1pLl1bM6FXwZYcBJFiZhlMg5PSnwPdvBG6S8nP6m9zaygcnWZ+yJVnxq
+I4Y3XcW4HK9LgSnuCWSP42cHRBFfdnOBy41jNbE0xITIx1DW+WIcf7QQ1ZoOwSc9
+jrSIpnUS1Ye4eXfLyJFiy7arU2SO5GP4lIFGB3fNwsViAgzFJoxCImz6tyI4+J+q
+H+O9OqHpT8G1cItRB9V1OOd5QpCsljhXQP82ze/+A0ZFF5WlAIWLmnkoOTccfVAv
+2XeU7LUI/APfguo8DUmYlBTnl3fcBjkTzuvly9G7nqkLwtVmMAI20Ea8jYPsleV9
+8lFqZkbHpT1cAskQ9uIwgd3V7osCyChjZzrNbVTZz620gA1S8GrZe7fsxIOcKRSS
+nIseNY5ZJy4HmLtpCQ760kjEyH956cfPadkG3loc6NOSCorMiFv4GrtTLWOjOarg
+jUcd1LiI+g==
+=Ve1a
 -----END PGP SIGNATURE-----
 
---===============3908634070485596475==--
+--===============4826030756468544203==--
