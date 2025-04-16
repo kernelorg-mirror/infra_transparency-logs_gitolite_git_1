@@ -1,23 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Wed, 16 Apr 2025 14:42:34 -0000
-Message-Id: <174481455444.3758011.12497452566036502631@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Wed, 16 Apr 2025 14:44:52 -0000
+Message-Id: <174481469246.3759856.8131776990321631175@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
   - ref: refs/heads/master
-    old: 75ca28852d292adb551eeee7f2d695209036da44
-    new: 90282295f4e9912b59b05761181b69cc1c1f7955
+    old: 159b14edc61fe523e5b8c249b584acae70fc7fff
+    new: 065f910ff2da49c693ea9b0f694d4c38a8dd17fa
     log: |
-         ee3466e4ab11fe37d6650ae79d18ecd5aa33c726 Bluetooth: l2cap: Process valid commands in too long frame
-         5e33f84f2c25b3353aa9c50cf326aabf5010e7f2 Bluetooth: vhci: Avoid needless snprintf() calls
-         339368ad14732b1cb366a97f1ac3e261b1625b71 Bluetooth: btusb: Add RTL8851BE device 0x0bda:0xb850
-         0adb5bfb7f75baea2ec94c4de67c5af9cb6551b2 dt-bindings: net: bluetooth: nxp: Add support for host-wakeup
-         90282295f4e9912b59b05761181b69cc1c1f7955 Bluetooth: btnxpuart: Implement host-wakeup feature
+         79caecffde49c25f7fa5ef7392f8416a20dd55a3 Update io_uring.h for zcrx
+         3739cde18f1b60925f2e47bf405e5365d7f2c895 tests/zcrx: rename a test
+         2991d212d4862809185e3c2cc135e453e3342177 tests/zcrx: use returned right zcrx id
+         ff88c42ff9003d420611f100cbffb75d4d372eac examples: add extra helpers
+         065f910ff2da49c693ea9b0f694d4c38a8dd17fa examples: add a zcrx example
          
