@@ -1,25 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Wed, 16 Apr 2025 09:01:35 -0000
-Message-Id: <174479409565.3469447.469361387176810453@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
+Date: Wed, 16 Apr 2025 09:03:46 -0000
+Message-Id: <174479422681.3470560.13726228056089380041@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mingo/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/klassert/ipsec-next
+user: klassert
 changes:
-  - ref: refs/heads/WIP.timers/core
-    old: 35dc9169c456ad8b9907edee2b197d10c49dad95
-    new: e42d8536937923868af908502797aa7923df52b1
+  - ref: refs/heads/testing
+    old: e390e1fc5a9439940cb949c41add2181df16eba5
+    new: d2fddbd3479928e52061e1c8dd302006b6283ce8
     log: |
-         24e5f9a3c2f20d7a7c04b6d5cb2b4b7ec4f1a707 treewide, timers: Rename destroy_timer_on_stack() => timer_destroy_on_stack()
-         2056be35af59f55d1fa4a830d6200ea6731b4c86 treewide, timers: Rename init_timer_key() => timer_init_key()
-         54520df2501359d2aa92b9fe1adbd9bc475dc6c0 treewide, timers: Rename init_timer_on_stack_key() => timer_init_key_on_stack()
-         f51dda17eda4b63d28b670eeac5fdf166d52407c treewide, timers: Rename __init_timer() => __timer_init()
-         76742c9124f7050565756f67dab986e5efffa8df treewide, timers: Rename __init_timer_on_stack() => __timer_init_on_stack()
-         53c2c577cfebca8265668ee0fdedebd62081f6f9 treewide, timers: Rename NEXT_TIMER_MAX_DELTA => TIMER_NEXT_MAX_DELTA
-         e42d8536937923868af908502797aa7923df52b1 treewide, timers: Rename init_timers() => timers_init()
+         d79444e8c3d40b11f5e155e5591d53bd1e512e1f net/mlx5: Avoid using xso.real_dev unnecessarily
+         25ac138f58e7d5c8bffa31e8891418d2819180c4 xfrm: Use xdo.dev instead of xdo.real_dev
+         d53dda291bbd993a29b84d358d282076e3d01506 xfrm: Remove unneeded device check from validate_xmit_xfrm
+         43eca05b6a3b917c600e10cc6b06bfa57fa57401 xfrm: Add explicit dev to .xdo_dev_state_{add,delete,free}
+         fd4e41ebf66cb8b43de2f640b97314c4ee3b4499 bonding: Mark active offloaded xfrm_states
+         d2fddbd3479928e52061e1c8dd302006b6283ce8 bonding: Fix multiple long standing offload races
          
