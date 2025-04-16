@@ -1,25 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Wed, 16 Apr 2025 20:41:09 -0000
-Message-Id: <174483606999.4066144.10257056767930160506@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Wed, 16 Apr 2025 20:45:53 -0000
+Message-Id: <174483635394.4070417.14016920459628391577@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/for-next
-    old: af2ecb0a8232bfc2eecb16bbc971996613cd37fe
-    new: a75769029292fadc6f7afdf98d9556eb6f6cd51d
+  - ref: refs/heads/master
+    old: 1a1d569a75f3ab2923cb62daf356d102e4df2b86
+    new: c62f4b82d57155f35befb5c8bbae176614b87623
     log: |
-         290544938d0e92139d8a899b00bea7109b6cd394 dt-bindings: counter: Convert ftm-quaddec.txt to yaml format
-         03b03390eca6fdd58cc181ab7f30ffbe0be24b20 dt-bindings: Remove obsolete cpu-topology.txt
-         161b6dcc2ba4df042916ae2dbc6e165eaaeec309 dt-bindings: Remove obsolete numa.txt
-         672da444fccdd2d4abbb27145a8fd1e5380a851a dt-bindings: remove RZ/N1S bindings
-         f54eba35498b7b6e3a5a68c436d08c468304b265 dt-bindings: interrupt-controller: Add missed fsl tzic controller
-         7d8cf4bebf775dfa46aaa365690fdeabb89f7c31 dt-bindings: display: imx: convert fsl-imx-drm.txt to yaml format
-         a75769029292fadc6f7afdf98d9556eb6f6cd51d dt-bindings: backlight: add TI LP8864/LP8866 LED-backlight drivers
+         1ddaff40c08abb926be5ba713c5efc412d0836c5 crypto: tegra - Fix IV usage for AES ECB
+         cfb32c656eb7bf1d7a776b8793bb6baa6f58b5a4 crypto: scomp - Fix null-pointer deref when freeing streams
+         b7b39df7e710b0068356e4c696af07aa10e2cd3d crypto: caam/qi - Fix drv_ctx refcount bug
+         9ae0c92fec69374c6db8dddb0df00d86b9afa5da crypto: scomp - Fix wild memory accesses in scomp_free_streams
+         b2e689baf220408aff8ee5dfb4edb0817e1632bb crypto: ahash - Disable request chaining
+         c62f4b82d57155f35befb5c8bbae176614b87623 Merge tag 'v6.15-p4' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
          
