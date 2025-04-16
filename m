@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Wed, 16 Apr 2025 00:08:41 -0000
-Message-Id: <174476212189.2996692.13670795899842644631@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 16 Apr 2025 00:14:28 -0000
+Message-Id: <174476246837.3001368.16957293977102738404@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 6e66e280e548545c69dde85f8eeee400f66b4bfc
-    new: 38a7a1a560b2c2216f324027703c67131aa135a2
+  - ref: refs/heads/main
+    old: 88fa80021b77732bc98f73fb69d69c7cc37b9f0d
+    new: 688abe1027d00b7d4b2ce2d8764a2ae5ec6d250b
     log: |
-         03fe41752f72a0aafca1b2425d848199fc3c47f5 Fix \IXhmr and \IXalthmr for single-level index mode
-         38a7a1a560b2c2216f324027703c67131aa135a2 Split "Index of People" from general "Index"
+         688abe1027d00b7d4b2ce2d8764a2ae5ec6d250b octeontx2-pf: handle otx2_mbox_get_rsp errors
          
