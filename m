@@ -1,24 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 16 Apr 2025 18:53:38 -0000
-Message-Id: <174482961870.3975170.4352412888026955959@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 16 Apr 2025 18:54:55 -0000
+Message-Id: <174482969518.3976566.3615141026321201980@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: 495d844cb4939c1fca8e91d826741d9e977f94c8
-    new: 2cf50eccddb6099b4aebef0c9242d22ed530accc
-    log: |
-         d1965f008f224a775eac2aa021a1fbbf4bca96cb ASoC: cs-amp-lib-test: Use faux bus instead of creating a dummy platform device
-         91f4ca732495ea5dad39e1b041ef0c2a6e1fe02f ASoC: rt722: fix pop noise at the beginning of headphone playback
-         65bd426bace60540c5b6710890800abb1accc5ce ASoC: ak4458: Remove useless return variable
-         ba05bc25490a2256f60be2c02bd797e6f8217119 ASoC: fsl_rpmsg: Remove useless return variable
-         7ed50dc550b0a3bad82f675aaefd8cd00362672d ASoC: cs48l32: Fix spelling mistake "exceeeds" -> "exceeds"
-         2cf50eccddb6099b4aebef0c9242d22ed530accc Merge remote-tracking branch 'asoc/for-6.16' into asoc-next
-         
+  - ref: refs/heads/fileNzvNHd
+    old: 0000000000000000000000000000000000000000
+    new: 4308487b29f98785ef50dd82fdfca382134b33e7
