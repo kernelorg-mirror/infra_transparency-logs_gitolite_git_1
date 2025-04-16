@@ -1,24 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Wed, 16 Apr 2025 20:45:53 -0000
-Message-Id: <174483635394.4070417.14016920459628391577@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 16 Apr 2025 20:49:34 -0000
+Message-Id: <174483657402.4072501.9323435104597123454@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 1a1d569a75f3ab2923cb62daf356d102e4df2b86
-    new: c62f4b82d57155f35befb5c8bbae176614b87623
+  - ref: refs/heads/block-6.15
+    old: 0b7a4817756c7906d0a8112c953ce88d7cd8d4c6
+    new: 39e160505198ff8c158f11bce2ba19809a756e8b
     log: |
-         1ddaff40c08abb926be5ba713c5efc412d0836c5 crypto: tegra - Fix IV usage for AES ECB
-         cfb32c656eb7bf1d7a776b8793bb6baa6f58b5a4 crypto: scomp - Fix null-pointer deref when freeing streams
-         b7b39df7e710b0068356e4c696af07aa10e2cd3d crypto: caam/qi - Fix drv_ctx refcount bug
-         9ae0c92fec69374c6db8dddb0df00d86b9afa5da crypto: scomp - Fix wild memory accesses in scomp_free_streams
-         b2e689baf220408aff8ee5dfb4edb0817e1632bb crypto: ahash - Disable request chaining
-         c62f4b82d57155f35befb5c8bbae176614b87623 Merge tag 'v6.15-p4' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
+         39e160505198ff8c158f11bce2ba19809a756e8b block: integrity: Do not call set_page_dirty_lock()
          
+  - ref: refs/heads/io_uring-6.15
+    old: c47623a65f3b04143b833915272d96d99d09d263
+    new: 70e4f9bfc13c9abcc97eb9f2feee51cc925524c8
