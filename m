@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Wed, 16 Apr 2025 15:59:08 -0000
-Message-Id: <174481914815.3823796.14098370152662931139@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Wed, 16 Apr 2025 16:02:15 -0000
+Message-Id: <174481933563.3827351.10463243319866774697@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libgpiod/libgpiod
+repo: pub/scm/linux/kernel/git/brgl/linux
 user: brgl
 changes:
-  - ref: refs/heads/master
-    old: 9f0eca2d7260de1ae22fed3795280bdb14b62e57
-    new: 41231df28c9aecacaaae9e6493d31161023733d6
+  - ref: refs/heads/davinci/for-next
+    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
+    new: 78e6b545e5587ed89b5768a2815861dcfa415101
     log: |
-         41231df28c9aecacaaae9e6493d31161023733d6 tests: uapi: add test-cases for open-drain and open-source emulation
+         78e6b545e5587ed89b5768a2815861dcfa415101 ARM: davinci: remove support for da830
          
