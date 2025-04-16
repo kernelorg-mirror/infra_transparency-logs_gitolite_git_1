@@ -1,24 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Wed, 16 Apr 2025 08:58:10 -0000
-Message-Id: <174479389024.3448385.6637036213034524215@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
+Date: Wed, 16 Apr 2025 09:01:35 -0000
+Message-Id: <174479409565.3469447.469361387176810453@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec-next
-user: klassert
+repo: pub/scm/linux/kernel/git/mingo/tip
+user: mingo
 changes:
-  - ref: refs/heads/testing
-    old: 20eb35da409fa60fa03ea828cd3d1d9c8a51e103
-    new: e390e1fc5a9439940cb949c41add2181df16eba5
+  - ref: refs/heads/WIP.timers/core
+    old: 35dc9169c456ad8b9907edee2b197d10c49dad95
+    new: e42d8536937923868af908502797aa7923df52b1
     log: |
-         a125aafb084efa2383fc5e11bb895055dba1ca59 net/mlx5: Avoid using xso.real_dev unnecessarily
-         457d6d8d6709bcb96fcfa6ed0d1d87426cd2556e xfrm: Use xdo.dev instead of xdo.real_dev
-         b2be9cedec24d620ecd745408fc23864f089e456 xfrm: Remove unneeded device check from validate_xmit_xfrm
-         30131a7d50396073c7c9a082d19e41a5ee0666c6 xfrm: Add explicit dev to .xdo_dev_state_{add,delete,free}
-         3bec0d2ab8b0a2b74397c09d133beb44d83819e1 bonding: Mark active offloaded xfrm_states
-         e390e1fc5a9439940cb949c41add2181df16eba5 bonding: Fix multiple long standing offload races
+         24e5f9a3c2f20d7a7c04b6d5cb2b4b7ec4f1a707 treewide, timers: Rename destroy_timer_on_stack() => timer_destroy_on_stack()
+         2056be35af59f55d1fa4a830d6200ea6731b4c86 treewide, timers: Rename init_timer_key() => timer_init_key()
+         54520df2501359d2aa92b9fe1adbd9bc475dc6c0 treewide, timers: Rename init_timer_on_stack_key() => timer_init_key_on_stack()
+         f51dda17eda4b63d28b670eeac5fdf166d52407c treewide, timers: Rename __init_timer() => __timer_init()
+         76742c9124f7050565756f67dab986e5efffa8df treewide, timers: Rename __init_timer_on_stack() => __timer_init_on_stack()
+         53c2c577cfebca8265668ee0fdedebd62081f6f9 treewide, timers: Rename NEXT_TIMER_MAX_DELTA => TIMER_NEXT_MAX_DELTA
+         e42d8536937923868af908502797aa7923df52b1 treewide, timers: Rename init_timers() => timers_init()
          
