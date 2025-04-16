@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4532493527381297552=="
+Content-Type: multipart/mixed; boundary="===============4816737514688850129=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 16 Apr 2025 07:53:25 -0000
-Message-Id: <174479000592.3389809.2530050958243482268@gitolite.kernel.org>
+Date: Wed, 16 Apr 2025 08:04:19 -0000
+Message-Id: <174479065976.3398472.9768668421432012659@gitolite.kernel.org>
 
---===============4532493527381297552==
+--===============4816737514688850129==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,35 +16,39 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: a7ebca2c19827443221aba4f157add5f69723c56
-    new: d65eb672cc20b2870a52aa7d8809077c823b58b5
-    log: revlist-a7ebca2c1982-d65eb672cc20.txt
+    old: d65eb672cc20b2870a52aa7d8809077c823b58b5
+    new: 6a7cb4c1de9cdfbeab5ec17ede2706f0b15b738d
+    log: revlist-d65eb672cc20-6a7cb4c1de9c.txt
 
---===============4532493527381297552==
+--===============4816737514688850129==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a7ebca2c1982-d65eb672cc20.txt
+Content-Disposition: attachment; filename=revlist-d65eb672cc20-6a7cb4c1de9c.txt
 
-dc5d01af4a74932e15accaf9478f8aca393f124c Merge branch into tip/master: 'core/urgent'
-d837051fe120364c83a6385c4069363018a70caa Merge branch into tip/master: 'irq/urgent'
-2cb5ce038c7b97ea4dbd5dd9abaa699ac1b9a4b4 Merge branch into tip/master: 'timers/urgent'
-2d123094314432e91bb1b197afbe4ef97727638b Merge branch into tip/master: 'x86/urgent'
-797b7453d3c1ea13a0919887e750b291aa4389dc Merge branch into tip/master: 'x86/merge'
-9a9f7d8616a556359f71735edcd3e90f7ea9f839 Merge branch into tip/master: 'irq/core'
-864f7dd7b6de662cf78ee2b5bc7e20f1e1dac135 Merge branch into tip/master: 'irq/drivers'
-8a2ae9dabc3b6d568bfbd20ad5809f0a5d7d9752 Merge branch into tip/master: 'irq/msi'
-b9724c0ac153dd1dc168c37b14ce5c245b2cf8c6 Merge branch into tip/master: 'perf/core'
-4f14893750dba2f4aa2932bf0f50bec564e238be Merge branch into tip/master: 'sched/core'
-1d40759e581c05b18ad5119a4e399401c0fb7326 Merge branch into tip/master: 'timers/core'
-c7c43272ff19729fd918b0c3dc9fdbbf14333256 Merge branch into tip/master: 'x86/alternatives'
-b7db5b13aa969c677484ed87fb89049cb7165128 Merge branch into tip/master: 'x86/asm'
-4f487c87cb1e3cc432fb6158c0e2b1b1b6f4b7cb Merge branch into tip/master: 'x86/boot'
-b79abce9917b15e61c2e4333f74755a94b961b2a Merge branch into tip/master: 'x86/cpu'
-f332670d5b73c7233fd9c09c34f7aee859ce1bfe Merge branch into tip/master: 'x86/fpu'
-bc60061888194b4a34c0f330e21cd42c6a2a5640 Merge branch into tip/master: 'x86/kconfig'
-8d3348e99126edaf384713a09f5a5ce709e5b2d4 Merge branch into tip/master: 'x86/microcode'
-edd37e4046558b93d90b26ce310900a36b78d2e7 Merge branch into tip/master: 'x86/nmi'
-d65eb672cc20b2870a52aa7d8809077c823b58b5 Merge branch into tip/master: 'x86/sev'
+64e54461ab6e8524a8de4e63b7d1a3e4481b5cf3 x86/fpu: Refactor xfeature bitmask update code for sigframe XSAVE
+d1e420772cd1eb0afe5858619c73ce36f3e781a1 x86/pkeys: Simplify PKRU update in signal frame
+70fe4a0266ef156f3a49071da0d9ea6af0f49c44 x86/fpu: Remove export of mxcsr_feature_mask
+de8304c319bc020ef79d109909ad40e944d82c82 x86/fpu: Rename fpu_reset_fpregs() to fpu_reset_fpstate_regs()
+f8d6521cb8e1f9aeb62af6eeba8aca304b3a7567 Merge branch into tip/master: 'core/urgent'
+2cfb4cab72da0afcaf973fa7b9fe9b965c6e5545 Merge branch into tip/master: 'irq/urgent'
+59b2e3f80146478ae4a4c9825e2100d36d7606a7 Merge branch into tip/master: 'timers/urgent'
+4d68863c7d4ff5985672e19657179f481ba3e0c1 Merge branch into tip/master: 'x86/urgent'
+0e76ea608d392e336bb506306747c946606fdeb2 Merge branch into tip/master: 'x86/merge'
+4918bfa896f0a29edf0c81ef67271848adf3030c Merge branch into tip/master: 'irq/core'
+510b53798d60b8ef5f59ffa8f23d3fefd41c5318 Merge branch into tip/master: 'irq/drivers'
+2302b01831f6c4c740681b49c46b12293a4eb7a7 Merge branch into tip/master: 'irq/msi'
+3803eee0bdc06b5f326ba3dd3dff0ba3265e508f Merge branch into tip/master: 'perf/core'
+e041bd23ee413de0c6d434e6158f571d51620f3b Merge branch into tip/master: 'sched/core'
+c4ca681e9a7482ae14b82b74ec7d4b40a12807ff Merge branch into tip/master: 'timers/core'
+f82ccb5d292f5a748835960d224aa5f5934c2893 Merge branch into tip/master: 'x86/alternatives'
+33d5af5b4e4e9a166f774915769dce7babb5961c Merge branch into tip/master: 'x86/asm'
+c41b126eb5831238de0293b7de203e150c06aca4 Merge branch into tip/master: 'x86/boot'
+8ed9069f8a5cb7d1bf31b4e4529ad3ef0344c00e Merge branch into tip/master: 'x86/cpu'
+acdc6d251970b695caa44981aa3b9fea865d71de Merge branch into tip/master: 'x86/fpu'
+f29d895cf09d8203d654fd46ac41640108bae04b Merge branch into tip/master: 'x86/kconfig'
+a71e34389e27ecddfb50ad7895dc205a2fcb9a00 Merge branch into tip/master: 'x86/microcode'
+d0bbfd98efbccd789ac3288d632735cbfbc3ccf3 Merge branch into tip/master: 'x86/nmi'
+6a7cb4c1de9cdfbeab5ec17ede2706f0b15b738d Merge branch into tip/master: 'x86/sev'
 
---===============4532493527381297552==--
+--===============4816737514688850129==--
