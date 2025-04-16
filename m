@@ -1,24 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Wed, 16 Apr 2025 08:39:14 -0000
-Message-Id: <174479275411.3429816.14728040505978573501@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
+Date: Wed, 16 Apr 2025 08:40:04 -0000
+Message-Id: <174479280429.3432362.15421639923400619507@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-linux
-user: cem
+repo: pub/scm/linux/kernel/git/mingo/tip
+user: mingo
 changes:
-  - ref: refs/heads/for-next
-    old: 8ffd015db85fea3e15a77027fda6c02ced4d2444
-    new: 57265e6ac675b4306d52848029dca0a389c6337e
+  - ref: refs/heads/WIP.timers/core
+    old: 0b02ef43c7623f1211fa9382866c530245286416
+    new: fb1b25d6f619b0680216d01af32bffdc92502641
     log: |
-         b73e05281cd9e37b5525641ca6f4544867372533 xfs: remove the leftover xfs_{set,clear}_li_failed infrastructure
-         a1a56f541a8f634007de4bcb45aa3eaf803154a8 xfs: mark xfs_buf_free as might_sleep()
-         845abeb1f06a8a44e21314460eeb14cddfca52cc xfs: add tunable threshold parameter for triggering zone GC
-         a37b3b9c3cc595521c7f9d9b2b0b2ad367bf9c98 xfs: compute buffer address correctly in xmbuf_map_backing_mem
-         f2c61ce66ea74ba4a63d86ae8eda50fdb1fb3763 xfs: document zoned rt specifics in admin-guide
-         57265e6ac675b4306d52848029dca0a389c6337e xfs: Fix spelling mistake "drity" -> "dirty"
+         3b96d2e6eed40c59ca510c30a952b6f49cf560aa treewide, timers: Rename from_timer() => timer_container_of()
+         cacf0daeb8cfc80730088b142e3cf54cb94ce140 treewide, timers: Rename try_to_del_timer_sync() => timer_delete_sync_try()
+         89f9e82096d8571ef5dc7e92799954bf5b3bd626 treewide, timers: Rename destroy_timer_on_stack() => timer_destroy_on_stack()
+         1ac379661189be229231af24bb51c7798e8ccb81 treewide, timers: Rename init_timer_key() => timer_init_key()
+         ca7245641de9303b194a3acecff2d4c01220ae06 treewide, timers: Rename init_timer_on_stack_key() => timer_init_key_on_stack()
+         6821f00a081d5b87b2b5c00412a45b4bfd468c1d treewide, timers: Rename __init_timer() => __timer_init()
+         d455c4d9b91ffd6b1f5b10a4f2f5a73030f61d19 treewide, timers: Rename __init_timer_on_stack() => __timer_init_on_stack()
+         e0b80b74167102fb01fedd444f016a7d37f446b1 treewide, timers: Rename NEXT_TIMER_MAX_DELTA => TIMER_NEXT_MAX_DELTA
+         fb1b25d6f619b0680216d01af32bffdc92502641 treewide, timers: Rename init_timers() => timers_init()
          
