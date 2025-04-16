@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 16 Apr 2025 03:53:53 -0000
-Message-Id: <174477563380.3186353.420544602922930923@gitolite.kernel.org>
+Date: Wed, 16 Apr 2025 03:54:09 -0000
+Message-Id: <174477564913.3186707.11700471040303991592@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,5 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: adf6b730fc8dc61373a6ebe527494f4f1ad6eec7
-    new: 6145597a3faf514781aedc3704d79970cf1e1406
-    log: |
-         6145597a3faf514781aedc3704d79970cf1e1406 net: ch9200: fix uninitialised access bug during mii_nway_restart
-         
+    old: 6145597a3faf514781aedc3704d79970cf1e1406
+    new: adf6b730fc8dc61373a6ebe527494f4f1ad6eec7
