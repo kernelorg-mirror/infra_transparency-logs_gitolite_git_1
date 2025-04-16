@@ -1,41 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============1369832799852301303=="
+Content-Type: multipart/mixed; boundary="===============5807703692522266448=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 16 Apr 2025 21:46:43 -0000
-Message-Id: <174484000365.4122284.1536498019285677682@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Wed, 16 Apr 2025 21:52:48 -0000
+Message-Id: <174484036886.4126918.12946706918685558893@gitolite.kernel.org>
 
---===============1369832799852301303==
+--===============5807703692522266448==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/i2c/i2c-host-next
-    old: 7104db23dcdb1a04b72c269cecc98bed63dbc8ec
-    new: eab809ee2ab8dc6ae2fcf34e60510e9fce24f3a0
-    log: revlist-7104db23dcdb-eab809ee2ab8.txt
+  - ref: refs/heads/for-next/kspp
+    old: 26c35a034798f5e81afd3cfe1d02e14b991dff39
+    new: ce9baf7ce6e6c3c2495586dbf93b940e24f36434
+    log: |
+         b2044b94a6a91f10a9bafd6d9c3ea03f297b7ac7 kunit/usercopy: Disable u64 test on 32-bit SPARC
+         833dd6a6a1b1118b86cd629fb10a533d978a7854 compiler_types: Identify compiler versions for __builtin_dynamic_object_size
+         2122b4571745874d64804af42729da277478a16f overflow: Clarify expectations for getting DEFINE_FLEX variable sizes
+         ce9baf7ce6e6c3c2495586dbf93b940e24f36434 Merge branches 'for-linus/hardening' and 'for-next/hardening' into for-next/kspp
+         
 
---===============1369832799852301303==
+--===============5807703692522266448==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7104db23dcdb-eab809ee2ab8.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-59fd747eef4aa9c188348f4f6764211a7bb3ec4a i2c: rzv2m: Constify struct i2c_algorithm
-0a59e39aa9d67ed2f217377d724214ced160a8cf i2c: npcm: Add clock toggle recovery
-32ecdb704b4712f5b8f3babc7c7e9d010912d0b8 i2c: uniphier(-f): Replace dev_err() with dev_err_probe() in probe function
-252a827827ecb674b9ba25a42ff33695f709a2fa i2c: uniphier: Replace dev_err() with dev_err_probe() in probe function
-9b106ee4af37e988b128f57f5b7ec3875992e9a0 i2c: via: Replace dev_err() with dev_err_probe() in probe function
-3dd323e0500271f7822922445fee1c1024681093 i2c: viapro: Replace dev_err() with dev_err_probe() in probe function
-d989a93b3a9da35f154bc83e09ca5d6dcba3e566 i2c: viperboard: Replace dev_err() with dev_err_probe() in probe function
-61be705dc260021c81055342e4caca44991ae829 i2c: virtio: Replace dev_err() with dev_err_probe() in probe function
-565d1eef5aa985318e7f2a9342ac21bd5f735129 i2c: i2c-xiic: Replace dev_err() with dev_err_probe() in probe function
-97a2e9ff93c40b6aadc1425c55f6bb861db32c8a i2c: scx200_acb: Replace dev_err() with dev_err_probe() in probe function
-eab809ee2ab8dc6ae2fcf34e60510e9fce24f3a0 Merge branch 'i2c/i2c-host' into i2c/i2c-host-next
+certificate version 0.1
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1744840397 -0700
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
+nonce 1744840354-872cd9b698e5be3994e70debec666eed8339cba7
 
---===============1369832799852301303==--
+26c35a034798f5e81afd3cfe1d02e14b991dff39 ce9baf7ce6e6c3c2495586dbf93b940e24f36434 refs/heads/for-next/kspp
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCaAAmzgAKCRA2KwveOeQk
+u2apAQDOlVIEHa5uQ6uajvuNpi1j09xs/YRW3sywKU+tCtTrtgD/cwqNmBEcaU7d
+0SlsjzYPFVzXY3gBYhgB05p9iHDVtQ8=
+=7jUm
+-----END PGP SIGNATURE-----
+
+--===============5807703692522266448==--
