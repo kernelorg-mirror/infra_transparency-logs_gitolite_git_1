@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0049191869683550647=="
+Content-Type: multipart/mixed; boundary="===============2380620727349348955=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 17 Apr 2025 15:49:05 -0000
-Message-Id: <174490494520.868173.15755351012509895802@gitolite.kernel.org>
+Date: Thu, 17 Apr 2025 15:49:07 -0000
+Message-Id: <174490494754.868430.3366207512231215020@gitolite.kernel.org>
 
---===============0049191869683550647==
+--===============2380620727349348955==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 88fa80021b77732bc98f73fb69d69c7cc37b9f0d
     new: 1b66124135f5f8640bd540fadda4b20cdd23114b
     log: revlist-88fa80021b77-1b66124135f5.txt
 
---===============0049191869683550647==
+--===============2380620727349348955==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -70,4 +70,4 @@ a43ae7cf5542df98adb669b173c41e81d0530d67 Merge tag 'for-net-2025-04-16' of git:/
 6b02eb372c6776c9abb8bc81cf63f96039c24664 net: ethernet: mtk_eth_soc: correct the max weight of the queue limit for 100Mbps
 1b66124135f5f8640bd540fadda4b20cdd23114b net: ethernet: mtk_eth_soc: revise QDMA packet scheduler settings
 
---===============0049191869683550647==--
+--===============2380620727349348955==--
