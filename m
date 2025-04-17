@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 17 Apr 2025 18:21:14 -0000
-Message-Id: <174491407424.1019188.14413912478404271244@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Thu, 17 Apr 2025 18:24:48 -0000
+Message-Id: <174491428832.1021368.9987425613909301320@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: sashal
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/heads/master
-    old: 0e12dcf6df4cccec76d9c7383577feab891e9614
-    new: 6739a2fde6d2c611b3bc5fae54376e7316c08974
+  - ref: refs/heads/scx
+    old: 8a174f41d439284b0ecdc05fd01c862a1cbec2ca
+    new: b1c4b04a2fd56e3f12b22645139fa48efa8f0171
     log: |
-         6739a2fde6d2c611b3bc5fae54376e7316c08974 cve_create: call bippy from the scripts dir
+         b1c4b04a2fd56e3f12b22645139fa48efa8f0171 WIP: sched_ext: track currently locked rq
          
