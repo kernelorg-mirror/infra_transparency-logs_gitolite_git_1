@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============4718562008094162817=="
+Content-Type: multipart/mixed; boundary="===============0298618191177274367=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 17 Apr 2025 16:20:23 -0000
-Message-Id: <174490682363.900400.17641557038438064574@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 17 Apr 2025 16:20:26 -0000
+Message-Id: <174490682698.900562.875967018111771531@gitolite.kernel.org>
 
---===============4718562008094162817==
+--===============0298618191177274367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.16
+  - ref: refs/heads/asoc-6.16
     old: 4308487b29f98785ef50dd82fdfca382134b33e7
     new: 7603b1443cbeba5a237067ababaf11095b5ba380
     log: |
@@ -28,28 +28,28 @@ changes:
          7603b1443cbeba5a237067ababaf11095b5ba380 ASoC: mt8195: Add support for MT8395 Radxa NIO 12L
          
 
---===============4718562008094162817==
+--===============0298618191177274367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1744906852 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1744906821-2cfbcec014d0f77208313b80c771677838b6e628
+pusher C3F436CA30F5D8EB 1744906855 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1744906824-151ad0962b0b7b2ed78796928235f3d9cf1d7fa1
 
-4308487b29f98785ef50dd82fdfca382134b33e7 7603b1443cbeba5a237067ababaf11095b5ba380 refs/heads/for-6.16
+4308487b29f98785ef50dd82fdfca382134b33e7 7603b1443cbeba5a237067ababaf11095b5ba380 refs/heads/asoc-6.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgBKmQACgkQJNaLcl1U
-h9CbDwf8CZ+nfgXoLKQm+aALuNzBJkP/Q8WAIaWOvCQCiK4o1kzvbOEGM12dt6Pp
-ZOsVXUz4sVYZ8uhswk8p8bgedhwr0yExnm1AvCAqwA7uu4KBzLj4/sUkrx2lMy5u
-V9ZWLlAgaNM1wrsnuHwxBs/0yaSYrwBR9yO9V9+vILvKJYmKrdbljWPcgXvgve39
-XECeIkcesP+48UWl0JQ8UDeo2XannU93kWeKNdmqsQG3Cr8CYI4KWPcqDSbz4I0x
-Oc7FKuqaFpP7GZvIfoO8b9juz+3EHWz/XwCdbq7he8KIv7NuGZ0cZdLROVgo7QJP
-U2u65yqXYGRRtPRYQhAn50lifyh4rg==
-=Ge/C
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgBKmcACgkQJNaLcl1U
+h9DrYgf/SRpg3ChNKUbod8nPwe700wcc1Mseh5yvXGIAUhGKt7m/yfWX3jsgKR5H
+xg75ReSOETeU35N989Hke+IiHu3KONxG73zZFm1Qqsvd7Mat4OkbjAJoEqDKSRZX
+/5dnZfuqK3E0QwjslqQP8t/czV8j3mfgyouG6oVuEcqMzhN4hJ/hWzOvkwXmcA9/
+AjnYZ3mHzuz4njl8NwocaLWoHwUTeBT+6tJN4QS4tab/gndri4dOxTh7GUfWQMMA
+OLNOSot1tX/jCTqIFxDSUyfKgRabAf90eDMbhMG+rbrh424+zxIEZWkfWiNiEcQ5
+msU+LwUZOvKsBVdxHZ3oDWjNImlRyQ==
+=XIiS
 -----END PGP SIGNATURE-----
 
---===============4718562008094162817==--
+--===============0298618191177274367==--
