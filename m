@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1118263485635408342=="
+Content-Type: multipart/mixed; boundary="===============5854353457011865762=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 17 Apr 2025 15:57:57 -0000
-Message-Id: <174490547773.877437.14920640991685817928@gitolite.kernel.org>
+Date: Thu, 17 Apr 2025 15:58:09 -0000
+Message-Id: <174490548911.877930.5958233138668537560@gitolite.kernel.org>
 
---===============1118263485635408342==
+--===============5854353457011865762==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/200GbE
-    old: e8a1bd8344054ce27bebf59f48e3f6bc10bc419b
-    new: 22ab6b9467c1822291a1175a0eb825b7ec057ef9
-    log: revlist-e8a1bd834405-22ab6b9467c1.txt
+  - ref: refs/heads/dev-queue
+    old: 5cfdb0241f0d8bec82e53edd2aedfcca490d34e7
+    new: 7cab1bd373a33bcc9c6cb7ae9c3a409e5489f939
+    log: revlist-5cfdb0241f0d-7cab1bd373a3.txt
 
---===============1118263485635408342==
+--===============5854353457011865762==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e8a1bd834405-22ab6b9467c1.txt
+Content-Disposition: attachment; filename=revlist-5cfdb0241f0d-7cab1bd373a3.txt
 
 8982fc03fd630a38c0d0ebddef768b4d4707b659 devlink: add value check to devlink_info_version_put()
 fd5ef5203ce645f72a37b02a89f2eb20827f7d52 ixgbe: wrap netdev_priv() usage
@@ -140,5 +140,77 @@ d55acb9732d981c7a8e07dd63089a77d2938e382 net: ipv6: ioam6: use consistent dst na
 65f5b9cb543189906559d5486dfe2fdf97d433a5 net: pktgen: fix code style (WARNING: please, no space before tabs)
 422cf22aa332f80657eac39f6853f1340eabab10 net: pktgen: fix code style (WARNING: Prefer strscpy over strcpy)
 22ab6b9467c1822291a1175a0eb825b7ec057ef9 Merge branch 'net-pktgen-fix-checkpatch-code-style-errors-warnings'
+3ad64b4c80c968b5f3c8a8a5b02fcb47f10b77cb coccinelle: misc: secs_to_jiffies script: Create dummy report
+445a0d3738c2e6b67c7be2b2c3dc75accd09eac5 ice, irdma: fix an off by one in error handling code
+734495ff488858703a04be11de7b2c270d34ee9a irdma: free iwdev->rf after removing MSI-X
+9f685260f48363936b9d654b78e31eac19e6b3fc ice: redesign dpll sma/u.fl pins control
+1f9401600d13809db63eb3af58fbaa03fa3b5144 ice: change SMA pins to SDP in PTP API
+2f38a1d1430983d9797aaab880959fda5dcef97b ice: add ice driver PTP pin documentation
+ac76b9084332cf6dc9eace22af374bfa95ee128c ixgbe: add MDD support
+68e1017e0bacdc16da6fe79fbcd1d236507662a9 ixgbe: check for MDD events
+4b914582c497f2b4d84ff9beee3409cd3676af89 ixgbe: add Tx hang detection unhandled MDD
+0adc5dba558e840e3edf703fd3c5eac6e6a5cf3a ixgbe: turn off MDD while modifying SRRCTL
+355377fc87773fedd7c11aba2fcd4907591ab2fb ice: fix Get Tx Topology AQ command error on E830
+97ba2d1696c098a40f158c49f3b1931fe533f3ab ice: fix lane number calculation
+a5e99fe6795aa5b54f0bc7fa3e7b21fe6d687c5b ice: fix fwlog after driver reinit
+e73fceeeab942e5737293deb521f2209cbae7593 ice: Allow 100M speed for E825C SGMII device
+b7ce16656a101841aa3700c88830ef08edcd80ad idpf: assign extracted ptype to struct libeth_rqe_info field
+50c7a38b17477f67e497197c7dff806e67fee38d ixgbe: create E610 specific ethtool_ops structure
+6725cedf009e55af4045628f1843c3105d65768d ixgbe: add support for ACPI WOL for E610
+6440ab39582d3d0d3bbc18791e583fa3ada8ff0b ixgbe: apply different rules for setting FC on E610
+27f51221ad62b099d858e08abeba2797440342a7 ixgbe: add E610 .set_phys_id() callback implementation
+e9973d724b006d1c5cd34b79534b71010e3fb006 ice: add E830 Earliest TxTime First Offload support
+f37a5053eca796eb5d2681fba4356a057d62a3b4 igc: Limit netdev_tc calls to MQPRIO
+6495b41e9cb224a264a0cd8a17e29549c538672c igc: Change Tx mode for MQPRIO offloading
+e01314dac3589acbcbc3e331e3eeb3202f05a71f net: stmmac: move frag_size handling out of spin_lock
+c60b874aa57d01a9559b99c7e6f8a585b4a25aa8 net: ethtool: mm: extract stmmac verification logic into common library
+9059109f2a42c6aea0bea88ea43fd70ed33f1c33 net: ethtool: mm: reset verification status when link is down
+902b03a673fcc48210b40582c3fcdb649bee0afc igc: rename xdp_get_tx_ring() for non-xdp usage
+a5e22006b3d791b74a585651a07bf59c66d19fa4 igc: rename I225_RXPBSIZE_DEFAULT and I225_TXPBSIZE_DEFAULT
+8f8389ef478951baccc7758ab835172a196c887a igc: use FIELD_PREP and GENMASK for existing TX packet buffer size
+5611d6806fc2411928d6e390efc18340a3d2c1c8 igc: optimize TX packet buffer utilization for TSN mode
+abd9a5c0096ccad6df70cea12d64cfef6a5a9b70 igc: use FIELD_PREP and GENMASK for existing RX packet buffer size
+a247d24cf2c956d8801e1f5c6bb5f9fe3f9a82b0 igc: set the RX packet buffer size for TSN mode
+b2a74f5d7708614be35e142806ab574e6a6afe06 igc: add support for frame preemption verification
+8d6e319775ccbf7e0d1bb017aff9f324f3845b2b igc: add support to set tx-min-frag-size
+ec7131cbf346646e282b4ceaefc17a7298bf3776 igc: block setting preemptible traffic class in taprio
+f97d03ee154854e6ac1962438fd97b04085a619c igc: add support to get MAC Merge data via ethtool
+29d7a432990b39850ba3c58264b6e4f298148205 igc: add support to get frame preemption statistics via ethtool
+2d112217fa53225827bbd6ad01ec4f4de83f7a6e igb: Link IRQs to NAPI instances
+5c9ff5dadaccf0402a79eb81809af267ddc9f8dd igb: Link queues to NAPI instances
+d8cc46f849ae2c2f04ba075c6d8b56a5d7eadf5b igb: Add support for persistent NAPI config
+b9d5d61da4989776f328c35c39926d31cce1bf12 igb: Get rid of spurious interrupts
+3432816a2d7b86a90edd3198305d5b6ea9caba2a ice: add a separate Rx handler for flow director commands
+15867aa241cfcf2b1f94f751fc874c01a0d2043c ice: Check VF VSI Pointer Value in ice_vc_add_fdir_fltr()
+435896749ccadb65215e6392e545d61ba7a333ea igc: fix PTM cycle trigger logic
+f1045e3eff121ece0871e2978a0996ba3dc0cd1b igc: increase wait time before retrying PTM
+5175546e682f11305dab62c648747525ecab829c igc: move ktime snapshot into PTM retry loop
+fdd065776e4eb5eaeb234c91955d24435fbb0085 igc: handle the IGC_PTP_ENABLED flag correctly
+2f9388299c06f70bde59ff0658bddd7a884963a0 igc: cleanup PTP module if probe fails
+0f7d42452a551efa1c01b7c81c25e14bdee1c4a4 igc: add lock preventing multiple simultaneous PTM transactions
+61e65f4fff74c74eecbca07138a2aa96a0f6ca2d idpf: fix offloads support for encapsulated packets
+5c2e5c383e4b21ae06f620a0c73fc68e4eba5344 iavf: iavf_suspend(): take RTNL before netdev_lock()
+ac68464ff2fc3ecabf4b246234b2eadf44bc0cd3 iavf: centralize watchdog requeueing itself
+c2f6000d091d41bb5a452b735410bb7d47199be3 iavf: simplify watchdog_task in terms of adminq task scheduling
+05bd8d20fdc8abcb4fde3aa0dd900af731744753 iavf: extract iavf_watchdog_step() out of iavf_watchdog_task()
+9a8e2cd9aa07d08eefb3289a6c820f43a746a8cd iavf: sprinkle netdev_assert_locked() annotations
+50f688c80429cc7141f552b305d1666017d67cca iavf: get rid of the crit lock
+bb9697598ea02575f71a956a5901fcf8bc28c1fc idpf: fix potential memory leak on kcalloc() failure
+3d9732601b62c1dbf9c8c0dbecac6104889494d3 ice: Remove casts on void pointers in LAG code
+f83125e0357c474a74f7ef061103a4dd6078b747 ice: replace u8 elements with bool where appropriate
+06c1bf234b5910bccf1e19e4d68f5f63a2ce3fba ice: Add driver specific prefix to LAG defines
+cfdbe4c6ab68137d304a43c1426be185c1b4952b ice: move LAG function in code to prepare for Active-Active
+359620f1c1f9a0558c35046a4c1220eeef4c0d5b ice: Cleanup variable initialization in LAG code
+6073f2d2c4bd5f6fe65e9fa4d54e4c3ce7bd5383 ice: cleanup capabilities evaluation
+becf4d1e16d95fcaa0ebaa3e195607df5e5c8ef4 ice: breakout common LAG code into helpers
+41993c40400bc0a6a779cef57aed6cd9634721d0 ice: Implement support for SRIOV VFs across Active/Active bonds
+094a7087aaf267ab4ca41deb50aac631d0c9157f idpf: protect shutdown from reset
+88f210a17bf0d4236b9979acf7b56d7069f85bba ice: fix vf->num_mac count with port representors
+9a40ed1a8b7635a5565b6fa2fdf9ac221481cf5d idpf: remove unreachable code from setting mailbox
+d7ef0bfc5855e883ce4f94272bd1de337d9cf660 idpf: fix null-ptr-deref in idpf_features_check
+b306d30d8bf5ee3ec89f8de6de27a92d5b666e7a ixgbe: devlink: add devlink region support for E610
+2dcc9cc862e1dd5abc68153744e5279966e96e52 ice: use DSN instead of PCI BDF for ice_adapter index
+7476a3090a92bb31f813aeab6a5a10608a3a20ee ice: add link_down_events statistic
+7cab1bd373a33bcc9c6cb7ae9c3a409e5489f939 ixgbe: add link_down_events statistic
 
---===============1118263485635408342==--
+--===============5854353457011865762==--
