@@ -1,25 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 17 Apr 2025 16:20:48 -0000
-Message-Id: <174490684813.901494.11560297582588489116@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 17 Apr 2025 16:21:14 -0000
+Message-Id: <174490687459.902077.11592573452342802430@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: e57217db4926f70a3f66bae6c1ee1b1f37c382e9
-    new: 0b0a18f1bd72c64ae845a32d975f6d4c727b38e3
+  - ref: refs/heads/for-linus
+    old: 21f4314e66ed8d40b2ee24185d1a06a07a512eb1
+    new: 951a04ab3a2db4029debfa48d380ef834b93207e
     log: |
-         0cb1975c717528b662f096b2874e4dae8a9a2d2e ASoC: mediatek: mt8195: Move rt5682 specific dapm routes
-         7af317f7faaab09d5a78f24605057d11f5955115 ASoC: mediatek: mt8195: Set ETDM1/2 IN/OUT to COMP_DUMMY()
-         3046e16d0605765ff0c5b99f1fa13fa35312eae9 ASoC: mediatek: mt8195: Add mt8195-mt6359 card
-         95f6208b20e4d0b427d32e5881be4257a3aab3c8 ASoC: dt-bindings: mt8195: add compatible mt8195_mt6359
-         5b974f53424d16165b606e2e2f9208d450a5723c ASoC: dt-bindings: mt8195: add missing audio routing and link-name
-         7603b1443cbeba5a237067ababaf11095b5ba380 ASoC: mt8195: Add support for MT8395 Radxa NIO 12L
-         0b0a18f1bd72c64ae845a32d975f6d4c727b38e3 Merge remote-tracking branch 'asoc/for-6.16' into asoc-next
+         951a04ab3a2db4029debfa48d380ef834b93207e spi: spi-imx: Add check for spi_imx_setupxfer()
+         
+  - ref: refs/heads/for-next
+    old: 65d420ff8cda7bb2d7d203848ad7006eb4499895
+    new: b1b263106a2cf4db30bcf4b8d2250022edaaaca4
+    log: |
+         951a04ab3a2db4029debfa48d380ef834b93207e spi: spi-imx: Add check for spi_imx_setupxfer()
+         b1b263106a2cf4db30bcf4b8d2250022edaaaca4 Merge remote-tracking branch 'spi/for-6.16' into spi-next
          
