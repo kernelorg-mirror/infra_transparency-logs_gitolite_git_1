@@ -1,22 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 17 Apr 2025 11:29:08 -0000
-Message-Id: <174488934838.625529.1598607514496154454@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
+Date: Thu, 17 Apr 2025 11:32:38 -0000
+Message-Id: <174488955871.629358.10050004377685556398@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/libata/linux
+user: dlemoal
 changes:
-  - ref: refs/heads/20250417_julien_massot_asoc_mt8195_add_support_for_mt8395_radxa_nio_12l_with_mt6359_codec
+  - ref: refs/tags/ata-6.15-rc3
     old: 0000000000000000000000000000000000000000
-    new: 5b974f53424d16165b606e2e2f9208d450a5723c
-  - ref: refs/heads/fileLvBKQX
-    old: 0000000000000000000000000000000000000000
-    new: d981e7b3f25fbabca9cdd02aa2a8f16d6f235fc2
-  - ref: refs/heads/fileoWujRJ
-    old: 0000000000000000000000000000000000000000
-    new: 951a04ab3a2db4029debfa48d380ef834b93207e
+    new: f43825b6ee7feef0f649ded88a832a31b0cc8ba4
