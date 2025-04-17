@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3867129448932362972=="
+Content-Type: multipart/mixed; boundary="===============4860221636471358738=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Thu, 17 Apr 2025 02:21:17 -0000
-Message-Id: <174485647759.166807.14514702360132691930@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Thu, 17 Apr 2025 02:21:24 -0000
+Message-Id: <174485648461.167114.5845961138681489400@gitolite.kernel.org>
 
---===============3867129448932362972==
+--===============4860221636471358738==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 388a6ddde9f8175e845543aa02da41abf0e5ef1c
     log: revlist-1741189d843a-388a6ddde9f8.txt
 
---===============3867129448932362972==
+--===============4860221636471358738==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -410,4 +410,4 @@ ccad447a3d331a239477c281533bacb585b54a98 ext4: make block validity check resiste
 3a320eada570c44cffb15d971479a29b2e9ee270 Merge remote-tracking branch 'torvalds/master' into perf-tools-next
 388a6ddde9f8175e845543aa02da41abf0e5ef1c tools build: Remove libbfd from the set of expected libraries to build perf
 
---===============3867129448932362972==--
+--===============4860221636471358738==--
