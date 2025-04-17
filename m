@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5117219847328927122=="
+Content-Type: multipart/mixed; boundary="===============3316239743978952900=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 17 Apr 2025 09:21:31 -0000
-Message-Id: <174488169163.513532.15518228300510273916@gitolite.kernel.org>
+Date: Thu, 17 Apr 2025 09:21:52 -0000
+Message-Id: <174488171247.514065.46211187012412571@gitolite.kernel.org>
 
---===============5117219847328927122==
+--===============3316239743978952900==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,47 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 62ac44e742f608d69ded2c078127bb4e175b3ad7
-    new: a7cf10877f7109fdf75d0ef457dad12532d76db1
-    log: revlist-62ac44e742f6-a7cf10877f71.txt
+    old: a7cf10877f7109fdf75d0ef457dad12532d76db1
+    new: 7d90ff601ba141ab2f00aef0cc18c82c34593768
+    log: revlist-a7cf10877f71-7d90ff601ba1.txt
+  - ref: refs/heads/tip/urgent
+    old: f737ab93945fb8f0213e1cccc39d028eb5d880e0
+    new: 61d91950284eaf01aa2facc199fab97d85f45e3b
+    log: revlist-f737ab93945f-61d91950284e.txt
 
---===============5117219847328927122==
+--===============3316239743978952900==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-62ac44e742f6-a7cf10877f71.txt
+Content-Disposition: attachment; filename=revlist-a7cf10877f71-7d90ff601ba1.txt
+
+f6c3838de723e4e99688f0c70174ebc090c181b5 Merge branch into tip/master: 'core/urgent'
+9dfdc13e6072f4bba926ea4bd2bb4b51914ac9c1 Merge branch into tip/master: 'irq/urgent'
+b10ffaa263f6d640a778dc2b0f853ed05e350d99 Merge branch into tip/master: 'timers/urgent'
+61d91950284eaf01aa2facc199fab97d85f45e3b Merge branch into tip/master: 'x86/urgent'
+125b20713029105b35553bfed3478ba344f81fc6 Merge branch into tip/master: 'x86/merge'
+33b2c3d2cc1f62975cf3a3e4c93db6f41c2dcfe3 Merge branch into tip/master: 'irq/core'
+7ee35b2012d9da05bc78c9be005c13bd3f2ffb89 Merge branch into tip/master: 'irq/drivers'
+4e911bf2040756858bc52c96498125ba5a8dc17c Merge branch into tip/master: 'irq/msi'
+e7ecdce7d45f29830cab6e7f126e0ee3a8115f43 Merge branch into tip/master: 'perf/core'
+efbe0d0a6f01d1fa1d1af17693b6c02fce122edb Merge branch into tip/master: 'sched/core'
+20e870997e216333f787296ecfc37a0f0e0c36a7 Merge branch into tip/master: 'timers/core'
+0b3f846dc47282703316940c69df93da51149254 Merge branch into tip/master: 'x86/alternatives'
+dc573fd73ef828d683cace45c84805d536471e9c Merge branch into tip/master: 'x86/asm'
+eb6da5ec7f78e3fab3c332177e4af4be09be7230 Merge branch into tip/master: 'x86/boot'
+21c0e6a18d97123c60481c5a2f58dc4141b5e558 Merge branch into tip/master: 'x86/bugs'
+05a69ad7ccd47284dafeb25a09ed461670417df3 Merge branch into tip/master: 'x86/cpu'
+7c2e466829dc7e62f2bf4aaa195e43fd44e4cdf1 Merge branch into tip/master: 'x86/fpu'
+31b5edfa7e9c8ac24ccaa3caa3cb72040ee06190 Merge branch into tip/master: 'x86/kconfig'
+a701be4f640250d8e0ec6d2079b0d800e81e9a3d Merge branch into tip/master: 'x86/microcode'
+6c99416cf846c99fa77c789903a030f1d7641708 Merge branch into tip/master: 'x86/nmi'
+7d90ff601ba141ab2f00aef0cc18c82c34593768 Merge branch into tip/master: 'x86/sev'
+
+--===============3316239743978952900==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-f737ab93945f-61d91950284e.txt
 
 1ddaff40c08abb926be5ba713c5efc412d0836c5 crypto: tegra - Fix IV usage for AES ECB
 1296dcbad2316882f98559762b518eaa6aefcd92 dt-bindings: xilinx: Remove myself from maintainership
@@ -71,6 +103,9 @@ a727a83ef22591d47e2d219cd8e01bd3616f4611 MAINTAINERS: update HUGETLB reviewers
 c62f4b82d57155f35befb5c8bbae176614b87623 Merge tag 'v6.15-p4' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 c1336865c4c90fcc649df0435a7c86c30030a723 Merge tag 'devicetree-fixes-for-6.15-1' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
 cfb2e2c57aef75a414c0f18445c7441df5bc13be Merge tag 'mm-hotfixes-stable-2025-04-16-19-59' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-a7cf10877f7109fdf75d0ef457dad12532d76db1 Merge branch 'linus'
+f6c3838de723e4e99688f0c70174ebc090c181b5 Merge branch into tip/master: 'core/urgent'
+9dfdc13e6072f4bba926ea4bd2bb4b51914ac9c1 Merge branch into tip/master: 'irq/urgent'
+b10ffaa263f6d640a778dc2b0f853ed05e350d99 Merge branch into tip/master: 'timers/urgent'
+61d91950284eaf01aa2facc199fab97d85f45e3b Merge branch into tip/master: 'x86/urgent'
 
---===============5117219847328927122==--
+--===============3316239743978952900==--
