@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 17 Apr 2025 16:21:14 -0000
-Message-Id: <174490687459.902077.11592573452342802430@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Thu, 17 Apr 2025 16:26:11 -0000
+Message-Id: <174490717126.906620.387197229688709427@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/for-linus
-    old: 21f4314e66ed8d40b2ee24185d1a06a07a512eb1
-    new: 951a04ab3a2db4029debfa48d380ef834b93207e
+  - ref: refs/heads/crc-next
+    old: eb204926104a25a3ea8359c83fce616de0c2cb9c
+    new: 1d69a27a2b45db9989551794f1ca241fb041034a
     log: |
-         951a04ab3a2db4029debfa48d380ef834b93207e spi: spi-imx: Add check for spi_imx_setupxfer()
-         
-  - ref: refs/heads/for-next
-    old: 65d420ff8cda7bb2d7d203848ad7006eb4499895
-    new: b1b263106a2cf4db30bcf4b8d2250022edaaaca4
-    log: |
-         951a04ab3a2db4029debfa48d380ef834b93207e spi: spi-imx: Add check for spi_imx_setupxfer()
-         b1b263106a2cf4db30bcf4b8d2250022edaaaca4 Merge remote-tracking branch 'spi/for-6.16' into spi-next
+         1d69a27a2b45db9989551794f1ca241fb041034a lib/crc: make the CPU feature static keys __ro_after_init
          
