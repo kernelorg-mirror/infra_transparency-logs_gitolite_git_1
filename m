@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7185681450844684950=="
+Content-Type: multipart/mixed; boundary="===============6979472379531946480=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 17 Apr 2025 15:42:55 -0000
-Message-Id: <174490457536.862633.7564173447809630780@gitolite.kernel.org>
+Date: Thu, 17 Apr 2025 15:43:04 -0000
+Message-Id: <174490458462.862953.9739707214510079203@gitolite.kernel.org>
 
---===============7185681450844684950==
+--===============6979472379531946480==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 88fa80021b77732bc98f73fb69d69c7cc37b9f0d
-    new: 1b66124135f5f8640bd540fadda4b20cdd23114b
-    log: revlist-88fa80021b77-1b66124135f5.txt
+  - ref: refs/heads/dev-queue
+    old: bdd2f208559784498dd7b5bcd72022fc88ecdda0
+    new: 0ae559c7f1a0b97bb1089f2b58063790155de500
+    log: revlist-bdd2f2085597-0ae559c7f1a0.txt
 
---===============7185681450844684950==
+--===============6979472379531946480==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-88fa80021b77-1b66124135f5.txt
+Content-Disposition: attachment; filename=revlist-bdd2f2085597-0ae559c7f1a0.txt
 
 8b1879491472c145c58c3cbbaf0e05ea93ee5ddf can: fix missing decrement of j1939_proto.inuse_idx
 6315d93541f8a5f77c5ef5c4f25233e66d189603 can: rockchip_canfd: fix broken quirks checks
@@ -69,5 +69,22 @@ a43ae7cf5542df98adb669b173c41e81d0530d67 Merge tag 'for-net-2025-04-16' of git:/
 6bc2b6c6f16d8e60de518d26da1bc6bc436cf71d net: ethernet: mtk_eth_soc: reapply mdc divider on reset
 6b02eb372c6776c9abb8bc81cf63f96039c24664 net: ethernet: mtk_eth_soc: correct the max weight of the queue limit for 100Mbps
 1b66124135f5f8640bd540fadda4b20cdd23114b net: ethernet: mtk_eth_soc: revise QDMA packet scheduler settings
+9d3805851a5a15e132e6ae5c58d5a521515d1172 coccinelle: misc: secs_to_jiffies script: Create dummy report
+8f42947154f8cdac9ad71fe0e0b9632cc0e3b051 ice: fix Get Tx Topology AQ command error on E830
+16cf14ed8282c39664fbbf1a5347fcd22ddc3f80 ice: fix lane number calculation
+bdbfe7943923dd63032c7fdf0eb1715d133fc545 ice: fix fwlog after driver reinit
+732d99ad4ff78ba4edc3c8cc5630db80f5685c32 ice: Check VF VSI Pointer Value in ice_vc_add_fdir_fltr()
+f3752110d29a0d6d6e6449742c28c7ccdb443b43 idpf: fix offloads support for encapsulated packets
+6b0920a4dce1a288cc40d43d522ed9781e1ffaeb iavf: iavf_suspend(): take RTNL before netdev_lock()
+6952a24b1c4b6697b02338dce7adef28e8a9cb0d iavf: centralize watchdog requeueing itself
+be429733b64ed71b505c31068d3eca69f41bfd69 iavf: simplify watchdog_task in terms of adminq task scheduling
+26f4edd0b0ee1e283d92a80f3203c50a6de0d6b8 iavf: extract iavf_watchdog_step() out of iavf_watchdog_task()
+3c9f6cfab2a1937794801f601b67d16c6d0554be iavf: sprinkle netdev_assert_locked() annotations
+489fa848fc5399e22f30a829bfc17f101364f2d4 iavf: get rid of the crit lock
+f7ad7cc968391fda227a5f188343b8f650e256ba idpf: fix potential memory leak on kcalloc() failure
+e254284fcaad67b237a3bf0891394957c048e711 idpf: protect shutdown from reset
+05d3eddee1a7b700c32da11f598168af2a72cac8 ice: fix vf->num_mac count with port representors
+26bf02e030711becb1f2c3dc27660187ed3fe91c idpf: fix null-ptr-deref in idpf_features_check
+0ae559c7f1a0b97bb1089f2b58063790155de500 ice: use DSN instead of PCI BDF for ice_adapter index
 
---===============7185681450844684950==--
+--===============6979472379531946480==--
