@@ -1,50 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============1461348073660926030=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 17 Apr 2025 16:20:37 -0000
-Message-Id: <174490683719.901075.13464914874477731455@gitolite.kernel.org>
-
---===============1461348073660926030==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 17 Apr 2025 16:20:48 -0000
+Message-Id: <174490684813.901494.11560297582588489116@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.15
-    old: 21f4314e66ed8d40b2ee24185d1a06a07a512eb1
-    new: 951a04ab3a2db4029debfa48d380ef834b93207e
+  - ref: refs/heads/for-next
+    old: e57217db4926f70a3f66bae6c1ee1b1f37c382e9
+    new: 0b0a18f1bd72c64ae845a32d975f6d4c727b38e3
     log: |
-         951a04ab3a2db4029debfa48d380ef834b93207e spi: spi-imx: Add check for spi_imx_setupxfer()
+         0cb1975c717528b662f096b2874e4dae8a9a2d2e ASoC: mediatek: mt8195: Move rt5682 specific dapm routes
+         7af317f7faaab09d5a78f24605057d11f5955115 ASoC: mediatek: mt8195: Set ETDM1/2 IN/OUT to COMP_DUMMY()
+         3046e16d0605765ff0c5b99f1fa13fa35312eae9 ASoC: mediatek: mt8195: Add mt8195-mt6359 card
+         95f6208b20e4d0b427d32e5881be4257a3aab3c8 ASoC: dt-bindings: mt8195: add compatible mt8195_mt6359
+         5b974f53424d16165b606e2e2f9208d450a5723c ASoC: dt-bindings: mt8195: add missing audio routing and link-name
+         7603b1443cbeba5a237067ababaf11095b5ba380 ASoC: mt8195: Add support for MT8395 Radxa NIO 12L
+         0b0a18f1bd72c64ae845a32d975f6d4c727b38e3 Merge remote-tracking branch 'asoc/for-6.16' into asoc-next
          
-
---===============1461348073660926030==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1744906865 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1744906835-ad1d7c5a1b4f16ae0d7ec5707b00968b5170748e
-
-21f4314e66ed8d40b2ee24185d1a06a07a512eb1 951a04ab3a2db4029debfa48d380ef834b93207e refs/heads/spi-6.15
------BEGIN PGP SIGNATURE-----
-
-iQEyBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgBKnEACgkQJNaLcl1U
-h9DrUgf4iEyj8ARB7JXY7mnXFmVL8Xb6gwDrD64Uep99DMgTjtxQdX9aSoVrXlfs
-IMaQRXCUx5bKOtOaov56lcobXNYMooVCWGtWWxszZLANFLiGJTzG9AQHzf0F0tzh
-G56wbLM4buNBOc6ocCg/8JzlQyi4ZKZTHetjrtzI6LnGsOfTHdU9eZ3Y1ZLJLXiQ
-iRu94iSO9r/1zAAEbRfmU81gmPhThV11Lb4VazCyUSRWEGzEp9SCA8Em156KXiHO
-R6rEUdT2m/5crex8d9EYwsjqf6DO9XYZunDpaY4rJLlXzCjPKNkLsE37xmEIpaEo
-ulOIrbsQcbKMUPTnxUt7rNrahhkj
-=Ien6
------END PGP SIGNATURE-----
-
---===============1461348073660926030==--
