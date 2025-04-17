@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5263371003638215047=="
+Content-Type: multipart/mixed; boundary="===============2715149356556093325=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 17 Apr 2025 15:57:50 -0000
-Message-Id: <174490547052.876973.9463497324474244227@gitolite.kernel.org>
+Date: Thu, 17 Apr 2025 15:57:52 -0000
+Message-Id: <174490547295.877205.18188189753987461583@gitolite.kernel.org>
 
---===============5263371003638215047==
+--===============2715149356556093325==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,32 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
-    old: 4811b0c220f212ff0b35da0d9fc993bce87868c0
+  - ref: refs/heads/40GbE
+    old: e8a1bd8344054ce27bebf59f48e3f6bc10bc419b
     new: 22ab6b9467c1822291a1175a0eb825b7ec057ef9
-    log: revlist-4811b0c220f2-22ab6b9467c1.txt
+    log: revlist-e8a1bd834405-22ab6b9467c1.txt
 
---===============5263371003638215047==
+--===============2715149356556093325==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4811b0c220f2-22ab6b9467c1.txt
+Content-Disposition: attachment; filename=revlist-e8a1bd834405-22ab6b9467c1.txt
 
+8982fc03fd630a38c0d0ebddef768b4d4707b659 devlink: add value check to devlink_info_version_put()
+fd5ef5203ce645f72a37b02a89f2eb20827f7d52 ixgbe: wrap netdev_priv() usage
+a0285236ab93fdfdd1008afaa04561d142d6c276 ixgbe: add initial devlink support
+f6b588af3d575acba469f15ef519ae4befb0ad63 ixgbe: add handler for devlink .info_get()
+5f214150c76dd4cffe51249d4c6a795efca90159 ixgbe: add E610 functions for acquiring flash data
+70db0788a2628698c0d2746b4864f032c2d59ff9 ixgbe: read the OROM version information
+904c2b4c0b48d738bc598f837afeb6a027e650d1 ixgbe: read the netlist version information
+8210ff738077ed3581e022e5cc8721aa041d42cb ixgbe: add .info_get extension specific for E610 devices
+4654ec6194b22af73c797508c72710e2e2bba4ad ixgbe: add E610 functions getting PBA and FW ver info
+6eae2aeb60b6f1cfa97e6e8f296027f15173a67a ixgbe: extend .info_get() with stored versions
+a0f45672d5e14af053d2dc5f552381351f6eeac0 ixgbe: add device flash update via devlink
+c9e563cae19e529abcc2cb90b4b793952f209260 ixgbe: add support for devlink reload
+b5aae90b6b369df01f424ee09205e287a11e085b ixgbe: add FW API version check
+29cb3b8d95c76a1d509029701435ed6b9e96a732 ixgbe: add E610 implementation of FW recovery mode
+4811b0c220f212ff0b35da0d9fc993bce87868c0 ixgbe: add support for FW rollback mode
 f15e410687954b8d1577d9cca30eeebc148cb1b3 net: txgbe: Update module description
 6e83166dd8003e8611f253426b85e0c3d933e1c2 mptcp: sched: remove mptcp_sched_data
 760ff076695cfaff3ab8fcb0bae33c8b4158818d mptcp: sched: split validation part
@@ -126,4 +141,4 @@ d55acb9732d981c7a8e07dd63089a77d2938e382 net: ipv6: ioam6: use consistent dst na
 422cf22aa332f80657eac39f6853f1340eabab10 net: pktgen: fix code style (WARNING: Prefer strscpy over strcpy)
 22ab6b9467c1822291a1175a0eb825b7ec057ef9 Merge branch 'net-pktgen-fix-checkpatch-code-style-errors-warnings'
 
---===============5263371003638215047==--
+--===============2715149356556093325==--
