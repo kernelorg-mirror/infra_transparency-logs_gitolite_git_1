@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8011009179358738744=="
+Content-Type: multipart/mixed; boundary="===============4416089874943215262=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Thu, 17 Apr 2025 22:50:34 -0000
-Message-Id: <174493023453.1245536.14423696186395252279@gitolite.kernel.org>
+Date: Thu, 17 Apr 2025 22:50:42 -0000
+Message-Id: <174493024227.1245854.2062887333020395043@gitolite.kernel.org>
 
---===============8011009179358738744==
+--===============4416089874943215262==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: 176f3009ae598d0523b267db319fe16f69577231
+  - ref: refs/heads/pending
+    old: 9e7bfc8de922407825998a6dde5a8a03722c4d5b
     new: 75f90ba47b2cda7de7a7bc1d099172516f6f96fa
-    log: revlist-176f3009ae59-75f90ba47b2c.txt
+    log: revlist-9e7bfc8de922-75f90ba47b2c.txt
 
---===============8011009179358738744==
+--===============4416089874943215262==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-176f3009ae59-75f90ba47b2c.txt
+Content-Disposition: attachment; filename=revlist-9e7bfc8de922-75f90ba47b2c.txt
 
 37a068fc9dc4feb8d76e8896bb33883d06c11a6b wifi: ath12k: Handle error cases during extended skb allocation
 10ec3d54df783bc9585b98559a1f556019312462 wifi: ath12k: Refactor tx descriptor handling in tx completion handler
@@ -49,4 +49,4 @@ e9e094a9734ea3bd4d4d117c915ccf129ac61ba1 wifi: ath12k: Prevent sending WMI comma
 7e7f948c7d14ab5a6cfb26146a0d4734781903e3 wifi: ath12k: Don't use %pK through printk
 75f90ba47b2cda7de7a7bc1d099172516f6f96fa wifi: wcn36xx: Don't use %pK through printk
 
---===============8011009179358738744==--
+--===============4416089874943215262==--
