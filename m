@@ -1,68 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============3462002257199962710=="
+Content-Type: multipart/mixed; boundary="===============4116897729413350353=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 17 Apr 2025 10:58:01 -0000
-Message-Id: <174488748139.597216.16664944476623292572@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 17 Apr 2025 11:03:43 -0000
+Message-Id: <174488782356.601940.5719252730130246527@gitolite.kernel.org>
 
---===============3462002257199962710==
+--===============4116897729413350353==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: cfe5e48bca15d45ea09563ad6d41050f9db72218
-    new: d68cb745251437d75d460d7de4d7fec55d0f2dc9
-    log: revlist-cfe5e48bca15-d68cb7452514.txt
-  - ref: refs/heads/tip/urgent
-    old: d1fda4f35aa918272ba8ed164afb75664f09083a
-    new: 11fee68f48f237fb2a83223871fba22395f18b47
+    old: 40b3e99d16f4a3c900de49e5095924297a3e0e69
+    new: 0331ed52048d58595265a8cd9f74ddadaf93d893
     log: |
-         96a720db59ab330c8562b2437153faa45dac705f perf/x86/intel/uncore: Fix the scale of IIO free running counters on SNR
-         32c7f1150225694d95a51110a93be25db03bb5db perf/x86/intel/uncore: Fix the scale of IIO free running counters on ICX
-         506f981ab40f0b03a11a640cfd77f48b09aff330 perf/x86/intel/uncore: Fix the scale of IIO free running counters on SPR
-         2703db909f459a8cbd258d7e597db4ada1431bb3 Merge branch into tip/master: 'core/urgent'
-         f20027fc1ba72f2ee607a1b3752f7c47f434ced2 Merge branch into tip/master: 'irq/urgent'
-         8d19913d1ee03ee1725732b412e8046c11b9c44e Merge branch into tip/master: 'perf/urgent'
-         6e4ffe528e882369031106438e250280ff0f3a78 Merge branch into tip/master: 'timers/urgent'
-         11fee68f48f237fb2a83223871fba22395f18b47 Merge branch into tip/master: 'x86/urgent'
+         9cb071ff935c144e9f4d5bbc2487798bc6584e57 5.4-stable patches
+         a0c67e6aa7bb48d01cbdfb4267e2d0e15baad110 5.10-stable patches
+         efae4ed670434e3a66efd2b781d8b0485fc1c023 5.15-stable patches
+         a54f62dda42272fd3dadfd23e072c27d04f73578 6.1-stable patches
+         028161ce5cf22443523ee8252672ffffca0b6f74 6.6-stable patches
+         7efdb26934916270b679bf844e570100490f8206 6.12-stable patches
+         8b15add30821696008f59ca3bd1bad45803f1c3d 6.13-stable patches
+         0331ed52048d58595265a8cd9f74ddadaf93d893 6.14-stable patches
          
 
---===============3462002257199962710==
+--===============4116897729413350353==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cfe5e48bca15-d68cb7452514.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-96a720db59ab330c8562b2437153faa45dac705f perf/x86/intel/uncore: Fix the scale of IIO free running counters on SNR
-32c7f1150225694d95a51110a93be25db03bb5db perf/x86/intel/uncore: Fix the scale of IIO free running counters on ICX
-506f981ab40f0b03a11a640cfd77f48b09aff330 perf/x86/intel/uncore: Fix the scale of IIO free running counters on SPR
-2703db909f459a8cbd258d7e597db4ada1431bb3 Merge branch into tip/master: 'core/urgent'
-f20027fc1ba72f2ee607a1b3752f7c47f434ced2 Merge branch into tip/master: 'irq/urgent'
-8d19913d1ee03ee1725732b412e8046c11b9c44e Merge branch into tip/master: 'perf/urgent'
-6e4ffe528e882369031106438e250280ff0f3a78 Merge branch into tip/master: 'timers/urgent'
-11fee68f48f237fb2a83223871fba22395f18b47 Merge branch into tip/master: 'x86/urgent'
-ccbf1b60cb23b692d4f8ee3a1e76ca8539a03faa Merge branch into tip/master: 'x86/merge'
-f7a5f889c9d3288ca1dc27ec596da6dcfd3ae04e Merge branch into tip/master: 'irq/core'
-4bf66f56a7eb4c1eca1cf0d908362b2079a490b4 Merge branch into tip/master: 'irq/drivers'
-4f84fc20c5500e5ab0fe54347828f04e8d61918e Merge branch into tip/master: 'irq/msi'
-9c9ed6a7179466d790adb7a36507874ae14f9e32 Merge branch into tip/master: 'perf/core'
-de41b679b71b48b074ec413e88ea64e3c3cf4418 Merge branch into tip/master: 'sched/core'
-486656291bc60e54f0fe8306c206b35767820f87 Merge branch into tip/master: 'timers/core'
-a414b437ea2bf4190264623c7426e58c14167098 Merge branch into tip/master: 'x86/alternatives'
-db690b1732318497e3b1754cb64e9a2d0562375d Merge branch into tip/master: 'x86/asm'
-0932f918be6020a33148259906c2d4b2aa260baf Merge branch into tip/master: 'x86/boot'
-bd3ab506923674f8f2537eec22f26c3f0575cccc Merge branch into tip/master: 'x86/bugs'
-be6e226c5b676c0e6e7d4b9bd236dc94b6d49dbb Merge branch into tip/master: 'x86/cpu'
-3e50a90d2a26b7d231a8f7a64f93fb1f575c1172 Merge branch into tip/master: 'x86/fpu'
-2afd8015c48f0eb286ac5c2e18a2a98ce0f80315 Merge branch into tip/master: 'x86/kconfig'
-d68dc538920f036b5f157308b22c01c50a6b3217 Merge branch into tip/master: 'x86/microcode'
-f4137c13bfd414f90e344902c1a9251302c05ee8 Merge branch into tip/master: 'x86/nmi'
-d68cb745251437d75d460d7de4d7fec55d0f2dc9 Merge branch into tip/master: 'x86/sev'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1744887843 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1744887811-4a404446272afe8295f550d8c22f18d1c8e1da64
 
---===============3462002257199962710==--
+40b3e99d16f4a3c900de49e5095924297a3e0e69 0331ed52048d58595265a8cd9f74ddadaf93d893 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgA4CMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+I9YP/juXE/NRYb40aVrbPAG6
+T2Wxro+93gavCrpYtLJ26HddqaZqlyKYYPFmiUyfQV2D/fc5eAUMj/gqOpkTALIc
+u6yOdZnbTxPdO1L49SWalmcRGLBu8KWUbyyKmj/7THbybABrn/4mHiIT1rsZ4tqT
+0faOa1A5LNVsgzZ5f/EQm3huaAsBQw1sOlStekvCmLKApaXaYivjvlY4nQgMUpzg
+QsDc2qVeqSlnDuv7DO+GmUprchmP2EtRbBt27m9Yzkh/4yGcHNgk2iWMb+iTLnua
+FEr8BieHn1GJcfYEp9/ndwvq39aJQZgzy+gBZ1VzPr6R0arKmVs1EaJV8E2/Bs1H
+HU9dLe5WZGkcwBA8aXCegdqWqglyAY5418p6HJ1NbMtW1Gyrg1DuXLwDWbv+XeEU
+GC90Wr5DL7jEkPR3keMWzEwS6/hkAvLkwIea9ies1nsrOEyBPPj/KpdewLNkubjm
+MNBPOTIm4ncRSwiG8Qh9HFSwMbZ2KdWaxPmRUmTm72s+EbER7EKbtdUtB5RyCkUz
+wVv62fhjy4qzmKz2yjZDb6AUtepiuLI0IlFQBb1DrriuyDZS2dKg7sxuCUpgas79
+LtaXIGYCbrTB3Hi84hGNzMZb1CpDwDrJtqIPHDOMo6V5PJi3yEkPkoUy2mFNQgwc
+skUqc4YC5PVt0yKN4abpcaCv
+=Wxbh
+-----END PGP SIGNATURE-----
+
+--===============4116897729413350353==--
