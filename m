@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Fri, 18 Apr 2025 15:49:33 -0000
-Message-Id: <174499137370.2161195.5949442608030823523@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Fri, 18 Apr 2025 15:52:25 -0000
+Message-Id: <174499154519.2164551.14680290367429689678@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/devel/pahole/pahole
+user: acme
 changes:
-  - ref: refs/heads/io_uring-6.15
-    old: b419bed4f0a62c65a57dd495185821dd56bc435c
-    new: f12ecf5e1c5eca48b8652e893afcdb730384a6aa
+  - ref: refs/tags/v1.30
+    old: b45268b74da1861577498cd5dd77103d55edc3e8
+    new: 396213cdb138ac83da659f82064de20372df65b2
     log: |
-         f12ecf5e1c5eca48b8652e893afcdb730384a6aa io_uring/zcrx: fix late dma unmap for a dead dev
+         52e071dbb1b6886471bf2c90eab95de89c5b3e0d Prep 1.30
          
