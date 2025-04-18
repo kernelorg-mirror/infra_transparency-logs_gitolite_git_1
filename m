@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Fri, 18 Apr 2025 17:48:24 -0000
-Message-Id: <174499850489.2263325.9839401115170439053@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Fri, 18 Apr 2025 17:50:48 -0000
+Message-Id: <174499864891.2266754.2672966032127459222@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
+repo: pub/scm/linux/kernel/git/palmer/linux
 user: palmer
 changes:
-  - ref: refs/heads/for-next
-    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    new: bafa451a96d0f1404aa1a5a267f78767a55fac71
+  - ref: refs/heads/fixes
+    old: 615e705fc8c7bdb6816faf09b5b16a0441f050e7
+    new: 8dde05fe0c730c62c5c2180c47cd90ad02e2f772
     log: |
-         89079520cef65d6da1e864eab4464effe5396e23 RISC-V: vDSO: Wire up getrandom() vDSO implementation
-         bafa451a96d0f1404aa1a5a267f78767a55fac71 riscv: defconfig: Remove EXPERT
+         8dde05fe0c730c62c5c2180c47cd90ad02e2f772 riscv: uprobes: Add missing fence.i after building the XOL buffer
          
