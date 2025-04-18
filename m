@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4920798246190566246=="
+Content-Type: multipart/mixed; boundary="===============6210590573394233798=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 18 Apr 2025 15:42:15 -0000
-Message-Id: <174499093530.2154918.4764855413762305684@gitolite.kernel.org>
+Date: Fri, 18 Apr 2025 15:42:18 -0000
+Message-Id: <174499093803.2155045.13713826497541380630@gitolite.kernel.org>
 
---===============4920798246190566246==
+--===============6210590573394233798==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 22ab6b9467c1822291a1175a0eb825b7ec057ef9
     new: 8066e388be48f1ad62b0449dc1d31a25489fa12a
     log: revlist-22ab6b9467c1-8066e388be48.txt
 
---===============4920798246190566246==
+--===============6210590573394233798==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -499,4 +499,4 @@ cfba1d1b61ae3f32e4bc06e9860711a4488d98b7 net/mlx5e: ethtool: Fix formatting of p
 1df4a945444f071a9c5e09580a485919c42d4de5 trace: tcp: Add const qualifier to skb parameter in tcp_probe event
 8066e388be48f1ad62b0449dc1d31a25489fa12a net: add UAPI to the header guard in various network headers
 
---===============4920798246190566246==--
+--===============6210590573394233798==--
