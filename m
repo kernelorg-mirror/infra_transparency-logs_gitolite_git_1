@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Fri, 18 Apr 2025 16:03:13 -0000
-Message-Id: <174499219311.2174007.1582357818499774346@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
+Date: Fri, 18 Apr 2025 16:06:17 -0000
+Message-Id: <174499237775.2177635.7939310137550288585@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/cxl/cxl
+user: djiang
 changes:
-  - ref: refs/heads/testing
-    old: c873e7c6f45ffb7ff76e948a32b07f925b3f1364
-    new: aff301f37e220970c2f301b5c65a8bfedf52058e
+  - ref: refs/heads/fixes
+    old: 36aace15d9bdcfe6f03e078915067e89719478f5
+    new: e453c8024bccb2f9a1b78085c90b360cc937be6a
     log: |
-         aa703203cbbca22ac46d42d4cd41232491827152 iio: frequency: ad9832: Use FIELD_PREP macro to set bit fields
-         52984bb5f0016076992ad143f626c89ed392fa06 iio: frequency: ad9832: Remove unused parameter from data documentation
-         aff301f37e220970c2f301b5c65a8bfedf52058e iio: dac: ad5592r: Delete stray unlock in ad5592r_write_raw()
+         d5f7d4ef49da3b13a872ed6a7426283994aabb5e cxl: Fix devm host device for CXL fwctl initialization
+         e453c8024bccb2f9a1b78085c90b360cc937be6a cxl/feature: Update out_len in set feature failure case
          
