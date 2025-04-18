@@ -1,9 +1,13 @@
+Content-Type: multipart/mixed; boundary="===============3312607512593171393=="
+MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 18 Apr 2025 08:39:54 -0000
-Message-Id: <174496559400.1794998.8866334180089399062@gitolite.kernel.org>
+Date: Fri, 18 Apr 2025 08:40:59 -0000
+Message-Id: <174496565903.1797397.4010738469523997856@gitolite.kernel.org>
+
+--===============3312607512593171393==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -11,33 +15,49 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/perf/core
-    old: fe8e5a3215ccd8e54ce0a9df1b89d4ab42ad8fec
-    new: 2492e5aba2be064d0604ae23ae0770ecc0168192
+  - ref: refs/heads/master
+    old: 2b626e67548c72560ba3601a06e0f12956a52434
+    new: 2db27e155acf955fd07ab3d7ae2a1fec15022ee8
+    log: revlist-2b626e67548c-2db27e155acf.txt
+  - ref: refs/heads/tip/urgent
+    old: 557f5c33f4260c9205b575e20e9907fefdd80342
+    new: 6117834c2acb5864cb04cf3e8f227f5142f5ca8f
     log: |
-         4f81cc2d1bf91a49d33eb6578b58db2518deef01 perf/x86/amd/uncore: Remove unused 'struct amd_uncore_ctx::node' member
-         05c9b0cbe4b822c42382d27e3f73918600594882 perf/x86/intel/uncore: Use HRTIMER_MODE_HARD for detecting overflows
-         6d937e044bc9bfd52dc50f7fc06d22018841472e perf/x86/amd/uncore: Use hrtimer for handling overflows
-         e1ed37b70fb355abf2e8032a2e972cdba53ae93c perf/x86/amd/uncore: Add parameter to configure hrtimer
-         2492e5aba2be064d0604ae23ae0770ecc0168192 perf/x86/amd/uncore: Prevent UMC counters from saturating
+         f96bc185d3f7b8a0eae91c0ea983a40645ad9969 Merge branch into tip/master: 'core/urgent'
+         b4f6472dcb15bf5b6803eafdc211683a92738235 Merge branch into tip/master: 'irq/urgent'
+         cbccc8027ca7df569eca313d53a6e14dc626409b Merge branch into tip/master: 'perf/urgent'
+         5eaf5b4e9b8e198c4a8a236437f43e1a8b6f8930 Merge branch into tip/master: 'timers/urgent'
+         6117834c2acb5864cb04cf3e8f227f5142f5ca8f Merge branch into tip/master: 'x86/urgent'
          
-  - ref: refs/heads/perf/merge
-    old: 757ba06f6757d95380cb76dcd69bd84455aec425
-    new: b6b34347d36a3e54cb859625c0318e7005a79152
-    log: |
-         610f6e14c29dc7f9637e8d9481e9f241f355e2e4 uprobes/x86: Add support to emulate NOP instructions
-         fe8e5a3215ccd8e54ce0a9df1b89d4ab42ad8fec selftests/bpf: Add 5-byte NOP uprobe trigger benchmark
-         4f81cc2d1bf91a49d33eb6578b58db2518deef01 perf/x86/amd/uncore: Remove unused 'struct amd_uncore_ctx::node' member
-         05c9b0cbe4b822c42382d27e3f73918600594882 perf/x86/intel/uncore: Use HRTIMER_MODE_HARD for detecting overflows
-         6d937e044bc9bfd52dc50f7fc06d22018841472e perf/x86/amd/uncore: Use hrtimer for handling overflows
-         e1ed37b70fb355abf2e8032a2e972cdba53ae93c perf/x86/amd/uncore: Add parameter to configure hrtimer
-         2492e5aba2be064d0604ae23ae0770ecc0168192 perf/x86/amd/uncore: Prevent UMC counters from saturating
-         b6b34347d36a3e54cb859625c0318e7005a79152 Merge branch 'perf/core' into perf/merge, to resolve conflicts
-         
-  - ref: refs/heads/x86/asm
-    old: 42c782fae38f0559e6355707ee0afde9ac16dcc3
-    new: 3ce4b1f1f24bbd9f1c349ecb6641dfa038bd0b5a
-    log: |
-         d109ff4f0bc32de354247a6e8ede3ffc8ef14cd0 x86/asm: Replace "REP; NOP" with PAUSE mnemonic
-         3ce4b1f1f24bbd9f1c349ecb6641dfa038bd0b5a x86/asm: Rename rep_nop() to native_pause()
-         
+
+--===============3312607512593171393==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-2b626e67548c-2db27e155acf.txt
+
+f96bc185d3f7b8a0eae91c0ea983a40645ad9969 Merge branch into tip/master: 'core/urgent'
+b4f6472dcb15bf5b6803eafdc211683a92738235 Merge branch into tip/master: 'irq/urgent'
+cbccc8027ca7df569eca313d53a6e14dc626409b Merge branch into tip/master: 'perf/urgent'
+5eaf5b4e9b8e198c4a8a236437f43e1a8b6f8930 Merge branch into tip/master: 'timers/urgent'
+6117834c2acb5864cb04cf3e8f227f5142f5ca8f Merge branch into tip/master: 'x86/urgent'
+5cd707656aa3223d819ab41ec40a75c60f549c23 Merge branch into tip/master: 'x86/merge'
+88e90700af2c9475e79393c39988d36909332d11 Merge branch into tip/master: 'perf/merge'
+53acb09e18164403ec336aa09a189954142c41ae Merge branch into tip/master: 'irq/core'
+8441c3857be35fa09c7192c0b2755e7f468bd980 Merge branch into tip/master: 'irq/drivers'
+d51dd73f42f3432852a3b7ffeafb7ac6db55ebf2 Merge branch into tip/master: 'irq/msi'
+bc536ece69a4f75e2f7776ce7d7168d4cb3b57de Merge branch into tip/master: 'sched/core'
+3e5c9297888065c192ae906c6123c1dc49adf64a Merge branch into tip/master: 'timers/core'
+c0b2b2e502e6df7e1ce786d3ad464f49cff627f6 Merge branch into tip/master: 'x86/alternatives'
+b18d672db61bea6429f2b849e6e14228bebef722 Merge branch into tip/master: 'x86/asm'
+424822dc897705be40fe8833d666bba880500bce Merge branch into tip/master: 'x86/boot'
+a5cc6948b108fe591aa7fb3f0c6840d13d23e6b1 Merge branch into tip/master: 'x86/bugs'
+ddda24085261b4c1ccd5baf104c5bf2bf7313cb8 Merge branch into tip/master: 'x86/cpu'
+217eb5e358e679c97a347f60f5ada312cf79f8b4 Merge branch into tip/master: 'x86/fpu'
+786665ded56bb81d597216ba95ba337fd0384f03 Merge branch into tip/master: 'x86/kconfig'
+253ed26615d75f93fa299117ed5fbc534f29d310 Merge branch into tip/master: 'x86/microcode'
+cf2bbf337ba131765a76de4335496ac280d82db4 Merge branch into tip/master: 'x86/mm'
+1d2df25961750c91bf057e928ab92d7853559a45 Merge branch into tip/master: 'x86/nmi'
+2db27e155acf955fd07ab3d7ae2a1fec15022ee8 Merge branch into tip/master: 'x86/sev'
+
+--===============3312607512593171393==--
