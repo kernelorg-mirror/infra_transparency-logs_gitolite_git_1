@@ -1,63 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8436391142009218640=="
+Content-Type: multipart/mixed; boundary="===============7341196861703239000=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 18 Apr 2025 12:38:03 -0000
-Message-Id: <174497988397.1991082.16131773441003932664@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Fri, 18 Apr 2025 12:39:24 -0000
+Message-Id: <174497996455.1992116.13137751474298970024@gitolite.kernel.org>
 
---===============8436391142009218640==
+--===============7341196861703239000==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 7309b15e15b8068612cf038a3430b5a005ef63cd
-    new: 33aa28024418782f644d8924026f1db21b3354a6
-    log: revlist-7309b15e15b8-33aa28024418.txt
-  - ref: refs/heads/tip/urgent
-    old: ceec5428185b1ec80e90d3baf141c1bb40a104da
-    new: 8131c8d8a4d3bdba34b7688b1f0e7ff8582a7253
+    old: bb6ba52ff5448647fbbabb6dd41663dc65e1cd1d
+    new: 241eb9d0b9833bcdae3383ac6639242b180b3173
     log: |
-         9898ed023b84a24dd774c404716416f33bf1ccb5 Merge branch into tip/master: 'core/urgent'
-         5919a3c1d1113b868f993eaf635402a75d2a920b Merge branch into tip/master: 'irq/urgent'
-         ee6249bca5f4470dc83837000d9b7c687b019249 Merge branch into tip/master: 'perf/urgent'
-         30341c866491e0026b756cc610c403b575b39340 Merge branch into tip/master: 'timers/urgent'
-         8131c8d8a4d3bdba34b7688b1f0e7ff8582a7253 Merge branch into tip/master: 'x86/urgent'
+         241eb9d0b9833bcdae3383ac6639242b180b3173 update_dyad: pass multiple --sha1 args as needed to dyad
          
 
---===============8436391142009218640==
+--===============7341196861703239000==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7309b15e15b8-33aa28024418.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-9898ed023b84a24dd774c404716416f33bf1ccb5 Merge branch into tip/master: 'core/urgent'
-5919a3c1d1113b868f993eaf635402a75d2a920b Merge branch into tip/master: 'irq/urgent'
-ee6249bca5f4470dc83837000d9b7c687b019249 Merge branch into tip/master: 'perf/urgent'
-30341c866491e0026b756cc610c403b575b39340 Merge branch into tip/master: 'timers/urgent'
-8131c8d8a4d3bdba34b7688b1f0e7ff8582a7253 Merge branch into tip/master: 'x86/urgent'
-5662261e18eaf158b9cf165e118ca6633260f05c Merge branch into tip/master: 'x86/merge'
-c9d996275e7136fc5495a0c56f9bf7b4123a6fd3 Merge branch into tip/master: 'perf/merge'
-be316614011afb6423dc52807978c43af92c5bdb Merge branch into tip/master: 'irq/core'
-847460cf2cc0854d568196e37147bb355a8bcee9 Merge branch into tip/master: 'irq/drivers'
-b8535cf24788c5a3e9f42d642320154f6a44384b Merge branch into tip/master: 'irq/msi'
-f8d2ac3d9ed6ec06ab1a3f1d57f33a2cdb5cfde4 Merge branch into tip/master: 'sched/core'
-1035252248557e48b165d67cf86f978b0f1c119e Merge branch into tip/master: 'timers/core'
-c69b5c7696eae3447e5a05335bf4f94383108c97 Merge branch into tip/master: 'x86/alternatives'
-c3e817f3cd6f01427c8fe4bfa5a61d4295736496 Merge branch into tip/master: 'x86/asm'
-3691abe4d42b85598350d91ec3f242cc64bee7b2 Merge branch into tip/master: 'x86/boot'
-1cf4116e51ecf1296f38553525b47952ab5f73ac Merge branch into tip/master: 'x86/bugs'
-417e07f1550df136bfef4e39d0ba53ce253aaa5e Merge branch into tip/master: 'x86/cpu'
-5c264e1083f28fa09b7e0eb8072e14b988b93847 Merge branch into tip/master: 'x86/fpu'
-86d9c9faf6f1c1fc348759ec9d3de04a53caa79e Merge branch into tip/master: 'x86/kconfig'
-4b9abd6f51d031a3dba63e3d84ffcc20f479395c Merge branch into tip/master: 'x86/microcode'
-62f8586a48db4c37d744fe7a0d131a5769bff86d Merge branch into tip/master: 'x86/mm'
-10020b19685223b36d4131768145fdf6251ea2dc Merge branch into tip/master: 'x86/nmi'
-33aa28024418782f644d8924026f1db21b3354a6 Merge branch into tip/master: 'x86/sev'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1744979994 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1744979963-bc8f91f0332983778397eaab1e4c366d4dd11e85
 
---===============8436391142009218640==--
+bb6ba52ff5448647fbbabb6dd41663dc65e1cd1d 241eb9d0b9833bcdae3383ac6639242b180b3173 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgCSBobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AMcP+weC46Z5rgHJWMtnm+Hb
+z0rY650otN9/ys+nMCLOi25BzVzVrehvhnC2kzeDPzI/IjJBEls0Ilpj/yXVxAtW
+0HaykC/31tG3O4pua85flt1SZBhdc+njxZBBHZNrAr+jnDjrOdzLw9UQyoK/hHJf
+pst31BlWffMt8If1EuZnu9IFyzalmuJzVn2Klw/7tbG2N6TWQ9ITgHuz+OkZUQE0
+GBBikZDtTFn80tQKK7kVH7q9DBmt/S++NgKv43T+4uzIuRr/2v0IqLV8wJjysjbA
+AhUUv2XnyxqXgMNDNGG7cROaGiufH2Plq8QMUJlZLCH14qcjdql1C69tqE9Qhxpw
+mKdWeBhSE5i3KgDvtp4gZZB9GlgvUPreGbXbl3n0MQwvB32yjywql7O3woXlEeLt
+K9x02fzh5AZZmLo/rcYUDWuIRHiF2aY3noLLKd1sBqWsrEXfs4hfVl3Kf7ztVYfm
+Tei6lXTVtXCCSxdsJz//fexHoWVhac9JRqC9npWjeVjQN6TFdq9onTd/kmvmMYcd
+gwFIDl0iFKTmeu82lrj1BwkW7B7CF/ekjaLguKa95A+Ex62J0DzbgntFY5bH52iT
+l9REDkDUn77sEvi9Qx9teU04qqJzuuXVQRTNgyXC5S6VbDDy1ZirYIW/Zi0t3peI
+WuN7v46FZOAsCtjOjgsD75ou
+=LzZN
+-----END PGP SIGNATURE-----
+
+--===============7341196861703239000==--
