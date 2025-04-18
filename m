@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3853392814749307168=="
+Content-Type: multipart/mixed; boundary="===============5001368744731170034=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/security/vulns
-Date: Fri, 18 Apr 2025 12:26:57 -0000
-Message-Id: <174497921788.1980328.6299144999795572944@gitolite.kernel.org>
+Date: Fri, 18 Apr 2025 12:28:38 -0000
+Message-Id: <174497931844.1981235.12667206101278391231@gitolite.kernel.org>
 
---===============3853392814749307168==
+--===============5001368744731170034==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: f8473adbe46a3ed6ec60256cc2e61dfc8e05b4af
-    new: 55f651203b7dcea3c919ab7fbfdc46c68519ade8
+    old: 55f651203b7dcea3c919ab7fbfdc46c68519ade8
+    new: a005320706f8dd994599711c2da197e8eb527057
     log: |
-         cb6f48e7e44e40286466b0d90dcf105fdf757464 dyad: support multiple fixing and vulnerable commits
-         33bedb04e37c1e24c86e7b5b27733c991d1496dc dyad: support multiple --vulnerable flags
-         55f651203b7dcea3c919ab7fbfdc46c68519ade8 dyad: take a --sha1 arg (or a few) instead of free args
+         a005320706f8dd994599711c2da197e8eb527057 Strip some mbox files
          
 
---===============3853392814749307168==
+--===============5001368744731170034==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1744979244 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1744979348 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1744979214-1926f270c2d4449ac3d392264c1a8076f7480cbb
+nonce 1744979317-9628f7bc078471670c6173c6a16a09ed8c4d0d41
 
-f8473adbe46a3ed6ec60256cc2e61dfc8e05b4af 55f651203b7dcea3c919ab7fbfdc46c68519ade8 refs/heads/master
+55f651203b7dcea3c919ab7fbfdc46c68519ade8 a005320706f8dd994599711c2da197e8eb527057 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgCRS0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RPwP/j/ZZzAXyD1MCw2oesCE
-kGq37P5Npatjz1hGqozQR4P996lPAVr8MSt06M99t/Nd+gvPDi7w2kMSqpiwXJea
-F+RpWs68Xl2VG+WJMX+iMnqZoXGyl0CXdS/oQNAnKabdPlW57Kf3Hzsi46N/GdKe
-fOJdEfrNmsr+244w+m9o2OVMn3XQu6aPVgaHXtR0plscQS852k2zQyzGXGVrqUlh
-rupOtFWCbUL/ZMWmUH/GtclZOBglijp/p9Bas1O93RqyoYHGBChGocWuHf6DMiiT
-PZ8RbkiG3ePbaUjDNl6RZraQoxNdW6NcrmuorqHeyrGJeAmacFv+cug8vU9j6xA+
-bu4Ly+JMNXmmTcdKOwFyxChrMV3zsJ4gxuC9LP2DJP1tU+ShHe1fLByOYHRNPmn9
-2lGKoSmA3MFihGT4w3zTrnH900AAD9LyKyJISEKGPemyFMoAa1bFvyKx67BCy5c7
-iWRg1PvHiiBL/G9fTFyjGHYFSDecRO+SpxYY5TkuCqzx3yV5K4Ta2ciGvOdIfiyS
-lroI2UnG2AQg7ILp21m5wYO+a2qIjRNG2efnzy6+zz4GmMj2dRJfsqee4IyIkfQw
-1mLXhqm4BG+UhFN4RBOmEAJBpyhzSA82bZ6ZHQH27SHznaaJoS++IRhom7oZEPbH
-NsAhuuZ7TsD7VAHXUB89j/Ox
-=GN4D
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgCRZQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fuAP/0iczd0CxQBKX0iqcTXl
+q3H8DNnoFM9tVteZtpisbXZYKwfX437nlQ+Bxdy2zNa9gRuTF962nFYl93Fo7IKF
+VWKHphwdsv3KxltHCMvLBgkMr6FucnMAy9w0varYTMAXZ+na8392BRR/JErbhOOL
+f4jSp8sv0NTWxcysf+3l1l4gb2Bbcl0XYkXcg5dYN19+P0Y/TMWjQUYF+t2w2MqU
+pyjZLd6XdNdoJ1c+DLCN1VbFesBBjn/eSPCkw+o6/1OAwI9tSeHzaUqkGt+Twspp
+a1rNm03ODSiM8nwBzTVkhhqekRf+tD2kjlroux9mPHYplG6gt2gmsH3Tq8NSLa9r
+Z+uQ9edWMBBqOAiJOuCqHGzwmaZjblU5lZm/N2bLAaGTpcoJhQUJYg1MqxiCvJBp
+IPPcCFmKmypST58JJZtHEgyEkuS58GsYQ3NzNvE3Zbw/fhi264jbtW/aRtDgySZb
+VzQ6ioqdsjE0UNXeIu0hlWhInAZ/lQnShkYQofy9WfWaIHRR3h1s3ZdqFkXTfu4d
+p4u5YVlv/LwzSNMhJRN/PRCPFg0hv5nNiPyJP8EKlH9/4IlYaB8Xk7f55B6w4Zc5
+1rsQQQo2BZ4nYL+Q3S4y+GWy4/QAJ8/+tY5Cj0ap7TjRD37wIWyughX3PzWvGJLf
+8PkHCEGETY4AsrhbFhXfRdJZ
+=wSq1
 -----END PGP SIGNATURE-----
 
---===============3853392814749307168==--
+--===============5001368744731170034==--
