@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7034041312340539317=="
+Content-Type: multipart/mixed; boundary="===============6538600243403202137=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Fri, 18 Apr 2025 14:43:39 -0000
-Message-Id: <174498741915.2101131.6679476502030229296@gitolite.kernel.org>
+Date: Fri, 18 Apr 2025 14:43:56 -0000
+Message-Id: <174498743618.2101483.8903100981143878042@gitolite.kernel.org>
 
---===============7034041312340539317==
+--===============6538600243403202137==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/arighi/linux
 user: arighi
 changes:
-  - ref: refs/heads/scx
-    old: a21738a852ce83d04cb83a60b53f5424010cb2e7
-    new: 3c5dad0e91d875858eeac2c9bc9972e8258dbc33
-    log: revlist-a21738a852ce-3c5dad0e91d8.txt
+  - ref: refs/heads/master
+    old: a8662bcd2ff152bfbc751cab20f33053d74d0963
+    new: fc96b232f8e7c0a6c282f47726b2ff6a5fb341d2
+    log: revlist-a8662bcd2ff1-fc96b232f8e7.txt
 
---===============7034041312340539317==
+--===============6538600243403202137==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a21738a852ce-3c5dad0e91d8.txt
+Content-Disposition: attachment; filename=revlist-a8662bcd2ff1-fc96b232f8e7.txt
 
 ab4976976ee117ed53b752bac83453e6f64dad08 Input: drop vb2_ops_wait_prepare/finish
 a7550ff59edfc768a8600c1e5c24c304208696a5 Input: Switch to use hrtimer_setup()
@@ -78,13 +78,6 @@ e6a03a666995a6b64cd8a28cb5e5b9c6a162444a x86: Get rid of Makefile.postlink
 82e7a5997170f105dc5452f83f349e6e625e61f5 Documentation/kbuild: Fix indentation in modules.rst example
 6c9567e0850be2f0f94ab64fa6512413fd1a1eb1 KVM: s390: Don't use %pK through tracepoints
 0c7fbae5bc782429c97d68dc40fb126748d7e352 KVM: s390: Don't use %pK through debug printing
-de203da734fae00e75be50220ba5391e7beecdf9 ntb_hw_switchtec: Fix shift-out-of-bounds in switchtec_ntb_mw_set_trans
-8144e9c8f30fb23bb736a5d24d5c9d46965563c4 ntb: intel: Fix using link status DB's
-4279e72cab31dd3eb8c89591eb9d2affa90ab6aa ntb_perf: Delete duplicate dmaengine_unmap_put() call in perf_copy_chunk()
-1991934ce5fbaa6e9f4b879461f9bd06bfdbd409 MAINTAINERS: Update AMD NTB maintainers
-fd5625fc86922f36bedee5846fefd647b7e72751 ntb: use 64-bit arithmetic for the MSI doorbell mask
-aff12700b8dd7422bfe2277696e192af4df9de8f ntb: reduce stack usage in idt_scan_mws
-bf8a7ce7e4c7267a6f5f2b2023cfc459b330b25e ntb_hw_amd: Add NTB PCI ID for new gen CPU
 32a43b6014662f1227c906c9de00886aecc0a508 drm/i915/watermark: Check bounds for scaler_users for dsc prefill latency
 af9ec6e4682c089028d763b0b77c04fa2ddae268 drm/i915/display: Fix build error without DRM_FBDEV_EMULATION
 488975c2d3e171bd07ec5caaf3c9cbc6a0746e2d drm/xe/eustall: Fix a possible pointer dereference after free
@@ -138,17 +131,6 @@ dce8bd9137b88735dd0efc4e2693213d98c15913 drm/amdgpu/gfx12: fix num_mec
 85a063b8b281e144ed96463936fb4e6b3d4fe9e4 drm/i2c: tda998x: select CONFIG_DRM_KMS_HELPER
 fcc0f16923621e670d5ccf486160e4a1b960b17f ASoC: SOF: Intel: Let SND_SOF_SOF_HDA_SDW_BPT select SND_HDA_EXT_CORE
 adb9061ecc02bcfd5dc140f33c4fcd795d6ed012 Merge tag 'kvm-s390-next-6.15-1' of https://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into HEAD
-121df45b37a1016ee6828c2ca3ba825f3e18a8c1 s390/entry: Fix setting _CIF_MCCK_GUEST with lowcore relocation
-1f266fd704ef3be8a4b2a066edf25b75fd90a9c6 s390/lowcore: Remove unused machine_flags
-8691abd3afaadd816a298503ec1a759df1305d2e s390/pci: Fix zpci_bus_is_isolated_vf() for non-VFs
-d104937874216421f29dd54e6df93cbb994bc100 s390/kvm: Split kvm_host header file
-5eeec5694514527e509028520b0d356eb58a2f50 s390/asm-offsets: Include ftrace_regs.h instead of ftrace.h
-b9be1bee2f271ed3c68e0bd3ec099951b656447b s390/asm-offsets: Remove ASM_OFFSETS_C
-3232f1c8086506c5728f46e5a0d59b860c303b8d s390/processor: Use bitop functions for cpu flag helper functions
-991a20173a1fbafd9fc0df0c7e17bb62d44a4deb s390: Fix linker error when -no-pie option is unavailable
-1018424ace7ed6dee9ddc36256162250017e4401 s390/smp: Add support for HOTPLUG_SMT
-af6bfcd1698d822ab6a2d543b884b3eedc8c7d82 s390/mm: Dump fault info in case of low address protection fault
-807c2743035446cf0484772a76e1c35ce27fd8e3 s390/pci: Fix dev.dma_range_map missing sentinel element
 a3c3c66670cee11eb13aa43905904bf29cb92d32 perf/core: Fix child_total_time_enabled accounting bug at task exit
 6b4568b675b14cf890c0c21779773c3e08e80ce5 accel/ivpu: Fix warning in ivpu_ipc_send_receive_internal()
 9a6f56762d23a1f3af15e67901493c927caaf882 accel/ivpu: Fix deadlock in ivpu_ms_cleanup()
@@ -165,22 +147,6 @@ f0a0bd3d23a44a2c5f628e8ca8ad882498ca5aae cgroup/cpuset: Code cleanup and comment
 65046b5e0ad71990b5a0256710cf050d2d2ab3dd selftest/cgroup: Update test_cpuset_prs.sh to use | as effective CPUs and state separator
 b2b2b4d058b776be0168b4ea46ed84cfb0f884e9 selftest/cgroup: Clean up and restructure test_cpuset_prs.sh
 e8a457b73569d7096ff46c307c37dbba55dd7a9c selftest/cgroup: Add a remote partition transition test to test_cpuset_prs.sh
-2510859475d7f46ed7940db0853f3342bf1b65ee cifs: fix integer overflow in match_server()
-be5d361e3083a469385eff34b46ad58eb97b1e38 cifs: remove unreachable code in cifs_get_tcp_session()
-a091d9711bdee46a76fa14fad31cb261a6dad74a smb:client: smb: client: Add reverse mapping from tcon to superblocks
-287906b20035a04a234d1a3c64f760a5678387be smb: client: Store original IO parameters and prevent zero IO sizes
-764da2fff399756d09b02db7fa7bd05e57928cc0 smb: client: Update IO sizes after reconnection
-bf782ada459efde8fe9a488cf30a40d32caf787f cifs: Add a new xattr system.smb3_ntsd_sacl for getting or setting SACLs
-b1a37df6ba2f13be341130b9fe10649ef6a42e9a cifs: Add a new xattr system.smb3_ntsd_owner for getting or setting owner
-7d14dd683b1b00451fecfdfc86d2d6539bd8a21e cifs: Allow to disable or force initialization of NetBIOS session
-665e18794804f8b42b6ae5d436a154342f62e288 cifs: Improve handling of NetBIOS packets
-e94e882a6d69525c07589222cf3a6ff57ad12b5b cifs: Fix negotiate retry functionality
-6aa9f1c9cd09c1c39a35da4fe5f43446ec18ce1e cifs: Fix access_flags_to_smbopen_mode
-4236ac9fe5b8b42756070d4abfb76fed718e87c2 cifs: Fix querying and creating MF symlinks over SMB1
-e255612b5ed9f179abe8196df7c2ba09dd227900 cifs: Add fallback for SMB2 CREATE without FILE_READ_ATTRIBUTES
-b07687edee99b9e53465fbd7f24406616f67070e cifs: Improve SMB2+ stat() to work also without FILE_READ_ATTRIBUTES
-e97aec7889543663202e24ec51e1e2f9cb236472 cifs: Do not add FILE_READ_ATTRIBUTES when using GENERIC_READ/EXECUTE/ALL
-d33d729afcc8ad2148d99f9bc499b33fd0c0d73b s390/vfio-ap: Fix no AP queue sharing allowed message written to kernel log
 acfcaf90db1fa833236d9f8249b6099cf638e5d1 smccc: kvm_guest: Align with DISCOVER_IMPL_CPUS ABI
 7d6c63c3191427a69ffd1383146df01f695d6195 cgroup: rstat: call cgroup_rstat_updated_list with cgroup_rstat_lock
 7cf6dd467e87664f5b3f4ca7be324569464edf0b drm/virtio: Don't attach GEM to a non-created context in gem_object_open()
@@ -200,9 +166,6 @@ d24fa977eec53399a9a49a2e1dc592430ea0a607 tracing: fprobe: Fix to lock module whi
 dd941507a9486252d6fcf11814387666792020f3 tracing: fprobe events: Fix possible UAF on modules
 7ca59947b5fcf94e7ea4029d1bd0f7c41500a161 pwm: mediatek: Prevent divide-by-zero in pwm_mediatek_config()
 1f5bdd3b0c7000156d99faeed19bd522615b38e3 smccc: kvm_guest: Remove unneeded semicolon
-f83e10a233059b74eaa2716e903b57464b3d3b0c cifs: Remove cifs_truncate_page() as it should be superfluous
-28753e4304547a15b33f750fcfe1b1c7b6aa7ad7 cifs: Implement is_network_name_deleted for SMB1
-827a1bd9af9df6a4023736ff52475b2a5395d91d cifs: update internal version number
 889f32b4d7bf686ee4561b8139b8a66d11eb88d0 Merge tag 'drm-misc-next-fixes-2025-03-27' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-next
 41ae768afbf514d491d0852b6c927d63291354d3 Merge tag 'drm-intel-next-fixes-2025-03-25' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-next
 227bcf2c55c80cf61144b4ac2d5a29babee35b8b Merge tag 'drm-xe-next-fixes-2025-03-27' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-next
@@ -210,7 +173,6 @@ f83e10a233059b74eaa2716e903b57464b3d3b0c cifs: Remove cifs_truncate_page() as it
 fb8a3eba9c812b67f9cf5531e5b55d13a51e938e KVM: arm64: Only read HPFAR_EL2 when value is architecturally valid
 1cf3e126f1528cdcaf77524f48e54ccbcb029473 arm64: Convert HPFAR_EL2 to sysreg table
 26fbdf36922711f285fd185ad644f0acdf15959f KVM: arm64: Don't translate FAR if invalid/unsafe
-12e0b15b1986736af8c64b920efad00c655a3c79 crypto: inside-secure/eip93 - acquire lock on eip93_put_descriptor hash
 975776841e689dd8ba36df9fa72ac3eca3c2957a sched/isolation: Make CONFIG_CPU_ISOLATION depend on CONFIG_SMP
 169eae7711ea4b745e2d33d53e7b88689b10e1a0 rseq: Eliminate useless task_work on execve
 72eea84a1092b50a10eeecfeba4b28ac9f1312ab scsi: iscsi: Fix missing scsi_host_put() in error path
@@ -267,10 +229,6 @@ a0d55dd740db75acca2afbd84a2f54f644dbc268 lib/crc: remove unnecessary prompt for 
 31ab49a99f0572da6a62f121878e2155b04904e5 lib/crc: document all the CRC library kconfig options
 b261d2222063a9a8b9ec284244c285f2998ee01e lib/crc: remove CONFIG_LIBCRC32C
 e2cb28ea3e01cb25095d1a341459901363dc39e9 Merge tag 'drm-misc-next-fixes-2025-04-04' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-next
-a52a3c18cdf369a713aca7593332bbb998c71d96 Merge tag 'ntb-6.15' of https://github.com/jonmason/ntb
-9f867ba24d3665d9ac9d9ef1f51844eb4479b291 Merge tag '6.15-rc-part2-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
-dd9db3bff8ec419ab0e5f18092f89a8fddc37f15 Merge tag 's390-6.15-2' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
-a8662bcd2ff152bfbc751cab20f33053d74d0963 Merge tag 'v6.15-p3' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 9bae8f4f21689b96a4b4fc505740dd97b9142c41 selftests/bpf: Make res_spin_lock test less verbose
 946661e3bef8efa11ba8079d4ebafe6fc3b0aaad Merge branch 'next' into for-linus
 8fa7292fee5c5240402371ea89ab285ec856c916 treewide: Switch/rename to timer_delete[_sync]()
@@ -830,28 +788,5 @@ b5c6891b2c5b54bf58069966296917da46cda6f2 Merge tag 'net-6.15-rc3' of git://git.k
 399537bea39b07b106e8f68f83e9b76864d08c2d Merge tag 'vfio-v6.15-rc3' of https://github.com/awilliam/linux-vfio
 9e99c1accb1df0b07e409ce21f15fa4e8ddca28f Merge tag 'bcachefs-2025-04-17' of git://evilpiepirate.org/bcachefs
 fc96b232f8e7c0a6c282f47726b2ff6a5fb341d2 Merge tag 'pci-v6.15-fixes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
-8bd6ff4e1502ff1f8aed63fdd19d932db17ed707 sched_ext: Drop "ops" from scx_ops_enable_state and friends
-6c902bbf67cfe1747f7a49f5b5cf38a49d516b96 sched_ext: Drop "ops" from scx_ops_helper, scx_ops_enable_mutex and __scx_ops_enabled
-adc261dd2ea5f877899cade3a7f67afcb0820cf6 sched_ext: Drop "ops" from scx_ops_bypass(), scx_ops_breather() and friends
-506fef373a0a4a85b3175427ae081bcf32a64a48 sched_ext: Drop "ops" from scx_ops_exit(), scx_ops_error() and friends
-7925c10bdb9eeda5593505b2b78f9d2b806d6e45 sched_ext: Drop "ops" from scx_ops_{init|exit|enable|disable}[_task]() and friends
-4a595472fc2eb78fdf6a8bfaf47613f76e605fc0 sched_ext: Drop "ops" from SCX_OPS_TASK_ITER_BATCH
-bc1f97f467da0a8d0c774c14252223b003c9e6c0 sched_ext: idle: Extend topology optimizations to all tasks
-fc1ab1bad39f243ef1a7f77fdc24511ac39fa821 sched_ext: idle: Explicitly pass allowed cpumask to scx_select_cpu_dfl()
-a5f94a8ca121f488d061ecd8d5e9441658fdd625 sched_ext: idle: Accept an arbitrary cpumask in scx_select_cpu_dfl()
-028fa9d436826e8453a02f8bdc407cc708f26789 sched_ext: idle: Introduce scx_bpf_select_cpu_and()
-bbc5cfd0c007fa900d10613d18bbb0f6ec4f529f selftests/sched_ext: Add test for scx_bpf_select_cpu_and()
-d47d246f391b3dfaf4b87db340038158a19a2bba sched_ext: Use kvzalloc for large exit_dump allocation
-beb55dc3eaea700eea5f7e8ef63ed6afe01e2f58 sched_ext: Remove cpu.weight / cpu.idle unimplemented warnings
-5a9366a9c26012336cf0399e3c22f5cdcf68515f sched_ext: Mark SCX_OPS_HAS_CGROUP_WEIGHT for deprecation
-6694bb36271cf9f163d0971ee49cbb14f85df1df sched_ext: Indentation updates
-b7dd8be37c72de08eeb08a027d3436a243be984e sched_ext: Remove scx_ops_enq_* static_keys
-6cd13a5eac92839cee61607f516f594b5e24c975 sched_ext: Remove scx_ops_cpu_preempt static_key
-d45b01034fc678eb31a0e1f0b3d1effb9fe27402 sched_ext: Remove scx_ops_allow_queued_wakeup static_key
-95d5e7a3442dccdd717d114cd57ba1524b0962a1 sched_ext: Make scx_has_op a bitmap
-78f3da72ab9656392b86367e141a44910bbb05ff sched/core: Remove obsolete comment about SCHED_DEBUG
-689a91c639bce2624150807d46ae180aebe87caa sched_ext: idle: Always prefer local idle CPUs before cross-node CPUs
-30ff9f6e4afb5888fb989dcd1dc950f9764f0076 WIP: sched_ext: track currently locked rq
-3c5dad0e91d875858eeac2c9bc9972e8258dbc33 WIP: sched_ext: Fix missing rq lock in scx_bpf_cpuperf_set()
 
---===============7034041312340539317==--
+--===============6538600243403202137==--
