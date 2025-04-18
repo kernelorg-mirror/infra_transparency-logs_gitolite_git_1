@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Fri, 18 Apr 2025 05:03:35 -0000
-Message-Id: <174495261547.1597553.8712548745895049167@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Fri, 18 Apr 2025 05:03:44 -0000
+Message-Id: <174495262472.1597867.57061044887642535@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: iwamatsu
 changes:
-  - ref: refs/heads/pending
-    old: 2d2ccff4c0efa4cb55d0a21c75c6e7162788f9db
-    new: 4bdea1eb78520592d647e1f2cbaaa93eaf8e7501
-    log: |
-         6724ba7bbf3ffa32f0c1ab5456d5a21b3cbe5aac wifi: ath12k: handle scan link during vdev create
-         4bdea1eb78520592d647e1f2cbaaa93eaf8e7501 wifi: ath12k: Use scan link ID 15 for all scan operations
-         
+  - ref: refs/tags/v5.10.236-cip59-rebase
+    old: 0000000000000000000000000000000000000000
+    new: 3b7c64beabd6c6793db38ad7137f7a049c1e4616
