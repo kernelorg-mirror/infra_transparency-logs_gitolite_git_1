@@ -1,30 +1,253 @@
-Content-Type: multipart/mixed; boundary="===============2935629992517693267=="
+Content-Type: multipart/mixed; boundary="===============5590712261228629559=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 18 Apr 2025 04:11:25 -0000
-Message-Id: <174494948588.1518329.16923442494358019438@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iommu/linux
+Date: Fri, 18 Apr 2025 04:25:09 -0000
+Message-Id: <174495030995.1529904.6672929718014136787@gitolite.kernel.org>
 
---===============2935629992517693267==
+--===============5590712261228629559==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/iommu/linux
+user: joro
 changes:
-  - ref: refs/heads/spi-6.16
-    old: 4cc9cf2f437ccf6915100c2f38f63cfb1abad6f9
-    new: cbc9d9e108f4f2a3c061ac6233a424accde8b564
-    log: revlist-4cc9cf2f437c-cbc9d9e108f4.txt
+  - ref: refs/heads/master
+    old: 896b51994e568b33a11da947ba643ebcd6f840c4
+    new: 3978d285295362a0e7cc457c5da7869f1158095e
+    log: revlist-896b51994e56-3978d2852953.txt
+  - ref: refs/heads/next
+    old: 767e22001dfce64cc03b7def1562338591ab6031
+    new: e52e6500a343619cbccd290af7311a686e2ccec2
+    log: revlist-767e22001dfc-e52e6500a343.txt
 
---===============2935629992517693267==
+--===============5590712261228629559==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4cc9cf2f437c-cbc9d9e108f4.txt
+Content-Disposition: attachment; filename=revlist-896b51994e56-3978d2852953.txt
+
+7ca59947b5fcf94e7ea4029d1bd0f7c41500a161 pwm: mediatek: Prevent divide-by-zero in pwm_mediatek_config()
+e7327c193014a4d8666e9c1cda09cf2c060518e8 pwm: rcar: Improve register calculation
+928446a5302eee30ebb32075c0db5dda5a138fb7 pwm: fsl-ftm: Handle clk_get_rate() returning 0
+0405d4b63d082861f4eaff9d39c78ee9dc34f845 isofs: Prevent the use of too small fid
+9bae8f4f21689b96a4b4fc505740dd97b9142c41 selftests/bpf: Make res_spin_lock test less verbose
+1ddaff40c08abb926be5ba713c5efc412d0836c5 crypto: tegra - Fix IV usage for AES ECB
+6f8a394aa952257575910d57cf0a63627fa949a2 cifs: Ensure that all non-client-specific reparse points are processed by the server
+b365b9d404b7376c60c91cd079218bfef11b7822 smb311 client: fix missing tcon check when mounting with linux/posix extensions
+ed471e1984939a500eea179bc16e1c2aadf00db5 memblock tests: Fix mutex related build error
+eb3a04a8516ee9b5174379306f94279fc90424c4 ovl: don't allow datadir only
+a6eb9a4a69cc360b930dad9dc8513f8fd9b3577f ovl: remove unused forward declaration
+6c44e5354d4d16d9d891a419ca3f57abfe18ce7a RAS/AMD/ATL: Include row[13] bit in row retirement
+00e53d0f4baedd72196b65f00698b2a5a537dc2b pwm: Let pwm_set_waveform() succeed even if lowlevel driver rounded up
+fda6e0034e9da64e1cec31f4539b6c7abd9ed8be pwm: stm32: Search an appropriate duty_cycle if period cannot be modified
+a85e08a05bf77d5d03b4ac0c59768a606a1b640b pwm: axi-pwmgen: Let .round_waveform_tohw() signal when request was rounded up
+cfa5f336bdbde49cf0102ab55007b34361988fd1 devpts: Fix type for uid and gid params
+a94fd938df2b1628da66b498aa0eeb89593bc7a2 virtiofs: add filesystem context source name check
+9546ad1a9bda7362492114f5866b95b0ac4a100e nvme: requeue namespace scan on missed AENs
+1296dcbad2316882f98559762b518eaa6aefcd92 dt-bindings: xilinx: Remove myself from maintainership
+4808595a9922e89726ec5611d7749b63966b7fa8 tracing: Hide get_vm_area() from MMUless builds
+bb5e07cb927724e0b47be371fa081141cfb14414 hfs/hfsplus: fix slab-out-of-bounds in hfs_bnode_read_key
+a8605b0ed187f53f077a769ce2b52ddb97f3eb42 ACPI: button: Only send `KEY_POWER` for `ACPI_BUTTON_NOTIFY_STATUS`
+6b395d31146a3fae775823ea8570a37b922f6685 RDMA/bnxt_re: Fix budget handling of notification queue
+62dd71e691109bb44ba8ad7f58b3a2ac6b69d496 RDMA/ucaps: Avoid format-security warning
+b988685388effd648150aab272533f833a2a70f0 ACPI: EC: Set ec_no_wakeup for Lenovo Go S
+95ba3850fed03e01b422ab5d7943aeba130c9723 RDMA/usnic: Fix passing zero to PTR_ERR in usnic_ib_pci_probe()
+d247667ecd6411ec5bec9a38db7feaa599ce3ee2 RDMA/mlx5: Fix compilation warning when USER_ACCESS isn't set
+1b2fe85f3cf19026a0e9037242bcbf7e736b22e3 RDMA/rxe: Fix null pointer dereference in ODP MR check
+7ab4f0e37a0f4207e742a8de69be03984db6ebf0 ACPI PPTT: Fix coding mistakes in a couple of sizeof() calls
+9beb2c91fb86e0be70a5833c6730441fa3c9efa8 RDMA/hns: Fix wrong maximum DMA segment size
+71d2143266efe0fca1583994af65c08643548316 dt-bindings: display: nwl-dsi: Allow 'data-lanes' property for port@1
+2bd73c7949ea317838da70d7c9c19ef7291cfcdd dt-bindings: interrupt-controller: fsl,irqsteer: Add i.MX94 support
+f0b12d3f28b19357eb323286a65c951cb9499ed4 dt-bindings: timer: nxp,sysctr-timer: Add i.MX94 support
+ad320e408a8c95a282ab9c05cdf0c9b95e317985 ata: pata_pxa: Fix potential NULL pointer dereference in pxa_ata_probe()
+62baf70c327444338c34703c71aa8cc8e4189bd6 nvme: re-read ANA log page after ns scan completes
+e3105f54a51554fb1bbf19dcaf93c4411d2d6c8a nvme: multipath: fix return value of nvme_available_path
+58029c39cdc54ac4f4dc40b4a9c05eed9f9b808a RAS/AMD/FMPM: Get masked address
+c7efac7f1c71470ecd9b1a9a49b1b8164583c7dc cifs: Fix support for WSL-style symlinks
+8d46a27085039158eb5e253ab8a35a0e33b5e864 ata: sata_sx4: Add error handling in pdc20621_i2c_read()
+b013b817f32fb8c560b6970e1002e94f1c725923 nvme-tcp: fix use-after-free of netns by kernel TCP socket.
+2ccd42b959aaf490333dbd3b9b102eaf295c036a s390/virtio_ccw: Don't allocate/assign airqs for non-existing queues
+8231a0e632405a03018034848d3c4620d7ba1dca s390: Add z17 elf platform
+c51ea9888e88fc20df656dab01263f17529c7374 s390: Allow to compile with z17 optimizations
+df194f57de7136b94bf25d2dce1da765b6c13654 s390/cpumf: Update CPU Measurement facility extended counter set support
+aa1ac98268cd1f380c713f07e39b1fa1d5c7650c s390/cpumf: Fix double free on error in cpumf_pmu_event_init()
+2b5f0c5bc819af2b0759a8fcddc1b39102735c0f nvmet-fcloop: swap list_add_tail arguments
+f22c458f9495f9164358961dd73b2f62356c9750 nvmet-fcloop: replace kref with refcount
+72511b1dc4147dc4af74ddb98c22366124b26d4e nvmet-fcloop: add ref counting to lport
+aeaa0913a6994bf56572a7035df3bce9ea183556 nvmet-fc: inline nvmet_fc_delete_assoc
+88517565b5929436741012938702385ef885a9c2 nvmet-fc: inline nvmet_fc_free_hostport
+1a909565733edb1d46c8e9692a1ee278912b5a77 nvmet-fc: update tgtport ref per assoc
+b0b26ad0e1943de25ce82a7e5af3574f31b1cf99 nvmet-fc: take tgtport reference only once
+70289ae5cac4d3a39575405aaf63330486cea030 nvmet-fc: put ref when assoc->del_work is already scheduled
+45f5dcdd049719fb999393b30679605f16ebce14 RDMA/cma: Fix workqueue crash in cma_netevent_work_handler
+cfb32c656eb7bf1d7a776b8793bb6baa6f58b5a4 crypto: scomp - Fix null-pointer deref when freeing streams
+b7b39df7e710b0068356e4c696af07aa10e2cd3d crypto: caam/qi - Fix drv_ctx refcount bug
+1595f15391b81815e4ef91c339991913d556c1b6 erofs: set error to bio if file-backed IO fails
+d385f15d5ba0b4f62575eea09912268bf8136a56 erofs: add __packed annotation to union(__le16..)
+be45319c9fb1d5c272da9fd34854a7d39e7f58d1 erofs: fix encoded extents handling
+9502dd5c7029902f4a425bf959917a5a9e7c0e50 smb: client: fix UAF in decryption with multichannel
+e1a453a57bc76be678bd746f84e3d73f378a9511 tracing: Do not add length to print format in synthetic events
+9a0e6f15029e1a8a21e40f06fd05aa52b7f063de RDMA/core: Silence oversized kvmalloc() warning
+16cb6b0509b65ac89187e9402e0b7a9ddf1765ef cifs: Fix encoding of SMB1 Session Setup Kerberos Request in non-UNICODE mode
+9ce7351291a6c64fa8dc36c786632ae5ded19bd5 cifs: Remove explicit handling of IO_REPARSE_TAG_MOUNT_POINT in inode.c
+12193b9801e7559745a7a3202d3d3c9265905461 cifs: Improve handling of name surrogate reparse points in reparse.c
+56c0bea52cef0bb02c4d6c23669ef485b5f67c87 cifs: Split parse_reparse_point callback to functions: get buffer and parse buffer
+ef86ab131d9127dfbfa8f06e12441d05fdfb090b cifs: Fix querying of WSL CHR and BLK reparse points over SMB1
+d4bac0288a2b444e468e6df9cb4ed69479ddf14a bpf: support SKF_NET_OFF and SKF_LL_OFF on skb frags
+fcd7132cb1f93e4d4594ecb19b8dcecdf0497d9e selftests/net: test sk_filter support for SKF_NET_OFF on frags
+7bbb38f1f920e761d56fec257bc8df67566084b9 Merge branch 'support-skf_net_off-and-skf_ll_off-on-skb-frags'
+56c283b9e001098362c76547cfaae022d48549c8 smb3: Add defines for two new FileSystemAttributes
+f5ffef9881a76764477978c39f1ad0136a4adcab erofs: remove duplicate code
+5d07ab2a7fa1305e429d9221716582f290b58078 spi: fsl-qspi: Fix double cleanup in probe error path
+82bedbfedd2fc7cd1287732879e515ceb94f8963 spi: fsl-spi: Remove redundant probe error message
+642335f3ea2b3fd6dba03e57e01fa9587843a497 ext4: don't treat fhandle lookup of ea_inode as FS corruption
+818ad0bb4000ac3540bcdc4f50a6e5b509c99ad0 Merge tag 'nvme-6.15-2025-04-10' of git://git.infradead.org/nvme into block-6.15
+ddc592972ff4f1350f456edc3047fc5fb01777aa tools headers: Update the KVM headers with the kernel sources
+9dbe66640f43a3530a0e7897557f4ea41c3abe85 tools headers: Update the socket headers with the kernel sources
+ae62977331fcbf5c9a4260c88d9f94450db2d99a tools headers: Update the uapi/linux/perf_event.h copy with the kernel sources
+af74e5fe7453c1cb2b86c601426cfc4ad9ea9753 tools headers: Update the VFS headers with the kernel sources
+22f72088ffe69a375e07020795264faaaa175979 tools headers: Update the syscall table with the kernel sources
+df4bd8c76d49cf5948d63987f4a795c544155906 tools headers: Update the uapi/linux/prctl.h copy with the kernel sources
+4056cf407253ac81fc960088acfe9579496a871f tools headers: Update the uapi/asm-generic/mman-common.h copy with the kernel sources
+74709981873d2baa5573735b1f24108206d0197e tools headers: Update the linux/unaligned.h copy with the kernel sources
+847f1403d3ee51278dfbece84ec7f199de43daa5 tools headers: Update the x86 headers with the kernel sources
+7f56978e5876521eaa90fda0e63630fa64f69bce tools headers: Update the arch/x86/lib/memset_64.S copy with the kernel sources
+ffc59e32c67e599cc473d6427a4aa584399d5b3c RDMA/bnxt_re: Remove unusable nq variable
+1ddb9ad2ac6e527f220d5821ad54d37d3f9d122a selftests/bpf: Make res_spin_lock AA test condition stronger
+92b90f780d056a28f3c751c2dfbcd9540c7ae28a bpf: Use architecture provided res_smp_cond_load_acquire
+2f41503d647629cfafea42cf6f827e4139536703 bpf: Convert queue_stack map to rqspinlock
+1293dacbbd43ab9848ac4655f6f2ba1dcc5a96ad perf libunwind arm64: Fix missing close parens in an if statement
+3b607b75a345b1d808031bf1bb1038e4dac8d521 null_blk: Use strscpy() instead of strscpy_pad() in null_add_dev()
+a64e4d48a0b77e4ada19ac26ca3a08cd492f6362 afs: Fix afs_dynroot_readdir() to not use the RCU read lock
+b2b4483b5d05026218127fc8f38c69adf69c235b dcache: convert dentry flag macros to enum
+d43dbf7322a356733b3e3a997cad51dce174d83c mount: ensure we don't pointlessly walk the mount tree
+dcc4aca53338d09f7b3272e00aab4a1ff8c69067 Merge branches 'acpi-ec' and 'acpi-button'
+40cb48eba3b4b79e110c1a35d33a48cac54507a2 netfs: Only create /proc/fs/netfs with CONFIG_PROC_FS
+b463d7fd118b984884da7493ae999a62c9892aa3 fs: Fix filename init after recent refactoring
+8e3c15ee0d292c413c66fe10201d1b035a0bea72 iomap: skip unnecessary ifs_block_is_uptodate check
+47a742fd977a7a8c39fea890712e9bfdf76f98f1 fs: use namespace_{lock,unlock} in dissolve_on_fput()
+e2aef868a8c39f411eb7bcee3c42e165a21d5cd6 Merge tag 'ovl-fixes-6.15-rc2' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/overlayfs/vfs
+f57edca8c1e6148e6221c3abca4efce2c6eed2cb dt-bindings: timer: renesas,tpu: remove obsolete binding
+9b03fa105c6978f0e20fd311ac903226a9e89890 Merge tag 's390-6.15-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
+c86e5b561a4a6b81828528fe61adf7352b756c7f Merge tag 'acpi-6.15-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+023e62ce85ced0ea6e71719d168be6b269d7f836 Merge tag 'iommu-fixes-v6.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/iommu/linux
+ff885625298f83785b7db1b95af051a080aab7b4 Merge tag 'block-6.15-20250411' of git://git.kernel.dk/linux
+2f3e5ef271e82836cefc3adbf4d1724a2c2aebbc Merge tag 'ata-6.15-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
+e618ee89561b6b0fdc69f79e6fd0c33375d3e6b4 Merge tag 'spi-fix-v6.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+2b70702917337a8d6d07f03eed961e0119091647 perf tools: Remove evsel__handle_error_quirks()
+a650d38915c194b87616a0747a339b20958d17db bpf: Convert ringbuf map to rqspinlock
+d5f49921707cc73376ad6cf8410218b438fcd233 dt-bindings: soc: fsl: fsl,ls1028a-reset: Fix maintainer entry
+c8ba3f8aff672a5ea36e895f0f8f657271d855d7 PCI: Run quirk_huawei_pcie_sva() before arm_smmu_probe_device()
+04a80a34c22f4db245f553d8696d1318d1c00ece ftrace: Properly merge notrace hashes
+0ae6b8ce200da00a78f33c055fdc4fe3225d22ec ftrace: Fix accounting of subop hashes
+a1fc89d409d8fd927622c238b7c7d719e9ecab3d tracing/selftest: Add test to better test subops filtering of function graph
+5d74992343b969cd8e2d0a3d00cd152eeedcf57c Merge tag 'pci-v6.15-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
+3bde70a2c82712f05c7220b8b94fc2cbdf7fbfe0 Merge tag 'v6.15-rc1-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
+d6b3ef9e7a9c2398a71978874957c88c73d270a6 mailmap: map Loic Poulain's old email addresses
+be8254f694469e60252e35c467ac9a878d7797bf radix-tree: add missing cleanup.h
+a30951d09c33c899f0e4aca80eb87fad5f10ecfa test suite: use %zu to print size_t
+51339d99c0131bc0d16d378e9b05bc498d2967e2 locking/local_lock, mm: replace localtry_ helpers with local_trylock_t type
+1b17cdbb708bf435973d0a57bee4230d242085cf mseal: fix typo and style in documentation
+770c8d55c42868239c748a3ebc57c9e37755f842 lib/iov_iter: fix to increase non slab folio refcount
+a84edd52f0a0fa193f0f685769939cf84510755b mm/compaction: fix bug in hugetlb handling pathway
+c5bb27e2da3a6e1006f3e0aeb36d57c1dd1144aa mm/page_alloc: avoid second trylock of zone->lock
+382360d289c1e1d89df06f33c4d5b874b38ef267 mm/hugetlb: fix nid mismatch in alloc_surplus_hugetlb_folio()
+35e214b11df8a73dc4b7256d3ca5d647be83c585 MAINTAINERS: add Andrew and Baoquan as kexec maintainers
+9c02223e2d9df5cb37c51aedb78f3960294e09b5 selftests/mm: generate a temporary mountpoint for cgroup filesystem
+41e6ddcaa0f18dda4c3fadf22533775a30d6f72f mm/vma: add give_up_on_oom option on modify/merge, use in uffd release
+a5561c88cf3cddc405ae7a0ef6b606224ddabf0c ASN.1: add module description
+10764175baf4531d0f4b1147fd113660ea476226 samples/livepatch: add module descriptions
+6810431bc47301376174331f6d85a70c8520c941 fpga: tests: add module descriptions
+75dd4975f569c179284fa644e5be24cbfa77b0ee zlib: add module description
+91640531b92ec63e260b9d5c681d387676ec462c ucs2_string: add module description
+e2ffee91c40fef59ec84dd7379aa634dcefa0a42 mm/kasan: add module decription
+61c4e6ca8c9364e08c2c132d1bfae2f85af42c7a kunit: slub: add module description
+90abee6d7895d5eef18c91d870d8168be4e76e9d mm: page_alloc: speed up fallbacks in rmqueue_bulk()
+60580e0bd587b1df7aa9f749ed735db8377acaab mm/cma: report base address of single range correctly
+aabf58bfaacedb3f54801ba09c6d50daf83b74f4 mm/hugetlb: fix set_max_huge_pages() when there are surplus pages
+8c583e538aa681ecb293d5606054de70f44b5558 selftests: mincore: fix tmpfs mincore test failure
+9e2bd67773579fdd2e58de9628c2d319f3f518e7 mm/hugetlb: add a line break at the end of the format string
+8ab1b16023961dc640023b10436d282f905835ad mm: fix filemap_get_folios_contig returning batches of identical folios
+8c56c5dbcf52220cc9be7a36e7f21ebd5939e0b9 mm: (un)track_pfn_copy() fix + doc improvements
+0aa8dbe5a8dcaf0cc083f4a519a2906e1eb4609e mailmap: add entry for Jean-Michel Hautbois
+e6e07b696da529e85d1ba880555b5df5c80a46bd alloc_tag: handle incomplete bulk allocations in vm_module_tags_populate
+92868577d05ff75f9f38c6345ed275203827faba selftests/mm: fix compiler -Wmaybe-uninitialized warning
+a995199384347261bb3f21b2e171fa7f988bd2f8 mm: fix apply_to_existing_page_range()
+9ae0c92fec69374c6db8dddb0df00d86b9afa5da crypto: scomp - Fix wild memory accesses in scomp_free_streams
+b2e689baf220408aff8ee5dfb4edb0817e1632bb crypto: ahash - Disable request chaining
+ecd5d67ad602c2c12e8709762717112ef0958767 Merge tag 'pwm/for-6.15-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
+485acd207d7daf8cf941a5f0fd0c09bc6d049402 ftrace: Do not have print_graph_retval() add a newline
+8d7861ac507d23024c7d74b6cb59a9cca248bcb7 rv: Fix out-of-bound memory access in rv_is_container_monitor()
+b676ac484f847bbe5c7d29603f41475b64fefe55 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
+7cdabafc001202de9984f22c973305f424e0a8b7 Merge tag 'trace-v6.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+ce7e8a65aa1b7e8a6833403b314fa8f2cf133119 Documentation: ext4: Add fields to ext4_super_block documentation
+7e50bbb134aba1df0854f171b596b3a42d35605a ext4: avoid -Wflex-array-member-not-at-end warning
+ccad447a3d331a239477c281533bacb585b54a98 ext4: make block validity check resistent to sb bh corruption
+94824ac9a8aaf2fb3c54b4bdde842db80ffa555d ext4: fix off-by-one error in do_split
+051ea726ee4518ac5279eecaa40a4421f1ac69b6 Merge tag 'fixes-2025-04-13' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
+5aaaedb0cb540cda1cdcef34f2d30de67d972d9b Merge tag 'ext4_for_linus-6.15-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
+004a365eb8b9c6d7d409bbeb5687a4a5ebf8f110 Merge tag 'erofs-for-6.15-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
+8ffd015db85fea3e15a77027fda6c02ced4d2444 Linux 6.15-rc2
+10e66f29fad2bac7f44e99372398b39358daf6e3 Merge tag 'perf-tools-fixes-for-v6.15-2025-04-13' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
+3618002d007244be851fb5f314c6ddc61b8b860d Merge tag 'vfs-6.15-rc3.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+834a4a689699090a406d1662b03affa8b155d025 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
+a727a83ef22591d47e2d219cd8e01bd3616f4611 MAINTAINERS: update HUGETLB reviewers
+065d49851e1a345faf112f12f96272e37ccd58ad Merge tag 'fs_for_v6.15-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
+1a1d569a75f3ab2923cb62daf356d102e4df2b86 Merge tag 'edac_urgent_for_v6.15_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
+c62f4b82d57155f35befb5c8bbae176614b87623 Merge tag 'v6.15-p4' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
+c1336865c4c90fcc649df0435a7c86c30030a723 Merge tag 'devicetree-fixes-for-6.15-1' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
+cfb2e2c57aef75a414c0f18445c7441df5bc13be Merge tag 'mm-hotfixes-stable-2025-04-16-19-59' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+45e00e36718902d81bdaebb37b3a8244e685bc48 iommu/arm-smmu-v3: Add missing S2FWB feature detection
+12f78021973ae422564b234136c702a305932d73 iommu/arm-smmu-v3: Fix pgsize_bit for sva domains
+b00d24997a11c10d3e420614f0873b83ce358a34 iommu/arm-smmu-v3: Fix iommu_device_probe bug due to duplicated stream ids
+2d00c34d665bc23f5200962dbc4ac1919317036c iommu/arm-smmu-v3: Fail aliasing StreamIDs more gracefully
+50568f87d1e233e8c4893f96e91337510c58bb57 iommu/terga: Do not use struct page as the handle for as->pd memory
+a96969a9157650c4cb345bd7323a8f9a3df232f4 iommu/tegra: Do not use struct page as the handle for pts
+8360c03dd9331e60fc6f5dbe512a01a14e8bc3b3 iommu/pages: Remove __iommu_alloc_pages()/__iommu_free_pages()
+c11a1a47921515c2707d078eb7bd8f35db20f146 iommu/pages: Make iommu_put_pages_list() work with high order allocations
+4316ba4a50331a963a8c76c7716cd7a4646aa385 iommu/pages: Remove the order argument to iommu_free_pages()
+3e8e986ce8a0d5fcf5479212d0c1ece4626c4a27 iommu/pages: Remove iommu_free_page()
+f5af4a4f7ccb58c0022175b3457c840a77463e7a iommu/pages: De-inline the substantial functions
+13f43d7cf3e0570004a0d960bc1be23db827c2ff iommu/pages: Formalize the freelist API
+d4d5153ad6e2ed822a67c1d7e6017e3a1386c78b iommu/riscv: Convert to use struct iommu_pages_list
+c70637cdd8cf6942ca20d92a27eddb23d78066ca iommu/amd: Convert to use struct iommu_pages_list
+868240c34eb113e4121d4ad8ad7458d8caad87d3 iommu: Change iommu_iotlb_gather to use iommu_page_list
+27bc9f717f8dd0b987e9e5a59dbbc74f501f67a6 iommu/pages: Remove iommu_put_pages_list_old and the _Generic
+212fcf36c6a6ee948790f9b860e89f87c68deb35 iommu/pages: Move from struct page to struct ioptdesc and folio
+580ccca4ee53d7f2a2c90044220887daec0dcd9a iommu/pages: Move the __GFP_HIGHMEM checks into the common code
+b3efacc451e19a85fb5acb56d95f40532c4e31d2 iommu/pages: Allow sub page sizes to be passed into the allocator
+e874c666b15bcb6280c4e747d8de3879bb728829 iommu/amd: Change rlookup, irq_lookup, and alias to use kvalloc()
+5faa04c4edd462cc4ded939cea6f5a995f2ad0ec iommu/amd: Use roundup_pow_two() instead of get_order()
+9dda3f01ddf056ec023c89e43354fa3caabd8fb9 iommu/riscv: Update to use iommu_alloc_pages_node_lg2()
+d50aaa4a9ffb0149d2187dfe3477300561f06fec iommu: Update various drivers to pass in lg2sz instead of order to iommu pages
+28024569e8bd496f9227fbe37e23f898e4674e54 iommu/pages: Remove iommu_alloc_page/pages()
+5087f663c21e8ac2af7bd178a9b8da50ff7752ac iommu/pages: Remove iommu_alloc_page_node()
+c3b42b6ffaed8e0b042224920085c3ae8db89d2a iommu/amd: Use iommu_alloc_pages_node_sz() for the IRT
+249d3327f0236302a92d9eccb2b32f64c8daaf86 iommu/vtd: Remove iommu_alloc_pages_node()
+0c8e9c148e29a983e67060fb4944a8ca79d4362a iommu: Avoid introducing more races
+0da188c8468d8fe544d0aa2a5f610c78b8d34819 iommu: Split out and tidy up Arm Kconfig
+8dee308e4c01dea48fc104d37f92d5b58c50b96c iommu/amd: Fix potential buffer overflow in parse_ivrs_acpihid
+52edd094750a0a08cb54321df07d9cddbdd2b17c dt-bindings: iommu: mediatek: Add binding for MT6893 MM IOMMU
+f6a1e89ab6e3001156849944bc6a2dc71ccdad7e iommu/mediatek: Add support for Dimensity 1200 MT6893 MM IOMMU
+83c1aec21064c762a2ee475f0fd19f5241de25bc iommu/s390: set appropriate IOTA region type
+a2392b8f1ffc26ac4d9fc5cbf081e91a2e39ca71 iommu/s390: support cleanup of additional table regions
+1fe3f3cad530981e8ff36cefc19c8534bfd401b3 iommu/s390: support iova_to_phys for additional table regions
+d5fbc5efbd98a6c49f9acfca8595efd0f1e59ad8 iommu/s390: support map/unmap for additional table regions
+81244074b518aeb90de5f68e7e825564c29c5c50 iommu/s390: allow larger region tables
+30a3f2f3e4bd6335b727c83c08a982d969752bc1 iommu: Fix two issues in iommu_copy_struct_from_user()
+4f1492efb495bcef34c9ee8a94af81e6cea5abf4 iommu/vt-d: Revert ATS timing change to fix boot failure
+e52e6500a343619cbccd290af7311a686e2ccec2 Merge branches 'fixes', 'mediatek', 's390' and 'core' into next
+3978d285295362a0e7cc457c5da7869f1158095e Merge branch 'next'
+
+--===============5590712261228629559==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-767e22001dfc-e52e6500a343.txt
 
 6c9567e0850be2f0f94ab64fa6512413fd1a1eb1 KVM: s390: Don't use %pK through tracepoints
 0c7fbae5bc782429c97d68dc40fb126748d7e352 KVM: s390: Don't use %pK through debug printing
@@ -304,6 +527,8 @@ aabc6596ffb377c4c9c8f335124b92ea282c9821 net: ppp: Add bound checking for skb da
 e042ed950d4e176379ba4c0722146cd96fb38aa2 nft_set_pipapo: fix incorrect avx2 match of 5th field octet
 27eb86e22f1067a39f05e8878fd83f00e3311dc3 selftests: netfilter: add test case for recent mismatch bug
 69ddc6522e4a2a1de668e7c6ca150a1dc6067f5d Merge tag 'nf-25-04-10' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
+5d07ab2a7fa1305e429d9221716582f290b58078 spi: fsl-qspi: Fix double cleanup in probe error path
+82bedbfedd2fc7cd1287732879e515ceb94f8963 spi: fsl-spi: Remove redundant probe error message
 eaa517b77e63442260640d875f824d1111ca6569 ethtool: cmis_cdb: Fix incorrect read / write length extension
 b4991c01ad07c1b3954a95e49bfae80c726b4b48 Merge tag 'mtd/fixes-for-6.15-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
 8f43640c9109bd82bcf37def6adfe1b8b09e7b61 Merge tag 'gpio-fixes-for-v6.15-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
@@ -326,15 +551,6 @@ ac253a537da3b210fa4b65d522d5533fc68f9515 Merge tag 'perf-urgent-2025-04-10' of g
 485442c6a523de1d293350e039a9d9df9c08704c Merge tag 'drm-xe-fixes-2025-04-10' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
 ef7785882672e73847fb80f6c39e76998d4db57b Merge tag 'bcachefs-2025-04-10' of git://evilpiepirate.org/bcachefs
 900241a5cc15e6e0709a012051cc72d224cd6a6e Merge tag 'drm-fixes-2025-04-11-1' of https://gitlab.freedesktop.org/drm/kernel
-df4bf3fa1b1e8d03380206fa027f956a62de517b iommu: Fix crash in report_iommu_fault()
-548183ea388c12b6d76d6982f3d72df3887af0da iommu/vt-d: Wire up irq_ack() to irq_move_irq() for posted MSIs
-7d8c490ba3967719bc023c1f81592659a79bd964 iommu/vt-d: Remove an unnecessary call set_dma_ops()
-280e5a30100578106a4305ce0118e0aa9b866f12 iommu: Clear iommu-dma ops on cleanup
-d9d3cede416719c2d41cd4da1955b12a85856e2f iommu/ipmmu-vmsa: Register in a sensible order
-99deffc409b69000ac4877486e69ec6516becd53 iommu/exynos: Fix suspend/resume with IDENTITY domain
-38e8844005e6068f336a3ad45451a562a0040ca1 iommu/mediatek: Fix NULL pointer deference in mtk_iommu_device_group
-ae4814a3aab54ce548950161937176b7f9ec6f77 iommu: remove unneeded semicolon
-767e22001dfce64cc03b7def1562338591ab6031 iommu/tegra241-cmdqv: Fix warnings due to dmam_free_coherent()
 3b607b75a345b1d808031bf1bb1038e4dac8d521 null_blk: Use strscpy() instead of strscpy_pad() in null_add_dev()
 dcc4aca53338d09f7b3272e00aab4a1ff8c69067 Merge branches 'acpi-ec' and 'acpi-button'
 9b03fa105c6978f0e20fd311ac903226a9e89890 Merge tag 's390-6.15-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
@@ -363,8 +579,45 @@ ccad447a3d331a239477c281533bacb585b54a98 ext4: make block validity check resiste
 5aaaedb0cb540cda1cdcef34f2d30de67d972d9b Merge tag 'ext4_for_linus-6.15-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 004a365eb8b9c6d7d409bbeb5687a4a5ebf8f110 Merge tag 'erofs-for-6.15-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
 8ffd015db85fea3e15a77027fda6c02ced4d2444 Linux 6.15-rc2
-163ddf1fea590229c30a8dc4c29ff4febfb895c3 spi: Add spi_bpw_to_bytes() helper and use it
-e30b7a75666b3f444abfabed6a144642fa9994d8 spi: dw: Use spi_bpw_to_bytes() helper
-cbc9d9e108f4f2a3c061ac6233a424accde8b564 spi: Introduce and use spi_bpw_to_bytes()
+45e00e36718902d81bdaebb37b3a8244e685bc48 iommu/arm-smmu-v3: Add missing S2FWB feature detection
+12f78021973ae422564b234136c702a305932d73 iommu/arm-smmu-v3: Fix pgsize_bit for sva domains
+b00d24997a11c10d3e420614f0873b83ce358a34 iommu/arm-smmu-v3: Fix iommu_device_probe bug due to duplicated stream ids
+2d00c34d665bc23f5200962dbc4ac1919317036c iommu/arm-smmu-v3: Fail aliasing StreamIDs more gracefully
+50568f87d1e233e8c4893f96e91337510c58bb57 iommu/terga: Do not use struct page as the handle for as->pd memory
+a96969a9157650c4cb345bd7323a8f9a3df232f4 iommu/tegra: Do not use struct page as the handle for pts
+8360c03dd9331e60fc6f5dbe512a01a14e8bc3b3 iommu/pages: Remove __iommu_alloc_pages()/__iommu_free_pages()
+c11a1a47921515c2707d078eb7bd8f35db20f146 iommu/pages: Make iommu_put_pages_list() work with high order allocations
+4316ba4a50331a963a8c76c7716cd7a4646aa385 iommu/pages: Remove the order argument to iommu_free_pages()
+3e8e986ce8a0d5fcf5479212d0c1ece4626c4a27 iommu/pages: Remove iommu_free_page()
+f5af4a4f7ccb58c0022175b3457c840a77463e7a iommu/pages: De-inline the substantial functions
+13f43d7cf3e0570004a0d960bc1be23db827c2ff iommu/pages: Formalize the freelist API
+d4d5153ad6e2ed822a67c1d7e6017e3a1386c78b iommu/riscv: Convert to use struct iommu_pages_list
+c70637cdd8cf6942ca20d92a27eddb23d78066ca iommu/amd: Convert to use struct iommu_pages_list
+868240c34eb113e4121d4ad8ad7458d8caad87d3 iommu: Change iommu_iotlb_gather to use iommu_page_list
+27bc9f717f8dd0b987e9e5a59dbbc74f501f67a6 iommu/pages: Remove iommu_put_pages_list_old and the _Generic
+212fcf36c6a6ee948790f9b860e89f87c68deb35 iommu/pages: Move from struct page to struct ioptdesc and folio
+580ccca4ee53d7f2a2c90044220887daec0dcd9a iommu/pages: Move the __GFP_HIGHMEM checks into the common code
+b3efacc451e19a85fb5acb56d95f40532c4e31d2 iommu/pages: Allow sub page sizes to be passed into the allocator
+e874c666b15bcb6280c4e747d8de3879bb728829 iommu/amd: Change rlookup, irq_lookup, and alias to use kvalloc()
+5faa04c4edd462cc4ded939cea6f5a995f2ad0ec iommu/amd: Use roundup_pow_two() instead of get_order()
+9dda3f01ddf056ec023c89e43354fa3caabd8fb9 iommu/riscv: Update to use iommu_alloc_pages_node_lg2()
+d50aaa4a9ffb0149d2187dfe3477300561f06fec iommu: Update various drivers to pass in lg2sz instead of order to iommu pages
+28024569e8bd496f9227fbe37e23f898e4674e54 iommu/pages: Remove iommu_alloc_page/pages()
+5087f663c21e8ac2af7bd178a9b8da50ff7752ac iommu/pages: Remove iommu_alloc_page_node()
+c3b42b6ffaed8e0b042224920085c3ae8db89d2a iommu/amd: Use iommu_alloc_pages_node_sz() for the IRT
+249d3327f0236302a92d9eccb2b32f64c8daaf86 iommu/vtd: Remove iommu_alloc_pages_node()
+0c8e9c148e29a983e67060fb4944a8ca79d4362a iommu: Avoid introducing more races
+0da188c8468d8fe544d0aa2a5f610c78b8d34819 iommu: Split out and tidy up Arm Kconfig
+8dee308e4c01dea48fc104d37f92d5b58c50b96c iommu/amd: Fix potential buffer overflow in parse_ivrs_acpihid
+52edd094750a0a08cb54321df07d9cddbdd2b17c dt-bindings: iommu: mediatek: Add binding for MT6893 MM IOMMU
+f6a1e89ab6e3001156849944bc6a2dc71ccdad7e iommu/mediatek: Add support for Dimensity 1200 MT6893 MM IOMMU
+83c1aec21064c762a2ee475f0fd19f5241de25bc iommu/s390: set appropriate IOTA region type
+a2392b8f1ffc26ac4d9fc5cbf081e91a2e39ca71 iommu/s390: support cleanup of additional table regions
+1fe3f3cad530981e8ff36cefc19c8534bfd401b3 iommu/s390: support iova_to_phys for additional table regions
+d5fbc5efbd98a6c49f9acfca8595efd0f1e59ad8 iommu/s390: support map/unmap for additional table regions
+81244074b518aeb90de5f68e7e825564c29c5c50 iommu/s390: allow larger region tables
+30a3f2f3e4bd6335b727c83c08a982d969752bc1 iommu: Fix two issues in iommu_copy_struct_from_user()
+4f1492efb495bcef34c9ee8a94af81e6cea5abf4 iommu/vt-d: Revert ATS timing change to fix boot failure
+e52e6500a343619cbccd290af7311a686e2ccec2 Merge branches 'fixes', 'mediatek', 's390' and 'core' into next
 
---===============2935629992517693267==--
+--===============5590712261228629559==--
