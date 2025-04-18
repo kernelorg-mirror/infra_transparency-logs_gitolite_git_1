@@ -1,26 +1,48 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Fri, 18 Apr 2025 15:08:07 -0000
-Message-Id: <174498888740.2122042.4409994796957761994@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5211329799532457980=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Fri, 18 Apr 2025 15:09:27 -0000
+Message-Id: <174498896708.2122849.12387123322999054712@gitolite.kernel.org>
+
+--===============5211329799532457980==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/fixes-togreg
-    old: 4551383e78d59b34eea3f4ed28ad22df99e25d59
-    new: 52d349884738c346961e153f195f4c7fe186fcf4
+  - ref: refs/heads/fixes
+    old: baf2f2c2b4c8e1d398173acd4d2fa9131a86b84e
+    new: 4a8e04e2bdcb98d513e97b039899bda03b07bcf2
     log: |
-         1d2d8524eaffc4d9a116213520d2c650e07c9cc6 iio: imu: inv_mpu6050: align buffer for timestamp
-         bb49d940344bcb8e2b19e69d7ac86f567887ea9a iio: chemical: sps30: use aligned_s64 for timestamp
-         6ffa698674053e82e811520642db2650d00d2c01 iio: chemical: pms7003: use aligned_s64 for timestamp
-         f79aeb6c631b57395f37acbfbe59727e355a714c iio: temp: maxim-thermocouple: Fix potential lack of DMA safe buffer.
-         1bb942287e05dc4c304a003ea85e6dd9a5e7db39 iio: accel: adxl355: Make timestamp 64-bit aligned using aligned_s64
-         5097eaae98e53f9ab9d35801c70da819b92ca907 iio: adc: dln2: Use aligned_s64 for timestamp
-         ffbc26bc91c1f1eb3dcf5d8776e74cbae21ee13a iio: adc: ad7768-1: Fix insufficient alignment of timestamp.
-         52d349884738c346961e153f195f4c7fe186fcf4 iio: adc: ad7266: Fix potential timestamp alignment issue.
+         9f5595d5f03fd4dc640607a71e89a1daa68fd19d platform/x86/amd: pmc: Require at least 2.5 seconds between HW sleep cycles
+         8d6955ed76e8a47115f2ea1d9c263ee6f505d737 platform/x86/intel-uncore-freq: Fix missing uncore sysfs during CPU hotplug
+         4a8e04e2bdcb98d513e97b039899bda03b07bcf2 platform/x86: alienware-wmi-wmax: Fix uninitialized variable due to bad error handling
          
+
+--===============5211329799532457980==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1744988991 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1744988961-3e7b16536329295de9fccb2e2ed4ed79233bc13d
+
+baf2f2c2b4c8e1d398173acd4d2fa9131a86b84e 4a8e04e2bdcb98d513e97b039899bda03b07bcf2 refs/heads/fixes
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaAJrRAAKCRBZrE9hU+XO
+MeBMAP9fO6I9ULTnoIFF894HD8RAF9jJPeKvhwvG6CxdB5QIMQD/cxt2r/Z8q/K2
+TvbKXQq8nsA3TTJxjYgnjvtru8tTDwE=
+=FxLF
+-----END PGP SIGNATURE-----
+
+--===============5211329799532457980==--
