@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7967809012373209540=="
+Content-Type: multipart/mixed; boundary="===============6416096556756453359=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 18 Apr 2025 15:28:07 -0000
-Message-Id: <174499008705.2140591.6172001004054503228@gitolite.kernel.org>
+Date: Fri, 18 Apr 2025 15:28:09 -0000
+Message-Id: <174499008999.2140698.15007278542021706611@gitolite.kernel.org>
 
---===============7967809012373209540==
+--===============6416096556756453359==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 1b66124135f5f8640bd540fadda4b20cdd23114b
     new: 750d0ac001e85b754404178ee8ce01cbc76a03be
     log: revlist-1b66124135f5-750d0ac001e8.txt
 
---===============7967809012373209540==
+--===============6416096556756453359==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -393,4 +393,4 @@ e2516abf1c88212d98af889070123469c28ca2fe Merge tag 'for-linus-fwctl' of git://gi
 b5c6891b2c5b54bf58069966296917da46cda6f2 Merge tag 'net-6.15-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 750d0ac001e85b754404178ee8ce01cbc76a03be MAINTAINERS: Add entry for Socfpga DWMAC ethernet glue driver
 
---===============7967809012373209540==--
+--===============6416096556756453359==--
