@@ -1,50 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============9139016161853385187=="
+Content-Type: multipart/mixed; boundary="===============8499369545149635209=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
-Date: Fri, 18 Apr 2025 14:07:54 -0000
-Message-Id: <174498527498.2069625.12455637266765745944@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 18 Apr 2025 14:20:46 -0000
+Message-Id: <174498604680.2081109.18097682401560382415@gitolite.kernel.org>
 
---===============9139016161853385187==
+--===============8499369545149635209==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mst/vhost
-user: mst
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-next
-    old: 488d89cb50b9bef364f82dca3a11fbbc0e2a6522
-    new: 1f69fe75a3286daf4fdaad9c5f72c7ac507d7ff0
-    log: revlist-488d89cb50b9-1f69fe75a328.txt
-  - ref: refs/heads/test
-    old: 488d89cb50b9bef364f82dca3a11fbbc0e2a6522
-    new: 1f69fe75a3286daf4fdaad9c5f72c7ac507d7ff0
-    log: revlist-488d89cb50b9-1f69fe75a328.txt
-  - ref: refs/heads/vhost
-    old: 488d89cb50b9bef364f82dca3a11fbbc0e2a6522
-    new: 1f69fe75a3286daf4fdaad9c5f72c7ac507d7ff0
-    log: revlist-488d89cb50b9-1f69fe75a328.txt
+  - ref: refs/heads/master
+    old: 0decf1aa2445709cc5347d41f270f352269dbc9f
+    new: 0ca2c85be4e7e8f6a56931d93fc37d46c09732b9
+    log: |
+         0ca2c85be4e7e8f6a56931d93fc37d46c09732b9 5.4-stable patches
+         
 
---===============9139016161853385187==
+--===============8499369545149635209==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-488d89cb50b9-1f69fe75a328.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-183a08715af1491d381b4e22efd61578fbe05fa5 virtgpu: don't reset on shutdown
-fbd3039a64b01b769040677c4fc68badeca8e3b2 virtio_console: fix missing byte order handling for cols and rows
-5326ab737a47278dbd16ed3ee7380b26c7056ddd virtio_console: fix order of fields cols and rows
-fec0abf52609c20279243699d08b660c142ce0aa vhost_task: fix vhost_task_create() documentation
-f591cf9fce724e5075cc67488c43c6e39e8cbe27 vhost-scsi: protect vq->log_used with vq->mutex
-b182687135474d7ed905a07cc6cb2734b359e13e vhost-scsi: Fix vhost_scsi_send_bad_target()
-58465d86071b61415e25fb054201f61e83d21465 vhost-scsi: Fix vhost_scsi_send_status()
-b373e60a40f57d826aab55d8cd7063626646ec83 vhost: modify vhost_log_write() for broader users
-08e455d43d6b4f7d80d9122adf5ba54b98e2304d vhost-scsi: adjust vhost_scsi_get_desc() to log vring descriptors
-c7a90b2b56ab3f7ebf798588e914dee4144c4b2d vhost-scsi: log I/O queue write descriptors
-153edd4aa897d0a8e0849929c9f51b2ea1563952 vhost-scsi: log control queue write descriptors
-1f69fe75a3286daf4fdaad9c5f72c7ac507d7ff0 vhost-scsi: log event queue write descriptors
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1744986075 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1744986043-327f10e7d7e2ecd195d82304425024cb3f4df084
 
---===============9139016161853385187==--
+0decf1aa2445709cc5347d41f270f352269dbc9f 0ca2c85be4e7e8f6a56931d93fc37d46c09732b9 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgCX9wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+978QAKgCNuCDoYmjqIQO58zy
+hGb+o01wNPqnPGtnvf/8HTGPSlu5uKnHX27XBXSkMTxABgBzEn/ENXN3jd4v439P
+jorFt8R48ucVwWmgkylV8j3vmEe3aTf8PD7Y3nn6Ja0CMCdj67cvrY9MHwfhjsmp
+VEjex0F9Vl1yAEW6y+LAw6ky1pN6r7Px5/dnFRt46b3SGX3TDIDATy/TOY1sKef4
+g35hp10X0uHhYXtC5wUZkn8q+wr3DoJ7w40IpJx6EtlViIsMoL7Hm+HmyWNu5cs0
+9jSaeiAGrG5iGw8D+TKgFxJh23ZQ+AhX9kfshLv1eZcopVm2tq9iWRNx7mYnzYFv
+6GLk4xnp5qWgv05a/LOd6ehhAhYjxGH1e8/IwqfgvgyjL93UHo2MmVHdHtfeYXvi
+fCETAqUP7bDtxHckuK5IDPrRZy7GIMP+hX4aX8NNoMGIxSPxtmyXMpRXNZE6nC4d
+ZDC46pInbpiNA3h809BEeEvBnnpkt95pJ6YrkcauV53bjsnVNpmhlEM6DRbSvkq2
+784bvDaOipmiYg8maLTaDdpuiG7zoOGS25b7kZummJi6p5qqZkPZN9dtZef9EUmd
+Ra4YgiWVEsDxVDk6Bc0UAZatfkiK1NRgRFT2cEib9opKxnPxa/Y/cnAoWtXTlVdb
+JjSdo26NSi7Q/Kn70W59tVnG
+=ceiU
+-----END PGP SIGNATURE-----
+
+--===============8499369545149635209==--
