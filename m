@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Fri, 18 Apr 2025 04:00:30 -0000
-Message-Id: <174494883005.1508349.8359095117978848985@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Fri, 18 Apr 2025 04:10:03 -0000
+Message-Id: <174494940377.1516389.15009056932910409712@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/crypto-pending
-    old: f1b52fbc1580e2a60671b08745078e81e94c38e8
-    new: 75ba917ca92449b594670480e698744cf6572406
-    log: |
-         fd2bb7a4072048fa6035a789deb6347d102a253b crypto: lib/chacha - restore ability to remove modules
-         75ba917ca92449b594670480e698744cf6572406 crypto: lib/poly1305 - restore ability to remove modules
-         
+  - ref: refs/heads/fileh5VbQR
+    old: 4cc9cf2f437ccf6915100c2f38f63cfb1abad6f9
+    new: 0000000000000000000000000000000000000000
