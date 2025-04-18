@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2328324573376530990=="
+Content-Type: multipart/mixed; boundary="===============7967809012373209540=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 18 Apr 2025 15:15:56 -0000
-Message-Id: <174498935630.2130722.8199311356500135542@gitolite.kernel.org>
+Date: Fri, 18 Apr 2025 15:28:07 -0000
+Message-Id: <174499008705.2140591.6172001004054503228@gitolite.kernel.org>
 
---===============2328324573376530990==
+--===============7967809012373209540==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 0ae559c7f1a0b97bb1089f2b58063790155de500
-    new: 8a15f1b483cf003bb6b67723d2bce8bc305f79ec
-    log: revlist-0ae559c7f1a0-8a15f1b483cf.txt
+  - ref: refs/heads/1GbE
+    old: 1b66124135f5f8640bd540fadda4b20cdd23114b
+    new: 750d0ac001e85b754404178ee8ce01cbc76a03be
+    log: revlist-1b66124135f5-750d0ac001e8.txt
 
---===============2328324573376530990==
+--===============7967809012373209540==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0ae559c7f1a0-8a15f1b483cf.txt
+Content-Disposition: attachment; filename=revlist-1b66124135f5-750d0ac001e8.txt
 
 8aa580cd92843b60d4d6331f3b0a9e8409bb70eb scsi: hisi_sas: Enable force phy when SATA disk directly connected
 daff37f00c7506ca322ccfce95d342022f06ec58 scsi: hisi_sas: Fix I/O errors caused by hardware port ID changes
@@ -392,22 +392,5 @@ e2516abf1c88212d98af889070123469c28ca2fe Merge tag 'for-linus-fwctl' of git://gi
 85a9793e769e2af692d341a2b3935703eac65328 Merge tag 'for-linus-6.15a-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
 b5c6891b2c5b54bf58069966296917da46cda6f2 Merge tag 'net-6.15-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 750d0ac001e85b754404178ee8ce01cbc76a03be MAINTAINERS: Add entry for Socfpga DWMAC ethernet glue driver
-72cb4f45a8306c29843a8c884b1dea29653242c7 coccinelle: misc: secs_to_jiffies script: Create dummy report
-ec60731b91f442700a5860861cba1bd0a849eee8 ice: fix Get Tx Topology AQ command error on E830
-98f64b5c9edf73fe42739d4bc0c631b5f214b958 ice: fix lane number calculation
-420078ac358f2c3c7c423641dad19fb8e42459dc ice: fix fwlog after driver reinit
-cc12daefd25418311c5213a438940aa2d616a638 ice: Check VF VSI Pointer Value in ice_vc_add_fdir_fltr()
-53c1d660097c5a0e333a5d1dd6f1f5aaf409fc7d idpf: fix offloads support for encapsulated packets
-4c0f543da03798b8420f79d9e61a41515a5a2f90 iavf: iavf_suspend(): take RTNL before netdev_lock()
-c266afc9c633f7b103734b69c4c3d4c9c9eebff0 iavf: centralize watchdog requeueing itself
-d80ac2f43da0608cf0a4281123285e617254edd4 iavf: simplify watchdog_task in terms of adminq task scheduling
-fbd3d773a8539cfc8a4e0640359ba94fed1a6c03 iavf: extract iavf_watchdog_step() out of iavf_watchdog_task()
-1fdc4fa468b6c00070f3ec1a31d32d1efd5248a9 iavf: sprinkle netdev_assert_locked() annotations
-9495b13696976eb1a392b7039dea0623a905aacd iavf: get rid of the crit lock
-8baa90344934b6d2f37da41709a9e3acf03aa8dd idpf: fix potential memory leak on kcalloc() failure
-b31b704082c3a381b83d6eb842ea248053ca1ff5 idpf: protect shutdown from reset
-c63e50111a5c24bae00c393a4c77218d440b4794 ice: fix vf->num_mac count with port representors
-d839b23c9e9d8239eeb011d59a8bd834dcc4f186 idpf: fix null-ptr-deref in idpf_features_check
-8a15f1b483cf003bb6b67723d2bce8bc305f79ec ice: use DSN instead of PCI BDF for ice_adapter index
 
---===============2328324573376530990==--
+--===============7967809012373209540==--
