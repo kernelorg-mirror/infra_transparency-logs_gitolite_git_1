@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5628992359356345449=="
+Content-Type: multipart/mixed; boundary="===============8065714057570131431=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 18 Apr 2025 20:44:49 -0000
-Message-Id: <174500908978.2413286.16747242722801254375@gitolite.kernel.org>
+Date: Fri, 18 Apr 2025 20:45:48 -0000
+Message-Id: <174500914874.2415619.10011598573653093135@gitolite.kernel.org>
 
---===============5628992359356345449==
+--===============8065714057570131431==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,49 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 33aa28024418782f644d8924026f1db21b3354a6
-    new: 4a1323b1655ea332f23ac0d94902f651a1e71597
-    log: revlist-33aa28024418-4a1323b1655e.txt
+    old: 4a1323b1655ea332f23ac0d94902f651a1e71597
+    new: 790218f7caeb8f60560b78948a0525cc647fb265
+    log: revlist-4a1323b1655e-790218f7caeb.txt
+  - ref: refs/heads/tip/urgent
+    old: 8131c8d8a4d3bdba34b7688b1f0e7ff8582a7253
+    new: cdabd0e17ddf925b08225534e8e51ecbd28181de
+    log: revlist-8131c8d8a4d3-cdabd0e17ddf.txt
 
---===============5628992359356345449==
+--===============8065714057570131431==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-33aa28024418-4a1323b1655e.txt
+Content-Disposition: attachment; filename=revlist-4a1323b1655e-790218f7caeb.txt
+
+ba42edae131740cdb7141f11d1723efd42ef9b13 Merge branch into tip/master: 'core/urgent'
+e325b8773d28a812a8159133b0720ff82456ef85 Merge branch into tip/master: 'irq/urgent'
+217788417cf5bc2f7c793c2b62a77aa33330bcd4 Merge branch into tip/master: 'perf/urgent'
+0679533dbdef022d71f5cbaa6e13eec325dc9f7e Merge branch into tip/master: 'timers/urgent'
+cdabd0e17ddf925b08225534e8e51ecbd28181de Merge branch into tip/master: 'x86/urgent'
+cdf9ee4afbcfc259754e5135c048fe4af09c6a15 Merge branch into tip/master: 'x86/merge'
+732a2d3ab23122a3d9f15db6168c5a5032cd43f3 Merge branch into tip/master: 'perf/merge'
+6d37df65bc859fb9335564378681c35bca59a1ac Merge branch into tip/master: 'irq/core'
+6d231754fc58e4c2518f2a9cfb11b6634cc4dee2 Merge branch into tip/master: 'irq/drivers'
+e5f1b07061fb23606c67b31259a2cc4afdecb21c Merge branch into tip/master: 'irq/msi'
+26c19f874c67350e25a70ddf57ae70154927259d Merge branch into tip/master: 'sched/core'
+304d2e718d9446a3a99de8af994e6b11dd03c9ec Merge branch into tip/master: 'timers/core'
+dfd4a298a445fe4e38e44cf326378aea2126851b Merge branch into tip/master: 'x86/alternatives'
+7937265c054a9e85286e406237ed54a7fdbf7ecb Merge branch into tip/master: 'x86/asm'
+c59c479b9630d1d17d173da4e92049ad6b8bab09 Merge branch into tip/master: 'x86/boot'
+c3586bdda61e1de1e5d2c50181899ab64b176c4e Merge branch into tip/master: 'x86/bugs'
+3319995b8e6fe620d3387def9b0400955af5085e Merge branch into tip/master: 'x86/cpu'
+9352496330173e8e8166edaa779506124418ad54 Merge branch into tip/master: 'x86/fpu'
+fa537a47c93524e553b14ff5abe6a5a17fdd6c5c Merge branch into tip/master: 'x86/kconfig'
+134d3d71521ca01883d840db6a73cca782c845d5 Merge branch into tip/master: 'x86/microcode'
+f9587be73934ae7fa540b3a93af0e86a425387f3 Merge branch into tip/master: 'x86/mm'
+08b314dd3b8376d1958b7a3eca777ffa98dd834a Merge branch into tip/master: 'x86/nmi'
+790218f7caeb8f60560b78948a0525cc647fb265 Merge branch into tip/master: 'x86/sev'
+
+--===============8065714057570131431==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-8131c8d8a4d3-cdabd0e17ddf.txt
 
 8aa580cd92843b60d4d6331f3b0a9e8409bb70eb scsi: hisi_sas: Enable force phy when SATA disk directly connected
 daff37f00c7506ca322ccfce95d342022f06ec58 scsi: hisi_sas: Fix I/O errors caused by hardware port ID changes
@@ -274,6 +308,10 @@ f12ecf5e1c5eca48b8652e893afcdb730384a6aa io_uring/zcrx: fix late dma unmap for a
 b1011b2b451c8b6d16be6b07f44f22a0a0dd7158 Merge tag 'io_uring-6.15-20250418' of git://git.kernel.dk/linux
 f7c2ca25848b1da1843b7e0fa848ea721af6b132 Merge tag 'block-6.15-20250417' of git://git.kernel.dk/linux
 7e74f756f5f643148ca5537bf2fee6767e4b0ed9 Merge tag 'v6.15-rc2-ksmbd-server-fixes' of git://git.samba.org/ksmbd
-4a1323b1655ea332f23ac0d94902f651a1e71597 Merge branch 'linus'
+ba42edae131740cdb7141f11d1723efd42ef9b13 Merge branch into tip/master: 'core/urgent'
+e325b8773d28a812a8159133b0720ff82456ef85 Merge branch into tip/master: 'irq/urgent'
+217788417cf5bc2f7c793c2b62a77aa33330bcd4 Merge branch into tip/master: 'perf/urgent'
+0679533dbdef022d71f5cbaa6e13eec325dc9f7e Merge branch into tip/master: 'timers/urgent'
+cdabd0e17ddf925b08225534e8e51ecbd28181de Merge branch into tip/master: 'x86/urgent'
 
---===============5628992359356345449==--
+--===============8065714057570131431==--
