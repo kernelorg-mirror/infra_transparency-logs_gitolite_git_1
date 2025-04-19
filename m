@@ -1,22 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sat, 19 Apr 2025 03:20:28 -0000
-Message-Id: <174503282856.2731358.5754540370606550558@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Sat, 19 Apr 2025 03:28:43 -0000
+Message-Id: <174503332330.2736720.12491831960109036694@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/master
-    old: 3088d26962e802efa3aa5188f88f82a957f50b22
-    new: 8560697b23dc2f405cb463af2b17256a9888129d
+  - ref: refs/heads/for-6.16
+    old: 0b304617936094b1e55c0b3e5903ce7d4f1bc32b
+    new: 69120f8228297715e0d1d40d2f636ebbff60b543
     log: |
-         262b73ef442e68e53220b9d6fc5a0d08b557fa42 smb3 client: fix open hardlink on deferred close file error
-         c707193a17128fae2802d10cbad7239cc57f0c95 Revert "smb: client: Fix netns refcount imbalance causing leaks and use-after-free"
-         95d2b9f693ff2a1180a23d7d59acc0c4e72f4c41 Revert "smb: client: fix TCP timers deadlock after rmmod"
-         8560697b23dc2f405cb463af2b17256a9888129d Merge tag '6.15-rc2-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
+         6d65f682a9f20ed26c822812129f191455002f1c sched_ext: Improve cross-compilation support in Makefile
+         f203683c3e8d457acdb8bb4eddc29a31af1c77fd sched_ext: change the variable name for slice refill event
+         69120f8228297715e0d1d40d2f636ebbff60b543 sched_ext: add helper for refill task with default slice
+         
+  - ref: refs/heads/for-next
+    old: 0b304617936094b1e55c0b3e5903ce7d4f1bc32b
+    new: 69120f8228297715e0d1d40d2f636ebbff60b543
+    log: |
+         6d65f682a9f20ed26c822812129f191455002f1c sched_ext: Improve cross-compilation support in Makefile
+         f203683c3e8d457acdb8bb4eddc29a31af1c77fd sched_ext: change the variable name for slice refill event
+         69120f8228297715e0d1d40d2f636ebbff60b543 sched_ext: add helper for refill task with default slice
          
