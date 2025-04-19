@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Sat, 19 Apr 2025 17:34:39 -0000
-Message-Id: <174508407951.3470685.16144458999897512369@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 19 Apr 2025 17:42:30 -0000
+Message-Id: <174508455089.3478771.12943673680061804372@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/main
-    old: 2f411c10e4570d03426d3cb095471aa1120114ab
-    new: b780dbdc5b71603a98083f70f753423c93ed456e
+  - ref: refs/heads/master
+    old: 0bd2f269ae892ce7283fee8fcfe2c6c971d871bc
+    new: 1ca0f935a126950c2f0b305a50f31f3b00542b0d
     log: |
-         5780e8d2d4c2711a5ca05d7070881a15d5d70772 intel: ish: Update license file for ISH
-         b780dbdc5b71603a98083f70f753423c93ed456e Merge branch 'update_ish_license' into 'main'
+         cd35b6cb46649750b7dbd0df0e2d767415d8917b nfs: add missing selections of CONFIG_CRC32
+         a1d14d931bf700c1025db8c46d6731aa5cf440f9 nfsd: decrease sc_count directly if fail to queue dl_recall
+         1ca0f935a126950c2f0b305a50f31f3b00542b0d Merge tag 'nfsd-6.15-1' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
          
