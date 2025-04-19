@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7855397007676992413=="
+Content-Type: multipart/mixed; boundary="===============8619452421508036687=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 19 Apr 2025 04:26:35 -0000
-Message-Id: <174503679592.2789741.11491886997536773043@gitolite.kernel.org>
+Date: Sat, 19 Apr 2025 04:27:01 -0000
+Message-Id: <174503682152.2790142.10303000705780167743@gitolite.kernel.org>
 
---===============7855397007676992413==
+--===============8619452421508036687==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,44 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 790218f7caeb8f60560b78948a0525cc647fb265
-    new: edaa64074d690f694dc9efe524bfc46b90a8f5a8
-    log: revlist-790218f7caeb-edaa64074d69.txt
+    old: edaa64074d690f694dc9efe524bfc46b90a8f5a8
+    new: dd69cb01a2a828e066914bbacf0e1160d5d30f24
+    log: revlist-edaa64074d69-dd69cb01a2a8.txt
+  - ref: refs/heads/tip/urgent
+    old: cdabd0e17ddf925b08225534e8e51ecbd28181de
+    new: 8560697b23dc2f405cb463af2b17256a9888129d
+    log: revlist-cdabd0e17ddf-8560697b23dc.txt
 
---===============7855397007676992413==
+--===============8619452421508036687==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-790218f7caeb-edaa64074d69.txt
+Content-Disposition: attachment; filename=revlist-edaa64074d69-dd69cb01a2a8.txt
+
+f9dcebd7f528469e2b0f162a87af1ce4896b9d3c Merge branch into tip/master: 'x86/merge'
+465d93a3b19068144620f893874a48ad1e2fb9ad Merge branch into tip/master: 'perf/merge'
+b0577a157037eb4ba5dcbfbe6250de36eeab0017 Merge branch into tip/master: 'irq/core'
+06cbd2bfb7149bc4f56fbe0651fe45d295fa5e5a Merge branch into tip/master: 'irq/drivers'
+da4d8f0b70efb93b7279ac36217436d5fe482cff Merge branch into tip/master: 'irq/msi'
+71dd9c0391aaf09333759195bfd2b5987afd0f82 Merge branch into tip/master: 'sched/core'
+82f979c04b6906b65b6c971abf85964df198e84d Merge branch into tip/master: 'timers/core'
+77c0b4f3d8935ac2588ccc54d4a551bd25151e52 Merge branch into tip/master: 'x86/alternatives'
+bcfb317b0378b2f8079e239d6a95fcf7acb75311 Merge branch into tip/master: 'x86/asm'
+cc67700fbdcb238412c884138f1fa5165684c813 Merge branch into tip/master: 'x86/boot'
+33340172a1c4ad0e7fb69ef22bcdf61e572bd261 Merge branch into tip/master: 'x86/bugs'
+b7b9cfafbdcd207451ad72c007851a8381780daa Merge branch into tip/master: 'x86/cpu'
+726c83513a6ab18aa9064a3a72edbd8b0e1d53db Merge branch into tip/master: 'x86/fpu'
+2f8c2b6b4d362d37f43d3b85e4c420d4c221b5ba Merge branch into tip/master: 'x86/kconfig'
+5703d6bccd5e19af21025095bfc7c6ce3bafd743 Merge branch into tip/master: 'x86/microcode'
+7919ae450e1745b54dbc7a44c1425529ada40066 Merge branch into tip/master: 'x86/mm'
+0d7f094d41608b1be6226eef3e177d36c9abc4a5 Merge branch into tip/master: 'x86/nmi'
+dd69cb01a2a828e066914bbacf0e1160d5d30f24 Merge branch into tip/master: 'x86/sev'
+
+--===============8619452421508036687==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-cdabd0e17ddf-8560697b23dc.txt
 
 8578b2f7e1fb79d4b92b62fbbe913548bb363654 riscv: Use kvmalloc_array on relocation_hashtable
 70fc03cd76311a06c8c84deb70b2e16837497774 Documentation: riscv: Fix typo MIMPLID -> MIMPID
@@ -77,6 +106,5 @@ b372359fbc4af755965a1792c1f513583aa20c43 Merge tag 'perf-urgent-2025-04-18' of g
 ac85740edf05751bf8730df5b898c92ed9b538b7 Merge tag 'timers-urgent-2025-04-18' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3088d26962e802efa3aa5188f88f82a957f50b22 Merge tag 'x86-urgent-2025-04-18' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 8560697b23dc2f405cb463af2b17256a9888129d Merge tag '6.15-rc2-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
-edaa64074d690f694dc9efe524bfc46b90a8f5a8 Merge branch 'linus'
 
---===============7855397007676992413==--
+--===============8619452421508036687==--
