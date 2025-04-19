@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Sat, 19 Apr 2025 11:53:16 -0000
-Message-Id: <174506359625.3194179.17685815815036828709@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Sat, 19 Apr 2025 12:30:12 -0000
+Message-Id: <174506581218.3224684.7627635877204572820@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: mani
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/heads/controller/rockchip
+  - ref: refs/heads/scx-rq-lock-tracking
     old: 0000000000000000000000000000000000000000
-    new: 84d79f3304645d6e87b936d2bf8b8310798efec2
+    new: 9ca7035adb9d6dddeb1162f10f4d05edfacb8dda
