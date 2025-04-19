@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Sat, 19 Apr 2025 14:13:46 -0000
-Message-Id: <174507202677.3307420.13601460438423983382@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/superm1/amd-debug-tools
+Date: Sat, 19 Apr 2025 14:16:59 -0000
+Message-Id: <174507221965.3310933.12054593875595577908@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: mani
+repo: pub/scm/linux/kernel/git/superm1/amd-debug-tools
+user: superm1
 changes:
-  - ref: refs/heads/controller/mvebu
-    old: 506d34571e2f204c991aefe3f1300175907594e3
-    new: 5da3d94a23c6c1ee1f896aeeb00965eacf1d0bb3
+  - ref: refs/heads/master
+    old: b3875083808dcead6ba26dae7973eda1d6bf4d75
+    new: ac5e77828d575112aa097401b60ec80bc4d059a0
     log: |
-         5da3d94a23c6c1ee1f896aeeb00965eacf1d0bb3 PCI: mvebu: Use for_each_of_range() iterator for parsing "ranges"
+         ac5e77828d575112aa097401b60ec80bc4d059a0 kernel_log: Fix callback for input file
          
