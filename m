@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Sun, 20 Apr 2025 19:50:31 -0000
-Message-Id: <174517863127.740064.16866829645385601152@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Sun, 20 Apr 2025 20:46:10 -0000
+Message-Id: <174518197015.783261.13777959434646068658@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
+repo: pub/scm/linux/kernel/git/sj/damo
 user: sj
 changes:
-  - ref: refs/heads/master
-    old: c3d2262945aa279c8f33a0f13153dd827d93b078
-    new: d915d50fdcd5fcac9e79f059281c468f5b6bfe69
+  - ref: refs/heads/next
+    old: c403d2ed42d687cd4d823cfddf8d86b9791ef30e
+    new: cc0c6e43f9d3bf73937cc464db23c804a570b505
     log: |
-         806a035784b487aa3b2299381f08f235f2137703 patches/next: wordsmith node_mem_used_free_bp for posting
-         3b0cd179b9623cabfc84afa6d77d66a7fb3bca94 patches/posted: add node_used_free_bp v1
-         d915d50fdcd5fcac9e79f059281c468f5b6bfe69 patches/posted: add msgids for node_mem_used_free_bp v1
+         bb7d1cfcc1505ae38312e4f0423700c2c3c37801 damo_report_access: revert '<histogram>' format keyword
+         65eb4bbfa74078633312af21d8c86aa20749fd16 report_access_exec_scripts/mem_sz_for_bw: fix trailing whitespace
+         cc0c6e43f9d3bf73937cc464db23c804a570b505 tests/report: add damon.data.snapshot
          
