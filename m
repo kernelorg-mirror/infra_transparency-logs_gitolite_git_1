@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Sun, 20 Apr 2025 20:46:10 -0000
-Message-Id: <174518197015.783261.13777959434646068658@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 20 Apr 2025 20:47:01 -0000
+Message-Id: <174518202106.783813.9390618393871257971@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damo
-user: sj
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/next
-    old: c403d2ed42d687cd4d823cfddf8d86b9791ef30e
-    new: cc0c6e43f9d3bf73937cc464db23c804a570b505
+  - ref: refs/heads/master
+    old: ac71fabf15679fc7bc56c51bc92bd4b626564c37
+    new: 9c32cda43eb78f78c73aee4aa344b777714e259b
     log: |
-         bb7d1cfcc1505ae38312e4f0423700c2c3c37801 damo_report_access: revert '<histogram>' format keyword
-         65eb4bbfa74078633312af21d8c86aa20749fd16 report_access_exec_scripts/mem_sz_for_bw: fix trailing whitespace
-         cc0c6e43f9d3bf73937cc464db23c804a570b505 tests/report: add damon.data.snapshot
+         9c32cda43eb78f78c73aee4aa344b777714e259b Linux 6.15-rc3
          
+  - ref: refs/tags/v6.15-rc3
+    old: 0000000000000000000000000000000000000000
+    new: f34da179a4517854b2ffbe4bce8c3405bd9be04e
