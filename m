@@ -1,60 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4929577314424086142=="
+Content-Type: multipart/mixed; boundary="===============4197679274552335634=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 20 Apr 2025 05:49:37 -0000
-Message-Id: <174512817756.4062018.2131687237267051030@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
+Date: Sun, 20 Apr 2025 05:50:45 -0000
+Message-Id: <174512824517.4064487.1476023452624935058@gitolite.kernel.org>
 
---===============4929577314424086142==
+--===============4197679274552335634==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
+repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
-    old: 4f562cb101633f4144d1bfc85a5a28357ac63557
-    new: 6f3972af178b8d717c91ccde6cf2a43913b15e59
-    log: revlist-4f562cb10163-6f3972af178b.txt
-  - ref: refs/heads/tip/urgent
-    old: d71a3ee3fe0806faaeb3af57bd118614dce351b6
-    new: f99c90b06e760fdf4f311bfe8164281b482602eb
-    log: revlist-d71a3ee3fe08-f99c90b06e76.txt
+  - ref: refs/heads/WIP.x86/e820
+    old: 6ec064bddcf4a20c3925a906c8e8729d2c444aaf
+    new: 83b327dfba2cdfe79b7ddf10d40da248f276e184
+    log: revlist-6ec064bddcf4-83b327dfba2c.txt
 
---===============4929577314424086142==
+--===============4197679274552335634==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4f562cb10163-6f3972af178b.txt
-
-f99c90b06e760fdf4f311bfe8164281b482602eb Merge branch into tip/master: 'x86/urgent'
-4c318da52f84163f270cfa5774ae8fb2705441ac Merge branch into tip/master: 'x86/merge'
-6bae4a42121b52e45bbc770a43951a48b168a0b1 Merge branch into tip/master: 'perf/merge'
-686ac4748e01a2c23cf059906ade23cb5ca78c03 Merge branch into tip/master: 'irq/core'
-c376dfabc1e4320b38e203ac5d5367b23f720187 Merge branch into tip/master: 'irq/drivers'
-268c7cdfe1d218e1b8088b2178150e4a0ca320ef Merge branch into tip/master: 'irq/msi'
-ab9768b2ea897900fac3da0abf68324bcb3c6a8a Merge branch into tip/master: 'sched/core'
-8d5b2df727d2c56364d50caed40036547a335047 Merge branch into tip/master: 'timers/core'
-cafc76546f6e76adc0698ede174518cc9ac8fbe4 Merge branch into tip/master: 'x86/alternatives'
-6a37c96cf1d50daf3dfda6526049d543fb3a7ada Merge branch into tip/master: 'x86/asm'
-8d2d42157004ab08d7a24bd70c1e35ab692a4537 Merge branch into tip/master: 'x86/boot'
-921830d4133d62b3b486cc7473816ae97e21ecfa Merge branch into tip/master: 'x86/bugs'
-0f559f6c3b92971e4c79b6adf3189277615299cf Merge branch into tip/master: 'x86/cpu'
-03a1bad2daef1e44da020a3d56d5eeb5b639eb7c Merge branch into tip/master: 'x86/fpu'
-82582e72418f208c3425f80159219570c1fb38cc Merge branch into tip/master: 'x86/kconfig'
-b7a7d1ed7bb565fdb6487df8e9e2412d2d6c8383 Merge branch into tip/master: 'x86/microcode'
-b455b68584bda83ac060e33457d3bcb099fdc472 Merge branch into tip/master: 'x86/mm'
-2dd476b1421c044af00a72d7764b853becdf6a90 Merge branch into tip/master: 'x86/nmi'
-6f3972af178b8d717c91ccde6cf2a43913b15e59 Merge branch into tip/master: 'x86/sev'
-
---===============4929577314424086142==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d71a3ee3fe08-f99c90b06e76.txt
+Content-Disposition: attachment; filename=revlist-6ec064bddcf4-83b327dfba2c.txt
 
 05a2b0011c4b6cbbc9b577f6abebe4e9333b0cf6 scripts: generate_rust_analyzer: Add ffi crate
 3c75fff196c35c3bbe8c212ad03db94994130b32 rust: pin-init: alloc: restrict `impl ZeroableOption` for `Box` to `T: Sized`
@@ -140,6 +110,20 @@ fa6ad96dca040e169f4008637d8d77f22631b34d Merge tag 'trace-v6.15-rc2' of git://gi
 6fe8131757bd58693dba0775e919d46ce183dda2 Merge tag 'i2c-for-6.15-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 119009db267415049182774196e3cce9e13b52ef Merge tag 'vfs-6.15-rc3.fixes.2' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 6fea5fabd3323cd27b2ab5143263f37ff29550cb Merge tag 'mm-hotfixes-stable-2025-04-19-21-24' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-f99c90b06e760fdf4f311bfe8164281b482602eb Merge branch into tip/master: 'x86/urgent'
+6a3fb312c4779d85763a52c148b49dbffa4a8f90 x86/boot/e820: Remove inverted boolean logic from the e820_nomerge() function name, rename it to e820_type_mergeable()
+d5d13582e35d88845aca7f3022ae60723767feea x86/boot/e820: Simplify e820__print_table() a bit
+df21a780db89e683f347e5a2f76bd00ecdce80f2 x86/boot/e820: Simplify the PPro Erratum #50 workaround
+7ceffb1dd70d50a731f990f2ca9c855ba45cb96e x86/boot/e820: Mark e820__print_table() static
+20a8656c32e78f442303c20757e8679ac6549c4b x86/boot/e820: Print gaps in the E820 table
+32ec79b397237f4b47a3bc02fe09a8c68cc4ed54 x86/boot/e820: Make the field separator space character part of e820_print_type()
+f50086f532fa8f86d0d7fa2393e6f71723306f02 x86/boot/e820: Print out sizes of E820 memory ranges
+dd8998f97f416a1987c990b239166207dade0c68 x86/boot/e820: Print E820_TYPE_RAM entries as ... RAM entries
+05462cb103a771655f9bd3ffa866503a87552fe4 x86/boot/e820: Call the PCI gap a 'gap' in the boot log printout
+5eb2ac088742dcf34cfb66a92053f131f2e48469 x86/boot/e820: Use 'u64' consistently instead of 'unsigned long long'
+467c845ccb08e1b74f27e6b0ebc2f9f7901e1c88 x86/boot/e820: Remove pointless early_panic() indirection
+2f2e5399ad251be123c672ab6719f7364bc13246 x86/boot/e820: Clean up confusing and self-contradictory verbiage around E820 related resource allocations
+9e2311c94588edb22d102260c924f75a728471ce x86/boot/e820: Improve e820_print_type() messages
+f46dbb3d22f1efe6b2c4ef398700034b645918d2 x86/boot/e820: Treat non-type-2 'reserved' E820 region types as E820_TYPE_RESERVED
+83b327dfba2cdfe79b7ddf10d40da248f276e184 x86/boot/e820: Clean up __e820__range_add() a bit
 
---===============4929577314424086142==--
+--===============4197679274552335634==--
