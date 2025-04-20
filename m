@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2387412402800943029=="
+Content-Type: multipart/mixed; boundary="===============4929577314424086142=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 20 Apr 2025 05:48:23 -0000
-Message-Id: <174512810345.4060613.11916795858833418416@gitolite.kernel.org>
+Date: Sun, 20 Apr 2025 05:49:37 -0000
+Message-Id: <174512817756.4062018.2131687237267051030@gitolite.kernel.org>
 
---===============2387412402800943029==
+--===============4929577314424086142==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,45 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 5c8bd1b7e09171b924263dd518fb686f65fce1d3
-    new: 4f562cb101633f4144d1bfc85a5a28357ac63557
-    log: revlist-5c8bd1b7e091-4f562cb10163.txt
+    old: 4f562cb101633f4144d1bfc85a5a28357ac63557
+    new: 6f3972af178b8d717c91ccde6cf2a43913b15e59
+    log: revlist-4f562cb10163-6f3972af178b.txt
+  - ref: refs/heads/tip/urgent
+    old: d71a3ee3fe0806faaeb3af57bd118614dce351b6
+    new: f99c90b06e760fdf4f311bfe8164281b482602eb
+    log: revlist-d71a3ee3fe08-f99c90b06e76.txt
 
---===============2387412402800943029==
+--===============4929577314424086142==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5c8bd1b7e091-4f562cb10163.txt
+Content-Disposition: attachment; filename=revlist-4f562cb10163-6f3972af178b.txt
+
+f99c90b06e760fdf4f311bfe8164281b482602eb Merge branch into tip/master: 'x86/urgent'
+4c318da52f84163f270cfa5774ae8fb2705441ac Merge branch into tip/master: 'x86/merge'
+6bae4a42121b52e45bbc770a43951a48b168a0b1 Merge branch into tip/master: 'perf/merge'
+686ac4748e01a2c23cf059906ade23cb5ca78c03 Merge branch into tip/master: 'irq/core'
+c376dfabc1e4320b38e203ac5d5367b23f720187 Merge branch into tip/master: 'irq/drivers'
+268c7cdfe1d218e1b8088b2178150e4a0ca320ef Merge branch into tip/master: 'irq/msi'
+ab9768b2ea897900fac3da0abf68324bcb3c6a8a Merge branch into tip/master: 'sched/core'
+8d5b2df727d2c56364d50caed40036547a335047 Merge branch into tip/master: 'timers/core'
+cafc76546f6e76adc0698ede174518cc9ac8fbe4 Merge branch into tip/master: 'x86/alternatives'
+6a37c96cf1d50daf3dfda6526049d543fb3a7ada Merge branch into tip/master: 'x86/asm'
+8d2d42157004ab08d7a24bd70c1e35ab692a4537 Merge branch into tip/master: 'x86/boot'
+921830d4133d62b3b486cc7473816ae97e21ecfa Merge branch into tip/master: 'x86/bugs'
+0f559f6c3b92971e4c79b6adf3189277615299cf Merge branch into tip/master: 'x86/cpu'
+03a1bad2daef1e44da020a3d56d5eeb5b639eb7c Merge branch into tip/master: 'x86/fpu'
+82582e72418f208c3425f80159219570c1fb38cc Merge branch into tip/master: 'x86/kconfig'
+b7a7d1ed7bb565fdb6487df8e9e2412d2d6c8383 Merge branch into tip/master: 'x86/microcode'
+b455b68584bda83ac060e33457d3bcb099fdc472 Merge branch into tip/master: 'x86/mm'
+2dd476b1421c044af00a72d7764b853becdf6a90 Merge branch into tip/master: 'x86/nmi'
+6f3972af178b8d717c91ccde6cf2a43913b15e59 Merge branch into tip/master: 'x86/sev'
+
+--===============4929577314424086142==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d71a3ee3fe08-f99c90b06e76.txt
 
 05a2b0011c4b6cbbc9b577f6abebe4e9333b0cf6 scripts: generate_rust_analyzer: Add ffi crate
 3c75fff196c35c3bbe8c212ad03db94994130b32 rust: pin-init: alloc: restrict `impl ZeroableOption` for `Box` to `T: Sized`
@@ -110,6 +140,6 @@ fa6ad96dca040e169f4008637d8d77f22631b34d Merge tag 'trace-v6.15-rc2' of git://gi
 6fe8131757bd58693dba0775e919d46ce183dda2 Merge tag 'i2c-for-6.15-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 119009db267415049182774196e3cce9e13b52ef Merge tag 'vfs-6.15-rc3.fixes.2' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 6fea5fabd3323cd27b2ab5143263f37ff29550cb Merge tag 'mm-hotfixes-stable-2025-04-19-21-24' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-4f562cb101633f4144d1bfc85a5a28357ac63557 Merge branch 'linus'
+f99c90b06e760fdf4f311bfe8164281b482602eb Merge branch into tip/master: 'x86/urgent'
 
---===============2387412402800943029==--
+--===============4929577314424086142==--
