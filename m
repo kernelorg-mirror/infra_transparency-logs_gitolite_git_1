@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2881104954813945297=="
+Content-Type: multipart/mixed; boundary="===============0642530264698391307=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Sun, 20 Apr 2025 07:51:27 -0000
-Message-Id: <174513548743.4160330.4515094722787625043@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Sun, 20 Apr 2025 07:51:44 -0000
+Message-Id: <174513550402.4160710.656121266919711710@gitolite.kernel.org>
 
---===============2881104954813945297==
+--===============0642530264698391307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 8ffd015db85fea3e15a77027fda6c02ced4d2444
     log: revlist-0af2f6be1b42-8ffd015db85f.txt
 
---===============2881104954813945297==
+--===============0642530264698391307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -366,4 +366,4 @@ ccad447a3d331a239477c281533bacb585b54a98 ext4: make block validity check resiste
 004a365eb8b9c6d7d409bbeb5687a4a5ebf8f110 Merge tag 'erofs-for-6.15-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
 8ffd015db85fea3e15a77027fda6c02ced4d2444 Linux 6.15-rc2
 
---===============2881104954813945297==--
+--===============0642530264698391307==--
