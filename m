@@ -1,77 +1,145 @@
-Content-Type: multipart/mixed; boundary="===============1545247848503235141=="
+Content-Type: multipart/mixed; boundary="===============7146930974979276574=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Sun, 20 Apr 2025 07:51:47 -0000
-Message-Id: <174513550706.4160845.10365899576679590633@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Sun, 20 Apr 2025 08:12:29 -0000
+Message-Id: <174513674984.4177024.4840189323047003524@gitolite.kernel.org>
 
---===============1545247848503235141==
+--===============7146930974979276574==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/stable/linux
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/rdma-next
-    old: a29475f2c916b1a1a4b30b916242b3ad97f930a0
-    new: 1b74d47dd4937f75b4efe15fb91c3f61c176e5d8
-    log: revlist-a29475f2c916-1b74d47dd493.txt
-  - ref: refs/heads/rdma-rc
-    old: 267a38d7c8713d37f4d81069b7b93b7e5a831d1a
-    new: 26614f068116b514ee6b141c1cd21e4961692044
-    log: |
-         ffc59e32c67e599cc473d6427a4aa584399d5b3c RDMA/bnxt_re: Remove unusable nq variable
-         26614f068116b514ee6b141c1cd21e4961692044 compiler.h: Avoid the usage of __typeof_unqual__() when __GENKSYMS__ is defined
-         
+  - ref: refs/heads/master
+    old: 8560697b23dc2f405cb463af2b17256a9888129d
+    new: 6fea5fabd3323cd27b2ab5143263f37ff29550cb
+    log: revlist-8560697b23dc-6fea5fabd332.txt
 
---===============1545247848503235141==
+--===============7146930974979276574==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a29475f2c916-1b74d47dd493.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-29610226c33ffee687dedfdf1f19cbb2b117e9e7 RDMA/rxe: Fix mismatched type declarations
-ffe1cee21f8b533ae27c3a31bfa56b8c1b27fa6e RDMA/hns: initialize db in update_srq_db()
-4392d0fc37c31b6599479d13d5441c1070403f72 net/sched: Don't print dump stack in event of transmission timeout
-e2d941738a7598f9427cac1c76166d70c9b6ade9 RDMA/mlx5: Add debugfs to dump MR cache state
-f2f7bcbb4fdd71ce1dccd4549e65de892686d4d4 RDMA/core: Introduce peer memory interface
-b679a81d9baeabd4ea481e18dcba9fda812f7044 TEMP: Increase lockdep depth
-e456bc8c1711a784b38830c3e783c512a43e5a94 TEMP: Increase MAX_LOCKDEP_ENTRIES size
-591b2ff9dfeb308983e17442d7b2c37b5cb83a79 xfrm: validate assignment of maximal possible SEQ number
-6dd6b80c769561ef962bf0d8082d3ade6871abbc xfrm: advance SEQ number in non-ESN mode
-549909bd26aa2da4aa2c5c5e5b4a57e607bddab3 xfrm: advance SEQ number in ESN mode
-172426f32e1de62bc3a13815db834c8a7aec7399 xfrm: advance SEQ number in BMP mode
-aad1774818938a4c8eea7a7eb476471d75716dcb IB/mad: Add state machine to MAD layer
-fbe03ac08592e5f96f5cca32a82e2cd59331c747 IB/mad: Add flow control for solicited MADs
-1eb84e959a0b638757f5d0053af51ef68ea781bd rds: rely on IB/core to determine if device is ODP capable
-3fd42408e94c904fbf0a43b567e2df40c4c74e91 PCI/P2PDMA: Refactor the p2pdma mapping helpers
-95b4c7205ac2d0db356a2c7cb8786aed18df4ac0 dma-mapping: move the PCI P2PDMA mapping helpers to pci-p2pdma.h
-6db7c4d6858cd9943ae080b1ec9fcefaa3e11a20 iommu: generalize the batched sync after map interface
-0ac4f1cb01432b5b1840a470371b25ec3fde2cb8 iommu: add kernel-doc for iommu_unmap and iommu_unmap_fast
-7a31cd7b1947d4319a0158a0756fe14aa95897ac dma-mapping: Provide an interface to allow allocate IOVA
-447a8bc51c1f23ac9c57e4dea077f3886606beb7 iommu/dma: Factor out a iommu_dma_map_swiotlb helper
-6e7b879100aba754dacfef92ce9f21c8c7fb2c70 dma-mapping: Implement link/unlink ranges API
-d57c4c66577c41634b9e4dce2d334a09d577f6a9 dma-mapping: add a dma_need_unmap helper
-54d38d3435689df653464f903b9798b2170d0c47 docs: core-api: document the IOVA-based API
-17e1fbd36ea71a5c4d0ce08d7ceb020527848dfa mm/hmm: let users to tag specific PFN with DMA mapped bit
-512027cef281de26861d34f2f1b50c4c73219c7c mm/hmm: provide generic DMA managing logic
-f8d863118c5f64a51a07f068aab003f83475794c RDMA/umem: Store ODP access mask information in PFN
-35be1bea6f70877fcad3708f9a0fc4ee3636ced9 RDMA/core: Convert UMEM ODP DMA mapping to caching IOVA and page linkage
-0901d32ced44677df91cc0401bdb17f3c5e3b8e5 RDMA/umem: Separate implicit ODP initialization from explicit ODP
-9d07d57ef566c58d51f7b37c31b8db2aa3d61c1a vfio/mlx5: Explicitly use number of pages instead of allocated length
-10a5764c82b6d02ae04df20228018cfefd023b1d vfio/mlx5: Rewrite create mkey flow to allow better code reuse
-d5123eac6c0157f032ec20f158446a91d22eb952 vfio/mlx5: Enable the DMA link API
-71b2d67b02e868201630ac3d5741676685ac1d52 block: share more code for bio addition helper
-1f8fb519a1af2356c2f00fda168bd8c5ca17cfb7 block: don't merge different kinds of P2P transfers in a single bio
-710ae717f794f93bc160fec3b13167c85c021f16 blk-mq: add scatterlist-less DMA mapping helpers
-1f9d9ea7c90f77d60cbd8d3f485201e514c44ffa nvme-pci: remove struct nvme_descriptor
-3fff72b61c6982a7116c2a6ee0fb69b49d040fde nvme-pci: use a better encoding for small prp pool allocations
-49889de9775cfaabd1da149264191fde9ad827ac nvme-pci: convert to blk_rq_dma_map
-0c26e2506744fda9bf7a20a298ea8cfffe3f8af1 nvme-pci: optimize single-segment handling
-926bb58b19586b07974c85246457f9849de99cce swiotlb: Enrich message about buffer overflow
-1b74d47dd4937f75b4efe15fb91c3f61c176e5d8 compiler.h: Avoid the usage of __typeof_unqual__() when __GENKSYMS__ is defined
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1745136777 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1745136745-aa1b11f038f8314a6a4442c4a922e7548fc509ee
 
---===============1545247848503235141==--
+8560697b23dc2f405cb463af2b17256a9888129d 6fea5fabd3323cd27b2ab5143263f37ff29550cb refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgErIkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9owP/1USm82e2DEqveob0ju6
+smq8vUrLfC/dnbss0MdIfqnGUz9goixeufQa5ym45F6HdH+MG06Z4ul7moojM0hY
+4AlH5vR7QzLEeq8td5Adq2JTnVBpteBA/hmv8eUGcrsngyDNlWrDqMi3jREmTV4x
+XpnTmhIcjnmuqufXgWdEkYsXqxYogo2FAM9V3MzBXbxd6iqEtugoMP9D7maWLEMP
+EKqw/18hwz0Ixwz4yneFROaEyq/fh/e7hOCUbvdLt3qYG4C/rVzvILmXmuZ4h1Ah
++jBO4QXemhunbb9JJM/bDnZ5Hu+WTZDDEfFUSKgs75XCEZiT+3THSpygD6UoJ0Df
+bt/IyXk/PKG6+YRTUFkXP1ZFk1CBIxS83Uqkwq3gCbcDw7au/WOtvVD2WPqOP4CG
+v/LBVF3y0XgZ5f0uq3ufws0uhyKRSLM53n5VQoN3Z2b2eD1so7O85gjVVqQXZZ34
+rGQQo+nei3mMUqjLAe9e6gk8HUItssmUKwx7Gyvt/9NeNWX80tjv4pUXcWkomtIw
+jGUvAX8X1eaC9LuRrF9vJiMm0pcsJ6Her4FqJlgvBNAND05GpHNSx7gT5nlCFI2G
+eFhZqEAP5DtoWzUdBogOOWO9XqnQD/VCdARptD71D7vd2qGQdq59qC9oRiAd4IEO
+EkNHAxHEREM2wIoNcg4wTlZE
+=qhvm
+-----END PGP SIGNATURE-----
+
+--===============7146930974979276574==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-8560697b23dc-6fea5fabd332.txt
+
+05a2b0011c4b6cbbc9b577f6abebe4e9333b0cf6 scripts: generate_rust_analyzer: Add ffi crate
+3c75fff196c35c3bbe8c212ad03db94994130b32 rust: pin-init: alloc: restrict `impl ZeroableOption` for `Box` to `T: Sized`
+193b5a75744af2669ad7c5f7aa4f9219dc73ca69 rust: pin-init: use Markdown autolinks in Rust comments
+c59026c0570a2a97ce2e7d5ae5e9c48fc841542b rust: kbuild: Don't export __pfx symbols
+dcdae6e92d4e062da29235fe88980604595e3f0f drm/v3d: Fix Indirect Dispatch configuration for V3D 7.1.6 and later
+bcaa391e177c06a58c5f3cd18484a317d40239aa drm/msm/dpu: check every pipe per capability
+5cb1b130e1cd04239cc9c26a98279f4660dce583 drm/msm/dpu: Fix error pointers in dpu_plane_virtual_atomic_check
+2a34496fef841e8d89a4ccd1a48c7fd664b5c84f drm/msm/dpu: reorder pointer operations after sanity checks to avoid NULL deref
+ddfa00afae800b3dea02fa36f3f4012a8379ae58 drm/msm/dpu: drop rogue intr_tear_rd_ptr values
+683e9fa1c885a0cffbc10b459a7eee9df92af1c1 accel/ivpu: Flush pending jobs of device's workqueues
+082a29e20af43455bc130b14c7426ace6a143819 accel/ivpu: Update FW Boot API to version 3.28.3
+6c2b75404d33caa46a582f2791a70f92232adb71 accel/ivpu: Fix the NPU's DPU frequency calculation
+1524c28b995279db7f01abda7bf0fd26e47aefba accel/ivpu: Show NPU frequency in sysfs
+31660b406d872b5ccb3c2ec6f932969809c35b18 accel/ivpu: Add cmdq_id to job related logs
+d27326a9999286fa45ad063f760e63329254f130 dma-buf/sw_sync: Decrement refcount on error in sw_sync_ioctl_get_deadline()
+424eafe65647a8d6c690284536e711977153195a i2c: cros-ec-tunnel: defer probe if parent EC is not present
+cd35b6cb46649750b7dbd0df0e2d767415d8917b nfs: add missing selections of CONFIG_CRC32
+a1d14d931bf700c1025db8c46d6731aa5cf440f9 nfsd: decrease sc_count directly if fail to queue dl_recall
+0866ee8e50f017731b80891294c0edd0f5fcd0a9 rust: disable `clippy::needless_continue`
+46e24a545cdb4556f8128c90ecc34eeae52477a0 rust: kasan/kbuild: fix missing flags on first build
+a3cd5f507b72c0532c3345b6913557efab34f405 objtool/rust: add one more `noreturn` Rust function for Rust 1.86.0
+ec0c7afa70d5ccec44e736b60ed2e7c191d054cb drm/i915/display: Add macro for checking 3 DSC engines
+3a47280b768748992ee34bd52c394c60b2845af3 drm/i915/dp: Check for HAS_DSC_3ENGINES while configuring DSC slices
+c443279a87d54bf3027925cb3eb2baf51c3b26c9 Kconfig: switch CONFIG_SYSFS_SYCALL default to n
+ddee68c499f76ae47c011549df5be53db0057402 hfs{plus}: add deprecation warning
+c86b300b1ea35959a6e2a63a6497226a6ea90b67 fs: add kern_path_locked_negative()
+1c4494c14b4124f3a13a7f4912b84b633ff4f9ba rust: kbuild: use `pound` to support GNU Make < 4.3
+584e61452f75bfeac2cdd83730b4059526ec60c7 rust: helpers: Remove volatile qualifier from io helpers
+c1b4071ec3a6a594df6c49bf8f04a60a88072525 rust: helpers: Add dma_alloc_attrs() and dma_free_attrs()
+a681b7c17dd21d5aa0da391ceb27a2007ba970a4 fs: ensure that *path_locked*() helpers leave passed path pristine
+75caec0c2aa3a7ec84348d438c74cb8a2eb4de97 i2c: atr: Fix wrong include
+447fab30955cf7dba7dd563f42b67c02284860c8 drm/amdgpu: use a dummy owner for sysfs triggered cleaner shaders v4
+1657793def101dac7c9d3b2250391f6a3dd934ba drm/amd: Forbid suspending into non-default suspend states
+e7afa85a0d0eba5bf2c0a446ff622ebdbc9812d6 drm/amdgpu: fix warning of drm_mm_clean
+2036be31741b00f030530381643a8b35a5a42b5c drm/amdgpu: Add back JPEG to video caps for carrizo and newer
+cd9e6d6fdd2de60bfb4672387c17d4ee7157cf8e drm/amd/display/dml2: use vzalloc rather than kzalloc
+c235a7132258ac30bd43d228222986022d21f5de drm/amdgpu: Use the right function for hdp flush
+c925e9936def79c6a1af7c61b02438670d0ab65c Merge tag 'amd-drm-fixes-6.15-2025-04-16' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
+8260731ccad0451207b45844bb66eb161a209218 drm/gem: Internally test import_attach for imported objects
+0a65bc27bd645894175c059397b4916e31955fb2 eventpoll: Set epoll timeout if it's in the future
+76c332d119f9048c6e16b52359f401510f18b2ff drm/mgag200: Fix value in <VBLKSTR> register
+58db1c3cd0ce857e7210b0a95908900c25c28c3e netfs: Mark __nonstring lookup tables
+777d0961ff95b26d5887fdae69900374364976f3 fs: move the bdex_statx call to vfs_getattr_nosec
+31d1139956112dd047a70b263f4d578921de779a ftrace: Initialize variables for ftrace_startup/shutdown_subops()
+08275e59a75047ba8fc0b9853bfdfc88a124763d ftrace: Reinitialize hash to EMPTY_HASH after freeing
+c45c585dde535e5ae2c363594bde3e05ce94a296 ftrace: Free ftrace hashes after they are replaced in the subops code
+92f1d3b40179b15630d72e2c6e4e25a899b67ba9 ftrace: fix incorrect hash size in register_ftrace_direct()
+3b4e87e6a593d571183c414d81758624da01f2b9 ftrace: Fix type of ftrace_graph_ent_entry.depth
+9025588cbf6e12eac33007d045c46b280bc14b73 Merge tag 'drm-intel-fixes-2025-04-17' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
+9bca5bcdeb0d157084a3de6ab1b17424eb875d10 Merge tag 'drm-misc-fixes-2025-04-17' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
+6405f5b70b1c240ffddef01c7a140498f47d4fe7 drm/xe: Set LRC addresses before guc load
+2577b202458cddff85cc154b1fe7f313e0d1f418 drm/xe/userptr: fix notifier vs folio deadlock
+25583ad42d091819157832e894179200ba8b54ee drm/xe/dma_buf: stop relying on placement in unmap
+78600df8f593407a3df2d6c48c35d0ad203d7fb4 drm/xe/pxp: do not queue unneeded terminations from debugfs
+a8c5b0ed89a3f2c81c6ae0b041394e6eea0e7024 tracing: Fix filter string testing
+4067196a52278156d18d8d6fa7f43970611b1b49 mm/page_alloc: fix deadlock on cpu_hotplug_lock in __accept_page()
+98b1917cdef92c29fc9a14060d5606c619050c2c fs/dax: fix folio splitting issue by resetting old folio order + _nr_pages
+8ad5ac8f4fc4848d17db809038773ee0bee76b0b MAINTAINERS: update SLAB ALLOCATOR maintainers
+5e610c8c09990dc4bfdfdc56138838a41a718967 MAINTAINERS: add MM subsection for the page allocator
+6b956934ad6d9f76c66c8fab570b07536c6ca472 mm: memcontrol: fix swap counter leak from offline cgroup
+1413efdb254f41c05ae5c13aa975ecd9733f37a7 MAINTAINERS: add mmap trace events to MEMORY MAPPING
+86fba6127e197c7d646e8ee771df6026e14211dc MAINTAINERS: add memory advice section
+8c03ebd7cdc06bd0d2fecb4d1a609ef1dbb7d0aa mm/gup: fix wrongly calculated returned value in fault_in_safe_writeable()
+fd0ad5e9d158436b4a9b34c60582488585e1d90d docs: ABI: replace mcroce@microsoft.com with new Meta address
+9e888998ea4d22257b07ce911576509486fa0667 writeback: fix false warning in inode_to_wb()
+274fe92de2c4e50dbfd1b30070b4f6d8a27b388a mm, hugetlb: increment the number of pages to be reset on HVO
+8bdea2fce98033d392db16da246843cadeddef39 mm/memory: move sanity checks in do_wp_page() after mapcount vs. refcount stabilization
+2db93a896fec7109302598cf45de3831340d9f53 MAINTAINERS: add Pedro as reviewer to the MEMORY MAPPING section
+38448181459e24257b40d5258afdbaa3565e8cfc mm: vmscan: restore high-cpu watermark safety in kswapd
+a1f0220f3319057b364d871659ef7c10ab78f795 mm: vmscan: fix kswapd exit condition in defrag_mode
+ea21641b6a79f9cdd64f8339983c71c89949dcb5 MAINTAINERS: add section for locking of mm's and VMAs
+d481ee35247d2a01764667a25f6f512c292ba42d tracing: selftests: Add testing a user string to filters
+24aaced72a686fb1dd8c3477987e1eaad76230a2 Merge tag 'i2c-host-fixes-6.15-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-current
+9d78f02503227d3554d26cf8ca73276105c98f3e drm/msm/a6xx+: Don't let IB_SIZE overflow
+3748bef7b78bf2d3e2b595f6ca88947f954de77e Merge tag 'drm-xe-fixes-2025-04-18' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
+0467145fab3b3a7a1efd221722310fe32329b3da Merge tag 'drm-msm-fixes-2025-04-18' of https://gitlab.freedesktop.org/drm/msm into drm-fixes
+51c7960b87f465d01ea8d8ff174e81dd69f3b2b4 Merge tag 'drm-fixes-2025-04-19' of https://gitlab.freedesktop.org/drm/kernel
+0bd2f269ae892ce7283fee8fcfe2c6c971d871bc Merge tag 'rust-fixes-6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/ojeda/linux
+1ca0f935a126950c2f0b305a50f31f3b00542b0d Merge tag 'nfsd-6.15-1' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+fa6ad96dca040e169f4008637d8d77f22631b34d Merge tag 'trace-v6.15-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+408e4504f97c0aa510330f0a04b7ed028fdf3154 Revert "hfs{plus}: add deprecation warning"
+6fe8131757bd58693dba0775e919d46ce183dda2 Merge tag 'i2c-for-6.15-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
+119009db267415049182774196e3cce9e13b52ef Merge tag 'vfs-6.15-rc3.fixes.2' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+6fea5fabd3323cd27b2ab5143263f37ff29550cb Merge tag 'mm-hotfixes-stable-2025-04-19-21-24' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+
+--===============7146930974979276574==--
