@@ -1,22 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Sun, 20 Apr 2025 14:50:49 -0000
-Message-Id: <174516064928.498058.13061843834500726901@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 20 Apr 2025 15:00:08 -0000
+Message-Id: <174516120852.506022.6306195808566218093@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arighi/linux
-user: arighi
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/scx
-    old: d7c331ca1822378c84ab1019febd546af2497ded
-    new: 82cb1314996a457298afa30c87f790e43fa62376
+  - ref: refs/heads/master
+    old: ddb0d280d37577fa2773843f44ebbd66342015ec
+    new: 63e52669201044f18b36582798cdd7bedd66c6ac
     log: |
-         447f861fcbfa73080e5db0f2c1bd8feb87873645 sched_ext: Track currently locked rq
-         e7839b2ee39149f274684c0978969e6bc724ccc2 sched_ext: Fix missing rq lock in scx_bpf_cpuperf_set()
-         ba05acb13923bebd3b4701ab6fcd3bd838d25afe sched_ext: idle: Always prefer local idle CPUs before cross-node CPUs
-         82cb1314996a457298afa30c87f790e43fa62376 sched_ext: Avoid WAKE_SYNC migrations across LLC domains
+         021021293df66f56489e587592fe087f179d1080 Fixes for 6.14
+         b3b4ee0c0e5d99c03f4df50beb21bab3fa63f32b Fixes for 6.12
+         641baf47788e59a639e321ee520a51eb2c47317e Fixes for 6.6
+         1d1fe2a00d300b935c2c4d87653b298d318e8e2f Fixes for 6.1
+         24241cb4284b59260dafb3327fc2a4bdc7094659 Fixes for 5.15
+         6dd003b40ba4ae98a1cc6c3b21f49e7a0ab9beea Fixes for 5.10
+         63e52669201044f18b36582798cdd7bedd66c6ac Fixes for 5.4
          
