@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Mon, 21 Apr 2025 09:01:27 -0000
-Message-Id: <174522608708.1426701.12827482906636646214@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
+Date: Mon, 21 Apr 2025 09:32:44 -0000
+Message-Id: <174522796488.1451027.16244069644885715570@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: mani
+repo: pub/scm/linux/kernel/git/mingo/tip
+user: mingo
 changes:
-  - ref: refs/heads/controller/cadence
-    old: f8015b6a0db95ce09aaacb236746f33b7a540a3e
-    new: 7a68d4ab59fa66ebbd9b8abdbffcaf748e109ad7
+  - ref: refs/heads/WIP.x86/e820
+    old: 00188fb1706a5b13228b766cb47dcda740319a86
+    new: 9e58b6dd692a75a1f33e195bdad7421fac165c1c
     log: |
-         b51c6fee0a06b71e9bf610f4b294426d0a1f1b51 PCI: cadence: Add support to build pcie-cadence library as a kernel module
-         23c498ea9abd7bed7d0f8c1c5f63459100b01028 PCI: cadence-host: Introduce cdns_pcie_host_disable helper for cleanup
-         5f8c840aa407588a7eae89af1301ba19c307aab7 PCI: cadence-ep: Introduce cdns_pcie_ep_disable helper for cleanup
-         7a68d4ab59fa66ebbd9b8abdbffcaf748e109ad7 PCI: j721e: Add support to build as a loadable module
+         7f36ac90bdaa2fdd962c275c755f25e4711979b5 x86/boot/e820: Standardize e820 table index variable types under 'u32'
+         d578d08316e1a39e057aaa92653b285acea59984 x86/boot/e820: Clean up e820__setup_pci_gap()/e820_search_gap() a bit
+         7c5938513a7445f5f1820b8226fba227807ffac0 x86/boot/e820: Change e820_search_gap() to search for the highest-address PCI gap
+         2dae166cd3dbdfdee4b7b13bc73a124b8508ca2c x86/boot/e820: Rename gap_start/gap_size to max_gap_start/max_gap_start in e820_search_gap() et al
+         1d9c15bea4a2e4b278431db30f14025d6e7a4f02 x86/boot/e820: Make sure e820_search_gap() finds all gaps
+         9e58b6dd692a75a1f33e195bdad7421fac165c1c FIX: f50086f532fa x86/boot/e820: Print out sizes of E820 memory ranges
          
