@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4486592607742333413=="
+Content-Type: multipart/mixed; boundary="===============4841089712787050369=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Mon, 21 Apr 2025 00:06:05 -0000
-Message-Id: <174519396596.942074.13854476033164673927@gitolite.kernel.org>
+Date: Mon, 21 Apr 2025 00:06:29 -0000
+Message-Id: <174519398971.942407.342538744737786623@gitolite.kernel.org>
 
---===============4486592607742333413==
+--===============4841089712787050369==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/libata/linux
 user: dlemoal
 changes:
-  - ref: refs/heads/for-6.16
+  - ref: refs/heads/for-next
     old: 6aac5eddb78b54999e3d2372d58f5d4d7a97979e
     new: ecd9ecc75d150b82a832eb7aaa9b7b983fea5271
     log: revlist-6aac5eddb78b-ecd9ecc75d15.txt
 
---===============4486592607742333413==
+--===============4841089712787050369==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -525,4 +525,4 @@ e8866e26f5e8ec551eec73dca1c30d458f9dca86 ata: libata-core: Simplify ata_print_ve
 f54464458d34141911047258090f25c67204cda4 ata: libata-sata: Simplify sense_valid fetching
 ecd9ecc75d150b82a832eb7aaa9b7b983fea5271 ata: libata-sata: Use BIT() macro to convert tag to bit field
 
---===============4486592607742333413==--
+--===============4841089712787050369==--
