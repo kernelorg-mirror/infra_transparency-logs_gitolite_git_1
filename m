@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1568918072261109863=="
+Content-Type: multipart/mixed; boundary="===============4350566615810784461=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 21 Apr 2025 01:11:49 -0000
-Message-Id: <174519790984.999293.1681938933342812765@gitolite.kernel.org>
+Date: Mon, 21 Apr 2025 01:14:04 -0000
+Message-Id: <174519804400.1000376.2500549993589930248@gitolite.kernel.org>
 
---===============1568918072261109863==
+--===============4350566615810784461==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
-    old: 8ffd015db85fea3e15a77027fda6c02ced4d2444
-    new: 9c32cda43eb78f78c73aee4aa344b777714e259b
-    log: revlist-8ffd015db85f-9c32cda43eb7.txt
+  - ref: refs/heads/nfsd-next
+    old: fec8e74d64677ff8b96269ec6f56f11b71699a3d
+    new: 2a6a39da222259df24faec443de336263d10380b
+    log: revlist-fec8e74d6467-2a6a39da2222.txt
 
---===============1568918072261109863==
+--===============4350566615810784461==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8ffd015db85f-9c32cda43eb7.txt
+Content-Disposition: attachment; filename=revlist-fec8e74d6467-2a6a39da2222.txt
 
 8aa580cd92843b60d4d6331f3b0a9e8409bb70eb scsi: hisi_sas: Enable force phy when SATA disk directly connected
 daff37f00c7506ca322ccfce95d342022f06ec58 scsi: hisi_sas: Fix I/O errors caused by hardware port ID changes
@@ -520,5 +520,23 @@ be913e7c4034bd7a5cbfc3d53188344dc588d45c gcc-15: get rid of misc extra NUL chara
 05e8d261a34e5c637e37be55c26e42cf5c75ee5c gcc-15: add '__nonstring' markers to byte arrays
 ac71fabf15679fc7bc56c51bc92bd4b626564c37 gcc-15: work around sequence-point warning
 9c32cda43eb78f78c73aee4aa344b777714e259b Linux 6.15-rc3
+6b4ea87ba30e5804a49062245aa4a5165df157c3 NFSD: OFFLOAD_CANCEL should mark an async COPY as completed
+6105cf92e642e77da06a45d3041b86451088c9fb NFSD: Shorten CB_OFFLOAD response to NFS4ERR_DELAY
+717baae8923262b4bea799245df99292d7068cb6 NFSD: Implement CB_SEQUENCE referring call lists
+80bc3f6b4bc7306977678cf710c11408b934e33d NFSD: Implement CB_SEQUENCE referring call lists
+b6c1377de30e21ca454e8cb6d80199155c2b2c35 NFSD: Record each NFSv4 call's session slot index
+97f8bebf5193b234545173e38b596b3a564dc7f7 sunrpc: update nextcheck time when adding new cache entries
+e34a32facb51310921d8cf825695ddf6e64ad1b8 sunrpc: fix race in cache cleanup causing stale nextcheck time
+394e34b233d9a66e920212286bf66d69f1b06864 NFSD: Offer write delegation for OPEN with OPEN4_SHARE_ACCESS_WRITE
+2a3c0c1f96572b4856286e3666454f39bd950047 NFSD: unregister filesystem in case genl_register_family() fails
+24e3f0af50a5c86ff9f263c254cc8d0369fa206c NFSD: fix race between nfsd registration and exports_proc
+3eddb2fd5221d48ef1efa3410240ec00578e6702 NFSD: Add /sys/kernel/debug/nfsd
+53423fb6eacd032b7602f4ac63a449cb7046efc9 NFSD: Add experimental setting to disable the use of splice read
+c7eb645dd9366c1603dc4b8eb166d6d2fc20ace1 nfsd: remove redundant WARN_ON_ONCE in nfsd4_write
+8d475ac6bdb3a060bc601ff360821840159eec12 nfsd: fix access checking for NLM under XPRTSEC policies
+b085b5354de2b4fc2bf1d47acfe92d72c985bbaf nfsd: nfsd4_spo_must_allow() must check this is a v4 compound request
+cadcec4ed220767436e8d4b3d3bba2a58b8e0c2f nfsd: add commit start/done tracepoints around nfsd_commit()
+c8b4bba977652124e56d2f55176d0859a91e3836 sunrpc: add info about xprt queue times to svc_xprt_dequeue tracepoint
+2a6a39da222259df24faec443de336263d10380b MAINTAINERS: Update Neil Brown's email address
 
---===============1568918072261109863==--
+--===============4350566615810784461==--
