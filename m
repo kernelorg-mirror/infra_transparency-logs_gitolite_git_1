@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Mon, 21 Apr 2025 17:19:37 -0000
-Message-Id: <174525597705.1857752.4325397385912452290@gitolite.kernel.org>
+Date: Mon, 21 Apr 2025 17:20:13 -0000
+Message-Id: <174525601310.1860028.4309315929273853901@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/damon-hack
 user: sj
 changes:
-  - ref: refs/heads/master
-    old: 3e2c9011600e83178d6986b6b0ba82275bd0b544
-    new: 4c55391d0e4f3ddf8c14589bb1fa00621b143414
-    log: |
-         6821a02f3c157be9602412b83bab27e1ff765ff9 patches/next: add kmalloc_array() patch from Su Hui
-         4c55391d0e4f3ddf8c14589bb1fa00621b143414 patches/next: rebase to latest mm-new
-         
+  - ref: refs/tags/damon/next-2025-04-21-10-20-on-v6.15-rc2
+    old: 0000000000000000000000000000000000000000
+    new: cc25999278ee7992448af25c35bf479999cfaac6
