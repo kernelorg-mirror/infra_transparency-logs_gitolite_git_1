@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2550161757574191383=="
+Content-Type: multipart/mixed; boundary="===============1588655261297189627=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Mon, 21 Apr 2025 23:20:49 -0000
-Message-Id: <174527764949.2157321.11646344959462954678@gitolite.kernel.org>
+Date: Mon, 21 Apr 2025 23:21:13 -0000
+Message-Id: <174527767348.2157733.16921465001583685500@gitolite.kernel.org>
 
---===============2550161757574191383==
+--===============1588655261297189627==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,36 @@ repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next/hardening
-    old: 94a821d9355c1ba9b069e7db36ef552506ea530e
+  - ref: refs/heads/for-next/kspp
+    old: ce9baf7ce6e6c3c2495586dbf93b940e24f36434
     new: c5b45570cac5302cb650531a35142eab8231853c
-    log: revlist-94a821d9355c-c5b45570cac5.txt
+    log: revlist-ce9baf7ce6e6-c5b45570cac5.txt
 
---===============2550161757574191383==
+--===============1588655261297189627==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1745277678 -0700
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1745277702 -0700
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1745277635-0fa504ec357f4438f7bdb332dd8567cc0ea65a25
+nonce 1745277671-85c020f2cdf447451fc9f7b728efd3d4f97ad140
 
-94a821d9355c1ba9b069e7db36ef552506ea530e c5b45570cac5302cb650531a35142eab8231853c refs/heads/for-next/hardening
+ce9baf7ce6e6c3c2495586dbf93b940e24f36434 c5b45570cac5302cb650531a35142eab8231853c refs/heads/for-next/kspp
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCaAbS7gAKCRA2KwveOeQk
-u+SiAQDP26Z7OsBaLdQw2sKtk0o6UZN101lG7PqcLD4YJMrFOQEAyj5D5AZlcFYn
-YI864nN9hV5duHfg/Pkx7V2Ycj4AhAk=
-=aU0e
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCaAbTBgAKCRA2KwveOeQk
+u0rQAP47Aly4rsdqbRBcSt/075usKwGGEiRFx9DKMRpOhvvNmwD+JfXYj6J4Otvk
+soAMiq84JHSUQEPyeRssMtHKSf2cGwc=
+=0zl5
 -----END PGP SIGNATURE-----
 
---===============2550161757574191383==
+--===============1588655261297189627==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-94a821d9355c-c5b45570cac5.txt
+Content-Disposition: attachment; filename=revlist-ce9baf7ce6e6-c5b45570cac5.txt
 
 8aa580cd92843b60d4d6331f3b0a9e8409bb70eb scsi: hisi_sas: Enable force phy when SATA disk directly connected
 daff37f00c7506ca322ccfce95d342022f06ec58 scsi: hisi_sas: Fix I/O errors caused by hardware port ID changes
@@ -326,12 +326,6 @@ c3b02e6d67acb9893b6c219d32cdc75a28ffea65 bcachefs: Log message when incompat ver
 41c721fc093938745d116c3a21326a0ee03bb491 spi: tegra210-quad: use WARN_ON_ONCE instead of WARN_ON for timeouts
 21f4314e66ed8d40b2ee24185d1a06a07a512eb1 spi: tegra210-quad: add rate limiting and simplify timeout error message
 0dba7a05b9e47d8b546399117b0ddf2426dc6042 loop: LOOP_SET_FD: send uevents for partitions
-d94c12bd97d567de342fd32599e7cd9e50bfa140 string: Add load_unaligned_zeropad() code path to sized_strscpy()
-62d32440ac127b79747ef930205052803a8efd0f kasan: Add strscpy() test to trigger tag fault on arm64
-f5c68a4e84f9feca3be578199ec648b676db2030 hardening: Disable GCC randstruct for COMPILE_TEST
-cdc2e1d9d929d7f7009b3a5edca52388a2b0891f lib/Kconfig.ubsan: Remove 'default UBSAN' from UBSAN_INTEGER_WRAP
-9b044614be12d78d3a93767708b8d02fb7dfa9b0 ubsan: Fix panic from test_ubsan_out_of_bounds
-3f2925174f8bd811f9399cb4049f6b75fd2fba91 lib/prime_numbers: KUnit test should not select PRIME_NUMBERS
 584e61452f75bfeac2cdd83730b4059526ec60c7 rust: helpers: Remove volatile qualifier from io helpers
 c1b4071ec3a6a594df6c49bf8f04a60a88072525 rust: helpers: Add dma_alloc_attrs() and dma_free_attrs()
 72b5259053903552ee0314eb422c990c29eb8546 bcachefs: snapshot_node_missing is now autofix
@@ -551,4 +545,4 @@ bd5be0fa71615b44f2dab552162b587c6e70f8bb compiler_types: Identify compiler versi
 4e5222bc2eef69252277f837880c876bf0ffee04 kbuild: Switch from -Wvla to -Wvla-larger-than=0
 c5b45570cac5302cb650531a35142eab8231853c mod_devicetable: Enlarge the maximum platform_device_id name length
 
---===============2550161757574191383==--
+--===============1588655261297189627==--
