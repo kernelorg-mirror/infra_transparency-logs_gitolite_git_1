@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1004690943235641642=="
+Content-Type: multipart/mixed; boundary="===============2602536313780390734=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 21 Apr 2025 20:20:23 -0000
-Message-Id: <174526682395.2012228.3867327158468491325@gitolite.kernel.org>
+Date: Mon, 21 Apr 2025 20:20:33 -0000
+Message-Id: <174526683390.2012569.908909244657969881@gitolite.kernel.org>
 
---===============1004690943235641642==
+--===============2602536313780390734==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 55d011e6288f823a930f638a4e538df55ef83391
-    new: ef9ca9a21357709ff5278deaf7ac919e90d51e36
-    log: revlist-55d011e6288f-ef9ca9a21357.txt
+  - ref: refs/heads/m68k-queue
+    old: 419261c5448eecc9b71d8d8ae658790c6ad1379a
+    new: 5a2a0cffad8475069da6c6702bdb4d40b343bc8f
+    log: revlist-419261c5448e-5a2a0cffad84.txt
 
---===============1004690943235641642==
+--===============2602536313780390734==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-55d011e6288f-ef9ca9a21357.txt
+Content-Disposition: attachment; filename=revlist-419261c5448e-5a2a0cffad84.txt
 
 8aa580cd92843b60d4d6331f3b0a9e8409bb70eb scsi: hisi_sas: Enable force phy when SATA disk directly connected
 daff37f00c7506ca322ccfce95d342022f06ec58 scsi: hisi_sas: Fix I/O errors caused by hardware port ID changes
@@ -520,6 +520,8 @@ be913e7c4034bd7a5cbfc3d53188344dc588d45c gcc-15: get rid of misc extra NUL chara
 05e8d261a34e5c637e37be55c26e42cf5c75ee5c gcc-15: add '__nonstring' markers to byte arrays
 ac71fabf15679fc7bc56c51bc92bd4b626564c37 gcc-15: work around sequence-point warning
 9c32cda43eb78f78c73aee4aa344b777714e259b Linux 6.15-rc3
-ef9ca9a21357709ff5278deaf7ac919e90d51e36 Merge tag 'v6.15-rc3'
+b55adad073659ab23335ce128dfeb06297bed138 m68k: atari: usb: Add ISP1160 USB host controller support
+3cbf2db45cd706d7d994bcc10b5ae01c2313d895 m68k: atari: Update Kconfig.bus help text
+5a2a0cffad8475069da6c6702bdb4d40b343bc8f m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============1004690943235641642==--
+--===============2602536313780390734==--
