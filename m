@@ -1,49 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2904075658561069272=="
+Content-Type: multipart/mixed; boundary="===============6471182943887669314=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 21 Apr 2025 08:15:53 -0000
-Message-Id: <174522335308.1388103.13186628559621773252@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Mon, 21 Apr 2025 08:17:42 -0000
+Message-Id: <174522346242.1389000.6038364720281343000@gitolite.kernel.org>
 
---===============2904075658561069272==
+--===============6471182943887669314==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    new: d85080df12f33ad42a452a9998b21813b29daf35
-    log: revlist-0af2f6be1b42-d85080df12f3.txt
+  - ref: refs/heads/master
+    old: b83c3c5e1fcd736434b2267dc4307c12541105c2
+    new: bc5018ba222e72795e53034d6384ad78e5ad7a47
+    log: |
+         bc5018ba222e72795e53034d6384ad78e5ad7a47 tools: move kernel.rs into cve_utils
+         
 
---===============2904075658561069272==
-Content-Type: text/plain; charset="utf-8"
+--===============6471182943887669314==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-0af2f6be1b42-d85080df12f3.txt
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-16b82367aa28bd31795e720548421b58824108e1 RDMA/mlx5: convert timeouts to secs_to_jiffies()
-2633ddff9b0f6f2a41f9f05cf18afacc029f8ef7 RDMA: Replace msecs_to_jiffies with secs_to_jiffies for timeout
-41e2649c796e1f49c7b4d9176d2437504b78580f RDMA/core: Convert to use ERR_CAST()
-7bc871af417a3011739ccddabb64db482ff7d752 RDMA/uverbs: Convert to use ERR_CAST()
-8a94c42d831092ba65ce88bda020d93d2e267fe4 RDMA/core: Convert to use ERR_CAST()
-aae85e007dffda49d1a611474f9653021ec763bd IB/hfi1: Avoid -Wflex-array-member-not-at-end warning
-3aadd652c2c816a908abe55079e2590e3259e8ba RDMA/hns: Remove unused parameters
-4dab26bed543584577b64b36aadb8b5b165bf44f IB/cm: use rwlock for MAD agent lock
-6703cb3dced01f32982b9f7069ef1336d0225077 RDMA/rxe: Enable ODP in RDMA FLUSH operation
-b84001ad0ceeb34bc3fd6c383f197326d4fe8353 RDMA/rxe: Enable ODP in ATOMIC WRITE operation
-9334003d1335b1d086334f946eab158503487e58 RDMA: Don't use %pK through printk
-29610226c33ffee687dedfdf1f19cbb2b117e9e7 RDMA/rxe: Fix mismatched type declarations
-ffe1cee21f8b533ae27c3a31bfa56b8c1b27fa6e RDMA/hns: initialize db in update_srq_db()
-7d40ccf018694ae894b37d7e849cde116eb37627 RDMA/mana_ib: Access remote atomic for MRs
-8f49682d94f3a12a6a3e636a07bbe57c80329d1d RDMA/mana_ib: support of the zero based MRs
-f1652d76f4c51b5aefd14706eecbd70f05ca987a RDMA/mana_ib: Add support of 4M, 1G, and 2G pages
-04039390cc3cb3d1e6ce6bb1680cbdfe117d6473 RDMA/cma: Remove unused rdma_res_to_id
-1c7eec4d5f3b39cdea2153abaebf1b7229a47072 RDMA/rxe: Fix "trying to register non-static key in rxe_qp_do_cleanup" bug
-d85080df12f33ad42a452a9998b21813b29daf35 RDMA/rxe: Remove unused rxe_run_task
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1745223489 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1745223459-f561e049391dd168d9d1b605d49cd16e10fcd16a
 
---===============2904075658561069272==--
+b83c3c5e1fcd736434b2267dc4307c12541105c2 bc5018ba222e72795e53034d6384ad78e5ad7a47 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgF/0EbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Q9IP/2ShW9siZF0//ywveM3D
+HjIANxuIOY+sfYNCXroCBAOcpSTEKQ9QKewqZvpdmRriYuW+jHvhHR8zUrZJWxsE
+/OhKdZne99AeDH6HUY+ZfOQ3rO3/laDp32k4jhqOUk5P9bE0/tIre5jig2klShOB
+1lwivvZNpJHYHeAXedySWKXPvHj50fLBYHOYNGkcqX+1BnUuRjgFKJBDFwZs6guJ
+s1qZpAmOuUlhdzpbbQAyMEl3wh/tKyYdtK8y2Cr4ZXnF0QyitZuwZ44d/MG+Lss7
+qlQCFginqkod1VfGGkpiBJuMl8teKG/t5NJ1WARv2/z9F3RsF9kkcQKuzmxFSfXP
+yU+WHtAm1P1YMFFlyk1oKmxY2keOLNHux/cZxnRKiZZQiWpqVSXU/Ws+OZPts9R5
+F5WFykAdtIZYpPI81KN3c7jyc9G6tkNsI2sHQWrmFa7aEehL82gdGHmhR4nk2CON
+zu1Dv8MYFEuPWFncY2jCnoPQcpGt8h8Se52x4ASk6gXLmwTMfog8el8j6K3ZHcYN
+mcZen7wJL5wjl3NhK6z+YLETHYA+Ht7HPw79VcyZDGczqenbTXCpAr7akduLRZGq
+oBlaY1Lz479FvbsjdtF27Sa5MvPI/f+CUBk2rOxhhG3BYDbkYrdOGDlz+dhVtkKA
+wu8tmbzLuk3u9e2TTw4b7CGi
+=AUFE
+-----END PGP SIGNATURE-----
+
+--===============6471182943887669314==--
