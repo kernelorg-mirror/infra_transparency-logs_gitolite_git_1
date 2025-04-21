@@ -1,65 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5606626911744613454=="
+Content-Type: multipart/mixed; boundary="===============0713601198486706617=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 21 Apr 2025 09:34:58 -0000
-Message-Id: <174522809861.1453346.10218719290414192356@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
+Date: Mon, 21 Apr 2025 09:38:11 -0000
+Message-Id: <174522829140.1456551.9469761301337300089@gitolite.kernel.org>
 
---===============5606626911744613454==
+--===============0713601198486706617==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
+repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
-    old: 08a5924d95bbebf78b2c7bff6896ded659935028
-    new: 1a11b5b80f46e4dff0b21cb07efab43dee049d61
-    log: revlist-08a5924d95bb-1a11b5b80f46.txt
-  - ref: refs/heads/tip/urgent
-    old: f99c90b06e760fdf4f311bfe8164281b482602eb
-    new: d2a7bc78952629f41c0df248e9982598f1d0fdba
-    log: |
-         d5d45a7f26194460964eb5677a9226697f7b7fdd gcc-15: make 'unterminated string initialization' just a warning
-         4b4bd8c50f4836ba7d3fcfd6c90f96d2605779fe gcc-15: acpi: sprinkle random '__nonstring' crumbles around
-         be913e7c4034bd7a5cbfc3d53188344dc588d45c gcc-15: get rid of misc extra NUL character padding
-         05e8d261a34e5c637e37be55c26e42cf5c75ee5c gcc-15: add '__nonstring' markers to byte arrays
-         ac71fabf15679fc7bc56c51bc92bd4b626564c37 gcc-15: work around sequence-point warning
-         9c32cda43eb78f78c73aee4aa344b777714e259b Linux 6.15-rc3
-         9d7a0577c9db35c4cc52db90bc415ea248446472 gcc-15: disable '-Wunterminated-string-initialization' entirely for now
-         d2a7bc78952629f41c0df248e9982598f1d0fdba Merge branch into tip/master: 'x86/urgent'
-         
-  - ref: refs/tags/v6.15-rc3
-    old: 0000000000000000000000000000000000000000
-    new: f34da179a4517854b2ffbe4bce8c3405bd9be04e
+  - ref: refs/heads/WIP.x86/e820
+    old: fd168c9959c9c8376fd13f5d20046c56ea586904
+    new: a8fbce2cc06b5d984b13eddf51cccdbe20b7b024
+    log: revlist-fd168c9959c9-a8fbce2cc06b.txt
 
---===============5606626911744613454==
+--===============0713601198486706617==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-08a5924d95bb-1a11b5b80f46.txt
+Content-Disposition: attachment; filename=revlist-fd168c9959c9-a8fbce2cc06b.txt
 
-d2a7bc78952629f41c0df248e9982598f1d0fdba Merge branch into tip/master: 'x86/urgent'
-d6ad2c26951c155d1e4381a48435aa6a565c0da3 Merge branch into tip/master: 'x86/merge'
-f4ef401ca3ac96c6b22aabe0bbfe59e0b25d12c2 Merge branch into tip/master: 'perf/merge'
-428398c7fa949eb41d627b9c3a26c64c8d8c356d Merge branch into tip/master: 'irq/core'
-3d27d2ed92c02b4654a226168069aa1bc9fb2404 Merge branch into tip/master: 'irq/drivers'
-73511b4583f7a1f1e7d0295569a1c28a03f54fa3 Merge branch into tip/master: 'irq/msi'
-3eb5df3c2cfbc1e7462a2342156d328eaadc6fbf Merge branch into tip/master: 'sched/core'
-0b49ac4bdbb7d4ba324a069e12c42e03c1808d8e Merge branch into tip/master: 'timers/core'
-7fea7aaf8729c0dc29e2093b4d9ec625f56a15cc Merge branch into tip/master: 'x86/alternatives'
-bf070f79beee2cdd1f3facd76038e056b963d54a Merge branch into tip/master: 'x86/asm'
-c1699aeffcb747fb38e505d20d48d864c5532999 Merge branch into tip/master: 'x86/boot'
-3bb8cee901e54f1b6083261b6057b5de2c8dd378 Merge branch into tip/master: 'x86/bugs'
-cfd9ed9e927b34f19b2e873d947cfa31fd19a488 Merge branch into tip/master: 'x86/cpu'
-af2cd41113431463ff03b43a212597d865b4a72f Merge branch into tip/master: 'x86/fpu'
-17b410951fd1559ae0e156a4c41e7787c1eecb6f Merge branch into tip/master: 'x86/kconfig'
-46ed99c863df679f213618ee62b5940e579048c2 Merge branch into tip/master: 'x86/microcode'
-d98c7f5a86ab0e4d7a36b726ba4f944195f08680 Merge branch into tip/master: 'x86/mm'
-4232f503da4327386a73b150828f47dad8de40a9 Merge branch into tip/master: 'x86/nmi'
-1a11b5b80f46e4dff0b21cb07efab43dee049d61 Merge branch into tip/master: 'x86/sev'
+9d7a0577c9db35c4cc52db90bc415ea248446472 gcc-15: disable '-Wunterminated-string-initialization' entirely for now
+c0aee21e86a85e437af9c4dcada9dc8b4e2e15bc x86/boot/e820: Remove inverted boolean logic from the e820_nomerge() function name, rename it to e820_type_mergeable()
+7954089f0bfb318433492e9339b10cea235f86bf x86/boot/e820: Simplify e820__print_table() a bit
+7aea8aac91b68adcae4ab4c3e614052de3c3ee16 x86/boot/e820: Simplify the PPro Erratum #50 workaround
+5ed35a26f978819d65dad10d6718681fc867fad0 x86/boot/e820: Mark e820__print_table() static
+670d55cc09a130b8cacae448074bc838a37916f6 x86/boot/e820: Print gaps in the E820 table
+acc900e7260eeb81f1b654b45b2592bb72e2634b x86/boot/e820: Make the field separator space character part of e820_print_type()
+2380a342f6cb607a382769753a33c2b7d0d3e83a x86/boot/e820: Print out sizes of E820 memory ranges
+01c80f6ee317e5ea12e99f18a95959ea60de6326 x86/boot/e820: Print E820_TYPE_RAM entries as ... RAM entries
+264cd1c71df457ab742dec632d9d46d2234e6667 x86/boot/e820: Call the PCI gap a 'gap' in the boot log printout
+569c37e63da0d75c48c577df432f2773f740be60 x86/boot/e820: Use 'u64' consistently instead of 'unsigned long long'
+5e69045ff62a1ddaf804f89b431ed64bbc52fcf7 x86/boot/e820: Remove pointless early_panic() indirection
+97d60d870ab7b4981003260a0b4dd9388b95f2b1 x86/boot/e820: Clean up confusing and self-contradictory verbiage around E820 related resource allocations
+7827d5f85adffd9bd62ebdd189ddedfaf372a4c5 x86/boot/e820: Improve e820_print_type() messages
+d22567384f89d724897bac4d41372b6d650aeae1 x86/boot/e820: Clean up __e820__range_add() a bit
+235902f47102fa7fa1606716244647cd0a797e20 x86/boot/e820: Clean up __refdata use a bit
+f2df43718cb76244ad0effb3eded1a7d676e77b6 x86/boot/e820: Treat non-type-2 'reserved' E820 region types as E820_TYPE_RESERVED
+13b22038ba21f5a2bf7af8984ee2915e91758ec5 x86/boot/e820: Remove unnecessary header inclusions
+56126ea7c0392c748d29ec73092eb4b6dda38c8d x86/boot/e820: Standardize e820 table index variable names under 'idx'
+0d59c76395e6e83a8445885c7db66dba32126773 x86/boot/e820: Change struct e820_table::nr_entries type from __u32 to u32
+762714b1ea91c91bbe5320bb9d1dfb8d8cc0eb21 x86/boot/e820: Standardize e820 table index variable types under 'u32'
+3fafab327b257d714dda7a9b9b769ad0b10c31cc x86/boot/e820: Clean up e820__setup_pci_gap()/e820_search_gap() a bit
+6053d3e21ee255404fae0754f09a3102c82895e3 x86/boot/e820: Change e820_search_gap() to search for the highest-address PCI gap
+e5a4c986fd2434c8158c1c35cae8eab916a9180c x86/boot/e820: Rename gap_start/gap_size to max_gap_start/max_gap_start in e820_search_gap() et al
+cf09163059d3674adba8ceb113190b879920d4c9 x86/boot/e820: Make sure e820_search_gap() finds all gaps
+a8fbce2cc06b5d984b13eddf51cccdbe20b7b024 FIX: f50086f532fa x86/boot/e820: Print out sizes of E820 memory ranges
 
---===============5606626911744613454==--
+--===============0713601198486706617==--
