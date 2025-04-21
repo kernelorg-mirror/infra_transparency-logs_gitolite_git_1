@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4441474971283496633=="
+Content-Type: multipart/mixed; boundary="===============4276261621004063744=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 21 Apr 2025 08:53:54 -0000
-Message-Id: <174522563437.1418652.3550164575457304350@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 21 Apr 2025 08:54:14 -0000
+Message-Id: <174522565479.1419020.9759032781649632081@gitolite.kernel.org>
 
---===============4441474971283496633==
+--===============4276261621004063744==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 9d7a0577c9db35c4cc52db90bc415ea248446472
     log: revlist-8ffd015db85f-9d7a0577c9db.txt
 
---===============4441474971283496633==
+--===============4276261621004063744==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -522,4 +522,4 @@ ac71fabf15679fc7bc56c51bc92bd4b626564c37 gcc-15: work around sequence-point warn
 9c32cda43eb78f78c73aee4aa344b777714e259b Linux 6.15-rc3
 9d7a0577c9db35c4cc52db90bc415ea248446472 gcc-15: disable '-Wunterminated-string-initialization' entirely for now
 
---===============4441474971283496633==--
+--===============4276261621004063744==--
