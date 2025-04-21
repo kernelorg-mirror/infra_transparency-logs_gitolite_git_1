@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Mon, 21 Apr 2025 12:25:09 -0000
-Message-Id: <174523830937.1602595.13194805885318585110@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
+Date: Mon, 21 Apr 2025 12:31:24 -0000
+Message-Id: <174523868403.1607581.17850961100897346093@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
+user: chunkuang.hu
 changes:
-  - ref: refs/heads/hack/ppi
-    old: 421156e4ef9cd09918037cf2c414ceda3435dd15
-    new: 460c9a4ca1d6db353ba1b4a628697afda752da04
+  - ref: refs/heads/mediatek-drm-next
+    old: 1e914a89ab7eef0b3890819847465f4c8c9d091d
+    new: c241118b62164786303e6614378feb7d1fda4f54
     log: |
-         460c9a4ca1d6db353ba1b4a628697afda752da04 perf: arm_pmu: Use a PMU-specific pointer for percpu interrupt request
+         c241118b62164786303e6614378feb7d1fda4f54 drm/mediatek: mtk_hdmi_ddc: Switch to register as module_platform_driver
          
