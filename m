@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Mon, 21 Apr 2025 13:37:40 -0000
-Message-Id: <174524266061.1664494.6602013034643314250@gitolite.kernel.org>
+Date: Mon, 21 Apr 2025 13:39:09 -0000
+Message-Id: <174524274989.1665266.10826133587030339788@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
 user: chunkuang.hu
 changes:
   - ref: refs/heads/mediatek-drm-next
-    old: b506ff3316ae0545961417c76131b084d2c9bc6c
-    new: 332de7d7c23f41463ecf53b05b579763e29e6355
+    old: 332de7d7c23f41463ecf53b05b579763e29e6355
+    new: c92493e3074478c9c9dc4b5ba2f59cf5e4836bb9
     log: |
-         332de7d7c23f41463ecf53b05b579763e29e6355 drm/mediatek: mtk_hdmi: Move audio params selection to new function
+         c92493e3074478c9c9dc4b5ba2f59cf5e4836bb9 drm/mediatek: mtk_hdmi: Move plugged_cb/codec_dev setting to new function
          
