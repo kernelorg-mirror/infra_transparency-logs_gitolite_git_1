@@ -1,63 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============6949353036709445103=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 21 Apr 2025 11:44:36 -0000
-Message-Id: <174523587679.1560842.14574054639045714847@gitolite.kernel.org>
-
---===============6949353036709445103==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Mon, 21 Apr 2025 11:46:03 -0000
+Message-Id: <174523596378.1563328.9768124660488291608@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/heads/master
-    old: e0c537bf37d84c68144735d452510369ae59b5f9
-    new: cb7649a795a54ec53f044ade30941cebc6151bb2
+  - ref: refs/heads/scx
+    old: 4acc2feb39ed2f62775d721247541ad284961b69
+    new: 078d4f40af5c7e548715c5e273196037d0cc878d
     log: |
-         ccc918401f39e009a57c4e1a0c98ef4697a37bb3 6.14-stable patches
-         182c5ab20f527e5abe202fc6d82f825a14a9cf80 6.6-stable patches
-         7d38f5088f1feeeb7191a560959ebd688e679596 5.4-stable patches
-         43de34b9a053b1759f60672edd88b56b46199195 5.10-stable patches
-         8523d952a5573aaefb0329c3c03331efa59047f4 5.15-stable patches
-         82340f4d2be49d6c5af5900c76b8d3d8b23bda1d 6.1-stable patches
-         7c4b3a98d62ee89903615c8ad07c489e44c96a45 6.12-stable patches
-         cb7649a795a54ec53f044ade30941cebc6151bb2 Merge branch 'master' of gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue
+         d600298dc017f6c0cbe1a8338d4f5b499bc2cb93 sched_ext: Track currently locked rq
+         6899160472aeef4c84044867502d50f27f1084b9 sched_ext: Fix missing rq lock in scx_bpf_cpuperf_set()
+         732d91a9b52660e38378fdf4d60635707ab42fd2 sched_ext: idle: Always prefer local idle CPUs before cross-node CPUs
+         c577179fd56dade9e8c7ca796a47e555fe385efe sched_ext: Avoid WAKE_SYNC migrations across LLC domains
+         1bfe62234d163b3c33d5f2682b004d555ff36bdb sched_ext: Allow per-CPU kthread wakees to stack on the same CPU
+         a3117748117e5cb1d13857c38442979f914d93df sched_ext: idle: Introduce scx_bpf_get_cpumask_llc()
+         078d4f40af5c7e548715c5e273196037d0cc878d selftests/sched_ext: Add test for scx_bpf_get_cpumask_llc()
          
-
---===============6949353036709445103==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1745235905 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1745235874-6e9d5ffe30ddb51bfae96499caeb83e6bf9e068f
-
-e0c537bf37d84c68144735d452510369ae59b5f9 cb7649a795a54ec53f044ade30941cebc6151bb2 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgGL8IbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+240QAI2LH9i5o3qAjZ1K5kao
-6OOz+QgxVtL0Kqq0E9U+X5Puht4G77r0RbuJ+yEhf3SG2QB2Y3pYmxiIt0P42QTH
-NxiwoE2tYFqPc4qwr/K7TRUCctdcMvUOpinnNAZSqqtVSWriq/oLQjmdtLKIjeXb
-rmTiv5w7ZgKkpgdDfubFQgHUYuXbvaDFtPbwSdK2PtCwfQqBMCGWhAN5zCwW7Dds
-I0OddB7rxb4NXCEAjfwiF5aWKna9R3B4J8JLQIwYt31XYBWlHpvVyvMlo9Bj5dzP
-flJiH2dLCtYNdZGbpM6SDGVWghOnIr0UOQiZF0xPQlhxdOPQx3qOxyuKpRAPzA/E
-loNsP3pwsxqgByOgXgluOX9+VW1IJhBA14kY/l7uCUItuZKpOT63lUqMq9MCHIlD
-po+l0lDMKjYvjqkXQEv0h1qsJiCNxS/E2N9h37bjLAfnNguA/XfEQINxgKiF/39L
-6DW4sA0t9TUll8SHwfIorVuWEm4tjKoXohkb/ykgQjbadnvWZT9GNLVQ2WA7STbR
-noOeAEDC+Sz+v1wqnJoSgILNv+suReAkHGR+ZnJ7v/+oYr0/jXCIivrEOmpU1m3w
-IQRr5uu/ofWtZUqr5mWqmy1AiYfTKEwaSTGLzfmKfz02NW3yg55XoUKyL2E6p9cD
-AlwY13bbnuEdgt/TPRzUIRC6
-=+yiN
------END PGP SIGNATURE-----
-
---===============6949353036709445103==--
