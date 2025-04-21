@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8867170453450248712=="
+Content-Type: multipart/mixed; boundary="===============5228905049739160610=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/security/vulns
-Date: Mon, 21 Apr 2025 08:36:36 -0000
-Message-Id: <174522459638.1405364.9423368360105549524@gitolite.kernel.org>
+Date: Mon, 21 Apr 2025 08:46:30 -0000
+Message-Id: <174522519061.1413398.13190431972467296824@gitolite.kernel.org>
 
---===============8867170453450248712==
+--===============5228905049739160610==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 95ee416debfe713bbaca8850a79dfa0f41481ac7
-    new: 732e1356452550c6b3e1ee0ed5b2886e17912574
+    old: 732e1356452550c6b3e1ee0ed5b2886e17912574
+    new: 0cabc3d8acdcf2ccefdcdc9e2f1a2a8464e660bc
     log: |
-         732e1356452550c6b3e1ee0ed5b2886e17912574 tools: cve_utils: move version_utils module to its own file
+         0cabc3d8acdcf2ccefdcdc9e2f1a2a8464e660bc tools/cve_utils: fix up comment for empty_kernel()
          
 
---===============8867170453450248712==
+--===============5228905049739160610==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1745224623 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1745225220 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1745224593-4f2aeef3ae9d086e7f96ad652eb7883da5f165ef
+nonce 1745225190-ebd4e91598d5d134ea5271f8af0039f7927938e2
 
-95ee416debfe713bbaca8850a79dfa0f41481ac7 732e1356452550c6b3e1ee0ed5b2886e17912574 refs/heads/master
+732e1356452550c6b3e1ee0ed5b2886e17912574 0cabc3d8acdcf2ccefdcdc9e2f1a2a8464e660bc refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgGA68bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fQMQAIM1AGDQ1MBy7dzf6iur
-mK6femigfvOBIeVfpsGfvq2dodUshxLTQ0RY7Kf3xG9U7IKcIhT8iKlr3pS+24N8
-MM/pkfSFu97nr96xWdUegp1IZulbjH+KzHSg1SGRuQgJuGNLZTSd/6r7Z1NqXYe1
-Vfkp33VoFpoB6J/U0zJfiUHPycmuizi7D6hY2QqVBsC6j9xQda7ldLGGqHCWL8vV
-T3i39ht6e5WcWpNj51jnDiLDtL+9OT1NS7yPOUFvDPtZoiYQu/Pp5cRmh/uQ4u7C
-pN/EbhPX8U2JxmIHWdynTQ3k7y6G2zIvcYrLfg/x2FcJ7yr7mbmxoBe6PUyw/9nC
-Zv+H2nNQRCOUpZeamCRbqXFusAg5EDTEWb6KkanPwWLImV9SNsX2N4sqpG/BNe2m
-4JLcIlh3q+iSDlr7xeB92087Ai7ATVji7K5bXjmwl2VnbxtLRcmlxKZbnmpT4NjN
-R3UG915SXps+4G4kClRH9tmevCYHvd/rEyXb+PsotmqciBSccNNCNykML4OmcseO
-t0lklreVQgIvn1hfjxjjOBo0r/RQsSNyxoJAb40eRcsiiXylD5dm8ub/gC27SbAH
-d0LPTeyR+bF/NuL2f9aP7ALF1I3w9q1AOsAUd50nGS1CXOYhhvH8B1DLrwJ6f+E5
-9fwwM9aA/G/6B2qXrSDmtnFu
-=O3jY
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgGBgQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/3IQAIPixyvUm5s76Px0jKxA
+FkE1avb3QPNZ8V2ISSmxooiP1GksD/hZRdfMaJMKeVNAVZZwQ48smZpV9v2ZAfBt
+T/jYmrcypaELJQw/hEwOtOnwdDen0JDhU8tj+VBmIDqaML3KbDpFN0pj6DBNJz57
+RNLzmNRBLeAVUWs0WGddmtJuThQIlhKhv2BK17SCE3sGrS1UEp/UFEt1gFBUsDD5
+3zo0GTurCTT/OEJsriE/kb58W4HuujU0dsKuwIpT/a+uG/KwIAj4cImnSlYtlr0C
+pAsMsR2VnulIwN6chv8b2uR+0+EhHCmFtilFZ7ouPfk3R5jzcsnm9twcyNojUWm0
+pflcffs0zR3OePU0F+I0zhGqrx9nI/0jDPB99rmTn98fVhyckfHlP7ASqeTTMpNt
+AFGr2En3hPvc2mXXD9fG9bfuOXuJCZ4SQAHs4+OCYQR12gAtTc4yf5XQXpS4kKAt
+dtkurF4YNlMYn0HV79Rn1JJn+aEhRnq1wVj2aELWyFfuOYecWuHDzinkuJJbKfS4
+aFAauGwqO5x708zg7onlG0c6pvGHQQ36zN8RqMFUyBfnKYMkZhjJDQgNS+LHJYWa
+mCoolVGvJ+05gCJM3DelBT+3zp6cxYmFGX/wsUnJX6xSDl3sCdSf9W4QT6i56Vj+
+Ge3NNz4/mPSenUKkI0Lohooz
+=YHmr
 -----END PGP SIGNATURE-----
 
---===============8867170453450248712==--
+--===============5228905049739160610==--
