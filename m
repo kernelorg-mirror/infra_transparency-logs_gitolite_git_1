@@ -1,25 +1,35 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 21 Apr 2025 11:19:41 -0000
-Message-Id: <174523438179.1538468.7135535671935796817@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Mon, 21 Apr 2025 11:20:58 -0000
+Message-Id: <174523445884.1540997.2641826511831655011@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/master
-    old: 63e52669201044f18b36582798cdd7bedd66c6ac
-    new: e0c537bf37d84c68144735d452510369ae59b5f9
+  - ref: refs/heads/vfs-6.16.misc
+    old: ac6355451deea7f96f5ca40a226fb0685b0475af
+    new: 19bbfe7b5fcc04d8711e8e1352acc77c1a5c3955
     log: |
-         c1385a336300f5551e3071cc0b18c7339c68c833 Fixes for 6.14
-         8b125e3957c0b5a795b9674186e6eb265a5412e8 Fixes for 6.12
-         f8198e631f8cfc5ee3c43fb47291d70b32547d27 Fixes for 6.6
-         55b5300571b77af8e448f1e9e31771454ac324d0 Fixes for 6.1
-         84f16695d5cdcd134c45d1cb4f6058dfe63f6fc9 Fixes for 5.15
-         013d4c76ee9897a218908357845f71be6be470c3 Fixes for 5.10
-         e0c537bf37d84c68144735d452510369ae59b5f9 Fixes for 5.4
+         19bbfe7b5fcc04d8711e8e1352acc77c1a5c3955 fs: add S_ANON_INODE
+         
+  - ref: refs/heads/vfs.all
+    old: 23ef81f44b5161ee6071039a92629025efa8697d
+    new: 005eb3a72fb8b6613dcdac8fac40e57ea786b3e6
+    log: |
+         19bbfe7b5fcc04d8711e8e1352acc77c1a5c3955 fs: add S_ANON_INODE
+         737ec4398f10ff4aa56abcf2fcbd30c56c5447f9 Merge branch 'vfs.fixes' into vfs.all
+         44aeb34bfb30ab6b4c508cc00d4fe874c6e5185f Merge branch 'vfs-6.16.async.dir' into vfs.all
+         4fd08852163dd3f00b8da10296b8086f7ce7027d Merge branch 'vfs-6.16.mount.api' into vfs.all
+         85f881f78d4ebc800bd4fc894e2a19a6a131bf33 Merge branch 'vfs-6.16.writepage' into vfs.all
+         648b50a5cddfdb4501e05b3928a81ebfa46230f2 Merge branch 'vfs-6.16.super' into vfs.all
+         8d196fe9cbd2be969c098dd701e50a32c42a89aa Merge branch 'vfs-6.16.misc' into vfs.all
+         055696640ec823527b973d1c0c2b78afd97c97a7 Merge branch 'vfs-6.16.pidfs' into vfs.all
+         a9d4465f949229571675be1c93b09f7be18d35ce Merge branch 'vfs-6.16.mount' into vfs.all
+         074ed79faa3f5382c49a4f16f2cfb7262f239482 Merge branch 'vfs-6.16.coredump' into vfs.all
+         005eb3a72fb8b6613dcdac8fac40e57ea786b3e6 Merge branch 'vfs-6.16.iomap' into vfs.all
          
