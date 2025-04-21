@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6028570918952782628=="
+Content-Type: multipart/mixed; boundary="===============4777650028144866182=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Mon, 21 Apr 2025 06:20:51 -0000
-Message-Id: <174521645166.1246120.1119228650387304931@gitolite.kernel.org>
+Date: Mon, 21 Apr 2025 06:21:11 -0000
+Message-Id: <174521647198.1246435.18160939925908128191@gitolite.kernel.org>
 
---===============6028570918952782628==
+--===============4777650028144866182==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,38 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 6fea5fabd3323cd27b2ab5143263f37ff29550cb
-    new: 9d7a0577c9db35c4cc52db90bc415ea248446472
-    log: |
-         d5d45a7f26194460964eb5677a9226697f7b7fdd gcc-15: make 'unterminated string initialization' just a warning
-         4b4bd8c50f4836ba7d3fcfd6c90f96d2605779fe gcc-15: acpi: sprinkle random '__nonstring' crumbles around
-         be913e7c4034bd7a5cbfc3d53188344dc588d45c gcc-15: get rid of misc extra NUL character padding
-         05e8d261a34e5c637e37be55c26e42cf5c75ee5c gcc-15: add '__nonstring' markers to byte arrays
-         ac71fabf15679fc7bc56c51bc92bd4b626564c37 gcc-15: work around sequence-point warning
-         9c32cda43eb78f78c73aee4aa344b777714e259b Linux 6.15-rc3
-         9d7a0577c9db35c4cc52db90bc415ea248446472 gcc-15: disable '-Wunterminated-string-initialization' entirely for now
-         
+  - ref: refs/tags/v6.15-rc3
+    old: 0000000000000000000000000000000000000000
+    new: f34da179a4517854b2ffbe4bce8c3405bd9be04e
 
---===============6028570918952782628==
+--===============4777650028144866182==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1745216478 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1745216501 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1745216446-f9eaa744a29e944e6d71f79385510cb8c9580345
+nonce 1745216470-99f1b26fadc090d80d85f266a620905f7cd04f68
 
-6fea5fabd3323cd27b2ab5143263f37ff29550cb 9d7a0577c9db35c4cc52db90bc415ea248446472 refs/heads/master
+0000000000000000000000000000000000000000 f34da179a4517854b2ffbe4bce8c3405bd9be04e refs/tags/v6.15-rc3
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgF494bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dDgQANQkm45YzJn/HECwKXYc
-GzFqXypbc6W6neE0vG3nVdcEvBQkepgngZa0yF5kBNUh3tlzssu4EZRyB0sjZYt6
-1fRCMn7wpBIOl5sROP23XQaXgYu67Y6XMK2Pq2M0FkzCDRxxwfJwr2se+f4zZcWX
-fnRClFFWgp4xTuedGArNAbFrxpyKVP9Yd+Vy6ZXt4CdHbcIxizPkPY190CsliwxB
-smvqbCJW9IyiWhGMDi4upltLFZzgU+TEfmCowtwCS9e3HEktlHDN6Wr0COyRYdGR
-CiCchpnUb0kQ1HDcyeU18Vz2F4PDsW0CQtHcLZERPdHbWm26mrmlMhefPMxtSI91
-s3cveoPt/XyohdUcEeMwpWme3U8KaCa1Fl9+eWOp8c4Lc5nYAiLCjOFWjWgza6QM
-xKu7ZiZZIR38GfZobHGDmHxe1NGxgrfOZR/KIm0NT6s06DK0KGL+DEZqBhQ6Lwu1
-RD12geQAEh8vGnbB5K01HCHZiNBGPrmO8ouSmx3HRYqXoRrc2DCN1v5DPmhzxpOX
-Ktv7OPHVP4XV2gSM9+obRaeNr2Q/36+QK0Q+7Ja2KSf0sgaZQCl5u4ZtHNWKRBtp
-zpgij/a/urJKNKACwUG0qocq9gmmrRvaVwGLr01Xh2TAZ0e9FVU79bQUyp93+D6S
-ynZ9Dl3aw5jPOnPKDuD2EbYb
-=TqMY
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgF4/UbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++UwQAJRu3b+MBSXCFprIF2Cb
+dpKTYABCrkfDkRWGrOMYoiYm/4Xp4atg7s9JSuYMnaVxDBSx7cdC/SBoMHQYedyj
+b+alMZ5wxtAH4g/asJcCVWXZgEqkPthIHcf2J/n33kR10oPmLGRU+3uBOvhq7WQz
+A6Wk+U/UkwpjUQqVIvi8jkoBzs6TO2fKI3Pu9odMZYW7i32d2BGuLGZySX5YExF4
+oTY2G7dJZrzMQpqySSlSzSsySjqh4KSMeKTB6Vj5L2a7PqOCk15HNlHMrF6Hr2kC
+Wj6Ia+nJcQVbvayYwMN6Pz1g6P+0sbktikZXFhA/Px1EAFB+8/mLFWjK8dLIGtK4
+ThHl2u9cjRlaeZqaBKel/J/iLopcqcovIlwWWVXxaz01bUcE82uAjlSbvzEbd0lA
+Wp8mUeBMNNPSlR8drTYlUe30H5voRd12tVvbajmDNI0ES75v6nU0opOGepXrXxgJ
+cO0won2zhJHA14Vwv+lbd+XM4gWKzSNHC1U2/owuEmtCmKW39r6UO+TJ48cG6Pvz
+d8B0rnzv18lE+7tHkw8xwOPP7fl8ab40uF6OZuTFkv2h18pIktgCZG8hcSnV/Epr
+HC8HTOaeWxRPFbQ8DJkgiyoWKA0Vnz6J16Akg0TUDvyUAZ89vSdnpc+IMsSlip+Q
+1Yyj0Y9pXqhXwWrKkvHgVARv
+=vmGN
 -----END PGP SIGNATURE-----
 
---===============6028570918952782628==--
+--===============4777650028144866182==--
