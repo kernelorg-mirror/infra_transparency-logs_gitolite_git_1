@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4350566615810784461=="
+Content-Type: multipart/mixed; boundary="===============5650483862410651359=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 21 Apr 2025 01:14:04 -0000
-Message-Id: <174519804400.1000376.2500549993589930248@gitolite.kernel.org>
+Date: Mon, 21 Apr 2025 01:16:01 -0000
+Message-Id: <174519816100.1003820.11978312831556376930@gitolite.kernel.org>
 
---===============4350566615810784461==
+--===============5650483862410651359==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: fec8e74d64677ff8b96269ec6f56f11b71699a3d
-    new: 2a6a39da222259df24faec443de336263d10380b
-    log: revlist-fec8e74d6467-2a6a39da2222.txt
+  - ref: refs/heads/nfsd-testing
+    old: 94942dbd5b96942d5f2feda9bc9c6cf52d9eabd5
+    new: 8f5b0f8177b5c203be377d0ea127f171d053df2e
+    log: revlist-94942dbd5b96-8f5b0f8177b5.txt
 
---===============4350566615810784461==
+--===============5650483862410651359==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fec8e74d6467-2a6a39da2222.txt
+Content-Disposition: attachment; filename=revlist-94942dbd5b96-8f5b0f8177b5.txt
 
 8aa580cd92843b60d4d6331f3b0a9e8409bb70eb scsi: hisi_sas: Enable force phy when SATA disk directly connected
 daff37f00c7506ca322ccfce95d342022f06ec58 scsi: hisi_sas: Fix I/O errors caused by hardware port ID changes
@@ -538,5 +538,32 @@ b085b5354de2b4fc2bf1d47acfe92d72c985bbaf nfsd: nfsd4_spo_must_allow() must check
 cadcec4ed220767436e8d4b3d3bba2a58b8e0c2f nfsd: add commit start/done tracepoints around nfsd_commit()
 c8b4bba977652124e56d2f55176d0859a91e3836 sunrpc: add info about xprt queue times to svc_xprt_dequeue tracepoint
 2a6a39da222259df24faec443de336263d10380b MAINTAINERS: Update Neil Brown's email address
+5ee55df85f5486e3e1cfb2d1463b336cdf4bf12c nfsd: Initialize ssc before laundromat_work to prevent NULL dereference
+1327bc35a148c016ff863afedfca660c51b9d0ea sunrpc: allow SOMAXCONN backlogged TCP connections
+c169f5f33bcc036f5375797ba5b9fbb59f846661 Add include entries for NFSv4 POSIX draft ACLs
+6faf84cb9fc6ea60a46051c288f5f82f52b631fe Add include entries for the POSIX draft ACL attributes
+1243a6fe34a748a57457c403364103a7c434d9b4 Fix up a comment that specifies the draft
+3542c98a6ea716648205371c5451afa8dde266ad Add a new ACL function to get a POSIX ACL
+bd2fa407651f3be52b76968080f321a47aa855eb Add a new function to set a POSIX draft ACL
+a36a7a66132aad283af3a5203f47473e0920642a Add the FATTR4_xxx bits for the POSIX draft ACL attributes
+25e8aa83b6eb3b02e966433f9b93cec19e5fdfb9 Add fields for the default and access POSIX ACLs
+c6dbad4816a628d8113c17280d1f9c6bd6af74c2 Add handling of the XDR for the POSIX draft ACL attributes
+80269aec98c7c6c4be8e505b9bb14a44d763c8ec Add a check to ensure POSIX and NFSv4 ACLs are not both being set
+677604c6a5ab066c7978cecdeaeece69443aea3c No need to check for a NULL acl pointer
+571d2505a50062903840877b38128052b159072a Add na_dpaclerr and na_paclerr for file creation
+70c94fcb2cc52bc98eb7e480ffb52d746c878ea0 Add support for POSIX draft ACLs for file object creation
+48e81fea4eea3881f6d67c9b58d7d9cf3fd47567 Decode the POSIX draft ACLs for file object creation
+f1798ebfd6e4de8090ce6f5feac6c0cef3464a59 Fix the posix acl release function names
+3fa2d6456fe27a236905f30554268ffe036b381f Fix a couple of bugs in POSIX ACL decoding
+304e0580393ca343eea91b3190bfabeb0a9de9a4 NFSD: Fix compiler warnings due to incorrect format specifiers
+720fcd315620bf7e1e0dd5d8156cb2b5a963b4b5 Clarify the comment and use 3 * XDR_UNIT instead of 12.
+70253a1a46a4edaf6a5e8904d230dcb4dbfb23e4 Fix indentation of switch statements
+cee0ff16c42d14cf35c43536d23dbc3d7b3d336d Fix the array index for word2
+3017e3fe26d8e6693ff3de524afaff61badaa5df Improve correctness for the ACL_TRUEFORM attribute reply
+9b5ed9a52c70d97c28e3e0831dad867585cfc6f3 Make sort_pacl_range() global
+425fb67a8526da1dd0f56982054fbf76f7004106 Call sort_pacl_range() for decoded POSIX draft ACLs
+3272306d72ac3a51abc26abe520b41123095594b Fix handling of POSIX draft default ACLs
+169043299880ce70e38796a8d67912df971e47f5 Fix handling of zero length ACLs for file object creation
+8f5b0f8177b5c203be377d0ea127f171d053df2e siw: Enable try_gso
 
---===============4350566615810784461==--
+--===============5650483862410651359==--
