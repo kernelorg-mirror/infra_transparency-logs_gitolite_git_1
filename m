@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1546685307252011121=="
+Content-Type: multipart/mixed; boundary="===============7471508749006614602=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ojeda/linux
-Date: Mon, 21 Apr 2025 11:13:30 -0000
-Message-Id: <174523401015.1532883.13663875773396329769@gitolite.kernel.org>
+Date: Mon, 21 Apr 2025 11:13:37 -0000
+Message-Id: <174523401782.1533210.17835148485065906993@gitolite.kernel.org>
 
---===============1546685307252011121==
+--===============7471508749006614602==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ojeda/linux
 user: ojeda
 changes:
-  - ref: refs/heads/rust-next
+  - ref: refs/heads/rust-fixes
     old: 0af2f6be1b4281385b618cb86ad946eded089ac8
     new: 9d7a0577c9db35c4cc52db90bc415ea248446472
     log: revlist-0af2f6be1b42-9d7a0577c9db.txt
 
---===============1546685307252011121==
+--===============7471508749006614602==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -861,4 +861,4 @@ ac71fabf15679fc7bc56c51bc92bd4b626564c37 gcc-15: work around sequence-point warn
 9c32cda43eb78f78c73aee4aa344b777714e259b Linux 6.15-rc3
 9d7a0577c9db35c4cc52db90bc415ea248446472 gcc-15: disable '-Wunterminated-string-initialization' entirely for now
 
---===============1546685307252011121==--
+--===============7471508749006614602==--
