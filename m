@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Tue, 22 Apr 2025 13:25:29 -0000
-Message-Id: <174532832969.2901590.3292032116280401063@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Tue, 22 Apr 2025 13:25:45 -0000
+Message-Id: <174532834526.2901978.10795274328929580652@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 0688369852528b2e831062242c5f1d8e8ef2f5e8
-    new: bdce2486baea965d9ee682cb946f0923d92d95e5
+  - ref: refs/heads/master
+    old: a9d1f7313df547ee95cb382378780f38db72c2e0
+    new: e0af21b30c822daad7be948510886069c7cf213b
     log: |
-         6ac4f76790966cef9ab2d86ff591ceb66b55ff60 dt-bindings: hwmon: pmbus: add lt3074
-         bdce2486baea965d9ee682cb946f0923d92d95e5 hwmon: (pmbus/lt3074): add support for lt3074
+         04c96a7ace250dc9e728dbf8dd11c90d28157e99 Bluetooth: btmtksdio: Check function enabled before doing close
+         e0af21b30c822daad7be948510886069c7cf213b Bluetooth: btmtksdio: Do close if SDIO card removed without close
          
