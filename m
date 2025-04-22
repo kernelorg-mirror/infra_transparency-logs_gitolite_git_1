@@ -1,56 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============7486084556121516722=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 22 Apr 2025 07:27:56 -0000
-Message-Id: <174530687655.2573354.16153138329611834704@gitolite.kernel.org>
-
---===============7486084556121516722==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Tue, 22 Apr 2025 07:32:46 -0000
+Message-Id: <174530716612.2577557.11328124654360096693@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/amlogic/linux
+user: narmstrong
 changes:
-  - ref: refs/heads/master
-    old: 1af492758ee6f2b75849c611caab71eb975fad41
-    new: d02164417d6fed8a98b7d2047aa4c7ce1e2fd347
+  - ref: refs/heads/for-next
+    old: 39756c5461230b0bbe193590f95cffafe6578cff
+    new: 7e6999cd7f721c05d3f9bf652b018b54b008a703
     log: |
-         d02164417d6fed8a98b7d2047aa4c7ce1e2fd347 6.1-stable patches
+         ac2edb9b7bcc34de804d9c034d7387bdeda3fa3d soc: amlogic: clk-measure: Define MSR_CLK's register offset separately
+         e5635febb4f063fba40bcb4506c7fa5704ceeace dt-bindings: soc: amlogic: C3 supports clk-measure
+         97533fc48892716e5765b390b2f03a7ac633c55b dt-bindings: soc: amlogic: S4 supports clk-measure
+         67c618a5852d9066ccb3b6833df8c44839bff5c1 soc: amlogic: clk-measure: Add support for C3
+         bc93a99ba90b06e478a21505d07175a0f66849be soc: amlogic: clk-measure: Add support for S4
+         a8253c0521cc7cdc890c69418283ac4d26e8dd8e Merge branch 'v6.16/drivers' into for-next
+         72e295292d3d1522d3ce628d07ef6a924e112b73 arm64: dts: amlogic: C3: Add clk-measure controller node
+         0d057d35f3714e6786013772c830a976c2530894 arm64: dts: amlogic: S4: Add clk-measure controller node
+         7e6999cd7f721c05d3f9bf652b018b54b008a703 Merge branch 'v6.16/arm64-dt' into for-next
          
-
---===============7486084556121516722==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1745306905 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1745306874-3edf3e58444ce38a5d2b8b18bab9b3109ed63e01
-
-1af492758ee6f2b75849c611caab71eb975fad41 d02164417d6fed8a98b7d2047aa4c7ce1e2fd347 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgHRRkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fzgQAKZMohHS7MN2hfXnoEiU
-l4VlpueqF3j+OT8rmRfuEKg2LfWIz75WqdoXZ5G9QJ7oDDX6FdCzFlMZK/rPnKi+
-jz2W1+g7k1HotCSEFGY0Gq8Eaa74bUdXT2Fz9yckCjmYToPwDcClXvSSqBMWUBBM
-/o3ou4fXnMX4ATrFzdAWjp2JFIzdkxlMx1++TBGrR8OqzVWH0CyL3Wn9OR+HlgxU
-w05LFwrovR821vjHRe9PB5j9O5IK17bcCOzN/JCCX5r+JFpIdNlHwjWD3GhJaYiK
-OnwOBdrLg9lmKrFdchtWMhZgld2GtN3KawJKOM7g3vn/W9NUF8puyxHTqg8s+OVi
-qMa4+GyWrPUPyriVsg1fageEbj6uEYqhrMn+vXFN6wGokfXoBkc2miDziDKjNiOD
-u4Pem1EfoSHRXJlpvxiPY8j+R6A5XYfPKOrqQemIhL470GFyT894gE6MfFQs5TE+
-uPM3Ptp7uInaTgzmZ+C+YO3HWJ9I1or8Uwq86DOM7ijd4AnjJqRvvQcG90mBA8tF
-L0iq5fq0MbpEvvaaCanSLdYbes6iLRBL6Tw+TLeZd66lfcamfXdUXrU0KPK6EPNx
-gGw8ZnsOm8n1duzkmhzH0NOYefh191qcrcqCO33lKI7/XhiOOs0dUvlxah7hiqaq
-129u3uccV4fgh2sa3ssDoWpt
-=009w
------END PGP SIGNATURE-----
-
---===============7486084556121516722==--
+  - ref: refs/heads/v6.16/arm64-dt
+    old: 5fdafebe570fb2286bbdd0a736bac7a9b48dc0ab
+    new: 0d057d35f3714e6786013772c830a976c2530894
+    log: |
+         72e295292d3d1522d3ce628d07ef6a924e112b73 arm64: dts: amlogic: C3: Add clk-measure controller node
+         0d057d35f3714e6786013772c830a976c2530894 arm64: dts: amlogic: S4: Add clk-measure controller node
+         
+  - ref: refs/heads/v6.16/drivers
+    old: ae3e19c2739c231bedb53cec9d38ace4bf5d95bd
+    new: bc93a99ba90b06e478a21505d07175a0f66849be
+    log: |
+         ac2edb9b7bcc34de804d9c034d7387bdeda3fa3d soc: amlogic: clk-measure: Define MSR_CLK's register offset separately
+         e5635febb4f063fba40bcb4506c7fa5704ceeace dt-bindings: soc: amlogic: C3 supports clk-measure
+         97533fc48892716e5765b390b2f03a7ac633c55b dt-bindings: soc: amlogic: S4 supports clk-measure
+         67c618a5852d9066ccb3b6833df8c44839bff5c1 soc: amlogic: clk-measure: Add support for C3
+         bc93a99ba90b06e478a21505d07175a0f66849be soc: amlogic: clk-measure: Add support for S4
+         
