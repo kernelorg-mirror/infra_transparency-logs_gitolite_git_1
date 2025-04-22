@@ -1,50 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============4634343285681214510=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Tue, 22 Apr 2025 07:09:46 -0000
-Message-Id: <174530578603.2553359.17088597788721367229@gitolite.kernel.org>
-
---===============4634343285681214510==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 22 Apr 2025 07:11:41 -0000
+Message-Id: <174530590188.2556061.3873442370247541041@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/slab/for-next-fixes
-    old: d2f5819b6ed357c0c350c0616b6b9f38be59adf6
-    new: e33b7ae3d8022fababfa4b41ff2c37469112de32
+  - ref: refs/heads/master
+    old: f30a0c0d2b08b355c01392538de8fc872387cb2b
+    new: 390f6a8e757b8e4e3059a8f01acd97baa1b488d5
     log: |
-         e33b7ae3d8022fababfa4b41ff2c37469112de32 mm, slab: clean up slab->obj_exts always
+         a1b582a3ff61086c1718891e979760e6c125c93a Merge branch 'x86/urgent' into x86/boot, to merge dependent commit and upstream fixes
+         092071e0f63c2d2c54810a427d4d9a0df6aad52b vmlinux.lds: Include .data.rel[.local] into .data section
+         b66fcee1574e72663a0c6dd7112a9e22774dbe9f x86/sev: Move noinstr NMI handling code into separate source file
+         234cf67fc3bd290bb16a377647a9c3f5a7f28a47 x86/sev: Split off startup code from core code
+         a3cbbb4717e120f9e53fa7685909b310f7e99bf5 x86/boot: Move SEV startup code into startup/
+         681e2901330c5c27ce8b58dfdd92a3c339e47caf x86/boot: Drop RIP_REL_REF() uses from early SEV code
+         ff4c0560ab020d34baf0aa6434f66333d25ae524 x86/asm: Retire RIP_REL_REF()
+         390f6a8e757b8e4e3059a8f01acd97baa1b488d5 Merge branch into tip/master: 'x86/boot'
          
-
---===============4634343285681214510==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1745305813 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1745305782-a22bbd082bc5988e5e9d5658946f62abf00b3e47
-
-d2f5819b6ed357c0c350c0616b6b9f38be59adf6 e33b7ae3d8022fababfa4b41ff2c37469112de32 refs/heads/slab/for-next-fixes
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmgHQNUACgkQu+CwddJF
-iJo9KwgAkY5Nx2mLAXzLoph5AWkhfe6JO1dDr6T7H8JJWVzgdBamDJ4SNo6uS60P
-Kw99rMA5KCs/EQJCWelzdIv5cgVmwVJoLfHriuf9dfVIa+URXlsATpXx1JOcEUm1
-dldVpf2KsgZsqgeQ6ET1384pbIsdWOZD0YmX15rkUANy2i2BhpmUkqJ7GUX00D8i
-2H99EbVQh2r9sBBKT6G8Hr/xrRt7LX81LiGEKFPigrLke2pHy/PMzeRO4I3yJ63M
-akq2vjEna9+hfKkudWlBGHbO6AMBzjYr9LMNeQ28gpF22Fit3r/FcIePZm0/WUkE
-0wEqaV7TPuKjDubfDrZAIx+VG/GS+Q==
-=Awg1
------END PGP SIGNATURE-----
-
---===============4634343285681214510==--
