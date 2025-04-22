@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 22 Apr 2025 13:31:53 -0000
-Message-Id: <174532871378.2906796.14925909977004734398@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Tue, 22 Apr 2025 13:32:48 -0000
+Message-Id: <174532876866.2907422.16596911434405147134@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/main
-    old: 30a41ed32d3088cd0d682a13d7f30b23baed7e93
-    new: 9e8d1013b0c38910cbc9e60de74dbe883878469d
+  - ref: refs/heads/gpio/for-next
+    old: 550300b9a295a591e0721a31f8c964a4bc08d51c
+    new: 29f4c4da74acfbd54f5ad2dfafe1a8f93af00431
     log: |
-         9e8d1013b0c38910cbc9e60de74dbe883878469d net: selftests: initialize TCP header and skb payload with zero
+         29f4c4da74acfbd54f5ad2dfafe1a8f93af00431 gpio: Restrict GPIO_ICH to compile testing with HAS_IOPORT
          
