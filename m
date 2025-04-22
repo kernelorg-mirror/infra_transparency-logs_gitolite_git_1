@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============1327141435437999576=="
+Content-Type: multipart/mixed; boundary="===============7878296716718454055=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 22 Apr 2025 13:11:34 -0000
-Message-Id: <174532749454.2888522.2482024707618602426@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 22 Apr 2025 13:11:38 -0000
+Message-Id: <174532749827.2888663.9104424017336482910@gitolite.kernel.org>
 
---===============1327141435437999576==
+--===============7878296716718454055==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.15
+  - ref: refs/heads/spi-6.15
     old: 951a04ab3a2db4029debfa48d380ef834b93207e
     new: 9c32cda43eb78f78c73aee4aa344b777714e259b
     log: revlist-951a04ab3a2d-9c32cda43eb7.txt
-  - ref: refs/heads/for-6.16
+  - ref: refs/heads/spi-6.16
     old: cbc9d9e108f4f2a3c061ac6233a424accde8b564
     new: 296e8d289bdd7eb0d832683ebd3e847fbb4c1b12
     log: |
@@ -28,32 +28,32 @@ changes:
          296e8d289bdd7eb0d832683ebd3e847fbb4c1b12 spi: offload: remove unnecessary check on trigger->ops
          
 
---===============1327141435437999576==
+--===============7878296716718454055==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1745327523 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1745327492-84e478c1a4259f0e8e0d82894420eaf4ca07e41c
+pusher C3F436CA30F5D8EB 1745327526 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1745327495-b9293cdd8da0618db50c1663b09ddad2f4a8680c
 
-951a04ab3a2db4029debfa48d380ef834b93207e 9c32cda43eb78f78c73aee4aa344b777714e259b refs/heads/for-6.15
-cbc9d9e108f4f2a3c061ac6233a424accde8b564 296e8d289bdd7eb0d832683ebd3e847fbb4c1b12 refs/heads/for-6.16
+951a04ab3a2db4029debfa48d380ef834b93207e 9c32cda43eb78f78c73aee4aa344b777714e259b refs/heads/spi-6.15
+cbc9d9e108f4f2a3c061ac6233a424accde8b564 296e8d289bdd7eb0d832683ebd3e847fbb4c1b12 refs/heads/spi-6.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgHlaMACgkQJNaLcl1U
-h9A3yAf/brQ3BzO4Fo+kbZNGclZYc00R1EhBdP/ucgxgRBecwU1ml7svFsxP4Ap/
-mRj+C5/+sYeTYZ18WnSvuoAtXudBKQnnskaaayp8+e25dowG6ccMWaeOq6DRK9x1
-jt75fYRZ/IjTZ9gzJqJ0FoZIzSJa16iz1iiAHmNc3NU+5qx9G/5rp5OB2sgGNWkl
-Xvh2OXga0qdgcpAn6cis+VksBLcgXUJBEy5xTPJ/rKH9JAtLwaK7r8RCmxf85ke+
-SPGqM0HssaVJBZCfbxj9UEqR4wZBLISbGfnztV0sdghBQHmBHn6WuypbhNGTKDs8
-eQ6Uw9uprcTrNO4Sz/bV0u8mAbfErw==
-=c+pb
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgHlaYACgkQJNaLcl1U
+h9CTnQf/ftxcz1zJVuGnrw4xlFmSso6iAXIsGGfai57bnokUdgrZZgKp780WVOUZ
+9RagwVzs1r3sQpNZiouXa72d+RYk9bE9XGdwBOiH917hKIr4RQbZtRSNDc4cgUI+
+QdT3rMiFzuNRVp2UiHfzt/KO3mL0txF8XzR+DUtQbo7w8jtoqCX/Fj47KpH6s78E
+Gm9rn9i5vS3Dyw4IqbpLaTKWA83+PVgKIPAs5tkh+r0JyJLxsa8xp+8NZjJchlVF
+MhAGL78wz6a5IycpFjN4V7M9Ew1iOzN7pWn08UaRFu4MESE9SOFWlZNlWWBKyRov
+FHUhTftxcvqvngoGb6bRH3Viimix/g==
+=7PnB
 -----END PGP SIGNATURE-----
 
---===============1327141435437999576==
+--===============7878296716718454055==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -550,4 +550,4 @@ be913e7c4034bd7a5cbfc3d53188344dc588d45c gcc-15: get rid of misc extra NUL chara
 ac71fabf15679fc7bc56c51bc92bd4b626564c37 gcc-15: work around sequence-point warning
 9c32cda43eb78f78c73aee4aa344b777714e259b Linux 6.15-rc3
 
---===============1327141435437999576==--
+--===============7878296716718454055==--
