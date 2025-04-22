@@ -1,57 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============7096371653813683236=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 22 Apr 2025 02:03:20 -0000
-Message-Id: <174528740060.2296595.1690523167614280147@gitolite.kernel.org>
-
---===============7096371653813683236==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 22 Apr 2025 02:03:34 -0000
+Message-Id: <174528741428.2296932.3707995746977574877@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkp/scsi
-user: mkp
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: eae3e76385fdba8535f83a8c823fb23d1ff3dfaa
-    new: 73e1a47291b78e67171c33b477517c28119cd33b
+  - ref: refs/heads/main
+    old: 3a7012020532c5a5bb75201a073055f029332299
+    new: b1eac30d9bc21cdaff97b2b23000085492efc662
     log: |
-         54bebe46871d4e56e05fcf55c1a37e7efa24e0a8 scsi: core: Clear flags for scsi_cmnd that did not complete
-         08a966a917fe3d92150fa3cc15793ad5e57051eb scsi: ufs: core: Add NULL check in ufshcd_mcq_compl_pending_transfer()
-         b0b7ee3b574a72283399b9232f6190be07f220c0 scsi: mpi3mr: Add level check to control event logging
+         cc3628dcd851ddd8d418bf0c897024b4621ddc92 xen-netfront: handle NULL returned by xdp_convert_buff_to_frame()
+         2768b2e2f7d25ae8984ebdcde8ec1014b6fdcd89 net: enetc: register XDP RX queues with frag_size
+         1d587faa5be7e9785b682cc5f58ba8f4100c13ea net: enetc: refactor bulk flipping of RX buffers to separate function
+         020f0c8b3d396ec8190948f86063e1c45133f839 net: enetc: fix frame corruption on bpf_xdp_adjust_head/tail() and XDP_PASS
+         b1eac30d9bc21cdaff97b2b23000085492efc662 Merge branch 'enetc-bug-fixes-for-bpf_xdp_adjust_head-and-bpf_xdp_adjust_tail'
          
-
---===============7096371653813683236==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 75C5DE3D 1745287378 -0400
-pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1745287347-3267c00e7d0ed6e57ed5720be049314319a7d32d
-
-eae3e76385fdba8535f83a8c823fb23d1ff3dfaa 73e1a47291b78e67171c33b477517c28119cd33b refs/tags/mkp-scsi-fixes
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmgG+NIACgkQ7ulgGnXF
-3j0UTg/+O2urOlPtosJI8IFTIyghX99mW+FOjr9tCOVto9kLC/VtfpZxsl/E7hP1
-1/zH/zyN+ipMvtQfUhuOiIgqCiGBzCHKp5B0EVXqqCcAHYcWJ/3HE2qaMZzKS+Rc
-A2mjz0AaESCrkgDYAQZ44p9ijaiXm5/89Q16z398mJJaJnzxYTnWwHsT//CurhS4
-+govK3GMrtVF8Igng0II2weQp+d2glmkl92H3L4ZXZBi4S+74rjkcN3RZUd7NDIC
-KpHFleZG37pcNEGvQO4eVFDvXbOqByJ5/lcR6R8F5pRLtJ2jDOJ7prHRvpAzR9T3
-PKaH3g/HF8qIksKiZJSnXRKhFdCkKUOYZGRWk7HUIRlBfZnoV0DUWiBdTN2JMRL/
-p9xegelMjCK7Glu51bfDE8xWPu5PrP+9/pbsJwH3OzAD33yCb5iLo/DVD4Ci4aKu
-I3357Fxk1eXM4TSDGDeIVZO0w+U7tF5lZowMVjd5iqAShiAH9rWqd2xRiKQdOe5u
-DzwCCuTdc/a67iKHVl2iDAM7TDY7UiUVyIlgpgi4iN9xCWrqy79QpaAHJcNluB4h
-dzPTQc02afvExtpxaghCnxGAC3s1PAvT7mUtyx9pGA64uqylT8lVNh2OFWQ8D2fU
-NiXtM1Q+A4zrwHVujxhuEfYrIjjWCbDY2GF8pa2XKKqtplBZD0M=
-=tcMI
------END PGP SIGNATURE-----
-
---===============7096371653813683236==--
