@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0366843592807562772=="
+Content-Type: multipart/mixed; boundary="===============3245876853920878723=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 22 Apr 2025 15:48:45 -0000
-Message-Id: <174533692580.3031568.17592590259511497312@gitolite.kernel.org>
+Date: Tue, 22 Apr 2025 15:48:48 -0000
+Message-Id: <174533692809.3031817.2124302119209393823@gitolite.kernel.org>
 
---===============0366843592807562772==
+--===============3245876853920878723==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 750d0ac001e85b754404178ee8ce01cbc76a03be
     new: c03a49f3093a4903c8a93c8b5c9a297b5343b169
     log: revlist-750d0ac001e8-c03a49f3093a.txt
 
---===============0366843592807562772==
+--===============3245876853920878723==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ b1eac30d9bc21cdaff97b2b23000085492efc662 Merge branch 'enetc-bug-fixes-for-bpf_x
 9e8d1013b0c38910cbc9e60de74dbe883878469d net: selftests: initialize TCP header and skb payload with zero
 c03a49f3093a4903c8a93c8b5c9a297b5343b169 net: lwtunnel: disable BHs when required
 
---===============0366843592807562772==--
+--===============3245876853920878723==--
