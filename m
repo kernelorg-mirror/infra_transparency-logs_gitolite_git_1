@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 22 Apr 2025 13:59:01 -0000
-Message-Id: <174533034175.2930601.11070610109257205982@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfs-linux
+Date: Tue, 22 Apr 2025 14:03:47 -0000
+Message-Id: <174533062729.2935013.16355978607968487571@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/fs/xfs/xfs-linux
+user: cem
 changes:
-  - ref: refs/heads/spi-6.15
-    old: 9c32cda43eb78f78c73aee4aa344b777714e259b
-    new: 8ffd015db85fea3e15a77027fda6c02ced4d2444
+  - ref: refs/heads/next-rc
+    old: c7b67ddc3c999aa2f8d77be7ef1913298fe78f0e
+    new: 63ea65fa43a13b50b7c528680069eefceef7991b
+    log: |
+         bd7c19331913b955a7823e6315ca16bbcc65aeff XFS: fix zoned gc threshold math for 32-bit arches
+         63ea65fa43a13b50b7c528680069eefceef7991b xfs: remove duplicate Zoned Filesystems sections in admin-guide
+         
