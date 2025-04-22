@@ -1,62 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============8822124285471148287=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 22 Apr 2025 15:36:35 -0000
-Message-Id: <174533619526.3019998.6668418496962196483@gitolite.kernel.org>
-
---===============8822124285471148287==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
+Date: Tue, 22 Apr 2025 15:41:33 -0000
+Message-Id: <174533649382.3024275.12738447894707896830@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/ras/ras
+user: aegl
 changes:
-  - ref: refs/heads/dev-queue
-    old: 8a15f1b483cf003bb6b67723d2bce8bc305f79ec
-    new: bb235bd9d1b18d4a991b9d04187d18c40e66a0ce
-    log: revlist-8a15f1b483cf-bb235bd9d1b1.txt
-
---===============8822124285471148287==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8a15f1b483cf-bb235bd9d1b1.txt
-
-91037037ee3d611ce17f39d75f79c7de394b122a net/mlx5: Fix null-ptr-deref in mlx5_create_{inner_,}ttc_table()
-fa8fd315127ca48c65e7e6692a84ffcf3d07168e net/mlx5: Move ttc allocation after switch case to prevent leaks
-b9a4c74b0ec13f54a1362d993c7d204fde5fe4e3 Merge branch 'net-mlx5-fix-null-dereference-and-memory-leak-in-ttc_table-creation'
-d3153c3b42707d26c81083b426f2ef0951bce545 net: fix the missing unlock for detached devices
-c083da15f06c808c44444bfcef3c939a07ad394b MAINTAINERS: Add ism.h to S390 NETWORKING DRIVERS
-e00c1517f2bc73186a18ac2cb1d6c5fee7e95239 MAINTAINERS: Add s390 networking drivers to NETWORKING DRIVERS
-3a7012020532c5a5bb75201a073055f029332299 Merge branch 'maintainers-update-entries-for-s390-network-driver-files'
-cc3628dcd851ddd8d418bf0c897024b4621ddc92 xen-netfront: handle NULL returned by xdp_convert_buff_to_frame()
-2768b2e2f7d25ae8984ebdcde8ec1014b6fdcd89 net: enetc: register XDP RX queues with frag_size
-1d587faa5be7e9785b682cc5f58ba8f4100c13ea net: enetc: refactor bulk flipping of RX buffers to separate function
-020f0c8b3d396ec8190948f86063e1c45133f839 net: enetc: fix frame corruption on bpf_xdp_adjust_head/tail() and XDP_PASS
-b1eac30d9bc21cdaff97b2b23000085492efc662 Merge branch 'enetc-bug-fixes-for-bpf_xdp_adjust_head-and-bpf_xdp_adjust_tail'
-30a41ed32d3088cd0d682a13d7f30b23baed7e93 net: phy: microchip: force IRQ polling mode for lan88xx
-9e8d1013b0c38910cbc9e60de74dbe883878469d net: selftests: initialize TCP header and skb payload with zero
-c03a49f3093a4903c8a93c8b5c9a297b5343b169 net: lwtunnel: disable BHs when required
-05946f00a0f4b8b4c53494af7feed057b28d7300 coccinelle: misc: secs_to_jiffies script: Create dummy report
-0ece41fba96c1bcc98208d017b6eb9fb76b4b20a ice: fix Get Tx Topology AQ command error on E830
-3b727c1959574428c4b2a36f542887fcdc6faab6 ice: fix lane number calculation
-fd2f9e46b36796eaf20152ad6cbf5f653783ed5e ice: fix fwlog after driver reinit
-4719586d7e696b5fcef69f7bfae530dc4b058c07 ice: Check VF VSI Pointer Value in ice_vc_add_fdir_fltr()
-6080cb121a837896fc2dbcc3909e98799aea934a idpf: fix offloads support for encapsulated packets
-2326a9ffeb0749aef396d7f7650f93a5bf79a68a iavf: iavf_suspend(): take RTNL before netdev_lock()
-359eb2b85cb22a57050116aecf3658f96fdbe8cb iavf: centralize watchdog requeueing itself
-e0f528a46ae9a71d3294fb11f97d6e7aa1b050ae iavf: simplify watchdog_task in terms of adminq task scheduling
-57a556a4b7cb9a1ad968f278980b7142da5a6207 iavf: extract iavf_watchdog_step() out of iavf_watchdog_task()
-ec22cb1a104455629da03e2bb56e3eb11f6cc510 iavf: sprinkle netdev_assert_locked() annotations
-3fff353fc1e454e3248df047b9362eb4f48c9f01 iavf: get rid of the crit lock
-92493e333ab46345f6e4a5b20daf78a1ade6e77d idpf: fix potential memory leak on kcalloc() failure
-859be8c22c99e011d0418e8aadbfbc4bab932126 idpf: protect shutdown from reset
-fba24d443daf41ce623fd5cfe5accf30dea0da2f ice: fix vf->num_mac count with port representors
-8e4239be8cf7e039baec9abde3b14f3804520acd idpf: fix null-ptr-deref in idpf_features_check
-bb235bd9d1b18d4a991b9d04187d18c40e66a0ce ice: use DSN instead of PCI BDF for ice_adapter index
-
---===============8822124285471148287==--
+  - ref: refs/heads/edac-drivers
+    old: 5904dc561ef21e69f0b9dca39d1a66e34b7ea764
+    new: 180f091224a002f8bd1629307c34619a5626841e
+    log: |
+         180f091224a002f8bd1629307c34619a5626841e EDAC/ie31200: Add two Intel SoCs for EDAC support
+         
