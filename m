@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Tue, 22 Apr 2025 21:43:42 -0000
-Message-Id: <174535822286.3345625.15484995923625876721@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Tue, 22 Apr 2025 21:51:30 -0000
+Message-Id: <174535869034.3353400.7402482375061645102@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/scsi-pending
-    old: 0000000000000000000000000000000000000000
-    new: dc403ec34b8935becd4c7d15ab26b89ea119cb26
+  - ref: refs/heads/master
+    old: 3616d514faddcbeb5c222d881007af5903796a29
+    new: 46e6a3856dbda48096a3510e16e977c12b93bae7
+    log: |
+         46e6a3856dbda48096a3510e16e977c12b93bae7 workflows: Add sync action
+         
