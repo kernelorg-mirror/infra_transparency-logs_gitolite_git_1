@@ -1,57 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============1214313130958998684=="
+Content-Type: multipart/mixed; boundary="===============6939092615168313371=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
-Date: Tue, 22 Apr 2025 16:59:46 -0000
-Message-Id: <174534118631.3098053.1042115475596146628@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Tue, 22 Apr 2025 17:03:08 -0000
+Message-Id: <174534138899.3101520.9383721318943705621@gitolite.kernel.org>
 
---===============1214313130958998684==
+--===============6939092615168313371==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/linux
-user: vbabka
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/b4/slub-percpu-sheaves
-    old: 7d23268505dede6a4eeefcce384d866938e39619
-    new: 9b2dfd654047e84e888c90ec03fbe2c204c1decd
+  - ref: refs/heads/for-next/hardening
+    old: c5b45570cac5302cb650531a35142eab8231853c
+    new: e5237062687ed002382de726ffb773f6495a6580
     log: |
-         3bf2672878100a5e0d2b5e80dcf401e1db9b97dd slab: add opt-in caching layer of percpu sheaves
-         9629f21565940e004671e2e38b8ad38de32752fd slab: add sheaf support for batching kfree_rcu() operations
-         e4003874cacc143a465850e4982074d0e1cf9d71 slab: sheaf prefilling for guaranteed allocations
-         b4f3d109cb6fdb8dcfe3adda7c5703d409b1319b slab: determine barn status racily outside of lock
-         e1f9207d505fff7678d0ab511642489af4e7272d tools: Add testing support for changes to rcu and slab for sheaves
-         36b12aadcd828d6c91d8ae9712b9cd62678f4456 tools: Add sheafs support to testing infrastructure
-         efd50b4dad6b53d7369cd11891a93134a190fcf0 maple_tree: use percpu sheaves for maple_node_cache
-         9b2dfd654047e84e888c90ec03fbe2c204c1decd mm, slub: skip percpu sheaves for remote object freeing
+         52c770244da184393fbea24cd9ec7b66927d790d lkdtm: use SLAB_NO_MERGE instead of an empty constructor
+         d3100b96a0f129c9d7ac2862e26b700576400d25 gcc-plugins: Remove ARM_SSP_PER_TASK plugin
+         4fb5cedfcf5ac133506576c66b51384fd25ecb2c kunit/usercopy: Disable u64 test on 32-bit SPARC
+         964022d5ebbfea354967410299acf386c9da3be1 compiler_types: Identify compiler versions for __builtin_dynamic_object_size
+         11c37086811eecf121c7f74afd4858ef5f86ce75 overflow: Clarify expectations for getting DEFINE_FLEX variable sizes
+         df6c994b2df36d79b9027e217ebaa5eb2e77257e kbuild: Switch from -Wvla to -Wvla-larger-than=0
+         e5237062687ed002382de726ffb773f6495a6580 mod_devicetable: Enlarge the maximum platform_device_id name length
          
 
---===============1214313130958998684==
+--===============6939092615168313371==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1745341212 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
-nonce 1745341181-541f0860b3d75d453aaf2489c33df46e63874b28
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1745341417 -0700
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
+nonce 1745341374-b93c95113db086ca92dee80cb30b9005f06058a0
 
-7d23268505dede6a4eeefcce384d866938e39619 9b2dfd654047e84e888c90ec03fbe2c204c1decd refs/heads/b4/slub-percpu-sheaves
+c5b45570cac5302cb650531a35142eab8231853c e5237062687ed002382de726ffb773f6495a6580 refs/heads/for-next/hardening
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmgHyxwACgkQu+CwddJF
-iJq/YAf/ZUatE4JGVQYrylv8EupCmcfJP8fFfjv3Waoh4OsFxKDwOfzB+5xi9d3C
-k7O1k88kKPZA4PE0LUORFg7gUDS2jygS1pFbt12N2/UJbISNODrsX7NDBsHSc+Zu
-WzFcR7kZ3ExbRfM4AQkBPF3naEjlZoEiC3q4lwO3eHTcunHi8KzLpvgTaTbzjpCM
-WKIZBOwy2Q+PkNdcpzv8/14yT3d/XTblBRq0Ql72uMR9ZKOZCTMQBlU8j6LjHtLj
-4DOzCGi76kFmeFcu0CRuda9YszSWCU0B8ep5oSiuXpjJnPXrtX/jl+i9mC8kZHA/
-gNEfg4nJikieL36SNJGOW8cMXyvExw==
-=fJi/
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCaAfL6QAKCRA2KwveOeQk
+ux3+APwM8OV8rkFw+CxQW+cjGGzLVVUS1YO8WOXzEVNRum/FVQD+MB69zFpZHqwJ
+avr0Mn3gcDb6QgopOCm6TpPk36zgigI=
+=SqUa
 -----END PGP SIGNATURE-----
 
---===============1214313130958998684==--
+--===============6939092615168313371==--
