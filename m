@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Tue, 22 Apr 2025 13:32:48 -0000
-Message-Id: <174532876866.2907422.16596911434405147134@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Tue, 22 Apr 2025 13:37:17 -0000
+Message-Id: <174532903781.2911499.11096271512447762556@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: 550300b9a295a591e0721a31f8c964a4bc08d51c
-    new: 29f4c4da74acfbd54f5ad2dfafe1a8f93af00431
+  - ref: refs/heads/master
+    old: d5ef57305b7943201e7856a8a4470985781e5100
+    new: e4c1d03ef73c442b3d2414669ed96500cc3227d7
     log: |
-         29f4c4da74acfbd54f5ad2dfafe1a8f93af00431 gpio: Restrict GPIO_ICH to compile testing with HAS_IOPORT
+         99deeea86f156d4ab89a3f1edc35f6d1c51d56b6 btmon: Decode Broadcast Name
+         e4c1d03ef73c442b3d2414669ed96500cc3227d7 eir: Use Broadcast Name as Device.Name
          
