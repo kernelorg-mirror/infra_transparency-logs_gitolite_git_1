@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4032525540350646317=="
+Content-Type: multipart/mixed; boundary="===============2696307687559927205=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Tue, 22 Apr 2025 18:14:11 -0000
-Message-Id: <174534565163.3165660.12902778054702468597@gitolite.kernel.org>
+Date: Tue, 22 Apr 2025 18:14:31 -0000
+Message-Id: <174534567143.3166099.9973802811464419581@gitolite.kernel.org>
 
---===============4032525540350646317==
+--===============2696307687559927205==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/testing
-    old: 905d6b57b18fa932b3f05578e82625d22a4dd17f
+  - ref: refs/heads/togreg
+    old: 3159d40a2ca0ae14e69e1cae8b12f04c933d0445
     new: b475195fecc79a1a6e7fb0846aaaab0a1a4cb2e6
-    log: revlist-905d6b57b18f-b475195fecc7.txt
+    log: revlist-3159d40a2ca0-b475195fecc7.txt
 
---===============4032525540350646317==
+--===============2696307687559927205==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-905d6b57b18f-b475195fecc7.txt
+Content-Disposition: attachment; filename=revlist-3159d40a2ca0-b475195fecc7.txt
 
 0de3748d80f32d71600b95403d5805a6b13df32f iio: adc: sort TI drivers alphanumerical
 f184a095c8559f0df8dc36d8c88df0ca2c687bce iio: accel: adxl345: use regmap cache for INT mapping
@@ -221,4 +221,4 @@ eb8e160a80ccdaea0223d96ee09af111e24e0fb5 iio: accel: adxl345: add double tap fea
 7879584a137eb3943da4533d92a002054d21ffc7 iio: orientation: hid-sensor-rotation: remove unnecessary alignment
 b475195fecc79a1a6e7fb0846aaaab0a1a4cb2e6 staging: iio: ad5933: Correct settling cycles encoding per datasheet
 
---===============4032525540350646317==--
+--===============2696307687559927205==--
