@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6864466551144676118=="
+Content-Type: multipart/mixed; boundary="===============7596371896143557508=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Tue, 22 Apr 2025 07:37:26 -0000
-Message-Id: <174530744601.2582302.6149878528797840118@gitolite.kernel.org>
+Date: Tue, 22 Apr 2025 07:37:56 -0000
+Message-Id: <174530747654.2582863.11228585273038910555@gitolite.kernel.org>
 
---===============6864466551144676118==
+--===============7596371896143557508==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/linux/kernel/git/vbabka/slab
 user: vbabka
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/slab/for-6.16/fixes
+  - ref: refs/heads/slab/for-next
     old: bfedb6b93bc8d1dc02627beb43ceb466f42a4ed9
-    new: 46459154f9979387486fb5f50e4aa425e33a306c
-    log: revlist-bfedb6b93bc8-46459154f997.txt
+    new: 1cabeb548de6fc0147b196f8377bf41a0ffa957f
+    log: revlist-bfedb6b93bc8-1cabeb548de6.txt
 
---===============6864466551144676118==
+--===============7596371896143557508==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1745307472 +0200
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1745307503 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1745307441-efefb9098ea908078aa5e6a9f756035ab622adb3
+nonce 1745307472-767a1e59ad50c672f2db4169f7e133c038d80bd0
 
-bfedb6b93bc8d1dc02627beb43ceb466f42a4ed9 46459154f9979387486fb5f50e4aa425e33a306c refs/heads/slab/for-6.16/fixes
+bfedb6b93bc8d1dc02627beb43ceb466f42a4ed9 1cabeb548de6fc0147b196f8377bf41a0ffa957f refs/heads/slab/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmgHR1AACgkQu+CwddJF
-iJqg0wf/SWVkFcN7iMMnKlZOtrIMSUZm71kE5qMtsQ8Wa6MvKMtpzBHlGXUQfbKo
-hBWqZaGgcEQ55sBqKW2zt6JWAmc0T3eTk/Z9uUOOhwxN2LnJnWvJR3rvDpDwAKKN
-U+p8tNndwAQNorOnI8H1XuQ1qqBXWqy0cyGFQNoTZh+hSjMn8MUZ7LbmPvbv5m7C
-7oR4LBPab6vOQGzCp3bU6vIRktd2MQyC83zqFfPguhIGAc6ImaI2hNUrR9DYu9+/
-U5Gpaz5s40zUNQdt5ZLRAi4/NCnVeQQEcDYFVZkArkrm5Izgr8SrBmUWDBeTFtty
-P+udIPfvMd94VuiF6EzWcy9TzF40Aw==
-=rA41
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmgHR28ACgkQu+CwddJF
+iJobywf/bRoc45QkUxIipe/MgZjKPCLOUhvKi61Atg7bRWODePEFiFzLcEg4WMKh
+WNbzUfY7Viq97Tu74aGWVEjVAdqrhpFGLJxBQ+QdVt/MLsng+udZNM8Z/InTMPwy
+w+h9sZWYjQ8oOqLwpWIxj8gN7hNzXRZADuKHjtjZXqUddPQ8ujR2tnr7ckricSKm
+hjWQ9dJhAN42+dyQVZKKG4seVarFSiEFQBYd7cOtUNLsywoeI36Re3a8ehXXeOAS
+FDotw+xGrdE3XUvAahQ7Zwr/pRf1R8QCvt+MYSEsQIZkrbsp9HC0N1PIw94nW78l
+Kk/a6pQOsqAjy0smHhamov89NfkmaA==
+=TgmS
 -----END PGP SIGNATURE-----
 
---===============6864466551144676118==
+--===============7596371896143557508==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bfedb6b93bc8-46459154f997.txt
+Content-Disposition: attachment; filename=revlist-bfedb6b93bc8-1cabeb548de6.txt
 
 6c9567e0850be2f0f94ab64fa6512413fd1a1eb1 KVM: s390: Don't use %pK through tracepoints
 0c7fbae5bc782429c97d68dc40fb126748d7e352 KVM: s390: Don't use %pK through debug printing
@@ -884,6 +884,8 @@ be913e7c4034bd7a5cbfc3d53188344dc588d45c gcc-15: get rid of misc extra NUL chara
 05e8d261a34e5c637e37be55c26e42cf5c75ee5c gcc-15: add '__nonstring' markers to byte arrays
 ac71fabf15679fc7bc56c51bc92bd4b626564c37 gcc-15: work around sequence-point warning
 9c32cda43eb78f78c73aee4aa344b777714e259b Linux 6.15-rc3
+6431f06eecf44e7b8d42237cb0e166a456f491ad mm, slab: warn when increasing refcount on large kmalloc page
 46459154f9979387486fb5f50e4aa425e33a306c mm: kvmalloc: make kmalloc fast path real fast path
+1cabeb548de6fc0147b196f8377bf41a0ffa957f Merge branch 'slab/for-6.16/testing' into slab/for-next
 
---===============6864466551144676118==--
+--===============7596371896143557508==--
