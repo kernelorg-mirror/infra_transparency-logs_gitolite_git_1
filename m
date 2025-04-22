@@ -1,48 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============4654285392138328557=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Tue, 22 Apr 2025 02:59:43 -0000
-Message-Id: <174529078325.2345497.309390599813395907@gitolite.kernel.org>
-
---===============4654285392138328557==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
+Date: Tue, 22 Apr 2025 03:08:10 -0000
+Message-Id: <174529129012.2352707.3286274305248068537@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/shawnguo/linux
+user: shawnguo
 changes:
-  - ref: refs/heads/crypto-pending
-    old: 152fdc58745b0e82d07e395bdaf8a596c0ac4bb3
-    new: bef7627bf4f8dd7265b51ed317150f316a210562
-    log: revlist-152fdc58745b-bef7627bf4f8.txt
-
---===============4654285392138328557==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-152fdc58745b-bef7627bf4f8.txt
-
-dac887e578ea80603eb269bd1d9624ae383f7a38 crypto: testmgr - replace CRYPTO_MANAGER_DISABLE_TESTS with CRYPTO_SELFTESTS
-79191398de827eae045af753c1fe8b38ea6cba92 crypto: testmgr - make it easier to enable the full set of tests
-26d4e4165f22e99563be55b2315fc282d84a6fff crypto: testmgr - rename noextratests to noslowtests
-68dc3b2a2e2b75a1d1a93fe6b1fba48a76a589d6 crypto: Kconfig - make CRYPTO_MANAGER a hidden symbol
-38012f1b8aa4da6e523f22cbcf8f11cdb4650a68 crypto: testmgr - enable CRYPTO_MANAGER when CRYPTO_SELFTESTS
-d6c24a5a01ef9bfacea2685de334b4142230700a crypto: arm64 - drop redundant dependencies on ARM64
-026a0fd7d03b82861e41ac2b345caf18e0e2797e crypto: powerpc - drop redundant dependencies on PPC
-b7378484fabb6713d6ebc01df688349f4dd635cb crypto: s390 - drop redundant dependencies on S390
-33f96422051dd9b9406083f310674ffce5bebf9a crypto: x86 - drop redundant dependencies on X86
-573dc47f29a693c0c3d723fbc8013133af057b36 crypto: arm - move library functions to arch/arm/lib/crypto/
-69549c10d4ffbb99b98fea72f2914f2dba70bb20 crypto: arm64 - move library functions to arch/arm64/lib/crypto/
-141dab633969881397ad43897d7ed19f8d3573c4 crypto: mips - move library functions to arch/mips/lib/crypto/
-e5ddeea83829706fc69be9b9fe34ebdac5d8a46f crypto: powerpc - move library functions to arch/powerpc/lib/crypto/
-f2562a4005e39fd1fb614e704b87284b94beb32d crypto: riscv - move library functions to arch/riscv/lib/crypto/
-9d192b1828fdd0833d2830a3d87663faa9ab16a3 crypto: s390 - move library functions to arch/s390/lib/crypto/
-1937e75c61329456dbde245363e5fddc2d8f92f9 crypto: x86 - move library functions to arch/x86/lib/crypto/
-f83cf8f387228fc0b8a3eea54dc5301dcc5d585d crypto: lib/chacha - remove INTERNAL symbol and selection of CRYPTO
-bef7627bf4f8dd7265b51ed317150f316a210562 crypto: lib/poly1305 - remove INTERNAL symbol and selection of CRYPTO
-
---===============4654285392138328557==--
+  - ref: refs/heads/imx/dt
+    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
+    new: 0fd766f9595350e938e1df0ecfe9b0e881d0ab80
+    log: |
+         8130eb0fd3f062e832e44f2cb0035c33f6d016ef ARM: dts: imx31/imx6: Use flash as the NOR node name
+         d5b55c35e033954f6ef483dd836109e99d9e9b71 ARM: dts: imx: Fix the iim compatible string
+         89cedb339cb3a127c2e8ba2ef3c7ce31623acae1 ARM: dts: nxp: Align NAND controller node name with bindings
+         0fd766f9595350e938e1df0ecfe9b0e881d0ab80 ARM: dts: imx51-digi-connectcore-som: Fix MMA7455 compatible
+         
+  - ref: refs/heads/imx/dt64
+    old: 7ed7d1ed852d8f4c4dee7a4d4f7807ad59c7915d
+    new: 68770d888192cd0b1d9d77baef3c2075d80a4a0f
+    log: |
+         0005617c5e2fc04b2dc94cf849e5556b952571ca arm64: dts: imx8mq: Add linux,pci-domain into pcie-ep node
+         9f0928ea7258172514ac3d6ebdb9162970ccc965 arm64: dts: imx: add imx95 dts for sof
+         adcf4a5216ccca3b0ffa3d64203780d09afc00af arm64: dts: imx8mp: Use resets property
+         caa2ee72e0da7b969deb52bfd04729009c59f03c arm64: dts: imx8mp: Add mu2 root clock
+         f048f2126fcccaff2c534a3c08a109875cff7b0e arm64: dts: imx8mp: Configure dsp node for rproc usage
+         ebccbe8d43cea95f16aec8ee6668474625c7a2a8 arm64: dts: imx8mp: Add DSP clocks
+         68770d888192cd0b1d9d77baef3c2075d80a4a0f arm64: dts: imx8mp-evk: Enable DSP node for remoteproc usage
+         
+  - ref: refs/heads/imx/fixes
+    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
+    new: 6e1a7bc8382b0d4208258f7d2a4474fae788dd90
+    log: |
+         4b98bf3bff7353d94824c4d874ff2d7f38acc49a arm64: dts: imx8mp: configure GPU and NPU clocks in nominal DTSI
+         02e4232998db357bb8199778722d81ffcff0cb98 arm64: dts: imx95: Correct the range of PCIe app-reg region
+         6e1a7bc8382b0d4208258f7d2a4474fae788dd90 ARM: dts: opos6ul: add ksz8081 phy properties
+         
