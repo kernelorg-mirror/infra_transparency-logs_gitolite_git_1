@@ -1,48 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============7710330151607850652=="
+Content-Type: multipart/mixed; boundary="===============6827098586703813877=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nolibc/linux-nolibc
-Date: Tue, 22 Apr 2025 09:24:07 -0000
-Message-Id: <174531384777.2681583.6585274221033928766@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 22 Apr 2025 09:32:05 -0000
+Message-Id: <174531432562.2689104.13411666803812533671@gitolite.kernel.org>
 
---===============7710330151607850652==
+--===============6827098586703813877==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nolibc/linux-nolibc
-user: thomas.weissschuh
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/next
-    old: 6d1724ec864b577b50fa9cf668e80390767f4136
-    new: e90ce42e81381665dbcedc5fa12e74759ee89639
-    log: revlist-6d1724ec864b-e90ce42e8138.txt
+  - ref: refs/heads/main
+    old: 07e32237ed9d3f5815fb900dee9458b5f115a678
+    new: 30af0cb3106ee011756533da55f0ea1aa37d654b
+    log: revlist-07e32237ed9d-30af0cb3106e.txt
 
---===============7710330151607850652==
+--===============6827098586703813877==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6d1724ec864b-e90ce42e8138.txt
+Content-Disposition: attachment; filename=revlist-07e32237ed9d-30af0cb3106e.txt
 
-4c99fbc6a06f56e266f60f5f24d0cfd8311b2c09 tools/nolibc: handle intmax_t/uintmax_t in printf
-e5407c0820ea5fa7117b85ed32b724af73156d63 tools/nolibc: use intmax definitions from compiler
-248ddc80b145515286bfb75d08034ad4c0fdb08e tools/nolibc: use pselect6_time64 if available
-4de88a88bcbe4cf89477d8c6a9145fdfd929bc96 tools/nolibc: use ppoll_time64 if available
-9b070d97d9e52195c3a2ee084fdd7c45b6b35adf tools/nolibc: add tolower() and toupper()
-7b11531ed172cc8cc2465e99c295af5ac2fd55e3 tools/nolibc: add _exit()
-67fe525e3401d48a9fb1bf437555a9d82800f3d7 tools/nolibc: add setpgrp()
-0c89abf5ab3fba1e8f73cdaf0385ed9786c1c307 tools/nolibc: implement waitpid() in terms of waitid()
-4175b5584510faa8acbfa98103781c36780d5a79 Revert "selftests/nolibc: use waitid() over waitpid()"
-5197b7b87cbfeed61b69ff54532bb58a0d55cb0b tools/nolibc: add dprintf() and vdprintf()
-bae3cd708e8adef27ee7657cd877d9ba9aa4f2ae tools/nolibc: add getopt()
-f7b3eeffd402c5eec32be9c3bfdeb3ec03e87cf3 tools/nolibc: allow different write callbacks in printf
-9f4a2e28bc4714487d9a0c85af2a87c07155c552 tools/nolibc: allow limiting of printf destination size
-ed45d24cf23521b12271d95f8e87b839e79dd65e tools/nolibc: add snprintf() and friends
-c685cd6db59cc4557c93538677a8bdaa05f49fbc selftests/nolibc: use snprintf() for printf tests
-6311e4893ad204695473caf167e22ebf23cb8f5d selftests/nolibc: rename vfprintf test suite
-b0bd7760df94714f78ccf98b3aa612ed71e48770 selftests/nolibc: add test for snprintf() truncation
-e90ce42e81381665dbcedc5fa12e74759ee89639 tools/nolibc: implement width padding in printf()
+804b09be09f8af4eda5346a72361459ba21fcf1b vxlan: Add RCU read-side critical sections in the Tx path
+884dd448f1ac8b5c5c0dcef9bcaab7c16ee48276 vxlan: Simplify creation of default FDB entry
+69281e0fe18ab60e7b67e328214ffbd8609b13b4 vxlan: Insert FDB into hash table in vxlan_fdb_create()
+ccc203b9a846c1d5262b5c60565ff79930c13477 vxlan: Unsplit default FDB entry creation and notification
+6ba480cca25f26bd0f0e328b2d2f8eab6bde7cc0 vxlan: Relocate assignment of default remote device
+094adad91310d9f8f8485251129482f4f3e2c5b3 vxlan: Use a single lock to protect the FDB table
+8d45673d2d2e59d03e108c569a3e8c031aa534c8 vxlan: Add a linked list of FDB entries
+7aa0dc750d4bca9545c89803e3779bdff4c58b58 vxlan: Use linked list to traverse FDB entries
+a6d04f8937e3a721c3a3578fc18b28cb59b15f42 vxlan: Convert FDB garbage collection to RCU
+54f45187b635f8c4c1e554a2ed347bba7d27dfbd vxlan: Convert FDB flushing to RCU
+5cde39ea38813ebb5bf07922a3ba60871edebf99 vxlan: Rename FDB Tx lookup function
+ebe6420674551751e6a888180ebda76f1dddf911 vxlan: Create wrappers for FDB lookup
+20c76dadc783759fd3819d289c72be590660cc8b vxlan: Do not treat dst cache initialization errors as fatal
+f13f3b4157dd9a05a5b651dfd15a4efa2df06f67 vxlan: Introduce FDB key structure
+1f763fa808e92a67feea8364ef80ca3065d74702 vxlan: Convert FDB table to rhashtable
+30af0cb3106ee011756533da55f0ea1aa37d654b Merge branch 'vxlan-convert-fdb-table-to-rhashtable'
 
---===============7710330151607850652==--
+--===============6827098586703813877==--
