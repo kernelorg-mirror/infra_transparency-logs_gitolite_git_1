@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============5645125343089293241=="
+Content-Type: multipart/mixed; boundary="===============1804526037624860154=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Tue, 22 Apr 2025 10:30:57 -0000
-Message-Id: <174531785734.2742659.14695882292180100139@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Tue, 22 Apr 2025 10:31:14 -0000
+Message-Id: <174531787404.2742968.5282403532154683665@gitolite.kernel.org>
 
---===============5645125343089293241==
+--===============1804526037624860154==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: westeri
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/master
     old: 8ffd015db85fea3e15a77027fda6c02ced4d2444
     new: 9c32cda43eb78f78c73aee4aa344b777714e259b
     log: revlist-8ffd015db85f-9c32cda43eb7.txt
 
---===============5645125343089293241==
+--===============1804526037624860154==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -521,4 +521,4 @@ be913e7c4034bd7a5cbfc3d53188344dc588d45c gcc-15: get rid of misc extra NUL chara
 ac71fabf15679fc7bc56c51bc92bd4b626564c37 gcc-15: work around sequence-point warning
 9c32cda43eb78f78c73aee4aa344b777714e259b Linux 6.15-rc3
 
---===============5645125343089293241==--
+--===============1804526037624860154==--
