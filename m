@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Wed, 23 Apr 2025 17:02:20 -0000
-Message-Id: <174542774034.274867.14499142421456009110@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Wed, 23 Apr 2025 17:10:32 -0000
+Message-Id: <174542823204.282489.3621345906259744862@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/fixes
-    old: 119009db267415049182774196e3cce9e13b52ef
-    new: e54642356955daad5add2570b0e94febda325a36
+  - ref: refs/heads/dma-split-wip
+    old: c420e6f5f84d90a4f60f730862aa132089d0664f
+    new: 765fae4f7f4d0291cc744fcc13b89a4bce6d35d6
     log: |
-         b25515fbc8797d33c3b5d4833fd124b68d0c9f56 riscv: Replace function-like macro by static inline function
-         17e52f8ed8ea6afe04605bd478651baeb321a62a riscv: uprobes: Add missing fence.i after building the XOL buffer
-         e54642356955daad5add2570b0e94febda325a36 Merge patch series "riscv: Replace function-like macro by static inline function"
+         3485d108c54f6ca0b32108771b4a732a12ba7aa7 nvme-pci: convert to blk_rq_dma_map
+         fb5b023e3f51c492b5b2bb7ec9604a452fcf17bd nvme-pci: store aborted state in flags variable
+         e48af02825628ef777ff84b05e859cd6e0291e10 swiotlb: Enrich message about buffer overflow
+         765fae4f7f4d0291cc744fcc13b89a4bce6d35d6 compiler.h: Avoid the usage of __typeof_unqual__() when __GENKSYMS__ is defined
          
