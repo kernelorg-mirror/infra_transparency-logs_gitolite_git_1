@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 23 Apr 2025 18:53:05 -0000
-Message-Id: <174543438513.388551.2938788198372451885@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Wed, 23 Apr 2025 18:57:36 -0000
+Message-Id: <174543465691.392681.937544011469674458@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/heads/kernel-6.12.24/main
-    old: 5f8dbbddeb43c24a3113a4637bef8ed77b891a53
-    new: ff95019f9d805c729e04530f8e81f4f24a31644e
+  - ref: refs/heads/scx
+    old: 3dac26c8064cefd1cf47ec1ab6c22c043672e88e
+    new: 7955b3e4be64aa89cb36021a77ce65704c77e042
     log: |
-         ec93501b078eb248a6fc075a90dac4bacb759bca filemap: Add a helper for filesystems implementing dropbehind
-         22d2dcab1f536414a4ba948246eb7964b9e66c68 filemap: Mark folios as dropbehind in generic_perform_write()
-         0bb0fc5472544944cdcde0f37ff4118243d586c6 NFS: Enable the RWF_DONTCACHE flag for the NFS client
-         ff95019f9d805c729e04530f8e81f4f24a31644e NFSD: add the ability to enable use of RWF_DONTCACHE for all nfsd IO
+         7955b3e4be64aa89cb36021a77ce65704c77e042 sched_ext: Clarify CPU for running/stopping callbacks
          
