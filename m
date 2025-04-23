@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Wed, 23 Apr 2025 19:02:16 -0000
-Message-Id: <174543493683.397017.10311628422176479479@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 23 Apr 2025 19:05:32 -0000
+Message-Id: <174543513219.400604.10218102579424227282@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: 46e6a3856dbda48096a3510e16e977c12b93bae7
-    new: 3e9827d3a67254deeb82d0b11bd5cd63f5499ff5
-    log: |
-         3e9827d3a67254deeb82d0b11bd5cd63f5499ff5 workflows/sync: Add Cleanup PR and Sync Workflow
-         
+  - ref: refs/heads/stable-sve-5-10
+    old: 0000000000000000000000000000000000000000
+    new: e4f04fc01b2170310b33fb7fa872c42c5ca5bc8e
