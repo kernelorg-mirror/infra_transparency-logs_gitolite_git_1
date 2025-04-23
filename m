@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Wed, 23 Apr 2025 11:24:33 -0000
-Message-Id: <174540747355.4144071.16964828868103394715@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Wed, 23 Apr 2025 11:24:38 -0000
+Message-Id: <174540747877.4144405.8536926187387788530@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: mikulas
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: 29f4c4da74acfbd54f5ad2dfafe1a8f93af00431
-    new: 417b0f8d08f878615de9481c6e8827fbc8b57ed2
+  - ref: refs/heads/for-next
+    old: a644cfb7a819c961ebe35e9c78f33046973f6fb5
+    new: 275d38c6816299aca772a712b760a91e5d8abaa3
     log: |
-         73dc041f8a60279faa1109957891b00d52496425 gpio: vf610: Allow building as a module
-         417b0f8d08f878615de9481c6e8827fbc8b57ed2 gpio: pca953x: Add support for level-triggered interrupts
+         44ab066c3713af1263689373973cb5e3daa7a7c3 dm-verity: use softirq context only when !need_resched()
+         275d38c6816299aca772a712b760a91e5d8abaa3 dm-bufio: remove maximum age based eviction
          
