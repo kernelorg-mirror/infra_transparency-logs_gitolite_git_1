@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 23 Apr 2025 15:53:09 -0000
-Message-Id: <174542358939.213705.10439723854098062474@gitolite.kernel.org>
+Date: Wed, 23 Apr 2025 15:53:14 -0000
+Message-Id: <174542359473.214002.9393945172947038653@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/fileMpVHJf
-    old: 70ad2e6bd180f94be030aef56e59693e36d945f3
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/asoc-6.15
+    old: 68715cb5c0e00284d93f976c6368809f64131b0b
+    new: 70ad2e6bd180f94be030aef56e59693e36d945f3
+    log: |
+         70ad2e6bd180f94be030aef56e59693e36d945f3 ASoC: cs42l43: Disable headphone clamps during type detection
+         
