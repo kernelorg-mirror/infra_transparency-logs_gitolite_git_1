@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2899016640663809741=="
+Content-Type: multipart/mixed; boundary="===============3991261215424668500=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 23 Apr 2025 15:33:59 -0000
-Message-Id: <174542243995.195540.9206627413628735933@gitolite.kernel.org>
+Date: Wed, 23 Apr 2025 15:34:02 -0000
+Message-Id: <174542244240.195647.14791470827691499889@gitolite.kernel.org>
 
---===============2899016640663809741==
+--===============3991261215424668500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 45bd443bfd8697a7da308c16c3e75e2bb353b3d1
     new: 88922fe7854091a50e831fefdae674433c5b261e
     log: revlist-45bd443bfd86-88922fe78540.txt
 
---===============2899016640663809741==
+--===============3991261215424668500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -55,4 +55,4 @@ a1980cc962837948a97454e7dfd778e9fce5e6b1 Merge branch 'implement-udp-tunnel-port
 aea45363e29dd16050e6ce333ce0d3696ac3b5a9 selftests: net/bridge : add tests for per vlan snooping with stp state changes
 88922fe7854091a50e831fefdae674433c5b261e Merge branch 'bridge-mc-per-vlan-qquery'
 
---===============2899016640663809741==--
+--===============3991261215424668500==--
