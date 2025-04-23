@@ -1,56 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============1766589612037758633=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Wed, 23 Apr 2025 09:47:42 -0000
-Message-Id: <174540166262.4006741.655913565932471624@gitolite.kernel.org>
-
---===============1766589612037758633==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
+Date: Wed, 23 Apr 2025 10:10:31 -0000
+Message-Id: <174540303104.4025955.12004953701257964376@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/shawnguo/linux
+user: shawnguo
 changes:
-  - ref: refs/heads/master
-    old: d20bce3aaba0bb22ca6767ba5d36c598ecf0d30e
-    new: eb6c05bbc5b5e059768225763e4ee8a227157670
+  - ref: refs/heads/imx/dt
+    old: 185ae70ad680b0a2adf0e923d44c5dbfba09f681
+    new: 690f7e40cccd934b7cdfdfe37b9458e2855fbb0d
     log: |
-         eb6c05bbc5b5e059768225763e4ee8a227157670 tools: bump rusqlite version
+         c806347d315d2b02eb99256ac9f132b3a166a4c8 ARM: dts: ls1021a-tqmals1021a: Fix license
+         43d790a0a7c8e6eb0746919b31c331ccd47ffc46 ARM: dts: ls1021a-tqmals1021a: Add vcc-supply for spi-nor
+         8511c30d71e3c271283ea806f568036717cd9d4d ARM: dts: ls1021a-tqmals1021a: Add HDMI overlay
+         fbfd01d7532901c8d9306f352399589e152f2a0d ARM: dts: ls1021a-tqmals1021a: Add LVDS overlay for Tianma TM070JVGH33
+         43db162d0cf659034be36bb4c0062c350b77fda8 ARM: dts: ls1021a-tqmals1021a: Add overlay for CDTech FC21 RGB display
+         98842790e40feda02c9c13a00d5215379fa05c6f ARM: dts: ls1021a-tqmals1021a: Add overlay for CDTech DC44 RGB display
+         690f7e40cccd934b7cdfdfe37b9458e2855fbb0d ARM: dts: ls1021a-tqmals1021a: change sound card model name
          
-
---===============1766589612037758633==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1745401692 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1745401662-14855d45fbf55996397ee66984b8429f44750781
-
-d20bce3aaba0bb22ca6767ba5d36c598ecf0d30e eb6c05bbc5b5e059768225763e4ee8a227157670 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgIt1wbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lvkP/2kJqz4QCbgsuyGFFEB+
-EScQZKNWcGa2FX+JSYObSbMjUFfgt90dUXfjgBaSSiMfg3jd0ltzBWzE//JuQxP3
-nQDMooX+AkKZtDd8stOYZdDxrmVLj+3ZX7rxtLlDEINQG2DiYSNarJxisK9YzJ90
-kD2ENt/Q4VBD0JL328A35o9b+qdAZAuUpHLT658QWP5Wg0TCJuGTrJEbF57D5kOs
-xXc9X1RE6xJKNgQ19OdKYVYLkewh6bVOgRSHzwFyTsFJxxbN4BPtvqFRyzX9fj0R
-KJp7SCeyS1aHEMhifOxsrVyYcZxSv9OTC60W1WTKff7u3QsyrlF+KMNxYsr1gTTp
-1npCvURbSW0Zc8nKkN3w6ciHj/XdXwUQg6hPtnzMj85OrwIBOCtFQ5lupyYIxKPD
-zaNIOzFqZNfLGg1kRxazpbTyGyTwiHTT2Onlim6N4exuOjtq5g3pHBx3GYDhik/C
-IlhN6IYZ+h+URC37Dfo9smv7b1vZ2puW8hkESfPs1C93AJlK3J563pimTCshl0Kf
-UFxbBu01pdSnSnj1BCD3X3PyZTN2a/r6+0bpn0+kOXaTyo81Dn2CabBB3nnlm2tj
-x0P4N6d+qrbWQF99sJgxFJ2RwiB+f7KLf3ItZ3muvoJ13+6Eh/6aDuTPgUbg1WiF
-YfYylQgS1Ioi7IwjS9dBs93R
-=okCW
------END PGP SIGNATURE-----
-
---===============1766589612037758633==--
+  - ref: refs/heads/imx/dt64
+    old: 42b2ac9f1bfee9401adabde61e24082dd88b3d3e
+    new: ac1c1d2e2124387752b4cc955dd359753783c147
+    log: |
+         4e13da7c73932572c7ee1c3bdc64cb94a3c0d875 arm64: dts: freescale: imx8mp-verdin: Add EEPROM compatible fallback
+         ac1c1d2e2124387752b4cc955dd359753783c147 arm64: dts: freescale: imx8mm-verdin: Add EEPROM compatible fallback
+         
