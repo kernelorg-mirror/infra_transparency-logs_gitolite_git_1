@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 23 Apr 2025 02:49:33 -0000
-Message-Id: <174537657309.3611244.14540056257858407739@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 23 Apr 2025 02:59:54 -0000
+Message-Id: <174537719425.3619557.3890531567438089884@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-6.16/block
-    old: 98b995660bff011d8e00af03abd74ac7d1ac1390
-    new: 4c7d3c88c77bf227c12ef13e8461a0c940f775e8
+  - ref: refs/heads/main
+    old: 84ee6e5040aef7fdf90b30dbedf7bd2cd8bd3d69
+    new: 0e0a7e3719bc8cbe6d6e30b3e81f21472ecba5bc
     log: |
-         4c7d3c88c77bf227c12ef13e8461a0c940f775e8 ublk: remove unnecessary ubq checks
-         
-  - ref: refs/heads/for-next
-    old: edbaa72ba1bd21040df81f7c63851093264c7955
-    new: 98344f56952e256a86756e15c4f7481a464df01b
-    log: |
-         4c7d3c88c77bf227c12ef13e8461a0c940f775e8 ublk: remove unnecessary ubq checks
-         98344f56952e256a86756e15c4f7481a464df01b Merge branch 'for-6.16/block' into for-next
+         f294516f1ff2fbf6fed6d0376f1ad096f8312879 net: txgbe: Support to set UDP tunnel port
+         3b05aa997c491487c8d4b0033cca76a15760a930 net: wangxun: restrict feature flags for tunnel packets
+         a1980cc962837948a97454e7dfd778e9fce5e6b1 Merge branch 'implement-udp-tunnel-port-for-txgbe'
+         0e0a7e3719bc8cbe6d6e30b3e81f21472ecba5bc xdp: create locked/unlocked instances of xdp redirect target setters
          
