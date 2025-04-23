@@ -1,25 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
-Date: Wed, 23 Apr 2025 09:36:22 -0000
-Message-Id: <174540098211.3997256.4402493240562336977@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
+Date: Wed, 23 Apr 2025 09:36:48 -0000
+Message-Id: <174540100853.3997634.5562643575852135294@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ukleinek/linux
-user: ukleinek
+repo: pub/scm/linux/kernel/git/shawnguo/linux
+user: shawnguo
 changes:
-  - ref: refs/heads/pwm/for-next
-    old: cad42d62cb50165e5883d18f072b672407a22235
-    new: 6d54ef7161f815beded94837b40a522df7fd7177
+  - ref: refs/heads/imx/dt
+    old: 0fd766f9595350e938e1df0ecfe9b0e881d0ab80
+    new: 185ae70ad680b0a2adf0e923d44c5dbfba09f681
     log: |
-         6d54ef7161f815beded94837b40a522df7fd7177 dt-bindings: pwm: mediatek,pwm-disp: Add compatible for MT6893
+         185ae70ad680b0a2adf0e923d44c5dbfba09f681 ARM: dts: imx: Drop redundant CPU "clock-latency"
          
-  - ref: refs/heads/pwm/for-nexxt
-    old: cad42d62cb50165e5883d18f072b672407a22235
-    new: 6d54ef7161f815beded94837b40a522df7fd7177
+  - ref: refs/heads/imx/dt64
+    old: 68770d888192cd0b1d9d77baef3c2075d80a4a0f
+    new: 42b2ac9f1bfee9401adabde61e24082dd88b3d3e
     log: |
-         6d54ef7161f815beded94837b40a522df7fd7177 dt-bindings: pwm: mediatek,pwm-disp: Add compatible for MT6893
+         c197f323ed64ccd902832ddee907b2eb157f39dd arm64: dts: imx8qm-mek: consolidate reserved-memory
+         42b2ac9f1bfee9401adabde61e24082dd88b3d3e arm64: dts: imx: Drop redundant CPU "clock-latency"
          
