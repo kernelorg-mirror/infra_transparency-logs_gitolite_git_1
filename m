@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============4159832055994481602=="
+Content-Type: multipart/mixed; boundary="===============1816600867027346089=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 23 Apr 2025 11:19:16 -0000
-Message-Id: <174540715700.4118982.1208975501883157833@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 23 Apr 2025 11:19:20 -0000
+Message-Id: <174540716025.4119201.5853380347400614020@gitolite.kernel.org>
 
---===============4159832055994481602==
+--===============1816600867027346089==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.15
+  - ref: refs/heads/spi-6.15
     old: 8ffd015db85fea3e15a77027fda6c02ced4d2444
     new: 460b14b0929fa9f658a7e159ef646ce456962ab0
     log: |
          460b14b0929fa9f658a7e159ef646ce456962ab0 spi: stm32-ospi: Fix an error handling path in stm32_ospi_probe()
          
 
---===============4159832055994481602==
+--===============1816600867027346089==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1745407185 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1745407155-72d30a60046f6a5088294746099e1dd3082667a3
+pusher C3F436CA30F5D8EB 1745407189 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1745407158-466f8f54da50b3534d5352cb80917a698b81cf85
 
-8ffd015db85fea3e15a77027fda6c02ced4d2444 460b14b0929fa9f658a7e159ef646ce456962ab0 refs/heads/for-6.15
+8ffd015db85fea3e15a77027fda6c02ced4d2444 460b14b0929fa9f658a7e159ef646ce456962ab0 refs/heads/spi-6.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgIzNEACgkQJNaLcl1U
-h9DYxAf/Z9DwoBLTWscXuTutyswxd7LLtK8F0dM+jPBYBYlzE3MCEeoBLTzokIyh
-B1AN3DhKMH6GxWwjs14O9shMLUHglUqVbYGwFdqPoulhkv6aVgCj8VRqXRzkhRQR
-FOxgNR6KrQlwFGe89+L78vch5q2NI6IbgIShhis1uJeUfTOPm39c3eXACI8H7iWk
-9/nmnvfIDxv67SOwy0OBMizItsv9+S3dgfqIcJhkq0JqrgvyBq84exIiXxFf6xTk
-rvgCKHlNnISEQX1Id7aodxBsPrpg8GLqK8ovoLfVJzXwj+kMfKd89TU7k3HmJDxG
-6Psl9XQyLUa9z9EMgp1kSZeqzWmaZg==
-=OCfu
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgIzNUACgkQJNaLcl1U
+h9Az1Qf+PeTuOnZ3w4Ubd+YkIDDo7IggfpXdhmovo0CA6WX1SCs8OmkVz32nYj7x
+Okx41wE/YojvsM4FZI8rYRCeXAIpRuVNhd6lZ+TvTtIA/SHkPWlA8kFiLXZfGOJw
+Ur/4huK9Fi9bJiBuK4MHuQglNZ10dPjk/wym5mW2OeVqfn3ulGii0tMFMF+1Pyo4
+hnkbX5eg7voTWkq21minKOknn24As76SoHJzRDAFalfq8LodyBdWVIzmnmKM79Xo
+O70FVqYAzDRD8MPeQ9be0yGxYFOm6OLQIs/0KRamxXjBTvv/kHqfF5wHjQj48gU0
+9AHDqKRU95EBMTZPg+fjHuMHJskSjA==
+=WrzT
 -----END PGP SIGNATURE-----
 
---===============4159832055994481602==--
+--===============1816600867027346089==--
