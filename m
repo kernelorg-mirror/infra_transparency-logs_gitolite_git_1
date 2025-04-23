@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Wed, 23 Apr 2025 20:55:41 -0000
-Message-Id: <174544174197.495420.9082993522094917934@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Wed, 23 Apr 2025 21:00:40 -0000
+Message-Id: <174544204083.499807.13234427862786521253@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/heads/master
-    old: 6c582e7e136097cbbc92563790fe5e873f01a9fe
-    new: 629672307f6c07cdeccc3be2a8fb33b104210b02
+  - ref: refs/heads/scx
+    old: 215a0cb9724c2378e6dc4b6bfb3c3e6583f0ff4f
+    new: 3224789523e62746c5b0ce3e231335aa5434d706
     log: |
-         918432b2c68dd40c180885d10e61b35da42f5358 profiles/audio: asha: Reset state on disconnect
-         1b137c4bad24b9010cdced5c31d00309bf110608 profiles/audio: asha: Only expose device after we have attributes
-         629672307f6c07cdeccc3be2a8fb33b104210b02 shared/asha: Use a more descriptive name for the state callback
+         3224789523e62746c5b0ce3e231335aa5434d706 sched_ext: Clarify CPU context for running/stopping callbacks
          
