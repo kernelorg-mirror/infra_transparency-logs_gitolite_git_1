@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Wed, 23 Apr 2025 20:01:29 -0000
-Message-Id: <174543848952.448841.6701920727288080835@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Wed, 23 Apr 2025 20:02:49 -0000
+Message-Id: <174543856992.449553.5124382464278237808@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 58a3edb1acdf74d24f91e2b7a9a07355226f6a39
-    new: 1f97dff96439bf0e5b649e32cd63fb15bb61b9a1
+  - ref: refs/heads/master
+    old: e06ed62241c49436066591ee7ec683c5605dd63b
+    new: 2d98e08d2f01dd450123ec3a4790dba9495d24ab
     log: |
-         18eb45b67544b995a8a6f48a72b816fd75776f52 ACPI: tables: Add __nonstring annotations for unterminated strings
-         1f97dff96439bf0e5b649e32cd63fb15bb61b9a1 Merge branch 'acpi-tables' into bleeding-edge
+         2d98e08d2f01dd450123ec3a4790dba9495d24ab workflows/sync: Fix action
          
