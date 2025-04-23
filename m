@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Wed, 23 Apr 2025 18:57:36 -0000
-Message-Id: <174543465691.392681.937544011469674458@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Wed, 23 Apr 2025 19:02:16 -0000
+Message-Id: <174543493683.397017.10311628422176479479@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arighi/linux
-user: arighi
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/scx
-    old: 3dac26c8064cefd1cf47ec1ab6c22c043672e88e
-    new: 7955b3e4be64aa89cb36021a77ce65704c77e042
+  - ref: refs/heads/master
+    old: 46e6a3856dbda48096a3510e16e977c12b93bae7
+    new: 3e9827d3a67254deeb82d0b11bd5cd63f5499ff5
     log: |
-         7955b3e4be64aa89cb36021a77ce65704c77e042 sched_ext: Clarify CPU for running/stopping callbacks
+         3e9827d3a67254deeb82d0b11bd5cd63f5499ff5 workflows/sync: Add Cleanup PR and Sync Workflow
          
