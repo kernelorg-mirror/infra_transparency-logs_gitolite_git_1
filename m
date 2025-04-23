@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 23 Apr 2025 21:03:52 -0000
-Message-Id: <174544223293.501316.18099604577522057494@gitolite.kernel.org>
+Date: Wed, 23 Apr 2025 21:10:01 -0000
+Message-Id: <174544260115.506719.3652701245877490922@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pci/pci
 user: helgaas
 changes:
-  - ref: refs/heads/bwctrl
+  - ref: refs/heads/pm
     old: 0000000000000000000000000000000000000000
-    new: 0238f352a63a075ac1f35ea565b5bec3057ec8bd
+    new: 0a0829b1fd76cb6110cc049a60e634a51969e488
