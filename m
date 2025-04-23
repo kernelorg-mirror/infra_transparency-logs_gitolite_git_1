@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 23 Apr 2025 11:48:07 -0000
-Message-Id: <174540888774.4184250.10597490162630048949@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/legion/linux
+Date: Wed, 23 Apr 2025 11:50:14 -0000
+Message-Id: <174540901403.4187557.3044004636149941373@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/legion/linux
+user: legion
 changes:
-  - ref: refs/heads/for-next
-    old: 171bb5123fbc1c64a89a77b365e27e263c50491c
-    new: f28aa371b73af941dc3a676cb875fe285b5c0d40
-    log: |
-         f28aa371b73af941dc3a676cb875fe285b5c0d40 ALSA: HDA: Add Zhaoxin HDMI Controller and Codec support
-         
-  - ref: refs/heads/master
-    old: 1f64604c2bf56d77670433083c76c1a7d8595b71
-    new: 113997dd4be4ea762c816e8b1b478dd1c2db80e7
-    log: |
-         f28aa371b73af941dc3a676cb875fe285b5c0d40 ALSA: HDA: Add Zhaoxin HDMI Controller and Codec support
-         113997dd4be4ea762c816e8b1b478dd1c2db80e7 Merge branch 'for-next'
-         
+  - ref: refs/heads/fix-modules-builtin-modinfo
+    old: 0000000000000000000000000000000000000000
+    new: f5422bb507a66b76b3d5fb2cdf042b97b0810e92
+  - ref: refs/tags/patchset/x86-apx/v3.0/cover
+    old: 0000000000000000000000000000000000000000
+    new: 2b6e2d97cbb8294503f28ed1101c481e83a7d423
+  - ref: refs/tags/v6.15-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 8a834b0ac9ceb354a6e0b8cf5b363edca8221bdd
