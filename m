@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
-Date: Wed, 23 Apr 2025 09:30:41 -0000
-Message-Id: <174540064190.3992672.16408040909450785596@gitolite.kernel.org>
+Date: Wed, 23 Apr 2025 09:36:22 -0000
+Message-Id: <174540098211.3997256.4402493240562336977@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,14 +12,14 @@ repo: pub/scm/linux/kernel/git/ukleinek/linux
 user: ukleinek
 changes:
   - ref: refs/heads/pwm/for-next
-    old: 061f087f5d0bcae9f43ae0101121fcaa999d2809
-    new: cad42d62cb50165e5883d18f072b672407a22235
+    old: cad42d62cb50165e5883d18f072b672407a22235
+    new: 6d54ef7161f815beded94837b40a522df7fd7177
     log: |
-         cad42d62cb50165e5883d18f072b672407a22235 pwm: Fix various formatting issues in kernel-doc
+         6d54ef7161f815beded94837b40a522df7fd7177 dt-bindings: pwm: mediatek,pwm-disp: Add compatible for MT6893
          
   - ref: refs/heads/pwm/for-nexxt
-    old: 061f087f5d0bcae9f43ae0101121fcaa999d2809
-    new: cad42d62cb50165e5883d18f072b672407a22235
+    old: cad42d62cb50165e5883d18f072b672407a22235
+    new: 6d54ef7161f815beded94837b40a522df7fd7177
     log: |
-         cad42d62cb50165e5883d18f072b672407a22235 pwm: Fix various formatting issues in kernel-doc
+         6d54ef7161f815beded94837b40a522df7fd7177 dt-bindings: pwm: mediatek,pwm-disp: Add compatible for MT6893
          
