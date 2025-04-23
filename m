@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0920514710476203076=="
+Content-Type: multipart/mixed; boundary="===============0023536038904390356=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 23 Apr 2025 19:34:06 -0000
-Message-Id: <174543684635.424597.12637683582292049508@gitolite.kernel.org>
+Date: Wed, 23 Apr 2025 19:34:57 -0000
+Message-Id: <174543689750.425829.759365147404900230@gitolite.kernel.org>
 
---===============0920514710476203076==
+--===============0023536038904390356==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,28 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath12k-ng
-    old: fe7b66d415df9e414b4fced02ad4704c6a0ae8ae
-    new: 7720ded3a921268536e83f9f77bf2f0dcb9cfe29
-    log: revlist-fe7b66d415df-7720ded3a921.txt
-  - ref: refs/tags/ath12k-ng-202504231934
-    old: 0000000000000000000000000000000000000000
-    new: 7720ded3a921268536e83f9f77bf2f0dcb9cfe29
+  - ref: refs/tags/ath12k-ng-base
+    old: 11cea2b6a2e3a5ddf3562314d1a378e7ea1c26eb
+    new: d33705bb41ff786b537f8ed50a187a474db111c1
+    log: revlist-11cea2b6a2e3-d33705bb41ff.txt
 
---===============0920514710476203076==
+--===============0023536038904390356==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fe7b66d415df-7720ded3a921.txt
+Content-Disposition: attachment; filename=revlist-11cea2b6a2e3-d33705bb41ff.txt
 
+a10c7949adf94356e56d5c8878f6fc3f25bd0c15 Merge tag 'linux_kselftest-kunit-6.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
+96050814a3f667eb28dabb78e7b3a7b06e5243e9 Merge tag 'printk-for-6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
+dcf9f31c62b3d31c033ee5bce522855c3d7f56b1 Merge tag 'livepatching-for-6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/livepatching/livepatching
+a7e135fe59a516b2a981fc5820e7a1e2118b427e Merge tag 'probes-v6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+7b667acd69e316c2ed1b47e5dcd9d093be4a843f Merge tag 'powerpc-6.15-1' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+acb4f33713b9f6cadb6143f211714c343465411c Merge tag 'm68knommu-for-v6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/gerg/m68knommu
+8de544883456d1cd86dc971e21e6e764f393c7d0 MAINTAINERS: configfs: add Andreas Hindborg as maintainer
+9e6901f17a719650be376f04d742bdbe1d7094ce fs: namespace: Avoid -Wflex-array-member-not-at-end warning
+923936efeb74b3f42e5ad283a0b9110bda102601 iomap: Fix conflicting values of iomap flags
+5c5d0d7050286e14a6ca18b8d77fc7a34f701206 dm-verity: support block number limits for different ioprio classes
+31396626eaf0be0e8edc87b801fcd205016e42d9 dt-bindings: i2c: snps,designware-i2c: describe Renesas RZ/N1D variant
 52c19f901318d32e01a36d975ea2fdd0a26f56e7 MAINTAINERS: Add dedicated entries for phy_link_topology
 fa37a8849634db2dd3545116873da8cf4b1e67c6 net: mana: Switch to page pool for jumbo frames
 fab05835688526f9de123d1e98e4d1f838da4e22 net/mlx5e: SHAMPO, Make reserved size independent of page size
@@ -1042,16 +1050,5 @@ e9e094a9734ea3bd4d4d117c915ccf129ac61ba1 wifi: ath12k: Prevent sending WMI comma
 f500ba8769128bf985ba3004c7de6a8adf8052e2 Merge branch 'ath-next'
 b7939b5ed6e85879c6fab3711d9a7085856d8d6c Merge remote-tracking branch 'mhi/mhi-next'
 d33705bb41ff786b537f8ed50a187a474db111c1 Add localversion-wireless-testing-ath
-8ac1861a8f7f1cce0bf43022a054f3fc01f6d857 wifi: ath12k: Restructure pci code
-9e4ac26caa89f2fbdfe640e4f7126a642b3e5d9a wifi: ath12k: Move copy engine config to new file
-4e3d51c656e64a01dbfe9e77cc7ade9984afeca7 wifi: ath12k: Move wifi7 target specific WMI config to new file
-7afd9bed8721cf6344e3a155b6324464fe1a67ee wifi: ath12k: Move target specific mhi define to separate file
-90ffd1465e328ec2afcef18160d35f1120c8ff31 wifi: ath12k: Rename hw.c to wifi7 chipset specific file
-ccb48c2a960e85ec2a505716513a7ce90ea9174b wifi: ath12k: Rename ahb_hif_ops to make it common
-3253a79f6aede0d82de404c215ff6bc356102908 wifi: ath12k: Restructure ahb code
-511aa952a262c1a57ccf4f3f47d8b416bb424b37 wifi: ath12k: Restructure core.c file
-93d73a718e367a9906d48d2d54f8ae267182826f wifi: ath12k: Restructure hw_init call path
-c2eae29d1eaf855d69910695de7098fdd1c518dd wifi: ath12k: Modularize ath12k into shared HW dep comp
-7720ded3a921268536e83f9f77bf2f0dcb9cfe29 wifi: ath12k: Rename ath12k_* to ath12k_wifi7*
 
---===============0920514710476203076==--
+--===============0023536038904390356==--
