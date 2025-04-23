@@ -1,27 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
-Date: Wed, 23 Apr 2025 00:10:24 -0000
-Message-Id: <174536702443.3470569.12791275278922387283@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 23 Apr 2025 00:14:22 -0000
+Message-Id: <174536726294.3472546.6714621180990294580@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zohar/linux-integrity
-user: zohar
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/next-integrity-testing
-    old: 976e5b974fef865404c474effae944e02509bd37
-    new: d3f27dac5366aa42343298b4132acfc20ee69f33
+  - ref: refs/heads/master
+    old: be2fea9c07d40a0a897580166e3d43c53ef3b75b
+    new: 5cffad0a5c8f0cc53ce9fe7cff7bc67c3a97c406
     log: |
-         b805609ecdf177c0ecf6b153c94a8704e134027d ima: rename variable the seq_file "file" to "ima_kexec_file"
-         1355a2c3442654a96fb60ec4f81cf83ff2299eb6 ima: define and call ima_alloc_kexec_file_buf()
-         0a37de6addd3a4b74fa07dcbaa3ae358d87d67b5 kexec: define functions to map and unmap segments
-         db07387a3a435e8a9e4299a1e258d9c22ad2eb4a ima: kexec: skip IMA segment validation after kexec soft reboot
-         97635c9847aba43db6b1a28566a8dbe8d5117948 ima: kexec: define functions to copy IMA log at soft boot
-         3f36f593397d8443e094656426372534fe4f1148 ima: kexec: move IMA log copy from kexec load to execute
-         0f0029704d46cdabcb731e6b6de49937144b0a5f ima: verify if the segment size has changed
-         4ce8522fe9d78e82addbe28a0ae74f8b25ef568e ima: make the kexec extra memory configurable
-         d3f27dac5366aa42343298b4132acfc20ee69f33 ima: measure kexec load and exec events as critical data
+         4dde20b1aa85d69c4281eaac9a7cfa7d2b62ecf0 libbpf: Fix event name too long error
+         e1be7c45d24434bc6e04b675ae91c049e50447be selftests/bpf: Add test for attaching uprobe with long event names
+         9b72f3e5b76007d8ef9c7743561d4c9298a086ab selftests/bpf: Add test for attaching kprobe with long event names
+         5cffad0a5c8f0cc53ce9fe7cff7bc67c3a97c406 Merge branch 'libbpf-fix-event-name-too-long-error-and-add-tests'
          
