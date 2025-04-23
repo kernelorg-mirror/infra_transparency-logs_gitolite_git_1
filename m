@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 23 Apr 2025 18:52:57 -0000
-Message-Id: <174543437791.388233.4973480715959540439@gitolite.kernel.org>
+Date: Wed, 23 Apr 2025 18:53:05 -0000
+Message-Id: <174543438513.388551.2938788198372451885@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/dontcache
+  - ref: refs/heads/kernel-6.12.24/main
     old: 5f8dbbddeb43c24a3113a4637bef8ed77b891a53
     new: ff95019f9d805c729e04530f8e81f4f24a31644e
     log: |
