@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8185702429574506136=="
+Content-Type: multipart/mixed; boundary="===============0836129169569023082=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 23 Apr 2025 02:45:50 -0000
-Message-Id: <174537635047.3608470.14647699602929520010@gitolite.kernel.org>
+Date: Wed, 23 Apr 2025 02:45:55 -0000
+Message-Id: <174537635592.3608734.1024119111458654295@gitolite.kernel.org>
 
---===============8185702429574506136==
+--===============0836129169569023082==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfs
-    old: c3f2e9898eacf127778355f15799fe7ffb17cb97
-    new: 55079b2815d75602b9f25be33f462e071fdac3b6
-    log: revlist-c3f2e9898eac-55079b2815d7.txt
+  - ref: refs/heads/kernel-6.12.24/main
+    old: 44a1e7901dd5df6c4bbae9ef87e12bbc552d878b
+    new: 593db51044481692364bf3f085c73a250e714768
+    log: revlist-44a1e7901dd5-593db5104448.txt
 
---===============8185702429574506136==
+--===============0836129169569023082==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c3f2e9898eac-55079b2815d7.txt
+Content-Disposition: attachment; filename=revlist-44a1e7901dd5-593db5104448.txt
 
 f65d57cb3b085a4ec40cd30a0d235cbb6a448bdd mm/list_lru: don't pass unnecessary key parameters
 5524f58881c58ac0599c7b9b05d0dbf4c7b2b2ba mm/list_lru: don't export list_lru_add
@@ -145,5 +145,7 @@ a12fbb64fbf5f6807e7299c3c204f3058926123b Add CONFIG_NFSD_V4_DELEG_TIMESTAMPS=n t
 bf143073ceced098206124ab8543fca62f07eef2 NFSv4: Handle fatal ENETDOWN and ENETUNREACH errors
 66353e83ad850c14466cdd70f61943c742461442 NFSv4/pnfs: Layoutreturn on close must handle fatal networking errors
 55079b2815d75602b9f25be33f462e071fdac3b6 pNFS/flexfiles: Record the RPC errors in the I/O tracepoints
+b2b273998d8abbe70e2c26024089a2db1d83cbcf Merge branch 'kernel-6.12.24/improvements' into kernel-6.12.24/main
+593db51044481692364bf3f085c73a250e714768 Merge branch 'kernel-6.12.24/nfs' into kernel-6.12.24/main
 
---===============8185702429574506136==--
+--===============0836129169569023082==--
