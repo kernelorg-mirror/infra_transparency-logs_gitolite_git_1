@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============4675551668839922263=="
+Content-Type: multipart/mixed; boundary="===============6250634908250163007=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Wed, 23 Apr 2025 13:48:13 -0000
-Message-Id: <174541609364.92416.6991802858761895416@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 23 Apr 2025 13:48:16 -0000
+Message-Id: <174541609680.92561.4187806742990569673@gitolite.kernel.org>
 
---===============4675551668839922263==
+--===============6250634908250163007==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.16
+  - ref: refs/heads/regulator-6.16
     old: 7762fdab23100514e5cb612331c96bd65126ada5
     new: 382d4ee4455234b498f201c00bfc120dc38b78c3
     log: revlist-7762fdab2310-382d4ee44552.txt
 
---===============4675551668839922263==
+--===============6250634908250163007==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1745416122 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1745416091-6093a9f57d67865e155952b843588a9fdbb48da4
+pusher C3F436CA30F5D8EB 1745416125 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1745416094-712c7a15f9e5c23d71ed95332a15a0ab9f861fb4
 
-7762fdab23100514e5cb612331c96bd65126ada5 382d4ee4455234b498f201c00bfc120dc38b78c3 refs/heads/for-6.16
+7762fdab23100514e5cb612331c96bd65126ada5 382d4ee4455234b498f201c00bfc120dc38b78c3 refs/heads/regulator-6.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgI77oACgkQJNaLcl1U
-h9DV+gf/SCGsvtTGwTBSzwYcgAc50gdwfvSapaDg1tTY+RKLetzSSY3I64lHHkMf
-Ekgn3eEcEGsrKPkaOEbjcofPMe+Upj5zGiuOpIjJ544Txghyo3bnrrRsUn6kAjll
-XIDRu35R7raqTwE6bBcCY2pXSqtnzQQoSssF1J0+rC1MrECkQuoZwVH2AkFOnI5c
-v4VKczC+CxIShA95yRe3AUbnLDGX0pkoiunpQpKtmdHA3mQb0TPbth+/lgacXKm1
-Ro3Wz59asDXry/ly/2VT/9dSbZwM2ENkP6A0HGO/jC1jHTkEyy8UH+EQeC4kqs0V
-9RsTw7GtgYWwauCyRsic1cWUI/62Fg==
-=R9im
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgI770ACgkQJNaLcl1U
+h9Dzvwf/YEmpsosSCWY7FCV2U2ypcocx/glAsXfdGvljuFT+xa6/yU8apGGM65cI
+Xg+zjkvHtiX3hEX2WtQFXOE8TEs/ocUAl3Wy9cL+1F6hGplFvyytt9nB/N0/Bj+/
+Wa9bL7upWh7IZwRbtIME0HVbdd75kp5ldpXMiWXdOHXHaw17IURtmil1G16bnW+l
+e+xm2PQf0Xzd3GdD0qv04ruIVRExtk25HznzMq3BOjzSNezcCmR/Rg+7smB0inJD
+4brWB+lPdgWAUMyQ1U0q3JY9C15rXAguH10jKDCLdgnLk89WRDEv5vX7R8/EiR6K
+6da0oRdDeu2bCjIhX1iBb/vAXiQihw==
+=W3Fq
 -----END PGP SIGNATURE-----
 
---===============4675551668839922263==
+--===============6250634908250163007==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -394,4 +394,4 @@ ccad447a3d331a239477c281533bacb585b54a98 ext4: make block validity check resiste
 e8ac7336dd62f0443a675ed80b17f0f0e6846e20 regulator: max20086: Change enable gpio to optional
 382d4ee4455234b498f201c00bfc120dc38b78c3 regulator: max20086: Fixes chip id and enable gpio
 
---===============4675551668839922263==--
+--===============6250634908250163007==--
