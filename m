@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 23 Apr 2025 02:48:27 -0000
-Message-Id: <174537650735.3610131.14545905339846426492@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Wed, 23 Apr 2025 02:49:33 -0000
+Message-Id: <174537657309.3611244.14540056257858407739@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/main
-    old: 21b01cb8e88ea200a834a2c114b5dc6aa378ac56
-    new: 84ee6e5040aef7fdf90b30dbedf7bd2cd8bd3d69
+  - ref: refs/heads/for-6.16/block
+    old: 98b995660bff011d8e00af03abd74ac7d1ac1390
+    new: 4c7d3c88c77bf227c12ef13e8461a0c940f775e8
     log: |
-         434efd3d0cdd935d46c7448061537a2adcf8aeab net: Drop hold_rtnl arg from ops_undo_list().
-         81eccc131bc1d53c9f7fa0d8c241589c514adb4e pfcp: Convert pfcp_net_exit() to ->exit_rtnl().
-         7ee32072c732799bcb7221cb97adc0e9e52e3792 ppp: Split ppp_exit_net() to ->exit_rtnl().
-         84ee6e5040aef7fdf90b30dbedf7bd2cd8bd3d69 Merge branch 'net-followup-series-for-exit_rtnl'
+         4c7d3c88c77bf227c12ef13e8461a0c940f775e8 ublk: remove unnecessary ubq checks
+         
+  - ref: refs/heads/for-next
+    old: edbaa72ba1bd21040df81f7c63851093264c7955
+    new: 98344f56952e256a86756e15c4f7481a464df01b
+    log: |
+         4c7d3c88c77bf227c12ef13e8461a0c940f775e8 ublk: remove unnecessary ubq checks
+         98344f56952e256a86756e15c4f7481a464df01b Merge branch 'for-6.16/block' into for-next
          
