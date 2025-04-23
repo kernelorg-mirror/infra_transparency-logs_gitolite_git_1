@@ -1,27 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Wed, 23 Apr 2025 19:06:10 -0000
-Message-Id: <174543517050.401268.9509307158598506098@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+Date: Wed, 23 Apr 2025 19:14:26 -0000
+Message-Id: <174543566666.406743.970221878622690395@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+user: agruen
 changes:
-  - ref: refs/heads/dt/next
-    old: 243787ad694aeb8c67d5e5c457a2bc133d7c3353
-    new: e5594b1e3c584ca39036b5397405590e9c92da26
-    log: |
-         91710d9f1e153e5231f22d084da2afce87c1abe3 dt-bindings: arm/cpus: allow up to 3 interconnects entries
-         e5594b1e3c584ca39036b5397405590e9c92da26 dt-bindings: interrupt-controller: via,vt8500-intc: Convert to YAML
-         
   - ref: refs/heads/for-next
-    old: 243787ad694aeb8c67d5e5c457a2bc133d7c3353
-    new: e5594b1e3c584ca39036b5397405590e9c92da26
+    old: 2ba70fb39555bce991cd9821407976184ea0a0c6
+    new: 4e33dbf0d64485c887b7d48e6cef339a5f82b9a2
     log: |
-         91710d9f1e153e5231f22d084da2afce87c1abe3 dt-bindings: arm/cpus: allow up to 3 interconnects entries
-         e5594b1e3c584ca39036b5397405590e9c92da26 dt-bindings: interrupt-controller: via,vt8500-intc: Convert to YAML
+         4e33dbf0d64485c887b7d48e6cef339a5f82b9a2 gfs2: Fix usage of bio->bi_status in gfs2_end_log_write
          
