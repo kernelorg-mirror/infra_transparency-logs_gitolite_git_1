@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Wed, 23 Apr 2025 22:10:35 -0000
-Message-Id: <174544623598.557793.12011018432334134020@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Wed, 23 Apr 2025 22:16:57 -0000
+Message-Id: <174544661763.562459.18446364108215207974@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/for-next
-    old: e5594b1e3c584ca39036b5397405590e9c92da26
-    new: 2b18eda58c86fd3edd64e51b8b9b0e0a718462b9
+  - ref: refs/heads/for-linus
+    old: 0747c136753ef44a3b1434a235492ef54081b96e
+    new: 442cacac2d9935a0698332a568afcb5c6ab8be17
     log: |
-         da076878764e80bd5982fd7364303c6d93dadd7c dt-bindings: arm/cpus: allow up to 3 interconnects entries
-         2b18eda58c86fd3edd64e51b8b9b0e0a718462b9 dt-bindings: interrupt-controller: via,vt8500-intc: Convert to YAML
+         442cacac2d9935a0698332a568afcb5c6ab8be17 misc: pci_endpoint_test: Defer IRQ allocation until ioctl(PCITEST_SET_IRQTYPE)
          
