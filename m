@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 23 Apr 2025 20:43:19 -0000
-Message-Id: <174544099964.482270.17948326596383423171@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Wed, 23 Apr 2025 20:43:31 -0000
+Message-Id: <174544101132.482658.15534880646801690541@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/misc
-    old: a2c6c1c23bed3506fd87e00c88540ac47832c867
-    new: 8fe743b5eba0abfbee39fe27b12acfb0df9b8a2d
+  - ref: refs/heads/master
+    old: 2d98e08d2f01dd450123ec3a4790dba9495d24ab
+    new: 6c582e7e136097cbbc92563790fe5e873f01a9fe
     log: |
-         8fe743b5eba0abfbee39fe27b12acfb0df9b8a2d PCI: Add CONFIG_MMU dependency
+         6c582e7e136097cbbc92563790fe5e873f01a9fe audio/source: Fix crash on authentication failure
          
