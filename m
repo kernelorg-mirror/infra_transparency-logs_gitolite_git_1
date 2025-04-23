@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============6257419793043334363=="
+Content-Type: multipart/mixed; boundary="===============6389305369076150148=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 23 Apr 2025 13:47:57 -0000
-Message-Id: <174541607745.91728.1837309413308739160@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 23 Apr 2025 13:48:00 -0000
+Message-Id: <174541608072.91849.10816198148131127347@gitolite.kernel.org>
 
---===============6257419793043334363==
+--===============6389305369076150148==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.16
+  - ref: refs/heads/asoc-6.16
     old: 6d7ee6de75010ed5d70f1c496070c4a7cd1968b5
     new: 076f3227255ccbbe7eb7c0424a9d20c4278dfb0c
     log: |
@@ -25,28 +25,28 @@ changes:
          076f3227255ccbbe7eb7c0424a9d20c4278dfb0c Add RK3576 SAI Audio Controller Support
          
 
---===============6257419793043334363==
+--===============6389305369076150148==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1745416106 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1745416075-ccacfdbe569363c098467f1870f332987b0c4948
+pusher C3F436CA30F5D8EB 1745416109 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1745416078-b95f455edc9c7ade9e9af340eb0048858ff6c88b
 
-6d7ee6de75010ed5d70f1c496070c4a7cd1968b5 076f3227255ccbbe7eb7c0424a9d20c4278dfb0c refs/heads/for-6.16
+6d7ee6de75010ed5d70f1c496070c4a7cd1968b5 076f3227255ccbbe7eb7c0424a9d20c4278dfb0c refs/heads/asoc-6.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgI76oACgkQJNaLcl1U
-h9BdNQf/UDlYqfcVsJsGiY1FE0xK7aolZqyPJn3HQD5wWWbSR6zP5+Pex95vuORi
-mQ/NaKkavbSjwtOjHk5nuvhgR7B6flJMmPPnDTG4rZY+E8Z5K+5mht1xsHYNz7Lf
-i15NaQxYh6+ceDP7RpFhnlDY1u+W9zU6JP3z2QnlLW82+RygBtHAADg6a+VjvVz1
-A+pErkbVafYZ2N+u6JSVZczYYjwffrM54mWYPDZWlLAeWHXgrodH3hvxNqLCjT4I
-elJOsHD7IyZLTsz+rRUpfjrO1SnZM/qDvP353xX2V57LPLpLXAewEVzQWHgfG1iS
-Orinw5EM+GxgfQJ8CFIOqSQ2gFI4RQ==
-=ls+A
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgI760ACgkQJNaLcl1U
+h9C4cAf/Xdpc6uo1bz7KpcFGx35VYSipfDlFzY0iKR3Q57S10oJEgVZKBxBUTeHd
+KgBiA1gLp/lMI+oqcN+hMH41DYO4UltVY6QcojXdiTL3/bxf08mVBVU2G0ipQoOT
+gyy/TlOLerC8EAboQLWjB8F98WnmitnmKlHHtTXEytDE0JPy0krXLYzadl+k6UMK
+TCMP+BJr3bDMk9gzJI9Xne7gtY4PVSOZElwv8FQe0ghDsVpU1E448EdlSEvMOoAF
+Y757v46cPYPC49GlVIRAOyi+4B6PQOo1T/EhbGmKd2JPEhGPEiO5F4kjA5rGCkEN
+xp15Gofk0Le1X1cQg4kVQiWiQSGrgQ==
+=y0ga
 -----END PGP SIGNATURE-----
 
---===============6257419793043334363==--
+--===============6389305369076150148==--
