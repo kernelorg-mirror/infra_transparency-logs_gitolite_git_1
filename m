@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============4306397449180036869=="
+Content-Type: multipart/mixed; boundary="===============2152322610405720823=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 23 Apr 2025 15:53:26 -0000
-Message-Id: <174542360695.214411.2180638490646353779@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 23 Apr 2025 15:53:30 -0000
+Message-Id: <174542361001.214529.11560648016036131583@gitolite.kernel.org>
 
---===============4306397449180036869==
+--===============2152322610405720823==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.15
+  - ref: refs/heads/asoc-6.15
     old: 68715cb5c0e00284d93f976c6368809f64131b0b
     new: 70ad2e6bd180f94be030aef56e59693e36d945f3
     log: |
          70ad2e6bd180f94be030aef56e59693e36d945f3 ASoC: cs42l43: Disable headphone clamps during type detection
          
 
---===============4306397449180036869==
+--===============2152322610405720823==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1745423635 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1745423605-483e3f3996f0292e9051662e92e7815179516b70
+pusher C3F436CA30F5D8EB 1745423639 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1745423608-a04e1b626fa5b6d11ec8400b16cbeab8636d0dea
 
-68715cb5c0e00284d93f976c6368809f64131b0b 70ad2e6bd180f94be030aef56e59693e36d945f3 refs/heads/for-6.15
+68715cb5c0e00284d93f976c6368809f64131b0b 70ad2e6bd180f94be030aef56e59693e36d945f3 refs/heads/asoc-6.15
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgJDRQACgkQJNaLcl1U
-h9CmyAf/aHoqhTJr+GnDW8VedB4ql9NhQyZJ+Crz2CboKBuSLhWfTNHp0hIjI3GZ
-L+v+hWF79s45JKK+NAXB8KfWc3g+HznysJIG626Flriqmx12Qunvmrc4Q0tImGCn
-Irfj9jZQFz7WSEgw40oZW8R96syxZKOkj9OvdAzjEaH+PejdAk6RRZct2RjAb5Cn
-xdVE8qk0/gDbQ+Fz5yJm2DLD7ed1kkZpdXzbt0tufE+AwlTe/7KGUMpwUXKH7bJ/
-VN9/K4LWkOWktI5xXV7tN7TAnMRMXp4ALNhXD8NQgCiM8bpRVxCI7C1N/rvF7uYf
-YdrLPJz8FNph3X4vA0L+7Z9/H0NIxg==
-=zmhY
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgJDRcACgkQJNaLcl1U
+h9C2jwf9EdqK4kiVLWdxayp9+OZRSAbrHtvV89UKY5nxL44bkjlVJB1vOIx7wFNE
+YZNHP3C1QQSPXsAIe+kWj/2U4mdFtqzwM3m0mq1QCWtJFyromLcn/r978dbH0J8x
+vnhZ/5qQFv/MwEm3JtzAtg9EoQq9d6BbS5AWp5j0K8d6293stK3ofBqb9TkOGRuj
+etjqyGPc+2rjj0Ny5+20oO2gQC3JDHnJ62a1BBmKzHp1y3V3cky7FFJjThcNG31A
+Ag/kHNaoEoqcYufC8Va5xkOIVnQVsCxO6NrhiGf91I78kBinbTubF5/4VIDOFlYc
+GsWE2HRi+HQDMk1bCYDcUlFff7CbXA==
+=J4AT
 -----END PGP SIGNATURE-----
 
---===============4306397449180036869==--
+--===============2152322610405720823==--
