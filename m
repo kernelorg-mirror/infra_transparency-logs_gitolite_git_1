@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 23 Apr 2025 01:22:34 -0000
-Message-Id: <174537135418.3535309.6145778736146857471@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 23 Apr 2025 01:28:36 -0000
+Message-Id: <174537171625.3543147.14991491828956741634@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 044412d9b67b07521414bfbad2092a63622fc087
-    new: f0f149d9747f0d597d3e04bb87be0f31e7e25c2e
+    old: 4c8925cb9db158c812e1e11f3e74b945df7c9801
+    new: b7f0ee992adf601aa00c252418266177eb7ac2bc
     log: |
-         f0f149d9747f0d597d3e04bb87be0f31e7e25c2e emulex/benet: Annotate flash_cookie as nonstring
+         ce6815585d460c610e9881a5d347c0a34da287e4 net: phylink: mac_link_(up|down)() clarifications
+         b7f0ee992adf601aa00c252418266177eb7ac2bc net: phy: leds: fix memory leak
          
