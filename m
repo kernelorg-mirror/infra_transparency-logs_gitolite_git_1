@@ -1,59 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7060044858724568714=="
+Content-Type: multipart/mixed; boundary="===============3613073071338400920=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
-Date: Wed, 23 Apr 2025 14:02:38 -0000
-Message-Id: <174541695829.108790.7326842920636732538@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 23 Apr 2025 14:07:17 -0000
+Message-Id: <174541723763.112942.16593297343807579769@gitolite.kernel.org>
 
---===============7060044858724568714==
+--===============3613073071338400920==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/linux
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/b4/slub-percpu-sheaves
-    old: 5cac2001b490033ee9a81825c92250da9924a818
-    new: b45d3192e7e8add22ddf04fef1ad8c1d39f1307f
+  - ref: refs/heads/master
+    old: 48b086245d78b25716f4299cb0dc530a5088bc6c
+    new: 82e65d14212daa511e6e240531f2a5ec8890a744
     log: |
-         914590ef8af21f6832b91bb76fa612c8a0f40a53 SLUB percpu sheaves
-         ae6866ae833b0fd49fa9308626807f46fceddaf4 slab: add opt-in caching layer of percpu sheaves
-         9dd8c9a46c7bfd5da22f9dc5794eb66cf43b97b7 slab: add sheaf support for batching kfree_rcu() operations
-         3138038ecfd662b072d6408cc3d07180a478af69 slab: sheaf prefilling for guaranteed allocations
-         6b11d782ea7abc4fd58fd455c1b3e6771c2402f8 slab: determine barn status racily outside of lock
-         8c470309109bc5588fe9be8372a3a5e1c639e9f4 tools: Add testing support for changes to rcu and slab for sheaves
-         605db7ff70f5d572ad1770a08224f77a1a7b085f tools: Add sheaves support to testing infrastructure
-         699cc3dd7c646fa901a20faa16754f22986c5d9d maple_tree: use percpu sheaves for maple_node_cache
-         8cd48ac9c321be513a5773849d8a2e1ee7c2d046 mm, vma: use sheaves for vm_area_struct cache
-         b45d3192e7e8add22ddf04fef1ad8c1d39f1307f mm, slub: skip percpu sheaves for remote object freeing
+         82e65d14212daa511e6e240531f2a5ec8890a744 6.6-stable patches
          
 
---===============7060044858724568714==
+--===============3613073071338400920==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1745416984 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
-nonce 1745416953-71bce66645d4715f8c13cd9ef6680f94c36c05a6
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1745417267 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1745417235-fde92cf0df65e8852eeb286fc6df63f5f1f7244f
 
-5cac2001b490033ee9a81825c92250da9924a818 b45d3192e7e8add22ddf04fef1ad8c1d39f1307f refs/heads/b4/slub-percpu-sheaves
+48b086245d78b25716f4299cb0dc530a5088bc6c 82e65d14212daa511e6e240531f2a5ec8890a744 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmgI8xgACgkQu+CwddJF
-iJoA6Qf8DmuQdAS3qS1SXUJnEeKBXkk9+rlPCYTG5ta1m0NiF/kShnYuOnYtiJRI
-gvFKIFL7WgWkx/8mk1T+2XK1wLNSIo33VNG5wt3xc1xXRowU1bgWdCG1L91FTz89
-An7X4QIv3kdK51OkYvY7ka8knZ/r647wQorx3G4Vkb7kx5ctTnmxTd9+J3T9jKMA
-tm22X9NACe4Y3hgvR0uEi7nxNjxcFDANmThW/3/Zg2mnivo+heXSLFhhN7BTcuek
-cEVzGvS+Ojya0gOnlmuYU2HGDWWYfSamqVf2k3FdJcbpQG/QjcMst/ebNhCBu3CG
-y4G7Bem/nbNltWNQTZ/yKzuyEdHJmw==
-=pazM
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgI9DMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OWUP/RDNzOBtaMvFgERl/8Dj
+h1IK2hO3TltGGV83zcyg5okapY8zaEzvBNuGoXuXcwpWsafPMo3J6uGueeKyJve/
+DvrbOEejLvdZ80DaAX//EGepoJLaIE4XkYIg5+LqezvRzoQmw5fCPoCalP7Y62q8
+ED9OaLifV88bb3wGTm+Lcy2sgBeFJQcIsNW3aSu+s68r7tVs/DYeK8+oOl/69JTW
+p2gcQ49QhmJQDvmL3SWLYucZysVlHLUxJ90aF3Fr4+be/rR1A0/qhuVas842IJO9
+qNpbmwmhk3LZhZPRZqFach2t/8SMYwSbhRD8owDd7NoJnqJxvjz98ZTv5lmuA+YH
+QYgsG3lJynTu1k1gUQXEYTrC64YO8ejGDmpFNdbXeHSqlka3kbbyDx2Cd41XhgwD
+pidOHb6uH3l1qnx36USXLTz6dCco9cG3ftE3TlQkmwWudMlJos5tvotKseGGHpVx
+lSsPaobH3UokOwlKONPDg2BJXUdIfuXVvM8NY+aFDeJrDoXdVc8Jave0UL+Rf8qB
+F/RwLntB7y5r2FJRNRr+ehmDcKohPs81kHDaczyhB0w39QZS9eHXm4ZG7u+dw5XA
+RLOGV8z2hg/4/8350C9g2oLDTscT03hBXgP+jLOk8xQRr3IKGj7En3ceF+Pd9Q+a
+dhksesW715Un1hEpyrc8DP0t
+=WQX5
 -----END PGP SIGNATURE-----
 
---===============7060044858724568714==--
+--===============3613073071338400920==--
