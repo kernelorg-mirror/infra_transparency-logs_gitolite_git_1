@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Wed, 23 Apr 2025 18:51:21 -0000
-Message-Id: <174543428148.387300.776976721866851491@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Wed, 23 Apr 2025 18:52:57 -0000
+Message-Id: <174543437791.388233.4973480715959540439@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arighi/linux
-user: arighi
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/scx
-    old: 27b8111a9d4b4ef86818223590905f3986146478
-    new: 3dac26c8064cefd1cf47ec1ab6c22c043672e88e
+  - ref: refs/heads/kernel-6.12.24/dontcache
+    old: 5f8dbbddeb43c24a3113a4637bef8ed77b891a53
+    new: ff95019f9d805c729e04530f8e81f4f24a31644e
     log: |
-         c39ae02eaa921612e904a24f8a97d56b5362c305 sched_ext: Track currently locked rq
-         85b1459b280ec869aab7c3bd6f499955e41747ff sched_ext: Fix missing rq lock in scx_bpf_cpuperf_set()
-         55a20f62a30b3dce2c9603bb9c3d4f5f848adf6a sched_ext: idle: Always prefer local idle CPUs before cross-node CPUs
-         ef4d233b2ae04bce6d0371760b2a0d16a165bb42 sched_ext: Avoid WAKE_SYNC migrations across LLC domains
-         e568458c4a1715ee7caa6d88db5822c39dc117d7 sched_ext: Allow per-CPU kthread wakees to stack on the same CPU
-         12a4daebf4311f48675913c910b08959a851608e sched_ext: idle: Introduce scx_bpf_get_cpumask_llc()
-         cd0400628f4b37706c14a853c6b82b520749b2cb selftests/sched_ext: Add test for scx_bpf_get_cpumask_llc()
-         3dac26c8064cefd1cf47ec1ab6c22c043672e88e sched_ext: Clarify CPU context of ops.running() and ops.stopping()
+         ec93501b078eb248a6fc075a90dac4bacb759bca filemap: Add a helper for filesystems implementing dropbehind
+         22d2dcab1f536414a4ba948246eb7964b9e66c68 filemap: Mark folios as dropbehind in generic_perform_write()
+         0bb0fc5472544944cdcde0f37ff4118243d586c6 NFS: Enable the RWF_DONTCACHE flag for the NFS client
+         ff95019f9d805c729e04530f8e81f4f24a31644e NFSD: add the ability to enable use of RWF_DONTCACHE for all nfsd IO
          
