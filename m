@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2801439957767298574=="
+Content-Type: multipart/mixed; boundary="===============1766589612037758633=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/security/vulns
-Date: Wed, 23 Apr 2025 09:46:15 -0000
-Message-Id: <174540157589.4006001.13140892092900229212@gitolite.kernel.org>
+Date: Wed, 23 Apr 2025 09:47:42 -0000
+Message-Id: <174540166262.4006741.655913565932471624@gitolite.kernel.org>
 
---===============2801439957767298574==
+--===============1766589612037758633==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,44 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 08fec8f44db59529e53fbfe581490b3a61803f8c
-    new: d20bce3aaba0bb22ca6767ba5d36c598ecf0d30e
+    old: d20bce3aaba0bb22ca6767ba5d36c598ecf0d30e
+    new: eb6c05bbc5b5e059768225763e4ee8a227157670
     log: |
-         ea76b747273bc4d50f02ef16e73cdc2dc806cbe7 tools: cve_utils: kernel: add constructor from just a git id
-         cd41873ff721437bb820ce8feb2c4099a9dca71e tools: dyad: convert to use git_full_sha
-         03a95ee10aab1fe78406a6ff1f66c062f9966665 tools: cve_search: convert to use git_full_sha
-         5fcdf097fe5c03f551c8035375238129a49da570 cve_utils: drop get_full_git_sha
-         d20bce3aaba0bb22ca6767ba5d36c598ecf0d30e tools: voting_results: fix build warning
+         eb6c05bbc5b5e059768225763e4ee8a227157670 tools: bump rusqlite version
          
 
---===============2801439957767298574==
+--===============1766589612037758633==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1745401603 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1745401692 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1745401573-06b573b49788ebcdc08f92732b0ee6076d2e8b51
+nonce 1745401662-14855d45fbf55996397ee66984b8429f44750781
 
-08fec8f44db59529e53fbfe581490b3a61803f8c d20bce3aaba0bb22ca6767ba5d36c598ecf0d30e refs/heads/master
+d20bce3aaba0bb22ca6767ba5d36c598ecf0d30e eb6c05bbc5b5e059768225763e4ee8a227157670 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgItwMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Cn4P/0HXM9f/eHllmY9gogw7
-RXWKVOIXfObv+xU/YcL51SU58roD7Xn3E832kR/kdN2N0CnSiO6Xp18m7ZdxFNCd
-gMlkM8ddZi4si3BUQBIbO12zWcdPaAI3+CmTDltLSTVwWVxUrrXl3iv2Z4eWjxiY
-aTrXoTkY0VoURVgxCvgUYniW5tB+DvAiQuUJIm2Z7qFQ7BGCPBy6DIWKq7yJuZkN
-zVqrbzQtopjxb47MVsxOoWi/mfFvvycozHIYCbePASZtVYO68yrYSWbHEqbyKKe3
-FkELhnfOJsx7M/9GNy9SUvywNh/EspDquy1fzI+s4ICA0NpEGH6AQ+Tq2wwlfx7l
-e6Z59q2phyBMGGd+vRcQiIQrbVxE2mD1uEE4OhV3vk5+XkrnBfgVx5O5zn8lSQHL
-z6rUWxYSPTdzeCfnYy4iLRNOGvQHsVG8bSCRYCb2+OaT+WZlLfQVnsap1CJPi3S8
-DyqcmxjnyWRyqzfqNKvJXgdKIboRRvoAoy5icdrTpurVU+3qEsReTV5oq7Rt7dhj
-rYA3pVkcJT0cBxX71MU7zTOuFWYA3atRMPMrvnGLk7jXEsnVdfkdmFEVSWCyT68R
-+MY04sJV9Psb8Fzm7OhG+2Dh30UF9j44M/4yFSkdWmrfUeZLBFgXb0fyMG62Up3i
-JNpnT4A+43TtWmKNdVyMNtKH
-=WcVM
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgIt1wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lvkP/2kJqz4QCbgsuyGFFEB+
+EScQZKNWcGa2FX+JSYObSbMjUFfgt90dUXfjgBaSSiMfg3jd0ltzBWzE//JuQxP3
+nQDMooX+AkKZtDd8stOYZdDxrmVLj+3ZX7rxtLlDEINQG2DiYSNarJxisK9YzJ90
+kD2ENt/Q4VBD0JL328A35o9b+qdAZAuUpHLT658QWP5Wg0TCJuGTrJEbF57D5kOs
+xXc9X1RE6xJKNgQ19OdKYVYLkewh6bVOgRSHzwFyTsFJxxbN4BPtvqFRyzX9fj0R
+KJp7SCeyS1aHEMhifOxsrVyYcZxSv9OTC60W1WTKff7u3QsyrlF+KMNxYsr1gTTp
+1npCvURbSW0Zc8nKkN3w6ciHj/XdXwUQg6hPtnzMj85OrwIBOCtFQ5lupyYIxKPD
+zaNIOzFqZNfLGg1kRxazpbTyGyTwiHTT2Onlim6N4exuOjtq5g3pHBx3GYDhik/C
+IlhN6IYZ+h+URC37Dfo9smv7b1vZ2puW8hkESfPs1C93AJlK3J563pimTCshl0Kf
+UFxbBu01pdSnSnj1BCD3X3PyZTN2a/r6+0bpn0+kOXaTyo81Dn2CabBB3nnlm2tj
+x0P4N6d+qrbWQF99sJgxFJ2RwiB+f7KLf3ItZ3muvoJ13+6Eh/6aDuTPgUbg1WiF
+YfYylQgS1Ioi7IwjS9dBs93R
+=okCW
 -----END PGP SIGNATURE-----
 
---===============2801439957767298574==--
+--===============1766589612037758633==--
