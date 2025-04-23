@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/legion/linux
-Date: Wed, 23 Apr 2025 11:50:14 -0000
-Message-Id: <174540901403.4187557.3044004636149941373@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 23 Apr 2025 11:50:19 -0000
+Message-Id: <174540901976.4187837.6252748577416165031@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/legion/linux
-user: legion
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/fix-modules-builtin-modinfo
-    old: 0000000000000000000000000000000000000000
-    new: f5422bb507a66b76b3d5fb2cdf042b97b0810e92
-  - ref: refs/tags/patchset/x86-apx/v3.0/cover
-    old: 0000000000000000000000000000000000000000
-    new: 2b6e2d97cbb8294503f28ed1101c481e83a7d423
-  - ref: refs/tags/v6.15-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 8a834b0ac9ceb354a6e0b8cf5b363edca8221bdd
+  - ref: refs/heads/asoc-6.16
+    old: 6d7ee6de75010ed5d70f1c496070c4a7cd1968b5
+    new: 076f3227255ccbbe7eb7c0424a9d20c4278dfb0c
+    log: |
+         fd55908d3278300ec4cbbacbfb07748bb9166314 ASoC: dt-bindings: add schema for rockchip SAI controllers
+         cc78d1eaabad3caf3c425c83037cd8ba1c9f2bc6 ASoC: rockchip: add Serial Audio Interface (SAI) driver
+         076f3227255ccbbe7eb7c0424a9d20c4278dfb0c Add RK3576 SAI Audio Controller Support
+         
