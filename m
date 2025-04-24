@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Thu, 24 Apr 2025 18:10:49 -0000
-Message-Id: <174551824974.1600790.6353821515963872884@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 24 Apr 2025 18:10:57 -0000
+Message-Id: <174551825714.1601097.5420080140971881380@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-next
-    old: 382d4ee4455234b498f201c00bfc120dc38b78c3
-    new: 5410aa3aa7f7dfcbdfcf94034595765d7e69ead3
+    old: fc7cceba3c87137664facb7b68b90d8758c1442d
+    new: 47d340806149d827a1d58807a1a0bcb9f304a1ff
     log: |
-         5410aa3aa7f7dfcbdfcf94034595765d7e69ead3 regulator: pf9453: convert to use maple tree register cache
+         b50a1e1f3c4630f729629a787d891d7b4348007f spi: intel: Improve resource mapping
+         47d340806149d827a1d58807a1a0bcb9f304a1ff Merge remote-tracking branch 'spi/for-6.16' into spi-next
          
