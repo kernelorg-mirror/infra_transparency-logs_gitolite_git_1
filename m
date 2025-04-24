@@ -1,29 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
-Date: Thu, 24 Apr 2025 05:36:46 -0000
-Message-Id: <174547300657.930978.6150965777605480770@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2450854130375597611=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Thu, 24 Apr 2025 05:45:44 -0000
+Message-Id: <174547354421.938965.4688530593443060644@gitolite.kernel.org>
+
+--===============2450854130375597611==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/dmaengine
-user: vkoul
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/fixes
-    old: fca280992af8c2fbd511bc43f65abb4a17363f2f
-    new: 305245a2e1d633e5f821178c98c6d6132cea2bdb
-    log: |
-         8dfa57aabff625bf445548257f7711ef294cd30e dmaengine: idxd: Fix allowing write() from different address spaces
-         305245a2e1d633e5f821178c98c6d6132cea2bdb dmaengine: ptdma: Move variable condition check to the first place and remove redundancy
-         
-  - ref: refs/heads/next
-    old: 5d099706449d54b4693a1c6bb7c2251072234508
-    new: d175222f5e90b7e1f23713378823c338fabb3258
-    log: |
-         5965fd614b18e77c56cfefbd2d747b6b1edf1497 dt-bindings: dma: qcom,bam: Document dma-coherent property
-         86071b369dbdf0a8f7e4424c4e0b613ba7b8ab5e dmaengine: ARM_DMA350 should depend on ARM/ARM64
-         a9ea01f28408169431dd3e6464ed2e48539f4280 dt-bindings: dma: fsl-edma: increase maxItems of interrupts and interrupt-names
-         d175222f5e90b7e1f23713378823c338fabb3258 dmaegnine: fsl-edma: add edma error interrupt handler
-         
+  - ref: refs/heads/dev/v6.15-rc3+/cb-ptr
+    old: 0000000000000000000000000000000000000000
+    new: e8db6336150a462b7365970d9fc26957ebfd7d72
+
+--===============2450854130375597611==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1745473572 -0700
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
+nonce 1745473530-8f33965d5e36f4c33e3575156543f0e4c2579308
+
+0000000000000000000000000000000000000000 e8db6336150a462b7365970d9fc26957ebfd7d72 refs/heads/dev/v6.15-rc3+/cb-ptr
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCaAnQJQAKCRA2KwveOeQk
+u9aQAQDTPQMtc7ODMBlRXjzTR2OLilfj+K47/RHgykbWADcmTgEA9LiQlK5hiTzC
+tKIahjP6LyNfmHmAGR2dgI59f0zIyw0=
+=SFV2
+-----END PGP SIGNATURE-----
+
+--===============2450854130375597611==--
