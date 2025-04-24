@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3894017552065757863=="
+Content-Type: multipart/mixed; boundary="===============3737279882545517257=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Thu, 24 Apr 2025 07:46:16 -0000
-Message-Id: <174548077693.1041433.11733893922221118012@gitolite.kernel.org>
+Date: Thu, 24 Apr 2025 07:46:24 -0000
+Message-Id: <174548078440.1041731.12568903864818566981@gitolite.kernel.org>
 
---===============3894017552065757863==
+--===============3737279882545517257==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-next
+  - ref: refs/heads/master
     old: 0af2f6be1b4281385b618cb86ad946eded089ac8
     new: 9c32cda43eb78f78c73aee4aa344b777714e259b
     log: revlist-0af2f6be1b42-9c32cda43eb7.txt
 
---===============3894017552065757863==
+--===============3737279882545517257==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -860,4 +860,4 @@ be913e7c4034bd7a5cbfc3d53188344dc588d45c gcc-15: get rid of misc extra NUL chara
 ac71fabf15679fc7bc56c51bc92bd4b626564c37 gcc-15: work around sequence-point warning
 9c32cda43eb78f78c73aee4aa344b777714e259b Linux 6.15-rc3
 
---===============3894017552065757863==--
+--===============3737279882545517257==--
