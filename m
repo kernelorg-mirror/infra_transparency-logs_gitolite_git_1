@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Thu, 24 Apr 2025 13:18:37 -0000
-Message-Id: <174550071769.1328799.18137547488627184558@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Thu, 24 Apr 2025 13:30:12 -0000
+Message-Id: <174550141210.1340246.3877198737031049992@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/rdma-next
-    old: 3181433ccdd695c63560eeeb3f0c990961732101
-    new: 58199fc22a1551b1f49f8ec653f84c696401b55a
+  - ref: refs/heads/master
+    old: dec3904d00dfe157132c44d0a7bc1a2ffcb1ca2b
+    new: c3b8f0994bfc56ca5cd6de29b3fa2ad913365d33
     log: |
-         58199fc22a1551b1f49f8ec653f84c696401b55a RDMA/mlx5: Remove the redundant MLX5_IB_STAGE_UAR stage
+         c3b8f0994bfc56ca5cd6de29b3fa2ad913365d33 test/fixed-seg: only use BLKSSZGET on block device
          
