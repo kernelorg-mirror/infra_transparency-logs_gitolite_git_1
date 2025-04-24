@@ -1,27 +1,65 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 24 Apr 2025 13:35:32 -0000
-Message-Id: <174550173295.1345613.17969537430982999292@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6853069843692412170=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Thu, 24 Apr 2025 13:36:34 -0000
+Message-Id: <174550179483.1346468.8853601289136433038@gitolite.kernel.org>
+
+--===============6853069843692412170==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: sashal
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 546c77a3ced8b79e49070c0905a2eae87c17c1ab
-    new: 5f2ca45656bb15b03fff75220f51c40176332a8a
+  - ref: refs/heads/driver-core-testing
+    old: 9bec944506faf10d6274c75e3a55bc107b75cea3
+    new: 8117b017f3826b18a426f22de1e001767bc50fd3
     log: |
-         1b6e68f04971761113585a4cf54bc49cca2a2ef6 cve_utils: eliminate year_from_cve
-         955172372e04fd08c823a9b55e6efca4d4e2c7fe cve_utils: clean logic duplication between get_commit_oneline and get_commit_details
-         bd1f4ecc04df363d5e3535392f28a43e054011f4 cve_create: use find_cve_by_sha
-         2e8592c366f5e7b9b76a24b34a575caa22fc1ee1 cve_utils: drop parse_kernel_version
-         5640ead15a0b15b5c095e351826d507de1f7d546 cve_classifier: support nvidia's LLM API
-         9c34afdf8a85bd7abc7f7cea86c0beb61969e3c5 cve_classifier: allow larger diffs and expand time window
-         b137ccec735c0f6a029e6fdb2e8d8c2ee2955d92 cve_classifier: use more diff context
-         1ae96e4c6c796178f85e990b4b1c2f13036f746f cve_classifier: don't treat vulnerable commits as CVE commits
-         5f2ca45656bb15b03fff75220f51c40176332a8a cve_classifier: enable thinking for Claude 3.7
+         cb271c2edfd0ab7204d5ef3c9d5ae9a0710f5bf2 rust: device: implement impl_device_context_deref!
+         fbb92b6a534081cabd75861ac9c7a8d29d8effda rust: device: implement impl_device_context_into_aref!
+         d32e4c24a7fe01195ba427c67fc15864279a3c0d rust: device: implement device context for Device
+         da6c47c6cb45ffb392e016631c08098ad2a6d418 rust: platform: preserve device context in AsRef
+         3edaefbf2b1beb9ae1cb2a842f455157b951e9f1 rust: pci: preserve device context in AsRef
+         f933b7489ffca25c9a33b65441679ee3d2943024 rust: device: implement Bound device context
+         f2a399d7b67c4a6fc0f8e59d1a9eb484efc71b5c rust: pci: move iomap_region() to impl Device<Bound>
+         f720efda2db5e609b32100c25d9cf383f082d945 rust: devres: require a bound device
+         7bd1710aac0571d4722f1429a9332c57b3a8feaf rust: dma: require a bound device
+         8117b017f3826b18a426f22de1e001767bc50fd3 Merge tag 'topic/device-context-2025-04-17' into driver-core-next
          
+
+--===============6853069843692412170==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1745501824 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
+nonce 1745501793-746329aa0675e3773b1cb390fd4f15f65a4b18d4
+
+9bec944506faf10d6274c75e3a55bc107b75cea3 8117b017f3826b18a426f22de1e001767bc50fd3 refs/heads/driver-core-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgKPoAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ymQP/2CMSRirh/D7JYws3n6z
+NQdwtVMkrIewTZzmO+L7sPdb+aVbPKdhDbguyGSqy7gD58EH78lqU4qI9Rkml/Nc
+3v8xxJhJr25ThD6MQLeusU5py38pn/YWZyDnlKMOrvGyj08Qp+sLfGIk/0iwjYR7
+SENRE+e6joQM6INhzgLNG/oC4HyehC+g5n+9vZP4f0pfdxbvLCY0YD7djFYNE8DN
+Cgm0IBbK6KsdShKwwAbPZWj8lkcvSqszOH96xXz30V+Zbx7NxOjNyjPxiQqc5vNn
+Jz/TkNvDESN2Gr7r6yID06iC6wDlJbwJSndovNcgQq4K54fPjbipkQt3PO33vy47
+AQj1+iX8bLW8isrHTzVxmZChoZvHt7w5E8lr8YBs7nd1lng3IkbW8Lj58GO0Zu/t
+LBWlyOm1eOdssehQ9jS0CTKYVOclo1ivZ0toHeEfhZkfqSjT88tiplR8koPCg2J+
+vy/qSCwLz3caCjeU422tlQPlgmNtDiPw/bhBL79hN7H25pNg9mvs5avpAXi1P7Ys
+aru3pm006EJ0ylHtuEY+Gst9jRsoYWUp1hab7lMgrf2Fybid3BGIqke63EzesTfC
+wWA1vxQrPLkvytxKYQERokOF11z1wgHo0fq+OtC6ZmdKc3DBS6G9iwvhGHFGBHlR
+rPUyVirqY9jhtLCqStXu9I0f
+=WPt3
+-----END PGP SIGNATURE-----
+
+--===============6853069843692412170==--
