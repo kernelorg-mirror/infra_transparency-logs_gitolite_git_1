@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1626243861830816236=="
+Content-Type: multipart/mixed; boundary="===============6610912069201571674=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 24 Apr 2025 18:20:05 -0000
-Message-Id: <174551880572.1610837.1976696228413238857@gitolite.kernel.org>
+Date: Thu, 24 Apr 2025 18:20:08 -0000
+Message-Id: <174551880871.1611203.15181757766649660748@gitolite.kernel.org>
 
---===============1626243861830816236==
+--===============6610912069201571674==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 491ef1117c56476f199b481f8c68820fe4c3a7c2
     new: e72e9e6933071fbbb3076811d3a0cc20e8720a5b
     log: revlist-491ef1117c56-e72e9e693307.txt
 
---===============1626243861830816236==
+--===============6610912069201571674==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -318,4 +318,4 @@ cc0dec3f659d19805fcaf8822204137c9f27a912 Merge branch 'net-stmmac-fix-timestamp-
 288537d9c9364356a4b2f6bd947f2e89cdaa353e Merge tag 'v6.15-p5' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 e72e9e6933071fbbb3076811d3a0cc20e8720a5b Merge tag 'net-6.15-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============1626243861830816236==--
+--===============6610912069201571674==--
