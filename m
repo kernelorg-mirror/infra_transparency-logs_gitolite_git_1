@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 24 Apr 2025 09:47:09 -0000
-Message-Id: <174548802953.1143739.2980384759284160624@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Thu, 24 Apr 2025 09:47:56 -0000
+Message-Id: <174548807644.1144249.5166442260590065460@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/main
-    old: 4fe09ff1a54a7ff8bb789b762b2f9a9fc0d7dba0
-    new: 607b310ada5ef4c738f9dffc758a62a9d309b084
+  - ref: refs/heads/for-6.15/upstream-fixes
+    old: c14e02e68b43f208417891c5e21308723f03e9e6
+    new: 09d546303b370113323bfff456c4e8cff8756005
     log: |
-         607b310ada5ef4c738f9dffc758a62a9d309b084 net: dp83822: Fix OF_MDIO config check
+         09d546303b370113323bfff456c4e8cff8756005 HID: thrustmaster: fix memory leak in thrustmaster_interrupts()
+         
+  - ref: refs/heads/for-next
+    old: fdf88fce9c3c84e6569df5ba948557145a9c2549
+    new: 7aad67ade8a90b27c40b318fe49faa82f5e04a0d
+    log: |
+         09d546303b370113323bfff456c4e8cff8756005 HID: thrustmaster: fix memory leak in thrustmaster_interrupts()
+         7aad67ade8a90b27c40b318fe49faa82f5e04a0d Merge branch 'for-6.15/upstream-fixes' into for-next
          
