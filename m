@@ -1,29 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============5386377905852369470=="
+Content-Type: multipart/mixed; boundary="===============7878792211580602926=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 24 Apr 2025 18:20:59 -0000
-Message-Id: <174551885925.1612579.9601782241439895258@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Thu, 24 Apr 2025 18:26:11 -0000
+Message-Id: <174551917162.1617083.7723800812587631425@gitolite.kernel.org>
 
---===============5386377905852369470==
+--===============7878792211580602926==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
   - ref: refs/heads/main
     old: bef4f1156b74721b7d111114538659031119b6f2
     new: 5565acd1e6c4a1994e0ba32281ec10b69c0be14d
     log: revlist-bef4f1156b74-5565acd1e6c4.txt
-  - ref: refs/tags/v6.15-rc3
-    old: 0000000000000000000000000000000000000000
-    new: f34da179a4517854b2ffbe4bce8c3405bd9be04e
 
---===============5386377905852369470==
+--===============7878792211580602926==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -359,4 +356,4 @@ e72e9e6933071fbbb3076811d3a0cc20e8720a5b Merge tag 'net-6.15-rc4' of git://git.k
 087a9eb9e5978e3ba362e1163691e41097e8ca20 vxlan: vnifilter: Fix unlocked deletion of default FDB entry
 5565acd1e6c4a1994e0ba32281ec10b69c0be14d Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============5386377905852369470==--
+--===============7878792211580602926==--
