@@ -1,26 +1,54 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Thu, 24 Apr 2025 10:51:56 -0000
-Message-Id: <174549191634.1203465.12191389958848207608@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3616659915650534991=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Thu, 24 Apr 2025 10:58:19 -0000
+Message-Id: <174549229966.1208219.5451725167842718846@gitolite.kernel.org>
+
+--===============3616659915650534991==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/heads/for-6.15/upstream-fixes
-    old: f32e8c8095490152b5bc5f467d5034387a4bbd1b
-    new: acae9d5b51cf8d4da87ed13140e3de4970669213
-    log: |
-         acae9d5b51cf8d4da87ed13140e3de4970669213 HID: hid-steam: Remove the unused variable connected
-         
-  - ref: refs/heads/for-next
-    old: d6c0092bd5e98c7028eb95635f5775e516148612
-    new: a55b7487b9fed06c53c20ca3a418c4c803fa30b6
-    log: |
-         acae9d5b51cf8d4da87ed13140e3de4970669213 HID: hid-steam: Remove the unused variable connected
-         a55b7487b9fed06c53c20ca3a418c4c803fa30b6 Merge branch 'for-6.15/upstream-fixes' into for-next
-         
+  - ref: refs/heads/cpufreq/arm/linux-next
+    old: a374f28700abd20e8a7d026f89aa26f759445918
+    new: 1ade7a37ca60f6e1a7124d18a653da85bbb85795
+    log: revlist-a374f28700ab-1ade7a37ca60.txt
+
+--===============3616659915650534991==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-a374f28700ab-1ade7a37ca60.txt
+
+cb271c2edfd0ab7204d5ef3c9d5ae9a0710f5bf2 rust: device: implement impl_device_context_deref!
+fbb92b6a534081cabd75861ac9c7a8d29d8effda rust: device: implement impl_device_context_into_aref!
+d32e4c24a7fe01195ba427c67fc15864279a3c0d rust: device: implement device context for Device
+da6c47c6cb45ffb392e016631c08098ad2a6d418 rust: platform: preserve device context in AsRef
+3edaefbf2b1beb9ae1cb2a842f455157b951e9f1 rust: pci: preserve device context in AsRef
+f933b7489ffca25c9a33b65441679ee3d2943024 rust: device: implement Bound device context
+f2a399d7b67c4a6fc0f8e59d1a9eb484efc71b5c rust: pci: move iomap_region() to impl Device<Bound>
+f720efda2db5e609b32100c25d9cf383f082d945 rust: devres: require a bound device
+e9f8fb7351268961e5de99b99175d8cac56feb6d rust: cpumask: Add few more helpers
+d70eac82b91803736bdd613ebb09c1988484d894 rust: cpumask: Add initial abstractions
+b0c8d8a1d67f43cb6c1ddcd719f8df2c2ae5c71d MAINTAINERS: Add entry for Rust cpumask API
+50f718cc725702086c98c7fe2f21d370d1a6c514 rust: clk: Add helpers for Rust code
+f498903aeabf5ad395c4ab850ef0a4d339bff0f6 rust: clk: Add initial abstractions
+dabf8bdbc30bc583cd5f39cf4899a40f3093ad1d rust: macros: enable use of hyphens in module names
+8f747a14ebff9a3b9c574cf946bc6eb77dfe3277 rust: cpu: Add from_cpu()
+c292b1730c5bfa75595c3ec7acc5d62d5a643230 rust: opp: Add initial abstractions for OPP framework
+9476a102b8d9e2a8d5335dcc3bbf09d76a833cff rust: opp: Add abstractions for the OPP table
+2ad3025738c687d25ba88525b9b560c2e957c099 rust: opp: Add abstractions for the configuration options
+575549a0f01c5ab2ad3f46ca6255d753a2a376be rust: cpufreq: Add initial abstractions for cpufreq framework
+5b8ea2cfe2d1b37a5cace3ecdba878be63b84f19 rust: cpufreq: Extend abstractions for policy and driver ops
+c490d1f07bec433a456c71352f42b059233cf340 rust: cpufreq: Extend abstractions for driver registration
+4051e72cae4690c5d507c3ea0c3c776b6a9f2e5d rust: opp: Extend OPP abstractions with cpufreq support
+ac657c811b063e848c12582485a5031955adb04e cpufreq: Add Rust-based cpufreq-dt driver
+1ade7a37ca60f6e1a7124d18a653da85bbb85795 Merge branch 'rust/cpufreq-dt' into cpufreq/arm/linux-next
+
+--===============3616659915650534991==--
