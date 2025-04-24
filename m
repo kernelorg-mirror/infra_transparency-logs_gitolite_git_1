@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 24 Apr 2025 18:16:57 -0000
-Message-Id: <174551861728.1606838.9312579033700981446@gitolite.kernel.org>
+Date: Thu, 24 Apr 2025 18:19:31 -0000
+Message-Id: <174551877197.1608159.17016208293716897429@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
-    old: a2d35287d0743fead67aff73deb9ecb73c98a45a
-    new: 93c59322ea4868dbee124e244f8342675220c9c0
+  - ref: refs/heads/x86/urgent
+    old: 032ce1ea9442e140a80e41078b5431d4c0fa2893
+    new: 85fd85bc025a525354acb2241beb3c5387c551ec
     log: |
-         1a97fea9db9e9b9c4839d4232dde9f505ff5b4cc perf/x86: Fix non-sampling (counting) events on certain x86 platforms
-         93c59322ea4868dbee124e244f8342675220c9c0 Merge branch into tip/master: 'perf/urgent'
+         85fd85bc025a525354acb2241beb3c5387c551ec x86/insn: Fix CTEST instruction decoding
          
