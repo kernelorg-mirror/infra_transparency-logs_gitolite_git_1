@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3322663962326590574=="
+Content-Type: multipart/mixed; boundary="===============7641129637617117953=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Thu, 24 Apr 2025 16:55:35 -0000
-Message-Id: <174551373525.1528816.2926570131640269268@gitolite.kernel.org>
+Date: Thu, 24 Apr 2025 16:55:51 -0000
+Message-Id: <174551375148.1529131.9995173799146637084@gitolite.kernel.org>
 
---===============3322663962326590574==
+--===============7641129637617117953==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/linux-pm
 user: ulfh
 changes:
-  - ref: refs/heads/next
-    old: 08c42b51c8041fbc9258d61c7bc6e0295c03a1b3
-    new: 85728ba0c52983ba45b03589ae0af7bd84384468
-    log: revlist-08c42b51c804-85728ba0c529.txt
+  - ref: refs/heads/dt
+    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
+    new: 6f8bad329e3caf6e09987bb1c611ecd15a300498
+    log: revlist-0af2f6be1b42-6f8bad329e3c.txt
 
---===============3322663962326590574==
+--===============7641129637617117953==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-08c42b51c804-85728ba0c529.txt
+Content-Disposition: attachment; filename=revlist-0af2f6be1b42-6f8bad329e3c.txt
 
 6c9567e0850be2f0f94ab64fa6512413fd1a1eb1 KVM: s390: Don't use %pK through tracepoints
 0c7fbae5bc782429c97d68dc40fb126748d7e352 KVM: s390: Don't use %pK through debug printing
@@ -859,24 +859,9 @@ be913e7c4034bd7a5cbfc3d53188344dc588d45c gcc-15: get rid of misc extra NUL chara
 05e8d261a34e5c637e37be55c26e42cf5c75ee5c gcc-15: add '__nonstring' markers to byte arrays
 ac71fabf15679fc7bc56c51bc92bd4b626564c37 gcc-15: work around sequence-point warning
 9c32cda43eb78f78c73aee4aa344b777714e259b Linux 6.15-rc3
-9861f21ff16b6cd919144dae7ff355d5145a3474 pmdomain: core: Add genpd helper to correct the usage/rejected counters
-3290e9f98a2d3c43c0c9b89a73affa3aaebe62a3 cpuidle: psci: Move the per CPU variable domain_state to a struct
-d0252ba821a3076615b34c1107854f8ff31ecd2e cpuidle: psci: Correct the domain-idlestate statistics in debugfs
-0a8a888167ddaaec7a292e5045782b8a240e6f3e pmdomain: core: Add residency reflection for domain-idlestates to debugfs
-99012014c902cd9ad85fd288d8a107f33a69855e pmdomain: core: Reset genpd->states to avoid freeing invalid data
 b5c48210341129db7158703c00e4d2155f4cf0f3 dt-bindings: power: mediatek: Support Dimensity 1200 MT6893 MTCMOS
-c699414d874a35ce6fa08f060ce4ae89d88694f5 pmdomain: Merge branch dt into next
-92d25c5742a5e922856786ca228ed52a7da60dca pmdomain: mediatek: Bump maximum bus protect data array elements
-5342f018e9e2fc164a30bf2f5ca9d59eb9b60bfb pmdomain: mediatek: Add support for Dimensity 1200 MT6893
 2798cf48d2670487f7ee22dfc5f31c07d0d3b135 dt-bindings: power: rockchip: Add support for RK3562 SoC
-bbde4283a59577c3a6df903f267e11d18ac177d9 pmdomain: Merge branch dt into next
-f89c082d44914f24dfb5b0219eb140369de5b612 pmdomain: rockchip: Add support for RK3562 SoC
-f6a305309be7b07b6ea80a775138e20fe345020b pmdomain: bcm: bcm2835-power: Use devm_clk_get_optional
 f262c73429ce6c3205fcc0fb6655d8d76725cd60 dt-bindings: power: Add Allwinner H6/H616 PRCM PPU
-34f6235428a3793b59f6de93126d835c402134ea pmdomain: Merge branch dt into next
-ca677196a91f6869169ef31252c00ceec6ac0754 pmdomain: sunxi: add H6 PRCM PPU driver
 6f8bad329e3caf6e09987bb1c611ecd15a300498 dt-bindings: power: qcom,rpmpd: Add SM4450 compatible
-6afa9ba81c3bf82b2e0be2d105e8974f6fc63c1e pmdomain: Merge branch dt into next
-85728ba0c52983ba45b03589ae0af7bd84384468 pmdomain: qcom: rpmhpd: Add SM4450 power domains
 
---===============3322663962326590574==--
+--===============7641129637617117953==--
