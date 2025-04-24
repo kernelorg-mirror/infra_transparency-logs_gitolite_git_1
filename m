@@ -1,28 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Thu, 24 Apr 2025 10:31:48 -0000
-Message-Id: <174549070812.1184934.5135286000897359039@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6630250165772937361=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 24 Apr 2025 10:32:47 -0000
+Message-Id: <174549076752.1185597.12039680594331991525@gitolite.kernel.org>
+
+--===============6630250165772937361==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.16/apple
-    old: 663704db954796c6905c5c34321eb6dba1559404
-    new: de7ad66b16b4d397593eafbbb09e9557b558a7e3
+  - ref: refs/heads/master
+    old: aedad5b68167c97828f69636f9130954fd9252bd
+    new: 08782d2bcdf3b94a234070fb4dbdf5cf615dabb3
     log: |
-         2a647d400afecdf12ba5905424e1337fbc2d6750 HID: HID_APPLETB_KBD should depend on X86
-         de7ad66b16b4d397593eafbbb09e9557b558a7e3 HID: HID_APPLETB_BL should depend on X86
+         08782d2bcdf3b94a234070fb4dbdf5cf615dabb3 drop a fs patch that is causing regressions
          
-  - ref: refs/heads/for-next
-    old: 5bbdf39694a84346b1b83f696f44299478bdfd0c
-    new: d6c0092bd5e98c7028eb95635f5775e516148612
-    log: |
-         2a647d400afecdf12ba5905424e1337fbc2d6750 HID: HID_APPLETB_KBD should depend on X86
-         de7ad66b16b4d397593eafbbb09e9557b558a7e3 HID: HID_APPLETB_BL should depend on X86
-         d6c0092bd5e98c7028eb95635f5775e516148612 Merge branch 'for-6.16/apple' into for-next
-         
+
+--===============6630250165772937361==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1745490797 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1745490765-32352e81f81dd5cf4ffd11338007f6d47645857d
+
+aedad5b68167c97828f69636f9130954fd9252bd 08782d2bcdf3b94a234070fb4dbdf5cf615dabb3 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgKE20bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3wgP/28gpwjQnDnUE+HEWZiz
+KIY6ok/9fK1MOTIVmjCGTW/FkxmEyXd4OIks4cJm+b2XZv8mWqO93DwBaw9WRfSM
+/wceJL4o5PQFEhpD0l3PNnU2+VIIMZGZoxG7lqJ1FmsgTxzxMrjld7wHh6ySq1Dc
+3euRnG9CZSirsC8s9vyMt/eEYAZR89vqrXIofUJ06W9rcTa/gAJMDwTjPbJT0bXO
+rF9DDXuZnD71ktD+4MkR1Ruvu1TvnTMehamxjbse+G0b0tNwo8Ijf9iEeOgw0Xyn
+Q+BMWyEEwERGeuM5F/wpaRJLXsovHbLkcO2t8jpvRVaOsZV4rtIw6FJg6rIJKmdC
+txXiB/6MBM0n9NrxcAVu6m+tTe/qAtCYUip4K8TvH3ksoKGb3Aula3o+UtL27OsS
+8A05YrXfFQzwdBZuQZBF2emNpGP33cP8u1twK6Vt08MwFV9LzElmxwvaZnuq7bd6
+SAAkPZv/4H8PSxGfaXkcaiWHe5oLHhniY4B550X36D75J9lF6aH6KXtClcgdhlQN
+Q8KMVnTnZTu+c+Y8n1w5IIdnoAQlaX00220xQl71Btuu1fQXE2EUgEKDRjAWk65k
+qYgpmhgtHV2cYfe2v/fW9kkIYgfFXUUZopA+Uhu7Vg31Cqayod0n78eJkodB0S8t
+Tj/HMQTONzpQDCslfu6o6XIk
+=AChM
+-----END PGP SIGNATURE-----
+
+--===============6630250165772937361==--
