@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Thu, 24 Apr 2025 00:59:50 -0000
-Message-Id: <174545639094.702079.11595508676178309585@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 24 Apr 2025 01:29:18 -0000
+Message-Id: <174545815869.731256.1848691145667399713@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/nova-debugfs
-    old: b6c23e09e97d28ec163695019c9af193266061df
-    new: 4a3811f2dc1ac74de6a62c1147769645f792fa6f
+  - ref: refs/heads/main
+    old: cd7276ecac9c64c80433fbcff2e35aceaea6f477
+    new: a484fe88062d08ba71ce84e2718ca85730ec6a10
     log: |
-         76f67e9189e68bfaa6ee85e7ab3a53214290a6fd config changes
-         4a3811f2dc1ac74de6a62c1147769645f792fa6f Make it build
+         9439db26d3ee4a897e5cd108864172531f31ce07 net: airoha: Introduce airoha_irq_bank struct
+         f252493e1835366fc25ce631c3056f900977dd11 net: airoha: Enable multiple IRQ lines support in airoha_eth driver.
+         a484fe88062d08ba71ce84e2718ca85730ec6a10 Merge branch 'enable-multiple-irq-lines-support-in-airoha_eth-driver'
          
