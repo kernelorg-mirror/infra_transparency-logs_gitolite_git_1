@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Thu, 24 Apr 2025 21:12:50 -0000
-Message-Id: <174552917030.1762582.1791682070424315181@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Thu, 24 Apr 2025 21:31:10 -0000
+Message-Id: <174553027021.1777984.14768703653697455842@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: b74d30fb9f72eafb8d98f9faa4327ce1a66ff4b0
-    new: faca96e9c9a347f64e50007261e46e0e23a263b7
+  - ref: refs/heads/dev-queue
+    old: 6c919603351e6b2c3f48810cfd9caf20d7fdc23c
+    new: 9354bc2ff4b35ba751152fc1ac90eea37a0b2ee0
     log: |
-         55b02fe5a2bd986c4188ecd4ee2a92b1c3837543 workflows: Add checkpatch action
-         faca96e9c9a347f64e50007261e46e0e23a263b7 workflows: Add lint action
+         6eae5852063b6a8726da5a4fea7ba2bbd31d8093 ice: fix Tx scheduler error handling in XDP callback
+         8439641e9a6ff065452b08e582d137353f465390 ice: create new Tx scheduler nodes for new queues only
+         f42ddb106761b9b2a82a32396090366ad4dff668 ice: fix rebuilding the Tx scheduler tree for large queue counts
+         9354bc2ff4b35ba751152fc1ac90eea37a0b2ee0 igc: fix lock order in igc_ptp_reset
          
