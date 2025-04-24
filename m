@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5779784174866226906=="
+Content-Type: multipart/mixed; boundary="===============4266569520434804863=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
-Date: Thu, 24 Apr 2025 07:46:32 -0000
-Message-Id: <174548079226.1042013.14755056031271382861@gitolite.kernel.org>
+Date: Thu, 24 Apr 2025 07:46:41 -0000
+Message-Id: <174548080135.1042423.12685539004051223160@gitolite.kernel.org>
 
---===============5779784174866226906==
+--===============4266569520434804863==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/gnss-linus
     old: 0af2f6be1b4281385b618cb86ad946eded089ac8
     new: 9c32cda43eb78f78c73aee4aa344b777714e259b
     log: revlist-0af2f6be1b42-9c32cda43eb7.txt
 
---===============5779784174866226906==
+--===============4266569520434804863==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -860,4 +860,4 @@ be913e7c4034bd7a5cbfc3d53188344dc588d45c gcc-15: get rid of misc extra NUL chara
 ac71fabf15679fc7bc56c51bc92bd4b626564c37 gcc-15: work around sequence-point warning
 9c32cda43eb78f78c73aee4aa344b777714e259b Linux 6.15-rc3
 
---===============5779784174866226906==--
+--===============4266569520434804863==--
