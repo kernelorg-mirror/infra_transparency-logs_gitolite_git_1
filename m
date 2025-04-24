@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0903773933048616880=="
+Content-Type: multipart/mixed; boundary="===============7274025296900617886=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Thu, 24 Apr 2025 12:15:54 -0000
-Message-Id: <174549695450.1276980.7530632244786317395@gitolite.kernel.org>
+Date: Thu, 24 Apr 2025 12:16:00 -0000
+Message-Id: <174549696072.1277232.562914379601062580@gitolite.kernel.org>
 
---===============0903773933048616880==
+--===============7274025296900617886==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-fixes
-    old: 6bdbb73dc8d99fbb77f5db79dbb6f108708090b4
+  - ref: refs/heads/loongarch-next
+    old: 17ba839c3c6c95562f329340e67da432309dd0d4
     new: 7661fc5dbc9118c5d38dc659fd4d911d6640dfad
-    log: revlist-6bdbb73dc8d9-7661fc5dbc91.txt
+    log: revlist-17ba839c3c6c-7661fc5dbc91.txt
 
---===============0903773933048616880==
+--===============7274025296900617886==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6bdbb73dc8d9-7661fc5dbc91.txt
+Content-Disposition: attachment; filename=revlist-17ba839c3c6c-7661fc5dbc91.txt
 
 676b902db4766aaec049d6ca4800dfa093599005 wifi: iwlwifi: mld: fix PM_SLEEP -Wundef warning
 44605365f93518eacfc500665d965e88db4791c2 iwlwifi: mld: fix building with CONFIG_PM_SLEEP disabled
@@ -1051,4 +1051,4 @@ a73348524dd12c34b407c133b3a422d13247504f LoongArch: Return NULL from huge_pte_of
 b2ab1e7df8fff530c1f110aacc93863db2213d46 LoongArch: KVM: Fully clear some CSRs when VM reboot
 7661fc5dbc9118c5d38dc659fd4d911d6640dfad LoongArch: KVM: Fix PMU pass-through issue if VM exits to host finally
 
---===============0903773933048616880==--
+--===============7274025296900617886==--
