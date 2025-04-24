@@ -1,30 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Thu, 24 Apr 2025 14:49:32 -0000
-Message-Id: <174550617295.1410817.13464239609795021312@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 24 Apr 2025 14:54:18 -0000
+Message-Id: <174550645852.1414846.13931670310632349783@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/for-6.16/io_uring
-    old: 61dceb2a1c94b3e2c5ec8335bfb7acb83c6fca6d
-    new: f6da4fee69860d4a02d14b016021ffb516a25f38
+  - ref: refs/heads/master
+    old: 6fe20f70360a01faeaf6a62f9faa395f4473130e
+    new: ac4be8fcb42eaa79aca37e174f6c06ff287e8f92
     log: |
-         62f666df765ecaf9cc1892ca056d5c071a335d85 io_uring/eventfd: dedup signalling helpers
-         da01f60f8ad144a8a0844833a8d0f0005b0a7c51 io_uring/eventfd: clean up rcu locking
-         f6da4fee69860d4a02d14b016021ffb516a25f38 io_uring/eventfd: open code io_eventfd_grab()
-         
-  - ref: refs/heads/for-next
-    old: 774f0a9e8e89e2ea528ea7d87c2417a5906c3a66
-    new: da8560c4ca77c21f861c1dac0952eb870fde8e5b
-    log: |
-         62f666df765ecaf9cc1892ca056d5c071a335d85 io_uring/eventfd: dedup signalling helpers
-         da01f60f8ad144a8a0844833a8d0f0005b0a7c51 io_uring/eventfd: clean up rcu locking
-         f6da4fee69860d4a02d14b016021ffb516a25f38 io_uring/eventfd: open code io_eventfd_grab()
-         da8560c4ca77c21f861c1dac0952eb870fde8e5b Merge branch 'for-6.16/io_uring' into for-next
+         4ce385f56434f3810ef103e1baea357ddcc6667e x86/mm: Fix _pgd_alloc() for Xen PV mode
+         76b66e8c9d159eb3d1699e0fa80ceacf9a9ae627 irqchip/sg2042-msi: Fix wrong type cast in sg2044_msi_irq_ack()
+         0128816c42b52c6ee339718621aeda85855cd3be genirq: Fix typo in IRQ_NOTCONNECTED comment
+         49916e22d9530d6cf027e635a5d824c7d698d67f timers: Remove unused __round_jiffies(_up)
+         637cf959dac97d5b7b5ce5e6cd91dd3a2c2fc324 irqchip/gic-v2m: Prevent use after free of gicv2m_get_fwnode()
+         90cd67719390872f59f54d0927e28df4ab2a75be Merge branch into tip/master: 'irq/urgent'
+         bad93fbfedda2fc153d219a7ff9a78daf0515a70 Merge branch into tip/master: 'x86/urgent'
+         6d997ae8cd9c0d9eff411cc7457624a51d2e5bea Merge branch into tip/master: 'irq/core'
+         53b861d6a5b9dad25667c3379020b1cce3cef589 Merge branch into tip/master: 'irq/drivers'
+         ac4be8fcb42eaa79aca37e174f6c06ff287e8f92 Merge branch into tip/master: 'timers/core'
          
