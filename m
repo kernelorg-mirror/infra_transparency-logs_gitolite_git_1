@@ -1,68 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============3283403211548862916=="
+Content-Type: multipart/mixed; boundary="===============8067084478908053452=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Thu, 24 Apr 2025 17:29:11 -0000
-Message-Id: <174551575122.1559485.5985559588548179098@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 24 Apr 2025 17:36:24 -0000
+Message-Id: <174551618447.1566748.11293794727196512813@gitolite.kernel.org>
 
---===============3283403211548862916==
+--===============8067084478908053452==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/kvm
-user: bonzini
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/for-linus
-    old: 78f531cd9ba18f484a8e1c1e5783c27d48cd887c
-    new: f6a90f4bb8af4603b422b075763bb6ca7fd9200d
-    log: revlist-78f531cd9ba1-f6a90f4bb8af.txt
+  - ref: refs/heads/stable-sve-5-10
+    old: e4f04fc01b2170310b33fb7fa872c42c5ca5bc8e
+    new: be02d633a119e40ce608d685bb39ee138a05abd2
+    log: revlist-e4f04fc01b21-be02d633a119.txt
 
---===============3283403211548862916==
+--===============8067084478908053452==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-e4f04fc01b21-be02d633a119.txt
 
-certificate version 0.1
-pusher Paolo Bonzini <pbonzini@redhat.com> 1745515780 -0400
-pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
-nonce 1745515749-581998ca6dfee70d59019e609501b7a5f5d3cfd9
+64e704001d4334117944aac0dcfa1f6ce983e777 KVM: arm64: Backport of SVE fixes to v5.10
+bee84f40ae2e16450f153df043f1deb8cdfab28d arm64: sve: Provide a conditional update accessor for ZCR_ELx
+ba54bf497e653c658abc18ec5713bdfd442a9b4e KVM: arm64: Provide KVM's own save/restore SVE primitives
+b6d48b3430744cb5e17b9b945abc7134ef97d9a2 KVM: arm64: Use {read,write}_sysreg_el1 to access ZCR_EL1
+75536798827b67a2a1f8c621c80d5c3ff03ad636 KVM: arm64: Introduce vcpu_sve_vq() helper
+5acb95bb8209c42cfff9155b9564b7223e34e0d3 KVM: arm64: Rework SVE host-save/guest-restore
+0c653eb7a3e00dd40f1091d2fadca1063be85a8d KVM: arm64: Get rid of host SVE tracking/saving
+b5ff50077b54567d3b898a4ef80530901b0dcd2c KVM: arm64: Always start with clearing SVE flag on load
+33b48429fec45a06554a48e97d376d1678bd9cd0 KVM: arm64: Discard any SVE state when entering KVM guests
+59918f649239a63c2436e57e9b9ad05a1cd3852a arm64/fpsimd: Track the saved FPSIMD state type separately to TIF_SVE
+1738ef2efcfa01ed8f81c81f26ccc0bd21779ac7 arm64/fpsimd: Have KVM explicitly say which FP registers to save
+b585c3892f45f80c1fc2821a1435b38983b38db0 arm64/fpsimd: Stop using TIF_SVE to manage register saving in KVM
+a1c5b9a59519e42c7203440af77ee1e036876a7a KVM: arm64: Unconditionally save+flush host FPSIMD/SVE/SME state
+1c79d1f3751e3508175429ae8688384fba011c66 KVM: arm64: Remove host FPSIMD saving for non-protected KVM
+a4e8c7b0727b6db76f158098e425bf24c4c48885 KVM: arm64: Remove VHE host restore of CPACR_EL1.ZEN
+393c7b9db7dd93cbb879b15743d80a7370fd74c0 KVM: arm64: Calculate cptr_el2 traps on activating traps
+be02d633a119e40ce608d685bb39ee138a05abd2 KVM: arm64: Eagerly switch ZCR_EL{1,2}
 
-78f531cd9ba18f484a8e1c1e5783c27d48cd887c f6a90f4bb8af4603b422b075763bb6ca7fd9200d refs/tags/for-linus
------BEGIN PGP SIGNATURE-----
-
-iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmgKdQQUHHBib256aW5p
-QHJlZGhhdC5jb20ACgkQv/vSX3jHroO2vggAmYKd0fCYiE9H7UXy48YCXpabclLN
-vfbxsnqE6vgnY4GJEbY2iH+JdHlw4Z05wNOyLaKok7f+AWLHF41NxVamkbKHJqXp
-QYtI+as0vTqqEDeOQnkM45+r0RDxMDziCZu6UXKKiO7Z6YCultqpadhn12GPdU5r
-3MCITLxR3ip9hNo2y+Ws7Cgv73eaWM/QR6KjqDnZNRe6/QcWww56aiu5wxWHBu06
-AU0I5VGNG/8g3OadElZWL18Bks1GbQBX+zRYQ29aUT/pwYEjgooSAkvehQtMD1AK
-xecDiB6BOVZZOLroA9shWyjiiOximjHR8Z1Ricy6OsU8FhHPthZ8jTn8nw==
-=8M06
------END PGP SIGNATURE-----
-
---===============3283403211548862916==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-78f531cd9ba1-f6a90f4bb8af.txt
-
-117c3b21d3c79af56750f18a54f2c468f30c8a45 arm64: Rework checks for broken Cavium HW in the PI code
-5f9e1698141a724ef63f75ee22fa9007d97de5bb KVM: arm64, x86: make kvm_arch_has_irq_bypass() inline
-6560aff981ada9aec8163509a59d8f48283263d6 KVM: SVM: Don't update IRTEs if APICv/AVIC is disabled
-7537deda36521fa8fff9133b39c46e31893606f2 KVM: SVM: Allocate IR data using atomic allocation
-9bcac97dc42d2f4da8229d18feb0fe2b1ce523a2 KVM: x86: Reset IRTE to host control if *new* route isn't postable
-bcda70c56f3e718465cab2aad260cf34183ce1ce KVM: x86: Explicitly treat routing entry type changes as changes
-f1fb088d9cecde5c3066d8ff8846789667519b7d KVM: x86: Take irqfds.lock when adding/deleting IRQ bypass producer
-07172206a26dcf3f0bf7c3ecaadd4242b008ea54 iommu/amd: Return an error if vCPU affinity is set for non-vCPU IRTE
-aae251a380fe4741594368e0d7836a082b17ae3e iommu/amd: WARN if KVM attempts to set vCPU affinity without posted intrrupts
-268cbfe65bb9096f78f98d1e092b1939d3caa382 KVM: SVM: WARN if an invalid posted interrupt IRTE entry is added
-ca4f113b0b4c2de6ffb438d5d0ebb7337877c911 KVM: x86: Do not use kvm_rip_read() unconditionally in KVM tracepoints
-38e93267ca6807fc34288ce1a9c610bf219fc0e0 KVM: x86: Do not use kvm_rip_read() unconditionally for KVM_PROFILING
-2d7124941a273c7233849a7a2bbfbeb7e28f1caa Merge tag 'kvmarm-fixes-6.15-2' of https://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
-
---===============3283403211548862916==--
+--===============8067084478908053452==--
