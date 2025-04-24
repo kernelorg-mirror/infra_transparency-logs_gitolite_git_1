@@ -1,82 +1,74 @@
-Content-Type: multipart/mixed; boundary="===============0627402202670668470=="
+Content-Type: multipart/mixed; boundary="===============7715901599297700800=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 24 Apr 2025 16:12:05 -0000
-Message-Id: <174551112523.1489491.8340233224801481472@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Thu, 24 Apr 2025 16:26:41 -0000
+Message-Id: <174551200150.1502201.6455889370799535951@gitolite.kernel.org>
 
---===============0627402202670668470==
+--===============7715901599297700800==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: cbb379553cd5b8f3c617475ccacb816dcb743df5
-    new: a00d55370f1aef38aee2700737a49cdf0a43beff
-    log: revlist-cbb379553cd5-a00d55370f1a.txt
-  - ref: refs/heads/tip/urgent
-    old: e7c5bdb860bdeb070ff54b165e45b5110c2fa80d
-    new: cdde76f513d07d84192ac32d3c21d00a41acc353
-    log: revlist-e7c5bdb860bd-cdde76f513d0.txt
+    old: a79be02bba5c31f967885c7f3bf3a756d77d11d9
+    new: e72e9e6933071fbbb3076811d3a0cc20e8720a5b
+    log: revlist-a79be02bba5c-e72e9e693307.txt
 
---===============0627402202670668470==
+--===============7715901599297700800==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cbb379553cd5-a00d55370f1a.txt
+Content-Disposition: attachment; filename=revlist-a79be02bba5c-e72e9e693307.txt
 
-cf4a928c35f4a6619352445e985f45f795596ab0 Merge branch into tip/master: 'irq/urgent'
-706d0a172898cff25c6076fcadd33ff16e247eba Merge branch into tip/master: 'perf/urgent'
-efa2bde3eb69f95873e446d9f0374f7467e81843 Merge branch into tip/master: 'timers/urgent'
-cdde76f513d07d84192ac32d3c21d00a41acc353 Merge branch into tip/master: 'x86/urgent'
-5fd11a9735e671c37621882639eaa9532c8c8027 Merge branch into tip/master: 'x86/merge'
-81537caa91f5070766f2466c0cae993ed18548f9 Merge branch into tip/master: 'perf/merge'
-a89e80e6ae88fcb7b77304ad68cf2d1946a6a3fa Merge branch into tip/master: 'irq/core'
-4f3d5dfb0edaaf8bb91fabd8a8fa451dd101b8d9 Merge branch into tip/master: 'irq/drivers'
-1cb5aecbdf036c6498247878fbd7cfc83ff25560 Merge branch into tip/master: 'irq/msi'
-6209153962ee320455b61d75a8b50a7760751447 Merge branch into tip/master: 'sched/core'
-0efb3cbe1680a0a73491b3b9fe57fd1760fac90c Merge branch into tip/master: 'timers/core'
-8b99f3840188deeb5aade749dbf49ff516f8e582 Merge branch into tip/master: 'x86/alternatives'
-e94d1611de4e78b2cb73863dfcd72592ca81b4c7 Merge branch into tip/master: 'x86/asm'
-c352d23138d3c07d26ad352ecba75384228724da Merge branch into tip/master: 'x86/boot'
-a528e20b47566b1fafe8bd55d74ee5d44b291331 Merge branch into tip/master: 'x86/bugs'
-fb9f426bbcf0a05206e2d1fd2aff4b230c8a3c6f Merge branch into tip/master: 'x86/cpu'
-38314e58272678bd75c2ab71ea1e197722708e64 Merge branch into tip/master: 'x86/entry'
-d2bbb92e2f765d0a13c4154593a3f0fbaeba1c7c Merge branch into tip/master: 'x86/fpu'
-9273ee7e64076c029f776b4a91cf9dd56e59e0b1 Merge branch into tip/master: 'x86/kconfig'
-127e2dc4e87b4d40a14ab7ac870044daec9947c7 Merge branch into tip/master: 'x86/microcode'
-030124ab1236750bbf5aa4244da556839442d3af Merge branch into tip/master: 'x86/nmi'
-1dc32705d29347453b9e9d783671799076e476a7 Merge branch into tip/master: 'x86/platform'
-a00d55370f1aef38aee2700737a49cdf0a43beff Merge branch into tip/master: 'x86/sev'
+750d0ac001e85b754404178ee8ce01cbc76a03be MAINTAINERS: Add entry for Socfpga DWMAC ethernet glue driver
+aece1cf146741761a1243746db5b72f5ece68290 Revert "crypto: testmgr - Add multibuffer acomp testing"
+91037037ee3d611ce17f39d75f79c7de394b122a net/mlx5: Fix null-ptr-deref in mlx5_create_{inner_,}ttc_table()
+fa8fd315127ca48c65e7e6692a84ffcf3d07168e net/mlx5: Move ttc allocation after switch case to prevent leaks
+b9a4c74b0ec13f54a1362d993c7d204fde5fe4e3 Merge branch 'net-mlx5-fix-null-dereference-and-memory-leak-in-ttc_table-creation'
+d3153c3b42707d26c81083b426f2ef0951bce545 net: fix the missing unlock for detached devices
+c083da15f06c808c44444bfcef3c939a07ad394b MAINTAINERS: Add ism.h to S390 NETWORKING DRIVERS
+e00c1517f2bc73186a18ac2cb1d6c5fee7e95239 MAINTAINERS: Add s390 networking drivers to NETWORKING DRIVERS
+3a7012020532c5a5bb75201a073055f029332299 Merge branch 'maintainers-update-entries-for-s390-network-driver-files'
+cc3628dcd851ddd8d418bf0c897024b4621ddc92 xen-netfront: handle NULL returned by xdp_convert_buff_to_frame()
+2768b2e2f7d25ae8984ebdcde8ec1014b6fdcd89 net: enetc: register XDP RX queues with frag_size
+1d587faa5be7e9785b682cc5f58ba8f4100c13ea net: enetc: refactor bulk flipping of RX buffers to separate function
+020f0c8b3d396ec8190948f86063e1c45133f839 net: enetc: fix frame corruption on bpf_xdp_adjust_head/tail() and XDP_PASS
+b1eac30d9bc21cdaff97b2b23000085492efc662 Merge branch 'enetc-bug-fixes-for-bpf_xdp_adjust_head-and-bpf_xdp_adjust_tail'
+30a41ed32d3088cd0d682a13d7f30b23baed7e93 net: phy: microchip: force IRQ polling mode for lan88xx
+9e8d1013b0c38910cbc9e60de74dbe883878469d net: selftests: initialize TCP header and skb payload with zero
+c03a49f3093a4903c8a93c8b5c9a297b5343b169 net: lwtunnel: disable BHs when required
+4c8925cb9db158c812e1e11f3e74b945df7c9801 net: phylink: fix suspend/resume with WoL enabled and link down
+ce6815585d460c610e9881a5d347c0a34da287e4 net: phylink: mac_link_(up|down)() clarifications
+b7f0ee992adf601aa00c252418266177eb7ac2bc net: phy: leds: fix memory leak
+4bc12818b363bd30f0f7348dd9ab077290a637ae virtio-net: disable delayed refill when pausing rx
+002ba346e3d76bb2b09448beed06c5ea1b0e06b8 crypto: scomp - Fix off-by-one bug when calculating last page
+8006aff15516a170640239c5a8e6696c0ba18d8e crypto: atmel-sha204a - Set hwrng quality to lowest possible
+d63527e109e811ef11abb1c2985048fdb528b4cb tipc: fix NULL pointer dereference in tipc_mon_reinit_self()
+491ef1117c56476f199b481f8c68820fe4c3a7c2 net: ethernet: mtk_eth_soc: net: revise NETSYSv3 hardware configuration
+13b4ece33cf9def67966bb8716783c42cec20617 mptcp: pm: Defer freeing of MPTCP userspace path manager entries
+ce72fea219c13c6485503928181c547d0e26756b selftests: mptcp: diag: use mptcp_lib_get_info_value
+d861a5dbb960c5619ea78ae9f121b9b460685429 Merge branch 'mptcp-pm-defer-freeing-userspace-pm-entries'
+3df275ef0a6ae181e8428a6589ef5d5231e58b5c net_sched: hfsc: Fix a UAF vulnerability in class handling
+6ccbda44e2cc3d26fd22af54c650d6d5d801addf net_sched: hfsc: Fix a potential UAF in hfsc_dequeue() too
+7629d1a04ad2e76709401b655263040486972c2c selftests/tc-testing: Add test for HFSC queue emptying during peek operation
+fa44042a42b86d9bb8030479c477d9f002004fc3 Merge branch 'net_sched-fix-uaf-vulnerability-in-hfsc-qdisc'
+497041d763016c2e8314d2f6a329a9b77c3797ca net: dsa: mt7530: sync driver-specific behavior of MT7531 variants
+d9e2f070d8af60f2c8c02b2ddf0a9e90b4e9220c pds_core: Prevent possible adminq overflow/stuck condition
+2567daad69cd1107fc0ec29b1615f110d7cf7385 pds_core: handle unsupported PDS_CORE_CMD_FW_CONTROL result
+f9559d818205a4a0b9cd87181ef46e101ea11157 pds_core: Remove unnecessary check in pds_client_adminq_cmd()
+3f77c3dfffc7063428b100c4945ca2a7a8680380 pds_core: make wait_context part of q_info
+4fe09ff1a54a7ff8bb789b762b2f9a9fc0d7dba0 Merge branch 'pds_core-updates-and-fixes'
+607b310ada5ef4c738f9dffc758a62a9d309b084 net: dp83822: Fix OF_MDIO config check
+73fa4597bdc035437fbcd84d6be32bd39f1f2149 net: stmmac: fix dwmac1000 ptp timestamp status offset
+7b7491372f8ec2d8c08da18e5d629e55f41dda89 net: stmmac: fix multiplication overflow when reading timestamp
+cc0dec3f659d19805fcaf8822204137c9f27a912 Merge branch 'net-stmmac-fix-timestamp-snapshots-on-dwmac1000'
+288537d9c9364356a4b2f6bd947f2e89cdaa353e Merge tag 'v6.15-p5' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
+e72e9e6933071fbbb3076811d3a0cc20e8720a5b Merge tag 'net-6.15-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============0627402202670668470==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e7c5bdb860bd-cdde76f513d0.txt
-
-16c22c56d4282584742022a37d4f79a46ca6094a virtio_pci: Use self group type for cap commands
-a940e0a685575424d33324ec7f0089045249de0a vhost: fix VHOST_*_OWNER documentation
-2e2f925fe737576df2373931c95e1a2b66efdfef virtio_ring: Fix data race by tagging event_triggered as racy for KCSAN
-183a08715af1491d381b4e22efd61578fbe05fa5 virtgpu: don't reset on shutdown
-fbd3039a64b01b769040677c4fc68badeca8e3b2 virtio_console: fix missing byte order handling for cols and rows
-5326ab737a47278dbd16ed3ee7380b26c7056ddd virtio_console: fix order of fields cols and rows
-fec0abf52609c20279243699d08b660c142ce0aa vhost_task: fix vhost_task_create() documentation
-f591cf9fce724e5075cc67488c43c6e39e8cbe27 vhost-scsi: protect vq->log_used with vq->mutex
-b182687135474d7ed905a07cc6cb2734b359e13e vhost-scsi: Fix vhost_scsi_send_bad_target()
-58465d86071b61415e25fb054201f61e83d21465 vhost-scsi: Fix vhost_scsi_send_status()
-0251ddbffbeb213f0f74ef94b2cacce580eb8d76 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
-82efd569a8909f2b13140c1b3de88535aea0b051 locking/local_lock: fix _Generic() matching of local_trylock_t
-a79be02bba5c31f967885c7f3bf3a756d77d11d9 Fix mis-uses of 'cc-option' for warning disablement
-b2d289bc3730bde1eebb069b9392b678e9d6ef7c timekeeping: Prevent coarse clocks going backwards
-cf4a928c35f4a6619352445e985f45f795596ab0 Merge branch into tip/master: 'irq/urgent'
-706d0a172898cff25c6076fcadd33ff16e247eba Merge branch into tip/master: 'perf/urgent'
-efa2bde3eb69f95873e446d9f0374f7467e81843 Merge branch into tip/master: 'timers/urgent'
-cdde76f513d07d84192ac32d3c21d00a41acc353 Merge branch into tip/master: 'x86/urgent'
-
---===============0627402202670668470==--
+--===============7715901599297700800==--
