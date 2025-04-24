@@ -1,22 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 24 Apr 2025 21:31:10 -0000
-Message-Id: <174553027021.1777984.14768703653697455842@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Thu, 24 Apr 2025 21:31:44 -0000
+Message-Id: <174553030470.1778502.11209761622980345136@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
   - ref: refs/heads/dev-queue
-    old: 6c919603351e6b2c3f48810cfd9caf20d7fdc23c
-    new: 9354bc2ff4b35ba751152fc1ac90eea37a0b2ee0
+    old: 343752d69d48c12e9ccfc309808c9eb774f30768
+    new: 3b6743c29237160283e117f8c343347d986968c5
     log: |
-         6eae5852063b6a8726da5a4fea7ba2bbd31d8093 ice: fix Tx scheduler error handling in XDP callback
-         8439641e9a6ff065452b08e582d137353f465390 ice: create new Tx scheduler nodes for new queues only
-         f42ddb106761b9b2a82a32396090366ad4dff668 ice: fix rebuilding the Tx scheduler tree for large queue counts
-         9354bc2ff4b35ba751152fc1ac90eea37a0b2ee0 igc: fix lock order in igc_ptp_reset
+         afea3a343d13d3cf0d10fc4a70ec4d4d600c0ccf ice: fix Tx scheduler error handling in XDP callback
+         389d0fac4e7019911357476fc6ca5b342914dd1a ice: create new Tx scheduler nodes for new queues only
+         8351e0edce05cb4002558384ef266d2eff107672 ice: fix rebuilding the Tx scheduler tree for large queue counts
+         b085ef51c09bac64f12cbbc0aa27972298dc58b3 igc: fix lock order in igc_ptp_reset
+         762a0d8657c60e54583d9bd3229327d66d28194f ice: redesign dpll sma/u.fl pins control
+         707b2a806a850e4eafcea696551508c63640870c ice: change SMA pins to SDP in PTP API
+         3b6743c29237160283e117f8c343347d986968c5 ice: add ice driver PTP pin documentation
          
