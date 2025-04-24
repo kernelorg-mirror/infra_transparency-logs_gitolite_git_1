@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Thu, 24 Apr 2025 17:48:50 -0000
-Message-Id: <174551693003.1578155.7830494652622105530@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
+Date: Thu, 24 Apr 2025 17:50:49 -0000
+Message-Id: <174551704957.1581513.7641013875350059581@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mingo/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/sunxi/linux
+user: wens
 changes:
-  - ref: refs/heads/WIP.x86/cpu
-    old: e75621c7c65f32a948eb39d7ad790eebca2d8a2e
-    new: d110d59bdea172326dc4f88ee93ebde525cdeed2
+  - ref: refs/heads/sunxi/dt-for-6.16
+    old: 69714722df19a7d9e81b7e8f208ca8f325af4502
+    new: 1e5a69d67d1b3c55c9b0cd3933af1436b5d52aa1
     log: |
-         13501cfc57d90f1624d9c7c17271a0bf36d9603b x86/percpu: Remove !CONFIG_X86_CX8 methods
-         d110d59bdea172326dc4f88ee93ebde525cdeed2 x86/atomics: Remove !CONFIG_X86_CX8 methods
+         8e1bf57ee67d0bcd78c6f7e713f98795e378497b arm64: dts: allwinner: h616: Add Mali GPU node
+         0836bb7e2521dac3ce764613dd9c5d22f5b368d0 arm64: dts: allwinner: h616: enable Mali GPU for all boards
+         b55f9ec87a54b67bd2dfbda1a90103af3f7934e0 arm64: dts: allwinner: Align wifi node name with bindings
+         0ecb35f6b065103bedf8fe21451cddeb259e4701 ARM: dts: allwinner: Align wifi node name with bindings
+         1e5a69d67d1b3c55c9b0cd3933af1436b5d52aa1 arm64: dts: allwinner: correct the model name for Radxa Cubie A5E
          
