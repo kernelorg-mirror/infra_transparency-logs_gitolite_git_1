@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Thu, 24 Apr 2025 21:04:37 -0000
-Message-Id: <174552867769.1754015.11256263613511958232@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+Date: Thu, 24 Apr 2025 21:11:57 -0000
+Message-Id: <174552911760.1761951.17285202176115359482@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+user: agruen
 changes:
-  - ref: refs/heads/main
-    old: 490c0af1d6b9ffca0523edcfad27ba483b9d6da3
-    new: c8af472e05cbe2545724dc5d36e4677e668ed55c
+  - ref: refs/heads/for-next
+    old: 32c0babcd258ce743d9e5f373b32d94abd053843
+    new: 2abc01ae268507e25a9036943f2e59f8a8afcf98
     log: |
-         55bd4602517e95fa371acc94f6212868f64a6537 ath12k: QCN9274 hw2.0: update board-2.bin
-         360fd45301707daa3d95be32d84132481b17db46 ath12k: WCN7850 hw2.0: update to WLAN.HMT.1.1.c5-00284-QCAHMTSWPL_V1.0_V2.0_SILICONZ-3
-         98e85bcbefbeb10d5594beb14a4e9e73aa6fe874 ath11k: IPQ5018 hw1.0: update to WLAN.HK.2.6.0.1-01300-QCAHKSWPL_SILICONZ-1
-         ce13d29c3933f77674cf45855668485c48d3eba0 ath11k: WCN6855 hw2.0: update board-2.bin
-         c8af472e05cbe2545724dc5d36e4677e668ed55c Merge branch 'robot/pr-0-1745527302' into 'main'
+         2c63986dd35fa9eb0d7d1530b5eb2244b7296e22 gfs2: deallocate inodes in gfs2_create_inode
+         0a828c3ab07d997c10a86615d3f4ac8e701745b0 gfs2: Fix usage of bio->bi_status in gfs2_end_log_write
+         2abc01ae268507e25a9036943f2e59f8a8afcf98 gfs2: Use SECTOR_SIZE and SECTOR_SHIFT
          
