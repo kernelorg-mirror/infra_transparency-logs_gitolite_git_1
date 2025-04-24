@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Thu, 24 Apr 2025 22:16:59 -0000
-Message-Id: <174553301997.1823669.15045004020735661207@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Thu, 24 Apr 2025 22:33:50 -0000
+Message-Id: <174553403015.1836696.17273268897613987570@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/for-next
-    old: 5a96a2fa24508e8417ea37685cca667cddd25b40
-    new: 66bf1e80b1ad9130a5fcb1e22c8650b339b84694
+  - ref: refs/heads/master
+    old: 0433556adc0e8846077063aee7fc8a7af4f51763
+    new: 28a3281a5e6f7b82f86cef34a6075a1d1fb58388
     log: |
-         66bf1e80b1ad9130a5fcb1e22c8650b339b84694 fbdev: nvidiafb: Correct const string length in nvidiafb_setup()
+         28a3281a5e6f7b82f86cef34a6075a1d1fb58388 foo
          
