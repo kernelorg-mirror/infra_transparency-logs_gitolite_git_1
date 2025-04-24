@@ -1,22 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Thu, 24 Apr 2025 05:33:22 -0000
-Message-Id: <174547280235.927279.1323150423636865401@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
+Date: Thu, 24 Apr 2025 05:36:46 -0000
+Message-Id: <174547300657.930978.6150965777605480770@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
-user: westeri
+repo: pub/scm/linux/kernel/git/vkoul/dmaengine
+user: vkoul
 changes:
-  - ref: refs/heads/next
-    old: 4fd7a1f0f7f281dcbdf2e42a2e30b6d2159deaf4
-    new: 36f6f7e2d4d094c828977938eaa4949ec5439380
+  - ref: refs/heads/fixes
+    old: fca280992af8c2fbd511bc43f65abb4a17363f2f
+    new: 305245a2e1d633e5f821178c98c6d6132cea2bdb
     log: |
-         cdf9956b6974206e1fd20e9bd30842df9714c5b8 thunderbolt: Introduce domain event message handler
-         785da9e6a1bd9e00d7494e37cbca2f66e48375b8 thunderbolt: Notify userspace about software CM tunneling events
-         607063f08e5c5aca9a40015843952389126b6be1 thunderbolt: Notify userspace about firmware CM tunneling events
-         36f6f7e2d4d094c828977938eaa4949ec5439380 Documentation/admin-guide: Document Thunderbolt/USB4 tunneling events
+         8dfa57aabff625bf445548257f7711ef294cd30e dmaengine: idxd: Fix allowing write() from different address spaces
+         305245a2e1d633e5f821178c98c6d6132cea2bdb dmaengine: ptdma: Move variable condition check to the first place and remove redundancy
+         
+  - ref: refs/heads/next
+    old: 5d099706449d54b4693a1c6bb7c2251072234508
+    new: d175222f5e90b7e1f23713378823c338fabb3258
+    log: |
+         5965fd614b18e77c56cfefbd2d747b6b1edf1497 dt-bindings: dma: qcom,bam: Document dma-coherent property
+         86071b369dbdf0a8f7e4424c4e0b613ba7b8ab5e dmaengine: ARM_DMA350 should depend on ARM/ARM64
+         a9ea01f28408169431dd3e6464ed2e48539f4280 dt-bindings: dma: fsl-edma: increase maxItems of interrupts and interrupt-names
+         d175222f5e90b7e1f23713378823c338fabb3258 dmaegnine: fsl-edma: add edma error interrupt handler
          
