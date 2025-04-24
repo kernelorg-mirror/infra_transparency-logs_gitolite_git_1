@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7641129637617117953=="
+Content-Type: multipart/mixed; boundary="===============7540157357005441299=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Thu, 24 Apr 2025 16:55:51 -0000
-Message-Id: <174551375148.1529131.9995173799146637084@gitolite.kernel.org>
+Date: Thu, 24 Apr 2025 16:56:18 -0000
+Message-Id: <174551377841.1529456.13974902180478183822@gitolite.kernel.org>
 
---===============7641129637617117953==
+--===============7540157357005441299==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,22 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/linux-pm
 user: ulfh
 changes:
-  - ref: refs/heads/dt
+  - ref: refs/heads/fixes
     old: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    new: 6f8bad329e3caf6e09987bb1c611ecd15a300498
-    log: revlist-0af2f6be1b42-6f8bad329e3c.txt
+    new: 9c32cda43eb78f78c73aee4aa344b777714e259b
+    log: revlist-0af2f6be1b42-9c32cda43eb7.txt
+  - ref: refs/tags/v6.15-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 8a834b0ac9ceb354a6e0b8cf5b363edca8221bdd
+  - ref: refs/tags/v6.15-rc3
+    old: 0000000000000000000000000000000000000000
+    new: f34da179a4517854b2ffbe4bce8c3405bd9be04e
 
---===============7641129637617117953==
+--===============7540157357005441299==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0af2f6be1b42-6f8bad329e3c.txt
+Content-Disposition: attachment; filename=revlist-0af2f6be1b42-9c32cda43eb7.txt
 
 6c9567e0850be2f0f94ab64fa6512413fd1a1eb1 KVM: s390: Don't use %pK through tracepoints
 0c7fbae5bc782429c97d68dc40fb126748d7e352 KVM: s390: Don't use %pK through debug printing
@@ -859,9 +865,5 @@ be913e7c4034bd7a5cbfc3d53188344dc588d45c gcc-15: get rid of misc extra NUL chara
 05e8d261a34e5c637e37be55c26e42cf5c75ee5c gcc-15: add '__nonstring' markers to byte arrays
 ac71fabf15679fc7bc56c51bc92bd4b626564c37 gcc-15: work around sequence-point warning
 9c32cda43eb78f78c73aee4aa344b777714e259b Linux 6.15-rc3
-b5c48210341129db7158703c00e4d2155f4cf0f3 dt-bindings: power: mediatek: Support Dimensity 1200 MT6893 MTCMOS
-2798cf48d2670487f7ee22dfc5f31c07d0d3b135 dt-bindings: power: rockchip: Add support for RK3562 SoC
-f262c73429ce6c3205fcc0fb6655d8d76725cd60 dt-bindings: power: Add Allwinner H6/H616 PRCM PPU
-6f8bad329e3caf6e09987bb1c611ecd15a300498 dt-bindings: power: qcom,rpmpd: Add SM4450 compatible
 
---===============7641129637617117953==--
+--===============7540157357005441299==--
