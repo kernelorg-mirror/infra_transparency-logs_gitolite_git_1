@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7772169605867476923=="
+Content-Type: multipart/mixed; boundary="===============3679300919226410656=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Thu, 24 Apr 2025 13:44:29 -0000
-Message-Id: <174550226945.1352657.3670078515624466030@gitolite.kernel.org>
+Date: Thu, 24 Apr 2025 13:44:32 -0000
+Message-Id: <174550227258.1353388.5851445674657145053@gitolite.kernel.org>
 
---===============7772169605867476923==
+--===============3679300919226410656==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host-fixes
-    old: 424eafe65647a8d6c690284536e711977153195a
-    new: 9c32cda43eb78f78c73aee4aa344b777714e259b
-    log: revlist-424eafe65647-9c32cda43eb7.txt
+  - ref: refs/heads/i2c/i2c-host-next
+    old: d9f6ec2b2e11382cd75cbde7cb6427eb4e1a5331
+    new: e6973e5ad3d2fe077d778e90bd690bc08127176e
+    log: revlist-d9f6ec2b2e11-e6973e5ad3d2.txt
 
---===============7772169605867476923==
+--===============3679300919226410656==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-424eafe65647-9c32cda43eb7.txt
+Content-Disposition: attachment; filename=revlist-d9f6ec2b2e11-e6973e5ad3d2.txt
 
 8aa580cd92843b60d4d6331f3b0a9e8409bb70eb scsi: hisi_sas: Enable force phy when SATA disk directly connected
 daff37f00c7506ca322ccfce95d342022f06ec58 scsi: hisi_sas: Fix I/O errors caused by hardware port ID changes
@@ -519,5 +519,25 @@ be913e7c4034bd7a5cbfc3d53188344dc588d45c gcc-15: get rid of misc extra NUL chara
 05e8d261a34e5c637e37be55c26e42cf5c75ee5c gcc-15: add '__nonstring' markers to byte arrays
 ac71fabf15679fc7bc56c51bc92bd4b626564c37 gcc-15: work around sequence-point warning
 9c32cda43eb78f78c73aee4aa344b777714e259b Linux 6.15-rc3
+a27e1d18d0ab63c18a3e91e8da4ef29001001bc8 i2c: qcom-geni: Use generic definitions for bus frequencies
+ae22c74693e069c66261b9f7fe0c677c0c047ac4 i2c: npcm7xx: Remove redundant ret variable
+3a6b43188a27908f3eb7c2eaad99c84e5cada15f i2c: lpc2k: Add check for clk_enable()
+49be0914a9fe5f9b244edfcabca822d0cc6ebb36 i2c: xgene-slimpro: Simplify PCC shared memory region handling
+6e2902631ca5ed9fcb72eeca775e1b45daeadc72 i2c: imx: add some dev_err_probe calls
+49a1ba3e5e5408f9e92a506e896cc92fedf30606 i2c: rzv2m: Constify struct i2c_algorithm
+cbb683d7e952f7d182966772824b901d6d3cc54b i2c: npcm: Add clock toggle recovery
+8a40940e640a182444dcecab98bb078abda71242 i2c: uniphier(-f): Replace dev_err() with dev_err_probe() in probe function
+4c728a0ac69f5c74e86feef519b09e5d70845607 i2c: uniphier: Replace dev_err() with dev_err_probe() in probe function
+999d25cc83e225bc504d8476c381e5f277659d0f i2c: via: Replace dev_err() with dev_err_probe() in probe function
+c1c2fb3c3c937c33c5ee32fc3509e3b5e4272cc8 i2c: viapro: Replace dev_err() with dev_err_probe() in probe function
+633197359787028b1356f59f78485fb633e2270b i2c: viperboard: Replace dev_err() with dev_err_probe() in probe function
+8d0485e33b4b3777d0f3aa44b60ac4156804ea51 i2c: virtio: Replace dev_err() with dev_err_probe() in probe function
+b3633c580e24108373631bcf088d485867323484 i2c: i2c-xiic: Replace dev_err() with dev_err_probe() in probe function
+ab4329eae64955ef57ee3e727907e3da70fa7876 i2c: scx200_acb: Replace dev_err() with dev_err_probe() in probe function
+23bc1acdedf1fdebc9b0144fa7f8613b4a0ccaf2 i2c: designware: Use better constants from units.h
+8118931d2d26dc9adf6121822d2bad65115171c6 i2c: pasemi: Use correct bits.h include
+9c677dfb799270edd595428c3327de94c8fff806 i2c: pasemi: Sort includes alphabetically
+e7c7a70ed19e362f82821e859409832f82e2ad0d i2c: octeon: add block-mode i2c operations
+e6973e5ad3d2fe077d778e90bd690bc08127176e i2c: omap: fix deprecated of_property_read_bool() use
 
---===============7772169605867476923==--
+--===============3679300919226410656==--
