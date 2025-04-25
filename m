@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hare/nvme
-Date: Fri, 25 Apr 2025 09:43:18 -0000
-Message-Id: <174557419838.2640039.11711679708344175213@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/a.hindborg/linux
+Date: Fri, 25 Apr 2025 09:44:39 -0000
+Message-Id: <174557427954.2641391.1931543552409220142@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hare/nvme
-user: hare
+repo: pub/scm/linux/kernel/git/a.hindborg/linux
+user: a.hindborg
 changes:
-  - ref: refs/heads/dhchap-keyring.v1
-    old: 0000000000000000000000000000000000000000
-    new: fc1b90eafbdaf8052a185aff868ccd937bf283bb
+  - ref: refs/heads/configfs-next
+    old: 052ddfe405efcad262278301abf809e31f08605c
+    new: eae324ca644554d5ce363186bee820a088bb74ab
+    log: |
+         eae324ca644554d5ce363186bee820a088bb74ab configfs: Add CONFIGFS_ATTR_PERM helper
+         
