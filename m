@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5242798339242753440=="
+Content-Type: multipart/mixed; boundary="===============6256481257268228958=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 25 Apr 2025 19:17:49 -0000
-Message-Id: <174560866900.3151978.2766804541234250933@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Fri, 25 Apr 2025 19:18:10 -0000
+Message-Id: <174560869031.3152457.12402782854407459205@gitolite.kernel.org>
 
---===============5242798339242753440==
+--===============6256481257268228958==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 85447f68a1e3e6a237e3052a60a70a1593604e26
     log: revlist-f6cb70bda3a4-85447f68a1e3.txt
 
---===============5242798339242753440==
+--===============6256481257268228958==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -90,4 +90,4 @@ be8aefad33760dd8bc0499988f4e4f3e779851d0 perf tests record: Cleanup improvements
 c756441c3524acea4bbc119cd51d9e822b39a5f0 perf vendor events arm64: Drop hip08 PublicDescription if same as BriefDescription
 85447f68a1e3e6a237e3052a60a70a1593604e26 MAINTAINERS: Add hisilicon PMU JSON events under its entry
 
---===============5242798339242753440==--
+--===============6256481257268228958==--
