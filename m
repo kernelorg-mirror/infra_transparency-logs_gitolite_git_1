@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5758691620280467031=="
+Content-Type: multipart/mixed; boundary="===============2595307060147733165=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 25 Apr 2025 14:09:09 -0000
-Message-Id: <174559014911.2876933.1476006451334884242@gitolite.kernel.org>
+Date: Fri, 25 Apr 2025 14:14:19 -0000
+Message-Id: <174559045993.2881393.8972273064970737942@gitolite.kernel.org>
 
---===============5758691620280467031==
+--===============2595307060147733165==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,43 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: 13f3e2c27161adc0c30c5a3ed72691e175163729
-    new: 31c2d3287abd2af7f7876fea4b646829afef1c36
+  - ref: refs/heads/staging-linus
+    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
+    new: c6e8d85fafa7193613db37da29c0e8d6e2515b13
     log: |
-         e0138bbbb38a2a838ff9d90eeb88ad953b608fc1 staging: rtl8723bs: remove multiple blank lines
-         31c2d3287abd2af7f7876fea4b646829afef1c36 staging: sm750fb: change `enum dpms` to snake_case
+         98698ca0e58734bc5c1c24e5bbc7429f981cd186 staging: bcm2835-camera: Initialise dev in v4l2_dev
+         2ca34b508774aaa590fc3698a54204706ecca4ba staging: axis-fifo: Correct handling of tx_fifo_depth for size validation
+         c6e8d85fafa7193613db37da29c0e8d6e2515b13 staging: axis-fifo: Remove hardware resets for user errors
          
 
---===============5758691620280467031==
+--===============2595307060147733165==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1745590176 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1745590487 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1745590145-b57b1dc5ed11334a30afdbac78daec9c3640a19a
+nonce 1745590456-519a936ca2f65a2ef22a7e8da6f6a41ce9d1030d
 
-13f3e2c27161adc0c30c5a3ed72691e175163729 31c2d3287abd2af7f7876fea4b646829afef1c36 refs/heads/staging-testing
+0af2f6be1b4281385b618cb86ad946eded089ac8 c6e8d85fafa7193613db37da29c0e8d6e2515b13 refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgLl6EbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BhcQAJqoDWiL7Z8VlF5Vsact
-sCiNJNIZDnRrIj6RPXwjXnHQVOJdwGuP6U6HnWatreJLyely9YoVX4Cnaa4aqfwt
-QnkF88WOWX9aSg49kVsf/Upe6pBSByTLSTEucPXwB+kQ7x6lmyPlRXzd38n0VxxC
-B3sw8Y7uRUSXjokL8p2+2aXCiNn+OeNXjPR35pjz+I0Y1IRsz98pFcy4rFiSYqRX
-XOgdcbt2cZpaRtqLuFtmlU0vy9FvnQ9e1TbOeomjuMqWpYlWx4vl+KNtXj/Wwo3H
-v/1nATZ0DLyUOIfZBlBSsNHGzC69JsjKAOTRxQszf+4t+T71g7C9qrLRattK7ghj
-6EF/r8omyA79e1tuDO8nV1KUq2slCQ2izIIfYGBVnqTKXUgvV9NMloXAXR0dN5LD
-ZxEPihWTjq2HO5u+OFqlWDmtAiC3DomariLb4VGqZXloNAvspRHTD0HQOwu7xXsk
-fC8tp3mu0JugSBmNUqjCg+wekT9vTnp8pr+Bc8Hx/6ZjOlAm2L3Ds1R5jlF1vWqN
-zRDWQNdY5tDtYg2Xu4aqOeK2unw7mxUXNo9faIKcL1QwwXyA4b5rc1yZUvSq2Ms8
-plrFZUirLORCRrF3x/oZF814obBEOjT4srW19lwQSxq4CTp5aO4oT8AIOuj7Iwas
-frawI6vT99865w3D/49vZ9oo
-=y4fP
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgLmNcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OpgP/2z9FMx7sCsqKyOfwz1h
+Y4fncx4O+HsdCX8L1jN3GQ0ZZOBTlZSyL9grv/DFQZoqbkXJ32leIQ9vLMXE/+bn
+zVRvGmUo0Z4jP8fb35sXENVqbi87NadhRzHxwgXvlqF7yepL/0txbGm46fo3chs/
+GS2lZKfUOjc38YDfrA8LHhnMOhTF6dPWEpp4/qdw4QITfGE/IhuOO5noDF+dHdnL
+p9Rt51uBpwuI2FMMuJLnoJgM+vVc50cXLSoLGA2sa7r6fjkWeAEuDj/eHVqtJxjG
+vQRgclA+SuStUvad5vqiSwsVQvicylDeqDvBe5iW5NihcA75gD7C2BDRJhnBDsuP
+CN2AiZYugcZPCwO9zwZbxCwhoMufFhxxpYxGSnFYo4CbGTRUZh59fXE/1PFLQujj
+47TPtMScok6dQXQvKDIC1GFYg2n6DWVoZABWOse+nnhtTGJisQgMTjxEHnwF40Ms
+6bk7SLj21kYdPqCme4V0Sb7a0VZl7B1V1F/khKmjJ9M38/1GsXh2jx4u/0zGRl8J
+i89rH5jaS0eecpqg4zFc2PKF9qvptqwEgLawF0JIHqNGHScOAkMAkA9+C/2OKwyW
+DKPWmIx5ctsEjd8PvbYXWEmQpb5y98gmhl/lcipK31buwcHYxJTYxGjLpa0x3n3l
+S0KbJ2cxr4nLNBjv4eLOVuOB
+=9BUw
 -----END PGP SIGNATURE-----
 
---===============5758691620280467031==--
+--===============2595307060147733165==--
