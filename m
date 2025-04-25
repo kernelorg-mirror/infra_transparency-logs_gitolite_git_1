@@ -1,25 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Fri, 25 Apr 2025 01:32:24 -0000
-Message-Id: <174554474429.1994265.13160028767997820112@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 25 Apr 2025 01:33:10 -0000
+Message-Id: <174554479003.1994803.3977478950657524026@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/crc-next
-    old: 096e73d0c3ba08ca9102de0ef573d5c9f106459f
-    new: cd24c72fb9d2cefdd719ffcd830313dc6ff11889
+  - ref: refs/heads/main
+    old: f74d14a7dfb10ba908ce799d2176817d097713c7
+    new: 4acf6d4f6afc3478753e49c495132619667549d9
     log: |
-         7f1ff093e2df36ddd5aeac2afae5e89bb15d3bcd arm/crc: drop "glue" from filenames
-         340e5acd171501748ed47e334576fbad2ab1591d arm64/crc: drop "glue" from filenames
-         a884ca10cf1da04eeed9a1167661a7fd777a0708 powerpc/crc: drop "glue" from filenames
-         7870b65b75d03f0693e274b124f7effd6a6caaef powerpc/crc: rename crc32-vpmsum_core.S to crc-vpmsum-template.S
-         c1f4e6d41e904565e54e3a13ea32a24eef61afb1 s390/crc: drop "glue" from filenames
-         a4afe3be553e3778b0074788515fd1a7e5ef2595 sparc/crc: drop "glue" from filenames
-         cd24c72fb9d2cefdd719ffcd830313dc6ff11889 x86/crc: drop "glue" from filenames
+         f71c549b26a33fd62f1e9c7deeba738bfc73fbfc netdevsim: Mark NAPI ID on skb in nsim_rcv
+         2b6d490b82668bbd0a9201c27154890f842e985f selftests: drv-net: Factor out ksft C helpers
+         2593a0a1446ae4bf651b0af1c42a421f511b4839 selftests: drv-net: Test that NAPI ID is non-zero
+         4acf6d4f6afc3478753e49c495132619667549d9 Merge branch 'fix-netdevim-to-correctly-mark-napi-ids'
          
