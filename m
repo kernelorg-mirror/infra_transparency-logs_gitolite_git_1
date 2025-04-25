@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6100010186153326331=="
+Content-Type: multipart/mixed; boundary="===============5799381574218225419=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Fri, 25 Apr 2025 08:06:34 -0000
-Message-Id: <174556839497.2388659.15374471649968451303@gitolite.kernel.org>
+Date: Fri, 25 Apr 2025 08:08:34 -0000
+Message-Id: <174556851456.2389634.15906731459606034033@gitolite.kernel.org>
 
---===============6100010186153326331==
+--===============5799381574218225419==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,29 +16,28 @@ repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
   - ref: refs/heads/WIP.x86/cpu
-    old: 770cf0fb40c3214cd2186bdfc283a28682d1b6f3
-    new: 91209527ec43e404ad2e254a3aa530f950214da2
-    log: revlist-770cf0fb40c3-91209527ec43.txt
+    old: 91209527ec43e404ad2e254a3aa530f950214da2
+    new: cdd158723e5731fff4f424e46219f93994f60ac8
+    log: revlist-91209527ec43-cdd158723e57.txt
 
---===============6100010186153326331==
+--===============5799381574218225419==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-770cf0fb40c3-91209527ec43.txt
+Content-Disposition: attachment; filename=revlist-91209527ec43-cdd158723e57.txt
 
-a6b8d4849d109e3ed270774799c39ace91cd968c x86/cpu: Remove CONFIG_MWINCHIP3D/MWINCHIPC6
-b8f97b5ae05e242cbcf5fbaa9d35c06c2f407946 x86/cpu: Remove the CONFIG_X86_INVD_BUG quirk
-8460a9bc6d1295e60e38d5b7d8c62409eb19c6bb x86/cpu, cpufreq: Remove AMD ELAN support
-990c6ac28d0d3b97f4b67d836c305997f98dab5f x86/fpu: Remove MATH_EMULATION and related glue code
-9dd95178779780a4f41bb0b9c91684b45e71af38 x86/fpu: Remove the 'no387' boot option
-46eede26a48427289d3915253179c22b06e2cafb x86/fpu: Remove the math-emu/ FPU emulation library
-349fe92fbe00fac68ea67dd0339b9238e967dae8 x86/platform: Remove CONFIG_X86_RDC321X support
-904404cf5e5e9dfb96f0b5bacc263ac4dd50e568 x86/cpu: Remove CPU_SUP_UMC_32 support
-7e7b964b7e8dc0df206a956299fd4887deb86630 x86/cpu: Remove TSC-less CONFIG_M586 support
-b890d4f534125b72f504aca91317f7c06922c602 x86/cpu: Make CONFIG_X86_TSC unconditional
-691109d983d7d2bfc9f34d4d6251d088cf0ef558 x86: Remove !CONFIG_X86_TSC code
-c3b2d3836f4476891712c2d72991719e8774d136 x86/cpu: Make CONFIG_X86_CX8 unconditional
-c06ee017fb214d2a170cb6eb6357e7092bd585c8 x86/percpu: Remove !CONFIG_X86_CX8 methods
-91209527ec43e404ad2e254a3aa530f950214da2 x86/atomics: Remove !CONFIG_X86_CX8 methods
+3a3568c0682a9324f107cd2eb046f2573f6bc72e x86/cpu: Remove CPU_SUP_UMC_32 support
+6d42d82560cdd0c10db25a3d922062c9a4ee28f8 x86/cpu: Remove TSC-less CONFIG_M586 support
+07e7b3c1a1ac1ef4590f7575a77572ed2356eb43 x86/cpu, x86/platform, watchdog: Remove CONFIG_X86_RDC321X support
+7fbc5f037bf7b253d7a73332d6ca66894426758a x86/cpu: Remove the CONFIG_X86_INVD_BUG quirk
+c960e543d626419c8010c219632348e175d7fa50 x86/cpu, cpufreq: Remove AMD ELAN support
+d788914a7d9b7aa2c44f723eb93c574274d5229e x86/fpu: Remove MATH_EMULATION and related glue code
+3a4c231aff7bdb96e7a32124ff3510ff58765a8d x86/fpu: Remove the 'no387' boot option
+3ed7f3537e563a191149a0247744223f24fa5f77 x86/fpu: Remove the math-emu/ FPU emulation library
+6e50331aa058ebd117cf2365a6abedd104a7c01c x86/cpu: Make CONFIG_X86_TSC unconditional
+bc6acebe31ab25a9cc048b22ad5caf7e0395eed0 x86: Remove !CONFIG_X86_TSC code
+4e7cda2863f04971c57a081709aec634955c5f50 x86/cpu: Make CONFIG_X86_CX8 unconditional
+fb1387c8d24f2fc5ad47a7ffb336c2958b4e62dc x86/percpu: Remove !CONFIG_X86_CX8 methods
+cdd158723e5731fff4f424e46219f93994f60ac8 x86/atomics: Remove !CONFIG_X86_CX8 methods
 
---===============6100010186153326331==--
+--===============5799381574218225419==--
