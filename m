@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Fri, 25 Apr 2025 17:02:30 -0000
-Message-Id: <174560055025.3031172.15997186872870100012@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
+Date: Fri, 25 Apr 2025 17:10:25 -0000
+Message-Id: <174560102578.3038688.10028038934502576994@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/cxl/cxl
+user: djiang
 changes:
-  - ref: refs/heads/nova-gsp-fixups
-    old: 3c644ae2c2ce62eb56dcb40793be6665bd8a9682
-    new: 1e547155a57c0bda03334f9d704f62eb1f6f4822
-    log: |
-         1e547155a57c0bda03334f9d704f62eb1f6f4822 nova-core: vbios: Replace try_from with new()
-         
+  - ref: refs/tags/cxl-fixes-6.15-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 170c049b21cfbd5992c0368bdb1eb19100f8557b
