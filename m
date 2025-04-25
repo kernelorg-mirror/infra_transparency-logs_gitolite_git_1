@@ -1,48 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============8082653450205671630=="
+Content-Type: multipart/mixed; boundary="===============5487404546691718712=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 25 Apr 2025 18:57:50 -0000
-Message-Id: <174560747050.3134249.2916582034626711713@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Fri, 25 Apr 2025 19:08:28 -0000
+Message-Id: <174560810854.3142636.13780568852307891793@gitolite.kernel.org>
 
---===============8082653450205671630==
+--===============5487404546691718712==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/broonie/spi
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 6e3597f12dce7d5041e604fec3602493e38c330a
-    new: 7deea5634a67700d04c2a0e6d2ffa0e2956fe8ad
-    log: revlist-6e3597f12dce-7deea5634a67.txt
+  - ref: refs/heads/for-6.15
+    old: 8e4d3d8a5e51e07bd0d6cdd81b5e4af79f796927
+    new: 15cfe55ec58ace931a73e19e5367598734ceb074
+    log: |
+         71cfb1f88f772fb92a68a4ab85b16ccd5cc8535d spi: dt-bindings: snps,dw-apb-ssi: Merge duplicate compatible entry
+         0889c4d28ad79b55ee8cf3c818e9d86203ace8f0 spi: dt-bindings: snps,dw-apb-ssi: Add compatible for SOPHGO SG2042 SoC
+         15cfe55ec58ace931a73e19e5367598734ceb074 Add basic SPI support for SOPHGO SG2042 SoC
+         
+  - ref: refs/heads/for-6.16
+    old: b50a1e1f3c4630f729629a787d891d7b4348007f
+    new: 18197e98353d931fc7bb2bb9ec671d3aa407831d
+    log: |
+         18197e98353d931fc7bb2bb9ec671d3aa407831d spi: meson-spicc: add DMA support
+         
 
---===============8082653450205671630==
+--===============5487404546691718712==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6e3597f12dce-7deea5634a67.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-3d7aa0c7b4e96cd460826d932e44710cdeb3378b nvmet: fix out-of-bounds access in nvmet_enable_port
-c0e473a0d226479e8e925d5ba93f751d8df628e9 block: fix race between set_blocksize and read paths
-e03463d247ddac66e71143468373df3d74a3a6bd block: hoist block size validation code to a separate function
-5533bc70aedc7c9872841ac8649344f8cbc6bc4c selftests: ublk: fix recover test
-8f503637898313c048bf21e386e09be90e30cc31 selftests: ublk: remove useless 'delay_us' from 'struct dev_ctx'
-6c9c56d94ea98755e52fae7970627f4ff1ca0f5c Merge tag 'nvme-6.15-2025-04-24' of git://git.infradead.org/nvme into block-6.15
-5e16f1a68d28965c12b6fa227a306fef8a680f84 io_uring: don't duplicate flushing in io_req_post_cqe
-1d019736b6f812bebf3ef89d6e887d06e2a822fc selftests: ublk: common: fix _get_disk_dev_t for pre-9.0 coreutils
-7b720c720253e2070459420b2628a7b9ee6733b3 block: never reduce ra_pages in blk_apply_bdi_limits
-c63202140d4b411d27380805c4d68eb11407b7f2 block: move blkdev_{get,put} _no_open prototypes out of blkdev.h
-d13b7090b2510abaa83a25717466decca23e8226 block: remove the backing_inode variable in bdev_statx
-5f33b5226c9d92359e58e91ad0bf0c1791da36a1 block: don't autoload drivers on stat
-c4d2519c6ad854dc2114e77d693b3cf1baf55330 block: don't autoload drivers on blk-cgroup configuration
-edd43f4d6f50ec3de55a0c9e9df6348d1da51965 io_uring: fix 'sync' handling of io_fallback_tw()
-d6aa0c178bf81f30ae4a780b2bca653daa2eb633 ublk: call ublk_dispatch_req() for handling UBLK_U_IO_NEED_GET_DATA
-f40139fde5278d81af3227444fd6e76a76b9506d ublk: fix race between io_uring_cmd_complete_in_task and ublk_cancel_cmd
-0537fbb6ecae857ee862e88a6ead1ff2f918b67f Merge tag 'io_uring-6.15-20250424' of git://git.kernel.dk/linux
-7deea5634a67700d04c2a0e6d2ffa0e2956fe8ad Merge tag 'block-6.15-20250424' of git://git.kernel.dk/linux
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1745608137 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1745608106-27cb0daee5c3e0c73da2b4ebdb327fce81d4ff82
 
---===============8082653450205671630==--
+8e4d3d8a5e51e07bd0d6cdd81b5e4af79f796927 15cfe55ec58ace931a73e19e5367598734ceb074 refs/heads/for-6.15
+b50a1e1f3c4630f729629a787d891d7b4348007f 18197e98353d931fc7bb2bb9ec671d3aa407831d refs/heads/for-6.16
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgL3ckACgkQJNaLcl1U
+h9Aeegf7Bo4iUBXqfpOy1/HMcY97A8+sYASXVcbNXGnzC7EitHFmH1kTzFnyEGF4
+cNQmBTWLkGXvqGZWXhpHt5ukNHN/6MPQK/jmmdCl+FAjfUh7JV4hjOWAaso4AK9K
+KyPAYQLByeAiVF9gFjDFop+iH/I+C7q+pzmj0yBse115StsSy29WGtzhq3qjXjns
+whT/OS5MV0Nc04BRLTqzBvdL+behSOfRlXqE9ndo794khuOQg1jhddcXcUnNp51i
+sSCNpOWFzjkwXRkFmH4p9Rn5xwLoG4XvpHFR+/ZY4OtkLW+SKHAevWdH4fu7JXzZ
+bM8VKrkJeEhmKbaztFU8JwbCiLuIEg==
+=nuex
+-----END PGP SIGNATURE-----
+
+--===============5487404546691718712==--
