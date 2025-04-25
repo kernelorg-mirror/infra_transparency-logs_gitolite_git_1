@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============7424875024203387277=="
+Content-Type: multipart/mixed; boundary="===============7594817835246537678=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 25 Apr 2025 12:15:48 -0000
-Message-Id: <174558334816.2778523.5884229559059166248@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 25 Apr 2025 12:15:51 -0000
+Message-Id: <174558335151.2778721.16462207337849526197@gitolite.kernel.org>
 
---===============7424875024203387277==
+--===============7594817835246537678==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.16
+  - ref: refs/heads/asoc-6.16
     old: 402dda23a3197c1cd43504351c2c3077d0472646
     new: cce73cf7cc56a04cf0dd1e1f93b4002c00751ebe
     log: |
@@ -25,28 +25,28 @@ changes:
          cce73cf7cc56a04cf0dd1e1f93b4002c00751ebe MAINTAINERS: ASoC: Simplify references to Cirrus Logic include files
          
 
---===============7424875024203387277==
+--===============7594817835246537678==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1745583377 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1745583346-4cebf25f2f6199469e8796bd4decea21c3793f83
+pusher C3F436CA30F5D8EB 1745583380 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1745583349-2f8ee328f47226cabc5e6eb13119efe1c594b9c0
 
-402dda23a3197c1cd43504351c2c3077d0472646 cce73cf7cc56a04cf0dd1e1f93b4002c00751ebe refs/heads/for-6.16
+402dda23a3197c1cd43504351c2c3077d0472646 cce73cf7cc56a04cf0dd1e1f93b4002c00751ebe refs/heads/asoc-6.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgLfREACgkQJNaLcl1U
-h9ACBwf+KD+ihVtexsmLQreYkbwHlhI3+BqFaEZKjH86VywkGJ6uxLBZ1wPcqbS/
-xUs31mFg/CuGYY5lCjSFtVwMn8L3OUXj1CJT0+XJy8+fQ4IT2pCATHjBo+xfJYDt
-a28TLhQZ+sXy/tDcwYoQvmkX2+mMo3c/xpByhqR95bvAUlpEQ9qkXzQMkNH0RDLl
-lTO6DeXwpb0ptfiUxtHTOpCWaAaDmG3ff/xKVe1XlxsmgxXfsyizQVhi5vvpANUR
-swHHHZcM14FHqtlNXBfOoqvQeK8WvYCnNpnlpoxStxfpoSlTv/jvsMQo/t8yfJd4
-J9usf6/xOX3DR6/dB3fIAXJETNlEVA==
-=iB1W
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgLfRQACgkQJNaLcl1U
+h9Bhqgf+L7xZC9rQqLKWRWGqV58RzH2MYZzIKyatll6TIaURxFHaUMETvhSh13e6
+GYlCgshE3C8o3a+CBJfXJa7KaWoDOOXvTSaHo7v0YWpKIxe0HixCMaFlymCHdrEK
+qjJEm3nMZts4Kbq1jyKvOqEovL6klrgmfkN0mH0K3h+mWMQYtI1ppj7ik1zJeuZA
+SJciVWjXSvHU1QMY3sT4f3UCPv4txqx17hoDezIu7U47JmWm+GDsPxnpueFkqCMG
+V+XCI75FvvPQM9kKqlsZ6N1SUbt7IYu1QvEl7TD5md8NnTracDPyvCf/wnuSCMUq
+OJEEreDXz3UEbZtxVXK5TZjlwNVCpg==
+=n8m6
 -----END PGP SIGNATURE-----
 
---===============7424875024203387277==--
+--===============7594817835246537678==--
