@@ -1,24 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 25 Apr 2025 01:29:23 -0000
-Message-Id: <174554456359.1988693.11623287551701966153@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Fri, 25 Apr 2025 01:32:24 -0000
+Message-Id: <174554474429.1994265.13160028767997820112@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/main
-    old: 3a4236c379543878e957004d3415152d28955481
-    new: f74d14a7dfb10ba908ce799d2176817d097713c7
+  - ref: refs/heads/crc-next
+    old: 096e73d0c3ba08ca9102de0ef573d5c9f106459f
+    new: cd24c72fb9d2cefdd719ffcd830313dc6ff11889
     log: |
-         4134bb726efdc7a4a64bd0f776359cb0564564b2 net: ip_gre: Fix spelling mistake "demultiplexor" -> "demultiplexer"
-         bc2550b4e195754fbb24aac1f012d3dd9e3b4edc tcp: fastopen: note that a child socket was created
-         2b13042d3636327eb50c8a0ee06f629d52d1b8fb tcp: fastopen: pass TFO child indication through getsockopt
-         a764e8114d2d80e8b0f453084b2e9fcc6454b7a1 Merge branch 'tcp-fastopen-observability'
-         d57ee99831e336576359beb26e2b140511c99106 net: ethernet: mtk_wed: annotate RCU release in attach()
-         f74d14a7dfb10ba908ce799d2176817d097713c7 tools: ynl: fix the header guard name for OVPN
+         7f1ff093e2df36ddd5aeac2afae5e89bb15d3bcd arm/crc: drop "glue" from filenames
+         340e5acd171501748ed47e334576fbad2ab1591d arm64/crc: drop "glue" from filenames
+         a884ca10cf1da04eeed9a1167661a7fd777a0708 powerpc/crc: drop "glue" from filenames
+         7870b65b75d03f0693e274b124f7effd6a6caaef powerpc/crc: rename crc32-vpmsum_core.S to crc-vpmsum-template.S
+         c1f4e6d41e904565e54e3a13ea32a24eef61afb1 s390/crc: drop "glue" from filenames
+         a4afe3be553e3778b0074788515fd1a7e5ef2595 sparc/crc: drop "glue" from filenames
+         cd24c72fb9d2cefdd719ffcd830313dc6ff11889 x86/crc: drop "glue" from filenames
          
