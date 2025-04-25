@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Fri, 25 Apr 2025 17:15:37 -0000
-Message-Id: <174560133702.3043119.93353785388896357@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
+Date: Fri, 25 Apr 2025 17:25:44 -0000
+Message-Id: <174560194482.3051331.9784970340357836556@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/linux/kernel/git/mark/linux
+user: mark
 changes:
-  - ref: refs/heads/testing/wfamnae-next20250424
-    old: 30c4e7ffd35f0c54c6cf00d2fa2d9ac8d94bddae
-    new: 4071e3b27534386d0ec17f3778bab3b44434561d
+  - ref: refs/heads/arm64/fpsimd/more-fixes
+    old: 7a0f2c62e161c8642c893e9556bbe9811f605323
+    new: 488d3b89d1ba11d0f7ddc130dab43e13b4cd5636
     log: |
-         e2b589a01d3026c5cb38dd54b7655c470c16c78c PCI: hv: Avoid multiple -Wflex-array-member-not-at-end warnings
-         4071e3b27534386d0ec17f3778bab3b44434561d wifi: iwlwifi: mvm: d3: Avoid -Wflex-array-member-not-at-end warnings
+         62ba35273d55425a83f3647e185892260ed5370c WIP: TODO: fix arch_dup_task_struct()
+         488d3b89d1ba11d0f7ddc130dab43e13b4cd5636 WIP: TODO: Fix sve_set_common()
          
