@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 25 Apr 2025 12:16:20 -0000
-Message-Id: <174558338038.2779739.14635507734844514644@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Fri, 25 Apr 2025 12:16:45 -0000
+Message-Id: <174558340543.2780253.16243745168443546291@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: 2f6005456c208e6b11fbc5f0112a335073499ff6
-    new: cce73cf7cc56a04cf0dd1e1f93b4002c00751ebe
+  - ref: refs/heads/for-linus
+    old: 460b14b0929fa9f658a7e159ef646ce456962ab0
+    new: 722a6ad4867ce8c4cb131a3371d0b5389a75dee0
     log: |
-         402dda23a3197c1cd43504351c2c3077d0472646 ASoC: Merge up fixes
-         171eb6f71e9e3ba6a7410a1d93f3ac213f39dae2 ASoC: meson: meson-card-utils: use of_property_present() for DT parsing
-         3b41574eea3922f98038fe161d30c16a13188dcc ASoC: Intel: avs: Fix NULL pointer dereference
-         cce73cf7cc56a04cf0dd1e1f93b4002c00751ebe MAINTAINERS: ASoC: Simplify references to Cirrus Logic include files
+         722a6ad4867ce8c4cb131a3371d0b5389a75dee0 spi: spi-qpic-snand: propagate errors from qcom_spi_block_erase()
+         
+  - ref: refs/heads/for-next
+    old: 47d340806149d827a1d58807a1a0bcb9f304a1ff
+    new: be12e0a2a8be84c58b0ae5809c869c4b50582e77
+    log: |
+         722a6ad4867ce8c4cb131a3371d0b5389a75dee0 spi: spi-qpic-snand: propagate errors from qcom_spi_block_erase()
+         be12e0a2a8be84c58b0ae5809c869c4b50582e77 Merge remote-tracking branch 'spi/for-6.16' into spi-next
          
