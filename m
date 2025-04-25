@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 25 Apr 2025 16:27:14 -0000
-Message-Id: <174559843440.2999275.1506862735327458300@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Fri, 25 Apr 2025 16:31:47 -0000
+Message-Id: <174559870747.3003410.2967106293138944272@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
+repo: pub/scm/linux/kernel/git/bpf/bpf
 user: andrii
 changes:
   - ref: refs/heads/master
-    old: 64821d25f05ac468d435e61669ae745ce5a633ea
-    new: 91dbac4076537b464639953c055c460d2bdfc7ea
+    old: f88886de0927a2adf4c1b4c5c1f1d31d2023ef74
+    new: 548762f05d19c5542db7590bcdfb9be1fb928376
     log: |
-         91dbac4076537b464639953c055c460d2bdfc7ea Use thread-safe function pointer in libbpf_print
+         548762f05d19c5542db7590bcdfb9be1fb928376 samples/bpf: Fix compilation failure for samples/bpf on LoongArch Fedora
          
