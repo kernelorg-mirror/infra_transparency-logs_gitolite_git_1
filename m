@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Fri, 25 Apr 2025 00:51:50 -0000
-Message-Id: <174554231011.1950962.283009154490637258@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 25 Apr 2025 01:08:34 -0000
+Message-Id: <174554331488.1968093.2499259701663786205@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 28a3281a5e6f7b82f86cef34a6075a1d1fb58388
-    new: 176339b115969f824d95ec843962e0906e626bbd
+  - ref: refs/heads/main
+    old: ffb0c5c4cf666380b8786e87c954967cbad22ad8
+    new: 3a4236c379543878e957004d3415152d28955481
     log: |
-         176339b115969f824d95ec843962e0906e626bbd foo
+         3a4236c379543878e957004d3415152d28955481 rxrpc: rxgk: Fix some reference count leaks
          
