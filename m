@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Fri, 25 Apr 2025 01:25:02 -0000
-Message-Id: <174554430218.1982057.15202838842381284715@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Fri, 25 Apr 2025 01:26:52 -0000
+Message-Id: <174554441214.1984831.5021232380347551657@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/libata/linux
-user: dlemoal
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/for-next
-    old: 23a8e0df49b851ed1ad12f87c52d113be8a6b6e2
-    new: 11533932f5c506f66281a147ff8469b97c108ab4
+  - ref: refs/heads/todo
+    old: fc9f575a617f95b9e2674dbf7eafa11651919207
+    new: bf9e3f96d873e81f8f2353d908086dc88fc92259
     log: |
-         11533932f5c506f66281a147ff8469b97c108ab4 ata: libata-scsi: Do not set the INFORMATION field twice for ATA PT
+         bf9e3f96d873e81f8f2353d908086dc88fc92259 What's cooking (2025/04 #07)
          
