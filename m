@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8445860620621170697=="
+Content-Type: multipart/mixed; boundary="===============6312868542082393891=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 25 Apr 2025 20:50:47 -0000
-Message-Id: <174561424796.3234520.17702720622078043718@gitolite.kernel.org>
+Date: Fri, 25 Apr 2025 20:50:50 -0000
+Message-Id: <174561425053.3234660.3684879844574270283@gitolite.kernel.org>
 
---===============8445860620621170697==
+--===============6312868542082393891==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: e72e9e6933071fbbb3076811d3a0cc20e8720a5b
     new: 49ba1ca2e0cc6d2eb0667172f1144c8b85907971
     log: revlist-e72e9e693307-49ba1ca2e0cc.txt
 
---===============8445860620621170697==
+--===============6312868542082393891==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -50,4 +50,4 @@ eacc77a73275895eca0e3655dc6c671853500e2e net/mlx5e: Use custom tunnel header for
 90538d23278a981e344d364e923162fce752afeb net/mlx5: E-switch, Fix error handling for enabling roce
 49ba1ca2e0cc6d2eb0667172f1144c8b85907971 Merge branch 'mlx5-misc-fixes-2025-04-23'
 
---===============8445860620621170697==--
+--===============6312868542082393891==--
