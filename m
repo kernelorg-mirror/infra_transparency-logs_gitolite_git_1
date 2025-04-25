@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Fri, 25 Apr 2025 16:31:47 -0000
-Message-Id: <174559870747.3003410.2967106293138944272@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Fri, 25 Apr 2025 16:32:35 -0000
+Message-Id: <174559875551.3004010.9645743260229820141@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: andrii
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/master
-    old: f88886de0927a2adf4c1b4c5c1f1d31d2023ef74
-    new: 548762f05d19c5542db7590bcdfb9be1fb928376
+  - ref: refs/heads/enumeration
+    old: d24eba726aadf8778f2907dd42281c6380b0ccaa
+    new: 3e7d050cb72983302617a68f197e089bfc40b546
     log: |
-         548762f05d19c5542db7590bcdfb9be1fb928376 samples/bpf: Fix compilation failure for samples/bpf on LoongArch Fedora
+         e86c7278eba8d37997aa0fa7ed22db6777339de4 XXX Revert "iommu/amd: Prevent binding other PCI drivers to IOMMU PCI devices"
+         3e7d050cb72983302617a68f197e089bfc40b546 PCI: Limit visibility of match_driver flag to PCI core
          
