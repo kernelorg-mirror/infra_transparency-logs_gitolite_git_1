@@ -1,50 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============0393808840583932931=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 25 Apr 2025 12:16:01 -0000
-Message-Id: <174558336148.2779186.433190469390282527@gitolite.kernel.org>
-
---===============0393808840583932931==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 25 Apr 2025 12:16:20 -0000
+Message-Id: <174558338038.2779739.14635507734844514644@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.15
-    old: 460b14b0929fa9f658a7e159ef646ce456962ab0
-    new: 722a6ad4867ce8c4cb131a3371d0b5389a75dee0
+  - ref: refs/heads/for-next
+    old: 2f6005456c208e6b11fbc5f0112a335073499ff6
+    new: cce73cf7cc56a04cf0dd1e1f93b4002c00751ebe
     log: |
-         722a6ad4867ce8c4cb131a3371d0b5389a75dee0 spi: spi-qpic-snand: propagate errors from qcom_spi_block_erase()
+         402dda23a3197c1cd43504351c2c3077d0472646 ASoC: Merge up fixes
+         171eb6f71e9e3ba6a7410a1d93f3ac213f39dae2 ASoC: meson: meson-card-utils: use of_property_present() for DT parsing
+         3b41574eea3922f98038fe161d30c16a13188dcc ASoC: Intel: avs: Fix NULL pointer dereference
+         cce73cf7cc56a04cf0dd1e1f93b4002c00751ebe MAINTAINERS: ASoC: Simplify references to Cirrus Logic include files
          
-
---===============0393808840583932931==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1745583390 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1745583359-e54728ebd018fa072b88ec530a2aa1cb400da474
-
-460b14b0929fa9f658a7e159ef646ce456962ab0 722a6ad4867ce8c4cb131a3371d0b5389a75dee0 refs/heads/spi-6.15
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgLfR4ACgkQJNaLcl1U
-h9Dkfwf/c2H/Pp47NwYUJFOQs6qeynRC5saFu7efqeAMGh8ToWu8HWqPz3VvfwiK
-dfLRqIe8qC3XQTN+nBjaZeXx7FiKzVr/pixMJeZFXMsgSm3cc1gAblgWp+ZO9spr
-h8OmvxEZ3qrjt6HFCizaeFqY1cvmHT/LptLr/RJQYue6n28rqrP8DasuWwVI8XLx
-iQIDJyvC9qkLVsFCTbGlqYHQP5mZWciyTw2ejrvv/4DzFBP7729unWgWSgVFJs9o
-V+KsioOdAHyQeiCtXz6grsh/bDVsitvp4urAnNQxMVknVOciYmOdbvJwYZxjT9C7
-fA8tQ8PpUsROHaH7BTMgjASSisnNVA==
-=bEgF
------END PGP SIGNATURE-----
-
---===============0393808840583932931==--
