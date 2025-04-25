@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8169069024294425253=="
+Content-Type: multipart/mixed; boundary="===============1683337990803967113=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Fri, 25 Apr 2025 15:37:17 -0000
-Message-Id: <174559543732.2954864.7684964914337425433@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Fri, 25 Apr 2025 15:38:30 -0000
+Message-Id: <174559551017.2955622.17645799722201582682@gitolite.kernel.org>
 
---===============8169069024294425253==
+--===============1683337990803967113==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
-    old: fda061bda66278f285cf315e40a8656859b3225e
+    old: 24c0c35d4640052c61ed539a777bd3bd60d62bbf
     new: 81b63b8f3014f9cd773cc997350ad2e4f7179ca4
-    log: revlist-fda061bda662-81b63b8f3014.txt
+    log: revlist-24c0c35d4640-81b63b8f3014.txt
 
---===============8169069024294425253==
+--===============1683337990803967113==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fda061bda662-81b63b8f3014.txt
+Content-Disposition: attachment; filename=revlist-24c0c35d4640-81b63b8f3014.txt
 
 30f2a75e7e99ac13a62abadff28df007e65d66bc perf vendor events: Update alderlake events/metrics
 4ab1fef5dc6641f8d80d93cee5faba7aa0725be3 perf vendor events: Update AlderlakeN events/metrics
@@ -98,4 +98,4 @@ e0a534375b640f5fd1937cfeac5214438a060879 perf build-id: Change sprintf functions
 fd6b14fbf664ad35aaa31bd1c92ac62fd2f90cac perf jitdump: Directly mark the jitdump DSO
 81b63b8f3014f9cd773cc997350ad2e4f7179ca4 perf record: Make --buildid-mmap the default
 
---===============8169069024294425253==--
+--===============1683337990803967113==--
