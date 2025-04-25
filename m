@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============8802857498077775166=="
+Content-Type: multipart/mixed; boundary="===============8565387005434239960=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 25 Apr 2025 22:58:38 -0000
-Message-Id: <174562191863.3343833.6421383068337355031@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 25 Apr 2025 22:58:41 -0000
+Message-Id: <174562192185.3343954.2584746955108348170@gitolite.kernel.org>
 
---===============8802857498077775166==
+--===============8565387005434239960==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.16
+  - ref: refs/heads/spi-6.16
     old: 64c05a1d66193b3a40ad1f29c3d8ba5483e4e0dc
     new: df8c5ad0f56635341bfe3f59ef7c6473e389abc4
     log: |
@@ -30,28 +30,28 @@ changes:
          df8c5ad0f56635341bfe3f59ef7c6473e389abc4 Configure Clocks, Add Internal DMA support
          
 
---===============8802857498077775166==
+--===============8565387005434239960==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1745621947 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1745621916-74de882f46c370bd7f6a3eff3fe7f91117a06d19
+pusher C3F436CA30F5D8EB 1745621950 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1745621919-bcca5c246b85f11b5f9f940e1ceb79eecc8a12d3
 
-64c05a1d66193b3a40ad1f29c3d8ba5483e4e0dc df8c5ad0f56635341bfe3f59ef7c6473e389abc4 refs/heads/for-6.16
+64c05a1d66193b3a40ad1f29c3d8ba5483e4e0dc df8c5ad0f56635341bfe3f59ef7c6473e389abc4 refs/heads/spi-6.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgME7sACgkQJNaLcl1U
-h9Bhbwf/ayjXltRGRdlRE5YTgShFr25S+P4toLflIZuf6WX1MesXvS+ztqhzV2jq
-mBtIr2WLtcJWaXqKG6/u1BgawrFTfgQ7uvTyyyBnH5+RZt3tAsvoxTNSo3fWqjfP
-z553qEEB0LX1RS8q2s5gomRX1RqEyZo1ycqevLIAVXm0Lny+3mGYXFD2RLRgnB8S
-obOnDZT4iYqZJkW9bvkiQBouoxsdjduPDS9MxlyWCLJBm7S6TKkFstpylwKTrNZV
-pOOlzE/5Jj5pBh1uK0oHh8uCswuKxc2ttVcnXg2wAi2K7O9YN0uB0KzBstVMxT5U
-Cz75HjrvunM/1j/kXCh3XBYEGKniHA==
-=iTyz
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgME74ACgkQJNaLcl1U
+h9CQlwf8DGdVL/HR7d1KxmlhYtpGismHbF38pnT85ZZ6PC0+uP7Bco10uJef4GQE
+LiB/dzsqerOn9RhzcXeEZGLj6KIdGvU75CKdcLC3MIyAjGX1DJu82XU6MjdO9T7O
+V1rJ6iDvMvCla6imVgXMacjujXrH4inmsKyt0c5Z3YAbLLrgefXi/2A5k6dXs+jU
+HPJEU4ggtykmQHb3HieErcT57kfghWTR6PgWi5RaOLb2c8F801Yh/ShHiZpRrYe7
+RBH3m7hvd8ZzzyJRleOlEVkxD87ZifGio84iMooMbzb2985ybov7h9A1N2Zd3uYQ
+slWgH/w01N74AfCh7/0D9B+9X/G6Lw==
+=GAHg
 -----END PGP SIGNATURE-----
 
---===============8802857498077775166==--
+--===============8565387005434239960==--
