@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 25 Apr 2025 01:08:34 -0000
-Message-Id: <174554331488.1968093.2499259701663786205@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
+Date: Fri, 25 Apr 2025 01:24:52 -0000
+Message-Id: <174554429286.1981658.13770394896069123281@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/libata/linux
+user: dlemoal
 changes:
-  - ref: refs/heads/main
-    old: ffb0c5c4cf666380b8786e87c954967cbad22ad8
-    new: 3a4236c379543878e957004d3415152d28955481
+  - ref: refs/heads/for-6.16
+    old: 23a8e0df49b851ed1ad12f87c52d113be8a6b6e2
+    new: 11533932f5c506f66281a147ff8469b97c108ab4
     log: |
-         3a4236c379543878e957004d3415152d28955481 rxrpc: rxgk: Fix some reference count leaks
+         11533932f5c506f66281a147ff8469b97c108ab4 ata: libata-scsi: Do not set the INFORMATION field twice for ATA PT
          
