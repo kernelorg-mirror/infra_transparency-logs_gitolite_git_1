@@ -1,47 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============2964782968702299299=="
+Content-Type: multipart/mixed; boundary="===============8537008388309025120=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Fri, 25 Apr 2025 02:55:08 -0000
-Message-Id: <174554970859.2066997.6036210009026103017@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
+Date: Fri, 25 Apr 2025 03:22:15 -0000
+Message-Id: <174555133590.2087780.9083008403374305355@gitolite.kernel.org>
 
---===============2964782968702299299==
+--===============8537008388309025120==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/powerpc/linux
+user: maddy
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/crypto-pending
-    old: 918248f78c3445b79a01767919b0534d20ba06ad
-    new: c7e417b37fb4b74982be529148a4a606f639f8f4
-    log: revlist-918248f78c34-c7e417b37fb4.txt
+  - ref: refs/heads/fixes
+    old: b2accfe7ca5bc9f9af28e603b79bdd5ad8df5c0b
+    new: e3f506b78d921e48a00d005bea5c45ec36a99240
+    log: |
+         e3f506b78d921e48a00d005bea5c45ec36a99240 powerpc/boot: Fix dash warning
+         
+  - ref: refs/heads/merge
+    old: a34964eace718ce03010a3e8d29eb5a872a461e6
+    new: 5a1c980976b2cbb26b2dd58b2e7f22b5114ed1c4
+    log: |
+         e3f506b78d921e48a00d005bea5c45ec36a99240 powerpc/boot: Fix dash warning
+         5a1c980976b2cbb26b2dd58b2e7f22b5114ed1c4 Automatic merge of 'fixes' into merge (2025-04-25 08:51)
+         
 
---===============2964782968702299299==
+--===============8537008388309025120==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-918248f78c34-c7e417b37fb4.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-a32f1923c6d6e9e727d00558a15ec0af6639de19 crypto: scompress - increment scomp_scratch_users when already allocated
-3715cb9863ced462fc1bcc3e1a8444db4b16927c Merge git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
-aa38d87ec85273e3cee5ad60342930612315e540 crypto: engine - Remove CRYPTO_ALG_ENGINE bit
-bf0b4f15267ca4047bbc533c83d9f7b7f447b5a1 crypto: riscv - Use SYM_FUNC_START for functions only called directly
-9baac2333cd13eecfd1be6b40a01e2d7d151ef87 crypto: arm64 - drop redundant dependencies on ARM64
-a3b97859f70ec63284cac655d38bd682c712b92a crypto: powerpc - drop redundant dependencies on PPC
-6722c4e6809d5f17ca6121ff0232f6f47a6f6b83 crypto: s390 - drop redundant dependencies on S390
-37752c8ffd693f4acd83a48c6e6a109cbcf5376d crypto: x86 - drop redundant dependencies on X86
-5269e47eec2fd46ea6cbcc86acf8bef4a0537e98 crypto: arm - move library functions to arch/arm/lib/crypto/
-4e8863c149338363ce0427dffedae17e127f34b0 crypto: arm64 - move library functions to arch/arm64/lib/crypto/
-523d205656163494a2c7301c0f68484ac5fde426 crypto: mips - move library functions to arch/mips/lib/crypto/
-9fca8e5e3a80f1ed0da3fa4f208fa46e1dc6753b crypto: powerpc - move library functions to arch/powerpc/lib/crypto/
-df1223ce0a401a5f0a22c4e4f6c66245096c8758 crypto: riscv - move library functions to arch/riscv/lib/crypto/
-84be3fde92f6f3e342679266d34fe1dbccb76353 crypto: s390 - move library functions to arch/s390/lib/crypto/
-ae93ae9729fbd3f7812ebb38f11f48bcef42a9b5 crypto: x86 - move library functions to arch/x86/lib/crypto/
-37af43a66c3d91139b192686467c261e0de84d14 crypto: lib/chacha - remove INTERNAL symbol and selection of CRYPTO
-c7e417b37fb4b74982be529148a4a606f639f8f4 crypto: lib/poly1305 - remove INTERNAL symbol and selection of CRYPTO
+certificate version 0.1
+pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1745551352 +0530
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
+nonce 1745551320-c964c2c58d614b69015d5736307101b5d225dfeb
 
---===============2964782968702299299==--
+b2accfe7ca5bc9f9af28e603b79bdd5ad8df5c0b e3f506b78d921e48a00d005bea5c45ec36a99240 refs/heads/fixes
+a34964eace718ce03010a3e8d29eb5a872a461e6 5a1c980976b2cbb26b2dd58b2e7f22b5114ed1c4 refs/heads/merge
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmgK//gACgkQpnEsdPSH
+ZJQ4Lw//eV4umv/9aiRMr8ywzDlM93P/tfEcl71NZLqKB/46buV94yPgnh6JvKx8
+wD7U2U4DiQv/yeCEQPslNT3q/mr5iSptts9gC74Hq3KNajp+bei4+QbHvIQWPQtE
+TzmCr6xHEr7vXt9egrBhi4QhPYqau4P77uFTn2pBx/RowEorCmpMqx66etqJQOHN
+e3BW2wTt0tHqNK5nq4WU4lRAw9WoeMYCrVRMNRSlfe9jbYUjDXvwh29G+tWZOzHL
+jP8TSWP5giiuN2niAaDzWihYFOtwQCpQN2FZZjGucRuFKgAuu3UmpZhP4uPKz9Y6
+1I6/k/u/zgE8PHjhFA/CNHocgGBu3osy/sZp6atpXcr4mb3HU4xtUjMehjUjf4GX
+OQv+oFysHTcVM8MVuccEbtmeTrp/jNvhFtYeSbL3EbXU9ib8nXhN5h8+JaBbf16H
+EaVWEX11kUgrambKSmJ/d0UZmkrVjAntyry2ta+CV+hSxnJuXOjUga0wI2n15RBd
+wYRo+xqZpBU8WUuyayi4EbI+uI6adhV3SNvPcClqkgEYUcnuGIYzZNXsmV49X1lQ
+Y7jeXH0HoWxqssLuxWdRQNoM3ICXO/YKv9zHkGuyiuSc2T1vr8Lnmj9+Er5se0VB
+uQvNGIqmXXaITFRsDhiYBLbgck2hzFrHjUYueQ8Ue+Qz5YSTaC4=
+=a0Ln
+-----END PGP SIGNATURE-----
+
+--===============8537008388309025120==--
