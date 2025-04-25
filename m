@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1921795326623952801=="
+Content-Type: multipart/mixed; boundary="===============1389404772302665320=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 25 Apr 2025 20:39:31 -0000
-Message-Id: <174561357160.3222653.17989926296752455236@gitolite.kernel.org>
+Date: Fri, 25 Apr 2025 20:39:34 -0000
+Message-Id: <174561357436.3223444.2249000270249522879@gitolite.kernel.org>
 
---===============1921795326623952801==
+--===============1389404772302665320==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: 5565acd1e6c4a1994e0ba32281ec10b69c0be14d
     new: 4acf6d4f6afc3478753e49c495132619667549d9
     log: revlist-5565acd1e6c4-4acf6d4f6afc.txt
 
---===============1921795326623952801==
+--===============1389404772302665320==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -50,4 +50,4 @@ f71c549b26a33fd62f1e9c7deeba738bfc73fbfc netdevsim: Mark NAPI ID on skb in nsim_
 2593a0a1446ae4bf651b0af1c42a421f511b4839 selftests: drv-net: Test that NAPI ID is non-zero
 4acf6d4f6afc3478753e49c495132619667549d9 Merge branch 'fix-netdevim-to-correctly-mark-napi-ids'
 
---===============1921795326623952801==--
+--===============1389404772302665320==--
