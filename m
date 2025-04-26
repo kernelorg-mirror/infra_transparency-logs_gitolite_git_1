@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 26 Apr 2025 14:26:30 -0000
-Message-Id: <174567759034.4132878.11101337760470074341@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 26 Apr 2025 14:58:29 -0000
+Message-Id: <174567950914.4157489.12451988640285640615@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/testing
-    old: b475195fecc79a1a6e7fb0846aaaab0a1a4cb2e6
-    new: 7b156cc6c07e0445516be1cf693ff4d5982361fd
+  - ref: refs/heads/master
+    old: 1f8642ccb75ebc860f4cc4e495c953dfdf43816f
+    new: cd2a1e0159ba4cd8678470d866d328b850f85436
     log: |
-         f4295c1585f530cf3e45b18809757de72195b53c iio: adc: stm32: add oversampling support
-         38608b3e1349d5739f00d2d9b11444994690aa36 iio: adc: PAC1934: fix typo in documentation link
-         7b156cc6c07e0445516be1cf693ff4d5982361fd iio: light: zopt2201: Remove code duplication in scale write functions
+         5ae15ea5c6f2227c6cd75f98dc70af1e19e2017b Drop ubsan-overflow-rework-integer-overflow-sanitizer-opt.patch
+         306ed48e2697d993a89e8aebcf1693f48da4a171 Drop lib-kconfig.ubsan-remove-default-ubsan-from-ubsan_in.patch
+         df1b6e2fa935b96d0df2fe2d59d33a73b4433853 Fixes for 6.14
+         cd2a1e0159ba4cd8678470d866d328b850f85436 Fixes for 6.12
          
