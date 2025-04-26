@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 26 Apr 2025 00:26:49 -0000
-Message-Id: <174562720989.3418600.10303265502082313858@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
+Date: Sat, 26 Apr 2025 00:28:41 -0000
+Message-Id: <174562732171.3419491.8512930309521172034@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/gustavoars/linux
+user: gustavoars
 changes:
-  - ref: refs/heads/main
-    old: 49ba1ca2e0cc6d2eb0667172f1144c8b85907971
-    new: 4c2227656d9003f4d77afc76f34dd81b95e4c2c4
+  - ref: refs/heads/testing/wfamnae-next20250424
+    old: a7bbf4f9cc3e983997adb9286e0c659a9943fa1a
+    new: b8f65e3306b3f9c666d42bab28665be2b5e56890
     log: |
-         4c2227656d9003f4d77afc76f34dd81b95e4c2c4 vmxnet3: Fix malformed packet sizing in vmxnet3_process_xdp
+         b8f65e3306b3f9c666d42bab28665be2b5e56890 scsi: sd: Avoid -Wflex-array-member-not-at-end warning
          
