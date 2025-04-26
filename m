@@ -1,43 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============2128118261867948334=="
+Content-Type: multipart/mixed; boundary="===============4703817356831115598=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Sat, 26 Apr 2025 06:44:17 -0000
-Message-Id: <174564985757.3736224.18444031222722408145@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Sat, 26 Apr 2025 07:06:47 -0000
+Message-Id: <174565120719.3755498.8731541336796843547@gitolite.kernel.org>
 
---===============2128118261867948334==
+--===============4703817356831115598==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/sha256-lib-v1
-    old: 02788fd34486bcd5f29a007a12bf31c0504201de
-    new: 47444e34f0eb4c46df4b0cfa8f2ad69c9ef0bfbf
-    log: revlist-02788fd34486-47444e34f0eb.txt
+  - ref: refs/heads/vfs.all
+    old: f2a9939ef817c88f97e8d31265fb44631bd5b41c
+    new: 1f875b49e7ab11ac599b27df55ed4ad7f8a2f978
+    log: revlist-f2a9939ef817-1f875b49e7ab.txt
 
---===============2128118261867948334==
+--===============4703817356831115598==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-02788fd34486-47444e34f0eb.txt
+Content-Disposition: attachment; filename=revlist-f2a9939ef817-1f875b49e7ab.txt
 
-adaf87bd48896765c64edfabd996ea68a534d293 crypto: sha256 - support arch-optimized lib and expose through shash
-bfde2ff2e1ebe168d511d7dd991e9165d85a1f1b crypto: arm/sha256 - implement library instead of shash
-090573a0e1b52d956562bda86805bb6fa396755b crypto: arm64/sha256 - remove obsolete chunking logic
-bcfd94ca2779c71ca2c2597283e8df006d670a5b crypto: arm64/sha256 - implement library instead of shash
-97adb5372398a83b4dab34c522dd34d210bdc356 crypto: mips/sha256 - implement library instead of shash
-f9935e4783e2533f22698d08209aaa0eb91ae8ad crypto: powerpc/sha256 - implement library instead of shash
-86b8d242378c926bd716e568c358885f6fdd4b33 crypto: riscv/sha256 - implement library instead of shash
-f735a94ee29e88603ec3a8520abd95e3db0852b7 crypto: s390/sha256 - implement library instead of shash
-02fb7dad9bcb1bafb8401a6367aaf84f5a57ae92 crypto: sparc - move opcodes.h into asm directory
-166ae626db02bbaefe773cd11302541ab4db0122 crypto: sparc/sha256 - implement library instead of shash
-96a19ae31966033d237fb3a95c645f3915806b8e crypto: x86/sha256 - implement library instead of shash
-9fecfd4e48c60108e11c5bdd06140419531b04f7 crypto: sha256 - remove sha256_base.h
-47444e34f0eb4c46df4b0cfa8f2ad69c9ef0bfbf crypto: lib/sha256 - improve function prototypes
+477058411c45f225ddfbb4769e35a9a5a95cb826 pidfs: register pid in pidfs
+fd0a109a0f6b7524543d17520da92a44a9f5343c net, pidfs: prepare for handing out pidfds for reaped sk->sk_peer_pid
+a71f402acd71a942e59c16270ad61dee06de6e24 pidfs: get rid of __pidfd_prepare()
+358ab1fd6922936687479880b2dd96f71d4a9485 net, pidfs: enable handing out pidfds for reaped sk->sk_peer_pid
+12c283cf36759d982436583445db627f3a83dd13 Merge patch series "net, pidfs: enable handing out pidfds for reaped sk->sk_peer_pid"
+35ae6edf18dfd6c5c3cd853ac2859d3d00d61df6 Merge branch 'vfs.fixes' into vfs.all
+a766a1a4ee9b465ee00b4ad1671ce12f9c23099b Merge branch 'vfs-6.16.async.dir' into vfs.all
+35894c6cd56ab8f44011cd5288bee2a53d753737 Merge branch 'vfs-6.16.mount.api' into vfs.all
+4f29ea6d82ae4ac1fd954b0ee73809573f844638 Merge branch 'vfs-6.16.writepage' into vfs.all
+b05d065afae659acb7c5f6bef5ab0351b0a95026 Merge branch 'vfs-6.16.super' into vfs.all
+5c0a11c2900ad1d8c42c4fd992a5e8eaea69ce9c Merge branch 'vfs-6.16.misc' into vfs.all
+649dfdc918615372a78c4c83c664c3ab8ec6d444 Merge branch 'vfs-6.16.pidfs' into vfs.all
+087cb29ad27c1c1c70b6eeb869836568b7b135ae Merge branch 'vfs-6.16.mount' into vfs.all
+e331f47afa998c9d69ed528fe7558118e8d3a3e8 Merge branch 'vfs-6.16.coredump' into vfs.all
+1f875b49e7ab11ac599b27df55ed4ad7f8a2f978 Merge branch 'vfs-6.16.iomap' into vfs.all
 
---===============2128118261867948334==--
+--===============4703817356831115598==--
