@@ -1,45 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============4703817356831115598=="
+Content-Type: multipart/mixed; boundary="===============8834513021079529085=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Sat, 26 Apr 2025 07:06:47 -0000
-Message-Id: <174565120719.3755498.8731541336796843547@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Sat, 26 Apr 2025 07:26:41 -0000
+Message-Id: <174565240137.3771680.17003271249608509382@gitolite.kernel.org>
 
---===============4703817356831115598==
+--===============8834513021079529085==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/vfs.all
-    old: f2a9939ef817c88f97e8d31265fb44631bd5b41c
-    new: 1f875b49e7ab11ac599b27df55ed4ad7f8a2f978
-    log: revlist-f2a9939ef817-1f875b49e7ab.txt
+  - ref: refs/heads/for-next/hardening
+    old: 663f483f9205505ecd63c90be0c7c86c6fa92919
+    new: 6ae77de1c1b5461b51b4bea17ac0a80e4801473e
+    log: |
+         fbc5264021ee7dfc9b5da628e8fe2b853da3f506 watchdog: exar: Shorten identity name to fit correctly
+         03ee65886362d1fa19baa100012a8b9aac5e1a60 input/joystick: magellan: Mark __nonstring look-up table const
+         6ae77de1c1b5461b51b4bea17ac0a80e4801473e md/bcache: Mark __nonstring look-up table
+         
 
---===============4703817356831115598==
+--===============8834513021079529085==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f2a9939ef817-1f875b49e7ab.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-477058411c45f225ddfbb4769e35a9a5a95cb826 pidfs: register pid in pidfs
-fd0a109a0f6b7524543d17520da92a44a9f5343c net, pidfs: prepare for handing out pidfds for reaped sk->sk_peer_pid
-a71f402acd71a942e59c16270ad61dee06de6e24 pidfs: get rid of __pidfd_prepare()
-358ab1fd6922936687479880b2dd96f71d4a9485 net, pidfs: enable handing out pidfds for reaped sk->sk_peer_pid
-12c283cf36759d982436583445db627f3a83dd13 Merge patch series "net, pidfs: enable handing out pidfds for reaped sk->sk_peer_pid"
-35ae6edf18dfd6c5c3cd853ac2859d3d00d61df6 Merge branch 'vfs.fixes' into vfs.all
-a766a1a4ee9b465ee00b4ad1671ce12f9c23099b Merge branch 'vfs-6.16.async.dir' into vfs.all
-35894c6cd56ab8f44011cd5288bee2a53d753737 Merge branch 'vfs-6.16.mount.api' into vfs.all
-4f29ea6d82ae4ac1fd954b0ee73809573f844638 Merge branch 'vfs-6.16.writepage' into vfs.all
-b05d065afae659acb7c5f6bef5ab0351b0a95026 Merge branch 'vfs-6.16.super' into vfs.all
-5c0a11c2900ad1d8c42c4fd992a5e8eaea69ce9c Merge branch 'vfs-6.16.misc' into vfs.all
-649dfdc918615372a78c4c83c664c3ab8ec6d444 Merge branch 'vfs-6.16.pidfs' into vfs.all
-087cb29ad27c1c1c70b6eeb869836568b7b135ae Merge branch 'vfs-6.16.mount' into vfs.all
-e331f47afa998c9d69ed528fe7558118e8d3a3e8 Merge branch 'vfs-6.16.coredump' into vfs.all
-1f875b49e7ab11ac599b27df55ed4ad7f8a2f978 Merge branch 'vfs-6.16.iomap' into vfs.all
+certificate version 0.1
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1745652430 -0700
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
+nonce 1745652383-ab1636a391002168eb0e4bd8de886a1bd843632b
 
---===============4703817356831115598==--
+663f483f9205505ecd63c90be0c7c86c6fa92919 6ae77de1c1b5461b51b4bea17ac0a80e4801473e refs/heads/for-next/hardening
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCaAyKzgAKCRA2KwveOeQk
+uyrlAQCv5L2KOAPKQoLf+nHjTwMlJcgYh24dU6TfT3wYC1qXOAEAv9Uzest/lzGx
+wFEq9yypGcZ7qdJC8YRNgpm83ielmgg=
+=lVeF
+-----END PGP SIGNATURE-----
+
+--===============8834513021079529085==--
