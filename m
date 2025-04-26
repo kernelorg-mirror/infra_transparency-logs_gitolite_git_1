@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Sat, 26 Apr 2025 01:58:32 -0000
-Message-Id: <174563271243.3496589.6980471196472194223@gitolite.kernel.org>
+Date: Sat, 26 Apr 2025 02:02:18 -0000
+Message-Id: <174563293877.3500516.2894673578030934254@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-next
-    old: 892dbfaaf7912651ec0e8d05b264554089dd7de7
-    new: 5add0dbbebd60628b55e5eb8426612dedab7311a
+  - ref: refs/tags/loongarch-fixes-6.15-1
+    old: bd3e29be76015ec5101ff8735546ce9ec44f52d9
+    new: 43d1a67fd6051385e6705b36833cc1bc7f5e3612
     log: |
          fb8e9f59d6f292c3d9fea6c155c22ea5fc3053ab LoongArch: Select ARCH_USE_MEMTEST
          bb0511d59db9b3e40c8d51f0d151ccd0fd44071d LoongArch: Make regs_irqs_disabled() more clear
