@@ -1,57 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============8463204092815078247=="
+Content-Type: multipart/mixed; boundary="===============2128118261867948334=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sat, 26 Apr 2025 06:39:48 -0000
-Message-Id: <174564958870.3732880.13444915524176879611@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Sat, 26 Apr 2025 06:44:17 -0000
+Message-Id: <174564985757.3736224.18444031222722408145@gitolite.kernel.org>
 
---===============8463204092815078247==
+--===============2128118261867948334==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/tty-testing
-    old: 7ba4f02e12e6f2409c5b2afae2963089b5673482
-    new: f92217683a44f79759d805194d6d36af1bde6e10
-    log: |
-         366cf0c3af1aac03c2bf08cf4b11f4ab9cba73e4 tty/vt: Use KVAL instead of use bit operation
-         f92217683a44f79759d805194d6d36af1bde6e10 tty/vt: Gather the code that outputs char with utf8 in mind
-         
+  - ref: refs/heads/sha256-lib-v1
+    old: 02788fd34486bcd5f29a007a12bf31c0504201de
+    new: 47444e34f0eb4c46df4b0cfa8f2ad69c9ef0bfbf
+    log: revlist-02788fd34486-47444e34f0eb.txt
 
---===============8463204092815078247==
+--===============2128118261867948334==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-02788fd34486-47444e34f0eb.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1745649616 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1745649585-4fa98df1f3a4da7c75c59c9a2d47acd68fa46c96
+adaf87bd48896765c64edfabd996ea68a534d293 crypto: sha256 - support arch-optimized lib and expose through shash
+bfde2ff2e1ebe168d511d7dd991e9165d85a1f1b crypto: arm/sha256 - implement library instead of shash
+090573a0e1b52d956562bda86805bb6fa396755b crypto: arm64/sha256 - remove obsolete chunking logic
+bcfd94ca2779c71ca2c2597283e8df006d670a5b crypto: arm64/sha256 - implement library instead of shash
+97adb5372398a83b4dab34c522dd34d210bdc356 crypto: mips/sha256 - implement library instead of shash
+f9935e4783e2533f22698d08209aaa0eb91ae8ad crypto: powerpc/sha256 - implement library instead of shash
+86b8d242378c926bd716e568c358885f6fdd4b33 crypto: riscv/sha256 - implement library instead of shash
+f735a94ee29e88603ec3a8520abd95e3db0852b7 crypto: s390/sha256 - implement library instead of shash
+02fb7dad9bcb1bafb8401a6367aaf84f5a57ae92 crypto: sparc - move opcodes.h into asm directory
+166ae626db02bbaefe773cd11302541ab4db0122 crypto: sparc/sha256 - implement library instead of shash
+96a19ae31966033d237fb3a95c645f3915806b8e crypto: x86/sha256 - implement library instead of shash
+9fecfd4e48c60108e11c5bdd06140419531b04f7 crypto: sha256 - remove sha256_base.h
+47444e34f0eb4c46df4b0cfa8f2ad69c9ef0bfbf crypto: lib/sha256 - improve function prototypes
 
-7ba4f02e12e6f2409c5b2afae2963089b5673482 f92217683a44f79759d805194d6d36af1bde6e10 refs/heads/tty-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgMf9AbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gbkQAJfebnynatSQk1cAMjb6
-0llaonA6grD7Rle/lvpa4xtp8nl45Al7vI6J0amdY6Egxaok4h4qX/U57PHyZSch
-z3hSL0er6q+/IKfSKOYyAfK6C7ORUK89d5sFwQc5YkylPOKRIX26jehslgtxtU2d
-k5dKKE0nKof+nHi7qf0OokkNUrZQ5xRTy1cwJKYAf/VEoO/oJxnLZSIuNFQj+fYY
-Fe0y0mmhnFyEG/mCBV3SeaXL08A1jhpbWBBk1qtHu74K8S0x/z7rEOEjFKc8lMFU
-M/brAUOlyoC4HUGE+YGPbm0GqmDzGXLnA0G+Iasf6ODEylkgJzKuiHSfr9rnQvJZ
-asVnL+4X9I+7OMeetxxmvQ38P8fB1gJz0Fdmzk7WYbl+Q7oIPeQZHfxO9XNcV9Gu
-py1yFf9wLeAWiOKopeGjCyR3+eSZmWrE1RfJEn2ytKOS/t2N/XF5+Yyu6e0isngk
-CAZ83v9ShtKxvrxKcuFRGTYiyZZj8NfWEbr+SXqV51ghvftaaeJchDxaGz0Wi6C6
-7ccodZr7f1zMP98DIQqiKucxhag32f8vGsIzeLeyQZ61zZjSsptlZMGRCZEXHomi
-/P5bTQDkSnHtgBOp1eEtKmmsrxK9jVyBNs2gxHR1aOxCM7RO2zvCnBIOUclTNjqx
-Hj8MB4jrHTWhhD6DiILQkVq6
-=2y3+
------END PGP SIGNATURE-----
-
---===============8463204092815078247==--
+--===============2128118261867948334==--
