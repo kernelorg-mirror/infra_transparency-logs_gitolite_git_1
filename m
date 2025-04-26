@@ -1,23 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Sat, 26 Apr 2025 06:28:04 -0000
-Message-Id: <174564888468.3723365.15240080931903933577@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8463204092815078247=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Sat, 26 Apr 2025 06:39:48 -0000
+Message-Id: <174564958870.3732880.13444915524176879611@gitolite.kernel.org>
+
+--===============8463204092815078247==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/gregkh/tty
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/vfs-6.16.pidfs
-    old: 943e126a50d185542d194ca3a5bd09f62b17a4b6
-    new: 12c283cf36759d982436583445db627f3a83dd13
+  - ref: refs/heads/tty-testing
+    old: 7ba4f02e12e6f2409c5b2afae2963089b5673482
+    new: f92217683a44f79759d805194d6d36af1bde6e10
     log: |
-         477058411c45f225ddfbb4769e35a9a5a95cb826 pidfs: register pid in pidfs
-         fd0a109a0f6b7524543d17520da92a44a9f5343c net, pidfs: prepare for handing out pidfds for reaped sk->sk_peer_pid
-         a71f402acd71a942e59c16270ad61dee06de6e24 pidfs: get rid of __pidfd_prepare()
-         358ab1fd6922936687479880b2dd96f71d4a9485 net, pidfs: enable handing out pidfds for reaped sk->sk_peer_pid
-         12c283cf36759d982436583445db627f3a83dd13 Merge patch series "net, pidfs: enable handing out pidfds for reaped sk->sk_peer_pid"
+         366cf0c3af1aac03c2bf08cf4b11f4ab9cba73e4 tty/vt: Use KVAL instead of use bit operation
+         f92217683a44f79759d805194d6d36af1bde6e10 tty/vt: Gather the code that outputs char with utf8 in mind
          
+
+--===============8463204092815078247==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1745649616 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1745649585-4fa98df1f3a4da7c75c59c9a2d47acd68fa46c96
+
+7ba4f02e12e6f2409c5b2afae2963089b5673482 f92217683a44f79759d805194d6d36af1bde6e10 refs/heads/tty-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgMf9AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gbkQAJfebnynatSQk1cAMjb6
+0llaonA6grD7Rle/lvpa4xtp8nl45Al7vI6J0amdY6Egxaok4h4qX/U57PHyZSch
+z3hSL0er6q+/IKfSKOYyAfK6C7ORUK89d5sFwQc5YkylPOKRIX26jehslgtxtU2d
+k5dKKE0nKof+nHi7qf0OokkNUrZQ5xRTy1cwJKYAf/VEoO/oJxnLZSIuNFQj+fYY
+Fe0y0mmhnFyEG/mCBV3SeaXL08A1jhpbWBBk1qtHu74K8S0x/z7rEOEjFKc8lMFU
+M/brAUOlyoC4HUGE+YGPbm0GqmDzGXLnA0G+Iasf6ODEylkgJzKuiHSfr9rnQvJZ
+asVnL+4X9I+7OMeetxxmvQ38P8fB1gJz0Fdmzk7WYbl+Q7oIPeQZHfxO9XNcV9Gu
+py1yFf9wLeAWiOKopeGjCyR3+eSZmWrE1RfJEn2ytKOS/t2N/XF5+Yyu6e0isngk
+CAZ83v9ShtKxvrxKcuFRGTYiyZZj8NfWEbr+SXqV51ghvftaaeJchDxaGz0Wi6C6
+7ccodZr7f1zMP98DIQqiKucxhag32f8vGsIzeLeyQZ61zZjSsptlZMGRCZEXHomi
+/P5bTQDkSnHtgBOp1eEtKmmsrxK9jVyBNs2gxHR1aOxCM7RO2zvCnBIOUclTNjqx
+Hj8MB4jrHTWhhD6DiILQkVq6
+=2y3+
+-----END PGP SIGNATURE-----
+
+--===============8463204092815078247==--
