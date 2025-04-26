@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Sat, 26 Apr 2025 15:44:53 -0000
-Message-Id: <174568229381.2871.14488214670493560005@gitolite.kernel.org>
+Date: Sat, 26 Apr 2025 15:56:19 -0000
+Message-Id: <174568297910.13329.13798005887348252620@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pci/pci
 user: mani
 changes:
-  - ref: refs/heads/dt-bindings
-    old: d63dbfc6f27de1dd5741107db07b585d344676ee
-    new: a733e711278182840b4c9a0329294daa5cc34048
+  - ref: refs/heads/controller/cadence
+    old: 100726c52b0c34b2ba9acabaa169d4aeb70f61d4
+    new: 39c6f01d0dd86802983bd1aef5fdc52263a85d5a
     log: |
-         a733e711278182840b4c9a0329294daa5cc34048 dt-bindings: PCI: qcom: Add MHI registers for IPQ9574
+         39c6f01d0dd86802983bd1aef5fdc52263a85d5a PCI: cadence: Remove duplicate message code definitions
          
