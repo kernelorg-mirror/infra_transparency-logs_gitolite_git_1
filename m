@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Sun, 27 Apr 2025 08:12:12 -0000
-Message-Id: <174574153283.796943.16813998966111054267@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
+Date: Sun, 27 Apr 2025 08:14:51 -0000
+Message-Id: <174574169143.798814.6357320624454681364@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/mips/linux
+user: tsbogend
 changes:
-  - ref: refs/heads/for-linus
-    old: e8fa236e28811473db1594c597f974da0e9b753b
-    new: be0c40da888840fe91b45474cb70779e6cbaf7ca
+  - ref: refs/heads/mips-fixes
+    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
+    new: 7f74c066e5d920b3a2f0f936060984e3b3709250
     log: |
-         be0c40da888840fe91b45474cb70779e6cbaf7ca ALSA: hda/realtek: Add quirk for HP Spectre x360 15-df1xxx
-         
-  - ref: refs/heads/master
-    old: f9134c8bdd9f4959d6044e092e198baee2680d9d
-    new: 3644310401476ea98626b81da79e1ecf3a49e5fc
-    log: |
-         be0c40da888840fe91b45474cb70779e6cbaf7ca ALSA: hda/realtek: Add quirk for HP Spectre x360 15-df1xxx
-         3644310401476ea98626b81da79e1ecf3a49e5fc Merge branch 'for-linus'
+         56651128e2fbad80f632f388d6bf1f39c928267a MIPS: Fix idle VS timer enqueue
+         b713f27e32d87c35737ec942dd6f5ed6b7475f48 MIPS: Move r4k_wait() to .cpuidle.text section
+         cc3e3d3a9d09456cf21694b7ea8b9d781e85fda3 MIPS: rename rollback_handler with skipover_handler
+         7f74c066e5d920b3a2f0f936060984e3b3709250 MIPS: CPS: Fix potential NULL pointer dereferences in cps_prepare_cpus()
          
