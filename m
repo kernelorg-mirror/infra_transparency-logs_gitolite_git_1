@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4005633857383116064=="
+Content-Type: multipart/mixed; boundary="===============1346363331316597919=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sun, 27 Apr 2025 17:42:27 -0000
-Message-Id: <174577574779.1260981.18117379929018954111@gitolite.kernel.org>
+Date: Sun, 27 Apr 2025 17:42:54 -0000
+Message-Id: <174577577491.1261516.6489411496806907041@gitolite.kernel.org>
 
---===============4005633857383116064==
+--===============1346363331316597919==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/testing
-    old: fcb21e1fc1ac1aa8eacf7d6972f75d7f462c51c4
-    new: aa6cacb8ea96e340f4ed41a4b8a33ef2968bf839
-    log: revlist-fcb21e1fc1ac-aa6cacb8ea96.txt
+  - ref: refs/heads/fixes
+    old: 6ef0f7e503876480f6b0dbadaccf3bd0dc9f9a3f
+    new: 4f89db249aab8c9887821b54e1571408e65246f2
+    log: revlist-6ef0f7e50387-4f89db249aab.txt
 
---===============4005633857383116064==
+--===============1346363331316597919==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fcb21e1fc1ac-aa6cacb8ea96.txt
+Content-Disposition: attachment; filename=revlist-6ef0f7e50387-4f89db249aab.txt
 
 aed06d36ba4e7fe90f2d4a85835cee7c80ea72a7 ceph: Remove osd_client deadcode
 f452a2204614fc10e2c3b85904c4bd300c2789dc ceph: Fix incorrect flush end position calculation
@@ -236,36 +236,6 @@ cfa00a625f1c730e93f96b5b4ba7c1b4dc286c79 drm/exynos: Remove unnecessary checking
 30b66dd0523df5153319a2abaa2399c7c76945cb drm/exynos: fixed a spelling error
 e8de68ba86f4f84d388f2d964eba96c034120a84 drm/exynos: exynos7_drm_decon: Consstify struct decon_data
 c171ad1e8166ff8b3ab9ac94bad2574167b41f66 drm/exynos: Fix spelling mistake "enqueu" -> "enqueue"
-f2053eea39a4b310ee502b388a8762c77f02469e hwmon: (qnap-mcu) Remove (explicitly) unused header
-ce6642211888805cb4389157c3fd2b513b3cfccd dt-bindings: hwmon: amc6821: add fan and PWM output
-cd17587272e28411b5ed1de37f84d106470824a9 hwmon: (amc6821) Add PWM polarity configuration with OF
-2c183963fb5fdd849cda66ddf2d93d88d2296a75 hwmon: (k10temp) Add support for Zen5 Ryzen Desktop
-73e5b6b51f00f3c8a8e7531d4a8e211f5f8cfc02 hwmon: (pmbus) Introduce page_change_delay
-e894b6442a9692dd55f01c4edccee459163665a4 hwmon: (ltc2992) Use new GPIO line value setter callbacks
-9c47e45de1f7633bd3bbf54bf36cd9a385db2232 hwmon: (pmbus/ucd9000) Use new GPIO line value setter callbacks
-19932f844f3f51646f762f3eac4744ec3a405064 hwmon: (pmbus/max34440) Fix support for max34451
-629cf8f6c23a987201558ffcca5590a60ae3959d hwmon: (pmbus/max34440) Add support for ADPM12160
-0b3c04c81804197bf0025f3281e4463152f04bf1 hwmon: (pmbus) Do not set regulators_node for single-channel chips
-6de6868df18728790eb4ffe764b49f356fea7397 hwmon: (max6639) Allow setting target RPM
-ab2f6bffe7311327d5f6432e413c704f395b93c3 hwmon: (max34451) Work around lost page
-0bf08f9e358d33a8972cdb3d698079f5d768d7ed hwmon: (asus-ec-sensors) sort sensor definition arrays
-9b116ba6c9eb9d3b33de0363fafdc5941116f029 hwmon: (ina2xx) make regulator 'vs' support optional
-0d01110e6356e95320091f36e3d7ce92fa597d1f hwmon: (gpio-fan) Add regulator support
-7e581c193bde7d5ac49587d9a182e5d13e05547c hwmon: Add KEBA battery monitoring controller support
-56591083846b8f4203234faf52de7a89f038ceeb hwmon: (pwm-fan) disable threaded interrupts
-80fcd1e7f5c7009fa1c64737df100cc304c19c1f hwmon: (xgene-hwmon) Simplify PCC shared memory region handling
-38b5a5acabb639a2e3d40bffb92bd42f613dcd71 hwmon: (lm90) Use to_delayed_work()
-41e743881e85b4cda80c53e11075e7b19809b3ce hwmon: (aht10) Drop doctype annotations from static functions
-e799657a8aac1d974c90a295dd88b1d95697d18d hwmon: (dell-smm) Add the Dell OptiPlex 7050 to the DMI whitelist
-4cf1aab45cc56e9276924c21b79da42e2eac01df hwmon: (spd5118) Split into common and I2C specific code
-ae28532aff1f7912c1d118b4257c095ce62f1cb0 hwmon: (spd5118) Name chips taking the specification literally
-be82d39c537e884e490a79bcc38a3be8d9e8b0a9 hwmon: (spd5118) Support 16-bit addressing for NVMEM accesses
-a852162efbff611ed49ae61a141e80c81689d54c hwmon: (spd5118) Detect and support 16-bit register addressing
-48834a4e794302c162a73e1680c76cd73847bbdb dt-bindings: hwmon: pmbus: add lt3074
-c66c5bda7f24a7dae2b5b789025e4b8418eb0fae hwmon: (pmbus/lt3074) add support for lt3074
-03abdce464efc3dcdfe323f7fc315d0fa7abd457 dt-bindings: hwmon: ti,tmp102: document optional V+ supply property
-3e749ce132676683f3cdeec9a887c3f8f5ed96eb hwmon: (tmp102) add vcc regulator support
-8debd8511dd9376fab33bff62500a5a71937420a hwmon: (max77705) Add initial support
 4ce385f56434f3810ef103e1baea357ddcc6667e x86/mm: Fix _pgd_alloc() for Xen PV mode
 0251ddbffbeb213f0f74ef94b2cacce580eb8d76 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 82efd569a8909f2b13140c1b3de88535aea0b051 locking/local_lock: fix _Generic() matching of local_trylock_t
@@ -380,7 +350,6 @@ bd51834d1cf65a2c801295d230c220aeebf87a73 LoongArch: Return NULL from huge_pte_of
 3318dc299b072a0511d6dfd8367f3304fb6d9827 irqchip/gic-v2m: Prevent use after free of gicv2m_get_fwnode()
 bbce3de72be56e4b5f68924b7da9630cc89aa1a8 sched/eevdf: Fix se->slice being set to U64_MAX and resulting crash
 fa573aefdf9bc6e4a903551d381ddcbd60f37943 Merge tag 'drm-fixes-2025-04-26' of https://gitlab.freedesktop.org/drm/kernel
-68534c274d1b521fd9ece4d7ba47c44ffe61f5a6 hwmon: (spd5118) Add I3C support
 a16ebe51a6a55fdeee12f60fa8b31a740c6af029 Merge tag 'move-lib-kunit-v6.15-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 831e3f545b0771f91fa94cdb8aa569a73b9ec580 Revert "sunrpc: clean cache_detail immediately when flush is written frequently"
 ec0c2d5359e2f288d75d98465829d31c6d26da47 Merge tag 'for-linus' of https://github.com/openrisc/linux
@@ -393,15 +362,5 @@ d22aad29de2a7b13f43ccb9b55cfd5daf793ead4 Merge tag 'nfsd-6.15-2' of git://git.ke
 5bc1018675ec28a8a60d83b378d8c3991faa5a27 Merge tag 'pci-v6.15-fixes-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
 583d2cf8f41778025d840b9e2a63a0593c3c8167 possible circular locking dependency backtrace seen when enabling PREEMPT_RT
 4f89db249aab8c9887821b54e1571408e65246f2 x86: Disable image size check for test builds
-d4acb3f3345582b7c4654743a176d254b5656c30 Merge branch 'hwmon-next' into hwmon-staging
-4b1e64abb55956c2278e82321149346b8a3fca9a Merge branch 'hwmon-spd5118-i3c' into hwmon-staging
-70ec44c74271180b8eb51c2fa113a362737081b5 Merge branch 'hwmon-energy' into hwmon-staging
-2428b5779bb6b64cf67753d273ccff17734d2eac Merge branch 'hwmon-g762' into hwmon-staging
-b3646f74045eb7f0bdd0227cd2ff01f4fb8388ba Merge branch 'hwmon-emc2103' into hwmon-staging
-3771dbfdb14ffe8cba3a49c12bf7b81c1ce675e6 Merge branch 'hwmon-max16065' into hwmon-staging
-3d361b35965fa8f6d4a1de98414c56072d265d57 Merge branch 'hwmon-pmbus' into hwmon-staging
-2a5fc64a9192eaa4dcb64b2ef947137227034e9b Merge branch 'hwmon-fixes' into hwmon-staging
-c13667006a66d84833ad0b790b9583a60ae4f4ba Merge branch 'hwmon-staging' into testing
-aa6cacb8ea96e340f4ed41a4b8a33ef2968bf839 Merge branch 'fixes-v6.15' into testing
 
---===============4005633857383116064==--
+--===============1346363331316597919==--
