@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Sun, 27 Apr 2025 22:07:57 -0000
-Message-Id: <174579167798.1471579.12146520122242233562@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 27 Apr 2025 22:29:10 -0000
+Message-Id: <174579295064.1487949.7360128488773267567@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: a12f94ae536d9928c01d1c524d9534cf38a65f9f
-    new: 69b1bd48564651599323052c499e3db27b20e9d5
+    old: 5bc1018675ec28a8a60d83b378d8c3991faa5a27
+    new: b4432656b36e5cc1d50a1f2dc15357543add530e
     log: |
-         1f78cf084785e33382bfe16a6c3439be6cc18f2c patches/next: add mtier build fix
-         cfde3848510069bea19b4d2b1e5c5632fe564cdf patches/posted: add mtier build fix
-         88740af58c8953df543d980d718c5ce7a927b93e patches/posted: add msgid for mtier build fix
-         055d425ae4e62fe7b4360254146b4388a9f4f19a patches/next: remove memory tiering cv commit
-         69b1bd48564651599323052c499e3db27b20e9d5 patches/next: add drgn script for DAMON status dumping
+         b4432656b36e5cc1d50a1f2dc15357543add530e Linux 6.15-rc4
          
+  - ref: refs/tags/v6.15-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 39d6783f6488786301f36b0e7c619f220c3e8d2c
