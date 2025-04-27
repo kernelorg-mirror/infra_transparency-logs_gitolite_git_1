@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Sun, 27 Apr 2025 15:25:31 -0000
-Message-Id: <174576753128.1149361.17143807509742967683@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Sun, 27 Apr 2025 15:34:35 -0000
+Message-Id: <174576807598.1155670.4280445732758469325@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: mani
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
+user: deller
 changes:
-  - ref: refs/heads/controller/dw-rockchip
-    old: d4a5d7e6d91f6e53c8bf6ec72b7ee6c51f781695
-    new: 5e5a3bf48eed8d90bc5c5b710466f24663231f0a
+  - ref: refs/heads/for-next
+    old: 8d2f0f5bbac87b9d25b2bd8ad203b70826de9e09
+    new: c29fea5c7208d30d8400c943ab31d0328705ccb4
     log: |
-         c2f61b8479b2abcd9e20f8bd4c46e54bb7f5286f PCI: dw-rockchip: Remove unused PCIE_CLIENT_GENERAL_DEBUG definition
-         ae8ed2b091ee8bd92da365d3332eebf159de8e0f PCI: dw-rockchip: Reorganize register and bitfield definitions
-         5e5a3bf48eed8d90bc5c5b710466f24663231f0a PCI: dw-rockchip: Use rockchip_pcie_link_up() to check link up instead of open coding
+         c29fea5c7208d30d8400c943ab31d0328705ccb4 vgacon: Add check for vc_origin address range in vgacon_scroll()
          
