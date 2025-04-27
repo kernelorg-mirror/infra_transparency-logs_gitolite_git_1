@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Sun, 27 Apr 2025 15:05:52 -0000
-Message-Id: <174576635253.1132621.3366342221513647107@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Sun, 27 Apr 2025 15:25:31 -0000
+Message-Id: <174576753128.1149361.17143807509742967683@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/pci/pci
+user: mani
 changes:
-  - ref: refs/heads/kdevops
-    old: b7afb1fc19b7453025eb21c3e5af50e4a3a78e10
-    new: eaa36d6078f51d27f3195f4b9ea5c0380184ab7e
+  - ref: refs/heads/controller/dw-rockchip
+    old: d4a5d7e6d91f6e53c8bf6ec72b7ee6c51f781695
+    new: 5e5a3bf48eed8d90bc5c5b710466f24663231f0a
     log: |
-         4592f22346eeb25a41a09d4e7d598e5ae774f492 i915: add ref_tracker_dir symlinks for each tracker
-         eaa36d6078f51d27f3195f4b9ea5c0380184ab7e ref_tracker: eliminate the ref_tracker_dir name field
+         c2f61b8479b2abcd9e20f8bd4c46e54bb7f5286f PCI: dw-rockchip: Remove unused PCIE_CLIENT_GENERAL_DEBUG definition
+         ae8ed2b091ee8bd92da365d3332eebf159de8e0f PCI: dw-rockchip: Reorganize register and bitfield definitions
+         5e5a3bf48eed8d90bc5c5b710466f24663231f0a PCI: dw-rockchip: Use rockchip_pcie_link_up() to check link up instead of open coding
          
