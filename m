@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Sun, 27 Apr 2025 16:20:12 -0000
-Message-Id: <174577081212.1194573.3621731426809658355@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Sun, 27 Apr 2025 16:27:25 -0000
+Message-Id: <174577124593.1200022.11115223312716864084@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/pci/pci
+user: mani
 changes:
-  - ref: refs/heads/kdevops
-    old: ebd11263069011529e5b62a5e1854c35d3e838bf
-    new: 44c06362e2ffeff37c74fa272f497a3319c8d018
+  - ref: refs/heads/controller/cadence
+    old: 39c6f01d0dd86802983bd1aef5fdc52263a85d5a
+    new: 10aae64c2fb5148409cc9beba7f849a79fe82f17
     log: |
-         5813efd172e9b71919b2a4f50401dabd6f0ca57c ref_tracker: add a way to create a symlink to the ref_tracker_dir debugfs file
-         ce7a747693722140c6665ff54c9bf90bcd73861e net: add symlinks to ref_tracker dir for netns refcount tracking
-         d0d6a12d1fd8d3e7e720dced36b0eaf968c2020a i915: add ref_tracker_dir symlinks for each tracker
-         44c06362e2ffeff37c74fa272f497a3319c8d018 ref_tracker: eliminate the ref_tracker_dir name field
+         10aae64c2fb5148409cc9beba7f849a79fe82f17 pci: j721e: fix host/endpoint dependencies
          
