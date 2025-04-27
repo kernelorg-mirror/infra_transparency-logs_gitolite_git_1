@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5007801857286673444=="
+Content-Type: multipart/mixed; boundary="===============5904065906056560758=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Sun, 27 Apr 2025 14:24:53 -0000
-Message-Id: <174576389346.1097172.1463304935592249379@gitolite.kernel.org>
+Date: Sun, 27 Apr 2025 14:25:25 -0000
+Message-Id: <174576392536.1099322.13330042135814461696@gitolite.kernel.org>
 
---===============5007801857286673444==
+--===============5904065906056560758==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/dev-test
+  - ref: refs/heads/fixes
     old: f5ffef9881a76764477978c39f1ad0136a4adcab
     new: 2d4458780aec9c79bdbc7aaa5b566be57577c0e8
     log: revlist-f5ffef9881a7-2d4458780aec.txt
 
---===============5007801857286673444==
+--===============5904065906056560758==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -857,4 +857,4 @@ ac71fabf15679fc7bc56c51bc92bd4b626564c37 gcc-15: work around sequence-point warn
 9c32cda43eb78f78c73aee4aa344b777714e259b Linux 6.15-rc3
 2d4458780aec9c79bdbc7aaa5b566be57577c0e8 MAINTAINERS: erofs: add myself as reviewer
 
---===============5007801857286673444==--
+--===============5904065906056560758==--
