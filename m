@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3635297545623586112=="
+Content-Type: multipart/mixed; boundary="===============8300030428689624228=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sun, 27 Apr 2025 22:07:40 -0000
-Message-Id: <174579166006.1471012.4446953578279280571@gitolite.kernel.org>
+Date: Sun, 27 Apr 2025 22:07:42 -0000
+Message-Id: <174579166289.1471118.7603946101133300102@gitolite.kernel.org>
 
---===============3635297545623586112==
+--===============8300030428689624228==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,65 +15,75 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/damon/next
-    old: 1997599dff0f3f3a0296938cda10fe0d6aa27cc0
-    new: 6c013dd007453dc5eef1af3396ca1737fec257f6
-    log: revlist-1997599dff0f-6c013dd00745.txt
+  - ref: refs/heads/master
+    old: f1a3944c860b0615d0513110d8cf62bb94adbb41
+    new: 5bc1018675ec28a8a60d83b378d8c3991faa5a27
+    log: revlist-f1a3944c860b-5bc1018675ec.txt
 
---===============3635297545623586112==
+--===============8300030428689624228==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1997599dff0f-6c013dd00745.txt
+Content-Disposition: attachment; filename=revlist-f1a3944c860b-5bc1018675ec.txt
 
-a266e52da02821b82542824db8f7a82d99ed32f2 samples/damon: trigger build even if only mtier is enabled
-9bdf5769f116ed770e40cf680b43aa3b5d4bf39b === hacks in progress ===
-8fce37b7a6c94bdffce58ea6aec7e006412631e5 ==== addr_unit (arm32 lpae) ====
-4a627f4864727f04b7263cd0bbdff83b151f0e06 mm/damon/core: add damon_ctx->addr_unit
-36475cc51242cacdc6685c67c3835d88facef8a8 mm/damon/paddr: support addr_unit for access monitoring
-6987b98986fabbeb5493c1f9e466cfc9ebf650d6 mm/damon/paddr: support addr_unit for DAMOS_PAGEOUT
-7370f746def1070345f4168b2a70b825a184f6d1 mm/damon/paddr: support addr_unit for DAMOS_LRU_[DE]PRIO
-e2cd4ca867405129d63e38d77af12409d3356f9c mm/damon/paddr: support addr_unit for MIGRATE_{HOT,COLD}
-e61255f363957a9cdf32ad8f91d9db8b253c6c92 mm/damon/paddr: support addr_unit for DAMOS_STAT
-a2bdeec0a469ab651ed7c6c748c06473ff0e8996 mm/damon/sysfs: implement addr_unit file under context dir
-84bf2f78083e0ca3000308d349d48525f0cfdb2f Docs/mm/damon/design: document 'address unit' parameter
-5050980f8058138a7c1a49dad782817a51a92886 Docs/admin-guide/mm/damon/usage: document addr_unit file
-7a7b98b2034a6d23fe65e75e9f455f90c9ff234b Docs/ABI/damon: document addr_unit file
-eae15df739babc973467f2f3f2448c4d7243190d ==== docs for DAMON and mm ====
-afe341bb6ff9ebd1d58f708c6c23ecbc4bcdbf71 mm/damon/sysfs-schemes: fix wrong comment on damons_sysfs_quota_goal_metric_strs
-53e0028be9b7c8c04ef2dbcd833008b25a798e8d Docs/mm/damon/design: add table of contents for overall and DAMOS
-c0e89648ef2ddcd8af25e77ca1b7cadfe834e429 Docs/process/2.Process: Update mm tree URL
-66d812b9287c7d33775cc25844e4ab76eca4c793 Docs/mm/damon/design: add API link to damon_ctx
-b38dcfb865ecfa67972bf3d1626a7ad95597a507 ==== write-only monitoring ====
-6932d8466eba8a6fc341e82ab0c1b0d24e8ba6ea ==== ACMA ====
-7a3a6a4d4487a55a0563b068bdde62704f08bb14 mm/damon: implement DAMOS actions for access-aware contiguous memory allocation
-38d50807d22e20ac1d89e622effd16c03e58b67b mm/damon: add the initial part of access/contiguity-aware memory auto-scaling module
-680c0142db80546265c48d33490ae0ff5c7b83c3 mm/page_reporting: implement a function for reporting specific pfn range
-742f39ef81d54ea7217cf46492660583f72c8514 mm/damon/acma: implement scale down feature
-8d47c360687759ca04adf23de2081de84c19a693 mm/damon/acma: implement scale up feature
-9b7b8671a331303b6e646ad17048efdc59836b91 drivers/virtio/virtio_balloon: integrate ACMA and ballooning
-30b31128760438e842667f625373013a365c3315 === commits aiming not to be posted ===
-d5289b6314e99c70306d0f6e235530e509f3833a mm/damon: Add debug code
-01c38941b9fdd6d95cf9c4ae7bcbb518bc1982ff mm/damon/core: add debugging log for intervals auto-tuning
-bcc97ee2cb861b092510fb94112b4dbf3a3fd18f mm/damon/core: add debugging log for wrong moving sum nr_accesses update
-a39869ae9867268de646d71721a6fe02d5b1871c mm/damon/sysfs: Add a file for simple checking memcg ids and paths
-c9745995102c9233a39bdff86b461d957a56fa38 mm/damon/core: add todo for DAMOS interval validation
-5c6bcc7621dd1dcafb59bca63a3287eb76751fc4 mm/damon/core: add debugging-purpose log of tuned esz
-2d83e7927fa9468e620cb95de62dbd6d41d8098f Add debug log for PSI
-9d3185099087c6223277c979d760ed1955b7c0a0 mm/damon/core: add debug log for reset_regions()
-54b97a923a0ad5eb87c58ab70d943f6b047c3a3c ==== page-gran cache address space monitoring ====
-e8ea0d7221457444523dc71c905efc3a0bcfa045 add a script to help understanding of DAMON cops
-123fad93913dbd8dff5f506b14d040cddb710fdb mm/damon/paddr: implement a DAMON operations set for cache address space
-6a61cf81b2e5836d5ac58907a9c191680b2ec46d ==== uncategorized ====
-c25aca41a9e67ec25ea62743077a21d14efdeec0 Docs/damon: update titles and brief introductions
-fb85eaeb2cebe2d8508d71c061fafa995df5a245 selftests/damon/_damon_sysfs: read tried regions directories in order
-7472645c39f8457f674e6a111f72dac3752528de mm/damon/tests/core-kunit: add a test for damos_set_filters_default_reject()
-9f4f302f677b430e65c47d7d112e25f7a6da1a12 mm/damon: add tracevent for auto-tuned monitoring intervals
-f6f5b0abda47096abe5fc4dfc68b8298cc8494ff mm/damon: add trace event for intervals score
-be19ca6f147521b1fa7198be1b3e0a39590326cc mm/damon/core: warn and fix nr_accesses[_bp] corruption
-13bdde52efeabdff509a3a3db1cda551b8559ac4 tools/mm: add thp_swap_allocator_test to .gitignore
-5767a48f0efe3e0b60dac6cefb18eb816b151b26 mm/damon/paddr: use a struct for damos action applying
-f06e33888b21ccb0b3de75aebd1a8cd6f4df4d7a mm/damon/paddr: remove unused variable, folio_list
-6c013dd007453dc5eef1af3396ca1737fec257f6 selftests/damon: add drgn script for dumping damon status
+a34d74877c66ce484ad586d806002ceaedd58657 PCI: Restore assigned resources fully after release
+39e703ed3b48c4262be141072d4f42a8b89a10cc selftests/pcie_bwctrl: Fix test progs list
+0747c136753ef44a3b1434a235492ef54081b96e MAINTAINERS: Move Manivannan Sadhasivam as PCI Native host bridge and endpoint maintainer
+83b2d345e1786fdab96fc2b52942eebde125e7cd x86/e820: Discard high memory that can't be addressed by 32-bit systems
+efabefb05aa1fe534ddb1839980824a763a7f1b0 openrisc: Refactor struct cpuinfo_or1k to reduce duplication
+0c4a6e79ef522554bc509294dfe69b24ee78205d openrisc: Introduce new utility functions to flush and invalidate caches
+4e6d24a309e60251439f08f15de37b489465f17b openrisc: Add cacheinfo support
+20a43732736ac270c35601f7f22a0bcd2db4cba4 Documentation: openrisc: Update mailing list
+66ffd2f3161124f2f5019b55d8ef3add26a002a5 Documentation: openrisc: Update toolchain binaries URL
+f37bb5486ea536c1d61df89feeaeff3f84f0b560 Revert "drm/meson: vclk: fix calculation of 59.94 fractional rates"
+1017560164b6bbcbc93579266926e6e96675262a drm/meson: use unsigned long long / Hz for frequency types
+095c8e61f4c71cd4630ee11a82e82cc341b38464 drm: panel: jd9365da: fix reset signal polarity in unprepare
+4ea404fdbc39971814cd3eb36b43c11fb6f32e17 lib: Ensure prime numbers tests are included in KUnit test runs
+5cf3c602df88b471178a5717b17e529d09acad84 drm/amdgpu: Use allowed_domains for pinning dmabufs
+5e56935b519b2fbbca1cafa0cef3c7c3d062f62d drm/amdgpu: Don't pin VRAM without DMABUF_MOVE_NOTIFY
+7eb287beeb60be1e4437be2b4e4e9f0da89aab97 drm/amd/display: Fix gpu reset in multidisplay config
+67fe574651c73fe5cc176e35f28f2ec1ba498d14 drm/amd/display: Force full update in gpu reset
+756c85e4d0ddc497b4ad5b1f41ad54e838e06188 drm/amd/display: Enable urgent latency adjustment on DCN35
+a92741e72f91b904c1d8c3d409ed8dbe9c1f2b26 drm/amdgpu: Allow P2P access through XGMI
+870bea21fdf88f45c94c0a3dbb0e3cc1b219680f drm/amd/display: Fix ACPI edid parsing on some Lenovo systems
+d59bddce49bfd323f1218bb6c3ad314e5c4e8f9d drm/amd/display: Use 16ms AUX read interval for LTTPR with old sinks
+6ed0dc3fd39558f48119daf8f99f835deb7d68da drm/amd/display: Default IPS to RCG_IN_ACTIVE_IPS2_IN_OFF
+b316727a27d0dac1e6b7ae51204df4d0f241fcc2 drm/amd/display: do not copy invalid CRTC timing info
+0db61388b389f43c1ba2f1cee3613feb4fd12150 perf/core: Change to POLLERR for pinned events with error
+cfa00a625f1c730e93f96b5b4ba7c1b4dc286c79 drm/exynos: Remove unnecessary checking
+0253dadc772e83aaa67aea8bf24a71e7ffe13cb0 drm/exynos/vidi: Remove redundant error handling in vidi_get_modes()
+30b66dd0523df5153319a2abaa2399c7c76945cb drm/exynos: fixed a spelling error
+e8de68ba86f4f84d388f2d964eba96c034120a84 drm/exynos: exynos7_drm_decon: Consstify struct decon_data
+c171ad1e8166ff8b3ab9ac94bad2574167b41f66 drm/exynos: Fix spelling mistake "enqueu" -> "enqueue"
+4ce385f56434f3810ef103e1baea357ddcc6667e x86/mm: Fix _pgd_alloc() for Xen PV mode
+442cacac2d9935a0698332a568afcb5c6ab8be17 misc: pci_endpoint_test: Defer IRQ allocation until ioctl(PCITEST_SET_IRQTYPE)
+032ce1ea9442e140a80e41078b5431d4c0fa2893 x86/boot: Work around broken busybox 'truncate' tool
+1a97fea9db9e9b9c4839d4232dde9f505ff5b4cc perf/x86: Fix non-sampling (counting) events on certain x86 platforms
+85fd85bc025a525354acb2241beb3c5387c551ec x86/insn: Fix CTEST instruction decoding
+a5f793e16ad8fffa7d2960851a5ac791bba8294d Merge tag 'drm-misc-fixes-2025-04-22' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
+fdfabdc2b7694a5ee3f4cd3706450285c7f12e5e Merge tag 'exynos-drm-fixes-for-v6.15-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/daeinki/drm-exynos into drm-fixes
+250130d2daaa0a828bafbd6ad58479a645029e82 Merge tag 'amd-drm-fixes-6.15-2025-04-23' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
+fb8e9f59d6f292c3d9fea6c155c22ea5fc3053ab LoongArch: Select ARCH_USE_MEMTEST
+bb0511d59db9b3e40c8d51f0d151ccd0fd44071d LoongArch: Make regs_irqs_disabled() more clear
+cc73cc6bcdb5f959670e3ff9abdc62461452ddff LoongArch: Make do_xyz() exception handlers more robust
+2ef174b13344b3b4554d3d28e6f9e2a2c1d3138f LoongArch: Handle fp, lsx, lasx and lbt assembly symbols
+c37325cbd91abe3bfab280b3b09947155abe8e07 LoongArch: Remove a bogus reference to ZONE_DMA
+bd51834d1cf65a2c801295d230c220aeebf87a73 LoongArch: Return NULL from huge_pte_offset() for invalid PMD
+8b2d01fec800081dd68271c01e4d239ef4d7115e LoongArch: KVM: Fix multiple typos of KVM code
+9ea86232a5520d9d21832d06031ea80f055a6ff8 LoongArch: KVM: Fully clear some CSRs when VM reboot
+5add0dbbebd60628b55e5eb8426612dedab7311a LoongArch: KVM: Fix PMU pass-through issue if VM exits to host finally
+3318dc299b072a0511d6dfd8367f3304fb6d9827 irqchip/gic-v2m: Prevent use after free of gicv2m_get_fwnode()
+bbce3de72be56e4b5f68924b7da9630cc89aa1a8 sched/eevdf: Fix se->slice being set to U64_MAX and resulting crash
+fa573aefdf9bc6e4a903551d381ddcbd60f37943 Merge tag 'drm-fixes-2025-04-26' of https://gitlab.freedesktop.org/drm/kernel
+a16ebe51a6a55fdeee12f60fa8b31a740c6af029 Merge tag 'move-lib-kunit-v6.15-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+831e3f545b0771f91fa94cdb8aa569a73b9ec580 Revert "sunrpc: clean cache_detail immediately when flush is written frequently"
+ec0c2d5359e2f288d75d98465829d31c6d26da47 Merge tag 'for-linus' of https://github.com/openrisc/linux
+e742bd199092e4991b559ca63d565457b519153a Merge tag 'loongarch-fixes-6.15-1' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+a226e6540b0a1872debbe9d8f2b3d72c53d90de6 Merge tag 'irq-urgent-2025-04-26' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+86baa5499c468f306ca7cdfc1663398c99646ceb Merge tag 'perf-urgent-2025-04-26' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+3d23ef05c32464dfb1b010301e332c0dfc62e282 Merge tag 'sched-urgent-2025-04-26' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+06b31bdbf84990c60adba7185fe4a340473120cb Merge tag 'x86-urgent-2025-04-26' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+d22aad29de2a7b13f43ccb9b55cfd5daf793ead4 Merge tag 'nfsd-6.15-2' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+5bc1018675ec28a8a60d83b378d8c3991faa5a27 Merge tag 'pci-v6.15-fixes-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
 
---===============3635297545623586112==--
+--===============8300030428689624228==--
