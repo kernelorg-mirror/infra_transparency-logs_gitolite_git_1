@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7377164938889561850=="
+Content-Type: multipart/mixed; boundary="===============6126346419530655540=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 28 Apr 2025 08:14:16 -0000
-Message-Id: <174582805637.1976279.17890809874019608911@gitolite.kernel.org>
+Date: Mon, 28 Apr 2025 08:14:21 -0000
+Message-Id: <174582806125.1976565.9403579204389755696@gitolite.kernel.org>
 
---===============7377164938889561850==
+--===============6126346419530655540==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,50 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
+  - ref: refs/heads/tty-linus
+    old: e1ca3ff28ab1e2c1e70713ef3fa7943c725742c3
     new: b4432656b36e5cc1d50a1f2dc15357543add530e
-    log: revlist-0af2f6be1b42-b4432656b36e.txt
+    log: revlist-e1ca3ff28ab1-b4432656b36e.txt
 
---===============7377164938889561850==
+--===============6126346419530655540==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1745828086 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1745828091 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1745828055-7a46291e159aa588fd31c213527b2f7ba2999065
+nonce 1745828059-01035b6b188273784f08e34ef75761b3745dc940
 
-0af2f6be1b4281385b618cb86ad946eded089ac8 b4432656b36e5cc1d50a1f2dc15357543add530e refs/heads/main
+e1ca3ff28ab1e2c1e70713ef3fa7943c725742c3 b4432656b36e5cc1d50a1f2dc15357543add530e refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgPOPYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UG8P/j67Vw1S4tBldb/dW9Fm
-CP0PaHvhw+f87Kes64AIo22XWACgZ6om/iW+tciq9MrqbG1XnSBfMFtNwj/XzjnY
-nbOfbk3lUj836ZGRAVwoBRJXc48vtL8/Aq83f8D0I98jWRAP7XToslHqoIHdyJNB
-5Gwbxxjqbd1MKGrITJz0d0D/A/ZEAqXqim0SWtfWoEOLjsdaB2FwlN/hE49fZ8Bt
-qkA90KnVKKjgfg/ZdQE0Ch0yNrMf1iAHM1AGPS0Dnn1ATJaS0PCA6iPLdxsFH8+8
-Fed/z89/BWyMtidq6lxV7AZU0Ln+j/hCLdKp/t1H/KdwcRL8mhmoU1nDOya88Oef
-SfM7zU2hvnGstZR89cwlhk5bWndXAPnBVbfnaWizbYrtlNhxRtVq1FXs8OJd2Z1v
-3kTRsDywhIUYl2stZk5PpOLHpK4k4r4iMknio07j9Vp5oxVa4VuK9o0SzxwtypPx
-okYyBogW2aM8Q+zrcQttXjGRgTaeLJfNNhdtLUfuTLZRemzLo6JcgkG5x48pdqsL
-ZbEhoXlfQ8ibqnyd7rVOJsgcS56bn2jPGGVp8npcZFB4ojxB/GSJikHDgCvxdhRw
-5g+q71ssz6yzwgfMOTN5vxdtbhADKQGHtEqnt1BrD0tf0wxMvvTgW7wgWAvezzaX
-rACtx0ohil4wcaVAWksC8iJJ
-=unEU
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgPOPsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qfQQAMpi+VdLyIu2wQDbN+Bk
+8nyYL5Z5snkUhKAjIBzatxFeZIyMETd4kwX4fYEcu+LvENzqFZL73WApeusyGXDl
+tlKKAXqJ2R9TZGMzt2oXnLtRL1mq6EyIyridkpNrcahf01CbSLqRg1WY94D1j2J5
+rWATNszA/AM8HW8fjObSLoZUfys9unsz55lX5ubYIMDdRiXdSzQHZQyvZ+nhH2Dx
+XxL+V9oI+ClQuKbfn28IwMJAebFjfRpLA2x2eYAQ2/Fj09RDcRY3XyBwHx08Vi6J
+erYfIzxDUAAbZzid7JfSq+aujnTdbYiVV6Cz6mlH0jSyqrypAAq6WX7zvH7wwNVy
+X95BozO6KDMfFeHzMuQYWEndUgy6mljdKlZWCKZWcyIaCUAvLYltNgdEYuJcSDa3
+EtDgwsUEKAGqA6LuAL2S+lYX+ocepL8qfHP7cbr1l7zNbrMmGSY5z1b6h5op/Wt/
+aVGExJx3E2MnftMQ0EQ0zle4kVik7XPQfSdS0yKypPm5aonnRMFCdgtimrI7H7RP
+zOeSeG6gNhJvfxdRzjXTllTTdwrPa24zx+X9GRy7Zb93wezfBwK5WBVc0tKKStTG
+/i0nM0NSKyFC/ACHDSM/Ocd2hFIYAfIPuI7xayKJiI1O9pvJWNISM/0z8hRAbRUl
+YgbnAl0dCjvPsNJ+HHA2Ntfa
+=CzmU
 -----END PGP SIGNATURE-----
 
---===============7377164938889561850==
+--===============6126346419530655540==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0af2f6be1b42-b4432656b36e.txt
+Content-Disposition: attachment; filename=revlist-e1ca3ff28ab1-b4432656b36e.txt
 
+a94fd938df2b1628da66b498aa0eeb89593bc7a2 virtiofs: add filesystem context source name check
+9b58440a5b2fe78102ce1e9e03946645558d0f55 io_uring/zcrx: put refill data into separate cache line
+5a17131a5dbd0ebca655bfb65fe3fe643ccc27f3 io_uring/zcrx: separate niov number from pages
 cf960726eb65e8d0bfecbcce6cf95f47b1ffa6cc io_uring/kbuf: reject zero sized provided buffers
 56a49e19e1aea1374e9ba58cfd40260587bb7355 cpufreq/amd-pstate: Fix min_limit perf and freq updation for performance governor
 9546ad1a9bda7362492114f5866b95b0ac4a100e nvme: requeue namespace scan on missed AENs
@@ -413,8 +416,6 @@ c1846ed4eb527bdfe6b3b7dd2c78e2af4bf98f4f USB: wdm: close race between wdm_open a
 73e9cc1ffd3650b12c4eb059dfdafd56e725ceda USB: wdm: add annotation
 e2aef868a8c39f411eb7bcee3c42e165a21d5cd6 Merge tag 'ovl-fixes-6.15-rc2' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/overlayfs/vfs
 f57edca8c1e6148e6221c3abca4efce2c6eed2cb dt-bindings: timer: renesas,tpu: remove obsolete binding
-7094832b5ac861b0bd7ed8866c93cb15ef619996 serial: msm: Configure correct working mode before starting earlycon
-ee6a44da3c87cf64d67dd02be8c0127a5bf56175 tty: Require CAP_SYS_ADMIN for all usages of TIOCL_SELMOUSEREPORT
 9b03fa105c6978f0e20fd311ac903226a9e89890 Merge tag 's390-6.15-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 c86e5b561a4a6b81828528fe61adf7352b756c7f Merge tag 'acpi-6.15-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 023e62ce85ced0ea6e71719d168be6b269d7f836 Merge tag 'iommu-fixes-v6.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/iommu/linux
@@ -574,7 +575,6 @@ c86b300b1ea35959a6e2a63a6497226a6ea90b67 fs: add kern_path_locked_negative()
 332ec18d57de2f77f43a988cbf1cb7693409434a MAINTAINERS: update the location of the driver-core git tree
 37ffdbd695c02189dbf23d6e7d2385e0299587ca usb: quirks: Add delay init quirk for SanDisk 3.2Gen1 Flash Drive
 429a98abfc01d3d4378b7a00969437dc3e8f647c usb: typec: class: Unlocked on error in typec_register_partner()
-e1ca3ff28ab1e2c1e70713ef3fa7943c725742c3 serial: sifive: lock port in startup()/shutdown() callbacks
 170d1a3738908eef6a0dbf378ea77fb4ae8e294d binder: fix offset calculation in debug log
 44d9b3f584c59a606b521e7274e658d5b866c699 comedi: jr3_pci: Fix synchronous deletion of timer
 25744f849524e806a13ade17c4fb83f6888fe954 io_uring/zcrx: return ifq id to the user
@@ -1082,4 +1082,4 @@ d22aad29de2a7b13f43ccb9b55cfd5daf793ead4 Merge tag 'nfsd-6.15-2' of git://git.ke
 5bc1018675ec28a8a60d83b378d8c3991faa5a27 Merge tag 'pci-v6.15-fixes-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
 b4432656b36e5cc1d50a1f2dc15357543add530e Linux 6.15-rc4
 
---===============7377164938889561850==--
+--===============6126346419530655540==--
