@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2008014682446289851=="
+Content-Type: multipart/mixed; boundary="===============4998753749073095310=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Mon, 28 Apr 2025 08:18:21 -0000
-Message-Id: <174582830170.1981071.8448272267305001677@gitolite.kernel.org>
+Date: Mon, 28 Apr 2025 08:22:10 -0000
+Message-Id: <174582853099.1985061.11531130440857786974@gitolite.kernel.org>
 
---===============2008014682446289851==
+--===============4998753749073095310==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,7 +16,7 @@ repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-testing
+  - ref: refs/heads/driver-core-next
     old: 785151f50ddacac06c7a3c5f3d31642794507fdf
     new: 0e4965c80ef0f862bff0e2bb6870c8ee118c318e
     log: |
@@ -25,34 +25,34 @@ changes:
          0e4965c80ef0f862bff0e2bb6870c8ee118c318e Merge tag 'gpiod-devm-is-action-added-for-v6.16-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/brgl/linux into driver-core-next
          
 
---===============2008014682446289851==
+--===============4998753749073095310==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1745828329 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1745828561 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1745828298-2f169f99c7077576c50dd4a2dc9009a5df43c7de
+nonce 1745828529-1eabf40022774cf0a46cc979df9e18d019326e46
 
-785151f50ddacac06c7a3c5f3d31642794507fdf 0e4965c80ef0f862bff0e2bb6870c8ee118c318e refs/heads/driver-core-testing
+785151f50ddacac06c7a3c5f3d31642794507fdf 0e4965c80ef0f862bff0e2bb6870c8ee118c318e refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgPOekbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rjwP/3VfmB6SPrh+gUfIkTY/
-Xnr3TLEJVOBpTwywnRzlZz7R8GtsSzxlkKhzmfdhDLfvc3B0D9tSRND4YjvRqOsA
-XgKPmosIpnx3BY/XiT5EH1gDA0RwU50bWrsqqh/cOtG2SZMHCAW8zmEmEFnso7Mt
-AAxSJBKrCRl4mjbtatzc/afBCy/olH+uijxKNcaPY426BJxtPkzCutZlw52x50ZW
-jL9v5P2tcbpYZMYH8BhQIBZHQkJs+sGKrStj5rxlk60wyBrXVQByhGJ+7OEMsU5N
-0S80n+O28MwjxuVR0tRL1JwrTx/mSh2z9aSYrLEtX/hAFCFDzAIqYcjpwkZaM92j
-rB60qwuqpF5Eu9ApeDzfUxLpj47T37l19FIUGz2ddW18mYU/hf/LaczwSxxkDYmU
-e3PTmUVX4z/sT1YpyFzmVhWQ6ePs0rCW5O0xOj38oWZMU5pCHjWDl3L+fPGj/WdC
-KEQOS7ZhXcKkm8AyErbtUBlo7KEV7DFE5pOg80oD5/UjeChyICruqY3JgQ8Tbt7W
-rYfFZ5/VKvqyFtZNvnBQZxIzgRYxtV/RLCyujY8vyBwpANkICW+y6TwPd+Ry2+rb
-BXH9FHa+abwEqOw6GhnmXZZ0o67ApcCV6/a+Y1WKyZYl9lK6vTcfULb8yNwz1yXw
-7yfpYZshR4X/4ehmtB0oWkWQ
-=vFQp
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgPOtEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RvQP/Au8ZjT+fYuaXN2MeaH9
+2q+7QARUiU5SJfqfGhq9bJbmVBV6TBzQZNWgZXfUVi6pzctOXWJQDdAN9IBc2bRX
+iRlmm64dE66nwX6Jb1Y73axbArQGZZPYtWH2gQzrvZB5VWnaFBt6cesNthYg6GqI
+Q+mz+HHYgulAaMLwzrEKtQVTlPY0km5USEzQZJHqBwOqiJXgjCNl8DzUuKJlKr1Y
+uXnNmEAjbGzdl66IR/4mzEcTEgxqvzDbPXYZKk3Fqhs1mDyZPBAF7TAjHFYwzWjx
+xyAgUXjXwaoNsXX0f7XUFgdS2KvOdwCnLTku8CBbGoIcl36wGVH1E/pCD65sE/qY
+lYkEPH2OckuPIcHkvnArZEo3IG6WjueMaKZ2WmX92EAssVbwSt13ReAdB0MBU9U7
+xPMv5QB7lhKsdZlzlBRtVWyvoq5PVQsX3ensbo+vEYTBq2EWAQLZ9rGFvu5zvO0/
+kUWTikj4pLQfWnNw+4NSPBEUP39742gZHQ/3hnlH0jVpYOK4JT5x4Rnkt7ownplU
+6Y2KX6ixcS+UTEdqjsy7HTxZfz/PHZEx4YlrRNKyZNhLVvpRw4jmNFK0rldCfHlN
++WAwkSxsXvdEPBAx5GgmKPjMPRXjCOrDAT82CxxfpnjHgvh94G43jPRtECwIAQkM
+sTE/hoG+8oo25hQYr33dG45r
+=GR0B
 -----END PGP SIGNATURE-----
 
---===============2008014682446289851==--
+--===============4998753749073095310==--
