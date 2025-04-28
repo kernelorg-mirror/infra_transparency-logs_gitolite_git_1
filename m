@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8750916960097911774=="
+Content-Type: multipart/mixed; boundary="===============8647955671628844767=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 28 Apr 2025 14:44:20 -0000
-Message-Id: <174585146062.2365894.12265504872200159076@gitolite.kernel.org>
+Date: Mon, 28 Apr 2025 14:44:26 -0000
+Message-Id: <174585146643.2366146.8820220462978044405@gitolite.kernel.org>
 
---===============8750916960097911774==
+--===============8647955671628844767==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/main
-    old: d72361ad0d70ac0659ebb1781907ddaa4cb61240
-    new: ac0d3b3e89e38b34082dde2b0c07b1af6a9f8d80
-    log: revlist-d72361ad0d70-ac0d3b3e89e3.txt
+  - ref: refs/heads/kernel-6.12.24/nfs
+    old: 55079b2815d75602b9f25be33f462e071fdac3b6
+    new: d2c0e4f57d7919ce362158c45ae0ae9c82b020a7
+    log: revlist-55079b2815d7-d2c0e4f57d79.txt
 
---===============8750916960097911774==
+--===============8647955671628844767==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d72361ad0d70-ac0d3b3e89e3.txt
+Content-Disposition: attachment; filename=revlist-55079b2815d7-d2c0e4f57d79.txt
 
 a1cb8d18a5101f20c1e7b61fa8e52a4889dae93b mm/list_lru: don't pass unnecessary key parameters
 8e60572019ede406c52405a072d05185b2057978 mm/list_lru: don't export list_lru_add
@@ -152,16 +152,7 @@ f3287b1d6ae97a1442bc243c8d8801ed7bf0b1dd nfs: handle failure of nfs_get_lock_con
 5acde97ece6d160acfabc9537cea530ebc72f353 nfs: direct: drop useless initializer in nfs_direct_write_completion()
 1480cf08a0f3f202bb681941759a990343c363b6 nfs: nfs3acl: drop useless assignment in nfs3_get_acl()
 79a7d3f036061ea930ca1e819136a17ab345bfcb NFS/localio: Fix a race in nfs_local_open_fh()
-f40b35c73286dd33a17fb89ce8351e27e43e969b filemap: Add a helper for filesystems implementing dropbehind
-feabd8013e116493c4b678b2739e675c38f82ec8 filemap: Mark folios as dropbehind in generic_perform_write()
-4b7efd81b324c27aae72368bf4eadb99481ef845 NFS: Enable the RWF_DONTCACHE flag for the NFS client
-a5dd05da846854b906376f5aad87e13c963a283c NFS: add RWF_DONTCACHE support to LOCALIO
-284c895205fe96975f892318bf187c388717bd81 NFSD: add the ability to enable use of RWF_DONTCACHE for all nfsd IO
 a9675ea8e363b362fdffe51ca1d23210728621b2 NFS: Avoid flushing data while holding directory locks in nfs_rename()
 d2c0e4f57d7919ce362158c45ae0ae9c82b020a7 NFS/localio: add dummy definition for nfsd_file
-fb8c979c2b924dee67d846f814193a19d2e0f0b8 Merge branch 'kernel-6.12.24/nvme' into kernel-6.12.24/main
-0f175c943b1ec0f0e2353d41161b12663f8b27af Merge branch 'kernel-6.12.24/localio' into kernel-6.12.24/main
-2fe70a8d61b0658ab0dff52ac9bfe41768aacf55 Merge branch 'kernel-6.12.24/dontcache' into kernel-6.12.24/main
-ac0d3b3e89e38b34082dde2b0c07b1af6a9f8d80 Merge branch 'kernel-6.12.24/nfs' into kernel-6.12.24/main
 
---===============8750916960097911774==--
+--===============8647955671628844767==--
