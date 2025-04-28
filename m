@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3460606679123683666=="
+Content-Type: multipart/mixed; boundary="===============2480382689819871843=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 28 Apr 2025 08:33:54 -0000
-Message-Id: <174582923425.1994164.3405462183688357971@gitolite.kernel.org>
+Date: Mon, 28 Apr 2025 08:33:58 -0000
+Message-Id: <174582923865.1994394.6370502260253993961@gitolite.kernel.org>
 
---===============3460606679123683666==
+--===============2480382689819871843==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,75 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
+  - ref: refs/heads/usb-linus
+    old: 3dfc0445274252301dfcf3980d79acceea6409d1
     new: b4432656b36e5cc1d50a1f2dc15357543add530e
-    log: revlist-0af2f6be1b42-b4432656b36e.txt
+    log: revlist-3dfc04452742-b4432656b36e.txt
 
---===============3460606679123683666==
+--===============2480382689819871843==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1745829264 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1745829268 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1745829233-4de28234f46bfcebf507b03aaefc3b2bfdb8ae87
+nonce 1745829236-30a80c3f56036056f2ca0b3134909d846e74686a
 
-0af2f6be1b4281385b618cb86ad946eded089ac8 b4432656b36e5cc1d50a1f2dc15357543add530e refs/heads/main
+3dfc0445274252301dfcf3980d79acceea6409d1 b4432656b36e5cc1d50a1f2dc15357543add530e refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgPPZAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NA4QAIn78fJaU9zYtuDkYRD9
-MTFUtyxlqsDtE5cO2WIwvvTDCffZeQd/K5c31848tMkWrzE2t3kz1JyRkrHckdbQ
-L9MfzoGidWyO8Maa7Nj1S3UyS50pF+W5XLypdcuTdMUhpqUzIntHeh1WgZBHpjQ4
-FHwirmKza39ILs6GNruI4PgzCXmBHPoK+VZ16bSSv6oIQDvhaDowRbgThR4kXJmR
-eVz7JA3WW26iGmf01DPFEuAI9E9ozN7MlSWX8HoI/sy9Ad4qYpz7t0RULU/iwMe8
-AeHXVyArIlxvObZ0SQX1w41yKN+BHcmSEnlhhNzgG5EhbwQ4wjQpRtUPagzfwh8B
-rlovmwfelAKALJ16OZNYRddyOVbj8P9/bl32I41nNE3UBAEgp+zD4rtyBsj5h/rl
-wTiWZfTs+tVT4a2YhMqb4hFjApH6eSFu6jaAGd+CSGXqwCzqsNcMYJ4utVM2X0/0
-k9bpDXxyViIFkRtW5sPZBuTSyA7ulkxMFEJKN4///arLQePyN3WdYElwPRwSmmCa
-jQ2cUMMKjpvM8KGEr8TTbrJupMZgDonmzUPgdAyJlEQoPmdIOXmYr6LaYPeAGX6n
-dVMWVRXlfWse8QgL9rvrTOIOV3aGoFHw613nSkae0yv9yiAGp3m4xnumIFlupUTy
-pXGLu7FXQHxQZelvpRI9FDnF
-=Apx4
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgPPZQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FCYQAJkVZzg/riiqnMtf8qvn
+wZt8jT0SRfv412+SbGQAAezRcQxPSObPGEHZsxjY8MQl9HpMFcl27FOgBI9BQFIc
+sa2lkqoRo/LUo59FsvKGG+ouBoGWK9g1jc0Sul5He0lntK/JNH/R0MDlJl/uJcXQ
+I8FjrWkfOh3K5djF3+zZGbdxaCTGc0NvdXBCjewepwAjs9URVfaydDkVOyFOk536
+NTevPlP3W9Eh6c0LnUMFMW97hbWbhjdMJkgDGUJZToaNDxKxmAVJrW4uVdDuwM6p
+TQIMi2F4kNMrEx9Al/zlvIE4/mnLlVzJud65YuQxdFe1XXFyfj4wo8JURosUZBwQ
+hsqROZNUXbLF8MFBhuHDDccxO6bwywps9CYsWjd5jgJl0eU7cr1cYTJOsvvEYsBh
+Zx94Wbqs1boLPNU87i5MuI8n3pdjixBBlkhaKs0+Q7Sa7+Hv8GcPWrmMdLSvmPmG
+UesWkKkVKCrZEzfFKme7Cj61H7mkuc2KaqnKop4WAThcjWptSderExP9MPU5HxPJ
+jX2wR3H1xJDfioPz2//6eL5hDal17rg/8icxOh+UzxvPR5cR1jOv/LVsEFf2SMf9
+aliP+/ITK11ZS/diiZyDlr1NGasppNrJSUqTQzxvgZ/3P1pdh8zmu9aT0thLJLaX
+yx8T4hPntfyNNuWKlXOJzS1g
+=8tSv
 -----END PGP SIGNATURE-----
 
---===============3460606679123683666==
+--===============2480382689819871843==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0af2f6be1b42-b4432656b36e.txt
+Content-Disposition: attachment; filename=revlist-3dfc04452742-b4432656b36e.txt
 
+8323f3a69de6f6e96bf22f32dd8e2920766050c2 gpio: tegra186: fix resource handling in ACPI probe path
+36c6468724aa98d33fea9a1d7e07ddda6302f5d4 mtd: nand: Drop explicit test for built-in CONFIG_SPI_QPIC_SNAND
+d027951dc85cb2e15924c980dc22a6754d100c7c mtd: inftlcore: Add error check for inftl_read_oob()
+b79fe1829975556854665258cf4d2476784a89db mtd: rawnand: Add status chack in r852_ready()
+1c1fd374a2fe72b8a6dde62d3c3a9fd153e7581c mtd: spinand: Fix build with gcc < 7.5
+120305ab9017ee76ac0bed4b72b349faeb1deb1c ALSA: hda/tas2781: Remove unnecessary NULL check before release_firmware()
+75f8c87555e6ddeff2c49bd47460a71a940edc48 irqchip/davinci: Remove leftover header
+305825d09b15586d2e4311e0c12f10f2a0c18ac5 irqchip/sg2042-msi: Add missing chip flags
+ed583d008edcb021c30ecad2e9d5c868d9ed5862 drm/i915: Fix scanline_offset for LNL+ and BMG+
+9d3d9776bd3bd9c32d460dfe6c3363134de578bc drm/i915: Disable RPG during live selftest
+2e43ae7dd71cd9bb0d1bce1d3306bf77523feb81 drm/i915/gvt: fix unterminated-string-initialization warning
+584cf613c24a4250d9be4819efc841aa2624d5b6 drm/i915/dp: Reject HBR3 when sink doesn't support TPS4
+bc1feb8174b7e46c1806a6f684d89a47508f3a53 drm/i915/xe2hpd: Identify the memory type for SKUs with GDDR + ECC
+8578b2f7e1fb79d4b92b62fbbe913548bb363654 riscv: Use kvmalloc_array on relocation_hashtable
+70fc03cd76311a06c8c84deb70b2e16837497774 Documentation: riscv: Fix typo MIMPLID -> MIMPID
+0f2946bb172632e122d4033e0b03f85230a29510 xen: Change xen-acpi-processor dom0 dependency
+eb3a04a8516ee9b5174379306f94279fc90424c4 ovl: don't allow datadir only
+a6eb9a4a69cc360b930dad9dc8513f8fd9b3577f ovl: remove unused forward declaration
+87af633689ce16ddb166c80f32b120e50b1295de x86/xen: fix balloon target initialization for PVH dom0
+d8455a63f731b4f585acc4d49fd7ad78db63b3d0 platform/x86: intel_pmc_ipc: add option to build without ACPI
+6c44e5354d4d16d9d891a419ca3f57abfe18ce7a RAS/AMD/ATL: Include row[13] bit in row retirement
+00e53d0f4baedd72196b65f00698b2a5a537dc2b pwm: Let pwm_set_waveform() succeed even if lowlevel driver rounded up
+fda6e0034e9da64e1cec31f4539b6c7abd9ed8be pwm: stm32: Search an appropriate duty_cycle if period cannot be modified
+a85e08a05bf77d5d03b4ac0c59768a606a1b640b pwm: axi-pwmgen: Let .round_waveform_tohw() signal when request was rounded up
+cfa5f336bdbde49cf0102ab55007b34361988fd1 devpts: Fix type for uid and gid params
+a94fd938df2b1628da66b498aa0eeb89593bc7a2 virtiofs: add filesystem context source name check
+9b58440a5b2fe78102ce1e9e03946645558d0f55 io_uring/zcrx: put refill data into separate cache line
+5a17131a5dbd0ebca655bfb65fe3fe643ccc27f3 io_uring/zcrx: separate niov number from pages
 cf960726eb65e8d0bfecbcce6cf95f47b1ffa6cc io_uring/kbuf: reject zero sized provided buffers
 56a49e19e1aea1374e9ba58cfd40260587bb7355 cpufreq/amd-pstate: Fix min_limit perf and freq updation for performance governor
 9546ad1a9bda7362492114f5866b95b0ac4a100e nvme: requeue namespace scan on missed AENs
@@ -364,11 +392,6 @@ ae4814a3aab54ce548950161937176b7f9ec6f77 iommu: remove unneeded semicolon
 e4a0f9e0cacd93094b619616426a273e0bc9107e selftests/landlock: Factor out audit fixture in audit_test
 6b4566400a2919e6c1137404c53d7cf1ada559aa selftests/landlock: Add PID tests for audit records
 d27326a9999286fa45ad063f760e63329254f130 dma-buf/sw_sync: Decrement refcount on error in sw_sync_ioctl_get_deadline()
-af1352f82729d742506715176c15065a6b583167 Revert "xhci: Avoid queuing redundant Stop Endpoint command for stalled endpoint"
-b513cc1905bb360f48be281a1ded272131a8227a Revert "xhci: Prevent early endpoint restart when handling STALL errors."
-9e3a28793d2fde7a709e814d2504652eaba6ae98 usb: xhci: Fix Short Packet handling rework ignoring errors
-1ea050da5562af9b930d17cbbe9632d30f5df43a usb: xhci: Fix invalid pointer dereference in Etron workaround
-bea5892d0ed274e03655223d1977cf59f9aff2f2 xhci: Limit time spent with xHC interrupts disabled during bus resume
 6907e8093b3070d877ee607e5ceede60cfd08bde nvmem: rockchip-otp: Move read-offset into variant-data
 1b23c14c07326a095b93145ca9ea31cf53d4bde1 dt-bindings: nvmem: rockchip,otp: add missing limits for clock-names
 9165960606dff725174155472583efec60f25bab dt-bindings: nvmem: rockchip,otp: Add compatible for RK3576
@@ -382,8 +405,6 @@ eed6d954542fb55c814dd54b7fcc1b515bd76464 dt-bindings: nvmem: fixed-cell: increas
 3566a737db87a9bf360c2fd36433c5149f805f2e nvmem: qfprom: switch to 4-byte aligned reads
 b78de5c2c60f5f65ce401ca791692409ef9ceaec dt-bindings: nvmem: Add compatible for IPQ5018
 e9a573e2d7c6409519c2aa367d524dba31694f95 dt-bindings: nvmem: Add compatible for MSM8960
-ec27386de23a511008c53aa2f3434ad180a3ca9a usb: typec: class: Fix NULL pointer access
-66e1a887273c6b89f09bc11a40d0a71d5a081a8e usb: typec: class: Invalidate USB device pointers on partner unregistration
 3b607b75a345b1d808031bf1bb1038e4dac8d521 null_blk: Use strscpy() instead of strscpy_pad() in null_add_dev()
 a64e4d48a0b77e4ada19ac26ca3a08cd492f6362 afs: Fix afs_dynroot_readdir() to not use the RCU read lock
 b2b4483b5d05026218127fc8f38c69adf69c235b dcache: convert dentry flag macros to enum
@@ -396,21 +417,7 @@ b463d7fd118b984884da7493ae999a62c9892aa3 fs: Fix filename init after recent refa
 5f05c14e7c198415abe936514a6905f8b545b63b wifi: iwlwifi: pcie: set state to no-FW before reset handshake
 47a742fd977a7a8c39fea890712e9bfdf76f98f1 fs: use namespace_{lock,unlock} in dissolve_on_fput()
 575fe08c221567cdbf63e078baecaeaed08a1d17 wifi: iwlwifi: mld: Restart firmware on iwl_mld_no_wowlan_resume() error
-4e28f79e3dffa52d327b46d1a78dac16efb5810b usb: chipidea: ci_hdrc_imx: fix usbmisc handling
-8cab0e9a3f3e8d700179e0d6141643d54a267fd5 usb: chipidea: ci_hdrc_imx: fix call balance of regulator routines
-8c531e0a8c2d82509ad97c6d3a1e6217c7ed136d usb: chipidea: ci_hdrc_imx: implement usb_phy_init() error handling
-a1059896f2bfdcebcdc7153c3be2307ea319501f usb: cdns3: Fix deadlock when using NCM gadget
-38d6e60b6f3a99f8f13bee22eab616136c2c0675 usb: dwc3: xilinx: Prevent spike in reset signal
-bcb60d438547355b8f9ad48645909139b64d3482 USB: OHCI: Add quirk for LS7A OHCI controller (rev 0x02)
-2932b6b547ec36ad2ed60fbf2117c0e46bb7d40a usb: quirks: add DELAY_INIT quirk for Silicon Motion Flash Drive
 0937cb5f345c79d702b4d0d744e2a2529b551cb2 Revert "wifi: mac80211: Update skb's control block key in ieee80211_tx_dequeue()"
-9ab75eee1a056f896b87d139044dd103adc532b9 USB: storage: quirk for ADATA Portable HDD CH94
-63ccd26cd1f6600421795f6ca3e625076be06c9f usb: dwc3: gadget: check that event count does not exceed event buffer length
-e00b39a4f3552c730f1e24c8d62c4a8c6aad4e5d USB: VLI disk crashes if LPM is used
-9697f5efcf5fdea65b8390b5eb81bebe746ceedc USB: wdm: handle IO errors in wdm_wwan_port_start
-c1846ed4eb527bdfe6b3b7dd2c78e2af4bf98f4f USB: wdm: close race between wdm_open and wdm_wwan_port_stop
-1fdc4dca350c0b8ada0b8ebf212504e1ad55e511 USB: wdm: wdm_wwan_port_tx_complete mutex in atomic context
-73e9cc1ffd3650b12c4eb059dfdafd56e725ceda USB: wdm: add annotation
 e2aef868a8c39f411eb7bcee3c42e165a21d5cd6 Merge tag 'ovl-fixes-6.15-rc2' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/overlayfs/vfs
 f57edca8c1e6148e6221c3abca4efce2c6eed2cb dt-bindings: timer: renesas,tpu: remove obsolete binding
 7094832b5ac861b0bd7ed8866c93cb15ef619996 serial: msm: Configure correct working mode before starting earlycon
@@ -572,8 +579,6 @@ c86b300b1ea35959a6e2a63a6497226a6ea90b67 fs: add kern_path_locked_negative()
 6315d93541f8a5f77c5ef5c4f25233e66d189603 can: rockchip_canfd: fix broken quirks checks
 8e553520596bbd5ce832e26e9d721e6a0c797b8b intel_th: avoid using deprecated page->mapping, index fields
 332ec18d57de2f77f43a988cbf1cb7693409434a MAINTAINERS: update the location of the driver-core git tree
-37ffdbd695c02189dbf23d6e7d2385e0299587ca usb: quirks: Add delay init quirk for SanDisk 3.2Gen1 Flash Drive
-429a98abfc01d3d4378b7a00969437dc3e8f647c usb: typec: class: Unlocked on error in typec_register_partner()
 e1ca3ff28ab1e2c1e70713ef3fa7943c725742c3 serial: sifive: lock port in startup()/shutdown() callbacks
 170d1a3738908eef6a0dbf378ea77fb4ae8e294d binder: fix offset calculation in debug log
 44d9b3f584c59a606b521e7274e658d5b866c699 comedi: jr3_pci: Fix synchronous deletion of timer
@@ -640,9 +645,6 @@ b1efcc470eb30073f3dedb9a88cffa71ea75d853 nvmet: auth: use NULL to clear a pointe
 ffe0398c7d6a38af0584d4668d3762b7a97e2275 nvmet: pci-epf: always fully initialize completion entries
 f8e01fa93f3e4fc255d240cfa0c045ce0b5c97ea nvmet: pci-epf: clear CC and CSTS when disabling the controller
 ad91308d3bdeb9d90ef4a400f379ce461f0fb6a7 nvmet: pci-epf: cleanup link state management
-968e1cbb1f6293c3add9607f80b5ce3d29f57583 USB: serial: option: add Sierra Wireless EM9291
-b399078f882b6e5d32da18b6c696cc84b12f90d5 USB: serial: ftdi_sio: add support for Abacus Electrics Optical Probe
-4cc01410e1c1dd075df10f750775c81d1cb6672b USB: serial: simple: add OWON HDS200 series oscilloscope support
 d466304c4322ad391797437cd84cca7ce1660de0 x86/cpu: Add CPU model number for Bartlett Lake CPUs with Raptor Cove cores
 a681b7c17dd21d5aa0da391ceb27a2007ba970a4 fs: ensure that *path_locked*() helpers leave passed path pristine
 2b8e6b58889c672e1ae3601d9b2b070be4dc2fbc cpufreq: cppc: Fix invalid return value in .get() callback
@@ -810,7 +812,6 @@ fd0ad5e9d158436b4a9b34c60582488585e1d90d docs: ABI: replace mcroce@microsoft.com
 38448181459e24257b40d5258afdbaa3565e8cfc mm: vmscan: restore high-cpu watermark safety in kswapd
 a1f0220f3319057b364d871659ef7c10ab78f795 mm: vmscan: fix kswapd exit condition in defrag_mode
 ea21641b6a79f9cdd64f8339983c71c89949dcb5 MAINTAINERS: add section for locking of mm's and VMAs
-9788792ad0a0692c4a5da1efcbac449cfc745bde Merge tag 'usb-serial-6.15-rc3' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
 f12ecf5e1c5eca48b8652e893afcdb730384a6aa io_uring/zcrx: fix late dma unmap for a dead dev
 263e55949d8902a6a09bdb92a1ab6a3f67231abe x86/cpu/amd: Fix workaround for erratum 1054
 d54d610243a4508183978871e5faff5502786cd4 x86/boot/sev: Avoid shared GHCB page for early memory acceptance
@@ -1031,7 +1032,6 @@ e079d7c4db5cba1e8a315dc93030dfb6c7b49459 devtmpfs: don't use vfs_getattr_nosec t
 e6f141b332ddd9007756751b6afd24f799488fd8 splice: remove duplicate noinline from pipe_clear_nowait
 1d28f25d6a6c968ebee8ee6d5b65691d5bfcf95f MAINTAINERS: hfs/hfsplus: add myself as maintainer
 f520bed25d17bb31c2d2d72b0a785b593a4e3179 fs/xattr: Fix handling of AT_FDCWD in setxattrat(2) and getxattrat(2)
-3dfc0445274252301dfcf3980d79acceea6409d1 MAINTAINERS: Assign maintainer for the port controller drivers
 75673fda0c557ae26078177dd14d4857afbf128d bpf: fix possible endless loop in BPF map iteration
 3d9c463f959f41cd6616ebf8a5d15e9d3ef04f16 selftests/bpf: add test for softlock when modifying hashmap while iterating
 6ae003adc029c74e7f97cc65dc1e79109a1f2d67 Merge branch 'bpf-fix-softlock-condition-in-bpf-hashmap-interation'
@@ -1082,4 +1082,4 @@ d22aad29de2a7b13f43ccb9b55cfd5daf793ead4 Merge tag 'nfsd-6.15-2' of git://git.ke
 5bc1018675ec28a8a60d83b378d8c3991faa5a27 Merge tag 'pci-v6.15-fixes-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
 b4432656b36e5cc1d50a1f2dc15357543add530e Linux 6.15-rc4
 
---===============3460606679123683666==--
+--===============2480382689819871843==--
