@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1231752887371856907=="
+Content-Type: multipart/mixed; boundary="===============0000015373353146447=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Mon, 28 Apr 2025 07:52:27 -0000
-Message-Id: <174582674723.1954637.9410530869718180793@gitolite.kernel.org>
+Date: Mon, 28 Apr 2025 07:52:35 -0000
+Message-Id: <174582675555.1955064.13110078669711403140@gitolite.kernel.org>
 
---===============1231752887371856907==
+--===============0000015373353146447==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,59 +16,47 @@ repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: b9792abb76ae1649080b8d48092c52e24c7bbdc2
-    new: b4432656b36e5cc1d50a1f2dc15357543add530e
-    log: revlist-b9792abb76ae-b4432656b36e.txt
+  - ref: refs/heads/driver-core-next
+    old: 142ba31d8b4aff086c4f080bd97d437232922177
+    new: 785151f50ddacac06c7a3c5f3d31642794507fdf
+    log: revlist-142ba31d8b4a-785151f50dda.txt
 
---===============1231752887371856907==
+--===============0000015373353146447==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1745826777 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1745826782 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1745826745-51bdc9dc793b8d77e3f5f811ea9b8daff5449226
+nonce 1745826751-bf8863e07a69553b31763707d23eb69012d1a750
 
-b9792abb76ae1649080b8d48092c52e24c7bbdc2 b4432656b36e5cc1d50a1f2dc15357543add530e refs/heads/driver-core-linus
+142ba31d8b4aff086c4f080bd97d437232922177 785151f50ddacac06c7a3c5f3d31642794507fdf refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgPM9kbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QFoP/ikDo0rh2hg2HGPsRCHl
-sW8boFBkPFYdldAU5Z8NxQJroTCalCOL1yCCQu0a4u8vqRXhD1G364gTkyf70kXt
-4Co6MQhGmx2j6V2Z3T4x53uGUKk8iX6HN/aSVOgwJUVzZpM9xe+sF6k+4XvZjZTl
-ohjDiw15ACEAh33HTZd4bsD56Co0hPhFExTpWRkiY0TvXKC48hx4c4++FLd+54tH
-BzMZLBmw1+O4j8MOSGNAImes42jwlspCMj2SHl13vzU1DGYtBhKDk/hwdpcWQrE0
-+KNZD91TELm6JfNTEiryfGmU3QnkzO5sLQ8Fmbc9TC0yBScdeYeJWbZN/FUlaznF
-L2oae2JeNKt23sQp5BzUyFtvMzAPDbrg0+sMCLqb28kjeSrEghpBC83VYaWq6dLr
-78z+c3/FJaqOlaM4hoOi5CxQXWRTuOZAugoSW/0ojjfrmsZL4sgd4h/XYaybZKkm
-5Z4FXPbS8EI02p/GffjnqNBElf/1fZwQh5pDurLXs39OmVBlDA4qFMltViQedBBv
-SFK3G9jlEA8s9bb2XRrUUkEYbT1MMepa5jYtLyYHU9x2/koYYYxZzxCQyJpcdgE6
-jWAOWI763Q+TzygtlYMUfX41Od3gT+LHfP89ctSBMxvmeWGipntxjV6rqPT6ijMi
-mwOkpISB33cMKoRmQAK7SW10
-=yRCt
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgPM94bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pvAP/3CzkAE+6eg91U2BtzBz
+bPqtELoOwxQfmALzpksHLXGArrEGggWS1pOq8uB8VsBQ3TG7Um9WjKT0GlvhxiiW
+aSrUI1vXtOnOMSUGOT8cUmmJBXCDgzGFtkQKp0YVt8xeusriCzd/DcuwsGa9lgxo
+B11jjFK9JIuqfESsDBTlbVWo8pD+YinTHSg4OfKhLC43wTXg75cm8TPjOz4Fn+Z0
+Dt6SGZMj0iHNwcFbkKdDmuPduewhTwUqymPmUfKhn9DschgI72o0UUNbe43qp6sj
+gJh9BKuX3daAg5rxkO50V9knQWrY6GwR/rzOacc2ysJk61ejrnNKjTUkAIT/En7S
+q0xduZskQ3Fx66YOOCYZ9SptST2x0ofECUIMT7rdFdmdiffPFlmSKFDSta62OGU8
+b2LxZS7T0B6qUl0ySERhwQ4pSJzZhnDVHepjkStMeWcKAiGnt6euipTszTkDSKkW
+26cVF+9WlJM6Pnm5Bah3gn/XCxRYZjwopsM5wdjol2xAmBJYUZU1Jetc2Ywol3MC
+JdJUcHhgY9EXvT6pkjW8I3JH/iYo4t/WBeRJoAW95yZB8uEDXw66MR3JFZLBrx9u
+gjbk7EsKsic/zDwV5VKbIoY3RyCbf55Yopb2/VdOMRy1EWtjkxouxicy9LJBfNyz
+09s5ONqZB1Zx7Qi1c9KnM0sp
+=49iC
 -----END PGP SIGNATURE-----
 
---===============1231752887371856907==
+--===============0000015373353146447==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b9792abb76ae-b4432656b36e.txt
+Content-Disposition: attachment; filename=revlist-142ba31d8b4a-785151f50dda.txt
 
-a6eb9a4a69cc360b930dad9dc8513f8fd9b3577f ovl: remove unused forward declaration
-87af633689ce16ddb166c80f32b120e50b1295de x86/xen: fix balloon target initialization for PVH dom0
-d8455a63f731b4f585acc4d49fd7ad78db63b3d0 platform/x86: intel_pmc_ipc: add option to build without ACPI
-6c44e5354d4d16d9d891a419ca3f57abfe18ce7a RAS/AMD/ATL: Include row[13] bit in row retirement
-00e53d0f4baedd72196b65f00698b2a5a537dc2b pwm: Let pwm_set_waveform() succeed even if lowlevel driver rounded up
-fda6e0034e9da64e1cec31f4539b6c7abd9ed8be pwm: stm32: Search an appropriate duty_cycle if period cannot be modified
-a85e08a05bf77d5d03b4ac0c59768a606a1b640b pwm: axi-pwmgen: Let .round_waveform_tohw() signal when request was rounded up
-cfa5f336bdbde49cf0102ab55007b34361988fd1 devpts: Fix type for uid and gid params
-a94fd938df2b1628da66b498aa0eeb89593bc7a2 virtiofs: add filesystem context source name check
-9b58440a5b2fe78102ce1e9e03946645558d0f55 io_uring/zcrx: put refill data into separate cache line
-5a17131a5dbd0ebca655bfb65fe3fe643ccc27f3 io_uring/zcrx: separate niov number from pages
-cf960726eb65e8d0bfecbcce6cf95f47b1ffa6cc io_uring/kbuf: reject zero sized provided buffers
 56a49e19e1aea1374e9ba58cfd40260587bb7355 cpufreq/amd-pstate: Fix min_limit perf and freq updation for performance governor
 9546ad1a9bda7362492114f5866b95b0ac4a100e nvme: requeue namespace scan on missed AENs
 f35508b93a2fc127a8d185da2e5beade2f789977 irqchip/irq-bcm2712-mip: Set EOI/ACK flags in msi_parent_ops
@@ -538,6 +526,8 @@ a1a56f541a8f634007de4bcb45aa3eaf803154a8 xfs: mark xfs_buf_free as might_sleep()
 a37b3b9c3cc595521c7f9d9b2b0b2ad367bf9c98 xfs: compute buffer address correctly in xmbuf_map_backing_mem
 d2f5819b6ed357c0c350c0616b6b9f38be59adf6 slab: ensure slab->obj_exts is clear in a newly allocated slab page
 36ff6c3f5084f2dbb6cd89d15b78cf734e9abfa6 spi: sun4i: add support for GPIO chip select lines
+289cae889a7464281b44df7f777fd5238ddfad7f MAINTAINERS: pci: add entry for Rust PCI code
+53bd97801632c940767f4c8407c2cbdeb56b40e7 rust: firmware: Use `ffi::c_char` type in `FwFunc`
 441016056010e50cee18633b9dc125b24feeb74d riscv: Fix unaligned access info messages
 e94eb7ea6f206e229791761a5fdf9389f8dbd183 riscv: Properly export reserved regions in /proc/iomem
 0b4cce68efb93e31a8e51795d696df6e379cb41c riscv: module: Fix out-of-bounds relocation access
@@ -580,6 +570,7 @@ c86b300b1ea35959a6e2a63a6497226a6ea90b67 fs: add kern_path_locked_negative()
 8b1879491472c145c58c3cbbaf0e05ea93ee5ddf can: fix missing decrement of j1939_proto.inuse_idx
 6315d93541f8a5f77c5ef5c4f25233e66d189603 can: rockchip_canfd: fix broken quirks checks
 8e553520596bbd5ce832e26e9d721e6a0c797b8b intel_th: avoid using deprecated page->mapping, index fields
+332ec18d57de2f77f43a988cbf1cb7693409434a MAINTAINERS: update the location of the driver-core git tree
 37ffdbd695c02189dbf23d6e7d2385e0299587ca usb: quirks: Add delay init quirk for SanDisk 3.2Gen1 Flash Drive
 429a98abfc01d3d4378b7a00969437dc3e8f647c usb: typec: class: Unlocked on error in typec_register_partner()
 e1ca3ff28ab1e2c1e70713ef3fa7943c725742c3 serial: sifive: lock port in startup()/shutdown() callbacks
@@ -597,11 +588,19 @@ c876be906ce7e518d9ef9926478669c151999e69 char: misc: register chrdev region with
 e9d7748a7468581859d2b85b378135f9688a0aff misc: microchip: pci1xxxx: Fix incorrect IRQ status handling during ack
 1fdb8188c3d505452b40cdb365b1bb32be533a8e loop: aio inherit the ioprio of original request
 e7bc0010ceb403d025100698586c8e760921d471 loop: properly send KOBJ_CHANGED uevent for disk device
+dc1771f718548f7d4b93991b174c6e7b5e1ba410 Revert "drivers: core: synchronize really_probe() and dev_uevent()"
+04d3e5461c1f5cf8eec964ab64948ebed826e95e driver core: introduce device_set_driver() helper
+18daa52418e7e4629ed1703b64777294209d2622 driver core: fix potential NULL pointer dereference in dev_uevent()
 065d49851e1a345faf112f12f96272e37ccd58ad Merge tag 'fs_for_v6.15-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
 1a1d569a75f3ab2923cb62daf356d102e4df2b86 Merge tag 'edac_urgent_for_v6.15_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 a06459657e4ecc4b35a2ee7a9bf5359ecfb077cf bcachefs: Silence extent_poisoned error messages
 14bcf982f428cd98bababe30d4059f93d39a2f14 bcachefs: Print version_incompat_allowed on startup
 c3b02e6d67acb9893b6c219d32cdc75a28ffea65 bcachefs: Log message when incompat version requested but not enabled
+10076ae01388caffec3b90abcce05f24a9e4b15e drivers/base: Extend documentation with preferred way to use auxbus
+a8e858e29955175ab7587190d449fa6a566d90e5 drivers/base: Add myself as auxiliary bus reviewer
+1ae5e4c0626d6954114d9725990ac9c498f3b1ab device property: Add a note to the fwnode.h
+bc2c46426f2d95e58c82f394531afdd034c8706c software node: Prevent link creation failure from causing kobj reference count imbalance
+b9792abb76ae1649080b8d48092c52e24c7bbdc2 drivers/base/memory: Avoid overhead from for_each_present_section_nr()
 7c7f1bfdb2249f854a736d9b79778c7e5a29a150 mcb: fix a double free bug in chameleon_parse_gdd()
 bcfb443557166287ba544be308ed44d788599afa pps: generators: tio: fix platform_set_drvdata()
 00f1cc14da0f06d2897b8c528df7c7dcf1b8da50 mei: vsc: Fix fortify-panic caused by invalid counted_by() use
@@ -1081,5 +1080,6 @@ a226e6540b0a1872debbe9d8f2b3d72c53d90de6 Merge tag 'irq-urgent-2025-04-26' of gi
 d22aad29de2a7b13f43ccb9b55cfd5daf793ead4 Merge tag 'nfsd-6.15-2' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
 5bc1018675ec28a8a60d83b378d8c3991faa5a27 Merge tag 'pci-v6.15-fixes-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
 b4432656b36e5cc1d50a1f2dc15357543add530e Linux 6.15-rc4
+785151f50ddacac06c7a3c5f3d31642794507fdf Merge 6.15-rc4 into driver-core-next
 
---===============1231752887371856907==--
+--===============0000015373353146447==--
