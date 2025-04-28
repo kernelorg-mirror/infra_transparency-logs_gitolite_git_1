@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2300335083673038785=="
+Content-Type: multipart/mixed; boundary="===============5670312633878337605=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
-Date: Mon, 28 Apr 2025 07:12:37 -0000
-Message-Id: <174582435750.1916466.10843184314939044987@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Mon, 28 Apr 2025 07:18:06 -0000
+Message-Id: <174582468629.1921280.2272996207124653520@gitolite.kernel.org>
 
---===============2300335083673038785==
+--===============5670312633878337605==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/linux
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/b4/slub-percpu-sheaves
-    old: 9da871da0e34210cae8b715bb93fc68fb2a59b7f
-    new: 4055df3ef5e66835dcddc5b6e4cb486044b8751f
-    log: revlist-9da871da0e34-4055df3ef5e6.txt
+  - ref: refs/heads/gpio/for-current
+    old: 9c32cda43eb78f78c73aee4aa344b777714e259b
+    new: b4432656b36e5cc1d50a1f2dc15357543add530e
+    log: revlist-9c32cda43eb7-b4432656b36e.txt
 
---===============2300335083673038785==
+--===============5670312633878337605==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1745824383 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
-nonce 1745824351-15a55c66b29ac7ddc69b015a918afef7aaeaf5a3
-
-9da871da0e34210cae8b715bb93fc68fb2a59b7f 4055df3ef5e66835dcddc5b6e4cb486044b8751f refs/heads/b4/slub-percpu-sheaves
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmgPKn8ACgkQu+CwddJF
-iJqH/gf/Tz9U2kHri4RTUZTvQRX1Mf+YuM2L7PI5Slc/kNPMjOgICPJ6NkRGYvPW
-G5vukOt7X9w+LW6lQYNugXG5f3gP6wRSEtHo6VBYbnis7s7bW/PUAInYBsh4hnyK
-EG/Y9r5DVAPO06+E20aUfEtJL3A19qmgAu3i5zr4rlUK2Yud81d4/lclg73wYkkm
-22EMvyFoDQmMFDle8OlN0MuAunGUAUg52dJPwMr2VCc6KI7e2jDzhhrHzNZ7+cPe
-3NxIkbVwPUYG0TcOSJeSHvc+H5Jn4YXr28yak6JCjf3MageFFMtYwlyjtd87yjAy
-zSSd3zgCniKW/+atfcxFwecTyhsRjw==
-=uXN+
------END PGP SIGNATURE-----
-
---===============2300335083673038785==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9da871da0e34-4055df3ef5e6.txt
+Content-Disposition: attachment; filename=revlist-9c32cda43eb7-b4432656b36e.txt
 
 aed06d36ba4e7fe90f2d4a85835cee7c80ea72a7 ceph: Remove osd_client deadcode
 f452a2204614fc10e2c3b85904c4bd300c2789dc ceph: Fix incorrect flush end position calculation
@@ -57,6 +32,9 @@ f452a2204614fc10e2c3b85904c4bd300c2789dc ceph: Fix incorrect flush end position 
 fc5414a4774e14e51a93499a6adfdc45f2de82e0 cpufreq: Add SM8650 to cpufreq-dt-platdev blocklist
 d4f610a9bafdec8e3210789aa19335367da696ea cpufreq: Do not enable by default during compile testing
 fe81536af3978f26a1383e4da7f135b973eb4209 landlock: Remove incorrect warning
+47068309b5777313b6ac84a77d8d10dc7312260a sched_ext: Use kvzalloc for large exit_dump allocation
+e776b26e3701945e0d20a11dc30ecd4da98e8d67 sched_ext: Remove cpu.weight / cpu.idle unimplemented warnings
+bc08b15b54b8aadbc8a8f413271c07a3f4bead87 sched_ext: Mark SCX_OPS_HAS_CGROUP_WEIGHT for deprecation
 d7b98ae5221007d3f202746903d4c21c7caf7ea9 dma/contiguous: avoid warning about unused size_bytes
 87d2de042c602e12230283cd40fa604b881e12f7 cxl/core: Fix caching dport GPF DVSEC issue
 6af941db6a60a27209bdb2da1a3a780574d617fe cxl/pci: Update Port GPF timeout only when the first EP attaching
@@ -111,6 +89,9 @@ f8cba9a700cf38b181df7c1d809cd73c6e1b2df9 scsi: ufs: qcom: Add quirks for Samsung
 569330a34a31a52c904239439984a59972c11d28 scsi: ufs: Introduce quirk to extend PA_HIBERN8TIME for UFS devices
 289cae889a7464281b44df7f777fd5238ddfad7f MAINTAINERS: pci: add entry for Rust PCI code
 53bd97801632c940767f4c8407c2cbdeb56b40e7 rust: firmware: Use `ffi::c_char` type in `FwFunc`
+16c22c56d4282584742022a37d4f79a46ca6094a virtio_pci: Use self group type for cap commands
+a940e0a685575424d33324ec7f0089045249de0a vhost: fix VHOST_*_OWNER documentation
+2e2f925fe737576df2373931c95e1a2b66efdfef virtio_ring: Fix data race by tagging event_triggered as racy for KCSAN
 2042c352e21d19eaf5f9e22fb6afce72293ef28c dma/mapping.c: dev_dbg support for dma_addressing_limited
 8e553520596bbd5ce832e26e9d721e6a0c797b8b intel_th: avoid using deprecated page->mapping, index fields
 332ec18d57de2f77f43a988cbf1cb7693409434a MAINTAINERS: update the location of the driver-core git tree
@@ -145,10 +126,27 @@ a374f28700abd20e8a7d026f89aa26f759445918 cpufreq: fix compile-test defaults
 50492f942c281af4a48f8028f8409d7b8f2655d9 landlock: Fix documentation for landlock_create_ruleset(2)
 25b1fc1cdc8931cf26e8d169f65ad07dfd653ca2 landlock: Fix documentation for landlock_restrict_self(2)
 47ce2af848b7301d8571f0e01a0d7c7162d51e4a landlock: Update log documentation
+cf6ae7ed091059a8d1a70cf184f18ebfd18ab4af btrfs: subpage: access correct object when reading bitmap start in subpage_calc_start_bit()
+bc2dbc4983afedd198490cca043798f57c93e9bf btrfs: avoid page_lockend underflow in btrfs_punch_hole_lock_range()
+7d82240c457fc15abdf7dedf15104cea774b005b btrfs: fix the ASSERT() inside GET_SUBPAGE_BITMAP()
+b0c26f47992672661340dd6ea931240213016609 btrfs: zoned: return EIO on RAID1 block group write pointer mismatch
+50fecb8cf069f0814642ce0bde965bdc1f35a79e btrfs: fix invalid inode pointer after failure to create reloc inode
+f1ab0171e9be96fd530329fa54761cff5e09ea95 btrfs: tree-checker: adjust error code for header level check
+c1a79b1a583654f24b17da81ba868b0064077243 block: introduce zone capacity helper
+866bafae59ecffcf1840d846cd79740be29f21d6 btrfs: zoned: skip reporting zone for new block group
+87c259a7a359e73e6c52c68fcbec79988999b4e6 cgroup: Fix compilation issue due to cgroup_mutex not being exported
+1bf67c8fdbda21fadd564a12dbe2b13c1ea5eda7 cgroup/cpuset-v1: Add missing support for cpuset_v2_mode
 750d0ac001e85b754404178ee8ce01cbc76a03be MAINTAINERS: Add entry for Socfpga DWMAC ethernet glue driver
 9788792ad0a0692c4a5da1efcbac449cfc745bde Merge tag 'usb-serial-6.15-rc3' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
 a34d74877c66ce484ad586d806002ceaedd58657 PCI: Restore assigned resources fully after release
 39e703ed3b48c4262be141072d4f42a8b89a10cc selftests/pcie_bwctrl: Fix test progs list
+183a08715af1491d381b4e22efd61578fbe05fa5 virtgpu: don't reset on shutdown
+fbd3039a64b01b769040677c4fc68badeca8e3b2 virtio_console: fix missing byte order handling for cols and rows
+5326ab737a47278dbd16ed3ee7380b26c7056ddd virtio_console: fix order of fields cols and rows
+fec0abf52609c20279243699d08b660c142ce0aa vhost_task: fix vhost_task_create() documentation
+f591cf9fce724e5075cc67488c43c6e39e8cbe27 vhost-scsi: protect vq->log_used with vq->mutex
+b182687135474d7ed905a07cc6cb2734b359e13e vhost-scsi: Fix vhost_scsi_send_bad_target()
+58465d86071b61415e25fb054201f61e83d21465 vhost-scsi: Fix vhost_scsi_send_status()
 dc915672f9176799e48ac23a155f48742b15ec6c cxl: Fix devm host device for CXL fwctl initialization
 25174d5cd22f0977034892672a0287f7febcec1c cxl/feature: Update out_len in set feature failure case
 117c3b21d3c79af56750f18a54f2c468f30c8a45 arm64: Rework checks for broken Cavium HW in the PI code
@@ -160,6 +158,7 @@ efabefb05aa1fe534ddb1839980824a763a7f1b0 openrisc: Refactor struct cpuinfo_or1k 
 4e6d24a309e60251439f08f15de37b489465f17b openrisc: Add cacheinfo support
 20a43732736ac270c35601f7f22a0bcd2db4cba4 Documentation: openrisc: Update mailing list
 66ffd2f3161124f2f5019b55d8ef3add26a002a5 Documentation: openrisc: Update toolchain binaries URL
+9d7a0577c9db35c4cc52db90bc415ea248446472 gcc-15: disable '-Wunterminated-string-initialization' entirely for now
 4c0d2c67ac6d54ba71bb3438147b144c25fdee2c bcachefs: Fix early startup error path
 aa6a591f0fd740e27c54110f8425b53133ad4165 bcachefs: Fix null ptr deref in bch2_snapshot_tree_oldest_subvol()
 417f01e726036b564e2e14c39b2be58e93bf7971 bcachefs: Error ratelimiting is no longer only during fsck
@@ -188,6 +187,8 @@ cc3628dcd851ddd8d418bf0c897024b4621ddc92 xen-netfront: handle NULL returned by x
 1d587faa5be7e9785b682cc5f58ba8f4100c13ea net: enetc: refactor bulk flipping of RX buffers to separate function
 020f0c8b3d396ec8190948f86063e1c45133f839 net: enetc: fix frame corruption on bpf_xdp_adjust_head/tail() and XDP_PASS
 b1eac30d9bc21cdaff97b2b23000085492efc662 Merge branch 'enetc-bug-fixes-for-bpf_xdp_adjust_head-and-bpf_xdp_adjust_tail'
+a22509a4ee99e23c6bd8980b70dd78aade6baabd Merge tag 'cgroup-for-6.15-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
+a33b5a08cbbdd7aadff95f40cbb45ab86841679e Merge tag 'sched_ext-for-6.15-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
 db91586b1e8f36122a9e5b8fbced11741488dd22 ata: libata-scsi: Fix ata_mselect_control_ata_feature() return type
 88474ad734fb2000805c63e01cc53ea930adf2c7 ata: libata-scsi: Fix ata_msense_control_ata_feature()
 17e897a456752ec9c2d7afb3d9baf268b442451b ata: libata-scsi: Improve CDL control
@@ -202,6 +203,7 @@ cae5572ec9261f752af834cdaaf5a0ba0afcf256 dma-mapping: Fix warning reported for m
 c03a49f3093a4903c8a93c8b5c9a297b5343b169 net: lwtunnel: disable BHs when required
 bd7c19331913b955a7823e6315ca16bbcc65aeff XFS: fix zoned gc threshold math for 32-bit arches
 f0447f80aec83f1699d599c94618bb5c323963e6 xfs: remove duplicate Zoned Filesystems sections in admin-guide
+30d68cb0c37ebe2dc63aa1d46a28b9163e61caa2 ima: process_measurement() needlessly takes inode_lock() on MAY_READ
 89461db349cc00816c01d55507d511466b3b7151 dma-coherent: Warn if OF reserved memory is beyond current coherent DMA mask
 4ea404fdbc39971814cd3eb36b43c11fb6f32e17 lib: Ensure prime numbers tests are included in KUnit test runs
 7ffe3de53a885dbb5836541c2178bd07d1bad7df fs/buffer: split locking for pagecache lookups
@@ -214,6 +216,8 @@ f76d4c28a46a9260d85e00dafc8f46d369365d33 fs/jbd2: use sleeping version of __find
 2d900efff915fe24c3948d28eef9078953d87fec mm/migrate: fix sleep in atomic for large folios and buffer heads
 53f7eedd88d144d8d1a83cad5fba1fb75b22b19d Merge patch series "fs/buffer: split pagecache lookups into atomic or blocking"
 d1f7256a5a525a44ac6a81d0a8ff931317b2acbf fs: fall back to file_ref_put() for non-last reference
+e4b51cb60e16f09b95c9ee567692aaec50087747 Merge tag 'integrity-6.15-rc3-fix' of https://github.com/linux-integrity/linux
+bc3372351d0c8b2726b7d4229b878342e3e6b0e8 Merge tag 'for-6.15-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 5cf3c602df88b471178a5717b17e529d09acad84 drm/amdgpu: Use allowed_domains for pinning dmabufs
 5e56935b519b2fbbca1cafa0cef3c7c3d062f62d drm/amdgpu: Don't pin VRAM without DMABUF_MOVE_NOTIFY
 7eb287beeb60be1e4437be2b4e4e9f0da89aab97 drm/amd/display: Fix gpu reset in multidisplay config
@@ -241,6 +245,8 @@ cfa00a625f1c730e93f96b5b4ba7c1b4dc286c79 drm/exynos: Remove unnecessary checking
 e8de68ba86f4f84d388f2d964eba96c034120a84 drm/exynos: exynos7_drm_decon: Consstify struct decon_data
 c171ad1e8166ff8b3ab9ac94bad2574167b41f66 drm/exynos: Fix spelling mistake "enqueu" -> "enqueue"
 4ce385f56434f3810ef103e1baea357ddcc6667e x86/mm: Fix _pgd_alloc() for Xen PV mode
+0251ddbffbeb213f0f74ef94b2cacce580eb8d76 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
+82efd569a8909f2b13140c1b3de88535aea0b051 locking/local_lock: fix _Generic() matching of local_trylock_t
 a79be02bba5c31f967885c7f3bf3a756d77d11d9 Fix mis-uses of 'cc-option' for warning disablement
 f2858f308131a09e33afb766cd70119b5b900569 selftests/bpf: Mitigate sockmap_ktls disconnect_after_delete failure
 c0e473a0d226479e8e925d5ba93f751d8df628e9 block: fix race between set_blocksize and read paths
@@ -363,15 +369,5 @@ a226e6540b0a1872debbe9d8f2b3d72c53d90de6 Merge tag 'irq-urgent-2025-04-26' of gi
 d22aad29de2a7b13f43ccb9b55cfd5daf793ead4 Merge tag 'nfsd-6.15-2' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
 5bc1018675ec28a8a60d83b378d8c3991faa5a27 Merge tag 'pci-v6.15-fixes-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
 b4432656b36e5cc1d50a1f2dc15357543add530e Linux 6.15-rc4
-355d8acc27f08be07d6603cd5a1a3cba102151fc SLUB percpu sheaves
-924a5786a08ceda1e01c8edbcc9f7d16d8bfc902 slab: add opt-in caching layer of percpu sheaves
-862bad496bd28b281be3cd9f2a26962fca20ba49 slab: add sheaf support for batching kfree_rcu() operations
-55cd3c303f478166365ce5c2619702fda34c6105 slab: sheaf prefilling for guaranteed allocations
-7f577c6234e3f5475e74a341b14fb0ef58f719bc slab: determine barn status racily outside of lock
-92f0459c6f9188e52b41903667fb9574238f5ce8 tools: Add testing support for changes to rcu and slab for sheaves
-be0670703106a296fbd752a3ca0dc88ab0f1799f tools: Add sheaves support to testing infrastructure
-5eb5b1b9018184d30bbd91adf0da2368be56cb97 maple_tree: use percpu sheaves for maple_node_cache
-0478cb09738e913215cb870d4ba66815f92a4bea mm, vma: use percpu sheaves for vm_area_struct cache
-4055df3ef5e66835dcddc5b6e4cb486044b8751f mm, slub: skip percpu sheaves for remote object freeing
 
---===============2300335083673038785==--
+--===============5670312633878337605==--
