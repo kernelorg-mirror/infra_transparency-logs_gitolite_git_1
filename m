@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 28 Apr 2025 22:16:51 -0000
-Message-Id: <174587861195.2764476.9782613607652247616@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
+Date: Mon, 28 Apr 2025 22:17:50 -0000
+Message-Id: <174587867068.2765230.7242400814703149889@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+user: sre
 changes:
-  - ref: refs/heads/main
-    old: f04dd30f1bef1ed2e74a4050af6e5e5e3869bac3
-    new: 8c47d5753a119f1c986bc3ed92e9178d2624e1e8
+  - ref: refs/heads/for-next
+    old: 883730c192b5cf9d72cabefd83bfb3dcd1aadb6f
+    new: 11741b8e382d34b13277497ab91123d8b0b5c2db
     log: |
-         8c47d5753a119f1c986bc3ed92e9178d2624e1e8 net: ethernet: mtk_eth_soc: sync mtk_clks_source_name array
+         11741b8e382d34b13277497ab91123d8b0b5c2db power: supply: max77705: Fix workqueue error handling in probe
          
