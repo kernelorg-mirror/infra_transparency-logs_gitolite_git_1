@@ -1,27 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/mdadm/mdadm
-Date: Mon, 28 Apr 2025 07:58:06 -0000
-Message-Id: <174582708617.1960393.14813319072825423788@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Mon, 28 Apr 2025 08:00:45 -0000
+Message-Id: <174582724506.1964221.9159163103678522754@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/mdadm/mdadm
-user: mtkaczyk
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/master
-    old: 6ce7f21bb822fd0125f78434d9fbf6c3db524892
-    new: f5889f9a1b8753a1472dfef9d025da2bae395239
+  - ref: refs/heads/for-linus
+    old: be0c40da888840fe91b45474cb70779e6cbaf7ca
+    new: 1149719442d28c96dc63cad432b5a6db7c300e1a
     log: |
-         b532421e747d75223c6f7a065fb643d2d318011c Update tests.yml
-         07bde560b71a2f6e36de5bc6f24e07e761c1c83b Update tests.yml
-         affe2168b807ccd48f00dc9e021196a5e2e83870 Update tests.yml
-         5fd2f5da6fe7995190627f8a7bd9f6ff90aad1d4 Update tests.yml
-         97ee409451a7191d3d2861b6718f79116f80b4ec This is a test for CI, do not merge
-         f5ff81d14fdd34f770120a057804d6067fd5035b Update README.md
-         bd648e3bec3d883d2f4addea84ac1ac8790c75e9 mdadm: Remove klibc and uclibc support
-         696207860f408534651db89c5b40133f5903fa25 mdadm: include asm/byteorder.h
-         f5889f9a1b8753a1472dfef9d025da2bae395239 mdadm: use kernel raid headers
+         1149719442d28c96dc63cad432b5a6db7c300e1a ALSA: usb-audio: Add second USB ID for Jabra Evolve 65 headset
+         
+  - ref: refs/heads/master
+    old: 3644310401476ea98626b81da79e1ecf3a49e5fc
+    new: 1288e04b0e7e307369b003016c469b7a2b5c225a
+    log: |
+         1149719442d28c96dc63cad432b5a6db7c300e1a ALSA: usb-audio: Add second USB ID for Jabra Evolve 65 headset
+         1288e04b0e7e307369b003016c469b7a2b5c225a Merge branch 'for-linus'
          
