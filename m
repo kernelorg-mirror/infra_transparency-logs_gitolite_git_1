@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6998571109913747381=="
+Content-Type: multipart/mixed; boundary="===============7844955788048695094=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 28 Apr 2025 07:38:00 -0000
-Message-Id: <174582588084.1939306.16229044886211042604@gitolite.kernel.org>
+Date: Mon, 28 Apr 2025 07:38:04 -0000
+Message-Id: <174582588498.1939575.18437581014065264004@gitolite.kernel.org>
 
---===============6998571109913747381==
+--===============7844955788048695094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,72 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
+  - ref: refs/heads/char-misc-linus
+    old: 4d239f447f96bd2cb646f89431e9db186c1ccfd4
     new: b4432656b36e5cc1d50a1f2dc15357543add530e
-    log: revlist-0af2f6be1b42-b4432656b36e.txt
+    log: revlist-4d239f447f96-b4432656b36e.txt
 
---===============6998571109913747381==
+--===============7844955788048695094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1745825910 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1745825914 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1745825879-3f2c86e76ebf98efb73234ba3924a6c0c2855362
+nonce 1745825883-c4070d327fd5c0bd0b326181422818da74314485
 
-0af2f6be1b4281385b618cb86ad946eded089ac8 b4432656b36e5cc1d50a1f2dc15357543add530e refs/heads/main
+4d239f447f96bd2cb646f89431e9db186c1ccfd4 b4432656b36e5cc1d50a1f2dc15357543add530e refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgPMHcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vjgP/1MwIa/BCRbrDyzd+m2x
-u/MgWHX6B1fGzXf3+Ub7YLaVij97oF/5PYnkoik4L89zMStGGEM9FyAtoX61UbXh
-k8CwRpqRrivHK8Pt25TPY9wHku+w8+/NQ6zEwL9NVnhWXBPsLCOBhVRbPmIfH8W4
-tYeo7y1n5wNp0N59WsTg6uMpi/WYmJrA3LXp7yK17cALHi/i8riRLP3WVtByrpza
-Rnc1b/ajNcDfA8sGp9pMsYGc1cPWas7zSbn2S6lIVHwo66EagNOgHytsXYrGGIlv
-J3LQJxorusnoKNAzC5SyJ1LFx8EsuqQxCKf9nLeb6Dw0rQaoxIqc+uiAFE878eD/
-dbErhrsQ8238+rnY3XNmv8zaymS6OSK59xXAgHJnJDT8eGDJHgwtUjXN+6HNIqxr
-ME/6gYXNCB6ZlFM2L6TfmGAh9oebxOvnjDFpy7KLt2qUpMoOLE73EnG1fSWOL+w3
-Z1nPtCsIUFjzIFnCBl+fwyf8ABmndph5+DFksst7Xu85oy549i39qwuZ/GtvC24E
-s2bamjGLakfhNyKCJMjouHksJmIBXT8B20gxBcf+afaRh2MkfxSUGDpGeYqC6DZ/
-WnsH83fhhE4m6ZLNTxhIPFpTZ6iLOd0w4mIpa+JcWIicSvak3KWqAK1vvGuTcQd3
-fCM6Z0G9GmTMmVWCX41PO/5S
-=HsL2
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgPMHsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hi0QAIZJbx/nhfrH4uXHEBCG
+GUOpltuptOGocEnbHf1iuAUcCy6EnbHs7QFKPP41pPOp6JkBR4BXWpotW+UKXaIb
+H4rbjngVH5yCYJfDm14P6ZFfA9JuuHdvqWgcy+1a5Mv3jM9aHiNmmV8+cyj5IzHr
+EboqGoPwWlQGwocA/HBPtZyheCJkocHZKKgOlOlo1kuF224kUf/SpoSOUSfIsEl/
+PQOh/uK9ao06gfwSMs8Y7D0+ESWzlz7xvZZC8294HfxnkNwZTEPcCIteP86Em3UM
+Q4m4kYJmjpeoztG+Mk1Z++n0sr6rstRUdMN+kqXxgY+4rKtvwd02YP5qPHB3WiJD
+2c5qUkGZC5IVeiMeeN/EorUeYluZ6wToFJ0PT+NuTH2uG7Lj0rXBcQyu7ZD6VL7u
+6Fjtj3CNkpXdW7qAJbuVFiurZvd+hAnPuy1XS5f28WEUlOkW64xBBkdgPi/WJvTZ
+PrQIPNkXnVNWPxnkI6D93RwKNOuK74SuXkic805lA3afzYzkUXAqmwzBJYxiIbsb
+jth/ymaqZiBtjAVoJIsoJ2P1IRHcqElaXGszi90wg9WuK9CT6U6tx31e7e5DK8Ub
+4IAWEht1BB/jU0NZBSuBn0Vxz3/aYLRVsTG5KGoJPvez2E0QopLJwW/DIq22HmmE
+Y4yQx/j53ToMn7qwppTRaJNK
+=NmbN
 -----END PGP SIGNATURE-----
 
---===============6998571109913747381==
+--===============7844955788048695094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0af2f6be1b42-b4432656b36e.txt
+Content-Disposition: attachment; filename=revlist-4d239f447f96-b4432656b36e.txt
 
+b79fe1829975556854665258cf4d2476784a89db mtd: rawnand: Add status chack in r852_ready()
+1c1fd374a2fe72b8a6dde62d3c3a9fd153e7581c mtd: spinand: Fix build with gcc < 7.5
+120305ab9017ee76ac0bed4b72b349faeb1deb1c ALSA: hda/tas2781: Remove unnecessary NULL check before release_firmware()
+75f8c87555e6ddeff2c49bd47460a71a940edc48 irqchip/davinci: Remove leftover header
+305825d09b15586d2e4311e0c12f10f2a0c18ac5 irqchip/sg2042-msi: Add missing chip flags
+ed583d008edcb021c30ecad2e9d5c868d9ed5862 drm/i915: Fix scanline_offset for LNL+ and BMG+
+9d3d9776bd3bd9c32d460dfe6c3363134de578bc drm/i915: Disable RPG during live selftest
+2e43ae7dd71cd9bb0d1bce1d3306bf77523feb81 drm/i915/gvt: fix unterminated-string-initialization warning
+584cf613c24a4250d9be4819efc841aa2624d5b6 drm/i915/dp: Reject HBR3 when sink doesn't support TPS4
+bc1feb8174b7e46c1806a6f684d89a47508f3a53 drm/i915/xe2hpd: Identify the memory type for SKUs with GDDR + ECC
+8578b2f7e1fb79d4b92b62fbbe913548bb363654 riscv: Use kvmalloc_array on relocation_hashtable
+70fc03cd76311a06c8c84deb70b2e16837497774 Documentation: riscv: Fix typo MIMPLID -> MIMPID
+0f2946bb172632e122d4033e0b03f85230a29510 xen: Change xen-acpi-processor dom0 dependency
+eb3a04a8516ee9b5174379306f94279fc90424c4 ovl: don't allow datadir only
+a6eb9a4a69cc360b930dad9dc8513f8fd9b3577f ovl: remove unused forward declaration
+87af633689ce16ddb166c80f32b120e50b1295de x86/xen: fix balloon target initialization for PVH dom0
+d8455a63f731b4f585acc4d49fd7ad78db63b3d0 platform/x86: intel_pmc_ipc: add option to build without ACPI
+6c44e5354d4d16d9d891a419ca3f57abfe18ce7a RAS/AMD/ATL: Include row[13] bit in row retirement
+00e53d0f4baedd72196b65f00698b2a5a537dc2b pwm: Let pwm_set_waveform() succeed even if lowlevel driver rounded up
+fda6e0034e9da64e1cec31f4539b6c7abd9ed8be pwm: stm32: Search an appropriate duty_cycle if period cannot be modified
+a85e08a05bf77d5d03b4ac0c59768a606a1b640b pwm: axi-pwmgen: Let .round_waveform_tohw() signal when request was rounded up
+cfa5f336bdbde49cf0102ab55007b34361988fd1 devpts: Fix type for uid and gid params
+a94fd938df2b1628da66b498aa0eeb89593bc7a2 virtiofs: add filesystem context source name check
+9b58440a5b2fe78102ce1e9e03946645558d0f55 io_uring/zcrx: put refill data into separate cache line
+5a17131a5dbd0ebca655bfb65fe3fe643ccc27f3 io_uring/zcrx: separate niov number from pages
 cf960726eb65e8d0bfecbcce6cf95f47b1ffa6cc io_uring/kbuf: reject zero sized provided buffers
 56a49e19e1aea1374e9ba58cfd40260587bb7355 cpufreq/amd-pstate: Fix min_limit perf and freq updation for performance governor
 9546ad1a9bda7362492114f5866b95b0ac4a100e nvme: requeue namespace scan on missed AENs
@@ -369,19 +394,6 @@ b513cc1905bb360f48be281a1ded272131a8227a Revert "xhci: Prevent early endpoint re
 9e3a28793d2fde7a709e814d2504652eaba6ae98 usb: xhci: Fix Short Packet handling rework ignoring errors
 1ea050da5562af9b930d17cbbe9632d30f5df43a usb: xhci: Fix invalid pointer dereference in Etron workaround
 bea5892d0ed274e03655223d1977cf59f9aff2f2 xhci: Limit time spent with xHC interrupts disabled during bus resume
-6907e8093b3070d877ee607e5ceede60cfd08bde nvmem: rockchip-otp: Move read-offset into variant-data
-1b23c14c07326a095b93145ca9ea31cf53d4bde1 dt-bindings: nvmem: rockchip,otp: add missing limits for clock-names
-9165960606dff725174155472583efec60f25bab dt-bindings: nvmem: rockchip,otp: Add compatible for RK3576
-50d75a13a9ce880a5ef07a4ccc63ba561cc2e69a nvmem: rockchip-otp: add rk3576 variant data
-f487438d370590193c5635ccbae1b1c51c5b273c dt-bindings: nvmem: qfprom: Add X1E80100 compatible
-269e074da1882c296085a27f0742c47ac860072e dt-bindings: nvmem: Add compatible for MS8937
-eed6d954542fb55c814dd54b7fcc1b515bd76464 dt-bindings: nvmem: fixed-cell: increase bits start value to 31
-7a06ef75107799675ea6e4d73b9df37e18e352a8 nvmem: core: fix bit offsets of more than one byte
-13bcd440f2ff38cd7e42a179c223d4b833158b33 nvmem: core: verify cell's raw_len
-6786484223d5705bf7f919c1e5055d478ebeec32 nvmem: core: update raw_len if the bit reading is required
-3566a737db87a9bf360c2fd36433c5149f805f2e nvmem: qfprom: switch to 4-byte aligned reads
-b78de5c2c60f5f65ce401ca791692409ef9ceaec dt-bindings: nvmem: Add compatible for IPQ5018
-e9a573e2d7c6409519c2aa367d524dba31694f95 dt-bindings: nvmem: Add compatible for MSM8960
 ec27386de23a511008c53aa2f3434ad180a3ca9a usb: typec: class: Fix NULL pointer access
 66e1a887273c6b89f09bc11a40d0a71d5a081a8e usb: typec: class: Invalidate USB device pointers on partner unregistration
 3b607b75a345b1d808031bf1bb1038e4dac8d521 null_blk: Use strscpy() instead of strscpy_pad() in null_add_dev()
@@ -570,23 +582,16 @@ ddee68c499f76ae47c011549df5be53db0057402 hfs{plus}: add deprecation warning
 c86b300b1ea35959a6e2a63a6497226a6ea90b67 fs: add kern_path_locked_negative()
 8b1879491472c145c58c3cbbaf0e05ea93ee5ddf can: fix missing decrement of j1939_proto.inuse_idx
 6315d93541f8a5f77c5ef5c4f25233e66d189603 can: rockchip_canfd: fix broken quirks checks
-8e553520596bbd5ce832e26e9d721e6a0c797b8b intel_th: avoid using deprecated page->mapping, index fields
 332ec18d57de2f77f43a988cbf1cb7693409434a MAINTAINERS: update the location of the driver-core git tree
 37ffdbd695c02189dbf23d6e7d2385e0299587ca usb: quirks: Add delay init quirk for SanDisk 3.2Gen1 Flash Drive
 429a98abfc01d3d4378b7a00969437dc3e8f647c usb: typec: class: Unlocked on error in typec_register_partner()
 e1ca3ff28ab1e2c1e70713ef3fa7943c725742c3 serial: sifive: lock port in startup()/shutdown() callbacks
-170d1a3738908eef6a0dbf378ea77fb4ae8e294d binder: fix offset calculation in debug log
-44d9b3f584c59a606b521e7274e658d5b866c699 comedi: jr3_pci: Fix synchronous deletion of timer
 25744f849524e806a13ade17c4fb83f6888fe954 io_uring/zcrx: return ifq id to the user
 70e4f9bfc13c9abcc97eb9f2feee51cc925524c8 io_uring/zcrx: add pp to ifq conversion helper
 5ff79cabb23a2f14d2ed29e9596aec908905a0e6 platform/x86: alienware-wmi-wmax: Add G-Mode support to Alienware m16 R1
 202a861205905629c5f10ce0a8358623485e1ae9 platform/x86: alienware-wmi-wmax: Extend support to more laptops
 912d614ac99e137fd2016777e4b090c46ce84898 platform/x86: msi-wmi-platform: Rename "data" variable
 88fa80021b77732bc98f73fb69d69c7cc37b9f0d net: ngbe: fix memory leak in ngbe_probe() error path
-86ce5c0a1dec02e21b4c864b2bc0cc5880a2c13c mei: me: add panther lake H DID
-c876be906ce7e518d9ef9926478669c151999e69 char: misc: register chrdev region with all possible minors
-18eb77c75ed01439f96ae5c0f33461eb5134b907 misc: microchip: pci1xxxx: Fix Kernel panic during IRQ handler registration
-e9d7748a7468581859d2b85b378135f9688a0aff misc: microchip: pci1xxxx: Fix incorrect IRQ status handling during ack
 1fdb8188c3d505452b40cdb365b1bb32be533a8e loop: aio inherit the ioprio of original request
 e7bc0010ceb403d025100698586c8e760921d471 loop: properly send KOBJ_CHANGED uevent for disk device
 dc1771f718548f7d4b93991b174c6e7b5e1ba410 Revert "drivers: core: synchronize really_probe() and dev_uevent()"
@@ -602,11 +607,6 @@ a8e858e29955175ab7587190d449fa6a566d90e5 drivers/base: Add myself as auxiliary b
 1ae5e4c0626d6954114d9725990ac9c498f3b1ab device property: Add a note to the fwnode.h
 bc2c46426f2d95e58c82f394531afdd034c8706c software node: Prevent link creation failure from causing kobj reference count imbalance
 b9792abb76ae1649080b8d48092c52e24c7bbdc2 drivers/base/memory: Avoid overhead from for_each_present_section_nr()
-7c7f1bfdb2249f854a736d9b79778c7e5a29a150 mcb: fix a double free bug in chameleon_parse_gdd()
-bcfb443557166287ba544be308ed44d788599afa pps: generators: tio: fix platform_set_drvdata()
-00f1cc14da0f06d2897b8c528df7c7dcf1b8da50 mei: vsc: Fix fortify-panic caused by invalid counted_by() use
-f88c0c72ffb014e5eba676ee337c4eb3b1d6a119 mei: vsc: Use struct vsc_tp_packet as vsc-tp tx_buf and rx_buf type
-4d239f447f96bd2cb646f89431e9db186c1ccfd4 firmware: stratix10-svc: Add of_platform_default_populate()
 5ddcc657ba507e926b285394589a3a78603d5f55 thermal: intel: int340x: Add missing DVFS support flags
 00c5ff5e9a55dca2e7ca29af4e5f8708731faf11 thermal: intel: int340x: Fix Panther Lake DLVR support
 19e8019e06b478ab04683418c73ca297d114c425 Documentation: PM: runtime: Fix a reference to pm_runtime_autosuspend()
@@ -1082,4 +1082,4 @@ d22aad29de2a7b13f43ccb9b55cfd5daf793ead4 Merge tag 'nfsd-6.15-2' of git://git.ke
 5bc1018675ec28a8a60d83b378d8c3991faa5a27 Merge tag 'pci-v6.15-fixes-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
 b4432656b36e5cc1d50a1f2dc15357543add530e Linux 6.15-rc4
 
---===============6998571109913747381==--
+--===============7844955788048695094==--
