@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3773437141525497100=="
+Content-Type: multipart/mixed; boundary="===============8402777539724011193=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 28 Apr 2025 15:51:59 -0000
-Message-Id: <174585551926.2426580.11684269379369971326@gitolite.kernel.org>
+Date: Mon, 28 Apr 2025 16:00:24 -0000
+Message-Id: <174585602453.2434274.16158016011561970682@gitolite.kernel.org>
 
---===============3773437141525497100==
+--===============8402777539724011193==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
-    old: 91dbac4076537b464639953c055c460d2bdfc7ea
-    new: 224ee86639f57818cf4e05bd86eb7d9f31baac8d
-    log: revlist-91dbac407653-224ee86639f5.txt
+  - ref: refs/heads/for-next
+    old: b0feb30ab4121f1e633c46f8225d4276b453cb26
+    new: e438aa4bef7cf2d1039be0bb8225738eceb0a0c9
+    log: revlist-b0feb30ab412-e438aa4bef7c.txt
 
---===============3773437141525497100==
+--===============8402777539724011193==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-91dbac407653-224ee86639f5.txt
+Content-Disposition: attachment; filename=revlist-b0feb30ab412-e438aa4bef7c.txt
 
 aed06d36ba4e7fe90f2d4a85835cee7c80ea72a7 ceph: Remove osd_client deadcode
 f452a2204614fc10e2c3b85904c4bd300c2789dc ceph: Fix incorrect flush end position calculation
@@ -227,7 +227,12 @@ a92741e72f91b904c1d8c3d409ed8dbe9c1f2b26 drm/amdgpu: Allow P2P access through XG
 d59bddce49bfd323f1218bb6c3ad314e5c4e8f9d drm/amd/display: Use 16ms AUX read interval for LTTPR with old sinks
 6ed0dc3fd39558f48119daf8f99f835deb7d68da drm/amd/display: Default IPS to RCG_IN_ACTIVE_IPS2_IN_OFF
 b316727a27d0dac1e6b7ae51204df4d0f241fcc2 drm/amd/display: do not copy invalid CRTC timing info
+be2fea9c07d40a0a897580166e3d43c53ef3b75b selftests/bpf: Close the file descriptor to avoid resource leaks
 4c8925cb9db158c812e1e11f3e74b945df7c9801 net: phylink: fix suspend/resume with WoL enabled and link down
+4dde20b1aa85d69c4281eaac9a7cfa7d2b62ecf0 libbpf: Fix event name too long error
+e1be7c45d24434bc6e04b675ae91c049e50447be selftests/bpf: Add test for attaching uprobe with long event names
+9b72f3e5b76007d8ef9c7743561d4c9298a086ab selftests/bpf: Add test for attaching kprobe with long event names
+5cffad0a5c8f0cc53ce9fe7cff7bc67c3a97c406 Merge branch 'libbpf-fix-event-name-too-long-error-and-add-tests'
 ce6815585d460c610e9881a5d347c0a34da287e4 net: phylink: mac_link_(up|down)() clarifications
 b7f0ee992adf601aa00c252418266177eb7ac2bc net: phy: leds: fix memory leak
 4bc12818b363bd30f0f7348dd9ab077290a637ae virtio-net: disable delayed refill when pausing rx
@@ -247,7 +252,12 @@ c171ad1e8166ff8b3ab9ac94bad2574167b41f66 drm/exynos: Fix spelling mistake "enque
 0251ddbffbeb213f0f74ef94b2cacce580eb8d76 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 82efd569a8909f2b13140c1b3de88535aea0b051 locking/local_lock: fix _Generic() matching of local_trylock_t
 a79be02bba5c31f967885c7f3bf3a756d77d11d9 Fix mis-uses of 'cc-option' for warning disablement
+53ebef53a657d7957d35dc2b953db64f1bb28065 bpf: Use proper type to calculate bpf_raw_tp_null_args.mask index
 f2858f308131a09e33afb766cd70119b5b900569 selftests/bpf: Mitigate sockmap_ktls disconnect_after_delete failure
+6aca583f90b0eb159cfd79c1b7f28d7c0108aed6 bpf: Streamline allowed helpers between tracing and base sets
+1271a40eeafa8e9b5b76c4d02e2b3812cbc3c280 bpf: Allow access to const void pointer arguments in tracing programs
+4c0a42c50021ee509f159c1f8a22efb35987c941 selftests/bpf: Add test to access const void pointer argument in tracing program
+b9c09fb206a781b8933f93f530b9c03877dcef8b Merge branch 'bpf-allow-access-to-const-void-pointer-arguments-in-tracing-programs'
 c0e473a0d226479e8e925d5ba93f751d8df628e9 block: fix race between set_blocksize and read paths
 e03463d247ddac66e71143468373df3d74a3a6bd block: hoist block size validation code to a separate function
 5533bc70aedc7c9872841ac8649344f8cbc6bc4c selftests: ublk: fix recover test
@@ -256,6 +266,7 @@ e03463d247ddac66e71143468373df3d74a3a6bd block: hoist block size validation code
 13b4ece33cf9def67966bb8716783c42cec20617 mptcp: pm: Defer freeing of MPTCP userspace path manager entries
 ce72fea219c13c6485503928181c547d0e26756b selftests: mptcp: diag: use mptcp_lib_get_info_value
 d861a5dbb960c5619ea78ae9f121b9b460685429 Merge branch 'mptcp-pm-defer-freeing-userspace-pm-entries'
+60400cd2b9bed537e6a2a8b580cfc3271e1aa672 selftests/bpf: Set MACs during veth creation in tc_redirect
 3df275ef0a6ae181e8428a6589ef5d5231e58b5c net_sched: hfsc: Fix a UAF vulnerability in class handling
 6ccbda44e2cc3d26fd22af54c650d6d5d801addf net_sched: hfsc: Fix a potential UAF in hfsc_dequeue() too
 7629d1a04ad2e76709401b655263040486972c2c selftests/tc-testing: Add test for HFSC queue emptying during peek operation
@@ -289,6 +300,7 @@ aae251a380fe4741594368e0d7836a082b17ae3e iommu/amd: WARN if KVM attempts to set 
 268cbfe65bb9096f78f98d1e092b1939d3caa382 KVM: SVM: WARN if an invalid posted interrupt IRTE entry is added
 ca4f113b0b4c2de6ffb438d5d0ebb7337877c911 KVM: x86: Do not use kvm_rip_read() unconditionally in KVM tracepoints
 38e93267ca6807fc34288ce1a9c610bf219fc0e0 KVM: x86: Do not use kvm_rip_read() unconditionally for KVM_PROFILING
+4cc20482143c6dd009ea0c99762bb4bdeac98ec2 bpf, docs: Fix non-standard line break
 288537d9c9364356a4b2f6bd947f2e89cdaa353e Merge tag 'v6.15-p5' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 e72e9e6933071fbbb3076811d3a0cc20e8720a5b Merge tag 'net-6.15-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 032ce1ea9442e140a80e41078b5431d4c0fa2893 x86/boot: Work around broken busybox 'truncate' tool
@@ -312,6 +324,10 @@ d020a9fb11bd85f4f16392e2a44c46ae9778b3ee bcachefs: track current fiemap offset i
 2d55a637095d0eaaad609b8a518589ead34487b3 bcachefs: refactor fiemap processing into extent helper and struct
 b9b0494017b5f6d0664ecbcd2d8870800f045581 bcachefs: add fiemap delalloc extent detection
 d1b0f9aa73fe50ee5276708e33d77c4e7054e555 bcachefs: Rework fiemap transaction restart handling
+ddfd1f30b5badcd06c199fa519bec5f0f54892e0 selftests/bpf: Fix arena_spin_lock.c build dependency
+0240e5a9431cb48f980fd44f913d7f0886b0aded selftests/bpf: Fix arena_spin_lock on systems with less than 16 CPUs
+be5521991506552c0873371694e4a2cb263e1b9c selftests/bpf: Fix endianness issue in __qspinlock declaration
+46eb012611f7a824231a53532c7bc86160bbc91a Merge branch 'selftests-bpf-fix-a-few-issues-in-arena_spin_lock'
 d6aa0c178bf81f30ae4a780b2bca653daa2eb633 ublk: call ublk_dispatch_req() for handling UBLK_U_IO_NEED_GET_DATA
 f40139fde5278d81af3227444fd6e76a76b9506d ublk: fix race between io_uring_cmd_complete_in_task and ublk_cancel_cmd
 e079d7c4db5cba1e8a315dc93030dfb6c7b49459 devtmpfs: don't use vfs_getattr_nosec to query i_mode
@@ -324,6 +340,8 @@ f520bed25d17bb31c2d2d72b0a785b593a4e3179 fs/xattr: Fix handling of AT_FDCWD in s
 6ae003adc029c74e7f97cc65dc1e79109a1f2d67 Merge branch 'bpf-fix-softlock-condition-in-bpf-hashmap-interation'
 eef0dc0bd432885b2bd4fc7f410ed039bf028e37 Merge tag 'bcachefs-2025-04-24' of git://evilpiepirate.org/bcachefs
 f88886de0927a2adf4c1b4c5c1f1d31d2023ef74 bpf: Add namespace to BPF internal symbols
+64821d25f05ac468d435e61669ae745ce5a633ea libbpf: Remove sample_period init in perf_buffer
+91dbac4076537b464639953c055c460d2bdfc7ea Use thread-safe function pointer in libbpf_print
 548762f05d19c5542db7590bcdfb9be1fb928376 samples/bpf: Fix compilation failure for samples/bpf on LoongArch Fedora
 b22a194c52b2c146d57b6c291e8a37329a8d08a1 Merge tag 'xfs-fixes-6.15-rc4' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 882cd652882a724a128d566af724a9d9470a9e43 Merge tag 'dma-mapping-6.15-2025-04-25' of git://git.kernel.org/pub/scm/linux/kernel/git/mszyprowski/linux
@@ -369,5 +387,6 @@ d22aad29de2a7b13f43ccb9b55cfd5daf793ead4 Merge tag 'nfsd-6.15-2' of git://git.ke
 5bc1018675ec28a8a60d83b378d8c3991faa5a27 Merge tag 'pci-v6.15-fixes-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
 b4432656b36e5cc1d50a1f2dc15357543add530e Linux 6.15-rc4
 224ee86639f57818cf4e05bd86eb7d9f31baac8d Merge git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf after rc4
+e438aa4bef7cf2d1039be0bb8225738eceb0a0c9 Merge branch 'bpf-next/master' into for-next
 
---===============3773437141525497100==--
+--===============8402777539724011193==--
