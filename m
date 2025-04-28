@@ -1,58 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============4998753749073095310=="
+Content-Type: multipart/mixed; boundary="===============1198557266552417096=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Mon, 28 Apr 2025 08:22:10 -0000
-Message-Id: <174582853099.1985061.11531130440857786974@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Mon, 28 Apr 2025 08:33:46 -0000
+Message-Id: <174582922630.1993870.15124616832329923054@gitolite.kernel.org>
 
---===============4998753749073095310==
+--===============1198557266552417096==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
-    old: 785151f50ddacac06c7a3c5f3d31642794507fdf
-    new: 0e4965c80ef0f862bff0e2bb6870c8ee118c318e
-    log: |
-         f5e5631df596ade5875ba1dc5d640611745d0c0d devres: Move devm_*_action*() APIs to devres.h
-         e383bb8f958444620d96386811aacf6a49757996 devres: Add devm_is_action_added() helper
-         0e4965c80ef0f862bff0e2bb6870c8ee118c318e Merge tag 'gpiod-devm-is-action-added-for-v6.16-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/brgl/linux into driver-core-next
-         
+  - ref: refs/tags/v6.15-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 8a834b0ac9ceb354a6e0b8cf5b363edca8221bdd
+  - ref: refs/tags/v6.15-rc3
+    old: 0000000000000000000000000000000000000000
+    new: f34da179a4517854b2ffbe4bce8c3405bd9be04e
+  - ref: refs/tags/v6.15-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 39d6783f6488786301f36b0e7c619f220c3e8d2c
 
---===============4998753749073095310==
+--===============1198557266552417096==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1745828561 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1745828529-1eabf40022774cf0a46cc979df9e18d019326e46
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1745829254 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1745829223-595a66f8757cf2c3da55ed4a6b4268d514ac747e
 
-785151f50ddacac06c7a3c5f3d31642794507fdf 0e4965c80ef0f862bff0e2bb6870c8ee118c318e refs/heads/driver-core-next
+0000000000000000000000000000000000000000 8a834b0ac9ceb354a6e0b8cf5b363edca8221bdd refs/tags/v6.15-rc2
+0000000000000000000000000000000000000000 f34da179a4517854b2ffbe4bce8c3405bd9be04e refs/tags/v6.15-rc3
+0000000000000000000000000000000000000000 39d6783f6488786301f36b0e7c619f220c3e8d2c refs/tags/v6.15-rc4
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgPOtEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RvQP/Au8ZjT+fYuaXN2MeaH9
-2q+7QARUiU5SJfqfGhq9bJbmVBV6TBzQZNWgZXfUVi6pzctOXWJQDdAN9IBc2bRX
-iRlmm64dE66nwX6Jb1Y73axbArQGZZPYtWH2gQzrvZB5VWnaFBt6cesNthYg6GqI
-Q+mz+HHYgulAaMLwzrEKtQVTlPY0km5USEzQZJHqBwOqiJXgjCNl8DzUuKJlKr1Y
-uXnNmEAjbGzdl66IR/4mzEcTEgxqvzDbPXYZKk3Fqhs1mDyZPBAF7TAjHFYwzWjx
-xyAgUXjXwaoNsXX0f7XUFgdS2KvOdwCnLTku8CBbGoIcl36wGVH1E/pCD65sE/qY
-lYkEPH2OckuPIcHkvnArZEo3IG6WjueMaKZ2WmX92EAssVbwSt13ReAdB0MBU9U7
-xPMv5QB7lhKsdZlzlBRtVWyvoq5PVQsX3ensbo+vEYTBq2EWAQLZ9rGFvu5zvO0/
-kUWTikj4pLQfWnNw+4NSPBEUP39742gZHQ/3hnlH0jVpYOK4JT5x4Rnkt7ownplU
-6Y2KX6ixcS+UTEdqjsy7HTxZfz/PHZEx4YlrRNKyZNhLVvpRw4jmNFK0rldCfHlN
-+WAwkSxsXvdEPBAx5GgmKPjMPRXjCOrDAT82CxxfpnjHgvh94G43jPRtECwIAQkM
-sTE/hoG+8oo25hQYr33dG45r
-=GR0B
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgPPYYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+H0QP/iA0CjLDhWZ9fB4tKPeL
+Q/BG0TBaYFiqg436UDjRLF6/QskLGPIRqCzKfT+3Eqjqa+2JCvg3hKKj8U2lUjL9
+xsHZETPZ3oXW1sewfyucFZ9TfHQ1Vupe0LY9BTp+JuZt0AAtZXjfgsH/05jwkCCR
+DQdksheD6Qn1Zigldv11EcTuT+WLb9pdcsrR27GzkHFsCmWgAMRfpf5YhZMaNMoI
+AEsxOVzsJ7g5dp63ezGK/wxxl9M9IRR0zPJIkHtoz4KJpeBUVb+Uri9GZEsMgk3v
+oaN26CqYa3CV4pDkWLDFt1q7qXeTNuzPkwcWJNyZ9KmC73V0YD9iTiarOeSshAC8
+Rdnmbmb39/BSIwFXkImIvt4pjQyZWo8AsGzA6YQzr01zfamirUCQPyDY/4O12ueP
+m8IpIoslb6/zi0bYEIsfegNyTopH0yzfSNygaJfo1KPqH9+YMMvCgEd8u+FQHYfG
+G+yhqSNL0iqKJft6ic6VRfYtjgB31x4INcuaJU7VUim8/USwMyfqOgwnQ5m467hO
+qFvuubUwLSVdmpnhxFx+jrp9DxtTTsfYRC2X+/yNmdSIIOU+DbE6YCI57hbGLYv8
+tK92mvG9bEV03PwsficmBHviz9gdIzXB1C2oxHUGG7ResyblJPPcdpHGOl3DaubG
+ExHinsEzrgj51tUxBtYh+yFJ
+=j3m9
 -----END PGP SIGNATURE-----
 
---===============4998753749073095310==--
+--===============1198557266552417096==--
