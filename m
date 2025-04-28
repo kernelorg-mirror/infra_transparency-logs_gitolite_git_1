@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Mon, 28 Apr 2025 22:44:30 -0000
-Message-Id: <174588027060.2787501.7520244119821755877@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 28 Apr 2025 22:49:50 -0000
+Message-Id: <174588059049.2792767.8819244060662187255@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/i2c/i2c-host-next
-    old: 61dc977fbb090058f2fdf6e55edea550a1068845
-    new: 5891299b4668dfc3511a54204026ee697772ea14
+  - ref: refs/heads/main
+    old: c0b0a360ed4ca077cf72a9c3cd15ac89f6093f3a
+    new: 034ebd3c82f5396c678d9a322afc83f616b6edde
     log: |
-         d1dafe912d2e94205c6b8c4af830a5e3326539fe i2c: pasemi: Enable the unjam machine
-         64db10f16e587165d904c4fc14c9de5f97d4397f i2c: pasemi: Improve timeout handling
-         a479f59f17384593837fea43177166e5f2d36eea i2c: pasemi: Improve error recovery
-         5891299b4668dfc3511a54204026ee697772ea14 i2c: pasemi: Log bus reset causes
+         59dd07db92c166ca3947d2a1bf548d57b7f03316 selftests: net: move xdp_helper to net/lib
+         5d346179e709ea688f29b450a918cbf2ead80960 selftests: net: add flag to force zerocopy mode in xdp_helper
+         b2b4555cf2a6cc4d08ddfaa181687bb7a8559a51 selftests: net: retry when bind returns EBUSY in xdp_helper
+         c347fb0ff844f2c72fa779c76ec8b2d7385127e6 selftests: net: add a virtio_net deadlock selftest
+         034ebd3c82f5396c678d9a322afc83f616b6edde Merge branch 'virtio-net-disable-delayed-refill-when-pausing-rx'
          
