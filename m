@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0199257168174001965=="
+Content-Type: multipart/mixed; boundary="===============8473729991150207548=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 28 Apr 2025 13:33:56 -0000
-Message-Id: <174584723618.2309063.10991249850776813617@gitolite.kernel.org>
+Date: Mon, 28 Apr 2025 13:34:34 -0000
+Message-Id: <174584727493.2310043.8584522000799084609@gitolite.kernel.org>
 
---===============0199257168174001965==
+--===============8473729991150207548==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
-    old: 9c32cda43eb78f78c73aee4aa344b777714e259b
-    new: b4432656b36e5cc1d50a1f2dc15357543add530e
-    log: revlist-9c32cda43eb7-b4432656b36e.txt
+  - ref: refs/heads/nfsd-next
+    old: 4462c4dbf46549b71db2c242eea4b4af1f106834
+    new: b5d9eaabbb5ecf72b0a93a5b9ea3685fef8bd625
+    log: revlist-4462c4dbf465-b5d9eaabbb5e.txt
 
---===============0199257168174001965==
+--===============8473729991150207548==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9c32cda43eb7-b4432656b36e.txt
+Content-Disposition: attachment; filename=revlist-4462c4dbf465-b5d9eaabbb5e.txt
 
 aed06d36ba4e7fe90f2d4a85835cee7c80ea72a7 ceph: Remove osd_client deadcode
 f452a2204614fc10e2c3b85904c4bd300c2789dc ceph: Fix incorrect flush end position calculation
@@ -32,9 +32,6 @@ f452a2204614fc10e2c3b85904c4bd300c2789dc ceph: Fix incorrect flush end position 
 fc5414a4774e14e51a93499a6adfdc45f2de82e0 cpufreq: Add SM8650 to cpufreq-dt-platdev blocklist
 d4f610a9bafdec8e3210789aa19335367da696ea cpufreq: Do not enable by default during compile testing
 fe81536af3978f26a1383e4da7f135b973eb4209 landlock: Remove incorrect warning
-47068309b5777313b6ac84a77d8d10dc7312260a sched_ext: Use kvzalloc for large exit_dump allocation
-e776b26e3701945e0d20a11dc30ecd4da98e8d67 sched_ext: Remove cpu.weight / cpu.idle unimplemented warnings
-bc08b15b54b8aadbc8a8f413271c07a3f4bead87 sched_ext: Mark SCX_OPS_HAS_CGROUP_WEIGHT for deprecation
 d7b98ae5221007d3f202746903d4c21c7caf7ea9 dma/contiguous: avoid warning about unused size_bytes
 87d2de042c602e12230283cd40fa604b881e12f7 cxl/core: Fix caching dport GPF DVSEC issue
 6af941db6a60a27209bdb2da1a3a780574d617fe cxl/pci: Update Port GPF timeout only when the first EP attaching
@@ -134,8 +131,6 @@ b0c26f47992672661340dd6ea931240213016609 btrfs: zoned: return EIO on RAID1 block
 f1ab0171e9be96fd530329fa54761cff5e09ea95 btrfs: tree-checker: adjust error code for header level check
 c1a79b1a583654f24b17da81ba868b0064077243 block: introduce zone capacity helper
 866bafae59ecffcf1840d846cd79740be29f21d6 btrfs: zoned: skip reporting zone for new block group
-87c259a7a359e73e6c52c68fcbec79988999b4e6 cgroup: Fix compilation issue due to cgroup_mutex not being exported
-1bf67c8fdbda21fadd564a12dbe2b13c1ea5eda7 cgroup/cpuset-v1: Add missing support for cpuset_v2_mode
 750d0ac001e85b754404178ee8ce01cbc76a03be MAINTAINERS: Add entry for Socfpga DWMAC ethernet glue driver
 9788792ad0a0692c4a5da1efcbac449cfc745bde Merge tag 'usb-serial-6.15-rc3' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
 a34d74877c66ce484ad586d806002ceaedd58657 PCI: Restore assigned resources fully after release
@@ -158,7 +153,6 @@ efabefb05aa1fe534ddb1839980824a763a7f1b0 openrisc: Refactor struct cpuinfo_or1k 
 4e6d24a309e60251439f08f15de37b489465f17b openrisc: Add cacheinfo support
 20a43732736ac270c35601f7f22a0bcd2db4cba4 Documentation: openrisc: Update mailing list
 66ffd2f3161124f2f5019b55d8ef3add26a002a5 Documentation: openrisc: Update toolchain binaries URL
-9d7a0577c9db35c4cc52db90bc415ea248446472 gcc-15: disable '-Wunterminated-string-initialization' entirely for now
 4c0d2c67ac6d54ba71bb3438147b144c25fdee2c bcachefs: Fix early startup error path
 aa6a591f0fd740e27c54110f8425b53133ad4165 bcachefs: Fix null ptr deref in bch2_snapshot_tree_oldest_subvol()
 417f01e726036b564e2e14c39b2be58e93bf7971 bcachefs: Error ratelimiting is no longer only during fsck
@@ -187,8 +181,6 @@ cc3628dcd851ddd8d418bf0c897024b4621ddc92 xen-netfront: handle NULL returned by x
 1d587faa5be7e9785b682cc5f58ba8f4100c13ea net: enetc: refactor bulk flipping of RX buffers to separate function
 020f0c8b3d396ec8190948f86063e1c45133f839 net: enetc: fix frame corruption on bpf_xdp_adjust_head/tail() and XDP_PASS
 b1eac30d9bc21cdaff97b2b23000085492efc662 Merge branch 'enetc-bug-fixes-for-bpf_xdp_adjust_head-and-bpf_xdp_adjust_tail'
-a22509a4ee99e23c6bd8980b70dd78aade6baabd Merge tag 'cgroup-for-6.15-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
-a33b5a08cbbdd7aadff95f40cbb45ab86841679e Merge tag 'sched_ext-for-6.15-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
 db91586b1e8f36122a9e5b8fbced11741488dd22 ata: libata-scsi: Fix ata_mselect_control_ata_feature() return type
 88474ad734fb2000805c63e01cc53ea930adf2c7 ata: libata-scsi: Fix ata_msense_control_ata_feature()
 17e897a456752ec9c2d7afb3d9baf268b442451b ata: libata-scsi: Improve CDL control
@@ -369,5 +361,23 @@ a226e6540b0a1872debbe9d8f2b3d72c53d90de6 Merge tag 'irq-urgent-2025-04-26' of gi
 d22aad29de2a7b13f43ccb9b55cfd5daf793ead4 Merge tag 'nfsd-6.15-2' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
 5bc1018675ec28a8a60d83b378d8c3991faa5a27 Merge tag 'pci-v6.15-fixes-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
 b4432656b36e5cc1d50a1f2dc15357543add530e Linux 6.15-rc4
+8dd727f2f0243328c33183c8410a728478ecbe97 NFSD: OFFLOAD_CANCEL should mark an async COPY as completed
+75b892ac17a883bd7d6067a428b20fc83f7eed52 NFSD: Shorten CB_OFFLOAD response to NFS4ERR_DELAY
+48004000f5b12b66debc426ca54f6be029381739 NFSD: Implement CB_SEQUENCE referring call lists
+6eea51b2eda4b73690af927e0d9e2a6f433dc3e2 NFSD: Implement CB_SEQUENCE referring call lists
+242b5e2697e2aa461899a999c348ba0b74da250e NFSD: Record each NFSv4 call's session slot index
+77a25b0d861c1588c4061bf2b7f3b0f155949adb sunrpc: update nextcheck time when adding new cache entries
+4b156388f98d5a68bd74ec6984449399e6559c97 sunrpc: fix race in cache cleanup causing stale nextcheck time
+9d7647acb27923a431f5258929a436404f71d69c NFSD: Offer write delegation for OPEN with OPEN4_SHARE_ACCESS_WRITE
+ea731d4cc8bd6602704e1ca1f6e6321e79e2c826 NFSD: unregister filesystem in case genl_register_family() fails
+989f5c32af7103941c995bf4a5c864120aaf3f73 NFSD: fix race between nfsd registration and exports_proc
+7aeb7e95b5ead18c2dbe074a05377ee546cabe48 NFSD: Add /sys/kernel/debug/nfsd
+306fca98a6e6649c281b6e75cf0582f070b86ee8 NFSD: Add experimental setting to disable the use of splice read
+a356997303fbea4914bfbdad9645c61d88b28c4d nfsd: remove redundant WARN_ON_ONCE in nfsd4_write
+50983f78bd0e21736934de037822ec254a08f912 nfsd: fix access checking for NLM under XPRTSEC policies
+2358fae9d93f7e1992f9ed8a53cd8a92ae8b54a2 nfsd: nfsd4_spo_must_allow() must check this is a v4 compound request
+962fae97c434fa9d4a152ab8e4968a011f79da0d nfsd: add commit start/done tracepoints around nfsd_commit()
+153963fcf660af6664d911de42b4f929e6db7e1e sunrpc: add info about xprt queue times to svc_xprt_dequeue tracepoint
+b5d9eaabbb5ecf72b0a93a5b9ea3685fef8bd625 MAINTAINERS: Update Neil Brown's email address
 
---===============0199257168174001965==--
+--===============8473729991150207548==--
