@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============4943424838729639460=="
+Content-Type: multipart/mixed; boundary="===============7580915582687140801=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 28 Apr 2025 12:11:57 -0000
-Message-Id: <174584231745.2238193.17895817875663795534@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Mon, 28 Apr 2025 12:12:54 -0000
+Message-Id: <174584237461.2238857.1016807674239357278@gitolite.kernel.org>
 
---===============4943424838729639460==
+--===============7580915582687140801==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: westeri
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/master
     old: 9c32cda43eb78f78c73aee4aa344b777714e259b
     new: b4432656b36e5cc1d50a1f2dc15357543add530e
     log: revlist-9c32cda43eb7-b4432656b36e.txt
 
---===============4943424838729639460==
+--===============7580915582687140801==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -370,4 +370,4 @@ d22aad29de2a7b13f43ccb9b55cfd5daf793ead4 Merge tag 'nfsd-6.15-2' of git://git.ke
 5bc1018675ec28a8a60d83b378d8c3991faa5a27 Merge tag 'pci-v6.15-fixes-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
 b4432656b36e5cc1d50a1f2dc15357543add530e Linux 6.15-rc4
 
---===============4943424838729639460==--
+--===============7580915582687140801==--
