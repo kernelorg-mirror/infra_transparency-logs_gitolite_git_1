@@ -1,56 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============2541327400384652078=="
+Content-Type: multipart/mixed; boundary="===============2299811962816280040=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Tue, 29 Apr 2025 04:15:34 -0000
-Message-Id: <174590013459.3074281.16340942086570052785@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
+Date: Tue, 29 Apr 2025 05:39:01 -0000
+Message-Id: <174590514170.3137729.3457309710179771790@gitolite.kernel.org>
 
---===============2541327400384652078==
+--===============2299811962816280040==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/powerpc/linux
+user: maddy
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: 1ade7a37ca60f6e1a7124d18a653da85bbb85795
-    new: 0a89b0dc417d7c1275d35c22767818eec3e3e3b5
-    log: revlist-1ade7a37ca60-0a89b0dc417d.txt
+  - ref: refs/heads/next-test
+    old: 86900ab620a42396a749b506d4a187820fc3fabe
+    new: 9cc0eafd28c7faef300822992bb08d79cab2a36c
+    log: |
+         cb5b691f8273432297611863ac142e17119279e0 powerpc64/ftrace: fix clobbered r15 during livepatching
+         59ba025948be2a92e8bc9ae1cbdaf197660bd508 powerpc/bpf: fix JIT code size calculation of bpf trampoline
+         9cc0eafd28c7faef300822992bb08d79cab2a36c powerpc/pseries/msi: Avoid reading PCI device registers in reduced power states
+         
 
---===============2541327400384652078==
+--===============2299811962816280040==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1ade7a37ca60-0a89b0dc417d.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-387b51709db546033cf9a940860b6614a5cda5b6 cpufreq: Consolidate some code in cpufreq_online()
-68974e3a15b92639396f39d1cd09d5288ba687bc cpufreq: Split cpufreq_online()
-6fec833b9d70c54ceacbf7d07665215fbd0cddef cpufreq: Add and use cpufreq policy locking guards
-973207ae3d7c3c92df4a382df5d7bd695deaa904 cpufreq: intel_pstate: Rearrange max frequency updates handling code
-9a74bfdfd07f99b09fa4aaccacd17248b8629a07 cpufreq: Use locking guard and __free() in cpufreq_update_policy()
-c7282dce257480f0f22ed3db69cfb400a18709f4 cpufreq: Drop cpufreq_cpu_acquire() and cpufreq_cpu_release()
-ece898da386214cf9bf693fe21694b556b785428 cpufreq: Use __free() for policy reference counting cleanup
-684e1855211145b71f8d9aaa49d2cc67067cd42a cpufreq: Introduce cpufreq_policy_refresh()
-eaff6b62d3439ca6ee00dba4f77673a8c37dac20 cpufreq: Pass policy pointer to ->update_limits()
-2c7335d1fe31d0020409ad29cfbb49a8a3f4806a Merge commit 'eaff6b62d3439ca6ee00dba4f77673a8c37dac20' into HEAD
-e9ae23f9ff0de0ebe25dc73ace2d8b68ba928b9a rust: cpumask: Add few more helpers
-6fa5ce832520f74ff7eee217b10c9e74a8e520a9 rust: cpumask: Add initial abstractions
-e5fbc44f50d6e7b17ee27a197543721abcd149af MAINTAINERS: Add entry for Rust cpumask API
-5feb286e16f4066b3a62467fa52d9a6492771ef4 rust: clk: Add helpers for Rust code
-4c2737f78d215e58746335b759f81e69ee9de4c2 rust: clk: Add initial abstractions
-d9afac05791647e198fe1a49277f899104c54510 rust: macros: enable use of hyphens in module names
-3044627e149463538f15d229b3673cd4464364f9 rust: cpu: Add from_cpu()
-4eb3c0cfd2b267d208286ba435f90535fdb08b9f rust: opp: Add initial abstractions for OPP framework
-8eba2987ce5910725c9d22b92dd82c519e1bee19 rust: opp: Add abstractions for the OPP table
-7be615798b4a8e446f3de860a519f768af7e61ee rust: opp: Add abstractions for the configuration options
-254df142ab42c97ed416326fdfae188f1cc17e9c rust: cpufreq: Add initial abstractions for cpufreq framework
-952f2ef7e853b243ddb633827cd0ae1f6e98fbe3 rust: cpufreq: Extend abstractions for policy and driver ops
-70c7f58aedbc573cc3aa59873483be19143000be rust: cpufreq: Extend abstractions for driver registration
-1bb1eba259bfd9a548242f4b0cb5c7aa6f494fd2 rust: opp: Extend OPP abstractions with cpufreq support
-a7e08ed6cd7f4dccedece942ce94d201ed00fbec cpufreq: Add Rust-based cpufreq-dt driver
-0a89b0dc417d7c1275d35c22767818eec3e3e3b5 Merge branch 'rust/cpufreq-dt' into cpufreq/arm/linux-next
+certificate version 0.1
+pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1745905160 +0530
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
+nonce 1745905128-54dd586bcdfbfdafa4d10f92f291d1e97d6765bb
 
---===============2541327400384652078==--
+86900ab620a42396a749b506d4a187820fc3fabe 9cc0eafd28c7faef300822992bb08d79cab2a36c refs/heads/next-test
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmgQZggACgkQpnEsdPSH
+ZJQnaA/9FTQQDojPiZOL+8EyNUXICcrgH6+DkvI18kdWbUXkWLcqNDZIR7Yp/rZP
+c129nApEvh2Z86vCQpT8NQqGyTxdcAMshdMig66bi4+LPnIhR7R/hrow3pDPhVls
+P4CMPdgTYs5HrrBO7dgxe51SYd5wo9B9Y8t4bbInQVKLTNX154A8yQ+xFUwVDLjG
+ZoH2wIbKVp3IKCrC90nZIfj2kP4Vy1DyLajh9QyjWHHhdAF+GkciXp2c76YRWVDH
+1J5I3g35gA8PegX6D83X+PRzJjFAC6qrPTGlpqIKHKnpkfxxGo1X6PzsxJixIEO5
+/UEL84SIOyxHrlASQAkWnkS4tra/y9R/6Q6//yapFzHT18hvOpDmGuwmLYEj3hI1
+lYrpOPC81JH0E5AJ4pkq7aK7/3kUVRfKStFl3eZSQ9ImMXav5Lk1ytdRjFTfNqBa
+viDLplWMU/MaqYyyosRP1NaAZE5Fclz1u+hxah1+4WumM2GVidTR/SUNQoE8oyn4
+dNSTg7b4xxeSHTFf1BAXPRc3K0C1VGRE1Z8gVY0Xa9yr4y1x/OUYAhQyvh6SbUZD
+wdV5x0MA3YdaVJwvoMP37z/+ALdgg6EirjLd7Iw1UDeDRjBDZ9Tq55NJ+pUgxVMh
+fYGM/amx+E2yXl53n43h9oXuWo8XFzb+cPABXja63f9Z1szpaIY=
+=PSOg
+-----END PGP SIGNATURE-----
+
+--===============2299811962816280040==--
