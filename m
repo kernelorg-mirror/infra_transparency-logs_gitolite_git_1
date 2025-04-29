@@ -1,85 +1,84 @@
-Content-Type: multipart/mixed; boundary="===============2873484673882121633=="
+Content-Type: multipart/mixed; boundary="===============5434158963874135460=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 29 Apr 2025 08:41:27 -0000
-Message-Id: <174591608746.3314157.6789858672168849163@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Tue, 29 Apr 2025 08:46:03 -0000
+Message-Id: <174591636366.3318286.3006035720033045098@gitolite.kernel.org>
 
---===============2873484673882121633==
+--===============5434158963874135460==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: b50f92f88efbb7ea06d9de112657506dae75a95c
-    new: 26533173973e62a80f9cde88115ead012aa97bdc
-    log: revlist-b50f92f88efb-26533173973e.txt
-  - ref: refs/heads/tip/urgent
-    old: 2fb0916281b86a43e6d2737feff22c982294bc54
-    new: 07d36891b7660856936883e4e58964a818854ab3
-    log: revlist-2fb0916281b8-07d36891b766.txt
+  - ref: refs/heads/for-next
+    old: 981527828c301644bc4014faa9c523e8a5e32a32
+    new: f618f1b298d3195d363b20f158ccb3facf553f0d
+    log: revlist-981527828c30-f618f1b298d3.txt
 
---===============2873484673882121633==
+--===============5434158963874135460==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b50f92f88efb-26533173973e.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-07d36891b7660856936883e4e58964a818854ab3 Merge branch into tip/master: 'timers/urgent'
-60fc9717216e397e873e68009ca5f581b1c1807c Merge branch into tip/master: 'x86/merge'
-ee847d913335bc0fa524e7292aef7567bb360abd Merge branch into tip/master: 'perf/merge'
-4e7b00d58d4aec4d4f8cd1b6a6d2dfd8ccb1256f Merge branch into tip/master: 'core/entry'
-81a1c57c610a389baf09556cdbbc3fe9d2931ebf Merge branch into tip/master: 'irq/core'
-5f3718d84a6531693b6e3f01eaf0fbf52d87590d Merge branch into tip/master: 'irq/drivers'
-87b663bf9d155acdefac85b6a93d89341cd5befb Merge branch into tip/master: 'irq/msi'
-694e4c1430ac5ef29461a7047cc0b74d45c034e1 Merge branch into tip/master: 'sched/core'
-5deb25bcf625d43abea4bfc56561e01fb6e2df8d Merge branch into tip/master: 'timers/core'
-ad3a9f1a4dc2ab235a63bfdf5f9cc187dba44d61 Merge branch into tip/master: 'x86/alternatives'
-82e720a5e8f1dd43266e77aee957c4f03058fcb9 Merge branch into tip/master: 'x86/asm'
-fd9b0a2660d7e4e70241db91533dd3564458639e Merge branch into tip/master: 'x86/boot'
-8041272ef81c8c22cf2083fee5d25c708c4d77ab Merge branch into tip/master: 'x86/bugs'
-69e0d49c2625cd57a6753736d3053c3b35c859a9 Merge branch into tip/master: 'x86/cpu'
-a745a2ece4d68718e853358ad83b44cdaa90535d Merge branch into tip/master: 'x86/entry'
-8b04f0323ba91bd97c263fa3827c8b79e99f7e34 Merge branch into tip/master: 'x86/fpu'
-231d1f46f6b75ab75d12d3564b49d19ce5b97207 Merge branch into tip/master: 'x86/kconfig'
-93ff1c53037f2c0e2ef6faef0929875959d1cfe8 Merge branch into tip/master: 'x86/microcode'
-aca2d86ed6d7bd19843a9a8eb99c900920130bf9 Merge branch into tip/master: 'x86/nmi'
-7e326aa4635cb1322444825c3f82baacb1a38757 Merge branch into tip/master: 'x86/platform'
-be16fd4a2be2f45e3d074dc419d08373d9f5bb24 Merge branch into tip/master: 'x86/sev'
-26533173973e62a80f9cde88115ead012aa97bdc Merge branch into tip/master: 'x86/sgx'
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1745916390 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1745916358-9995d54c1dfe8481111c693f800a592fbc34fe85
 
---===============2873484673882121633==
+981527828c301644bc4014faa9c523e8a5e32a32 f618f1b298d3195d363b20f158ccb3facf553f0d refs/heads/for-next
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaBCR6QAKCRBZrE9hU+XO
+MXSQAQCGPRec9b26T7DoxIr9VyuCc567BwGfRlk7RrjIkh4duQD+PS7pHcBgRApA
+OVqKqeEReA3oSBBGEDCA89jXAzTAkAM=
+=9g6w
+-----END PGP SIGNATURE-----
+
+--===============5434158963874135460==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2fb0916281b8-07d36891b766.txt
+Content-Disposition: attachment; filename=revlist-981527828c30-f618f1b298d3.txt
 
-261ffd53cc8e91e6484a3170a1ddf59a16696667 Drivers: hv: Fix bad pointer dereference in hv_get_partition_id
-7bd47be16108e55e6bc85bdd3cae5c9a2bc98a89 dm table: Fix W=1 build warning when mempool_needs_integrity is unused
-29bdc1f1c1df80868fb35bc69d1f073183adc6de book3s64/radix: Fix compile errors when CONFIG_ARCH_WANT_OPTIMIZE_DAX_VMEMMAP=n
-9cf7e13fecbab0894f6986fc6986ab2eba8de52e book3s64/radix : Align section vmemmap start address to PAGE_SIZE
-534f5a8ba27863141e29766467a3e1f61bcb47ac powerpc64/ftrace: fix module loading without patchable function entries
-3700976f2ae8dfec4c17433f8a16c9e6c334cf89 powerpc: Add check to select PPC_RADIX_BROADCAST_TLBIE
-b2accfe7ca5bc9f9af28e603b79bdd5ad8df5c0b powerpc/boot: Check for ld-option support
-af5226abb40cae959f424f7ca614787a1c87ce48 smb: server: smb2pdu: check return value of xa_store()
-a1f46c99d9ea411f9bf30025b912d881d36fc709 ksmbd: fix use-after-free in ksmbd_session_rpc_open
-a3d8f0a7f5e8b193db509c7191fefeed3533fc44 dm-bufio: don't schedule in atomic context
-0a533c3e4246c29d502a7e0fba0e86d80a906b04 dm-integrity: fix a warning on invalid table line
-e3f506b78d921e48a00d005bea5c45ec36a99240 powerpc/boot: Fix dash warning
-9bbb8a07fd65fca0f29a869ec3f2435761a6c676 tools/hv: update route parsing in kvp daemon
-14ae3003e73e777c9b36385a7c86f754b50a1821 Drivers: hv: Fix bad ref to hv_synic_eventring_tail when CPU goes offline
-e86e9134e1d1c90a960dd57f59ce574d27b9a124 ksmbd: fix use-after-free in kerberos authentication
-2fc9feff45d92a92cd5f96487655d5be23fb7e2b ksmbd: fix use-after-free in session logoff
-5a2a6c428190f945c5cbf5791f72dbea83e97f66 dm: always update the array size in realloc_argv on success
-b94f88da544d7ace96a9e6b3522283b82ad310e8 Merge tag 'hyperv-fixes-signed-20250427' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
-f15d97df5afae16f40ecef942031235d1c6ba14f Merge tag 'powerpc-6.15-3' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
-78109c591b806e41987e0b83390e61d675d1f724 Merge tag 'for-6.15/dm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
-ca91b9500108d4cf083a635c2e11c884d5dd20ea Merge tag 'v6.15-rc4-ksmbd-server-fixes' of git://git.samba.org/ksmbd
-07d36891b7660856936883e4e58964a818854ab3 Merge branch into tip/master: 'timers/urgent'
+4630b99d2e93a91b304f498c4d543c002fb78ca5 platform/x86: dell-pc: Propagate errors when detecting feature support
+48e21e0226a9325fc75145840d289113fb0c27bc platform/x86: dell-pc: Use non-atomic bitmap operations
+99fb11d1edb2104f976a672a0863f1ea1ea27398 platform/x86: dell-pc: Transition to faux device
+e99e2c54ea9fcad143837e800beb3468f17f9ce1 platform: Do not enable by default during compile testing
+1d78798b4e6f48c1d7e506f695bb613b0e9c37e6 platform/x86: int3472: Add skl_int3472_register_clock() helper
+ea890cdd41fe34836475eec801a1735c6f9ebcd0 platform/x86: int3472: Stop setting a supply-name for GPIO regulators
+b6d3d739b72ae1913d18d62126aee6039e2a42b1 platform/x86: int3472: Drop unused gpio field from struct int3472_gpio_regulator
+38ff83a374cdaf146ee6f6d1007419f7fad70e8f platform/x86: int3472: Rework AVDD second sensor quirk handling
+033234bdc6cfb88a797a16aa3a9df815bbe01a28 platform/x86: int3472: Make regulator supply name configurable
+ccda394e1ef17c3de33e31e7a4d2e647be6a362d platform/x86: int3472: Avoid GPIO regulator spikes
+4455dcf578ae83a3c7f751c2c9758efe5ba08a38 platform/x86: int3472: Prepare for registering more than 1 GPIO regulator
+c5d0393272048748ace2dd4ff8326fc0bf70b262 platform/x86: int3472: Add handshake pin support
+4d1e8c8f11c611db5828e4bae7292bc295eea8ef platform/x86: int3472: Debug log when remapping pins
+217d55ca13d22ba6af7e96ac2d28c2ef6927fc54 hwmon: (oxp-sensors) Distinguish the X1 variants
+9f4c9ec158fa8fa4afcdbcbff9c9a9a900dc9c2f hwmon: (oxp-sensors) Add all OneXFly variants
+fe812896e55d0d8e2a45bcf994cadc80fe912fb5 platform/x86: oxpec: Move hwmon/oxp-sensors to platform/x86
+05f8e5928bfd37416380e8e0994c5f4fd1b615c8 ABI: testing: sysfs-class-oxp: add missing documentation
+7ba14e4eec62985ae2021ef7e06d537b8e4c8712 ABI: testing: sysfs-class-oxp: add tt_led attribute documentation
+8e1963b9d84a3db10cdd2a807dc3fe401837d228 platform/x86: oxpec: Rename ec group to tt_toggle
+5485a80150ff03b6784bfbb194858244ae5f991d platform/x86: oxpec: Add turbo led support to X1 devices
+aa682cff3097dfa2370298ecebd33ff1fb64bab8 platform/x86: oxpec: Move pwm_enable read to its own function
+0ba0d67b0608c15b407491712af1c2a3d5140492 platform/x86: oxpec: Move pwm value read/write to separate functions
+653feeccdd2eb1dfe44923f4c0bbf50a948c7a07 platform/x86: oxpec: Move fan speed read to separate function
+7dea472a8b2814013213f4fed290f5f86c6cc7cb platform/x86: oxpec: Adhere to sysfs-class-hwmon and enable pwm on 2
+bb9854e9819ae5c29602d4985313cde2d07f6847 platform/x86: oxpec: Follow reverse xmas convention for tt_toggle
+468182a839f88fecab915792cbb98ad7328be266 power: supply: add inhibit-charge-awake to charge_behaviour
+202593d1e86bf3ccb1c1091713760b6f44641718 platform/x86: oxpec: Add charge threshold and behaviour to OneXPlayer
+57c775a990a742f7cc2650a5cbfc103d6b4a015d platform/x86: oxpec: Rename rval to ret in tt_toggle
+f5612600314bcce86934318601501e2d8301176d platform/x86: oxpec: Convert defines to using tabs
+3e75f295411679e999dbcca37499cd00bd643060 platform/mellanox: mlxreg-dpu: Add initial support for Nvidia DPU
+b44eea1f8ffc0b7c457f85a77911ba5c9916b551 platform: mellanox: Introduce support of Nvidia smart switch
+747ada5ac338143758d1d66bfc29b817261031ab platform: mellanox: Cosmetic changes to improve code style
+f618f1b298d3195d363b20f158ccb3facf553f0d platform: mellanox: mlx-platform: Add support for new Nvidia system
 
---===============2873484673882121633==--
+--===============5434158963874135460==--
