@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Tue, 29 Apr 2025 22:48:18 -0000
-Message-Id: <174596689879.4121847.16960846620816706637@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 29 Apr 2025 22:49:32 -0000
+Message-Id: <174596697268.4123114.10489112237898594564@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
-user: sre
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/b4/psy-core-convert-to-fwnode
-    old: 8e0b9cdba5a5e31ae0e75f51c1ea8645863f4052
-    new: 286c651c93784a5b705b0a625246805a8ca8488e
+  - ref: refs/heads/io_uring-handle
+    old: 0519531750fa77b52759fc3c717486f69e4d69bc
+    new: 7a0f0419927671c3a847fba485c7278c2dcf5dc4
     log: |
-         286c651c93784a5b705b0a625246805a8ca8488e power: supply: core: rename power_supply_get_by_phandle to power_supply_get_by_reference
+         7a0f0419927671c3a847fba485c7278c2dcf5dc4 io_uring: add support for IORING_OP_OPEN_BY_HANDLE
          
