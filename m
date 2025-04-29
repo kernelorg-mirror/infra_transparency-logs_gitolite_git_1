@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3259242042352352631=="
+Content-Type: multipart/mixed; boundary="===============3988135459046087295=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 29 Apr 2025 02:07:53 -0000
-Message-Id: <174589247316.2966271.4244661468006104878@gitolite.kernel.org>
+Date: Tue, 29 Apr 2025 02:08:15 -0000
+Message-Id: <174589249578.2966631.7337196054872733202@gitolite.kernel.org>
 
---===============3259242042352352631==
+--===============3988135459046087295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,64 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: b0b7ee3b574a72283399b9232f6190be07f220c0
-    new: 0e9693b97a0eee1df7bae33aec207c975fbcbdb8
-    log: |
-         9c51f24c1ac7cbde9cc94a54137775dc52aae491 scsi: myrb: Fix spelling mistake "statux" -> "status"
-         0e9693b97a0eee1df7bae33aec207c975fbcbdb8 scsi: ufs: core: Remove redundant query_complete trace
-         
+  - ref: refs/tags/mkp-scsi-queue
+    old: ef4308fe8e649076b36bbecef8a83ad4afd82a1c
+    new: bcdb09469073e8e450240ac777858bf2767cd1ca
+    log: revlist-ef4308fe8e64-bcdb09469073.txt
 
---===============3259242042352352631==
+--===============3988135459046087295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1745892502 -0400
+pusher 75C5DE3D 1745892508 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1745892471-c83252d4d8c8fb247a176631234ed8b73295613f
+nonce 1745892477-89d8c8630fd7c396220b81d29bed44a486e4055a
 
-b0b7ee3b574a72283399b9232f6190be07f220c0 0e9693b97a0eee1df7bae33aec207c975fbcbdb8 refs/heads/fixes
+ef4308fe8e649076b36bbecef8a83ad4afd82a1c bcdb09469073e8e450240ac777858bf2767cd1ca refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmgQNJYACgkQ7ulgGnXF
-3j121hAAjm/XFY0WfwtEgy2pvhuZRD7j2o/3ynbKQSob1dlSgYbmSM341UiQq8Wq
-WWqwyv8U3CGXqK+rSpOb18wqUJt++T5XPuVMtg3B1uJg/v/FKw4VCYJTtTz4yfGD
-OnA1WT5VmjCnQqYb1peBgC58JoZsy9XOHDY+BJsB3Z1Lio0TKPXLS41sthJnwk7D
-833T3qAQIdmCjZBpu0UvPn6i7RWPEblxUeKByCyIz4QLje0a210Gl1trRIEFi/01
-7xDDSGXmRQE9XYWGHZFvdPQjXkijycvvcl4RqZNhGidu1CmuljOcLL534nq/bY0S
-tXzdedKCa+CFrw9GhMAsyp7o6tqzVBWdPIoEUf8gEza7TVEY7Ad8mNd5ZfvrMwtM
-6u3dtEv1EhU4OekJhEQ7STYKL1DQOPTW735ZAOZ357FKCgwxMQ7+tyZsWmtticdz
-DfkE+AgoLDab4ZdSj/4wXFYwwi4MQn9LPFuucugBWPTveVr5EuoY51SHAqOauHSi
-R6MgLtVPuQYkYtZ++O+AR4eb0IocsJM8O1/VV7BN9aaChGwnYw07FxIUlrTC6DzN
-vFvVNjmSTadhCNoMWhKJokWE6WeoxovyTiAXoJ8FTsl4MOQisCbsfEW++BKPhLUa
-pC325r/UDETfwDMtCbx/yfNrjjbow2VjVBAZvxV2PWDw9ViMtag=
-=a3Sj
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmgQNJwACgkQ7ulgGnXF
+3j0pDQ/6AzWF/1uyyU1NaH8OvdZlbRm+cTSsuG+UMqu5QcYzAC8GQi+rmQdKHvPu
+9ELY3RUPNSNmYaehfSdVeTrZsThPb7Mawqa6SR49cDnYwfI9uxabGN84c4LveoAA
+4hl2tgPBDdmMohI3TvTy3+Eiki49tQAQJv7jnOiM3C9ed88GfHednI51SHGsZ6QD
+tpMGExs/qn8YASm2AM46hNjAAbaWUhu4FApwMlGMgnLYQLCHpkXqJ4CVTA7yjwcD
+YZfj0BGlB1f1LHxI9tbU0biCg8/1bXtHBG0S9GF9oVqjvimIbwfKwnsFnH7oxpvb
+OlXRKGB9VWpO8NPew9LRqGz9c54Ns8lW/AVvX60MrYAQK81I5IAaNk2Dz+EOfrtT
+CXfxhC52FDZHJn034rDhsChjapnliKaFHNonhGp2kZncwaYQ1wzGP6HwORquUY67
+/I6grRz3YYJUqF6YWZyabnK14qIldqPf8gY5bkyuYoi5TDBdE6+tEXH2TD4O4WGS
+Bw8d7rI5e5J/xOa1Jg/3hxK9b1XqYhcmQnPTEEijZzrg0mndI3DpYRkE0ja/GbI5
+l0ehHO5hYR4OAmsrWr+Z9J1UderjylwemXlf2rJht0zuoTNzlI7Dc60rsFnhIomG
+HkDc1BZcavEqbMEqYgnMmVxMAAgEcbN3H35hLeQ0JS/TeMlHvxs=
+=1FYh
 -----END PGP SIGNATURE-----
 
---===============3259242042352352631==--
+--===============3988135459046087295==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-ef4308fe8e64-bcdb09469073.txt
+
+c8c70ff3a766a077e5b3a717e91722638d50e2a6 scsi: scsi_transport_fc: Rename del_timer() in comment
+7a497d1649a9d2af1b9d184eeef4c7e63efb022c scsi: mpi3mr: Fix typo and grammar
+4ca7fe99fc8485fcd04b367f37dc7a48f1355419 scsi: hisi_sas: Use macro instead of magic number
+92c8fe15241587363983d45b63210cc214535146 scsi: hisi_sas: Coding style cleanup
+e4d953ca557e02edd3aed7390043e1b8ad1c9723 scsi: hisi_sas: Call I_T_nexus after soft reset for SATA disk
+1ca57644e2e935b39a260ead5e0ec5ac0319148e scsi: hisi_sas: Wait until error handling is complete
+ae7a08bee82b808081536be373f7d922180518a2 scsi: qla2xxx: Remove unused qlt_free_qfull_cmds()
+cbb2a2ef58019409e5fc775ccd024ea21d58f17b scsi: qla2xxx: Remove unused qlt_fc_port_deleted()
+91453ebecccce91e6e7604b9c8828bdab499007b scsi: qla2xxx: Remove unused qlt_83xx_iospace_config()
+89981b47f6fc942e6ffd73c8811fe73812519fbe scsi: qla2xxx: Remove unused qla82xx_pci_region_offset()
+2a2f3168c510c7031bbe720452365c00626bacdf scsi: qla2xxx: Remove unused qla82xx_wait_for_state_change()
+33f44a50ca61f03db1d251ddd301b0c11058e59b scsi: qla2xxx: Remove unused ql_log_qp
+45838d3db7500b1ff8393a195ee6efec56b8d2b8 scsi: qla2xxx: Remove unused qla2x00_gpsc()
+3a37ab0827fd36a670c5db8a13b3703e4b30c7e1 scsi: qla2xxx: Remove unused module parameters
+918eb068215775d27d8b6e37d9f623eb296f76ee scsi: qedi: Remove unused sysfs functions
+0d16b70cdbfcdffe7d4bf6ccc6f23372d71bcfeb scsi: qedi: Remove unused qedi_get_proto_itt()
+26f8d978918baa41148917ec8d9b67596baef0fa Merge patch series "hisi_sas: Misc patches and cleanups"
+79034ca229843ffe6390a9e46668758e4364b796 Merge patch series "scsi: qla2xxx deadcoding"
+37c15b72815b84815cd9700a42833ea11b11542e Merge patch series "scsi: qedi deadcoding"
+
+--===============3988135459046087295==--
