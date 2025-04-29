@@ -1,20 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Tue, 29 Apr 2025 20:15:15 -0000
-Message-Id: <174595771524.3990198.5821137533159400715@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/ethtool/ethtool
+Date: Tue, 29 Apr 2025 20:21:59 -0000
+Message-Id: <174595811990.3995340.15644610915927457474@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/network/ethtool/ethtool
+user: mkubecek
 changes:
-  - ref: refs/heads/nova-docs
-    old: 04dabafc6763c99e838697023cee6f337b6dbace
-    new: ac289c133349668d82b9ddfc86a8e6df90ad30b9
+  - ref: refs/heads/master
+    old: fba608c5a8ac943ebff046f387ade9dd364eb5a7
+    new: 64226907d0d6734bef5098eb343fd2194cd140e2
     log: |
-         ee08d4bcc286f54a7ed6d7b9affe7c651589af36 docs: nova-core: Document basics of the Falcon
-         ac289c133349668d82b9ddfc86a8e6df90ad30b9 gpu: nova-core: Clarify falcon code
+         0a562f6212bdc6b0dae5d620feb650f8375b15e6 update UAPI header copies
+         4690e2c4d39e244ff65d7344138d66a093b175b5 Symmetric OR-XOR RSS hash
+         ba1a6fd11de21e6aa67bd55932efa0c84c5c83b8 Merge branch 'review/next/symmetric-or-xor-rss-hash' into next
+         4e14aded68589b6a50c0e517ea09707ad2f8747a Merge branch 'master' into next
+         464b485c761eb27474ece3a74c4b85d7a6ad1907 Merge branch 'next' into master
+         1e66fe5ab12cd9a75870a3da2abacc11d7daa7ea update UAPI header copies
+         66e5dcf295c0fad7deb070f8449e984bfcfbc927 ethtool: Add support for configuring hds-thresh
+         a38a2d3a82713e6916a23a094f7860b3460e67e0 ethtool: fbnic: ethtool dump parser
+         cf3a1369647e68d919c9a51f0f252c499962d6a0 Set type property to console-application for provided AppStream metainfo XML
+         64226907d0d6734bef5098eb343fd2194cd140e2 channels: support json output
          
