@@ -1,26 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 29 Apr 2025 01:38:54 -0000
-Message-Id: <174589073452.2941067.5338647632347965928@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Tue, 29 Apr 2025 01:42:44 -0000
+Message-Id: <174589096488.2945181.13242858117100828033@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
   - ref: refs/heads/master
-    old: 8c93ef1767d03631f59caa074b626b1b31cec401
-    new: f41fd2c3aec8cb923d9351ab9f948034340194db
+    old: 1ee46f743fe73c371ca8fb439ecad2767d616934
+    new: bc52614081288609d18d2c80faf0759753ceb752
     log: |
-         2ca3a3838d09381978bbf6564a6a7f62b91c9336 Drop usb-chipidea-ci_hdrc_imx-fix-call-balance-of-regulator-routines.patch from 5.10
-         e2bf51f8c642355d5398c43143d4e0c12ee7559c Fixes for 6.14
-         9bd35b873676e5dc2376fdc4a81ccdbc06d48e12 Fixes for 6.12
-         86d21bd641f35411e92e613d6cc57ea7e54beb2e Fixes for 6.6
-         bd4b5d3a069a1218d058146b6e1eb6052b872597 Fixes for 6.1
-         673b89b31dc5a93ff1129769ee6f32ee4c8ee0a0 Fixes for 5.15
-         cd26141109f2888ab0182653477dafd7114eafc6 Fixes for 5.10
-         f41fd2c3aec8cb923d9351ab9f948034340194db Fixes for 5.4
+         bde70f15813b61661e277d62e83d3ce54e7cd0b5 foo
+         58e471fc692df3f5d1ecc180e54b5a706501e0a1 foo
+         9b448f00ab92d464320835a2b768625df04487ec foo
+         c6419f7cb59f035298b0f08701815530ad9e37a9 foo
+         bc52614081288609d18d2c80faf0759753ceb752 foo
          
