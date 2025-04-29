@@ -1,56 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============2869190164864737270=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 29 Apr 2025 06:08:29 -0000
-Message-Id: <174590690932.3161918.4543748696279536115@gitolite.kernel.org>
-
---===============2869190164864737270==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Tue, 29 Apr 2025 06:09:42 -0000
+Message-Id: <174590698252.3163388.3517835529608363010@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/master
-    old: f41fd2c3aec8cb923d9351ab9f948034340194db
-    new: 00aca5fa2f170eb39c3b06d50db21d6feadb3568
+  - ref: refs/heads/rcu/for-next
+    old: 3118290c584390241ba8220f2349f8cd1982d4f4
+    new: dab9d2afaa3de0c9c83f50b956ba83ffbe9e15ca
     log: |
-         00aca5fa2f170eb39c3b06d50db21d6feadb3568 fix up queue-6.12/bpf-add-namespace-to-bpf-internal-symbols.patch
+         dc4216056eab5833aec1848ed5967adb571c6e6d rcuscale: using kcalloc() to relpace kmalloc()
+         dab9d2afaa3de0c9c83f50b956ba83ffbe9e15ca Merge branches 'rcu/misc-for-6.16', 'rcu/seq-counters-for-6.16' and 'rcu/torture-for-6.16' into rcu/for-next
          
-
---===============2869190164864737270==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1745906939 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1745906907-a94351177ca47550338394e55390f64d7e16c307
-
-f41fd2c3aec8cb923d9351ab9f948034340194db 00aca5fa2f170eb39c3b06d50db21d6feadb3568 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgQbPsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nx4QAMdGAetLmMY9NiD7GqgN
-QwFbShpRM+yCUsXHWrKVltmaCps7kncykdR2IPKIMHibkYkwkCDWQU08j8O2/MU6
-6uxCeMGG7EG2Eh3Yq3zIwinR17jL3ufr5HbxuN7S0/LGtfF+jzp+SMknrAbQQVE1
-FL7fxx6hgKOk98p0vcEOx/YF74ZsrdSTnpF5CUZT4+fWFTGbHOKeuWL/tX8Xos/B
-E9Z/m6wjnjF90OysCbawRWDuIRK7nzb2QND1WpMajkepAWxRjXVYHIVtzH8uInl6
-Gw3HwQSp7Kje1fCQs9Idl7ILGcrpCefa0DYEADcOnqpbi1wPaT4aKVDTiQWXh0Fb
-4hPdOWjGIbWUlm7EYp0UR0gMvZ14oJ1onudpoRMogRmoHUsnV+QiXudw8RBh/+Vi
-p4cEK/y5vo7CAfIYD0FfaEdMcF+6jXBobSeXmwrAVJoLFbARkYg2D1qcMKoe7a85
-RqlGuQN3v8ds0T0UyzqsX1TEAu3hjSlUtGkRmmxOFJaKiuBWyvxRVTrQp7kEyls/
-JP/qbitz9afOAhVFW6mkuTQlRW1LwSpcC6ROAzHLvWI/fXQ/p6qKh2F5lIsoy3Gx
-kiLGkdWpQ6Gj3Vsq+CapsSeVU+SDFahBFzD90T409hYeSS77iGLqSB6UwNjHB3BY
-+SveSdfXm3QiEY2eOFQWOcZe
-=Hi6a
------END PGP SIGNATURE-----
-
---===============2869190164864737270==--
+  - ref: refs/heads/rcu/misc-for-6.16
+    old: 0390370fcd0c684bb8d82d7fefee8ed07463f16b
+    new: dc4216056eab5833aec1848ed5967adb571c6e6d
+    log: |
+         dc4216056eab5833aec1848ed5967adb571c6e6d rcuscale: using kcalloc() to relpace kmalloc()
+         
+  - ref: refs/tags/next.2025.04.29a
+    old: 0000000000000000000000000000000000000000
+    new: dab9d2afaa3de0c9c83f50b956ba83ffbe9e15ca
