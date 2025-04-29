@@ -1,23 +1,177 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Mon, 28 Apr 2025 23:58:11 -0000
-Message-Id: <174588469175.2851968.17785264645431760065@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6763976870481079483=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Tue, 29 Apr 2025 00:06:00 -0000
+Message-Id: <174588516031.2859335.9530929919151078054@gitolite.kernel.org>
+
+--===============6763976870481079483==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/master
-    old: 78109c591b806e41987e0b83390e61d675d1f724
-    new: ca91b9500108d4cf083a635c2e11c884d5dd20ea
-    log: |
-         af5226abb40cae959f424f7ca614787a1c87ce48 smb: server: smb2pdu: check return value of xa_store()
-         a1f46c99d9ea411f9bf30025b912d881d36fc709 ksmbd: fix use-after-free in ksmbd_session_rpc_open
-         e86e9134e1d1c90a960dd57f59ce574d27b9a124 ksmbd: fix use-after-free in kerberos authentication
-         2fc9feff45d92a92cd5f96487655d5be23fb7e2b ksmbd: fix use-after-free in session logoff
-         ca91b9500108d4cf083a635c2e11c884d5dd20ea Merge tag 'v6.15-rc4-ksmbd-server-fixes' of git://git.samba.org/ksmbd
-         
+  - ref: refs/heads/kernel-6.12.24/dontcache
+    old: 284c895205fe96975f892318bf187c388717bd81
+    new: 29aa795b47f0fdf256a6e76661f474be2598cc59
+    log: revlist-284c895205fe-29aa795b47f0.txt
+
+--===============6763976870481079483==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-284c895205fe-29aa795b47f0.txt
+
+a1cb8d18a5101f20c1e7b61fa8e52a4889dae93b mm/list_lru: don't pass unnecessary key parameters
+8e60572019ede406c52405a072d05185b2057978 mm/list_lru: don't export list_lru_add
+a335dfefc04b97841b472eacda6b8132c8779156 mm/list_lru: code clean up for reparenting
+7d36f6c556a0a760be1627d1899e23114cbc91be mm/list_lru: simplify reparenting and initial allocation
+cc7225e547d2512644b816862d65cda260dee105 mm/list_lru: split the lock to per-cgroup scope
+ad7484be3b2f739456b113c7aee886c4550cadc2 mm/list_lru: simplify the list_lru walk callback function
+6a8760d550fe84344ba1c67dc849672d31c46159 nfsd: trace: remove redundant stateid even deleg_recall
+78bdeefe4f670e798817e3fe14a339bc136e07b8 NFSD: Clean up unused variable
+3b646b99485fbd78ecd6f6e670e47398e1f47c4f nfsd: don't use sv_nrthreads in connection limiting calculations.
+8e1134e7f25df15e624d9e9abf22510e3c9c2815 sunrpc: remove all connection limit configuration
+c7889802c42adbc3a445d5c565031a4107c7ac79 nfsd: use an xarray to store v4.1 session slots
+660234a0dc5181f4954db2c61c59384a2dcfaae9 nfsd: remove artificial limits on the session-based DRC
+becdb1e6cff1adb718bb11d2db2e126909a991b9 nfsd: add session slot count to /proc/fs/nfsd/clients/*/info
+be1fdb9b0f4887ddb29a8ae8c667bb10a40ef91f nfsd: allocate new session-based DRC slots on demand.
+8fb77d12c76ec973da969c6a8b6d2c2ffcbf6a7b nfsd: add support for freeing unused session-DRC slots
+0652d081c6b4cbd10d4706df565f27f93491700b nfsd: add shrinker to reduce number of slots allocated per session
+c3fac5efd2bcc9c9b6c3bd43dbd726e0824b2c21 NFSD: add cb opcode to WARN_ONCE on failed callback
+a444490e34bbf4b03bb4d51700d95864f60e8fb4 SUNRPC: introduce cache_check_rcu to help check in rcu context
+cfed1f6bbb381e0369435b0d3f147f1b46e2db30 nfsd: no need get cache ref when protected by rcu
+6c44b885c0048b2524d985e2e61278811b40ef84 SUNRPC: no need get cache ref when protected by rcu
+3777bfe3966cdaeaa3c5a81ecc474af0cd862c47 nfsd: fix UAF when access ex_uuid or ex_stats
+b4d445b476b6e95196e37f49f70db05c95881f0c NFSD: Insulate nfsd4_encode_read() from page boundaries in the encode buffer
+0573772f27bf135b34604db453c5fc571320a096 NFSD: Insulate nfsd4_encode_read_plus() from page boundaries in the encode buffer
+39f0b2267cf0ee8799ae4164a99082d165b307f8 NFSD: Insulate nfsd4_encode_read_plus_data() from page boundaries in the encode buffer
+9ef738355a0ab65b49ef2bbbf42adccebe274842 NFSD: Insulate nfsd4_encode_readlink() from page boundaries in the encode buffer
+df7c7af4eb0d4d4bb1eabc3ed1522ac3973b11cf NFSD: Refactor nfsd4_do_encode_secinfo() again
+5a2e0c097474aa8baf896f5228b78c36ff303386 NFSD: Insulate nfsd4_encode_secinfo() from page boundaries in the encode buffer
+6c3ab39025bfe6eac36092e01143812cf4da0b2b NFSD: Insulate nfsd4_encode_fattr4() from page boundaries in the encode buffer
+180880702792ef91da1c9986611c12a21566150c SUNRPC: Document validity guarantees of the pointer returned by reserve_space
+3abd20d29bbeb084baf11fd4ddfe84947306cb78 nfsd: fix handling of delegated change attr in CB_GETATTR
+76dc92b1ffcdc730b34ccd4d4ecc5a713620baff nfs_common: make include/linux/nfs4.h include generated nfs4_1.h
+c64f89c65a9a8915c08edc0eaf6c05a9d31a38f2 nfsd: switch to autogenerated definitions for open_delegation_type4
+a16f8bc2ebd31ce8f30c707e78d64cc80ca242c0 nfsd: rename NFS4_SHARE_WANT_* constants to OPEN4_SHARE_ACCESS_WANT_*
+25110cce22b1d8cc1ea6630e9f139a298a33787b nfsd: prepare delegation code for handing out *_ATTRS_DELEG delegations
+1ccc31acf2804307528259da2d6649d4ab935b0f nfsd: add support for FATTR4_OPEN_ARGUMENTS
+1d8308ecb15a3772583ad0faac3306bcf7bda9cc nfsd: rework NFS4_SHARE_WANT_* flag handling
+4d888a559a217686b70fe9f121b5ebebbb85c0b6 nfsd: add support for delegated timestamps
+1276ae47ab80f17297b3995fa873f970beee36b2 nfsd: handle delegated timestamps in SETATTR
+9f8f2296c3b7414345384e1d9b9252a837d988fd nfsd: implement OPEN_ARGS_SHARE_ACCESS_WANT_OPEN_XOR_DELEGATION
+f1912e66661d939d30cfcadf0b5094cb89c3c367 sunrpc: Remove unused xprt_iter_get_xprt
+8d0c18dce96f5e166df81cfb7e757b51482f8672 sunrpc: Remove gss_generic_token deadcode
+d79aceaca36326e0c12e26c934a90ec6b5b5571f sunrpc: Remove gss_{de,en}crypt_xdr_buf deadcode
+fac84fa8b48b3d26e03246db1a68c2268ad7e8b6 NFS: CB_OFFLOAD can return NFS4ERR_DELAY
+d8b293c7f041ec0074d754987f7ab888ae68e305 NFS: Fix typo in OFFLOAD_CANCEL comment
+bdf682cbe3222060fe7d1ebde7e74255f945cd25 NFS: Rename struct nfs4_offloadcancel_data
+769d9854d4f7dad19d95424e2609c699056c9448 NFSv4.2: make LAYOUTSTATS and LAYOUTERROR MOVEABLE
+82fbd13bf7abb245683117d159d3f47b3e53fc29 sunrpc: add netns inum and srcaddr to debugfs rpc_xprt info
+22bbfde216819a5103b473a01d84f783e1626622 SUNRPC: do not retry on EKEYEXPIRED when user TGT ticket expired
+13646bebe3491a65cd4cfebb26d0e11e0d0c5ad2 nfsd: fix uninitialised slot info when a request is retried
+b2a5f4b4308756f440a79d53207976d05d5f8667 nfsd: fix __fh_verify for localio
+1fc7ec74834f04078663a01356f20048f406107b sunrpc: clean cache_detail immediately when flush is written frequently
+2ce8af7674b194aae9298e4388bcc175f6aeb4cb lockd: add netlink control interface
+c344c2eb87011c8fe3ee3e02871b26c254df68dd SUNRPC: Remove unused krb5_decrypt
+7d34e8b780ef75c56612724aace01b54739f346c nfsd: adjust WARN_ON_ONCE in revoke_delegation
+c7f0e0304eea915e8232578e6fa9b331d0c8f4d6 nfsd: remove the redundant mapping of nfserr_mlink
+9981dc6bb5b311ca678b0742b75363fbff65434b NFSD: Return NFS4ERR_FILE_OPEN only when renaming over an open file
+a7a134b70d94c49a02d209b2f641163f0a84e184 NFSD: Return NFS4ERR_FILE_OPEN only when linking an open file
+a6661bfc3670f4d940087a133eb94b8fa3b50255 SUNRPC: Remove unused make_checksum
+39daa4b13eac0259181c4548e1d2c6fa7f21de8f NFSD: Fix trace_nfsd_slot_seqid_sequence
+4179afd4a861fbc588083e6925355c6e6d4e7473 nfsd: prepare nfsd4_cb_sequence_done() for error handling rework
+b9b094f4a919596ef7a11b9b15acd8ade6d0e612 nfsd: lift NFSv4.0 handling out of nfsd4_cb_sequence_done()
+4b270a33f17d9afb3598acbf41bdb155409753a0 nfsd: always release slot when requeueing callback
+e7e6b20b9ac226da88fa1371e8da248a4c035e6b nfsd: only check RPC_SIGNALLED() when restarting rpc_task
+63153c33ced51a6c1017e9e1092617b0ded31c89 nfsd: when CB_SEQUENCE gets ESERVERFAULT don't increment seq_nr
+12ecc74af24c9a5a64b32251c1deaa96187811b2 nfsd: handle NFS4ERR_BADSLOT on CB_SEQUENCE better
+24a7600877ea9c1f93ad144eef6df1472c1772a1 nfsd: eliminate special handling of NFS4ERR_SEQ_MISORDERED
+e17def9dadb81e8550678f931d1ab32d3ff3961d NFSD: Fix callback decoder status codes
+4b8c64b216a9e4fcdee571c8019311b9d990ffb2 fs: nfs: acl: Avoid -Wflex-array-member-not-at-end warning
+90bec958ca1f2c23bef11304e9dc39e883d01e3d nfsd: filecache: remove race handling.
+e4b854cee8772a8000b540da71e65f2846d719cb NFSD: Re-organize nfsd_file_gc_worker()
+368940a8b71ff6b1923670464d04aef719ae2ccd nfsd: filecache: use nfsd_file_dispose_list() in nfsd_file_close_inode_sync()
+480d8f163c14be3462bff926777a96ba5de87dea nfsd: filecache: use list_lru_walk_node() in nfsd_file_gc()
+aee40d74cd2bb63278e538754587f2d97f2676fd nfsd: filecache: introduce NFSD_FILE_RECENT
+d0d264273832233e681125025f201c7fc102368f nfsd: filecache: don't repeatedly add/remove files on the lru list
+4be60a50bc6216b722c353804ca250977bd08a9a nfsd: filecache: drop the list_lru lock during lock gc scans
+d70fbe224bb9a8620309e62cd651c0b710f37a19 nfsd: prevent callback tasks running concurrently
+aee5b481e8ef11aaaffd162b516c0a4583ce9d02 nfsd: eliminate cl_ra_cblist and NFSD4_CLIENT_CB_RECALL_ANY
+bbb80bdd3bc2dfe6313bf818ed0182210fc706e2 nfsd: replace CB_GETATTR_BUSY with NFSD4_CALLBACK_RUNNING
+5f2bae78f9144e467655bed9f4a0564fbfa8e12e nfsd: move cb_need_restart flag into cb_flags
+b13fceb5b9474ede18e21799d1d84f25a1b96664 nfsd: handle errors from rpc_call_async()
+04cdfc80578eba14795a7b258ccbee94affc1098 nfsd: reorganize struct nfs4_delegation for better packing
+2c63d435669094536042113ff948f05998ef5546 nfsd: remove unneeded forward declaration of nfsd4_mark_cb_fault()
+07bc58b663d97efc2e100488ebff7c247a8f31cf nfsd: remove obsolete comment from nfs4_alloc_stid
+d454934adc9165bb2f4cea385b62b3554b8c13d6 nfsd: use a long for the count in nfsd4_state_shrinker_count()
+3d714f670128d70816d9e29e0fbd5334dcba3c4d sysctl: Fixes nsm_local_state bounds
+856fda56a3cafefa07d4aac9f6c035fc64af8ebb NFSD: Add a Kconfig setting to enable delegated timestamps
+2df9c94804c35a01cd2af85ceb89ec3a7e7c80bb fs: Introduce FOP_ASYNC_LOCK
+344eca5cd3fc2e4e74ae572ec3c8e33e9e569a07 gfs2/ocfs2: set FOP_ASYNC_LOCK
+206737b308f111d0dfe44c215c061a30968353bb NLM/NFSD: Fix lock notifications for async-capable filesystems
+5ff5954bcacfe3cb2d6898038b5bde00acd1f789 exportfs: Remove EXPORT_OP_ASYNC_LOCK
+5cca2483b9fdfe65c877b39d44a057027f417179 nfsd: disallow file locking and delegations for NFSv4 reexport
+8c5443efb814579affc361465ec3c4659e4e2ad7 NFS: Implement NFSv4.2's OFFLOAD_STATUS XDR
+16daccb82e0c9856d64020f233fc8b138f9f27d7 NFS: Implement NFSv4.2's OFFLOAD_STATUS operation
+5131ccf43d69e3f18824781fc20eb2d97b12c184 NFS: Use NFSv4.2's OFFLOAD_STATUS operation
+cf946e3a69d3839f072acc761d77db673ac2a1fa NFS: Refactor trace_nfs4_offload_cancel
+fbfbea94824b614201c31496a58af1f26c312be6 NFS: Extend rdirplus mount option with "force|none"
+32efdabcc703f645219b80fae5c6ee7dffc17838 NFS: Add implid to sysfs
+c67ac26fcf5a5826c68e1ab436fe2739799a8ba5 sunrpc: Add a sysfs attr for xprtsec
+1c75e594375569ae33e7e93e0c85168f1f2a2482 sunrpc: Add a sysfs files for rpc_clnt information
+f07a4451b51ccef5ffa5106f023909b3166c218d sunrpc: Add a sysfs file for adding a new xprt
+e9d790f6981883abc9837c9e769e093085133c1d sunrpc: Add a sysfs file for one-step xprt deletion
+03cdc8995befaa1cd5bec01bb8806f57ea9d839e NFS: Add a mount option to make ENETUNREACH errors fatal
+25cd7330c52242323e4876bad8e209fbf55b037f NFS: Treat ENETUNREACH errors as fatal in containers
+d5d1cec243961081fa88d9c378b2de35578dab59 pNFS/flexfiles: Treat ENETUNREACH errors as fatal in containers
+0cee238f14c781e3358d9b891efcbf0763d05201 pNFS/flexfiles: Report ENETDOWN as a connection error
+6d61f722ee22051d482ffb0a017d69a990a316a7 SUNRPC: rpcbind should never reset the port to the value '0'
+c5d02f967882bc55bb7a77230f20cf31207aed1f SUNRPC: rpc_clnt_set_transport() must not change the autobind setting
+1e63f660e98f54eab904a5ef2eb0750ba61adaf1 NFSv4: Further cleanups to shutdown loops
+397ae1e48141160e278405617a2241a3bd7b66df NFSv4: clp->cl_cons_state < 0 signifies an invalid nfs_client
+a11d31ebd0bc71288e063acd6113c0b985f938cc NFSv4: Treat ENETUNREACH errors as fatal for state recovery
+dbf433f060cc8ae62011a233a3a942986f9642a4 SUNRPC: Don't allow waiting for exiting tasks
+6a51c974b62029fd3dd064f4bee0aa0c7b371a06 NFS: Don't allow waiting for exiting tasks
+ce83f5a90e8b5048b143b561ae30ab1bee4aebc6 NFSv4: Check for delegation validity in nfs_start_delegation_return_locked()
+21397b224ad64504a42965d2ddff45b5f821e720 nfs: add missing selections of CONFIG_CRC32
+b023c762d5e2c50b3c243e7e3c1239d59b92fb55 nfsd: decrease sc_count directly if fail to queue dl_recall
+6557b7fac5dcbfb201b2c88002ff755ecbbd201a Add CONFIG_NFSD_V4_DELEG_TIMESTAMPS=n to default config
+f2e3a5e6caf131a96674108ac6f087d15349369a Revert "sunrpc: clean cache_detail immediately when flush is written frequently"
+a2b5bb65e77e2c4aa96797a4a4be3162cde65514 NFSv4: Handle fatal ENETDOWN and ENETUNREACH errors
+349ce2224546cdbe6f09102c27e61530539f2c61 NFSv4/pnfs: Layoutreturn on close must handle fatal networking errors
+b818cbd8f8bb6ae8f8499fd270ce0e7629f09f7c pNFS/flexfiles: Record the RPC errors in the I/O tracepoints
+f3287b1d6ae97a1442bc243c8d8801ed7bf0b1dd nfs: handle failure of nfs_get_lock_context in unlock path
+586685406482c04a5de2732dd561affa58d5a95b nfs: don't share pNFS DS connections between net namespaces
+45484a6b4448227df42bb3c8e73671bc1a0d2ab7 nfs: move the nfs4_data_server_cache into struct nfs_net
+5acde97ece6d160acfabc9537cea530ebc72f353 nfs: direct: drop useless initializer in nfs_direct_write_completion()
+1480cf08a0f3f202bb681941759a990343c363b6 nfs: nfs3acl: drop useless assignment in nfs3_get_acl()
+79a7d3f036061ea930ca1e819136a17ab345bfcb NFS/localio: Fix a race in nfs_local_open_fh()
+a9675ea8e363b362fdffe51ca1d23210728621b2 NFS: Avoid flushing data while holding directory locks in nfs_rename()
+d2c0e4f57d7919ce362158c45ae0ae9c82b020a7 NFS/localio: add dummy definition for nfsd_file
+097f5d3f3d77bffd212253925241bf30292fc53b mm/filemap: change filemap_create_folio() to take a struct kiocb
+dc11a33eafdf21bc14e7e09723c09fb5dcd41cdd mm/filemap: use page_cache_sync_ra() to kick off read-ahead
+cf0446bbe29b3a37b8c6176fba73dcd285f80577 mm/readahead: add folio allocation helper
+a23dd6ff212ac83fc416b13245f1809f1e666062 mm: add PG_dropbehind folio flag
+d118c2a22130d30da91d027eec46f8fc12debb14 mm/readahead: add readahead_control->dropbehind member
+8597a76f67095ec20fccf07fca70f257260b5c2f mm/truncate: add folio_unmap_invalidate() helper
+5687f8967d8be86b1632c46ed8e29df79b1c5ac2 fs: add RWF_DONTCACHE iocb and FOP_DONTCACHE file_operations flag
+e3ebe0070c821073e07619c4e998acb6af6e36e0 mm/filemap: add read support for RWF_DONTCACHE
+b5e5e2995c1c461977efc9e081be1125f8ad2e92 mm/filemap: drop streaming/uncached pages when writeback completes
+50979423e253b587d0c54e88a7993425b103e018 mm/filemap: add filemap_fdatawrite_range_kick() helper
+155c868cbd957fa5f1f8b7ee764c3d4878f45b66 mm: call filemap_fdatawrite_range_kick() after IOCB_DONTCACHE issue
+aa0dbc6742471da84e608e50dc178e4c571c7592 mm: add FGP_DONTCACHE folio creation flag
+3492a44782c54b96f2ceb017a77c88d51c2e6b65 iomap: make buffered writes work with RWF_DONTCACHE
+e9c1224abb055ece310ced6fdee2c6474c46f416 xfs: flag as supporting FOP_DONTCACHE
+7bc938be4544391e7f8dbb7a220b9242f58d13d5 filemap: Add a helper for filesystems implementing dropbehind
+e4a6d3cd209ecd30d9fed28bfb382ec54e228540 filemap: Mark folios as dropbehind in generic_perform_write()
+7f38d3f8b1946d01bd220983896dc18c3c43f5fb NFS: Enable the RWF_DONTCACHE flag for the NFS client
+e01e8d0e8235793a987c0c4d6509d70bb211a62d NFS: add RWF_DONTCACHE support to LOCALIO
+29aa795b47f0fdf256a6e76661f474be2598cc59 NFSD: add the ability to enable use of RWF_DONTCACHE for all nfsd IO
+
+--===============6763976870481079483==--
