@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9165498724963977209=="
+Content-Type: multipart/mixed; boundary="===============2872886599801537200=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 29 Apr 2025 02:08:48 -0000
-Message-Id: <174589252874.2967537.15785139533102322462@gitolite.kernel.org>
+Date: Tue, 29 Apr 2025 02:09:10 -0000
+Message-Id: <174589255034.2967950.13788189823926613658@gitolite.kernel.org>
 
---===============9165498724963977209==
+--===============2872886599801537200==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: fbe2d59838274f22781d62fe16c914c1672f8536
-    new: b1334ed954aec798a0546591f0d6dee376d4e26a
-    log: revlist-fbe2d5983827-b1334ed954ae.txt
+  - ref: refs/heads/6.16/scsi-staging
+    old: 37c15b72815b84815cd9700a42833ea11b11542e
+    new: e142de4aac2aae697d7e977b01e7a889e9f454df
+    log: revlist-37c15b72815b-e142de4aac2a.txt
 
---===============9165498724963977209==
+--===============2872886599801537200==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1745892540 -0400
+pusher 75C5DE3D 1745892563 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1745892509-bd3f3cdc105a5c16ca49bd9f38d320eedb79fd17
+nonce 1745892531-d9320dba23b3bbf3a654066da27cee7cb1a3ae14
 
-fbe2d59838274f22781d62fe16c914c1672f8536 b1334ed954aec798a0546591f0d6dee376d4e26a refs/tags/mkp-scsi-staging
+37c15b72815b84815cd9700a42833ea11b11542e e142de4aac2aae697d7e977b01e7a889e9f454df refs/heads/6.16/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmgQNLwACgkQ7ulgGnXF
-3j1Y+A//WCdKq2QVSEuAWe1xO1nUf1PEECyfL33/MG+t0kYrDm9arkbbMHzA37Az
-OsH4uUMdJGg7yi8zt9AEs4uD4xtOAFrxnznuodSpFL5ud6Jt+oBTHLZn4QXDrfK0
-swWbJ4iQR9xnGas4WGEpcme0sA0ArUhZ2C9iQCTGm8ZuHOZaRkh59Zqr1A8hfXzb
-anmGlEq7/cZQ7+WFb6nCMIYGjy77/isYY7DK5JKenTq125NaDqLHE+h/sDV8W+be
-7S0pRZsSffmg6kT13NY/U4/nFCvB44NcxW8itjDGs8SnCEtHO/ySq8QUcj5jTocn
-juH+2fZ/VdnwHkyE/GLERJHoQUYJM2nVnVQJEXMF2B0T6f5/JdoIihxTMkD+ubht
-q9pvJmhy9Ns2w5JwJ3FK8qMd5lP1CPjnAHDMLoy5KlzI5JNgrazDvawhl/E6kKmF
-aWvNz7fdIwNzfV59WFMRGanW/Eyq4VhSUmdlXMJHwLJmcHiUSITET8mZmSvYNqah
-3IaGpU1DbwUzkG0LYSKU95GYBuprjWAl3DqzcO2rGZyQgAv/rUjv6kYnUaf+wfV/
-0/ygIb+hgmVUJJ2IiVDt5d5VE1qY5zyFQO8JonmIZeFZpbOuZuRF96mj+GE781QC
-PAYoFPGMfe52lxO2q/C9BwxZ4ghyhaftuET49Jz9fF4tp6XB+Ic=
-=rlgI
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmgQNNMACgkQ7ulgGnXF
+3j3vOA/+MOWgW7qPaTo4JTU4C7TfjHtAPmThVg5bUM+FoxEBn9wFyBk+8oqgBcGX
+easuOboy4KmDWrPznmyFJqsxzntO5nw+NGVQoKcrHK4TLj9ISt1q9r1f0519dpbs
+cbmKe+wOYBXGsfl6PxfdaoWd99VovG6BNK4phwj32/+7sYXM96e1mMqzHJxg2tJo
+UjywnhxLTJwxHt/J+Aze/t4A3hHbBq7K52yJ6q7J5xzIPz/aNxmXLjComJxMaUus
+dyE7Q8WPQOHnlNzgb8BDux9sa+AXVHDvQPSTYCjJ016YjL1/YDP9Yw84auefdpD3
+BLvl4dNWwt9lrvzMrzhTVmKGSHZZV3usT+FS2Og6+iQSUejUaCB7mdsjUzTKQWlA
+LBFcTdAPtg/sSR+8bgDNg+F92bWQS3n9eY2pIjPjtghCwSKj9nRQ4MJnxvOSz7RQ
+kfAD251MK4sRlApCUw5+AVsgS2I//Ih1zwJusty/j860VjIoWMnQgP2tvILL2W1N
+JgxrA9nmlVPQHkUEdasouvIfrTFgDPCFt6MzC6kZmbWCxfy9oeuYN2kfuYwndLWe
+eOulpyuEKcBps3uUlZ+InOfAnClQTiFlaumNx/jhE1pfJpUaAHNipOgqkRfyMrau
+FlnUUuzy5+0Maq48dp2ks1PG4K6Dwj1x5xt3OnyG8rR+WqGKJos=
+=XRTM
 -----END PGP SIGNATURE-----
 
---===============9165498724963977209==
+--===============2872886599801537200==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fbe2d5983827-b1334ed954ae.txt
+Content-Disposition: attachment; filename=revlist-37c15b72815b-e142de4aac2a.txt
 
 8aa580cd92843b60d4d6331f3b0a9e8409bb70eb scsi: hisi_sas: Enable force phy when SATA disk directly connected
 daff37f00c7506ca322ccfce95d342022f06ec58 scsi: hisi_sas: Fix I/O errors caused by hardware port ID changes
@@ -115,4 +115,4 @@ fe016bb54dd1ec8218dd1c831178158052c9a0c6 scsi: ufs: ufs-qcom: Add support to dum
 25b5ee122b79553798f0d1abfefcc2d4e4b4e6cc scsi: ufs: ufs-qcom: Add support to dump testbus registers
 e142de4aac2aae697d7e977b01e7a889e9f454df Merge patch series "scsi: ufs-qcom: Enable Hibern8, MCQ, and Testbus registers Dump"
 
---===============9165498724963977209==--
+--===============2872886599801537200==--
