@@ -1,46 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============1573659667195429289=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Tue, 29 Apr 2025 20:43:12 -0000
-Message-Id: <174595939229.4014248.10108656484346489826@gitolite.kernel.org>
-
---===============1573659667195429289==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Tue, 29 Apr 2025 20:46:45 -0000
+Message-Id: <174595960531.4018810.17363209318698635586@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/stable-0.14.y
-    old: 7b9b97432ed9fb7e235a31ed683d4dfdcd6e1f92
-    new: d7477de41c44dc2794a3e5ecebe6c913b82083cf
+  - ref: refs/heads/nova-docs
+    old: ac289c133349668d82b9ddfc86a8e6df90ad30b9
+    new: 6543b8469631fe2ba37c700a52e539735a8ad936
     log: |
-         d7477de41c44dc2794a3e5ecebe6c913b82083cf Fix misleading error message on cherry-picked patches
+         ed557e8e9b02d83e3e06519b6b1fea4d33f5c955 docs: nova-core: Document basics of the Falcon
+         6543b8469631fe2ba37c700a52e539735a8ad936 gpu: nova-core: Clarify falcon code
          
-
---===============1573659667195429289==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1745959422 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1745959391-3c1d640e59efe47348653bb0d73277434649569a
-
-7b9b97432ed9fb7e235a31ed683d4dfdcd6e1f92 d7477de41c44dc2794a3e5ecebe6c913b82083cf refs/heads/stable-0.14.y
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaBE5/gAKCRC2xBzjVmSZ
-bBWnAQDLjd0xB0KPdFPg3msZoRrDHIDwmYE19dlFsykL+QKS5wEA2AN3AHFDM2Qr
-0cOGwghEKzE6QDuqJjZb8n5bae73RgA=
-=sDOu
------END PGP SIGNATURE-----
-
---===============1573659667195429289==--
