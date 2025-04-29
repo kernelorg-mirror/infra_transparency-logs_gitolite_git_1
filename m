@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7066150286664452114=="
+Content-Type: multipart/mixed; boundary="===============1370962434873796013=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 29 Apr 2025 15:56:14 -0000
-Message-Id: <174594217439.3760989.18390034956682373527@gitolite.kernel.org>
+Date: Tue, 29 Apr 2025 15:56:17 -0000
+Message-Id: <174594217701.3761086.744112088664645809@gitolite.kernel.org>
 
---===============7066150286664452114==
+--===============1370962434873796013==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 49ba1ca2e0cc6d2eb0667172f1144c8b85907971
     new: d4cb1ecc22908ef46f2885ee2978a4f22e90f365
     log: revlist-49ba1ca2e0cc-d4cb1ecc2290.txt
 
---===============7066150286664452114==
+--===============1370962434873796013==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -60,4 +60,4 @@ bd808ca5a0cc899eb63538c28cb139eb0a6cc797 Merge branch 'net_sched-adapt-qdiscs-fo
 713dd6c2deca88cba0596b1e2576f7b7a8e5c59e idpf: fix offloads support for encapsulated packets
 d4cb1ecc22908ef46f2885ee2978a4f22e90f365 Merge branch 'intel-net-queue-100GbE'
 
---===============7066150286664452114==--
+--===============1370962434873796013==--
