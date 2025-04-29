@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2502161575445889301=="
+Content-Type: multipart/mixed; boundary="===============6918699851943156359=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 29 Apr 2025 02:07:26 -0000
-Message-Id: <174589244663.2965515.9551060006396393853@gitolite.kernel.org>
+Date: Tue, 29 Apr 2025 02:07:48 -0000
+Message-Id: <174589246838.2965958.12795597253994598938@gitolite.kernel.org>
 
---===============2502161575445889301==
+--===============6918699851943156359==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: 73e1a47291b78e67171c33b477517c28119cd33b
-    new: bf8cfb7017926ea68d03adf82de68bf66b92887c
+  - ref: refs/heads/6.15/scsi-fixes
+    old: b0b7ee3b574a72283399b9232f6190be07f220c0
+    new: 0e9693b97a0eee1df7bae33aec207c975fbcbdb8
     log: |
          9c51f24c1ac7cbde9cc94a54137775dc52aae491 scsi: myrb: Fix spelling mistake "statux" -> "status"
          0e9693b97a0eee1df7bae33aec207c975fbcbdb8 scsi: ufs: core: Remove redundant query_complete trace
          
 
---===============2502161575445889301==
+--===============6918699851943156359==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1745892453 -0400
+pusher 75C5DE3D 1745892481 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1745892422-8ea96f4f9740e768907550daba1694ee2a6d7369
+nonce 1745892449-c0472b8cc5e95cf2d5e9b44bc6f6ff1b0d87770b
 
-73e1a47291b78e67171c33b477517c28119cd33b bf8cfb7017926ea68d03adf82de68bf66b92887c refs/tags/mkp-scsi-fixes
+b0b7ee3b574a72283399b9232f6190be07f220c0 0e9693b97a0eee1df7bae33aec207c975fbcbdb8 refs/heads/6.15/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmgQNGUACgkQ7ulgGnXF
-3j0tSQ//UJ64VG9Ruo27GKkLysaO6Ch8dBFuycocM61/xITO7nsSTuq2jZJTTYL4
-xRFFtznEdLbiYXnN1b6evvGk8+1zdLP/dfda8H4DJXRB+Jl02ifjxyVLbpRspK76
-mWwmljaiWMA5O3lcC+A1FS131kLim4c9j/9nDg4uUoO20NhK12mDSoOt1WHEjJ1U
-0OUuXiAWolPhcQaw70kzwrpV0lkKF9kiGDENOXCTPW1kP28QyO2SHttvBdO4j3X7
-ODkTbwRpiAI8eT2N2Ru+YuETZrVPSPo8IAJsP7rjeaHnR2ny7wmxe+WxVlX08Ml8
-183shdlVhnkwAUbfkt6T5eLmZ84JlFKoNcMc1xtiCUrzV1oe7r7sFkdec+rXZl+X
-0pIa0o3OPbi4xZ1nhgOiZZ1RxeAXxEvVJ4QboZe9PW32T+Sq1n180w4agLK099CT
-ZyLqOFQRE3jgmUktqFtq0+28G8Hotow+ZSAv+KmTtdGGTKNxy7IXb9uahAi2xgG8
-xDC4tJae+uXmXpOynX9+uQEE0ZY4YfwXLjIOXjS/uCSE3yHQ6flwjALJ8madK9GB
-3uCAv6t16+9Kaf+AZHth9nBZwsruUBsgcVcdu6lNrq3fZXkm59l37ivR7tS96B7v
-p/wi2ZR/q4BNCOxFK2DxW+x44V+geq4D709z3WGy/j0JA28JI1I=
-=iv6u
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmgQNIEACgkQ7ulgGnXF
+3j35pw//fP2aZDDIKCvPDzFt4wSEoHbTCC76oboiRb8wWrgLXYN7ufSePGz76huO
+ntuNf6yGOWPV/WMrhsPkUHQ9PNpqUypUzZtd0ieyy0HUdNoh7Zdvds1dxyRAhSiD
+Kdsjuv+Ef2amD9ASR/9EvBEvpRUbMx+tK6Ttq2n2OaxgNtNPWhYrIb6BKtWBMvL+
+MR4lamYpgX57winbNBFyR6WWrURFDFPOr+fblIs4dpE1EviWc3R9eDvi+juP2ku7
+6L9m9Dewb/8Lv4uW4lgW4tzz8HZlPYmfdSxrqa9u5xn0+iYE0dbEoNKiahL2Y+3t
+XPzeHSe+9jyMck7mA4zZ4SEFf0zGlkFmDIR7IPNaTeY+zC6HV7MXBt/GjFkuvJDX
+SUq4tfUIa8sp/QyjDwQLyAm4snWeBnlkxNaSzv5PEey3lj1e0j1YyRQVbfNp/qHu
+RDk9secB3hD9qeErE0qLmHpqEX3RZfRFj0duktAGGeemIXbRwnmUc2judCHR6bA9
+VtmqVKa4sTo3WI/Zf0x4hrWpNfZDOXkqQaXgvRuKc60uZcggycF7C/0BOFouVr/3
+jBcFxRWlaYaVQFGX9U3XddmmFKiab2pLrx7VWFqb8JDEfClIXfxklpFINmy54D0O
+NRvA6Mmn8T8yx/BxTEcYuUYm2dyxmUE8rJElfHnzwjpbIazYNBk=
+=AyzJ
 -----END PGP SIGNATURE-----
 
---===============2502161575445889301==--
+--===============6918699851943156359==--
