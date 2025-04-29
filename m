@@ -1,27 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
-Date: Tue, 29 Apr 2025 06:14:54 -0000
-Message-Id: <174590729449.3168017.7793258097352979468@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7129481358003412403=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
+Date: Tue, 29 Apr 2025 06:15:02 -0000
+Message-Id: <174590730238.3169055.86297502765851565@gitolite.kernel.org>
+
+--===============7129481358003412403==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rcu/linux
-user: boqun
+repo: pub/scm/linux/kernel/git/powerpc/linux
+user: maddy
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/next
-    old: d837bd719040f7c4661ed08da6e609b039c0b775
-    new: dab9d2afaa3de0c9c83f50b956ba83ffbe9e15ca
+  - ref: refs/heads/next-test
+    old: 497b7794aef03d525a5be05ae78dd7137c6861a5
+    new: b2f64cf1585a3afd06261dd4ae067136b6a66eb4
     log: |
-         c27d0d38f2cafb70a68ca42c4105e170862aaf77 rcutorture: Complain if an ->up_read() is delayed more than 10 seconds
-         3b4863a421391395fe25ef025a12f909a56bae68 rcutorture: Check for ->up_read() without matching ->down_read()
-         381f0703d00c252692c32e5469eacfa35f27510d checkpatch: Deprecate srcu_read_lock_lite() and srcu_read_unlock_lite()
-         73fdb61d87e65e9f58e3afd0354384f92cd1b48e torture: Add --do-{,no-}normal to torture.sh
-         4d4c5b6e527a027f17da55f07b71b26365fa32b7 torture: Add testing of RCU's Rust bindings to torture.sh
-         b936bc19f09ebdb91ce4221ff39aa2ace9ea7421 rcutorture: Perform more frequent testing of ->gpwrap
-         35798c599309a6b17e58e0bfb738b1edc1d2b644 rcutorture: Fix issue with re-using old images on ARM64
-         dc4216056eab5833aec1848ed5967adb571c6e6d rcuscale: using kcalloc() to relpace kmalloc()
-         dab9d2afaa3de0c9c83f50b956ba83ffbe9e15ca Merge branches 'rcu/misc-for-6.16', 'rcu/seq-counters-for-6.16' and 'rcu/torture-for-6.16' into rcu/for-next
+         882b25af265de8e05c66f72b9a29f6047102958f powerpc/crash: Fix non-smp kexec preparation
+         b2f64cf1585a3afd06261dd4ae067136b6a66eb4 powerpc: Don't use --- in kernel logs
          
+
+--===============7129481358003412403==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1745907331 +0530
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
+nonce 1745907299-4490a937e89f6f403b715929ecc91ae693e01e02
+
+497b7794aef03d525a5be05ae78dd7137c6861a5 b2f64cf1585a3afd06261dd4ae067136b6a66eb4 refs/heads/next-test
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmgQboMACgkQpnEsdPSH
+ZJRBJQ//bmuIDwUFZdArcDKU/TKM2GikJtz8/neldfBtg7tpbUUpWo+quBjxM8aR
+LgLO8Lj1reWbwfA1NkJUjY5kKY+VUyHtudIqzjfwhERoeSvRqcuTLBVQU4r5+1LP
+HzcTtDPxtNrITSgM7InnB+paAMTeF8nTaDZ/lxZheeS/NvaBTpWr3kvRQv5HS+yK
+MONdXtjk0MdjDJdEn6U80FGoTlCaLzfL24nz5zmvgnNJxzETpKBdcr62q6AQ5ZSX
+vFf/lbVPHUtdiYUNenKjEzdimXPVZZKPuDqGcCXUUYEkYZZwLAUZOfACDT5Rnyqj
+qH77oyDkfGcz947mO/bGmI6InPBf/iJk1hJaOiZhmPnyIfDc7JCVlC9fL4sYOUdv
+ED6vOERlqwU4iMZ6gG2QexB9AW6GZgLYIAh368uyP8xEH4HsK12vX5CGSJfmUxN6
+UEK9n1HWH93eHu0dCGwR8p3SM43R6xnLgaK1KnDBd3mlzbk/EkOyDZMA/L2G3a2K
+ww0HzAPUFdxQaUv71lYhQjxSMgZ2Xb+PZrGmzebTaT6m8maTAK6RQlYalxCd78gp
+pWOe5UWAmRvS2Swlb0kZDCp/Wk69mjjxI/BTSo2k++gU7AeWZzkClUQM+mmxhCtI
+67kXrUCPkyJaL/iB79E3cnGtmvMJT/Gv1hKt7W4iPt1YSRdWisg=
+=bzdW
+-----END PGP SIGNATURE-----
+
+--===============7129481358003412403==--
