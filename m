@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1602454039440967020=="
+Content-Type: multipart/mixed; boundary="===============2541327400384652078=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Tue, 29 Apr 2025 04:15:26 -0000
-Message-Id: <174590012653.3073977.17165003880721573508@gitolite.kernel.org>
+Date: Tue, 29 Apr 2025 04:15:34 -0000
+Message-Id: <174590013459.3074281.16340942086570052785@gitolite.kernel.org>
 
---===============1602454039440967020==
+--===============2541327400384652078==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vireshk/pm
 user: vireshk
 changes:
-  - ref: refs/heads/rust/cpufreq-dt
-    old: 53270373765f64e323db414b521ba6f79b757316
-    new: a7e08ed6cd7f4dccedece942ce94d201ed00fbec
-    log: revlist-53270373765f-a7e08ed6cd7f.txt
+  - ref: refs/heads/cpufreq/arm/linux-next
+    old: 1ade7a37ca60f6e1a7124d18a653da85bbb85795
+    new: 0a89b0dc417d7c1275d35c22767818eec3e3e3b5
+    log: revlist-1ade7a37ca60-0a89b0dc417d.txt
 
---===============1602454039440967020==
+--===============2541327400384652078==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-53270373765f-a7e08ed6cd7f.txt
+Content-Disposition: attachment; filename=revlist-1ade7a37ca60-0a89b0dc417d.txt
 
 387b51709db546033cf9a940860b6614a5cda5b6 cpufreq: Consolidate some code in cpufreq_online()
 68974e3a15b92639396f39d1cd09d5288ba687bc cpufreq: Split cpufreq_online()
@@ -51,5 +51,6 @@ d9afac05791647e198fe1a49277f899104c54510 rust: macros: enable use of hyphens in 
 70c7f58aedbc573cc3aa59873483be19143000be rust: cpufreq: Extend abstractions for driver registration
 1bb1eba259bfd9a548242f4b0cb5c7aa6f494fd2 rust: opp: Extend OPP abstractions with cpufreq support
 a7e08ed6cd7f4dccedece942ce94d201ed00fbec cpufreq: Add Rust-based cpufreq-dt driver
+0a89b0dc417d7c1275d35c22767818eec3e3e3b5 Merge branch 'rust/cpufreq-dt' into cpufreq/arm/linux-next
 
---===============1602454039440967020==--
+--===============2541327400384652078==--
