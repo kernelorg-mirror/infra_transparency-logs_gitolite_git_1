@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1765290302968543442=="
+Content-Type: multipart/mixed; boundary="===============5829713678791933318=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 29 Apr 2025 16:03:16 -0000
-Message-Id: <174594259649.3769648.7716918231723033961@gitolite.kernel.org>
+Date: Tue, 29 Apr 2025 16:03:18 -0000
+Message-Id: <174594259881.3769759.3037569984173529604@gitolite.kernel.org>
 
---===============1765290302968543442==
+--===============5829713678791933318==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 4acf6d4f6afc3478753e49c495132619667549d9
     new: ff61a4a5dfc27535227c0b2ead05a1a1afce76ec
     log: revlist-4acf6d4f6afc-ff61a4a5dfc2.txt
 
---===============1765290302968543442==
+--===============5829713678791933318==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -65,4 +65,4 @@ a427e7f99b710f3547f0bfb91c4371acb56e1c84 tools/Makefile: Add ynl target
 4d0dac499bf384fe3f42acc30906d304c3499dd8 selftests/net: test tcp connection load balancing
 ff61a4a5dfc27535227c0b2ead05a1a1afce76ec Merge branch 'ip-improve-tcp-sock-multipath-routing'
 
---===============1765290302968543442==--
+--===============5829713678791933318==--
