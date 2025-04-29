@@ -1,22 +1,47 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 29 Apr 2025 14:34:59 -0000
-Message-Id: <174593729975.3684909.1361016718737594463@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8265063478430499449=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Tue, 29 Apr 2025 14:48:43 -0000
+Message-Id: <174593812330.3696219.4711713933658109027@gitolite.kernel.org>
+
+--===============8265063478430499449==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: 0d15a26b247d25cd012134bf8825128fedb15cc9
-    new: ff61a4a5dfc27535227c0b2ead05a1a1afce76ec
+  - ref: refs/heads/review-ilpo-fixes
+    old: 02c6e43397c39edd0c172859bf8c851b46be09a8
+    new: 8e81b9cd6e95188d12c9cc25d40b61dd5ea05ace
     log: |
-         32607a332cfea5a4b2a185f3e3d605a9bf4f8df0 ipv4: prefer multipath nexthop that matches source address
-         65e9024643c7512ade3aedbb341e11d77ed7abc2 ip: load balance tcp connections to single dst addr and port
-         4d0dac499bf384fe3f42acc30906d304c3499dd8 selftests/net: test tcp connection load balancing
-         ff61a4a5dfc27535227c0b2ead05a1a1afce76ec Merge branch 'ip-improve-tcp-sock-multipath-routing'
+         690d722e02819ef978f90cd7553973eba1007e6c drivers/platform/x86/amd: pmf: Check for invalid sideloaded Smart PC Policies
+         8e81b9cd6e95188d12c9cc25d40b61dd5ea05ace drivers/platform/x86/amd: pmf: Check for invalid Smart PC Policies
          
+
+--===============8265063478430499449==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1745938152 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1745938120-274309473102ceac4aadefe9d5890b73896e8bc7
+
+02c6e43397c39edd0c172859bf8c851b46be09a8 8e81b9cd6e95188d12c9cc25d40b61dd5ea05ace refs/heads/review-ilpo-fixes
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaBDm6QAKCRBZrE9hU+XO
+MUosAQDO/4DynFQPjDXQOLoupz9govYBZC/2cKr6bzxegpuD3AD+PsWpBG5aZcuu
+amWtkcowsJmqeDC+lR3BSW1fqkJIVQc=
+=sZYQ
+-----END PGP SIGNATURE-----
+
+--===============8265063478430499449==--
