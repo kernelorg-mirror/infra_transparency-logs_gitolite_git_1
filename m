@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Tue, 29 Apr 2025 20:39:24 -0000
-Message-Id: <174595916433.4009490.1128563147356785198@gitolite.kernel.org>
+Date: Tue, 29 Apr 2025 20:40:21 -0000
+Message-Id: <174595922106.4012268.2611247608840873019@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/tags/mmc-v6.15-rc1
+  - ref: refs/tags/v6.15-rc4
     old: 0000000000000000000000000000000000000000
-    new: f4eed6151ec51946bb4749f65e72e977e9f530fa
+    new: 39d6783f6488786301f36b0e7c619f220c3e8d2c
