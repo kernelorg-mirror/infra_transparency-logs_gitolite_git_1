@@ -1,56 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============2288171280612643420=="
+Content-Type: multipart/mixed; boundary="===============7995468800679507400=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sboyd/spmi
-Date: Tue, 29 Apr 2025 22:22:57 -0000
-Message-Id: <174596537788.4100972.10669843201529466912@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Tue, 29 Apr 2025 22:34:17 -0000
+Message-Id: <174596605756.4109555.7267412889294734431@gitolite.kernel.org>
 
---===============2288171280612643420==
+--===============7995468800679507400==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sboyd/spmi
-user: sboyd
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/spmi-next
-    old: a35fc095fc52a35ec9c4b30fac50d9b8cc9c7318
-    new: 02a0fd9c0c40d53afa9bd0d860e4a3786a8dae88
-    log: |
-         02a0fd9c0c40d53afa9bd0d860e4a3786a8dae88 irqdomain: spmi: Switch to irq_domain_create_tree()
-         
+  - ref: refs/heads/master
+    old: ca91b9500108d4cf083a635c2e11c884d5dd20ea
+    new: 8bac8898fe398ffa3e09075ecea2be511725fb0b
+    log: revlist-ca91b9500108-8bac8898fe39.txt
 
---===============2288171280612643420==
+--===============7995468800679507400==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-ca91b9500108-8bac8898fe39.txt
 
-certificate version 0.1
-pusher Stephen Boyd <sboyd@kernel.org> 1745965407 -0700
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/sboyd/spmi.git
-nonce 1745965376-5728edfca47ea20467ae3d5535be59435e20b4be
+06eaa824fd239edd1eab2754f29b2d03da313003 mm/memblock: pass size instead of end to memblock_set_node()
+eac8ea8736ccc09513152d970eb2a42ed78e87e8 mm/memblock: repeat setting reserved region nid if array is doubled
+3b394dff15e14550a26b133fc7b556b5b526f6a5 memblock tests: add test for memblock_set_node
+649b50a82f09fa44c2f7a65618e4584072145ab7 mmc: renesas_sdhi: Fix error handling in renesas_sdhi_probe
+9078f01fec1275a1974a01a64a5a495d72898c60 mmc: renesas_sdhi: add regulator dependency
+77183db6b8dbd8c352816030b328dd55993dc330 mmc: renesas_sdhi: disable clocks if registering regulator failed
+9f5595d5f03fd4dc640607a71e89a1daa68fd19d platform/x86/amd: pmc: Require at least 2.5 seconds between HW sleep cycles
+8d6955ed76e8a47115f2ea1d9c263ee6f505d737 platform/x86/intel-uncore-freq: Fix missing uncore sysfs during CPU hotplug
+4a8e04e2bdcb98d513e97b039899bda03b07bcf2 platform/x86: alienware-wmi-wmax: Fix uninitialized variable due to bad error handling
+12df9ec3e1955aed6a0c839f2375cd8e5d5150cf platform/x86/intel: hid: Add Pantherlake support
+246f9bb62016c423972ea7f2335a8e0ed3521cde platform/x86: alienware-wmi-wmax: Add support for Alienware m15 R7
+77bdac73754e4c0c564c1ca80fe3d9c93b0e715a platform/x86: asus-wmi: Disable OOBE state after resume from hibernation
+02c6e43397c39edd0c172859bf8c851b46be09a8 platform/x86: ideapad-laptop: add support for some new buttons
+c73c67026fe65d6677260dfd15dd968b709dc237 fanotify: fix flush of mntns marks
+cd188e9ef80fd005fd8c8de34ed649bd653d00e5 selftests/fs/mount-notify: test also remove/flush of mntns marks
+4b5256f990046d479d87f90382dea36c55539c44 Merge tag 'fixes-2025-04-29' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
+02d40046243fa6f00630d93f67651c4f741036c6 Merge tag 'platform-drivers-x86-v6.15-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+fba784cc9e3d22a530211ef3ec60d04562349cb4 Merge tag 'fsnotify_for_v6.15-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
+8bac8898fe398ffa3e09075ecea2be511725fb0b Merge tag 'mmc-v6.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
 
-a35fc095fc52a35ec9c4b30fac50d9b8cc9c7318 02a0fd9c0c40d53afa9bd0d860e4a3786a8dae88 refs/heads/spmi-next
------BEGIN PGP SIGNATURE-----
-
-iQJFBAABCAAvFiEE9L57QeeUxqYDyoaDrQKIl8bklSUFAmgRUV8RHHNib3lkQGtl
-cm5lbC5vcmcACgkQrQKIl8bklSUsWg//egCnZdrniKazQUlogcOx2yNkvTrhhqP0
-7R6AclwgENLcjQwd0xl53I/FS+SN2a5wqf6u738v6YC0ggcMAmxxAsEa+prIFF78
-w4bIBEf61GgSEnLYCb9ZQrJeNFFYpAhdoTMhCRMWbAY0oDYQ0NndAHYgL2wyBENj
-b3qI0pwxkF/UWdEeeESDhzrkRKgIb+SjC0HU6L2yWYHhv4GUKtZ+MBu+3aq5ost5
-TkwPl1jyLTtdZ44kQh7Vjg9QcTu7mk+njQhw7TQqtq+G4EGYhSAc2+/hmZCTxYwj
-wKyJBZGvdjnm6Rcq239OArspTRqbYvczTEF41R/ypgJ0t2d7xL+Dk5+z8+gS3Z6u
-h4/+QJqxr0W9NRPHiEbYv8WGP1sjda6LoWp7ZaALMHo+272L38InSD1MGjQv03NE
-PeJaao+d44K/E95Ahexp++D9iey4P/w0iscUlxCtaor9S19e3UV+DZ6M9T+1tE9b
-J3wlZB19Mku4udDw5eYZeuqQ1NazHCOocgDgNYdSeR4T01YMwMatwgeWBFRBodHH
-Oitu4ubwOrTPhHfzadM3OFDxJ/V9lthVvnjoNIVpT8D0uw8Jk2gGvCQFqrpCoqQ6
-Zy8qdp6GM5p9j6P5jfUCXXSV+FNwb0/LEktiDAB7LXdDIR6dMDBfZcVOF8FGmvdt
-6KKbmdGX7PA=
-=xeAX
------END PGP SIGNATURE-----
-
---===============2288171280612643420==--
+--===============7995468800679507400==--
