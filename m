@@ -1,43 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============3121111246946926204=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 29 Apr 2025 08:24:41 -0000
-Message-Id: <174591508141.3282199.15134822330891269011@gitolite.kernel.org>
-
---===============3121111246946926204==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 29 Apr 2025 08:40:45 -0000
+Message-Id: <174591604573.3313367.15184082225881488077@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/tags/platform-drivers-x86-v6.15-4
-    old: 0000000000000000000000000000000000000000
-    new: 6109d805f245120314d0a5e82b15a536a8cb8ff2
-
---===============3121111246946926204==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1745915110 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1745915078-8c52cf87aed52a97e2975a77b01fee0252d91685
-
-0000000000000000000000000000000000000000 6109d805f245120314d0a5e82b15a536a8cb8ff2 refs/tags/platform-drivers-x86-v6.15-4
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaBCM5wAKCRBZrE9hU+XO
-MTmQAQCv15kHkaQGQcdTnH3fUfNtE7xfHdmKN1Abt0QCjPRXiwEAvoTea1K+wkiE
-xuNSm3OtmQtv0vL6b6P90kfXcYVXEwk=
-=uyvG
------END PGP SIGNATURE-----
-
---===============3121111246946926204==--
+  - ref: refs/heads/master
+    old: 397310f19ee88e9af17ab24cb69dcbb49292c8cb
+    new: 89819e215fcfa383106cf85584308888755c3a60
+    log: |
+         c0a62eadb6fd158e4d6d4d47d806109e7ae32e8b x86/microcode/AMD: Use sha256() instead of init/update/final
+         e59236b5a09e168fdf961a10d2519cef44f5d6b4 x86/sgx: Use SHA-256 library API instead of crypto_shash API
+         f955aa8723a65759e920d4de8e5d076cef412afc riscv: entry: Convert ret_from_fork() to C
+         5b3d6103b343d59e19bd641e4c31df519f4d250d riscv: entry: Split ret_from_fork() into user and kernel
+         7ace1602abf21da505993d77ccbae1df2496b324 LoongArch: entry: Migrate ret_from_fork() to C
+         e43b8bb56e537bfc8d9076793091e7679020fc9c entry: Inline syscall_exit_to_user_mode()
+         649bcae5b922da70420875b02c9688ce5219763e Merge branch into tip/master: 'core/entry'
+         eeb4fc2929828aa4c80ec259e3027e4c48106659 Merge branch into tip/master: 'x86/microcode'
+         89819e215fcfa383106cf85584308888755c3a60 Merge branch into tip/master: 'x86/sgx'
+         
