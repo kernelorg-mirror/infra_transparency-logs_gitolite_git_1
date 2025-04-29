@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cpu/mce/mcelog
-Date: Tue, 29 Apr 2025 16:43:02 -0000
-Message-Id: <174594498284.3807967.17635777338515291668@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
+Date: Tue, 29 Apr 2025 16:52:33 -0000
+Message-Id: <174594555367.3816138.13982142499879399123@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cpu/mce/mcelog
-user: aegl
+repo: pub/scm/linux/kernel/git/rppt/linux
+user: rppt
 changes:
-  - ref: refs/heads/master
-    old: ad244c6b60fcbd08a5d73497bfb3487983801598
-    new: 5ce954ad8021b096a594c717b952a3c541ed7190
-    log: |
-         5ce954ad8021b096a594c717b952a3c541ed7190 mcelog: Add a --binary option for reading records saved to pstore
-         
+  - ref: refs/heads/kho/v7
+    old: 0000000000000000000000000000000000000000
+    new: 914525f760702d2e41bf5f058b0fde0159f5a157
