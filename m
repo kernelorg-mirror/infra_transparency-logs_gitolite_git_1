@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7294309131005841239=="
+Content-Type: multipart/mixed; boundary="===============5462425334893017508=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Tue, 29 Apr 2025 06:16:59 -0000
-Message-Id: <174590741962.3171256.10411669989092700752@gitolite.kernel.org>
+Date: Tue, 29 Apr 2025 06:17:01 -0000
+Message-Id: <174590742178.3171462.8768806408988204616@gitolite.kernel.org>
 
---===============7294309131005841239==
+--===============5462425334893017508==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host-fixes
-    old: 9c32cda43eb78f78c73aee4aa344b777714e259b
-    new: b4432656b36e5cc1d50a1f2dc15357543add530e
-    log: revlist-9c32cda43eb7-b4432656b36e.txt
+  - ref: refs/heads/i2c/i2c-host-next
+    old: 5891299b4668dfc3511a54204026ee697772ea14
+    new: bc5968542104d76c7ab5126f5a2222da82cecbd0
+    log: revlist-5891299b4668-bc5968542104.txt
 
---===============7294309131005841239==
+--===============5462425334893017508==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9c32cda43eb7-b4432656b36e.txt
+Content-Disposition: attachment; filename=revlist-5891299b4668-bc5968542104.txt
 
 aed06d36ba4e7fe90f2d4a85835cee7c80ea72a7 ceph: Remove osd_client deadcode
 f452a2204614fc10e2c3b85904c4bd300c2789dc ceph: Fix incorrect flush end position calculation
@@ -369,5 +369,41 @@ a226e6540b0a1872debbe9d8f2b3d72c53d90de6 Merge tag 'irq-urgent-2025-04-26' of gi
 d22aad29de2a7b13f43ccb9b55cfd5daf793ead4 Merge tag 'nfsd-6.15-2' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
 5bc1018675ec28a8a60d83b378d8c3991faa5a27 Merge tag 'pci-v6.15-fixes-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
 b4432656b36e5cc1d50a1f2dc15357543add530e Linux 6.15-rc4
+ff7709825ad8f433091652d78b7a7c7a7f133eee i2c: qcom-geni: Use generic definitions for bus frequencies
+89782cfc8cf5034bd85204b3d661ca3f20ce8131 i2c: npcm7xx: Remove redundant ret variable
+f8691414dfd5c990879f0d90ec9a16e83e8cdd00 i2c: lpc2k: Add check for clk_enable()
+bb42281408ffcd96bfb3753fe087e1f8832a376d i2c: xgene-slimpro: Simplify PCC shared memory region handling
+c5b404e91615c044a46db686de30b9e74c6c8c0a i2c: imx: add some dev_err_probe calls
+5a3356505cfb8c13e2ff853dbda8cbd82835d5a8 i2c: rzv2m: Constify struct i2c_algorithm
+38fd62dcd2bbd71fb6d8a690a3453ff273b0c0a4 i2c: npcm: Add clock toggle recovery
+5a3722c9bf88fbebc16e8e3f900430ab7fc61c2e i2c: uniphier(-f): Replace dev_err() with dev_err_probe() in probe function
+49c540ffba23b38468e18016fcea552ff426c6b4 i2c: uniphier: Replace dev_err() with dev_err_probe() in probe function
+b5a18579d37f24b10c2d0f65a7a8f3ffacb9f4d2 i2c: via: Replace dev_err() with dev_err_probe() in probe function
+353ec09d0a7784cb409e81651b0ff4df104101cb i2c: viapro: Replace dev_err() with dev_err_probe() in probe function
+a7c3981a8011abc9c8640cee57897a0c954e6405 i2c: viperboard: Replace dev_err() with dev_err_probe() in probe function
+fb983451cd40dd4a60848e6cd0d83de8b4789fc7 i2c: virtio: Replace dev_err() with dev_err_probe() in probe function
+f9fee4b6e1353bb9dfcd0f03912bfffbe8fe818f i2c: i2c-xiic: Replace dev_err() with dev_err_probe() in probe function
+234fcf29a2fc9abcb3d51d35daeb8d886a4e8078 i2c: scx200_acb: Replace dev_err() with dev_err_probe() in probe function
+bc12ef1c5842a97786da646a473433ec2e7d201e i2c: designware: Use better constants from units.h
+a6fc1d68c06566e5e2cdffd980c80bbaa79fbbff i2c: pasemi: Use correct bits.h include
+7450dcc2d1c83ea483ae451bdcd06abfd96894c4 i2c: pasemi: Sort includes alphabetically
+0c7b93700345e9efc4b051c4bbe90980df03954c i2c: octeon: add block-mode i2c operations
+e96438bfa32ff2eb70364881a102001cc24eade1 i2c: omap: fix deprecated of_property_read_bool() use
+70a0946a37ef6515bad397046470e65a8b4eeb50 dt-bindings: i2c: i2c-mt65xx: Add MediaTek Dimensity 1200 MT6893
+7f28a1b66594a9b4f384a45a14652d5ec0a30eab i2c: amd-isp: Add ISP i2c-designware driver
+e3a8c6c997fad0af5fc6b6cb102c6e9397c1a97f i2c: iproc: Drop unnecessary initialisation of 'ret'
+af12c96c3b8cce065b935bc1a6eefb5d66b65e49 i2c: iproc: Use dev_err_probe in probe
+9bdb8b6c7600e57ef51c3fc9ee993bf62bf9dfda i2c: iproc: Use u32 instead of uint32_t
+ae458676742c08901f7d788731553fc556aad6e6 i2c: iproc: Fix alignment to match the open parenthesis
+e8e45b8ffd38903643d2a23bf462c0e2e47fa18b i2c: iproc: Remove stray blank line in slave ISR
+4bfca094ec9f4f6b95e0f51060c32892d7d55edb i2c: iproc: Replace udelay() with usleep_range()
+e71c79d18c1b9378a5f861e8b81053b90e1b9b58 i2c: iproc: Fix indentation of bcm_iproc_i2c_slave_init()
+d0dbd70767a27572f969149d74562b4391abe085 i2c: iproc: Move function and avoid prototypes
+22d0f485276b1c0ecf8c66ad5e4cb6f0df71dd75 i2c: iproc: When there's an error treat it as an error
+43ca80f215bfad1d34345d03e7a2010cb39b504b i2c: iproc: Remove unnecessary double negation
+0b589a119cff1e413c04a7906a43eba7c203a5e2 i2c: pasemi: Enable the unjam machine
+c50341b8ee7e2d01105ddf42e9bfd2a51a9ee063 i2c: pasemi: Improve timeout handling
+f1d760fce89c73da9542a444f857f874f6fc24e0 i2c: pasemi: Improve error recovery
+bc5968542104d76c7ab5126f5a2222da82cecbd0 i2c: pasemi: Log bus reset causes
 
---===============7294309131005841239==--
+--===============5462425334893017508==--
