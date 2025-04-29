@@ -1,31 +1,192 @@
-Content-Type: multipart/mixed; boundary="===============2978899920321748576=="
+Content-Type: multipart/mixed; boundary="===============0067709111515002352=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hansg/linux
-Date: Tue, 29 Apr 2025 10:35:44 -0000
-Message-Id: <174592294427.3445075.16951135638883152527@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
+Date: Tue, 29 Apr 2025 10:46:46 -0000
+Message-Id: <174592360621.3453756.4378196137736661495@gitolite.kernel.org>
 
---===============2978899920321748576==
+--===============0067709111515002352==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hansg/linux
-user: hansg
+repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
+user: frederic
 changes:
-  - ref: refs/heads/media-atomisp
-    old: 4a442841b0450a8bfaa46ae68b7eaea816bdaa58
-    new: 6d73fcd1051182dbae5983052d2335cbb7e228a2
-    log: revlist-4a442841b045-6d73fcd10511.txt
+  - ref: refs/heads/rcu/dev
+    old: 6053520d30815f96025fc4649c8c488a5fa58259
+    new: bc3030bf111daa2c4c9ad1a0b0432cb363d2cf58
+    log: revlist-6053520d3081-bc3030bf111d.txt
 
---===============2978899920321748576==
+--===============0067709111515002352==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-4a442841b045-6d73fcd10511.txt
+Content-Disposition: attachment; filename=revlist-6053520d3081-bc3030bf111d.txt
 
+1ec52c157b4298986257c0380bfcfe72e05c7c9b thermal/drivers/mediatek/lvts: Only update IRQ enable for valid sensors
+2395a02809b06ff619883f5b8437e99de550b7ea dt-bindings: thermal: Update for BCM74110
+09daf8f0d4204ccfdb59116daa7fe2badb7683bc thermal/drivers/brcmstb_thermal: Add support for BCM74110
+5ad72c2b24e1e35f2718bd1d04dcd041aa6047ee dt-bindings: thermal: Correct indentation and style in DTS example
+b744af1180dbadcfd994a48d613b4431373da70d thermal: rcar_gen3: Use lowercase hex constants
+bccdbba51a946fdfa08e972f14526a081c6f8bf7 thermal: rcar_gen3: Reuse logic to read fuses on Gen3 and Gen4
+1b4ef46fd6660712afcfdd841eadd928193e850f thermal/drivers/qcom-spmi-temp-alarm: Drop unused driver data
+2d09a9449ecd9a2b9fdac62408c12ee20b6307d2 Merge tag 'arm64-upstream' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
+906174776c0eb539e4d65c54a8019d954a6fb35d Merge tag 'x86_bugs_for_v6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+855912be0b046028abc9c0577787e749a8d26cf5 MIPS: config: omega2+, vocore2: enable CLK_MTMIPS
+f1ae32a709e0b525d7963207eb3a4747626f4818 net: phylink: force link down on major_config failure
+c2b900958535a6b958f86245e9afca2df59329bd gve: remove xdp_xsk_done and xdp_xsk_wakeup statistics
+542a58f1b090cdcea951b7c9c48c3ba57d1e35b1 gve: introduce config-based allocation for XDP
+57a070c2672b41242dc1f80e3ec943df6dc54933 gve: update GQ RX to use buf_size
+904effd02df72501fc8fcd8c9573de221c58cb60 gve: merge packet buffer size fields
+346fb86ddd862012bde63cf20c0ac8bc94000ef4 gve: update XDP allocation path support RX buffer posting
+293b49361f91737d7c39ab913714d20cb05d8f71 gve: add XDP DROP and PASS support for DQ
+e2ac75a8a9676dcede9ba4042efe7f02978f3eb4 Merge branch 'basic-xdp-support-for-dqo-rda-queue-format'
+2899aa3973efa3b0a7005cb7fb60475ea0c3b8a0 Merge tag 'x86_cache_for_v6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+43564f062bfe6580e0249b63d0ea733371411363 net: phy: Add swnode support to mdiobus_scan
+74e4264efe479ff6fd90b2872956d85bbdc1cfbb net: phy: aquantia: add probe function to aqr105 for firmware loading
+5f27092328ce47104d2d569bab4d6ec329cb6fec net: phy: aquantia: search for firmware-name in fwnode
+e31e67f58cf2acc6ef25462b1479a2a8d8f82e57 net: phy: aquantia: add essential functions to aqr105 driver
+25b6a6d29d4082f6ac231c056ac321a996eb55c9 net: tn40xx: create swnode for mdio and aqr105 phy and add to mdiobus
+07cfe3a557564ad7d982625ce1f5d8b05a016f68 net: tn40xx: prepare tn40xx driver to find phy of the TN9510 card
+53377b5c2952097527b01ce2f1d9a9332f042f70 net: tn40xx: add pci-id of the aqr105-based Tehuti TN4010 cards
+b6f61a312a77c20e6ecb1e84fa1e68abcc2ed2de Merge branch 'net-tn40xx-add-support-for-aqr105-based-cards'
+bf2986fcf82a449441f9ee4335df19be19e83970 atm: Fix NULL pointer dereference
+ae8371a46e59d768a5540a237309962b50b8bec7 Merge tag 'edac_updates_for_v6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
+a44940d094afa2e04b5b164b1e136fc18bcb4a2d net: libwx: fix Tx descriptor content for some tunnel packets
+c7d82913d5f9e97860772ee4051eaa66b56a6273 net: libwx: fix Tx L4 checksum
+4f74a45c6b1906574669999b9748feb1a92bee84 Merge tag 'for-net-next-2025-03-25' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+0d86c2395390efd61d111698ec120b5a79303b99 Merge tag 'ras_core_for_v6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+27bd3ce4038baad9976d287ce883df1674f3220e Merge tag 'm68k-for-v6.15-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/linux-m68k
+edb0e8f6e2e19c10a240d08c5d6f3ab3cdd38808 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+dce3ab4c57e662ae019c22e7c2f2aa887617beae Merge tag 'for-linus-6.15-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
+dc84bc2aba85a1508f04a936f9f9a15f64ebfb31 x86/mm/pat: Fix VM_PAT handling when fork() fails in copy_page_range()
+2c5ac026fd1421cf6a78770b48570b2563ef40b7 net: phy: Introduce PHY_ID_SIZE — minimum size for PHY ID string
+61997271a5a7dcd5a7dd5f0d81e4cb045e1db9ef net: usb: asix: ax88772: Increase phy_name size
+a19f40d919ca6d16bbc03d858690f60f1a9bf3ed Merge branch 'net-usb-asix-ax88772-fix-potential-string-cut'
+4d38328eb442dc06aec4350fd9594ffa6488af02 tracing: Fix synth event printk format for str fields
+e0344f9564f5847dc20e245fbea67a4b262ee659 tracing: Replace strncpy with memcpy for fixed-length substring copy
+a5b3d8660b049779880c790549ff3fef02f6922c Merge tag 'hyperv-next-signed-20250324' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
+21e0ff5b10ec1b61fda435d42db4ba80d0cdfded Merge tag 'acpi-6.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+76e51db43fe4aaaebcc5ddda67b0807f7c9bdecc objtool, spi: amd: Fix out-of-bounds stack access in amd_set_spi_freq()
+107a23185d990e3df6638d9a84c835f963fe30a6 objtool, nvmet: Fix out-of-bounds stack access in nvmet_ctrl_state_show()
+e63d465f59011dede0a0f1d21718b59a64c3ff5c objtool, media: dib8000: Prevent divide-by-zero in dib8000_set_dds()
+72c774aa9d1e16bfd247096935e7dae194d84929 objtool, panic: Disable SMAP in __stack_chk_fail()
+7501153750b47416c9891038330359fad0205839 objtool, Input: cyapa - Remove undefined behavior in cyapa_update_fw_store()
+060aed9c0093b341480770457093449771cf1496 objtool, ASoC: codecs: wcd934x: Remove potential undefined behavior in wcd934x_slim_irq_handler()
+7d20aa5c32ac8bd272b5470ddbd7ac6e0cb35714 Merge tag 'pm-6.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+29c578c848402a34e8c8e115bf66cb6008b77062 objtool, regulator: rk808: Remove potential undefined behavior in rk806_set_mode_dcdc()
+b3c623b9a94f7f798715c87e7a75ceeecf15292f Merge tag 'thermal-6.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+e6ea10d5dbe082c54add289b44f08c9fcfe658af Merge tag 'rust-hrtimer-for-v6.15-v3' of https://github.com/Rust-for-Linux/linux into rust-next
+054570267d232f51b5b234a5354f301f65374dd4 Merge tag 'lsm-pr-20250323' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
+59c017ce9ec77953ca5198b41d4101f57dd4af0d Merge tag 'selinux-pr-20250323' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
+61af143fbea4f1013e064e7580acb7332e531bd6 Merge tag 'Smack-for-6.15' of https://github.com/cschaufler/smack-next
+bdab2977e47a2eac50e3a0ce23eb5eab110fd490 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
+a86c6d0b2ad12f6ce6560f735f4799cf1f631ab2 Merge tag 'fscrypt-for-linus' of git://git.kernel.org/pub/scm/fs/fscrypt/linux
+ee6740fd34eb53c5c76be01201c15310f461b69f Merge tag 'crc-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
+e2ae6e14d7c43e955580de81edb025e7fe56bb6a Merge tag 'regulator-v6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
+47618bc875407b54296285e21d92d79889ce503a Merge tag 'spi-v6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+5e0c2cc4c35283e2ae7a0602d1fe85acf8ae6ccc Merge tag 'pwm/for-6.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
+c07666e29be2487b99bbc1fbc109b5cdb57d1713 Merge tag 'hwmon-for-v6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
+5143840cef6bb1ec4f334604ecc55130dd196fed Merge tag 'gpio-updates-for-v6.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
+0163c8864bee0df6459fdb18ef9c0944368639e3 Merge tag 'mmc-v6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
+2a2274e90a76c24a03287e386f1ad128a8cc3b67 Merge tag 'pmdomain-v6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm
+4fa752a3bddaad1e94a67668cb6fea15883f24b6 drm/xe/vf: Don't check CTC_MODE[0] if VF
+b23d8a07abed9fef3d1b15fe05f671bae511c853 Merge tag 'chrome-platform-v6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/chrome-platform/linux
+d2de4410a88ffc6053300d03041cc73b8c85dbaf drm/xe: Apply Wa_16023105232
+c84907a1459588c883ef84a35bb69d46ca37e4e7 Merge tag 'auxdisplay-v6.15-1' of git://git.kernel.org/pub/scm/linux/kernel/git/andy/linux-auxdisplay
+caf2f15648ba6cb4c329465c5686c9864a081a71 drm/xe: Move survivability back to xe
+22d00862a62a52571a6f244c6d248476e997b9b7 drm/xe: Set survivability mode before heci init
+5e66cf6edddb5f6237e3afb07475ace57ecb56bc drm/xe: Fix unmet direct dependencies warning
+1e26c5e28ca5821a824e90dd359556f5e9e7b89f Merge tag 'media/v6.15-1' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
+4b313c69a38e28b2f002198c3909fb553e9b0176 PCI: endpoint: Add intx_capable to epc_features struct
+e55c67837a8cd42d6936e567f2ac75337b0e57f6 PCI: dw-rockchip: Endpoint mode cannot raise INTx interrupts
+7c3b54cf6464b4d6ba5440ae5bb44552f099a078 PCI: endpoint: pci-epf-test: Expose supported IRQ types in CAPS register
+08818c6d7f276eb5895959f34c491a3911ae7820 misc: pci_endpoint_test: Add support for PCITEST_IRQ_TYPE_AUTO
+d66b5b336245b91681c2042e7eedf63ef7c2f6db PCI: j721e: Fix the value of .linkdown_irq_regfield for J784S4
+22cc5ca5de52bbfc36a7d4a55323f91fb4492264 x86/paravirt: Move halt paravirt calls under CONFIG_PARAVIRT
+9f98a4f4e7216dbe366010b4cdcab6b220f229c4 x86/tdx: Fix arch_safe_halt() execution for TDX VMs
+e8f45927ee5d99fa52f14205a2c7ac3820c64457 x86/tdx: Emit warning if IRQs are enabled during HLT #VE handling
+73b6dacb1c6feae8ca4a6ff120848430aeb57fbd io_uring/net: use REQ_F_IMPORT_BUFFER for send_zc
+b3cc7428a32202936904b5b07cf9f135025bafd6 Merge branch 'for-6.15/amd_sfh' into for-linus
+ac91d5c718456d5f0162dfd34e819a08f94e0584 Merge branch 'for-6.15/apple' into for-linus
+5d28bc6b495cf2eea50c4e9d8d866937a6695e61 Merge branch 'for-6.15/bpf' into for-linus
+b928908e9b5a0c43bef3f6bc18f79fc43fa3d52d Merge branch 'for-6.15/core' into for-linus
+e4f7cc8c36e7cab391683db682402ab2f185bf92 Merge branch 'for-6.15/google' into for-linus
+770493524e9f623826765eb97c64d699f4752e4f Merge branch 'for-6.15/intel-ish' into for-linus
+071b38ee0975f468625883ed068bda69004772f2 Merge branch 'for-6.15/intel-thc' into for-linus
+880d010ca55ffa15794a30cbd6f121dcebee55e7 Merge branch 'for-6.15/lenovo' into for-linus
+867bc163da6d156263321da2850b1395297f358b Merge branch 'for-6.15/logitech' into for-linus
+765b8aa0f7dfcce85f24d4db19e64083442605d3 Merge branch 'for-6.15/pidff' into for-linus
+74ed6b5bad42720d66d1cc1b972d3dc3e313c284 Merge branch 'for-6.15/plantronics' into for-linus
+82931ba4c1fe69b1363545735af87c58743186f8 Merge branch 'for-6.15/sony' into for-linus
+795b318f0577e380292a1fb794f706a95fed225d Merge branch 'for-6.15/steam' into for-linus
+6fe38a26b25a45f43f44185f45c829ad0af4e842 Merge branch 'for-6.15/usb-hidbp' into for-linus
+4ee4d7b177cff042c7135c8a7c87fbfbe28f04d8 Merge branch 'for-6.15/wacom' into for-linus
+18eb75f3af40be1f0fc2025d4ff821711222a2fd landlock: Always allow signals between threads of the same process
+bbe72274035a83159c8fff7d553b4a0b3c473690 selftests/landlock: Split signal_scoping_threads tests
+c5efa393d82cf68812e0ae4d93e339873eabe9fe selftests/landlock: Add a new test for setuid()
+9b08a16637eeef4d6d3a8a3b69714e8930676248 lsm: Add audit_log_lsm_data() helper
+d9d2a68ed44bbae598a81cb95e0746fa6b13b57f landlock: Add unique ID generator
+5b95b329befaf18020a0d3cd0223a90bd230eeb9 landlock: Move domain hierarchy management
+ae2483a26017d24f505caa87935fb8f17117bbfa landlock: Prepare to use credential instead of domain for filesystem
+93f33f0cb2f0a4bc029912ac3e33ccf2034dc5c2 landlock: Prepare to use credential instead of domain for network
+8d20efa9dc6cb471b71fd388923753f767ab13ce landlock: Prepare to use credential instead of domain for scope
+79625f1b3a3df63d3289a0781fdf121bc42966f7 landlock: Prepare to use credential instead of domain for fowner
+14f6c14e9fbde4a802c10c7e770b5ba63853ebc6 landlock: Identify domain execution crossing
+33e65b0d3add6bdc731e9298995cbbc979349f51 landlock: Add AUDIT_LANDLOCK_ACCESS and log ptrace denials
+1d636984e088b17e8587eb5ed9d9d7a80b656c4c landlock: Add AUDIT_LANDLOCK_DOMAIN and log domain status
+c56f649646ecec3dd1a2e400e6e5ec83439d940f landlock: Log mount-related denials
+2fc80c69df823628f1f0f2aace99e393c57112fa landlock: Log file-related denials
+e120b3c29302532aba2f46c0544ad728c56c11f5 landlock: Factor out IOCTL hooks
+20fd2954945458c1b04060d1ce6320f897b3a701 landlock: Log truncate and IOCTL denials
+9f74411a40cecc6faca2a3e3bbb7c1834276d4a2 landlock: Log TCP bind and connect denials
+1176a15b5ec02925ea89bae05b5c860ddcce1e2e landlock: Log scoped denials
+12bfcda73ac2cf3083c9d6d05724af92da3a4b4b landlock: Add LANDLOCK_RESTRICT_SELF_LOG_*_EXEC_* flags
+ead9079f75696a028aea8860787770c80eddb8f9 landlock: Add LANDLOCK_RESTRICT_SELF_LOG_SUBDOMAINS_OFF
+ec2798d85b1c29f4549849f1332555a0fd09686f samples/landlock: Enable users to log sandbox denials
+ec12a8d4c1861678bf86b0c7510068d472cd133d selftests/landlock: Add test for invalid ruleset file descriptor
+e178b404ea0c909c51d22bddb2cfbb2124028c84 selftests/landlock: Extend tests for landlock_restrict_self(2)'s flags
+6a500b22971c42da4037ff95481dd6c5535b01bd selftests/landlock: Add tests for audit flags and domain IDs
+960ed6ca4c46c1e7a44f3f7b8be2c147757459e4 selftests/landlock: Test audit with restrict flags
+e2893c0a696f285e1163bc0db26253bf8d3e4c54 selftests/landlock: Add audit tests for ptrace
+e1156872efa70b470534eed455861de3725aa867 selftests/landlock: Add audit tests for abstract UNIX socket scoping
+316d06b011300ece31f90febb432385636f3d00e selftests/landlock: Add audit tests for filesystem
+a5c369e45b3e066c8defee149fad9f25dbcdaa11 selftests/landlock: Add audit tests for network
+8e2dd47b10e77452733eae23cc83078fa29c1e9a landlock: Add audit documentation
+70facbf978ac90c6da17a3de2a8dd111b06f1bac mctp: Fix incorrect tx flow invalidation condition in mctp-i2c
+ed3b274abc4008efffebf1997968a3f2720a86d3 ASoC: codecs: wsa883x: Correct VI sense channel mask
+060fac202eb8e5c83961f0e0bf6dad8ab6e46643 ASoC: codecs: wsa884x: Correct VI sense channel mask
+012a6efcc805308b1d90a1056ba963eb08858645 ASoC: sma1307: Fix error handling in sma1307_setting_loaded()
+7a874e8b54ea21094f7fd2d428b164394c6cb316 spi-rockchip: Fix register out of bounds access
+f9733aa925d99268e3c1f284d3e62e6a643dcc1d ARM: 9439/1: arm32: simplify ARM_MMU_KEEP usage
+ccb8ce526807fcbd4578d6619100d8ec48769ea8 ARM: 9441/1: rust: Enable Rust support for ARMv7
+9cac324d6f4900f92d41db5fd6b73b6feb0bfb68 ARM: 9442/1: smp: Fix IPI alignment in /proc/interrupts
+e7607f7d6d81af71dcc5171278aadccc94d277cd ARM: 9443/1: Require linker to support KEEP within OVERLAY for DCE
+c3d944a367c0d9e4e125c7006e52f352e75776dc ARM: 9444/1: add KEEP() keyword to ARM_VECTORS
+623c3015d8c9b7d7c6b9796f6e3667428ab6327a ARM: 9445/1: clkdev: Mark some functions with __printf() attribute
+f1e7177cbd51678b077fc0ee530e34a6a3dc3ca2 Merge Merge tag 'objtool-core-2025-03-22' into loongarch-next
+3ece3e8e5976c49c3f887e5923f998eabd54ff40 PCI/MSI: Handle the NOMASK flag correctly for all PCI/MSI backends
+814d051ebed40b27285ab3c5e2454bd01a0f9631 tools/build: Use SYSTEM_BPFTOOL for system bpftool
+c57c58a62e564c615520839742b28d315427a280 rtla: Fix segfault in save_trace_to_file call
+025b217990ea5cdc24a33ad60c889c696cbf9a32 rtla/osnoise: Unify params struct
+20d6b07581ce37338cc709b4381e8f314309b187 rtla: Unify apply_config between top and hist
+a8122a63c903c0e2dd8959295eb2abfc644b36e1 rtla/osnoise: Set OSNOISE_WORKLOAD to true
+0122938a7ab49b531b71602584da524ffebdd2f9 rtla: Always set all tracer options
+6c6182728a9bb02b0a973775869c9a0ceddd9658 rtla/tests: Reset osnoise options before check
+a86150f310d7c986bb27c3633520336b67388afe rtla/tests: Test setting default options
+732032692f6ae311bc35159b18e5b7c5e64010fc rtla: Add the ability to create ctags and etags
+214c13e380ad7636631279f426387f9c4e3c14d9 SUNRPC: rpcbind should never reset the port to the value '0'
+bf9be373b830a3e48117da5d89bb6145a575f880 SUNRPC: rpc_clnt_set_transport() must not change the autobind setting
+2d3e998a0bc7fe26a724f87a8ce217848040520e NFS: Shut down the nfs_client only after all the superblocks
+3eba080e4d4f7bcc22ba19b43ab5fd412d99d1ba NFSv4: Further cleanups to shutdown loops
+c81d5bcb7b38ab0322aea93152c091451b82d3f3 NFSv4: clp->cl_cons_state < 0 signifies an invalid nfs_client
+0af5fb5ed3d2fd9e110c6112271f022b744a849a NFSv4: Treat ENETUNREACH errors as fatal for state recovery
+7e010a045330cbfea0ee052b4678f78849bc7303 ASoC: codecs: wsa88xx: Correct VI sense channel mask
+d32c4e58545f17caaa854415f854691e32d42075 spi: SPI_QPIC_SNAND should be tristate and depend on MTD
+705094f6556d88540e1076e432cbca6b596421dd unix: fix up for "apparmor: add fine grained af_unix mediation"
 023b1e9d265ca0662111a9df23d22b4632717a8a Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 e50da555ca4d42b1b98d0f26789db64f26a0919a Merge tag 'sound-6.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 59ee921ca7ec13c879ffbd101cece0049e81dac2 Merge tag 'spi-nor/for-6.15' into mtd/next
@@ -857,198 +1018,37 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 710329254dc303cd3b2df1a24674adecb1189385 Merge tag 'turbostat-2025.05.06' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
-ad2698efce37e910dcf3c3914263e6cb3e86f8cd media: uapi: v4l: Change V4L2_TYPE_IS_CAPTURE condition
-8e172e38a623ce284baf2514f963b29e4d47c62e media: qcom: venus: Fix uninitialized variable warning
-f81f69a0e3da141bdd73a16b8676f4e542533d87 media: uapi: v4l: Fix V4L2_TYPE_IS_OUTPUT condition
-b312ac33a593b64f23b0ddba59c429e89c479a54 media: amphion: Reduce decoding latency for HEVC decoder
-9ea16ba6eaf93f25f61855751f71e2e701709ddf media: amphion: Add a frame flush mode for decoder
-22f572ce4e7c7fa18f46a445d4270e6d5b5429f2 media: v4l2-common: Add helpers to calculate bytesperline and sizeimage
-dcbe2aeda2e09eb69f5feba7e171db2836d9999d media: v4l2: Add NV15 and NV20 pixel formats
-d5e0aa61470c48ddc04d433a00e79cef8716377a media: rkvdec: h264: Use bytesperline and buffer height as virstride
-137149c63993c235fa37624cac6368f3cb4affc9 media: rkvdec: h264: Don't hardcode SPS/PPS parameters
-c74b78193ffd0a5cfdc7e0c3fa1d128e6c0c42d6 media: rkvdec: Extract rkvdec_fill_decoded_pixfmt into helper
-98a0aa1b6910766a23b5162a1499696837e5d3ca media: rkvdec: Move rkvdec_reset_decoded_fmt helper
-e3f9e3a6a032f37d43c31f36330d04b609cb7fbd media: rkvdec: Extract decoded format enumeration into helper
-774837ed8749fb58a5a4079d0750e151b1ed01a6 media: rkvdec: Add image format concept
-f270005b99fa19fee9a6b4006e8dee37c10f1944 media: rkvdec: Fix frame size enumeration
-ebdcec10b652942651f0ef3cd7602279e85383c9 media: amphion: Fix spelling mistake "dismatch" -> "mismatch"
-9ddc3d6c16ea2587898a315f20f7b8fbd791dc1b media: mediatek: vcodec: Remove trailing space after \n newline
-311e40e877bd980bc665e6c8d3b15d96f0ec2aa8 media: verisilicon: Enable wide 4K in AV1 decoder
-f19035b86382f635a0d13d177b601babaf263a12 media: mediatek: vcodec: Correct vsi_core framebuffer size
-80d45644d5f93d941ff127a0791362a0738c0745 media: mediatek: vcodec: remove vsi operation in common interface
-c8c3bb1e54457eec538907a614fab3c9c9295ff8 media: mediatek: vcodec: support extended h264 decode
-4c3596d7e83a320ef7241de6e194d85bec5974ea media: mediatek: vcodec: add description for vsi struct
-10c17af9666a7789f5f920f441f4fd215902cf81 media: MAINTAINERS: Amend venus Maintainers and Reviewers
-4acbaa8794b3712246eaabb34094209bb6568c3f media: MAINTAINERS: Add myself to iris Reviewers
-be526da77939920f7d8fa665889f41a0ad5b4d8d dt-bindings: media: camss: Restrict bus-type property
-2ab7f87a7f4bf392e3836a2600f115a1baa1415c dt-bindings: media: Add qcom,x1e80100-camss
-bce4c094c27268b6148906a0ed43ff02a39522da media: qcom: camss: Restrict endpoint bus-type to D-PHY
-aef1d545989bc9e7f555af6b9f1be4963772192b media: qcom: camss: csid: suppress CSID log spam
-b6fafb3941fa0f065def304d44d6c3c6d6ac0f64 media: qcom: camss: vfe: suppress VFE version log spam
-5af908c2c93d5bfeec72125901aff991e5268015 media: qcom: camss: Add an id property to struct resources
-74cae7794341fa4f96fef0966f44471f7e2d322f media: qcom: camss: Use the CSIPHY id property to find clock names
-253314b20408545c31499d7c97072cc7a30612a2 media: qcom: camss: Add CSID 680 support
-727970e9725c35366f501a890584e466ae34224a media: qcom: camss: Add VFE680 support
-88655d64210e36c926d9c8a2617ad97e0bc7a4ad media: qcom: camss: Add support for 3ph CSIPHY write settle delay
-b8f781596da0e540797557c570163b5da0042070 media: qcom: camss: csiphy-3ph: Add 4nm CSIPHY 2ph 5Gbps DPHY v2.1.2 init sequence
-1830cf0f56c3ced98bab3aea7ca2a0fa76e3a49b media: qcom: camss: Add x1e80100 specific support
-bf462ef8c5ad61616b54751915f3dd1d3301a505 dt-bindings: media: qcom,sm8550-iris: document SA8775p IRIS accelerator
-e68c3c50a736490d9c07888fe525718d16ff9e9c media: iris: fix error code in iris_load_fw_to_memory()
-4edd34175e3dd91dc30b3091efdf3f9c7143d4c4 dt-bindings: media: add support for video hardware on QCS615 platform
-523cea3a19f0b3b020a4745344c136a636e6ffd7 media: venus: Fix probe error handling
-b588898880b02a8e50bcb72242585021d67f246d media: venus: vdec: queue dpb buffers to firmware for video seek
-14423fc3a4a21fb436dda85450339ec2bf191b36 media: venus: pm_helpers: add compatibility for dev_pm_genpd_set_hwmode on V4
-f6e9968aeb200aa6d399ac73338174b394677049 media: dt-bindings: media: renesas,vsp1: Document RZ/V2H(P)
-079afc0b7241e383cf61e5ede906104d85f7a6cb media: dt-bindings: media: renesas,fcp: Document RZ/V2H(P) SoC
-e7376745ad5c8548e31d9ea58adfb5a847e017a4 media: rcar-vin: Fix stride setting for RAW8 formats
-52e39050616aa7e72ea0f6330501368d5f6925e1 media: dt-bindings: renesas,rzg2l-csi2: Document Renesas RZ/V2H(P) SoC
-f1c83d2f2841e99f884104e912aa20fcc32b9c2d media: dt-bindings: renesas,rzg2l-csi2: Document Renesas RZ/G3E CSI-2 block
-d71be5add2f3fd4e11c11a21855df17c48088fc2 media: dt-bindings: renesas,rzg2l-cru: Document Renesas RZ/G3E SoC
-7c537ccfe8982b186a6becc646872cde6061c8a6 media: rzg2l-cru: csi2: Use local variable for struct device in rzg2l_csi2_probe()
-198be9e98bda5b18d203134c293597e6add9f5c6 media: rzg2l-cru: csi2: Use devm_pm_runtime_enable()
-aed5bbaec5346147b8580878a32809fdb1bf46c8 media: rzg2l-cru: rzg2l-core: Use local variable for struct device in rzg2l_cru_probe()
-2fc8cfe06e7628de825d53128fd38b3f0e19c989 media: rzg2l-cru: rzg2l-core: Use devm_pm_runtime_enable()
-15cef2dc7d688d5fc4919aa3c5c272931a8cd087 media: rzg2l-cru: csi2: Introduce SoC-specific D-PHY handling
-ed472263fcc48f72e32cb494061bf8b8c333891a media: rzg2l-cru: csi2: Skip system clock for RZ/V2H(P) SoC
-995cfd09ff8f60f57b3e3d49c809921b59993bae media: rzg2l-cru: csi2: Add support for RZ/V2H(P) SoC
-d9063dc50255db21b5a5e6ceada1e3a8927e44a1 media: rzg2l-cru: Add register mapping support
-5f5ed645b31b3e0bbd1a1597cdb41c467f3c7776 media: rzg2l-cru: Pass resolution limits via OF data
-48ce5920da1d65f22b4808564f6f5c9c4ff9d976 media: rzg2l-cru: Add image_conv offset to OF data
-2d9e3eb740b7d256d0ee53a6a242f0ffc60b0c9b media: rzg2l-cru: Add IRQ handler to OF data
-446c645f7fe480a4420072728faa1f261530b984 media: rzg2l-cru: Add function pointer to check if FIFO is empty
-3c3433c5b3a0c34dd36d770e2950ad3377d97372 media: rzg2l-cru: Add function pointer to configure CSI
-1d1e564fce1bc361af1a1980a7f915a0475a008a media: rzg2l-cru: Add support for RZ/G3E SoC
-3f5f28084eb9dbb408cf5429018a9b7a2859616f media: mediatek: vcodec: Enable HEVC main still picture decode
-d52b9b7e2f10d22a49468128540533e8d76910cd media: imx-jpeg: Drop the first error frames
-7713800a6cc94b89caab13355b956bc5423250c8 media: verisilicon: Enable NV15 support for Rockchip VDPU981
-208699afb9f22f4d903ebdbdae45c2c6f2e308e0 media: amphion: Slightly simplify vpu_core_register()
-609ba05b9484856b08869f827a6edee51d51b5f3 media: imagination: fix a potential memory leak in e5010_probe()
-46e9c092f850bd7b4d06de92d3d21877f49a3fcb media: imx-jpeg: Move mxc_jpeg_free_slot_data() ahead
-faa8051b128f4b34277ea8a026d02d83826f8122 media: imx-jpeg: Reset slot data pointers when freed
-7500bb9cf164edbb2c8117d57620227b1a4a8369 media: imx-jpeg: Cleanup after an allocation error
-f65fbf8c3d6711325f947b49d4067e7d05fd79de media: imx-jpeg: Change the pattern size to 128x64
-fd5b6cd730676940df63b0970bb1ba30bca1aac3 media: imx-jpeg: Check decoding is ongoing for motion-jpeg
-59b24c0047a2e662325fdffeea4d9c9db2d31916 media: dt-bindings: media: i2c: align filenames format with standard
-671b550fe6282b936d79953731126ddffd75b520 media: i2c: ds90ub953: Fix error prints
-ef205273132bdc9bcfa1540eef8105475a453300 media: i2c: ds90ub913: Fix returned fmt from .set_fmt()
-3e80dbb464eb8bb2f45c7c83ec379818d611c358 media: i2c: ds90ub913: Align ub913_read() with other similar functions
-24868501a74402e8b48810dd7223bdc3d7508b3e media: i2c: ds90ub9xx: Add err parameter to read/write funcs
-8f512c3113756c751811392bc48e146b6a0ba2fd media: i2c: ds90ub960: Add error handling to multiple places
-fe591fb5ed225ce8c6a122d7b8baa670bd8542d4 media: i2c: ds90ub953: Add error handling to ub953_log_status()
-d3be2fcde66d38c5f229c0f74cf3616f3453179e media: i2c: ds90ub913: Add error handling to ub913_log_status()
-dbad194b0bffbacd896ed9dec7fd3556720b8049 media: i2c: ds90ub953: Speed-up I2C watchdog timer
-675bc338ea476e7e3a290bf5d6e9bb2455ec5402 media: i2c: ds90ub960: Move UB9702 registers to a separate section
-21a22b0febad2d029d5c23947751dabb9973e83f media: i2c: ds90ub960: Add UB9702 specific registers
-43635b661ef9931b57e33593d13570b0ab5ccec1 media: i2c: ds90ub960: Split ub960_init_tx_ports()
-42a44838d5b50d75e534efa29aca2b49e8de3400 media: i2c: ds90ub960: Refresh ub960_init_tx_ports_ub9702()
-2ca499384e98e79f02bea6cc4bde9b3612bace04 media: i2c: ds90ub960: Add RX port iteration support
-ac7c808b1cb2b6745a5204c91f170634974c9e24 media: i2c: ds90ub960: Move all RX port init code into ub960_init_rx_ports()
-32cc18622d026b21ed328ad992180dc2393d1fdd media: i2c: ds90ub960: Update UB9702 init sequences
-ca26126a6c3fb6eb4f30ceb6a41ff975117ec94a media: dt-bindings: ti,ds90ub960: Allow setting serializer address
-b8e2193b1e367ac8169b97703dc2fc666637ae84 media: i2c: ds90ub953: Move reg defines to a header file
-e2a3b695bc5f343391c003ecda98701808a9c433 media: i2c: ds90ub960: Configure serializer using back-channel
-a05744749600007f56efb16c6de727d9d541d475 media: i2c: ds90ub9xx: Set serializer temperature ramp
-d471fb06b21ae54bf76464731ae1dcb26ef1ca68 media: ipu6: Remove workaround for Meteor Lake ES2
-bd5bae761f1813567388791eab7afaa7c287e936 media: i2c: imx334: Optimized 4k and 2k mode register arrays
-35132d039c566b0e9d8e53f76f512b22607c2405 media: i2c: imx334: update mode_3840x2160_regs array
-7dced52992887a712d41913b39c5000b2ebf8c4f media: i2c: imx334: add modes for 720p and 480p resolutions
-267836bcc808928afa2a92d4088c41f488ebf047 media: i2c: imx334: common reg value correction
-77aed862c34f192f9d4b80d5288263b22b50ca98 media: ov08x40: Extend sleep after reset to 5 ms
-660e613d05e449766784c549faf5927ffaf281f1 media: ccs-pll: Start OP pre-PLL multiplier search from correct value
-06d2d478b09e6764fb6161d1621fc10d9f0f2860 media: ccs-pll: Start VT pre-PLL multiplier search from correct value
-6868b955acd6e5d7405a2b730c2ffb692ad50d2c media: ccs-pll: Check for too high VT PLL multiplier in dual PLL case
-f639494db450770fa30d6845d9c84b9cb009758f media: ccs-pll: Correct the upper limit of maximum op_pre_pll_clk_div
-34af05f857cb8317ce3c19f00f68af4c14329dbe media: ccs-pll: Print a debug message on too high VT PLL OP clock
-2ab7b3d07d2549686a8088f3de6e477b6ceb0483 media: ccs-pll: Drop LINK_DECOUPLED flag
-715f84c1e54efd123da761bb3db204e76e051041 media: ccs-pll: Print missing PLL flags
-2f19528845b80f8299fbe28b23c162ba9389ebad media: ccs-pll: Add a flag for even PLL multipliers
-cd9cb0313a42ae029cd5af9293b0add984ed252e media: ccs-pll: Better validate VT PLL branch
-de6514694b54bdaf1a6e6cde6575871330013cb2 media: ccs-pll: Print PLL calculator flags in the beginning
-220ea1432a6d317272d94184bf5f98b317f514b9 media: ccs-pll: Document the CCS PLL flags
-c3d8e388ac9dd56fd99dbe71874aa67097840a57 media: intel/ipu6: Remove unused IPU6_BUS_NAME
-be1534a2e71452afbab7c69cf59f783bb33f644a media: intel/ipu6: Remove ipu6_buttress_ctrl started field
-6ad57f8f86de024d10c764f829a50530e7121958 media: intel/ipu6: Constify ipu6_buttress_ctrl structure
-94a6c188b89b8099e3abe78ebb6916a534690e21 media: intel/ipu6: Remove unused ipu6_isys_subdev_link_validate()
-adcdf4160a6cca8a8dcda853e07590c32566d6fd media: intel/ipu6: Add missing new line character in error message
-4fa1d8d81d7224a82c7ae07b9262a8751c4e85f2 media: intel/ipu6: Make two functions static
-36b9d0521e4b10c9fab9bef0796d6374125b7b57 media: intel/ipu6: Use timestamp value directly
-95d1033c8da0b3307a40bd3dd95ddf85ad171dbc media: intel/ipu6: Abstract buf ready function
-1acf9fee6f117fcb91da3c8f36545d7051c78f52 media: intel/ipu6: Remove unused dev field from ipu6_isys_queue
-81cf4f46a03a07b0b86f9d677c34ba782df7d65e media: ov2740: Move pm-runtime cleanup on probe-errors to proper place
-e0f6bc693b3f1c0cc3a2d8d67a764ecb0aac2145 media: ipu-bridge: add ACPI HID for lt6911uxe bridge
-0c1ab3ce0492a579cf8c3b7c0a6c6ab05e47b4bb media: ti: cal: Use printk's fourcc formatting
-a5b18fd769b7dc2e77a9e6a390844cbf50626ae8 media: ti: cal: Fix wrong goto on error path
-c57e372b7b4230d8c4fbaf08704bc4c492a67684 media: ti: cal: Add streams support
-f2f0cd892515eda18857f47718eb7be93f9ddaca media: rcar-vin: Remove emulated SEQ_{TB,BT}
-1dadd89b58108d3df701d6d9e19cd34818f97f7f media: rcar-vin: Remove superfluous suspended state
-25482a986e44fddd3af77458071fbbd222795917 media: rcar-vin: Remove superfluous starting state
-c1eefe88c3954390473ed092f0d4718a810bd61c media: rcar-vin: Simplify the shutdown process
-9396770c3add2142e21813ce8bc152e5e6524557 media: rcar-csi2: Remove hack to detect NTSC content
-4e228c365d85a03d08c7f555011919f4b6353dcd media: ipu3-cio2: Replace deprecated PCI functions
-3bb6339e2a133abf8e48d12114e6bb11820e36c0 media: intel/ipu6: Replace deprecated PCI functions
-df78f5928c4b699d0699ec0e2554571a45e38626 media: dt-bindings: Add OmniVision OV02E10
-1c734f8ab070716604d0794094e18de3475c8eeb media: i2c: ov02e10: add OV02E10 image sensor driver
-25259379bc796bf718eae395ffe05e76d42cbe5b media: dt-bindings: Convert Analog Devices ad5820 to DT schema
-838a5255698b414897c3b237c00b21f3f1620fef media: i2c: imx219: switch to {enable,disable}_streams
-5bd6b8c1bb2d49d5ff15c7c47d6b33d2d38785f0 media: i2c: imx219: media: i2c: imx219: Enable runtime PM autosuspend
-e848475c33fc42e8bd7052227e65ca35d6ff046f media: ccs: Try a little longer to access the sensor before giving up
-bb468fc5a4d902c9202f32ed4ee1f0980c17fe52 media: ccs: Use read_poll_timeout() in reset polling
-932518f6f8713d9a23b2ec3e0ebf5ab9e17af728 media: ccs: Remove I²C write retry hack
-980d2c914cbe0af7c9239dacb89ae083a2094d83 media: ccs: Don't complain about lack of quirks
-5050bc60cc16ffa35a962a53271210d427a11535 media: ccs: Don't complain about missing "clock-frequency" property
-1284c9693953aed2a9974a5a384ce2a42a1b9ae8 media: intel/ipu6: Minor dma_mask clenaup
-0209916ebe2475079ce6d8dc4114afbc0ccad1c2 media: intel/ipu6: Fix dma mask for non-secure mode
-78bc2ff83c76db622ae52c2bbf3113a5c6df580a media: i2c: imx334: Simplify with dev_err_probe()
-7b19b0fc8ac8466b9140df17e0c7fcf135f1f063 media: i2c: imx334: Convert to CCI register access helpers
-731c8efd5b74f8aa4c57ffd8e8561d93e425b007 media: i2c: imx334: Remove redundant register entries
-9e089a649a229fb08942ada75b0f1c7f5814e065 media: i2c: imx334: Configure lane mode dynamically
-a6dde677b93795a04f43f90427723bb4c2a50e5e media: i2c: imx334: Fix power management and control handling
-b493cd3c03641f9bbaa9787e43ca92163cb50051 media: i2c: imx334: Fix runtime PM handling in remove function
-01dfdf6a80c57151af0589af0db7adbbdd1361c7 media: i2c: imx334: Enable runtime PM before sub-device registration
-9d382f6a9978916317b3fb4ef07b5fec684adde0 media: i2c: imx334: Use subdev state lock for synchronization
-6f1b74c1a686c93b404bd57d73577a6b5b19c5c3 media: i2c: imx334: switch to {enable,disable}_streams
-add5d80af2d6dd289f8948e48c93767156922e30 media: omap3isp: drop wait_prepare/finish callbacks
-86b32b0c2af5da75a67e76b0ec2b9684d9c91329 media: staging: atomisp/starfive: use (t,l)/wxh format for rectangle
-874f9c0f27e0a3dbb36db571cc080e9203980eaa media: usb: em28xx: use (t,l)/wxh format for rectangle
-47bbf1962083cc7cd88f74b706ceae7447603c3b media: vivid: use (t,l)/wxh format for rectangle
-52cafd7971abf16b785a66d0d5be7082f019e141 media: i2c: imx283: use (t,l)/wxh format for rectangle
-dc0f6e8cbb94d043f086af4dde90dc51e8715130 media: pci: zoran: use (t,l)/wxh format for rectangle
-57e18e9d55204a412de2a56a1256108dbd9f2583 media: platform: use (t,l)/wxh format for rectangle
-670d6e919309faf981c3f8aec0dba1c6138b70b6 media: tc358743: ignore video while HPD is low
-780f453708104460b92b5f7da986e5558bad6d8e media: uapi: cec-funcs.h: use CEC_LOG_ADDR_BROADCAST
-29d69273fefd0bc2a66b5e22f3a4a4c7a53bfa02 media: remove STA2x11 media pci driver
-df8375bbe2d5bb6d7f86701b15426674f2529a18 media: v4l2-common: Add RGBR format info
-bbd0df9bfe1c085bf9b0a315dd5fb58e491dfa5b media: vim2m: Simplify try_fmt
-c09acbbfff2037fe594396388e0c28eeeca79012 media: vim2m: Add parametized support for multiplanar API
-728c0d50994764a3783ce4993b54e4e2855aab3b media: s5p-mfc: Support for handling RET_ENC_BUFFER_FULL interrupt
-c1c01458af573a0c33058117fdaf62146031c0fa media: pvrusb2: Remove unused pvr2_std_create_enum
-1d5f88f053480326873115092bc116b7d14916ba media: vidtv: Terminating the subsequent process of initialization failure
-1a27fce0fa79ef32c37f7e1b2d49357da7f2e2b2 docs: media: mgb4: Improve mgb4 driver documentation
-ca7af8040ed1a2a034d6fecd8a8c0ddbf819a1bf media: vivid: Fix requirement about webcam_intervals
-7ca9a4d9bdc30e148d3096db23e689ffe4f548c1 media: vivid: Add more webcam resolutions
-3d622ba277bdffd38c8179b5ebcea99206f39151 media: videobuf2: check constants during build time
-a898d2ea7e78614fdbfcc4c7b5ca60509deb0370 media: atomisp: Fix Wformat-truncation warning
-5edc9b560f60c40e658af0b8e98ae2dfadc438d8 media: cec: extron-da-hd-4k-plus: Fix Wformat-truncation
-32b38fbf6401e87d82f0173a772218f121257cb2 media: pt3: Replace deprecated PCI functions
-bd2ad1a08a4c65cbb4dbf30c553a57be8439df5d media: solo6x10: Replace deprecated PCI functions
-f8a1082ecb5d6e6a8c4ee2b0d465b16c1f8e735c media: tw5864: Replace deprecated PCI functions
-73fb3b92da84637e3817580fa205d48065924e15 media: cxusb: no longer judge rbuf when the write fails
-e6fd3d81dba13c7c8a244e15db0f1e37f4ed21ab media: mgb4: Fix resolution change events triggering
-a9076609e14988a0a99bb4992998e688652604b4 media: platform: cros-ec: Add Dirks to the match table
-497f1fb94759fa0c638f15c12b1ab3e586bccfcb media: nuvoton: npcm-video: Fix stuck due to no video signal error
-e2ff3200065283b795f9800b9e03a93dd0d9f7e3 media: nuvoton: npcm-video: Prevent returning unsupported resolutions
-2226b2dd42c59dff5f7de35afe5c0cc1a674b085 media: mgb4: Enumerate only the available timings
-8fc0ef066b8baa43572520725f18afffd83ce59b media: atmel-isi: use devm_kmemdup_array()
-8b807366d85092862c0233914d62a45ea32702f1 media: stm32-dcmi: use devm_kmemdup_array()
-29c71dc4c83208b32dfa55778f3a99165691cdcb media: platform: cros-ec: Add Moxie to the match table
-051e634ee4ceed611c7162ef22563c6acef591f5 media: platform: exynos4-is: Use of_get_available_child_by_name()
-5bc68bd3826e573f9a83c82c5107536cf616fea8 media: dt-bindings: Document Tegra186 and Tegra194 cec
-f83ac8d30c43fd902af7c84c480f216157b60ef0 media: vivid: Change the siize of the composing
-974a8ab3bf2f2760375fa78561f85d8726740012 media: dvb: Fix typos bloc -> block
-024bf40edf1155e7a587f0ec46294049777d9b02 media: davinci: vpif: Fix memory leak in probe error path
-a93f42c77100c3ef03529cdc558ec93bc8f49871 media: adv7511-v4l2: use constants for BT.2020 colorimetry
-bd9f6ce7d512fa21249415c16af801a4ed5d97b6 media: platform: exynos4-is: Add hardware sync wait to fimc_is_hw_change_mode()
-398a1b33f1479af35ca915c5efc9b00d6204f8fa media: gspca: Add error handling for stv06xx_read_sensor()
-6d73fcd1051182dbae5983052d2335cbb7e228a2 Merge remote-tracking branch 'media-committers/next' into media-atomisp
+578f5cbe7f89714a648e4a8510e3770153abcaf9 MAINTAINERS: Update Joel's email address
+72a573ed7c77c013a9935348da26aebf0dc40916 rcu: Remove swake_up_one_online() bandaid
+31b7ce3d98a57de80e255f5124f8dbdfb4be8777 rcutorture: Make srcu_lockdep.sh check kernel Kconfig
+75d8bf48a8bef2628243d0d76599c710412ba25b rcutorture: Make srcu_lockdep.sh check reader-conflict handling
+e73e5b7c1acd51fc5000dc476ceb76184b6ca253 rcutorture: Split out beginning and end from rcu_torture_one_read()
+9c94c5ad39182ccf8ae81a2fa4fa4e63abedcbf7 rcu: Replace magic number with meaningful constant in rcu_seq_done_exact()
+4aa6e94cf90c0d7414580bd6a936600aef8b1e43 rcu: Add warning to ensure rcu_seq_done_exact() is working
+4d949edbc4026eeb81a8f931586cfd4f1de5957e rcu: Comment on the extraneous delta test on rcu_seq_done_exact()
+f50ad4b73e1bdf7fb40566650fa11bcb438ad5ce srcu: Use rcu_seq_done_exact() for polling API
+c64509a86540786b0b318c742961c973b61049f2 rcu/cpu_stall_cputime: fix the hardirq count for x86 architecture
+97fa9f2f310be7408fb7dab261c28bff45da8b13 rust: sync: rcu: Mark Guard methods as inline
+d05a9ddd94299827dfef41a39cb68c3e479eb604 Revert "rcu/nocb: Fix rcuog wake-up from offline softirq"
+662af48419772a6e3fc2896393c07a8025e28737 doc: Update LWN RCU API links in whatisRCU.rst
+22a98eebada19346f5e357328f83dc40e4837928 doc/RCU/listRCU: refine example code for eliminating stale data
+a3204f778cf7e37c7344404768398b4f9d43a368 rcutorture: Make torture.sh --do-rt use CONFIG_PREEMPT_RT
+6c59a7c789f071dc940636bfdc3a48dd52d98b50 rcutorture: Add tests for SRCU up/down reader primitives
+0a67dd132d1d95b5bc93c6607f49ac7093e95bdb rcutorture: Pull rcu_torture_updown() loop body into new function
+c795676b5c0a4ab7f3c61fae76451f5c154f8ded rcutorture: Comment invocations of tick_dep_set_task()
+c27d0d38f2cafb70a68ca42c4105e170862aaf77 rcutorture: Complain if an ->up_read() is delayed more than 10 seconds
+3b4863a421391395fe25ef025a12f909a56bae68 rcutorture: Check for ->up_read() without matching ->down_read()
+381f0703d00c252692c32e5469eacfa35f27510d checkpatch: Deprecate srcu_read_lock_lite() and srcu_read_unlock_lite()
+73fdb61d87e65e9f58e3afd0354384f92cd1b48e torture: Add --do-{,no-}normal to torture.sh
+4d4c5b6e527a027f17da55f07b71b26365fa32b7 torture: Add testing of RCU's Rust bindings to torture.sh
+b936bc19f09ebdb91ce4221ff39aa2ace9ea7421 rcutorture: Perform more frequent testing of ->gpwrap
+35798c599309a6b17e58e0bfb738b1edc1d2b644 rcutorture: Fix issue with re-using old images on ARM64
+dc4216056eab5833aec1848ed5967adb571c6e6d rcuscale: using kcalloc() to relpace kmalloc()
+dab9d2afaa3de0c9c83f50b956ba83ffbe9e15ca Merge branches 'rcu/misc-for-6.16', 'rcu/seq-counters-for-6.16' and 'rcu/torture-for-6.16' into rcu/for-next
+46f47822cf0b1cc9e0da0d979e1b97f3234ba8b9 rcu/exp: Protect against early QS report
+c0743d119e614a1d60c83434f246422121f0f5c1 rcu/exp: Remove confusing needless full barrier on task unblock
+e3a486532673d97881f12d4c2aefbc354772d63f rcu/exp: Remove needless CPU up quiescent state report
+c59a1f1b407fe379463a91b47d96c52fc12d365c rcu/exp: Warn on QS requested on dying CPU
+bc3030bf111daa2c4c9ad1a0b0432cb363d2cf58 rcu/exp: Warn on CPU lagging for too long within hotplug IPI's blindspot
 
---===============2978899920321748576==--
+--===============0067709111515002352==--
