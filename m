@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5106254484611240241=="
+Content-Type: multipart/mixed; boundary="===============7066150286664452114=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 29 Apr 2025 15:56:08 -0000
-Message-Id: <174594216873.3760711.2344914909171084807@gitolite.kernel.org>
+Date: Tue, 29 Apr 2025 15:56:14 -0000
+Message-Id: <174594217439.3760989.18390034956682373527@gitolite.kernel.org>
 
---===============5106254484611240241==
+--===============7066150286664452114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 41fe1ffd25322d0d172919fb7983a1665ffb58b1
-    new: 1fcbfbef2b1bd06abb0fc8c026b23758976980f7
-    log: revlist-41fe1ffd2532-1fcbfbef2b1b.txt
+  - ref: refs/heads/1GbE
+    old: 49ba1ca2e0cc6d2eb0667172f1144c8b85907971
+    new: d4cb1ecc22908ef46f2885ee2978a4f22e90f365
+    log: revlist-49ba1ca2e0cc-d4cb1ecc2290.txt
 
---===============5106254484611240241==
+--===============7066150286664452114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-41fe1ffd2532-1fcbfbef2b1b.txt
+Content-Disposition: attachment; filename=revlist-49ba1ca2e0cc-d4cb1ecc2290.txt
 
 6d0417e4e1cf66fd917f06f0454958362714ef7d Bluetooth: hci_conn: Fix not setting conn_timeout for Broadcast Receiver
 024421cf39923927ab2b5fe895d1d922b9abe67f Bluetooth: hci_conn: Fix not setting timeout for BIG Create Sync
@@ -59,23 +59,5 @@ bd808ca5a0cc899eb63538c28cb139eb0a6cc797 Merge branch 'net_sched-adapt-qdiscs-fo
 425c5f266b2edeee0ce16fedd8466410cdcfcfe3 ice: Check VF VSI Pointer Value in ice_vc_add_fdir_fltr()
 713dd6c2deca88cba0596b1e2576f7b7a8e5c59e idpf: fix offloads support for encapsulated packets
 d4cb1ecc22908ef46f2885ee2978a4f22e90f365 Merge branch 'intel-net-queue-100GbE'
-11007f981a17901951b794f45eb90c0689b9765d coccinelle: misc: secs_to_jiffies script: Create dummy report
-dd32b27ce1e6dd586aad8bfbc375433cdd1469c5 ice: fix lane number calculation
-c4c805a7010f8ec21682fe461159af62a7d8304a ice: fix fwlog after driver reinit
-feccd24bc31d371757be7888231f097514ca4a15 iavf: iavf_suspend(): take RTNL before netdev_lock()
-4a7e25a3b4c283d46f1d705555cd1030ce1f65a1 iavf: centralize watchdog requeueing itself
-28fd3308ac0b8ac7ac293209ba3e7e6a668759c8 iavf: simplify watchdog_task in terms of adminq task scheduling
-10e691c659ee3d42b1fcc8d18bb1e61d9213de05 iavf: extract iavf_watchdog_step() out of iavf_watchdog_task()
-9df2e5a91ab0450e0b8c3c2ba8e54283477e98e5 iavf: sprinkle netdev_assert_locked() annotations
-4a48c3c145d9ea49c77c3c3bcb069526c8fdbbf3 iavf: get rid of the crit lock
-438ad34364c37caee102e073ea3bf3c279b4cd3e idpf: fix potential memory leak on kcalloc() failure
-345a50a66784f829a549b6b26daaba4c763e97a3 idpf: protect shutdown from reset
-ba1aeeb3dfda2f005cbc7ea5b44851a37c2efaa1 ice: fix vf->num_mac count with port representors
-b5270457a16d3f0ff2ab0088f98b3f7bbe151855 idpf: fix null-ptr-deref in idpf_features_check
-7182096f43d5721d887c12b577cdc88bf2a80304 ice: use DSN instead of PCI BDF for ice_adapter index
-4096b4090b6383ebf78c2ece54fcbb2f106ff392 ice: fix Tx scheduler error handling in XDP callback
-c8d675f0255987aadb0e06f3d413cc660343677b ice: create new Tx scheduler nodes for new queues only
-a3c1b302c004658bcc48dbd4fef712ca52a8f7c7 ice: fix rebuilding the Tx scheduler tree for large queue counts
-1fcbfbef2b1bd06abb0fc8c026b23758976980f7 igc: fix lock order in igc_ptp_reset
 
---===============5106254484611240241==--
+--===============7066150286664452114==--
