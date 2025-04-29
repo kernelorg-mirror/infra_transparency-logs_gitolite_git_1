@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Tue, 29 Apr 2025 19:38:36 -0000
-Message-Id: <174595551636.3959380.7638448306124416400@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
+Date: Tue, 29 Apr 2025 20:07:24 -0000
+Message-Id: <174595724425.3982813.12908897822609513569@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/srini/nvmem
+user: srini
 changes:
-  - ref: refs/heads/next
-    old: 64e11086feb46602a73c9bc5c792184f98885dbb
-    new: 9d4b78df5dc58ba4506e12f1cc92d3bebf0caffa
+  - ref: refs/heads/for-fixes
+    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
+    new: c708bbd57d158d9f20c2fcea5bcb6e0afac77bef
     log: |
-         9d4b78df5dc58ba4506e12f1cc92d3bebf0caffa selftests/perf_events: Fix spelling mistake "sycnhronize" -> "synchronize"
+         f1a714e1cd0d29f7b0ffa5ec404784aac15e9af4 nvmem: rmem: select CONFIG_CRC32
+         c708bbd57d158d9f20c2fcea5bcb6e0afac77bef nvmem: zynqmp_nvmem: unbreak driver after cleanup
          
