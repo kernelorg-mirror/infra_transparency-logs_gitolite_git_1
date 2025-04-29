@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3988135459046087295=="
+Content-Type: multipart/mixed; boundary="===============1566788426649527150=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 29 Apr 2025 02:08:15 -0000
-Message-Id: <174589249578.2966631.7337196054872733202@gitolite.kernel.org>
+Date: Tue, 29 Apr 2025 02:08:20 -0000
+Message-Id: <174589250061.2966906.359209696364038442@gitolite.kernel.org>
 
---===============3988135459046087295==
+--===============1566788426649527150==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: ef4308fe8e649076b36bbecef8a83ad4afd82a1c
-    new: bcdb09469073e8e450240ac777858bf2767cd1ca
-    log: revlist-ef4308fe8e64-bcdb09469073.txt
+  - ref: refs/heads/6.16/scsi-queue
+    old: 1f8eb295790001e0f498e62c186130055d3d496f
+    new: 37c15b72815b84815cd9700a42833ea11b11542e
+    log: revlist-1f8eb2957900-37c15b72815b.txt
 
---===============3988135459046087295==
+--===============1566788426649527150==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1745892508 -0400
+pusher 75C5DE3D 1745892530 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1745892477-89d8c8630fd7c396220b81d29bed44a486e4055a
+nonce 1745892498-2bd8297495f9d65949c1a4e59130972b4200f667
 
-ef4308fe8e649076b36bbecef8a83ad4afd82a1c bcdb09469073e8e450240ac777858bf2767cd1ca refs/tags/mkp-scsi-queue
+1f8eb295790001e0f498e62c186130055d3d496f 37c15b72815b84815cd9700a42833ea11b11542e refs/heads/6.16/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmgQNJwACgkQ7ulgGnXF
-3j0pDQ/6AzWF/1uyyU1NaH8OvdZlbRm+cTSsuG+UMqu5QcYzAC8GQi+rmQdKHvPu
-9ELY3RUPNSNmYaehfSdVeTrZsThPb7Mawqa6SR49cDnYwfI9uxabGN84c4LveoAA
-4hl2tgPBDdmMohI3TvTy3+Eiki49tQAQJv7jnOiM3C9ed88GfHednI51SHGsZ6QD
-tpMGExs/qn8YASm2AM46hNjAAbaWUhu4FApwMlGMgnLYQLCHpkXqJ4CVTA7yjwcD
-YZfj0BGlB1f1LHxI9tbU0biCg8/1bXtHBG0S9GF9oVqjvimIbwfKwnsFnH7oxpvb
-OlXRKGB9VWpO8NPew9LRqGz9c54Ns8lW/AVvX60MrYAQK81I5IAaNk2Dz+EOfrtT
-CXfxhC52FDZHJn034rDhsChjapnliKaFHNonhGp2kZncwaYQ1wzGP6HwORquUY67
-/I6grRz3YYJUqF6YWZyabnK14qIldqPf8gY5bkyuYoi5TDBdE6+tEXH2TD4O4WGS
-Bw8d7rI5e5J/xOa1Jg/3hxK9b1XqYhcmQnPTEEijZzrg0mndI3DpYRkE0ja/GbI5
-l0ehHO5hYR4OAmsrWr+Z9J1UderjylwemXlf2rJht0zuoTNzlI7Dc60rsFnhIomG
-HkDc1BZcavEqbMEqYgnMmVxMAAgEcbN3H35hLeQ0JS/TeMlHvxs=
-=1FYh
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmgQNLIACgkQ7ulgGnXF
+3j1kEhAAjTcxE7Bv15+sWHBQU7Aojcdcadl8BE1PpZuj98o83ypqSzO82+kxrU7K
+45/t/bptiGfuSVeMrsgTpXPXzCgQIaCAZkGVTvCxZFjBDqwrqWFLeS8qsiH5wWr5
+/vG32BfztcVVBFt7fAKsnlsBiPm0g4bBbOQR5MAWdM5HWYlOMAvoEAMRfgCqWszn
+uIceoy+gMPUxsAJcqzQO3gFVQCaClyeY/zWvNUc6fhVjuydeXukChOwvnI2Kupta
+IsEdZA4o8Fx+PhiEdRkttA9Dos7l8+O9zUcTsnD18L8ER40L3FAUkKvjxlhsTedz
+TvWHU4xc5imtuZx6D8UE0qKebbI3Zpx0CIHzzwLfCppEaghLMvvnRMHDmSTLKdJm
+Ti59u9VUi9Hq1N5KPdW2QeQc1+0VSgN/U40GeuqlQBWszd44vKenWy9ZWIZ07cQZ
+g7WGs9+Xo2KVFfbELw3XZycq2LKvP+YU/qqLpNfC3mp5f0DWBk/pSkMw/rU9bqpR
+UW0/1/c60LqAGiVFSLH6emFnH7RCo2/PDzlW5luqodrPsSZ3BR7sIUMz3QqVosCB
+9/7NAFq/G28gPE90L60v/4mEvsNO2XvN8EvxmHpz4qjc5UcAuJSCE7WiL3/7QM19
+iYVuO4stncEHyLt2BchapEQiHqvmk43V+TJx0G3fjCyAvW6HUCM=
+=soym
 -----END PGP SIGNATURE-----
 
---===============3988135459046087295==
+--===============1566788426649527150==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ef4308fe8e64-bcdb09469073.txt
+Content-Disposition: attachment; filename=revlist-1f8eb2957900-37c15b72815b.txt
 
 c8c70ff3a766a077e5b3a717e91722638d50e2a6 scsi: scsi_transport_fc: Rename del_timer() in comment
 7a497d1649a9d2af1b9d184eeef4c7e63efb022c scsi: mpi3mr: Fix typo and grammar
@@ -76,4 +76,4 @@ cbb2a2ef58019409e5fc775ccd024ea21d58f17b scsi: qla2xxx: Remove unused qlt_fc_por
 79034ca229843ffe6390a9e46668758e4364b796 Merge patch series "scsi: qla2xxx deadcoding"
 37c15b72815b84815cd9700a42833ea11b11542e Merge patch series "scsi: qedi deadcoding"
 
---===============3988135459046087295==--
+--===============1566788426649527150==--
