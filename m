@@ -1,202 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Tue, 29 Apr 2025 14:17:51 -0000
-Message-Id: <174593627182.3667769.15105441058089932457@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3457183695461282479=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 29 Apr 2025 14:19:48 -0000
+Message-Id: <174593638807.3669316.16694411368090931595@gitolite.kernel.org>
+
+--===============3457183695461282479==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/amlogic/drivers
-    old: bbd6fcc76b39502767e213ad24a349205cf75e96
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/amlogic/dt
-    old: dbf921861985c8d1db339bc8ad0652b9064f2f84
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/amlogic/dt64
-    old: 67c2799bf11fd0f1323579dead240bfda5b6a3b6
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/arm/fixes
-    old: 45d5fe1c53baaed1fb3043f45d1e15ebb4bbe86a
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/asahi/drivers
-    old: e210227f0259d2666cc41b28ed1b7b0b0a99ed4d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/asahi/dt
-    old: ca96d759d8d24d90b1726c2cc7c568ff4728bb42
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/asahi/dt-2
-    old: 44db68dee1f77260d7037319e911e9883a6ffe0e
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/asahi/dt-3
-    old: e1bc21d8f8fde47173073a2d6233f5faa4864cfc
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/at91/dt
-    old: 6aafec3d215f59e8c4b00d0c2a97988ed5edbb2a
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/at91/soc
-    old: 8bd10f002411c9ea947edc0af18ad81f789e28d5
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/davinci/dt
-    old: 58abc69e479cf5b36c4fc4287a11c9d92d2ce4b8
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/drivers/memory
-    old: 90a0fbaac4a588a1116a191521c3c837c25582ee
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/drivers/reset
-    old: c361baf67200a79c878d72cc879b1217c52cec96
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/dt/cleanup
-    old: 854a080f0b73ff966a813ec2dc53891831daa28d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/firmware/ffa
-    old: cc0aac7ca17e0ea3ca84b552fc79f3e86fd07f53
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/firmware/scmi
-    old: d069c33f5ce2fe8f13489ba396080fcf28c10f60
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/firmware/smccc
-    old: 5f9c23abc47744f2578af4a362655c31254c93b5
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/hisilicon/dts
-    old: 8095a17b0ace09a280a5954096701b883dcaa135
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/imx/arm
-    old: 4f8ec94af325d501904d7e86363bd162004161bd
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/imx/drivers
-    old: d3ad803a97c7f53d872eb3e9782c2286cae6954b
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/imx/dt
-    old: 082f59a62474fbffe7e952082f6d265f11bc37a0
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/imx/dt-bindings
-    old: 401735c5f28f41561f60dc11b67520479694f422
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/imx/dt64
-    old: 5a690619426fc4b09c7fd3f40d3a69264ef3db0f
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/ixp4xx/dt
-    old: 3dceb794c09d5f2c474628de45f146b59a8d985d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/juno/dt
-    old: 21b9f56cec8f8918b5bbb900d6d86eaf06d54537
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/k3/dt
-    old: 377fde74eae4abcbcd5475676d58fb595a07ff85
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/mediatek/drivers
-    old: 1e12efbee8f3fe09d23ad75d2e38a6335ca2d159
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/mediatek/dt
-    old: 4c8ff61199a70e73e6c4d5e8a03f02d32730821c
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/mvebu/dt64
-    old: ed9c2b28ebef3333f25cefdc2ef37ee1f05cad95
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/omap/dts
-    old: ea07a4775df03852c353514b5b7646a17bd425be
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/qcom/defconfig
-    old: dd20903cc09ac40e71096370a9564e6523e87c22
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/qcom/drivers
-    old: 2e14c17a2e3d697bef6b5bf49b253d6e52f3d186
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/qcom/drivers-2
-    old: 65f330ade7daec740ed8dbdf33ccfbfcc5fbf5c8
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/renesas/defconfig
-    old: ff5a81e0178e5c032ac9700093f4877632d28c0a
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/renesas/dt
-    old: 5f7ebb81112c3f50ffbb8e576e4d35cedd8aabb1
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/renesas/dt-2
-    old: 8bf8ad268e46403c7140ea5aaa85e9c659117dbc
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/renesas/dt-bindings
-    old: 00e3cb0d638ce70391470f894820d8442a155e95
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/renesas/soc
-    old: 490a6291b17fbc65e31c54a0fd9301669ad283c0
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/resnsas/drivers
-    old: 25a5246b0e564d238e917b5a3684171718c950fd
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/riscv/dt
-    old: 38818f7c9c179351334b1faffc4d40bd28cc9c72
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/rockchip/defconfig
-    old: 97d8fe4b7722104b9abdb9cbeb0e884f864c6477
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/rockchip/dt
-    old: ba82f56bbf20e4166c988621cd0507509872848e
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/rockchip/dt64-2
-    old: 73d246b4402c3356f6b3d13665de3a51eea7b555
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/samsung/arm
-    old: c8222ef6cf29dd7cad21643228f96535cc02b327
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/samsung/drivers
-    old: 8f299df1b75ad0939f1340182c265de019eab438
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/samsung/dt64
-    old: 056106b030b73c7d53749469bd1cdbc89b4d2daf
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/soc/arm
-    old: 46367f09b2203f7c63f89293aea9279b875d0ff2
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/soc/defconfig
-    old: 701340d3b78bcd72fee54aa481b5a4ac84c7ff2a
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/soc/dt
-    old: b82310b5729ef3ca0aefdc0cf0c575d52f227235
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/sophgo/dt
-    old: f047a9285f9f3fd5c0d5ae53af350b8b619e470a
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/spacemit/dt
-    old: 5b90a3d6092d9292d3c4fe4eef8969282e070ae3
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/stm32/dt
-    old: 65954899a157832f68536b488194cf698248a26e
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/sunxi/dt
-    old: a8181e6861fec3068f393d77ff81b2aaf4ea4203
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/tegra/drivers
-    old: 5e63dfe213d01cdf0bb2786ae3d5ac613182a433
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/tegra/dt
-    old: 237a868d30e7a744b64479ff98ad86b2e3008943
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/tegra/dt-2
-    old: 65d691a4400e111e8bb2422a5f4f28de34298be7
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/tegra/dt-bindings
-    old: 294630d81ad65333e5d4ad3efcb82dcad6177e6b
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/tegra/firmware
-    old: 27321c788b3aa238af3c3234dc722a30b62d8dcd
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/ti/defconfig
-    old: 75a41c26351a77cd5dd01e14d059eaf11358689c
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/ti/drivers
-    old: 9a9b7cd77b2427d0722fe52301fa270690928989
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/zynq/drivers
-    old: 5abc174016052caff1bcf4cedb159bd388411e98
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/zynq/dt
-    old: f0ceedd52a69a8bf63778b1fe9e1c10e02ecd3fd
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/zynq/dt32
-    old: 6fd90200aae269daa2f0e86be7bf50246837f9f4
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master
+    old: 17c100b15917bd4cdf260c161f1ab8a05b22ce1b
+    new: 75798003a22007b937bf52ed86d8c708c2f704dc
+    log: |
+         75798003a22007b937bf52ed86d8c708c2f704dc 5.15-stable patches
+         
+
+--===============3457183695461282479==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1745936418 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1745936384-2760cbec1f02af8eb3935a026ed843ec7cfea6e8
+
+17c100b15917bd4cdf260c161f1ab8a05b22ce1b 75798003a22007b937bf52ed86d8c708c2f704dc refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgQ4CIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EscP/i1daOij2+KHFcEpP9D9
+MDLSk5qgwG9NzBztg7DABCRBKFmCShf4waXwMndWAABac0pCcRBfXpraWDB4ZlJK
+d7ppcfj9W6wB4hGGBVa/h64GJ/ZDAMtwbktxotqYIjV0C+iyBFv7uIN0eNWM5RSk
+YzSdMycmZgJVdSta1TpAEKuOePc7pWPGNdNZJ7153Tn5W44rCKuqHoJvZs5RXEXe
+VPLQfGr7jUWkEzwO7cqDJp5JMkgPGeX9KfTid9oky2/hj3wJGleT0LKdYCJGTTbw
+yAU7LJrwU+5ZhGwPh8n0SDsN/FEmh80oIemydiR/qPvWPFXpDW8iahkoYtCPUZGY
+4AOjaA4fH0QYgikkNoWeLQ3bFCbkvboRscGjDjlXzOzFFtT0aHDSkoTqR6ET8PUK
+8eZHNOmvubdzL8H9t1yAKjJ+3mRyawGsy2KZOcBj3Js8gmS4Z/YgDPcB4e2kn4cy
+R8xcn2lq7q+dRL26PTkzZzz0O+LWiDTEV8fHzn8HFZ3XgcYZSGfM4Gf55lKXnoeo
+iHdmxvDKvIxIa91RQsTGLMg8XfwSQkDaofaqwbUXwEhx4WGq59WpgUYkZKWYY5c1
+vI1WTL/0b/oK58P+pAq3CcLaF7J+MB4lQ1fGZ4caBTdRwbOKDPlBkoO4Dosb95gn
+Y63bebqHT8lo2zQ5gbsX7xZ8
+=yPkY
+-----END PGP SIGNATURE-----
+
+--===============3457183695461282479==--
