@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5136758455667135192=="
+Content-Type: multipart/mixed; boundary="===============8502733604645626483=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 29 Apr 2025 07:42:02 -0000
-Message-Id: <174591252273.3247136.2566250042580100696@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Tue, 29 Apr 2025 08:00:33 -0000
+Message-Id: <174591363365.3262808.17152735076422061270@gitolite.kernel.org>
 
---===============5136758455667135192==
+--===============8502733604645626483==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/master
-    old: 2b8b8ec509f197c2cfbe9180a2d452293f4716e3
-    new: 4629ae5c0f64edf6f0cef60b9a1d1e361616fe14
-    log: |
-         4629ae5c0f64edf6f0cef60b9a1d1e361616fe14 6.12-stable patches
-         
+  - ref: refs/heads/dma-split-wip
+    old: 8f294854838963019f80f941618194cd4a9dcf7f
+    new: 69fd02b5e2b024ca0dfe873673ea9907a167deb1
+    log: revlist-8f2948548389-69fd02b5e2b0.txt
 
---===============5136758455667135192==
+--===============8502733604645626483==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-8f2948548389-69fd02b5e2b0.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1745912552 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1745912518-48ae0baa614257e38b914cdc4dc6b3c9f907e1ba
+ac14a0e94355bf898de65d023ccf8a2ad22a3ece PCI/P2PDMA: Refactor the p2pdma mapping helpers
+09b90e787d1bb16429642350515cf364cd92530f dma-mapping: move the PCI P2PDMA mapping helpers to pci-p2pdma.h
+cfbf39a52fdaf0aa8df799f8e6b65e811ba1eb5a iommu: generalize the batched sync after map interface
+7535d8f4364c5413293bb963c41f18298d2344d0 iommu: add kernel-doc for iommu_unmap_fast
+0b56de6f3e50550a14fd21c98ab3a37d8668cd65 dma-mapping: Provide an interface to allow allocate IOVA
+6e45705027d0a90014dc253aedaee92db7f4be1f iommu/dma: Factor out a iommu_dma_map_swiotlb helper
+41f0281051375512df1304abed642dcea2ae1e6b dma-mapping: Implement link/unlink ranges API
+11ca5400460fa195692bd413387b06ac484e03b4 dma-mapping: add a dma_need_unmap helper
+a3a7009a0b75b4087e9edc903f6dc3ed3ff5a0a1 docs: core-api: document the IOVA-based API
+784bc4995940291acc51d864c3d00369f03579b7 mm/hmm: let users to tag specific PFN with DMA mapped bit
+76ff7903d7c0642547985a11b15990faf53ff650 mm/hmm: provide generic DMA managing logic
+ade6b15fc0c28f68b24859ab0fdc87a61a4095a1 RDMA/umem: Store ODP access mask information in PFN
+74e7ea5bc2a2ae3fc87bf26cf788dd4a4d61c228 RDMA/core: Convert UMEM ODP DMA mapping to caching IOVA and page linkage
+3efd420b7448dd6b7630af03bffd4ac736e16edd RDMA/umem: Separate implicit ODP initialization from explicit ODP
+b1e41375ffd8ae99e08d304055bae178c0c26fb9 vfio/mlx5: Explicitly use number of pages instead of allocated length
+9850f1a3a171e639ed7b847566c14f10d94c0d81 vfio/mlx5: Rewrite create mkey flow to allow better code reuse
+e50948a5ade656d105fad46e8c5f7555630cc9fd vfio/mlx5: Enable the DMA link API
+c89e3283491d89250fc82ea433936d77f1a9fcd4 block: share more code for bio addition helper
+4f94cd7cc38a33ae8b24ffca9476c0f9b108321e block: don't merge different kinds of P2P transfers in a single bio
+165f8dcce09001f45214ecec8104f18490ef1f71 blk-mq: add scatterlist-less DMA mapping helpers
+6eb4aa81de5da69e7b459b5cf20db7c4725ab3a4 nvme-pci: remove struct nvme_descriptor
+2673e01151f26b25fd3e3b7528094c136bdb1313 nvme-pci: use a better encoding for small prp pool allocations
+ea6e2c77678ebd9a8410e5f1db4c2c343eb11f9c nvme-pci: convert to blk_rq_dma_map
+aa533e7da4ceb1ae947f1c68be284c42f4c88bdb nvme-pci: store aborted state in flags variable
+f880b03b98cc4c06f9372ca27d899d8781c97c94 swiotlb: Enrich message about buffer overflow
+69fd02b5e2b024ca0dfe873673ea9907a167deb1 compiler.h: Avoid the usage of __typeof_unqual__() when __GENKSYMS__ is defined
 
-2b8b8ec509f197c2cfbe9180a2d452293f4716e3 4629ae5c0f64edf6f0cef60b9a1d1e361616fe14 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgQgugbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0woQAMjOjHLwdUJ1BkqTrNvT
-oIWJeSHOJg6xITeOeg7qyS4Mh57frUQ9p47LAHXIr+QXPmg5mNXEaAhObbWoe7Qo
-mHxpreophOmTEcavfBSQfhbVWBLIQ9xWZ84QEOCs7+8IAFz7nWpzNetRw4RNV4lV
-B0UUW5KPPjgrTuuafIZpbF2O3AzUxExzIdumOb7E7i6QU6KevPcjuf9Wzd6SNHi4
-fsg84nZSZAcThsh2W8QBddy+DVbzmIhDCqKUXHs3STS1CL8vHmqC5t3oMz2eXu6A
-VZvkph1/JDInHm4anZn/uC8ELs/qQy5GMw2LQ94/An+Qo9QIkfCLZwnq2Hw/QGni
-FLlXsQ/u0rWpZSRmktvuKHDUqwhUkg9KknFabHQ8aJybuVY47xT0OhXv32I2Knlt
-EhzJT0hx6yXQQSO+4Nt04S9hpBZIR4spePT33r3hLSz8ITP8zb/2foNiR2D9kR5H
-tV2KgarRGoCaUOqokiJ0jLW0re77hP2toxajHvwcw2M9YWqRq0cP2Q1vPSzADFFg
-D1yWblsMhPbYcTjOyHVXzvwT+LHU4rlq2EYtlY49pETmrt5TzuoD5erIInOJOOQd
-lx0b/qQYeh4scGyK4dPej7CXVvRyWQqAWCzPHYu+VcsPmUNsdkdzyzGArDBb6EY6
-+zV+6t4CHOiLHxSFDCSnYaof
-=oAxP
------END PGP SIGNATURE-----
-
---===============5136758455667135192==--
+--===============8502733604645626483==--
