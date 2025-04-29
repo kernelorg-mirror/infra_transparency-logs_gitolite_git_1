@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3252004737837243777=="
+Content-Type: multipart/mixed; boundary="===============8562092082601885818=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 29 Apr 2025 15:56:19 -0000
-Message-Id: <174594217944.3761251.13662574553914136818@gitolite.kernel.org>
+Date: Tue, 29 Apr 2025 15:56:35 -0000
+Message-Id: <174594219522.3761723.9723956195386292868@gitolite.kernel.org>
 
---===============3252004737837243777==
+--===============8562092082601885818==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
-    old: 49ba1ca2e0cc6d2eb0667172f1144c8b85907971
+  - ref: refs/heads/100GbE
+    old: 5e33d155765288066fbc0c6160e61361dabe5160
     new: d4cb1ecc22908ef46f2885ee2978a4f22e90f365
-    log: revlist-49ba1ca2e0cc-d4cb1ecc2290.txt
+    log: revlist-5e33d1557652-d4cb1ecc2290.txt
 
---===============3252004737837243777==
+--===============8562092082601885818==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-49ba1ca2e0cc-d4cb1ecc2290.txt
+Content-Disposition: attachment; filename=revlist-5e33d1557652-d4cb1ecc2290.txt
 
 6d0417e4e1cf66fd917f06f0454958362714ef7d Bluetooth: hci_conn: Fix not setting conn_timeout for Broadcast Receiver
 024421cf39923927ab2b5fe895d1d922b9abe67f Bluetooth: hci_conn: Fix not setting timeout for BIG Create Sync
@@ -60,4 +60,4 @@ bd808ca5a0cc899eb63538c28cb139eb0a6cc797 Merge branch 'net_sched-adapt-qdiscs-fo
 713dd6c2deca88cba0596b1e2576f7b7a8e5c59e idpf: fix offloads support for encapsulated packets
 d4cb1ecc22908ef46f2885ee2978a4f22e90f365 Merge branch 'intel-net-queue-100GbE'
 
---===============3252004737837243777==--
+--===============8562092082601885818==--
