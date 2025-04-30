@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4487689975424507226=="
+Content-Type: multipart/mixed; boundary="===============2236052627044401297=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 30 Apr 2025 15:07:21 -0000
-Message-Id: <174602564135.749605.9699163206416962480@gitolite.kernel.org>
+Date: Wed, 30 Apr 2025 15:07:23 -0000
+Message-Id: <174602564368.749696.1903473066058421074@gitolite.kernel.org>
 
---===============4487689975424507226==
+--===============2236052627044401297==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: d4cb1ecc22908ef46f2885ee2978a4f22e90f365
     new: 0a7bc4d6b04bed1257faf9502f9b4076bac466ea
     log: revlist-d4cb1ecc2290-0a7bc4d6b04b.txt
 
---===============4487689975424507226==
+--===============2236052627044401297==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ ea9376cf68230e05492f22ca45d329f16e262c7b bnxt_en: Fix coredump logic to free all
 02e8be5a032cae0f4ca33c6053c44d83cf4acc93 bnxt_en: Fix ethtool -d byte order for 32-bit values
 0a7bc4d6b04bed1257faf9502f9b4076bac466ea Merge branch 'bnxt_en-fixes'
 
---===============4487689975424507226==--
+--===============2236052627044401297==--
