@@ -1,47 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============2519495151438502043=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 30 Apr 2025 23:08:42 -0000
-Message-Id: <174605452211.1161593.11042560021972837014@gitolite.kernel.org>
-
---===============2519495151438502043==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Wed, 30 Apr 2025 23:09:03 -0000
+Message-Id: <174605454370.1161976.4012128567346758354@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regmap
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/regmap-6.16
-    old: 0000000000000000000000000000000000000000
-    new: d30e845b0ae63400738709ca624a4a7bb69c4ba2
-
---===============2519495151438502043==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1746054550 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1746054520-ad75f2748173c282581754f0cd61cc5e63a86c56
-
-0000000000000000000000000000000000000000 d30e845b0ae63400738709ca624a4a7bb69c4ba2 refs/heads/regmap-6.16
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgSrZYTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0NezB/0WgTuS70x4c7zkPUOgukvZrpMVBPKO
-b6fXB/x8XhIJEuWRAiM+YS0XB0jwVRVnpGL4TFcpHpsYOqQ7/oSQ5P73uRsNOU5l
-deoP2R9ZNYmHamRwCEw5XCd5XLHDwlmrmlL3oe+kv0ZeULyindmmM5NrHNrjMIOa
-klHRtdtAAxB+tpRJtyfw84hQQjwEVRxUhgt9XzVGN6B0XJcu3xJg63HVSKItGNVn
-DIoLy/nZuU14p22Nn25NaL+C0ubbBaNtI8syfdv+GO/HVWzPT5stTF7fEj6mxDTI
-DbcghTatsO9hfUxmCxg0NrJbRDFHG+bGn1LOD4H+Ecfe9E4/5MWktNTo
-=2HYh
------END PGP SIGNATURE-----
-
---===============2519495151438502043==--
+  - ref: refs/heads/for-linus
+    old: 6ea36a3e12c5ee0806761659972912de37af4e95
+    new: 433a06b68324f87f6ee9a2bdcbf3426cb1fb0dc4
+    log: |
+         433a06b68324f87f6ee9a2bdcbf3426cb1fb0dc4 Merge remote-tracking branch 'regmap/for-6.14' into regmap-linus
+         
+  - ref: refs/heads/for-next
+    old: 2385ba6d1dc4705616b658419bae09ca0702cbbc
+    new: 631f2288a412cf410af0a956cfeea9a5fde98757
+    log: |
+         d30e845b0ae63400738709ca624a4a7bb69c4ba2 regcache: Use sort()'s default swap() implementation
+         433a06b68324f87f6ee9a2bdcbf3426cb1fb0dc4 Merge remote-tracking branch 'regmap/for-6.14' into regmap-linus
+         fedc486a25cdd38f795541acf76de0e36511a6fb Merge branch 'regmap-linus' into regmap-next
+         631f2288a412cf410af0a956cfeea9a5fde98757 Merge remote-tracking branch 'regmap/for-6.16' into regmap-next
+         
