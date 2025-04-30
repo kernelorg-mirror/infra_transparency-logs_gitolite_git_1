@@ -1,42 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============3948671735489114598=="
+Content-Type: multipart/mixed; boundary="===============4837834612364422867=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Wed, 30 Apr 2025 08:28:09 -0000
-Message-Id: <174600168958.405109.10669902739298555395@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
+Date: Wed, 30 Apr 2025 08:29:55 -0000
+Message-Id: <174600179561.406656.10330232968242230947@gitolite.kernel.org>
 
---===============3948671735489114598==
+--===============4837834612364422867==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/pinctrl/samsung
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: d1d52c6622a61a0ae8dd2bd2097b25c0f553d2f3
-    new: 127da457c4e01bd6e4b8a126aaf1be1a6c03fc0b
-    log: revlist-d1d52c6622a6-127da457c4e0.txt
+  - ref: refs/heads/pinctrl-next
+    old: 0a5b9be31f78898c7d6e7778377e8ab6ab0399d2
+    new: a30692b4f81ba864cf880d57e9cc6cf6278a2943
 
---===============3948671735489114598==
+--===============4837834612364422867==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d1d52c6622a6-127da457c4e0.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-57bbc60be45b750073acc7d94aaccc4e652319a1 gpio: imx-scu: don't check the GPIO range
-dd6d13abb4c363f49ddca2697a781945cf80ad89 gpio: imx-scu: use lock guards
-68ef71400d0e7a9049c36cd0954ecc67521b0bc8 gpio: imx-scu: destroy the mutex in detach path
-40150dda92cd8718a367a32ac345dce05f788a16 gpio: imx-scu: use new line value setter callbacks
-ef877a159072ca31ed183b086c41fb9951521886 gpio: it87: use new line value setter callbacks
-3444049044ce24c2a2bc98c6e30d189451147b63 gpio: janz-ttl: use new line value setter callbacks
-0c5fa4ee5a2256cd2d37bd0d0dda5d4fbbb30281 gpio: kempld: use new line value setter callbacks
-722332f58aa82b92c857b053426dd46e09988e38 gpio: ljca: use new line value setter callbacks
-ba2ce44332142a86bb0e9246d40b97d6cc191c5d gpio: logicvc: use new line value setter callbacks
-145c4d7052fd15d20e5165305b3296a026a40747 gpio: loongson-64bit: use new line value setter callbacks
-7d34d9fbab771779a2b365934fdafff32bddd029 gpio: loongson: use new line value setter callbacks
-127da457c4e01bd6e4b8a126aaf1be1a6c03fc0b gpio: lp3943: use new line value setter callbacks
+certificate version 0.1
+pusher krzk@kernel.org 1746001825 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
+nonce 1746001793-e3a6dda7b01701e2004e733a310e6e832dd005ce
 
---===============3948671735489114598==--
+0a5b9be31f78898c7d6e7778377e8ab6ab0399d2 a30692b4f81ba864cf880d57e9cc6cf6278a2943 refs/heads/pinctrl-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmgR36EQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD13ZOD/9gnUyshKgKQH7jFi22+0V3BPGGhoiBujwj
+toJXZuMIz/o82J5exmGwPRdB0EwIm6seDClf7bUYye21vDpFjdD22N3P7yPF8koB
+0c7hUQ6fMFWDLywbYvk5bUX7+b5VwKWCcm9lR2xvqlsuE+KLyYXb41/ELVfKZYqo
+VYW8ZgNYruafIfPdfQfpnfucpBtFOeKwbJGydZX0Fe55Zvo4OpywAFqq/y21Je4+
+PK3NwB5j9O9MwdLuT/bRLamLElgtKGr0UnDIPxTNg7LzkahYfPXiacUSpC9lUv4g
+cjWx3Y9fPo/xQ42aGpeUC6uouE5/Xi8RYReC9eKShqBqWF7ABx2+BNUs+cBaxbqA
+9p7Cs7QQFbtl9naQIsAutT9RXcnLs1BdnN/aZcPUOHwCyZdXzI0FWhKm7sWnt3Zn
+EP7U2pVySdEeTmV4lTS/aaR7Xu77DZlOXwqocfGe5YVtf348VKN4F86iFmeL73T/
+vxMjcidgHVE0uhIgNDTLhYoXG4dw+pvNGMQEvnfKjBeLCi2Ju4zJRbyLn7/ANjTv
+phrPwFXJjS+4c9dRohClzp+GU5ts58n+B/gioKDupJ1yM/HdTWrHrZj5AiC9PO/4
+zSes50pma/xXI4vOuBR6cdS4U88E6bb/SEfYk6pniSimXavzHwgVLiDCt9QHt22u
+LK6045Zr3w==
+=7l5D
+-----END PGP SIGNATURE-----
+
+--===============4837834612364422867==--
