@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6326021994991714010=="
+Content-Type: multipart/mixed; boundary="===============4871163751286827784=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
-Date: Wed, 30 Apr 2025 19:51:39 -0000
-Message-Id: <174604269967.989928.11371544092727748864@gitolite.kernel.org>
+Date: Wed, 30 Apr 2025 19:52:13 -0000
+Message-Id: <174604273377.990481.16324446813454365468@gitolite.kernel.org>
 
---===============6326021994991714010==
+--===============4871163751286827784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/srini/nvmem
 user: srini
 changes:
-  - ref: refs/heads/for-next
-    old: c708bbd57d158d9f20c2fcea5bcb6e0afac77bef
-    new: a5d9b82ff4ed1d3697160d6cb1fabefe7c95818e
-    log: revlist-c708bbd57d15-a5d9b82ff4ed.txt
+  - ref: refs/heads/for-6.16
+    old: a16627c4679352fa29b3bf7a60646f2889ce6549
+    new: 8d2900cc141122ad3a754d6d86cd15a9a4bf0b74
+    log: revlist-a16627c46793-8d2900cc1411.txt
 
---===============6326021994991714010==
+--===============4871163751286827784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c708bbd57d15-a5d9b82ff4ed.txt
+Content-Disposition: attachment; filename=revlist-a16627c46793-8d2900cc1411.txt
 
+f35508b93a2fc127a8d185da2e5beade2f789977 irqchip/irq-bcm2712-mip: Set EOI/ACK flags in msi_parent_ops
+1296dcbad2316882f98559762b518eaa6aefcd92 dt-bindings: xilinx: Remove myself from maintainership
 8b37357a78d7fa13d88ea822b35b40137da1c85e x86/acpi: Don't limit CPUs to 1 for Xen PV guests due to disabled ACPI
 4808595a9922e89726ec5611d7749b63966b7fa8 tracing: Hide get_vm_area() from MMUless builds
 f2f29da9f0d4367f6ff35e0d9d021257bb53e273 x86/e820: Fix handling of subpage regions when calculating nosave ranges in e820__register_nosave_regions()
@@ -1048,7 +1050,5 @@ b4432656b36e5cc1d50a1f2dc15357543add530e Linux 6.15-rc4
 1656ca6bf14d582c05a99088e0f55265e76431e1 nvmem: Remove unused nvmem cell table support
 342ad99689be22776c50ab5d82064b700e516a98 dt-bindings: spmi: Add Apple SPMI NVMEM
 8d2900cc141122ad3a754d6d86cd15a9a4bf0b74 nvmem: Add apple-spmi-nvmem driver
-4d43fa900eddb750640ae8a1f90b9e392b868658 Merge branch 'nvmem-fixes' into nvmem-for-next
-a5d9b82ff4ed1d3697160d6cb1fabefe7c95818e Merge branch 'nvmem-for-6.16' into nvmem-for-next
 
---===============6326021994991714010==--
+--===============4871163751286827784==--
