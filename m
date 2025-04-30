@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2462639433114242772=="
+Content-Type: multipart/mixed; boundary="===============7514047252421848893=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Wed, 30 Apr 2025 21:20:44 -0000
-Message-Id: <174604804409.1067131.12116981324731583194@gitolite.kernel.org>
+Date: Wed, 30 Apr 2025 21:24:32 -0000
+Message-Id: <174604827260.1069334.9786034077672771284@gitolite.kernel.org>
 
---===============2462639433114242772==
+--===============7514047252421848893==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,31 +16,50 @@ repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next/seccomp
-    old: 8ffd015db85fea3e15a77027fda6c02ced4d2444
-    new: 797002deed03491215a352ace891749b39741b69
-    log: |
-         797002deed03491215a352ace891749b39741b69 selftests/seccomp: fix syscall_restart test for arm compat
-         
+  - ref: refs/heads/for-next/hardening
+    old: 788d882e609feab58b17b3d4fbf626400476de73
+    new: ae8f6f65497404d066a0db161733984342980697
+    log: revlist-788d882e609f-ae8f6f654974.txt
 
---===============2462639433114242772==
+--===============7514047252421848893==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1746048074 -0700
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1746048301 -0700
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1746048042-96372aa5a7da61694257cab7929948e7eace5f41
+nonce 1746048269-0733bc75d6a43a527e500cac64df38d041cba7a5
 
-8ffd015db85fea3e15a77027fda6c02ced4d2444 797002deed03491215a352ace891749b39741b69 refs/heads/for-next/seccomp
+788d882e609feab58b17b3d4fbf626400476de73 ae8f6f65497404d066a0db161733984342980697 refs/heads/for-next/hardening
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCaBKUSgAKCRA2KwveOeQk
-u4+dAQDc50K8ptwxg4pAUVRsdb7TGAjTnvNa3QoxchNt/CRo1wD6AllzVx4dF6Ld
-4xfNud3aWBt1LtvtD8VJa8itgFH/EQ0=
-=Ayi6
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCaBKVLQAKCRA2KwveOeQk
+u85zAQCwMzyBohocg/rMx3zIF50ny/Prj6eQyFRdoaNeoZmwNQD+P/w0T0WJSYSJ
+YYz+5YJwLK5zTxwZblhdT/X7z+qYDQM=
+=IIwq
 -----END PGP SIGNATURE-----
 
---===============2462639433114242772==--
+--===============7514047252421848893==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-788d882e609f-ae8f6f654974.txt
+
+b75f35406ddf2c2b26467f413206bbf143e3234f lkdtm: use SLAB_NO_MERGE instead of an empty constructor
+5caa31ec83cd83d9b54ba4ab3f1fc15912039b47 gcc-plugins: Remove ARM_SSP_PER_TASK plugin
+7ff447b040219fbc10122fd450c3bbd91cb7a04c kunit/usercopy: Disable u64 test on 32-bit SPARC
+336d83e00160cf81444795cc6928addc462c7a1a compiler_types: Identify compiler versions for __builtin_dynamic_object_size
+fd5e2f811beddfe1cc1ec864b635b5792c95ffc5 overflow: Clarify expectations for getting DEFINE_FLEX variable sizes
+3106e0db92d4a551cf2983ed5f5c6c9194ccde68 kbuild: Switch from -Wvla to -Wvla-larger-than=1
+d36fb763993b107aaed55a402514a10b14ee71fe mod_devicetable: Enlarge the maximum platform_device_id name length
+c7336b79f26a573eecc85438e54e5783943971f4 watchdog: exar: Shorten identity name to fit correctly
+8b04bab662551f12f906dbd4045c4ac4231b1d37 input/joystick: magellan: Mark __nonstring look-up table const
+6d6d3c8db96e4245a07ece38ebd8cb43ca489daa md/bcache: Mark __nonstring look-up table
+8f9dcb49b94e26eddf1b0b8bd66b1d9f6ade7d9d randstruct: gcc-plugin: Remove bogus void member
+6bb069e36c35e00692d997a1daa7e3d1ec9b7368 lib/tests: Add randstruct KUnit test
+739052c064a8a0cf1b82b77cfa2fa01ee45b0efb Revert "hardening: Disable GCC randstruct for COMPILE_TEST"
+ae8f6f65497404d066a0db161733984342980697 hardening: simplify CONFIG_CC_HAS_COUNTED_BY
+
+--===============7514047252421848893==--
