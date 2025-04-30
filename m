@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
-Date: Wed, 30 Apr 2025 07:04:21 -0000
-Message-Id: <174599666101.336190.15001169228733458367@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Wed, 30 Apr 2025 07:04:23 -0000
+Message-Id: <174599666388.336313.15429837566051811806@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ukleinek/linux
-user: ukleinek
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/pwm/for-next
-    old: b6b5683e9692b7ea2d4ca875802ec00a2b78dd66
-    new: e373991eb9ff0a9617634017c7f19fd36ec4f208
+  - ref: refs/heads/stm32-next
+    old: 46e2ad9fd18798ed143ece04cff2dd32ef69a48a
+    new: dd9bfe13b47e13c8aa5ecf5059cc4f6d9535c778
     log: |
-         e373991eb9ff0a9617634017c7f19fd36ec4f208 pwm: rzg2l-gpt: Accept requests for too high period length
-         
-  - ref: refs/heads/pwm/for-nexxt
-    old: b6b5683e9692b7ea2d4ca875802ec00a2b78dd66
-    new: e373991eb9ff0a9617634017c7f19fd36ec4f208
-    log: |
-         e373991eb9ff0a9617634017c7f19fd36ec4f208 pwm: rzg2l-gpt: Accept requests for too high period length
+         dd9bfe13b47e13c8aa5ecf5059cc4f6d9535c778 ARM: dts: st: stm32: Align wifi node name with bindings
          
