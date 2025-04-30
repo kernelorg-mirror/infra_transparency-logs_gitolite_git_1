@@ -1,71 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============4604224788959644522=="
+Content-Type: multipart/mixed; boundary="===============1717914366294630657=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Wed, 30 Apr 2025 18:48:45 -0000
-Message-Id: <174603892524.936180.14821272345356811880@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Wed, 30 Apr 2025 18:49:02 -0000
+Message-Id: <174603894230.936719.8013015436496037921@gitolite.kernel.org>
 
---===============4604224788959644522==
+--===============1717914366294630657==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: a228f8a8daf043f230a86f44c8d4233154d58652
-    new: 69f17d02ca71628a49e70acc9f353434731b5a8a
-    log: revlist-a228f8a8daf0-69f17d02ca71.txt
-  - ref: refs/heads/linux-next
-    old: 938462ba21c63afb3d196634ab28463558e0c7fd
-    new: 0751d284c9bd3a31b90c55e3ae6b09174eae578b
-    log: revlist-938462ba21c6-0751d284c9bd.txt
-  - ref: refs/heads/testing
-    old: 938462ba21c63afb3d196634ab28463558e0c7fd
-    new: 0751d284c9bd3a31b90c55e3ae6b09174eae578b
-    log: revlist-938462ba21c6-0751d284c9bd.txt
+  - ref: refs/heads/kernel-6.12.24/nfs-testing
+    old: 2a453ec0978e8f91897ac6c7e1abfd8a6432504d
+    new: cb296b83d3358a33837cfb9d3f85e4657e9eac1a
+    log: revlist-2a453ec0978e-cb296b83d335.txt
 
---===============4604224788959644522==
+--===============1717914366294630657==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a228f8a8daf0-69f17d02ca71.txt
+Content-Disposition: attachment; filename=revlist-2a453ec0978e-cb296b83d335.txt
 
-a3b79a92bda0e3f10d7c7af57415417c2b38fa17 ACPICA: Introduce ACPI_NONSTRING
-a6fee5d4689bdc89d9edfc442321c4ca3829d149 ACPICA: Apply ACPI_NONSTRING
-b916aa17584220a701993ffaf258c457de831573 ACPICA: actbl2.h: ACPI 6.5: RAS2: Rename structure and field names of the RAS2 table
-e8f0a4edc243ade667d37a10ab44b20e471fd641 ACPICA: Adjust the position of code lines
-d3cbb65a6c41439241ce6da39cc9ee8f4e76f831 ACPICA: Avoid sequence overread in call to strncmp()
-9d57241663cf493ad8459ef549e86993e52bd0e3 ACPICA: Apply ACPI_NONSTRING in more places
-1f5f181b9bdfd4d55a058aaec0b6d17f18084e75 ACPICA: Replace strncpy() with memcpy()
-079ea1e5ae6750361828965d6506c14d64fdc3dd ACPICA: Logfile: Changes for version 20250404
-d3e65d7338f2923d1d9d92430317c158079b153f ACPICA: Update copyright year
-6b30f4da1eb7e23bbbe6de9b3244564653f8c0c0 Merge branches 'pm-em' and 'pm-runtime' into linux-next
-0c0e12098d8f76c74ba69fe5ec19e508a99990f7 Merge branch 'fixes' into linux-next
-0751d284c9bd3a31b90c55e3ae6b09174eae578b Merge branch 'acpica' into linux-next
-0099ed2aab7a191c8368acd55a5175c802d5d715 Merge branch 'acpi-pm' into bleeding-edge
-69f17d02ca71628a49e70acc9f353434731b5a8a Merge branch 'pm-sleep-testing' into bleeding-edge
+9c93b9dff486bec35f913d6800ecb30193091950 sched: change wake_up_bit() and related function to expect unsigned long *
+b61234f11066a5b2148786f85e8ec65a30872d87 sched: Improve documentation for wake_up_bit/wait_on_bit family of functions
+f1537db41e5ffef2efe3e93215c9d07f7431c851 sched: Document wait_var_event() family of functions and wake_up_var()
+0ba861faf863e2e104871faf8f7c5064cf1a8a76 sched: Add test_and_clear_wake_up_bit() and atomic_dec_and_wake_up()
+aa4f490411f21d8013f81054e4cb88c662c06c9c sched: Add wait/wake interface for variable updated under a lock.
+7eaf4b1cb35af7fa34ff368a7cbffcd36fff2901 sched: add wait_var_event_io()
+3db6cb23b3dd758066eafe680df5ba56b7209e8b softirq: use bit waits instead of var waits.
+ce8f0eb0feffa25cbceeb4f571763608b0edd1d7 nfs_localio: use cmpxchg() to install new nfs_file_localio
+0de812e563f6e1c27ca3ce5cfbff122936272f11 nfs_localio: always hold nfsd net ref with nfsd_file ref
+ce3fc954e159860584bc9de6b08476b7aa701699 nfs_localio: simplify interface to nfsd for getting nfsd_file
+8f0392c908889e4375318b7478ef1ea2f811c0e9 nfs_localio: change nfsd_file_put_local() to take a pointer to __rcu struct
+0c195c1e5468581d6b5bebb673bc27c062b1f1e0 nfs_localio: duplicate nfs_close_local_fh() in nfs_uuid_put()
+cb296b83d3358a33837cfb9d3f85e4657e9eac1a nfs_localio: protect race between nfs_uuid_put() and nfs_close_local_fh()
 
---===============4604224788959644522==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-938462ba21c6-0751d284c9bd.txt
-
-a3b79a92bda0e3f10d7c7af57415417c2b38fa17 ACPICA: Introduce ACPI_NONSTRING
-a6fee5d4689bdc89d9edfc442321c4ca3829d149 ACPICA: Apply ACPI_NONSTRING
-b916aa17584220a701993ffaf258c457de831573 ACPICA: actbl2.h: ACPI 6.5: RAS2: Rename structure and field names of the RAS2 table
-e8f0a4edc243ade667d37a10ab44b20e471fd641 ACPICA: Adjust the position of code lines
-d3cbb65a6c41439241ce6da39cc9ee8f4e76f831 ACPICA: Avoid sequence overread in call to strncmp()
-9d57241663cf493ad8459ef549e86993e52bd0e3 ACPICA: Apply ACPI_NONSTRING in more places
-1f5f181b9bdfd4d55a058aaec0b6d17f18084e75 ACPICA: Replace strncpy() with memcpy()
-079ea1e5ae6750361828965d6506c14d64fdc3dd ACPICA: Logfile: Changes for version 20250404
-d3e65d7338f2923d1d9d92430317c158079b153f ACPICA: Update copyright year
-6b30f4da1eb7e23bbbe6de9b3244564653f8c0c0 Merge branches 'pm-em' and 'pm-runtime' into linux-next
-0c0e12098d8f76c74ba69fe5ec19e508a99990f7 Merge branch 'fixes' into linux-next
-0751d284c9bd3a31b90c55e3ae6b09174eae578b Merge branch 'acpica' into linux-next
-
---===============4604224788959644522==--
+--===============1717914366294630657==--
