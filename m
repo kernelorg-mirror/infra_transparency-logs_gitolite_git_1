@@ -1,77 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============0737598592808153491=="
+Content-Type: multipart/mixed; boundary="===============3308407417499089190=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Wed, 30 Apr 2025 18:42:11 -0000
-Message-Id: <174603853186.930949.14127509939716361059@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Wed, 30 Apr 2025 18:48:36 -0000
+Message-Id: <174603891608.935842.12474655197387724592@gitolite.kernel.org>
 
---===============0737598592808153491==
+--===============3308407417499089190==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: b8e28dcddcb251349e685f0ceab929ff24560724
-    new: a228f8a8daf043f230a86f44c8d4233154d58652
-    log: revlist-b8e28dcddcb2-a228f8a8daf0.txt
-  - ref: refs/heads/linux-next
-    old: a1bc03d0caf509c8062824d440aed9f7f5d9a6bd
-    new: 938462ba21c63afb3d196634ab28463558e0c7fd
-    log: revlist-a1bc03d0caf5-938462ba21c6.txt
-  - ref: refs/heads/testing
-    old: a1bc03d0caf509c8062824d440aed9f7f5d9a6bd
-    new: 938462ba21c63afb3d196634ab28463558e0c7fd
-    log: revlist-a1bc03d0caf5-938462ba21c6.txt
+  - ref: refs/tags/kernel-6.12.24-1
+    old: 550d02b12dc90d3dee3d397075d5e774b6f060ff
+    new: 9e1af03b4e4076822d0a850d4faaf1c5b647bb13
+    log: revlist-550d02b12dc9-9e1af03b4e40.txt
 
---===============0737598592808153491==
+--===============3308407417499089190==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b8e28dcddcb2-a228f8a8daf0.txt
+Content-Disposition: attachment; filename=revlist-550d02b12dc9-9e1af03b4e40.txt
 
-be5134a1ca6bced25d4f683de42b084c8d162c48 ACPICA: Utilities: Fix spelling mistake "Incremement" -> "Increment"
-f725103cf7483a0238ee00e5412582142f7b4fe2 ACPICA: infrastructure: Add new DMT_BUF types and shorten a long name
-217c3b450c12fa0a951bbbfb8773f2ca9ae92bb8 ACPICA: actbl2.h: ERDT: Add typedef and other definitions
-d00651b379f649d1486c911917d3fa935e175dab ACPICA: Introduce ACPI_NONSTRING
-f1280e541ed5972634a5a9b23775bb881bc98ab8 ACPICA: Apply ACPI_NONSTRING
-d519a3d56dfdd05558c60474cbea2615a2afdb91 ACPICA: actbl2.h: ACPI 6.5: RAS2: Rename structure and field names of the RAS2 table
-45d4cc2e5b0a8ec180be4743e4658432b582d477 ACPICA: Adjust the position of code lines
-8053060b249041b651c1c7d6d978260e40681e17 ACPICA: Avoid sequence overread in call to strncmp()
-719210dd726d1d271e817e0f7fd8d6d42b63b99f ACPICA: Apply ACPI_NONSTRING in more places
-b6aa3523af9b9bab18b792fa5973da7cd2831070 ACPICA: Replace strncpy() with memcpy()
-bfd8138f6b4cd7ede318f30728cf5b13fd27a936 ACPICA: Logfile: Changes for version 20250404
-2bfa8fe15cff0e208ae1f4b079051d7ff51d3bb2 ACPICA: Update copyright year
-d523cbdd34f2c0277f0f6a85f4382f7907bcd856 Merge branch 'acpica' into linux-next
-ef7c0716f390f44b22051a23e2aa293d45c4e124 Merge branches 'pm-em' and 'pm-runtime' into linux-next
-938462ba21c63afb3d196634ab28463558e0c7fd Merge branch 'fixes' into linux-next
-003f30e6b25aa6eca8b1ef399544fba7403a152a Merge branch 'acpi-pm' into bleeding-edge
-a228f8a8daf043f230a86f44c8d4233154d58652 Merge branch 'pm-sleep-testing' into bleeding-edge
+9c93b9dff486bec35f913d6800ecb30193091950 sched: change wake_up_bit() and related function to expect unsigned long *
+b61234f11066a5b2148786f85e8ec65a30872d87 sched: Improve documentation for wake_up_bit/wait_on_bit family of functions
+f1537db41e5ffef2efe3e93215c9d07f7431c851 sched: Document wait_var_event() family of functions and wake_up_var()
+0ba861faf863e2e104871faf8f7c5064cf1a8a76 sched: Add test_and_clear_wake_up_bit() and atomic_dec_and_wake_up()
+aa4f490411f21d8013f81054e4cb88c662c06c9c sched: Add wait/wake interface for variable updated under a lock.
+7eaf4b1cb35af7fa34ff368a7cbffcd36fff2901 sched: add wait_var_event_io()
+3db6cb23b3dd758066eafe680df5ba56b7209e8b softirq: use bit waits instead of var waits.
+ce8f0eb0feffa25cbceeb4f571763608b0edd1d7 nfs_localio: use cmpxchg() to install new nfs_file_localio
+0de812e563f6e1c27ca3ce5cfbff122936272f11 nfs_localio: always hold nfsd net ref with nfsd_file ref
+ce3fc954e159860584bc9de6b08476b7aa701699 nfs_localio: simplify interface to nfsd for getting nfsd_file
+8f0392c908889e4375318b7478ef1ea2f811c0e9 nfs_localio: change nfsd_file_put_local() to take a pointer to __rcu struct
+0c195c1e5468581d6b5bebb673bc27c062b1f1e0 nfs_localio: duplicate nfs_close_local_fh() in nfs_uuid_put()
+cb296b83d3358a33837cfb9d3f85e4657e9eac1a nfs_localio: protect race between nfs_uuid_put() and nfs_close_local_fh()
+974b2ebdf0a1123ae70db9de1d7a09a4d024d5b5 Merge branch 'kernel-6.12.24/nvme' into kernel-6.12.24/main
+e7007f16e42863ef09b75491166789402dbbb624 Merge branch 'kernel-6.12.24/localio' into kernel-6.12.24/main
+dda98d80b9e62b1b0491246cdf020ca437d8f9cb Merge branch 'kernel-6.12.24/nfs' into kernel-6.12.24/main
+403cb63a0f0932e42e517aac050092ad09c14776 Merge branch 'kernel-6.12.24/dontcache' into kernel-6.12.24/main
+6a5789df5fc70d8928d0b0670b52b60d91f97de4 Merge branch 'kernel-6.12.24/nfs-testing' into kernel-6.12.24/main
+9e1af03b4e4076822d0a850d4faaf1c5b647bb13 kernel-6.12.24-1
 
---===============0737598592808153491==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a1bc03d0caf5-938462ba21c6.txt
-
-be5134a1ca6bced25d4f683de42b084c8d162c48 ACPICA: Utilities: Fix spelling mistake "Incremement" -> "Increment"
-f725103cf7483a0238ee00e5412582142f7b4fe2 ACPICA: infrastructure: Add new DMT_BUF types and shorten a long name
-217c3b450c12fa0a951bbbfb8773f2ca9ae92bb8 ACPICA: actbl2.h: ERDT: Add typedef and other definitions
-d00651b379f649d1486c911917d3fa935e175dab ACPICA: Introduce ACPI_NONSTRING
-f1280e541ed5972634a5a9b23775bb881bc98ab8 ACPICA: Apply ACPI_NONSTRING
-d519a3d56dfdd05558c60474cbea2615a2afdb91 ACPICA: actbl2.h: ACPI 6.5: RAS2: Rename structure and field names of the RAS2 table
-45d4cc2e5b0a8ec180be4743e4658432b582d477 ACPICA: Adjust the position of code lines
-8053060b249041b651c1c7d6d978260e40681e17 ACPICA: Avoid sequence overread in call to strncmp()
-719210dd726d1d271e817e0f7fd8d6d42b63b99f ACPICA: Apply ACPI_NONSTRING in more places
-b6aa3523af9b9bab18b792fa5973da7cd2831070 ACPICA: Replace strncpy() with memcpy()
-bfd8138f6b4cd7ede318f30728cf5b13fd27a936 ACPICA: Logfile: Changes for version 20250404
-2bfa8fe15cff0e208ae1f4b079051d7ff51d3bb2 ACPICA: Update copyright year
-d523cbdd34f2c0277f0f6a85f4382f7907bcd856 Merge branch 'acpica' into linux-next
-ef7c0716f390f44b22051a23e2aa293d45c4e124 Merge branches 'pm-em' and 'pm-runtime' into linux-next
-938462ba21c63afb3d196634ab28463558e0c7fd Merge branch 'fixes' into linux-next
-
---===============0737598592808153491==--
+--===============3308407417499089190==--
