@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 30 Apr 2025 16:04:05 -0000
-Message-Id: <174602904599.801164.6007635078938329253@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Wed, 30 Apr 2025 16:06:18 -0000
+Message-Id: <174602917813.804355.17925006128290965958@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: mikulas
 changes:
-  - ref: refs/heads/master
-    old: 38d976c32d85ef12dcd2b8a231196f7049548477
-    new: 358b1c0f56ebb6996fcec7dcdcf6bae5dcbc8b6c
+  - ref: refs/heads/for-next
+    old: 7b0a8429a19df58b6a948b6d718ede12d87bab3f
+    new: 0d3c3ca62a739e8a7614ff6d2c1059dd1d44124b
     log: |
-         358b1c0f56ebb6996fcec7dcdcf6bae5dcbc8b6c libbpf: Use proper errno value in linker
+         09a43d802482d88c9ffaf9ca55781ec00657870f dm: Allow .prepare_ioctl to handle ioctls directly
+         d5d16fabe431d1f7b822cf03f54e7186b284b7bd dm mpath: Interface for explicit probing of active paths
+         0d3c3ca62a739e8a7614ff6d2c1059dd1d44124b dm: add missing unlock on in dm_keyslot_evict()
          
