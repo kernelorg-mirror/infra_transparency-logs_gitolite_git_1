@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8413859680755402380=="
+Content-Type: multipart/mixed; boundary="===============1014031681454142205=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 30 Apr 2025 15:30:25 -0000
-Message-Id: <174602702540.773339.12650356184697984062@gitolite.kernel.org>
+Date: Wed, 30 Apr 2025 15:30:28 -0000
+Message-Id: <174602702801.773590.6302494309206922663@gitolite.kernel.org>
 
---===============8413859680755402380==
+--===============1014031681454142205==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: ff61a4a5dfc27535227c0b2ead05a1a1afce76ec
     new: deeed351e982ac4d521598375b34b071304533b0
     log: revlist-ff61a4a5dfc2-deeed351e982.txt
 
---===============8413859680755402380==
+--===============1014031681454142205==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -53,4 +53,4 @@ aa6dcab1ea92a8a1f5a2ff7dec825f25eeebf17d net: phy: aquantia: fix commenting form
 6828208a45c1839e94a87500e0721618d03783e7 pds_core: init viftype default in declaration
 deeed351e982ac4d521598375b34b071304533b0 Merge branch 'pds_core-cleanups'
 
---===============8413859680755402380==--
+--===============1014031681454142205==--
