@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============7316870438967754692=="
+Content-Type: multipart/mixed; boundary="===============6875361161555763211=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 30 Apr 2025 22:50:38 -0000
-Message-Id: <174605343894.1146775.322298796120903694@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 30 Apr 2025 22:50:45 -0000
+Message-Id: <174605344522.1147114.9853904747085378474@gitolite.kernel.org>
 
---===============7316870438967754692==
+--===============6875361161555763211==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.15
+  - ref: refs/heads/spi-6.15
     old: 15cfe55ec58ace931a73e19e5367598734ceb074
     new: 36fd6275818e93d5bc44140d546bf2a45e88feee
     log: |
          36fd6275818e93d5bc44140d546bf2a45e88feee spi: spi-qpic-snand: fix NAND_READ_LOCATION_2 register handling
          
-  - ref: refs/heads/for-6.16
+  - ref: refs/heads/spi-6.16
     old: df8c5ad0f56635341bfe3f59ef7c6473e389abc4
     new: a7f035c2c72496cf7ac34bfaa8c289e0d4c45836
     log: revlist-df8c5ad0f566-a7f035c2c724.txt
 
---===============7316870438967754692==
+--===============6875361161555763211==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1746053467 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1746053436-c3d1be6b03a106b4a839d100ff9248fc42f43cbb
+pusher Mark Brown <broonie@kernel.org> 1746053473 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1746053442-5dd0db23d2fe1ac711420503736e9f6f0fda5dba
 
-15cfe55ec58ace931a73e19e5367598734ceb074 36fd6275818e93d5bc44140d546bf2a45e88feee refs/heads/for-6.15
-df8c5ad0f56635341bfe3f59ef7c6473e389abc4 a7f035c2c72496cf7ac34bfaa8c289e0d4c45836 refs/heads/for-6.16
+15cfe55ec58ace931a73e19e5367598734ceb074 36fd6275818e93d5bc44140d546bf2a45e88feee refs/heads/spi-6.15
+df8c5ad0f56635341bfe3f59ef7c6473e389abc4 a7f035c2c72496cf7ac34bfaa8c289e0d4c45836 refs/heads/spi-6.16
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgSqVsTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0I3XB/95/aOD871X+49TmOrhBzVX4ZYkVUBE
-His3oB0oZr0xv8St5+eMkuiXUZdByApqspZd9GMOZbFL52Q/r+pBbwEAUKfw+7Xd
-B0IQSMxYitSAK8QAyTzCFcmfODZfwp9GNDf6omciQsEB4iyRkaQ9orzcbCwm8+3S
-NENMb9W+DsfTTKULSs/WB0h9ukN0MuV7HJmFgga+PkPODw7GqgNTYm9lPHmYE0+/
-hNhPMJwJkQ0dP7C7ujK0yAAD7IpPeXXTiUi0DES1cwcvkDV7Lzuw8teyBvlE90gq
-0HKSwg+qXm3nmz4ufapYAJqxLxc0KlchR/xqzWcvq1Xx2CaI2BVZqlHo
-=BGib
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgSqWETHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0MxTB/9ZPueU3vQP1waupOBGxeS1yUGyXC55
+5qHxuPzHWQSzyYDManK3BWEZfH/mwqglbXTwcoQ2zU5E5YPCu0vdVBr60B0hkJt0
+AURg4z+UluaouoeRuYihdzoqdxr+kiauVmiJ+IOIuBeM7ZC0fJJlqp2UoGZBg0Ux
+u99uwD8mR159JondjiLZb19fq1Av2vB+xaxtHDXKgL7ByHW5VVXpxBohThWukEEj
+pzysB7GAn6loTmNYRs1YgdCC/QZcH8oSLxiBcYTAdIz/0aq3yO24WvfpShHY3OVR
+q9vMFYk5M9XsSiPBkWEvpfNzFD3ftThmNMucPs3G2mk09nYobaUt2dix
+=I9Bb
 -----END PGP SIGNATURE-----
 
---===============7316870438967754692==
+--===============6875361161555763211==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -901,4 +901,4 @@ b4432656b36e5cc1d50a1f2dc15357543add530e Linux 6.15-rc4
 e6702c44c2adb28b62f81de498e9b1e4562ce660 spi: axi-spi-engine: omit SYNC from offload instructions
 a7f035c2c72496cf7ac34bfaa8c289e0d4c45836 spi: axi-spi-engine: offload instruction optimization
 
---===============7316870438967754692==--
+--===============6875361161555763211==--
