@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/superm1/amd-debug-tools
-Date: Wed, 30 Apr 2025 20:53:02 -0000
-Message-Id: <174604638256.1043139.10658517133089465270@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/linux
+Date: Wed, 30 Apr 2025 21:07:21 -0000
+Message-Id: <174604724159.1054999.959059497074586777@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/superm1/amd-debug-tools
-user: superm1
+repo: pub/scm/linux/kernel/git/tnguy/linux
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 1963834ab2764ff0e9ee5ebd39f9ba7e18783f4e
-    new: 9b106aff765fc66a9293c7c0a64352060ff5572c
+  - ref: refs/heads/for-next
+    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
+    new: 8d7be3651c9a6c2b5bc952356536cbd9f4a722b2
     log: |
-         9b106aff765fc66a9293c7c0a64352060ff5572c amd_s2idle: Plumb a new argument for ACPI debugging types
+         468d8b462ac64659caec53eff34f02963d5f52c8 iidc/ice/irdma: Rename IDC header file
+         97b5631aae6896369712d6b7131afbc95c753587 iidc/ice/irdma: Rename to iidc_* convention
+         d9251a560ba67bbedd53b81aee32e1ad95f42000 iidc/ice/irdma: Break iidc.h into two headers
+         8239b771b94b639556c1987185fd82b2a896c923 ice: Replace ice specific DSCP mapping num with a kernel define
+         8d7be3651c9a6c2b5bc952356536cbd9f4a722b2 iidc/ice/irdma: Update IDC to support multiple consumers
          
