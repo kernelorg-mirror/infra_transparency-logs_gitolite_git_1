@@ -1,56 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============5218591781465802651=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 30 Apr 2025 19:04:32 -0000
-Message-Id: <174603987231.951227.755288375219452351@gitolite.kernel.org>
-
---===============5218591781465802651==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/superm1/amd-debug-tools
+Date: Wed, 30 Apr 2025 19:46:58 -0000
+Message-Id: <174604241814.985337.14358366218669094382@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/superm1/amd-debug-tools
+user: superm1
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 4f822ad5ee944ffafc21937a32dd055f1df5c28d
-    new: 20acf4dd46e4c0905676ad2a1d9a32041469893f
+  - ref: refs/heads/master
+    old: 9f82c2b3d571fb3beac9c6a74421c8ad6f522ca7
+    new: 1963834ab2764ff0e9ee5ebd39f9ba7e18783f4e
     log: |
-         20acf4dd46e4c0905676ad2a1d9a32041469893f char: misc: make miscdevice unit test built-in only
+         1963834ab2764ff0e9ee5ebd39f9ba7e18783f4e amd_s2idle: Be additive for ACPICA debugging
          
-
---===============5218591781465802651==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1746039902 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1746039870-ffecd36dde329e8fa392364b4a508e92db5bd014
-
-4f822ad5ee944ffafc21937a32dd055f1df5c28d 20acf4dd46e4c0905676ad2a1d9a32041469893f refs/heads/char-misc-next
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgSdF4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YZMP/iuFv/KLyzJ+xuNqGm1x
-HDD/loHdKK9TOwWqBX6VwIPsUbC57PvZy2hz1ApsMnwvkhnPPjfiFT2piAIXybsy
-cLoUEMxw1Zuv8odUoPJ5GXRFtrAKVXq1DT1v0EDtIhNEk4dOglr9HYkdFo6J/BnG
-b9APSRqllsdOGQ5oje5Q2DkGfG5x+87BYOSX945gG5aMwlEZdCECNMruHIpFTMm4
-STtJ52FFtHQGVB2J/nfsoI5RMpKq+VrSDCHNv9q27/PKgwj080zR1RQJQfN1N9GZ
-dKWufY34wJyLABNS04tjC02ksBwyYJPX940AZaPbSL+OY6MI/piS/+al8NwhQ4ct
-5M/wecibaOhP1bYp/E6hamALAsnIz1f3cz/z9uLPTvgqfaEOB8fr/Wt7eM5Vsldh
-V70GnmSkocdvsmcEnmcMde4Aj4ZCrxcQrm+sCvkLjXnVwF25uszzkQTKEuqhskEB
-cEZZTnw03R4D9QJdMSpVwB7TORKNb3hcHjLEnDgVhn/vQa+YB5f8gfZ0hHGeS9vC
-mRlgmXuhCKpxAf6jj5w5OJjDy2+ihlKHrJI8lJ7AuHmbDpNZ3YTTvbpuph+Vf+bn
-vH1Vuy2W6T0EFtNUJViWV8a6Smzfq2d1UU+TlpAKQf4812j45o1Pis8a8YjnJ3Ra
-TBpxYdTTvHRCvUQUgCidXOjW
-=yMOl
------END PGP SIGNATURE-----
-
---===============5218591781465802651==--
+  - ref: refs/heads/refactor
+    old: 7d467aad9b52a7c7a2ab7b9bd07c291ef83b5e8a
+    new: cdf31db5d8736cc5d8828f6a8a1efb2d7010803b
+    log: |
+         cdf31db5d8736cc5d8828f6a8a1efb2d7010803b s2idle/validator: Port ACPI trace debugging modification from master
+         
