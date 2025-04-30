@@ -1,36 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============8516194332735717557=="
+Content-Type: multipart/mixed; boundary="===============0969747583177909425=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 30 Apr 2025 11:28:09 -0000
-Message-Id: <174601248990.556981.10274734151939559966@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 30 Apr 2025 11:28:19 -0000
+Message-Id: <174601249932.557342.6279845041840603633@gitolite.kernel.org>
 
---===============8516194332735717557==
+--===============0969747583177909425==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 9d9096722447b77662d4237a09909bde7774f22e
     new: 8a2d53ce3c5f82683ad3df9a9a55822816fe64e7
     log: revlist-9d9096722447-8a2d53ce3c5f.txt
-  - ref: refs/heads/stable
-    old: 78109c591b806e41987e0b83390e61d675d1f724
-    new: 8bac8898fe398ffa3e09075ecea2be511725fb0b
-    log: revlist-78109c591b80-8bac8898fe39.txt
-  - ref: refs/tags/next-20250130
-    old: c9f5bc4ea1cc2d78fd722134d88c56f4f65b8d14
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20250430
     old: 0000000000000000000000000000000000000000
     new: a8cf9a3f99d1f0e7efb81afee5d831409a230a2d
 
---===============8516194332735717557==
+--===============0969747583177909425==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1061,35 +1054,4 @@ d08b38ada48ad6b41f530f79290471397df5f9f4 Merge branch 'crc-next' of git://git.ke
 98129816430938324d8b792ea014f37ed3f6129d Revert "watchdog: fix watchdog may detect false positive of softlockup"
 8a2d53ce3c5f82683ad3df9a9a55822816fe64e7 Add linux-next specific files for 20250430
 
---===============8516194332735717557==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-78109c591b80-8bac8898fe39.txt
-
-06eaa824fd239edd1eab2754f29b2d03da313003 mm/memblock: pass size instead of end to memblock_set_node()
-eac8ea8736ccc09513152d970eb2a42ed78e87e8 mm/memblock: repeat setting reserved region nid if array is doubled
-3b394dff15e14550a26b133fc7b556b5b526f6a5 memblock tests: add test for memblock_set_node
-649b50a82f09fa44c2f7a65618e4584072145ab7 mmc: renesas_sdhi: Fix error handling in renesas_sdhi_probe
-9078f01fec1275a1974a01a64a5a495d72898c60 mmc: renesas_sdhi: add regulator dependency
-77183db6b8dbd8c352816030b328dd55993dc330 mmc: renesas_sdhi: disable clocks if registering regulator failed
-9f5595d5f03fd4dc640607a71e89a1daa68fd19d platform/x86/amd: pmc: Require at least 2.5 seconds between HW sleep cycles
-8d6955ed76e8a47115f2ea1d9c263ee6f505d737 platform/x86/intel-uncore-freq: Fix missing uncore sysfs during CPU hotplug
-4a8e04e2bdcb98d513e97b039899bda03b07bcf2 platform/x86: alienware-wmi-wmax: Fix uninitialized variable due to bad error handling
-af5226abb40cae959f424f7ca614787a1c87ce48 smb: server: smb2pdu: check return value of xa_store()
-a1f46c99d9ea411f9bf30025b912d881d36fc709 ksmbd: fix use-after-free in ksmbd_session_rpc_open
-12df9ec3e1955aed6a0c839f2375cd8e5d5150cf platform/x86/intel: hid: Add Pantherlake support
-246f9bb62016c423972ea7f2335a8e0ed3521cde platform/x86: alienware-wmi-wmax: Add support for Alienware m15 R7
-77bdac73754e4c0c564c1ca80fe3d9c93b0e715a platform/x86: asus-wmi: Disable OOBE state after resume from hibernation
-02c6e43397c39edd0c172859bf8c851b46be09a8 platform/x86: ideapad-laptop: add support for some new buttons
-c73c67026fe65d6677260dfd15dd968b709dc237 fanotify: fix flush of mntns marks
-cd188e9ef80fd005fd8c8de34ed649bd653d00e5 selftests/fs/mount-notify: test also remove/flush of mntns marks
-e86e9134e1d1c90a960dd57f59ce574d27b9a124 ksmbd: fix use-after-free in kerberos authentication
-2fc9feff45d92a92cd5f96487655d5be23fb7e2b ksmbd: fix use-after-free in session logoff
-ca91b9500108d4cf083a635c2e11c884d5dd20ea Merge tag 'v6.15-rc4-ksmbd-server-fixes' of git://git.samba.org/ksmbd
-4b5256f990046d479d87f90382dea36c55539c44 Merge tag 'fixes-2025-04-29' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
-02d40046243fa6f00630d93f67651c4f741036c6 Merge tag 'platform-drivers-x86-v6.15-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-fba784cc9e3d22a530211ef3ec60d04562349cb4 Merge tag 'fsnotify_for_v6.15-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
-8bac8898fe398ffa3e09075ecea2be511725fb0b Merge tag 'mmc-v6.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
-
---===============8516194332735717557==--
+--===============0969747583177909425==--
