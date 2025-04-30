@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
-Date: Wed, 30 Apr 2025 09:26:04 -0000
-Message-Id: <174600516451.455837.16199744410486516048@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+Date: Wed, 30 Apr 2025 09:26:40 -0000
+Message-Id: <174600520010.456419.3755584155269710649@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/mfd
-user: lee
+repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+user: thomas.weissschuh
 changes:
-  - ref: refs/heads/for-mfd-next
-    old: b9e0bfe9aa9b4726f937f6d567e5c97b63d6e7e2
-    new: 566b001ca4f65878d5e9b0e9d23ba2d55bf4c630
-    log: |
-         08f470411dd50043a66a02b501718ce9d549e143 mfd: adp5585: support getting vdd regulator
-         b96d79c0017f3cd3412e01f24036260948ea338e dt-bindings: mfd: adp5585: document reset gpio
-         566b001ca4f65878d5e9b0e9d23ba2d55bf4c630 mfd: adp5585: add support for a reset pin
-         
+  - ref: refs/heads/b4/nolibc-sys-poll
+    old: 0000000000000000000000000000000000000000
+    new: 3f19778055cf0fe2dc02b1eee70573cc2a7fca49
