@@ -1,65 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============0978596202583266671=="
+Content-Type: multipart/mixed; boundary="===============7141960684314222964=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 30 Apr 2025 15:04:50 -0000
-Message-Id: <174602549015.745852.10335106905797173102@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Wed, 30 Apr 2025 15:05:16 -0000
+Message-Id: <174602551685.747850.6835756644330088819@gitolite.kernel.org>
 
---===============0978596202583266671==
+--===============7141960684314222964==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/kernel-6.12.24/main
-    old: ec96c6d61a104910c07b5c9b88651689fa10eacb
-    new: 550d02b12dc90d3dee3d397075d5e774b6f060ff
-    log: revlist-ec96c6d61a10-550d02b12dc9.txt
+  - ref: refs/heads/main
+    old: d4cb1ecc22908ef46f2885ee2978a4f22e90f365
+    new: 0a7bc4d6b04bed1257faf9502f9b4076bac466ea
+    log: revlist-d4cb1ecc2290-0a7bc4d6b04b.txt
 
---===============0978596202583266671==
+--===============7141960684314222964==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ec96c6d61a10-550d02b12dc9.txt
+Content-Disposition: attachment; filename=revlist-d4cb1ecc2290-0a7bc4d6b04b.txt
 
-f73dcc876341725bc6fcdfcd827453695c44208b NFS/localio: Fix a race in nfs_local_open_fh()
-467b4a9533f51dca6b2ae3acad3719f55ac6b301 mm/filemap: change filemap_create_folio() to take a struct kiocb
-4bc897ad23aad9cd4401e1de7eae8bce86de6165 mm/filemap: use page_cache_sync_ra() to kick off read-ahead
-f3707bbe54d1e40cea6babc2f8ba6880da8dc2b1 mm/readahead: add folio allocation helper
-4f06339e857d7de7c335ec8ccecd594a28126ed9 mm: add PG_dropbehind folio flag
-36e92bf875d176f8b197b6aa0f987e462a70419d mm/readahead: add readahead_control->dropbehind member
-57f8903fcc255ca8313cec02cb3736be1fa93b64 mm/truncate: add folio_unmap_invalidate() helper
-b8359025ca2a9c4d27243a0f3c9b857cece89490 fs: add RWF_DONTCACHE iocb and FOP_DONTCACHE file_operations flag
-b6da8c311ae2a6ac0ee8cda311c9b1908ce57911 mm/filemap: add read support for RWF_DONTCACHE
-68c208d7e645f7c175fe15e46dc275206feabe55 mm/filemap: drop streaming/uncached pages when writeback completes
-7386e50ee59bf30b55c919d13bd1e1cae92f5cac mm/filemap: add filemap_fdatawrite_range_kick() helper
-b19f99bbc561ce3741f978ed31f3a0988c5ebaea mm: call filemap_fdatawrite_range_kick() after IOCB_DONTCACHE issue
-217f8dd204eb71b7b4e6fc7e9fcb15148a057df7 mm: add FGP_DONTCACHE folio creation flag
-e04f495968a9b5d7bd540070b6fe8986860a26d8 iomap: make buffered writes work with RWF_DONTCACHE
-69ce280b8c0609b3093fd02f910deb2f7cbca80a xfs: flag as supporting FOP_DONTCACHE
-fb61e0b26208e1b519f72ecd35636af97ff557fd filemap: Add a helper for filesystems implementing dropbehind
-05319b1899ba5ea81296c21fad8d84a6181401b1 filemap: Mark folios as dropbehind in generic_perform_write()
-6ef18a0a7a2e8edec4f217ea5ffe0a787f9c54ab NFS: Enable the RWF_DONTCACHE flag for the NFS client
-2dbe00828b54b7832a0e1121487ab4d69d58a2db NFS: add RWF_DONTCACHE support to LOCALIO
-b88391f8f60cb4fbd7bb86468ca917ef7cc5ba94 NFSD: add the ability to enable use of RWF_DONTCACHE for all nfsd IO
-96923291e37d7e9a149f93abef114eece10f7467 NFS: Avoid flushing data while holding directory locks in nfs_rename()
-607a23aee45f1fe49e899183d2f2361a60c66b4a nfs: free leftover lsegs before freeing a layout in pnfs_put_layout_hdr
-079181500877bb902d0293ec184d3fd55b979548 nfs: pr_warn if plh_segs or plh_return_segs are non-empty when freeing
-50deeeae9c9a8cab25280f622be4bb77f4f25476 nfs_localio: use cmpxchg() to install new nfs_file_localio
-d66f3c06d6ca4e3b73ec444daffdcdf700aba622 nfs_localio: always hold nfsd net ref with nfsd_file ref
-27a684330168b2b4460a3f26e6831964eaf59f09 nfs_localio: simplify interface to nfsd for getting nfsd_file
-1bea916eb4244aa6de1b5bbd44cc42dbc7abd8a9 nfs_localio: change nfsd_file_put_local() to take a pointer to __rcu struct
-d89108e9faa699d69e6ff3d3600fd0f75fcb9abe nfs_localio: duplicate nfs_close_local_fh() in nfs_uuid_put()
-2a453ec0978e8f91897ac6c7e1abfd8a6432504d nfs_localio: protect race between nfs_uuid_put() and nfs_close_local_fh()
-2ca2e38a7aed7bf34f0f96525b55a10b52097daa Merge branch 'kernel-6.12.24/nvme' into kernel-6.12.24/main
-13431e5c657cee35ac9afbeacd9e08c08e9837f0 Merge branch 'kernel-6.12.24/localio' into kernel-6.12.24/main
-6d570433b8ea1a8fcdaee9a554bfdba4d0f1ade9 Merge branch 'kernel-6.12.24/nfs' into kernel-6.12.24/main
-04b561ac6fede330e605221adc1157bc52d82440 Merge branch 'kernel-6.12.24/dontcache' into kernel-6.12.24/main
-790bc8e266d1a977f964019b00e102c4a31b9821 Merge branch 'kernel-6.12.24/nfs-testing' into kernel-6.12.24/main
-550d02b12dc90d3dee3d397075d5e774b6f060ff kernel-6.12.24-1
+e7e5ae71831c44d58627a991e603845a2fed2cab net: dlink: Correct endianness handling of led_mode
+b23285e93bef729e67519a5209d5b7fde3b4af50 net: mdio: mux-meson-gxl: set reversed bit when using internal phy
+6e0490fc36cdac696f96e57b61d93b9ae32e0f4c net: ethernet: mtk_eth_soc: fix SER panic with 4GB+ RAM
+426d487bca38b34f39c483edfc6313a036446b33 net: dsa: felix: fix broken taprio gate states after clock jump
+efa6eb7d77aaf5b05eed25c0ecbf7754cc325c83 selftests: net: tsn_lib: create common helper for counting received packets
+f52fe6efd61f54c5cb0e19ef1fde96cf23048a70 selftests: net: tsn_lib: add window_size argument to isochron_do()
+4eb9da050f005fbbb7d301e8e99cfdb6e4771a0d selftests: net: tc_taprio: new test
+1e0bff3bb59ca9bf84243df2a4ad3cfa6ca6f303 Merge branch 'fix-felix-dsa-taprio-gates-after-clock-jump'
+b936a9b8d4a585ccb6d454921c36286bfe63e01d net: ipv6: fix UDPv6 GSO segmentation with NAT
+9ab7a709c926c16b4433cf02d04fcbcf35aaab2b bnxt_en: Fix error handling path in bnxt_init_chip()
+8e6cc9045380f3f0c48ebda2bda5e1abe263388d bnxt_en: Fix ethtool selftest output in one of the failure cases
+a63db07e4ecd45b027718168faf7d798bb47bf58 bnxt_en: Add missing skb_mark_for_recycle() in bnxt_rx_vlan()
+1ae04e489dd757e1e61999362f33e7c554c3b9e3 bnxt_en: call pci_alloc_irq_vectors() after bnxt_reserve_rings()
+c2d20a3814d1b57dea6db82229edd702bde9c878 bnxt_en: delay pci_alloc_irq_vectors() in the AER path
+ea9376cf68230e05492f22ca45d329f16e262c7b bnxt_en: Fix coredump logic to free allocated buffer
+6b87bd94f34370bbf1dfa59352bed8efab5bf419 bnxt_en: Fix out-of-bound memcpy() during ethtool -w
+02e8be5a032cae0f4ca33c6053c44d83cf4acc93 bnxt_en: Fix ethtool -d byte order for 32-bit values
+0a7bc4d6b04bed1257faf9502f9b4076bac466ea Merge branch 'bnxt_en-fixes'
 
---===============0978596202583266671==--
+--===============7141960684314222964==--
