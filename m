@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6541682415215108338=="
+Content-Type: multipart/mixed; boundary="===============5873914092937070200=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 30 Apr 2025 10:04:53 -0000
-Message-Id: <174600749303.487178.18296197286636933864@gitolite.kernel.org>
+Date: Wed, 30 Apr 2025 10:05:20 -0000
+Message-Id: <174600752085.489344.11182738782423325077@gitolite.kernel.org>
 
---===============6541682415215108338==
+--===============5873914092937070200==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,48 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 4b3839615013a2b603f6c31e6fbc694e886a6eed
-    new: 03338a4186ec9a955b32ad448a4ba2d0e475c8dc
-    log: revlist-4b3839615013-03338a4186ec.txt
+    old: 03338a4186ec9a955b32ad448a4ba2d0e475c8dc
+    new: 6c201ee95a3027a610f18ae29b83f8827e13641a
+    log: revlist-03338a4186ec-6c201ee95a30.txt
+  - ref: refs/heads/tip/urgent
+    old: d4d7e60d131d7afa113b55c02e5df32ea463c0ba
+    new: cf5dc97c2ebf3e39e5226b6cc8d5d5b8b93e8ce6
+    log: revlist-d4d7e60d131d-cf5dc97c2ebf.txt
 
---===============6541682415215108338==
+--===============5873914092937070200==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4b3839615013-03338a4186ec.txt
+Content-Disposition: attachment; filename=revlist-03338a4186ec-6c201ee95a30.txt
+
+cf5dc97c2ebf3e39e5226b6cc8d5d5b8b93e8ce6 Merge branch into tip/master: 'timers/urgent'
+296b7e5d906d905d148761c542b8ff1deb6f8e35 Merge branch into tip/master: 'x86/merge'
+4ffdd6bc5180a082907f3810bcb2aa77716f28e1 Merge branch into tip/master: 'perf/merge'
+a10d05f3e4bea98b698e120e240829ecf7fb16bb Merge branch into tip/master: 'core/entry'
+a8c47ca3debe68b62fdcf1a296984e2397f03258 Merge branch into tip/master: 'irq/core'
+09f5c056d2a16afefbde617845cdca3aa45a8f4e Merge branch into tip/master: 'irq/drivers'
+36f03d053dfd79a2e3e3501a610f8586c0dccffc Merge branch into tip/master: 'irq/msi'
+c4d809876a3d2c2e151316a0eae57e12fdbaa33d Merge branch into tip/master: 'sched/core'
+b6ba278ab6c01d6ea22ae2be5c6a872826dcff9f Merge branch into tip/master: 'timers/core'
+dda16d9d65e3c1c7eb4ba113b71ce0ff9a307fd8 Merge branch into tip/master: 'x86/alternatives'
+6301a1f72112418142c2d089cd418c62cb3f2219 Merge branch into tip/master: 'x86/asm'
+f7dd253fee6f2fb8ff8c39e3e3595ddf1a0657ff Merge branch into tip/master: 'x86/boot'
+d5c0aefcf24e057aa0d7eb94269e63533c4f3090 Merge branch into tip/master: 'x86/bugs'
+af627d18084e2d5a734db5b78d4383bc7a5d28cf Merge branch into tip/master: 'x86/cpu'
+0630d233df05279729ba4f428db39adebb3eefa5 Merge branch into tip/master: 'x86/entry'
+40753c1a6f1e7e4fcbda42a199598d611320e5ee Merge branch into tip/master: 'x86/fpu'
+34fc912dd5eaf699e9328563f6bef356d9bf221e Merge branch into tip/master: 'x86/kconfig'
+ed63af848168021f2be2b66601efc1b6a237acfb Merge branch into tip/master: 'x86/microcode'
+0ff687883b536482d7a64d1edb8355be7c9d99c8 Merge branch into tip/master: 'x86/nmi'
+d0550c4b214f4dff7ef2396152f8ac5bfffd1af1 Merge branch into tip/master: 'x86/platform'
+a3d8c7009f4fb12538221cb6605d631b28bd6273 Merge branch into tip/master: 'x86/sev'
+6c201ee95a3027a610f18ae29b83f8827e13641a Merge branch into tip/master: 'x86/sgx'
+
+--===============5873914092937070200==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d4d7e60d131d-cf5dc97c2ebf.txt
 
 06eaa824fd239edd1eab2754f29b2d03da313003 mm/memblock: pass size instead of end to memblock_set_node()
 eac8ea8736ccc09513152d970eb2a42ed78e87e8 mm/memblock: repeat setting reserved region nid if array is doubled
@@ -47,6 +80,6 @@ a32f1923c6d6e9e727d00558a15ec0af6639de19 crypto: scompress - increment scomp_scr
 fba784cc9e3d22a530211ef3ec60d04562349cb4 Merge tag 'fsnotify_for_v6.15-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
 8bac8898fe398ffa3e09075ecea2be511725fb0b Merge tag 'mmc-v6.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
 b6ea1680d0ac0e45157a819c41b46565f4616186 Merge tag 'v6.15-p6' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
-03338a4186ec9a955b32ad448a4ba2d0e475c8dc Merge branch 'linus'
+cf5dc97c2ebf3e39e5226b6cc8d5d5b8b93e8ce6 Merge branch into tip/master: 'timers/urgent'
 
---===============6541682415215108338==--
+--===============5873914092937070200==--
