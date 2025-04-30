@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Wed, 30 Apr 2025 09:57:01 -0000
-Message-Id: <174600702141.480615.16853008000641358404@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 30 Apr 2025 10:02:24 -0000
+Message-Id: <174600734491.485195.13677695710247998575@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/work.coredump.socket
-    old: ad875d0773a23bb78e19cb01ab9d6c81f46e84c8
-    new: e38d9666e84efd898cf94bfa719d83058f9b2937
+  - ref: refs/heads/master
+    old: 26533173973e62a80f9cde88115ead012aa97bdc
+    new: 7d6f687617902ead4372e91f713ba323bcf27eec
     log: |
-         e29f960b31b01ea174d58058356d81a8c86aa9b5 coredump: massage format_corname()
-         4cd9cf4efdca3bb695f2c6aa9c6569086b726af2 coredump: massage do_coredump()
-         e8366829a3c65c9528d9717bf490d5ba9dc24caf coredump: support AF_UNIX sockets
-         e38d9666e84efd898cf94bfa719d83058f9b2937 coredump: support AF_UNIX sockets
+         007c07168ac0c64387be500f6604b09ace3f3bdc time/jiffies: Change register_refined_jiffies() to void __init
+         d8ca84d48a2a2d4f6780980743c34b70c49f5844 alarmtimer: Remove dead return value in clock2alarm()
+         2117c1d503b4e0fd0c6776ae9fe4df2260643eae alarmtimer: Switch spin_{lock,unlock}_irqsave() to guards
+         7d6f687617902ead4372e91f713ba323bcf27eec Merge branch into tip/master: 'timers/core'
          
