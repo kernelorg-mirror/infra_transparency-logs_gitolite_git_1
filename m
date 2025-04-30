@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Wed, 30 Apr 2025 02:44:47 -0000
-Message-Id: <174598108787.129094.4521341964015310925@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+Date: Wed, 30 Apr 2025 02:51:45 -0000
+Message-Id: <174598150545.135809.3343174560059300842@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+user: herbert
 changes:
-  - ref: refs/heads/testing/wfamnae-next20250424
-    old: c5701e3fd399ce9fe02aeb920386e4ab3cea9730
-    new: 057e570f7672803f41f69ff61b7df1c92d5f215d
+  - ref: refs/heads/master
+    old: 2dfc7cd74a5e062a5405560447517e7aab1c7341
+    new: 5b39aa368bcfe193666ad4a68ef55f41dfd74028
     log: |
-         ce8f2f033d03a5613bea281839fa89df83d1b4d9 bcachefs: Avoid -Wflex-array-member-not-at-end warning
-         057e570f7672803f41f69ff61b7df1c92d5f215d power: supply: cros_charge-control: Avoid -Wflex-array-member-not-at-end warning
+         5b39aa368bcfe193666ad4a68ef55f41dfd74028 crypto: s390/sha512 - Fix sha512 state size
          
