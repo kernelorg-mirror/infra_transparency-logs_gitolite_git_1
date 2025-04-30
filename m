@@ -1,58 +1,77 @@
-Content-Type: multipart/mixed; boundary="===============6181876973480412427=="
+Content-Type: multipart/mixed; boundary="===============0737598592808153491=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Wed, 30 Apr 2025 18:40:14 -0000
-Message-Id: <174603841488.929808.1903033723744701255@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Wed, 30 Apr 2025 18:42:11 -0000
+Message-Id: <174603853186.930949.14127509939716361059@gitolite.kernel.org>
 
---===============6181876973480412427==
+--===============0737598592808153491==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/master
-    old: fa0ea182e733dff39a845f15cf2575098b9f1ee2
-    new: 32153d36e6d717f17199c3ce91570cd9c422201e
-    log: |
-         e65eee00000e7bada3879fa7f7686fb5732a157a tools: bippy: start using the log crate
-         1d523612d8bde7ee1251cf16c50715c5e8fe195d tools: bippy: run rustfmt
-         32153d36e6d717f17199c3ce91570cd9c422201e tools: cve_create: run rustfmt
-         
+  - ref: refs/heads/bleeding-edge
+    old: b8e28dcddcb251349e685f0ceab929ff24560724
+    new: a228f8a8daf043f230a86f44c8d4233154d58652
+    log: revlist-b8e28dcddcb2-a228f8a8daf0.txt
+  - ref: refs/heads/linux-next
+    old: a1bc03d0caf509c8062824d440aed9f7f5d9a6bd
+    new: 938462ba21c63afb3d196634ab28463558e0c7fd
+    log: revlist-a1bc03d0caf5-938462ba21c6.txt
+  - ref: refs/heads/testing
+    old: a1bc03d0caf509c8062824d440aed9f7f5d9a6bd
+    new: 938462ba21c63afb3d196634ab28463558e0c7fd
+    log: revlist-a1bc03d0caf5-938462ba21c6.txt
 
---===============6181876973480412427==
+--===============0737598592808153491==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-b8e28dcddcb2-a228f8a8daf0.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1746038442 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1746038411-d6a484e08467332c850eca41cca739ff52d16347
+be5134a1ca6bced25d4f683de42b084c8d162c48 ACPICA: Utilities: Fix spelling mistake "Incremement" -> "Increment"
+f725103cf7483a0238ee00e5412582142f7b4fe2 ACPICA: infrastructure: Add new DMT_BUF types and shorten a long name
+217c3b450c12fa0a951bbbfb8773f2ca9ae92bb8 ACPICA: actbl2.h: ERDT: Add typedef and other definitions
+d00651b379f649d1486c911917d3fa935e175dab ACPICA: Introduce ACPI_NONSTRING
+f1280e541ed5972634a5a9b23775bb881bc98ab8 ACPICA: Apply ACPI_NONSTRING
+d519a3d56dfdd05558c60474cbea2615a2afdb91 ACPICA: actbl2.h: ACPI 6.5: RAS2: Rename structure and field names of the RAS2 table
+45d4cc2e5b0a8ec180be4743e4658432b582d477 ACPICA: Adjust the position of code lines
+8053060b249041b651c1c7d6d978260e40681e17 ACPICA: Avoid sequence overread in call to strncmp()
+719210dd726d1d271e817e0f7fd8d6d42b63b99f ACPICA: Apply ACPI_NONSTRING in more places
+b6aa3523af9b9bab18b792fa5973da7cd2831070 ACPICA: Replace strncpy() with memcpy()
+bfd8138f6b4cd7ede318f30728cf5b13fd27a936 ACPICA: Logfile: Changes for version 20250404
+2bfa8fe15cff0e208ae1f4b079051d7ff51d3bb2 ACPICA: Update copyright year
+d523cbdd34f2c0277f0f6a85f4382f7907bcd856 Merge branch 'acpica' into linux-next
+ef7c0716f390f44b22051a23e2aa293d45c4e124 Merge branches 'pm-em' and 'pm-runtime' into linux-next
+938462ba21c63afb3d196634ab28463558e0c7fd Merge branch 'fixes' into linux-next
+003f30e6b25aa6eca8b1ef399544fba7403a152a Merge branch 'acpi-pm' into bleeding-edge
+a228f8a8daf043f230a86f44c8d4233154d58652 Merge branch 'pm-sleep-testing' into bleeding-edge
 
-fa0ea182e733dff39a845f15cf2575098b9f1ee2 32153d36e6d717f17199c3ce91570cd9c422201e refs/heads/master
------BEGIN PGP SIGNATURE-----
+--===============0737598592808153491==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-a1bc03d0caf5-938462ba21c6.txt
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgSbqobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8zcP/3xmrSdRtj11fpTvBGbU
-JFmrNvXb2+Q09OWWB46rsriH4h+ptQWB/ZLdwvL0NwOSD+J8akVXNmzilv9sNBZM
-9ov3FvIm9yhUZESCUzujoZpXmb19HhexnXUl952I0nolL6yoKlNjb/up5RhZXQWk
-Xo0m24aWUYBRr6kk3nVwA81SwYxMUs8yRoHWmgdd3QcO8emgv3U84gvsI6o+5K6h
-rH5sDpzFpNPyfXt3hXe0XOtk6RcH2DJpOrO9/PIsBnV35RcOX9P1SPhJkq5gup59
-a6hw8XoWJfaW2Kj75AvwXd32xK099dLbTuoRvw1/ii6lGVDx8wql1gmKTslGQmWp
-yP774/wo7dtQ63efTAq1Bmt9wnuIoQHNbF1CZulelpj/gdipuu7dLv5uYdEuU4D5
-wAt14v0f2dOOqseAy8kL/EF6prR0boL+Bw0otlygTckhKaVSBIj78atktrLF4zdy
-JKo7sOVa5vT5iZrvoi+YPZsXbO1HGZetG7LdZeKttMDkOv9neOtiq5euyYOImFbQ
-Cf82fzpu4+c4CE5Pr0w+DsolCR1lT/qUDIdFBM6vvBg5FHSvj7O+eD8Sff1yvsgi
-xiwlbv/bAeEaeTse65Jp/GK2gU4N+lRxp8z3t5xmDipQ8pLxOlNyqjR33Dt/iGeY
-DJ9Hteq1m+UCVHHLCvcZPG/Y
-=hznU
------END PGP SIGNATURE-----
+be5134a1ca6bced25d4f683de42b084c8d162c48 ACPICA: Utilities: Fix spelling mistake "Incremement" -> "Increment"
+f725103cf7483a0238ee00e5412582142f7b4fe2 ACPICA: infrastructure: Add new DMT_BUF types and shorten a long name
+217c3b450c12fa0a951bbbfb8773f2ca9ae92bb8 ACPICA: actbl2.h: ERDT: Add typedef and other definitions
+d00651b379f649d1486c911917d3fa935e175dab ACPICA: Introduce ACPI_NONSTRING
+f1280e541ed5972634a5a9b23775bb881bc98ab8 ACPICA: Apply ACPI_NONSTRING
+d519a3d56dfdd05558c60474cbea2615a2afdb91 ACPICA: actbl2.h: ACPI 6.5: RAS2: Rename structure and field names of the RAS2 table
+45d4cc2e5b0a8ec180be4743e4658432b582d477 ACPICA: Adjust the position of code lines
+8053060b249041b651c1c7d6d978260e40681e17 ACPICA: Avoid sequence overread in call to strncmp()
+719210dd726d1d271e817e0f7fd8d6d42b63b99f ACPICA: Apply ACPI_NONSTRING in more places
+b6aa3523af9b9bab18b792fa5973da7cd2831070 ACPICA: Replace strncpy() with memcpy()
+bfd8138f6b4cd7ede318f30728cf5b13fd27a936 ACPICA: Logfile: Changes for version 20250404
+2bfa8fe15cff0e208ae1f4b079051d7ff51d3bb2 ACPICA: Update copyright year
+d523cbdd34f2c0277f0f6a85f4382f7907bcd856 Merge branch 'acpica' into linux-next
+ef7c0716f390f44b22051a23e2aa293d45c4e124 Merge branches 'pm-em' and 'pm-runtime' into linux-next
+938462ba21c63afb3d196634ab28463558e0c7fd Merge branch 'fixes' into linux-next
 
---===============6181876973480412427==--
+--===============0737598592808153491==--
