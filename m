@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Wed, 30 Apr 2025 08:37:59 -0000
-Message-Id: <174600227906.414634.6854847333422537457@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Wed, 30 Apr 2025 08:46:02 -0000
+Message-Id: <174600276216.422045.442830378526236056@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libgpiod/libgpiod
-user: brgl
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/heads/v2.2.x
-    old: 0af9061ced13011712387780291a6a79e22b243c
-    new: b34475d4bfd3b964ef13f65d4d8039779393f27b
+  - ref: refs/heads/opp/linux-next
+    old: cb4bdf07e512e39af4c9142679c1361ce76e9336
+    new: 63ff8239d5934246cf78d9fdd267fbd7c5876236
     log: |
-         b34475d4bfd3b964ef13f65d4d8039779393f27b core: keep memory usage of struct line_config in check
+         0f172e6a7082a5e5b11c1e56feb8152bc634f887 OPP: Define and use scope-based cleanup helpers
+         63ff8239d5934246cf78d9fdd267fbd7c5876236 OPP: Use mutex locking guards
          
