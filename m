@@ -1,28 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Thu, 01 May 2025 13:28:39 -0000
-Message-Id: <174610611925.1891948.6015055691066518211@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Thu, 01 May 2025 13:28:54 -0000
+Message-Id: <174610613452.1892317.2755188955077755140@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/for-next
-    old: d300ada9a216c84a70f057a13da29441166f100c
-    new: f7a7c324b934eb7bf060af9a0ece36ddfb22fa2f
+  - ref: refs/heads/master
+    old: 5b6c096fb859a70a0792b97ad7aca3190404a5a0
+    new: f8d0dc114036806c25856ec1f0161d3e5ef5e2a1
     log: |
-         db1fefec31e79e59459c2c14fe4d42e303ef8ba3 arm64: dts: rockchip: Enable bluetooth of AP6611s on OrangePI5 Max/Ultra
-         60087bcbd1206a546c570c453dee5f5d961ef5b3 arm64: dts: rockchip: fix usb-c port functionality on rk3588-nanopc-t6
-         f7a7c324b934eb7bf060af9a0ece36ddfb22fa2f Merge branch 'v6.16-armsoc/dts64' into for-next
-         
-  - ref: refs/heads/v6.16-armsoc/dts64
-    old: 24d8127d801560c8fa811d554e8ab5db7e51511c
-    new: 60087bcbd1206a546c570c453dee5f5d961ef5b3
-    log: |
-         db1fefec31e79e59459c2c14fe4d42e303ef8ba3 arm64: dts: rockchip: Enable bluetooth of AP6611s on OrangePI5 Max/Ultra
-         60087bcbd1206a546c570c453dee5f5d961ef5b3 arm64: dts: rockchip: fix usb-c port functionality on rk3588-nanopc-t6
+         765356e80262a20c359ec7722a5590232442d0d3 obexd: Unregister profiles when the user is inactive
+         8b29b5a46cdc7015a1dc5b502fe103e0c2e7f219 obexd: Support sd_login_monitor_get_timeout()
+         f8d0dc114036806c25856ec1f0161d3e5ef5e2a1 Revert "obexd: only run one instance at once"
          
