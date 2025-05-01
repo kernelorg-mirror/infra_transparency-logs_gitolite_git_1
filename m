@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2091659210945877351=="
+Content-Type: multipart/mixed; boundary="===============4064128164073073050=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 01 May 2025 15:44:35 -0000
-Message-Id: <174611427579.2010359.16545079798084057852@gitolite.kernel.org>
+Date: Thu, 01 May 2025 15:44:38 -0000
+Message-Id: <174611427811.2010464.13222504741633341215@gitolite.kernel.org>
 
---===============2091659210945877351==
+--===============4064128164073073050==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 0a7bc4d6b04bed1257faf9502f9b4076bac466ea
     new: 1daa05fdddebc8ea5f09d407a74ba88f6d0cfdbf
     log: revlist-0a7bc4d6b04b-1daa05fdddeb.txt
 
---===============2091659210945877351==
+--===============4064128164073073050==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -47,4 +47,4 @@ d4dda902dac194e3231a1ed0f76c6c3b6340ba8a net: vertexcom: mse102x: Add range chec
 ee512922ddd7d64afe2b28830a88f19063217649 net: vertexcom: mse102x: Fix RX error handling
 1daa05fdddebc8ea5f09d407a74ba88f6d0cfdbf Merge branch 'net-vertexcom-mse102x-fix-rx-handling'
 
---===============2091659210945877351==--
+--===============4064128164073073050==--
