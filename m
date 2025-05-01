@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Thu, 01 May 2025 18:41:53 -0000
-Message-Id: <174612491380.2160082.10631532146983255202@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Thu, 01 May 2025 18:50:59 -0000
+Message-Id: <174612545983.2168101.4465086701534288711@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/libata/linux
-user: dlemoal
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/for-6.15-fixes
-    old: f847305cbdd63e18040ce214ae2363c3fd605b2a
-    new: 14a3cc755825ef7b34c986aa2786ea815023e9c5
+  - ref: refs/heads/master
+    old: decc28b4585a00d6c15fb5e85695e17978995321
+    new: fd405cdb1f25cfe10efe30edf4ec5862b9442980
+    log: |
+         fd405cdb1f25cfe10efe30edf4ec5862b9442980 foo
+         
