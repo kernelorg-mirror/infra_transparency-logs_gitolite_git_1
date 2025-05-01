@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6180483662284993413=="
+Content-Type: multipart/mixed; boundary="===============4836648744377358347=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 01 May 2025 15:37:31 -0000
-Message-Id: <174611385105.2004229.14612801720380799246@gitolite.kernel.org>
+Date: Thu, 01 May 2025 15:37:40 -0000
+Message-Id: <174611386096.2004613.17329795909223288710@gitolite.kernel.org>
 
---===============6180483662284993413==
+--===============4836648744377358347==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 0a7bc4d6b04bed1257faf9502f9b4076bac466ea
-    new: 1daa05fdddebc8ea5f09d407a74ba88f6d0cfdbf
-    log: revlist-0a7bc4d6b04b-1daa05fdddeb.txt
+  - ref: refs/heads/dev-queue
+    old: c6926d0279019ae4137b0b4210ce74d1e3170fc6
+    new: c8136b6dd708d4d4d5e9cd742e2342ee95508afb
+    log: revlist-c6926d027901-c8136b6dd708.txt
 
---===============6180483662284993413==
+--===============4836648744377358347==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0a7bc4d6b04b-1daa05fdddeb.txt
+Content-Disposition: attachment; filename=revlist-c6926d027901-c8136b6dd708.txt
 
 8a558cbda51bef09773c72bf74a32047479110c7 idpf: fix potential memory leak on kcalloc() failure
 ed375b182140eeb9c73609b17939c8a29b27489e idpf: protect shutdown from reset
@@ -46,5 +46,21 @@ e317aebeefcb3b0c71f2305af3c22871ca6b3833 net: hns3: fixed debugfs tm_qset size
 d4dda902dac194e3231a1ed0f76c6c3b6340ba8a net: vertexcom: mse102x: Add range check for CMD_RTS
 ee512922ddd7d64afe2b28830a88f19063217649 net: vertexcom: mse102x: Fix RX error handling
 1daa05fdddebc8ea5f09d407a74ba88f6d0cfdbf Merge branch 'net-vertexcom-mse102x-fix-rx-handling'
+1b2b19424dd3a3a157b03d2e5ef4273fe3ba863c coccinelle: misc: secs_to_jiffies script: Create dummy report
+d77959377f37569015a9d92da3a075e0541f5cc3 ice: fix lane number calculation
+cd957089caadeb6a9e2ce5786e8c9722ab4386e0 ice: fix fwlog after driver reinit
+7851857b744aed256f0db0f2b780699bd6cfe6b6 iavf: iavf_suspend(): take RTNL before netdev_lock()
+52e82e5e38114fa801abed40d8a93dfde5f73761 iavf: centralize watchdog requeueing itself
+dc1d0a3be2b2e9d8cd03d021d760868e80ca4699 iavf: simplify watchdog_task in terms of adminq task scheduling
+631cf06275422baa26eeff1c3afdc18ccf071431 iavf: extract iavf_watchdog_step() out of iavf_watchdog_task()
+cf1d4d065407df8e2a9d12bf0700ee0bac1f1042 iavf: sprinkle netdev_assert_locked() annotations
+6b537d222a5fd76e97d2132a31ca698621f68278 iavf: get rid of the crit lock
+154968576f2630c2da6ed2209d81332de426a02d ice: fix vf->num_mac count with port representors
+f51424696e2eedc594d508f97c52528a521188e3 idpf: fix null-ptr-deref in idpf_features_check
+a890ba3fc8fe8b953a7ee8977d143428f7e81eb4 ice: use DSN instead of PCI BDF for ice_adapter index
+5b650db06aff36220750d7c75b59803a83a22fb1 ice: fix Tx scheduler error handling in XDP callback
+b383cdcf50fdf7b144c8b9ac3db01dafa6b444cb ice: create new Tx scheduler nodes for new queues only
+411b83c46a0a0a6348926a122fcb0317a454f78e ice: fix rebuilding the Tx scheduler tree for large queue counts
+c8136b6dd708d4d4d5e9cd742e2342ee95508afb iavf: fix reset_task for early reset event
 
---===============6180483662284993413==--
+--===============4836648744377358347==--
