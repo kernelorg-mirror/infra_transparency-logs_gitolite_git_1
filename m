@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 01 May 2025 18:50:59 -0000
-Message-Id: <174612545983.2168101.4465086701534288711@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Thu, 01 May 2025 19:00:39 -0000
+Message-Id: <174612603939.2176300.16416112027867860033@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
   - ref: refs/heads/master
-    old: decc28b4585a00d6c15fb5e85695e17978995321
-    new: fd405cdb1f25cfe10efe30edf4ec5862b9442980
+    old: a1afd438e713316cdc701bd644be73d87a4544d5
+    new: c03e896217f79221cbba1972c15a353724b495d5
     log: |
-         fd405cdb1f25cfe10efe30edf4ec5862b9442980 foo
+         c03e896217f79221cbba1972c15a353724b495d5 Bluetooth: btusb: Add new VID/PID 13d3/3630 for MT7925
          
