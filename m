@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Thu, 01 May 2025 19:00:39 -0000
-Message-Id: <174612603939.2176300.16416112027867860033@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Thu, 01 May 2025 19:06:13 -0000
+Message-Id: <174612637372.2180796.7507262844368822614@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+repo: pub/scm/bluetooth/bluez
 user: vudentz
 changes:
   - ref: refs/heads/master
-    old: a1afd438e713316cdc701bd644be73d87a4544d5
-    new: c03e896217f79221cbba1972c15a353724b495d5
+    old: bbfeef3a04b0ad4de5802790b6bcb2e4d9fb9e5e
+    new: 9c52188d753002a6afd6ae145f921a2ff52c1c81
     log: |
-         c03e896217f79221cbba1972c15a353724b495d5 Bluetooth: btusb: Add new VID/PID 13d3/3630 for MT7925
+         b111b5e15eb74e08b74cb3c7e91bcb21f54be4c7 input: fix HID compilation w/o HoG
+         9c52188d753002a6afd6ae145f921a2ff52c1c81 input: fix HoG compilation w/o HID
          
