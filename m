@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 01 May 2025 16:50:02 -0000
-Message-Id: <174611820246.2069472.9654041257215492336@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 01 May 2025 17:37:20 -0000
+Message-Id: <174612104034.2106800.4456089293530932575@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: daveh
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/x86/mm
-    old: eaa607deb29e0b6fd24b9adf230fbc765f342521
-    new: 1b3f2bd04d90f61e1f291b5e365b9bc4ce0ea7c7
+  - ref: refs/heads/master
+    old: 358b1c0f56ebb6996fcec7dcdcf6bae5dcbc8b6c
+    new: 7b05f43155cb128aa06a226afdbc3daa8d75b358
     log: |
-         1b3f2bd04d90f61e1f291b5e365b9bc4ce0ea7c7 x86/devmem: Remove duplicate range_is_allowed() definition
+         7b05f43155cb128aa06a226afdbc3daa8d75b358 bpf: Replace offsetof() with struct_size()
          
