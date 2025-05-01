@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/superm1/amd-debug-tools
-Date: Thu, 01 May 2025 18:17:44 -0000
-Message-Id: <174612346456.2140401.10309309910013768989@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
+Date: Thu, 01 May 2025 18:41:53 -0000
+Message-Id: <174612491380.2160082.10631532146983255202@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/superm1/amd-debug-tools
-user: superm1
+repo: pub/scm/linux/kernel/git/libata/linux
+user: dlemoal
 changes:
-  - ref: refs/heads/refactor
-    old: 2c86890b145118a4d2146c2e0fa75487aaf5c3ef
-    new: f0a5ac03e92b364a8a3960eda3d1ffd89ec0dcab
-    log: |
-         f0a5ac03e92b364a8a3960eda3d1ffd89ec0dcab s2idle: fix install command
-         
+  - ref: refs/heads/for-6.15-fixes
+    old: f847305cbdd63e18040ce214ae2363c3fd605b2a
+    new: 14a3cc755825ef7b34c986aa2786ea815023e9c5
