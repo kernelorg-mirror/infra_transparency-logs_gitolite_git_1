@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============7203368672168500017=="
+Content-Type: multipart/mixed; boundary="===============5772237877728733804=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 01 May 2025 07:53:21 -0000
-Message-Id: <174608600100.1596705.17584457862279755024@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 01 May 2025 07:53:27 -0000
+Message-Id: <174608600704.1596963.3438735281130652528@gitolite.kernel.org>
 
---===============7203368672168500017==
+--===============5772237877728733804==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.16
+  - ref: refs/heads/asoc-6.16
     old: d20df86b056b95845f6ed52da1010059202a0c23
     new: c788129c851d990387527b26efd4fd453dde14d2
     log: revlist-d20df86b056b-c788129c851d.txt
 
---===============7203368672168500017==
+--===============5772237877728733804==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1746086030 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1746085999-d51def1743011d832177deb7b35714cf97a3895d
+pusher Mark Brown <broonie@kernel.org> 1746086036 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1746086005-7e864182a81163c2df6d82467a9d9bd0c9fde4de
 
-d20df86b056b95845f6ed52da1010059202a0c23 c788129c851d990387527b26efd4fd453dde14d2 refs/heads/for-6.16
+d20df86b056b95845f6ed52da1010059202a0c23 c788129c851d990387527b26efd4fd453dde14d2 refs/heads/asoc-6.16
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgTKI4THGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0LOpCACEf7H/g0vsN+apb9Ec/IBWDR5vLPzT
-97fAm/LCQzW2dgjCjKqFSAi0UAX0SuYu20sofdU6oAPLb3ecQtq4bl/Q60swMUIb
-OS5CCpSqFmaUHlmMGf+MeocrRjEmv2SSPTosRrUf5Vh6tSHqRnRt3Zgp/bgh3Fl9
-f1BRsK0gewPO1MsIwXXIw7YiJzikXjqyPRVCD5iE7B/ziipUpqaRzhIQ/aV9ToFn
-lIyc2th/NcmWZbZ8bsPmQlrnHjqBXaJg+xtVpqqOuqvSCbDYDiCiZ9LxvuB/qM2d
-tfFGrbQ3a1imYQoc5fHSfylQmUdxp+glUTklEFagAWngbiT+rrvl4SDG
-=YLxc
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgTKJQTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0NFaB/9JH6HkOODuT0JVFRw/TmZeko86m74S
+IWnv8ZlnJcoYxY+jlfAM0MCCt0eZY5YFHWZkdHS9fYG4ag41YRbtAn5DfIBHZzSQ
+JZPPJ3iBLtahX74r22+KEhgJl/+zLZmZHAfm0t5bxkEAv+sHCXwao6XX8KSEP2on
+hhUrUsPGGX+RYCist4OukOPCJrE/Yo3xWtugNIk3Ll7XEt553gL5E1shn3fR9v4t
+/tTPan46EudLXAsEFYgvlJ5sJJjeaW7H2RDVfZciKhGi/k1zpSzZBDyi39alYR9B
+y64pG8c/a+zG4OKptKWQCFovzIUkl4ya/KqK7s3CrgoBT+nqheqgA7fU
+=9ohG
 -----END PGP SIGNATURE-----
 
---===============7203368672168500017==
+--===============5772237877728733804==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -875,4 +875,4 @@ b4432656b36e5cc1d50a1f2dc15357543add530e Linux 6.15-rc4
 178c169a30b011971cbbf9c79032b5898b1b07de ASoC: codec: twl4030: Convert to GPIO descriptors
 c788129c851d990387527b26efd4fd453dde14d2 ASoC: codec: twl4030: Convert to GPIO descriptors
 
---===============7203368672168500017==--
+--===============5772237877728733804==--
