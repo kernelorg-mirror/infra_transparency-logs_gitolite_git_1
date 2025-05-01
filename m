@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============2190785651836172456=="
+Content-Type: multipart/mixed; boundary="===============2308305052014780602=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 01 May 2025 06:33:56 -0000
-Message-Id: <174608123697.1529710.16984878041912478926@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 01 May 2025 06:34:03 -0000
+Message-Id: <174608124303.1529964.718942154116642899@gitolite.kernel.org>
 
---===============2190785651836172456==
+--===============2308305052014780602==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.15
+  - ref: refs/heads/asoc-6.15
     old: 7f91f012c1df07af6b915d1f8cece202774bb50e
     new: 315c84567001aec7f7b74a0dbd4fce3e1c5cbd87
     log: revlist-7f91f012c1df-315c84567001.txt
 
---===============2190785651836172456==
+--===============2308305052014780602==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1746081266 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1746081235-b41bdf1b91fe140e7b8385618c4b5559d7c7b329
+pusher Mark Brown <broonie@kernel.org> 1746081272 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1746081240-2b0f9c8198286705a09f38e25732a828f82a3319
 
-7f91f012c1df07af6b915d1f8cece202774bb50e 315c84567001aec7f7b74a0dbd4fce3e1c5cbd87 refs/heads/for-6.15
+7f91f012c1df07af6b915d1f8cece202774bb50e 315c84567001aec7f7b74a0dbd4fce3e1c5cbd87 refs/heads/asoc-6.15
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgTFfITHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0LfTB/0axWAtjp4rW2voNY95nsdL3f7XysLF
-WiSZsSjtlMSG8qx8NmH7Z5Cvdu8oTDuiQh+Ff3jVO3vRSN2LqQNURytAE/Whs/M1
-XTm00OmxFIuH1idQNfv0350RPSYrP5S+kNbqSSRJBeFpCJ8HU/TO8O8bWl2dM/Go
-AEz2N53eaQmF3YPg9uGquJ4CKPH4cF8iKGEfFqB41JtW65JDcsbsYZYuHZ9c1ZoK
-k9Wyr8nRSxBNYM1097lGsobMCkncjpkxxZMcWrPWkZLsWhcMl+mDXq4MM2YLWZ5l
-AFlN4g/+4kGZnx7OIhJ7XmBKY/Q4qqlxonBdHSFyYJ6evl3sobt9jbE2
-=67cp
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgTFfgTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0NGNB/wJ1ckIS2aQw2chC48WNl0FOsgYyB8V
+tnkVid3VE2Alohi+LTs/RKyjC6OqkslNgjlceAFUvOfmspS1flL5SovlSpbuQpMH
+WQ0NdlrPnCUFantfOCnOtje6qFzum7TfNvCQ97WMXgF/Suc7nal2c8Hu4a8ZufwO
+FgWcZM3Hqrr/je59yhY01TyZIJ27ZSIsXQSvdT2yjvCf/zKXoiT40eL47G7Ahzze
+JDm4DxCcr6AExbmq/hNCo2wcg/uUaLvI3t3dTwdk19btfvD0T7w8C7SWHJaa6P/W
+TqsxW/kBH6TSDGgN2SD9MBDom21fDcVanpYLF/OaWAkvfLVukskd7omx
+=NkVN
 -----END PGP SIGNATURE-----
 
---===============2190785651836172456==
+--===============2308305052014780602==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -878,4 +878,4 @@ d5463e531c128ff1b141fdba2e13345cd50028a4 ASoC: intel/sdw_utils: Add volume limit
 844af9911a5d1dc41f3478dc312a404b38cbc83b ASoC: stm32: sai: fix kernel rate configuration
 315c84567001aec7f7b74a0dbd4fce3e1c5cbd87 ASoC: intel/sdw_utils: Add volume limits to CS35L56
 
---===============2190785651836172456==--
+--===============2308305052014780602==--
