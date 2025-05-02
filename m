@@ -1,25 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iommu/linux
-Date: Fri, 02 May 2025 10:31:22 -0000
-Message-Id: <174618188286.3283269.2826508230711216566@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Fri, 02 May 2025 10:34:07 -0000
+Message-Id: <174618204743.3284682.5324610191930018001@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iommu/linux
-user: joro
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/amd/amd-vi
-    old: 94c721ea03c7078163f41dbaa101ac721ddac329
-    new: 94a9921e2c25eedcf95b00cedbd065579406655a
+  - ref: refs/heads/renesas/g3s/i3c-broken-out-experimental
+    old: fdb22e5747c57fe066fb2027b53f34f976a6f93f
+    new: cef8f3b819cc92a3d1738b1ddab9a84c8b075953
     log: |
-         94a9921e2c25eedcf95b00cedbd065579406655a iommu/amd: Add support for HTRangeIgnore feature
-         
-  - ref: refs/heads/core
-    old: e586e22974d2b7acbef3c6c3e01b2d5ce69efe33
-    new: 2e9b2ee2ba403cbe270a8256b8794ef5ad19b38d
-    log: |
-         2e9b2ee2ba403cbe270a8256b8794ef5ad19b38d iommu: Cleanup comments for dev_enable/disable_feat
+         e0af7c9e5a8d642f0d593190304b289a897f0c8c use helper to get I2C timing parameters
+         cb1214ad3bb0a1662be0dbf2e52f97f5829b0c32 make pure I3C bus selectable in DT
+         cef8f3b819cc92a3d1738b1ddab9a84c8b075953 handle fixmes
          
