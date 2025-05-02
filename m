@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7186533086044378034=="
+Content-Type: multipart/mixed; boundary="===============0141979994175953340=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Fri, 02 May 2025 13:44:23 -0000
-Message-Id: <174619346358.3443181.11196791697723538819@gitolite.kernel.org>
+Date: Fri, 02 May 2025 13:44:36 -0000
+Message-Id: <174619347620.3444024.14947498305684743115@gitolite.kernel.org>
 
---===============7186533086044378034==
+--===============0141979994175953340==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wbg/counter
 user: wbg
 changes:
-  - ref: refs/heads/counter-next
+  - ref: refs/heads/counter-fixes
     old: 0af2f6be1b4281385b618cb86ad946eded089ac8
     new: b4432656b36e5cc1d50a1f2dc15357543add530e
     log: revlist-0af2f6be1b42-b4432656b36e.txt
 
---===============7186533086044378034==
+--===============0141979994175953340==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d22aad29de2a7b13f43ccb9b55cfd5daf793ead4 Merge tag 'nfsd-6.15-2' of git://git.ke
 5bc1018675ec28a8a60d83b378d8c3991faa5a27 Merge tag 'pci-v6.15-fixes-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
 b4432656b36e5cc1d50a1f2dc15357543add530e Linux 6.15-rc4
 
---===============7186533086044378034==--
+--===============0141979994175953340==--
