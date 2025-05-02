@@ -1,43 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============4911460930291005370=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Fri, 02 May 2025 20:36:16 -0000
-Message-Id: <174621817667.3796460.2680968751568350854@gitolite.kernel.org>
-
---===============4911460930291005370==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Fri, 02 May 2025 20:43:17 -0000
+Message-Id: <174621859714.3801527.1991797909148845315@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/for-next/kspp
-    old: c42afe9a494dc644a7fea14d9c22873e26453c4b
-    new: 76cacf008235b3ac2a05fb799dd0d36c98a173b1
-
---===============4911460930291005370==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1746218206 -0700
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1746218165-e0a07adb7ae2ab1a58a8157822a56de75d7939ad
-
-c42afe9a494dc644a7fea14d9c22873e26453c4b 76cacf008235b3ac2a05fb799dd0d36c98a173b1 refs/heads/for-next/kspp
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCaBUs3gAKCRA2KwveOeQk
-u/4BAQDWUknnHFNEpy9xwvkFsXveM3pEITsEUKxXD+ObJP+SHQD5AQC8gly7JQiM
-u29r+onp/uDiNzjOu/qLjX6wRfaOJgg=
-=MJ1c
------END PGP SIGNATURE-----
-
---===============4911460930291005370==--
+  - ref: refs/heads/main-pending
+    old: cbd170d5df79f023caaf71e8a55850060f9e7bc6
+    new: c6efeef3012eccf54e3cd7acf6d13f06f81c1d30
+    log: |
+         891ef069c733b45f34c8e50347de2cb389e2a2c9 dt-bindings: net: wireless: ath12k: describe firmware-name property
+         0538ef8515f8fe84b84852e1b07490164987422d wifi: ath12k: support usercase-specific firmware overrides
+         bbf6ca6bafc929c05441659cc84d8cd8f013b8a4 wifi: ath9k: ahb: do ioremap resource in one step
+         c6efeef3012eccf54e3cd7acf6d13f06f81c1d30 Merge branch 'pending' into main-pending
+         
+  - ref: refs/tags/ath-pending-202505021913
+    old: 0000000000000000000000000000000000000000
+    new: c6efeef3012eccf54e3cd7acf6d13f06f81c1d30
