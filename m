@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 02 May 2025 00:53:41 -0000
-Message-Id: <174614722192.2463552.5835108790333320954@gitolite.kernel.org>
+Date: Fri, 02 May 2025 00:54:34 -0000
+Message-Id: <174614727494.2464625.5314807312553812849@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 08906eacce1366484923158d6b15f8253e5c628a
-    new: 0454b9057e983455cd1011d2c8e1b3697ece14c9
+    old: 0454b9057e983455cd1011d2c8e1b3697ece14c9
+    new: c76bab22e920ba45665ed1e9f9600a9b561a4f5d
     log: |
-         0454b9057e983455cd1011d2c8e1b3697ece14c9 dt-bindings: net: sun8i-emac: Add A523 EMAC0 compatible
+         c76bab22e920ba45665ed1e9f9600a9b561a4f5d selftests: drv-net: rss_input_xfrm: Check test prerequisites before running
          
