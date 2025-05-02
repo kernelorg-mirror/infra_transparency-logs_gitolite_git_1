@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Fri, 02 May 2025 11:14:29 -0000
-Message-Id: <174618446987.3321297.6726392333617847583@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Fri, 02 May 2025 11:28:16 -0000
+Message-Id: <174618529652.3333095.11663495475913448415@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: mikulas
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/dm-6.16
-    old: 6ebfbecd548e89ee609a3ad0606e42df74080529
-    new: 8c268cce4561757acbbaae1731d9c15e7d22cff5
+  - ref: refs/heads/perf/core
+    old: 3e830f657f69ab6a4822d72ec2f364c6d51beef8
+    new: dd0987d6358ef52bac886c5fe8287c12f47a7656
     log: |
-         8c268cce4561757acbbaae1731d9c15e7d22cff5 dm mpath: Interface for explicit probing of active paths
+         f162bd64d95f42f42d1efdba555d898dd14af758 perf: Fix failing inherit_event() doing extra refcount decrement on parent
+         88d51e795539acd08bce028eff3aa78748b847a8 perf: Fix irq work dereferencing garbage
+         9d4ea6fdba71e56c7cf0231a0b0c44723f64c3e7 perf: Remove too early and redundant CPU hotplug handling
+         dd0987d6358ef52bac886c5fe8287c12f47a7656 perf: Fix confusing aux iteration
          
