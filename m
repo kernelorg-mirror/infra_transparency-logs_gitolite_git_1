@@ -1,28 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 02 May 2025 19:23:23 -0000
-Message-Id: <174621380326.3734344.15024918929804446211@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Fri, 02 May 2025 19:42:38 -0000
+Message-Id: <174621495809.3750010.17886958098489553196@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: fa9c4977fbfbca182f9e410d57b3f98356a9d917
-    new: 49677ec7da54c529f9cc7f681c4fdca85553d4ab
+  - ref: refs/heads/x86-startup-confine-v2
+    old: d8769c57b4bcb235ed146f89391c33a54bef1380
+    new: 948e270ecba62a3a17b9ebc1b774dd58ad05cbe3
     log: |
-         35674aa52fc81971ff127291b33a0f5c59fd9704 perf evsel: Expose evsel__is_offcpu_event() for future use
-         09c0824bf4b1fcbf5ed2d7da743a9ce33e8e89b5 perf record --off-cpu: Parse off-cpu event
-         86a11d0f5445b5a75f636317e98db3056b912fbf perf record --off-cpu: Preparation of off-cpu BPF program
-         91fd12f5c93b0f52fa372617400df644f9093287 perf record --off-cpu: Dump off-cpu samples in BPF
-         de67af62e524e564aab7bf26b0af12190a984312 perf evsel: Assemble offcpu samples
-         e6845f9a8679d1c36476aebdb145b3da7765fa94 perf record --off-cpu: Disable perf_event's callchain collection
-         4c66d3e4131bcd842efe3cd41ca95c2a08363889 perf script: Display off-cpu samples correctly
-         85d373710c4f04144dfdad4d3d8e726408b40cb9 perf record --off-cpu: Dump the remaining samples in BPF's stack trace map
-         e8e65836e67da0d7a0d0b12bfeea85019937905a perf record --off-cpu: Add --off-cpu-thresh option
-         49677ec7da54c529f9cc7f681c4fdca85553d4ab perf test: Add direct off-cpu tests
+         9f88feb973e5d1ce09dbb3106c7b8efd532e201a x86/sev: Move __sev_[get|put]_ghcb() into separate noinstr object
+         7a6c040d82930e8b7dff4253a13428d1784d46bc x86/sev: Export startup routines for ordinary use
+         cdcafb43b9bce61692a7c3984ce6285a682feefb x86/boot: Created a confined code area for startup code
+         f79a14b8b92757db14196cfb4c7c6e4a5e9068f6 x86/boot: Move startup code out of __head section
+         d9df2f30ab683bdcbdcaeb602ed30ee0fb3b9ce2 x86/boot: Disallow absolute symbol references in startup code
+         c655b61a1df2113e176653462b339e97b1668236 x86/boot: Revert "Reject absolute references in .head.text"
+         948e270ecba62a3a17b9ebc1b774dd58ad05cbe3 x86/boot: Get rid of the .head.text section
          
