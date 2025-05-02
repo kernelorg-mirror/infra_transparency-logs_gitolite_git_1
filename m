@@ -1,57 +1,85 @@
-Content-Type: multipart/mixed; boundary="===============2331942278284446069=="
+Content-Type: multipart/mixed; boundary="===============9194702688767866556=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Fri, 02 May 2025 14:16:28 -0000
-Message-Id: <174619538801.3470860.14234270625382093939@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
+Date: Fri, 02 May 2025 14:42:08 -0000
+Message-Id: <174619692896.3491246.5441367063400307913@gitolite.kernel.org>
 
---===============2331942278284446069==
+--===============9194702688767866556==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ti/linux
+user: nmenon
 changes:
-  - ref: refs/heads/master
-    old: e5866d4a70270f969db164c1fc6cc3bd5ac9df0d
-    new: 71c9f4ed3cc3797dd3909165a495e74402977b1f
+  - ref: refs/heads/ti-k3-config-next
+    old: 8d8f28da8f9055acf3bd8fa4c6cb05140c505baf
+    new: 42cfb00c919e5951ba5c4067a058c7e2cf2ccbc0
     log: |
-         8ecc6f8021ecda19d1982979b90ac4d10981421d assigned 2 cves on request
-         71c9f4ed3cc3797dd3909165a495e74402977b1f strip the newly created mboxes
+         42cfb00c919e5951ba5c4067a058c7e2cf2ccbc0 arm64: defconfig: Enable TPIC2810 GPIO expander
          
+  - ref: refs/heads/ti-k3-dts-next
+    old: d864bb528a6725e775d564fd4430762acbb9dd0d
+    new: 441870bb81b22d4a3937caeb4b890a94b40c689d
+    log: revlist-d864bb528a67-441870bb81b2.txt
+  - ref: refs/heads/ti-next
+    old: 794f282b1004c489c60a1ce112e1ce83b7741e7f
+    new: 9a7d57fda2d9faf2b6a14c7bb86dac4dbf242252
+    log: revlist-794f282b1004-9a7d57fda2d9.txt
 
---===============2331942278284446069==
+--===============9194702688767866556==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-d864bb528a67-441870bb81b2.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1746195416 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1746195385-ec37865405dd93be0cbec6e0ba06ea9a2940bac2
+db3cd905b8c8cd40f15a34e30a225704bb8a2fcb arm64: dts: ti: k3-am6*: Add boot phase flag to support MMC boot
+d16e7d34352c4107a81888e9aab4ea4748076e70 arm64: dts: ti: k3-am62*: Add non-removable flag for eMMC
+ef839ba8142f14513ba396a033110526b7008096 arm64: dts: ti: k3-am6*: Remove disable-wp for eMMC
+1159f911435b9371575d9956bb5aef579265d29a arm64: dts: ti: k3-am64-main: Switch to 64-bit address space for PCIe0
+46e3d7d7048872ffb90aa25e360b975dc1c3e28b arm64: dts: ti: k3-j7200-main: Switch to 64-bit address space for PCIe1
+1025003a1e068a25b35e1dbb39cad18e23278c0f arm64: dts: ti: k3-j721e: Add ranges for PCIe0 DAT1 and PCIe1 DAT1
+f0f78192d3b3b3c3c935de0d681e7bf2117bbb13 arm64: dts: ti: k3-j721e-main: Switch to 64-bit address space for PCIe0 and PCIe1
+5a765365c689b90ea81f651a43bc30cd9c9c4ed8 arm64: dts: ti: k3-j721s2-main: Switch to 64-bit address space for PCIe1
+0fde00328cf8245bf498349a696ba22d6a4a1916 arm64: dts: ti: k3-j722s-main: Switch to 64-bit address space for PCIe0
+b1f9ec6545c6423e106f0aeddc3b8651b5ad116c arm64: dts: ti: k3-j784s4-j742s2-main-common: Switch to 64-bit address space for PCIe0 and PCIe1
+9bfebd8750a06f5f8bf16ac58eb7deb638686d07 arm64: dts: ti: k3-j784s4-j742s2-main-common: Add ACSPCIE0 node
+e3dfcf482d0787a5882f10a33daa4c1ec62b87d2 arm64: dts: ti: k3-j784s4-j742s2-evm-common: Enable ACSPCIE0 output for PCIe1
+cd156f8741e362f3e0b0282c4abc3d0d0fecda57 dt-bindings: arm: ti: Add Toradex Verdin AM62P
+87f95ea316ac68598544d512a3750cd4a73b5683 arm64: dts: ti: Add Toradex Verdin AM62P
+c98ac03937e24913f90efe16832bac6c22ada76f arm64: dts: ti: am62p-verdin: Add dahlia
+cfdd38cfeb87d2a69303f3cf1bbc57d404826b28 arm64: dts: ti: am62p-verdin: Add mallow
+b0a01514cd906bb90eb2c7589a69429bced7ba1d arm64: dts: ti: am62p-verdin: Add yavia
+441870bb81b22d4a3937caeb4b890a94b40c689d arm64: dts: ti: am62p-verdin: Add ivy
 
-e5866d4a70270f969db164c1fc6cc3bd5ac9df0d 71c9f4ed3cc3797dd3909165a495e74402977b1f refs/heads/master
------BEGIN PGP SIGNATURE-----
+--===============9194702688767866556==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-794f282b1004-9a7d57fda2d9.txt
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgU09gbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gR0QALWga4fO4Xhls2h/nd3U
-PH7jLaKEWEUyUW/crFB8FNI7K5CnbOPaZE7sbDIZ6HroA1to/TA7pRP3leCIBEvE
-1sedamfTA/eQXTDFXK2L46x0NycqKe0dwKerFgAKzO9cctNdouZtisBCTXAIQ4yG
-bZooOjcxD2ltsOJ5c5faXOUwESnjbd5vJ4rE6IZRjnM34LxTh/EBi0b9nnd04703
-qBMr2cxc1WmLW6QIK+Acm4w+cro/JP1ZcPYj4HrK4xuYq3E7PvaUsXMndv45q7sm
-vYS9I0Lck8thfxU09cNinRUFitwXWD67DtdPEtxRPXY7Yq8StuKNwryFPcl2Bl7K
-++3aRznns3gKyzvPG8AJeT8XZ6ArJjXyLftwrz28jLrM/MMi+dx/1PbWnzUwdUT3
-C/su1du4neJdCtK+jRhn0J9H5HeetgMrA3bxYmD2m5CPZyTXTs6B1OzTGHPvz+su
-EGo1ITc3dixj6/WkDD8Kmic9vx1Jr/tDZDfKri5lbwSXDwQFSJXaR3o00UecrXKW
-QzhKPqYggPc1iioUCjepEoXo22EvpQIUhIMMOODAdc5u0fDhRLqOmh/PjiHCN6GZ
-Grx4WkLgXv/gnTF0akw1yR3erI3K6JgO4vJY0UFIVgyLCtj6/Q5+gh+CM9kEhJ0H
-Oc9MXTmlQ2/Rd5vxZ7D4BAO8
-=L+gJ
------END PGP SIGNATURE-----
+db3cd905b8c8cd40f15a34e30a225704bb8a2fcb arm64: dts: ti: k3-am6*: Add boot phase flag to support MMC boot
+d16e7d34352c4107a81888e9aab4ea4748076e70 arm64: dts: ti: k3-am62*: Add non-removable flag for eMMC
+ef839ba8142f14513ba396a033110526b7008096 arm64: dts: ti: k3-am6*: Remove disable-wp for eMMC
+42cfb00c919e5951ba5c4067a058c7e2cf2ccbc0 arm64: defconfig: Enable TPIC2810 GPIO expander
+1159f911435b9371575d9956bb5aef579265d29a arm64: dts: ti: k3-am64-main: Switch to 64-bit address space for PCIe0
+46e3d7d7048872ffb90aa25e360b975dc1c3e28b arm64: dts: ti: k3-j7200-main: Switch to 64-bit address space for PCIe1
+1025003a1e068a25b35e1dbb39cad18e23278c0f arm64: dts: ti: k3-j721e: Add ranges for PCIe0 DAT1 and PCIe1 DAT1
+f0f78192d3b3b3c3c935de0d681e7bf2117bbb13 arm64: dts: ti: k3-j721e-main: Switch to 64-bit address space for PCIe0 and PCIe1
+5a765365c689b90ea81f651a43bc30cd9c9c4ed8 arm64: dts: ti: k3-j721s2-main: Switch to 64-bit address space for PCIe1
+0fde00328cf8245bf498349a696ba22d6a4a1916 arm64: dts: ti: k3-j722s-main: Switch to 64-bit address space for PCIe0
+b1f9ec6545c6423e106f0aeddc3b8651b5ad116c arm64: dts: ti: k3-j784s4-j742s2-main-common: Switch to 64-bit address space for PCIe0 and PCIe1
+9bfebd8750a06f5f8bf16ac58eb7deb638686d07 arm64: dts: ti: k3-j784s4-j742s2-main-common: Add ACSPCIE0 node
+e3dfcf482d0787a5882f10a33daa4c1ec62b87d2 arm64: dts: ti: k3-j784s4-j742s2-evm-common: Enable ACSPCIE0 output for PCIe1
+cd156f8741e362f3e0b0282c4abc3d0d0fecda57 dt-bindings: arm: ti: Add Toradex Verdin AM62P
+87f95ea316ac68598544d512a3750cd4a73b5683 arm64: dts: ti: Add Toradex Verdin AM62P
+c98ac03937e24913f90efe16832bac6c22ada76f arm64: dts: ti: am62p-verdin: Add dahlia
+cfdd38cfeb87d2a69303f3cf1bbc57d404826b28 arm64: dts: ti: am62p-verdin: Add mallow
+b0a01514cd906bb90eb2c7589a69429bced7ba1d arm64: dts: ti: am62p-verdin: Add yavia
+441870bb81b22d4a3937caeb4b890a94b40c689d arm64: dts: ti: am62p-verdin: Add ivy
+9a7d57fda2d9faf2b6a14c7bb86dac4dbf242252 Merge branches 'ti-k3-dts-next' and 'ti-k3-config-next' into ti-next
 
---===============2331942278284446069==--
+--===============9194702688767866556==--
