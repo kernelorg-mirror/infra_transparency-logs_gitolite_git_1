@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3061148993219680488=="
+Content-Type: multipart/mixed; boundary="===============4615459463037308985=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 02 May 2025 15:54:14 -0000
-Message-Id: <174620125401.3556314.3885011926512945492@gitolite.kernel.org>
+Date: Fri, 02 May 2025 15:54:16 -0000
+Message-Id: <174620125672.3556549.5742164816844703937@gitolite.kernel.org>
 
---===============3061148993219680488==
+--===============4615459463037308985==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: deeed351e982ac4d521598375b34b071304533b0
     new: cb9d6b2c2a605f7ee54d18f126d772b4280ee83a
     log: revlist-deeed351e982-cb9d6b2c2a60.txt
 
---===============3061148993219680488==
+--===============4615459463037308985==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -462,4 +462,4 @@ bbfb3c557c66899480c679b7958908722b821ac3 tools: ynl-gen: support using dump type
 777c8029b551caafde89e0440c40127b8b5ba70e tools: ynl: allow fixed-header to be specified per op
 cb9d6b2c2a605f7ee54d18f126d772b4280ee83a Merge branch 'tools-ynl-gen-additional-c-types-and-classic-netlink-handling'
 
---===============3061148993219680488==--
+--===============4615459463037308985==--
