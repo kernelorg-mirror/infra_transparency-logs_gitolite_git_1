@@ -1,57 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============1302887297513590751=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Fri, 02 May 2025 15:57:09 -0000
-Message-Id: <174620142998.3560587.4049028154410090238@gitolite.kernel.org>
-
---===============1302887297513590751==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
+Date: Fri, 02 May 2025 16:00:39 -0000
+Message-Id: <174620163961.3564376.3244785955847097766@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ti/linux
+user: nmenon
 changes:
-  - ref: refs/heads/master
-    old: f107b77c65ca1150bcdfc781c5647437ad962f99
-    new: f339c309f1fccd0905c1077ee75830f4a8f8a1ac
+  - ref: refs/heads/ti-k3-dts-next
+    old: 441870bb81b22d4a3937caeb4b890a94b40c689d
+    new: f55c9f087cc2e2252d44ffd9d58def2066fc176e
     log: |
-         2526bdfeab68b83b1601dfc45cd7fee1ab0e4140 assign cves to gsd-request-2023-04-02 review
-         f339c309f1fccd0905c1077ee75830f4a8f8a1ac mark gsd-request-2023-04-02 as done
+         3a71cdfec94436079513d9adf4b1d4f7a7edd917 arm64: dts: ti: k3-am62-main: Set eMMC clock parent to default
+         6af731c5de59cc4e7cce193d446f1fe872ac711b arm64: dts: ti: k3-am62a-main: Set eMMC clock parent to default
+         9c6b73fc72e19c449147233587833ce20f84b660 arm64: dts: ti: k3-am62p-j722s-common-main: Set eMMC clock parent to default
+         f55c9f087cc2e2252d44ffd9d58def2066fc176e arm64: dts: ti: k3-am65-main: Add missing taps to sdhci0
          
-
---===============1302887297513590751==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1746201459 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1746201428-930cea689cb39e89f3b10efa00012c61105cb3ab
-
-f107b77c65ca1150bcdfc781c5647437ad962f99 f339c309f1fccd0905c1077ee75830f4a8f8a1ac refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgU63QbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rIEQAIsuHeoCzoNnM3EnHr/D
-oTXVBicquTy1tOIWOHIUG6O2OFBEkvYM2F/QCM8hvekGw0uriScmRJOIQ70Eyuph
-cY6Cal9YTooEjRnGzF1evdx9crBV7oW9ooMm+xNmvktCM8lBoKDUEojmKMhN1W/s
-FvHhzYdGjmZB7KL5MNIjdMIaWddiDwth9YOsc15fVJX8hAmRlcmKH2GqYzVTORkC
-t1UENIkJNrKrd5PgIXlDqVcy3IVgdRAmi90NSlw131L1WM1RJaP39cTrF280IAi/
-XLdr4LRJbj7nV19AwVxdI1JW9U63gwKIByztbO0hHZ17f+I65PcScxJu91D/ZG+U
-Wnav8wlFAqLZI64okMaEaf4Hb2BDc5Ncmlxzg/DgQCMR323U+2R368i0dzbfrdqC
-qnZuGgkLfqW5y71CSSbr3Pa96rs5504p0773zYVjxhMXoPFwMk9oiDr6NSluUDl2
-EWhGDahBA/pwKx+akJxisvs4WsO/loaqe05TyUxIknMuPfASr9q0DxqRSXGRF33b
-F1PdwEqE5KIRDb/vGghXyOb6f522SWbFyUCv3hF2rnfi+V3M8NlwQctlwRN1lp60
-J6uuwrc3VXr8C6revWtoHHsm0U/Z6zSH3wwgX4jsq1l5AfGHvK+aF9EnRbG/Y01v
-L1zbJNh4HiflLM02fVUxs4Su
-=MJtZ
------END PGP SIGNATURE-----
-
---===============1302887297513590751==--
+  - ref: refs/heads/ti-next
+    old: 9a7d57fda2d9faf2b6a14c7bb86dac4dbf242252
+    new: 63e5784d640a5c61a828d33bee24fea4244e479c
+    log: |
+         3a71cdfec94436079513d9adf4b1d4f7a7edd917 arm64: dts: ti: k3-am62-main: Set eMMC clock parent to default
+         6af731c5de59cc4e7cce193d446f1fe872ac711b arm64: dts: ti: k3-am62a-main: Set eMMC clock parent to default
+         9c6b73fc72e19c449147233587833ce20f84b660 arm64: dts: ti: k3-am62p-j722s-common-main: Set eMMC clock parent to default
+         f55c9f087cc2e2252d44ffd9d58def2066fc176e arm64: dts: ti: k3-am65-main: Add missing taps to sdhci0
+         63e5784d640a5c61a828d33bee24fea4244e479c Merge branch 'ti-k3-dts-next' into ti-next
+         
