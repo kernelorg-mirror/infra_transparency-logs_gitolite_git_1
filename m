@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 02 May 2025 18:56:51 -0000
-Message-Id: <174621221121.3711621.59957442798329517@gitolite.kernel.org>
+Date: Fri, 02 May 2025 19:06:43 -0000
+Message-Id: <174621280392.3719675.3190175140076200212@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: tglx
 changes:
-  - ref: refs/heads/timers/urgent
-    old: b71f9804f66c2592d4c3a2397b7374a4039005a5
-    new: 7aeb1538be5df3efa1d799e5428ac3a0ae802293
+  - ref: refs/heads/irq/urgent
+    old: e6a3fc4f10b872d02e25f83227e725c79b25d893
+    new: 38a05c0b87833f5b188ae43b428b1f792df2b384
     log: |
-         0c314cda93258cd1f0055a278a6576b5d4aeabf5 arm64: vdso: Work around invalid absolute relocations from GCC
-         7aeb1538be5df3efa1d799e5428ac3a0ae802293 vdso: Reject absolute relocations during build
+         38a05c0b87833f5b188ae43b428b1f792df2b384 irqchip/qcom-mpm: Prevent crash when trying to handle non-wake GPIOs
          
