@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0429238588630755905=="
+Content-Type: multipart/mixed; boundary="===============0114783834236156484=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 02 May 2025 15:30:27 -0000
-Message-Id: <174619982769.3534565.12769961702663953502@gitolite.kernel.org>
+Date: Fri, 02 May 2025 15:30:30 -0000
+Message-Id: <174619983077.3534670.8961751317047787579@gitolite.kernel.org>
 
---===============0429238588630755905==
+--===============0114783834236156484==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 1daa05fdddebc8ea5f09d407a74ba88f6d0cfdbf
     new: ebd297a2affadb6f6f4d2e5d975c1eda18ac762d
     log: revlist-1daa05fdddeb-ebd297a2affa.txt
 
---===============0429238588630755905==
+--===============0114783834236156484==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -347,4 +347,4 @@ b6ea1680d0ac0e45157a819c41b46565f4616186 Merge tag 'v6.15-p6' of git://git.kerne
 4f79eaa2ceac86a0e0f304b0bab556cca5bf4f30 kbuild: Properly disable -Wunterminated-string-initialization for clang
 ebd297a2affadb6f6f4d2e5d975c1eda18ac762d Merge tag 'net-6.15-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============0429238588630755905==--
+--===============0114783834236156484==--
