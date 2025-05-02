@@ -1,24 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Fri, 02 May 2025 10:45:09 -0000
-Message-Id: <174618270986.3296053.5432910940049777157@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Fri, 02 May 2025 11:04:19 -0000
+Message-Id: <174618385984.3309710.10633635037588276845@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/master
-    old: 45b9cf71bee8ddef75075966337a29e75185faee
-    new: 5889aa978ddc93d31d3c48c29899761ebde3f53d
+  - ref: refs/heads/for-next/scmi/updates
+    old: 3d289653b76a179a6dad46698143f56eee05248a
+    new: 2f374e108a5346574098cf453e846269f8c1f797
     log: |
-         9ee66d0b01dfc797c57b4735fd48c138f97a66d2 man/man2/madvise.2: Update MADV_GUARD_INSTALL, MADV_GUARD_REMOVE for Linux 6.15
-         d7dec35a3b197d499c0bb2b078117478fe6382d1 man/man2/ioctl_userfaultfd.2, man/man2const/UFFDIO_MOVE.2const: Document UFFDIO_MOVE
-         7e5756fdeba1a4729f817079c64f0d87fdcdadfa man/man2/mmap.2: CAVEATS: Document danger of mappings larger than PTRDIFF_MAX
-         71a25207293288a5bf9e4d6e9570c6946dfdcbf1 man/man2/close_range.2: EXAMPLES: Correct output of example program
-         84521911eab71ce5ff83365c75dfce846d12ce97 man/man2/memfd_secret.2: It is now enabled by default
-         5889aa978ddc93d31d3c48c29899761ebde3f53d man/man2const/TIOCLINUX.2const: Document CAP_SYS_ADMIN requirement for TIOCL_SETSEL modes
+         5858cf7891acc2cc576d59cafb585be9ee864cfb firmware: arm_scmi: Ensure that the message-id supports fastchannel
+         c94b978034a74ba0f23721808a1ade571bf82c78 firmware: arm_scmi: Add common framework to handle firmware quirks
+         e3671b4caf413135eacb230caa41f82c06b402e2 firmware: arm_scmi: quirk: Fix CLOCK_DESCRIBE_RATES triplet
+         2f374e108a5346574098cf453e846269f8c1f797 firmware: arm_scmi: quirk: Force perf level get fastchannel
          
