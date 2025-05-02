@@ -1,25 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Fri, 02 May 2025 20:43:17 -0000
-Message-Id: <174621859714.3801527.1991797909148845315@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
+Date: Fri, 02 May 2025 20:47:00 -0000
+Message-Id: <174621882077.3805592.566247441867432107@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/mark/linux
+user: mark
 changes:
-  - ref: refs/heads/main-pending
-    old: cbd170d5df79f023caaf71e8a55850060f9e7bc6
-    new: c6efeef3012eccf54e3cd7acf6d13f06f81c1d30
+  - ref: refs/heads/arm64/fpsimd/more-fixes
+    old: 048fbb4c7360c613c030fb8e5e7d1eddbf3dbb8e
+    new: 99b431a922f7faaf6209f7fab615c4f3a578be7d
     log: |
-         891ef069c733b45f34c8e50347de2cb389e2a2c9 dt-bindings: net: wireless: ath12k: describe firmware-name property
-         0538ef8515f8fe84b84852e1b07490164987422d wifi: ath12k: support usercase-specific firmware overrides
-         bbf6ca6bafc929c05441659cc84d8cd8f013b8a4 wifi: ath9k: ahb: do ioremap resource in one step
-         c6efeef3012eccf54e3cd7acf6d13f06f81c1d30 Merge branch 'pending' into main-pending
+         838f508d8418d7077137f7f579f45d76f83acdfc arm64/fpsimd: Add task_{smstop,smstart}_sm()
+         4777accb9c72eb642caddd0dca9e3802868263c7 arm64/fpsimd: signal: Use SMSTOP behaviour in setup_return()
+         a1a73589d0864cfe2c09d3905df4b12ab8caa2b3 WIP: arm64/fpsimd: Ensure VL changes leave task in a valid state
+         89909385f51d8dca62bfb874b8a003b09e082984 arm64/fpsimd: Remove redundant clearing of TIF_SVE
+         9d20b0cd15145d25c291e12155822dd44031a1d3 WIP: TODO: Fix SME ptrace issues
+         3df6a9a4a3c4bafbe360b41c5c8a071122d30129 arm64/fpsimd: Remove redundant task->mm check
+         a3d33e40c2fa1bad0cfcc5b7f832494dfd1ae489 arm64/fpsimd: Consistently preserve FPSIMD state during clone()
+         78101e07a2a87f185553d475f463a01d26cfbf5f arm64/fpsimd: Clear PSTATE.SM during clone()
+         99b431a922f7faaf6209f7fab615c4f3a578be7d arm64/fpsimd: Make clone() compatible with ZA lazy saving
          
-  - ref: refs/tags/ath-pending-202505021913
-    old: 0000000000000000000000000000000000000000
-    new: c6efeef3012eccf54e3cd7acf6d13f06f81c1d30
