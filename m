@@ -1,182 +1,68 @@
-Content-Type: multipart/mixed; boundary="===============7290825208894433711=="
+Content-Type: multipart/mixed; boundary="===============2162221470022673393=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 02 May 2025 07:18:05 -0000
-Message-Id: <174617028547.3086629.537875689102930951@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
+Date: Fri, 02 May 2025 07:26:35 -0000
+Message-Id: <174617079588.3094411.6376737784939803145@gitolite.kernel.org>
 
---===============7290825208894433711==
+--===============2162221470022673393==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/lee/mfd
+user: lee
 changes:
-  - ref: refs/heads/master
-    old: 53c50ae0fcfb1ce2b1aee343de6210db4d98074a
-    new: 6773b8b8b0671c2c02bcfc7b0bc29da98742361f
-    log: revlist-53c50ae0fcfb-6773b8b8b067.txt
-  - ref: refs/heads/tip/urgent
-    old: cf5dc97c2ebf3e39e5226b6cc8d5d5b8b93e8ce6
-    new: 98b6c87dd46d57315f8b403148eab921929dac26
-    log: revlist-cf5dc97c2ebf-98b6c87dd46d.txt
+  - ref: refs/heads/for-mfd-next
+    old: ad89f425ae7846db4ebed49f3d61fb8517936834
+    new: 88191aca808a0866c90fc5c36b77753e44fa73b0
+    log: revlist-ad89f425ae78-88191aca808a.txt
 
---===============7290825208894433711==
+--===============2162221470022673393==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-53c50ae0fcfb-6773b8b8b067.txt
+Content-Disposition: attachment; filename=revlist-ad89f425ae78-88191aca808a.txt
 
-d60620498c5b6bc62464e5ef71cef5fb9e1dcfed Merge branch into tip/master: 'irq/urgent'
-4fb720708764ba21c5ed821e44a47b9675d6e752 Merge branch into tip/master: 'perf/urgent'
-98b6c87dd46d57315f8b403148eab921929dac26 Merge branch into tip/master: 'timers/urgent'
-89c61ce5a158137c85d02826ecec162ef9e6b693 Merge branch into tip/master: 'x86/merge'
-a0a79d2b307e9b139998efa051c6d90c96c51260 Merge branch into tip/master: 'perf/merge'
-6c54c8cf922a5b008c8d227002106f3d88b3ac85 Merge branch into tip/master: 'core/entry'
-692ba43e37f58d51d83f91b9ba01dcbd47f4de33 Merge branch into tip/master: 'irq/core'
-3f6be44390100db95085ce68f66daa45cf665be2 Merge branch into tip/master: 'irq/drivers'
-2a583416558acb20a6517610b79951bf8890b66b Merge branch into tip/master: 'irq/msi'
-998fea6f3a0a64aa3a38d4db6b155b0c8a9a7515 Merge branch into tip/master: 'objtool/core'
-000df94380820f59c2f1bfc8c087773b36766b4c Merge branch into tip/master: 'perf/core'
-2832703255c6c635a2b076293b17783ec8f5bbff Merge branch into tip/master: 'sched/core'
-4fe27047a38e9dd476592b410259b3971caa3f52 Merge branch into tip/master: 'timers/core'
-2793d88b73edcb61bf682e1716ddda078c2e7ab9 Merge branch into tip/master: 'x86/alternatives'
-a00162ea031132e174bf0188e6f624b29361cb44 Merge branch into tip/master: 'x86/asm'
-8188bf80aba5a601bad31490db940ab0567a62d1 Merge branch into tip/master: 'x86/boot'
-5236bec13b375cc6b30c10a1662fd2a69421e416 Merge branch into tip/master: 'x86/bugs'
-a25239c0420965907489c4d12107b00741ecd471 Merge branch into tip/master: 'x86/cleanups'
-3fe630cce26c7143406715348c48bfaad789bb94 Merge branch into tip/master: 'x86/cpu'
-59fe6da187a6329727939eb88a31ad35f893cc50 Merge branch into tip/master: 'x86/entry'
-7beca4c61afc794871cb2db2e3f6c232498cda7b Merge branch into tip/master: 'x86/fpu'
-be061eaf247c87ec97cca4ea3e53dc31b9821bec Merge branch into tip/master: 'x86/kconfig'
-251580726bcd33fe4d3cb49a2cff8062fec8612c Merge branch into tip/master: 'x86/microcode'
-fa94f6c9e628f4a6f7d32308bbac4173ab626f0b Merge branch into tip/master: 'x86/mm'
-c0d3f633c760e9294369fffa4f984cc5ee6abfbe Merge branch into tip/master: 'x86/nmi'
-32241bfd951344cac887f09d04dd222f12b5f0bf Merge branch into tip/master: 'x86/platform'
-5d59e48407e48487dc7cb7c6aac2e87ae27271b6 Merge branch into tip/master: 'x86/sev'
-6773b8b8b0671c2c02bcfc7b0bc29da98742361f Merge branch into tip/master: 'x86/sgx'
+bb9609f88a108b51853d1859adb92d6d922111e4 MAINTAINERS: Adjust the file entry in SIEMENS IPC LED DRIVERS
+8f5b34b1f4fa17eddc136c8ac65ad955babdee7e mfd: bcm590xx: Drop unused "id" member of bcm590xx struct
+d86acf9990e87389d314bdb64d5d20b29a9c08a2 mfd: sm501: Use new GPIO line value setter callbacks
+97e32d4a4942e51cf809657f642486c4fd0d9be1 mfd: tps65010: Use new GPIO line value setter callbacks
+a30262af44584488e2be902beb3a214b071e84e7 mfd: ucb1x00: Use new GPIO line value setter callbacks
+7fff1c29f3b1af574f2e47d60358ea2d4ad98fe6 dt-bindings: mfd: atmel: Add microchip,sama7d65-gpbr
+0a974dab5eef73545e6b75d863d472ca31ee1d1f dt-bindings: mfd: syscon: atmel,sama5d2-secumod: Convert to yaml
+d1e3b675567ec14fab6f8f2b20971290368ff3ed dt-bindings: mfd: syscon: Add microchip,sama7d65-secumod
+cd315902d072d99a0ac815075a7a03d162a6151e dt-bindings: mfd: samsung,s2mps11: add s2mpg10
+d46d39a4a8f8d2aa987b06b811b7656a9120952e mfd: sec-core: Drop non-existing forward declarations
+bdb25e3c457229f8e4bc8d7bec1989d1f0d4f375 mfd: sec: Sort includes alphabetically
+43c3fa3aaef91e8359637b24109c83bd32f3aa95 mfd: sec: Update includes to add missing and remove superfluous ones
+3670d442ff6d31e9f6ac51c26663784225976f84 mfd: sec: Move private internal API to internal header
+817c60cac23488c4183fade11430ea5e459016bb mfd: sec: Split into core and transport (i2c) drivers
+a88e75cec256b33e01ad2193632074d6c4979162 mfd: sec: Add support for S2MPG10 PMIC
+93b82b0b21e4fd9bc6dc7167f9e17f9786e33dbc mfd: sec: Merge separate core and irq modules
+74d1b27fb44b155076792da3e9fff47b4505e7c0 mfd: sec-common: Fix multiple trivial whitespace issues
+f443b573718ae956a943f6cf90e5a176f9c1594f mfd: sec-i2c: Sort struct of_device_id entries and the device type switch
+aeded728fdb700de62e73e6a66f491064caebb0d mfd: sec: Use dev_err_probe() where appropriate
+d8483d341bd7fc3914063b4b89c619afb383953a mfd: sec-i2c: s2dos05/s2mpu05: Use explicit regmap config and drop default
+e4ffee5ede7f4b3b155363484cc195dc992f700d mfd: sec-irq: s2dos05 doesn't support interrupts
+9794965372b46b84847cd6f60fbd1fc57077108c mfd: sec-common: Don't ignore errors from sec_irq_init()
+018847d390d96f562602efd97df8332c4e0e0275 mfd: sec-i2c: Rework platform data and regmap instantiating
+78092145352bf55b23dc8269a9bc81adf1c2820e mfd: sec: Change device_type to int
+a8986dfabc93da613095649c0f68375ecd21a896 mfd: sec: Don't compare against NULL / 0 for errors, use !
+8499d62b2e8204857617591c2a0fa3c13629456f mfd: sec-common: Use sizeof(*var), not sizeof(struct type_of_var)
+49c39a5d1bbc01320fec5cf495524fe6a4ebaf2d mfd: sec-common: Convert to using MFD_CELL macros
+d6e806b5395b8cacada969981878c682acae0c54 mfd: sec-irq: Convert to using REGMAP_IRQ_REG() macros
+15540b3bf32ba060cb554198084595a08cc14a08 mfd: sec: Add myself as module author
+06d9884e976ae2e7696242a60b3af4df381d1c61 MAINTAINERS: add myself as reviewer for Samsung S2M MFD
+412bfb049fc99cc06649a525000afad39f6759bb dt-bindings: mfd: mediatek,mt8195-scpsys: Add support for MT6893
+125cbd133d75cb0ea6106190fe04a583d507ddc0 mfd: exynos-lpass: Fix an error handling path in exynos_lpass_probe()
+4099ca2a1d38fdf54cfdf1eb55ac992b4b12e577 mfd: exynos-lpass: Avoid calling exynos_lpass_disable() twice in exynos_lpass_remove()
+f3471a09f9b45dc6ac82eb8c39a3f349ece1c0b9 mfd: exynos-lpass: Fix another error handling path in exynos_lpass_probe()
+7646c76a75b8664cbcc75f541d8832bf939e972f dt-bindings: mfd: syscon: Add mt7988-topmisc
+05d2d469b40c27763f667936831d110d086c23aa mfd: stmpe-spi: Correct the name used in MODULE_DEVICE_TABLE
+e9e566e024d3df0953ab53d7de10aa0d53f99191 dt-bindings: mfd: syscon: Add qcom,apq8064-mmss-sfpb
+88191aca808a0866c90fc5c36b77753e44fa73b0 dt-bindings: mfd: syscon: Add qcom,apq8064-sps-sic
 
---===============7290825208894433711==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cf5dc97c2ebf-98b6c87dd46d.txt
-
-bbc9462f0cb0c8917a4908e856731708f0cee910 kernel: param: rename locate_module_kobject
-1c7777feb0e2f5925908c489513656ebb443a699 kernel: refactor lookup_or_create_module_kobject()
-7c76c813cfc42a7376378a0c4b7250db2eebab81 kernel: globalize lookup_or_create_module_kobject()
-f95bbfe18512c5c018720468959edac056a17196 drivers: base: handle module_kobject creation
-be3f1938d3e6ea8186f0de3dd95245dda4f22c1e btrfs: fix COW handling in run_delalloc_nocow()
-48c1d1bb525b1c44b8bdc8e7ec5629cb6c2b9fc4 btrfs: fix the inode leak in btrfs_iget()
-e08e49d986f82c30f42ad0ed43ebbede1e1e3739 btrfs: adjust subpage bit start based on sectorsize
-abf078c0a322159f5ebe2adaa0cd69dc45b1e710 wifi: mac80211: restore monitor for outgoing frames
-72bb272541808188c54d0df30b7edce14d979538 Revert "wifi: iwlwifi: add support for BE213"
-64dc5d5e341d6145cce65e35bdfa0d6ab9fc0a75 Revert "wifi: iwlwifi: make no_160 more generic"
-4f7a07791944e57ea5f12ce03939e3ad0fd50504 wifi: iwlwifi: mld: properly handle async notification in op mode start
-c155f7c3ad1e70a1e203047b20e3bca235ada207 wifi: iwlwifi: mld: inform trans on init failure
-d1ee2c1922566257cd6cc4ac7c21974d708fea62 wifi: iwlwifi: mld: only create debugfs symlink if it does not exist
-d49437a6afc707951e5767ef70c9726b6c05da08 wifi: iwlwifi: back off on continuous errors
-60d418e8540402f4732cce4e8df428e747d79e47 wifi: iwlwifi: mld: fix BAID validity check
-15220a257319ffe3bf95796326dfe0aacdbeb1c4 wifi: iwlwifi: don't warn if the NIC is gone in resume
-a17821321a9b42f26e77335cd525fee72dc1cd63 wifi: iwlwifi: fix the check for the SCRATCH register upon resume
-0fb15ae3b0a9221be01715dac0335647c79f3362 wifi: plfxlc: Remove erroneous assert in plfxlc_mac_release
-8e089e7b585d95122c8122d732d1d5ef8f879396 wifi: brcm80211: fmac: Add error handling for brcmf_usb_dl_writeimage()
-175e69e33c66904dfe910c5f43edfe5c95b32f0c wifi: iwlwifi: restore missing initialization of async_handlers_list
-30763f1adf69233fcfdc836370f69056a1be9d27 Merge tag 'wireless-2025-04-24' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
-087a9eb9e5978e3ba362e1163691e41097e8ca20 vxlan: vnifilter: Fix unlocked deletion of default FDB entry
-a1356ac7749cafc4e27aa62c0c4604b5dca4983e xsk: Fix race condition in AF_XDP generic RX path
-bf20af07909925ec0ae6cd4f3b7be0279dfa8768 xsk: Fix offset calculation in unaligned mode
-eacc77a73275895eca0e3655dc6c671853500e2e net/mlx5e: Use custom tunnel header for vxlan gbp
-5d1a04f347e6cbf5ffe74da409a5d71fbe8c5f19 net/mlx5: E-Switch, Initialize MAC Address for Default GID
-172c034264c894518c012387f2de2f9d6443505d net/mlx5e: TC, Continue the attr process even if encap entry is invalid
-1c2940ec0ddf51c689ee9ab85ead85c11b77809d net/mlx5e: Fix lock order in mlx5e_tx_reporter_ptpsq_unhealthy_recover
-90538d23278a981e344d364e923162fce752afeb net/mlx5: E-switch, Fix error handling for enabling roce
-49ba1ca2e0cc6d2eb0667172f1144c8b85907971 Merge branch 'mlx5-misc-fixes-2025-04-23'
-75aea4b0656ead0facd13d2aae4cb77326e53d2f perf/x86/intel: Only check the group flag for X86 leader
-e9988ad7b1744991118ac348a804f9395368a284 perf/x86/intel: Check the X86 leader for pebs_counter_event_group
-7da9960b59fb7e590eb8538c9428db55a4ea2d23 perf/x86/intel/ds: Fix counter backwards of non-precise events counters-snapshotting
-6d0417e4e1cf66fd917f06f0454958362714ef7d Bluetooth: hci_conn: Fix not setting conn_timeout for Broadcast Receiver
-024421cf39923927ab2b5fe895d1d922b9abe67f Bluetooth: hci_conn: Fix not setting timeout for BIG Create Sync
-d1af1f02ef8653dea4573e444136c8331189cd59 Bluetooth: btintel_pcie: Avoid redundant buffer allocation
-0317b033abcd1d8dd2798f0e2de5e84543d0bd22 Bluetooth: btusb: avoid NULL pointer dereference in skb_dequeue()
-07e90048e356a29079fbc011cfc2e1fa1d1c5ac9 Bluetooth: btmtksdio: Check function enabled before doing close
-0b6d58bc6ea85e57de25c828444928e4a0aa79cb Bluetooth: btmtksdio: Do close if SDIO card removed without close
-1c7664957e4edb234c69de2db4be1f740d2df564 Bluetooth: btintel_pcie: Add additional to checks to clear TX/RX paths
-3908feb1bd7f319a10e18d84369a48163264cc7d Bluetooth: L2CAP: copy RX timestamp to new fragments
-4c2227656d9003f4d77afc76f34dd81b95e4c2c4 vmxnet3: Fix malformed packet sizing in vmxnet3_process_xdp
-5ec6d7d737a491256cd37e33910f7ac1978db591 net: mscc: ocelot: delete PVID VLAN when readding it as non-PVID
-bf9de1dcd0eecd16020a677c900a70ea9b0a9714 selftests: net: bridge_vlan_aware: test untagged/8021p-tagged with and without PVID
-765f253e28909f161b0211f85cf0431cfee7d6df Revert "rndis_host: Flag RNDIS modems as WWAN devices"
-8548c84c004be3da4ffbe35ed0589041a4050c03 octeon_ep_vf: Resolve netdevice usage count issue
-8f7ae5a85137b913cb97e2d24409d36548d0bab1 bnxt_en: improve TX timestamping FIFO configuration
-68f9d8974b545668e1be2422240b25a92e304b14 rtase: Modify the condition used to detect overflow in rtase_calc_time_mitigation
-6fe0866014486736cc3ba1c6fd4606d3dbe55c9c net: ethernet: mtk-star-emac: fix spinlock recursion issues on rx/tx poll
-e54b4db35e201a9173da9cb7abc8377e12abaf87 net: ethernet: mtk-star-emac: rearm interrupts in rx_poll only when advised
-f73f05c6f711fd1628c7565441b9febc0c4d6c58 Merge branch 'net-ethernet-mtk-star-emac-fix-several-issues-on-rx-tx-poll'
-f04dd30f1bef1ed2e74a4050af6e5e5e3869bac3 amd-xgbe: Fix to ensure dependent features are toggled with RX checksum offload
-8c47d5753a119f1c986bc3ed92e9178d2624e1e8 net: ethernet: mtk_eth_soc: sync mtk_clks_source_name array
-10c34b7d71a4ff8c06d926f1846edf8295ed75bf netlink: specs: ethtool: Remove UAPI duplication of phy-upstream enum
-a54b2e2d40b47aa5d283cd637c4e172da231461e Merge tag 'for-net-2025-04-25' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
-dfd76010f8e821b66116dec3c7d90dd2403d1396 pds_core: remove write-after-free of client_id
-f99a3fbf023e20b626be4b0f042463d598050c9a net_sched: drr: Fix double list add in class with netem as child qdisc
-141d34391abbb315d68556b7c67ad97885407547 net_sched: hfsc: Fix a UAF vulnerability in class with netem as child qdisc
-1a6d0c00fa07972384b0c308c72db091d49988b6 net_sched: ets: Fix double list add in class with netem as child qdisc
-f139f37dcdf34b67f5bf92bc8e0f7f6b3ac63aa4 net_sched: qfq: Fix double list add in class with netem as child qdisc
-a6e1c5aa16dd5d351603c9d3ae259a069eabdcc2 selftests: tc-testing: Add TDC tests that exercise reentrant enqueue behaviour
-bd808ca5a0cc899eb63538c28cb139eb0a6cc797 Merge branch 'net_sched-adapt-qdiscs-for-reentrant-enqueue-cases'
-3ffcd7b657c9d96eb3ffe174449b4248dd7fc6a9 ice: fix Get Tx Topology AQ command error on E830
-425c5f266b2edeee0ce16fedd8466410cdcfcfe3 ice: Check VF VSI Pointer Value in ice_vc_add_fdir_fltr()
-713dd6c2deca88cba0596b1e2576f7b7a8e5c59e idpf: fix offloads support for encapsulated packets
-d4cb1ecc22908ef46f2885ee2978a4f22e90f365 Merge branch 'intel-net-queue-100GbE'
-e7e5ae71831c44d58627a991e603845a2fed2cab net: dlink: Correct endianness handling of led_mode
-b23285e93bef729e67519a5209d5b7fde3b4af50 net: mdio: mux-meson-gxl: set reversed bit when using internal phy
-8a558cbda51bef09773c72bf74a32047479110c7 idpf: fix potential memory leak on kcalloc() failure
-ed375b182140eeb9c73609b17939c8a29b27489e idpf: protect shutdown from reset
-c7d6cb96d5c33b5148f3dc76fcd30a9b8cd9e973 igc: fix lock order in igc_ptp_reset
-6e0490fc36cdac696f96e57b61d93b9ae32e0f4c net: ethernet: mtk_eth_soc: fix SER panic with 4GB+ RAM
-426d487bca38b34f39c483edfc6313a036446b33 net: dsa: felix: fix broken taprio gate states after clock jump
-efa6eb7d77aaf5b05eed25c0ecbf7754cc325c83 selftests: net: tsn_lib: create common helper for counting received packets
-f52fe6efd61f54c5cb0e19ef1fde96cf23048a70 selftests: net: tsn_lib: add window_size argument to isochron_do()
-4eb9da050f005fbbb7d301e8e99cfdb6e4771a0d selftests: net: tc_taprio: new test
-1e0bff3bb59ca9bf84243df2a4ad3cfa6ca6f303 Merge branch 'fix-felix-dsa-taprio-gates-after-clock-jump'
-b936a9b8d4a585ccb6d454921c36286bfe63e01d net: ipv6: fix UDPv6 GSO segmentation with NAT
-58f6217e5d0132a9f14e401e62796916aa055c1b perf/x86/intel: KVM: Mask PEBS_ENABLE loaded for guest with vCPU's value.
-9ab7a709c926c16b4433cf02d04fcbcf35aaab2b bnxt_en: Fix error handling path in bnxt_init_chip()
-8e6cc9045380f3f0c48ebda2bda5e1abe263388d bnxt_en: Fix ethtool selftest output in one of the failure cases
-a63db07e4ecd45b027718168faf7d798bb47bf58 bnxt_en: Add missing skb_mark_for_recycle() in bnxt_rx_vlan()
-1ae04e489dd757e1e61999362f33e7c554c3b9e3 bnxt_en: call pci_alloc_irq_vectors() after bnxt_reserve_rings()
-c2d20a3814d1b57dea6db82229edd702bde9c878 bnxt_en: delay pci_alloc_irq_vectors() in the AER path
-ea9376cf68230e05492f22ca45d329f16e262c7b bnxt_en: Fix coredump logic to free allocated buffer
-6b87bd94f34370bbf1dfa59352bed8efab5bf419 bnxt_en: Fix out-of-bound memcpy() during ethtool -w
-02e8be5a032cae0f4ca33c6053c44d83cf4acc93 bnxt_en: Fix ethtool -d byte order for 32-bit values
-0a7bc4d6b04bed1257faf9502f9b4076bac466ea Merge branch 'bnxt_en-fixes'
-3929527918ffa6a0e5c31004ed06d8d1032fc1cf Merge tag 'modules-6.15-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/modules/linux
-7a13c14ee59d4f6c5f4277a86516cbc73a1383a8 Merge tag 'for-6.15-rc4-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-e6a3fc4f10b872d02e25f83227e725c79b25d893 genirq/msi: Prevent NULL pointer dereference in msi_domain_debug_show()
-4f79eaa2ceac86a0e0f304b0bab556cca5bf4f30 kbuild: Properly disable -Wunterminated-string-initialization for clang
-927069d5c40c1cfa7b2d13cfc6d7d58bc6f85c50 bnxt_en: fix module unload sequence
-f920436a44295ca791ebb6dae3f4190142eec703 net: use sock_gen_put() when sk_state is TCP_TIME_WAIT
-e98386d79a23c57cf179fe4138322e277aa3aa74 ptp: ocp: Fix NULL dereference in Adva board SMA sysfs operations
-2d52e2e38b85c8b7bc00dca55c2499f46f8c8198 net: lan743x: Fix memleak issue when GSO enabled
-a179aad12badc43201cbf45d1e8ed2c1383c76b9 net: fec: ERR007885 Workaround for conventional TX
-34f42736b325287a7b2ce37e415838f539767bda octeon_ep: Fix host hang issue during device reboot
-c60e7877d00af3aeda5708bfac38cd43ceead3d0 Merge branch '200GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-ef2383d078edcbe3055032436b16cdf206f26de2 net: hns3: store rx VLAN tag offload state for VF
-8e6b9c6ea5a55045eed6526d8ee49e93192d1a58 net: hns3: fix an interrupt residual problem
-e317aebeefcb3b0c71f2305af3c22871ca6b3833 net: hns3: fixed debugfs tm_qset size
-4971394d9d624f91689d766f31ce668d169d9959 net: hns3: defer calling ptp_clock_register()
-2f0b0c67c2ffb56ed2dd7c1961557b41eb2ac564 Merge branch 'there-are-some-bugfix-for-the-hns3-ethernet-driver'
-55f362885951b2d00fd7fbb02ef0227deea572c2 net: vertexcom: mse102x: Fix possible stuck of SPI interrupt
-74987089ec678b4018dba0a609e9f4bf6ef7f4ad net: vertexcom: mse102x: Fix LEN_MASK
-d4dda902dac194e3231a1ed0f76c6c3b6340ba8a net: vertexcom: mse102x: Add range check for CMD_RTS
-ee512922ddd7d64afe2b28830a88f19063217649 net: vertexcom: mse102x: Fix RX error handling
-1daa05fdddebc8ea5f09d407a74ba88f6d0cfdbf Merge branch 'net-vertexcom-mse102x-fix-rx-handling'
-ebd297a2affadb6f6f4d2e5d975c1eda18ac762d Merge tag 'net-6.15-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-d60620498c5b6bc62464e5ef71cef5fb9e1dcfed Merge branch into tip/master: 'irq/urgent'
-4fb720708764ba21c5ed821e44a47b9675d6e752 Merge branch into tip/master: 'perf/urgent'
-98b6c87dd46d57315f8b403148eab921929dac26 Merge branch into tip/master: 'timers/urgent'
-
---===============7290825208894433711==--
+--===============2162221470022673393==--
