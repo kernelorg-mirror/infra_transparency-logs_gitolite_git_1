@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9035243268698531760=="
+Content-Type: multipart/mixed; boundary="===============4409121227911484908=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 02 May 2025 15:54:02 -0000
-Message-Id: <174620124270.3555790.10157569603938766714@gitolite.kernel.org>
+Date: Fri, 02 May 2025 15:54:11 -0000
+Message-Id: <174620125118.3556165.5404897550167862731@gitolite.kernel.org>
 
---===============9035243268698531760==
+--===============4409121227911484908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: e3945f0d3dac6bf6231a5501766c3614cd6f7f45
-    new: 4316c33fa579d30cab57337474d6e0f027d93ef1
-    log: revlist-e3945f0d3dac-4316c33fa579.txt
+  - ref: refs/heads/1GbE
+    old: c058c5f8b6e424261c4974b39f2596e9d521f13f
+    new: cb9d6b2c2a605f7ee54d18f126d772b4280ee83a
+    log: revlist-c058c5f8b6e4-cb9d6b2c2a60.txt
 
---===============9035243268698531760==
+--===============4409121227911484908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e3945f0d3dac-4316c33fa579.txt
+Content-Disposition: attachment; filename=revlist-c058c5f8b6e4-cb9d6b2c2a60.txt
 
 aed06d36ba4e7fe90f2d4a85835cee7c80ea72a7 ceph: Remove osd_client deadcode
 f452a2204614fc10e2c3b85904c4bd300c2789dc ceph: Fix incorrect flush end position calculation
@@ -250,6 +250,9 @@ aae251a380fe4741594368e0d7836a082b17ae3e iommu/amd: WARN if KVM attempts to set 
 268cbfe65bb9096f78f98d1e092b1939d3caa382 KVM: SVM: WARN if an invalid posted interrupt IRTE entry is added
 ca4f113b0b4c2de6ffb438d5d0ebb7337877c911 KVM: x86: Do not use kvm_rip_read() unconditionally in KVM tracepoints
 38e93267ca6807fc34288ce1a9c610bf219fc0e0 KVM: x86: Do not use kvm_rip_read() unconditionally for KVM_PROFILING
+f4293c2baf6faa5f1a1638bcce698ed88d0d396e netfilter: xt_IDLETIMER: convert timeouts to secs_to_jiffies()
+3ba0032afea888d0edebf5ece3c6b36417189b63 netfilter: xt_cgroup: Make it independent from net_cls
+08764531474578d56ba1dc000c35668dffd55721 net: cgroup: Guard users of sock_cgroup_classid()
 032ce1ea9442e140a80e41078b5431d4c0fa2893 x86/boot: Work around broken busybox 'truncate' tool
 edd43f4d6f50ec3de55a0c9e9df6348d1da51965 io_uring: fix 'sync' handling of io_fallback_tw()
 2d7124941a273c7233849a7a2bbfbeb7e28f1caa Merge tag 'kvmarm-fixes-6.15-2' of https://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
@@ -364,6 +367,9 @@ f15d97df5afae16f40ecef942031235d1c6ba14f Merge tag 'powerpc-6.15-3' of git://git
 78109c591b806e41987e0b83390e61d675d1f724 Merge tag 'for-6.15/dm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
 f04dd30f1bef1ed2e74a4050af6e5e5e3869bac3 amd-xgbe: Fix to ensure dependent features are toggled with RX checksum offload
 8c47d5753a119f1c986bc3ed92e9178d2624e1e8 net: ethernet: mtk_eth_soc: sync mtk_clks_source_name array
+eaa2b34db021c304697b964505cd2477c7c77eb6 netfilter: conntrack: Remove redundant NFCT_ALIGN call
+149a133a548158586058d14963b4e3a699d0de70 docs: tproxy: fix formatting for nft code block
+0014af802193aa3547484b5db0f1a258bad28c81 netfilter: nf_tables: export set count and backend name to userspace
 10c34b7d71a4ff8c06d926f1846edf8295ed75bf netlink: specs: ethtool: Remove UAPI duplication of phy-upstream enum
 a54b2e2d40b47aa5d283cd637c4e172da231461e Merge tag 'for-net-2025-04-25' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
 dfd76010f8e821b66116dec3c7d90dd2403d1396 pds_core: remove write-after-free of client_id
@@ -378,12 +384,25 @@ bd808ca5a0cc899eb63538c28cb139eb0a6cc797 Merge branch 'net_sched-adapt-qdiscs-fo
 713dd6c2deca88cba0596b1e2576f7b7a8e5c59e idpf: fix offloads support for encapsulated packets
 d4cb1ecc22908ef46f2885ee2978a4f22e90f365 Merge branch 'intel-net-queue-100GbE'
 ca91b9500108d4cf083a635c2e11c884d5dd20ea Merge tag 'v6.15-rc4-ksmbd-server-fixes' of git://git.samba.org/ksmbd
+fca6170f5a039543fa5f390f1895fde503b80f46 ipv4: fib: Fix fib_info_hash_alloc() allocation type
+2eea791a75542651c97c3ca8d34d5a594867094a pds_core: Allocate pdsc_viftype_defaults copy with ARRAY_SIZE()
+01cbf838c775a2096b8b0704b499012d867332bb net/mlx4_core: Adjust allocation type for buddy->bits
+c636eed60958875e6499043bcb32f69abf24314c nfp: xsk: Adjust allocation type for nn->dp.xsk_pools
+5fe6530cd54b8647e71ff450f54f16b7f4c68066 ptp: ocp: Add const to bp->attr_group allocation type
+187e0216366f3573c894514cf41267df843efd49 io_uring/zcrx: selftests: use rand_port()
+6fbb4d3f7262771c376d1176e04811645d3c0c7b io_uring/zcrx: selftests: parse json from ethtool -g
+090ef84e082dca099b4d54196e2099bce41e0c87 Merge branch 'io_uring-zcrx-selftests-more-cleanups'
 4b5256f990046d479d87f90382dea36c55539c44 Merge tag 'fixes-2025-04-29' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
 02d40046243fa6f00630d93f67651c4f741036c6 Merge tag 'platform-drivers-x86-v6.15-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 fba784cc9e3d22a530211ef3ec60d04562349cb4 Merge tag 'fsnotify_for_v6.15-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
+2b06aa2bcfb4eee0c5dc882ff8936913b1e6d44f net: phylink: Drop unused defines for SUPPORTED/ADVERTISED_INTERFACES
+eed848871c96d4b5a7b06307755b75abd0cc7a06 crypto/krb5: Fix change to use SG miter to use offset
 e7e5ae71831c44d58627a991e603845a2fed2cab net: dlink: Correct endianness handling of led_mode
 b23285e93bef729e67519a5209d5b7fde3b4af50 net: mdio: mux-meson-gxl: set reversed bit when using internal phy
 8bac8898fe398ffa3e09075ecea2be511725fb0b Merge tag 'mmc-v6.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
+ebaebc5eaf431f7daeeb0a6788a8480d42136df1 xsk: respect the offsets when copying frags
+7ead4405e06f67bf2163fd4708a6ce0a495b1dca xsk: convert xdp_copy_frags_from_zc() to use page_pool_dev_alloc()
+d899e4d55f78901597c0a1ae453166fce2718cb8 Merge branch 'xsk-respect-the-offsets-when-copying-frags'
 8a558cbda51bef09773c72bf74a32047479110c7 idpf: fix potential memory leak on kcalloc() failure
 ed375b182140eeb9c73609b17939c8a29b27489e idpf: protect shutdown from reset
 c7d6cb96d5c33b5148f3dc76fcd30a9b8cd9e973 igc: fix lock order in igc_ptp_reset
@@ -394,20 +413,14 @@ f52fe6efd61f54c5cb0e19ef1fde96cf23048a70 selftests: net: tsn_lib: add window_siz
 4eb9da050f005fbbb7d301e8e99cfdb6e4771a0d selftests: net: tc_taprio: new test
 1e0bff3bb59ca9bf84243df2a4ad3cfa6ca6f303 Merge branch 'fix-felix-dsa-taprio-gates-after-clock-jump'
 b936a9b8d4a585ccb6d454921c36286bfe63e01d net: ipv6: fix UDPv6 GSO segmentation with NAT
-6fc54c408dc9103bf98470b3877b741c44642baa igb: Link IRQs to NAPI instances
-b75a1dea500f4397a46e971cd41e613b7f18e317 igb: Link queues to NAPI instances
-fc0fb1f116e97012d90bb77a6032972564ed8fd6 igb: Add support for persistent NAPI config
-a22ed15c99a052c6ea015b516acfd7e02bcdb995 igb: Get rid of spurious interrupts
-68f37f26b0ff28c93d94084178b946136da6d140 igc: Limit netdev_tc calls to MQPRIO
-876863c3fc755730c942b4c5e1297255d81787e6 igc: Change Tx mode for MQPRIO offloading
-462cc09ac37ddde5a01477613220f0271fe49291 ixgbe: create E610 specific ethtool_ops structure
-451c6bc923e2217d1085e8c9ce88fe1b7a30a1db ixgbe: add support for ACPI WOL for E610
-7f58648dbc53826d9480e45468717466d5b37343 ixgbe: apply different rules for setting FC on E610
-4bf2d11902efe9a3699cb0339f6a34cdef4e9aa6 ixgbe: add E610 .set_phys_id() callback implementation
-fe259a1bb26ec78842c975d992331705b0c2c2e8 ixgbe: devlink: add devlink region support for E610
-508d374b8dc018a72f2d77dbd5658e0d2e576679 idpf: assign extracted ptype to struct libeth_rqe_info field
-c058c5f8b6e424261c4974b39f2596e9d521f13f idpf: remove unreachable code from setting mailbox
+aa6dcab1ea92a8a1f5a2ff7dec825f25eeebf17d net: phy: aquantia: fix commenting format
+8e36fcaa494d7e3fefabb187c4931f107e010cf0 tools: ynl: fix typo in info string
+1f773970a72e485bb7da494e6d2ec1631ea04133 Merge tag 'nf-next-25-04-29' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf-next
 b6ea1680d0ac0e45157a819c41b46565f4616186 Merge tag 'v6.15-p6' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
+144530c15ec7fa95b29812d86f4be527338ea204 pds_core: remove extra name description
+7c4f4c4fa9b6fbb7e483bebd02f7b9cbc20ca5cc pds_core: smaller adminq poll starting interval
+6828208a45c1839e94a87500e0721618d03783e7 pds_core: init viftype default in declaration
+deeed351e982ac4d521598375b34b071304533b0 Merge branch 'pds_core-cleanups'
 9ab7a709c926c16b4433cf02d04fcbcf35aaab2b bnxt_en: Fix error handling path in bnxt_init_chip()
 8e6cc9045380f3f0c48ebda2bda5e1abe263388d bnxt_en: Fix ethtool selftest output in one of the failure cases
 a63db07e4ecd45b027718168faf7d798bb47bf58 bnxt_en: Add missing skb_mark_for_recycle() in bnxt_rx_vlan()
@@ -461,81 +474,5 @@ bbfb3c557c66899480c679b7958908722b821ac3 tools: ynl-gen: support using dump type
 18d574c8dd3e075afb546408fae7edd6a14c9873 tools: ynl-gen: don't init enum checks for classic netlink
 777c8029b551caafde89e0440c40127b8b5ba70e tools: ynl: allow fixed-header to be specified per op
 cb9d6b2c2a605f7ee54d18f126d772b4280ee83a Merge branch 'tools-ynl-gen-additional-c-types-and-classic-netlink-handling'
-37711db63fc1edd8edc0e8e2a57cf3446ff051a8 coccinelle: misc: secs_to_jiffies script: Create dummy report
-fa31389e58bcddcf5f802689f5b0e084091945d5 ice, irdma: fix an off by one in error handling code
-163eeb4f70db88c9916263d6685705492b8e0b4d irdma: free iwdev->rf after removing MSI-X
-0f36c9f652f1c8d1827a48de30dbab6eefe264b1 ixgbe: add MDD support
-670a3c4643cc6da56ed30668966455f2ba4f9cd9 ixgbe: check for MDD events
-bf9e9be7fb9715e045ac6fdfa1cb74f8a46a7c52 ixgbe: add Tx hang detection unhandled MDD
-9106734d1b935736b806b666999a226b51ad2af4 ixgbe: turn off MDD while modifying SRRCTL
-ebfb6ec97f2b94317682feac052166475fe21c2b ice: fix lane number calculation
-5782d3b997a7454be42b52cea9319b2c50ec2e5c ice: fix fwlog after driver reinit
-1d5458ea789660a2a2cbc42e46c5b18169847ad8 ice: Allow 100M speed for E825C SGMII device
-cf7e6edd9d87396715066cf94963bb7361f0c908 ice: add E830 Earliest TxTime First Offload support
-582cb26682b8e500f832e562ed53b36bd6c9d43c ice: add a separate Rx handler for flow director commands
-50e83b77d87f110d7fc5ed5031a1474172261a29 iavf: iavf_suspend(): take RTNL before netdev_lock()
-e904305539ed6fd166bae35c934f9532b7f5afc3 iavf: centralize watchdog requeueing itself
-68580c65414d1d2f5138d7a222552066d3d0fd81 iavf: simplify watchdog_task in terms of adminq task scheduling
-6ce7b69065dcfe3543e9ad0849610a2c27c14941 iavf: extract iavf_watchdog_step() out of iavf_watchdog_task()
-e805785d2f72fc3b65a20a802c39d8b61d8652d5 iavf: sprinkle netdev_assert_locked() annotations
-dac6b3664bd1e8e005fcfc7e70a10c18174c9776 iavf: get rid of the crit lock
-a24932b31d87e966ff91dcce8b44805feb3499f2 ice: Remove casts on void pointers in LAG code
-4368a621f981122c1519b46695126ebf5fccf51c ice: replace u8 elements with bool where appropriate
-7a4a944f68cc9db15946748d0eb5e99897d38ea4 ice: Add driver specific prefix to LAG defines
-b56a10a2a157402d2692729e8ce57ed95742e5cd ice: move LAG function in code to prepare for Active-Active
-8d77fc453aaba927bdbbbb2dc699521d60e4133e ice: Cleanup variable initialization in LAG code
-7eeb5f6f5f6fe1e1aa9521ed18e9a06e1ea319c0 ice: cleanup capabilities evaluation
-17413db44cb0c0a1e4face4185e39df15be6c998 ice: breakout common LAG code into helpers
-f8dcfd9d6904c92124c2642e2c32c9124384b373 ice: Implement support for SRIOV VFs across Active/Active bonds
-9fee892403ead80e4192549d2777a5ae5c3580d9 ice: fix vf->num_mac count with port representors
-fd4af6871951697c0cc82702ba77764b8954ffdf idpf: fix null-ptr-deref in idpf_features_check
-09a38bfbac915587b005e02c352d7a79642be03f ice: use DSN instead of PCI BDF for ice_adapter index
-68e632c9047d94ccd9a31692a35802d98d913ec0 ice: add link_down_events statistic
-9a465597b63ba8673e3347b758a76cddcf44a016 ixgbe: add link_down_events statistic
-8a668fde89b4a4f3a22328cb9d94183530094543 idpf: change the method for mailbox workqueue allocation
-7731a12b20a87409643d447a2c69e16106f5edf4 idpf: add initial PTP support
-7f46e6d2c7f84dfdc713bd255a39eaeb72742aaa virtchnl: add PTP virtchnl definitions
-983fa109a2238f5eec8e9210bbeac1725ff1bf70 idpf: move virtchnl structures to the header file
-2975d0b02a7bdc11a8b799530ca6cdece206716d idpf: negotiate PTP capabilities and get PTP clock
-882fdcd08f3296ea493bd777dc75a5fdab300fc4 idpf: add mailbox access to read PTP clock time
-546bffc827a497db0db910ada335055fb47d3767 idpf: add cross timestamping
-6bc7daa52bdb18b8eff6da663a51599bd9fbed44 idpf: add PTP clock configuration
-536f202fa06e91f97fe9bf5f4e2ad5251c18b773 idpf: add Tx timestamp capabilities negotiation
-d71032042a1c598acb47212f9c2dde375acb0f4d idpf: add Tx timestamp flows
-f6f4604796bd49a7fcd0fc174b71cf4da165f8f9 idpf: add support for Rx timestamping
-d8bc60092fc91564c274d1c673136838e2ebee85 libeth: convert to netmem
-6477863f260b162e8056ff05abc7ecac8a504f31 libeth: support native XDP and register memory model
-3cfc0f6de254db470c52cfce2d3c1b619aa19102 libeth: xdp: add XDP_TX buffers sending
-9f7541348ebbeed2540c6ecbc225a15c3c2162de libeth: xdp: add .ndo_xdp_xmit() helpers
-d2bc05f6f958fbae0120bf605ecd942b6a0dd2ed libeth: xdp: add XDPSQE completion helpers
-17f70f431bce003f15af562cbc357c6e69b43480 libeth: xdp: add XDPSQ locking helpers
-00b23d0ede068d6973397668caef6c1af39dbf50 libeth: xdp: add XDPSQ cleanup timers
-767b16bc64ebedcd55ad69e2616783e54d03a378 libeth: xdp: add helpers for preparing/processing &libeth_xdp_buff
-6e349fa41a4f08267b6b248fc43601d502176eb4 libeth: xdp: add XDP prog run and verdict result handling
-de41c18cf755f5aadf302ecf44082912fa7f99d5 libeth: xdp: add templates for building driver-side callbacks
-25533f2b413c687e36d89a6654b69b8c71680a06 libeth: xdp: add RSS hash hint and XDP features setup helpers
-29347590b5e7c82b09bb6c5a9273c328d2fb25c5 libeth: xsk: add XSk XDP_TX sending helpers
-796dc60ea573074e21a8666c0cbef6f60feddf79 libeth: xsk: add XSk xmit functions
-274baa8a98ae57dbde6a0a644259474517495f7a libeth: xsk: add XSk Rx processing support
-0644e88a43b42f413fa26a6b1290cad234da27ee libeth: xsk: add XSkFQ refill and XSk wakeup helpers
-0bd5a49fa76e79b30c7e9646c8ad4a98199721c6 libeth: xdp, xsk: access adjacent u32s as u64 where applicable
-b5eca79b578fc47617112d807de0d3d954075167 ice: fix Tx scheduler error handling in XDP callback
-8a986896735f8e66cf1110c36222ab190b65f5c1 ice: create new Tx scheduler nodes for new queues only
-b7a50c8dcbdfacdfcba99aa69edb9b543b01c84b ice: fix rebuilding the Tx scheduler tree for large queue counts
-d713b17decc3cec43039490897517af4732181ad ice: redesign dpll sma/u.fl pins control
-593c3a0b3cd3c2dccb2ad3a057431075d6edc1fc ice: change SMA pins to SDP in PTP API
-afed00d49f19dc634ebd62b6505a23eace492efa ice: add ice driver PTP pin documentation
-6a83b2662a75db60ec863665ec6f9852aa2c3d33 virtchnl2: rename enum virtchnl2_cap_rss
-50a104f018059a7b3bf8f44db4a387ecff286e87 virtchnl2: add flow steering support
-93f87e6c54f8f8241e68283319c24bf5f7715c8b idpf: add flow steering support
-5890b570978d5d4998e18d32a28af80669abc994 ice, libie: move generic adminq descriptors to lib
-dd2c8c8c78270525c2259881d8c71aee6c73acba ixgbe: use libie adminq descriptors
-29434638d07c43ed860b557e66eb54d0260ed13a i40e: use libie adminq descriptors
-e2ee84757e08be4cbd1a7098912d09502f6391e8 iavf: use libie adminq descriptors
-63e0d119341c02d7ad66e4915151a20c4c74202b libie: add adminq helper for converting err to str
-66a184c974af9aa6ab1536da95e2393262024bee ice: use libie_aq_str
-c05952bccb7380d1c22374d55db359baa9f97363 iavf: use libie_aq_str
-f1cbd2004d6db1daa519272f939c65457e48e30a i40e: use libie_aq_str
-4316c33fa579d30cab57337474d6e0f027d93ef1 iavf: fix reset_task for early reset event
 
---===============9035243268698531760==--
+--===============4409121227911484908==--
