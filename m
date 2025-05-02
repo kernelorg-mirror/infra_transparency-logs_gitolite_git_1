@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 02 May 2025 01:02:48 -0000
-Message-Id: <174614776892.2475650.17946075947191952439@gitolite.kernel.org>
+Date: Fri, 02 May 2025 01:05:30 -0000
+Message-Id: <174614793010.2479659.18109259991141088209@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,10 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: c76bab22e920ba45665ed1e9f9600a9b561a4f5d
-    new: 51cf06ddafc91e017beecfaf81b3b082033b0b93
+    old: 51cf06ddafc91e017beecfaf81b3b082033b0b93
+    new: 630cb33ccfcd04563598d0f0edd96c94ddf3352d
     log: |
-         7840e4d6f48a75413470935ebdc4bab4fc0c035e net: phy: realtek: Add support for WOL magic packet on RTL8211F
-         7a4f15cadc5670dbc5fc01d7d75ee8b9443b64fe r8152: use SHA-256 library API instead of crypto_shash API
-         51cf06ddafc91e017beecfaf81b3b082033b0b93 net: ethernet: mtk_eth_soc: add support for MT7988 internal 2.5G PHY
+         a3e1c0ad835702555d90565584ab6f723adf7f94 net: phy: factor out provider part from mdio_bus.c
+         14a0087e7236228d56bfa3fab7084c19fcb513fb ipv6: sr: switch to GFP_ATOMIC flag to allocate memory during seg6local LWT setup
+         630cb33ccfcd04563598d0f0edd96c94ddf3352d dt-bindings: net: via-rhine: Convert to YAML
          
