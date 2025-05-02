@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Fri, 02 May 2025 11:13:58 -0000
-Message-Id: <174618443839.3320571.16156777638438147389@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Fri, 02 May 2025 11:14:22 -0000
+Message-Id: <174618446229.3320950.3848899983270726522@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: mikulas
 changes:
-  - ref: refs/tags/v6.15-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 39d6783f6488786301f36b0e7c619f220c3e8d2c
+  - ref: refs/heads/for-next
+    old: 6ebfbecd548e89ee609a3ad0606e42df74080529
+    new: 8c268cce4561757acbbaae1731d9c15e7d22cff5
+    log: |
+         8c268cce4561757acbbaae1731d9c15e7d22cff5 dm mpath: Interface for explicit probing of active paths
+         
