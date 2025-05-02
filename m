@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3680718590010917084=="
+Content-Type: multipart/mixed; boundary="===============7290825208894433711=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 02 May 2025 07:17:14 -0000
-Message-Id: <174617023446.3085954.10182119823037551055@gitolite.kernel.org>
+Date: Fri, 02 May 2025 07:18:05 -0000
+Message-Id: <174617028547.3086629.537875689102930951@gitolite.kernel.org>
 
---===============3680718590010917084==
+--===============7290825208894433711==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,54 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 6c201ee95a3027a610f18ae29b83f8827e13641a
-    new: 53c50ae0fcfb1ce2b1aee343de6210db4d98074a
-    log: revlist-6c201ee95a30-53c50ae0fcfb.txt
+    old: 53c50ae0fcfb1ce2b1aee343de6210db4d98074a
+    new: 6773b8b8b0671c2c02bcfc7b0bc29da98742361f
+    log: revlist-53c50ae0fcfb-6773b8b8b067.txt
+  - ref: refs/heads/tip/urgent
+    old: cf5dc97c2ebf3e39e5226b6cc8d5d5b8b93e8ce6
+    new: 98b6c87dd46d57315f8b403148eab921929dac26
+    log: revlist-cf5dc97c2ebf-98b6c87dd46d.txt
 
---===============3680718590010917084==
+--===============7290825208894433711==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6c201ee95a30-53c50ae0fcfb.txt
+Content-Disposition: attachment; filename=revlist-53c50ae0fcfb-6773b8b8b067.txt
+
+d60620498c5b6bc62464e5ef71cef5fb9e1dcfed Merge branch into tip/master: 'irq/urgent'
+4fb720708764ba21c5ed821e44a47b9675d6e752 Merge branch into tip/master: 'perf/urgent'
+98b6c87dd46d57315f8b403148eab921929dac26 Merge branch into tip/master: 'timers/urgent'
+89c61ce5a158137c85d02826ecec162ef9e6b693 Merge branch into tip/master: 'x86/merge'
+a0a79d2b307e9b139998efa051c6d90c96c51260 Merge branch into tip/master: 'perf/merge'
+6c54c8cf922a5b008c8d227002106f3d88b3ac85 Merge branch into tip/master: 'core/entry'
+692ba43e37f58d51d83f91b9ba01dcbd47f4de33 Merge branch into tip/master: 'irq/core'
+3f6be44390100db95085ce68f66daa45cf665be2 Merge branch into tip/master: 'irq/drivers'
+2a583416558acb20a6517610b79951bf8890b66b Merge branch into tip/master: 'irq/msi'
+998fea6f3a0a64aa3a38d4db6b155b0c8a9a7515 Merge branch into tip/master: 'objtool/core'
+000df94380820f59c2f1bfc8c087773b36766b4c Merge branch into tip/master: 'perf/core'
+2832703255c6c635a2b076293b17783ec8f5bbff Merge branch into tip/master: 'sched/core'
+4fe27047a38e9dd476592b410259b3971caa3f52 Merge branch into tip/master: 'timers/core'
+2793d88b73edcb61bf682e1716ddda078c2e7ab9 Merge branch into tip/master: 'x86/alternatives'
+a00162ea031132e174bf0188e6f624b29361cb44 Merge branch into tip/master: 'x86/asm'
+8188bf80aba5a601bad31490db940ab0567a62d1 Merge branch into tip/master: 'x86/boot'
+5236bec13b375cc6b30c10a1662fd2a69421e416 Merge branch into tip/master: 'x86/bugs'
+a25239c0420965907489c4d12107b00741ecd471 Merge branch into tip/master: 'x86/cleanups'
+3fe630cce26c7143406715348c48bfaad789bb94 Merge branch into tip/master: 'x86/cpu'
+59fe6da187a6329727939eb88a31ad35f893cc50 Merge branch into tip/master: 'x86/entry'
+7beca4c61afc794871cb2db2e3f6c232498cda7b Merge branch into tip/master: 'x86/fpu'
+be061eaf247c87ec97cca4ea3e53dc31b9821bec Merge branch into tip/master: 'x86/kconfig'
+251580726bcd33fe4d3cb49a2cff8062fec8612c Merge branch into tip/master: 'x86/microcode'
+fa94f6c9e628f4a6f7d32308bbac4173ab626f0b Merge branch into tip/master: 'x86/mm'
+c0d3f633c760e9294369fffa4f984cc5ee6abfbe Merge branch into tip/master: 'x86/nmi'
+32241bfd951344cac887f09d04dd222f12b5f0bf Merge branch into tip/master: 'x86/platform'
+5d59e48407e48487dc7cb7c6aac2e87ae27271b6 Merge branch into tip/master: 'x86/sev'
+6773b8b8b0671c2c02bcfc7b0bc29da98742361f Merge branch into tip/master: 'x86/sgx'
+
+--===============7290825208894433711==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-cf5dc97c2ebf-98b6c87dd46d.txt
 
 bbc9462f0cb0c8917a4908e856731708f0cee910 kernel: param: rename locate_module_kobject
 1c7777feb0e2f5925908c489513656ebb443a699 kernel: refactor lookup_or_create_module_kobject()
@@ -59,10 +98,6 @@ eacc77a73275895eca0e3655dc6c671853500e2e net/mlx5e: Use custom tunnel header for
 75aea4b0656ead0facd13d2aae4cb77326e53d2f perf/x86/intel: Only check the group flag for X86 leader
 e9988ad7b1744991118ac348a804f9395368a284 perf/x86/intel: Check the X86 leader for pebs_counter_event_group
 7da9960b59fb7e590eb8538c9428db55a4ea2d23 perf/x86/intel/ds: Fix counter backwards of non-precise events counters-snapshotting
-1caafd919e2a5c483f7a27449f8497fa4b15a44f Merge branch 'perf/urgent'
-f51972e6f8b9a737b2b3eb588069acb538fa72de perf/core: Fix broken throttling when max_samples_per_tick=1
-efd448540e6243dbdaf0a7e1bcf49734e73f3c93 perf/x86/intel: Check the X86 leader for ACR group
-3e830f657f69ab6a4822d72ec2f364c6d51beef8 perf/x86: Optimize the is_x86_event
 6d0417e4e1cf66fd917f06f0454958362714ef7d Bluetooth: hci_conn: Fix not setting conn_timeout for Broadcast Receiver
 024421cf39923927ab2b5fe895d1d922b9abe67f Bluetooth: hci_conn: Fix not setting timeout for BIG Create Sync
 d1af1f02ef8653dea4573e444136c8331189cd59 Bluetooth: btintel_pcie: Avoid redundant buffer allocation
@@ -109,7 +144,6 @@ f52fe6efd61f54c5cb0e19ef1fde96cf23048a70 selftests: net: tsn_lib: add window_siz
 1e0bff3bb59ca9bf84243df2a4ad3cfa6ca6f303 Merge branch 'fix-felix-dsa-taprio-gates-after-clock-jump'
 b936a9b8d4a585ccb6d454921c36286bfe63e01d net: ipv6: fix UDPv6 GSO segmentation with NAT
 58f6217e5d0132a9f14e401e62796916aa055c1b perf/x86/intel: KVM: Mask PEBS_ENABLE loaded for guest with vCPU's value.
-2cb291596e2c1837238bc322ae3545dacb99d584 objtool: Fix up st_info in COMDAT group section
 9ab7a709c926c16b4433cf02d04fcbcf35aaab2b bnxt_en: Fix error handling path in bnxt_init_chip()
 8e6cc9045380f3f0c48ebda2bda5e1abe263388d bnxt_en: Fix ethtool selftest output in one of the failure cases
 a63db07e4ecd45b027718168faf7d798bb47bf58 bnxt_en: Add missing skb_mark_for_recycle() in bnxt_rx_vlan()
@@ -119,10 +153,8 @@ ea9376cf68230e05492f22ca45d329f16e262c7b bnxt_en: Fix coredump logic to free all
 6b87bd94f34370bbf1dfa59352bed8efab5bf419 bnxt_en: Fix out-of-bound memcpy() during ethtool -w
 02e8be5a032cae0f4ca33c6053c44d83cf4acc93 bnxt_en: Fix ethtool -d byte order for 32-bit values
 0a7bc4d6b04bed1257faf9502f9b4076bac466ea Merge branch 'bnxt_en-fixes'
-b43dc4ab097859c24e2a6993119c927cffc856aa x86/microcode/AMD: Do not return error when microcode update is not necessary
 3929527918ffa6a0e5c31004ed06d8d1032fc1cf Merge tag 'modules-6.15-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/modules/linux
 7a13c14ee59d4f6c5f4277a86516cbc73a1383a8 Merge tag 'for-6.15-rc4-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-003f144ca04621e598fc1c5c4ce0a851cddfe104 x86/CPU/AMD: Replace strcpy() with strscpy()
 e6a3fc4f10b872d02e25f83227e725c79b25d893 genirq/msi: Prevent NULL pointer dereference in msi_domain_debug_show()
 4f79eaa2ceac86a0e0f304b0bab556cca5bf4f30 kbuild: Properly disable -Wunterminated-string-initialization for clang
 927069d5c40c1cfa7b2d13cfc6d7d58bc6f85c50 bnxt_en: fix module unload sequence
@@ -142,15 +174,9 @@ e317aebeefcb3b0c71f2305af3c22871ca6b3833 net: hns3: fixed debugfs tm_qset size
 d4dda902dac194e3231a1ed0f76c6c3b6340ba8a net: vertexcom: mse102x: Add range check for CMD_RTS
 ee512922ddd7d64afe2b28830a88f19063217649 net: vertexcom: mse102x: Fix RX error handling
 1daa05fdddebc8ea5f09d407a74ba88f6d0cfdbf Merge branch 'net-vertexcom-mse102x-fix-rx-handling'
-1b3f2bd04d90f61e1f291b5e365b9bc4ce0ea7c7 x86/devmem: Remove duplicate range_is_allowed() definition
 ebd297a2affadb6f6f4d2e5d975c1eda18ac762d Merge tag 'net-6.15-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-154b99a3963b61f922891623c66bf2f3b21b8a81 Merge branch 'linus'
-12c983b778ce040dd68ee0b9a785689563cc451f Merge branch into tip/master: 'irq/urgent'
-378adacfb6152f50f930af15389526e7ae03c040 Merge branch into tip/master: 'perf/urgent'
-11e6c52107098f7e4fff86ad17cc20aa32ebf64f Merge branch into tip/master: 'objtool/core'
-9556a4f3a42b8e88219633517e5181ed41188270 Merge branch into tip/master: 'perf/core'
-844ee935522a21a98ec12da3e2f5287802209271 Merge branch into tip/master: 'x86/cleanups'
-556c370b66c1aacf45c125ca223638aabd6724e5 Merge branch into tip/master: 'x86/microcode'
-53c50ae0fcfb1ce2b1aee343de6210db4d98074a Merge branch into tip/master: 'x86/mm'
+d60620498c5b6bc62464e5ef71cef5fb9e1dcfed Merge branch into tip/master: 'irq/urgent'
+4fb720708764ba21c5ed821e44a47b9675d6e752 Merge branch into tip/master: 'perf/urgent'
+98b6c87dd46d57315f8b403148eab921929dac26 Merge branch into tip/master: 'timers/urgent'
 
---===============3680718590010917084==--
+--===============7290825208894433711==--
