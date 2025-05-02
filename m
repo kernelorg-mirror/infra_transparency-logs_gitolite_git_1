@@ -1,62 +1,72 @@
-Content-Type: multipart/mixed; boundary="===============6251155769514736216=="
+Content-Type: multipart/mixed; boundary="===============4473129035940784715=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Fri, 02 May 2025 16:30:31 -0000
-Message-Id: <174620343166.3588852.10705173725141697406@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 02 May 2025 16:38:40 -0000
+Message-Id: <174620392068.3594358.12368553548605200505@gitolite.kernel.org>
 
---===============6251155769514736216==
+--===============4473129035940784715==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/arm64/fpsimd/more-fixes
-    old: 81bd92cf199e284508899f15f679647831618024
-    new: e485f12a0340a8c9401df44069758c140fc35021
-    log: revlist-81bd92cf199e-e485f12a0340.txt
+  - ref: refs/heads/master
+    old: ebd297a2affadb6f6f4d2e5d975c1eda18ac762d
+    new: 2bfcee565c3a36f2781152a767d34c9dc5432f95
+    log: revlist-ebd297a2affa-2bfcee565c3a.txt
 
---===============6251155769514736216==
+--===============4473129035940784715==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-81bd92cf199e-e485f12a0340.txt
+Content-Disposition: attachment; filename=revlist-ebd297a2affa-2bfcee565c3a.txt
 
-95507570fb2f75544af69760cd5d8f48fc5c7f20 arm64/fpsimd: Avoid RES0 bits in the SME trap handler
-61db0e0ba398a3726ca0e6a6399898d3d4c7b0f9 arm64/fpsimd: Remove unused fpsimd_force_sync_to_sve()
-45fd86986b79c3ada56d3a14e712447e992433aa arm64/fpsimd: Remove redundant SVE trap manipulation
-d7649a4a601ebf4603f0a673f554ab350b6cfede arm64/fpsimd: Remove opportunistic freeing of SME state
-d3eaab3c70905c5467e5c4ea403053d67505adeb arm64/fpsimd: Discard stale CPU state when handling SME traps
-e5fa85fce08b21ed41643cb7968bf66bbd0532e3 arm64/fpsimd: Don't corrupt FPMR when streaming mode changes
-01098d893fa8a6edb2b56e178b798e3e6b674f02 arm64/fpsimd: Avoid clobbering kernel FPSIMD state with SMSTOP
-a90878f297d3dba906a6261deccb1bd4a791ba52 arm64/fpsimd: Reset FPMR upon exec()
-c94f2f326146a34066a0070ed90b8bc656b1842f arm64/fpsimd: Fix merging of FPSIMD state during signal return
-d3a181588df9401d319fe2dc24bf1a364a687cc2 arm64/fpsimd: Add fpsimd_save_and_flush_current_state()
-3aa4d74438afa1324513a7a6bc30f57e8727ad86 arm64/fpsimd: signal32: Always save+flush state early
-929fa99b1215966fc8a6ccc2e14b92e36c3c42f3 arm64/fpsimd: signal: Always save+flush state early
-2fe2b96c3818a043eb013a9db1885de75987715d arm64/fpsimd: signal: Simplify preserve_tpidr2_context()
-b376108e1f88df9fbbb3867634150a3dd71e3acb arm64/fpsimd: signal: Clear TPIDR2 when delivering signals
-f699c66691fb7e08a5a631c5baf5f2a19b7a6468 arm64/fpsimd: Avoid warning when sve_to_fpsimd() is unused
-7e03938f48da403f29dcde74b80f5b754dc43cdc HACK: allow CONFIG_ARM64_SME to be selected
-17965d642791fed68d5a1491f3addaa86ba18031 arm64/fpsimd: Do not discard modified SVE state
-4f388bdb9e2b4f82bf4343c463df47a344a4be94 arm64/fpsimd: signal: Clear PSTATE.SM when restoring FPSIMD frame only
-335356696c5f7a90aeb5f5c35542310d7cd03c5c arm64/fpsimd: signal: Mandate SVE payload for streaming-mode state
-2dfed5e6d4be70322c8338526c7057d8ed8b5c1a arm64/fpsimd: ptrace: Consistently handle partial SVE writes to NT_ARM_(S)SVE
-08144314ee7deb8f0db841f050354ef4014a808a arm64/fpsimd: Clarify sve_sync_*() functions
-712696386e984dfb7870d69315614ae0d0e86f02 arm64/fpsimd: Rework {sve,sme}_state_size()
-81b491ba2ebb1c099ca789e25dc0e453a5545734 arm64/fpsimd: Add task_{smstop,smtart}_sm()
-44993653d3d0851241514a357bd8eb990ad3f726 arm64/fpsimd: signal: Use SMSTOP behaviour in setup_return()
-1c920ad8ffdc48f8f8eb3f7162f84c1a7a1f0686 arm64/fpsimd: Ensure VL changes leave task in a valid state
-acb85465f1dbef7fca06f92c335560f392d09c01 arm64/fpsimd: Remove redundant clearing of TIF_SVE
-d7a0e213941dee0852130b32ad24a417563981be WIP: TODO: Fix SME ptrace issues
-efd0fc6ad423c4e49f68fbdfb4402dd6e534ec23 arm64/fpsimd: Remove redundant task->mm check
-232d10db5db9b8f5f311dc7cc56fccda754df7e2 arm64/fpsimd: Consistently preserve FPSIMD state during clone()
-35b915f06c30dc887567a6e1197273de53ed1180 arm64/fpsimd: Clear PSTATE.SM during clone()
-234036290861772705b08d80e5796e4f64c9b5a9 WIP: arm64/fpsimd: Fix ZA state inheritance via clone()
-e485f12a0340a8c9401df44069758c140fc35021 HACK/WIP: check SVE/SME allocations succeeded
+e64c0ff0d5d85791fbcd126ee558100a06a24a97 pinctrl: imx: Return NULL if no group is matched and found
+e56088a13708757da68ad035269d69b93ac8c389 pinctrl: meson: define the pull up/down resistor value as 60 kOhm
+457d9772e8a5cdae64f66b5f7d5b0247365191ec pinctrl: airoha: fix wrong PHY LED mapping and PHY2 LED defines
+fe412e3a6c97cfe49ecf4564a278122f7d78e3f0 pinctrl: mediatek: common-v1: Fix EINT breakage on older controllers
+45e00e36718902d81bdaebb37b3a8244e685bc48 iommu/arm-smmu-v3: Add missing S2FWB feature detection
+12f78021973ae422564b234136c702a305932d73 iommu/arm-smmu-v3: Fix pgsize_bit for sva domains
+b00d24997a11c10d3e420614f0873b83ce358a34 iommu/arm-smmu-v3: Fix iommu_device_probe bug due to duplicated stream ids
+2d00c34d665bc23f5200962dbc4ac1919317036c iommu/arm-smmu-v3: Fail aliasing StreamIDs more gracefully
+8dee308e4c01dea48fc104d37f92d5b58c50b96c iommu/amd: Fix potential buffer overflow in parse_ivrs_acpihid
+30a3f2f3e4bd6335b727c83c08a982d969752bc1 iommu: Fix two issues in iommu_copy_struct_from_user()
+4f1492efb495bcef34c9ee8a94af81e6cea5abf4 iommu/vt-d: Revert ATS timing change to fix boot failure
+34024cf69c51b11c2b608f5d578626b9b1c484f5 pinctrl: mediatek: Fix new design debounce issue
+446d28584723e5d4bcdb18cf6ef87cb2bb597dd8 pinctrl: mediatek: common-v1: Fix error checking in mtk_eint_init()
+be8250786ca94952a19ce87f98ad9906448bc9ef mm, slab: clean up slab->obj_exts always
+2c8a7c66c90832432496616a9a3c07293f1364f3 iommu/vt-d: Apply quirk_iommu_igfx for 8086:0044 (QM57/QS57)
+a2f546330ef9f3471ab9dd5f59e9685733b6c0dc bcachefs: Fix losing return code in next_fiemap_extent()
+c83311c5b90d12ea22e847fd9390e2fdb6a34f68 bcachefs: Use generic_set_sb_d_ops for standard casefolding d_ops
+70c3d89f49523933365d91010f88206855bc1990 bcachefs: Emit unicode version message on startup
+bdc32a10a29c3993b3c6c38b21951b66bea525d7 bcachefs: Add missing utf8_unload()
+3c24020119a5f55ec902b5fdc24d8666d76340b3 bcachefs: Run BCH_RECOVERY_PASS_reconstruct_snapshots on missing subvol -> snapshot
+9e9c28acfdc78292100fdd0e46587bf43a174451 bcachefs: Add upgrade table entry from 0.14
+002466446abae31a15e8b89adb54ee08653eccd1 bcachefs: fix bch2_dev_buckets_resize()
+e7f1a52849a01c63c796a9dfe6697d05fff23324 bcachefs: Improve bch2_dev_bucket_missing()
+eca5b56ccfdf583a8781503646fb39554f8624bd bcachefs: Don't generate alloc updates to invalid buckets
+c366b1672d74cb008974f6e36e34dc191621f3bb bcachefs: btree_node_data_missing is now autofix
+652dd6558b8b5a1a04fef129e0231ee493e24951 bcachefs: btree_root_unreadable_and_scan_found_nothing autofix for non data btrees
+e5a3b8cf3330a774e5f5f06a2b7cf20116447297 bcachefs: More informative error message when shutting down due to error
+9a4a858c9b365d817231f6f3592dc26e9d4191bb bcachefs: Use bch2_kvmalloc() for journal keys array
+dbe4674802ec8e43835900490b3492299464ad27 bcachefs: Topology error after insert is now an ERO
+12b8a672d2aa053064151659f49e7310674d42d3 pinctrl: qcom: Fix PINGROUP definition for sm8750
+2feaa92c7c0123013a2a3e3d02ff8a5f5a794e96 bcachefs: improve missing journal write device error message
+5e63d579e752549dc256a952bcb35ade398ee921 bcachefs: readdir fixes
+05450c48a35810c5025cffb41dbf566cfb122415 bcachefs: Kill ERO in __bch2_i_sectors_acct()
+3a72e369412d6bf7f6a8af410ac4bdd7d48deb62 bcachefs: check for inode.bi_sectors underflow
+e660d7ca7488214ae19d964d196f89b4237ec829 bcachefs: Kill ERO for i_blocks check in truncate
+e2699274d5a43b95af1b806aa6e3b1157107665d bcachefs: Fix __bch2_dev_group_set()
+28580052e634fe8fa327e6f25c35590374be754b bcachefs: add missing sched_annotate_sleep()
+6846100b00d97d3d6f05766ae86a0d821d849e78 bcachefs: Remove incorrect __counted_by annotation
+9910affec3337668f354c5513462b6c356414681 Merge tag 'slab-for-6.15-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
+8164851725c867f74fc0e157f13a7f257da4a7db Merge tag 'iommu-fixes-v6.15-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/iommu/linux
+85951e19c425d5c45c8d4119ee2bade518252e31 Merge tag 'pinctrl-v6.15-2' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
+2bfcee565c3a36f2781152a767d34c9dc5432f95 Merge tag 'bcachefs-2025-05-01' of git://evilpiepirate.org/bcachefs
 
---===============6251155769514736216==--
+--===============4473129035940784715==--
