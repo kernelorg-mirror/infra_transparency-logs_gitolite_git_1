@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8765733605230570113=="
+Content-Type: multipart/mixed; boundary="===============1119018346252917081=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 02 May 2025 18:52:31 -0000
-Message-Id: <174621195194.3707326.5880238375249040296@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Fri, 02 May 2025 18:52:45 -0000
+Message-Id: <174621196521.3707694.3470845777678346145@gitolite.kernel.org>
 
---===============8765733605230570113==
+--===============1119018346252917081==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: fa9c4977fbfbca182f9e410d57b3f98356a9d917
     log: revlist-35db59fa8ea2-fa9c4977fbfb.txt
 
---===============8765733605230570113==
+--===============1119018346252917081==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ abe4dc24a880238c52381633081d2bd82fb266b3 perf mem: Add 'cache' and 'memory' outp
 f7458176a74f270843092ec54f5ffd663faa910a perf mem: Add 'dtlb' output field
 fa9c4977fbfbca182f9e410d57b3f98356a9d917 perf symbol-minimal: Fix double free in filename__read_build_id
 
---===============8765733605230570113==--
+--===============1119018346252917081==--
