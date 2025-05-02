@@ -1,31 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============5341254836579477703=="
+Content-Type: multipart/mixed; boundary="===============5249098198368061341=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 02 May 2025 19:46:51 -0000
-Message-Id: <174621521187.3754179.7524239339596658413@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux
+Date: Fri, 02 May 2025 19:47:19 -0000
+Message-Id: <174621523997.3754623.8422992091092357511@gitolite.kernel.org>
 
---===============5341254836579477703==
+--===============5249098198368061341==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/shuah/linux
+user: shuah
 changes:
-  - ref: refs/heads/locking/futex
-    old: 49fd6b8f5d595592bab59b1fd2bfa57d1bd8c767
-    new: de70d23cda670cd8bd50d96c6a7acf832969b55e
-    log: revlist-49fd6b8f5d59-de70d23cda67.txt
+  - ref: refs/heads/cpupower
+    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
+    new: b4432656b36e5cc1d50a1f2dc15357543add530e
+    log: revlist-0af2f6be1b42-b4432656b36e.txt
 
---===============5341254836579477703==
+--===============5249098198368061341==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-49fd6b8f5d59-de70d23cda67.txt
+Content-Disposition: attachment; filename=revlist-0af2f6be1b42-b4432656b36e.txt
 
+cf960726eb65e8d0bfecbcce6cf95f47b1ffa6cc io_uring/kbuf: reject zero sized provided buffers
+56a49e19e1aea1374e9ba58cfd40260587bb7355 cpufreq/amd-pstate: Fix min_limit perf and freq updation for performance governor
+9546ad1a9bda7362492114f5866b95b0ac4a100e nvme: requeue namespace scan on missed AENs
+f35508b93a2fc127a8d185da2e5beade2f789977 irqchip/irq-bcm2712-mip: Set EOI/ACK flags in msi_parent_ops
+1296dcbad2316882f98559762b518eaa6aefcd92 dt-bindings: xilinx: Remove myself from maintainership
+8b37357a78d7fa13d88ea822b35b40137da1c85e x86/acpi: Don't limit CPUs to 1 for Xen PV guests due to disabled ACPI
+4808595a9922e89726ec5611d7749b63966b7fa8 tracing: Hide get_vm_area() from MMUless builds
+f2f29da9f0d4367f6ff35e0d9d021257bb53e273 x86/e820: Fix handling of subpage regions when calculating nosave ranges in e820__register_nosave_regions()
+bb5e07cb927724e0b47be371fa081141cfb14414 hfs/hfsplus: fix slab-out-of-bounds in hfs_bnode_read_key
+a8605b0ed187f53f077a769ce2b52ddb97f3eb42 ACPI: button: Only send `KEY_POWER` for `ACPI_BUTTON_NOTIFY_STATUS`
+6b395d31146a3fae775823ea8570a37b922f6685 RDMA/bnxt_re: Fix budget handling of notification queue
+62dd71e691109bb44ba8ad7f58b3a2ac6b69d496 RDMA/ucaps: Avoid format-security warning
+b988685388effd648150aab272533f833a2a70f0 ACPI: EC: Set ec_no_wakeup for Lenovo Go S
+216a61d33c0728a8cf1650aaed2c523c6ce16354 net: ethtool: fix ethtool_ringparam_get_cfg() returns a hds_thresh value always as 0.
+22d3a63d5321326cb05a6dff7d2c488236cf56f2 selftests: drv-net: test random value for hds-thresh
+cf46e18efdd55107315ce874f4638591aabbab6b Merge branch 'fix-wrong-hds-thresh-value-setting'
+54f5fafcced113c7d203f6848f4f14840e74e9d1 ipv6: Fix null-ptr-deref in addrconf_add_ifaddr().
+95ba3850fed03e01b422ab5d7943aeba130c9723 RDMA/usnic: Fix passing zero to PTR_ERR in usnic_ib_pci_probe()
+04efcee6ef8d0f01eef495db047e7216d6e6e38f net: hold instance lock during NETDEV_CHANGE
+d247667ecd6411ec5bec9a38db7feaa599ce3ee2 RDMA/mlx5: Fix compilation warning when USER_ACCESS isn't set
+0cd575cab10e114e95921321f069a08d45bc412e uprobes: Avoid false-positive lockdep splat on CONFIG_PREEMPT_RT=y in the ri_timer() uprobe timer callback, use raw_write_seqcount_*()
+1b2fe85f3cf19026a0e9037242bcbf7e736b22e3 RDMA/rxe: Fix null pointer dereference in ODP MR check
+7ab4f0e37a0f4207e742a8de69be03984db6ebf0 ACPI PPTT: Fix coding mistakes in a couple of sizeof() calls
 9beb2c91fb86e0be70a5833c6730441fa3c9efa8 RDMA/hns: Fix wrong maximum DMA segment size
 b71a2bb0ce07f40f92f59ed7f283068e41b10075 drm/amdgpu/mes11: optimize MES pipe FW version fetching
 a755906fb2b8370c43e91ba437ae1b3e228e8b02 drm/amdgpu: immediately use GTT for new allocations
@@ -1027,28 +1050,5 @@ a226e6540b0a1872debbe9d8f2b3d72c53d90de6 Merge tag 'irq-urgent-2025-04-26' of gi
 d22aad29de2a7b13f43ccb9b55cfd5daf793ead4 Merge tag 'nfsd-6.15-2' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
 5bc1018675ec28a8a60d83b378d8c3991faa5a27 Merge tag 'pci-v6.15-fixes-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
 b4432656b36e5cc1d50a1f2dc15357543add530e Linux 6.15-rc4
-db19e1e21b0c69144bbcb9f3329981c88694749b rcuref: Provide rcuref_is_dead()
-7072be5b478ca131c1225a03fed32a7c9dded1fb mm: Add vmalloc_huge_node()
-8c44dfc1b60a3a5a488ef8818c9a1a4858f19ce9 futex: Move futex_queue() into futex_wait_setup()
-3a3dfcc917fc776d8184728a59e5a237dff02777 futex: Pull futex_hash() out of futex_q_lock()
-bb544df9257bf2b7f51959419c76dcb55d99242c futex: Create hb scopes
-e4775b38de470e621672c21cfbae5701a8d54e39 futex: Create futex_hash() get/put class
-3126f4d033748a2781067779dab65de5cb136c39 futex: Create private_hash() get/put class
-2d44ebada5340b4ddc887cd8e9378441a2086fb4 futex: Acquire a hash reference in futex_wait_multiple_setup()
-00f210a3822fbd67171775b1d09b9a9d61256263 futex: Decrease the waiter count before the unlock operation
-e70579ac5ba44f0b110012d4ff39ce0c3da45d9b futex: Introduce futex_q_lockptr_lock()
-85ee54f34be1344b144c8183b63f899c0682ae9a futex: Create helper function to initialize a hash slot
-6fa62f9d32ef07d77b774160c9cea68e59fc99f7 futex: Add basic infrastructure for local task local hash
-292734057dae6156c87bb53916d3e048aba3ebcb futex: Allow automatic allocation of process wide futex hash
-890f0df403dfc8ca1cb41c9db5c98ff210245683 futex: Allow to resize the private local hash
-ac10690394df3e02848a669dcab8a6eaf1210a38 futex: Allow to make the private hash immutable
-0b0b3643d9166658803c4a13c207e4c4608282a2 futex: Implement FUTEX2_NUMA
-7076ff855b207dc5234daf3bb33f97ab6d65af40 futex: Implement FUTEX2_MPOL
-2e4819657a8cf40e29a696bb01e33b615b290563 tools headers: Synchronize prctl.h ABI header
-0bb2d6a46871e1b24bd79ad21d55fbcaa3a04ffa tools/perf: Allow to select the number of hash buckets
-f7c48dda3cdcdce1a7cf36763cb615cbbaa592c6 selftests/futex: Build without headers nonsense
-586e964a8f240d7ad652b6ccb6f550c42d68e347 selftests/futex: Add futex_priv_hash
-9e926e7b1fb8d225659a58f8a60cbd465dd27948 selftests/futex: Add futex_numa_mpol
-de70d23cda670cd8bd50d96c6a7acf832969b55e futex,selftests: Add another FUTEX2_NUMA selftest
 
---===============5341254836579477703==--
+--===============5249098198368061341==--
