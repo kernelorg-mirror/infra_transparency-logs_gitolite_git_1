@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Sat, 03 May 2025 01:29:05 -0000
-Message-Id: <174623574564.4035333.4542416850194356902@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 03 May 2025 01:29:16 -0000
+Message-Id: <174623575619.4035603.3964565555840754065@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/todo
-    old: bd4444888283145d6c0484ceb4e67396c64dfa7e
-    new: a0f523b78978574b9b812de771d9c5e7585949fe
+  - ref: refs/heads/main
+    old: b88c382bed1ca90a82334b60564270d1eddc6066
+    new: a2f6476ed18a3e96e65d47a757d5755421ae8f91
     log: |
-         a0f523b78978574b9b812de771d9c5e7585949fe What's cooking (2025/05 #01)
+         a2f6476ed18a3e96e65d47a757d5755421ae8f91 mptcp: Align mptcp_inet6_sk with other protocols
          
