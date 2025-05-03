@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Sat, 03 May 2025 16:37:16 -0000
-Message-Id: <174629023624.625648.10596329125205947213@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
+Date: Sat, 03 May 2025 16:46:44 -0000
+Message-Id: <174629080455.633739.7574632417101926799@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/sj/hkml
+user: sj
 changes:
-  - ref: refs/heads/for-next
-    old: 38fec10eb60d687e30c8c6b5420d86e8149f7557
-    new: bdd02f7bcae46544ae0d31795d4d1e5d206f8bd8
-    log: |
-         bdd02f7bcae46544ae0d31795d4d1e5d206f8bd8 parisc: Fix double SIGFPE crash
-         
+  - ref: refs/tags/v1.3.5
+    old: 0000000000000000000000000000000000000000
+    new: 82e3d6a3441cb30f6285f01470ee91b05ad449e8
