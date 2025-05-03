@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6586019572566747957=="
+Content-Type: multipart/mixed; boundary="===============7711053924075283009=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Sat, 03 May 2025 09:47:35 -0000
-Message-Id: <174626565523.245815.9693461635044460366@gitolite.kernel.org>
+Date: Sat, 03 May 2025 09:47:48 -0000
+Message-Id: <174626566823.246156.17566504758149956791@gitolite.kernel.org>
 
---===============6586019572566747957==
+--===============7711053924075283009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-fixes
+  - ref: refs/heads/loongarch-next
     old: 5add0dbbebd60628b55e5eb8426612dedab7311a
     new: 0a08a7ddff7e0eaa99add45c5ed718d577538335
     log: revlist-5add0dbbebd6-0a08a7ddff7e.txt
 
---===============6586019572566747957==
+--===============7711053924075283009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -629,4 +629,4 @@ cb49fa125c0115824233ee3ef167af6c5c8b23db LoongArch: Introduce the numa_memblks c
 0a28a0440e0dfd00341617dd75c2b8d6cf6d934b LoongArch: Preserve firmware configuration when desired
 0a08a7ddff7e0eaa99add45c5ed718d577538335 LoongArch: Update Loongson-3 default config file
 
---===============6586019572566747957==--
+--===============7711053924075283009==--
