@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3206277139194580757=="
+Content-Type: multipart/mixed; boundary="===============3338615882689143191=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/security/vulns
-Date: Sun, 04 May 2025 11:45:37 -0000
-Message-Id: <174635913719.1552955.13154731860104593816@gitolite.kernel.org>
+Date: Sun, 04 May 2025 12:29:42 -0000
+Message-Id: <174636178264.1586026.9564296606345363709@gitolite.kernel.org>
 
---===============3206277139194580757==
+--===============3338615882689143191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 8f94559c8bb5e878266781ec87d26560b2efc369
-    new: 8cd14c81d19de010e1e4bf719cb421299bc07e73
+    old: 8cd14c81d19de010e1e4bf719cb421299bc07e73
+    new: 8f44ffc98c2a3f45bb209d00678ad3c6ae6b81ed
     log: |
-         8cd14c81d19de010e1e4bf719cb421299bc07e73 tools: bippy: generate_git_ranges: remove unneeded HashSet
+         3f1b4b64bd326a567d0314c03a48ced91e335364 tools: dyad: minor cleanups based on suggestions from clippy
+         8f44ffc98c2a3f45bb209d00678ad3c6ae6b81ed tools: bippy: generate_git_ranges: cleanups()
          
 
---===============3206277139194580757==
+--===============3338615882689143191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1746359165 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1746361810 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1746359134-12fe6d9ccb043997c185fd5d047c0db81fc79dfe
+nonce 1746361779-e83385be4e8558211535275fc957d94ebafb3896
 
-8f94559c8bb5e878266781ec87d26560b2efc369 8cd14c81d19de010e1e4bf719cb421299bc07e73 refs/heads/master
+8cd14c81d19de010e1e4bf719cb421299bc07e73 8f44ffc98c2a3f45bb209d00678ad3c6ae6b81ed refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgXU30bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dxoP/2OblfInFahdqiSUb8UC
-AlKPumrOuMy1wyH+A9b03BX27aXrAPETvjj4Mbyp9/191rYMYieb2KAhXbEUk/rU
-FxB+0bXA3Khk3Zert8c4DaVce1qdRAQkdGC8nXBJWVGqzRAaCsQUfo8f8n7/B9iH
-yvwTDVgmVv8P6JLjcw2gp+c6VzqYOf8PZu40O9xbYq0c3evaLDlw09fxJHhXR4K1
-+ARtkP6FhqrMojdm9Yw2VGs8BR8xXnmf1qga6Y3Fp28VEDJqet3qEnR3/voXVgxj
-fW00QjiHykOp6VyKsQEdVIyx+J5j/YEmlHqMIM1ZkFNki+lV60awy052iVZi6rKO
-0dYwXQ/vAv5+2Gom2PVM6VCtjGf0GokPGikjygYzmk9tCnjtM1gx+fM2nRm3uPBe
-EPG5/xMNRGjUPrWuAkiX7I6Hon/vjwNrJ/6iCBHfCBIUt5aX8JPhVQXC8KrQJwvp
-bmgrTlZs+THm672okvPXZUxaUPP/nUGeLLnt0kXz1rDeRKElvNL+4kZ4oNxge//c
-RwuR9X1wySFMlZKgU8UKnx46+62r5A+25KdFsUCvxuYImJj9SMIm6LY51xwOZy9m
-KrAYMAm9SswPKdRfiTC/4nM4R1veIv92XtXHH/sYe1IqcAo1eqISyefVQDaqpfVj
-BetRgcP8/rX5MzjuIKsAObP9
-=0SZQ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgXXdIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZcYP/1BgSVsfb/2uYNotRG8/
+v/RjZ5fAEgzJEX6usI85J8KRLiVZC5Zzob0VOTLFyceBr2YxG/ooJY7/t/vrER9N
+6h72bxVSLKLN6td+ECR6Vsun7xGx+kDxVwy/k99TaFcUkYD4qdNHSFT6N18w+QY1
+5q9xB/qONjUpuQR9xP3WDxlCzj1D/imCq93XJtn4/7MyK8H33u0Tj4z69FM77clO
+W8FU2h7cZaNI8pqH0NnC4hhBWJkbQex9mIAQ/YyRTGFzA98TdVXa0lvkN5oqOY91
+C6fkWabBVXUaq54bxvfk5klzlx7sE/OE+v3e0dWsDWuF1d46rwJSmqs6/Ko6iC3b
+FizjhTJoopis2l4ArBTuQgZyXRqHBqn6Anb2OKl4dVm98lrIeFrqE/hZvkk2mBgn
+emYXazhRqyRPBBYWaShcQBCn2uYAboX2BrnDLV0hU/VdqGrZCfnd3kjdb2OrcDrF
+GfWeXvpHG45+a0hcJIPgHqX8TWjVlLKysAjPjjQQCsaJlpJ2vEhOwUh4oWdEvmMn
+HNBj+7mq9fToeViyU2A5LEA3d9Sg7pl8qmi3wBiwRruXmqo1X8t8Ddw1gDM2R9lN
+Z7ivdXUQQvjowEymFY+CxzEgWLKnJI+KoQhJwpkHW6ctx7aAhjKSQ5BTN8K6x2ET
+HVLR7zkK9hy0ug9Ax9KlxuB5
+=va3t
 -----END PGP SIGNATURE-----
 
---===============3206277139194580757==--
+--===============3338615882689143191==--
