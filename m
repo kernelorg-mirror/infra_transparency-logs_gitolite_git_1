@@ -1,57 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============6863447239605583750=="
+Content-Type: multipart/mixed; boundary="===============3208711473277530634=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Sun, 04 May 2025 06:02:41 -0000
-Message-Id: <174633856139.1268522.16351243388335460815@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Sun, 04 May 2025 06:03:09 -0000
+Message-Id: <174633858930.1268933.361401448453293080@gitolite.kernel.org>
 
---===============6863447239605583750==
+--===============3208711473277530634==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
-    old: 0e4965c80ef0f862bff0e2bb6870c8ee118c318e
-    new: 4f894483c902a49d428348f6ec8874fce59c63cb
+  - ref: refs/heads/staging-next
+    old: 31c2d3287abd2af7f7876fea4b646829afef1c36
+    new: 417ce77ef466580c2850fdd4a7bf5f0a97147cb8
     log: |
-         e99efa8ac8fd9cebca99652cb55b277b7200455e docs: debugfs: do not recommend debugfs_remove_recursive
-         4f894483c902a49d428348f6ec8874fce59c63cb firmware_loader: use SHA-256 library API instead of crypto_shash API
+         c1e36b07df08682656ecc38cadba03076378bd7c staging: sm750fb: rename sm750_hw_cursor_setSize
+         8f168c835ec1a6599e9f0f4a7dbf71fda69d5f2a staging: sm750fb: rename sm750_hw_cursor_setPos
+         5a32b7d9602120d4b4faff31a4f710bd3f35d40b staging: sm750fb: rename sm750_hw_cursor_setColor
+         dcb66f73854f338bf457ec0573f7a3b1104b3d6a staging: sm750fb: rename sm750_hw_cursor_setData
+         a50ae5bc83d64387425a19aad05850585e9a6c11 staging: sm750fb: rename sm750_hw_cursor_setData2
+         75d9d7c29b7f00045d859226592f2917b31b997e staging: gpib: Fix lpvo request_system_control
+         417ce77ef466580c2850fdd4a7bf5f0a97147cb8 staging: gpib: Avoid unused variable warnings
          
 
---===============6863447239605583750==
+--===============3208711473277530634==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1746338591 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1746338560-bf8ece8be609c270f0ed3df61fcfab8d407fcae9
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1746338619 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1746338588-ee77853e10bdde378c9b46d8f8411c443517f440
 
-0e4965c80ef0f862bff0e2bb6870c8ee118c318e 4f894483c902a49d428348f6ec8874fce59c63cb refs/heads/driver-core-next
+31c2d3287abd2af7f7876fea4b646829afef1c36 417ce77ef466580c2850fdd4a7bf5f0a97147cb8 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgXAyAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UrAP+gKQWulHlpcpXI9XTGye
-GGEFiACPeR1HjPW+L5cV4EhCCcCGzlHGwCQD2jPHXA8PgL/iaDr2FuX3qIB8cUAf
-D17js+Hw6iphqoB9YRcF9934r1xo+QvKCErkNCcwg2CXJ92T32Y4qWXT8y0JFTK5
-2tg2ghAZYdL6LE7KEvyaHuVO6qEGmFCFZBdvI4ISopzEYAbaEqlH6QzADwQUOUU6
-K/vMNxaYf8kFnwoCzSEuEE3/vTqwufoCj7GdbIGa2HeREcvfNK+nVmYB/8ClAVd4
-kKYi91AP1hdzNdhz1OaGZESAKfSS6yez51ho7pVntWo+V3WwEhpcj7DCi+GZdKCC
-ENgQELuGEacc5ige7k6P8Mw9c/6FvJ4b+u+aGWj2FcL0tgNbNuVVCpMxeLQnoXam
-H6OQUPi0TrHq6pGWF+DKKpPGDbIC8kRZLk9NCAimIlhRoQwQYAaT9X6+SG3GScMe
-jzE3x6XBxFleRtIszoS7fM4fHKsSUbfH/BTpeG6WV1LcU5D7mo8LxuCDDu3FfqE7
-28FUjnavyBNcIu4LlZ5Vvuxwhc0rVYd3uQkLZqC1YYgZgR0IiP3iE9K7HwZNgQbA
-rhnc55mygzdBbYAQvufwn5+vO37chqS4arD0Dl03Fn+OXJm/JVd+IVm0x2IrQsqJ
-4adSsYbbYx0El4YuANjkITE/
-=hv3R
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgXAzwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CvMQAI3TjNB7QQoy6pFEVmcd
+IgiNuYKFLmBpFGa45PNHfFxRMTQjQQz4rPourcWF/pcDD2EGxzSaSNI7PDgxFfNB
+DfqrrUobVa9uf8RH47nEtYqXIE663VtvfxVVc/cT0LqdxCD96QRgCdorjjhihk2F
+OyDPjDFSOnKT+DX6VwdzXlo7rgQ0ExWPqU/LUzPNc8+BADWJg4qXbFis5QynO87W
+QNmec3gG7TOWOZHPcOrwqDJo/0Xg+S3GCmrgQbVIFk6mE6nKShXmWtQPJijCwz2S
+dDvICtSFAJO85bAVUfGsUhvYH/s0l/upqSJFwGZX72zpwdQJoR5RBmDIt6JQyJkn
+G64rpvioMc2wTCH8HAgsQx1gJskrwnyYeMc9Ypr3pY3vUKaPePvwIRcGftTaFuWh
+U68URKhoZXqM846mdsJjfGyYuN+bEqkdjGNRnSIe6gCyfKryJ/kTiikBm5yEJA6s
+vRAF94TTplhzJD9qzjViN67a2TPAIrf0AhI8bYGV7NtW4qDm1DJqP0HNK5gCc9X3
+EIglrlVxtItQlRF9x4Rju7J9oU+tA90vK4VEDIphYJHkr2khWPQKopgfzwrxXng4
+3dEzP5RBw0J1nU7PbV1Vhcji7jIce9hSd9UQzsfQVlIipAtNlNykRUZlDRziZ3Wu
+q3yRULqNoyRlGIHFLuvDt5n/
+=OSlF
 -----END PGP SIGNATURE-----
 
---===============6863447239605583750==--
+--===============3208711473277530634==--
