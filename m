@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
-Date: Sun, 04 May 2025 19:31:12 -0000
-Message-Id: <174638707259.1938159.6142337161352931462@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Sun, 04 May 2025 19:51:50 -0000
+Message-Id: <174638831065.1954508.9197279886490348648@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools
-user: namhyung
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/tags/perf-tools-fixes-for-v6.15-2025-05-04
-    old: ecffd3ee538bb63bb5e73ab18cef3e6a6e88a78e
-    new: 9710233092ac19766a0daa6975b5764c305ff078
+  - ref: refs/tags/v6.15-rockchip-dtsfixes1
+    old: 0000000000000000000000000000000000000000
+    new: ad6c94cf9b54628c8b439b1962f09f8507081c82
