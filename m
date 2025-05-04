@@ -1,56 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============1488245104266014816=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Sun, 04 May 2025 05:48:46 -0000
-Message-Id: <174633772698.1255831.5915729920418670167@gitolite.kernel.org>
-
---===============1488245104266014816==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Sun, 04 May 2025 05:56:55 -0000
+Message-Id: <174633821591.1263501.5078412184970438389@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/master
-    old: f1b8902482d3b0fd80e0e43713eeee8c6766ad24
-    new: d87d37d12b4a2ba5792f85f6178223d51652165a
+  - ref: refs/heads/work.coredump.socket
+    old: fed163064146d254b65f674b2072bf51bc26bbfa
+    new: f7170b723efbac1e1ef7b4a552491020b5d7268b
     log: |
-         d87d37d12b4a2ba5792f85f6178223d51652165a update cvelistV5
+         7b9d295437029ded21e63d51f93cf79ffabc2e31 coredump: support AF_UNIX sockets
+         e828b2bbd2705da969fed13001d218707ee114a9 coredump: show supported coredump modes
+         ce810292bc2e1a1135381284dbd7bc83c955559b pidfs, coredump: add PIDFD_INFO_COREDUMP
+         f57bb846ece606653b611363b0775fad9472f96d net, pidfs, coredump: only allow coredumping tasks to connect to coredump socket
+         4b70f0da709d354a7cb584b66c31c83a5a3a5b14 selftests/coredump: add tests for AF_UNIX coredumps
+         f7170b723efbac1e1ef7b4a552491020b5d7268b coredump: support AF_UNIX sockets
          
-
---===============1488245104266014816==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1746337754 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1746337723-2d0783bbfe3ce14c962ef637ea022472ba5e0f4e
-
-f1b8902482d3b0fd80e0e43713eeee8c6766ad24 d87d37d12b4a2ba5792f85f6178223d51652165a refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgW/9obHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qxYQALmQZWBGWKA87k+tV9aT
-pU/CZIztmTsGdP2s51xdnMyveMWAKUAazZBtDoJfwQEF0HvoBcBp4we+SMNC37p9
-qOpHlx0wEM1a8cLFQ4bRfjYOGm0FiwqCVFxNDqFLZU0ImOAZcaKUpwRNqVKrOM0w
-jpb1/iqGInhw5/J1pMXRuM5Y+LRjs4lKGOGItnkjBoB9AfqkYy3bCRbiAF1X2oqq
-IyJUSYtBEglI7kPeoGcb0d1p/YIA6tia0DdNZ6DKUuD89QpGNoVZNHxNTIC5pgmg
-jY2nQkNuksL+Z+yzqOD9DXx4IlwmrVdK6VTrwkQCHjVHyGoRXkZBy9gz/AYBLo/Q
-OGjrALYVKPXbE2ySTZ+bIdWEu2M7Qn06pb1Lm4k5t5gjT2OcVhkHvWPwAs/aY5to
-t5TVdbi1AK8wtgmUYxafluZlmGXh5igPcSQQqYM96lONqtJnFgcqG/2z07NfTttw
-Cz8nYg9U1Aw5RUvF+/Ef7KBd36SgeE+fAnkeKsvafwrdhH9m2orFHF9SJqNkL7qb
-qOBI5yCZvrUudz8I/6mkh2ZPp+JU+D5HSOLXe9Hj+avn7sfIPtxMw7IwxqAXgnIA
-eezxqPLnJMLbovRuKepIarWfLr6K0FKF9aqc5QY2smhODjJu+CMUyaIUiFG3yLyN
-Qv01xehfr7eOiw7+G5GgQJe2
-=jaOh
------END PGP SIGNATURE-----
-
---===============1488245104266014816==--
