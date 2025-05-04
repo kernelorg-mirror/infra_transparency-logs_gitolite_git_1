@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
-Date: Sun, 04 May 2025 18:03:49 -0000
-Message-Id: <174638182956.1865139.9164092347506036581@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 04 May 2025 18:28:14 -0000
+Message-Id: <174638329471.1884860.589443668335383475@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/boqun/linux
-user: boqun
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/lockdep-for-tip
-    old: 4911185b4d6f2ee64f7b790e33a0b1fb2d49b3c4
-    new: b3eec4e26ada8a71c40147b45026d2345f3b6ae3
+  - ref: refs/heads/master
+    old: 593bde4ca9b1991e81ccf98b0baf8499cab6cab9
+    new: 59c9ab3e8cc7f56cd65608f6e938b5ae96eb9cd2
     log: |
-         e127948e7dfd12bb998a7007a04ed5c3a5d2ee0a lockdep: Move hlock_equal() to the respective ifdeffery
-         7e77910d4dc548e716461b4d9bfa8b20868d8d20 locking/lockdep: Prevent abuse of lockdep subclass
-         b3eec4e26ada8a71c40147b45026d2345f3b6ae3 locking/lockdep: Add # of dynamic keys stat to /proc/lockdep_stats
+         f5178c41bb43444a6008150fe6094497135d07cb tracing: Fix oob write in trace_seq_to_buffer()
+         3c1d9cfa8458a4d6b6cd9bc3ca7bb1591130a31c ftrace: Fix NULL memory allocation check
+         1be8e54a1e0f0a4bf70e3d65f94ca1738ee4f1f3 tracing: Fix trace_adjust_address() when there is no modules in scratch area
+         0a8f11f8569e7ed16cbcedeb28c4350f6378fea6 tracing: Do not take trace_event_sem in print_event_fields()
+         59c9ab3e8cc7f56cd65608f6e938b5ae96eb9cd2 Merge tag 'trace-v6.15-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
          
