@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4784131488511683004=="
+Content-Type: multipart/mixed; boundary="===============4954383146437949900=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Sun, 04 May 2025 10:04:10 -0000
-Message-Id: <174635305055.1469194.6125614033116722911@gitolite.kernel.org>
+Date: Sun, 04 May 2025 10:04:16 -0000
+Message-Id: <174635305678.1469456.7966920718324581877@gitolite.kernel.org>
 
---===============4784131488511683004==
+--===============4954383146437949900==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: mikulas
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/dm-6.16
     old: 8c268cce4561757acbbaae1731d9c15e7d22cff5
     new: b7c18b17a173087ce97e809cefd55e581121f19e
     log: revlist-8c268cce4561-b7c18b17a173.txt
 
---===============4784131488511683004==
+--===============4954383146437949900==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ d90e7a500cb62fe0de2591b6f08b6a3483434a3e dm: remove unneeded kvfree from alloc_t
 7734fb4ad98c3fdaf0fde82978ef8638195a5285 dm mpath: Interface for explicit probing of active paths
 b7c18b17a173087ce97e809cefd55e581121f19e dm-table: Set BLK_FEAT_ATOMIC_WRITES for target queue limits
 
---===============4784131488511683004==--
+--===============4954383146437949900==--
