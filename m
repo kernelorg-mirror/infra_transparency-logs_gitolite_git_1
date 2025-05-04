@@ -1,56 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============8983143482877239936=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Sun, 04 May 2025 13:13:58 -0000
-Message-Id: <174636443805.1623424.1414491529437976978@gitolite.kernel.org>
-
---===============8983143482877239936==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sun, 04 May 2025 13:27:07 -0000
+Message-Id: <174636522769.1635043.7135575939190108144@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
   - ref: refs/heads/master
-    old: 93db06e9594261e1966225f64e9654d90a31a17a
-    new: 3b69196d63f93f86475c85c9451669bbee4046da
+    old: 6230fac34dc030441bd2caeba880c347c3784e95
+    new: 4fbb5ac069a3c2e7170e597dac4f8fdb389c078a
     log: |
-         3b69196d63f93f86475c85c9451669bbee4046da update cvelistV5
+         39ffd86dd7f9b418847c17fa5dee6273e5ec5759 Merge branch 'x86/urgent' into x86/boot, to pick up fixes
+         bd4a58beaaf1f4aff025282c6e8b130bdb4a29e4 x86/boot: Move early_setup_gdt() back into head64.c
+         b3464a36f7f2499d517e8334e07ddd6eefcd67c1 x86/boot: Disregard __supported_pte_mask in __startup_64()
+         6b62f788d1fe54c71369c5629d59c440dfaca833 x86/boot: Drop global variables keeping track of LA57 state
+         4fbb5ac069a3c2e7170e597dac4f8fdb389c078a Merge branch into tip/master: 'x86/boot'
          
-
---===============8983143482877239936==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1746364468 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1746364437-8084a82d4e8367cec759859aec039c9d252c073b
-
-93db06e9594261e1966225f64e9654d90a31a17a 3b69196d63f93f86475c85c9451669bbee4046da refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgXaDQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+veIP/3E88B5+WJNIPA3hLDVg
-W040ktOePWc3IAVwgdETRlOhYKXGDcxtCWYZ4/AEGG3LyfIdZmzomk91WqQ50xjQ
-a7KkMnAVZs3oYYQC/NZUe4SX2DMR7ZfiL1tGeVSfhvupCf1EEkC6riCJSFd2l/2f
-kAn0PdKiAXurtCdAK9RHdvpwDbu7e6zeYL9qfuAEJ2KP8+M4Bb4wsshSa0H05BFZ
-xsw8KiF3ER2oRmWA3cesc54EFO+t9cNpj/hkES50qTj1VSKoeL0VvWgM9fr+1dWJ
-b3OiZePpISbAyi5zlYwv/Ua7cs1nETR02TGt5B704Qly/aLPoT9DD3u0Nhm8pCso
-NYMC3sS9bwta3WQeBkMUppqcrePmh9Nto3RNnRn1JUlrUXFnio/i3LXpjFn5mY3/
-suGswM0haRFsSRCO6EHARG4yQYJ8OvH6Py1H2UujfMYMHjyYuWhUSmBOX5aPGfny
-8zFLELWLrQr7aVMB4co8xq+6lBqouwrQsP+AhPUDvCtCE+I5BVP3CgTwl2gnRi5N
-jb6kIXltvRuBUibrHhnsEq5c+9mzZOTmAQC+i3S0uh57qMXGoCVWoSKzWVTyk900
-kAOAJH1tRSqamLId4WWSoHyou57qEJGj7lV2pcxorp+CDn8EPAdC9tdvXGE+sVF7
-DpZIKix2BMAwSsEQb5PA8bis
-=V8SY
------END PGP SIGNATURE-----
-
---===============8983143482877239936==--
