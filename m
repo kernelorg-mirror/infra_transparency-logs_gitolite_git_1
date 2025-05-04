@@ -1,61 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============2049446118967833339=="
+Content-Type: multipart/mixed; boundary="===============3680307285582483809=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Sun, 04 May 2025 00:01:40 -0000
-Message-Id: <174631690097.982114.5787671759460029472@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Sun, 04 May 2025 00:01:46 -0000
+Message-Id: <174631690653.982375.13103312155989383148@gitolite.kernel.org>
 
---===============2049446118967833339==
+--===============3680307285582483809==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.15
+  - ref: refs/heads/regulator-6.15
     old: 8ffd015db85fea3e15a77027fda6c02ced4d2444
     new: b4432656b36e5cc1d50a1f2dc15357543add530e
     log: revlist-8ffd015db85f-b4432656b36e.txt
-  - ref: refs/heads/for-6.16
-    old: 5410aa3aa7f7dfcbdfcf94034595765d7e69ead3
-    new: f1471bc435afa31c8c0c58551922830dc8f4b06b
-    log: |
-         8c04144e156b49980a786e80c855e41f6c71685c regulator: tps65219: Update struct names
-         3f2e457efdad5af4164f155bd7ac902258a9b1ce regulator: tps65219: Add support for TPS65215 regulator resources
-         38c9f98db20a649a1f8454f507608b6aef0c9297 regulator: tps65219: Add support for TPS65215 Regulator IRQs
-         f1471bc435afa31c8c0c58551922830dc8f4b06b regulator: tps65219: Add TI TPS65214 Regulator Support
-         
 
---===============2049446118967833339==
+--===============3680307285582483809==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1746316929 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1746316898-e3c2d2ff69922d1a52a4ee8633bfaf1c232fba4e
+pusher Mark Brown <broonie@kernel.org> 1746316935 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1746316904-03e73a960713ccb2bd4ec1c86f69ed17264c1cf8
 
-8ffd015db85fea3e15a77027fda6c02ced4d2444 b4432656b36e5cc1d50a1f2dc15357543add530e refs/heads/for-6.15
-5410aa3aa7f7dfcbdfcf94034595765d7e69ead3 f1471bc435afa31c8c0c58551922830dc8f4b06b refs/heads/for-6.16
+8ffd015db85fea3e15a77027fda6c02ced4d2444 b4432656b36e5cc1d50a1f2dc15357543add530e refs/heads/regulator-6.15
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgWroETHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0Pj3B/43s6C6nbUfZliXvh1mTAGDcKixyyjy
-GL8ZZqlCCoDgXlZbDGedSWrrhQg0aHIvKN7A3e+OV8fFOxNI9gCCFHrWLKWCxr31
-/PnAPSkGOhPGnvF7yRO55nrTBPAYsxqz6Xn5oPiPUNTKOp2Y6Wg2wP4n72jDRnRM
-mSTd0JohfA3eqRsJcrpSSXgbNuHltzJTdn2t7RFpTCMobquuUQOE4ATb+y6YgFFc
-gUL9W9GASLWb+CsC7NVVyqu8eDmKmdZYHJhcUOVNxbHZPgq6y0C9Q225U1BufQo3
-fdF+1ZykGPTyuovEiYmu2UdzhhJWvfFP9pNgme4UKThp4prA1ZDZiK1M
-=EgJo
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgWrocTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0DJrB/sFTc9uvvRBcwh7IQmwHz0RbNkW9UFu
+BIfM7mwgRW4DNuZp3WIDaQ9tGyi50v8EwnA1RmJA3kFu01bFevLJrGeIikEondgF
+WYEOVVCRpybQGP8ChnN/UPCoGkLlz1QWBXxs757qIMwMCkRNUm3GM8+sw/iXvuKo
+jxsowvGHUgYBI4IuxHCbPN7HNOzSa+50vTrpMhCJfKxHfd/lxUX3yrdvWc/1HjLT
+58llCpUVli2RCUTZLf3bmrHmEB5iFpUPk3qSbbB5n5j2I886xmxYphIhHWFR1i68
+FhuS+DNUb399jZ1ANNj2JZ0Y7JE/dv7QBhWmPBbrrOwY2EHXl/ajjzQo
+=trqF
 -----END PGP SIGNATURE-----
 
---===============2049446118967833339==
+--===============3680307285582483809==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -899,4 +889,4 @@ d22aad29de2a7b13f43ccb9b55cfd5daf793ead4 Merge tag 'nfsd-6.15-2' of git://git.ke
 5bc1018675ec28a8a60d83b378d8c3991faa5a27 Merge tag 'pci-v6.15-fixes-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
 b4432656b36e5cc1d50a1f2dc15357543add530e Linux 6.15-rc4
 
---===============2049446118967833339==--
+--===============3680307285582483809==--
