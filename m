@@ -1,62 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============3208711473277530634=="
+Content-Type: multipart/mixed; boundary="===============5876804904109740466=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sun, 04 May 2025 06:03:09 -0000
-Message-Id: <174633858930.1268933.361401448453293080@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Sun, 04 May 2025 06:03:33 -0000
+Message-Id: <174633861375.1269287.12695714681970408511@gitolite.kernel.org>
 
---===============3208711473277530634==
+--===============5876804904109740466==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
-    old: 31c2d3287abd2af7f7876fea4b646829afef1c36
-    new: 417ce77ef466580c2850fdd4a7bf5f0a97147cb8
+  - ref: refs/heads/tty-next
+    old: 689835c00ec7b78f3c828e796895661c13584a64
+    new: 5ee558c5d9e9c464bcecb68b3c1d1f9690747a64
     log: |
-         c1e36b07df08682656ecc38cadba03076378bd7c staging: sm750fb: rename sm750_hw_cursor_setSize
-         8f168c835ec1a6599e9f0f4a7dbf71fda69d5f2a staging: sm750fb: rename sm750_hw_cursor_setPos
-         5a32b7d9602120d4b4faff31a4f710bd3f35d40b staging: sm750fb: rename sm750_hw_cursor_setColor
-         dcb66f73854f338bf457ec0573f7a3b1104b3d6a staging: sm750fb: rename sm750_hw_cursor_setData
-         a50ae5bc83d64387425a19aad05850585e9a6c11 staging: sm750fb: rename sm750_hw_cursor_setData2
-         75d9d7c29b7f00045d859226592f2917b31b997e staging: gpib: Fix lpvo request_system_control
-         417ce77ef466580c2850fdd4a7bf5f0a97147cb8 staging: gpib: Avoid unused variable warnings
+         f51159c05137dda05b425be70cd6c05f54a997c0 tty: serial: samsung_tty: support 18 uart ports
+         c40b91e38eb8d4489def095d62ab476d45871323 8250: microchip: pci1xxxx: Add PCIe Hot reset disable support for Rev C0 and later devices
+         a883620602758832f81fe042be778e57174add3a serdev: Refine several error or debug messages
+         5ee558c5d9e9c464bcecb68b3c1d1f9690747a64 vt: add new dynamically generated files to .gitignore
          
 
---===============3208711473277530634==
+--===============5876804904109740466==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1746338619 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1746338588-ee77853e10bdde378c9b46d8f8411c443517f440
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1746338644 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1746338612-ef072ff0362897f415a62ada519c17743fe143f0
 
-31c2d3287abd2af7f7876fea4b646829afef1c36 417ce77ef466580c2850fdd4a7bf5f0a97147cb8 refs/heads/staging-next
+689835c00ec7b78f3c828e796895661c13584a64 5ee558c5d9e9c464bcecb68b3c1d1f9690747a64 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgXAzwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CvMQAI3TjNB7QQoy6pFEVmcd
-IgiNuYKFLmBpFGa45PNHfFxRMTQjQQz4rPourcWF/pcDD2EGxzSaSNI7PDgxFfNB
-DfqrrUobVa9uf8RH47nEtYqXIE663VtvfxVVc/cT0LqdxCD96QRgCdorjjhihk2F
-OyDPjDFSOnKT+DX6VwdzXlo7rgQ0ExWPqU/LUzPNc8+BADWJg4qXbFis5QynO87W
-QNmec3gG7TOWOZHPcOrwqDJo/0Xg+S3GCmrgQbVIFk6mE6nKShXmWtQPJijCwz2S
-dDvICtSFAJO85bAVUfGsUhvYH/s0l/upqSJFwGZX72zpwdQJoR5RBmDIt6JQyJkn
-G64rpvioMc2wTCH8HAgsQx1gJskrwnyYeMc9Ypr3pY3vUKaPePvwIRcGftTaFuWh
-U68URKhoZXqM846mdsJjfGyYuN+bEqkdjGNRnSIe6gCyfKryJ/kTiikBm5yEJA6s
-vRAF94TTplhzJD9qzjViN67a2TPAIrf0AhI8bYGV7NtW4qDm1DJqP0HNK5gCc9X3
-EIglrlVxtItQlRF9x4Rju7J9oU+tA90vK4VEDIphYJHkr2khWPQKopgfzwrxXng4
-3dEzP5RBw0J1nU7PbV1Vhcji7jIce9hSd9UQzsfQVlIipAtNlNykRUZlDRziZ3Wu
-q3yRULqNoyRlGIHFLuvDt5n/
-=OSlF
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgXA1QbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ScIQALvVhu74KqIOP9cmqMD3
+GNRvVtTk5Vhdu95Rw1jOe1CtSIEg/ky9/QfritIlwzjeU2+mWInAbqL1hVc0UKu7
+AgIePUPm8y0ia1UhpSLJ4I1fhRre6y8X8wpusybje68Y+ousBiT8oiD8sNaZSpKx
++vlkvodtxaVMhQgQP5XiW2Xax4PtvmWLGZ8VyGGBhHqxk/I7ReIiIXi+oxA+SVcy
+j3Dp8kUIvkFPTDWIJ0qQHx3vQzdatXSpCzFwkByydYHfUB8JfMMrQbKtwOEotLup
++Q5w3Tim6NL58r2VfhnDDhUwPSe4nU5fPpWesgHo8yBkgNigv/2W2QjYio/XbtgB
+HqrTR5vSutmEZ9PzpAAfGi+VfV6vbzBaVcru+VxNhYWYM6MXUj3YXmdJ5OxDPUMU
+UUUjKGxmVNL1ObMijlyiuqIiFlpth97KpP2yUWLyIkoNMc8QRJW8EhQ6AdBLsSuQ
+7MyoKBRjhojHNjSI+l4onsdp/HlLqoDxxxlkTqpH1J3A9UwvUXWMvAs6UaOpWZuj
+sEu6AJlOeWVuKcJVAIXSiYWQc4EcrwdaqQqBXStFZ3p5JpfgoNIYO4LSPHWRzpEQ
+bvQBxgFD7DcJFtL4MQKtWV9CpT4L3WSQ9ctaM0rgl1QuaqGvCFUzirZWqQtZQ4bt
+wsZSwK4jnJ6lxw1AxDlxSw6z
+=GcBn
 -----END PGP SIGNATURE-----
 
---===============3208711473277530634==--
+--===============5876804904109740466==--
