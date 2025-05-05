@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6108711335346038964=="
+Content-Type: multipart/mixed; boundary="===============3645908544285659086=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 05 May 2025 05:02:33 -0000
-Message-Id: <174642135375.2455635.16106961689542281889@gitolite.kernel.org>
+Date: Mon, 05 May 2025 05:03:44 -0000
+Message-Id: <174642142417.2456369.6916422050673414226@gitolite.kernel.org>
 
---===============6108711335346038964==
+--===============3645908544285659086==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,18 +16,50 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 1f91c5a3c61c0f02730dd82478b58f95973accde
-    new: 8ec182352dc47a9a0dacaa344f829ee4f0779cd5
-    log: revlist-1f91c5a3c61c-8ec182352dc4.txt
-  - ref: refs/tags/v6.15-rc5
-    old: 0000000000000000000000000000000000000000
-    new: bc720facc421d0ff6d568323035d1a4d5d35ce84
+    old: 8ec182352dc47a9a0dacaa344f829ee4f0779cd5
+    new: c3768c00e0c16805ebb0256c41c3f5007bdde0c1
+    log: revlist-8ec182352dc4-c3768c00e0c1.txt
+  - ref: refs/heads/tip/urgent
+    old: 2696c4a950d594309c3ea83d10a3c618ccfda6f5
+    new: 595c285aa21da172ccf6dfb4a0f0003d84680a5d
+    log: revlist-2696c4a950d5-595c285aa21d.txt
 
---===============6108711335346038964==
+--===============3645908544285659086==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1f91c5a3c61c-8ec182352dc4.txt
+Content-Disposition: attachment; filename=revlist-8ec182352dc4-c3768c00e0c1.txt
+
+595c285aa21da172ccf6dfb4a0f0003d84680a5d Merge branch into tip/master: 'timers/urgent'
+df088a83c93b8e3c6d3631dccb1b43109cf5ad59 Merge branch into tip/master: 'x86/merge'
+1ac2d48346489467c86ab52dac97e044eeb295ed Merge branch into tip/master: 'perf/merge'
+8005b2d54cea6d86892d3e6f8231c4146c2c8e81 Merge branch into tip/master: 'core/entry'
+2a6da942ba21d0c153d5a79f12a07faeb9969f7d Merge branch into tip/master: 'irq/core'
+d9d7c192d9aa900a726126d40302f38125d900d7 Merge branch into tip/master: 'irq/drivers'
+e707da99a6c9c90718337ce94c18f4ce84fc71ea Merge branch into tip/master: 'irq/msi'
+a9b7b3ea03816e81411d74e82a394f6485e51990 Merge branch into tip/master: 'objtool/core'
+10e4e50d895937a4f714e1c05aaf8278c91ac2cc Merge branch into tip/master: 'perf/core'
+85de6cac74444d27b44555c4e97c5a3fd464c30d Merge branch into tip/master: 'sched/core'
+cde15e5e8aad38ab5ba2af06a49e7fc13d1b2c93 Merge branch into tip/master: 'timers/core'
+4d202bfff416721485b760ae9c1debd2cb404667 Merge branch into tip/master: 'x86/alternatives'
+430a44cc59d3b8889518ce177fa5f8779211a659 Merge branch into tip/master: 'x86/asm'
+c7387edbc6d181e01ab40471cdbe1e441090cdd4 Merge branch into tip/master: 'x86/boot'
+aad78c0a17190f6dd338d87e04b533401b1e7bda Merge branch into tip/master: 'x86/cleanups'
+b43f5c637ac3c0dbfeac2c7b7db47177996b5514 Merge branch into tip/master: 'x86/entry'
+c7d1bbe2e1ec258da322b2eeedecd691b355c9e5 Merge branch into tip/master: 'x86/fpu'
+fec6cfcd51e98d1a074d8a44d744d618260f0882 Merge branch into tip/master: 'x86/kconfig'
+865f158f6d0f9fd29f0a600908e181744f30c3a5 Merge branch into tip/master: 'x86/microcode'
+d86e0fbec1d1fa290b08a91c347fb6b32ca877a0 Merge branch into tip/master: 'x86/mm'
+1a2a96c2206af8621c2ee7ad2fb7b1c7d04e7b71 Merge branch into tip/master: 'x86/nmi'
+4521babc3dc632ef3e6d382e5fe8e6418893ddc0 Merge branch into tip/master: 'x86/platform'
+4d6a9ae5a95f1e6501dc68043b7465ec71a3087e Merge branch into tip/master: 'x86/sev'
+c3768c00e0c16805ebb0256c41c3f5007bdde0c1 Merge branch into tip/master: 'x86/sgx'
+
+--===============3645908544285659086==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-2696c4a950d5-595c285aa21d.txt
 
 bfb713ea53c746b07ae69fe97fa9b5388e4f34f9 perf tools: Fix arm64 build by generating unistd_64.h
 4fb7b8fceb0beebbe00712c3daf49ade0386076a EDAC/altera: Test the correct error reg offset
@@ -46,6 +78,6 @@ de3629baf5a33af1919dec7136d643b0662e85ef parisc: Fix double SIGFPE crash
 59c9ab3e8cc7f56cd65608f6e938b5ae96eb9cd2 Merge tag 'trace-v6.15-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 14c55b7bb0a8f013d89ccfed7ad540b774abb851 Merge tag 'perf-tools-fixes-for-v6.15-2025-05-04' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 92a09c47464d040866cf2b4cd052bc60555185fb Linux 6.15-rc5
-8ec182352dc47a9a0dacaa344f829ee4f0779cd5 Merge branch 'linus'
+595c285aa21da172ccf6dfb4a0f0003d84680a5d Merge branch into tip/master: 'timers/urgent'
 
---===============6108711335346038964==--
+--===============3645908544285659086==--
