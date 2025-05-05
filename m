@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 05 May 2025 23:42:13 -0000
-Message-Id: <174648853330.3562370.12922711809587302875@gitolite.kernel.org>
+Date: Mon, 05 May 2025 23:42:20 -0000
+Message-Id: <174648854012.3562664.2442730357866126594@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/v3_20250425_phasta_asoc_phase_out_hybrid_pci_devres
-    old: 14a3fd030c033453d436233f4c422b4903786ed3
+  - ref: refs/heads/v2_20250501_krzysztof_kozlowski_spi_minor_smatch_fixes
+    old: 222a87f6b94f6f177e896d6fcdc7881480344e34
     new: 0000000000000000000000000000000000000000
