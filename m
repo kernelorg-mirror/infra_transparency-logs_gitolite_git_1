@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7742117782505842030=="
+Content-Type: multipart/mixed; boundary="===============5084815446517342440=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Mon, 05 May 2025 19:43:23 -0000
-Message-Id: <174647420313.3353098.10604977021778963476@gitolite.kernel.org>
+Date: Mon, 05 May 2025 19:43:25 -0000
+Message-Id: <174647420563.3353221.2426433648754729253@gitolite.kernel.org>
 
---===============7742117782505842030==
+--===============5084815446517342440==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: 0348d3d8d793c08ef4e1a8b1c891189e4447635f
-    new: ed7a8984da6166d5be6cac6c580dd43a5d516d11
-    log: revlist-0348d3d8d793-ed7a8984da61.txt
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: b1852c5de2f2a37dd4462f7837c9e3e678f9e546
+    new: 92a09c47464d040866cf2b4cd052bc60555185fb
+    log: revlist-b1852c5de2f2-92a09c47464d.txt
 
---===============7742117782505842030==
+--===============5084815446517342440==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0348d3d8d793-ed7a8984da61.txt
+Content-Disposition: attachment; filename=revlist-b1852c5de2f2-92a09c47464d.txt
 
 261ffd53cc8e91e6484a3170a1ddf59a16696667 Drivers: hv: Fix bad pointer dereference in hv_get_partition_id
 06eaa824fd239edd1eab2754f29b2d03da313003 mm/memblock: pass size instead of end to memblock_set_node()
@@ -204,7 +204,6 @@ e5a3b8cf3330a774e5f5f06a2b7cf20116447297 bcachefs: More informative error messag
 dbe4674802ec8e43835900490b3492299464ad27 bcachefs: Topology error after insert is now an ERO
 c1c9cad50c5c35cd4de1b54af59a28bf07451593 drm/xe/svm: fix dereferencing error pointer in drm_gpusvm_range_alloc()
 5e639707ddb8f080fbde805a1bfa6668a1b45298 drm/xe/guc: Fix capture of steering registers
-b1852c5de2f2a37dd4462f7837c9e3e678f9e546 i2c: imx-lpi2c: Fix clock count when probe defers
 12b8a672d2aa053064151659f49e7310674d42d3 pinctrl: qcom: Fix PINGROUP definition for sm8750
 730d837979bac203c786f2c5b0707f5426275c0d selftests: ublk: fix UBLK_F_NEED_GET_DATA
 69edf98be844375807f299397c516fb1e962b3cc ublk: decouple zero copy from user copy
@@ -346,46 +345,5 @@ de3629baf5a33af1919dec7136d643b0662e85ef parisc: Fix double SIGFPE crash
 59c9ab3e8cc7f56cd65608f6e938b5ae96eb9cd2 Merge tag 'trace-v6.15-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 14c55b7bb0a8f013d89ccfed7ad540b774abb851 Merge tag 'perf-tools-fixes-for-v6.15-2025-05-04' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 92a09c47464d040866cf2b4cd052bc60555185fb Linux 6.15-rc5
-7d04905a05397b440789622a58458b8255a3f8d8 i2c: qcom-geni: Use generic definitions for bus frequencies
-198b152c78adbbd6c8f7cb5443bfac03333325d7 i2c: npcm7xx: Remove redundant ret variable
-7a5d99544f0da98dce37409de88b813fd6954c40 i2c: lpc2k: Add check for clk_enable()
-1824e9163ad8689066197cb9f1e6b71883ef888f i2c: xgene-slimpro: Simplify PCC shared memory region handling
-091a8a025b710c058693a8b1e1644bd388f15436 i2c: imx: add some dev_err_probe calls
-d409aa5330897b55814cad2e23ce82a8eebbc30e i2c: rzv2m: Constify struct i2c_algorithm
-5b96fb3b715bea971495f19cb08cd42496480efe i2c: npcm: Add clock toggle recovery
-6fedff4b07f31ef167453e6f844118f1ed2448ed i2c: uniphier(-f): Replace dev_err() with dev_err_probe() in probe function
-62bd410b3c338f5a1fe4821c944e92e6fb695c1a i2c: uniphier: Replace dev_err() with dev_err_probe() in probe function
-51a10a500f1d367fc8d938f0cf0f989d86e945bd i2c: via: Replace dev_err() with dev_err_probe() in probe function
-09af028eff47b9324b8cbc6c28a850b9e3c9e566 i2c: viapro: Replace dev_err() with dev_err_probe() in probe function
-0232944f5c642e04439e872249d790afdaac424e i2c: viperboard: Replace dev_err() with dev_err_probe() in probe function
-293edfe9856e55429ab524487b6282b794d65478 i2c: virtio: Replace dev_err() with dev_err_probe() in probe function
-519d45e3499b88646ec6bfe2edf343376655fd1c i2c: i2c-xiic: Replace dev_err() with dev_err_probe() in probe function
-549d836d90aed323017349a891256427a8475a23 i2c: scx200_acb: Replace dev_err() with dev_err_probe() in probe function
-d903867443b779e73ce75a04adb3e90fe026946a i2c: designware: Use better constants from units.h
-e6d40e41738697027ce8246bae06a91cdc0259d0 i2c: pasemi: Use correct bits.h include
-9f3c79f3e584015cc07129f250cf89521750b5e4 i2c: pasemi: Sort includes alphabetically
-b62c5585d3dead2e496f40a7029e0df5488fc252 i2c: octeon: add block-mode i2c operations
-661796ef935fed143c30bd9465c82f72d503a3c4 i2c: omap: fix deprecated of_property_read_bool() use
-0628d448db653959ff10390d440a022c275dc314 dt-bindings: i2c: i2c-mt65xx: Add MediaTek Dimensity 1200 MT6893
-7284cb4f236f7af0a934c09875af471c17db15ea i2c: amd-isp: Add ISP i2c-designware driver
-27f0e563c8c7e18a8f8a4836a10aa9101a18ff5e i2c: iproc: Drop unnecessary initialisation of 'ret'
-d8e391770b377e0cf1cf2c72b5edf673f7793eda i2c: iproc: Use dev_err_probe in probe
-83b8d4948a6685099478257c6c53ae6625261744 i2c: iproc: Use u32 instead of uint32_t
-77d49f7bd17d29d3cc239cdbe981e1c95f79c488 i2c: iproc: Fix alignment to match the open parenthesis
-fdc4f74ab00d6de7ab395324da9ae02a8dbfdc1d i2c: iproc: Remove stray blank line in slave ISR
-8887b18b94215331481a907a75a7154a06a376fd i2c: iproc: Replace udelay() with usleep_range()
-fd0c04f6386e2d153234bcfa562192cf59ae171c i2c: iproc: Fix indentation of bcm_iproc_i2c_slave_init()
-2d925f7216ab3b9bc00b5efb8a9514144ddf5b09 i2c: iproc: Move function and avoid prototypes
-3dd83b597dbeb6e0172ef6c98c4176fbbf132973 i2c: iproc: When there's an error treat it as an error
-d5ffc92e01703b0a6f60a537ce56e3c253cc708f i2c: iproc: Remove unnecessary double negation
-c1c5d371dd6f2043946ebf1314933418fc0d41f6 i2c: pasemi: Enable the unjam machine
-e8dc832c460c53efee3e1e519ac20471d350628d i2c: pasemi: Improve timeout handling
-a0de9023018d088e02a85c7c615a01c9c84e5ae6 i2c: pasemi: Improve error recovery
-107c8283c0e0a284b09c5aee3077e216b64307b5 i2c: pasemi: Log bus reset causes
-afed60b65c680d4e1c463212a1edaeb36357ff7d i2c: tegra: check msg length in SMBUS block read
-d32e4d681dd6f85f2ad1232cc8cbe4eebdf1e6d5 dt-bindings: i2c: dw: merge duplicate compatible entry.
-7f6aeda5d2e41e1dcac9e4b8dee064163aa2943b dt-bindings: i2c: dw: Add Sophgo SG2044 SoC I2C controller
-b06831359a7448b358db50fdd976ff1eefa9df9e i2c: riic: Implement bus recovery
-ed7a8984da6166d5be6cac6c580dd43a5d516d11 dt-bindings: i2c: renesas,riic: Document RZ/V2N (R9A09G056) support
 
---===============7742117782505842030==--
+--===============5084815446517342440==--
