@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 05 May 2025 21:52:48 -0000
-Message-Id: <174648196836.3466688.1334870035907412989@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Mon, 05 May 2025 21:54:37 -0000
+Message-Id: <174648207774.3468110.16637562102386289523@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
 changes:
-  - ref: refs/heads/master
-    old: 41948afcf503b5667637a0b3ab279a061f559bec
-    new: 62e23f183839c3d718ab36ce1c0cf7cb4b9c05a4
+  - ref: refs/heads/i2c/i2c-host
+    old: a8460c2d4b84fb7de38c4c741bad644594d04d03
+    new: e5ce583c6e0778aec554991c40c5e6eec4a2b624
     log: |
-         62e23f183839c3d718ab36ce1c0cf7cb4b9c05a4 libbpf: Improve BTF dedup handling of "identical" BTF types
+         e5ce583c6e0778aec554991c40c5e6eec4a2b624 i2c: mlxbf: Use str_read_write() helper
          
