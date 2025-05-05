@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============1751555593389228858=="
+Content-Type: multipart/mixed; boundary="===============1919315033676894828=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Mon, 05 May 2025 22:57:16 -0000
-Message-Id: <174648583687.3523355.4904951276275685054@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
+Date: Mon, 05 May 2025 22:58:22 -0000
+Message-Id: <174648590222.3524165.10264721752098914085@gitolite.kernel.org>
 
---===============1751555593389228858==
+--===============1919315033676894828==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/linux
+repo: pub/scm/linux/kernel/git/chanwoo/extcon
 user: chanwoo
 changes:
-  - ref: refs/heads/devfreq-next
-    old: f3253b23535fda2436b2d5a3172260a75ca64091
+  - ref: refs/heads/extcon-next
+    old: 7041ed0dde8319991b59003c414f0bda5192b041
     new: 92a09c47464d040866cf2b4cd052bc60555185fb
-    log: revlist-f3253b23535f-92a09c47464d.txt
+    log: revlist-7041ed0dde83-92a09c47464d.txt
 
---===============1751555593389228858==
+--===============1919315033676894828==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f3253b23535f-92a09c47464d.txt
+Content-Disposition: attachment; filename=revlist-7041ed0dde83-92a09c47464d.txt
 
 6907e8093b3070d877ee607e5ceede60cfd08bde nvmem: rockchip-otp: Move read-offset into variant-data
 1b23c14c07326a095b93145ca9ea31cf53d4bde1 dt-bindings: nvmem: rockchip,otp: add missing limits for clock-names
@@ -1051,4 +1051,4 @@ de3629baf5a33af1919dec7136d643b0662e85ef parisc: Fix double SIGFPE crash
 14c55b7bb0a8f013d89ccfed7ad540b774abb851 Merge tag 'perf-tools-fixes-for-v6.15-2025-05-04' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 92a09c47464d040866cf2b4cd052bc60555185fb Linux 6.15-rc5
 
---===============1751555593389228858==--
+--===============1919315033676894828==--
