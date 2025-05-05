@@ -1,23 +1,30 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 05 May 2025 23:48:11 -0000
-Message-Id: <174648889181.3569563.18082365672328412182@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Mon, 05 May 2025 23:49:31 -0000
+Message-Id: <174648897142.3570379.8512854498968021375@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/main
-    old: ebd297a2affadb6f6f4d2e5d975c1eda18ac762d
-    new: 4397684a292a71fbc1e815c3e283f7490ddce5ae
+  - ref: refs/heads/for-6.16/block
+    old: 194df9f66db8d6f74f03c78c2ad47b74a5a8b886
+    new: e371b9d3368ccb6b55fe9747be12c3107b2817b3
     log: |
-         3769478610135e82b262640252d90f6efb05be71 sch_htb: make htb_deactivate() idempotent
-         63890286f557aa5c4eed7e90a5a31658de8fdb4d selftests/tc-testing: Add a test case to cover basic HTB+FQ_CODEL case
-         75dbdaad327da09435ce5557ca0c2f89e10702fb Merge branch 'net_sched-fix-a-regression-in-sch_htb'
-         1e20324b23f0afba27997434fb978f1e4a1dbcb6 virtio-net: don't re-enable refill work too early when NAPI is disabled
-         4397684a292a71fbc1e815c3e283f7490ddce5ae virtio-net: free xsk_buffs on error in virtnet_xsk_pool_enable()
+         3d6ee575d0d49be35dbb787db4d05bdf94e2cdbb selftests: ublk: kublk: build with -Werror iff WERROR!=0
+         254827a32118ddb171680dc2143c777cc68f2cbc selftests: ublk: make test_generic_06 silent on success
+         e371b9d3368ccb6b55fe9747be12c3107b2817b3 selftests: ublk: kublk: fix include path
+         
+  - ref: refs/heads/for-next
+    old: fb68d1839b6b96a4a7232cc267b268902b402699
+    new: 8dda7caf12463d6ac138588c0ce512692a2604c1
+    log: |
+         3d6ee575d0d49be35dbb787db4d05bdf94e2cdbb selftests: ublk: kublk: build with -Werror iff WERROR!=0
+         254827a32118ddb171680dc2143c777cc68f2cbc selftests: ublk: make test_generic_06 silent on success
+         e371b9d3368ccb6b55fe9747be12c3107b2817b3 selftests: ublk: kublk: fix include path
+         8dda7caf12463d6ac138588c0ce512692a2604c1 Merge branch 'for-6.16/block' into for-next
          
