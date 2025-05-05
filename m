@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Mon, 05 May 2025 19:12:06 -0000
-Message-Id: <174647232617.3327543.11555514360036927367@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Mon, 05 May 2025 19:14:14 -0000
+Message-Id: <174647245462.3328559.10374063841923005624@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/libs/ell/ell
+user: holtmann
 changes:
-  - ref: refs/heads/arm64-pending
-    old: 4150c7f90d3cd36af633ad14955a0949e214f8c5
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master
+    old: e64244d46d0dbbfc966af1cb72d279c18f95ec5a
+    new: 364e9d576734834212ad3a6051c79db9161d4183
+    log: |
+         364e9d576734834212ad3a6051c79db9161d4183 unit: Use the precheck handler for testing available getrandom support
+         
