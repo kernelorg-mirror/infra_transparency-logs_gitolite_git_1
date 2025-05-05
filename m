@@ -1,50 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1253632757679005079=="
+Content-Type: multipart/mixed; boundary="===============7136269510604983735=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 05 May 2025 08:58:33 -0000
-Message-Id: <174643551390.2670128.10426569566230495082@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 05 May 2025 08:58:58 -0000
+Message-Id: <174643553808.2670612.4478186110261375917@gitolite.kernel.org>
 
---===============1253632757679005079==
+--===============7136269510604983735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: sashal
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue/5.10
-    old: f265a301e3b3edb9cc553a441c734415154c027d
-    new: 1c829448e2d408ab41150a83b5a74fada2e4772e
-    log: revlist-f265a301e3b3-1c829448e2d4.txt
-  - ref: refs/heads/queue/6.12
-    old: cd638826805b17e4b983381c4943f591b994b390
-    new: 453a22efc0ad05a8bb48f5a6e0faedbcb4a7fe4c
+  - ref: refs/heads/master
+    old: 4c611927b015ed0622ffd2a16be20f9762458c65
+    new: d02317dd0b1e9799572b360ed471c57e373cce77
     log: |
-         453a22efc0ad05a8bb48f5a6e0faedbcb4a7fe4c bpf: Fix BPF_INTERNAL namespace import
+         d02317dd0b1e9799572b360ed471c57e373cce77 Linux 6.1.137
          
 
---===============1253632757679005079==
+--===============7136269510604983735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f265a301e3b3-1c829448e2d4.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-24226660b203b5bc7261fb6ed461cf94be57e604 ALSA: usb-audio: Add second USB ID for Jabra Evolve 65 headset
-3f4d012a9a8d9c427217dafb85569ba28db2e173 drm/nouveau: Fix WARN_ON in nouveau_fence_context_kill()
-b4a535cd0d2483c140be7548169e852aa01c8239 EDAC/altera: Test the correct error reg offset
-927b4b6d5088bc0d91f5f2ab9e45cfd87e63280e EDAC/altera: Set DDR and SDMMC interrupt mask before registration
-101c98e55430602af36f3bcd26617efee8b63949 i2c: imx-lpi2c: Fix clock count when probe defers
-059167db76afe67b85fe2e1b7634a06825c7e199 parisc: Fix double SIGFPE crash
-973a60a3f1cfd5c24559549d71e55771b997101f amd-xgbe: Fix to ensure dependent features are toggled with RX checksum offload
-cb0a802ff36c5fd0bc529d3865a617d3beabe27a mmc: renesas_sdhi: Fix error handling in renesas_sdhi_probe
-c0c3be11db656114369d5b524ec8250f701f2f12 wifi: brcm80211: fmac: Add error handling for brcmf_usb_dl_writeimage()
-02e12ece8bacb48700f7b53b8410c948fdf589c0 dm-integrity: fix a warning on invalid table line
-040353f6a05c68b38ed6c1809f5642938466461f dm: always update the array size in realloc_argv on success
-0fa2661621df9c2f9b6569a93926b2a13f5222e1 iommu/amd: Fix potential buffer overflow in parse_ivrs_acpihid
-57001d81d9d1705fef3b93b0f5ad79e8ab04e1c7 iommu/vt-d: Apply quirk_iommu_igfx for 8086:0044 (QM57/QS57)
-1c829448e2d408ab41150a83b5a74fada2e4772e tracing: Fix oob write in trace_seq_to_buffer()
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1746435568 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1746435532-5d10082509948cc34560656a03a644623d8c79e2
 
---===============1253632757679005079==--
+4c611927b015ed0622ffd2a16be20f9762458c65 d02317dd0b1e9799572b360ed471c57e373cce77 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgYffAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ggIP/1mRiFE8mTGfd8tRHVHE
+NubGOftK5D2FV+UIQGNDHefbkY2ZejwMMcAcaLA900RVa3CVezNWfTIxjwblx2du
+YDsl9SlTPxz0u8EfImXVArtircKFIqBOSPhAGoiUGhX73CTXjMigtinCWAy5vWg1
++HN+PuMUQ4DRQHOimUv/enLxzWF5ukGfnZhukPXoavtOxcOrbPnliElisOkG4YDv
+kE5Ns6W8TlSD+TliPSIH5KGWnCdiB0y9arbbCffKNQUq70J1O9YJt3tO0SlSYlF1
+RX4CRTUcxbwqg9YVVSWA6EluB3XzeJ0ZqTjl9wwHqzIsmeOA5KWW5+n6fOZLJuxg
+A4kQERjvsePkGqXXdxaqbhhKTvfejDoA0pq6l7JAzB7KgW1luaruryqOp78SCtbw
+3ZRgsqXKPbAS1vbSGhPdoLh+txzeeyYKmB0iJ6CxsCYHSVYHrtEzM6J4aGWiwDOK
+8CgJTGAMfi640xg/KTmOLJc82BcrYkrzIQF4Fiqd7xWC0g6YNvrVwgyCndlGhA5h
+8svuey0YUnCbzfdFhJfNPAilGYSxpF0U3jj1tlivLRTQIzhcCroLEwxl/V2k/CCe
+7ac9x9JOo8MegMu/4euPqADeZhWKTPYFrjmnItzJiH7BS8po4Genc4/yetc4DCYC
+XKE2WA71qZQ24m4Ub8K6+Zj2
+=5cgO
+-----END PGP SIGNATURE-----
+
+--===============7136269510604983735==--
