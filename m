@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4544261373189566913=="
+Content-Type: multipart/mixed; boundary="===============2606814194910665223=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
-Date: Mon, 05 May 2025 07:42:33 -0000
-Message-Id: <174643095381.2594273.13626281315199009919@gitolite.kernel.org>
+Date: Mon, 05 May 2025 07:50:30 -0000
+Message-Id: <174643143003.2601804.18159903157031422186@gitolite.kernel.org>
 
---===============4544261373189566913==
+--===============2606814194910665223==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,50 @@ repo: pub/scm/linux/kernel/git/abelvesa/linux
 user: abelvesa
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next
-    old: cd2818836ea33d62cb018d9cb0a69890aa5ee639
-    new: 390afb825cced048b2bfd87b63aca5a31ce2c4f4
+  - ref: refs/heads/clk/imx
+    old: 390afb825cced048b2bfd87b63aca5a31ce2c4f4
+    new: 6a55647af3334f1d935ece67de4a838a864b53fc
     log: |
-         23132bbda35a6a3f827e53c30d46841c0b6e384f clk: imx: add hw API imx_anatop_get_clk_hw
-         e21de8313abe329c9bd43b219dc8431318bf4220 clk: imx: add support for i.MX8MM anatop clock driver
-         6af228294ac9a8b266d8cf13f1709e01269ff8ec clk: imx: add support for i.MX8MN anatop clock driver
-         a30b5829c38e19dcbd798b29416ff3307ffa4e07 clk: imx: add support for i.MX8MP anatop clock driver
-         af975e61b90eebd892b91b08fd4887b2d26ed554 clk: imx8mp: rename ccm_base to base
-         390afb825cced048b2bfd87b63aca5a31ce2c4f4 dt-bindings: clock: imx8m-clock: add PLLs
+         20e5d201b5d8f830e702d7d183f6b1b246b78d8a dt-bindings: clock: imx8mm: add VIDEO_PLL clocks
+         26a33196b5b68cf199b6c4283a254aa92d2aaf4b clk: imx8mm: rename video_pll1 to video_pll
+         2d50415e2457c6f6621c2faa3b01b11150fb9c67 dt-bindings: clock: imx8mp: add VIDEO_PLL clocks
+         21bb969f608cefd8d847cf6eb50a193d9f1fbb87 clk: imx8mp: rename video_pll1 to video_pll
+         2ba124053687c933031a6dc5b2e16ceaca250934 dt-bindings: clock: imx8m-anatop: add oscillators and PLLs
+         17e3c1a272d97e49b4f3fbfe1f1b889e120d2be8 clk: imx: add hw API imx_anatop_get_clk_hw
+         3cbc38cf42ca42d2dc9a93c949e0381ff919df71 clk: imx: add support for i.MX8MM anatop clock driver
+         80badb1d7264e83b512475898e7459f464a009c9 clk: imx: add support for i.MX8MN anatop clock driver
+         4c82bbe8b5437c7f16b2891ce33210c0f1410597 clk: imx: add support for i.MX8MP anatop clock driver
+         1a77907dbbecfbe5e6a1aec28afd49a1dc184b7a clk: imx8mp: rename ccm_base to base
+         6a55647af3334f1d935ece67de4a838a864b53fc dt-bindings: clock: imx8m-clock: add PLLs
          
 
---===============4544261373189566913==
+--===============2606814194910665223==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 1B5F44C900951556 1746430982 +0300
+pusher 1B5F44C900951556 1746431456 +0300
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/abelvesa/linux
-nonce 1746430950-1a1babfcf6f46b629cb3c29a3ec2492949a97b22
+nonce 1746431424-57d988c0782aacf9ab56f9d4c490b529e29cffa8
 
-cd2818836ea33d62cb018d9cb0a69890aa5ee639 390afb825cced048b2bfd87b63aca5a31ce2c4f4 refs/heads/for-next
+390afb825cced048b2bfd87b63aca5a31ce2c4f4 6a55647af3334f1d935ece67de4a838a864b53fc refs/heads/clk/imx
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEETvPuEU56jyrKp9G4G19EyQCVFVYFAmgYbAYACgkQG19EyQCV
-FVYQVQ/+LJKD8yLSKeP6sBy3hKzFGMph9LVBOKevWj9mGV7WrpYwsIScXdh4OcRa
-5O8ZWLV6NSO1yRPaSUO0xspT2e4ZBwf4zT/TYi+dpYP77GtDPis2euUFmgqlr7rT
-AGK2NRGBVCf4pCkaW+S+lWm4zA9LmOOI+lg0ppFxwJH/yYNxO9/Wh0eNOyZOdMAE
-p5HDGwDrJ9h5mX1Sp0EAK8a7/uWZU+Wj3RwTJ8xytuWsVzqvvuzdRnNUxbFagRWM
-JkSZwnSO4N1L/culakH7RdtOzFCbsGcOUYvtmCpchP8cyNSsr7ARo2o1l3mr+ONj
-hKCwvDMTYwPE74p53U7MUbFI3lfOo+Wg3OkXGOA5onC1c2YpamR6XprYLe4KaUSQ
-nWyfMyU5TgY6eKZT4bXYw7zMg43sStVKnlJyi9adSMrm1znAT0q2oX9AIYh83XdT
-jw4wCXRtWsliTvT2aEHLCfGPEweOU1UrglVg0LDuslAak00OxaH/5GCS+WeZ2/dx
-rfE9f2g5h4rV5wdOhgqGU9oOcZntDnqF7EWPDrDUfKIA4sqnd2MonfOt/iUtRCfo
-mHkAAz0gfNLiXNDCrfU1mxi1e2g5VHXmAwu7OrMR/YduYjtygibgEucFWvWto1/c
-HIq6SIgTTTbFFcQ+0guIpklGrMAvF1OANePsFMYOYrDtsCC8vng=
-=eWeE
+iQIzBAABCgAdFiEETvPuEU56jyrKp9G4G19EyQCVFVYFAmgYbeEACgkQG19EyQCV
+FVYhNRAAmECnaFkj9LzR1BwBSag6CKpA0SbD2MWpK1WsSilQTSSUgjciGww4Gcb+
+z+V6tPCxC4dNboha5pHgKKzk1m9p8cQBVBLgMJdlXoq95nlRq0yCderF2Q4qZ333
+0/EAgOWtohEVie8GCEa2er9VzQN8YCh69b8vCJx2YXBbRVDgrHekZvuBnjujAUCv
+At3Wk3YGxiHEd+p2cpeIHEuBBHErn1BBeV6UUGsyoLuMCl1wAZbgV1CR7S0LoC7k
+Or2SfH7iEyg48G2oaSOpFhLpagJf7yZg1LRZ4X+m7YioKN8vp2cDuEGykJBXQn6n
+PgMP4WFg/UEszQf+fB7kHVUBTZEY87oz8RZPKRyp6sFAfxYUtGCiMBzx4zIuMI8g
+CCy/lSoTv3B3pHJcJQkGhqy2R4PBGiUTENPjYfpO8nqUBHkC51wMeLmi0WU3NraH
+K4cp4Ddg2Z+twfHJHvNasqTVBeVxCBenK4Axvhg/o+6k1olfrwXNhbvvBV1xKtKC
+2jWlWM7OUIw4rImSu1ldf14oi5KIW3mNZ2L4Ys4Kc+4Z+vs7DUVXY0zhcuIiOEVB
+YIZ6+R9XWGH+tmeXYTaaadRc2/j0v21dBAXqwAst2B2IAy0AozGys0mcgDh4716H
+xUWFX/vTddIiOscwR2DWijrcJMhQoN/VDlYLZEUvUcJZIg92EiE=
+=rc1b
 -----END PGP SIGNATURE-----
 
---===============4544261373189566913==--
+--===============2606814194910665223==--
