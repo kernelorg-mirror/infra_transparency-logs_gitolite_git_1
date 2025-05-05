@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Mon, 05 May 2025 19:58:05 -0000
-Message-Id: <174647508502.3366594.17246110682467743697@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Mon, 05 May 2025 20:19:13 -0000
+Message-Id: <174647635353.3382984.14781714110352889941@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/i2c/i2c-host-next
-    old: ed7a8984da6166d5be6cac6c580dd43a5d516d11
-    new: b57d436ef6e3da687ef77fe7ff9195abb5c632c2
+  - ref: refs/heads/master
+    old: 0831bd39a0bde1492f2174153b60b582c4f3100e
+    new: 4bbfd9712857d4983593df23b82eb599907e6a69
     log: |
-         2e821616211869b89dc74757dce18371e9fa2841 i2c: smbus: introduce Write Disable-aware SPD instantiating functions
-         b57d436ef6e3da687ef77fe7ff9195abb5c632c2 i2c: i801: don't instantiate spd5118 under SPD Write Disable
+         6b9dff8fe39671037cafcc8b7f76ee3383355115 shared/vcp: use iov_pull in input parsing
+         4bbfd9712857d4983593df23b82eb599907e6a69 shared/bap: Fix handling of ASCS_Codec_Config
          
