@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5664399582895313459=="
+Content-Type: multipart/mixed; boundary="===============9194948538315805497=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 05 May 2025 05:17:59 -0000
-Message-Id: <174642227962.2469710.2773892503722781031@gitolite.kernel.org>
+Date: Mon, 05 May 2025 05:18:24 -0000
+Message-Id: <174642230438.2470248.3166203170592284018@gitolite.kernel.org>
 
---===============5664399582895313459==
+--===============9194948538315805497==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,45 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 467c126656fb231c115d4e47833f815806eb7e2e
-    new: 956c34e2578729e4ad232c30b5bc2b139a87f4a2
-    log: revlist-467c126656fb-956c34e25787.txt
+    old: 956c34e2578729e4ad232c30b5bc2b139a87f4a2
+    new: bd13b821c4c9a4021de761c47778b9dc485f3426
+    log: revlist-956c34e25787-bd13b821c4c9.txt
   - ref: refs/heads/tip/urgent
-    old: 595c285aa21da172ccf6dfb4a0f0003d84680a5d
-    new: a1ab4b2ea49f433e02854a72ceca198972129c6b
+    old: a1ab4b2ea49f433e02854a72ceca198972129c6b
+    new: 8933bf36f1b581c208e7f703648d1b8ad0fd77ee
     log: |
-         a1ab4b2ea49f433e02854a72ceca198972129c6b Merge branch into tip/master: 'timers/urgent'
+         8933bf36f1b581c208e7f703648d1b8ad0fd77ee Merge branch into tip/master: 'timers/urgent'
          
 
---===============5664399582895313459==
+--===============9194948538315805497==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-467c126656fb-956c34e25787.txt
+Content-Disposition: attachment; filename=revlist-956c34e25787-bd13b821c4c9.txt
 
-a1ab4b2ea49f433e02854a72ceca198972129c6b Merge branch into tip/master: 'timers/urgent'
-3441dc78ed025eadc05b8b68b33cd38a016e368b Merge branch into tip/master: 'x86/merge'
-1bf8c14287d889231c40e1d2496b5bbccbbee65a Merge branch into tip/master: 'perf/merge'
-74bf6af77ef31cf62a8728bf7a0cbad23a96f5d0 Merge branch into tip/master: 'core/entry'
-836123c4d480da5b742b7d3e63d95618e517fee4 Merge branch into tip/master: 'irq/core'
-dd65bd8c91268bbe6f7ef8bfbaf4524c84e04160 Merge branch into tip/master: 'irq/drivers'
-180c0fbeebea23fc78359954accc2d4ea1bf0b6e Merge branch into tip/master: 'irq/msi'
-79b81097dd5e3d79ceef2c05544062990fc90d11 Merge branch into tip/master: 'objtool/core'
-8205c27b3705ff0afc197f7251bec7e8e2346892 Merge branch into tip/master: 'perf/core'
-656a91ce853fbf72633a935f3347e2905a846e7c Merge branch into tip/master: 'sched/core'
-cf647d86aeb93593dcaedfb611117acbf40bb3e1 Merge branch into tip/master: 'timers/core'
-acfe0ea888cc2a70fd1c2efda77dce7a92ea8ac4 Merge branch into tip/master: 'x86/alternatives'
-7c96188eabcaa1ecbe7bbcae71e040c005027fb3 Merge branch into tip/master: 'x86/asm'
-28888df49b82816afe2e6694558527f58ef1a787 Merge branch into tip/master: 'x86/boot'
-630857ee27a2f58aa76f7eddbc143b69005ebffe Merge branch into tip/master: 'x86/cleanups'
-f3741e5d13dfc727b40784ab2345c239dcdb21b3 Merge branch into tip/master: 'x86/entry'
-7f9068232101561ef4fcff718a31b3fec2ced781 Merge branch into tip/master: 'x86/fpu'
-18c617b729c75d13865ac96ce87d3d080929e6ae Merge branch into tip/master: 'x86/kconfig'
-fbc4e81cfed635eeb17a3849cb695163d300fe3e Merge branch into tip/master: 'x86/microcode'
-597f86c91abe562d4eb8967c5648e65dcccf4ba4 Merge branch into tip/master: 'x86/mm'
-da48d29237f325fa6448c80b1f3714d8b695f4f4 Merge branch into tip/master: 'x86/nmi'
-50810424d5706c384aee288a82e3a68db8cfff81 Merge branch into tip/master: 'x86/platform'
-18387b04a4ef97e4886dcea078ad256c3d1051ea Merge branch into tip/master: 'x86/sev'
-e2121cc65b91119ec995b91305c3e3adebaa2bf7 Merge branch into tip/master: 'x86/sgx'
-5b91231c3afd2d75b4efbd40854655ae3b8664a5 x86/CPU/AMD: Clean up the last-reset printing code a bit
-956c34e2578729e4ad232c30b5bc2b139a87f4a2 Merge branch into tip/master: 'x86/platform'
+8933bf36f1b581c208e7f703648d1b8ad0fd77ee Merge branch into tip/master: 'timers/urgent'
+763c0f4c9da1641028269aa29c6e28570e9e7d64 Merge branch into tip/master: 'x86/merge'
+6923ed36da1f1092d2c60e977d5a5e43f1ba70fa Merge branch into tip/master: 'perf/merge'
+126d42def21b6a261e7e5374b21057dc52447601 Merge branch into tip/master: 'core/entry'
+74db7fec7c0e5e5b233b7dd6d34343edeb8dd26a Merge branch into tip/master: 'irq/core'
+6acb31ca0232514ee1ce574660cb57332f905e66 Merge branch into tip/master: 'irq/drivers'
+1778a6712b726ac91b0c34e30a2d4df7f33fe736 Merge branch into tip/master: 'irq/msi'
+8ee6cd9014f1bfc93c76c62fee35aac21ed363a4 Merge branch into tip/master: 'objtool/core'
+0087a89e004a66ba08cfde741c0b5fdf15edfe12 Merge branch into tip/master: 'perf/core'
+167a250a40a410b2e8d37b3f7a23388e809640f4 Merge branch into tip/master: 'sched/core'
+ff341789ff22514097455fbd8d895b3744d9508c Merge branch into tip/master: 'timers/core'
+e8076aebb533c08e884275cc457757d1a0566618 Merge branch into tip/master: 'x86/alternatives'
+a39d3897c02e9da0ae6c661d727e4c6bf6832935 Merge branch into tip/master: 'x86/asm'
+03044a7fc3b4989ea205c6241a6b371a49430308 Merge branch into tip/master: 'x86/boot'
+108692f97c5707221018336bac453bec45abf20a Merge branch into tip/master: 'x86/cleanups'
+f408a9091febb29cf2de5a02d0532b8b82f2ffee Merge branch into tip/master: 'x86/entry'
+95e37e205d012e9f8a3f36942cad844968f698f8 Merge branch into tip/master: 'x86/fpu'
+8da8c44510fa94c5ef77f18265d6026b6d6db1aa Merge branch into tip/master: 'x86/kconfig'
+f1d14038fc8639802201eedaccc7331486d1ed94 Merge branch into tip/master: 'x86/microcode'
+5f4cd1892d21e6db6d86315d52a9e50a970bfc49 Merge branch into tip/master: 'x86/mm'
+d1c52b2efc2b1b5d2c933bef387c4976114401c0 Merge branch into tip/master: 'x86/nmi'
+da94d250895923b67856bdb7d9cfc9e0f9055df5 Merge branch into tip/master: 'x86/platform'
+f8e25ca209d6d486aaa855709421cba5b9c901a0 Merge branch into tip/master: 'x86/sev'
+bd13b821c4c9a4021de761c47778b9dc485f3426 Merge branch into tip/master: 'x86/sgx'
 
---===============5664399582895313459==--
+--===============9194948538315805497==--
