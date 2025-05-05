@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Mon, 05 May 2025 21:34:29 -0000
-Message-Id: <174648086916.3449433.3252289211149858654@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Mon, 05 May 2025 21:41:13 -0000
+Message-Id: <174648127332.3456549.1682077623264656558@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
 changes:
-  - ref: refs/heads/work.automount
-    old: 0000000000000000000000000000000000000000
-    new: 5e04e1c8b96d5a6f4f1f764cbc0eec6f12783103
+  - ref: refs/heads/i2c/i2c-host
+    old: e58195adab4723383171cbc59d6d6773e1b14fd5
+    new: a8460c2d4b84fb7de38c4c741bad644594d04d03
+    log: |
+         4c40396a455d3177c625173a6220cddd80d41730 i2c: ismt: Use non-hybrid PCI devres API
+         a8460c2d4b84fb7de38c4c741bad644594d04d03 i2c: thunderx: Use non-hybrid PCI devres API
+         
