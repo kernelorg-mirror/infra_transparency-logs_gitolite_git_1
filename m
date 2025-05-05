@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/ell/ell
-Date: Mon, 05 May 2025 18:40:47 -0000
-Message-Id: <174647044774.3300259.5436721597981025391@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Mon, 05 May 2025 18:41:44 -0000
+Message-Id: <174647050477.3300978.17852280774136900136@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/ell/ell
+repo: pub/scm/network/wireless/iwd
 user: holtmann
 changes:
   - ref: refs/heads/master
-    old: efd90a1d6e045c2873bfa9286780cd34d78bfef1
-    new: 44a668b72836fd9be361730c22bc2cc009543073
+    old: 78f4e6240e2e0605bef20e201cf4815f36c02e29
+    new: 3267d356d272bf40043e492478b0da121d8af483
     log: |
-         44a668b72836fd9be361730c22bc2cc009543073 test: Provide test data also to the precheck function
+         3267d356d272bf40043e492478b0da121d8af483 unit: The precheck function also takes test data as parameter
          
