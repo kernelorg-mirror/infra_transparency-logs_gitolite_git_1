@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1919315033676894828=="
+Content-Type: multipart/mixed; boundary="===============8662065386740032677=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Mon, 05 May 2025 22:58:22 -0000
-Message-Id: <174648590222.3524165.10264721752098914085@gitolite.kernel.org>
+Date: Mon, 05 May 2025 22:58:43 -0000
+Message-Id: <174648592398.3524518.12437138760647814983@gitolite.kernel.org>
 
---===============1919315033676894828==
+--===============8662065386740032677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chanwoo/extcon
 user: chanwoo
 changes:
-  - ref: refs/heads/extcon-next
-    old: 7041ed0dde8319991b59003c414f0bda5192b041
+  - ref: refs/heads/extcon-fixes
+    old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
     new: 92a09c47464d040866cf2b4cd052bc60555185fb
-    log: revlist-7041ed0dde83-92a09c47464d.txt
+    log: revlist-40384c840ea1-92a09c47464d.txt
 
---===============1919315033676894828==
+--===============8662065386740032677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7041ed0dde83-92a09c47464d.txt
+Content-Disposition: attachment; filename=revlist-40384c840ea1-92a09c47464d.txt
 
 6907e8093b3070d877ee607e5ceede60cfd08bde nvmem: rockchip-otp: Move read-offset into variant-data
 1b23c14c07326a095b93145ca9ea31cf53d4bde1 dt-bindings: nvmem: rockchip,otp: add missing limits for clock-names
@@ -1051,4 +1051,4 @@ de3629baf5a33af1919dec7136d643b0662e85ef parisc: Fix double SIGFPE crash
 14c55b7bb0a8f013d89ccfed7ad540b774abb851 Merge tag 'perf-tools-fixes-for-v6.15-2025-05-04' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 92a09c47464d040866cf2b4cd052bc60555185fb Linux 6.15-rc5
 
---===============1919315033676894828==--
+--===============8662065386740032677==--
