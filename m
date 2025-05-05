@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Mon, 05 May 2025 14:03:05 -0000
-Message-Id: <174645378517.3061788.18422389334718126330@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/modules/linux
+Date: Mon, 05 May 2025 14:20:18 -0000
+Message-Id: <174645481845.3077047.7289907914161939182@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/modules/linux
+user: ppavlu
 changes:
-  - ref: refs/heads/dev
-    old: b204c92b841784c7862dc555e937fb6849e614ad
-    new: d55344291092b69a2ba6f11dbcda52fa534ac124
+  - ref: refs/heads/modules-next
+    old: 43447487812c0769ff33fda3cde88548c98323c5
+    new: 3b4c5b1f6d7db5dbbb5adea31559d88f86a286e7
     log: |
-         d55344291092b69a2ba6f11dbcda52fa534ac124 erofs-utils: fix endiannes issue
+         3b4c5b1f6d7db5dbbb5adea31559d88f86a286e7 module: Remove outdated comment about text_size
          
