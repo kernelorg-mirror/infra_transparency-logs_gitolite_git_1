@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Mon, 05 May 2025 11:14:20 -0000
-Message-Id: <174644366056.2913374.2931075561899330655@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 05 May 2025 11:31:50 -0000
+Message-Id: <174644471030.2928785.5670250099354303432@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/work.coredump.socket
-    old: 1dc72906302e0bf52d15241f2aafc3fb369502c7
-    new: 1831b19c546ab654d4cc70f607da2fbc748e5586
+  - ref: refs/heads/x86/fpu
+    old: 46c158e3ad0fc633007802c338c409c188ec0a12
+    new: 960bc2bcba5987a82530b9756e1f602a894cffa4
     log: |
-         1831b19c546ab654d4cc70f607da2fbc748e5586 coredump: add coredump socket
+         960bc2bcba5987a82530b9756e1f602a894cffa4 x86/fpu: Restore fpu_thread_struct_whitelist() to fix CONFIG_HARDENED_USERCOPY=y crash
          
