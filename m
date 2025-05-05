@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Mon, 05 May 2025 20:38:16 -0000
-Message-Id: <174647749681.3400236.16423429207492869434@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Mon, 05 May 2025 20:44:31 -0000
+Message-Id: <174647787105.3405130.2667530264832935398@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
 changes:
-  - ref: refs/heads/v6.16-shared/clkids
-    old: 0000000000000000000000000000000000000000
-    new: 4210f21c004a18aad11c55bdaf552e649a4fd286
+  - ref: refs/heads/i2c/i2c-host
+    old: b57d436ef6e3da687ef77fe7ff9195abb5c632c2
+    new: 1f354d22baa5045b5251d35a662fcce6495c9492
+    log: |
+         1f354d22baa5045b5251d35a662fcce6495c9492 dt-bindings: i2c: i2c-rk3x: Add compatible string for RK3528
+         
