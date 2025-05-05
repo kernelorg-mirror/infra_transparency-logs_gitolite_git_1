@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============8662065386740032677=="
+Content-Type: multipart/mixed; boundary="===============1728009074753783370=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Mon, 05 May 2025 22:58:43 -0000
-Message-Id: <174648592398.3524518.12437138760647814983@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
+Date: Mon, 05 May 2025 23:00:00 -0000
+Message-Id: <174648600089.3525937.17064887429491741253@gitolite.kernel.org>
 
---===============8662065386740032677==
+--===============1728009074753783370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/extcon
+repo: pub/scm/linux/kernel/git/chanwoo/linux
 user: chanwoo
 changes:
-  - ref: refs/heads/extcon-fixes
+  - ref: refs/heads/devfreq-fixes
     old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
     new: 92a09c47464d040866cf2b4cd052bc60555185fb
     log: revlist-40384c840ea1-92a09c47464d.txt
 
---===============8662065386740032677==
+--===============1728009074753783370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ de3629baf5a33af1919dec7136d643b0662e85ef parisc: Fix double SIGFPE crash
 14c55b7bb0a8f013d89ccfed7ad540b774abb851 Merge tag 'perf-tools-fixes-for-v6.15-2025-05-04' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 92a09c47464d040866cf2b4cd052bc60555185fb Linux 6.15-rc5
 
---===============8662065386740032677==--
+--===============1728009074753783370==--
