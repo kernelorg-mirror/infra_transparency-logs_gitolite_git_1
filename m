@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Mon, 05 May 2025 20:33:04 -0000
-Message-Id: <174647718462.3394969.17521602004701173970@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Mon, 05 May 2025 20:35:36 -0000
+Message-Id: <174647733628.3398460.13506620833477980275@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/heads/crypto-pending
-    old: 825598b3d92cd8be2f26f839d0ad8c0370c370d8
-    new: f2f6d37c7c8f81873902c71087d6e85eabd82fec
+  - ref: refs/heads/master
+    old: 3755e6d45aa024837b1bf71d027d0cd0dcc92219
+    new: 83a25e2a0656c8d131066e068f2bcbf7d25e7f01
     log: |
-         81f069600dfcc7e455b030f357a33e413cdc44b3 crypto: tcrypt - rename CRYPTO_TEST to CRYPTO_BENCHMARK
-         1d25f9d95e63a6ee4e6f776a6ef64eb70506aea9 crypto: testmgr - remove panic_on_fail
-         3d59e6931e688f3ee5416361bd1b853ef8761014 crypto: testmgr - replace CRYPTO_MANAGER_DISABLE_TESTS with CRYPTO_SELFTESTS
-         52c6cf659e3aaef1624d8acfb2f19a298a320685 crypto: testmgr - make it easier to enable the full set of tests
-         078b54f2a70c16b5daa780ee7fcc26d23aa55ddc crypto: testmgr - rename noextratests to noslowtests
-         965324743e1e56113963bb720aa453ba5269c57b crypto: Kconfig - make CRYPTO_MANAGER a hidden symbol
-         f2f6d37c7c8f81873902c71087d6e85eabd82fec crypto: testmgr - enable CRYPTO_MANAGER when CRYPTO_SELFTESTS
+         0c31becc1dc07cec623cc6393fcaa854787ea76d debugging: Add more "time doesn't help" examples ot QQ 11.12
+         83a25e2a0656c8d131066e068f2bcbf7d25e7f01 debugging: May 1, 2025 wordsmithing
          
