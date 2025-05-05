@@ -1,21 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Mon, 05 May 2025 21:42:59 -0000
-Message-Id: <174648137908.3458077.16222856779767384067@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Mon, 05 May 2025 21:52:18 -0000
+Message-Id: <174648193836.3466233.7745663840448571422@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/dt/next
-    old: 67dd139c917aa4773139807e9258c3aa88ac1436
-    new: 1b765f8bdac2a69602fccc9d069574428338fb43
+  - ref: refs/heads/for-next
+    old: 0b70c38a02ac144b6e69c85498f59c9085f82ab1
+    new: 9e021c9b4773d883ffd77d4d28ca500fa62eff3a
     log: |
-         f4fcfdda2fd8834c62dcb9bfddcf1f89d190b70e of: reserved_mem: Add functions to parse "memory-region"
-         df56b2443e14e8288baf76aa5ee39a26289874e8 of: Simplify of_dma_set_restricted_buffer() to use of_for_each_phandle()
-         1b765f8bdac2a69602fccc9d069574428338fb43 devres: Export devm_ioremap_resource_wc()
+         d3a05f490d048808968df1e0d3240ab01fe82211 arm64: dts: rockchip: Add I2C controllers for RK3528
+         101fe8b5627c68b3f2f941266e26ac355131e2fe arm64: dts: rockchip: Add onboard EEPROM for Radxa E20C
+         9e021c9b4773d883ffd77d4d28ca500fa62eff3a Merge branch 'v6.16-armsoc/dts64' into for-next
+         
+  - ref: refs/heads/v6.16-armsoc/dts64
+    old: 5268f3b5d29887480011b44567bcbf0d422cda94
+    new: 101fe8b5627c68b3f2f941266e26ac355131e2fe
+    log: |
+         d3a05f490d048808968df1e0d3240ab01fe82211 arm64: dts: rockchip: Add I2C controllers for RK3528
+         101fe8b5627c68b3f2f941266e26ac355131e2fe arm64: dts: rockchip: Add onboard EEPROM for Radxa E20C
          
