@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 05 May 2025 23:50:44 -0000
-Message-Id: <174648904494.3573500.13182275993280525284@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 05 May 2025 23:51:14 -0000
+Message-Id: <174648907459.3573982.661404771964561245@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: 4397684a292a71fbc1e815c3e283f7490ddce5ae
-    new: c360eb0c3ccb95306704fd221442283ee82f1f58
-    log: |
-         c360eb0c3ccb95306704fd221442283ee82f1f58 dt-bindings: net: ethernet-controller: Add informative text about RGMII delays
-         
+  - ref: refs/heads/20250407_sbinding_add_support_for_cs35l63_smart_amplifier
+    old: 0000000000000000000000000000000000000000
+    new: 406fbc4d0fb34c16718551bb8f4c776710f63b55
+  - ref: refs/heads/fileRzJbZD
+    old: 0000000000000000000000000000000000000000
+    new: a71b261c19a455f7f8e560b4ddfac44d3150ae39
