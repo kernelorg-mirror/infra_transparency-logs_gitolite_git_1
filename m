@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8373529955927984387=="
+Content-Type: multipart/mixed; boundary="===============1591493115639009701=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 05 May 2025 09:47:07 -0000
-Message-Id: <174643842790.2836826.1467115127876485131@gitolite.kernel.org>
+Date: Mon, 05 May 2025 09:47:09 -0000
+Message-Id: <174643842951.2836949.10116386469451767567@gitolite.kernel.org>
 
---===============8373529955927984387==
+--===============1591493115639009701==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,89 +16,93 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.1.y
-    old: b6736e03756f42186840724eb38cb412dfb547be
-    new: 92349d163d42effe7cb31db287a79b03803c5234
-    log: revlist-b6736e03756f-92349d163d42.txt
+  - ref: refs/heads/linux-6.6.y
+    old: 71e4ec9b2abccce5adecb3b354d0d5003f6f88f2
+    new: c8bbcc84df7fd255ba8ff5d10931690cc045c369
+    log: revlist-71e4ec9b2abc-c8bbcc84df7f.txt
 
---===============8373529955927984387==
+--===============1591493115639009701==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1746438457 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1746438458 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1746438424-321e0a2493dbfdcba4ff51a8af42c3297a14b7b3
+nonce 1746438426-7be841007cde2dfa8e0a425b140c1fb93fb8d04f
 
-b6736e03756f42186840724eb38cb412dfb547be 92349d163d42effe7cb31db287a79b03803c5234 refs/heads/linux-6.1.y
+71e4ec9b2abccce5adecb3b354d0d5003f6f88f2 c8bbcc84df7fd255ba8ff5d10931690cc045c369 refs/heads/linux-6.6.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgYiTkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SqYP/2r33D9qY4hyffzsn+S3
-/F5ysoGQXuhwmDHAShLOlJjYcvUYikjhXsHfupcTne+UrYPliLQynMIna88Ajk3A
-gywxKUrO9f36pGvCHNXpeuRRI15t9+lRlFmoO4vdHEkUjg0+7qMDkz9vU7UV/fIw
-CRtwhv/8qqmNMor70kBATYcXkpll827p9yUQJwIvsa0bMv9zZxKrZ/0Z5VRuQ71y
-gcN5ENxLlnLUv0Tt1xnX8K6uZ8Iw9HjUlezLujFPEtxB9zmL2Zbqm/jUGD57cN3z
-LHHq8gQQx++YFrjDr4o8exUZH2eNh2MLxV00V/AERZEwXu0kV0fba5jpmN7XBJSv
-iLsyWtYN4/I1vhWebyYEt481Jzse8AKKQq80codKSKoWgEt+OOVKVpih/96LbAfy
-5ewskz760l71WP4VjsPv+QG5qMw5L+oRBWmB7DLAVASKpeGS+qN4p7ws3QYYFxfe
-Vpg9lqgzo0HlrJ33cguaxzGNro8t3P93i4icA9M2FrQzUR+kWR0T6XOImivIBre/
-Gc0MXYm0mJjWFMpEV2Br/Didoq6JLePb+tCcxTUmyKL1D0q2uCbywSJnwvYBwXnp
-jbOsCkDsKqIHfG6lbE520EDmBrE424ixhVTA8Am6V2NYL7xqiMhrMov5XWtxhd3m
-GY5NNTcs5clg44zCmFu0725/
-=abap
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgYiTobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1fkQALFwZHVvHF+0DH1TNYhz
+vAWxyBzo+y1ACAPA41mwKFlEZ6rKKCgLtS/S7iPWtDb9/v6bJgH6hmAo7CCzLpe8
+c+ONiZBBF2nYzPjweaCS/3rVhPk+SMJTweoG0SiZiHwwob0Bdm7c2LJhZ+C8UKvC
+PuvBYkBsKKFNTPXVm1/7mJ5IwkgrjsMV8O9LDRNnUL8+ZwzrHhdmFj1/1vSH/U4Y
+kjMm8ua12ANPfcasrWNCPNGDGZSGVAjv1hB/uJ55hkXoMPpL3P6+tRjfrV1Dkgfk
+Y5B0DPGUCgBsMiXlmt6v1Iw0RkTXG9vtUl3DuB1/oGGZDfsjzdlrwIXQKW3DHfKH
+mMaGBvIWKGHbhmkHohj0sNoFnD/ydt4mC/WuMSEE/tc/NGiZ32lZIvpQvutmW30O
+pquuvtXcyjKbiTCIhzpkWw/VlJ9Nn0jfz2IDuuLO8j3pG5BzXE/R+DDZkKkvQgjA
+T3a9V34rIlnTdEIHMkginp9TV2WPBIpz5UBjlkE1YHlJWdLa+oR4lcnsoxw7SfpF
+8mcL83zeh35uJrJpQSo9NCq4bu6JZiv9YS5ThjxKqziNqLnaadaLgwlMwWnA6A8Q
+/fyToqpPqErsL4FxX93WUEWZ3thH+hhR4RfmgI3nd+1sqcB3FPKbjXPj0Q9EUCsn
+6dNYNcL099G9oZjt+hMzRUMH
+=Q6UP
 -----END PGP SIGNATURE-----
 
---===============8373529955927984387==
+--===============1591493115639009701==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b6736e03756f-92349d163d42.txt
+Content-Disposition: attachment; filename=revlist-71e4ec9b2abc-c8bbcc84df7f.txt
 
-8b4c07bb511c6e565daa85d27c6681eafcd84d76 LoongArch: Fix build error due to backport
-ac7079a42ea58e77123b55f5e15f1b2679f799aa Linux 6.1.137
-5dd66ca1ff9b2243876dfe39fc4ee49823ce5688 Revert "rndis_host: Flag RNDIS modems as WWAN devices"
-8e58d2670ac5dcadf123a35fc193391cea4b7397 ALSA: usb-audio: Add second USB ID for Jabra Evolve 65 headset
-7cf475657beedaefc6ce3d44c956802a2fff9f96 drm/nouveau: Fix WARN_ON in nouveau_fence_context_kill()
-fc3c770c17e5a0a67aad2154e251daf2945e4a87 EDAC/altera: Test the correct error reg offset
-a41bbe1f9551e19078224c2b065ae5b973747641 EDAC/altera: Set DDR and SDMMC interrupt mask before registration
-6b388188e54529a5dad01deed2c2f0de9fa9ecb3 i2c: imx-lpi2c: Fix clock count when probe defers
-8a8e26124e6521546fffc1488b8bd3823034152a arm64: errata: Add missing sentinels to Spectre-BHB MIDR arrays
-77426ba68df6e151a9b07629b822c2ac163b71e5 parisc: Fix double SIGFPE crash
-3e3bdbba2575103a18e12a50fd8d3dd38451b96c perf/x86/intel: KVM: Mask PEBS_ENABLE loaded for guest with vCPU's value.
-67b62509c466142cf459fbc9ca23b104838cd4cd amd-xgbe: Fix to ensure dependent features are toggled with RX checksum offload
-0aaf3181120121d6053d78c0b214976697cb7f59 irqchip/qcom-mpm: Prevent crash when trying to handle non-wake GPIOs
-6a63c76b594ec2c75473dfd691e74df75cea2393 mmc: renesas_sdhi: Fix error handling in renesas_sdhi_probe
-6a1b932e8b8838539f1bf2a4635667033b15306a wifi: brcm80211: fmac: Add error handling for brcmf_usb_dl_writeimage()
-a89ab77788d3ca43d2ba388eac324f6a1897e316 dm-integrity: fix a warning on invalid table line
-6c958334b42121bf01eb4a18dfb9f57e43511185 dm: always update the array size in realloc_argv on success
-5d643175a96843f60c726101aa6f657d9c623190 iommu/amd: Fix potential buffer overflow in parse_ivrs_acpihid
-6397eb759c8285f039ca10f567121df417c532f8 iommu/vt-d: Apply quirk_iommu_igfx for 8086:0044 (QM57/QS57)
-6088a07d0ccb1abcc277560cb8fa25631776d101 platform/x86/intel-uncore-freq: Fix missing uncore sysfs during CPU hotplug
-51b80d78ca9d874ccf904563f8879e4f04f38c34 ksmbd: fix use-after-free in kerberos authentication
-414dbf7d239e0ee2f62b63ae9bb6c6c0d6705e2b cpufreq: Avoid using inconsistent policy->min and policy->max
-2369a016f6451213f56578e4a582cb32369a20c5 cpufreq: Fix setting policy limits when frequency tables are used
-a8717acbff15399e62a335b47e3f400754ca4c6d tracing: Fix oob write in trace_seq_to_buffer()
-b8b651799443443a899031ea760425399c0f53b4 xfs: fix error returns from xfs_bmapi_write
-33388ed944511256c54c5f0cce3b77855a32206a xfs: fix xfs_bmap_add_extent_delay_real for partial conversions
-45f95c6bf2d60fafd9d61fd37cb2cf3998feba3f xfs: remove a racy if_bytes check in xfs_reflink_end_cow_extent
-b61448d3b0020f542641ec2da3d43d98209b1f21 xfs: require XFS_SB_FEAT_INCOMPAT_LOG_XATTRS for attr log intent item recovery
-65c2a1ecd9c87314e9a38b68cfe7451431940c76 xfs: check opcode and iovec count match in xlog_recover_attri_commit_pass2
-e240a1615a73aac6de13cb4bcc2754f730e9ad92 xfs: validate recovered name buffers when recovering xattr items
-3a163968aeabb24b6c85b3ac818338533afe92e9 xfs: revert commit 44af6c7e59b12
-60ab66e3d34da17f0f333f23e0f6141d350b7117 xfs: match lock mode in xfs_buffered_write_iomap_begin()
-b1e18ccdabfaffc70fea8eaf52d4582d6fb6ea2a xfs: make the seq argument to xfs_bmapi_convert_delalloc() optional
-50d2016f6d34d3ddea955c0910af800fb1d793b3 xfs: make xfs_bmapi_convert_delalloc() to allocate the target offset
-f8f446e847bec207bde1251845215244f19c8414 xfs: convert delayed extents to unwritten when zeroing post eof blocks
-d83640995515673537146f8cc923773b22914394 xfs: allow symlinks with short remote targets
-4672821936922eff147c8f89b4f213a30635736c xfs: make sure sb_fdblocks is non-negative
-a8e10131d7bfb63675acfd5bd291000cf07ae63f xfs: fix freeing speculative preallocations for preallocated files
-24180b6c1d13954d29900295806bb70dbbc73e33 xfs: allow unlinked symlinks and dirs with zero size
-9e0df102e3bae0cc9fe8887c06292bd4f4c228ca xfs: restrict when we try to align cow fork delalloc to cowextsz hints
-6ca7ba8d7899c1d4ae97fede1afd2a4ce12c6733 KVM: x86: Load DR6 with guest value only before entering .vcpu_run() loop
-e5d92cdae45a74bee06edcd8212aa1788371ffc6 dm-bufio: don't schedule in atomic context
-92349d163d42effe7cb31db287a79b03803c5234 Linux 6.1.138-rc1
+f8172ed36908036becf6d4c32a1983473310a0ed Revert "rndis_host: Flag RNDIS modems as WWAN devices"
+518f0aaeabc9b71d7ad8c3bfad17b50da9272d5d ALSA: usb-audio: Add retry on -EPROTO from usb_set_interface()
+887f64d4aaf5ad88c6af85b393dfeb1abd2b4baf ALSA: usb-audio: Add second USB ID for Jabra Evolve 65 headset
+a3233a788d92b47c04cdc80ff35324be052444e7 btrfs: fix COW handling in run_delalloc_nocow()
+6c67dacbace499096dac8ee0a0c218cfc69a3ed3 drm/fdinfo: Protect against driver unbind
+69048b2fd1d4fc5def6efe3acf88a3630195b7f4 drm/nouveau: Fix WARN_ON in nouveau_fence_context_kill()
+281de10a12876adebe98f9f38634cd3766129ac4 EDAC/altera: Test the correct error reg offset
+1366ae481f668c6230da0254d840bcfdf8d33d0d EDAC/altera: Set DDR and SDMMC interrupt mask before registration
+85927b60009bef54edcb889b417169b364887b39 i2c: imx-lpi2c: Fix clock count when probe defers
+729a2d933262f15b17fee2c1a9567c212f503898 arm64: errata: Add missing sentinels to Spectre-BHB MIDR arrays
+47d6a99b78c81f927d5e528ce632dab41e3acf7a parisc: Fix double SIGFPE crash
+edc80da1ed4b3fad952cb5916aeaa37f9605b5d2 perf/x86/intel: KVM: Mask PEBS_ENABLE loaded for guest with vCPU's value.
+6d6edf6e68f716e6d7b430b7c81bd60be6d0230b amd-xgbe: Fix to ensure dependent features are toggled with RX checksum offload
+c2b5e0bcefd71179d185835d17ff07f325a37702 irqchip/qcom-mpm: Prevent crash when trying to handle non-wake GPIOs
+81e7025b8164c15bf4ff332409fd380b1f2bb90f mm/memblock: pass size instead of end to memblock_set_node()
+9286c90ff6d51844333c1d102bdcd4de5fdea78d mm/memblock: repeat setting reserved region nid if array is doubled
+e87c811f4f257d828f21855e882ebb1965952f2d mmc: renesas_sdhi: Fix error handling in renesas_sdhi_probe
+9efafde462b62199ea469ff31762a8f3b115f0ce spi: tegra114: Don't fail set_cs_timing when delays are zero
+17e3b2ec80d5ad0203aa12a12a1df2be2031db4b tracing: Do not take trace_event_sem in print_event_fields()
+cda11ad05bfa8fc307e8a1aa6fa9fb4e87b44437 wifi: brcm80211: fmac: Add error handling for brcmf_usb_dl_writeimage()
+ae6f0225c33d7c45fa07b97851e7505ef6f5de6d dm-bufio: don't schedule in atomic context
+cb53b7c68d5e9293571210beed97ca8f4154111b dm-integrity: fix a warning on invalid table line
+88c793425b709da2493b8af3584cd532683de28f dm: always update the array size in realloc_argv on success
+f491e41b62f462dd9f740eff67d1d0fd14426061 iommu/amd: Fix potential buffer overflow in parse_ivrs_acpihid
+ec647c12987e6fc9eb97d9a816c700417464786a iommu/vt-d: Apply quirk_iommu_igfx for 8086:0044 (QM57/QS57)
+61c68a17244b32111a44e68ad7e63c7aacd5b8c3 platform/x86/amd: pmc: Require at least 2.5 seconds between HW sleep cycles
+4f421eb3a85797512d72e13a944b42180a1b9ccd platform/x86/intel-uncore-freq: Fix missing uncore sysfs during CPU hotplug
+f496769cd415059847564415abf78feb237faf31 ksmbd: fix use-after-free in kerberos authentication
+9b1ee6e918b43f12f6329b11b2d29f1b6dd186b0 smb: client: fix zero length for mkdir POSIX create context
+03f23ede28347ca85ea26b67ad000d96c4be3202 cpufreq: Avoid using inconsistent policy->min and policy->max
+826dedf3cb38b758d973451c5ee3481af9439c86 cpufreq: Fix setting policy limits when frequency tables are used
+f219e93c4dc7040e2e90bd3153bb7c8cfd103ddd tracing: Fix oob write in trace_seq_to_buffer()
+8891b5923de547ca39dc22433ce2ee7fa53b8682 bpf: add find_containing_subprog() utility function
+acbbed68a376f0ce564ce38ab73017e6277ffa4c bpf: refactor bpf_helper_changes_pkt_data to use helper number
+ca38188a89d1441dba19648abe2e1cbc2f392cc1 bpf: track changes_pkt_data property for global functions
+227e3c84beeecd9d057b1384a9e3e84f1ad98b32 selftests/bpf: test for changing packet data from global functions
+92f79706c9e2765351c6fc74f8f62b3673b6bff3 bpf: check changes_pkt_data property for extension programs
+3851b82d33d1ee2014865519411fab730327c9be selftests/bpf: freplace tests for tracking of changes_packet_data
+79fa30f26defc69a3156a7fa717763ba418275a7 bpf: consider that tail calls invalidate packet pointers
+ebd6e8d7a286d12a2199f8be2d40cb79c8fe9cff selftests/bpf: validate that tail call invalidates packet pointers
+6ccb29d6198bc85b773b18940953ba5cc8c32cd4 bpf: fix null dereference when computing changes_pkt_data of prog w/o subprogs
+4a875b4c77ed1a67f4db27cda006c84f73cb9a1a selftests/bpf: extend changes_pkt_data with cases w/o subprograms
+afe201bd6f483ddead8e2741fa1f4b048e2366df Revert "PCI: imx6: Skip controller_id generation logic for i.MX7D"
+6a2aa1d84282e2fd76bbf0c5fdd11f9ee10487e9 PCI: imx6: Skip controller_id generation logic for i.MX7D
+30bcbf41448f37af705f087b7090802236db979a KVM: x86: Load DR6 with guest value only before entering .vcpu_run() loop
+2b891657dcd581144e032554109af64416e69b11 iommu: Handle race with default domain setup
+c8bbcc84df7fd255ba8ff5d10931690cc045c369 Linux 6.6.90-rc1
 
---===============8373529955927984387==--
+--===============1591493115639009701==--
