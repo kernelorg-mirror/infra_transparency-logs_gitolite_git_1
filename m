@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/superm1/amd-debug-tools
-Date: Mon, 05 May 2025 01:45:54 -0000
-Message-Id: <174640955452.2248392.8467053089472623644@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Mon, 05 May 2025 02:44:40 -0000
+Message-Id: <174641308077.2293086.3379231735792333947@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/superm1/amd-debug-tools
-user: superm1
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/refactor
-    old: cc410be5a913d44770f5b62c4f009dfb8ddb4d33
-    new: bf26de447d3ad2a5e790328dd6aa68f8afb29aa5
+  - ref: refs/heads/main
+    old: 43dfb5fb64bb2707ba4fce1bc0fe835ad644b797
+    new: 2b8dfb5e11a831271f9cb391618567faf0833a3d
     log: |
-         bf26de447d3ad2a5e790328dd6aa68f8afb29aa5 validator: Toggle PM debugging for systemd triggered suspend too
+         1790d470597252c96b9b4611110df9d86b233914 amdgpu: update dcn 4.01 firmware to 0.1.8.0
+         2b8dfb5e11a831271f9cb391618567faf0833a3d Merge branch 'amd-staging' into 'main'
          
