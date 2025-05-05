@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2369397563160573773=="
+Content-Type: multipart/mixed; boundary="===============5485349805775203806=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 05 May 2025 14:30:36 -0000
-Message-Id: <174645543671.3085820.5907274986202375123@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Mon, 05 May 2025 14:45:18 -0000
+Message-Id: <174645631891.3097602.11051844793624702823@gitolite.kernel.org>
 
---===============2369397563160573773==
+--===============5485349805775203806==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/security/vulns
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 4e77d3ec7c7c0d9535ccf1138827cb9bb5480b9b
-    new: cab63934c33b12c0d1e9f4da7450928057f2c142
+  - ref: refs/heads/master
+    old: ffebc879c1334d997675a863bfeea4bb2cedb6c1
+    new: 7c70968533a84c0e6039dca7fc0f5a9ccb9358d5
     log: |
-         6328bdc988d23201c700e1e7e04eb05a1149ac1e usb: xhci: Don't trust the EP Context cycle bit when moving HW dequeue
-         cab63934c33b12c0d1e9f4da7450928057f2c142 xhci: dbc: Avoid event polling busyloop if pending rx transfers are inactive.
+         7c70968533a84c0e6039dca7fc0f5a9ccb9358d5 Reject CVE-2023-53076 on review
          
 
---===============2369397563160573773==
+--===============5485349805775203806==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1746455463 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1746455430-ca7cfdad1106c55712ce476c82b99aef5dc0a70a
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1746456347 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1746456315-010e761abec9f9190a9846820e9a2040b3174432
 
-4e77d3ec7c7c0d9535ccf1138827cb9bb5480b9b cab63934c33b12c0d1e9f4da7450928057f2c142 refs/heads/usb-linus
+ffebc879c1334d997675a863bfeea4bb2cedb6c1 7c70968533a84c0e6039dca7fc0f5a9ccb9358d5 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgYy6cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DKQP/iCAD6WLUEWZWYL5FCCW
-MXz3gj4BXVh/qrbEX8f2IWjR0RZhgcSLhmzcnzqHcwhzJbEhYVMxFkdRb5K1rCJK
-d5jiNmZB/CIw5DZtGeZ74u9VNiQPtznQDeSTTWUjQ8GTE86DeHGr3ZX/khFaCO6P
-efbJHX8SSfzrh1TWuggwvkC+EccMGFf0+X92DQp3CipJl9xZjYgBmYvhCU/64Z9r
-Xf6TsZU8YmPuu+3wtYsJo5+p0MzIDDgFQt8Jz0LUT8UdYhMrrZ+3hR4Iao+WEwrS
-ZDlvjrYDiJndGSDL6YbSZ8EOd2Wo+Jx00KM7/0jZE/i747nIMrd+VsXdLhzG3lJQ
-qUJaZRHVVsGn1Ls+N+LKqauuNsRT8k0gtrX1t6K56IpLQ51xqe81kiJ/+vt+pjqc
-CC08IW7hxQpF6NWlfCIRjtJtG8BJKXrH+cYoMNpG3ipwP19eokJmXo+E+j2Ow0G2
-ROiqbCNQZcPomUHkvw35lIziaMDoYwA0TCVlahroChkplGARIbXnH5T0ZpFHbO+f
-HznVzGPfxss4KPe6aBazRhZZgA+F1laNF4ig9MBBhA0DEwi4FqNotrbDnuB6nZL/
-OD8+ZR21Zwsb55ak5FHJUy0VtwTyFVM0rRDb2vovzlrtBvwRsC/qP2LSMXwZhuuV
-pu2rH2FEZfB9+p1M1vWI10fC
-=hz6N
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgYzxsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+s6wP/2lo5RpPlKXqtp+E9arJ
+et5rURY4rw/A3tyxSpnyi2p25VqIiWw42bCNcTSHoSh/z/8S5ox8b+SerNxop9lE
+Vbek2cMxdBQCBDpdXg0cc0TyX8erA3FJzRYPH7pr74WE8fg7Euc/Fh68qi7+u7Ji
+tfVtNyyUyNeZy5ZpBSolU5hr0VK5XyKQdV2tkcEZdfaNf54miW4JTMFkeuzZmQc6
+x3O8Pw24zvPowvpcdsK8ERnfXgyPp54RwISkayBpVRlO5ChujQFXvqx4c7W6M5io
+IhX12dhTg2UoBGqWUIz1E0wO1/s4/4ztJqLytHc4mNdLc3rjgHkoxjzpmCzED+cq
+uxPK12Nvnf5bJM4oc3g2H/sS1LnOCIxxCsmsfgM4FuFZY9ZjcNVFSaq6p89Kj+/k
+ym8mrV48qPD1aMjcixhQKfWBxUpEijq8UuO9Ow5Qw8ql5v58SeKzL7gvWHuqSucX
+c4TqCCVaf2zi/sp82NVTxgyu17gXeJsa1L4ENMwxNY3mSaFi+XtpDbN09TR2uaNo
+1G8J+iGxg4TGRRggQOPx3pnbPn6mX5ZBTwEgrHjYgWflDjItnOVf+E1WAtNc/56Y
+uUC//v3etWJxYqdZbypshJwuN/gV1DQyEI6O9eRyAwnO6m9728PK/8SgYchgjrrW
+d5N5Y0FQq4Va9dq4Xrb3d8DD
+=WVZW
 -----END PGP SIGNATURE-----
 
---===============2369397563160573773==--
+--===============5485349805775203806==--
