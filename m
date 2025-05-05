@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4673300701158167778=="
+Content-Type: multipart/mixed; boundary="===============0123734446885146271=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
-Date: Mon, 05 May 2025 16:01:00 -0000
-Message-Id: <174646086002.3163584.3982706702879386700@gitolite.kernel.org>
+Date: Mon, 05 May 2025 16:01:17 -0000
+Message-Id: <174646087777.3163951.8893436948419303280@gitolite.kernel.org>
 
---===============4673300701158167778==
+--===============0123734446885146271==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/thermal/linux
 user: daniel.lezcano
 changes:
-  - ref: refs/heads/thermal/bleeding-edge
+  - ref: refs/heads/thermal/linux-next
     old: b30d9138503d1c8b5538ebbd1124e8a2efe6cbc8
     new: 50085e27fe479e1e3c6485359f374d491cede0b8
     log: revlist-b30d9138503d-50085e27fe47.txt
 
---===============4673300701158167778==
+--===============0123734446885146271==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ bd87f37d262eed1e4dcce85ca2a584082636604c thermal/drivers/amlogic: Rename Uptat t
 76447345ab222ea273923d9224a604e1006ac2ad thermal/drivers/mediatek/lvts: Fix debugfs unregister on failure
 50085e27fe479e1e3c6485359f374d491cede0b8 thermal/drivers/mediatek/lvts: Remove unused lvts_debugfs_exit
 
---===============4673300701158167778==--
+--===============0123734446885146271==--
