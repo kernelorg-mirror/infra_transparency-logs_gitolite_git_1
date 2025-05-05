@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6547496583570071683=="
+Content-Type: multipart/mixed; boundary="===============4703466246961465343=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 05 May 2025 12:54:48 -0000
-Message-Id: <174644968879.2998550.2301540338866214@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 05 May 2025 12:55:29 -0000
+Message-Id: <174644972983.3000745.17883153057015146734@gitolite.kernel.org>
 
---===============6547496583570071683==
+--===============4703466246961465343==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 92a09c47464d040866cf2b4cd052bc60555185fb
     log: revlist-a79be02bba5c-92a09c47464d.txt
 
---===============6547496583570071683==
+--===============4703466246961465343==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -658,4 +658,4 @@ de3629baf5a33af1919dec7136d643b0662e85ef parisc: Fix double SIGFPE crash
 14c55b7bb0a8f013d89ccfed7ad540b774abb851 Merge tag 'perf-tools-fixes-for-v6.15-2025-05-04' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 92a09c47464d040866cf2b4cd052bc60555185fb Linux 6.15-rc5
 
---===============6547496583570071683==--
+--===============4703466246961465343==--
