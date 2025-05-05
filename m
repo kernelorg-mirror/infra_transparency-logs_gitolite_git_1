@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============0606592573227273952=="
+Content-Type: multipart/mixed; boundary="===============4979717780765507483=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 05 May 2025 23:45:27 -0000
-Message-Id: <174648872749.3567638.6314520210815469177@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 05 May 2025 23:45:33 -0000
+Message-Id: <174648873379.3567975.12558961651679166822@gitolite.kernel.org>
 
---===============0606592573227273952==
+--===============4979717780765507483==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.15
+  - ref: refs/heads/spi-6.15
     old: 4426e6b4ecf632bb75d973051e1179b8bfac2320
     new: a73fa3690a1f3014d6677e368dce4e70767a6ba2
     log: revlist-4426e6b4ecf6-a73fa3690a1f.txt
-  - ref: refs/heads/for-6.16
+  - ref: refs/heads/spi-6.16
     old: 233d740e3a819829ccd6d21319015a94349d64eb
     new: 222a87f6b94f6f177e896d6fcdc7881480344e34
     log: |
@@ -29,32 +29,32 @@ changes:
          222a87f6b94f6f177e896d6fcdc7881480344e34 spi: cadence-quadspi: Assume device could match via platform
          
 
---===============0606592573227273952==
+--===============4979717780765507483==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1746488754 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1746488725-ab72dfcd0c916e0636818e70ce89c9fed915caf3
+pusher Mark Brown <broonie@kernel.org> 1746488761 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1746488731-ded9ac8fc1674f96abc183a714ee968c26ec1641
 
-4426e6b4ecf632bb75d973051e1179b8bfac2320 a73fa3690a1f3014d6677e368dce4e70767a6ba2 refs/heads/for-6.15
-233d740e3a819829ccd6d21319015a94349d64eb 222a87f6b94f6f177e896d6fcdc7881480344e34 refs/heads/for-6.16
+4426e6b4ecf632bb75d973051e1179b8bfac2320 a73fa3690a1f3014d6677e368dce4e70767a6ba2 refs/heads/spi-6.15
+233d740e3a819829ccd6d21319015a94349d64eb 222a87f6b94f6f177e896d6fcdc7881480344e34 refs/heads/spi-6.16
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgZTbITHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0DwHB/9a7OUwkPkN6ptpdNvl3pKsUQzGJrAH
-Xg56Ll+xUxFhZbUG2BlFaPaZqkacm7EIvWupWB4BTP7MWZ99So6GapHt2MZus9tp
-lbbV+wIKPtSWTMTHGOStYaKEFcyEb/dUCRYq4eYion61uoQLkJSlczxqegEFYlth
-ufSjxUxShT3KKRrEbGJoTOHH9UDynCsUX4/Y9yPDcgmsBbs7JM2krq/lR8tt7ras
-KPEG8hAI3yJWvdSv07dz2q9Px6NX+pC6QJMCelFrv1tpBBXmGwMkR7HDTU5eYhZD
-qOSOxPlXpXXvJ2Spo+Y99JS324HQ7/8SnZBc9Ui7Q7yw0uwj24EbEsWq
-=2/VV
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgZTbkTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0NwHB/98nJ4tYAeLWHjD4kD6q7LYtVT1v0ut
+kETIy2Xxr9r4V3Kk4rfTHd/11Ce5N2JIMcCKZQ/6ayfqxub7UyLwqL/a89YkGMMq
+lDos1q7u3UBiFz/tzl3W31CqX4cemlsRKVA8Jgg0KrjxG24hjwJE1AyNKzIn1HPt
+phuuHIbHg/HeC405LAOY6egq3vmjxJyAgDRkiKHzfXBhKNEQknbZBXIJSiy5Ps3k
+1rSJKKd2WnCjWTu1nQtOYEAGC6BXVE+8noKmrKlk0lIvvdX2xboZGYl/MMKTZGKe
+hH9fD1cHxJTfHcXU4InAM4pbGLbwKx5O6gZTE7GEeNX2ovFLCSFUbO8G
+=N11Z
 -----END PGP SIGNATURE-----
 
---===============0606592573227273952==
+--===============4979717780765507483==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1085,4 +1085,4 @@ de3629baf5a33af1919dec7136d643b0662e85ef parisc: Fix double SIGFPE crash
 92a09c47464d040866cf2b4cd052bc60555185fb Linux 6.15-rc5
 a73fa3690a1f3014d6677e368dce4e70767a6ba2 spi: loopback-test: Do not split 1024-byte hexdumps
 
---===============0606592573227273952==--
+--===============4979717780765507483==--
