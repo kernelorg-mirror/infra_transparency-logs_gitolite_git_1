@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 05 May 2025 16:30:55 -0000
-Message-Id: <174646265542.3190777.10164225506082109614@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Mon, 05 May 2025 16:33:13 -0000
+Message-Id: <174646279396.3191918.315776423042951044@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: daveh
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/x86/alternatives
-    old: aef1d0209ddf127a8069aca5fa3a062be4136b76
-    new: 43c2df7e2b08db6d65ce9707e4090f1f0c61f2f6
+  - ref: refs/heads/master
+    old: bd59853679f0bf4017efaaa07914d20149385810
+    new: f3daca9b490154fbb0459848cc2ed61e8367bddc
     log: |
-         43c2df7e2b08db6d65ce9707e4090f1f0c61f2f6 x86/alternative: Remove unused header #defines
+         f3daca9b490154fbb0459848cc2ed61e8367bddc Bluetooth: separate CIS_LINK and BIS_LINK link types
          
