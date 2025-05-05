@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5049958012050159648=="
+Content-Type: multipart/mixed; boundary="===============2110340050777544540=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 05 May 2025 11:48:32 -0000
-Message-Id: <174644571292.2942609.7670777868788929989@gitolite.kernel.org>
+Date: Mon, 05 May 2025 11:48:39 -0000
+Message-Id: <174644571977.2942919.2878151108074183896@gitolite.kernel.org>
 
---===============5049958012050159648==
+--===============2110340050777544540==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 8da277bda27a73f71e3bfb1c28ae95a3a8123627
-    new: 89273040247743b04ab6f536e47d90ad77d6cde1
-    log: revlist-8da277bda27a-892730402477.txt
+  - ref: refs/heads/m68k-queue
+    old: 0b7d41f3d345af994299b85603661a818c5e9858
+    new: 46ab004d43008eaed4a91594b07c5d0e67eed2c3
+    log: revlist-0b7d41f3d345-46ab004d4300.txt
 
---===============5049958012050159648==
+--===============2110340050777544540==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8da277bda27a-892730402477.txt
+Content-Disposition: attachment; filename=revlist-0b7d41f3d345-46ab004d4300.txt
 
 261ffd53cc8e91e6484a3170a1ddf59a16696667 Drivers: hv: Fix bad pointer dereference in hv_get_partition_id
 06eaa824fd239edd1eab2754f29b2d03da313003 mm/memblock: pass size instead of end to memblock_set_node()
@@ -346,6 +346,10 @@ de3629baf5a33af1919dec7136d643b0662e85ef parisc: Fix double SIGFPE crash
 59c9ab3e8cc7f56cd65608f6e938b5ae96eb9cd2 Merge tag 'trace-v6.15-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 14c55b7bb0a8f013d89ccfed7ad540b774abb851 Merge tag 'perf-tools-fixes-for-v6.15-2025-05-04' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 92a09c47464d040866cf2b4cd052bc60555185fb Linux 6.15-rc5
-89273040247743b04ab6f536e47d90ad77d6cde1 Merge tag 'v6.15-rc5'
+6f2552679d6b11857d1f53b091ba874efdd7f471 m68k: Replace strcpy() with strscpy() in hardware_proc_show()
+9774622934848a62130bee89bc2912c64ea0dba9 m68k: mac: Fix macintosh_config for Mac II
+4302c33789b1dbe128f5b146f897c1711c8e2207 m68k: atari: usb: Add ISP1160 USB host controller support
+58e896e13db7ac4f82de3c621b69dfc8628787cf m68k: atari: Update Kconfig.bus help text
+46ab004d43008eaed4a91594b07c5d0e67eed2c3 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============5049958012050159648==--
+--===============2110340050777544540==--
