@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7510781689466715780=="
+Content-Type: multipart/mixed; boundary="===============1331537257496713576=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 05 May 2025 09:30:26 -0000
-Message-Id: <174643742681.2820825.13214233502402015227@gitolite.kernel.org>
+Date: Mon, 05 May 2025 09:30:30 -0000
+Message-Id: <174643743098.2821142.11872033568396376219@gitolite.kernel.org>
 
---===============7510781689466715780==
+--===============1331537257496713576==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,59 +15,48 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: sashal
 changes:
-  - ref: refs/heads/queue/5.10
-    old: 3d895de498e7a979e6d59328dd65174f49ac3f9c
-    new: bfdb2768812eeb4fe2314bc8b096f3734e8ff435
-    log: revlist-3d895de498e7-bfdb2768812e.txt
-  - ref: refs/heads/queue/5.15
-    old: 4be0b884b896601f429db7ea94d3164cc4de9d9f
-    new: 37305139adcfc855df0e9dfa338841916fd1a326
-    log: |
-         c70302d3706c825a3a610de4acad774d823d4c0f ALSA: usb-audio: Add second USB ID for Jabra Evolve 65 headset
-         749c3b32aca6ea389dbc63b018ebe052144719ad drm/nouveau: Fix WARN_ON in nouveau_fence_context_kill()
-         0d4193eb9dec437af759f98d498ce6c97f2e4a65 EDAC/altera: Test the correct error reg offset
-         fa12f3e7b40b8074f7e29dfbb3e3012b7d7c332b EDAC/altera: Set DDR and SDMMC interrupt mask before registration
-         141a4bab6a21c130d53d83de60bc9526c9487b8b i2c: imx-lpi2c: Fix clock count when probe defers
-         c02b673f858c1a0cf30244a7d6b900998dedd77a arm64: errata: Add missing sentinels to Spectre-BHB MIDR arrays
-         a18783bfb8784247826a031b15074ab569bc317d parisc: Fix double SIGFPE crash
-         5853ad66eb6aee54a5fc4243cfb8b99265329d2b amd-xgbe: Fix to ensure dependent features are toggled with RX checksum offload
-         37305139adcfc855df0e9dfa338841916fd1a326 mmc: renesas_sdhi: Fix error handling in renesas_sdhi_probe
-         
-  - ref: refs/heads/queue/5.4
-    old: c37e14c9124c23bd95c36288c30cf8b893bc9fd4
-    new: 12da39201d4a05604a03d99ffa2ab17a6f5cee6f
-    log: |
-         e47964794b10e55c4fffe519b64c32466f1cf49c EDAC/altera: Test the correct error reg offset
-         6ea6e6b20e1494fe02303bcd60ba130b27f7b9c6 EDAC/altera: Set DDR and SDMMC interrupt mask before registration
-         82c21fa69c0d0cc2d092284886c53dccf652ae7d i2c: imx-lpi2c: Fix clock count when probe defers
-         58cbe6af91b222ccdbf8b0445c2d1cb3faa9df6b parisc: Fix double SIGFPE crash
-         1bba0de02bd55f562f30e83b088ea01a41725aa1 amd-xgbe: Fix to ensure dependent features are toggled with RX checksum offload
-         d3641b06842893ba0d532f6356f3cf6b2d0516f6 wifi: brcm80211: fmac: Add error handling for brcmf_usb_dl_writeimage()
-         82b211d01e9326a46e0b93cb049bb018852bcf9e dm-integrity: fix a warning on invalid table line
-         0606b0ba9bad4216d9fa57e24b1f29a5ee251dcf dm: always update the array size in realloc_argv on success
-         12da39201d4a05604a03d99ffa2ab17a6f5cee6f tracing: Fix oob write in trace_seq_to_buffer()
-         
+  - ref: refs/heads/queue/6.6
+    old: 8f371f33948f725b32caf29b4915322cb1029e8a
+    new: 1c1ba2bdc7415e573ac7c606a003fa87d1ae9f96
+    log: revlist-8f371f33948f-1c1ba2bdc741.txt
 
---===============7510781689466715780==
+--===============1331537257496713576==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3d895de498e7-bfdb2768812e.txt
+Content-Disposition: attachment; filename=revlist-8f371f33948f-1c1ba2bdc741.txt
 
-87ff19abfad27915c43022152cf1dfd836725c10 ALSA: usb-audio: Add second USB ID for Jabra Evolve 65 headset
-b233efd6b4c734591f348472f36ce0d5c6e3fc9e drm/nouveau: Fix WARN_ON in nouveau_fence_context_kill()
-70574710135817808e20b95a04b2a098b07c5a32 EDAC/altera: Test the correct error reg offset
-c5d9a8412c2eb532a84e9dff9598a2ec2cad990b EDAC/altera: Set DDR and SDMMC interrupt mask before registration
-7e44218010ee8d35b0b1432d2a1becd9eb2f7ad9 i2c: imx-lpi2c: Fix clock count when probe defers
-0020ba5f39b1eda222bb4dd8637c44ddc477afa3 parisc: Fix double SIGFPE crash
-68d6fa295efc330d5a97dbe6051cb333793b5ced amd-xgbe: Fix to ensure dependent features are toggled with RX checksum offload
-83237130a84ce0c11ad84b6f4ae6b54195c92d7b mmc: renesas_sdhi: Fix error handling in renesas_sdhi_probe
-1311c57ed6a635190440453d5c6359c6486d91d6 wifi: brcm80211: fmac: Add error handling for brcmf_usb_dl_writeimage()
-349e7031ca92f4683c4cd859a01174f29ce999a7 dm-integrity: fix a warning on invalid table line
-d9a77837fc898c8772372357f82c3f5f30b76426 dm: always update the array size in realloc_argv on success
-56090f9bba67a31b4648706eeff5274cb4c5b04a iommu/amd: Fix potential buffer overflow in parse_ivrs_acpihid
-550bd8b112523a2c994521481487f558fb526e98 iommu/vt-d: Apply quirk_iommu_igfx for 8086:0044 (QM57/QS57)
-32383c46dda3a2dea36bcea77befdd607e38280a tracing: Fix oob write in trace_seq_to_buffer()
-bfdb2768812eeb4fe2314bc8b096f3734e8ff435 net/sched: act_mirred: don't override retval if we already lost the skb
+01824a5997815b18f7bfe85c24b651e698891fe8 Revert "rndis_host: Flag RNDIS modems as WWAN devices"
+1996d6269372ae852440cf8f3b2bbae5f0c3c4bd ALSA: usb-audio: Add retry on -EPROTO from usb_set_interface()
+9a1b670cd82a87600e03a9f73d51b7d342a11c88 ALSA: usb-audio: Add second USB ID for Jabra Evolve 65 headset
+3a1d626058fec4605a0f3024385592efc5632f7b btrfs: fix COW handling in run_delalloc_nocow()
+22bc0d788be1b2967fd0d435e94ce64c69173e31 drm/fdinfo: Protect against driver unbind
+7b1da67335603a0196f7c972f8d655badda49e42 drm/nouveau: Fix WARN_ON in nouveau_fence_context_kill()
+78e74c5af11d25150cef3f62da42ee59abb810da EDAC/altera: Test the correct error reg offset
+3e47920f144185f3f2d13f7aeada557c5e378717 EDAC/altera: Set DDR and SDMMC interrupt mask before registration
+d9e4a0ce8631da98c5406e3d0927709540a8d2be i2c: imx-lpi2c: Fix clock count when probe defers
+5bead3990fcb92e4a389c00e33c2490ab1c47b6a arm64: errata: Add missing sentinels to Spectre-BHB MIDR arrays
+4ba3c571181f449f84dcb820b491501b94cc91e6 parisc: Fix double SIGFPE crash
+06972a17062b3159bd929b7d07a5a2366c5b3304 perf/x86/intel: KVM: Mask PEBS_ENABLE loaded for guest with vCPU's value.
+7ecdf4585979519ae4ea824283d4e865a8249fcc amd-xgbe: Fix to ensure dependent features are toggled with RX checksum offload
+21ae0afe4c1f3673eaaa3ee939723433e7dc4b7c irqchip/qcom-mpm: Prevent crash when trying to handle non-wake GPIOs
+6dc23394831b7b4d00dac345bc18545a00b876d9 mm/memblock: pass size instead of end to memblock_set_node()
+4137122ac8be05ece8418b6cb936150384fdd418 mm/memblock: repeat setting reserved region nid if array is doubled
+9d3fe61ca0b751d3d71dec5e66a25d877912c80d mmc: renesas_sdhi: Fix error handling in renesas_sdhi_probe
+e727f172eb212d07a2c7f7b4f92e7c116e37b14d spi: tegra114: Don't fail set_cs_timing when delays are zero
+2c87ffd3e452db7e08c7d8d3759ed7416e41796f tracing: Do not take trace_event_sem in print_event_fields()
+26831ee42355e6f2db62991ed128473796fd13f0 wifi: brcm80211: fmac: Add error handling for brcmf_usb_dl_writeimage()
+ccdaee3d27ff10748c0a9031d1401a2a7b36228c dm-bufio: don't schedule in atomic context
+85a6322a7bb9bae66b93c4207b8b1d10cb6a0b1e dm-integrity: fix a warning on invalid table line
+2f980e0831dd1a9a0d717f2c83b0a559a76b5822 dm: always update the array size in realloc_argv on success
+b2d28693b644ba5711236b53d1c739c3895293f1 iommu/amd: Fix potential buffer overflow in parse_ivrs_acpihid
+5f885be737c5f9424b70c0f0e7e0b70120ac6a04 iommu/vt-d: Apply quirk_iommu_igfx for 8086:0044 (QM57/QS57)
+bed22ad07ca72579f8fea572d7843b121920415c platform/x86/amd: pmc: Require at least 2.5 seconds between HW sleep cycles
+5cc8f60ae110fed527c7df595fdcabd1b1f0c564 platform/x86/intel-uncore-freq: Fix missing uncore sysfs during CPU hotplug
+52c99365b2d38ece0722ae2901d515f5ca00e5ee ksmbd: fix use-after-free in kerberos authentication
+8a0f65bca226384d129ac5dea1abac66b8720590 smb: client: fix zero length for mkdir POSIX create context
+3b00216dae1d2f496bc7ea41e3355ff86e8eeb7b cpufreq: Avoid using inconsistent policy->min and policy->max
+ac662175e9748a8e1a0d0ff3a00f3f43b486e4c2 cpufreq: Fix setting policy limits when frequency tables are used
+1c1ba2bdc7415e573ac7c606a003fa87d1ae9f96 tracing: Fix oob write in trace_seq_to_buffer()
 
---===============7510781689466715780==--
+--===============1331537257496713576==--
