@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Mon, 05 May 2025 21:41:15 -0000
-Message-Id: <174648127596.3456668.3217089983582949463@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Mon, 05 May 2025 21:42:52 -0000
+Message-Id: <174648137228.3457757.1069140793587092011@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/i2c/i2c-host-next
-    old: e58195adab4723383171cbc59d6d6773e1b14fd5
-    new: a8460c2d4b84fb7de38c4c741bad644594d04d03
+  - ref: refs/heads/for-next
+    old: 67dd139c917aa4773139807e9258c3aa88ac1436
+    new: 1b765f8bdac2a69602fccc9d069574428338fb43
     log: |
-         4c40396a455d3177c625173a6220cddd80d41730 i2c: ismt: Use non-hybrid PCI devres API
-         a8460c2d4b84fb7de38c4c741bad644594d04d03 i2c: thunderx: Use non-hybrid PCI devres API
+         f4fcfdda2fd8834c62dcb9bfddcf1f89d190b70e of: reserved_mem: Add functions to parse "memory-region"
+         df56b2443e14e8288baf76aa5ee39a26289874e8 of: Simplify of_dma_set_restricted_buffer() to use of_for_each_phandle()
+         1b765f8bdac2a69602fccc9d069574428338fb43 devres: Export devm_ioremap_resource_wc()
          
