@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Mon, 05 May 2025 16:13:55 -0000
-Message-Id: <174646163503.3173652.13186494419244726927@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Mon, 05 May 2025 16:14:24 -0000
+Message-Id: <174646166484.3174107.3243526519868294532@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/testing
-    old: 7e9a82ab5b861d3c33c99a22c1245a5b262ee502
-    new: 59e1bb0b7f4ee3bfa20df23135341089dbea30c8
+  - ref: refs/heads/100GbE
+    old: ebd297a2affadb6f6f4d2e5d975c1eda18ac762d
+    new: def3a3162a6f717df9fc168a2365853bdfc9c2ca
     log: |
-         59e1bb0b7f4ee3bfa20df23135341089dbea30c8 iio: adc: ad4000: Avoid potential double data word read
+         def3a3162a6f717df9fc168a2365853bdfc9c2ca ice: use DSN instead of PCI BDF for ice_adapter index
          
