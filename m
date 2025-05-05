@@ -1,36 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Mon, 05 May 2025 10:39:32 -0000
-Message-Id: <174644157225.2881428.4540205113060265745@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
+Date: Mon, 05 May 2025 10:39:38 -0000
+Message-Id: <174644157816.2881769.15896684924199335342@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/mingo/tip
+user: mingo
 changes:
-  - ref: refs/heads/for-next
-    old: 9fa6a693ad8dc0cd34833632883767083b8fc1f5
-    new: f0ccc717c6c64b0762f34cd1a2072bff44859423
+  - ref: refs/heads/WIP.x86/kconfig
+    old: a0d5ea01327571f3a4b78f2d32128c2f43830c1f
+    new: 06f1a90b04160b38e7073a33ff87bec58e4fbe9f
     log: |
-         15b39ced6247666f616e3b0b8eeb42cd4a8a11f2 ALSA: pcm: Remove unused snd_pcm_rate_range_to_bits
-         a5f2dd266c0b5b706ebc39d64c1caaec636f8fbf ALSA: pcm: Remove unused snd_dmaengine_pcm_open_request_chan
-         81ea9e92941091bb3178d49e63b13bf4df2ee46b ALSA: seq: Remove unused snd_seq_queue_client_leave_cells
-         625a4681666adf626afc87a752974325f65a8c32 ALSA: core: Remove unused snd_device_get_state
-         307addcc5672b0d340c0e08df5298d08c15bab75 ALSA: core: Remove unused snd_jack_set_parent
-         f0ccc717c6c64b0762f34cd1a2072bff44859423 ALSA: hda/tas2781: select CONFIG_CRC8 for SND_HDA_SCODEC_TAS2781_I2C
-         
-  - ref: refs/heads/master
-    old: 45e0e3103fb2789990b32fd44fad5a1c6988caf6
-    new: 476352691af5bbb6d2453aa010ffaad1b47bb38e
-    log: |
-         15b39ced6247666f616e3b0b8eeb42cd4a8a11f2 ALSA: pcm: Remove unused snd_pcm_rate_range_to_bits
-         a5f2dd266c0b5b706ebc39d64c1caaec636f8fbf ALSA: pcm: Remove unused snd_dmaengine_pcm_open_request_chan
-         81ea9e92941091bb3178d49e63b13bf4df2ee46b ALSA: seq: Remove unused snd_seq_queue_client_leave_cells
-         625a4681666adf626afc87a752974325f65a8c32 ALSA: core: Remove unused snd_device_get_state
-         307addcc5672b0d340c0e08df5298d08c15bab75 ALSA: core: Remove unused snd_jack_set_parent
-         f0ccc717c6c64b0762f34cd1a2072bff44859423 ALSA: hda/tas2781: select CONFIG_CRC8 for SND_HDA_SCODEC_TAS2781_I2C
-         476352691af5bbb6d2453aa010ffaad1b47bb38e Merge branch 'for-next'
+         893c57347e77e5b5942e10b748d15732e0cb6e60 x86/kconfig/64: Enable popular scheduler, cgroups and namespaces options in the defconfig
+         832cc55c479814ef30f4e948fcf9710550cabf6d x86/kconfig/64: Enable popular generic kernel options in the defconfig
+         06f1a90b04160b38e7073a33ff87bec58e4fbe9f x86/kconfig/32: Synchronize the x86-32 defconfig to the x86-64 defconfig
          
