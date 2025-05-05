@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0963343258386683066=="
+Content-Type: multipart/mixed; boundary="===============0633351502476291328=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Mon, 05 May 2025 05:48:11 -0000
-Message-Id: <174642409193.2495646.3250503841679012638@gitolite.kernel.org>
+Date: Mon, 05 May 2025 05:48:50 -0000
+Message-Id: <174642413022.2496132.13621926765525385195@gitolite.kernel.org>
 
---===============0963343258386683066==
+--===============0633351502476291328==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/readfile
-    old: c335395e27c5ada291c88fb6e5aed978517adf9e
-    new: 439c67623d53bcd5020a43ce2621877d97809ed8
-    log: revlist-c335395e27c5-439c67623d53.txt
+  - ref: refs/heads/faux_bus
+    old: 66ddc275c66dc3134ecf75e77a26e435471249fd
+    new: 5c6c2f44d722031cbf6049218a8c7add732043e4
+    log: revlist-66ddc275c66d-5c6c2f44d722.txt
 
---===============0963343258386683066==
+--===============0633351502476291328==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1746424096 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1746424132 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1746424062-9e2e40121b00e6a6f2203df36407d0d82a3ef11c
+nonce 1746424099-7bf8ca07fed6689a1958f7e3c4c6fc36543c4604
 
-c335395e27c5ada291c88fb6e5aed978517adf9e 439c67623d53bcd5020a43ce2621877d97809ed8 refs/heads/readfile
+66ddc275c66dc3134ecf75e77a26e435471249fd 5c6c2f44d722031cbf6049218a8c7add732043e4 refs/heads/faux_bus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgYUSAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+c2EQALPLBb3+9glbL/PEK6uq
-yDZf014V1TmR8M+uBNSPnERyc5Gx/nGzcenA26fga2S8MdsA4M0QfVFcRGfz4PfJ
-kZ1Xk1W+HulIon+ifYSPfSTmkeGtxdYj9Kec0X8QvV2OPM5+eqnvaVgYOEz6sknq
-VDbTFXkbBIZ1L8WJeJu5dddG+vrFsbvFwuA6vg5v4ks4CvGnhmY0oIUEBEbN5LZF
-zpTgc1nrr6SZFAUeWSUeFNxXbJ11pZu5rSae4C82NLjHTf5ZCBFSV9t5LTiDELyV
-2bsStBkwespctts3YF44ykDUbWQTWl4g6cxYpcKXDj+TPEMktwggRroiVH3JCv8G
-KJcdBjeYUxIXv/RHka79c8hu97P1Gclow7zhQ1NH4PDSysPI28SHCXSLz0uqwGzj
-k/z665zQHHg8s7S8wzHT1iIwFDMN7pPKpPqz2dzPTUV8qzhmHgoeOry6BR1wR5H1
-U/tC3bAONC2bkhm+lZ8j2Slg6ldxZZj+71ic/jCMVdDW2b2QBVPrqSBYNkhJxQbt
-iS9KHldfUMzkXgm7IajlZkFpzl6a05IZxrmRWohhteDqdVbgwI2ms3uU1VlwRWjf
-FoxMN2WwiBFY17jL5d51tn9hfdIIDxSoPjf7+MR+r71BExjwB4YwYrAcntf++3/w
-lRu4bYDsFXDs0Pvp/Nw7Ty+w
-=jq+y
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgYUUQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+juMP/3Bq1YJskRK56d6jQ83W
+YUjh9g6NDeAdT8CVMwSEJ4qa8XQQFibQwG1+FAp06iFHxSvGmmeYmP3fJIihr5sC
+BgKmQ5NRj+SBglF2gq+A1ZWy+53cRH2Y94COWK0Maw5kd8MbFh/Yui9/A6QbEVUU
+fiUOdD0NNtFYJN/bdC27YHdEEYV47k+JTQYS2mafiARP/yh9ubAX6oLSF5CmZ+E1
++lasDgT44TlUZ6UgomKi77oV6fTJckkSl6a6iqqDP6CeRk0u8IsNjx3qIj3RY4Hx
+4VaMBYngLXj/O8W+CES/Ds9vtH7erkmAjwJutDplB2RCZZOM33kvtyUjX87CUeST
+ntZGkrqQ+xaV/2Pd6xrciL8e3X6OpH92jXtlq2d0PzDBsocPp96px8u3Zbs0E4Oo
+qpjlsAVgR390BFldEq70LQaEymDxUdfnGZUyjYqgNCeAb/ResnBxOXK5Ld6oLe25
+nPAlIvaTTtvRSBmwfQ+MqyNQHMSvuJWNR2qLf08/cfIDK9i2YYDK59/O65G5do/s
+co8JSCoA2vbC4OKpgSg6FnhAvq8o9vduKfzdaV2AaksrsI1KkAN208IMJrVZ98gL
+vjFX16P5p3obbIW4om8QWwOOCRzZXCgB03isHlJBC0t1t/8CHkpTgzVCXNQ1P8nb
+1YenlatD99on9aJ6Fqa5hCg1
+=fUco
 -----END PGP SIGNATURE-----
 
---===============0963343258386683066==
+--===============0633351502476291328==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c335395e27c5-439c67623d53.txt
+Content-Disposition: attachment; filename=revlist-66ddc275c66d-5c6c2f44d722.txt
 
 261ffd53cc8e91e6484a3170a1ddf59a16696667 Drivers: hv: Fix bad pointer dereference in hv_get_partition_id
 06eaa824fd239edd1eab2754f29b2d03da313003 mm/memblock: pass size instead of end to memblock_set_node()
@@ -377,9 +377,10 @@ de3629baf5a33af1919dec7136d643b0662e85ef parisc: Fix double SIGFPE crash
 59c9ab3e8cc7f56cd65608f6e938b5ae96eb9cd2 Merge tag 'trace-v6.15-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 14c55b7bb0a8f013d89ccfed7ad540b774abb851 Merge tag 'perf-tools-fixes-for-v6.15-2025-05-04' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 92a09c47464d040866cf2b4cd052bc60555185fb Linux 6.15-rc5
-86ace33e1afd30fe4aa4aee690d975816d80e919 readfile: implement readfile syscall
-321f2ea58934b546b6d5542373d845f4f01039b2 arch: wire up the readfile syscall
-aade446f3750d01a21484e4cfbebb2982a46fc0b selftests: add readfile(2) selftests
-439c67623d53bcd5020a43ce2621877d97809ed8 readfile.2: new page describing readfile(2)
+c78607836ed620bdf37368cac414d8a9abfb7c78 x86/microcode: move away from using a fake platform device
+4a624015b9603c3fd00b30daab0c23f186e67bb2 wifi: cfg80211: move away from using a fake platform device
+213a4c525aaa9871a9d826489e7aa28e14d3dcee drm/vgem/vgem_drv convert to use faux_device
+d694aeb8e8908997de8075671b4fc56ac676f170 drm/vkms: convert to use faux_device
+5c6c2f44d722031cbf6049218a8c7add732043e4 faux_test: test module for faux driver api
 
---===============0963343258386683066==--
+--===============0633351502476291328==--
