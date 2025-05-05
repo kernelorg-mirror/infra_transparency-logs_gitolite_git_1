@@ -1,28 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Mon, 05 May 2025 21:52:18 -0000
-Message-Id: <174648193836.3466233.7745663840448571422@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 05 May 2025 21:52:48 -0000
+Message-Id: <174648196836.3466688.1334870035907412989@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/for-next
-    old: 0b70c38a02ac144b6e69c85498f59c9085f82ab1
-    new: 9e021c9b4773d883ffd77d4d28ca500fa62eff3a
+  - ref: refs/heads/master
+    old: 41948afcf503b5667637a0b3ab279a061f559bec
+    new: 62e23f183839c3d718ab36ce1c0cf7cb4b9c05a4
     log: |
-         d3a05f490d048808968df1e0d3240ab01fe82211 arm64: dts: rockchip: Add I2C controllers for RK3528
-         101fe8b5627c68b3f2f941266e26ac355131e2fe arm64: dts: rockchip: Add onboard EEPROM for Radxa E20C
-         9e021c9b4773d883ffd77d4d28ca500fa62eff3a Merge branch 'v6.16-armsoc/dts64' into for-next
-         
-  - ref: refs/heads/v6.16-armsoc/dts64
-    old: 5268f3b5d29887480011b44567bcbf0d422cda94
-    new: 101fe8b5627c68b3f2f941266e26ac355131e2fe
-    log: |
-         d3a05f490d048808968df1e0d3240ab01fe82211 arm64: dts: rockchip: Add I2C controllers for RK3528
-         101fe8b5627c68b3f2f941266e26ac355131e2fe arm64: dts: rockchip: Add onboard EEPROM for Radxa E20C
+         62e23f183839c3d718ab36ce1c0cf7cb4b9c05a4 libbpf: Improve BTF dedup handling of "identical" BTF types
          
