@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3103179765061802611=="
+Content-Type: multipart/mixed; boundary="===============8373529955927984387=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 05 May 2025 09:47:02 -0000
-Message-Id: <174643842270.2836565.15914776280224342511@gitolite.kernel.org>
+Date: Mon, 05 May 2025 09:47:07 -0000
+Message-Id: <174643842790.2836826.1467115127876485131@gitolite.kernel.org>
 
---===============3103179765061802611==
+--===============8373529955927984387==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,64 +16,89 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.15.y
-    old: 16fdf2c7111bd6927f16c3e811f5086fecebbf00
-    new: 5521d8339d45b3619ffea2898556912876eb75da
-    log: revlist-16fdf2c7111b-5521d8339d45.txt
+  - ref: refs/heads/linux-6.1.y
+    old: b6736e03756f42186840724eb38cb412dfb547be
+    new: 92349d163d42effe7cb31db287a79b03803c5234
+    log: revlist-b6736e03756f-92349d163d42.txt
 
---===============3103179765061802611==
+--===============8373529955927984387==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1746438452 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1746438457 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1746438419-d921b435a752ba72e18f747003fbb4fc51eae17a
+nonce 1746438424-321e0a2493dbfdcba4ff51a8af42c3297a14b7b3
 
-16fdf2c7111bd6927f16c3e811f5086fecebbf00 5521d8339d45b3619ffea2898556912876eb75da refs/heads/linux-5.15.y
+b6736e03756f42186840724eb38cb412dfb547be 92349d163d42effe7cb31db287a79b03803c5234 refs/heads/linux-6.1.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgYiTQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Yz8P+wRl1pcFkMv2rT5NQrRN
-ncWktqF5kjcq5tSZhmAiijZoz2OQUz4Ra+jRqHkx18yAaS3hk8mEWZn4VPu0pJma
-3LFqWxtln361g1YrHladKTt3mxr465yOg+FYDT3RORgiD/Exd7fuMAITFuoQb5GN
-W/9nEUAE07Tdw+kTtDDuvjgiABFhtz1p7oIa6h0axiYnqW0T0x7aPV5nyb26nchY
-pOugixf+7lsDz3LRy8i/bq53v0D+666M4pzWeHygqZwMI9fTBiRQUgfD8pZsSg8t
-CZHg+TUEualQ6V7m6fQaiPGCw2K2GbCuQFMen9U3uVoXRg6Ej2DiZWw6UIhNpZ/o
-cC5CZ93uUygqgqaVvJf08tOpyaKg4pETNELa+ylotyTLZBMtUDltX5Uf1X0SJ7H+
-CSBNIEKUOU/yhQQjMK6kFFTrmApdgN9lKD0fS+6glcfpik8X9hiRTTEEEpokgreI
-H+MhIbyFCVgDbgS69yecunvtEgxOpk16XywC2etPCMYfbYqJx5R3hQ7McazvQXlu
-5CO5EDDSF/iFD5xf1dUsdCthYEV3mf6s5P5Ib5sgXh/9vxhGFq9NyDO/e6sZGY86
-bWukUfz0HvoK/sv5qZmETah2oPIzEm3mzCjKrVNOWvfyU9yW2kEcfY9NFZrVd/9j
-PU+sZmWNPmHnUO4qpPTLQI4H
-=hu9M
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgYiTkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SqYP/2r33D9qY4hyffzsn+S3
+/F5ysoGQXuhwmDHAShLOlJjYcvUYikjhXsHfupcTne+UrYPliLQynMIna88Ajk3A
+gywxKUrO9f36pGvCHNXpeuRRI15t9+lRlFmoO4vdHEkUjg0+7qMDkz9vU7UV/fIw
+CRtwhv/8qqmNMor70kBATYcXkpll827p9yUQJwIvsa0bMv9zZxKrZ/0Z5VRuQ71y
+gcN5ENxLlnLUv0Tt1xnX8K6uZ8Iw9HjUlezLujFPEtxB9zmL2Zbqm/jUGD57cN3z
+LHHq8gQQx++YFrjDr4o8exUZH2eNh2MLxV00V/AERZEwXu0kV0fba5jpmN7XBJSv
+iLsyWtYN4/I1vhWebyYEt481Jzse8AKKQq80codKSKoWgEt+OOVKVpih/96LbAfy
+5ewskz760l71WP4VjsPv+QG5qMw5L+oRBWmB7DLAVASKpeGS+qN4p7ws3QYYFxfe
+Vpg9lqgzo0HlrJ33cguaxzGNro8t3P93i4icA9M2FrQzUR+kWR0T6XOImivIBre/
+Gc0MXYm0mJjWFMpEV2Br/Didoq6JLePb+tCcxTUmyKL1D0q2uCbywSJnwvYBwXnp
+jbOsCkDsKqIHfG6lbE520EDmBrE424ixhVTA8Am6V2NYL7xqiMhrMov5XWtxhd3m
+GY5NNTcs5clg44zCmFu0725/
+=abap
 -----END PGP SIGNATURE-----
 
---===============3103179765061802611==
+--===============8373529955927984387==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-16fdf2c7111b-5521d8339d45.txt
+Content-Disposition: attachment; filename=revlist-b6736e03756f-92349d163d42.txt
 
-b7c03b71e45392b90830d5259ff6d14ed7b05271 ALSA: usb-audio: Add second USB ID for Jabra Evolve 65 headset
-6820f006e9a72714c933bd3537802d10e8be1902 drm/nouveau: Fix WARN_ON in nouveau_fence_context_kill()
-d0d69791126aa4c136a202441ddb0e4d51a2bbb0 EDAC/altera: Test the correct error reg offset
-292c15b78325ae0cfac489acbe6e71c09aa56e56 EDAC/altera: Set DDR and SDMMC interrupt mask before registration
-944d7a2713a8f52167585793be1958b35fcf319c i2c: imx-lpi2c: Fix clock count when probe defers
-ffc9366d7bb5120cfc32da3290987fc67d4c374a arm64: errata: Add missing sentinels to Spectre-BHB MIDR arrays
-72cf8baa6f19b28084bf705017a1475495e125c0 parisc: Fix double SIGFPE crash
-530c6e7a5a0bd6e996482ffaaab209f3c042837f amd-xgbe: Fix to ensure dependent features are toggled with RX checksum offload
-5996f8d8fa9b6fe8d1e58f7ff3cfdebd415a196f mmc: renesas_sdhi: Fix error handling in renesas_sdhi_probe
-74b05e109184f23aebce2903401dbe7999c114f1 wifi: brcm80211: fmac: Add error handling for brcmf_usb_dl_writeimage()
-dea81b53fdb22500a03e47a3dd55fa9dbee4ddc2 dm-integrity: fix a warning on invalid table line
-b6b1bb7525e3d3d357fa1fbe318d63861859e55a dm: always update the array size in realloc_argv on success
-481803df62b0a01cf4a97f829cbf5c96783b2acb iommu/amd: Fix potential buffer overflow in parse_ivrs_acpihid
-918ac3322e5ccc2c8abdbb1f9c3f89fd86224283 iommu/vt-d: Apply quirk_iommu_igfx for 8086:0044 (QM57/QS57)
-0a16cb06e4cb1a65537aadc9d48bb81944c04891 tracing: Fix oob write in trace_seq_to_buffer()
-1d8637468b832f3b0b5ac328d07239951c8c563c KVM: x86: Load DR6 with guest value only before entering .vcpu_run() loop
-4b24cee6808cc4784587729fe8db2f76b211378a net/sched: act_mirred: don't override retval if we already lost the skb
-5521d8339d45b3619ffea2898556912876eb75da Linux 5.15.182-rc1
+8b4c07bb511c6e565daa85d27c6681eafcd84d76 LoongArch: Fix build error due to backport
+ac7079a42ea58e77123b55f5e15f1b2679f799aa Linux 6.1.137
+5dd66ca1ff9b2243876dfe39fc4ee49823ce5688 Revert "rndis_host: Flag RNDIS modems as WWAN devices"
+8e58d2670ac5dcadf123a35fc193391cea4b7397 ALSA: usb-audio: Add second USB ID for Jabra Evolve 65 headset
+7cf475657beedaefc6ce3d44c956802a2fff9f96 drm/nouveau: Fix WARN_ON in nouveau_fence_context_kill()
+fc3c770c17e5a0a67aad2154e251daf2945e4a87 EDAC/altera: Test the correct error reg offset
+a41bbe1f9551e19078224c2b065ae5b973747641 EDAC/altera: Set DDR and SDMMC interrupt mask before registration
+6b388188e54529a5dad01deed2c2f0de9fa9ecb3 i2c: imx-lpi2c: Fix clock count when probe defers
+8a8e26124e6521546fffc1488b8bd3823034152a arm64: errata: Add missing sentinels to Spectre-BHB MIDR arrays
+77426ba68df6e151a9b07629b822c2ac163b71e5 parisc: Fix double SIGFPE crash
+3e3bdbba2575103a18e12a50fd8d3dd38451b96c perf/x86/intel: KVM: Mask PEBS_ENABLE loaded for guest with vCPU's value.
+67b62509c466142cf459fbc9ca23b104838cd4cd amd-xgbe: Fix to ensure dependent features are toggled with RX checksum offload
+0aaf3181120121d6053d78c0b214976697cb7f59 irqchip/qcom-mpm: Prevent crash when trying to handle non-wake GPIOs
+6a63c76b594ec2c75473dfd691e74df75cea2393 mmc: renesas_sdhi: Fix error handling in renesas_sdhi_probe
+6a1b932e8b8838539f1bf2a4635667033b15306a wifi: brcm80211: fmac: Add error handling for brcmf_usb_dl_writeimage()
+a89ab77788d3ca43d2ba388eac324f6a1897e316 dm-integrity: fix a warning on invalid table line
+6c958334b42121bf01eb4a18dfb9f57e43511185 dm: always update the array size in realloc_argv on success
+5d643175a96843f60c726101aa6f657d9c623190 iommu/amd: Fix potential buffer overflow in parse_ivrs_acpihid
+6397eb759c8285f039ca10f567121df417c532f8 iommu/vt-d: Apply quirk_iommu_igfx for 8086:0044 (QM57/QS57)
+6088a07d0ccb1abcc277560cb8fa25631776d101 platform/x86/intel-uncore-freq: Fix missing uncore sysfs during CPU hotplug
+51b80d78ca9d874ccf904563f8879e4f04f38c34 ksmbd: fix use-after-free in kerberos authentication
+414dbf7d239e0ee2f62b63ae9bb6c6c0d6705e2b cpufreq: Avoid using inconsistent policy->min and policy->max
+2369a016f6451213f56578e4a582cb32369a20c5 cpufreq: Fix setting policy limits when frequency tables are used
+a8717acbff15399e62a335b47e3f400754ca4c6d tracing: Fix oob write in trace_seq_to_buffer()
+b8b651799443443a899031ea760425399c0f53b4 xfs: fix error returns from xfs_bmapi_write
+33388ed944511256c54c5f0cce3b77855a32206a xfs: fix xfs_bmap_add_extent_delay_real for partial conversions
+45f95c6bf2d60fafd9d61fd37cb2cf3998feba3f xfs: remove a racy if_bytes check in xfs_reflink_end_cow_extent
+b61448d3b0020f542641ec2da3d43d98209b1f21 xfs: require XFS_SB_FEAT_INCOMPAT_LOG_XATTRS for attr log intent item recovery
+65c2a1ecd9c87314e9a38b68cfe7451431940c76 xfs: check opcode and iovec count match in xlog_recover_attri_commit_pass2
+e240a1615a73aac6de13cb4bcc2754f730e9ad92 xfs: validate recovered name buffers when recovering xattr items
+3a163968aeabb24b6c85b3ac818338533afe92e9 xfs: revert commit 44af6c7e59b12
+60ab66e3d34da17f0f333f23e0f6141d350b7117 xfs: match lock mode in xfs_buffered_write_iomap_begin()
+b1e18ccdabfaffc70fea8eaf52d4582d6fb6ea2a xfs: make the seq argument to xfs_bmapi_convert_delalloc() optional
+50d2016f6d34d3ddea955c0910af800fb1d793b3 xfs: make xfs_bmapi_convert_delalloc() to allocate the target offset
+f8f446e847bec207bde1251845215244f19c8414 xfs: convert delayed extents to unwritten when zeroing post eof blocks
+d83640995515673537146f8cc923773b22914394 xfs: allow symlinks with short remote targets
+4672821936922eff147c8f89b4f213a30635736c xfs: make sure sb_fdblocks is non-negative
+a8e10131d7bfb63675acfd5bd291000cf07ae63f xfs: fix freeing speculative preallocations for preallocated files
+24180b6c1d13954d29900295806bb70dbbc73e33 xfs: allow unlinked symlinks and dirs with zero size
+9e0df102e3bae0cc9fe8887c06292bd4f4c228ca xfs: restrict when we try to align cow fork delalloc to cowextsz hints
+6ca7ba8d7899c1d4ae97fede1afd2a4ce12c6733 KVM: x86: Load DR6 with guest value only before entering .vcpu_run() loop
+e5d92cdae45a74bee06edcd8212aa1788371ffc6 dm-bufio: don't schedule in atomic context
+92349d163d42effe7cb31db287a79b03803c5234 Linux 6.1.138-rc1
 
---===============3103179765061802611==--
+--===============8373529955927984387==--
