@@ -1,51 +1,88 @@
-Content-Type: multipart/mixed; boundary="===============8474275438433944801=="
+Content-Type: multipart/mixed; boundary="===============1534506894804964463=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Tue, 06 May 2025 14:29:13 -0000
-Message-Id: <174654175399.146174.11337322932247888260@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Tue, 06 May 2025 14:40:14 -0000
+Message-Id: <174654241462.156723.14105462809894436609@gitolite.kernel.org>
 
---===============8474275438433944801==
+--===============1534506894804964463==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/arm64/fpsimd/more-fixes
-    old: 1e7c18b076e5fe71ef884aae161d17eab8f38228
-    new: 207dce64997b9cda88cce6ce3a6c92d6500a1dde
-    log: revlist-1e7c18b076e5-207dce64997b.txt
+  - ref: refs/heads/pending
+    old: 591d2c49680ba11ba8ff747e8db15ac1c7fa5848
+    new: ec570013de60b8b0bfa3cafd516ba323e6e29a8d
+    log: revlist-591d2c49680b-ec570013de60.txt
 
---===============8474275438433944801==
+--===============1534506894804964463==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1e7c18b076e5-207dce64997b.txt
+Content-Disposition: attachment; filename=revlist-591d2c49680b-ec570013de60.txt
 
-e192082692e0df3ad9b0ba5f0d974d4971b225a4 kselftest/arm64: fp-ptrace: Fix expected FPMR value when PSTATE.SM is changed
-c34b21a303e944d3efb8d3572746f2ae77e46dfb arm64/fpsimd: Do not discard modified SVE state
-67d1379c1e6495c3ba3941cf1afb3e91fe53101a arm64/fpsimd: signal: Clear PSTATE.SM when restoring FPSIMD frame only
-7368370eea8887b3f5316d44c4ef1e3363c511f4 arm64/fpsimd: signal: Mandate SVE payload for streaming-mode state
-ad452b540a5bb57e233075472e86fd39c0059b4b arm64/fpsimd: ptrace: Consistently handle partial writes to NT_ARM_(S)SVE
-f9cf214d811d9e97c16e2c5266e3bcf7e0a21325 arm64/fpsimd: Clarify sve_sync_*() functions
-166e5d69f1dca19acbb4efaaf2dad7da67ef6e99 arm64/fpsimd: Factor out {sve,sme}_state_size() helpers
-473791fa44dabf913198a810541ff4c3823137ed arm64/fpsimd: Factor out {sve,sme}_zero() helpers
-a78256f766322483560847317815aecfee14c5f0 arm64/fpsimd: Add task_smstop_sm()
-45d04c30100d5c3f965a05c6b4f268189d4ca4ea arm64/fpsimd: signal: Use SMSTOP behaviour in setup_return()
-7ef5cfb5b6eccb2ef6f8214fd427abbb656ad580 arm64/fpsimd: Remove redundant task->mm check
-3be78619585c915187aeaa058be95471ec01aacf arm64/fpsimd: Consistently preserve FPSIMD state during clone()
-503b17ca0067424d604d0ed4cd1bd2aacaac17f5 arm64/fpsimd: Clear PSTATE.SM during clone()
-ca568872f9e40aec8d5e03c726e8c01999016d22 arm64/fpsimd: Make clone() compatible with ZA lazy saving
-a5016b67ae38ae8f8386708a35dd0974fa88fe8f arm64/fpsimd: ptrace/prctl: Ensure VL changes do not resurrect stale data
-129d60323b91fcfc23917da3fceedc84adf8722b arm64/fpsimd: ptrace/prctl: Ensure VL changes leave task in a valid state
-18a7d860be34a340bfc88c17093c70858da9af77 arm64/fpsimd: ptrace: Save task state before generating SVE header
-dbe1556359a588e9e3629275fe319225f93712fd arm64/fpsimd: ptrace: Do not present register data for inactive mode
-5dab892a71874050ab8eb6cb3ffb7decf294d6a2 arm64/fpsimd: ptrace: Mandate SVE payload for streaming-mode state
-9e4598209fa534de93d99b58a2eb6c970fca61c0 arm64/fpsimd: ptrace: Gracefully handle allocation failures
-207dce64997b9cda88cce6ce3a6c92d6500a1dde arm64/fpsimd: allow CONFIG_ARM64_SME to be selected
+1779410189764bd4fa40efb650e000edda694b59 wifi: ath12k: combine channel list for split-phy devices in single-wiphy
+c23cc8ea2d104fecd0a54ca691cf8d58fe956fa7 wifi: ath12k: delete mon reap timer
+10091c6b88fed6d448f3d1194ae8eb854eaa73dc wifi: ath12k: fix a possible dead lock caused by ab->base_lock
+5e16ab29832a7ca71b18e97d644d815f651937e1 wifi: ath12k: refactor ath12k_reg_chan_list_event()
+a2ed22c218168f58f7c8489d65499df4f036b808 wifi: ath12k: refactor ath12k_reg_build_regd()
+443a31570e1979e5318989e0da751e8b1ae0751f wifi: ath12k: add support to select 6 GHz regulatory type
+a2c964b4c45dd834706b61ca765874ba2a4fea2d wifi: ath12k: move reg info handling outside
+a5e9b6c1d7a385beef0dbdc2841eb1b87e6a22dd wifi: ath12k: store reg info for later use
+f54b37060b286870a65a711bbbb1d8f611e282ef wifi: ath12k: determine interface mode in _op_add_interface()
+94f877473d65443404c1415651bd9a1f0b81e56f wifi: ath12k: update regulatory rules when interface added
+135134c60bc044de36d6d9b0457469a527741d00 wifi: ath12k: update regulatory rules when connection established
+90020310ef436083d466145d8ac2aac1593f425a wifi: ath12k: save power spectral density(PSD) of regulatory rule
+1e58ae5a473ea1662e7eba8a9c906921fab4836d wifi: ath12k: add parse of transmit power envelope element
+b6b4a1ae6a52f205cc42b81e51df928eb50fd322 wifi: ath12k: save max transmit power in vdev start response event from firmware
+30b2f26f57339cd8894471e595d9bb1976667249 wifi: ath12k: fill parameters for vdev set TPC power WMI command
+97e44bec1a31a651e174d13c6b3993e06c39a240 wifi: ath12k: add handler for WMI_VDEV_SET_TPC_POWER_CMDID
+c9f94ca9ec3102fd21a32692fc67710fc34d6f72 wifi: ath12k: use WMI_VDEV_SET_TPC_POWER_CMDID when EXT_TPC_REG_SUPPORT for 6 GHz
+2ac16e334935c4c9b1c67c375457c859259602ea wifi: ath12k: push HE MU-MIMO params to hardware
+2773cdc8dab372a138c311eb75a2b0fecd98891d wifi: ath12k: push EHT MU-MIMO params to hardware
+4a500f9f5738480a3e8fb864aded4b59a82856a6 wifi: ath12k: move HE MCS mapper to a separate function
+14598a7326072b403aa6efd3ce3ef4d2f6f0ea7f wifi: ath12k: generate rx and tx mcs maps for supported HE mcs
+19f46eb82a7977c16d2a5bf96844a3e50604906b wifi: ath12k: fix TX and RX MCS rate configurations in HE mode
+99732a81b2847c7ab75e6ab907e8cad249dfc379 wifi: ath12k: add support for setting fixed HE rate/GI/LTF
+5c30ff3579c82a23386b0b3de4a9e23d02be726f wifi: ath12k: clean up 80P80 support
+490f04cf4dedcc3c964141813e862a6ec461ed81 wifi: ath12k: add support for 160 MHz bandwidth
+37fab54f26d55de61266f5db46933b88dddc3bab wifi: ath12k: add extended NSS bandwidth support for 160 MHz
+7986bc301af6a06b8f5b79a0206670d71615a8be wifi: ath12k: Abort scan before removing link interface to prevent duplicate deletion
+59a940dabe190e9f8ad785a2d41b4bb99fb14840 wifi: ath10k: Fix spelling mistake "comple" -> "complete"
+8e6869d82150853c95fde3a753ee60ce71e48a59 wifi: ath10k: Constify structures in hw.c
+8ce5544dd43a4e26659039e42c43c4e2a2114ce5 wifi: ath12k: parse msdu_end tlv in ath12k_dp_mon_rx_parse_status_tlv()
+6dab7856495f17217762e6467123c5a89a2cb223 wifi: ath12k: avoid call ath12k_dp_mon_parse_rx_dest_tlv() for WCN7850
+c844ae8ca9deb6efc713a9413a9475852b761335 wifi: ath12k: add srng config template for mon status ring
+78140c7a1851f40732119da68f4756a14deca254 wifi: ath12k: add ring config for monitor mode on WCN7850
+c5aeb9ce7d093f1198983e482075359a7043991b wifi: ath12k: add interrupt configuration for mon status ring
+2adea78174e12098d88110268d3c91b4c7566cde wifi: ath12k: add monitor mode handler by monitor status ring interrupt
+e10edddfbb91f0498c366e41582bb1bdbd489111 wifi: ath12k: add support to reap and process monitor status ring
+58532853a1e848fd70d3e4f7d969f42305c221a0 wifi: ath12k: fix macro definition HAL_RX_MSDU_PKT_LENGTH_GET
+e2e64465a6f2a2f8438ffa937f4796ddd91d84f3 wifi: ath12k: use ath12k_buffer_addr in ath12k_dp_rx_link_desc_return()
+47d91e3638c68b212a21425657f83df08a37f50f wifi: ath12k: add support to reap and process mon dest ring
+bdaf51f8a7106799e430068853e124111099b937 wifi: ath12k: init monitor parameters for WCN7850
+171cfa5bf9dd2132d19f4f2785ccc57c30eb7e68 wifi: ath12k: use different packet offset for WCN7850
+a73642a0566e727b0a58a0a7a09583e92ee335bb wifi: ath12k: enable monitor mode for WCN7850
+3a0829c77b941ec99de4de6777ed420e3ba4fb61 wifi: ath12k: Enable AST index based address search in Station Mode
+1a6f52309dfb60e3c178e48e856553f3563c5942 wifi: ath12k: Prevent multicast duplication for dynamic VLAN
+13a342b2d0b94d088651344dcc79b9791e4314e2 wifi: ath12k: update EMLSR capabilities of ML Station
+220c07cfce701b623468979633e826299946feb5 wifi: ath12k: pass link_conf for tx_arvif retrieval
+3838189e5e654c33412e5e3c01aa19de7efabccb wifi: ath12k: Fix invalid RSSI values in station dump
+01540fab081344569cf8bd549a2378dac9654b95 wifi: ath12k: change soc name to device name
+57bbeb9f394abfecb83c599696439119cc5e1291 wifi: ath12k: Add device dp stats support
+3b998a85aa1f01f78c2bedbb62844233b6c79b34 wifi: ath12k: print device dp stats in debugfs
+9f7029f4565ab1e220d2f2e3b449209a997400d6 wifi: ath12k: Reorder and relocate the release of resources in ath12k_core_deinit()
+9a4b18f1fbdc8d421745af22f0be8b55dabe5f39 wifi: ath12k: Adjust the process of resource release for ahb bus
+aa85cb4a9b1da5b01b599763b08b7415e6ddf89b dt-bindings: net: wireless: ath12k: describe firmware-name property
+0afb217662e26d57ee9b9544435f307721df0e4c wifi: ath12k: support usercase-specific firmware overrides
+f7b56dfb15477350b31377cd5da634aaad4f624c wifi: ath9k: ahb: do ioremap resource in one step
+41b54d40225d053ff5b4048385361d6298a4ebe1 wifi: ath12k: remove redundant regulatory rules intersection logic in host
+442b65c47ed19a5fdd39040293325db7620e3d89 wifi: ath12k: fix memory leak in ath12k_service_ready_ext_event
+ec570013de60b8b0bfa3cafd516ba323e6e29a8d wifi: ath11k: Fix QMI target memory reuse logic
 
---===============8474275438433944801==--
+--===============1534506894804964463==--
