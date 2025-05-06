@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6533579051494888198=="
+Content-Type: multipart/mixed; boundary="===============4701837292637365582=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 06 May 2025 13:34:57 -0000
-Message-Id: <174653849773.95359.929652393159422832@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 06 May 2025 13:35:04 -0000
+Message-Id: <174653850440.97118.16477488611213902431@gitolite.kernel.org>
 
---===============6533579051494888198==
+--===============4701837292637365582==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.15
+  - ref: refs/heads/asoc-6.15
     old: 315c84567001aec7f7b74a0dbd4fce3e1c5cbd87
     new: b19fa45715ce9cfcc597ed140df31115e969b39d
     log: revlist-315c84567001-b19fa45715ce.txt
-  - ref: refs/heads/for-6.16
+  - ref: refs/heads/asoc-6.16
     old: fe65ce845c0a5876e0f6b9d848a951a218f8e3b2
     new: 02ca7898185fcbfc5890f0a8e42664bcd95d94a1
     log: revlist-fe65ce845c0a-02ca7898185f.txt
 
---===============6533579051494888198==
+--===============4701837292637365582==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1746538524 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1746538495-948f1a1ec3c0c7180bfbf927c3c6b6e1bd3f3495
+pusher Mark Brown <broonie@kernel.org> 1746538531 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1746538501-0a0c30a0b50f55b32056b8fa2aee0fad2ff9fecc
 
-315c84567001aec7f7b74a0dbd4fce3e1c5cbd87 b19fa45715ce9cfcc597ed140df31115e969b39d refs/heads/for-6.15
-fe65ce845c0a5876e0f6b9d848a951a218f8e3b2 02ca7898185fcbfc5890f0a8e42664bcd95d94a1 refs/heads/for-6.16
+315c84567001aec7f7b74a0dbd4fce3e1c5cbd87 b19fa45715ce9cfcc597ed140df31115e969b39d refs/heads/asoc-6.15
+fe65ce845c0a5876e0f6b9d848a951a218f8e3b2 02ca7898185fcbfc5890f0a8e42664bcd95d94a1 refs/heads/asoc-6.16
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgaEBwTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0GPzB/9/8vqi0tbS19Plhq3q4TUkVCwyEejf
-npQopZZZ4bdMso2DlYtM1rhXWKryJBcRjYNo/NZY1goLvSdvEvqmpleE1/9ih+aj
-LezDqmxrvv5cHseERWWvsnj+z4UhIFRQEsW17QsbwWmy48szA3A5khMFH0+xUFrU
-zjBPv0WnWX+5yXh5Q0pLvmhtw8SXbQkK+w2GXgvnmWl1Xqa37MjapquoczCWgIY/
-kbvLi95SkxCJbUxry45oH5UdZEF0koAFGh/J01fql4dalyZ3J7c+2A3uSWCB5nrJ
-IcYi44itTr+NMOLSB/y8CrAz2MuJzxHReH6tnFQlXpggrK9j2Cf/D5e9
-=lTUE
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgaECMTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0Bc7B/4pLJuWdsgFAZjcjewEGnZdzd4RMe/y
+Aefv4QdroSMuYMtIjt8YlX8Un30K+lbvxtVt41TYeIO0leHSFHi0jXBFihWjY6U4
+jL2zOP6gxu0hT9/m3HueUl+ayGzgJsBBJG/KsRn8NYJ6piBoAjqt4DWHitXVOANu
+P/KQo7TxRzL4egpHWYT3tuFVVf/T+Eu/2PF4IiMsAn7MoLjKFDwbm1RsRUPePxZq
+gA3S/wfew7lyAF3NF/7n+pJPul01ygzE2gyFkUBVPdrBmPc/zHahVMqENf/3Mg+K
+vM3YA9AWE1m9q3y5umozpvT8CQwPPOMaf6DRqhWtvCN8ICfe5SiNrqcQ
+=5v/g
 -----END PGP SIGNATURE-----
 
---===============6533579051494888198==
+--===============4701837292637365582==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -354,7 +354,7 @@ de3629baf5a33af1919dec7136d643b0662e85ef parisc: Fix double SIGFPE crash
 92a09c47464d040866cf2b4cd052bc60555185fb Linux 6.15-rc5
 b19fa45715ce9cfcc597ed140df31115e969b39d ASoC: mediatek: mt8188-mt6359: select CONFIG_SND_SOC_MT6359_ACCDET
 
---===============6533579051494888198==
+--===============4701837292637365582==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -676,4 +676,4 @@ de3629baf5a33af1919dec7136d643b0662e85ef parisc: Fix double SIGFPE crash
 14a3fd030c033453d436233f4c422b4903786ed3 ASoC: intel: atom: Return -ENOMEM if pcim_iomap() fails
 02ca7898185fcbfc5890f0a8e42664bcd95d94a1 AsoC: Phase out hybrid PCI devres
 
---===============6533579051494888198==--
+--===============4701837292637365582==--
