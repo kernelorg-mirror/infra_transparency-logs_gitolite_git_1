@@ -1,33 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 06 May 2025 16:49:32 -0000
-Message-Id: <174655017259.274746.15360359913418798118@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
+Date: Tue, 06 May 2025 17:00:38 -0000
+Message-Id: <174655083822.285063.9672239517123026396@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/mingo/tip
+user: mingo
 changes:
-  - ref: refs/heads/for-6.16/io_uring
-    old: 9c4dfa5b0c0256661a6a9d26729ce01e725918c4
-    new: 35adea1d018ab1e450ea2304e58dc2f987a639d3
+  - ref: refs/heads/WIP.x86/kconfig
+    old: 14c511dbf5eb0ed3880f457713bd79d175db428d
+    new: e53faed11fca63f4c8928ee79ade6f5e3e513ac6
     log: |
-         a5c98e9424573649e59988199a3356a79c9e1fd9 io_uring/zcrx: dmabuf backed zerocopy receive
-         78967aabf6138bd43798c966a75167579ce42955 io_uring/timeout: don't export link t-out disarm helper
-         9c2ff3f9b5e0202d1cc1f6193b1e96df203ae4a4 io_uring: remove io_preinit_req()
-         35adea1d018ab1e450ea2304e58dc2f987a639d3 io_uring: move io_req_put_rsrc_nodes()
-         
-  - ref: refs/heads/for-next
-    old: 1bad5c2d812a5d5045f64305715621fb4fb627a5
-    new: acd95ded8db92acdee3f708874bb9121ee057d7f
-    log: |
-         a5c98e9424573649e59988199a3356a79c9e1fd9 io_uring/zcrx: dmabuf backed zerocopy receive
-         78967aabf6138bd43798c966a75167579ce42955 io_uring/timeout: don't export link t-out disarm helper
-         9c2ff3f9b5e0202d1cc1f6193b1e96df203ae4a4 io_uring: remove io_preinit_req()
-         35adea1d018ab1e450ea2304e58dc2f987a639d3 io_uring: move io_req_put_rsrc_nodes()
-         bbfb6ae9f766d2fc38134fdb0b43ba857a264393 Merge branch 'for-6.16/io_uring' into for-next
-         acd95ded8db92acdee3f708874bb9121ee057d7f Merge branch 'for-6.16/block' into for-next
+         f02485a8eff9cdfbb2b3574d1a84d923130107fc x86/kconfig/64: Enable more virtualization guest options in the defconfig: enable Xen, Xen_PVH, Jailhouse, ACRN, Intel TDX and Hyper-V
+         551d09eb158de872c25854205ea2b88628cdc22c x86/kconfig/64: Enable BPF support in the defconfig
+         dc8f9dbbefa2cac1a1e18295b55bb5dd3d05e5c4 x86/kconfig/64: Enable popular MM options in the defconfig
+         9b240f792f3788c44c92b953dd88e113b8401cab x86/kconfig/64: Enable popular kernel debugging options in the defconfig
+         4c793bdfecb8f5b636594b1a9f5ae8a78521a781 x86/kconfig/64: Enable popular scheduler, cgroups and namespaces options in the defconfig
+         446159ad247840dc73dbc41b9b5f0516fc6ebd88 x86/kconfig/64: Enable popular generic kernel options in the defconfig
+         e53faed11fca63f4c8928ee79ade6f5e3e513ac6 x86/kconfig/32: Synchronize the x86-32 defconfig to the x86-64 defconfig
          
