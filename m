@@ -1,436 +1,118 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
-Date: Tue, 06 May 2025 04:08:35 -0000
-Message-Id: <174650451538.3791841.12732061982561390984@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7403177209499314247=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
+Date: Tue, 06 May 2025 04:24:29 -0000
+Message-Id: <174650546984.3804394.12392448738886215720@gitolite.kernel.org>
+
+--===============7403177209499314247==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/boqun/linux
-user: boqun
+repo: pub/scm/linux/kernel/git/mkp/scsi
+user: mkp
+git_push_cert_status: G
 changes:
-  - ref: refs/tags/lockdep-for-tip.2025.05.05
-    old: 0000000000000000000000000000000000000000
-    new: 826a6e3130379749d27583370778ac4077eaf917
-  - ref: refs/tags/core-urgent-2025-03-14
-    old: 0000000000000000000000000000000000000000
-    new: a269e80b5a6fe58c92e4926f7067dd5ae704d802
-  - ref: refs/tags/csd-lock.2025.01.28a
-    old: 0000000000000000000000000000000000000000
-    new: fd6b8118780804e74c39e7a09b9dca61bfe932a8
-  - ref: refs/tags/irq-core-2025-01-21
-    old: 0000000000000000000000000000000000000000
-    new: a602728f4efa3d7125418648dfde9f5443bd26c7
-  - ref: refs/tags/irq-core-2025-03-23
-    old: 0000000000000000000000000000000000000000
-    new: 8b9fcd4f91be416f3fcf4caa378807a4c567179b
-  - ref: refs/tags/irq-drivers-2025-03-23
-    old: 0000000000000000000000000000000000000000
-    new: 8104fa54c1d6984f783c181c8f6393d0096f2255
-  - ref: refs/tags/irq-msi-2025-03-23
-    old: 0000000000000000000000000000000000000000
-    new: e1c5454b3128aa2d0407d6cc87abd95982492181
-  - ref: refs/tags/irq-urgent-2024-12-29
-    old: 0000000000000000000000000000000000000000
-    new: a2bb373dfb511df151cbc065c8f83ac6441dd08b
-  - ref: refs/tags/irq-urgent-2025-02-03
-    old: 0000000000000000000000000000000000000000
-    new: 67d66264252c13e3ba22d32f50b519cedfb2fe41
-  - ref: refs/tags/irq-urgent-2025-02-08
-    old: 0000000000000000000000000000000000000000
-    new: dc70803cfbea844266ea20f3139a48f53d68bf38
-  - ref: refs/tags/irq-urgent-2025-02-22
-    old: 0000000000000000000000000000000000000000
-    new: 778dfd7811543973604aa5cda78d4ee3e157e933
-  - ref: refs/tags/irq-urgent-2025-03-26
-    old: 0000000000000000000000000000000000000000
-    new: 696479a1f99325d3ee8712b7bc956f91aff8f9cd
-  - ref: refs/tags/irq-urgent-2025-04-06
-    old: 0000000000000000000000000000000000000000
-    new: b4676c84bbca3038ced961eb814a93b3d7b537c4
-  - ref: refs/tags/irq_urgent_for_v6.13
-    old: 0000000000000000000000000000000000000000
-    new: f32578f52556b394777871440927c97c54ef9d37
-  - ref: refs/tags/irq_urgent_for_v6.13_rc2
-    old: 0000000000000000000000000000000000000000
-    new: 2f3f23a81ad6a370983371866e43459b210ba505
-  - ref: refs/tags/irq_urgent_for_v6.13_rc3
-    old: 0000000000000000000000000000000000000000
-    new: a8976bcd3212a5b74e4232ad2e703e9418edb135
-  - ref: refs/tags/irq_urgent_for_v6.14_rc3
-    old: 0000000000000000000000000000000000000000
-    new: 6c2307ce094a1e1d4692625a7bbb375352a1cc0d
-  - ref: refs/tags/lkmm.2025.03.21a
-    old: 0000000000000000000000000000000000000000
-    new: d5585a11834e12735cb54dde1557ff859bae17b1
-  - ref: refs/tags/locking-core-2025-01-20
-    old: 0000000000000000000000000000000000000000
-    new: 27b6637d8d55ef7cea0adb8e97f16d8bb1a55600
-  - ref: refs/tags/locking-core-2025-03-22
-    old: 0000000000000000000000000000000000000000
-    new: 2578c287f435924d291edf32b8825498ff66126e
-  - ref: refs/tags/locking-futex-2025-03-23
-    old: 0000000000000000000000000000000000000000
-    new: 52431074bcde0174e781b5c3dc1bf203b8e5b978
-  - ref: refs/tags/locking-urgent-2024-12-29
-    old: 0000000000000000000000000000000000000000
-    new: fa8af4517898c0e7e2460a9d14a7b9189f89a20a
-  - ref: refs/tags/locking-urgent-2025-02-08
-    old: 0000000000000000000000000000000000000000
-    new: b9b4a06f468313bf3d44c2e31014ebff16b99daa
-  - ref: refs/tags/locking-urgent-2025-02-28
-    old: 0000000000000000000000000000000000000000
-    new: 056be5f8e73f6e5260dcd40eff538cf5e9a476d8
-  - ref: refs/tags/locking-urgent-2025-03-14
-    old: 0000000000000000000000000000000000000000
-    new: e4dbd221df37361e46bda3f66cfcde81a17ecb1b
-  - ref: refs/tags/locking-urgent-2025-03-28
-    old: 0000000000000000000000000000000000000000
-    new: 7ac16c9d28adda3d8842b433bd81bf960644889a
-  - ref: refs/tags/locking_urgent_for_v6.13_rc3
-    old: 0000000000000000000000000000000000000000
-    new: 3eb4c9ad2360f588fc2cd558f3a09727deadb3ff
-  - ref: refs/tags/nolibc-20240824-for-6.12-1
-    old: 0000000000000000000000000000000000000000
-    new: 0c000c430f6a04636ee1dffdae3c2ad790a836cc
-  - ref: refs/tags/nolibc-20241101-for-6.13-1
-    old: 0000000000000000000000000000000000000000
-    new: 4b0a57bfd5604d9371ec0ad208002a4381e2ce75
-  - ref: refs/tags/nolibc-20250113-for-6.14-1
-    old: 0000000000000000000000000000000000000000
-    new: ba062e8f8c7aa50b19e512970d0cd56ceddd8db8
-  - ref: refs/tags/nolibc-20250308-for-6.15-1
-    old: 0000000000000000000000000000000000000000
-    new: 13d51ae77b639fa6e143d2b934b634687dcbf983
-  - ref: refs/tags/nolibc-5.2-rc1
-    old: 0000000000000000000000000000000000000000
-    new: d76abd8913387e1c8e56ff352da56391116f3406
-  - ref: refs/tags/objtool-core-2025-01-20
-    old: 0000000000000000000000000000000000000000
-    new: dee0ef497d8e8e56b4b3844dae3de45209e7c578
-  - ref: refs/tags/objtool-core-2025-03-22
-    old: 0000000000000000000000000000000000000000
-    new: c4e913197600b3404c8a4c41dded8092bc20829c
-  - ref: refs/tags/objtool-urgent-2024-12-29
-    old: 0000000000000000000000000000000000000000
-    new: a24b01df2bd7f6b0bcae912dfc3f37f1f64498de
-  - ref: refs/tags/objtool-urgent-2025-02-28
-    old: 0000000000000000000000000000000000000000
-    new: bb4c76c93514cbe17c389f36d3d8e23e50325299
-  - ref: refs/tags/objtool-urgent-2025-03-28
-    old: 0000000000000000000000000000000000000000
-    new: c1ea097e6ba0734d8be5ad4c1e13c21bc44b0605
-  - ref: refs/tags/objtool-urgent-2025-04-01
-    old: 0000000000000000000000000000000000000000
-    new: 420f26ad6bf0d75f4f12d636576aeecc634765fa
-  - ref: refs/tags/objtool_urgent_for_v6.14_rc3
-    old: 0000000000000000000000000000000000000000
-    new: bb349956a317432d14781fbb12a9b59f51a3ccf1
-  - ref: refs/tags/perf-core-2025-01-20
-    old: 0000000000000000000000000000000000000000
-    new: 2b9772afaf522169ae8a1d27117c371c8bce2e0e
-  - ref: refs/tags/perf-core-2025-03-22
-    old: 0000000000000000000000000000000000000000
-    new: d1d68fecb01e354a7f13d97b9190deb5de53e51b
-  - ref: refs/tags/perf-urgent-2024-12-29
-    old: 0000000000000000000000000000000000000000
-    new: 2f819ffc0dc5a0553cebe8f0a5c8822ea15b8846
-  - ref: refs/tags/perf-urgent-2025-02-22
-    old: 0000000000000000000000000000000000000000
-    new: b5dae7da2de4d7452c54efbd1e24fb6accd5b334
-  - ref: refs/tags/perf-urgent-2025-02-28
-    old: 0000000000000000000000000000000000000000
-    new: abbf05e32f2d7af11dd7ab730b71a0ce21cbc550
-  - ref: refs/tags/perf-urgent-2025-03-07
-    old: 0000000000000000000000000000000000000000
-    new: 0fb06b8d86c62ec53216ea2e1d0c5bb9caa79e52
-  - ref: refs/tags/perf-urgent-2025-03-21
-    old: 0000000000000000000000000000000000000000
-    new: cd9bdb891dd9c137f7f61c07bafe931cc992d5a0
-  - ref: refs/tags/perf-urgent-2025-03-22
-    old: 0000000000000000000000000000000000000000
-    new: bbbf59d5e9ba4fbf61c45db96338721b4f31ceca
-  - ref: refs/tags/perf-urgent-2025-04-06
-    old: 0000000000000000000000000000000000000000
-    new: de5d9afb5e97836c358cb954b1400e1d5754dfcf
-  - ref: refs/tags/perf_urgent_for_v6.13_rc3
-    old: 0000000000000000000000000000000000000000
-    new: bab7d08c90065531373c44cec5707f4224a1bf03
-  - ref: refs/tags/perf_urgent_for_v6.13_rc7
-    old: 0000000000000000000000000000000000000000
-    new: 2a8b29e1f4806b02d892086c419e833d1ff33755
-  - ref: refs/tags/perf_urgent_for_v6.14_rc3
-    old: 0000000000000000000000000000000000000000
-    new: a476ab5cbd9e41c34feac271f4296abeee58f59b
-  - ref: refs/tags/ras_core_for_v6.14_rc1
-    old: 0000000000000000000000000000000000000000
-    new: 06ea5a4843ef3a9d315f4463c12adcb1d1b0ea96
-  - ref: refs/tags/ras_core_for_v6.15
-    old: 0000000000000000000000000000000000000000
-    new: d632ec5349b5517d77ba56d42a411ea83e0e1583
-  - ref: refs/tags/rcu-fixes-v6.15
-    old: 0000000000000000000000000000000000000000
-    new: ab9fbb06bd73371ec183a545e8d1255ff31d0908
-  - ref: refs/tags/rcu-next-v6.15
-    old: 0000000000000000000000000000000000000000
-    new: 5377f636ca923041a350ea5421cbfc36f06db43b
-  - ref: refs/tags/rcu.release.v6.14
-    old: 0000000000000000000000000000000000000000
-    new: c76b789979dc41b3b521a7c8c833a07202330707
-  - ref: refs/tags/rust-6.14
-    old: 0000000000000000000000000000000000000000
-    new: b9a6cbc3bad5eaf0e413c9487d8a0f2d3309bf0c
-  - ref: refs/tags/rust-6.15
-    old: 0000000000000000000000000000000000000000
-    new: 6dd306a3a120d00c707d1bb46124e5779de5666e
-  - ref: refs/tags/rust-fixes-6.13
-    old: 0000000000000000000000000000000000000000
-    new: e73069d4bcbc46c05c9708cfbbf26d7328fd5ddc
-  - ref: refs/tags/rust-fixes-6.14
-    old: 0000000000000000000000000000000000000000
-    new: 8da737312bd23e255bcbbdbc4f6b4064f387eb11
-  - ref: refs/tags/rust-fixes-6.14-2
-    old: 0000000000000000000000000000000000000000
-    new: b8485d4b9e6180e77ec862ead0f204b7faa4aa8f
-  - ref: refs/tags/rust-fixes-6.14-3
-    old: 0000000000000000000000000000000000000000
-    new: 82d1e06bd52599fff9468d76e55cc65e6667c3c3
-  - ref: refs/tags/rust-hrtimer-for-v6.15-v3
-    old: 0000000000000000000000000000000000000000
-    new: 91cb0c569ef408d08a12c1b1d0a421ea081d171f
-  - ref: refs/tags/sched-core-2025-01-20
-    old: 0000000000000000000000000000000000000000
-    new: 72dbbf28d9e874551e462f198fa6ba2ae5631c02
-  - ref: refs/tags/sched-core-2025-01-21
-    old: 0000000000000000000000000000000000000000
-    new: 75e766726b7d047ee3864a933e268fe2cadca86a
-  - ref: refs/tags/sched-core-2025-03-22
-    old: 0000000000000000000000000000000000000000
-    new: 68d25f68c3e9adeaa23b4249ae76711e8463884d
-  - ref: refs/tags/sched-urgent-2024-12-29
-    old: 0000000000000000000000000000000000000000
-    new: fe934d1b1f40c47b94a69c17ab1abb5f018ef8b4
-  - ref: refs/tags/sched-urgent-2025-02-08
-    old: 0000000000000000000000000000000000000000
-    new: c6212d76f4cef28533bb3a9f2b6d50103177c9ae
-  - ref: refs/tags/sched-urgent-2025-02-22
-    old: 0000000000000000000000000000000000000000
-    new: bf36634291b2453c995546548530154df7a07d8c
-  - ref: refs/tags/sched-urgent-2025-02-28
-    old: 0000000000000000000000000000000000000000
-    new: fc6e15ef43ed71677e417f9d8c9fe10bc0b8eff9
-  - ref: refs/tags/sched-urgent-2025-03-07
-    old: 0000000000000000000000000000000000000000
-    new: 4f059acc4c2443e4bcb732a934222fcbb085aa5d
-  - ref: refs/tags/sched-urgent-2025-03-14
-    old: 0000000000000000000000000000000000000000
-    new: 55473cc1aa7ce58cb75adffbd24974d04399374e
-  - ref: refs/tags/sched-urgent-2025-03-21
-    old: 0000000000000000000000000000000000000000
-    new: 527ac0196f187bd639b5828e8d69b731640279f6
-  - ref: refs/tags/sched-urgent-2025-04-06
-    old: 0000000000000000000000000000000000000000
-    new: 84159cb2d61e88698a7f2347c858cc23162558e4
-  - ref: refs/tags/sched_urgent_for_v6.13
-    old: 0000000000000000000000000000000000000000
-    new: d8f2102689d763f08c205564223b4d31c34a01c1
-  - ref: refs/tags/sched_urgent_for_v6.13_rc3
-    old: 0000000000000000000000000000000000000000
-    new: 6689f063521e0f16b090675a9939dca5f002ca5c
-  - ref: refs/tags/sched_urgent_for_v6.13_rc3-p2
-    old: 0000000000000000000000000000000000000000
-    new: cd90881169b2985e822788f26a811bc7648ef4f4
-  - ref: refs/tags/sched_urgent_for_v6.14_rc3
-    old: 0000000000000000000000000000000000000000
-    new: cc842d57ed18e600b998d6013c4c962b93533c7a
-  - ref: refs/tags/stop-machine.2025.01.28a
-    old: 0000000000000000000000000000000000000000
-    new: f644ba82a46b9dbe613384dd9c99c3e51a9f891f
-  - ref: refs/tags/stop-machine.2025.03.21a
-    old: 0000000000000000000000000000000000000000
-    new: d13e300ccae10be841d7691cfa2db0cf109d2bf5
-  - ref: refs/tags/timers-cleanups-2025-03-23
-    old: 0000000000000000000000000000000000000000
-    new: cd4651c3ab0d4a8c73d48d47461e798ece663396
-  - ref: refs/tags/timers-cleanups-2025-04-06
-    old: 0000000000000000000000000000000000000000
-    new: 31fcf25a5d40fd71889147a426d3feee2e136ae4
-  - ref: refs/tags/timers-clocksource-2025-03-26
-    old: 0000000000000000000000000000000000000000
-    new: 59b646dbc9f4fe7d7decbc9bb1157e348529af89
-  - ref: refs/tags/timers-core-2025-01-21
-    old: 0000000000000000000000000000000000000000
-    new: 81dc75585c0773e6345720ff3bc6b997e5f813a9
-  - ref: refs/tags/timers-core-2025-03-23
-    old: 0000000000000000000000000000000000000000
-    new: 448c48621e53a330aee592c31b61d49ac32811c9
-  - ref: refs/tags/timers-urgent-2025-02-03
-    old: 0000000000000000000000000000000000000000
-    new: 8b89f97589f610faa0e7ac9f6d9f73c44a8fa6bb
-  - ref: refs/tags/timers-urgent-2025-02-08
-    old: 0000000000000000000000000000000000000000
-    new: b65dadcaf38589283ebdc84eb39ab47acac57313
-  - ref: refs/tags/timers-urgent-2025-04-06
-    old: 0000000000000000000000000000000000000000
-    new: b805b5ac7cf10e5e05e63f1d11ff7d5ece665f4b
-  - ref: refs/tags/timers-vdso-2025-03-23
-    old: 0000000000000000000000000000000000000000
-    new: 647ad6cdc95246b50585ced049b1e546c739a1f1
-  - ref: refs/tags/timers_urgent_for_v6.13
-    old: 0000000000000000000000000000000000000000
-    new: 1f79c9968f77edad49bb9766f41877206ba5ec54
-  - ref: refs/tags/timers_urgent_for_v6.13_rc2
-    old: 0000000000000000000000000000000000000000
-    new: 48a9292adf7d83ad172b49a3ed8de934736eba2f
-  - ref: refs/tags/v6.13
-    old: 0000000000000000000000000000000000000000
-    new: d6cb6a3d99adf559a0a404d086f61ee3be866f86
-  - ref: refs/tags/v6.13-rc2
-    old: 0000000000000000000000000000000000000000
-    new: e32a80927434907f973f38a88cd19d7e51991d24
-  - ref: refs/tags/v6.13-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 7705f2f1cf8d49dd02236dce6edad6c013b43293
-  - ref: refs/tags/v6.13-rc4
-    old: 0000000000000000000000000000000000000000
-    new: dbfac60febfa806abb2d384cb6441e77335d2799
-  - ref: refs/tags/v6.13-rc5
-    old: 0000000000000000000000000000000000000000
-    new: a70d5ba87c51302276bdcb0e847c281a95be6526
-  - ref: refs/tags/v6.13-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 5fcdd8fcd55d1da6fdf8deb78355a5c23ce94d39
-  - ref: refs/tags/v6.13-rc7
-    old: 0000000000000000000000000000000000000000
-    new: b37279c18e53ba26c58b0a88a84bb70720c5cac6
-  - ref: refs/tags/v6.14
-    old: 0000000000000000000000000000000000000000
-    new: 35ff3b0f4596c82ec0a3e1cc43e2a85f5e976023
-  - ref: refs/tags/v6.14-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 379487e17ca406b47392e7ab6cf35d1c3bacb371
-  - ref: refs/tags/v6.14-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 6a25088d268ce4c2163142ead7fe1975bb687cb7
-  - ref: refs/tags/v6.14-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 2db77e8810aa26c8cd3fa119037f753a68b7dce4
-  - ref: refs/tags/v6.14-rc4
-    old: 0000000000000000000000000000000000000000
-    new: ab680199364b446c9b642f1c1c1306b71535ace1
-  - ref: refs/tags/v6.14-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 1d53763dc16c9fc9329a4cdc14d691979d47568f
-  - ref: refs/tags/v6.14-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 8098cf067a7aae92a4f293df03964bf8474faca1
-  - ref: refs/tags/v6.14-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 12b58398bffc23db89e715414399b0533255da51
-  - ref: refs/tags/v6.15-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 64e9fdfc89a76fed38d8ddeed72d42ec71957ed9
-  - ref: refs/tags/x86-boot-2025-01-21
-    old: 0000000000000000000000000000000000000000
-    new: ed6a7a9decc2f0821c2e1b55e56f8fec4c27a703
-  - ref: refs/tags/x86-boot-2025-03-22
-    old: 0000000000000000000000000000000000000000
-    new: 52d7acd821852cfca4beef6e841ba812476774e9
-  - ref: refs/tags/x86-build-2025-03-22
-    old: 0000000000000000000000000000000000000000
-    new: 37f9203ae822b94ebd2972a60ae9790f1079f9f8
-  - ref: refs/tags/x86-cleanups-2025-01-21
-    old: 0000000000000000000000000000000000000000
-    new: 7c0408f3cf0fdd6815c26a5bfff7c140146f8cb1
-  - ref: refs/tags/x86-cleanups-2025-03-22
-    old: 0000000000000000000000000000000000000000
-    new: 77fbbf72eabc036f98b122e382ca3d5d5ef02c10
-  - ref: refs/tags/x86-core-2025-03-22
-    old: 0000000000000000000000000000000000000000
-    new: c789a9e10cffd1cc0a0681990e79c5c0bc782f48
-  - ref: refs/tags/x86-fpu-2025-03-22
-    old: 0000000000000000000000000000000000000000
-    new: fc50d783e1e75467f2aa917e918fbc73203d46ac
-  - ref: refs/tags/x86-mm-2025-01-31
-    old: 0000000000000000000000000000000000000000
-    new: 22364920c091032c95b80e356d9de6a78dd555fa
-  - ref: refs/tags/x86-platform-2025-03-22
-    old: 0000000000000000000000000000000000000000
-    new: 5e650a0ebccb8039be20ef45ce80eae2fa31bc8b
-  - ref: refs/tags/x86-sev-2025-03-22
-    old: 0000000000000000000000000000000000000000
-    new: b870ba427e1026b0a323655a83adb32ca1be041b
-  - ref: refs/tags/x86-urgent-2024-12-29
-    old: 0000000000000000000000000000000000000000
-    new: 0bcbc0940bafa67b5c60eea4dd233b4ed6e28952
-  - ref: refs/tags/x86-urgent-2025-01-28
-    old: 0000000000000000000000000000000000000000
-    new: e6261fa0c1e5cb29a9d66d4b9810930441f784fc
-  - ref: refs/tags/x86-urgent-2025-02-08
-    old: 0000000000000000000000000000000000000000
-    new: a5fecc75a0b8ee2a96e1233ed89001de58458f49
-  - ref: refs/tags/x86-urgent-2025-02-22
-    old: 0000000000000000000000000000000000000000
-    new: d8d6ffbd15b4a96a5c8a490603e99ec1f4b1ffe9
-  - ref: refs/tags/x86-urgent-2025-02-28
-    old: 0000000000000000000000000000000000000000
-    new: 1687b6eee4a0beecf029397c136a9c1cd2838373
-  - ref: refs/tags/x86-urgent-2025-03-07
-    old: 0000000000000000000000000000000000000000
-    new: 96f4012573aa17fd86b9435b8ddb773cbcd4268b
-  - ref: refs/tags/x86-urgent-2025-03-08
-    old: 0000000000000000000000000000000000000000
-    new: eddebd23b9163109f8bc65fa76d6dad48fc9fd28
-  - ref: refs/tags/x86-urgent-2025-03-10
-    old: 0000000000000000000000000000000000000000
-    new: d12cf5887af6067b1e3cc58c148c63614dc56688
-  - ref: refs/tags/x86-urgent-2025-03-14
-    old: 0000000000000000000000000000000000000000
-    new: e9f0fde65eca667d2aa195ae39ac3bb18363f282
-  - ref: refs/tags/x86-urgent-2025-03-28
-    old: 0000000000000000000000000000000000000000
-    new: fa8afd68947fc6a0d4a0510f20e2864e4cfb88b9
-  - ref: refs/tags/x86-urgent-2025-04-04
-    old: 0000000000000000000000000000000000000000
-    new: 53e2ece3e93ac1d65bc5739bbd5c3bb9a490112c
-  - ref: refs/tags/x86_bugs_for_v6.14_rc1
-    old: 0000000000000000000000000000000000000000
-    new: d19093263673ddf813c4c7200681552902a5d91d
-  - ref: refs/tags/x86_bugs_for_v6.15
-    old: 0000000000000000000000000000000000000000
-    new: 20b6cf808a3ab59dc878906e92aaeb7494d59550
-  - ref: refs/tags/x86_cache_for_v6.14_rc1
-    old: 0000000000000000000000000000000000000000
-    new: 593e57c14c32ec0382740e5c0b08391fad9c205e
-  - ref: refs/tags/x86_cache_for_v6.15
-    old: 0000000000000000000000000000000000000000
-    new: 8d16c62e66770daa6be5c4300a45075351d7dd9b
-  - ref: refs/tags/x86_cpu_for_v6.14_rc1
-    old: 0000000000000000000000000000000000000000
-    new: d2a01419c5464f1914d006a484eb1807eda7d999
-  - ref: refs/tags/x86_microcode_for_v6.14_rc1
-    old: 0000000000000000000000000000000000000000
-    new: 413166bdc60d875174908a00cf6eb20f7f0f2e34
-  - ref: refs/tags/x86_misc_for_v6.14_rc1
-    old: 0000000000000000000000000000000000000000
-    new: b0eb0c912131336b257555867913d8840328ceb5
-  - ref: refs/tags/x86_sev_for_v6.14_rc1
-    old: 0000000000000000000000000000000000000000
-    new: 07dc5c00eac1cb2234397c3e459736f08a41ee3f
-  - ref: refs/tags/x86_tdx_for_6.14-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 36cfd5b7aa4ef518931f1b7ec276edc623a69927
-  - ref: refs/tags/x86_tdx_for_6.15-rc1
-    old: 0000000000000000000000000000000000000000
-    new: fc4023b289c4f81fc9b9270171179e2551cda69c
-  - ref: refs/tags/x86_urgent_for_v6.13
-    old: 0000000000000000000000000000000000000000
-    new: 1f076e4ec7106615ba3537b294074500a4cfb254
-  - ref: refs/tags/x86_urgent_for_v6.13_rc2
-    old: 0000000000000000000000000000000000000000
-    new: 23bd23c05806bd103756421a11eb23f0631b49a9
-  - ref: refs/tags/x86_urgent_for_v6.13_rc7
-    old: 0000000000000000000000000000000000000000
-    new: 1f01f438cc60bdbfccba9bd8d19c60aa6e82bdae
+  - ref: refs/tags/mkp-scsi-queue
+    old: bcdb09469073e8e450240ac777858bf2767cd1ca
+    new: 6e8818ad2c1d38f185edf865780d653221635ad2
+    log: revlist-bcdb09469073-6e8818ad2c1d.txt
+
+--===============7403177209499314247==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 75C5DE3D 1746505474 -0400
+pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
+nonce 1746505442-fa9d62ad7a3c83ea9dfbaa5077068d2546f37f0f
+
+bcdb09469073e8e450240ac777858bf2767cd1ca 6e8818ad2c1d38f185edf865780d653221635ad2 refs/tags/mkp-scsi-queue
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmgZjwIACgkQ7ulgGnXF
+3j1YCg/+Ls0XdXn2FtqQwreUXQGakYXHMux4pxepDRK4LlvsLgM8pt4QhzrfkQdR
+2O2Yq4m/cm9nfJBokptC4Af3R7DC0UveIrSkjcaI4HagUrV04SS9yySbUu2wCRAm
+lfcjOJ8EQi+MarlJu0eDea1Dm08B3/AcN8X7GL9Z7dJui4S3k7viCD0LIqBDQRtc
+rMIRomiXfNFEcUGzzsuL12NCVkONMTo4UNQprcspjgSFeWwEw7dAVR1cmcYv0JZN
+hNkaLUd/ls84XDrzcfTL1/evMjjzH6FIbentwCIi3GAZgkm8yd4kF69kdJJmesTU
+UhLfkBEf2xgLxFftxZmiMHFau2N4pSdfNmuzRTcVahF+30EQLhQih+9tgUBlBpam
+i0DXQmilzVEFBUwdUQxr7UQ1dcUoDSFA3f0yO/KKrCYOpQwwdsp/dCzxxKt60MYI
+F7zcAgk9t6IkXNxdhKzC1qJ05HJ3GqRSQPSXVauqiZreReV/j8ZZ5FPIO8XF+hp2
+il8G00i1z6YHJJ4prruADIWi/gX5x7fXBuWER+7WD38N2mo+buL4Tn7pbadyZQD3
+FmhjEAsBYFB/TMnYN6CzRqPmzULddGZ5VKpBmR9sdxwaXM0ZsQ9wvtyyn9M54BMs
+51t+y72st2AoeHV9YdAr+Ifi1KmtooYuWq31Xd2w9Zd5SHNyFUA=
+=L3hM
+-----END PGP SIGNATURE-----
+
+--===============7403177209499314247==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-bcdb09469073-6e8818ad2c1d.txt
+
+8aa580cd92843b60d4d6331f3b0a9e8409bb70eb scsi: hisi_sas: Enable force phy when SATA disk directly connected
+daff37f00c7506ca322ccfce95d342022f06ec58 scsi: hisi_sas: Fix I/O errors caused by hardware port ID changes
+20b97acc4cafa2be8ac91a777de135110e58a90b scsi: ufs: core: Fix a race condition related to device commands
+72eea84a1092b50a10eeecfeba4b28ac9f1312ab scsi: iscsi: Fix missing scsi_host_put() in error path
+3d101165e72316775947d71321d97194f03dfef3 scsi: ufs: exynos: Ensure pre_link() executes before exynos_ufs_phy_init()
+68f5ef7eebf0f41df4d38ea55a54c2462af1e3d6 scsi: ufs: exynos: Move UFS shareability value to drvdata
+f92bb7436802f8eb7ee72dc911a33c8897fde366 scsi: ufs: exynos: Disable iocc if dma-coherent property isn't set
+7f05fd9a3b6fb3a9abc5a748307d11831c03175f scsi: ufs: exynos: Ensure consistent phy reference counts
+deac9ad496ec17e1ec06848964ecc635bdaca703 scsi: ufs: exynos: Enable PRDT pre-fetching with UFSHCD_CAP_CRYPTO
+67e4085015c33bf2fb552af1f171c58b81ef0616 scsi: ufs: exynos: Move phy calls to .exit() callback
+cd4c0025069f16fc666c6ffc56c49c9b1154841f scsi: ufs: exynos: gs101: Put UFS device in reset on .suspend()
+8a65b75dc4b235349fa6f3c89d381405956d431f Merge patch series "ufs-exynos stability fixes for gs101"
+f7b705c238d1483f0a766e2b20010f176e5c0fb7 scsi: pm80xx: Set phy_attached to zero when device is gone
+a2d5a0072235a69749ceb04c1a26dc75df66a31a scsi: smartpqi: Use is_kdump_kernel() to check for kdump
+bdab40480b146e2f37f4c7164cb47f526e77ee6d scsi: ufs: core: Rename ufshcd_wb_presrv_usrspc_keep_vcc_on()
+1fd2e77b889761d9bde0c580518689d1d8e83117 scsi: ufs: core: Add device level exception support
+a63b69f05f999acae91b0b50d7c5fe4fb241dbaf scsi: scsi_transport_srp: Replace min/max nesting with clamp()
+aad9945623ab4029ae7789609fb6166c97976c62 scsi: megaraid_sas: Block zero-length ATA VPD inquiry
+1b4902f0a4f20aaea14d51a378368fa697467901 scsi: megaraid_sas: Driver version update to 07.734.00.00-rc1
+a1af6f1a1433348c93f0b3a7a64f20a0a898ef78 Merge branch '6.15/scsi-queue' into 6.15/scsi-fixes
+4c324085062919d4e21c69e5e78456dcec0052fe scsi: ufs: mcq: Add NULL check in ufshcd_mcq_abort()
+cdd445258db9919e9dde497a6d5c3477ea7faf4d scsi: mpi3mr: Fix pending I/O counter
+3b5091fee49ffcee512901318ca2425bb1e31a5c scsi: mpi3mr: Reset the pending interrupt flag
+7f533cc5ee4c4436cee51dc58e81dfd9c3384418 scsi: target: iscsi: Fix timeout on deleted connection
+f8cba9a700cf38b181df7c1d809cd73c6e1b2df9 scsi: ufs: qcom: Add quirks for Samsung UFS devices
+569330a34a31a52c904239439984a59972c11d28 scsi: ufs: Introduce quirk to extend PA_HIBERN8TIME for UFS devices
+54bebe46871d4e56e05fcf55c1a37e7efa24e0a8 scsi: core: Clear flags for scsi_cmnd that did not complete
+08a966a917fe3d92150fa3cc15793ad5e57051eb scsi: ufs: core: Add NULL check in ufshcd_mcq_compl_pending_transfer()
+b0b7ee3b574a72283399b9232f6190be07f220c0 scsi: mpi3mr: Add level check to control event logging
+3c400df513b7c2ba9f2240eb9c325fa21aa8d950 Merge branch '6.15/scsi-fixes' into 6.16/scsi-staging
+a84a12d34f824fdff06d8191990a94cdb1c17dae scsi: ufs: core: Fix WB resize using wrong offset
+62b434b0db2cdc21d6fe978d24d8f84e473cb5e7 scsi: dc395x: Remove DEBUG conditional compilation
+edf147e215c6952a9300388372febe24213c83d0 scsi: lpfc: Use secs_to_jiffies() instead of msecs_to_jiffies()
+386e014202f8380bc034678f157140db2d4dc25a scsi: qla2xxx: Remove duplicate struct crb_addr_pair
+3d030e2feb8a3545959d80362dd91fb769868c54 scsi: qla4xxx: Remove duplicate struct crb_addr_pair
+05ae6c9c7315d844fbc15afe393f5ba5e5771126 scsi: lpfc: Fix lpfc_check_sli_ndlp() handling for GEN_REQUEST64 commands
+8808c36b48a66ff24032e56538ab2d8df3b09e20 scsi: lpfc: Notify FC transport of rport disappearance during PCI fcn reset
+19d768dca549d492fcf222f50067752e80062bc0 scsi: lpfc: Restart eratt_poll timer if HBA_SETUP flag still unset
+df117c93f58ab93c71413496491fdf543dbd7eca scsi: lpfc: Prevent failure to reregister with NVMe transport after PRLI retry
+b5162bb6aa1ec04dff4509b025883524b6d7e7ca scsi: lpfc: Avoid potential ndlp use-after-free in dev_loss_tmo_callbk
+327b110fdea1ee6ea805d7ba620ceb8f76918f4f scsi: lpfc: Create lpfc_vmid_info sysfs entry
+773a136fc8286811401f1548ace3b60cfdc9c042 scsi: lpfc: Update lpfc version to 14.4.0.9
+f65c7b81796e026bd21cf462505b3d8932a0de3c scsi: lpfc: Copyright updates for 14.4.0.9 patches
+00159e436cc36aa992538f60a0d7eb3c4345652f Merge patch series "Update lpfc to revision 14.4.0.9"
+32c79c268078daf5713d3b07b23077591b245d55 scsi: smartpqi: Take drives offline when controller is offline
+01b8bdddcfab035cf70fd9981cb20593564cd15d scsi: smartpqi: Add new PCI IDs
+001164fc3082cd8c53f65eb87a0f490e9780fd67 scsi: smartpqi: Enhance WWID logging logic
+42d033cf4b517e91c187ad2fbd7b30fdc6d2d62c scsi: smartpqi: Fix smp_processor_id() call trace for preemptible kernels
+6e6d9e85bad21635c95700f2d3094f1976442bf2 scsi: smartpqi: Update driver version to 2.1.34-035
+a0d1cf505d3f3a98388c2d05fe03b126dfda3513 Merge patch series "smartpqi updates"
+9cf2317b795d6cde0fccb8744b5a080a9586020e scsi: target: Move I/O path stats to per CPU
+268975a87c7b6f6b0ceb62df236c1e1b08b89379 scsi: target: Move delayed/ordered tracking to per CPU
+6b08fe7763de9e388e6b224af2e39fa5083c44d8 Merge patch series "target: Remove atomics from main IO path"
+04f79c113ae77732e7e6674bd814e76c7a3453cf scsi: mpi3mr: Event processing debug improvement
+fe016bb54dd1ec8218dd1c831178158052c9a0c6 scsi: ufs: ufs-qcom: Add support to dump HW and SW hibern8 count
+82edd868888a780c9c1e335d9f9c2258aaf20b8b scsi: ufs: ufs-qcom: Add support to dump MCQ registers
+25b5ee122b79553798f0d1abfefcc2d4e4b4e6cc scsi: ufs: ufs-qcom: Add support to dump testbus registers
+e142de4aac2aae697d7e977b01e7a889e9f454df Merge patch series "scsi: ufs-qcom: Enable Hibern8, MCQ, and Testbus registers Dump"
+
+--===============7403177209499314247==--
