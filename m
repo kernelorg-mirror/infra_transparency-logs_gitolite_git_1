@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0274229171597694734=="
+Content-Type: multipart/mixed; boundary="===============8875043287946403449=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 06 May 2025 02:03:58 -0000
-Message-Id: <174649703867.3689476.5249317173516054514@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Tue, 06 May 2025 02:04:24 -0000
+Message-Id: <174649706446.3689926.2808277809380721177@gitolite.kernel.org>
 
---===============0274229171597694734==
+--===============8875043287946403449==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 8feafba59c510be3189a1564f5e37c411a87ebc5
     log: revlist-2d099ccaadf6-8feafba59c51.txt
 
---===============0274229171597694734==
+--===============8875043287946403449==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -57,4 +57,4 @@ d6948f2af24e04ea291a35743e2645a957950a96 perf record --off-cpu: Dump off-cpu sam
 9557c000768741bb42a04a3c20c2bf2a5e60445a perf record --off-cpu: Add --off-cpu-thresh option
 8feafba59c510be3189a1564f5e37c411a87ebc5 perf test: Add direct off-cpu tests
 
---===============0274229171597694734==--
+--===============8875043287946403449==--
