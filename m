@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Tue, 06 May 2025 17:09:23 -0000
-Message-Id: <174655136314.291927.847056936383063570@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
+Date: Tue, 06 May 2025 17:11:49 -0000
+Message-Id: <174655150945.295356.18071371941431196523@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/remoteproc/linux
+user: mjp
 changes:
-  - ref: refs/heads/master
-    old: 313de9af36cbbd02d69ba12b8819e28f6a89bbd5
-    new: 62f0b9b539bc4ab53936149f74a39ed88da69ee1
+  - ref: refs/heads/rpmsg-next
+    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
+    new: 3a70b945d3da5825b4d7ce7d1b941055a4486016
     log: |
-         63b07d1cb639e9f6d3d87c7ab71a3317f065fe1e org.bluez.MediaEndpoint: removing BAP streams with ClearConfiguration
-         8d0f178974f8828c55adba58b01bbc70b0f9f7cd org.bluez.MediaEndpoint: add client role Reconfigure
-         62f0b9b539bc4ab53936149f74a39ed88da69ee1 shared/bap: bap_abort_stream_req() should cancel also current req
+         20b4f0b4cdfec106bb73afd47de7d121b723f723 rpmsg: core: Remove deadcode
+         68decaf24d4d24f4f8708a248e65e9d77ea19b85 rpmsg: virtio: Remove uncallable offchannel functions
+         3a70b945d3da5825b4d7ce7d1b941055a4486016 rpmsg: Remove unused method pointers *send_offchannel
          
