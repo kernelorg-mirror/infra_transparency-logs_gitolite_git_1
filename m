@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Subject: post-receive: pub/scm/linux/kernel/git/superm1/amd-debug-tools
 Date: Tue, 06 May 2025 13:45:59 -0000
-Message-Id: <174653915926.108082.7299449678620984302@gitolite.kernel.org>
+Message-Id: <174653915954.108112.17809512019955931109@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/superm1/amd-debug-tools
+user: superm1
 changes:
-  - ref: refs/heads/asoc-6.16
-    old: 02ca7898185fcbfc5890f0a8e42664bcd95d94a1
-    new: a71b261c19a455f7f8e560b4ddfac44d3150ae39
+  - ref: refs/heads/refactor
+    old: 795c24b3119d0adad360750a3678e1b57a37159c
+    new: bc91e442e32625bf435d4ce65aa059626b1f17b6
     log: |
-         a71b261c19a455f7f8e560b4ddfac44d3150ae39 ASoC: SOF: imx8m: Use reset controller API to control the DSP
+         0fb3f00c19209b6bafc196b990afe32f6e06375e installer: handle missing dependencies better
+         bc91e442e32625bf435d4ce65aa059626b1f17b6 Adjust logging for installer to respect --tool-debug
          
