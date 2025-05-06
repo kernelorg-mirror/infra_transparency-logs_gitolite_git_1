@@ -1,27 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Tue, 06 May 2025 11:20:56 -0000
-Message-Id: <174653045665.4156332.11438375880831824063@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
+Date: Tue, 06 May 2025 11:23:27 -0000
+Message-Id: <174653060747.4157664.2542193070871667885@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: maz
+repo: pub/scm/linux/kernel/git/mingo/tip
+user: mingo
 changes:
-  - ref: refs/heads/next
-    old: 68ec8b4e84446d6741ff9dd88b811691ee276633
-    new: ce69dfe088be267f7e110f01ac8e5448e1f8646e
+  - ref: refs/heads/WIP.x86/kconfig
+    old: 361aec4e1476d5647cf0adb51fc52c6b5cb00fbc
+    new: 14c511dbf5eb0ed3880f457713bd79d175db428d
     log: |
-         d2f14174f9e839e1128664ab339bbe17c333208b KVM: arm64: Replace ternary flags with str_on_off() helper
-         bae247ccade0a5016031e73c9f6d61b758b612d8 KVM: arm64: Force HCR_EL2.xMO to 1 at all times in VHE mode
-         e0ccc45b056d626d4b271820faeedf3837337ceb KVM: arm64: selftests: Add test for SVE host corruption
-         74b13d5816c9389381e937b218f49f03921f87fe KVM: arm64: Add .hyp.data section
-         845f126732a8126dee3f15855487121f4836131a KVM: arm64: Don't WARN from __pkvm_host_share_guest()
-         6c2d4c319c7db7be883428ae1161502f3f690e60 KVM: arm64: Selftest for pKVM transitions
-         48d564507293082c370a5fc1eb3d73ad3de30561 KVM: arm64: Extend pKVM selftest for np-guests
-         718fe36bd34c07f12ea5dbb87dc67caccfd35e6f Merge branch kvm-arm64/pkvm-selftest-6.16 into kvmarm-master/next
-         ce69dfe088be267f7e110f01ac8e5448e1f8646e Merge branch kvm-arm64/misc-6.16 into kvmarm-master/next
+         511a91cb038ae7fd08868dbd20f2ecb3930428ba x86/kconfig/64: Enable more virtualization guest options in the defconfig: enable Xen, Xen_PVH, Jailhouse, ACRN and Intel TDX
+         9a3ad281a0c209a71b8979fe8be46a3bf9e1959e x86/kconfig/64: Enable BPF support in the defconfig
+         66fd053e0a2d53de41dd0a57f516afd8bb10e1be x86/kconfig/64: Enable popular MM options in the defconfig
+         2bb4bd81583e905624fe82da94a8a8aa5cd6612d x86/kconfig/64: Enable popular kernel debugging options in the defconfig
+         2e164f15c783940d7bb12381cf5240cb094b2ef8 x86/kconfig/64: Enable popular scheduler, cgroups and namespaces options in the defconfig
+         9cd20e050a4e79ee7c09527b3bbef2b9a260630d x86/kconfig/64: Enable popular generic kernel options in the defconfig
+         14c511dbf5eb0ed3880f457713bd79d175db428d x86/kconfig/32: Synchronize the x86-32 defconfig to the x86-64 defconfig
          
