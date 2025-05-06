@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 06 May 2025 21:08:09 -0000
-Message-Id: <174656568971.496270.13019706094362108157@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/superm1/amd-debug-tools
+Date: Tue, 06 May 2025 21:23:16 -0000
+Message-Id: <174656659610.508348.9819196713057526750@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/superm1/amd-debug-tools
+user: superm1
 changes:
-  - ref: refs/heads/master
-    old: 9fd060622cf9224fd36e6429545101b3ec56adb4
-    new: 43745d11bfd9683abdf08ad7a5cc403d6a9ffd15
+  - ref: refs/heads/refactor
+    old: 01dd4e10a77866d06374b6d8c1cb935e801419fd
+    new: 17a23fa0e82b208036591b37334c0e1c4e834ed8
     log: |
-         43745d11bfd9683abdf08ad7a5cc403d6a9ffd15 bpftool: Fix regression of "bpftool cgroup tree" EINVAL on older kernels
+         25125b72ac53a6e4e7ec2d56f2fc069ff04b6fb6 Include tool version in reports
+         17a23fa0e82b208036591b37334c0e1c4e834ed8 Fix SSH shell detection
          
