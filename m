@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0120139174025714111=="
+Content-Type: multipart/mixed; boundary="===============2273217212891409468=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 06 May 2025 04:25:02 -0000
-Message-Id: <174650550219.3806032.5193106461435494973@gitolite.kernel.org>
+Date: Tue, 06 May 2025 04:25:23 -0000
+Message-Id: <174650552355.3807796.10669663528794788293@gitolite.kernel.org>
 
---===============0120139174025714111==
+--===============2273217212891409468==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: b1334ed954aec798a0546591f0d6dee376d4e26a
-    new: 5ab4770ea4cae2fd4ef5be637c5a6f81bb6fc379
+  - ref: refs/heads/6.16/scsi-staging
+    old: e142de4aac2aae697d7e977b01e7a889e9f454df
+    new: 6d600a8c2a94952d911b94a948cd5cecf8fb1069
     log: |
          bf6971a2b3eeb13535c907c03589f82a1adc429e scsi: dc395x: Remove leftover if statement in reselect()
          0e937fd51e8abe73ade41d8844ff20f5c80395bb scsi: smartpqi: Delete a stray tab in pqi_is_parity_write_stream()
@@ -29,33 +29,33 @@ changes:
          6d600a8c2a94952d911b94a948cd5cecf8fb1069 scsi: docs: Clean up some style in scsi_mid_low_api
          
 
---===============0120139174025714111==
+--===============2273217212891409468==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1746505514 -0400
+pusher 75C5DE3D 1746505536 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1746505483-345977cfd495ed1db279d4975fb5b652b5f38943
+nonce 1746505505-0bc6aed47c3fe133703275acc3b0bfd1da68bf2c
 
-b1334ed954aec798a0546591f0d6dee376d4e26a 5ab4770ea4cae2fd4ef5be637c5a6f81bb6fc379 refs/tags/mkp-scsi-staging
+e142de4aac2aae697d7e977b01e7a889e9f454df 6d600a8c2a94952d911b94a948cd5cecf8fb1069 refs/heads/6.16/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmgZjyoACgkQ7ulgGnXF
-3j3AYg/+LECtRmeHStnO5ZBrFi3oePTW6umH0r5GhoFLWSwZuDNnUxFhrTCabHiC
-Fuqadpz9iEtaIeoYc50SHo44BXqJj+kjLsIkc7z6ir7k53TWqQHy3H75UpuyZY9F
-WtxvW5rZvLT/f0U605WcfQCZMp+uY37qm+6InI1KF/TIncO8YTm4q9AE4y4ROPAj
-zRZIJEQDpxho8jEbIK6+ODSoNSRQLc45STp9hAHwleZs/C79ZEgmhtiZ75uo7laA
-eEze0U9Ow+GhNoXo8TFwJ9YrXPAPOFLNYVfabkRPTTbwxFZw9RhH0Pd38747xXsy
-+22nn3DljndfZwbh1k8txbAbOxS/sPwuzV+wy3vmsnyD8hCf8A0hN0Lh5QuElU3W
-d2CYewrk8ZAd2xzJxjOFszyjLvUm42trz4OIPQmdI9TIKJ//Pr5PxZJcmZqXO3xY
-LVK7tzXPxxcriEI4+sWDJLI84sHlKFsZ6iat3zn2nZjToXqpkrHv5oMd0I0ohv8i
-gn46FhTvIQIDLsoa2JjGUEQTkPVqL5ewJgmZEN0aanawuBFWgGYixz1AkVG+QwNm
-jhS3Mc9GPQ9qZZOCqB2BTeULhvdMKdOsau2KC1EQ0VbZ2afs4w5qlr3bRPaGZrhj
-Vb0JEc6u8lrttXnqKbP9JPy8eY+HHs4T/2Z/Lwg5DNpTHl/hI64=
-=dSGK
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmgZj0AACgkQ7ulgGnXF
+3j22sQ/+NZEsiYr/RV5ZnDibwawKeyapJPXwPxl+5sTiiokngu6ws0pA0jSqkt8V
+QHWQoyDpdj5anOR5YM62mPdCn6Fis9cA7/LRsOv6fg1t3VfXCPvKTyyP66ziLUXP
+r45iNuzvoMGcLYPJbfbu+jIq32ti3ZUyzgP+yDdnJyITP19yEFpdHfiWI3XvwVAb
+vMuBPQzM+vKuVuQBhHWmcn3AXN6Q/q8N5E9NEiDLIgDxKQ85n0i9uQMl2T1aoeQA
+0gosfVeqKiqa67weCHQOUQUV4vgWkDWdhQNo+fO3zxOw7ggWv6Uh/vqDHVUpBdz0
+18Erxyh/5eboUHzQqW6iw8oAj7I4hzne0GSH6CTHWN8Zf2rUimDD5hy7/whJAZNs
+DrImzNRzJozSq4fRrCm4MJnMSh5ymnz41ezHFVQEALzQslYqX2GiT4UXhvzI1S45
+9FgcsCr0s1yibXfHTdBEKRFfgy8JlKZMc8B7zO/kkLInHO9zM+hrYxrg/kbJBPnS
+KNYPdju9+XIKhXUH6TOI9MmzWBEaUleMZk9SpG2y1D3TWUUzgpz5Cgr/YFOGjWMg
+bVWTXoA6OU6LQk2ZljuJzfZzjliXWtyg9uJL9goBhLSIXeTMl8Ijj0vGciWDfZbu
+4s4L3ySab/naiDzGs5NspD+/TqPx3crpowCguvtJ12HCb6mfwM8=
+=Bj68
 -----END PGP SIGNATURE-----
 
---===============0120139174025714111==--
+--===============2273217212891409468==--
