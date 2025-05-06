@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============8471505615326167583=="
+Content-Type: multipart/mixed; boundary="===============5319241358306640152=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 06 May 2025 13:46:31 -0000
-Message-Id: <174653919110.108676.11780171011230162006@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 06 May 2025 13:46:37 -0000
+Message-Id: <174653919710.109024.4319572530495671780@gitolite.kernel.org>
 
---===============8471505615326167583==
+--===============5319241358306640152==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.16
+  - ref: refs/heads/asoc-6.16
     old: 02ca7898185fcbfc5890f0a8e42664bcd95d94a1
     new: a71b261c19a455f7f8e560b4ddfac44d3150ae39
     log: |
          a71b261c19a455f7f8e560b4ddfac44d3150ae39 ASoC: SOF: imx8m: Use reset controller API to control the DSP
          
 
---===============8471505615326167583==
+--===============5319241358306640152==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1746539218 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1746539189-83bbfbc71bd4cf86b406f1e76d7b01190c55358a
+pusher Mark Brown <broonie@kernel.org> 1746539224 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1746539195-e2af55e628eb8b141126d207fe81028f2243e601
 
-02ca7898185fcbfc5890f0a8e42664bcd95d94a1 a71b261c19a455f7f8e560b4ddfac44d3150ae39 refs/heads/for-6.16
+02ca7898185fcbfc5890f0a8e42664bcd95d94a1 a71b261c19a455f7f8e560b4ddfac44d3150ae39 refs/heads/asoc-6.16
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgaEtITHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0JX2B/9LrywW85P8pbnmDqpJEuhsLZWIqy5k
-SUVhKwjbcCa8WCzn8yPSrGTboh9uiyv2BjtBqpTVvFPJdkWbL7cXlqhIQ2/pGC+l
-SBDx6bBLAT4fdu7ohOzoCR42RM+pgOT6sCbZ+U+7v1r0dQq2NFxNkr0RFr6eP2i+
-x5pPiKjRyM8ZqsTSSbsTh144YX5GWjDO0cE3N6LRvqWPpU3aqLTHd9ock7DCgEqn
-xWdJATh2fYmeTCW2XXnCX8MIID58c7D1mVOlFv5MMrKBwk4QiF23B/KUw9lN4ILT
-QbM6nYk1jxLpYbqBzRe9VlR0jwCwcCZasdxU7d/1JCaaEr1PWMR+z06C
-=bKdh
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgaEtgTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0Py5B/45/Lzd9YxzhymTBoAck35OZ8DSeNnJ
+beoQJfcZdA0O77Hg/IxMiaUY38C1q4TfU9hRKoOFNDM85Wk9H9qtW5G9F20ydwq2
+GEz4tnanG0zn555UVLBW0hMoKRkFRXYORd5ZdKii9dsFw2hA36o8LxyuxjHjQ/uL
+0lZmE3ed5Gnd0WI3Ra9aXFoEsahAFVWoQYFy9rnqin/ZhR9BYH0j0IW3Nug0WcWS
+wxqNvhUqSKwN2f8wSpy7sYnpbd0xmSA2StrA/VhJRjd8ocApdx5dQd/wijeaS7Wf
+N0Z+9JkOX6y+x9D1HjGDcQAyQkIK2TXNi+HwOzta7BoSKoaQl7xiAr/J
+=HuMj
 -----END PGP SIGNATURE-----
 
---===============8471505615326167583==--
+--===============5319241358306640152==--
