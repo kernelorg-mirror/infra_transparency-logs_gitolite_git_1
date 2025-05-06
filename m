@@ -1,66 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============3681952726317715236=="
+Content-Type: multipart/mixed; boundary="===============1225364894883501116=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 06 May 2025 17:44:20 -0000
-Message-Id: <174655346082.323327.6445852400372033981@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Tue, 06 May 2025 17:44:45 -0000
+Message-Id: <174655348570.324274.742507040115884896@gitolite.kernel.org>
 
---===============3681952726317715236==
+--===============1225364894883501116==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
+user: jberg
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 5772766be7f1a31c8c431cf0213872dd9b2ba4ae
-    new: da5fcea2fe310ab61b3c0489a3b822acf4b83957
-    log: revlist-5772766be7f1-da5fcea2fe31.txt
-  - ref: refs/heads/tip/urgent
-    old: b138f945d7692870965302522424beb49ce97727
-    new: 1fd074da1cfbb734af02ee83cceecb1ae50847bb
-    log: |
-         cfb26524b3f64ebfe8a07201affc03101ac2dd38 Merge branch into tip/master: 'timers/urgent'
-         1fd074da1cfbb734af02ee83cceecb1ae50847bb Merge branch into tip/master: 'x86/urgent'
-         
+  - ref: refs/tags/wireless-next-2025-05-06
+    old: 0000000000000000000000000000000000000000
+    new: eb0048d230531dd453cc13310a85b449bd5197c5
 
---===============3681952726317715236==
+--===============1225364894883501116==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5772766be7f1-da5fcea2fe31.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-570d58b12fbf7bae0ba72d929ccf914a4df5ca7c Merge tag 'v6.15-rc5' into x86/msr, to pick up fixes and to resolve conflicts
-6c9e5bc15d6d79b529c5ba290f689bc7398bc7b6 Merge branch 'x86/msr' into x86/merge, to pick up conflict resolution
-cfb26524b3f64ebfe8a07201affc03101ac2dd38 Merge branch into tip/master: 'timers/urgent'
-1fd074da1cfbb734af02ee83cceecb1ae50847bb Merge branch into tip/master: 'x86/urgent'
-6a2f32e2b6c9bbf6b3ab98f818905d6ec6949488 Merge branch into tip/master: 'x86/merge'
-512f383e580c743faa9952b24dbe6a7810661653 Merge branch into tip/master: 'irq/merge'
-eb41effbbec5f898ccf20162bad5473b91aa5cad Merge branch into tip/master: 'perf/merge'
-35f4a318dfcc97197929a7a872ce84503cce0521 Merge branch into tip/master: 'core/entry'
-a0a58b2c0f4128e6e895512d2817d6bff0afb800 Merge branch into tip/master: 'irq/core'
-ea3d24b019163babaf75f58d0e7d3991d1e7d0fe Merge branch into tip/master: 'irq/msi'
-6701515c23f52045c0a5ece3089e70dcb3f88321 Merge branch into tip/master: 'locking/core'
-0efe08af118d77455bc515c940f9028fb76908eb Merge branch into tip/master: 'objtool/core'
-228c42a805900fb08c00c27d24a8ed999885ed07 Merge branch into tip/master: 'perf/core'
-ebce071157090481da98eddcd322631ffe3b8cc1 Merge branch into tip/master: 'sched/core'
-9af2ab23c672fa283ce26b5b3ac0c90354dd6fb4 Merge branch into tip/master: 'timers/core'
-b9c9ab6e22a6f7351b4c40cdd54b2d6cf40e6510 Merge branch into tip/master: 'x86/alternatives'
-abe5286fbc7ba36de583719487bce961822a6468 Merge branch into tip/master: 'x86/asm'
-c564c8a81b992c87c4e724e5c897fddcc1a0f8e0 Merge branch into tip/master: 'x86/boot'
-92c42bf128c1c47a1506a77f75cd26ecaf466466 Merge branch into tip/master: 'x86/cleanups'
-d811536de93397d109b9e42987836b0a3bda1594 Merge branch into tip/master: 'x86/cpu'
-cfa9bb087a2a273bbbaa57298063457aba67529e Merge branch into tip/master: 'x86/entry'
-0592c622fd2d2a2c65742aa262f6d16a07388d0c Merge branch into tip/master: 'x86/fpu'
-e65a834a4c1ae92e718b9ba8d91f97c2c91820fe Merge branch into tip/master: 'x86/kconfig'
-8ed5fe400969961f481f4624ddffcbb284bdd3d2 Merge branch into tip/master: 'x86/microcode'
-66bbed62cc78b5d2673abcc5d7e3ee8dc4d4a90e Merge branch into tip/master: 'x86/mm'
-bce36d4e76a8306aff19a05fdda696963faf010a Merge branch into tip/master: 'x86/nmi'
-223cb0d5a18960ca1b252a280e88e91b9bf2acb7 Merge branch into tip/master: 'x86/platform'
-333c90a426a78d32dc217391437113ab20703bcb Merge branch into tip/master: 'x86/sev'
-da5fcea2fe310ab61b3c0489a3b822acf4b83957 Merge branch into tip/master: 'x86/sgx'
+certificate version 0.1
+pusher 7BF9099A 1746553495 +0200
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
+nonce 1746553464-9e1bec09f90ab70c0d785cce99c7bbe8f2a746c0
 
---===============3681952726317715236==--
+0000000000000000000000000000000000000000 eb0048d230531dd453cc13310a85b449bd5197c5 refs/tags/wireless-next-2025-05-06
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmgaSpcACgkQ10qiO8sP
+aACnvBAAkLoLvaAoSvNNGjnBskX43zZIs6wp/N16nJc4zSfJhZ6Cl6th4oEAAPZZ
+HRGH9AF1qN5IdJ/Aez1MC6d3PItvIuXapw1eDfrDP8LZuibvKkcicfqEVpKQ7Xe3
+4zXT1nxtXgmNyc3eKG/uzFYoDoKsTKt/g+tVqoJOyHKjqhAJ/XLmxRiO175vj4s5
++5lVD5YJ9JPhKrH8rpokfbMeTTQvO0RrXnXIIkHVSmxgzMW7cUAjk+2EzCGckoAr
+ZIMFjvJtvgkxHg+Dnr/NEnm1pOJ+64rEqz2mXRg8OeCKRZQ4uMN9+VR8IoszNs5U
+KXlQK4n9QYAXlKYJ6MlE8VMnUGdhxlA+Y2VTyWdPE/4iaix01NkmBqdg01v1PKCo
+kebQQTn+QYnwquvCBjVbOSvIrO+CWX6lawPhTgja1WTE+0KSv89ZoYcQ99Kp1Vu8
+VoJFtrRfQGZJ+Q+dKipf16tCJAuY1tt392coxh+4wswr0JNgJlse4hfImZNP9k0i
+0VUqmmAm1O91izMxBsDQU7nQKDhgAeyefrBabgqbIx/rwxKG1Ej25gUVQn3u4c7z
+0iZWaASMsQxXQvkuBC5BWY8Ts7gTXnMOmOu8jmcJxwd12MWC0gbs+FmFtTWHqQh2
+uUbkHZznq/otMmskHEDtTf7ujXVWutz1AGpneYNtvy5edSDaQ3g=
+=otec
+-----END PGP SIGNATURE-----
+
+--===============1225364894883501116==--
