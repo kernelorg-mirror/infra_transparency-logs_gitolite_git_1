@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0541016600541956458=="
+Content-Type: multipart/mixed; boundary="===============1059186316257590375=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 06 May 2025 15:47:29 -0000
-Message-Id: <174654644955.217216.9646325676420638344@gitolite.kernel.org>
+Date: Tue, 06 May 2025 15:48:00 -0000
+Message-Id: <174654648005.217864.16218962915234582248@gitolite.kernel.org>
 
---===============0541016600541956458==
+--===============1059186316257590375==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 836b313a14a316290886dcc2ce7e78bf5ecc8658
-    new: 075001c9eb41be4f7841958d575786574dcc9b28
-    log: revlist-836b313a14a3-075001c9eb41.txt
+  - ref: refs/heads/dev-queue
+    old: a95af5ce1db20091c3c3ad69d7d9bf20141836a0
+    new: ef1b303d2496b4b39a8b147b46d20357d2b859bd
+    log: revlist-a95af5ce1db2-ef1b303d2496.txt
 
---===============0541016600541956458==
+--===============1059186316257590375==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-836b313a14a3-075001c9eb41.txt
+Content-Disposition: attachment; filename=revlist-a95af5ce1db2-ef1b303d2496.txt
 
 1ce65102d2d3c54862f7b59479135168ed512cd2 selftests/bpf: Fix compilation errors
 7625645e69454f984f09ea450b9eb1293467aa39 bpf: net_sched: Fix using bpf qdisc as default qdisc
@@ -82,5 +82,91 @@ f3b265358b911fe9e495619bdfa7797749474f95 net: phy: realtek: remove unsed RTL821x
 be1cc96ddf82bb0c0a159751f73239d6d3e9594a net: phy: realtek: use __set_bit() in rtl8211f_led_hw_control_get()
 708686132ba02659267c0cebcc414348ece389a5 net: phy: realtek: Add support for PHY LEDs on RTL8211E
 075001c9eb41be4f7841958d575786574dcc9b28 Merge branch 'net-phy-realtek-add-support-for-phy-leds'
+246a2d8e782e024d2cfab60b4c0bab3112ee2fe0 coccinelle: misc: secs_to_jiffies script: Create dummy report
+2495f9dbe7a0db661dfb67929614bc972e68d99e ice, irdma: fix an off by one in error handling code
+b7c8fb5e0c108e57f18f37bc8f1a18085c13cb3d irdma: free iwdev->rf after removing MSI-X
+0f6c6e0bc7ec3e093b5f7f019f7a7081cc827c19 ixgbe: add MDD support
+f8857153d772306f003c1babbf036ca31992155a ixgbe: check for MDD events
+93ebebab209c2dc189d65f69a9d54b23f81015a3 ixgbe: add Tx hang detection unhandled MDD
+a2d6a710d0d65d8e5e9fa5a50fa455918afc555b ixgbe: turn off MDD while modifying SRRCTL
+c341a9e741316d7d49f742d8aaa527fe9f3934fa ice: fix lane number calculation
+604a19922b401eb8002d4f24e77aacb5b24be76e ice: fix fwlog after driver reinit
+adffa801050d926cf81724a6e4b60c48d930e9ce ice: Allow 100M speed for E825C SGMII device
+f4aa2d8ce1619bfcb956067793c434023cb82fc8 ice: add E830 Earliest TxTime First Offload support
+f1d3166de9ee3fd41f0d45ada672e74998117b22 ice: add a separate Rx handler for flow director commands
+32f1d72ac6045cff37a640a380e6cef9b17c5b62 iavf: iavf_suspend(): take RTNL before netdev_lock()
+c0286b34a7293ff72564a5db9a2a13384d4c3df9 iavf: centralize watchdog requeueing itself
+55dce0a1d542166ae6954ab7ad7dc4618369f6f0 iavf: simplify watchdog_task in terms of adminq task scheduling
+27ce3febc58aebf4ee0fb599bb11ea21a1b0485d iavf: extract iavf_watchdog_step() out of iavf_watchdog_task()
+fc38ea4e704b0923a3265cf43281b7b3fc5ee17d iavf: sprinkle netdev_assert_locked() annotations
+559fbf761f33de0f4ce9882ae13cddb6a6943221 iavf: get rid of the crit lock
+af73e38712afcd48657f51e013af46b510e09c14 ice: Fix LACP bonds without SRIOV environment
+217d834b6f64e28ad6213a7394d959c1ad992b07 ice: Remove casts on void pointers in LAG code
+4e3ccf493a7a2ab83a91ea56d5af554d5e9b71c8 ice: replace u8 elements with bool where appropriate
+f7706aecad9100cd39d62ed652b179c19da13ed6 ice: Add driver specific prefix to LAG defines
+facd874ac80ac82d4983c04ca43e26e7e4c1fe4a ice: move LAG function in code to prepare for Active-Active
+2769fdde44b51cfb1733281aa781eb63a13ec6f0 ice: Cleanup variable initialization in LAG code
+dd47d0673763502c62952f0a9dee427808aadaed ice: cleanup capabilities evaluation
+569ddfabde87583230c3f9277a56c612bb3ac480 ice: breakout common LAG code into helpers
+465f92555e3d457619d6de8d01aa4dd2ad43eadd ice: Implement support for SRIOV VFs across Active/Active bonds
+5773d133e1b03606e01ae82327d28c0245eec4c1 ice: fix vf->num_mac count with port representors
+282ec816d936a6c58d37e969ebab55a6cd4b6c4a idpf: fix null-ptr-deref in idpf_features_check
+ce3828a75d82aa6dbad9edd000432b4afff8fbd9 ice: use DSN instead of PCI BDF for ice_adapter index
+b605b09f99344769b44ddc38753a7399c7096e8a ice: add link_down_events statistic
+450e6b6dec151330feb0f1422c57be6eec275741 ixgbe: add link_down_events statistic
+023aef427e6cd0766f83f4d5350785d591b4fcb7 idpf: change the method for mailbox workqueue allocation
+7cd63c91970326c8668eae8aa503e9fcdbb9ee23 idpf: add initial PTP support
+9b65e4f2c1c27155fdff3e48df843b5590a5da6a virtchnl: add PTP virtchnl definitions
+548ee934db54a5d59108214542624011c9e84537 idpf: move virtchnl structures to the header file
+c10316e88fe45eb74d30476d85e10438bc4a6c3c idpf: negotiate PTP capabilities and get PTP clock
+f707dfed7e4c337e10836609b6d459f5250b6c14 idpf: add mailbox access to read PTP clock time
+8cf022641e4a1aa937d5f33c5c99fbe7d4a1278e idpf: add cross timestamping
+cdcef466e9d329aa25c292ce903ab198c5882fe2 idpf: add PTP clock configuration
+e3bc361806f5e49b305f82f2e8955ac9a4737f9d idpf: add Tx timestamp capabilities negotiation
+d054824ea764192d380271ba231636f87d81a1e2 idpf: add Tx timestamp flows
+a8ad33cecad407de494aa9f769ecc6a4eb1991f9 idpf: add support for Rx timestamping
+7b843e64bd15099b4f34cc7c85631ec649cc05c5 libeth: convert to netmem
+a0131e40f233b8280cdc95916706944f5be23148 libeth: support native XDP and register memory model
+3651647abc3c9fcc2f9753175099d79f039435dd libeth: xdp: add XDP_TX buffers sending
+b701bdbbea796b6d508a7ded6bcfbc1a065784e8 libeth: xdp: add .ndo_xdp_xmit() helpers
+36c1d1ebaa8fdb7ee20b42c71f03b2a38019b489 libeth: xdp: add XDPSQE completion helpers
+be53d4dde698f6608bd840663ca3bf736a267a4d libeth: xdp: add XDPSQ locking helpers
+ca1caf42517d94733a1850b1926520445461619e libeth: xdp: add XDPSQ cleanup timers
+c540a535e0ce493f3a951c4f22ef58bec03f5b8f libeth: xdp: add helpers for preparing/processing &libeth_xdp_buff
+b8098538dc297a28763252ff231ea41ad049c249 libeth: xdp: add XDP prog run and verdict result handling
+fed8d1cacdb7cd5631e1e7ef719c6ec654c7ccb2 libeth: xdp: add templates for building driver-side callbacks
+d06b2628f92cee7ec3440f7dc2ab2c9c698da1b1 libeth: xdp: add RSS hash hint and XDP features setup helpers
+d512b4edc0ed968d4c06c8a59af935eb9a286dd2 libeth: xsk: add XSk XDP_TX sending helpers
+5a456632d7c778d40420072919526321e8391af6 libeth: xsk: add XSk xmit functions
+f2c8149bddf4a29d05b9fa9f5e5a4b03e3e2c9e8 libeth: xsk: add XSk Rx processing support
+b336758194d3cc1465fe7bc4a419767db8bfd1fa libeth: xsk: add XSkFQ refill and XSk wakeup helpers
+3f09653054eedc8d6df0999a080d91c67826e73e libeth: xdp, xsk: access adjacent u32s as u64 where applicable
+3fe3af37ea644423b1e896580a0fb5db3d08b7ae ice: fix Tx scheduler error handling in XDP callback
+deccb96d7a3dee51a971c1fd671d74dccd8cab89 ice: create new Tx scheduler nodes for new queues only
+c8b788da2575831a152995efdad6df8ae29f12a5 ice: fix rebuilding the Tx scheduler tree for large queue counts
+9d6eeb9dbbe9aefc3de031531a71c0eb8f4f8183 ice: redesign dpll sma/u.fl pins control
+f42b8cd92ce3257f890b07e749733c03b71a0e90 ice: change SMA pins to SDP in PTP API
+ca14cc2cd57206247f386ff1694ee662b2008f17 ice: add ice driver PTP pin documentation
+499e984bfb3ff9c2cffc1f81ae9958b9216a07e7 virtchnl2: rename enum virtchnl2_cap_rss
+d6d803bd2d2c6b00dc153d7178b61048a222095f virtchnl2: add flow steering support
+38872a3bc7f04d5ab190f62a0dc4057a6a12eb17 idpf: add flow steering support
+de7720a205f48e661a8403e056078ca98ae2b130 ice, libie: move generic adminq descriptors to lib
+c0a5e9bc3e66c604183a29ac058148a3356457d0 ixgbe: use libie adminq descriptors
+2370269f3405ce78a3993e3ae3e4860a6e2cf6ae i40e: use libie adminq descriptors
+d95006b8d052aa4127285abd62fd2d1d3d541bd3 iavf: use libie adminq descriptors
+2020dd89f6884f683dc46b7ba4b68f0b87603b11 libie: add adminq helper for converting err to str
+ae57e7b241254debe6f34fe642dfa8c99bd67c37 ice: use libie_aq_str
+ffd4602998d7d141eac341d37b4bb182cd827448 iavf: use libie_aq_str
+ecd4d19af826cac2a0b2a6c16d934f31206f23af i40e: use libie_aq_str
+823aeac879a193236ec7864bc76b15f77c868570 iavf: fix reset_task for early reset event
+00a45d9d3bcac98f70f42ebe1c5c8373efb314ce idpf: introduce local idpf structure to store virtchnl queue chunks
+710d85d0c1ee0343196f5013eb6dba550439656f idpf: use existing queue chunk info instead of preparing it
+41dcc7fb6525e81338105e2a49118eb6d41ca105 idpf: introduce idpf_q_vec_rsrc struct and move vector resources to it
+fb52058261c0fbfa8a6438e77f50fce2f5cad91f idpf: move queue resources to idpf_q_vec_rsrc structure
+5f0dd64e5ff1670588944e116d049c3c27ff7c91 idpf: reshuffle idpf_vport struct members to avoid holes
+04bf3ed3ecaceafe64353eb8e62f649d80143e9d idpf: add rss_data field to RSS function parameters
+b6c775bf1fc5580ec3bc50b9a86032326e12cb11 idpf: generalize send virtchnl message API
+79a995a3ee114439bf051faa70c59c710ac5506b idpf: avoid calling get_rx_ptypes for each vport
+ef1b303d2496b4b39a8b147b46d20357d2b859bd idpf: generalize mailbox API
 
---===============0541016600541956458==--
+--===============1059186316257590375==--
