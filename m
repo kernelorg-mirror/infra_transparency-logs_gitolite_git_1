@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Tue, 06 May 2025 13:35:21 -0000
-Message-Id: <174653852161.97927.8202843588306394105@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 06 May 2025 13:40:22 -0000
+Message-Id: <174653882272.102376.7440154641907367355@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/for-6.15-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 38e541051e1d19e8b1479a6af587a7884653e041
+  - ref: refs/heads/fileRzJbZD
+    old: a71b261c19a455f7f8e560b4ddfac44d3150ae39
+    new: 0000000000000000000000000000000000000000
