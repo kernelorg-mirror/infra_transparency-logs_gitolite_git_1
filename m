@@ -1,31 +1,37 @@
-Content-Type: multipart/mixed; boundary="===============8259103766647793170=="
+Content-Type: multipart/mixed; boundary="===============0939914409408728735=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Tue, 06 May 2025 06:57:48 -0000
-Message-Id: <174651466821.3928771.546310367765592392@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
+Date: Tue, 06 May 2025 06:58:30 -0000
+Message-Id: <174651471085.3929287.8122653538047119280@gitolite.kernel.org>
 
---===============8259103766647793170==
+--===============0939914409408728735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/extcon
+repo: pub/scm/linux/kernel/git/chanwoo/linux
 user: chanwoo
 changes:
-  - ref: refs/heads/extcon-testing
-    old: f0ddda961c6b76730445f886748eb069bdba8edf
-    new: 756f1e02daf4a71efcc379890da8f789852ade19
-    log: revlist-f0ddda961c6b-756f1e02daf4.txt
+  - ref: refs/heads/devfreq-testing
+    old: dfb3d4a9e2bdb5e89ec73147c838f15a235cc0dd
+    new: 92a09c47464d040866cf2b4cd052bc60555185fb
+    log: revlist-dfb3d4a9e2bd-92a09c47464d.txt
 
---===============8259103766647793170==
+--===============0939914409408728735==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f0ddda961c6b-756f1e02daf4.txt
+Content-Disposition: attachment; filename=revlist-dfb3d4a9e2bd-92a09c47464d.txt
 
+6907e8093b3070d877ee607e5ceede60cfd08bde nvmem: rockchip-otp: Move read-offset into variant-data
+1b23c14c07326a095b93145ca9ea31cf53d4bde1 dt-bindings: nvmem: rockchip,otp: add missing limits for clock-names
+9165960606dff725174155472583efec60f25bab dt-bindings: nvmem: rockchip,otp: Add compatible for RK3576
+50d75a13a9ce880a5ef07a4ccc63ba561cc2e69a nvmem: rockchip-otp: add rk3576 variant data
+f487438d370590193c5635ccbae1b1c51c5b273c dt-bindings: nvmem: qfprom: Add X1E80100 compatible
+269e074da1882c296085a27f0742c47ac860072e dt-bindings: nvmem: Add compatible for MS8937
 eed6d954542fb55c814dd54b7fcc1b515bd76464 dt-bindings: nvmem: fixed-cell: increase bits start value to 31
 7a06ef75107799675ea6e4d73b9df37e18e352a8 nvmem: core: fix bit offsets of more than one byte
 13bcd440f2ff38cd7e42a179c223d4b833158b33 nvmem: core: verify cell's raw_len
@@ -1044,11 +1050,5 @@ de3629baf5a33af1919dec7136d643b0662e85ef parisc: Fix double SIGFPE crash
 59c9ab3e8cc7f56cd65608f6e938b5ae96eb9cd2 Merge tag 'trace-v6.15-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 14c55b7bb0a8f013d89ccfed7ad540b774abb851 Merge tag 'perf-tools-fixes-for-v6.15-2025-05-04' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 92a09c47464d040866cf2b4cd052bc60555185fb Linux 6.15-rc5
-63c223dcdd49fb2282e9291f1f10e169385ca4be extcon: adc-jack: Fix wakeup source leaks on device unbind
-66460ffb5be6a542897a023561dbdba2460a2065 extcon: axp288: Fix wakeup source leaks on device unbind
-d17dac0ab9a50b84dfd29b9090bcd7d3a450e01e extcon: fsa9480: Fix wakeup source leaks on device unbind
-dfe748f6ae519234ab252ace1f05d45ecc454314 extcon: qcom-spmi-misc: Fix wakeup source leaks on device unbind
-7bdac006e8b08ebfb5082168efc65b71b1b75378 dt-bindings: extcon: Document Maxim MAX14526 MUIC
-756f1e02daf4a71efcc379890da8f789852ade19 extcon: Add basic support for Maxim MAX14526 MUIC
 
---===============8259103766647793170==--
+--===============0939914409408728735==--
