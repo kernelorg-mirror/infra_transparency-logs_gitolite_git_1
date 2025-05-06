@@ -1,24 +1,30 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 06 May 2025 01:39:00 -0000
-Message-Id: <174649554002.3669110.2414259861002599014@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 06 May 2025 01:49:37 -0000
+Message-Id: <174649617750.3678226.1103042254838365889@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/main
-    old: 953d9480f7d1bee0ec00c7c23ec4d3b33f585ed1
-    new: 8c2e6b26ffe243be1e78f5a4bfb1a857d6e6f6d6
+  - ref: refs/heads/for-6.16/block
+    old: e371b9d3368ccb6b55fe9747be12c3107b2817b3
+    new: 18b8144a1bd8be5a88cc438c0c9213bae1be1a9d
     log: |
-         172265b44cd3c90b76f2153a15abf64520d70e4a net: ethtool: Introduce per-PHY DUMP operations
-         9dd2ad5e92b962d1349a7541d167e8e214e49f95 net: ethtool: phy: Convert the PHY_GET command to generic phy dump
-         63fb100bf5241ffdfa404b49c6a443cadd08447c net: ethtool: netlink: Use netdev_hold for dumpit() operations
-         f267eeeec8781f44faf71739a044cbc85e3fb377 Merge branch 'net-ethtool-introduce-ethnl-dump-helpers'
-         c2dbda07662eb84dfe07887775d08eb1536c2d22 ipv4: ip_tunnel: Replace strcpy use with strscpy
-         8c2e6b26ffe243be1e78f5a4bfb1a857d6e6f6d6 vhost/net: Defer TX queue re-enable until after sendmsg
+         f66cf69eb8765341bbeff0e92a7d0d2027f62452 blk-throttle: Fix wrong tg->[bytes/io]_disp update in __tg_update_carryover()
+         7b89d46051ab310096994303b969768c4a9eb18f blk-throttle: Delete unnecessary carryover-related fields from throtl_grp
+         18b8144a1bd8be5a88cc438c0c9213bae1be1a9d blk-throttle: Add an additional overflow check to the call calculate_bytes/io_allowed
+         
+  - ref: refs/heads/for-next
+    old: 8dda7caf12463d6ac138588c0ce512692a2604c1
+    new: e6d9dcfdc0c53b87cfe86163bfbd14f6457ef2b7
+    log: |
+         f66cf69eb8765341bbeff0e92a7d0d2027f62452 blk-throttle: Fix wrong tg->[bytes/io]_disp update in __tg_update_carryover()
+         7b89d46051ab310096994303b969768c4a9eb18f blk-throttle: Delete unnecessary carryover-related fields from throtl_grp
+         18b8144a1bd8be5a88cc438c0c9213bae1be1a9d blk-throttle: Add an additional overflow check to the call calculate_bytes/io_allowed
+         e6d9dcfdc0c53b87cfe86163bfbd14f6457ef2b7 Merge branch 'for-6.16/block' into for-next
          
