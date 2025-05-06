@@ -1,25 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iommu/linux
-Date: Tue, 06 May 2025 19:03:47 -0000
-Message-Id: <174655822739.391186.989132377199042644@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Tue, 06 May 2025 19:23:04 -0000
+Message-Id: <174655938451.406970.14653930766855130181@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iommu/linux
-user: will
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
-  - ref: refs/heads/arm/smmu/bindings
-    old: 8ffd015db85fea3e15a77027fda6c02ced4d2444
-    new: b3f3c493e963502c965cb4978dfccd7c90960c0d
+  - ref: refs/heads/master
+    old: 95ea0cf3f6137f6596002fd524580e481b5507c1
+    new: 5d511d93c0c3d9cf0ad28708d2d945d61ea27f01
     log: |
-         b3f3c493e963502c965cb4978dfccd7c90960c0d iommu/arm-smmu-qcom: Add SAR2130P MDSS compatible
+         5d511d93c0c3d9cf0ad28708d2d945d61ea27f01 dt-bindings: input: touchscreen: edt-ft5x06: use unevaluatedProperties
          
-  - ref: refs/heads/arm/smmu/updates
-    old: 8ffd015db85fea3e15a77027fda6c02ced4d2444
-    new: be5a2d3f8f9738ea1426e7d2243707164ed5bac2
+  - ref: refs/heads/next
+    old: 95ea0cf3f6137f6596002fd524580e481b5507c1
+    new: 5d511d93c0c3d9cf0ad28708d2d945d61ea27f01
     log: |
-         be5a2d3f8f9738ea1426e7d2243707164ed5bac2 iommu/arm-smmu-v3: Fix incorrect return in arm_smmu_attach_dev
+         5d511d93c0c3d9cf0ad28708d2d945d61ea27f01 dt-bindings: input: touchscreen: edt-ft5x06: use unevaluatedProperties
          
