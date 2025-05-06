@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Tue, 06 May 2025 21:03:17 -0000
-Message-Id: <174656539742.491918.14348339088522633504@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 06 May 2025 21:08:09 -0000
+Message-Id: <174656568971.496270.13019706094362108157@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/pending
-    old: a34b4ee613f351fb352a76b78d116e0b8015b843
-    new: d26aa32526492c57e4a12aca9c2223379b70062f
+  - ref: refs/heads/master
+    old: 9fd060622cf9224fd36e6429545101b3ec56adb4
+    new: 43745d11bfd9683abdf08ad7a5cc403d6a9ffd15
     log: |
-         d26aa32526492c57e4a12aca9c2223379b70062f wifi: ath11k: fix rx completion meta data corruption
+         43745d11bfd9683abdf08ad7a5cc403d6a9ffd15 bpftool: Fix regression of "bpftool cgroup tree" EINVAL on older kernels
          
