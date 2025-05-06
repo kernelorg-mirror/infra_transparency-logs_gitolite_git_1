@@ -1,56 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============5018624423387965169=="
+Content-Type: multipart/mixed; boundary="===============6275216045427359795=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Tue, 06 May 2025 05:50:54 -0000
-Message-Id: <174651065465.3876233.10355290519093711812@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
+Date: Tue, 06 May 2025 06:21:36 -0000
+Message-Id: <174651249639.3900451.3372182421306358562@gitolite.kernel.org>
 
---===============5018624423387965169==
+--===============6275216045427359795==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/hyperv/linux
+user: wei.liu
 changes:
-  - ref: refs/heads/master
-    old: 74a829c87be89efd8a29ea6ad6e18aa942a8986c
-    new: 5a8c61e263fcc2ec61180b2317936d5ebcba2bd0
-    log: |
-         5a8c61e263fcc2ec61180b2317936d5ebcba2bd0 update cvelistV5
-         
+  - ref: refs/heads/hyperv-next
+    old: 2d2d4d8bb0091eca556edf232bdf526a6a652d19
+    new: 1b019573c9662c17a33419367a217abe1f5e8060
+    log: revlist-2d2d4d8bb009-1b019573c966.txt
 
---===============5018624423387965169==
+--===============6275216045427359795==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-2d2d4d8bb009-1b019573c966.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1746510685 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1746510654-f99670f301dbad9baa4f679fc63f47f38e501b62
+48692648790576ab2a7a1bf3cd7e633009bdfbd5 arm64: kvm, smccc: Introduce and use API for getting hypervisor UUID
+12218eaf038d7488d3e79f6ddc4f1676181d73f5 arm64: hyperv: Use SMCCC to detect hypervisor presence
+b81ae15a19676d7208a460099b98c8a38f67654a Drivers: hv: Enable VTL mode for arm64
+b47755adcbb3d752176013997916fcf78252f541 Drivers: hv: Provide arch-neutral implementation of get_vtl()
+f1124d72a495060535ce7c7197e5e48bf750f753 arm64: hyperv: Initialize the Virtual Trust Level field
+a3213fa4d3f7bf660efd9aa8e95d1ccd6f84a028 arm64, x86: hyperv: Report the VTL the system boots in
+64ea2b4ba5a32531fb4af7db0af178c2e34062c4 dt-bindings: microsoft,vmbus: Add interrupt and DMA coherence properties
+3a3bf988fafc09dcf3f4262b3f0ea08fdac58530 Drivers: hv: vmbus: Get the IRQ number from DeviceTree
+2891ada3e0e80dc371f55d4aab33ccb1d8df2b8b Drivers: hv: vmbus: Introduce hv_get_vmbus_root_device()
+9a2cdfbe524a7972159f9ada5424a4502734dd5b ACPI: irq: Introduce acpi_get_gsi_dispatcher()
+1b019573c9662c17a33419367a217abe1f5e8060 PCI: hv: Get vPCI MSI IRQ domain from DeviceTree
 
-74a829c87be89efd8a29ea6ad6e18aa942a8986c 5a8c61e263fcc2ec61180b2317936d5ebcba2bd0 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgZo10bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Qd4P/iVNJPgOYRTzU0osBNPV
-lIvpDTLUo0AUcFz3tYR/rdGMC5jmsnjGFU3ocsoDkB0gKFYH6j8krdvJU6UU+O4L
-KDawVWJrXfZYzseilW1thIrxtMn0plbvRVjOlYnnbDouq2Wb/rrhe7FNIwRA8f4v
-COEl0vGTOHJ8/Jf73PKU8a0Oeu1r2q73/WAzeGGxwwWhGEc0Dtt9a4I64CYiQGvB
-gq79otYAOkaup4vYjpKAoQXUwEuawdSPFtiYFHhX6Cnho/S//tsGQbmSzhLcwMq0
-/WNEm2AH13w0fwwHsjCE59vKRlcQn6onzDbEm85jXcED69Z3GtN/YvTsodE0vpf8
-t9E/vSX8ZSQPjH3SIgOzius7Bj4atJ3U5PPKEuoXVmwoREXn/V1VRBRIiTXcjNz7
-LpTNJGYPlEdMlNark3YuaQIwoUFLBAZYn7p8fmg5ygkobojANcTsZGdWMM3Z9XPs
-pbCcmFawoAUOgYPy0f6tPFedpV48KLZYVn1VfSakFveElGOZiHIpy08tF7F6NvK8
-U+rZsnnnYZLRBxMA0CBzu+uE1/npV/nC05SslY5EwNEnm1A7xLI6ufUbHgZ702gq
-zK1Z148fsaO/LR8lsjfMuCJK6u0ZDYveUw4DPbOecC9plTJq0ckgVVtkTJZpx2co
-0Ys8uwRCuDMKODBhU0z4zuIf
-=1CZP
------END PGP SIGNATURE-----
-
---===============5018624423387965169==--
+--===============6275216045427359795==--
