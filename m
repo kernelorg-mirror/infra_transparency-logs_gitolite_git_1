@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6577114314022271625=="
+Content-Type: multipart/mixed; boundary="===============8868189810953220699=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 06 May 2025 15:47:09 -0000
-Message-Id: <174654642926.216581.9677947110613415384@gitolite.kernel.org>
+Date: Tue, 06 May 2025 15:47:16 -0000
+Message-Id: <174654643657.216891.2896331272459097726@gitolite.kernel.org>
 
---===============6577114314022271625==
+--===============8868189810953220699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/200GbE
     old: ebd297a2affadb6f6f4d2e5d975c1eda18ac762d
     new: e8716b5b0dff1b3d523b4a83fd5e94d57b887c5c
     log: revlist-ebd297a2affa-e8716b5b0dff.txt
 
---===============6577114314022271625==
+--===============8868189810953220699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ c645a6b2f3962bc6cc89ae8da7cac403c08023a6 Merge branch 'selftests-drv-net-fix-pin
 4db6c75124d871fbabf8243f947d34cc7e0697fc net: ethernet: mtk_eth_soc: reset all TX queues on DMA free
 e8716b5b0dff1b3d523b4a83fd5e94d57b887c5c net: ethernet: mtk_eth_soc: do not reset PSE when setting FE
 
---===============6577114314022271625==--
+--===============8868189810953220699==--
