@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
-Date: Tue, 06 May 2025 20:14:02 -0000
-Message-Id: <174656244227.449451.351370169310706743@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Tue, 06 May 2025 20:17:58 -0000
+Message-Id: <174656267890.453376.17079916641481203742@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/hkml
-user: sj
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/master
-    old: eadcedfaa8b34e327d7b7197beaf72f938901bab
-    new: f9ab8fa51105b533621710db43074f4586c7a5f2
+  - ref: refs/heads/pending
+    old: 865dd32c1421eafda49a3170d06220c3110f0e30
+    new: a34b4ee613f351fb352a76b78d116e0b8015b843
     log: |
-         f9ab8fa51105b533621710db43074f4586c7a5f2 TOOD: add text wrapping boundary word improvement item
+         a34b4ee613f351fb352a76b78d116e0b8015b843 wifi: ath11k: fix ring-buffer corruption
          
