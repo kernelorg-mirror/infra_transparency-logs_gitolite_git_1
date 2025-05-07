@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5276551244627274092=="
+Content-Type: multipart/mixed; boundary="===============8715117843895228401=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 07 May 2025 14:32:12 -0000
-Message-Id: <174662833245.1401747.16754868699285380989@gitolite.kernel.org>
+Date: Wed, 07 May 2025 14:32:19 -0000
+Message-Id: <174662833993.1401979.11851339691363361735@gitolite.kernel.org>
 
---===============5276551244627274092==
+--===============8715117843895228401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,91 +16,126 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.15.y
-    old: 38666c05c65cb3e0ae5c7d7eba1d352c0801b88b
-    new: 3985a1e4cb6cfa93275bfa01c02f1ec67fb7407e
-    log: revlist-38666c05c65c-3985a1e4cb6c.txt
+  - ref: refs/heads/linux-6.1.y
+    old: 7ea31a24f9ccd9139c06e463e6a0cb94289b024b
+    new: 97f56b0f79f97bfff64e8d621500e34d81dea739
+    log: revlist-7ea31a24f9cc-97f56b0f79f9.txt
 
---===============5276551244627274092==
+--===============8715117843895228401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1746628362 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1746628369 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1746628329-db6d0690f6232433818eb997b17a7498ab86bf37
+nonce 1746628335-f97a826becb69ee560f0b96667023f49e4c5bf33
 
-38666c05c65cb3e0ae5c7d7eba1d352c0801b88b 3985a1e4cb6cfa93275bfa01c02f1ec67fb7407e refs/heads/linux-5.15.y
+7ea31a24f9ccd9139c06e463e6a0cb94289b024b 97f56b0f79f97bfff64e8d621500e34d81dea739 refs/heads/linux-6.1.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgbbwobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NWsQAIiIimlt0I+wkK/wkv6x
-vDNFWNwcvjqditqXpYitel8GsIufbVx1WTMPc9RJyCOoVa93q1xtKsbN9otL6g8p
-AqwgaRt1n1RYnqA/ifxprdg3vQxe9UgT1hsDb0mfMe3KJ3ZuZ/hFvz2aFn6cBI7D
-BChTtGBpCad0fddKhapf3daHMPWmexi+tsJJ1VFdH5kAGywkNnetpR58w8Ozrd4H
-iDzAL8s7kvTn2P0fB6jlL8XA1sNStyV/sOvAVjjGqHAF8gOPPpnyxM5HeG4M2qau
-agltY7jenVd7WJTAWRnx0XttV5bvz4Ydn0LyMZ9Isk2cFdh1o0vXEacc2ip1JTYp
-4afQDwnMyeN0a4IPXAMbyIxXX9f4wey5fXUExmR+asAMiToRBq/SB+tlgrsPCwUy
-QMjm4/ReNjV8wl/+tmwLrYF8lx+gXiAOW5KvIDHzqZVI2oRVOtuNzloMErrXHnyP
-h49HnCP+E3B/y1Y+oUsMqRQzsb2IiXPRWTgYN/uJWWukqJAwu9J+4oBdnByrZ8Zm
-gunie0LkjFwM4EgLUDee3TuqMhO0KHknYHhnjd+Y8gXEAtcPxn5exJDXX7mXk5d8
-+Dx8+b+Fp376eFMJ90BZsaisZIiRIPtEScNuFLs2YXMmgMcEp5CT/bycRO/p++9y
-4t23Jz3V1XNtA/0i1JlnLrQm
-=GvcY
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgbbxEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LwcQALMnYulfEegp052g1HUw
+Uid4vo3KbjMhEKnQwIiIi8dhCDuKIgMQiK/RWVOzG3BRftfEmB3FOIDU2NXcbrq/
+CeNK2u+3x10iG7s8XzSP1BjuntvzLZR31UKR6wrkZSMg5692kFUo/1idNDS4yQrB
+Y1aob+nX1QGCvCBK2aTIRILCv78X3s8eosFHR+wUD+D0WlOsrOQj5xMll3uSpfIM
+iTB55Br7dhkj8D02YkfApx/FLHVlE+WBIH2Uy4UMXQiwah0z7VAANerhHrbXto1e
+VvMGuaXGYRcX8lZmsdXOZ62Ku8ob7Rme3osvY7v57Zem7U0/10dJsvmCi+VK7/NM
+Q6QC3EmbM9EOi5jW86V/Y6eQmn1rpeqNyxkTNDNOZW8jUCt6sjNrSYW9Ho8zj7lC
+YEjs8yqw6mMPpHFyXLOkvWVuOY22lo7FTFQR9H8nsORkCGo0eP52V4LnlSIkacHf
+Fh6O5sM0/hmhwfX4NkGDmIEUrdN5C6ynXHFnya/6K1eYWLL080/SVkxCorcoy3yk
+K3HhINeMp5oKO3fooaVuFTLVZUAcqjamYll5PoVKLiCjxg1UzxjyV3qb/WmkGXcU
++q3e9f4/JVwa74jWe5XXlKwb6Np9MCTZUG3TdD06C+o+uFnglq7crPkHzM8+LhIp
+rjIPq9L1oLBSV/7wdgcJqPbH
+=JCDB
 -----END PGP SIGNATURE-----
 
---===============5276551244627274092==
+--===============8715117843895228401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-38666c05c65c-3985a1e4cb6c.txt
+Content-Disposition: attachment; filename=revlist-7ea31a24f9cc-97f56b0f79f9.txt
 
-4883dc94c11a8a1b4394d219fd98eb46876c8af6 ALSA: usb-audio: Add second USB ID for Jabra Evolve 65 headset
-d6466a607141297baeae39a0ba4d15974299b58e drm/nouveau: Fix WARN_ON in nouveau_fence_context_kill()
-d30232adf869415816d6a837c0a156e1e6ee6e9b EDAC/altera: Test the correct error reg offset
-1bdb86aebcc2ee75c10c5c96e31559488ee94c43 EDAC/altera: Set DDR and SDMMC interrupt mask before registration
-e4fdba1657c2fe3b1b80ce888fe3e086a90bdb3d i2c: imx-lpi2c: Fix clock count when probe defers
-640e461f0e8a6b083334ede23bedb367a18beb4a arm64: errata: Add missing sentinels to Spectre-BHB MIDR arrays
-ba10fbc33977d4f5628dc0e26ceea7b646dbd0f4 parisc: Fix double SIGFPE crash
-2546d60caa91571a5399b36273f8cbadeac49ef3 amd-xgbe: Fix to ensure dependent features are toggled with RX checksum offload
-1c64c9c3a7c2af8e8220927fde5033dbbba63215 mmc: renesas_sdhi: Fix error handling in renesas_sdhi_probe
-001679ef6228c3a76464c9f2ef006af20f97f2fd wifi: brcm80211: fmac: Add error handling for brcmf_usb_dl_writeimage()
-6522758670cc404ef62f110ae3aa9be5f62a0a55 dm-integrity: fix a warning on invalid table line
-99dc66f0827e8f5a78e527f30828e9075440bbd1 dm: always update the array size in realloc_argv on success
-d389ca292f34e9fce4adc23cb0670b1d4162246a iommu/amd: Fix potential buffer overflow in parse_ivrs_acpihid
-ddc0af93df380855e3930fb769cd892d3d5c1d7b iommu/vt-d: Apply quirk_iommu_igfx for 8086:0044 (QM57/QS57)
-14d9e4df4f198ff2e7b219bbb60808951d70b7bb tracing: Fix oob write in trace_seq_to_buffer()
-e8a19194516ebba4e91b8c6c95482c9642548696 KVM: x86: Load DR6 with guest value only before entering .vcpu_run() loop
-f370335c8cfa59976a7c0330f7617ccf189b8b12 net/sched: act_mirred: don't override retval if we already lost the skb
-e8e72de79a6ffe07e5da6ae8ddd23fb583bdd295 net/mlx5: E-Switch, Initialize MAC Address for Default GID
-ad91af46d637f32bc04093250d4726478cac1e94 net/mlx5: E-switch, Fix error handling for enabling roce
-a4cb2387569f7b4b9476549d12304e4636551cf3 net: ethernet: mtk-star-emac: separate tx/rx handling with two NAPIs
-d5906759039adf55f8484d12d3894c88d3a36018 net: ethernet: mtk-star-emac: fix spinlock recursion issues on rx/tx poll
-5d7438a85559d66021df737fbb2910f1ea884cad net: ethernet: mtk-star-emac: rearm interrupts in rx_poll only when advised
-54c23dd30c491e3fca36ed5341cbdc301c5449ca net_sched: drr: Fix double list add in class with netem as child qdisc
-76e03a11fa4cdc1a0158152a8771320822a4090d net_sched: hfsc: Fix a UAF vulnerability in class with netem as child qdisc
-dc4697cd6a19ef3d72866424044982a7d672517e net_sched: ets: Fix double list add in class with netem as child qdisc
-3749c7fdb694bdcb008611e10716813b10792486 net_sched: qfq: Fix double list add in class with netem as child qdisc
-9b3fc4b83b433ec11b8144818fd0c5deac30094f ice: Refactor promiscuous functions
-67fe156cdfb96bc19ab10a8edb2f9194cf501771 ice: Check VF VSI Pointer Value in ice_vc_add_fdir_fltr()
-4ff6a0b7e7d3a28f4d568472d67982f75114582a net: dlink: Correct endianness handling of led_mode
-aa2a373147fc0a3f41b4ae948450fa31e50d2203 net: ipv6: fix UDPv6 GSO segmentation with NAT
-3d2b85f3db9510b2a8c85cf3001d64cb2a013e6f bnxt_en: Fix coredump logic to free allocated buffer
-ef52576d4f066ad574dd60ede05e189e65cf9744 bnxt_en: Fix out-of-bound memcpy() during ethtool -w
-205ea99762dd1b06456e912d25d4826b7a825eaf bnxt_en: Fix ethtool -d byte order for 32-bit values
-7a82223968e3657368a501f18349f7ea5e622888 nvme-tcp: fix premature queue removal and I/O failover
-d965e188d86eb74c062c6117311bdc4befb01330 net: lan743x: Fix memleak issue when GSO enabled
-75d5707121dd292a27694ce69664a22e61bf020d net: fec: ERR007885 Workaround for conventional TX
-449591c503e110efdc687bd861e51a76c32197c4 net: hns3: store rx VLAN tag offload state for VF
-a09a04c9db5a8148c034d6ac3697c5d5a928c43a net: hns3: add support for external loopback test
-3588a2218d68f8d2ffc2e3f46a7462a60cdad1ce net: hns3: fix an interrupt residual problem
-fec1c7be5e23b8add8099df5ddb6f31833f864d6 net: hns3: fixed debugfs tm_qset size
-a7356bdc278c1c0212a5917ee49c84d78d36107a net: hns3: defer calling ptp_clock_register()
-2c6e88619885017028ed68b39e783d4153ff12e4 PCI: imx6: Skip controller_id generation logic for i.MX7D
-51e69a8c4e29900a844a74dd80b61d7a1cfb9f79 of: module: add buffer overflow check in of_modalias()
-ca9a763a16bc1164cae56b824ff3ad0680f7cf53 net: hns3: fix deadlock issue when externel_lb and reset are executed together
-3985a1e4cb6cfa93275bfa01c02f1ec67fb7407e Linux 5.15.182-rc1
+4a6f94a3e9d9c51ab563f3d5193babafa99aa872 Revert "rndis_host: Flag RNDIS modems as WWAN devices"
+c4199ea7cc88f43282ec346f605107eeed8733e6 ALSA: usb-audio: Add second USB ID for Jabra Evolve 65 headset
+bff124d934e7d729b3ab560a0ca91a535e82ed66 drm/nouveau: Fix WARN_ON in nouveau_fence_context_kill()
+d5ea982c78cba580f2c2946387ac6d0ce936a36f EDAC/altera: Test the correct error reg offset
+46d23bf513b555ee8834e2aa80f54584af23fcd4 EDAC/altera: Set DDR and SDMMC interrupt mask before registration
+4e50bc27d5f3c67c03a4186e8b29bb8c312ff6f0 i2c: imx-lpi2c: Fix clock count when probe defers
+20a4268b23b936e9de6e8abfeaa97be3bcf23d23 arm64: errata: Add missing sentinels to Spectre-BHB MIDR arrays
+2d768c2e110b41a769c3d49f8040542ecfca50dc parisc: Fix double SIGFPE crash
+cbfb9fbcb0be1e5ed9b0cb2c861e8de4597c409c perf/x86/intel: KVM: Mask PEBS_ENABLE loaded for guest with vCPU's value.
+e40a4733c4aa47b633917fc422ab165ffc51f4f0 amd-xgbe: Fix to ensure dependent features are toggled with RX checksum offload
+3f7dc1b731bca25e5d55889772cc409793ba7d1c irqchip/qcom-mpm: Prevent crash when trying to handle non-wake GPIOs
+9b2106163ccbb9bd8ffa2f0f1597daac7656c6bd mmc: renesas_sdhi: Fix error handling in renesas_sdhi_probe
+f7a3d756fee1428db39d91e7c56f1dd48b22b326 wifi: brcm80211: fmac: Add error handling for brcmf_usb_dl_writeimage()
+94085bc711cc0cee0329b235ece2b34eaa283d05 dm-integrity: fix a warning on invalid table line
+1a7a2d84dd6b338403228350f43ac6b9d106a315 dm: always update the array size in realloc_argv on success
+673345d52336a83b155b7b8e9d66cd3282c2a77b iommu/amd: Fix potential buffer overflow in parse_ivrs_acpihid
+23b9144cfb70c6a531517f4a4c9cad2284822984 iommu/vt-d: Apply quirk_iommu_igfx for 8086:0044 (QM57/QS57)
+f54bcb7badef1d4b2d132afbc8ec590096c6dc34 platform/x86/intel-uncore-freq: Fix missing uncore sysfs during CPU hotplug
+c69a58d5c786d26901b7b36d23f4711a25f199fb ksmbd: fix use-after-free in kerberos authentication
+4580c1cd3f60321e81f4cea0af62856834020802 cpufreq: Avoid using inconsistent policy->min and policy->max
+2e23ff93fd2a833829d6744380a2d8b6bf73314f cpufreq: Fix setting policy limits when frequency tables are used
+f327c2eeda3ca2900662103abf856bfa2f262a2c tracing: Fix oob write in trace_seq_to_buffer()
+58ea6657a0912a1a3f721824634d034311015db1 xfs: fix error returns from xfs_bmapi_write
+2155ec805863c2983a15d477d0efdf73e2e69885 xfs: fix xfs_bmap_add_extent_delay_real for partial conversions
+8d752b8a3d184132859244c73114121ae41694ba xfs: remove a racy if_bytes check in xfs_reflink_end_cow_extent
+87e78e67a70fea5cd25a73e03de89102666a5f57 xfs: require XFS_SB_FEAT_INCOMPAT_LOG_XATTRS for attr log intent item recovery
+c4fd03783728eb10044422187f8d6e8407532e88 xfs: check opcode and iovec count match in xlog_recover_attri_commit_pass2
+5521d4270e0f0345c25423409535ed94f2f37410 xfs: validate recovered name buffers when recovering xattr items
+21d9358cdd261a4bc84da154c4d9a6007efec851 xfs: revert commit 44af6c7e59b12
+6e28cc63b2a9ac186d09726a99926ca4e6c36bda xfs: match lock mode in xfs_buffered_write_iomap_begin()
+3f8ed606968b9fc515de656ca005f882415877ab xfs: make the seq argument to xfs_bmapi_convert_delalloc() optional
+7f8d2c407a10cf2c4a70b6d930b14da827a14775 xfs: make xfs_bmapi_convert_delalloc() to allocate the target offset
+0bddaa43fdafa9456e184724f59d4ce65bd2321e xfs: convert delayed extents to unwritten when zeroing post eof blocks
+5c3c94a48fc2d2ec5f680ca0fb3cdc5672c8222e xfs: allow symlinks with short remote targets
+1c1c6d67c3640732fb1f944648472e61b5a3f182 xfs: make sure sb_fdblocks is non-negative
+c39cfe3e53a9cb50b77126b8f1b04e0b0dd0cda5 xfs: fix freeing speculative preallocations for preallocated files
+e0a5abe79045a26fa50226aa9ade2ec4922e76cf xfs: allow unlinked symlinks and dirs with zero size
+41a6e1584136fad0a59559e6cbe260f9e1dd53fc xfs: restrict when we try to align cow fork delalloc to cowextsz hints
+a67f7762d24755ac7c5201a793397122b07772ca KVM: x86: Load DR6 with guest value only before entering .vcpu_run() loop
+2fd6d1ee812f27e63b7efdf3b1fabc4bf0c60471 dm-bufio: don't schedule in atomic context
+5c383e10abbd632e4d629b021d6ccf4bace509a6 ASoC: soc-pcm: Fix hw_params() and DAPM widget sequence
+e45a4f0dfcbddbaf17bb7695f8405ca09e7fadbd wifi: plfxlc: Remove erroneous assert in plfxlc_mac_release
+0a5177d90cab881172eb396594fe4302f88d6625 vxlan: vnifilter: Fix unlocked deletion of default FDB entry
+1d0361916bc05c260fdf7e8a5f9f190e16d5df57 net/mlx5: E-Switch, Initialize MAC Address for Default GID
+a8fcf9b1660a54b7551aa659c7fcebf14283ea98 net/mlx5: E-switch, Fix error handling for enabling roce
+2dc722c11c9583a77a6059c92f61e002f7dd0717 net: mscc: ocelot: treat 802.1ad tagged traffic as 802.1Q-untagged
+224d56c6851dd5cf106226313ef12f7816b95522 net: mscc: ocelot: delete PVID VLAN when readding it as non-PVID
+4b70b661b2743b39c2b40a027603d8d00d5b03bd net: ethernet: mtk-star-emac: fix spinlock recursion issues on rx/tx poll
+b953382b2370dfb79359b776e95ec0644c506f76 net: ethernet: mtk-star-emac: rearm interrupts in rx_poll only when advised
+ea9abf32eba59857176031cf7b7716da29e3583e net_sched: drr: Fix double list add in class with netem as child qdisc
+b3315183f269f308321a2aeefe87b9d4004a70b4 net_sched: hfsc: Fix a UAF vulnerability in class with netem as child qdisc
+d9c6d9f13b974c8eb063cde0ca8f6e863cb35146 net_sched: ets: Fix double list add in class with netem as child qdisc
+3e9eda7572c411a81e02b1d24ea8effe9abac792 net_sched: qfq: Fix double list add in class with netem as child qdisc
+17ff9f11fbfd90373aebcab5d45caf6ad2234607 ice: Check VF VSI Pointer Value in ice_vc_add_fdir_fltr()
+c28e0c6284553c2904a4bd7994f90ecedac40fb9 net: dlink: Correct endianness handling of led_mode
+a310276b0df1ffbd85a8fba76233701cdf99aba2 net: dsa: felix: fix broken taprio gate states after clock jump
+0e8ce562a8bae281870ce849dcc33035524f5045 net: ipv6: fix UDPv6 GSO segmentation with NAT
+b2ad72e6ded63aaa703226a9de09cb30b14ec019 bnxt_en: Fix coredump logic to free allocated buffer
+aa0d94432a43ead515321ac049431a50a838ff6d bnxt_en: Fix out-of-bound memcpy() during ethtool -w
+80cf49d915a168ad889fe9ce07f23a4ea742798f bnxt_en: Fix ethtool -d byte order for 32-bit values
+d14f61f602d94b2cbb4937f000ca9c1610918db5 nvme-tcp: fix premature queue removal and I/O failover
+fa40b246fa85ee7c4c0ecde20afeaa1710d90f15 net: lan743x: Fix memleak issue when GSO enabled
+f8f2210056966dc35cd4708c4e25ebe33c5739d4 net: fec: ERR007885 Workaround for conventional TX
+080e79c1d0376c0b8a870e12a87334872f8910b6 net: hns3: store rx VLAN tag offload state for VF
+8d4f77e3032c6abc37acf07fe24b50f93d0e0470 net: hns3: fix an interrupt residual problem
+96ec476788bf9501f455b8371ecefb7070ad6710 net: hns3: fixed debugfs tm_qset size
+35ff1d1db1ff8dcc8b563ee1371f3455fca3db86 net: hns3: defer calling ptp_clock_register()
+c9d49a228aca5ff6d34e0834e4209796ccf94f52 net: vertexcom: mse102x: Fix possible stuck of SPI interrupt
+7c0d382461fa557a48f5068a72cda7331a33a0a9 net: vertexcom: mse102x: Fix LEN_MASK
+8ad30ae45d7b26d0da31ebda879db2b83940e3bb net: vertexcom: mse102x: Add range check for CMD_RTS
+720a084620b588c45eb2e984e174ff224ea8f73c net: vertexcom: mse102x: Fix RX error handling
+a6e018b3d4f42d585180c7b4db678b4f54dbb989 md: move initialization and destruction of 'io_acct_set' to md.c
+beb4359aa8cb1fba579efae1fa587a7f34ae7a04 PCI: imx6: Skip controller_id generation logic for i.MX7D
+c4d6083fafa9a3a6717e702c445317b6f092658a sch_htb: make htb_qlen_notify() idempotent
+cf253278533dc2dc0754d8d81d37bddcfe47d42e sch_drr: make drr_qlen_notify() idempotent
+f56bada3052c0c768bf090bfb9d95a827af63209 sch_hfsc: make hfsc_qlen_notify() idempotent
+37721168e6b3bb78b6e7a835ac817d4d5ad81f28 sch_qfq: make qfq_qlen_notify() idempotent
+fbc3742f0b4b6384417e39f2183d8df452375351 sch_ets: make est_qlen_notify() idempotent
+7695edc4eb3495aa129a0c02e8c74f775a7221d0 Revert "x86/kexec: Allocate PGD for x86_64 transition page tables separately"
+97f56b0f79f97bfff64e8d621500e34d81dea739 Linux 6.1.138-rc1
 
---===============5276551244627274092==--
+--===============8715117843895228401==--
