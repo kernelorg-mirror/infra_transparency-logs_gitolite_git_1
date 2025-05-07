@@ -1,45 +1,38 @@
-Content-Type: multipart/mixed; boundary="===============7305513457668768899=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-Date: Wed, 07 May 2025 19:58:06 -0000
-Message-Id: <174664788626.1707878.3961368191468240097@gitolite.kernel.org>
-
---===============7305513457668768899==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Wed, 07 May 2025 19:58:32 -0000
+Message-Id: <174664791209.1708255.613212310755447340@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-user: mkorenbl
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/next
-    old: dabc88cb3b78c0dce43d5cb5a2f3000377b42973
-    new: 73a8377a2dd7c7471c39be483ddcab33983a22af
-    log: revlist-dabc88cb3b78-73a8377a2dd7.txt
-
---===============7305513457668768899==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dabc88cb3b78-73a8377a2dd7.txt
-
-cc2b6a0bf3402570dafd0d31f93c9df46b26cb69 wifi: iwlwifi: mld: remove one more error in unallocated BAID
-ef6968e4126ca35cd4f56d65392aa951ac4fc591 wifi: iwlwifi: add range response version 10 support
-44ab8eab57441fc74a18d22bf39f0f3061be2081 wifi: iwlwifi: Add a new version for sta config command
-8d073f4fbe3986e9d2348f979bc2ed61c1930579 wifi: iwlwifi: Add a new version for mac config command
-1342aed55621d48e9ffbd167b8fdbf39727ef2ab wifi: iwlwifi: Add support for a new version for link config command
-e353148b4c8cd02a01247edf2bb137e30cf08385 wifi: iwlwifi: pcie: remove iwl_trans_pcie_gen2_send_hcmd
-e19106a96d00c9db732ac4134a76a4f5d2b2506d wifi: iwlwifi: fix thermal code compilation with -Werror=cast-qual
-654d3bcfcc0f643c1831044e5b6d9fea473b0747 wifi: iwlwifi: mvm: use a radio/system specific power budget
-437025fdbecd097ca3caec3396b1e38f9fc63509 wifi: iwlwifi: mld: use a radio/system specific power budget
-641f1404c96988a53992fa0685bf47f906353cb7 wifi: iwlwifi: mld: avoid init-after-queue
-11d5a4e8c09c055f399ff826413036080cf1d02d wifi: iwlwifi: mld: call thermal exit without wiphy lock held
-90da8fd37b96d92bf820817b9649704099018bef wifi: iwlwifi: cfg: remove 6 GHz from ht40_bands
-f78902bd480d80d06b267e13a9fca567caf2dc67 wifi: iwlwifi: cfg: inline HT params
-9df7ab4519237c6bb2ce3d198751884b79895428 wifi: iwlwifi: pcie: remove 0x2726 devices
-73a8377a2dd7c7471c39be483ddcab33983a22af wifi: iwlwifi: add JF1/JF2 RF for dynamic FW building
-
---===============7305513457668768899==--
+  - ref: refs/heads/bleeding-edge
+    old: af7a78db5264bfafd0ca0ab92d95749176f23408
+    new: 653a457a51d9fb230c009b85ef475e6faa161b01
+    log: |
+         9befea30133ca45166895c5724b2aef83a87436e thermal: intel: int340x: Add platform temperature control interface
+         579daefbed647a19a2d56f06c39ae12543e1edba thermal: intel: int340x: Enable platform temperature control
+         fdccdb6578991b2ba770390957ca04c59f9bfff6 thermal: int340x: processor_thermal: Platform temperature control documentation
+         20b6bec2321a81cf2f394aef057e0d866795cad5 Merge branch 'thermal-intel' into bleeding-edge
+         6bceea7a1e076ef9d71b20d8dda2f7dc52bd34d2 arch_topology: Relocate cpu_scale to topology.[h|c]
+         f1a50492f5bdb024a5eb4d1de6798369dbf93418 cpufreq: intel_pstate: Populate the cpu_capacity sysfs entries
+         653a457a51d9fb230c009b85ef475e6faa161b01 Merge branch 'pm-cpufreq' into bleeding-edge
+         
+  - ref: refs/heads/experimental/intel_pstate/eas-final
+    old: 2aa8e4e35f5a3bdd0de94c998e45984b457e2484
+    new: 42ab03791396053da48bb51a684870245240d888
+    log: |
+         6bceea7a1e076ef9d71b20d8dda2f7dc52bd34d2 arch_topology: Relocate cpu_scale to topology.[h|c]
+         f1a50492f5bdb024a5eb4d1de6798369dbf93418 cpufreq: intel_pstate: Populate the cpu_capacity sysfs entries
+         728dae406f45a2d3644ffdb0251e845b2825464b Merge branch 'pm-cpufreq' into experimental/intel_pstate/eas-final
+         5c7ea6c92eaebb2e7560e632822e9b8e918cec7c PM: EM: Move CPU capacity check to em_adjust_new_capacity()
+         af1b031145419fe95919ee97752959d0cd324602 PM: EM: Introduce em_adjust_cpu_capacity()
+         e1e8e29086af05ac33b0d61e90584d6ba496f4d5 cpufreq: intel_pstate: EAS support for hybrid platforms
+         f2ae8d9b67cf61a7a941cc64d21cb95a1b35f006 cpufreq: intel_pstate: EAS: Increase cost for CPUs using L3 cache
+         42ab03791396053da48bb51a684870245240d888 cpufreq: intel_pstate: Document hybrid processor support
+         
