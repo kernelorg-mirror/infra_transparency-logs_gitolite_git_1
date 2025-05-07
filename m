@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 07 May 2025 20:46:40 -0000
-Message-Id: <174665080060.1749785.7905122864508912111@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/superm1/amd-debug-tools
+Date: Wed, 07 May 2025 20:51:11 -0000
+Message-Id: <174665107134.1754003.1973546563789855321@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/superm1/amd-debug-tools
+user: superm1
 changes:
-  - ref: refs/heads/master
-    old: 401c3c153841361f210378c4a470d0ca11043f0a
-    new: ca435c13d43433fe81709a066ea552351ae7e6dd
+  - ref: refs/heads/refactor
+    old: 172296d4d1b9c9b8fb6357c7ebd24bf5914377c9
+    new: 25be744cd5e2bfc0cb3e6e6c6689323d6056f416
     log: |
-         5d0d90849929c41b4fcde121495089b0867b4ed3 foo
-         ca435c13d43433fe81709a066ea552351ae7e6dd foo
+         25be744cd5e2bfc0cb3e6e6c6689323d6056f416 Add dmesg unit tests
          
