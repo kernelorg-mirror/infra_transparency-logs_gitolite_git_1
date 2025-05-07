@@ -1,68 +1,75 @@
-Content-Type: multipart/mixed; boundary="===============5514196121158721463=="
+Content-Type: multipart/mixed; boundary="===============2896410191393075896=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Wed, 07 May 2025 07:35:16 -0000
-Message-Id: <174660331666.1029020.13996574879359082111@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 07 May 2025 07:53:22 -0000
+Message-Id: <174660440252.1042982.11542714226209205275@gitolite.kernel.org>
 
---===============5514196121158721463==
+--===============2896410191393075896==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/klp-build
-    old: efc6506f59755cae4a370a151466c8d3e9e63fa4
-    new: c7cf40de61ae56a6194b17089d0920c690f27a5d
-    log: revlist-efc6506f5975-c7cf40de61ae.txt
+  - ref: refs/heads/irq/cleanups
+    old: 32cef01ae60e394738be3049b3460ec54d6fa84c
+    new: e502105524d71ad61485da2f21644dba46431853
+    log: revlist-32cef01ae60e-e502105524d7.txt
 
---===============5514196121158721463==
+--===============2896410191393075896==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-efc6506f5975-c7cf40de61ae.txt
+Content-Disposition: attachment; filename=revlist-32cef01ae60e-e502105524d7.txt
 
-017c3b6f9c88572be2b3102ead61e6ea62c61bae s390 linker fix
-6891fd0af2a4b0241c280519a7748db4e00870d7 x86/alternative: Refactor INT3 call emulation selftest
-9de17a899785e23fcf8b3151922673af0844e1f0 x86/module: Improve relocation error messages
-b50da3c9705143495d38901feb344dcde0548d6d x86/kprobes: Remove STACK_FRAME_NON_STANDARD annotation
-cecb4a7178453e24714b572a14ab4981a5de7f4f kernel/sys: Don't reference UTS_RELEASE directly
-d4c3873a8e5cd0a10dfb6de40c2b7701eb23a8f7 x86/compiler: Tweak __UNIQUE_ID naming
-101cad0b664cff0729e84924aaf1f221cda32598 elfnote: Use __UNIQUE_ID() for note symbols
-67e812da627b13c2cfea172c8c794407b295eee2 kbuild: Remove "kmod" prefix from __KBUILD_MODNAME
-0fb2340a07f56c1be348396b1ffa3d81335b15fb modpost: Ignore unresolved __start/__stop symbols
-608b5ed1d21c39a3c41ea93fd11201f843c78697 read symbols error handling fix
-947c93529332f2265a6d26928fe65770ec177583 annotate_insn sanity fix
-d1623194d6334b8bf7b85a25569a1b2c914680ef objtool: Add empty symbols to the symbol tree again
-0c8d2c5b5c3c3d033af825e4ddd65bbc426caeac objtool: Remove .parainstructions reference
-fc5f9b1f51043ad00a9193b545825dbe46f131d9 objtool: Const string cleanup
-8ce35c0192e85620f0e17d02fd08ef6f285857d3 objtool: Compiler flags cleanup
-cf8dc649b918db48edcd9fe4a10ea94af921b917 objtool: Use 'struct elf' in elf macros
-53767dbc904bc8135c61b5ec3fc91d760e6de64b objtool: Add section/symbol type helpers
-b30d808b57675ad0729d326a6212cb0b0db26b73 sym->cold: should come before add_jump_dest cleanup, and use it in old add_jump_test
-32c57ef14496ba6b7f070f89c149dbf80cd42d5c sym->prefix: after ELF helpers
-e64b27316cdd5d63dd16a5b48932e7ea117660cc objtool: Simplify offset calcuation in unwind_read_hints()
-157d674ec7bffe4aa745f777e467012c4813fa1b objtool: Refactor add_jump_destinations()
-3ac958ae67208ea32b5e8c9f53337deb9902a0cb objtool: Open up the elf API
-42d1becd2c5082ca2e89a5ac13964ab05c6443f1 objtool: Disallow duplicate prefix symbols
-78acc1f7fef5b5172259af2fc0db33bfc807f98b objtool: Add elf_create_file()
-a40c98bd026a62118d7a526f806f57b309a4dfeb objtool: Fix x86 addend calcuation
-a72366170f0c9b5d36a9508352723a02829a5c87 objtool: Make find_symbol_containing() less arbitrary
-4f204fd166ad5e8399c25efd881feb1e7dd89b00 objtool: Handle __pa_symbol() relocations
-c2afe60ae351e6d3078ae55c606ceb26fe5b92d0 objtool: Make STACK_FRAME_NON_STANDARD consistent
-1a99e5a261414aaa7b324cd9e1c9875558292b08 objtool: Fix interval tree insertion for zero-length symbols
-e1349a2e43b73d1c59e67446eea0b1c8c9506a01 obtjool: Fix weak symbol detection
-cc66cc6ca24bc754c73eb2cfefe735aab40d096e x86/alternative: Create symbols for special section entries
-8bb7aed45362ee7e2b59023dee00c7ba3a0d1f3a checksum makefile
-76bbee43222e6761edc1e0ff5dfb5b1be27ceb63 objtool: Calculate function checksums
-bd1b46ff7c77929cffa8bb1d7d31ea0ed93ebe7b livepatch: Enable -ffunction-sections -fdata-sections
-1584ec1b1a2df9307ce52e215aa044ac6a5c9f64 objtool, livepatch: Livepatch module generation
-e3e1e9c900cfa1a1f4e5bba37506e132ebcd3c55 objtool: Fix weak symbol hole detection for .cold functions
-da12e4fc5fe61f42e81e2f78024a7625809f06a0 vmlinux.lds: Unify TEXT_MAIN, DATA_MAIN and friends
-c7cf40de61ae56a6194b17089d0920c690f27a5d checksum debug
+1e5b6bfd7f5790952798781dfabc968e9d8116fb irqchip: Switch to of_fwnode_handle()
+c8795085c70aacf7f5eb4308d2191df1cf721a7a powerpc: Switch to of_fwnode_handle()
+bd7833adad5037ea3690e64b11892f90f1b50878 x86/io_apic: Switch to of_fwnode_handle()
+64e4d65310656fac554ebfdeac14fa198605206f irqdomain: Drop of_node_to_fwnode()
+0b8018a1333cbccf37dceb2054be1c5db78eb953 irqdomain: Make irq_domain_create_hierarchy() an inline
+8afd2253df98c9d3d1baae662f51bdea17fd101e ARC: Switch to irq_domain_create_linear()
+e848923ad13b238990a7b253d28934db3d6f1ab0 ARM: Switch to irq_domain_create_*()
+14eb9e3d0bb93f66ad6c3a1ff9ec1c1d9935d194 bus: moxtet: Switch to irq_domain_create_simple()
+137c278c39e845185670b3c09b94457d0c0bf468 EDAC/altera: Switch to irq_domain_create_linear()
+02226c57602d9a0d0ea37c4c58a6d5975e525961 gpio: Switch to irq_domain_create_*()
+cd9910d1e871c40184b2187464661873bc8733aa gpu: Switch to irq_domain_create_linear()
+417e5bf879988bcd61adde878254f9ecf9015052 i2c: Switch to irq_domain_create_linear()
+b05c04edb4f82fbb3a031d65e39c148d80cb2db0 iio: Switch to irq_domain_create_simple()
+40077b60aa33f2cd8b7926f9bb144e411125e17d irqchip: Switch to irq_domain_create_*()
+3b585e8bc3cc73bf7d24efbd87e0a0d519f8a19c mailbox: qcom-ipcc: Switch to irq_domain_create_tree()
+f83433cfaf96a75cc8a272ca67bbcb00752030ae memory: omap-gpmc: Switch to irq_domain_create_linear()
+884617398bed7f5ab96196b7c101b6ab68d30506 mfd: Switch to irq_domain_create_*()
+95c332368f12914d5c1ae7439decd8741c33a84d MIPS: Switch to irq_domain_create_*()
+a77cf24fe19c8f54f4845697caf74e4d9499b489 misc: hi6421-spmi-pmic: Switch to irq_domain_create_simple()
+2f6ad9068689fcbe3c9b34549af76091cbf85da6 net: Switch to irq_domain_create_*()
+6013f019b0cd0080fc4367ec5feeb0cfecae29eb nios2: Switch to irq_domain_create_linear()
+04e899b33488fbc18c459ceff3a645c10f4d16c0 PCI: Switch to irq_domain_create_linear()
+ce02b44ff5de3b960652fa6d773a5fe160c19d42 pinctrl: Switch to irq_domain_create_*()
+8b541d7e1655bf3ea95b742b1c9b7cd6f3f61b2f powerpc: Switch to irq_domain_create_*()
+2d50035e93f6adefe72755e57723adba34fcdf2b sh: Switch to irq_domain_create_*()
+8dce8fc2eb28ab4fbf4a57646fe5eb3057cb1966 soc: Switch to irq_domain_create_*()
+04f60198608422bac71db63cee0d2a480e6015ba thermal: Switch to irq_domain_create_linear()
+2a56e7f16a7166605997103b3f108123c350d706 _PATCH_v2_39_57_irqdomain_ppc_Switch_irq_domain_add_nomap_to_use_fwnode
+67199aebde7b16c78c0b33be40bb5c0e7662e217 irqdomain: Drop irq_domain_add_*() functions
+a57a38ebcd93045a664c295b51bd5d1e655ecacc powerpc: Switch to irq_find_mapping()
+f2ff6a0df6e5e3ac26c052cbe0dea4f4f46fc5a7 sh: Switch to irq_find_mapping()
+438ff42640f0c2e5dfff92cfed8a7bec10110a96 gpio: idt3243x: Switch to irq_find_mapping()
+9195834aad740c8f4550bdda89a7152c3f5d0d32 gpu: ipu-v3: Switch to irq_find_mapping()
+e5b0222f7e5d30ba52f4f3b6a85893d9d7d7af92 irqchip/armada-370-xp: Switch to irq_find_mapping()
+219e99b99b848f20eca692cf663c25178c15dd3b pinctrl: keembay: Switch to irq_find_mapping()
+506cc474ce456fa992bde54ad8cc682c2587a820 irqdomain: Drop irq_linear_revmap()
+087a483741e262967b2ab71a8d2d314512d3f178 irqdomain: Use irq_domain_instantiate()'s return value as initializers
+43466b23b056a2478b97ca6594d839a9336b465c irqdomain: Make struct irq_domain_info variables const
+c48bbbd6e857e9e92b693a565a3c87823fdd4169 irqdomain: Improve kernel-docs of functions
+401dec9125415fc670d5d093190a2942ddb1963b Documentation: irq/concepts: Add commas and reflow
+457a114de9a95948e2cc6ddecc4a73392a82aa4e Documentation: irq/concepts: Minor improvements
+2a6b9324654859d1b3482664c919f07f3c363f13 Documentation: irq-domain.rst: Simple improvements
+6b94eb3e855390d90bd7a1bb02ecc47b38cbd0a5 Documentation: irqdomain: Update it
+6b67de3a2db90987b5d0845b9c6a3ed7eb94dcf4 irqdomain: Fix kernel-doc and add it to Documentation
+e502105524d71ad61485da2f21644dba46431853 irqdomain: Consolidate coding style
 
---===============5514196121158721463==--
+--===============2896410191393075896==--
