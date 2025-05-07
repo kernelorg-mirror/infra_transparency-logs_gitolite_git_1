@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0131153176089311818=="
+Content-Type: multipart/mixed; boundary="===============1667828234995191846=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 07 May 2025 15:24:10 -0000
-Message-Id: <174663145062.1449222.6128116719554460979@gitolite.kernel.org>
+Date: Wed, 07 May 2025 15:24:12 -0000
+Message-Id: <174663145290.1449457.1530641683529147973@gitolite.kernel.org>
 
---===============0131153176089311818==
+--===============1667828234995191846==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: e8716b5b0dff1b3d523b4a83fd5e94d57b887c5c
     new: 9540984da649d46f699c47f28c68bbd3c9d99e4c
     log: revlist-e8716b5b0dff-9540984da649.txt
 
---===============0131153176089311818==
+--===============1667828234995191846==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ ebedf8b7f05b9c886d68d63025db8d1b12343157 wifi: iwlwifi: add support for Killer o
 2e6259d82132cdecc1c9bbb761babc32dfe7d29b Merge tag 'linux-can-fixes-for-6.15-20250506' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
 9540984da649d46f699c47f28c68bbd3c9d99e4c Merge tag 'wireless-2025-05-06' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
 
---===============0131153176089311818==--
+--===============1667828234995191846==--
