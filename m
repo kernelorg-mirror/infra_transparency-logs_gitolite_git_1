@@ -1,53 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============2932620131505541909=="
+Content-Type: multipart/mixed; boundary="===============1517417040491744969=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 07 May 2025 05:12:33 -0000
-Message-Id: <174659475328.907140.37372277131400194@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Wed, 07 May 2025 05:16:33 -0000
+Message-Id: <174659499318.911038.6335288923575297415@gitolite.kernel.org>
 
---===============2932620131505541909==
+--===============1517417040491744969==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/asoc-6.16
-    old: ad6d689e776478113aeef7bfb0e4222b1ff2a986
-    new: 0fa382a4f507e8cc835df43b331e0515d861e54d
-    log: revlist-ad6d689e7764-0fa382a4f507.txt
+  - ref: refs/heads/arm64-for-6.16
+    old: 25eee6c64376fcdc375b97c7e1f105e132654563
+    new: 635d0c8edf26994dc1dcbc09add9423aa61869b0
+    log: revlist-25eee6c64376-635d0c8edf26.txt
+  - ref: refs/heads/clk-for-6.16
+    old: 36eb51ac8bd545b6344c05a9860e4e65ba8d7a62
+    new: d988b0b866c2aeb23aa74022b5bbd463165a7a33
+    log: |
+         e7b1c13280ad866f3b935f6c658713c41db61635 clk: qcom: camcc-sm6350: Add *_wait_val values for GDSCs
+         673989d27123618afab56df1143a75454178b4ae clk: qcom: dispcc-sm6350: Add *_wait_val values for GDSCs
+         afdfd829a99e467869e3ca1955fb6c6e337c340a clk: qcom: gcc-sm6350: Add *_wait_val values for GDSCs
+         d988b0b866c2aeb23aa74022b5bbd463165a7a33 clk: qcom: gpucc-sm6350: Add *_wait_val values for GDSCs
+         
+  - ref: refs/heads/drivers-for-6.16
+    old: 5c0a44c40517bab5192f1aaabe3457b0e15ac0af
+    new: 56c8edc6eeaa16f777b1c030aad12e2e8da92104
+    log: |
+         56c8edc6eeaa16f777b1c030aad12e2e8da92104 firmware: qcom: scm: Allow QSEECOM on Asus Zenbook A14
+         
 
---===============2932620131505541909==
+--===============1517417040491744969==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ad6d689e7764-0fa382a4f507.txt
+Content-Disposition: attachment; filename=revlist-25eee6c64376-635d0c8edf26.txt
 
-8ce5ace8e279d39f249fd5ead33895d04263ea36 ASoC: sdw_utils: Remove num_platforms from simple DAI helper
-6c965d39af98a8b79668898b3a2af40d11179ff4 ASoC: Intel: sof_sdw: Avoid NULL check fail when re-probing
-9ea280f3df60df014527ba5723fd8d1fd7c3b3ca ASoC: cs35l56: Add Index based on ACPI HID or SDW ID to select regmap config
-8c0821ccaa1e53c30f6a51d034171e20d522a9c0 ASoC: cs35l56: Add struct to index firmware registers
-a3ec669efcee2cffd8ca020df777adbf79ac0b75 ASoC: cs35l56: Add Mute, Volume and Posture registers to firmware register list
-978858791cedaf1dbbbaeb1e37126611b7c28a9e ASoC: cs35l56: Add initial support for CS35L63 for I2C and SoundWire
-406fbc4d0fb34c16718551bb8f4c776710f63b55 ASoC: cs35l56: Read Silicon ID from DIE_STS registers for CS35L63
-e48a906af6b3cfd09c50af14a8ea7a5cf45b39ab ASoC: SOF: add disable_function_topology flag
-92b5f92d1128e108c583d63fab114601ce04eced ASoC: SOF: set disable_function_topology if override_tplg_filename is set
-7b400c9ab879a86aa4b9bf5d9fdd3df558eed9b5 ASoC: SOF: add disable_function_topology module parameter
-4060ebdd5063eed98a8f81f78f1e67ffc4ff0942 ASoC: codec: cs42l56: Sort headers alphabetically
-86f6e4791c40c33891299d95c055e5d06d396284 ASoC: codec: cs42l56: Drop cs42l56.h
-0bb92e4736a9dd43e3215b378db5ac63075a3cc1 ASoC: codec: cs42l56: Convert to GPIO descriptors
-f3e7298848f0e6c09e4da5fd80bca7cd0c58ccc1 ASoC: codec: cs42l73: Sort headers alphabetically
-43ef0dccbc2528924c4b03a902fa39502faabb16 ASoC: codec: cs42l73: Drop cs42l73.h
-b6118100382c9e4c8ca623b3a8e8bf1a09c42aa5 ASoC: codec: cs42l73: Convert to GPIO descriptors
-2d703321b856acdb6589d74906e19aa5cb328d4e ASoC: codec: cs42l52: Sort headers alphabetically
-772c036befb875c904731fb309fb9d2e065ba3f8 ASoC: codec: cs42l52: Drop cs42l52.h
-5bf5bdfd007e07f2ec5b3e07aa02616f4eebef67 ASoC: codec: cs42l52: Convert to GPIO descriptors
-599b86f8cf98f786e317039372fe4cb446f0fa2a ASoC: codec: cs42l[56,73,52]: Convert to GPIO
-d9a1cbfe5b73fdabd0c4e3ae5d5fa3f42327c7fd Minor bug fix and tidy up for sof_sdw
-e6a40d5c9033fb98f3d83f88655bc2b963ef50eb ASoC: SOF: add disable_function_topology flag and
-0fa382a4f507e8cc835df43b331e0515d861e54d Add support for CS35L63 Smart Amplifier
+d8b462c44a0399e220a44c81cf562b909448bada arm64: dts: ipq6018: drop standalone 'smem' node
+02a8b9894b9cbf4ffcd8661813826494cf49d3a2 arm64: dts: qcom: sdm630: Add modem metadata mem
+dbf62a117a1b7f605a98dd1fd1fd6c85ec324ea0 arm64: dts: qcom: sdm660-lavender: Add missing USB phy supply
+f5110806b41eaa0eb0ab1bf2787876a580c6246c arm64: dts: qcom: sda660-ifc6560: Fix dt-validate warning
+2ed8ee662660577a701e92917dbc65ca3553507c arm64: dts: qcom: qcs8300: Add cpufreq scaling node
+9f2ae52acd5e6c95ddc55d1cc67f44860940a21b dt-bindings: arm: qcom: Add Asus Zenbook A14
+099f3401dc3b7f4b63f9fa8b2f44f244c5ab3e62 arm64: dts: qcom: sc7280: add UFS operating points
+5ce920e6a8db40e4b094c0d863cbd19fdcfbbb7a arm64: dts: qcom: x1-crd: Fix vreg_l2j_1p2 voltage
+3ed2a9e03abfeece9e30ebc746f935536f661414 arm64: dts: qcom: x1e001de-devkit: Fix vreg_l2j_1p2 voltage
+0fb9ecf8713a7a458f7378c86e0703467db2ad22 arm64: dts: qcom: x1e80100-asus-vivobook-s15: Fix vreg_l2j_1p2 voltage
+4a09dad9d437a13e9cd4383ff7791a816a6e1652 arm64: dts: qcom: x1e80100-hp-omnibook-x14: Fix vreg_l2j_1p2 voltage
+4f27ede34ca3369cdcde80c5a4ca84cdb28edbbb arm64: dts: qcom: x1e80100-lenovo-yoga-slim7x: Fix vreg_l2j_1p2 voltage
+efdbeae860bf0278b050c6c9ad5921afba4596d0 arm64: dts: qcom: x1e80100-qcp: Fix vreg_l2j_1p2 voltage
+f76fdcd2550991c854a698a9f881b1579455fc0a arm64: dts: qcom: x1e001de-devkit: Describe USB retimers resets pin configs
+635d0c8edf26994dc1dcbc09add9423aa61869b0 arm64: dts: qcom: x1e001de-devkit: Fix pin config for USB0 retimer vregs
 
---===============2932620131505541909==--
+--===============1517417040491744969==--
