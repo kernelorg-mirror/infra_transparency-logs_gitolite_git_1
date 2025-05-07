@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/modules/linux
-Date: Wed, 07 May 2025 18:04:00 -0000
-Message-Id: <174664104041.1598519.8058186115259596304@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Wed, 07 May 2025 18:05:54 -0000
+Message-Id: <174664115433.1601556.11160888993626668762@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/modules/linux
-user: ppavlu
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/modules-next
-    old: 3b4c5b1f6d7db5dbbb5adea31559d88f86a286e7
-    new: 41a4ffef5cb705c9fc102f4265e6bf450b3401a6
+  - ref: refs/heads/pending
+    old: 307b5784e2b8708e8c8fd1bd26c7d1f78aae9a6d
+    new: 72c6feb45f22089b209099aca544ae2af7cbc7df
     log: |
-         3865d51b98565ce3509dfe2a463550e6eff5e22d module: ensure that kobject_put() is safe for module type kobjects
-         5fabcc3d39410000a81a4052eb1a863faef24a85 module: Constify parameters of module_enforce_rwx_sections()
-         007f6af98613147785688c027084075785b49ee8 module: Add a separate function to mark sections as read-only after init
-         da33e97b02ee0752d9a4cbae3938c98fc884e111 module: Make .static_call_sites read-only after init
-         41a4ffef5cb705c9fc102f4265e6bf450b3401a6 module: Remove outdated comment about text_size
+         741b818b9cc015d0d8283c6666d7e3cec728858f wifi: ath11k: fix ring-buffer corruption
+         52599adfc6e3f70d30290b35673908dc76721fa2 wifi: ath11k: fix rx completion meta data corruption
+         72c6feb45f22089b209099aca544ae2af7cbc7df wifi: ath12k: fix ring-buffer corruption
          
