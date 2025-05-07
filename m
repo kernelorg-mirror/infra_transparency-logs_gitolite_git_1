@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============8401853581435136212=="
+Content-Type: multipart/mixed; boundary="===============7917255502249437635=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 07 May 2025 02:56:19 -0000
-Message-Id: <174658657931.794926.7728723424871140532@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 07 May 2025 02:56:25 -0000
+Message-Id: <174658658558.795220.2669341661914682275@gitolite.kernel.org>
 
---===============8401853581435136212==
+--===============7917255502249437635==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.16
+  - ref: refs/heads/spi-6.16
     old: 222a87f6b94f6f177e896d6fcdc7881480344e34
     new: 9fbae052f6f68056fd84e8ba096a7e9ab3464f3d
     log: revlist-222a87f6b94f-9fbae052f6f6.txt
 
---===============8401853581435136212==
+--===============7917255502249437635==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1746586609 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1746586577-ab780d62660b6fa4842ed31754204c47195009cc
+pusher Mark Brown <broonie@kernel.org> 1746586615 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1746586583-a631c7e2f712c4b48eaf7c66e8df0c4f66512775
 
-222a87f6b94f6f177e896d6fcdc7881480344e34 9fbae052f6f68056fd84e8ba096a7e9ab3464f3d refs/heads/for-6.16
+222a87f6b94f6f177e896d6fcdc7881480344e34 9fbae052f6f68056fd84e8ba096a7e9ab3464f3d refs/heads/spi-6.16
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgay/ETHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0Ps8B/9XqR3TZWiAvlEN5YjNlh6HuCTE+1xX
-tzoQMxy9O8iF7xHctRNPV8XKu14QnTAuQv1hYBvpT5V84socpZGeizcycTZHsQh1
-W2MBumZWv01LAKHAi6RI30t449j6CN/cJm51hAQGjD8zwr94gZMFUwZieLvyrc/f
-b5MfhqVwFmd4qI4gNSLTjEs9MGnI0u0J4Jfi1nlx1il5+6g1qzuqzMAcKo3hWv0w
-GLMnm+HFoV7+H980+rfS1yd9eztfL+PvvgEVPa7kX9ouJ+w6iTm0LugblqeZ/42W
-Mpoe3NJ5mle/ga/FMqA1oeBRozRZmLwq5wzpDc/y29RADL/YlYaQU/Fh
-=/uH2
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgay/cTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0Ld4B/0b+abxYzF/t4inoTeUOr6VE/opEjlO
+dHb9wiDSQOhLTWAodbtPVUJCIq9+QMqOue9NAUVl3wYX/4YCzihdw2zL26ub0Q7H
+fpbLU96SSXcDjVpKO0Ma3+2AreF1cXcbwHaXyk854Jf0a1JtrEToGwgCE6LHEj7k
+fA5PCEFqv8ohRyYo79EygxP/5lF1KIrlfckyzKfDo/+hPYz/T+mnCaQj0zev4PB7
+ANYpX3mMiw3gW3AoH66u6L0s0khgqMgtdJf9QnNInxmfM5KID43F1Y3SgsNQPdbW
+HNG2UEe/2J2Eqf1dsL6sul4Yxmjx3DFsFS2sfGMIWdECY/5rqAGgxDyN
+=ptxk
 -----END PGP SIGNATURE-----
 
---===============8401853581435136212==
+--===============7917255502249437635==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -378,4 +378,4 @@ e0558eb74c6e082b60e03981eb7cbf0fc3780ef4 spi: spi-nxp-fspi: remove the unchecked
 9f7cd1bcb6363368abc954ff4e727b579813c697 spi: nxp-fspi: use devm instead of remove for driver detach
 9fbae052f6f68056fd84e8ba096a7e9ab3464f3d This patch set did some clean up and add runtime pm
 
---===============8401853581435136212==--
+--===============7917255502249437635==--
