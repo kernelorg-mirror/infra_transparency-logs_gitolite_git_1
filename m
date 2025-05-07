@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1695691439340699003=="
+Content-Type: multipart/mixed; boundary="===============8862786640664426833=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Wed, 07 May 2025 14:19:39 -0000
-Message-Id: <174662757938.1384717.7879603922191609691@gitolite.kernel.org>
+Message-Id: <174662757977.1384757.3063036849351555000@gitolite.kernel.org>
 
---===============1695691439340699003==
+--===============8862786640664426833==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.15.y
-    old: 5521d8339d45b3619ffea2898556912876eb75da
-    new: 38666c05c65cb3e0ae5c7d7eba1d352c0801b88b
-    log: revlist-5521d8339d45-38666c05c65c.txt
+  - ref: refs/heads/linux-5.10.y
+    old: 2343876ee1567cf86c2855bfe81ac15c3dc35eb2
+    new: 7096efdb166d16ae0b7998f0e7bdc7452daf64f3
+    log: revlist-2343876ee156-7096efdb166d.txt
 
---===============1695691439340699003==
+--===============8862786640664426833==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,75 +32,61 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1746627608 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1746627573-ceffd445f3ddae64b1b9c730b1542f8836a7de72
 
-5521d8339d45b3619ffea2898556912876eb75da 38666c05c65cb3e0ae5c7d7eba1d352c0801b88b refs/heads/linux-5.15.y
+2343876ee1567cf86c2855bfe81ac15c3dc35eb2 7096efdb166d16ae0b7998f0e7bdc7452daf64f3 refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgbbBgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7a4P/0xfW+/9JEZcULTGKrYf
-rwQ2rdMkQCiyKRgSIJ+7OSFund8wFd/JNnUtT8tOpN0ZmMTm0alYwVy560D3s4Gq
-IDYbODZlPhYksTuAF7EkS/lqzlhabklXDa9F+64Dc3eG0Y1nGCjKybGtHvydFkBh
-v6U5MEBKkSB0CkBo1a9yTrwe8xWIh5s/8QUfstcaJs3fSWFUyIAfOoikJP1rL07z
-PVZUyWTFw8CYvCaVH0x+3CmN90rGksectOH2DWbrVsxQr9KPtzGSZ/6ORIXBHLx4
-ydqe032AaFW+ZLYaKINKxw53xk5Ch1lhPagy+BbRCVk50kxpijo5OYuPI74YLxdR
-uYzyJ23TjVJvhY5gnlfZZqzhnPVWPXN0Btc0w38i9RRvZpSeo2c1PiWX/VqtGlKI
-+vbKAKU4vX4aSZq5wxgehuG+11JccZT4NkGDI+X/aUeNJ64Lx8Ot4LqHH2qoZs4D
-7erdN4FA8oP7V09O2+sNM029qEqKKEuyjdlOUyr8jY1h+KHHlEutysyC7bEWyNrO
-MZ2/yF9Zo+XCQ3lVNULx2qPn3+X2e4Lvt6BR5ZEdFg69ssg4fEnGk6CNuAS/KzjS
-sRi8c2sP64ZK1qB+U073dwSI8i7opdfmdGYVNUPfi9gzKYt2OByN5IxgOTu71Bsq
-NHYSTQMu3X+PIlpne6baQ67E
-=U/c3
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lYMQANW+kg9junu0RJR1lFZU
+lUmACvnSFIRMxIeJRcYfcvMhOvG2nt1nIlekaUHZgoscC8dcgPZHbOfv/lkIUaN7
+NRXrdoYCL69+KpLgz9VTZnc2w3D4TCuJp7mbATT6eAlmbKyboX20YfY0mLVBxoMl
+Qsb4Dbe0XOdySMueyCULsji+hWSsVw1L0uqDkWWWwstOAB8jUnw7l8dS8S3FMcqK
+gZQJHgViUaAjImC9c0d5aCGsTTZPu6zDeOSB+XoWioOfEeN0OZsu14VfUSJGn3+F
+VTlm+6bO3CqyiRZRkGZI3lvT2TDMDVFvlmG8YBhvZcqnYp2SenGuM53ASDFMt4YB
+Jw6t0MUEHz70YATIEP3YRftrwctgm7x5RN44DlZAfpc6nZRSi+NIOsY7qa0DKc0l
+t6Byc1wZU9M3O0FPjQKwtK6Uy4daYG79tgV6QYTWOo+Ztrtan8BPXFfJztKwxDW4
+Cu5Bcc5V5rIOuImU16lP/jYu7AfCFWF3Nd0JIPGdka6nC6Z6B/it0buLaUQIH1d5
+10I5sAZFAGj7Y+V2pCWiJF0VKGpjBp2iryB9YiQMJJ4vPCZHRa2J03xLgDhZ9I/d
+t+itrwvyAdaig0uk0iQAooXncNblzjRPfFM1GITRwzo4Hjdu8Y8g9ULgg/ZiA6Af
+RLNjBhST505z0lWelFGMpvuF
+=JTu2
 -----END PGP SIGNATURE-----
 
---===============1695691439340699003==
+--===============8862786640664426833==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5521d8339d45-38666c05c65c.txt
+Content-Disposition: attachment; filename=revlist-2343876ee156-7096efdb166d.txt
 
-93c837eff02bb36593c240a5fdf88718585c8ceb ALSA: usb-audio: Add second USB ID for Jabra Evolve 65 headset
-043604083f7cc59f47af8923b5e005b9ccfdb770 drm/nouveau: Fix WARN_ON in nouveau_fence_context_kill()
-1bf8dda7c4529c95ed5888656d831cb9756b01a0 EDAC/altera: Test the correct error reg offset
-3e133986fed60e2d6896b6970dea4bfc32b54ca5 EDAC/altera: Set DDR and SDMMC interrupt mask before registration
-b8576637582fb829c1b8f378a18f2d24991ce2e9 i2c: imx-lpi2c: Fix clock count when probe defers
-31ad304a1015a32640b320b342bc00e1d2319d9a arm64: errata: Add missing sentinels to Spectre-BHB MIDR arrays
-3b92ff0187a6539bddedf40d1dc8559630a5b78d parisc: Fix double SIGFPE crash
-88d273c1e147a8a6a865b1e6ec2675f814aa88aa amd-xgbe: Fix to ensure dependent features are toggled with RX checksum offload
-e7b16dbca79645cb4bf529626b277fdfa18e8a56 mmc: renesas_sdhi: Fix error handling in renesas_sdhi_probe
-fb43be2f717f43cd61beeab562de112d9102f3ab wifi: brcm80211: fmac: Add error handling for brcmf_usb_dl_writeimage()
-35cab32d8f24b59245100b807bd5a0ba82df196e dm-integrity: fix a warning on invalid table line
-be6ad53b74b3fffbb7f5daae54e2a84d6850c7bd dm: always update the array size in realloc_argv on success
-ae48322c3a9a3a493411c0cce2b874c3b043c303 iommu/amd: Fix potential buffer overflow in parse_ivrs_acpihid
-7d306d98c363f6ac282a7da69b4e21af07fd15d1 iommu/vt-d: Apply quirk_iommu_igfx for 8086:0044 (QM57/QS57)
-cd970867bdf32c6ffbcc83eb5e696b5156b4bfb0 tracing: Fix oob write in trace_seq_to_buffer()
-b590826af2cfc22257c0ad8c4061d1ec1d481a93 KVM: x86: Load DR6 with guest value only before entering .vcpu_run() loop
-6da8c6206f9dfcccb1a0960837b03afc97fe9031 net/sched: act_mirred: don't override retval if we already lost the skb
-ac1dd3b1b66381672f36aae751b06c75a1780ff0 net/mlx5: E-Switch, Initialize MAC Address for Default GID
-05526dfab7a3172042075424d9bd372d74b1f718 net/mlx5: E-switch, Fix error handling for enabling roce
-885817072faabedb3aedb237e540f3939968b4a4 net: ethernet: mtk-star-emac: separate tx/rx handling with two NAPIs
-6666dc38abafb7031222e96134d303f966c8b195 net: ethernet: mtk-star-emac: fix spinlock recursion issues on rx/tx poll
-bb7ba1b7b74480dc59779ff1ad1c87a71d0f0ec4 net: ethernet: mtk-star-emac: rearm interrupts in rx_poll only when advised
-e037723258d47b3d4a19e65789e3d8ef706e924e net_sched: drr: Fix double list add in class with netem as child qdisc
-c651561440b50acb8efd9bbe734b3adbc8c0d4e6 net_sched: hfsc: Fix a UAF vulnerability in class with netem as child qdisc
-a9e56bd15aa19ea375bbde0d6ead8cdc66576ff4 net_sched: ets: Fix double list add in class with netem as child qdisc
-90537439c19a6aa842d93fdc25c55675e7b9aec2 net_sched: qfq: Fix double list add in class with netem as child qdisc
-9b23193b4d2ad003c02df69a6381a6ec637af8ce ice: Refactor promiscuous functions
-fcab2c407948647303126771786b4c82ede9ebb0 ice: Check VF VSI Pointer Value in ice_vc_add_fdir_fltr()
-9dbd83d0b9be4437c1a65c05b081c8ad20d5061d net: dlink: Correct endianness handling of led_mode
-1710a67a277f9b13a39941ddd8284d1ad34162ef net: ipv6: fix UDPv6 GSO segmentation with NAT
-74921669a4cfdb2271df4e0d42df54c125c49c6d bnxt_en: Fix coredump logic to free allocated buffer
-f2104ef1b491727d4937109f03f22e14b7c06db3 bnxt_en: Fix out-of-bound memcpy() during ethtool -w
-88b138159be59948e283f8df7ed6f3e0400ec416 bnxt_en: Fix ethtool -d byte order for 32-bit values
-63607fe1b098b378fb576fcc1e2074d14b2636fb nvme-tcp: fix premature queue removal and I/O failover
-c9339bf880da444aa2094fc1fc491332c0c450a8 net: lan743x: Fix memleak issue when GSO enabled
-595df35339ee5e2598698a12816f6c433f15abcf net: fec: ERR007885 Workaround for conventional TX
-5f3af72aa44cfef15b043f81d947082e42666788 net: hns3: store rx VLAN tag offload state for VF
-ad5054c8a8cb8fc03e2ea0da5600a2aab1b83dd7 net: hns3: add support for external loopback test
-2b83f1c3910d60d1bed47f514e88936657122966 net: hns3: fix an interrupt residual problem
-cd7b7237b4671ecc19dbdfeb25044bb92eacc9b1 net: hns3: fixed debugfs tm_qset size
-fd67f50ca4442d0f2022fecbbe57eb464a7123d5 net: hns3: defer calling ptp_clock_register()
-597cf4140fbb316742054f3f51e107536a92ea1c PCI: imx6: Skip controller_id generation logic for i.MX7D
-0984e454cc3cfb7b08df321cdeab6571805b0885 of: module: add buffer overflow check in of_modalias()
-e413272cd744793cb36e5dc367d36f13f098900e net: hns3: fix deadlock issue when externel_lb and reset are executed together
-38666c05c65cb3e0ae5c7d7eba1d352c0801b88b Linux 5.15.182-rc1
+fd8f028f1c90de1070e4c83535c6578fef5cc42a ALSA: usb-audio: Add second USB ID for Jabra Evolve 65 headset
+8ce5ebef14274f7a78d6d2a504756591a2e1b224 drm/nouveau: Fix WARN_ON in nouveau_fence_context_kill()
+c1a208dd581c08346cc45cc65dd6b586df012c66 EDAC/altera: Test the correct error reg offset
+e6b899a7c4b7e2d79d6e68951a9ed2c28ea2969d EDAC/altera: Set DDR and SDMMC interrupt mask before registration
+d359f21c8df3e12f25075171660de3c463b3f965 i2c: imx-lpi2c: Fix clock count when probe defers
+10d02128004ff7c38842e5c7266dae574bd5c36c parisc: Fix double SIGFPE crash
+14ee20c314d350091133b887cd7448085951c533 amd-xgbe: Fix to ensure dependent features are toggled with RX checksum offload
+217426402f9e3441fb7b1f8497ee6eec4841751b mmc: renesas_sdhi: Fix error handling in renesas_sdhi_probe
+12d8393deb183e300185f51e50431cbb0724617d wifi: brcm80211: fmac: Add error handling for brcmf_usb_dl_writeimage()
+0569be2216b959aa4393d9fbe7d0ab98e8154b6f dm-integrity: fix a warning on invalid table line
+d8a626a83311990c948decd913c08f3e8fd9e9f2 dm: always update the array size in realloc_argv on success
+4f6def462fa7a59b711bfd671f6595ca0a889e01 iommu/amd: Fix potential buffer overflow in parse_ivrs_acpihid
+72002fda2fea71715d59d11d6ca00aab85fd13de iommu/vt-d: Apply quirk_iommu_igfx for 8086:0044 (QM57/QS57)
+4822dc997df02f861778c969837104061d6bcb97 tracing: Fix oob write in trace_seq_to_buffer()
+c070dc7a666a77d0be38b262914398f782430a26 net/sched: act_mirred: don't override retval if we already lost the skb
+8c4fed8a9c4ddc90936cd5c8b52817327ea79bf8 net/mlx5: E-Switch, Initialize MAC Address for Default GID
+3170314b7414f05ac39d06cb5b1eed0a00df2452 net/mlx5: Remove return statement exist at the end of void function
+7fa313397d0e69fdfd070088f3b17edef831a37d net/mlx5: E-switch, Fix error handling for enabling roce
+51008e617effc89852724fdf1840870a07087cf0 net_sched: drr: Fix double list add in class with netem as child qdisc
+1df1f8ae3a714cda6ce71921d84ff0d886795ec1 net_sched: hfsc: Fix a UAF vulnerability in class with netem as child qdisc
+d57366fa9c33f53a81efe5550b6093c75ad8430c net_sched: ets: Fix double list add in class with netem as child qdisc
+a7a9f67ff564c7697b5cb61771324516b42306f4 net_sched: qfq: Fix double list add in class with netem as child qdisc
+33c61a27b38b96eae3d6f12b9d0eddd57b300bf2 net: dlink: Correct endianness handling of led_mode
+c74c12c56bcb17f9b1e2f97721c72ae8689595d7 net: ipv6: fix UDPv6 GSO segmentation with NAT
+8b1e49979c9ca587e77cf1b80e50ca92cc92e13e bnxt_en: Fix ethtool -d byte order for 32-bit values
+a1ddf5b44246a4bc3075fcfbc88596d9dd1093a9 nvme-tcp: fix premature queue removal and I/O failover
+ea3282f266d93adf52de4140ebed707a72a8c39d net: lan743x: Fix memleak issue when GSO enabled
+eeffb4dc9c57a642c363f585e9fabfb8699bdf6c net: fec: ERR007885 Workaround for conventional TX
+66829f09dce31fe350d6b0cc17c8ab4d2bb151b0 PCI: imx6: Skip controller_id generation logic for i.MX7D
+09c3f3c500be04418307922ccac13c87158c3703 of: module: add buffer overflow check in of_modalias()
+7096efdb166d16ae0b7998f0e7bdc7452daf64f3 Linux 5.10.238-rc1
 
---===============1695691439340699003==--
+--===============8862786640664426833==--
