@@ -1,25 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 07 May 2025 15:36:49 -0000
-Message-Id: <174663220900.1463509.17173399380253503665@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Wed, 07 May 2025 15:38:37 -0000
+Message-Id: <174663231737.1464674.9187884876680233283@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
   - ref: refs/heads/master
-    old: 2f7b725bd2aae4b1c7791cb6d9bd95eaf5acbda5
-    new: 9fdc8c0cc0592b33026374b932f770f1f7642506
+    old: 0d8d44db295ccad20052d6301ef49ff01fb8ae2d
+    new: 707df3375124b51048233625a7e1c801e8c8a7fd
     log: |
-         5bcfcb7e3fc8506f11ea751b5cab31ed6753ccb1 Fixes for 6.14
-         154befc4feb2d4388a40345bf41f330cfa9406a4 Fixes for 6.12
-         e6fd124f3646f1d4a483d866f627a8c9c5943a69 Fixes for 6.6
-         7467a85c952ba1201643f364bbd20f9bace21dc9 Fixes for 6.1
-         5acc27dbba7bcdfc45f5023d58504677e0fc4dbe Fixes for 5.15
-         69568a4b16a6a818c076019cc0ce23105dfafc11 Fixes for 5.10
-         9fdc8c0cc0592b33026374b932f770f1f7642506 Fixes for 5.4
+         549d8994447f2f628c6cedd139d53926bdfee881 media: vivid: fix FB dependency
+         9df181c8de1b6b285556f80bfd02584f3457f32e media: i2c: lt6911uxe: Fix Kconfig dependencies:
+         0dce5b44bd38af20b0383ae4cabeead37b4b9a9a media: platform: synopsys: VIDEO_SYNOPSYS_HDMIRX should depend on ARCH_ROCKCHIP
+         118b34092e37da1d3c4808e8cd1dd0246ac3f97e media: i2c: lt6911uxe: add two selects to Kconfig
+         d51adf038ebe59b592005166209b70218b1da849 media: cec: tda9950: add back i2c dependency
+         707df3375124b51048233625a7e1c801e8c8a7fd Merge tag 'media/v6.15-2' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
          
