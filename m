@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8598120016865801038=="
+Content-Type: multipart/mixed; boundary="===============8717186337850473810=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 07 May 2025 18:37:28 -0000
-Message-Id: <174664304865.1636162.16383274542995067130@gitolite.kernel.org>
+Date: Wed, 07 May 2025 18:37:31 -0000
+Message-Id: <174664305109.1636318.12286273550275481478@gitolite.kernel.org>
 
---===============8598120016865801038==
+--===============8717186337850473810==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,79 +16,87 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: b959816a5aa7419a7c269c3aa241d4ccd4a49881
-    new: 9de1f04a490dd797283e576d7953e098d2a76c26
-    log: revlist-b959816a5aa7-9de1f04a490d.txt
+  - ref: refs/heads/linux-5.10.y
+    old: 2a6cfef0b6fd53947442ca80c5582e698eb47ca2
+    new: 7d594d4b3c83240c16589ffcedb5300ef7709806
+    log: revlist-2a6cfef0b6fd-7d594d4b3c83.txt
 
---===============8598120016865801038==
+--===============8717186337850473810==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1746643078 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1746643081 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1746643044-c9ddab78a283d8af7e9920436494841458bd0998
+nonce 1746643047-285503c29c32856a6806a20d8619a4bc06f08ebd
 
-b959816a5aa7419a7c269c3aa241d4ccd4a49881 9de1f04a490dd797283e576d7953e098d2a76c26 refs/heads/linux-5.4.y
+2a6cfef0b6fd53947442ca80c5582e698eb47ca2 7d594d4b3c83240c16589ffcedb5300ef7709806 refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgbqIYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KqgP/1sI5HO/bt6VTYV1M3U2
-dASwoOU8GEKlU/esnfrLC01X8vYIeEkYFpPff+lr46It1a+l5mErVaDvb65KrX84
-dhNXhI/NHXY+OigbqHt8CkzMm60OiucAhXljeBB0AtubHl6F7JyCx2PEUo1FsJsP
-5Y1pBhes5Fxc81F+SFIBX+dd9GldcBGU3NQJyyKROVaHgPegupkX4fbfSlbYYGOy
-zxgL31EXswBWHBB6nn1yDQq18D15j50ZyE533FXR8FBnZm3C0bO9r6ESKmJJrc/A
-ku5KaDReVBOOFXauVa53J1R/1BoiIXGLp+Ibe1zd36Z2mwpwiCcY9ekXAQC8ocrQ
-fOEcRL4JVQSzHDauMsm6z5Mg+/p+qBXvD2vghoqBlq14mQPYArrepYE33CpPtuko
-qxvr2G0sStfIxuVsZYChSUkoB00LwoheAqsYfP5G3YgOLg8eo1yFGjsfDIWBwmoX
-pZ7+j9Au9oDrWakUI0DfYPX96/QsDNIKNDoZulbp1JKfF+Cj3v0gQ0FWjg3Bytor
-rsi2IZTJNS+KIOV58jLEPWi3qXMSLWwIe0PQc5VQLsE1DdhXs6WmG44QlFVsjKgf
-WavREVlU+qUo4cADtfoRyD4X/nffo3jh2/nD6l9tbf7EMN9FxJCKAmPff9iWxE6l
-K7UPhUE1rA01JMT0GZKb2qhD
-=kVXT
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgbqIkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LA8P/01NqRJtZpZFjl4AsX17
+c7a3WKwitllZChykwrI0ExXcGP5nXPAWQ0JGbvBYqvVw5+fK9ijJnafYuf/uzA5v
+kCz8hJM6MVY2umk7f5XIkHfvZduOu6l2RDg9Pt3Ae8UHoXsQIVjwQW5z2kElsAVk
+EMIAi192Jukd4pQCs0yU95DKvXLXIoBvjdPjV1ZbJCqGCVjrlQ+Uc6y5ww41NZTv
+4KeRVFFli4kY3PFsvZiIn8r/FoMpH13Zpst/LFaTzGtN7LNLL1V6ecPTg4Ye9LFD
+VaolHRzO20tOx9uo8drjhnk/XxrDm9kL9zANoaNcuzCRjdYeLWihdlw7j4GTN37u
+KRpfuplLsvo7C/XFekMq7Kq9+sjA+1k4o3CELs7HN8+Ixr4StGLpEnRXJWYTGRz2
+cU9iYnOON8UniDsv309xF3XDfSD3xpFvT1NQTEVAOKb/rzzE5MU2KLWIIJHqdggm
+JvSJOhtK7e47wnX+Io8YXo8QSEqfu1ojTgqSRwnJ/bUSCPJUh9a5kTyWTMTpHx/u
+7lN6ZoJYdbrUPUHBsK7qkZOYHj/vyabKz8rr4GmggBIonM1pjPAdQmN7EyvNTkGx
+JK3Ki8etp03SrwUaNQ6ST26Hmw62dcc6GjoeivS/OpGB/wE4E8Kp8IqkiETK54lH
+Wy1qx0D2HzTXZL4riLQUruBi
+=wIWc
 -----END PGP SIGNATURE-----
 
---===============8598120016865801038==
+--===============8717186337850473810==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b959816a5aa7-9de1f04a490d.txt
+Content-Disposition: attachment; filename=revlist-2a6cfef0b6fd-7d594d4b3c83.txt
 
-db74b77376ebb838063f07df0aead539a2a598fb EDAC/altera: Test the correct error reg offset
-5677d209d1f4e6d5328d24bc67d759e2e3e7d019 EDAC/altera: Set DDR and SDMMC interrupt mask before registration
-b546175a519ccdd234d220fd41147f1c5d78b6bb i2c: imx-lpi2c: Fix clock count when probe defers
-b73f0ded65f67b0eb6218ad99698d408a856d30c parisc: Fix double SIGFPE crash
-ac55b79f3d782bf85e36acd696b3d4337ad12490 amd-xgbe: Fix to ensure dependent features are toggled with RX checksum offload
-fec31f4d6eb042893975853620a39f7ff9c6fed2 wifi: brcm80211: fmac: Add error handling for brcmf_usb_dl_writeimage()
-1b9b130b19db47f85f7f4d49d35b8e1820cae359 dm-integrity: fix a warning on invalid table line
-be66616ffc8c8bb1fe7e94f4cd38c450d10fc274 dm: always update the array size in realloc_argv on success
-3486cdf52ab4f18e63e4f7bd7a1b147f0c9646be tracing: Fix oob write in trace_seq_to_buffer()
-dff31a6577175f036ebd74541ce9bed4db30766a net/mlx5: E-Switch, Initialize MAC Address for Default GID
-7702178dd9ba0241f39a04837f1862ed85bf6b20 net_sched: drr: Fix double list add in class with netem as child qdisc
-ad662ce573b376aa6d331529f4d4c5996d57afea net_sched: hfsc: Fix a UAF vulnerability in class with netem as child qdisc
-b7996c644b0c1be200822a098415c207fa134cea net_sched: qfq: Fix double list add in class with netem as child qdisc
-2ad8517420cdac994dcc6fded7419486453fc849 net: dlink: Correct endianness handling of led_mode
-930af9bd6cbc3376694c6c37cd65992f3507e753 nvme-tcp: fix premature queue removal and I/O failover
-bbab807f4bb543f8f8f40672bb7b9238e0326b3f lan743x: remove redundant initialization of variable current_head_index
-bf100b601ec3827d0e9dad9fbb0d193f0690c953 lan743x: fix endianness when accessing descriptors
-8734488cf5f8971c2d0e99f76aaf02a6bb76fb43 net: lan743x: Fix memleak issue when GSO enabled
-f8b531d527174ecbd716f335cb8fa415271fa08c net: fec: ERR007885 Workaround for conventional TX
-151952a60ab21a5bc35f41a0b0cd5a685a027b55 PCI: imx6: Skip controller_id generation logic for i.MX7D
-5701e70fdc138923c710d2168aa1c998543d828d of: module: add buffer overflow check in of_modalias()
-176d2b720458240c58a7daa74870a968ec1a2897 sch_htb: make htb_qlen_notify() idempotent
-ac96f52519e862e1acab820718f059ff1dd67a6a irqchip/gic-v2m: Add const to of_device_id
-55eceb7465d61c445e2e738aa7b6d3529de3b60d irqchip/gic-v2m: Mark a few functions __init
-ff6f5113140030b14f70e7eda829717a3ce143a2 irqchip/gic-v2m: Prevent use after free of gicv2m_get_fwnode()
-fa5b8d70eba407758a46542199c18a22de131379 usb: chipidea: imx: change hsic power regulator as optional
-95c474acc765ac8ce761dbe447731152308c9029 usb: chipidea: imx: refine the error handling for hsic
-f07b0bdcbfdecb397ce45c954f920af0a9b5d34f usb: chipidea: ci_hdrc_imx: use dev_err_probe()
-481a2b9ddf4fa81379fbe142530dbeddcc973a6e usb: chipidea: ci_hdrc_imx: implement usb_phy_init() error handling
-9ab91fc3eb88da7348cfc2e33d24ff886f621898 serial: msm: Configure correct working mode before starting earlycon
-8a2075cea684c0f56e4765729e879d4e0095a397 arm64: dts: rockchip: fix iface clock-name on px30 iommus
-ced2328c475543c6e88e1ec6aecca0fc7c6539eb iommu/amd: Fix potential buffer overflow in parse_ivrs_acpihid
-9de1f04a490dd797283e576d7953e098d2a76c26 Linux 5.4.294-rc1
+471938b74c479a3a4f0c3f89840b5dd619c7ba47 ALSA: usb-audio: Add second USB ID for Jabra Evolve 65 headset
+9b869602d73e3d6be7fcc3fc207e5e6ab77b5ad0 drm/nouveau: Fix WARN_ON in nouveau_fence_context_kill()
+7d07f726765f224de91dbef05116448ccb482709 EDAC/altera: Test the correct error reg offset
+dd9184c25024a29d230b7322a30169a137aa73e2 EDAC/altera: Set DDR and SDMMC interrupt mask before registration
+55f45bfbafaabf116a9568d978155dc86ab12b50 i2c: imx-lpi2c: Fix clock count when probe defers
+06996cc3927ba8ca29d4f5549c7a53115e09ac3b parisc: Fix double SIGFPE crash
+49a2bb65db6cbb386b063478a686a242f6609a7d amd-xgbe: Fix to ensure dependent features are toggled with RX checksum offload
+0cfd27d74d14761010bff46d1a8cc683992956eb mmc: renesas_sdhi: Fix error handling in renesas_sdhi_probe
+f9c482137a39f1d881add39a2ac65ab860b4e6b5 wifi: brcm80211: fmac: Add error handling for brcmf_usb_dl_writeimage()
+3368533c15377d9dc44d7663fd2500184010f015 dm-integrity: fix a warning on invalid table line
+8f349166806ff3842e37941e86256bc43686d2c9 dm: always update the array size in realloc_argv on success
+6d08bbb9a566bc982e4b601decb973664f2198bb iommu/amd: Fix potential buffer overflow in parse_ivrs_acpihid
+93dbe6fbe9574928a8d0c2609fc268ac4f8d1669 iommu/vt-d: Apply quirk_iommu_igfx for 8086:0044 (QM57/QS57)
+c97c3265c8e492d81c42e34b7cf1361e459cc768 tracing: Fix oob write in trace_seq_to_buffer()
+37ea1bf6f54a5d824337078e4c4df6ed05f0b3ab net/sched: act_mirred: don't override retval if we already lost the skb
+361d580d082061835dc53e3b665c02ff690ea337 net/mlx5: E-Switch, Initialize MAC Address for Default GID
+1ce9eb9a4dc516cfd56f7564fb0107f5d54cefa7 net/mlx5: Remove return statement exist at the end of void function
+6cfa3cf98a663d37a21c92facc37cdc7ab26cf69 net/mlx5: E-switch, Fix error handling for enabling roce
+5f75855c056e86b2decead8d7b785eea2a263b0e net_sched: drr: Fix double list add in class with netem as child qdisc
+ed1edbf1707c1e3ef1b541f5c9e60f1f729d64b2 net_sched: hfsc: Fix a UAF vulnerability in class with netem as child qdisc
+54614f7287b029815af5488586b1710965cd5c28 net_sched: ets: Fix double list add in class with netem as child qdisc
+ae6226a1a38a7eaa0c2159cbeaac7710fb8f14db net_sched: qfq: Fix double list add in class with netem as child qdisc
+179a73ae55535832e6387ea602d3a064f83e9370 net: dlink: Correct endianness handling of led_mode
+a1fcb44e832af482527d10ddd2de61cb0c31fb1c net: ipv6: fix UDPv6 GSO segmentation with NAT
+d835503347dda7ec56b5a4494ead06774fbaf97d bnxt_en: Fix ethtool -d byte order for 32-bit values
+b51a313edcc4e8558b9c7727c678d1d1d93720f7 nvme-tcp: fix premature queue removal and I/O failover
+21cd22da5b2774c3df7eee64d1f89fe056b9f546 net: lan743x: Fix memleak issue when GSO enabled
+87e63bcda230f268f4be81347b8796f43f41aca0 net: fec: ERR007885 Workaround for conventional TX
+2702cf5ea7036a0e2cf0e272ff12ce4abf7538c4 PCI: imx6: Skip controller_id generation logic for i.MX7D
+ac9a0a4b80259f59628ae1d8ed8b99c4fa2d36dc of: module: add buffer overflow check in of_modalias()
+5df57ae6b7613110d7c15dd97fd503a8efb94ed1 net: phy: microchip: implement generic .handle_interrupt() callback
+1119ff8a38e86337e4dab68aaeffdd4a95071a21 net: phy: microchip: remove the use of .ack_interrupt()
+7f4272b5c8897874daf9e42903c41d66193d5c1d net: phy: microchip: force IRQ polling mode for lan88xx
+342cffede18d3db2a51414cb183e0b3fc96d4a2a Revert "drm/meson: vclk: fix calculation of 59.94 fractional rates"
+70a76288b11a5548b19d7844b4a03921ae53096c irqchip/gic-v2m: Add const to of_device_id
+a627653568fec1e4c74be315b997afbd5bec34ef irqchip/gic-v2m: Mark a few functions __init
+e5ed17dbe4302422f50430006254ecb867f746ba irqchip/gic-v2m: Prevent use after free of gicv2m_get_fwnode()
+ec1b855cdb48fbf82bac9f917e103b97e7bc6e63 usb: chipidea: ci_hdrc_imx: use dev_err_probe()
+b460eb2e3003c4dc827f8f566726523913e863c0 usb: chipidea: ci_hdrc_imx: implement usb_phy_init() error handling
+dfb7aa1b283747015b655a5820753cf69d9e8359 serial: msm: Configure correct working mode before starting earlycon
+7d594d4b3c83240c16589ffcedb5300ef7709806 Linux 5.10.238-rc1
 
---===============8598120016865801038==--
+--===============8717186337850473810==--
