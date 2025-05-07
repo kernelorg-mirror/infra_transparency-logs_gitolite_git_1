@@ -1,56 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============7682362146594114982=="
+Content-Type: multipart/mixed; boundary="===============8985753187780271042=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 07 May 2025 09:25:39 -0000
-Message-Id: <174660993927.1125308.14543033943703519574@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Wed, 07 May 2025 09:27:24 -0000
+Message-Id: <174661004486.1126439.13799478586142853802@gitolite.kernel.org>
 
---===============7682362146594114982==
+--===============8985753187780271042==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/master
-    old: 88e1a4c980931c88d1d4b089c4c9e8d476066a59
-    new: 58a3afde5eb0f8051a50ca215c1cbc69d4eca4b3
+  - ref: refs/heads/mem-ctrl-next
+    old: 59e9910e8e49230c71b22a75b527183957fc8df5
+    new: 02eaee70babd860d76dc23f9165f4496d0ffe77f
     log: |
-         58a3afde5eb0f8051a50ca215c1cbc69d4eca4b3 6.14-stable patches
+         66db876162155c1cec87359cd78c62aaafde9257 bus: firewall: Fix missing static inline annotations for stubs
+         4a98ec836a201d34ac27636960c2c81d9b3b7e19 dt-bindings: memory-controllers: Add STM32 Octo Memory Manager controller
+         8181d061dcff140fd5a40e568d8adb81f1403a28 memory: Add STM32 Octo Memory Manager driver
+         02eaee70babd860d76dc23f9165f4496d0ffe77f MAINTAINERS: add entry for STM32 OCTO MEMORY MANAGER driver
          
 
---===============7682362146594114982==
+--===============8985753187780271042==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1746609969 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1746609936-52148cda1099cba8feb53a638e14b2bcde1474e1
+pusher krzk@kernel.org 1746610074 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
+nonce 1746610042-0f2002a12ad82f0572bde4ec3b1085c05280f3bc
 
-88e1a4c980931c88d1d4b089c4c9e8d476066a59 58a3afde5eb0f8051a50ca215c1cbc69d4eca4b3 refs/heads/master
+59e9910e8e49230c71b22a75b527183957fc8df5 02eaee70babd860d76dc23f9165f4496d0ffe77f refs/heads/mem-ctrl-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgbJzEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pF4QAIZtMmXlkQNiu67wI38w
-ANItg92o25JzhT86hNEcQUDNzvLTUfTi1NxsM8PalnjKeRY8YU88AqSmzlGzx+3d
-4JxbdqqUZ+Own5X9ohF0eyb1kKFiSe24bOqnldQic9uTYnN7XNSn0tT2KgaQrkDZ
-eqg7/f3xerne64nKzERE3FGLSvY0uoNiuWDgDMXfxadTKZnTqF152DuKK/UMmYxN
-4oPfJqlbTjCQ9N6siS6c2jQO9gv5tA5eCbWTRWiz/jpySZXGJ9iF8P2BuH0va8VG
-lnlhOEXkw0zw0srm0H/42DIIpHFTKs93AA6Yyc/XR9Bo4bJJTQ5HHsByWYdPV5lG
-EsGM9BAeSL2BGcapR+YAirvqwO31/H9fQGUx2wPv0XOfW5PoZMWWe7XgSHhhZonW
-pMBw0VG9iXI1ReKhA4uMs9o6Qs+nONcdtmPjKAEXytVyXDSb4qsr+sFf4Rzcks52
-6yhreBN1p3DkzAXJPBSob5wdpNfKeOllSQu84dYhnADwB/Xswt0YwmgD4mm8i3Xe
-QocXNGqSzaNkq6Bdi+TfwZn6d8NocwRKCryezIEjjT8A7jJq5FqXQRExAagmK0v1
-EDjqQFEn90EROV2tXch0/ZVMDcnGwJ/3zJzEXDQhO9ZDQEVXnv3ChzgkyGw7cU9I
-8VbdtxXx4LQoa6gNSf/PxP4F
-=WnLE
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmgbJ5oQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1yW4D/9qOkBLP9uLt7GSRdzp9qMvBkNNCmoWbzF5
+XTG3VOHYyvsKRfvL3QY/8r3AdlhuPeRX9Q5jztejE75W47hZDdylbKzTD8PQ/PIK
+CTiJiAxGtpI8TcXxv6v3kJKOPYuf1saTvIDpJDfyYMbx9O+jkxOHCoruxEQjJtZv
+MMvZTCmtfxpS9XVl+JZT5WIKf9c9DYE5gsODQsL0DR7BjmAVLwUKyMZDMtCDwGn7
+xPlRT+ciUIKnHCVxDLPP8g+VKeXWI7ei5CYL58AJJCuQqSohbsQNWxHiGRAS54wJ
+f3x/RzpMmsqvMFeCLBRaV7uQ1x6zJRDlOism4dBaa+BFNxVMSJ9PJpHaOH5B1aYP
+5Yb83ONxn85z7u5BbOIK68GiIlEdcci1yTk49OwK/GLYJ9W5jLYaEI7medRIgH97
+o+oNy0CFbbLqrOfVnGP593CHt0yuju7na4AHWup0ynhL8j60653xEYdXNDAvnYv2
+vjZakDYihA7RPp/tLvmmdUkqpJLLFMgzuddI0RPs9d0VvWe+mO3OaADAlR8sUmnZ
+3jlgHFGB42hD0B606YxRQ1cFnvhMgvWkoEZJYXWgU5q2LQFFkQy/mPgtLdvXeBj+
+9emATcWLyWi+SkW6W6SVe34TZrNE05VUPn/dZMT6rGiA65E2MmlNsaIe/sljLV80
+/x+7U9ejrw==
+=Ydvf
 -----END PGP SIGNATURE-----
 
---===============7682362146594114982==--
+--===============8985753187780271042==--
