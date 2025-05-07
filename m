@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 07 May 2025 22:52:36 -0000
-Message-Id: <174665835631.1853670.8432317756951870885@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Wed, 07 May 2025 23:03:04 -0000
+Message-Id: <174665898478.1862017.6355257181880393088@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
   - ref: refs/heads/master
-    old: aa33e19028d838c25eeabed9e22cb0a539e70ce0
-    new: 8c7daa94c55756254374a08131ccad392b1466c5
+    old: cc7a17ecce8b6d692c4d1492d4877161166bc322
+    new: 47eacd321f107eb53b1d872d5a376ba7885e8e76
     log: |
-         c8660f37cf9dc9909c5eeaa9e108b8f61f7a0413 foo
-         89e065e152ccdb28eb60265b689ba864758a9aac foo
-         8c7daa94c55756254374a08131ccad392b1466c5 foo
+         4d26b4b6ac326aa0d28b1b2ce4c3724bd5105df9 man/io_uring.7: Fix a typo in the comment of the example
+         47eacd321f107eb53b1d872d5a376ba7885e8e76 Merge branch 'master' of https://github.com/Sberm/liburing
          
