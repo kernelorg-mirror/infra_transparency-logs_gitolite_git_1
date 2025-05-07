@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1257349239728548074=="
+Content-Type: multipart/mixed; boundary="===============1493494799576530034=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 07 May 2025 15:31:25 -0000
-Message-Id: <174663188584.1458295.2612914051549831500@gitolite.kernel.org>
+Date: Wed, 07 May 2025 15:31:28 -0000
+Message-Id: <174663188841.1458402.702591934734459824@gitolite.kernel.org>
 
---===============1257349239728548074==
+--===============1493494799576530034==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 075001c9eb41be4f7841958d575786574dcc9b28
     new: 3e52667a9c328b3d1a1ddbbb6b8fbf63a217bda3
     log: revlist-075001c9eb41-3e52667a9c32.txt
 
---===============1257349239728548074==
+--===============1493494799576530034==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -220,4 +220,4 @@ d746e0740b2805abbd7b56f1dd34a6b9a0f5728f net: usb: lan78xx: Refactor USB link po
 ef6a29e86785fe56e4af814509617183d7d8779c net: usb: lan78xx: Extract flow control configuration to helper
 3e52667a9c328b3d1a1ddbbb6b8fbf63a217bda3 Merge branch 'lan78xx-phylink-prep'
 
---===============1257349239728548074==--
+--===============1493494799576530034==--
