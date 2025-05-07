@@ -1,25 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Wed, 07 May 2025 21:56:02 -0000
-Message-Id: <174665496221.1806545.13322269822833356093@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Wed, 07 May 2025 21:56:11 -0000
+Message-Id: <174665497158.1806914.4388089449839068731@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
-  - ref: refs/heads/dev-test
-    old: 6e52d83a4ae63930f600927152abd1d5cc912cd7
-    new: f23f06c357ea683959e40e6c2670f01a22a031b5
+  - ref: refs/heads/for-linus
+    old: 11cdb506d0fbf5ac05bf55f5afcb3a215c316490
+    new: a609cb4cc07aa9ab8f50466622814356c06f2c17
     log: |
-         bff9ab3bf8bbb5254d453c0ef692d3f07da9d78e f2fs: Add fs parameter specifications for mount options
-         b4ae332f77bde63ec1e1b1b2e3f23afd34f7900d f2fs: move the option parser into handle_mount_opt
-         5aa9899e6eb5dfd92aee30da7bd562d2d33a6b4f f2fs: Allow sbi to be NULL in f2fs_printk
-         96da4a9c0ee8500367aab9a6a9eb2c4fe25b12ac f2fs: Add f2fs_fs_context to record the mount options
-         35659614407996648e61c6f71eea970fc04ea091 f2fs: separate the options parsing and options checking
-         75364f63518558d8d99cbd274ebc00d5fbd12767 f2fs: introduce fs_context_operation structure
-         f23f06c357ea683959e40e6c2670f01a22a031b5 f2fs: switch to the new mount api
+         f04f03d3e99bc8f89b6af5debf07ff67d961bc23 Input: synaptics - enable SMBus for HP Elitebook 850 G1
+         6d7ea0881000966607772451b789b5fb5766f11d Input: synaptics - enable InterTouch on Dynabook Portege X30-D
+         47d768b32e644b56901bb4bbbdb1feb01ea86c85 Input: synaptics - enable InterTouch on Dynabook Portege X30L-G
+         2abc698ac77314e0de5b33a6d96a39c5159d88e4 Input: synaptics - enable InterTouch on TUXEDO InfinityBook Pro 14 v5
+         a609cb4cc07aa9ab8f50466622814356c06f2c17 Input: synaptics - enable InterTouch on Dell Precision M3800
          
