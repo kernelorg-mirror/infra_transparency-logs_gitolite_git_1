@@ -1,24 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 07 May 2025 14:02:24 -0000
-Message-Id: <174662654406.1366087.8979928129770292233@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8823032471305806771=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 07 May 2025 14:04:21 -0000
+Message-Id: <174662666142.1367137.533777032382147677@gitolite.kernel.org>
+
+--===============8823032471305806771==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 0d8d44db295ccad20052d6301ef49ff01fb8ae2d
-    new: 707df3375124b51048233625a7e1c801e8c8a7fd
+    old: 0bac51731a80b461ab15cb6cf34c1b986ad08dbd
+    new: 98e38d4603959bbfa3df6089f715e262794bf95b
     log: |
-         549d8994447f2f628c6cedd139d53926bdfee881 media: vivid: fix FB dependency
-         9df181c8de1b6b285556f80bfd02584f3457f32e media: i2c: lt6911uxe: Fix Kconfig dependencies:
-         0dce5b44bd38af20b0383ae4cabeead37b4b9a9a media: platform: synopsys: VIDEO_SYNOPSYS_HDMIRX should depend on ARCH_ROCKCHIP
-         118b34092e37da1d3c4808e8cd1dd0246ac3f97e media: i2c: lt6911uxe: add two selects to Kconfig
-         d51adf038ebe59b592005166209b70218b1da849 media: cec: tda9950: add back i2c dependency
-         707df3375124b51048233625a7e1c801e8c8a7fd Merge tag 'media/v6.15-2' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
+         98e38d4603959bbfa3df6089f715e262794bf95b 5.4-stable patches
          
+
+--===============8823032471305806771==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1746626691 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1746626657-61f5ea49a2bf4efac389562ae2f700f9fbb57a36
+
+0bac51731a80b461ab15cb6cf34c1b986ad08dbd 98e38d4603959bbfa3df6089f715e262794bf95b refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgbaIQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4KcP+gJniWH6K4xXKtJrNEaB
+1iAKMcGgj0X5n0dIKL+HiaDMfIjI6wBAN5+EzrFoASBjLVgVwtb6FHLS6WhSIjt3
+9xmSF51Wy4gMuxyzc/U73cRYoaDU3S9Bap6XZcggGZvHqiKzOtWOT89wcHdfYXv9
+ij5rWc05mKUj1K99nEBAkjcFs/P+D3o2yIq8/B1uZ79RCKp1aocy+uPwqfomAR3G
+PU7HDR3scDBsArjgMgJQ1w9coGHAM72Z2GEZEz1rgW5CWGOi2n9KKPgJr+gBA0h/
+TU9STMn1fg9jD7ChFsyd2vy3c4gP2HuO+RVh/mNIvKTJ/GiGcHi/3/MjOEeARfKT
+pbyzaASWem5Mw8begoZSBCC7mYfHn/W3sKIiK9Oj4PKn5DY5WW0w2i5bACjH08jF
+Ve66eUFl1Ea6egrkYlceOFoYo8OoEmdoNLu1N0SR4sd668anFDD7qV2l2Eqg2bYq
+z962D+iuV4FxE3u/KQgu0hG1lSuy9AjP5Do+wsuBuYTujKigGBdaOZhGrDGMUQaO
+kA5itDOaPlu/MUshucvVjtjBxhEUgYdeCl+Sv0IE2RdAdN0Rj0KMvXe7JmZ1dp1+
+el+KH5eAqihcrvuM2V8Z9gYc2bEL1W2AYkbkdmhRW2w5MRtCgEQZqtHTMTLVlZ3j
+QP4eUuclzMbLePYnwHFzIZ/m
+=1XGx
+-----END PGP SIGNATURE-----
+
+--===============8823032471305806771==--
