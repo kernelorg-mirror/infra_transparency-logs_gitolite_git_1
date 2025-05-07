@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Wed, 07 May 2025 12:53:48 -0000
-Message-Id: <174662242879.1305783.12566161162642436676@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Wed, 07 May 2025 12:57:58 -0000
+Message-Id: <174662267893.1309916.18082826706844433179@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/s390/linux
-user: heiko
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/for-next
-    old: 595138256174ff6dec306f5b0075215516fc5bd8
-    new: e94a9f451445b9d046dbea4d967b0237d08f3f6a
+  - ref: refs/heads/nova-gsp
+    old: 423e0d52d7a70a8e5de212a5253056082b8a2622
+    new: 2902e68b7c08883067a96415dcee27e452a8f1e6
     log: |
-         42420c50c68f3e95e90de2479464f420602229fc s390/pci: Fix missing check for zpci_create_device() error return
-         05a2538f2b48500cf4e8a0a0ce76623cc5bafcf1 s390/pci: Fix duplicate pci_dev_put() in disable_slot() when PF has child VFs
-         2e8e0fea390beb0fe819384b62f469893984b284 Merge branch 'fixes' into for-next
-         e94a9f451445b9d046dbea4d967b0237d08f3f6a Merge branch 'features' into for-next
+         f34c5016d6341d8cd5196f7947ccf510d20d1790 fixup! rust: num: Add an upward alignment helper for usize
+         2902e68b7c08883067a96415dcee27e452a8f1e6 fixup! nova-core: Add support for VBIOS ucode extraction for boot
          
