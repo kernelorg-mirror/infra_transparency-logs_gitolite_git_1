@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============5330861348354258984=="
+Content-Type: multipart/mixed; boundary="===============5478485065660141198=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 07 May 2025 11:10:52 -0000
-Message-Id: <174661625275.1218284.7287150640904470662@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 07 May 2025 11:10:58 -0000
+Message-Id: <174661625855.1218543.10613919088680213052@gitolite.kernel.org>
 
---===============5330861348354258984==
+--===============5478485065660141198==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.16
+  - ref: refs/heads/asoc-6.16
     old: ad6d689e776478113aeef7bfb0e4222b1ff2a986
     new: 0fa382a4f507e8cc835df43b331e0515d861e54d
     log: revlist-ad6d689e7764-0fa382a4f507.txt
 
---===============5330861348354258984==
+--===============5478485065660141198==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1746616282 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1746616250-91c3a0b6086375223e41afc982ffc62810c7afd5
+pusher Mark Brown <broonie@kernel.org> 1746616288 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1746616256-b3062f2417692c020b23af62c4b2782160c1d68e
 
-ad6d689e776478113aeef7bfb0e4222b1ff2a986 0fa382a4f507e8cc835df43b331e0515d861e54d refs/heads/for-6.16
+ad6d689e776478113aeef7bfb0e4222b1ff2a986 0fa382a4f507e8cc835df43b331e0515d861e54d refs/heads/asoc-6.16
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgbP9oTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0IUWB/sGecQQUFujnypLFww7ZxU25otyCdl2
-QXq/k8uZ8Xmv6Z7hsYzKR57ye24elNoWCFjJhO1RNz8M7B36vPMRWgo8ExOVZe9n
-CCpEYB6kxQ0kc2ZfgXv1WoqKon7fIHiK/P9jsXEnNRimDYPdFFqiTkxMn7snfC1m
-vAYo71cVpCkzNfa/TkAKsmzfLnzeftkIvKE5MVvPfKg5g2rkjFEqk+uy3u7B0Jiy
-GrZPzQzN842JVE+ikHNvgM5uvM4FNw77Pf19GF2rFEJ9g4aHytgjLZNLj8ku0K+Q
-5mII8g0XoKmLQVTBH9XyGLeTtI9oZ+w4i53moUM8pmZMC0hs3G238S7z
-=Mkb8
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgbP+ATHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0D2wB/9qyIGOyfZ1CP3L/RDwVHIu+0k3Sw3p
+uzHidWDA6bLtfHbhKFcMG8KBDXVsFW21pyO3qpRWqoq+pjBcziuJjRYE68nVfB4b
+rrjGIfKvoW71GYHs8OdqIrg8aMxW2iFDuVa3HtsHlaer8/vMB2N9pD3grubf3nLr
+yFQ6k0mmWAbG0JqoQc+mPTDRwgKR3ScYtLbqkA4LdpIevYCShCx4fXJ40toN9Oiz
+XRnVu+z0Hai3g+lvVJZMSUlkxCBNGueSQmLODM1hgaiCNSRdewlsjfD0tO5b/sZ3
+/d8koEzU+OdTtmqCjVadFEOiKk8gc8N/+psrKfLM175xXPLLY90/O7t+
+=rDQ8
 -----END PGP SIGNATURE-----
 
---===============5330861348354258984==
+--===============5478485065660141198==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -75,4 +75,4 @@ d9a1cbfe5b73fdabd0c4e3ae5d5fa3f42327c7fd Minor bug fix and tidy up for sof_sdw
 e6a40d5c9033fb98f3d83f88655bc2b963ef50eb ASoC: SOF: add disable_function_topology flag and
 0fa382a4f507e8cc835df43b331e0515d861e54d Add support for CS35L63 Smart Amplifier
 
---===============5330861348354258984==--
+--===============5478485065660141198==--
