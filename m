@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Wed, 07 May 2025 19:35:36 -0000
-Message-Id: <174664653693.1689454.3236387213794745125@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/superm1/amd-debug-tools
+Date: Wed, 07 May 2025 19:39:18 -0000
+Message-Id: <174664675824.1691108.4036964508905124916@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/superm1/amd-debug-tools
+user: superm1
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 25a3e2af74b6e218acfbdbc15aca25453c6b7a4c
-    new: f3e3be2f72b5989a6d5f75618642e5b54205e040
+  - ref: refs/heads/refactor
+    old: a6aeb32cb80ede49e8f4551edb45f4a0080ba251
+    new: f233e79bbe4fce8fbe929c345f72b35067bf079c
     log: |
-         1e2c7468f4cf8fecff826e3327c705886e99b78a svcrdma: Unregister the device if svc_rdma_accept() fails
-         b8bd89de0d86c1a1e9576a1435c8482adb8ebf2e nfsd: use SHA-256 library API instead of crypto_shash API
-         f3e3be2f72b5989a6d5f75618642e5b54205e040 NFSD: Implement FATTR4_CLONE_BLKSIZE attribute
+         f233e79bbe4fce8fbe929c345f72b35067bf079c Add unit tests for battery class
          
