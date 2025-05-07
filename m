@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Wed, 07 May 2025 00:41:13 -0000
-Message-Id: <174657847383.673842.12794415474913438405@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 07 May 2025 00:46:52 -0000
+Message-Id: <174657881245.678400.929926399957782294@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/dev-test
-    old: 5fa74b3dad027db805b389205585236f1095c5aa
-    new: c75c13fa213ec981e4bd21003452220cc0ba21cf
-    log: |
-         c75c13fa213ec981e4bd21003452220cc0ba21cf f2fs: return bool from __write_node_folio
-         
+  - ref: refs/heads/v3_20250428_haibo_chen_this_patch_set_did_some_clean_up_and_add_runtime_pm_support_for_flexspi_drive
+    old: 9f7cd1bcb6363368abc954ff4e727b579813c697
+    new: 0000000000000000000000000000000000000000
