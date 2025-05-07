@@ -1,23 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Wed, 07 May 2025 19:21:58 -0000
-Message-Id: <174664571806.1676893.12634864962857169840@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Wed, 07 May 2025 19:24:43 -0000
+Message-Id: <174664588327.1678935.8889219779536687652@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
   - ref: refs/heads/master
-    old: 5889aa978ddc93d31d3c48c29899761ebde3f53d
-    new: 0cf255ac79231999d79cd656f81013089d2d4153
+    old: 707df3375124b51048233625a7e1c801e8c8a7fd
+    new: d76bb1ebb5587f66b0f8b8099bfbb44722bc08b3
     log: |
-         637b0aa571b61d98c717e7ab7490df8a3d9e4841 src/bin/diffman-git: Disable adjustment by default
-         52b7bab3a44fb5d2d464fa8acd6beee3b62269aa man/, CREDITS: Move in-source contribution records to CREDITS
-         8893f6d15f0696ad9db1c66006315b1a44f3d21d share/mk/build/: Ignore known diagnostics
-         9f2986c34166085225bb5606ebfd4952054e1657 *, CREDITS: Unify copyright notices
-         0cf255ac79231999d79cd656f81013089d2d4153 CREDITS: Add commit authors
+         8d16dd7b651b75ce7c79da3539553a25e60668f5 MAINTAINERS: erofs: add myself as reviewer
+         bbfe756dc3062c1e934f06e5ba39c239aa953b92 fs/erofs/fileio: call erofs_onlinefolio_split() after bio_add_folio()
+         9fcd53c3206618166facf03ee3d465f66a107e01 erofs: remove unused enum type
+         35076d2223c731f7be75af61e67f90807384d030 erofs: ensure the extra temporary copy is valid for shortened bvecs
+         d76bb1ebb5587f66b0f8b8099bfbb44722bc08b3 Merge tag 'erofs-for-6.15-rc6-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
          
