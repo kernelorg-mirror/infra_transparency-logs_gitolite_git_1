@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/xfstests-dev
-Date: Wed, 07 May 2025 12:03:31 -0000
-Message-Id: <174661941104.1262768.991481883102046000@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Wed, 07 May 2025 12:20:30 -0000
+Message-Id: <174662043028.1278100.12575661248886825834@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/xfstests-dev
-user: chao
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/wip
-    old: c7f9c3b676aa3d089154995d029eab54bd987b6f
-    new: 465f0f9c7e09ccf3dafd77f2df26a9031cdeeb34
+  - ref: refs/heads/kbuild
+    old: e792d38604043e4863b245611abd998b1814f03d
+    new: c40a58fdf239f12ec6bd8a6c5d24192cc8db0bf2
     log: |
-         f4f300d05e5c7f32cedda3457fc9b75dfb26a3d6 f2fs/012: test red heart lookup
-         f3448970a834b3efdcc6acb00f8725407dff85dd f2fs/013: test to check potential corruption on atomic_write file
-         465f0f9c7e09ccf3dafd77f2df26a9031cdeeb34 f2fs/020: test sanity check condition w/ error injection
+         280e9af192ca85355cf4e5f78d47a57236fd4b1e kbuild: Require pahole <v1.28 or >v1.29 with GENDWARFKSYMS on X86
+         1f7aac41f4b10fb0efb8ea8b8ce3e5db1b05246f usr/include: openrisc: don't HDRTEST bpf_perf_event.h
+         e1bb87da2afc0726ad78390fd560ad67e05bba5e kbuild: deb-pkg: Add libdw-dev:native to Build-Depends-Arch
+         c40a58fdf239f12ec6bd8a6c5d24192cc8db0bf2 kbuild: rpm-pkg: Add (elfutils-devel or libdw-devel) to BuildRequires
          
