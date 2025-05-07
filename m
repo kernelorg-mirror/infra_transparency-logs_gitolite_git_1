@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 07 May 2025 17:41:23 -0000
-Message-Id: <174663968356.1578618.2109403752710681508@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/ofono/ofono
+Date: Wed, 07 May 2025 17:44:09 -0000
+Message-Id: <174663984950.1579944.3245754377481708922@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/network/ofono/ofono
+user: holtmann
 changes:
-  - ref: refs/heads/tip/urgent
-    old: 43d112095c714edf5abd618854cf3bd1dc858915
-    new: 5125de2f4405b6c87eebcff4317135bf13c579f7
+  - ref: refs/heads/master
+    old: 9e9c1cb5833407b9c1cb2b7f7900b27194787551
+    new: 2c3b3d0b899d5a9ddd47a344ee80ebf87ddc96a7
     log: |
-         38e4ddb78667239c22b0dd415ca1afe42fde193c Merge branch into tip/master: 'timers/urgent'
-         5125de2f4405b6c87eebcff4317135bf13c579f7 Merge branch into tip/master: 'x86/urgent'
+         2c3b3d0b899d5a9ddd47a344ee80ebf87ddc96a7 unit: Fix string field size in test-stkutil test vectors
          
