@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5478485065660141198=="
+Content-Type: multipart/mixed; boundary="===============5688298383588349746=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 07 May 2025 11:10:58 -0000
-Message-Id: <174661625855.1218543.10613919088680213052@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 07 May 2025 11:12:04 -0000
+Message-Id: <174661632482.1219325.12601759000026860390@gitolite.kernel.org>
 
---===============5478485065660141198==
+--===============5688298383588349746==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.16
-    old: ad6d689e776478113aeef7bfb0e4222b1ff2a986
-    new: 0fa382a4f507e8cc835df43b331e0515d861e54d
-    log: revlist-ad6d689e7764-0fa382a4f507.txt
+  - ref: refs/heads/for-next
+    old: 94b4555b39de39c5f4989c93dc725fa0930fd997
+    new: 46addc02eda03d3adc9574b12cdc56724f303f6b
+    log: revlist-94b4555b39de-46addc02eda0.txt
 
---===============5478485065660141198==
+--===============5688298383588349746==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1746616288 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1746616256-b3062f2417692c020b23af62c4b2782160c1d68e
-
-ad6d689e776478113aeef7bfb0e4222b1ff2a986 0fa382a4f507e8cc835df43b331e0515d861e54d refs/heads/asoc-6.16
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgbP+ATHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0D2wB/9qyIGOyfZ1CP3L/RDwVHIu+0k3Sw3p
-uzHidWDA6bLtfHbhKFcMG8KBDXVsFW21pyO3qpRWqoq+pjBcziuJjRYE68nVfB4b
-rrjGIfKvoW71GYHs8OdqIrg8aMxW2iFDuVa3HtsHlaer8/vMB2N9pD3grubf3nLr
-yFQ6k0mmWAbG0JqoQc+mPTDRwgKR3ScYtLbqkA4LdpIevYCShCx4fXJ40toN9Oiz
-XRnVu+z0Hai3g+lvVJZMSUlkxCBNGueSQmLODM1hgaiCNSRdewlsjfD0tO5b/sZ3
-/d8koEzU+OdTtmqCjVadFEOiKk8gc8N/+psrKfLM175xXPLLY90/O7t+
-=rDQ8
------END PGP SIGNATURE-----
-
---===============5478485065660141198==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ad6d689e7764-0fa382a4f507.txt
+Content-Disposition: attachment; filename=revlist-94b4555b39de-46addc02eda0.txt
 
 8ce5ace8e279d39f249fd5ead33895d04263ea36 ASoC: sdw_utils: Remove num_platforms from simple DAI helper
 6c965d39af98a8b79668898b3a2af40d11179ff4 ASoC: Intel: sof_sdw: Avoid NULL check fail when re-probing
@@ -74,5 +49,6 @@ b6118100382c9e4c8ca623b3a8e8bf1a09c42aa5 ASoC: codec: cs42l73: Convert to GPIO d
 d9a1cbfe5b73fdabd0c4e3ae5d5fa3f42327c7fd Minor bug fix and tidy up for sof_sdw
 e6a40d5c9033fb98f3d83f88655bc2b963ef50eb ASoC: SOF: add disable_function_topology flag and
 0fa382a4f507e8cc835df43b331e0515d861e54d Add support for CS35L63 Smart Amplifier
+46addc02eda03d3adc9574b12cdc56724f303f6b Merge remote-tracking branch 'asoc/for-6.16' into asoc-next
 
---===============5478485065660141198==--
+--===============5688298383588349746==--
