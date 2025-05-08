@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/alexghiti/linux
-Date: Thu, 08 May 2025 12:05:37 -0000
-Message-Id: <174670593728.2613495.5417233230401682738@gitolite.kernel.org>
+Date: Thu, 08 May 2025 12:05:59 -0000
+Message-Id: <174670595948.2613847.18051787902717916159@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/alexghiti/linux
 user: alexghiti
 changes:
-  - ref: refs/heads/alex-fixes
-    old: b72da57be8b21db0022d4bc15ed69110c49a09c6
-    new: 7f1c3de1370bc6a8ad5157336b258067dac0ae9c
+  - ref: refs/tags/riscv-fixes-6.15-rc6
+    old: 9834674e0d9ab5fce7eb5ae6c0a610a0ec25cfe3
+    new: 11f6a290f4fa9841834186b573e63b79acd4c017
     log: |
          fd94de9f9e7aac11ec659e386b9db1203d502023 riscv: misaligned: factorize trap handling
          453805f0a28fc5091e46145e6560c776f7c7a611 riscv: misaligned: enable IRQs while handling misaligned accesses
