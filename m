@@ -1,71 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6958338005293153128=="
+Content-Type: multipart/mixed; boundary="===============1118654617395353753=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Thu, 08 May 2025 18:30:01 -0000
-Message-Id: <174672900125.2948023.7536458846856389297@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Thu, 08 May 2025 18:30:53 -0000
+Message-Id: <174672905328.2950198.13767497608701897148@gitolite.kernel.org>
 
---===============6958338005293153128==
+--===============1118654617395353753==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
-user: geert
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next
-    old: d849e3b355979fd8f8e9c37b952bd61cb0fac827
-    new: 73c8af6a66fb0a6e98b768c10bc0347a0de8e464
-    log: revlist-d849e3b35597-73c8af6a66fb.txt
-  - ref: refs/heads/renesas-arm-defconfig-for-v6.16
-    old: fe922c248fd1c712079a95608213fa48797cde42
-    new: 976c4626c5f57d9a0eea0f4618ce58e68102bee3
+  - ref: refs/heads/master
+    old: 3e62ade8015c67338200c1675e447d0716083ea6
+    new: 1d827e7e8773d0fc8730ba90bbb8e509ea369a59
     log: |
-         976c4626c5f57d9a0eea0f4618ce58e68102bee3 ARM: shmobile: defconfig: Enable more support for RZN1D-DB/EB
+         1d827e7e8773d0fc8730ba90bbb8e509ea369a59 add a .vulnerable entry for CVE-2024-50076
          
-  - ref: refs/heads/renesas-dts-for-v6.16
-    old: 4bca3cc8aecb68e1dd251a694f5fa5eb1bb47363
-    new: b280613d480aa170e51029d5582bb4b666982b7c
-    log: revlist-4bca3cc8aecb-b280613d480a.txt
 
---===============6958338005293153128==
+--===============1118654617395353753==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d849e3b35597-73c8af6a66fb.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-976c4626c5f57d9a0eea0f4618ce58e68102bee3 ARM: shmobile: defconfig: Enable more support for RZN1D-DB/EB
-06534edc0d366b9904c221de77068616d7b5af32 ARM: dts: renesas: r9a06g032-rzn1d400-eb: Add GMAC1 port
-ca764d5321a2cee7c4901b981bb0be06d8d9a9d7 arm64: dts: renesas: sparrow-hawk: Add MSIOF Sound support
-672eebe1cf665a277a8e18b00aa1ffafbef57768 arm64: dts: renesas: r9a07g044: Add GPT support
-f2aa064b21e89a06908557b6aa72f493a2b33915 arm64: dts: renesas: r9a07g054: Add GPT support
-e00ad79244eff5181a117214f2b54b478df9b3d7 arm64: dts: renesas: rzg2l-smarc: Enable GPT on carrier board
-a510da373ab48608bb7d88b96433898a50afed9b arm64: dts: renesas: beacon-renesom: Align wifi node name with bindings
-0d2da0943f289f3264bb10f39cd44241949c0a23 ARM: dts: renesas: r9a06g032-rzn1d400-eb: Describe 9-pin D-sub serial port
-218a67626bf497f77d285ed180199ea6791d5537 ARM: dts: renesas: r9a06g032-rzn1d400-db: Enable USB device port
-8ffec7d62c6956199f442dac3b2d5d02231c3977 arm64: dts: renesas: white-hawk-single: Improve Ethernet TSN description
-abbf127283aceeda6c16d2243d6683e3dc3509d6 ARM: dts: renesas: r9a06g032-rzn1d400-db: Add pinmux for the CPLD
-b280613d480aa170e51029d5582bb4b666982b7c ARM: dts: renesas: r9a06g032-rzn1d400-eb: Enable USB host port
-73c8af6a66fb0a6e98b768c10bc0347a0de8e464 Merge branches 'renesas-arm-defconfig-for-v6.16', 'renesas-drivers-for-v6.16', 'renesas-dt-bindings-for-v6.16' and 'renesas-dts-for-v6.16' into renesas-next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1746729084 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1746729052-7b0abf2615a48437c5db10c46cb8b81fd47c1104
 
---===============6958338005293153128==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4bca3cc8aecb-b280613d480a.txt
+3e62ade8015c67338200c1675e447d0716083ea6 1d827e7e8773d0fc8730ba90bbb8e509ea369a59 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
 
-06534edc0d366b9904c221de77068616d7b5af32 ARM: dts: renesas: r9a06g032-rzn1d400-eb: Add GMAC1 port
-ca764d5321a2cee7c4901b981bb0be06d8d9a9d7 arm64: dts: renesas: sparrow-hawk: Add MSIOF Sound support
-672eebe1cf665a277a8e18b00aa1ffafbef57768 arm64: dts: renesas: r9a07g044: Add GPT support
-f2aa064b21e89a06908557b6aa72f493a2b33915 arm64: dts: renesas: r9a07g054: Add GPT support
-e00ad79244eff5181a117214f2b54b478df9b3d7 arm64: dts: renesas: rzg2l-smarc: Enable GPT on carrier board
-a510da373ab48608bb7d88b96433898a50afed9b arm64: dts: renesas: beacon-renesom: Align wifi node name with bindings
-0d2da0943f289f3264bb10f39cd44241949c0a23 ARM: dts: renesas: r9a06g032-rzn1d400-eb: Describe 9-pin D-sub serial port
-218a67626bf497f77d285ed180199ea6791d5537 ARM: dts: renesas: r9a06g032-rzn1d400-db: Enable USB device port
-8ffec7d62c6956199f442dac3b2d5d02231c3977 arm64: dts: renesas: white-hawk-single: Improve Ethernet TSN description
-abbf127283aceeda6c16d2243d6683e3dc3509d6 ARM: dts: renesas: r9a06g032-rzn1d400-db: Add pinmux for the CPLD
-b280613d480aa170e51029d5582bb4b666982b7c ARM: dts: renesas: r9a06g032-rzn1d400-eb: Enable USB host port
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgc+HwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pXUP/jkuGhRJX9fheTJr+bgO
+A1NX7/7mEAkKr3iS/XfSgPf1cXSBToBGjxKCUOPjFlhOAu6i+NkLAqZoe4bYiwSF
+qCYQ/KeuO3IXWR3KIxGwX5Q9ikI5OwOhC0cjNnMB5UrOM2GdcOh7WtgKlfPNocq5
+McZ0NchjlcmO3J2IN//kyNqfsgRDFI8pXd/x2TMJDv+TNq8XvZs3tfVAgVY20TI2
+Wt2olEQeN8LUz/IiIogZa5kK/o9DTQfonLkv8qAR1ZODJMlUh9ZtHWYusiUCn3lv
+YSyu334sJUjqf8Pzt8vvZl58vEyHah1F5cMJ7R7GWjlnR7oC1WFMKXdvF7brE82g
+uJCHuGD3QzbA2Cl+/P3epJm9U/39UKn8bmm9InA2P6x6n1XZT7Lc9btHYhuQvbWa
+Mm+Nfj8HDlbtCtTJ5bnZzX2dVAHeDE1lzL/t5XLpE9iekczVAQfmw7TJXQmm0PAa
+s7dpSWcieH1dzOoKBaAEH0H2mt0zTb92fhyq+ydwIlPldbqrF16DmPKfJwpvLGVT
+iev5ntv1aJote66iLBllRzcw6vN4MqOJ80y9vHUS6TVP13pjsv8e7FOz2AxCKQth
+BH+NzasNxi7GNnwH7G5vhz1N4On6pfcZQNMdO4C4BT5DAQqIqQ7fl10jlSun/iXn
+9vXle3OPMSHq0SEiaClrOlo/
+=VIh1
+-----END PGP SIGNATURE-----
 
---===============6958338005293153128==--
+--===============1118654617395353753==--
