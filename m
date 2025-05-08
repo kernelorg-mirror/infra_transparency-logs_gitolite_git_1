@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 08 May 2025 01:31:49 -0000
-Message-Id: <174666790947.1993251.16889258568362075081@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Thu, 08 May 2025 01:33:25 -0000
+Message-Id: <174666800536.1994404.6547293780864757389@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/for-next
-    old: 46addc02eda03d3adc9574b12cdc56724f303f6b
-    new: 94801fc58affb2fb2e09bec3ba37c31b247fd80f
+  - ref: refs/heads/todo
+    old: a0f523b78978574b9b812de771d9c5e7585949fe
+    new: c7878a9fa542d3374729ba733cae659200473eed
     log: |
-         d75d38dc460452cc8bbca483dee65839e11c71fe ASoC: tas2781: Add a debugfs node for acoustic tuning
-         94801fc58affb2fb2e09bec3ba37c31b247fd80f Merge remote-tracking branch 'asoc/for-6.16' into asoc-next
+         d5faba5994a85bcc7419d126afdd14b0646e8d64 What's cooking (2025/05 #02)
+         be9f48aa857b0f2a7373beeb113dcdf4f4c54737 What's cooking (2025/05 #03)
+         c7878a9fa542d3374729ba733cae659200473eed Meta/CannedResponses: typofix
          
