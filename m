@@ -1,25 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Thu, 08 May 2025 19:49:58 -0000
-Message-Id: <174673379845.3016329.10629675419924715931@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 08 May 2025 19:50:41 -0000
+Message-Id: <174673384142.3018669.18081044144959866836@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: acme
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: 8330d092f789ca7859042c80cbf3ea496bc53d99
-    new: 70e21ac8b0543def19c8bd1addeec4995fbc0ea9
+  - ref: refs/heads/perf/core
+    old: dd0987d6358ef52bac886c5fe8287c12f47a7656
+    new: 881097c0549f3818f5aa31af8ccb49213bd99bed
     log: |
-         8830091383b034981d882773078e18bb2a7e0e53 perf trace: Free the files.max entry in files->table
-         7900938850645ed41770bddba524416f8c84dc2d perf trace: Add missing thread__put() in thread__e_machine()
-         4b531377218cde4b4c8c2037cbe8383206bce22b perf stat: Better hybrid support for the NMI watchdog warning
-         a5efaf90089e6dc50dc1f03174cbba3da37af986 perf stat: Remove print_mixed_hw_group_error
-         f0f245eaa2bca3595a0e775e9abdf7de909c0450 perf evlist: Refactor evlist__scnprintf_evsels()
-         583dc500d153d90260435c68a393fd3b5d44b18e perf evlist: Make groups visible in evlist__format_evsels() output
-         70e21ac8b0543def19c8bd1addeec4995fbc0ea9 perf parse-events: Add debug dump of evlist if reordered
+         22d38babb3adcb1227ecfb91d9423008a46548fe perf: Fix failing inherit_event() doing extra refcount decrement on parent
+         d20eb2d5fe8f8818abcfdadf5ac5109938f1318e perf: Fix irq work dereferencing garbage
+         f400565faa50737ac1d550d2c75128c0dad75765 perf: Remove too early and redundant CPU hotplug handling
+         881097c0549f3818f5aa31af8ccb49213bd99bed perf: Fix confusing aux iteration
          
