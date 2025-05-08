@@ -1,25 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Thu, 08 May 2025 09:51:03 -0000
-Message-Id: <174669786352.2458562.8167900526490437598@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
+Date: Thu, 08 May 2025 09:53:37 -0000
+Message-Id: <174669801761.2459896.13440122717237211633@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/linux/kernel/git/ukleinek/linux
+user: ukleinek
 changes:
-  - ref: refs/heads/bugfix/common
-    old: 5c0d3e30440de65110257a38163686110f8f230a
-    new: 2860d2a634860b83a27a71e5db3c2c416a59008a
+  - ref: refs/heads/pwm/for-next
+    old: d041b76ac9fb9e60e7cdb0265ed9d8b6058a88bf
+    new: 84e351d8a5755c60e14b7e42d70c2415541928d7
     log: |
-         a14b19bd94199c525031bdc63821ab086f4c70bf f2fs: introduce is_{meta,node}_folio
-         7b8fb94740b96f8d66b64d3c0565055ff9ddf981 f2fs: fix to do sanity check on node footer in read_end_io
-         55bd79ccdefc85734d1d37171bbd8721690c4ebf f2fs: add f2fs_bug_on() to detect potential bug
-         479eb3241734afd82a510e98e9633fdcb036759e f2fs: add f2fs_bug_on() in f2fs_quota_read()
-         13504926b584a1170ecd0ab71401cc9e074bf97b f2fs: fix 32-bits hexademical number in fault injection doc
-         6ca3e4f4a4041364c09ed7827a3007c1db80aa7c f2fs: fix to avoid invalid wait context issue
-         2860d2a634860b83a27a71e5db3c2c416a59008a f2fs: doc: disk layout
+         84e351d8a5755c60e14b7e42d70c2415541928d7 pwm: Restore alphabetic ordering in Kconfig and Makefile
+         
+  - ref: refs/heads/pwm/for-nexxt
+    old: f1406f117bff1e270677bcdb0685ccd2a8a75002
+    new: b07495071d27c517edf532d255872781bb0c45bd
+    log: |
+         84e351d8a5755c60e14b7e42d70c2415541928d7 pwm: Restore alphabetic ordering in Kconfig and Makefile
+         b07495071d27c517edf532d255872781bb0c45bd pwm: Add support for pwmchip devices for faster and easier userspace access
          
