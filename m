@@ -1,33 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============0673487904947491245=="
+Content-Type: multipart/mixed; boundary="===============8474937419149478468=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 08 May 2025 08:45:53 -0000
-Message-Id: <174669395354.2400198.5054377637232555506@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 08 May 2025 08:46:04 -0000
+Message-Id: <174669396439.2400539.17587241729538103589@gitolite.kernel.org>
 
---===============0673487904947491245==
+--===============8474937419149478468==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 08710e696081d58163c8078e0e096be6d35c5fad
     new: f48887a98b78880b7711aca311fbbbcaad6c4e3b
     log: revlist-08710e696081-f48887a98b78.txt
-  - ref: refs/heads/stable
-    old: 0d8d44db295ccad20052d6301ef49ff01fb8ae2d
-    new: d76bb1ebb5587f66b0f8b8099bfbb44722bc08b3
-    log: revlist-0d8d44db295c-d76bb1ebb558.txt
   - ref: refs/tags/next-20250508
     old: 0000000000000000000000000000000000000000
     new: 19c541fe872387798a25df947f56a26212aa9a97
 
---===============0673487904947491245==
+--===============8474937419149478468==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1058,22 +1054,4 @@ a1ce20ee6f696ea318dd475fc4bb7394745cab72 Merge branch 'next' of git://git.kernel
 22abf0025db38019d2b46f5184fb2363c4f5f795 Revert "powerpc: do not build ppc_save_regs.o always"
 f48887a98b78880b7711aca311fbbbcaad6c4e3b Add linux-next specific files for 20250508
 
---===============0673487904947491245==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0d8d44db295c-d76bb1ebb558.txt
-
-549d8994447f2f628c6cedd139d53926bdfee881 media: vivid: fix FB dependency
-9df181c8de1b6b285556f80bfd02584f3457f32e media: i2c: lt6911uxe: Fix Kconfig dependencies:
-0dce5b44bd38af20b0383ae4cabeead37b4b9a9a media: platform: synopsys: VIDEO_SYNOPSYS_HDMIRX should depend on ARCH_ROCKCHIP
-118b34092e37da1d3c4808e8cd1dd0246ac3f97e media: i2c: lt6911uxe: add two selects to Kconfig
-d51adf038ebe59b592005166209b70218b1da849 media: cec: tda9950: add back i2c dependency
-8d16dd7b651b75ce7c79da3539553a25e60668f5 MAINTAINERS: erofs: add myself as reviewer
-bbfe756dc3062c1e934f06e5ba39c239aa953b92 fs/erofs/fileio: call erofs_onlinefolio_split() after bio_add_folio()
-9fcd53c3206618166facf03ee3d465f66a107e01 erofs: remove unused enum type
-35076d2223c731f7be75af61e67f90807384d030 erofs: ensure the extra temporary copy is valid for shortened bvecs
-707df3375124b51048233625a7e1c801e8c8a7fd Merge tag 'media/v6.15-2' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
-d76bb1ebb5587f66b0f8b8099bfbb44722bc08b3 Merge tag 'erofs-for-6.15-rc6-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
-
---===============0673487904947491245==--
+--===============8474937419149478468==--
