@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5137992324839854911=="
+Content-Type: multipart/mixed; boundary="===============6646309467766364335=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Thu, 08 May 2025 16:40:14 -0000
-Message-Id: <174672241406.2850689.8796866041886359094@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Thu, 08 May 2025 16:40:20 -0000
+Message-Id: <174672242059.2851003.7309638161489717423@gitolite.kernel.org>
 
---===============5137992324839854911==
+--===============6646309467766364335==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
+repo: pub/scm/linux/kernel/git/riscv/linux
 user: palmer
 changes:
   - ref: refs/heads/fixes
@@ -20,7 +20,7 @@ changes:
     new: 01534f3e0dd75e27ed03e5542f0c7bf6aa7130f1
     log: revlist-7d1d19a11cfb-01534f3e0dd7.txt
 
---===============5137992324839854911==
+--===============6646309467766364335==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -696,4 +696,4 @@ e9d86b8e17e725ee6088970981ab99f29abd1997 scripts: Do not strip .rela.dyn section
 7f1c3de1370bc6a8ad5157336b258067dac0ae9c riscv: Disallow PR_GET_TAGGED_ADDR_CTRL without Supm
 01534f3e0dd75e27ed03e5542f0c7bf6aa7130f1 Merge tag 'riscv-fixes-6.15-rc6' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/alexghiti/linux into fixes
 
---===============5137992324839854911==--
+--===============6646309467766364335==--
