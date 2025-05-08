@@ -1,53 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============6942758466762949151=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Thu, 08 May 2025 09:33:31 -0000
-Message-Id: <174669681176.2442016.4049371632441942535@gitolite.kernel.org>
-
---===============6942758466762949151==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 08 May 2025 09:47:08 -0000
+Message-Id: <174669762837.2454246.169720139340335036@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/tags/memory-controller-drv-6.16
-    old: 0000000000000000000000000000000000000000
-    new: fad2ff08cb297b3481351ba2a5bbff3cf36e7b2b
-
---===============6942758466762949151==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher krzk@kernel.org 1746696842 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
-nonce 1746696809-00b27042f159b4041f53f63b40d5ac4b60746bbf
-
-0000000000000000000000000000000000000000 fad2ff08cb297b3481351ba2a5bbff3cf36e7b2b refs/tags/memory-controller-drv-6.16
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmgceooQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1xNeD/9Krd4XPxZ08Nfd7Ag0nYe+6L8XGOF5928D
-EF9L+KDx8vgB7rrW70dK3BpVCpUOydBgIJitVJn/dvLB3s5o3AL07iPx5xVQ8CzE
-o1Ydty/QYB3Jovf5MqNwdcje+TenQSdvjmzDVP9cFL0m7KvSFYhtuokOwT5grpGj
-hLc6wNSTkyxUqwpcmqyNYpYdMT6xeBO1Dk2bo6wYeKqQxIIY5P050+sKjRXlcfN2
-GW6ei1bhdV04QziFrSKh8r2q/qKOfGFBSoyq8Tu1Bw/bgsezFS3/OnOF3drBvUig
-5qFiTqOvj4KGCTG/zYA0x02U8mRXvQRjlTm0V3a+pv+T0voUiamorqjxx5Rq3sRH
-/GnzKQb2MtQz6oenF8FIoWR4Orn16GJTygmAatT+28DzVptDeCv3BTlmfoKQu6dw
-fd4dSLo2RPWSSxvPwfnv+BuWDW79pTRB4vsan6+KDVQBXGd8jvXiZdFn7Dj/OHsW
-mbM1v9ZjFIOPpDhJBDPeZvrsnqn31cxVPsAlbz2Ej2Mw0unJJddFa6hPUj6mialI
-PkSt22nD500qKFf3YiDfTMrKT7Pi5WZ9YKSp0F0vaMQl6CuG2Vd72VItJyW4/Z0D
-tY1t7Vr0m7dzxMXTAEC7vjOJZvDWVsaXrRxgq5S7xLYciA/za5HD2fohEfJ+q/iH
-YmfXqdVz9A==
-=fXQD
------END PGP SIGNATURE-----
-
---===============6942758466762949151==--
+  - ref: refs/heads/main
+    old: bdc6470a4fc3f5a0bcd2e9d76f9fa352a042974b
+    new: 95d2f25871cc78e31f816ad90f0a6f1f11ec9cb6
+    log: |
+         f34343cc11afc7bb1f881c3492bee3484016bf71 fbnic: Fix initialization of mailbox descriptor rings
+         3b12f00ddd08e888273b2ac0488d396d90a836fc fbnic: Gate AXI read/write enabling on FW mailbox
+         682a61281d1036962b68d651994cc407371daef5 fbnic: Add additional handling of IRQs
+         0f9a959a0addd9bbc47e5d16c36b3a7f97981915 fbnic: Actually flush_tx instead of stalling out
+         cdbb2dc3996a60ed3d7431c1239a8ca98c778e04 fbnic: Cleanup handling of completions
+         ab064f6005973d456f95ae99cd9ea0d8ab676cce fbnic: Improve responsiveness of fbnic_mbx_poll_tx_ready
+         1b34d1c1dc8384884febd83140c9afbc7c4b9eb8 fbnic: Pull fbnic_fw_xmit_cap_msg use out of interrupt context
+         ce2fa1dba204c761582674cf2eb9cbe0b949b5c7 fbnic: Do not allow mailbox to toggle to ready outside fbnic_mbx_poll_tx_ready
+         95d2f25871cc78e31f816ad90f0a6f1f11ec9cb6 Merge branch 'fbnic-fw-ipc-mailbox-fixes'
+         
