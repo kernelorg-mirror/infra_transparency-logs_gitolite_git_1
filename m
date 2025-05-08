@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7106672529248956565=="
+Content-Type: multipart/mixed; boundary="===============4697005804770470506=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Thu, 08 May 2025 13:08:38 -0000
-Message-Id: <174670971806.2666764.11934173593518341352@gitolite.kernel.org>
+Date: Thu, 08 May 2025 13:08:57 -0000
+Message-Id: <174670973796.2667095.9482041835010880079@gitolite.kernel.org>
 
---===============7106672529248956565==
+--===============4697005804770470506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,36 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: ij
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next
-    old: 67e2635fe0cca5f0383c0780db986d8237e83f0a
+  - ref: refs/heads/review-ilpo-next
+    old: f8423d0ae55b51e2729afa2c40e5c3bf8a0f6455
     new: 3c415b1df95c06ae4f9bdb166541ab366b862cc2
-    log: revlist-67e2635fe0cc-3c415b1df95c.txt
+    log: revlist-f8423d0ae55b-3c415b1df95c.txt
 
---===============7106672529248956565==
+--===============4697005804770470506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1746709744 +0300
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1746709767 +0300
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1746709712-69dfc1243f363b0ab4e873f0ae72067cac3c778e
+nonce 1746709735-bb2fe726b824279c59fe5b2bf02e5d98b7b0d320
 
-67e2635fe0cca5f0383c0780db986d8237e83f0a 3c415b1df95c06ae4f9bdb166541ab366b862cc2 refs/heads/for-next
+f8423d0ae55b51e2729afa2c40e5c3bf8a0f6455 3c415b1df95c06ae4f9bdb166541ab366b862cc2 refs/heads/review-ilpo-next
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaBys9AAKCRBZrE9hU+XO
-MZtOAQDkR9Lt3YZhqrGWxYDqMUoXkWH6eEzGkWQd4zlKdlaO+gEAkhldHGYKtdiX
-OYZbNY602GyOOkKyKTm9g4o+2jv6CgY=
-=wKnT
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaBytCQAKCRBZrE9hU+XO
+MYRKAP9Nk0VKMokjkKeTImnjz1YYNH1hQ7dX5QL7DjHT2j5DLgD8CofxG0hmjuKi
+bjeZbSBqWN3W354iCk9qldPQxx/qeQQ=
+=qNUg
 -----END PGP SIGNATURE-----
 
---===============7106672529248956565==
+--===============4697005804770470506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-67e2635fe0cc-3c415b1df95c.txt
+Content-Disposition: attachment; filename=revlist-f8423d0ae55b-3c415b1df95c.txt
 
 841bceb532141d34b0e1700ea7e5ce45e40dd698 platform/x86: Introduce dasharo-acpi platform driver
 812bca7f7e73778a7022f862dc8c7c7d38b9a760 platform/x86:intel/vsec: Change return type of intel_vsec_register
@@ -70,4 +70,4 @@ c935ddfe65da020f5896fa58746fc7a57a876df3 platform/x86: ISST: Do Not Restore SST 
 9950f94e485908fc42e7bb2533aff13b7e97a36c platform/x86/sony-laptop: Remove unused sony laptop camera code
 3c415b1df95c06ae4f9bdb166541ab366b862cc2 platform/x86: thinkpad-acpi: Add support for new hotkey for camera shutter switch
 
---===============7106672529248956565==--
+--===============4697005804770470506==--
