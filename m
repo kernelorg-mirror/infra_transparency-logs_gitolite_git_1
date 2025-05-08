@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 08 May 2025 19:50:41 -0000
-Message-Id: <174673384142.3018669.18081044144959866836@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Thu, 08 May 2025 19:53:16 -0000
+Message-Id: <174673399691.3019980.16556426273486487342@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/perf/core
-    old: dd0987d6358ef52bac886c5fe8287c12f47a7656
-    new: 881097c0549f3818f5aa31af8ccb49213bd99bed
+  - ref: refs/heads/fixes
+    old: 9feab2c2877a6ac7a946383efec7c68fe0ead786
+    new: b0b655161692b94d4d62a370c56ccc906a607de0
     log: |
-         22d38babb3adcb1227ecfb91d9423008a46548fe perf: Fix failing inherit_event() doing extra refcount decrement on parent
-         d20eb2d5fe8f8818abcfdadf5ac5109938f1318e perf: Fix irq work dereferencing garbage
-         f400565faa50737ac1d550d2c75128c0dad75765 perf: Remove too early and redundant CPU hotplug handling
-         881097c0549f3818f5aa31af8ccb49213bd99bed perf: Fix confusing aux iteration
+         e9aa997895cdd0fd3d0df631d0fb2731d6fd73fb do_umount(): add missing barrier before refcount checks in sync case
+         40a9df825df45f62ddee16402ef4cf13d7a76ebf do_move_mount(): don't leak MNTNS_PROPAGATING on failures
+         b0b655161692b94d4d62a370c56ccc906a607de0 fix IS_MNT_PROPAGATING uses
          
