@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Thu, 08 May 2025 19:47:38 -0000
-Message-Id: <174673365856.3014288.10674978502812605955@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Thu, 08 May 2025 19:49:42 -0000
+Message-Id: <174673378244.3015981.3186382525290929284@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/master
-    old: 2c89c1b655c0b06823f4ee8b055140d8628fc4da
-    new: acaa3e726f4a29f32bca5146828565db56bc396f
+  - ref: refs/heads/perf-tools-next
+    old: 8330d092f789ca7859042c80cbf3ea496bc53d99
+    new: 70e21ac8b0543def19c8bd1addeec4995fbc0ea9
     log: |
-         c1d9dac0db168198b6f63f460665256dedad9b6e vfio/pci: Align huge faults to order
-         acaa3e726f4a29f32bca5146828565db56bc396f Merge tag 'vfio-v6.15-rc6' of https://github.com/awilliam/linux-vfio
+         8830091383b034981d882773078e18bb2a7e0e53 perf trace: Free the files.max entry in files->table
+         7900938850645ed41770bddba524416f8c84dc2d perf trace: Add missing thread__put() in thread__e_machine()
+         4b531377218cde4b4c8c2037cbe8383206bce22b perf stat: Better hybrid support for the NMI watchdog warning
+         a5efaf90089e6dc50dc1f03174cbba3da37af986 perf stat: Remove print_mixed_hw_group_error
+         f0f245eaa2bca3595a0e775e9abdf7de909c0450 perf evlist: Refactor evlist__scnprintf_evsels()
+         583dc500d153d90260435c68a393fd3b5d44b18e perf evlist: Make groups visible in evlist__format_evsels() output
+         70e21ac8b0543def19c8bd1addeec4995fbc0ea9 perf parse-events: Add debug dump of evlist if reordered
          
