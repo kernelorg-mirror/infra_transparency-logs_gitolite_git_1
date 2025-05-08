@@ -1,61 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============7878453545537864502=="
+Content-Type: multipart/mixed; boundary="===============0931604754403083454=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Thu, 08 May 2025 22:16:40 -0000
-Message-Id: <174674260059.3145788.16358004785451401044@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Thu, 08 May 2025 22:16:52 -0000
+Message-Id: <174674261274.3146154.1069821713246428730@gitolite.kernel.org>
 
---===============7878453545537864502==
+--===============0931604754403083454==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
-user: jberg
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 6b02fd7799fc8e1160c5783459d065ceeb4b7365
-    new: 63a9a727d373fa5b8ce509eef50dbc45e0f745b9
-    log: |
-         cf1b684a06170d253b47d6a5287821de976435bd wifi: mac80211: do not offer a mesh path if forwarding is disabled
-         42f7e5bf30fc2a51bdd03f464c6c33342b173d72 wifi: brcmfmac: support per-vendor cfg80211 callbacks and firmware events
-         0b4b2e86a56fd1beafff90317594566f8ef718a7 wifi: brcmfmac: make per-vendor event map const
-         66f909308a7c05082919ff214a0bbe2a76aa0283 wifi: brcmfmac: cyw: support external SAE authentication in station mode
-         39c88e5b2f076ebfe8ad631a523fe497e87c1629 wifi: brcmfmac: Fix structure size for WPA3 external SAE
-         22c64f37e1d4e757b0073a72f1439c2c3509c5cb wifi: mac80211: Update MCS15 support in link_conf
-         63a9a727d373fa5b8ce509eef50dbc45e0f745b9 wireless: purelifi: plfxlc: fix memory leak in plfxlc_usb_wreq_asyn()
-         
+  - ref: refs/heads/dev-queue
+    old: 3b638e65b6c269cce6623f9b96f70b1e90da8cb6
+    new: d76efe69471a29d0f59bc924e3df8327ab213a53
+    log: revlist-3b638e65b6c2-d76efe69471a.txt
 
---===============7878453545537864502==
+--===============0931604754403083454==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-3b638e65b6c2-d76efe69471a.txt
 
-certificate version 0.1
-pusher 7BF9099A 1746742609 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
-nonce 1746742577-2043152ab2576ccb1b9f7620301c9acc7b577dd4
+c5f840f58ef2045a778798c590ab27a56f9679bc idpf: fix a race in txq wakeup
+a40d438884ab34ce3bc6c1c3e6d5027f47a16fcc ice: move TSPLL functions to a separate file
+3343177fedfa0cc6423d30791f685a3d68ce355a ice: rename TSPLL and CGU functions and definitions
+841e0ba733fe98fa6487d9588ffc578a03b009c7 ice: fix E825-C TSPLL register definitions
+ccc6539c0849980cc8794d861051b7c901374f15 ice: remove ice_tspll_params_e825 definitions
+00e2a97fcb970e388391c746b6a76a4926fb71a1 ice: use designated initializers for TSPLL consts
+418d77a47b497a4eb6a6c7c1755b8f57dbfa5317 ice: add TSPLL log config helper
+b738375af02d120beec28248d86284a1f18330fb ice: add ICE_READ/WRITE_CGU_REG_OR_DIE helpers
+898116772280e4422e75dbd2268d7eee9de051df ice: clear time_sync_en field for E825-C during reprogramming
+ef777f523ff2bc8dba1e819491d0913b0bc943a5 ice: read TSPLL registers again before reporting status
+03b47f6fd5ad155844689b426be85f657ebb55be ice: use bitfields instead of unions for CGU regs
+ce4bfa52d548724954e62bf5607b0386f03bee28 ice: add multiple TSPLL helpers
+a2d76365fa25b179efc9e0838c5fdbc77400f377 ice: wait before enabling TSPLL
+fd97c58fe11dd7e4e3b864535ceb9aab14742239 ice: fall back to TCXO on TSPLL lock fail
+00fcc9c63c314f26515fda4d90439ccdaefcf49e ice: move TSPLL init calls to ice_ptp.c
+d76efe69471a29d0f59bc924e3df8327ab213a53 ice: default to TIME_REF instead of TXCO on E825-C
 
-6b02fd7799fc8e1160c5783459d065ceeb4b7365 63a9a727d373fa5b8ce509eef50dbc45e0f745b9 refs/heads/main
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmgdLVEACgkQ10qiO8sP
-aACK+A//d6wfi1/3t33TU4nkbbPLtg2z/Fc+ki2LRt63HzNDrsfZJ6cQxrDpKQ9d
-BahWGrI3Lx7PZ+hy0rNtl8MOiq+wt6pbK4vOp1z6o6yXOTY3pLXYgh7fBBCo0+0K
-f4RHfmaD6b+KN8ry3T0C7QQZ21Jaf94ylzY7X4o+ZhnBFvvsN+fx6wl13voB8KS9
-wjTU9b7wBRfRqxaHZ3w1F2X4VZDArqSWiUNF7Xn9sqkDCK60F+B9OhN8s04zKqK5
-fZoFflq1jlahmp9MVH0bYVYHTOovME6HSdBMhPasKG5h0/GJVAnERPCZWeclpIjq
-j2v2sj8e/C0ktwtsHTCoEa3Vk8K8moavypOqY/3Y/vXYXzdiD1So16R1o5+hSrRa
-B2T7r9Cm9m25CvO3rJajyWNY7D0TQFB9+H8n3nShzkdWCV00ZY7X8Tnna234L0HJ
-KsKMv6psr+TK3EV4tPSZNpGenqkkLCYNGqtsIqTVV/7gApWCpvq4CkGAwRzFVMVd
-4DClpQyZkRgTcnTGcpOx6WpyD+Kj5lLoPU09fruPP05Kdr+hpes5BRdSiIeBhZrW
-Ot6R6F2UNnaWyjSbO7IP+sLKkUuBg08j3u3A57dYYpYBXJjeYmnHUb5j/1ieoKUf
-VA2TmZDN5oQ56tsDxDTI8T1pz6dbGGKV1NAVl4IBUpCvY+aLBJM=
-=oO2i
------END PGP SIGNATURE-----
-
---===============7878453545537864502==--
+--===============0931604754403083454==--
