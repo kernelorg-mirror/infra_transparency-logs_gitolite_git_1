@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Thu, 08 May 2025 10:10:06 -0000
-Message-Id: <174669900619.2477200.16771129769773398982@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 08 May 2025 10:12:34 -0000
+Message-Id: <174669915436.2478564.10352564409638254373@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/i2c/i2c-host-next
-    old: 78fce11696559a24eca2765ad2115bdcdc6a7be3
-    new: 0eec8f32ac98f974f1c547fb477085fe6dd90ff3
+  - ref: refs/heads/irq/core
+    old: 97f4b999e0c894d3e48e318aa1130132031815b3
+    new: c855506257063f444044d0a85a2e9ad9ab1c7ecd
     log: |
-         10aba126bc86904e2f5afeaa26354e877a593c95 MAINTAINERS: Remove entry for Seth Heasley
-         5c2cdb6733bc4443d3b582b710bcd021168c63d1 Merge branch 'i2c/i2c-host-fixes' into i2c/i2c-host-next
-         9927b17a5965f37cd7cc5d085b3f3e9d89ccedbb i2c: mlxbf: Allow build with COMPILE_TEST
-         0eec8f32ac98f974f1c547fb477085fe6dd90ff3 Merge branch 'i2c/i2c-host' into i2c/i2c-host-next
+         c855506257063f444044d0a85a2e9ad9ab1c7ecd genirq/cpuhotplug: Fix up lock guards conversion brainf..t
          
