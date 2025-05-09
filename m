@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3090529748132228844=="
+Content-Type: multipart/mixed; boundary="===============6098971606738936580=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Fri, 09 May 2025 14:43:25 -0000
-Message-Id: <174680180520.37095.8194611329611699835@gitolite.kernel.org>
+Date: Fri, 09 May 2025 14:43:51 -0000
+Message-Id: <174680183182.37527.11426845957546605226@gitolite.kernel.org>
 
---===============3090529748132228844==
+--===============6098971606738936580==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/conor/linux
 user: conor
 changes:
-  - ref: refs/heads/riscv-dt-fixes
-    old: 1b133129ad6b28186214259af3bd5fc651a85509
+  - ref: refs/heads/riscv-dt-for-next
+    old: 38818f7c9c179351334b1faffc4d40bd28cc9c72
     new: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    log: revlist-1b133129ad6b-0af2f6be1b42.txt
+    log: revlist-38818f7c9c17-0af2f6be1b42.txt
 
---===============3090529748132228844==
+--===============6098971606738936580==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-1b133129ad6b-0af2f6be1b42.txt
+Content-Disposition: attachment; filename=revlist-38818f7c9c17-0af2f6be1b42.txt
 
 d327a12e636e902fd0c7178732813b041a1c9214 stmmac: Remove pcim_* functions for driver detach
 45b761689a281f19060939facdd35894f2b43307 stmmac: Replace deprecated PCI functions
@@ -1051,4 +1051,4 @@ ec4acd3166d8a7a03b059d01b9c6f11a658e833f tools/power turbostat: disable "cpuidle
 0efdedb3358aa78102967f242379686f94315830 tools/include: make uapi/linux/types.h usable from assembly
 0af2f6be1b4281385b618cb86ad946eded089ac8 Linux 6.15-rc1
 
---===============3090529748132228844==--
+--===============6098971606738936580==--
