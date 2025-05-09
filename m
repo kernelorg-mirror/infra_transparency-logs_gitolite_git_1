@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jenswi/linux-tee
-Date: Fri, 09 May 2025 06:52:39 -0000
-Message-Id: <174677355916.3620232.11541034367487567631@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/alexghiti/linux
+Date: Fri, 09 May 2025 07:00:30 -0000
+Message-Id: <174677403054.3627800.6445910537365618000@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jenswi/linux-tee
-user: jenswi
+repo: pub/scm/linux/kernel/git/alexghiti/linux
+user: alexghiti
 changes:
-  - ref: refs/tags/amd-tee-for-v6.16
+  - ref: refs/tags/riscv-mw1-6.16-rc1
     old: 0000000000000000000000000000000000000000
-    new: 15ee48b4e65abc81cf544381d9f7362ea9d8f76d
+    new: 22b9d3020779de84eeba114d2561a664ad5cefc8
