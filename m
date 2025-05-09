@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Fri, 09 May 2025 18:46:45 -0000
-Message-Id: <174681640596.257664.14590280178814419512@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/linux
+Date: Fri, 09 May 2025 18:47:30 -0000
+Message-Id: <174681645078.258221.18179874575132594591@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/tnguy/linux
+user: tnguy
 changes:
-  - ref: refs/heads/next
-    old: 9d4b78df5dc58ba4506e12f1cc92d3bebf0caffa
-    new: 23b88515a318680337f21d0a2fceee8038ccffc8
+  - ref: refs/heads/for-next
+    old: 8d7be3651c9a6c2b5bc952356536cbd9f4a722b2
+    new: c24a65b6a27c78d8540409800886b6622ea86ebf
     log: |
-         ab4b00407dd864853516aba3cd7caed2b7c33ffd selftests/ftrace: Convert poll to a gen_file
-         8ffe772076bbb6828e28705bda93ac37c8d7294c selftests/cpufreq: Fix cpufreq basic read and update testcases
-         23b88515a318680337f21d0a2fceee8038ccffc8 kselftest: cpufreq: Get rid of double suspend in rtcwake case
+         c24a65b6a27c78d8540409800886b6622ea86ebf iidc/ice/irdma: Update IDC to support multiple consumers
          
