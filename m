@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
-Date: Fri, 09 May 2025 15:35:50 -0000
-Message-Id: <174680495040.88756.5508099053747622088@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Fri, 09 May 2025 15:36:43 -0000
+Message-Id: <174680500317.89295.1591922780393755113@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/amlogic/linux
-user: narmstrong
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/for-next
-    old: aba7d878839a03d18aef4b20ab6f04be1a070e50
-    new: 4ad6ed6b650136c45dacc4921bd5404d14bf0ed6
+  - ref: refs/heads/for-next/juno/updates
+    old: 2d75b618fd9be28127adf5499f730cca7d99e963
+    new: 8286460be14dc5a2f8c55f543035583a30442508
     log: |
-         87b480e04af45833deb5af1584694b0077805ea6 dt-bindings: reset: Add compatible for Amlogic A4/A5 Reset Controller
-         4ad6ed6b650136c45dacc4921bd5404d14bf0ed6 Merge branch 'v6.16/drivers' into for-next
-         
-  - ref: refs/heads/v6.16/drivers
-    old: 0acf15d0a9e52219d11f0863b75cc04ab7045c49
-    new: 87b480e04af45833deb5af1584694b0077805ea6
-    log: |
-         87b480e04af45833deb5af1584694b0077805ea6 dt-bindings: reset: Add compatible for Amlogic A4/A5 Reset Controller
+         31202cd4feaf08d1e2478e4c822d958defd1aaf3 arm64: dts: fvp: Add system timer for broadcast during CPU idle
+         23d71b74c8d4a864ab8f345f06fef203a4521db0 arm64: dts: fvp: Add CPU idle states for Rev C model
+         9477f8c9c8db807aa92b22c0a906897d73f1f2e3 arm64: dts: fvp: Reserve 64MB for the FF-A firmware in memory map
+         8286460be14dc5a2f8c55f543035583a30442508 arm64: dts: fvp: Add ETE and TRBE nodes for Rev C model
          
