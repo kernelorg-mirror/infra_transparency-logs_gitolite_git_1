@@ -1,53 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============2059352176538681885=="
+Content-Type: multipart/mixed; boundary="===============8842482230530205837=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Fri, 09 May 2025 17:27:28 -0000
-Message-Id: <174681164835.187740.13054598029307526214@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Fri, 09 May 2025 17:28:00 -0000
+Message-Id: <174681168060.188193.1556220642584307141@gitolite.kernel.org>
 
---===============2059352176538681885==
+--===============8842482230530205837==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
+repo: pub/scm/linux/kernel/git/palmer/linux
 user: palmer
 changes:
   - ref: refs/heads/for-next
-    old: bafa451a96d0f1404aa1a5a267f78767a55fac71
-    new: 1a3f6980889df3fc90ad3e4a525061d2c138adba
-    log: revlist-bafa451a96d0-1a3f6980889d.txt
+    old: 1a3f6980889df3fc90ad3e4a525061d2c138adba
+    new: 9828b4b07c7108dff30965fee73a082cc21cbac1
+    log: revlist-1a3f6980889d-9828b4b07c71.txt
 
---===============2059352176538681885==
+--===============8842482230530205837==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bafa451a96d0-1a3f6980889d.txt
+Content-Disposition: attachment; filename=revlist-1a3f6980889d-9828b4b07c71.txt
 
-61a74ad254628ccd9e88838c3c622885dfb6c588 riscv: misaligned: fix sleeping function called during misaligned access handling
-7b30b1b04e0d04e56e848c3b9c2952c30de05af9 riscv: misaligned: Add handling for ZCB instructions
-85f79dece58373e29ece0507fda378cdc0e617cc Merge patch series "riscv: misaligned: Add ZCB handling and fix sleeping function"
-788aa64c01f1262310b4c1fb827a36df170d86ea riscv: save the SR_SUM status over switches
-19500c6dbc5c348564a6513c801ab0889300565a riscv: implement user_access_begin() and families
-62135bf660b2c3887e22f33d3adbefedb4dc9c7a riscv: uaccess: use input constraints for ptr of __put_user()
-cdf647e817143c9762c5bdf724ca2821a171f011 riscv: uaccess: use 'asm goto' for put_user()
-f6bff7827a48e59cff1ef98aae72452d65174e0c riscv: uaccess: use 'asm_goto_output' for get_user()
-259aaf03d7a03fe3c2f909deaeea7ce84ed47880 Merge patch series "riscv: uaccess: optimisations"
-2940954c1ac527386e5203d4be8263d704491fbe riscv: vDSO: Remove --hash-style=both
-0f733b5be9658b75496127e23e1f7edfc45bb423 dt-bindings: riscv: Add xsfvqmaccdod and xsfvqmaccqoq ISA extension description
-2d147d77ae6e96c1c349a6ada0eac14111c3384a riscv: Add SiFive xsfvqmaccdod and xsfvqmaccqoq vendor extensions
-e8fd215ed0eb814486d50b4835007cbc50b2c2b7 riscv: hwprobe: Document SiFive xsfvqmaccdod and xsfvqmaccqoq vendor extensions
-1a6274f035346e76835d46096136dd3e6cca9575 riscv: hwprobe: Add SiFive vendor extension support and probe for xsfqmaccdod and xsfqmaccqoq
-a5a15e07cbb900b59fbdb927189d24d1d01ad2e7 dt-bindings: riscv: Add xsfvfnrclipxfqf ISA extension description
-e84fffe21b7498ff50aed3a96773993d04cfaed0 riscv: Add SiFive xsfvfnrclipxfqf vendor extension
-659d664f7df8e5c094e260434bebd0efaa547e49 riscv: hwprobe: Document SiFive xsfvfnrclipxfqf vendor extension
-1d91224394c92245942c402245370c4abb0fcbfb riscv: hwprobe: Add SiFive xsfvfnrclipxfqf vendor extension
-d5ca02b25f5dbe44a25afe35cd75d49f1f0b9763 dt-bindings: riscv: Add xsfvfwmaccqqq ISA extension description
-34e9b16b4b888988730ffab9a9039cfcf305942e riscv: Add SiFive xsfvfwmaccqqq vendor extension
-a3ca43dc527159aa6f55058a9fa506fa720d6514 riscv: hwprobe: Document SiFive xsfvfwmaccqqq vendor extension
-d9669e33c8fadb5f81287f4961f01e40c0a11c23 riscv: hwprobe: Add SiFive xsfvfwmaccqqq vendor extension
-1a3f6980889df3fc90ad3e4a525061d2c138adba Merge patch series "riscv: Add vendor extensions support for SiFive"
+0e86b46a270c2ab7f4c265c7b85092496280ad47 riscv: sbi: add Firmware Feature (FWFT) SBI extensions definitions
+0cf4a4259bd9b704d3d170bfc7868c8612044920 riscv: sbi: remove useless parenthesis
+79e3b7eafe16b30c2e058babd158ae7a74035320 riscv: sbi: add new SBI error mappings
+78e41d2c36a4ec0da9d97491c2e0b5f5dfc2e15b riscv: sbi: add FWFT extension interface
+e8f92dd3a1db9194cbe9a51eaf4010ec1e18bbc7 riscv: sbi: add SBI FWFT extension calls
+73c454bd6f5f8056361e5c39188e526cf5dabe1d Merge the SBI FWFT subset of Clement's misaligned delegation patches
+f9a5e0deecca684cf82fe9296fe8f978945f3998 riscv: misaligned: request misaligned exception from SBI
+62f72bb79ae45616790559d85ac5b8a9dfaf1053 riscv: misaligned: use on_each_cpu() for scalar misaligned access probing
+223a6ec1ed7440e565c9a2b5347b61e0afebd042 riscv: misaligned: use correct CONFIG_ ifdef for misaligned_access_speed
+f116d2027adf7d63a7e3da7e222dc0dfa0db9c0b riscv: misaligned: move emulated access uniformity check in a function
+37f4e1f77de7626258fafb23b835bb369c5e0dfb riscv: misaligned: add a function to check misalign trap delegability
+ee293f4771c97525eb9f2069685f8d3057025a88 Merge the non-KVM parts of Clement's misaligned access support patch set
+18f790547d60244a94b1f568c68002429bf125f2 riscv: vDSO: Remove --hash-style=both
+9828b4b07c7108dff30965fee73a082cc21cbac1 Merge branch 'sbiv3' into for-next
 
---===============2059352176538681885==--
+--===============8842482230530205837==--
