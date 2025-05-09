@@ -1,46 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============5910445667388833131=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Fri, 09 May 2025 19:15:38 -0000
-Message-Id: <174681813866.283767.16494422209894776051@gitolite.kernel.org>
-
---===============5910445667388833131==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Fri, 09 May 2025 19:15:42 -0000
+Message-Id: <174681814287.283964.3566591348337417678@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/for-next/seccomp
-    old: 797002deed03491215a352ace891749b39741b69
-    new: 73989c998814d82c71d523c104c398925470d59e
+  - ref: refs/heads/next
+    old: 23b88515a318680337f21d0a2fceee8038ccffc8
+    new: 1efe2022286d30077385ba9b24d25c26c77d0768
     log: |
-         73989c998814d82c71d523c104c398925470d59e selftests/seccomp: fix negative_ENOSYS tracer tests on arm32
+         11f6dcf784533fd72ceddbc69884f8d7f82109fd selftests: pid_namespace: add missing sys/mount.h include in pid_max.c
+         84b8d6c9082659ceb5574335abbaf6c1ea36abba selftests/timens: Print TAP headers
+         261639fa515fd4c5d14ad998f85f1e30c3241dfb selftests/timens: Make run_tests() functions static
+         1efe2022286d30077385ba9b24d25c26c77d0768 selftests/timens: timerfd: Use correct clockid type in tclock_gettime()
          
-
---===============5910445667388833131==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1746818169 -0700
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1746818137-e69918e23db56cadc20fa3a395cf1745f0581fc2
-
-797002deed03491215a352ace891749b39741b69 73989c998814d82c71d523c104c398925470d59e refs/heads/for-next/seccomp
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCaB5UeQAKCRA2KwveOeQk
-u0njAP4/0R24S8FnuMLziDOfvWIQj2rVttTqXYXJvFP9ooLz8gD+MgP2wep6iSxG
-K0h3eDjxffeg5CliEaVjDZNQQwww/Ag=
-=ZvL1
------END PGP SIGNATURE-----
-
---===============5910445667388833131==--
