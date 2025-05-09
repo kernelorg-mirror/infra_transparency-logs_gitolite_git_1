@@ -1,22 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Fri, 09 May 2025 15:36:43 -0000
-Message-Id: <174680500317.89295.1591922780393755113@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Fri, 09 May 2025 15:37:38 -0000
+Message-Id: <174680505834.89910.7918021498835827136@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/amlogic/linux
+user: narmstrong
 changes:
-  - ref: refs/heads/for-next/juno/updates
-    old: 2d75b618fd9be28127adf5499f730cca7d99e963
-    new: 8286460be14dc5a2f8c55f543035583a30442508
+  - ref: refs/heads/for-next
+    old: 4ad6ed6b650136c45dacc4921bd5404d14bf0ed6
+    new: a2ce7e3f919ec2acd813cee72bd619b9904bc3e9
     log: |
-         31202cd4feaf08d1e2478e4c822d958defd1aaf3 arm64: dts: fvp: Add system timer for broadcast during CPU idle
-         23d71b74c8d4a864ab8f345f06fef203a4521db0 arm64: dts: fvp: Add CPU idle states for Rev C model
-         9477f8c9c8db807aa92b22c0a906897d73f1f2e3 arm64: dts: fvp: Reserve 64MB for the FF-A firmware in memory map
-         8286460be14dc5a2f8c55f543035583a30442508 arm64: dts: fvp: Add ETE and TRBE nodes for Rev C model
+         40f983aa2d809b4934a260c76b82e9ff19c09a88 dt-bindings: vendor-prefixes: Add TC Unterhaltungselektronik AG
+         eb7af1268e0042e83607918229cd62c3669cdcb8 dt-bindings: arm: amlogic: Add TCU Fernsehfee 3.0 board
+         dac928757928a8ea06eaf5694d5deae53a21616f ARM: dts: amlogic: Add TCU Fernsehfee 3.0
+         2c1879a440315e0b292bbff0fa63a73bd8a52e34 ARM: dts: amlogic: meson8-fernsehfee3: Describe regulators
+         a2ce7e3f919ec2acd813cee72bd619b9904bc3e9 Merge branch 'v6.16/arm-dt' into for-next
+         
+  - ref: refs/heads/v6.16/arm-dt
+    old: 7db1068a5eedc419347a30dc81a25e3342fbbc10
+    new: 2c1879a440315e0b292bbff0fa63a73bd8a52e34
+    log: |
+         40f983aa2d809b4934a260c76b82e9ff19c09a88 dt-bindings: vendor-prefixes: Add TC Unterhaltungselektronik AG
+         eb7af1268e0042e83607918229cd62c3669cdcb8 dt-bindings: arm: amlogic: Add TCU Fernsehfee 3.0 board
+         dac928757928a8ea06eaf5694d5deae53a21616f ARM: dts: amlogic: Add TCU Fernsehfee 3.0
+         2c1879a440315e0b292bbff0fa63a73bd8a52e34 ARM: dts: amlogic: meson8-fernsehfee3: Describe regulators
          
