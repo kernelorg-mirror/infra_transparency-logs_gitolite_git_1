@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0197204500587625327=="
+Content-Type: multipart/mixed; boundary="===============3337990293503345804=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Fri, 09 May 2025 16:04:29 -0000
-Message-Id: <174680666910.113180.3515456278999810064@gitolite.kernel.org>
+Date: Fri, 09 May 2025 16:04:41 -0000
+Message-Id: <174680668183.114066.16645710141233281204@gitolite.kernel.org>
 
---===============0197204500587625327==
+--===============3337990293503345804==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/arm/fixes
+  - ref: refs/heads/for-next
     old: 2ef5c66cba6171feab05e62e1b22df970b238544
     new: 33e79299f921eba4d77f2af0fd359285fa9f3fb3
     log: revlist-2ef5c66cba61-33e79299f921.txt
 
---===============0197204500587625327==
+--===============3337990293503345804==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -47,4 +47,4 @@ e36f6de6adecafe90b52739adb9405d342bc9ad1 Merge tag 'amlogic-fixes-for-v6.15' of 
 6053915252d78f70ffc9bcc9eefb8da9c653dc82 Merge tag 'riscv-sophgo-dt-fixes-for-v6.15-rc1' of https://github.com/sophgo/linux into arm/fixes
 33e79299f921eba4d77f2af0fd359285fa9f3fb3 Merge tag 'asahi-soc-fixes-6.15' of https://github.com/AsahiLinux/linux into arm/fixes
 
---===============0197204500587625327==--
+--===============3337990293503345804==--
