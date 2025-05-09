@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4696125403787602480=="
+Content-Type: multipart/mixed; boundary="===============3746826170549273136=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 09 May 2025 15:26:17 -0000
-Message-Id: <174680437722.79953.12715683159661183892@gitolite.kernel.org>
+Date: Fri, 09 May 2025 15:26:19 -0000
+Message-Id: <174680437986.80095.8191054890085994441@gitolite.kernel.org>
 
---===============4696125403787602480==
+--===============3746826170549273136==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 3e52667a9c328b3d1a1ddbbb6b8fbf63a217bda3
     new: a9ce2ce1800e04267e6d99016ed0fe132d6049a9
     log: revlist-3e52667a9c32-a9ce2ce1800e.txt
 
---===============4696125403787602480==
+--===============3746826170549273136==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -351,4 +351,4 @@ f7d30ef6c1f743584fde2774327227c547ec878e net: enetc: add VLAN filtering support 
 932ce98041ff9731e84d9548818db69899ee08ba net: enetc: add loopback support for i.MX95 ENETC PF
 a9ce2ce1800e04267e6d99016ed0fe132d6049a9 Merge branch 'add-more-features-for-enetc-v4-round-2'
 
---===============4696125403787602480==--
+--===============3746826170549273136==--
