@@ -1,45 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============2562006175435996467=="
+Content-Type: multipart/mixed; boundary="===============0197204500587625327=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
-Date: Fri, 09 May 2025 16:01:47 -0000
-Message-Id: <174680650745.111848.17166021138504715246@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Fri, 09 May 2025 16:04:29 -0000
+Message-Id: <174680666910.113180.3515456278999810064@gitolite.kernel.org>
 
---===============2562006175435996467==
+--===============0197204500587625327==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cxl/cxl
-user: djiang
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/next
-    old: 8e62ba590160f91abba6490d9c17aa13bada4752
-    new: 4368b2dedf5b5335258b2423e6f12f47e7d0fe74
-    log: revlist-8e62ba590160-4368b2dedf5b.txt
+  - ref: refs/heads/arm/fixes
+    old: 2ef5c66cba6171feab05e62e1b22df970b238544
+    new: 33e79299f921eba4d77f2af0fd359285fa9f3fb3
+    log: revlist-2ef5c66cba61-33e79299f921.txt
 
---===============2562006175435996467==
+--===============0197204500587625327==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8e62ba590160-4368b2dedf5b.txt
+Content-Disposition: attachment; filename=revlist-2ef5c66cba61-33e79299f921.txt
 
-4b742e42ecdd1b481d69cddfdc5fbf0a7d8a8160 cxl: Remove else after return
-6c22fe78cedadc4e4dc4a8476483f62f6ecdb000 cxl/pci: Moving code in cxl_hdm_decode_init()
-55ae2f36b4af23ee0fd2f843aeb17724a0c73e1b cxl/pci: Add comments to cxl_hdm_decode_init()
-e462fb5f22705a11dddbcab837bb6a863de20fee cxl: Introduce parent_port_of() helper
-02c8328f32a04fb203bbc723d93ad526d694ae3f cxl/region: Rename function to cxl_port_pick_region_decoder()
-b074ee58668af0976dea2a499881531996cca4c7 cxl/region: Avoid duplicate call of cxl_port_pick_region_decoder()
-b4f4d7b92786b73e880df111e94152d06c0b803e cxl/region: Move find_cxl_root() to cxl_add_to_region()
-6fb204eefd73b57a141964e1767fe603ba2e8d05 cxl/port: Replace put_cxl_root() by a cleanup helper
-f4cbc2a2d81ebdf1a6d1f6bf3bf1e110b2a88921 cxl/region: Factor out code to find the root decoder
-75e69b0fed59f9a8e2172d08670675750abfe537 cxl/region: Factor out code to find a root decoder's region
-33402883cca57552d8a8b5b05c2cdac1e9e4db46 cxl/region: Add function to find a port's switch decoder by range
-18e5eaf229e56b1c557ffe1339382b3e7386a373 cxl/region: Add a dev_warn() on registration failure
-699891ad14616d787c21b8d6542a110ca6b9e970 cxl/region: Add a dev_err() on missing target list entries
-7bf28bb6913fa45ddd3ac967c34fc355d9a1216f cxl: Add a dev_dbg() when a decoder was added to a port
-4368b2dedf5b5335258b2423e6f12f47e7d0fe74 Merge branch 'for-6.16/cxl-cleanups' into cxl-for-next
+fdc7bd909a5f38793468e9cf9b6a9063d96c6234 arm64: dts: rockchip: Allow Turing RK1 cooling fan to spin down
+e0bd7ecf6b2dc71215af699dffbf14bf0bc3d978 arm64: dts: rockchip: Remove overdrive-mode OPPs from RK3588J SoC dtsi
+7fc027e894fae7c8661b52b1fde223004b2a8e0c arm64: dts: rockchip: Add pinmuxing for eMMC on QNAP TS433
+c8c59bcac9300c22abf1afd7e236978a413c3644 arm64: dts: rockchip: Use "regulator-fixed" for btreg on px30-engicam for vcc3v3-btreg
+6833cbdc733c9e1088fe9936b2dad95cc7d4c580 arm64: dts: rockchip: Fix mmc-pwrseq clock name on rock-pi-4
+712dc3e7b979ae9ae1afeb1e87ec92ebb72b9529 mailmap: Update email for Asahi Lina
+dc5befecbe2683ac49fc8dc76aade35e62f4cf30 arm64: dts: apple: touchbar: Mark ps_dispdfr_be as always-on
+3409f843c04df9434beb637602382eeee90e0bee ARM: dts: amlogic: meson8: fix reference to unknown/untested PWM clock
+a994b58f9d1163c4f559bd169721f0fc15866919 ARM: dts: amlogic: meson8b: fix reference to unknown/untested PWM clock
+511d388a4007ba580feeb2fd2e9ba35a614c093f arm64: dts: amlogic: gx: fix reference to unknown/untested PWM clock
+a08b28c1ed454502abeb90ffa4a55445dae1d22a arm64: dts: amlogic: g12: fix reference to unknown/untested PWM clock
+7ec0987da2c903d58167573e58b39d7ed19fc627 arm64: dts: rockchip: Align wifi node name with bindings in CB2
+5e6a4ee9799b202fefa8c6264647971f892f0264 arm64: dts: rockchip: Assign RT5616 MCLK rate on rk3588-friendlyelec-cm3588
+4bf593be2e462623c4c34c7e3b604eb3f8f9de45 arm64: dts: rockchip: fix Sige5 RTC interrupt pin
+3e6244429ba38f8dee3336b8b805948276b281ab riscv: dts: sophgo: fix DMA data-width configuration for CV18xx
+0f67578587bb9e5a8eecfcdf6b8a501b5bd90526 arm64: dts: amlogic: dreambox: fix missing clkc_audio node
+81b7cf868aec04c95daf9996a9625ea2ce8849e0 Merge tag 'v6.15-rockchip-dtsfixes1' of https://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/fixes
+e36f6de6adecafe90b52739adb9405d342bc9ad1 Merge tag 'amlogic-fixes-for-v6.15' of https://git.kernel.org/pub/scm/linux/kernel/git/amlogic/linux into arm/fixes
+6053915252d78f70ffc9bcc9eefb8da9c653dc82 Merge tag 'riscv-sophgo-dt-fixes-for-v6.15-rc1' of https://github.com/sophgo/linux into arm/fixes
+33e79299f921eba4d77f2af0fd359285fa9f3fb3 Merge tag 'asahi-soc-fixes-6.15' of https://github.com/AsahiLinux/linux into arm/fixes
 
---===============2562006175435996467==--
+--===============0197204500587625327==--
