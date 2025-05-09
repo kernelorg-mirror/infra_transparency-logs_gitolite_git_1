@@ -1,14 +1,14 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/a.hindborg/linux
-Date: Fri, 09 May 2025 08:15:28 -0000
-Message-Id: <174677852876.3895638.8588045070692647210@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/a.hindborg/configfs
+Date: Fri, 09 May 2025 08:15:38 -0000
+Message-Id: <174677853852.3896032.8273585025713582822@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/a.hindborg/linux
+repo: pub/scm/linux/kernel/git/a.hindborg/configfs
 user: a.hindborg
 changes:
   - ref: refs/heads/configfs-next
