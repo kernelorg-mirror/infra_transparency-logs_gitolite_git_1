@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Fri, 09 May 2025 11:33:55 -0000
-Message-Id: <174679043523.4064266.2660461784604307639@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 09 May 2025 11:34:31 -0000
+Message-Id: <174679047158.4065192.8965247863585751925@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/netdev/net
+user: davem
 changes:
-  - ref: refs/heads/riscv-soc-for-next
-    old: a41cd775a8f1185a62a900aa40aca6ade7afd54b
-    new: 403e87ff0613a292f4fff8cca9295757e5cfc5b1
+  - ref: refs/heads/main
+    old: 6b3ab7f2cbfaeb6580709cd8ef4d72cfd01bfde4
+    new: 12f4ee312c95a76b9ae068ee1cc8fb05297e101e
     log: |
-         c14ac3bb607dd1eae679244ede572f3df40ac90a dt-bindings: cache: ax45mp-cache: allow variable cache-sets for Andes L2 cache
-         403e87ff0613a292f4fff8cca9295757e5cfc5b1 Merge branch 'riscv-cache-for-next' into riscv-soc-for-next
+         2d3cbfd6d54a2c39ce3244f33f85c595844bd7b8 net_sched: Flush gso_skb list too during ->change()
+         16ce349b15069334710faa10f2e09866f8391f26 selftests/tc-testing: Add qdisc limit trimming tests
+         12f4ee312c95a76b9ae068ee1cc8fb05297e101e Merge branch 'net_sched-gso_skb-flushing'
          
