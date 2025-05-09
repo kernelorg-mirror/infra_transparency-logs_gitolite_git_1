@@ -1,73 +1,187 @@
-Content-Type: multipart/mixed; boundary="===============5417182223828315276=="
+Content-Type: multipart/mixed; boundary="===============7360817967438062642=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Fri, 09 May 2025 22:27:28 -0000
-Message-Id: <174682964841.454034.12583904207639945470@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Fri, 09 May 2025 22:53:41 -0000
+Message-Id: <174683122184.474690.6354429737195387291@gitolite.kernel.org>
 
---===============5417182223828315276==
+--===============7360817967438062642==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/dt/next
-    old: 1b765f8bdac2a69602fccc9d069574428338fb43
-    new: 690c347dd60d19e53cb4cc044bb2be21264331ca
-    log: revlist-1b765f8bdac2-690c347dd60d.txt
+  - ref: refs/heads/main
+    old: 1ee85f0e215f22b0878d0ad4b2445d12bbb63887
+    new: 7a1d2bd0a596f42a8a7a68d55577967bb454fec0
+    log: revlist-1ee85f0e215f-7a1d2bd0a596.txt
+  - ref: refs/heads/master
+    old: 1ee85f0e215f22b0878d0ad4b2445d12bbb63887
+    new: 7a1d2bd0a596f42a8a7a68d55577967bb454fec0
+    log: revlist-1ee85f0e215f-7a1d2bd0a596.txt
+  - ref: refs/heads/next
+    old: c0e912fd4cf6a98bcfd0a847f496b207894bcf29
+    new: ccaa498523280e6ffb126e4837a8963c255233f3
+    log: revlist-c0e912fd4cf6-ccaa49852328.txt
+  - ref: refs/heads/seen
+    old: 942051794149be00d64159cc5a8d2fdd54ee3dff
+    new: 76659b136ba70b46b2b94fb147daa930b8408764
+    log: revlist-942051794149-76659b136ba7.txt
+  - ref: refs/notes/amlog
+    old: d1907f966a90523d54437e4d382ed23dd398d929
+    new: ff26e79a23129f049afd081a456bb452c2fe6ec8
+    log: revlist-d1907f966a90-ff26e79a2312.txt
 
---===============5417182223828315276==
+--===============7360817967438062642==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1b765f8bdac2-690c347dd60d.txt
+Content-Disposition: attachment; filename=revlist-1ee85f0e215f-7a1d2bd0a596.txt
 
-493e6cb63a21e9f009dc4c209fd311f2bb777656 of: unittest: Unlock on error in unittest_data_add()
-a92b9efaf2cff15a28723f592ee21df0561e58c3 dt-bindings: gpu: mali-bifrost: Add compatible for RZ/V2N SoC
-e66f869b7414673d470b7d9b081f47eae448f396 dt-bindings: Move altr,msi-controller to interrupt-controller directory
-ad453200ddfcad2998e34037e2c9bde5a8bc6c72 dt-bindings: interrupt-controller: Convert cnxt,cx92755-ic to DT schema
-85f36c69eb5709a45251b7a0b1b482255a4f256a dt-bindings: interrupt-controller: Convert brcm,bcm2835-armctrl-ic to DT schema
-2da5d435868164ca0bdbe534c25b1c5293629061 dt-bindings: interrupt-controller: Convert marvell,orion-bridge-intc to DT schema
-9f637b78ee11a64dead5c278bbc258eea34fe1cc dt-bindings: interrupt-controller: Convert arm,versatile-fpga-irq to DT schema
-521e635ea3d23816465b24bf6418fcbfeab9b900 dt-bindings: interrupt-controller: Convert faraday,ftintc010 to DT schema
-8832b1a818a5a335d2326d78e2e95e8fb6717107 dt-bindings: interrupt-controller: Convert aspeed,ast2400-i2c-ic to DT schema
-bf0efe844cabeaa90cfd3270a85164481ad2455f dt-bindings: interrupt-controller: Convert aspeed,ast2xxx-scu-ic to DT schema
-b6a420e694bc3a4299a51303ca0ef73376635557 dt-bindings: interrupt-controller: Convert ti,cp-intc to DT schema
-696744504adc8751cd1572459f752d666afc7035 dt-bindings: interrupt-controller: Convert cdns,xtensa-{mx,pic} to DT schema
-45168cd2df5019cf93ebb7ca2848867ec9988f63 dt-bindings: interrupt-controller: Convert chrp,open-pic to DT schema
-8e9da346d1f85c0d380d2aa855037a62db1fc422 dt-bindings: interrupt-controller: Convert microchip,pic32mzda-evic to DT schema
-c857eabfdb5cc22ab032ab6bca6db0483f98c5fb dt-bindings: interrupt-controller: Convert abilis,tb10x-ictl to DT schema
-9aaa005f6d7cde7745698051defc33d0c418fe4f dt-bindings: interrupt-controller: Convert al,alpine-msix to DT schema
-3b5dbef9fe1eb346ede5b4a98e5094d03c6febee dt-bindings: interrupt-controller: Convert amazon,al-fic to DT schema
-38e1a2ce2d6c280d7e7f54d5d738c170fc6669a1 dt-bindings: interrupt-controller: Convert arm,nvic to DT schema
-eda5ec2f79835b8adb4a803fcd6a60b12bfd0dfe dt-bindings: interrupt-controller: Convert brcm,bcm6345-l1-intc to DT schema
-b1c9357a71f8bde9c1a62ec9e623625b9e017c0a dt-bindings: interrupt-controller: Convert cirrus,ep7209-intc to DT schema
-5020abd10b4b5a6c29e7c58d9a2d17b05388d340 dt-bindings: interrupt-controller: Convert csky,apb-intc to DT schema
-895f9815771e38495faead1232a3c2017e59e2e7 dt-bindings: interrupt-controller: Convert csky,mpintc to DT schema
-89c590b964d89e786ed64646937549e3d89c59cb dt-bindings: interrupt-controller: Convert ezchip,nps400-ic to DT schema
-2b3b42b3005c487721b0d459308803b724b03ad0 dt-bindings: interrupt-controller: Convert google,goldfish-pic to DT schema
-a325d277321f4426bf564f12773c47ad0d52a3fd dt-bindings: interrupt-controller: Convert img,pdc-intc to DT schema
-e8acfe6eb8282f4068e951d2002c33264a618a46 dt-bindings: interrupt-controller: Convert jcore,aic to DT schema
-4ee254ddefcea1ec73b1520864a627fc5dfb502d dt-bindings: interrupt-controller: Convert lsi,zevio-intc to DT schema
-48549f9aca6df38b3e6014e23d478df57ed18cbb dt-bindings: interrupt-controller: Convert marvell,armada-8k-pic to DT schema
-2ac46cde71b4ba6970534aa4b087fdb984f13655 dt-bindings: interrupt-controller: Convert marvell,ap806-gicp to DT schema
-5f2ec939e2eee1a894ba3683541e63a4a3a2bbce dt-bindings: interrupt-controller: Convert marvell,ap806-sei to DT schema
-67729793d8b81a6682e70fe65ffd563dc0119cf7 dt-bindings: interrupt-controller: Convert marvell,cp110-icu to DT schema
-29624356fa1bbc347596965380f3837560a679fc dt-bindings: interrupt-controller: Convert marvell,odmi-controller to DT schema
-dd40320925be725e8a88ec86838a6a5334a2d235 dt-bindings: interrupt-controller: Convert qca,ar7100-cpu-intc to DT schema
-b4237b0c9fa2d286579671a4b9b18de0e28289f7 dt-bindings: interrupt-controller: Convert qca,ar7100-misc-intc to DT schema
-b300aca7b79232ce6c13f829d81ef6fc842f783e dt-bindings: interrupt-controller: Convert snps,arc700-intc to DT schema
-39ac5af4855add45982434c7bc29c230ba65eab7 dt-bindings: interrupt-controller: Convert snps,archs-idu-intc to DT schema
-f6663a9fa491c08dc7e8a701515e12e4db538065 dt-bindings: interrupt-controller: Convert snps,archs-intc to DT schema
-547a5e7e354f3f54d6c58304bda4a2ef765ec991 dt-bindings: interrupt-controller: Convert snps,dw-apb-ictl to DT schema
-cbf9113136eb4cbb41d9b4c810de3d9ba254b86c dt-bindings: interrupt-controller: Convert st,spear3xx-shirq to DT schema
-5bacd1ad7be3434505621b18f6dbc6290e512a91 dt-bindings: interrupt-controller: Convert technologic,ts4800-irqc to DT schema
-c8986a3ef32492a95ff9c671a285671913afb2bd dt-bindings: interrupt-controller: Convert ti,keystone-irq to DT schema
-a5f78db25fe0a0480a5d5824638f57f1c316843c dt-bindings: interrupt-controller: Convert ti,omap4-wugen-mpu to DT schema
-690c347dd60d19e53cb4cc044bb2be21264331ca dt-bindings: interrupt-controller: Convert ti,omap-intc-irq to DT schema
+5ff25b8384e10b7eac6e6b83c23390b1789dac2b git-gui: po/README: update repository location and maintainer
+6b43a57dfce1e5acd85f7a8365c080b6fc4f8645 git-gui: heed core.commentChar/commentString
+b55e1131111b7dd58af6668d321d560b08f0c996 gitk: adjust indentation to match the style used in this script
+1925c292e84eb9cee40bfa2582900afa9a310154 gitk: override $PATH search only on Windows
+74571bff17986359170f7dcf135c9a21bbdce06e gitk: _search_exe is no longer needed
+16c03089e617ef492427a567d3da7cb8ff28cedd gitk: limit PATH search to bare executable names
+2a7d4f2f078a8a10f866c723765c2f1c4f76d448 Merge branch 'ob/strip-comments-on-commit'
+e832d12874ddf1983837441f7b55831677fa1c12 gitk: add Tamil translation
+295de106db0315f230a560c47555e79989cd5b6f git-gui: treat the message template file as a built file
+3fdbf184be906b5f6abb35c02842ec8ad861e8f9 Merge branch 'at/translation-tamil'
+309bb874dcba2c96f8b12d20bed16cf6a1ea0133 Merge branch 'js/po-update-workflow'
+c6a20717bb5286cc140e1818d150f293bed5631b Merge branch 'master' of https://github.com/j6t/git-gui
+7a1d2bd0a596f42a8a7a68d55577967bb454fec0 Merge branch 'master' of https://github.com/j6t/gitk
 
---===============5417182223828315276==--
+--===============7360817967438062642==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-c0e912fd4cf6-ccaa49852328.txt
+
+5ff25b8384e10b7eac6e6b83c23390b1789dac2b git-gui: po/README: update repository location and maintainer
+6b43a57dfce1e5acd85f7a8365c080b6fc4f8645 git-gui: heed core.commentChar/commentString
+b55e1131111b7dd58af6668d321d560b08f0c996 gitk: adjust indentation to match the style used in this script
+1925c292e84eb9cee40bfa2582900afa9a310154 gitk: override $PATH search only on Windows
+74571bff17986359170f7dcf135c9a21bbdce06e gitk: _search_exe is no longer needed
+16c03089e617ef492427a567d3da7cb8ff28cedd gitk: limit PATH search to bare executable names
+2a7d4f2f078a8a10f866c723765c2f1c4f76d448 Merge branch 'ob/strip-comments-on-commit'
+41429cb4e4ef452e843c126a6ff185998da43431 t6011: fix misconversion from perl to sed
+e832d12874ddf1983837441f7b55831677fa1c12 gitk: add Tamil translation
+bebc728d7457023699667f2e9fde2e5d740b67e9 intialize false_but_the_compiler_does_not_know_it_
+295de106db0315f230a560c47555e79989cd5b6f git-gui: treat the message template file as a built file
+5463c1d4f6d03e63ee79bd822de667090f015356 meson: allow customize perl installation path
+60f91579c5e263da2a6aec7aa2bd6ccea968af83 apply: integrate with the sparse index
+866bd41d96cf7708404ca5f222918b9e4b2fc8a4 git add: make -p/-i aware of sparse index
+98ef755730a3effb737f7b54b3e9d178b5ced33c p2000: add performance test for 'git add -p'
+3fdbf184be906b5f6abb35c02842ec8ad861e8f9 Merge branch 'at/translation-tamil'
+309bb874dcba2c96f8b12d20bed16cf6a1ea0133 Merge branch 'js/po-update-workflow'
+c6a20717bb5286cc140e1818d150f293bed5631b Merge branch 'master' of https://github.com/j6t/git-gui
+7a1d2bd0a596f42a8a7a68d55577967bb454fec0 Merge branch 'master' of https://github.com/j6t/gitk
+3e4d3f1d59e1d1ce70cd9192eab1d0f90ba89fe2 Merge branch 'dd/meson-perl-custom-path' into next
+6168793ae507cc60dd91b8e2c35debdd80d67782 Merge branch 'jc/t6011-mv-ro-fix' into next
+d8fb9874efe7bc6fac907a813241f182ab2bb7ea Merge branch 'tb/macos-false-but-the-compiler-does-not-know-it-fix' into next
+11ce4306b9e33ccb614baa50c40f3c55186879b5 Merge branch 'ds/sparse-apply-add-p' into next
+ccaa498523280e6ffb126e4837a8963c255233f3 Sync with 'master'
+
+--===============7360817967438062642==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-942051794149-76659b136ba7.txt
+
+5ff25b8384e10b7eac6e6b83c23390b1789dac2b git-gui: po/README: update repository location and maintainer
+6b43a57dfce1e5acd85f7a8365c080b6fc4f8645 git-gui: heed core.commentChar/commentString
+b55e1131111b7dd58af6668d321d560b08f0c996 gitk: adjust indentation to match the style used in this script
+1925c292e84eb9cee40bfa2582900afa9a310154 gitk: override $PATH search only on Windows
+74571bff17986359170f7dcf135c9a21bbdce06e gitk: _search_exe is no longer needed
+16c03089e617ef492427a567d3da7cb8ff28cedd gitk: limit PATH search to bare executable names
+2a7d4f2f078a8a10f866c723765c2f1c4f76d448 Merge branch 'ob/strip-comments-on-commit'
+e832d12874ddf1983837441f7b55831677fa1c12 gitk: add Tamil translation
+295de106db0315f230a560c47555e79989cd5b6f git-gui: treat the message template file as a built file
+1acf16c83c8b7989c7560246ce38967026b5af29 object-name: make get_oid quietly return an error
+1e648286afb97a898ca6299a562845c71534b0e4 builtin/stash: factor out revision parsing into a function
+ea96357a511521234a46c66e48f77dd680eb6370 builtin/stash: provide a way to export stashes to a ref
+a2b3009883d5399334c5f8997884104ad07af77d builtin/stash: provide a way to import stashes from a ref
+3fdbf184be906b5f6abb35c02842ec8ad861e8f9 Merge branch 'at/translation-tamil'
+309bb874dcba2c96f8b12d20bed16cf6a1ea0133 Merge branch 'js/po-update-workflow'
+c6a20717bb5286cc140e1818d150f293bed5631b Merge branch 'master' of https://github.com/j6t/git-gui
+7a1d2bd0a596f42a8a7a68d55577967bb454fec0 Merge branch 'master' of https://github.com/j6t/gitk
+74727214639d7d8635f667111f4fd6a3295a18bb sequencer: move reflog message functions
+5dbaec628d6dfbdc4db9ac528d2b77cc4286d70a sequencer: rework reflog message handling
+60e63ad65fcb5952b49b5d46171598fb9b65c726 Merge branch 'ag/send-email-outlook' into jch
+f12d6906efd804cf7635166d126c9e612b341d23 Merge branch 'ps/object-store-cleanup' into jch
+2c566c1ac766c92c7bb7b7f21fee05503d8b48b6 Merge branch 'jc/ci-skip-unavailable-external-software' into jch
+5cb583154086770374b807c3a3e2f8511d7916e6 Merge branch 'ds/fix-thin-fix' into jch
+f30b75a75ebfcfed41f6cfc490c2d836637385e1 Merge branch 'ng/xdiff-truly-minimal' into jch
+9a7856fc13d5ccb74f5cfdb5431c784f3f3cff3f Merge branch 'ps/meson-bin-sh' into jch
+8930a7b0a78fc1927fb04cca3b261ee708b6d40a Merge branch 'en/get-tree-entry-doc' into jch
+2be4db7f84f818d386ad616eef0fc577104519a9 Merge branch 'ps/ci-test-aggreg-fix-for-meson' into jch
+da02f533879c5585b891cc49f858de4769d91ae4 Merge branch 'js/ci-buildsystems-cleanup' into jch
+19eea77951166ded3da6e5b019012862f9393a9c Merge branch 'kh/docfixes' into jch
+f73fa0bc33df8d8b9aa79659a67dff80dcc8d392 Merge branch 'kj/glob-path-with-special-char' into jch
+3d482fd9392df80ba637c854f48750c0617f014d Merge branch 'cf/wrapper-bsd-eloop' into jch
+caf57665cce45cc653b53f127b35caaf950e93e6 Merge branch 'ds/scalar-no-maintenance' into jch
+490907ea2dbf891d7b7783027f680ddf5ca478c3 Merge branch 'ps/maintenance-missing-tasks' into jch
+10b0951dc53d0d43be3ac89e4efb4edc78097966 Merge branch 'dd/meson-perl-custom-path' into jch
+aff34efdaf87f94f35c34c8ca5ef7d0e9612d65c Merge branch 'jc/t6011-mv-ro-fix' into jch
+fd0648055d2f95d3d31804df593eb3358a778469 Merge branch 'tb/macos-false-but-the-compiler-does-not-know-it-fix' into jch
+a4fcd84edde799de93ab5f292e06953185f91f43 Merge branch 'ds/sparse-apply-add-p' into jch
+1719471b1c1ecf9be149ecfcf121154dd0c3dda6 ### match next
+4db9cc2312d34bd7f747d558b7511facad331f76 Merge branch 'ds/path-walk-2' into jch
+78a5ce99815bf688051c4b833bdc3c63eefebc2e Merge branch 'pb/status-rebase-fixes' into jch
+9e40294b57a7a12c9afb32ac9b192c32d036c03d Merge branch 'md/userdiff-bash-shell-function' into jch
+49bd0b0245d19b524adea14a6317600730f47aa6 Merge branch 'tb/midx-avoid-cruft-packs' into jch
+ad4708809997a56206e6d81e0faf3ef7ce36d208 Merge branch 'tb/pack-bitmap-lookup-tables' into jch
+baa843cecf8b76a0d57c51e533b4dbbcb003a905 Merge branch 'sj/use-mmap-to-check-packed-refs' into jch
+37c140a876e7ee4cc65e9d536985d753a09745bc Merge branch 'ag/doc-send-email' into jch
+b29799e57b360486c80afdb45d7b6494ada7eb69 Merge branch 'pw/sequencer-reflog-use-after-free' into jch
+1b5c2545000eafc428a31acd47c43556a1d097e4 Merge branch 'bc/stash-export-import' into jch
+6f4d284c3e7b27d4d42836b3e69b11f6c31deef6 Merge branch 'js/ci-build-win-in-release-mode' into seen
+1cf344d638703c5bb71e98f682e6d1553ad9239a Merge branch 'cc/promisor-remote-capability' into seen
+62a672eba9839eb8ec90571507c947286922467a Merge branch 'sc/bundle-uri-use-all-refs-in-bundle' into seen
+89754bd4eef6655f1ffbe6b87f09a8ff87c8b6d5 Merge branch 'ib/diff-S-G-with-longhand' into seen
+85cff6b3f0046c4c8eaea6b10dbae88bdb91fefb Merge branch 'ej/cat-file-remote-object-info' into seen
+771200d6e48013e02f0b9c79230277cc2ad2b661 Merge branch 'sj/string-list-typefix' into seen
+cb83fa516f62641e2572c8ad117530af2dbc9c08 Merge branch 'jc/doc-synopsis-option-markup' into seen
+f6ec565cc1a01940e5e84e6eba2b6f84c9cdb204 Merge branch 'jc/you-still-use-whatchanged' into seen
+8c08faa978980a54bd3f4b78d9cfc90ed203f712 Merge branch 'ps/object-store' into seen
+57ce07308b6370c61a458fa74b658cd314ffdd44 Merge branch 'rj/build-tweaks-part2' into seen
+880146aefe0e60e330409a916a0c1b4ac21388c6 Makefile: avoid constant rebuilds with compilation database
+76659b136ba70b46b2b94fb147daa930b8408764 Merge branch 'bc/make-avoid-unneeded-rebuild-with-compdb-dir' into seen
+
+--===============7360817967438062642==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d1907f966a90-ff26e79a2312.txt
+
+9920fd14f936389da6476d68d110e788c6a0bc17 amlog
+080e3e6fb910d77c0afdae3d4a9c876807890636 Notes added by 'git notes add'
+0b20592814a0f08b76b3aa9a7ad720e8d23f0c38 Notes added by 'git notes add'
+ab4033eca92e5750f91725fba0b322d8768435c5 Notes added by 'git notes add'
+1b5a933fffbf299429a01552e559e569c81099c0 Notes added by 'git notes add'
+d4aa7aa8553fc7fffa652dfe80c469dafbf9a8c5 Notes added by 'git notes copy'
+17af0d37e13f9d591fddef29f93962107e4a5555 Notes added by 'git notes add'
+de1cd24b758bd35917e57157efad7b2970e50738 Notes added by 'git notes add'
+48ca80e39291b8bfeb3feaafe3a444a33819b78c Notes added by 'git notes add'
+406774d1fbc5de558e9670db555bf1aafbe292c7 Notes added by 'git notes add'
+26a62fea45b9d2cec8e1c106f89d57bc748b83d8 Notes added by 'git notes add'
+c4ff2652ae8edfdc8111b91bc67c31417c5fa8f2 Notes added by 'git notes add'
+cb2f94b9cf19102f81388bb34c9de5254af173be Notes added by 'git notes add'
+a1e12417b0740c9565cfa84730fdf7bb27666791 Notes added by 'git notes add'
+781bb2fba1a6ac029998a664631ba708654e4140 Notes added by 'git notes add'
+8a47677220d30296237d1e4d0dc5fb45962d154c Notes added by 'git notes add'
+d9de9a2a9a781e6721af01b82d47046f0d79009a Notes added by 'git notes add'
+336f6a53a7ee1e0187a9b378a7d082173e06f91f Notes added by 'git notes add'
+33009e79fc5eb8da414fab4c001ac87a7689acb7 Notes added by 'git notes add'
+e2f92348a797f906d906dda6385eb4014a6c5bf7 Notes added by 'git notes add'
+2811d7e963afb02bb7b18d67fe4a87c9e8909e1d Notes added by 'git notes add'
+77bd67b2d9cebba1d27ca583dfbd7c34a6a1b7ce Notes added by 'git notes add'
+a104d6b7b17a95cf826f558fa65a7cf474bb03d0 Notes added by 'git notes add'
+ff26e79a23129f049afd081a456bb452c2fe6ec8 Notes added by 'git notes add'
+
+--===============7360817967438062642==--
