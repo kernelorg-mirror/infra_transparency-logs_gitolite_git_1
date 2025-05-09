@@ -1,56 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============8947938443695607761=="
+Content-Type: multipart/mixed; boundary="===============5160128799107405258=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 09 May 2025 08:57:34 -0000
-Message-Id: <174678105478.3933067.6391685948541039455@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 09 May 2025 08:57:37 -0000
+Message-Id: <174678105788.3933260.6261256482706507922@gitolite.kernel.org>
 
---===============8947938443695607761==
+--===============5160128799107405258==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 071c31aef618dd2a2800b4ca8fe7d29a297a361e
-    new: ac2489fa615cab5e4d0362131fb24c6a09ac1276
+  - ref: refs/heads/for-6.15
+    old: b19fa45715ce9cfcc597ed140df31115e969b39d
+    new: b7e3ec4e17e27420ebe976c7714881b64c28d63b
     log: |
-         ac2489fa615cab5e4d0362131fb24c6a09ac1276 5.15-stable patches
+         b7e3ec4e17e27420ebe976c7714881b64c28d63b ASoC: mediatek: mt8188-mt6359: Depend on MT6359_ACCDET set or disabled
          
 
---===============8947938443695607761==
+--===============5160128799107405258==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1746781085 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1746781049-0be587917fc6a2bed1b985bfacef9d08ceba0107
+pusher Mark Brown <broonie@kernel.org> 1746781087 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1746781056-97c3bc40fb2732e331eeef8d3ec540f6ee8ed20a
 
-071c31aef618dd2a2800b4ca8fe7d29a297a361e ac2489fa615cab5e4d0362131fb24c6a09ac1276 refs/heads/master
+b19fa45715ce9cfcc597ed140df31115e969b39d b7e3ec4e17e27420ebe976c7714881b64c28d63b refs/heads/for-6.15
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgdw50bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MpgP/12fPrCAXq4KlCcHG0o5
-QfVKSh+HzSLqX/VFj2JWQoOhXKfHe8WsexT8Sinnca4HbX+MGKh5QZ2r/BubPPXx
-afJ7AEwtjXns0VLxGH/TOyMUf/zdPIKFrQCNSxTL75pg6b80DLllYzzBDWQkVgCH
-6Thgp9xt5HMCwIwxXibqERHGWh5m/IXOLkN3gtZLITmwMn2moQDjXy/3U1Cq79WJ
-rbvB/vztIYT/k3UDUPK7Rc4AsOh5YDNf32QSkpHi7Sio0jerBbhvgZvVqrcJSmD3
-rQg9HZ89FhMW06msZTKXmSdJiHVsoWLqSfbTRZIsmwt52GiIzOHU00IHNszwJelh
-CjzSVWLgrTuXTIBAfVwxwZB4bPZZWHWkGmm0n3jPWD+Myzgs6nsY4N/pn+Iu97VF
-3nupZsRmI/ZvImUsmWCd5NC1vNCvrdTnvI3efxWoBaBAuqnU3W4XLOOb8teTKrX4
-EyJBAfG3eRfcqSy3pJgmQXKqSDxNSJWQJVXN3oAK3rfjDJXFA8Y6QJN55Ra8e+Wp
-ZxkzGTt1qgBuH03k96QRzeKpldmavE6fdNGyjvyOa5S4IUDfzpDdEH/9UzNXEOHc
-BLHwfBK54vdeWX032eon+BVNBDLdfl39tINZg0xY2/0wDs6NWxjs/sU2c2Dj+urs
-h2D6p7lYKJVmPcLMvv6Atj9V
-=WKJx
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgdw58THGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0JQ2B/9yBr48BYAjwwmXK5l6ESRpwOC8r6IY
+sv/V+begoskUnT/vW43f10LavVibGdCSTSh3VCzvYqT+bwLR0nPU1sgo6V2jXFKE
+k8biHE1mWKcJb/yWaAgyrG9fubpWJnZTte6hPpwcCBSjeP6skv0R+tobsUxleisa
+93EAQT5R0HMuB/PPKyfSrooYmHORU6eJoQaguSCVyCIwetRFyF59PWMBqmlC0VIK
+jx/ctRfEtIO0QOevR2MhCsnuRxzwkdMxXThwF9qu3//AxtaWa0rcLu8GnlL+Mb24
+iQv8kRSTAHJvF6BlWd1asaRi0Jxz/ZUy+aILh3Db0GmK3ACamt3v5GTC
+=MhHr
 -----END PGP SIGNATURE-----
 
---===============8947938443695607761==--
+--===============5160128799107405258==--
