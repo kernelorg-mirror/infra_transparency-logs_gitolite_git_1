@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9149172451272885536=="
+Content-Type: multipart/mixed; boundary="===============4885612086023723382=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 09 May 2025 15:17:03 -0000
-Message-Id: <174680382325.69893.18039486522992221838@gitolite.kernel.org>
+Date: Fri, 09 May 2025 15:17:06 -0000
+Message-Id: <174680382634.70166.3491274261727260707@gitolite.kernel.org>
 
---===============9149172451272885536==
+--===============4885612086023723382==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 9540984da649d46f699c47f28c68bbd3c9d99e4c
     new: 12f4ee312c95a76b9ae068ee1cc8fb05297e101e
     log: revlist-9540984da649-12f4ee312c95.txt
 
---===============9149172451272885536==
+--===============4885612086023723382==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -299,4 +299,4 @@ ea9a83d7f371f44d0815de6015b481cf2a6089c8 Merge tag 'for-net-2025-05-08' of git:/
 16ce349b15069334710faa10f2e09866f8391f26 selftests/tc-testing: Add qdisc limit trimming tests
 12f4ee312c95a76b9ae068ee1cc8fb05297e101e Merge branch 'net_sched-gso_skb-flushing'
 
---===============9149172451272885536==--
+--===============4885612086023723382==--
