@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2696627658305660635=="
+Content-Type: multipart/mixed; boundary="===============8314722613044456007=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-Date: Fri, 09 May 2025 04:10:11 -0000
-Message-Id: <174676381179.3479770.4669174148519627099@gitolite.kernel.org>
+Date: Fri, 09 May 2025 04:10:38 -0000
+Message-Id: <174676383895.3480420.16729409401443181363@gitolite.kernel.org>
 
---===============2696627658305660635==
+--===============8314722613044456007==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,23 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
 user: tzungbi
 changes:
-  - ref: refs/heads/for-next
-    old: 40384c840ea1944d7c5a392e8975ed088ecf0b37
-    new: 3e552ccf405c0dea6339988202a564357249c437
-    log: revlist-40384c840ea1-3e552ccf405c.txt
+  - ref: refs/heads/dev
+    old: 6a4ba9c0ae58620803514c80679c6a3409581a6f
+    new: e5d257fde70f2243b965516bef6bc50f12712607
+    log: revlist-6a4ba9c0ae58-e5d257fde70f.txt
 
---===============2696627658305660635==
+--===============8314722613044456007==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-40384c840ea1-3e552ccf405c.txt
+Content-Disposition: attachment; filename=revlist-6a4ba9c0ae58-e5d257fde70f.txt
 
-816619782bdc70d7f33a8d0cda36d61414cec467 io_uring: move min_events sanitisation
-c59d88101cd9ed609678880e93b8e7684c7ba68e Bluetooth: btnxpuart: Add correct bootloader error codes
-bf81cf29b77c09b8c0a5ef3d574945e57dfde787 Bluetooth: btnxpuart: Handle bootloader error during cmd5 and cmd7
-1f77c05408c96bc0b58ae476a9cadc9e5b9cfd0f Bluetooth: btnxpuart: Fix kernel panic during FW release
-3a7fdfb7d876910cfe734488f553dbbc938f8f16 Bluetooth: hci_event: Fix handling of HCI_EV_LE_DIRECT_ADV_REPORT
-eed14eb510c040a3826b633048244bb7a816c67d Bluetooth: MGMT: Add LL Privacy Setting
 fd87b7783802b45cdd261b273e6b2b792823064d net: Fix the devmem sock opts and msgs for parisc
 355d63e5de95de72561891b4d17b83ba82cfe42a arch: mips: defconfig: Drop obsolete CONFIG_NET_CLS_TCINDEX
 8cc14fdcc1b8473adcf90dae63a246042ebdcc25 Merge branches 'for-next/amuv1-avg-freq', 'for-next/pkey_unrestricted', 'for-next/sysreg', 'for-next/misc', 'for-next/pgtable-cleanups', 'for-next/kselftest', 'for-next/uaccess-mops', 'for-next/pie-poe-cleanup', 'for-next/cputype-kryo', 'for-next/cca-dma-address', 'for-next/drop-pxd_table_bit' and 'for-next/spectre-bhb-assume-vulnerable', remote-tracking branch 'arm64/for-next/perf' into for-next/core
@@ -1050,5 +1044,11 @@ ccf395bde6aeefac139f4f250287feb139e3355d platform/chrome: cros_ec_proto: Allow t
 fb8bfb48a4d11efb9b3e492d7c5e9ae7478786ce platform/chrome: of_hw_prober: Support touchscreen probing on Squirtle
 a9635ef0ca12e7914f42bfa7ca6a019f606c2817 platform/chrome: cros_ec_typec: Set Pin Assignment E in DP PORT VDO
 3e552ccf405c0dea6339988202a564357249c437 platform/chrome: kunit: Avoid -Wflex-array-member-not-at-end
+98cb648eb004c0188afc2d4e1f332ac3ebfb0398 kunit: expose ftrace-based API for stubbing out functions during tests
+824799ab2f6a1883c6e5079300fc23d5bd939c7f platform/chrome: add Kunit tests for cros_ec_i2c
+2df29a5005e6479b015ff5c0ff30e0d2447c8da9 platform/chrome: add Kunit tests for cros_ec_spi
+ba5529b63dbd2d6c8e9492d768ba77c68329ad65 platform/chrome: add Kunit tests for cros_ec_uart
+6f6722f4613297f3b865041317727bbcd4acacef platform/chrome: add Kunit tests for cros_ec_spi (attempt 2)
+e5d257fde70f2243b965516bef6bc50f12712607 mfd: cros_ec: add Kunit tests
 
---===============2696627658305660635==--
+--===============8314722613044456007==--
