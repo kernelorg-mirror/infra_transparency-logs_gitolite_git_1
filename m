@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3890901356311207493=="
+Content-Type: multipart/mixed; boundary="===============8650985726848874042=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 09 May 2025 15:09:45 -0000
-Message-Id: <174680338516.62773.13427572916398833937@gitolite.kernel.org>
+Date: Fri, 09 May 2025 15:17:00 -0000
+Message-Id: <174680382028.69784.1693405908143877289@gitolite.kernel.org>
 
---===============3890901356311207493==
+--===============8650985726848874042==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 7e5af365e38059ed585917623c1ba3a6c04a8c10
-    new: 45f0c9aa81fe64a34ba64469a7f90e97986a38a8
-    log: revlist-7e5af365e380-45f0c9aa81fe.txt
+  - ref: refs/heads/1GbE
+    old: 9540984da649d46f699c47f28c68bbd3c9d99e4c
+    new: 12f4ee312c95a76b9ae068ee1cc8fb05297e101e
+    log: revlist-9540984da649-12f4ee312c95.txt
 
---===============3890901356311207493==
+--===============8650985726848874042==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7e5af365e380-45f0c9aa81fe.txt
+Content-Disposition: attachment; filename=revlist-9540984da649-12f4ee312c95.txt
 
 549d8994447f2f628c6cedd139d53926bdfee881 media: vivid: fix FB dependency
 9df181c8de1b6b285556f80bfd02584f3457f32e media: i2c: lt6911uxe: Fix Kconfig dependencies:
@@ -298,19 +298,5 @@ ea9a83d7f371f44d0815de6015b481cf2a6089c8 Merge tag 'for-net-2025-05-08' of git:/
 2d3cbfd6d54a2c39ce3244f33f85c595844bd7b8 net_sched: Flush gso_skb list too during ->change()
 16ce349b15069334710faa10f2e09866f8391f26 selftests/tc-testing: Add qdisc limit trimming tests
 12f4ee312c95a76b9ae068ee1cc8fb05297e101e Merge branch 'net_sched-gso_skb-flushing'
-4f89bdd564426dfd9ae4bfd59237603a1dd812f4 coccinelle: misc: secs_to_jiffies script: Create dummy report
-f2f5372f336b3e11f84144fc6f5e41158d44e596 ice: fix lane number calculation
-13b1faa22271befe1bfb7118d591c52aee487683 ice: fix fwlog after driver reinit
-6c266f69d931898fd03af4569787a3ea65a42bb3 iavf: iavf_suspend(): take RTNL before netdev_lock()
-89035dbd805ea4cc859dda6424ea6c51bc68fb2a iavf: centralize watchdog requeueing itself
-01da266d3d32d21b1617b00b34579bec1a44b011 iavf: simplify watchdog_task in terms of adminq task scheduling
-155499a1fd7ef893fde8ee9d29cc29e53c3440ff iavf: extract iavf_watchdog_step() out of iavf_watchdog_task()
-dfb70e0cd3c173744229c534f5f25977dccd3b10 iavf: sprinkle netdev_assert_locked() annotations
-075f1bd19b3b71da74724bea372bf070dc83ce3d iavf: get rid of the crit lock
-9da489f69bf76b9a41ea71cea14233ec1a714f14 ice: fix vf->num_mac count with port representors
-dd06a956925c212f2acafa4d0cbeb0c862ba3785 idpf: fix null-ptr-deref in idpf_features_check
-f3cc225be92e50699974bc50f2bd43e751e4d32d iavf: fix reset_task for early reset event
-a617dc71050b62ff73116aa7643272a6f9d5ac07 ice: Fix LACP bonds without SRIOV environment
-45f0c9aa81fe64a34ba64469a7f90e97986a38a8 idpf: fix a race in txq wakeup
 
---===============3890901356311207493==--
+--===============8650985726848874042==--
