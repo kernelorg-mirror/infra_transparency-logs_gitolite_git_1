@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Fri, 09 May 2025 22:57:28 -0000
-Message-Id: <174683144831.478954.657954001466081652@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 09 May 2025 23:24:53 -0000
+Message-Id: <174683309374.500455.3989588012816651642@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/main-pending
-    old: 7a504559dc24a4f58d07ff76acd920d261c4a6c0
-    new: f8dfe16d7e3c264fe421c1a92ea359dc1bb8b7ae
+  - ref: refs/heads/main
+    old: 12f4ee312c95a76b9ae068ee1cc8fb05297e101e
+    new: e4f349bd6e58051df698b82f94721f18a02a293d
     log: |
-         78631fc0e912276711fb9ab8eeb75c8bdde4a064 wifi: ath12k: fix memory leak in WMI firmware stats
-         f8dfe16d7e3c264fe421c1a92ea359dc1bb8b7ae Merge branch 'pending' into main-pending
+         45375814eb3f4245956c0c85092a4eee4441d167 tools/net/ynl: ethtool: fix crash when Hardware Clock info is missing
+         f11cf946c0a92c560a890d68e4775723353599e1 net: mctp: Don't access ifa_index when missing
+         97c4e094a4b2edbb4fffeda718f8e806f825a18f tests/ncdevmem: Fix double-free of queue array
+         e4f349bd6e58051df698b82f94721f18a02a293d net: mctp: Ensure keys maintain only one ref to corresponding dev
          
-  - ref: refs/tags/ath-pending-202505091951
-    old: 0000000000000000000000000000000000000000
-    new: f8dfe16d7e3c264fe421c1a92ea359dc1bb8b7ae
