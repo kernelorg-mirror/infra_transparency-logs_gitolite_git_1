@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============7604938951658852817=="
+Content-Type: multipart/mixed; boundary="===============2951794993127137889=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Sat, 10 May 2025 01:47:23 -0000
-Message-Id: <174684164399.620995.6263751051627800927@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Sat, 10 May 2025 01:47:31 -0000
+Message-Id: <174684165120.621300.5315321524959349414@gitolite.kernel.org>
 
---===============7604938951658852817==
+--===============2951794993127137889==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.15
+  - ref: refs/heads/asoc-6.15
     old: b7e3ec4e17e27420ebe976c7714881b64c28d63b
     new: 6052f05254b4fe7b16bbd8224779af52fba98b71
     log: |
@@ -25,7 +25,7 @@ changes:
          4e7010826e96702d7fad13dbe85de4e94052f833 ASoC: SOF: Intel: hda-bus: Use PIO mode on ACE2+ platforms
          6052f05254b4fe7b16bbd8224779af52fba98b71 ASoc: SOF: topology: connect DAI to a single DAI link
          
-  - ref: refs/heads/for-6.16
+  - ref: refs/heads/asoc-6.16
     old: 4815e9fc892bb85f856f119006687fdb6c71ee01
     new: 321f9db5563e1a6c89546b19bd031269aa3f17b8
     log: |
@@ -34,29 +34,29 @@ changes:
          321f9db5563e1a6c89546b19bd031269aa3f17b8 ASoC: soc.h: remove unnecessary definitions
          
 
---===============7604938951658852817==
+--===============2951794993127137889==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1746841674 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1746841642-93ce39ae3bf3e15f327c3eca0ae212c1a741ec66
+pusher Mark Brown <broonie@kernel.org> 1746841681 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1746841648-de41fc1d058c3462a7daa96d8d36fc865d9cb3fe
 
-b7e3ec4e17e27420ebe976c7714881b64c28d63b 6052f05254b4fe7b16bbd8224779af52fba98b71 refs/heads/for-6.15
-4815e9fc892bb85f856f119006687fdb6c71ee01 321f9db5563e1a6c89546b19bd031269aa3f17b8 refs/heads/for-6.16
+b7e3ec4e17e27420ebe976c7714881b64c28d63b 6052f05254b4fe7b16bbd8224779af52fba98b71 refs/heads/asoc-6.15
+4815e9fc892bb85f856f119006687fdb6c71ee01 321f9db5563e1a6c89546b19bd031269aa3f17b8 refs/heads/asoc-6.16
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgesEoTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0IleB/9wFk4cV2M+PC2l9Ol+V5Nh1aNxTRP1
-SpvCFbjlJAQA2e9an2aCPISzTawNP6KliAiOe0fFxZYOwuho7lFWAGLEG/H8QCMD
-yFJhrmyaq3JrQHn92LO8JcrKnZG2e6KQjB6qj63bwCsKuITet8kOVVsi4jg5kQrZ
-tsu2rUOlyYG8CcEf6wh8sTWsleLXa2tlhh+32Gn0Pp5zHMGvk60tr/I9fd3uzXjz
-xcS9ygG35XxJay7SIb3Jqzs+4Sx9TzU5dgm+h1EtlKySfjRMMSvsYL57CSM5LXf2
-d59t2WEtyFd6rCC1bS1cQsuOx2oThjJWq9b4pnW7nmQdbrVHOLUwkWyc
-=qsu+
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgesFETHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0L4bB/9l8iDUs0Sisg+wnCjLNAKqPU5o9sy4
+pcfkBWvzUBnLdBDLRWW57i5EVRNHY6/u5UwG7B9FIYGGLjfNS+WpDV9yqXDPzEYZ
+BXrPJBmDuIm75IPs7+ORKau2Imb782zN1hmsnyFo5ZvTxKz6ZcMFNPAGX+1S1u5Y
+GKCX3SJP/poJzPyTcl7p9nDCxs/7txU6tzsoUHO1ScHNRGcQE3vS0Lf6mGvIvphR
++Jc0RW5qxORp6mdQJ7XTCW6XbYWa1vX98HcuNFp5lMeZKujHrgB59r4/NOrryyCl
+xY4PwnRsaoN3w36v2Qv/0bkaHnCh2vGncWYGUVO8aucUbbJsagD/bnDn
+=14FF
 -----END PGP SIGNATURE-----
 
---===============7604938951658852817==--
+--===============2951794993127137889==--
