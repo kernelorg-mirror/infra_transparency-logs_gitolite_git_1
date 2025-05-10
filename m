@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Sat, 10 May 2025 09:30:42 -0000
-Message-Id: <174686944282.1010970.6744747982592068727@gitolite.kernel.org>
+Date: Sat, 10 May 2025 09:38:37 -0000
+Message-Id: <174686991709.1016398.7280523093967611060@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/arm/gpio-cleanup
+  - ref: refs/heads/drivers/tee
     old: 0000000000000000000000000000000000000000
-    new: fb52f3226cab41b94f9e6ac92b1108bce324e700
+    new: 39bb67edcc582b3b386a9ec983da67fa8a10ec03
