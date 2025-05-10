@@ -1,42 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============8976422236541635748=="
+Content-Type: multipart/mixed; boundary="===============1744748336959667056=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Sat, 10 May 2025 01:49:27 -0000
-Message-Id: <174684176726.623028.9489351734367782954@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Sat, 10 May 2025 01:49:55 -0000
+Message-Id: <174684179522.624316.7184579434549022737@gitolite.kernel.org>
 
---===============8976422236541635748==
+--===============1744748336959667056==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/broonie/spi
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: 70e21ac8b0543def19c8bd1addeec4995fbc0ea9
-    new: cd17a9b1a779459d06bf32a20590da13a5e5ef42
-    log: revlist-70e21ac8b054-cd17a9b1a779.txt
+  - ref: refs/heads/for-6.16
+    old: 9fbae052f6f68056fd84e8ba096a7e9ab3464f3d
+    new: 09fd04daed0746d8e77ed2327f26c671ce49023c
+    log: |
+         bf657e234ac12923b579b13d8b9f1b5ca0519697 memory: renesas-rpc-if: Fix RPCIF_DRENR_CDB macro error
+         74c35c84f2ba942e7a7744658a8257d0b3188ac2 memory: renesas-rpc-if: Move rpcif_info definitions near to the user
+         b2d25905366b4e6791f60e6bc76a636d1b88e6f8 dt-bindings: memory: Document RZ/G3E support
+         228e72bf943687d04bf06a98722ab6cf9d4b8ba6 memory: renesas-rpc-if: Move rpc-if reg definitions
+         c66fce831d0669dc809f90bcefd80ae979e35431 memory: renesas-rpc-if: Use devm_reset_control_array_get_exclusive()
+         198158a8f64cf150325f68044274e21ab0aa69c8 memory: renesas-rpc-if: Add regmap to struct rpcif_info
+         e1c200a4c7f0e8b842a9a5b7f38fa7036c0df417 memory: renesas-rpc-if: Add wrapper functions
+         687cac9559d8e9277830bdfb68b57d7403695b1d memory: renesas-rpc-if: Add RZ/G3E xSPI support
+         798dc3f19c9e3855c18c3afb610bc5d27195ef44 memory: renesas-rpc-if: Add missing static keyword
+         b0b8d3aeadb5c49bf78305a1bc844e5a9378257c spi: rpc-if: Add write support for memory-mapped area
+         09fd04daed0746d8e77ed2327f26c671ce49023c Add RZ/G3E xSPI support
+         
 
---===============8976422236541635748==
+--===============1744748336959667056==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-70e21ac8b054-cd17a9b1a779.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-bb3de7fa988c1b315ab8e87dc74e0d088284f142 perf trace: Fix leaks of 'struct thread' in fprintf_sys_enter()
-30d20fb1f84ad5c92706fe2c6cbb2d4cc293e671 perf trace: Fix leaks of 'struct thread' in set_filter_loop_pids()
-4bfe27140edf8dd1322326c79f5ae8d29ff7e43d perf tests: Fix 'perf report' tests installation
-c42e219942cb1325fe38160a4fd2be73c74abc0e perf lock contention: Add -J/--inject-delay option
-c60b7d6f50ae25a91a6998a8118bba325a382d28 perf pmu: Use available core PMU for raw events
-4f1a19b8bc1485d3e8fb57edc1650e50f61f931e perf test amd ibs: Fix spelling mistake "Asssuming" -> "Assuming"
-60869b22afadc52775c98813f19d9817db95325f perf demangle-rust: Add rustc-demangle C demangler
-e20848c317b51e74953c38cd14ab2926baa1608b perf symbol-elf: Integrate rust-v0 demangling
-ac292ea7c38ae3415e5c44eafa3d13ca04080124 perf demangle-rust: Remove previous legacy rust decoder
-bdf05ccd1841427445e7a7d117b47f1737e879bc perf test demangle-rust: Add Rust demangling test
-41fcc9a3435f48c6d0948999491507b594f229a2 perf test demangle-java: Switch to using dso__demangle_sym()
-cd17a9b1a779459d06bf32a20590da13a5e5ef42 perf test demangle-ocaml: Switch to using dso__demangle_sym()
+certificate version 0.1
+pusher Mark Brown <broonie@kernel.org> 1746841825 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1746841793-b96f2ba732e2dc9ee7c770f2a688e1f594e59ad0
 
---===============8976422236541635748==--
+9fbae052f6f68056fd84e8ba096a7e9ab3464f3d 09fd04daed0746d8e77ed2327f26c671ce49023c refs/heads/for-6.16
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgesOETHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0IZXB/43Qnj0NbL2Q2RiCzdwnXSoBymftkDB
+DfWT4phk/rg1pW1xWtxofbtGgc/XYUnEO/G4xNcZ043pC3QHwbU27SL397RQR/YN
+ndWKR8dzO7N1hEJ5kRF6cVnXF3xLrSsj/H8L5Kbh79+N2WxKhfn2AtegKkpqI9Ax
+ygbi/k6Iv1jhz8eanrKNWYJDFAXWp3cSIxObVnP2kv3K4vs9limBdjNjMd47oY/+
+N3Hpona+wLgiONcVV+rlNAYj/YJy4A/d36goFVAKunkoA+inHkZ/phh1O82kHI5N
+Z7bwuE2md0VPt2PJYatH2G1zXXa7SRwJuM/ikCUI8YXxprMfSfk5FESW
+=+q2v
+-----END PGP SIGNATURE-----
+
+--===============1744748336959667056==--
