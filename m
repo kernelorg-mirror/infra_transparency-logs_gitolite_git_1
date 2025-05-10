@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2385289919410393786=="
+Content-Type: multipart/mixed; boundary="===============6452319641939607035=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sat, 10 May 2025 00:06:11 -0000
-Message-Id: <174683557140.537710.11682798696999480281@gitolite.kernel.org>
+Date: Sat, 10 May 2025 00:06:46 -0000
+Message-Id: <174683560603.538197.7837472542137570973@gitolite.kernel.org>
 
---===============2385289919410393786==
+--===============6452319641939607035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: c1bd3395d695f62c9b9a7d2c986ae9f78892b382
-    new: 049432a584926937ecdd22d3732f1ed79b9c133b
-    log: revlist-c1bd3395d695-049432a58492.txt
+  - ref: refs/heads/nfsd-testing
+    old: d5235644228f18bc794d89a5d56c31ca43d6a125
+    new: 4ca256601287f539718965e46ea50fa9e71eb722
+    log: revlist-d5235644228f-4ca256601287.txt
 
---===============2385289919410393786==
+--===============6452319641939607035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c1bd3395d695-049432a58492.txt
+Content-Disposition: attachment; filename=revlist-d5235644228f-4ca256601287.txt
 
 c51e9aef441d9cbcce27097dbea758ed4d9e8ed9 NFSD: unregister filesystem in case genl_register_family() fails
 a1c2243688ee02e6b0153c0c4a9ff72d786f3fc1 NFSD: fix race between nfsd registration and exports_proc
@@ -59,5 +59,49 @@ bfd519d8dd2345a698b52c15387e3d1fcb004494 nfsd: add tracepoint to nfsd_readdir
 f6f484a2bf500c70defa043aba7711833e83e057 nfsd: remove dprintks for v2/3 RENAME events
 314ad3fb86c392ef7abd1aa1e6e12c3200d80a01 nfsd: remove legacy READDIR dprintks
 049432a584926937ecdd22d3732f1ed79b9c133b nfsd: remove legacy dprintks from GETATTR and STATFS codepaths
+853c6a6dfda4a4f605e9c265330d6c82574116c3 svcrdma: Reduce the number of rdma_rw contexts per-QP
+4a4ee548dd1a1a22df42932413cc8b14917ae660 sunrpc: Add a helper to derive maxpages from sv_max_mesg
+c585ffa304d3a3d2852242c43fdb7b856062a435 sunrpc: Remove backchannel check in svc_init_buffer()
+5dd80b1a81b494ef4c28883000653ea839daba8b sunrpc: Replace the rq_pages array with dynamically-allocated memory
+e835088130fb6370dfac9c5ebea8f4454683e731 sunrpc: Replace the rq_bvec array with dynamically-allocated memory
+085bf3e92b433cdebb8584f2c1269039e6e353ec NFSD: Use rqstp->rq_bvec in nfsd_iter_read()
+dfa07cebf2134d07446c5f501d120934bf139620 NFSD: De-duplicate the svc_fill_write_vector() call sites
+b5e2f0b8ff0c05be6d085bc6f9a3cc179e5729f2 SUNRPC: Export xdr_buf_to_bvec()
+4e438376084b2f6609858e82f7b8788d2267c3f1 NFSD: Use rqstp->rq_bvec in nfsd_iter_write()
+c203cd39a270386df1fa691d11f8baad0fb41f8d SUNRPC: Remove svc_fill_write_vector()
+b6e79f7a7e0f1bd30c5f3a2c76f4af0a5a28f849 SUNRPC: Remove svc_rqst :: rq_vec
+86893e33d860bdde1e52b9e9758f6156c4a68171 sunrpc: Adjust size of socket's receive page array dynamically
+4f284ddbce39326b45e87d682e27a1d3132ce061 svcrdma: Adjust the number of entries in svc_rdma_recv_ctxt::rc_pages
+17ce9b062935922a717da30bf0ca86e3370ce8f7 svcrdma: Adjust the number of entries in svc_rdma_send_ctxt::sc_pages
+5aee4e9cf242df34ebf307675a331390ea813bb7 sunrpc: Remove the RPCSVC_MAXPAGES macro
+08af8c1cdd733435e56733e63edf9157778a92ae NFSD: Remove NFSD_BUFSIZE
+cbd45b3d63d1bae046ddd4db8260b1bc96c472a8 NFSD: Remove NFSSVC_MAXBLKSIZE_V2 macro
+6ae405e87fa77d3f53e4454f21c115ddbe7e8ad8 NFSD: Add a "default" block size
+eedfb60785032d3cfb108f971a8804fd484e27ac SUNRPC: Bump the maximum payload size for the server
+253983bc93c141d835bcfc0c2059088a98c9064a Add include entries for NFSv4 POSIX draft ACLs
+1337df5002bf14c0626406b960df09398cdec8c0 Add include entries for the POSIX draft ACL attributes
+c0b63a7e25990e2869146722675327ad0d12e8e0 Fix up a comment that specifies the draft
+94c36f1c1a960f285b580162658a50b08fae4fc9 Add a new ACL function to get a POSIX ACL
+e493c98b68bbe978e9417fd4a55896e2bf1ef6a0 Add a new function to set a POSIX draft ACL
+66a8623211c05a37d64e66d25e7714b5f3dbc087 Add the FATTR4_xxx bits for the POSIX draft ACL attributes
+e010a7afd8f842ad178605c46c12e658d822e009 Add fields for the default and access POSIX ACLs
+8747431387f598f10b3bb024e4ca84b541bc0e9c Add handling of the XDR for the POSIX draft ACL attributes
+f08955da92e287df68bbea2e2fcadf0fddb54bde Add a check to ensure POSIX and NFSv4 ACLs are not both being set
+5bc613097d535c979e1781ec88972bc71e192a21 No need to check for a NULL acl pointer
+0bd8953a7b13c1902bc7155437d252db2592329a Add na_dpaclerr and na_paclerr for file creation
+5f6862fb492f41094e8378707b0e0b1138945527 Add support for POSIX draft ACLs for file object creation
+0701b130d3ce0ea0e943d8d322425f8d8cc8cb4e Decode the POSIX draft ACLs for file object creation
+e60e0a02fe9963d92c173b6d39f85450bb833654 Fix the posix acl release function names
+db84730e61886350923438de2cd15381be7004b2 Fix a couple of bugs in POSIX ACL decoding
+b2f3026a4b1d69885b93630bb8d4d4763037084d NFSD: Fix compiler warnings due to incorrect format specifiers
+443cf350eb9734332558c7291a2dcde2d2a95467 Clarify the comment and use 3 * XDR_UNIT instead of 12.
+0aaa0e0180d20e096d19b3c88d34d4b6cb73296b Fix indentation of switch statements
+e07b0697fe43845ef978fdb893c30b8d4d33e054 Fix the array index for word2
+4feeb9351b26bf96ad66757fad27e7d7a2bc1650 Improve correctness for the ACL_TRUEFORM attribute reply
+9742874498da8950612f6f27478ede22a478391b Make sort_pacl_range() global
+2faee2b29a8d0f3041dc3ec648a25a21c1532e9b Call sort_pacl_range() for decoded POSIX draft ACLs
+f1c460762bc6edd05235e998d8078fb86c9a8600 Fix handling of POSIX draft default ACLs
+1ca6c760a2cd01ce486604c28f9b2548a0823bdd Fix handling of zero length ACLs for file object creation
+4ca256601287f539718965e46ea50fa9e71eb722 siw: Enable try_gso
 
---===============2385289919410393786==--
+--===============6452319641939607035==--
