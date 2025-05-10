@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6180292616980552287=="
+Content-Type: multipart/mixed; boundary="===============3184291441931614569=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Sat, 10 May 2025 13:30:32 -0000
-Message-Id: <174688383229.1205739.18425125776711962023@gitolite.kernel.org>
+Date: Sat, 10 May 2025 13:31:20 -0000
+Message-Id: <174688388011.1206252.14328131657318985420@gitolite.kernel.org>
 
---===============6180292616980552287==
+--===============3184291441931614569==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 92a09c47464d040866cf2b4cd052bc60555185fb
-    new: 1a33418a69cc801d48c59d7d803af5c9cd291be2
-    log: revlist-92a09c47464d-1a33418a69cc.txt
+  - ref: refs/heads/readfile
+    old: 439c67623d53bcd5020a43ce2621877d97809ed8
+    new: 0c33b587865ef92f312d1b05336f394f46f80713
+    log: revlist-439c67623d53-0c33b587865e.txt
 
---===============6180292616980552287==
+--===============3184291441931614569==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1746883863 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1746883884 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1746883831-29968016ff84a6a82a68531f4b492baebf36b30b
+nonce 1746883850-7497066dfd0385efd067c7e67f4a3cefeef3a94b
 
-92a09c47464d040866cf2b4cd052bc60555185fb 1a33418a69cc801d48c59d7d803af5c9cd291be2 refs/heads/main
+439c67623d53bcd5020a43ce2621877d97809ed8 0c33b587865ef92f312d1b05336f394f46f80713 refs/heads/readfile
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgfVRcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IdYP/jS9/zi/CdfZgysTl31X
-Jkxymv73uBHq1e/VeIwIlpv/CE6JayWaznPdOrrvwHNxGgdpuWjtou8/a4FogcNk
-5JWd8nzZ1+F+NjDv6+mcMYhXDbICaBvbJ9tnqWgJKzOnAAOxz1omin5RQnhgWrR0
-BIKyPwqbTAbRu9fwA0Z6mrMZivjaFQJneeeZNPdG1kDmkEcYbAnf44ZeATDZnOAT
-pOXYbAshoI1njgWgtWv2JUuKOHPYwpef+P75duYl6OzW1EPRextgKzEBAIPH4+VA
-elOYaj2Qj75zt3xVdLWk1kxXMCYisjCjrpNDg9EB2k7+OrSP9FoQkwTIig0z+zs/
-IoDpK2KSOWC6mLK/20EyH1CmozM61bcqSsx95TTLosjiIQyumsj64a5jeg/Qq5Jh
-yRNcwkb/+KNNJNFbQHmuEpwJ4z2brMHm4OG7qMv0e1c2OTViy84l6w1gfE8CkEgi
-ZqpW6Yv4i0N/J28wAdFrR6czx+UGM0yqWY5Qiz7zzROYBx+S0HIDb8F+/UYRp2y7
-h+iv6mwV8lp0YVt2JYu9++9Ws+f4UGeRkQvpbaTHv7MSwl/VQpoW5weJ0AVbwvuU
-VKSRacDynX7ulz2MnruivLzrpcCEB2Z6ZNGxSUXLZAauuC0uXwz2/fHj7/8bdAE0
-FU9TqWsi7aeWiCC/TbU057QF
-=0WP4
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgfVSwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gR0P/39El9eB+Y7ev0CvI48i
+YzeLppfPlbeSLgUVGD/isGhnzEWabV/Jm/rwr9NvF3/rMQwA5AbafxVbp1jIy4MS
+Dxsy0Bx+8a0uZdxkatGTUaEtX/7VK2LTHLFdDlN+0tBW8ZoNXnjI3jF4Y58i2hHp
+7uZJFEaDuPrJ2zjoAFuqmqhrqrmRgiEFbvgn5Ogmxd6DCtpxkx/+V+SdI+JzFQvq
+j2lEIoj5Lq0GP9NezlYGc3eY0nPmzKOIb656xuxGbJ+ZrO9YwXk54uD/ZGuFpstR
+zDJAKtIDOJ/shPl/43yx1R5IPJq6WLg+9Fh1rsDwESAaN0P8hhqNq0PBoRQOqCKq
+ZII/3VAalXfKbXQsxiAtAJ/hllZ1AqYWTkxg0Lje2/KblYhY5p2WBQJCUaLTV8zX
+pkHnxiSGGxrtRIxbHFoT1viMA8qSS411hVVGmXIg5E6I2djfTQHLMZcc7JffOc1P
+hDPX46mM4fUs4G930dLBlNmwrOaV480BjqjdANmbX53DmG1hxWfpma0BwgHUpNp+
+e520R8LGlJ5VHFoNB9TAvZoBdDZzI6IpVngkRu7RVVJ7dYkSUw4cdIx8vX782AYv
+dHmvXKsn963HQL/PxWt5h5TIkHy1O2FHqSA2Y323TCiyLZNHrEe7EVAMDRgx/yzi
+kQLKloSEThTk6lVhhTm/q1vY
+=/sAn
 -----END PGP SIGNATURE-----
 
---===============6180292616980552287==
+--===============3184291441931614569==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-92a09c47464d-1a33418a69cc.txt
+Content-Disposition: attachment; filename=revlist-439c67623d53-0c33b587865e.txt
 
 549d8994447f2f628c6cedd139d53926bdfee881 media: vivid: fix FB dependency
 9df181c8de1b6b285556f80bfd02584f3457f32e media: i2c: lt6911uxe: Fix Kconfig dependencies:
@@ -264,5 +264,9 @@ c2c64ed09c7b44a893d22c8b8ddb3ba7265494f3 Merge tag 'drm-intel-fixes-2025-05-09' 
 ea34704d6ad7225421cc3543906deacae35a6ea2 Merge tag 'drm-fixes-2025-05-10' of https://gitlab.freedesktop.org/drm/kernel
 0e1329d4045ca3606f9c06a8c47f62e758a09105 Merge tag 'rust-fixes-6.15-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ojeda/linux
 1a33418a69cc801d48c59d7d803af5c9cd291be2 Merge tag '6.15-rc5-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
+7c6e2c50cae84e09aabfa8bbaed42a60d4bee682 readfile: implement readfile syscall
+ec5b42ec9b205e87f98e19bd5f7d3becf8be8dca arch: wire up the readfile syscall
+27e9f02938033cedb61be0d787ed3c482c219e6b selftests: add readfile(2) selftests
+0c33b587865ef92f312d1b05336f394f46f80713 readfile.2: new page describing readfile(2)
 
---===============6180292616980552287==--
+--===============3184291441931614569==--
