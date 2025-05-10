@@ -1,28 +1,41 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Sat, 10 May 2025 12:10:02 -0000
-Message-Id: <174687900280.1139946.11861476219616095278@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5353012935381001344=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Sat, 10 May 2025 13:00:27 -0000
+Message-Id: <174688202754.1180585.10132877533550056195@gitolite.kernel.org>
+
+--===============5353012935381001344==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/work.coredump.socket
-    old: 69d673d042f6de5e619782b524e0f51874aa35b0
-    new: bad5a454ba7c00605ca5652812cc6af5952457ad
-    log: |
-         08fee1c6690a4e8c0c633415627aa97dba8a7c34 coredump: massage format_corname()
-         82e0faa343a9d3d5563c2ec7796ced14d35cb24a coredump: massage do_coredump()
-         afecd7b560bfcce51353deec747d09c3d9f70a8a coredump: reflow dump helpers a little
-         c38a8f22efddbba54ade4cd647b21b4735bf5c85 coredump: add coredump socket
-         48d45baea7169602452b8ae6a2ab8ced20620b74 pidfs, coredump: add PIDFD_INFO_COREDUMP
-         bd7b9332e553b1aa09616a3ec59ac55f31d329b9 coredump: show supported coredump modes
-         2efcaa6d69b5ed1d6f70c83d839ccb3204667304 coredump: validate socket name as it is written
-         58097633fbf635b00b7007e1bf2fba7ccb706bab selftests/pidfd: add PIDFD_INFO_COREDUMP infrastructure
-         bd1e8b110a61f6ba04ea4220f5332d5631b3d7ad selftests/coredump: add tests for AF_UNIX coredumps
-         bad5a454ba7c00605ca5652812cc6af5952457ad coredump: add coredump socket
-         
+  - ref: refs/heads/reftrack-dbgfs
+    old: 09a1233533c7a9e6c7b91333ae3669d795bb9dc1
+    new: 7b9a0a34675ca40927fc5caec886058dc196eade
+    log: revlist-09a1233533c7-7b9a0a34675c.txt
+
+--===============5353012935381001344==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-09a1233533c7-7b9a0a34675c.txt
+
+46bf471e9a0cd84ea26d53292f8017a68ffe3a4a ref_tracker: add ability to register a debugfs file for a ref_tracker_dir
+60df9ed4ce89bb98194bec1f9d781a3fd28c0b2c ref_tracker: don't use %pK in pr_ostream() output
+b3afcbd1ed9717ada4dd99b47e42baf3f0bbd1cc ref_tracker: add a top level debugfs directory for ref_tracker
+4dad5a13824e6ca0c48142299091958ad8f61393 ref_tracker: have callers pass output function to pr_ostream()
+e47376c63941d638e897768f549877b00253262c ref_tracker: add a static classname string to each ref_tracker_dir
+d54233d064865233ec51b07d4cc8c8c955ae54c9 ref_tracker: allow pr_ostream() to print directly to a seq_file
+84dc67c00a61ce729c071ce7310c564d82341998 ref_tracker: automatically register a file in debugfs for a ref_tracker_dir
+f58855893108699681ae6b6c5bdc69744a0b72a9 ref_tracker: add a way to create a symlink to the ref_tracker_dir debugfs file
+00fed9e2e43d3457cb0e319256bfe400a21945ab net: add symlinks to ref_tracker_dir for netns
+5353eeac54fe74f4e9575ae4da9889c391bbb4ff i915: add ref_tracker_dir symlinks for each tracker
+7b9a0a34675ca40927fc5caec886058dc196eade ref_tracker: eliminate the ref_tracker_dir name field
+
+--===============5353012935381001344==--
