@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4813631705852609024=="
+Content-Type: multipart/mixed; boundary="===============8976422236541635748=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Sat, 10 May 2025 01:49:00 -0000
-Message-Id: <174684174010.622540.16581143711850523764@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Sat, 10 May 2025 01:49:27 -0000
+Message-Id: <174684176726.623028.9489351734367782954@gitolite.kernel.org>
 
---===============4813631705852609024==
+--===============8976422236541635748==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: cd17a9b1a779459d06bf32a20590da13a5e5ef42
     log: revlist-70e21ac8b054-cd17a9b1a779.txt
 
---===============4813631705852609024==
+--===============8976422236541635748==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ bdf05ccd1841427445e7a7d117b47f1737e879bc perf test demangle-rust: Add Rust deman
 41fcc9a3435f48c6d0948999491507b594f229a2 perf test demangle-java: Switch to using dso__demangle_sym()
 cd17a9b1a779459d06bf32a20590da13a5e5ef42 perf test demangle-ocaml: Switch to using dso__demangle_sym()
 
---===============4813631705852609024==--
+--===============8976422236541635748==--
