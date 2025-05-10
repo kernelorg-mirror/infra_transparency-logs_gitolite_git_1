@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3962577646132108435=="
+Content-Type: multipart/mixed; boundary="===============6622592047024388062=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Sat, 10 May 2025 15:14:52 -0000
-Message-Id: <174689009262.1293885.2649837486915309510@gitolite.kernel.org>
+Date: Sat, 10 May 2025 15:20:44 -0000
+Message-Id: <174689044421.1301028.6979679413035149927@gitolite.kernel.org>
 
---===============3962577646132108435==
+--===============6622592047024388062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/virt/kvm/kvm
 user: bonzini
 changes:
-  - ref: refs/heads/master
-    old: 2d7124941a273c7233849a7a2bbfbeb7e28f1caa
-    new: add20321af2f882ad18716a2fb7b2ce861963f76
-    log: revlist-2d7124941a27-add20321af2f.txt
+  - ref: refs/tags/for-linus
+    old: f6a90f4bb8af4603b422b075763bb6ca7fd9200d
+    new: d74774a20fc13e472ee79ca8d457267651c07f99
+    log: revlist-f6a90f4bb8af-d74774a20fc1.txt
 
---===============3962577646132108435==
+--===============6622592047024388062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2d7124941a27-add20321af2f.txt
+Content-Disposition: attachment; filename=revlist-f6a90f4bb8af-d74774a20fc1.txt
 
 cfe82469a00f0c0983bf4652de3a2972637dfc56 ipv6: add exception routes to GC list in rt6_insert_exception
 e6c4618422a25cb266bf752040eb509865caeb0e MAINTAINERS: update my email address
@@ -1051,4 +1051,4 @@ e3417ab75ab2e7dca6372a1bfa26b1be3ac5889e KVM: SVM: Set/clear SRSO's BP_SPEC_REDU
 36867c0e94f3cb8ff6be9e63b5d40c988ad95e27 Merge tag 'kvmarm-fixes-6.15-3' of https://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
 add20321af2f882ad18716a2fb7b2ce861963f76 Merge tag 'kvm-x86-fixes-6.15-rcN' of https://github.com/kvm-x86/linux into HEAD
 
---===============3962577646132108435==--
+--===============6622592047024388062==--
