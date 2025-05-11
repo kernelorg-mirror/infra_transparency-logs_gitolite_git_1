@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8100254213389062687=="
+Content-Type: multipart/mixed; boundary="===============6092294662469174425=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sun, 11 May 2025 23:48:28 -0000
-Message-Id: <174700730814.2889566.1149585210787549929@gitolite.kernel.org>
+Date: Sun, 11 May 2025 23:49:18 -0000
+Message-Id: <174700735816.2890316.10736453721058317355@gitolite.kernel.org>
 
---===============8100254213389062687==
+--===============6092294662469174425==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 049432a584926937ecdd22d3732f1ed79b9c133b
-    new: 155a1415088152d10e146d2c107f0d98d0e47ba9
-    log: revlist-049432a58492-155a14150881.txt
+  - ref: refs/heads/nfsd-testing
+    old: 4ca256601287f539718965e46ea50fa9e71eb722
+    new: 4e8a7b9e061752ab862e39b7c5497af077c41f5a
+    log: revlist-4ca256601287-4e8a7b9e0617.txt
 
---===============8100254213389062687==
+--===============6092294662469174425==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-049432a58492-155a14150881.txt
+Content-Disposition: attachment; filename=revlist-4ca256601287-4e8a7b9e0617.txt
 
 549d8994447f2f628c6cedd139d53926bdfee881 media: vivid: fix FB dependency
 9df181c8de1b6b285556f80bfd02584f3457f32e media: i2c: lt6911uxe: Fix Kconfig dependencies:
@@ -420,5 +420,49 @@ c242efc78862fc925f12f6ee6c01c8d4358515b2 nfsd: remove old v2/3 create path dprin
 fba13c06f0bd6a1ed543152100b584cec4c15cd9 nfsd: remove dprintks for v2/3 RENAME events
 79641333fe02787f3b061297fc8244f9b96f9b83 nfsd: remove legacy READDIR dprintks
 155a1415088152d10e146d2c107f0d98d0e47ba9 nfsd: remove legacy dprintks from GETATTR and STATFS codepaths
+eb20a5ad0902cb1c611636af17bb800085f270d0 svcrdma: Reduce the number of rdma_rw contexts per-QP
+5b373d79558bf808799ba250eba8f91764337782 sunrpc: Add a helper to derive maxpages from sv_max_mesg
+39d5ac9282ea83450480b5f4446c590a4934df55 sunrpc: Remove backchannel check in svc_init_buffer()
+cc3ebb405462365bd8b59e134b2bf4d85b86d2ad sunrpc: Replace the rq_pages array with dynamically-allocated memory
+c23ef7f69b02220008b835ad2378084b89a96b59 sunrpc: Replace the rq_bvec array with dynamically-allocated memory
+9f88dfb002021ab19bd19e673d8fba4c276dc290 NFSD: Use rqstp->rq_bvec in nfsd_iter_read()
+042ea106a9af4ba522a1a0f7835177213f646194 NFSD: De-duplicate the svc_fill_write_vector() call sites
+3a4f8face27a34563fb3db62901bb3a3e046c09d SUNRPC: Export xdr_buf_to_bvec()
+9023f8d2795a27112e5f212ca9d8444e17a19c67 NFSD: Use rqstp->rq_bvec in nfsd_iter_write()
+d9f959b228110be5319de2e8e04e2603052675a7 SUNRPC: Remove svc_fill_write_vector()
+108fb1aa6d6575dd900a50d5349a21ff23526f7e SUNRPC: Remove svc_rqst :: rq_vec
+d2e0c6e155a8d51ad59c45c36f6367ffbdea22e5 sunrpc: Adjust size of socket's receive page array dynamically
+2bc80e3e281d17a7af9204511f87a9a65dc7ed61 svcrdma: Adjust the number of entries in svc_rdma_recv_ctxt::rc_pages
+e226a04f021dae8849dc9628a7bce269cce29376 svcrdma: Adjust the number of entries in svc_rdma_send_ctxt::sc_pages
+65f47d4ce2c3b9fc4e6854e312863ba6f06ef454 sunrpc: Remove the RPCSVC_MAXPAGES macro
+b212b53538cec20b3cf3c1affab61fb8b2d8e7e1 NFSD: Remove NFSD_BUFSIZE
+ae1721f8d5a8c8085f92e11fe80cbe45d1f116ab NFSD: Remove NFSSVC_MAXBLKSIZE_V2 macro
+319fca7a513842c8e7cd41642be00d41f17bea28 NFSD: Add a "default" block size
+ce7f2ba46b6cc1a43002a8e785a159cdaeb825dc SUNRPC: Bump the maximum payload size for the server
+6fae922a3a72f712f090c28721d8d6fd99785308 Add include entries for NFSv4 POSIX draft ACLs
+78b8ca7b5ce3f4bae2f2d1e228225e6aeb6a8159 Add include entries for the POSIX draft ACL attributes
+a47da2a5d47ed6d1d2ad7e7d55c3e89989e16b21 Fix up a comment that specifies the draft
+45f6966ad60ef33bfce0575853cd5dac787e23ab Add a new ACL function to get a POSIX ACL
+5bd29f2f7218d910f98e63c53a2399f7f62e86f8 Add a new function to set a POSIX draft ACL
+09996c6316321f59d8bd0e71c25b629f4583405d Add the FATTR4_xxx bits for the POSIX draft ACL attributes
+5e880452de94a22269a026bc67a28e5c79ea5f19 Add fields for the default and access POSIX ACLs
+c89b10e8c299feb3dcd481f86312380b0134e39e Add handling of the XDR for the POSIX draft ACL attributes
+c25b3b611544062657ef5d900da69e25ab279c0e Add a check to ensure POSIX and NFSv4 ACLs are not both being set
+67f08ecf992a080e3d7662189a72bbe9a1bf228d No need to check for a NULL acl pointer
+246db005e7e2dbe0b049820840a10e28c66154f6 Add na_dpaclerr and na_paclerr for file creation
+3bc1b3fa896e3d7f9cdb9f6dfb35e15e9afd9226 Add support for POSIX draft ACLs for file object creation
+77c9f3a2c48eeb263183e086710ecae9ab55a8b1 Decode the POSIX draft ACLs for file object creation
+30e8e4b771a46b8a37b54139786f008a6c4218df Fix the posix acl release function names
+56ff6bd1280d0fc10da7bc755cd9a7eb7d350bef Fix a couple of bugs in POSIX ACL decoding
+76610af2332d48f04107313374550867969d113d NFSD: Fix compiler warnings due to incorrect format specifiers
+74ff3d15807bb07df6321449ac0141b628a3434e Clarify the comment and use 3 * XDR_UNIT instead of 12.
+f67a45adae8a90b1aad222eff6047f68270c358d Fix indentation of switch statements
+f33ab8e6f03e166dfa884559a2a3c668d86298a8 Fix the array index for word2
+1a7c8ac8aac5c36c250c2e9f6cc5c19858556371 Improve correctness for the ACL_TRUEFORM attribute reply
+07709197f8202890148e093bb4403e803208891b Make sort_pacl_range() global
+8f2bd21456901a8a201a76ea89dba5c737063cb1 Call sort_pacl_range() for decoded POSIX draft ACLs
+bd1ac948f0f3346d96e6125087a02702eabfba29 Fix handling of POSIX draft default ACLs
+91818409305c7949e4ff87ce70ffd6f740611d7b Fix handling of zero length ACLs for file object creation
+4e8a7b9e061752ab862e39b7c5497af077c41f5a siw: Enable try_gso
 
---===============8100254213389062687==--
+--===============6092294662469174425==--
