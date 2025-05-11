@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Sun, 11 May 2025 12:38:16 -0000
-Message-Id: <174696709648.2338304.6555468157395515179@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Sun, 11 May 2025 13:02:25 -0000
+Message-Id: <174696854567.2358265.6554138041956649943@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/linux
-user: chanwoo
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/devfreq-next
-    old: 92a09c47464d040866cf2b4cd052bc60555185fb
-    new: bc253b28a365cf6f3dc066f2607d516eb6ef930e
-    log: |
-         bc253b28a365cf6f3dc066f2607d516eb6ef930e PM / devfreq: sun8i-a33-mbus: Simplify by using more devm functions
-         
+  - ref: refs/heads/irq/msi-prepare-teardown
+    old: 0000000000000000000000000000000000000000
+    new: dc2a1ba468e1f8475d939f1f9e51c339c493d783
