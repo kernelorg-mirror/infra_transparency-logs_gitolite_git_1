@@ -1,48 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============7482139586705224758=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Sun, 11 May 2025 21:45:06 -0000
-Message-Id: <174699990610.2789549.1635491581840897640@gitolite.kernel.org>
-
---===============7482139586705224758==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 11 May 2025 21:57:58 -0000
+Message-Id: <174700067887.2798918.5948901200694096232@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/review-ilpo-next
-    old: 593ee93aa710ea0159f363b2f1950ecb6c9ddca2
-    new: 0d74cb76f711d08a5a745da6e2bdddbeb06ee328
+  - ref: refs/heads/master
+    old: cd802e7e5f1e77ae68cd98653fb70a97189eb937
+    new: 82f2b0b97b36ee3fcddf0f0780a9a0825d52fec3
     log: |
-         cf8dea42e42b243e41878b57c0ecd898688234e6 platform/x86/amd/hsmp: Use a single DRIVER_VERSION for all hsmp modules
-         8957cb9cfa76f95aa05b1da514de9b82f04b5a07 platform/x86/amd/hsmp: Report power via hwmon sensors
-         0d74cb76f711d08a5a745da6e2bdddbeb06ee328 platform/x86/amd/hsmp: acpi: Add sysfs files to display HSMP telemetry
+         82f2b0b97b36ee3fcddf0f0780a9a0825d52fec3 Linux 6.15-rc6
          
-
---===============7482139586705224758==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1746999930 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1746999897-c505554cca65e88c9890867e8584a2621e8ebc95
-
-593ee93aa710ea0159f363b2f1950ecb6c9ddca2 0d74cb76f711d08a5a745da6e2bdddbeb06ee328 refs/heads/review-ilpo-next
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaCEagQAKCRBZrE9hU+XO
-MT+GAPoCeHZZZ/70gTNExAwYhJXxVZ0deozY6gouIeybOdhAaAD9G9xsX2+BK87O
-vHFxEHxjUJGnXL4Ve4alTTnzrG7/eAo=
-=dPHz
------END PGP SIGNATURE-----
-
---===============7482139586705224758==--
+  - ref: refs/tags/v6.15-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 5cb8274d66c611b7889565c418a8158517810f9b
