@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Sun, 11 May 2025 19:27:13 -0000
-Message-Id: <174699163381.2675843.2655440490467329770@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/nolibc/linux-nolibc
+Date: Sun, 11 May 2025 20:16:23 -0000
+Message-Id: <174699458399.2715951.11501696143460089398@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/kernel/git/nolibc/linux-nolibc
+user: thomas.weissschuh
 changes:
   - ref: refs/heads/for-next
-    old: b94584d96ebb2a79cd5c2046ffac42fd239ada5c
-    new: 4b6f23f4cf269dced46a48a7d43f50e6594db455
+    old: 2051d3b830c0889ae55e37e9e8ff0d43a4acd482
+    new: 09a3178a5c801ea9ba2a84abcb31a1fc06dcc93c
     log: |
-         8ac6534940088eb3396af00f20a914ef51816ad7 Rename jdata_dirty_folio to gfs2_jdata_dirty_folio
-         2c77d953ed7f665610e8e849061c51bd6990e12e gfs2: Move gfs2_trans_add_databufs
-         4b6f23f4cf269dced46a48a7d43f50e6594db455 gfs2: Don't call gfs2_jdata_writepages during journal flush
+         0e0ff5937ecc6874f3073e0ecfc6e93ab060bcce tools/nolibc: move poll() to poll.h
+         09a3178a5c801ea9ba2a84abcb31a1fc06dcc93c tools/nolibc: use poll-related definitions from UAPI headers
          
