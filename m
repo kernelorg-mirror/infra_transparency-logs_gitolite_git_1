@@ -1,45 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============4747576091877058001=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-Date: Sun, 11 May 2025 16:49:08 -0000
-Message-Id: <174698214801.2545901.17480375136978657084@gitolite.kernel.org>
-
---===============4747576091877058001==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 11 May 2025 17:52:16 -0000
+Message-Id: <174698593625.2597453.9480702545429946097@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-user: mkorenbl
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/next
-    old: 1f52f7f0abe235cd6a8c6ad6abfcc84bfcd2cf9f
-    new: 2d31285ffbcb5947c50c7c736f00e34321f45243
-    log: revlist-1f52f7f0abe2-2d31285ffbcb.txt
-
---===============4747576091877058001==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1f52f7f0abe2-2d31285ffbcb.txt
-
-4405790e1eaa25d245ca214cfbbad38e6ffd5b63 wifi: iwlwifi: dbg: fix dump trigger split check
-1725c327ecfdcc67e9d840f0825188aa7a131374 wifi: iwlwifi: mld: add debug log instead of warning
-0303316f950ca9a336a98580cd4be8a093ef91b2 wifi: iwlwifi: cfg: remove some unused names
-970c8ad1d372e8e2805fe1e98a1a50e15fef44e4 wifi: iwlwifi: cfg: fix some device names
-1e044a7a33a893b248e04fd089571e04889d044d wifi: iwlwifi: cfg: fix Ma device configs
-0828ecc1505b2cf0fceeda28e41044041bf40334 wifi: iwlwifi: cfg: fix and unify Killer/JF configs
-512f0955b8e4ebfcefea228037293ac6add7e852 wifi: iwlwifi: cfg: unify and add some Killer devices
-b24c35aa801f67a88ee88e5cc7661fddeadc54bd wifi: iwlwifi: cfg: clean up HR device matching
-7633d6369d7c216b44cccdf785a087845ab95952 wifi: iwlwifi: tests: make subdev match test more precise
-9f2843b24dfce25ce986b9cd29094621b408384e wifi: iwlwifi: cfg: clean up JF device matching
-ae24990e4d502f3f73a2cdf4ee1c90ce377b5b54 wifi: iwlwifi: cfg: clean up GF device matching
-0e9629f6a8bc919b63d0549f70246a7a4da84585 wifi: iwlwifi: cfg: fix and clean up FM/WH device matching
-71fb401a5d3eff13ba845af4065bae868984cb69 wifi: iwlwifi: cfg: fix PE RF names
-f8fe859dbb82ff371857d4d947c412e6d1ea065c wifi: iwlwifi: cfg: add a couple of older devices
-2d31285ffbcb5947c50c7c736f00e34321f45243 wifi: iwlwifi: cfg: remove MAC type/step matching
-
---===============4747576091877058001==--
+  - ref: refs/heads/master
+    old: dda9d26dd930f9e78e1b35f25d982c10d2eff8e4
+    new: a0669c4f7b02919e2340f741954e9aeb7919a449
+    log: |
+         fcd7ca09e6fb12f972a464a3cdd8407f2e322b40 Fixes for 6.14
+         eaf1717bc8de4dcf41ad17c8ee95201ed4aa726a Fixes for 6.12
+         ce6dc65e91d32a426088d5097e5b89d64f0b8752 Fixes for 6.6
+         fc9ee0e0efa84903bef1ab6d2fba75b133d4c55d Fixes for 6.1
+         f63d0475742b9bc1833558803141d715c536e8ff Fixes for 5.15
+         75c78bd083ae63c2147f47a936b7997ecb9a3be1 Fixes for 5.10
+         a0669c4f7b02919e2340f741954e9aeb7919a449 Fixes for 5.4
+         
