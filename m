@@ -1,26 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Sun, 11 May 2025 14:28:19 -0000
-Message-Id: <174697369955.2427761.9937479814223811941@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
+Date: Sun, 11 May 2025 14:45:44 -0000
+Message-Id: <174697474444.2443022.13314681320117157466@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/fs/xfs/xfstests-dev
+user: zlang
 changes:
-  - ref: refs/heads/for-linus
-    old: 1f93d877f09d987f08baedd50597aaaa72a37be4
-    new: dd33993a9721ab1dae38bd37c9f665987d554239
-    log: |
-         dd33993a9721ab1dae38bd37c9f665987d554239 ALSA: ump: Fix a typo of snd_ump_stream_msg_device_info
-         
   - ref: refs/heads/master
-    old: 43bafdd70dd9ab37d86585c0d676ad99b290bb38
-    new: 9f3a9be5f141b4ed6400b38c5a6e6723285ac197
+    old: 2cc8c822f864e272251460e05b0cba5bada0f9ee
+    new: 008ffc6232320acf3699a4868b0aabaa3caa7934
     log: |
-         dd33993a9721ab1dae38bd37c9f665987d554239 ALSA: ump: Fix a typo of snd_ump_stream_msg_device_info
-         9f3a9be5f141b4ed6400b38c5a6e6723285ac197 Merge branch 'for-linus'
+         d56ff7a3a2535807a90a27f6907158e7bcecf143 README: add supported fs list
+         f3cbd32a49f57bfbc2b7a41a44195bd153a528ad generic/033: Don't call 'fzero' with the KEEP_SIZE flag
+         b3e7ac4c5ec141ccfd29a87a6eedbe240af9955d generic/231: use relative path to invoke fsx
+         1f5cccd39e762660af8ccde4155897ba615857fd generic/233: use relative path to invoke fsstress
+         22cffc73853bc72d35ec0da4921d1110963bec9d f2fs/011: test to check out-of-space issue
+         c2537798f3119f8e25298064ee4a112b3fe7efc5 fstests: btrfs/271: specify "-m raid1" to avoid false alerts
+         b51e55e7418c5a1150dc8268b59ca9a637628f68 fstests: btrfs/253: fix false alert due to _set_fs_sysfs_attr changes
+         a7640a40da6457edda50c3f1987ed43043d466ec fstests: btrfs/315: fix golden output mismatch caused by newer util-linux
+         008ffc6232320acf3699a4868b0aabaa3caa7934 fstests: common/btrfs: add _ prefix to temp fsid helper functions
          
