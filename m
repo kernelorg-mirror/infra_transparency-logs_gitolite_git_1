@@ -1,22 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
-Date: Sun, 11 May 2025 10:41:39 -0000
-Message-Id: <174696009974.2244187.14879153272648651043@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Sun, 11 May 2025 11:49:10 -0000
+Message-Id: <174696415020.2296800.9418629093996807624@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
-user: egrumbach
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/master
-    old: 399b3c948f0ed11897e15d79c0a2438d223fc287
-    new: 0c1fc2832de3b58660674beef1ef31ffc0db7672
+  - ref: refs/heads/work.coredump.socket
+    old: 4c247245ad525a7db1b1a5cbb5bdfc1a32b87d83
+    new: c603f950c5fe47ef80b3243a4b2285a34f83057f
     log: |
-         567aff95c3e8dadb80c3aee166b1129cfd50b753 [BUGFIX] wifi: mac80211: always initialize sdata::key_list
-         cf2731a73d1fdfa27aa8a5c0c6d07555d8b7de82 wifi: cfg80211/mac80211: implement dot11ExtendedRegInfoSupport
-         90365dceb217cdba0ea39940e01392fedcb7a27e wifi: iwlwifi: mld: support channel survey collection for ACS scans
-         0c1fc2832de3b58660674beef1ef31ffc0db7672 wifi: iwlwifi: Remove unused cfg parameter from iwl_nvm_get_regdom_bw_flags
+         371a76d7976cb167eb0f092d3002ccb04a8cd964 coredump: add coredump socket
+         c9b5076ae8724fb317c6c725240a6e529c699236 pidfs, coredump: add PIDFD_INFO_COREDUMP
+         682747c2bb159e2e59b88bfab0db1efcd47ab0b8 coredump: show supported coredump modes
+         4dbd82a424517aa1a3e8a763e2717a65bc184eb2 coredump: validate socket name as it is written
+         150980721894fadc7d8229e0fb5592566f536d1e selftests/pidfd: add PIDFD_INFO_COREDUMP infrastructure
+         dea76de4049edb4e5646174b2c8b21210e22a09c selftests/coredump: add tests for AF_UNIX coredumps
+         c603f950c5fe47ef80b3243a4b2285a34f83057f coredump: add coredump socket
          
