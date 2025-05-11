@@ -1,49 +1,39 @@
-Content-Type: multipart/mixed; boundary="===============5136143522516187726=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Sun, 11 May 2025 22:31:42 -0000
-Message-Id: <174700270233.2827765.673159550023975936@gitolite.kernel.org>
-
---===============5136143522516187726==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Sun, 11 May 2025 23:00:36 -0000
+Message-Id: <174700443697.2851258.932859253607822598@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/review-ilpo-next
-    old: 0d74cb76f711d08a5a745da6e2bdddbeb06ee328
-    new: d5251eef71bab8bd0b9ea3fe0005ad3d2553c3bb
+  - ref: refs/heads/arm32-for-6.16
+    old: 3ea267124573f24e67f0fe47c4a865f0f283f8fc
+    new: e41ece7cd173486f6767de050deb2d8f0882a82a
     log: |
-         e6b07a34038716e010d9fd1ac74c1d84a501f369 power: supply: core: Add additional health status values
-         52e59cf1332dc4da5aecaa64c20f4a9f902e3186 platform/x86: dell-ddv: Implement the battery matching algorithm
-         366a50722c7071120a494aaf91c9193922e3d8f6 platform/x86: dell-ddv: Expose the battery manufacture date to userspace
-         d5251eef71bab8bd0b9ea3fe0005ad3d2553c3bb platform/x86: dell-ddv: Expose the battery health to userspace
+         cbcd04ab82c61dc777a4b56014292b9467f10c4e ARM: dts: qcom: msm8226-motorola-falcon: add clocks, power-domain to simpleFB
+         db6e3f2ba0bf6ad069347050ff62f29ef0d88b14 ARM: dts: qcom: msm8226-motorola-falcon: add I2C clock frequencies
+         7bce56fd73ee7264ed04418dab1719164e42f113 ARM: dts: qcom: msm8226-motorola-falcon: limit TPS65132 to 5.4V
+         e41ece7cd173486f6767de050deb2d8f0882a82a ARM: dts: qcom: msm8226-motorola-falcon: specify vddio_disp output voltage
          
-
---===============5136143522516187726==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1747002731 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1747002699-f811f1f981e7cb8e590cb006c6b923dad15f668a
-
-0d74cb76f711d08a5a745da6e2bdddbeb06ee328 d5251eef71bab8bd0b9ea3fe0005ad3d2553c3bb refs/heads/review-ilpo-next
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaCElbQAKCRBZrE9hU+XO
-Me8dAQC3r+Nn0fElnT1MxyY7mK0g53CyBHhApurAj5pV/dhprAD+OJJOEjwuLr0U
-pJg33ktpOFfGZ/WeEPD3hcqSwXrTzwM=
-=MURd
------END PGP SIGNATURE-----
-
---===============5136143522516187726==--
+  - ref: refs/heads/arm64-for-6.16
+    old: 6aeda4f2042711f99d63c5b7bf846c2bba711696
+    new: a18226be95c7ae7c9ec22fd31a6124bef5675c64
+    log: |
+         28bce181daf3ba87d414f75ad9f2a680f69f2c25 arm64: dts: qcom: x1e80100-*: Drop useless DP3 compatible override
+         061402552e98a55b419a5045ba366dd51cfb24f1 arm64: dts: qcom: qcs8300: add the pcie smmu node
+         424246ed3e5d1d7b4a33e2b13a30c8d1b284fad5 arm64: dts: qcom: sdm845-xiaomi-beryllium-common: add touchscreen related nodes
+         2be670d00b4002f56b11a57a510540001ef1cacb arm64: dts: qcom: sdm845-xiaomi-beryllium-tianma: introduce touchscreen support
+         a18226be95c7ae7c9ec22fd31a6124bef5675c64 arm64: dts: qcom: sdm845-xiaomi-beryllium-ebbg: introduce touchscreen support
+         
+  - ref: refs/heads/drivers-for-6.16
+    old: 3022ae40e92b1458901867a114472cff76dd3531
+    new: b7fc42fb0e6fd5c786e7e0eebe44ee44646ef47c
+    log: |
+         85c5d9b9464b17eb2f5a00edd145f45a12ae31ba dt-bindings: arm: qcom,ids: add SoC ID for SM8750
+         b7fc42fb0e6fd5c786e7e0eebe44ee44646ef47c soc: qcom: socinfo: add SM8750 SoC ID
+         
