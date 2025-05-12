@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7260714976767789860=="
+Content-Type: multipart/mixed; boundary="===============8644054412062334778=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 12 May 2025 13:27:34 -0000
-Message-Id: <174705645430.3654204.14250116607387402725@gitolite.kernel.org>
+Date: Mon, 12 May 2025 13:27:56 -0000
+Message-Id: <174705647646.3654704.15165460787537770152@gitolite.kernel.org>
 
---===============7260714976767789860==
+--===============8644054412062334778==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: 552c4ec0bf4b2444a23ae26de98ec1a42ba3e243
     new: 0540152bce5f7e12fec99dbd4cb91987bee90ee2
     log: revlist-552c4ec0bf4b-0540152bce5f.txt
 
---===============7260714976767789860==
+--===============8644054412062334778==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e4f6fe232a3dae3d52ef26b1495ea036708364ef tpm: remove kmalloc failure error messa
 3710bbe3f4384648d3e493faeb6f0be02e5ddb1d tpm_crb_ffa: use dev_xx() macro to print log
 0540152bce5f7e12fec99dbd4cb91987bee90ee2 tpm_crb: ffa_tpm: fix/update comments describing the CRB over FFA ABI
 
---===============7260714976767789860==--
+--===============8644054412062334778==--
