@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Mon, 12 May 2025 22:54:48 -0000
-Message-Id: <174709048823.31090.15472561364593463723@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Mon, 12 May 2025 23:13:20 -0000
+Message-Id: <174709160052.46156.12117738792881814028@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/security/vulns
+user: sashal
 changes:
-  - ref: refs/heads/riscv-soc-for-next
-    old: 403e87ff0613a292f4fff8cca9295757e5cfc5b1
-    new: 781c171d6191b2f6e1185139db74bd5876383430
+  - ref: refs/heads/master
+    old: 387076a8048f02e1de3de68d292a7d56cf140667
+    new: f23d64a6382ea825201fe00ab14b8dff25584a7f
     log: |
-         d58a73c96d8ae87936579689af1dd60a09bda432 dt-bindings: cache: add specific RZ/Five compatible to ax45mp
-         781c171d6191b2f6e1185139db74bd5876383430 Merge branch 'riscv-cache-for-next' into riscv-soc-for-next
+         f23d64a6382ea825201fe00ab14b8dff25584a7f bippy: refactor bippy code into modular structure
          
