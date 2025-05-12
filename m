@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============5929983367809340450=="
+Content-Type: multipart/mixed; boundary="===============3091539460653669677=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 12 May 2025 12:08:08 -0000
-Message-Id: <174705168893.3582410.16875621736965481333@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 12 May 2025 12:08:15 -0000
+Message-Id: <174705169511.3582667.3070847726853682790@gitolite.kernel.org>
 
---===============5929983367809340450==
+--===============3091539460653669677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.16
+  - ref: refs/heads/spi-6.16
     old: a4ca02454821cbc411e0bf16e527d392f188c218
     new: d43eef530946783cb5537ee58bec892253b68648
     log: |
@@ -25,28 +25,28 @@ changes:
          d43eef530946783cb5537ee58bec892253b68648 Add more devm_ functions to fix PM imbalance in
          
 
---===============5929983367809340450==
+--===============3091539460653669677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1747051718 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1747051687-9a8fcb441e622e73e6ce89bd9c9467f51f656e06
+pusher Mark Brown <broonie@kernel.org> 1747051724 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1747051692-72bfe9dd9a801fce829d9d5ad791a0fb740e7a07
 
-a4ca02454821cbc411e0bf16e527d392f188c218 d43eef530946783cb5537ee58bec892253b68648 refs/heads/for-6.16
+a4ca02454821cbc411e0bf16e527d392f188c218 d43eef530946783cb5537ee58bec892253b68648 refs/heads/spi-6.16
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgh5MYTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0PZ6B/sFlKlPaSW8pMyHNO3f5gNogUQq86cf
-CsiXQqM3WKvIO0D1VMFKGVphM1mBn16Cwhc9opZqJhPwV4XyIwFGsB1wvEpt8rho
-+E19PaQkAryy2tvvLQ9Rv3Ayh87Wa3cD6+pzx9RkMq4GQg+HM8HuHP8XxwKvNpxx
-nlGQxwyDZQufwpHHXWcKNVSosxxQ/XgPHxlbV7odydlf+E2aMNuGnK5RwaQdguYF
-LEY5uAbGKFb5OD9LLstFfp32BgZ7ReaT3qv4JJ/PT7+6Gyz42B5z9f72/Q6oJIzc
-Ek7BZ+qO4lZl0mDqu3HSsuJ66BIeyjtomKRYpuHHxRmdDIWMjTYGmTMA
-=lA8X
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgh5MwTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0BO8B/4vvhU/Z4YOIjGtaP0DpxJ4nLB6Tc3f
+kTjAg/4NqcEMGaRmd4lWGyynQYHDUwTFpMd3zdgTCCORV0iCdstEdUyHOImavQ2F
+pEHFUjrVLOT5+Q6ZVK0INaVAjbOZtlwBTiwZZBkUQtuma4IA86KFIqwxyfxpttR+
+Wy38WNM1L/vMxJ9DQ7SyWq9WmgRn7DxGOBgu2rLVMycQV0VB+/p89l+ZLOt2SmSz
+JcnkuTaz/FFe15PM3SDp30nosOykgHNMksY3AV9yjXS6KJNp0rsydAJzRz/Xi/U8
+pu6L5KornQbalw1FeWRx7NLpCt5OU6G3vEdTSdwYJwLy4IUf7Cd3SC2y
+=dxR7
 -----END PGP SIGNATURE-----
 
---===============5929983367809340450==--
+--===============3091539460653669677==--
