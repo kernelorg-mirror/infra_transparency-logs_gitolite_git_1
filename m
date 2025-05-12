@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3977409562805850851=="
+Content-Type: multipart/mixed; boundary="===============8051823642412657616=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Mon, 12 May 2025 12:15:36 -0000
-Message-Id: <174705213696.3591186.15678321330899355440@gitolite.kernel.org>
+Date: Mon, 12 May 2025 12:15:43 -0000
+Message-Id: <174705214331.3591438.11383456852439641343@gitolite.kernel.org>
 
---===============3977409562805850851==
+--===============8051823642412657616==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: 95deee37a12364f410d22c6a8383f59738a2fef3
+  - ref: refs/heads/main
+    old: b4432656b36e5cc1d50a1f2dc15357543add530e
     new: 82f2b0b97b36ee3fcddf0f0780a9a0825d52fec3
-    log: revlist-95deee37a123-82f2b0b97b36.txt
+    log: revlist-b4432656b36e-82f2b0b97b36.txt
 
---===============3977409562805850851==
+--===============8051823642412657616==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1747052168 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1747052174 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1747052134-cd6dd2d4cc91e4cbfc3b25df2be70fc570153c67
+nonce 1747052141-f6f6201bbd6242999711236ec6c2149844c8e66e
 
-95deee37a12364f410d22c6a8383f59738a2fef3 82f2b0b97b36ee3fcddf0f0780a9a0825d52fec3 refs/heads/driver-core-linus
+b4432656b36e5cc1d50a1f2dc15357543add530e 82f2b0b97b36ee3fcddf0f0780a9a0825d52fec3 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgh5ogbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iIgP/2mXYxYETwsLCjwZUKc1
-mAnSCYpIC7Hp9Q5PZl+Pz+jTO95Wua20aI4LvD5ZyveuqBnUOd4dCYL0oQ5HfUeI
-IQ1+ATtB80YtG3CfXY/mzEhECfIDsNRwDjw7DFAJrNKdiC1jywqTRfffJ6Mgw0M0
-Dh6Cx3r4bf0M1VJ/lq8L2HMgbvDywo4kcpelH0GJ429p/0ITbOhOs7ZkUZt0iPS/
-RFl5G1We7SBBpGOWfsLvk+X5tYxw7AcJiMY02rCP9D1ldcym8mkDd3bcNzILaX2Q
-ThO6fCa2O3B8m4EeBmw2oTnxx+s5UlxzRR+Khcbo4RjqTtLxjREXLVPHuf5ZP+w5
-35w2K4cytP4Rd8mxXETGqSngGwxbN29LbMONdXLjiYgbMOq/mT+JKmDzcnD1DSBu
-o9+T/QhzK1M6SUJdYGB5MK2KIVh4kc9ZSENScnPk3ZqGkwJBLCDBUXhS2MNKL1qq
-I0k/3HyhQogMpBte/qKErhpi0tW2qhaHBuvEq/eoZDUpSg0GUbFTYNU0isUI9pfh
-DP1oTr58iJBXihzpiAQMMeon+JH2xILKcenvnNJeTxPsVCR9TbKZqj21ksVB38Xi
-hJ5LvQPKbTKpfvYh/0LBk5vUKPFqt0zOiPP1zibSmGmIDOhFqNk+KXDrNfDDP23O
-kb4XLJdbSd4rz2n4f3O7HzLA
-=S11+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgh5o4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+plcQAKcu5GrRRS9LbhOqPdEY
+PRgMEm01mAUksR6QOtMYS40/ur9Fwn0WjprT/lcrJg5tDhcINucAsGo9PTBmBgpU
+AHIeZ7UY/mYvOKjXPHX05PQQnBgyWxRoEblm3uaAaI9nTqIU6B0B90XB5z7lQYwu
+fzAyKph/hNn8ifIz2RXYC5et6WnAu+Hh4KCODU4I7XXK+wzFuSJn+A4YoGKoKMtn
+o/rVSDKw96q/LzCXsTuuqsUi9vfMKc9NDFBscfSFvMpnRq0Dm6k6J7xdcWk3FhLX
+eO545sAO7i3x382zO1C2sv4S7slAONvPH7dScOo4jIhPnYZu2SS7SDO04n3kD5DG
+rhkqdi8vTcuw6M0mu1vjHxK9b4Nzf6VAhC50nCpwipaQF0vn1QD7IyQh8NvWnPPH
+jddE037B3JThuyBFKr9BkZ25BqgxGCALyYEjunLS2DKbN8QPl30PJ0h/vpchEtQm
+4d2o/yr5tzknF3gKd2VynVb8JCkfd6DGJK5M5H0Sy1GiXfpUcU4O5s1Xd3HqHMTn
+TLusSLZm2EyZY9gYkL4bKNTNaloq35Zogm5wibcYmwpxFS+AF46J17JUPOSxecbB
+SyK9kXDao3HyfFxmHL+MKtqQDTRQHH3U1JZX5xrcIBxQGnY7MAZekJnP5c3IkzaN
+m9VxTxALsfHzp6qJd4BTYhcN
+=/Upt
 -----END PGP SIGNATURE-----
 
---===============3977409562805850851==
+--===============8051823642412657616==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-95deee37a123-82f2b0b97b36.txt
+Content-Disposition: attachment; filename=revlist-b4432656b36e-82f2b0b97b36.txt
 
 261ffd53cc8e91e6484a3170a1ddf59a16696667 Drivers: hv: Fix bad pointer dereference in hv_get_partition_id
 549d8994447f2f628c6cedd139d53926bdfee881 media: vivid: fix FB dependency
@@ -428,6 +428,7 @@ a5c7973539b010874a37a0e846e62ac6f00553ba usb: uhci-platform: Make the clock real
 054c5145540e5ad5b80adf23a5e3e2fc281fb8aa USB: usbtmc: use interruptible sleep in usbtmc_read
 e918d3959b5ae0e793b8f815ce62240e10ba03a4 usb: typec: tcpm: delay SNK_TRY_WAIT_DEBOUNCE to SRC_TRYWAIT transition
 f55aaec4fc17a83f49459c02af82958fe3f3fc4a Merge tag 'iio-fixes-for-6.15a' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-linus
+95deee37a12364f410d22c6a8383f59738a2fef3 platform: Fix race condition during DMA configure at IOMMU probe time
 e2699274d5a43b95af1b806aa6e3b1157107665d bcachefs: Fix __bch2_dev_group_set()
 5a295bad38b1057dd13811242ac981bb674ab190 drm/xe/eustall: Resolve a possible circular locking dependency
 1d622a4fe2b9a30cd4af2e858d793d05f8a82774 drm/xe/eustall: Do not support EU stall on SRIOV VF
@@ -731,4 +732,4 @@ ecb9194d1724d1265c8cfe50fcb1dad718476e5e Merge tag 'mips-fixes_6.15_1' of git://
 cd802e7e5f1e77ae68cd98653fb70a97189eb937 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 82f2b0b97b36ee3fcddf0f0780a9a0825d52fec3 Linux 6.15-rc6
 
---===============3977409562805850851==--
+--===============8051823642412657616==--
