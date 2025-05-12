@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0780908866418124688=="
+Content-Type: multipart/mixed; boundary="===============9111205297159758647=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Mon, 12 May 2025 16:07:21 -0000
-Message-Id: <174706604183.3801859.13972890085100750722@gitolite.kernel.org>
+Date: Mon, 12 May 2025 16:07:47 -0000
+Message-Id: <174706606720.3802286.15453561334114723557@gitolite.kernel.org>
 
---===============0780908866418124688==
+--===============9111205297159758647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,50 +15,53 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cip/linux-cip
 user: pavel
 changes:
-  - ref: refs/heads/linux-6.1.y-cip
-    old: decb0c620821d9d007a5e179968d313e303f6c73
-    new: d3c309fa32c43cab6fda9d0ccbf42e602a7e0c02
-    log: revlist-decb0c620821-d3c309fa32c4.txt
+  - ref: refs/heads/linux-5.10.y-cip
+    old: f9620dea6549198b0b8b7ebc9beacb9083170d17
+    new: 4587ab4f6680df4d46f116e0c3d20115bb8c4c8e
+    log: revlist-f9620dea6549-4587ab4f6680.txt
 
---===============0780908866418124688==
+--===============9111205297159758647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-decb0c620821-d3c309fa32c4.txt
+Content-Disposition: attachment; filename=revlist-f9620dea6549-4587ab4f6680.txt
 
-e65c5e6f34d34314b5c767fe65218cba1d910c74 ASoC: da7213: Add support for mono, set frame width to 32 when possible
-2dc5c38a61cd4f2e1bf78eea0b4fde6ca686f4bf ASoC: da7213: Add new kcontrol for tonegen
-c0c1001711b54e5bb780c1431d768c40d669390d ASoC: da7213: Initialize the mutex
-86878e91c43aeef7b8564cb973e4281b424aa70a ASoC: da7213: Populate max_register to regmap_config
-c351e361bbcb5da51db07314cd61c1959e6df051 ASoC: da7213: Return directly the value of regcache_sync()
-17e6d19c22da642be79169f6dedef73bcad158ae ASoC: da7213: Add suspend to RAM support
-28db3cd0c8a46a85444e887189437822b2f3d2a2 ASoC: da7213: Avoid setting PLL when closing audio stream
-6fc44844cb6ca7e98a6492e37584f14927b79d6a ASoC: da7213: Extend support for the MCK in range [2, 50] MHz
-6a4e68239b32927b50cf3c2633053bc22e869a6e arm64: defconfig: Enable DA7213 Codec
-2e61be37e3ca928e88f6ac1935539b0bc0153299 clk: renesas: r9a08g045: Add clocks, resets and power domains support for SSI
-90c358a187ef74259f1050385908d07ff38cc919 clk: versaclock3: Prepare for the addition of 5L35023 device
-8c722f1ab11137d66ac4e5c8f60a7eacedde19a1 dt-bindings: clock: versaclock3: Document 5L35023 Versa3 clock generator
-b60f91ba16f4e8340a10f80841599abe45d01cac clk: versaclock3: Add support for the 5L35023 variant
-87e19495233b953c74dc4954121f12771464c431 ASoC: renesas: rz-ssi: Terminate all the DMA transactions
-7e85c3e9f7135df283a17e8f60468daea83a28bf ASoC: renesas: rz-ssi: Fix typo on SSI_RATES macro comment
-ef0e266469fcf8c0ac757485aeb60aff0030e0b3 ASoC: renesas: rz-ssi: Remove pdev member of struct rz_ssi_priv
-d29a6e74afdc4e95d12f8e79ee432d5631c513d6 ASoC: renesas: rz-ssi: Remove the first argument of rz_ssi_stream_is_play()
-1fc550d64e5324397aff1a80dd66c55f5b7923f0 ASoC: renesas: rz-ssi: Use readl_poll_timeout_atomic()
-e36a0fa228aa2e6e39840be31b6cf879dfff881f ASoC: renesas: rz-ssi: Use temporary variable for struct device
-ca9e93bce40aa9ada35c5f84048d060717404970 ASoC: renesas: rz-ssi: Use goto label names that specify their actions
-dc72426a55478ac5cca4619b6e2ae41087417c16 ASoC: renesas: rz-ssi: Rely on the ASoC subsystem to runtime resume/suspend the SSI
-5e78b02ae404cba3d677fb7c380e37ce853a8bec ASoC: renesas: rz-ssi: Enable runtime PM autosuspend support
-c6fe5b03cf7a5ca8f6fbbaac1bcaf578d902b9e3 ASoC: renesas: rz-ssi: Add runtime PM support
-a60d6a111c50bb5275ad8bc6a6bd1d52477bc65b ASoC: renesas: rz-ssi: Issue software reset in hw_params API
-11446b932d9c32687ff33de8c2e2cb4a9d633ca3 ASoC: renesas: rz-ssi: Add suspend to RAM support
-2381db233c995a76decfef4648a2395790bc1bee ASoC: renesas: rz-ssi: Use NOIRQ_SYSTEM_SLEEP_PM_OPS()
-c2e62c4cbaa00658f1ccd2b9b9c0cfc425be3b61 ASoC: dt-bindings: renesas,rz-ssi: Remove DMA description
-05b55986207434a49dfdbc468854bc25ab9e1335 ASoC: dt-bindings: renesas,rz-ssi: Document the Renesas RZ/G3S SoC
-02460f60f5ef7c7eb2676486f0809da700cf1a9a pinctrl: renesas: rzg2l: Add audio clock pins on RZ/G3S
-5f02ae3aebdfef71f86bf8ee583159ece1170abc arm64: dts: renesas: r9a08g045: Add SSI nodes
-126854ec4d28ee35a618ba810c32e60a6902c500 arm64: dts: renesas: rzg3s-smarc-som: Add versa3 clock generator node
-3aeec3eeb80ea503bcc7dc5b42b283dde773f95b arm64: dts: renesas: Add da7212 audio codec node
-7ba9152e9e72f1e9c824ab1c5f8c23868f100391 arm64: dts: renesas: rzg3s-smarc: Enable SSI3
-d3c309fa32c43cab6fda9d0ccbf42e602a7e0c02 arm64: dts: renesas: rzg3s-smarc: Add sound card
+23e72aa224df0bde93e9fbc065b8043916573db7 ASoC: da7213: Add support for mono, set frame width to 32 when possible
+863c307123e1782b521bfd93f9f771ea490a8c86 ASoC: da7213.c: add missing pm_runtime_disable()
+9ce1c7cad8fb76cc3bf0b14a2b48cfec68185254 ASoC: da7213: Add new kcontrol for tonegen
+96fb0bc682ed9c10b42a6c7fbfc03189283b8e59 ASoC: codecs: da7213: Simplify mclk initialization
+5e3b46f6e3cf971f312a2c62dd94f91a1dbe78d0 ASoC: da7213: Populate max_register to regmap_config
+4bc6d27a8e8681b35a8c583b0421340dcdfc65dc ASoC: da7213: Return directly the value of regcache_sync()
+cc0b4bdd21a65f41930e8d01ee0c0f72f4c64c40 ASoC: da7213: Add suspend to RAM support
+9ed57ebc0f663154d85919f6a67e01abf998ddf4 ASoC: da7213: Avoid setting PLL when closing audio stream
+856d1328c5638eb5f0a4d81b80df43408fecb365 ASoC: da7213: Extend support for the MCK in range [2, 50] MHz
+34b7f17d4b03d7342384119fdbde13ab1540c760 ASoC: da7213: Initialize the mutex
+8f671acdcf3dcc209972322831b57de8e11bfc04 arm64: defconfig: Enable DA7213 Codec
+a5d49ad20056cfa28fedf4ff517f40f8fd4a0a43 clk: renesas: r9a08g045: Add clocks, resets and power domains support for SSI
+297db8c3df2772d225b06f7e924eb9a75692e7fa clk: versaclock3: Prepare for the addition of 5L35023 device
+2fdd578fa277e23eb0bea442a6b1d40e8169ad60 dt-bindings: clock: versaclock3: Document 5L35023 Versa3 clock generator
+6d313d212c4965c5489631698b6d2446e322b89c clk: versaclock3: Add support for the 5L35023 variant
+bd4f1e6632a673158bf5e3569f68b8d73770719e ASoC: renesas: rz-ssi: Terminate all the DMA transactions
+ea89e56a490a00bb7031239d133de8ee1bc099ea ASoC: renesas: rz-ssi: Use only the proper amount of dividers
+a30a9a6b202e6b3a6a4f9ac03dfd48efb50a5717 ASoC: renesas: rz-ssi: Fix typo on SSI_RATES macro comment
+b6034eac6efb4a768f639547abe7ff4b8346b101 ASoC: renesas: rz-ssi: Remove pdev member of struct rz_ssi_priv
+5da8aafd6b67a606693efbf18f5dc804264026e1 ASoC: renesas: rz-ssi: Remove the first argument of rz_ssi_stream_is_play()
+87fba2dc56848bead93cf8b4965f43fc5cfd63e1 ASoC: renesas: rz-ssi: Use readl_poll_timeout_atomic()
+8867b52a35869cd53c304174c2b9f7aff5c3fc9b ASoC: renesas: rz-ssi: Use temporary variable for struct device
+c40ae5db626729fa11e45c0c0f6092981f558eec ASoC: renesas: rz-ssi: Use goto label names that specify their actions
+4ab44d7e6e553e0a7ebaeb678f8ebe56c09fe1bb ASoC: renesas: rz-ssi: Rely on the ASoC subsystem to runtime resume/suspend the SSI
+0f3c5e146a39771d370e6350c286081c802d29ec ASoC: renesas: rz-ssi: Enable runtime PM autosuspend support
+321c956ccdd3b28ec4dbacdf86dea202338b4622 ASoC: renesas: rz-ssi: Add runtime PM support
+bdcfde260d14bb27ac8760c86a80e235c9bbb657 ASoC: renesas: rz-ssi: Issue software reset in hw_params API
+474a26736f9d2a030e5baddb5f59c9d0456e684a ASoC: renesas: rz-ssi: Add suspend to RAM support
+675f35864229c705cbf05f54064152cef1d63d44 ASoC: renesas: rz-ssi: Use NOIRQ_SYSTEM_SLEEP_PM_OPS()
+58b9225441caccad58cf358d20d9cb2e68e928be ASoC: dt-bindings: renesas,rz-ssi: Remove DMA description
+da506caf6594cc714f07f86dd63c256006436a60 ASoC: dt-bindings: renesas,rz-ssi: Document the Renesas RZ/G3S SoC
+85279e46d7b231e1da492451d18fffdc42b1b81c pinctrl: renesas: rzg2l: Add audio clock pins on RZ/G3S
+56f90b38beab3f15219b09a2e13cd64118868374 arm64: dts: renesas: r9a08g045: Add SSI nodes
+01852da750988e922f2546f9f1ca0b3ab4fef5d6 arm64: dts: renesas: rzg3s-smarc-som: Add versa3 clock generator node
+59242c45e842829cb233cd77acdc6e6377b6782b arm64: dts: renesas: Add da7212 audio codec node
+af0d48e0266cfe59f9b846bec082b6cf344107fb arm64: dts: renesas: rzg3s-smarc: Enable SSI3
+4587ab4f6680df4d46f116e0c3d20115bb8c4c8e arm64: dts: renesas: rzg3s-smarc: Add sound card
 
---===============0780908866418124688==--
+--===============9111205297159758647==--
