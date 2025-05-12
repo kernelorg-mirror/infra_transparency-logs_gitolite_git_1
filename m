@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Mon, 12 May 2025 19:06:02 -0000
-Message-Id: <174707676263.4031678.10546774087282502869@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
+Date: Mon, 12 May 2025 19:08:42 -0000
+Message-Id: <174707692234.4032972.6264900091475289212@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arighi/linux
-user: arighi
+repo: pub/scm/linux/kernel/git/sj/hkml
+user: sj
 changes:
-  - ref: refs/heads/scx
-    old: a214e5645dd6cb16a7319b0404fe7df95e74c26d
-    new: dd2b050896be047908c7c49d0351479e7345cec2
+  - ref: refs/heads/master
+    old: 705bd441b120db6ee2ef587375ea186187d9a0ea
+    new: 2b77227ddf4385a596a1271495f9c35a96e26a3a
     log: |
-         dd2b050896be047908c7c49d0351479e7345cec2 sched_ext/idle: Allow to use scx_bpf_select_cpu_and() from any context
+         2b77227ddf4385a596a1271495f9c35a96e26a3a TODO: add an item for bottom context line overlapping issue revisit
          
