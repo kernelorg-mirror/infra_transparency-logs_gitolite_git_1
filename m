@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4160180300563131464=="
+Content-Type: multipart/mixed; boundary="===============0882923865828169820=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Mon, 12 May 2025 19:41:49 -0000
-Message-Id: <174707890947.4062559.12467180909417943500@gitolite.kernel.org>
+Date: Mon, 12 May 2025 19:41:51 -0000
+Message-Id: <174707891198.4062866.12747458436822191197@gitolite.kernel.org>
 
---===============4160180300563131464==
+--===============0882923865828169820==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host-fixes
-    old: 10aba126bc86904e2f5afeaa26354e877a593c95
-    new: 82f2b0b97b36ee3fcddf0f0780a9a0825d52fec3
-    log: revlist-10aba126bc86-82f2b0b97b36.txt
+  - ref: refs/heads/i2c/i2c-host-next
+    old: 26e670a049241c3b4363975a505515727dab6925
+    new: 88b2fe78e303c90ba5d8d3e6600dbb2522b0c137
+    log: revlist-26e670a04924-88b2fe78e303.txt
 
---===============4160180300563131464==
+--===============0882923865828169820==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-10aba126bc86-82f2b0b97b36.txt
+Content-Disposition: attachment; filename=revlist-26e670a04924-88b2fe78e303.txt
 
 549d8994447f2f628c6cedd139d53926bdfee881 media: vivid: fix FB dependency
 9df181c8de1b6b285556f80bfd02584f3457f32e media: i2c: lt6911uxe: Fix Kconfig dependencies:
@@ -378,5 +378,55 @@ b9e62a2b8ffd2bc39b5838e163c41d8a08dae19a Merge tag 'x86-urgent-2025-05-11' of gi
 ecb9194d1724d1265c8cfe50fcb1dad718476e5e Merge tag 'mips-fixes_6.15_1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 cd802e7e5f1e77ae68cd98653fb70a97189eb937 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 82f2b0b97b36ee3fcddf0f0780a9a0825d52fec3 Linux 6.15-rc6
+ac31ed5e1e982066df89ef6bef49dbb3bd5f07c7 i2c: qcom-geni: Use generic definitions for bus frequencies
+b3da66ac537d749b3fb4c5d83e0eaf83a13e3b28 i2c: npcm7xx: Remove redundant ret variable
+e38181e9af485fb1f5deb9363722b9b9d3ab6d16 i2c: lpc2k: Add check for clk_enable()
+ba5bd17796e755a3aab19885603eb973e8c9eddd i2c: xgene-slimpro: Simplify PCC shared memory region handling
+d89afe7020c9d4217977d084fd6b0cdd397d2a8a i2c: imx: add some dev_err_probe calls
+01b8c715b3cf78a3da6426ae179a568a4caee84f i2c: rzv2m: Constify struct i2c_algorithm
+e4980414f57ec7b13b0f2f04146f0556c0891067 i2c: npcm: Add clock toggle recovery
+b4f84ae57dbc52e7b74d0c0dbc39dd2266f1aa4f i2c: uniphier(-f): Replace dev_err() with dev_err_probe() in probe function
+239c41d109e8dad6380cea942e6f4ff750d1e0ce i2c: uniphier: Replace dev_err() with dev_err_probe() in probe function
+dc07d42b149a00c182c0f1794c56d5129e25d1ab i2c: via: Replace dev_err() with dev_err_probe() in probe function
+6283e8d396c2ad0c7c1892ab6b64ddaeacf0ace8 i2c: viapro: Replace dev_err() with dev_err_probe() in probe function
+061ba6109c3d0b52fd2053faa6f9643a729c1ce1 i2c: viperboard: Replace dev_err() with dev_err_probe() in probe function
+ff7b62d46f6cffc7db84acbfa5c220814e34b479 i2c: virtio: Replace dev_err() with dev_err_probe() in probe function
+32b93450146aaaae566dc7c6b7e5db5fd92350dd i2c: i2c-xiic: Replace dev_err() with dev_err_probe() in probe function
+88d9d6c440d3049bb8a187267f67d9138324b8b7 i2c: scx200_acb: Replace dev_err() with dev_err_probe() in probe function
+dd3561a18d53c035675769103356d75089c1aa79 i2c: designware: Use better constants from units.h
+659b577a7ff5e4ab39bdfd6248c75a71df4fe86d i2c: pasemi: Use correct bits.h include
+1e4f2f4138e5ae07b4c9244dfc75806d9bc23e7f i2c: pasemi: Sort includes alphabetically
+0ac08ae112e7c4a8b0e16b0efa6efc1271d94142 i2c: octeon: add block-mode i2c operations
+4106486839d11908beebae48e10c206e758f77e3 dt-bindings: i2c: i2c-mt65xx: Add MediaTek Dimensity 1200 MT6893
+609826501f852a2222537ee4fd06635fa54f19c5 i2c: amd-isp: Add ISP i2c-designware driver
+77d543164d44a47f9ee97d83b7faa35c0d4fe36c i2c: iproc: Drop unnecessary initialisation of 'ret'
+47a5a287a577eabca16d27966b6ca5c981d9793e i2c: iproc: Use dev_err_probe in probe
+bc06e8e406256e19adb21cf86691f0b629ca193e i2c: iproc: Use u32 instead of uint32_t
+e375150c3ad91b2bb8ac55a3d51c27e8a8e7297f i2c: iproc: Fix alignment to match the open parenthesis
+103427ad6725076df4297420f516a990311e1f85 i2c: iproc: Remove stray blank line in slave ISR
+8239063e6b9dbffea4ec6d370baca5704cb3f06f i2c: iproc: Replace udelay() with usleep_range()
+e13937a094b31fc2eb423ae42aef89bf8727ad1c i2c: iproc: Fix indentation of bcm_iproc_i2c_slave_init()
+ebafec22d64c1d4035a1f5806928411b9a57fb8a i2c: iproc: Move function and avoid prototypes
+f967c6e22bd45c6f7900a67c150cedff394644e6 i2c: iproc: When there's an error treat it as an error
+91113d0e20ac7ea2af5ab4fbf3e73d9c68f16d7c i2c: iproc: Remove unnecessary double negation
+fffbe5cc6522c3790194f50d519fb9c6e09ad0ae i2c: pasemi: Enable the unjam machine
+d09f536a69f7a47baa3b2ac2f23dfd0835da60de i2c: pasemi: Improve timeout handling
+1242b6f5ebedb7ae71a1ba0680d7728a883a2d5a i2c: pasemi: Improve error recovery
+8985384ccad5e42eccb893c9e8525f6897df1dc5 i2c: pasemi: Log bus reset causes
+ffa2364f554e4671c083cfd3b3694728fdeb033e i2c: tegra: check msg length in SMBUS block read
+009853fca6b4de65e73b6c8f6360f515efa71a93 dt-bindings: i2c: dw: merge duplicate compatible entry.
+9fe9915a7bad4f5fdcb0091a18839fa2b7b0edba dt-bindings: i2c: dw: Add Sophgo SG2044 SoC I2C controller
+9584c30950cb414e0054b61795b761bd5b053b0d i2c: riic: Implement bus recovery
+1f032873dd6540e5f80c6a9d33eb5f77ec5b9055 dt-bindings: i2c: renesas,riic: Document RZ/V2N (R9A09G056) support
+a74c6ed688a3a8951377ca0c4680553bdbb27131 i2c: smbus: introduce Write Disable-aware SPD instantiating functions
+e7d15a1d9cce29c1842709033596e4e79e205025 dt-bindings: i2c: i2c-rk3x: Add compatible string for RK3528
+c04099d2319bb5a0284d7b87d1405fe289fb25fd i2c: davinci: add I2C_FUNC_PROTOCOL_MANGLING to feature list
+59b188c9837df21a2df690b1037dcc80c4ff40d1 i2c: ismt: Use non-hybrid PCI devres API
+8db4476846894e5d535f0269428108e27aaf2809 i2c: thunderx: Use non-hybrid PCI devres API
+1a1df91fd9e30183b67fa87ea4685c21339f48d9 i2c: mlxbf: Use str_read_write() helper
+f119266959fc9bc8d9762add96dc5f3d6b186c2c i2c: I2C_DESIGNWARE_AMDISP should depend on DRM_AMD_ISP
+9c6c6fa671f9b119941de49986f78d91c90f9b19 i2c: mlxbf: Allow build with COMPILE_TEST
+d203609dff13f1d0e5a01f4f0ac62fc88cc9b033 i2c: microchip-corei2c: add smbus support
+88b2fe78e303c90ba5d8d3e6600dbb2522b0c137 dt-bindings: i2c: i2c-wmt: Convert to YAML
 
---===============4160180300563131464==--
+--===============0882923865828169820==--
