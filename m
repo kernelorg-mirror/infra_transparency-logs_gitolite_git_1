@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Mon, 12 May 2025 16:36:14 -0000
-Message-Id: <174706777414.3846730.12553074382118680787@gitolite.kernel.org>
+Date: Mon, 12 May 2025 16:44:06 -0000
+Message-Id: <174706824669.3852064.892844226845564869@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/bluetooth/bluez
 user: vudentz
 changes:
   - ref: refs/heads/master
-    old: ab6ce0c8f3e066299bd22bea6d03625edb1fbbe8
-    new: 5e248deb85872a1031d2e18602ad04f39eae61d0
+    old: 5e248deb85872a1031d2e18602ad04f39eae61d0
+    new: 5a112d14e42369e97d3c415a3a08ee62727da8db
     log: |
-         f6f82b39d3287ae5eb4ee3ac323373265c72847f mesh: Fix possible null pointer deference
-         5e248deb85872a1031d2e18602ad04f39eae61d0 gatt: Don't attempt to listen on BR/EDR if disabled
+         5a112d14e42369e97d3c415a3a08ee62727da8db shared/asha: Fix bad parens in a comparison
          
