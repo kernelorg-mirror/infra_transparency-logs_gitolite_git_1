@@ -1,51 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8851978522334911521=="
+Content-Type: multipart/mixed; boundary="===============7630769888988253086=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 12 May 2025 10:20:48 -0000
-Message-Id: <174704524898.3476184.5324238697720849308@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 12 May 2025 10:22:53 -0000
+Message-Id: <174704537399.3477183.16665470540946910204@gitolite.kernel.org>
 
---===============8851978522334911521==
+--===============7630769888988253086==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/review-ilpo-next
-    old: d5251eef71bab8bd0b9ea3fe0005ad3d2553c3bb
-    new: 2bd1870a67692bb7bbeba80bb3135934d78eba66
+  - ref: refs/heads/master
+    old: c7f4e1508866c64c7806e72a5635af3f034aa508
+    new: d7874adbc0e3604c701bd555a3505d7f279f724a
     log: |
-         92c025db52bb94a032eb3d473bb81e62c19ddbd3 platform/x86/amd/hsmp: Report power via hwmon sensors
-         511a4a5ea2b6f1d4e0c719f27db6b627b2b52e49 platform/x86/amd/hsmp: acpi: Add sysfs files to display HSMP telemetry
-         f4856c20c137a73d73e448caa3964098024248bf power: supply: core: Add additional health status values
-         058de163a376b28816f91ff5e2fe6d7bc227e2ae platform/x86: dell-ddv: Implement the battery matching algorithm
-         303ecf690ae2882f1138ea1437207fba5294da34 platform/x86: dell-ddv: Expose the battery manufacture date to userspace
-         2bd1870a67692bb7bbeba80bb3135934d78eba66 platform/x86: dell-ddv: Expose the battery health to userspace
+         d7874adbc0e3604c701bd555a3505d7f279f724a 5.4-stable patches
          
 
---===============8851978522334911521==
+--===============7630769888988253086==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1747045274 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1747045240-b4f8a1be4786fae67ebde69a63ccf87830b77b35
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1747045404 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1747045369-f5569b9d68428a7aede75ab5e8ffb054b77b8da7
 
-d5251eef71bab8bd0b9ea3fe0005ad3d2553c3bb 2bd1870a67692bb7bbeba80bb3135934d78eba66 refs/heads/review-ilpo-next
+c7f4e1508866c64c7806e72a5635af3f034aa508 d7874adbc0e3604c701bd555a3505d7f279f724a refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaCHLnwAKCRBZrE9hU+XO
-MXDSAQCSNMowrzhQ+wtj8Ji789N0qs5pnBFqHIrBPsabcLsSFwD/emrd2Qa3PrHJ
-p3GORzIjx+1RAegLOS+pNk2UEqTRDAI=
-=Sos8
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmghzBwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ErEQAMFGkAxkn42RgxMPwXKg
+PY9cvSPL4cWl3bF9S5iD7kL7qQBrUs34hzMWx8OMB8Ipl988rNGIUNCTurt7/ZXL
++0n+DKs1KNiE7YPNJ1U+Z91s4JGS5TbsQgteZLyoqvEuB0LmrzaD5tDyOVzBoTfr
+GAQ4uRvJv/AosUcuqSz9bJJSns3wm6iZQsQrpq5CbsWlnWpmgrnRKPKsxNcE4ToJ
+kpbGsZe7d5vDa3lV+l+wHDOQnDXWnTAcu/urYIaepLlXHom9I3Un6BX67M508pPC
+jZvPXOEFD56EZKA6q4wXRCd4wOxJy70tYmfGruBSPl+8yDIb4iT33ebx5WMSt6GN
+mvKddgVxZ2IVC65Z/9AcnZwhtY1XEfgJZKwZnF7wFL6Z3UNrnHc9Q7XeoxtNgmZh
+Q+tYCJU+1Yj6ZXfZcik1h2B0LGDMYSPtQJwrDEbBjRCcI/ZDSlJPtkCc3HbGhJAo
+ECOodsBB5+PTccqA5FoYTbIMPJj+1nqgnjHzJFbbu4dg5CunbwcNfj/CJFq5cRTN
+se9ROkIjy6pdJOcMgEGeG9hHKEmPRrEdS7VAtLjkx00mGF7nLEC/Yxr+ZxyXMinb
+wzUoL2h3MsfUltvm9/Pd2SH50hggphPyehzhDUdMQ3gxRkhNC2iWuvdJQW0AhOmE
+UPcufcWonQQdo0Dc5sXl9CF/
+=mb1R
 -----END PGP SIGNATURE-----
 
---===============8851978522334911521==--
+--===============7630769888988253086==--
