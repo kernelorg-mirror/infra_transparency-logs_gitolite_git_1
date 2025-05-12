@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Mon, 12 May 2025 22:48:24 -0000
-Message-Id: <174709010481.25616.2737167975776300732@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Mon, 12 May 2025 22:54:48 -0000
+Message-Id: <174709048823.31090.15472561364593463723@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/i2c/i2c-host-next
-    old: 4bce3247320ebd4c082fd7e7224e1cb988ba7622
-    new: 6fa92cdd693b8ea056fba482afee567a7c81fc97
+  - ref: refs/heads/riscv-soc-for-next
+    old: 403e87ff0613a292f4fff8cca9295757e5cfc5b1
+    new: 781c171d6191b2f6e1185139db74bd5876383430
     log: |
-         4358ee783dae2160afb350b9e6be18456131304a i2c-mlxbf: Add repeated start condition support
-         6fa92cdd693b8ea056fba482afee567a7c81fc97 i2c-mlxbf: Improve I2C bus timing configuration
+         d58a73c96d8ae87936579689af1dd60a09bda432 dt-bindings: cache: add specific RZ/Five compatible to ax45mp
+         781c171d6191b2f6e1185139db74bd5876383430 Merge branch 'riscv-cache-for-next' into riscv-soc-for-next
          
