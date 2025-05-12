@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/connman/connman
-Date: Mon, 12 May 2025 19:05:01 -0000
-Message-Id: <174707670110.4029255.3791912544107998860@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Mon, 12 May 2025 19:06:02 -0000
+Message-Id: <174707676263.4031678.10546774087282502869@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/connman/connman
-user: denkenz
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/heads/master
-    old: d90b911f6760959bdf1393c39fe8d1118315490f
-    new: 8d3be0285f1d4667bfe85dba555c663eb3d704b4
+  - ref: refs/heads/scx
+    old: a214e5645dd6cb16a7319b0404fe7df95e74c26d
+    new: dd2b050896be047908c7c49d0351479e7345cec2
     log: |
-         8d3be0285f1d4667bfe85dba555c663eb3d704b4 dnsproxy: Address CVE-2025-32366 vulnerability
+         dd2b050896be047908c7c49d0351479e7345cec2 sched_ext/idle: Allow to use scx_bpf_select_cpu_and() from any context
          
