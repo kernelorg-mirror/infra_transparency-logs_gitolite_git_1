@@ -1,26 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============3398119993085061031=="
+Content-Type: multipart/mixed; boundary="===============7921382512816214828=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Mon, 12 May 2025 16:59:32 -0000
-Message-Id: <174706917245.3865934.6938130437580818675@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Mon, 12 May 2025 17:04:32 -0000
+Message-Id: <174706947291.3870448.13369194492701312883@gitolite.kernel.org>
 
---===============3398119993085061031==
+--===============7921382512816214828==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/stable/linux
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
     old: 82f2b0b97b36ee3fcddf0f0780a9a0825d52fec3
     new: 627277ba7c2398dc4f95cc9be8222bb2d9477800
     log: revlist-82f2b0b97b36-627277ba7c23.txt
 
---===============3398119993085061031==
+--===============7921382512816214828==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1747069502 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1747069467-0a0cdc8cae30c46fe62ae3c133cc1c0dbe1c4b13
+
+82f2b0b97b36ee3fcddf0f0780a9a0825d52fec3 627277ba7c2398dc4f95cc9be8222bb2d9477800 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgiKj8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+K8EP/RfoOkCrGd9+QBqb4Z87
+KKTQrFNWHhRUxjkhIdzlDbEtIYnUeXwtStCXVqOw0h82bXf+amCHeCWEOiQnFsQu
+nDIiho/K+cseRW++Y7+kgK/ivEFyFxB5udbrz1gQeyIuhPsewGrFhyd+l+Yvdd63
+IcE+MKauo7OmFbvNji/LYk0+o3QKxaoXk4EN0rCe3kPVEFisdmDx4lDOLjGRiLsC
+wSEhQDtcVVunCloENTAtc5shKWB8ifoUJNogkyTtw71TQoYHoh0x74Sb4PPWLR1/
+d5yQXI3iAS8VjT0WFmFpGCTAdFhKuwMAsEiLkcVASt9YqnngUoq1u21F9Fgv1cis
+/aKLfEcjSn8Hzb69FGNEf1er8lCHzjeAWB0JCJJPEsMu3cADll4Y2Wd9F/Yl/yTn
+c1DPP+zcx4cxpOPdgnxHmAWPBmXmxL9GG33GuojsuTvty4wvNuc7tqdLwiiTt5/J
+k1ygWV99TLlCVaoqdKqkeYZ8HgXeeHx5CummNKCOemrBjEnSQqqssMv0hDYQ5KYY
+IQ1IZVtqw78BI6KYLMOiygjjrrJXkWcKqayCp2+t7sgXhwygibD39g2FVnkqwrGv
+nPo5MTSXigIl/0nIatZIslFV4BFiKC6Ofey26gLG9CdI1vSX34VdMwtlaEcYuHFx
+HYlVJxEVrJyx+XGFDbenHozy
+=U8+G
+-----END PGP SIGNATURE-----
+
+--===============7921382512816214828==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -52,4 +83,4 @@ caf12fa9c066bb81e6a2f05dc441a89a1160c0fe Merge tag 'ibti-hisory-for-linus-2025-0
 6f5bf947bab06f37ff931c359fd5770c4d9cbf87 Merge tag 'its-for-linus-20250509' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 627277ba7c2398dc4f95cc9be8222bb2d9477800 Merge tag 'arm64_cbpf_mitigation_2025_05_08' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 
---===============3398119993085061031==--
+--===============7921382512816214828==--
