@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============1556909916908391995=="
+Content-Type: multipart/mixed; boundary="===============5525988133128145316=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 12 May 2025 11:00:15 -0000
-Message-Id: <174704761503.3522826.7216457050426048286@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hkrogeru/usb
+Date: Mon, 12 May 2025 11:11:13 -0000
+Message-Id: <174704827371.3531532.7030280670845484816@gitolite.kernel.org>
 
---===============1556909916908391995==
+--===============5525988133128145316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/linux-m68k
-user: geert
+repo: pub/scm/linux/kernel/git/hkrogeru/usb
+user: hkrogeru
 changes:
-  - ref: refs/heads/m68k-queue
-    old: 46ab004d43008eaed4a91594b07c5d0e67eed2c3
-    new: 6b7829c8556b991c0e5d398bb8c488dbb464cdf1
-    log: revlist-46ab004d4300-6b7829c8556b.txt
+  - ref: refs/heads/master
+    old: 92a09c47464d040866cf2b4cd052bc60555185fb
+    new: 82f2b0b97b36ee3fcddf0f0780a9a0825d52fec3
+    log: revlist-92a09c47464d-82f2b0b97b36.txt
 
---===============1556909916908391995==
+--===============5525988133128145316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-46ab004d4300-6b7829c8556b.txt
+Content-Disposition: attachment; filename=revlist-92a09c47464d-82f2b0b97b36.txt
 
 549d8994447f2f628c6cedd139d53926bdfee881 media: vivid: fix FB dependency
 9df181c8de1b6b285556f80bfd02584f3457f32e media: i2c: lt6911uxe: Fix Kconfig dependencies:
@@ -380,10 +380,5 @@ b9e62a2b8ffd2bc39b5838e163c41d8a08dae19a Merge tag 'x86-urgent-2025-05-11' of gi
 ecb9194d1724d1265c8cfe50fcb1dad718476e5e Merge tag 'mips-fixes_6.15_1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 cd802e7e5f1e77ae68cd98653fb70a97189eb937 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 82f2b0b97b36ee3fcddf0f0780a9a0825d52fec3 Linux 6.15-rc6
-08c3f32edf16afad26da4b14a68d0de6c51ccf0c m68k: Replace strcpy() with strscpy() in hardware_proc_show()
-0ffcdb2e9d6da3138a17f99a8e44680f22e1280a m68k: mac: Fix macintosh_config for Mac II
-9646261e394bce936e3cb5e1062ab1634ec08d2f m68k: atari: usb: Add ISP1160 USB host controller support
-e88fd1c0f897a884ad9a5228fe06857f56673bf2 m68k: atari: Update Kconfig.bus help text
-6b7829c8556b991c0e5d398bb8c488dbb464cdf1 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============1556909916908391995==--
+--===============5525988133128145316==--
