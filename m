@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5086577760652552096=="
+Content-Type: multipart/mixed; boundary="===============2273337561151024536=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 12 May 2025 11:16:52 -0000
-Message-Id: <174704861271.3537317.7939625007942782076@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 12 May 2025 11:17:12 -0000
+Message-Id: <174704863214.3537685.5094944238543594953@gitolite.kernel.org>
 
---===============5086577760652552096==
+--===============2273337561151024536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 82f2b0b97b36ee3fcddf0f0780a9a0825d52fec3
     log: revlist-92a09c47464d-82f2b0b97b36.txt
 
---===============5086577760652552096==
+--===============2273337561151024536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -381,4 +381,4 @@ ecb9194d1724d1265c8cfe50fcb1dad718476e5e Merge tag 'mips-fixes_6.15_1' of git://
 cd802e7e5f1e77ae68cd98653fb70a97189eb937 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 82f2b0b97b36ee3fcddf0f0780a9a0825d52fec3 Linux 6.15-rc6
 
---===============5086577760652552096==--
+--===============2273337561151024536==--
