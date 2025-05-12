@@ -1,27 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Mon, 12 May 2025 12:44:30 -0000
-Message-Id: <174705387029.3618266.899733204869825753@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8730142069674961948=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Mon, 12 May 2025 13:02:02 -0000
+Message-Id: <174705492225.3633580.9777057540825891799@gitolite.kernel.org>
+
+--===============8730142069674961948==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/irq/msi-parent-arm64
-    old: ad9406b84a59ce51931ed2a57adca122498a1aff
-    new: d8168e198f0d0b05865db5867ded095d4f18cf83
+  - ref: refs/heads/review-ilpo-next
+    old: 2bd1870a67692bb7bbeba80bb3135934d78eba66
+    new: 4bba84f62a90a23d780cdad2c320f77d854a6e64
     log: |
-         8733bc699c340f11af53b0bb586c397ce95416ac irqchip: Make irq-msi-lib.h globally available
-         8abe0fe227324fb76330b3d51d496a0ca7e2fa1e genirq/msi: Add helper for creating MSI-parent irq domains
-         1a7dc3bea79e7b454e9e0e05a2f2e3d3022c05de irqchip/gic: Convert to msi_create_parent_irq_domain() helper
-         389a87c5e0e8ee68659376ae4b0e365317122076 irqchip/mvebu: Convert to msi_create_parent_irq_domain() helper
-         a2e844691beaa45617cee5f67ca1891dc8b39386 irqchip: Drop MSI_CHIP_FLAG_SET_ACK from unsuspecting MSI drivers
-         e5f7ad708a2e14feb2b4f26836ebcb7da5ac8f83 irqchip/msi-lib: Honour the MSI_FLAG_NO_AFFINITY flag
-         dbe3c9f69d04f6952b06afd1fe4e9f2029a7df99 PCI: apple: Convert to MSI parent infrastructure
-         3d4752973af889b98df167b9962aa4db794afe19 PCI: xgene: Convert to MSI parent infrastructure
-         d8168e198f0d0b05865db5867ded095d4f18cf83 PCI: tegra: Convert to MSI parent infrastructure
+         4bba84f62a90a23d780cdad2c320f77d854a6e64 platform/x86/tuxedo: Prevent invalid Kconfig state
          
+
+--===============8730142069674961948==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1747054950 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1747054918-c01094bd5bc090cd97b831e77481f540fbdc37ca
+
+2bd1870a67692bb7bbeba80bb3135934d78eba66 4bba84f62a90a23d780cdad2c320f77d854a6e64 refs/heads/review-ilpo-next
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaCHxaQAKCRBZrE9hU+XO
+MSaeAPsFAPVu69bdTCMemXvlnjEPCTITOx6dTP70GiQJ/j669wEAsAwg+cRVoWXC
+pCmvOHhR2ysSRH8T6vHMwszFDn9PQgs=
+=+IvH
+-----END PGP SIGNATURE-----
+
+--===============8730142069674961948==--
