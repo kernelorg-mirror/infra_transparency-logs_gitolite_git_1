@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0929697849503683178=="
+Content-Type: multipart/mixed; boundary="===============1550884856163090191=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 13 May 2025 22:21:04 -0000
-Message-Id: <174717486418.1249283.5614534695894446280@gitolite.kernel.org>
+Date: Tue, 13 May 2025 22:21:08 -0000
+Message-Id: <174717486853.1249625.10237204707451787327@gitolite.kernel.org>
 
---===============0929697849503683178==
+--===============1550884856163090191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,106 +15,87 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: f4ecb62d0991f51d8717bed8ebf831b8ee4d2e9f
-    new: d322b91c366cbcb4686ddd11de5f13e63b144fa3
-    log: revlist-f4ecb62d0991-d322b91c366c.txt
+  - ref: refs/heads/1GbE
+    old: a9ce2ce1800e04267e6d99016ed0fe132d6049a9
+    new: 9f607dc39b6658ba8ea647bd99725e68c66071b7
+    log: revlist-a9ce2ce1800e-9f607dc39b66.txt
 
---===============0929697849503683178==
+--===============1550884856163090191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f4ecb62d0991-d322b91c366c.txt
+Content-Disposition: attachment; filename=revlist-a9ce2ce1800e-9f607dc39b66.txt
 
-ae747df6cd218bf5d4ef97eac18b358bfa9d62d6 ice: add E830 Earliest TxTime First Offload support
-629f6bbc11a2049ad2f9fc7f39ff354c620fb505 ice: add a separate Rx handler for flow director commands
-e25f17ad4ec3c46ae4e203f11e80b726010cf46c iavf: iavf_suspend(): take RTNL before netdev_lock()
-1af7bc15373fee25d1c1f3f72bbd396fda372442 iavf: centralize watchdog requeueing itself
-9b1ff4a5ad04a3950cbd4043389a0ddc44c29ddc iavf: simplify watchdog_task in terms of adminq task scheduling
-dc3bf23bd05b7628911424ed89dac143bcffbb66 iavf: extract iavf_watchdog_step() out of iavf_watchdog_task()
-bbf6f4f2e563530eb1a2f6dd15a0a3d07ebecd80 iavf: sprinkle netdev_assert_locked() annotations
-c0c791bb14cb084d3ef83e737d128c19d958baee iavf: get rid of the crit lock
-814db767d7ce2b0774f48d3a4a2f42306a1a315f ice: Fix LACP bonds without SRIOV environment
-0ead7946479ba5a203c1517d874e37f224e91a86 ice: Remove casts on void pointers in LAG code
-3e53bd666d6e104fca9b37eda2668f3d39503bc0 ice: replace u8 elements with bool where appropriate
-0fc132a064219be32fe2a3247814d3757542c704 ice: Add driver specific prefix to LAG defines
-f713109374fe03831dd32b17f4055f68017f063a ice: move LAG function in code to prepare for Active-Active
-1b9c2bfa114f2540a45a9cb2fb78c8eb23c5e1f0 ice: Cleanup variable initialization in LAG code
-2a36e9739197f7ca21e18315e90f9e630574ca6b ice: cleanup capabilities evaluation
-827a7739cc14aa59a0d741cdc750beaad51b5ba6 ice: breakout common LAG code into helpers
-24b211640e91daeb20d6fb7717c98aed92130cfd ice: Implement support for SRIOV VFs across Active/Active bonds
-73c5f379fab0d8ba794f6983540609594aa145f2 ice: fix vf->num_mac count with port representors
-683e2705aef4e5beaebffbd8ab8f0aa9d3e833f4 idpf: fix null-ptr-deref in idpf_features_check
-083e41b2f6ab6c220ffbc0e40afcfdfcf36ebec0 ice: add link_down_events statistic
-dd9576dc96e3f9deea39c1507988bb0e736645f8 ixgbe: add link_down_events statistic
-a9247a3dba2d1bc594cfaa78c405f905c490bc56 idpf: change the method for mailbox workqueue allocation
-ec6bb79bd3a04b497bfee145aaf019260aaa7174 idpf: add initial PTP support
-b789c4eba9feee1e6057e81ea0fe444f35792738 virtchnl: add PTP virtchnl definitions
-fbac3365eae954dbf9a1bb7eecfccb6bbff24c5e idpf: move virtchnl structures to the header file
-4605ab850e56500b6ffc4a4ec045a8f9d03ef2a6 idpf: negotiate PTP capabilities and get PTP clock
-f27c75044783273ebe7b58b19446d449100900a8 idpf: add mailbox access to read PTP clock time
-fb766cc82abce054355802a1b7a063cdac8a3076 idpf: add PTP clock configuration
-d435d0f1bc082cbb9f2ae94145de690a493cbe33 idpf: add Tx timestamp capabilities negotiation
-efd22fa412c4e5c467faaa9b1e99c1be89de21e6 idpf: add Tx timestamp flows
-c6c44d8b6b592af3c0c168ee71993fcf003092f3 idpf: add support for Rx timestamping
-e86cd30e297344ad238717c3fbb4715eef10ba53 libeth: convert to netmem
-6adc1226fd417b3938dc88195c8217b27635f91e libeth: support native XDP and register memory model
-c285b1df814bda625b6aa076a9714eeb414c5634 libeth: xdp: add XDP_TX buffers sending
-470caf1c2e16838788e6eface7346b46724222a4 libeth: xdp: add .ndo_xdp_xmit() helpers
-c00e74a7b22b0c38e766b79e2dfbf522b9e8537d libeth: xdp: add XDPSQE completion helpers
-43074f0dc64512ea959328bc470cb38a61969965 libeth: xdp: add XDPSQ locking helpers
-e89c75ac7d4c62bb4cd9590eaa835eddfc9a0699 libeth: xdp: add XDPSQ cleanup timers
-46c57f48be6ea462d7cee6075694b22ed9db7912 libeth: xdp: add helpers for preparing/processing &libeth_xdp_buff
-02c7d91289bc2cb5cbcf39bc20e77ac39b7bf6f8 libeth: xdp: add XDP prog run and verdict result handling
-9a4be2751b2b01e1e362f4b2fd510a9adfb90199 libeth: xdp: add templates for building driver-side callbacks
-4b3a265d7d97ad12871eb3ba674c7f435e6abd32 libeth: xdp: add RSS hash hint and XDP features setup helpers
-b3d9851fc8db7bf3bcdeac491fa7b687d35ccf9d libeth: xsk: add XSk XDP_TX sending helpers
-6fdd44d6d8e5084ccc9bec6e250b33664fdf0266 libeth: xsk: add XSk xmit functions
-8f7c2eb91b149e1b5e36e650b2dabec0576ea3a7 libeth: xsk: add XSk Rx processing support
-81a4f1f1bfadc14915f99519e5cfada577425a8c libeth: xsk: add XSkFQ refill and XSk wakeup helpers
-8b2c520d8d23ae1d95796700a7b7b9b81b844fb2 libeth: xdp, xsk: access adjacent u32s as u64 where applicable
-b947580c8bced0f4f278b852a5735da6748fd277 ice: redesign dpll sma/u.fl pins control
-20069a4aba9627383a0bb9c4a1febfa3fb229a60 ice: change SMA pins to SDP in PTP API
-8e947067336623ad92932ea28c664148ec9e69bd ice: add ice driver PTP pin documentation
-560ffc2d455ace35d2d952f48610bf810d0e3a2b virtchnl2: rename enum virtchnl2_cap_rss
-e26dbe3c39cd8eb930a773c06f50ca6cc247c15f virtchnl2: add flow steering support
-c78bc95bb9c8e3482cd2e27f50e252846f00d977 idpf: add flow steering support
-d29b885d6b9b86419bb7e08f70df0b737f59d1e0 ice, libie: move generic adminq descriptors to lib
-c206a05bc846bfa1477c4249a11d6079f38f9d9b ixgbe: use libie adminq descriptors
-4767805738659bac579ed523f839ab47d1a2e39f i40e: use libie adminq descriptors
-4b1abb459d42c675c316aa7a6ad23a44443f21bd iavf: use libie adminq descriptors
-15370c37db176b646411c855f28cd3b4e6ba1f5e libie: add adminq helper for converting err to str
-d56ec502a6a44bbdc8e26fe3d86f40228b1b7532 ice: use libie_aq_str
-f1df872471ecf408f50d81cba675cf21a95aed91 iavf: use libie_aq_str
-9d04b5fb58e1086c9614b44e69a27fadb358fb77 i40e: use libie_aq_str
-6d3c5e1c6a566d2fb92882f6d5b32a89bdd3c7d2 iavf: fix reset_task for early reset event
-5326b42a3eee7ffe758b1995fe56817c909e6065 idpf: fix a race in txq wakeup
-181089d05dbca23696bcaaa84100a96fe4eb61da ice: move TSPLL functions to a separate file
-b2c0166f08a194c62b6aaf70ac136f72dff28fb0 ice: rename TSPLL and CGU functions and definitions
-8ce87d7c1446c3c77a5983742b7cc727a4c3ce5b ice: fix E825-C TSPLL register definitions
-fbf94491d73bbe729a0218d0d0cd9beb7468c45d ice: remove ice_tspll_params_e825 definitions
-fa6a4872589a511151b586044d5b0338f6154285 ice: use designated initializers for TSPLL consts
-03bec3c1b8f0b6fdbeaaeb548d35592073056c1b ice: add TSPLL log config helper
-06a0a3547b570578ba28f32a6bd34d3a21bd2dfa ice: add ICE_READ/WRITE_CGU_REG_OR_DIE helpers
-e1aadd94508510a91b59562e4b0a803270635c9d ice: clear time_sync_en field for E825-C during reprogramming
-b7241254fe53018e088f09e72cd9320a5d1ae48e ice: read TSPLL registers again before reporting status
-4e6028e72a6d13f498e38db0ed0dcdf5aba44a60 ice: use bitfields instead of unions for CGU regs
-4d8f554fcca8c35ec4894240d35ea84ba4ca6462 ice: add multiple TSPLL helpers
-562fe76c6cdc436b79af3f20ce7056e13ded4ee8 ice: wait before enabling TSPLL
-3c0116bd41a61aeafa3e1844901b22d0f924b6a3 ice: fall back to TCXO on TSPLL lock fail
-665c44f319694033d67ea85b0b220077c4db9183 ice: move TSPLL init calls to ice_ptp.c
-d19ef60284e10f766337cea51373c72be7d4dd61 ice: default to TIME_REF instead of TXCO on E825-C
-547a2d618754da280da9a94dc0f935214c2a0575 idpf: avoid mailbox timeout delays during reset
-3c97d191bd355eeca0edc058a1575916f99c5960 net: intel: rename 'hena' to 'hashcfg' for clarity
-d7cfd5844b546418a17ce8baf66f8ef34720eca3 net: intel: move RSS packet classifier types to libie
-b9e5a2a2384cfe33ba7ab249156beab25580282a ice/ptp: Fix reporting of crosstimestamp
-954e96970b2e662f862ef4de49c11489b15e00ea ice: fix Tx scheduler error handling in XDP callback
-04f6f39261dc1c045bf65d310abc300f08232167 ice: create new Tx scheduler nodes for new queues only
-ef7a8d653c15bb1016f1e812adb8c0727d7bc0b4 ice: fix rebuilding the Tx scheduler tree for large queue counts
-72765f5e1395d0497fe561e1ca807a042cc922fe ice: convert to ndo_hwtstamp_get() and ndo_hwtstamp_set()
-9c7e539c6375fdbbb0c747290a4ae2c07a0086e8 igc: convert to ndo_hwtstamp_get() and ndo_hwtstamp_set()
-a92b191dad7abc37a4ab861aa7ea140decf583cb igb: convert to ndo_hwtstamp_get() and ndo_hwtstamp_set()
-778670ecd574146a5fa3e449ccdb58d768f2fa21 ixgbe: convert to ndo_hwtstamp_get() and ndo_hwtstamp_set()
-d322b91c366cbcb4686ddd11de5f13e63b144fa3 i40e: convert to ndo_hwtstamp_get() and ndo_hwtstamp_set()
+4a1cff317d952d79dfcc951e0e4e5c4a096e765b batman-adv: Start new development cycle
+d699628dae07038cf21fe288ac00c0a0062b4e0d batman-adv: constify and move broadcast addr definition
+8a7bb74a79d4324bf09e78f5a941521dea83a24f batman-adv: no need to start/stop queue on mesh-iface
+a608f11d3a3b9464bd6ec63b7e3e84cccd556e06 batman-adv: Switch to crc32 header for crc32c
+4e1ccc8e52e5eb3a072d7e4faecd80c6f326bfd2 batman-adv: Drop unused net_namespace.h include
+468d8b462ac64659caec53eff34f02963d5f52c8 iidc/ice/irdma: Rename IDC header file
+97b5631aae6896369712d6b7131afbc95c753587 iidc/ice/irdma: Rename to iidc_* convention
+d9251a560ba67bbedd53b81aee32e1ad95f42000 iidc/ice/irdma: Break iidc.h into two headers
+8239b771b94b639556c1987185fd82b2a896c923 ice: Replace ice specific DSCP mapping num with a kernel define
+c24a65b6a27c78d8540409800886b6622ea86ebf iidc/ice/irdma: Update IDC to support multiple consumers
+179542a98730ba40aef6806c7480c85ce731e588 net: thunder: make tx software timestamp independent
+1b2900db0119c02e6445bb61ec3fba982d10cc8d ethtool: Block setting of symmetric RSS when non-symmetric rx-flow-hash is requested
+0df6932485a07f0fc44a3379038d5853cbbb505c tools: ynl: handle broken pipe gracefully in CLI
+6c14058edfd01cdc0d3018b9069643b0da7c3e80 net: dsa: convert to ndo_hwtstamp_get() and ndo_hwtstamp_set()
+b45bf3f84ec410e6d392b8f755b5e5470f01deeb net: dpaa_eth: convert to ndo_hwtstamp_set()
+7bf230556bfafd614b62c4242431a7a77711e99c net: dpaa_eth: add ndo_hwtstamp_get() implementation
+c2d0b7da611a80596442f453dbf738623719521f net: dpaa_eth: simplify dpaa_ioctl()
+4b3f6fb8d0a19f8e0e9dddd8c4db6733cca0316d Merge branch 'dpaa_eth-conversion-to-ndo_hwtstamp_get-and-ndo_hwtstamp_set'
+b6e79c5da8c2fa44b24c1bb1b6effe8f6d5cd92f net: dpaa2-eth: convert to ndo_hwtstamp_set()
+d27c6e8975c64846e54a29e86925372d489c6d2c net: dpaa2-eth: add ndo_hwtstamp_get() implementation
+17c6c5a09df0da4f7133ac0099aa9b4c892f89fc net: gianfar: convert to ndo_hwtstamp_get() and ndo_hwtstamp_set()
+3c9ff6eb2de5d06a4cebaa46bf4bbbab491e9110 net: mvpp2: convert to ndo_hwtstamp_get() and ndo_hwtstamp_set()
+6a63b01567fb2bb49830daf7329c290a4b68d716 Merge tag 'batadv-next-pullrequest-20250509' of git://git.open-mesh.org/linux-merge
+1d2c7a5fee31b68d6becd3119a3a1c71399b34b1 net: stmmac: Refactor VLAN implementation
+f3acaf7364a6bdc031e039a3d885f4a3ba3be918 net: stmmac: stmmac_vlan: rename VLAN functions and symbol to generic symbol.
+534df0c1724b7e6466756f8e0d8090a7f6d0021f net: stmmac: dwxgmac2: Add support for HW-accelerated VLAN stripping
+0b28182c73a3d013bcabbb890dc1070a8388f55a Merge branch 'refactoring-designware-vlan-code'
+2451d3fb388f29d87d1abd3d2952d5ce36109816 net/mlx5: support software TX timestamp
+ef5224ed25e00ccca83749b3b425443c7551ef41 selftests: drv-net: ping: make sure the ping test restores checksum offload
+c14e1ecefd9e706262ac713fd27530e3344ef85c net: ixp4xx_eth: convert to ndo_hwtstamp_get() and ndo_hwtstamp_set()
+ce17831f8e970cadaba88605b4b1b1a8b2b50808 selftests: net: disable rp_filter after namespace initialization
+50ad88d57631b368906e6521947c0e8c2a95a895 selftests: net: remove redundant rp_filter configuration
+69ea46e7d00ec8b72f0c0c71569a8995bcc171ca selftests: net: use setup_ns for bareudp testing
+3f68f59e9593a3106bb09dc813ad39ea73b4a8bd selftests: net: use setup_ns for SRv6 tests and remove rp_filter configuration
+7c8b89ec506e35aea3565461c12c57142a452d35 selftests: netfilter: remove rp_filter configuration
+b83d98c1db29062b7d12e6b1157622ae24079b0d selftests: mptcp: remove rp_filter configuration
+e9c392a1557c984a9d62a8342f237bb049d04793 Merge branch 'selftests-net-configure-rp_filter-in-setup_ns'
+6b466efc6365e904b4b7eb65218a5b2969f978e2 dt-bindings: net: renesas-gbeth: Add support for RZ/V2N (R9A09G056) SoC
+cc7734e03e81dfed01156be8c698899dc42d2400 net: phy: dp83867: remove check of delay strap configuration
+6bf78849371d392d2b276eba00d176062c8431db net: phy: dp83867: use 2ns delay if not specified in DTB
+a29a72866616ef670c4b050419c6753ca6b0245c dt-bindings: vertexcom-mse102x: Fix IRQ type in example
+fed56943a8ba0409570ed79b040acf75e47d676d net: vertexcom: mse102x: Add warning about IRQ trigger type
+aeb90c40ee9a8a67c5cac5445162c36586f2816c net: vertexcom: mse102x: Drop invalid cmd stats
+6ce9348468c5a8862a036fa8534838fec2c1fabf net: vertexcom: mse102x: Implement flag for valid CMD
+4ecf56f4b66011b583644bf9a62188d05dfcd78c net: vertexcom: mse102x: Return code for mse102x_rx_pkt_spi
+8ea6e51e54c512f4042b1b39e404bcffb1a7f059 net: vertexcom: mse102x: Simplify mse102x_rx_pkt_spi
+908aef9a718d84434480560df1b67f34225558cd Merge branch 'net-vertexcom-mse102x-improve-rx-handling'
+cc42263172bed7f085d143c6977b392c13a4e279 Merge branch 'for-next' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/linux
+a96876057b9e44f60d936f8e4887543555b0593c netlink: fix policy dump for int with validation callback
+b86bcfee30576b752302c55693fff97242b35dfd net: mlx4: add SOF_TIMESTAMPING_TX_SOFTWARE flag when getting ts info
+e39d14a760c039af0653e3df967e7525413924a0 net: dsa: b53: implement setting ageing time
+03e96b8c11d140fb4ead0b30c2d6e1a294b501ef netmem: add niov->type attribute to distinguish different net_iov types
+e9f3d61db5cb29b3f17f0dc40c3ec2cda2ee93e5 net: add get_netmem/put_netmem support
+8802087d20c0e1c26c4b4fe30e22264bf8285e51 net: devmem: TCP tx netlink api
+bd61848900bff597764238f3a8ec67c815cd316e net: devmem: Implement TX path
+17af8cc06a5a302f22994e765ddb7268373ad1db net: add devmem TCP TX documentation
+383faec0fd64b9bff15eb5f700f023ec35520a96 net: enable driver support for netmem TX
+c32532670cec6d359e84c202d9d16bf948bebb78 gve: add netmem TX support to GVE DQO-RDA mode
+ae28cb114727dd599689725c27fb1c45627094ba net: check for driver support in netmem TX
+2f1a805f32ba37545209a7ddbf0845ac8802dfe9 selftests: ncdevmem: Implement devmem TCP TX
+ac4d1baf97fdaa6ef789273f0fd485c0d0d6f100 Merge branch 'device-memory-tcp-tx'
+02a562bb2b0846f44bb4226b7ee7ef9821c3780e tools: ynl-gen: support sub-type for binary attributes
+9ba8e351efd4d003a7fc22bc7455f0e95665cf44 tools: ynl-gen: auto-indent else
+25e37418c87249369fe546f2cb6af578c16b68b9 tools: ynl-gen: support struct for binary attributes
+42bd96cb9ef444f209c3cda63e60b171a308ebd7 Merge branch 'tools-ynl-gen-support-sub-types-for-binary-attributes'
+2d4407160f601876a88376b3789ce2f59df21f4b amd-xgbe: reorganize the code of XPCS access
+bbbd7303ea1851e24365058d424163d5cbdbb678 amd-xgbe: reorganize the xgbe_pci_probe() code path
+e49479f30ef9b3576dbfd24c3d98f05567371dcd amd-xgbe: add support for new XPCS routines
+ab95bc9aa795aa987b16f6cc1192138e62036f99 amd-xgbe: Add XGBE_XPCS_ACCESS_V3 support to xgbe_pci_probe()
+795f86ff050509d34a0e2b8bf8beb943d7e81897 amd-xgbe: add support for new pci device id 0x1641
+9f607dc39b6658ba8ea647bd99725e68c66071b7 Merge branch 'amd-xgbe-add-support-for-amd-renoir'
 
---===============0929697849503683178==--
+--===============1550884856163090191==--
