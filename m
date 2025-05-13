@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5495098711051099624=="
+Content-Type: multipart/mixed; boundary="===============7751798710274142021=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 13 May 2025 22:21:42 -0000
-Message-Id: <174717490227.1250878.10288714111172706783@gitolite.kernel.org>
+Date: Tue, 13 May 2025 22:21:44 -0000
+Message-Id: <174717490465.1250966.833023322322804987@gitolite.kernel.org>
 
---===============5495098711051099624==
+--===============7751798710274142021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 12f4ee312c95a76b9ae068ee1cc8fb05297e101e
     new: 4227ea91e2657f7965e34313448e9d0a2b67712e
     log: revlist-12f4ee312c95-4227ea91e265.txt
 
---===============5495098711051099624==
+--===============7751798710274142021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ af5f54b0ef9ef72d5fc7d57f0406372e8f317958 net: Lock lower level devices when upda
 6eeceb3f208de37d07696a7cff411e3922502fa7 Merge branch 'address-eee-regressions-on-ksz-switches-since-v6-9-v6-14'
 4227ea91e2657f7965e34313448e9d0a2b67712e net: dsa: b53: prevent standalone from trying to forward to other ports
 
---===============5495098711051099624==--
+--===============7751798710274142021==--
