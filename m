@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Tue, 13 May 2025 14:42:32 -0000
-Message-Id: <174714735277.853216.14512355206776298798@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Tue, 13 May 2025 14:43:19 -0000
+Message-Id: <174714739993.853768.11920686121761109935@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/pending
-    old: c5c796bf913f59b813656189f475bc81ce955031
-    new: 8bf9185201790d838d985237c66e4de62e103ef2
+  - ref: refs/heads/riscv-cache-for-next
+    old: d58a73c96d8ae87936579689af1dd60a09bda432
+    new: 64d60a02036ce589ac8d6c374346a4e48755ff1d
     log: |
-         8bf9185201790d838d985237c66e4de62e103ef2 wifi: ath12k: Fix scan initiation failure handling
+         438d216e6791a2a7f546707afbb4ce02f792ebc3 dt-bindings: cache: Convert marvell,{feroceon,kirkwood}-cache to DT schema
+         64d60a02036ce589ac8d6c374346a4e48755ff1d dt-bindings: cache: Convert marvell,tauros2-cache to DT schema
          
