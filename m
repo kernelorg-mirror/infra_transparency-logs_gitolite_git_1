@@ -1,41 +1,30 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Tue, 13 May 2025 18:49:32 -0000
-Message-Id: <174716217209.1065835.3683756002661737284@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Tue, 13 May 2025 19:03:51 -0000
+Message-Id: <174716303144.1077310.4796368050723525040@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/for-6.16/block
-    old: cf724e5e4161f3b1de59163a4f39ba59379f52a4
-    new: 77fd359b6dfdba58f476d5c17097bab024af9467
+  - ref: refs/heads/arm32-for-6.16
+    old: 267e15588f10033a882954539ef78abd866b1744
+    new: f2420037d90a8354594b3da541e19dcbb60c75e1
     log: |
-         fd6c08b26460436ec0f53e125f8ded98738806f1 blk-throttle: Rename tg_may_dispatch() to tg_dispatch_time()
-         3660cd4228d9330b618e2700491891f08824011d blk-throttle: Refactor tg_dispatch_time by extracting tg_dispatch_bps/iops_time
-         a404be5399d762f5737a4a731b42a38f552f2b44 blk-throttle: Split throtl_charge_bio() into bps and iops functions
-         c4da7bf54b1f76e7c5c8cc6d1c4db8b19af67c5d blk-throttle: Introduce flag "BIO_TG_BPS_THROTTLED"
-         f2c4902bd08b854a23c3c2ab352382fd7eef959f blk-throttle: Split the blkthrotl queue
-         28ad83b774a6f11126d45bf912bb8a7c16cb2b2b blk-throttle: Split the service queue
-         d1ba22ab2becc8bf84d466791b970905abe99b23 blk-throttle: Prevents the bps restricted io from entering the bps queue again
-         77fd359b6dfdba58f476d5c17097bab024af9467 block: remove the same_page output argument to bvec_try_merge_page
+         5e1be5d4617f68030eeab0532cf134948e19f5a2 ARM: dts: qcom: apq8064-lg-nexus4-mako: Enable WiFi
+         4b0eb149df58b6750cd8113e5ee5b3ac7cc51743 ARM: dts: qcom: apq8064: add missing clocks to the timer node
+         325c6a441ae1f8fcb1db9bb945b8bdbd3142141e ARM: dts: qcom: apq8064 merge hw splinlock into corresponding syscon device
+         2a1282861b73a4b8e45904e079ed3279c3f1c93f ARM: dts: qcom: apq8064: use new compatible for SFPB device
+         92c377bcafcddd43d4dca1aa60c865cdd2d1dbbb ARM: dts: qcom: apq8064: use new compatible for SPS SIC device
+         f2420037d90a8354594b3da541e19dcbb60c75e1 ARM: dts: qcom: apq8064: move replicator out of soc node
          
-  - ref: refs/heads/for-next
-    old: 98dff7b5e39751a2f997ad6db7164c4f48f39075
-    new: f97f7dca788fab3d0edd962b954065c12470fd30
+  - ref: refs/heads/arm64-for-6.16
+    old: 8fc88fbd471044d66cb2fd85dc0d431866ed7448
+    new: 4153eb38970a9f2328b01278c49b65fbdf84d4d2
     log: |
-         fd6c08b26460436ec0f53e125f8ded98738806f1 blk-throttle: Rename tg_may_dispatch() to tg_dispatch_time()
-         3660cd4228d9330b618e2700491891f08824011d blk-throttle: Refactor tg_dispatch_time by extracting tg_dispatch_bps/iops_time
-         a404be5399d762f5737a4a731b42a38f552f2b44 blk-throttle: Split throtl_charge_bio() into bps and iops functions
-         c4da7bf54b1f76e7c5c8cc6d1c4db8b19af67c5d blk-throttle: Introduce flag "BIO_TG_BPS_THROTTLED"
-         f2c4902bd08b854a23c3c2ab352382fd7eef959f blk-throttle: Split the blkthrotl queue
-         28ad83b774a6f11126d45bf912bb8a7c16cb2b2b blk-throttle: Split the service queue
-         d1ba22ab2becc8bf84d466791b970905abe99b23 blk-throttle: Prevents the bps restricted io from entering the bps queue again
-         d291635b99d34e198b7aa59e36f98c26f54ba878 Merge branch 'for-6.16/block' into for-next
-         77fd359b6dfdba58f476d5c17097bab024af9467 block: remove the same_page output argument to bvec_try_merge_page
-         f97f7dca788fab3d0edd962b954065c12470fd30 Merge branch 'for-6.16/block' into for-next
+         4153eb38970a9f2328b01278c49b65fbdf84d4d2 arm64: dts: qcom: qcs615: add QCrypto nodes
          
