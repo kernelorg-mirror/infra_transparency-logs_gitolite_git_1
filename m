@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3903747218884447124=="
+Content-Type: multipart/mixed; boundary="===============8080991809999107949=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 13 May 2025 08:53:39 -0000
-Message-Id: <174712641957.550872.17899167625998352129@gitolite.kernel.org>
+Date: Tue, 13 May 2025 08:53:44 -0000
+Message-Id: <174712642496.551078.8019149680834840906@gitolite.kernel.org>
 
---===============3903747218884447124==
+--===============8080991809999107949==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/x86/microcode
-    old: 4804f5ad5d63cf7ddad148132a3ecea11410dfa9
+  - ref: refs/heads/x86/mm
+    old: 1b3f2bd04d90f61e1f291b5e365b9bc4ce0ea7c7
     new: 82f2b0b97b36ee3fcddf0f0780a9a0825d52fec3
-    log: revlist-4804f5ad5d63-82f2b0b97b36.txt
+    log: revlist-1b3f2bd04d90-82f2b0b97b36.txt
 
---===============3903747218884447124==
+--===============8080991809999107949==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4804f5ad5d63-82f2b0b97b36.txt
+Content-Disposition: attachment; filename=revlist-1b3f2bd04d90-82f2b0b97b36.txt
 
 540201c0ef7e8e7b169f68a238ade931a81a31a6 netlink: specs: rtnetlink: attribute naming corrections
 beb3c5ad8829b52057f48a776a9d9558b98c157f netlink: specs: rt-link: adjust mctp attribute naming
@@ -1051,4 +1051,4 @@ ecb9194d1724d1265c8cfe50fcb1dad718476e5e Merge tag 'mips-fixes_6.15_1' of git://
 cd802e7e5f1e77ae68cd98653fb70a97189eb937 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 82f2b0b97b36ee3fcddf0f0780a9a0825d52fec3 Linux 6.15-rc6
 
---===============3903747218884447124==--
+--===============8080991809999107949==--
