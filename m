@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 13 May 2025 13:38:33 -0000
-Message-Id: <174714351357.798546.1633054496512728510@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 13 May 2025 13:40:04 -0000
+Message-Id: <174714360410.801553.8992527774079121059@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/timers/core
-    old: 2117c1d503b4e0fd0c6776ae9fe4df2260643eae
-    new: 08d7becc1a6b8c936e25d827becabfe3bff72a36
+  - ref: refs/heads/main
+    old: 6eeceb3f208de37d07696a7cff411e3922502fa7
+    new: 4227ea91e2657f7965e34313448e9d0a2b67712e
     log: |
-         08d7becc1a6b8c936e25d827becabfe3bff72a36 clocksource: Fix the CPUs' choice in the watchdog per CPU verification
+         4227ea91e2657f7965e34313448e9d0a2b67712e net: dsa: b53: prevent standalone from trying to forward to other ports
          
