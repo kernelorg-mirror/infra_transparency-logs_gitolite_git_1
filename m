@@ -1,79 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============2369720025924409536=="
+Content-Type: multipart/mixed; boundary="===============8322805456876228937=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
-Date: Tue, 13 May 2025 12:27:18 -0000
-Message-Id: <174713923882.738796.7775854983626708005@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Tue, 13 May 2025 12:35:40 -0000
+Message-Id: <174713974059.746611.10497614564804263427@gitolite.kernel.org>
 
---===============2369720025924409536==
+--===============8322805456876228937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelvesa/linux
-user: abelvesa
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/for-next
-    old: 6a55647af3334f1d935ece67de4a838a864b53fc
-    new: 293fc0252d3be20a99fa694b0422d3f965bff4e0
-    log: revlist-6a55647af333-293fc0252d3b.txt
+  - ref: refs/heads/bleeding-edge
+    old: f5e4d64956132069ba76deb0bfc64e770473c13c
+    new: e6b70b05628d6ec7335b0fcfe50e60e273fba2d2
+    log: revlist-f5e4d6495613-e6b70b05628d.txt
 
---===============2369720025924409536==
+--===============8322805456876228937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-f5e4d6495613-e6b70b05628d.txt
 
-certificate version 0.1
-pusher 1B5F44C900951556 1747139263 +0300
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/abelvesa/linux
-nonce 1747139231-b93a18972a81a84e9846851a767bda4dd357d64a
+d559335f3f0cae88d9af49d6572297a30286286f ucsi_ccg: Disable async suspend in ucsi_ccg_probe()
+1b17d4525bca3916644c41e01522df8fa0f8b90b PM: sleep: Print PM debug messages during hibernation
+34a364ff04e960a4d47f558acf7fbafcc3085c1f PM: sleep: Introduce pm_suspend_in_progress()
+d1b37a4c5081dbad554b8e792b7a7937b635db58 PM: sleep: Introduce pm_sleep_transition_in_progress()
+a528889c696dbe42d09d0eeebe82027bac843cba Merge branch 'pm-sleep' into bleeding-edge
+f7e9228532beb5c0cbb11101384ed977806ef691 cpufreq: Drop policy locking from cpufreq_policy_is_good_for_eas()
+1f938a588fb2cb34e343859ba1dc000384dd3856 Merge branch 'pm-cpufreq' into bleeding-edge
+c9b83cbe46c645712988a53ce513aaf56728dcd3 PM: EM: Documentation: Fix typos in example driver code
+3e3ba654d3097e0031f2add215b12ff81c23814e PM: EM: Move CPU capacity check to em_adjust_new_capacity()
+4a6b1cf0d4c02d6da2976c6314c264d20672937e PM: EM: Introduce em_adjust_cpu_capacity()
+0b224fcc89c3b478f6a53e842942080abd7867b3 Merge Energy Model management code changes for 6.16
+7b010f9b906107ae4e5ac626329ab818b3f0a6b6 cpufreq: intel_pstate: EAS support for hybrid platforms
+05cf8b8c5118479637efe281e5eb98972d3a3386 cpufreq: intel_pstate: EAS: Increase cost for CPUs using L3 cache
+f20af84c29b222f68df53bfa72dcfbd4a3491603 cpufreq: intel_pstate: Document hybrid processor support
+24e0048909af2f741cb02e3d950de20d652867e9 Merge branch 'pm-em' into bleeding-edge
+e6b70b05628d6ec7335b0fcfe50e60e273fba2d2 Merge branch 'pm-cpufreq' into bleeding-edge
 
-6a55647af3334f1d935ece67de4a838a864b53fc 293fc0252d3be20a99fa694b0422d3f965bff4e0 refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEETvPuEU56jyrKp9G4G19EyQCVFVYFAmgjOsAACgkQG19EyQCV
-FVbwfxAAvs5VZA3UDhwyEUbeCFAiAJTZFI0lsaYM8JRo+r2YrsHEAvgod21O4ycM
-oQCQsxV6Ahoz2skPvwwZ/K18A11Z1vD9ZC4OpgZlfJ1HaEmxjW74oDIjPJEyMLrj
-tejH3nr4mwRZt/txE74igvaoZWMgsR6BptIKUkCIXuQOgEzEABuj5iTBAbPp8d3D
-Q4ENc4f3d3EWW5dmElOrInHRHHbOSxjLQfu5rlVMAT6SUl91uZvceFR69h1PflI1
-QNu1GoeV8/Tj1SQW3jDLZ8Ca0UJNxB+kV+pteFZsFobX2+fihH/xtjdyLF6dJZj2
-MeSDFdtMxxtordJj+D0I7n27N5WzrkzBxBwHZemZOxKTDD3tYUrsEczW33Sl9L2U
-f1nKo5HOkleooX7F9pL+8cBQTwsbOO0cdK9ZLKxa0MfrvVs/sBaNKk1SxzhSTcSO
-1Cq8o3GgBoBM2EBVIjDDIKUhMsnIPIb4h8eeD1vYFv/E2K9w/WGI611fz7yDwGF1
-QTcpn6/dl89PxcNqhmuVntSu772oYlBc+k1hkuWMkXWUWj/4/ifBnKvB2mZXDTml
-V63uxH2L7oHe9lZJeKE9oFOlPy5M+bKchtnBCw5loY14vcEcL+DampmLKVDz61n9
-bN9wXI6A7zqWc7lpF7naJCTu4nGn3XKupn69arBA1tvl7ZPe2Tc=
-=+1pg
------END PGP SIGNATURE-----
-
---===============2369720025924409536==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6a55647af333-293fc0252d3b.txt
-
-7ca11a2bd22ae596c688a9ebee36ec2d1483571e dt-bindings: clock: imx8mm: add VIDEO_PLL clocks
-ba253502e8fcbde7e5181d19e23753702b7a7d19 clk: imx8mm: rename video_pll1 to video_pll
-c89e476ca6c7484faf71cf6130cd66f85f669395 dt-bindings: clock: imx8mp: add VIDEO_PLL clocks
-80001b5356b35d8255a4dc96ee98d3986b29b79e clk: imx8mp: rename video_pll1 to video_pll
-543994f50f49654168cb66c179a1a2aeb50b5417 dt-bindings: clock: imx8m-anatop: add oscillators and PLLs
-0c0289ff1a469691332e9288ec2015e26a51486b arm64: dts: imx8mm: add anatop clocks
-78c38495a9e845dcd50efaa15662900f3caa2e90 arm64: dts: imx8mn: add anatop clocks
-df1aba69d77f62c5b82cfad1dd5417844f8fdc49 arm64: dts: imx8mp: add anatop clocks
-a273e8b3fd6d5d3e514d9b4ad1ce0e131bb616aa arm64: dts: imx8mq: add anatop clocks
-40160ea6e799e300e23314db6a983a0818c077e9 clk: imx: add hw API imx_anatop_get_clk_hw
-9c1e388af87c988e9f26d97a8f849a99b552d62a clk: imx: add support for i.MX8MM anatop clock driver
-9dac57d3e238e9e1fb85826bdbdaebd16b0c4141 clk: imx: add support for i.MX8MN anatop clock driver
-178566c89d266c2791f09fd5e6e56f4bad2b1c8f clk: imx: add support for i.MX8MP anatop clock driver
-35d51f0cef2da7863fecba42124d436759b1bd6f clk: imx8mp: rename ccm_base to base
-6b39c700bff61212765c3e003a6565264bd0a612 arm64: dts: imx8mp-aristainetos3a-som-v1: don't replicate clk properties
-258d11f4cf77d60c460814932e581901835d25c6 dt-bindings: clock: imx8m-clock: add PLLs
-94c1409e4a08186b4032599c36ec78fd8b344021 arm64: dts: imx8mm: add PLLs to clock controller module (CCM)
-e73013bd577f430e28082dec7f3cccae7e05d693 arm64: dts: imx8mn: add PLLs to clock controller module (CCM)
-293fc0252d3be20a99fa694b0422d3f965bff4e0 arm64: dts: imx8mp: add PLLs to clock controller module (CCM)
-
---===============2369720025924409536==--
+--===============8322805456876228937==--
