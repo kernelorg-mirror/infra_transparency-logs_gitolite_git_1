@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4660470229148770079=="
+Content-Type: multipart/mixed; boundary="===============4560991624945148905=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 13 May 2025 02:49:09 -0000
-Message-Id: <174710454930.236466.13570844443885854303@gitolite.kernel.org>
+Date: Tue, 13 May 2025 02:49:33 -0000
+Message-Id: <174710457364.237463.5639701310717919501@gitolite.kernel.org>
 
---===============4660470229148770079==
+--===============4560991624945148905==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 5ab4770ea4cae2fd4ef5be637c5a6f81bb6fc379
-    new: 51e14884521eae6680264d35baeb53ba7a112e8b
+  - ref: refs/heads/6.16/scsi-staging
+    old: 6d600a8c2a94952d911b94a948cd5cecf8fb1069
+    new: 8f9c9384cde8c5e9af22bef553b89cd991fd38e7
     log: |
          7c56921936a49c817addfabf0a3c66b39ab0bd35 scsi: isci: Remove unused sci_remote_device_reset()
          e256821fbe43f1a4a13297026707d56db7eb5de5 scsi: core: Remove unused scsi_dev_info_list_del_keyed()
@@ -31,33 +31,33 @@ changes:
          8f9c9384cde8c5e9af22bef553b89cd991fd38e7 scsi: ufs: core: Support updating device command timeout
          
 
---===============4660470229148770079==
+--===============4560991624945148905==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1747104562 -0400
+pusher 75C5DE3D 1747104587 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1747104530-af50ab93188556c6d79018b22bdaf2114d0a2bc6
+nonce 1747104552-50fcfbab4cf93cdd4a7339eb606f342bf187e725
 
-5ab4770ea4cae2fd4ef5be637c5a6f81bb6fc379 51e14884521eae6680264d35baeb53ba7a112e8b refs/tags/mkp-scsi-staging
+6d600a8c2a94952d911b94a948cd5cecf8fb1069 8f9c9384cde8c5e9af22bef553b89cd991fd38e7 refs/heads/6.16/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmgiszIACgkQ7ulgGnXF
-3j0idRAAk9Zed/HN9Nk/XkswQ3AxFWZZZcNgoigE1NdCGxzCVImIcn3TWXXQjrDb
-+A1cIrtfVX2Trw2agMQD4SU/c9sVWziUClAnlfquPtHaVptsrLI+BRKw2tinPP1C
-kZSABjox6sBoqEijWQhYf9vgTu6+CTjg6s9kQmXBS4Heanv4phbWw/H/JPhEfzhA
-fJiefaktGKwf9apxix3kq6ew46HnrDZRPJERNYO2jdfVyA9PvyH874GNsQyBFqCo
-s9uxB+d96y+MuvhYjO7LFPoCQePfjXefxXz0Krk+YQ6tSbLW48fiWpDurwqid7Ra
-SzcZD/CFrI4bdTtleV0NO9Nnm2v1+Esr0eAacyjKtsgmfl/Vo12GMHm+YbH5+zBn
-t7gxh/g38Zz569+3czIS+NBFHC2+xofSQGa5013VF2dLs6Oasuj7nCxTMU/ebobm
-20mddzBn3/s/FsYplFla7WGotYkizPUwl78NhcoE92ouc9i8yOO7fR6u9dt4X5w+
-cYOltQe0GBzmRkq1E2GEIm+XPcoZv2wDdYXKiDO2B1USJGCT7V7uBiBTAmRUlBVW
-+Sv14hzPRuSVBAs8g8WqP5IBNzlgOxyaSBrD0VqGnCjoaX682DU7RhIAopV6ue7B
-KjqpHIdHQQAewzQsImcR9TRnOoRswbmQ3i+IfZ82H25oBjDZnNk=
-=5L8i
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmgis0sACgkQ7ulgGnXF
+3j3Elg/9EZeQKOxDc/BPfuQ62DyGnJRsaPFkzDN6tcvtG5Sn/qXH0J4pMpeTRkzG
+0Kcqe0JOh6OOijI6sQdoieyhPKwpIYKXE7LOSMj+rDz1c8nfEPktJWG2sYYHn3/V
+SzMOdvSPPN8hy2rav4Azm1swKMz7/D0qlrsOF18NFx4q4Mpqgx1hQy3ROz5DJoX6
+5T6kJPNP0iDWKHD5NEWMibFm176BenidiXZuZ2cAmKECKON7Ad8ZhiYmIolOLsU3
+m8fenVKvmn0mxB/E1+NWhKn94VaqA0q3z22KTDc15/DXn7Tm78a1q9VRjlqiPOgW
+j//dYwbOr7gfPhIR1DXzJ/n81pk4MeqoU4ZSSIiOMeIb9B6TcXu/GAK69+GQl3bJ
+/VsxnMLfNJp5HOtmHeO/lRvUYXE0E5Ej/Pn4kNi0OBIKxlkjABKbjKHyfm6dOwjx
+I9FLDRU+jXf9zhs4xi5udNMGnH+5GceSXfbeyhmG2clI2Q4VuP2M6sWgLKeXjE0h
+W1CHS4PQum1WAS92khvH9ZQF6sZSY9xnl5UHUBZ8U1RYr0CxQG3jd+ZL7QkA8/AS
+Y/zqjBuzI8vVl7PcduwjvhOJ0wmbldnlYPGjpHOr51P2EFcF7rVv3aYlmVhEQIYh
+37Qcb0hJuqJeuwj31ex/QZWQ2T5DIry/XlCW8eRnuXRzVB+osQA=
+=Z6lQ
 -----END PGP SIGNATURE-----
 
---===============4660470229148770079==--
+--===============4560991624945148905==--
