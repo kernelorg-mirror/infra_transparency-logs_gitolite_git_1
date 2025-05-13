@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 13 May 2025 01:41:34 -0000
-Message-Id: <174710049404.178423.9712768932978456182@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 13 May 2025 01:42:01 -0000
+Message-Id: <174710052164.178910.18158254918400585840@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: fd5fd538a1f4b34cee6823ba0ddda2f7a55aca96
-    new: f4efc73b1ee791cb946156eec6c64e75b6092d48
+  - ref: refs/heads/main
+    old: 4d64321c4f6faf90b5a3b9f52ee1e7e0eeeff00c
+    new: c92d6089d8ad7d4d815ebcedee3f3907b539ff1f
     log: |
-         d060b6aab031b6113f78cd3d1585115f13386eec helpers: make few bpf helpers public
-         a498ee7576de24b4b0916ce56cf2686e261a29f7 bpf: Implement dynptr copy kfuncs
-         c61bcd29eda9ea8db753ad5217fd24d9ee42a96b selftests/bpf: introduce tests for dynptr copy kfuncs
-         f4efc73b1ee791cb946156eec6c64e75b6092d48 Merge branch 'introduce-kfuncs-for-memory-reads-into-dynptrs'
+         c92d6089d8ad7d4d815ebcedee3f3907b539ff1f net: cadence: macb: Fix a possible deadlock in macb_halt_tx.
          
