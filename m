@@ -1,50 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============0474318123643198569=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 13 May 2025 09:45:51 -0000
-Message-Id: <174712955173.599746.13790849732802545485@gitolite.kernel.org>
-
---===============0474318123643198569==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 13 May 2025 09:46:03 -0000
+Message-Id: <174712956329.600044.3976158461191311414@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-6.16
-    old: 6157e62b07d9331cc1d4d9d525dab33d45b0e83c
-    new: cad915e4515790d2e66525a86a166e7ce81e3055
+  - ref: refs/heads/for-next
+    old: 38308aeef08eb6f8b482d329ef37ea7b27bca402
+    new: 89f41794db670276dd924318afc82ca7eaa95a83
     log: |
-         cad915e4515790d2e66525a86a166e7ce81e3055 regulator: gpio: Use dev_err_probe
+         144d6dfc7482455eabf8e8caa974a6e8d9572705 ASoC: soc-core: merge snd_soc_unregister_component() and snd_soc_unregister_component_by_driver()
+         89f41794db670276dd924318afc82ca7eaa95a83 Merge remote-tracking branch 'asoc/for-6.16' into asoc-next
          
-
---===============0474318123643198569==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1747129580 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1747129549-d34bf629e9975a5f53cfea0ef6d73060b303dcc2
-
-6157e62b07d9331cc1d4d9d525dab33d45b0e83c cad915e4515790d2e66525a86a166e7ce81e3055 refs/heads/regulator-6.16
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgjFOwTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0E6VB/9beArOTHDUxqzgEzvrTW4FjrqfUPrh
-W+CUXai+NUADpYAz94bYyAoCEVT39p/eFaCOdIlwYTeLhODuIcDgUsf47uYpqsVj
-JZ4ya4FrPcDyh5yvGU/qQFAYhK0NRRx8ErNBRNuMgTQPVamSrCbO/e4a/5n50U3e
-f8Ugkzv6Hx0G2GG3CH5mBKUzYf1DW0ogfzEY/OvVJ1rNyh7rxBayAzePlB8aFKFl
-r5MwYwtHeDQGxvY9UuWcpVVyAR+pONqvmToRNEh72SckDqkseLcT2zvtfYbxXmso
-GPoJvYks9Zhd0TEcqEmuuuWKKyO/XZTD3/D1lk08yUFCHGFsWESntXmH
-=YpU8
------END PGP SIGNATURE-----
-
---===============0474318123643198569==--
