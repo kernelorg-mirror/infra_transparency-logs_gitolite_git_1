@@ -1,38 +1,41 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Tue, 13 May 2025 18:43:56 -0000
-Message-Id: <174716183632.1060876.10484729283928300305@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 13 May 2025 18:49:32 -0000
+Message-Id: <174716217209.1065835.3683756002661737284@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
+  - ref: refs/heads/for-6.16/block
+    old: cf724e5e4161f3b1de59163a4f39ba59379f52a4
+    new: 77fd359b6dfdba58f476d5c17097bab024af9467
+    log: |
+         fd6c08b26460436ec0f53e125f8ded98738806f1 blk-throttle: Rename tg_may_dispatch() to tg_dispatch_time()
+         3660cd4228d9330b618e2700491891f08824011d blk-throttle: Refactor tg_dispatch_time by extracting tg_dispatch_bps/iops_time
+         a404be5399d762f5737a4a731b42a38f552f2b44 blk-throttle: Split throtl_charge_bio() into bps and iops functions
+         c4da7bf54b1f76e7c5c8cc6d1c4db8b19af67c5d blk-throttle: Introduce flag "BIO_TG_BPS_THROTTLED"
+         f2c4902bd08b854a23c3c2ab352382fd7eef959f blk-throttle: Split the blkthrotl queue
+         28ad83b774a6f11126d45bf912bb8a7c16cb2b2b blk-throttle: Split the service queue
+         d1ba22ab2becc8bf84d466791b970905abe99b23 blk-throttle: Prevents the bps restricted io from entering the bps queue again
+         77fd359b6dfdba58f476d5c17097bab024af9467 block: remove the same_page output argument to bvec_try_merge_page
+         
   - ref: refs/heads/for-next
-    old: 40deb5d474c78c79008eb0c33a1688817f5e92bb
-    new: 14a9a162f238dc7830cd6a03d64ba6e047dca685
+    old: 98dff7b5e39751a2f997ad6db7164c4f48f39075
+    new: f97f7dca788fab3d0edd962b954065c12470fd30
     log: |
-         f9c7ba983f7b44fe698d580dec67552123520472 ARM: dts: rockchip: Sonoff-iHost: adjust SDIO for stability
-         c2089976772364a3b910676693bf52497ab35475 ARM: dts: rockchip: Sonoff-iHost: correct IO domain voltages
-         e37fe0b9bf762dca9f16e0461d14038ec3898f8d clk: rockchip: rename branch_muxgrf to branch_grf_mux
-         553f648dbd9472ea55a6835446fe57f48491b355 clk: rockchip: rename gate-grf clk file
-         0ffc52364a695e8d60c5bfce7399a81ff8541dd3 Merge branch 'v6.16-armsoc/dts32' into for-next
-         14a9a162f238dc7830cd6a03d64ba6e047dca685 Merge branch 'v6.16-clk/next' into for-next
-         
-  - ref: refs/heads/v6.16-armsoc/dts32
-    old: c895c32bf1ce90839fc525c5d23cbf867ebe519a
-    new: c2089976772364a3b910676693bf52497ab35475
-    log: |
-         f9c7ba983f7b44fe698d580dec67552123520472 ARM: dts: rockchip: Sonoff-iHost: adjust SDIO for stability
-         c2089976772364a3b910676693bf52497ab35475 ARM: dts: rockchip: Sonoff-iHost: correct IO domain voltages
-         
-  - ref: refs/heads/v6.16-clk/next
-    old: 61bf658a4d95e8f982b6e66dea763bff57996349
-    new: 553f648dbd9472ea55a6835446fe57f48491b355
-    log: |
-         e37fe0b9bf762dca9f16e0461d14038ec3898f8d clk: rockchip: rename branch_muxgrf to branch_grf_mux
-         553f648dbd9472ea55a6835446fe57f48491b355 clk: rockchip: rename gate-grf clk file
+         fd6c08b26460436ec0f53e125f8ded98738806f1 blk-throttle: Rename tg_may_dispatch() to tg_dispatch_time()
+         3660cd4228d9330b618e2700491891f08824011d blk-throttle: Refactor tg_dispatch_time by extracting tg_dispatch_bps/iops_time
+         a404be5399d762f5737a4a731b42a38f552f2b44 blk-throttle: Split throtl_charge_bio() into bps and iops functions
+         c4da7bf54b1f76e7c5c8cc6d1c4db8b19af67c5d blk-throttle: Introduce flag "BIO_TG_BPS_THROTTLED"
+         f2c4902bd08b854a23c3c2ab352382fd7eef959f blk-throttle: Split the blkthrotl queue
+         28ad83b774a6f11126d45bf912bb8a7c16cb2b2b blk-throttle: Split the service queue
+         d1ba22ab2becc8bf84d466791b970905abe99b23 blk-throttle: Prevents the bps restricted io from entering the bps queue again
+         d291635b99d34e198b7aa59e36f98c26f54ba878 Merge branch 'for-6.16/block' into for-next
+         77fd359b6dfdba58f476d5c17097bab024af9467 block: remove the same_page output argument to bvec_try_merge_page
+         f97f7dca788fab3d0edd962b954065c12470fd30 Merge branch 'for-6.16/block' into for-next
          
