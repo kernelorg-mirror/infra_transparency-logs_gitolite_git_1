@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5934216141560886366=="
+Content-Type: multipart/mixed; boundary="===============1353402109613993663=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 13 May 2025 08:52:59 -0000
-Message-Id: <174712637951.549086.3092189890268405831@gitolite.kernel.org>
+Date: Tue, 13 May 2025 08:53:04 -0000
+Message-Id: <174712638448.549214.967118922594118555@gitolite.kernel.org>
 
---===============5934216141560886366==
+--===============1353402109613993663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/x86/asm
-    old: 4b626015e1bf119cd31d7e62f9bd9eb1412fce7b
+  - ref: refs/heads/x86/boot
+    old: ed4d95d033e359f9445e85bf5a768a5859a5830b
     new: 82f2b0b97b36ee3fcddf0f0780a9a0825d52fec3
-    log: revlist-4b626015e1bf-82f2b0b97b36.txt
+    log: revlist-ed4d95d033e3-82f2b0b97b36.txt
 
---===============5934216141560886366==
+--===============1353402109613993663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4b626015e1bf-82f2b0b97b36.txt
+Content-Disposition: attachment; filename=revlist-ed4d95d033e3-82f2b0b97b36.txt
 
 261ffd53cc8e91e6484a3170a1ddf59a16696667 Drivers: hv: Fix bad pointer dereference in hv_get_partition_id
 549d8994447f2f628c6cedd139d53926bdfee881 media: vivid: fix FB dependency
@@ -450,7 +450,6 @@ b6a218ff8b88d09f86a17167772e7aaff1724e54 Merge tag 'pm-6.15-rc5' of git://git.ke
 2a239ffbebb59fb5b3e95725dd1d99634180494f Merge tag 'sound-6.15-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 cbdd17b239fdee51eac87aa332a2793a22392e3c Merge tag 'i2c-for-6.15-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 e8ab83e34bdc458b5cd77f201e4ed04807978fb1 Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
-8ed12ab1319b2d8e4a529504777aacacf71371e4 x86/boot/sev: Support memory acceptance in the EFI stub under SVSM
 5aac99c6b51cf38ef339b89600add9e508e7e2f9 Merge tag 'irq-urgent-2025-05-04' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3f3041b9e48084f9e82b9c949bf14bb7bcf214c4 Merge tag 'perf-urgent-2025-05-04' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3d84c97a8df80a7fcef8d051c24356e4f005b1be Merge tag 'x86-urgent-2025-05-04' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -701,4 +700,4 @@ ecb9194d1724d1265c8cfe50fcb1dad718476e5e Merge tag 'mips-fixes_6.15_1' of git://
 cd802e7e5f1e77ae68cd98653fb70a97189eb937 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 82f2b0b97b36ee3fcddf0f0780a9a0825d52fec3 Linux 6.15-rc6
 
---===============5934216141560886366==--
+--===============1353402109613993663==--
