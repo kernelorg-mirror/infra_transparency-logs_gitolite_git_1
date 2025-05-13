@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux
-Date: Tue, 13 May 2025 22:07:18 -0000
-Message-Id: <174717403887.1237009.16088436651165168536@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
+Date: Tue, 13 May 2025 22:20:43 -0000
+Message-Id: <174717484310.1248819.13428512067413370813@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux
-user: shuah
+repo: pub/scm/linux/kernel/git/cxl/cxl
+user: djiang
 changes:
-  - ref: refs/heads/cpupower
-    old: 99d2fce9b44dec6d270b85a7d28cdc99aaa93da6
-    new: e5174365c13246ed8fd2d40900edec37be6f7a34
+  - ref: refs/heads/next
+    old: 58dfd95956c406a364d5c26a23ae47e70f46075a
+    new: 128ad8fa385b151041e1f94ef737b080c2aea6f4
     log: |
-         2a0eaa78ff4aa09d3a70f4bdcff13f5efe0f5861 cpupower: do not write DESTDIR to cpupower.service
-         4edef850a15c761039a50c119dbc8769b08ca45b cpupower: do not call systemctl at install time
-         e5174365c13246ed8fd2d40900edec37be6f7a34 cpupower: do not install files to /etc/default/
+         d542461211543522daecb34b7972d8ac1044bc97 cxl: Sync up the driver-api/cxl documentation
+         128ad8fa385b151041e1f94ef737b080c2aea6f4 Documentation: Update the CXL Maturity Map
          
