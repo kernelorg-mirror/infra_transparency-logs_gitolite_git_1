@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0376113094699378036=="
+Content-Type: multipart/mixed; boundary="===============5069870761344457603=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 13 May 2025 06:21:29 -0000
-Message-Id: <174711728994.416769.14645439094922565264@gitolite.kernel.org>
+Date: Tue, 13 May 2025 06:21:33 -0000
+Message-Id: <174711729381.417015.16545797267590978889@gitolite.kernel.org>
 
---===============0376113094699378036==
+--===============5069870761344457603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 65995e97a1caacf0024bebda3332b8d1f0f443c4
-    new: 82f2b0b97b36ee3fcddf0f0780a9a0825d52fec3
-    log: revlist-65995e97a1ca-82f2b0b97b36.txt
+  - ref: refs/heads/char-misc-next
+    old: 73ed6faed58e5611abfb54c2f703eec091781d63
+    new: 991919e969043a4422dfebbcadf600a5d28b94e4
+    log: revlist-73ed6faed58e-991919e96904.txt
 
---===============0376113094699378036==
+--===============5069870761344457603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1747117217 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1747117220 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1747117288-711f5f06a2a39d154cf42ea30a481a66bf1e65a2
+nonce 1747117291-a27eca2c1948bfc05f35989539b35bb25e0bc189
 
-65995e97a1caacf0024bebda3332b8d1f0f443c4 82f2b0b97b36ee3fcddf0f0780a9a0825d52fec3 refs/heads/char-misc-linus
+73ed6faed58e5611abfb54c2f703eec091781d63 991919e969043a4422dfebbcadf600a5d28b94e4 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgi5KEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UZoQAKN3R469aQ7PzduEoR/0
-Mv8PB8YhiViBx2KZ3wlKpxeDgPDcH3QbvqycQrAI8uTI9Di6tl3SSFC4bxw5zSrH
-eeimxfrvBcJ05+vuwXss6CuHEWGEtZY2Us2ErDa++D21CqneWSbKAt/bgMJk+4mX
-236ZaE0lw02fCquUi4+6sESQuiw8CpdeMxqh1VhEtb589cuUljurNGT3KySpmya5
-dbQTfM20/fdBCwOoY9GGXRCaFWgX/w88GG0H4I5b0e5jLwIzuQTwy6zG6ipodnKl
-QsxUTU0SpIS55ujk6J7vFLD9fy8j/CPrD4+VYQLeWtxuZ/bZN7Iv/32//keIvL2F
-AHkLSO84Wy1tfJVbVmZa5ryXvAl2uhCOSZ69UEnJcnpzN7iK0caAmIvknZ8lVPaX
-pQoMlx1zAvguLsC2pkxMek1vFtLhYg1r5/cwhG6cvpMqkXD2PpWYAUL/QuocR2GB
-tx/P+qhRt+JgXzKv6aZVZ+/ZrdSoMK+7knHLpFMMSBTcV9GH3A26aOPwZXgQZ7tI
-4beSgvie/ryfSg4qNi6l0DeSSwwMFYhCzcrdCKLNyBobC6fSkSF36rEa4L2QKoHh
-7wK3IlgomUOHcRnv7d7hdooff6O6WA0JZPgPnLFRpyB+1c3JcTw5LtRWpYue2iZv
-1qbuCosGuDmG/PHgdCahamgl
-=RQbI
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgi5KQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+aD4P/iBVKh0dbKHa2gaWVPsB
+fhqlheQEL6ODLhQS8o4tWJrr+uxtoiV4E1Oy98dJd+YQ8KjM5ma8b1K+WGhPYW1f
+g62eQhn/r3zqlJ47DrKNmZD+CZ2Y4ejslM5YFnPw2AYL/wM5jAI4LlzCapWmUe+Z
+3Hwng4uGiuSRXai6PqLa5L0NvB4Vm5DW3GFAKRCuOgqRNRVkN2x0mZLzocTA5RGM
+fvVbI0wgbVxU1F6unPFQTv9TU7VMSg8jYWcgSIb1EahKgXVUstgEd7/AQYTQB8+W
+65MGT8bKqclXen46yLo8SLpL6XQRINgR6jNgrPm7q1nxmhaFSCB2wczRbpWhNr/E
+sxDF8aMv2hlnZGLHBbs88U+s7QHJwIcoaMwQ5v2qLjXxnJPKKn/a/zFU+isfMqJ8
+y7QWVZcWb3N3iF6n8O965SNodeL0eM3yxAf+zBM5Q3TWmp0RV3iHx7pQVtltwbLJ
+k6RlDCqbdSEGnDz8Xz73JJFiSn+sAlAJHmUvhSQMEAkLbQ/gtiiJZY3wXvRQrGOK
+weI/fz6KDVDGrpVRzSbRkweKDmiZCVFH0s7/SjKS85dJI/H0D2E7reUeyEeuxpsR
+T09FOIv7qZh9soRMWECsR9Qu8syEM2zHI8Y4hwWCsecRpjmfQQsA9WYt2U/F+hDC
+wZwdaLJFWM+o0e9pR1vBNd7h
+=HP1F
 -----END PGP SIGNATURE-----
 
---===============0376113094699378036==
+--===============5069870761344457603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-65995e97a1ca-82f2b0b97b36.txt
+Content-Disposition: attachment; filename=revlist-73ed6faed58e-991919e96904.txt
 
 261ffd53cc8e91e6484a3170a1ddf59a16696667 Drivers: hv: Fix bad pointer dereference in hv_get_partition_id
 549d8994447f2f628c6cedd139d53926bdfee881 media: vivid: fix FB dependency
@@ -69,11 +69,26 @@ eac8ea8736ccc09513152d970eb2a42ed78e87e8 mm/memblock: repeat setting reserved re
 649b50a82f09fa44c2f7a65618e4584072145ab7 mmc: renesas_sdhi: Fix error handling in renesas_sdhi_probe
 9078f01fec1275a1974a01a64a5a495d72898c60 mmc: renesas_sdhi: add regulator dependency
 77183db6b8dbd8c352816030b328dd55993dc330 mmc: renesas_sdhi: disable clocks if registering regulator failed
+6d03811d7a99e08d5928f58120acb45b8ba22b08 iio: imu: bmi270: fix initial sampling frequency configuration
+38f67d0264929762e54ae5948703a21f841fe706 iio: accel: adxl367: fix setting odr for activity time update
+159ca7f18129834b6f4c7eae67de48e96c752fc9 iio: imu: st_lsm6dsx: fix possible lockup in st_lsm6dsx_read_fifo
+8114ef86e2058e2554111b793596f17bee23fa15 iio: imu: st_lsm6dsx: fix possible lockup in st_lsm6dsx_read_tagged_fifo
+839f81de397019f55161c5982d670ac19d836173 iio: adc: rockchip: Fix clock initialization sequence
+82c51ac74071b80b3199d9e200ae1a5399f4deb0 iio: adc: ad7380: disable offload before using SPI bus
+f063a28002e3350088b4577c5640882bf4ea17ea iio: light: opt3001: fix deadlock due to concurrent flag access
+5257d80e22bf27009d6742e4c174f42cfe54e425 iio: adc: ad7606: check for NULL before calling sw_mode_config()
+83ded7cfaccccd2f4041769c313b58b4c9e265ad iio: hid-sensor-prox: Restore lost scale assignments
+8b518cdb03f5f6e06d635cbfd9583d1fdbb39bfd iio: hid-sensor-prox: support multi-channel SCALE calculation
+79dabbd505210e41c88060806c92c052496dd61c iio: hid-sensor-prox: Fix incorrect OFFSET calculation
+2d7b60f33da324abe7824037b4829ff7df70e435 iio: adc: ad7380: fix event threshold shift
 9ca67840c0ddf3f39407339624cef824a4f27599 firmware: arm_scmi: Balance device refcount when destroying devices
 c23c03bf1faa1e76be1eba35bad6da6a2a7c95ee firmware: arm_scmi: Fix timeout checks on polling path
 4567bdaaaaa1744da3d7da07d9aca2f941f5b4e5 firmware: arm_ffa: Skip Rx buffer ownership release if not acquired
 7bd47be16108e55e6bc85bdd3cae5c9a2bc98a89 dm table: Fix W=1 build warning when mempool_needs_integrity is unused
 0c562281199f225a849dbb5b9a40b079ee31dc0e arm64: dts: morello: Fix-up cache nodes
+0cd34d98dfd4f2b596415b8f12faf7b946613458 iio: accel: fxls8962af: Fix wakeup source leaks on device unbind
+ad3764b45c1524872b621d5667a56f6a574501bd iio: adc: qcom-spmi-iadc: Fix wakeup source leaks on device unbind
+4551383e78d59b34eea3f4ed28ad22df99e25d59 iio: imu: st_lsm6dsx: Fix wakeup source leaks on device unbind
 1aa495a6572f8641da4ec4cd32210deca61bed64 kunit: configs: Add some Cirrus Logic modules to all_tests
 96014d91cffb335d3b396771524ff2aba3549865 ASoC: cs-amp-lib-test: Don't select SND_SOC_CS_AMP_LIB
 a0b887f6eb9a0d1be3c57d00b0f3ba8408d3018a firmware: cs_dsp: tests: Depend on FW_CS_DSP rather then enabling it
@@ -105,11 +120,24 @@ b00d24997a11c10d3e420614f0873b83ce358a34 iommu/arm-smmu-v3: Fix iommu_device_pro
 8dee308e4c01dea48fc104d37f92d5b58c50b96c iommu/amd: Fix potential buffer overflow in parse_ivrs_acpihid
 30a3f2f3e4bd6335b727c83c08a982d969752bc1 iommu: Fix two issues in iommu_copy_struct_from_user()
 4f1492efb495bcef34c9ee8a94af81e6cea5abf4 iommu/vt-d: Revert ATS timing change to fix boot failure
+1d2d8524eaffc4d9a116213520d2c650e07c9cc6 iio: imu: inv_mpu6050: align buffer for timestamp
+bb49d940344bcb8e2b19e69d7ac86f567887ea9a iio: chemical: sps30: use aligned_s64 for timestamp
+6ffa698674053e82e811520642db2650d00d2c01 iio: chemical: pms7003: use aligned_s64 for timestamp
+f79aeb6c631b57395f37acbfbe59727e355a714c iio: temp: maxim-thermocouple: Fix potential lack of DMA safe buffer.
+1bb942287e05dc4c304a003ea85e6dd9a5e7db39 iio: accel: adxl355: Make timestamp 64-bit aligned using aligned_s64
+5097eaae98e53f9ab9d35801c70da819b92ca907 iio: adc: dln2: Use aligned_s64 for timestamp
+ffbc26bc91c1f1eb3dcf5d8776e74cbae21ee13a iio: adc: ad7768-1: Fix insufficient alignment of timestamp.
+52d349884738c346961e153f195f4c7fe186fcf4 iio: adc: ad7266: Fix potential timestamp alignment issue.
+2e922956277187655ed9bedf7b5c28906e51708f staging: iio: adc: ad7816: Correct conditional logic for store mode
 936a25ef11f5d6c3e3e6736bb8b28e28dfb77918 input/joystick: magellan: Mark __nonstring look-up table
 8b1d858cbd4e1800e9336404ba7892b5a721230d Input: sparcspkr - avoid unannotated fall-through
 c6cb8bf79466ae66bd0d07338c7c505ce758e9d7 Input: cyttsp5 - ensure minimum reset pulse width
 494d0939b1bda4d4ddca7d52a6ce6f808ff2c9a5 ALSA: hda/realtek - Enable speaker for HP platform
 f406005e162b660dc405b4f18bf7bcb93a515608 ALSA: usb-audio: Add retry on -EPROTO from usb_set_interface()
+e4570f4bb231f01e32d44fd38841665f340d6914 iio: imu: adis16550: align buffers for timestamp
+ffcd19e9f4cca0c8f9e23e88f968711acefbb37b iio: pressure: mprls0025pa: use aligned_s64 for timestamp
+f083f8a21cc785ebe3a33f756a3fa3660611f8db iio: adc: ad7606: fix serial register access
+609bc31eca06c7408e6860d8b46311ebe45c1fef iio: adis16201: Correct inclinometer channel resolution
 4b98bf3bff7353d94824c4d874ff2d7f38acc49a arm64: dts: imx8mp: configure GPU and NPU clocks in nominal DTSI
 02e4232998db357bb8199778722d81ffcff0cb98 arm64: dts: imx95: Correct the range of PCIe app-reg region
 6e1a7bc8382b0d4208258f7d2a4474fae788dd90 ARM: dts: opos6ul: add ksz8081 phy properties
@@ -399,6 +427,7 @@ a5c7973539b010874a37a0e846e62ac6f00553ba usb: uhci-platform: Make the clock real
 8614ecdb1570e4fffe87ebdc62b613ed66f1f6a6 usb: cdnsp: fix L1 resume issue for RTL_REVISION_NEW_LPM version
 054c5145540e5ad5b80adf23a5e3e2fc281fb8aa USB: usbtmc: use interruptible sleep in usbtmc_read
 e918d3959b5ae0e793b8f815ce62240e10ba03a4 usb: typec: tcpm: delay SNK_TRY_WAIT_DEBOUNCE to SRC_TRYWAIT transition
+f55aaec4fc17a83f49459c02af82958fe3f3fc4a Merge tag 'iio-fixes-for-6.15a' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-linus
 95deee37a12364f410d22c6a8383f59738a2fef3 platform: Fix race condition during DMA configure at IOMMU probe time
 e2699274d5a43b95af1b806aa6e3b1157107665d bcachefs: Fix __bch2_dev_group_set()
 5a295bad38b1057dd13811242ac981bb674ab190 drm/xe/eustall: Resolve a possible circular locking dependency
@@ -428,6 +457,8 @@ d6fe0c69b3aa5c985380b794bdf8e6e9b1811e60 btrfs: handle empty eb->folios in num_e
 f95d186255b319c48a365d47b69bd997fecb674e btrfs: avoid NULL pointer dereference if no valid csum tree
 8fb1dcbbcc1ffe6ed7cf3f0f96d2737491dd1fbf Revert "btrfs: canonicalize the device path before adding it"
 38e541051e1d19e8b1479a6af587a7884653e041 btrfs: open code folio_index() in btree_clear_folio_dirty_tag()
+f31fe8165d365379d858c53bef43254c7d6d1cfd uio_hv_generic: Fix sysfs creation path for ring buffer
+65995e97a1caacf0024bebda3332b8d1f0f443c4 Drivers: hv: Make the sysfs node size for the ring buffer dynamic
 b662b162c3d06f120749eea0351ec9317d9dd905 drm: Fix potential overflow issue in event_string array
 8e17493ea2d1c9f72e5e31160f75f8be56f79ffb Merge tag 'i2c-host-fixes-6.15-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-current
 9910affec3337668f354c5513462b6c356414681 Merge tag 'slab-for-6.15-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
@@ -700,5 +731,6 @@ b9e62a2b8ffd2bc39b5838e163c41d8a08dae19a Merge tag 'x86-urgent-2025-05-11' of gi
 ecb9194d1724d1265c8cfe50fcb1dad718476e5e Merge tag 'mips-fixes_6.15_1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 cd802e7e5f1e77ae68cd98653fb70a97189eb937 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 82f2b0b97b36ee3fcddf0f0780a9a0825d52fec3 Linux 6.15-rc6
+991919e969043a4422dfebbcadf600a5d28b94e4 Merge 6.15-rc6 into char-misc-next
 
---===============0376113094699378036==--
+--===============5069870761344457603==--
