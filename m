@@ -1,53 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============7900172139176354529=="
+Content-Type: multipart/mixed; boundary="===============8651903335632751569=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Tue, 13 May 2025 10:13:07 -0000
-Message-Id: <174713118767.624519.2728978400743865164@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+Date: Tue, 13 May 2025 10:15:51 -0000
+Message-Id: <174713135161.628049.11958561526815318305@gitolite.kernel.org>
 
---===============7900172139176354529==
+--===============8651903335632751569==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+user: mkorenbl
 changes:
-  - ref: refs/tags/samsung-clk-6.16
-    old: 0000000000000000000000000000000000000000
-    new: 952b7a3107d731f0d5003faa4af8c19fbd1e705b
+  - ref: refs/heads/next
+    old: c6f67ba09fcbbc3e4f307db56e6f554ab1fe1929
+    new: 2e7bedc442cfc45260f0cb590c07a94efef71b3e
+    log: revlist-c6f67ba09fcb-2e7bedc442cf.txt
 
---===============7900172139176354529==
+--===============8651903335632751569==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-c6f67ba09fcb-2e7bedc442cf.txt
 
-certificate version 0.1
-pusher krzk@kernel.org 1747131218 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1747131185-4f623cb4875e8f717ea1b7fe1b7a7171a9d2e345
+ee92656eba26d1b8b52704d32280b4de59b7f069 wifi: iwlwifi: cfg: reduce configuration struct size
+4647575233c55260b6b0f299ecc4555e60607e7b wifi: iwlwifi: stop supporting TX_CMD_API_S_VER_8
+e4248670c0ae7bae7146a4a11fecf7d1898162d8 wifi: iwlwifi: use normal versioning convention for iwl_tx_cmd
+f3253d0355057dd8ad053941ed095fd510e9357f wifi: iwlwifi: remove GEN3 from a couple of macros
+b496acd65af38e9fcf5da04d81b30b1584f6c402 wifi: iwlwifi: use bc entries instead of bc table also for pre-ax210
+905c745bd3606f3d5923fe0673ab812402381085 wifi: iwlwifi: unify iwlagn_scd_bc_tbl_entry and iwl_gen3_bc_tbl_entry
+9f5c81e37650cfa522f0eb137698d51a7ec58edb wifi: iwlwifi: remove unused macro
+79b71b6d4fa9a8297a69a367da8337aa92c8a27f wifi: iwlwifi: map iwl_context_info to the matching struct
+3c7ab9748f0594832e131ed8366c29550f21db77 wifi: iwlwifi: fix a wrong comment
+4eb662ddbfddab233841c01f9925a8e57d6c5d08 wifi: iwlwifi: rename ctx-info-gen3 to ctx-info-v2
+0e3fa28d2a54d00ad9cac48f0d2278d3b543151a wifi: iwlwifi: fw: api: include required headers in rs/location
+2e7bedc442cfc45260f0cb590c07a94efef71b3e wifi: iwlwifi: mld: allow 2 ROCs on the same vif
 
-0000000000000000000000000000000000000000 952b7a3107d731f0d5003faa4af8c19fbd1e705b refs/tags/samsung-clk-6.16
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmgjG1IQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1zrND/4td2LVG20lQf/FoS+7HiEUWlHgWLY8MD4T
-JE0ca+p2DyJMq9NAtNAUVsZwtrHm1qqXqqZQo2mtccMbr4kEoAsq+ymLdTCustBZ
-QGhpW6q3GhEYLz/SL/2cMcPrkC1fpZT4XTMKnbM48CxNxTrlSbOMrSGkFswd84gs
-p0tOmFPGoqkf/LMr8PRxEGIxBSjkITn7IPqnUOzG/NeFyp1zprWI2UPqaEosmegb
-tHIqqYW08YU+ybITPuNZu/63wXjhGGLxO58CErVt+PGT2+7TwFk6pGVlGnTVeqOH
-KoZ1M3teWOPexKOr2UIAau+8gHqEABwQZeokVnuVBzSYCJaNz+8yvPEO+YD5sniM
-G7wMPMVpeVJ8bAe4wTakUEg5rkS4ef4pcR3TFJF8GsJWke0ykTEgNHbBO5c5vz9B
-cQgX9wt5iOUJQouxH80Zbq+PRfujsJZ7Z1S3vlJuyC0zzqrA8nv+DOtl1TaRkqMU
-Qn6P0e9qQBkAkzgAMl+IXd4jh3KmFcqEDUXGqMhLrpkX70UbQ+LVEypq1uazA153
-x7YOYvFeUfESazsY44z55XxZAfDMr0AivthKtKk1UsMD+X11xilPUyQ+6ewgtMdc
-1OzT5lc5FEjgapswJnWODyidshjGbPtqFSyqahjwUiX5r732ABvNOTaRMZ959VD4
-VdpsyOY8CA==
-=nvd0
------END PGP SIGNATURE-----
-
---===============7900172139176354529==--
+--===============8651903335632751569==--
