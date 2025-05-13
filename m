@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2192758867205259519=="
+Content-Type: multipart/mixed; boundary="===============6765887958199016982=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 13 May 2025 06:28:55 -0000
-Message-Id: <174711773594.423724.18080829318153323241@gitolite.kernel.org>
+Date: Tue, 13 May 2025 06:29:02 -0000
+Message-Id: <174711774221.423987.16506277572688395632@gitolite.kernel.org>
 
---===============2192758867205259519==
+--===============6765887958199016982==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: cab63934c33b12c0d1e9f4da7450928057f2c142
-    new: 82f2b0b97b36ee3fcddf0f0780a9a0825d52fec3
-    log: revlist-cab63934c33b-82f2b0b97b36.txt
+  - ref: refs/heads/usb-next
+    old: 588d032e9e566997db3213dee145dbe3bda297b6
+    new: ab6dc9a6c721c2eed867c157447764ae68ff9b7e
+    log: revlist-588d032e9e56-ab6dc9a6c721.txt
 
---===============2192758867205259519==
+--===============6765887958199016982==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1747117663 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1747117668 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1747117731-4941b0a9202c4d21bc128326bd8e6d623bc2de14
+nonce 1747117739-0a461a0e9eb2d8973413f372ae07cb5af4ccd017
 
-cab63934c33b12c0d1e9f4da7450928057f2c142 82f2b0b97b36ee3fcddf0f0780a9a0825d52fec3 refs/heads/usb-linus
+588d032e9e566997db3213dee145dbe3bda297b6 ab6dc9a6c721c2eed867c157447764ae68ff9b7e refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgi5l8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hs4P/imHE/hS8737pMq7SjeH
-xdiO1IxJfxV0wgEeVY1sqK+lHoHQAnuZ9pehB21kkOZZolH35TEmTnngSL495++a
-PR/xOTlucysp2sUZ3iIEH7DOOTlYxTAZgxVjvZoXgdyyvAHcCbMWgiMZ7h9WWKuN
-ApL2FM5scVd0EEIRh4CeiXo9eJnjx597SjSgflwh1t93zZHY278+la4eWJ7Xczse
-zWQN2Ur7VvZF+XkKDth6kn9nxCijt1zx3uhPVci4tFydTEqfgNUkqaV3jJsdwqz8
-dQdyPc16sqd5y3lhZ1hlspQOzi5+iBOnivd+KUfsWROjtuSl62DUp9WoN+yXVlVV
-ZErbFs7mJ1Y2GW3P9Tzd4hR0ulnDrInxyjfCz06MvTzw7hEKNgvjZYWyfgKvax/9
-fi68t360zPGk7pW5kmp1/yzHP9Tsf20D8UYf3WKHJSSiFqeiH2QftX2ske+iVizl
-w6SbycqhfSkZOFtRXeUgWM1cAKYEupauq5ZfnMozaFVUVQSbntN6Gr5DtGA+uHSF
-EwNicuXl+xHEiPVA0Xd3dNT9qoyPI+a8b9cluu/xp3FRwEMg8YEmFy8ahYN+0mpA
-1OmoCuqwTFlkA2Cu8gctgIeKypqzhhW+9/DwtnkBEDnIiahgsFWv87ZpZXvtG/9K
-IaSKoNffVXsanLl9uZQZqmUM
-=Fw7e
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgi5mQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+csQQAIQI2SiBu+Jdyu9i7YHU
+CJwKy6m3mrhIcNiflC1/vXARRYZkFdEzb2jOoPswJSSq9qkrVPAmLKW1Q+J5zLlD
+rBBTfoImo1xdQKLqetjZYTZKdPHCVFv+OfaQozSqFaukwOpUQRZ+LJQrCOeNcAyl
+NGwGEf5HXJWtbmVivmhR4emXb0j/uryNil72BXvne9IPq2MAiEmpYIWZm+VafWVn
+y8g540rtmLLcDegIZA72L0V7tiGwcb9l/E+wgqMiOun7PHRTiJvoDpNT2tOy1KBJ
+ClDEk7yDQQfgdDpha53CqZjczxUNfeHhB8/76xfh1L9UuWQPRbwSEm/lltZqCylJ
+PvcYDJmygVC9D78qAuIRRQb8elFaKXpw4t17dGkRRdbh4BbLmKotc3BsU8ruvD0f
+hF8bZ8yj82zbv8eLgvM9Uaisg8V9kOE8psR3SEcTVsD9hWdTwp/jRsM1w+uLfe8V
+eBJO/pB/yLUDGqv+aHfhnOCpcgeAFWSpODV2tK0Q87dsZ7QvVN074eLZsFGna75m
+Ue7Y7qaeHDGwLY6o5CIpgJhbVxlcH1EYrzFUdj7rhBuwzJSqzt76vBU1P4J/d949
+t6hrOCGgZsaA6ZVPqq49Xkr1uSN4KzlFcfNgAjQvf18a2UECdDo725UKyz7qR+6t
+rGwKKRKFtpi0vUsQSwn9NTBo
+=yY5x
 -----END PGP SIGNATURE-----
 
---===============2192758867205259519==
+--===============6765887958199016982==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cab63934c33b-82f2b0b97b36.txt
+Content-Disposition: attachment; filename=revlist-588d032e9e56-ab6dc9a6c721.txt
 
 261ffd53cc8e91e6484a3170a1ddf59a16696667 Drivers: hv: Fix bad pointer dereference in hv_get_partition_id
 549d8994447f2f628c6cedd139d53926bdfee881 media: vivid: fix FB dependency
@@ -414,6 +414,19 @@ be593d9d91c5a3a363d456b9aceb71029aeb3f1d drm/amd/display: Fix slab-use-after-fre
 9397204ffae887bd557e7053609174b3eb9d6f5c drm/amdgpu: Fail DMABUF map of XGMI-accessible memory
 79af0604eb80ca1f86a1f265a0b1f9d4fccbc18f drm/amdgpu: Fix offset for HDP remap in nbio v7.11
 6718b10a5b98ad6629cd6b2004b0628fe68beac0 drm/amdgpu: Add DPG pause for VCN v5.0.1
+59820fde001500c167342257650541280c622b73 usb: gadget: tegra-xudc: ACK ST_RC after clearing CTRL_RUN
+241e2ce88e5a494be7a5d44c0697592f1632fbee usb: cdnsp: Fix issue with resuming from L1
+732f35cf8bdfece582f6e4a9c659119036577308 usb: host: tegra: Prevent host controller crash when OTG port is used
+8e3820271c517ceb89ab7442656ba49fa23ee1d0 usb: gadget: f_ecm: Add get_status callback
+5977a58dd5a4865198b0204b998adb0f634abe19 usb: gadget: Use get_status callback to set remote wakeup capability
+2372f1caeca433c4c01c2482f73fbe057f5168ce usb: dwc3: gadget: Make gadget_wakeup asynchronous
+a5c7973539b010874a37a0e846e62ac6f00553ba usb: uhci-platform: Make the clock really optional
+9f657a92805cfc98e11cf5da9e8f4e02ecff2260 usb: misc: onboard_usb_dev: fix support for Cypress HX3 hubs
+364618c89d4c57c85e5fc51a2446cd939bf57802 usb: typec: ucsi: displayport: Fix deadlock
+312d79669e71283d05c05cc49a1a31e59e3d9e0e usb: typec: ucsi: displayport: Fix NULL pointer access
+8614ecdb1570e4fffe87ebdc62b613ed66f1f6a6 usb: cdnsp: fix L1 resume issue for RTL_REVISION_NEW_LPM version
+054c5145540e5ad5b80adf23a5e3e2fc281fb8aa USB: usbtmc: use interruptible sleep in usbtmc_read
+e918d3959b5ae0e793b8f815ce62240e10ba03a4 usb: typec: tcpm: delay SNK_TRY_WAIT_DEBOUNCE to SRC_TRYWAIT transition
 f55aaec4fc17a83f49459c02af82958fe3f3fc4a Merge tag 'iio-fixes-for-6.15a' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-linus
 95deee37a12364f410d22c6a8383f59738a2fef3 platform: Fix race condition during DMA configure at IOMMU probe time
 e2699274d5a43b95af1b806aa6e3b1157107665d bcachefs: Fix __bch2_dev_group_set()
@@ -435,6 +448,9 @@ eb4447bcce915b43b691123118893fca4f372a8f ksmbd: fix memory leak in parse_lease_s
 3393c90daf4e1704c6a5c3833439f461663a2e1d drm/xe/hwmon: Fix kernel version documentation for temperature
 e8e3a804f3845a147fbdf73f910c12ddb3a2a86f drm/gpusvm: set has_dma_mapping inside mapping loop
 4e6de6b8f0d5181fcf546ee98b908372fa3cfc0d Merge tag 'drm-xe-fixes-2025-05-01' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
+cac01bd178d6a2a23727f138d647ce1a0e8a73a1 usb: usbtmc: Fix erroneous get_stb ioctl error returns
+a9747c9b8b59ab4207effd20eb91a890acb44e16 usb: usbtmc: Fix erroneous wait_srq ioctl return
+4e77d3ec7c7c0d9535ccf1138827cb9bb5480b9b usb: usbtmc: Fix erroneous generic_read ioctl return
 6f9a8ab796c6528d22de3c504c81fce7dde63d8a btrfs: compression: adjust cb->compressed_folios allocation type
 bc7e0975093567f51be8e1bdf4aa5900a3cf0b1e btrfs: correct the order of prelim_ref arguments in btrfs__prelim_ref
 d6fe0c69b3aa5c985380b794bdf8e6e9b1811e60 btrfs: handle empty eb->folios in num_extent_folios()
@@ -488,6 +504,8 @@ d2b8111c22d7d82f28df574acc54aec44ce3d45c s390/configs: Enable options required f
 ae952eea6f4a7e2193f8721a5366049946e012e7 s390/entry: Fix last breaking event handling in case of stack corruption
 833542b3e3d23f640aef6569ba1fd641bc195fa0 s390/dcssblk: Fix build error with CONFIG_DAX=m and CONFIG_DCSSBLK=y
 3a47b1e3cea247857aa48cfe3d0a07e989e6c57d s390: Update defconfigs
+6328bdc988d23201c700e1e7e04eb05a1149ac1e usb: xhci: Don't trust the EP Context cycle bit when moving HW dequeue
+cab63934c33b12c0d1e9f4da7450928057f2c142 xhci: dbc: Avoid event polling busyloop if pending rx transfers are inactive.
 7b26feb436d2ef5db1e8ba82c7ecb4c1cc869502 Merge tag 'soc-fixes-6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 01f95500a162fca88cefab9ed64ceded5afabc12 Merge tag 'uml-for-linux-6.15-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/uml/linux
 844f766e02d0aba973d78f3ade38ad8bae399347 bcachefs: Improve want_cached_ptr()
@@ -713,5 +731,6 @@ b9e62a2b8ffd2bc39b5838e163c41d8a08dae19a Merge tag 'x86-urgent-2025-05-11' of gi
 ecb9194d1724d1265c8cfe50fcb1dad718476e5e Merge tag 'mips-fixes_6.15_1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 cd802e7e5f1e77ae68cd98653fb70a97189eb937 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 82f2b0b97b36ee3fcddf0f0780a9a0825d52fec3 Linux 6.15-rc6
+ab6dc9a6c721c2eed867c157447764ae68ff9b7e Merge 6.15-rc6 into usb-next
 
---===============2192758867205259519==--
+--===============6765887958199016982==--
