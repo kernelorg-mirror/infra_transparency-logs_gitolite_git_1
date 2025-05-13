@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 13 May 2025 01:42:01 -0000
-Message-Id: <174710052164.178910.18158254918400585840@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 13 May 2025 01:46:01 -0000
+Message-Id: <174710076155.182813.17392119285949764612@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 4d64321c4f6faf90b5a3b9f52ee1e7e0eeeff00c
-    new: c92d6089d8ad7d4d815ebcedee3f3907b539ff1f
+    old: 6b466efc6365e904b4b7eb65218a5b2969f978e2
+    new: 6bf78849371d392d2b276eba00d176062c8431db
     log: |
-         c92d6089d8ad7d4d815ebcedee3f3907b539ff1f net: cadence: macb: Fix a possible deadlock in macb_halt_tx.
+         cc7734e03e81dfed01156be8c698899dc42d2400 net: phy: dp83867: remove check of delay strap configuration
+         6bf78849371d392d2b276eba00d176062c8431db net: phy: dp83867: use 2ns delay if not specified in DTB
          
