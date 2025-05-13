@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1550884856163090191=="
+Content-Type: multipart/mixed; boundary="===============3448001395266572090=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 13 May 2025 22:21:08 -0000
-Message-Id: <174717486853.1249625.10237204707451787327@gitolite.kernel.org>
+Date: Tue, 13 May 2025 22:21:10 -0000
+Message-Id: <174717487099.1249787.16338134354670535714@gitolite.kernel.org>
 
---===============1550884856163090191==
+--===============3448001395266572090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: a9ce2ce1800e04267e6d99016ed0fe132d6049a9
     new: 9f607dc39b6658ba8ea647bd99725e68c66071b7
     log: revlist-a9ce2ce1800e-9f607dc39b66.txt
 
---===============1550884856163090191==
+--===============3448001395266572090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -98,4 +98,4 @@ ab95bc9aa795aa987b16f6cc1192138e62036f99 amd-xgbe: Add XGBE_XPCS_ACCESS_V3 suppo
 795f86ff050509d34a0e2b8bf8beb943d7e81897 amd-xgbe: add support for new pci device id 0x1641
 9f607dc39b6658ba8ea647bd99725e68c66071b7 Merge branch 'amd-xgbe-add-support-for-amd-renoir'
 
---===============1550884856163090191==--
+--===============3448001395266572090==--
