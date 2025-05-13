@@ -1,31 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/iproute2/iproute2-next
-Date: Tue, 13 May 2025 17:55:33 -0000
-Message-Id: <174715893351.1021776.16662372186837250345@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 13 May 2025 17:57:17 -0000
+Message-Id: <174715903791.1022682.4268377765744733575@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/iproute2/iproute2-next
-user: dsahern
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/main
-    old: f98940cce003d197e7663c9a90b401bde904dcbd
-    new: 47ffb36fb4f1665cfd3f6c773e9329aef3b8f147
+  - ref: refs/heads/x86/urgent
+    old: 386cd3dcfd63491619b4034b818737fc0219e128
+    new: 82b7f88f2316c5442708daeb0b5ec5aa54c8ff7f
     log: |
-         ef41c802ee8c7077a4ae8b1a639eec055f8316b6 uapi: update from 6.15-rc1
-         c498efe79ba9d1d1bee466cc35491d13ec3b6b2a MAINTAINERS: update bridge entry
-         866e1d107b7de68ca1fcd1d4d5ffecf9d96bff30 nstat: NULL Dereference when no entries specified
-         47ffb36fb4f1665cfd3f6c773e9329aef3b8f147 Merge remote-tracking branch 'main/main' into next
-         
-  - ref: refs/heads/master
-    old: f98940cce003d197e7663c9a90b401bde904dcbd
-    new: 47ffb36fb4f1665cfd3f6c773e9329aef3b8f147
-    log: |
-         ef41c802ee8c7077a4ae8b1a639eec055f8316b6 uapi: update from 6.15-rc1
-         c498efe79ba9d1d1bee466cc35491d13ec3b6b2a MAINTAINERS: update bridge entry
-         866e1d107b7de68ca1fcd1d4d5ffecf9d96bff30 nstat: NULL Dereference when no entries specified
-         47ffb36fb4f1665cfd3f6c773e9329aef3b8f147 Merge remote-tracking branch 'main/main' into next
+         d2062cc1b1c367d5d019f595ef860159e1301351 x86/sev: Do not touch VMSA pages during SNP guest memory kdump
+         82b7f88f2316c5442708daeb0b5ec5aa54c8ff7f x86/sev: Make sure pages are not skipped during kdump
          
