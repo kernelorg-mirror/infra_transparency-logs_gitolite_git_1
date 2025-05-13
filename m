@@ -1,73 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0946633120757113355=="
+Content-Type: multipart/mixed; boundary="===============0986502974459930356=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Tue, 13 May 2025 21:19:58 -0000
-Message-Id: <174717119855.1194404.9669002480572726561@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 13 May 2025 21:20:07 -0000
+Message-Id: <174717120717.1196646.10568557848043490747@gitolite.kernel.org>
 
---===============0946633120757113355==
+--===============0986502974459930356==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/dt/next
-    old: 9677f10f8c3ac5f58363a452a51f87b1102c05ce
-    new: 54cec13d5726a88919b5bf3f47491b6c3fe67598
-    log: revlist-9677f10f8c3a-54cec13d5726.txt
+  - ref: refs/heads/dev-queue
+    old: bdb6054ece876dadc7f70995b303485a34dde8ef
+    new: 9bd1f0cbdb48a30ba9f3779a76f8c2e9de32208c
+    log: revlist-bdb6054ece87-9bd1f0cbdb48.txt
 
---===============0946633120757113355==
+--===============0986502974459930356==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9677f10f8c3a-54cec13d5726.txt
+Content-Disposition: attachment; filename=revlist-bdb6054ece87-9bd1f0cbdb48.txt
 
-f2e3df345c441ce2f24abc468812a73107cb8f20 dt-bindings: Move altr,msi-controller to interrupt-controller directory
-66eb172b5e149368f9b1d12ec0d8846bc1751a68 dt-bindings: interrupt-controller: Convert cnxt,cx92755-ic to DT schema
-5511d95c05e496bc231393724d66cfcb4552b666 dt-bindings: interrupt-controller: Convert brcm,bcm2835-armctrl-ic to DT schema
-bac0fb596ecc65ef4952a8d27f1d186c5188aea9 dt-bindings: interrupt-controller: Convert marvell,orion-bridge-intc to DT schema
-3151c26c811a484f5234499cff5930f8166a3823 dt-bindings: interrupt-controller: Convert arm,versatile-fpga-irq to DT schema
-aacd3d6211e315642887acb9c73ef3413581a6f1 dt-bindings: interrupt-controller: Convert faraday,ftintc010 to DT schema
-815d7b2c13590a77b295d0330c31429d367f2ece dt-bindings: interrupt-controller: Convert aspeed,ast2400-i2c-ic to DT schema
-29c29b1361096268fdb8b9ba5af0fcd75b038c94 dt-bindings: interrupt-controller: Convert aspeed,ast2xxx-scu-ic to DT schema
-1276962ebc56a6535c6447f67110bd3bdbbbc584 dt-bindings: interrupt-controller: Convert ti,cp-intc to DT schema
-1ee0fd43803bf82b5388db9b406c1b5e1a08cac8 dt-bindings: interrupt-controller: Convert cdns,xtensa-{mx,pic} to DT schema
-a241f1a1b338b714e4d7417f71af9a93a9bd3c92 dt-bindings: interrupt-controller: Convert chrp,open-pic to DT schema
-b1ae6881fbe3e86f74c2edb8c02681af6ab110b7 dt-bindings: interrupt-controller: Convert microchip,pic32mzda-evic to DT schema
-fe972dd46a7ea89e2e9b27cca3286439ec30d8e8 dt-bindings: interrupt-controller: Convert abilis,tb10x-ictl to DT schema
-a22fb93c49afc3c3ca37ccebfd6847bb68cba244 dt-bindings: interrupt-controller: Convert al,alpine-msix to DT schema
-30eb852aabff590cd3b1d5cb089b2e4341d05679 dt-bindings: interrupt-controller: Convert amazon,al-fic to DT schema
-930222f3d1a19c4200c6afd867eb9cd984855531 dt-bindings: interrupt-controller: Convert arm,nvic to DT schema
-928504c54d09a84aec40f7a1864356c6ae51c75c dt-bindings: interrupt-controller: Convert brcm,bcm6345-l1-intc to DT schema
-3cbc6d0702375b2b961fe157d2125c0bd2acd4f3 dt-bindings: interrupt-controller: Convert cirrus,ep7209-intc to DT schema
-9a4d3926ea13df5a2e5d0d887a51bf408d854fa4 dt-bindings: interrupt-controller: Convert csky,apb-intc to DT schema
-1e7ed4dc22d30e842c61abcb591685221c9f28d7 dt-bindings: interrupt-controller: Convert csky,mpintc to DT schema
-a911481b448a80f67adbf716625c91d2ab687e82 dt-bindings: interrupt-controller: Convert ezchip,nps400-ic to DT schema
-ee35e2ae49550c612c8d0ff2d0d789bd61c5857c dt-bindings: interrupt-controller: Convert google,goldfish-pic to DT schema
-eb4d5a8296addb96c37a75074c7576122a6cb471 dt-bindings: interrupt-controller: Convert img,pdc-intc to DT schema
-50175534158ea94dd78a68d58072a1a8ea2587db dt-bindings: interrupt-controller: Convert jcore,aic to DT schema
-4f879955f7c5bf1c9a4971fff779732c60bffb7e dt-bindings: interrupt-controller: Convert lsi,zevio-intc to DT schema
-f7c17ceb9b9b8dfc361a1c958032069a9644f848 dt-bindings: interrupt-controller: Convert marvell,armada-8k-pic to DT schema
-e11b723f4e7960905970686acc94d70fdc747a4f dt-bindings: interrupt-controller: Convert marvell,ap806-gicp to DT schema
-270aaae0e720b4fe661b4dd912ba8794e29dd538 dt-bindings: interrupt-controller: Convert marvell,ap806-sei to DT schema
-26c70ec8812f1cabd11de5e87bce303e0c9298f2 dt-bindings: interrupt-controller: Convert marvell,cp110-icu to DT schema
-bbb1999ac126ac9b5627c06ec52391048de13d70 dt-bindings: interrupt-controller: Convert marvell,odmi-controller to DT schema
-f3ce2e12a2c266f850bfd475b6be5d47d4249772 dt-bindings: interrupt-controller: Convert qca,ar7100-cpu-intc to DT schema
-fcec00d7f65e29f878f2045c915b6ebb78ed4ff5 dt-bindings: interrupt-controller: Convert qca,ar7100-misc-intc to DT schema
-66276d212fddb78c8818fd8abd6112470c809712 dt-bindings: interrupt-controller: Convert snps,arc700-intc to DT schema
-76f75212f8f3d1c0e7180d3c0e706deb2eea9c57 dt-bindings: interrupt-controller: Convert snps,archs-idu-intc to DT schema
-f7c3cf504db71b01d38d69c22da71cb36394413b dt-bindings: interrupt-controller: Convert snps,archs-intc to DT schema
-9665ca7a7cd3c85d08349349e9a25e74b69f8b13 dt-bindings: interrupt-controller: Convert snps,dw-apb-ictl to DT schema
-c67d52fa7a0eaa2dba163af19107ac7465cf391d dt-bindings: interrupt-controller: Convert st,spear3xx-shirq to DT schema
-dd0cea00d80a3c2fdd71be02df8e9d4345045ea8 dt-bindings: interrupt-controller: Convert technologic,ts4800-irqc to DT schema
-94555704bea7936f139a7865adbf9829010b2fda dt-bindings: interrupt-controller: Convert ti,keystone-irq to DT schema
-6248d8ccc161c09755d035e99a31b793766eed6a dt-bindings: interrupt-controller: Convert ti,omap4-wugen-mpu to DT schema
-896633412deec45d7bd6f378e93c05dcded83ccd dt-bindings: interrupt-controller: Convert ti,omap-intc-irq to DT schema
-1090c38bbfd9ab7f22830c0e8a5c605e7d4ef084 dt-bindings: soc: fsl,qman-fqd: Fix reserved-memory.yaml reference
-54cec13d5726a88919b5bf3f47491b6c3fe67598 dt-bindings: trivial-devices: Add Maxim max30208
+c92d6089d8ad7d4d815ebcedee3f3907b539ff1f net: cadence: macb: Fix a possible deadlock in macb_halt_tx.
+af5f54b0ef9ef72d5fc7d57f0406372e8f317958 net: Lock lower level devices when updating features
+498625a8ab2c8e1c9ab5105744310e8d6952cc01 net: dsa: sja1105: discard incoming frames in BR_STATE_LISTENING
+76ca05e0abe31a4f47a5b5a85041b5a22c03baf8 net: dsa: microchip: let phylink manage PHY EEE configuration on KSZ switches
+8c619eb21b8e87ae95877e9cca9fcb0e3115776e net: phy: micrel: remove KSZ9477 EEE quirks now handled by phylink
+6eeceb3f208de37d07696a7cff411e3922502fa7 Merge branch 'address-eee-regressions-on-ksz-switches-since-v6-9-v6-14'
+4227ea91e2657f7965e34313448e9d0a2b67712e net: dsa: b53: prevent standalone from trying to forward to other ports
+0844176cacede4b6b3bc780c389c244a95287da8 coccinelle: misc: secs_to_jiffies script: Create dummy report
+06b4c7fac11b3732ab67a5c24e4c5c5a75713db0 ice: fix lane number calculation
+c34faac6caab6a5486623f1496e2a195ac5632ec ice: fix fwlog after driver reinit
+e88d1e9d4ce187fd80edd88add86fee01aeb8139 iavf: iavf_suspend(): take RTNL before netdev_lock()
+be8380e30b0e1fe608d7d3993eea5bf79584d319 iavf: centralize watchdog requeueing itself
+109987bc7bf375ee6bc03f1ec81d625b720ba987 iavf: simplify watchdog_task in terms of adminq task scheduling
+e57008114369c25fd10f0bfe817e8c502bd5435d iavf: extract iavf_watchdog_step() out of iavf_watchdog_task()
+d28ce46299a8dbb33a6aac07109f110d3ef9552e iavf: sprinkle netdev_assert_locked() annotations
+dc7ad0a901a0e25508abe65415fd04a1fb559941 iavf: get rid of the crit lock
+5f6930c4c571b0afaaebbabeb24604039fdab60e ice: fix vf->num_mac count with port representors
+d73d91ae6bb258e300af46e735cd2f173c9afc9a idpf: fix null-ptr-deref in idpf_features_check
+ee7db858165b234b6c4aa9d2d1e3e9f5fe526997 iavf: fix reset_task for early reset event
+4a5aa4f9d50af2c93339a99302b15166cf3499fd ice: Fix LACP bonds without SRIOV environment
+41dccd36aecc9c2cd19b273ea5d38d0bd5450395 idpf: fix a race in txq wakeup
+3915f00ff411ba61d930fc1daf980605a4dfba1c idpf: avoid mailbox timeout delays during reset
+53b766803bb2c4117b9210a8ee7c6ab12a6f2ca7 ice/ptp: Fix reporting of crosstimestamp
+8339645c9a7e520757d0538774ce8dc5b7f2c457 ice: fix Tx scheduler error handling in XDP callback
+cace1a22e23832e0b2656a463c620cb7f441436c ice: create new Tx scheduler nodes for new queues only
+9bd1f0cbdb48a30ba9f3779a76f8c2e9de32208c ice: fix rebuilding the Tx scheduler tree for large queue counts
 
---===============0946633120757113355==--
+--===============0986502974459930356==--
