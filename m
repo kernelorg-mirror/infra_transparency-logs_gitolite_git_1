@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8789945286720795552=="
+Content-Type: multipart/mixed; boundary="===============6954701172752468959=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 13 May 2025 06:40:01 -0000
-Message-Id: <174711840136.434406.10969106953594554699@gitolite.kernel.org>
+Date: Tue, 13 May 2025 06:40:05 -0000
+Message-Id: <174711840517.436112.286006981054281382@gitolite.kernel.org>
 
---===============8789945286720795552==
+--===============6954701172752468959==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,51 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
-    old: c6e8d85fafa7193613db37da29c0e8d6e2515b13
-    new: 82f2b0b97b36ee3fcddf0f0780a9a0825d52fec3
-    log: revlist-c6e8d85fafa7-82f2b0b97b36.txt
+  - ref: refs/heads/staging-next
+    old: 417ce77ef466580c2850fdd4a7bf5f0a97147cb8
+    new: 3349e275067f94ffb4141989aed9cbae7409429b
+    log: revlist-417ce77ef466-3349e275067f.txt
 
---===============8789945286720795552==
+--===============6954701172752468959==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1747118329 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1747118332 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1747118399-0539d072248ce253144202751bb822423685fc3f
+nonce 1747118403-26742c685abde47b1eff9ad6514ca7610313a294
 
-c6e8d85fafa7193613db37da29c0e8d6e2515b13 82f2b0b97b36ee3fcddf0f0780a9a0825d52fec3 refs/heads/staging-linus
+417ce77ef466580c2850fdd4a7bf5f0a97147cb8 3349e275067f94ffb4141989aed9cbae7409429b refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgi6PkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+I8AQAI7SedbK+x44XbByyKD4
-KP5nr7dn5nvwqo4GB279+qtnaeSxDWtWQlg9p3xROim/9yUHaE/FpvctYxraGW/n
-SfAk+zMxc9vD2yWRAvVrgy0F8CdzUI9NnvhtTjEUzaPC97QDXaJbGD11mZXH8VtI
-4WVWhvO0zSe5FiAbsYqlfgBqLWireJGYzge+As8Ej/5P5a8VPzMHFRO3ZddTH2a2
-pFQ6Td/guYHYLOhhjCjVEZ16AZ+EZ7++ZjzfPTnFMt0nZuvDC3qj33Rp5wJBikGC
-PKyoWmjOIvTB6q1POyxwkOcjf4DbKP0BgyRwQzQ/9oD7hsziB7Dgvx/P3m+JBT/o
-R5a+9qouw2nSiV39J7s1+hvqol1SAAy1IW/H2SsNXVPopmBF55bORoXprO2pBQCq
-H6YGo5VK7HDec/sl1KWz87hR9IRAkJmAnIXg0kSN9t0VjFftkxzegcpVO3DDlKjY
-al0zqF7wB+1SrUNL5/a3wzhkYAfDICylxMUJcaqUNgEcU764dA2KYy+tpaxIQpSp
-pfGqsDf+Ez7POOi30chJzUS+cw5SRsqlIE9/AHaDAF1CNQEDAWB++WK/OVgEWomY
-HJqZnqoewDtdgR7Ln2zK3+hhX0dbvPFwC5gY1R1yjjm3h3sKgZ/DqA2F9z1HLfiq
-O1ZOtrFYfmSwbyGrFzNKsO+k
-=goJW
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgi6PwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LZ0QAMwurxUAoSwOHpxt/cWU
+W9dOExaMBuwnyXCjCVsTl0w1EIEn7wzx1hYPQxyJpv0IP8sndw5UU1q/hXr4OLcg
+sl3hgTnefwPzkoIVX8idnwbzKbRd+uFKuD0vKtP1WOkj0DwW9kRkh453CapT6YTe
+WTuZs1Sb1rpE2Ykb9x9W5i47HkJamrJ17oHFAx8hKzXgYq18Vx0QsGol6kD12Vpz
+JS50fK/Q7biFC3884Tt48JLQ/OmdozNhZsuWUALKtnEABC7ylqj7BUxltDB8FCM0
+NgrRbnx8AB70N5O1HTYl0lIigp3qxoxFp1T4Rg8TQoH0UjUSddq1ZoI3oZRrGfOW
+DghylHmvWEpGbzWd/sEtMxavANd34XiDRVZ0dsATqx3m2dYtxkerujDDRC5RHE/B
+j8n9U71XVbInOxxl4nXMj8tvoYAsllePSP19cZ8jm4dCfANRoAov85+71j0zeofQ
+HSDdGkiektb15l1NMpWuMY8DA3rjFa813fuFTt2nJN7cpd9aTl3atEBEej7BgQ87
+tI6FWwCPYPR9M61lI67tAsN9Hx5Da7dpcNqiKsjy3X1oA66CvdWYSLMbQgLMAC/F
+IwLDu8J672kWinbcLk9v8D29863MmyD8mb1j9Qykvf7ABcCfjTSFt1I2zok/wDwO
+HC2zYwFDOPprN8gCht4iEZzo
+=nXhz
 -----END PGP SIGNATURE-----
 
---===============8789945286720795552==
+--===============6954701172752468959==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c6e8d85fafa7-82f2b0b97b36.txt
+Content-Disposition: attachment; filename=revlist-417ce77ef466-3349e275067f.txt
 
-ce6cb8113c842b94e77364b247c4f85c7b34e0c2 tools: ynl-gen: individually free previous values on double set
-57e7dedf2b8c72caa6f04b9e08b19e4f370562fa tools: ynl-gen: make sure we validate subtype of array-nest
-acf4da17deada7f8b120e051aa6c9cac40dbd83b netlink: specs: rt-link: add an attr layer around alt-ifname
-540201c0ef7e8e7b169f68a238ade931a81a31a6 netlink: specs: rtnetlink: attribute naming corrections
 beb3c5ad8829b52057f48a776a9d9558b98c157f netlink: specs: rt-link: adjust mctp attribute naming
 e31f86ee4b9ccb844baf2131da8e5d4d6f23aa1d netlink: specs: rt-neigh: prefix struct nfmsg members with ndm
 ff62b7925b19aaf934008172b9ca71b3cf48c210 Merge branch 'ynl-avoid-leaks-in-attr-override-and-spec-fixes-for-c'
@@ -510,6 +506,9 @@ a549b927ea3f5e50b1394209b64e6e17e31d4db8 ASoC: Intel: bytcr_rt5640: Add DMI quir
 75aea4b0656ead0facd13d2aae4cb77326e53d2f perf/x86/intel: Only check the group flag for X86 leader
 e9988ad7b1744991118ac348a804f9395368a284 perf/x86/intel: Check the X86 leader for pebs_counter_event_group
 7da9960b59fb7e590eb8538c9428db55a4ea2d23 perf/x86/intel/ds: Fix counter backwards of non-precise events counters-snapshotting
+98698ca0e58734bc5c1c24e5bbc7429f981cd186 staging: bcm2835-camera: Initialise dev in v4l2_dev
+2ca34b508774aaa590fc3698a54204706ecca4ba staging: axis-fifo: Correct handling of tx_fifo_depth for size validation
+c6e8d85fafa7193613db37da29c0e8d6e2515b13 staging: axis-fifo: Remove hardware resets for user errors
 75673fda0c557ae26078177dd14d4857afbf128d bpf: fix possible endless loop in BPF map iteration
 3d9c463f959f41cd6616ebf8a5d15e9d3ef04f16 selftests/bpf: add test for softlock when modifying hashmap while iterating
 6ae003adc029c74e7f97cc65dc1e79109a1f2d67 Merge branch 'bpf-fix-softlock-condition-in-bpf-hashmap-interation'
@@ -1081,5 +1080,6 @@ b9e62a2b8ffd2bc39b5838e163c41d8a08dae19a Merge tag 'x86-urgent-2025-05-11' of gi
 ecb9194d1724d1265c8cfe50fcb1dad718476e5e Merge tag 'mips-fixes_6.15_1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 cd802e7e5f1e77ae68cd98653fb70a97189eb937 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 82f2b0b97b36ee3fcddf0f0780a9a0825d52fec3 Linux 6.15-rc6
+3349e275067f94ffb4141989aed9cbae7409429b Merge 6.15-rc6 into staging-next
 
---===============8789945286720795552==--
+--===============6954701172752468959==--
