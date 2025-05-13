@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 13 May 2025 09:47:39 -0000
-Message-Id: <174712965902.601499.1938673880621654898@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Tue, 13 May 2025 09:59:13 -0000
+Message-Id: <174713035318.610569.13348555121508674820@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/fileWFroZd
-    old: 0000000000000000000000000000000000000000
-    new: 85f8c2d56caf56aa3379bbc5f1a19fef9aabd23e
+  - ref: refs/heads/master
+    old: f7dbf159534ef0488cc1eede9fb757c2bebae5ec
+    new: 0a21358af3e50fcb13a9bf3702779f11a4739667
+    log: |
+         0a21358af3e50fcb13a9bf3702779f11a4739667 logger: drop pointless bitfields
+         
