@@ -1,43 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============4354873893102446410=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Wed, 14 May 2025 15:52:46 -0000
-Message-Id: <174723796667.2223081.9741453541312397599@gitolite.kernel.org>
-
---===============4354873893102446410==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/libpwm
+Date: Wed, 14 May 2025 15:58:52 -0000
+Message-Id: <174723833209.2227797.397673333889335629@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/ukleinek/libpwm
+user: ukleinek
 changes:
-  - ref: refs/tags/execve-v6.15-rc7
+  - ref: refs/heads/main
+    old: cd62c9a00fa9166e008e8a2faf5d10d7dc13b3b1
+    new: 00aff52a76199f13ea9e0ad628ffcac93fdce538
+    log: |
+         d1643d3d02b628dd67ba07fae42b9811233d9b28 libpwm: Add API function pwm_set_waveform_exact()
+         aa1f7c3d4c479fa4810953368622c4245560dbd1 cdev: Implement backend for pwm_set_waveform_exact()
+         6ae1a90f89f2f432484677e65fdac86dc5b0535b pwmset: Add switch -e to request exact waveform setting
+         0b0f058438b219870a8e583776c82d9d5daa42a5 Update SPDX copyright and license markers
+         fae029a342bd5773ec988f593acd978cb2057252 README: Fix a spelling error
+         eb52203ed5c7679d5ada6cc8cf60d96e0accf3b8 Provide manpages for pwmset, pwmround and pwmtestperf
+         00aff52a76199f13ea9e0ad628ffcac93fdce538 Release libpwm 1.0-rc1
+         
+  - ref: refs/tags/v1.0-rc1
     old: 0000000000000000000000000000000000000000
-    new: 9bbad92caadf19205d313551022bcdee182018a2
-
---===============4354873893102446410==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1747237997 -0700
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1747237965-cc1693063222b2c7b83646ed2cd0fe07277442e1
-
-0000000000000000000000000000000000000000 9bbad92caadf19205d313551022bcdee182018a2 refs/tags/execve-v6.15-rc7
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCaCS8bQAKCRA2KwveOeQk
-u/WlAQDipqcrRolaQDjUjsTCOCGJF1WJ0dapAAW7JCbhoRBeawD+Jqt7nrq4UZqx
-kRU2qYM4XU72wdIXvel7RVwmF4ipjwU=
-=W9a9
------END PGP SIGNATURE-----
-
---===============4354873893102446410==--
+    new: a02d0f7ed234ced0b97f0dd05819424120af7aee
