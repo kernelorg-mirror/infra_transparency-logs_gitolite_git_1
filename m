@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/connman/connman
-Date: Wed, 14 May 2025 19:36:40 -0000
-Message-Id: <174725140097.2419374.1773594361670649972@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
+Date: Wed, 14 May 2025 19:48:54 -0000
+Message-Id: <174725213441.2428469.2430261676603071279@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/connman/connman
-user: denkenz
+repo: pub/scm/linux/kernel/git/gustavoars/linux
+user: gustavoars
 changes:
-  - ref: refs/heads/master
-    old: 8d3be0285f1d4667bfe85dba555c663eb3d704b4
-    new: 5907c281c138bca5efa73a7e15ed6c8e8d56e805
-    log: |
-         5907c281c138bca5efa73a7e15ed6c8e8d56e805 gdhcp: Make DHCP client timeouts suspend-aware
-         
+  - ref: refs/heads/testing/wfamnae-next20250506-with-DEFINE_FLEX_GROUP
+    old: 0000000000000000000000000000000000000000
+    new: 8d3672d34136098892a011494473df1311d3c1d6
