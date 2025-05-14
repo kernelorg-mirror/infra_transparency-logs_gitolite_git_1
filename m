@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 14 May 2025 09:00:10 -0000
-Message-Id: <174721321023.1808486.8457562879030942168@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
+Date: Wed, 14 May 2025 09:08:14 -0000
+Message-Id: <174721369418.1813907.2225835681170108052@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/jack/linux-fs
+user: jack
 changes:
-  - ref: refs/heads/20250513_simont_cs35l56_log_tuning_unique_identifiers_during_firmware_load
-    old: 0000000000000000000000000000000000000000
-    new: db13e3d58c682e0bfc08410e4961b23f4bdbc2e5
-  - ref: refs/heads/filegE4F7p
-    old: 0000000000000000000000000000000000000000
-    new: 65cb56d49f6edea409600a3c61effc70ee5d43d8
-  - ref: refs/heads/filezNE9Xx
-    old: 0000000000000000000000000000000000000000
-    new: fb98bd0a13de2c9d96cb5c00c81b5ca118ac9d71
+  - ref: refs/heads/for_next
+    old: 119ad4e537870dc43099c4df1399fc375d7234a7
+    new: a678afe9434b03bd5a45e68497fd34afe8ef2067
+    log: |
+         b9b410cc1875120a0a2f84fd61c026cc994049e2 fanotify: Drop use of flex array in fanotify_fh
+         a678afe9434b03bd5a45e68497fd34afe8ef2067 Pull fsnotify flex array warning fix
+         
