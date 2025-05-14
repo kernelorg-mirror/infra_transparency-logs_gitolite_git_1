@@ -1,49 +1,74 @@
-Content-Type: multipart/mixed; boundary="===============6862664336908693233=="
+Content-Type: multipart/mixed; boundary="===============7974983934214128055=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Wed, 14 May 2025 21:03:10 -0000
-Message-Id: <174725659086.2491961.17700923385449453398@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Wed, 14 May 2025 21:45:18 -0000
+Message-Id: <174725911879.2526686.12593926026852479557@gitolite.kernel.org>
 
---===============6862664336908693233==
+--===============7974983934214128055==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/for-next
-    old: d0833b89d7d8fe93b40c342b31129cf6c0ef935e
-    new: 512f1ef88222b69afe9b2d6599972a6c18948e47
-    log: revlist-d0833b89d7d8-512f1ef88222.txt
+  - ref: refs/heads/ath12k-split-phy
+    old: 6ce844af606e7ee3f2878cd1b5d858090151b7ad
+    new: 0cba60afc3129ddf8eee1a78f6209957735e38b8
+    log: revlist-6ce844af606e-0cba60afc312.txt
+  - ref: refs/tags/ath12k-split-phy-202505142145
+    old: 0000000000000000000000000000000000000000
+    new: 0cba60afc3129ddf8eee1a78f6209957735e38b8
 
---===============6862664336908693233==
+--===============7974983934214128055==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d0833b89d7d8-512f1ef88222.txt
+Content-Disposition: attachment; filename=revlist-6ce844af606e-0cba60afc312.txt
 
-781621de1551233f6767976b44e93745ffcfa865 arm64: dts: qcom: x1e80100-romulus: Enable DP over Type-C
-295217420a44403a33c30f99d8337fe7b07eb02b arm64: dts: qcom: sm8350: Fix typo in pil_camera_mem node
-18a5bf00a02ca54d51266b861518f2844c4f08d7 arm64: dts: qcom: ipq5018: Add PCIe related nodes
-22667f0b306f9cfa0c5be20166222f0e66272533 arm64: dts: qcom: ipq5018: Enable PCIe
-25f185524c4722b2c18e2746c7c4aeb2107d571f arm64: dts: qcom: msm8998-lenovo-miix-630: add Venus node
-1d2c5d5f3f44ba45bf0e2ef9a51c77256b99afd2 dt-bindings: mfd: qcom,tcsr: Add compatible for ipq5018
-43fefd6c71291b5793e7c4052b6e3e54d1d87715 arm64: dts: qcom: ipq5018: enable the download mode support
-b81dcdad43daf10f79ae149826fff9e467b95e8b ARM: dts: qcom-msm8960: add missing clocks to the timer node
-48274b40a3719a950b1062f8125c972a2df5c083 arm64: dts: qcom: x1e80100-hp-omnibook-x14: Enable SMB2360 0 and 1
-6a563a9760af9d5476faf8b3fd419b0714ab0b4b arm64: dts: qcom: Add industrial mezzanine support for qcs6490-rb3gen2
-d12fbd11c5a3e98c2f6372252bf84b0e10dd91cc arm64: dts: qcom: x1e001de-devkit: Enable support for both Type-A USB ports
-d8dc4889afc92bd8757fcab607b734c684fce167 ARM: dts: qcom: apq8064: link LVDS clocks
-9e7acf70cf6aa7b22f67d911f50a8cd510e8fb00 clk: qcom: gcc-msm8939: Fix mclk0 & mclk1 for 24 MHz
-4becd72352b6861de0c24074a8502ca85080fd63 arm64: dts: qcom: sm8650: add the missing l2 cache node
-3858e56d17ad0fc238e0a7fd2a7f54426761fba2 arm64: dts: qcom: x1e80100-hp-omnibook-x14: add sound label
-d8e66f9ab0488970394140638e876847b0316df8 dt-bindings: arm: qcom: Document HP EliteBook Ultra G1q
-afc48c680438da813e42407009707350c87f8c43 arm64: dts: qcom: x1e80100-hp-elitebook-ultra-g1q: DT for HP EliteBook Ultra G1q
-eb47bca4cc8ab06bd25385c87406e0f27ebdbf07 firmware: qcom: scm: Allow QSEECOM for HP EliteBook Ultra G1q
-512f1ef88222b69afe9b2d6599972a6c18948e47 Merge branches 'arm32-for-6.16', 'arm64-defconfig-for-6.16', 'arm64-for-6.16', 'clk-for-6.16' and 'drivers-for-6.16' into for-next
+049b96425bd1665d905f0607403b9c4a111e6d6d wifi: cfg80211: Add utility API to get radio index from channel
+0c6aff487a94250249e7b7335511730bc937c546 wifi: mac80211: Allow scan on a radio while operating on DFS on another radio
+a2b8d296289b4f95bf45e6a670102d4d3852c543 wifi: mac80211: Allow DFS/CSA on a radio if scan is ongoing on another radio
+71e6637d85851772fa9ee0be396d8f9c8077e26f wifi: ath12k: update dynamic SMPS capability of STA
+13222e38b9c9995027325dc1d2a778ba85632644 wifi: ath12k: using msdu end descriptor to check for multicast packets
+8d326368270be83c5bac48fb9231bdd9ab1b0356 wifi: ath12k: correctly handle mcast packets for clients
+0b65475e621da1f1729562abd86faae8e335e5e4 wifi: nl80211: store chandef on the correct link when starting CAC
+d8a2e528b993db9489d03f897aa395d7a947e123 wifi: cfg80211: reorg sinfo structure elements for mesh
+3574cbf8373a02acc3e8e847b2a894d939e421e7 wifi: mac80211: add API to populated mesh related fields in sinfo
+1d6445d3be00eb0b8f136c43aa05e9be1aa52bcd wifi: mac80211: add support towards MLO handling of station statistics
+6be241d15c785098ba1dc756719c30266913ec38 wifi: mac80211: refactoring sta_set_sinfo() to add support towards MLO statistics
+eee4a5e0672119bb1277cf0732c1883d8d7f827c wifi: cfg80211: refactoring nl80211_set_station() for link attributes towards MLO
+d18834c0028193f4e70a1dc97f9d63d0f20bdf32 wifi: cfg80211: reorg sinfo structure elements for MLO
+b3d06e2e47dc6f712f19bc2cc2bb3790354f428b wifi: cfg80211: extend statistics for link level in sinfo
+18d29f5880eae644df99a5479e834b87678c224a wifi: cfg80211: add flag to indicate driver supports ML station statistics
+cfb6d4ba21af152f273d77eaf5c611c95c8ea3d7 wifi: cfg80211: add accumulated statistics for MLO links
+d47329b7827a2de31e6a2d62739c376b82a25885 wifi: cfg80211: add additional MLO statistics
+64d39be158b7f4abc57b799cf12523339a26c374 wifi: mac80211: extend support to fill link level sinfo structure
+3f6db9e8a69b361e8576878ec306c5888597ce4d wifi: mac80211: add support to accumulate removed link statistics
+a5f9cb2426b09635dead92c9e21f934ce3be558c wifi: mac80211: correct RX stats packet increment for multi-link
+571bb29890956e3324216c7051e851704dcccf59 wifi: ath12k: enable wiphy flag for MLO station statistics support
+f2916fb94b29ead9eb7c19d2e03f16f4c8c5e309 wifi: ath12k: correctly fetch arsta for MLO
+be30135c17d7b48434cb2f5302078182d327aa49 wifi: ath12k: add link support for multi-link in arsta
+3b420d3df834b590ab0722b0d622b14e7e20c39e wifi: ath12k: add EHT support for TX rate
+3e2851e00a63d4ad7f585fd1587012cbdeedb01c wifi: ath12k: correctly update bw for ofdma packets
+cdcd5181475421ad5d3be74d809b7de6aa054cb9 wifi: ath12k: fetch tx_retry and tx_failed from htt_ppdu_stats_user_cmpltn_common_tlv
+a7ad5a60cb122b37a9d4691f56abba901caacc86 wifi: ath12k: Fix search flag and update peer map event for sta
+90515c05684a3b99576480b73321be87d01ba80b wifi: ath12k: Add support to simulate firmware crash
+1e7eb31c806c82bcf342bf795e59bfd1066fdf4d wifi: ath12k: Avoid deleting arvifs list when arvifs list is empty
+61b2433c72f2e3a5f373daae4dc6f992786243c9 wifi: ath12k: change soc name to device name
+921f7b138bcf275036fd618bb5e743670d0138e8 wifi: ath12k: Add device dp stats support
+df63ebfc0b5d0b8c3c925cc820991a9d8eb385da wifi: ath12k: print device dp stats in debugfs
+c98559aeab1045e767c2d73b09a1e1d69ce16e8d wifi: ath12k: fix regulatory init race condition
+7a7c8c22a7078b763e5eb1ba2922eb76dc78f78d wifi: mac80211: support poll sta for ML clients
+d323c3cc22b3a8d6adc4e19818ed3ed768b71a5c wifi: ath12k: Fix memory leak due to multiple rx_stats allocation
+95e4dab3b89a427101d39cd04e721c67b3312259 wifi: ath12k: Avoid allocating rx_stats when ext_rx_stats is disabled
+9e5d625f5bc98abc33906503787bdd5838523d9e wifi: ath12k: Fix invalid RSSI values in station dump
+fa1f7572facbc31e73f625b5427523b1aa3d5c27 wifi: ath12k: fix memory in ath12k_service_ready_ext_event
+9bda05da722628a942791d3b41ac922b2abbaae4 wifi: ath12k: fix memory leak in WMI firmware stats
+8b6a856e54b4354379f726a66c3dc1dea8a8b76c wifi: ieee80211: define beacon protection bit field
+0cba60afc3129ddf8eee1a78f6209957735e38b8 wifi: ath12k: allow beacon protection keys to be installed in hardware
 
---===============6862664336908693233==--
+--===============7974983934214128055==--
