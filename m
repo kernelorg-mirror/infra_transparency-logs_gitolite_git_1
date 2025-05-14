@@ -1,40 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============3100037081641159360=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
-Date: Wed, 14 May 2025 08:27:30 -0000
-Message-Id: <174721125057.1760230.7009007872320219193@gitolite.kernel.org>
-
---===============3100037081641159360==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Wed, 14 May 2025 08:32:07 -0000
+Message-Id: <174721152784.1764391.7969492231916202020@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ukleinek/linux
-user: ukleinek
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/pwm/for-nexxt
-    old: b07495071d27c517edf532d255872781bb0c45bd
-    new: ec03a2a75ee5c7c99c5033a268f5c0200b57b488
-    log: revlist-b07495071d27-ec03a2a75ee5.txt
-
---===============3100037081641159360==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b07495071d27-ec03a2a75ee5.txt
-
-aac7d517d04ad3ea95de1f1968803bfe412bb1dd soc: renesas: Kconfig: Enable SoCs by default when ARCH_RENESAS is set
-ae7ace712d5064c13ece545902d3421a2aa40f71 arm64: defconfig: Remove individual Renesas SoC entries
-38509467f64ebc5414099c6d9e00797801dfc3a0 arm: shmobile_defconfig: Drop individual Renesas SoC entries
-33d5bf70fff43fbc612450164bd0bab6b9ada261 arm: multi_v7_defconfig: Drop individual Renesas SoC entries
-5ad7de623853570bd981be069ed5ce55540bedb8 arm64: defconfig: Enable Renesas RZ/G2L GPT config
-754a11c7bbe4edae9f04c940d5cb160e74266689 arm64: defconfig: Add Renesas MSIOF sound support
-976c4626c5f57d9a0eea0f4618ce58e68102bee3 ARM: shmobile: defconfig: Enable more support for RZN1D-DB/EB
-96ce677a0c6ba00fcb79e377c31d3c1a461c928e Merge tag 'renesas-arm-defconfig-for-v6.16-tag2' of https://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel into pwm/for-next
-25ac4834cae97f7787ba5562ce1511d7524955e0 pwm: Tidyup PWM menu for Renesas
-ec03a2a75ee5c7c99c5033a268f5c0200b57b488 pwm: Add support for pwmchip devices for faster and easier userspace access
-
---===============3100037081641159360==--
+  - ref: refs/heads/stm32-next
+    old: 8c18889c702d561825392c4bc17e4f885cd09e32
+    new: 3f70ddb8614386305a247eabca4e0fb500b876f4
+    log: |
+         826e6fb26193f8ae388b88399cd61dcf2e94d55e dt-bindings: vendor-prefixes: Add Ultratronik
+         f069852c9b338b26a8c13bb5692fc792d4b53db3 dt-bindings: arm: stm32: Document Ultratronik's Fly board DT binding
+         8b773be67b109dcca9f79c6ff485c1916d68a772 MAINTAINERS: Add entry for ULTRATRONIK BOARD SUPPORT
+         3f70ddb8614386305a247eabca4e0fb500b876f4 ARM: dts: stm32: add initial support for stm32mp157-ultra-fly-sbc board
+         
