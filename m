@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 14 May 2025 08:33:26 -0000
-Message-Id: <174721160664.1765153.16136370717902682981@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Wed, 14 May 2025 08:36:30 -0000
+Message-Id: <174721179020.1768785.7264757734990826183@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/20250513093316.GD2936510@google.com
+  - ref: refs/heads/stm32-dt-for-v6.16
     old: 0000000000000000000000000000000000000000
-    new: 8824dc7f947ac5916cf166bb8289af48c2b50bc7
+    new: 518e8ffa00c8744bef586079b73e22fb79d93b3c
