@@ -1,22 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Wed, 14 May 2025 10:39:21 -0000
-Message-Id: <174721916120.1942625.667788553464583943@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kexec/kexec-tools
+Date: Wed, 14 May 2025 10:44:04 -0000
+Message-Id: <174721944456.1946893.15093889798425239118@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/utils/kernel/kexec/kexec-tools
+user: horms
 changes:
-  - ref: refs/heads/la57-cpucap-v3
-    old: f926a9c8b6708027170bba108ef67a41c80f2113
-    new: c10b718887148cc2b2e4d484b37bb325315dcc87
+  - ref: refs/heads/main
+    old: b257f311f5f0d32969f58098b03458b5bd728419
+    new: 8322826fa7b04a5c0f023eda78d69dd1413a1412
     log: |
-         933bb783b3e04f5b9b59e53c4664bc662ee85c61 x86/boot: Set 5-level paging CPU cap before entering C code
-         cc2ba163f226a80406d92dd52b066baf693d7d82 x86/boot: Drop the early variant of pgtable_l5_enabled()
-         37f8c3ccac06f02dd3ad2dbc43aedec0a0232eff x86/boot: Drop 5-level paging related variables and early updates
-         c10b718887148cc2b2e4d484b37bb325315dcc87 x86/cpu: Make CPU capability overrides __ro_after_init
+         8322826fa7b04a5c0f023eda78d69dd1413a1412 kexec/zboot: Add boundary check on PE header offset
+         
+  - ref: refs/heads/master
+    old: b257f311f5f0d32969f58098b03458b5bd728419
+    new: 8322826fa7b04a5c0f023eda78d69dd1413a1412
+    log: |
+         8322826fa7b04a5c0f023eda78d69dd1413a1412 kexec/zboot: Add boundary check on PE header offset
          
