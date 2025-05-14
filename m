@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 14 May 2025 14:20:15 -0000
-Message-Id: <174723241536.2142243.2247938125059364653@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Wed, 14 May 2025 14:20:26 -0000
+Message-Id: <174723242650.2142605.492350635783010954@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
-user: sj
+repo: pub/scm/linux/security/vulns
+user: sashal
 changes:
   - ref: refs/heads/master
-    old: e9565e23cd89d4d5cd4388f8742130be1d6f182d
-    new: 9f35e33144ae5377d6a8de86dd3bd4d995c6ac65
+    old: 7e27b7b7a1a363f9c8b844416bead1f8f1923b58
+    new: dc4cf33fe75d3f262edb6fc356356d86cbf83b84
     log: |
-         9dda18a32b4a6693fccd3f7c0738af646147b1cf tracing: fprobe: Fix RCU warning message in list traversal
-         e41b5af4519f90f9a751805ede2102ae36caf5d0 tracing: add missing trace_probe_log_clear for eprobes
-         fd837de3c9cb1a162c69bc1fb1f438467fe7f2f5 tracing: probes: Fix a possible race in trace_probe_log APIs
-         405e6c37c89ef0df2bfc7a988820a3df22dacb1b Merge tag 'probes-fixes-v6.15-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-         9f35e33144ae5377d6a8de86dd3bd4d995c6ac65 x86/its: Fix build errors when CONFIG_MODULES=n
+         155bbef8ecc508b895a8f4c9ca2b9667e8b6b17f bippy: refactor code to improve readability and performance
+         6b810ad11d7f86f0e1a9d0a16d001565d4e3c647 cve_utils: improve code quality and fix clippy warnings
+         6785021a0b3c2d1163582cafdba43bf10ef92698 dyad: improve control flow and reduce redundancy
+         dc4cf33fe75d3f262edb6fc356356d86cbf83b84 voting_results: improve error handling and functional style
          
