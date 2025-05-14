@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5518262612553838139=="
+Content-Type: multipart/mixed; boundary="===============4573993167310759950=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 14 May 2025 12:16:25 -0000
-Message-Id: <174722498592.2029664.15978334608916136142@gitolite.kernel.org>
+Date: Wed, 14 May 2025 12:16:28 -0000
+Message-Id: <174722498814.2029772.4919056144057374639@gitolite.kernel.org>
 
---===============5518262612553838139==
+--===============4573993167310759950==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,143 +16,160 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.1.y
-    old: 490c91e6621e9ec53a2bd0cced0bd27018fe8597
-    new: 2063e1623883ff079a994a4658423fc2116ef788
-    log: revlist-490c91e6621e-2063e1623883.txt
+  - ref: refs/heads/linux-6.6.y
+    old: bb031f5ca8bd915d7802486e59e860738824e535
+    new: a04685b0f1aef177a11626a7ea6e4cbfd23ffdec
+    log: revlist-bb031f5ca8bd-a04685b0f1ae.txt
 
---===============5518262612553838139==
+--===============4573993167310759950==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1747224911 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1747224913 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1747224983-4e16b8053535f8cd3eb39c79a0a66073b81f8892
+nonce 1747224985-6286f28ead0b7a111f61fcfc89eab28acad5243d
 
-490c91e6621e9ec53a2bd0cced0bd27018fe8597 2063e1623883ff079a994a4658423fc2116ef788 refs/heads/linux-6.1.y
+bb031f5ca8bd915d7802486e59e860738824e535 a04685b0f1aef177a11626a7ea6e4cbfd23ffdec refs/heads/linux-6.6.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgkiU8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0c8QALKQAlzwy+kR0O43vRt5
-kNibidl01zF9HWruttVgOYXp/4o5QmPCWzIJtTYsrjBXOfWQgNPSc14msz3t2HM2
-FoylrstPamwdcFWMLcPhysTBDD0taj7V6Ph+piFsWh/avB67jWHYFN1Thuv29DPs
-WkHfQBVyfyOnIIjspqVh6FWoEA1G/N27PAdMBiUf3rEqcsjPpWPKzeRItQ85RIi/
-2oZqGahvT66yhgMddzOTPk//7Fv+tmz3R4AQKoc4ikLO4GihA0EneIEKXZ5ong8x
-sPZnqck+1vJY7rbVFIKmKrAPdplRWWnTLVCqdREciLVHinODieBscXM0GAH0P5ut
-pW9uzTLX9LPgmUnfbWLBEv6mIXX3doto6ksIN/PEUnyetnSzhF9E9NQltEZOYAiy
-Xq7azEfyeSFUn4Q49VsZ9e7n1b8CAk+RnHQyGIW7C46d/MNASNONgsDgHFeP22vm
-HB0GxfMhMUq0TY5472CeVw7tLaxABM6vg+LB+RfSiDyHUEf8OhUlp2cIOyfoHMEK
-AEJy7pAexgPCpK1KGBWRFjOmMuncZlLHwEDS35oU8rX6Lns2csdBqdvIvME2WHsA
-s4snbPIAepWPYwcITKreiPo3i93+uDjojzfsGPKhHyOdRNQhnXQPu0vPw34h6ybi
-5Gtr70ydM+tjGRHDGt82W5VI
-=flCB
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgkiVEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+aEkP/A9Gm1J3Mb/B1Kcd6RMd
+9Rv91YuPjVAgrGJW9JWbplNuYLE3ZoEwcUZcStgAy5gduuVn0XXQzZGVGqcO7I4D
+UOnTGbLbbU1kEN5+Ur/iRc3hIjFRyL3Q/JBp+oHi/8wV937AWHR4opIVPURqwHRk
+vxmMT5HXFd3NjjE3Fc1tWLSdKYi20zzXMMS//9fKHMBD2VoNU+weLwtA0eA3jb6K
+lZvRaGu42MRUg9ffy7lW0II7YpdD1914Fn4I+y+AuLuaWHGF+rLYHxo3yqKS8MYd
+hz2b3uML/vgodylInUTnqIXEdB9ni9AYab4AqX6ykx4NrJcPmMAqXmggmVJV5/pG
+b7ygLQpZsIwPsmfmLYJj6j+OMm353Hw5NVHOcDqCxQWQ2vqJRO2XtswhMc2q0tOw
+rpFVF6b+zkwGhHhl1T4/uwOJhHXILv782zwdO2FBk/dgUbQ0GculHx+GAzzZ3q9V
+mk6epCH4RpF82bElQntMletyQh6ke3iws4gu6H5TumqLAWY8CduaCRrm3cff8uo8
+6J0/RTn2HfYAWQp/Hsf2jVWo+fouKp/rMuFUGnG6iF6UTquPJ6owpIDbn/i6D/8f
+P8XVS4Y2HyLa8mqCVUKqFipEi8rlOyx60BkMcmyicelxXUIK1PP7KgnK2eDBp+BV
+UcGn98SESOTQKXgLMZe1S/EJ
+=gM39
 -----END PGP SIGNATURE-----
 
---===============5518262612553838139==
+--===============4573993167310759950==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-490c91e6621e-2063e1623883.txt
+Content-Disposition: attachment; filename=revlist-bb031f5ca8bd-a04685b0f1ae.txt
 
-4e7dd55ddfb778351cc5d808a4f0a0327a1ee4e2 dm: add missing unlock on in dm_keyslot_evict()
-e65afbcaf85387dd8cab9ffca931c74bb8ba2244 arm64: dts: imx8mm-verdin: Link reg_usdhc2_vqmmc to usdhc2
-784c50bc45123bccb06d1ad69be4ffaf319876ea can: mcan: m_can_class_unregister(): fix order of unregistration calls
-c5c171b266100bb0f7469703f268f04c491bb5c9 can: mcp251xfd: mcp251xfd_remove(): fix order of unregistration calls
-53118eda2bee8f6000eb6b7f50b44d773f4de214 ksmbd: prevent out-of-bounds stream writes by validating *pos
-8a01ab2f48f323c88c500fe4f61f238f03d04571 openvswitch: Fix unsafe attribute parsing in output_userspace()
-6121ff3d898438c9ab89ef0bca242e5c1967d4d3 ksmbd: fix memory leak in parse_lease_state()
-858a4739e48fa62d4f28bd8fd9cbc823c05061fe sch_htb: make htb_deactivate() idempotent
-1f1ebc1f28c50e2faca741c6e00ab67d6d3aa3f0 gre: Fix again IPv6 link-local address generation.
-b7648f308ee3ceb8efe71d96a0a3633246e4b5bf can: mcp251xfd: fix TDC setting for low data bit rates
-892582224e4776f34a8879d3304bd0d643df46c0 rcu/kvfree: Add kvfree_rcu_mightsleep() and kfree_rcu_mightsleep()
-976335c77f584aecec918c9fb3bbb75c60dce748 can: gw: fix RCU/BH usage in cgw_create_job()
-810cc3efef97bd3206b26e9dcfbb861844d63232 ipv4: Drop tos parameter from flowi4_update_output()
-f5be1ac5017628a332b9312749af01b9d59fbb47 ipvs: fix uninit-value for saddr in do_output_route4
-aaa576dfce93b5cf68e4273b3c5ad10667708df2 netfilter: ipset: fix region locking in hash types
-21bad2a81866c875b7ead51d7874752115e9b124 bpf: Scrub packet on bpf_redirect_peer
-d31ef8b1fbb7fed81a56c0f798d206c607f72378 net: dsa: b53: allow leaky reserved multicast
-8bff8e43d9713053619e76e138bac1f1b8ef5ecd net: dsa: b53: fix clearing PVID of a port
-52ee1f89e31e00f18237fcaf036d5f694c410b5d net: dsa: b53: fix flushing old pvid VLAN on pvid change
-d3e85623fd005e3d94adf76117a8c62ab1b3c2b9 net: dsa: b53: fix VLAN ID for untagged vlan on bridge leave
-a99b2e3832ae8881dd7a600f1ed67c17698a1d6c net: dsa: b53: always rejoin default untagged VLAN on bridge leave
-4fb03ad427544278e7b532f10a18942031a5b0d5 net: dsa: b53: fix learning on VLAN unaware bridges
-88e6440c9b105a8c9bda3431fd22039d3054ab0c Input: mtk-pmic-keys - fix possible null pointer dereference
-96bddc4c18e59591acf20a1e42e1aaacc087600b Input: synaptics - enable InterTouch on Dynabook Portege X30-D
-18f95c016bcf13b9abe5bb3e555383ffe1a02d03 Input: synaptics - enable InterTouch on Dynabook Portege X30L-G
-d1de375f90025babcc1cef14133992a745ec84bb Input: synaptics - enable InterTouch on Dell Precision M3800
-81c39e987cad8ccbce7596952d5d2ec947f6f26c Input: synaptics - enable SMBus for HP Elitebook 850 G1
-d3df2a02eee01c0d1f59307fd984de0bfeaac326 Input: synaptics - enable InterTouch on TUXEDO InfinityBook Pro 14 v5
-db87d4b1a26e5d5656aeb9996c8a0f49aae2b7db staging: iio: adc: ad7816: Correct conditional logic for store mode
-bdac7e8323f18cf6150940b8b53e87b7c96a8c05 staging: axis-fifo: Remove hardware resets for user errors
-62eded90c55d617cbdb4406a367b080e8a8a431d staging: axis-fifo: Correct handling of tx_fifo_depth for size validation
-13fa245bd61c6f0e0cfa54deda9efdf26be8628f x86/mm: Eliminate window where TLB flushes may be inadvertently skipped
-4d088983f75bde3239c7b84530549a84977f628b drm/amd/display: Shift DMUB AUX reply command if necessary
-00aa3bf4d4dc715efacf0a3ccd95612e90591888 iio: adc: ad7606: fix serial register access
-39f90e0252a4cd76ee9e46800eafe77d6dcb352a iio: adis16201: Correct inclinometer channel resolution
-e49a41a4eaa0d25cb28240c2313c4d7461ca40a4 iio: imu: st_lsm6dsx: fix possible lockup in st_lsm6dsx_read_fifo
-f687587a0f3374e1d9213f82c3d31147c4d78aea iio: imu: st_lsm6dsx: fix possible lockup in st_lsm6dsx_read_tagged_fifo
-eaab3fcbecd17853f5bdd4e94c37ee1870394ae7 drm/v3d: Add job to pending list if the reset was skipped
-b594159fd1634838ce4fc8185f7237a8a0bd3457 drm/amd/display: Fix the checking condition in dmub aux handling
-f01aae6c71f7f16a16acedb89b91af036b5956af drm/amd/display: Remove incorrect checking in dmub aux handler
-f5979f12ed68cacebe8ee6b7d1381bc7fe6e4431 drm/amd/display: Fix wrong handling for AUX_DEFER case
-0f09c35cade366f86fcb02d021e639175f858318 drm/amd/display: Copy AUX read reply data whenever length > 0
-c206d6340b13aa34002fc26100f5ee24bbb439a8 drm/amdgpu/hdp5.2: use memcfg register to post the write for HDP flush
-06e1c917ac7c3c539e798593496acd6da2e9a02a usb: uhci-platform: Make the clock really optional
-c93ef132f5dc34e6a9ecc1c9816feb3e247cc3e4 xenbus: Use kref to track req lifetime
-847b2cf7f2f45afbd2b7ee7eb4beab27a2bb9761 module: ensure that kobject_put() is safe for module type kobjects
-02bcebf64b7a716a68d8459a2c869c1bf1bc5500 ocfs2: switch osb->disable_recovery to enum
-f266b505e0a7bfdc39ef3ec84c8d6d1a76f5ba39 ocfs2: implement handshaking with ocfs2 recovery thread
-fd56d7261e8d95b9df79636aa8ce56674ba616a2 ocfs2: stop quota recovery before disabling quotas
-c70c4eeda86975109865af4e8f322cad73904555 usb: cdnsp: Fix issue with resuming from L1
-a43193caea50a81fca972ec668cca9d7c3c8e91e usb: cdnsp: fix L1 resume issue for RTL_REVISION_NEW_LPM version
-63a2902f235ffb5ff41be0f30d3a2fe4b10060e7 usb: gadget: tegra-xudc: ACK ST_RC after clearing CTRL_RUN
-3e0ae2d56e8237fac25881f9a0d8d50f47b0ff92 usb: host: tegra: Prevent host controller crash when OTG port is used
-ef54744bc678e589d18f002da52231cd39a6054b usb: typec: tcpm: delay SNK_TRY_WAIT_DEBOUNCE to SRC_TRYWAIT transition
-90c7e398d6e170276673a8a0f201d665015eb6c8 usb: typec: ucsi: displayport: Fix NULL pointer access
-ab867ab5ce5936d6841341b817e56306e281035d USB: usbtmc: use interruptible sleep in usbtmc_read
-c5949c118379b315f5ef39e0a0e6833f6588fc56 usb: usbtmc: Fix erroneous get_stb ioctl error returns
-bfd2c0ecf62e581083f10184355643b9125f8b9c usb: usbtmc: Fix erroneous wait_srq ioctl return
-e4e550e0a708c51c585b7e7124bce60c80c5b9d9 usb: usbtmc: Fix erroneous generic_read ioctl return
-54eae5ec8d54ccd9e9ff68f89b6effb2d4e72171 iio: accel: adxl367: fix setting odr for activity time update
-fded2b8a97c2b098eca728afa9e25a3c53ce65b6 iio: temp: maxim-thermocouple: Fix potential lack of DMA safe buffer.
-58cd500b8fd66ebab1fd20717ec7788ea99ec042 types: Complement the aligned types with signed 64-bit one
-746860d4e1bc1fddffec8cd5a2be1dbf4298d71d iio: accel: adxl355: Make timestamp 64-bit aligned using aligned_s64
-103f72ac0127924ca088b43ced6eb0ac6eabe3dc iio: adc: dln2: Use aligned_s64 for timestamp
-b5f357f1dc27a86e78cad8178c8b41ff0dba6867 MIPS: Fix MAX_REG_OFFSET
-c46c7dca0a96dee6d9d7a2fb5e0a54ecf3555210 drm/panel: simple: Update timings for AUO G101EVN010
-a797dfd7a030a9f29441e1143004c2d5777a72ec nvme: unblock ctrl state transition for firmware update
-813a498fea2675d9ec0df8457e820e75372e5b4c do_umount(): add missing barrier before refcount checks in sync case
-deb39689910eb077c92312bc2496e4aab89edbd3 io_uring: always arm linked timeouts prior to issue
-59918182dc1f46e32a476058c21b754ddbe56261 io_uring: ensure deferred completions are posted for multishot
-5cc23cdf4b88bce7a0e23f16b9cbb35424da4b7a Revert "net: phy: microchip: force IRQ polling mode for lan88xx"
-b5a5e46f83d51af57c40015f0c6402ecedd7bed6 arm64: insn: Add support for encoding DSB
-9e085f6e955d23e141bb6e0290bed0cbe4300226 arm64: proton-pack: Expose whether the platform is mitigated by firmware
-55ac69bc7721dabc1b1ac4168a4b717c87eb91d2 arm64: proton-pack: Expose whether the branchy loop k value
-86dd63650e7b4f6c9925162f586a801c625acbca arm64: bpf: Add BHB mitigation to the epilogue for cBPF programs
-17a18dd23b179fb2d8b2d5acb7d8f5dcf5956df6 arm64: bpf: Only mitigate cBPF programs loaded by unprivileged users
-71619a849f516a5972a59e71b2de3ebcf9fc84a0 arm64: proton-pack: Add new CPUs 'k' values for branch mitigation
-ae383d03f9cf9d747e4f92cead931bbc4a511501 x86/bpf: Call branch history clearing sequence on exit
-f496873861a68867a5fa758eee00a70b4698a167 x86/bpf: Add IBHF call at end of classic BPF
-ab26894cac2038832b847f30e9e72fb49ad40057 x86/bhi: Do not set BHI_DIS_S in 32-bit mode
-29f8ac0b7143be412e3090dd8ad6448211fd3d88 x86/speculation: Simplify and make CALL_NOSPEC consistent
-034e3c3ae6b8a904b1810c786f781ad91d116ffd x86/speculation: Add a conditional CS prefix to CALL_NOSPEC
-bae5cebdeaa40b546e409ba1cd8a3d28d25d1f3e x86/speculation: Remove the extra #ifdef around CALL_NOSPEC
-f9c901fd88854abc1489fa31b45f64aeaad0293c Documentation: x86/bugs/its: Add ITS documentation
-46f89aafc8d340ee5aa1ffa3c0cd7823e01efa44 x86/its: Enumerate Indirect Target Selection (ITS) bug
-7a19ee802804a42fef6cc4c58aa0faafaf3f504c x86/its: Add support for ITS-safe indirect thunk
-1ff9bae6c9d802f5c5eba46ebea2d9b2fa8f45b8 x86/its: Add support for ITS-safe return thunk
-da12c50e4dbfe4199657602c0e078b6b742243ad x86/its: Enable Indirect Target Selection mitigation
-0cff2e5778c2f2fe0017131da9a8539a3a890231 x86/its: Add "vmexit" option to skip mitigation on some CPUs
-1607c809e66d976a8c92f374873dbe97c2d1967a x86/its: Align RETs in BHB clear sequence to avoid thunking
-ae5d1ac0aaf33a7406cbb15b7aac33aacaa1736d x86/ibt: Keep IBT disabled during alternative patching
-4d054ee57a3bd5ba0c10fd926d50a4f502ecc176 x86/its: Use dynamic thunks for indirect branches
-dcfc3710b930fb5c4e9e5b0d5ab22317321cecea x86/its: Fix build errors when CONFIG_MODULES=n
-3d29dc59401179240ec80978dfb1d7d99bc40129 x86/alternative: Optimize returns patching
-6a511666d8f49eb454c7a7e1a238ad700f97341b x86/alternatives: Remove faulty optimization
-276b53224f590af74a21c7af6f3bbfa5922f4d18 x86/its: FineIBT-paranoid vs ITS
-2063e1623883ff079a994a4658423fc2116ef788 Linux 6.1.139-rc2
+9256f06d134f916e8847ee7caf7ce1b682b4a718 dm: add missing unlock on in dm_keyslot_evict()
+6961e7c9e89fc9bee72d442248135244815a7f2e arm64: dts: imx8mm-verdin: Link reg_usdhc2_vqmmc to usdhc2
+33858a3c0fe772fba7bedd2a4e4675a134cf3776 can: mcan: m_can_class_unregister(): fix order of unregistration calls
+bf32378aba2e6e5b6a59cea2fba2bebf65256fec wifi: cfg80211: fix out-of-bounds access during multi-link element defragmentation
+d94bacf600c165e7622cae0a4b79ad5697a5fce4 can: mcp251xfd: mcp251xfd_remove(): fix order of unregistration calls
+0523e2dcb2b0d8a52992ad2a4e3c7cc66325e7aa ksmbd: prevent rename with empty string
+b841ab8524bad58d397048e7174fbe786b7af775 ksmbd: prevent out-of-bounds stream writes by validating *pos
+3f1e5f0c4f31cd4c9814bae8d63c39219b513c28 ksmbd: Fix UAF in __close_file_table_ids
+c452ecc59fb2e9dfe4f69d450a35bb0c0705c875 openvswitch: Fix unsafe attribute parsing in output_userspace()
+3dcf6fbbab74bc1c4434aace11480fd92faa91e3 ksmbd: fix memory leak in parse_lease_state()
+5b80f9fc5b2042cb7d1d2be72d9816e0b76a5133 sch_htb: make htb_deactivate() idempotent
+fd7cf1ce350b4cfc9b7434e69f031f63614ce6a8 gre: Fix again IPv6 link-local address generation.
+e366d78b040ede3f26f23f4a0f1b213698a6c9f6 netdevice: add netdev_tx_reset_subqueue() shorthand
+8b861c7c22442459c5443bdac4a0510924cab7c9 net: ethernet: mtk_eth_soc: reset all TX queues on DMA free
+620596a57eb1a07524e0c917d13bcbf61e42ba4b can: mcp251xfd: fix TDC setting for low data bit rates
+dfa42463bded9187139c6bfb3ae5f13074923f67 can: gw: fix RCU/BH usage in cgw_create_job()
+a058b678361158954bee73cd401aae842ee6bcfd ipvs: fix uninit-value for saddr in do_output_route4
+8896a889b58fa5c33fbda55cbf8d858825809596 netfilter: ipset: fix region locking in hash types
+4d8f24c7a5cf00d5af03220ba0e3a2d44b8b1804 bpf: Scrub packet on bpf_redirect_peer
+b4ef4d5b8a4a9465406a5b960c36b100f8cd0316 net: dsa: b53: allow leaky reserved multicast
+1417688533fba60b084d53c699fcd7e0866410df net: dsa: b53: fix clearing PVID of a port
+a801658e558dec4e1faca5228f3b2e9bc379e19e net: dsa: b53: fix flushing old pvid VLAN on pvid change
+7fe32db4157f34af294be9665542b4fa5da7c0a4 net: dsa: b53: fix VLAN ID for untagged vlan on bridge leave
+ac6fd1758c0e5914b15180565e873da18f3f30b9 net: dsa: b53: always rejoin default untagged VLAN on bridge leave
+0b60a527af89be70a854d0f163c2d84e00197600 net: dsa: b53: fix learning on VLAN unaware bridges
+1d8edb28ae1ba60c8008fb03f1b855ef80ee7015 Input: cyttsp5 - ensure minimum reset pulse width
+f512f986d89ab75c4df1f8f0425dfccc8e6b87af Input: cyttsp5 - fix power control issue on wakeup
+ae56c5544c9db0240ba7f1c5eb02a2ae75334d34 Input: mtk-pmic-keys - fix possible null pointer dereference
+d6045779c5b8070604caa034661f6a39852ffc0b Input: xpad - fix Share button on Xbox One controllers
+8c744afe0fd1ae71cd17285bee4b66887d683be3 Input: xpad - add support for 8BitDo Ultimate 2 Wireless Controller
+acdad164881eaca7107428e0fdaf3b45020decce Input: xpad - fix two controller table values
+4b1a45306481b952fdbf865b4cc1e1b0e89a299b Input: synaptics - enable InterTouch on Dynabook Portege X30-D
+1524b23216b23d1eed270105b7ed3b02481ac7fa Input: synaptics - enable InterTouch on Dynabook Portege X30L-G
+ca25ed7fa108eba3cf3ba4e17454bfae8ebce0f2 Input: synaptics - enable InterTouch on Dell Precision M3800
+46f6c1c63ec5c927a7e349e188363033ac06cccc Input: synaptics - enable SMBus for HP Elitebook 850 G1
+3f6f218358a76d4d7501ae42cec75a4e5d68f8bc Input: synaptics - enable InterTouch on TUXEDO InfinityBook Pro 14 v5
+bb39388c4d006ab7fb27cf2a16ea78e3d73332ff staging: iio: adc: ad7816: Correct conditional logic for store mode
+a31242bc105560372a3d1f9ffd0aa34eeedeec50 staging: axis-fifo: Remove hardware resets for user errors
+0d370961d404874d1f379bc1352ecbd3a3d80963 staging: axis-fifo: Correct handling of tx_fifo_depth for size validation
+b71e4fe458817cda062d09f1bfe8bff9e04a4277 x86/mm: Eliminate window where TLB flushes may be inadvertently skipped
+aec0628a2ca081cdac64e3d83366f18ade8ddb32 drm/amd/display: Shift DMUB AUX reply command if necessary
+2425f1612baa22bfdb5b5e9fe7dba764973c2679 iio: adc: ad7606: fix serial register access
+6477cbb2b78c8788fc4274592b034601d0f6a080 iio: adc: rockchip: Fix clock initialization sequence
+97647e61432c10ace8983f0555a647348532b3fe iio: adis16201: Correct inclinometer channel resolution
+968dda41ee9078c3d4e224b70cd92718caea5f9d iio: imu: st_lsm6dsx: fix possible lockup in st_lsm6dsx_read_fifo
+edbd73e2f3e3c5d25fed0f37d1590861217b2fc7 iio: imu: st_lsm6dsx: fix possible lockup in st_lsm6dsx_read_tagged_fifo
+ff17103c97a460b9e8858ed94b5a149a0937a8ec drm/v3d: Add job to pending list if the reset was skipped
+d54da81ded713a12ffed49b5333c57f8c68beb82 drm/amd/display: more liberal vmin/vmax update for freesync
+db02507704870c59defbd3b0ee0ad17c04bb951a drm/amd/display: Fix the checking condition in dmub aux handling
+f6428e0f1fbe02281b4435f0f2ba3ff8c18163fb drm/amd/display: Remove incorrect checking in dmub aux handler
+b15f2c0e9c3e348586410303963d278cfe14dc14 drm/amd/display: Fix wrong handling for AUX_DEFER case
+8ef5f72021aa93ab2e0017bc274353b6b81ad423 drm/amd/display: Copy AUX read reply data whenever length > 0
+cd70fe7319861631570ea83925089830f5da2aef drm/amdgpu/hdp4: use memcfg register to post the write for HDP flush
+db4b580aacdf8392255111486709da0ee1a33391 drm/amdgpu/hdp5.2: use memcfg register to post the write for HDP flush
+ca6e869d45769542a52f253ff63ee372be959836 drm/amdgpu/hdp5: use memcfg register to post the write for HDP flush
+3b17318609b57e27efdf349ee23b9b7ebeae86c2 drm/amdgpu/hdp6: use memcfg register to post the write for HDP flush
+daa92aa5e756c012e1addf69fa1cfa4900119d66 usb: uhci-platform: Make the clock really optional
+174359e6cda505450ffd2492049e0c82dc9cbe52 smb: client: Avoid race in open_cached_dir with lease breaks
+c77135c1297d808312fd90817e6bd726cf8d2737 xen: swiotlb: Use swiotlb bouncing if kmalloc allocation demands it
+30e7781220c9758e1598cca041345d624f5bdc81 xenbus: Use kref to track req lifetime
+9d34a1d4cfbcfcb52eed6fffa384b7fdb5c2d87a clocksource/i8253: Use raw_spinlock_irqsave() in clockevent_i8253_disable()
+cd6da0de3ec64a1dd8760d27c2fe3eb3586d7b99 module: ensure that kobject_put() is safe for module type kobjects
+8eefe74f39fa3c2f27f63645adefa4733c1272a5 x86/microcode: Consolidate the loader enablement checking
+b3a72a28782df0c47fef5b1760d1e3e264ee8b83 ocfs2: switch osb->disable_recovery to enum
+ee177199df111379707372085b7cbe2c9d6f32d3 ocfs2: implement handshaking with ocfs2 recovery thread
+2f5e8876eff3e70e8d618ba37feaa8c216dc8551 ocfs2: stop quota recovery before disabling quotas
+ea740d2c8209be906c543030794839d52e188692 usb: cdnsp: Fix issue with resuming from L1
+f44a4bd5f5c82436a127425b6c2699798c5aee73 usb: cdnsp: fix L1 resume issue for RTL_REVISION_NEW_LPM version
+8137649b1be6a4d0630e0d60b28c58e1e29a616a usb: gadget: f_ecm: Add get_status callback
+99130869e237857dfa95b903c00d0da8a5cb62a9 usb: gadget: tegra-xudc: ACK ST_RC after clearing CTRL_RUN
+6e6538825ce54a0178fa5a29bee7fb4b0ed80380 usb: gadget: Use get_status callback to set remote wakeup capability
+a520060680b82b019e6557ee8a714096281524ad usb: host: tegra: Prevent host controller crash when OTG port is used
+da2b6f7d98c7d6435fe9226e95292708fb009bcf usb: typec: tcpm: delay SNK_TRY_WAIT_DEBOUNCE to SRC_TRYWAIT transition
+5e67f0f62c0d66e29ad29eff99e63f3ed52aecc6 usb: typec: ucsi: displayport: Fix NULL pointer access
+6d4fbcea9984c8f02703825347f12a2bc7071a13 USB: usbtmc: use interruptible sleep in usbtmc_read
+6759fb2aba6a21d2f4f493da481971e52f54a325 usb: usbtmc: Fix erroneous get_stb ioctl error returns
+6b1a89b9af08c9a56bddff9e8464a20b706859b3 usb: usbtmc: Fix erroneous wait_srq ioctl return
+2b3bbd57ace4692e8fd52a9ba1b35c52887cce3b usb: usbtmc: Fix erroneous generic_read ioctl return
+a770eafcd321cf0826e1af8854a997ad704f978b iio: accel: adxl367: fix setting odr for activity time update
+0fb62524294f1ea6d88cebfdb7b16c6b5ae7a4fb iio: temp: maxim-thermocouple: Fix potential lack of DMA safe buffer.
+fad1cc6fbdb87d36e714e0a751077883877aaa7e types: Complement the aligned types with signed 64-bit one
+7455bee6da5a3185b0d2a7ac90782ce8bc7a8755 iio: accel: adxl355: Make timestamp 64-bit aligned using aligned_s64
+40f3d2b39642dafa098e5ddc66a4b05ae832b16a iio: adc: dln2: Use aligned_s64 for timestamp
+ca22c64df54b1cdf37cbd2db5c5c518c1eda3853 MIPS: Fix MAX_REG_OFFSET
+ec75de46d1456244ec385492d560a5be4b46957d drm/panel: simple: Update timings for AUO G101EVN010
+d076dcc979eead630c93478411ea793760fe575c nvme: unblock ctrl state transition for firmware update
+794057ff212a0a77d804bb6a811a803aeade40e9 do_umount(): add missing barrier before refcount checks in sync case
+c88836581d833e9c0b8fb42b349f007fb330a92b io_uring: always arm linked timeouts prior to issue
+73f411e3e64f3c4c2394f80c7663dfae6986a7f8 io_uring: ensure deferred completions are posted for multishot
+5bb072549dff5d25310b6fd39d61a50ef46521e1 arm64: insn: Add support for encoding DSB
+29c37a9e36dda45b9255b349ab233d71de651079 arm64: proton-pack: Expose whether the platform is mitigated by firmware
+021fce9d4381c5cfbf18b90109df489edaf7cb76 arm64: proton-pack: Expose whether the branchy loop k value
+8b43edc35e0d02e2d921d7f7755ea2b64cd26866 arm64: bpf: Add BHB mitigation to the epilogue for cBPF programs
+857762db38f8cae6b25583d2bbb59f842476d5e3 arm64: bpf: Only mitigate cBPF programs loaded by unprivileged users
+a3f115ddfd3cbc35e8117e214b83158ce3ccaaca arm64: proton-pack: Add new CPUs 'k' values for branch mitigation
+c8bb46bfeffcc8c871d5a3d31ec5fece54e72e50 x86/bpf: Call branch history clearing sequence on exit
+220f8811f79fc991ad3e7d4e5b98f6c125f42a06 x86/bpf: Add IBHF call at end of classic BPF
+2971b0c72f6e2849f1e004eef63fd5ec51ad195a x86/bhi: Do not set BHI_DIS_S in 32-bit mode
+6f873de9908822e3d6433127413f118d6c390679 x86/speculation: Simplify and make CALL_NOSPEC consistent
+e700f19dfce1e9404679106b1dc99cf4c3043312 x86/speculation: Add a conditional CS prefix to CALL_NOSPEC
+f07cfb5c910240bb2b0373b0a405f6988c511718 x86/speculation: Remove the extra #ifdef around CALL_NOSPEC
+ef959d0a0c960be2ad1427fd884592410bd3a548 Documentation: x86/bugs/its: Add ITS documentation
+2814b008ec32523131c375a008ae36c7218a6c74 x86/its: Enumerate Indirect Target Selection (ITS) bug
+88184a5befdc40ed8947ba7c11b17f2a94b0f429 x86/its: Add support for ITS-safe indirect thunk
+17d1978ec939523f97efd75dcade3629a1e11b28 x86/its: Add support for ITS-safe return thunk
+c10b437668c0947921df6fb1bbdfe6d579960dcc x86/its: Enable Indirect Target Selection mitigation
+1c7366e0b375388753987204a100ae822058c99a x86/its: Add "vmexit" option to skip mitigation on some CPUs
+d3bd0810e8eabb995c525c9ee97a9093c4c54a4b x86/its: Add support for RSB stuffing mitigation
+7e300b8a1b1bd5113f3388a3b0c917692016f230 x86/its: Align RETs in BHB clear sequence to avoid thunking
+cda32c07fb8f91a919221c8ad2cf8bad83bef84c x86/ibt: Keep IBT disabled during alternative patching
+500ad2927ae063bbd360932df27bf2f129534f05 x86/its: Use dynamic thunks for indirect branches
+b7b96dd8a5eb0e81ccf0ec74accd040e61072730 x86/its: Fix build errors when CONFIG_MODULES=n
+2cc2495b6dd8d8ba54fea886bd4073f432fb7ee1 x86/its: FineIBT-paranoid vs ITS
+a04685b0f1aef177a11626a7ea6e4cbfd23ffdec Linux 6.6.91-rc2
 
---===============5518262612553838139==--
+--===============4573993167310759950==--
