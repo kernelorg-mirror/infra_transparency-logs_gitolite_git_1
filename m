@@ -1,74 +1,70 @@
-Content-Type: multipart/mixed; boundary="===============5628463817185813118=="
+Content-Type: multipart/mixed; boundary="===============0338969036536663686=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Wed, 14 May 2025 14:26:36 -0000
-Message-Id: <174723279647.2148281.8836758088681092353@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Wed, 14 May 2025 14:56:03 -0000
+Message-Id: <174723456342.2172100.4033702657076349847@gitolite.kernel.org>
 
---===============5628463817185813118==
+--===============0338969036536663686==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/rdma-next
-    old: 5d3f1e8e27de4d80c33c0434d9d5c06ed6333d75
-    new: 9939794aec7c41e81d92f6311a467f666a233d2b
-    log: revlist-5d3f1e8e27de-9939794aec7c.txt
+  - ref: refs/heads/pending
+    old: 4545ccf7efbd97566eb6d98738013bb6d72ced05
+    new: 3c1cb82a87243f8d53d436008993bff9d16f90ba
+    log: revlist-4545ccf7efbd-3c1cb82a8724.txt
 
---===============5628463817185813118==
+--===============0338969036536663686==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5d3f1e8e27de-9939794aec7c.txt
+Content-Disposition: attachment; filename=revlist-4545ccf7efbd-3c1cb82a8724.txt
 
-468d8b462ac64659caec53eff34f02963d5f52c8 iidc/ice/irdma: Rename IDC header file
-97b5631aae6896369712d6b7131afbc95c753587 iidc/ice/irdma: Rename to iidc_* convention
-d9251a560ba67bbedd53b81aee32e1ad95f42000 iidc/ice/irdma: Break iidc.h into two headers
-8239b771b94b639556c1987185fd82b2a896c923 ice: Replace ice specific DSCP mapping num with a kernel define
-c24a65b6a27c78d8540409800886b6622ea86ebf iidc/ice/irdma: Update IDC to support multiple consumers
-6883b680e703c6b2efddb4e7a8d891ce1803d06b RDMA/iwcm: Fix use-after-free of work objects after cm_id destruction
-21508c8c972ca0ff06b07af37adb4021ab527de2 Merge branch 'for-next' of https://git.kernel.org/pub/scm/linux/kernel/git/tnguy/linux into wip/leon-for-next
-c63492fc1a500d6ae5b2483132515ee615c43fff net/sched: Don't print dump stack in event of transmission timeout
-0ce9f256ccbd156cc84528bd16c8db29a4f4551f RDMA/mlx5: Add debugfs to dump MR cache state
-b9c331ff6ddd8cd6d0b3d465f7083b1b05e56cac RDMA/core: Introduce peer memory interface
-7e75622468f65d066e9e64e305bf976c2f574c06 TEMP: Increase lockdep depth
-2e04ede610cfd2a9b0e98ce45600f04d4e63e622 TEMP: Increase MAX_LOCKDEP_ENTRIES size
-cf080326590d52e19e613cf28f8282a6f4f45e63 xfrm: validate assignment of maximal possible SEQ number
-51fb8e2e669bc7bce94b805467375c18c7bb88c2 xfrm: advance SEQ number in non-ESN mode
-18086194de0ac7dc0964fa10f93df0076879a589 xfrm: advance SEQ number in ESN mode
-765bbf966f154ddf27c0ca5e032c751ed4f3fe79 xfrm: advance SEQ number in BMP mode
-6c5c4b425e8a1e6d5fdb5a26c4b9c0537afbfa72 IB/mad: Add state machine to MAD layer
-da2a14731ed533e5e18257fbd11766121016514f IB/mad: Add flow control for solicited MADs
-a8216a5542dfe1ef04cd9ba5a275b2c89199bf84 rds: rely on IB/core to determine if device is ODP capable
-1de8570a589223ed2ac38fd97ea2fa303f97b3fe swiotlb: Enrich message about buffer overflow
-78fb6dd2e9951ebc327a07fa2b33339d466db813 compiler.h: Avoid the usage of __typeof_unqual__() when __GENKSYMS__ is defined
-dff45fb7b7b76d161d7bb43f5c6a76df1237d9e0 vfio/mlx5: Explicitly use number of pages instead of allocated length
-4bf2c3ec474061f7afb35eb6c3cb04358bb82a63 vfio/mlx5: Rewrite create mkey flow to allow better code reuse
-f14cd7dd749aca2ec50e55f68e77d845490ffaa0 vfio/mlx5: Enable the DMA link API
-cd69768adffd24ac2a75f137e54c27c3ca133cc0 RDMA/mlx5: Remove the redundant MLX5_IB_STAGE_UAR stage
-3e30f47fbd06e925312e7983af5e5d2d080b8a13 RDMA/mlx5: Add support for 200Gbps per lane speeds
-bd4216c06c9cbebc0ae3542ce4669777a2cc125d xfrm: skip templates check for packet offload tunnel mode
-c361b3c2cfa912fe887cdfa680b449a471617132 xfrm: prevent configuration of interface index when offload is used
-89f48172f49c5a1a7e1aeb967bf557ea73e2d4bd nvme-pci: factor out a nvme_init_hctx_common() helper
-2c7c92d7cf2b45e5d55fc2eb880a9a7ff8599276 nvme-pci: make PRP list DMA pools per-NUMA-node
-80006d7a3bdfd69444de0acb25c238c91c07508d nvme-pci: don't try to use SGLs for metadata on the admin queue
-13a183fefb39831d0b0f79936de184ba800a41fb nvme-pci: store aborted state in flags variable
-abd4da3671e20a9de32422eedfd6c8e272939153 nvme-pci: remove struct nvme_descriptor
-7e6de8617925e1c43ccc1bb879de024473a9ae35 nvme-pci: rename the descriptor pools
-53e9d31acb97915c43fdb3608ad7bfbe8e4ba8ff nvme-pci: use a better encoding for small prp pool allocations
-f18adefa5637671f52ce6ea268e2fb2a0a73aa77 nvme-pci: add a symolic name for the small pool size
-f0ca785341945bec136bdb7223c7b57a43cdc3e6 nvme-pci: use struct_size for allocation struct nvme_dev
-5a14dcff42e607953f19fed61dc84191750a1bb4 block: remove the same_page output argument from bvec_try_merge_page
-ef169266ae297fe6959b546ca6acc766d913fb6a block: don't merge different kinds of P2P transfers in a single bio
-dd0da3ded7aff5e116fda8da7762fbafba62e01c blk-mq: add scatterlist-less DMA mapping helpers
-73b9cd67e9a5721bbf042789ca4201a31edcf913 coccinelle: misc: secs_to_jiffies script: Create dummy report
-8366bd019ad1cc6366f96c7bad742144e7c67899 RDMA/mlx5: Avoid flexible array warning
-3895801f3a3674461ceaac3b0cdfe4f691210aa1 net/mlx5: fs, add multiple prios to RDMA TRANSPORT steering domain
-9939794aec7c41e81d92f6311a467f666a233d2b RDMA/mlx5: Add multiple priorities support to RDMA TRANSPORT userspace tables
+cc9788cd7512fa7d587ff6eb39a26cb7b7b20f73 wifi: ath12k: Abort scan before removing link interface to prevent duplicate deletion
+801c902f1cd591d28978f9f346dee8028d8df41b wifi: ath10k: Fix spelling mistake "comple" -> "complete"
+94ea5e5e00f0d944d0abb1b9070c3c763dca3d13 wifi: ath10k: Constify structures in hw.c
+c804cce946f95a90c0986c05b88c7a0d8e4f47ae wifi: ath12k: parse msdu_end tlv in ath12k_dp_mon_rx_parse_status_tlv()
+74e7b4e9a0164b952d52e5f77d8cbf8c82e1745f wifi: ath12k: avoid call ath12k_dp_mon_parse_rx_dest_tlv() for WCN7850
+f1f8518d763d2900dcb1ae726a440c35b013439e wifi: ath12k: add srng config template for mon status ring
+77404b7c87ee6aca662091487c8a84c0689fba00 wifi: ath12k: add ring config for monitor mode on WCN7850
+fb8373ad71dcb29a5ce7af7c81b621834d01fbe9 wifi: ath12k: add interrupt configuration for mon status ring
+8373d898553c0590f91098e41d180879184c8686 wifi: ath12k: add monitor mode handler by monitor status ring interrupt
+bac65c21a3d09cf8c5de63bdcefdd45943fefc2a wifi: ath12k: add support to reap and process monitor status ring
+8bcb0c0829e286d13be41b374ba18bdb016a4612 wifi: ath12k: fix macro definition HAL_RX_MSDU_PKT_LENGTH_GET
+a37e10592d5ba4f4449e587b13db646b8176cc51 wifi: ath12k: use ath12k_buffer_addr in ath12k_dp_rx_link_desc_return()
+b7fdd354cfe76b9087c8cc001d00181947d1436d wifi: ath12k: add support to reap and process mon dest ring
+339298dfdbffd3f487cbc4e542fd554b7c4ef799 wifi: ath12k: init monitor parameters for WCN7850
+544c0a15ad0be61a6499bceca00c46dbcc10adb5 wifi: ath12k: use different packet offset for WCN7850
+8497ffd9bda46ac71fb961f14cfa0e0f1b9d3835 wifi: ath12k: enable monitor mode for WCN7850
+37050104f51ae0f70b76fc8480ec962c2df56488 wifi: ath12k: Enable AST index based address search in Station Mode
+28f5893be9b83a6991f69fd2258c2096290009cf wifi: ath12k: Prevent multicast duplication for dynamic VLAN
+d4e7dcbf92cb58f73adea5ea6f21e9b9e1083f92 wifi: ath12k: update EMLSR capabilities of ML Station
+0d26d704a5af8f8c6883cea449302f2424f65aef wifi: ath12k: pass link_conf for tx_arvif retrieval
+0bbbf52a80959f2bfe4a1055c3648f4ad07a6c8d wifi: ath12k: Fix invalid RSSI values in station dump
+0ced379c38385d8d55f015c18653e1de85931f94 wifi: ath12k: change soc name to device name
+9eb8cb46c0fe227c59633c97d1a8192f86dd6c63 wifi: ath12k: Add device dp stats support
+19728cb980407c4d95340ba05a4b376e0ae712fb wifi: ath12k: print device dp stats in debugfs
+c98e142a4a78e1b070829effd8279498b3e8a312 wifi: ath12k: Reorder and relocate the release of resources in ath12k_core_deinit()
+f471bf0fad6910735d8dc87859105c3693854dbf wifi: ath12k: Adjust the process of resource release for ahb bus
+7d753dc20fc176f9c70ae63c4b2f388305cc9ddd dt-bindings: net: wireless: ath12k: describe firmware-name property
+04601e7d87a05af9fb866cb8a15f76e560222a3c wifi: ath12k: support usercase-specific firmware overrides
+6aa96d1da03fc8c29bd1ff8527ec61b8cd0c6e65 wifi: ath9k: ahb: do ioremap resource in one step
+1d79bdd72bc916650b1ed041b750dd849115740a wifi: ath12k: remove redundant regulatory rules intersection logic in host
+d4c522309f59c44f2d1faa7b60080af5b3f35d3d wifi: ath12k: fix memory leak in ath12k_service_ready_ext_event
+0abeaea94302f6fd0a840c829d8a15e389a80b4f wifi: ath11k: Fix QMI target memory reuse logic
+f9d414713d13111ef4aa5659039b0fe19046b2ae wifi: ath11k: fix ring-buffer corruption
+7d7f2827ceabf9e1a5f5ae8bedb92abc1e8dd274 wifi: ath11k: fix rx completion meta data corruption
+ded60e1a36cb482245fe2a686c3b08df617efc85 wifi: ath12k: fix ring-buffer corruption
+483a918fd383f3b5e58501d868305ece89dae009 wifi: ath12k: Prepare ahvif scan link for parallel scan
+d661291226fefbbb73c59fb3872d8ed51b653b65 wifi: ath12k: Split scan request for split band device
+93f883525c8de3876849ca5820aa76c88f2d2b3c wifi: ath12k: fix memory leak in WMI firmware stats
+4bc5282d9d7494d4f162acd37f505ec88050e5ae wifi: ath11k: support DBS and DFS compatibility
+3c1cb82a87243f8d53d436008993bff9d16f90ba wifi: ath12k: Fix scan initiation failure handling
 
---===============5628463817185813118==--
+--===============0338969036536663686==--
