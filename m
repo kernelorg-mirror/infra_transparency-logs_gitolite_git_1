@@ -1,107 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============2217207188176844242=="
+Content-Type: multipart/mixed; boundary="===============0919216124530388411=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/mst/qemu
-Date: Wed, 14 May 2025 11:49:07 -0000
-Message-Id: <174722334799.2003432.12598162703141437023@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfs-linux
+Date: Wed, 14 May 2025 11:49:13 -0000
+Message-Id: <174722335373.2003703.14780679341411011085@gitolite.kernel.org>
 
---===============2217207188176844242==
+--===============0919216124530388411==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/mst/qemu
-user: mst
+repo: pub/scm/fs/xfs/xfs-linux
+user: cem
 changes:
-  - ref: refs/heads/next
-    old: 898b7ca662a8e95576907f285725f821abf891dc
-    new: 28931c2e1591deb4bfaaf744fdc8813e96c230f1
-    log: revlist-898b7ca662a8-28931c2e1591.txt
-  - ref: refs/heads/pci
-    old: 898b7ca662a8e95576907f285725f821abf891dc
-    new: 28931c2e1591deb4bfaaf744fdc8813e96c230f1
-    log: revlist-898b7ca662a8-28931c2e1591.txt
-  - ref: refs/tags/for_autotest
-    old: 03f5032d45e4af29b6f557f84bcedcb9de99880a
-    new: 44a30a2e41238f2f453163f3f169799da68c485d
-    log: revlist-03f5032d45e4-44a30a2e4123.txt
-  - ref: refs/tags/for_autotest_next
-    old: 03f5032d45e4af29b6f557f84bcedcb9de99880a
-    new: 44a30a2e41238f2f453163f3f169799da68c485d
-    log: revlist-03f5032d45e4-44a30a2e4123.txt
-  - ref: refs/tags/for_upstream
-    old: 03f5032d45e4af29b6f557f84bcedcb9de99880a
-    new: 44a30a2e41238f2f453163f3f169799da68c485d
-    log: revlist-03f5032d45e4-44a30a2e4123.txt
+  - ref: refs/heads/for-next
+    old: a0922bf89760ab1b86c598aee62d04514b7d68d4
+    new: 3803e95ac5c822d13d5449fd819ec7ec2f767cab
+    log: revlist-a0922bf89760-3803e95ac5c8.txt
 
---===============2217207188176844242==
+--===============0919216124530388411==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-898b7ca662a8-28931c2e1591.txt
+Content-Disposition: attachment; filename=revlist-a0922bf89760-3803e95ac5c8.txt
 
-98cbac128f1c38fa62becf5b89bc662c9218a780 hw/cxl: Support aborting background commands
-1000158f031818bf286454c8691da9b4f33c4d02 hw/cxl: Support get/set mctp response payload size
-77a8e9fe0ecb71b260d17f43221df5b18769b359 hw/cxl/cxl-mailbox-utils: Add support for Media operations discovery commands cxl r3.2 (8.2.10.9.5.3)
-484df0704ea592ebd5993c15d63ea38f309ec6e0 hw/cxl: factor out calculation of sanitize duration from cmd_santize_overwrite
-40ab4ed107757e1c5bdccc906e8a44cb4e2cb7a4 hw/cxl/cxl-mailbox-utils: Media operations Sanitize and Write Zeros commands CXL r3.2(8.2.10.9.5.3)
-a3e0b1ff37e930095a417666ab3e12715394fb9b hw/cxl/cxl-mailbox-utils: CXL CCI Get/Set alert config commands
-abde58f8644491503c058c2ff0775613f251c8e6 docs/cxl: Add serial number for persistent-memdev
-3a031e395dc65239d031890d038bc354af61dc35 hw/pci: Do not add ROM BAR for SR-IOV VF
-a5745ac183e606937f22bfbf59a7f18e74f3c464 hw/pci: Fix SR-IOV VF number calculation
-92b6ce3dba26bd3734b528bda7f9a9dee2ee7bb4 pcie_sriov: Ensure PF and VF are mutually exclusive
-d2f5bb7849e463646173564fdadf40e32a32bf6e pcie_sriov: Check PCI Express for SR-IOV PF
-19e55471d4e8a494cfda7470e701829e3a873bdc pcie_sriov: Allow user to create SR-IOV device
-3f9cfaa92c96d604e98f16ade5af4742460e4c0f virtio-pci: Implement SR-IOV PF
-49f7cb18db0790f7f32cb85dc35ffc25e44a828b virtio-net: Implement SR-IOV VF
-6f9bebf1dc6b54b63be739ea247b3942f841b9e3 docs: Document composable SR-IOV device
-d0c280d3fac644c26a86d2fb70c5920b3d5bef85 pcie_sriov: Make a PCI device with user-created VF ARI-capable
-8717987fb528ff704e275a1a99f59a20e0b272f5 pci-testdev.c: Add membar-backed option for backing membar
-e0f300b36da1ee794fd81aa95f56e7bc9f010d46 system/runstate: add VM state change cb with return value
-5a317017b827e338358792cd07663f8ea25f1ffe vhost: return failure if stop virtqueue failed in vhost_dev_stop
-bc85aae4204509420f0a4403ca728801170d9351 vhost-user: return failure if backend crash when live migration
-1a5a2629eab94297a37e4adcc5fb69beb7bb0b0c vhost-scsi: support VIRTIO_SCSI_F_HOTPLUG
-0caed25cd171c611781589b5402161d27d57229c virtio: Call set_features during reset
-77a9408fc774ad99dcd16ea08f31b96b590fbf99 virtio: Move virtio_reset()
-b1c84782bfddeaa0070f5ae57ac2e4e3992f9f19 intel_iommu: Use BQL_LOCK_GUARD to manage cleanup automatically
-1b85dff5f0be30ddbcb7edbd3c084c9c5ee351ca intel_iommu: Take locks when looking for and creating address spaces
-f864a3235ea1d1d714b3cde2d9a810ea6344a7b5 hw/i386/amd_iommu: Isolate AMDVI-PCI from amd-iommu device to allow full control over the PCI device creation
-28931c2e1591deb4bfaaf744fdc8813e96c230f1 hw/i386/amd_iommu: Allow migration when explicitly create the AMDVI-PCI device
+730d837979bac203c786f2c5b0707f5426275c0d selftests: ublk: fix UBLK_F_NEED_GET_DATA
+69edf98be844375807f299397c516fb1e962b3cc ublk: decouple zero copy from user copy
+6240f43b29f285a40eebeb789756673af7a7d67c ublk: enhance check for register/unregister io buffer command
+a584b2630b0d31f8a20e4ccb4de370b160177b8a ublk: remove the check of ublk_need_req_ref() from __ublk_check_and_get_req
+a75401227eeb827b1a162df1aa9d5b33da921c43 nvme-pci: fix queue unquiesce check on slot_reset
+5b960f92ac3e5b4d7f60a506a6b6735eead1da01 nvme-pci: add quirks for device 126f:1001
+ab35ad950d439ec3409509835d229b3d93d3c7f9 nvme-pci: add quirks for WDC Blue SN550 15b7:5009
+77e40bbce93059658aee02786a32c5c98a240a8a nvme-tcp: fix premature queue removal and I/O failover
+521987940ad4fd37fe3d0340ec6f39c4e8e91e36 nvme-tcp: select CONFIG_TLS from CONFIG_NVME_TCP_TLS
+ac38b7ef704c0659568fd4b2c7e6c1255fc51798 nvmet-tcp: select CONFIG_TLS from CONFIG_NVME_TARGET_TCP_TLS
+46d22b47df2741996af277a2838b95f130436c13 nvmet-tcp: don't restore null sk_state_change
+8edb86b2ed1d63cc400aecae8eb8c8114837171a nvmet-auth: always free derived key data
+6d732e8d1e6ddc27bbdebbee48fa5825203fb4a9 Merge tag 'nvme-6.15-2025-05-01' of git://git.infradead.org/nvme into block-6.15
+f5c84eff634ba003326aa034c414e2a9dcb7c6a7 loop: Add sanity check for read/write_iter
+db492e24f9b05547ba12b4783f09c9d943cf42fe block: only update request sector if needed
+650415fca0a97472fdd79725e35152614d1aad76 nvme: unblock ctrl state transition for firmware update
+c0d0a9ff6d5b5b23ddabde8bcbafb28fa454ae00 block: remove test of incorrect io priority level
+dd90905d5a8a15a6d4594d15fc8ed626587187ca Merge tag 'nvme-6.15-2025-05-08' of git://git.infradead.org/nvme into block-6.15
+8098514bd5ca98beca6ec725751d82d0d5b492d8 block: always allocate integrity buffer when required
+6475ece803e7b41d5a3dcffffc35f6482d4cbb4d Merge branch 'block-6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux-block into xfs-6.16-merge
+ea31bdece29ac72ebe409cf2bb411abe6e31431a xfs: stop using set_blocksize
+c0a5c4084709a78117c1c372aa4f813e1a98c313 xfs: Remove deprecated xfs_bufd sysctl parameters
+6e7d71b3a0f9732863b6a1366c9d875cec52c842 Merge branch 'atomic_writes-6.16' into xfs-6.16-merge
+ca43b74ac3040ae13be854e6a71ebd7a91e5fcfc xfs: remove some EXPERIMENTAL warnings
+1c7161ef0164716fdf4618b50747bd3002625e38 xfs: remove the EXPERIMENTAL warning for pNFS
+ce9473e73824e92bb64b9807d771c8e8ab40d197 xfs: allow ro mounts if rtdev or logdev are read-only
+0f511a19897471c0898521f28b5e86e3d500a7bf xfs: don't assume perags are initialised when trimming AGs
+3748581214af3e007cebebc7780a14f30c585425 xfs: free up mp->m_free[0].count in error case
+6074f25ed988b9c12d20f058d430a672ff30c62f xfs: fix zoned GC data corruption due to wrong bv_offset
+dcc6c6d39527e30086ebc845a7d78968d49f9023 xfs: Fail remount with noattr2 on a v5 with v4 enabled
+f65adb4b6c110dce7bb1468c8d0dc503320fc6a5 xfs: Fix a comment on xfs_ail_delete
+cc75545fbd13a0b1cdb76c41309080c552d5d8a9 xfs: Fix comment on xfs_trans_ail_update_bulk()
+3803e95ac5c822d13d5449fd819ec7ec2f767cab Merge branch 'xfs-6.15-fixes' into for-next
 
---===============2217207188176844242==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-03f5032d45e4-44a30a2e4123.txt
-
-98cbac128f1c38fa62becf5b89bc662c9218a780 hw/cxl: Support aborting background commands
-1000158f031818bf286454c8691da9b4f33c4d02 hw/cxl: Support get/set mctp response payload size
-77a8e9fe0ecb71b260d17f43221df5b18769b359 hw/cxl/cxl-mailbox-utils: Add support for Media operations discovery commands cxl r3.2 (8.2.10.9.5.3)
-484df0704ea592ebd5993c15d63ea38f309ec6e0 hw/cxl: factor out calculation of sanitize duration from cmd_santize_overwrite
-40ab4ed107757e1c5bdccc906e8a44cb4e2cb7a4 hw/cxl/cxl-mailbox-utils: Media operations Sanitize and Write Zeros commands CXL r3.2(8.2.10.9.5.3)
-a3e0b1ff37e930095a417666ab3e12715394fb9b hw/cxl/cxl-mailbox-utils: CXL CCI Get/Set alert config commands
-abde58f8644491503c058c2ff0775613f251c8e6 docs/cxl: Add serial number for persistent-memdev
-3a031e395dc65239d031890d038bc354af61dc35 hw/pci: Do not add ROM BAR for SR-IOV VF
-a5745ac183e606937f22bfbf59a7f18e74f3c464 hw/pci: Fix SR-IOV VF number calculation
-92b6ce3dba26bd3734b528bda7f9a9dee2ee7bb4 pcie_sriov: Ensure PF and VF are mutually exclusive
-d2f5bb7849e463646173564fdadf40e32a32bf6e pcie_sriov: Check PCI Express for SR-IOV PF
-19e55471d4e8a494cfda7470e701829e3a873bdc pcie_sriov: Allow user to create SR-IOV device
-3f9cfaa92c96d604e98f16ade5af4742460e4c0f virtio-pci: Implement SR-IOV PF
-49f7cb18db0790f7f32cb85dc35ffc25e44a828b virtio-net: Implement SR-IOV VF
-6f9bebf1dc6b54b63be739ea247b3942f841b9e3 docs: Document composable SR-IOV device
-d0c280d3fac644c26a86d2fb70c5920b3d5bef85 pcie_sriov: Make a PCI device with user-created VF ARI-capable
-8717987fb528ff704e275a1a99f59a20e0b272f5 pci-testdev.c: Add membar-backed option for backing membar
-e0f300b36da1ee794fd81aa95f56e7bc9f010d46 system/runstate: add VM state change cb with return value
-5a317017b827e338358792cd07663f8ea25f1ffe vhost: return failure if stop virtqueue failed in vhost_dev_stop
-bc85aae4204509420f0a4403ca728801170d9351 vhost-user: return failure if backend crash when live migration
-1a5a2629eab94297a37e4adcc5fb69beb7bb0b0c vhost-scsi: support VIRTIO_SCSI_F_HOTPLUG
-0caed25cd171c611781589b5402161d27d57229c virtio: Call set_features during reset
-77a9408fc774ad99dcd16ea08f31b96b590fbf99 virtio: Move virtio_reset()
-b1c84782bfddeaa0070f5ae57ac2e4e3992f9f19 intel_iommu: Use BQL_LOCK_GUARD to manage cleanup automatically
-1b85dff5f0be30ddbcb7edbd3c084c9c5ee351ca intel_iommu: Take locks when looking for and creating address spaces
-f864a3235ea1d1d714b3cde2d9a810ea6344a7b5 hw/i386/amd_iommu: Isolate AMDVI-PCI from amd-iommu device to allow full control over the PCI device creation
-28931c2e1591deb4bfaaf744fdc8813e96c230f1 hw/i386/amd_iommu: Allow migration when explicitly create the AMDVI-PCI device
-
---===============2217207188176844242==--
+--===============0919216124530388411==--
