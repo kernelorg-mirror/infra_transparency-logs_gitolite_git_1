@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Wed, 14 May 2025 14:20:32 -0000
-Message-Id: <174723243257.2142900.14281308000402639331@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Wed, 14 May 2025 14:22:05 -0000
+Message-Id: <174723252519.2143911.5851412578516877381@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/master
-    old: e254a3059748628f4c7bf664077d73cf9cdc3c85
-    new: a64ab21df3f67def0821f39b215312b810c913d3
+  - ref: refs/heads/ipsec-fixes
+    old: 8949f70fe1951a44aa6400559b709a80b750cebc
+    new: 910e9d1972ce32df4af83f61adc1cef294e313f0
     log: |
-         9848bcd3704d1c0aca582ecb629390470e969f7b patches/next: patches layout cleanup
-         c1967e4722afff7a74fbc8dc244f0c27b438a223 patches/next: wordsmith damon_stat
-         a64ab21df3f67def0821f39b215312b810c913d3 patches/next: rebase to latest mm-new
+         14c944f09f527021ebe8466d8c84ba39e571f44d net/mlx5e: Support routed networks during IPsec MACs initialization
+         c0e0a48c519a137907d7ed87c380a5099c073079 net/mlx5e: Configure initial IPsec SEQ number in non-ESN mode too
+         e82a945954c2697595fc97271a534c70d711bbef net/mlx5e: Don't update neigh entries in IPsec ESN overlap
+         4197322da4768f579764e036f3a219c48ca9fdbc xfrm: prevent configuration of interface index when offload is used
+         910e9d1972ce32df4af83f61adc1cef294e313f0 xfrm: skip templates check for packet offload tunnel mode
          
