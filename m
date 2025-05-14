@@ -1,25 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Wed, 14 May 2025 12:44:13 -0000
-Message-Id: <174722665363.2053800.5730512458239503486@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0245446769086041695=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Wed, 14 May 2025 12:44:30 -0000
+Message-Id: <174722667010.2054247.13853170625627393904@gitolite.kernel.org>
+
+--===============0245446769086041695==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-linux
-user: cem
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/xfs-6.15-fixes
-    old: 9eb3c00fdc45b7467e41c9eb253ef875dc97cbd6
-    new: cc75545fbd13a0b1cdb76c41309080c552d5d8a9
+  - ref: refs/heads/master
+    old: 582376515047353e50628ad20925694dd5c8a6e5
+    new: 7e27b7b7a1a363f9c8b844416bead1f8f1923b58
     log: |
-         ce9473e73824e92bb64b9807d771c8e8ab40d197 xfs: allow ro mounts if rtdev or logdev are read-only
-         0f511a19897471c0898521f28b5e86e3d500a7bf xfs: don't assume perags are initialised when trimming AGs
-         3748581214af3e007cebebc7780a14f30c585425 xfs: free up mp->m_free[0].count in error case
-         6074f25ed988b9c12d20f058d430a672ff30c62f xfs: fix zoned GC data corruption due to wrong bv_offset
-         dcc6c6d39527e30086ebc845a7d78968d49f9023 xfs: Fail remount with noattr2 on a v5 with v4 enabled
-         f65adb4b6c110dce7bb1468c8d0dc503320fc6a5 xfs: Fix a comment on xfs_ail_delete
-         cc75545fbd13a0b1cdb76c41309080c552d5d8a9 xfs: Fix comment on xfs_trans_ail_update_bulk()
+         7e27b7b7a1a363f9c8b844416bead1f8f1923b58 assign CVE-2023-53146 on request
          
+
+--===============0245446769086041695==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1747226597 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1747226669-cd2b80761f31d53bbf2e859cf35c5688714ff1ea
+
+582376515047353e50628ad20925694dd5c8a6e5 7e27b7b7a1a363f9c8b844416bead1f8f1923b58 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgkj+UbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kbAP/ji/tqvVcILS9W24ZV2D
+DrQ9vFV3zsnOgkcFcRLQWxmRyU5DFr3hAGZG5ipoNpYqdOuKwG6K9hzmv9P4Gint
+mO+tqHahXDGKgTovam+kN+VPQcqnMJMxlFXbxMpf9vt8gADBQkPN3OyUsLpRtvO7
+GMpU/gjVnFziLmNpfpMbXqQEfuu8ZJU/byLtpKui27rKoahZdveTrbO6gOnk7nWa
+P97ycEiu55XctPiCHafl2pMqzqqV3W7Vrjh/R3jIsc4K7m/bsvAIawBZX+lTZ2nI
+l0KztvuzZTSvAH4YCVUxdMx8TyV8/aCRJN0YnCno3IV7eF0Y+AJaB/bu5oP4BEhZ
+YhVpsPF2nMZ/p2n7cXf1W5tvOONWOM2DuOBtPH4qYWPSu7FZ/qNqLwJaxQocLiYE
+TsBx5NJJpMrfOP69jDTmBi4yfi9Hg6lKiXrp+iPyM3tQB3TjWaiPhhG51IYh2DTw
+U44hfFk9rIjMcoCrpb3RR04hU6r/JIi+9j88viuesw3ZfE62rbxQojPsMTPDCEEa
+sdMyu0g1/4YbO9PGhK2tXsFq9xPfEHNRRkmckBaiE3mHhYCoI2Bh0tejsCkRxABK
+dwdv1tLWtK3XeTkXVoekdtkvvNmlJI8p4z5wRCIacZ9vYIgtVVAFSV1nG9+Rx0cp
+Bnpg9Ja3pvarbUiB2wk4iJ76
+=zGfT
+-----END PGP SIGNATURE-----
+
+--===============0245446769086041695==--
