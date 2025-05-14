@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1545356640713540385=="
+Content-Type: multipart/mixed; boundary="===============7304767623626795670=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 14 May 2025 12:57:37 -0000
-Message-Id: <174722745753.2067282.13843369477318321352@gitolite.kernel.org>
+Date: Wed, 14 May 2025 12:57:38 -0000
+Message-Id: <174722745861.2067372.9089899616669262234@gitolite.kernel.org>
 
---===============1545356640713540385==
+--===============7304767623626795670==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.15.y
-    old: 304de3b0d54f570c334a26de0d52c89aa9615991
-    new: 40418f9a16b18603cc200ecb595398df0e24ff94
-    log: revlist-304de3b0d54f-40418f9a16b1.txt
+  - ref: refs/heads/linux-5.4.y
+    old: 10e91d74d47382cca4c94d86c5e2a789e8d55349
+    new: 1358b02aa73eddc23af6a358b5881f61c2f944b4
+    log: revlist-10e91d74d473-1358b02aa73e.txt
 
---===============1545356640713540385==
+--===============7304767623626795670==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,85 +32,92 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1747227383 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1747227449-1134b70db46b17c0f70fbea0a2a8d8854327473f
 
-304de3b0d54f570c334a26de0d52c89aa9615991 40418f9a16b18603cc200ecb595398df0e24ff94 refs/heads/linux-5.15.y
+10e91d74d47382cca4c94d86c5e2a789e8d55349 1358b02aa73eddc23af6a358b5881f61c2f944b4 refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgkkvcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vlkP/3ponEn3c7auQDnTzP9N
-uUTAkwOemClc+Q+TjmYwJDT6/RvbRimQAAbQvbP1cA4W7VW17RVi/DsCICEO0uSZ
-RCKY9z2NhFsaCXOdkzhJVB4DuQngsqh30XHBRK46LCnuM2p/eYXkBkjSH0t2Sw3l
-+GIKuxgZatl+fNXAVMlIK+IZyX7AfFdef543hJATDgg2x+tgCgsZNyWKpqC1B9t+
-zrW0+ysdXR1aQzJ01GlwLI2Q+Oa4l6ziaK9IfOjj1x70lNoqk70cg8hxh3OETkMN
-hCMcclUnR00KXKQVfXKYq9hSHXYo4UcXMbuuIy+LCGgMdcrzqzYRGaje7/IY5MBL
-fADLPSzSISadd3FH1CVgJH2XR5GUFpDU8frZPmu3eA6WGHxOydNsg9PKQAHSRbL0
-1v3jVcseT0c1F1M6thIpYCTm6sZGKuNhFi9aTArdzJgl9lyE8hkFX2J7G80A1ofO
-oSlFpCqgmtFno3PK6MRBiM8VTZXzSCrd7C5ewgLr0noQxk/j6D+8zvGGKjp7MalD
-jBPt+lvmACdAyQRQWamQ920IxrG6rY5z4FgX0wmONDqGwhaN6G3RB0F0MfcKTema
-+ARNHzd3bxOR24YJB69daWTHencmHX3QQ1Vk7lo2ih1DeFy4Urfb1HiNHmAur5wc
-kuHbhKqEG7OEUnbLtGvuzbIu
-=z6d6
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3oIP/0db3BiQ3nFulINCW7XO
+OWFmq3GHgX+GWj7MaUEzGaXprPdgmeEB/NViWtPnBTFWWknTbkwssSc7x5qPr4Jx
+L5+X0S9jLPVX+QZG/LN7kQKIwo0AKTLWoDJkeop1NbmOr0rgWzsxG9JQIlU+QLed
+nh1S/y4thCLZ7n9UQXcnz4X+1XGyOAOMgD1vjeX0pyL2EJoyTwb7CCpMAZvRNrsN
+PMW1WzB8i4YhwEv0BQH+AV4YAXAol3Sgon2euMcQlhpCvEBHzwPA/tng0mDCtsOU
+Z/QFAog56BAU3mGfhopBEmzhEu69FlvrCguwX0BhzurjrBkWIaMNSS143+1BKvYK
+NP7QcwkC0Q4v76OQ0cceGzso892mQPV3ebcc4oegG/NwA+CLS6bti9Vgwg7JesIG
+YTQh0WDTvWju5h8XZ9uRaJcLTCqVS04FYGeDHXGWdL+h/M8AvTQ80i1VLw/n3XHJ
+jZuPyBZBnvSYoMRqlYoq1NuKv3UHLRWJ9/DO+rOo8Ip4Ca27cA5er78F5MXg8npi
+VWlRvGOmhg8adQnMTOGtDia+jVDVjf/2KX/Rnv5Lc4Dn16Cp95D3VPDR6YpuFLBC
+D0AE93oNcya9wvuJqXj4MPIO4k4O9wC3MfhTV7nOn1aCpQwIVw/OqODkDMcGgD09
+v1lX28JseQnW+x289ry3mP8O
+=ybNm
 -----END PGP SIGNATURE-----
 
---===============1545356640713540385==
+--===============7304767623626795670==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-304de3b0d54f-40418f9a16b1.txt
+Content-Disposition: attachment; filename=revlist-10e91d74d473-1358b02aa73e.txt
 
-8876d7fde985ae270542275e178883f2c235b947 can: mcan: m_can_class_unregister(): fix order of unregistration calls
-6731ef1aad91fc65cf656af56a48c9a429d36ee1 can: mcp251xfd: mcp251xfd_remove(): fix order of unregistration calls
-009c69e852ae64082480c6605f4140301e861eae openvswitch: Fix unsafe attribute parsing in output_userspace()
-c32d8e0d5797943731419aa60229a1b05f1cd353 gre: Fix again IPv6 link-local address generation.
-f428afbd27c278ddafb35ed53f2da5970a4355d8 can: gw: use call_rcu() instead of costly synchronize_rcu()
-42703c55fdf6893165d45d9c9f6bb97a7565b30b rcu/kvfree: Add kvfree_rcu_mightsleep() and kfree_rcu_mightsleep()
-aec437601bb3dec59093086a572bf1f1a3990ef2 can: gw: fix RCU/BH usage in cgw_create_job()
-3a4e04b2fc1f3d77bf18b185ebbbe04536418d54 netfilter: ipset: fix region locking in hash types
-075887601ece1badaf877d35febefcf0278b76ba net: dsa: b53: allow leaky reserved multicast
-e12b27b4db0bfeb3368e73a2ef1b21eac198c3c1 net: dsa: b53: fix clearing PVID of a port
-0c15b812c90f6b5e6eaf638addc26165389bda1b net: dsa: b53: fix flushing old pvid VLAN on pvid change
-414e4ea3a90230ebb4e145334c626726254ed9ed net: dsa: b53: fix VLAN ID for untagged vlan on bridge leave
-d5f9d6e55f004042b7ef05ed21b1f94f213ced4f net: dsa: b53: always rejoin default untagged VLAN on bridge leave
-46303a34b916b732a94437764301f419a05eb70e net: dsa: b53: fix learning on VLAN unaware bridges
-ae95129c31921553d06e45e6206006c848eb76bf Input: synaptics - enable InterTouch on Dynabook Portege X30-D
-1a73b5c7168518218447a6aa083877a2e31f2f04 Input: synaptics - enable InterTouch on Dynabook Portege X30L-G
-ae1efb056d8c2d4c25a3a4fd138583670490e5a4 Input: synaptics - enable InterTouch on Dell Precision M3800
-10f190da7666bda3ba0922ffdf693b05badb91c8 Input: synaptics - enable SMBus for HP Elitebook 850 G1
-c641cf2a0572ffc4f4150eeb888f7a22d55ae94c Input: synaptics - enable InterTouch on TUXEDO InfinityBook Pro 14 v5
-66ebea369eb98d24f340c98a03930f818fa9be2d staging: iio: adc: ad7816: Correct conditional logic for store mode
-bf5e6ed357065c4e5152345c8c6f6fab7dea062d staging: axis-fifo: Remove hardware resets for user errors
-5d753fe3f14cb686e6c4ac554bbf6cd2953fd78f staging: axis-fifo: Correct handling of tx_fifo_depth for size validation
-b7b68d2205b9cddfff3b6c9bcb04a4c7b6c25c88 x86/mm: Eliminate window where TLB flushes may be inadvertently skipped
-4078074765574409f4f73e103beaaaef25f57a2e iio: adc: ad7606: fix serial register access
-7c28661c829640893edb5ed3279635a3fb9b501d iio: adis16201: Correct inclinometer channel resolution
-b27fb7a99f9402734d8a11884508ea944e071df2 iio: imu: st_lsm6dsx: fix possible lockup in st_lsm6dsx_read_fifo
-1a2f0ef614198b51874da5bd9e7e1847d37bbc6d iio: imu: st_lsm6dsx: fix possible lockup in st_lsm6dsx_read_tagged_fifo
-062285beffc25c86b57ef90610a26ce2120cf092 drm/amd/display: Fix wrong handling for AUX_DEFER case
-b6a9ecba9911b23c151c327832bd85a4e28bbdbc usb: uhci-platform: Make the clock really optional
-ced90a42a0c4c43446681e93c8bf40378f9cbd2f xenbus: Use kref to track req lifetime
-c36e5523e88144e8433485e5bdde5a079c39d324 module: ensure that kobject_put() is safe for module type kobjects
-af2b63e6befae272b5ef8f1280460c4b18ca9df8 ocfs2: switch osb->disable_recovery to enum
-fc5370a46a66c572a57cfe625308ba0d38481ad3 ocfs2: implement handshaking with ocfs2 recovery thread
-bf30835b4e67f845d8c8865c56ba2a066fe54abf ocfs2: stop quota recovery before disabling quotas
-000ec1989f0bb2ffefb837f082910367a4b39ab7 usb: cdnsp: Fix issue with resuming from L1
-9435fb6c2821e258a6c3e4c7ac2cc2de57b47680 usb: cdnsp: fix L1 resume issue for RTL_REVISION_NEW_LPM version
-5e9e5c65fc27b96efd08697d38c4fb2963976631 usb: gadget: tegra-xudc: ACK ST_RC after clearing CTRL_RUN
-32ab26acc2af285af1813f756ef760e1d79dfbda usb: host: tegra: Prevent host controller crash when OTG port is used
-ec6c2738929a9c9b90c994854764792a4b318ed0 usb: typec: tcpm: delay SNK_TRY_WAIT_DEBOUNCE to SRC_TRYWAIT transition
-b4372ab6c763373ae2cf461fdcaf377d6486b349 usb: typec: ucsi: displayport: Fix NULL pointer access
-bbf90b9c131e2765b94495f7c31da5b3844d5403 USB: usbtmc: use interruptible sleep in usbtmc_read
-63208aae43064f9ccbda656194e9f4d0e9d4a5fb usb: usbtmc: Fix erroneous get_stb ioctl error returns
-f69a38cb2d4b188793e2580cad254e87eae5ab76 usb: usbtmc: Fix erroneous wait_srq ioctl return
-e53afd48889e911095d3a6bcc3dc20066ff92bdc usb: usbtmc: Fix erroneous generic_read ioctl return
-b5629f95f72b6c544d2b317fe81af21ec3404265 types: Complement the aligned types with signed 64-bit one
-559e0cae8312fb6f2e32882d3d595dd33c5c35e9 iio: adc: dln2: Use aligned_s64 for timestamp
-eed67bb530a69501fe38be87da6af8c585022641 MIPS: Fix MAX_REG_OFFSET
-25b494302087661bbf40123a0f3a701e7712376a drm/panel: simple: Update timings for AUO G101EVN010
-89cec6455f66e95f141bcf126ea82ecf9771c3d3 nvme: unblock ctrl state transition for firmware update
-1d4e51c3927918c0ad0f65e9b6315ca79773f3fa do_umount(): add missing barrier before refcount checks in sync case
-1b370c12a6122216cd850c220ffc551c9df5024e Revert "net: phy: microchip: force IRQ polling mode for lan88xx"
-da6de15babf71d109fd4b2f529dab26ed27f00fd x86/bpf: Call branch history clearing sequence on exit
-cac78a63c7f71d87a5810b03104b0264d49c9aa0 x86/bpf: Add IBHF call at end of classic BPF
-88dbdb44d78394137689687ec4cd108857d51bb0 x86/bhi: Do not set BHI_DIS_S in 32-bit mode
-40418f9a16b18603cc200ecb595398df0e24ff94 Linux 5.15.183-rc1
+3653c8fa8aa585113bc0aeb3b9bf6392d9c0070f EDAC/altera: Test the correct error reg offset
+9f1ffbf90d42521785ed076ae1c3428c62336d7a EDAC/altera: Set DDR and SDMMC interrupt mask before registration
+b137f75dc974d4d42749c7a5a8332e1a7c31ec41 i2c: imx-lpi2c: Fix clock count when probe defers
+aacce53c4f8e04bc4cc54174756fda96edef3712 parisc: Fix double SIGFPE crash
+2fc5cbe8419204ea99474c68238d7504b8c6267c amd-xgbe: Fix to ensure dependent features are toggled with RX checksum offload
+c2eb291e1c265eec6b598e0dd8f251bfc89a7255 wifi: brcm80211: fmac: Add error handling for brcmf_usb_dl_writeimage()
+cbd23924d1f79e705a68df927700570efdac9206 dm-integrity: fix a warning on invalid table line
+5eca6109c62453423c5ee367690a8f4be8da4367 dm: always update the array size in realloc_argv on success
+36d6447559611fa2d678827fd5aadc906bc6758a tracing: Fix oob write in trace_seq_to_buffer()
+7f32acee735bd79efe9902cfff96a170f9c52982 net/mlx5: E-Switch, Initialize MAC Address for Default GID
+27e363a78949bb305750b7ddc2277374222e6e5f net_sched: drr: Fix double list add in class with netem as child qdisc
+d377178fbaeb4b341e7a3fc5f37fae449b556fd4 net_sched: hfsc: Fix a UAF vulnerability in class with netem as child qdisc
+51d4647152ca779ff267a460d165c94e48ed2bad net_sched: qfq: Fix double list add in class with netem as child qdisc
+02ff37f62e4d38f576e13e09c55a4bc15f596fda net: dlink: Correct endianness handling of led_mode
+62aedb93ab72110300672546f7c5e346681ef9b7 nvme-tcp: fix premature queue removal and I/O failover
+6b3570784e4adc62e5d7350f3d0b114086e2a506 lan743x: remove redundant initialization of variable current_head_index
+13560638c8d83e673ba5389a6f6d253892df90b3 lan743x: fix endianness when accessing descriptors
+0f0d1cb52f8d87c12d0e0975d5565ec3c031f74f net: lan743x: Fix memleak issue when GSO enabled
+92adc976dc7cf558aa8d201a31504dfedcc02332 net: fec: ERR007885 Workaround for conventional TX
+ecd91d3a00f29df9601306294fa604fe11b15fd3 PCI: imx6: Skip controller_id generation logic for i.MX7D
+d5622b1f0aecc2d37058f4d18b1e65688b38f5cd of: module: add buffer overflow check in of_modalias()
+2764a20734e2c07858c06e8de0546abb3564ce3b sch_htb: make htb_qlen_notify() idempotent
+334114ae6144d5f7aec556033e4c25c442fae61a irqchip/gic-v2m: Add const to of_device_id
+19c2cce451a062377ffd924494eadb3afa124208 irqchip/gic-v2m: Mark a few functions __init
+7e05ccc700eb791a6bb51b1df8e6c7b1a8337cd2 irqchip/gic-v2m: Prevent use after free of gicv2m_get_fwnode()
+769c19bb400c4702c553fb35d7ff496bf723aaeb usb: chipidea: imx: change hsic power regulator as optional
+123b3c4efa3df2d44f0675c5fdc7386bee3b56e0 usb: chipidea: imx: refine the error handling for hsic
+82c8e420393d0c67030241906106d1645ff150f4 usb: chipidea: ci_hdrc_imx: use dev_err_probe()
+a1f9afd84742f3ba74f8fba5e00302ae49a28174 usb: chipidea: ci_hdrc_imx: implement usb_phy_init() error handling
+07970a232c4d0a4721a787eee9d59806576abab1 arm64: dts: rockchip: fix iface clock-name on px30 iommus
+7d69107a94f905f2b6ff484465fedefef8481db0 iommu/amd: Fix potential buffer overflow in parse_ivrs_acpihid
+bd0abfa1d95914774fdbb61dc4e760e34baeba9c dm: fix copying after src array boundaries
+55b0f5b97b11934ff9deb075bf6ed98e36b2c40a scsi: target: Fix WRITE_SAME No Data Buffer crash
+0dc9fb5dc2fd37fb5e2d7f588200d06636df4a43 sch_htb: make htb_deactivate() idempotent
+f9910893dcc47dae61df314c16bc842fb0fb681c netfilter: ipset: fix region locking in hash types
+eaa1bc8d2df3d685a58515aa702542d626d3aaaa net: dsa: b53: fix learning on VLAN unaware bridges
+bd0400d401de1a67eee45447b6db056ef4d7f41c Input: synaptics - enable InterTouch on Dynabook Portege X30-D
+10c7788182e9ef0266c7d422555e47c264704f30 Input: synaptics - enable InterTouch on Dynabook Portege X30L-G
+919252da5077a20d02f979b7ce85f6fc71b0c96f Input: synaptics - enable InterTouch on Dell Precision M3800
+5bf4d7ed341fb20b94cf78fdc35e3fd669be423d staging: iio: adc: ad7816: Correct conditional logic for store mode
+85790656ddd859944b998f7894f65f481ed677a2 iio: adc: ad7606: fix serial register access
+d595041e7fcdb0cb3975a98e330f577a0b9a7388 iio: adis16201: Correct inclinometer channel resolution
+4bb08c62b504bef72032d7ccd53bee62174ed1f3 iio: imu: st_lsm6dsx: fix possible lockup in st_lsm6dsx_read_fifo
+0c355e278e15975ff9893ee16ce3c9e1e4d5c796 iio: imu: st_lsm6dsx: fix possible lockup in st_lsm6dsx_read_tagged_fifo
+e0ce912172a6ff9c6932b8b90aa458e55a79ba8e usb: uhci-platform: Make the clock really optional
+113fd9ec8b55dbb12e2d38bb88a3068a0d83576b xenbus: Use kref to track req lifetime
+92311c164d724c7dc1fba8802d1ed35ae5f453ad module: ensure that kobject_put() is safe for module type kobjects
+3c0b93ca93d14c135e84f92f162ea28910a2a7f7 ocfs2: switch osb->disable_recovery to enum
+122f37ec2dbe71297ea30de4519ea25427f81bd9 ocfs2: implement handshaking with ocfs2 recovery thread
+9ad1d4f59fe14a10662deaa1c22e3ee63066890b ocfs2: stop quota recovery before disabling quotas
+f4fc703069eb18319af7b28aea77ea9208b49dcc usb: typec: tcpm: delay SNK_TRY_WAIT_DEBOUNCE to SRC_TRYWAIT transition
+3ffc29282a3387ee71f678c6f6bce06480d65adf usb: typec: ucsi: displayport: Fix NULL pointer access
+f1e2bdb7216b3501e28ce60d98006920f457db67 USB: usbtmc: use interruptible sleep in usbtmc_read
+700d5161d0eb2814ab8ab42a0679c8a6f327c542 usb: usbtmc: Fix erroneous get_stb ioctl error returns
+5331379e00809f781979a632e3b9cd8f3b9318c9 usb: usbtmc: Fix erroneous wait_srq ioctl return
+37681dfa6dc8f3de922fbff0e666b0ffa1e42a35 usb: usbtmc: Fix erroneous generic_read ioctl return
+b3a9b531d48f41438e10838e2676a48d5c61c1f0 types: Complement the aligned types with signed 64-bit one
+5a5821eeb5f09e8c93c5fc2c95c82c6cc4fd09c5 iio: adc: dln2: Use aligned_s64 for timestamp
+45c2dfd256d9dbd635654c5c890a7a59d72aee4a MIPS: Fix MAX_REG_OFFSET
+0e6b8fb86afd29e357f60166faf2bab4e3fc03dd nvme: unblock ctrl state transition for firmware update
+a52ee1ab570fe25b979afe9eeafd414da543fd87 do_umount(): add missing barrier before refcount checks in sync case
+1358b02aa73eddc23af6a358b5881f61c2f944b4 Linux 5.4.294-rc1
 
---===============1545356640713540385==--
+--===============7304767623626795670==--
