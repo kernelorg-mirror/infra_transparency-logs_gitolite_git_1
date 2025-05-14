@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 14 May 2025 22:59:20 -0000
-Message-Id: <174726356016.2590472.3293912154043675070@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
+Date: Wed, 14 May 2025 23:05:25 -0000
+Message-Id: <174726392567.2597463.8590526959492769385@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
+user: chunkuang.hu
 changes:
-  - ref: refs/heads/master
-    old: 7bbfacb63166938b4323102237f0ea69e2e65b0b
-    new: 9373083db140fc68e5f1ae313fd946549abdc471
+  - ref: refs/heads/mediatek-drm-next
+    old: 587f6ac1f5b6d37c1891229446a7065f981a1c3b
+    new: 22918591fb747a6d16801e74a170cf98e886f83b
     log: |
-         9373083db140fc68e5f1ae313fd946549abdc471 foo
+         22918591fb747a6d16801e74a170cf98e886f83b drm/mediatek: mtk_drm_drv: Fix kobject put for mtk_mutex device ptr
          
