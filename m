@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Wed, 14 May 2025 12:52:09 -0000
-Message-Id: <174722712916.2062117.4040854128340830719@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 14 May 2025 12:53:35 -0000
+Message-Id: <174722721597.2062909.6317492228096036907@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: acme
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: ef60b8f5724da364500ddb7b8240c157ea65075e
-    new: 3bab0e7c81e558ea4117617ea1d94310aed122a9
-    log: |
-         787f6300ed60ffcf5156ad904bfbc4e237299740 perf evlist: Make uniquifying counter names consistent
-         8b455d3aef20db2699d3c3b24efddf96b0d75d8f perf parse-events: Use wildcard processing to set an event to merge into
-         3bab0e7c81e558ea4117617ea1d94310aed122a9 perf test: Add stat uniquifying test
-         
+  - ref: refs/heads/fileo7S31J
+    old: 0000000000000000000000000000000000000000
+    new: 9cfdd7752ba5f8cc9b8191e8c9aeeec246241fa4
