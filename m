@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3620153415927081832=="
+Content-Type: multipart/mixed; boundary="===============8235233803304068717=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Thu, 15 May 2025 18:36:35 -0000
-Message-Id: <174733419510.3765419.13290822099872755899@gitolite.kernel.org>
+Date: Thu, 15 May 2025 18:36:42 -0000
+Message-Id: <174733420263.3765678.844227976338026628@gitolite.kernel.org>
 
---===============3620153415927081832==
+--===============8235233803304068717==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfs-testing
-    old: a6fe1f1d8fbbb9c3142032863e88f9e546540104
-    new: fb6a51ddf1226677f42fdf83c98016047b998a25
-    log: revlist-a6fe1f1d8fbb-fb6a51ddf122.txt
+  - ref: refs/heads/kernel-6.12.24/main
+    old: 1f78f141395dea403c94ca2e8bc0d59ef9c2226a
+    new: d826808108226ff43dbe73a2d55b2f23a0ef2e99
+    log: revlist-1f78f141395d-d82680810822.txt
 
---===============3620153415927081832==
+--===============8235233803304068717==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a6fe1f1d8fbb-fb6a51ddf122.txt
+Content-Disposition: attachment; filename=revlist-1f78f141395d-d82680810822.txt
 
 3e244bb8bf78a90e859f0c461929119be64bb935 NFS: Avoid flushing data while holding directory locks in nfs_rename()
 d9ae3946dcde10aefb1efcbe2626f157c749a0ea NFSv4/pnfs: Reset the layout state after a layoutreturn
@@ -37,5 +37,13 @@ e050f2c3e0b6426fddeae621ee84f4f58f1922f7 NFS: always probe for LOCALIO support a
 e89dfbef976b4ebb1adfcf30d387ceca98ee91c4 NFS: add RWF_DONTCACHE support to LOCALIO
 7480eb46bcb90b04f5af42339a2e8e20e8ce0cd4 NFSD: allow dontcache to be enabled on a per-export basis
 fb6a51ddf1226677f42fdf83c98016047b998a25 NFSD: add the ability to enable use of RWF_DONTCACHE for all nfsd IO
+79c457500bedd5550daafab193769b3852cece89 Merge branch 'kernel-6.12.24/nvme' into kernel-6.12.24/main
+889b8773188f26ee00c3cb4af4e30c198cf0a8c3 Merge branch 'kernel-6.12.24/localio' into kernel-6.12.24/main
+2897c782c7d32cead88ec3d922c99585d9a47d82 Merge branch 'kernel-6.12.24/nfs' into kernel-6.12.24/main
+38e5cee0248b490710e3e23f538f40573f5ee875 Merge branch 'kernel-6.12.24/dontcache' into kernel-6.12.24/main
+43a346a63832cdaad67d1c6156ad220ee2adc7bd Merge branch 'kernel-6.12.24/nfs-testing' into kernel-6.12.24/main
+cba07b197ac70bae9caf4a4167c40a0894ae72a7 kernel-6.12.24-1
+1b117ab1e7ebbcc6f2f9eebf453f449a2f18e3f0 kernel-6.12.24-2
+d826808108226ff43dbe73a2d55b2f23a0ef2e99 kernel-6.12.24-3
 
---===============3620153415927081832==--
+--===============8235233803304068717==--
