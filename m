@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Thu, 15 May 2025 10:45:48 -0000
-Message-Id: <174730594812.3226541.5684887305148248060@gitolite.kernel.org>
+Date: Thu, 15 May 2025 10:47:58 -0000
+Message-Id: <174730607899.3227612.13199391894638055218@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,19 +11,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tiwai/sound
 user: tiwai
 changes:
-  - ref: refs/heads/for-linus
-    old: 66e48ef6ef506c89ec1b3851c6f9f5f80b5835ff
-    new: 7b9938a14460e8ec7649ca2e80ac0aae9815bf02
+  - ref: refs/heads/for-next
+    old: eef5bccfb1b7751ce5368739ec0b1b1d14849552
+    new: 1c4193917eb3279788968639f24d72ffeebdec6b
     log: |
-         9e000f1b7f31684cc5927e034360b87ac7919593 ALSA: es1968: Add error handling for snd_pcm_hw_constraint_pow2()
-         7b9938a14460e8ec7649ca2e80ac0aae9815bf02 ALSA: usb-audio: Add sample rate quirk for Microdia JP001 USB Camera
+         494475e5e1c11efa77979e421ee7a3d8e5e8f304 dt-bindings: Update Tegra194 and Tegra234 HDA bindings
+         3bc2f3ba7b4d81523f89dfa369edb56507bd63e6 dt-bindings: Document Tegra264 HDA Support
+         1c4193917eb3279788968639f24d72ffeebdec6b ALSA: hda/tegra: Add Tegra264 support
          
   - ref: refs/heads/master
-    old: 24ddb2dd9d4a2096ec45ca5c4e5274da28e4faa3
-    new: a19a89af3ccb24bbe64a4152f16b93f7604acfd4
+    old: a19a89af3ccb24bbe64a4152f16b93f7604acfd4
+    new: 62b435cc260027280b31e045724390265407a4fb
     log: |
-         9e000f1b7f31684cc5927e034360b87ac7919593 ALSA: es1968: Add error handling for snd_pcm_hw_constraint_pow2()
-         8f02a6752ed7588979a1fd8c85199ca1c50e9021 Merge branch 'for-linus'
-         7b9938a14460e8ec7649ca2e80ac0aae9815bf02 ALSA: usb-audio: Add sample rate quirk for Microdia JP001 USB Camera
-         a19a89af3ccb24bbe64a4152f16b93f7604acfd4 Merge branch 'for-linus'
+         494475e5e1c11efa77979e421ee7a3d8e5e8f304 dt-bindings: Update Tegra194 and Tegra234 HDA bindings
+         3bc2f3ba7b4d81523f89dfa369edb56507bd63e6 dt-bindings: Document Tegra264 HDA Support
+         1c4193917eb3279788968639f24d72ffeebdec6b ALSA: hda/tegra: Add Tegra264 support
+         62b435cc260027280b31e045724390265407a4fb Merge branch 'for-next'
          
