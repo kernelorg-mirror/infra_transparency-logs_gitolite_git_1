@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Thu, 15 May 2025 18:49:37 -0000
-Message-Id: <174733497733.3777116.10070841289885187354@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Thu, 15 May 2025 18:57:42 -0000
+Message-Id: <174733546210.3784318.17378867467972813497@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arighi/linux
-user: arighi
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/scx-select-cpu-and
-    old: 7923c32c48447947048617bf129fbbbfff81b542
-    new: c8ad666ef5c32bf6b0089ec5a0e67c9560b72bbf
+  - ref: refs/heads/nfsd-testing
+    old: 4e8a7b9e061752ab862e39b7c5497af077c41f5a
+    new: afd5de3042dfa3aed96774892aeee7f5592a1046
     log: |
-         50e4703c0592617e9c7fd71c407d44351ff8cf0d sched_ext: Make scx_kf_allowed_if_unlocked() available outside ext.c
-         11d56955c96d411d8681f824aa4ccb4b1a38e4d8 sched_ext: idle: Validate locking correctness in scx_bpf_select_cpu_and()
-         bf8da7cc6896a7d6ae699a2af56c7c9ad3d7ed8d sched_ext: idle: Allow scx_bpf_select_cpu_and() from unlocked context
-         c8ad666ef5c32bf6b0089ec5a0e67c9560b72bbf selftests/sched_ext: Add test for scx_bpf_select_cpu_and() via test_run
+         4fd18336764aaf01a0b7d61a11c496c0dd58e0ca NFSD: Offer write delegation for OPEN with OPEN4_SHARE_ACCESS_WRITE
+         65de35b2b4b5cff421f48e638010a2f8cecbc62e NFSD: release read access of nfs4_file when a write delegation is returned
+         cee96da0c08381059771458ad46c00ed7fabfcd8 sunrpc: simplify xdr_init_encode_pages
+         9a5441cbb8a1259d62bdf11deed77c172f766c23 sunrpc: simplify xdr_partial_copy_from_skb
+         afd5de3042dfa3aed96774892aeee7f5592a1046 sunrpc: unexport csum_partial_copy_to_xdr
          
