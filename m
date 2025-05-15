@@ -1,58 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============8861530069553238916=="
+Content-Type: multipart/mixed; boundary="===============2700773606968265263=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 15 May 2025 08:16:06 -0000
-Message-Id: <174729696656.3091635.3863311102352593293@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/fuse
+Date: Thu, 15 May 2025 08:24:35 -0000
+Message-Id: <174729747595.3097663.12507062113599192207@gitolite.kernel.org>
 
---===============8861530069553238916==
+--===============2700773606968265263==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/mszeredi/fuse
+user: mszeredi
 changes:
-  - ref: refs/heads/master
-    old: db7ea05e968fdb702fa2baf7164b045211099338
-    new: 04bdd560124ec4d02d1d11ee3abc88d51954d7b8
-    log: revlist-db7ea05e968f-04bdd560124e.txt
-  - ref: refs/heads/tip/urgent
-    old: c5d64ea997575868a60c3c2d36f2aefdf7d3d4e4
-    new: 9b0ad9ab1abfe1d3f2dceb8129de1da3c4b71157
-    log: |
-         6f7bb37ae8a8c51a51b8ff8115736511e5ce13a0 Merge branch into tip/master: 'irq/urgent'
-         9b0ad9ab1abfe1d3f2dceb8129de1da3c4b71157 Merge branch into tip/master: 'x86/urgent'
-         
+  - ref: refs/heads/for-next
+    old: 3a7d67252c63e6e0167f7ff4f5f5a035f2e8c9c8
+    new: 0100c9414c29b7fc3a1c784cfd7f011a9c7b6370
+    log: revlist-3a7d67252c63-0100c9414c29.txt
 
---===============8861530069553238916==
+--===============2700773606968265263==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-db7ea05e968f-04bdd560124e.txt
+Content-Disposition: attachment; filename=revlist-3a7d67252c63-0100c9414c29.txt
 
-6f7bb37ae8a8c51a51b8ff8115736511e5ce13a0 Merge branch into tip/master: 'irq/urgent'
-9b0ad9ab1abfe1d3f2dceb8129de1da3c4b71157 Merge branch into tip/master: 'x86/urgent'
-2ba997ae837271aebaa589d5c44d27fb8f272bce Merge branch into tip/master: 'perf/merge'
-4641a1f5fcf444123077cad887ce0b610bae13ce Merge branch into tip/master: 'core/entry'
-d999d368985ce089a0cadfeb321e3e22356b2d38 Merge branch into tip/master: 'irq/cleanups'
-ab785650aa8edac728bebe3c1e3ac8f0592321a4 Merge branch into tip/master: 'irq/core'
-132ffa9f3ad06b140ae8657a7a46ac24d00244b4 Merge branch into tip/master: 'irq/drivers'
-fe49f25b17d42f1d24d631a9de8593507e16b4d1 Merge branch into tip/master: 'irq/msi'
-a7ba5791c2e5fee485e6ea2eeb86f29ef87797d8 Merge branch into tip/master: 'locking/core'
-de7ee5dee7d8f865012c786a872529cb93ca16d0 Merge branch into tip/master: 'locking/futex'
-fb4ef2053e73f62a5ae6195eca52fe66697d6fb1 Merge branch into tip/master: 'objtool/core'
-a99894ac14eb2ee46e82c228f7bb7cdb716f15bb Merge branch into tip/master: 'sched/core'
-0cb8cc8e947ae3304a88005f1224e60ae8c9904f Merge branch into tip/master: 'timers/cleanups'
-dad4801d5f812a6f3e2a01b45f89a1e18236c18b Merge branch into tip/master: 'timers/core'
-c71f9bc83dc402c6cc626b88fbbe8477c6ff8240 Merge branch into tip/master: 'x86/cleanups'
-4d43bd166125d23d1fbaeaa9154579c8257f2f6e Merge branch into tip/master: 'x86/core'
-e089fa7403b525aa0d3a51e1a6bbbaeb2b4debf4 Merge branch into tip/master: 'x86/entry'
-8a4bfcbee126b17f9c410708de0e8941dae754fe Merge branch into tip/master: 'x86/kconfig'
-81e00a01ca339296616b7111aa35ebff577f2adf Merge branch into tip/master: 'x86/mtrr'
-61e94712bb249fbbb8678efebdee1e5876b8fa20 Merge branch into tip/master: 'x86/sev'
-04bdd560124ec4d02d1d11ee3abc88d51954d7b8 Merge branch into tip/master: 'x86/sgx'
+f09222980d775199de2f5d739cf453f7bf39aa4a fs: fuse: add dev id to /dev/fuse fdinfo
+c9401735764dcc058ce322daf6e3c9e7909812eb fuse: support copying large folios
+f85c5c623f4a1b9e18a1f1d68fc96a78dfcceea8 fuse: support large folios for retrieves
+7fb2d7ffa7f1c400b28b748febb08eed2078e4c1 fuse: refactor fuse_fill_write_pages()
+a0d93a637b35b18e2ff2e3548992b73986ce2722 fuse: support large folios for writethrough writes
+1dd3e7e4f4aef6d36e52adae29a8877e66868c0c fuse: support large folios for folio reads
+d9c4989237b2d659bca63def1216f166f432ce52 fuse: support large folios for symlinks
+0a347526cf6ed34e544e4582a6cc254db1f32769 fuse: support large folios for stores
+8c847f264f316bb232d79574811dd98e27260b98 fuse: support large folios for queued writes
+27d9576c095fdb4399ad9e4c73f652d2d7b6e765 fuse: support large folios for readahead
+d08f284bf2754715eb9b6f745d1167503dc8e62a fuse: support large folios for writeback
+1dab57e58dba9fe44cea6068a9e5a152af3732df fuse: don't allow signals to interrupt getdents copying
+836f37939290cfbaa6c898af65f3a9a9966b1c37 readdir: supply dir_context.count as readdir buffer size hint
+0100c9414c29b7fc3a1c784cfd7f011a9c7b6370 fuse: increase readdir buffer size
 
---===============8861530069553238916==--
+--===============2700773606968265263==--
