@@ -1,50 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============1516084611914626343=="
+Content-Type: multipart/mixed; boundary="===============1387662851354764366=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Thu, 15 May 2025 12:27:54 -0000
-Message-Id: <174731207494.3360745.10660479730237582265@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
+Date: Thu, 15 May 2025 12:29:45 -0000
+Message-Id: <174731218573.3362298.13102349892060755543@gitolite.kernel.org>
 
---===============1516084611914626343==
+--===============1387662851354764366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/mingo/tip
+user: mingo
 changes:
-  - ref: refs/heads/master
-    old: c94d59a126cb9a8d1f71e3e044363d654dcd7af8
-    new: 088d13246a4672bc03aec664675138e3f5bff68c
-    log: revlist-c94d59a126cb-088d13246a46.txt
+  - ref: refs/heads/WIP.core/bugs
+    old: c20f0cdfac4f1df6bc5aa39a9f69a515ebf80d64
+    new: b761167f48542aa8ab47e69c7d111850a3781f74
+    log: revlist-c20f0cdfac4f-b761167f4854.txt
 
---===============1516084611914626343==
+--===============1387662851354764366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c94d59a126cb-088d13246a46.txt
+Content-Disposition: attachment; filename=revlist-c20f0cdfac4f-b761167f4854.txt
 
-9520a2b3f0b5e182f73410e45b9b92ea51d9b828 kbuild: Require pahole <v1.28 or >v1.29 with GENDWARFKSYMS on X86
-56045757accf5a51c9146585acd5f76fa4fbdb97 usr/include: openrisc: don't HDRTEST bpf_perf_event.h
-657f96cb7c06a2ef85d166f1b055baeb6511c324 kbuild: deb-pkg: Add libdw-dev:native to Build-Depends-Arch
-5bd6bdd0f76e257c029ff34100f2959cd4992486 kbuild: rpm-pkg: Add (elfutils-devel or libdw-devel) to BuildRequires
-d0afcfeb9e3810ec89d1ffde1a0e36621bb75dca kbuild: Disable -Wdefault-const-init-unsafe
-ab09da75700e9d25c7dfbc7f7934920beb5e39b9 um: let 'make clean' properly clean underlying SUBARCH as well
-d1b99cdf22e0416440265166824ebabfcb5f1afa init: remove unused CONFIG_CC_CAN_LINK_STATIC
-f0e4b333cf67b3d5da56bd01a125f45c102f7d27 kbuild: fix dependency on sorttable
-020d7f14489b8bc38c6bd4c5b3c25262e8b6de63 Revert "kbuild: make all file references relative to source root"
-8cf5b3f836147d8d4e7c6eb4c01945b97dab8297 Revert "kbuild, rust: use -fremap-path-prefix to make paths relative"
-e0cd396d899805d56df91b989f8efad3a36df0da kbuild: fix typos "module.builtin" to "modules.builtin"
-54db6d1bdd71fa90172a2a6aca3308bbf7fa7eb5 btrfs: fix discard worker infinite loop after disabling discard
-a0fd1c6098633f9a95fc2f636383546c82b704c3 btrfs: fix folio leak in submit_one_async_extent()
-4ce2affc6ef9f84b4aebbf18bd5c57397b6024eb btrfs: add back warning for mount option commit values exceeding 300
-74a6325597464e940a33e56e98f6899ef77728d8 Merge tag 'for-6.15-rc6-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-539fbab37881e32ba6a708a100de6db19e1e7e7d tpm: Mask TPM RC in tpm2_start_auth_session()
-32d495b384a2db7d23c2295e03e6b6edb1c0db8d char: tpm: tpm-buf: Add sanity check fallback in read helpers
-2f661f71fda1fc0c42b7746ca5b7da529eb6b5be tpm: tis: Double the timeout B to 4s
-546bce579204685a0b204beebab98c3aa496e651 Merge tag 'tpmdd-next-6.15-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-088d13246a4672bc03aec664675138e3f5bff68c Merge tag 'kbuild-fixes-v6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+d3acce455fb1ec94751f732b0dce0c166b521c4e bugs/core: Introduce the CONFIG_DEBUG_BUGVERBOSE_DETAILED Kconfig switch
+365640dea1fad8868cfc01ca1613146523bc6604 bugs/x86: Extend _BUG_FLAGS() with the 'cond_str' parameter
+df4ce97886991700efc3a39f4efc5c1c02a27299 bugs/x86: Augment warnings output by concatenating 'cond_str' with the regular __FILE__ string in _BUG_FLAGS()
+07bdde0e205bd07a1999770d50926f3ba3932a79 bugs/powerpc: Pass in 'cond_str' to BUG_ENTRY()
+720be9e1541804d81637bef343a7ae7ae04683db bugs/powerpc: Concatenate 'cond_str' with '__FILE__' in BUG_ENTRY(), to extend WARN_ON/BUG_ON output
+e618b41bec40b7373d2d0d9d8865b16191bb38f1 bugs/LoongArch: Pass in 'cond_str' to __BUG_ENTRY()
+17fd4a446ef30eb9afc7d0f72f5bc94ecc4b5c39 bugs/LoongArch: Concatenate 'cond_str' with '__FILE__' in __BUG_ENTRY(), to extend WARN_ON/BUG_ON output
+a4be8e8b01d390df275284cb6de577eabbcc7a5a bugs/s390: Pass in 'cond_str' to __EMIT_BUG()
+182d035e49bf8da991f5d18f61a1b9ac0bf9ab49 bugs/riscv: Pass in 'cond_str' to __BUG_FLAGS()
+9dac4ceb12fe9d458f88f2dab38826d5d5a71e84 bugs/riscv: Concatenate 'cond_str' with '__FILE__' in __BUG_FLAGS(), to extend WARN_ON/BUG_ON output
+e9f6c41c6f851e7e01cde4719b5aaaa2f178b49e bugs/parisc: Concatenate 'cond_str' with '__FILE__' in __WARN_FLAGS(), to extend WARN_ON/BUG_ON output
+5e3cf8cf86ea80c0ca56e76b159d7d0371cccc57 bugs/sh: Concatenate 'cond_str' with '__FILE__' in __WARN_FLAGS(), to extend WARN_ON/BUG_ON output
+43eec1a6168b598a7b4cd971cdbc2cf6ab08bed3 bugs/core: Reorganize fields in the first line of WARNING output, add ->comm[] output
+b761167f48542aa8ab47e69c7d111850a3781f74 bugs/core: Test WARN_ON_ONCE()
 
---===============1516084611914626343==--
+--===============1387662851354764366==--
