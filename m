@@ -1,23 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 15 May 2025 14:23:39 -0000
-Message-Id: <174731901966.3497635.902115080593568360@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 15 May 2025 14:25:13 -0000
+Message-Id: <174731911327.3500441.14351018402322266053@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: 0fa0aa4dfcd5328c1eae53ac47f541e8e08461d9
-    new: 3b84e78259e5c024e1c54d20bb5f69beb19930e3
+  - ref: refs/heads/main
+    old: 325eb217e41fa14f307c7cc702bd18d0bb38fe84
+    new: 3933536c877e159063bf9521ac8ad1f12fe19db5
     log: |
-         91c2685430f217ae8f2866e4372948eaf123b5c4 ASoC: mediatek: mt8183-afe-pcm: Shorten memif_data table using macros
-         0be889823f93429dab396cb7ac061d02046bd962 ASoC: mediatek: mt8183-afe-pcm: Shorten irq_data table using macros
-         29552dcc044a233be84ab9b64539fdc7d8f4314e ASoC: mediatek: mt8183-afe-pcm: shorten mt8183_is_volatile_reg()
-         a9fa13105b2ee9291c4fbbc7259fdec41dd42990 ASoC: mediatek: mt8183-afe-pcm: Shorten source code
-         3b84e78259e5c024e1c54d20bb5f69beb19930e3 Merge remote-tracking branch 'asoc/for-6.16' into asoc-next
+         78ab4be549533432d97ea8989d2f00b508fa68d8 wifi: mt76: disable napi on driver removal
+         0aa8496adda570c2005410a30df963a16643a3dc wifi: mt76: mt7925: fix missing hdr_trans_tlv command for broadcast wtbl
+         82bbe02b2500ef0a62053fe2eb84773fe31c5a0a wifi: mac80211: Set n_channels after allocating struct cfg80211_scan_request
+         943aeda0d75a24038723414dff6f63e337821197 Merge tag 'mt76-fixes-2025-05-15' of https://github.com/nbd168/wireless
+         3933536c877e159063bf9521ac8ad1f12fe19db5 Merge tag 'wireless-2025-05-15' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
          
