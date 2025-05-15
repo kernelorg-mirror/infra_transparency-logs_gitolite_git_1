@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8262691242137166954=="
+Content-Type: multipart/mixed; boundary="===============0007615858231104076=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Thu, 15 May 2025 11:50:25 -0000
-Message-Id: <174730982553.3290032.4373787812504756902@gitolite.kernel.org>
+Date: Thu, 15 May 2025 11:51:51 -0000
+Message-Id: <174730991190.3290858.4552964793542304886@gitolite.kernel.org>
 
---===============8262691242137166954==
+--===============0007615858231104076==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,31 +16,31 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: ij
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/review-ilpo-next
-    old: e636e3f7421b2ff8e706a835f78f071cb0d8e197
-    new: 90b85567e45736b662d034be536a76ba0f4c7ca8
+  - ref: refs/heads/review-ilpo-fixes
+    old: a7e255ff9fe4d9b8b902023aaf5b7a673786bb50
+    new: 4e89a4077490f52cde652d17e32519b666abf3a6
     log: |
-         90b85567e45736b662d034be536a76ba0f4c7ca8 platform/x86: Add AMD ISP platform config for OV05C10
+         4e89a4077490f52cde652d17e32519b666abf3a6 platform/x86: dell-wmi-sysman: Avoid buffer overflow in current_password_store()
          
 
---===============8262691242137166954==
+--===============0007615858231104076==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1747309855 +0300
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1747309941 +0300
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1747309822-b9081eb7615b1dd806df0318684edd907e49688b
+nonce 1747309908-7e618899e53a9c3988ef67ac356413d36538580e
 
-e636e3f7421b2ff8e706a835f78f071cb0d8e197 90b85567e45736b662d034be536a76ba0f4c7ca8 refs/heads/review-ilpo-next
+a7e255ff9fe4d9b8b902023aaf5b7a673786bb50 4e89a4077490f52cde652d17e32519b666abf3a6 refs/heads/review-ilpo-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaCXVIAAKCRBZrE9hU+XO
-MQTiAP971GVX7t6CDcyIYK1Mt9yyq5pwCBcRnOCBrh7gNOrmWwEA+2xZa8C3ZnAB
-oJb8sRfZsYFRghxBUdhxDo/aadqJCgE=
-=05TS
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaCXVdgAKCRBZrE9hU+XO
+MeFiAP9k+0CmtAtYen6Zmsfk8slJTNe9r0gQahJb3WFtxUMuPwD/fBIKE9GFh3J0
+6lf88cz/MEXIitdK0j37ZqUbRcM7OgU=
+=JlpC
 -----END PGP SIGNATURE-----
 
---===============8262691242137166954==--
+--===============0007615858231104076==--
