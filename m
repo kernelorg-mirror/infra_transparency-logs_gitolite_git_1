@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 15 May 2025 15:06:19 -0000
-Message-Id: <174732157990.3539465.3010208139494567597@gitolite.kernel.org>
+Date: Thu, 15 May 2025 15:06:31 -0000
+Message-Id: <174732159150.3539867.16506712348533114774@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -9,11 +9,11 @@ Content-Transfer-Encoding: 7bit
 ---
 service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+user: tglx
 changes:
-  - ref: refs/heads/x86/core
-    old: 25219c2578b32c96087569d074e32c8ae634d602
-    new: 1adf711919de7c9e1b281a4d9cd9e3a81f3a70f7
+  - ref: refs/heads/irq/drivers
+    old: f1a3fac4095c7bc0b30e2aa9921c232af8faeae0
+    new: 3e402acd5c4f9d447849b9bfb5a5c61f10668b7e
     log: |
-         1adf711919de7c9e1b281a4d9cd9e3a81f3a70f7 x86/mm: Fix kernel-doc descriptions of various pgtable methods
+         3e402acd5c4f9d447849b9bfb5a5c61f10668b7e irqchip/irq-pruss-intc: Simplify chained interrupt handler setup
          
