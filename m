@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Thu, 15 May 2025 08:49:26 -0000
-Message-Id: <174729896638.3119074.12214828198319593289@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Thu, 15 May 2025 08:51:04 -0000
+Message-Id: <174729906425.3122408.10863203394830553159@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mingo/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/WIP.x86/cpu
-    old: 94b0d468ab3b8d42a20cb4f16e04a3cef874417a
-    new: ba6285d57af1f2420a10edbe11801731226ceabe
+  - ref: refs/heads/trace/for-next
+    old: 7b382efd5e8af4c0c67e70ad3fb599dcd2dc0b86
+    new: 2632a2013f58f0aab4b9fd042e67d78740ba0996
     log: |
-         e8a53faac3a5e632dcca73f68b04f805e9688fd4 x86/atomics: Remove !CONFIG_X86_CX8 methods
-         ba6285d57af1f2420a10edbe11801731226ceabe x86/percpu: Remove !CONFIG_X86_CX8 methods
+         45c28cdce7a1648c12bb8f546a67abf908db106e tracing: Cleanup upper_empty() in pid_list
+         ac01fa73f5309a35eff83be61442a8891159b487 tracepoint: Have tracepoints created with DECLARE_TRACE() have _tp suffix
+         155fd6c3e2f02efdc71a9b62888942efc217aff0 tracing/sched: Use __string() instead of fixed lengths for task->comm
+         2632a2013f58f0aab4b9fd042e67d78740ba0996 tracing: Record trace_clock and recover when reboot
          
