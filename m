@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2420607181452119071=="
+Content-Type: multipart/mixed; boundary="===============2442913680027687242=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Thu, 15 May 2025 13:15:59 -0000
-Message-Id: <174731495992.3438908.10740427324784946294@gitolite.kernel.org>
+Date: Thu, 15 May 2025 13:20:04 -0000
+Message-Id: <174731520469.3442999.2225196545801149884@gitolite.kernel.org>
 
---===============2420607181452119071==
+--===============2442913680027687242==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/WIP.x86/kconfig
-    old: e53faed11fca63f4c8928ee79ade6f5e3e513ac6
-    new: b5637aeb4b904a44e91278c07305b80a178a0016
-    log: revlist-e53faed11fca-b5637aeb4b90.txt
+  - ref: refs/heads/master
+    old: 92a09c47464d040866cf2b4cd052bc60555185fb
+    new: 82f2b0b97b36ee3fcddf0f0780a9a0825d52fec3
+    log: revlist-92a09c47464d-82f2b0b97b36.txt
 
---===============2420607181452119071==
+--===============2442913680027687242==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e53faed11fca-b5637aeb4b90.txt
+Content-Disposition: attachment; filename=revlist-92a09c47464d-82f2b0b97b36.txt
 
 549d8994447f2f628c6cedd139d53926bdfee881 media: vivid: fix FB dependency
 9df181c8de1b6b285556f80bfd02584f3457f32e media: i2c: lt6911uxe: Fix Kconfig dependencies:
@@ -380,18 +380,5 @@ b9e62a2b8ffd2bc39b5838e163c41d8a08dae19a Merge tag 'x86-urgent-2025-05-11' of gi
 ecb9194d1724d1265c8cfe50fcb1dad718476e5e Merge tag 'mips-fixes_6.15_1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 cd802e7e5f1e77ae68cd98653fb70a97189eb937 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 82f2b0b97b36ee3fcddf0f0780a9a0825d52fec3 Linux 6.15-rc6
-335e5bc416b21bc4ac08edfba4d435fbd08d27b3 x86/kconfig/64: Refresh defconfig
-75f882cceef3dde3f0c4724a55c1f4ed28871f5b x86/kconfig/32: Refresh defconfig
-3ea628b0d2b206500fa5d579fe22e076f2778108 x86/kbuild: Remove ancient 'arch/i386/' and 'arch/x86_64/' directory removal 'archclean' target
-198ed4f3ab97778f8a3f6969afadd93e6536ca08 x86/tools: insn_decoder_test.c: Emit standard build success messages
-45ff9d4d3fc9abec14a5f32075b987a517bd1e26 x86/tools: insn_sanity.c: Emit standard build success messages
-541ad92518ee3ede6d675caa981a58e2a0f9a57f x86/kconfig/64: Enable the KVM host in the defconfig
-a06516558a7f53c667bdcb55d29884667fdfb5d9 x86/kconfig/64: Enable more virtualization guest options in the defconfig: enable Xen, Xen_PVH, Jailhouse, ACRN, Intel TDX and Hyper-V
-9bae0c86a32bf8400304a72dd4e3f58ce895cba9 x86/kconfig/64: Enable BPF support in the defconfig
-716bb0d5ef38b52086d5cd8f25172dddd5c1f4a6 x86/kconfig/64: Enable popular MM options in the defconfig
-6bef291553cce9a44e5cea94400854e200af609e x86/kconfig/64: Enable popular kernel debugging options in the defconfig
-06151a60cb0336556bf279560dbe66f57dd0bc8b x86/kconfig/64: Enable popular scheduler, cgroups and namespaces options in the defconfig
-ae0f2839f7ed9c3c4f4be50e62eaeabe90ec0318 x86/kconfig/64: Enable popular generic kernel options in the defconfig
-b5637aeb4b904a44e91278c07305b80a178a0016 x86/kconfig/32: Synchronize the x86-32 defconfig to the x86-64 defconfig
 
---===============2420607181452119071==--
+--===============2442913680027687242==--
