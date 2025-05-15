@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
-Date: Thu, 15 May 2025 21:41:22 -0000
-Message-Id: <174734528275.3923401.7029828082213008565@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Thu, 15 May 2025 21:45:28 -0000
+Message-Id: <174734552864.3927409.6378183220201608381@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/hkml
-user: sj
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: 73a04f6de8b1987bb847d72a409e283b3d27aadd
-    new: 52e1f374164cb81f4e8a108fe10105bcba3c29c0
+  - ref: refs/heads/dev
+    old: db950fccd45a8273d93ca861d84d5ae75b1aece9
+    new: 1719a208c8e2d46cadb1c91612ff0353a40f021e
     log: |
-         52e1f374164cb81f4e8a108fe10105bcba3c29c0 TODO: add a couple of items for context line improvement
+         626e001d164e360a8780ccaa4002a428ca8d17d1 torture: Make torture.sh KCSAN runs set CONFIG_RCU_TORTURE_TEST_CHK_RDR_STATE=y
+         08fe3097434c3fe44be0f71e4decd9e8939c048c torture: Default --no-rcutasksflavors on arm64
+         1719a208c8e2d46cadb1c91612ff0353a40f021e torture: Default --no-clocksourcewd on arm64
          
