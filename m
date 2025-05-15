@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/i3c/linux
-Date: Thu, 15 May 2025 09:52:39 -0000
-Message-Id: <174730275924.3176418.2903935017140866117@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
+Date: Thu, 15 May 2025 09:54:09 -0000
+Message-Id: <174730284974.3177176.1756496793139186206@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/i3c/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/mingo/tip
+user: mingo
 changes:
-  - ref: refs/heads/i3c/next
-    old: bd916806632d1a22a10a30d5ab7cce549791a563
-    new: 81f2a9af982120104d5e9211b15f3a83281972c1
+  - ref: refs/heads/WIP.x86/e820
+    old: 7b6b14b5e4f01d9f4e60ec42e974eafadeab4e69
+    new: 04da7848a99092795a59ac26a22f082c1f99b4a6
     log: |
-         8d29fa6d921ca4f9f63f73598833e53ece1d3b4e i3c: master: svc: Receive IBI requests in interrupt context
-         81f2a9af982120104d5e9211b15f3a83281972c1 i3c: master: svc: Emit STOP asap in the IBI transaction
+         04da7848a99092795a59ac26a22f082c1f99b4a6 x86/boot/e820: Introduce E820_TYPE_13 and treat it as a device region
          
