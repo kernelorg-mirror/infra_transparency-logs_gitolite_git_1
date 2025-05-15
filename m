@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 15 May 2025 15:35:56 -0000
-Message-Id: <174732335653.3567914.718412034942303786@gitolite.kernel.org>
+Date: Thu, 15 May 2025 16:00:48 -0000
+Message-Id: <174732484809.3588128.13300037980704814324@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 071efd92d29c825469d35621eece02ae147023d5
-    new: fde3f94bffbf9d847773b728ccb4b05970feefbe
+    old: fde3f94bffbf9d847773b728ccb4b05970feefbe
+    new: 17cf1ee4a9470ba7f2fa32b2eef30f36e0a365d8
     log: |
-         08fb624802d8786253994d8ebdbbcdaa186f04f5 irqchip/riscv-imsic: Start local sync timer on correct CPU
-         fde3f94bffbf9d847773b728ccb4b05970feefbe Merge branch into tip/master: 'irq/urgent'
+         baad9190e6465fdbe458f59cf04c2b2032ec4797 x86/msr: Add rdmsrl_on_cpu() compatibility wrapper
+         17cf1ee4a9470ba7f2fa32b2eef30f36e0a365d8 Merge branch into tip/master: 'x86/core'
          
