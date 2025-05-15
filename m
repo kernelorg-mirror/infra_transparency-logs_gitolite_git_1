@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7194114165868046993=="
+Content-Type: multipart/mixed; boundary="===============7727589213744959335=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Thu, 15 May 2025 03:34:04 -0000
-Message-Id: <174728004469.2832997.292509761290965686@gitolite.kernel.org>
+Date: Thu, 15 May 2025 03:34:17 -0000
+Message-Id: <174728005756.2833336.11102367980412666958@gitolite.kernel.org>
 
---===============7194114165868046993==
+--===============7727589213744959335==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/viro/vfs
 user: viro
 changes:
-  - ref: refs/heads/work.ufs
-    old: d6ae2b2cfce0ae88189b7e6a2d2bf5109b5de0af
+  - ref: refs/heads/for-next
+    old: 2e72b1e0aac24a12f3bf3eec620efaca7ab7d4de
     new: b70cb459890b7590c6d909da8c1e7ecfaf6535fb
-    log: revlist-d6ae2b2cfce0-b70cb459890b.txt
+    log: revlist-2e72b1e0aac2-b70cb459890b.txt
 
---===============7194114165868046993==
+--===============7727589213744959335==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d6ae2b2cfce0-b70cb459890b.txt
+Content-Disposition: attachment; filename=revlist-2e72b1e0aac2-b70cb459890b.txt
 
 ff62b7925b19aaf934008172b9ca71b3cf48c210 Merge branch 'ynl-avoid-leaks-in-attr-override-and-spec-fixes-for-c'
 36355ddfe8955f226a88a543ed354b9f6b84cd70 net: b53: enable BPDU reception for management port
@@ -1051,4 +1051,4 @@ f8e77914dac472d6a8a2f4e2d3da67f056581630 ufs: split ->s_mount_opt - don't mix fl
 20be746bbc18698a8252f0be4fa7dcfb0ed48f90 ufs: reject multiple conflicting -o ufstype=... on mount
 b70cb459890b7590c6d909da8c1e7ecfaf6535fb ufs: convert ufs to the new mount API
 
---===============7194114165868046993==--
+--===============7727589213744959335==--
