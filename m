@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
-Date: Thu, 15 May 2025 10:04:35 -0000
-Message-Id: <174730347555.3188299.16540582157353977230@gitolite.kernel.org>
+Date: Thu, 15 May 2025 10:05:27 -0000
+Message-Id: <174730352795.3190682.4165028289126308099@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rcu/linux
 user: boqun
 changes:
-  - ref: refs/rcu/misc-for-6.16
+  - ref: refs/heads/rcu/seq-counters-for-6.16
     old: 0000000000000000000000000000000000000000
-    new: 0a5985710e28ba1c14b6584c954d08b8afb3dbdf
+    new: f50ad4b73e1bdf7fb40566650fa11bcb438ad5ce
