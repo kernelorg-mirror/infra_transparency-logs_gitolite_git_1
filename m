@@ -1,62 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============6699778186822113412=="
+Content-Type: multipart/mixed; boundary="===============3128958771639564893=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 15 May 2025 12:07:21 -0000
-Message-Id: <174731084126.3303668.2716594196633018013@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 15 May 2025 12:07:38 -0000
+Message-Id: <174731085840.3304114.16786859070625369526@gitolite.kernel.org>
 
---===============6699778186822113412==
+--===============3128958771639564893==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.15
+  - ref: refs/heads/for-linus
     old: 6052f05254b4fe7b16bbd8224779af52fba98b71
     new: 7dd7f39fce0022b386ef1ea5ffef92ecc7dfc6af
     log: |
          7dd7f39fce0022b386ef1ea5ffef92ecc7dfc6af ASoC: SOF: Intel: hda: Fix UAF when reloading module
          
-  - ref: refs/heads/asoc-6.16
-    old: 723059ee896f9f302cfd36f49eac192ed4cfd3e1
-    new: 4a5883a5861589d486f768df2630f79c1d1e0c45
-    log: revlist-723059ee896f-4a5883a58615.txt
+  - ref: refs/heads/for-next
+    old: 84b43e38518b1abbe29e430a29706964e70a2372
+    new: 0fa0aa4dfcd5328c1eae53ac47f541e8e08461d9
+    log: revlist-84b43e38518b-0fa0aa4dfcd5.txt
 
---===============6699778186822113412==
+--===============3128958771639564893==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1747310871 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1747310838-1c0a43d4d6fca1e3f6d204ad32ab26c25556aa85
-
-6052f05254b4fe7b16bbd8224779af52fba98b71 7dd7f39fce0022b386ef1ea5ffef92ecc7dfc6af refs/heads/asoc-6.15
-723059ee896f9f302cfd36f49eac192ed4cfd3e1 4a5883a5861589d486f768df2630f79c1d1e0c45 refs/heads/asoc-6.16
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgl2RcTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0ID9B/4g+YA9K2DA0+8LE52vAK7HYZP8hAcC
-eK8HnzsLtU/63x4I+/3ahtUrwXmEnnsbgp/n/T1k3xsk5HJTFRkblmxN60oLBe+Y
-msfDg7R+2Yyf8QxHArwlZZ68Um6xW/56QF00bmzzp2d0fA+6pXITdSqmN8r//n/N
-MmpmC/y25/dF4FZqeTLg3Z29QNvjTTqCEQBdO1KC7TY3gp7yjJ7iUnIEJKqKw8zr
-F3ZYE+Guqu0vAbYXwXpi7SMmY4Enw34Ml0eI+aYKzFFNATD6z03wsuMF7IU8c7Re
-9t9okiIZdjEUnN12qxtwJ8e1DgGOHGlMwIha5L+Q6Jk9MWX0ch/PJAaL
-=IHBH
------END PGP SIGNATURE-----
-
---===============6699778186822113412==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-723059ee896f-4a5883a58615.txt
+Content-Disposition: attachment; filename=revlist-84b43e38518b-0fa0aa4dfcd5.txt
 
 549d8994447f2f628c6cedd139d53926bdfee881 media: vivid: fix FB dependency
 9df181c8de1b6b285556f80bfd02584f3457f32e media: i2c: lt6911uxe: Fix Kconfig dependencies:
@@ -416,7 +390,9 @@ cd802e7e5f1e77ae68cd98653fb70a97189eb937 Merge tag 'for-linus' of git://git.kern
 db13e3d58c682e0bfc08410e4961b23f4bdbc2e5 ALSA: hda: cs35l56: Log tuning unique identifiers during firmware load
 0319c26889f795bd6a68c42a9af47b41d902eb5d ASoC: codecs: add support for ES8389
 c8e7d528284a0bb1cd462b994c464bf31d24a0ce ASoC: dt-bindings: Add Everest ES8389 audio CODEC
+7dd7f39fce0022b386ef1ea5ffef92ecc7dfc6af ASoC: SOF: Intel: hda: Fix UAF when reloading module
 dd4eb861d0521acca1b7e07683a7e90b2e01f66a ASoC: codecs: add support for ES8389
 4a5883a5861589d486f768df2630f79c1d1e0c45 cs35l56: Log tuning unique identifiers during firmware
+0fa0aa4dfcd5328c1eae53ac47f541e8e08461d9 Merge remote-tracking branch 'asoc/for-6.16' into asoc-next
 
---===============6699778186822113412==--
+--===============3128958771639564893==--
