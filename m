@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 15 May 2025 02:40:38 -0000
-Message-Id: <174727683895.2790437.8001276956620661205@gitolite.kernel.org>
+Date: Thu, 15 May 2025 02:44:06 -0000
+Message-Id: <174727704648.2792030.3461251821971891599@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,11 +12,9 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: a1dc1deeacbe65ebd3968bc4d14f14f8d696b184
-    new: 265e1d5c63e378a0601d3aa33f46e52b74b2b331
+    old: 265e1d5c63e378a0601d3aa33f46e52b74b2b331
+    new: 4cde0e4224ce70bb6e91930a8850b59194151838
     log: |
-         285ad7477559b6b5ceed10ba7ecfed9d17c0e7c6 net: atlantic: generate software timestamp just before the doorbell
-         aaed2789b30763da942bf89f44e025d0254ce6b8 net: cxgb4: generate software timestamp just before the doorbell
-         33d4cc81fcd930fdbcca7ac9e8959225cbec0a5e net: stmmac: generate software timestamp just before the doorbell
-         265e1d5c63e378a0601d3aa33f46e52b74b2b331 Merge branch 'misc-drivers-sw-timestamp-changes'
+         36d9b54258098f6ea96a7c400577a17f1c1f9fce net: cpsw: convert to ndo_hwtstamp_get() and ndo_hwtstamp_set()
+         4cde0e4224ce70bb6e91930a8850b59194151838 net: cpsw: isolate cpsw_ndo_ioctl() to just the old driver
          
