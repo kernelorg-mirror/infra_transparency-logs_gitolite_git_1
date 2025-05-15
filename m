@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 15 May 2025 22:42:11 -0000
-Message-Id: <174734893169.3978054.1341291934196986756@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Thu, 15 May 2025 22:49:31 -0000
+Message-Id: <174734937185.3983816.3356768131357708462@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/main
-    old: 1119e5519dcdb7b3527f5d85accf9c7aa02b2b28
-    new: 87948df5af4bb27effb0a187abaf54f41a54fe35
+  - ref: refs/heads/for-6.16/block
+    old: 532b9e11b8540eb543ebec9cba851c5691e10b5b
+    new: 7ee4fa04a8a27c7790a8fcd3093de3eb51aebb95
     log: |
-         87948df5af4bb27effb0a187abaf54f41a54fe35 tools: ynl-gen: array-nest: support arrays of nests
+         7ee4fa04a8a27c7790a8fcd3093de3eb51aebb95 cdrom: Remove unnecessary NULL check before unregister_sysctl_table()
+         
+  - ref: refs/heads/for-next
+    old: eb9744df8b32271926a42e610c3791b56872d203
+    new: b1bd2b64709bb97605721c9b161529b21366aa2b
+    log: |
+         7ee4fa04a8a27c7790a8fcd3093de3eb51aebb95 cdrom: Remove unnecessary NULL check before unregister_sysctl_table()
+         b1bd2b64709bb97605721c9b161529b21366aa2b Merge branch 'for-6.16/block' into for-next
          
