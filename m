@@ -1,42 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============0637027756226681644=="
+Content-Type: multipart/mixed; boundary="===============9220675435864149926=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Thu, 15 May 2025 00:10:57 -0000
-Message-Id: <174726785798.2653401.11905637406040258824@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Thu, 15 May 2025 00:20:42 -0000
+Message-Id: <174726844220.2661807.8334551957648646444@gitolite.kernel.org>
 
---===============0637027756226681644==
+--===============9220675435864149926==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-user: chenhuacai
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/loongarch-next
-    old: 12614f794274f63fbdfe76771b2b332077d63848
-    new: cd01778df6729f09920492c980ff8721b9941507
-    log: revlist-12614f794274-cd01778df672.txt
+  - ref: refs/heads/for-next
+    old: 990615ca272263b37384ea2b4baf8903a5ac809a
+    new: 0130479d4dbb407fd8a336559038d24eee568062
+    log: revlist-990615ca2722-0130479d4dbb.txt
 
---===============0637027756226681644==
+--===============9220675435864149926==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-12614f794274-cd01778df672.txt
+Content-Disposition: attachment; filename=revlist-990615ca2722-0130479d4dbb.txt
 
-88a3947be9230b20cd5b29945e0b0073b414b84c LoongArch: Add a default install.sh
-bd2067e086abc1305cbaf43a0ea79e2321371f37 LoongArch: Using generic scripts/install.sh in `make install`
-0beeb5b607495073933de16da938abfa302f0eda LoongArch: Add some annotations in archhelp
-1522574f0dc0eb93ca0700cced047f5f51b19f68 LoongArch: Add SCHED_MC (Multi-core scheduler) support
-548b4b156b4281b734014bc8b8bc7c7af591abce LoongArch: Enable ARCH_SUPPORTS_MSEAL_SYSTEM_MAPPINGS
-d8260b41b46d2808494f010365d87f89e78698a3 LoongArch: Enable HAVE_ARCH_STACKLEAK
-f32f468ad4ad5bdb8401e7f1689a0c7128ccac00 LoongArch: Increase max supported CPUs up to 2048
-e322904dc8592ce8671795d627dd081c7f1ef5d2 LoongArch: Introduce the numa_memblks conversion
-89d04a530dde01f63057ad73bcc9e37dadb58404 LoongArch: Preserve firmware configuration when desired
-76fc1e48051258f2923a97166b695ed067435d8f LoongArch: dts: Add PWM support to Loongson-2K0500
-fe359cb185a33146f28cd73a9520b079f35b641b LoongArch: dts: Add PWM support to Loongson-2K1000
-cd01778df6729f09920492c980ff8721b9941507 LoongArch: dts: Add PWM support to Loongson-2K2000
+54db6d1bdd71fa90172a2a6aca3308bbf7fa7eb5 btrfs: fix discard worker infinite loop after disabling discard
+a0fd1c6098633f9a95fc2f636383546c82b704c3 btrfs: fix folio leak in submit_one_async_extent()
+4ce2affc6ef9f84b4aebbf18bd5c57397b6024eb btrfs: add back warning for mount option commit values exceeding 300
+cc28b6a3190f8da2732562227454b40aaabde929 btrfs: use verbose assert at peek_discard_list()
+9f4834186174807164247d531932262dff35de37 btrfs: fix broken drop_caches on extent buffer folios
+873c0833daf840e108f462f8c7a82d1190788d54 btrfs: handle unaligned EOF truncation correctly for subpage cases
+a4c3ff2b12be7838743b8003805fae7dd15f1c0d btrfs: handle aligned EOF truncation correctly for subpage cases
+c3038b2995dc3b82208cc6ddac51f10ae858fc5f btrfs: scrub: reduce memory usage of struct scrub_sector_verification
+00941c8be5f7fcfcebb935f6c682bc041eb664a7 btrfs: fix folio leak in submit_one_async_extent()
+494e13a48d4cd3439f00e5f1953dd6b85c5bf47f btrfs: fix qgroup reservation leak on failure to allocate ordered extent
+4107ffae74720ad47dc6ca3cde96796daf0b5277 btrfs: check we grabbed inode reference when allocating an ordered extent
+2a147b694b8c1a0a146346c3e858aeb6e7a60c1b btrfs: fold error checks when allocating ordered extent and update comments
+5548d495edfe88d8536682d5c93e7c481818093c btrfs: use boolean for delalloc argument to btrfs_free_reserved_bytes()
+954bf98bf6fb9149c2f629a5baf7e8b1a97d9010 btrfs: use boolean for delalloc argument to btrfs_free_reserved_extent()
+63dabaeabf64b3c0eaa9f83219fc4390e425ddad btrfs: add back warning for mount option commit values exceeding 300
+315fcb0f02548d6ebefc2b89614e71a2766012b9 btrfs: send: remove btrfs_debug() calls
+2d07d06c828ef245db902f511e17119c575ddd9c btrfs: update list of features built under experimental config
+685462b4df1170ac3da7db1963fb8edf40fd49b9 btrfs: update Kconfig option descriptions
+d11fc93e5d15656f8b94512e637bb0446d18aaff btrfs: fix invalid data space release when truncating block in NOCOW mode
+71d77b4efe024ea9949805e4ba42086559f8d3ec btrfs: remove superfluous return value check at btrfs_dio_iomap_begin()
+af57ad4354181dafb6797f58789fc0d5523a0741 btrfs: return real error from __filemap_get_folio() calls
+5ea949d878edfa34f6a8732af1671d0788f56759 btrfs: simplify error return logic when getting folio at prepare_one_folio()
+6ebfd2e1b67e223b998b4eb340697e829acb0f86 btrfs: log error codes during failures when writing super blocks
+30bc15660904bf2f9de3721ecd87b3ecd2dc3972 btrfs: fix harmless race getting delayed ref head count when running delayed refs
+e582184443e20f35140ca76cd6a36a6bc310444a Merge branch 'misc-6.15' into for-next-current-v6.14-20250515
+fede7ca89071c59c7ee770834058599fe75fa057 Merge branch 'b-for-next' into for-next-next-v6.15-20250515
+d9c51a38ff2858fdb192d3a827fa07c542d6f27b Merge branch 'for-next-current-v6.14-20250515' into for-next-20250515
+0130479d4dbb407fd8a336559038d24eee568062 Merge branch 'for-next-next-v6.15-20250515' into for-next-20250515
 
---===============0637027756226681644==--
+--===============9220675435864149926==--
