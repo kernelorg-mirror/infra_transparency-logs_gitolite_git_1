@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6347964745124379471=="
+Content-Type: multipart/mixed; boundary="===============5088536812804428985=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 15 May 2025 01:47:12 -0000
-Message-Id: <174727363211.2741401.1858903861538141841@gitolite.kernel.org>
+Date: Thu, 15 May 2025 01:47:28 -0000
+Message-Id: <174727364853.2741789.987496385980871883@gitolite.kernel.org>
 
---===============6347964745124379471==
+--===============5088536812804428985==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: 7ef535a421244d75d4b974c6a9914b48845d7d6e
     new: c4fe0de771aa364d283bae0747db6f855327b312
     log: revlist-7ef535a42124-c4fe0de771aa.txt
 
---===============6347964745124379471==
+--===============5088536812804428985==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -123,4 +123,4 @@ d5d228f0be1953a5c2090326603585d38ad736e1 tpm_crb_ffa: use dev_xx() macro to prin
 16720d43644cd30fd9e6a973f03c072a6dd1138a tpm_crb: ffa_tpm: fix/update comments describing the CRB over FFA ABI
 c4fe0de771aa364d283bae0747db6f855327b312 tpm: tis: Double the timeout B to 4s
 
---===============6347964745124379471==--
+--===============5088536812804428985==--
