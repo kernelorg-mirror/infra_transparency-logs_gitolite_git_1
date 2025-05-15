@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3841816536027569748=="
+Content-Type: multipart/mixed; boundary="===============4438494861430601516=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 15 May 2025 22:10:52 -0000
-Message-Id: <174734705250.3950928.16251189750368077026@gitolite.kernel.org>
+Date: Thu, 15 May 2025 22:10:55 -0000
+Message-Id: <174734705528.3951017.17499618167700642077@gitolite.kernel.org>
 
---===============3841816536027569748==
+--===============4438494861430601516==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: 9f607dc39b6658ba8ea647bd99725e68c66071b7
     new: 1119e5519dcdb7b3527f5d85accf9c7aa02b2b28
     log: revlist-9f607dc39b66-1119e5519dcd.txt
 
---===============3841816536027569748==
+--===============4438494861430601516==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -490,4 +490,4 @@ c4221a8cc3a719a3926a330c4fe15e2b15abe662 tcp: always use tcp_limit_output_bytes 
 2da35e4b4df99d3dd29bacf0c054e6988013d4ec Merge branch 'tcp-receive-side-improvements'
 1119e5519dcdb7b3527f5d85accf9c7aa02b2b28 net: sched: uapi: add more sanely named duplicate defines
 
---===============3841816536027569748==--
+--===============4438494861430601516==--
