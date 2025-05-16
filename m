@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8273744413335396552=="
+Content-Type: multipart/mixed; boundary="===============3329270202772309954=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 16 May 2025 07:29:46 -0000
-Message-Id: <174738058643.213168.10319692363432964129@gitolite.kernel.org>
+Date: Fri, 16 May 2025 07:30:26 -0000
+Message-Id: <174738062695.215470.1114586991964433409@gitolite.kernel.org>
 
---===============8273744413335396552==
+--===============3329270202772309954==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,49 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 9cb2eed7986ef6fb197b75bc7e559d300dd9f04a
-    new: 9b6941a7533eaa9b030172b133c1b01be4f7fbc0
-    log: revlist-9cb2eed7986e-9b6941a7533e.txt
+    old: 9b6941a7533eaa9b030172b133c1b01be4f7fbc0
+    new: 20532769fa625627e12d9601c27aa3a652b69ba3
+    log: revlist-9b6941a7533e-20532769fa62.txt
+  - ref: refs/heads/tip/urgent
+    old: d25be6f6e27c51092473b7c7e59fff3458a607b8
+    new: 51e6ed5306db2539a84170eca70390dd329409d5
+    log: revlist-d25be6f6e27c-51e6ed5306db.txt
 
---===============8273744413335396552==
+--===============3329270202772309954==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9cb2eed7986e-9b6941a7533e.txt
+Content-Disposition: attachment; filename=revlist-9b6941a7533e-20532769fa62.txt
+
+b1e0892532f68d3ffefd281852a3a4e61502e90b Merge branch into tip/master: 'irq/urgent'
+c3daa27b739ca6e0cfdb3e7a641457ac8443dc78 Merge branch into tip/master: 'perf/urgent'
+51e6ed5306db2539a84170eca70390dd329409d5 Merge branch into tip/master: 'x86/urgent'
+bbc9a043dab8ac7ac1442f693ceae165ffaad30e Merge branch into tip/master: 'perf/merge'
+f8a0c4025911d099825cb95df10983f25407b963 Merge branch into tip/master: 'core/entry'
+a31fe4ede392f08f35099e1781bef2d5b306d182 Merge branch into tip/master: 'irq/cleanups'
+ce56bd48cba4ba68fa9e22596f140311dd6fb1da Merge branch into tip/master: 'irq/core'
+c6cace7d803511695677fd051ed02f68ca964bad Merge branch into tip/master: 'irq/drivers'
+63aae64b4f8febd7e505ec13aa7b85f82ac1abbb Merge branch into tip/master: 'irq/msi'
+5db6e95ed8f22160c1ee212c35c02ff9ea1aaf6a Merge branch into tip/master: 'locking/core'
+375768a2abf1de6b1bdc467f8e087bd679adb9fd Merge branch into tip/master: 'locking/futex'
+ace3f10d2227ece67fb49108bd75ea71d850c217 Merge branch into tip/master: 'objtool/core'
+488c89df7ba6a4feb5b0bf9fd470dd12186d51e1 Merge branch into tip/master: 'perf/core'
+372b05cc5c61ef123a4898b3925458e8fe43b5b9 Merge branch into tip/master: 'sched/core'
+46b151293f86d4561dd5b7d373bc4706a8665357 Merge branch into tip/master: 'timers/cleanups'
+2093975e705b4b28e8c64c85fcd039366243de07 Merge branch into tip/master: 'timers/core'
+4a66068fef53474f0d1cf686bfe804d3916af6d8 Merge branch into tip/master: 'x86/cleanups'
+ea9ba2529722bc3532d04c11c046c1890c5ec339 Merge branch into tip/master: 'x86/core'
+d8a7cc0f37a53df8736278d4dac393b2d320d6fc Merge branch into tip/master: 'x86/entry'
+dc2a9b23c9c1025b7ebfdeeba90d99e6237a0179 Merge branch into tip/master: 'x86/kconfig'
+bc57a131ee8b82631b80907c45860fc0077f8056 Merge branch into tip/master: 'x86/mtrr'
+ab338c95e8bc31285d77d223c8e6bfbfb897ba3b Merge branch into tip/master: 'x86/sev'
+20532769fa625627e12d9601c27aa3a652b69ba3 Merge branch into tip/master: 'x86/sgx'
+
+--===============3329270202772309954==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d25be6f6e27c-51e6ed5306db.txt
 
 8772cc49e0b8ab782e475ce5ef659eedab601a09 batman-adv: fix duplicate MAC address check
 f81b33582f9339d2dc17c69b92040d3650bb4bae RDMA/rxe: Fix slab-use-after-free Read in rxe_queue_cleanup bug
@@ -109,6 +143,8 @@ fe661d01ab40eb4d1e7c6a8ace699901e6aef77b Merge tag 'hid-for-linus-2025051501' of
 f1f2797f8a2478b6b2f731b4f70a87d313f9b41a Merge tag 'landlock-6.15-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
 4d0be1aa26b7dba4960c37d9f8d695eb513bb04d Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 fee3e843b309444f48157e2188efa6818bae85cf Merge tag 'bcachefs-2025-05-15' of git://evilpiepirate.org/bcachefs
-9b6941a7533eaa9b030172b133c1b01be4f7fbc0 Merge branch 'linus'
+b1e0892532f68d3ffefd281852a3a4e61502e90b Merge branch into tip/master: 'irq/urgent'
+c3daa27b739ca6e0cfdb3e7a641457ac8443dc78 Merge branch into tip/master: 'perf/urgent'
+51e6ed5306db2539a84170eca70390dd329409d5 Merge branch into tip/master: 'x86/urgent'
 
---===============8273744413335396552==--
+--===============3329270202772309954==--
