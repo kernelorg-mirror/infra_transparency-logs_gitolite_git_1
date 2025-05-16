@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Fri, 16 May 2025 17:39:40 -0000
-Message-Id: <174741718032.746905.16766681795582585178@gitolite.kernel.org>
+Date: Fri, 16 May 2025 17:39:49 -0000
+Message-Id: <174741718944.747214.5994358571398162593@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: 68b44b05f4c880c42109a91d2e0e7faa94f40529
+  - ref: refs/heads/pending
+    old: 1f7df6bbb6e4d596c91a4479bfce4ab4d3a00211
     new: b4206774fe8231187e5863ff861160db77d4960b
     log: |
          31d48b93b1f8697254c4d7fa922eaaa3b28a7ab8 wifi: ath12k: read country code from SMBIOS for WCN7850
