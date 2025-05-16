@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Fri, 16 May 2025 00:34:15 -0000
-Message-Id: <174735565583.4067170.14572893140434720631@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 16 May 2025 00:46:43 -0000
+Message-Id: <174735640394.4078477.9633778736501581213@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/kdevops
-    old: 3ef101be52504f6d242a6e617230ce6b6f3920d1
-    new: 01011e1d4eb205e81a58129b235ab66dac3101c9
+  - ref: refs/heads/main
+    old: ef935650e044fc742b531bf85cc315ff7aa781ea
+    new: c39b1bb5bc6db7300b8a4b4fdde73f7f1d9dfbcc
     log: |
-         2a3d6b69be892ee2bce69fbd273ccb7749bd5f67 SQUASH: more debugging
-         37e8650cd92714f90d88bf2a78d3dcae5c2bea02 SQUASH: fix the notify_remove_bitmap in nfsd_handle_dir_event
-         01011e1d4eb205e81a58129b235ab66dac3101c9 nfsd: fix xdrgen_encode_CB_NOTIFY4args
+         7af8479d9eb4319b4ba7b47a8c4d2c55af1c31e1 Bluetooth: L2CAP: Fix not checking l2cap_chan security level
+         4bcb0c7dc25446b99fc7a8fa2a143d69f3314162 Bluetooth: btusb: use skb_pull to avoid unsafe access in QCA dump handling
+         c39b1bb5bc6db7300b8a4b4fdde73f7f1d9dfbcc Merge tag 'for-net-2025-05-15' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
          
