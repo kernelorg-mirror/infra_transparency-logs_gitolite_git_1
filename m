@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gclement/mvebu
-Date: Fri, 16 May 2025 14:24:42 -0000
-Message-Id: <174740548289.572424.13547132648719788978@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
+Date: Fri, 16 May 2025 14:28:07 -0000
+Message-Id: <174740568791.575776.6882047604313023319@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gclement/mvebu
-user: gclement
+repo: pub/scm/linux/kernel/git/cxl/cxl
+user: djiang
 changes:
-  - ref: refs/tags/mvebu-fixes-6.15-1
-    old: 0000000000000000000000000000000000000000
-    new: 92ac2d5e4cca81a6b22e2a0f5320c0728ca541e8
+  - ref: refs/heads/next
+    old: fc78561595e2fc6ceb8da56b083847227ba9320e
+    new: 191679ec7bb9af3eadfe68ede3932a692ab0d677
+    log: |
+         191679ec7bb9af3eadfe68ede3932a692ab0d677 cxl/Documentation: Fix typo in sysfs write_bandwidth attribute path
+         
