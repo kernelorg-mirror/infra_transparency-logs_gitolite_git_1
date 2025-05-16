@@ -1,21 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvms390/linux
-Date: Fri, 16 May 2025 17:18:30 -0000
-Message-Id: <174741591026.728637.13743871282821017335@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Fri, 16 May 2025 17:32:03 -0000
+Message-Id: <174741672392.740412.14408813063372414922@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvms390/linux
-user: imbrenda
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/next
-    old: b6fa292d78c04ffbdda8b84cc4bc303cc0b7dff2
-    new: 9eb0537685eeae4547687d644fdb15aa3a6e8be3
+  - ref: refs/heads/pending
+    old: 68b44b05f4c880c42109a91d2e0e7faa94f40529
+    new: 1f7df6bbb6e4d596c91a4479bfce4ab4d3a00211
     log: |
-         d46fba82e2f5797d2c48d5f38a200d0b06ec8448 s390/uv: don't return 0 from make_hva_secure() if the operation was not successful
-         14569437b9c4b6ae30b16c4a603e2106f2238031 s390/uv: always return 0 from s390_wiggle_split_folio() if successful
-         9eb0537685eeae4547687d644fdb15aa3a6e8be3 s390/uv: improve splitting of large folios that cannot be split while dirty
+         a7b02c1e5e8118b52d26797cb2cb49dd59cfc115 wifi: ath12k: read country code from SMBIOS for WCN7850
+         e1ac2045208192f863aaacf7a579c6a6d4becf17 wifi: ath12k: handle scan link during vdev create
+         751e91309b5ca18725691e6bd05125739efee459 wifi: ath12k: Use scan link ID 15 for all scan operations
+         ac0ee65712005ff9900a083a80a9dd6ddc7e18a6 wifi: ath10k: Fix spelling mistake "comple" -> "complete"
+         2d0a5ab773a39b3df0fc44e5e1ccd55a6c2c3626 wifi: ath10k: Constify structures in hw.c
+         1f7df6bbb6e4d596c91a4479bfce4ab4d3a00211 wifi: ath9k: ahb: do ioremap resource in one step
          
