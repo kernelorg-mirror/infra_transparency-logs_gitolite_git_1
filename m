@@ -1,24 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-Date: Fri, 16 May 2025 09:11:59 -0000
-Message-Id: <174738671956.306203.18180373000224335669@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 16 May 2025 09:12:22 -0000
+Message-Id: <174738674282.306679.11394030718345774964@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-user: tzungbi
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/dev
-    old: f6181f3ac46785fba896c47edbfda14636b1a83e
-    new: 25d9bfa873b119171420a61f6d6850f52849e4dd
+  - ref: refs/heads/x86/core
+    old: 119deb95b0bc2793d4b002549444ce0aec346b4f
+    new: 3bf8ce828419810f45a272948805cf9a2b685529
     log: |
-         50df13d3e62a69c29120ac8b0b859abacde9b4dd platform/chrome: kunit: cros_ec_i2c: add tests with ftrace stub
-         629d9933bf308ae0ccda3f8ad1acdb0fe79e0065 platform/chrome: kunit: cros_ec_i2c: use static stub instead
-         6353709c8852011ea7ec23fc49391de01321a827 platform/chrome: kunit: cros_ec_spi: add tests with ftrace stub
-         9d9ef48d056e61195b71c8b839cda0ce2158a381 platform/chrome: kunit: cros_ec_spi: add tests with ftrace stub (attempt 2)
-         fe3aa30bf80d549a6ba6a367733cad108697ea0c platform/chrome: kunit: cros_ec_uart: add tests with ftrace stub
-         25d9bfa873b119171420a61f6d6850f52849e4dd mfd: cros_ec: add Kunit tests
+         3bf8ce828419810f45a272948805cf9a2b685529 x86/cpuid: Rename hypervisor_cpuid_base()/for_each_possible_hypervisor_cpuid_base() to cpuid_base_hypervisor()/for_each_possible_cpuid_base_hypervisor()
+         
+  - ref: refs/heads/x86/debug
+    old: 82f2b0b97b36ee3fcddf0f0780a9a0825d52fec3
+    new: 06aa9378df017ea7482b1bfdcd750104c8b3c407
+    log: |
+         d49ae4172cffa51cc72bdbd668fdd2e64b0a929f x86/tracing, x86/mm: Remove redundant trace_pagefault_key
+         06aa9378df017ea7482b1bfdcd750104c8b3c407 x86/tracing, x86/mm: Move page fault tracepoints to generic
          
