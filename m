@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 16 May 2025 22:47:24 -0000
-Message-Id: <174743564429.1015913.9409077852038183208@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 16 May 2025 22:56:56 -0000
+Message-Id: <174743621615.1024074.12967398208456284703@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 894fbb55e60cab4ea740f6c65a08b5f8155221f4
-    new: b66b76a82c8879d764ab89adc21ee855ffd292d5
+    old: c9e455581e2ba87ee38c126e8dc49a424b9df0cf
+    new: 6b1d3c5f675cc794a015138b115afff172fb4c58
     log: |
-         15d7b3dfafa98270eade6c77d2336790dde0a40d net: phy: mediatek: do not require syscon compatible for pio property
-         b66b76a82c8879d764ab89adc21ee855ffd292d5 net/mlx5e: Reuse per-RQ XDP buffer to avoid stack zeroing overhead
+         6b1d3c5f675cc794a015138b115afff172fb4c58 team: grab team lock during team_change_rx_flags
          
