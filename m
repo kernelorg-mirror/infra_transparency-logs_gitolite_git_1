@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0529913489914365361=="
+Content-Type: multipart/mixed; boundary="===============4905154052655348867=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
-Date: Fri, 16 May 2025 11:26:35 -0000
-Message-Id: <174739479581.423276.15484411294928535202@gitolite.kernel.org>
+Date: Fri, 16 May 2025 11:27:46 -0000
+Message-Id: <174739486616.424001.8865982913200069700@gitolite.kernel.org>
 
---===============0529913489914365361==
+--===============4905154052655348867==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/thermal/linux
 user: daniel.lezcano
 changes:
-  - ref: refs/heads/thermal/bleeding-edge
+  - ref: refs/heads/thermal/linux-next
     old: 50085e27fe479e1e3c6485359f374d491cede0b8
     new: e23cba0ab49a9cf95e9bc3a86cfbf336b0e285f6
     log: revlist-50085e27fe47-e23cba0ab49a.txt
 
---===============0529913489914365361==
+--===============4905154052655348867==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e3f90f167a49902cda2408f7e91cca0dcfd5040a thermal/drivers/qcom/tsens: Update cond
 04b31cc53fe0df0e87a37d18a3c0363d7dee218f thermal/drivers/qcom/tsens: Add support for IPQ5018 tsens
 e23cba0ab49a9cf95e9bc3a86cfbf336b0e285f6 thermal/drivers/airoha: Fix spelling mistake
 
---===============0529913489914365361==--
+--===============4905154052655348867==--
