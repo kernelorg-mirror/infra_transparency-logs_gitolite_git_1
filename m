@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Fri, 16 May 2025 11:10:48 -0000
-Message-Id: <174739384858.409271.13355024396972200819@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/nolibc/linux-nolibc
+Date: Fri, 16 May 2025 11:13:23 -0000
+Message-Id: <174739400387.410488.11004408678314277793@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/nolibc/linux-nolibc
+user: thomas.weissschuh
 changes:
-  - ref: refs/heads/work.coredump.socket
-    old: 4e0d3965627a4cfa497238a55f7b533e42a2778e
-    new: 593eb8109bc8ef9cd8c8281223c1750e7e50e772
+  - ref: refs/heads/for-next
+    old: 1bf4b0aff779d883e8e183269e8525ef0a579bfd
+    new: 0fde94b0d402a269ccb998fcbf4b5a13fe8e9a56
     log: |
-         593eb8109bc8ef9cd8c8281223c1750e7e50e772 coredump: add coredump socket
+         0fde94b0d402a269ccb998fcbf4b5a13fe8e9a56 selftests/nolibc: drop include guards around standard headers
          
