@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Fri, 16 May 2025 10:28:37 -0000
-Message-Id: <174739131752.371773.1333747853067646507@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Fri, 16 May 2025 10:33:45 -0000
+Message-Id: <174739162564.376258.16068459753172519075@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: kwilczynski
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/controller/dw-rockchip
-    old: 0c1dc6303340830005acd659d84f898b1259f9d2
-    new: 0f9555f740de35f5509792b6f04c6b8c6ad9396d
-    log: |
-         0f9555f740de35f5509792b6f04c6b8c6ad9396d PCI: dw-rockchip: Add support for slot reset on link down event
-         
+  - ref: refs/tags/riscv-config-for-v6.16
+    old: 0000000000000000000000000000000000000000
+    new: 6585e406ff47d4da0d2ccc1b7d00e41a1e59c095
