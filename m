@@ -1,24 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Fri, 16 May 2025 15:44:16 -0000
-Message-Id: <174741025692.642872.10496743769810036445@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Fri, 16 May 2025 15:45:37 -0000
+Message-Id: <174741033743.645943.11789278695540153724@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mingo/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/WIP.core/bugs
-    old: af0503e693cf60f3b9984d69f191c8f91dc3bbdb
-    new: 9403ac9b276029a58f22b68a201bcddfe159d9d3
+  - ref: refs/heads/main
+    old: 1119e5519dcdb7b3527f5d85accf9c7aa02b2b28
+    new: 894fbb55e60cab4ea740f6c65a08b5f8155221f4
     log: |
-         15b4cd263d3d4ce90e4d1a57a32cca34d1edaad2 bugs/riscv: Pass in 'cond_str' to __BUG_FLAGS()
-         4c1780857fd54449c8082fe8119c0904aecb7931 bugs/riscv: Concatenate 'cond_str' with '__FILE__' in __BUG_FLAGS(), to extend WARN_ON/BUG_ON output
-         d52bc4b60d9dd00d231240496474c6baccd0c817 bugs/parisc: Concatenate 'cond_str' with '__FILE__' in __WARN_FLAGS(), to extend WARN_ON/BUG_ON output
-         ad848bd045eeb749730d092e7eb349166e56301c sh: Concatenate 'cond_str' with '__FILE__' in __WARN_FLAGS(), to extend WARN_ON/BUG_ON output
-         0d2425996c01252c629a290ac3d6cc04e901ddb2 bugs/core: Reorganize fields in the first line of WARNING output, add ->comm[] output
-         9403ac9b276029a58f22b68a201bcddfe159d9d3 bugs/core: Test WARN_ON_ONCE()
+         87948df5af4bb27effb0a187abaf54f41a54fe35 tools: ynl-gen: array-nest: support arrays of nests
+         958a857a626cd9144889a66115eb4230d922a2f5 net: lan743x: convert to ndo_hwtstamp_set()
+         abb258eb78a9dd9c76a298f4a73c74ffeef06597 net: lan743x: implement ndo_hwtstamp_get()
+         894fbb55e60cab4ea740f6c65a08b5f8155221f4 net: stmmac: convert to ndo_hwtstamp_get() and ndo_hwtstamp_set()
          
