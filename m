@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4323285659897513706=="
+Content-Type: multipart/mixed; boundary="===============1868901604996543510=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Fri, 16 May 2025 19:39:31 -0000
-Message-Id: <174742437166.853230.16891922754728742434@gitolite.kernel.org>
+Date: Fri, 16 May 2025 19:39:39 -0000
+Message-Id: <174742437910.853583.11898728144127130543@gitolite.kernel.org>
 
---===============4323285659897513706==
+--===============1868901604996543510==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: 6fe9b60f3504c7047451c5b8df14308dad440ff1
+  - ref: refs/heads/pending
+    old: cb3111775ebc744998800fc5d9285bee97f965b1
     new: a5f95d3d02d92421edceb597f93c7348e54a5264
-    log: revlist-6fe9b60f3504-a5f95d3d02d9.txt
+    log: revlist-cb3111775ebc-a5f95d3d02d9.txt
 
---===============4323285659897513706==
+--===============1868901604996543510==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6fe9b60f3504-a5f95d3d02d9.txt
+Content-Disposition: attachment; filename=revlist-cb3111775ebc-a5f95d3d02d9.txt
 
 7971bda2fe57cd86ba8e1588366c1633cbd007c3 wifi: ath12k: Add support to simulate firmware crash
 d1b4ccc24ea66552dd718d2fb2f305ea9ecf8363 wifi: ath12k: delete mon reap timer
@@ -60,4 +60,4 @@ f4dd79e9b5d3cae04e166186e7b325453cdbaf7e wifi: ath12k: init monitor parameters f
 55cbbf25fbde8ed713a55a29f399adda8540e135 wifi: ath12k: Enable AST index based address search in Station Mode
 a5f95d3d02d92421edceb597f93c7348e54a5264 wifi: ath12k: Prevent multicast duplication for dynamic VLAN
 
---===============4323285659897513706==--
+--===============1868901604996543510==--
