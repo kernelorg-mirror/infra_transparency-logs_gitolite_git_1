@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1504413833366271632=="
+Content-Type: multipart/mixed; boundary="===============5659295192819645521=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 17 May 2025 06:31:56 -0000
-Message-Id: <174746351674.1401892.7995164120777648297@gitolite.kernel.org>
+Date: Sat, 17 May 2025 06:32:19 -0000
+Message-Id: <174746353966.1402313.7571197708231008385@gitolite.kernel.org>
 
---===============1504413833366271632==
+--===============5659295192819645521==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,50 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 4f55842a1afa87c98f2b3eb1460d384e8232b294
-    new: 360324486da664b56ff14dc03404f16ff9f02292
-    log: revlist-4f55842a1afa-360324486da6.txt
+    old: 360324486da664b56ff14dc03404f16ff9f02292
+    new: 68d90b94f97a0b95441e614361a3bfe7c9fc8c12
+    log: revlist-360324486da6-68d90b94f97a.txt
+  - ref: refs/heads/tip/urgent
+    old: 0140c1fdf1988195617440e28fc62d2cea194b00
+    new: 01fe20843ceff3fa5a56e0a13171ac414e32a3dd
+    log: revlist-0140c1fdf198-01fe20843cef.txt
 
---===============1504413833366271632==
+--===============5659295192819645521==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4f55842a1afa-360324486da6.txt
+Content-Disposition: attachment; filename=revlist-360324486da6-68d90b94f97a.txt
+
+367ea7aa941de398da8ad226f63636d6c0642eb5 Merge branch into tip/master: 'irq/urgent'
+08cc2fa56363eb94f73f7edbae04c9c1776402f4 Merge branch into tip/master: 'perf/urgent'
+01fe20843ceff3fa5a56e0a13171ac414e32a3dd Merge branch into tip/master: 'x86/urgent'
+4b06f06491e3392927eda6d94a4bec7d5bd0152a Merge branch into tip/master: 'perf/merge'
+e37c8cff81eccfd583318920854749ccc2260621 Merge branch into tip/master: 'core/entry'
+4d89473d5446e914528b558cc3410d5a2dcffccf Merge branch into tip/master: 'irq/cleanups'
+a209ab61e5954fcedea8530d5cda6df46c75d799 Merge branch into tip/master: 'irq/core'
+35a04e30a71ec15e47a757d3aafaa123068b62d3 Merge branch into tip/master: 'irq/drivers'
+97e14ffba57adba4a1088a6121801bed95482e8a Merge branch into tip/master: 'irq/msi'
+465770880a8310f60096221da56af105eb07fbad Merge branch into tip/master: 'locking/core'
+44e59f0e2858cb1334716aa6c1f710fc7f42ec9d Merge branch into tip/master: 'locking/futex'
+295ffd6892796d1284b8d89323d46cad813e0e78 Merge branch into tip/master: 'objtool/core'
+e41b987ce03af2dcd715ecfd529b17041f47d983 Merge branch into tip/master: 'perf/core'
+895942f85b21a2f16d1404800e3768eed7402542 Merge branch into tip/master: 'sched/core'
+20af9128f7af9d37d41b0ba95f17a2281f4b5f11 Merge branch into tip/master: 'timers/cleanups'
+702788308f503e21d4b611b99e33f83c976635f1 Merge branch into tip/master: 'timers/core'
+cb0e342a2a00e32066049def8003ffeecffa249f Merge branch into tip/master: 'x86/cleanups'
+a79b6fb613ed385d1f11bafbf18cfe62fff42897 Merge branch into tip/master: 'x86/core'
+373670c35f0a3a60581c96c6a3bcf56315513951 Merge branch into tip/master: 'x86/debug'
+56325d9da60191ab0598a3ebeb78463ba44cb3bb Merge branch into tip/master: 'x86/entry'
+dbf09c72fd7cb8d69cf1c525386369a0814240d8 Merge branch into tip/master: 'x86/kconfig'
+a3fd3baf25e6d45c06cddc0b1de685f0a24694a8 Merge branch into tip/master: 'x86/mtrr'
+46a647f4a4a1c31799269503cd82cf9d2a674e45 Merge branch into tip/master: 'x86/sev'
+68d90b94f97a0b95441e614361a3bfe7c9fc8c12 Merge branch into tip/master: 'x86/sgx'
+
+--===============5659295192819645521==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-0140c1fdf198-01fe20843cef.txt
 
 2d7f844ffac683dea7b1697c016e63081199383e NFSv4: Handle fatal ENETDOWN and ENETUNREACH errors
 440caf8ee2743d44ae5a6da209854188110993fa NFSv4/pnfs: Layoutreturn on close must handle fatal networking errors
@@ -116,6 +151,8 @@ dcd21b609d4abc7303f8683bce4f35d78d7d6830 NFS: Avoid flushing data while holding 
 450d2f6e8829b8a153e58b37c697a4ab656e0801 Merge tag 'nfs-for-6.15-2' of git://git.linux-nfs.org/projects/trondmy/linux-nfs
 12b6c62c038e85354154aee4eb2cf7a2168b3ecc Merge tag 'drm-fixes-2025-05-17' of https://gitlab.freedesktop.org/drm/kernel
 172a9d94339cea832d89630b89d314e41d622bd8 Merge tag '6.15-rc6-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
-360324486da664b56ff14dc03404f16ff9f02292 Merge branch 'linus'
+367ea7aa941de398da8ad226f63636d6c0642eb5 Merge branch into tip/master: 'irq/urgent'
+08cc2fa56363eb94f73f7edbae04c9c1776402f4 Merge branch into tip/master: 'perf/urgent'
+01fe20843ceff3fa5a56e0a13171ac414e32a3dd Merge branch into tip/master: 'x86/urgent'
 
---===============1504413833366271632==--
+--===============5659295192819645521==--
