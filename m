@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Sat, 17 May 2025 16:37:51 -0000
-Message-Id: <174749987194.1896584.13433051589673931952@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+Date: Sat, 17 May 2025 16:40:01 -0000
+Message-Id: <174750000123.1898692.11848253826924271895@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+user: andy
 changes:
-  - ref: refs/heads/master
-    old: 83138ad39a0c58262beabb6d8d6908e95d4db87d
-    new: 6d4c2381d0165ee87e33a15784d9ad24946c935d
+  - ref: refs/heads/for-next
+    old: 9161dec6e155f81a25c2ebc61e0d462ea9d85f37
+    new: 288c1516ca117f54a965b960090d8d404e4988a1
     log: |
-         6d4c2381d0165ee87e33a15784d9ad24946c935d foo
+         288c1516ca117f54a965b960090d8d404e4988a1 gpiolib-acpi: Update file references in the Documentation and MAINTAINERS
          
