@@ -1,21 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Sat, 17 May 2025 17:20:42 -0000
-Message-Id: <174750244221.1933936.15577298796665940057@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Sat, 17 May 2025 17:46:40 -0000
+Message-Id: <174750400073.1954192.7622451411824840159@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wsa/linux
-user: wsa
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/i2c/boardinfo_of_node
-    old: 4c2f7ecfd7ccb2e3c3c74cae49f274cd4b5eb226
-    new: 5b35bd43a6986881136170d99481f9e01b79cf27
+  - ref: refs/heads/pci/xgene-fixes
+    old: 7951c37e6f9ac324387ead8a3d891d7040c3bba1
+    new: c6980399484bf12298b068419d522a39387696ad
     log: |
-         203f35847037c7cc950e2c473e1ff2647533ae0a i2c: powermac: convert of_node usage to fwnode
-         b203a1381b9107db208573e5a9419a2ee21c78db i2c: use only 'fwnode' for client devices
-         5b35bd43a6986881136170d99481f9e01b79cf27 i2c: remove 'of_node' member from i2c_boardinfo
+         87f3eefdb18da6fd939fb1a0e024c29353292ed1 PCI: xgene: Drop superfluous fields from xgene_msi
+         bfff969033e1f98d86044a829c00e40abc688c94 PCI: xgene: Sanitise MSI allocation and affinity setting
+         31f519599fbd652569ffe7e33d6551e659b4c4bf PCI: xgene: Defer probing if the MSI widget driver hasn't probed yet
+         a5714fe807fb86914e81bd7838bae46ff9329a0d PCI: xgene: Probe as a standard platform driver
+         7ce3fb2b989d36c09dfd093360055eaac68a7330 PCI: xgene: Drop useless conditional compilation
+         c6980399484bf12298b068419d522a39387696ad PCI: xgene: Drop XGENE_PCIE_IP_VER_UNKN
          
