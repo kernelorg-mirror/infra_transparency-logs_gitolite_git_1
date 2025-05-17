@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7149818615780765513=="
+Content-Type: multipart/mixed; boundary="===============6994368418707595250=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Sat, 17 May 2025 02:03:24 -0000
-Message-Id: <174744740433.1180826.10598279409695546987@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Sat, 17 May 2025 02:03:31 -0000
+Message-Id: <174744741166.1181126.16050424248451674160@gitolite.kernel.org>
 
---===============7149818615780765513==
+--===============6994368418707595250==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 8cdf00b843ea3ca0e920176937bbc906b0b5bb04
     log: revlist-f3061d526714-8cdf00b843ea.txt
 
---===============7149818615780765513==
+--===============6994368418707595250==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -44,4 +44,4 @@ bcfab08db7fb38bf292838f2b693233fb4f486eb perf intel-tpebs: Filter non-workload s
 208c0e16834472bb3a4b456a69dbdd1ad05eab49 perf record: Add 8-byte aligned event type PERF_RECORD_COMPRESSED2
 8cdf00b843ea3ca0e920176937bbc906b0b5bb04 perf record: Fix a asan runtime error in util/maps.c
 
---===============7149818615780765513==--
+--===============6994368418707595250==--
