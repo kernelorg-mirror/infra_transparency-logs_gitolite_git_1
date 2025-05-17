@@ -1,56 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============4103415396990414779=="
+Content-Type: multipart/mixed; boundary="===============6832078244237382018=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sat, 17 May 2025 06:54:04 -0000
-Message-Id: <174746484464.1419104.1590577990319171016@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Sat, 17 May 2025 07:16:44 -0000
+Message-Id: <174746620407.1438546.11369603408693494816@gitolite.kernel.org>
 
---===============4103415396990414779==
+--===============6832078244237382018==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/master
-    old: 68bc0c93fa993ac266626983a942219ea7b4a6d3
-    new: 0116a988997787c62cf838c207b19532e85d02ab
-    log: |
-         0116a988997787c62cf838c207b19532e85d02ab update its patch
-         
+  - ref: refs/heads/la57-cpucap-v4
+    old: bbd7222232115d4b07d2e2d23bb0242ae58dc4a5
+    new: cb7653f41d651d6ab407ee453b968c210a4e5b7b
+    log: revlist-bbd722223211-cb7653f41d65.txt
 
---===============4103415396990414779==
+--===============6832078244237382018==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-bbd722223211-cb7653f41d65.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1747464764 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1747464837-cccbf73004309d863e3cfbb239c971420e2e05a4
+1adf711919de7c9e1b281a4d9cd9e3a81f3a70f7 x86/mm: Fix kernel-doc descriptions of various pgtable methods
+baad9190e6465fdbe458f59cf04c2b2032ec4797 x86/msr: Add rdmsrl_on_cpu() compatibility wrapper
+cdc8be31cb324a0c52529f192e39a44abcfff513 x86/cpuid: Move CPUID(0x2) APIs into <cpuid/api.h>
+968e3000680713f712bcf02c51c4d7bb7d4d7685 x86/cpuid: Set <asm/cpuid/api.h> as the main CPUID header
+2f924ca36d2f788d40a57ea48825ff51cba4e700 x86/cpuid: Rename have_cpuid_p() to cpuid_feature()
+e7df7289f1481993c9f326aea801323a1d3d0c5f x86/cpuid: Rename cpuid_get_leaf_0x2_regs() to cpuid_leaf_0x2()
+4b21e71ad6cc93d39d78176de269a0dc9a318fc6 x86/cacheinfo: Rename CPUID(0x2) descriptors iterator parameter
+119deb95b0bc2793d4b002549444ce0aec346b4f x86/cpu/intel: Rename CPUID(0x2) descriptors iterator parameter
+3bf8ce828419810f45a272948805cf9a2b685529 x86/cpuid: Rename hypervisor_cpuid_base()/for_each_possible_hypervisor_cpuid_base() to cpuid_base_hypervisor()/for_each_possible_cpuid_base_hypervisor()
+c309b2705a4684e5c8e97e21bc9b14e2b539b87a x86/mm/64: Always use dynamic memory layout
+4375decf50f74878e73c29c9dcd8af51dd3f7376 x86/bugs: Fix indentation due to ITS merge
+2aeeea68118a9eb6c96df42909687428c8a1fe42 x86/cpu: Use a new feature flag for 5 level paging
+9106d4bbd7414581032ed65d8bd7f9168601d46b x86/cpu: Move CPU capability override arrays from BSS to __ro_after_init
+1fbac592bcb76d181ea9d800d0421b68757a0e72 x86/cpu: Allow caps to be set arbitrarily early
+977b5b0f348aa69c2f641106fc3dca3ce3e6465b x86/boot: Set 5-level paging CPU cap before entering C code
+08318640eb35e61eae01bed3d78d566c1d493b2e x86/boot: Drop the early variant of pgtable_l5_enabled()
+cb7653f41d651d6ab407ee453b968c210a4e5b7b x86/boot: Drop 5-level paging related variables and early updates
 
-68bc0c93fa993ac266626983a942219ea7b4a6d3 0116a988997787c62cf838c207b19532e85d02ab refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgoMjwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BqQQAMA5mMaI2PhKMMRrLrCR
-CQjr9a2yPrLKy03A9tiks46Woaac80rU1nDDkKDScS305bR7us1OIGsopQGhzKj6
-sWuyF2WH6hcN21vajPO4lBfFoWeZZ1xl+ktnC5BgSCwvj5vDfFNq5oUAd7jk9D4u
-CaUiCveM2ypSQwufGP0z2iozw/+Cbxn5S+jVW7X3mt5JZNNk6su1oBROCsEjUd/x
-es/X0VA6/bkieUFE+f6aGF57c2Z+8zqkRuvy9FX4fJe+zZlJkKHQw3/VXJC7R5PP
-BzxODEfREgwtvDeU5neT2e8r+TmwvrzhNNdik7JmPRl2vD9oJaqrJzMkHgYRGoVQ
-mxhbpozgmiFPF9xjM4GLMh8rvpxMBfGco9h4LXLbIyLpTrJ9YGMLJOp4B2LklwD8
-vNa5hEUHUhP4bTdolwgjdUKneePN5YxsO0e1eACcCeRyWlLOWRAH+cSRriO9bTnI
-77i/Jj3t0+yaZcdE8Gulqhn6eSJ4F97bvIMfcy0exjS8+2AIuCYX2TIgUT11hr/R
-+w9WMgEOZ5+JAi+Jsg5J3TyH1/kWChPNxe20ONOOMaqM9kue64Ys+FEpy3yJVzJ9
-CCCDTDr7zXkKbLLKrMVHYuQ484fmvEW5MrSr2xnL6hcrdNbIhuEs+ilwKm9Ofoz8
-tqXlxy7cuV/Z+vyvAHbtqmmD
-=VfKJ
------END PGP SIGNATURE-----
-
---===============4103415396990414779==--
+--===============6832078244237382018==--
