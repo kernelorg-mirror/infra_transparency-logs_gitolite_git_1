@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2669195274277097677=="
+Content-Type: multipart/mixed; boundary="===============8113863622056070689=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/modules/linux
-Date: Sun, 18 May 2025 11:55:04 -0000
-Message-Id: <174756930408.2971065.840506157970745506@gitolite.kernel.org>
+Date: Sun, 18 May 2025 11:55:32 -0000
+Message-Id: <174756933270.2971569.9277512616467491779@gitolite.kernel.org>
 
---===============2669195274277097677==
+--===============8113863622056070689==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/modules/linux
 user: ppavlu
 changes:
-  - ref: refs/heads/master
-    old: 92a09c47464d040866cf2b4cd052bc60555185fb
+  - ref: refs/heads/modules-fixes
+    old: a6aeb739974ec73e5217c75a7c008a688d3d5cf1
     new: 82f2b0b97b36ee3fcddf0f0780a9a0825d52fec3
-    log: revlist-92a09c47464d-82f2b0b97b36.txt
+    log: revlist-a6aeb739974e-82f2b0b97b36.txt
 
---===============2669195274277097677==
+--===============8113863622056070689==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-92a09c47464d-82f2b0b97b36.txt
+Content-Disposition: attachment; filename=revlist-a6aeb739974e-82f2b0b97b36.txt
 
 549d8994447f2f628c6cedd139d53926bdfee881 media: vivid: fix FB dependency
 9df181c8de1b6b285556f80bfd02584f3457f32e media: i2c: lt6911uxe: Fix Kconfig dependencies:
@@ -230,7 +230,6 @@ cd9c058489053e172a6654cad82ee936d1b09fab xen: swiotlb: Use swiotlb bouncing if k
 90989869baae47ee2aa3bcb6f6eb9fbbe4287958 xenbus: Allow PVH dom0 a non-local xenstore
 1f0304dfd9d217c2f8b04a9ef4b3258a66eedd27 xenbus: Use kref to track req lifetime
 d76bb1ebb5587f66b0f8b8099bfbb44722bc08b3 Merge tag 'erofs-for-6.15-rc6-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
-a6aeb739974ec73e5217c75a7c008a688d3d5cf1 module: ensure that kobject_put() is safe for module type kobjects
 3ca02e63edccb78ef3659bebc68579c7224a6ca2 smb: client: Avoid race in open_cached_dir with lease breaks
 473f09f362e5979efbff40c9bbce58892ad39d66 bcachefs: journal_shutdown is EROFS, not EIO
 2fea3aa76e352cd071bee71e5c43da339639b310 bcachefs: Filter out harmless EROFS error messages
@@ -381,4 +380,4 @@ ecb9194d1724d1265c8cfe50fcb1dad718476e5e Merge tag 'mips-fixes_6.15_1' of git://
 cd802e7e5f1e77ae68cd98653fb70a97189eb937 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 82f2b0b97b36ee3fcddf0f0780a9a0825d52fec3 Linux 6.15-rc6
 
---===============2669195274277097677==--
+--===============8113863622056070689==--
