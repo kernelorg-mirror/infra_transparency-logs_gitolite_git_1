@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8113863622056070689=="
+Content-Type: multipart/mixed; boundary="===============5881033470269346855=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/modules/linux
-Date: Sun, 18 May 2025 11:55:32 -0000
-Message-Id: <174756933270.2971569.9277512616467491779@gitolite.kernel.org>
+Date: Sun, 18 May 2025 11:56:19 -0000
+Message-Id: <174756937932.2972141.7711529107196992608@gitolite.kernel.org>
 
---===============8113863622056070689==
+--===============5881033470269346855==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/modules/linux
 user: ppavlu
 changes:
-  - ref: refs/heads/modules-fixes
-    old: a6aeb739974ec73e5217c75a7c008a688d3d5cf1
-    new: 82f2b0b97b36ee3fcddf0f0780a9a0825d52fec3
-    log: revlist-a6aeb739974e-82f2b0b97b36.txt
+  - ref: refs/heads/modules-next
+    old: 20b3cad07f3c12a631aa85cfd513ce3a5d2477bb
+    new: a0b018a495a3f68693e45ab570fae8191d907d86
+    log: revlist-20b3cad07f3c-a0b018a495a3.txt
 
---===============8113863622056070689==
+--===============5881033470269346855==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a6aeb739974e-82f2b0b97b36.txt
+Content-Disposition: attachment; filename=revlist-20b3cad07f3c-a0b018a495a3.txt
 
 549d8994447f2f628c6cedd139d53926bdfee881 media: vivid: fix FB dependency
 9df181c8de1b6b285556f80bfd02584f3457f32e media: i2c: lt6911uxe: Fix Kconfig dependencies:
@@ -379,5 +379,9 @@ b9e62a2b8ffd2bc39b5838e163c41d8a08dae19a Merge tag 'x86-urgent-2025-05-11' of gi
 ecb9194d1724d1265c8cfe50fcb1dad718476e5e Merge tag 'mips-fixes_6.15_1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 cd802e7e5f1e77ae68cd98653fb70a97189eb937 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 82f2b0b97b36ee3fcddf0f0780a9a0825d52fec3 Linux 6.15-rc6
+7bba3167c08a3bebda6e5fcc0179482b4517ba5b module: Constify parameters of module_enforce_rwx_sections()
+f7984942630b0508c44276ceaa3a3a47d8fd3d2c module: Add a separate function to mark sections as read-only after init
+60b57b9cb002df575a54635da1c55f361533deb7 module: Make .static_call_sites read-only after init
+a0b018a495a3f68693e45ab570fae8191d907d86 module: Remove outdated comment about text_size
 
---===============8113863622056070689==--
+--===============5881033470269346855==--
