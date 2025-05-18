@@ -1,93 +1,78 @@
-Content-Type: multipart/mixed; boundary="===============6976386483011033456=="
+Content-Type: multipart/mixed; boundary="===============4842718099737982777=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Sun, 18 May 2025 03:38:57 -0000
-Message-Id: <174753953732.2426207.10652090049728518882@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Sun, 18 May 2025 04:48:13 -0000
+Message-Id: <174754369391.2480962.12538554700695913734@gitolite.kernel.org>
 
---===============6976386483011033456==
+--===============4842718099737982777==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/powerpc/linux
-user: maddy
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/clk/linux
+user: sboyd
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/merge
-    old: c6127e778e8e7a30329c929c19cf799cde965ac1
-    new: a9d887695c86d44fd23f612549cb8dc78a3a0f22
-    log: revlist-c6127e778e8e-a9d887695c86.txt
-  - ref: refs/heads/next
-    old: 5a821e2d69e26b51b7f3740b6b0c3462b8cacaff
-    new: f15e87340afd4f5a35575e112aa4bdb0a138aa26
-    log: revlist-5a821e2d69e2-f15e87340afd.txt
+  - ref: refs/heads/clk-fixes
+    old: 2bc3ada0906f27fc9fe9bd6e082c3d5d0ee83e47
+    new: 6a56880562d470b7bbdd1d955ff3fad4ad73a74f
+    log: |
+         4a9c3c3215491f25bc66d615faa921c814b1a479 clk: sunxi-ng: fix order of arguments in clock macro
+         3e14c7207a975eefcda1929b2134a9f4119dde45 clk: s2mps11: initialise clk_hw_onecell_data::num before accessing ::hws[] in probe()
+         98e6da673cc6dd46ca9a599802bd2c8f83606710 clk: sunxi-ng: d1: Add missing divider for MMC mod clocks
+         6a56880562d470b7bbdd1d955ff3fad4ad73a74f Merge tag 'sunxi-clk-fixes-for-6.15' of https://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into clk-fixes
+         
+  - ref: refs/heads/clk-next
+    old: da0d5e233780f783be8820c00a14533faed09c86
+    new: 32d09091149927fce4b5f9fe9e8375117cd38006
+    log: |
+         ab4999906aed5b97985d47e52f7465358cf920e6 clk: socfpga: clk-pll: Optimize local variables
+         0248bfb2557932b27d3e1375a3dc6902127b42bc clk: socfpga: stratix10: Optimize local variables
+         4a9c3c3215491f25bc66d615faa921c814b1a479 clk: sunxi-ng: fix order of arguments in clock macro
+         6bbc69e58aa83653f2e9ce4ee72e6d34c0e30e2e Merge tag 'socfpga_clk_updates_for_6.16_v2' of git://git.kernel.org/pub/scm/linux/kernel/git/dinguyen/linux into clk-socfpga
+         63716dcc9477bbc60f8781de9b75d449f4e9c475 Merge branch 'clk-socfpga' into clk-next
+         3e14c7207a975eefcda1929b2134a9f4119dde45 clk: s2mps11: initialise clk_hw_onecell_data::num before accessing ::hws[] in probe()
+         98e6da673cc6dd46ca9a599802bd2c8f83606710 clk: sunxi-ng: d1: Add missing divider for MMC mod clocks
+         6a56880562d470b7bbdd1d955ff3fad4ad73a74f Merge tag 'sunxi-clk-fixes-for-6.15' of https://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into clk-fixes
+         32d09091149927fce4b5f9fe9e8375117cd38006 Merge branch 'clk-fixes' into clk-next
+         
+  - ref: refs/heads/clk-socfpga
+    old: 0000000000000000000000000000000000000000
+    new: 6bbc69e58aa83653f2e9ce4ee72e6d34c0e30e2e
 
---===============6976386483011033456==
+--===============4842718099737982777==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1747539552 +0530
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1747539519-c8f6eb1f17f8b8f2d56f7a4fdc2ce67a3ea0c576
+pusher Stephen Boyd <sboyd@kernel.org> 1747543724 -0700
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/clk/linux.git
+nonce 1747543691-45696206e10d3bc77b0f63c75a14aa8ce9686718
 
-c6127e778e8e7a30329c929c19cf799cde965ac1 a9d887695c86d44fd23f612549cb8dc78a3a0f22 refs/heads/merge
-5a821e2d69e26b51b7f3740b6b0c3462b8cacaff f15e87340afd4f5a35575e112aa4bdb0a138aa26 refs/heads/next
+2bc3ada0906f27fc9fe9bd6e082c3d5d0ee83e47 6a56880562d470b7bbdd1d955ff3fad4ad73a74f refs/heads/clk-fixes
+da0d5e233780f783be8820c00a14533faed09c86 32d09091149927fce4b5f9fe9e8375117cd38006 refs/heads/clk-next
+0000000000000000000000000000000000000000 6bbc69e58aa83653f2e9ce4ee72e6d34c0e30e2e refs/heads/clk-socfpga
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmgpVmAACgkQpnEsdPSH
-ZJQ1JQ//cCtvdxSlbz+/Rv65m4JkWfi9k+emRCtyWODTin5JPg81uXg9AJyM8HgX
-40SjZR3Rt6/zas2lelEHgOuVZV6X2oGn1Of5NE7nirmQv24d97moo3qbMLE6V1c7
-K4JCuNcJzGWxbWZ79laqIyzdiTUvGBBACrPSUzCncu9jAJ32uLjFlNfKju3U/LwR
-gPfE7LMP/og/6e69Ki3RX0w32ZERapyOw3uFffPEqIK3GDlLzPSmXjfaomHqv4wT
-+QjGaPn0UqJOW2XyM1efu0Iu91yPPiFOZKmw16vc0JVToLKJI4weSXp4O1Fyxf7N
-IGh92aNxIlKFJ289fRmUKQMB4feosnre1pFUqc4mAFM7adlgD7hxD9uB1tgRXdgL
-ulaE6RfNaXyPi54JjowvZ9x13B9nc1sVA+7OQQ3eYwSMbgqJpJj/qc/OPPSyFj7k
-oqPF09nyvkERSnAB9IiGPh99bwZNwZ8RFS2LFi2WP86drmu4Y+kw8T+s6i4Z2dqv
-8x8mlEKPgULpdfVAXIgf4c+YozEtx/Ek3dKLjzBYIgKVKR0+7GL1Szghw/IFGZ/q
-PpxudUPV5H3L2Aoia9o3O/8TRnBgt9r+KHMTSYAzn22l4zxmmoH3XUITWGRc8X5Y
-tJPt9YiNve5SMTRvUKDETcNdHIUEIvWBLfbbIdXDFhsMwgNAa5I=
-=HepA
+iQJFBAABCAAvFiEE9L57QeeUxqYDyoaDrQKIl8bklSUFAmgpZqwRHHNib3lkQGtl
+cm5lbC5vcmcACgkQrQKIl8bklSUGgg/9Hdl8Byn/AqGyaxtrSoY3R7dSlU28lKnD
+ABSH7AyHF1ti7bVxRLlEJF2hGyxTWvXHaOJv4ym3k1LfJW0B9e2TMdrd1WxxUfbi
+o2XiKWZ0xGlpxRKrhzLyBCAms4Mp5Gw17kjo85WAP557WskbJ6OnGflGI+bd9GGs
+ngFOdcJO4jPQ6od70HMb3AetA4X0EsP9ipm11rM8qoh/C2eXduEDonUrNobKUY0d
+mXhFDVgr8MBh27LQ19e/gcPCaZWTAtbBvTlyqAW/X4lR9Edot5k0b3xDKnURa701
+dUftTXgQJFxvxluF2RQLLdFrvsMdKvwk/My1CGzHxdpI5MHtI1djaZs4WNui3lCc
+zZcinV3t3Q+cHxwLxqff6/DpWqeV20huVcWtN6Bk+OkaeWAmzU5+YkZHB9AS0atK
+jS9e+ycwcdOGHgGGRyAb39caaNYmCQomoQVjpnD3RSGFad8PeAKd61/JJWxMm+rv
+EFX/La1yIyfDbZCPiqy8pGMO6RE/Oe3kTBYk3xpmOB9BKLuRo+a6n/T6rd2hbl0y
+/FbjarUxK4J0ob7TMnTAOl5lbUHNu0lvJ+DH/gwfU8ddk8oN0dBQHt5W2CEFMNB/
+q0WCpdJuA/EhGDR4REgUNvYq8SvHxATUOCzxF9xGetCg0tD2tQtL5qfQPYMDwcAW
+5OBBtU/x54Q=
+=WddV
 -----END PGP SIGNATURE-----
 
---===============6976386483011033456==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c6127e778e8e-a9d887695c86.txt
-
-f9cb1476ade41ba859e6f41323e76284b297d7c2 powerpc/8xx: Reduce alignment constraint for kernel memory
-ccdb36cbe65fe05fd5349c7ee5a59e53be7fe195 KVM: PPC: Book3S HV: Fix IRQ map warnings with XICS on pSeries KVM Guest
-2c54e431574f829ec0895d5104575b3f209eae28 powerpc/pseries/htmdump: Include header file to get is_kvm_guest() definition
-8bc3252436d371e7ac505f9f2685611090680a48 powerpc: Transliterate author name and remove FIXME
-93bd4a80efeb521314485a06d8c21157240497bb powerpc/kernel: Fix ppc_save_regs inclusion in build
-d36e3f11fe8b55b801bdbe84ad51f612b1bd84da powerpc/pseries/iommu: Fix kmemleak in TCE table userspace view
-7e99a4a60d8fc9b24a3f9632011bf7e197f1aff9 powerpc: Replace strcpy() with strscpy() in proc_ppc64_init()
-ff27a9a0c66cfeb6a15d8f2ab4754f312ecd71e7 powerpc/mm/fault: Use str_write_read() helper function
-f36a28192e3cbef6952c1b82d4ef78f26a0d2cad powerpc/powermac: Use str_enabled_disabled() and str_on_off() helpers
-f15e87340afd4f5a35575e112aa4bdb0a138aa26 powerpc/iommu: Use str_disabled_enabled() helper
-a9d887695c86d44fd23f612549cb8dc78a3a0f22 Automatic merge of 'next' into merge (2025-05-18 09:08)
-
---===============6976386483011033456==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5a821e2d69e2-f15e87340afd.txt
-
-f9cb1476ade41ba859e6f41323e76284b297d7c2 powerpc/8xx: Reduce alignment constraint for kernel memory
-ccdb36cbe65fe05fd5349c7ee5a59e53be7fe195 KVM: PPC: Book3S HV: Fix IRQ map warnings with XICS on pSeries KVM Guest
-2c54e431574f829ec0895d5104575b3f209eae28 powerpc/pseries/htmdump: Include header file to get is_kvm_guest() definition
-8bc3252436d371e7ac505f9f2685611090680a48 powerpc: Transliterate author name and remove FIXME
-93bd4a80efeb521314485a06d8c21157240497bb powerpc/kernel: Fix ppc_save_regs inclusion in build
-d36e3f11fe8b55b801bdbe84ad51f612b1bd84da powerpc/pseries/iommu: Fix kmemleak in TCE table userspace view
-7e99a4a60d8fc9b24a3f9632011bf7e197f1aff9 powerpc: Replace strcpy() with strscpy() in proc_ppc64_init()
-ff27a9a0c66cfeb6a15d8f2ab4754f312ecd71e7 powerpc/mm/fault: Use str_write_read() helper function
-f36a28192e3cbef6952c1b82d4ef78f26a0d2cad powerpc/powermac: Use str_enabled_disabled() and str_on_off() helpers
-f15e87340afd4f5a35575e112aa4bdb0a138aa26 powerpc/iommu: Use str_disabled_enabled() helper
-
---===============6976386483011033456==--
+--===============4842718099737982777==--
