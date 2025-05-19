@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Mon, 19 May 2025 13:52:03 -0000
-Message-Id: <174766272373.111221.12689263643216349389@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Mon, 19 May 2025 13:52:37 -0000
+Message-Id: <174766275755.111741.6554324938508457706@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: mikulas
 changes:
-  - ref: refs/heads/dev
-    old: 12bf25d1659b1ec55e44fad2485155707062df79
-    new: 6d44625b86c88aedcc4485fc81875522ffbfa27d
+  - ref: refs/heads/dm-6.16
+    old: e93912786e50804e7c53456da75d586cace8732f
+    new: 5c977f1023156938915c57d362fddde8fad2b052
     log: |
-         6d44625b86c88aedcc4485fc81875522ffbfa27d erofs: add 'fsoffset' mount option to specify filesystem offset
+         3da732687d72078e52cc7f334a482383e84ca156 dm vdo indexer: don't read request structure after enqueuing
+         241b9b584d50e01f7eb50c0555aa570502bcc8c5 dm-zone: Use bdev_*() helper functions where applicable
+         5c977f1023156938915c57d362fddde8fad2b052 dm-mpath: Don't grab work_mutex while probing paths
          
