@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3374484619463092307=="
+Content-Type: multipart/mixed; boundary="===============0132960661860776257=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 19 May 2025 17:46:52 -0000
-Message-Id: <174767681217.318762.1342054920519000262@gitolite.kernel.org>
+Date: Mon, 19 May 2025 17:47:00 -0000
+Message-Id: <174767682017.319040.2826546698791657352@gitolite.kernel.org>
 
---===============3374484619463092307==
+--===============0132960661860776257==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: 172e1570e1d31260f11f43e828d98aff020726a8
+  - ref: refs/heads/pending
+    old: 904fa6c97ee1d934bfadf2d6c972fc3b3600997e
     new: 241dfac96279ce9de47a6d4478dd3d41f262835f
-    log: revlist-172e1570e1d3-241dfac96279.txt
+    log: revlist-904fa6c97ee1-241dfac96279.txt
 
---===============3374484619463092307==
+--===============0132960661860776257==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-172e1570e1d3-241dfac96279.txt
+Content-Disposition: attachment; filename=revlist-904fa6c97ee1-241dfac96279.txt
 
 3126f1c52af5bc8d40d2c984907daeb501f6b739 wifi: ath12k: Fix invalid RSSI values in station dump
 b602f1f2d6d4d4197aec137185875ad8b155747f wifi: ath12k: change soc name to device name
@@ -39,4 +39,4 @@ a9610bc482ef9c77ee0f3b7c077e0b49732769b8 wifi: ath12k: support usercase-specific
 246eb353fbe9136ab3dd2ef979764a13984989e2 wifi: ath12k: fix memory leak in WMI firmware stats
 241dfac96279ce9de47a6d4478dd3d41f262835f wifi: ath12k: Fix scan initiation failure handling
 
---===============3374484619463092307==--
+--===============0132960661860776257==--
