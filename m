@@ -1,25 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-Date: Mon, 19 May 2025 15:23:25 -0000
-Message-Id: <174766820527.190852.12812874599900133302@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Mon, 19 May 2025 15:23:31 -0000
+Message-Id: <174766821117.191149.17863894599667533542@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-user: tzungbi
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/dev
-    old: 25d9bfa873b119171420a61f6d6850f52849e4dd
-    new: 2ff698737741e8c283b4929b11daa326262d81b5
+  - ref: refs/heads/main
+    old: c39b1bb5bc6db7300b8a4b4fdde73f7f1d9dfbcc
+    new: 239af1970bcb039a1551d2c438d113df0010c149
     log: |
-         fdc82a9730edb747f45e4767255ae6f6e8ec3a92 platform/chrome: kunit: cros_ec_i2c: Add tests with ftrace stub
-         c91111b90f6652d8219e95c2af651539fe4a0e4c platform/chrome: kunit: cros_ec_i2c: Use static stub instead
-         bc00217627810207452bf94e27344ff414c003cd platform/chrome: kunit: cros_ec_spi: Add tests with ftrace stub
-         49fb5f33f3b963fabdededcbd0f24ac40f15e608 platform/chrome: kunit: cros_ec_spi: Call .probe() directly
-         c0411c078bca1c87e0ad72f683de25436f31e1b2 platform/chrome: kunit: cros_ec_spi: add tests with ftrace stub (attempt 2)
-         100411f3f09afcb1ef82a1fc6c09084ad56ef1cf platform/chrome: kunit: cros_ec_uart: add tests with ftrace stub
-         2ff698737741e8c283b4929b11daa326262d81b5 mfd: cros_ec: add Kunit tests
+         c9e455581e2ba87ee38c126e8dc49a424b9df0cf ptp: ocp: Limit signal/freq counts in summary output functions
+         6b1d3c5f675cc794a015138b115afff172fb4c58 team: grab team lock during team_change_rx_flags
+         ba54bce747fa9e07896c1abd9b48545f7b4b31d2 net: dsa: microchip: linearize skb for tail-tagging switches
+         91b6dbced0ef1d680afdd69b14fc83d50ebafaf3 bridge: netfilter: Fix forwarding of fragmented packets
+         43f0999af011fba646e015f0bb08b6c3002a0170 vmxnet3: update MTU after device quiesce
+         d6d2b0e1538d5c381ec0ca95afaf772c096ea5dc net: airoha: Fix page recycling in airoha_qdma_rx_process()
+         c46286fdd6aa1d0e33c245bcffe9ff2428a777bd mr: consolidate the ipmr_can_free_table() checks.
+         239af1970bcb039a1551d2c438d113df0010c149 llc: fix data loss when reading from a socket in llc_ui_recvmsg()
          
