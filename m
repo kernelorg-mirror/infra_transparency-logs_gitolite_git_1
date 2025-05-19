@@ -1,56 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============6864265749618688920=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 19 May 2025 13:54:42 -0000
-Message-Id: <174766288236.113684.7548939155910142082@gitolite.kernel.org>
-
---===============6864265749618688920==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Mon, 19 May 2025 13:56:03 -0000
+Message-Id: <174766296388.116381.7009175370452316233@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/master
-    old: 07a78e230bd513da3a6a0ed65b0da5fe4ad7dfb8
-    new: 220869395593e2aa3bba295244ea53bf06c132c9
+  - ref: refs/heads/la57-cpucap-v5
+    old: 8327084086df5964ea0483ebc9e8a50382a45378
+    new: a65ae82e5c9bb79ebcd82834a3dad28375eb1dca
     log: |
-         220869395593e2aa3bba295244ea53bf06c132c9 6.6-stable patches
+         9220aa8a6779b586ef11bcd5473d103f7cf60756 x86/msr: Remove a superfluous inclusion of <asm/asm.h>
+         54c2c688cd9305bdbab4883b9da6ff63f4deca5d x86/xen/msr: Fix uninitialized variable 'err'
+         da07aebb8490ded2ee65d4375ba22255573f0143 x86/boot: Assign boot CPU's CR4 shadow before entering C code
+         33fb27546ca93188ab61c806afd4b2d8754819f2 x86/mm: Move struct tlbstate into its own header
+         e7b714e92731307609f62f80dd3ebd573072b261 x86/boot: Test the shadow CR4.LA57 bit for 5 level paging state
+         d5438399dfd940067bebc0703a50ce8cea912ca4 x86/boot: Drop the early variant of pgtable_l5_enabled()
+         a65ae82e5c9bb79ebcd82834a3dad28375eb1dca x86/boot: Drop 5-level paging related variables and early updates
          
-
---===============6864265749618688920==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1747662912 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1747662879-22967b180e453b0e629e96d809cc74aa284ec4dc
-
-07a78e230bd513da3a6a0ed65b0da5fe4ad7dfb8 220869395593e2aa3bba295244ea53bf06c132c9 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgrOEAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+y4YQAJZf39MuqNmPApkYs5Xd
-TTBXLrb/YGdoW8Or2MxE8T+7l9xPeH+LTeW4zA7RbAus+/WgyVRvxBqL0vs49eR+
-DjgbJrfE9uyDRJlxfL9f02+7fhLqn7zAsvWuKZ+lny57KRWOlXxdKrnLrMjajrhV
-lHzJxlHRVwTBTYqmYR8HGWZLpI8uGbOIaN8T6Yu2F6ZVyInBeX+RRdKzfA3gGKku
-EY5h5qs9crP6UEKgUBi/sHFZc/b6dwvFAMhawbfeTioIDylLT0CZNrgsYUAQaaal
-oGzY8CAT/owwM4EpuDSCMvhbyf3bAy3B2TFnO3QAASPU0xcEUurnVIDpK/wm7k8d
-cGcgFPXrc1D3LvcKreZXbsjnOMps1vur0o6sDMRgHbtqcZAxlt1oQ484RPUpQxOs
-BmESdo5sg5qTI9/nm34UN8ndz15TkVTHUnY+vIeY7l5HnnE35hZWHlDP9ITyr8Jt
-g+X2zces3/LIE+MXrWDBx3qc9JpjcB/q/KDSzeunKKvnwvkH5YMBkGFXKqvUgYPH
-zyGlwrigdzr1eul9qzl8FpL/BKWWY+BhL+nayCx8MqAZF+4sVuLeHlC0avqHJbMF
-nAyn/GiEkQCTsSsY7uetfwcLbczCNYxPmgGe8srVscvlKvE+AcMjJvW5fHE2NBk5
-jZwdNyVfAh+9hRi9JsLx2qDG
-=ILBI
------END PGP SIGNATURE-----
-
---===============6864265749618688920==--
