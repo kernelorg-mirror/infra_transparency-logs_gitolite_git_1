@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 19 May 2025 11:12:38 -0000
-Message-Id: <174765315891.4160476.1129218463374238472@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Mon, 19 May 2025 11:29:03 -0000
+Message-Id: <174765414384.4173105.10509814442974840824@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: davem
+repo: pub/scm/linux/security/vulns
+user: sashal
 changes:
-  - ref: refs/heads/main
-    old: c46286fdd6aa1d0e33c245bcffe9ff2428a777bd
-    new: 239af1970bcb039a1551d2c438d113df0010c149
+  - ref: refs/heads/master
+    old: 2f41f9a20de0e4a17de5cf9d1e8b6ce48585e3c2
+    new: 951c403890a9276da2e0404f60014d6b1d1f6bf5
     log: |
-         239af1970bcb039a1551d2c438d113df0010c149 llc: fix data loss when reading from a socket in llc_ui_recvmsg()
+         951c403890a9276da2e0404f60014d6b1d1f6bf5 clippy: Fix all warnings with pedantic settings
          
