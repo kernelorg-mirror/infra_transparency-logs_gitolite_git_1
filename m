@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4150809122412026637=="
+Content-Type: multipart/mixed; boundary="===============4030260907939461340=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 19 May 2025 11:46:26 -0000
-Message-Id: <174765518683.4191244.10804504423428148208@gitolite.kernel.org>
+Date: Mon, 19 May 2025 11:46:39 -0000
+Message-Id: <174765519953.4191606.3775291342496209058@gitolite.kernel.org>
 
---===============4150809122412026637==
+--===============4030260907939461340==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/for-next
-    old: 52ae3f5da7e5adbe3d1319573b55dac470abb83c
-    new: f440518f379d22c95329e9e0e0fb6caaafa0f8b0
-    log: |
-         f440518f379d22c95329e9e0e0fb6caaafa0f8b0 m68k: defconfig: Update defconfigs for v6.15-rc1
-         
-  - ref: refs/heads/master
-    old: fbf8beff38ad9cf4670150226d0ec203d4978966
-    new: 0b73fc5c4e098936e8ed968c0e9c14c9ecfd64b9
-    log: revlist-fbf8beff38ad-0b73fc5c4e09.txt
+  - ref: refs/heads/m68k-queue
+    old: 6b7829c8556b991c0e5d398bb8c488dbb464cdf1
+    new: 26b389c3b55d3f256dea8af7d30ea2413756f93f
+    log: revlist-6b7829c8556b-26b389c3b55d.txt
 
---===============4150809122412026637==
+--===============4030260907939461340==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fbf8beff38ad-0b73fc5c4e09.txt
+Content-Disposition: attachment; filename=revlist-6b7829c8556b-26b389c3b55d.txt
 
 fdc7bd909a5f38793468e9cf9b6a9063d96c6234 arm64: dts: rockchip: Allow Turing RK1 cooling fan to spin down
 e0bd7ecf6b2dc71215af699dffbf14bf0bc3d978 arm64: dts: rockchip: Remove overdrive-mode OPPs from RK3588J SoC dtsi
@@ -379,6 +373,10 @@ e72e784fb1138ad313e004ef598ff98b364c7329 Merge tag 'mm-hotfixes-stable-2025-05-1
 21eeefe76919c904dd50d543bd6d3eee05d97e15 Merge tag 'phy-fixes-6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 5723cc3450bccf7f98f227b9723b5c9f6b3af1c5 Merge tag 'dmaengine-fix-6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
 a5806cd506af5a7c19bcd596e4708b5c464bfd21 Linux 6.15-rc7
-0b73fc5c4e098936e8ed968c0e9c14c9ecfd64b9 Merge tag 'v6.15-rc7'
+633a37669bc1d72095b7232ccb0c4639efd74cc3 m68k: Replace strcpy() with strscpy() in hardware_proc_show()
+da48245780be1e63afc1d974de4e13daca5454de m68k: mac: Fix macintosh_config for Mac II
+8d2499d8452256e0ca7bb9f8df5d9101f8af508f m68k: atari: usb: Add ISP1160 USB host controller support
+d47ecd0d86025120d046e858a96ce9db2d2b5a62 m68k: atari: Update Kconfig.bus help text
+26b389c3b55d3f256dea8af7d30ea2413756f93f m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============4150809122412026637==--
+--===============4030260907939461340==--
