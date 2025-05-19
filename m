@@ -1,21 +1,41 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
-Date: Mon, 19 May 2025 20:48:27 -0000
-Message-Id: <174768770739.473886.160777887486548827@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3864552397904168689=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Mon, 19 May 2025 20:52:57 -0000
+Message-Id: <174768797789.478279.2691505100962463214@gitolite.kernel.org>
+
+--===============3864552397904168689==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jack/linux-fs
-user: jack
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/for_next
-    old: a678afe9434b03bd5a45e68497fd34afe8ef2067
-    new: e56f3c6159f2be559defb8a28a224ebb5558ed0e
-    log: |
-         90d1238047a6479674db4b35264e9519186af9e8 fanotify: remove redundant permission checks
-         58f5fbeb367ff6f30a2448b2cad70f70b2de4b06 fanotify: support watching filesystems and mounts inside userns
-         e56f3c6159f2be559defb8a28a224ebb5558ed0e Merge unpriviledged fanotify watching.
-         
+  - ref: refs/heads/100GbE
+    old: c39b1bb5bc6db7300b8a4b4fdde73f7f1d9dfbcc
+    new: 2dabe349f7882ff1407a784d54d8541909329088
+    log: revlist-c39b1bb5bc6d-2dabe349f788.txt
+
+--===============3864552397904168689==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-c39b1bb5bc6d-2dabe349f788.txt
+
+c9e455581e2ba87ee38c126e8dc49a424b9df0cf ptp: ocp: Limit signal/freq counts in summary output functions
+6b1d3c5f675cc794a015138b115afff172fb4c58 team: grab team lock during team_change_rx_flags
+ba54bce747fa9e07896c1abd9b48545f7b4b31d2 net: dsa: microchip: linearize skb for tail-tagging switches
+91b6dbced0ef1d680afdd69b14fc83d50ebafaf3 bridge: netfilter: Fix forwarding of fragmented packets
+43f0999af011fba646e015f0bb08b6c3002a0170 vmxnet3: update MTU after device quiesce
+d6d2b0e1538d5c381ec0ca95afaf772c096ea5dc net: airoha: Fix page recycling in airoha_qdma_rx_process()
+c46286fdd6aa1d0e33c245bcffe9ff2428a777bd mr: consolidate the ipmr_can_free_table() checks.
+239af1970bcb039a1551d2c438d113df0010c149 llc: fix data loss when reading from a socket in llc_ui_recvmsg()
+bbd95160a03dbfcd01a541f25c27ddb730dfbbd5 ice: fix vf->num_mac count with port representors
+6c778f1b839b63525b30046c9d1899424a62be0a ice: Fix LACP bonds without SRIOV environment
+2dabe349f7882ff1407a784d54d8541909329088 idpf: fix null-ptr-deref in idpf_features_check
+
+--===============3864552397904168689==--
