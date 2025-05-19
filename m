@@ -1,57 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============6381955160022308053=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Mon, 19 May 2025 09:30:53 -0000
-Message-Id: <174764705387.4075133.12988543323635975859@gitolite.kernel.org>
-
---===============6381955160022308053==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Mon, 19 May 2025 09:45:44 -0000
+Message-Id: <174764794483.4086948.8420614500857830990@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/heads/master
-    old: 1bfbfb06baa85922f854ca5d56226ece97b551cb
-    new: 2f41f9a20de0e4a17de5cf9d1e8b6ce48585e3c2
+  - ref: refs/heads/rust/cpufreq-dt
+    old: 57011c48f540817abc07e0d2c14456ec8f59e6f9
+    new: 7637a053dcd91d9ea15d289559a34079c19b7a9f
     log: |
-         755253e358698cbcbb1af62b603b3e411b97dd96 tools: bippy: move policy decision to not create a CVE id to a more prominent place
-         2f41f9a20de0e4a17de5cf9d1e8b6ce48585e3c2 tools: bippy: run rustfmt to update the style
+         45018c66bcc0250b8d2e119a5286a633aae3e925 rust: macros: enable use of hyphens in module names
+         da69d668150f910d40ebecbd8a6ebafafe18617b rust: cpu: Add from_cpu()
+         d16490e4d744d35c8c3537d7615e33a63a77d58d rust: opp: Add initial abstractions for OPP framework
+         472c6e8720f1eca9e0cec9b5530e5e8d208ccdec rust: opp: Add abstractions for the OPP table
+         2cfea0354a124273e69351dfa02875166b1c50da rust: opp: Add abstractions for the configuration options
+         5215bd4891620b4dac67793a4be59cb59bfca68d rust: cpufreq: Add initial abstractions for cpufreq framework
+         cedf5415e85ec6cb0dff6262e2d7e388e5ae09f4 rust: cpufreq: Extend abstractions for policy and driver ops
+         e1bd57b40f552f70f8cc3c46d22c5003b90270cc rust: cpufreq: Extend abstractions for driver registration
+         038379f1cda0d5782311915d5565b6c8464643ba rust: opp: Extend OPP abstractions with cpufreq support
+         7637a053dcd91d9ea15d289559a34079c19b7a9f cpufreq: Add Rust-based cpufreq-dt driver
          
-
---===============6381955160022308053==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1747647086 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1747647053-d0b3b6a25babadb5f858eb3965780e8f2eb3630c
-
-1bfbfb06baa85922f854ca5d56226ece97b551cb 2f41f9a20de0e4a17de5cf9d1e8b6ce48585e3c2 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgq+m4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YVgP/1X8Gc/X+pEuXkeCj7el
-NboKAB9dtoDAEnLa9FAdd2sE98tkJp82pRQyssc7jh7MOM+AEI/JrobhJM2y0S/r
-pfwrCc8DFR7g6vzsFXT1kus8FZKpvcjo6qwymJbyID1mw+uRRXZFYVgpJEN4wUSH
-bqVr7vInOSNv8XjFnUmRbk8qAX2EMv0Be41vYZ8jmQ5doBR3gvpqtJXuZPzVzKhT
-XhXuNJ6NAK5aV2QhESjyc9okgm9VZYnXrwXFXHWvQdO7GQpIYDbECM9D7Lgq+9DJ
-/wc6XnX6j9iVdMVxFOxm7MUjl8u6JeSE27Wd1uU0Os8ik2DiyKV9B2u009s7Xe2o
-3a+Pmg9QeUEgiG68tDgs9CL48zf4XXKKQW6oj4LhYsNVlB/hAvMFmsT2mHBi6xsZ
-XFm/uYvAYqUb6RRyl7Npzf4eOOZ3bKjlsTmMSJcnbtwVA60rNv2sny1MfCyJgC5f
-fcuqFC3/MMKjRfJXKzi7dIsmvLxMlflEvVBBifIG0HZ4oZ10p8oW6BNmkqiPbCNx
-ZcBwZ8KFxovL15RVI5e96fL7/33krUlDuvmfLP5EMhPoCMtwcG8SKuiEYwX/pU4m
-jKBk+ZGEdpwtL3ukKAvDQ8HSqTDRpaf3VrTxjO0bY+JXGCPzruVwPUTedzKeFTGE
-NevdNDmI6s0sdgj5jayLOEbJ
-=0GzC
------END PGP SIGNATURE-----
-
---===============6381955160022308053==--
