@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
-Date: Mon, 19 May 2025 16:10:39 -0000
-Message-Id: <174767103924.236892.2980537724485765690@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
+Date: Mon, 19 May 2025 16:11:28 -0000
+Message-Id: <174767108862.237483.7250409475684719152@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ukleinek/linux
-user: ukleinek
+repo: pub/scm/linux/kernel/git/cxl/cxl
+user: djiang
 changes:
-  - ref: refs/heads/pwm/for-next
-    old: 25ac4834cae97f7787ba5562ce1511d7524955e0
-    new: 9c5e285f602f3f9a8e095094737c176234cde5c3
+  - ref: refs/heads/next
+    old: 2c5975498e55ec261dfe715199979784e24895bb
+    new: 6eed708a5693709ff0d4dd8512b6934be30d4283
     log: |
-         9c5e285f602f3f9a8e095094737c176234cde5c3 pwm: adp5585: make sure to include mod_devicetable.h
+         6eed708a5693709ff0d4dd8512b6934be30d4283 cxl/feature: Remove redundant code of get supported features
          
