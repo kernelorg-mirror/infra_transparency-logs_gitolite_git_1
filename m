@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4685093657483721137=="
+Content-Type: multipart/mixed; boundary="===============1681456228937629693=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 19 May 2025 15:34:59 -0000
-Message-Id: <174766889986.203180.40719617774928746@gitolite.kernel.org>
+Date: Mon, 19 May 2025 15:35:02 -0000
+Message-Id: <174766890214.203314.107564191812737596@gitolite.kernel.org>
 
---===============4685093657483721137==
+--===============1681456228937629693==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 894fbb55e60cab4ea740f6c65a08b5f8155221f4
     new: a8ae8a0e848e3506c95e45e7cb6e640502495f1a
     log: revlist-894fbb55e60c-a8ae8a0e848e.txt
 
---===============4685093657483721137==
+--===============1681456228937629693==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -59,4 +59,4 @@ a7262ed4b163c411b450d74f2c7b34bde19ac78e vsock/test: add timeout_usleep() to all
 b8fa067c4a76e9a28f2003a50ff9b60f00b11168 Merge branch 'vsock-test-improve-sigpipe-test-reliability'
 a8ae8a0e848e3506c95e45e7cb6e640502495f1a Merge tag 'ovpn-net-next-20250515' of https://github.com/OpenVPN/ovpn-net-next
 
---===============4685093657483721137==--
+--===============1681456228937629693==--
