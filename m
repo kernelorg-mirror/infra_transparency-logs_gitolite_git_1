@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
-Date: Mon, 19 May 2025 11:53:16 -0000
-Message-Id: <174765559616.3410.3979524255596185281@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Mon, 19 May 2025 11:56:20 -0000
+Message-Id: <174765578059.7066.1005883830727510677@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/atorgue/stm32
-user: atorgue
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: maz
 changes:
-  - ref: refs/heads/stm32-next
-    old: 3f70ddb8614386305a247eabca4e0fb500b876f4
-    new: dc392342b7bb14b12f2de96201937cb02be7802f
+  - ref: refs/heads/next
+    old: 6566f708b8c07097a2538057517a2b9dfa41903c
+    new: 7f1a034977d07faaf91b0c948e923a8a9d9a98f7
     log: |
-         dc392342b7bb14b12f2de96201937cb02be7802f ARM: dts: stm32: Add nvmem-cells to ethernet nodes for constant mac-addresses
+         fed55f49fad181be9dfb93c06efc4ab2b71a72a9 arm64: errata: Work around AmpereOne's erratum AC04_CPU_23
+         7f1a034977d07faaf91b0c948e923a8a9d9a98f7 Merge branch kvm-arm64/misc-6.16 into kvmarm-master/next
          
