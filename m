@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Mon, 19 May 2025 20:37:53 -0000
-Message-Id: <174768707372.462583.5460657269449530419@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Mon, 19 May 2025 20:39:37 -0000
+Message-Id: <174768717701.464045.12181038381535814690@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/for-next
-    old: b522a8b6ef362eaaef76bb8faee2cba4f14fc242
-    new: d787415a3977a1a51db1dcf19ea3205dc234e792
+  - ref: refs/heads/main
+    old: b4059384ee214712baf8396e0b6da9e0d191fa37
+    new: b054bd2b392904fa5db9c19215576bdaeb41ddd8
     log: |
-         d787415a3977a1a51db1dcf19ea3205dc234e792 ALSA: dbri: replace strcpy() with strscpy()
-         
-  - ref: refs/heads/master
-    old: fa3d28effb03f8897f8e139610992af9d568ef02
-    new: 9aae51f2375bb88027531798ab78ad9e36ceffec
-    log: |
-         d787415a3977a1a51db1dcf19ea3205dc234e792 ALSA: dbri: replace strcpy() with strscpy()
-         9aae51f2375bb88027531798ab78ad9e36ceffec Merge branch 'for-next'
+         1d98680254f7ba1c1aa678df29cf6b69e652bb66 qcom: add QUPv3 firmware for QCM6490 platform
+         b054bd2b392904fa5db9c19215576bdaeb41ddd8 Merge branch 'robot/pr-0-1747649997' into 'main'
          
