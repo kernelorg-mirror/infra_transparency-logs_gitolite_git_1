@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4758651541577993645=="
+Content-Type: multipart/mixed; boundary="===============6437638634448500345=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 19 May 2025 22:07:59 -0000
-Message-Id: <174769247979.541285.16389582405591456636@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Mon, 19 May 2025 22:08:19 -0000
+Message-Id: <174769249913.541745.18253170363424077537@gitolite.kernel.org>
 
---===============4758651541577993645==
+--===============6437638634448500345==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: f048dcaa3d8e6f64c52e1ddbe508e4cd7a29a271
     log: revlist-8cdf00b843ea-f048dcaa3d8e.txt
 
---===============4758651541577993645==
+--===============6437638634448500345==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -700,4 +700,4 @@ fe6ba371f9561108d1f4e27a9a04fc969d10fc48 tools headers: Synchronize uapi/linux/b
 f2c39fd5a33653568f48a3444931234e0b5d3053 tools headers compiler: Pick the const_true() define from the kernel sources
 f048dcaa3d8e6f64c52e1ddbe508e4cd7a29a271 tools headers: Synchronize linux/bits.h with the kernel sources
 
---===============4758651541577993645==--
+--===============6437638634448500345==--
