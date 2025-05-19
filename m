@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Mon, 19 May 2025 19:49:25 -0000
-Message-Id: <174768416505.421275.17173791748041502437@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Mon, 19 May 2025 19:54:30 -0000
+Message-Id: <174768447064.426532.3798076446688776228@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/master
-    old: 6d4c2381d0165ee87e33a15784d9ad24946c935d
-    new: f8f677cc13d7dd1ac3fdf5007915d9ae9f4f83a8
+  - ref: refs/heads/dir-deleg
+    old: eb92e12a968687e9422ad50bcae46519a44e58a7
+    new: ac11e64fea4895932d17bee285c424a614f12776
     log: |
-         f8f677cc13d7dd1ac3fdf5007915d9ae9f4f83a8 foo
+         ac11e64fea4895932d17bee285c424a614f12776 SQUASH: fix CB_NOTIFY remove encoding
          
