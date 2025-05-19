@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 19 May 2025 18:46:24 -0000
-Message-Id: <174768038493.369170.17966491518695635718@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Mon, 19 May 2025 18:47:14 -0000
+Message-Id: <174768043427.369717.3862376708142820779@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/pending
-    old: 241dfac96279ce9de47a6d4478dd3d41f262835f
-    new: f0cbf456346ac865ba056fe392f1b36373c83d1e
+  - ref: refs/heads/la57-cpucap-v5b
+    old: e58f1ce9b6ad813599f02172d6f132e940469eb5
+    new: 7c36486b8ad4003d6498dd1ea4a132ff11b4495a
     log: |
-         f0cbf456346ac865ba056fe392f1b36373c83d1e wifi: ath12k: Send MCS15 support to firmware during peer assoc
+         7c36486b8ad4003d6498dd1ea4a132ff11b4495a fixup! x86/boot: Use cache hot percpu var for 4/5 level paging state
          
