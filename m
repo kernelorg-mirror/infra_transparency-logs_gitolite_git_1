@@ -1,26 +1,36 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Mon, 19 May 2025 19:55:01 -0000
-Message-Id: <174768450104.427174.1912457276293249887@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
+Date: Mon, 19 May 2025 20:30:08 -0000
+Message-Id: <174768660801.457079.11589545554190976554@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/tj/cgroup
+user: tj
 changes:
-  - ref: refs/heads/kdevops
-    old: 75a69e3bb8c24297f75b6d5e271fc7e35fd7535d
-    new: ac11e64fea4895932d17bee285c424a614f12776
+  - ref: refs/heads/for-6.16
+    old: 225c0360a8d92636835ca73e3144d78d876bb09c
+    new: f3921fb7fdc23dd946b0c082f5fedca9ce75d506
     log: |
-         e8d81f6e93c8e360920520ad08096b8937def9e0 nfsd: add notification handlers for dir events
-         ec6e5ddba8f7c4870b5b7ba70385d0ef384d907b nfsd: allow nfsd to get a dir lease with an ignore mask
-         8a439af3761d2a5c2d541d688d9bf6b1799958a3 nfs: allow client to request NOTIFY4_REMOVE_ENTRY
-         851c55ec1be1722bbe8a63ae4b6d3ed955426bcf nfsd: add a tracepoint for nfsd_file_fsnotify_handle_dir_event()
-         a14c7f29c489af24e3b3a045604fffd841e139aa DEBUG: nfsd: disable CB_RECALL_ANY
-         553658c604a01bb5038038c9f10ff3ebebc232c0 DEBUG: nfsd debugging
-         eb92e12a968687e9422ad50bcae46519a44e58a7 SQUASH: more debugging
-         ac11e64fea4895932d17bee285c424a614f12776 SQUASH: fix CB_NOTIFY remove encoding
+         b2713a5ad396179e28bfbab892f3fcb9bdf04ce0 cgroup: warn on rstat usage by early init subsystems
+         541a4219bd66bef56d93dbd306dc64a4d70ae99e cgroup: compare css to cgroup::self in helper for distingushing css
+         5da3bfa029d6809e192d112f39fca4dbe0137aaf cgroup: use separate rstat trees for each subsystem
+         748922dcfabdd655d25fb6dd09a60e694a3d35e6 cgroup: use subsystem-specific rstat locks to avoid contention
+         93b35663f2018ff2accf4336a909081883eda76b cgroup: helper for checking rstat participation of css
+         f3921fb7fdc23dd946b0c082f5fedca9ce75d506 cgroup: document the rstat per-cpu initialization
+         
+  - ref: refs/heads/for-next
+    old: a7e10091f3adf197cc3ad8104016ec69c3bcd784
+    new: 86aadd4d2347b11a239e755d5eb540488bbf5b8c
+    log: |
+         b2713a5ad396179e28bfbab892f3fcb9bdf04ce0 cgroup: warn on rstat usage by early init subsystems
+         541a4219bd66bef56d93dbd306dc64a4d70ae99e cgroup: compare css to cgroup::self in helper for distingushing css
+         5da3bfa029d6809e192d112f39fca4dbe0137aaf cgroup: use separate rstat trees for each subsystem
+         748922dcfabdd655d25fb6dd09a60e694a3d35e6 cgroup: use subsystem-specific rstat locks to avoid contention
+         93b35663f2018ff2accf4336a909081883eda76b cgroup: helper for checking rstat participation of css
+         f3921fb7fdc23dd946b0c082f5fedca9ce75d506 cgroup: document the rstat per-cpu initialization
+         86aadd4d2347b11a239e755d5eb540488bbf5b8c Merge branch 'for-6.16' into for-next
          
