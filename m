@@ -1,25 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Mon, 19 May 2025 13:56:03 -0000
-Message-Id: <174766296388.116381.7009175370452316233@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/coresight/linux
+Date: Mon, 19 May 2025 14:07:13 -0000
+Message-Id: <174766363357.125509.5254072713765783489@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/coresight/linux
+user: suzukikp
 changes:
-  - ref: refs/heads/la57-cpucap-v5
-    old: 8327084086df5964ea0483ebc9e8a50382a45378
-    new: a65ae82e5c9bb79ebcd82834a3dad28375eb1dca
+  - ref: refs/heads/next
+    old: 3b0b40d8f2101742eb79b2af1c5649345d806b34
+    new: d23bc38e8aa4efbd617bf660bb1a25fee9f6c177
     log: |
-         9220aa8a6779b586ef11bcd5473d103f7cf60756 x86/msr: Remove a superfluous inclusion of <asm/asm.h>
-         54c2c688cd9305bdbab4883b9da6ff63f4deca5d x86/xen/msr: Fix uninitialized variable 'err'
-         da07aebb8490ded2ee65d4375ba22255573f0143 x86/boot: Assign boot CPU's CR4 shadow before entering C code
-         33fb27546ca93188ab61c806afd4b2d8754819f2 x86/mm: Move struct tlbstate into its own header
-         e7b714e92731307609f62f80dd3ebd573072b261 x86/boot: Test the shadow CR4.LA57 bit for 5 level paging state
-         d5438399dfd940067bebc0703a50ce8cea912ca4 x86/boot: Drop the early variant of pgtable_l5_enabled()
-         a65ae82e5c9bb79ebcd82834a3dad28375eb1dca x86/boot: Drop 5-level paging related variables and early updates
+         40f682ae5086366d51e29e66eb8a344501245d0d coresight: etm4x: Extract the trace unit controlling
+         5fa96c83b81e50833274f3b450ee9a8c0b2172bc coresight: Introduce pause and resume APIs for source
+         0814151bae4b50d49514666b5f06920ce3eb829b coresight: etm4x: Hook pause and resume callbacks
+         abffe22e93d7a25b69a8884fda6a50ed81d7ae06 coresight: perf: Support AUX trace pause and resume
+         d5f7e4bea90f2e0630b0c76b0f6cf64304c5b514 coresight: tmc: Re-enable sink after buffer update
+         973f47a9886ac45525985790dffbf5ddeb5097a9 coresight: perf: Update buffer on AUX pause
+         5161890f13623175924376bc423edb63d9cb28b5 Documentation: coresight: Document AUX pause and resume
+         d23bc38e8aa4efbd617bf660bb1a25fee9f6c177 coresight: tmc: fix failure to disable/enable ETF after reading
          
