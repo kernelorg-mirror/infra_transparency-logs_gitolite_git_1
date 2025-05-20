@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============4460120208654066279=="
+Content-Type: multipart/mixed; boundary="===============4299525651414453740=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 20 May 2025 09:18:23 -0000
-Message-Id: <174773270325.1117002.2819657831167715299@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 20 May 2025 09:18:27 -0000
+Message-Id: <174773270729.1117220.16542033841116973094@gitolite.kernel.org>
 
---===============4460120208654066279==
+--===============4299525651414453740==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.15
+  - ref: refs/heads/regulator-6.15
     old: 6b0cd72757c69bc2d45da42b41023e288d02e772
     new: a5806cd506af5a7c19bcd596e4708b5c464bfd21
     log: revlist-6b0cd72757c6-a5806cd506af.txt
-  - ref: refs/heads/for-6.16
+  - ref: refs/heads/regulator-6.16
     old: 9cfdd7752ba5f8cc9b8191e8c9aeeec246241fa4
     new: e9be77134469df4a11da898bec2bfc137700a9f3
     log: |
          e9be77134469df4a11da898bec2bfc137700a9f3 regulator: qcom_spmi: Constify struct spmi_voltage_range
          
 
---===============4460120208654066279==
+--===============4299525651414453740==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1747732734 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1747732700-895bc535c85877e1c060402e63e2962b15d38315
+pusher C3F436CA30F5D8EB 1747732738 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1747732704-39e29c0eb572c759e894682fda74a5ce7b8d2af1
 
-6b0cd72757c69bc2d45da42b41023e288d02e772 a5806cd506af5a7c19bcd596e4708b5c464bfd21 refs/heads/for-6.15
-9cfdd7752ba5f8cc9b8191e8c9aeeec246241fa4 e9be77134469df4a11da898bec2bfc137700a9f3 refs/heads/for-6.16
+6b0cd72757c69bc2d45da42b41023e288d02e772 a5806cd506af5a7c19bcd596e4708b5c464bfd21 refs/heads/regulator-6.15
+9cfdd7752ba5f8cc9b8191e8c9aeeec246241fa4 e9be77134469df4a11da898bec2bfc137700a9f3 refs/heads/regulator-6.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgsSP4ACgkQJNaLcl1U
-h9A0QAf+K2tRNaUrIK0Sl1csp/FE03Z73wmdzbx+fgKSeJQXTPPL7UPopm1zApt7
-Qsr0lJbn3Ye1YUDTPklVY776h4EQSeubmcyWkQpbwQ7+bDEDNzVTSmBmfT9itRV8
-tGCR5LZDCt1/Xu2CjLLGYeOcZaT1vW91cgWzZCfSpZ5KdrkvP4ufvjvuCf2ds+IX
-fB3KSuD9nZP9v18KLAAoGu2FV1SQ/7fpfFXZxyyUS4hWJe+ldJYlnIV+ZocHccUY
-BnyY9idtyboMfEM8baw6gwNP2L3UyzreXvACdH700IDbKwl/DXzfu0EN6qHGfvAf
-z1K1/rxoKYYeVoDDa6B6dU00G+LgaQ==
-=6Khh
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgsSQIACgkQJNaLcl1U
+h9ByCAf7BjEgdUiCk2PrvjinnwZDNdMC9fJIp/AriyTDFaou8J0hR/peqATsv1Bl
+qLH4z1Uy+bmpE8/rdfw964CP856r29e22i0Tp+RvNPFXhUjlbKY+FLaSPZKLnmem
+pU/jiAmy3pYV5XLOZX/SVCSpa3ZfjC3K292iv1DqLzmsXgpKbzUER1wioZedJjl2
+GWZYb+9sVRLsVa3EiKqxlDWuXQ7u9bsDO/ayyVwOo8dJmjzxwXjXGSt3yVQ0kv3x
+4fVhoJZr/Wnynwvui2Bg3ol7NInRhdKRfuO5CBfCozu0qAgUwIf2AUyR9K55RK3W
+dtFcx8ZE1Q/LnxuoVLDhpF2CFRYILA==
+=+Ry8
 -----END PGP SIGNATURE-----
 
---===============4460120208654066279==
+--===============4299525651414453740==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -759,4 +759,4 @@ e72e784fb1138ad313e004ef598ff98b364c7329 Merge tag 'mm-hotfixes-stable-2025-05-1
 5723cc3450bccf7f98f227b9723b5c9f6b3af1c5 Merge tag 'dmaengine-fix-6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
 a5806cd506af5a7c19bcd596e4708b5c464bfd21 Linux 6.15-rc7
 
---===============4460120208654066279==--
+--===============4299525651414453740==--
