@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Tue, 20 May 2025 18:34:00 -0000
-Message-Id: <174776604069.1638667.10542079570999872038@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Tue, 20 May 2025 18:41:21 -0000
+Message-Id: <174776648179.1646026.11710944453267571284@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/arm64/stacktrace-updates
-    old: e6531339ebe6cae1b60e191200a50f14dbe851bf
-    new: c92be03379ce760fc5df11f80eefadb59f547456
+  - ref: refs/heads/pending
+    old: a41e0ad87440d1f325aaf46119f1c3f59061a1ad
+    new: 30f9a74fd8486a6a485121442f6565844a33a967
     log: |
-         f2a0a37891e7aa3a02e176ad992a0b43a26436f4 arm64: stacktrace: Check kretprobe_find_ret_addr() return value
-         c92be03379ce760fc5df11f80eefadb59f547456 arm64: stacktrace: Add arch_stack_walk_reliable()
+         30f9a74fd8486a6a485121442f6565844a33a967 wifi: ath12k: fix mac pdev frequency range update
          
