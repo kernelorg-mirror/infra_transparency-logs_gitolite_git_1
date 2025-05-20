@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Tue, 20 May 2025 21:56:30 -0000
-Message-Id: <174777819076.1813272.11893422625523784470@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Tue, 20 May 2025 21:59:40 -0000
+Message-Id: <174777838066.1815495.6951595665742127679@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/i2c/i2c-host-next
-    old: 50f3175451499764c54fa67718bd4a9a40e52163
-    new: a088ce22c118aacfbce2ea44770acdcc855fa3ad
-    log: |
-         a088ce22c118aacfbce2ea44770acdcc855fa3ad i2c: mlxbf: avoid 64-bit division
-         
+  - ref: refs/heads/arm/brbe-v22
+    old: 0000000000000000000000000000000000000000
+    new: 5fe40cc573c00827fa9c5354083135261b706192
