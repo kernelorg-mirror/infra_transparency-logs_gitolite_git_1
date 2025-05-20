@@ -1,56 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============0911699381715270025=="
+Content-Type: multipart/mixed; boundary="===============7870782333408089675=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 20 May 2025 10:44:10 -0000
-Message-Id: <174773785021.1194993.17048550198954893852@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Tue, 20 May 2025 10:49:33 -0000
+Message-Id: <174773817398.1200184.18091168172265870371@gitolite.kernel.org>
 
---===============0911699381715270025==
+--===============7870782333408089675==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 1420bd346e6e36cb82df64ea56892d3b80705a47
-    new: 39c0f19aa4e8d115ddd2466df1c4dfbc4ab4fdc9
+  - ref: refs/heads/review-ilpo-fixes
+    old: 219aadc94ba0bddc1355ce5c5abba7fc96e758a2
+    new: 2325810c9405df7ee2c61f1c3768c4d2461d9818
     log: |
-         39c0f19aa4e8d115ddd2466df1c4dfbc4ab4fdc9 6.12-stable patches
+         2325810c9405df7ee2c61f1c3768c4d2461d9818 platform/x86/intel/pmc Fix Arrow Lake U/H support to intel_pmc_core driver
          
 
---===============0911699381715270025==
+--===============7870782333408089675==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1747737882 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1747737848-6607394043f1807c6f60009dc47b5f8ebb63bf2a
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1747738202 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1747738169-1102665c6c96e31582267d74dda258caf7b9c6ac
 
-1420bd346e6e36cb82df64ea56892d3b80705a47 39c0f19aa4e8d115ddd2466df1c4dfbc4ab4fdc9 refs/heads/master
+219aadc94ba0bddc1355ce5c5abba7fc96e758a2 2325810c9405df7ee2c61f1c3768c4d2461d9818 refs/heads/review-ilpo-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgsXRobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+J5sQAKwEud8TpRbtCF2GhPlr
-bZiq7dEDfyPZK8uhgiXl+Y8YJD1wulUreYtBDY2+0hV+5HDayd5rq2saqreiD5zQ
-WKARWWdEMIAirGk1nfpaAJ+weWiD0M7Dxx7dHRrE74uw4Gpavb58S8ZcQvjPRB0Q
-cG9ulcJJOFsy2VsrgccmkBO+4r2HhzdjppBq9Qj/HuN132He7CzGZ8FEUJSz/9Cq
-NBXGN8OeUpsiFtgFKr5FlWPzxfLzJdiSXebXH/YkVSJcrTqL7o8ifizreX/8lL7s
-WQ4qjqp9DEDdSVKMJ9WkGGEWDIZmWsG0He2JmbU8ICHU3/AMJ3I+7rCjpYLjT/dS
-TpdowWlMwhTMe4PsTe+rtTWEbVsb9E2UTLLF7kBMhzLnDT5nhWts3LJtGFdxhMRt
-U/FQGRaeaAbluIJ78YOoZbXDLunc/LY+pRmJ2n1uDgqiSmMyDTWzxH+MWbG4ixAB
-ErXKcun9H0NXmMyDcnLSTN7OjWD3mef0swg90OougQLKi8svfZ0KgNmqdP7j8hui
-3VzHySIZ3cLBMU/94hxGyrnUNFeg92pEsSgQb9eH4vfl+e9r0mg5CY7jZUM7FQ2v
-qbvf2OohpOfXbqjL6zcSRUysbkO4Cv8OKoY9zVFYQrAZvVPOsST3YZ5GbxLFdbet
-2oy/9fm1yTbzj/IYAHTIS8Wb
-=KgRt
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaCxeWwAKCRBZrE9hU+XO
+MZhEAQDYVqo2KFjcXfBbMRx+iz+OUSCqTiPbiAx/IfqsIVPtNgD/a/+AY9Kvzyx6
+jN8qSyqCxHu86P9BRHXYS1N7oFJf9w8=
+=ITLN
 -----END PGP SIGNATURE-----
 
---===============0911699381715270025==--
+--===============7870782333408089675==--
