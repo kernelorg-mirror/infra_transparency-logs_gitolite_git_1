@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2023734516498890414=="
+Content-Type: multipart/mixed; boundary="===============7749428798818726187=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 20 May 2025 15:45:35 -0000
-Message-Id: <174775593561.1486395.15089027977575654701@gitolite.kernel.org>
+Date: Tue, 20 May 2025 15:45:37 -0000
+Message-Id: <174775593778.1486482.9605759049071644994@gitolite.kernel.org>
 
---===============2023734516498890414==
+--===============7749428798818726187==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: a8ae8a0e848e3506c95e45e7cb6e640502495f1a
     new: 9ab0ac0e532afd167b3bec39b2eb25c53486dcb5
     log: revlist-a8ae8a0e848e-9ab0ac0e532a.txt
 
---===============2023734516498890414==
+--===============7749428798818726187==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -44,4 +44,4 @@ f685204c57e87d2a88b159c7525426d70ee745c9 Merge branch 'queue_api-reduce-risk-of-
 31be641d74267d98317ef5a2b90e6200511cabb3 net: phy: make mdio consumer / device layer a separate module
 9ab0ac0e532afd167b3bec39b2eb25c53486dcb5 octeontx2-pf: Add tracepoint for NIX_PARSE_S
 
---===============2023734516498890414==--
+--===============7749428798818726187==--
