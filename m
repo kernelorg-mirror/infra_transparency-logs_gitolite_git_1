@@ -1,74 +1,85 @@
-Content-Type: multipart/mixed; boundary="===============0050327680487280325=="
+Content-Type: multipart/mixed; boundary="===============7250774812231359234=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ojeda/linux
-Date: Tue, 20 May 2025 20:53:39 -0000
-Message-Id: <174777441904.1755692.13531302027311517292@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Tue, 20 May 2025 20:53:52 -0000
+Message-Id: <174777443291.1756046.12306171514901287584@gitolite.kernel.org>
 
---===============0050327680487280325==
+--===============7250774812231359234==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ojeda/linux
-user: ojeda
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/rust-next
-    old: edc5e6e019c99b529b3d1f2801d5cce9924ae79b
-    new: f1fff1d689012cf7cb2900adda0b19c1e7231c87
-    log: revlist-edc5e6e019c9-f1fff1d68901.txt
+  - ref: refs/heads/200GbE
+    old: 494565a74502671d8c27aa52490bd178170caf5e
+    new: 96b1f164afa71b1aaffa69eabdba4e27d79f92da
+    log: revlist-494565a74502-96b1f164afa7.txt
 
---===============0050327680487280325==
+--===============7250774812231359234==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-edc5e6e019c9-f1fff1d68901.txt
+Content-Disposition: attachment; filename=revlist-494565a74502-96b1f164afa7.txt
 
-fb1bf1067de979c89ae33589e0466d6ce0dde204 rust: alloc: add missing invariant in Vec::set_len()
-81e1c4dab5d0c508907722f18b028102454d52e6 rust: alloc: add Vec::truncate method
-1679b7159379d11100e4ab7d1de23c8cd7765aa1 rust: alloc: add Vec::resize method
-c3152988c047a7b6abb10d4dc5e24fafbabe8b7e rust: alloc: use `spare_capacity_mut` to reduce unsafe
-2cce50f5ab83d01cc3aafa3fb55cba97584aee51 rust: pin-init: synchronize README.md
-31005209b88c83adc4b4ef63fbc02867cddb2689 rust: pin-init: internal: skip rustfmt formatting of kernel-only module
-5c4167b4056c9db951788541e23585dd4a1fa426 rust: pin-init: examples: conditionally enable `feature(lint_reasons)`
-39051adb070432b283e6c11b2b24937281b9f97f rust: pin-init: examples: use `allow` instead of `expect`
-85f8e98dbb0135d2bc1999c6015cd374fe2c69fa rust: alloc: allow coercion from `Box<T>` to `Box<dyn U>` if T implements U
-47a17a63f9e23f7e8f39d0965bcda8fee6c322f8 rust: alloc: add Vec::len() <= Vec::capacity invariant
-dbb0b840a0cd2ebabbc94a0040e366c7f1a70f7b rust: alloc: add `Vec::dec_len`
-1b04b466c873f62413bf65a05a558f036660aedc rust: alloc: refactor `Vec::truncate` using `dec_len`
-88d5d6a38d5161228fbfe017eb94d777d5e8a0e4 rust: alloc: replace `Vec::set_len` with `inc_len`
-1116f0c5ff3385658ceb8ae2c5c4cb05bd7836d7 rust: hrtimer: Add Ktime temporarily
-3caad57d29b5f64fa41cff0b12cc5d9144dacb04 rust: time: Add PartialEq/Eq/PartialOrd/Ord trait to Ktime
-fae0cdc12340ce402a4681dba0f357b05d167d00 rust: time: Introduce Delta type
-ddc671506458849c1a1c882208bbffed033e770c rust: time: Introduce Instant type
-679185904972421c570a1c337a8266835045012d MAINTAINERS: rust: Add a new section for all of the time stuff
-1a4736c3d8394f5e64557a41b4b2b8d6dcd04622 rust: types: add `ForeignOwnable::PointedTo`
-210b81578efbe5c5e7748e50d313e1a90b03df55 rust: xarray: Add an abstraction for XArray
-fa616196fbea12462107774fb6a1908c95f71cf0 MAINTAINERS: add entry for Rust XArray API
-90348980a305cc24a067cc6e606e1c318e277930 rust: pin-init: add `cast_[pin_]init` functions to change the initialized type
-2f7c73825f8f435ebdfb2cfa3b01cfa2b1c79041 rust: pin-init: Add the `Wrapper` trait.
-b862aac8fd46601fa20226c9f5d6c6d308678b4d rust: pin-init: Implement `Wrapper` for `UnsafePinned` behind feature flag.
-bc5f3e0e01a5f2d067ff4292d5a10093ae680f53 rust: pin-init: Update Changelog and Readme
-c3815aa4bb5c6248e78785269357e87bfa4d0909 rust: pin-init: Update the structural pinning link in readme.
-983d13fc2cf12f0a753700d48be7d04155a1272c rust: pin-init: allow `pub` fields in `derive(Zeroable)`
-a313d41a2b515bbb76d56df490b731ff6d64e571 rust: pin-init: allow `Zeroable` derive macro to also be applied to unions
-00fccd3ecc2129ee32fd181079eb643f497044c4 rust: pin-init: add `MaybeZeroable` derive macro
-a919ba21594bfa1e67639785d409e1bdce332097 rust: pin-init: fix typos
-9de1a293c8ece00d226b21a35751ec178be2a9fa rust: pin-init: improve documentation for `Zeroable` derive macros
-a1e4d5c9d708d7a0e7071015a120a4489404128f rust: alloc: add Vec::clear
-f2b4dd7093438e4884cb01a783212abfbc9cc40b rust: alloc: add Vec::pop
-9def0d0a2a1c62d7970f4ce5ad5557968c98f637 rust: alloc: add Vec::push_within_capacity
-088bf14a886e1e746c961a862ebccbb76d7cbd4e rust: alloc: add Vec::drain_all
-9f140894e72735f034fdc0e963d0550ef03c6f44 rust: alloc: add Vec::retain
-294a7ecbdf0a5d65c6df1287c5d56241e9331cf2 rust: alloc: add Vec::remove
-771c5a7d9843643b035938624050e7769133b9cc rust: alloc: add Vec::insert_within_capacity
-373827fce225ae239e68d8d8b4709d62a7b209d9 Merge tag 'rust-timekeeping-for-v6.16-v2' of https://github.com/Rust-for-Linux/linux into rust-next
-06ff274f25e96435147f2a7f4262a3d80204f064 Merge tag 'rust-xarray-for-v6.16' of https://github.com/Rust-for-Linux/linux into rust-next
-b04d17062193dcc0fe5fc87adee5091319a482a0 Merge tag 'pin-init-v6.16' of https://github.com/Rust-for-Linux/linux into rust-next
-22c3335c5dcd33063fe1894676a3a6ff1008d506 Merge tag 'alloc-next-v6.16-2025-05-13' of https://github.com/Rust-for-Linux/linux into rust-next
-ea33f91f754cb982116a8447a30b549720af3e82 MAINTAINERS: mailmap: update Benno Lossin's email address
-f1fff1d689012cf7cb2900adda0b19c1e7231c87 rust: str: fix typo in comment
+8170a0c968f41dc8f29b7b52b714cae690267d51 MAINTAINERS: add Sabrina as official reviewer for ovpn
+142e17cfb09ec0f1e8f09de25e81061b1b827da4 MAINTAINERS: update git URL for ovpn
+4e51141f1dce46189b347e59d008b7ca01044bf5 ovpn: set skb->ignore_df = 1 before sending IPv6 packets out
+4ca6438da45688dae5c5958f640560f9496f21a4 ovpn: don't drop skb's dst when xmitting packet
+8624daf9f27dc9c58e266319b44d5c0f8d6a67df selftest/net/ovpn: fix crash in case of getaddrinfo() failure
+47e8e9d29eaae43abbb2e1ac202545249792f6f2 ovpn: fix ndo_start_xmit return value on error
+944f8b6abab6a456254cf9617131144adac1a506 selftest/net/ovpn: extend coverage with more test cases
+adcdaac57d3ccb38f2f1b0a8da31b5c1403385f0 ovpn: drop useless reg_state check in keepalive worker
+0ca74dfabdfe9c6274b11554adc46b79d6f44955 ovpn: improve 'no route to host' debug message
+40d48527a587b5c2bd4b7ba00974732a93052cae ovpn: fix check for skb_to_sgvec_nomark() return value
+15d7b3dfafa98270eade6c77d2336790dde0a40d net: phy: mediatek: do not require syscon compatible for pio property
+b66b76a82c8879d764ab89adc21ee855ffd292d5 net/mlx5e: Reuse per-RQ XDP buffer to avoid stack zeroing overhead
+12889ce926e9a9baf6b83d809ba316af539b89e2 net: dlink: add synchronization for stats update
+f24f7b2f3af9e008ded20f804d7829ee2efd43f2 r8169: add support for RTL8127A
+9cd5ef0b8c04c46a15c8f5d002f02ea0d0477790 net: rfs: add sock_rps_delete_flow() helper
+7b151e4efdde7cc7cfaae66e497d12487a70c6e9 net: phy: fixed_phy: remove fixed_phy_register_with_gpiod
+622b91e0f94600d1c797b7c82ec67a6e221e74ec net: phy: microchip: document where the LAN88xx PHYs are used
+dc3f63bc3e33a485f8c7112f1520d597a588639c netlink: specs: rt-link: add C naming info for ovpn
+c9c048993d4c0b8a188ae717ca4a1dadd02d29b5 tools: ynl-gen: factor out the annotation of pure nested struct
+99b76908a7a3df629a83555333ce0b97824e4734 tools: ynl-gen: prepare for submsg structs
+3186a8e55ae3428ec1e06af09075e20885376e4e tools: ynl-gen: submsg: plumb thru an empty type
+6366d267788fd9dba20d6dff61e3e05d48ddb0b8 tools: ynl-gen: submsg: render the structs
+b9e03e263610a8d872c753bc882676d3cba1797b tools: ynl-gen: submsg: support parsing and rendering sub-messages
+0939a418b3b092aa8a97a59752084896e4a7c813 tools: ynl: submsg: reverse parse / error reporting
+6bab77ced3ffbce3d6c5b5bcce17da7c8a3f8266 tools: ynl: enable codegen for all rt- families
+d5d1813b28b9a02e4d014ea898ab5dfb32818d01 tools: ynl: add a sample for rt-link
+9e1f7a3119cd4c5678f226033a9b9fb98917700b Merge branch 'tools-ynl-gen-support-sub-messages-and-rt-link'
+a7262ed4b163c411b450d74f2c7b34bde19ac78e vsock/test: add timeout_usleep() to allow sleeping in timeout sections
+135a8a4d25a2937b2727e3857471f305d78496da vsock/test: retry send() to avoid occasional failure in sigpipe test
+3c6abbe85bccd8efb5d9147a022b1d4012cb1809 vsock/test: check also expected errno on sigpipe test
+b8fa067c4a76e9a28f2003a50ff9b60f00b11168 Merge branch 'vsock-test-improve-sigpipe-test-reliability'
+a8ae8a0e848e3506c95e45e7cb6e640502495f1a Merge tag 'ovpn-net-next-20250515' of https://github.com/OpenVPN/ovpn-net-next
+a462903fa22541f212134fba81084315ad843e6e net: netlink: reduce extack cookie size
+c6a957d067912f1ab4e3be4c92d3730c21d1ddb8 selftests: drv-net: Fix "envirnoments" to "environments"
+e41703aca2f5ac0634c937e260f79ab8ab0a3f88 Merge branch '200GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
+84b21e61ebd64931d865ce3df49d930db8c9e2cd queue_api: reduce risk of name collision over txq
+f685204c57e87d2a88b159c7525426d70ee745c9 Merge branch 'queue_api-reduce-risk-of-name-collision-over-txq'
+31be641d74267d98317ef5a2b90e6200511cabb3 net: phy: make mdio consumer / device layer a separate module
+9ab0ac0e532afd167b3bec39b2eb25c53486dcb5 octeontx2-pf: Add tracepoint for NIX_PARSE_S
+dfcc2b8dcb83c99f6dbb32bd5d159bd253dc63fa libeth: convert to netmem
+2d79c8b34e8d598cce1abf7f0d74bf59d8dec053 libeth: support native XDP and register memory model
+d3465dcd7f2c9bc659f9dd7f740b0f1f35e639a8 libeth: xdp: add XDP_TX buffers sending
+d81968acb864bd92979121522c9555b912c9ff58 libeth: xdp: add .ndo_xdp_xmit() helpers
+7399064a138b22fdc589f878dfd983b24c982256 libeth: xdp: add XDPSQE completion helpers
+ad6009802913e251837924fc6e5b7a45d5525435 libeth: xdp: add XDPSQ locking helpers
+5a98e6b6ca084385b88837fd6782176fc55c27e9 libeth: xdp: add XDPSQ cleanup timers
+7a602eea8cc74e2cb7447c5bbe7566620f556f27 libeth: xdp: add helpers for preparing/processing &libeth_xdp_buff
+834d83d439b2ecec606d79e0ed522275a30d5584 libeth: xdp: add XDP prog run and verdict result handling
+f03f0f21ff99796b0084768ab6a5afe7d5c8badf libeth: xdp: add templates for building driver-side callbacks
+b93cef56b8124fd562f21f50162185567af29d14 libeth: xdp: add RSS hash hint and XDP features setup helpers
+5a89f955acf114b02c2356915a23ce5ac94c9284 libeth: xsk: add XSk XDP_TX sending helpers
+51a092fb1cc7563d4b3dd47942090bef8203ec48 libeth: xsk: add XSk xmit functions
+b26078373487fa767a2bdde3ef7287e40384df20 libeth: xsk: add XSk Rx processing support
+2523bc987c667c55e9615f71923aa54ea516fe0f libeth: xsk: add XSkFQ refill and XSk wakeup helpers
+96b1f164afa71b1aaffa69eabdba4e27d79f92da libeth: xdp, xsk: access adjacent u32s as u64 where applicable
 
---===============0050327680487280325==--
+--===============7250774812231359234==--
