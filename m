@@ -1,56 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============4923928350754129468=="
+Content-Type: multipart/mixed; boundary="===============8744139672601088676=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 20 May 2025 09:09:52 -0000
-Message-Id: <174773219276.1107268.256391461540777870@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
+Date: Tue, 20 May 2025 09:10:05 -0000
+Message-Id: <174773220542.1109104.11861602297299962537@gitolite.kernel.org>
 
---===============4923928350754129468==
+--===============8744139672601088676==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/mkl/linux-can
+user: mkl
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 7596b4c04e138c55d4284eeded8f1ddeba6b23dd
-    new: 53bd03d86ee941ea1f4231bb921c9c3f2f13d43d
-    log: |
-         53bd03d86ee941ea1f4231bb921c9c3f2f13d43d 6.14-stable patches
-         
+  - ref: refs/tags/linux-can-fixes-for-6.15-20250520
+    old: 0000000000000000000000000000000000000000
+    new: 4be8996895d465810cb9d2d832685fec04bd7abc
 
---===============4923928350754129468==
+--===============8744139672601088676==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1747732224 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1747732190-0503cb1066d34844743f224797078c47850ad1ef
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1747732234 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
+nonce 1747732200-eb35d721f67b052056c56b1610f32ff1722a9ccd
 
-7596b4c04e138c55d4284eeded8f1ddeba6b23dd 53bd03d86ee941ea1f4231bb921c9c3f2f13d43d refs/heads/master
+0000000000000000000000000000000000000000 4be8996895d465810cb9d2d832685fec04bd7abc refs/tags/linux-can-fixes-for-6.15-20250520
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgsRwAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wdkP/ixnNTobvmfREqSDERWH
-4zGYWIH5EBmKmFVYmYHWKNec0XgBlV+By9Dr8yrx8S2Qm8rUWUsiH9iY+B3Tb4VG
-lVtkbWG+vps4aum+99g3AcwYN6m6LnP5PLc090L/oHUTeWxPjvw6N1y3LS1YiCo0
-xHR6/jb4+6J9TBQ6mGTGbxVTN91Ppz4ncXlhpKcrR/3KrmDSaCwpUsuCf7SsRts8
-Sk03Oawt5YDUWnQ0gs322nXnaH2SkcpKBsz0bX3BOw7Vr7emoWNGe9GYjRvptBcR
-atw0OdM3GOWDZjnJhJL0LxVzfYbR4PbTERfj4LwbfwVROiUiG4vEudJfr5xP6GtK
-9AHZmwLAAeu2DLxDiV4u9hzHMLG3A+BxIrCL0xhhxJJYUCnIhnKfVTj4P0rZFgj2
-yEIdEDKEy7433wwNN1llXN3fC2ch7I8ebG+0FsBBMqnm64BuQlRThUTmdQTWaXhY
-lorTFFdJXRY5+JZMb2W5D2M4SwJ3ddwdF88MYuQbaKtK7/AN7rkkcRQZyh+tN5FY
-H6jt7SOk4+lSWZNd3BVGHtDLt+IOrS/AtyMPGKuJpEctZKzxvVdd7TTAqMioj5Nb
-+MHnA1jUmKSxbK0Y2aisSG3trrScXE/mscIIUaG/4aOwifHCF8zGk8ggteYz12aB
-pTJgGm1kPA/lqFhc/6heGZax
-=YiFV
+iQFHBAABCgAxFiEEn/sM2K9nqF/8FWzzDHRl3/mQkZwFAmgsRwoTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRAMdGXf+ZCRnPDjB/sEdLB/iLMrA6RXnQONx0y76W2P/9oy
+eQd2uvO9ZjQf0I1Gs8TVf9laUnc4U/f8nesRu4YNm6iml7TNJDR3fkUcOIwEKKdV
+qpArpwckAXqf49WV25fKyaiA1knTvpYAXiLsCQkooqh13jpJ5w73tyktQbo3ZnaE
+Ar+SLY5L+dmDErROXmjSdx8doFTwjUWsVK7NyCAhVLGZvXkRu+a13m7OXGx5SqLA
+UH1RTPDXEuoKbjStQXcngxJzJhzYpvrgGpS7J84c31vHtEpFPs3YzwJGjtTSw4sw
+hYWHmdOmZ18QR/j8IyX9vWYNk6X/8xMDSDTW9MQ5JaUzuO+cCU0RBHKe
+=1b5G
 -----END PGP SIGNATURE-----
 
---===============4923928350754129468==--
+--===============8744139672601088676==--
