@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4438060931511646292=="
+Content-Type: multipart/mixed; boundary="===============4248707709411857247=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/security/vulns
-Date: Tue, 20 May 2025 14:27:43 -0000
-Message-Id: <174775126395.1406037.17900296500678825877@gitolite.kernel.org>
+Date: Tue, 20 May 2025 14:35:24 -0000
+Message-Id: <174775172418.1413529.8968553640361192052@gitolite.kernel.org>
 
---===============4438060931511646292==
+--===============4248707709411857247==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,43 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 15f7f30c7c9ef07274b3001a9fd687f5766e0b74
-    new: 130bca289ac13ebbc5632f1da9ca499e82f08a74
+    old: 130bca289ac13ebbc5632f1da9ca499e82f08a74
+    new: 30611b523a12be141628c9fa6faa7e1e25e219e5
     log: |
-         526ab5ad4bed3d5a9961e9c2a80778f33cde1270 fix up some .vulnerable assignements
-         130bca289ac13ebbc5632f1da9ca499e82f08a74 update entries based on updated .vulnerable values
+         fad5e119da064100de93a078bc6a489cf6aeab00 add .vulnerable id for several btrfs zone CVEs
+         5b978c12d368359636571786c232b707ea158db8 add .vulnerable id for CVE-2022-49887
+         0902a9905bd132a7a51ab79def893f49939d0966 add .vulnerable id for CVE-2025-37818
+         30611b523a12be141628c9fa6faa7e1e25e219e5 update entries due to new .vulnerable files being added
          
 
---===============4438060931511646292==
+--===============4248707709411857247==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1747751291 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1747751756 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1747751258-aaca0d053d4eddb52c29de025f6074b83a7a88b3
+nonce 1747751723-189488ea7f9f29a1bc7abb43977f010d41337c84
 
-15f7f30c7c9ef07274b3001a9fd687f5766e0b74 130bca289ac13ebbc5632f1da9ca499e82f08a74 refs/heads/master
+130bca289ac13ebbc5632f1da9ca499e82f08a74 30611b523a12be141628c9fa6faa7e1e25e219e5 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgskXsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qLIQAL86LSWK6itvBs7oBHLT
-/tpdyjbAJuIdLyuoczAgcSWI+IsTFT+9JfZxffrN510jW8fJmlOUM4xcbUOJjxpQ
-O/oJ9FU8UVjoM+k6WENLD0TpGr9OnfDQr/siMMMNrF3o05/21J/XlNdaW0H5rqeI
-4kQ1bVyhPe6cFFqz2GtQXRCBmbKSe+maVEzh4i3/7hl5uvaXT+7FEg7wq8ahBYT+
-74UXs8o9/ys8JSphkOO1Vts78qU7ukjKo7KQRf/5RttlQ9TtSc+QKaEkt5mAu50w
-S1n07m4/uNRHNf7F7qMFUMIMReZrLW32e/YzIiXXkLXDC7xk3d3M/Wl96mjxbuOI
-kVI3/ZtvRlPWQ+8Lc+eabhBeOnzvAwkO4KFUoLRADB3wo4JfL4/MKXjvxN2Op5cO
-qJAKQl7FiD8rVvubKSiyY+H3QZ4JwJ5iK9sHyoZl3JDWWZGjR9qI6+E4e7UObctc
-N1+lKP8HTBLyA3WQIY6C/INAxzDJApqPnlyTfOrKYMqryWjcBceBzif1SWPeVVd9
-N7EbyiUJU50h0qFyoYqQ+4P5miKaEXDsqR7rhnYasa/A13N8frmnpYdqaejVCo+k
-SPuaXQp4IVrCvB0/wfBrhSBM7VPc9oL9WOcLYkrNR2kQeu6uFIrpsX3dUVHuNunu
-HKoUIUfcI1X5n+4bo89s3IAT
-=y4GL
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgsk0wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7CwQAMAHW2rd9kaQecfhqe0A
+lhFQW6Ij5ggbQG+qNsp03IF/YqegcNy58p5kqS3A/KTCGLMm4pXPev9xzuYQuBvz
+ZvtdU1GRoaP/S0eVjHIXifyvDFB/ftuEL18ZYR0Yn5fBYXF210ZZOEj6ShHpOPUg
+dl3/XUkhhrfBhvzh30GpnVNi4nk+bo+KzxVjgAl8JUlcVXxwWBMPswS7H24HfpSy
+LRm1KCNz3OflvRiCMVv0puQRjiMI7wCLcXQfOd9iXGTHWNbMcJJLy9+VhFq4CXLU
+p+bmLs/ZIOxu+i9PL0aYQh2FvWNZ1QgAMZR3Db4FHkvC1BUgWsWa1XmdL2lJ5h+j
+j2ihiN+mKsu52U4aBZ4lLYuw7h33ja4dBFaZqWHvFh8TQeIZ2Tq9c3FnMB53k/sx
+jX2lKGLo4/eE0s1cLVPDaDWJ/AsV2uavvK9p+bN4sakTbJU9HxjSdCA4Dw5lmLmM
+Ze9XDWioqa0KDOp1/z+dggLl+1tWw/uyxY/jkv5tY2IAvOGVBPyh1D+KwXXUXgYl
+XEd0IciiRTk9EQRbRECYytkLKoOk9V6957sWHg2NLCHaqF91g7uJsTM5KdyNYBNI
++M42iJiDvvyXYYcp0JC+oCYqZYR2bNb+jDlB+P7iuDQZHv89gb2Ivx+fsPlzwOxR
+K5PkW1Z2TYS9B+FIPfIZpDrc
+=0rFt
 -----END PGP SIGNATURE-----
 
---===============4438060931511646292==--
+--===============4248707709411857247==--
