@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0151023905125049592=="
+Content-Type: multipart/mixed; boundary="===============5314807182436338821=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Tue, 20 May 2025 12:39:24 -0000
-Message-Id: <174774476400.1302794.4074656651627840670@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Tue, 20 May 2025 12:39:39 -0000
+Message-Id: <174774477900.1303709.5329994838553397632@gitolite.kernel.org>
 
---===============0151023905125049592==
+--===============5314807182436338821==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: a5806cd506af5a7c19bcd596e4708b5c464bfd21
     log: revlist-82f2b0b97b36-a5806cd506af.txt
 
---===============0151023905125049592==
+--===============5314807182436338821==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -374,4 +374,4 @@ e72e784fb1138ad313e004ef598ff98b364c7329 Merge tag 'mm-hotfixes-stable-2025-05-1
 5723cc3450bccf7f98f227b9723b5c9f6b3af1c5 Merge tag 'dmaengine-fix-6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
 a5806cd506af5a7c19bcd596e4708b5c464bfd21 Linux 6.15-rc7
 
---===============0151023905125049592==--
+--===============5314807182436338821==--
