@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============3212927467257961138=="
+Content-Type: multipart/mixed; boundary="===============3746293935606110519=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 20 May 2025 11:49:36 -0000
-Message-Id: <174774177603.1258924.1869082746238797517@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 20 May 2025 11:49:39 -0000
+Message-Id: <174774177911.1259061.5922673136497561264@gitolite.kernel.org>
 
---===============3212927467257961138==
+--===============3746293935606110519==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.16
+  - ref: refs/heads/regulator-6.16
     old: e9be77134469df4a11da898bec2bfc137700a9f3
     new: dcd711021389c4d19b3310cc37f09813659dfee2
     log: |
@@ -24,28 +24,28 @@ changes:
          dcd711021389c4d19b3310cc37f09813659dfee2 fix: Correct Samsung 'Electronics' spelling in
          
 
---===============3212927467257961138==
+--===============3746293935606110519==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1747741807 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1747741774-0372b6542f68ab59f06cfc3f73219c7c672f31a8
+pusher C3F436CA30F5D8EB 1747741810 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1747741777-8ea09b8332fc20c00fb9e6f7f96a57510faae94a
 
-e9be77134469df4a11da898bec2bfc137700a9f3 dcd711021389c4d19b3310cc37f09813659dfee2 refs/heads/for-6.16
+e9be77134469df4a11da898bec2bfc137700a9f3 dcd711021389c4d19b3310cc37f09813659dfee2 refs/heads/regulator-6.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgsbG8ACgkQJNaLcl1U
-h9B0CAf8CrZiY42tlIVnnjTRWtgZZ/4hz+ysdX4WQiwxOv7xs7ibl82M9SlDrH7/
-BGtVWQygIX/HeeLnFG0DkBDB58J2IlJarBZ1MW1oVMRxsSTJnnKbuuMW3zTLyc4l
-ymd+o1/kvbwuj5YcXhVTlkOwtMYiyF6sxcBYL0Q0plduRWHzdipvuxTspoQIsASs
-72i57dE/ewnGMTJbcaSojlvQEXyUEYGftqFz2c0bmKJyLQnMvEPMaTX+O08qKjxQ
-DsLS+hsUmTyW2dB9cKsJJusdDcu58FPQ6D6SsE+0jJ+RnyI3oem7G4UoIsLnz0D7
-hoypC0leb6Mf+mQ+wkiCPSSRNoYCEA==
-=gKuA
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgsbHIACgkQJNaLcl1U
+h9DL4wf/U/sEQwqzzNewSmQzo0SVPi26gw2AghoR9SNbmBSfPe1NhAnMNt35DqMF
+M5+QPrfUvpvR5t54/voG4LzIfwdz7zUz1fG5tv6czNS9lDOtWZ8lAYGSJ3Y7e982
+7YXriZZotKohzj5FEqsHRvY5SZF3xm1MGtELJXvmgzvbXmfUOzHZ6K7/zd8Lpyqy
+uKjO51Xd0bmvi/mdnEdUyZl6LYxGMjPRctZffjWOc0Fj9Jnqei+Q8AuFUpKko//3
+ve2I9HoImPgQqsqQX6k2ECaHvBPhdqFmaCWync5BJJZsuNEcogv5nnLxYpItCnbC
+45/sQef5qGVmuX/uO5jCrT7q7T81+Q==
+=o1kE
 -----END PGP SIGNATURE-----
 
---===============3212927467257961138==--
+--===============3746293935606110519==--
