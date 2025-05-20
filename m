@@ -1,14 +1,14 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pratyush/linux
-Date: Tue, 20 May 2025 12:10:53 -0000
-Message-Id: <174774305329.1278552.5465854375875015535@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
+Date: Tue, 20 May 2025 12:13:54 -0000
+Message-Id: <174774323400.1279892.12464125767486382184@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pratyush/linux
+repo: pub/scm/linux/kernel/git/mtd/linux
 user: pratyush
 changes:
   - ref: refs/tags/spi-nor/for-6.16
