@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6003751564597760551=="
+Content-Type: multipart/mixed; boundary="===============2333792666262997024=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Tue, 20 May 2025 14:09:50 -0000
-Message-Id: <174775019095.1390191.2205439697305301350@gitolite.kernel.org>
+Date: Tue, 20 May 2025 14:17:00 -0000
+Message-Id: <174775062038.1397013.12934231970764484029@gitolite.kernel.org>
 
---===============6003751564597760551==
+--===============2333792666262997024==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,52 +16,52 @@ repo: pub/scm/linux/kernel/git/jfern/linux
 user: jfern
 changes:
   - ref: refs/heads/nova/vbios
-    old: c2a35f3edae1495801e0e9a8e79d233b464d6f17
-    new: 9c30fc76de858b2d22a7ea374e36f536d77da121
-    log: revlist-c2a35f3edae1-9c30fc76de85.txt
+    old: 9c30fc76de858b2d22a7ea374e36f536d77da121
+    new: d34615791433ea723baa3ee41ac4fabea1d28240
+    log: revlist-9c30fc76de85-d34615791433.txt
 
---===============6003751564597760551==
+--===============2333792666262997024==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c2a35f3edae1-9c30fc76de85.txt
+Content-Disposition: attachment; filename=revlist-9c30fc76de85-d34615791433.txt
 
-472c6d26f09f7259ea1e6f5192078a31ccd40fac nova-core: Add support for VBIOS ucode extraction for boot
-4dba70cb63046f0512e9a7e1848793c61c35ae7d gpu: nova-core: compute layout of the FRTS region
-5128e42a4f6f4ea8a57d4ca9ce8dffeb0db6fe23 gpu: nova-core: extract FWSEC from BIOS and patch it to run FWSEC-FRTS
-9fe2ea6bc353d2c6227ac991311a1c7a9676ed79 gpu: nova-core: load and run FWSEC-FRTS
-3d005788e313f162f093c263508632f71dcee505 gpu: nova-core: parse and patch Booter firmware
-358742f7ab1079e4226260197e484ddb917420fb nova-core: firmware: use r570
-2f412baf85f3e9b5c0b1332926ac6ab0815fc7dc gpu: nova-core: add nvfw definitions for 570.133.07
-34a57e02d879978c19e3aa75a999c36019923593 add riscv firmware
-33be4c97ebd689498f680db1b559e091fc10efaf compute other regions required for GSP
-f0d190e93eb89d8b4d9898b004173b8c57d1dd43 fixup
-0a8c50b482b39a1e431ae5f25b5e57c47575c863 rust: add basic ELF sections parser
-cc78f0ae7f6c47bab9481e994748ecd9f6fb1f04 rust: device: HACK - find a way to do without this
-415c4985a6aceac99ca3ed99484f682f77eb6a4c wip radix3 and GSP objects
-b46110f87b4395130632049e1908df2d6bdc6cf9 rust: alloc: allow coercion from `Box<T>` to `Box<dyn U>` if T implements U
-9b8b2d483b337187d5f758e20548f8d93542194c [Nova] Generate Rust bindings from OpenRM or Nouveau headers
-48fe420dee103d0886046136a1b1848f20eb213f [WIP] Nova: Add GSP RPC message send/receive
-7543caa4c8ff4dcfc8980e27b6d4dd263805db77 Hacking
-2dbaa002b79dbfe096db46051d039ee87683c494 Add dma_set_mask() bindings
-5b315a1b16439dad3d643f3ce50bd041b63f762d build registry command queue
-62dc0fe141c76d871ae145867be44977a895a5ec Move symbol filter to a file and detect header versions.
-e4bdc7ab933e87464631127506bb11747b8258ad HACKS: Boots GSP to the point of receiving a 4123 message (GSP_SEND_USER_SHARED_DATA)
-ab11981b5abd2cf0c1185dd1b17ad8c95f7319a1 Add missing sysinfo initialisation
-2d9939d302a02219dbcc392b94dd639124d6cff0 Fix building the hard-coded registry
-63e815b6f1493d833802e3d67a9baa25ca299d81 More cleanups
-b37eefaca555a6edf2cf517316b91ba37cdb5067 Removed sized sending function
-69fce4835a97902e6e243c996d343df725be0179 Parse the CPU sequencer message
-adf0859544305ce52ff09cdc82e48c3cb7a9efb0 JOEL: Add defconfig with Nova, Rust and DM options to boot Ubuntu
-5498adb7f61e523b457aa9d41a51992d70b69448 JOEL: config: update defconfig with open gpu path
-d1f6d2ab791af6c92f9495ec5cd592c7399fbbdf JOEL: config: Set firmware version correctly for bindgen
-9e5fa6058ebeca6e7b91a904f37b024cf50e1a55 JOEL: dump bindgen command invocation
-76303867d9b31aa329353e0ac0a5bb7cd797c640 JOEL: Update .gitignore
-65e49d622ae8859a991918ee3a9bbedcd94c1761 JOEL: Fix rust analyzer for bindings
-481559b3a02c6e63dd472eda86687192eae9b814 JOEL: Add a dmesg dump of the sequencer commands
-be6775c25c64dc14e0a86c82dd952e6ea27320e6 JOEL: Add a build script
-b9fe8fa129690f4acb736e10ce22818b136d9e55 nova: firmware: Add impl_from_bytes for Falcon UdescV3
-2f5cd408b918fc2fabb070f1d3ac5358c405f6ef nova: fwsec: Fixup FWSEC to use ref for FalconUCodeDescV3
-9c30fc76de858b2d22a7ea374e36f536d77da121 nova: vbios: Use pass-by-value for FalconUCodeDescV3
+8b2c55b7da4c8a0f312e982ff97b11ea5d6e0889 nova-core: Add support for VBIOS ucode extraction for boot
+f199c229729e95c32de793b8014a8e7ccc9896cc gpu: nova-core: compute layout of the FRTS region
+cfd533a643fef717acd018502f5342b95c1cfb1f gpu: nova-core: extract FWSEC from BIOS and patch it to run FWSEC-FRTS
+51b8c4dd06bc81a4251ab9547f6c7d4e1c76bc1e gpu: nova-core: load and run FWSEC-FRTS
+ad076349907c9728ad6f13c9e451c631d804f4c9 gpu: nova-core: parse and patch Booter firmware
+c1b1fc9651fdfc834371e85a9f74e02c82462c81 nova-core: firmware: use r570
+7f4c1f87fa2c9a8badf7f697e54a904552ba993c gpu: nova-core: add nvfw definitions for 570.133.07
+82745a9803bb08e81732446ab8e4a9b151a8779b add riscv firmware
+6587319bcf94fcdd6fb1678cae36a7614671fe66 compute other regions required for GSP
+63d6d9145379b836b044b1bf31197d44d0be8fad fixup
+5062ad0dd7908d218807aefb4314379401ec80bd rust: add basic ELF sections parser
+b596718d0225a282419b4b0681e04771cd6ebb14 rust: device: HACK - find a way to do without this
+828e21c6e5dd36e5ee03e2ecb785dce2fa8d887b wip radix3 and GSP objects
+2f6ffe5a54b44bab546bd01a1888a3c2be0b36ab rust: alloc: allow coercion from `Box<T>` to `Box<dyn U>` if T implements U
+a837012b39f9db8704a36c787bf6d186baa4b800 [Nova] Generate Rust bindings from OpenRM or Nouveau headers
+6869ad9a82f1475953a2ea849dd478efbbcbd984 [WIP] Nova: Add GSP RPC message send/receive
+fc8c4ba1ca71df81300d2e157976fead757451ad Hacking
+e1b769aea2155ec33fb834ce7f9211bd8a724523 Add dma_set_mask() bindings
+867f634a0f784aec549efae2ffd5811fede10b4c build registry command queue
+4ac8481e1b588c1a71a44b8188914ef30367b487 Move symbol filter to a file and detect header versions.
+bad554e27ceb1669cee873a81fdd057b6a9e71bb HACKS: Boots GSP to the point of receiving a 4123 message (GSP_SEND_USER_SHARED_DATA)
+2b43b483dc392b4454d895acabdde04ed8f30015 Add missing sysinfo initialisation
+647c7ebbb850a4225555024cc903462cf29adbac Fix building the hard-coded registry
+bbbf742e43481d28418850dad034e4fc8af46e75 More cleanups
+fbcc61b2f3025edfd94fdb0ed75d4b390eb00261 Removed sized sending function
+57ce248a2fc273890fb06f74980ad80ad1c7cd71 Parse the CPU sequencer message
+0d86694303c4f4c91eaa09e21b4706bcebe20d0b JOEL: Add defconfig with Nova, Rust and DM options to boot Ubuntu
+1874c83c57bb155f7de46d921e3709f3ffafc06e JOEL: config: update defconfig with open gpu path
+2a2fc8ac196e0c69ed7395720412a3ac0d7239f2 JOEL: config: Set firmware version correctly for bindgen
+2e6c0d981593b63cbaad85db93c2a4566478fcdf JOEL: dump bindgen command invocation
+b8ca19b5ac7c2a09a2b68aa90b0f9e522fc7ab6b JOEL: Update .gitignore
+c5b4390a0fb85a6bfe696719991938fbf9cc7537 JOEL: Fix rust analyzer for bindings
+c05374718a8c916e6ff3dc5b15bb8f0604ffabb5 JOEL: Add a dmesg dump of the sequencer commands
+83b16a559121806737f59c8fb691922682717642 JOEL: Add a build script
+58c8e118b504f94b9d27bc5874a04d3c2e7aa27d nova: firmware: Add impl_from_bytes for Falcon UdescV3
+9fbf7bcb794c0ccec6b10c3411641470557551a4 nova: fwsec: Fixup FWSEC to use ref for FalconUCodeDescV3
+d34615791433ea723baa3ee41ac4fabea1d28240 nova: vbios: Use pass-by-value for FalconUCodeDescV3
 
---===============6003751564597760551==--
+--===============2333792666262997024==--
