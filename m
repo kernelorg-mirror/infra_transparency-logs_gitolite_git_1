@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Tue, 20 May 2025 21:05:40 -0000
-Message-Id: <174777514041.1769917.8084914793431898461@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Tue, 20 May 2025 21:09:22 -0000
+Message-Id: <174777536296.1771667.321560120209879367@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/main-pending
-    old: ea5d727dd9d279f80aa4c687f13df6500fdf98cf
-    new: 30d615f99e39e3ef5e2c35f55dca7417250fd353
+  - ref: refs/heads/master
+    old: f39b3ec12e8f7cdb999d88d6e76fb798620789b6
+    new: 0402c06746449b44b67568df058f4d466b542653
     log: |
-         30f9a74fd8486a6a485121442f6565844a33a967 wifi: ath12k: fix mac pdev frequency range update
-         30d615f99e39e3ef5e2c35f55dca7417250fd353 Merge branch 'pending' into main-pending
+         0402c06746449b44b67568df058f4d466b542653 doc: Convert mgmt-api.txt to mgmt.rst
          
-  - ref: refs/tags/ath-pending-202505201841
-    old: 0000000000000000000000000000000000000000
-    new: 30d615f99e39e3ef5e2c35f55dca7417250fd353
