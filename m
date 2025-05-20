@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============2912425922738987963=="
+Content-Type: multipart/mixed; boundary="===============1428629682526593616=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 20 May 2025 11:03:36 -0000
-Message-Id: <174773901641.1213542.3417219711339633003@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 20 May 2025 11:03:39 -0000
+Message-Id: <174773901968.1213717.17120121875768952749@gitolite.kernel.org>
 
---===============2912425922738987963==
+--===============1428629682526593616==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.16
+  - ref: refs/heads/asoc-6.16
     old: e4dca67b2463e6abe775876c9cb049ea5b1c8e0d
     new: 831962e9d7b774d858cfeefc3848e06a2d5599df
     log: revlist-e4dca67b2463-831962e9d7b7.txt
 
---===============2912425922738987963==
+--===============1428629682526593616==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1747739047 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1747739014-1e6540e9b47b3ea1c2da98c8f493cccdd4572749
+pusher C3F436CA30F5D8EB 1747739050 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1747739017-6face16febf6129f4ef0cd35b801afaab614ad2c
 
-e4dca67b2463e6abe775876c9cb049ea5b1c8e0d 831962e9d7b774d858cfeefc3848e06a2d5599df refs/heads/for-6.16
+e4dca67b2463e6abe775876c9cb049ea5b1c8e0d 831962e9d7b774d858cfeefc3848e06a2d5599df refs/heads/asoc-6.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgsYacACgkQJNaLcl1U
-h9BMgQf/VPHdjftVwMx4wqeIJpPpduLCaEt0bZqp624q309SZjhXgWvPR6bVpfrV
-f/sl8jgNUJZSMz6VTrzE18/zeWBgt0Njwt9BwoszOBb3H7dezxqr1H7Zlr7Jv5ea
-zCNn8H8yb6TLqD4qBtMcMKRcdNgHfDnWMn1I+Ug6OZKt/tqzE450RZ7/SW+RED2a
-CkR0bML8Q1xxv5kNoBRMmObZibUdIVgR89IWE77lfXTWda72tM76J0E5sfAfhHQc
-TrdIJ+k1uRK/AW+oDzlN/njT+69kENb2Ctkz5nf9vQxLHVADQluSlNmGAXAh1rEC
-i43bnpckGsv/wRx5j8QFwxrbmEK+kA==
-=0IYN
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgsYaoACgkQJNaLcl1U
+h9AC4Qf/bMpnU0rDCir/k5dLJV+DKFMq5mbQp8R4y61C5+THG70fKwkzVgOiM+Bl
+4OOom/dZ2i1uLkvZ6pJxMgtozxn9hPPbQmbtM9ejE9M+I5Dk+M/9WPiG5Ce8erir
+tr0nzUlrAIR4eqLbcFSkTtdixnN53OdKGAF2eMyqIQTtXImTbup6Zi3uilks2qgY
+MfCQZZCBQgEnk5NNGNnoKtnNMrX7gXE4H49lP/IXaT3BGkwuZp2gw09HJhHn62yK
+DfIjxK0YqAMjShsTPtBeF9awngkCrzB06MS3G+9Mbu2EB/gMyA+O3ahgA2P7P4GV
+twKiJYALnkP+QSEZZKR/ycQOqY4pVg==
+=MlAL
 -----END PGP SIGNATURE-----
 
---===============2912425922738987963==
+--===============1428629682526593616==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -402,4 +402,4 @@ a5806cd506af5a7c19bcd596e4708b5c464bfd21 Linux 6.15-rc7
 5b5bf5922f4c104e4e829c0dbfdd9399b7cfc434 ASoC: qcom: sc8280xp: Add sound card support for QCS9100 and QCS9075
 831962e9d7b774d858cfeefc3848e06a2d5599df Add sound card support for QCS9100 and QCS9075
 
---===============2912425922738987963==--
+--===============1428629682526593616==--
