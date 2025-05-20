@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8528294040713192135=="
+Content-Type: multipart/mixed; boundary="===============5924356968151646953=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 20 May 2025 11:03:54 -0000
-Message-Id: <174773903409.1214163.11517775648992971104@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 20 May 2025 11:03:57 -0000
+Message-Id: <174773903784.1214309.8612006246918010998@gitolite.kernel.org>
 
---===============8528294040713192135==
+--===============5924356968151646953==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.15
+  - ref: refs/heads/spi-6.15
     old: fb98bd0a13de2c9d96cb5c00c81b5ca118ac9d71
     new: a5806cd506af5a7c19bcd596e4708b5c464bfd21
     log: revlist-fb98bd0a13de-a5806cd506af.txt
-  - ref: refs/heads/for-6.16
+  - ref: refs/heads/spi-6.16
     old: 4614fd6342ab69feebb067d5db84a9bfb9aada9f
     new: 5b31d2d81a4bcdd9915e7b152fb3cdc3dc7f4ecb
     log: revlist-4614fd6342ab-5b31d2d81a4b.txt
 
---===============8528294040713192135==
+--===============5924356968151646953==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1747739064 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1747739031-5732eff88e536f50309fc3f1af2fcd13ca55e849
+pusher C3F436CA30F5D8EB 1747739068 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1747739035-db505f39ea0ff38d36d77b5c7beb3bfbdc0c0b21
 
-fb98bd0a13de2c9d96cb5c00c81b5ca118ac9d71 a5806cd506af5a7c19bcd596e4708b5c464bfd21 refs/heads/for-6.15
-4614fd6342ab69feebb067d5db84a9bfb9aada9f 5b31d2d81a4bcdd9915e7b152fb3cdc3dc7f4ecb refs/heads/for-6.16
+fb98bd0a13de2c9d96cb5c00c81b5ca118ac9d71 a5806cd506af5a7c19bcd596e4708b5c464bfd21 refs/heads/spi-6.15
+4614fd6342ab69feebb067d5db84a9bfb9aada9f 5b31d2d81a4bcdd9915e7b152fb3cdc3dc7f4ecb refs/heads/spi-6.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgsYbgACgkQJNaLcl1U
-h9B89Af9FlyDsFo53HlSiDwbw5niFQRzFGAGG2FCS57rQ5CdOoQ90gvIGiPbD84m
-svdlT2ISIOGIRZotoO4cAFt1qdFrm3886H/kykn/p1+bdIA6yrG9L87BikE/vT7D
-MDuvkzq0JpSbuZG6sSLS0pwqTA8tgfRw2eSRukohCAIzUgO3+hKD1dDbnPBObaXM
-2fPrBy/ixLN1avHyfm1Gw3l+oME6tVWLrMatTJ2ZVpdh0EhXdx4AeJhvZYqdUtTl
-kB3FfaYyixh0QChFke+4HhU8Qsygumm8drrfTf3mkwjaCYRtcKDeXA7Hm7b2J/59
-NYOBu7pqSTbb5L5gdujgqZ60AsGMcw==
-=I+dF
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgsYbwACgkQJNaLcl1U
+h9B3xgf8C7vC2dtzQvbUf/sp4kX8DOf0lkFTSM+FYxS4EVhMDIn1sXJJkUdb2njv
+NhjL4PIoAi7wfQKjMerh3sPyZfAtCSyzAZlRhyshp7s0vEeILGIT8uvkInt2ekH1
++ShuKb11dzYQfDFYq0+3yX0/FgtAG0dF2DJXeqvNY8vcQECeZSx/O2M23DSlQ6Vd
+9G1uG1e8wdOeGzAOEmq6eS2rUcNRth1Y+wxibanDwucFdn4xzL3o+pF6hVEA96it
+XHmBAlPjIO44XlE1garzl05+boQKydCPXYjtzTqEhjf8Ef6DSbxDH2OVh2Je908e
+ngODhD9WqRhLNd+lGeKo9V+JvRsNSg==
+=3RGo
 -----END PGP SIGNATURE-----
 
---===============8528294040713192135==
+--===============5924356968151646953==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -755,7 +755,7 @@ e72e784fb1138ad313e004ef598ff98b364c7329 Merge tag 'mm-hotfixes-stable-2025-05-1
 5723cc3450bccf7f98f227b9723b5c9f6b3af1c5 Merge tag 'dmaengine-fix-6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
 a5806cd506af5a7c19bcd596e4708b5c464bfd21 Linux 6.15-rc7
 
---===============8528294040713192135==
+--===============5924356968151646953==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -787,4 +787,4 @@ a5733666c775eb852409261d7a6363883d97ff93 spi: spi_amd: Add HIDDMA basic write su
 dbb79974193a2932e828ebbd216efb428c81dc63 spi: spi_amd: Update Kconfig dependencies
 5b31d2d81a4bcdd9915e7b152fb3cdc3dc7f4ecb spi: sh-msiof: Transfer size improvements and I2S
 
---===============8528294040713192135==--
+--===============5924356968151646953==--
