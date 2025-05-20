@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
-Date: Tue, 20 May 2025 15:33:27 -0000
-Message-Id: <174775520753.1466676.13495773777074477955@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Tue, 20 May 2025 15:33:44 -0000
+Message-Id: <174775522459.1467077.817367849932059247@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtd/linux
-user: mraynal
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/nand/next
-    old: dd26402642a0899fde59ea6b0852fad3d799b4cc
-    new: 4a5a99bc79cdc4be63933653682b0261a67a0c9f
+  - ref: refs/heads/pending
+    old: 1cbc77e0bc32304f574d06c57467914c6168d413
+    new: 7ee3850a83e4dc9a6bf997f770fe5ea2f8b76dad
     log: |
-         4a5a99bc79cdc4be63933653682b0261a67a0c9f mtd: nand: sunxi: Add randomizer configuration before randomizer enable
+         7ee3850a83e4dc9a6bf997f770fe5ea2f8b76dad wifi: ath9k_htc: Abort software beacon handling if disabled
          
