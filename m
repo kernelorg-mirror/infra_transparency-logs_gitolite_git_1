@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Tue, 20 May 2025 07:21:28 -0000
-Message-Id: <174772568867.1016521.11165830583224529474@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Tue, 20 May 2025 07:30:37 -0000
+Message-Id: <174772623753.1024620.5438858233442103653@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/pci/pci
+user: kwilczynski
 changes:
-  - ref: refs/heads/nova/vbios
-    old: 775a29c4e936f8e45a52f4e936f06bc263e0473f
-    new: ea75d01d018a5c6484626820909c4cfafe7de028
+  - ref: refs/heads/devres
+    old: aa182e808041566ecf9a8123da0773ec2b96f134
+    new: cbcfd05c9b8e36bfe314f9100342dfcc37f25287
     log: |
-         3c41371e05125d7090ae4133193db5eb7c588e39 nova: firmware: Add impl_from_bytes for Falcon UdescV3
-         f1da9fd7c61679827380131659673fa326a22e06 nova: fwsec: Fixup FWSEC to use ref for FalconUCodeDescV3
-         ea75d01d018a5c6484626820909c4cfafe7de028 nova: vbios: Use pass-by-value for FalconUCodeDescV3
+         be311f5f36290e1c563a774ce10970803a29b1e7 PCI: Drop exclusive requests flags from _pcim_request_region()
+         7f2963cb6dd4b06d30b2fdcfe017d73aa4308c55 PCI: Remove redundant set of request functions
+         cbcfd05c9b8e36bfe314f9100342dfcc37f25287 PCI: Remove hybrid-devres usage warnings from kernel-doc
          
