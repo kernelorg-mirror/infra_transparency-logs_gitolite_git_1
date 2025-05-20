@@ -1,45 +1,16 @@
-Content-Type: multipart/mixed; boundary="===============1889537790990091617=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 20 May 2025 03:13:21 -0000
-Message-Id: <174771080143.793316.8525295427361953924@gitolite.kernel.org>
-
---===============1889537790990091617==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Tue, 20 May 2025 03:31:26 -0000
+Message-Id: <174771188664.810543.12950463832642002202@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: iwamatsu
 changes:
-  - ref: refs/heads/main
-    old: a8ae8a0e848e3506c95e45e7cb6e640502495f1a
-    new: f685204c57e87d2a88b159c7525426d70ee745c9
-    log: revlist-a8ae8a0e848e-f685204c57e8.txt
-
---===============1889537790990091617==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a8ae8a0e848e-f685204c57e8.txt
-
-9525a12d6b0b17ec255d24856d04342bedf1c050 idpf: change the method for mailbox workqueue allocation
-8d5e12c5921c671767a845dd0d69e77026cd1e15 idpf: add initial PTP support
-bf27283ba5943f8e874843a8a05acbd82a2e911a virtchnl: add PTP virtchnl definitions
-c5d0607f424e4091c879688383ac4754739a1669 idpf: move virtchnl structures to the header file
-5cb8805d2366b20ee4d7afff586d8acf17649330 idpf: negotiate PTP capabilities and get PTP clock
-5a27503d3862c8ff812bfdbbe3b04964fa4e25af idpf: add mailbox access to read PTP clock time
-d5dba8f7206dae408d94f06a3bac449c564f9411 idpf: add PTP clock configuration
-4901e83a94ef0a8baf27916f31daf59b0a68547f idpf: add Tx timestamp capabilities negotiation
-1a49cf814fe1edf94615c7b08aff65d9f2d439a3 idpf: add Tx timestamp flows
-494565a74502671d8c27aa52490bd178170caf5e idpf: add support for Rx timestamping
-a462903fa22541f212134fba81084315ad843e6e net: netlink: reduce extack cookie size
-c6a957d067912f1ab4e3be4c92d3730c21d1ddb8 selftests: drv-net: Fix "envirnoments" to "environments"
-e41703aca2f5ac0634c937e260f79ab8ab0a3f88 Merge branch '200GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
-84b21e61ebd64931d865ce3df49d930db8c9e2cd queue_api: reduce risk of name collision over txq
-f685204c57e87d2a88b159c7525426d70ee745c9 Merge branch 'queue_api-reduce-risk-of-name-collision-over-txq'
-
---===============1889537790990091617==--
+  - ref: refs/tags/linux-6.1.y-cip-rebase
+    old: 40eaa85017d6b0d82e9f622493c117f6ee5d2abc
+    new: 0000000000000000000000000000000000000000
