@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/pgpkeys
-Date: Tue, 20 May 2025 22:45:40 -0000
-Message-Id: <174778114024.1857196.2455844333732666138@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Tue, 20 May 2025 22:46:28 -0000
+Message-Id: <174778118812.1857834.4212360959439492183@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ukleinek/pgpkeys
-user: ukleinek
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/wotmate-changes
-    old: 31e7e96b5cb257d66ec3eb2080062c069e47ba20
-    new: 34582a7e8f4c6df3f1dcd6993d9e9581cb73d733
+  - ref: refs/heads/todo
+    old: 29a449c2cb8e4a0a0d4d9afcbb8a3a2ddb2f43c6
+    new: 9f00788c26c848df3c33b8fd94c8b9c6aeb4348e
+    log: |
+         9f00788c26c848df3c33b8fd94c8b9c6aeb4348e What's cooking (2025/05 #06)
+         
