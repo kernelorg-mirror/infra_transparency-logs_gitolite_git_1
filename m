@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4098314584156688989=="
+Content-Type: multipart/mixed; boundary="===============4883462920149315042=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Wed, 21 May 2025 08:41:40 -0000
-Message-Id: <174781690079.2361077.13178330971222507726@gitolite.kernel.org>
+Date: Wed, 21 May 2025 08:42:38 -0000
+Message-Id: <174781695821.2361768.2234820341703122628@gitolite.kernel.org>
 
---===============4098314584156688989==
+--===============4883462920149315042==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kdave/linux
 user: kdave
 changes:
-  - ref: refs/heads/for-6.16
-    old: eeb133a6341280a1315c12b5b24a42e1fbf35487
-    new: 547c29921720438bdd7ba95013589375e82380fe
-    log: revlist-eeb133a63412-547c29921720.txt
+  - ref: refs/tags/for-6.16-tag
+    old: 2c664ae901c42a76d8f92b5dd6ef74cf4d613c44
+    new: 0e12adc98573e34d36ae53b2aec99875180ed1e4
+    log: revlist-2c664ae901c4-0e12adc98573.txt
 
---===============4098314584156688989==
+--===============4883462920149315042==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eeb133a63412-547c29921720.txt
+Content-Disposition: attachment; filename=revlist-2c664ae901c4-0e12adc98573.txt
 
 7d7c23796aaee3d8e71b5b063e251ed32034c033 btrfs: use buffer xarray for extent buffer writeback operations
 48ae91f7a55fa4a352a6f51834df428e6fe7ecc2 btrfs: get rid of goto in alloc_test_extent_buffer()
@@ -108,4 +108,4 @@ caa40b01b44af1cfc34dcc11a0ddc2cdfdbb6e79 btrfs: fix harmless race getting delaye
 46fe6d6f1fd2a82ca44ffb1965008f77f0e91f0e btrfs: remove standalone "nologreplay" mount option
 547c29921720438bdd7ba95013589375e82380fe btrfs: move misplaced comment of btrfs_path::keep_locks
 
---===============4098314584156688989==--
+--===============4883462920149315042==--
