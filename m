@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 21 May 2025 04:45:54 -0000
-Message-Id: <174780275493.2165827.6316561448609842552@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Wed, 21 May 2025 04:46:08 -0000
+Message-Id: <174780276848.2166357.7479475085346336455@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
+repo: pub/scm/linux/kernel/git/sj/damon-hack
 user: sj
 changes:
   - ref: refs/heads/master
-    old: b36ddb9210e6812eb1c86ad46b66cc46aa193487
-    new: 4a95bc121ccdaee04c4d72f84dbfa6b880a514b6
+    old: e9c6834ec68d7f22dc6fe6107f816d86c908d525
+    new: 8d45cb493755491c451dc8c9127d386b6166d655
     log: |
-         4ca45af0a56d00b86285d6fdd720dca3215059a7 remoteproc: qcom_wcnss: Fix on platforms without fallback regulators
-         d6ebcde6d4ecf34f8495fb30516645db3aea8993 padata: do not leak refcount in reorder_work
-         b2df03ed4052e97126267e8c13ad4204ea6ba9b6 crypto: algif_hash - fix double free in hash_accept
-         5da472ae1f128840b27795fa461b47a85d882ce2 Merge tag 'v6.15-p7' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
-         4a95bc121ccdaee04c4d72f84dbfa6b880a514b6 Merge tag 'rproc-v6.15-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
+         af12faad61ca20ea4e18e1c6b1b79884454efc36 patches/next: wordsmith CONFIG_DAMON enablement for posting v1
+         ae0f482addc4f54a57f4f09d10bbfac527f49206 patches/posted: add CONFIG_DAMON enable by default patchset v1
+         8d45cb493755491c451dc8c9127d386b6166d655 patches/posted: add msgids for CONFIG_DAMON enabling by default v1
          
