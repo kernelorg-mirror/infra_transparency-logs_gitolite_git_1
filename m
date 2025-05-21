@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
-Date: Wed, 21 May 2025 20:14:59 -0000
-Message-Id: <174785849924.3069783.617459025967273779@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/superm1/amd-debug-tools
+Date: Wed, 21 May 2025 20:15:38 -0000
+Message-Id: <174785853895.3072066.9505142979706307550@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
-user: zx2c4
+repo: pub/scm/linux/kernel/git/superm1/amd-debug-tools
+user: superm1
 changes:
-  - ref: refs/heads/devel
-    old: 8f697b71a615c5dfff98fe93554036a2643d1976
-    new: b5c5c337c2d9507823d9740e3b2b264b419ac236
+  - ref: refs/heads/master
+    old: 43c4a3a5b2bbee9f377038fa452efdb4ee94114b
+    new: fa66c0aba39e6f61ddfaa05a273f4761971f8901
     log: |
-         b5c5c337c2d9507823d9740e3b2b264b419ac236 wireguard: selftests: bump bash to 5.2.37
+         fa66c0aba39e6f61ddfaa05a273f4761971f8901 Pre-boot DMA protection is read by the USB4 routers, but if USB4 has been disabled by BIOS the setting can't be read.
          
