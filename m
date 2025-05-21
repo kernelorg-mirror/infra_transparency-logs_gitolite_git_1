@@ -1,28 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 21 May 2025 21:21:26 -0000
-Message-Id: <174786248635.3130211.17683000933874241564@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Wed, 21 May 2025 21:26:50 -0000
+Message-Id: <174786281056.3134822.14028978014067704063@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/main
-    old: 5b5f14fc4d737a956dedafb996459c4276f4fa49
-    new: db5a2f8ef8d4be926d29ed62182d003110c1a6ca
+  - ref: refs/heads/arm/fixes
+    old: 7c1bda0993941de2c85c84d53e30e760eda2ff16
+    new: 070d04f002ddc308b053df4723e83cf43719fda0
     log: |
-         d662c14a51910ba0ad66afd248b601ba30b9f7f1 wifi: ath12k: fix regdomain update failure after 11D scan completes
-         37e775a0a9d79a031d28d9e21480f99f448e9215 wifi: ath12k: fix regdomain update failure when adding interface
-         886bb3624e4c9914a943b63fcfdf30b8d2f2b66e wifi: ath12k: fix regdomain update failure when connection establishes
-         9f6243a5dc3c27a6099d6dd45622c825c33fecba Merge branch 'ath-next'
-         61cb854d957c55cc8e1955afc00c1846b9c42295 Merge branch 'ath-current'
-         f1e7ad9f79d701a3837a8f735646a64fa151faa1 Merge remote-tracking branch 'mhi/mhi-next'
-         db5a2f8ef8d4be926d29ed62182d003110c1a6ca Add localversion-wireless-testing-ath
+         573f99c7585f597630f14596550c79e73ffaeef4 Revert "arm64: dts: allwinner: h6: Use RSB for AXP805 PMIC connection"
+         b04f0d89e880bc2cca6a5c73cf287082c91878da arm64: dts: marvell: uDPU: define pinctrl state for alarm LEDs
+         6c9ab811871bc9a08e9cd4b96371a60667fa9ec8 arm64: defconfig: Ensure CRYPTO_CHACHA20_NEON is selected
+         4e3d2c4b7fb8d66e607ebd9ee8eb3422ab510599 Merge tag 'sunxi-fixes-for-6.15' of https://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into arm/fixes
+         070d04f002ddc308b053df4723e83cf43719fda0 Merge tag 'mvebu-fixes-6.15-1' of https://git.kernel.org/pub/scm/linux/kernel/git/gclement/mvebu into arm/fixes
          
-  - ref: refs/tags/ath-202505212105
-    old: 0000000000000000000000000000000000000000
-    new: db5a2f8ef8d4be926d29ed62182d003110c1a6ca
