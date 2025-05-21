@@ -1,61 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============7061221755505351723=="
+Content-Type: multipart/mixed; boundary="===============4415605786066985524=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 21 May 2025 12:54:24 -0000
-Message-Id: <174783206459.2640501.3015693489755802753@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Wed, 21 May 2025 13:01:08 -0000
+Message-Id: <174783246895.2647582.2173489574507758191@gitolite.kernel.org>
 
---===============7061221755505351723==
+--===============4415605786066985524==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 97ce0fe2b7240d47d9124daa92217e478c21a3ba
-    new: 16d693749866f2e4731f2aa1c553f185804dd392
+  - ref: refs/heads/usb-testing
+    old: 3335a1bbd62417fc60a043c7f64684c99cb841a2
+    new: 342e4955a1f1ce28c70a589999b76365082dbf10
     log: |
-         1bd6406fb5f36c2bb1e96e27d4c3e9f4d09edde4 VMCI: fix race between vmci_host_setup_notify and vmci_ctx_unset_notify
-         0be5eac879f28a11b02c6480b86980f9a5688454 hpet: Remove unnecessary NULL check before unregister_sysctl_table()
-         cdd18ef9825953a756f4e0fda734254ec08c4055 spmi: Only use Hikey 970 SPMI controller driver when ARM64
-         8cc68226a3a6a4854e3aca0521d074646db100d6 dt-bindings: spmi: Add Apple SPMI controller
-         77ca75e80c7197f71038d53d0e793d136f8a30ef spmi: add a spmi driver for Apple SoC
-         16d693749866f2e4731f2aa1c553f185804dd392 irqdomain: spmi: Switch to irq_domain_create_tree()
+         acb3dac2805d3342ded7dbbd164add32bbfdf21c usb: usbtmc: Fix read_stb function and get_stb ioctl
+         342e4955a1f1ce28c70a589999b76365082dbf10 usb: usbtmc: Fix timeout value in get_stb
          
 
---===============7061221755505351723==
+--===============4415605786066985524==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1747832093 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1747832058-30a63691ea8bc2141f2c5fcd4ac3d59f77fcabbc
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1747832500 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1747832466-55d8e0df5b17f123ccc8581fa34b866f8cdf6ca9
 
-97ce0fe2b7240d47d9124daa92217e478c21a3ba 16d693749866f2e4731f2aa1c553f185804dd392 refs/heads/char-misc-testing
+3335a1bbd62417fc60a043c7f64684c99cb841a2 342e4955a1f1ce28c70a589999b76365082dbf10 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgtzR0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QkIP/1v9fiicGyATXNZaFynJ
-IX5lKwyEhh/AxzddIoqktAcRTzwtRUaodFsMJq0uTsFybDgm36wwDs8V26spHBi0
-udDO0Z1ok3Vs0v7rnex3SP17yMfs+ItrTKczJzEJIfBJCH4bSehN2uXlICaYtbUo
-/5Jbo73D+ZGtou5KAvG7Cor/JdDJB2WVYSSA8yfP6TjFOuaCZMMXa1ddrCBbsVnc
-xXds0Hlor15PVo6OEd+Jb2+XOJ04kUqEu/63Ern/An3sgpvqUcJXE6ccHI/Bt18o
-aE/WIdnHgnvaAToLWyD967eejbo+CMAwyGLEKQtvtfNtPYz6iHxOIDzxCurSDutW
-gX1X391yfF67wZ0IwqvFemhJ6PIIp7AGCVnuaFxtpFifUKtu6dMA7OD/lWu8siG1
-8/gNbza9LkE21wTBKROwt+MhgpXdPpYDVWh8kOajkxvbmLHgzPekvrZzULaTuCCK
-Htt0TDZwevpt/pMqnc7czl/cwEq9/nngSqO4yKM6IVVbvTl7nopd0y67jq/VfRAt
-fuAqiH85U+x/y23fmAGGP/lHaviPeBKi7+yxhZlx6YPp5blrMgPvOmwx7mIm1AIW
-UPz+hmxv9tgB+/43/tRsos6V0/MrFZWRSVEpvBNgw6NL3WtROkhPJhIclAfzml57
-O6tK21j7gHyfLJ6iBLFRZxoF
-=fUwm
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgtzrQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PQEP/R9AORlwqAMIrtBGPRUE
+2GKjn2SC3e2VX+HeIFZ95GPL9IrCGpb25WQ9i8ab+YXp1+YgC3mVvp6VO8d0h3bz
+2aYCxzF47JBVBMTkpE3HPEk+rHGZOf67009fF6nj/b/7Ds8l8fU/ofbhJPsGFiQU
+VHLF9bRmKFLoV74D3PpaXSE3/sE+wo6G67XGGJ6WIkFnOcscmQEIPtgljBe/7gF7
+r7xpQE5/wrQy3kHE4njeZpqdSWEj53hcZpWUOhIf0VBFoFLP8GCF45+l9MNszOOE
+ne4rNYUpS5364+SbLeenNb9zqveqOVPKUc/MwGzNFz7Yzat/nAwideBBaIchTWB5
+Go+WH0y/SG8gVOueAJ7EYxHbF2KaQqds0NjNHRkumVPplEuIOl9D9zcdyOZHA3Sj
+dj6hTWfbU7VUrpFpvoo4W1yIJhQ4iw8kDLBYisA+TnccMC208YYu8Kz3yQKTe03u
+EZ9UZftijsV3s2L4vv3XT88f2FTtXAzb9oRo8ezd9lkVywaJuvlp6ohGtsJ8fXux
+owgAtSCWHhMisBV05wFHb+JO6DiStvQLoCPY/pmFYpcF1R8HV1Hno6g2sb/eqgbJ
+hvddRHVnbP07VwCsKjo76ZH63yh4ZOfNeHF+lI1bF4qOdZoUZYmodDo++q+ItCmR
+nCWT0DyNFGh7y33R3DJLjQ90
+=fx0G
 -----END PGP SIGNATURE-----
 
---===============7061221755505351723==--
+--===============4415605786066985524==--
