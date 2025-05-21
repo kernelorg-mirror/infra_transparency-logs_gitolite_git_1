@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Wed, 21 May 2025 17:00:39 -0000
-Message-Id: <174784683990.2867219.15154529088856382916@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 21 May 2025 17:00:50 -0000
+Message-Id: <174784685079.2867537.15342524253631174822@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/k3/dt
-    old: 0000000000000000000000000000000000000000
-    new: 6a9d340b1f9910f0f88e0819c464938b91610765
+  - ref: refs/heads/v6_20250516_ckeepax_add_dapm_asoc_helpers_to_create_sdca_drivers
+    old: 108f878d435437f649da32dea9f0d4f684eba3ba
+    new: 0000000000000000000000000000000000000000
