@@ -1,56 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============5185413498605562036=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 21 May 2025 10:37:04 -0000
-Message-Id: <174782382451.2511833.8391884192599245142@gitolite.kernel.org>
-
---===============5185413498605562036==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/bigeasy/staging
+Date: Wed, 21 May 2025 10:41:21 -0000
+Message-Id: <174782408145.2516137.6298066553430905604@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/bigeasy/staging
+user: bigeasy
 changes:
-  - ref: refs/heads/usb-testing
-    old: f27c6da58f1129609a7de66e0034bde70f1349f4
-    new: 85c4aa0a456409511f4383811a88a3cb6b3af75c
+  - ref: refs/heads/futex_fixups
+    old: ebc36968d7c3ed2bb0bec107545ba41e90b997c6
+    new: a87f42fedc30e31cd0711e4675c3c203db5d90b7
     log: |
-         85c4aa0a456409511f4383811a88a3cb6b3af75c xhci: Add missing parameter description to xhci_get_endpoint_index()
+         8d4756457189adeb16f0cd1be34a9b1e513eb853 selftests/futex: Use TAP output in futex_priv_hash
+         0dff718365b74b94af3cea58ee843657fab74b4d selftests/futex: Use TAP output in futex_numa_mpol
+         43eb760b1373d8b22d85b44842aa11b2698dd13f futex: Use RCU_INIT_POINTER() in futex_mm_init().
+         abbda7b9bd187e0a5e516d100042629d716eb1ef tools headers: Synchronize prctl.h ABI header
+         469088f0de9d3e359f1ff7f7570c2db9c1e1b2fc futex: Correct the kernedoc return value for futex_wait_setup().
+         a87f42fedc30e31cd0711e4675c3c203db5d90b7 selftests/futex: Fix spelling mistake "unitiliazed" -> "uninitialized"
          
-
---===============5185413498605562036==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1747823855 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1747823822-851ef58660b61d03bdeca48156bbfb8b825f32bf
-
-f27c6da58f1129609a7de66e0034bde70f1349f4 85c4aa0a456409511f4383811a88a3cb6b3af75c refs/heads/usb-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgtrPAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TrYQAK3DjDO7CwPoNUvRQmel
-BHj2UvTGTCEVOiv16StC5LGdCvoYtAe067qkCajUxSNjuJ9cugv5xDZHji9ZCuSA
-k6b2/nFQlzHGouLYJ21a2INYOUOX9pmy1nRMAW91nt1PvfwzX6pAIAAGTIfCeQLG
-+KCDQbxSlt2RggQHxBmdf5R07ljvvv4xmJXIQrd/covCHG6Hr7nav1SKYHVSSWmv
-BQEEAaVPS0bevxZjnKKzL8y+SMn6Vt17N3/AyZWWycCFITxIGzUuKFAkoryvH65G
-0lR52OJZHSMVQ7TVC5bUXIKo+zJy9h2OnyckCrqPuXV6GLdMlxVLY+lR7LZ1k8m3
-WoqDxP9P+Eaah4wjWCcbWmlQ98N7Cm5OKCg6ALy2OAEe9Pn5BAitectP31BLxQpc
-mnk9zPQ+m52foWNT8CeDJId/qjr371wbBE2LM5QUb/zj0kmnzY1eFNHY878ShLK+
-D0i84NgmJ9OllQuZRjSJpW3KcAtf+NGOVTSpiRWjSoZdo8LLQK15WdDkYt0RuOPk
-0UxdOfnh11PF1N1UUcYixsRALO4AnF7msGL2hbmg9a6w25ARBfevkFy2poBzRFMu
-rNLDy4KSqwIiyBJSt9n+nmkgXMRxoPeoYrVdjme/bTHVRGnbmOjt+/FhEql6CDjw
-XlSTUe2d/PWyZkrmY+DVHq5D
-=Vovz
------END PGP SIGNATURE-----
-
---===============5185413498605562036==--
