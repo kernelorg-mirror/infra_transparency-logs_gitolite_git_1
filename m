@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Wed, 21 May 2025 09:38:46 -0000
-Message-Id: <174782032644.2461223.9745289921894656242@gitolite.kernel.org>
+Date: Wed, 21 May 2025 09:38:54 -0000
+Message-Id: <174782033428.2461524.3216081223845885338@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
 user: andy
 changes:
-  - ref: refs/heads/for-next
-    old: 6f09a17d60410e805ae112fbbfa3ed8ecd0636dd
+  - ref: refs/heads/review-andy
+    old: d1474921f77c6c51c708b2066fb3f09e2a857e1c
     new: ec0c0aab15243bbc6140a7cedd01e2dd9ad19878
     log: |
          f89a915e68de2327d6fd9e69c2aae730d6fe51c6 gpiolib: acpi: Use temporary variable for struct acpi_gpio_info
