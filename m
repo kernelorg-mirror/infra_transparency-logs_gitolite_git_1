@@ -1,25 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Wed, 21 May 2025 11:52:58 -0000
-Message-Id: <174782837816.2581425.11452708189240773256@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 21 May 2025 11:58:02 -0000
+Message-Id: <174782868210.2585920.10760389048393511884@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/heads/bugfix/common
-    old: 18f3eac4d67d264b3de5f3f3ee2ad04573b3fb3f
-    new: eff78a6006da1e7e616847d4c11204b4a329b1b5
+  - ref: refs/heads/sched/core
+    old: 676e8cf70cb0533e1118e29898c9a9c33ae3a10f
+    new: 90ca9410dab21c407706726b86b6e50c6698b5af
     log: |
-         a8454e3bfbc682592538d13625d443aeeb5b83be f2fs: fix to skip f2fs_balance_fs() if checkpoint is disabled
-         0ca4286b0497954710ec8e90d9ef440089dcefdb f2fs: fix to zero post-eof page
-         4289b5d78efbe1e73f044b10fd6639e413dcd72d f2fs: introduce is_{meta,node}_folio
-         fabdb6d3cbbbee0a9f42510736f767846813165c f2fs: fix to do sanity check on node footer in read_end_io
-         672331cc7d7c38a5a78ef7e086676bf9a0e0de57 f2fs: fix to avoid invalid wait context issue
-         4f82729936c15a75a55a66f01e0272974db7e2b5 f2fs: clean up to check bi_status w/ BLK_STS_OK
-         eff78a6006da1e7e616847d4c11204b4a329b1b5 f2fs: cover f2fs_update_inode_page() w/ node_change lock
+         aa3ee4f0b7541382c9f6f43f7408d73a5d4f4042 sched/fair: Fixup wake_up_sync() vs DELAYED_DEQUEUE
+         0212696a844631a923aa6cedd74ebbb3cf434e51 sched/util_est: Simplify condition for util_est_{en,de}queue()
+         90ca9410dab21c407706726b86b6e50c6698b5af sched/uclamp: Align uclamp and util_est and call before freq update
          
