@@ -1,34 +1,42 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 21 May 2025 18:54:44 -0000
-Message-Id: <174785368489.2966284.10930867788670287862@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3635354754742186913=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Wed, 21 May 2025 19:03:35 -0000
+Message-Id: <174785421577.2973675.8740862052810877337@gitolite.kernel.org>
+
+--===============3635354754742186913==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/master
-    old: 2e7417d5e3db851fb51b2dc7688d597d678b884a
-    new: 69d83aec719112cd553974d7bf3131c7f732aa80
-    log: |
-         9b83be7e03a8df9e007990a46e167634aa2a6356 foo
-         195d3807bfec7e7ca28f54dc789df2bb8732ffc3 foo
-         7e8fcd87e9fc764457babc5291585b40f04d8cdc foo
-         864d6b20fc33dcc4ce56c576e25c793b09f2dcd4 foo
-         267d8e55e386db8c033f502c7862502c37ec9a4f foo
-         359b2fd3d4964bb650f5b87d2b6698141fadb4df foo
-         db2aeec1749f3250be456ac32570bb14b5af3ea2 foo
-         a71a111a10b95b06300b212d875e994f98e270e2 foo
-         4b2b8b42a740382b2377f562790f20ac21045681 foo
-         aed8f6adc74ee3ddfb1b0c64e4fbf34ecce3067b foo
-         33ea08061c5abe054ade0debca7cd32a9bfe5b3e foo
-         8ad44f6adf206e8d0a522119c4dd1aaa0f08eac5 foo
-         0b774a75891cef955bdcc28bb2a515ca14e785b5 foo
-         14089ea8196d603fc3bd477d23aa813ba76bbd8d foo
-         9c4a1128bdec95210352e82eb8a6e7aca10f6eb8 foo
-         69d83aec719112cd553974d7bf3131c7f732aa80 foo
-         
+  - ref: refs/heads/kdevops
+    old: 96b500e0f6cbe96efcf072a6f6f47555311f5943
+    new: 0c6668479bba48114e5031d6fb3db53d80d8d6ad
+    log: revlist-96b500e0f6cb-0c6668479bba.txt
+
+--===============3635354754742186913==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-96b500e0f6cb-0c6668479bba.txt
+
+118202ef11a34c160a4bb2a9bf78ddf8626b0ed3 nfsd: add callback encoding and decoding linkages for CB_NOTIFY
+c6ccd44c6d4af3ceed102805aeb1bc40796bf2a8 nfsd: add directory deleg fields to struct nfs4_delegation
+80baecb939861f0c9c2965f593ddbe16f03e43b7 filelock: add an inode_lease_ignore_mask helper
+7f6952f03ecdaf7c2330627cd66ecc67cc8c02b8 nfsd: update the fsnotify mark when setting a new dir delegation
+4a9998b480cc64218c15cd3e69af2b1678ab26c6 nfsd: make nfsd4_callback_ops->prepare operation bool return
+f12b06e436e2fc09a2451fbc713d1a6fe5fccfb8 nfsd: add notification handlers for dir events
+1621f5c511b56c95b670db0e71a481a6e59b2529 nfsd: allow nfsd to get a dir lease with an ignore mask
+30492a82aaf063ef1b7c0ecb4d876dfa51ff7c6f nfs: allow client to request NOTIFY4_REMOVE_ENTRY
+4aad141f8a6dd3cd690cd55f3c92748959afa1e3 nfsd: add a tracepoint for nfsd_file_fsnotify_handle_dir_event()
+cb275109c7f9c0c116b1a2108c7868bf4c6cffbe DEBUG: nfsd: disable CB_RECALL_ANY
+1a1ed17116bff2122995a9a1f09e5c4df41b2997 DEBUG: trace_printks all over the place
+0c6668479bba48114e5031d6fb3db53d80d8d6ad nfsd: add support for NOTIFY4_ADD_ENTRY events
+
+--===============3635354754742186913==--
