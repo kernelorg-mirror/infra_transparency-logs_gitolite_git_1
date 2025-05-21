@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5910578646604723492=="
+Content-Type: multipart/mixed; boundary="===============4481103563925146621=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 21 May 2025 12:14:21 -0000
-Message-Id: <174782966123.2603546.12351798296117615081@gitolite.kernel.org>
+Date: Wed, 21 May 2025 12:15:22 -0000
+Message-Id: <174782972298.2606230.5059294267811089525@gitolite.kernel.org>
 
---===============5910578646604723492==
+--===============4481103563925146621==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,49 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: b808f1cc9c2e4a0263df21806f8f334edff8e988
-    new: 3ab311289cf1cd579e914b775a4449c964057b2c
+    old: 3ab311289cf1cd579e914b775a4449c964057b2c
+    new: a3245ebdfac846ce0b563a3ed474be2e15381f9f
     log: |
-         3ab311289cf1cd579e914b775a4449c964057b2c w1: Avoid -Wflex-array-member-not-at-end warnings
+         c553aa1b03719400a30d9387477190d4743fc1de iio: adc: ad7173: fix compiling without gpiolib
+         3f5fd1717ae9497215f22aa748fc2c09df88b0e3 iio: adc: ad7606: fix raw read for 18-bit chips
+         89944d88f8795c6c89b9514cb365998145511cd4 iio: adc: ad7606_spi: fix reg write value mask
+         921fece3268c3bf2e8c20dd17ff9e5454fa16fda iio: dac: adi-axi-dac: fix bus read
+         e2f820014239df9360064079ae93f838ff3b7f8c iio: imu: inv_icm42600: Fix temperature calculation
+         499a8cee812588905cc940837e69918c1649a19e iio: adc: ad4851: fix ad4858 chan pointer handling
+         7cdfbc0113d087348b8e65dd79276d0f57b89a10 iio: adc: ad7944: mask high bits on direct read
+         16038474e3a0263572f36326ef85057aaf341814 iio: accel: fxls8962af: Fix temperature calculation
+         9c78317b42e7c32523c91099859bc4721e9f75dd iio: accel: fxls8962af: Fix temperature scan element sign
+         a3245ebdfac846ce0b563a3ed474be2e15381f9f Merge tag 'iio-fixes-for-6.15b' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-next
          
 
---===============5910578646604723492==
+--===============4481103563925146621==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1747829693 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1747829753 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1747829659-76dd206216e667b2d014f33878fc6aa814c4e13c
+nonce 1747829720-d074e4d161fdc1f0934d73ad1b08e8db78e52106
 
-b808f1cc9c2e4a0263df21806f8f334edff8e988 3ab311289cf1cd579e914b775a4449c964057b2c refs/heads/char-misc-testing
+3ab311289cf1cd579e914b775a4449c964057b2c a3245ebdfac846ce0b563a3ed474be2e15381f9f refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgtw70bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MWUQAJelwNaCOVU+Ig0zqhv+
-tB1+oiqL3t02LqXqv42f0kFsnIjwuWf+dmesA24e8tQu9EU+M6oXmXGKtWVwsRy1
-zqNGwhSzvgXwUq9C2mfHzqY8Vfo/DbrLJzXJeJUQXcM5wwC6g4kiNiDkX5oRb0N6
-4BkD0iH1t+ddM4vspGzPkuQhPjh7Qbk3bfcZeerM4zZLH3SH5KdlzI4brSIYSznX
-AXiUezgD87R5MYNKfnoPzG1AnetLlM5x5Q69eWdw5T15wLMt+T7rtOguz5QDa8VG
-PTmF3C653Z2SgZI/91vX8Sorm15224RDC/wYnC1qGgbL/CVhMLkrs+5Spnx0xGN7
-SxXRrVIDRP104Mevj70CpcuOZcUUO6xCVrN/hxTxB6bipABbU32ybe1Pl2hnghwA
-N5b+Q4JHwWUg8PADovo570wkJtYTosnI81xSQnp2XSF3gbDTHhrCS8Q69mgSKes/
-LcGcH4jb/WJnFZebLEN9762NL7D7lFqq2ln7H12QK0vJ3WIUb5FpqI7S1bRLoUBn
-HQSb9e5PxDB4Dl2bu8636isRiL023F8Ii6xf/RD52UlSEsHksGzrFsWUHjFpMYAg
-I5nExQP7xbTE8ngPpebpLxEzKj1teV2DrqaZ4n6WIMZowontub5XWYPrZ2IRFqGU
-X4DnC7raNuK77K8x7xth4/RH
-=AVwQ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgtw/kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JkcQAJ5NQZ2p0X/vd4of2ZwC
+IUdLQ16CyECbYJIj0FEbiYZYRFVrvUFxgBmqaitBJTGqy826z+Fdx32T+tttTL1V
+FjLcqeyP1pBvfF220sOZjqeO4o7eNTroKQO/PY4jkMmtv+MtcQVeLH3rhDM/8D0T
+Ba9v7NBRIrWesmBB9//ny3Y1mV99rT3cHsiAAEkdcNwmolP99Wg5cNlYVeKGZNCH
+hYMCKbgXK48CWvxvisckknRXXaXa85I7HJ9donw8VRo6WtNVBovq8KeJ5BJzg9cZ
+Ceu6bTLiPY0fjv3rW22GBA3uPLh13qME2JImFHrK9trCxKLRo9hplVnlel4FdpJq
+66WUTRPsTCIt09qI7sm6p/oHw5RBNGRyiIPBzwSNZH9N2Jz7e+BXq8ytLdGqAnn/
+Y+Se2QeYivkG4srcYQX2/Xzpy5nvhac2DTGUFZCo4vnmoQY2sqZWWbzppNi3hKVS
+4LsPJnEIKq7/KmSWh+tnkMuaHjb43MbtpjUPkf9N5r8RC1wIui7rv73TOxZrBYtb
+AhZQElRcYB9BhWrmIEsTIN2c/AGVmNOvKtBcKNdz0PMa4X6PSYW+4D5UHu9xqtYI
+aD9Yg2ulbFk43Ju2AJzjQWzmPSA+AH6Q5EWS4+l5sz3je6/ZmndWhMsdW4apYqFP
+jZo1487mcGFOHbyQFK56r3VA
+=Q41k
 -----END PGP SIGNATURE-----
 
---===============5910578646604723492==--
+--===============4481103563925146621==--
