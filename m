@@ -1,42 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============6299131018170637385=="
+Content-Type: multipart/mixed; boundary="===============7428241252176120320=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 21 May 2025 22:54:57 -0000
-Message-Id: <174786809720.3218027.10649200038810315032@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Wed, 21 May 2025 23:09:47 -0000
+Message-Id: <174786898737.3230319.5327753598423615989@gitolite.kernel.org>
 
---===============6299131018170637385==
+--===============7428241252176120320==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/main
-    old: 51ebe6b14f669019a9e59e315d7c460065468f8e
-    new: f44092606a3f153bb7e6b277006b1f4a5b914cfc
-    log: revlist-51ebe6b14f66-f44092606a3f.txt
+  - ref: refs/heads/aer
+    old: cbde036e56152ed4f6b8d5f317b34bc723201181
+    new: d41e0decb7d7d98bc41b16fb2dd3174fe034364e
+    log: revlist-cbde036e5615-d41e0decb7d7.txt
 
---===============6299131018170637385==
+--===============7428241252176120320==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-51ebe6b14f66-f44092606a3f.txt
+Content-Disposition: attachment; filename=revlist-cbde036e5615-d41e0decb7d7.txt
 
-55d22ee0358597185f8f5272558ec7cf1a49eb41 net: introduce CONFIG_NET_CRC32C
-a5bd029c733b8ae790d5873e2afeb88b58e3a151 net: add skb_crc32c()
-86edc94da1063a327d8d4bfc82b31df427db3e5c net: use skb_crc32c() in skb_crc32c_csum_help()
-62673b7df998b669229f9aaf85a25cb5c24d5e40 RDMA/siw: use skb_crc32c() instead of __skb_checksum()
-99de9d4022e5004f95f425f798f0aa01e87949ff sctp: use skb_crc32c() instead of __skb_checksum()
-70c96c7cb9f035d5b960021f2450afa6240e66b4 net: fold __skb_checksum() into skb_checksum()
-b82f72292ab4c65250bd734281464a6ab1ff4133 lib/crc32: remove unused support for CRC32C combination
-ea6342d98928e243f2024fb97a9b4d42ee55dfba net: add skb_copy_and_crc32c_datagram_iter()
-427fff9aff295e2c117ed26237d1f4e3d87750a3 nvme-tcp: use crc32c() and skb_copy_and_crc32c_datagram_iter()
-c93f75b2d755c35b596084ddd3feb3528284a53f net: remove skb_copy_and_hash_datagram_iter()
-c6634c98e6151ed626a566fbadb54337bb94c532 Merge branch 'net-faster-and-simpler-crc32c-computation'
-f44092606a3f153bb7e6b277006b1f4a5b914cfc rtase: Use min() instead of min_t()
+bdae3712d241d15463137b6b211c1e2d8df838a1 PCI/DPC: Initialize aer_err_info before using it
+14873f663063f50f576defd7ac980a8b21d22933 PCI/DPC: Log Error Source ID only when valid
+1c0b1b8c163c2469557b04d97c8c0b3c4db3adc1 PCI/AER: Factor COR/UNCOR error handling out from aer_isr_one_error()
+175be2e7d1613d4a9191b04ff9edf5f42f29d88d PCI/AER: Consolidate Error Source ID logging in aer_isr_one_error_type()
+3f69a70bfb1922c527c4e26a3bba10e9d10f5b12 PCI/AER: Extract bus/dev/fn in aer_print_port_info() with PCI_BUS_NUM(), etc
+8fc8838da5b118b8ec781a2c36081b839b02e721 PCI/AER: Rename aer_print_port_info() to aer_print_source()
+04beb7afdee197f8791e920ca8b3a6ac2d6e40aa PCI/AER: Move aer_print_source() earlier in file
+95d9d391e9304506199088734c5e56b561143da0 PCI/AER: Initialize aer_err_info before using it
+37bb33caeb24296ff87dec904670381b870020e7 PCI/AER: Simplify pci_print_aer()
+02a32c66cec0cd28e17d11172c934a00f7452c97 PCI/AER: Update statistics before ratelimiting
+f08ce47998159fbf1d7686d2c755345631dc596c PCI/AER: Trace error event before ratelimiting
+58710c1ca7ca387ea731895e3cdbb3c20712db17 PCI/AER: Check log level once and remember it
+e85d2b57359868ec9d334399966e04d977f80cfe PCI/ERR: Add printk level to pcie_print_tlp_log()
+72bdf63bb246c4d63c929abf0d437df0ad07c310 PCI/AER: Reduce pci_print_aer() correctable error level to KERN_WARNING
+b29f77931164d57bf9159cf5e9dc38bc20f5dc00 PCI/AER: Rename struct aer_stats to aer_info
+6c33eae8003059bd38651f1fc4394420f5d707f0 PCI/AER: Convert aer_get_device_error_info(), aer_print_error() to index
+c68b20cf8b6e1ce9df422e11a57e603e9934e17f PCI/AER: Ratelimit correctable and non-fatal error logging
+836fcad7185afb87982d30609dacd601883a3883 PCI/AER: Add ratelimits to PCI AER Documentation
+d41e0decb7d7d98bc41b16fb2dd3174fe034364e PCI/AER: Add sysfs attributes for log ratelimits
 
---===============6299131018170637385==--
+--===============7428241252176120320==--
