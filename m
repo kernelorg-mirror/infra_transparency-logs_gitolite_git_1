@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4053083660362034186=="
+Content-Type: multipart/mixed; boundary="===============1054498710757136617=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 21 May 2025 12:51:32 -0000
-Message-Id: <174783189223.2638927.5098847045018846352@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
+Date: Wed, 21 May 2025 12:54:11 -0000
+Message-Id: <174783205196.2640151.3341702212689210589@gitolite.kernel.org>
 
---===============4053083660362034186==
+--===============1054498710757136617==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/spdx
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 4d95514d14e87427459ef9e9b5b81c8fe5ebb37c
-    new: 97ce0fe2b7240d47d9124daa92217e478c21a3ba
+  - ref: refs/heads/spdx-linus
+    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
+    new: 59c11a7a9a138a28c7dff81032a7b7b6f1794540
     log: |
-         46a4d12a005c58317e89b5644774c683365dc2ca char: tlclk: Fix correct sysfs directory path for tlclk
-         97ce0fe2b7240d47d9124daa92217e478c21a3ba mei: vsc: Cast tx_buf to (__be32 *) when passed to cpu_to_be32_array()
+         59c11a7a9a138a28c7dff81032a7b7b6f1794540 LICENSES: add CC0-1.0 license text
          
 
---===============4053083660362034186==
+--===============1054498710757136617==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1747831923 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1747831890-65aafea9e1c529d54b4bc8d2b9d29d28e47945db
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1747832083 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
+nonce 1747832050-8f91401522f55a045da09e10d4ba29df00a6981d
 
-4d95514d14e87427459ef9e9b5b81c8fe5ebb37c 97ce0fe2b7240d47d9124daa92217e478c21a3ba refs/heads/char-misc-testing
+0af2f6be1b4281385b618cb86ad946eded089ac8 59c11a7a9a138a28c7dff81032a7b7b6f1794540 refs/heads/spdx-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgtzHQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PdYP/jw66tv6tdftbdtX49Bg
-pQeLi9jgh0DrzKO4DKpsXKAuSSDFrRuo1UD1jyNzc7Iwv049GmvDuBWuf3sDLaHe
-yUlYXO428XacSFYah3LOD89GSvECyl9hFrjRe3+SwsW6zL0kKeI6FEtqQwXk2atj
-xz7niJPENl0XrYZwjUiYyCHOUf0Qm6d/RHc/WejQqp/XEYo0VsjUTkCtP5H23B7L
-sNI1vz3HhdlyqrQco3fK/WPPi8VPIpTB4+l8HWgblFq6Xgd97M+a665Ub2xiYLdj
-II8/hJ8YfGGxCVfvMpKWmU3C5ycx5TV5RMxCjw+TcGaLFf/SIYoDZX9pACzAwzwD
-cK4h3tGXVgD65mKy6raKnylabbKMnwILmfM+CRibFidn7eaEB3hLl55n+94eRhvV
-rVVijM0HcOkUz2JW6Fajw5QSs1GVRpwNiTm5nUQ6C4ChTfm8FjhNt2k9IY1tgECH
-1qw2V+1KWQcYVgdxQTuvHSJcblBIMKhmsDlc3ulIMWqDj+cxq04aE5sge1FHhP7D
-UCirzU8Pmi30J2Q/bYMyPFYGYdR6smfxfdx7DGa1FmtIcFkYBB0erfX1ejWOtZvI
-7Qa0Fu8D2suyFOtq6GOq9fExNiqDwpBQMpIQU6lBKl3BflpQboMpzPG4C3DYEL5X
-zGc7eR1Be5FFeiYRXkAftSym
-=Q+jj
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgtzRMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nz4P/AsKXJy8i53KQp/0E6Zb
+Ej9a1iQ1XzzYEhn14qOxlvLFmOmgo1k6xTH5uWfOwWSfwe5WY+ZhHqmWY1fsG8E7
+uRXKo0BO8fuc0Wr0r083l58+WCILSlSrrIPphVdSdd746KYETQnkYAd8Dw7hay5W
+KNUGpwkmgJaNTbNx541unhVJFFvMZ/mCV4IRxTYL1cZsMJNjrC8gWYE8yH5U1YIZ
+gsJfx6J86uopDzAfOqqQoOpkQGHKj+qhcE/lrzhmdzQcZUFV84hewc+18bAhrsOq
+kD01WShLZ+ClVNAmOcqSmTSaowSYmgQ5flovM/MS/Fc/J10we1HG4Ww57u35uofw
+p7DRqnDOcdJktVqeHJLkRVfIlQk++0X72bJQs37p+IJPg9VTnspFaeMu+hCLkdEl
+ua0VpYFG735zeNk4igshBoMYxOTQrjrH+8aq5YcPaGhwVTsumSCxtt8C4cY9jOk/
+8D/U6V9Jj7y0t8BNXxCcKpt53pvqMjbQFPKqGLKFqbl4E9rXlT+VqhB+GhIIsIYP
+jxtaA21f2gv9UONETvMBFRe1c0cUXAhzWy8MLpsolyCenoEgHhBJOiO1k6UR3QSO
+KmgWnFTVMPqL1lfqDmXNwhJE+wt0AJTgpkDJm8duFET1ol6WLUBYCzmjt3PSDJUV
+RDMBmlgoHqMtPoXSBerATxQk
+=Bzez
 -----END PGP SIGNATURE-----
 
---===============4053083660362034186==--
+--===============1054498710757136617==--
