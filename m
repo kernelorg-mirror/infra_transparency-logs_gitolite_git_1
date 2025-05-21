@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3851149101910580038=="
+Content-Type: multipart/mixed; boundary="===============7607253228748405357=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Wed, 21 May 2025 16:38:28 -0000
-Message-Id: <174784550815.2843119.3787922102987035777@gitolite.kernel.org>
+Date: Wed, 21 May 2025 16:38:52 -0000
+Message-Id: <174784553234.2843641.5818126898967522224@gitolite.kernel.org>
 
---===============3851149101910580038==
+--===============7607253228748405357==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: 4448bb4bff76fcabebcb8542d43e8f325a61f5e3
     new: a4324a28730938941f2638ca76715db22ec2f2e0
     log: revlist-4448bb4bff76-a4324a287309.txt
 
---===============3851149101910580038==
+--===============7607253228748405357==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -293,4 +293,4 @@ f9e2beae4f6aae0f4c8ff6b0ab561347b0ee5911 tpm_ffa_crb: access tpm service over FF
 8917f13716d82c035249a676ab454282ed64869f tpm_crb_ffa: use dev_xx() macro to print log
 a4324a28730938941f2638ca76715db22ec2f2e0 tpm_crb: ffa_tpm: fix/update comments describing the CRB over FFA ABI
 
---===============3851149101910580038==--
+--===============7607253228748405357==--
