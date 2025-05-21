@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5862508987269202448=="
+Content-Type: multipart/mixed; boundary="===============2729100197817822410=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Wed, 21 May 2025 13:26:06 -0000
-Message-Id: <174783396627.2669232.13439736909367429176@gitolite.kernel.org>
+Date: Wed, 21 May 2025 13:26:22 -0000
+Message-Id: <174783398216.2669922.12911291982571237718@gitolite.kernel.org>
 
---===============5862508987269202448==
+--===============2729100197817822410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/togreg
-    old: 43a9eee06bf8a8535d8709b29379bec8cafcab56
-    new: 0c86e33819785fe50616b6ee3fb35c1e4be406d5
-    log: revlist-43a9eee06bf8-0c86e3381978.txt
+  - ref: refs/heads/testing
+    old: 8ae65f4df3b2360bd43c040e5b8e3d53cefd9269
+    new: 5c3fcb36c92443a9a037683626a2e43d8825f783
+    log: revlist-8ae65f4df3b2-5c3fcb36c924.txt
 
---===============5862508987269202448==
+--===============2729100197817822410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-43a9eee06bf8-0c86e3381978.txt
+Content-Disposition: attachment; filename=revlist-8ae65f4df3b2-5c3fcb36c924.txt
 
 0b9c738f9c4dc27d8ddda15a80360150fb5a1c33 docs: iio: ad3552r: fix malformed table
 8f08055bc67a355aca55856cc810b89645506a5f iio: introduced iio_push_to_buffers_with_ts() that takes a data_total_len argument.
@@ -114,5 +114,16 @@ d524b3e0efa01db32f43957e58b4251c1eb48a5f iio: chemical: Add driver for SEN0322
 c8c2db399758427a42747d89e220a7d5b7b55bfb dt-bindings: iio: adc: add NCT7201 ADCs
 5aef97a9126e2441744e0faab4850e6274e23519 iio: adc: add support for Nuvoton NCT7201
 0c86e33819785fe50616b6ee3fb35c1e4be406d5 dt-bindings: iio: adc: Add ROHM BD79100G
+096dcd6ff1b46e7cdbb6681d00cd2e738e7b2563 iio: irsd200: Remove print of error code from dev_err_probe
+69add61515a8c1bb7fb7b3b80224d7e494841ea3 iio: backend: add support for filter config
+09224eca34673c962394274f77e9f45930a6fede iio: backend: add support for data alignment
+697850901c2c470fdff2da2a0dd1b08ac4092800 iio: backend: add support for number of lanes
+597c14b0c1ac1490546ead33e5cd9ded21e291f6 dt-bindings: iio: adc: add ad408x axi variant
+438764407ad0f1cff647af5d1206fa9da5aafd7f iio: adc: adi-axi-adc: add filter type config
+6b01453525d914f2f79e207b8c73d80f35dd5388 iio: adc: adi-axi-adc: add data align process
+1c5ed86e04b9620ebab97d55612cb502a51f01f6 iio: adc: adi-axi-adc: add num lanes support
+d45dde146948c0a5eab12ccd688d8a8368f7af06 dt-bindings: iio: adc: add ad4080
+710c790f0002c8bc8d8a922b191886e13cd75d99 iio: adc: ad4080: add driver support
+5c3fcb36c92443a9a037683626a2e43d8825f783 Documentation: ABI: add sinc1 and sinc5+pf1 filter
 
---===============5862508987269202448==--
+--===============2729100197817822410==--
