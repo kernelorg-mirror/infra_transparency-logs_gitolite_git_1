@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7872267836843687861=="
+Content-Type: multipart/mixed; boundary="===============6487495450762515189=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Wed, 21 May 2025 12:35:54 -0000
-Message-Id: <174783095464.2624552.9650071348701606270@gitolite.kernel.org>
+Date: Wed, 21 May 2025 12:37:23 -0000
+Message-Id: <174783104345.2625554.1819479468612031030@gitolite.kernel.org>
 
---===============7872267836843687861==
+--===============6487495450762515189==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vfs/vfs
 user: brauner
 changes:
-  - ref: refs/tags/tmp.vfs-6.16.netfs
-    old: b7708e4a1271ff08cf82316d85e38f72f73dcf61
-    new: a4c983e855d0e1245eeb03e17e5ff6d80a1ced32
-    log: revlist-b7708e4a1271-a4c983e855d0.txt
+  - ref: refs/heads/vfs-6.16.netfs
+    old: 1e7b5a7115132a687293b77407cc915a5c512c4f
+    new: 5fddfbc0cbc55a6b506f8cd07c58a152a3b535d6
+    log: revlist-1e7b5a711513-5fddfbc0cbc5.txt
 
---===============7872267836843687861==
+--===============6487495450762515189==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b7708e4a1271-a4c983e855d0.txt
+Content-Disposition: attachment; filename=revlist-1e7b5a711513-5fddfbc0cbc5.txt
 
 418556fa576ebbd644c7258a97b33203956ea232 docs: initramfs: update compression and mtime descriptions
 cfd86ef7e8e7b9e015707e46479a6b1de141eed0 anon_inode: use a proper mode internally
@@ -60,4 +60,4 @@ e02cdc0e7fb0b5fe9287b2434c5c09fd9a58cb9e Merge patch series "netfs: Miscellaneou
 2b1424cd131cfaba4cf7040473133d26cddac088 netfs: Fix wait/wake to be consistent about the waitqueue used
 5fddfbc0cbc55a6b506f8cd07c58a152a3b535d6 Merge patch series "netfs: Miscellaneous fixes"
 
---===============7872267836843687861==--
+--===============6487495450762515189==--
