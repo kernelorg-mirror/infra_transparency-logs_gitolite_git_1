@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Wed, 21 May 2025 05:35:39 -0000
-Message-Id: <174780573922.2207081.11996648319589135901@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
+Date: Wed, 21 May 2025 05:58:44 -0000
+Message-Id: <174780712425.2224241.17424586328144226290@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/linux/kernel/git/klassert/ipsec-next
+user: klassert
 changes:
-  - ref: refs/heads/bugfix/common
-    old: 10395af3fca4273afc0ec0b0d5edfbaaa6b89e96
-    new: df2d0ce86be9c1b24b0c0f3b5baa68cc3df8ca0e
+  - ref: refs/heads/master
+    old: c82b48b63a939e9b0f40bd00f95bcea4502fcada
+    new: e7a37c9e428a2912a4eec160e633503cd72e1ee6
     log: |
-         df2d0ce86be9c1b24b0c0f3b5baa68cc3df8ca0e f2fs: fix to zero post-eof page
+         e7a37c9e428a2912a4eec160e633503cd72e1ee6 xfrm: use kfree_sensitive() for SA secret zeroization
          
