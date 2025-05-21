@@ -1,21 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iommu/linux
-Date: Wed, 21 May 2025 10:55:15 -0000
-Message-Id: <174782491532.2528263.9717170978879601830@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Wed, 21 May 2025 10:58:40 -0000
+Message-Id: <174782512018.2530163.15455342672595562418@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iommu/linux
+repo: pub/scm/linux/kernel/git/arm64/linux
 user: will
 changes:
-  - ref: refs/heads/arm/smmu/updates
-    old: 3318f7b5cefbff96b1bb49584ac38d2c9997a830
-    new: 70892277ca2dbad30ce89acf62fb62045d4bc59b
+  - ref: refs/heads/for-next/core
+    old: 7d6644225937dc901417f809f42fc2bd81f00ff7
+    new: 1f11abe71e01f734c3375c91e879553067fa4e80
     log: |
-         1650620774fa83135e39cc5778684dd516c11c3e iommu/arm-smmu-qcom: Enable threaded IRQ for Adreno SMMUv2/MMU500
-         3053a2c5086d56ce7f64cfb5816b4124769c0ccd iommu/arm-smmu: Move handing of RESUME to the context fault handler
-         70892277ca2dbad30ce89acf62fb62045d4bc59b iommu/arm-smmu-qcom: Make set_stall work when the device is on
+         54b8070548c642eec22de2f55fd62dd9c970ec57 arm64: el2_setup.h: Make __init_el2_fgt labels consistent, again
+         1f11abe71e01f734c3375c91e879553067fa4e80 Merge branch 'for-next/entry' into for-next/core
+         
+  - ref: refs/heads/for-next/entry
+    old: 694f574f741a9e5dd60c39aae5aaa34c18231e96
+    new: 54b8070548c642eec22de2f55fd62dd9c970ec57
+    log: |
+         54b8070548c642eec22de2f55fd62dd9c970ec57 arm64: el2_setup.h: Make __init_el2_fgt labels consistent, again
          
