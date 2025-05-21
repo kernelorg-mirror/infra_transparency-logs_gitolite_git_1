@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 21 May 2025 20:49:30 -0000
-Message-Id: <174786057086.3099485.16961287881481496173@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
+Date: Wed, 21 May 2025 20:49:34 -0000
+Message-Id: <174786057435.3099730.8891693635219287659@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
+user: zx2c4
 changes:
-  - ref: refs/heads/for-6.16/block
-    old: 349c41125d3945c53f2c3d48d7225dbdd2c99801
-    new: 9172dbf3a6d30fb80aa2f550003961450bb4c0bb
+  - ref: refs/heads/devel
+    old: 484bd1184db64299119db8663837de93e3a47ba0
+    new: d54bdcf8edc4a7bd69eb2945509380232c8e83e4
     log: |
-         9172dbf3a6d30fb80aa2f550003961450bb4c0bb ublk: handle ublk_set_auto_buf_reg() failure correctly in ublk_fetch()
-         
-  - ref: refs/heads/for-next
-    old: 9a0aae191376d9feb6189bb70e80a60ab489ff31
-    new: 17f0d2e313b434a9133639980bb121ae3ba4798a
-    log: |
-         9172dbf3a6d30fb80aa2f550003961450bb4c0bb ublk: handle ublk_set_auto_buf_reg() failure correctly in ublk_fetch()
-         17f0d2e313b434a9133639980bb121ae3ba4798a Merge branch 'for-6.16/block' into for-next
+         d54bdcf8edc4a7bd69eb2945509380232c8e83e4 wireguard: selftests: specify -std=gnu17 for bash
          
