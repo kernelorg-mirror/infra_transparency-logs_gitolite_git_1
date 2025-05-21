@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Wed, 21 May 2025 19:41:36 -0000
-Message-Id: <174785649616.3042734.2343542675880539885@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Wed, 21 May 2025 19:48:25 -0000
+Message-Id: <174785690553.3048328.15932518756491736981@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
   - ref: refs/heads/master
-    old: a2a4669c7f7f6e7f57b7ef83b1917d629b041340
-    new: a3dc31bf2beae1663774b2b7a1362a9aa3238bf3
+    old: 623029dcc53837d409deb70b65eb7c7b83ab9b9a
+    new: 17487bc76dcf0b3bd9dc49a64c9f44066b0200f0
     log: |
-         a3dc31bf2beae1663774b2b7a1362a9aa3238bf3 patches/next: rebase to latest mm-new
+         17487bc76dcf0b3bd9dc49a64c9f44066b0200f0 Bluetooth: btintel: Check dsbr size from EFI variable
          
