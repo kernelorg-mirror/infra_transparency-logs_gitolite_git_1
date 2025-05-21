@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 21 May 2025 09:06:33 -0000
-Message-Id: <174781839305.2384109.5815439432235907144@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Wed, 21 May 2025 09:08:58 -0000
+Message-Id: <174781853872.2385347.5977430476164298232@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: maz
 changes:
-  - ref: refs/heads/master
-    old: ea04d719352add738251446315cebdada90171a9
-    new: 4daee3ce9485d1ace09d789b9332aa8f57606d21
+  - ref: refs/heads/next
+    old: 7f1a034977d07faaf91b0c948e923a8a9d9a98f7
+    new: 52a62c117afb9ec3484a4d2fd6d0c4caff754c5b
     log: |
-         fce1b6502982f076537153edf35a77cfc5a3d1c6 login: using an avaiable shell while logging in.
-         5e91658d03029bfe5e503a3e1a6528552e75c4e0 login: (adoc) add a description about LOGIN_SHELL_FALLBACK
-         8fabaa8b76b03e6c4bd4cd6a266e30152f9e5ec9 fincore: add recursive directory scanning
-         4daee3ce9485d1ace09d789b9332aa8f57606d21 Merge branch 'login_fix' of https://github.com/echoechoin/util-linux
+         30deb51a677b96f0faf20373995fe0fb4a78b8b8 KVM: arm64: vgic-its: Add debugfs interface to expose ITS tables
+         d43548f422f27219eff5ce1897336af2c4f15091 KVM: arm64: nv: Hold mmu_lock when invalidating VNCR SW-TLB before translating
+         62bddc4654133e3410a23d74b8d818d84c495a99 Merge branch kvm-arm64/nv-nv into kvmarm-master/next
+         52a62c117afb9ec3484a4d2fd6d0c4caff754c5b Merge branch kvm-arm64/misc-6.16 into kvmarm-master/next
          
