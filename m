@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Wed, 21 May 2025 14:32:57 -0000
-Message-Id: <174783797736.2731697.6993237430374720370@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Wed, 21 May 2025 14:37:06 -0000
+Message-Id: <174783822699.2735708.6968683203397230477@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/kdevops
-    old: 30cb95e769bbcc2b715421fde887cb6cd6a394b5
-    new: 96b500e0f6cbe96efcf072a6f6f47555311f5943
+  - ref: refs/heads/master
+    old: cce587856d39bc589286342830a2686fac174feb
+    new: c03c34710b70665567cc04a5551891efb83c072f
     log: |
-         96b500e0f6cbe96efcf072a6f6f47555311f5943 SQUASH: just use traditional op+status cb decoder
+         c03c34710b70665567cc04a5551891efb83c072f test/iowait: add license and note
          
