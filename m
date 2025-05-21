@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Wed, 21 May 2025 10:45:05 -0000
-Message-Id: <174782430528.2520134.18212921838324389342@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iommu/linux
+Date: Wed, 21 May 2025 10:55:15 -0000
+Message-Id: <174782491532.2528263.9717170978879601830@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/iommu/linux
+user: will
 changes:
-  - ref: refs/heads/arm64/stacktrace-updates
-    old: c92be03379ce760fc5df11f80eefadb59f547456
-    new: 7783bf9499d3d32bf81e0007fbbfb6cadb6b478b
+  - ref: refs/heads/arm/smmu/updates
+    old: 3318f7b5cefbff96b1bb49584ac38d2c9997a830
+    new: 70892277ca2dbad30ce89acf62fb62045d4bc59b
     log: |
-         7783bf9499d3d32bf81e0007fbbfb6cadb6b478b arm64: stacktrace: Implement arch_stack_walk_reliable()
+         1650620774fa83135e39cc5778684dd516c11c3e iommu/arm-smmu-qcom: Enable threaded IRQ for Adreno SMMUv2/MMU500
+         3053a2c5086d56ce7f64cfb5816b4124769c0ccd iommu/arm-smmu: Move handing of RESUME to the context fault handler
+         70892277ca2dbad30ce89acf62fb62045d4bc59b iommu/arm-smmu-qcom: Make set_stall work when the device is on
          
