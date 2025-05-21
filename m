@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============8603211164565824537=="
+Content-Type: multipart/mixed; boundary="===============2771213777429266988=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Wed, 21 May 2025 15:02:48 -0000
-Message-Id: <174783976861.2758475.4981909924728544529@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 21 May 2025 15:02:51 -0000
+Message-Id: <174783977199.2758712.8710745964418433706@gitolite.kernel.org>
 
---===============8603211164565824537==
+--===============2771213777429266988==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.15
+  - ref: refs/heads/regmap-6.15
     old: 153dbf4adad0082d030c30d20541df2b1af52db6
     new: a5806cd506af5a7c19bcd596e4708b5c464bfd21
     log: revlist-153dbf4adad0-a5806cd506af.txt
-  - ref: refs/heads/for-6.16
+  - ref: refs/heads/regmap-6.16
     old: d30e845b0ae63400738709ca624a4a7bb69c4ba2
     new: c5a219395b4e6312102a505bfe73aac8f8bada8c
     log: |
          c5a219395b4e6312102a505bfe73aac8f8bada8c regmap: Move selecting for REGMAP_MDIO and REGMAP_IRQ
          
 
---===============8603211164565824537==
+--===============2771213777429266988==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1747839799 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
-nonce 1747839766-df1b80d872704720a0368002390b72d03ae9b45c
+pusher C3F436CA30F5D8EB 1747839803 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1747839769-146fd0218d98b6700bdaa568bc73661b6f1938ad
 
-153dbf4adad0082d030c30d20541df2b1af52db6 a5806cd506af5a7c19bcd596e4708b5c464bfd21 refs/heads/for-6.15
-d30e845b0ae63400738709ca624a4a7bb69c4ba2 c5a219395b4e6312102a505bfe73aac8f8bada8c refs/heads/for-6.16
+153dbf4adad0082d030c30d20541df2b1af52db6 a5806cd506af5a7c19bcd596e4708b5c464bfd21 refs/heads/regmap-6.15
+d30e845b0ae63400738709ca624a4a7bb69c4ba2 c5a219395b4e6312102a505bfe73aac8f8bada8c refs/heads/regmap-6.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgt6zcACgkQJNaLcl1U
-h9DtGwf9Fo4uIVVgjlcbvHmLg3N/eF663rQSiBgun1km9rZxgUl9hiSOj5MOX8LP
-iZV8lZdYrkrpH3GRfcq9MSvBdzhxt+tffBWYVh6tGdCJtbrJ67OPhZFN3ikwXvOd
-8bSpnU1EkCdUC+FtJ1xazyxOEyxGi6R3jHCeCW1eeJmJ+t3MoakiLZN3d5Oi0DuG
-3vo7DagnSXbwZ3CVZw3n5S48KZtgCULyzNqWBZxLGxEp/Wk5ggy1J4dfqlRpzes1
-WktAsKXBgOanNZ8RHdB2+frGv6kFiT5unq07bkRuv2ywuvE8HeKN2ZPl9pU8AP8p
-L4wxEKzvj8Y9eiW/vZ8ySrOl27jL5Q==
-=OWl+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgt6zsACgkQJNaLcl1U
+h9Bqbgf/b3ZeUn2ITaufuUbeVrRL8ld6o91uBck2t6Ot+lXMYyurWbRsgGg0yzN4
+qBgRyElgyP95/2cOvG3nNeTlWZTibNg5usGjisovEOIWelfy7w1KpjvcScIZG0ZF
+87yxzb5ElBLaJtm2kxU15lxUs3w+bxEqUFwRj+2a2tqNbc9WlVEQd0M/YSH9NAG0
+tM5goIDdOhGqDWoV5Fs1q/0Yv/Qois6iDnqsHpwk4kynSm59u2QHTEiTzVCoY1b+
+UgWyb1+oiaqRvctQUb1RGCvoeFzYY1V6PfYhGTh4OzofIc6FRy4ZC6KmcYPDijsg
+bf8pEi96ebRpGKtIj9oON/aL1cB28Q==
+=0SGt
 -----END PGP SIGNATURE-----
 
---===============8603211164565824537==
+--===============2771213777429266988==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1083,4 +1083,4 @@ e72e784fb1138ad313e004ef598ff98b364c7329 Merge tag 'mm-hotfixes-stable-2025-05-1
 5723cc3450bccf7f98f227b9723b5c9f6b3af1c5 Merge tag 'dmaengine-fix-6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
 a5806cd506af5a7c19bcd596e4708b5c464bfd21 Linux 6.15-rc7
 
---===============8603211164565824537==--
+--===============2771213777429266988==--
