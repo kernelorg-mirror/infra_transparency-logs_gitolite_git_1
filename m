@@ -1,47 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8232079844577628517=="
+Content-Type: multipart/mixed; boundary="===============6302421107258283801=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Wed, 21 May 2025 11:14:03 -0000
-Message-Id: <174782604354.2544246.14005572425300992974@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Wed, 21 May 2025 11:14:43 -0000
+Message-Id: <174782608306.2545185.7764499831623964374@gitolite.kernel.org>
 
---===============8232079844577628517==
+--===============6302421107258283801==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/review-ilpo-next
-    old: 90b85567e45736b662d034be536a76ba0f4c7ca8
-    new: b2012b38080e2f92d43eca59e8249c174a27527c
+  - ref: refs/heads/usb-testing
+    old: d01ccb5b62b753c7ce527b1b38834c0ad2e9ae50
+    new: 1143d41922c0f87504f095417ba1870167970143
     log: |
-         cad37faac66c3822add86caf02fa0884d309a45f docs: ABI: Fix "aassociated" to "associated"
-         b2012b38080e2f92d43eca59e8249c174a27527c platform/x86: ideapad: Expose charge_types
+         1143d41922c0f87504f095417ba1870167970143 usb: misc: onboard_usb_dev: Fix usb5744 initialization sequence
          
 
---===============8232079844577628517==
+--===============6302421107258283801==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1747826069 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1747826036-bfd6c6720de64f2470f4d33066e4c1b618f8b10a
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1747826114 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1747826081-78867d2908b33a16572c8131863d5560b5f8e0e6
 
-90b85567e45736b662d034be536a76ba0f4c7ca8 b2012b38080e2f92d43eca59e8249c174a27527c refs/heads/review-ilpo-next
+d01ccb5b62b753c7ce527b1b38834c0ad2e9ae50 1143d41922c0f87504f095417ba1870167970143 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaC21mAAKCRBZrE9hU+XO
-MRHwAQDLr66Hp8yP8Md4Dg2iUCzixr3GF7wzr/j6iVL9BXxv/QEAjn5JswYPyLwO
-mH8UdkWq4KLpePjsZ0IhcpSe2soVXA8=
-=kIZQ
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgttcMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qtoQAIRMKNBc1Tg6O0ZDyUUQ
+QhXKXsIPAvn2tf9p4AAZoo+d93SEJDZpcDFe8wRN6j5Xw1Ldh2gjd/2F+nGkZg9K
+J/0qQ/C9mFwzXc7Mry3MIc8ewsNSanWlkJXvqw2uLA8yza0/DiEdxVa8VDCoP9Ne
+O+N4kh+/09nMYAA+Ko6YYD5KWe3urY7/N/YaaZ0EpPbWMMdukEdWTkDFF+eWWfOZ
+eIswPTTLqUbmyEri7ZebmA81Jyp8T29PaAvTdkyuPglVJFbQT/u/BtHDQHvS2V2n
+IiBvPH83Dw9w0IpZHK7EroBKwjx0ty8LH18Pb/ZzZHms5AFR1Sj2Eb9wPi5c9Lu8
+uUR5cJU0nOWoC3P4OjjjCnk0ovt/CwizYLBRkue5cMX8Uu9pbX+TO8xBmwJerIpC
+WhnsQRI4PqljRpK+oA8QNkrYVa8EihQNOTRwNVGjFGF7rvKZvsh/ccL0CT/1ylfH
+Q4Mrrm1jFtnLutPaiGsdKeOTtrsBy8sWTMbIAPhgghQS+qSbbreLadrISVVYssyG
+s7SSxvCw6yuwavL0BpHndmfiwQhsl7r1OtWsEhJGENLXn3Kt1Ymz2QS0KNnZthND
+EgEJQ7/Y3YmTOKBmizEwJyoOSMTDJzwN+Yc7K68R8DeINSChKn3xQ1NhJRfijjps
+k6QLJZRtJLpICq9Sa9czGoqD
+=Xgd3
 -----END PGP SIGNATURE-----
 
---===============8232079844577628517==--
+--===============6302421107258283801==--
