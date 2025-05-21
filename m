@@ -1,22 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 21 May 2025 01:43:14 -0000
-Message-Id: <174779179449.2012590.2964520859815299916@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Wed, 21 May 2025 01:45:17 -0000
+Message-Id: <174779191771.2015703.9264624731412919349@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
   - ref: refs/heads/main
-    old: 04ff99f4b9f967bb5493f3e2b489444017b7fc8b
-    new: 5b1ced44692ad64a616bdb5f30894d7d337854e6
+    old: 9f536b3bb18013d39ceb2c7b0ef5a672b7d4a8ad
+    new: 5b5f14fc4d737a956dedafb996459c4276f4fa49
     log: |
-         59aa6e3072aa7e51e9040e8c342d0c0825c5f48f net: bcmgenet: switch to use 64bit statistics
-         e985b97ac1b13e9653b326f62eab1d44cd34e203 net: bcmgenet: count hw discarded packets in missed stat
-         bbdf9ec61053ae0e3731634905c51964d3fc43f1 net: bcmgenet: expose more stats in ethtool
-         5b1ced44692ad64a616bdb5f30894d7d337854e6 Merge branch 'net-bcmgenet-64bit-stats-and-expose-more-stats-in-ethtool'
+         08e3cc13b0d050860f41b4eaaa21c789af968b98 wifi: carl9170: micro-optimize carl9170_tx_shift_bm()
+         0d777aa2ca77584b339ce195db86fe0ee7dda5d5 wifi: ath12k: fix mac pdev frequency range update
+         9a4bb826b090ad3a1ca25d228eadc0c1456fe3db Merge branch 'ath-next'
+         0bc65f6ea079c4622e1ee9bace183a965026a2c4 Merge branch 'ath-current'
+         3406fb95a04ee1af4e25adf6bf0fbcc52887501e Merge remote-tracking branch 'mhi/mhi-next'
+         5b5f14fc4d737a956dedafb996459c4276f4fa49 Add localversion-wireless-testing-ath
          
+  - ref: refs/tags/ath-202505210109
+    old: 0000000000000000000000000000000000000000
+    new: 5b5f14fc4d737a956dedafb996459c4276f4fa49
