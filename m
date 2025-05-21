@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Wed, 21 May 2025 09:53:39 -0000
-Message-Id: <174782121991.2474016.16491257356699684816@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 21 May 2025 09:59:37 -0000
+Message-Id: <174782157739.2479179.7864507304721631378@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/for-next
-    old: 21508c8c972ca0ff06b07af37adb4021ab527de2
-    new: d00d16bcbc2553a3ac9acccf2d6444cda5502adf
+  - ref: refs/heads/x86/core
+    old: 61ab72c2c6bf24f28b3dbfd3126e984d5afa8424
+    new: 6a7c3c2606105a41dde81002c0037420bc1ddf00
     log: |
-         972db388d40ded1a5ef8ce09d92ef1e2b9e40f07 RDMA/mlx5: Remove the redundant MLX5_IB_STAGE_UAR stage
-         d00d16bcbc2553a3ac9acccf2d6444cda5502adf RDMA/mlx5: Add support for 200Gbps per lane speeds
+         6a7c3c2606105a41dde81002c0037420bc1ddf00 x86/bugs: Fix spectre_v2 mitigation default on Intel
          
