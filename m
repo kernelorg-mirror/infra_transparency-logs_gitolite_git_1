@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Tue, 20 May 2025 23:52:48 -0000
-Message-Id: <174778516812.1912670.5769504730511844964@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Wed, 21 May 2025 00:02:39 -0000
+Message-Id: <174778575947.1922400.8106835854364253643@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/dt/next
-    old: d8a9ea5d3bebd7b1641869e7cab3db615d4cc4e7
-    new: 3e3169e64e3154770f263451cc821b4c3f043cc0
+  - ref: refs/heads/master
+    old: 978b017d93e4e32b752b33877e44a8365644630c
+    new: 8bc318c60ffed8d698de2a94cb2a03ff611c3c7f
     log: |
-         294d4a1c79c1e83adf283cb164488cf7d9e2a257 dt-bindings: trivial-devices: Add VZ89TE to trivial
-         3e3169e64e3154770f263451cc821b4c3f043cc0 dt-bindings: display: bridge: renesas,dsi: allow properties from dsi-controller
+         f99f884ddb8161dd9e16eeda7bee49fc2bff78be *: grfix
+         6a949e9b08fd1ad4e77584276b9566e45fc07a93 man/man2const/UFFDIO_API.2const: Update userfaultfd handshake and feature probe
+         38890a4b214248cb60eaa42a5b82a20311ad3d5e man/man2const/UFFDIO_API.2const: Add an entry for UFFDIO_FEATURE_MOVE
+         8bc318c60ffed8d698de2a94cb2a03ff611c3c7f man/man3/*printf.3: Document ERRORS
          
