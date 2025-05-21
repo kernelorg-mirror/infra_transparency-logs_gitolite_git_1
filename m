@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7659017936617500497=="
+Content-Type: multipart/mixed; boundary="===============1935769206331806136=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Wed, 21 May 2025 11:24:59 -0000
-Message-Id: <174782669970.2554731.13337666062615693329@gitolite.kernel.org>
+Date: Wed, 21 May 2025 11:27:05 -0000
+Message-Id: <174782682517.2557646.14552820679005254995@gitolite.kernel.org>
 
---===============7659017936617500497==
+--===============1935769206331806136==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kdave/linux
 user: kdave
 changes:
-  - ref: refs/heads/for-6.16
-    old: 547c29921720438bdd7ba95013589375e82380fe
-    new: eeb133a6341280a1315c12b5b24a42e1fbf35487
-    log: revlist-547c29921720-eeb133a63412.txt
+  - ref: refs/tags/for-6.16-tag
+    old: 0e12adc98573e34d36ae53b2aec99875180ed1e4
+    new: a534997a711fab57fa9758119bcae1187894ee77
+    log: revlist-0e12adc98573-a534997a711f.txt
 
---===============7659017936617500497==
+--===============1935769206331806136==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-547c29921720-eeb133a63412.txt
+Content-Disposition: attachment; filename=revlist-0e12adc98573-a534997a711f.txt
 
 5e121ae687b8c16294230d69ea16a49a08d5e332 btrfs: use buffer xarray for extent buffer writeback operations
 13ae88706a8c3db412ba7a7a07dcc55e8f1eb53c btrfs: get rid of goto in alloc_test_extent_buffer()
@@ -108,4 +108,4 @@ d8cddf2a1d71ab9dea59822ccb9bbb780f50ce0a btrfs: don't return VM_FAULT_SIGBUS on 
 8af94e772ef7bede90895318a3fda6c68a652774 btrfs: remove standalone "nologreplay" mount option
 eeb133a6341280a1315c12b5b24a42e1fbf35487 btrfs: move misplaced comment of btrfs_path::keep_locks
 
---===============7659017936617500497==--
+--===============1935769206331806136==--
