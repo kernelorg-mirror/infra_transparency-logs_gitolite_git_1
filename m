@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Thu, 22 May 2025 08:17:55 -0000
-Message-Id: <174790187505.3724710.7198781766204707815@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Thu, 22 May 2025 08:22:21 -0000
+Message-Id: <174790214110.3728990.11359383072178933425@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/kvm-arm64/misc-6.16
-    old: 30deb51a677b96f0faf20373995fe0fb4a78b8b8
-    new: bf809a0aab2f3a3a97264f217f2dbee0913b2ed7
+  - ref: refs/heads/master
+    old: 4daee3ce9485d1ace09d789b9332aa8f57606d21
+    new: c6059d72a372060d0afcd1ae3c2b7ee367f24975
     log: |
-         bf809a0aab2f3a3a97264f217f2dbee0913b2ed7 KVM: arm64: Fix documentation for vgic_its_iter_next()
+         8946af8e5bc535fc3c075583cac8253dcbbe6336 uuidgen.1.adoc: remove superfluous 'plus'
+         5aa7ad17fc17b9458ff4381294c27d176c651d5d lscpu: Fix loongarch op-mode output with recent kernel
+         c6059d72a372060d0afcd1ae3c2b7ee367f24975 Merge branch 'xry111/loongarch-isa-linux-6-12' of https://github.com/xry111/util-linux
          
