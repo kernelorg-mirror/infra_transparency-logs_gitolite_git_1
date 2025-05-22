@@ -1,59 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7787802792742464017=="
+Content-Type: multipart/mixed; boundary="===============2880457321154993901=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 22 May 2025 12:00:42 -0000
-Message-Id: <174791524201.3965470.7845296660248233353@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 22 May 2025 12:08:35 -0000
+Message-Id: <174791571537.3979749.2033089039701603305@gitolite.kernel.org>
 
---===============7787802792742464017==
+--===============2880457321154993901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/container_of_const_mess
-    old: e983363b98e8e17d92ebc6a6b91e21b99223c498
-    new: c1bd88d794a0d8189223c89a97065203db1a517d
+  - ref: refs/heads/master
+    old: f7b0370b7e40675427c3e3b34775ae6d343b5847
+    new: fd393f7dff619a00609dec083c3fde1366acec30
     log: |
-         81e6fc1614d5233a3ba260c4ef9c7e704220c670 spi: gpio: fix const issue in spi_to_spi_gpio()
-         406dfdd52323e170cf4156b55613d94c49deda15 spi: loopback-test: fix up const pointer issue in rx_ranges_cmp()
-         548a7023174a544f0d6fd55adb279b431c1e299e net: phy: fix up const issues in to_mdio_device() and to_phy_device()
-         c1bd88d794a0d8189223c89a97065203db1a517d generic: fix up some const issues.
+         fd393f7dff619a00609dec083c3fde1366acec30 Linux 5.15.184
          
 
---===============7787802792742464017==
+--===============2880457321154993901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1747915273 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1747915239-62e848178e72be1412d0cff03e5e659cfc90912f
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1747915747 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1747915713-73927dd03d3ce4125b8df2aebd90e2f4707e3f24
 
-e983363b98e8e17d92ebc6a6b91e21b99223c498 c1bd88d794a0d8189223c89a97065203db1a517d refs/heads/container_of_const_mess
+f7b0370b7e40675427c3e3b34775ae6d343b5847 fd393f7dff619a00609dec083c3fde1366acec30 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgvEgkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NukP/3qM7wzZfJWrcfaawe4T
-Rw9jhb0vEZLPA7SitrpsSZwjwIoLNqN6SZtEa1JnmGIvkGT7Ob7somC3/gmQAG5x
-9gYdKWt8qtuW4X3XTy5UWIUhbgXT3+JxXRctg1nkq37oZoKS8+OAAQxZxgvTCWm1
-cS5MzmM3utgPOWriklhGFlFl5T/A5Z1RHHmeAMCTFDEvL7PCjTM2zuN93SmhYgqf
-YO81Bu2hBFWfG3fKsXQFhWSy/XizSAg7fswQH9wZxo4F76DkhsATYIR8hISvDa5T
-9mSWqx2uiLAC/juZBLyxd7G3p4+TASzdr4+6NvW71gtlAOHUT4nQLYvmBwV85Tp5
-JfsLZ81lCMUBuUinJWUopC9KSFDJmckgFmIxfVjq4yUfwsdLF/vhS9thcNyTNl7L
-gtcafhaOjmumuzLHzVbqiVh4vE2G5gE9+8URFMtYTdk91j4ClHg24IkdlGDUZfkV
-O86Sp82WeLkQx5ko6aXO5ytPQAbGrG7Ig9klpMaykvTkfuGRUxOcVoU+hiOR04Sw
-4vWru033acq8qxOjiQ7ZBXtUW8M1AY+ujU11cfZ47AnqFaYXHgeAaIpOmB2l7Ca/
-GUNUTbqTcVPLwKY8SCsVtSePW1LTN80DDo+rxK0wEL0jtBn/MMGdH/UCWr7Xd7sT
-icQxad/d+Jc0XHKL2uq3V7En
-=lFYO
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgvE+MbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SX4QAKQ+zULqLAMigga73A83
+KI2IO0hYg5ZQSucQ19SyLB7tMi7oQojaPEwUYDDyG+tYgDX/WgRNbTD7tFvxVm3b
+FptPQp4x5bIr3krDZmeI66iCY5/SFDXDTzG+qw/QmMx73+5PTRnV+j8ib2LhIVRf
+LfzNd85O7GrR+2IYkAiJnfjM98aNryJeJrVE27E8rxaofXK6EB92iKaAmla1U3sE
+iUp17+8dt8l15tcIu09jXOUjXMuqbk/XhEx4Q6gk82GtvtEZvGS+3U2N7AYf3wHk
+G+jRwOvk1/YrEie4T9JR7B2kHEn4oN3nysNFa04QY8VN4ao+/2sZOGJx1CSStj+Y
+68eDH/oHBo2xHH+0HMxht9Xl0E644cjurTpcfoSEN5hVZKTGrnsFNNgCNcMM/eDT
+9YE4Q3j6I1spOM2+8zGV5oJcWqinRX5P8PziSw8XtG5iDOXdDfpe9dOYNbC7iXoy
+eK8nSja5jYVsD6Dhuust3H4/P1Rwat4uMHqlPRGT34NEMiuxHLzvRiqwoya6Jxji
+9Maw8cscHBDRQpueBrnqlR2/F8Ak6D96IRxM5TEp7mwfyDe+TqS9KMVCeJGdGSXp
+uQ/lPeuMVBoNp6nec5KG4wqgbzhw+LIRIOH6O+9DY2P+WBE6+cKO7DDDrEK06w4B
+H6ZZYZh9AUkcAb4NHKRGbq8j
+=wbeP
 -----END PGP SIGNATURE-----
 
---===============7787802792742464017==--
+--===============2880457321154993901==--
