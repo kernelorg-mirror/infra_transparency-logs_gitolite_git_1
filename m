@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 22 May 2025 02:08:43 -0000
-Message-Id: <174787972325.3383746.8433097274000819849@gitolite.kernel.org>
+Date: Thu, 22 May 2025 02:18:55 -0000
+Message-Id: <174788033514.3392014.14582975864627917243@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,12 @@ repo: pub/scm/linux/security/vulns
 user: sashal
 changes:
   - ref: refs/heads/sasha-vulnerable
-    old: dbda309399e502e55dc7821c5ecd81e50c6e0287
-    new: ec6ae0cd3d6aaf7708ab1af471dac08b6f34a3fd
+    old: ec6ae0cd3d6aaf7708ab1af471dac08b6f34a3fd
+    new: 0f4ac0ac20ee01c9680fa788dbe800515a91000d
     log: |
-         324f74fd55c8f6f4973e777635f1e1815aea25a4 CVE-2025-37855: Add .vulnerable file
-         1c1105349acadfc52163ee8a156a14c61175eb00 CVE-2025-37879: Add .vulnerable file
-         ec6ae0cd3d6aaf7708ab1af471dac08b6f34a3fd CVE-2020-36775: Add .vulnerable file
+         547ce10ac3919f75cbd8b1285b958093298ba361 CVE-2021-46926: Add .vulnerable file
+         188696a24f945d3804c9f80f929e6556f2777f1e CVE-2021-4439: Add .vulnerable file
+         3533c4a9b3c50f0313c3ccf6699e46a4d1fc3bb9 CVE-2021-46928: Add .vulnerable file
+         2e3bb2ff2f8288a9b10b1884ea7d22d7f73342cf CVE-2021-47082: Add .vulnerable file
+         0f4ac0ac20ee01c9680fa788dbe800515a91000d CVE-2021-47083: Add .vulnerable file
          
