@@ -1,53 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============8770510801780860058=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Thu, 22 May 2025 12:08:53 -0000
-Message-Id: <174791573381.3980514.12739658455976119299@gitolite.kernel.org>
-
---===============8770510801780860058==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Thu, 22 May 2025 12:09:09 -0000
+Message-Id: <174791574925.3980874.3077930181966229096@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/tags/v5.15.184
-    old: 0000000000000000000000000000000000000000
-    new: 7de928ebc8a90ece34225538a3956c9b197d4508
-
---===============8770510801780860058==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1747915765 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1747915731-63eba30715aa96f11a1cfbceb69c6f20c4583c7a
-
-0000000000000000000000000000000000000000 7de928ebc8a90ece34225538a3956c9b197d4508 refs/tags/v5.15.184
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgvE/YbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YXQP/2BhoDG683QYND2NBGUX
-qByXZFdxOMijxI+Pboi1lV/7bRjIvcGyZAPYY5TxsJVgCxXAeELZy3M9xd26i1n9
-vuHMEq6+SaLvQffZtd9Od4rpl1N7R9quz8A1qGQi2mfzc9JLsnC4Cp81GH4bgAt8
-0GvtOmdtQ3nvU2PDryCe1me/1SLCP47ZqqbxOSSfs4ZWHJoOmpYqQ6KxO7ZhQQYa
-kPRIwGeDbNvAxAvRvRkOmAt3LJwVyySR0zEPT1JYPO4D2x9phJGo81Fp2zjYmuvp
-tunVzHVyQC2En6A2v3k8cNDKBKVH7C92tHlzQo7WS+wJtAMEhORB5BvZsUkpzaRd
-dliTJ4yR7YGXEDA8aXRoT0EfPBv4MyYoZ3Zc59rYjlmjO402qn9dnO2kpCgWWVQQ
-TSJLBEfUQuuo+OOYfQID4YvxcOR23naWVwn016AqKCJBBAAUNe05IitKQ2SEw3D5
-ycthvsqj7kTWMTsoYchRN7sPwZtnETw80Pq2GmZgrpF7opDX54X/okvVT/jVjPkO
-i7tqK4xjGaJj/o5VJdNUJUTOMREMY3fhTw1JWYNHheuKeDOg3Ayl48L5Yior1Ppk
-AyLn/O0bqWcKkb3Z6F7JeOzsNst1GVjh/mGuMA9VrHad/1ZXv28ochD5Dp7xGoQ3
-5FbCnFlBEGEPFBbWE4xUBrDS
-=NthN
------END PGP SIGNATURE-----
-
---===============8770510801780860058==--
+  - ref: refs/heads/master
+    old: 4a95bc121ccdaee04c4d72f84dbfa6b880a514b6
+    new: d608703fcdd9e9538f6c7a0fcf98bf79b1375b60
+    log: |
+         d934a93bbcccd551c142206b8129903d18126261 clk: rockchip: rk3576: define clk_otp_phy_g
+         4a9c3c3215491f25bc66d615faa921c814b1a479 clk: sunxi-ng: fix order of arguments in clock macro
+         2bc3ada0906f27fc9fe9bd6e082c3d5d0ee83e47 Merge tag 'v6.15-rockchip-clkfixes1' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into clk-fixes
+         3e14c7207a975eefcda1929b2134a9f4119dde45 clk: s2mps11: initialise clk_hw_onecell_data::num before accessing ::hws[] in probe()
+         98e6da673cc6dd46ca9a599802bd2c8f83606710 clk: sunxi-ng: d1: Add missing divider for MMC mod clocks
+         6a56880562d470b7bbdd1d955ff3fad4ad73a74f Merge tag 'sunxi-clk-fixes-for-6.15' of https://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into clk-fixes
+         d608703fcdd9e9538f6c7a0fcf98bf79b1375b60 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
+         
