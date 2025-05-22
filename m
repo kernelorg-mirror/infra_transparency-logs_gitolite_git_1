@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 22 May 2025 09:04:19 -0000
-Message-Id: <174790465925.3765031.15462570419922168897@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Thu, 22 May 2025 09:16:19 -0000
+Message-Id: <174790537957.3776470.4383600166231574122@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: ba2d274acc9d0d01f53ccc0f47c83798e01e30fa
-    new: fa95dea97bd11cee72cfd6d61848022c96ca1e77
+  - ref: refs/heads/dev-test
+    old: c36ec00d7f67590cb03e233959cd92fe969753a3
+    new: 159e71241d371cb493856cf8a501c2ac82710f76
     log: |
-         f4b18ff2c147d3b56384fcc8adb30bf733bf2300 perf/uapi: Fix PERF_RECORD_SAMPLE comments in <uapi/linux/perf_event.h>
-         44889ff67cee7b9ee2d305690ce7a5488b137a66 perf/uapi: Clean up <uapi/linux/perf_event.h> a bit
-         fa95dea97bd11cee72cfd6d61848022c96ca1e77 Merge branch into tip/master: 'perf/core'
+         159e71241d371cb493856cf8a501c2ac82710f76 erofs: clean up erofs_{init,exit}_sysfs()
          
