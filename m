@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7074393287179492575=="
+Content-Type: multipart/mixed; boundary="===============7920238765697624562=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 22 May 2025 15:23:13 -0000
-Message-Id: <174792739341.212833.10197540801817977189@gitolite.kernel.org>
+Date: Thu, 22 May 2025 15:23:15 -0000
+Message-Id: <174792739569.212942.4900790122323437534@gitolite.kernel.org>
 
---===============7074393287179492575==
+--===============7920238765697624562==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 9e89db3d847f2d66d2799c5533d00aebee2be4d1
     new: 3fab2d2d901a87710f691ba9488b3fd284ee8296
     log: revlist-9e89db3d847f-3fab2d2d901a.txt
 
---===============7074393287179492575==
+--===============7920238765697624562==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -61,4 +61,4 @@ a6ae7129819ad20788e610261246e71736543b8b octeontx2-af: Fix APR entry mapping bas
 ab94003fcf20da82806a9ca29bd9d4cf41ee0580 Merge branch 'octeontx2-af-apr-mapping-fixes'
 3fab2d2d901a87710f691ba9488b3fd284ee8296 Merge tag 'linux-can-fixes-for-6.15-20250521' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
 
---===============7074393287179492575==--
+--===============7920238765697624562==--
