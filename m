@@ -1,26 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Thu, 22 May 2025 19:10:30 -0000
-Message-Id: <174794103035.421138.13660266398786198734@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Thu, 22 May 2025 19:10:34 -0000
+Message-Id: <174794103428.421380.16575007325657646243@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
+repo: pub/scm/linux/kernel/git/tj/sched_ext
 user: tj
 changes:
   - ref: refs/heads/for-6.16
-    old: 79bfa4b38ad6fd6da6e568b5be2e1fff32565a93
-    new: d16e7994c8b2ed38beb8bae6f4b1292987b627af
+    old: e764295a270ce733820681bada131238ab2eb81b
+    new: aa3a7b6261d8530da3d06c61d21b1acda54abf52
     log: |
-         d16e7994c8b2ed38beb8bae6f4b1292987b627af cgroup, docs: cpu controller's interaction with various scheduling policies
+         a730e3f7a48bc591bfa838c5d922e5a80ea51738 sched_ext: idle: Consolidate default idle CPU selection kfuncs
+         36adf6fe6cbe59a22f64c004b201685cb6f38c42 selftests/sched_ext: Update test enq_select_cpu_fails
+         aa3a7b6261d8530da3d06c61d21b1acda54abf52 sched_ext, docs: convert mentions of "CFS" to "fair-class scheduler"
          
   - ref: refs/heads/for-next
-    old: dbadc01fcda32740eba620be3d39051c289062c5
-    new: 8665eee04bcc311096252be1e5847238d66df4c5
+    old: 5b8c5ebaee69cd3ec618686031fe4ef5dee54e02
+    new: 863dd0bef97b2ec3adc970c789460e34bc6cb402
     log: |
-         d16e7994c8b2ed38beb8bae6f4b1292987b627af cgroup, docs: cpu controller's interaction with various scheduling policies
-         8665eee04bcc311096252be1e5847238d66df4c5 Merge branch 'for-6.16' into for-next
+         a730e3f7a48bc591bfa838c5d922e5a80ea51738 sched_ext: idle: Consolidate default idle CPU selection kfuncs
+         36adf6fe6cbe59a22f64c004b201685cb6f38c42 selftests/sched_ext: Update test enq_select_cpu_fails
+         863dd0bef97b2ec3adc970c789460e34bc6cb402 Merge branch 'for-6.16' into for-next
          
