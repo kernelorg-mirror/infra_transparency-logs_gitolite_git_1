@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 22 May 2025 13:36:46 -0000
-Message-Id: <174792100677.115610.8759914256605246174@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 22 May 2025 13:37:08 -0000
+Message-Id: <174792102802.116037.2091321208824242853@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-next
-    old: 7465652be4872ee5c52fcda8abb562493290ecd4
-    new: 3b36d0f5c4d3f91a97fbd0dab9ce07f7233ddeea
+    old: d73ba63318803f3f85825610ecbc0080c723b1fd
+    new: 72f6ef351f13ca57f582bb9d7f3d959735790e87
     log: |
-         fd4b6c0fdf71d71f2bbc2f9aceb6f0814b4d93e2 ASoC: wm_adsp: Make cirrus_dir const
-         3b36d0f5c4d3f91a97fbd0dab9ce07f7233ddeea Merge remote-tracking branch 'asoc/for-6.16' into asoc-next
+         2712a7d362904d0c4283ae91fac8cea6ecd6f9c2 spi: gpio: fix const issue in spi_to_spi_gpio()
+         e7f3d11567c2c79c4342791ba91c500b434ce147 spi: loopback-test: fix up const pointer issue in rx_ranges_cmp()
+         72f6ef351f13ca57f582bb9d7f3d959735790e87 Merge remote-tracking branch 'spi/for-6.16' into spi-next
          
