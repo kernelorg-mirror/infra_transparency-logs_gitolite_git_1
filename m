@@ -1,28 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iommu/linux
-Date: Thu, 22 May 2025 14:26:05 -0000
-Message-Id: <174792396540.163748.14697260034568168736@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Thu, 22 May 2025 14:29:56 -0000
+Message-Id: <174792419667.166107.12060083905493638522@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iommu/linux
-user: joro
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/fixes
-    old: 82f2b0b97b36ee3fcddf0f0780a9a0825d52fec3
-    new: b3f6fcd8404f9f92262303369bb877ec5d188a81
+  - ref: refs/heads/master
+    old: 18bac26cf134851fdda98f2af843b2456dbfd0f8
+    new: 6e929bb82425eda7ae4a3b19e80f9aecd22b6af2
     log: |
-         b3f6fcd8404f9f92262303369bb877ec5d188a81 iommu: Skip PASID validation for devices without PASID capability
+         6e929bb82425eda7ae4a3b19e80f9aecd22b6af2 test/recv-bundle-short-ooo: skip if passed an argument
          
-  - ref: refs/heads/mediatek
-    old: f6a1e89ab6e3001156849944bc6a2dc71ccdad7e
-    new: bdcea7e396916c1cc4a7611c33554e5ecf93a54f
-    log: |
-         bdcea7e396916c1cc4a7611c33554e5ecf93a54f iommu/mediatek: Fix compatible typo for mediatek,mt6893-iommu-mm
-         
-  - ref: refs/tags/v6.15-rc7
-    old: 0000000000000000000000000000000000000000
-    new: c3223240f4b9bd8142c101420c76abe8ed1eae73
