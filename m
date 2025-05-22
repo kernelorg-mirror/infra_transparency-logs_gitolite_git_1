@@ -1,62 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============4180841127626618379=="
+Content-Type: multipart/mixed; boundary="===============7787802792742464017=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Thu, 22 May 2025 11:55:08 -0000
-Message-Id: <174791490854.3920383.2222411026710710166@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Thu, 22 May 2025 12:00:42 -0000
+Message-Id: <174791524201.3965470.7845296660248233353@gitolite.kernel.org>
 
---===============4180841127626618379==
+--===============7787802792742464017==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 4a95bc121ccdaee04c4d72f84dbfa6b880a514b6
-    new: d608703fcdd9e9538f6c7a0fcf98bf79b1375b60
+  - ref: refs/heads/container_of_const_mess
+    old: e983363b98e8e17d92ebc6a6b91e21b99223c498
+    new: c1bd88d794a0d8189223c89a97065203db1a517d
     log: |
-         d934a93bbcccd551c142206b8129903d18126261 clk: rockchip: rk3576: define clk_otp_phy_g
-         4a9c3c3215491f25bc66d615faa921c814b1a479 clk: sunxi-ng: fix order of arguments in clock macro
-         2bc3ada0906f27fc9fe9bd6e082c3d5d0ee83e47 Merge tag 'v6.15-rockchip-clkfixes1' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into clk-fixes
-         3e14c7207a975eefcda1929b2134a9f4119dde45 clk: s2mps11: initialise clk_hw_onecell_data::num before accessing ::hws[] in probe()
-         98e6da673cc6dd46ca9a599802bd2c8f83606710 clk: sunxi-ng: d1: Add missing divider for MMC mod clocks
-         6a56880562d470b7bbdd1d955ff3fad4ad73a74f Merge tag 'sunxi-clk-fixes-for-6.15' of https://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into clk-fixes
-         d608703fcdd9e9538f6c7a0fcf98bf79b1375b60 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
+         81e6fc1614d5233a3ba260c4ef9c7e704220c670 spi: gpio: fix const issue in spi_to_spi_gpio()
+         406dfdd52323e170cf4156b55613d94c49deda15 spi: loopback-test: fix up const pointer issue in rx_ranges_cmp()
+         548a7023174a544f0d6fd55adb279b431c1e299e net: phy: fix up const issues in to_mdio_device() and to_phy_device()
+         c1bd88d794a0d8189223c89a97065203db1a517d generic: fix up some const issues.
          
 
---===============4180841127626618379==
+--===============7787802792742464017==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1747914937 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1747914902-e9874ca1d6406edc5b83497df101d804105c5195
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1747915273 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1747915239-62e848178e72be1412d0cff03e5e659cfc90912f
 
-4a95bc121ccdaee04c4d72f84dbfa6b880a514b6 d608703fcdd9e9538f6c7a0fcf98bf79b1375b60 refs/heads/master
+e983363b98e8e17d92ebc6a6b91e21b99223c498 c1bd88d794a0d8189223c89a97065203db1a517d refs/heads/container_of_const_mess
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgvELkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HDYP/i+4krkBjkn3ZvSUNsAI
-r57H3JDD1cHtZHbuEwBO531TEVwmwJVC8C2auGK1trOJdybf4Hw97YOcpSb6UkhV
-TJbIdTvTSXTwiCkvdirH6599raN1KIGy4Ip/S3RvdwLqwMFa9AwL8dif8L3K0la8
-HrGoFPNeurdFjtm9B8oBNN0yQ5zcoP4vE0TB7Xi0Feg33l2kbnyf2kaIFf1ckKNJ
-dkzPWgFBb1qy8fUHtU+iP0ZiAYX1KQXXqSzFQmQT0AcBt6lN19qfnMy+2qIJRzrn
-uEtLKON7ib2PEZCTk0leBfjno40lx4CULO5z24ScXdcsV7e6vqqf61jvMNdaFqWZ
-8jJ1J5GotxhXH8U1J+NhDEX5eQsf7EvZeAuEdbXyB2MlZDBbQUUEG1/KFUCRcEZ9
-/OmkMIliFAO4BkVBvhSiYRkB3PtPG5jhoFE2Q9/IrndnHZtnq75A/jhBH5wvsDrw
-HsAXj9Gz8K32ieDsQPsdIefmEXB1Zg/JyIYztFJzR9WAxnYDXg5Tgjf6qZkm3aBm
-US1Aih1QpKQBmONbG0lxgO3XFvXJ5qx3IMWZ4wzeAAkaO0V+Ef4JW8mJDybFU5El
-QgnPv6s2gqO4XoX4K+oxCh6d83WLUXiDT5Ekq8UooUV5yQIltoDI0k64SNBOerrn
-Yf/UOzeUA1Kbo6Xih9lrYOGV
-=/+HB
+iQJPBAABCAA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgvEgkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NukP/3qM7wzZfJWrcfaawe4T
+Rw9jhb0vEZLPA7SitrpsSZwjwIoLNqN6SZtEa1JnmGIvkGT7Ob7somC3/gmQAG5x
+9gYdKWt8qtuW4X3XTy5UWIUhbgXT3+JxXRctg1nkq37oZoKS8+OAAQxZxgvTCWm1
+cS5MzmM3utgPOWriklhGFlFl5T/A5Z1RHHmeAMCTFDEvL7PCjTM2zuN93SmhYgqf
+YO81Bu2hBFWfG3fKsXQFhWSy/XizSAg7fswQH9wZxo4F76DkhsATYIR8hISvDa5T
+9mSWqx2uiLAC/juZBLyxd7G3p4+TASzdr4+6NvW71gtlAOHUT4nQLYvmBwV85Tp5
+JfsLZ81lCMUBuUinJWUopC9KSFDJmckgFmIxfVjq4yUfwsdLF/vhS9thcNyTNl7L
+gtcafhaOjmumuzLHzVbqiVh4vE2G5gE9+8URFMtYTdk91j4ClHg24IkdlGDUZfkV
+O86Sp82WeLkQx5ko6aXO5ytPQAbGrG7Ig9klpMaykvTkfuGRUxOcVoU+hiOR04Sw
+4vWru033acq8qxOjiQ7ZBXtUW8M1AY+ujU11cfZ47AnqFaYXHgeAaIpOmB2l7Ca/
+GUNUTbqTcVPLwKY8SCsVtSePW1LTN80DDo+rxK0wEL0jtBn/MMGdH/UCWr7Xd7sT
+icQxad/d+Jc0XHKL2uq3V7En
+=lFYO
 -----END PGP SIGNATURE-----
 
---===============4180841127626618379==--
+--===============7787802792742464017==--
