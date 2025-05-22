@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/superm1/linux
-Date: Thu, 22 May 2025 17:38:29 -0000
-Message-Id: <174793550985.341813.13109330034432579011@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 22 May 2025 17:39:34 -0000
+Message-Id: <174793557430.343194.1526495921596953065@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/superm1/linux
-user: superm1
+repo: pub/scm/linux/kernel/git/broonie/misc
+user: broonie
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: f6b1eebbdbc75377f98fc9774bb86ffc270dae8e
-    new: f5d2e0d112228578c19c8527ab0dae0a70e48e57
-    log: |
-         f5d2e0d112228578c19c8527ab0dae0a70e48e57 Documentation: amd-pstate:fix minimum performance state label error
-         
+  - ref: refs/tags/sent/20250521-selftests-mm-cow-dedupe-33dcab034558-v1
+    old: 0000000000000000000000000000000000000000
+    new: 962cde303d012c3ea82b7d58c1d21cb5227575d5
