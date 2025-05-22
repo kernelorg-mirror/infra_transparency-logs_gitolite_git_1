@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Thu, 22 May 2025 14:29:56 -0000
-Message-Id: <174792419667.166107.12060083905493638522@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
+Date: Thu, 22 May 2025 14:43:23 -0000
+Message-Id: <174792500355.177343.11691095714321563318@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/lee/mfd
+user: lee
 changes:
-  - ref: refs/heads/master
-    old: 18bac26cf134851fdda98f2af843b2456dbfd0f8
-    new: 6e929bb82425eda7ae4a3b19e80f9aecd22b6af2
-    log: |
-         6e929bb82425eda7ae4a3b19e80f9aecd22b6af2 test/recv-bundle-short-ooo: skip if passed an argument
-         
+  - ref: refs/heads/ib-mfd-regulator-6.16-1
+    old: 0000000000000000000000000000000000000000
+    new: ef7f3631a44b8e0990ab8ffcbed4b2c3a4270883
