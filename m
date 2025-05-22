@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 22 May 2025 15:40:49 -0000
-Message-Id: <174792844974.232807.7808794687121905759@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 22 May 2025 15:48:07 -0000
+Message-Id: <174792888715.238069.3699834874877426569@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 4e2e6841ff761cc15a54e8bebcf35d7325ec78a2
-    new: d90f0bce579c66ac1066edf36203bd5596fd978b
+  - ref: refs/heads/main
+    old: 4ff4d86f6cceb6bea583bdb230e5439655778cce
+    new: db807e5ef8eea6948bb4993466623046f52d3056
     log: |
-         f7562001c8b854390899b53d06ba4202c89339e6 s390: always declare expoline thunks
-         9053ba042fc7c0e718566932288cc88b3bb2dbe1 s390/bpf: Add macros for calling external functions
-         7f332f9fe9d854c1680fea223b6cb04530859a1a s390/bpf: Use kernel's expoline thunks
-         d90f0bce579c66ac1066edf36203bd5596fd978b Merge branch 's390-bpf-use-kernel-s-expoline-thunks'
+         db807e5ef8eea6948bb4993466623046f52d3056 eth: bnxt: fix deadlock when xdp is attached or detached
          
