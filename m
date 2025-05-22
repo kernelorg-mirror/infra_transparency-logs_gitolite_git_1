@@ -1,46 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============3861574110291907209=="
+Content-Type: multipart/mixed; boundary="===============1182310354098566903=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/korg/wotmate
-Date: Thu, 22 May 2025 13:22:43 -0000
-Message-Id: <174792016381.100594.18053239101742704177@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Thu, 22 May 2025 13:22:59 -0000
+Message-Id: <174792017936.100925.1502783703711160369@gitolite.kernel.org>
 
---===============3861574110291907209==
+--===============1182310354098566903==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/korg/wotmate
+repo: pub/scm/docs/kernel/pgpkeys
 user: mricon
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: ea2aa13d976664ca9b6b646a988c1c686f97742e
-    new: a3f707922beca2bb0cec46a1d9168be4184ff3e4
+    old: 89ce0eaa96338f8fd9dc26a81b2c990d47c53e0f
+    new: 9606346aea232f901bda4283498b12ba0e825840
     log: |
-         a3f707922beca2bb0cec46a1d9168be4184ff3e4 Add typing data and introduce a --use-weak-algos flag
+         9606346aea232f901bda4283498b12ba0e825840 Rerun allowing weak digest algos
          
 
---===============3861574110291907209==
+--===============1182310354098566903==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1747920195 -0400
-pushee gitolite.kernel.org:pub/scm/utils/korg/wotmate
-nonce 1747920162-423a43b58617a336d1973fe98dab84fa3df6b38f
+pusher B6C41CE35664996C! 1747920210 -0400
+pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
+nonce 1747920177-8d967faeb7f2bd5c2defdfb01bbfd9946a344a47
 
-ea2aa13d976664ca9b6b646a988c1c686f97742e a3f707922beca2bb0cec46a1d9168be4184ff3e4 refs/heads/master
+89ce0eaa96338f8fd9dc26a81b2c990d47c53e0f 9606346aea232f901bda4283498b12ba0e825840 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaC8lQwAKCRC2xBzjVmSZ
-bGuoAQDhBK5sMzt+5zh0f615uhfAdjoCFhP+wA0iw0AHdnAZLwD/cgkJa6iO98SF
-ZsInhft0uk7ncsnDHOfyQD4aQqy3RAg=
-=Kz1X
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaC8lUgAKCRC2xBzjVmSZ
+bJWnAQDxq+i8Ax2Ba3HMSt3Dr8CDcFqary4JA+4UfyMA4RaLaQD/YQb4BHmCRKia
+OzxP2zjMR5pGE3+0TpOnRkmK70cN5Qk=
+=qj7H
 -----END PGP SIGNATURE-----
 
---===============3861574110291907209==--
+--===============1182310354098566903==--
