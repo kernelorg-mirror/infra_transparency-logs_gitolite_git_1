@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0186753876411003768=="
+Content-Type: multipart/mixed; boundary="===============7074393287179492575=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 22 May 2025 15:19:55 -0000
-Message-Id: <174792719572.208855.10366276501303525547@gitolite.kernel.org>
+Date: Thu, 22 May 2025 15:23:13 -0000
+Message-Id: <174792739341.212833.10197540801817977189@gitolite.kernel.org>
 
---===============0186753876411003768==
+--===============7074393287179492575==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: ad923b947aa70603b072d9501b2df418c4e2c0f8
-    new: 2a807bca2ce6495529927b2192a3a48a7fadc825
-    log: revlist-ad923b947aa7-2a807bca2ce6.txt
+  - ref: refs/heads/1GbE
+    old: 9e89db3d847f2d66d2799c5533d00aebee2be4d1
+    new: 3fab2d2d901a87710f691ba9488b3fd284ee8296
+    log: revlist-9e89db3d847f-3fab2d2d901a.txt
 
---===============0186753876411003768==
+--===============7074393287179492575==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ad923b947aa7-2a807bca2ce6.txt
+Content-Disposition: attachment; filename=revlist-9e89db3d847f-3fab2d2d901a.txt
 
 63c1f19a3be3169e51a5812d22a6d0c879414076 espintcp: fix skb leaks
 028363685bd0b7a19b4a820f82dd905b1dc83999 espintcp: remove encap socket caching to avoid reference leak
@@ -60,21 +60,5 @@ bd2ec34d005013419f76196e76e8b8b55e436e31 Merge tag 'ipsec-2025-05-21' of git://g
 a6ae7129819ad20788e610261246e71736543b8b octeontx2-af: Fix APR entry mapping based on APR_LMT_CFG
 ab94003fcf20da82806a9ca29bd9d4cf41ee0580 Merge branch 'octeontx2-af-apr-mapping-fixes'
 3fab2d2d901a87710f691ba9488b3fd284ee8296 Merge tag 'linux-can-fixes-for-6.15-20250521' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
-4317666676d5ea2ff369602a810c4aa231f4622e coccinelle: misc: secs_to_jiffies script: Create dummy report
-0d7521ae480def2e14d6131da0297aa369fc025b ice: fix lane number calculation
-d6acf8efb647f287ad43c5f4a6cb6def6a40eb94 ice: fix fwlog after driver reinit
-721037bce382e683bf112feeaac288a56243ff2a iavf: iavf_suspend(): take RTNL before netdev_lock()
-714ac5ed6780b4d49611df77cc2d07b19a99e98f iavf: centralize watchdog requeueing itself
-3e115589ed543365bb469c8f0ac88e7fe4e4656b iavf: simplify watchdog_task in terms of adminq task scheduling
-ccf9da9313c7564521acc0681f72f156f66605b6 iavf: extract iavf_watchdog_step() out of iavf_watchdog_task()
-dcc887fd9b140024e1b9be05c35639b07a146b22 iavf: sprinkle netdev_assert_locked() annotations
-439198130cb6c3900dd93c9ee1d34c2b7d3446e6 iavf: get rid of the crit lock
-59097f0067e6eb1dd85e295d9240afac94432a35 iavf: fix reset_task for early reset event
-d8b9ead8f7c9816b8fd6b043f77b04a25a560fbe idpf: fix a race in txq wakeup
-e7d01fd56e752235ad735976fb8e9610bdcf469c idpf: avoid mailbox timeout delays during reset
-13a1aeff840e74a28d8a8314c018efef3196b711 ice: fix Tx scheduler error handling in XDP callback
-061a9cb6c56cc96d2ff4807b5eed8361a4354133 ice: create new Tx scheduler nodes for new queues only
-c22137c203299f2a81ddc51ffb4be46ae12c510b ice: fix rebuilding the Tx scheduler tree for large queue counts
-2a807bca2ce6495529927b2192a3a48a7fadc825 ice: fix eswitch code memory leak in reset scenario
 
---===============0186753876411003768==--
+--===============7074393287179492575==--
