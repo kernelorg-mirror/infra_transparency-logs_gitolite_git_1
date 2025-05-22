@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Thu, 22 May 2025 16:06:24 -0000
-Message-Id: <174792998401.257399.2436801559126950834@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
+Date: Thu, 22 May 2025 16:18:27 -0000
+Message-Id: <174793070766.266471.771428223382644547@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/ras/ras
+user: bp
 changes:
-  - ref: refs/heads/master
-    old: 6e929bb82425eda7ae4a3b19e80f9aecd22b6af2
-    new: 296dd55813bb91656752a91dd333825eb759b35e
+  - ref: refs/heads/edac-drivers
+    old: 2b2408aca90b86c1ef51c19d834e5f6db0a1ff30
+    new: ea3b0b7f541b9511abe2b89547c95458804f38e2
     log: |
-         296dd55813bb91656752a91dd333825eb759b35e test/io_uring_passthrough: enhance vectored I/O test coverage
+         ea3b0b7f541b9511abe2b89547c95458804f38e2 EDAC/bluefield: Don't use bluefield_edac_readl() result on error
          
