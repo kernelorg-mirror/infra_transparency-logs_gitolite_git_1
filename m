@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 22 May 2025 13:35:06 -0000
-Message-Id: <174792090652.112291.5844728902874527569@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 22 May 2025 13:35:43 -0000
+Message-Id: <174792094346.112984.13052832428504193539@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 990b5c07f677a0b633b41130a70771337c18343e
-    new: 01ec1d8feaf938eb37ba0066975f77330ae67798
+  - ref: refs/heads/main
+    old: 3da895b23901964fcf23450f10b529d45069f333
+    new: 4ff4d86f6cceb6bea583bdb230e5439655778cce
     log: |
-         01ec1d8feaf938eb37ba0066975f77330ae67798 RDMA/rxe: Break endless pagefault loop for RO pages
+         4ff4d86f6cceb6bea583bdb230e5439655778cce net: Add support for providing the PTP hardware source in tsinfo
          
