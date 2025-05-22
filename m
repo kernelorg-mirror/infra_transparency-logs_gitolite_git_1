@@ -1,39 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============9218351047777689088=="
+Content-Type: multipart/mixed; boundary="===============0622023242048159147=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 22 May 2025 09:45:47 -0000
-Message-Id: <174790714726.3803862.10211309075463728084@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 22 May 2025 09:45:57 -0000
+Message-Id: <174790715780.3804276.5968995838399968186@gitolite.kernel.org>
 
---===============9218351047777689088==
+--===============0622023242048159147==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 7bac2c97af4078d7a627500c9bcdd5b033f97718
     new: aaadc9c4ef9750ceca90c2160637a5eab4b85d15
     log: revlist-7bac2c97af40-aaadc9c4ef97.txt
-  - ref: refs/heads/stable
-    old: b36ddb9210e6812eb1c86ad46b66cc46aa193487
-    new: 4a95bc121ccdaee04c4d72f84dbfa6b880a514b6
-    log: |
-         4ca45af0a56d00b86285d6fdd720dca3215059a7 remoteproc: qcom_wcnss: Fix on platforms without fallback regulators
-         d6ebcde6d4ecf34f8495fb30516645db3aea8993 padata: do not leak refcount in reorder_work
-         b2df03ed4052e97126267e8c13ad4204ea6ba9b6 crypto: algif_hash - fix double free in hash_accept
-         5da472ae1f128840b27795fa461b47a85d882ce2 Merge tag 'v6.15-p7' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
-         4a95bc121ccdaee04c4d72f84dbfa6b880a514b6 Merge tag 'rproc-v6.15-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
-         
   - ref: refs/tags/next-20250522
     old: 0000000000000000000000000000000000000000
     new: fd8be95eb5d934cd502492c15a8119d9595a0d6b
 
---===============9218351047777689088==
+--===============0622023242048159147==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -836,4 +826,4 @@ ddc2f5ca4d8d855926d57ffc8351f8fcd445236c Merge branch 'ntb-next' of https://gith
 4481cb29f6e7130de8cf20e430528af30fc94282 Merge branch 'hyperv-next' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux.git
 aaadc9c4ef9750ceca90c2160637a5eab4b85d15 Add linux-next specific files for 20250522
 
---===============9218351047777689088==--
+--===============0622023242048159147==--
