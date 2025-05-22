@@ -1,148 +1,87 @@
-Content-Type: multipart/mixed; boundary="===============8203180338669635704=="
+Content-Type: multipart/mixed; boundary="===============7421615631750995104=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Thu, 22 May 2025 23:31:48 -0000
-Message-Id: <174795670843.647226.10316159588988615268@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Thu, 22 May 2025 23:40:51 -0000
+Message-Id: <174795725131.655300.7243142367010302705@gitolite.kernel.org>
 
---===============8203180338669635704==
+--===============7421615631750995104==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
   - ref: refs/heads/next
-    old: f8c92423fb8e4e6e0d022a9cd82d46be2b3edd86
-    new: 3ced8c5d65e9020c0bf28f3ee2b56b81f1bb76c5
-    log: revlist-f8c92423fb8e-3ced8c5d65e9.txt
-  - ref: refs/heads/seen
-    old: 0940d50489a718df33001a778aac254cc1ad46c1
-    new: ce1e8ce22ef9efa957848e2853ee9e6dc364fe7c
-    log: revlist-0940d50489a7-ce1e8ce22ef9.txt
-  - ref: refs/notes/amlog
-    old: bdafbb271678e8796112536de572f841821719de
-    new: 0f69b7c2ac86b07ebef8fc56be9e0541e36c861a
-    log: revlist-bdafbb271678-0f69b7c2ac86.txt
+    old: 21642f5c2c316f6b54181b0a8d64ef56b1db2469
+    new: e07c193b4728df83d02a8e99357a0581bf6a355f
+    log: revlist-21642f5c2c31-e07c193b4728.txt
 
---===============8203180338669635704==
+--===============7421615631750995104==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f8c92423fb8e-3ced8c5d65e9.txt
+Content-Disposition: attachment; filename=revlist-21642f5c2c31-e07c193b4728.txt
 
-184abdcf0593a5bbf909ed74fbddcc5f79f214be ci(win+Meson): build in Release mode
-4511d56e1a4c09abbe0c6b513fd858072b55cbd8 you-still-use-that??: help deprecating commands for removal
-ba69a6c66d6b349f730bdb3b9e44c3b49dd53e91 doc: prepare for a world without whatchanged
-ab4d1880e19c2229055334f0fe309b89e91f27a9 tests: prepare for a world without whatchanged
-731a2c7ddae9226d384163efc77090003be63a13 whatchanged: require --i-still-use-this
-07572f220a83770f5b0b9717b29027e016fc99e4 whatchanged: remove when built with WITH_BREAKING_CHANGES
-e836757e14bf4fd617828d834d29e679e1f527c0 whatschanged: list it in BreakingChanges document
-b3de3832ce7497d6567d2d8270c829585b9fbf61 refs: add function to translate errors to strings
-0e358de64a9e014575d11ef884bfc9beb931e37f fetch: use batched reference updates
-77188b5bbaf1f77963968ea3acedda3108102b18 send-pack: fix memory leak around duplicate refs
-9d2962a7c44fd5f9abec634d05fe28cdafd60036 receive-pack: use batched reference updates
-95262afe788e0b6b4ae5ff37e8d28fb5883c1a82 t5410: test receive-pack connectivity check
-68cb0b5253a05d62adc5cf6c0a60dc58038b546e builtin/receive-pack: add option to skip connectivity check
-368d8c86f71a1477a079b340fe353b40f7039973 t: remove unexpected SANITIZE_LEAK variables
-213a3f02621d0721474f335897e5142c4165a4e3 Merge branch 'js/ci-build-win-in-release-mode' into next
-e79dc9090e8d7c41d55fa3cd146c6d3cf4359ded Merge branch 'jc/you-still-use-whatchanged' into next
-7ab014070f55b375c18cb88b95503dd7aadeee48 Merge branch 'kn/fetch-push-bulk-ref-update' into next
-bc0d708c5ce3f1b5d6f04a82320d6e41f4c0222d Merge branch 'kn/passing-leak-tests' into next
-3ced8c5d65e9020c0bf28f3ee2b56b81f1bb76c5 Merge branch 'jt/receive-pack-skip-connectivity-check' into next
+ed798ff1c52f6fe232ce2e24e68fb63f5470ab97 PCI: tegra194: Create debugfs directory only when CONFIG_PCIEASPM is enabled
+2612378d442aad23448053c47f34eb17f6209e67 PCI: dwc: ep: Use FIELD_GET() where applicable
+1d79596e86613727006161439f3781e74bdb9fac PCI: dwc: ep: Fix errno typo
+003d15b30f3690b14315822439edc2c3f823c6cd PCI: rcar-gen4: Document how to obtain platform firmware
+bdae3712d241d15463137b6b211c1e2d8df838a1 PCI/DPC: Initialize aer_err_info before using it
+14873f663063f50f576defd7ac980a8b21d22933 PCI/DPC: Log Error Source ID only when valid
+1c0b1b8c163c2469557b04d97c8c0b3c4db3adc1 PCI/AER: Factor COR/UNCOR error handling out from aer_isr_one_error()
+175be2e7d1613d4a9191b04ff9edf5f42f29d88d PCI/AER: Consolidate Error Source ID logging in aer_isr_one_error_type()
+3f69a70bfb1922c527c4e26a3bba10e9d10f5b12 PCI/AER: Extract bus/dev/fn in aer_print_port_info() with PCI_BUS_NUM(), etc
+8fc8838da5b118b8ec781a2c36081b839b02e721 PCI/AER: Rename aer_print_port_info() to aer_print_source()
+04beb7afdee197f8791e920ca8b3a6ac2d6e40aa PCI/AER: Move aer_print_source() earlier in file
+95d9d391e9304506199088734c5e56b561143da0 PCI/AER: Initialize aer_err_info before using it
+37bb33caeb24296ff87dec904670381b870020e7 PCI/AER: Simplify pci_print_aer()
+02a32c66cec0cd28e17d11172c934a00f7452c97 PCI/AER: Update statistics before ratelimiting
+f08ce47998159fbf1d7686d2c755345631dc596c PCI/AER: Trace error event before ratelimiting
+58710c1ca7ca387ea731895e3cdbb3c20712db17 PCI/AER: Check log level once and remember it
+e85d2b57359868ec9d334399966e04d977f80cfe PCI/ERR: Add printk level to pcie_print_tlp_log()
+72bdf63bb246c4d63c929abf0d437df0ad07c310 PCI/AER: Reduce pci_print_aer() correctable error level to KERN_WARNING
+b29f77931164d57bf9159cf5e9dc38bc20f5dc00 PCI/AER: Rename struct aer_stats to aer_info
+6c33eae8003059bd38651f1fc4394420f5d707f0 PCI/AER: Convert aer_get_device_error_info(), aer_print_error() to index
+dfc970ad61973111932fc282ebab8d825056d5ab PCI: Remove function pcim_intx() prototype from pci.h
+148285d8aa802d46484bfb2b00c8a0a585b0adc7 PCI/pwrctrl: Skip creating platform device if CONFIG_PCI_PWRCTL is not enabled
+f71189f55bd2bdfce8e19ae4fd9c9f86efed0310 PCI/pwrctrl: Cancel outstanding rescan work when unregistering
+1038ef7f5d4cbc100d352bc06ae64e4d74070967 PCI/pwrctrl: Rename pwrctrl Kconfig symbols and slot module
+dfc7a1969e4d37195fe6d84ec6d05b385d615a01 wifi: ath11k: switch to PCI_PWRCTRL_PWRSEQ
+c030a861feab0192044d25a88392d3879e52c417 wifi: ath12k: switch to PCI_PWRCTRL_PWRSEQ
+0e99ca5ffb8b1716723e3b645e38d56448183ecd arm64: Kconfig: switch to HAVE_PWRCTRL
+991fa686926d1d7a68af69a2019420cbdc902d5f PCI/AER: Simplify add_error_device()
+6ba5aa1f9d8280a9e560cc67491c93890102fa54 PCI/AER: Ratelimit correctable and non-fatal error logging
+eff494eb32ca5c372007bea5c3d29d15b88475bb PCI/AER: Add ratelimits to PCI AER Documentation
+a524e63307cf9163485cd8c5d08bbac0181d1ca1 PCI/AER: Add sysfs attributes for log ratelimits
+51ede1250ccfb6fd4bcee7046514d7f85241a6e2 Merge branch 'pci/aer'
+3b158c4dc47f5dcb68174582f72d969cf03059e9 Merge branch 'pci/bwctrl'
+66e71e54f8c64e70e0cd532c4d944c4a47d2e161 Merge branch 'pci/devres'
+a6188a56ec705ac23fbe66b8204f9ad70211fc87 Merge branch 'pci/enumeration'
+b9217eac795811f6a8e94d0accb2af7067441fc8 Merge branch 'pci/hotplug'
+b8cd7e021a67bec891cb8f7882cf0e0ed76fad44 Merge branch 'pci/irq'
+b32f522162e70c95b024105d5f7395eae03b0c9a Merge branch 'pci/pm'
+c8156c50d347000c0d62643360534c92045cf1a4 Merge branch 'pci/pwrctrl'
+b11d77b8fb53e96aa7330c735d0f8780f58cfc3f Merge branch 'pci/reset'
+aac3987cbde532678488eb44a1e31826a0721bd7 Merge branch 'pci/virtualization'
+66eed69c1de7974cd41060eed64969b53d725a26 Merge branch 'pci/endpoint'
+09d5f68982d9ba68b3810900e758124a9a658beb Merge branch 'pci/controller/apple'
+9886d24c6d8d4f85a5253b106f3c661dd3a38728 Merge branch 'pci/controller/cadence'
+85d8b21742c14853e27c97bd1fb6c22a5d2296a6 Merge branch 'pci/controller/dw-rockchip'
+2725ef53afadecc89c26c20bcdfb14faf1b20ea4 Merge branch 'pci/controller/dwc-ep'
+b8282b74e2e7027c7bbb339f2f41c11a454deeef Merge branch 'pci/controller/dwc'
+916fe9bb982349b6f8dfd126c08dcf680cfd5257 Merge branch 'pci/controller/imx6'
+d868603e12969e9eb3a1e165ccf90963b7ca4a4a Merge branch 'pci/controller/mobiveil'
+15205bdaaf213263a087592a8a379e574ea18c9a Merge branch 'pci/controller/mvebu'
+bebf477836be4e4213ebe2d4035a2b0524f2581a Merge branch 'pci/controller/qcom'
+6f6758a0f2f52c85d225c2908acac695daef3f8e Merge branch 'pci/controller/rcar-gen4'
+1cf20f606f743cb5c7ceb07bb9ef01c2cdadde81 Merge branch 'pci/controller/rockchip'
+1e7cf111cac5a1376ce9088f2d2cc2dafd9cfc8d Merge branch 'pci/controller/tegra194'
+b3098ace37ee70e7a99f7367f2e05a054fe032f1 Merge branch 'pci/ptm-debugfs'
+450db72861f6d360f3a52b2fe007c0dba5b9fca4 Merge branch 'pci/dt-bindings'
+e07c193b4728df83d02a8e99357a0581bf6a355f Merge branch 'pci/misc'
 
---===============8203180338669635704==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0940d50489a7-ce1e8ce22ef9.txt
-
-c0f351ef1edcf1336d24093d524002b0d770d497 cvsserver: avoid precedence problem between ! and %s
-bc7f7bc851392e8b2766c75823b4a7abcdfba3c4 object-name: make get_oid quietly return an error
-987f5a1d031f05e23a6decc6e3ed0001e104442a reflog-walk: expose read_complete_reflog
-0fce2551b8aeafae8630f1df8a3497dc70061f66 builtin/stash: factor out revision parsing into a function
-3d46b9be447c849faef83a36d80b12925e070d8b builtin/stash: provide a way to export stashes to a ref
-28d71fea6d54133fa0dd4dc5473f15be0a790035 builtin/stash: provide a way to import stashes from a ref
-6e4fb00156a3651ff84d19d2a16d69e87d29b68b pathspec: add match_leading_pathspec variant
-00466c162082c4c5f2ea96384a9f51147e1c874b pathspec: add flag to indicate operation without repository
-09fb155f11128b505c227aae673de957c9388240 diff --no-index: support limiting by pathspec
-b103881d4f4b157d86813ba5f91acd7ed6c888d0 midx repack: avoid integer overflow on 32 bit systems
-f874c0ed90c63276e0ebc445ad6fee5dcbfacb86 midx repack: avoid potential integer overflow on 64 bit systems
-3aa98a61da6e1403081b4dfaa0c644614d228bac midx: avoid negative array index
-70b128c57635183761df8a52a56f43dc30468ded midx docs: clarify tie breaking
-6295693c733ee6405d854ef2777e15321a55d100 Merge branch 'js/ci-build-win-in-release-mode' into jch
-3c051bf5e5981ccff41facad6129687ee9b67c39 Merge branch 'ly/pack-bitmap-load-leakfix' into jch
-4b7415a56d9796c66ad4bc3ca14941a063795935 Merge branch 'ds/scalar-no-maintenance' into jch
-9d5ae92fdccf377356a1b904354c22d62db1b76b Merge branch 'ps/ci-gitlab-enable-msvc-meson-job' into jch
-2b303054628b76d829a532b7fd190c8b979dccd3 Merge branch 'ag/send-email-hostname-f' into jch
-b70bff9e3fd01fb1ad37e5a1babbe2f8333fd84d Merge branch 'en/replay-wo-the-repository' into jch
-cd58a8388471b9f25e34b550d38de6a6ad1e0e11 Merge branch 'md/userdiff-bash-shell-function' into jch
-4618740e6ff9b436faef224cbf9cf72a36d5d146 Merge branch 'lo/json-writer-docs' into jch
-e1d3d2362d14e2125a83982e5eff70b1f370454d Merge branch 'ly/mailinfo-decode-header-leakfix' into jch
-edf50f06a02f51c58ad213288dc3a5f956b33ca8 Merge branch 'ly/sequencer-rearrange-leakfix' into jch
-f2c28d2dafa18cc76fa2fe19ea0478c280c40b7b Merge branch 'ly/commit-graph-fill-oids-leakfix' into jch
-aa4f851f829fb02f30cfd1ec81a401dc8aa47de1 Merge branch 'jk/no-funny-object-types' into jch
-9fc26457ff99808e58dc001d0361bc6de90979cc Merge branch 'en/merge-tree-check' into jch
-7035cca3fa2ff23dcb97f9c97bbea83f529e1181 Merge branch 'rj/build-tweaks-part2' into jch
-25baccb3a92f1950eb26454fb65d20fdcd2668c6 Merge branch 'ds/sparse-apply-add-p' into jch
-5b5b7fba928b1436defb78787fae26fac8459cd4 Merge branch 'jc/doc-synopsis-option-markup' into jch
-692bda59c4c11e93c94bfe898851777ae7365c7b Merge branch 'sj/use-mmap-to-check-packed-refs' into jch
-3e8eb7a3b2bff651d8bc5951006e6e37fe21dd60 Merge branch 'js/misc-fixes' into jch
-2f5ea3f12952639693e3a2c13453b47267c897d8 Merge branch 'en/sequencer-comment-messages' into jch
-adff0a81f3aef208c5f7fdcdec55e210c89d7de0 Merge branch 'es/meson-configure-build-options-fix' into jch
-10f3a668795cab10ab116d8022c64532e2e8d504 Merge branch 'kj/my-first-contribution-updates' into jch
-b4837655859a095ab178832bc258be578cbb0fe3 Merge branch 'jc/you-still-use-whatchanged' into jch
-699c93dea75a6993e1a18fb6b7f7fbdfaba2a250 Merge branch 'kn/fetch-push-bulk-ref-update' into jch
-479ab7d22b38fa341f6c6e4774a21da9f6fbdc4f Merge branch 'kn/passing-leak-tests' into jch
-b9d8904f5d40d63a7c7e0eb73cdf6c8036cfa9db Merge branch 'jt/receive-pack-skip-connectivity-check' into jch
-621ceb05bfd1ad97693cb750050708b437258064 ### match next
-27906f4066ecc575c77ef8b775adb1980d7c0bd5 Merge branch 'ps/meson-tap-parse' into jch
-9265c6a677b95495b21ebb176d9c4a8ac9915340 Merge branch 'ps/contrib-sweep' into jch
-eecf7afdb22bfec465d3889f3a7c63d213d32cb2 Merge branch 'ds/path-walk-2' into jch
-ccedfa7ff94f73066448a96ed17fa2bd85ba1024 Merge branch 'pb/status-rebase-fixes' into jch
-50a83472dc8ff36a20c32575212deebbf7c16b76 Merge branch 'tb/midx-avoid-cruft-packs' into jch
-3d4b960eb79eba8e337726835ba2bbe3c166aa6c Merge branch 'tb/pack-bitmap-lookup-tables' into jch
-75a385055fe4cd9abb18e51ff4d48b91fece41d5 Merge branch 'bc/stash-export-import' into jch
-af003ab5def9f337423da6f48df3b27691b042c7 Merge branch 'ps/object-store' into jch
-a0bd7e6153452491232cea892137ef4d61ee1f23 Merge branch 'pw/update-thunderbird-patch-inline' into jch
-9b72da1bb4e3b3f40b5dcb4b282f8f5ac2010798 Merge branch 'ag/doc-send-email-update-2' into jch
-57fd5bfd163f685f812782de4db9c8aee3b35020 Merge branch 'cc/promisor-remote-capability' into seen
-10af8c554d4d60502c722bf4981bbabd5a230541 Merge branch 'sj/string-list-typefix' into seen
-8ea914be5893cd32ab42e0be5f6e763850433f50 Merge branch 'lm/add-p-context' into seen
-edbfd574d981b5f5522931c9a5911f137aec244e Merge branch 'js/misc-defensive' into seen
-0d2cd6a5b94e38ba36c7ba901a52165316a9028e Merge branch 'kj/renamed-submodule' into seen
-c2d174dba059838787f45a728a5af2b6dcb88e37 Merge branch 'kh/notes-doc-fixes' into seen
-b4256d9c70afca432c687c1b9c66d376f1b8d128 Merge branch 'pw/midx-repack-overflow-fix' into seen
-dfc87648510584610e4e28c37af66f83151e2249 Merge branch 'ps/midx-negative-packfile-cache' into seen
-ef3e2ab9d7d4862b13e1cf99758daf35fdabdf24 Merge branch 'pw/stash-p-pathspec-fixes' into seen
-fce375080d2508505c69fe0376ad116f7bde6a59 Merge branch 'op/cvsserver-perl-warning' into seen
-43701494f55ab1382f431376c0731de37aa2d3cd Merge branch 'jw/doc-txt-to-adoc-refs' into seen
-b732bc0854f2fddc2da7c7ce11b7d6f105858b02 Merge branch 'am/sparse-index-name-hash-fix' into seen
-ce1e8ce22ef9efa957848e2853ee9e6dc364fe7c Merge branch 'jk/diff-no-index-with-pathspec' into seen
-
---===============8203180338669635704==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bdafbb271678-0f69b7c2ac86.txt
-
-ad8ef84afbf429db6ffa22be2fb8aa8eae775bd9 amlog
-d3e8f70291468fc6da0cffce79d4e5af557e64c5 Notes added by 'git notes add'
-4bd460029ee6fe1199cd7e2d6b72d7ef481bd691 Notes added by 'git commit --amend'
-d20b6091c5622eac9b2e202fff0f29ee61efaae0 Notes added by 'git notes add'
-e2d7140952bbd85641af7e401c46f6767cf6da5c Notes added by 'git notes add'
-88f5061798c356f1e5d9403b7b8b958346e28c6f Notes added by 'git notes add'
-69f0880b52f1958851f62de22770ad4c44e67d01 Notes added by 'git notes add'
-b1c60fdff77c128676a1c3f99de2f62c55085958 Notes added by 'git notes add'
-1bd9612f9372a110d955d8c224cffa132d5605d1 Notes added by 'git notes add'
-1632e06c51cee5b35a2b2a568f73446292d1ebc6 Notes added by 'git notes add'
-9b194266d11c957cce97e4a8878df6c9fe7003ec Notes added by 'git notes add'
-9e41864b180dfdb093f842411453731710fc07c6 Notes added by 'git notes add'
-9fa1ea664755d7a5465faf5d7102f65f7c6f4a3c Notes added by 'git notes add'
-6263835942325a286cf37e0551a9eb4a2041cdac Notes added by 'git notes add'
-0f69b7c2ac86b07ebef8fc56be9e0541e36c861a Notes added by 'git notes add'
-
---===============8203180338669635704==--
+--===============7421615631750995104==--
