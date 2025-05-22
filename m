@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Thu, 22 May 2025 05:10:32 -0000
-Message-Id: <174789063297.3534187.12151005476432183998@gitolite.kernel.org>
+Date: Thu, 22 May 2025 05:14:50 -0000
+Message-Id: <174789089017.3536645.14084531250128487280@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/sj/damon-hack
 user: sj
 changes:
   - ref: refs/heads/master
-    old: 6448f84a67b1af5cc54617a4ce40bdb5e8bc31e0
-    new: 4b55ec8005cfffad3fd483ed046f4139625b619f
+    old: 4b55ec8005cfffad3fd483ed046f4139625b619f
+    new: 21a9247cf77825b1aa17998e70a54d5ce6644d59
     log: |
-         4b55ec8005cfffad3fd483ed046f4139625b619f patches/next: remove cv commit for merged one (config_damon default enabling)
+         21a9247cf77825b1aa17998e70a54d5ce6644d59 todo: update
          
