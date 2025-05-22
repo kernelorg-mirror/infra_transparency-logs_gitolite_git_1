@@ -1,28 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============2914848573681996073=="
+Content-Type: multipart/mixed; boundary="===============5144627986791119906=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 22 May 2025 08:44:04 -0000
-Message-Id: <174790344498.3746892.10499502789595862870@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 22 May 2025 08:44:18 -0000
+Message-Id: <174790345853.3747168.8960014711158512503@gitolite.kernel.org>
 
---===============2914848573681996073==
+--===============5144627986791119906==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.15
+  - ref: refs/heads/asoc-6.15
     old: e717c661e2d1a660e96c40b0fe9933e23a1d7747
     new: 688abe2860fd9c644705b9e11cb9649eb891b879
     log: |
          688abe2860fd9c644705b9e11cb9649eb891b879 ASoC: qcom: sdm845: Add error handling in sdm845_slim_snd_hw_params()
          
-  - ref: refs/heads/for-6.16
+  - ref: refs/heads/asoc-6.16
     old: 15c2b04abe863978e23ab97d1055638ad631475f
     new: 0d2992d30af6a9d4e38e8471e02e0e1d205e10a7
     log: |
@@ -39,29 +39,29 @@ changes:
          0d2992d30af6a9d4e38e8471e02e0e1d205e10a7 Add DAPM/ASoC helpers to create SDCA drivers
          
 
---===============2914848573681996073==
+--===============5144627986791119906==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1747903475 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1747903442-6ceb98358e21b179234aaf7944131b4ce7def5d2
+pusher C3F436CA30F5D8EB 1747903489 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1747903456-617d5918ca0d4665fa3a5983c8c0d798c7c6ec28
 
-e717c661e2d1a660e96c40b0fe9933e23a1d7747 688abe2860fd9c644705b9e11cb9649eb891b879 refs/heads/for-6.15
-15c2b04abe863978e23ab97d1055638ad631475f 0d2992d30af6a9d4e38e8471e02e0e1d205e10a7 refs/heads/for-6.16
+e717c661e2d1a660e96c40b0fe9933e23a1d7747 688abe2860fd9c644705b9e11cb9649eb891b879 refs/heads/asoc-6.15
+15c2b04abe863978e23ab97d1055638ad631475f 0d2992d30af6a9d4e38e8471e02e0e1d205e10a7 refs/heads/asoc-6.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgu4/MACgkQJNaLcl1U
-h9Ajmwf9EEjgKvKEJaqczD0BewOa5q+XtBC1lHhRQDUXZDiG7B8roggSiweOy1lQ
-tomsTUHFLXDNpsH/T7DHB8TYDRRm3gbWv4gcr3EAO6nyuyNZYltlKQAIy8XTXzxW
-uvhsd3BRgYCIDlpa+U1PNs7b6MCpjWmqHWM2xUwEQWcTSCYpwH1/pITtCQE3o0CQ
-jVikNqDrTCNSqTnHBq94PrZn8ImoHGxMps5AlomAKoBrebBu9uRr0CsC5T0J80Nb
-zDGotAfx+TsQzQDo1CoMSk3P/CJnWFFxzWcBkPg+7DCRJ0L6X1bO27qFdFTnuUme
-dF3uZQTvCtuWNsCOKGHKotsHvkQmiA==
-=3cQz
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgu5AEACgkQJNaLcl1U
+h9Abigf/QyjUCccnLyfSrmYyjmuitHfMJLpBGvNjJXacLBCELCb85cneEOW1hjUS
+FrO35U7TLVpcU3yw9tpepd0SRuCszVSS+IF0p6U5o4gnad8G8bgiYK2sAmUOPTbJ
+6MeyKgty9i563heEpLZQ95nLhrWTFFpYiYkph4ZKQp1iQX2MWVp0HZV5n/MpDBKX
+3rcty04hI0D1TbDKjlTpIQfz9uT4miziPHvm8rtjJDf6k/dVU+iZ5UY8uu+EEcsn
+NyKwccaKv3R8wWn1SF7BGXyEekjfgpbs4B3Tbgybxpzvryggmw/JojGlTr/K14/x
+uiw+UtYNgD5sxnW6jgZ9gcFz5ZPidg==
+=44xP
 -----END PGP SIGNATURE-----
 
---===============2914848573681996073==--
+--===============5144627986791119906==--
