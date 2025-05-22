@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
-Date: Thu, 22 May 2025 03:56:03 -0000
-Message-Id: <174788616380.3472898.2479593715211908108@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Thu, 22 May 2025 03:57:42 -0000
+Message-Id: <174788626208.3473871.6317301198013564934@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/linux
+repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/erofs/qat
-    old: 1fa99263386ca865c94b45c6be5e4d9830375c1a
-    new: 45b16bd082ffbfc5e551d4526762c4277dba89c7
+  - ref: refs/heads/dev-test
+    old: c94d54dab9f0b0c7be830cab0ab7c831ecc2b497
+    new: c36ec00d7f67590cb03e233959cd92fe969753a3
     log: |
-         45b16bd082ffbfc5e551d4526762c4277dba89c7 erofs: support DEFLATE decompression by using Intel QAT
+         c36ec00d7f67590cb03e233959cd92fe969753a3 erofs: add 'fsoffset' mount option to specify filesystem offset
          
