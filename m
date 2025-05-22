@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============7876054638355012757=="
+Content-Type: multipart/mixed; boundary="===============0722374071076366068=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 22 May 2025 14:21:19 -0000
-Message-Id: <174792367921.158727.7148910277190206778@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 22 May 2025 14:21:22 -0000
+Message-Id: <174792368256.158922.16043472989017848856@gitolite.kernel.org>
 
---===============7876054638355012757==
+--===============0722374071076366068==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.16
+  - ref: refs/heads/asoc-6.16
     old: fd4b6c0fdf71d71f2bbc2f9aceb6f0814b4d93e2
     new: 7ce3bf76c3adfbfcfa712d5090428f67c97db201
     log: |
@@ -34,28 +34,28 @@ changes:
          7ce3bf76c3adfbfcfa712d5090428f67c97db201 Add Tegra264 support in AHUB drivers
          
 
---===============7876054638355012757==
+--===============0722374071076366068==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1747923710 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1747923677-064e4fb0dddcb2ea88bacf40170ea7d9c10e3eed
+pusher C3F436CA30F5D8EB 1747923713 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1747923680-301501f4c5e1c8b0b69372e738290a1c2d871880
 
-fd4b6c0fdf71d71f2bbc2f9aceb6f0814b4d93e2 7ce3bf76c3adfbfcfa712d5090428f67c97db201 refs/heads/for-6.16
+fd4b6c0fdf71d71f2bbc2f9aceb6f0814b4d93e2 7ce3bf76c3adfbfcfa712d5090428f67c97db201 refs/heads/asoc-6.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgvMv4ACgkQJNaLcl1U
-h9C3/Qf7BBUxXE7hLrxEzxMGv9EIO/bnthavG/TRvLCHRqtIGnuvYwdcYMGbOhkB
-Y7Tc8pkWKd8du2epgeX8YvGBq0qpuw81ShSjdjl/kOHTrmiB8Asqo1ziBt2FMyhQ
-ptF6NqxcDNL07EMkPtqjQBTdwAPvxlQfQW6REVW1fyZHshYnJxxlj+jD9CB4QS78
-QH0soKKirM288B4/pDsIXHfVT3arCsUV/1NQ7mcfvyAO7mMf4Wi55CnGHmepotiV
-Kt5bk0Ca56fKA3xLb+KQ3+hjnMP8TI4n9SLW9jlV2PzACdKxOZ/ktl8k1WmSzuNL
-Jxfn4jgdCRzK+lscQ3nnV9JLftHtmQ==
-=gtFv
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgvMwEACgkQJNaLcl1U
+h9Arawf/cFmCFkunH7gKpShEQhIP873SxM7c0OcuLP1+ERZn9YT1XmjndRROXqia
+B0YXH7JR7q9IkdQ++d+gM5kpBDgXdt8I7+9M1UkA2hwN2qDcUsx6AALMprVxkpkO
+fS1xlnzHThxYBoyMN4J9QltWLlEFPAU6cnjNKuz+rJ6ncl5LdyleBV3nWrpPzcAs
+7WCHDUZri+591J8hthySjJRmY0x3AvPz7oNlFAeRLMGc+f2BeTFsN1DvIfOS0+UF
+q80O+p36EP/5vNwBLGejd0fkumBDLv0kLyk7M5O4D8J4IU6llNv+qGJamq/xgmTn
+lsJK4dtJGfSZ9nZJ/otDb/3hNz5kUQ==
+=AbBt
 -----END PGP SIGNATURE-----
 
---===============7876054638355012757==--
+--===============0722374071076366068==--
