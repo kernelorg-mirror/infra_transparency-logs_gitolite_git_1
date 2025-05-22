@@ -1,52 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============7552175099171703284=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Thu, 22 May 2025 16:53:50 -0000
-Message-Id: <174793283071.301362.16500589043709297923@gitolite.kernel.org>
-
---===============7552175099171703284==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Thu, 22 May 2025 17:08:53 -0000
+Message-Id: <174793373385.313669.8866672349015062067@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
-user: jberg
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/tags/wireless-next-2025-05-22
-    old: 0000000000000000000000000000000000000000
-    new: 739bdee5d1fca387345f865bdb3ce2b1ecd89ae9
-
---===============7552175099171703284==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 7BF9099A 1747932839 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
-nonce 1747932806-416035aa76272d1b0860bfc9de4b8ab2f7c4918f
-
-0000000000000000000000000000000000000000 739bdee5d1fca387345f865bdb3ce2b1ecd89ae9 refs/tags/wireless-next-2025-05-22
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmgvVqcACgkQ10qiO8sP
-aADt0xAAndFqL3GeqQbYziaWhwY7Pih1HWP/iM/fuQ2/VMeZ5JfB7I/vT4fXByVb
-3q0zqPJKZ5qtoIP8kYjNOQ3o3y+GfNYv2KnjLp8EbsLjtc56kdWF2XyqXoSX/xS9
-Wlj7XRPluoRRFNXbPOmDXZtomqq1pndDZusQed/HD6JbBDkoowLe/J1czPcNVoxc
-flHSBgGu3VtbVp2ByBBvaLuf+bvmp143x6WPawASNSxA/s7OjSA41url8VnZ8kwE
-mlijdiGCqXU+GrOOofnjt/oTt1tQbYjA+QZL5ejcBE0EYoo/6DcW2zyTZ0Z1FWon
-ZHeq9PhmAhM966qIPW3RrWh61blpIGuNxJE8GXyp+TM7wpgDJFUdGhk6fJo994zr
-Je9tTUnHs7okj6hDdPoGcQOwrMVchj1AqF5LfpaRfYgXwHvj5uI0YiOX8g2t1J8i
-oEbHfJojgdH3EML0r88uwDT1zGPMzgxYJf5tsDq3dx5LAutOLQFDsfcfr947E+O3
-1GJ6VAzFojLySFY87JXoxGehI2MqWPb7UJBhmOfhP07hzK1PogNGDL3hGDZNalo5
-fBTF9zcHCilNEcqm1PHX5Al7XaxpL5tn4ilA4X2eaquVWsezjtXX1gRbrjH5sZdW
-BUAKhKmNN0EQJQCb/DI0oA3TjSIiGORcDKAQ54HAr2lG1MffQSM=
-=6tRZ
------END PGP SIGNATURE-----
-
---===============7552175099171703284==--
+  - ref: refs/heads/master
+    old: 17487bc76dcf0b3bd9dc49a64c9f44066b0200f0
+    new: 3aa1dc3c9060e335e82e9c182bf3d1db29220b1b
+    log: |
+         631c8682c3b8ce2678b2d849b3f28e5568853591 Bluetooth: L2CAP: Fix not checking l2cap_chan security level
+         c27046c98bd26d4270c076e7d851d68aaaf964a3 Bluetooth: btusb: use skb_pull to avoid unsafe access in QCA dump handling
+         71d9d3522aec301e4a1c4eae4b5e0656fc4a7262 Bluetooth: btusb: Add new VID/PID 13d3/3584 for MT7922
+         3bb88524b7d030160bb3c9b35f928b2778092111 Bluetooth: MGMT: iterate over mesh commands in mgmt_mesh_foreach()
+         3aa1dc3c9060e335e82e9c182bf3d1db29220b1b Bluetooth: btintel: Check dsbr size from EFI variable
+         
