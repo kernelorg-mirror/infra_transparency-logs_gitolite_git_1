@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3722475342531671062=="
+Content-Type: multipart/mixed; boundary="===============5063197934828982702=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 22 May 2025 15:23:18 -0000
-Message-Id: <174792739806.213189.13489267035000622362@gitolite.kernel.org>
+Date: Thu, 22 May 2025 15:23:20 -0000
+Message-Id: <174792740036.213316.9837394411916916796@gitolite.kernel.org>
 
---===============3722475342531671062==
+--===============5063197934828982702==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,25 +15,27 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
-    old: 9e89db3d847f2d66d2799c5533d00aebee2be4d1
+  - ref: refs/heads/100GbE
+    old: 2dabe349f7882ff1407a784d54d8541909329088
     new: 3fab2d2d901a87710f691ba9488b3fd284ee8296
-    log: revlist-9e89db3d847f-3fab2d2d901a.txt
+    log: revlist-2dabe349f788-3fab2d2d901a.txt
 
---===============3722475342531671062==
+--===============5063197934828982702==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9e89db3d847f-3fab2d2d901a.txt
+Content-Disposition: attachment; filename=revlist-2dabe349f788-3fab2d2d901a.txt
 
 63c1f19a3be3169e51a5812d22a6d0c879414076 espintcp: fix skb leaks
 028363685bd0b7a19b4a820f82dd905b1dc83999 espintcp: remove encap socket caching to avoid reference leak
 e3fd0577768584ece824c8b661c40fb3d912812a xfrm: Fix UDP GRO handling for some corner cases
 417fae2c40896f0a67ce7fa7d9b8c6056ec36dd9 xfrm: ipcomp: fix truesize computation on receive
 0b91fda3a1f044141e1e615456ff62508c32b202 xfrm: Sanitize marks before insert
-bbd95160a03dbfcd01a541f25c27ddb730dfbbd5 ice: fix vf->num_mac count with port representors
-6c778f1b839b63525b30046c9d1899424a62be0a ice: Fix LACP bonds without SRIOV environment
-2dabe349f7882ff1407a784d54d8541909329088 idpf: fix null-ptr-deref in idpf_features_check
+69c6d83d717317eab42835bc9fd54173c8de31ac dt-bindings: can: microchip,mcp2510: Fix $id path
+c2aba69d0c36a496ab4f2e81e9c2b271f2693fd7 can: bcm: add locking for bcm_op runtime updates
+dac5e6249159ac255dad9781793dbe5908ac9ddb can: bcm: add missing rcu read protection for procfs content
+8283fd51e6ea7d0420bd93055761a5b38fe2be9b Merge patch series "can: bcm: add locking for bcm_op runtime updates"
+9e89db3d847f2d66d2799c5533d00aebee2be4d1 Merge tag 'linux-can-fixes-for-6.15-20250520' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
 9176bd205ee0b2cd35073a9973c2a0936bcb579e can: kvaser_pciefd: Force IRQ edge in case of nested IRQ
 8256e0ca601051933e9395746817f3801fa9a6bf can: kvaser_pciefd: Fix echo_skb race
 6d820b81c4dc4a4023e45c3cd6707a07dd838649 can: kvaser_pciefd: Continue parsing DMA buf after dropped RX
@@ -61,4 +63,4 @@ a6ae7129819ad20788e610261246e71736543b8b octeontx2-af: Fix APR entry mapping bas
 ab94003fcf20da82806a9ca29bd9d4cf41ee0580 Merge branch 'octeontx2-af-apr-mapping-fixes'
 3fab2d2d901a87710f691ba9488b3fd284ee8296 Merge tag 'linux-can-fixes-for-6.15-20250521' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
 
---===============3722475342531671062==--
+--===============5063197934828982702==--
