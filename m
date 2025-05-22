@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6800220299597966378=="
+Content-Type: multipart/mixed; boundary="===============5517698140567892692=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 22 May 2025 15:29:25 -0000
-Message-Id: <174792776560.221515.17169873577547714497@gitolite.kernel.org>
+Date: Thu, 22 May 2025 15:29:27 -0000
+Message-Id: <174792776796.221602.15683089314831478433@gitolite.kernel.org>
 
---===============6800220299597966378==
+--===============5517698140567892692==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 9ab0ac0e532afd167b3bec39b2eb25c53486dcb5
     new: 4ff4d86f6cceb6bea583bdb230e5439655778cce
     log: revlist-9ab0ac0e532a-4ff4d86f6cce.txt
 
---===============6800220299597966378==
+--===============5517698140567892692==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -102,4 +102,4 @@ b206d9ec19dfc2db706883ff6b46b259831a033d net/mlx5: HWS, register reformat action
 3da895b23901964fcf23450f10b529d45069f333 Merge branch 'net-mlx5-hws-set-of-fixes-and-adjustments'
 4ff4d86f6cceb6bea583bdb230e5439655778cce net: Add support for providing the PTP hardware source in tsinfo
 
---===============6800220299597966378==--
+--===============5517698140567892692==--
