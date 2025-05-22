@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Thu, 22 May 2025 12:15:33 -0000
-Message-Id: <174791613309.4069345.13803475208633673436@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Thu, 22 May 2025 12:19:21 -0000
+Message-Id: <174791636179.4090520.16337317419529813869@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/dev-test
-    old: 54cbf266daef96e963febb34ef86290578ea626d
-    new: d65c27201d660b8203431189cb314824741fd27e
+  - ref: refs/heads/for-next
+    old: 3e3169e64e3154770f263451cc821b4c3f043cc0
+    new: 70a299ed2e03e7ef26e5be7889bab1a47960ed25
     log: |
-         d65c27201d660b8203431189cb314824741fd27e erofs: support DEFLATE decompression by using Intel QAT
+         70a299ed2e03e7ef26e5be7889bab1a47960ed25 dt-bindings: display: rockchip: Convert cdn-dp-rockchip.txt to yaml
          
