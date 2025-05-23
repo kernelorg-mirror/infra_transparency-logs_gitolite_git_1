@@ -1,50 +1,38 @@
-Content-Type: multipart/mixed; boundary="===============7400377640979886604=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 23 May 2025 15:48:28 -0000
-Message-Id: <174801530862.1476840.5113126989519372350@gitolite.kernel.org>
-
---===============7400377640979886604==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Fri, 23 May 2025 15:48:31 -0000
+Message-Id: <174801531122.1476981.461318378888315797@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/for-6.16
-    old: 7ce3bf76c3adfbfcfa712d5090428f67c97db201
-    new: fe6446215bfad11cf3b446f38b28dc7708973c25
+  - ref: refs/heads/bleeding-edge
+    old: a64f7c59a291929a6327617fb9b6df6b400904e6
+    new: 40c7a8b63e1234b6a0ab3ff51543d51a80b639cb
     log: |
-         fe6446215bfad11cf3b446f38b28dc7708973c25 firmware: cs_dsp: Fix OOB memory read access in KUnit test
+         dd133162c9cff5951a692fab9811fadf46a46457 ACPI: platform_profile: Avoid initializing on non-ACPI platforms
+         8f5814a89492c59d2c9af8ffa40be4df5619b8b4 Merge branch 'acpi-platform-profile' into linux-next
+         94a370fc8def6038dbc02199db9584b0b3690f1a ACPI: bus: Bail out if acpi_kobj registration fails
+         b2f0d2ee3225e8b864118e64c765232f3fb6d76f Merge branch 'acpi-bus' into linux-next
+         18e899017500f1992d3816e326972c8954fbff2a thermal/drivers/airoha: Fix spelling mistake "calibrarion" -> "calibration"
+         01daf71a4f57062055f68f8163ed1ad88fb47990 thermal: qcom: ipq5018: make ops_ipq5018 struct static
+         6b8980b0bca3d308f0762b4e9749c8f88ad1c897 Merge branch 'thermal' into linux-next
+         40c7a8b63e1234b6a0ab3ff51543d51a80b639cb Merge branch 'pm-sleep-testing' into bleeding-edge
          
-
---===============7400377640979886604==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1748015340 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1748015306-319ddcaebd2458fa8a97c9171e65875b87416f61
-
-7ce3bf76c3adfbfcfa712d5090428f67c97db201 fe6446215bfad11cf3b446f38b28dc7708973c25 refs/heads/for-6.16
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgwmOwTHGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0C4eB/9VBFOgcs01tNxteeK5p2rb6CIFd5GV
-iSRerZfT/Lqsyn9034ML0VAMsnYfLIuNr2iM1neq8KffhCSJUBrSHW98tqpuCRKe
-eo5MzE0EzcMPHHaKWeulBvjcBppaLKMMp8xaSX06jKGGOLg0Cfx6DxY41k/ZsMtZ
-gzCgi/Zgz4YtP9GFHRS/rDW2h9wERAXrYR6drvvb0sDz7o63UCcBOb+TVXakYJuB
-C+EIlIjb7hVHzrbdDNCIj6whp4Qd6fFyR/F3h4E3WHXD6Pd8lE7057jmqif4XB1m
-uOYt+OCxWDOLgbewjltbewQshCm7rKDdM1IPoLyocw9CJWbowLLCWrYw
-=LI3U
------END PGP SIGNATURE-----
-
---===============7400377640979886604==--
+  - ref: refs/heads/testing
+    old: 9ea94d5d04bef9d6198bc14ac59c4eb01bbc8480
+    new: 6b8980b0bca3d308f0762b4e9749c8f88ad1c897
+    log: |
+         dd133162c9cff5951a692fab9811fadf46a46457 ACPI: platform_profile: Avoid initializing on non-ACPI platforms
+         8f5814a89492c59d2c9af8ffa40be4df5619b8b4 Merge branch 'acpi-platform-profile' into linux-next
+         94a370fc8def6038dbc02199db9584b0b3690f1a ACPI: bus: Bail out if acpi_kobj registration fails
+         b2f0d2ee3225e8b864118e64c765232f3fb6d76f Merge branch 'acpi-bus' into linux-next
+         18e899017500f1992d3816e326972c8954fbff2a thermal/drivers/airoha: Fix spelling mistake "calibrarion" -> "calibration"
+         01daf71a4f57062055f68f8163ed1ad88fb47990 thermal: qcom: ipq5018: make ops_ipq5018 struct static
+         6b8980b0bca3d308f0762b4e9749c8f88ad1c897 Merge branch 'thermal' into linux-next
+         
