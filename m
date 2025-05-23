@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Fri, 23 May 2025 10:36:05 -0000
-Message-Id: <174799656513.1201951.17764480308121931480@gitolite.kernel.org>
+Date: Fri, 23 May 2025 10:36:11 -0000
+Message-Id: <174799657158.1202207.4496078826090543242@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vfs/vfs
 user: brauner
 changes:
-  - ref: refs/tags/vfs-6.16-rc1.mount.api
+  - ref: refs/tags/vfs-6.16-rc1.writepage
     old: 0000000000000000000000000000000000000000
-    new: 5cd4d2b18d6c41cc5e6995a979a08158468ac339
+    new: b47ddae791aa345aec2049a1a6520ec7c01eb433
