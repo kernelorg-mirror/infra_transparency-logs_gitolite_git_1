@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6803813488850462446=="
+Content-Type: multipart/mixed; boundary="===============3678984571715359882=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 23 May 2025 10:31:17 -0000
-Message-Id: <174799627738.1197252.12499722786338077656@gitolite.kernel.org>
+Date: Fri, 23 May 2025 10:34:14 -0000
+Message-Id: <174799645437.1198764.17668494784788919716@gitolite.kernel.org>
 
---===============6803813488850462446==
+--===============3678984571715359882==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 2596313a4d91afd94608e06cf877adedbdb656be
-    new: d1d89e8eee6f0e91cfad2a0375ad679fd5c1ae83
+    old: d1d89e8eee6f0e91cfad2a0375ad679fd5c1ae83
+    new: 5f5cc794fac605afd3bef8065e33096aeacf6257
     log: |
-         d1d89e8eee6f0e91cfad2a0375ad679fd5c1ae83 USB: gadget: fix up const issue with struct usb_function_instance
+         5f5cc794fac605afd3bef8065e33096aeacf6257 USB: gadget: udc: fix const issue in gadget_match_driver()
          
 
---===============6803813488850462446==
+--===============3678984571715359882==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1747996309 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1747996486 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1747996275-659cdbb2a779cb1b9a248cb951c502ed0b9ca716
+nonce 1747996452-ca86a4ce11dd73d200ae982e2cef047be690b80c
 
-2596313a4d91afd94608e06cf877adedbdb656be d1d89e8eee6f0e91cfad2a0375ad679fd5c1ae83 refs/heads/usb-testing
+d1d89e8eee6f0e91cfad2a0375ad679fd5c1ae83 5f5cc794fac605afd3bef8065e33096aeacf6257 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgwTpUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pMkQAKuVvMrcfNLbWlp+WXb7
-0iQNFbLd0Q1P1VYMaUdL7jmkkRa7CLhKgr1huf2KiLnWuPG1gwTNd0CsW/MxLTLE
-Aq7vdRT+rtz/XaV0vpv9OuztPa50KH4WdcoMVvi9uh2SWxu4oUyLSxU/JSkTGehZ
-EDmuHYUAefA8YK9YRv9tZ/dkAXPUwFHpU5+7E8zGSaiDzajdBYc90m2G08w6aDnB
-MXDoFDmV4EnwqrdQey6rovw5kxpRRic8VXZEPyVEutch1dlPeoesoxIsbvO7e8+o
-SBUAdMiT8MggwQNMYV3Nv4ce8rGnKudaCsVwxOxW7uX6Mi3kmHG4r94zcOpecSsZ
-TRqXPYjenEIUxARpHR3t/ryXd7GHAZhe0bzD6f5w9GPUXx4ZZyqZ0p8nv7nEYHUx
-VP8RNY2PtM5z/LmGKsEewyMbNIHrQCdoWMwUDKhc7+iiEhpfNQVpyWcs0OSudXse
-iiHBE2QKRz7oHNtlsFhpGhR/dSll+ePDaqy2u2MGK77n/8V6E50aGX7z4xm9802Q
-i0Ii+ng2Yidx5Io4cJr68PBy0rLYo1Kume5pIZZNfgM4CqDAIbYj3225eyZciCMt
-/FS3fNLsRMmo2+xcFS7u9K2o03UuyTAKFGd5Qbe1kPOaBue5eSTiVDd/Snwy3Mf3
-prjCzlDVd4JScO8Zu+UXf+Vl
-=7WhN
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgwT0YbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bBgP/0werOcRCEbrepYBIDFn
++69hFF+xcT8TCtrXS5Y7n7ljEys2RPqHsAKiWPDKA/h3ZmxKAzWETgyXVYMUc+CO
+cJWMHa/COhxSfzpUyvi+gNWchBQ2cLcTv+REEwRcd5cdyjDH2Jim/3mmrbtfvCHR
+LQEkKi4SH6wSW2sbeqjjMW872mq6PmnCEfDMsTWmg6EVP5EPNyARYfZe+4EbRcDo
+Nrd28c1vBaSL2wYDdzOWakdgc3RKm51ppr4bsak9UGKEj2JUjufzfTdRLp+FJHIT
+RoBhbglYFbPQclSXfTl5/E8AzpG2MnljdnF+vlW+bJH4SHO8YxgsA1xx3Y/dAchp
+XlFtbN4bea+z+V51lpYs+Kj4oRlJIYFCWyPI6/1kQCIgS/cUQKdv/dypI/GlsYCq
+H/8BXyIokyIM1KB5OOlw9/tKU5sfOVN1SCPAIq/vFGZeqBq1o+p1nMwTYDmGN0ju
+J7fPz4J0Hp0qpOMtHWP7tu1ulr6ZOLC/Nvimo8pDk5rHVPG05UD1Q4B1u0gTlcKG
+PW5AGNLfl5+OatpTvJPxyNK4jKbS1kgRA6eV75YfrYK5mFdCIpJdZFo/EiwhMYJ6
+w4xYLFTEHUmapu0lRjk4E6bW1W31ZyAoXj452F52bVo37u1STfyftVpG1n5f95GN
+3/j9ddhPnEXN70U8xaOb73Vo
+=TEk9
 -----END PGP SIGNATURE-----
 
---===============6803813488850462446==--
+--===============3678984571715359882==--
