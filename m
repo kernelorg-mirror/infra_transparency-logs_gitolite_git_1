@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-Date: Fri, 23 May 2025 11:25:43 -0000
-Message-Id: <174799954395.1246430.13306778286190056642@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Fri, 23 May 2025 12:08:03 -0000
+Message-Id: <174800208344.1279483.1440810508184006056@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-user: herbert
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/master
-    old: 35de409aa30269a3b106fe957a95f7a2b7e21a60
-    new: 61fc01f8f7f8e299b9fed5a5e5e068ef0e40593d
-    log: |
-         0a3cf32da469ff1df6e016f5f82b439a63d14461 crypto: api - Redo lookup on EEXIST
-         61fc01f8f7f8e299b9fed5a5e5e068ef0e40593d crypto: qat - add missing header inclusion
-         
+  - ref: refs/tags/vfs-6.16-rc1.async.dir
+    old: 0000000000000000000000000000000000000000
+    new: a033ddb631a48b1a15a5c5c6af08271c38f8a395
