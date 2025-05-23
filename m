@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1770053672268364697=="
+Content-Type: multipart/mixed; boundary="===============2169787926172590439=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
-Date: Fri, 23 May 2025 16:32:23 -0000
-Message-Id: <174801794309.1522542.9388725935755146798@gitolite.kernel.org>
+Date: Fri, 23 May 2025 16:34:06 -0000
+Message-Id: <174801804658.1523572.14554476463169904352@gitolite.kernel.org>
 
---===============1770053672268364697==
+--===============2169787926172590439==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/hyperv/linux
 user: wei.liu
 changes:
-  - ref: refs/heads/hyperv-next-staging
-    old: 67fbf6c2bf131829d48c0fff3fcc2bdac431825d
-    new: e89f91222ab3aef84af316567ebc815a10313f3a
-    log: revlist-67fbf6c2bf13-e89f91222ab3.txt
+  - ref: refs/heads/hyperv-next
+    old: be9362bf03c1fe8fe50d3db88a1b4aa1a2792fc6
+    new: dd1af0c4c56d7c60eaf7f30f9d816ed1befbd7d7
+    log: revlist-be9362bf03c1-dd1af0c4c56d.txt
 
---===============1770053672268364697==
+--===============2169787926172590439==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-67fbf6c2bf13-e89f91222ab3.txt
+Content-Disposition: attachment; filename=revlist-be9362bf03c1-dd1af0c4c56d.txt
 
 549d8994447f2f628c6cedd139d53926bdfee881 media: vivid: fix FB dependency
 9df181c8de1b6b285556f80bfd02584f3457f32e media: i2c: lt6911uxe: Fix Kconfig dependencies:
@@ -400,7 +400,5 @@ c951ab8fd3589cf6991ed4111d2130816f2e3ac2 uio_hv_generic: Use correct size for in
 a60822bc11b12e6c43cf25a610174ac44f744b27 Drivers: hv: Use kzalloc for panic page allocation
 cd1769e1fef9ab8fbdfafb67b2c327418867afb6 Drivers: hv: Remove hv_alloc/free_* helpers
 dd1af0c4c56d7c60eaf7f30f9d816ed1befbd7d7 PCI: hv: Remove unnecessary flex array in struct pci_packet
-f77276d1c9597ade06f3facbceb51bd1abf1bd5c Documentation: hyperv: Update VMBus doc with new features and info
-e89f91222ab3aef84af316567ebc815a10313f3a Drivers: hv: vmbus: Add comments about races with "channels" sysfs dir
 
---===============1770053672268364697==--
+--===============2169787926172590439==--
