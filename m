@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5826877212123408045=="
+Content-Type: multipart/mixed; boundary="===============8804949938796099404=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 23 May 2025 15:51:09 -0000
-Message-Id: <174801546937.1481580.15557745938101878836@gitolite.kernel.org>
+Date: Fri, 23 May 2025 15:51:11 -0000
+Message-Id: <174801547183.1481671.2544925832096917507@gitolite.kernel.org>
 
---===============5826877212123408045==
+--===============8804949938796099404==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 3fab2d2d901a87710f691ba9488b3fd284ee8296
     new: 5cdb2c77c4c3d36bdee83d9231649941157f8204
     log: revlist-3fab2d2d901a-5cdb2c77c4c3.txt
 
---===============5826877212123408045==
+--===============8804949938796099404==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -249,4 +249,4 @@ d608703fcdd9e9538f6c7a0fcf98bf79b1375b60 Merge tag 'clk-fixes-for-linus' of git:
 b1819ae85e7df3dfda1f387f32fb487ca40052ad Merge tag 'pinctrl-v6.15-4' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
 5cdb2c77c4c3d36bdee83d9231649941157f8204 Merge tag 'net-6.15-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============5826877212123408045==--
+--===============8804949938796099404==--
