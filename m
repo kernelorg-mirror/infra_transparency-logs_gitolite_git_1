@@ -1,19 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Fri, 23 May 2025 01:29:29 -0000
-Message-Id: <174796376904.748023.5673342581790586636@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Fri, 23 May 2025 01:45:20 -0000
+Message-Id: <174796472001.762988.806959651303603282@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/master
-    old: 21a9247cf77825b1aa17998e70a54d5ce6644d59
-    new: 18bb207184095e9863d27f015ee415af4bb7fa5a
+  - ref: refs/heads/tmp.perf-tools-next
+    old: becbbf175f706994aff5bc9bccce4b9821df0db1
+    new: 9e893dab828577adb166cc2badfb4711f1cd6e4c
     log: |
-         18bb207184095e9863d27f015ee415af4bb7fa5a patches/next: rebase to latest mm-new
+         3b4991dcb49e1d99129ead644858cf7f77b8fb6b perf python: Add support for 'struct perf_counts_values' to return counter data
+         739621f65702d532527aec124b0818d3a1521b5e perf python: Add evsel read method
+         aa6848374023ea14664e6812e0f64e1a28044936 perf python: Add evlist close support
+         59df607bf8b482588fae63fb3e1d666ed866f491 perf python: Add counting.py as example for counting perf events
+         dd8633bd09bcd346fc3c38ce516e73083eb841a6 perf test: Add cgroup summary test case for 'perf trace'
+         9e893dab828577adb166cc2badfb4711f1cd6e4c perf tests trace_summary.sh: Run in exclusive mode
          
