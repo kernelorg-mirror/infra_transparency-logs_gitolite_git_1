@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6325199282896179331=="
+Content-Type: multipart/mixed; boundary="===============8698889547222560409=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 23 May 2025 12:33:15 -0000
-Message-Id: <174800359529.1301445.568027870617250286@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 23 May 2025 12:34:29 -0000
+Message-Id: <174800366935.1302297.16227789554537157515@gitolite.kernel.org>
 
---===============6325199282896179331==
+--===============8698889547222560409==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: e60acc420368e3fcb8c158207d37a502c4eee9e2
-    new: e2d8ae899760ff71168d08047962caae07ab36a1
+  - ref: refs/heads/master
+    old: 2830e6a45441a53e6f0f0548066a7839c7b9f933
+    new: 14fc977bf0e5642172709bbe8d943359471c5817
     log: |
-         662a9ece32add94469138ae66999ee16cb37a531 usb: misc: onboard_usb_dev: fix build warning for CONFIG_USB_ONBOARD_DEV_USB5744=n
-         e2d8ae899760ff71168d08047962caae07ab36a1 ASoC: qdsp6: fix compile-testing without CONFIG_OF
+         14fc977bf0e5642172709bbe8d943359471c5817 drop kernfs patches
          
 
---===============6325199282896179331==
+--===============8698889547222560409==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1748003627 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1748003593-4d27509987d764197f2bdcc86f3a81fec66b09ae
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1748003701 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1748003667-9f6205d217b1e513c4b076134bc400b7935a790a
 
-e60acc420368e3fcb8c158207d37a502c4eee9e2 e2d8ae899760ff71168d08047962caae07ab36a1 refs/heads/usb-testing
+2830e6a45441a53e6f0f0548066a7839c7b9f933 14fc977bf0e5642172709bbe8d943359471c5817 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgwaysbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GtkP/2MdZeDDYzEyDMbuFsOA
-Ep9t4puv8V2huDFLORsIq1obLqiCMD/BDa8KvswR1o1fQYOpbgairQv1QpgOFLbw
-s43aH7ZNQ2a9RqC4ZcoU4XmdSbAgkEU8iAkLUJibtEVbNF8dILXyuXSkwHiE+6d9
-9kThKsXTYQKfZfXc/n5pYC1A89+v2jsDgpcAwGY61Mc0CIVCqtCY/ju1vSPKoFjI
-MnruYYrl8WyLB8SsOGLS0tuBkyVhSvoxvbvOyHrz5fhHKt8jxXwK9Z3SQA4+jd0l
-9A3pErk+LVF3GyinhuNcSWKNCM17BebffxmHgFHYd6my3seyYCmsjESmx3m18eC4
-hxz9MKLIt16z8drD3FjQyTcpCW5TSvssvrty3moxYK7RuMvjBBZMwk5G+daAMBH3
-L0p9kBOIUzTsPFm5Cc0XmYNaokzdd5bbEHXPKRZJUfc1b9ALxbsgp83MFNMouZ9A
-tbpkQcItaSmQnMDwuuoId+0nCWY4Kee8yEO+W9oQAF8mas1x9uxUQGItTEC7/Cqc
-On+sA2d80Ub2ADWA/8BTP4XkMABaVykN6VDmR778ZWrPd3kCJyNfzi4FZciE/Fn8
-LRpq3Su7rUGWGik5oiSVTwlAzYg0kt2iWc0IMfopKWsI0+Luz+I286mGDPPgKU34
-RmRN5edYDe/sEfxBF0uqP8bV
-=1JyL
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgwa3UbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DawP+QGEg3uLBCsU0d5Hj0su
+zcVpOGKsVy6x+aY94YFNU9rMllJl9oyqTeBagcvxKQKZfnxwNHwn7nmMdCfzGgvm
+daA0xp1qEgBp+YdRQ1p5UeF9LHfRVjX40/2UfWvyIco3XBVfgQndFR+ToziGVEkh
+RQAeeDMKLsv6/yoYgeRl9xaf1UW1z1som2JFYR6HwQ38+czR0EIDhZe6/QJcIFb3
+kWihAcp/UX3/wqgzhO+3D+vAIWRG2L5URdz8XvvZmTwk3o9VIzF5jaCfEjtOqBnh
+DHuRxTXKH3p/+J0vd0JdxmgEMYdaeXMsLgBow7c8poGfRxpFBXgnYCmC2t+uZ/vy
+a4KUej+w2Xn5N3hLTHNDmqH9GbXKMDFuviNaOB1LtTU13QBsGTybOC1Q/QMGWDBp
+vIp6y6wTXV1AI6SV0JPoQWKYpFL8/EYABr91eiDFSBG7ciCcBvdeWWny3Y7Zi/ET
+TIBMzJQ/CRmgijPkS4g2KSLAnwmcHOftlVpcg5p0u2JVdQi5RyK6Mfkfc3rRF0k4
+2KJn164L1ZKqv8p41oGYoD1HP7dCVZ+kjX3AywmrPGZvJMY6hkescc9YHGE3ojs5
+cgQX9XuT9sFFgylmLyIvTI0AhjvCMmxQAo02yW8hoCDTNq5/GQUx/FnYsvrjePaf
+yELJLLYdawFgCL+UXgL1H9/T
+=Y0bk
 -----END PGP SIGNATURE-----
 
---===============6325199282896179331==--
+--===============8698889547222560409==--
