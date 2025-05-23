@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4986418269571626056=="
+Content-Type: multipart/mixed; boundary="===============2382395274885210014=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 23 May 2025 16:25:10 -0000
-Message-Id: <174801751045.1516314.12122710190163537657@gitolite.kernel.org>
+Date: Fri, 23 May 2025 16:25:13 -0000
+Message-Id: <174801751325.1516568.16141966128559772903@gitolite.kernel.org>
 
---===============4986418269571626056==
+--===============2382395274885210014==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 4ff4d86f6cceb6bea583bdb230e5439655778cce
     new: ea15e046263b19e91ffd827645ae5dfa44ebd044
     log: revlist-4ff4d86f6cce-ea15e046263b.txt
 
---===============4986418269571626056==
+--===============2382395274885210014==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -725,4 +725,4 @@ c27046c98bd26d4270c076e7d851d68aaaf964a3 Bluetooth: btusb: use skb_pull to avoid
 43a1ce8f42cb45d028a8e5f1c2748fb3eff48fb3 Merge tag 'for-net-next-2025-05-22' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth-next
 ea15e046263b19e91ffd827645ae5dfa44ebd044 Merge tag 'wireless-next-2025-05-22' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless-next
 
---===============4986418269571626056==--
+--===============2382395274885210014==--
