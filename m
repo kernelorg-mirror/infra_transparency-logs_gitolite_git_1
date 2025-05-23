@@ -1,38 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Fri, 23 May 2025 15:48:31 -0000
-Message-Id: <174801531122.1476981.461318378888315797@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6819730441443589353=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 23 May 2025 15:48:34 -0000
+Message-Id: <174801531487.1477257.7471007540807372492@gitolite.kernel.org>
+
+--===============6819730441443589353==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/broonie/misc
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: a64f7c59a291929a6327617fb9b6df6b400904e6
-    new: 40c7a8b63e1234b6a0ab3ff51543d51a80b639cb
+  - ref: refs/heads/asoc-6.16
+    old: 7ce3bf76c3adfbfcfa712d5090428f67c97db201
+    new: fe6446215bfad11cf3b446f38b28dc7708973c25
     log: |
-         dd133162c9cff5951a692fab9811fadf46a46457 ACPI: platform_profile: Avoid initializing on non-ACPI platforms
-         8f5814a89492c59d2c9af8ffa40be4df5619b8b4 Merge branch 'acpi-platform-profile' into linux-next
-         94a370fc8def6038dbc02199db9584b0b3690f1a ACPI: bus: Bail out if acpi_kobj registration fails
-         b2f0d2ee3225e8b864118e64c765232f3fb6d76f Merge branch 'acpi-bus' into linux-next
-         18e899017500f1992d3816e326972c8954fbff2a thermal/drivers/airoha: Fix spelling mistake "calibrarion" -> "calibration"
-         01daf71a4f57062055f68f8163ed1ad88fb47990 thermal: qcom: ipq5018: make ops_ipq5018 struct static
-         6b8980b0bca3d308f0762b4e9749c8f88ad1c897 Merge branch 'thermal' into linux-next
-         40c7a8b63e1234b6a0ab3ff51543d51a80b639cb Merge branch 'pm-sleep-testing' into bleeding-edge
+         fe6446215bfad11cf3b446f38b28dc7708973c25 firmware: cs_dsp: Fix OOB memory read access in KUnit test
          
-  - ref: refs/heads/testing
-    old: 9ea94d5d04bef9d6198bc14ac59c4eb01bbc8480
-    new: 6b8980b0bca3d308f0762b4e9749c8f88ad1c897
-    log: |
-         dd133162c9cff5951a692fab9811fadf46a46457 ACPI: platform_profile: Avoid initializing on non-ACPI platforms
-         8f5814a89492c59d2c9af8ffa40be4df5619b8b4 Merge branch 'acpi-platform-profile' into linux-next
-         94a370fc8def6038dbc02199db9584b0b3690f1a ACPI: bus: Bail out if acpi_kobj registration fails
-         b2f0d2ee3225e8b864118e64c765232f3fb6d76f Merge branch 'acpi-bus' into linux-next
-         18e899017500f1992d3816e326972c8954fbff2a thermal/drivers/airoha: Fix spelling mistake "calibrarion" -> "calibration"
-         01daf71a4f57062055f68f8163ed1ad88fb47990 thermal: qcom: ipq5018: make ops_ipq5018 struct static
-         6b8980b0bca3d308f0762b4e9749c8f88ad1c897 Merge branch 'thermal' into linux-next
-         
+
+--===============6819730441443589353==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Mark Brown <broonie@kernel.org> 1748015346 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1748015312-10b20b3d745a71894401e6380003348477172fae
+
+7ce3bf76c3adfbfcfa712d5090428f67c97db201 fe6446215bfad11cf3b446f38b28dc7708973c25 refs/heads/asoc-6.16
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgwmPITHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0KU3B/0ZCWvYhptua6HxUB8FjLaR+VrSdt6h
+bfe4m9+rA6YyPCxfw4iPZZ+qTQrZyJDSrfVhimpv0l0efLefLoJ4uEGELW8mp85m
+v4miJb38sssgZu+M5ExAl5ZL8a2Idg18mXwGSrrxuVneiiF+y/iglpq+WxodZIYY
+4Zl7/DhNwwXLVECXocfrbAafQQJ7qf6ZMKvnkiH4QwmN2jHF2JA6KC10FAvPK857
+PuHwWECKZa6K45cXbZ85q3LLRQJGTQ8GYZyE1eP25GIaeYyRVERWsMhJbSC4cFhi
+ZDG4J/pQYuF5LAxLFtHoW+0esiyNWFUG5vNODleZ9sg7kgAE415Zg7nw
+=NY7A
+-----END PGP SIGNATURE-----
+
+--===============6819730441443589353==--
