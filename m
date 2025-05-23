@@ -1,25 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvms390/linux
-Date: Fri, 23 May 2025 14:57:04 -0000
-Message-Id: <174801222415.1429030.4718970897430632048@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sven/linux
+Date: Fri, 23 May 2025 15:02:04 -0000
+Message-Id: <174801252469.1433581.7250594884864967471@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvms390/linux
-user: imbrenda
+repo: pub/scm/linux/kernel/git/sven/linux
+user: sven
 changes:
-  - ref: refs/heads/next
-    old: 9eb0537685eeae4547687d644fdb15aa3a6e8be3
-    new: 7f6f80f4072bfa2e34cf01b95bc0fb9d6ee53312
+  - ref: refs/heads/b4/apple-nvmem
+    old: a3675171d6d6088b0c109aa686ab50371c50391a
+    new: c9aabc6b9225994700bdbd0bffedece99abe129a
     log: |
-         009a9e876946587fefbb1030e67c467b203b8d27 KVM: s390: Set KVM_MAX_VCPUS to 256
-         94d5fcafd4d1e083b988bf07b515d50f6e4f3de1 KVM: s390: Always allocate esca_block
-         110c7a9785ae267a1c35b39a1578c73531c8f714 KVM: s390: Specify kvm->arch.sca as esca_block
-         ace731717a08a4e76a0b147a65a849d2322bf7b6 s390: remove unneeded includes
-         e726bae67986ab1ef5b3abc22021d618245ea068 KVM: s390: remove unneeded srcu lock
-         f631f549d35babc8d6dced3686f4c5d5d1f8beb0 KVM: s390: refactor and split some gmap helpers
-         7f6f80f4072bfa2e34cf01b95bc0fb9d6ee53312 KVM: s390: simplify and move pv code
+         1cd5fb012a499961440cc02caff2e7e63509cac9 Support byte-sized fuses in apple-efuses and add DTS nodes
+         13b516b822884e2bca4fec22601ba29e9ceabbdf dt-bindings: nvmem: apple: Add T8112 compatible
+         f72caba0b9c9116b3c92689f94e495b28412cdb3 nvmem: apple-efuses: Support one byte word_size and stride
+         d0d2848f7314523598e6be5ae5dd813f20fe4f45 arm64: dts: apple: t8103: Add eFuses node
+         2c897f6d975706e44204fdb00a10ce420739a53f arm64: dts: apple: t600x: Add eFuses node
+         c9aabc6b9225994700bdbd0bffedece99abe129a arm64: dts: apple: t8112: Add eFuses node
          
