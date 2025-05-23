@@ -1,24 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sven/linux
-Date: Fri, 23 May 2025 15:02:04 -0000
-Message-Id: <174801252469.1433581.7250594884864967471@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Fri, 23 May 2025 15:09:40 -0000
+Message-Id: <174801298057.1439224.9690369353224910703@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sven/linux
-user: sven
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/b4/apple-nvmem
-    old: a3675171d6d6088b0c109aa686ab50371c50391a
-    new: c9aabc6b9225994700bdbd0bffedece99abe129a
+  - ref: refs/heads/master
+    old: 0402c06746449b44b67568df058f4d466b542653
+    new: 1fe5a858bd974684f4a9ff59f9e4669c67490fed
     log: |
-         1cd5fb012a499961440cc02caff2e7e63509cac9 Support byte-sized fuses in apple-efuses and add DTS nodes
-         13b516b822884e2bca4fec22601ba29e9ceabbdf dt-bindings: nvmem: apple: Add T8112 compatible
-         f72caba0b9c9116b3c92689f94e495b28412cdb3 nvmem: apple-efuses: Support one byte word_size and stride
-         d0d2848f7314523598e6be5ae5dd813f20fe4f45 arm64: dts: apple: t8103: Add eFuses node
-         2c897f6d975706e44204fdb00a10ce420739a53f arm64: dts: apple: t600x: Add eFuses node
-         c9aabc6b9225994700bdbd0bffedece99abe129a arm64: dts: apple: t8112: Add eFuses node
+         593f8b06fff2d5e0edf5243ca639f1109c3a4cf4 lib/mgmt: Add MGMT_DEV_DISCONN_AUTH_FAILURE define
+         8b08f903948c878a4327c15718d7b3d17e18d722 org.bluez.Device: Add Disconnected signal
+         53db78000e3e8d9a961363ee2a1aac65e16a7446 src/device: Add Disconnected signal to propagate disconnection reason
+         1fe5a858bd974684f4a9ff59f9e4669c67490fed client: Display disconnection reason
          
