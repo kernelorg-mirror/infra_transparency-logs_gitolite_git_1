@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============7734475384180543846=="
+Content-Type: multipart/mixed; boundary="===============0013339888866614253=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 23 May 2025 20:56:46 -0000
-Message-Id: <174803380638.1752769.526460690328260383@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 23 May 2025 20:56:57 -0000
+Message-Id: <174803381762.1753159.12230798651815519929@gitolite.kernel.org>
 
---===============7734475384180543846==
+--===============0013339888866614253==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.16
+  - ref: refs/heads/spi-6.16
     old: e7f3d11567c2c79c4342791ba91c500b434ce147
     new: b00d6864a4c948529dc6ddd2df76bf175bf27c63
     log: |
@@ -26,28 +26,28 @@ changes:
          b00d6864a4c948529dc6ddd2df76bf175bf27c63 spi: spi-qpic-snand: extend bitmasks usage
          
 
---===============7734475384180543846==
+--===============0013339888866614253==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Mark Brown <broonie@kernel.org> 1748033837 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1748033804-721b0a672c5862c2030e4c806173d45747c5c285
+pusher Mark Brown <broonie@kernel.org> 1748033848 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1748033815-1f26f3f923f61459aefd7d83a849ce411208d7af
 
-e7f3d11567c2c79c4342791ba91c500b434ce147 b00d6864a4c948529dc6ddd2df76bf175bf27c63 refs/heads/for-6.16
+e7f3d11567c2c79c4342791ba91c500b434ce147 b00d6864a4c948529dc6ddd2df76bf175bf27c63 refs/heads/spi-6.16
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgw4S0THGJyb29uaWVA
-a2VybmVsLm9yZwAKCRAk1otyXVSH0DaqB/9LLxNWlxESBeJoOOdPU/2wUZs0QYoZ
-l2K3zM4Wj4j1ESo9UzPRxJWNbw6P5OK10wMyMgNnjVsfTHekdiMU0SvnUDoGVhD7
-Yblncy1iQ/ZTTuyhPBwWp42SM0BolAN7c9avcQBN/Uz0fh3iCkMwugZ6lbWjfzKG
-dxytmI2IWXd0Yv+wnDqsKzzR1sGUvrxHOv23MLrhFbGwIsMv5iT6q5jEM+DYF/V6
-9UE/eFxPpEaoifKLQn5y/hhxozozl4UYOlQ9rUnx9Xz6CRBeBlbgefg25esjA81B
-TrigG6dB+sT3IjJB+vNGdR80AiCGcKszQ1IBdu8D66xsiIXyUw0FIvC8
-=7Kh4
+iQFHBAABCgAxFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmgw4TgTHGJyb29uaWVA
+a2VybmVsLm9yZwAKCRAk1otyXVSH0NzCB/47F+Pc9koDKOpdOYAJGPrzJfx6/D/2
+c8G2V+U9n29OQcceKWOlyonJlorTtUAMob28obSBs9MbEVqaZN+dr/d3Z/PRn1Am
+0mRYsk/nvN9FbFdWFDTblMvXySxpurqsFoWfhkzGPI0d07mUTVQKmjxOpqNyAbAc
+/F4a2mr6ivxN1mzO3gDFHmjhVCPRU62TzOXRI3BDZHxJz82buUAYm+OcUG0ApVsk
+z12aaU7hTUVL02kiROwf9O71ZLgoGTKBbvdMH66bjXD7oY6nVubBsXcBoyp0cGIB
+9xorNoHi9t4kDEsuAyO8Tvko1QgzDBJ+Mcv9l6N0367nqB7eJfUJ6nsX
+=4sKf
 -----END PGP SIGNATURE-----
 
---===============7734475384180543846==--
+--===============0013339888866614253==--
