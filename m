@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 23 May 2025 22:05:23 -0000
-Message-Id: <174803792349.1811372.525322045755151588@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/firmware
+Date: Fri, 23 May 2025 22:05:59 -0000
+Message-Id: <174803795996.1811887.1371343403776850243@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
+repo: pub/scm/linux/kernel/git/tnguy/firmware
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 6135793b9146639eee2b618ecfa1a21240645df5
-    new: aea84c85ba9cee09d7be08ee9f550e39d4fdd1da
+  - ref: refs/heads/main
+    old: 341b9e805613d1b4137032b488eec4a941d181f6
+    new: f4e75db20a11ed07b86017f76c7b428e1fa3f40d
     log: |
-         5aa200cbb7ed67973fe246bc38d4314193cb623a i40e: return false from i40e_reset_vf if reset is in progress
-         26121bc556c699087ed8076a0ed19e787d3e038e i40e: retry VFLR handling if there is ongoing VF reset
-         9067091dc5a7286049504bbe27618b56c0cf70ff ice/ptp: fix crosstimestamp reporting
-         aea84c85ba9cee09d7be08ee9f550e39d4fdd1da net: ice: Perform accurate aRFS flow match
+         7966e448ac3b3fabeb9d3a2556a1544e312189d5 cirrus: cs35l41: Fix firmware links for several ASUS laptops
+         3fbaee2775a4a6d44021aa035823a7388b0874fa Merge branch 'robot/pr-0-1747839277' into 'main'
+         2e91d8c3c4bd34a27177180a38f62d3ba3c96031 ath12k: WCN7850 hw2.0: update to WLAN.HMT.1.1.c5-00284.1-QCAHMTSWPL_V1.0_V2.0_SILICONZ-3
+         f4e75db20a11ed07b86017f76c7b428e1fa3f40d Merge branch 'robot/pr-0-1748020187' into 'main'
          
