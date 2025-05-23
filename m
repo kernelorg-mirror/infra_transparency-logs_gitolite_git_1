@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 23 May 2025 13:58:36 -0000
-Message-Id: <174800871615.1376139.1373978352654545887@gitolite.kernel.org>
+Date: Fri, 23 May 2025 13:58:46 -0000
+Message-Id: <174800872639.1376439.15437911727076835942@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/regulator-6.16
-    old: dcd711021389c4d19b3310cc37f09813659dfee2
-    new: 5f52cefd9c86cc5d340fd5b7450205034edfb1db
+  - ref: refs/heads/spi-6.16
+    old: e7f3d11567c2c79c4342791ba91c500b434ce147
+    new: 081190db2042834efe534716cba204140ea6e2d7
     log: |
-         c74ae4e5e4d0a4bf2e2da6a0c7d860e342bbe291 regulator: dt-bindings: add pca9450: Add regulator-allowed-modes
-         e4696809c0f5cf373be9062c847bcbdf0f978600 regulator: dt-bindings: add bindings for NXP PCA9450 PMIC
-         5f52cefd9c86cc5d340fd5b7450205034edfb1db regulator: pca9450: Add support for mode operations
+         2abf107dcd797c60c86e9f17319cd1658862f6b2 spi: spi-qpic-snand: use CW_PER_PAGE_MASK bitmask
+         76ebfa371f0ff8ff8a42a9415f61432d6c48fa55 spi: spi-qpic-snand: extend FIELD_PREP() macro usage
+         6a003d33047a81e9944835ebd657d7f808823180 spi: spi-qpic-snand: return early on error from qcom_spi_io_op()
+         081190db2042834efe534716cba204140ea6e2d7 spi: spi-qpic-snand: extend bitmasks usage
          
