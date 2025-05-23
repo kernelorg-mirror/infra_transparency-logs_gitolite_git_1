@@ -1,43 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8680517255868625210=="
+Content-Type: multipart/mixed; boundary="===============2628749622280979628=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Fri, 23 May 2025 04:49:19 -0000
-Message-Id: <174797575966.914332.5259219793542411363@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 23 May 2025 04:52:30 -0000
+Message-Id: <174797595015.918182.8003208542104022943@gitolite.kernel.org>
 
---===============8680517255868625210==
+--===============2628749622280979628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/nova/sequencer
-    old: adaee2093e32d87d477de106a95940034c50c752
-    new: b5082ae67f17fa9194b2d8c789b8f7bc819ccd82
-    log: revlist-adaee2093e32-b5082ae67f17.txt
+  - ref: refs/heads/master
+    old: 3947c570c9aca919552cfd3a53699ece67eb0c8a
+    new: 70de8b6b22d542e46b3eb0ae518b9afef24fc818
+    log: |
+         70de8b6b22d542e46b3eb0ae518b9afef24fc818 drop btrfs patch from 6.14
+         
 
---===============8680517255868625210==
+--===============2628749622280979628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-adaee2093e32-b5082ae67f17.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-7bb26dc82531eddbbf39641a502fe4ee5d99986c nova-core: gsp: Add support for checking if GSP reloaded
-cd5d370c63b4f3fc6a94ece291658ebf77991135 rust: add delay abstraction
-6077c8b2a14d4480fb144101074f6f5a854b8471 nova-core: firmware: Get RiscvUcode descriptor from GSP-RM image
-4964377758d174b282fda22ea964134309e0ee65 nova-core: firmware: Provide accessor for app_version
-7320dce83b2192e41bcf791e8e84c5ad1d4931e0 nova-core: falcon: Add support to write firmware version
-d7b852c27da67dec0bd3f87cc7dcbb23f7b11eb9 nova-core: falcon: Add support to check if RISC-V is active
-6c3ac15c0ba7e98ae988ca61c34e824819b015c4 JOEL: config: Enable Nouveau=m and VFIO_PCI=m in config and make a VNG-specific config
-b681acfc4f4d59b22e7a16fd1fef6254d8a5c5a7 JOEL: Add LSM metadata
-1c839cacf77bd1679c49627030d067a935d6585c JOEL: Nouveau: Sequencer and byte dump to dmesg
-62888033bbf160eeff90b7bda380b1d35943f82a JOEL: Add generated bindings as an example
-bbf47bf956f3de9f103f069dc723fb21289390e9 JOEL: Disable print_hex_dump to prevent log flood
-8bffafc37c335a94feb293fc19f6bd5a70f2e149 WIP: nova-core: Implement the GSP sequeuncer
-b5082ae67f17fa9194b2d8c789b8f7bc819ccd82 JOEL: nova: Add another dmesg and byte dumps of the sequencer
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1747975970 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1747975936-f55b09d9f1a4411961f5665a6acb69f6736df1d3
 
---===============8680517255868625210==--
+3947c570c9aca919552cfd3a53699ece67eb0c8a 70de8b6b22d542e46b3eb0ae518b9afef24fc818 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmgv/yIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+h5gQAK8nWyFFN0ftVxDIkQN9
+xP3xV0xbXu/KiBpoitjS11gF/mfnxAXIktc1h6700xnGi8Z9lhbmhFt+05g29VuG
+vvauRnDHvRBAZsE2XvzeX/+RkAQdMjImCF4nHdWkTHL1hMY9bfpm4Ohf9BgY657B
+X/T9goRDzLNTbDxHkEsclHFVWkWKZMsWyAn51qL92Q53syBW4xUF1vzID+mD2LhX
+WP47deei9iX+q5pOGYYAD7Sn425wHMPL/1Tfuxp1TwWflgpG0JeTCUUT0v9pq+vU
+NFrismP/COE3H3tviv2Jl+f1KEoJuCMivywTubT6dzDxQxL5/ypVfEaL/AZBE647
+tZwQQuLiIv9aS/hIeuUvZX3h5uHwdPj+ZBaSaWGAcSh7SpIOSTpFiqZorWXEVnry
+hXohEKFjBn2OzEb/Ig9OGNL4G2AFmuly1TVJH62bqPqM6cDjXT3b3woeNfnibQcL
+aMJK36OC0JvK32V4LlMCtjGnQIgusLD0ARrmz08rYnywPG+rIsLWAZGLk++v0DoG
+urF7bqrUiF3ArzdmZGh/2bAgD7gGCnpo4yU5fIMPEoHEmKdjljo7/rh3ub9GCswO
+gJCSmRlHiHiKefEUJxefXfq6vvwAQXR6jfqXTLgVbs7NoPHRBRqn1Gjf6EAIOSGC
+wHIwiCZNUzivkH8P5+2bMOOI
+=trca
+-----END PGP SIGNATURE-----
+
+--===============2628749622280979628==--
