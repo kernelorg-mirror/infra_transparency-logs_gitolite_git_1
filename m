@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8379247031349245971=="
+Content-Type: multipart/mixed; boundary="===============0749515281366832138=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 23 May 2025 02:02:46 -0000
-Message-Id: <174796576629.777091.8011973912023792371@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Fri, 23 May 2025 02:02:51 -0000
+Message-Id: <174796577191.777379.7369039977419714770@gitolite.kernel.org>
 
---===============8379247031349245971==
+--===============0749515281366832138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 9e893dab828577adb166cc2badfb4711f1cd6e4c
     log: revlist-8cdf00b843ea-9e893dab8285.txt
 
---===============8379247031349245971==
+--===============0749515281366832138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -713,4 +713,4 @@ aa6848374023ea14664e6812e0f64e1a28044936 perf python: Add evlist close support
 dd8633bd09bcd346fc3c38ce516e73083eb841a6 perf test: Add cgroup summary test case for 'perf trace'
 9e893dab828577adb166cc2badfb4711f1cd6e4c perf tests trace_summary.sh: Run in exclusive mode
 
---===============8379247031349245971==--
+--===============0749515281366832138==--
