@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4867889956984871844=="
+Content-Type: multipart/mixed; boundary="===============0115733449965881556=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 23 May 2025 10:44:09 -0000
-Message-Id: <174799704923.1210362.4546183973074062448@gitolite.kernel.org>
+Date: Fri, 23 May 2025 10:44:52 -0000
+Message-Id: <174799709254.1211790.11525183454655836866@gitolite.kernel.org>
 
---===============4867889956984871844==
+--===============0115733449965881556==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,49 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: fa95dea97bd11cee72cfd6d61848022c96ca1e77
-    new: 4325a3328261b5c775d779e49eba5e626ef6f6c5
-    log: revlist-fa95dea97bd1-4325a3328261.txt
+    old: 4325a3328261b5c775d779e49eba5e626ef6f6c5
+    new: 63b7d1cee0f76352ef90a2745e52aa07a4ebd564
+    log: revlist-4325a3328261-63b7d1cee0f7.txt
+  - ref: refs/heads/tip/urgent
+    old: d608703fcdd9e9538f6c7a0fcf98bf79b1375b60
+    new: 94305e83eccb3120c921cd3a015cd74731140bac
+    log: revlist-d608703fcdd9-94305e83eccb.txt
 
---===============4867889956984871844==
+--===============0115733449965881556==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fa95dea97bd1-4325a3328261.txt
+Content-Disposition: attachment; filename=revlist-4325a3328261-63b7d1cee0f7.txt
+
+b9687c451a7bd9fcb25b4430b91cddd1ca29ff16 Merge branch into tip/master: 'x86/merge'
+4b50f8672baac12720b042ba7f6d0c1f9509bd86 Merge branch into tip/master: 'perf/merge'
+02d7bb9d4f724bc8e449434e4d5d1c15ca7720f9 Merge branch into tip/master: 'core/entry'
+a07166465f3d896564c0534355f04c6901c83630 Merge branch into tip/master: 'irq/cleanups'
+89f5065f7f336b464d57bdac8571f73cd405a3c4 Merge branch into tip/master: 'irq/core'
+0fcdfa8dded6f35e8e2e27357f4bfd643846b7fc Merge branch into tip/master: 'irq/drivers'
+02a1ca1f6f1307d7621fe37b0af472be8312f254 Merge branch into tip/master: 'irq/msi'
+6333a9f72b792d9be8e1da5f720c8bbeb99326c0 Merge branch into tip/master: 'locking/core'
+5fd21ef576efc633e2bb21511d720704f76f63fa Merge branch into tip/master: 'locking/futex'
+9d4d2a119fc97509a716eae10667ecbbbe1a8638 Merge branch into tip/master: 'objtool/core'
+1ef4d40458fb4d0d6102df56300d66b5faa8e0d7 Merge branch into tip/master: 'perf/core'
+3139f0ace83722a08e86d56471dd81daae249bdd Merge branch into tip/master: 'sched/core'
+38cb9366d3f4be681cc38e05795af020dea70d54 Merge branch into tip/master: 'timers/cleanups'
+af9cd86fea18dc6a62ce4ef5796892e1de01ac6e Merge branch into tip/master: 'timers/clocksource'
+78c66116d3e69b316fd476002031d3c8eaf28bb8 Merge branch into tip/master: 'timers/core'
+7a962be71a2ab26e8a48af365f9a0d88472b1f83 Merge branch into tip/master: 'x86/cleanups'
+45a1ce7194c394ee4b0d4fee52fa276f2bb4fc07 Merge branch into tip/master: 'x86/core'
+59dd4193ca07dfa8dcab12b69354ad98e20402a3 Merge branch into tip/master: 'x86/debug'
+9d43c5b54ff434572a0c7a332faa9b64169a22d2 Merge branch into tip/master: 'x86/entry'
+8868784f91cf2570e47e26032954b4cf78ee3adb Merge branch into tip/master: 'x86/kconfig'
+4f3bbecb106f25c2ea41c002cc44a03ed248d9c5 Merge branch into tip/master: 'x86/mtrr'
+f5f4821ec28bbabb5460cc1805e840aab6b7f4bc Merge branch into tip/master: 'x86/sev'
+63b7d1cee0f76352ef90a2745e52aa07a4ebd564 Merge branch into tip/master: 'x86/sgx'
+
+--===============0115733449965881556==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d608703fcdd9-94305e83eccb.txt
 
 63c1f19a3be3169e51a5812d22a6d0c879414076 espintcp: fix skb leaks
 028363685bd0b7a19b4a820f82dd905b1dc83999 espintcp: remove encap socket caching to avoid reference leak
@@ -111,6 +145,5 @@ ab719cc7f53b2b84bea96640aec1c3092870766c Merge tag 'io_uring-6.15-20250522' of g
 a11a72229881d8ac1d52ea727101bc9c744189c1 Merge tag 'block-6.15-20250522' of git://git.kernel.dk/linux
 a5b2c67af75bc53008b17525b044affde136ae49 Merge tag 'mmc-v6.15-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
 94305e83eccb3120c921cd3a015cd74731140bac Merge tag 'pmdomain-v6.15-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm
-4325a3328261b5c775d779e49eba5e626ef6f6c5 Merge branch 'linus'
 
---===============4867889956984871844==--
+--===============0115733449965881556==--
