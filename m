@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Sat, 24 May 2025 17:56:41 -0000
-Message-Id: <174810940164.2846062.14884061947667885206@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Sat, 24 May 2025 18:24:02 -0000
+Message-Id: <174811104225.2867288.636054091543386893@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: 9e893dab828577adb166cc2badfb4711f1cd6e4c
-    new: 628e124404b3db5e10e17228e680a2999018ab33
+  - ref: refs/heads/propagate_umount
+    old: 6fd1f946c9c60a9d4020222e38a7b0ee8309e58a
+    new: cbc6bba755a0925f541f57a4611444a9b48f8ead
     log: |
-         0ffca606e902151fbe09d4356c493fe79ca93956 perf pmu intel: Adjust cpumaks for sub-NUMA clusters on graniterapids
-         628e124404b3db5e10e17228e680a2999018ab33 perf tests switch-tracking: Fix timestamp comparison
+         63e90fcc18072638a62196caae93de66fc6cbc37 Don't propagate mounts into detached trees
+         cbc6bba755a0925f541f57a4611444a9b48f8ead Rewrite of propagate_umount()
          
