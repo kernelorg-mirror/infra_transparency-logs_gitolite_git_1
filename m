@@ -1,57 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============8058265823901514451=="
+Content-Type: multipart/mixed; boundary="===============0378919335381305343=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
-Date: Sat, 24 May 2025 19:58:31 -0000
-Message-Id: <174811671162.2943668.2832711580717233742@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Sat, 24 May 2025 20:11:38 -0000
+Message-Id: <174811749821.2955344.13836389492460237054@gitolite.kernel.org>
 
---===============8058265823901514451==
+--===============0378919335381305343==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/hkml
-user: sj
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/master
-    old: a21a1871c6a0bc8b6e42428d92a58540fa5f56c4
-    new: ca401ae703b1b675a7b503fb02c9e1f60fb3adee
-    log: revlist-a21a1871c6a0-ca401ae703b1.txt
+  - ref: refs/heads/work.mount
+    old: 7b8fbaece84a97a71be2ccc60792f9be958d8e4a
+    new: 504848050a3471e2b363c0f46b51bc0e406ec207
+    log: revlist-7b8fbaece84a-504848050a34.txt
 
---===============8058265823901514451==
+--===============0378919335381305343==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a21a1871c6a0-ca401ae703b1.txt
+Content-Disposition: attachment; filename=revlist-7b8fbaece84a-504848050a34.txt
 
-578cb537f788f1ab375ef2d03e01fefa752cb5c5 hkml_init: fix typo: s/.hkml/.hkm
-c54027a4e7e3a8c6e01c0ad6c1c69b0baed3af32 hkml_init: make lore manifest failure message clearer
-39d6b71a476df3864207b96b0b0dfb340bf36070 TODO: remove init failure handling improvement item
-44b83d2718c609968789de9c7335083f9a049957 hkml_view_mails: fix undefined selections access in MailDisplayEffect.__init__()
-46d68b1486d90d32c01e2fbd43b1ba5d13ff61b7 TODO: remove completed mails display effect crash TODO item
-e80e0cacf8dfb2f72bc51a76175df910cf0cb898 TODO: add an item for advanced filtering
-f9925124efaa766794e6d190046de795f8b8a9a4 hkml_view_mails: remove unnecessary shell mode exit/enter() for mails exporting
-8b29d4494de2832bbd93d2e6815f59795af3cee4 TODO: remove fixed problem
-93413d2bc565cd44b2e064ec0aa40043bde57309 hkml_list: remove unused function, should_filter_out()
-b6eef18a34f15a87b4f330fb02cb1d80057ccb64 hkml_list: split out keywords based filtering logic
-5fa9043272af65678ae4d0ed722421809f1d894b hkml_list: add --keywords_for to apply keywords for root only
-1d189f24d798298edffddec67f2c657345e99e6c TODO: remove an item that completed by '--keywords_for root'
-5da2e7c861bf4b296a1747b797eae014d1159134 hkml_monitor: return exit code from start_monitoring()
-4e2c8e14d84d5a8d6f146817b9f7bdddb079bf72 hkml_monitor: return error for <60 seconds monitoring interval
-df348f26e4779a44fbfc12eb67b78bbc68ab0aaf TODO: add an item for CLI-support of search for maintainers/reviewers
-e9e808c58797582f6fcfb68cdd9654904b72b02c hkml_list: put less frequently used options at the end of help message
-585c3fb0ffb0461f929cb999af8d44205f758a4b hkml_list: support advanced arguments from --options_for
-128a21c683d7ae5ec49ad4aabe3cc0d5d68e3540 hkml_list: cleanup indentation of add_advanced_arguments()
-a0a4e6b58d124a3c9d92d1678acc46d393cc4744 hkml_list: hide advanced options by default
-5c35430243e35eb6d2019554ab252728e288d879 hkml_list: cleanup indentation for add_decoration_arguments()
-3546269bd7b06a18b3230358cc4c92c0b7c9b444 hkml_list: hide decoration options from help message
-843a713f97fa33cecba044f74a41530965dc8def hkml_list: implement --patches_for option to patches filtering
-deb5c32b05f80b0ec30c2866d894d6ea097ef70d hkml_list: implement '--patches_for reviewer'
-3e4b23f4fd08b83793835078bc0aa5f4d21c08aa USAGE: document patches filtering feature
-3f609a5b3d80856e058f4118659ffce157728ea1 hkml_list: add --keywords option
-83280947248291398d33d06d161e5749bd429bb0 hkml_list: hide *_keywords options from help message
-ca401ae703b1b675a7b503fb02c9e1f60fb3adee release_note: update for next release
+63e90fcc18072638a62196caae93de66fc6cbc37 Don't propagate mounts into detached trees
+1cbf148e541a77ea1ac669b028001bc0834554e6 finish_automount(): don't leak MNT_LOCKED from parent to child
+f4c2c76aee0d4c9a8f659f9979cc4baf9bbc59b9 don't set MNT_LOCKED on parentless mounts
+8879643c0680dfef11ace453836d152f40134b69 clone_mnt(): simplify the propagation-related logics
+da9de8f5450c945f5f1aeaea78c76fb594b3ca18 ->mnt_devname is never NULL
+81a5bc1f21a8bc32e62f0e0ee9a00c20c92a9320 constify mnt_has_parent()
+5142c334742c230a994c5485ee26ab8809d06d41 do_umount(): simplify the "is it still mounted" checks
+c9b83b04070b88ac5dbd0feb85305989bedc1de0 attach_mnt(): expand in attach_recursive_mnt(), then lose the flag argument
+750894bedab528bbd0a7214cf87ddfa5b585eef5 do_move_mount(): take dropping the old mountpoint into attach_recursive_mnt()
+9c49c06c6ab878b064df4c23cb64a063c64b04e4 get rid of mnt_set_mountpoint_beneath()
+15e069f180dd67499352dfba8d2ed4a7a2379ab1 make commit_tree() usable in same-namespace move case
+9cde03c1c3527d2669c364e2b8e59fea692e69e9 attach_recursive_mnt(): unify the mnt_change_mountpoint() logics
+bd9f2b6ee2308dbdbed0fcd76eeb6ef45cf80d73 attach_recursive_mnt(): pass destination mount in all cases
+8231aaa864329e0b12c8e648e3a30a7ad0c42696 attach_recursive_mnt(): get rid of flags entirely
+da894b981c8b7c2a47f16b81ccf693b90a443d49 attach_recursive_mnt(): remove from expiry list on move
+b9c6aab60d6b9448709f96597e4a39613765c4be take ->mnt_expire handling under mount_lock [read_seqlock_excl]
+3d0d8d345e1a3a3ddbf070cd2b025328bd198869 pivot_root(): reorder tree surgeries, collapse unhash_mnt() and put_mountpoint()
+5a1aae42c35536aa64f600159aff74d968ccfacd combine __put_mountpoint() with unhash_mnt()
+ceda04dad36b988e6553313131d39d630bae4fd0 get rid of mountpoint->m_count
+dfae9ba8d9ab27e17803cd71f00855ad49b16d68 don't have mounts pin their parents
+750ccc7186806fdddd73a60dcd9488a5bc3481b3 sanitize handling of long-term internal mounts
+dfae0d2877fbe90e822cd9ea1a0428a0e47de723 btrfs_get_tree_subvol(): switch from fc_mount() to vfs_create_mount()
+504848050a3471e2b363c0f46b51bc0e406ec207 do_move_mount(): simplify error checking
 
---===============8058265823901514451==--
+--===============0378919335381305343==--
