@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2224596512970168341=="
+Content-Type: multipart/mixed; boundary="===============6062993985519174384=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 24 May 2025 10:19:33 -0000
-Message-Id: <174808197372.2408289.9992091071665713650@gitolite.kernel.org>
+Date: Sat, 24 May 2025 10:19:52 -0000
+Message-Id: <174808199297.2408942.15909213195552429914@gitolite.kernel.org>
 
---===============2224596512970168341==
+--===============6062993985519174384==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,61 +16,38 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 63b7d1cee0f76352ef90a2745e52aa07a4ebd564
-    new: b3141f8f936edab03b4d5da788d03c1b62a14f52
-    log: revlist-63b7d1cee0f7-b3141f8f936e.txt
+    old: b3141f8f936edab03b4d5da788d03c1b62a14f52
+    new: 4df0681d0b0244368a8a0982b24ceb536c3b5165
+    log: revlist-b3141f8f936e-4df0681d0b02.txt
 
---===============2224596512970168341==
+--===============6062993985519174384==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-63b7d1cee0f7-b3141f8f936e.txt
+Content-Disposition: attachment; filename=revlist-b3141f8f936e-4df0681d0b02.txt
 
-2908ffa53f8ed487ab4285635c79d4911cced93c firmware: exynos-acpm: check saved RX before bailing out on empty RX queue
-dd303e021996a0e43963d852af8a3277e6f5ed88 soc: samsung: usi: prevent wrong bits inversion during unconfiguring
-573f99c7585f597630f14596550c79e73ffaeef4 Revert "arm64: dts: allwinner: h6: Use RSB for AXP805 PMIC connection"
-b04f0d89e880bc2cca6a5c73cf287082c91878da arm64: dts: marvell: uDPU: define pinctrl state for alarm LEDs
-a7e255ff9fe4d9b8b902023aaf5b7a673786bb50 platform/x86: fujitsu-laptop: Support Lifebook S2110 hotkeys
-4e89a4077490f52cde652d17e32519b666abf3a6 platform/x86: dell-wmi-sysman: Avoid buffer overflow in current_password_store()
-49771a7578cdfb73ca957dc1ca9516872c8b406b bcachefs: Fix bch2_btree_path_traverse_cached() when paths realloced
-494d458cfa70d8c107de5a6b6fc941f31c886b12 bcachefs: fix extent_has_stripe_ptr()
-6692dbc15e5ed40a3aa037aced65d7b8826c58cd drm/edid: fixed the bug that hdr metadata was not reset
-cbed8287e5789558cf947a7b4d47fdf3e25c29bf bcachefs: mkwrite() now only dirties one page
-cf948c8e274e8b406e846cdf6cc48fe47f98cf57 thermal: intel: x86_pkg_temp_thermal: Fix bogus trip temperature
-1f4bbedd4e5a69b01cde2cc21d01151ab2d0884f ksmbd: fix stream write failure
-29e4e6b4235fefa5930affb531fe449cac330a72 platform/x86: thinkpad_acpi: Ignore battery threshold change event notification
-8508427a6e21c1ef01ae4c9f4e2675fc99deb949 platform/x86: think-lmi: Fix attribute name usage for non-compliant items
-fb27226c389f499d04913023fbcfb7920fb0e475 fs/buffer: use sleeping lookup in __getblk_slowpath()
-98a6ca16333e10ce450b0ab516f4c3e5fe52ef31 fs/buffer: avoid redundant lookup in getblk slowpath
-d11a24999605a054bef5e2ade7fedfaefce52388 fs/buffer: remove superfluous statements
-8e184bf1cd7495c63242651de6190bb1678730b0 fs/buffer: optimize discard_buffer()
-7e69dd62bcda256709895e82e1bb77511e2f844b Merge patch series "fs/buffer: misc optimizations"
-7c1bda0993941de2c85c84d53e30e760eda2ff16 Merge tag 'samsung-fixes-6.15' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into arm/fixes
-6c9ab811871bc9a08e9cd4b96371a60667fa9ec8 arm64: defconfig: Ensure CRYPTO_CHACHA20_NEON is selected
-4e3d2c4b7fb8d66e607ebd9ee8eb3422ab510599 Merge tag 'sunxi-fixes-for-6.15' of https://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into arm/fixes
-070d04f002ddc308b053df4723e83cf43719fda0 Merge tag 'mvebu-fixes-6.15-1' of https://git.kernel.org/pub/scm/linux/kernel/git/gclement/mvebu into arm/fixes
-8d5ac187da10a8a5599b481588951470a2fb792b bcachefs: Fix casefold opt via xattr interface
-ecd76c5f108eec3eea0a5b32007cda0dca6c92ac bcachefs: Fix bch2_dirent_create_snapshot() for casefolding
-010c89468134d1991b87122379f86feae23d512f bcachefs: Check for casefolded dirents in non casefolded dirs
-68477b5dc57108d4306c56b3842d6f80a8161f30 ksmbd: fix rename failure
-10379171f346e6f61d30d9949500a8de4336444a ksmbd: use list_first_entry_or_null for opinfo_get_list()
-7e7cb7a13c81073d38a10fa7b450d23712281ec4 Revert "drm/amd: Keep display off while going into S4"
-040c0f6a187162f082578b431b5919856c3df820 Merge tag 'bcachefs-2025-05-22' of git://evilpiepirate.org/bcachefs
-57b34cba8ec01e22d2f3628ffa979e0cb9169238 drm/xe/mocs: Check if all domains awake
-84b6f8503b29a6cc5a82848253a97c09a95fdf49 drm/xe: Use xe_mmio_read32() to read mtcfg register
-027a362fb36b479030beecbaaec30711ddabf8fa drm/xe/ptl: Update the PTL pci id table
-f2eae58c4428bd792c8e91e3666ab0718d87b44a platform/x86/intel/pmc: Fix Arrow Lake U/H NPU PCI ID
-eccf6f2f6ab9688b0fc113aeb8391998c11b5d49 Merge tag 'vfs-6.15-rc8.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-79cd89207c028de7a57f00537d0584b9c9e5322b Merge tag 'platform-drivers-x86-v6.15-6' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-3d0ebc36b0b3e8486ceb6e08e8ae173aaa6d1221 Merge tag 'soc-fixes-6.15-3' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-e0f8e1a7c18bfbb203122e98dbd08e0e68dcbd76 Merge tag 'v6.15-rc8-ksmbd-server-fixes' of git://git.samba.org/ksmbd
-7586ac7c340c3672f116052c1d150f134810965b Merge tag 'thermal-6.15-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-79061ca8bfcf59504971c9cf77e3bcd875d82e99 Merge tag 'drm-misc-fixes-2025-05-22' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
-4731d5e835da31eebd11e1dc2e3860afc1af5c48 Merge tag 'amd-drm-fixes-6.15-2025-05-22' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
-fe1e5a1f2d1c2d4385a414dacca0e5275c0af281 Merge tag 'drm-xe-fixes-2025-05-23' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
-4856ebd997159f198e3177e515bda01143727463 Merge tag 'drm-fixes-2025-05-24' of https://gitlab.freedesktop.org/drm/kernel
-a7872f778554c4849d59def8dfe0d295328e5e10 perf/headers: Clean up <linux/perf_event.h> a bit
-7eac39bc8325c5108b4fed7144d91dc5e032e042 Merge branch 'linus'
-b3141f8f936edab03b4d5da788d03c1b62a14f52 Merge branch into tip/master: 'perf/core'
+24bb388e7fea81e4a562927defcfc449cce4a4b4 Merge branch into tip/master: 'x86/merge'
+21de0d280b7bb82b3fffc8942624715572c58ade Merge branch into tip/master: 'perf/merge'
+9cbf59ee80974aacb40466050bb3fa413a5bba04 Merge branch into tip/master: 'core/entry'
+830f28993739fba1a0a32633dce9bad8af811a05 Merge branch into tip/master: 'irq/cleanups'
+4aa13ee4c5f208760cafd2d0e656065529565f52 Merge branch into tip/master: 'irq/core'
+ae085777ce51aae2b43b2efd12521bba6d74b0b8 Merge branch into tip/master: 'irq/drivers'
+f1b393090287e5a24fc07ebde8d9ce9cb5043835 Merge branch into tip/master: 'irq/msi'
+23f85979d5e929dec0d4670332480024f9df3d7c Merge branch into tip/master: 'locking/core'
+1ef60449396d5cff3c4e84c7140142ed62d776ee Merge branch into tip/master: 'locking/futex'
+f423d0325a06849c8c7859b58f054926f00b0e2b Merge branch into tip/master: 'objtool/core'
+302d470d5e0be8ae796dad53cc68a1a2216d0f64 Merge branch into tip/master: 'perf/core'
+bc851e859c5af2913f3bb3f9d80c64c8a0ef6b71 Merge branch into tip/master: 'sched/core'
+deaa85bf322a2b79966b4c72e5647fea7711aaac Merge branch into tip/master: 'timers/cleanups'
+f109cd64908180d1e37935d55443438b3476ea92 Merge branch into tip/master: 'timers/clocksource'
+25285a7f0475f24b8e830dd451cc30bb4067bc68 Merge branch into tip/master: 'timers/core'
+4dadc801e543b9b295cbcc5224d83648a8423faa Merge branch into tip/master: 'x86/cleanups'
+33ffca9722a210482a2c41d44a510ccf200d0829 Merge branch into tip/master: 'x86/core'
+7e9ee77bb29741b5a0ea797646ac74be280716ae Merge branch into tip/master: 'x86/debug'
+f64b91179a3114ff86f9bbcd22aa1423da764195 Merge branch into tip/master: 'x86/entry'
+aa8e1fe342c0c6e83b6f733cf0cbbf5b1c82db03 Merge branch into tip/master: 'x86/kconfig'
+2cfe9482b53a288b9edf45a7455145b4c93c25d2 Merge branch into tip/master: 'x86/mtrr'
+6ce87ce90d4ff1d7e05d67352b5ff9e0621a8532 Merge branch into tip/master: 'x86/sev'
+4df0681d0b0244368a8a0982b24ceb536c3b5165 Merge branch into tip/master: 'x86/sgx'
 
---===============2224596512970168341==--
+--===============6062993985519174384==--
