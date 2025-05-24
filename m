@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sven/linux
-Date: Sat, 24 May 2025 11:05:49 -0000
-Message-Id: <174808474984.2448743.17527311807805864496@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Sat, 24 May 2025 11:36:22 -0000
+Message-Id: <174808658291.2473190.8794158453082970195@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sven/linux
-user: sven
+repo: pub/scm/linux/security/vulns
+user: sashal
 changes:
-  - ref: refs/heads/wip/smc-hid
-    old: 0000000000000000000000000000000000000000
-    new: 85195bb074dd61b098eb62a878369dd5c4815832
+  - ref: refs/heads/master
+    old: 3178932130023e22d60a9cfb0d8e622f0611dc61
+    new: fa59c6a4b197d95ab06adddd057294d7f950c0e6
+    log: |
+         fa59c6a4b197d95ab06adddd057294d7f950c0e6 sasha: review v6.14.8
+         
