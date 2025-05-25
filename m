@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0076570731017224529=="
+Content-Type: multipart/mixed; boundary="===============1854009475532691309=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Sun, 25 May 2025 20:57:27 -0000
-Message-Id: <174820664728.34251.8756573876895570509@gitolite.kernel.org>
+Date: Sun, 25 May 2025 21:20:17 -0000
+Message-Id: <174820801742.54177.3511198268180677989@gitolite.kernel.org>
 
---===============0076570731017224529==
+--===============1854009475532691309==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,49 +16,37 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: ij
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next
-    old: 9f080c9f2099b5a81c85b3b7f95fd11fad428cc8
-    new: 69157b00b526c31522a00b9908bfd53fa21b47f2
-    log: revlist-9f080c9f2099-69157b00b526.txt
+  - ref: refs/heads/review-ilpo-next
+    old: 69157b00b526c31522a00b9908bfd53fa21b47f2
+    new: f38af24df7426c088a5b09c9228ed2646a79edc4
+    log: |
+         d00e387f26ef0975438a85664d93dccbf3e9814a platform/x86: Add lenovo-wmi-* driver Documentation
+         e14a388453239bdc7f41b40e0605785015c82821 platform/x86: Add lenovo-wmi-helpers
+         b6d774f26f04c5a14eee36402ab98202f40d1631 platform/x86: Add Lenovo WMI Events Driver
+         6aeda0980462b27521d2c07b9c858c6ffcacf1cb platform/x86: Add Lenovo Capability Data 01 WMI Driver
+         a01bf1a167cf886ed3de906bef9008c4874587cc platform/x86: Add Lenovo Gamezone WMI Driver
+         63a7242cdcb6f86a7851751a1aadce14ec046d29 platform/x86: Add Lenovo Other Mode WMI Driver
+         f38af24df7426c088a5b09c9228ed2646a79edc4 thermal/drivers/acerhdf: Constify struct thermal_zone_device_ops
+         
 
---===============0076570731017224529==
+--===============1854009475532691309==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1748206678 +0300
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1748208047 +0300
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1748206644-eba0811a7620a8dbcd37ba7351f72b4e4d9acc01
+nonce 1748208013-640d83c158f52eb2be5cbc2c14ae97fb5e9332c2
 
-9f080c9f2099b5a81c85b3b7f95fd11fad428cc8 69157b00b526c31522a00b9908bfd53fa21b47f2 refs/heads/for-next
+69157b00b526c31522a00b9908bfd53fa21b47f2 f38af24df7426c088a5b09c9228ed2646a79edc4 refs/heads/review-ilpo-next
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaDOEWwAKCRBZrE9hU+XO
-MYsQAP43vwE1+zYI0nXBkRs+aXaSZLR4fkQOTySRrC/ZUNYNQAEAzGKvfLQtYxyv
-ZmbIuHtxQ5pYEt0t8E92YOqDjqpp8wo=
-=Io0R
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaDOJtAAKCRBZrE9hU+XO
+Md9rAP9ETcO6Xyr7nuqIcjFdLoXxYZt+G+hvuB3azpvUr5DmPgD+MEPXExeq5vCZ
+Ood/9jDRiI7X6Ennf86QAT4EtjAgdQM=
+=bPXH
 -----END PGP SIGNATURE-----
 
---===============0076570731017224529==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9f080c9f2099-69157b00b526.txt
-
-5aa63cab70d3f9c1ff714977ecad09c62ccef731 tools/power/x86/intel-speed-select: Support SST PP revision 2 fields
-51272ca7c3670d37cd4c573ed0f2f54e24095a01 tools/power/x86/intel-speed-select: Skip uncore frequency update
-6dfe26cb1c290fa4b62e6fb8c05209fe5f7adb76 tools/power/x86/intel-speed-select: v1.23 release
-751bcc022fd13fa16222d1793147073a56574c7f Merge branch 'intel-sst' of https://github.com/spandruvada/linux-kernel into for-next
-b98fa870fce2335433f20b2213e526b8d99e15dc platform/x86/intel-uncore-freq: Add attributes to show agent types
-bfbe7729d6dd2e2c8ef44f9179ad11ab766150e6 Documentation: admin-guide: pm: Add documentation for agent_types
-e37be5d85c602e07c1e2930c2cc98ebd46f9ecf7 platform/x86/intel: power-domains: Add interface to get Linux die ID
-247b43fcd8722914282fbd432e9cc41cd3971e31 platform/x86/intel-uncore-freq: Add attributes to show die_id
-e636e3f7421b2ff8e706a835f78f071cb0d8e197 Documentation: admin-guide: pm: Add documentation for die_id
-90b85567e45736b662d034be536a76ba0f4c7ca8 platform/x86: Add AMD ISP platform config for OV05C10
-cad37faac66c3822add86caf02fa0884d309a45f docs: ABI: Fix "aassociated" to "associated"
-7ff5f091409f1c1bca6374bcce54d71e8328d17f platform/x86: asus-wmi: fix build without CONFIG_SUSPEND
-69157b00b526c31522a00b9908bfd53fa21b47f2 platform/x86/amd/hsmp: fix building with CONFIG_HWMON=m
-
---===============0076570731017224529==--
+--===============1854009475532691309==--
