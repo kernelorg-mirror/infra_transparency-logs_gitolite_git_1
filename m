@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8394632444086076620=="
+Content-Type: multipart/mixed; boundary="===============5207797931095106365=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
-Date: Sun, 25 May 2025 12:33:00 -0000
-Message-Id: <174817638080.3813773.4578498392512957669@gitolite.kernel.org>
+Date: Sun, 25 May 2025 12:33:31 -0000
+Message-Id: <174817641163.3814220.8843289173229538450@gitolite.kernel.org>
 
---===============8394632444086076620==
+--===============5207797931095106365==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,43 +15,35 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfstests-dev
 user: zlang
 changes:
-  - ref: refs/heads/master
-    old: 008ffc6232320acf3699a4868b0aabaa3caa7934
-    new: e161fc34861a36838d03b6aad5e5b178f2a4e8e1
-    log: revlist-008ffc623232-e161fc34861a.txt
+  - ref: refs/heads/for-next
+    old: e161fc34861a36838d03b6aad5e5b178f2a4e8e1
+    new: b7680adf9ff7bdc962fb95b5cbd304abd3137b69
+    log: revlist-e161fc34861a-b7680adf9ff7.txt
 
---===============8394632444086076620==
+--===============5207797931095106365==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-008ffc623232-e161fc34861a.txt
+Content-Disposition: attachment; filename=revlist-e161fc34861a-b7680adf9ff7.txt
 
-7446236447e5ef8a659e325b96dc826724275675 common: Move exit related functions to a common/exit
-3738433813f5a56ea1a3cd4fcf0d1a634e93c568 check: Replace exit with _fatal and _exit in check
-00fb5168666cc2df9fe24e0d64612cc6b0209ad4 fstests/MAINTAINERS: update ocfs2 mailing list address
-93699c621e986f1b1cdbc216fe71f5c39f0b99a7 xfs: check for zoned-specific errors in _try_scratch_mkfs_xfs
-d4d28552829e976d36d05b673cc01f80aad3c35b common: notrun in mkfs_dev for too small zoned file systems
-f74792247a9e57251dc6a12c3b94f1af542da652 common: support internal RT device in _require_realtime
-363069162ae123e0f0b5045d18744c328d9627a6 common: support internal RT devices in scratch_mkfs_sized
-e72c9219f97797cfbfe08cfd616245b0d7e0f7e9 fsstress: fix attr_set naming
-aa8e98e506f552be0f2c9a8614717bb9c42649fc xfs/349: don't run on kernels that don't support scrub
-eae2dd124fa141a1e1863af8c5835e8b34dc1642 common: generalize _filter_agno
-42e226139f70f924f62b8c0a2af27f0bfed01b72 fstests: add a new rw_hint helper
-9e3423e418f033dddd043d139854360bfd050683 xfs: add a test for zoned block accounting after remount
-133c38c5bd676e5653190db02c59719a0ddda95e xfs: add a zoned growfs test
-66f5b97a09fbb49bf27846dd3e0431e1b081ca66 xfs: add test to check for block layer reordering
-ac4afb483f4e735d493cfd126c9f8b1d37cb9ca9 xfs: add a test to check that data growfs fails with internal rt device
-ef9667213d577ef84a3e5d02c25fc62490ac462f xfs: add a test for write lifetime hints
-9675a9d44545e1cea57a9226b5caf29bad7744a0 xfs: add a test for writeback after close
-30bef4920470f355a8ea4ef023bbe3552d339616 xfs: test zone stream separation for two direct writers
-7afb07edeb491a68c0447a8c348e7fc26edc24fa xfs: test zone stream separation for two buffered writers
-0a014baacc4c2a56728a94c6da272febccc1cceb xfs: test zoned ENOSPC behavior with multiple writers
-57e6890bbce2fc12d75c0d404b4c8f4ee2069f30 xfs: test zoned GC file defragmentation for sequential writers
-c63fc5f066c11151baf8a64b3bcfafa313e31701 xfs: test zoned GC file defragmentation for random writers
-d6c292e41ccec1ad1b8335a3f339ab6ea2b2d574 xfs: test that xfs_repair does not mess up the zone used counter
-414de1b79cd72368d216d6f9443fbf5e10f5931c xfs: test that truncate does not spuriously return ENOSPC
-cd5640a933811c6151e399991344ee750d797e4f xfs: test that we can handle spurious zone wp advancements
-1d47ece860617e436947ff546145b7291e95346f generic/211: completely remove obsolete test and related code
-e161fc34861a36838d03b6aad5e5b178f2a4e8e1 f2fs/012: test red heart lookup
+f0477f43d20391e06934e1596646a20503a24563 tests/selftest: Add a new pseudo flaky test.
+0e88b42adfbc15dcfb84312f1d7acb2b245be161 xfs: skip test that want to mdrestore to block devices on zoned devices
+f405f5f6cc8e5c33e11f8bb0b0256d1753720d2f fstests: generic/537: remove the btrfs specific mount option
+aac2e9fee68b6e998de86655046f7c26613a6532 fstests: add a mmap test group
+c0de6df761000445ddd6134cec29015fef39310d generic/251: fix infinite looping if fstrim_loop configuration fails
+34d0c55a92b5b637f49b4b90591c8db29cf396cd generic/251: skip this test if fstrim geometry detection fails
+cc0dcbf488495efea9575785ae8566280f232e58 check: unbreak iam
+68fa350e1e776b6179cda4847c9f68070d2251c9 check: check and fix the test filesystem after failed tests
+75372b7617a2e6c3f150eaa0d925b177a6966314 f2fs/013: test to check potential corruption on atomic_write file
+359cb24a11d846e3e83f99743ed8ca02646e501e new: Add a new parameter (copyright-owner) in the "new" script
+7e41a4a04bdfd42798aba9a048027abc717c1817 new: Replace "status=0; exit 0" with _exit 0
+3c21ae673e70cc94bb23a95994daec442c26a331 btrfs: add tests that exercise raid profiles to the raid group
+282e4fe8cf47693a45206bcf7c5957c83cb1043a btrfs/023: add to the quick group
+3bbdf4241a5f4c7c0b02dad7617c29a053e2a24a fstests: btrfs: a new test case to verify scrub and rescue=idatacsums
+1e1d98c85d733cfd622f19d663ec9ee2c16da239 fstests: btrfs: add git commit ID to btrfs/335
+49170253afef82a3a4adf5db086733bd853b45db fstests: btrfs/220: do not use nologreplay when possible
+22cc9e29bdf8ead5aeac4bdfa37572ae56add16c fstests: btrfs/020: use device pool to avoid busy TEST_DEV
+67b823d4a832bdc79e1750774d67f0841413b312 open_by_handle: add support for testing connectable file handles
+b7680adf9ff7bdc962fb95b5cbd304abd3137b69 open_by_handle: add a test for connectable file handles
 
---===============8394632444086076620==--
+--===============5207797931095106365==--
