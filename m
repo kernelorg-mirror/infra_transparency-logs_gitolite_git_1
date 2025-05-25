@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6406345568107526787=="
+Content-Type: multipart/mixed; boundary="===============1197114784110797014=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sun, 25 May 2025 09:09:50 -0000
-Message-Id: <174816419070.3585761.4116415762583219714@gitolite.kernel.org>
+Date: Sun, 25 May 2025 09:12:25 -0000
+Message-Id: <174816434587.3588765.5702939711568734769@gitolite.kernel.org>
 
---===============6406345568107526787==
+--===============1197114784110797014==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/master
-    old: 82f2b0b97b36ee3fcddf0f0780a9a0825d52fec3
-    new: a5806cd506af5a7c19bcd596e4708b5c464bfd21
-    log: revlist-82f2b0b97b36-a5806cd506af.txt
-  - ref: refs/tags/v6.15-rc7
-    old: 0000000000000000000000000000000000000000
-    new: c3223240f4b9bd8142c101420c76abe8ed1eae73
+  - ref: refs/heads/kbuild
+    old: e4202234f7b76502aba1c3d08e409fe7ae08d2f8
+    new: 2adde2eb1638336e17f887070e6dfc52205d464b
+    log: revlist-e4202234f7b7-2adde2eb1638.txt
 
---===============6406345568107526787==
+--===============1197114784110797014==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-82f2b0b97b36-a5806cd506af.txt
+Content-Disposition: attachment; filename=revlist-e4202234f7b7-2adde2eb1638.txt
 
 fdc7bd909a5f38793468e9cf9b6a9063d96c6234 arm64: dts: rockchip: Allow Turing RK1 cooling fan to spin down
 e0bd7ecf6b2dc71215af699dffbf14bf0bc3d978 arm64: dts: rockchip: Remove overdrive-mode OPPs from RK3588J SoC dtsi
@@ -165,17 +162,6 @@ fefc075182275057ce607effaa3daa9e6e3bdc73 mm/page_alloc: fix race condition in un
 02f5bf89f0b0a50f821425932a3590eeb9f193ac zsmalloc: don't underflow size calculation in zs_obj_write()
 75cb1cca2c880179a11c7dd9380b6f14e41a06a4 mm: userfaultfd: correct dirty flags set for both present and swap pte
 627277ba7c2398dc4f95cc9be8222bb2d9477800 Merge tag 'arm64_cbpf_mitigation_2025_05_08' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
-9520a2b3f0b5e182f73410e45b9b92ea51d9b828 kbuild: Require pahole <v1.28 or >v1.29 with GENDWARFKSYMS on X86
-56045757accf5a51c9146585acd5f76fa4fbdb97 usr/include: openrisc: don't HDRTEST bpf_perf_event.h
-657f96cb7c06a2ef85d166f1b055baeb6511c324 kbuild: deb-pkg: Add libdw-dev:native to Build-Depends-Arch
-5bd6bdd0f76e257c029ff34100f2959cd4992486 kbuild: rpm-pkg: Add (elfutils-devel or libdw-devel) to BuildRequires
-d0afcfeb9e3810ec89d1ffde1a0e36621bb75dca kbuild: Disable -Wdefault-const-init-unsafe
-ab09da75700e9d25c7dfbc7f7934920beb5e39b9 um: let 'make clean' properly clean underlying SUBARCH as well
-d1b99cdf22e0416440265166824ebabfcb5f1afa init: remove unused CONFIG_CC_CAN_LINK_STATIC
-f0e4b333cf67b3d5da56bd01a125f45c102f7d27 kbuild: fix dependency on sorttable
-020d7f14489b8bc38c6bd4c5b3c25262e8b6de63 Revert "kbuild: make all file references relative to source root"
-8cf5b3f836147d8d4e7c6eb4c01945b97dab8297 Revert "kbuild, rust: use -fremap-path-prefix to make paths relative"
-e0cd396d899805d56df91b989f8efad3a36df0da kbuild: fix typos "module.builtin" to "modules.builtin"
 9c1798259b9420f38f1fa1b83e3d864c3eb1a83e drm/tiny: panel-mipi-dbi: Use drm_client_setup_with_fourcc()
 3039ed432745f8fdf5cbb43fdc60b2e1aad624c1 landlock: Improve bit operations in audit code
 386cd3dcfd63491619b4034b818737fc0219e128 MAINTAINERS: Update Alexey Makhalov's email address
@@ -376,5 +362,16 @@ e72e784fb1138ad313e004ef598ff98b364c7329 Merge tag 'mm-hotfixes-stable-2025-05-1
 21eeefe76919c904dd50d543bd6d3eee05d97e15 Merge tag 'phy-fixes-6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 5723cc3450bccf7f98f227b9723b5c9f6b3af1c5 Merge tag 'dmaengine-fix-6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
 a5806cd506af5a7c19bcd596e4708b5c464bfd21 Linux 6.15-rc7
+6b91ff002c67b2502009f99115c4b7fe5b7b8248 modpost: Use for() loop
+520b1a147d918eb07132c847ad5598a17d3ff7ca module: Add module specific symbol namespace support
+754f8733fc09dd92093cfbd34fa71a42d152b250 module: Extend the module namespace parsing
+0267cbf297bf7ed9ef5181feceea9fe03c84318e module: Account for the build time module name mangling
+707f853d7fa3ce323a6875487890c213e34d81a0 module: Provide EXPORT_SYMBOL_GPL_FOR_MODULES() helper
+ff2c5f5a9e01b9fc3b4959c2b3f40843cc0a5ecb gendwarfksyms: Clean up kABI rule look-ups
+db59d74e5da144111fc133fb1bf72e6392bdb04e gendwarfksyms: Add a kABI rule to override byte_size attributes
+c9083467f7b97e7c06b7a9038c4f18095329bd37 gendwarfksyms: Add a kABI rule to override type strings
+881bf900bc880ee3ad88c0dd74253785088a25d7 Documentation/kbuild: Drop section numbers
+cf9d692629fa3017989367ac86bf34109176cdad Documentation/kbuild: Add new gendwarfksyms kABI rules
+2adde2eb1638336e17f887070e6dfc52205d464b Makefile: remove dependency on archscripts for header installation
 
---===============6406345568107526787==--
+--===============1197114784110797014==--
