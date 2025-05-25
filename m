@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6986194594702026649=="
+Content-Type: multipart/mixed; boundary="===============8601224664678254751=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 25 May 2025 08:10:23 -0000
-Message-Id: <174816062359.3537596.16401603774556617693@gitolite.kernel.org>
+Date: Sun, 25 May 2025 08:10:51 -0000
+Message-Id: <174816065164.3538191.7722931319682357469@gitolite.kernel.org>
 
---===============6986194594702026649==
+--===============8601224664678254751==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,49 +15,39 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/locking/core
-    old: cdb7d2d68cde6145a06a56c9d5d5d917297501c6
-    new: 94ec70880fd376dd5cc60ba2bd7ddf830b3d4f28
-    log: revlist-cdb7d2d68cde-94ec70880fd3.txt
+  - ref: refs/heads/master
+    old: 08f811a328258eaa04ef535ea8661a40ac482a89
+    new: 431c45c29a1b78097c9eaa9966cb8eab893098d6
+    log: revlist-08f811a32825-431c45c29a1b.txt
 
---===============6986194594702026649==
+--===============8601224664678254751==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cdb7d2d68cde-94ec70880fd3.txt
+Content-Disposition: attachment; filename=revlist-08f811a32825-431c45c29a1b.txt
 
-3efa66ce6ee1b55ab687b316e48e1e9ddc1f780a rcuref: Provide rcuref_is_dead()
-55284f70134f01fdc9cc4c4905551cc1f37abd34 mm: Add vmalloc_huge_node()
-93f1b6d79a73b520b6875cf3babf4a09acc4eef0 futex: Move futex_queue() into futex_wait_setup()
-2fb292096d950a67a1941949a08a60ddd3193da3 futex: Pull futex_hash() out of futex_q_lock()
-8486d12f558ff9e4e90331e8ef841d84bf3a8c24 futex: Create hb scopes
-6c67f8d880c0950215b8e6f8539562ad1971a05a futex: Create futex_hash() get/put class
-d854e4e7850e6d3ed24f863a877abc2279d60506 futex: Create private_hash() get/put class
-3f6b233018af2a6fb449faa324d94a437e2e47ce futex: Acquire a hash reference in futex_wait_multiple_setup()
-fe00e88d217a7bf7a4d0268d08f51e624d40ee53 futex: Decrease the waiter count before the unlock operation
-b04b8f3032aae6121303bfa324c768faba032242 futex: Introduce futex_q_lockptr_lock()
-9a9bdfdd687395a3dc949d3ae3323494395a93d4 futex: Create helper function to initialize a hash slot
-80367ad01d93ac781b0e1df246edaf006928002f futex: Add basic infrastructure for local task local hash
-7c4f75a21f636486d2969d9b6680403ea8483539 futex: Allow automatic allocation of process wide futex hash
-bd54df5ea7cadac520e346d5f0fe5d58e635b6ba futex: Allow to resize the private local hash
-63e8595c060a1fef421e3eecfc05ad882dafb8ac futex: Allow to make the private hash immutable
-cec199c5e39bde7191a08087cc3d002ccfab31ff futex: Implement FUTEX2_NUMA
-c042c505210dc3453f378df432c10fff3d471bc5 futex: Implement FUTEX2_MPOL
-f25051dce97cfd7a945add0c9e273e624e060624 tools headers: Synchronize prctl.h ABI header
-60035a3981a7f9d965df81a48a07b94e52ccd54f tools/perf: Allow to select the number of hash buckets
-8b4a5c2497fad653bc54ddb037d38eb5bf835857 selftests/futex: Build without headers nonsense
-cda95faef7bcf26ba3f54c3cddce66d50116d146 selftests/futex: Add futex_priv_hash
-3163369407baf8331a234fe4817e9ea27ba7ea9c selftests/futex: Add futex_numa_mpol
-9140f57c1c1391a0343a08daea9cd53f56e51154 futex,selftests: Add another FUTEX2_NUMA selftest
-01475aedfdfa33a5ee3219079426f5743367c624 futex: Fix outdated comment in struct restart_block
-094ac8cff7858bee5fa4554f6ea66c964f8e160e futex: Relax the rcu_assign_pointer() assignment of mm->futex_phash in futex_mm_init()
-bd59f6170968314c82e2b65f8bbaec55896b7a5f futex: Fix kernel-doc comments
-2b7363602973d1073f0e1775698fa62477a9a495 selftests/futex: Use TAP output in futex_priv_hash
-7d4f494767918c80f2a99831728159b2aa398872 selftests/futex: Use TAP output in futex_numa_mpol
-279f2c2c8e2169403d01190f042efa6e41731578 futex: Use RCU_INIT_POINTER() in futex_mm_init().
-4140e2b31bedd87bfc53362441165979aa4fc5d8 tools headers: Synchronize prctl.h ABI header
-73c6c02b4febbb2c2761e559f31af8c7b87e81a5 futex: Correct the kernedoc return value for futex_wait_setup().
-78272d44970c07899c78661f6b7492b5a7e14a90 selftests/futex: Fix spelling mistake "unitiliazed" -> "uninitialized"
 94ec70880fd376dd5cc60ba2bd7ddf830b3d4f28 Merge branch 'locking/futex' into locking/core, to pick up pending futex changes
+1e99fb5c1265921e12eaa908b8c0fd835a151449 Merge branch into tip/master: 'x86/merge'
+7d5d097de56bec7f913804cfa8eec70834d9bfc5 Merge branch into tip/master: 'perf/merge'
+39f2c2ffed74f85eee2111093c71adc559570a9f Merge branch into tip/master: 'core/entry'
+2dc68c4cbfb968f5a8e8b496b435e705d0aa6ce4 Merge branch into tip/master: 'irq/cleanups'
+215a02225731a15f6aecf7796d8a871e48f24ed2 Merge branch into tip/master: 'irq/core'
+8e2ccfbf5fe0a4061a116ad12ce919b1c519c9bc Merge branch into tip/master: 'irq/drivers'
+2e4326fdf3b57bec701b49267a851069827a0ef2 Merge branch into tip/master: 'irq/msi'
+28a9c3012426df60ed5c6dd3747fcc3b22d5db7f Merge branch into tip/master: 'locking/core'
+de9ad51f85df098932b333f1edb861a025afebf8 Merge branch into tip/master: 'objtool/core'
+ea5b683e7b269ec2a9b9d65b906578bb303b522f Merge branch into tip/master: 'perf/core'
+549cb8804791de92b642899a15e7b0ff8f71f84a Merge branch into tip/master: 'sched/core'
+9b2930c65e07b292f45a8075565a6ec5581f9310 Merge branch into tip/master: 'timers/cleanups'
+202990f564ca2af593bf77e8b9abf33ab918fde4 Merge branch into tip/master: 'timers/clocksource'
+79e5eba6bd5da84bf215e8f29ec7595c1adf57d7 Merge branch into tip/master: 'timers/core'
+2109a35ba1aa5d0f9027a1eff2f478b71f73ff77 Merge branch into tip/master: 'x86/cleanups'
+1e684a7accc0d7a29d1ef4b50cd020e8cd199e65 Merge branch into tip/master: 'x86/core'
+ffd093dc1d08f50b2eb4f293ec16015254c2d12f Merge branch into tip/master: 'x86/debug'
+76dc9efdd69bb2b9c9b028476d0e0a0733f76c60 Merge branch into tip/master: 'x86/entry'
+038c254434f13ea74dbc6633b677c525a69b8475 Merge branch into tip/master: 'x86/kconfig'
+cf46208f20e769a5c6142a4e77aa45c897640b77 Merge branch into tip/master: 'x86/mtrr'
+02cb48dc0de9a479aa0a5247897cf320c1cb8aab Merge branch into tip/master: 'x86/sev'
+431c45c29a1b78097c9eaa9966cb8eab893098d6 Merge branch into tip/master: 'x86/sgx'
 
---===============6986194594702026649==--
+--===============8601224664678254751==--
