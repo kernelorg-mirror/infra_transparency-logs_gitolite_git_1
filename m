@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0838727529822421808=="
+Content-Type: multipart/mixed; boundary="===============6986194594702026649=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 25 May 2025 08:04:22 -0000
-Message-Id: <174816026269.3530626.7576939964024724978@gitolite.kernel.org>
+Date: Sun, 25 May 2025 08:10:23 -0000
+Message-Id: <174816062359.3537596.16401603774556617693@gitolite.kernel.org>
 
---===============0838727529822421808==
+--===============6986194594702026649==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,60 +15,49 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
-    old: c457743ff730d94ab373fa7dd67c9d11cfcee20d
-    new: 08f811a328258eaa04ef535ea8661a40ac482a89
-    log: revlist-c457743ff730-08f811a32825.txt
-  - ref: refs/heads/tip/urgent
-    old: 4856ebd997159f198e3177e515bda01143727463
-    new: d0c22de9995b624f563bc5004d44ac2655712a56
-    log: revlist-4856ebd99715-d0c22de9995b.txt
+  - ref: refs/heads/locking/core
+    old: cdb7d2d68cde6145a06a56c9d5d5d917297501c6
+    new: 94ec70880fd376dd5cc60ba2bd7ddf830b3d4f28
+    log: revlist-cdb7d2d68cde-94ec70880fd3.txt
 
---===============0838727529822421808==
+--===============6986194594702026649==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c457743ff730-08f811a32825.txt
+Content-Disposition: attachment; filename=revlist-cdb7d2d68cde-94ec70880fd3.txt
 
-1884b5cdde4031f042e6eb8765887c68817602a2 Merge branch into tip/master: 'x86/merge'
-baab4cc0216df4d0bf3dec3688e286c9327cba1f Merge branch into tip/master: 'perf/merge'
-0dce32b6648708f29514dd381568b3847be290f2 Merge branch into tip/master: 'core/entry'
-3571edf24ae68cd06ac28457007c9ef7f9f84448 Merge branch into tip/master: 'irq/cleanups'
-3a8f3228cdd90b45b0b90add2c61848b0438f091 Merge branch into tip/master: 'irq/core'
-4de11d9be0d9c6802a83789b7e2d996ac468614e Merge branch into tip/master: 'irq/drivers'
-d22cd516a3f4e991553fe5c14200b83f9c2e8eb2 Merge branch into tip/master: 'irq/msi'
-f3035f60d6a24e35ab22bc5bb709d30738cff795 Merge branch into tip/master: 'locking/core'
-eaccb2ce388d3000d9d13342cf4572b87d8c6796 Merge branch into tip/master: 'locking/futex'
-2f5caa9de7447af4870dbe99d4642511cc0debe3 Merge branch into tip/master: 'objtool/core'
-ef099824a9bfeb7b4b4ea6db1226430cb6e47b0f Merge branch into tip/master: 'perf/core'
-d9ee742a3aeb127c5e4d0ce6f0ec8a9657529f4a Merge branch into tip/master: 'sched/core'
-d95592e9312209d2059ecd198afea0f3a79cd229 Merge branch into tip/master: 'timers/cleanups'
-290250eece805b835aef9b4af0ff51963b60957f Merge branch into tip/master: 'timers/clocksource'
-f50c82af22d8cd30f44fedfd3707cd1df7f8e86c Merge branch into tip/master: 'timers/core'
-e8015e633101c7def1c5c870698de2615b3c4a90 Merge branch into tip/master: 'x86/cleanups'
-283e830229419ac2b55393dc83e0dc771b5c3b49 Merge branch into tip/master: 'x86/core'
-c815d2afaf5934e7334e4554aecdbb39658d2953 Merge branch into tip/master: 'x86/debug'
-a792f87d7cad8f1ede1e291a9fadad560e55a9c1 Merge branch into tip/master: 'x86/entry'
-ff587cabbc106ac5a10c9f1f99b8b47aef974519 Merge branch into tip/master: 'x86/kconfig'
-8671acf81926727476e690520a271ef12e162d2a Merge branch into tip/master: 'x86/mtrr'
-a44f4f36c7f9ca56db5325f7a949a72b8f461920 Merge branch into tip/master: 'x86/sev'
-08f811a328258eaa04ef535ea8661a40ac482a89 Merge branch into tip/master: 'x86/sgx'
+3efa66ce6ee1b55ab687b316e48e1e9ddc1f780a rcuref: Provide rcuref_is_dead()
+55284f70134f01fdc9cc4c4905551cc1f37abd34 mm: Add vmalloc_huge_node()
+93f1b6d79a73b520b6875cf3babf4a09acc4eef0 futex: Move futex_queue() into futex_wait_setup()
+2fb292096d950a67a1941949a08a60ddd3193da3 futex: Pull futex_hash() out of futex_q_lock()
+8486d12f558ff9e4e90331e8ef841d84bf3a8c24 futex: Create hb scopes
+6c67f8d880c0950215b8e6f8539562ad1971a05a futex: Create futex_hash() get/put class
+d854e4e7850e6d3ed24f863a877abc2279d60506 futex: Create private_hash() get/put class
+3f6b233018af2a6fb449faa324d94a437e2e47ce futex: Acquire a hash reference in futex_wait_multiple_setup()
+fe00e88d217a7bf7a4d0268d08f51e624d40ee53 futex: Decrease the waiter count before the unlock operation
+b04b8f3032aae6121303bfa324c768faba032242 futex: Introduce futex_q_lockptr_lock()
+9a9bdfdd687395a3dc949d3ae3323494395a93d4 futex: Create helper function to initialize a hash slot
+80367ad01d93ac781b0e1df246edaf006928002f futex: Add basic infrastructure for local task local hash
+7c4f75a21f636486d2969d9b6680403ea8483539 futex: Allow automatic allocation of process wide futex hash
+bd54df5ea7cadac520e346d5f0fe5d58e635b6ba futex: Allow to resize the private local hash
+63e8595c060a1fef421e3eecfc05ad882dafb8ac futex: Allow to make the private hash immutable
+cec199c5e39bde7191a08087cc3d002ccfab31ff futex: Implement FUTEX2_NUMA
+c042c505210dc3453f378df432c10fff3d471bc5 futex: Implement FUTEX2_MPOL
+f25051dce97cfd7a945add0c9e273e624e060624 tools headers: Synchronize prctl.h ABI header
+60035a3981a7f9d965df81a48a07b94e52ccd54f tools/perf: Allow to select the number of hash buckets
+8b4a5c2497fad653bc54ddb037d38eb5bf835857 selftests/futex: Build without headers nonsense
+cda95faef7bcf26ba3f54c3cddce66d50116d146 selftests/futex: Add futex_priv_hash
+3163369407baf8331a234fe4817e9ea27ba7ea9c selftests/futex: Add futex_numa_mpol
+9140f57c1c1391a0343a08daea9cd53f56e51154 futex,selftests: Add another FUTEX2_NUMA selftest
+01475aedfdfa33a5ee3219079426f5743367c624 futex: Fix outdated comment in struct restart_block
+094ac8cff7858bee5fa4554f6ea66c964f8e160e futex: Relax the rcu_assign_pointer() assignment of mm->futex_phash in futex_mm_init()
+bd59f6170968314c82e2b65f8bbaec55896b7a5f futex: Fix kernel-doc comments
+2b7363602973d1073f0e1775698fa62477a9a495 selftests/futex: Use TAP output in futex_priv_hash
+7d4f494767918c80f2a99831728159b2aa398872 selftests/futex: Use TAP output in futex_numa_mpol
+279f2c2c8e2169403d01190f042efa6e41731578 futex: Use RCU_INIT_POINTER() in futex_mm_init().
+4140e2b31bedd87bfc53362441165979aa4fc5d8 tools headers: Synchronize prctl.h ABI header
+73c6c02b4febbb2c2761e559f31af8c7b87e81a5 futex: Correct the kernedoc return value for futex_wait_setup().
+78272d44970c07899c78661f6b7492b5a7e14a90 selftests/futex: Fix spelling mistake "unitiliazed" -> "uninitialized"
+94ec70880fd376dd5cc60ba2bd7ddf830b3d4f28 Merge branch 'locking/futex' into locking/core, to pick up pending futex changes
 
---===============0838727529822421808==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4856ebd99715-d0c22de9995b.txt
-
-f0d17942ea3edec191f1c0fc0d2cd7feca8de2f0 Input: xpad - add more controllers
-ca39500f6af9cfe6823dc5aa8fbaed788d6e35b2 Input: synaptics-rmi - fix crash with unsupported versions of F34
-b3f6fcd8404f9f92262303369bb877ec5d188a81 iommu: Skip PASID validation for devices without PASID capability
-1007ae0d464ceb55a3740634790521d3543aaab9 spi: use container_of_cont() for to_spi_device()
-283ae0c65e9c592f4a1ba4f31917f5e766da7f31 spi: spi-fsl-dspi: restrict register range for regmap access
-8a30a6d35a11ff5ccdede7d6740765685385a917 spi: spi-fsl-dspi: Halt the module after a new message transfer
-7aba292eb15389073c7f3bd7847e3862dfdf604d spi: spi-fsl-dspi: Reset SR flags before sending a new message
-b1427432d3b656fac71b3f42824ff4aea3c9f93b Merge tag 'iommu-fixes-v6.15-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/iommu/linux
-95a9580d58f8d11d8673612d8ab0893335810dfa Merge tag 'spi-fix-v6.15-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
-d0c22de9995b624f563bc5004d44ac2655712a56 Merge tag 'input-for-v6.15-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
-
---===============0838727529822421808==--
+--===============6986194594702026649==--
