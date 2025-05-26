@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 26 May 2025 09:00:31 -0000
-Message-Id: <174825003164.682261.16698551689676838512@gitolite.kernel.org>
+Date: Mon, 26 May 2025 09:02:54 -0000
+Message-Id: <174825017423.683552.18138577770305574226@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: davem
 changes:
   - ref: refs/heads/main
-    old: d09a8a4ab57849d0401d7c0bc6583e367984d9f7
-    new: 8ceeef23a3a7b077caa98be713c09a4cdfbd018f
+    old: 8ceeef23a3a7b077caa98be713c09a4cdfbd018f
+    new: e45b7196df60a4aef86c3998611c91fcc93d21f3
     log: |
-         384492c48e6a88c9a7f0376d8e8ac7f557988e92 net: devmem: support single IOV with sendmsg
-         61f24c6885d6d509c485b71bdde75b499f5d19b6 selftests: ncdevmem: make chunking optional
-         8ceeef23a3a7b077caa98be713c09a4cdfbd018f selftests: ncdevmem: add tx test with multiple IOVs
+         e45b7196df60a4aef86c3998611c91fcc93d21f3 net: neigh: use kfree_skb_reason() in neigh_resolve_output() and neigh_connected_output()
          
