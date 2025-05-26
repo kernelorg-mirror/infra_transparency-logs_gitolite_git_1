@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 26 May 2025 12:46:26 -0000
-Message-Id: <174826358639.882834.10187925358273566913@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 26 May 2025 13:01:07 -0000
+Message-Id: <174826446769.895080.16398545038242038675@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/linux-m68k
-user: geert
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/for-v6.16
+  - ref: refs/heads/fileyI8ril
     old: 0000000000000000000000000000000000000000
-    new: f440518f379d22c95329e9e0e0fb6caaafa0f8b0
+    new: 65271f868cb1dca709ff69e45939bbef8d6d0b70
