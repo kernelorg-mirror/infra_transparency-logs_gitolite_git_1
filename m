@@ -1,50 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============4244983355562415076=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/website
-Date: Mon, 26 May 2025 19:18:13 -0000
-Message-Id: <174828709399.1214513.16907454962951608277@gitolite.kernel.org>
-
---===============4244983355562415076==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/fs/ext2/e2fsprogs
+Date: Mon, 26 May 2025 19:40:00 -0000
+Message-Id: <174828840079.1231733.5452577877528001829@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/website
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/fs/ext2/e2fsprogs
+user: tytso
 changes:
-  - ref: refs/heads/master
-    old: 21c9464177b78a70f73fda8413aa3ccf1ff4f99d
-    new: 7f03733882d8fe1dbb33eedace21d2e10bee7b19
+  - ref: refs/heads/next
+    old: dd0c4efa173203484f0cd612f97eb19181240a33
+    new: 8f0b460ab330a896a330dce39338619f19ca249d
     log: |
-         7f03733882d8fe1dbb33eedace21d2e10bee7b19 Add a note about the releases calendar ical
+         3a4bbc5cd5baff73d85306f6c4f18cf36d85636d libe2p: avoid potential integer overflow in interate_on_dir()
+         3e059df08de94abde1ddd82008d0658584a35e5e e2freefrag: require that the chunksize must be greater than 0
+         326e8ab43503dd9f44338754c84cb03a725ecc49 mke2fs: add range checks for -E desc_size
+         fc559fd70f0bbbe54be4651ef05fdc522e04d1b2 e2fsck: add error checking for sysconf(3) in get_memory_size()
+         8f0b460ab330a896a330dce39338619f19ca249d misc: remove unused retry label
          
-  - ref: refs/tags/v2025-05-26-01
-    old: 0000000000000000000000000000000000000000
-    new: 7f03733882d8fe1dbb33eedace21d2e10bee7b19
-
---===============4244983355562415076==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1748287126 -0400
-pushee gitolite.kernel.org:pub/scm/docs/kernel/website
-nonce 1748287092-d3e934df7274cb5c9109d94820915f915f044f70
-
-21c9464177b78a70f73fda8413aa3ccf1ff4f99d 7f03733882d8fe1dbb33eedace21d2e10bee7b19 refs/heads/master
-0000000000000000000000000000000000000000 7f03733882d8fe1dbb33eedace21d2e10bee7b19 refs/tags/v2025-05-26-01
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaDS+lgAKCRC2xBzjVmSZ
-bNq0AP91aKiMYXy1n89Q8jfjDga34OhT2bTQW/Wk0CoD++Mc4AEA1jcscRH4Oi9E
-lKCDr8NGTYjwEcCdwdMDgC2U3VTdugI=
-=pr1f
------END PGP SIGNATURE-----
-
---===============4244983355562415076==--
