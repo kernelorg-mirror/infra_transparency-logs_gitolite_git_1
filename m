@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3964810125916326544=="
+Content-Type: multipart/mixed; boundary="===============6387808294451459948=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 26 May 2025 07:40:53 -0000
-Message-Id: <174824525329.616981.17427547521356225100@gitolite.kernel.org>
+Date: Mon, 26 May 2025 07:41:23 -0000
+Message-Id: <174824528335.617486.14071137657597677935@gitolite.kernel.org>
 
---===============3964810125916326544==
+--===============6387808294451459948==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,51 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: dccc757f4204250d0e3579bfb60bac4b7910e6fe
-    new: d2e03c8e8d6f8767eb52d6e77643fe2beecd35ae
-    log: revlist-dccc757f4204-d2e03c8e8d6f.txt
+    old: d2e03c8e8d6f8767eb52d6e77643fe2beecd35ae
+    new: f22368a9e2e82d809deb53599697d547b8468d6b
+    log: revlist-d2e03c8e8d6f-f22368a9e2e8.txt
+  - ref: refs/heads/tip/urgent
+    old: d0c22de9995b624f563bc5004d44ac2655712a56
+    new: 0ff41df1cb268fc69e703a08a57ee14ae967d0ca
+    log: revlist-d0c22de9995b-0ff41df1cb26.txt
+  - ref: refs/tags/v6.15
+    old: 0000000000000000000000000000000000000000
+    new: 0a4b866d08c6adaea2f4592d31edac6deeb4dcbd
 
---===============3964810125916326544==
+--===============6387808294451459948==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dccc757f4204-d2e03c8e8d6f.txt
+Content-Disposition: attachment; filename=revlist-d2e03c8e8d6f-f22368a9e2e8.txt
+
+ad29891c2a6699eed252b3a9226c425ccdcb4420 Merge branch into tip/master: 'x86/merge'
+bcfa26a3746e9f2670ccc06a96f55e755d0656c1 Merge branch into tip/master: 'perf/merge'
+4ab3e4212515efd553872b7a867b6c6b50359bed Merge branch into tip/master: 'core/entry'
+b46f8859d9264d6b45c9aed3637602a7c6162322 Merge branch into tip/master: 'irq/cleanups'
+d49ee62fe03a2005fd1b329aa012d1945ed24956 Merge branch into tip/master: 'irq/core'
+dfc37f9a62d492a047affe94b7d5f533059c41eb Merge branch into tip/master: 'irq/drivers'
+d08e8a9efb62c3d7ffa60d305516f3958d3cedc6 Merge branch into tip/master: 'irq/msi'
+9472d66ba80ecd243f58316919675f4a25141d66 Merge branch into tip/master: 'locking/core'
+726bc0e7a03e9afac9d20af7425f0fe8fea3e7e0 Merge branch into tip/master: 'objtool/core'
+dfee667c29f6737a4f621a666bed0edd938f782e Merge branch into tip/master: 'perf/core'
+f284c8711a78fcbad9fb4c64076342ac6cb464ac Merge branch into tip/master: 'sched/core'
+9799037ecdf116287884005e124f4d6802367515 Merge branch into tip/master: 'timers/cleanups'
+34f24d068100122e6c538e9dad755017574638a3 Merge branch into tip/master: 'timers/clocksource'
+46f8f590633a751d5edeabb5dbf9ef83b95e1c70 Merge branch into tip/master: 'timers/core'
+e5069d1d8219b6845df22d2ad96688c705555816 Merge branch into tip/master: 'x86/build'
+9bc89678f8cbacb5275db0b5045ba7f5af3c49ef Merge branch into tip/master: 'x86/cleanups'
+c8362c9c93fbb2a60ae9a84aa4972d90d6098b74 Merge branch into tip/master: 'x86/core'
+beba0a23916bf467028922c73cd428281060f8f9 Merge branch into tip/master: 'x86/debug'
+7a1ad266aa15d3c7f17a38b9cfd1cf7e79541294 Merge branch into tip/master: 'x86/entry'
+b98fb78014453bd6ac764264b7796674a69324f2 Merge branch into tip/master: 'x86/mtrr'
+c649c3e118fb030ae3165d4045253dceca681ad5 Merge branch into tip/master: 'x86/sev'
+f22368a9e2e82d809deb53599697d547b8468d6b Merge branch into tip/master: 'x86/sgx'
+
+--===============6387808294451459948==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d0c22de9995b-0ff41df1cb26.txt
 
 e05741fb10c38d70bbd7ec12b23c197b6355d519 mm/page_alloc.c: avoid infinite retries caused by cpuset race
 910224c7830d252697dc7fbd57fd1059d266d370 MAINTAINERS: add myself as vmalloc co-maintainer
@@ -51,6 +87,5 @@ ee40c9920ac286c5bfe7c811e66ff899266d2582 mm: fix copy_vma() error handling for h
 0f8c0258bf042a7da8645148f96d063b9c2060b9 Merge tag 'mm-hotfixes-stable-2025-05-25-00-58' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 478ad02d6844217cc7568619aeb0809d93ade43d Disable FOP_DONTCACHE for now due to bugs
 0ff41df1cb268fc69e703a08a57ee14ae967d0ca Linux 6.15
-d2e03c8e8d6f8767eb52d6e77643fe2beecd35ae Merge branch 'linus'
 
---===============3964810125916326544==--
+--===============6387808294451459948==--
