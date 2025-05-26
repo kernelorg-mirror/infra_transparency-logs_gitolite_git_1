@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-Date: Mon, 26 May 2025 03:06:20 -0000
-Message-Id: <174822878072.340044.3163984998758923171@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
+Date: Mon, 26 May 2025 03:09:03 -0000
+Message-Id: <174822894399.341406.9751270330410536248@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-user: herbert
+repo: pub/scm/linux/kernel/git/chrome-platform/linux
+user: tzungbi
 changes:
-  - ref: refs/heads/master
-    old: 61fc01f8f7f8e299b9fed5a5e5e068ef0e40593d
-    new: 2297554f01df6d3d4e98a3915c183ce3e491740a
-    log: |
-         2297554f01df6d3d4e98a3915c183ce3e491740a x86/fpu: Fix irq_fpu_usable() to return false during CPU onlining
-         
+  - ref: refs/heads/for-6.16
+    old: 0000000000000000000000000000000000000000
+    new: 3e552ccf405c0dea6339988202a564357249c437
+  - ref: refs/tags/chrome-platform-v6.16
+    old: 0000000000000000000000000000000000000000
+    new: 1ec9189a2c876332ab13b0f9e5a7d13432e2fa72
