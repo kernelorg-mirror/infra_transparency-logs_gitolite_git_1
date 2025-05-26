@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Mon, 26 May 2025 17:16:00 -0000
-Message-Id: <174827976047.1114315.13989379990645672721@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
+Date: Mon, 26 May 2025 17:17:38 -0000
+Message-Id: <174827985873.1115352.6784748677830018105@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damo
-user: sj
+repo: pub/scm/linux/kernel/git/ukleinek/linux
+user: ukleinek
 changes:
-  - ref: refs/heads/next
-    old: 01855f548002b10b766fb3aa61220e6b8ebc977b
-    new: 91eefff58eac79eead504c7e69bcdb049976ad19
+  - ref: refs/heads/pwm/pxa-spacemit
+    old: 4123a964aeac4a3dbb7badc95570cb33062532f9
+    new: 0e771b60dacf4ff581a58ae43ba24d935a015833
     log: |
-         fda94f89f3c251cdebb27d9ce5b2f7a5ca83cf32 TODO: add more items
-         91eefff58eac79eead504c7e69bcdb049976ad19 damo_start: introduce --include_child_tasks option
+         b1ad5802411e5090365c6cf04aec717091e87f7c dt-bindings: pwm: marvell,pxa-pwm: Add SpacemiT K1 PWM support
+         fd8d9f395fa123b6e8ad4c8078d3c98ca94c83bf pwm: pxa: Add optional reset control
+         0e771b60dacf4ff581a58ae43ba24d935a015833 pwm: pxa: Allow to enable for SpacemiT K1 SoC
          
