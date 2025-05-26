@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 26 May 2025 17:07:25 -0000
-Message-Id: <174827924560.1105895.11648866851508984299@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Mon, 26 May 2025 17:13:03 -0000
+Message-Id: <174827958318.1110562.15870867347313373299@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/master
-    old: 6cd8d3e71054ee288dbeee424097e481bef7c146
-    new: 49a7b29e9f727dde4e8601f4d2ca2fbc4846258f
+  - ref: refs/heads/fixes-togreg-for-6.16
+    old: d061aba30e0359c0d4ee3301f0e6eca7e2622a81
+    new: 0ff3982c722cde7def00ef567e06be1777ad30db
     log: |
-         49a7b29e9f727dde4e8601f4d2ca2fbc4846258f AUTHORS: update Zhenwei Pi email
+         cc6df26bfb47c5974e85b113b64afe1fd868f2a5 iio: adc: max1363: Fix MAX1363_4X_CHANS/MAX1363_8X_CHANS[]
+         0ff3982c722cde7def00ef567e06be1777ad30db iio: adc: max1363: Reorder mode_list[] entries
          
