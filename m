@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6596110187843365382=="
+Content-Type: multipart/mixed; boundary="===============6476670328096273092=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
-Date: Mon, 26 May 2025 11:24:32 -0000
-Message-Id: <174825867230.808194.4992927636484499239@gitolite.kernel.org>
+Date: Mon, 26 May 2025 11:25:15 -0000
+Message-Id: <174825871520.810479.17402062381431194099@gitolite.kernel.org>
 
---===============6596110187843365382==
+--===============6476670328096273092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/linkinjeon/exfat
 user: linkinjeon
 changes:
-  - ref: refs/heads/master
-    old: a8662bcd2ff152bfbc751cab20f33053d74d0963
-    new: 0ff41df1cb268fc69e703a08a57ee14ae967d0ca
-    log: revlist-a8662bcd2ff1-0ff41df1cb26.txt
+  - ref: refs/heads/dev
+    old: 602ac09f66e8742ad6f351c46602cbc13b7d3421
+    new: 46a557694b464881b3c2c4a0ba389a6436419a37
+    log: revlist-602ac09f66e8-46a557694b46.txt
 
---===============6596110187843365382==
+--===============6476670328096273092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a8662bcd2ff1-0ff41df1cb26.txt
+Content-Disposition: attachment; filename=revlist-602ac09f66e8-46a557694b46.txt
 
-c3137514f1f13532bec4083832e7b95b90b73abc Merge tag 'riscv-for-linus-6.15-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
-14ae3003e73e777c9b36385a7c86f754b50a1821 Drivers: hv: Fix bad ref to hv_synic_eventring_tail when CPU goes offline
 d934a93bbcccd551c142206b8129903d18126261 clk: rockchip: rk3576: define clk_otp_phy_g
 a5f793e16ad8fffa7d2960851a5ac791bba8294d Merge tag 'drm-misc-fixes-2025-04-22' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
 fdfabdc2b7694a5ee3f4cd3706450285c7f12e5e Merge tag 'exynos-drm-fixes-for-v6.15-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/daeinki/drm-exynos into drm-fixes
@@ -1050,5 +1048,7 @@ ee40c9920ac286c5bfe7c811e66ff899266d2582 mm: fix copy_vma() error handling for h
 0f8c0258bf042a7da8645148f96d063b9c2060b9 Merge tag 'mm-hotfixes-stable-2025-05-25-00-58' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 478ad02d6844217cc7568619aeb0809d93ade43d Disable FOP_DONTCACHE for now due to bugs
 0ff41df1cb268fc69e703a08a57ee14ae967d0ca Linux 6.15
+1f3d9724e16d62c7d42c67d6613b8512f2887c22 exfat: fix double free in delayed_free
+46a557694b464881b3c2c4a0ba389a6436419a37 exfat: do not clear volume dirty flag during sync
 
---===============6596110187843365382==--
+--===============6476670328096273092==--
