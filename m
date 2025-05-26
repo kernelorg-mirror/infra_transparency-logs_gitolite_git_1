@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7171597139262340144=="
+Content-Type: multipart/mixed; boundary="===============8622165171539520014=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
-Date: Mon, 26 May 2025 15:19:44 -0000
-Message-Id: <174827278461.1010246.6439735957925087272@gitolite.kernel.org>
+Date: Mon, 26 May 2025 15:19:52 -0000
+Message-Id: <174827279226.1010591.7691624715372012647@gitolite.kernel.org>
 
---===============7171597139262340144==
+--===============8622165171539520014==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,38 @@ repo: pub/scm/linux/kernel/git/shemminger/iproute2
 user: shemminger
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 969817ce1ddb1aab375d74d0eee6454c13656f84
-    new: 401816cc9c7cde7b666d4befb06a10d6359c9688
-    log: |
-         401816cc9c7cde7b666d4befb06a10d6359c9688 v6.15.0
-         
+  - ref: refs/tags/v6.15.0
+    old: 0000000000000000000000000000000000000000
+    new: eeb22cfe0a40ec2d4561601b3f3fd5e25361282f
 
---===============7171597139262340144==
+--===============8622165171539520014==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Stephen Hemminger <stephen@networkplumber.org> 1748272817 -0700
+pusher Stephen Hemminger <stephen@networkplumber.org> 1748272825 -0700
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/shemminger/iproute2.git
-nonce 1748272784-849825f638665e7423314ba2992b34ed210a96ba
+nonce 1748272791-bc70ebbd9c03c6217a2e50f65a478409add8e274
 
-969817ce1ddb1aab375d74d0eee6454c13656f84 401816cc9c7cde7b666d4befb06a10d6359c9688 refs/heads/main
+0000000000000000000000000000000000000000 eeb22cfe0a40ec2d4561601b3f3fd5e25361282f refs/tags/v6.15.0
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEn2/DRbBb5+dmuDyPgKd/YJXN5H4FAmg0hrEbHHN0ZXBoZW5A
-bmV0d29ya3BsdW1iZXIub3JnAAoJEICnf2CVzeR++zwP/14PkKUjZq+8ZGcCRGul
-RlxvpcUKsI9QXLg5o/O7VSEF4mdrCLtWoQjhi7o/CLJrrm/Aadz2d10eOWPhwheJ
-VT51T2gsu1i4dg7JwTqIG02Q6NUMqz3yY+RpoYkHKuO8YFmrkxcBTjy128B2sZQ1
-A34P1KzoH59DM6kdcr/noUbJgjo2J5E0fZ7C1VcqQBkgScsSrT0gYJU7f64KKqIh
-4YgUxqlOR2a0md8gxgeOrb4/m5l6QtXfw+OoBm9GjE02Mo/C3lss7PcGBDQwHjO5
-YiZ36x4u4wxZErfocbqexSSc6OBZV7UOziDdHlOtKp+0V4X2kES6xOhaipaqL3Au
-Fy1C5ihslhFSmLleQOWGYah9V2l/R07D2yWHAFokzpbMaA8YCLY/puo0pDIQw/A9
-Bi12hJQ/Y+RTcF4pLcAm4Sok5xm/HPpqKu7WEKqexBFrSWQWYZZVM4JAV4HB8ASt
-FjB5nX1oRUx2OqkGMJEACpI/mnDrccVNAgKIekJ6LaFnByYND9+70EipRtKHHYHB
-nygJ36Pg6oMS647Y3ETzbXMX4n9iuE/E19iCQ7++Re/t/rqDRnx0ezQOqgQpjQVH
-ZBESvoXHJ9RNMdolWuz1Njjz7V+A2rfA3um2UZNBJ+09VMAzFfaLZqTcS/5sVwHV
-rT5UZC28KvvrkO3k0cveuaHn
-=XtkU
+iQJPBAABCAA5FiEEn2/DRbBb5+dmuDyPgKd/YJXN5H4FAmg0hrkbHHN0ZXBoZW5A
+bmV0d29ya3BsdW1iZXIub3JnAAoJEICnf2CVzeR+M/gP+wekAvoagr7LyXP7uZeL
+f7e86PdUYW8uod1Z4lJDSVa3chJgWlfnGr6fZFR6f6ZqVMhdzEiSE+qZkmHfSQnF
+6EMyCEiJAOgLvX4Ys4WXyOPFB2gKk41p9pdgKS1OO2ugxb4s78khvlHzYxP7iBxQ
+/Syhx6kkOG9li9ysyIOpXeISv6Lq/gxoLeoumixxzFVflWvSB7vAWI1pTF83qkYf
+TFb1C6y/Z1xvKLm12+2FmzRAntq16Ra7csrUJ2psT4AqIjLPTihwKYmzXs1LWzTc
+bXPeIIs5wHDk42pYlZMA3PbOCPul4XoI2ZqieZR6re8vO/GamVJrz6lwV52bhkPs
+zY9dF0L0U5g4z9jS9lKbjVOCR3GD+W4bD5ov5zmHrDK8+ImzcEM3C0ApUd3HSVos
+wI5iqgRWeLI3a1NfCOKcUoUIEZLxV46lQw2rwq7RDISUSlCYm9/WqlfQwkLZ7Msv
+l+5/5cm5ZI5kILram2CNHQMECqAQgMVcK+ikiD+6Z63HLkYsXbm3xVKTXgBM6Kvd
+CasukkL67FiwIttIY/ZFvwoTKZ3KuRQU0cyXYMx8Nj11L+k916bSH2u46jwpefB0
+cafqOSbCGGJUtwP7/vgCed/AKuJZU5iuvc8I8LlMoiguEXBdpyxNTpif/ek/6SK/
+4FSTv7miDpJZW/YxPxG6X884
+=iaK7
 -----END PGP SIGNATURE-----
 
---===============7171597139262340144==--
+--===============8622165171539520014==--
