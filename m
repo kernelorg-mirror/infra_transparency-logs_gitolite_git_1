@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Tue, 27 May 2025 14:35:20 -0000
-Message-Id: <174835652056.2248090.15086431515745687609@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/superm1/amd-debug-tools
+Date: Tue, 27 May 2025 14:38:09 -0000
+Message-Id: <174835668941.2249474.9232304202177802513@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: sashal
+repo: pub/scm/linux/kernel/git/superm1/amd-debug-tools
+user: superm1
 changes:
   - ref: refs/heads/master
-    old: 6e8d95b6f92d672ca4a3ea5a00eb38b99d5ef403
-    new: 12594a901837a43fbff714d16723754fb23d497c
+    old: 1bc53be031edb58e71103e97661a1a894cce1766
+    new: b9cd4b84dc9007b84332c32912e44abdbe3101a7
     log: |
-         12594a901837a43fbff714d16723754fb23d497c cve_classifier: Improve LLM response parsing to prioritize bold indicators
+         b9cd4b84dc9007b84332c32912e44abdbe3101a7 Add a check for DCN 3.5.0 DMCUB microcode version
          
