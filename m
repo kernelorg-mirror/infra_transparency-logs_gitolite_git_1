@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8169730316171011171=="
+Content-Type: multipart/mixed; boundary="===============2229986757868733295=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-rt-devel
-Date: Tue, 27 May 2025 06:48:31 -0000
-Message-Id: <174832851160.1788829.12430521532364577158@gitolite.kernel.org>
+Date: Tue, 27 May 2025 06:49:01 -0000
+Message-Id: <174832854126.1789302.7487080927278806731@gitolite.kernel.org>
 
---===============8169730316171011171==
+--===============2229986757868733295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,158 +16,44 @@ repo: pub/scm/linux/kernel/git/rt/linux-rt-devel
 user: bigeasy
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/linux-6.12.y
-    old: 19b4657de424f48a588eb379fe3214d317f46cd7
-    new: f08cdc6cc92e3d23a05745f0f12f8caa348a27b4
-    log: revlist-19b4657de424-f08cdc6cc92e.txt
-  - ref: refs/heads/linux-6.12.y-rt-patches
-    old: b7402ed929a05397b5c02802bdfaae40df4f2fc8
-    new: cc580a1640c0ecbfefcaf628e788c98e9f37ca97
-    log: |
-         cc580a1640c0ecbfefcaf628e788c98e9f37ca97 [ANNOUNCE] v6.12.28-rt10
-         
-  - ref: refs/tags/v6.12.17
-    old: 0000000000000000000000000000000000000000
-    new: aef79454fadc478ab3e7698ccdaf97b8a3e3387d
-  - ref: refs/tags/v6.12.18
-    old: 0000000000000000000000000000000000000000
-    new: 85402141de99a70e399e48ae78c021ea98fa2421
-  - ref: refs/tags/v6.12.19
-    old: 0000000000000000000000000000000000000000
-    new: 4428fff8b978550f59dfde9a74c6a4501cd199ab
-  - ref: refs/tags/v6.12.20
-    old: 0000000000000000000000000000000000000000
-    new: 0402e13ddfd2343f5b5b31258c8a48e677bfde91
-  - ref: refs/tags/v6.12.21
-    old: 0000000000000000000000000000000000000000
-    new: e0f3750ee897d6e8b51e9616c84afc79bbd0c422
-  - ref: refs/tags/v6.12.22
-    old: 0000000000000000000000000000000000000000
-    new: 440c280c7f7750e63df7dba7e4e0ea9c16d2c196
-  - ref: refs/tags/v6.12.23
-    old: 0000000000000000000000000000000000000000
-    new: 3149f5e2f084da63ccbdafa9e75f1d4dcd1aed40
-  - ref: refs/tags/v6.12.24
-    old: 0000000000000000000000000000000000000000
-    new: 86bb3cb2dc1118d79152dc65d0658fd1c472a07d
-  - ref: refs/tags/v6.12.25
-    old: 0000000000000000000000000000000000000000
-    new: 9c8ab9fd686a6a78cf88f3f024cab4212dc11d1e
-  - ref: refs/tags/v6.12.26
-    old: 0000000000000000000000000000000000000000
-    new: 825123ebf7dcbf3e859f146ea8c8e00873278086
-  - ref: refs/tags/v6.12.27
-    old: 0000000000000000000000000000000000000000
-    new: 8d630cf37a6401d9dce6af0614a74829f209dcb9
-  - ref: refs/tags/v6.12.28
-    old: 0000000000000000000000000000000000000000
-    new: 9805e3a3af95f18c1930a84105a88dfe7f9843a0
-  - ref: refs/tags/v6.12.28-rt10-patches
-    old: 0000000000000000000000000000000000000000
-    new: 736c9fdaac4fcccbb5fae2fac3586d192c523a1b
-  - ref: refs/tags/v6.12.28-rt10-rebase
-    old: 0000000000000000000000000000000000000000
-    new: 9e9f537fa20bc6f8608411e3bf22e85f3b8e4cf2
-  - ref: refs/tags/v6.12.29
-    old: 0000000000000000000000000000000000000000
-    new: c396eeaeb991c54ca21d025fc48128c50843607e
-  - ref: refs/tags/v6.12.30
-    old: 0000000000000000000000000000000000000000
-    new: 4eb8ff2219f2df83311131edc35210697078e9a3
+  - ref: refs/heads/linux-6.12.y-rt-rebase
+    old: 1dddb63461465631d33b6c844c3cea765e941713
+    new: 43c9d241292dd5ce09c065a44c840dce7f0c6a94
+    log: revlist-1dddb6346146-43c9d241292d.txt
 
---===============8169730316171011171==
+--===============2229986757868733295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Sebastian Andrzej Siewior <bigeasy@linutronix.de> 1748328514 +0200
+pusher Sebastian Andrzej Siewior <bigeasy@linutronix.de> 1748328546 +0200
 pushee ssh://ko-g/pub/scm/linux/kernel/git/rt/linux-rt-devel.git
-nonce 1748328480-671277a199a8dea331ce1b361ed6a9675092a0f0
+nonce 1748328512-db324d6d311b9afecd6b736c883470dadcfc6886
 
-19b4657de424f48a588eb379fe3214d317f46cd7 f08cdc6cc92e3d23a05745f0f12f8caa348a27b4 refs/heads/linux-6.12.y
-b7402ed929a05397b5c02802bdfaae40df4f2fc8 cc580a1640c0ecbfefcaf628e788c98e9f37ca97 refs/heads/linux-6.12.y-rt-patches
-0000000000000000000000000000000000000000 aef79454fadc478ab3e7698ccdaf97b8a3e3387d refs/tags/v6.12.17
-0000000000000000000000000000000000000000 85402141de99a70e399e48ae78c021ea98fa2421 refs/tags/v6.12.18
-0000000000000000000000000000000000000000 4428fff8b978550f59dfde9a74c6a4501cd199ab refs/tags/v6.12.19
-0000000000000000000000000000000000000000 0402e13ddfd2343f5b5b31258c8a48e677bfde91 refs/tags/v6.12.20
-0000000000000000000000000000000000000000 e0f3750ee897d6e8b51e9616c84afc79bbd0c422 refs/tags/v6.12.21
-0000000000000000000000000000000000000000 440c280c7f7750e63df7dba7e4e0ea9c16d2c196 refs/tags/v6.12.22
-0000000000000000000000000000000000000000 3149f5e2f084da63ccbdafa9e75f1d4dcd1aed40 refs/tags/v6.12.23
-0000000000000000000000000000000000000000 86bb3cb2dc1118d79152dc65d0658fd1c472a07d refs/tags/v6.12.24
-0000000000000000000000000000000000000000 9c8ab9fd686a6a78cf88f3f024cab4212dc11d1e refs/tags/v6.12.25
-0000000000000000000000000000000000000000 825123ebf7dcbf3e859f146ea8c8e00873278086 refs/tags/v6.12.26
-0000000000000000000000000000000000000000 8d630cf37a6401d9dce6af0614a74829f209dcb9 refs/tags/v6.12.27
-0000000000000000000000000000000000000000 9805e3a3af95f18c1930a84105a88dfe7f9843a0 refs/tags/v6.12.28
-0000000000000000000000000000000000000000 736c9fdaac4fcccbb5fae2fac3586d192c523a1b refs/tags/v6.12.28-rt10-patches
-0000000000000000000000000000000000000000 9e9f537fa20bc6f8608411e3bf22e85f3b8e4cf2 refs/tags/v6.12.28-rt10-rebase
-0000000000000000000000000000000000000000 c396eeaeb991c54ca21d025fc48128c50843607e refs/tags/v6.12.29
-0000000000000000000000000000000000000000 4eb8ff2219f2df83311131edc35210697078e9a3 refs/tags/v6.12.30
+1dddb63461465631d33b6c844c3cea765e941713 43c9d241292dd5ce09c065a44c840dce7f0c6a94 refs/heads/linux-6.12.y-rt-rebase
 -----BEGIN PGP SIGNATURE-----
 
-iQHKBAABCgA0FiEEV4kucFIzBRM39v3RBWQfF1cS+lsFAmg1YEIWHGJpZ2Vhc3lA
-bGludXRyb25peC5kZQAKCRAFZB8XVxL6W9nYC/4m2hI8MxKHjpg5zEQuFiWSlCnn
-aWQBaHDN6eh/lqXSy133kty/c9W7imnsQ60kPzs/x3otw86059LEKp9DA7YEUlbp
-+NEvItqyTfkNvjfHYdWuxeD3TbjZCap2YwVFJNuZO/JnrekNDvFbrLkG0LmovNCl
-3XTzrF/mAUtbLPpKzsYS3OvBfCFSmMl5YAsQQIU0HTyRpiElIereijwh1g+pmsg8
-Y0JqUIHLEln3OK1y+nGK+Fv665QU6UQNEASVWliukD50tXqi9Vfct5cZgG9Zmrvt
-gRqMKJec8PL89HKzTORBmdniaryeaNTfbhrmAisRbXxdd8Pl4qr73Mp6kOKZByXJ
-IhHfHEAFJ9a7nt1GEtMBCElr6+iRmVQ+k60gfJoeGM0uF3mopAmYuiJjUTfGz3+K
-p//MaQt8QUDJe8u7TTOTk3Z/UGKNhpIpMblkh82EQXrfN6soU3TsUC9NWfL0h0s2
-/sIzPvRP4TvShCmxPslp1NYHP3AlYyF97teGLWs=
-=S1s9
+iQHKBAABCgA0FiEEV4kucFIzBRM39v3RBWQfF1cS+lsFAmg1YGIWHGJpZ2Vhc3lA
+bGludXRyb25peC5kZQAKCRAFZB8XVxL6W62YC/0VHVFLw6Ga4wirkl2//zWPLAY9
+a7A2bxmeMo7wEgPolb+kFupygyel00G9MjLj1frSTuX8MPmPeZo1eDnwf8l5RH8Z
+yBZxph5uu31tW4Wm9kEPEWkbvvG20+XxuzbiGkuuzohnMFF4RxrCK1Fa7gVxu0WF
+frB3NWA4T5bu3FP9rgz8HlFW6MiaecRA9WSCqb9etIAUrvSvxSfA4h8O9xewsrI3
+3S8h0Rfarl8SM+mvsLSAiJMxXBorz27amluBbUgC+5wsNHTL/rEJgKgiOpbxwksI
+i63Hb+0N0AjL0iGDW5n2uzlvNdUQpLLP1NTUjdI7HMbF54Pr2zKbNbAaMcBVAf/2
++09VoH3gE9rfpEbyTHtWIr35vzZLEbReHolotz3PPhfq4EJ+DVNGhFKT/2W1OoS+
+IfToBMOv+8WcqZfDoxV8Z1rbZpgmZwVf8j17gDg1IVxnaEQXkciuc336iK6cBAhM
+rScMglRiSzGiUUClbSlLzEh2b2Xt1zp/GJ6yB7g=
+=jDxg
 -----END PGP SIGNATURE-----
 
---===============8169730316171011171==
+--===============2229986757868733295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-19b4657de424-f08cdc6cc92e.txt
+Content-Disposition: attachment; filename=revlist-1dddb6346146-43c9d241292d.txt
 
-6d98cd63426e35208a380ab43afeb9184bb29477 net: phy: move phy_link_change() prior to mdio_bus_phy_may_suspend()
-a6ed6f8ec81b8ca7100dcd9e62bdbc0dff1b2259 net: phy: allow MDIO bus PM ops to start/stop state machine for phylink-controlled PHY
-cc16f7402a9120446339d969d334b654da59787b ipv6: Align behavior across nexthops during path selection
-b4c836d33ca888695b2f2665f948bc1b34fbd533 net: ppp: Add bound checking for skb data on ppp_sync_txmung
-7640c2abb6474808c07acc079763123aceb0532e nft_set_pipapo: fix incorrect avx2 match of 5th field octet
-5efd53900acc658ac0570cddd2078a772ad3b269 iommu/exynos: Fix suspend/resume with IDENTITY domain
-a0842539e8ef9386c070156103aff888e558a60c iommu/mediatek: Fix NULL pointer deference in mtk_iommu_device_group
-c61feda3735068ad22422ffc7a81752e07d73fb1 perf/core: Add aux_pause, aux_resume, aux_start_paused
-7ef5aa081f989ecfecc1df02068a80aebbd3ec31 perf/core: Simplify the perf_event_alloc() error path
-fa1827fa968c0674e9b6fca223fa9fb4da4493eb perf: Fix hang while freeing sigtrap event
-52535688c27f5a8c8d7f972d40142c52874844d3 fs: consistently deref the files table with rcu_dereference_raw()
-67e85cfa951cb074dabd9ec5ef11b74e78cb5a06 umount: Allow superblock owners to force umount
-f8d28fa305b78c5d1073b63f26db265ba8291ae1 pm: cpupower: bench: Prevent NULL dereference on malloc failure
-837f5cb7be9a5a67d1a983ab2f72f7488628fc17 x86/mm: Clear _PAGE_DIRTY for kernel mappings when we clear _PAGE_RW
-640bb225215810cf883f1bbd30d1d75f1b77d422 x86/percpu: Disable named address spaces for UBSAN_BOOL with KASAN for GCC < 14.2
-48e705652db9c222be67c50e303ff53a9f1469ee x86/ia32: Leave NULL selector values 0~3 unchanged
-f48625eeeb29df394e3aba77373e80ca71961443 x86/cpu: Don't clear X86_FEATURE_LAHF_LM flag in init_amd_k8() on AMD when running in a virtual machine
-1b3ebfb15dc0bb14d3ac202446919acd4b4e9408 perf: arm_pmu: Don't disable counter in armpmu_add()
-89a4db7a67e707533d20649fc4eaa2fcbf29472a perf/dwc_pcie: fix some unreleased resources
-11ae4fec1f4b4ee06770a572c37d89cbaecbf66e PM: hibernate: Avoid deadlock in hibernate_compressor_param_set()
-ead1fc9f93e2e51164f2af55ed356fd1a0b48018 Flush console log from kernel_power_off()
-cb58e909203e3dd4de27838f29fc6928dcb246ea arm64: cputype: Add QCOM_CPU_PART_KRYO_3XX_GOLD
-8d0f280e7aeca42ad3c581175d9628ef64f57e1e xen/mcelog: Add __nonstring annotations for unterminated strings
-97f68e7287e048d4ddc7389ec7a724579e4f8cf1 zstd: Increase DYNAMIC_BMI2 GCC version cutoff from 4.8 to 11.0 to work around compiler segfault
-377b041c22ac204465b40b5f0e0100734fa443e4 platform/chrome: cros_ec_lpc: Match on Framework ACPI device
-5330ce1ee2bec9e51334996965cb15faed5fbd9c ASoC: SOF: topology: Use krealloc_array() to replace krealloc()
-1c0785f16472cedc1db41222e4d4993605ed5a6a HID: pidff: Convert infinite length from Linux API to PID standard
-d21ccf544ca15c863331a8c1e0c377ca4fd18ffe HID: pidff: Do not send effect envelope if it's empty
-fab3dbb604be87374120a1d069b670cd4915882a HID: pidff: Add MISSING_DELAY quirk and its detection
-fd608e2a06c25db6e516e852e72c0a0ed4573838 HID: pidff: Add MISSING_PBO quirk and its detection
-6a20fae104ef93f631b52bca4946eedf403be47c HID: pidff: Add PERMISSIVE_CONTROL quirk
-ed806fd80eba04789915e90c3a087381df0ce0d9 HID: pidff: Add hid_pidff_init_with_quirks and export as GPL symbol
-116d4f67aeb5d8aeec58106d72be3ea1d0dc4835 HID: pidff: Add FIX_WHEEL_DIRECTION quirk
-f45f26a6b3e7260c129c7c6bb0ace63aeb7b3868 HID: Add hid-universal-pidff driver and supported device ids
-0301b85fe6f983d41c0a85e94161e1f262716384 HID: pidff: Add PERIODIC_SINE_ONLY quirk
-f8f4d77710e1c38f4a2bd26c88c4878b5b5e817a HID: pidff: Fix null pointer dereference in pidff_find_fields
-25490b45d17cd3612b712b4b7dec6ce8986ebb42 ASoC: amd: ps: use macro for ACP6.3 pci revision id
-97ae1d5080f7fb6379f79ea2909ba4c96e2aef75 ALSA: hda: intel: Fix Optimus when GPU has no sound
-d981c3d2980aa5564ac4b5acc529c423fc20a17f ALSA: hda: intel: Add Lenovo IdeaPad Z570 to probe denylist
-d4fcd06e1231bf0cc75af312b4ee9a7a3d12409e ASoC: fsl_audmix: register card device depends on 'dais' property
-3c057a49045ffcb0a03242192b90e2eb7610fb45 media: uvcvideo: Add quirk for Actions UVC05
-6d32a30fa1b5795053676de566f11568e8c1467c media: s5p-mfc: Corrected NV12M/NV21M plane-sizes
-fe74885e3609ce74bc314992b7606249ed2acec9 mmc: dw_mmc: add a quirk for accessing 64-bit FIFOs in two halves
 cb1c6cb1105630edf0959aeac8d41c5f48ab686c ALSA: usb-audio: Fix CME quirk for UF series keyboards
 3a03a7f0f872a1a6f53adccf3660924264bf0650 ASoC: amd: Add DMI quirk for ACP6X mic support
 7f04c9e8fffed4bc691daadea7f6166ae3d9e672 ASoC: amd: yc: update quirk data for new Lenovo model
@@ -1149,5 +1035,48 @@ e1eea698582833748c4c19e4bf1dcbfe89cd5317 drivers: base: handle module_kobject cr
 dd329f04dda35a66e0c9ed462ba91bd5f2c8be70 drm/amd/display: Fix slab-use-after-free in hdcp
 db62809197658954a67b446c30677bc25baaf9f3 dm: fix copying after src array boundaries
 f08cdc6cc92e3d23a05745f0f12f8caa348a27b4 Linux 6.12.28
+23de5f7e2300503962882f7bc4e0a3da2839d8b2 hrtimer: Use __raise_softirq_irqoff() to raise the softirq.
+eb1dba921d8bd61f81dd28fc377d2a549a6e6ede timers: Use __raise_softirq_irqoff() to raise the softirq.
+46138d1f7f0e6b534632a3f4ecf9852c6a7b0118 softirq: Use a dedicated thread for timer wakeups on PREEMPT_RT.
+003e180aeeffef8c6a9360ab094339f1bbbe96ea serial: 8250: Switch to nbcon console
+3ec1f6ba019e2e8da169dbe15338b1c97f7a33d6 serial: 8250: Revert "drop lockdep annotation from serial8250_clear_IER()"
+5218cd8eda75d7ab73595502f74662511faaa9b1 locking/rt: Remove one __cond_lock() in RT's spin_trylock_irqsave()
+acba79b56ac1136f128b1cb664b36da69d934f50 locking/rt: Add sparse annotation for RCU.
+96d12a67b7ac2e931765f74b5bc94b0d8554c88b locking/rt: Annotate unlock followed by lock for sparse.
+6c051f7c5b9b945543e6618e503728396fce7a4d drm/i915: Use preempt_disable/enable_rt() where recommended
+a1689a66a3b0d2371a32c1e0b95da9af0eb0731b drm/i915: Don't disable interrupts on PREEMPT_RT during atomic updates
+ef777e9262131c28e8245186c5c4c607ca5cb147 drm/i915: Don't check for atomic context on PREEMPT_RT
+36112a48fb0c503e1de95af973013abf48e98a25 drm/i915: Disable tracing points on PREEMPT_RT
+f167316de44e9f62e2f7676af24d4f870739b016 drm/i915/gt: Use spin_lock_irq() instead of local_irq_disable() + spin_lock()
+661ba96424bf33e56d7894cc41385238ab4c593a drm/i915: Drop the irqs_disabled() check
+cc1a572589bd2fec90044a7d2b8d62975f3f0146 drm/i915/guc: Consider also RCU depth in busy loop.
+cf47a546e477f252e4efe880bed18e0302454bca Revert "drm/i915: Depend on !PREEMPT_RT."
+5f0828145c7176143d55f35d2397c309215af902 sched: Add TIF_NEED_RESCHED_LAZY infrastructure
+f5baf23159b9d91830e0df4a12617379d40ec3ac sched: Add Lazy preemption model
+3a6776ac57efec261983eae4f55c29d8d5127b9a sched: Enable PREEMPT_DYNAMIC for PREEMPT_RT
+f4314868600350582b0a0e72a34992f27bfd6415 sched, x86: Enable Lazy preemption
+45ce3f99af6bc0834569a94ac863028d68799cdc sched: Add laziest preempt model
+a5e7df2c635dda8013895e3b7c494c27727cd1a9 sched: Fixup the IS_ENABLED check for PREEMPT_LAZY
+c55b19c4c5a458d0e15a01bf7dcd3bf47a6fdcc8 powerpc: Add preempt lazy support
+489610ec851a20e3fc6190184a4e354010348942 powerpc: Large user copy aware of full:rt:lazy preemption
+67e0b0533a6863b147c24068cda0d1bf2c0d5cf5 tracing: Remove TRACE_FLAG_IRQS_NOSUPPORT
+fa59e9a8e005e87cd845da80b4e3edcad7d49197 tracing: Record task flag NEED_RESCHED_LAZY.
+002fb95a942b542e26435316a73858f0948d7775 riscv: add PREEMPT_LAZY support
+33064e72943e3720eb7d9a68552003875b466189 arm: Disable jump-label on PREEMPT_RT.
+9108ede7c6f2c5545c7dd4cdbe5d887299674145 ARM: enable irq in translation/section permission fault handlers
+f8a9c36693e2e11fffa2f02c1db231ba4859a2f7 arm: Disable FAST_GUP on PREEMPT_RT if HIGHPTE is also enabled.
+ca41dcb0080c9dd8d91815727fda366f0415f98c ARM: vfp: Provide vfp_state_hold() for VFP locking.
+233b604dd6f8efa5c4b284477fe5ef2f8bb39a00 ARM: vfp: Use vfp_state_hold() in vfp_sync_hwstate().
+4c28ae984983bc071e5dd43efb13efe9e9f9fdcf ARM: vfp: Use vfp_state_hold() in vfp_support_entry().
+cb08e916f1511f9a473f32418ae70f5e26748aff ARM: vfp: Move sending signals outside of vfp_state_hold()ed section.
+6d1c16f9acf7096cf395415e69c941b0902f9ab2 ARM: Allow to enable RT
+b92b396e74738bde53bfc38ac9e0d6e68386c1e5 powerpc: traps: Use PREEMPT_RT
+340df8d8985bf74dfd0fea65eaec3fd8c2f188e4 powerpc/pseries/iommu: Use a locallock instead local_irq_save()
+f3d88d8edfdecf6a4b10dcef04fc1038bcfa694f powerpc/pseries: Select the generic memory allocator.
+49cdabee409319ecaef0689cc60675ac6534f881 powerpc/kvm: Disable in-kernel MPIC emulation for PREEMPT_RT
+c36c78a43ec00a33795bc505bc0c602d385a652b powerpc/stackprotector: work around stack-guard init from atomic
+602b55e48f2b2c09788169ee7cb6ddcc66bfa4e8 POWERPC: Allow to enable RT
+e721bb1d1350adf573a07ee10ddd789c4db577e6 sysfs: Add /sys/kernel/realtime entry
+43c9d241292dd5ce09c065a44c840dce7f0c6a94 Add localversion for -RT release
 
---===============8169730316171011171==--
+--===============2229986757868733295==--
