@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Tue, 27 May 2025 12:49:17 -0000
-Message-Id: <174835015756.2146024.13706214703814870963@gitolite.kernel.org>
+Date: Tue, 27 May 2025 13:00:13 -0000
+Message-Id: <174835081382.2156824.12296913928132514045@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,12 +12,12 @@ repo: pub/scm/linux/kernel/git/vfs/vfs
 user: brauner
 changes:
   - ref: refs/heads/work.coredump.socket.protocol
-    old: ec668953f7f9ba796a177badf334c54529efbcfd
-    new: 3ad97ef0d8c228609a5900f71972d214f36e2804
+    old: 3ad97ef0d8c228609a5900f71972d214f36e2804
+    new: cb5f73bef28a0477715f449b2ceb17e77a1b640a
     log: |
-         6314fa30ccb3082e024a566db172021cd1a7b945 coredump: allow better parameter control
-         bc6969b5ba47b3b312f0c3940fa509685fbcb4b0 selftests/coredump: fix build
-         cd800f90da36448da25b21c7ab45361ee14fde98 tools: add coredump.h header
-         8605da9d1af6bdde7bb66bb3b8524d9bce8166fc selftests/coredump: add more coredump selftests
-         3ad97ef0d8c228609a5900f71972d214f36e2804 coredump: extend coredump socket
+         9ce83f52a131f8806989e05df19215c433c8e7c8 coredump: allow better parameter control
+         c07f148191f374ee22c2d0c4796926e1f46c8780 selftests/coredump: fix build
+         7f0958067c90d2465778984936f175ad82e5eb65 tools: add coredump.h header
+         d3d16b58328589d99fdc8fdadd5d4dddc064c11d selftests/coredump: add more coredump selftests
+         cb5f73bef28a0477715f449b2ceb17e77a1b640a coredump: extend coredump socket
          
