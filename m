@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4149971990648294350=="
+Content-Type: multipart/mixed; boundary="===============6775903450776612359=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
-Date: Tue, 27 May 2025 19:12:19 -0000
-Message-Id: <174837313954.2564844.4511117342418881028@gitolite.kernel.org>
+Date: Tue, 27 May 2025 19:12:25 -0000
+Message-Id: <174837314570.2565136.18191833733002786971@gitolite.kernel.org>
 
---===============4149971990648294350==
+--===============6775903450776612359==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tj/wq
 user: tj
 changes:
-  - ref: refs/heads/master
-    old: 01f95500a162fca88cefab9ed64ceded5afabc12
-    new: 015a99fa76650e7d6efa3e36f20c0f5b346fe9ce
-    log: revlist-01f95500a162-015a99fa7665.txt
+  - ref: refs/heads/test-merge
+    old: 4fb1a02321fc1a9d051de3f35940c2e7f3c8b649
+    new: 2458f4bad12a6c7bf990241ea5db80db43d8ebf1
+    log: revlist-4fb1a02321fc-2458f4bad12a.txt
 
---===============4149971990648294350==
+--===============6775903450776612359==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-01f95500a162-015a99fa7665.txt
+Content-Disposition: attachment; filename=revlist-4fb1a02321fc-2458f4bad12a.txt
 
-b696440e5e13490bbd23f7c4656a861db04d14d7 btrfs: add btrfs prefix to dio lock and unlock extent functions
 2cb9ac3faadc964f2640f55246c1f4f6c5ea76be btrfs: rename __lock_extent() and __try_lock_extent()
 9d222562b415f19efd32d7a5290f40bb07feea3b btrfs: rename the functions to clear bits for an extent range
 791b3455aca10bc28e996c2ff81bc1e078248cf3 btrfs: rename set_extent_bit() to include a btrfs prefix
@@ -1050,5 +1049,6 @@ dd3922cf9d4d1421e5883614d1a6add912131c00 Merge tag 'x86_sev_for_v6.16_rc1' of gi
 95bf3760eb9ceeb93febdc280695347b1e0a89c1 Merge tag 'lkmm.2025.05.25a' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
 3e443d167327b10966166c1953631936547b03d0 Merge tag 'docs-6.16' of git://git.lwn.net/linux
 015a99fa76650e7d6efa3e36f20c0f5b346fe9ce Merge tag 'nolibc-20250526-for-6.16-1' of git://git.kernel.org/pub/scm/linux/kernel/git/nolibc/linux-nolibc
+2458f4bad12a6c7bf990241ea5db80db43d8ebf1 Merge branch 'for-6.16' into test-merge
 
---===============4149971990648294350==--
+--===============6775903450776612359==--
