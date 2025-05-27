@@ -1,23 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Tue, 27 May 2025 13:00:13 -0000
-Message-Id: <174835081382.2156824.12296913928132514045@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7500522470244297685=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Tue, 27 May 2025 13:07:15 -0000
+Message-Id: <174835123532.2162485.14040206636956205513@gitolite.kernel.org>
+
+--===============7500522470244297685==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/work.coredump.socket.protocol
-    old: 3ad97ef0d8c228609a5900f71972d214f36e2804
-    new: cb5f73bef28a0477715f449b2ceb17e77a1b640a
+  - ref: refs/heads/master
+    old: 2cf18b7358a45efdae7201826ad9f0a3cbe90b23
+    new: 7f24495d9430328b4e25bda81e7eece9ea41d411
     log: |
-         9ce83f52a131f8806989e05df19215c433c8e7c8 coredump: allow better parameter control
-         c07f148191f374ee22c2d0c4796926e1f46c8780 selftests/coredump: fix build
-         7f0958067c90d2465778984936f175ad82e5eb65 tools: add coredump.h header
-         d3d16b58328589d99fdc8fdadd5d4dddc064c11d selftests/coredump: add more coredump selftests
-         cb5f73bef28a0477715f449b2ceb17e77a1b640a coredump: extend coredump socket
+         7f24495d9430328b4e25bda81e7eece9ea41d411 Update EE7A392FDE96209F (Alice Ryhl)
          
+
+--===============7500522470244297685==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1748351267 -0400
+pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
+nonce 1748351234-ea5d1639cc5d1bf5b9192d27cbe97252768400e9
+
+2cf18b7358a45efdae7201826ad9f0a3cbe90b23 7f24495d9430328b4e25bda81e7eece9ea41d411 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaDW5IwAKCRC2xBzjVmSZ
+bGIUAPoDL0xeZctLNypu0JA5h+7L/wJqbfGfk2vf7k9UD/WAsQEAoiuiIYg9AJos
+eE4EeEBhuNuUkqGUvQzAL8MLffGNTgk=
+=WLjN
+-----END PGP SIGNATURE-----
+
+--===============7500522470244297685==--
