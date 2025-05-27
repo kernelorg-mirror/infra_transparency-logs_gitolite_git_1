@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Tue, 27 May 2025 20:53:16 -0000
-Message-Id: <174837919612.2654142.13652689342535076403@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 27 May 2025 21:08:46 -0000
+Message-Id: <174838012674.2666484.1166307495784546850@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
   - ref: refs/heads/master
-    old: f8c6693139de446efaf98a30117eb9fd1ac7ceb2
-    new: b14bfe90ae4ecf632bde3ba826be64030a60979f
+    old: ca56fbd5081e1c4340799040ee9cb849ee45249d
+    new: 5ffb537e416ee22dbfb3d552102e50da33fec7f6
     log: |
-         05967f5650a37013fbc63b1ecd996c64f06e2011 mgmt: Add revision information for fields
-         b14bfe90ae4ecf632bde3ba826be64030a60979f mgmt-api: Remove text only documentation
+         e2d2115e56c4a02377189bfc3a9a7933552a7b0f bpf: Do not include stack ptr register in precision backtracking bookkeeping
+         5ffb537e416ee22dbfb3d552102e50da33fec7f6 selftests/bpf: Add tests with stack ptr register in conditional jmp
          
