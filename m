@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/superm1/amd-debug-tools
-Date: Tue, 27 May 2025 19:18:25 -0000
-Message-Id: <174837350551.2570829.16308479547757528990@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
+Date: Tue, 27 May 2025 19:25:30 -0000
+Message-Id: <174837393062.2578203.4791140498587614438@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/superm1/amd-debug-tools
-user: superm1
+repo: pub/scm/linux/kernel/git/zohar/linux-integrity
+user: zohar
 changes:
-  - ref: refs/heads/master
-    old: 7e115762eb8f847b1cfda881940152a2d1f36333
-    new: 80ad395eb0ccecda53e2a9b2e2fb77df49009087
-    log: |
-         80ad395eb0ccecda53e2a9b2e2fb77df49009087 Add support di-edid-decode
-         
+  - ref: refs/tags/integrity-v6.16
+    old: 0000000000000000000000000000000000000000
+    new: 0683f481a62970025d2201d55e9d61833f1758c5
