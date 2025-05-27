@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6800118187524992899=="
+Content-Type: multipart/mixed; boundary="===============2670866057527746147=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Tue, 27 May 2025 07:37:13 -0000
-Message-Id: <174833143375.1833271.5922846928320262355@gitolite.kernel.org>
+Date: Tue, 27 May 2025 07:39:53 -0000
+Message-Id: <174833159389.1835260.8126799934912858864@gitolite.kernel.org>
 
---===============6800118187524992899==
+--===============2670866057527746147==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,24 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/WIP.x86/cpu
-    old: 5755980529ae3214810cac036f6788ec2f795246
-    new: 718c18df87435b0e666ebbcc3fd22bc04d8e15ff
-    log: revlist-5755980529ae-718c18df8743.txt
+  - ref: refs/heads/WIP.x86/boot
+    old: 66f3a1ae5599b0246fa23753c2bebbfdc040563a
+    new: 20573be9979cc24d694cfe906fcc8e5e93b82d04
+    log: revlist-66f3a1ae5599-20573be9979c.txt
 
---===============6800118187524992899==
+--===============2670866057527746147==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5755980529ae-718c18df8743.txt
+Content-Disposition: attachment; filename=revlist-66f3a1ae5599-20573be9979c.txt
 
-ca43b74ac3040ae13be854e6a71ebd7a91e5fcfc xfs: remove some EXPERIMENTAL warnings
-1c7161ef0164716fdf4618b50747bd3002625e38 xfs: remove the EXPERIMENTAL warning for pNFS
-b04f0d89e880bc2cca6a5c73cf287082c91878da arm64: dts: marvell: uDPU: define pinctrl state for alarm LEDs
-4ed9d82bf5b21d65e2f18249eec89a6a84df8f23 objtool: Speed up SHT_GROUP reindexing
-676e8cf70cb0533e1118e29898c9a9c33ae3a10f sched,livepatch: Untangle cond_resched() and live-patching
-83c178470e0bf690d34c8c08440f2421b82e881c phy: tegra: xusb: remove a stray unlock
-54c4c58713aaff76c2422ff5750e557ab3b100d7 phy: renesas: rcar-gen3-usb2: Fix role detection on unbind/bind
 de76809f60cc938d3580bbbd5b04b7d12af6ce3a phy: renesas: rcar-gen3-usb2: Move IRQ request in probe
 55a387ebb9219cbe4edfa8ba9996ccb0e7ad4932 phy: renesas: rcar-gen3-usb2: Lock around hardware registers and driver data
 9ce71e85b29eb63e48e294479742e670513f03a0 phy: renesas: rcar-gen3-usb2: Assert PLL reset on PHY power off
@@ -129,6 +122,7 @@ ff27a9a0c66cfeb6a15d8f2ab4754f312ecd71e7 powerpc/mm/fault: Use str_write_read() 
 f36a28192e3cbef6952c1b82d4ef78f26a0d2cad powerpc/powermac: Use str_enabled_disabled() and str_on_off() helpers
 f15e87340afd4f5a35575e112aa4bdb0a138aa26 powerpc/iommu: Use str_disabled_enabled() helper
 088d13246a4672bc03aec664675138e3f5bff68c Merge tag 'kbuild-fixes-v6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+25219c2578b32c96087569d074e32c8ae634d602 x86/asm-offsets: Export certain 'struct cpuinfo_x86' fields for 64-bit asm use too
 8d9117009dd690f647a66912f429c96335069907 fuse: don't allow signals to interrupt getdents copying
 e7b9cea718eee4585a947b10086ca51ad27ef5d4 vfs: Add sysctl vfs_cache_pressure_denom for bulk file operations
 78ab4be549533432d97ea8989d2f00b508fa68d8 wifi: mt76: disable napi on driver removal
@@ -1035,20 +1029,26 @@ ddddf9d64f7361323da663637adb4a02466bfc99 Merge tag 'perf-core-2025-05-25' of git
 0aee0617267866555b4e35bd11e1fbb291fa9743 Merge tag 'x86-debug-2025-05-25' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 24244df067c5514ad72b8ad371208b1139dfd0f0 Merge tag 'x86-entry-2025-05-25' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 914873bc7df913db988284876c16257e6ab772c6 Merge tag 'x86-build-2025-05-25' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-caa292b622db7291357b2a8ce989921f7bc74acf x86/cpu: Remove M486/M486SX/ELAN support
-a7a769d4f354d9c1d9af8ca08701860dccb90392 x86/cpu: Remove CONFIG_MWINCHIP3D/MWINCHIPC6
-a651bd1f61f661fc727b3bd99dbb37672f0c8e58 x86/cpu: Remove CPU_SUP_UMC_32 support
-292336f63bcbae2729b33e183f382b15129ec45b x86/cpu: Remove TSC-less CONFIG_M586 support
-0e321b21296c5d0de28bd3b83d3663add808e6da x86/cpu, x86/platform, watchdog: Remove CONFIG_X86_RDC321X support
-d88e0118ea427909960892b5887dcc7bb37d38a0 x86/cpu: Remove the CONFIG_X86_INVD_BUG quirk
-6699d555d7bc16977a79458e355849e8cda7c68a x86/cpu, cpufreq: Remove AMD ELAN support
-b822a3db5b5247cb50b6b74d675e896c85fbbab9 x86/fpu: Remove MATH_EMULATION and related glue code
-27c06b14204829cdb6ee8e76e199c16a4559e5be x86/fpu: Remove the 'no387' boot option
-08c3667ae6a25f6e52e007066551a5f75fcbd22e x86/fpu: Remove the math-emu/ FPU emulation library
-533ec31871e399f251e26b33eec583883a6999c0 x86/cpu: Make CONFIG_X86_TSC unconditional
-9c8e386f11c844473edacd6d6bbd5e10f2edbc61 x86: Remove !CONFIG_X86_TSC code
-4b78f52876d6917f158ccf89ff8d550dd20a9a68 x86/cpu: Make CONFIG_X86_CX8 unconditional
-199a215bbd8766d94a2651f02d4eeff40c0aa68b x86/atomics: Remove !CONFIG_X86_CX8 methods
-718c18df87435b0e666ebbcc3fd22bc04d8e15ff x86/percpu: Remove !CONFIG_X86_CX8 methods
+e46bb7d6337252b6f23ed4985b254c06aead9b5f x86/sev: Separate MSR and GHCB based snp_cpuid() via a callback
+d0916b5cd922d2899ed33723d0465ccdb1f43aaf x86/sev: Use MSR protocol for remapping SVSM calling area
+b598549035f0e9ae3e05adfdd2b8caf2c709060c x86/sev: Use MSR protocol only for early SVSM PVALIDATE call
+61d59886f04a0184b73611698be293e56f7fe44f x86/sev: Run RMPADJUST on SVSM calling area page to test VMPL
+61be44a80361f42b4da9af7dd8aba1d4fad7b6f6 x86/sev: Move GHCB page based HV communication out of startup code
+c3e7de35039a69c6ea1bc9f61d6f64329c7c8207 x86/sev: Avoid global variable to store virtual address of SVSM area
+71ac76f58c7bb3097d5112d1d531f041fcee48b9 x86/sev: Move MSR save/restore out of early page state change helper
+0ae9bc030a3ab8d593f0ecb1b9415470cc34f295 x86/sev: Share implementation of MSR-based page state change
+7dcd75c536929553b04bac46265844099a909715 x86/sev: Pass SVSM calling area down to early page state change API
+669aa5ab70a68ae9a6ff36148e4529ffdb494f42 x86/sev: Use boot SVSM CA for all startup and init code
+b6ad1ea0829491ba37598299c99fbce48545e7ad x86/boot: Drop redundant RMPADJUST in SEV SVSM presence check
+809426b86c3dd6a2f95ff484dd913cb92e92ccfd x86/sev: Unify SEV-SNP hypervisor feature check
+99347189ba561835bba8fcd8b7733be985afaaf6 x86/sev: Provide PIC aliases for SEV related data objects
+6cbcbfac69e58d747a1501454cf4d8e8683b949d x86/boot: Provide PIC aliases for 5-level paging related constants
+22be2f0713d597c3ab7ee1599dfd428d4d23cfba x86/sev: Move __sev_[get|put]_ghcb() into separate noinstr object
+ccdf275dcd6306a437d96b7b29abbc600d3f67bb x86/sev: Export startup routines for later use
+e867f1151440cf8dac7a2ecada3548413af0f306 x86/boot: Create a confined code area for startup code
+f91ec33b85c016145b4f8f8fdcfe6a8386e1d227 x86/boot: Move startup code out of __head section
+7c1853e047d44a8aef3fc8a6e0759eee41e835bb x86/boot: Disallow absolute symbol references in startup code
+caf93340a55b35438f9463690b91328b83260437 x86/boot: Revert "Reject absolute references in .head.text"
+20573be9979cc24d694cfe906fcc8e5e93b82d04 x86/boot: Get rid of the .head.text section
 
---===============6800118187524992899==--
+--===============2670866057527746147==--
