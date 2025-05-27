@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7743898536873385924=="
+Content-Type: multipart/mixed; boundary="===============1966552044608836272=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-rt-devel
-Date: Tue, 27 May 2025 06:30:04 -0000
-Message-Id: <174832740441.1773066.7333948289749898309@gitolite.kernel.org>
+Date: Tue, 27 May 2025 06:30:35 -0000
+Message-Id: <174832743538.1773642.2882952676245050955@gitolite.kernel.org>
 
---===============7743898536873385924==
+--===============1966552044608836272==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,110 +16,54 @@ repo: pub/scm/linux/kernel/git/rt/linux-rt-devel
 user: bigeasy
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/linux-6.15.y
-    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    new: 0ff41df1cb268fc69e703a08a57ee14ae967d0ca
-    log: revlist-0af2f6be1b42-0ff41df1cb26.txt
-  - ref: refs/heads/linux-6.15.y-rt-patches
-    old: a858d49ea450fbe49252418cc84f1f063b2f6656
-    new: 909e348d6e3b845d1c091c75a787cbcb37fa75d3
-    log: |
-         909e348d6e3b845d1c091c75a787cbcb37fa75d3 [ANNOUNCE] v6.15-rt2
-         
-  - ref: refs/heads/master
-    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    new: 0ff41df1cb268fc69e703a08a57ee14ae967d0ca
-    log: revlist-0af2f6be1b42-0ff41df1cb26.txt
-  - ref: refs/tags/v6.15-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 8a834b0ac9ceb354a6e0b8cf5b363edca8221bdd
-  - ref: refs/tags/v6.15-rc3
-    old: 0000000000000000000000000000000000000000
-    new: f34da179a4517854b2ffbe4bce8c3405bd9be04e
-  - ref: refs/tags/v6.15-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 39d6783f6488786301f36b0e7c619f220c3e8d2c
-  - ref: refs/tags/v6.15-rc5
-    old: 0000000000000000000000000000000000000000
-    new: bc720facc421d0ff6d568323035d1a4d5d35ce84
-  - ref: refs/tags/v6.15-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 5cb8274d66c611b7889565c418a8158517810f9b
-  - ref: refs/tags/v6.15-rc7
-    old: 0000000000000000000000000000000000000000
-    new: c3223240f4b9bd8142c101420c76abe8ed1eae73
-  - ref: refs/tags/v6.15-rt2-patches
-    old: 0000000000000000000000000000000000000000
-    new: ef0dfe6222f89632a91490349d259f2b4509fd0f
-  - ref: refs/tags/v6.15-rt2-rebase
-    old: 0000000000000000000000000000000000000000
-    new: fe5ed94c3a3aad071957dc7c157633c23dac9757
+  - ref: refs/heads/for-kbuild-bot/current-stable
+    old: dffd411602b44c7872b109d6df3e228b39ca9ee2
+    new: 8e2a31f2ddd3cf4cad2bc6b2cfeb87173a21a194
+    log: revlist-dffd411602b4-8e2a31f2ddd3.txt
+  - ref: refs/heads/for-kbuild-bot/prepare-release
+    old: dffd411602b44c7872b109d6df3e228b39ca9ee2
+    new: 8e2a31f2ddd3cf4cad2bc6b2cfeb87173a21a194
+    log: revlist-dffd411602b4-8e2a31f2ddd3.txt
+  - ref: refs/heads/linux-6.15.y-rt-rebase
+    old: dffd411602b44c7872b109d6df3e228b39ca9ee2
+    new: 8e2a31f2ddd3cf4cad2bc6b2cfeb87173a21a194
+    log: revlist-dffd411602b4-8e2a31f2ddd3.txt
 
---===============7743898536873385924==
+--===============1966552044608836272==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Sebastian Andrzej Siewior <bigeasy@linutronix.de> 1748327406 +0200
+pusher Sebastian Andrzej Siewior <bigeasy@linutronix.de> 1748327439 +0200
 pushee ssh://ko-g/pub/scm/linux/kernel/git/rt/linux-rt-devel.git
-nonce 1748327372-b58528937a267dc39f0fa537a15ae25566ed111d
+nonce 1748327405-e07b081caeb197155e41ba724df17ca706f4eaf3
 
-0af2f6be1b4281385b618cb86ad946eded089ac8 0ff41df1cb268fc69e703a08a57ee14ae967d0ca refs/heads/linux-6.15.y
-a858d49ea450fbe49252418cc84f1f063b2f6656 909e348d6e3b845d1c091c75a787cbcb37fa75d3 refs/heads/linux-6.15.y-rt-patches
-0af2f6be1b4281385b618cb86ad946eded089ac8 0ff41df1cb268fc69e703a08a57ee14ae967d0ca refs/heads/master
-0000000000000000000000000000000000000000 8a834b0ac9ceb354a6e0b8cf5b363edca8221bdd refs/tags/v6.15-rc2
-0000000000000000000000000000000000000000 f34da179a4517854b2ffbe4bce8c3405bd9be04e refs/tags/v6.15-rc3
-0000000000000000000000000000000000000000 39d6783f6488786301f36b0e7c619f220c3e8d2c refs/tags/v6.15-rc4
-0000000000000000000000000000000000000000 bc720facc421d0ff6d568323035d1a4d5d35ce84 refs/tags/v6.15-rc5
-0000000000000000000000000000000000000000 5cb8274d66c611b7889565c418a8158517810f9b refs/tags/v6.15-rc6
-0000000000000000000000000000000000000000 c3223240f4b9bd8142c101420c76abe8ed1eae73 refs/tags/v6.15-rc7
-0000000000000000000000000000000000000000 ef0dfe6222f89632a91490349d259f2b4509fd0f refs/tags/v6.15-rt2-patches
-0000000000000000000000000000000000000000 fe5ed94c3a3aad071957dc7c157633c23dac9757 refs/tags/v6.15-rt2-rebase
+dffd411602b44c7872b109d6df3e228b39ca9ee2 8e2a31f2ddd3cf4cad2bc6b2cfeb87173a21a194 refs/heads/for-kbuild-bot/current-stable
+dffd411602b44c7872b109d6df3e228b39ca9ee2 8e2a31f2ddd3cf4cad2bc6b2cfeb87173a21a194 refs/heads/for-kbuild-bot/prepare-release
+dffd411602b44c7872b109d6df3e228b39ca9ee2 8e2a31f2ddd3cf4cad2bc6b2cfeb87173a21a194 refs/heads/linux-6.15.y-rt-rebase
 -----BEGIN PGP SIGNATURE-----
 
-iQHKBAABCgA0FiEEV4kucFIzBRM39v3RBWQfF1cS+lsFAmg1W+4WHGJpZ2Vhc3lA
-bGludXRyb25peC5kZQAKCRAFZB8XVxL6W6F7C/4lAAIYE5CAHS5VvXI66k5jQrXz
-/OPr962Qwk8XqtYyCFY5Ox/3u2UDgBgCAduwPDC8PvGOiTJc02WQAnzPWVfBsqaw
-0/WdSGXAwKIKRC9zLHvwaeZWSTX5zpzSxvrtJBt3qUs5sKyVhj9xzKYnIYgU31OY
-5ubfIPPtyPvGkjlNyNhMZyvGUOPu68U9fijAcKh2k4YT6xwqirF59AEFRl/sROvL
-bnBy5H8TZZOLT03ew0M7M2MIX/FV6RMpyveS5Qf1X0zUK5EPbnjNyWuTf50gk21B
-ERzTrCnrPqAftohuTlG/HJScrVnwt9UxffLfQwVJ44yryrG+l1mKUSAYWu9cZDU0
-mDqb21MyXfTJw5ARl0JDHA05ZYQDU+W3vFdtPhh0U7Jx1PeZgRCRoIs0/XzXNgIR
-uXGdtKZ9u9tFGNPCzxVVZ1tVE8pm08fLbAYNzhO1pX9Fv6wHlKwV3t17zGfxhB8J
-kxrA0kPTkqUz/RnANvPK0SH4vYrt2bF1QMEfQ/Q=
-=5/p9
+iQHKBAABCgA0FiEEV4kucFIzBRM39v3RBWQfF1cS+lsFAmg1XA8WHGJpZ2Vhc3lA
+bGludXRyb25peC5kZQAKCRAFZB8XVxL6Ww0BC/9i+WnFIneHwMSKj2MRwFZQij+G
+tFhYvWnHJ0/e2Pjfm1FPegDaNTH3brKKAJABCDPsfca0ZQvplvh4WVLdXDGsG44Y
+b/hIWdbD7wJT69Y6NCvz+x1ZxkpkTB63jlzhMmSCAFhDQjisr1aS5Utq+I5Rh3d4
+y+rc08mDTEKR4t507ibwWEVpvhZv09VtOOUu2y6ajVCFHstpNiiqsJiUSL/nHn4m
+01AjQAr8e+exzbTt7aDMjklMu42YGqT9oNBEUFFO04fTzXCFMFzJQfIfGID9qlc4
+a9vHr8mnuVqUKvP5h7Ty/uCsa7fc0vu/53Z4lx3JQ/xcvmMMM7ejzjzuelsFkm9d
+d+CzIhV9PiqwBt7vpAkaf/WVbMQLjPD4A4pRfF/hW1u3qpmroPsCkQ0xfsdQEt7W
+pVCG3hKxkZHUId1CwaGNK/csvcrXC0Ibrq6lNrjQcohc/86StPjbVNPDHoSdxX9T
+mrmylo0FcXcpixjM8yktjUtPWo51Ic7bcyJ5HFM=
+=sXgB
 -----END PGP SIGNATURE-----
 
---===============7743898536873385924==
+--===============1966552044608836272==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0af2f6be1b42-0ff41df1cb26.txt
+Content-Disposition: attachment; filename=revlist-dffd411602b4-8e2a31f2ddd3.txt
 
-c3137514f1f13532bec4083832e7b95b90b73abc Merge tag 'riscv-for-linus-6.15-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
-14ae3003e73e777c9b36385a7c86f754b50a1821 Drivers: hv: Fix bad ref to hv_synic_eventring_tail when CPU goes offline
-d934a93bbcccd551c142206b8129903d18126261 clk: rockchip: rk3576: define clk_otp_phy_g
-a5f793e16ad8fffa7d2960851a5ac791bba8294d Merge tag 'drm-misc-fixes-2025-04-22' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
-fdfabdc2b7694a5ee3f4cd3706450285c7f12e5e Merge tag 'exynos-drm-fixes-for-v6.15-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/daeinki/drm-exynos into drm-fixes
-250130d2daaa0a828bafbd6ad58479a645029e82 Merge tag 'amd-drm-fixes-6.15-2025-04-23' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
-4017040ad7a08fc78dc0729545d6e1050d3e629d Merge tag 'cxl-fixes-6.15-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
-349b7d77f5a104cf4a81f5400184c6c446792bd3 Merge tag 'ceph-for-6.15-rc4' of https://github.com/ceph/ceph-client
-eb98f304420c95d1169cc8c73d5427ca9ee29833 Merge tag 'vfs-6.15-rc4.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-e86e9134e1d1c90a960dd57f59ce574d27b9a124 ksmbd: fix use-after-free in kerberos authentication
-2fc9feff45d92a92cd5f96487655d5be23fb7e2b ksmbd: fix use-after-free in session logoff
-1eb09e624f69a619947f262259b3eb90f56ff7f1 Merge tag 'ata-6.15-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
-f0007910784a61556e94c42b401a38116a899c73 selftests/bpf: Correct typo in __clang_major__ macro
-4c2227656d9003f4d77afc76f34dd81b95e4c2c4 vmxnet3: Fix malformed packet sizing in vmxnet3_process_xdp
-f1a3944c860b0615d0513110d8cf62bb94adbb41 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
-5ec6d7d737a491256cd37e33910f7ac1978db591 net: mscc: ocelot: delete PVID VLAN when readding it as non-PVID
-bf9de1dcd0eecd16020a677c900a70ea9b0a9714 selftests: net: bridge_vlan_aware: test untagged/8021p-tagged with and without PVID
-765f253e28909f161b0211f85cf0431cfee7d6df Revert "rndis_host: Flag RNDIS modems as WWAN devices"
-8548c84c004be3da4ffbe35ed0589041a4050c03 octeon_ep_vf: Resolve netdevice usage count issue
-8f7ae5a85137b913cb97e2d24409d36548d0bab1 bnxt_en: improve TX timestamping FIFO configuration
-fb8e9f59d6f292c3d9fea6c155c22ea5fc3053ab LoongArch: Select ARCH_USE_MEMTEST
-bb0511d59db9b3e40c8d51f0d151ccd0fd44071d LoongArch: Make regs_irqs_disabled() more clear
 cc73cc6bcdb5f959670e3ff9abdc62461452ddff LoongArch: Make do_xyz() exception handlers more robust
 2ef174b13344b3b4554d3d28e6f9e2a2c1d3138f LoongArch: Handle fp, lsx, lasx and lbt assembly symbols
 c37325cbd91abe3bfab280b3b09947155abe8e07 LoongArch: Remove a bogus reference to ZONE_DMA
@@ -1122,5 +1066,27 @@ ee40c9920ac286c5bfe7c811e66ff899266d2582 mm: fix copy_vma() error handling for h
 0f8c0258bf042a7da8645148f96d063b9c2060b9 Merge tag 'mm-hotfixes-stable-2025-05-25-00-58' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 478ad02d6844217cc7568619aeb0809d93ade43d Disable FOP_DONTCACHE for now due to bugs
 0ff41df1cb268fc69e703a08a57ee14ae967d0ca Linux 6.15
+bcb521bbb93f1698efd164cecd2da2d2c197452c Reapply "serial: 8250: Switch to nbcon console"
+a0cee055480d297752b755a9638b617bd7a44a6b Reapply "serial: 8250: Revert "drop lockdep annotation from serial8250_clear_IER()""
+3f060ffef6f1f0042d5aa99eb6684ed0ada01670 arm64: enable PREEMPT_LAZY
+a8deaa6d833ccfbf77afafea563689f7d4374fb6 drm/i915: Use preempt_disable/enable_rt() where recommended
+751f09232d749105317f64f1f6ae26704f019f24 drm/i915: Don't disable interrupts on PREEMPT_RT during atomic updates
+5b051a4cffc26bf9004f6a691a18f27d61cbbb22 drm/i915: Don't check for atomic context on PREEMPT_RT
+4ed1ada19d783d4a1c1e576b68a1e78c7246ba0c drm/i915: Disable tracing points on PREEMPT_RT
+2edc39f9e9a501347b6629bbbc35cb595001e98a drm/i915/gt: Use spin_lock_irq() instead of local_irq_disable() + spin_lock()
+d6cb63352d125cd90c7ffd4271ec8c0b62865f36 drm/i915: Drop the irqs_disabled() check
+e60dd6b6bc757a958596cfc5f7de7060c296f0ea drm/i915/guc: Consider also RCU depth in busy loop.
+9c17f239a3b56fb274ed38508a94bd2f405945a2 Revert "drm/i915: Depend on !PREEMPT_RT."
+2ed6598e5bb282c2d5bec3a8ee3a3737e6f4db18 arm: Disable jump-label on PREEMPT_RT.
+cda11765e1346a3a9fd6f9153d9b06bfe0b0c350 ARM: enable irq in translation/section permission fault handlers
+6c0a2cb010df39c896e5b3f2e22a64fcd017bc7e arm: Disable FAST_GUP on PREEMPT_RT if HIGHPTE is also enabled.
+3464131c4e447cce2d1524763a69954436d270eb ARM: Allow to enable RT
+17dec20662a355054b6e814035eec89ddd4ccd59 powerpc/pseries/iommu: Use a locallock instead local_irq_save()
+1fa9474242cb061f12e9001ec8be0418ed58be72 powerpc/pseries: Select the generic memory allocator.
+bdcf60eb24afc6c98b7a26f98a35a7163c3ecf10 powerpc/kvm: Disable in-kernel MPIC emulation for PREEMPT_RT
+4be2b628bfd8bc69b7c72b1802c20758c92acee9 powerpc/stackprotector: work around stack-guard init from atomic
+d3e63c288cab68e4fb46d337312ee13f6ace2a38 POWERPC: Allow to enable RT
+ca689b859030327c5daab9d2653fe291c339431a sysfs: Add /sys/kernel/realtime entry
+8e2a31f2ddd3cf4cad2bc6b2cfeb87173a21a194 Add localversion for -RT release
 
---===============7743898536873385924==--
+--===============1966552044608836272==--
