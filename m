@@ -1,56 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============0042605697672341966=="
+Content-Type: multipart/mixed; boundary="===============3669575575305422716=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 27 May 2025 15:55:32 -0000
-Message-Id: <174836133237.2330483.2412009332112225704@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Tue, 27 May 2025 15:56:40 -0000
+Message-Id: <174836140096.2331251.8834709270173686402@gitolite.kernel.org>
 
---===============0042605697672341966==
+--===============3669575575305422716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/master
-    old: 5aea0e0c6c4f72e4edd96914caaf4efe313d58fb
-    new: b5ca7acf008d9eaf39411cf34f5f7a8b8516669b
-    log: |
-         b5ca7acf008d9eaf39411cf34f5f7a8b8516669b drop libbpf patch for real
-         
+  - ref: refs/heads/nova/sequencer
+    old: 1f5a9813e05230e746cab2dbaf5e00738a7172b4
+    new: 5556cca49603870c633ce0c70c00c8a771efa620
+    log: revlist-1f5a9813e052-5556cca49603.txt
 
---===============0042605697672341966==
+--===============3669575575305422716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-1f5a9813e052-5556cca49603.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1748361361 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1748361325-d0b2209892ee6a1e156efe975888106d6603f023
+3771269e77084fe3142cade08195f90427dfd0a1 JOEL: Fix rust analyzer for bindings
+b7e53eab2433278e177984abef122306ef10c7a8 JOEL: Add a dmesg dump of the sequencer commands
+708748ff4e5201d629e675090b4c23cdd8608e5b JOEL: Add a build script
+182b9bc0f0367fb064be734a2f635ac547925152 nova-core: gsp: Pass data structures we need to cmdq
+373fe92b14df0399f7829213d0f78917baae334e nova-core: Move impl_from_bytes to a common place
+6fba0596b1ee1e476c28b730e9ea9a3e0116767e nova-core: falcon: Move waiting until halted to a helper
+0e0bda758ffbb046a7231803639e427d27569d14 nova-core: falcon: Move start functionality into separate helper
+7dde95796e89fd4c23b867baf0973fab0e407955 nova-core: falcon: Move mbox functionalities into helper
+fb8c44edcff5ea99718898f44ed13b439f0e10a9 nova-core: falcon: Move dma_reset functionality into helper
+8be2321fbb8deb8feea99c6dc0917f9e10373d33 nova-core: gsp: Add support for checking if GSP reloaded
+a44b03d2dca82cb6b2a0f20ac47a021179771a32 rust: add delay abstraction
+c8057dd57d47ea948cdbf582a508a363672f0cdb nova-core: firmware: Get RiscvUcode descriptor from GSP-RM image
+b4879f2d5e6d51ffb399373272510218700b860f nova-core: firmware: Provide accessor for app_version
+c82cee460ea85481bdb51877c311e405f58e5aee nova-core: falcon: Add support to write firmware version
+2e45345880c5d4e995f76422b2e9c1831582f299 nova-core: falcon: Add support to check if RISC-V is active
+5556cca49603870c633ce0c70c00c8a771efa620 nova-core: Implement the GSP sequeuncer
 
-5aea0e0c6c4f72e4edd96914caaf4efe313d58fb b5ca7acf008d9eaf39411cf34f5f7a8b8516669b refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmg14JEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UQwP/i0eqKpDAeTlruk/PDu3
-wK7ddLHaWZxyOETg1rThLgarRSZ9gmzIQOj8N8chU3RRprkH7wz4SJpa3OqPzjyd
-8v90aAPLandicGKmvuEg3DlLFZTGYwge0Kw84VChF6a9ZggxNZvD+VecZ29/Adk/
-EEp7vZ7lGdnMEBYvB0F86SG9jXtnHVwwbzzeeJ390Lf4TSrWUorJ99kbMbz/dw77
-LichgN8fUF2++AMby+aUb5qj6Rd+tH4eEo+b7ScRpGN+8VOlZi9QDag1Sh+EZi/E
-ho7854cBgWW6VHNj/iYJnrAimS8e+gZOebFbPwVIFQz7rcYLeSK6Ij4QxwaGzbpO
-mDWFSvFV91G6aIsZoNm5zWrBXovrW103N4u6S1Zp+rHplCMFOOC3lziY/FoHfn+P
-sVl4+w1xm/QtK9+qjaLYG0sEPvE9ipIBoC0zIu2k+s0nJ5fdv6zM12RN0EMZDU/y
-FwelTDuecsgsO6AAawSStoWf8CM7JHFsoI4NwunJVe3hqIqtZCNvqkBlAgwrQ+Ry
-W9YKfQdTVYRSGFNJ93UhZziglSTEp1cHHg8P9Q1BrXiNWkA1aD+P7rAMYDkswVnd
-M74Nuqh/ls9wJwYvCISS9vuK6iPJ/p3G31grysJJqV27vjJ6f8xzDYo6YdASYDxO
-zJILN2Lgs9GPBOS5uj6MnNH+
-=v3/G
------END PGP SIGNATURE-----
-
---===============0042605697672341966==--
+--===============3669575575305422716==--
