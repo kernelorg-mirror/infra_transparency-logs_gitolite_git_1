@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Tue, 27 May 2025 21:11:52 -0000
-Message-Id: <174838031217.2670157.4464196453851186119@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Tue, 27 May 2025 21:12:22 -0000
+Message-Id: <174838034287.2670621.10655102883178356353@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/master
-    old: b14bfe90ae4ecf632bde3ba826be64030a60979f
-    new: 2a552b93de8b319a8350b1057be4a53c025ab28e
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 628e124404b3db5e10e17228e680a2999018ab33
+    new: 0e71bcdcf1f0b10b435932907fb0d205deecf7a0
     log: |
-         088de118d17c017d66030384d772395e0e26345d shared/bap: Fix not handling read offset
-         2a552b93de8b319a8350b1057be4a53c025ab28e policy: Fix service retry counters reset
+         846b62b3433d2e87018576ab386f7a96390f66e4 perf arm-spe: Add support for SPE Data Source packet on HiSilicon HIP12
+         fa9b3578ed628641504ab74958bbe36a42c2615a perf mem: Count L2 HITM for c2c statistic
+         0e71bcdcf1f0b10b435932907fb0d205deecf7a0 perf test: Add AMD IBS sw filter test
          
