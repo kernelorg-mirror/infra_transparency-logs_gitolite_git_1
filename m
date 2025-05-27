@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 27 May 2025 17:42:53 -0000
-Message-Id: <174836777371.2485947.2555507229370279155@gitolite.kernel.org>
+Date: Tue, 27 May 2025 17:46:38 -0000
+Message-Id: <174836799887.2489912.14275019273683249633@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
   - ref: refs/heads/master
-    old: 1ae7a84ed85317b12a3395470f0cfcc900b2a61a
-    new: 86bc9c742426a16b52a10ef61f5b721aecca2344
+    old: 86bc9c742426a16b52a10ef61f5b721aecca2344
+    new: d4965578267e2e81f67c86e2608481e77e9c8569
     log: |
-         86bc9c742426a16b52a10ef61f5b721aecca2344 bpf: Avoid __bpf_prog_ret0_warn when jit fails
+         d4965578267e2e81f67c86e2608481e77e9c8569 bpf: Check rcu_read_lock_trace_held() in bpf_map_lookup_percpu_elem()
          
