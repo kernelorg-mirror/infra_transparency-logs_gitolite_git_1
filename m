@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0572710551075806846=="
+Content-Type: multipart/mixed; boundary="===============0617323773554460053=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Tue, 27 May 2025 07:40:19 -0000
-Message-Id: <174833161985.1837227.928156287458735257@gitolite.kernel.org>
+Date: Tue, 27 May 2025 07:40:49 -0000
+Message-Id: <174833164973.1837697.1340935612435844463@gitolite.kernel.org>
 
---===============0572710551075806846==
+--===============0617323773554460053==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/WIP.sched/core
-    old: 6ead1821086406b9144dae905164e80707c107b9
-    new: 8fb5dfde78c1f8537df300cbbb94420e0cd6424e
-    log: revlist-6ead18210864-8fb5dfde78c1.txt
+  - ref: refs/heads/WIP.x86/alternatives
+    old: af8967158f9ad759a93e8e7a933c10e7cbb01ba2
+    new: 914873bc7df913db988284876c16257e6ab772c6
+    log: revlist-af8967158f9a-914873bc7df9.txt
 
---===============0572710551075806846==
+--===============0617323773554460053==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6ead18210864-8fb5dfde78c1.txt
+Content-Disposition: attachment; filename=revlist-af8967158f9a-914873bc7df9.txt
 
+f9475055b11c0c70979bd1667a76b2ebae638eb7 phy: phy-rockchip-samsung-hdptx: Fix PHY PLL output 50.25MHz error
 fb98bd0a13de2c9d96cb5c00c81b5ca118ac9d71 spi: spi-sun4i: fix early activation
 6b0cd72757c69bc2d45da42b41023e288d02e772 regulator: max20086: fix invalid memory access
 314007549d89adebdd1e214a743d7e26edbd075e octeontx2-pf: Fix ethtool support for SDP representors
@@ -1049,6 +1050,5 @@ ddddf9d64f7361323da663637adb4a02466bfc99 Merge tag 'perf-core-2025-05-25' of git
 0aee0617267866555b4e35bd11e1fbb291fa9743 Merge tag 'x86-debug-2025-05-25' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 24244df067c5514ad72b8ad371208b1139dfd0f0 Merge tag 'x86-entry-2025-05-25' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 914873bc7df913db988284876c16257e6ab772c6 Merge tag 'x86-build-2025-05-25' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-8fb5dfde78c1f8537df300cbbb94420e0cd6424e sched/core: Introduce task_*() helpers for PF_ flags
 
---===============0572710551075806846==--
+--===============0617323773554460053==--
