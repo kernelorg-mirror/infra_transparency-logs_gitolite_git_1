@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5110344396279861016=="
+Content-Type: multipart/mixed; boundary="===============5316028219639953590=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Tue, 27 May 2025 07:35:05 -0000
-Message-Id: <174833130518.1831485.12816718305206580779@gitolite.kernel.org>
+Date: Tue, 27 May 2025 07:35:46 -0000
+Message-Id: <174833134634.1832193.3111168778818856280@gitolite.kernel.org>
 
---===============5110344396279861016==
+--===============5316028219639953590==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,32 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/WIP.core/bugs
-    old: 9403ac9b276029a58f22b68a201bcddfe159d9d3
-    new: bd17d5c34b36b75830100fefbdc413bab6ec1246
-    log: revlist-9403ac9b2760-bd17d5c34b36.txt
+  - ref: refs/heads/WIP.x86/e820
+    old: ad31bfec81afcbafc314165061ecb6ebfff56c3d
+    new: 6803112f4bd26ecf4ac8a97711afeb534a61b166
+    log: revlist-ad31bfec81af-6803112f4bd2.txt
 
---===============5110344396279861016==
+--===============5316028219639953590==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9403ac9b2760-bd17d5c34b36.txt
+Content-Disposition: attachment; filename=revlist-ad31bfec81af-6803112f4bd2.txt
 
-b04f0d89e880bc2cca6a5c73cf287082c91878da arm64: dts: marvell: uDPU: define pinctrl state for alarm LEDs
-4ed9d82bf5b21d65e2f18249eec89a6a84df8f23 objtool: Speed up SHT_GROUP reindexing
-676e8cf70cb0533e1118e29898c9a9c33ae3a10f sched,livepatch: Untangle cond_resched() and live-patching
-83c178470e0bf690d34c8c08440f2421b82e881c phy: tegra: xusb: remove a stray unlock
-54c4c58713aaff76c2422ff5750e557ab3b100d7 phy: renesas: rcar-gen3-usb2: Fix role detection on unbind/bind
-de76809f60cc938d3580bbbd5b04b7d12af6ce3a phy: renesas: rcar-gen3-usb2: Move IRQ request in probe
-55a387ebb9219cbe4edfa8ba9996ccb0e7ad4932 phy: renesas: rcar-gen3-usb2: Lock around hardware registers and driver data
-9ce71e85b29eb63e48e294479742e670513f03a0 phy: renesas: rcar-gen3-usb2: Assert PLL reset on PHY power off
-86e70849f4b2b4597ac9f7c7931f2a363774be25 phy: renesas: rcar-gen3-usb2: Set timing registers only once
-b2ea5f49580c0762d17d80d8083cb89bc3acf74f phy: Fix error handling in tegra_xusb_port_init
-1e332795d00655305cf0ae40be4e2eaa9a399d79 block: Remove obsolete configs BLK_MQ_{PCI,VIRTIO}
-bbcacab2e8ee373eb8f4bc613912e7c203deb820 brd: avoid extra xarray lookups on first write
-d871198ee431d90f5308d53998c1ba1d5db5619a io_uring/fdinfo: grab ctx->uring_lock around io_uring_show_fdinfo()
-8695f060a02953b33ac6240895dcb9c7ce16c91c nvme: all namespaces in a subsystem must adhere to a common atomic write size
-72c7d62583ebce7baeb61acce6057c361f73be4a dma-buf: insert memory barrier before updating num_fences
 09dab6ce0243bc1939bd1f77a066ccdd72d44efe xfs: free up mp->m_free[0].count in error case
 fbecd731de05707a73a3d86c6cbe6b9441cdbedc xfs: fix zoned GC data corruption due to wrong bv_offset
 95b613339c0e5fe651a3ef7605708478bc34a5af xfs: Fail remount with noattr2 on a v5 with v4 enabled
@@ -127,7 +112,6 @@ ff27a9a0c66cfeb6a15d8f2ab4754f312ecd71e7 powerpc/mm/fault: Use str_write_read() 
 f36a28192e3cbef6952c1b82d4ef78f26a0d2cad powerpc/powermac: Use str_enabled_disabled() and str_on_off() helpers
 f15e87340afd4f5a35575e112aa4bdb0a138aa26 powerpc/iommu: Use str_disabled_enabled() helper
 088d13246a4672bc03aec664675138e3f5bff68c Merge tag 'kbuild-fixes-v6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-25219c2578b32c96087569d074e32c8ae634d602 x86/asm-offsets: Export certain 'struct cpuinfo_x86' fields for 64-bit asm use too
 8d9117009dd690f647a66912f429c96335069907 fuse: don't allow signals to interrupt getdents copying
 e7b9cea718eee4585a947b10086ca51ad27ef5d4 vfs: Add sysctl vfs_cache_pressure_denom for bulk file operations
 78ab4be549533432d97ea8989d2f00b508fa68d8 wifi: mt76: disable napi on driver removal
@@ -1034,21 +1018,37 @@ ddddf9d64f7361323da663637adb4a02466bfc99 Merge tag 'perf-core-2025-05-25' of git
 0aee0617267866555b4e35bd11e1fbb291fa9743 Merge tag 'x86-debug-2025-05-25' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 24244df067c5514ad72b8ad371208b1139dfd0f0 Merge tag 'x86-entry-2025-05-25' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 914873bc7df913db988284876c16257e6ab772c6 Merge tag 'x86-build-2025-05-25' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-a7a3a20da7b80981b9479b782da6b5e7e239d9d9 bugs/core: Extend __WARN_FLAGS() with the 'cond_str' parameter
-bd7c006d0863360d1a1ee6cf380d06ff33843b3f bugs/core: Pass down the condition string of WARN_ON_ONCE(cond) warnings to __WARN_FLAGS()
-b8f8e4dd03f70c4ae797e54017a3c7b1a427a5d0 bugs/core: Introduce the CONFIG_DEBUG_BUGVERBOSE_DETAILED Kconfig switch
-3338e7ca152e567ddb57bee97b3c29be52359477 bugs/x86: Extend _BUG_FLAGS() with the 'cond_str' parameter
-f1fc40050f14fc06f77b2a0dd1710e1b9a54b87c bugs/x86: Augment warnings output by concatenating 'cond_str' with the regular __FILE__ string in _BUG_FLAGS()
-a4952cdcb276961bf7abd21c3d1130aa41fa9f5d bugs/powerpc: Pass in 'cond_str' to BUG_ENTRY()
-b402fd0a19e802a2bc80039c768d1f016227ae47 bugs/powerpc: Concatenate 'cond_str' with '__FILE__' in BUG_ENTRY(), to extend WARN_ON/BUG_ON output
-ca607ed85900913dc690e3b14c0f1265f4db9213 bugs/LoongArch: Pass in 'cond_str' to __BUG_ENTRY()
-e96c576c18c6142e38d03dfce46e04bdcdf6d1ad bugs/LoongArch: Concatenate 'cond_str' with '__FILE__' in __BUG_ENTRY(), to extend WARN_ON/BUG_ON output
-27d015d6a8ced260898ccc752e8cbf7584f0a197 bugs/s390: Pass in 'cond_str' to __EMIT_BUG()
-207f28af660bf9cd00f2b1e6d71082573c32256b bugs/riscv: Pass in 'cond_str' to __BUG_FLAGS()
-78229d9139f771147217cee717edf4f6d45ff381 bugs/riscv: Concatenate 'cond_str' with '__FILE__' in __BUG_FLAGS(), to extend WARN_ON/BUG_ON output
-084bd0493026b9ff368902c97d7226c1702e96be bugs/parisc: Concatenate 'cond_str' with '__FILE__' in __WARN_FLAGS(), to extend WARN_ON/BUG_ON output
-5d943ef690132f7abf2e75ba67e9a09653538e01 sh: Concatenate 'cond_str' with '__FILE__' in __WARN_FLAGS(), to extend WARN_ON/BUG_ON output
-9af46ba686947f1fe185330b41fb3ed853b29049 bugs/core: Reorganize fields in the first line of WARNING output, add ->comm[] output
-bd17d5c34b36b75830100fefbdc413bab6ec1246 bugs/core: Test WARN_ON_ONCE()
+3eb4cb403f1af1eca98666a24815fca1c5b46369 x86/boot/e820: Remove inverted boolean logic from the e820_nomerge() function name, rename it to e820_type_mergeable()
+56ffd70c7b65b75d7bc93c419131ba048eab66a1 x86/boot/e820: Simplify e820__print_table() a bit
+31a873e8d0f2c6741674a96fac14634b1ec45cb6 x86/boot/e820: Simplify the PPro Erratum #50 workaround
+bd2b4f2e5b158c59bf2fc8431fc1385bdaf2a4ed x86/boot/e820: Mark e820__print_table() static
+0da15e45af5713d6493879102666aa27e167e22a x86/boot/e820: Print gaps in the E820 table
+513644fa0cdc2560135a44c17a23eb62bbffe0f4 x86/boot/e820: Make the field separator space character part of e820_print_type()
+030579cc671ddded9e6d6fec13f46977cf1e82d5 x86/boot/e820: Print out sizes of E820 memory ranges
+48d8861a6615687ef3c72bb3de36b5753553c063 x86/boot/e820: Print E820_TYPE_RAM entries as ... RAM entries
+829f8cae2d06c7fba3d63449aa374c98f115a00b x86/boot/e820: Call the PCI gap a 'gap' in the boot log printout
+e56dbcd0aab9b3e254ae1b7cd7d10a96c0064536 x86/boot/e820: Use 'u64' consistently instead of 'unsigned long long'
+4d456ca9d2468a029fff822d9c00c235daa5aee9 x86/boot/e820: Remove pointless early_panic() indirection
+1a34596dbaf261fda7d3b468450c604e4db33ee5 x86/boot/e820: Clean up confusing and self-contradictory verbiage around E820 related resource allocations
+089ecce8793ca9855f04241a858cf13d360c2237 x86/boot/e820: Improve e820_print_type() messages
+6d2ec259100ee3c9c25b0f5c9feb2c0074517c3e x86/boot/e820: Clean up __e820__range_add() a bit
+ff63fa11322af06b55cc8c9e1279b8e3dd83438d x86/boot/e820: Clean up __refdata use a bit
+38472dfb8aeac97f526d009e65ff007b809596a9 x86/boot/e820: Remove unnecessary header inclusions
+356187f09fb7aabc2723f6818e1adbcd1e4ff5ff x86/boot/e820: Standardize e820 table index variable names under 'idx'
+3e5bc6ef9aeb567164cc48ae9c6585b785853518 x86/boot/e820: Standardize e820 table index variable types under 'u32'
+73b299abdc8fcd61603dc090e2befaa42485838e x86/boot/e820: Change struct e820_table::nr_entries type from __u32 to u32
+7207737664b1d89b367694cbb9cbe640c3392e12 x86/boot/e820: Clean up e820__setup_pci_gap()/e820_search_gap() a bit
+6e01827583c6f44640a240f44112f7bb83ce6436 x86/boot/e820: Change e820_search_gap() to search for the highest-address PCI gap
+ccb9beb0e6b61a759726f97f2f510e07363aef56 x86/boot/e820: Rename gap_start/gap_size to max_gap_start/max_gap_start in e820_search_gap() et al
+825259b0f0219df96cb8d274ad602c9e17b2f0cd x86/boot/e820: Simplify & clarify __e820__range_add() a bit
+9a3fdb4961f1723b646d4c1aa99c4b377dca2f37 x86/boot/e820: Standardize __init/__initdata tag placement
+cdfcbe767668e5e2ba6b5b290b3a4b7e44271734 x86/boot/e820: Simplify append_e820_table() and remove restriction on single-entry tables
+655e54273cfb903dca8de1875a92f01fdd13d7ca x86/boot/e820: Remove e820__range_remove()'s unused return parameter
+4bce306439aabffc4f927a2d2092b30bac5d5d2f x86/boot/e820: Simplify the e820__range_remove() API
+1b2c19134cceb519265f119824d19db0a9ed1361 x86/boot/e820: Make sure e820_search_gap() finds all gaps
+7e344c1b9cc1c97e847d7cd909861c49862b3777 x86/boot/e820: Introduce E820_TYPE_13 and treat it as a device region
+10e166cf92527e5c41be3114db373fc93de50bb6 x86/boot/e820: Change e820_type_to_string() to take a 'type' parameter
+d433e86caf8c586a4ed935c1cef9d10d978eb48f x86/boot/e820: Unify e820_print_type() and e820_type_to_string()
+6803112f4bd26ecf4ac8a97711afeb534a61b166 x86/boot/e820: Move index increments outside accessors in e820__update_table()
 
---===============5110344396279861016==--
+--===============5316028219639953590==--
