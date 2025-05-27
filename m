@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5717720946252099344=="
+Content-Type: multipart/mixed; boundary="===============7897431740525044161=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/colyli/linux-bcache
-Date: Tue, 27 May 2025 04:50:51 -0000
-Message-Id: <174832145132.1691994.4579360369185328017@gitolite.kernel.org>
+Date: Tue, 27 May 2025 04:52:40 -0000
+Message-Id: <174832156092.1693082.16873694264473954647@gitolite.kernel.org>
 
---===============5717720946252099344==
+--===============7897431740525044161==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/colyli/linux-bcache
 user: colyli
 changes:
-  - ref: refs/heads/master
-    old: 01f95500a162fca88cefab9ed64ceded5afabc12
-    new: 785cdec46e9227f9433884ed3b436471e944007c
-    log: revlist-01f95500a162-785cdec46e92.txt
+  - ref: refs/heads/for-next
+    old: 9da50359cba035fad46f47275ee251a18fd74ec7
+    new: bcb908845d3361dc0934446b12b0b4490e3d4dd3
+    log: revlist-9da50359cba0-bcb908845d33.txt
 
---===============5717720946252099344==
+--===============7897431740525044161==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-01f95500a162-785cdec46e92.txt
+Content-Disposition: attachment; filename=revlist-9da50359cba0-bcb908845d33.txt
 
-8bc3252436d371e7ac505f9f2685611090680a48 powerpc: Transliterate author name and remove FIXME
-0b91fda3a1f044141e1e615456ff62508c32b202 xfrm: Sanitize marks before insert
-a21675ee3b1ba094e229ae4cd8bddf7d215ab1b9 nvme: multipath: enable BLK_FEAT_ATOMIC_WRITES for multipathing
 93bd4a80efeb521314485a06d8c21157240497bb powerpc/kernel: Fix ppc_save_regs inclusion in build
 64797551baec252f953fa8234051f88b0c368ed5 x86/boot: Defer initialization of VM space related global variables
 3f097adb9b6c804636bcf8d01e0e7bc037bee0d3 phy: starfive: jh7110-usb: Fix USB 2.0 host occasional detection failure
@@ -1050,5 +1047,8 @@ b3570b00dc3062c5a5e8d9602b923618d679636a Merge tag 'locking-core-2025-05-25' of 
 eaed94d1f68c3476834e07409f5fc9bd8efd6395 Merge tag 'sched-core-2025-05-25' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 ddddf9d64f7361323da663637adb4a02466bfc99 Merge tag 'perf-core-2025-05-25' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 785cdec46e9227f9433884ed3b436471e944007c Merge tag 'x86-core-2025-05-25' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+eb7f49be30831d9dbe6d3f2bc1d0cbf6464e39f8 bcache: fix NULL pointer in cache_set_flush()
+9fe9d80b1c47682303ce5a4157b7fb694f808d4f bcache: remove unused constants
+bcb908845d3361dc0934446b12b0b4490e3d4dd3 bcache: reserve more RESERVE_BTREE buckets to prevent allocator hang
 
---===============5717720946252099344==--
+--===============7897431740525044161==--
