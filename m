@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7901829638632718259=="
+Content-Type: multipart/mixed; boundary="===============6800118187524992899=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Tue, 27 May 2025 07:36:19 -0000
-Message-Id: <174833137951.1832677.14706357404395456900@gitolite.kernel.org>
+Date: Tue, 27 May 2025 07:37:13 -0000
+Message-Id: <174833143375.1833271.5922846928320262355@gitolite.kernel.org>
 
---===============7901829638632718259==
+--===============6800118187524992899==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,31 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/WIP.x86/mm
-    old: 92a09c47464d040866cf2b4cd052bc60555185fb
-    new: 914873bc7df913db988284876c16257e6ab772c6
-    log: revlist-92a09c47464d-914873bc7df9.txt
+  - ref: refs/heads/WIP.x86/cpu
+    old: 5755980529ae3214810cac036f6788ec2f795246
+    new: 718c18df87435b0e666ebbcc3fd22bc04d8e15ff
+    log: revlist-5755980529ae-718c18df8743.txt
 
---===============7901829638632718259==
+--===============6800118187524992899==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-92a09c47464d-914873bc7df9.txt
+Content-Disposition: attachment; filename=revlist-5755980529ae-718c18df8743.txt
 
-f9475055b11c0c70979bd1667a76b2ebae638eb7 phy: phy-rockchip-samsung-hdptx: Fix PHY PLL output 50.25MHz error
-fb98bd0a13de2c9d96cb5c00c81b5ca118ac9d71 spi: spi-sun4i: fix early activation
-6b0cd72757c69bc2d45da42b41023e288d02e772 regulator: max20086: fix invalid memory access
-314007549d89adebdd1e214a743d7e26edbd075e octeontx2-pf: Fix ethtool support for SDP representors
-33cd93435cea665b24ca3f9b3d6af42afb3ba7bc crypto: qat/qat_6xxx - Fix NULL vs IS_ERR() check in adf_probe()
-714ca27e9bf4608fcb1f627cd5599441f448771e crypto: iaa - Optimize rebalance_wq_table()
-c66d7ebbe2fa14e41913adb421090a7426f59786 crypto: powerpc/poly1305 - Add SIMD fallback
-8a4e047c6cc07676f637608a9dd675349b5de0a7 crypto: marvell/cesa - Handle zero-length skcipher requests
-1bafd82d9a40cf09c6c40f1c09cc35b7050b1a9f crypto: marvell/cesa - Avoid empty transfer descriptor
-9e000f1b7f31684cc5927e034360b87ac7919593 ALSA: es1968: Add error handling for snd_pcm_hw_constraint_pow2()
-6475ece803e7b41d5a3dcffffc35f6482d4cbb4d Merge branch 'block-6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux-block into xfs-6.16-merge
-ea31bdece29ac72ebe409cf2bb411abe6e31431a xfs: stop using set_blocksize
-c0a5c4084709a78117c1c372aa4f813e1a98c313 xfs: Remove deprecated xfs_bufd sysctl parameters
-6e7d71b3a0f9732863b6a1366c9d875cec52c842 Merge branch 'atomic_writes-6.16' into xfs-6.16-merge
 ca43b74ac3040ae13be854e6a71ebd7a91e5fcfc xfs: remove some EXPERIMENTAL warnings
 1c7161ef0164716fdf4618b50747bd3002625e38 xfs: remove the EXPERIMENTAL warning for pNFS
 b04f0d89e880bc2cca6a5c73cf287082c91878da arm64: dts: marvell: uDPU: define pinctrl state for alarm LEDs
@@ -143,7 +129,6 @@ ff27a9a0c66cfeb6a15d8f2ab4754f312ecd71e7 powerpc/mm/fault: Use str_write_read() 
 f36a28192e3cbef6952c1b82d4ef78f26a0d2cad powerpc/powermac: Use str_enabled_disabled() and str_on_off() helpers
 f15e87340afd4f5a35575e112aa4bdb0a138aa26 powerpc/iommu: Use str_disabled_enabled() helper
 088d13246a4672bc03aec664675138e3f5bff68c Merge tag 'kbuild-fixes-v6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-25219c2578b32c96087569d074e32c8ae634d602 x86/asm-offsets: Export certain 'struct cpuinfo_x86' fields for 64-bit asm use too
 8d9117009dd690f647a66912f429c96335069907 fuse: don't allow signals to interrupt getdents copying
 e7b9cea718eee4585a947b10086ca51ad27ef5d4 vfs: Add sysctl vfs_cache_pressure_denom for bulk file operations
 78ab4be549533432d97ea8989d2f00b508fa68d8 wifi: mt76: disable napi on driver removal
@@ -1050,5 +1035,20 @@ ddddf9d64f7361323da663637adb4a02466bfc99 Merge tag 'perf-core-2025-05-25' of git
 0aee0617267866555b4e35bd11e1fbb291fa9743 Merge tag 'x86-debug-2025-05-25' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 24244df067c5514ad72b8ad371208b1139dfd0f0 Merge tag 'x86-entry-2025-05-25' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 914873bc7df913db988284876c16257e6ab772c6 Merge tag 'x86-build-2025-05-25' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+caa292b622db7291357b2a8ce989921f7bc74acf x86/cpu: Remove M486/M486SX/ELAN support
+a7a769d4f354d9c1d9af8ca08701860dccb90392 x86/cpu: Remove CONFIG_MWINCHIP3D/MWINCHIPC6
+a651bd1f61f661fc727b3bd99dbb37672f0c8e58 x86/cpu: Remove CPU_SUP_UMC_32 support
+292336f63bcbae2729b33e183f382b15129ec45b x86/cpu: Remove TSC-less CONFIG_M586 support
+0e321b21296c5d0de28bd3b83d3663add808e6da x86/cpu, x86/platform, watchdog: Remove CONFIG_X86_RDC321X support
+d88e0118ea427909960892b5887dcc7bb37d38a0 x86/cpu: Remove the CONFIG_X86_INVD_BUG quirk
+6699d555d7bc16977a79458e355849e8cda7c68a x86/cpu, cpufreq: Remove AMD ELAN support
+b822a3db5b5247cb50b6b74d675e896c85fbbab9 x86/fpu: Remove MATH_EMULATION and related glue code
+27c06b14204829cdb6ee8e76e199c16a4559e5be x86/fpu: Remove the 'no387' boot option
+08c3667ae6a25f6e52e007066551a5f75fcbd22e x86/fpu: Remove the math-emu/ FPU emulation library
+533ec31871e399f251e26b33eec583883a6999c0 x86/cpu: Make CONFIG_X86_TSC unconditional
+9c8e386f11c844473edacd6d6bbd5e10f2edbc61 x86: Remove !CONFIG_X86_TSC code
+4b78f52876d6917f158ccf89ff8d550dd20a9a68 x86/cpu: Make CONFIG_X86_CX8 unconditional
+199a215bbd8766d94a2651f02d4eeff40c0aa68b x86/atomics: Remove !CONFIG_X86_CX8 methods
+718c18df87435b0e666ebbcc3fd22bc04d8e15ff x86/percpu: Remove !CONFIG_X86_CX8 methods
 
---===============7901829638632718259==--
+--===============6800118187524992899==--
