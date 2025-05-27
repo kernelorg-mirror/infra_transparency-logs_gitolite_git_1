@@ -1,46 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============7500522470244297685=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Tue, 27 May 2025 13:07:15 -0000
-Message-Id: <174835123532.2162485.14040206636956205513@gitolite.kernel.org>
-
---===============7500522470244297685==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 27 May 2025 13:07:16 -0000
+Message-Id: <174835123662.2162553.1268944332796484669@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: 2cf18b7358a45efdae7201826ad9f0a3cbe90b23
-    new: 7f24495d9430328b4e25bda81e7eece9ea41d411
+  - ref: refs/heads/selftests-mm-cow-dedupe
+    old: b5dde40f163cead48ab05306fd61447bb352f6b0
+    new: be3dbcd906223f8d178279faa17c410d4205c1da
     log: |
-         7f24495d9430328b4e25bda81e7eece9ea41d411 Update EE7A392FDE96209F (Alice Ryhl)
+         ec301397895d0471bac23b4d711b6035a41c1a09 selftests/mm: cow and gup_longterm cleanups
+         f99413f1d960b6b87ffe22bf53e4de589845d784 selftests/mm: Use standard ksft_finished() in cow and gup_longterm
+         9f5bafa34ac0cb52085fffc8595a59e4d8f22bea selftests/mm: Add helper for logging test start and results
+         6c614422058dcfc342530a5cdab9678b78f8eb00 selftests/mm: Report unique test names for each cow test
+         be3dbcd906223f8d178279faa17c410d4205c1da selftests/mm: Fix test result reporting in gup_longterm
          
-
---===============7500522470244297685==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1748351267 -0400
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1748351234-ea5d1639cc5d1bf5b9192d27cbe97252768400e9
-
-2cf18b7358a45efdae7201826ad9f0a3cbe90b23 7f24495d9430328b4e25bda81e7eece9ea41d411 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaDW5IwAKCRC2xBzjVmSZ
-bGIUAPoDL0xeZctLNypu0JA5h+7L/wJqbfGfk2vf7k9UD/WAsQEAoiuiIYg9AJos
-eE4EeEBhuNuUkqGUvQzAL8MLffGNTgk=
-=WLjN
------END PGP SIGNATURE-----
-
---===============7500522470244297685==--
