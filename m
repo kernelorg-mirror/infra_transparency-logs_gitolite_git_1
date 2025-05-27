@@ -1,31 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============7885585403406638469=="
+Content-Type: multipart/mixed; boundary="===============4268455067977400784=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Tue, 27 May 2025 08:03:04 -0000
-Message-Id: <174833298419.1857062.9953005393334898857@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Tue, 27 May 2025 08:14:00 -0000
+Message-Id: <174833364062.1866104.16144877743459728661@gitolite.kernel.org>
 
---===============7885585403406638469==
+--===============4268455067977400784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/x86-startup-confine-v4
-    old: 2cf6c5e736904e73029980f5145f56f24fb48fc3
-    new: bd356584f23ff9a7c72ea941660f7e388d76adcb
-    log: revlist-2cf6c5e73690-bd356584f23f.txt
+  - ref: refs/heads/master
+    old: 82f2b0b97b36ee3fcddf0f0780a9a0825d52fec3
+    new: 914873bc7df913db988284876c16257e6ab772c6
+    log: revlist-82f2b0b97b36-914873bc7df9.txt
 
---===============7885585403406638469==
+--===============4268455067977400784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2cf6c5e73690-bd356584f23f.txt
+Content-Disposition: attachment; filename=revlist-82f2b0b97b36-914873bc7df9.txt
 
+f9475055b11c0c70979bd1667a76b2ebae638eb7 phy: phy-rockchip-samsung-hdptx: Fix PHY PLL output 50.25MHz error
+fb98bd0a13de2c9d96cb5c00c81b5ca118ac9d71 spi: spi-sun4i: fix early activation
+6b0cd72757c69bc2d45da42b41023e288d02e772 regulator: max20086: fix invalid memory access
+314007549d89adebdd1e214a743d7e26edbd075e octeontx2-pf: Fix ethtool support for SDP representors
+33cd93435cea665b24ca3f9b3d6af42afb3ba7bc crypto: qat/qat_6xxx - Fix NULL vs IS_ERR() check in adf_probe()
+714ca27e9bf4608fcb1f627cd5599441f448771e crypto: iaa - Optimize rebalance_wq_table()
+c66d7ebbe2fa14e41913adb421090a7426f59786 crypto: powerpc/poly1305 - Add SIMD fallback
+8a4e047c6cc07676f637608a9dd675349b5de0a7 crypto: marvell/cesa - Handle zero-length skcipher requests
+1bafd82d9a40cf09c6c40f1c09cc35b7050b1a9f crypto: marvell/cesa - Avoid empty transfer descriptor
+9e000f1b7f31684cc5927e034360b87ac7919593 ALSA: es1968: Add error handling for snd_pcm_hw_constraint_pow2()
+6475ece803e7b41d5a3dcffffc35f6482d4cbb4d Merge branch 'block-6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux-block into xfs-6.16-merge
+ea31bdece29ac72ebe409cf2bb411abe6e31431a xfs: stop using set_blocksize
 c0a5c4084709a78117c1c372aa4f813e1a98c313 xfs: Remove deprecated xfs_bufd sysctl parameters
 6e7d71b3a0f9732863b6a1366c9d875cec52c842 Merge branch 'atomic_writes-6.16' into xfs-6.16-merge
 ca43b74ac3040ae13be854e6a71ebd7a91e5fcfc xfs: remove some EXPERIMENTAL warnings
@@ -131,6 +143,7 @@ ff27a9a0c66cfeb6a15d8f2ab4754f312ecd71e7 powerpc/mm/fault: Use str_write_read() 
 f36a28192e3cbef6952c1b82d4ef78f26a0d2cad powerpc/powermac: Use str_enabled_disabled() and str_on_off() helpers
 f15e87340afd4f5a35575e112aa4bdb0a138aa26 powerpc/iommu: Use str_disabled_enabled() helper
 088d13246a4672bc03aec664675138e3f5bff68c Merge tag 'kbuild-fixes-v6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+25219c2578b32c96087569d074e32c8ae634d602 x86/asm-offsets: Export certain 'struct cpuinfo_x86' fields for 64-bit asm use too
 8d9117009dd690f647a66912f429c96335069907 fuse: don't allow signals to interrupt getdents copying
 e7b9cea718eee4585a947b10086ca51ad27ef5d4 vfs: Add sysctl vfs_cache_pressure_denom for bulk file operations
 78ab4be549533432d97ea8989d2f00b508fa68d8 wifi: mt76: disable napi on driver removal
@@ -351,9 +364,14 @@ dbc5ba08ec5ff799a32f27ac79702a2cfc2200cd block/blk-throttle: silence !BLK_DEV_IO
 3933536c877e159063bf9521ac8ad1f12fe19db5 Merge tag 'wireless-2025-05-15' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
 491deb9b8c4ad12fe51d554a69b8165b9ef9429f net/tls: fix kernel panic when alloc_page failed
 b3ca9eef6646576ad506a96d941d87a69f66732a tsnep: fix timestamping with a stacked DSA driver
+1adf711919de7c9e1b281a4d9cd9e3a81f3a70f7 x86/mm: Fix kernel-doc descriptions of various pgtable methods
 0afc44d8cdf6029cce0a92873f0de5ac9416cec8 net: devmem: fix kernel panic when netlink socket close after module unload
+baad9190e6465fdbe458f59cf04c2b2032ec4797 x86/msr: Add rdmsrl_on_cpu() compatibility wrapper
 18049c8cff9cc89daadc4df6975f7d9069638926 perf/aux: Allocate non-contiguous AUX pages by default
 99bcd91fabada0dbb1d5f0de44532d8008db93c6 perf/x86/intel: Fix segfault with PEBS-via-PT with sample_freq
+cdc8be31cb324a0c52529f192e39a44abcfff513 x86/cpuid: Move CPUID(0x2) APIs into <cpuid/api.h>
+968e3000680713f712bcf02c51c4d7bb7d4d7685 x86/cpuid: Set <asm/cpuid/api.h> as the main CPUID header
+2f924ca36d2f788d40a57ea48825ff51cba4e700 x86/cpuid: Rename have_cpuid_p() to cpuid_feature()
 17a85f520469a1838379de8ad24f63e778f7c277 btrfs: fix wrong start offset for delalloc space release during mmap write
 bf1c74ccba9893adee482fbf6ce84b781e5008a3 btrfs: pass true to btrfs_delalloc_release_space() at btrfs_page_mkwrite()
 a08625f8250622f538641efa159a946b4b546165 btrfs: simplify early error checking in btrfs_page_mkwrite()
@@ -380,6 +398,10 @@ bd59f6170968314c82e2b65f8bbaec55896b7a5f futex: Fix kernel-doc comments
 93a81ca0657758b607c3f4ba889ae806be9beb73 ALSA: pcm: Fix race of buffer access at PCM OSS layer
 d49ae4172cffa51cc72bdbd668fdd2e64b0a929f x86/tracing, x86/mm: Remove redundant trace_pagefault_key
 06aa9378df017ea7482b1bfdcd750104c8b3c407 x86/tracing, x86/mm: Move page fault tracepoints to generic
+e7df7289f1481993c9f326aea801323a1d3d0c5f x86/cpuid: Rename cpuid_get_leaf_0x2_regs() to cpuid_leaf_0x2()
+4b21e71ad6cc93d39d78176de269a0dc9a318fc6 x86/cacheinfo: Rename CPUID(0x2) descriptors iterator parameter
+119deb95b0bc2793d4b002549444ce0aec346b4f x86/cpu/intel: Rename CPUID(0x2) descriptors iterator parameter
+3bf8ce828419810f45a272948805cf9a2b685529 x86/cpuid: Rename hypervisor_cpuid_base()/for_each_possible_hypervisor_cpuid_base() to cpuid_base_hypervisor()/for_each_possible_cpuid_base_hypervisor()
 03680913744de17fa49e62b1d8f71bab42b0b721 x86/mm: Remove duplicated word in warning message
 5ad8a4ddc45048bc2fe23b75357b6bf185db004f ALSA: hda/realtek - restore auto-mute mode for Dell Chrome platform
 7672135ddb9b5ca3560dd785c4772a011f1b180b Merge tag 'asoc-fix-v6.15-rc6' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
@@ -437,6 +459,11 @@ c46286fdd6aa1d0e33c245bcffe9ff2428a777bd mr: consolidate the ipmr_can_free_table
 172a9d94339cea832d89630b89d314e41d622bd8 Merge tag '6.15-rc6-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 ca559503b89c30bc49178d0e4a1e0b23f991fb9f perf/core: Add the is_event_in_freq_mode() helper to simplify the code
 6c72fc56ab2bb7e0c327a6d42d02164c0dee9696 Merge tag 'i2c-host-fixes-6.15-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-current
+a0f3fe547eb35a2dc298a78da73da73304f41ce1 x86/bugs: Fix indentation due to ITS merge
+1bffe6f6890cb40a8d26aec1ffe5f95e2bd09ac2 x86/mm/64: Always use dynamic memory layout
+cba5d9b3e99d6268d7909a65c2bd78f4d195aead x86/mm/64: Make SPARSEMEM_VMEMMAP the only memory model
+7212b58d6d7133e4cd3c2295e1fb54febe284156 x86/mm/64: Make 5-level paging support unconditional
+09230b7554824c9db1712324efcf3595c67fd326 x86/paravirt: Restrict PARAVIRT_XXL to 64-bit only
 e3bcd0f7a9b31ca5ac5825b6d808bf5226f4c706 s390/cpacf: Rework cpacf_pcc() to return condition code
 6cd87cb5ef6ca50ae17c371482ceaab1d635e232 s390/crypto: Rework protected key AES for true asynch support
 31026ed5b7c88973be997cd896045ab4d9f0c524 Merge branch 'prot-key-async'
@@ -1023,32 +1050,5 @@ ddddf9d64f7361323da663637adb4a02466bfc99 Merge tag 'perf-core-2025-05-25' of git
 0aee0617267866555b4e35bd11e1fbb291fa9743 Merge tag 'x86-debug-2025-05-25' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 24244df067c5514ad72b8ad371208b1139dfd0f0 Merge tag 'x86-entry-2025-05-25' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 914873bc7df913db988284876c16257e6ab772c6 Merge tag 'x86-build-2025-05-25' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-ead6e5da1fb038be5b63ebee974ff91ed8dc56fc x86/boot: Set __pgtable_l5_enabled from asm code before entering C
-3867d9a44238397b662f43c841dc2a5da972b0f3 x86/boot: Avoid LA57 CPU feature for implementing pgtable_l5_enabled()
-5962c4c4307b6499a5a8297142d3527f9bf2b1e1 x86/boot: Remove KASAN workaround for 4/5 level paging switch
-f06f3ee5cd18b391330d198ff69b871a490fd7c4 x86/sev: Separate MSR and GHCB based snp_cpuid() via a callback
-3cae1d0e69447d9b903bd555d4ce113683dbe736 x86/sev: Use MSR protocol for remapping SVSM calling area
-440f239cca14ac48a10ddd7cbe39dd36eb9f7f91 x86/sev: Use MSR protocol only for early SVSM PVALIDATE call
-4ec35dddf25c5261870fca065fcf1cf891cf6c62 x86/sev: Run RMPADJUST on SVSM calling area page to test VMPL
-929d37bc1a19ed26c85ee0fc3f20b3c7e2be9baa x86/sev: Move GHCB page based HV communication out of startup code
-0c4c7b4de94c38b7e1b1cdbfe7e2e5e34b45f16b x86/sev: Avoid global variable to store virtual address of SVSM area
-d9b0a84cec39a46a9f737d375a97133cd887d526 x86/sev: Move MSR save/restore out of early page state change helper
-30a0890ac1e1d23844b4017de4f8a369a9004548 x86/sev: Share implementation of MSR-based page state change
-7f681a82a3d8ef3e3d1794f3fea6e671d5b054a9 x86/sev: Pass SVSM calling area down to early page state change API
-b380bd87b7f8e48d7eef29531477a46f21b3496a x86/sev: Use boot SVSM CA for all startup and init code
-b691d72c8a5ca6a26035b07b53caade3dc8234a9 x86/boot: Drop redundant RMPADJUST in SEV SVSM presence check
-20f8cee0ea6d61b80738853ef94f4f80bf88097a x86/sev: Unify SEV-SNP hypervisor feature check
-13fa1810670b727efbb85af05bdc0c10b4245653 x86/boot: Provide PIC aliases for 5-level paging related constants
-ae384f552fee0c8dd120ff8866689b36c4794260 x86/sev: Provide PIC aliases for SEV related data objects
-f4717607b79dce99acb9dedc42f27dea16f186f2 x86/sev: Move __sev_[get|put]_ghcb() into separate noinstr object
-7cd1c0180e8c1f645b30e0a7a5bfd7248dd11f41 x86/sev: Export startup routines for later use
-ec0fcb7d48a55e54e112fee9d70aae2f716f368d objtool: Add action to check for absence of absolute relocations
-abb374e0c19c9ff17b11c2dd58e459d796c328e5 x86/boot: Check startup code for absence of absolute relocations
-278eb9defcd0cbb28fec8357321e7121157b41e3 x86/boot: Revert "Reject absolute references in .head.text"
-28ecaa44acef081b6363c282e2977295b2e22b08 x86/kbuild: Incorporate boot/startup/ via Kbuild makefile
-a1c10e7e678a9f829885e5b51a6cc0faad082fc0 x86/boot: Create a confined code area for startup code
-6bc1e8e470b71dc420561f294af04f13c105432f efistub/x86: Remap inittext read-execute when needed
-0daeee5f7e36d20ac75a8d095ad77caf59afb593 x86/boot: Move startup code out of __head section
-bd356584f23ff9a7c72ea941660f7e388d76adcb x86/boot: Get rid of the .head.text section
 
---===============7885585403406638469==--
+--===============4268455067977400784==--
