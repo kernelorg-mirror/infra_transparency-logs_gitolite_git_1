@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 27 May 2025 10:09:11 -0000
-Message-Id: <174834055176.1962320.2447852018470766000@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
+Date: Tue, 27 May 2025 10:17:30 -0000
+Message-Id: <174834105069.1970212.10818875932728329933@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/srini/nvmem
+user: srini
 changes:
-  - ref: refs/heads/main
-    old: 08ae62e1729fac589aae0be2ace848464760fd77
-    new: f95633adc177416ac21f16db9ce1e75c74db805a
-    log: |
-         f95633adc177416ac21f16db9ce1e75c74db805a net/mlx5e: Allow setting MAC address of representors
-         
+  - ref: refs/heads/for-next
+    old: a5d9b82ff4ed1d3697160d6cb1fabefe7c95818e
+    new: 0af2f6be1b4281385b618cb86ad946eded089ac8
