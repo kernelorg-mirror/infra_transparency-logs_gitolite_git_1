@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 27 May 2025 21:08:46 -0000
-Message-Id: <174838012674.2666484.1166307495784546850@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Tue, 27 May 2025 21:11:52 -0000
+Message-Id: <174838031217.2670157.4464196453851186119@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
   - ref: refs/heads/master
-    old: ca56fbd5081e1c4340799040ee9cb849ee45249d
-    new: 5ffb537e416ee22dbfb3d552102e50da33fec7f6
+    old: b14bfe90ae4ecf632bde3ba826be64030a60979f
+    new: 2a552b93de8b319a8350b1057be4a53c025ab28e
     log: |
-         e2d2115e56c4a02377189bfc3a9a7933552a7b0f bpf: Do not include stack ptr register in precision backtracking bookkeeping
-         5ffb537e416ee22dbfb3d552102e50da33fec7f6 selftests/bpf: Add tests with stack ptr register in conditional jmp
+         088de118d17c017d66030384d772395e0e26345d shared/bap: Fix not handling read offset
+         2a552b93de8b319a8350b1057be4a53c025ab28e policy: Fix service retry counters reset
          
