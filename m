@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Tue, 27 May 2025 18:09:58 -0000
-Message-Id: <174836939806.2510214.13404394356675855567@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
+Date: Tue, 27 May 2025 18:16:03 -0000
+Message-Id: <174836976323.2516475.14537412230960472407@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/mingo/tip
+user: mingo
 changes:
-  - ref: refs/tags/v6.12-uek-localio-20250520
-    old: 0000000000000000000000000000000000000000
-    new: 65b0dc6bb1f5c18e63d8ee9ea1cca997456a81a9
+  - ref: refs/heads/WIP.sched/core
+    old: 4a00822561053e2670153d46202400afc8f98892
+    new: 17b66ef6f32dee34e1bbac6eef921f65124e9326
+    log: |
+         17b66ef6f32dee34e1bbac6eef921f65124e9326 sched/smp: Always define RT SMP scheduler methods
+         
