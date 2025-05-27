@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Tue, 27 May 2025 19:07:07 -0000
-Message-Id: <174837282720.2560163.9343177103450157127@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Tue, 27 May 2025 19:11:22 -0000
+Message-Id: <174837308268.2564215.13665688281651844283@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/dt/next
-    old: 70a299ed2e03e7ef26e5be7889bab1a47960ed25
-    new: cf0da5b0e00ed24e39b7ee64537e530c6cf7fc77
+  - ref: refs/heads/work.coredump.socket.protocol
+    old: f182c5250c3eb7e22302ce12dc5d1708f2609a12
+    new: 78944c909265ef93e533d071b35907d58be24e1d
     log: |
-         b18d797fa4e85b3a4a3a3e0a3c712210f88698ae dt-bindings: pinctrl: amlogic,pinctrl-a4: Add missing constraint on allowed 'group' node properties
-         cf0da5b0e00ed24e39b7ee64537e530c6cf7fc77 dt-bindings: watchdog: fsl-imx-wdt: add compatible string fsl,ls1021a-wdt
+         c470cd52c042edc845be85a006ae7cb2fa1f35b0 coredump: allow better parameter control
+         8fa16f13276ba08664378c305e18683965257811 selftests/coredump: fix build
+         06408497ceb60e75c08eb43868dcf737e04ea626 tools: add coredump.h header
+         fa2c25e159ab4dca96b1f6081b736f124882f244 selftests/coredump: add more coredump selftests
+         78944c909265ef93e533d071b35907d58be24e1d coredump: extend coredump socket
          
