@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-Date: Tue, 27 May 2025 05:44:59 -0000
-Message-Id: <174832469915.1734729.9916311835921354935@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 27 May 2025 06:21:55 -0000
+Message-Id: <174832691514.1765211.9396985237109913080@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-user: herbert
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/master
-    old: 2297554f01df6d3d4e98a3915c183ce3e491740a
-    new: 0a84874c7e7dde5cdddc80a82093120e924a348b
+  - ref: refs/heads/main
+    old: f0b50730bdd8f2734e548de541e845c0d40dceb6
+    new: 32374234ab0101881e7d0c6a8ef7ebce566c46c9
     log: |
-         0a84874c7e7dde5cdddc80a82093120e924a348b crypto: shash - Fix buffer overrun in import function
+         32374234ab0101881e7d0c6a8ef7ebce566c46c9 net: xilinx: axienet: Fix Tx skb circular buffer occupancy check in dmaengine xmit
          
