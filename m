@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8655160116543418846=="
+Content-Type: multipart/mixed; boundary="===============5110344396279861016=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Tue, 27 May 2025 07:30:23 -0000
-Message-Id: <174833102325.1827372.8444347620862026891@gitolite.kernel.org>
+Date: Tue, 27 May 2025 07:35:05 -0000
+Message-Id: <174833130518.1831485.12816718305206580779@gitolite.kernel.org>
 
---===============8655160116543418846==
+--===============5110344396279861016==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/WIP.x86/kconfig
-    old: 3c810105a5f1dfcb9f2f651a284d734251c316c3
-    new: 1eaf66f38997f9163cde55cf6a9e5411493c181f
-    log: revlist-3c810105a5f1-1eaf66f38997.txt
+  - ref: refs/heads/WIP.core/bugs
+    old: 9403ac9b276029a58f22b68a201bcddfe159d9d3
+    new: bd17d5c34b36b75830100fefbdc413bab6ec1246
+    log: revlist-9403ac9b2760-bd17d5c34b36.txt
 
---===============8655160116543418846==
+--===============5110344396279861016==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3c810105a5f1-1eaf66f38997.txt
+Content-Disposition: attachment; filename=revlist-9403ac9b2760-bd17d5c34b36.txt
 
-6e7d71b3a0f9732863b6a1366c9d875cec52c842 Merge branch 'atomic_writes-6.16' into xfs-6.16-merge
-ca43b74ac3040ae13be854e6a71ebd7a91e5fcfc xfs: remove some EXPERIMENTAL warnings
-1c7161ef0164716fdf4618b50747bd3002625e38 xfs: remove the EXPERIMENTAL warning for pNFS
 b04f0d89e880bc2cca6a5c73cf287082c91878da arm64: dts: marvell: uDPU: define pinctrl state for alarm LEDs
 4ed9d82bf5b21d65e2f18249eec89a6a84df8f23 objtool: Speed up SHT_GROUP reindexing
 676e8cf70cb0533e1118e29898c9a9c33ae3a10f sched,livepatch: Untangle cond_resched() and live-patching
@@ -1037,18 +1034,21 @@ ddddf9d64f7361323da663637adb4a02466bfc99 Merge tag 'perf-core-2025-05-25' of git
 0aee0617267866555b4e35bd11e1fbb291fa9743 Merge tag 'x86-debug-2025-05-25' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 24244df067c5514ad72b8ad371208b1139dfd0f0 Merge tag 'x86-entry-2025-05-25' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 914873bc7df913db988284876c16257e6ab772c6 Merge tag 'x86-build-2025-05-25' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-186715fc59179699d54adca36f28f5b179b6d49f x86/kconfig/64: Refresh defconfig
-778ae9a8c414cbcbbbbc4f266599b251db2c6650 x86/kconfig/32: Refresh defconfig
-9f4dcbd7073702fb4540d80fe9704b1226d22ca0 x86/kbuild: Remove ancient 'arch/i386/' and 'arch/x86_64/' directory removal 'archclean' target
-5f4b36c58adc71f4055b1a410eb5c8ce3bfc8a5f x86/tools: insn_decoder_test.c: Emit standard build success messages
-9e2baa3172529634999bf654e4e59ed61adc7bd7 x86/tools: insn_sanity.c: Emit standard build success messages
-ea3b79ea08b256835f342249edcb4afc8745b992 x86/kconfig/64: Enable the KVM host in the defconfig
-4420bd8e6818da7c743ad683fd5cc2e7031550c3 x86/kconfig/64: Enable more virtualization guest options in the defconfig: enable Xen, Xen_PVH, Jailhouse, ACRN, Intel TDX and Hyper-V
-eedb7f5303bf86d6f78a4c4013549cea63f2f656 x86/kconfig/64: Enable BPF support in the defconfig
-80dbd1c11516ad1c9af935861ea20b2813fbc5f3 x86/kconfig/64: Enable popular MM options in the defconfig
-8afc5077997054943dd229e35fc34252a9a06d10 x86/kconfig/64: Enable popular kernel debugging options in the defconfig
-5e9cae069f07318bb1badcf485e67e40d5ca1200 x86/kconfig/64: Enable popular scheduler, cgroups and namespaces options in the defconfig
-6a543ac4f357b638fe186693881ac87db060faa8 x86/kconfig/64: Enable popular generic kernel options in the defconfig
-1eaf66f38997f9163cde55cf6a9e5411493c181f x86/kconfig/32: Synchronize the x86-32 defconfig to the x86-64 defconfig
+a7a3a20da7b80981b9479b782da6b5e7e239d9d9 bugs/core: Extend __WARN_FLAGS() with the 'cond_str' parameter
+bd7c006d0863360d1a1ee6cf380d06ff33843b3f bugs/core: Pass down the condition string of WARN_ON_ONCE(cond) warnings to __WARN_FLAGS()
+b8f8e4dd03f70c4ae797e54017a3c7b1a427a5d0 bugs/core: Introduce the CONFIG_DEBUG_BUGVERBOSE_DETAILED Kconfig switch
+3338e7ca152e567ddb57bee97b3c29be52359477 bugs/x86: Extend _BUG_FLAGS() with the 'cond_str' parameter
+f1fc40050f14fc06f77b2a0dd1710e1b9a54b87c bugs/x86: Augment warnings output by concatenating 'cond_str' with the regular __FILE__ string in _BUG_FLAGS()
+a4952cdcb276961bf7abd21c3d1130aa41fa9f5d bugs/powerpc: Pass in 'cond_str' to BUG_ENTRY()
+b402fd0a19e802a2bc80039c768d1f016227ae47 bugs/powerpc: Concatenate 'cond_str' with '__FILE__' in BUG_ENTRY(), to extend WARN_ON/BUG_ON output
+ca607ed85900913dc690e3b14c0f1265f4db9213 bugs/LoongArch: Pass in 'cond_str' to __BUG_ENTRY()
+e96c576c18c6142e38d03dfce46e04bdcdf6d1ad bugs/LoongArch: Concatenate 'cond_str' with '__FILE__' in __BUG_ENTRY(), to extend WARN_ON/BUG_ON output
+27d015d6a8ced260898ccc752e8cbf7584f0a197 bugs/s390: Pass in 'cond_str' to __EMIT_BUG()
+207f28af660bf9cd00f2b1e6d71082573c32256b bugs/riscv: Pass in 'cond_str' to __BUG_FLAGS()
+78229d9139f771147217cee717edf4f6d45ff381 bugs/riscv: Concatenate 'cond_str' with '__FILE__' in __BUG_FLAGS(), to extend WARN_ON/BUG_ON output
+084bd0493026b9ff368902c97d7226c1702e96be bugs/parisc: Concatenate 'cond_str' with '__FILE__' in __WARN_FLAGS(), to extend WARN_ON/BUG_ON output
+5d943ef690132f7abf2e75ba67e9a09653538e01 sh: Concatenate 'cond_str' with '__FILE__' in __WARN_FLAGS(), to extend WARN_ON/BUG_ON output
+9af46ba686947f1fe185330b41fb3ed853b29049 bugs/core: Reorganize fields in the first line of WARNING output, add ->comm[] output
+bd17d5c34b36b75830100fefbdc413bab6ec1246 bugs/core: Test WARN_ON_ONCE()
 
---===============8655160116543418846==--
+--===============5110344396279861016==--
