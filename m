@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2670866057527746147=="
+Content-Type: multipart/mixed; boundary="===============0572710551075806846=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Tue, 27 May 2025 07:39:53 -0000
-Message-Id: <174833159389.1835260.8126799934912858864@gitolite.kernel.org>
+Date: Tue, 27 May 2025 07:40:19 -0000
+Message-Id: <174833161985.1837227.928156287458735257@gitolite.kernel.org>
 
---===============2670866057527746147==
+--===============0572710551075806846==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,37 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/WIP.x86/boot
-    old: 66f3a1ae5599b0246fa23753c2bebbfdc040563a
-    new: 20573be9979cc24d694cfe906fcc8e5e93b82d04
-    log: revlist-66f3a1ae5599-20573be9979c.txt
+  - ref: refs/heads/WIP.sched/core
+    old: 6ead1821086406b9144dae905164e80707c107b9
+    new: 8fb5dfde78c1f8537df300cbbb94420e0cd6424e
+    log: revlist-6ead18210864-8fb5dfde78c1.txt
 
---===============2670866057527746147==
+--===============0572710551075806846==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-66f3a1ae5599-20573be9979c.txt
+Content-Disposition: attachment; filename=revlist-6ead18210864-8fb5dfde78c1.txt
 
+fb98bd0a13de2c9d96cb5c00c81b5ca118ac9d71 spi: spi-sun4i: fix early activation
+6b0cd72757c69bc2d45da42b41023e288d02e772 regulator: max20086: fix invalid memory access
+314007549d89adebdd1e214a743d7e26edbd075e octeontx2-pf: Fix ethtool support for SDP representors
+33cd93435cea665b24ca3f9b3d6af42afb3ba7bc crypto: qat/qat_6xxx - Fix NULL vs IS_ERR() check in adf_probe()
+714ca27e9bf4608fcb1f627cd5599441f448771e crypto: iaa - Optimize rebalance_wq_table()
+c66d7ebbe2fa14e41913adb421090a7426f59786 crypto: powerpc/poly1305 - Add SIMD fallback
+8a4e047c6cc07676f637608a9dd675349b5de0a7 crypto: marvell/cesa - Handle zero-length skcipher requests
+1bafd82d9a40cf09c6c40f1c09cc35b7050b1a9f crypto: marvell/cesa - Avoid empty transfer descriptor
+9e000f1b7f31684cc5927e034360b87ac7919593 ALSA: es1968: Add error handling for snd_pcm_hw_constraint_pow2()
+6475ece803e7b41d5a3dcffffc35f6482d4cbb4d Merge branch 'block-6.15' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux-block into xfs-6.16-merge
+ea31bdece29ac72ebe409cf2bb411abe6e31431a xfs: stop using set_blocksize
+c0a5c4084709a78117c1c372aa4f813e1a98c313 xfs: Remove deprecated xfs_bufd sysctl parameters
+6e7d71b3a0f9732863b6a1366c9d875cec52c842 Merge branch 'atomic_writes-6.16' into xfs-6.16-merge
+ca43b74ac3040ae13be854e6a71ebd7a91e5fcfc xfs: remove some EXPERIMENTAL warnings
+1c7161ef0164716fdf4618b50747bd3002625e38 xfs: remove the EXPERIMENTAL warning for pNFS
+b04f0d89e880bc2cca6a5c73cf287082c91878da arm64: dts: marvell: uDPU: define pinctrl state for alarm LEDs
+4ed9d82bf5b21d65e2f18249eec89a6a84df8f23 objtool: Speed up SHT_GROUP reindexing
+676e8cf70cb0533e1118e29898c9a9c33ae3a10f sched,livepatch: Untangle cond_resched() and live-patching
+83c178470e0bf690d34c8c08440f2421b82e881c phy: tegra: xusb: remove a stray unlock
+54c4c58713aaff76c2422ff5750e557ab3b100d7 phy: renesas: rcar-gen3-usb2: Fix role detection on unbind/bind
 de76809f60cc938d3580bbbd5b04b7d12af6ce3a phy: renesas: rcar-gen3-usb2: Move IRQ request in probe
 55a387ebb9219cbe4edfa8ba9996ccb0e7ad4932 phy: renesas: rcar-gen3-usb2: Lock around hardware registers and driver data
 9ce71e85b29eb63e48e294479742e670513f03a0 phy: renesas: rcar-gen3-usb2: Assert PLL reset on PHY power off
@@ -1029,26 +1049,6 @@ ddddf9d64f7361323da663637adb4a02466bfc99 Merge tag 'perf-core-2025-05-25' of git
 0aee0617267866555b4e35bd11e1fbb291fa9743 Merge tag 'x86-debug-2025-05-25' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 24244df067c5514ad72b8ad371208b1139dfd0f0 Merge tag 'x86-entry-2025-05-25' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 914873bc7df913db988284876c16257e6ab772c6 Merge tag 'x86-build-2025-05-25' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-e46bb7d6337252b6f23ed4985b254c06aead9b5f x86/sev: Separate MSR and GHCB based snp_cpuid() via a callback
-d0916b5cd922d2899ed33723d0465ccdb1f43aaf x86/sev: Use MSR protocol for remapping SVSM calling area
-b598549035f0e9ae3e05adfdd2b8caf2c709060c x86/sev: Use MSR protocol only for early SVSM PVALIDATE call
-61d59886f04a0184b73611698be293e56f7fe44f x86/sev: Run RMPADJUST on SVSM calling area page to test VMPL
-61be44a80361f42b4da9af7dd8aba1d4fad7b6f6 x86/sev: Move GHCB page based HV communication out of startup code
-c3e7de35039a69c6ea1bc9f61d6f64329c7c8207 x86/sev: Avoid global variable to store virtual address of SVSM area
-71ac76f58c7bb3097d5112d1d531f041fcee48b9 x86/sev: Move MSR save/restore out of early page state change helper
-0ae9bc030a3ab8d593f0ecb1b9415470cc34f295 x86/sev: Share implementation of MSR-based page state change
-7dcd75c536929553b04bac46265844099a909715 x86/sev: Pass SVSM calling area down to early page state change API
-669aa5ab70a68ae9a6ff36148e4529ffdb494f42 x86/sev: Use boot SVSM CA for all startup and init code
-b6ad1ea0829491ba37598299c99fbce48545e7ad x86/boot: Drop redundant RMPADJUST in SEV SVSM presence check
-809426b86c3dd6a2f95ff484dd913cb92e92ccfd x86/sev: Unify SEV-SNP hypervisor feature check
-99347189ba561835bba8fcd8b7733be985afaaf6 x86/sev: Provide PIC aliases for SEV related data objects
-6cbcbfac69e58d747a1501454cf4d8e8683b949d x86/boot: Provide PIC aliases for 5-level paging related constants
-22be2f0713d597c3ab7ee1599dfd428d4d23cfba x86/sev: Move __sev_[get|put]_ghcb() into separate noinstr object
-ccdf275dcd6306a437d96b7b29abbc600d3f67bb x86/sev: Export startup routines for later use
-e867f1151440cf8dac7a2ecada3548413af0f306 x86/boot: Create a confined code area for startup code
-f91ec33b85c016145b4f8f8fdcfe6a8386e1d227 x86/boot: Move startup code out of __head section
-7c1853e047d44a8aef3fc8a6e0759eee41e835bb x86/boot: Disallow absolute symbol references in startup code
-caf93340a55b35438f9463690b91328b83260437 x86/boot: Revert "Reject absolute references in .head.text"
-20573be9979cc24d694cfe906fcc8e5e93b82d04 x86/boot: Get rid of the .head.text section
+8fb5dfde78c1f8537df300cbbb94420e0cd6424e sched/core: Introduce task_*() helpers for PF_ flags
 
---===============2670866057527746147==--
+--===============0572710551075806846==--
