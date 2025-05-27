@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Tue, 27 May 2025 10:43:43 -0000
-Message-Id: <174834262300.1992037.14272827756413008783@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 27 May 2025 11:14:34 -0000
+Message-Id: <174834447443.2017051.14477097287382981649@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/linux-pm
-user: ulfh
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/pmdomain-v6.16
+  - ref: refs/heads/20250526_krzysztof_kozlowski_asoc_codecs_wcd93xx_few_regulator_supplies_fixes
     old: 0000000000000000000000000000000000000000
-    new: 5864c2b28072343b7f664afba91933d02800fd3a
-  - ref: refs/tags/v6.15
+    new: 63fe298652d4eda07d738bfcbbc59d1343a675ef
+  - ref: refs/heads/fileKj0O4E
     old: 0000000000000000000000000000000000000000
-    new: 0a4b866d08c6adaea2f4592d31edac6deeb4dcbd
+    new: b4608e944177531334a79f3df2cd14275b47808c
+  - ref: refs/heads/fileNW6J79
+    old: 0000000000000000000000000000000000000000
+    new: 16719d48197bbd8cff121b32acec67d954335437
