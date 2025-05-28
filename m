@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Wed, 28 May 2025 15:43:38 -0000
-Message-Id: <174844701883.3615698.13851648668651114808@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/cpu/mce/mce-test
+Date: Wed, 28 May 2025 15:44:58 -0000
+Message-Id: <174844709898.3617047.8662135233031710927@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/utils/cpu/mce/mce-test
+user: aegl
 changes:
-  - ref: refs/heads/for-linux-next
-    old: 8525af738fe934469991e6673e30c7f998bc6e28
-    new: 259da7fefd048832950a7bc4eb672451d098e8e2
+  - ref: refs/heads/master
+    old: 0c5bef303e156c47827c2bd330ec3dc13a0af9db
+    new: ab7e1c31681f4a666edd241c8320a6458cf04d6c
     log: |
-         7d3d8878016f3233eb5a884bfcb807fe78e12a74 firmware: arm_ffa: Fix memory leak by freeing notifier callback node
-         c226d3bb358e2d14c077a26b88d7a3a1d1d2fd91 firmware: arm_ffa: Move memory allocation outside the mutex locking
-         7b7597df10e281cdacfeb66c08b21868f1a409fa firmware: arm_ffa: Replace mutex with rwlock to avoid sleep in atomic context
-         259da7fefd048832950a7bc4eb672451d098e8e2 Merge branch 'for-next/ffa/fixes' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
+         d98eff261e1abae09dc95e1e4bcc26901380b756 random_offline: Fix 'syntax error' test failure on AArch64
+         ab7e1c31681f4a666edd241c8320a6458cf04d6c thugetlb: fix test case failure due to incorrect getopt_long() return handling
          
