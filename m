@@ -1,61 +1,132 @@
-Content-Type: multipart/mixed; boundary="===============9106226159001721111=="
+Content-Type: multipart/mixed; boundary="===============2739918145411654399=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/aegl/linux
-Date: Wed, 28 May 2025 22:10:40 -0000
-Message-Id: <174847024013.3949344.13056495496883741377@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Wed, 28 May 2025 22:14:02 -0000
+Message-Id: <174847044264.3950899.12361153658256922845@gitolite.kernel.org>
 
---===============9106226159001721111==
+--===============2739918145411654399==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/aegl/linux
-user: aegl
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/my_mbm_plus_babu_abmc
-    old: 787281bd2a81de100c3826077b71900a32d7e541
-    new: c5e4c99229886ca8356c3ef7555b56270521564e
-    log: revlist-787281bd2a81-c5e4c9922988.txt
+  - ref: refs/heads/master
+    old: 1cbf99e47fef5a0a8cd421487e642283092f07b0
+    new: 47cf96fbe393839b125a9b694a8cfdd3f4216baa
+    log: revlist-1cbf99e47fef-47cf96fbe393.txt
 
---===============9106226159001721111==
+--===============2739918145411654399==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-787281bd2a81-c5e4c9922988.txt
+Content-Disposition: attachment; filename=revlist-1cbf99e47fef-47cf96fbe393.txt
 
-9d0dfbeca5f3094af438552f198f559204b158af x86,fs/resctrl: Consolidate monitor event descriptions
-c33e2eef795a289b9d2ee2d3925fd9fcf4696706 x86,fs/resctrl: Replace architecture event enabled checks
-1fdb40c46fce8d63a920e8f390cde1e8cb661c11 x86/resctrl: Remove 'rdt_mon_features' global variable
-8cd7b7960e1989b36c3b676bfe538a94a17f9307 x86,fs/resctrl: Prepare for more monitor events
-f1a6e06e305b508651dcd704e95de1927fd78fe8 x86/cpufeatures: Add support for Assignable Bandwidth Monitoring Counters (ABMC)
-09480338341465896c395bcf4cbd290a488ad927 x86/resctrl: Add ABMC feature in the command line options
-aed7da618cc684a93c29fd4f8248d92d84d41ebb x86/resctrl: Consolidate monitoring related data from rdt_resource
-d965334a8333d30c51cb651f728924f45db4c64b x86/resctrl: Detect Assignable Bandwidth Monitoring feature details
-39aac141df8905bdae236b8cbcfcbd66344b880b x86/resctrl: Add support to enable/disable AMD ABMC feature
-6ce6f7bacd1eac052b7f9153b97ef83d21ec6ae7 x86/resctrl: Introduce the interface to display monitor mode
-51015a040da87d0aac111bc8d8ad28eb9b630a2c x86/resctrl: Introduce interface to display number of monitoring counters
-ea184b5e85d145429bdf7c4aeadd0e3dabafe077 x86/resctrl: Introduce mbm_cntr_cfg to track assignable counters at domain
-9704ef64ce365eeb61b0643dfeeea1072633b737 x86/resctrl: Introduce interface to display number of free MBM counters
-874233cf0a2ca68788a4f8297a4ab10920c6c695 x86/resctrl: Add data structures and definitions for ABMC assignment
-70d5b2fdf1adabeefd59410b95690168d9dccbdc x86/resctrl: Implement resctrl_arch_config_cntr() to assign a counter with ABMC
-c4f340da0d05efe6a2ad32ba9b0c11f14f60a5fb x86/resctrl: Introduce event configuration modes
-a4ca638e39787c60eb9cddb3ad507e5a26b66d08 x86/resctrl: Add the functionality to assign MBM events
-a1481f1536b02433240dc2442fe10436194c9f14 x86/resctrl: Add the functionality to unassign MBM events
-40a49a138581d1ad51a0d40eb20a40c613aac624 x86/resctrl: Report 'Unassigned' for MBM events in mbm_cntr_assign mode
-0d0218222040f5501366ef21cc0ed87de6d7b5a6 x86/resctrl: Pass entire struct rdtgroup rather than passing individual members
-10fcc31e3ca252112e52d2fa065c24f3600a4bb2 x86/resctrl: Add the support for reading ABMC counters
-ec83c3b76f304beb63197d809538d0d98e847cba x86/resctrl: Add definitions for MBM event configuration
-eb80e82c59321d85a6b98505be2953e798a9ba50 x86/resctrl: Add event configuration directory under info/L3_MON/
-4a716a5747c37f0a1ba43c64f7e323b84d1e3cdf x86/resctrl: Provide interface to update the event configurations
-960179d6c6f4ed519c0fb9ae1c8ae30e94b348d1 x86/resctrl: Introduce mbm_assign_on_mkdir to configure assignments
-fb796a8f76bb15627737dbd2a87a1f9e3eca3282 x86/resctrl: Auto assign/unassign counters when mbm_cntr_assign is enabled
-98dceeedac0211f0d71a3758a249328b3623a7a4 x86/resctrl: Introduce mbm_L3_assignments to list assignments in a group
-72e38baeeefea499b80e1891387cbfaa3da0e9a8 x86/resctrl: Introduce the interface to modify assignments in a group
-167d81034065311649cdd79e9dda25bf6da2d219 x86/resctrl: Hide the BMEC related files when mbm_cnt_assign is enabled
-68b2af6e824bf22f560f13ea894fc0801a182152 x86/resctrl: Introduce the interface to switch between monitor modes
-c5e4c99229886ca8356c3ef7555b56270521564e x86/resctrl: Configure mbm_cntr_assign mode if supported
+95507570fb2f75544af69760cd5d8f48fc5c7f20 arm64/fpsimd: Avoid RES0 bits in the SME trap handler
+61db0e0ba398a3726ca0e6a6399898d3d4c7b0f9 arm64/fpsimd: Remove unused fpsimd_force_sync_to_sve()
+45fd86986b79c3ada56d3a14e712447e992433aa arm64/fpsimd: Remove redundant SVE trap manipulation
+d7649a4a601ebf4603f0a673f554ab350b6cfede arm64/fpsimd: Remove opportunistic freeing of SME state
+d3eaab3c70905c5467e5c4ea403053d67505adeb arm64/fpsimd: Discard stale CPU state when handling SME traps
+e5fa85fce08b21ed41643cb7968bf66bbd0532e3 arm64/fpsimd: Don't corrupt FPMR when streaming mode changes
+01098d893fa8a6edb2b56e178b798e3e6b674f02 arm64/fpsimd: Avoid clobbering kernel FPSIMD state with SMSTOP
+a90878f297d3dba906a6261deccb1bd4a791ba52 arm64/fpsimd: Reset FPMR upon exec()
+c94f2f326146a34066a0070ed90b8bc656b1842f arm64/fpsimd: Fix merging of FPSIMD state during signal return
+d3a181588df9401d319fe2dc24bf1a364a687cc2 arm64/fpsimd: Add fpsimd_save_and_flush_current_state()
+3aa4d74438afa1324513a7a6bc30f57e8727ad86 arm64/fpsimd: signal32: Always save+flush state early
+929fa99b1215966fc8a6ccc2e14b92e36c3c42f3 arm64/fpsimd: signal: Always save+flush state early
+2fe2b96c3818a043eb013a9db1885de75987715d arm64/fpsimd: signal: Simplify preserve_tpidr2_context()
+674cd7740257a27e3f81a0b66c9f6e65912eaca6 perf/arm-cmn: Remove CMN-600 DTC domain special case
+7f57afde6a44d9e044885e1125034edd4fda02e8 perf: arm-ni: Unregister PMUs on probe failure
+fc5106088d6db75df61308ef6de314d1f7959646 perf: arm-ni: Fix missing platform_set_drvdata()
+70cbcb2850ec693e36962295568e876cde88eadc perf: Do not enable by default during compile testing
+2d8a3179ea035f9341b6a73e5ba4029fc67e983d nios2: force update_mmu_cache on spurious tlb-permission--related pagefaults
+83ab598362fb3a30cf2789f7482878084ff8efaa nios2: do not introduce conflicting mappings when flushing tlb entries
+aa264d9511aa5befa28cf8d9f32fce78fcf1a773 nios2: Replace strcpy() with strscpy() and simplify setup_cpuinfo()
+b376108e1f88df9fbbb3867634150a3dd71e3acb arm64/fpsimd: signal: Clear TPIDR2 when delivering signals
+e04796c8b5980700c78f2fd1b29724afd80dcc62 arm64/fpsimd: Avoid unnecessary per-CPU buffers for EFI runtime calls
+1db780bafa4cedd20f040c3fce616e47aa7c0c47 arm64/mm: Remove randomization of the linear map
+7ff37d29fd5c27617b9767e1b8946d115cf93a1e firmware: psci: Fix refcount leak in psci_dt_init
+35382a3646404891aba092013b855c3db4b8b487 arm64/cpufeature: Add missing id_aa64mmfr4 feature reg update
+c8597e2dd8b660c638e3aab3cd5a009d6a2d458b arm64: enable PREEMPT_LAZY
+00b39d150986c769fe52f9092b6e775a787d5d69 arm64: vdso: Use __arch_counter_get_cntvct()
+17efc1acee6229e8964d248e2a21def519e04c14 arm64: Expose AIDR_EL1 via sysfs
+f101c56447717c595d803894ba0e215f56c6fba4 arm64: Support ARM64_VA_BITS=52 when setting ARCH_MMAP_RND_BITS_MAX
+20125324c01d30f7ff36183a8f48ffebca9db584 arm64: Add missing includes for mem_encrypt
+e2eaeba0522d332bef8e61b2b9f54a78cd2b6257 arm64: Kconfig: remove unnecessary selection of CRC32
+83a39eccdf2f26024ce7699aefb7e439221d88af arm64: Extend pr_crit message on invalid FDT
+fcf8dda8cc4860076395d807d9b3f781ca1d8f4f arm64: pageattr: Explicitly bail out when changing permissions for vmalloc_huge mappings
+f699c66691fb7e08a5a631c5baf5f2a19b7a6468 arm64/fpsimd: Avoid warning when sve_to_fpsimd() is unused
+59529bbe642de4eb2191a541d9b4bae7eb73862e firmware: SDEI: Allow sdei initialization without ACPI_APEI_GHES
+398edaa12f9cf2be7902f306fc023c20e3ebd3e4 arm64/fpsimd: Do not discard modified SVE state
+1bf663a86a4505a97f08d06c373704de9441c891 arm64/fpsimd: signal: Clear PSTATE.SM when restoring FPSIMD frame only
+b465ace42620970e840c7aeb2c44a6e3b1002fec arm64/fpsimd: signal: Mandate SVE payload for streaming-mode state
+be625d803c3bbfa9652697eb57589fe6f2f24b89 arm64/fpsimd: signal: Consistently read FPSIMD context
+316283f276ebd5596d2015e4653198bdc2e138d4 arm64/fpsimd: ptrace: Consistently handle partial writes to NT_ARM_(S)SVE
+b255be426913e83dd79b920b77e94d3c47886c50 arm64/fpsimd: Clarify sve_sync_*() functions
+8738288a08b8367cd2a9f656498d7490e4473036 arm64/fpsimd: Factor out {sve,sme}_state_size() helpers
+6ef1d778ce56c5bde1ac0a1f85fd9710efde6724 arm64/fpsimd: Add task_smstop_sm()
+99560c9452bb9819334bdb9c6e9e27c0f45f8829 arm64/fpsimd: signal: Use SMSTOP behaviour in setup_return()
+8d61eef756798cd33721e4c89bc72ce81792a3e8 arm64/fpsimd: Remove redundant task->mm check
+e0cb0f26594c644c71ee7f48ebaae6b26bf56a12 arm64/fpsimd: Consistently preserve FPSIMD state during clone()
+a6d066f705747124fb2d662df0acbb45ffe6c406 arm64/fpsimd: Clear PSTATE.SM during clone()
+cde5c32db55740659fca6d56c09b88800d88fd29 arm64/fpsimd: Make clone() compatible with ZA lazy saving
+49ce484187f72a94c202348179a9a4e63a0f864b arm64/fpsimd: ptrace/prctl: Ensure VL changes do not resurrect stale data
+b87c8c4aca1163ae4791507089007863e9c3ca1b arm64/fpsimd: ptrace/prctl: Ensure VL changes leave task in a valid state
+054d627c5554bdd38228174b275d62113124e3ad arm64/fpsimd: ptrace: Save task state before generating SVE header
+b93e685ecff77e0b231c12802fb632ef36a62140 arm64/fpsimd: ptrace: Do not present register data for inactive mode
+f916dd32a943a7ab40497718aa7bcf3648d2bb39 arm64/fpsimd: ptrace: Mandate SVE payload for streaming-mode state
+9f8bf718f29230e38a048d08fc3063e316cd60c1 arm64/fpsimd: ptrace: Gracefully handle errors
+33c4618d0ac04139b737dcc0870b9dc3ed4dd170 arm64/fpsimd: Allow CONFIG_ARM64_SME to be selected
+78b23877dbba7dbcda2b89383d17bed82ce8f663 kselftest/arm64: fp-ptrace: Fix expected FPMR value when PSTATE.SM is changed
+be45e63f79ecfea8373f18f50330838d77553a6b kselftest/arm64: tpidr2: Adjust to new clone() behaviour
+031a2acaa1cdab3c89dfb810a8cb75ddfdf5a65c kselftest/arm64: fp-ptrace: Adjust to new VL change behaviour
+864f3ddcd7153fdb3f2d3822e563985135d8eafa kselftest/arm64: fp-ptrace: Adjust to new inactive mode behaviour
+11b0f576e0cbde6a12258f2af6753b17b8df342b perf/arm-cmn: Fix REQ2/SNP2 mixup
+097469a2b0f12b91b4f27b9e9e4f2c46484cde30 perf/amlogic: Replace smp_processor_id() with raw_smp_processor_id() in meson_ddr_pmu_create()
+29cb80519689706387bde47000dbb2ed91143063 arm64: hugetlb: Cleanup huge_pte size discovery mechanisms
+5b3f8917644e595a710849e602b61617d55c4c41 arm64: hugetlb: Refine tlb maintenance scope
+91e40668e70a08cf09c0e22023807b01d78d8b3a mm/page_table_check: Batch-check pmds/puds just like ptes
+ef493d234362e0e895968563ac51e174bcb2ddb4 arm64/mm: Refactor __set_ptes() and __ptep_get_and_clear()
+a899b7d0673cc7c53545a4c9c30c2c93f2f8cc7d arm64: hugetlb: Use __set_ptes_anysz() and __ptep_get_and_clear_anysz()
+f89b399e8d6e9fdef92b15164c2737ac8ef5831a arm64/mm: Hoist barriers out of set_ptes_anysz() loop
+61ef8ddaa35e341508d8fa891c33029ed5f75779 mm/vmalloc: Warn on improper use of vunmap_range()
+2fba13371fe80b4d0d533a502e460ce0e936d024 mm/vmalloc: Gracefully unmap huge ptes
+06fc959fcff743298fdb5428e18bcbd7b54cb9ae arm64/mm: Support huge pte-mapped pages in vmap
+44562c71e2cfc9eed39bfcd98af63d5da8b1b5bf mm/vmalloc: Enter lazy mmu mode while manipulating vmalloc ptes
+5fdd05efa1cd3bb98060f409eca57dc0a6d171b4 arm64/mm: Batch barriers when updating kernel mappings
+7bb797757bf5720543f1c5115b40a8d646d5c1cc arm64/cpuinfo: only show one cpu's info in c_show()
+b81c688426a9785bcae93bab3705ed2cd5fab175 arm64/mm: Disable barrier batching in interrupt contexts
+1ef3095b14057c6898468e90184bd0942977fbad arm64/mm: Permit lazy_mmu_mode to be nested
+29e31da4ed26c3ffc9afa70427f84f60fe50600b arm64/mm: Re-organise setting up FEAT_S1PIE registers PIRE0_EL1 and PIR_EL1
+13c63ce358832e01575d3b186210966e17f9ff68 arm64: mm: Drop redundant check in pmd_trans_huge()
+694f574f741a9e5dd60c39aae5aaa34c18231e96 arm64: Update comment regarding values in __boot_cpu_mode
+b225219a4002aae9b5d71cf0f912ac02d38f0212 kselftest/arm64: Set default OUTPUT path when undefined
+597704e201068db3d104de3c7a4d447ff8209127 perf/arm-cmn: Initialise cmn->cpu earlier
+93d0d6f8a654b623addb40f23e5c7696bc93fbd5 arm64/boot: Move init_pgdir[] and init_idmap_pgdir[] into __pi_ namespace
+4afff6cc9a55b1a6ce4bf6fdf2084acd9ca34195 arm64/boot: Move global CPU override variables out of BSS
+90530521079eec58b574341032a77746838874ee arm64/boot: Disallow BSS exports to startup code
+8c138a189f6db295ceb32258d46ac061df0823e5 perf/arm-cmn: Add CMN S3 ACPI binding
+80834997154271da58fd69fa7fdfe8238750960e arm64: el2_setup.h: Make __init_el2_fgt labels consistent, again
+226ff35039d05826b738160eff05844c0fa5c2a0 arm64: cputype: Add cputype definition for HIP12
+0a84874c7e7dde5cdddc80a82093120e924a348b crypto: shash - Fix buffer overrun in import function
+9bd2e7c65c8977c2a06e4c144a59a7ef24a017ce Merge branch 'for-next/acpi' into for-next/core
+328d35b755ffab37fd74ced2c5795e45de466241 Merge branch 'for-next/cpufeature' into for-next/core
+b5b6910f83b80e2f088f529538352907605f0407 Merge branch 'for-next/efi' into for-next/core
+48055fb8823bb5e8266096ee13bc23112a02585f Merge branch 'for-next/entry' into for-next/core
+dc64de40339bc1a7d7c52f5d3b42094e596dac12 Merge branch 'for-next/fixes' into for-next/core
+9d27622f7d0cd146283de47b0a2bcebd0879469f Merge branch 'for-next/misc' into for-next/core
+c73497194ad5390ec095af3dcdc5f9fc4c23789b Merge branch 'for-next/mm' into for-next/core
+3557a45d2ab89211de1d367ff30af9e69c859aab Merge branch 'for-next/perf' into for-next/core
+3b9552cf340ef4f6e2ff8b612f3e47c31a86aa1f Merge branch 'for-next/psci' into for-next/core
+f92f17a7bbe73141dee58b7ef59aa16f6b9468e7 Merge branch 'for-next/selftests' into for-next/core
+53a087046ad9a9b3cea2e92f9c5a06011f6e78b0 Merge branch 'for-next/sme-fixes' into for-next/core
+217e3cbba3d6613bee9ac33ddc330f8676eb9eca Merge branch 'for-next/vdso' into for-next/core
+408aa67404405c8519ddee70bc0e6c55daa7c959 Merge tag 'v6.16-p2' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
+bbff27b54e4271a42ea1dba93a76e51165f2dbaa Merge tag 'nios2_updates_for_v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/dinguyen/linux
+47cf96fbe393839b125a9b694a8cfdd3f4216baa Merge tag 'arm64-upstream' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 
---===============9106226159001721111==--
+--===============2739918145411654399==--
