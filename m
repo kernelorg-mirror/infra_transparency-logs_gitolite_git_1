@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Wed, 28 May 2025 15:59:48 -0000
-Message-Id: <174844798827.3632717.135038410402700135@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Wed, 28 May 2025 16:00:03 -0000
+Message-Id: <174844800318.3634245.16548621685284258733@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: acme
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 6dd7a0fde91f252858f4d4cff4245577319b7b88
-    new: 24bcc31fc75b760e7813e1c8257a7439e045e8ad
+  - ref: refs/heads/dev-test
+    old: 54ca9be0bc589a0e45959ba73c76cf3f65110c63
+    new: deecd282bc39bc9b64e50a0f628a8080da27359a
     log: |
-         24bcc31fc75b760e7813e1c8257a7439e045e8ad Revert "perf thread: Ensure comm_lock held for comm_list"
+         249ad438e1d98b30b1ad9283bb4c4a37c4858294 f2fs: add a method for calculating the remaining blocks in the current segment in LFS mode.
+         deecd282bc39bc9b64e50a0f628a8080da27359a f2fs: add ckpt_valid_blocks to the section entry
          
