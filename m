@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3913391440395875827=="
+Content-Type: multipart/mixed; boundary="===============0978561009942029766=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Wed, 28 May 2025 22:17:34 -0000
-Message-Id: <174847065466.3954687.11480117260264476067@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Wed, 28 May 2025 22:17:53 -0000
+Message-Id: <174847067308.3955106.13027425742415370342@gitolite.kernel.org>
 
---===============3913391440395875827==
+--===============0978561009942029766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 4d9b5146f0d9147293155b569db9a19c8f5ff0a1
     log: revlist-628e124404b3-4d9b5146f0d9.txt
 
---===============3913391440395875827==
+--===============0978561009942029766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ e8718f9866e5aa25724bc85a518ed5d6ad9d4bb4 perf script: Print PERF_AUX_FLAG_COLLIS
 c7a48ea9b919e2fa0e4a1d9938fdb03e9afe276c perf trace: Always print return value for syscalls returning a pid
 4d9b5146f0d9147293155b569db9a19c8f5ff0a1 perf symbol: Move demangling code out of symbol-elf.c
 
---===============3913391440395875827==--
+--===============0978561009942029766==--
