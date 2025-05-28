@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 28 May 2025 21:55:47 -0000
-Message-Id: <174846934751.3936328.11558438330265995000@gitolite.kernel.org>
+Date: Wed, 28 May 2025 21:56:24 -0000
+Message-Id: <174846938470.3936778.14213933478472711326@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,14 +11,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pci/pci
 user: helgaas
 changes:
-  - ref: refs/heads/controller/cadence
-    old: cf8a938fb5fae27417b49ef4dafa0adf3757e6ef
-    new: 2ed3fad9bca7cef97e961bae18abe87090ae8f6e
+  - ref: refs/heads/endpoint
+    old: 210de38727c862164e933d978ba39b66569ab552
+    new: de0321bcc5fdd83631f0c2a6fdebfe0ad4e23449
     log: |
-         16b2da850f6f79bf9013516ce78b27a8abb10359 PCI: cadence: Remove duplicate message code definitions
-         1dcbee3cb18edb670d05a324ed271f6f0db2599c PCI: cadence: Add support to build pcie-cadence library as a kernel module
-         2636f2446cf0f8632175ddf2d3c672991fdbc4a3 PCI: cadence-host: Introduce cdns_pcie_host_disable() helper for cleanup
-         96f1efa28c8f3b6034632396eebf8189575eca24 PCI: cadence-ep: Introduce cdns_pcie_ep_disable() helper for cleanup
-         a82b124908625f76f43db4e81b8386d34fd118d3 PCI: j721e: Add support to build as a loadable module
-         2ed3fad9bca7cef97e961bae18abe87090ae8f6e PCI: j721e: Fix host/endpoint dependencies
+         793908d60b8745c386b9f4e29eb702f74ceb0886 PCI: endpoint: Retain fixed-size BAR size as well as aligned size
+         e5327a655636e2ffb93d65f44777d9481aab3715 PCI: endpoint: pci-epf-vntb: Simplify ctrl/SPAD space allocation
+         810276362bad172d063d1f6be1cc2cb425b90103 PCI: dwc: ep: Correct PBA offset in .set_msix() callback
+         c8bcb01352a86bc5592403904109c22b66bd916e PCI: cadence-ep: Correct PBA offset in .set_msix() callback
+         f7f15fc53245385e39ef0aab4310d1682fd3c079 PCI: endpoint: Align pci_epc_get_msi(), pci_epc_ops::get_msi() return value encoding
+         0917ed8f16b646c5e3cc481ccfa4709286b76691 PCI: endpoint: Align pci_epc_get_msix(), pci_epc_ops::get_msix() return value encoding
+         f62da6e7270c2db5aef8a8b14f465896961a9372 PCI: endpoint: Align pci_epc_set_msi(), pci_epc_ops::set_msi() nr_irqs encoding
+         de0321bcc5fdd83631f0c2a6fdebfe0ad4e23449 PCI: endpoint: Align pci_epc_set_msix(), pci_epc_ops::set_msix() nr_irqs encoding
          
