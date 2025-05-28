@@ -1,61 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============2518243279915628853=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 28 May 2025 02:19:41 -0000
-Message-Id: <174839878155.2932437.9393083226328399345@gitolite.kernel.org>
-
---===============2518243279915628853==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 28 May 2025 02:21:01 -0000
+Message-Id: <174839886198.2934933.14392792714201421703@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkp/scsi
-user: mkp
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: fd2963e729ed69ced422c230a3f70fa6d5a5ce25
-    new: 7831003165d37ecb7b33843fcee05cada0359a82
+  - ref: refs/heads/main
+    old: 33f1b3677a13dda60a2a59858f7916672e7f1546
+    new: 163786f71a12237841b998db39e48fa574f861fd
     log: |
-         e97633492f5a3eca7b3ff03b4ef6f993017f7955 scsi: ufs: core: Don't perform UFS clkscaling during host async scan
-         c8426f258a0aa4c2fa0fb87806b73592b03dacac scsi: core: devinfo: Fix typo in comment
-         0ae992637cf7011af0128e6136f3b595de54e03e scsi: aacraid: Remove useless code
-         663d0c19f3acc0d697f623d34b8eb3b438bf2bda scsi: ufs: qcom: Check gear against max gear in vop freq_to_gear()
-         8c5bcb3daeef9bc54c9939c36dca9a626126eb59 scsi: ufs: qcom: Map devfreq OPP freq to UniPro Core Clock freq
-         c77b37dafb81660b939f82d81b637b91b0207cfe scsi: ufs: qcom: Call ufs_qcom_cfg_timers() in clock scaling path
-         7831003165d37ecb7b33843fcee05cada0359a82 scsi: ufs: qcom: Prevent calling phy_exit() before phy_init()
+         429d410bf9eff7bc930e5850277c87ed47ceaeea selftests: netfilter: nft_queue.sh: include file transfer duration in log message
+         88e47c93b3a2a45b55f03f238b68be826917bb2e net: devmem: move list_add to net_devmem_bind_dmabuf.
+         170ebc60b79a5745addf7b408bce9b86bbd7c29d page_pool: fix ugly page_pool formatting
+         85cea17d15c9d6c54d6dfe27e7246337eb6a025d net: devmem: preserve sockc_err
+         12d31142e63a1ff78b93e998a519e22e2425cf18 net: devmem: ksft: add ipv4 support
+         57605ae8e1b61be0029b4ff39298e6eaef824948 net: devmem: ksft: add exit_wait to make rx test pass
+         243d47a5e1e47b2b72d654d7278fc8bff0199b0c net: devmem: ksft: add 5 tuple FS support
+         baa18bc5353fcb99bc49944c51c6c7829cb1da55 net: devmem: ksft: upgrade rx test to send 1K data
+         affffcbb87266b76b6f83edb39ae404604ffc6b5 net: devmem: ncdevmem: remove unused variable
+         163786f71a12237841b998db39e48fa574f861fd Merge branch 'devmem-tcp-minor-cleanups-and-ksft-improvements'
          
-
---===============2518243279915628853==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 75C5DE3D 1748398813 -0400
-pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1748398779-feacf4565c51b393670de11535581ed546ad57b3
-
-fd2963e729ed69ced422c230a3f70fa6d5a5ce25 7831003165d37ecb7b33843fcee05cada0359a82 refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmg2ct0ACgkQ7ulgGnXF
-3j1htg/8DiCHwo2ioLI10duOysQGUlSfBQvOSzPo2p5uAn+w28VXDlXKd0/rEBku
-Vaih3mwbzyz/olOxhisrIN6NLAR9+aTYlmgxqMVjUrzc0NwlDkysOC5BnGM564aG
-/RO8J/BqfGBl8cqkpX6LnERiabsCzhHY7YtdSkIoc27icPVGH1d957OXK5WyMCYB
-U8j1rymNg60khOO/yr/G211qy0C2yo+C3yyrO6/kJbTSwPEh8Rjz6IBkpEqmBEXS
-WhSfVscuylntpBSt2CKlqj7G/xE0DKqBV9mDxO8AkcOkk0OhMTtmgocFiOryLVRi
-lBf6feP1yVLFo4PXQB2KLSVDMiR/1PUmg5U9VmXsEtvdcxVvARm2o+MevZLyIF/c
-FWqPzgwMLgEN8390N1dzPtpt9P/85rU21hoVXt2MtjrTVFkjdiQIzWI5qZvV7kgG
-7Mhq8wvVR72tfGP4HHEgtz1OwMlBrrykSGjx4izL7v0ezbt4qR+h5/kd+WznRHs+
-DBTThZd0TtjYRmu74UgNK84gkNlQQ6R8BUq+Y4SNTfns8cB6/dNaGJSlsQo/7+H/
-2c8Bos7WYnKjfnbzZ+oMsfYCnc21cu/tDWyAARWkDVOQnPWKUy4JJVQlGAIE5py3
-/IqiQiwWQS2tk316M3vz6FUOn8WuyEahsyr7v9cm/meWpQXm/Rg=
-=3/Rc
------END PGP SIGNATURE-----
-
---===============2518243279915628853==--
