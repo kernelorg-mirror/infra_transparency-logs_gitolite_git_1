@@ -1,24 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Wed, 28 May 2025 19:08:53 -0000
-Message-Id: <174845933399.3793801.13476669500027124781@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/superm1/amd-debug-tools
+Date: Wed, 28 May 2025 19:11:45 -0000
+Message-Id: <174845950571.3797366.4231838402543745107@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/superm1/amd-debug-tools
+user: superm1
 changes:
-  - ref: refs/heads/futex
-    old: f92ad7f91549084f0e79a2972917c6e37534dcad
-    new: e401e53bef5c92bff3c2a88997029582eea620b7
+  - ref: refs/heads/master
+    old: 70bf6c4a4c1fb09b393df35a82300dc14ff9d3bc
+    new: 47b5028da2a4cc11ed9fd5c373f06a6cfc415a11
     log: |
-         fa894b642bfde5dad33aefee55066c3ef94ae8a7 man/man2/link.2: Update manual page reference
-         5afd516f5e936f62b39169cb996ad47e4aeac422 man/man2/futex.2: Prepare for sashimi
-         72f7a619ee08deddedb2f172fb20a62ab4062eff man/man2/futex.2, man/man2const/FUTEX_WAIT.2const: Split FUTEX_WAIT from futex(2)
-         33f4921f631c37d9d16d476fbe57f73e30cece80 man/man2const/FUTEX_WAIT.2const: Tweak after split
-         07bc35fcb11940b7a50a4e32a87410ed5cedf75e man/man2/futex.2, man/man2const/FUTEX_WAKE.2const: Split FUTEX_WAKE from futex(2)
-         e401e53bef5c92bff3c2a88997029582eea620b7 man/man2const/FUTEX_WAKE.2const: Tweak after split
+         1a5797f32024f32c2d898c046311541b2d408946 amd-s2idle: default to report debugging enabled
+         0e5a00c7d8e99c9d101beea5f873afd18070d54c validator: don't fail to capture hardware sleep if file missing
+         47b5028da2a4cc11ed9fd5c373f06a6cfc415a11 drop battery and hw sleep graphic for markdown
          
