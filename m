@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Wed, 28 May 2025 20:49:29 -0000
-Message-Id: <174846536998.3882293.9216512382365602763@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Wed, 28 May 2025 20:52:38 -0000
+Message-Id: <174846555892.3885550.16124660650854970836@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/io_uring-6.16
-    old: 1ed0fc77c775ec0d31d2c80f73da7a79e54d0900
-    new: 2c7f023219966777be0687e15b57689894304cd3
+  - ref: refs/heads/master
+    old: 71c33aa9cbb37463d66a467d39a063482590a5a9
+    new: e97df2d5bad19ee1ff94394faa1bcca94e283407
     log: |
-         2c7f023219966777be0687e15b57689894304cd3 io_uring/net: only consider msg_inq if larger than 1
+         e97df2d5bad19ee1ff94394faa1bcca94e283407 foo
          
