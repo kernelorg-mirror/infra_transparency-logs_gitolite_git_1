@@ -1,23 +1,46 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Wed, 28 May 2025 14:39:12 -0000
-Message-Id: <174844315238.3560588.11941370589837438657@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
+Date: Wed, 28 May 2025 14:41:01 -0000
+Message-Id: <174844326139.3563726.7500007525335727051@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/utils/cryptsetup/cryptsetup
+user: mbroz
 changes:
-  - ref: refs/heads/futex
-    old: 2ed7760d4cdd158d9634d21c5f6a3a08750d78d0
-    new: f92ad7f91549084f0e79a2972917c6e37534dcad
+  - ref: refs/heads/coverity_scan
+    old: 5a2ca129b9d551301a99db2fb4aae9ff07992961
+    new: c3414b8221910a6054e77376dcb06dfe866df5b5
     log: |
-         d3fb6d34fa18d2d7230866ccaaef95dad6952cfd man/man2/futex.2: Prepare for sashimi
-         c5f6affb22c3affc70421962c3349a7e4a22143e man/man2/futex.2, man/man2const/FUTEX_WAIT.2const: Split FUTEX_WAIT from futex(2)
-         3fd9f1aea17879189cadd1242e5359e8d2d30c03 man/man2const/FUTEX_WAIT.2const: Tweak after split
-         34f59c69c9c20e13c5f762f1f9bdcf892bbb2f6b man/man2/futex.2, man/man2const/FUTEX_WAKE.2const: Split FUTEX_WAKE from futex(2)
-         f92ad7f91549084f0e79a2972917c6e37534dcad man/man2const/FUTEX_WAKE.2const: Tweak after split
+         f3557f0765869a353594f52a73e73f742a17d4cc find_key_by_type_and_desc must return 0 on error.
+         c735c71ca10eded43a59f7eb9fbd0e4147a4c07c keyring_find_key_id_by_name does not return negative values on error.
+         b6f43890f228862941611699406b370e442ea5c8 Add better errno hint in debug message.
+         a6c9c28208ac3265ce354d4ec94dd47ce15abae0 Return -EINVAL if keyslot context can not access keyring key.
+         ca7c4c8b15c63bce75629a36201ea51695379531 test: Fix KeyslotContextAndKeyringLink test
+         55c44cd3fd333cd18039f658adcd72eb8e2a62b6 Fix warning for hidden global variable
+         949c4ad0f1eb15efde33bf677dd3a1aa2928b8ef tests: Fix typo in test key definition.
+         9f8667922c88e38be026225126a5d856be095540 tests: Fix length of decoded key
+         c3414b8221910a6054e77376dcb06dfe866df5b5 tests: detect failure of crypt_decode_key
+         
+  - ref: refs/heads/fix-tests
+    old: c3414b8221910a6054e77376dcb06dfe866df5b5
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/main
+    old: 55c44cd3fd333cd18039f658adcd72eb8e2a62b6
+    new: c3414b8221910a6054e77376dcb06dfe866df5b5
+    log: |
+         949c4ad0f1eb15efde33bf677dd3a1aa2928b8ef tests: Fix typo in test key definition.
+         9f8667922c88e38be026225126a5d856be095540 tests: Fix length of decoded key
+         c3414b8221910a6054e77376dcb06dfe866df5b5 tests: detect failure of crypt_decode_key
+         
+  - ref: refs/heads/master
+    old: 55c44cd3fd333cd18039f658adcd72eb8e2a62b6
+    new: c3414b8221910a6054e77376dcb06dfe866df5b5
+    log: |
+         949c4ad0f1eb15efde33bf677dd3a1aa2928b8ef tests: Fix typo in test key definition.
+         9f8667922c88e38be026225126a5d856be095540 tests: Fix length of decoded key
+         c3414b8221910a6054e77376dcb06dfe866df5b5 tests: detect failure of crypt_decode_key
          
