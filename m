@@ -1,21 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Wed, 28 May 2025 12:49:49 -0000
-Message-Id: <174843658953.3467588.16866183239260648323@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Wed, 28 May 2025 13:13:31 -0000
+Message-Id: <174843801101.3487447.8067031608366266809@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: acme
 changes:
-  - ref: refs/heads/rpc-numa
-    old: 4fb548fc918eae3b330e50c56bae2a0b02b9b157
-    new: 6dc3fb481df8b90547525b1a098456004994cdd9
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 0e71bcdcf1f0b10b435932907fb0d205deecf7a0
+    new: 6dd7a0fde91f252858f4d4cff4245577319b7b88
     log: |
-         bbe652a899be83fd7e71f69d36d2f541b05b0288 nfsd: use threads array as-is in netlink thread set interface
-         584c0c4f0a563e5af0ced852302e972efdb8076a nfsd: use threads array as-is in netlink interface
-         6dc3fb481df8b90547525b1a098456004994cdd9 sunrpc: new tracepoints around svc thread wakeups
+         4c04654455c09b4905b84c350d88f718260a4cd4 perf machine: Factor creating a "live" machine out of dwarf-unwind
+         2a2a7f5e7deffa363b438308812989ded126a48a perf pmu: Avoid segv for missing name/alias_name in wildcarding
+         fef8f648bb47726d96a5701fe31ed606268da73d perf symbol: Fix use-after-free in filename__read_build_id
+         07f2b1287c970e0706c0e8fbb358ca4c1e7f8d4e perf test demangle-java: Don't segv if demangling fails
+         040a008d0e5006123ac1b6e96b9de615e587ab7e perf intel-tpebs: Avoid race when evlist is being deleted
+         8755f940a0a6c4485181708c5e82936c31250c67 perf test intel-pt: Skip jitdump test if no libelf
+         6dd7a0fde91f252858f4d4cff4245577319b7b88 perf test trace_summary: Skip --bpf-summary tests if no libbpf
          
