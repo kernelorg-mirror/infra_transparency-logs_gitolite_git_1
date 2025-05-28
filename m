@@ -1,40 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wufan/ipe
-Date: Wed, 28 May 2025 01:22:46 -0000
-Message-Id: <174839536631.2884057.11175753426091997557@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 28 May 2025 01:29:21 -0000
+Message-Id: <174839576129.2890239.17276694384633488527@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wufan/ipe
-user: wufan
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/tags/ipe-pr-20250527
-    old: 0000000000000000000000000000000000000000
-    new: 42bcc7e2eca68fe2a9ab5001955f9fec7dfbe9c8
-  - ref: refs/tags/v6.15
-    old: 0000000000000000000000000000000000000000
-    new: 0a4b866d08c6adaea2f4592d31edac6deeb4dcbd
-  - ref: refs/tags/v6.15-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 64e9fdfc89a76fed38d8ddeed72d42ec71957ed9
-  - ref: refs/tags/v6.15-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 8a834b0ac9ceb354a6e0b8cf5b363edca8221bdd
-  - ref: refs/tags/v6.15-rc3
-    old: 0000000000000000000000000000000000000000
-    new: f34da179a4517854b2ffbe4bce8c3405bd9be04e
-  - ref: refs/tags/v6.15-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 39d6783f6488786301f36b0e7c619f220c3e8d2c
-  - ref: refs/tags/v6.15-rc5
-    old: 0000000000000000000000000000000000000000
-    new: bc720facc421d0ff6d568323035d1a4d5d35ce84
-  - ref: refs/tags/v6.15-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 5cb8274d66c611b7889565c418a8158517810f9b
-  - ref: refs/tags/v6.15-rc7
-    old: 0000000000000000000000000000000000000000
-    new: c3223240f4b9bd8142c101420c76abe8ed1eae73
+  - ref: refs/heads/main
+    old: 7a91722e0dd47bc5d1b4b8416966bf993c93a72f
+    new: 33f1b3677a13dda60a2a59858f7916672e7f1546
+    log: |
+         3b9935586a9b54d2da27901b830d3cf46ad66a1e net: lan743x: Modify the EEPROM and OTP size for PCI1xxxx devices
+         33f1b3677a13dda60a2a59858f7916672e7f1546 sctp: mark sctp_do_peeloff static
+         
