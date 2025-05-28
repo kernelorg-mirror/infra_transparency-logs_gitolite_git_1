@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1347854562905720061=="
+Content-Type: multipart/mixed; boundary="===============7890283046572225043=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Wed, 28 May 2025 11:14:04 -0000
-Message-Id: <174843084462.3384364.2751024175224724557@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Wed, 28 May 2025 11:14:48 -0000
+Message-Id: <174843088809.3385410.14220512924313537481@gitolite.kernel.org>
 
---===============1347854562905720061==
+--===============7890283046572225043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 0ff41df1cb268fc69e703a08a57ee14ae967d0ca
     log: revlist-a5806cd506af-0ff41df1cb26.txt
 
---===============1347854562905720061==
+--===============7890283046572225043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -204,4 +204,4 @@ ee40c9920ac286c5bfe7c811e66ff899266d2582 mm: fix copy_vma() error handling for h
 478ad02d6844217cc7568619aeb0809d93ade43d Disable FOP_DONTCACHE for now due to bugs
 0ff41df1cb268fc69e703a08a57ee14ae967d0ca Linux 6.15
 
---===============1347854562905720061==--
+--===============7890283046572225043==--
