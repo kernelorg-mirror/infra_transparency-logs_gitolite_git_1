@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Wed, 28 May 2025 11:39:46 -0000
-Message-Id: <174843238612.3406859.10816011037071625739@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Wed, 28 May 2025 11:40:43 -0000
+Message-Id: <174843244319.3409055.8115450103822982368@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/for-next
-    old: c82148a742a08fe827c12c5570f4d2e8c7859b54
-    new: e2a514b13a36c674f805e180f0402848f841edbf
+  - ref: refs/heads/rdma-next
+    old: 43b02d69ef1bf6a67b9efab54e9321b3077c34de
+    new: 9cefd788952fb61214cbc9a3c3145eee295e01d7
     log: |
-         e8e342581a8bec67df1797917a429345eca40ba0 fbdev: Fix do_register_framebuffer to prevent null-ptr-deref in fb_videomode_to_var
-         e2a514b13a36c674f805e180f0402848f841edbf fbdev: Fix fb_ser_var to prevent null-ptr-deref in fb_videomode_to_var
+         9cd6942f45087079f70a3b232154a3411046d789 RDMA/core: Add driver APIs pre_destroy_cq() and post_destroy_cq()
+         9cefd788952fb61214cbc9a3c3145eee295e01d7 RDMA/mlx5: Support driver APIs pre_destroy_cq and post_destroy_cq
          
