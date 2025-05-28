@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/superm1/amd-debug-tools
-Date: Wed, 28 May 2025 19:23:20 -0000
-Message-Id: <174846020076.3806733.15851672423103325002@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Wed, 28 May 2025 19:25:06 -0000
+Message-Id: <174846030690.3809593.16875091904074036210@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/superm1/amd-debug-tools
-user: superm1
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/master
-    old: 822e741d832327e7d7fc531035578a7edf48f4a3
-    new: 3910befcbc4a84304de50bff0795109895d5b862
+  - ref: refs/heads/futex
+    old: e401e53bef5c92bff3c2a88997029582eea620b7
+    new: 4234f9f16f097a5358a4c427891bed920e4b4014
     log: |
-         39433d6836143db6c76c6efab5366543bc76a4dc amd-s2idle: default to report debugging enabled
-         adf95970edf4c8b47e6bcf6971115d55c7c62f8c validator: don't fail to capture hardware sleep if file missing
-         3910befcbc4a84304de50bff0795109895d5b862 drop battery and hw sleep graphic for markdown
+         c18ee5e4d1583a5d325a9f7e450c32e4f0bfd7a1 man/man2/futex.2: De-duplicate information about timeouts
+         3193e34f5f3772a0dfb3b066f20fd46021f3f1e8 man/man2/futex.2, man/man2const/FUTEX_WAIT.2const: Split FUTEX_WAIT from futex(2)
+         6ae60212a9d07d95666c49cb9c273c590b0c5119 man/man2const/FUTEX_WAIT.2const: Tweak after split
+         acdd21caae1ed67287dd28e210265799bd495c66 man/man2/futex.2, man/man2const/FUTEX_WAKE.2const: Split FUTEX_WAKE from futex(2)
+         4234f9f16f097a5358a4c427891bed920e4b4014 man/man2const/FUTEX_WAKE.2const: Tweak after split
          
