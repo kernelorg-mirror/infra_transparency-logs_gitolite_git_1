@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Wed, 28 May 2025 15:45:47 -0000
-Message-Id: <174844714764.3619371.17443772398158525115@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvms390/linux
+Date: Wed, 28 May 2025 15:49:48 -0000
+Message-Id: <174844738808.3621652.2079962655999457364@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/kvms390/linux
+user: imbrenda
 changes:
-  - ref: refs/tags/devicetree-for-6.16
-    old: 0000000000000000000000000000000000000000
-    new: fa1fe4723770698eb6d93b472a1f477224d99fd4
+  - ref: refs/tags/kvm-s390-next-6.16-1
+    old: 12c40370d0e55c39dd27234f7fde4e8c2dd7f990
+    new: 0000000000000000000000000000000000000000
