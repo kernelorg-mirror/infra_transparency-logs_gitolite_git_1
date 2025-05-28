@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Wed, 28 May 2025 19:25:30 -0000
-Message-Id: <174846033047.3810184.10563076932448095671@gitolite.kernel.org>
+Date: Wed, 28 May 2025 19:34:47 -0000
+Message-Id: <174846088724.3816885.9367731877381972066@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,10 @@ repo: pub/scm/linux/kernel/git/jfern/linux
 user: jfern
 changes:
   - ref: refs/heads/sched/scx-dlserver-boost
-    old: ebfb08adf994141c852acb7db98b4c671e361fa1
-    new: e17aa6265b15b51388e5965da585e3a52a05dddd
+    old: e17aa6265b15b51388e5965da585e3a52a05dddd
+    new: a54cca42ae432191effdd751b228abb77fdc623c
     log: |
-         e88170a7e35e8885c81ed2449b01da56b4efb367 add a scx_defconfig
-         e17aa6265b15b51388e5965da585e3a52a05dddd sched: Relinquish DL server reservations when not needed
+         d4b654f06de5edf728a94cf83b4616922ca59357 TODO_BEFORE_SUBMIT
+         a23eb70e33d9637963caf5266baef428f3657be5 add a scx_defconfig
+         a54cca42ae432191effdd751b228abb77fdc623c sched: Relinquish DL server reservations when not needed
          
