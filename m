@@ -1,49 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/chromeos
-Date: Wed, 28 May 2025 03:43:41 -0000
-Message-Id: <174840382183.3003379.13478823852326197611@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
+Date: Wed, 28 May 2025 03:49:52 -0000
+Message-Id: <174840419201.3009111.741636727221085612@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwlwifi/chromeos
+repo: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
 user: mkorenbl
 changes:
-  - ref: refs/heads/chromeos-5.4__release/core96-76
-    old: 0000000000000000000000000000000000000000
-    new: aad9a966f27e38dd01bce5f006519f943d66172d
-  - ref: refs/tags/chromeos-5.4__release/core96-2025-05-28
-    old: 0000000000000000000000000000000000000000
-    new: aad9a966f27e38dd01bce5f006519f943d66172d
-  - ref: refs/heads/chromeos-5.10__release/core96-76
-    old: 0000000000000000000000000000000000000000
-    new: 22f14c13df8676c6826632c25322ac97c51be866
-  - ref: refs/tags/chromeos-5.10__release/core96-2025-05-28
-    old: 0000000000000000000000000000000000000000
-    new: 22f14c13df8676c6826632c25322ac97c51be866
-  - ref: refs/heads/chromeos-5.15__release/core96-76
-    old: 0000000000000000000000000000000000000000
-    new: 17ecf97a6ae879ac1b8732787f82c65529cce2df
-  - ref: refs/tags/chromeos-5.15__release/core96-2025-05-28
-    old: 0000000000000000000000000000000000000000
-    new: 17ecf97a6ae879ac1b8732787f82c65529cce2df
-  - ref: refs/heads/chromeos-6.1__release/core96-76
-    old: 0000000000000000000000000000000000000000
-    new: 072ed07266df037f47283c6ccbd497538fb970e4
-  - ref: refs/tags/chromeos-6.1__release/core96-2025-05-28
-    old: 0000000000000000000000000000000000000000
-    new: 072ed07266df037f47283c6ccbd497538fb970e4
-  - ref: refs/heads/chromeos-6.6__release/core96-76
-    old: 0000000000000000000000000000000000000000
-    new: 4ffc63a0598c5368d4d89603869e172add8ec40a
-  - ref: refs/tags/chromeos-6.6__release/core96-2025-05-28
-    old: 0000000000000000000000000000000000000000
-    new: 4ffc63a0598c5368d4d89603869e172add8ec40a
-  - ref: refs/heads/chromeos-6.12__release/core96-76
-    old: 0000000000000000000000000000000000000000
-    new: dc736b0f8a0439ae3b680b70ecb9425282216e05
-  - ref: refs/tags/chromeos-6.12__release/core96-2025-05-28
-    old: 0000000000000000000000000000000000000000
-    new: dc736b0f8a0439ae3b680b70ecb9425282216e05
+  - ref: refs/heads/release/core96
+    old: 80647748c119ca7c69acdb31b9e3ea39c8f20fed
+    new: d16e74cc1c76ffbfc335153daa86660f199a90da
+    log: |
+         d9dce1d414fbad151a2160ff19039a07d502cec8 [BUGFIX] wifi: iwlwifi: mld: Block EMLSR only when ready to enter ROC
+         fa653118fcf7c6c4c312cc4cb387951edb692126 [BUGFIX] wifi: iwlwifi: dbg: fix dump trigger split check
+         0377991018fa027c677bc0358dd118394084d777 [BUGFIX] wifi: iwlwifi: mld: add debug log instead of warning
+         ba661d154a04734ab399d6517e685ca4195cd446 [BUGFIX] wifi: mac80211: always initialize sdata::key_list
+         d4f750ffdf540eb7f713e54a18fb15fff35d3615 [BUGFIX] wifi: iwlwifi: mld: avoid panic on init failure
+         d16e74cc1c76ffbfc335153daa86660f199a90da [BUGFIX] wifi: mac80211: don't complete management TX on SAE commit
+         
