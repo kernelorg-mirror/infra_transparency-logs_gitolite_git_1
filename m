@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
-Date: Wed, 28 May 2025 10:56:54 -0000
-Message-Id: <174842981420.3370482.17614465239782745863@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dakr/linux
+Date: Wed, 28 May 2025 11:02:30 -0000
+Message-Id: <174843015066.3374980.4121593537575737858@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dinguyen/linux
-user: dinguyen
+repo: pub/scm/linux/kernel/git/dakr/linux
+user: dakr
 changes:
-  - ref: refs/heads/nios2_for_v6.16
+  - ref: refs/heads/rust/for-alice
     old: 0000000000000000000000000000000000000000
-    new: aa264d9511aa5befa28cf8d9f32fce78fcf1a773
+    new: 30effce8ac5439d2d2b38fdfc89b658059022104
