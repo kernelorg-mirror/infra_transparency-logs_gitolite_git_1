@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dakr/linux
-Date: Thu, 29 May 2025 21:49:43 -0000
-Message-Id: <174855538396.1146855.3490759441227566310@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
+Date: Thu, 29 May 2025 22:08:06 -0000
+Message-Id: <174855648642.1161761.4914942121152320358@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dakr/linux
-user: dakr
+repo: pub/scm/utils/kernel/kmod/kmod
+user: demarchi
 changes:
-  - ref: refs/heads/rust/misc
-    old: c86159a9a1a74bb5ef38128c8ad679dd06e121e3
-    new: 4b3ea5b9a85faad46816cd2918e3f551ec37e219
+  - ref: refs/heads/master
+    old: ea90855fe7d692fe61c5007aa6523d1481493fc6
+    new: b1f9213931846fdad7455a5cac507a68000de220
     log: |
-         c2cb91de13dee372ee53d5ea7cca94276325b261 rust: faux: impl AsRef<Device<Bound>> for Registration
-         ab810caebd74384701cb3bd4da26309ec5b361e6 rust: miscdevice: properly support device drivers
-         4b3ea5b9a85faad46816cd2918e3f551ec37e219 rust: sample: misc: implement device driver sample
+         bd51c99c35fe7b9e2acee75c8861444d3b734456 meson: alpha sort -Wno section
+         b1f9213931846fdad7455a5cac507a68000de220 meson: disable Wdeclaration-after-statement
          
