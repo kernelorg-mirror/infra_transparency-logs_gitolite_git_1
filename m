@@ -1,20 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dakr/linux
-Date: Thu, 29 May 2025 19:10:43 -0000
-Message-Id: <174854584333.1017295.7924197316215747307@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Thu, 29 May 2025 19:20:25 -0000
+Message-Id: <174854642570.1025706.10496411649964908138@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dakr/linux
-user: dakr
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/rust/misc
-    old: 355d5b0cee02294ab84c3d65f5ee24f267bd7f88
-    new: c86159a9a1a74bb5ef38128c8ad679dd06e121e3
+  - ref: refs/heads/bleeding-edge
+    old: 697012af3c6af9caa63cb803c0461dbb6f187b5d
+    new: 5cce23844086fca1de955e8626d3f55af2c7588a
     log: |
-         fec97edbe69e6a8ecb8f44384b9d3fbc58665ce9 rust: faux: impl AsRef<Device<Bound>> for Registration
-         c86159a9a1a74bb5ef38128c8ad679dd06e121e3 rust: sample: misc: implement device driver sample
+         70523f335734b0b42f97647556d331edf684c7dc Revert "x86/smp: Eliminate mwait_play_dead_cpuid_hint()"
+         0329465ddf66f9d599819a104a2c1aedaec6a3ad Merge branch 'pm-cpuidle' into linux-next
+         d0b29661a95bbf804b6fe9bdff1d8927206c9f38 ACPICA: Switch back to using strncpy() in acpi_ut_safe_strncpy()
+         a78c579639689613fc77b6e707f12d9b27acbde2 Merge branch 'acpica' into linux-next
+         5cce23844086fca1de955e8626d3f55af2c7588a Merge branch 'pm-sleep-testing' into bleeding-edge
+         
+  - ref: refs/heads/linux-next
+    old: 43a3753b57f3afc64fe38b25664dfe4231e704cc
+    new: a78c579639689613fc77b6e707f12d9b27acbde2
+    log: |
+         70523f335734b0b42f97647556d331edf684c7dc Revert "x86/smp: Eliminate mwait_play_dead_cpuid_hint()"
+         0329465ddf66f9d599819a104a2c1aedaec6a3ad Merge branch 'pm-cpuidle' into linux-next
+         d0b29661a95bbf804b6fe9bdff1d8927206c9f38 ACPICA: Switch back to using strncpy() in acpi_ut_safe_strncpy()
+         a78c579639689613fc77b6e707f12d9b27acbde2 Merge branch 'acpica' into linux-next
          
