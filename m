@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 29 May 2025 13:49:34 -0000
-Message-Id: <174852657457.740246.16014797895055587009@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dakr/linux
+Date: Thu, 29 May 2025 14:00:39 -0000
+Message-Id: <174852723907.750524.8114872276280254398@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/dakr/linux
+user: dakr
 changes:
-  - ref: refs/heads/main
-    old: f65dca1752b70ec4f678ae4dbdd5892335bcbbd8
-    new: 27eab4c644236a9324084a70fe79e511cbd07393
+  - ref: refs/heads/rust/for-alice
+    old: a41b3b0e343d1aad71b981c707e36993c3fe7a57
+    new: 68fec18d66ab9cf4c46b922e4d87dc4d9c8422f7
     log: |
-         27eab4c644236a9324084a70fe79e511cbd07393 net: lan966x: Make sure to insert the vlan tags also in host mode
+         67a18c4a66211f14ff5f553880566855131dd1d1 rust: miscdevice: add additional data to MiscDeviceRegistration
+         17201fa68ff638a577461a92d084f9d944991d3b rust: miscdevice: adjust the rust_misc_device sample to use RegistrationData.
+         68fec18d66ab9cf4c46b922e4d87dc4d9c8422f7 WIP: rust: misc: add driver support
          
