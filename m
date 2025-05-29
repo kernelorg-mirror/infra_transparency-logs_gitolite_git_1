@@ -1,50 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============8117845124438292810=="
+Content-Type: multipart/mixed; boundary="===============5082147762684588666=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 29 May 2025 15:05:25 -0000
-Message-Id: <174853112553.807940.5443740780068242684@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 29 May 2025 15:05:35 -0000
+Message-Id: <174853113535.808403.8047980911916049858@gitolite.kernel.org>
 
---===============8117845124438292810==
+--===============5082147762684588666==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.16
-    old: bc4005ef43104da589951dba69291360c6a11ae7
-    new: df7996076b1e1ba8a0690542d0e40f703f2f9eb7
+  - ref: refs/heads/for-6.16
+    old: 8450f1e0d3d0e0b200eb14d14dfb8ef5ddb9bda9
+    new: 589561cb455189154a7110a39d9fcc39965f3104
     log: |
-         df7996076b1e1ba8a0690542d0e40f703f2f9eb7 ASoC: amd: yc: Add support for Lenovo Yoga 7 16ARP8
+         3b5d1efc878adee4835165663297a75193343d37 MAINTAINERS: Update HiSilicon SPI Controller driver maintainer
+         589561cb455189154a7110a39d9fcc39965f3104 MAINTAINERS: Update HiSilicon SFC driver maintainer
          
 
---===============8117845124438292810==
+--===============5082147762684588666==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1748531157 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1748531123-35b99858bf64ffd13c079f70da23eff331682ce1
+pusher C3F436CA30F5D8EB 1748531167 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1748531132-69e4e542804806b339e4180b24f17b55f04f22b6
 
-bc4005ef43104da589951dba69291360c6a11ae7 df7996076b1e1ba8a0690542d0e40f703f2f9eb7 refs/heads/asoc-6.16
+8450f1e0d3d0e0b200eb14d14dfb8ef5ddb9bda9 589561cb455189154a7110a39d9fcc39965f3104 refs/heads/for-6.16
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmg4d9UACgkQJNaLcl1U
-h9BPZgf/b6PjSk/c1FYtf6ZD/QzbBaQKsOVH2MSEmWkXldTz8mv6W/Syc22KVvb6
-TuvJYjADl7ntSRsv4oHYzXjPc1Zg2IzqOCaLKODaPwsYt2d2LKetvCe9Qy0IOVyi
-bfx62METw2xrzz5zBwzdiJ+LNpuL5DAhQHompTPUwJZk+294N+hpQhHfQXa9Hwhi
-b6JiJgDt8OWnraSSjFf0K/Kow4DCIgDz9uZi8oXwBLpMeyXBdPo3z/HGO+K5ZdAM
-w1TzXV4Bjs/AvjIFd04CXUqj1G2WpZpouBe/B/ybxBYMNPuEu+0nfNaTkdAx3HNv
-poztnHvDtdFfwNF7uVmquHHdB2y+kg==
-=LCaK
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmg4d98ACgkQJNaLcl1U
+h9BmDwf+ItHwBRd6rYOc9c6YzwlUEFlI8WzJQRBrDTv+2Aohdwea4avnbq2HzJrs
+9tssTYhu2mr+JcyRxb6IiUm70o05mN9ouVby9qoAJE0nfVRlWmOKDhvn09sposai
+5sUF2oYpRtiGUkgCH8yDYe7bBDkF/TXLvJH4R3496gCrd/tS8qzL0WZWDnpZwPe/
+1fiqtfCMpyDkLZH+Kqh1TDTphIyeOqqFRq+qBAbVD2Y333ytThivAbXimGWhptEp
++OgWADOeaSe8vayXJKBfZleVTToBEZu3L1Y/bGFjIvg3h+FMSq/AtifF/C3XDGA0
+3CIXzxj6pT5IH0zm5xHktm2bR2LXDg==
+=Dnq/
 -----END PGP SIGNATURE-----
 
---===============8117845124438292810==--
+--===============5082147762684588666==--
