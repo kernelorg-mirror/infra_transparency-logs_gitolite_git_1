@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6798127693027119934=="
+Content-Type: multipart/mixed; boundary="===============3135862406510239894=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 29 May 2025 13:04:26 -0000
-Message-Id: <174852386600.700533.13112518130649075856@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Thu, 29 May 2025 13:04:28 -0000
+Message-Id: <174852386835.700634.10216546418154598204@gitolite.kernel.org>
 
---===============6798127693027119934==
+--===============3135862406510239894==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: 90b83efa6701656e02c86e7df2cb1765ea602d07
     log: revlist-0ff41df1cb26-90b83efa6701.txt
 
---===============6798127693027119934==
+--===============3135862406510239894==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ bbff27b54e4271a42ea1dba93a76e51165f2dbaa Merge tag 'nios2_updates_for_v6.16' of 
 1b98f357dadd6ea613a435fbaef1a5dd7b35fd21 Merge tag 'net-next-6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 90b83efa6701656e02c86e7df2cb1765ea602d07 Merge tag 'bpf-next-6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 
---===============6798127693027119934==--
+--===============3135862406510239894==--
