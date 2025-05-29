@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 29 May 2025 20:38:10 -0000
-Message-Id: <174855109038.1087225.3494328355186094242@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/firmware
+Date: Thu, 29 May 2025 20:46:53 -0000
+Message-Id: <174855161318.1095117.5553554915139138642@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/tnguy/firmware
+user: tnguy
 changes:
-  - ref: refs/heads/dir-deleg
-    old: bee82e4161debf2054c26dfb14c5f83367a05bb6
-    new: 1727f4f811750e4bfd1a628270f7505e6fcfc7f5
+  - ref: refs/heads/main
+    old: 167118c968355b779bb2fb16078bb53bad677d49
+    new: 06a0b171f9cccb7c72bb79d3e4dd28f67a85e54a
     log: |
-         751cf7ab0bcf3b6dc96563e574fbcbd704a9b7e2 nfsd: add support for NOTIFY4_ADD_ENTRY events
-         1727f4f811750e4bfd1a628270f7505e6fcfc7f5 nfsd: add support for NOTIFY4_RENAME_ENTRY events
+         18f9edda4283886ab6f934d6eec8652af359c6ed ice: update package to 1.3.43.0
+         902386062e4e43e0012c6150b46eb70b8e488794 ice: update comms package to 1.3.55.0
+         4439f5b5c5afc0c206c1e92fec39856caf092f75 ice: update wireless_edge package to 1.3.23.0
+         06a0b171f9cccb7c72bb79d3e4dd28f67a85e54a Merge branch 'robot/pr-0-1748540516' into 'main'
          
