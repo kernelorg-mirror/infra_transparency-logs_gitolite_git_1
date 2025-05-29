@@ -1,57 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============5314285713497877843=="
+Content-Type: multipart/mixed; boundary="===============1374103946125176070=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 29 May 2025 05:31:18 -0000
-Message-Id: <174849667841.170358.8100239405094069832@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
+Date: Thu, 29 May 2025 06:35:10 -0000
+Message-Id: <174850051074.220802.15377425418650049429@gitolite.kernel.org>
 
---===============5314285713497877843==
+--===============1374103946125176070==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/mkl/linux-can-next
+user: mkl
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: efbe5e48a2c6227b1e524bb22772138a4b6a780c
-    new: 9842d404997f84091cbef134c8482595bd34e127
+  - ref: refs/heads/b4/can-xl
+    old: 7861c36608b1d1f26b010a9c465c048137d9d156
+    new: f5c8793fa87a25fc9af6f9d70ff142e2b047e186
     log: |
-         6f78b14ea4bfee74f9642088d9c1e1870a748a31 add .vulnerable id for CVE-2025-37914
-         9842d404997f84091cbef134c8482595bd34e127 update based on new .vulnerable file
+         8e4ba927a5348437f491ff93c5b77f6222ecee1a can: netlink: add CAN XL support
+         46a070ab4a6b85cc1891263ccee9b099d58958b4 can: canxl: support Remote Request Substitution bit access
+         8a0c165ec367b95637feac8d4bd264399249622e can: canxl: support CAN XL transceiver switching in data phase
+         85ad7bd7b9cbc2579a4534ace95022de0c6fea6f can: canxl: support CAN XL error signalling switching
+         bfc08e4415439122af7ca25b8ac0b1881ed3215b can: canxl: add PWM config support
+         f5c8793fa87a25fc9af6f9d70ff142e2b047e186 can: add CAN XL dummy driver DO NOT MERGE
          
 
---===============5314285713497877843==
+--===============1374103946125176070==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1748496711 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1748496677-42e000be8b0be66dd9f0328e4f8a09f002d7fb4a
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1748500540 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
+nonce 1748500506-422bc0190e1587ba0b2d3aecdc453da0a40f5b74
 
-efbe5e48a2c6227b1e524bb22772138a4b6a780c 9842d404997f84091cbef134c8482595bd34e127 refs/heads/master
+7861c36608b1d1f26b010a9c465c048137d9d156 f5c8793fa87a25fc9af6f9d70ff142e2b047e186 refs/heads/b4/can-xl
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmg38UcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ESQP/irhQ0D+34LHIStZWtZc
-INmNduKAvtAre53u22zaHuMnZZj7urehVIkJrHqStBxtHICam/GWb0tTmZCU3Hxk
-+Da+pU+4rEtk+THvSvSyS3IvakroLEnYtL4S0uIEmKKHXMboUhon1lbzojVOnqro
-H4S9QvbzwrEcJVYg+Io7DvIHpJ7Emwu0iyP/YyPXMac+RB4hu7R03xtFvfWZylQ2
-zVZHmN6BTk9ZrEokRPozasv1QUlCYmsUtpZVkHAqTE9KwlEYFhddSd+QpCrXLki5
-8AFfJZmBCKlVEX0gifE/RzDt3nrmofdVNa1mtvJoHuKXPCAZAfY7WGjm7/mMNLHk
-LzomitLG5ScZEfxU5x2P/qkGWphbgRy5NCuyTso3jTGDQ8XXOVPv37MPxnA0X2jd
-fLrsdWj0y60Kh+4U1N+ifyhEcr3+J8JP9kpmy7e/Jbd3v9osAmJys/qUveiL2pVU
-h8RDeXI5H2QPCv3wpRXGnCv9SYIHCOkqpeV/YTXd+vQ4WrByRwcSaLCPZ+kZ8CD2
-FqCjXb0AJRBXl50X18KnZinqwAP0RZzcxga/IglAUqKPNkOVotUL/QwWKMQ75c9r
-f+bxq4ScmxCAujuhTU3ODDIIbNoqBfuNQBIN7GpLTWqmtlVIRVvhdDFeBCSX3kLt
-3G2ddd/yukAMv86VcSQGTBLr
-=RXf2
+iQFHBAABCgAxFiEEn/sM2K9nqF/8FWzzDHRl3/mQkZwFAmg4ADwTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRAMdGXf+ZCRnHogB/0cL5GnyeUiRmOveQSOxhz0gOpO0TKH
+fXNtg0PWaZHCKS1QVYxUpezhXoItnIK0x6kzTIoWoN76tlsS/5Kixx1mmj+BRACM
++yTGSxf0aHSy/CUnhCQZHU1Rm6pl7pwXAdU5WMcHzSmOMZg06/P1jNHWJHWYOxHJ
+IwyUkmFbdjGm8VXMBjtJiPZkT7K6mzwo/KU9WV/fbUHLI1hkwmbGPABTNXns9Gvf
+uaJjObTfbXE2sHIuzGHDz/bzScWPu13zHf5v+dZ2O8/xjRpSUwivqVnCxQc/HLAY
+SX21z4IfCGvSiuoERu50ap6TR5/EFmlp3cPqRAxZJqdEcDUIb/lKsHSi
+=9TYa
 -----END PGP SIGNATURE-----
 
---===============5314285713497877843==--
+--===============1374103946125176070==--
