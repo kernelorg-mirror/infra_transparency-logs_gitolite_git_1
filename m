@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Thu, 29 May 2025 16:11:38 -0000
-Message-Id: <174853509887.868252.15427689184169878834@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Thu, 29 May 2025 16:34:40 -0000
+Message-Id: <174853648086.886538.8895255108987335443@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/master
-    old: 938441f118c610285a914d6eeb47e90cfe28d104
-    new: c48cf60e8b6beec45537718f7cc12d777d67c65c
-    log: |
-         c48cf60e8b6beec45537718f7cc12d777d67c65c patches/next: rebase to latest mm-new
-         
+  - ref: refs/heads/wip/2505-bjorn-aer-rate-limit-v6-rework
+    old: e380af1c10a3c6ec93d5b1b97265d7de705a065d
+    new: 0000000000000000000000000000000000000000
