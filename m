@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
-Date: Thu, 29 May 2025 14:58:24 -0000
-Message-Id: <174853070440.798643.5597616803197858016@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jassibrar/mailbox
+Date: Thu, 29 May 2025 15:01:57 -0000
+Message-Id: <174853091774.802527.4429624359360489756@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jack/linux-fs
-user: jack
+repo: pub/scm/linux/kernel/git/jassibrar/mailbox
+user: jassibrar
 changes:
-  - ref: refs/heads/for_next_testing
-    old: 0405d4b63d082861f4eaff9d39c78ee9dc34f845
-    new: d5a2693f93e497589637bb746ef19ac8aecb6fb5
+  - ref: refs/heads/for-next
+    old: 02e66dacb5b7ae21518fb24f8cb69295302bbfad
+    new: d0b497df02e9b2ebcb5771c7b16e424c0614a366
     log: |
-         5ea45f54c8d6ca2a95b7bd450ee9eb253310bfd3 isofs: fix Y2038 and Y2156 issues in Rock Ridge TF entry
-         d5a2693f93e497589637bb746ef19ac8aecb6fb5 ext2: Deprecate DAX
+         c3c51387141db549c96db2fd4b8161fa0b4d7301 dt-bindings: mailbox: qcom,apcs: Add separate node for clock-controller
+         d0b497df02e9b2ebcb5771c7b16e424c0614a366 mailbox: qcom-apcs-ipc: Assign OF node to clock controller child device
          
