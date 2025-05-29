@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0851050592710122458=="
+Content-Type: multipart/mixed; boundary="===============9013531313210532910=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 29 May 2025 15:27:23 -0000
-Message-Id: <174853244327.828938.18128926905372331226@gitolite.kernel.org>
+Date: Thu, 29 May 2025 15:27:28 -0000
+Message-Id: <174853244858.829329.11638365931160199878@gitolite.kernel.org>
 
---===============0851050592710122458==
+--===============9013531313210532910==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 5cdb2c77c4c3d36bdee83d9231649941157f8204
     new: 27eab4c644236a9324084a70fe79e511cbd07393
     log: revlist-5cdb2c77c4c3-27eab4c64423.txt
 
---===============0851050592710122458==
+--===============9013531313210532910==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ba99c627aac85bc746fb4a6e2d79edb3ad100326 driver: net: ethernet: mtk_star_emac: f
 f65dca1752b70ec4f678ae4dbdd5892335bcbbd8 Merge tag 'linux-can-fixes-for-6.16-20250529' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
 27eab4c644236a9324084a70fe79e511cbd07393 net: lan966x: Make sure to insert the vlan tags also in host mode
 
---===============0851050592710122458==--
+--===============9013531313210532910==--
