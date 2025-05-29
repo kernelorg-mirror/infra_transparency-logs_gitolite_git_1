@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dakr/linux
-Date: Thu, 29 May 2025 14:00:53 -0000
-Message-Id: <174852725344.751040.11951792559340387537@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Thu, 29 May 2025 14:20:43 -0000
+Message-Id: <174852844323.767095.16698336358677794046@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dakr/linux
-user: dakr
+repo: pub/scm/linux/security/vulns
+user: sashal
 changes:
-  - ref: refs/heads/rust/for-alice
-    old: 68fec18d66ab9cf4c46b922e4d87dc4d9c8422f7
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master
+    old: eb2e509c9598f70ff3d7d8a7e97e7716983d2ce1
+    new: 4377798cf85c3c801ce023cfbea024e06539842f
+    log: |
+         4377798cf85c3c801ce023cfbea024e06539842f sasha: add regular review file for v6.14.8
+         
