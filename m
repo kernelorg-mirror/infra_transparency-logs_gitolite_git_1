@@ -1,51 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============3658508216208968651=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 29 May 2025 15:05:38 -0000
-Message-Id: <174853113876.808507.1324759360438218772@gitolite.kernel.org>
-
---===============3658508216208968651==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 29 May 2025 15:05:52 -0000
+Message-Id: <174853115200.809007.16543706966868255554@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.16
-    old: 8450f1e0d3d0e0b200eb14d14dfb8ef5ddb9bda9
-    new: 589561cb455189154a7110a39d9fcc39965f3104
+  - ref: refs/heads/for-linus
+    old: 899c69d903be4b3734fb5f87d476d3819020754f
+    new: 9fa5a93bb799d1410cf267bf763da0eb1cdadceb
     log: |
-         3b5d1efc878adee4835165663297a75193343d37 MAINTAINERS: Update HiSilicon SPI Controller driver maintainer
-         589561cb455189154a7110a39d9fcc39965f3104 MAINTAINERS: Update HiSilicon SFC driver maintainer
+         df7996076b1e1ba8a0690542d0e40f703f2f9eb7 ASoC: amd: yc: Add support for Lenovo Yoga 7 16ARP8
+         9fa5a93bb799d1410cf267bf763da0eb1cdadceb Merge remote-tracking branch 'asoc/for-6.15' into asoc-linus
          
-
---===============3658508216208968651==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1748531170 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1748531136-0be36266d964bb85831291508f8f1a4493ee6bb7
-
-8450f1e0d3d0e0b200eb14d14dfb8ef5ddb9bda9 589561cb455189154a7110a39d9fcc39965f3104 refs/heads/spi-6.16
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmg4d+MACgkQJNaLcl1U
-h9AzYQf9EkMHssd+kYrGU/MXCotmrk8lmVH0Nyb+QSBgV5KyP4SAb+Am3qhRfcBL
-yDUyAVAwGzLgTBlkJs0y5Dv9bfxhUGC0qlPHTzeauLYclWWVURm8qEso0PPDaEBs
-kdLJpLUn/UR6XQYZHnugHaZevEGnMF38spFX7wnl+KD53OXu/r2PJSaSrSxX48Xn
-oCzhMdxsXrd0bcgSmvictpv6ezrGkrnM73fp2TT40lS+VPXafvbLP6Tq99StmgXY
-8bgaLKlLBEFIIfd0LoWy1UURkoFAVAYdAhttn+euY4rg8rVpgzGvEA+DONYgR9Cj
-Iw8A2G1ORvEDfLT2yHhllNTkmrXH0A==
-=bn6h
------END PGP SIGNATURE-----
-
---===============3658508216208968651==--
+  - ref: refs/heads/for-next
+    old: 899c69d903be4b3734fb5f87d476d3819020754f
+    new: 9fa5a93bb799d1410cf267bf763da0eb1cdadceb
+    log: |
+         df7996076b1e1ba8a0690542d0e40f703f2f9eb7 ASoC: amd: yc: Add support for Lenovo Yoga 7 16ARP8
+         9fa5a93bb799d1410cf267bf763da0eb1cdadceb Merge remote-tracking branch 'asoc/for-6.15' into asoc-linus
+         
