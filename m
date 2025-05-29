@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4481830692520020101=="
+Content-Type: multipart/mixed; boundary="===============6947842906371519022=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 29 May 2025 05:08:17 -0000
-Message-Id: <174849529763.99941.1304842479130499536@gitolite.kernel.org>
+Date: Thu, 29 May 2025 05:09:22 -0000
+Message-Id: <174849536229.100629.3968117155730442931@gitolite.kernel.org>
 
---===============4481830692520020101==
+--===============6947842906371519022==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
-    old: c5cebb241e27ed0c3f4c1d2ce63089398e0ed17e
+  - ref: refs/heads/for-next
+    old: 4acfa985f589daca44a7232411eaf0e78519a997
     new: 90b83efa6701656e02c86e7df2cb1765ea602d07
-    log: revlist-c5cebb241e27-90b83efa6701.txt
+    log: revlist-4acfa985f589-90b83efa6701.txt
 
---===============4481830692520020101==
+--===============6947842906371519022==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c5cebb241e27-90b83efa6701.txt
+Content-Disposition: attachment; filename=revlist-4acfa985f589-90b83efa6701.txt
 
 be19a9228d08de2e7f20602b1fd68bac241330e4 Merge patch series "can: kvaser_pciefd: Fix ISR race conditions"
 c4f8ac095fc91084108ec21117eb9c1fff64725d Merge tag 'nova-next-v6.16-2025-05-20' of https://gitlab.freedesktop.org/drm/nova into drm-next
@@ -1051,4 +1051,4 @@ bbff27b54e4271a42ea1dba93a76e51165f2dbaa Merge tag 'nios2_updates_for_v6.16' of 
 1b98f357dadd6ea613a435fbaef1a5dd7b35fd21 Merge tag 'net-next-6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 90b83efa6701656e02c86e7df2cb1765ea602d07 Merge tag 'bpf-next-6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 
---===============4481830692520020101==--
+--===============6947842906371519022==--
