@@ -1,55 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1374103946125176070=="
+Content-Type: multipart/mixed; boundary="===============9201018723726620601=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Thu, 29 May 2025 06:35:10 -0000
-Message-Id: <174850051074.220802.15377425418650049429@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 29 May 2025 06:37:06 -0000
+Message-Id: <174850062635.222011.14731358968881015034@gitolite.kernel.org>
 
---===============1374103946125176070==
+--===============9201018723726620601==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkl/linux-can-next
-user: mkl
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/b4/can-xl
-    old: 7861c36608b1d1f26b010a9c465c048137d9d156
-    new: f5c8793fa87a25fc9af6f9d70ff142e2b047e186
+  - ref: refs/heads/master
+    old: 7607e1888139d81e9b90f34999568f3c48fac83a
+    new: 3ef5703524a0228673dd3b8dd1b9153cb8444ac1
     log: |
-         8e4ba927a5348437f491ff93c5b77f6222ecee1a can: netlink: add CAN XL support
-         46a070ab4a6b85cc1891263ccee9b099d58958b4 can: canxl: support Remote Request Substitution bit access
-         8a0c165ec367b95637feac8d4bd264399249622e can: canxl: support CAN XL transceiver switching in data phase
-         85ad7bd7b9cbc2579a4534ace95022de0c6fea6f can: canxl: support CAN XL error signalling switching
-         bfc08e4415439122af7ca25b8ac0b1881ed3215b can: canxl: add PWM config support
-         f5c8793fa87a25fc9af6f9d70ff142e2b047e186 can: add CAN XL dummy driver DO NOT MERGE
+         3ef5703524a0228673dd3b8dd1b9153cb8444ac1 drop some patches on request
          
 
---===============1374103946125176070==
+--===============9201018723726620601==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1748500540 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1748500506-422bc0190e1587ba0b2d3aecdc453da0a40f5b74
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1748500651 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1748500614-413956eb67dd88eae0251221b44b8d6dd03c9ba7
 
-7861c36608b1d1f26b010a9c465c048137d9d156 f5c8793fa87a25fc9af6f9d70ff142e2b047e186 refs/heads/b4/can-xl
+7607e1888139d81e9b90f34999568f3c48fac83a 3ef5703524a0228673dd3b8dd1b9153cb8444ac1 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEn/sM2K9nqF/8FWzzDHRl3/mQkZwFAmg4ADwTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRAMdGXf+ZCRnHogB/0cL5GnyeUiRmOveQSOxhz0gOpO0TKH
-fXNtg0PWaZHCKS1QVYxUpezhXoItnIK0x6kzTIoWoN76tlsS/5Kixx1mmj+BRACM
-+yTGSxf0aHSy/CUnhCQZHU1Rm6pl7pwXAdU5WMcHzSmOMZg06/P1jNHWJHWYOxHJ
-IwyUkmFbdjGm8VXMBjtJiPZkT7K6mzwo/KU9WV/fbUHLI1hkwmbGPABTNXns9Gvf
-uaJjObTfbXE2sHIuzGHDz/bzScWPu13zHf5v+dZ2O8/xjRpSUwivqVnCxQc/HLAY
-SX21z4IfCGvSiuoERu50ap6TR5/EFmlp3cPqRAxZJqdEcDUIb/lKsHSi
-=9TYa
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmg4AKsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+78cP/0d3+63guYQ40a2nasTZ
+n6YJlBec4MINtYnjvO3M+zV5J2H/hOPaFYNLe64HKs5TYes49wi2fACz5708pNtk
+DRI6/X9JJVHCf3DxMxhNlTH+GPZs7AlYX4hjP/YavtRyh6i81307aU62i78NVz55
+iVgjXJb8XsG2LXq0UZlsW7YObPhuX//33owZCX6KC02BFhTs9442r//ib6yJuqXR
+lmgz2sQMtfwkP5SwUpUgmSmN3Nh+hVF9EpmCGg9Vn1Ss/FNN6k1jm4ehUfe6xlUb
+Bj7SGXwBriavr1p4vtPPOlgqdYBJ3mP6omgtVU0kXWliXaGmbCrcgtbF79ejy74O
+kQSaV2R1OQDNJqmxDYDLevrdF4M8PnMztg1MeQ2rK6QLPJauZEFsmtVdbUU8xf3z
+hGMOREyeqpgh4+lCNC3cYTHuIacaJ6GqIAUyTHAd6P6ajyrlCVu6/mIp/y1EGN3T
+eUN6baTY+MXZ7U3xeMjXQVImycKop0u+pBT2g2bcDIVIhC6XefWDfmXcnaQgfdL+
+8MpZ9pS1HUy1u80vySzGrDiHrz+Hje9Cukifzq+ARQZUPATqiIzPD61ckoONixfY
+oMhWRGUQmjGxkeGOF5sqNz5Yjf5srJBfUhqZVaHdsTHNh3QrBuQ3enxguUhHZPwO
+SAjW0Dgt+Bpw+BYWjTvopVQ4
+=A48e
 -----END PGP SIGNATURE-----
 
---===============1374103946125176070==--
+--===============9201018723726620601==--
