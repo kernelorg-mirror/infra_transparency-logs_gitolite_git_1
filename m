@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Thu, 29 May 2025 11:27:31 -0000
-Message-Id: <174851805170.566137.290004187489166787@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Thu, 29 May 2025 11:33:50 -0000
+Message-Id: <174851843011.570947.5305167733309024655@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/master
-    old: 27dd83b942c949fa123bd8cc00c8fd054666dc2c
-    new: e4071d496fdbd8b2f1ae8d44a19888f8bbd60f5e
+  - ref: refs/heads/work.coredump.socket.protocol
+    old: 71b7a95a0267cd9f416256cb2c47b3fe6ed8fd83
+    new: e35669ed30b6d3be0e17be282eaed19d7530295e
     log: |
-         aaa9e718c88d6916b003da7ebcfe38a3c88df8e6 Update setpwnam.c
-         9a36d77012c4c771f8d51eba46b6e62c29bf572a Update bufflen
-         e4071d496fdbd8b2f1ae8d44a19888f8bbd60f5e Merge branch 'patch-1' of https://github.com/Zephkek/util-linux
+         b68fc0c0fa2065d5ce25630778f859e2cdbc205a selftests/coredump: add more coredump selftests
+         e35669ed30b6d3be0e17be282eaed19d7530295e coredump: allow for flexible coredump handling
          
