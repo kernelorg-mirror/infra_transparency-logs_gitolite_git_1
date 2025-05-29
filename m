@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/firmware
-Date: Thu, 29 May 2025 20:46:53 -0000
-Message-Id: <174855161318.1095117.5553554915139138642@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Thu, 29 May 2025 20:47:03 -0000
+Message-Id: <174855162365.1095437.7890893386035634984@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/firmware
-user: tnguy
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: acme
 changes:
-  - ref: refs/heads/main
-    old: 167118c968355b779bb2fb16078bb53bad677d49
-    new: 06a0b171f9cccb7c72bb79d3e4dd28f67a85e54a
+  - ref: refs/heads/tmp.perf-tools-next
+    old: c7a48ea9b919e2fa0e4a1d9938fdb03e9afe276c
+    new: baf75ad129b92da045aae83ee2261b1d9c0d56d1
     log: |
-         18f9edda4283886ab6f934d6eec8652af359c6ed ice: update package to 1.3.43.0
-         902386062e4e43e0012c6150b46eb70b8e488794 ice: update comms package to 1.3.55.0
-         4439f5b5c5afc0c206c1e92fec39856caf092f75 ice: update wireless_edge package to 1.3.23.0
-         06a0b171f9cccb7c72bb79d3e4dd28f67a85e54a Merge branch 'robot/pr-0-1748540516' into 'main'
+         4d9b5146f0d9147293155b569db9a19c8f5ff0a1 perf symbol: Move demangling code out of symbol-elf.c
+         baf75ad129b92da045aae83ee2261b1d9c0d56d1 perf trace: Set errpid to false for rseq and set_robust_list
          
