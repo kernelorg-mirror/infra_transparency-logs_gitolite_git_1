@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
-Date: Thu, 29 May 2025 14:58:15 -0000
-Message-Id: <174853069533.798342.15967143707196618004@gitolite.kernel.org>
+Date: Thu, 29 May 2025 14:58:24 -0000
+Message-Id: <174853070440.798643.5597616803197858016@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jack/linux-fs
 user: jack
 changes:
-  - ref: refs/tags/fs_for_v6.16-rc1
-    old: 0000000000000000000000000000000000000000
-    new: f596c1b0289bb1d64a3e25d1a02d8f747df7af76
+  - ref: refs/heads/for_next_testing
+    old: 0405d4b63d082861f4eaff9d39c78ee9dc34f845
+    new: d5a2693f93e497589637bb746ef19ac8aecb6fb5
+    log: |
+         5ea45f54c8d6ca2a95b7bd450ee9eb253310bfd3 isofs: fix Y2038 and Y2156 issues in Rock Ridge TF entry
+         d5a2693f93e497589637bb746ef19ac8aecb6fb5 ext2: Deprecate DAX
+         
