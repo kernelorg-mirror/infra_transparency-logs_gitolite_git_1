@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Fri, 30 May 2025 12:49:16 -0000
-Message-Id: <174860935656.1886439.3843178574483405589@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Fri, 30 May 2025 12:50:24 -0000
+Message-Id: <174860942467.1889415.5364068239632702273@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/pahole/pahole
-user: almagui
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/next
-    old: eac02efda313cf816b1a4e0d497bb7d41ca3ba9f
-    new: 010fecf31837865d0889307b63648d300b0ddd76
+  - ref: refs/heads/dir-deleg-clnt
+    old: ea15531aa828dc21ac17cc091ec2a178ec621a34
+    new: a97f68cd03c05fafd75eb932130a602e40e3f890
     log: |
-         010fecf31837865d0889307b63648d300b0ddd76 CMakeLists.txt: Remove custom `LIB_INSTALL_DIR` handling
+         a97f68cd03c05fafd75eb932130a602e40e3f890 nfs: add a module parameter to disable directory delegations
          
