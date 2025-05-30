@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Fri, 30 May 2025 17:06:34 -0000
-Message-Id: <174862479490.2107550.11119007076441092888@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Fri, 30 May 2025 17:11:03 -0000
+Message-Id: <174862506300.2111787.2250798664655969386@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: c48cf60e8b6beec45537718f7cc12d777d67c65c
-    new: 75d48aab13cb1b1724d2d079400f380f15dce0f5
+  - ref: refs/heads/main
+    old: 27eab4c644236a9324084a70fe79e511cbd07393
+    new: d3faab9b5a6a0477d69c38bd11c43aa5e936f929
     log: |
-         75d48aab13cb1b1724d2d079400f380f15dce0f5 patches/next: rebase to latest mm-new
+         d3faab9b5a6a0477d69c38bd11c43aa5e936f929 net: usb: aqc111: debug info before sanitation
          
