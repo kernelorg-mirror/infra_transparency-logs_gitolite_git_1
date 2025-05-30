@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4994707886249683626=="
+Content-Type: multipart/mixed; boundary="===============5741787880063818765=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/linux
-Date: Fri, 30 May 2025 18:16:01 -0000
-Message-Id: <174862896137.2171642.18069156073354136592@gitolite.kernel.org>
+Date: Fri, 30 May 2025 18:16:44 -0000
+Message-Id: <174862900495.2172237.16039400016705840161@gitolite.kernel.org>
 
---===============4994707886249683626==
+--===============5741787880063818765==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/linux
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
+  - ref: refs/heads/for-next
+    old: c24a65b6a27c78d8540409800886b6622ea86ebf
     new: dd91b5e1d6448794c07378d1be12e3261c8769e7
-    log: revlist-0af2f6be1b42-dd91b5e1d644.txt
+    log: revlist-c24a65b6a27c-dd91b5e1d644.txt
 
---===============4994707886249683626==
+--===============5741787880063818765==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0af2f6be1b42-dd91b5e1d644.txt
+Content-Disposition: attachment; filename=revlist-c24a65b6a27c-dd91b5e1d644.txt
 
 f6c87411d15fc4efadec944c7925e8f73c1972b2 wifi: mt76: mt7996: rework register mapping for mt7990
 7316813a9cb3a521874c56041e1a0d1e2c7f3402 wifi: mt76: mt7996: add eeprom support for mt7990
@@ -1051,4 +1051,4 @@ eafd95ea74846eda3e3eac6b2bb7f34619d8a6f8 Merge tag 'pinctrl-v6.16-1' of git://gi
 883e3c9f40814377a239ca0becbcc77deab5ffe5 Merge tag 'i2c-for-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 dd91b5e1d6448794c07378d1be12e3261c8769e7 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
 
---===============4994707886249683626==--
+--===============5741787880063818765==--
