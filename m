@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4988507710880974578=="
+Content-Type: multipart/mixed; boundary="===============6449919521203034453=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 30 May 2025 17:22:24 -0000
-Message-Id: <174862574484.2123525.1814946190338511866@gitolite.kernel.org>
+Date: Fri, 30 May 2025 17:22:29 -0000
+Message-Id: <174862574942.2123773.11340045504294790197@gitolite.kernel.org>
 
---===============4988507710880974578==
+--===============6449919521203034453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: ea15e046263b19e91ffd827645ae5dfa44ebd044
     new: 90b83efa6701656e02c86e7df2cb1765ea602d07
     log: revlist-ea15e046263b-90b83efa6701.txt
 
---===============4988507710880974578==
+--===============6449919521203034453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ bbff27b54e4271a42ea1dba93a76e51165f2dbaa Merge tag 'nios2_updates_for_v6.16' of 
 1b98f357dadd6ea613a435fbaef1a5dd7b35fd21 Merge tag 'net-next-6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 90b83efa6701656e02c86e7df2cb1765ea602d07 Merge tag 'bpf-next-6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 
---===============4988507710880974578==--
+--===============6449919521203034453==--
