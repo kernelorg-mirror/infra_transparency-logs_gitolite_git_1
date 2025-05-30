@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4811309487457442306=="
+Content-Type: multipart/mixed; boundary="===============1060241953591605824=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tomba/linux
-Date: Fri, 30 May 2025 07:27:52 -0000
-Message-Id: <174859007243.1621749.2964830053296572846@gitolite.kernel.org>
+Date: Fri, 30 May 2025 07:29:05 -0000
+Message-Id: <174859014590.1622764.17152679783224336158@gitolite.kernel.org>
 
---===============4811309487457442306==
+--===============1060241953591605824==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,143 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tomba/linux
 user: tomba
 changes:
-  - ref: refs/heads/gmsl/base
-    old: ebc0f9c00d0ad8321a4f5dbf0920685e90e00fc4
-    new: 5d5ba0a8c4929ad68f7805b7ef1b83018ab774ae
-    log: revlist-ebc0f9c00d0a-5d5ba0a8c492.txt
+  - ref: refs/heads/gmsl/work
+    old: 2f3f4469751968251c3bde83fea0d998a8768b33
+    new: bae820e4f0a2aeaad6a823c840e9159a4da3c4d0
+    log: revlist-2f3f44697519-bae820e4f0a2.txt
 
---===============4811309487457442306==
+--===============1060241953591605824==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ebc0f9c00d0a-5d5ba0a8c492.txt
+Content-Disposition: attachment; filename=revlist-2f3f44697519-bae820e4f0a2.txt
 
-5591ce0069ddda97cdbbea596bed53e698f399c2 arm64: dts: imx8mm-verdin: Link reg_usdhc2_vqmmc to usdhc2
-b4432656b36e5cc1d50a1f2dc15357543add530e Linux 6.15-rc4
-2d7f844ffac683dea7b1697c016e63081199383e NFSv4: Handle fatal ENETDOWN and ENETUNREACH errors
-440caf8ee2743d44ae5a6da209854188110993fa NFSv4/pnfs: Layoutreturn on close must handle fatal networking errors
-bead8b4953f466514f28e552269110b23a19d6f0 pNFS/flexfiles: Record the RPC errors in the I/O tracepoints
-c457dc1ec770a22636b473ce5d35614adfe97636 nfs: handle failure of nfs_get_lock_context in unlock path
-6b9785dc8b13d9fb75ceec8cf4ea7ec3f3b1edbc nfs: don't share pNFS DS connections between net namespaces
-d5fb22a7c585b12ec3e6cef150689f7386e8cfd0 nfs: move the nfs4_data_server_cache into struct nfs_net
-d82e86c15364d42706eb8b5249640a839d61a681 nfs: direct: drop useless initializer in nfs_direct_write_completion()
-c367eea5041c2e5ef6836fe0ba8c5dc75a965b1b nfs: nfs3acl: drop useless assignment in nfs3_get_acl()
-1149719442d28c96dc63cad432b5a6db7c300e1a ALSA: usb-audio: Add second USB ID for Jabra Evolve 65 headset
-76047483fe94414edf409dc498498abf346e22f1 drm/ttm: fix the warning for hit_low and evict_low
-8b0ba61df5a1c44e2b3cf683831a4fc5e24ea99d fs/xattr.c: fix simple_xattr_list to always include security.* xattrs
-b71f9804f66c2592d4c3a2397b7374a4039005a5 timekeeping: Prevent coarse clocks going backwards
-8d16dd7b651b75ce7c79da3539553a25e60668f5 MAINTAINERS: erofs: add myself as reviewer
-4fb7b8fceb0beebbe00712c3daf49ade0386076a EDAC/altera: Test the correct error reg offset
-6dbe3c5418c4368e824bff6ae4889257dd544892 EDAC/altera: Set DDR and SDMMC interrupt mask before registration
-2c8a7c66c90832432496616a9a3c07293f1364f3 iommu/vt-d: Apply quirk_iommu_igfx for 8086:0044 (QM57/QS57)
-5a2a6c428190f945c5cbf5791f72dbea83e97f66 dm: always update the array size in realloc_argv on success
-b79028039f440e7d2c4df6ab243060c4e3803e84 cpufreq: Fix setting policy limits when frequency tables are used
-b94f88da544d7ace96a9e6b3522283b82ad310e8 Merge tag 'hyperv-fixes-signed-20250427' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
-f15d97df5afae16f40ecef942031235d1c6ba14f Merge tag 'powerpc-6.15-3' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
-fa7ab64f1e2fdc8f2603aab8e0dd20de89cb10d9 NFS/localio: Fix a race in nfs_local_open_fh()
-5b1834d6202f86180e451ad1a2a8a193a1da18fc drm/fdinfo: Protect against driver unbind
-20a6cff3b283f0601048ace87ad1bc89627e36f2 KVM: x86/mmu: Check and free obsolete roots in kvm_mmu_reload()
-bc43f7114a0e8173968085b21535d57b8030d571 drm: adp: Use spin_lock_irqsave for drm device event_lock
-7a7d6681d5adde7dc7e648dcc6b9e9be6ca93d5d drm: adp: Handle drm_crtc_vblank_get() errors
-c082a52125d9007b488d590c412fd126aa78c345 drm: adp: Enable vblank interrupts in crtc's .atomic_enable
-8f6dfc4d7037e88cc0a4be4f290829946999341f drm: adp: Remove pointless irq_lock spin lock
-32dce6b1949a696dc7abddc04de8cbe35c260217 drm: Select DRM_KMS_HELPER from DRM_DEBUG_DP_MST_TOPOLOGY_REFS
-9a046c1d21f0ae14c73b5e106e5a501dd902b6a9 Input: stmpe-ts - use module alias instead of device table
-b8ac485a179d8819ae291afbf13a2fd89d76d4f3 dt-bindings: mediatek,mt6779-keypad: Update Mattijs' email address
-6a10a2f1e0502c1f23e3095291c985d9bd8c8488 MAINTAINERS: .mailmap: update Mattijs Korpershoek's email address
-7675b5efd81fe6d524e29d5a541f43201e98afa8 Input: cyttsp5 - fix power control issue on wakeup
-78109c591b806e41987e0b83390e61d675d1f724 Merge tag 'for-6.15/dm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
-22cd66a5db56a07d9e621367cb4d16ff0f6baf56 Input: xpad - add support for 8BitDo Ultimate 2 Wireless Controller
-a2f546330ef9f3471ab9dd5f59e9685733b6c0dc bcachefs: Fix losing return code in next_fiemap_extent()
-c83311c5b90d12ea22e847fd9390e2fdb6a34f68 bcachefs: Use generic_set_sb_d_ops for standard casefolding d_ops
-70c3d89f49523933365d91010f88206855bc1990 bcachefs: Emit unicode version message on startup
-bdc32a10a29c3993b3c6c38b21951b66bea525d7 bcachefs: Add missing utf8_unload()
-3c24020119a5f55ec902b5fdc24d8666d76340b3 bcachefs: Run BCH_RECOVERY_PASS_reconstruct_snapshots on missing subvol -> snapshot
-9e9c28acfdc78292100fdd0e46587bf43a174451 bcachefs: Add upgrade table entry from 0.14
-002466446abae31a15e8b89adb54ee08653eccd1 bcachefs: fix bch2_dev_buckets_resize()
-e7f1a52849a01c63c796a9dfe6697d05fff23324 bcachefs: Improve bch2_dev_bucket_missing()
-eca5b56ccfdf583a8781503646fb39554f8624bd bcachefs: Don't generate alloc updates to invalid buckets
-c366b1672d74cb008974f6e36e34dc191621f3bb bcachefs: btree_node_data_missing is now autofix
-f04dd30f1bef1ed2e74a4050af6e5e5e3869bac3 amd-xgbe: Fix to ensure dependent features are toggled with RX checksum offload
-8c47d5753a119f1c986bc3ed92e9178d2624e1e8 net: ethernet: mtk_eth_soc: sync mtk_clks_source_name array
-10c34b7d71a4ff8c06d926f1846edf8295ed75bf netlink: specs: ethtool: Remove UAPI duplication of phy-upstream enum
-a54b2e2d40b47aa5d283cd637c4e172da231461e Merge tag 'for-net-2025-04-25' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
-dfd76010f8e821b66116dec3c7d90dd2403d1396 pds_core: remove write-after-free of client_id
-f99a3fbf023e20b626be4b0f042463d598050c9a net_sched: drr: Fix double list add in class with netem as child qdisc
-141d34391abbb315d68556b7c67ad97885407547 net_sched: hfsc: Fix a UAF vulnerability in class with netem as child qdisc
-1a6d0c00fa07972384b0c308c72db091d49988b6 net_sched: ets: Fix double list add in class with netem as child qdisc
-f139f37dcdf34b67f5bf92bc8e0f7f6b3ac63aa4 net_sched: qfq: Fix double list add in class with netem as child qdisc
-a6e1c5aa16dd5d351603c9d3ae259a069eabdcc2 selftests: tc-testing: Add TDC tests that exercise reentrant enqueue behaviour
-bd808ca5a0cc899eb63538c28cb139eb0a6cc797 Merge branch 'net_sched-adapt-qdiscs-for-reentrant-enqueue-cases'
-3ffcd7b657c9d96eb3ffe174449b4248dd7fc6a9 ice: fix Get Tx Topology AQ command error on E830
-425c5f266b2edeee0ce16fedd8466410cdcfcfe3 ice: Check VF VSI Pointer Value in ice_vc_add_fdir_fltr()
-713dd6c2deca88cba0596b1e2576f7b7a8e5c59e idpf: fix offloads support for encapsulated packets
-d4cb1ecc22908ef46f2885ee2978a4f22e90f365 Merge branch 'intel-net-queue-100GbE'
-ca91b9500108d4cf083a635c2e11c884d5dd20ea Merge tag 'v6.15-rc4-ksmbd-server-fixes' of git://git.samba.org/ksmbd
-9c51f24c1ac7cbde9cc94a54137775dc52aae491 scsi: myrb: Fix spelling mistake "statux" -> "status"
-0e9693b97a0eee1df7bae33aec207c975fbcbdb8 scsi: ufs: core: Remove redundant query_complete trace
-652dd6558b8b5a1a04fef129e0231ee493e24951 bcachefs: btree_root_unreadable_and_scan_found_nothing autofix for non data btrees
-e5a3b8cf3330a774e5f5f06a2b7cf20116447297 bcachefs: More informative error message when shutting down due to error
-9a4a858c9b365d817231f6f3592dc26e9d4191bb bcachefs: Use bch2_kvmalloc() for journal keys array
-dbe4674802ec8e43835900490b3492299464ad27 bcachefs: Topology error after insert is now an ERO
-bbfe756dc3062c1e934f06e5ba39c239aa953b92 fs/erofs/fileio: call erofs_onlinefolio_split() after bio_add_folio()
-c1c9cad50c5c35cd4de1b54af59a28bf07451593 drm/xe/svm: fix dereferencing error pointer in drm_gpusvm_range_alloc()
-5e639707ddb8f080fbde805a1bfa6668a1b45298 drm/xe/guc: Fix capture of steering registers
-b1852c5de2f2a37dd4462f7837c9e3e678f9e546 i2c: imx-lpi2c: Fix clock count when probe defers
-12b8a672d2aa053064151659f49e7310674d42d3 pinctrl: qcom: Fix PINGROUP definition for sm8750
-13a6d4265665201a795a2ff5a3e6e4d183fc9c33 pmdomain: renesas: rcar: Remove obsolete nullify checks
-730d837979bac203c786f2c5b0707f5426275c0d selftests: ublk: fix UBLK_F_NEED_GET_DATA
-69edf98be844375807f299397c516fb1e962b3cc ublk: decouple zero copy from user copy
-6240f43b29f285a40eebeb789756673af7a7d67c ublk: enhance check for register/unregister io buffer command
-a584b2630b0d31f8a20e4ccb4de370b160177b8a ublk: remove the check of ublk_need_req_ref() from __ublk_check_and_get_req
-56f1f30e6795b890463d9b20b11e576adf5a2f77 ALSA: ump: Fix buffer overflow at UMP SysEx message conversion
-a75401227eeb827b1a162df1aa9d5b33da921c43 nvme-pci: fix queue unquiesce check on slot_reset
-5b960f92ac3e5b4d7f60a506a6b6735eead1da01 nvme-pci: add quirks for device 126f:1001
-ab35ad950d439ec3409509835d229b3d93d3c7f9 nvme-pci: add quirks for WDC Blue SN550 15b7:5009
-690d722e02819ef978f90cd7553973eba1007e6c drivers/platform/x86/amd: pmf: Check for invalid sideloaded Smart PC Policies
-8e81b9cd6e95188d12c9cc25d40b61dd5ea05ace drivers/platform/x86/amd: pmf: Check for invalid Smart PC Policies
-0581d384f344ed0a963dd27cbff3c7af80c189e7 platform/x86/amd/hsmp: Make amd_hsmp and hsmp_acpi as mutually exclusive drivers
-48ccf21fa8dc595c8aa4f1d347b593dcae0727d0 drm/tests: shmem: Fix memleak
-1a8bc0fe8039e1e57f68c4a588f0403d98bfeb1f drm/mipi-dbi: Fix blanking for non-16 bit formats
-94ddc14095480b1de946c56169bc0d42a815565a Merge tag 'scmi-fixes-6.15' of https://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into arm/fixes
-fbefe1c45dca0efde74baa8718c74e8900678d33 Merge tag 'ffa-fix-6.15' of https://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into arm/fixes
-7771f41d397df03351172226883515df9abea046 Merge tag 'juno-fix-6.15' of https://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into arm/fixes
-128795bdbe1e029d150130ac546488ed72126f5a Merge tag 'imx-fixes-6.15' of https://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into arm/fixes
-de2b2107d5a41a91ab603e135fb6e408abbee28e arm64: dts: st: Adjust interrupt-controller for stm32mp25 SoCs
-06c231fe953a26f4bc9d7a37ba1b9b288a59c7c2 arm64: dts: st: Use 128kB size for aliased GIC400 register access on stm32mp25 SoCs
-02dc83f09c7262533123e7e4dae9c4f9fc40ed17 arm64: dts: st: Adjust interrupt-controller for stm32mp21 SoCs
-1bc229e9bb9cd502caeec639cb3cff50aea078f0 arm64: dts: st: Use 128kB size for aliased GIC400 register access on stm32mp21 SoCs
-3a1e1082097b8fa2e5d420de105f4cce804c38b2 arm64: dts: st: Adjust interrupt-controller for stm32mp23 SoCs
-2ef5c66cba6171feab05e62e1b22df970b238544 arm64: dts: st: Use 128kB size for aliased GIC400 register access on stm32mp23 SoCs
-11cdb506d0fbf5ac05bf55f5afcb3a215c316490 Input: mtk-pmic-keys - fix possible null pointer dereference
-e38be1c7647c8c78304ce6d931b3b654e27948b3 sched_ext: Fix rq lock state in hotplug ops
-4b5256f990046d479d87f90382dea36c55539c44 Merge tag 'fixes-2025-04-29' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
-02d40046243fa6f00630d93f67651c4f741036c6 Merge tag 'platform-drivers-x86-v6.15-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-fba784cc9e3d22a530211ef3ec60d04562349cb4 Merge tag 'fsnotify_for_v6.15-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
-0759e77a6d9bd34a874da73721ce4a7dc6665023 ALSA: usb-audio: Fix duplicated name in MIDI substream names
-e7e5ae71831c44d58627a991e603845a2fed2cab net: dlink: Correct endianness handling of led_mode
-b23285e93bef729e67519a5209d5b7fde3b4af50 net: mdio: mux-meson-gxl: set reversed bit when using internal phy
-8988c4b91945173a6b5505764915d470f0238fdc perf tools: Fix in-source libperf build
-4bf593be2e462623c4c34c7e3b604eb3f8f9de45 arm64: dts: rockchip: fix Sige5 RTC interrupt pin
-8bac8898fe398ffa3e09075ecea2be511725fb0b Merge tag 'mmc-v6.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
-8a558cbda51bef09773c72bf74a32047479110c7 idpf: fix potential memory leak on kcalloc() failure
-ed375b182140eeb9c73609b17939c8a29b27489e idpf: protect shutdown from reset
-c7d6cb96d5c33b5148f3dc76fcd30a9b8cd9e973 igc: fix lock order in igc_ptp_reset
-6e0490fc36cdac696f96e57b61d93b9ae32e0f4c net: ethernet: mtk_eth_soc: fix SER panic with 4GB+ RAM
-426d487bca38b34f39c483edfc6313a036446b33 net: dsa: felix: fix broken taprio gate states after clock jump
-efa6eb7d77aaf5b05eed25c0ecbf7754cc325c83 selftests: net: tsn_lib: create common helper for counting received packets
-f52fe6efd61f54c5cb0e19ef1fde96cf23048a70 selftests: net: tsn_lib: add window_size argument to isochron_do()
-4eb9da050f005fbbb7d301e8e99cfdb6e4771a0d selftests: net: tc_taprio: new test
-1e0bff3bb59ca9bf84243df2a4ad3cfa6ca6f303 Merge branch 'fix-felix-dsa-taprio-gates-after-clock-jump'
-b936a9b8d4a585ccb6d454921c36286bfe63e01d net: ipv6: fix UDPv6 GSO segmentation with NAT
-95b2536137eeb66f20947e0fb0d0c100c8d6a140 ASoC: Intel: catpt: avoid type mismatch in dev_dbg() format
-36fd6275818e93d5bc44140d546bf2a45e88feee spi: spi-qpic-snand: fix NAND_READ_LOCATION_2 register handling
-b6ea1680d0ac0e45157a819c41b46565f4616186 Merge tag 'v6.15-p6' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
-9fcd53c3206618166facf03ee3d465f66a107e01 erofs: remove unused enum type
-4d5b71b487291da9f92e352c0a7e39f256d60db8 ALSA: hda/realtek: Fix built-mic regression on other ASUS models
-417fae2c40896f0a67ce7fa7d9b8c6056ec36dd9 xfrm: ipcomp: fix truesize computation on receive
-3e6244429ba38f8dee3336b8b805948276b281ab riscv: dts: sophgo: fix DMA data-width configuration for CV18xx
-c4eb2f88d2796ab90c5430e11c48709716181364 accel/ivpu: Increase state dump msg timeout
 f2ecc700d1ef53127c14a3463442a8ac2a6a5cf5 accel/ivpu: Fix pm related deadlocks in cmdq ioctls
 75680b7cd461b169c7ccd2a0fba7542868b7fce2 accel/ivpu: Correct mutex unlock order in job submission
 58f6217e5d0132a9f14e401e62796916aa055c1b perf/x86/intel: KVM: Mask PEBS_ENABLE loaded for guest with vCPU's value.
@@ -1050,5 +924,131 @@ b970656d8c54949ee32bdd01f3a5dae746645116 HACK: checkout drivers/pci/controller/p
 8ebe219ad8abca6486ad979463ee8ebcfaa8a486 bcm2712-rpi-5-b.dts: add cfe & imx219
 48218c4a25e1baac249c14019753ca1c3e4ecc49 cfe: Enable video capture on CSI2_CH1
 5d5ba0a8c4929ad68f7805b7ef1b83018ab774ae ============================== RPi5 + RP1 ==============================
+b048033b9d537d94f472ff7b0a5f6452289817f1 media: mc: Add INTERNAL pad flag
+f9afb4603fde074fe38dfbd27bc9557a4f8ce4f0 media: uapi: ccs: Add media bus code for MIPI CCS embedded data
+e209091da2313cf9bc1bf56a5e42ecea1f6e1c62 media: v4l: Add V4L2_SUBDEV_ROUTE_FL_IMMUTABLE sub-device routing flag
+4ca5297d4da1551a3223baedaa975bf50a10003f media: uapi: v4l: subdev: Enable streams API
+186a50a676c1c349efa44efd2dabe10793fb750b ======================== Sakari's streams impro ========================
+df0b80dd286ab7b3a65be3c985bf097da21e0369 media: i2c: imx219: pass format's code to imx219_get_format_bpp()
+036742c44c2bc8dbfff71a53107e0bbf38e67136 media: i2c: imx219: Report streams using frame descriptors
+cf3388ffe62b012c9743520dd2ccb1a22b42ef09 ============================ IMX219 get_frame_desc ============================
+ec8decf86dc43a9aa8e5d508f6e11c9308045ced dt-bindings: media: video-interfaces: add support for Virtual Channel IDs
+52940ffd454af5383ff5931fb45646e0b2d16081 media: v4l: fwnode: parse Virtual Channel IDs for CSI2 buses
+bd74a244830234d6eab22164b87286606f3a428b ============================ device tree vc-ids ============================
+37f6036b9bf83b970aa4e7a1434093daf63d2d35 dt-bindings: media: imx219: add support for Virtual Channel IDs
+5c0825fb40d052f4625d04f06aa97451089d53b5 media: i2c: imx219: implement configurable VC ID
+1daa87c2cb2b8968606495d0f88ce23c78db7d0a ============================ IMX219 device tree vc-ids ============================
+ed4ebce1958199ed4b9873e1b9829da8ded5b06e media: i2c: imx219: introduce pad ids enum
+df818cc018799620c09f8c6b0c030fcc54d0a8be media: i2c: imx219: Add internal image sink pad
+b984371d28f56a21328b7b289c972df46583b19d media: i2c: imx219: Report internal routes to userspace
+94f67f9cb7f0301b71baae404b25705f50ab2a99 media: i2c: imx219: introduce source pad stream ids enum
+60abbd6caa8122afe28c032f29b277bd73a6a469 media: i2c: imx219: Add embedded data support
+9f49d8e4b006c57eb2d84909a0c15809d9adff7d imx219: hack enable_streams
+f08355414e78cba4f562543d162baa1a22dd3ba4 ============================ IMX219 Streams ============================
+d461078f0c6c47718300e240b9c579d81fcec93d media: i2c: ov5640: implement get_frame_desc
+f98da6c5eca68b2e35620786c618c760ce9f06bc media: i2c: ov5640: disable extra RAW formats
+9755a44d19ac6c93cf1353d064cdc913e0341c7b ============================ OV5640 ============================
+0ee5c76fbf1d417819672bafe878529321fef527 dt-bindings: media: i2c: max96717: add myself as maintainer
+15d7f4629881867a134a491647caf0890448b843 dt-bindings: media: i2c: max96717: add support for I2C ATR
+81036246f92e7578fb5e37ba7a8e668d39e3c78e dt-bindings: media: i2c: max96717: add support for pinctrl/pinconf
+c403ea9182b8ac51e246003a6d7ce052bd177d00 dt-bindings: media: i2c: max96717: add support for MAX9295A
+8b05d009a3191d328c5a780f64e1d7f17d88f2c1 dt-bindings: media: i2c: max96717: add support for MAX96793
+50ffab50f52587d71272b2fb072780b7318e5024 dt-bindings: media: i2c: max96712: add myself as maintainer
+bddd59716199012922ae343a8d2b7432f521c696 dt-bindings: media: i2c: max96712: use pattern properties for ports
+b67ad7dc36702df1ece5a0d59858abd3fa56895c dt-bindings: media: i2c: max96712: add support for I2C ATR
+e53a79a4a427852c0cf2466185aaff4b362052ca dt-bindings: media: i2c: max96712: add support for POC supplies
+1f4a787f13ded73ab4a3ef9e8c35bdd82f5ff0fb dt-bindings: media: i2c: max96712: deprecate enable-gpios
+c6fa3f25fcd2977f86eff3c2fcd0b7f01cc2af49 dt-bindings: media: i2c: max96712: add support for MAX96724F/R
+83cbc1bc3fcf0054c65a1417a68debfbd6b11e7b dt-bindings: media: i2c: max96714: add myself as maintainer
+2c8c93dffb938f411c67c88e137fcdd8adf2234d dt-bindings: media: i2c: max96714: add support for MAX96714R
+01afeada578b08ff087cf2fb35f1d84a56702c54 dt-bindings: media: i2c: add MAX9296A, MAX96716A, MAX96792A
+6f91f4ea743f28de44f25118d954934d9de35022 media: i2c: add Maxim GMSL2/3 serializer and deserializer drivers
+f5ffe1e33eeaf04e090975fa41aa937e89c4baef arm64: defconfig: disable deprecated MAX96712 driver
+4a035a3249b1110bd16d5f818a012b0d752146bc staging: media: remove MAX96712 driver
+ff1b78601086675a1647e0adced7c632dd66ced2 media: i2c: remove MAX96717 driver
+6c0a6297c3be334c21e13e2ae94bae7c632b99c6 media: i2c: remove MAX96714 driver
+4ed0122a18fbb015c2b299e41f899425ddc21221 ======== GMSL2 =========
+4f614406415b2d509dfe2e8b7c0866accffcd463 arch: arm64: defconfig: enable support for RPi CFE
+4f2a5601898868bf1c273d598e385bed93291fe3 arch: arm64: defconfig: enable MAX96724, MAX9296A, MAX96717
+74b9cdbc046ded44d68e5c169edf8d340b42d4f0 arch: arm64: defconfig: increase dmesg size
+474c35ea13dc3fdc5eaa06bfca53594acde367c3 arch: arm64: defconfig: enable ADV debug
+f4805aa1a0201c91665b1cb1983014e56ec3c9ad arch: arm64: defconfig: enable MAX20086
+194eccf98c841e53eb3dfd2817c60d72864a8ea4 Revert "bcm2712-rpi-5-b.dts: add cfe & imx219"
+e4c9a8f6c09546a5eda0b6f5c0dabdabf9704098 arm64: dts: broadcom: rpi5: add python-based gmsl dtsi generator
+3d3dfed1b73b36796aa5339bbf59eb973c90b0e9 ======== DEFCONFIG, DTS =========
+a0a101be07d79ea5510e8e9ca741f8783ae03acd dt-bindings: misc: Describe TI FPC202 dual port controller
+3e39057a2c07ead905aaadf9fd751a4cef792e00 media: i2c: ds90ub960: Replace aliased clients list with address list
+d33a4442690b529f38b4e6f0ab92d394b896da12 media: i2c: ds90ub960: Protect alias_use_mask with a mutex
+40c19189f6f4496802a07e436300699df42bd51e i2c: use client addresses directly in ATR interface
+c19ba3eb85f90b1109c08ea004ae46106488aa7c i2c: move ATR alias pool to a separate struct
+4ce01ce415ee929f948e0f7e78a6909eaf9938d0 i2c: rename field 'alias_list' of struct i2c_atr_chan to 'alias_pairs'
+c6c4dd70fa883674916bc63fafe40ca5c52243fa i2c: support per-channel ATR alias pools
+1ba32980a04c004431fe6b83c004b8aa2053f829 i2c: Support dynamic address translation
+e55eadb10832841802cc4b05cba9f30ced5491c3 misc: add FPC202 dual port controller driver
+63d7678a3dd2be9fec66ccce462ec7ba0aad39b8 i2c: Fix end of loop test in i2c_atr_find_mapping_by_addr()
+28f9a965d7adf5d087ec81052605aa1d1e3bcb19 i2c: atr: Fix lockdep for nested ATRs
+473e0dee3ed934b7ba206e8b5fe4da6489739bb7 i2c: atr: find_mapping() -> get_mapping()
+739e51ec5b39767d20e853f0ba504ccaeba0c84a i2c: atr: split up i2c_atr_get_mapping_by_addr()
+0a102d35391a42968390ef536a58bb678559dd4e i2c: atr: do not create mapping in detach_addr()
+358a01ffce38825e67c20b118c1621928e3c9f8c i2c: atr: deduplicate logic in attach_addr()
+787d8d5f3e0a3c36a742ea3269d212e7acfe92f4 i2c: atr: allow replacing mappings in attach_addr()
+2f3df6bb0617de6b7c6108b27170d2ac4fc6d1f1 i2c: atr: add flags parameter to i2c_atr_new()
+1632f7ee612f4fb2d566b1dd0f002982589cbe42 i2c: atr: add static flag
+4c43f2aef3bd9566c0fd4d70a715a8ae1de722ba i2c: atr: add passthrough flag
+390f361ec60b407b3d16b9ab5b70fa8df9381636 ======== ATR =========
+f5ed2c3424e10d06876f7463940fdc9944bc60b2 media: platform: rp1-cfe: print ret on get_frame_desc failure
+d87c8eaea82a8bfb9e71de0e0e8f45e0447dac1b media: v4l: subdev: Prevent NULL routes access
+d5908ca7d5421475efbe3bcc35c51386dc2e64ff media: i2c: ds90ub960: clarify stream_enable_mask indexing
+2a643d3f4380200eef3e137d86d51ed171bb759d media: v4l: subdev: Use dev_err() to print errors and clarify
+ddcf985ca30fbe136a1b37488c1f221c9bb11d2a media: v4l: subdev: implement fallback .set_frame_desc()
+b44b2e19a4d581dcbdb6d4721f38a947e5a382a6 max20086: allow probe without enable gpio
+34abb09a243206813993e040e7035483f1a4b2f2 media: platform: rpi1-cfe: fix pad in call to get_mbus_config()
+05bba7b13a7b4bbd412401c02a6a3832bf3c2a5b ======== MISC UPSTREAMABLE =========
+b59749eddd61b03dacf2925ffb7e0b621bdf5d3c Revert "media: i2c: imx219: implement configurable VC ID"
+3c9ced1d21ae269028b5182b44c1604e5391d019 media: i2c: imx219: remove configurable VC ID support from embedded data stream
+cd82f50f0e4918ff301a03ac8fded7d3463b30e2 media: i2c: imx219: implement configurable VC ID via .set_frame_desc()
+875823c4f19d36f7f01c06a5e0144e8a8ee0768d media: i2c: maxim-serdes: WIP set_frame_desc() usage
+60dab0820d2ea1f2924708d1d67783bb7746b137 Revert "media: i2c: maxim-serdes: WIP set_frame_desc() usage"
+7e7df8b0c6a409bb23a397b6422d0720fc4e1dbd media: i2c: maxim-serdes: max96724: use regmap_set_bits for STREAM_SEL_ALL
+2dc709d85cd8eca6f84bf61dcdb176f501b3155b media: i2c: maxim-serdes: max9296a: switch versions to unsigned int
+bded2ca920cf6888294e224710eaad1e3117fdf9 media: i2c: maxim-serdes: max9296a: remove parantheses from packet count regs
+440ddde2bb434951acd4b72a37ccf8cea451a690 media: i2c: maxim-serdes: max9296a: fix printing of phy packet counts
+9250476e9820b201a5669807ea7a3917f01c85ae media: i2c: maxim-serdes: max9296a: fix phy_hw_ids size
+1da7ee69d1670c2685887b5c9068a26f6238e6a2 media: i2c: maxim-serdes: move non-continuous mode check to max96717
+0a3a16eff485dc5907876a706afab035326263c4 media: i2c: maxim-serdes: simplify ignoring mode_context in tunnel mode
+8fd2e5256ee04e101178b206f8412fc37a53503d media: i2c: maxim-serdes: max_ser: update pipe stream_id
+2737a027a3a154d74331ef85cd462e3b3d9ab0a5 media: i2c: maxim-serdes: update deser stream_id based on actual ser value
+8898bbd394f71f4a9c12b9e82e2118f535cd7b98 media: i2c: maxim-serdes: inline remap with call
+95e7a10ced62b90c06843ec09371d9522b660eef fixup! media: i2c: maxim-serdes: max_ser: simplify i2c_xlate usage
+2bde89dc1aeb5b4ac037bd407260d635089d0a06 media: i2c: maxim-serdes: max_des: fix infinite version loop
+29ccf98e209dbb7ceb978ae001faa99f8acc04f9 media: i2c: maxim-serdes: simplify adding a new remap
+9eae5aa69f2a096d9099233b0f905a0e05d9836f media: i2c: maxim-serdes: remove double checks for source->sd
+7add157c2304d481fc4b100a37e9bea3983ea03b media: i2c: maxim-serdes: add max96719a / max96726a drivers
+3a3a6cd384036e4718658c0e9a316b2a82bdd810 arch: arm64: defconfig: enable MAX96726A / MAX96719
+31cc63d91d78172ca24fcac798cf503192f51eb9 gen_gmsl_dts.py: add max96726a and max96719a
+cd2fe71eb4be6fac13d4806d072d9710220f6b7e media: i2c: maxim-serdes: max96726: fix set pipe enable, pipe stream id, pipe autoselect
+1ff9a90b9540f63b8b8bf7ce6ef4e975c0274ffd media: i2c: maxim-serdes: max96726: fix setting pipe phy
+a573b14576b2347f3bc8234a9d7f877456a1341d media: i2c: maxim-serdes: max96726: clear OVERRIDE_VC_LINK_ID/PIPE_ID_MODE
+ed432e9878b74f20d625ea70ffdd754a098d8731 media: i2c: maxim-serdes: max96726: add support for max96726b
+690e5bb2ae552f5978c48cfe290562dfe002fc75 media: i2c: maxim-serdes: max96719: implement gpio/pinctrl
+7509f2fc9e7199bd74beb35bd34e564934221f7b media: i2c: maxim-serdes: max96719: disable WAKE function on GPIO0, PDM on 2/3
+76b622d13c57fb5fde9dd90c5af0057162a504f3 media: i2c: maxim-serdes: max96719: set modes
+8e505f8715635ec0d58dc49a5ece0912f2ef2108 gen_gmsl_dts.py: add max96726b
+35c11b7e8a1a82f717dd1a98b59c75ac301f2b66 HACK: media: i2c: maxim-serdes: max_ser: ignore failed reset write
+1da7316f1d78aed4a90a11f806e0557e8bf7aeb1 media: i2c: maxim-serdes: move GMSL version str to serdes
+013b62acca9db3b955038359f5b78609d3f44eda media: i2c: maxim-serdes: populate modes entry
+c12bab5d4396a1bc67263b6a8396e6094ff39702 media: i2c: maxim-serdes: max_des: split finding existing VC mapping from creating a new one
+0415ff34768b2d43e785271cb0d376b0a157c699 media: i2c: maxim-serdes: max_des: track in-use pipes
+5062215a11cc1687476df13560c3edd6f06470b9 media: i2c: maxim-serdes: make logic depend on available modes
+f3cf1a5765cd4d070d4cbdd3dd2b87b8a992e4e7 media: i2c: maxim-serdes: only keep the original vc if needed
+7e0ebdffa246f07fce2d4ff8126c0176e9b35ab3 media: i2c: maxim-serdes: move finding mode into separate function
+43a935ebeaf7492c7eb234db61776eb065922297 media: i2c: maxim-serdes: make setting pixel mode explicit
+154d5fdcac32d1034e687b16d6e65de8ed7b566c media: i2c: maxim-serdes: skip unused pipes when setting mode / finding supported modes / determining mode
+54d572983c64c482b0c4218f574be89fcc2f48bf media: i2c: maxim-serdes: make some callbacks optional for tunnel-only chips
+8fc8848dbd77dd0950cf677703a70d4158c86607 media: i2c: maxim-serdes: ignore unused pipes when deciding mode
+73c490dae796413cf425bac8c63082ffda817e02 media: i2c: maxim-serdes: add support for des/ser VC remaps in tunnel mode
+e32c1c41e04d86e3920707c66652aa7f911b4428 media: i2c: maxim-serdes: remove checks for source nullity
+fa23d29dd93022f9280f798b2d64fd636f7fd547 media: i2c: maxim-serdes: max_des_find_link_source -> max_des_get_link_source
+bae820e4f0a2aeaad6a823c840e9159a4da3c4d0 media: i2c: maxim-serdes: max_ser_find_phy_source -> max_ser_get_phy_source
 
---===============4811309487457442306==--
+--===============1060241953591605824==--
