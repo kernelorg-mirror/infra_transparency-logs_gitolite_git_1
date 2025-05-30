@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Fri, 30 May 2025 06:07:28 -0000
-Message-Id: <174858524892.1557137.298652803686633940@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Fri, 30 May 2025 07:10:51 -0000
+Message-Id: <174858905165.1607735.14468506108087037367@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/master
-    old: be8388f4ec1f2b419e046bb3dcfab8f631c7711a
-    new: 90d2199bbdf7512ea4042b992920cd54d5705b76
-    log: |
-         90d2199bbdf7512ea4042b992920cd54d5705b76 foo
-         
+  - ref: refs/heads/renesas/dt64-4
+    old: 0000000000000000000000000000000000000000
+    new: f62bb41740462bf9fde4b110df5c7d3bc223fb3c
