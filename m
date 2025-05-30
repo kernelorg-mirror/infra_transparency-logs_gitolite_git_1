@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Fri, 30 May 2025 21:56:49 -0000
-Message-Id: <174864220925.2355290.6736268770180137647@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/oupton/linux
+Date: Fri, 30 May 2025 22:14:38 -0000
+Message-Id: <174864327842.2368973.13922824291548210902@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/oupton/linux
+user: oupton
 changes:
-  - ref: refs/heads/controller/dw-rockchip
-    old: a47c73d6a884edf2a8b09015596744a495c6a236
-    new: ec49e253322bf29e721c6153d9e7be95eef33b33
+  - ref: refs/heads/kvm-arm64/set-events
+    old: 5f08d43a613f7cf17f5733e7b27f123b141eb614
+    new: 2ba6509f9feedef8c5d23173833e39f7334aec5f
     log: |
-         d34719d0e81f5bf1750931562a36a6f3fa6512bc PCI: dw-rockchip: Replace PERST# sleep time with proper macro
-         ec49e253322bf29e721c6153d9e7be95eef33b33 PCI: qcom: Replace PERST# sleep time with proper macro
+         9cc1dcc993287c5e3dbcf112924f39f87a7f30ad KVM: arm64: nv: Respect exception routing rules for SEAs
+         5dd79c829969ef8aa3845ee3c9868907bb8a16a2 KVM: arm64: nv: Ensure Address size faults affect correct ESR
+         4f0a6730297549645f64d771bcffdef0a26620e8 KVM: arm64: nv: Honor SError exception routing / masking
+         2ba6509f9feedef8c5d23173833e39f7334aec5f KVM: arm64: Treat vCPU with pending SError as runnable
          
