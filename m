@@ -1,24 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Sat, 31 May 2025 17:28:08 -0000
-Message-Id: <174871248852.3314239.12398848717126520358@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sat, 31 May 2025 17:28:42 -0000
+Message-Id: <174871252231.3314843.3262649066808199291@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/move-drivers
-    old: 59b028d17e1dc229f52b9c2081b90fbb11798b27
-    new: b66ac81fde550166a6b5f76731a71ebdb26ee8c5
+  - ref: refs/heads/fixes-togreg-for-6.16
+    old: 339ffcdc881180b1e0ee2e27f7a6844a8ccc57f7
+    new: 493a23fa9b00bb5d29ce03010a4d576ec2ee60e2
     log: |
-         b2530fb0224508800b62755ca5396178b45fb7b8 RDMA/mlx5: Move IPoIB to relevant subsystem
-         d51774b00bdb1e009e9f387b8e53b6a60ff40975 drivers: Add basic shared place for complex drivers
-         fdce460c97b171fb4ff5757083f9c46b3b2d8b65 docs: Add drivers-lib documentation
-         79ecd0b12e86fd38345958cabcd8a07ae95689ee net/mlx5e: Separate ethernet functionality to dedicated module
-         a3cfedaf6736b30d0357231b844a6697bd7e5d0e net/mlx5: Remove unused EXPORT_SYMBOLS
-         b66ac81fde550166a6b5f76731a71ebdb26ee8c5 drivers/lib: Move mlx5_core to dedicated place
+         bf16e40577db7d63cb1070186c76664a53a6ce7e dt-bindings: iio: adc: adi,ad7606: fix dt_schema validation warning
+         d5b58a57021c6c33f33c71cbeacd5dc0bfd73872 iio: adc: adi-axi-adc: fix ad7606_bus_reg_read()
+         7cbf268e78acbb8f2b019369cd84726383562b37 iio: common: st_sensors: Fix use of uninitialize device structs
+         493a23fa9b00bb5d29ce03010a4d576ec2ee60e2 dt-bindings: iio: gyro: invensense,mpu3050: change irq maxItems
          
