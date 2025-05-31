@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Sat, 31 May 2025 21:10:00 -0000
-Message-Id: <174872580046.3495993.14620787943515587037@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Sat, 31 May 2025 21:15:42 -0000
+Message-Id: <174872614223.3502229.2444590954214387019@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/kernel-6.12.24/main
-    old: 1d2caacb7a5230e53faa08fed925d1fb9c505edc
-    new: 3fc56724c4471d4cfd7ab70a2285f3f8519eb311
+  - ref: refs/heads/crc-pending
+    old: e0d2b8efde1898093ff0f4df82ee003ce48c8e19
+    new: 469f853b5a9d5e0524b37ac40811c43b101f7758
     log: |
-         3fc56724c4471d4cfd7ab70a2285f3f8519eb311 kernel-6.12.24-4
+         469f853b5a9d5e0524b37ac40811c43b101f7758 x86/crc: drop checks of CONFIG_AS_VPCLMULQDQ
          
