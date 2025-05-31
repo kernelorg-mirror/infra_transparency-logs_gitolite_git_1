@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
-Date: Sat, 31 May 2025 21:49:28 -0000
-Message-Id: <174872816852.3527663.12419966246544188032@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
+Date: Sat, 31 May 2025 21:50:12 -0000
+Message-Id: <174872821220.3530395.2010369484818603370@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux-block
-user: axboe
+repo: pub/scm/linux/kernel/git/akpm/mm
+user: akpm
 changes:
-  - ref: refs/heads/io_uring-6.16
-    old: 2c7f023219966777be0687e15b57689894304cd3
-    new: 0f075285a4d05ecd318b555f7cec3c5e5f35e2cb
-    log: |
-         0f075285a4d05ecd318b555f7cec3c5e5f35e2cb io_uring/uring_cmd: be smarter about SQE copying
-         
+  - ref: refs/tags/mm-stable-2025-05-31-14-50
+    old: 0000000000000000000000000000000000000000
+    new: 54daa29e8270e768b01ea8a82704d20c4737de15
