@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 31 May 2025 02:21:03 -0000
-Message-Id: <174865806380.2571174.9634537031521551625@gitolite.kernel.org>
+Date: Sat, 31 May 2025 02:30:46 -0000
+Message-Id: <174865864621.2579363.12544619998180722402@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: d1a866d5530698a4be4214048c2282c7e5bfcdac
-    new: efdddc4484859082da6c7877ed144c8121c8ea55
+    old: efdddc4484859082da6c7877ed144c8121c8ea55
+    new: c1f4cb8a8d48db5c8396e1976c5b2e7922d944b9
     log: |
-         efdddc4484859082da6c7877ed144c8121c8ea55 net: dsa: tag_brcm: legacy: fix pskb_may_pull length
+         c1f4cb8a8d48db5c8396e1976c5b2e7922d944b9 net: Fix net_devmem_bind_dmabuf for non-devmem configs
          
