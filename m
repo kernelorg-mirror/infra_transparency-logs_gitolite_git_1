@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Sat, 31 May 2025 20:29:30 -0000
-Message-Id: <174872337038.3461730.1275734837895689250@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Sat, 31 May 2025 20:44:28 -0000
+Message-Id: <174872426846.3473517.8089575712262358863@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/master
-    old: c348db31ccce60f2808dd84c1f43f36a1556141a
-    new: af8ed1ebebfa55c9b3078e450d2b514bc0bf72c9
+  - ref: refs/heads/crc-pending
+    old: f735c0d600f97f2795cda03af98218c730025da3
+    new: 678ae80c56260488ed4c4b62817e2a9b3896b941
     log: |
-         d88e8c91a26150de2be19fcb776ec308e77f78a3 engines/io_uring: remove unnecessary SQ full check
-         af8ed1ebebfa55c9b3078e450d2b514bc0bf72c9 Merge branch 'opt/io_uring-sq-full-check' of https://github.com/calebsander/fio
+         678ae80c56260488ed4c4b62817e2a9b3896b941 crypto: inside-secure - remove crc32 support
          
