@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Sat, 31 May 2025 09:47:21 -0000
-Message-Id: <174868484117.2940793.13667410232152247657@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Sat, 31 May 2025 12:02:13 -0000
+Message-Id: <174869293307.3046317.3429680474257374310@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/for-next-old
-    old: 0000000000000000000000000000000000000000
-    new: 5921e9e65a299be280b56588cc2e8ab1964b076f
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 8c56bfe53bd881c7b598c54a3a06216743c57bbc
+    new: a913ef6fd883c05bd6538ed21ee1e773f0d750b7
+    log: |
+         0df14c1f1ed530ba21b603a2e282589c034367da perf lock contention: Reject more than 10ms delays for safety
+         a913ef6fd883c05bd6538ed21ee1e773f0d750b7 perf callchain: Always populate the addr_location map when adding IP
+         
