@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============1330326463785745654=="
+Content-Type: multipart/mixed; boundary="===============0162546618889829977=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 01 Jun 2025 16:03:33 -0000
-Message-Id: <174879381346.211993.16621750810779250711@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Sun, 01 Jun 2025 16:12:00 -0000
+Message-Id: <174879432015.219742.6122583283777249196@gitolite.kernel.org>
 
---===============1330326463785745654==
+--===============0162546618889829977==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
   - ref: refs/heads/master
     old: 7d4e49a77d9930c69751b9192448fda6ff9100f1
     new: bb1556ec94647060c6b52bf434b9fd824724a6f4
     log: revlist-7d4e49a77d99-bb1556ec9464.txt
 
---===============1330326463785745654==
+--===============0162546618889829977==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -73,4 +73,4 @@ f563ba4ac68a4dfdfb37baa24ff1a4f917e9ffe7 Merge tag 'parisc-for-6.16-rc1' of git:
 a2604f8d43bf414db54c42ca6ea52803ce1c0b2f Merge tag 'i3c/for-6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
 bb1556ec94647060c6b52bf434b9fd824724a6f4 Merge tag 'linux-watchdog-6.16-rc1' of git://www.linux-watchdog.org/linux-watchdog
 
---===============1330326463785745654==--
+--===============0162546618889829977==--
