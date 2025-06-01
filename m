@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/i3c/linux
-Date: Sun, 01 Jun 2025 09:12:46 -0000
-Message-Id: <174876916687.4073887.2885667799910434159@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
+Date: Sun, 01 Jun 2025 09:33:28 -0000
+Message-Id: <174877040820.4090212.18055287967653551513@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/i3c/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/ras/ras
+user: bp
 changes:
-  - ref: refs/tags/i3c/for-6.16
+  - ref: refs/tags/edac_urgent_for_v6.16_rc1
     old: 0000000000000000000000000000000000000000
-    new: cd7edb61c53c977bf71f6f74eb66b7568ee410f3
+    new: 953dfd45b6c9227ac793f2c3714059bd83650e85
