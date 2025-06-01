@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5152723298791211433=="
+Content-Type: multipart/mixed; boundary="===============8984875479955121585=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sun, 01 Jun 2025 11:59:11 -0000
-Message-Id: <174877915195.13495.8523291064108991685@gitolite.kernel.org>
+Date: Sun, 01 Jun 2025 11:59:46 -0000
+Message-Id: <174877918671.14642.5935950400715461352@gitolite.kernel.org>
 
---===============5152723298791211433==
+--===============8984875479955121585==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/docs/man-pages/man-pages
 user: alx
 changes:
-  - ref: refs/heads/master
-    old: ff69c843992d53a5a094b90cb6990069dec06cc0
-    new: 3c2e9ebe2d5ea15a47c1669f75b280cea42a6f8b
-    log: revlist-ff69c843992d-3c2e9ebe2d5e.txt
+  - ref: refs/heads/posix24
+    old: 2b57b9cacf2467d3bd604172d2c4003bd34a313d
+    new: ffb0d0fe5aaaa4c15bf5fc8b2ff3f5e8048c015d
+    log: revlist-2b57b9cacf24-ffb0d0fe5aaa.txt
 
---===============5152723298791211433==
+--===============8984875479955121585==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ff69c843992d-3c2e9ebe2d5e.txt
+Content-Disposition: attachment; filename=revlist-2b57b9cacf24-ffb0d0fe5aaa.txt
 
-125f3b3c3ee3b99f94e08214f610bde06a9bb754 man/man2/syscall.2: x86-64 + x32 syscall numbers go in eax
 3d4b940c7c2ff8ad1ced8d109435a522620f4d1b man/man5/proc_meminfo.5: Shmem also accounts for other types of shared memory
 74aa7971e5148f67d5def9977ed87cced638016a man/man2/futex.2: tfix
 0ee8ef52fdb32cd1a54a781a1987291e22f010b1 man/man2/futex.2: wfix
@@ -67,5 +66,18 @@ e8b597ea7957a3ad0de84a675b129b5c0ce94794 man/man2/futex.2: Tweak after making sa
 dce426993ba8f5f549b0ea8fb872ed942b099509 man/man2/mbind.2: SYNOPSIS: ffix
 3f727aab6e5f29e756ce9f7a89019869c7b07c61 man/: Fix name of /proc/sys/vm/hugetlb_shm_group
 3c2e9ebe2d5ea15a47c1669f75b280cea42a6f8b man/man2/: Fix broken references to proc_sys_vm(5)
+53ee8981b37fa4e25f65d5be134f2dde25fe9098 man/man2/: Fix STANDARDS and HISTORY
+a1af7033d459dc9a6b6171a05962f40c32b451c5 man/man2/socket.2: VERSIONS: POSIX.1-2024 specifies SOCK_CLOFORK, but Linux doesn't support it
+f79ff4543137268831a12616d2f276336f5dcea4 man/man2/close.2: Move part of NOTES into a new CAVEATS section
+ac4478cbfb27275e7a98768f75573918ced78d87 man/man2/close.2: CAVEATS: Document divergence from POSIX.1-2024
+fc9c43adf2ad39c59d830a46560fd353412e3e2c man/man7/pathname.7: VERSIONS: Linux doesn't disallow new-line characters
+f8bb276b40b66ff7a69407711b7d8ecd7894e4aa man/man3/_Fork.3: Document _Fork()
+b67abf31ab51f8597d15e5d0a45d79017d31f23d man/: Update fork(2) for POSIX.1-2024, and add references to _Fork(3)
+0257a617c3bc48d1e0be793d1fb83cc6c6c94946 man/man2/open.2: Simplify STANDARDS, and move part of it to HISTORY
+eeebf5ae0312adb729c04b70436d8f3491c66bc6 man/man2/: STANDARDS: Update system calls for POSIX.1-2024
+dfb5faef4acb5511e74cc1aebccb697862468f64 man/man3/ptsname.3: Mention ptsname_r() was standardized in POSIX-1.2024
+dfd48415f016db8eddb02cff15a88e720b6e4457 man/man7/signal.7: Mention SIGWINCH was standardized in POSIX-1.2024
+6fa3b9df3146f53940f02da60d18b75de1eeef01 man/man3/getenv.3: Mention secure_getenv() was standardized in POSIX-1.2024
+ffb0d0fe5aaaa4c15bf5fc8b2ff3f5e8048c015d man/man3*/: STANDARDS: Update APIs for POSIX.1-2024
 
---===============5152723298791211433==--
+--===============8984875479955121585==--
