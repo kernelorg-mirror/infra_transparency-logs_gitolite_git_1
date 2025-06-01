@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============6131473561609352840=="
+Content-Type: multipart/mixed; boundary="===============4041705517554004386=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sun, 01 Jun 2025 17:55:21 -0000
-Message-Id: <174880052161.303841.6897591237992113785@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Sun, 01 Jun 2025 17:55:49 -0000
+Message-Id: <174880054997.304223.15301532489388535303@gitolite.kernel.org>
 
---===============6131473561609352840==
+--===============4041705517554004386==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
+repo: pub/scm/linux/kernel/git/bpf/bpf
 user: ast
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/master
     old: 90b83efa6701656e02c86e7df2cb1765ea602d07
     new: bb1556ec94647060c6b52bf434b9fd824724a6f4
     log: revlist-90b83efa6701-bb1556ec9464.txt
 
---===============6131473561609352840==
+--===============4041705517554004386==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f563ba4ac68a4dfdfb37baa24ff1a4f917e9ffe7 Merge tag 'parisc-for-6.16-rc1' of git:
 a2604f8d43bf414db54c42ca6ea52803ce1c0b2f Merge tag 'i3c/for-6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
 bb1556ec94647060c6b52bf434b9fd824724a6f4 Merge tag 'linux-watchdog-6.16-rc1' of git://www.linux-watchdog.org/linux-watchdog
 
---===============6131473561609352840==--
+--===============4041705517554004386==--
