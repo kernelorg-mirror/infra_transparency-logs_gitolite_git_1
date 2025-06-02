@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Mon, 02 Jun 2025 00:31:58 -0000
-Message-Id: <174882431878.623094.7122979653632260300@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Mon, 02 Jun 2025 00:41:04 -0000
+Message-Id: <174882486438.630966.7789864590381429934@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/master
-    old: baa39c169dd526cb0186187fc44ec462266efcc6
-    new: 5b3beac3c379c766f332a3f5fc6e8a0026b5a864
+  - ref: refs/heads/fixes
+    old: e996df6a6f20cb1a7f651de5fa3b0ccf14f4c0cd
+    new: c65091afa53a500c7c901346c5950cedd8e6c672
     log: |
-         ba73c1ca1e1dfd75e882b549e838f8c6bfdc951a Revert "perf: Only dump the throttle log for the leader"
-         5b3beac3c379c766f332a3f5fc6e8a0026b5a864 Revert "perf: Fix the throttle logic for a group"
+         beb186507d01f8e40d1b7f8b1b9ae91da2d347ae path_overmount(): avoid false negatives
+         2308aac86297c9b1cbbd28d0513a63e42bd0a116 finish_automount(): don't leak MNT_LOCKED from parent to child
+         c65091afa53a500c7c901346c5950cedd8e6c672 fs: allow clone_private_mount() for a path on real rootfs
          
