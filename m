@@ -1,49 +1,37 @@
-Content-Type: multipart/mixed; boundary="===============3471520045001579680=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/alexghiti/linux
-Date: Mon, 02 Jun 2025 11:53:44 -0000
-Message-Id: <174886522461.1191318.1121566020021286778@gitolite.kernel.org>
-
---===============3471520045001579680==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Mon, 02 Jun 2025 12:03:39 -0000
+Message-Id: <174886581971.1200004.18443626643582744744@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/alexghiti/linux
-user: alexghiti
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/alex-for-next-sbi-3.0-rebase-6.15-rc6
-    old: e6f3705dbbbc8e6e88fcafc462b48a5849e3a7cf
-    new: 4be5ca2f9778b5daddce1c79f641819c033fe416
-    log: revlist-e6f3705dbbbc-4be5ca2f9778.txt
-
---===============3471520045001579680==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e6f3705dbbbc-4be5ca2f9778.txt
-
-4d1cc9794eee38cee2d2b39c43e4dcddcc831640 riscv/shstk: If needed allocate a new shadow stack on clone
-2be26562260f444188e2b0f79b7ea0b0750aed0c riscv: Implements arch agnostic shadow stack prctls
-62e67ad301baa5c4766b675e3fe39a1019383468 prctl: arch-agnostic prctl for indirect branch tracking
-5539b35652a54d9bc6c419e30e122258d2836807 riscv: Implements arch agnostic indirect branch tracking prctls
-22c470e2bd3424a0df9d106ccd516e6135f104e0 riscv/traps: Introduce software check exception
-95263cf994d11a4f4fabfd6d7eeb67ad86df2e12 riscv: signal: abstract header saving for setup_sigcontext
-0d62ce89522422e0de6a7689b3f153d418574e44 riscv/signal: save and restore of shadow stack for signal
-faea05a89a8abffd74e4e6879d68f16df9daf45d riscv/kernel: update __show_regs to print shadow stack register
-678f38e1a52863dd701a4ba068de14eac65950d6 riscv/ptrace: riscv cfi status and state via ptrace and in core files
-232dcd08d3a56c142180c26d09071af138fb4477 riscv/hwprobe: zicfilp / zicfiss enumeration in hwprobe
-5bfc64354cab75ee9c722aad97ef5d1b9bb9c61d riscv: kernel command line option to opt out of user cfi
-325bea3b80257223384646043c9132ec1106accc riscv: enable kernel access to shadow stack memory via FWFT sbi call
-a7a1e8727ed17b2b6b3a2acff935e40be7be7bb3 arch/riscv: compile vdso with landing pad
-b8d155a35e2f60994e1a5ece809a25bd1fc206c0 riscv: create a config for shadow stack and landing pad instr support
-39358436a20566e8ca55dd79a4ab1e847346da70 riscv: Documentation for landing pad / indirect branch tracking
-b48ee5552203efc704d466500be75aa75fdadf0f riscv: Documentation for shadow stack on riscv
-c3233bf84199212b41f8a884786bcda35aaf5fcd kselftest/riscv: kselftest for user mode cfi
-0a22b172c1ca692f2189456d95650f7b971e8954 Merge patch series "riscv control-flow integrity for usermode"
-4be5ca2f9778b5daddce1c79f641819c033fe416 riscv: traps: handle uprobe event in software-check exception
-
---===============3471520045001579680==--
+  - ref: refs/heads/master
+    old: e4071d496fdbd8b2f1ae8d44a19888f8bbd60f5e
+    new: 35128888075ade600413092214b62acf3601ead9
+    log: |
+         42b60bce24536266869e512e43ad5be460dad399 lib/colors: call gettext() only when the argument of --color is invalid
+         8a2c604c1b95e344aec9a9c766c31877674d2085 lib/strutils: call gettext() only when argument of --hyperlink is invalid
+         078b3fb834d77af566be4c636058d9104cb94a4a colrm: make two error messages actually say that something is wrong
+         46608e3d7e8ca309589d0321bf911e19c7d26dd3 textual: harmonize the wording of the error message for an invalid PID
+         36965bbfb36328e80e3511a11b85b63e8a41d998 add option to force cachestat() usage
+         3185ca414a46fc718fa363f7e9a8d45a650aa243 fix typo: exciting -> existing
+         a9a298ca7e3bfff568b1d0e4958bd0aa47b8459a libblkid: Add scoutfs filesystem.
+         f544f59b7d2dcc3bb2ad8fcdf38bd6e815ec7068 Merge branch 'existing' of https://github.com/teknoraver/util-linux
+         55d92ad4511d982dd0ef754a6aea2e665a616bad Merge branch 'PR/Benno-28May' of https://github.com/karelzak/util-linux-work
+         35128888075ade600413092214b62acf3601ead9 Merge branch 'cachestat' of https://github.com/teknoraver/util-linux
+         
+  - ref: refs/heads/stable/v2.41
+    old: 22b91501d30a65d25ecf48ce5169ec70848117b8
+    new: f1f7a1cbfb40f6f8b7bc15bd1a9680e1022df461
+    log: |
+         6b8aea8c6a17a0e45d8308136ab74a8517225d7a treewide: add ul_ to parse_range() function name
+         b041bc9647fc116454005f5acd89654c1b0ab76e treewide: add ul_ to parse_size() function name
+         96895a40c015af1adc81d1ef390a0fea9b083959 treewide: add ul_ to parse_switch() function name
+         f1f7a1cbfb40f6f8b7bc15bd1a9680e1022df461 treewide: add ul_ to parse_timestamp() function name
+         
