@@ -1,27 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 02 Jun 2025 15:49:55 -0000
-Message-Id: <174887939556.1409043.13810876322034837030@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/superm1/amd-debug-tools
+Date: Mon, 02 Jun 2025 15:50:27 -0000
+Message-Id: <174887942797.1411127.15114276013194019695@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/superm1/amd-debug-tools
+user: superm1
 changes:
-  - ref: refs/heads/for-linus
-    old: d5114213920ea82259bbb38dba20740278590dad
-    new: e65938d2ac2914f6f455bc5b93c8ea1e0ea0ae69
+  - ref: refs/heads/master
+    old: 3fc9628219b390c51240e9f683d99c572b32e144
+    new: 0e377f1fc10965fb4ed9f420fee8926ddd950d29
     log: |
-         57cf46cd1fe351846e1b065ca9546eef66675ecd spi: spi-qpic-snand: document the limited bit error reporting capability
-         e65938d2ac2914f6f455bc5b93c8ea1e0ea0ae69 Merge remote-tracking branch 'spi/for-6.15' into spi-linus
-         
-  - ref: refs/heads/for-next
-    old: d5114213920ea82259bbb38dba20740278590dad
-    new: e65938d2ac2914f6f455bc5b93c8ea1e0ea0ae69
-    log: |
-         57cf46cd1fe351846e1b065ca9546eef66675ecd spi: spi-qpic-snand: document the limited bit error reporting capability
-         e65938d2ac2914f6f455bc5b93c8ea1e0ea0ae69 Merge remote-tracking branch 'spi/for-6.15' into spi-linus
+         0e377f1fc10965fb4ed9f420fee8926ddd950d29 trivial: filter some more things from /proc/cmdline
          
