@@ -1,26 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Mon, 02 Jun 2025 18:03:48 -0000
-Message-Id: <174888742829.1524919.1829660606849720364@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4518572041240208217=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Mon, 02 Jun 2025 18:05:44 -0000
+Message-Id: <174888754449.1528147.3250432794545252415@gitolite.kernel.org>
+
+--===============4518572041240208217==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/sched/scx-dlserver-boost-rebase
-    old: 6f358e144fe1bddc897cdca986df50d4775bef85
-    new: 267149e0fca0c5c418b04cd8e908605bbcba4abf
+  - ref: refs/heads/for-linus/hardening
+    old: f39f18f3c3531aa802b58a20d39d96e82eb96c14
+    new: c50b612bef5187fa00b3846a2092f37f6115695a
     log: |
-         709ccc03ae14ce47d4c1050e6606e4323a7de373 sched/ext: Add a DL server for sched_ext tasks
-         c375196d4fc88ad89872c88effc863d344b28bff sched/debug: Fix updating of ppos on server write ops
-         2f00150673737078ed20bbcd98a0dda4f9a77309 sched/debug: Stop and start server based on if it was active
-         db3b1cf42ba76d42d21ceb19ca38e79bafe3b6f0 sched/debug: Add support to change sched_ext server params
-         e5b0e26b005bc5675761e8d6b71929bd9c49b089 sched/deadline: Clear the defer params
-         6a97780aff2fd920955b1b766d0adee523221376 sched/deadline: Add support to remove DL server bandwidth
-         f51840d49893adde04f0cd9a1e871241bb382b88 sched/ext: Relinquish DL server reservations when not needed
-         267149e0fca0c5c418b04cd8e908605bbcba4abf selftests/sched_ext: Add test for sched_ext dl_server
+         c50b612bef5187fa00b3846a2092f37f6115695a ubsan: Fix incorrect hand-side used in handle
          
+
+--===============4518572041240208217==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1748887577 -0700
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
+nonce 1748887530-f5db0082a2fcb5e9dfc507530b76d5a79790183b
+
+f39f18f3c3531aa802b58a20d39d96e82eb96c14 c50b612bef5187fa00b3846a2092f37f6115695a refs/heads/for-linus/hardening
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCaD3oGQAKCRA2KwveOeQk
+u85lAP9Q56qymHLLXhfQDt5OyUn8QS+942oINC7eFKBTaQwBZwD/S5ExO8sBpYBL
+6KvbnBhnV7qQKTLJT89UyZgEniJXnQI=
+=kEJa
+-----END PGP SIGNATURE-----
+
+--===============4518572041240208217==--
