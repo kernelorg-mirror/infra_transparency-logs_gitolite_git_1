@@ -1,27 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 02 Jun 2025 15:50:40 -0000
-Message-Id: <174887944055.1411710.18206770676873680943@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Mon, 02 Jun 2025 15:59:35 -0000
+Message-Id: <174887997556.1417791.13591522987958692205@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/asoc-6.16
-    old: bae071aa7bcd034054cec91666c80f812adeccd9
-    new: b3f3ca04ec3f0587b92fcffa4d581e73b335701a
+  - ref: refs/heads/dev-test
+    old: 9883494c45a13dc88d27dde4f988c04823b42a2f
+    new: b06026cc914999944ce594184e0e6fe671884ab7
     log: |
-         ff0045de4ee0288dec683690f66f2f369b7d3466 ASoC: codecs: hda: Fix RPM usage count underflow
-         9ad1f3cd0d60444c69948854c7e50d2a61b63755 ASoC: Intel: avs: Fix deadlock when the failing IPC is SET_D0IX
-         347c8d6db7c9d65d93ef226849b273823f54eaea ASoC: Intel: avs: Fix PPLCxFMT calculation
-         2f78724d4f0c665c83e202e3989d5333a2cb1036 ASoC: Intel: avs: Fix possible null-ptr-deref when initing hw
-         9e3285be55e6c0829e451b4a341e3059da47ec9d ASoC: Intel: avs: Fix paths in MODULE_FIRMWARE hints
-         5f342aeee2724d31046172eb5caab8e0e8afd57d ASoC: Intel: avs: Verify kcalloc() status when setting constraints
-         93e246b6769bdacb09cfff4ea0f00fe5ab4f0d7a ASoC: Intel: avs: Verify content returned by parse_int_array()
-         38b1befc7a35a475d90ec32bfbe319f4412880a1 ASoC: Intel: avs: Include missing string.h
-         b3f3ca04ec3f0587b92fcffa4d581e73b335701a ASoC: Intel: avs: Set of functional fixes
+         8a2cfa3c9a4856dbe68d24c5ef066fdab235cf9e f2fs: fix to zero post-eof page
+         58750b6ae458044c7826156ed0f50a79e102d7c4 f2fs: Fix __write_node_folio() conversion
+         07ed3e49caaf3b1cc2673ac8b63eb4da1810b929 f2fs: make sure zoned device GC to use FG_GC in shortage of free section
+         e1cb127882991d2861871132f14ea3fd8ffe89c8 f2fs: Add fs parameter specifications for mount options
+         6f115a4b1098faffb19ef0e12191291a09473461 f2fs: move the option parser into handle_mount_opt
+         e21119b8e50f0da35247ddcccea671848446b829 f2fs: Allow sbi to be NULL in f2fs_printk
+         522c4059e6b2eead077779b2604677d81389e772 f2fs: Add f2fs_fs_context to record the mount options
+         6b1ba265198cb6b9c9f6ba9f786ae0e96af3862b f2fs: separate the options parsing and options checking
+         8f5d8411ca6c6b538a9d24ff472cfbd247d3faeb f2fs: introduce fs_context_operation structure
+         b06026cc914999944ce594184e0e6fe671884ab7 f2fs: switch to the new mount api
          
