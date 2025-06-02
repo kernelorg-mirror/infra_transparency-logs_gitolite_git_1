@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6455314675318497973=="
+Content-Type: multipart/mixed; boundary="===============3471520045001579680=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/alexghiti/linux
-Date: Mon, 02 Jun 2025 11:53:36 -0000
-Message-Id: <174886521619.1190878.9173862587809049791@gitolite.kernel.org>
+Date: Mon, 02 Jun 2025 11:53:44 -0000
+Message-Id: <174886522461.1191318.1121566020021286778@gitolite.kernel.org>
 
---===============6455314675318497973==
+--===============3471520045001579680==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/alexghiti/linux
 user: alexghiti
 changes:
-  - ref: refs/tags/riscv-mw3-6.16-rc1
-    old: 23d55771ad2275729c68a5aab042ad17155acd18
-    new: 87ecf7ce18e17e9566d0c9d7fcca1f87c16bb295
-    log: revlist-23d55771ad22-87ecf7ce18e1.txt
+  - ref: refs/heads/alex-for-next-sbi-3.0-rebase-6.15-rc6
+    old: e6f3705dbbbc8e6e88fcafc462b48a5849e3a7cf
+    new: 4be5ca2f9778b5daddce1c79f641819c033fe416
+    log: revlist-e6f3705dbbbc-4be5ca2f9778.txt
 
---===============6455314675318497973==
+--===============3471520045001579680==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-23d55771ad22-87ecf7ce18e1.txt
+Content-Disposition: attachment; filename=revlist-e6f3705dbbbc-4be5ca2f9778.txt
 
 4d1cc9794eee38cee2d2b39c43e4dcddcc831640 riscv/shstk: If needed allocate a new shadow stack on clone
 2be26562260f444188e2b0f79b7ea0b0750aed0c riscv: Implements arch agnostic shadow stack prctls
@@ -46,4 +46,4 @@ c3233bf84199212b41f8a884786bcda35aaf5fcd kselftest/riscv: kselftest for user mod
 0a22b172c1ca692f2189456d95650f7b971e8954 Merge patch series "riscv control-flow integrity for usermode"
 4be5ca2f9778b5daddce1c79f641819c033fe416 riscv: traps: handle uprobe event in software-check exception
 
---===============6455314675318497973==--
+--===============3471520045001579680==--
