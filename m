@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1241965930783780814=="
+Content-Type: multipart/mixed; boundary="===============5606154838206186795=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Mon, 02 Jun 2025 18:59:55 -0000
-Message-Id: <174889079565.1571248.13184968441102601634@gitolite.kernel.org>
+Date: Mon, 02 Jun 2025 19:00:00 -0000
+Message-Id: <174889080020.1571529.13370966100803861169@gitolite.kernel.org>
 
---===============1241965930783780814==
+--===============5606154838206186795==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 6200da0c69a8b636623017e9520ff18ea64c3c08
-    new: ce327097ebcbb52d8e399fc47c1a33a57c7e42eb
+  - ref: refs/heads/6.16/scsi-queue
+    old: fd2963e729ed69ced422c230a3f70fa6d5a5ce25
+    new: 7831003165d37ecb7b33843fcee05cada0359a82
     log: |
          e97633492f5a3eca7b3ff03b4ef6f993017f7955 scsi: ufs: core: Don't perform UFS clkscaling during host async scan
          c8426f258a0aa4c2fa0fb87806b73592b03dacac scsi: core: devinfo: Fix typo in comment
@@ -29,33 +29,33 @@ changes:
          7831003165d37ecb7b33843fcee05cada0359a82 scsi: ufs: qcom: Prevent calling phy_exit() before phy_init()
          
 
---===============1241965930783780814==
+--===============5606154838206186795==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1748890764 -0400
+pusher 75C5DE3D 1748890833 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1748890729-ff897050a08c8bedf7a0a2dc1c085c2f1c0c03f4
+nonce 1748890798-ce686614b7790a2bb2a823f4a6f44c162cfac950
 
-6200da0c69a8b636623017e9520ff18ea64c3c08 ce327097ebcbb52d8e399fc47c1a33a57c7e42eb refs/tags/mkp-scsi-queue
+fd2963e729ed69ced422c230a3f70fa6d5a5ce25 7831003165d37ecb7b33843fcee05cada0359a82 refs/heads/6.16/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmg99IwACgkQ7ulgGnXF
-3j0d9w//dcBLVSCvEDmXsT4XuIMxHdyK2VsKoZcY/UfTrvpRFoehGN03udaOYdFX
-GCbD8JSQ+B90SKzQ/A/YHjZeViG/otDtqJVUACFJcygWiRlUtCQLZ0Jhi21QnI5R
-TpGSCG5NNwP+AjRzaM54TblSd96Map1c+crOhmNfmQrL2Rgn9sYzc6F4lL2NRdzU
-ozYJi9Yv6AZ7fQhSliPW9lt+lLoXfTX1CVtCIVfOcx8cJhBDSZ8CTK7lflMhi/O5
-BEXSJoYdRAUE6GGQek+LW0SZwrADP2/7gWiFnHpes0knWbXV4EWWorY57Gv/rww/
-x3b8lDHpXsZ4Utl0kgvQZEbFrvUX73qzhBLayvOHfuUCWos0OgK0fVcBDTrinbNj
-Lxq5lA04H0qCePVLcPaE9YxyS/ms81uadOD0MkLMzAcS0RA2Aeo/IgU0f5vKDvLE
-6fnH01dGd+3e25DjFqafbNFxYV+iJrzSIAL5Vx232Chc5XOGKtG2CEd6Kad6a9UG
-UPNQXWAGQokVHToCCWYyKIcDupMc8SoF6N3loT72xnPw+FfX86cNd+q2hbf8ie7M
-sMAiQReb3mHyV8KNcPmJ80VxKKKjA5yTYi2EaX5FqwoQv+T8QBtDAPhc1HTzrqk4
-TFmsQgzrMp5b2BZQ0DcmP48q8QGumZB6MWL44qIUfnlUi86NIKo=
-=GwP5
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmg99NEACgkQ7ulgGnXF
+3j0k7hAAhDivZMVhfGbQVIuesqZSGz6yxe9Wf4VLocevfA5vqcSBt6PvRknVXR2F
+relx9fGps5wWcovMZQvwtz69gcZcmpasHng7f80H/d2po2dd4LhIvgaf+SFy1LGW
+pafUCG30FhLdgNQgh4EtjS4Z0I4yIO41/T5AL0adMpLegHx1hMCKuXHu+ghJf/N4
+w+8xX4EvadbCjmBRkxV9o0SD65nz4mi5OdkC10JMURPQUZB044kvRY+DRXlMXQKk
+K0/nXmFF5QYeWxh/4ry/SIUvkXIwfwH48q8HQ3De7Ys6ickW5d7BvWDvTQhN3vuk
+4h+p2zWLiSlDgv6Ukx+H7xixNkPJUYT+RAkUGdztckPLFLMhKt3I0LBjgftUxqtP
+LSOg/gcw/7cmoAvpaSj+Y3GWojMq68emgWJpzdbGoUOMvp+3dqq8bFNSUyYIKQbS
+8uWn/nTdSV1Rn04wEb9Mn2+4Wvek+yU5sgYlyJr1A8Vqjy7sR+uAZXf5rBd6jwB3
+Ggez4shyfg6ekIl0i67opgjKadoDnzuuJE/yeo9uXeRtxxYsYLD2wJgCi4mI7iNq
+ICcptbKb9Xng+I9xLjJoK+qCkoMGkDnfls9aDT8nFZUVkvRLy9Mijj+7fy4MPWws
++Gt40PRxcRrRKVtCf6YfsMUyr1kHCGiCyQ2nvfNe396fV6Vn6mM=
+=P1Pk
 -----END PGP SIGNATURE-----
 
---===============1241965930783780814==--
+--===============5606154838206186795==--
