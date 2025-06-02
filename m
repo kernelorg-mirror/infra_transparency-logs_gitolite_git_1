@@ -1,70 +1,97 @@
-Content-Type: multipart/mixed; boundary="===============5807977566162107934=="
+Content-Type: multipart/mixed; boundary="===============7064140593094903719=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Mon, 02 Jun 2025 13:03:16 -0000
-Message-Id: <174886939604.1258855.1398304063509916405@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
+Date: Mon, 02 Jun 2025 13:05:24 -0000
+Message-Id: <174886952494.1262193.1246273533597601453@gitolite.kernel.org>
 
---===============5807977566162107934==
+--===============7064140593094903719==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/utils/cryptsetup/cryptsetup
+user: mbroz
 changes:
-  - ref: refs/heads/kdevops
-    old: 3fc5d2a33664480beeaa3f56d860d61d2b0a775e
-    new: 0e8ebd7f7c0c3e07779e7eff9f48a946df3cb9be
-    log: revlist-3fc5d2a33664-0e8ebd7f7c0c.txt
+  - ref: refs/heads/main
+    old: c3414b8221910a6054e77376dcb06dfe866df5b5
+    new: b81c84bd8f9a9d1e252d92034382ec950912e610
+    log: |
+         5b3ff3c0a7f69b641d2860e7f3f1f9a9b88dbdd0 Explicitly disallow capi format for LUKS2 keyslot encryption
+         e136a0a40af36c3a5adb0c8bd4ddde8778b48a89 Support capi format in crypt_storage wrapper.
+         bd03054c38fc0121ee76f732b7211cbac5046c97 tests: Add capi LUKS1 non-root test.
+         21e0680abf1095045aac70195cfa5d3f8c8f6a5f Disallow conversion to LUKS1 if capi string is specified.
+         8d7ee840066a9f3eaf21c0a1d2c8bd3886b2b27b tests: Silence repair warning on intentionally wiped image
+         b81c84bd8f9a9d1e252d92034382ec950912e610 Do not allow null cipher for LUKS2 keyslot even in conversion.
+         
+  - ref: refs/heads/master
+    old: c3414b8221910a6054e77376dcb06dfe866df5b5
+    new: b81c84bd8f9a9d1e252d92034382ec950912e610
+    log: |
+         5b3ff3c0a7f69b641d2860e7f3f1f9a9b88dbdd0 Explicitly disallow capi format for LUKS2 keyslot encryption
+         e136a0a40af36c3a5adb0c8bd4ddde8778b48a89 Support capi format in crypt_storage wrapper.
+         bd03054c38fc0121ee76f732b7211cbac5046c97 tests: Add capi LUKS1 non-root test.
+         21e0680abf1095045aac70195cfa5d3f8c8f6a5f Disallow conversion to LUKS1 if capi string is specified.
+         8d7ee840066a9f3eaf21c0a1d2c8bd3886b2b27b tests: Silence repair warning on intentionally wiped image
+         b81c84bd8f9a9d1e252d92034382ec950912e610 Do not allow null cipher for LUKS2 keyslot even in conversion.
+         
+  - ref: refs/merge-requests/693/merge
+    old: f9978356757552248d2238ad1f7ee0c54dcdc2fd
+    new: 69a31a0a603c64ca00ed58047a1bb227f13eb9f8
+    log: |
+         55c44cd3fd333cd18039f658adcd72eb8e2a62b6 Fix warning for hidden global variable
+         949c4ad0f1eb15efde33bf677dd3a1aa2928b8ef tests: Fix typo in test key definition.
+         9f8667922c88e38be026225126a5d856be095540 tests: Fix length of decoded key
+         c3414b8221910a6054e77376dcb06dfe866df5b5 tests: detect failure of crypt_decode_key
+         69a31a0a603c64ca00ed58047a1bb227f13eb9f8 Merge branch 'integrity-phmac' into 'main'
+         
+  - ref: refs/merge-requests/738/merge
+    old: a9773bae64e814922b1ace84efb9f24612f61f55
+    new: 9917bff1d32446330fe534d720735d80e8fe7d10
+    log: revlist-a9773bae64e8-9917bff1d324.txt
+  - ref: refs/merge-requests/805/head
+    old: 0000000000000000000000000000000000000000
+    new: b81c84bd8f9a9d1e252d92034382ec950912e610
+  - ref: refs/merge-requests/805/merge
+    old: 0000000000000000000000000000000000000000
+    new: 75071b399a4d90d1bf180927202ca14e6456b834
+  - ref: refs/merge-requests/806/head
+    old: 0000000000000000000000000000000000000000
+    new: a910e92f91cb268e1e4cc8227a51d01be276f19b
+  - ref: refs/merge-requests/806/merge
+    old: 0000000000000000000000000000000000000000
+    new: 7b4beabe27c8a66272205954f2815542274fdf87
 
---===============5807977566162107934==
+--===============7064140593094903719==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3fc5d2a33664-0e8ebd7f7c0c.txt
+Content-Disposition: attachment; filename=revlist-a9773bae64e8-9917bff1d324.txt
 
-2606e23609ed11c08905cc23a4ecc8ee34bab528 NFSD: Avoid corruption of a referring call list
-106418a2c0cf42e45520a58803c2a488367453cd NFSD: Offer write delegation for OPEN with OPEN4_SHARE_ACCESS_WRITE
-0a73dee16388ce7b63c9c583dc974e405e3bcc01 NFSD: release read access of nfs4_file when a write delegation is returned
-767d6ca6eb5944a2254b00f8dd2001bc0dbef6e4 sunrpc: simplify xdr_init_encode_pages
-36f57f9f65557b2fc79852df19648e5f75540f0e sunrpc: simplify xdr_partial_copy_from_skb
-95f389f70e49de62b570374254d1736df3480d37 sunrpc: unexport csum_partial_copy_to_xdr
-901218eec3b10a773edcdca717dfe5bedde03f46 nfsd: Replace simple_strtoul with kstrtoint in expkey_parse
-b2a9a114a3c7f5abfa2875b70ce9b73525a74291 nfsd: use threads array as-is in netlink interface
-8ac1229eb006f2f7d862aa9bfaa3e2988181a893 sunrpc: new tracepoints around svc thread wakeups
-042d8a734a56caedff64661ef0ce90c5f2fd27da siw: Enable try_gso
-22b71eb34051a70c39c86997657de92722ec1838 Merge branch 'mrchuck/nfsd-testing'
-4eee80a4f8dc431bd5b7beb96dbabff6c6e961ac vfs, nfsd, nfs: implement directory delegations
-b178e40dd2a0cb543984ae1d1262578c1fd58cf8 filelock: push the S_ISREG check down to ->setlease handlers
-87696dee8728987929db855ee49d54c5e30b3b64 filelock: add a lm_may_setlease lease_manager callback
-d01d92d92485c4c2b441d4d9d34a7b9df85cb571 vfs: add try_break_deleg calls for parents to vfs_{link,rename,unlink}
-3ec28e430eef31876ff9de2eec5f99e8d2bce884 vfs: allow mkdir to wait for delegation break on parent
-8dd9cac248b3880baf1df82fac76451043f8ccb3 vfs: allow rmdir to wait for delegation break on parent
-ede5d04fb722057acfd99ec92b3101f78588a4ae vfs: break parent dir delegations in open(..., O_CREAT) codepath
-ee03a88086341ef036d84cb5b4d16f55d4f47c65 vfs: make vfs_create break delegations on parent directory
-966cc7dc3ddb9cbf6c2d05f54673231e9c8ea8ac vfs: make vfs_mknod break delegations on parent directory
-3c9589c927948480599df283dd3d4745a2e4ee44 filelock: lift the ban on directory leases in generic_setlease
-b5884b85741e0753fd1c96c9ea583ff7e1420956 nfsd: allow filecache to hold S_IFDIR files
-434c10ed2fc75399a849631f280ac39127e000f0 nfsd: allow DELEGRETURN on directories
-227f2b7353b8e87bfeea97598a268d1913d96a54 nfsd: check for delegation conflicts vs. the same client
-b6a48754ca26b078f96f25d3d25182f2d803bcc0 nfsd: wire up GET_DIR_DELEGATION handling
-ab93c29ebaa59f68dd04e48299118ae033396fc1 filelock: rework the __break_lease API to use flags
-01c4214141cff857d57a76d972796c5f97aad4b8 filelock: add struct delegated_inode
-f71389146d0d3565050921f212493fd8a85a44a7 filelock: add support for ignoring deleg breaks for dir change events
-b8865a1c63700c5596616019c893d75689fba515 filelock: add an inode_lease_ignore_mask helper
-fb00f1c136fb921c8be3f06d0854f9eb8fc67f2c nfsd: add protocol support for CB_NOTIFY
-0b3201418ce26b7bc0d659057b606b578f0c16fe nfsd: add callback encoding and decoding linkages for CB_NOTIFY
-9f24aee510ae9a46d04ca6c9d24c93886a21b9df nfsd: add data structures for handling CB_NOTIFY to directory delegation
-a261b77ac2bf8cccf7d64eb23fae99b2d4bfdea6 fsnotify: export fsnotify_recalc_mask()
-3944e8b29c9c99743deffeee8ea1f295cffec16b nfsd: update the fsnotify mark when setting or removing a dir delegation
-bde3910f179fc36bc13146c1a1b75f55b2f89ab5 nfsd: make nfsd4_callback_ops->prepare operation bool return
-12b729c9bc1bf0d1e3b18e06a4fb65a0e0543a1f nfsd: add notification handlers for dir events
-96041f364ea954658c89b49cd9af63ecc3dc4a0e nfsd: allow nfsd to get a dir lease with an ignore mask
-fb6fd4654d992e5ded46958b6ace6503df67f85e nfsd: add a tracepoint for nfsd_file_fsnotify_handle_dir_event()
-5810140ab5e724d6df5d41fb9b3c00c8e90ca518 nfsd: add support for NOTIFY4_ADD_ENTRY events
-0e8ebd7f7c0c3e07779e7eff9f48a946df3cb9be nfsd: add support for NOTIFY4_RENAME_ENTRY events
+cbf6fa9d07a7d9c4180ce54c79724176e256fcfb Fix external slot checker to work with LUKS2.
+4fd3db5e9388f052c4a8c3ebb5830938d3f2fe47 Fix cryptsetup repair to use header device and UUID spec.
+f5bbc499d42180b04988bc52ee14105408ff6b32 Move LUKS_STRIPES definition to macros definitions.
+f29337aa9fa7d7ad3ea21546ec351543efa30c08 Define opaques crypt_device struct in local header.
+6b832b8d030ea98e0a00f490f6990de02282ad7f Add keyslot check code.
+e6f6ee9291c042c58dd66cb0bf00f302b9275fbf Do not allow PBKDF benchmark over maximum allowed threads.
+880bbfab4d1c355f14edc865e776c139494bed7e Use free physical memory check for pbkdf only on small systems.
+12eb04094304467232348e99df0fbf95074d35b3 Create dm-integrity with CRYPT_SUBDEV prefix.
+cf630f578d84e9e9af51a7416df1914f28b19378 Create underlying TCRYPT devices with CRYPT_SUBDEV prefix.
+19d67d3c62f65c0e1ba3dc51dfd8664157bc7270 Fix integer and double types in keyslot checker.
+ccf7d6b1979bf3e7365256158e91d4f95cc023d2 tests: Do not use --key-size for --hw-opal-only format
+5755f210ac0e417a66d9a657b0775a6a19e59f58 doc: Do not wrap line for packages list and suggest netcat-openbsd for Debian.
+5a2ca129b9d551301a99db2fb4aae9ff07992961 tests: Fix interactive query
+f3557f0765869a353594f52a73e73f742a17d4cc find_key_by_type_and_desc must return 0 on error.
+c735c71ca10eded43a59f7eb9fbd0e4147a4c07c keyring_find_key_id_by_name does not return negative values on error.
+b6f43890f228862941611699406b370e442ea5c8 Add better errno hint in debug message.
+a6c9c28208ac3265ce354d4ec94dd47ce15abae0 Return -EINVAL if keyslot context can not access keyring key.
+ca7c4c8b15c63bce75629a36201ea51695379531 test: Fix KeyslotContextAndKeyringLink test
+55c44cd3fd333cd18039f658adcd72eb8e2a62b6 Fix warning for hidden global variable
+949c4ad0f1eb15efde33bf677dd3a1aa2928b8ef tests: Fix typo in test key definition.
+9f8667922c88e38be026225126a5d856be095540 tests: Fix length of decoded key
+c3414b8221910a6054e77376dcb06dfe866df5b5 tests: detect failure of crypt_decode_key
+9917bff1d32446330fe534d720735d80e8fe7d10 Merge branch 'sb_roothash_and_sig' into 'main'
 
---===============5807977566162107934==--
+--===============7064140593094903719==--
