@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
-Date: Mon, 02 Jun 2025 17:34:38 -0000
-Message-Id: <174888567851.1499861.3947214410559503617@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Mon, 02 Jun 2025 17:38:50 -0000
+Message-Id: <174888593013.1503408.11688268568157011252@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfsprogs-dev
-user: aalbersh
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/for-next
-    old: 72d5abe1d8c3cf184a1c53cea267c57e7957e6f9
-    new: 1bee63ac33e4ddfcc7f443d9b8f507d49cab4948
+  - ref: refs/heads/pending
+    old: c388638346c903aba2fadc8f990bafe2784ad91a
+    new: 14fb180751c93e9ac494b878389fe67aa3f56dc3
     log: |
-         6b66b1ab513f90ed7ddd59b167788e1567146dfa xfs_protofile: fix permission octet when suid/guid is set
-         94ef61b5bba051b27b94330aa5e14e5609769e07 xfs: kill XBF_UNMAPPED
-         9a6b49d23aafda09094b4d79024ac6eb35b9ae76 xfs: remove the flags argument to xfs_buf_get_uncached
-         ec9909785b860d8c3227a98981c82951a0182202 man: adjust description of the statx manpage
-         1bee63ac33e4ddfcc7f443d9b8f507d49cab4948 xfs_mdrestore: don't allow restoring onto zoned block devices
+         14fb180751c93e9ac494b878389fe67aa3f56dc3 wifi: ath12k: fix GCC_GCC_PCIE_HOT_RST definition for WCN7850
          
