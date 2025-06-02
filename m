@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Mon, 02 Jun 2025 02:34:35 -0000
-Message-Id: <174883167570.726044.6931060420776766165@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+Date: Mon, 02 Jun 2025 03:56:48 -0000
+Message-Id: <174883660857.792724.6045863360856866875@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
+user: masahiroy
 changes:
-  - ref: refs/heads/main
-    old: f2e9c60ae3116e82c12d2ee675a24fef5e3f1a45
-    new: 8d27ef96f0a6c56ccc5d2aea7fba0aa19f79ea91
+  - ref: refs/heads/kbuild
+    old: fff45b921e12b27edc448adb6d66d42d0c2d592c
+    new: 85c4f3d89b17f569e9b718df6b6e19d6081f01c7
     log: |
-         25750add9b775c9939ef28fa7cf243b967d1bab2 amdgpu: DMCUB updates for various ASICs
-         8d27ef96f0a6c56ccc5d2aea7fba0aa19f79ea91 Merge branch 'amd-staging' into 'main'
+         808998ef50648c799d47509b339140ff16476bee kbuild: move W=1 check for scripts/misc-check to top-level Makefile
+         84ed37fa8f811f3c6c35acfd373a105b7dbd5b55 scripts/misc-check: add double-quotes to satisfy shellcheck
+         d7bc77582b70a6cbcf390a857c2783c5916b56ef scripts/misc-check: check missing #include <linux/export.h> when W=1
+         85c4f3d89b17f569e9b718df6b6e19d6081f01c7 scripts/misc-check: check unnecessary #include <linux/export.h> when W=1
          
