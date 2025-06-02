@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3280511356223614661=="
+Content-Type: multipart/mixed; boundary="===============3158129006276328777=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/alexghiti/linux
-Date: Mon, 02 Jun 2025 11:07:42 -0000
-Message-Id: <174886246299.1152641.14154707417970207650@gitolite.kernel.org>
+Date: Mon, 02 Jun 2025 11:07:51 -0000
+Message-Id: <174886247183.1152942.14150673899195025392@gitolite.kernel.org>
 
---===============3280511356223614661==
+--===============3158129006276328777==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/alexghiti/linux
 user: alexghiti
 changes:
-  - ref: refs/heads/alex-for-next-sbi-3.0-rebase-6.15-rc6
-    old: 82e739bf3fd184b8a6c84b3c177d50ca76ee5db4
-    new: e6f3705dbbbc8e6e88fcafc462b48a5849e3a7cf
-    log: revlist-82e739bf3fd1-e6f3705dbbbc.txt
+  - ref: refs/tags/riscv-mw3-6.16-rc1
+    old: fd36bac9a0ce6390478d5607a33194791b282f82
+    new: 23d55771ad2275729c68a5aab042ad17155acd18
+    log: revlist-fd36bac9a0ce-23d55771ad22.txt
 
---===============3280511356223614661==
+--===============3158129006276328777==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-82e739bf3fd1-e6f3705dbbbc.txt
+Content-Disposition: attachment; filename=revlist-fd36bac9a0ce-23d55771ad22.txt
 
 48c129ba258fd317a3e65ad9329dc7b4819d3817 riscv/shstk: If needed allocate a new shadow stack on clone
 8e46b9ca910a118f9def959c4b03ed2f05eda866 riscv: Implements arch agnostic shadow stack prctls
@@ -46,4 +46,4 @@ cdb0cfa1050889d16f5fd13a22179edbbf2b6059 riscv: enable kernel access to shadow s
 f372c1a5c36cdda450535e98b7ae097cdc268bb6 Merge patch series "riscv control-flow integrity for usermode"
 e6f3705dbbbc8e6e88fcafc462b48a5849e3a7cf riscv: traps: handle uprobe event in software-check exception
 
---===============3280511356223614661==--
+--===============3158129006276328777==--
