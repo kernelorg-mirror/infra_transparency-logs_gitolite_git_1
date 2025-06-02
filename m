@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2633677442700147360=="
+Content-Type: multipart/mixed; boundary="===============6220551370505125786=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 02 Jun 2025 21:14:02 -0000
-Message-Id: <174889884216.1682536.5387018416861893746@gitolite.kernel.org>
+Date: Mon, 02 Jun 2025 21:15:16 -0000
+Message-Id: <174889891668.1685447.8880420677807611813@gitolite.kernel.org>
 
---===============2633677442700147360==
+--===============6220551370505125786==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/perf-tools
+  - ref: refs/heads/tmp.perf-tools
     old: 42367eca7604e16e170bd6bd94ef61ffdd335f4a
     new: a913ef6fd883c05bd6538ed21ee1e773f0d750b7
     log: revlist-42367eca7604-a913ef6fd883.txt
 
---===============2633677442700147360==
+--===============6220551370505125786==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ c7a48ea9b919e2fa0e4a1d9938fdb03e9afe276c perf trace: Always print return value f
 0df14c1f1ed530ba21b603a2e282589c034367da perf lock contention: Reject more than 10ms delays for safety
 a913ef6fd883c05bd6538ed21ee1e773f0d750b7 perf callchain: Always populate the addr_location map when adding IP
 
---===============2633677442700147360==--
+--===============6220551370505125786==--
