@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5434201551883853058=="
+Content-Type: multipart/mixed; boundary="===============4360225065229812670=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/alexghiti/linux
-Date: Mon, 02 Jun 2025 07:02:02 -0000
-Message-Id: <174884772282.945981.5683368200257595825@gitolite.kernel.org>
+Date: Mon, 02 Jun 2025 07:02:23 -0000
+Message-Id: <174884774338.946376.11223333133648186515@gitolite.kernel.org>
 
---===============5434201551883853058==
+--===============4360225065229812670==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/alexghiti/linux
 user: alexghiti
 changes:
-  - ref: refs/heads/alex-for-next-sbi-3.0-rebase-6.15-rc6
-    old: fb79b0b7163b047c8a1aee5033062f78ba98b5e0
-    new: 7b1b6f62240dd022c39875c10cf7560e06356ce3
-    log: revlist-fb79b0b7163b-7b1b6f62240d.txt
+  - ref: refs/tags/riscv-mw3-6.16-rc1
+    old: 53893f1bf0567fb26be7691da2eea64d809687c5
+    new: 9ae7786766ef49991c1e2dac3dfee4e23aceb39a
+    log: revlist-53893f1bf056-9ae7786766ef.txt
 
---===============5434201551883853058==
+--===============4360225065229812670==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fb79b0b7163b-7b1b6f62240d.txt
+Content-Disposition: attachment; filename=revlist-53893f1bf056-9ae7786766ef.txt
 
 ab4e9f197d95eb846c4a27137fa5ab985b52a804 mm: VM_SHADOW_STACK definition for riscv
 b104b20c4b0d60406393ea35d225a64a0eecf14d dt-bindings: riscv: zicfilp and zicfiss in dt-bindings (extensions.yaml)
@@ -55,4 +55,4 @@ f9abaa45ae1fe95ff11b9e012de8c2d2641cb0b9 riscv: Documentation for landing pad / 
 0d81507165588004dee7bc47ab817e7bff8e161c kselftest/riscv: kselftest for user mode cfi
 7b1b6f62240dd022c39875c10cf7560e06356ce3 Merge patch series "riscv control-flow integrity for usermode"
 
---===============5434201551883853058==--
+--===============4360225065229812670==--
