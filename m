@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2265520186353512490=="
+Content-Type: multipart/mixed; boundary="===============6000501065002997720=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/alexghiti/linux
-Date: Mon, 02 Jun 2025 07:46:19 -0000
-Message-Id: <174885037901.983237.9219494789738529407@gitolite.kernel.org>
+Date: Mon, 02 Jun 2025 07:46:31 -0000
+Message-Id: <174885039128.983728.15258237855480317713@gitolite.kernel.org>
 
---===============2265520186353512490==
+--===============6000501065002997720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/alexghiti/linux
 user: alexghiti
 changes:
-  - ref: refs/tags/riscv-mw3-6.16-rc1
-    old: 9ae7786766ef49991c1e2dac3dfee4e23aceb39a
-    new: fd36bac9a0ce6390478d5607a33194791b282f82
-    log: revlist-9ae7786766ef-fd36bac9a0ce.txt
+  - ref: refs/heads/alex-for-next-sbi-3.0-rebase-6.15-rc6
+    old: 7b1b6f62240dd022c39875c10cf7560e06356ce3
+    new: 82e739bf3fd184b8a6c84b3c177d50ca76ee5db4
+    log: revlist-7b1b6f62240d-82e739bf3fd1.txt
 
---===============2265520186353512490==
+--===============6000501065002997720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9ae7786766ef-fd36bac9a0ce.txt
+Content-Disposition: attachment; filename=revlist-7b1b6f62240d-82e739bf3fd1.txt
 
 60f49dcc99b7f1678d0d46b7019439cc40b4f3f7 riscv/mm: ensure PROT_WRITE leads to VM_READ | VM_WRITE
 d3b48aa6635ebfec25fd43a856334cc6688c628e riscv/mm: manufacture shadow stack pte
@@ -51,4 +51,4 @@ c189e1f13d831bee47dc1cfa25cf9fdf60d6e7ef riscv: create a config for shadow stack
 a17b0d6f9ff570d331a777ccf7161cc33cc43198 Merge patch series "riscv control-flow integrity for usermode"
 82e739bf3fd184b8a6c84b3c177d50ca76ee5db4 riscv: traps: handle uprobe event in software-check exception
 
---===============2265520186353512490==--
+--===============6000501065002997720==--
