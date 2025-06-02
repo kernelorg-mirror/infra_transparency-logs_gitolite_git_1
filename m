@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0442242397353194719=="
+Content-Type: multipart/mixed; boundary="===============8173651404061032171=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 02 Jun 2025 13:42:11 -0000
-Message-Id: <174887173145.1296706.16129215121885935778@gitolite.kernel.org>
+Date: Mon, 02 Jun 2025 13:42:13 -0000
+Message-Id: <174887173390.1296968.2674586887654260733@gitolite.kernel.org>
 
---===============0442242397353194719==
+--===============8173651404061032171==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,96 +16,102 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.15.y
-    old: 8eb00f710ec20b496b971213c61c93aed12dbbc6
-    new: 86677b94d603c727f6b88b4b77bfce2601aa4465
-    log: revlist-8eb00f710ec2-86677b94d603.txt
+  - ref: refs/heads/linux-6.12.y
+    old: 19c4106f33f4fc6a6c9b7c43d19d2cec49c4bd26
+    new: ce2ebbe0294cb1fbd36bf75316d94f81f26e582b
+    log: revlist-19c4106f33f4-ce2ebbe0294c.txt
 
---===============0442242397353194719==
+--===============8173651404061032171==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1748871764 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1748871766 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1748871726-70a0e2e3cd7325ef24218e4f4b215cc346c2e194
+nonce 1748871730-8ef7a8eba6dbef73f2e096b5636aad2f851990e4
 
-8eb00f710ec20b496b971213c61c93aed12dbbc6 86677b94d603c727f6b88b4b77bfce2601aa4465 refs/heads/linux-6.15.y
+19c4106f33f4fc6a6c9b7c43d19d2cec49c4bd26 ce2ebbe0294cb1fbd36bf75316d94f81f26e582b refs/heads/linux-6.12.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmg9qlQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gwIP/RKbXXoYavej72JxCo0X
-U2VXTpfmw3xyB61oY7fDu7qrEHsoKaANHu9LK5C3F7hS6U/kaw/wTVcrIpfMf0W3
-Ycdb8P7xxapQqPSoJiC4dSxHbtfSIB0qEb4/auLHeN3bUYV4UQgolQ/VJXbs/vHb
-KXlYAe4Kc7AaFM4yF2K8ixTMX/od+JFnTbBDYIU1Nih5/krWeGmD5n1F6QX7+kZX
-sskuAm6j3q2VLCYohNmwDL8xV00NoN8HLQgOp/csvDJgrK7o05/06xcXqynIZYeb
-fdnk0pcp6YFLvsCrMFsqcZuNJPTHz4xtH1AgekdT5vt5Kolz88nSK5MgOT09Ccnn
-WrySMZzOR3srRPKukFJYNuxsxVDo+kUDCgKQ0QjozVhWGp95meGlOb78xE6BfuTy
-7hLDvIObZ63QSWXEouCcUt+9mzjSebubDoXS9mJhvX1jBF5oDqGZf5JM4kIfsgvC
-w8izPOYT+E6r9WXxAD8Cb7zfsLUBQczqpOv1+L6RVKrllzQvdWZfCxPijIFVpWyG
-NYvYGYtS1L4hDg1dhHX0H/ckbZ8pmttBSkKKXNkYqbj9bXDE6qrUkikW1gS6asAu
-BW9OzU8A0R5BDr1CmeQOZvA5ZsU4GaFFjttG6MN76XAKJFiMDXfamS+FAlM7tVMP
-oyL+CecOUS59VStn5e+aSQrk
-=VTLm
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmg9qlYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yFwQAKs4P5QqZvCxfJDWjgZ4
+G+ZpXQR+UBsfBGTqzJBYcQMoTWQRfrwGPgQer07fEYJK+fAPCo+LP3Jr2MM3SeUp
+zNqEbDzSr2Ph9Xhkm2+P54pepmE+sBxtFS1iYYYicua/3SjXvgGDr5xZ7Ce3kTTQ
+IhtRi7b26nyvXdFPj8qJuE9EwreXJDQQSp0BvvFyJezoIg/Am3AsUg+LpH76JEbO
+s5ExwBuTenI59/iXwDkRaYqnAPtnxO6guO11BV1+jhovPpPItubO9BCjECJdT3+N
+JLhCL7soiaXnCLIy+jD/ukzlWDOx05ExRbZnARXNpznLzezPF1dvMLh7N5Iyl5pY
+2OaCg0BfidZh2W64gi1fg7v1gXHGvOV43oJugaTLZak8x9cG2ODuC5KRHRQV/xa/
+qEUSsLcEFygQ1yqljs73NdV4O21dI5wkyARWYZ8i4lOnnQdSYjVUA0e6969CjfXg
+5aW6UtkpdIIojUXDKHA+3/b7Mi+RSmAMzW8gQ4MuzNH89NWJKgxz/pnKfgumAJYI
+uM+HY0pRUD/z2ydxpqAV6pARMhGERZL09gkdyvjckjYTPwg39Woa0gYCUv8w3NJE
+NBBez3YU8+iWg+wRjfNDi0igvmcmKEsTN1k51h4SUPO415Zug80rIuoJOuluqT0E
+doCGajYG5jdTdQ/r0rf7AHrk
+=eZJq
 -----END PGP SIGNATURE-----
 
---===============0442242397353194719==
+--===============8173651404061032171==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8eb00f710ec2-86677b94d603.txt
+Content-Disposition: attachment; filename=revlist-19c4106f33f4-ce2ebbe0294c.txt
 
-a811073cc73681d163023fd6816918d55b0d9c75 arm64: dts: socfpga: agilex5: fix gpio0 address
-27617bbb1df7553822ceb4ef29418537aec76d09 arm64: dts: rockchip: fix internal USB hub instability on RK3399 Puma
-74194228d1b5d128b99e3085ed0c83b5cf69f340 arm64: dts: rockchip: Add missing SFC power-domains to rk3576
-5e33393dcb0e876528ad58f163c83c88c7524955 arm64: dts: qcom: ipq9574: Add missing properties for cryptobam
-39b118b79dc1e68243d7c6a92e7200f2f1fb2a79 arm64: dts: qcom: sa8775p: Add missing properties for cryptobam
-26ab9c620479868959e50cf3873774fa5aa8cdb6 arm64: dts: qcom: sa8775p: Remove extra entries from the iommus property
-b09d2881126dac27a8e2f04097a477ffd9daf025 arm64: dts: qcom: sa8775p: Remove cdsp compute-cb@10
-982335ad538b3c85afbc8db36d79dc30085dfd51 arm64: dts: qcom: sm8350: Fix typo in pil_camera_mem node
-65036b8144678e6b7c5065b2089ad23927e63df5 arm64: dts: qcom: sm8450: Add missing properties for cryptobam
-294d9392510c56f87005af2473ae028fe3259389 arm64: dts: qcom: sm8550: Add missing properties for cryptobam
-dc4155876b2883b86a4680cdcbd84ad5866a08b5 arm64: dts: qcom: sm8650: Add missing properties for cryptobam
-3151a9e831079543d098a7f475c0c6e3e3cc0b4c arm64: dts: qcom: x1e001de-devkit: Fix vreg_l2j_1p2 voltage
-acc963cc7b375ccf79ef344885fdf7f793279aef arm64: dts: qcom: x1e001de-devkit: mark l12b and l15b always-on
-8f432677a162b7121942079ed489d97a32832c42 arm64: dts: qcom: x1e80100-asus-vivobook-s15: Fix vreg_l2j_1p2 voltage
-3f55f2e972ca5bdd9210e781379f20a0fbee9511 arm64: dts: qcom: x1e80100-dell-xps13-9345: mark l12b and l15b always-on
-2a12c639ec1b11f144a79c281d515dab01618764 arm64: dts: qcom: x1e80100-hp-omnibook-x14: Enable SMB2360 0 and 1
-ae508f6738b87bc4436218c1c5f1025d3448e845 arm64: dts: qcom: x1e80100-hp-omnibook-x14: Fix vreg_l2j_1p2 voltage
-a1c3f9067f785dd3f0f2515a65a4c750ff1ba56f arm64: dts: qcom: x1e80100-hp-x14: mark l12b and l15b always-on
-f8a0d6aae7e0cee260451356707f71ac75459e62 arm64: dts: qcom: x1e80100-lenovo-yoga-slim7x: Fix vreg_l2j_1p2 voltage
-32188e50a82b1ac314026881959590e0a76654ed arm64: dts: qcom: x1e80100-qcp: Fix vreg_l2j_1p2 voltage
-c69387aaad782ea0eb8748360c06a8cec8a489c3 arm64: dts: qcom: x1e80100-qcp: mark l12b and l15b always-on
-192e6731d23c7e7abe1d52a65471056635d1e8f8 arm64: dts: qcom: x1e80100-yoga-slim7x: mark l12b and l15b always-on
-5edc5bbdcfe6e5c6703c14a779f0b20c3e68d1f8 arm64: dts: qcom: x1e80100: Fix video thermal zone
-cd29c8d771f8a6194a4ff169b5dc02b3282e0513 arm64: dts: qcom: x1e80100: Apply consistent critical thermal shutdown
-b0c13d6150bfb03e93e12b81bd007049aba48193 arm64: dts: qcom: x1e80100: Add GPU cooling
-76b6772e2c30d030eead8d467a203f2ed650d287 arm64: dts: qcom: x1e80100: Fix PCIe 3rd controller DBI size
-eb6b25e262aeb76f9de34d7107b1bc8fd7f5b813 arm64: dts: ti: k3-am62-main: Set eMMC clock parent to default
-5023918771a23762b511ed38a250a8e51bf2845b arm64: dts: ti: k3-am62a-main: Set eMMC clock parent to default
-dfc1a5a1e4c5faab36066a3eec5099c9389c4956 arm64: dts: ti: k3-am62p-j722s-common-main: Set eMMC clock parent to default
-aabc8205d8d35e72d197d4eba4fa73ed2a925841 arm64: dts: ti: k3-am62x: Remove clock-names property from IMX219 overlay
-a9ded05f8f3b1f59805da66f4c0144e9c3122add arm64: dts: ti: k3-am62x: Rename I2C switch to I2C mux in IMX219 overlay
-c6a53866a569b0283c95c0f934bbdf80cc6a661a arm64: dts: ti: k3-am62x: Rename I2C switch to I2C mux in OV5640 overlay
-f97c98b2504676cc6bee9778a18cb888c5ddf820 arm64: dts: ti: k3-am65-main: Add missing taps to sdhci0
-42837fcd035fa4e7ccfb1706ea127af29d9c7af6 arm64: dts: ti: k3-am68-sk: Fix regulator hierarchy
-675656e8ba0cf4f0d235d38646b9dbc8a8b9541a arm64: dts: ti: k3-j721e-sk: Add DT nodes for power regulators
-c7d6cc9a9fa2d6efb30c1edd97e37d845c98d918 arm64: dts: ti: k3-j721e-sk: Remove clock-names property from IMX219 overlay
-0f17585db062e51fcb8ad692488ace7044280dd5 arm64: dts: ti: k3-j721e-sk: Add requiried voltage supplies for IMX219
-ce72b0cd4aabc1a6bbfd34387dadcd7624f3e1c0 arm64: dts: ti: k3-j722s-evm: Enable "serdes_wiz0" and "serdes_wiz1"
-ff1bec3af50c446197cbb9fa6a7812d95df3cd02 arm64: dts: ti: k3-j722s-main: Disable "serdes_wiz0" and "serdes_wiz1"
-691895df00a479ed72a28b0f831ed3eee99964b8 arm64: dts: ti: k3-j784s4-j742s2-main-common: Fix length of serdes_ln_ctrl
-a79041f37e9fc6ff75ebaf97781f2f84fab40033 net_sched: hfsc: Address reentrant enqueue adding class to eltree twice
-c3fd5ceb5b84d1d0b7a91cd1f1f9801fe7041266 perf/arm-cmn: Fix REQ2/SNP2 mixup
-f65ee7ca0602e99be814b2cdbb5daa7a923131e1 perf/arm-cmn: Initialise cmn->cpu earlier
-87bc1d3e8a1ebff799f17a72ef0a9d35e80fd33f perf/arm-cmn: Add CMN S3 ACPI binding
-9eae3bb3daba9d91ad708ea511905c02ec3012d3 pidfs: move O_RDWR into pidfs_alloc_file()
-6e1fd6b59d0fee92a6a1a1ee734a8f7cc78330bd coredump: fix error handling for replace_fd()
-0bc512d438f00964180b65395247fb41fde62dc9 coredump: hand a pidfd to the usermode coredump helper
-cf38be03f2461ecc4a4db303fe503263b7ff1267 iommu: Avoid introducing more races
-ac9102baac9aa4ef7353977b741d93091d5b8a09 iommu: Handle yet another race around registration
-86677b94d603c727f6b88b4b77bfce2601aa4465 Linux 6.15.1-rc1
+9edeb75e68a6bcec4ffd9553a0c9a557a2e52b28 can: kvaser_pciefd: Force IRQ edge in case of nested IRQ
+8e0c4f67193f9592ab0aee29f84ecc99343976f2 arm64: dts: qcom: ipq9574: Add missing properties for cryptobam
+cd6e2013c9ac8394df24123eb6deb223883dc4cd arm64: dts: qcom: sa8775p: Remove extra entries from the iommus property
+2f8c4331f0655bf799f115004104fd0e69c17844 arm64: dts: qcom: sa8775p: Remove cdsp compute-cb@10
+ffd8602e0c09c496401eaee670de8da14417dad1 arm64: dts: qcom: sm8350: Fix typo in pil_camera_mem node
+0d60ebde0c22116020a85ef67fee1d5154095a04 arm64: dts: qcom: sm8450: Add missing properties for cryptobam
+a62a99e75b82d031eb9bc724f3bcd3034fbdb5ca arm64: dts: qcom: sm8550: Add missing properties for cryptobam
+46b48dd10446d4ea65d2b39305a8226194558caf arm64: dts: qcom: sm8650: Add missing properties for cryptobam
+cfce4faad10ae3506b9945ee551bd44c30b08057 arm64: dts: qcom: x1e80100-asus-vivobook-s15: Fix vreg_l2j_1p2 voltage
+d9bfe458d93220b0a5b8e60a2e69ed46638b2495 arm64: dts: qcom: x1e80100-lenovo-yoga-slim7x: Fix vreg_l2j_1p2 voltage
+2b56b8da0d5a53eda7b38e283ddecc2ea3335e7d arm64: dts: qcom: x1e80100-qcp: Fix vreg_l2j_1p2 voltage
+128c9b325bfc6a6ca9346eafcd9ef6be196269b8 arm64: dts: qcom: x1e80100-qcp: mark l12b and l15b always-on
+0890bad43ca3b016d35de687704b35eab93a61a4 arm64: dts: qcom: x1e80100-yoga-slim7x: mark l12b and l15b always-on
+2e3555ff7c6fc5800788801fefd6f1159b08dbf0 arm64: dts: qcom: x1e80100: Fix video thermal zone
+472bb99dff15a1558521584aa86bc1d506e9a03f arm64: dts: ti: k3-am62-main: Set eMMC clock parent to default
+a5fafc76bfdd3d2fdf8fb69677ddcc09cb4e48a8 arm64: dts: ti: k3-am62a-main: Set eMMC clock parent to default
+057def804910a7b861bf38bf45900f7aec54b69a arm64: dts: ti: k3-am62p-j722s-common-main: Set eMMC clock parent to default
+2d9266d4bfd1caaa3184d9e9413d2120b0340a0a arm64: dts: ti: k3-am62x: Remove clock-names property from IMX219 overlay
+cee3915290c2f6b718e4af48e62eafc5daf4406e arm64: dts: ti: k3-am62x: Rename I2C switch to I2C mux in IMX219 overlay
+45a0d56a4db8213f9f6fb668384bac72b61b1ad1 arm64: dts: ti: k3-am62x: Rename I2C switch to I2C mux in OV5640 overlay
+5f4885b8f6e3ecf9978c28f1f1caeaace0b98984 arm64: dts: ti: k3-am65-main: Add missing taps to sdhci0
+dddef1ccd4ff50ba44098f6faf777fc8c293b330 arm64: dts: ti: k3-am68-sk: Fix regulator hierarchy
+2ee4228da175d64ac74f8b13db0ed7033a7d6cbc arm64: dts: ti: k3-j721e-sk: Add DT nodes for power regulators
+8c22813265ebe82e8503d917eebd9df8388afc3b arm64: dts: ti: k3-j721e-sk: Remove clock-names property from IMX219 overlay
+9f5883a69dc60a3a391691a1871b52a5f52a0926 arm64: dts: ti: k3-j721e-sk: Add requiried voltage supplies for IMX219
+e1e970454a472dd9c5f3299c050b6c29a36f2bb3 arm64: dts: ti: k3-j722s-evm: Enable "serdes_wiz0" and "serdes_wiz1"
+1639e4d66b55f2ed5f1c28d60bb9b3cf8e926e5b arm64: dts: ti: k3-j722s-main: Disable "serdes_wiz0" and "serdes_wiz1"
+b735a1427fc121ecf52908946ddc377ce77b0197 arm64: dts: ti: k3-j784s4-j742s2-main-common: Fix length of serdes_ln_ctrl
+e01cad4b7ea8df072e2f45e504267be7853bbadb net_sched: hfsc: Address reentrant enqueue adding class to eltree twice
+f3f2867e12f4526cc3d658923ffb4e1691d22e78 perf/arm-cmn: Fix REQ2/SNP2 mixup
+697ffce14acd93dc65c0f115e7866d66cc231191 perf/arm-cmn: Initialise cmn->cpu earlier
+106c07af36cf1a253c999ed5fef194931a014a22 perf/arm-cmn: Add CMN S3 ACPI binding
+e24dc1d9104b6a1d177b0786932465a8b592bfdd coredump: fix error handling for replace_fd()
+304f07505225628defe46facea50b7ebee35ab3d coredump: hand a pidfd to the usermode coredump helper
+78c15fe9a9605eadfd5d26c9373e9fb6c4fe54df dmaengine: idxd: cdev: Fix uninitialized use of sva in idxd_cdev_open
+6233562ebb61b6d9ca2a7db1ef2c710d09879f15 HID: quirks: Add ADATA XPG alpha wireless mouse support
+bfe4b72919b98343b0933d00212011532fa0942e nfs: don't share pNFS DS connections between net namespaces
+0db1dcbf8c4386d6dcdd7f69602bcb32f90ce1e6 platform/x86: thinkpad_acpi: Support also NEC Lavie X1475JAS
+dfb8efb64acc733f5de1aaa63521e47ec277cb97 um: let 'make clean' properly clean underlying SUBARCH as well
+abb3a3edf6968210c4a50239fd8e943ace52de68 gpio: virtuser: fix potential out-of-bound write
+728b28fcc887a573769e240f25cc0702b077b8d9 drm/amd/display: fix link_set_dpms_off multi-display MST corner case
+f24602c171fe6c147686f0ba0ad98b60d0424b6b drm/amd/display: check stream id dml21 wrapper to get plane_id
+3540435bb56238df38c8934c682f4718b7638ba9 phy: starfive: jh7110-usb: Fix USB 2.0 host occasional detection failure
+976db0fa837a99d80625c86b70eabe7cde7a21ad phy: phy-rockchip-samsung-hdptx: Fix PHY PLL output 50.25MHz error
+428c059beb6b71284d1cbdea4375909796b30d26 spi: spi-sun4i: fix early activation
+bf792a4be39711a61afa7b548e8f3bcdfe959470 nvme-pci: add NVME_QUIRK_NO_DEEPEST_PS quirk for SOLIDIGM P44 Pro
+4ff607098656fa0b0f2a919a5d225f15da9f5efc drm/xe/xe2hpg: Add Wa_22021007897
+65a042926a49395826479eca61628a8537e16467 drm/xe: Save the gt pointer in lrc and drop the tile
+7420287d189a67ab38b3cd3d30ba4c7f2e2f4f62 char: tpm: tpm-buf: Add sanity check fallback in read helpers
+4051d73e49c746cdb3234ba9b24efd186ff19d1d NFS: Avoid flushing data while holding directory locks in nfs_rename()
+99ec1d98df316c59ba720088ed7fa738b46ec1a0 platform/x86: fujitsu-laptop: Support Lifebook S2110 hotkeys
+4996827c85e0494090bbc6aa5010a153868863f9 ALSA: hda/realtek - restore auto-mute mode for Dell Chrome platform
+7e0e0676c29100565d0284fee3c1b7eeb02e9db8 platform/x86: thinkpad_acpi: Ignore battery threshold change event notification
+b7075a09811fd0be666e6eb34105f93b2d07d4d2 net: ethernet: ti: am65-cpsw: Lower random mac address error print to info
+bdd924ad2ad5f100fe112bd7d9a242cca77bea3a ksmbd: use list_first_entry_or_null for opinfo_get_list()
+ce2ebbe0294cb1fbd36bf75316d94f81f26e582b Linux 6.12.32-rc1
 
---===============0442242397353194719==--
+--===============8173651404061032171==--
