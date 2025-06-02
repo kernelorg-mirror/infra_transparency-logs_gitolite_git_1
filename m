@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2374267368386846785=="
+Content-Type: multipart/mixed; boundary="===============5807977566162107934=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Mon, 02 Jun 2025 13:02:57 -0000
-Message-Id: <174886937757.1258458.8936725692795659969@gitolite.kernel.org>
+Date: Mon, 02 Jun 2025 13:03:16 -0000
+Message-Id: <174886939604.1258855.1398304063509916405@gitolite.kernel.org>
 
---===============2374267368386846785==
+--===============5807977566162107934==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,28 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
-  - ref: refs/heads/dir-deleg
-    old: e3815a6bdf2a052eb4f18ae4ffbae3b84db1e45f
+  - ref: refs/heads/kdevops
+    old: 3fc5d2a33664480beeaa3f56d860d61d2b0a775e
     new: 0e8ebd7f7c0c3e07779e7eff9f48a946df3cb9be
-    log: revlist-e3815a6bdf2a-0e8ebd7f7c0c.txt
+    log: revlist-3fc5d2a33664-0e8ebd7f7c0c.txt
 
---===============2374267368386846785==
+--===============5807977566162107934==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e3815a6bdf2a-0e8ebd7f7c0c.txt
+Content-Disposition: attachment; filename=revlist-3fc5d2a33664-0e8ebd7f7c0c.txt
 
+2606e23609ed11c08905cc23a4ecc8ee34bab528 NFSD: Avoid corruption of a referring call list
+106418a2c0cf42e45520a58803c2a488367453cd NFSD: Offer write delegation for OPEN with OPEN4_SHARE_ACCESS_WRITE
+0a73dee16388ce7b63c9c583dc974e405e3bcc01 NFSD: release read access of nfs4_file when a write delegation is returned
+767d6ca6eb5944a2254b00f8dd2001bc0dbef6e4 sunrpc: simplify xdr_init_encode_pages
+36f57f9f65557b2fc79852df19648e5f75540f0e sunrpc: simplify xdr_partial_copy_from_skb
+95f389f70e49de62b570374254d1736df3480d37 sunrpc: unexport csum_partial_copy_to_xdr
+901218eec3b10a773edcdca717dfe5bedde03f46 nfsd: Replace simple_strtoul with kstrtoint in expkey_parse
+b2a9a114a3c7f5abfa2875b70ce9b73525a74291 nfsd: use threads array as-is in netlink interface
+8ac1229eb006f2f7d862aa9bfaa3e2988181a893 sunrpc: new tracepoints around svc thread wakeups
+042d8a734a56caedff64661ef0ce90c5f2fd27da siw: Enable try_gso
+22b71eb34051a70c39c86997657de92722ec1838 Merge branch 'mrchuck/nfsd-testing'
 4eee80a4f8dc431bd5b7beb96dbabff6c6e961ac vfs, nfsd, nfs: implement directory delegations
 b178e40dd2a0cb543984ae1d1262578c1fd58cf8 filelock: push the S_ISREG check down to ->setlease handlers
 87696dee8728987929db855ee49d54c5e30b3b64 filelock: add a lm_may_setlease lease_manager callback
@@ -56,4 +67,4 @@ fb6fd4654d992e5ded46958b6ace6503df67f85e nfsd: add a tracepoint for nfsd_file_fs
 5810140ab5e724d6df5d41fb9b3c00c8e90ca518 nfsd: add support for NOTIFY4_ADD_ENTRY events
 0e8ebd7f7c0c3e07779e7eff9f48a946df3cb9be nfsd: add support for NOTIFY4_RENAME_ENTRY events
 
---===============2374267368386846785==--
+--===============5807977566162107934==--
