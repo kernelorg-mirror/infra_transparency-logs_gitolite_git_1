@@ -1,31 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============6220551370505125786=="
+Content-Type: multipart/mixed; boundary="===============5604907862558197714=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 02 Jun 2025 21:15:16 -0000
-Message-Id: <174889891668.1685447.8880420677807611813@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
+Date: Mon, 02 Jun 2025 21:15:49 -0000
+Message-Id: <174889894958.1685870.13791599965133022381@gitolite.kernel.org>
 
---===============6220551370505125786==
+--===============5604907862558197714==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools
-    old: 42367eca7604e16e170bd6bd94ef61ffdd335f4a
+    old: 8988c4b91945173a6b5505764915d470f0238fdc
     new: a913ef6fd883c05bd6538ed21ee1e773f0d750b7
-    log: revlist-42367eca7604-a913ef6fd883.txt
+    log: revlist-8988c4b91945-a913ef6fd883.txt
 
---===============6220551370505125786==
+--===============5604907862558197714==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-42367eca7604-a913ef6fd883.txt
+Content-Disposition: attachment; filename=revlist-8988c4b91945-a913ef6fd883.txt
 
+07c35320337eec5744d7cf735e86ac6f52d3535f perf intel-tpebs: Ensure events are opened, factor out finding
 bb1c0f1b4303a14fae211b24365a570c7770896c perf intel-tpebs: Refactor tpebs_results list
 ea61db61d99d84e44840fe7d56bfba0487db9c0c perf intel-tpebs: Add support for updating counts in evsel__tpebs_read
 81743920491345dfde859eec677eaa094a01d28c perf intel-tpebs: Add mutex for tpebs_results
@@ -234,7 +235,6 @@ fba784cc9e3d22a530211ef3ec60d04562349cb4 Merge tag 'fsnotify_for_v6.15-rc5' of g
 0759e77a6d9bd34a874da73721ce4a7dc6665023 ALSA: usb-audio: Fix duplicated name in MIDI substream names
 e7e5ae71831c44d58627a991e603845a2fed2cab net: dlink: Correct endianness handling of led_mode
 b23285e93bef729e67519a5209d5b7fde3b4af50 net: mdio: mux-meson-gxl: set reversed bit when using internal phy
-8988c4b91945173a6b5505764915d470f0238fdc perf tools: Fix in-source libperf build
 4bf593be2e462623c4c34c7e3b604eb3f8f9de45 arm64: dts: rockchip: fix Sige5 RTC interrupt pin
 8bac8898fe398ffa3e09075ecea2be511725fb0b Merge tag 'mmc-v6.15-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
 8a558cbda51bef09773c72bf74a32047479110c7 idpf: fix potential memory leak on kcalloc() failure
@@ -1051,4 +1051,4 @@ c7a48ea9b919e2fa0e4a1d9938fdb03e9afe276c perf trace: Always print return value f
 0df14c1f1ed530ba21b603a2e282589c034367da perf lock contention: Reject more than 10ms delays for safety
 a913ef6fd883c05bd6538ed21ee1e773f0d750b7 perf callchain: Always populate the addr_location map when adding IP
 
---===============6220551370505125786==--
+--===============5604907862558197714==--
