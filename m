@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4072853242697335761=="
+Content-Type: multipart/mixed; boundary="===============3949591301488812210=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 03 Jun 2025 15:35:37 -0000
-Message-Id: <174896493708.2603926.1129946008903306989@gitolite.kernel.org>
+Date: Tue, 03 Jun 2025 15:43:18 -0000
+Message-Id: <174896539815.2609224.11838557614274671518@gitolite.kernel.org>
 
---===============4072853242697335761==
+--===============3949591301488812210==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: d3faab9b5a6a0477d69c38bd11c43aa5e936f929
-    new: b56bbaf8c9ffe02468f6ba8757668e95dda7e62c
-    log: revlist-d3faab9b5a6a-b56bbaf8c9ff.txt
+  - ref: refs/heads/dev-queue
+    old: a76bd1156de9fd1d4be4502cbb5160a709ff4cd7
+    new: 0e74ba817150a4a54ff1984483be432a7b90154c
+    log: revlist-a76bd1156de9-0e74ba817150.txt
 
---===============4072853242697335761==
+--===============3949591301488812210==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d3faab9b5a6a-b56bbaf8c9ff.txt
+Content-Disposition: attachment; filename=revlist-a76bd1156de9-0e74ba817150.txt
 
 03f1700b9b4d4f2fed3165370f3c23db76553178 Bluetooth: MGMT: reject malformed HCI_CMD_SYNC commands
 edc14f2adc6401d67bf73828d9135c80d32615a2 Bluetooth: btnxpuart: Fix missing devm_request_irq() return value check
@@ -55,5 +55,23 @@ a869d3a5eb011a9cf9bd864f31f5cf27362de8c7 net: airoha: Initialize PPE UPDMEM sour
 504a577c9b000f9e0e99e1b28616fb4eb369e1ef net: airoha: Fix IPv6 hw acceleration in bridge mode
 c86fac5365d3a068422beeb508f2741f1a2d734d net: airoha: Fix smac_id configuration in bridge mode
 b56bbaf8c9ffe02468f6ba8757668e95dda7e62c Merge branch 'net-airoha-fix-ipv6-hw-acceleration'
+6c9ccf1589c4dca8d5dc6dab31caf381c5315d37 coccinelle: misc: secs_to_jiffies script: Create dummy report
+04256cc2c0c88adb7edb395ad9991ef2a0f8c9ec ice: fix lane number calculation
+a63a766950a404d84ea1dfefbd31e3cfe2d6bdf0 ice: fix fwlog after driver reinit
+bf888e7ef99cc1a175c5ab80476fcd8f54ecc730 iavf: iavf_suspend(): take RTNL before netdev_lock()
+e8891b64d14aea1db7cc3c3e5492628e88c41b0e iavf: centralize watchdog requeueing itself
+99cd0b1c213550b0b36cd7bdd62c1bce06e034c2 iavf: simplify watchdog_task in terms of adminq task scheduling
+60043fe717a05a967cb519e6d1a184891b7e94b0 iavf: extract iavf_watchdog_step() out of iavf_watchdog_task()
+7c493d956257651e0990d02002c56a2084ce1e70 iavf: sprinkle netdev_assert_locked() annotations
+336a03da1c4cb9288990798d3523748594447e3e iavf: get rid of the crit lock
+c4aa880783656180471639d561c8da30eaaa74af iavf: fix reset_task for early reset event
+dc5e70fb510c7b92b20e6fc4e1809bac04b2750d ice: fix eswitch code memory leak in reset scenario
+0b38e9b7254f51672c5de23052d100da82c7ebfc i40e: return false from i40e_reset_vf if reset is in progress
+6883d98d5c4747b92a3e3571078f03df11278537 i40e: retry VFLR handling if there is ongoing VF reset
+d125044f20813e59972ee836488bec8c4d1c7c9e ice/ptp: fix crosstimestamp reporting
+153da230f5363eae8c0dd5f29fae012f15bf966d net: ice: Perform accurate aRFS flow match
+c5c229ba9d7aea3f702fbc720c1661a5d326593b ice: add NULL check in eswitch lag check
+1f8f95ffc678a4236560df5747135fbbfa054ba5 idpf: return 0 size for RSS key if not supported
+0e74ba817150a4a54ff1984483be432a7b90154c e1000e: set fixed clock frequency indication for Nahum 11 and Nahum 13
 
---===============4072853242697335761==--
+--===============3949591301488812210==--
