@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/superm1/amd-debug-tools
-Date: Tue, 03 Jun 2025 19:47:19 -0000
-Message-Id: <174898003931.2822808.1645401082616687095@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Tue, 03 Jun 2025 19:48:29 -0000
+Message-Id: <174898010995.2823542.16337448107452228314@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/superm1/amd-debug-tools
-user: superm1
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/master
-    old: 2d206f742c1dc272ad4251decae84675d3726a7a
-    new: 7daa57a9a0d73e7ecc24e7cbdc4b48543e01eb64
-    log: |
-         7daa57a9a0d73e7ecc24e7cbdc4b48543e01eb64 fix `amd-s2idle test --help` output
-         
+  - ref: refs/tags/pci-v6.16-changes
+    old: 0000000000000000000000000000000000000000
+    new: f94e35d399453d683008635c925c8067af66ea87
