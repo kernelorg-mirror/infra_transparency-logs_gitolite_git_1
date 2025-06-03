@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Tue, 03 Jun 2025 17:12:54 -0000
-Message-Id: <174897077427.2691150.4072504228949174195@gitolite.kernel.org>
+Date: Tue, 03 Jun 2025 17:22:15 -0000
+Message-Id: <174897133568.2699106.16771896875137771771@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,12 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: mikulas
 changes:
-  - ref: refs/heads/dm-6.16
-    old: 050a3e71ce24c6f18d70679d68056f76375ff51c
-    new: 9f2f6316d753fe80c764e924cee475306f38ceb6
-    log: |
-         85f6d5b729eaace1549f1dcc284d9865f2c3ec02 dm-table: check BLK_FEAT_ATOMIC_WRITES inside limits_lock
-         829451beaed6165eb11d7a9fb4e28eb17f489980 dm-mirror: fix a tiny race condition
-         66be40a14e496689e1f0add50118408e22c96169 dm-verity: fix a memory leak if some arguments are specified multiple times
-         9f2f6316d753fe80c764e924cee475306f38ceb6 dm-stripe: small code cleanup
-         
+  - ref: refs/tags/for-6.16/dm-changes
+    old: 0000000000000000000000000000000000000000
+    new: eb8722ba23317017d61f7b93e8b71b6777b2af2e
