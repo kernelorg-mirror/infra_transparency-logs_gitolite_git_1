@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
-Date: Tue, 03 Jun 2025 12:03:19 -0000
-Message-Id: <174895219937.2423911.3854496268168578585@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dakr/linux
+Date: Tue, 03 Jun 2025 12:16:23 -0000
+Message-Id: <174895298378.2435443.3381045966884059666@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/linux
-user: vbabka
+repo: pub/scm/linux/kernel/git/dakr/linux
+user: dakr
 changes:
-  - ref: refs/heads/b4-reproducer
+  - ref: refs/heads/rust/for-alice
     old: 0000000000000000000000000000000000000000
-    new: 8a01634625a958cbccf8e97861ac5360c4bc284a
+    new: 812b50a390c1b7e264346b16de6faf7f0845276d
