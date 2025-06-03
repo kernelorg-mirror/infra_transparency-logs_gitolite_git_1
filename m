@@ -1,25 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
-Date: Tue, 03 Jun 2025 09:42:08 -0000
-Message-Id: <174894372849.2306614.12636704164627422129@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
+Date: Tue, 03 Jun 2025 09:58:26 -0000
+Message-Id: <174894470604.2319177.18316300296273827508@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cryptsetup/cryptsetup
-user: mbroz
+repo: pub/scm/linux/kernel/git/lee/mfd
+user: lee
 changes:
-  - ref: refs/heads/main
-    old: ff4aa8e5e7551f10a76677821c14fdb3ad95a69e
-    new: f221de22b6998875fde91619ff527b9eb381b956
-    log: |
-         f221de22b6998875fde91619ff527b9eb381b956 Fix libcryptsetup version.
-         
-  - ref: refs/heads/master
-    old: ff4aa8e5e7551f10a76677821c14fdb3ad95a69e
-    new: f221de22b6998875fde91619ff527b9eb381b956
-    log: |
-         f221de22b6998875fde91619ff527b9eb381b956 Fix libcryptsetup version.
-         
+  - ref: refs/tags/mfd-next-6.16
+    old: 0000000000000000000000000000000000000000
+    new: 7c82b03039d23e216c4ff503de37f878894b35fe
