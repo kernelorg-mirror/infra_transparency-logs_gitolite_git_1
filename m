@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Tue, 03 Jun 2025 17:59:08 -0000
-Message-Id: <174897354852.2729840.3223362280439833865@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 03 Jun 2025 18:01:46 -0000
+Message-Id: <174897370601.2733239.2360975101626202150@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/rcu-repro-irq-loop
-    old: 0000000000000000000000000000000000000000
-    new: 0c321fe5803797e93b608edf246be3dc9221f442
+  - ref: refs/heads/file2MIQWe
+    old: b7188a1c0d2d7b04f4558e10293651d49fcb2398
+    new: 0000000000000000000000000000000000000000
