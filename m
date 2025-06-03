@@ -1,26 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Tue, 03 Jun 2025 11:43:48 -0000
-Message-Id: <174895102813.2407409.1259209345039913547@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Tue, 03 Jun 2025 12:02:50 -0000
+Message-Id: <174895217091.2423539.2566156602795152411@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/scsi
-user: jejb
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/for-next
-    old: 69c58f719839fc954bead057909da7aae5e91708
-    new: 43beabb2a7819aacb8766f8ea2e15641999e7bea
+  - ref: refs/heads/work.coredump.socket.protocol
+    old: 698a0f0fc2aaf37a03f18886f02de3d9fed44382
+    new: c7b40f69f9362b8554c59df6a2df92f5f9f33cb5
     log: |
-         e97633492f5a3eca7b3ff03b4ef6f993017f7955 scsi: ufs: core: Don't perform UFS clkscaling during host async scan
-         c8426f258a0aa4c2fa0fb87806b73592b03dacac scsi: core: devinfo: Fix typo in comment
-         0ae992637cf7011af0128e6136f3b595de54e03e scsi: aacraid: Remove useless code
-         663d0c19f3acc0d697f623d34b8eb3b438bf2bda scsi: ufs: qcom: Check gear against max gear in vop freq_to_gear()
-         8c5bcb3daeef9bc54c9939c36dca9a626126eb59 scsi: ufs: qcom: Map devfreq OPP freq to UniPro Core Clock freq
-         c77b37dafb81660b939f82d81b637b91b0207cfe scsi: ufs: qcom: Call ufs_qcom_cfg_timers() in clock scaling path
-         7831003165d37ecb7b33843fcee05cada0359a82 scsi: ufs: qcom: Prevent calling phy_exit() before phy_init()
-         43beabb2a7819aacb8766f8ea2e15641999e7bea Merge branch 'misc' into for-next
+         bbbb946d0fe4bd4d1ba0d722c13f63b535baaa87 coredump: allow for flexible coredump handling
+         2ed9b06e5f1a6b8c881f762199373c81dc448781 selftests/coredump: fix build
+         e2707a4116ee8a39e79fb305d77b5fd357c3dc56 selftests/coredump: cleanup coredump tests
+         8ea78f560273d2f120e75948f47c3a011a91c9bb tools: add coredump.h header
+         4bd61432a22f44c8b275b993c00fd5722ffd5dbe selftests/coredump: add coredump server selftests
+         c7b40f69f9362b8554c59df6a2df92f5f9f33cb5 coredump: allow for flexible coredump handling
          
