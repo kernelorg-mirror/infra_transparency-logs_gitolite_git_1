@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Tue, 03 Jun 2025 14:28:56 -0000
-Message-Id: <174896093626.2545538.308683935227036625@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
+Date: Tue, 03 Jun 2025 14:46:20 -0000
+Message-Id: <174896198013.2560826.16700295417370587600@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
+user: frederic
 changes:
-  - ref: refs/heads/master
-    old: 6c5d0010e8a44c8925a5f16ca5a4e3d5f88c596b
-    new: fa2c8bfe6794411c18231d94213484122c3bff50
+  - ref: refs/heads/kthread/core
+    old: b1c610052033dc47e8f506136d7821044892f7e3
+    new: e8fa9a06cde680668da6763227a83c50ddac8b6b
     log: |
-         31b3d39c89f99eb9f1369e43da351a6bddb416dd Bluetooth: btintel_pcie: Fix driver not posting maximum rx buffers
-         e849b59c9db0fa40b8ba686f283aa2feac58f110 Bluetooth: btintel_pcie: Increase the tx and rx descriptor count
-         fa2c8bfe6794411c18231d94213484122c3bff50 Bluetooth: btintel_pcie: Reduce driver buffer posting to prevent race condition
+         c669c96263b39df8cca57c71570fcf0453dd5582 sched/isolation: Remove HK_TYPE_TICK test from cpu_is_isolated()
+         051741f553671d17cc5f2753cdaa1ecbef86d6d5 kthreads: Include unbound kthreads in the managed affinity list
+         01740972a917015d960ab741e7a67db9bfc04921 kthread: Include kthreadd to the managed affinity list
+         e8fa9a06cde680668da6763227a83c50ddac8b6b kthread: Rely on HK_TYPE_DOMAIN for preferred affinity management
          
