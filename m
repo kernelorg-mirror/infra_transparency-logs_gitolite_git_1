@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8906570558679551653=="
+Content-Type: multipart/mixed; boundary="===============6185542350072270303=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Tue, 03 Jun 2025 16:25:41 -0000
-Message-Id: <174896794164.2649302.11578278686141043726@gitolite.kernel.org>
+Date: Tue, 03 Jun 2025 16:37:30 -0000
+Message-Id: <174896865051.2659296.14930923430992265852@gitolite.kernel.org>
 
---===============8906570558679551653==
+--===============6185542350072270303==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/main
-    old: f8bead2c1ef18efc47e495bc800aa7af740eda80
-    new: c3910de7bab78afbc106206aed5ec8e79458fbee
-    log: revlist-f8bead2c1ef1-c3910de7bab7.txt
-  - ref: refs/tags/ath-202506031604
-    old: 0000000000000000000000000000000000000000
-    new: c3910de7bab78afbc106206aed5ec8e79458fbee
+  - ref: refs/heads/pending
+    old: daf4168479e1a4f86ff3888859908aebdfd2b6b6
+    new: f875e405a530d4a6abe0e58df2dc0665e542c4d8
+    log: revlist-daf4168479e1-f875e405a530.txt
 
---===============8906570558679551653==
+--===============6185542350072270303==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f8bead2c1ef1-c3910de7bab7.txt
+Content-Disposition: attachment; filename=revlist-daf4168479e1-f875e405a530.txt
 
 c2a813545ed4810540dcc8ebdcb21092fda80be5 crypto: testmgr - Use ahash for generic tfm
 18c438b228558e05ede7dccf947a6547516fc0c7 crypto: testmgr - Add hash export format testing
@@ -1050,8 +1047,8 @@ b1fd8bd0cc18cd8572ac0da21418cce2ee45e04f Merge tag 'dlm-6.16' of git://git.kerne
 bbff27b54e4271a42ea1dba93a76e51165f2dbaa Merge tag 'nios2_updates_for_v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/dinguyen/linux
 47cf96fbe393839b125a9b694a8cfdd3f4216baa Merge tag 'arm64-upstream' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 1b98f357dadd6ea613a435fbaef1a5dd7b35fd21 Merge tag 'net-next-6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
-d1b34209941117765381da9b3d26840e432a0ec9 Merge branch 'ath-next'
-45a2c7c7ed4bf3e1a0e93b4c8f09bc938caea851 Merge remote-tracking branch 'mhi/mhi-next'
-c3910de7bab78afbc106206aed5ec8e79458fbee Add localversion-wireless-testing-ath
+898f0b1855dbc225582856986d75996adfca2dc3 ath10k: snoc: fix unbalanced IRQ enable in crash recovery
+4287fbed861fc30578d1f4f613a3731cd1451ab5 wifi: ath11k: validate ath11k_crypto_mode on top of ath11k_core_qmi_firmware_ready
+f875e405a530d4a6abe0e58df2dc0665e542c4d8 wifi: ath12k: fix GCC_GCC_PCIE_HOT_RST definition for WCN7850
 
---===============8906570558679551653==--
+--===============6185542350072270303==--
