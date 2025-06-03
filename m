@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4985601503607217877=="
+Content-Type: multipart/mixed; boundary="===============1149543053345656996=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 03 Jun 2025 18:18:37 -0000
-Message-Id: <174897471754.2747823.6971252510634718588@gitolite.kernel.org>
+Date: Tue, 03 Jun 2025 18:19:02 -0000
+Message-Id: <174897474284.2748227.5217661843773710187@gitolite.kernel.org>
 
---===============4985601503607217877==
+--===============1149543053345656996==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.24/nfs
-    old: f73dcc876341725bc6fcdfcd827453695c44208b
-    new: eb4ab3174f51b57581af358651aba3b0229248e1
-    log: revlist-f73dcc876341-eb4ab3174f51.txt
+  - ref: refs/heads/kernel-6.12.24/dontcache
+    old: 69ce280b8c0609b3093fd02f910deb2f7cbca80a
+    new: ea126a7846d709b64e1ab7f52280b1770442eb22
+    log: revlist-69ce280b8c06-ea126a7846d7.txt
 
---===============4985601503607217877==
+--===============1149543053345656996==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f73dcc876341-eb4ab3174f51.txt
+Content-Disposition: attachment; filename=revlist-69ce280b8c06-ea126a7846d7.txt
 
 0c6b399e284af3f90f018d844868a887d0ee97d7 NFSv4/pnfs: Reset the layout state after a layoutreturn
 232244bb7d303b92a45e8aa921f2977a874cf5c7 NFS/pnfs: Fix the error path in pnfs_layoutreturn_retry_later_locked()
@@ -125,5 +125,26 @@ aa79c438fda263372c63df2170bc4e4030bb68de nfs_localio: simplify interface to nfsd
 c17f0e92b492d51a339442d5e5626a4c0a1dd060 nfs_localio: protect race between nfs_uuid_put() and nfs_close_local_fh()
 4325f1416397ef36ea8c3e632c7f8cd4f883f4f1 nfs_localio: change nfsd_file_put_local() to take a pointer to __rcu pointer
 eb4ab3174f51b57581af358651aba3b0229248e1 flexfiles/pNFS: update stats on NFS4ERR_DELAY for v4.1 DSes
+7471f7c6757157c31339ed10fd5d57741433e632 mm/filemap: change filemap_create_folio() to take a struct kiocb
+b5777cbc220d93da9bcb6d4b8176ebfc45f7caef mm/filemap: use page_cache_sync_ra() to kick off read-ahead
+34edcfbc8dbcac5baedb899eb0397b000c83f4b6 mm/readahead: add folio allocation helper
+ba9e1529feac3d13651771caa7e987565d2c8732 mm: add PG_dropbehind folio flag
+dfac66daf1d55e84fcdc237150181cda6a0bd9ef mm/readahead: add readahead_control->dropbehind member
+90d5c0994a7ae4b08a3f72513e8c294ade30e85d mm/truncate: add folio_unmap_invalidate() helper
+e07b7d4d70c54fcd3c534f206cb2629a9adab02a fs: add RWF_DONTCACHE iocb and FOP_DONTCACHE file_operations flag
+e77937ed6346f42ddd4aa28b3c836b5775504429 mm/filemap: add read support for RWF_DONTCACHE
+dcea5bc12d9184c143167c29e75ca02211af5042 mm/filemap: drop streaming/uncached pages when writeback completes
+32292e7e0106cea867dd00e8e325c8c76706ee88 mm/filemap: add filemap_fdatawrite_range_kick() helper
+52da864a0cc8425e234eefe3815f1eb6c09a0bd7 mm: call filemap_fdatawrite_range_kick() after IOCB_DONTCACHE issue
+e68e421581a11ddfeafcd5bab05c7a6a5c1e2df0 mm: add FGP_DONTCACHE folio creation flag
+d7d831c5e4c5984ef40e1ec42832f92ae79e8eab iomap: make buffered writes work with RWF_DONTCACHE
+add12c713cfda3446bc5eb0a67d00d056ec1314f xfs: flag as supporting FOP_DONTCACHE
+7cbc56521637c7241259dc358cc43f169c8d0a41 Disable FOP_DONTCACHE for now due to bugs
+d1bc21b585f239dbb07c992879be9ab4e907b3b3 mm/filemap: gate dropbehind invalidate on folio !dirty && !writeback
+eacabf2e81a0fbe97143004472d9b849be340862 mm/filemap: use filemap_end_dropbehind() for read invalidation
+5cab5a5c7fa5eb69d3fe4ca67614598b057b434c Revert "Disable FOP_DONTCACHE for now due to bugs"
+fbbd72052ebe5c6d1804448d321ac9812cf7f364 mm/filemap: unify read/write dropbehind naming
+fd7eab01237d3c875b3b6ccc642cb1a5e409c4a7 mm/filemap: unify dropbehind flag testing and clearing
+ea126a7846d709b64e1ab7f52280b1770442eb22 iomap: don't lose folio dropbehind state for overwrites
 
---===============4985601503607217877==--
+--===============1149543053345656996==--
