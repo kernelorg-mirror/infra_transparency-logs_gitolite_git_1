@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Tue, 03 Jun 2025 13:39:44 -0000
-Message-Id: <174895798431.2503534.9917355491365010134@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux-block
+Date: Tue, 03 Jun 2025 13:49:29 -0000
+Message-Id: <174895856913.2511841.12159459481779054343@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec
-user: klassert
+repo: pub/scm/linux/kernel/git/axboe/linux-block
+user: axboe
 changes:
-  - ref: refs/heads/testing
-    old: b56bbaf8c9ffe02468f6ba8757668e95dda7e62c
-    new: 7eb11c0ab70777b9e5145a5ba1c0a2312c3980b2
+  - ref: refs/heads/for-next
+    old: b801ed05cbf1d161f2446a6145a67308cb34d2a9
+    new: cdff514cbc93680e21175c2bf1b71b7f08c1da94
     log: |
-         94d077c331730510d5611b438640a292097341f0 xfrm: state: initialize state_ptrs earlier in xfrm_state_find
-         7eb11c0ab70777b9e5145a5ba1c0a2312c3980b2 xfrm: state: use a consistent pcpu_id in xfrm_state_find
+         9c989601d74fa8a1132b20f3972f19efd5332fd4 io_uring/kbuf: limit legacy provided buffer lists to USHRT_MAX
+         cdff514cbc93680e21175c2bf1b71b7f08c1da94 Merge branch 'io_uring-6.16' into for-next
+         
+  - ref: refs/heads/io_uring-6.16
+    old: e931d3a9d5200bae9d938be2582072b2898e37f7
+    new: 9c989601d74fa8a1132b20f3972f19efd5332fd4
+    log: |
+         9c989601d74fa8a1132b20f3972f19efd5332fd4 io_uring/kbuf: limit legacy provided buffer lists to USHRT_MAX
          
