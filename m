@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9177750928900820252=="
+Content-Type: multipart/mixed; boundary="===============8299748169454067887=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Tue, 03 Jun 2025 13:32:06 -0000
-Message-Id: <174895752657.2497288.10020568998271592900@gitolite.kernel.org>
+Date: Tue, 03 Jun 2025 13:32:35 -0000
+Message-Id: <174895755546.2497824.9126168787460340112@gitolite.kernel.org>
 
---===============9177750928900820252==
+--===============8299748169454067887==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 0b91fda3a1f044141e1e615456ff62508c32b202
     new: b56bbaf8c9ffe02468f6ba8757668e95dda7e62c
     log: revlist-0b91fda3a1f0-b56bbaf8c9ff.txt
 
---===============9177750928900820252==
+--===============8299748169454067887==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ a869d3a5eb011a9cf9bd864f31f5cf27362de8c7 net: airoha: Initialize PPE UPDMEM sour
 c86fac5365d3a068422beeb508f2741f1a2d734d net: airoha: Fix smac_id configuration in bridge mode
 b56bbaf8c9ffe02468f6ba8757668e95dda7e62c Merge branch 'net-airoha-fix-ipv6-hw-acceleration'
 
---===============9177750928900820252==--
+--===============8299748169454067887==--
