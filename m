@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2929045429198530962=="
+Content-Type: multipart/mixed; boundary="===============8446865857197177240=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 03 Jun 2025 15:43:31 -0000
-Message-Id: <174896541128.2609729.13961346269495158711@gitolite.kernel.org>
+Date: Tue, 03 Jun 2025 15:43:33 -0000
+Message-Id: <174896541353.2609944.5102707774577799657@gitolite.kernel.org>
 
---===============2929045429198530962==
+--===============8446865857197177240==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: d3faab9b5a6a0477d69c38bd11c43aa5e936f929
     new: b56bbaf8c9ffe02468f6ba8757668e95dda7e62c
     log: revlist-d3faab9b5a6a-b56bbaf8c9ff.txt
 
---===============2929045429198530962==
+--===============8446865857197177240==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -56,4 +56,4 @@ a869d3a5eb011a9cf9bd864f31f5cf27362de8c7 net: airoha: Initialize PPE UPDMEM sour
 c86fac5365d3a068422beeb508f2741f1a2d734d net: airoha: Fix smac_id configuration in bridge mode
 b56bbaf8c9ffe02468f6ba8757668e95dda7e62c Merge branch 'net-airoha-fix-ipv6-hw-acceleration'
 
---===============2929045429198530962==--
+--===============8446865857197177240==--
