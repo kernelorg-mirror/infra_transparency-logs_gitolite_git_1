@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
-Date: Tue, 03 Jun 2025 14:46:20 -0000
-Message-Id: <174896198013.2560826.16700295417370587600@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Tue, 03 Jun 2025 14:59:28 -0000
+Message-Id: <174896276890.2571557.6999926640714735559@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
-user: frederic
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/kthread/core
-    old: b1c610052033dc47e8f506136d7821044892f7e3
-    new: e8fa9a06cde680668da6763227a83c50ddac8b6b
+  - ref: refs/heads/nova/vbios
+    old: b09ada9b65626463e4b4320b42a3edea9d2a0445
+    new: 710cf1ea2f1ee2f79e4e0609c95c53255a8ed8ee
     log: |
-         c669c96263b39df8cca57c71570fcf0453dd5582 sched/isolation: Remove HK_TYPE_TICK test from cpu_is_isolated()
-         051741f553671d17cc5f2753cdaa1ecbef86d6d5 kthreads: Include unbound kthreads in the managed affinity list
-         01740972a917015d960ab741e7a67db9bfc04921 kthread: Include kthreadd to the managed affinity list
-         e8fa9a06cde680668da6763227a83c50ddac8b6b kthread: Rely on HK_TYPE_DOMAIN for preferred affinity management
+         122afd7719b9855ac53f7f5677f1d439f9a00cf2 fixup! gpu: nova-core: vbios: Add support for FWSEC ucode extraction
+         43fe12be0cbc9ba77d7db9a6ea801441cff6c9c9 fixup! gpu: nova-core: vbios: Add support for FWSEC ucode extraction
+         127f148fe88809179f4b3d92a5077a7c9950e69f fixup! gpu: nova-core: vbios: Add support for FWSEC ucode extraction
+         8439bf45f07293c08a31000a990b5b077e95ba63 fixup! gpu: nova-core: vbios: Add base support for VBIOS construction and iteration
+         9e75c3fa6d9a0264171c1970286b4b74127e9c80 TODO: Address NPDE comments
+         763b0261557e6ab4741cd06ac50d102462f53498 TODO: Expose FwsecBiosImage as public to get rid of wrappers?
+         29c3f1072e19dac626ddc558868f5377e8c932c9 FIXUP: nova: fwsec: Use fwsec_image directly after vbios changes
+         710cf1ea2f1ee2f79e4e0609c95c53255a8ed8ee fixup! gpu: nova-core: vbios: Add support for FWSEC ucode extraction
          
