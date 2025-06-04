@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0325232757798032786=="
+Content-Type: multipart/mixed; boundary="===============7390705646938318541=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 04 Jun 2025 14:41:34 -0000
-Message-Id: <174904809437.3959255.12010826988352992823@gitolite.kernel.org>
+Date: Wed, 04 Jun 2025 14:41:35 -0000
+Message-Id: <174904809530.3959443.16877179525318789014@gitolite.kernel.org>
 
---===============0325232757798032786==
+--===============7390705646938318541==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,18 +16,18 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.15.y
-    old: 1c700860e8bc079c5c71d73c55e51865d273943c
-    new: 4faf94a8116a7637b2b537d3f6e17eb3e5842c32
+  - ref: refs/heads/linux-6.6.y
+    old: c2603c511feb427b2b09f74b57816a81272932a1
+    new: b28c9cf295ae7d4b91d1a08195a7a17e8e06f3f4
     log: |
-         b745b6713fd10fe69072c56731e8c2559f6f2ffc tracing: Fix compilation warning on arm32
-         021bd1d80ccbe660597d17ea56cec6e19e454331 pinctrl: armada-37xx: use correct OUTPUT_VAL register for GPIOs > 31
-         9bef98dc6875177d93134607801c448e12f52625 pinctrl: armada-37xx: set GPIO output value before setting direction
-         bea29cc971b42a549a2b6ecae435741b54b37f6f acpi-cpufreq: Fix nominal_freq units to KHz in get_max_boost_ratio()
-         4faf94a8116a7637b2b537d3f6e17eb3e5842c32 Linux 5.15.186-rc1
+         a5775d6a69ee3237a932999ad44a271f8b4bcd86 tracing: Fix compilation warning on arm32
+         b130da0de9b403933e406f2afbf573bf1fb750b4 pinctrl: armada-37xx: use correct OUTPUT_VAL register for GPIOs > 31
+         a5fdeede394a5f9ac6e06275b53673d2ba5deb80 pinctrl: armada-37xx: set GPIO output value before setting direction
+         21645da17bb31af80a881e80448f490498400cae acpi-cpufreq: Fix nominal_freq units to KHz in get_max_boost_ratio()
+         b28c9cf295ae7d4b91d1a08195a7a17e8e06f3f4 Linux 6.6.94-rc1
          
 
---===============0325232757798032786==
+--===============7390705646938318541==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,23 +38,23 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1749048128 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1749048092-e9ed0b1d4bde1b71bdb7838b582474cab0635650
 
-1c700860e8bc079c5c71d73c55e51865d273943c 4faf94a8116a7637b2b537d3f6e17eb3e5842c32 refs/heads/linux-5.15.y
+c2603c511feb427b2b09f74b57816a81272932a1 b28c9cf295ae7d4b91d1a08195a7a17e8e06f3f4 refs/heads/linux-6.6.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhAW0AbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+B9YQAIdfB8RO3uZCqeOOlJtj
-9xjzQG8lm/yOzncDYeJY4POZdNM6b025UHL4A23U2TO6y3ZJFdMV5NCZpLjTfjq5
-u1cj7jK+af1pRjtRyhCm6Zsl8epqhy/WL9irEnW1sRk5gjzKxakWsv8AD5DRylME
-bzTy5A+6mFAK1a5LpGfeHQ4JTAAjpMAQicffuW7lDLlXwKMcv40CnY/Rq2lppEQ4
-mx7pZkNjrWpI6bxPvpGuQxqJ11Y65XhY9bADpCPyeV9Lplh0mgM6h6BHY71e+6vc
-Bk79FR98LYVgbRZwui79aJN36Zqmrbd4H3TOKPtDyXn2uNn+icMBCK/SpmmQXCyw
-DV+kmCcoTdgFeDGr8sDEjE8Y1cIUt2TLwKxstxbSnPeCtcCgKGV0JqqnKiii8S68
-+zkwtGvOMopDPg55sR0vn/626NNGLgBiwqJBjIew+3Vj4KR8dII5pGRlHdO5ibbA
-meCAwM1ilYA784XZ58j+r1RfLtnJRhG4vxGJri0xYfIZD2r6IYBy2FRWg9pCPCdU
-wNiIL24uLRYemwrdkFS9vP/cR/kJVM8IoHV3VrKEJPsNJ2sfyCkYVu6LhVoYe0Jz
-SgK2QZLlVzrLjRVxbgeyr3H0L8bE0i3sk7xKpuDGLTYD+Cjd2I/q7ko8wjfX8J7D
-UsMkO3WEIfQPRQeiCaIfgeiI
-=khbc
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhAW0EbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RmYP/ArtPIi7gfVFD1Bru3Hc
+UZ4E1LI2+4Z52Sjf3ZyZQBsEZGqS58s+r6Dw5muF9q5FKuUCR04nIJVdln0m4rvL
+imizSc8/JejZYLcEUYWaAgxus+h7gqLPW5r6+Dd4aKXybW422ZoFCZm0LMz7UgBm
+f9Stb0vLv46/HUB1AFzql8kUpETTDVMSnMfP/4SMcLfkmsLD3P0b1I73wFUANAxJ
+OSSy9o4/Wi+IuFHBUFRaDw0Kfje41JE1d5vNyguEsNVsLU5pL792zGYYkYo6aCuw
+aX3BcsXKnYK0wlw6ag5dOFmEg9QTuFQgqIOQ5twUa84PA2sy4l6xGldF50HF9hYN
+FmGWUpSYD3KdHxmOQJVTfYrNDjlkkeM++XnuEujdBAoc22fKyHm5LnnQsNM53azs
+NrfQE6QF9Y9rLSsdLA4BkoNAOp7ghrG2bNxNY8vFRiQTFidw5lbcpbyabjpP3vJi
+ZOoCLrcwufZPNWTMyovakATftn5TctlI8KW6SBpVra/+IyKM+vOSPyIB80Qu0Jzc
+KtrtaikhppHydZ5NqKNp9DSLJ3P50QxDHEfopQsjlvDn700VEvTHYn8mdZxlxvls
+xPdjSQpyL4Ki6sL8McOKqudRK2t5oY5g6Occx12Ge+e+9ipFdCMClxRN5+5scAMp
+V5750V8/CDw4wb4YLkMgZGHA
+=Y8FS
 -----END PGP SIGNATURE-----
 
---===============0325232757798032786==--
+--===============7390705646938318541==--
