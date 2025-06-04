@@ -1,24 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 04 Jun 2025 16:35:06 -0000
-Message-Id: <174905490697.4060517.4391520203092435344@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Wed, 04 Jun 2025 16:38:38 -0000
+Message-Id: <174905511876.4062284.5098463305516440251@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/master
-    old: 5abc7438f1e9d62e91ad775cc83c9594c48d2282
-    new: 1af80d00e1e026c317c6ec19b1072f81ba7af64c
+  - ref: refs/heads/pending
+    old: 82c57433376fe96a203e8b1957a3ef5dc3aa4065
+    new: 218cf98e8731940645f63482130076760f3c0e7e
     log: |
-         46459154f9979387486fb5f50e4aa425e33a306c mm: kvmalloc: make kmalloc fast path real fast path
-         59c11a7a9a138a28c7dff81032a7b7b6f1794540 LICENSES: add CC0-1.0 license text
-         354ad60e123dad8e231e7443735020806f3c57d0 mm: slub: only warn once when allocating slab obj extensions fails
-         1a576136f8d7089ef7f427dee8aa919a6edaef69 drm/ttm: Fix compile error when CONFIG_SHMEM is not set
-         f5ebe7bb87e04537b37573f0a2516baa90ee23c0 Merge tag 'spdx-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/spdx
-         1af80d00e1e026c317c6ec19b1072f81ba7af64c Merge tag 'slab-for-6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
+         d8edf39995d86f3efcd48ede0d3fc6485cd7086a wifi: ath11k: avoid burning CPU in ath11k_debugfs_fw_stats_request()
+         7adadbf7e0ba60482d7766618a8482432bde80b3 wifi: ath11k: don't use static variables in ath11k_debugfs_fw_stats_process()
+         bb59cdcf3270f74e8b64a8a2665e7aba4dc7e172 wifi: ath11k: don't wait when there is no vdev started
+         b01fa9609c717fbb917f0c84ac7a085b8fb64236 wifi: ath11k: move some firmware stats related functions outside of debugfs
+         3221d483da2383149ca573b2d5f83bdbedc8126f wifi: ath11k: adjust unlock sequence in ath11k_update_stats_event()
+         e26210f959b05d9321a90c339a20c37187336f7c wifi: ath11k: move locking outside of ath11k_mac_get_fw_stats()
+         218cf98e8731940645f63482130076760f3c0e7e wifi: ath11k: consistently use ath11k_mac_get_fw_stats()
          
