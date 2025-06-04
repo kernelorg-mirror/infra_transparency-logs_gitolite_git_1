@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1817991535584941811=="
+Content-Type: multipart/mixed; boundary="===============2502409034602719019=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Wed, 04 Jun 2025 09:40:17 -0000
-Message-Id: <174903001742.3556215.4747808129128999998@gitolite.kernel.org>
+Date: Wed, 04 Jun 2025 09:40:21 -0000
+Message-Id: <174903002188.3556503.13606841199299163007@gitolite.kernel.org>
 
---===============1817991535584941811==
+--===============2502409034602719019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/driver-core-linus
     old: cd2e103d57e5615f9bb027d772f93b9efd567224
     new: 5abc7438f1e9d62e91ad775cc83c9594c48d2282
     log: revlist-cd2e103d57e5-5abc7438f1e9.txt
 
---===============1817991535584941811==
+--===============2502409034602719019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1749030047 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1749030055 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1749030012-bb921854831f22f415e7a83a2c8199be928a1dab
+nonce 1749030020-6212e9dfa55f447aa6362938531371521edf7276
 
-cd2e103d57e5615f9bb027d772f93b9efd567224 5abc7438f1e9d62e91ad775cc83c9594c48d2282 refs/heads/main
+cd2e103d57e5615f9bb027d772f93b9efd567224 5abc7438f1e9d62e91ad775cc83c9594c48d2282 refs/heads/driver-core-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhAFJ8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ygcP/1h1jAGlW7hDFG4roWmZ
-WtlIgtGUm/aMoylxYIzldA3j2I+jNZEKjQ2r60iB6QWxKG5FsyZF1jAQ/ADVm8bI
-HJSI8CLIOx5UGWjPph75VO7Ptx3TWKezUVxWvtHjyrgGhqiyc6WUtXJ9THvuJInZ
-yk1lmhkGHYxEQiscDWMN76Y+hApSheFwDPH9SnM5emsTpMiKtRad8efxePXS0jJX
-JpY3ZDB0JPW1QorRfyawUrHYaOJTnCGcRjBguflQe32E9vsrFciwwhUIglsYsdr4
-fm4T272hawxtcbl+fW6pr6ecurud9BxyTUaTF9XNfmefiqcjih5l7jrWklqDgnWv
-cQLb6PTcIgirZps/3HBio5tgz/wlNFrP5F2Fwgm81CZsCMA8k+kg4EuJRikPUWzW
-5vU1czxFiCfZayrNSxYONOuxfzlJm9YKZyucMZ/9RbTbDqhxh+CIwtS35N14dAFR
-JlhUKtkdtjU/bBCBTStpnJGRNjnsrrJ4zwuDtLW473CH/xWOwCngTyU8e+FkL4AW
-K213QZPUhIr2IKbnfzN0MNk6SEn5PiR+xOsHmuIR4qO8BFesqa4wxAec9YG3EGW4
-gKxJnLEikTQQIj3JJWnmymwjzo+C5H0Kp9Nkh2kQqLIaDXxCycemCvcelubV5Kod
-7FIdKstVW6sATLt4DTlxUPw1
-=YeA2
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhAFKcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tToP/i14plszEUX6zLXK1pMe
+cRhQxYaMccWZLPitb9VsBmEAtxqkFFbtqjfGfkqMQnnBuB07m17eCVLl5ydo8BGP
+2yccoyQSa/rmycrMdsgDTlomrqnD2iRgJEdceqYvtpBhj4EE7I2gv4OefWUikgF7
+Oh0Wkd1bxbEpK36OQxriVt6nmswOV8yLQu1JIwifYygiSXm19Qe10cT7xI8vPCS8
+T8ck8XtzcAjVkYymF3q5x6ZD0+tIba3mEDSGA6sShDsyFa4l0P2kX8BlgDiHQxxk
+E+yO/okTq+VZSUN2h/AZtGtR3f198GjrecI0h8G5m/ZKVKuBxhxpHJq3zt8M+hPg
+J7M9sz8tBxQt9n/i/tjqdWNgPSNPL3TiJLZQIXJ0kBJ4D3whml0G0sbIo2Z1Wzsu
+mGNCR2Z6PxEhc9VZO/Q8w6ScaaqwNcajbiuc+aS8nU5leRHbgSa+yHYm67//CamY
+/GqjySvmi0mvHp9X1EIdkANHdX3bjpfBeGSgYhPol4aX/rvl+UPuZOH+NdhVpKuf
+o4I2R0EKTqP1Y+eUETW9uvCWQxLQNKGD/dn+I6doA0Q2Pfi4cvUH1Qrd2MFUXDc7
++NWDizq6BQGmlYeuFvVKg3pgV1J4ZfXMF/MxDzBjYo2a1uP8Q6oXHx6PziuUpznB
+UWsE3gAv1c1SZMHRIw4C8hrD
+=WoDE
 -----END PGP SIGNATURE-----
 
---===============1817991535584941811==
+--===============2502409034602719019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1034,4 +1034,4 @@ def5b099a6452856801da71ad07c601ae2dbf6ef Merge tag 'cgroup-for-6.16-rc1-fixes' o
 6d9b5f6b81ace1b2b0830271ad46628d6fad31bb Merge tag 'v6.16-rc-part1-smb-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 5abc7438f1e9d62e91ad775cc83c9594c48d2282 Merge tag 'nfs-for-6.16-1' of git://git.linux-nfs.org/projects/anna/linux-nfs
 
---===============1817991535584941811==--
+--===============2502409034602719019==--
