@@ -1,26 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Wed, 04 Jun 2025 18:13:26 -0000
-Message-Id: <174906080673.4141414.1025701502532340628@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Wed, 04 Jun 2025 18:23:40 -0000
+Message-Id: <174906142056.4166997.11965561340690676655@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: pavel
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/linux-6.1.y-cip
-    old: d3c309fa32c43cab6fda9d0ccbf42e602a7e0c02
-    new: 27b836d17f119aa08ac2d2ac40851a2c322706ca
+  - ref: refs/heads/nova/vbios
+    old: 31a14a93f6c37b79bc680b09e61099eb53ab3b3b
+    new: 80b936c4690d297c7765cd1028848d1a71068bf9
     log: |
-         72438b22d84241d62de25b351268d2a365a03f63 clk: renesas: r9a08g045: Add clock, reset and power domain for the remaining SCIFs
-         051ed90c9434ee75f603ccac3e3d5cc055a3cf9e serial: sh-sci: Update the suspend/resume support
-         862f66261743edc30f99481926411167ce76557a serial: sh-sci: Save and restore more registers
-         b47a2a9aae8028f046ef1e0ad8c0c14e4ffeaeda arm64: dts: renesas: r9a08g045: Add the remaining SCIF interfaces
-         2f7e2da3f1660711f671ce37ba0054e638eb4fdf arm64: dts: renesas: rzg3s-smarc: Fix the debug serial alias
-         83bc6351819577234e51a992206d7920e5c434c3 arm64: dts: renesas: rzg3s-smarc-switches: Add a header to describe different switches
-         2be129350581e49a0fa69f95897c0ca0b0f9842c arm64: dts: renesas: rzg3s-smarc: Enable SCIF3
-         27b836d17f119aa08ac2d2ac40851a2c322706ca arm64: dts: renesas: r9a08g045s33-smarc-pmod: Add overlay for SCIF1
+         1f771ae18e5dad81cd94a5e271ecde1604bc26c4 gpu: nova-core: vbios: Add base support for VBIOS construction and iteration
+         700cc1c813d10d5f4dbbebd350701a5b78285bee gpu: nova-core: vbios: Add support to look up PMU table in FWSEC
+         3ec91bccff8c531a6dd368ab61f102e367db6cc6 gpu: nova-core: vbios: Add support for FWSEC ucode extraction
+         1b055c828599b0b0e150822a64863788d963cac9 gpu: nova-core: compute layout of the FRTS region
+         88a67a2d55e04033835d9c5a0f022d25f0663490 gpu: nova-core: add types for patching firmware binaries
+         db20aef3e9f60fd5777077182ea37dc90cf1c408 gpu: nova-core: extract FWSEC from BIOS and patch it to run FWSEC-FRTS
+         80b936c4690d297c7765cd1028848d1a71068bf9 gpu: nova-core: load and run FWSEC-FRTS
          
