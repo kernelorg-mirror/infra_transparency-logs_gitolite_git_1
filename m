@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3845791377930746691=="
+Content-Type: multipart/mixed; boundary="===============6686049478192186615=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 04 Jun 2025 22:32:07 -0000
-Message-Id: <174907632746.199550.6653238752976475032@gitolite.kernel.org>
+Date: Wed, 04 Jun 2025 22:34:20 -0000
+Message-Id: <174907646082.200707.10987823214150006977@gitolite.kernel.org>
 
---===============3845791377930746691==
+--===============6686049478192186615==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/main-pending
-    old: d3c308da337aed95f8ad0f5b99c4b40f4c0bce12
-    new: e95f224cf911d5fc7a929a9814049210f7c79a88
-    log: revlist-d3c308da337a-e95f224cf911.txt
-  - ref: refs/tags/ath-pending-202506042159
-    old: 0000000000000000000000000000000000000000
-    new: e95f224cf911d5fc7a929a9814049210f7c79a88
+  - ref: refs/heads/pending-deferred
+    old: 1b98f357dadd6ea613a435fbaef1a5dd7b35fd21
+    new: 7526d6be619115a1ccc7cf74b022eb68c92a8193
+    log: revlist-1b98f357dadd-7526d6be6191.txt
 
---===============3845791377930746691==
+--===============6686049478192186615==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d3c308da337a-e95f224cf911.txt
+Content-Disposition: attachment; filename=revlist-1b98f357dadd-7526d6be6191.txt
 
 f356ba4a7eb96b46e6ecf40057bb5f0e88f20760 wifi: ath12k: disable pdev for non supported country
 7be934a243067ac10beb2cc56099f235db694d6c wifi: ath12k: Prepare ahvif scan link for parallel scan
@@ -52,6 +49,5 @@ cd805d652bedaacc7a19a267c5e4cc37698296b3 wifi: ath12k: handle WMI event for real
 577df0ab3dfef1621d1814c67bf3de53b785c311 wifi: ath12k: use real noise floor instead of default value
 3d9f8f1d6de9df72cf53317e181d7989377cc99c wifi: ath12k: avoid bit operation on key flags
 7526d6be619115a1ccc7cf74b022eb68c92a8193 wifi: ath12k: install pairwise key first
-e95f224cf911d5fc7a929a9814049210f7c79a88 Merge branch 'pending' into main-pending
 
---===============3845791377930746691==--
+--===============6686049478192186615==--
