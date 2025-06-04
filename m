@@ -1,63 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============3138576990351652555=="
+Content-Type: multipart/mixed; boundary="===============2517811867133075664=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 04 Jun 2025 14:41:16 -0000
-Message-Id: <174904807615.3958660.12021935874712591471@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Wed, 04 Jun 2025 14:41:33 -0000
+Message-Id: <174904809336.3959118.261214362843057496@gitolite.kernel.org>
 
---===============3138576990351652555==
+--===============2517811867133075664==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 2030eefd4a1489c61ab12bcbf9417cf264a129d4
-    new: 606c25cff49655955d5e26e26796051e53616320
+  - ref: refs/heads/linux-5.4.y
+    old: 44613a259decccddd2bd4520f73cc4d5107546c6
+    new: 64a2a777b2fd4ab94dd324b727de5ca71ddea430
     log: |
-         c887ba85b9c9fb7e0b9ece096478eda3ef543c95 5.4-stable patches
-         48fe622d2b2f789567c42c48c81b0390eaf8e4e0 5.10-stable patches
-         bbcb757ee950eb53497e2f22c1bd5f7c15ef80bb 5.15-stable patches
-         a0e689cffb0a32906725eba8bea2b44e71f19351 6.1-stable patches
-         f2c6e0a14f3b8ca7ed1cd6ca20c3c9be3d55eebd 6.6-stable patches
-         033c303ca9e418ad50ae6d7d70b8e9c405f4b35e 6.12-stable patches
-         8daa7bde9145337630f43a48bce08505af8b7d92 6.14-stable patches
-         606c25cff49655955d5e26e26796051e53616320 6.15-stable patches
+         36d6c6cd65043d553126b934bf1fcb79dcb58499 tracing: Fix compilation warning on arm32
+         59b3e946dbc33430c30483b1030b492af79a6cc1 pinctrl: armada-37xx: use correct OUTPUT_VAL register for GPIOs > 31
+         e108fd2d4818275654e292f87c8333ebb886e553 pinctrl: armada-37xx: set GPIO output value before setting direction
+         64a2a777b2fd4ab94dd324b727de5ca71ddea430 Linux 5.4.295-rc1
          
 
---===============3138576990351652555==
+--===============2517811867133075664==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1749048104 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1749048069-b57d9f3d2476d0cfaf58d994acb1bdaec1f1cc8f
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1749048127 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
+nonce 1749048091-75fa2a9aae2f01f5341aca9decca123a9d7ce5f7
 
-2030eefd4a1489c61ab12bcbf9417cf264a129d4 606c25cff49655955d5e26e26796051e53616320 refs/heads/master
+44613a259decccddd2bd4520f73cc4d5107546c6 64a2a777b2fd4ab94dd324b727de5ca71ddea430 refs/heads/linux-5.4.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhAWygbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rWEQAKOOlnlmmddqnj6T8xzU
-OXafBLWA7wCkFyTOnEjnW9kFWjl7t6g6s6BaFGVHhi0UvYBxu2+OxaPFvPJLlCc0
-x5VNkINqKkQSvP+chp7eMHMw/2P1sC7d0HXf32FYaHDKoYIsoVXhBQt8QppKsabD
-0MK1OzwNrQTwunQ/fvVRWJnJ4ud8Nd3gOqChcOm2jao93c5zfhiKNnSxMyq5JvGg
-1bp8GVQW8mWQdHKBruGfXlfgDgwiY47duJfgjpvUiVwVkeGMHBNu2XovMWOQ7rB/
-X7WxJGIflbOFa+vtQhNrcGs3vrfPSpjM/oxDgC56/f3KqFa2D2/XbNYCi9ODfb+O
-9hQs0OmSTWBLUVNfZHdWxnMiNgKKA5shlbeRFbxML/q3mN77Y7nUoj5O0ZXIb75i
-Ohf7kHr7/7EDTfZOOkNCIkfpnxDCCOJ7pM8ks9JyI2m4KjOYdv9cEvDOcfMTItk5
-zdOQ1rDmNyHDGkl+qctpyIklDScJy39Zjp1ljiv4G7ziGNFKRMuNsvyobf5ij/Yo
-XmvvthtM950Kg4JjAATrhgU1lHjdMYEPi5Kl2VE4SBsw+X58fO80HmtchGuDBS+h
-UQxYzhRDLkwxYBL8lKpy12j83MBXizdcpAsCyDJ+YZaOdWEQEcwk+vYVLDOJn1+n
-6HTybUKowwZ1vwZqY7pd4k3v
-=rBz8
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhAWz8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+r0sP/0IrKYo1zF+VD/FNWrwt
+3HFClIGr5C/swR/qa0IojHFW3rd1vu3Q7sC8N6SqSypSTYBzP7lz2e5ozpmikLnx
+M8kp1/QeqTB0fPru7dMRKGRBO3GMY++kSArYyJpPk7e4L8XUBxCOi1pw9RKKQ99a
+eu8hoz1J+N2BatMn0UlIMU4NpD5oCCbzP9i2hCLJ4QRS854sdY4RqsBbVBGVGDTO
+DM9AgRYYgwMDngigv4Z6uJIsIJRZjF85dFA0wMbMz0b3MeqJYDzv/IuRHPzBI84Z
+Z5TKh4t5+ieX5Q2N1IXkSmv74D3ycNKudMpP9t7Rw5EQO/HQ5vMhFg0wvM3GXNR2
+LUP4X1u5m1kclv8t/hrEziJkYUKpp4Awd9Z7SIfKV8v0ZioJj8DZVSjzTUVKGCrx
+WIaUCtwN19AqDLnqm0cCCZSK7pXQclPzQoIMUdxBruQdahJDSB6WNvM/8GmKRojU
+pXJcUluGEPj1HOYtjX66BT1n4WR+eCZ1OsiO7HU+ABpsd1CkhBAiWRXH3loGd5WO
+kKS6pC59QtMB17Y4VFh/JqocSwPLMHGWnFPs43hSnjfIQIHEgZfC6ababrhYu3oJ
+gdIHmLY1Y3gDVbhWVJrJWIUFEY9oyw8Gw2LTNnvYhU2oj7VQN6koVSZ3cwkMhxbw
+hXQZbzenMRlTssH6f3hzymot
+=BHOV
 -----END PGP SIGNATURE-----
 
---===============3138576990351652555==--
+--===============2517811867133075664==--
