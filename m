@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Wed, 04 Jun 2025 14:54:21 -0000
-Message-Id: <174904886113.3970756.2278975234376268820@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Wed, 04 Jun 2025 14:58:31 -0000
+Message-Id: <174904911196.3974776.13529617604194994262@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/master
-    old: fa2c8bfe6794411c18231d94213484122c3bff50
-    new: f60dca4b11df849ac5bbe6cee2b0fc74f54e1e5d
+  - ref: refs/heads/pending
+    old: f875e405a530d4a6abe0e58df2dc0665e542c4d8
+    new: 82c57433376fe96a203e8b1957a3ef5dc3aa4065
     log: |
-         5db6a9a0d4444b3c213bddf0947ce3c60f25c760 Bluetooth: MGMT: Fix UAF on mgmt_remove_adv_monitor_complete
-         f60dca4b11df849ac5bbe6cee2b0fc74f54e1e5d Bluetooth: MGMT: Protect mgmt_pending list with its own lock
+         82c57433376fe96a203e8b1957a3ef5dc3aa4065 wifi: ath10k: Avoid vdev delete timeout when firmware is already down
          
