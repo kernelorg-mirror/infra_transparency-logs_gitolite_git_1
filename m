@@ -1,20 +1,94 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Wed, 04 Jun 2025 21:30:01 -0000
-Message-Id: <174907260134.145544.2879890623158846192@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Wed, 04 Jun 2025 21:31:21 -0000
+Message-Id: <174907268133.147933.10608096405422967452@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
-user: palmer
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/for-next
-    old: 33398dfb9520dc4e90fefc5b8cff4512a3666e39
-    new: b7aeccbc3ae851231084aa1fbe0428e2698a7c3d
-    log: |
-         5a0ad6234a176092c46e7f023c96efb3d98876ab Merge patch series "riscv: add SBI FWFT misaligned exception delegation support"
-         b7aeccbc3ae851231084aa1fbe0428e2698a7c3d riscv: uaccess: Only restore the CSR_STATUS SUM bit
-         
+  - ref: refs/heads/aer
+    old: b06d125e6280603a34d9064cd9c12748ca2edb04
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/bwctrl
+    old: 6ade6e81f898f7f533207b23849ac8cc0ea8c755
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/controller/apple
+    old: 4e639f11d6e06d9b33d29e0ae2c57b993b44ee48
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/controller/cadence
+    old: 3c05e88413f7b7145795dc1ad56983e75bca07a7
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/controller/dw-rockchip
+    old: ec49e253322bf29e721c6153d9e7be95eef33b33
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/controller/dwc
+    old: af3c6eacce0c464f28fe0e3d365b3860aba07931
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/controller/dwc-ep
+    old: 1d79596e86613727006161439f3781e74bdb9fac
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/controller/imx6
+    old: e4d66131caaf18d7c3c69914513f4be0519ddaaf
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/controller/mobiveil
+    old: 5e2664f9e108f66046869ed4990043421919465f
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/controller/mvebu
+    old: 5da3d94a23c6c1ee1f896aeeb00965eacf1d0bb3
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/controller/qcom
+    old: 3e5127469a8d41153fb30031a271788f52dd17ec
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/controller/rcar-gen4
+    old: 003d15b30f3690b14315822439edc2c3f823c6cd
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/controller/rockchip
+    old: a7d824b2df0d8b9e19c334594cdbffab97ff8d66
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/controller/tegra194
+    old: ed798ff1c52f6fe232ce2e24e68fb63f5470ab97
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/devres
+    old: dfc970ad61973111932fc282ebab8d825056d5ab
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/dt-bindings
+    old: db8266017e0a703809c83453112c8d5ceb4f03af
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/endpoint
+    old: de0321bcc5fdd83631f0c2a6fdebfe0ad4e23449
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/enumeration
+    old: ce45dc4bb22e96b59a07e19b67e915d99dd5281b
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/hotplug
+    old: d46b3918fac499f60b7df1cb1437af7344480576
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/irq
+    old: fdc348121f2465897792f946715a5da7887e5f97
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/misc
+    old: 308f8c7a626ecd5b9be67181ae67660e165a29b5
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/pci-acpi
+    old: 631b2af2f35737750af284be22e63da56bf20139
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/pm
+    old: 4d4c10f763d7808fbade28d83d237411603bca05
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/ptm-debugfs
+    old: 5fbfae69e78d242c5efb2a4b62eeea883af145ee
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/pwrctrl
+    old: 46bc169f6f07eca9a7d2346c703ea59bff385e22
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/reset
+    old: f3efb9569b4a21354ef2caf7ab0608a3e14cc6e4
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/virtualization
+    old: 1f3303aa92e15fa273779acac2d0023609de30f1
+    new: 0000000000000000000000000000000000000000
