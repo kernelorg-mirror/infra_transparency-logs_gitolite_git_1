@@ -1,18 +1,18 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Wed, 04 Jun 2025 06:55:22 -0000
-Message-Id: <174902012204.3370180.1917315005984923263@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Wed, 04 Jun 2025 06:57:05 -0000
+Message-Id: <174902022550.3371114.9595497307053145694@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
 user: maz
 changes:
-  - ref: refs/heads/kvm-arm64/sysreg-accessors
-    old: 489526a7caa08463702d91b4a8af197b35f71122
+  - ref: refs/heads/fixes
+    old: 4d62121ce9b58ea23c8d62207cbc604e98ecdc0a
     new: 833b42077e24096c1910c9c4b6c7dcc558036e2c
     log: |
          f42da1aaeb851ec87ed040df483c1231a4ffe082 KVM: arm64: Add assignment-specific sysreg accessor
