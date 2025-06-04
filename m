@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6678097288201245522=="
+Content-Type: multipart/mixed; boundary="===============7378400854379981703=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 04 Jun 2025 09:19:41 -0000
-Message-Id: <174902878117.3537504.1066099984436779138@gitolite.kernel.org>
+Date: Wed, 04 Jun 2025 09:26:44 -0000
+Message-Id: <174902920439.3544103.1812201592747735265@gitolite.kernel.org>
 
---===============6678097288201245522==
+--===============7378400854379981703==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: tglx
 changes:
-  - ref: refs/heads/irq/urgent
-    old: 08fb624802d8786253994d8ebdbbcdaa186f04f5
-    new: 9cc82d99b13c1ad04e3dff9182b7953a8dba10b6
-    log: revlist-08fb624802d8-9cc82d99b13c.txt
+  - ref: refs/heads/timers/urgent
+    old: 94cff94634e506a4a44684bee1875d2dbf782722
+    new: 434d7f9b0e24e1f0166d05f10881a8ab386845b7
+    log: revlist-94cff94634e5-434d7f9b0e24.txt
 
---===============6678097288201245522==
+--===============7378400854379981703==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-08fb624802d8-9cc82d99b13c.txt
+Content-Disposition: attachment; filename=revlist-94cff94634e5-434d7f9b0e24.txt
 
 c38eb2973c18d34a8081d173a6ad298461f4a37c netfilter: xtables: support arpt_mark and ipv6 optstrip for iptables-nft only builds
 839340f7c7bb9a83b95bdf1abbef6dff990e35f5 selftests: netfilter: nft_fib.sh: add 'type' mode tests
@@ -1049,6 +1049,6 @@ def5b099a6452856801da71ad07c601ae2dbf6ef Merge tag 'cgroup-for-6.16-rc1-fixes' o
 3c727285f1c99b4be5458ba68329748b207584ce Merge tag 'for-6.16/dm-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
 6d9b5f6b81ace1b2b0830271ad46628d6fad31bb Merge tag 'v6.16-rc-part1-smb-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 5abc7438f1e9d62e91ad775cc83c9594c48d2282 Merge tag 'nfs-for-6.16-1' of git://git.linux-nfs.org/projects/anna/linux-nfs
-9cc82d99b13c1ad04e3dff9182b7953a8dba10b6 PCI/MSI: Size device MSI domain with the maximum number of vectors
+434d7f9b0e24e1f0166d05f10881a8ab386845b7 timens: Add struct seq_file forward declaration
 
---===============6678097288201245522==--
+--===============7378400854379981703==--
