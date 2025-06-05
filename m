@@ -1,44 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============9095199682050243397=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Thu, 05 Jun 2025 20:42:47 -0000
-Message-Id: <174915616733.1422121.17488807965601906629@gitolite.kernel.org>
-
---===============9095199682050243397==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 05 Jun 2025 20:45:12 -0000
+Message-Id: <174915631243.1425534.1453978391251463414@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-user: masahiroy
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/for-next
-    old: fff45b921e12b27edc448adb6d66d42d0c2d592c
-    new: bdfe687f324b36558725f8a1b6818ae97bd670c9
-    log: revlist-fff45b921e12-bdfe687f324b.txt
-
---===============9095199682050243397==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fff45b921e12-bdfe687f324b.txt
-
-81a93bf93f0e5963d8695a3596ac50b5ceea87c3 tinyconfig: enable CONFIG_LD_DEAD_CODE_DATA_ELIMINATION
-41a77d43f36d3b897755a223b264c45131546b8b kbuild: link lib-y objects to vmlinux forcibly even when CONFIG_MODULES=n
-94145ffb07601674091aadbdca9ce004b1736df4 docs: symbol-namespaces: fix reST warning with literal block
-0f57c75973bedc08a865b06ce1b73ae5b54477c0 kconfig: introduce menu type enum
-a503a313108e26402151f25c1f2628ec91bda605 scripts/tags.sh: allow to use alternative ctags implementation
-89e7fecf5ce2e85a323e58f09aa808218a37079a kbuild: move W=1 check for scripts/misc-check to top-level Makefile
-3a44052b728e5d96ea425f908e71926364a12f11 scripts/misc-check: add double-quotes to satisfy shellcheck
-a934a57a42f64a40705202f84144b1a29b29f910 scripts/misc-check: check missing #include <linux/export.h> when W=1
-7d95680d64ac8e836c35fd56efe77eac4e9cc26b scripts/misc-check: check unnecessary #include <linux/export.h> when W=1
-8c21c4111128365f81a88573eeb2844fa696b299 module: make __mod_device_table__* symbols static
-481d5c31e14347aef33ab715f79831873a60c6e2 efi/libstub: use 'targets' instead of extra-y in Makefile
-3db6f0026e8510c9384397ae0b34cf74f0541e91 kbuild: set y instead of 1 to KBUILD_{BUILTIN,MODULES}
-a0c4e6f8e6ee3ffa48e110f1d9f4ff2b7f722c2b arch: use always-$(KBUILD_BUILTIN) for vmlinux.lds
-bdfe687f324b36558725f8a1b6818ae97bd670c9 genksyms: Fix enum consts from a reference affecting new values
-
---===============9095199682050243397==--
+  - ref: refs/heads/master
+    old: 97744b4971d81bf7336dfd782a08188c9e09f4ee
+    new: a570f386f3d19aa64fb3764504ac80cddb42e579
+    log: |
+         87c9c79a02b45068de10ba4786a29db3cddd53ad libbpf: Add support for printing BTF character arrays as strings
+         a570f386f3d19aa64fb3764504ac80cddb42e579 Tests for the ".emit_strings" functionality in the BTF dumper.
+         
