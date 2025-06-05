@@ -1,55 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============0621994997600070820=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
-Date: Thu, 05 Jun 2025 09:53:07 -0000
-Message-Id: <174911718718.869787.13403062781881786979@gitolite.kernel.org>
-
---===============0621994997600070820==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
+Date: Thu, 05 Jun 2025 10:22:33 -0000
+Message-Id: <174911895300.893251.16571019827005016646@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless
-user: jberg
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/geert/renesas-drivers
+user: geert
 changes:
-  - ref: refs/tags/wireless-2025-06-05
-    old: 63ac083c78077349a95fae7b9d860119b69394d1
-    new: 6a0fddb88104155825d630048303e9ea1f5fa125
+  - ref: refs/heads/renesas-clk-for-v6.17
+    old: 5b48a30c02366c2215cd6f7e2996fdc7c329d322
+    new: d0eec9367208f86916b0e708906af6ca5dd33879
     log: |
-         787fe16b435668205fba19aaa7387972b7575991 Merge tag 'iwlwifi-fixes-2025-06-04' of https://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+         4d357b38782ee13d5683d4d15ad6aa38923959ea clk: renesas: Pass sub struct of cpg_mssr_priv to cpg_clk_register
+         7f3256ab10af529956263510b1e2599274da9156 Merge tag 'renesas-r9a09g077-dt-binding-defs-tag' into renesas-clk-for-v6.17
+         4fabd54092588d6e5d36b93c0132fea4ab5e44b7 clk: renesas: Add support for R9A09G077 SoC
+         e4160b4c54198a41b015e1520c5984641192a843 clk: renesas: rzg2l: Add macro to loop through module clocks
+         c437cfbc30fde0f2ca08b581fbdf07d8576fa65f clk: renesas: rzg2l: Add support for MSTOP in clock enable/disable API
+         3b2fe6c0066a26b12c407cd283f5cd3b9cf32d2e clk: renesas: r9a08g045: Drop power domain instantiation
+         0897e18feb0a3b8ba4a1ab26dc4ea7f5c33934f1 clk: renesas: rzg2l: Drop MSTOP based power domain support
+         6a8efc4754285545a2054617539387bf9356a505 dt-bindings: clock: rzg2l: Drop power domain IDs
+         d0eec9367208f86916b0e708906af6ca5dd33879 Revert "dt-bindings: clock: renesas,rzg2l-cpg: Update #power-domain-cells = <1> for RZ/G3S"
          
-
---===============0621994997600070820==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 7BF9099A 1749117197 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
-nonce 1749117162-e67ff5081531e66389b57b8ac56fa7e87fc1824e
-
-63ac083c78077349a95fae7b9d860119b69394d1 6a0fddb88104155825d630048303e9ea1f5fa125 refs/tags/wireless-2025-06-05
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmhBaQ0ACgkQ10qiO8sP
-aAD17w//beoZ317b588fMhPIDCQS9tHpUSNaMuyREwMGIySLPaDSaCAWHwX9P4iQ
-b9gVLNHrvB/dFuzGgjLTpKYk3sPnWY0F2dLsOrm60P4USXJPEbCIK/LA4eDdp4d9
-qdGMvRFx8hJ40FJIYJaoRH5B7vBOodY8n84eKyL2GmUR9TRay9zGxzb8wo6gOjIG
-CVsAjTj+sPu0KwfuyX6eyqoJTqf3sXk9WwVgFOEOVEYTGQkvArODDpJt7YW+WX2b
-WcyAc6EIMa5adKGZOTiG8PAo52QoNt4Y5LQjGTT5V1dLIedm+1xDzslwUfsHWiGj
-1C9hEyoeVC2av+tJkUgvFrpGFu8nldyM2K6SzIniUq28Xc8KtbeuQm7B218ck/jW
-T5SmjXOQIMgfPo56j9UOLOIm3v9seiM3vFFTpb5fD4RQlzw4IblSOsg4FnN4FrAi
-ytLz4jIeEKzXzOUUXvo4gH/dsOzUY5G1/B3zADBHoPgEi1mY4G+Fv6+v14nMJ4Ft
-xW6we/asR5mw6Afltcz14ZCdmmFp3VebKTbIPi7/1vs8MU6bTj1nXpVmL/Jt1CaO
-LjKg6DFvwIWM00u14lkHJwQv1N/iCJpI6oBKHrOtdTCjOXbcnr3mKQTuDKZSqayR
-ZPfxlOtnrtImObPkbBNafO8HMDAGeE72nt/nK3rPCFfc4uMi2UE=
-=a/KY
------END PGP SIGNATURE-----
-
---===============0621994997600070820==--
