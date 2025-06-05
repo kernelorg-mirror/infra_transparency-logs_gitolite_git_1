@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3556818782665796716=="
+Content-Type: multipart/mixed; boundary="===============4733267437619733156=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 05 Jun 2025 15:24:52 -0000
-Message-Id: <174913709206.1152593.479486574840785014@gitolite.kernel.org>
+Date: Thu, 05 Jun 2025 15:24:57 -0000
+Message-Id: <174913709717.1152874.17967276255601190772@gitolite.kernel.org>
 
---===============3556818782665796716==
+--===============4733267437619733156==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 0e74ba817150a4a54ff1984483be432a7b90154c
-    new: 6f5f64938d4937b3bccdaebdafe5659a44fe99b9
-    log: revlist-0e74ba817150-6f5f64938d49.txt
+  - ref: refs/heads/1GbE
+    old: b56bbaf8c9ffe02468f6ba8757668e95dda7e62c
+    new: 3cae906e1a6184cdc9e4d260e4dbdf9a118d94ad
+    log: revlist-b56bbaf8c9ff-3cae906e1a61.txt
 
---===============3556818782665796716==
+--===============4733267437619733156==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0e74ba817150-6f5f64938d49.txt
+Content-Disposition: attachment; filename=revlist-b56bbaf8c9ff-3cae906e1a61.txt
 
 930faf1eb8d70226ac804b61e5cd79b17fb3261d ovpn: properly deconfigure UDP-tunnel
 ba499a07ce1d912e48e225eadd9b3f994b05fd58 ovpn: ensure sk is still valid during cleanup
@@ -72,17 +72,5 @@ e6854be4d80ea266a7be64a65a0322bcdfa72807 selftests: drv-net: tso: make bkg() wai
 feafc73f3e6ae73371777a037d41d2e31c929636 net: prevent a NULL deref in rtnl_create_link()
 7632fedb266d93ed0ed9f487133e6c6314a9b2d1 seg6: Fix validation of nexthop addresses
 3cae906e1a6184cdc9e4d260e4dbdf9a118d94ad calipso: unlock rcu before returning -EAFNOSUPPORT
-532130ad33b0d83719a97272fae11f48500582ac coccinelle: misc: secs_to_jiffies script: Create dummy report
-ed4655a7f31866b879b61740420ae65034f26f2e ice: fix lane number calculation
-f126dc2a383f8b7c5e12a2439b0acc8ef0ca073d ice: fix fwlog after driver reinit
-619182ebf05006b9ae3f896954ec796678908aff iavf: fix reset_task for early reset event
-7ed69c7f5793a1f56fe22830c832262e786cd2c8 ice: fix eswitch code memory leak in reset scenario
-7fa83b1a65438e7fe0081d7f3f8086fac9ef0099 i40e: return false from i40e_reset_vf if reset is in progress
-86acb0083371ee7154078fb5bb45429dd3fd9712 i40e: retry VFLR handling if there is ongoing VF reset
-1adf62486926c3513ad30950f564f0418e35da10 ice/ptp: fix crosstimestamp reporting
-a291603acd3555732275624492487eac064a9212 net: ice: Perform accurate aRFS flow match
-75ef22c3d6154589311effe0e7ddb740f79281bf ice: add NULL check in eswitch lag check
-af62fd1a7c51b44327d64440b459083d4a9c5d60 idpf: return 0 size for RSS key if not supported
-6f5f64938d4937b3bccdaebdafe5659a44fe99b9 e1000e: set fixed clock frequency indication for Nahum 11 and Nahum 13
 
---===============3556818782665796716==--
+--===============4733267437619733156==--
