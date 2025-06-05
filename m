@@ -1,108 +1,290 @@
-Content-Type: multipart/mixed; boundary="===============7464898805085996863=="
+Content-Type: multipart/mixed; boundary="===============6679379435917170251=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Thu, 05 Jun 2025 03:01:26 -0000
-Message-Id: <174909248646.443699.5533572372761532770@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
+Date: Thu, 05 Jun 2025 03:26:10 -0000
+Message-Id: <174909397027.463878.4278827830275944875@gitolite.kernel.org>
 
---===============7464898805085996863==
+--===============6679379435917170251==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/akpm/mm
+user: akpm
 changes:
-  - ref: refs/heads/master
-    old: 16b70698aa3ae7888826d0c84567c72241cf6713
-    new: 64980441d26995ea5599958740dbf6d791e81e27
-    log: revlist-16b70698aa3a-64980441d269.txt
+  - ref: refs/heads/mm-everything
+    old: f8bc0b1001487c86aed0239179b4b59b3ad20bdc
+    new: 5f06cff3f478a62a930cfbd1e22bf7b450cd40ec
+    log: revlist-f8bc0b100148-5f06cff3f478.txt
+  - ref: refs/heads/mm-hotfixes-unstable
+    old: ca3620037cb5ec03986974f70b375902bf7f1f67
+    new: 0b02b9e551d6b6b59803b522825cf436568bc011
+    log: revlist-ca3620037cb5-0b02b9e551d6.txt
+  - ref: refs/heads/mm-new
+    old: 80bb0b2983e95be26d929303d589276875c8900a
+    new: 574966cc970ddc4ec6fb435bbbca9804d92e4953
+    log: revlist-80bb0b2983e9-574966cc970d.txt
+  - ref: refs/heads/mm-nonmm-unstable
+    old: bcb52f617778fb6bfb6e3c1ef6fcc6001f49f88e
+    new: 80c67c94ecb38e281b32630dc002dbf693eca23d
+    log: revlist-bcb52f617778-80c67c94ecb3.txt
+  - ref: refs/heads/mm-unstable
+    old: 2d0c297637e7d59771c1533847c666cdddc19884
+    new: c7839b3db2fb8eeb685f3a8517b958ed3efbb950
+    log: revlist-2d0c297637e7-c7839b3db2fb.txt
 
---===============7464898805085996863==
+--===============6679379435917170251==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-16b70698aa3a-64980441d269.txt
+Content-Disposition: attachment; filename=revlist-f8bc0b100148-5f06cff3f478.txt
 
-7098ba57c443868cab250a3a5db72c89ffbd9026 bcachefs: fix REFLINK_P_MAY_UPDATE_OPTIONS
-97e69f12edb19a17589ca0b6f3988b2a28af87c8 bcachefs: Fix missing BTREE_UPDATE_internal_snapshot_node
-eb21736021865112f8e1bec20fe55f995bc4e771 ksmbd: use SHA-256 library API instead of crypto_shash API
-d91c0751d0a622bd29b6078a6d0e183c8342a574 ksmbd: remove unnecessary softdep on crc32
-ff875d4b474739662d7fefece7532ff77c8b3b70 bcachefs: Ensure we print output of run_recovery_pass if it errors
-dc37dcca8cb71d7ddddfd5035619eeb27c5aab8d bcachefs: bch2_kthread_io_clock_wait_once()
-9e2c3c2ed4772cb0e2ad5b0def08c2c943483445 bcachefs: Fix lost rebalance wakeups
-1cda5b88e6d13ebf42078253abbb2ed0efe9ab0a bcachefs: Fix missing commit in check_dirents
-686db67a8ebecdc6eb7b9ca8ef8eddb99bdf1083 bcachefs: Move unicode message to after the startup message
-72ab5136e86fcbccebb4a423d83332f41a7bd697 bcachefs: Don't rewind to run a recovery pass we already ran
-571781eb7ffefa65b0e922c8031e42b4411a40d4 ksmbd: provide zero as a unique ID to the Mac client
-dc3e0f17f74558e8a2fce00608855f050de10230 ksmbd: allow a filename to contain special characters on SMB3.1.1 posix extension
-cd04497b10e6178a7510329465d05788b906ce5f bcachefs: Journal read error message improvements
-d6efd42a8450c67d283dbaacd127dcccca858f51 bcachefs: Fix infinite loop in journal_entry_btree_keys_to_text()
-060ff4b794748ef5d290c9b58075453ed4eac59d bcachefs: trace_io_move_pred
-c7897b5055df20e954c269897052c9397e0fff1a bcachefs: io_move_evacuate_bucket tracepoint, counter
-327971cef509c6380ed4bd8587fad26ceb2ab90b bcachefs: Catch data_update_done events in trace_io_move_start_fail
-813825d24135aa3109cf7746ce11f1ec2ab901fd bcachefs: Fix incorrect multiple dev check in journal write path
-f54b2a80d0df06f8c13cbd102ca9dc2c6a578c5c bcachefs: Fix misaligned bucket check in journal space calculations
-99813d88e371c3a60d65810125b8d1568364f254 bcachefs: Add missing error logging in delete_dead_inodes()
-0d25264ecfa3868c9308684fe344da1eb2f4502c bcachefs: Kill bkey_buf in btree_path_down()
-19c0a8aa8ae302a3b038283c7d7eee0371ae3bf5 bcachefs: btree_node_missing_err()
-cd831a9494524726babf835434da1438bcff6f45 bcachefs: factor out break_cycle_fail()
-92caf17189a5b32bb9349a7a1f329cdd5fa51eb4 bcachefs: Don't stack allocate bch_writepage_state
-56e5c7f65f582d60e900f356f0dff542b90630b1 bcachefs: kill replicas_sectors arg to __trigger_extent()
-0c34e7ff69036ffcb006ee86fd0143f3620dd491 bcachefs: Tweak bch2_data_update_init() for stack usage
-eabef52ff881e91f41c7bd6696c9355d12fc00c2 bcachefs: bch2_alloc_v4_to_text()
-ff6369da9ac366f4a18735902ab8f50f5690ee83 bcachefs: reduce stack usage in alloc_sectors_start()
-e87de7d4918bd43901685dd1dd5620fc1aafd0aa bcachefs: Move devs_sorted to alloc_request
-a7c9add482c7b0e7e28433816fa9e8f7b890086e bcachefs: Include b->ob.nr in cached_btree_node_to_text()
-66b7c51ceb9f08e7dfb6b25e811b5b791100eda8 bcachefs: bch2_check_fix_ptrs() can now repair btree roots
-f1dc067bc10ac95550869dbe25dc4db1420f4f6a bcachefs: sysfs/errors
-66621f016d792157fc661fe2cce40ab128009d79 bcachefs: Add missing printbuf_reset() in bch2_check_dirent_inode_dirent()
-dc43f6a70b9685acabfda210f7cbb0520e952510 bcachefs: Mark bch_errcode helpers __attribute__((const))
-642c1aabb001ee8410e6bfb6654b23bcead64e4e bcachefs: Use bch2_err_matches() for BCH_ERR_fsck_(fix|ignore)
-f02d15327455822ed80e0b7d70b2ab3568a0389e bcachefs: Don't unlock trans before data_update_init()
-0224d17d762ce036fde5ad18dd33236db6fca88b bcachefs: Runtime self healing for keys for deleted snapshots
-d21262d4e35d448cbc80092c91f04cc0a5f2b0b4 bcachefs: bch2_dev_journal_bucket_delete()
-801cb2bd6cb7ef2f4568b6646f92234c225c0932 bcachefs: bch2_get_snapshot_overwrites()
-cb6f5d0decea51225b297b0ad3c393de12d68bf0 bcachefs: __bch2_insert_snapshot_whiteouts() refactoring
-a5922682602788a0f9b37d58e15d7247ad6c54d4 bcachefs: bch2_str_hash_check_key() may now be called without snapshots_seen
-f402d9710b3e55fa2e47a939f69e4267d6d4406f bcachefs: bch2_readdir() now calls str_hash_check_key()
-6447544c3d1473c9d8945e2cc0f3c71eba4c354b bcachefs: Improve error printing in btree_node_check_topology()
-9a1accd3a57d4bfb6daeee2262b1b24b57ec2382 bcachefs: Journal keys are retained until shutdown, or journal replay finishes
-5802caf74fa5647a0e560b585bf7d1ac65b20e11 bcachefs: darray_find(), darray_find_p()
-1f42a0335a721eca962f792794e864797d09087a bcachefs: sysfs trigger_emergency_read_only
-a0f7437906d115c3fff1b6242f57ca87262a879b bcachefs: sysfs trigger_journal_commit
-237a8e16bd71cce84e0e3404e1ed8df2b5d63c7c bcachefs: CLASS(printbuf)
-42359f1615cf0c8184de67408ab294b574cfaaf6 bcachefs: CLASS(darray)
-9cb49fbf734609c79ba29c43d98e1230ecd1361a bcachefs: CLASS(btree_trans)
-18dad454cd16cbb4c219dbd19a0008af52eb294a bcachefs: Replace rcu_read_lock() with guards
-132263220ddacaa5d4a93c34675eb9639dcc3707 bcachefs: Add better logging to fsck_rename_dirent()
-4b65d5ae971430287855a89635a184c489bd02a5 selftests/bpf: Fix bpf selftest build error
-baa39c169dd526cb0186187fc44ec462266efcc6 selftests/bpf: Fix selftest btf_tag/btf_type_tag_percpu_vmlinux_helper failure
-165815c296076132f0399bd892fd879fc597ac83 bcachefs: Convert BUG() to error
-d47db3e63679541f4dd4696ce4661b6917cb9684 bcachefs: Delete redundant fsck_err()
-95fafc0f3407a6446082c11849df585bd3246571 bcachefs: Kill un-reverted directory i_size code
-36a2fdf7c5c1ccae6ca16cd14067567096cebe17 bcachefs: Repair code for directory i_size
-09b9c72bd4b77a954123997377665fb30f1d07e1 bcachefs: bch_err_throw()
-a2ffab0e659831761443f3ae6341c30e845dce43 bcachefs: bch2_require_recovery_pass()
-0942b852d4070e448231d2e204ac82ad47f5920a bcachefs: BCH_RECOVERY_PASS_NO_RATELIMIT
-e49cf9b54bc8b4c41c7aac8f12adb709f2015470 bcachefs: Make check_key_has_snapshot safer
-a4907d7f3380f19c11a6191feac85b563439012a bcachefs: Run snapshot deletion out of system_long_wq
-c72def523799a0b054fd7cbbed32509e365db55b bcachefs: Run check_dirents second time if required
-01d925f7e18360f740e7b75bfad9b6e55fd4dc53 bcachefs: Fix -Wc23-extensions in bch2_check_dirents()
-35c1f131bc5ff9d6fb9599b3ae5a15dd83a27e31 bcachefs: Redo bch2_dirent_init_name()
-b938d3c970175b2f3d22865dc077482fc6137828 bcachefs: Fix bch2_fsck_rename_dirent() for casefold
-2bf380c005adcc653464215a5170afa3367c0b22 bcachefs: Fix dirent_casefold_mismatch repair
-9f2dc5f39431a17d304e5845a3f7e78905473442 bcachefs: Fix oops in btree_node_seq_matches()
-bfaac2c54694f72d08db5cfad0a1fce2a4c7e45e bcachefs: Add flags to subvolume_to_text()
-bb6689bbeebc6fb51f0f120b486bdcc9a38ffcf6 bcachefs: delete dead code from may_delete_deleted_inode()
-09fb85ae565645b982e9030dbb2ff6707f2cdddc bcachefs: Run may_delete_deleted_inode() checks in bch2_inode_rm()
-29cc6fb7c068c773049d3bde14b939033893eff4 bcachefs: Fix subvol to missing root repair
-a4b0f750505cc4ffdafca3e8e6bd731341c6bb68 bcachefs: Make journal read log message a bit quieter
-3d11125ff624b540334f7134d98b94f3b980e85d bcachefs: add cond_resched() to handle_overwrites()
-ff0905bbf991f4337b5ebc19c0d43525ebb0d96b Merge tag 'bcachefs-2025-06-04' of git://evilpiepirate.org/bcachefs
-d2fec01e89447729c7b9d722a8e7ef9d1184c7be Merge tag '6.16-rc-ksmbd-server-fixes' of git://git.samba.org/ksmbd
-64980441d26995ea5599958740dbf6d791e81e27 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
+6291701adbbcd4e68150183baaf61d5bab0ddfc4 KVM: s390: rename PROT_NONE to PROT_TYPE_DUMMY
+131d75252a1dc9d0c63d6ab8e48f3e562a95024f mm: fix vmstat after removing NR_BOUNCE
+a8e535d6c2eeda4885a9fb949f847dd7194123d5 mm/madvise: handle madvise_lock() failure during race unwinding
+88839dbe3600a1150da7eddbe91f281103368803 alloc_tag: handle module codetag load errors as module load failures
+b0f17fc5bb71ef0d719b47c07160798129d2df02 mm/mempolicy: fix incorrect freeing of wi_kobj
+2d6130cc1bb4ce774e74eab1fe7b044f71c788ce iov_iter: use iov_offset for length calculation in iov_iter_aligned_bvec
+03bca1ab83b14ca54bf6db88869624cfb7012b9a MAINTAINERS: add Alistair as reviewer of mm memory policy
+29ee46c58ccbd5535586467fe102c3e29a4826ed mm/hugetlb: unshare page tables during VMA split, not before
+f84f152c2108d2caaeaa776bcaec73d8a150fb20 mm/hugetlb: fix huge_pmd_unshare() vs GUP-fast race
+06c5a62dc4f0a91f4e505639f2497a96e76dbe1e MAINTAINERS: add tlb trace events to MMU GATHER AND TLB INVALIDATION
+5077c278973d19ffcb0222b8b32d7aca7256f0f3 kmsan: test: add module description
+4240e3470abc35cc064d9264c9b05dcac2890b42 mm: userfaultfd: fix race of userfaultfd_move and swap cache
+d8cd76bb329e53071fd8c5b436583422ee830c74 MAINTAINERS: add mm swap section
+0b02b9e551d6b6b59803b522825cf436568bc011 kernel/rcu/tree_stall: add /sys/kernel/rcu_stall_count
+28de47dac43dac469143959a8a01ddd8ac4a88a4 mm/damon: s/primitives/code/ on comments
+9e5e8712822b5a4e9e4f5202487e31fd8ad1671b mm: fix uprobe pte be overwritten when expanding vma
+d4e6759ce20955044354834d92d5f10e270b3c27 mm: expose abnormal new_pte during move_ptes
+af400ef7bf9d11eb04ada37678e6184653357664 mm-expose-abnormal-new_pte-during-move_ptes-fix
+9b7737e2dd533c20e0c336095099f38a5f2779ad selftests/mm: extract read_sysfs and write_sysfs into vm_util
+f1f708d4228e1bd777afecbe125f07319c635a76 selftests/mm: add test about uprobe pte be orphan during vma merge
+c7839b3db2fb8eeb685f3a8517b958ed3efbb950 selftests-mm-add-test-about-uprobe-pte-be-orphan-during-vma-merge-fix
+500609acfca1948fc74351bea7e9a59ec84f4850 mm: restore documentation for __free_pages()
+007aea67bb617c73c572fd98a05e0047c0aead0d docs/mm: expand vma doc to highlight pte freeing, non-vma traversal
+9cf72cbbdf6a6bdbe4b0146d2470740d8d01e5bb mm/mempolicy: skip unnecessary synchronize_rcu()
+297165a30d2f68cf093c7a9ef4e93b9a9ea548a6 mm: vmscan: apply proportional reclaim pressure for memcg when MGLRU is enabled
+6cac1f9a8ce2843eb5b678bd49e4b6bd55527a1e tools/mm: add script to display page state for a given PID and VADDR
+c0b64e15409ea0619da26b8081ca45cb003908f8 mm: ksm: have KSM VMA checks not require a VMA pointer
+94f8d488e6981915670289d26d55c3fbaa472462 mm: ksm: refer to special VMAs via VM_SPECIAL in ksm_compatible()
+e83f52b451b6d74eecfdcc775401b8230623d885 mm: prevent KSM from breaking VMA merging for new VMAs
+3c998648c1c4cbe3f038b5a608e33472a38ee0fc tools/testing/selftests: add VMA merge tests for KSM merge
+7e2c8247dd0622e9f53516ed66865b28eb146a32 mm/alloc_tag: add the ARCH_NEEDS_WEAK_PER_CPU macro when statically defining the percpu variable alloc_tag_counters
+933850e70de80a989035f2ad5944458cbb3c3121 mm/hugetlb: convert hugetlb_change_protection() to folios
+ff2ad0881bcea43a05e64801905b8f87a9310c33 hugetlb: block hugetlb file creation if hugetlb is not set up
+8199523b7edfcda7b572270f5f45d9494cf935c3 mm,slub: do not special case N_NORMAL nodes for slab_nodes
+88e78fc54ba093e68bc99f10a46feccb92db2f45 mm,memory_hotplug: implement numa node notifier
+3ff434d7537b272b9a5dc03a75b145017df1b936 mm,memory_hotplug: rename status_change_nid parameter in memory_notify
+120976f9c0ee60b4d99f1fd9ee9854207c0f48b9 mm/vmstat: fix build with MEMCG=y and VM_EVENT_COUNTERS=n
+5fb3fd5b431976678815890b93a7940b99796335 mm: strictly check vmstat_text array size
+c150d10eb8c30eaabada56e3a2251424a2f111c9 mm/vmstat: utilize designated initializers for the vmstat_text array
+6903cd81a42c6db8b8aa9671c17f26695809160d mm: Kconfig: use verb *use* in plural form in description
+eef9c44d6cce1ebff5491bcc251a0512efd0ace7 drivers/base/node: optimize memory block registration to reduce boot time
+41fb53ee1dfbec11879160a74c214c9afda2591f drivers/base/node: remove register_mem_block_under_node_early()
+c58248ad0d891776f62d825293bb77e6c71d56d8 drivers/base/node: remove register_memory_blocks_under_node() function call from register_one_node
+42960bb83542a4e301277d11adf80e2064e5c56a drivers/base/node: rename register_memory_blocks_under_node() and remove context argument
+07fc875dde055f747418adca5d56666e52a7e3a3 drivers/base/node: rename __register_one_node() to register_one_node()
+ca011cb607c1c1af4ceb3cbfd7c1663dd61bed09 mm: remove unused mmap tracepoints
+6ff8b6cbce3941058c393f9e9e322081b601170e mm: remove PFN_MAP, PFN_SPECIAL, PFN_SG_CHAIN and PFN_SG_LAST
+8246b375fc3986db778fa1b0f59eaf4b69d83d5b mm/pagewalk: split walk_page_range_novma() into kernel/user parts
+c14ee0fd146818f4aa9d3edebc4fbcdf30250ab7 mm/damon: introduce DAMON_STAT module
+1f5937c60b149dff1f6769eb4cbbedcf0cad6ab5 mm/damon/stat: use IS_ENABLED() for enabled initial value
+be22df6b45e8278f507dc62f30b6786f1c4c41f6 mm/damon/stat: calculate and expose estimated memory bandwidth
+13885cb058fc4ea614b5e9ae6f708a33c9e4f28b mm/damon/stat: calculate and expose idle time percentiles
+229d0609f44d8a59ac5ac7de4a0bf1308274dfd7 Docs/admin-guide/mm/damon: add DAMON_STAT usage document
+10161661954e81b020f5a1f23fa15a304e8bb5c8 mm/gup: remove (VM_)BUG_ONs
+cfe2e27c9a8c8aea111bb1752b8d7ffafe73642e mm: rename CONFIG_PAGE_BLOCK_ORDER to CONFIG_PAGE_BLOCK_MAX_ORDER.
+89581eb48cdf4505515d1f5b8de5ae809c6d5f3e mm: khugepaged: allow khugepaged to check all anonymous mTHP orders
+d7250a733ff648a3f6961d6d983eb5009d2ca569 mm: khugepaged: kick khugepaged for enabling none-PMD-sized mTHPs
+9edb3bc3047fede6adc2889e38297baa1943ee67 mm/hugetlb: remove unnecessary holding of hugetlb_lock
+074dfb64fb330e4918673d0cb0222c092d5872f6 mm, list_lru: refactor the locking code
+df3613669e0a0e54fcb998f5feffc2d5518874a0 mm: split out a writeout helper from pageout
+77f14085a67f2085a1b1d5336110b2d0f8d65211 mm: stop passing a writeback_control structure to shmem_writeout
+97405c9f74800a3acd5df754c0bd6131bb7e9cb1 mm: tidy up swap_writeout
+e133ac140b2d742b37c743817d7e6f75532a9b3e mm: stop passing a writeback_control structure to __swap_writepage
+e6641bbfdcf27c38e5e84e038a3ee285fb9d7cfa mm: stop passing a writeback_control structure to swap_writeout
+1a12cf6754dcd42bcaa2ecdedb7f0489b7ba48b3 mm: fix the inaccurate memory statistics issue for users
+ca451a15fd39d4815e78661513b8b87f0f1cf046 mm: swap: move nr_swap_pages counter decrement from folio_alloc_swap() to swap_range_alloc()
+975520bb934e580f24ab4a8442a825da845da6ea mm: swap: correctly use maxpages in swapon syscall to avoid potential deadloop
+fd4899687652d330f9970ea7dad02773543b6e49 mm: swap: fix potential buffer overflow in setup_clusters()
+2f6a0254bb3f1c4af98c28741fd4b2200008df8f mm: swap: remove stale comment stale comment in cluster_alloc_swap_entry()
+bcb7c89fa97f39ec44cdaa16da6fd461e239f722 mm: add zblock allocator
+da51ee17a05d04cb5916790cbe8555f1e1a9c3dc mm-add-zblock-allocator-fix
+5634caffaf486e4a2aacd47929cae64c4f14a795 mm-add-zblock-allocator-fix-2
+3595cc17e890d514e3bf0e2e0a578a55ca67cfd9 mm-add-zblock-allocator-fix-2-fix
+1f374d2e3549b299efcf576ba2f1daf4f8a6db9b mm-add-zblock-allocator-fix-3
+5e14375789a64e14078e0b9dfe1358eb036a3673 mm/zblock: add debugfs
+0fdf3f8ef0e99c2e9782bad4b560cab43ee4e958 mm/zblock: avoid failing the build
+336f78dc44e5428f4c41618fe2736590c1c98175 mm-zblock-avoid-failing-the-build-fix
+2678412304501a6b445b889f3ac22a03d7fab983 mm/zblock: use vmalloc for page allocations
+574966cc970ddc4ec6fb435bbbca9804d92e4953 mm/zblock: make active_list rcu_list
+ab3d6338fe28e54c22a13c78ac4324d996102658 include/linux/jhash.h: replace __get_unaligned_cpu32 in jhash function
+7470be1a01c28c0a74d6de80cb96a36e6e886566 ocfs2: replace simple_strtol with kstrtol
+ad7f4ea6e36e7d9ef869978b396f63fd1091c55c proc: avoid use-after-free in proc_reg_open()
+80c67c94ecb38e281b32630dc002dbf693eca23d alpha: replace sprintf()/strcpy() with scnprintf()/strscpy()
+5f06cff3f478a62a930cfbd1e22bf7b450cd40ec foo
 
---===============7464898805085996863==--
+--===============6679379435917170251==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-ca3620037cb5-0b02b9e551d6.txt
+
+6291701adbbcd4e68150183baaf61d5bab0ddfc4 KVM: s390: rename PROT_NONE to PROT_TYPE_DUMMY
+131d75252a1dc9d0c63d6ab8e48f3e562a95024f mm: fix vmstat after removing NR_BOUNCE
+a8e535d6c2eeda4885a9fb949f847dd7194123d5 mm/madvise: handle madvise_lock() failure during race unwinding
+88839dbe3600a1150da7eddbe91f281103368803 alloc_tag: handle module codetag load errors as module load failures
+b0f17fc5bb71ef0d719b47c07160798129d2df02 mm/mempolicy: fix incorrect freeing of wi_kobj
+2d6130cc1bb4ce774e74eab1fe7b044f71c788ce iov_iter: use iov_offset for length calculation in iov_iter_aligned_bvec
+03bca1ab83b14ca54bf6db88869624cfb7012b9a MAINTAINERS: add Alistair as reviewer of mm memory policy
+29ee46c58ccbd5535586467fe102c3e29a4826ed mm/hugetlb: unshare page tables during VMA split, not before
+f84f152c2108d2caaeaa776bcaec73d8a150fb20 mm/hugetlb: fix huge_pmd_unshare() vs GUP-fast race
+06c5a62dc4f0a91f4e505639f2497a96e76dbe1e MAINTAINERS: add tlb trace events to MMU GATHER AND TLB INVALIDATION
+5077c278973d19ffcb0222b8b32d7aca7256f0f3 kmsan: test: add module description
+4240e3470abc35cc064d9264c9b05dcac2890b42 mm: userfaultfd: fix race of userfaultfd_move and swap cache
+d8cd76bb329e53071fd8c5b436583422ee830c74 MAINTAINERS: add mm swap section
+0b02b9e551d6b6b59803b522825cf436568bc011 kernel/rcu/tree_stall: add /sys/kernel/rcu_stall_count
+
+--===============6679379435917170251==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-80bb0b2983e9-574966cc970d.txt
+
+6291701adbbcd4e68150183baaf61d5bab0ddfc4 KVM: s390: rename PROT_NONE to PROT_TYPE_DUMMY
+131d75252a1dc9d0c63d6ab8e48f3e562a95024f mm: fix vmstat after removing NR_BOUNCE
+a8e535d6c2eeda4885a9fb949f847dd7194123d5 mm/madvise: handle madvise_lock() failure during race unwinding
+88839dbe3600a1150da7eddbe91f281103368803 alloc_tag: handle module codetag load errors as module load failures
+b0f17fc5bb71ef0d719b47c07160798129d2df02 mm/mempolicy: fix incorrect freeing of wi_kobj
+2d6130cc1bb4ce774e74eab1fe7b044f71c788ce iov_iter: use iov_offset for length calculation in iov_iter_aligned_bvec
+03bca1ab83b14ca54bf6db88869624cfb7012b9a MAINTAINERS: add Alistair as reviewer of mm memory policy
+29ee46c58ccbd5535586467fe102c3e29a4826ed mm/hugetlb: unshare page tables during VMA split, not before
+f84f152c2108d2caaeaa776bcaec73d8a150fb20 mm/hugetlb: fix huge_pmd_unshare() vs GUP-fast race
+06c5a62dc4f0a91f4e505639f2497a96e76dbe1e MAINTAINERS: add tlb trace events to MMU GATHER AND TLB INVALIDATION
+5077c278973d19ffcb0222b8b32d7aca7256f0f3 kmsan: test: add module description
+4240e3470abc35cc064d9264c9b05dcac2890b42 mm: userfaultfd: fix race of userfaultfd_move and swap cache
+d8cd76bb329e53071fd8c5b436583422ee830c74 MAINTAINERS: add mm swap section
+0b02b9e551d6b6b59803b522825cf436568bc011 kernel/rcu/tree_stall: add /sys/kernel/rcu_stall_count
+28de47dac43dac469143959a8a01ddd8ac4a88a4 mm/damon: s/primitives/code/ on comments
+9e5e8712822b5a4e9e4f5202487e31fd8ad1671b mm: fix uprobe pte be overwritten when expanding vma
+d4e6759ce20955044354834d92d5f10e270b3c27 mm: expose abnormal new_pte during move_ptes
+af400ef7bf9d11eb04ada37678e6184653357664 mm-expose-abnormal-new_pte-during-move_ptes-fix
+9b7737e2dd533c20e0c336095099f38a5f2779ad selftests/mm: extract read_sysfs and write_sysfs into vm_util
+f1f708d4228e1bd777afecbe125f07319c635a76 selftests/mm: add test about uprobe pte be orphan during vma merge
+c7839b3db2fb8eeb685f3a8517b958ed3efbb950 selftests-mm-add-test-about-uprobe-pte-be-orphan-during-vma-merge-fix
+500609acfca1948fc74351bea7e9a59ec84f4850 mm: restore documentation for __free_pages()
+007aea67bb617c73c572fd98a05e0047c0aead0d docs/mm: expand vma doc to highlight pte freeing, non-vma traversal
+9cf72cbbdf6a6bdbe4b0146d2470740d8d01e5bb mm/mempolicy: skip unnecessary synchronize_rcu()
+297165a30d2f68cf093c7a9ef4e93b9a9ea548a6 mm: vmscan: apply proportional reclaim pressure for memcg when MGLRU is enabled
+6cac1f9a8ce2843eb5b678bd49e4b6bd55527a1e tools/mm: add script to display page state for a given PID and VADDR
+c0b64e15409ea0619da26b8081ca45cb003908f8 mm: ksm: have KSM VMA checks not require a VMA pointer
+94f8d488e6981915670289d26d55c3fbaa472462 mm: ksm: refer to special VMAs via VM_SPECIAL in ksm_compatible()
+e83f52b451b6d74eecfdcc775401b8230623d885 mm: prevent KSM from breaking VMA merging for new VMAs
+3c998648c1c4cbe3f038b5a608e33472a38ee0fc tools/testing/selftests: add VMA merge tests for KSM merge
+7e2c8247dd0622e9f53516ed66865b28eb146a32 mm/alloc_tag: add the ARCH_NEEDS_WEAK_PER_CPU macro when statically defining the percpu variable alloc_tag_counters
+933850e70de80a989035f2ad5944458cbb3c3121 mm/hugetlb: convert hugetlb_change_protection() to folios
+ff2ad0881bcea43a05e64801905b8f87a9310c33 hugetlb: block hugetlb file creation if hugetlb is not set up
+8199523b7edfcda7b572270f5f45d9494cf935c3 mm,slub: do not special case N_NORMAL nodes for slab_nodes
+88e78fc54ba093e68bc99f10a46feccb92db2f45 mm,memory_hotplug: implement numa node notifier
+3ff434d7537b272b9a5dc03a75b145017df1b936 mm,memory_hotplug: rename status_change_nid parameter in memory_notify
+120976f9c0ee60b4d99f1fd9ee9854207c0f48b9 mm/vmstat: fix build with MEMCG=y and VM_EVENT_COUNTERS=n
+5fb3fd5b431976678815890b93a7940b99796335 mm: strictly check vmstat_text array size
+c150d10eb8c30eaabada56e3a2251424a2f111c9 mm/vmstat: utilize designated initializers for the vmstat_text array
+6903cd81a42c6db8b8aa9671c17f26695809160d mm: Kconfig: use verb *use* in plural form in description
+eef9c44d6cce1ebff5491bcc251a0512efd0ace7 drivers/base/node: optimize memory block registration to reduce boot time
+41fb53ee1dfbec11879160a74c214c9afda2591f drivers/base/node: remove register_mem_block_under_node_early()
+c58248ad0d891776f62d825293bb77e6c71d56d8 drivers/base/node: remove register_memory_blocks_under_node() function call from register_one_node
+42960bb83542a4e301277d11adf80e2064e5c56a drivers/base/node: rename register_memory_blocks_under_node() and remove context argument
+07fc875dde055f747418adca5d56666e52a7e3a3 drivers/base/node: rename __register_one_node() to register_one_node()
+ca011cb607c1c1af4ceb3cbfd7c1663dd61bed09 mm: remove unused mmap tracepoints
+6ff8b6cbce3941058c393f9e9e322081b601170e mm: remove PFN_MAP, PFN_SPECIAL, PFN_SG_CHAIN and PFN_SG_LAST
+8246b375fc3986db778fa1b0f59eaf4b69d83d5b mm/pagewalk: split walk_page_range_novma() into kernel/user parts
+c14ee0fd146818f4aa9d3edebc4fbcdf30250ab7 mm/damon: introduce DAMON_STAT module
+1f5937c60b149dff1f6769eb4cbbedcf0cad6ab5 mm/damon/stat: use IS_ENABLED() for enabled initial value
+be22df6b45e8278f507dc62f30b6786f1c4c41f6 mm/damon/stat: calculate and expose estimated memory bandwidth
+13885cb058fc4ea614b5e9ae6f708a33c9e4f28b mm/damon/stat: calculate and expose idle time percentiles
+229d0609f44d8a59ac5ac7de4a0bf1308274dfd7 Docs/admin-guide/mm/damon: add DAMON_STAT usage document
+10161661954e81b020f5a1f23fa15a304e8bb5c8 mm/gup: remove (VM_)BUG_ONs
+cfe2e27c9a8c8aea111bb1752b8d7ffafe73642e mm: rename CONFIG_PAGE_BLOCK_ORDER to CONFIG_PAGE_BLOCK_MAX_ORDER.
+89581eb48cdf4505515d1f5b8de5ae809c6d5f3e mm: khugepaged: allow khugepaged to check all anonymous mTHP orders
+d7250a733ff648a3f6961d6d983eb5009d2ca569 mm: khugepaged: kick khugepaged for enabling none-PMD-sized mTHPs
+9edb3bc3047fede6adc2889e38297baa1943ee67 mm/hugetlb: remove unnecessary holding of hugetlb_lock
+074dfb64fb330e4918673d0cb0222c092d5872f6 mm, list_lru: refactor the locking code
+df3613669e0a0e54fcb998f5feffc2d5518874a0 mm: split out a writeout helper from pageout
+77f14085a67f2085a1b1d5336110b2d0f8d65211 mm: stop passing a writeback_control structure to shmem_writeout
+97405c9f74800a3acd5df754c0bd6131bb7e9cb1 mm: tidy up swap_writeout
+e133ac140b2d742b37c743817d7e6f75532a9b3e mm: stop passing a writeback_control structure to __swap_writepage
+e6641bbfdcf27c38e5e84e038a3ee285fb9d7cfa mm: stop passing a writeback_control structure to swap_writeout
+1a12cf6754dcd42bcaa2ecdedb7f0489b7ba48b3 mm: fix the inaccurate memory statistics issue for users
+ca451a15fd39d4815e78661513b8b87f0f1cf046 mm: swap: move nr_swap_pages counter decrement from folio_alloc_swap() to swap_range_alloc()
+975520bb934e580f24ab4a8442a825da845da6ea mm: swap: correctly use maxpages in swapon syscall to avoid potential deadloop
+fd4899687652d330f9970ea7dad02773543b6e49 mm: swap: fix potential buffer overflow in setup_clusters()
+2f6a0254bb3f1c4af98c28741fd4b2200008df8f mm: swap: remove stale comment stale comment in cluster_alloc_swap_entry()
+bcb7c89fa97f39ec44cdaa16da6fd461e239f722 mm: add zblock allocator
+da51ee17a05d04cb5916790cbe8555f1e1a9c3dc mm-add-zblock-allocator-fix
+5634caffaf486e4a2aacd47929cae64c4f14a795 mm-add-zblock-allocator-fix-2
+3595cc17e890d514e3bf0e2e0a578a55ca67cfd9 mm-add-zblock-allocator-fix-2-fix
+1f374d2e3549b299efcf576ba2f1daf4f8a6db9b mm-add-zblock-allocator-fix-3
+5e14375789a64e14078e0b9dfe1358eb036a3673 mm/zblock: add debugfs
+0fdf3f8ef0e99c2e9782bad4b560cab43ee4e958 mm/zblock: avoid failing the build
+336f78dc44e5428f4c41618fe2736590c1c98175 mm-zblock-avoid-failing-the-build-fix
+2678412304501a6b445b889f3ac22a03d7fab983 mm/zblock: use vmalloc for page allocations
+574966cc970ddc4ec6fb435bbbca9804d92e4953 mm/zblock: make active_list rcu_list
+
+--===============6679379435917170251==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-bcb52f617778-80c67c94ecb3.txt
+
+6291701adbbcd4e68150183baaf61d5bab0ddfc4 KVM: s390: rename PROT_NONE to PROT_TYPE_DUMMY
+131d75252a1dc9d0c63d6ab8e48f3e562a95024f mm: fix vmstat after removing NR_BOUNCE
+a8e535d6c2eeda4885a9fb949f847dd7194123d5 mm/madvise: handle madvise_lock() failure during race unwinding
+88839dbe3600a1150da7eddbe91f281103368803 alloc_tag: handle module codetag load errors as module load failures
+b0f17fc5bb71ef0d719b47c07160798129d2df02 mm/mempolicy: fix incorrect freeing of wi_kobj
+2d6130cc1bb4ce774e74eab1fe7b044f71c788ce iov_iter: use iov_offset for length calculation in iov_iter_aligned_bvec
+03bca1ab83b14ca54bf6db88869624cfb7012b9a MAINTAINERS: add Alistair as reviewer of mm memory policy
+29ee46c58ccbd5535586467fe102c3e29a4826ed mm/hugetlb: unshare page tables during VMA split, not before
+f84f152c2108d2caaeaa776bcaec73d8a150fb20 mm/hugetlb: fix huge_pmd_unshare() vs GUP-fast race
+06c5a62dc4f0a91f4e505639f2497a96e76dbe1e MAINTAINERS: add tlb trace events to MMU GATHER AND TLB INVALIDATION
+5077c278973d19ffcb0222b8b32d7aca7256f0f3 kmsan: test: add module description
+4240e3470abc35cc064d9264c9b05dcac2890b42 mm: userfaultfd: fix race of userfaultfd_move and swap cache
+d8cd76bb329e53071fd8c5b436583422ee830c74 MAINTAINERS: add mm swap section
+0b02b9e551d6b6b59803b522825cf436568bc011 kernel/rcu/tree_stall: add /sys/kernel/rcu_stall_count
+ab3d6338fe28e54c22a13c78ac4324d996102658 include/linux/jhash.h: replace __get_unaligned_cpu32 in jhash function
+7470be1a01c28c0a74d6de80cb96a36e6e886566 ocfs2: replace simple_strtol with kstrtol
+ad7f4ea6e36e7d9ef869978b396f63fd1091c55c proc: avoid use-after-free in proc_reg_open()
+80c67c94ecb38e281b32630dc002dbf693eca23d alpha: replace sprintf()/strcpy() with scnprintf()/strscpy()
+
+--===============6679379435917170251==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-2d0c297637e7-c7839b3db2fb.txt
+
+6291701adbbcd4e68150183baaf61d5bab0ddfc4 KVM: s390: rename PROT_NONE to PROT_TYPE_DUMMY
+131d75252a1dc9d0c63d6ab8e48f3e562a95024f mm: fix vmstat after removing NR_BOUNCE
+a8e535d6c2eeda4885a9fb949f847dd7194123d5 mm/madvise: handle madvise_lock() failure during race unwinding
+88839dbe3600a1150da7eddbe91f281103368803 alloc_tag: handle module codetag load errors as module load failures
+b0f17fc5bb71ef0d719b47c07160798129d2df02 mm/mempolicy: fix incorrect freeing of wi_kobj
+2d6130cc1bb4ce774e74eab1fe7b044f71c788ce iov_iter: use iov_offset for length calculation in iov_iter_aligned_bvec
+03bca1ab83b14ca54bf6db88869624cfb7012b9a MAINTAINERS: add Alistair as reviewer of mm memory policy
+29ee46c58ccbd5535586467fe102c3e29a4826ed mm/hugetlb: unshare page tables during VMA split, not before
+f84f152c2108d2caaeaa776bcaec73d8a150fb20 mm/hugetlb: fix huge_pmd_unshare() vs GUP-fast race
+06c5a62dc4f0a91f4e505639f2497a96e76dbe1e MAINTAINERS: add tlb trace events to MMU GATHER AND TLB INVALIDATION
+5077c278973d19ffcb0222b8b32d7aca7256f0f3 kmsan: test: add module description
+4240e3470abc35cc064d9264c9b05dcac2890b42 mm: userfaultfd: fix race of userfaultfd_move and swap cache
+d8cd76bb329e53071fd8c5b436583422ee830c74 MAINTAINERS: add mm swap section
+0b02b9e551d6b6b59803b522825cf436568bc011 kernel/rcu/tree_stall: add /sys/kernel/rcu_stall_count
+28de47dac43dac469143959a8a01ddd8ac4a88a4 mm/damon: s/primitives/code/ on comments
+9e5e8712822b5a4e9e4f5202487e31fd8ad1671b mm: fix uprobe pte be overwritten when expanding vma
+d4e6759ce20955044354834d92d5f10e270b3c27 mm: expose abnormal new_pte during move_ptes
+af400ef7bf9d11eb04ada37678e6184653357664 mm-expose-abnormal-new_pte-during-move_ptes-fix
+9b7737e2dd533c20e0c336095099f38a5f2779ad selftests/mm: extract read_sysfs and write_sysfs into vm_util
+f1f708d4228e1bd777afecbe125f07319c635a76 selftests/mm: add test about uprobe pte be orphan during vma merge
+c7839b3db2fb8eeb685f3a8517b958ed3efbb950 selftests-mm-add-test-about-uprobe-pte-be-orphan-during-vma-merge-fix
+
+--===============6679379435917170251==--
