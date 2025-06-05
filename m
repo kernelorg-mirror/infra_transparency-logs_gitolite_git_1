@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8246762790554033228=="
+Content-Type: multipart/mixed; boundary="===============8335372628408648058=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 05 Jun 2025 15:25:02 -0000
-Message-Id: <174913710215.1153116.12970646782621331986@gitolite.kernel.org>
+Date: Thu, 05 Jun 2025 15:25:04 -0000
+Message-Id: <174913710452.1154822.18399213784971311628@gitolite.kernel.org>
 
---===============8246762790554033228==
+--===============8335372628408648058==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,28 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
-    old: 120f28a6f314fef7f282c99f196923fe44081cad
+  - ref: refs/heads/100GbE
+    old: b56bbaf8c9ffe02468f6ba8757668e95dda7e62c
     new: 3cae906e1a6184cdc9e4d260e4dbdf9a118d94ad
-    log: revlist-120f28a6f314-3cae906e1a61.txt
+    log: revlist-b56bbaf8c9ff-3cae906e1a61.txt
 
---===============8246762790554033228==
+--===============8335372628408648058==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-120f28a6f314-3cae906e1a61.txt
+Content-Disposition: attachment; filename=revlist-b56bbaf8c9ff-3cae906e1a61.txt
 
 930faf1eb8d70226ac804b61e5cd79b17fb3261d ovpn: properly deconfigure UDP-tunnel
 ba499a07ce1d912e48e225eadd9b3f994b05fd58 ovpn: ensure sk is still valid during cleanup
 a6a5e87b3ee4cbf9c69a776565378c9b6a91dbfb ovpn: avoid sleep in atomic context in TCP RX error path
 fdf4064aaebe4379e6d441141bed83d51b52ad04 selftest/net/ovpn: fix TCP socket creation
 9c7e8b31da035fe81399891b2630a8e0c4b09137 selftest/net/ovpn: fix missing file
+dba35a4bb4a3da5696f2a179b7d695dc3ea25fb8 iavf: iavf_suspend(): take RTNL before netdev_lock()
+099418da91b7d3d46ddcccbb03075cc4f1ba2d44 iavf: centralize watchdog requeueing itself
+ecb4cd0461accc446d20a7a167f39ed2fd5e9b0e iavf: simplify watchdog_task in terms of adminq task scheduling
+257a8241ad7f4dc312494f69e3bc79a5598b4514 iavf: extract iavf_watchdog_step() out of iavf_watchdog_task()
+05702b5c949bd46243181833d4726f4c5e95f5e3 iavf: sprinkle netdev_assert_locked() annotations
+120f28a6f314fef7f282c99f196923fe44081cad iavf: get rid of the crit lock
 12c331b29c7397ac3b03584e12902990693bc248 gve: add missing NULL check for gve_alloc_pending_packet() in TX DQO
 264c844abb29530b3e16d255f1eb2ccb06316b1f wifi: iwlwifi: mvm: fix assert on suspend
 960c7e6d388034d219dafffa6da0a5c2ccd5ff30 wifi: iwlwifi: mld: avoid panic on init failure
@@ -67,4 +73,4 @@ feafc73f3e6ae73371777a037d41d2e31c929636 net: prevent a NULL deref in rtnl_creat
 7632fedb266d93ed0ed9f487133e6c6314a9b2d1 seg6: Fix validation of nexthop addresses
 3cae906e1a6184cdc9e4d260e4dbdf9a118d94ad calipso: unlock rcu before returning -EAFNOSUPPORT
 
---===============8246762790554033228==--
+--===============8335372628408648058==--
