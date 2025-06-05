@@ -1,20 +1,39 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Thu, 05 Jun 2025 19:11:37 -0000
-Message-Id: <174915069730.1347505.2540010971771794277@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============9007535644223675629=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Thu, 05 Jun 2025 19:39:24 -0000
+Message-Id: <174915236412.1368296.301151592616583089@gitolite.kernel.org>
+
+--===============9007535644223675629==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/master
-    old: f60dca4b11df849ac5bbe6cee2b0fc74f54e1e5d
-    new: 7615e0c7b24ad0a789a7722aaaa4656a00ec1ded
-    log: |
-         8dfaf658a378050d5444084bc46688baa707d357 Bluetooth: Fix NULL pointer deference on eir_get_service_data
-         7615e0c7b24ad0a789a7722aaaa4656a00ec1ded Bluetooth: hci_sync: Fix broadcast/PA when using an existing instance
-         
+  - ref: refs/heads/for-next
+    old: 23c065268f4f2e09010793cd32f4d71fabf0fb42
+    new: 1caf3c308a93774cfa4e2bc0ff504ff09557cb8f
+    log: revlist-23c065268f4f-1caf3c308a93.txt
+
+--===============9007535644223675629==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-23c065268f4f-1caf3c308a93.txt
+
+847689d2a0c4b4778459c387ec561465e521d963 Merge patch series "riscv: Add Zicbop & prefetchw support"
+9811c864f5d72effcaf476a80645f0ad3de4469d MAINTAINERS: Update Atish's email address
+c39d53750ff96b282c869a0184a7c3ecfd298ca8 riscv: Improve Kconfig help for RISCV_ISA_V_PREEMPTIVE
+9d3da7827536b8e41e4188185622816a105b46f7 Merge tag 'riscv-mw1-6.16-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/alexghiti/linux into for-next
+7bc76fb3883aaba56b16dc4009ba8a490b8dc6ab RISC-V: Documentation: Add enough title underlines to CMODX
+c4fd1d6ff53d02565b6a169973214be2728290b4 Merge tag 'riscv-mw2-6.16-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/alexghiti/linux into for-next
+a21d57e4ddead4c1759ef9066e2e6d8fad902a43 riscv: uaccess: Only restore the CSR_STATUS SUM bit
+645ccdd5905b8465d086565a41c6c1f26fcaa383 Merge patch series "riscv: misaligned: fix misaligned accesses handling in put/get_user()"
+1caf3c308a93774cfa4e2bc0ff504ff09557cb8f Merge patch series "riscv: add SBI FWFT misaligned exception delegation support"
+
+--===============9007535644223675629==--
