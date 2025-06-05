@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============9007535644223675629=="
+Content-Type: multipart/mixed; boundary="===============0306282506292637332=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
-Date: Thu, 05 Jun 2025 19:39:24 -0000
-Message-Id: <174915236412.1368296.301151592616583089@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Thu, 05 Jun 2025 19:39:29 -0000
+Message-Id: <174915236903.1369048.129551976827381690@gitolite.kernel.org>
 
---===============9007535644223675629==
+--===============0306282506292637332==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/palmer/linux
+repo: pub/scm/linux/kernel/git/riscv/linux
 user: palmer
 changes:
   - ref: refs/heads/for-next
@@ -20,7 +20,7 @@ changes:
     new: 1caf3c308a93774cfa4e2bc0ff504ff09557cb8f
     log: revlist-23c065268f4f-1caf3c308a93.txt
 
---===============9007535644223675629==
+--===============0306282506292637332==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -36,4 +36,4 @@ a21d57e4ddead4c1759ef9066e2e6d8fad902a43 riscv: uaccess: Only restore the CSR_ST
 645ccdd5905b8465d086565a41c6c1f26fcaa383 Merge patch series "riscv: misaligned: fix misaligned accesses handling in put/get_user()"
 1caf3c308a93774cfa4e2bc0ff504ff09557cb8f Merge patch series "riscv: add SBI FWFT misaligned exception delegation support"
 
---===============9007535644223675629==--
+--===============0306282506292637332==--
