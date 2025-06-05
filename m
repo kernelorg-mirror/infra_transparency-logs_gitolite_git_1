@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4733267437619733156=="
+Content-Type: multipart/mixed; boundary="===============2887444005897059799=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 05 Jun 2025 15:24:57 -0000
-Message-Id: <174913709717.1152874.17967276255601190772@gitolite.kernel.org>
+Date: Thu, 05 Jun 2025 15:24:59 -0000
+Message-Id: <174913709949.1152979.3312322858510411822@gitolite.kernel.org>
 
---===============4733267437619733156==
+--===============2887444005897059799==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: b56bbaf8c9ffe02468f6ba8757668e95dda7e62c
     new: 3cae906e1a6184cdc9e4d260e4dbdf9a118d94ad
     log: revlist-b56bbaf8c9ff-3cae906e1a61.txt
 
---===============4733267437619733156==
+--===============2887444005897059799==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -73,4 +73,4 @@ feafc73f3e6ae73371777a037d41d2e31c929636 net: prevent a NULL deref in rtnl_creat
 7632fedb266d93ed0ed9f487133e6c6314a9b2d1 seg6: Fix validation of nexthop addresses
 3cae906e1a6184cdc9e4d260e4dbdf9a118d94ad calipso: unlock rcu before returning -EAFNOSUPPORT
 
---===============4733267437619733156==--
+--===============2887444005897059799==--
