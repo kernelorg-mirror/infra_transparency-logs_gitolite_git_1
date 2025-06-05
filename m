@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0567976308711190880=="
+Content-Type: multipart/mixed; boundary="===============2352209943950655637=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 05 Jun 2025 06:19:53 -0000
-Message-Id: <174910439376.673614.4947837789197200196@gitolite.kernel.org>
+Date: Thu, 05 Jun 2025 06:20:10 -0000
+Message-Id: <174910441064.675510.2414847343489176449@gitolite.kernel.org>
 
---===============0567976308711190880==
+--===============2352209943950655637==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,24 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 166cdd887dd119068a97213ba22a5bab7a910b7f
-    new: 618c5233554f811650aaddd203d337af239ae99d
-    log: revlist-166cdd887dd1-618c5233554f.txt
+    old: 618c5233554f811650aaddd203d337af239ae99d
+    new: 337964c8abfbef645cbbe25245e25c11d9d1fc4c
+    log: |
+         82e1d1f658bc0571e2fc01497e8b3ab11f4e868f Merge branch into tip/master: 'irq/urgent'
+         211eb4f05615e2424c4468680bade59a7b186108 Merge branch into tip/master: 'perf/urgent'
+         f4c74c534181f01f70f8fb563af28bba3e81a4c5 Merge branch into tip/master: 'timers/urgent'
+         337964c8abfbef645cbbe25245e25c11d9d1fc4c Merge branch into tip/master: 'x86/urgent'
+         
+  - ref: refs/heads/tip/urgent
+    old: 9362569b217891020ef02d31dfdda7657bb8f394
+    new: 337964c8abfbef645cbbe25245e25c11d9d1fc4c
+    log: revlist-9362569b2178-337964c8abfb.txt
 
---===============0567976308711190880==
+--===============2352209943950655637==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-166cdd887dd1-618c5233554f.txt
+Content-Disposition: attachment; filename=revlist-9362569b2178-337964c8abfb.txt
 
 e1e1a3ae7f9f0cb06e80af0f24927be63149d081 mm: convert track_pfn_insert() to pfnmap_setup_cachemode*()
 db44863a4d9df3604c4ff76507bb2056b6392e58 mm: introduce pfnmap_track() and pfnmap_untrack() and use them for memremap
@@ -1046,9 +1055,9 @@ ff0905bbf991f4337b5ebc19c0d43525ebb0d96b Merge tag 'bcachefs-2025-06-04' of git:
 d2fec01e89447729c7b9d722a8e7ef9d1184c7be Merge tag '6.16-rc-ksmbd-server-fixes' of git://git.samba.org/ksmbd
 64980441d26995ea5599958740dbf6d791e81e27 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 ec7714e4947909190ffb3041a03311a975350fe0 Merge tag 'rust-6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/ojeda/linux
-c47a1da436b0432837b1926778de8479c009561e Merge branch 'linus'
-1a09e961058ac90a9999b403b7a94f5e4a84690a Merge branch into tip/master: 'irq/urgent'
-dcff18910d1483df3dcb554b20345700d56a0aa5 Merge branch into tip/master: 'timers/urgent'
-618c5233554f811650aaddd203d337af239ae99d Merge branch into tip/master: 'x86/urgent'
+82e1d1f658bc0571e2fc01497e8b3ab11f4e868f Merge branch into tip/master: 'irq/urgent'
+211eb4f05615e2424c4468680bade59a7b186108 Merge branch into tip/master: 'perf/urgent'
+f4c74c534181f01f70f8fb563af28bba3e81a4c5 Merge branch into tip/master: 'timers/urgent'
+337964c8abfbef645cbbe25245e25c11d9d1fc4c Merge branch into tip/master: 'x86/urgent'
 
---===============0567976308711190880==--
+--===============2352209943950655637==--
