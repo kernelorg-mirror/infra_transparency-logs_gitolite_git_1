@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5306615075167300565=="
+Content-Type: multipart/mixed; boundary="===============9095199682050243397=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Thu, 05 Jun 2025 20:42:33 -0000
-Message-Id: <174915615354.1421766.9749289988106998944@gitolite.kernel.org>
+Date: Thu, 05 Jun 2025 20:42:47 -0000
+Message-Id: <174915616733.1422121.17488807965601906629@gitolite.kernel.org>
 
---===============5306615075167300565==
+--===============9095199682050243397==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/kbuild
-    old: 85c4f3d89b17f569e9b718df6b6e19d6081f01c7
+  - ref: refs/heads/for-next
+    old: fff45b921e12b27edc448adb6d66d42d0c2d592c
     new: bdfe687f324b36558725f8a1b6818ae97bd670c9
-    log: revlist-85c4f3d89b17-bdfe687f324b.txt
+    log: revlist-fff45b921e12-bdfe687f324b.txt
 
---===============5306615075167300565==
+--===============9095199682050243397==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-85c4f3d89b17-bdfe687f324b.txt
+Content-Disposition: attachment; filename=revlist-fff45b921e12-bdfe687f324b.txt
 
 81a93bf93f0e5963d8695a3596ac50b5ceea87c3 tinyconfig: enable CONFIG_LD_DEAD_CODE_DATA_ELIMINATION
 41a77d43f36d3b897755a223b264c45131546b8b kbuild: link lib-y objects to vmlinux forcibly even when CONFIG_MODULES=n
@@ -41,4 +41,4 @@ a934a57a42f64a40705202f84144b1a29b29f910 scripts/misc-check: check missing #incl
 a0c4e6f8e6ee3ffa48e110f1d9f4ff2b7f722c2b arch: use always-$(KBUILD_BUILTIN) for vmlinux.lds
 bdfe687f324b36558725f8a1b6818ae97bd670c9 genksyms: Fix enum consts from a reference affecting new values
 
---===============5306615075167300565==--
+--===============9095199682050243397==--
