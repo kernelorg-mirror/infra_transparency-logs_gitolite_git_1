@@ -1,50 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============8916444736503754049=="
+Content-Type: multipart/mixed; boundary="===============8320597098046549139=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
-Date: Fri, 06 Jun 2025 02:01:12 -0000
-Message-Id: <174917527224.1687377.7647368774476161898@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Fri, 06 Jun 2025 02:39:32 -0000
+Message-Id: <174917757223.1716259.15235169257173973075@gitolite.kernel.org>
 
---===============8916444736503754049==
+--===============8320597098046549139==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfstests-dev
-user: zlang
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/patches-in-queue
-    old: b7680adf9ff7bdc962fb95b5cbd304abd3137b69
-    new: 3c96950fd06e7ace4f020f2805f1a7b84457c4fa
-    log: revlist-b7680adf9ff7-3c96950fd06e.txt
+  - ref: refs/heads/tmp.perf-tools-next
+    old: a913ef6fd883c05bd6538ed21ee1e773f0d750b7
+    new: 7ac7cac78d202cb9dd264f4655c7200c0decd695
+    log: revlist-a913ef6fd883-7ac7cac78d20.txt
 
---===============8916444736503754049==
+--===============8320597098046549139==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b7680adf9ff7-3c96950fd06e.txt
+Content-Disposition: attachment; filename=revlist-a913ef6fd883-7ac7cac78d20.txt
 
-b9666a70cb85e1a9d9a4d938e7458116f4567e14 generic/765: fix a few issues
-01b46074f237a9792eafa2eb797f7918da5a2360 generic/765: adjust various things
-909ee4c8a75b28e012581122f935e160eef6b6bd generic/765: move common atomic write code to a library file
-fce21ab7afff4518e6663e37fd22268c3f8f07a5 common/atomicwrites: adjust a few more things
-4f2e4be4a632369e0015026f1965264904a085bf common/atomicwrites: fix _require_scratch_write_atomic
-4b12c46aa728946b3a5badfc7355c627fc8c1fdc generic/696: add _require_chmod
-2d9dac4ef7639aae53b6aea47761bf6be2cf0658 generic/656: add _require_chown
-2f14ca462c65f08dbe66dde13e7510eaed2e6c64 generic/754: add _require_symlinks
-bb77b42ba80f8f3e5f8523c8bb80cb3e6ae9ca55 generic/755: add _require_hardlinks
-68c9ac2ad74ba31c02275fcbb11d1cf90f0435b1 generic/730: add _require_scratch_shutdown
-a75c1aae9f930c9bd9a442dc256438627405662f generic/645: add _require_chown
-d866af976999cdcc3c548b4bf5baa865942e895f fstests: add kernel commit IDs to some tests
-5ca2b3450351ca504e829cc57bdd16c715496fd4 generic/094: fix test ignoring failures
-389d34f0ab02c34115b9c5292dc1efd3be10a8e2 f2fs/004: avoid race condition in test
-09ab269c0419fd1e8c927c09b507244db0c15cd5 f2fs/014: test for missing 'trimmed' flag issue
-2f635d075e104e69d58dc48c88697c64181a22b6 fsstress: print syncfs() return value in verbose mode
-e9251cd4a0bc8727941b1fefd484c8f8ba8e5bf9 overlay: fix regression in _repair_overlay_scratch_fs
-ef637108f39b6f67f4d6efb75bf6322cb2e8e70b generic/604: do not run with overlayfs
-52821fe5606665d418a67e8185dadaacafd86f9f generic: remove incorrect _require_idmapped_mounts checks
-3c96950fd06e7ace4f020f2805f1a7b84457c4fa generic/699: fix failure with MOUNT_OPTIONS
+1b726309373c0c15b2dfedbe1e7bf56ffc483eaf perf bpf-filter: Improve error messages
+57ffb9ff0bef67d919e7c33d7acf70ed0e2a8a0f perf parse-events filter: Use evsel__find_pmu
+0efcdf079158c6d10b5248388d779586766f0e8f perf target: Separate parse_uid into its own function
+f2ce3d1ae36fe2b928b712f86c966accdf64612d perf parse-events: Add parse_uid_filter helper
+db353ce72cf1ef61e46fc5c0301fd29fa96cf8a2 perf record: Switch user option to use BPF filter
+f04079306113dcea79b2125f0d87cecf10f23083 perf tests record: Add basic uid filtering test
+57efbc441e875ea208143467e8e095f0bbe2b302 perf top: Switch user option to use BPF filter
+f6f4a0c8ba12cba8c3dc0b789c84ba0b676f15bc perf trace: Switch user option to use BPF filter
+e3e973df41a78dc3479cced463c905a2672ab26f perf bench evlist-open-close: Switch user option to use BPF filter
+c5d375a217fcba5b0e556aa2cc55e68468c1e53d perf target: Remove uid from target
+407001805d8e197f5c6fae03539d0a3b7f23b99c perf thread_map: Remove uid options
+91d79d6642370ead14f0820022de72edb6ab73b8 tools/build: Remove some unused libbpf pre-1.0 feature test logic
+7ac7cac78d202cb9dd264f4655c7200c0decd695 perf doc trace: Remove --map-dump documentation
 
---===============8916444736503754049==--
+--===============8320597098046549139==--
