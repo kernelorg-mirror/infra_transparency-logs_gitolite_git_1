@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1584247251925513443=="
+Content-Type: multipart/mixed; boundary="===============5011712023858814981=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Fri, 06 Jun 2025 18:56:10 -0000
-Message-Id: <174923617054.2573445.5517944419240345699@gitolite.kernel.org>
+Date: Fri, 06 Jun 2025 18:56:32 -0000
+Message-Id: <174923619231.2573920.166443981028515798@gitolite.kernel.org>
 
---===============1584247251925513443==
+--===============5011712023858814981==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: ecc1ca9185c377822c66cbf61ecfed914455d884
     new: e271ed52b344ac02d4581286961d0c40acc54c03
     log: revlist-ecc1ca9185c3-e271ed52b344.txt
 
---===============1584247251925513443==
+--===============5011712023858814981==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ cfc4ca8986bb1f6182da6cd7bb57f228590b4643 Merge tag 'uml-for-linux-6.16-rc1' of g
 2c7e4a2663a1ab5a740c59c31991579b6b865a26 Merge tag 'net-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 e271ed52b344ac02d4581286961d0c40acc54c03 Merge tag 'pm-6.16-rc1-3' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 
---===============1584247251925513443==--
+--===============5011712023858814981==--
