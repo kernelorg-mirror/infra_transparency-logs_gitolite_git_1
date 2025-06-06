@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8152413188901917715=="
+Content-Type: multipart/mixed; boundary="===============0168720040414258755=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Fri, 06 Jun 2025 14:14:42 -0000
-Message-Id: <174921928264.2331959.10277830550519153714@gitolite.kernel.org>
+Date: Fri, 06 Jun 2025 14:15:33 -0000
+Message-Id: <174921933348.2334226.7649791946278868294@gitolite.kernel.org>
 
---===============8152413188901917715==
+--===============0168720040414258755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,37 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: ij
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next
-    old: 9c96808f10d84156b5e98e16176b725ec5a1386f
+  - ref: refs/heads/fixes
+    old: f2eae58c4428bd792c8e91e3666ab0718d87b44a
     new: 1193e205dbb6feca917dc8e1862ffcdf2194234b
-    log: revlist-9c96808f10d8-1193e205dbb6.txt
+    log: revlist-f2eae58c4428-1193e205dbb6.txt
 
---===============8152413188901917715==
+--===============0168720040414258755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1749219311 +0300
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1749219364 +0300
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1749219275-3ff7ff1ae0919866d9c201f0d1b199b8cdc887da
+nonce 1749219328-3369e67be766f0619775187c29c7405f208e7085
 
-9c96808f10d84156b5e98e16176b725ec5a1386f 1193e205dbb6feca917dc8e1862ffcdf2194234b refs/heads/for-next
+f2eae58c4428bd792c8e91e3666ab0718d87b44a 1193e205dbb6feca917dc8e1862ffcdf2194234b refs/heads/fixes
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaEL39AAKCRBZrE9hU+XO
-MfLPAQDwKo+ABYqW69PP1G4zcQ6tRdEvRoXuTgUxFuiTx3ZIMgD/fwL6GXlW7Gdm
-rvIfOm9gSW//8YnNMe/S5AqjSctJugI=
-=1PXa
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaEL4JgAKCRBZrE9hU+XO
+MQKZAQD3U4+S8OyBvOKfQN7KVra1bCgNW4SJQS0+VuBMoWQTcgD/Xpr+NCwTWN1f
+8FUgqkwutUflzdmPAilvxZMgMz8Sqwk=
+=sM3w
 -----END PGP SIGNATURE-----
 
---===============8152413188901917715==
+--===============0168720040414258755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9c96808f10d8-1193e205dbb6.txt
+Content-Disposition: attachment; filename=revlist-f2eae58c4428-1193e205dbb6.txt
 
-27565cfcd78315ce0410adb79ae14d49e325a2b1 scripts: kernel-doc: prevent a KeyError when checking output
-c4abe6234246c75cdc43326415d9cff88b7cf06c s390/pci: Fix __pcilg_mio_inuser() inline assembly
-b5185ea1a6bd35957e556129bb92a64f83aa65e4 s390/crypto: Extend protected key conversion retry loop
 0f45b538ba2a597364b25cb1b69582090ee9cb96 Merge tag 'intel-gpio-v6.16-1' of git://git.kernel.org/pub/scm/linux/kernel/git/andy/linux-gpio-intel into gpio/for-next
 d3e75291838a877440b462dcfec4b4414c705863 ASoC: Intel: sof_sdw: Add support for wclrvp & ocelot in WCL platform
 4347566404a0f01e9dc654a0b806a582ee63f68b gpio: davinci: select GPIOLIB_IRQCHIP
@@ -58,6 +55,7 @@ c4941af28ca3c70c80169867039ed207d20b7add Documentation/scheduler: Fix typo in sc
 d6d886005d32e4380cee3d1095908875505ac2c6 Docs: doc-guide: update sphinx.rst Sphinx version number
 beab7d058309bfe0460a441b1c73639941e33d38 KVM: arm64: nv: Handle TLBI S1E2 for VNCR invalidation with mmu_lock held
 538fbac74019c13dac341b20fbcc1e96c9a8d01e KVM: arm64: nv: Release faulted-in VNCR page from mmu_lock critical section
+cad37faac66c3822add86caf02fa0884d309a45f docs: ABI: Fix "aassociated" to "associated"
 9110fadda376ee1377a478dbae5e168243b081f3 ALSA: hda/cs35l41_hda: select FW_CS_DSP
 aa3ee4f0b7541382c9f6f43f7408d73a5d4f4042 sched/fair: Fixup wake_up_sync() vs DELAYED_DEQUEUE
 0212696a844631a923aa6cedd74ebbb3cf434e51 sched/util_est: Simplify condition for util_est_{en,de}queue()
@@ -667,7 +665,6 @@ d24c6b78ac550072df359c17e6aadddf079257d0 xen: enable XEN_UNPOPULATED_ALLOC as pa
 e22d7acf9f47b01c9a538f3dac5c8e8d46fbca96 drm/xe/guc: Make creation of SLPC debugfs files conditional
 879ede53958f7bab79a88888f77e0ca91f0f77da drm/xe: Default auto_link_downgrade status to false
 4e83ae6ec87dddac070ba349d3b839589b1bb957 mips, net: ensure that SOCK_COREDUMP is defined
-f2eae58c4428bd792c8e91e3666ab0718d87b44a platform/x86/intel/pmc: Fix Arrow Lake U/H NPU PCI ID
 35de409aa30269a3b106fe957a95f7a2b7e21a60 Revert "crypto: testmgr - Add hash export format testing"
 350d4546295949c8a29e345b340e57772813037a af_unix: Factorise test_bit() for SOCK_PASSCRED and SOCK_PASSPIDFD.
 3041bbbeb41b807d2e24d7d78d9cc1387d95898a af_unix: Don't pass struct socket to maybe_add_creds().
@@ -791,6 +788,8 @@ bb91f7547f79434e8818d3f235437e021d34c1cb octeontx2-af: NPC: Clear Unicast rule o
 b3456571cea18e64b9eaf55044db56d45326134d net: dlink: Correct endian treatment of t_SROM data
 d09a8a4ab57849d0401d7c0bc6583e367984d9f7 net: ethernet: mtk_eth_soc: Correct spelling
 0f8c0258bf042a7da8645148f96d063b9c2060b9 Merge tag 'mm-hotfixes-stable-2025-05-25-00-58' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+7ff5f091409f1c1bca6374bcce54d71e8328d17f platform/x86: asus-wmi: fix build without CONFIG_SUSPEND
+69157b00b526c31522a00b9908bfd53fa21b47f2 platform/x86/amd/hsmp: fix building with CONFIG_HWMON=m
 478ad02d6844217cc7568619aeb0809d93ade43d Disable FOP_DONTCACHE for now due to bugs
 0ff41df1cb268fc69e703a08a57ee14ae967d0ca Linux 6.15
 2297554f01df6d3d4e98a3915c183ce3e491740a x86/fpu: Fix irq_fpu_usable() to return false during CPU onlining
@@ -801,6 +800,7 @@ e45b7196df60a4aef86c3998611c91fcc93d21f3 net: neigh: use kfree_skb_reason() in n
 ba09aae9400a1b353dbc3eeac91120baa9bac151 Merge tag 'opp-updates-6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
 1f3d9724e16d62c7d42c67d6613b8512f2887c22 exfat: fix double free in delayed_free
 46a557694b464881b3c2c4a0ba389a6436419a37 exfat: do not clear volume dirty flag during sync
+9c96808f10d84156b5e98e16176b725ec5a1386f thermal/drivers/acerhdf: Constify struct thermal_zone_device_ops
 405b0d610745fb5e84fc2961d9b960abb9f3d107 net: usb: aqc111: fix error handling of usbnet read calls
 6d5b940e1e14fcc20b5a3536647fe3c41b07d4f5 Merge tag 'vfs-6.16-rc1.async.dir' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 e8c35bfce4c131c8a0777d25d9adfcbb0db8314b net: dsa: microchip: Add SGMII port support to KSZ9477 switch
@@ -1072,4 +1072,4 @@ bf373e4c786bfe989e637195252698f45b157a68 Merge tag 'devicetree-for-6.16' of git:
 9d230d500b0e5f7be863e2bf2386be5f80dd18aa Merge tag 'driver-core-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
 1193e205dbb6feca917dc8e1862ffcdf2194234b Merge tag 'platform-drivers-x86-v6.16-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 
---===============8152413188901917715==--
+--===============0168720040414258755==--
