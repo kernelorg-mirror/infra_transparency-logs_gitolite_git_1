@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6814242668276310929=="
+Content-Type: multipart/mixed; boundary="===============0493310911573860997=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
-Date: Fri, 06 Jun 2025 08:06:29 -0000
-Message-Id: <174919718989.2029948.5381460031233285684@gitolite.kernel.org>
+Date: Fri, 06 Jun 2025 08:06:34 -0000
+Message-Id: <174919719430.2030162.6427881887746055658@gitolite.kernel.org>
 
---===============6814242668276310929==
+--===============0493310911573860997==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/spdx
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
+  - ref: refs/heads/spdx-linus
+    old: 59c11a7a9a138a28c7dff81032a7b7b6f1794540
     new: e271ed52b344ac02d4581286961d0c40acc54c03
-    log: revlist-0af2f6be1b42-e271ed52b344.txt
+    log: revlist-59c11a7a9a13-e271ed52b344.txt
 
---===============6814242668276310929==
+--===============0493310911573860997==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1749197223 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1749197227 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
-nonce 1749197188-b850c42942bb29d5b72b210032343877bb0a57d3
+nonce 1749197192-bd33739224c4896222a99d4147dabb878dbf5aa1
 
-0af2f6be1b4281385b618cb86ad946eded089ac8 e271ed52b344ac02d4581286961d0c40acc54c03 refs/heads/main
+59c11a7a9a138a28c7dff81032a7b7b6f1794540 e271ed52b344ac02d4581286961d0c40acc54c03 refs/heads/spdx-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhCoacbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1goQAIvRkO+KCONjB8BPkCnK
-pVclmh3jW1HUXjsXEe4U8yTbnRxfBW7zxueRbBuAfL97IZSNN64tMSG3JIl5ibIZ
-ALtIMHqaQq5lSeWu+PA6IyJDJGfu0VRuZhtFnizqGz6QdO9bALfWkYcltRShMNvU
-rAR5gcONxV5Bgf04f/J9BwJNfGb+I5BnUzLGWcgEemLJwFjIIp6RZwYfMpGZ1wJk
-FSlahT7nqN6r8D7YJMdE6vBllM0ok8xiExKZIpDsC+eRfHwiGMZq9qp7jzgbMNpT
-diWWDcfp5Isftudk+4UPvCa5lhouJIGXlDcMdfzgOBahrRcb6Z3Aq27slklk3XAH
-R0Rim4ZadM5zRvGWHLXYUvdunUgJoQkjU/znpFCCn0ZGDtVUos3JfzASbG0EGTiy
-m94rUf+v0ZEvOMaNZQmmQM6fchqQJZrjY6WlSErvrofctRlILG2xfTEJKz+97PFQ
-hGuPu++B4Cl4/khzYVKIhl8DRh+yIDUG2RoCa46mzZ++guHLSMR1Z92GcoVpUzQZ
-xmfkDh1vc7KDy4YAvxB4/oU/udJTBUKkz2Y+SKBwpWEP+Vandw+kxO+VdmN8gnnP
-i1IXVGdr7aq8qrfiLUvWeoz4VcMiH8y53vRt3M7CMuhcxlx+7o/qgBO4zQLoa6pM
-ICCA2ZaJ7JlE2VHjYBaF2TCT
-=njso
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhCoawbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WT4P/iqJrhJMG2eJF8XXVtAx
+Rm+Shg4ZR+5E3zphxatUCby5e+kxWPT0FZHn3H+jl2G75RHGPdU4OdqI6oBU3E10
+se0QqVQ/cBEp61nsJSQRdzPu65dP9JLOXxtH/f7HWkBY3b8maUf6+JBGkNXBnKI+
+FyKt5HUp7R+6S9oz0iAc1b3mFWYpfyc8203RksB/k9QWrY29BieBYPNPfVCM3gla
+T79JdvyFfvBbLKLXXjcY3Xw7PSVbfPV/2X62xwOBuRnXYvj0COH+9RNAT0kIG5Xo
+VnuFoNan5jKYGTpfOo8apaU5KhsntMF/OfSWWCu9dhkiTx49sFCLvQhzok7BoL9m
+g2b9ldBLaABEXLUHFgNecPXJDdoBWQ0xscFeK/Op9Sz0EcWdsMwekJRekWF7MZor
+wfGvIEdqvhwvpBIIP46jJvbxZdlUnTRwzLtyKHUbwI037tRq3bukgFYvXq5STGb0
+3wza1BiwElOMpZDqOKAlrYA98HVgFFYkJiMvCSdG5VnihDvbV43KMfPenevotiRr
+eYob4NynXrAnxYdiXiFMDhZ5yetQl+0h49sZwXPcnBqBQEDtNLtfIfiRPZE9pRTO
+ACzy3ATPolf/tEwnrRcDvE+qZ/OxirViYXO0XZ/Aa4/Zywf4/2JsQwlxGNsJtQiA
+iGsyO9EM0TalPLOz+pvyoYzs
+=2dag
 -----END PGP SIGNATURE-----
 
---===============6814242668276310929==
+--===============0493310911573860997==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-0af2f6be1b42-e271ed52b344.txt
+Content-Disposition: attachment; filename=revlist-59c11a7a9a13-e271ed52b344.txt
 
 52ddd0265bca80be19438f184cc9ce0bf4cf5a4f wifi: ath11k: switch to PCI_PWRCTRL_PWRSEQ
 d5fc1909349e1999427c86de31e98c4fa6e0b721 wifi: ath12k: switch to PCI_PWRCTRL_PWRSEQ
@@ -1082,4 +1082,4 @@ cfc4ca8986bb1f6182da6cd7bb57f228590b4643 Merge tag 'uml-for-linux-6.16-rc1' of g
 2c7e4a2663a1ab5a740c59c31991579b6b865a26 Merge tag 'net-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 e271ed52b344ac02d4581286961d0c40acc54c03 Merge tag 'pm-6.16-rc1-3' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 
---===============6814242668276310929==--
+--===============0493310911573860997==--
