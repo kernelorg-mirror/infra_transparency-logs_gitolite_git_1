@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7851481744345013687=="
+Content-Type: multipart/mixed; boundary="===============2248866132819711427=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Fri, 06 Jun 2025 08:04:56 -0000
-Message-Id: <174919709654.2027179.9338392213211846234@gitolite.kernel.org>
+Date: Fri, 06 Jun 2025 08:04:59 -0000
+Message-Id: <174919709995.2027324.16107164412626667824@gitolite.kernel.org>
 
---===============7851481744345013687==
+--===============2248866132819711427==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
+  - ref: refs/heads/driver-core-testing
     old: 5abc7438f1e9d62e91ad775cc83c9594c48d2282
     new: e271ed52b344ac02d4581286961d0c40acc54c03
     log: revlist-5abc7438f1e9-e271ed52b344.txt
 
---===============7851481744345013687==
+--===============2248866132819711427==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1749197130 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1749197133 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1749197095-dd32108aae56d983dcfbf774e87dc05375b488fb
+nonce 1749197098-0c66548e294038766283ca2b42708826a3f204d5
 
-5abc7438f1e9d62e91ad775cc83c9594c48d2282 e271ed52b344ac02d4581286961d0c40acc54c03 refs/heads/driver-core-next
+5abc7438f1e9d62e91ad775cc83c9594c48d2282 e271ed52b344ac02d4581286961d0c40acc54c03 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhCoUobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TJ0P/0JYcaJOxEW84f430Uza
-7+92ayOkKZTcd8ewQuV+L6YfmYfPg9Ssj9uVaCxu4CxbgHAkj4Q+mBnMllHs5EXP
-0DzG3Lcnv6nqb/5O/vDfS6xT5JazEs9BcGoN8qY5+RfFbnu7iDtAerkaOfen4dFP
-Nhooxii27GwgDD7HjMISB3gCzURkA9dxZYJ4FSpynBCC192fCsxoyBQGUCodhK7J
-3axqJBmGK+Ftpx+dU73A24G9jb/7+Ca5cWK5EVQRuWcoEHvDL4mnq2wvpWlRyqve
-+bectIRIRQuphIWKLViq2n6zaCCgC3MVyK9F/OJVd5O+wT1gP+N0T20cFuGUbe6k
-y5bZcMmlwWiwCaI3E6i/rG254FkfLUIp8GOSAho08gPgms1rsilf+ji0ZdG5ztqd
-7dUtjfCZZ0a2cgogas3xh1/eSJsCODCy60l44wn15YYB30ItrDS92P8X447A2U4K
-iSxGw99PZk7tga9Aptxh8ognf5B9z9JjoBPIz+voYKR3FAyVpvYyStP/6FoZBCE3
-lFxEUkSKYsD5iq42ZHgwtZqfkz3MrKEgq2nCr6cHZWLadT6RfKa1p1M6uRaVNSW/
-2p67Pp0EXjWmHO/U+vO3RgnopbhG4d11VP3Lsn+eDYEWX5wHgRdlFsi2zPE4kkcv
-V7CJM9+eb+qRxJSz466o32PZ
-=3GKj
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhCoU0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LR4QAJf35JS1TnN/A5sgZHK3
+/cM8PtSZsac5IoDI7u47cBZHKmWNRcZlFOOEZSwhBHaj/EftWlhGfCMqt4dYViP2
+MBPnDvVPIgUiEhhsBKhNUyqtHAyTGTmhagOseOw+ODgqvDzdeRm6x9oaAy7zCsZ5
+nEuIUaStcpvhIyAJu5HH9LA6YR2NmDHaYR6ryuLLTdKhSekwTFQJY3AE4Ks18/3+
+Gi7iUGjYkcHX+05YODtAAPUiDaxPwvp3mH1/yu/7+yJx5It89K1vMq2RyuE2F0pA
+lDVhhQ3vnxcd9tXSv0gTx6zRQNDo78si8O+2iMgKK8x1yq/r0h6+CIpJ8tqXwVZR
+StxchUKSIQdsdq2z25ejhLzkCf2j9iV/7CxkQxFkEo5hmAD7hxKwWUdZYTBs7cJ5
+Tyy9J8XivweurLgpF8TodbbsAXJJ+JoR5mrggmnTQjbM/zAJ9UH5R8I4Up7M6Itv
+if1JaC2O86pION/ZmDMsqzkRzCuH5Ai0UBvksQ1TGVCXeV+lIu4DU5MCMJIXQerS
+CVGa/rEc0hlWzhWiCqHXF6XB9tWG76C8THh7Qu9VkfXelNLqNAPgpeLAHFpe1zz9
+/bNWc9H6dvXZJsovE36qQ2EQw1convdJImhtq7Gys5LUrl4phkZv6ZcWcj3/sMOM
+XQfy54VoDksiE42/3P0j0v+4
+=qfDz
 -----END PGP SIGNATURE-----
 
---===============7851481744345013687==
+--===============2248866132819711427==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -688,4 +688,4 @@ cfc4ca8986bb1f6182da6cd7bb57f228590b4643 Merge tag 'uml-for-linux-6.16-rc1' of g
 2c7e4a2663a1ab5a740c59c31991579b6b865a26 Merge tag 'net-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 e271ed52b344ac02d4581286961d0c40acc54c03 Merge tag 'pm-6.16-rc1-3' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 
---===============7851481744345013687==--
+--===============2248866132819711427==--
