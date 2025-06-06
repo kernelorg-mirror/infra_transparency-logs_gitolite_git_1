@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Fri, 06 Jun 2025 18:38:12 -0000
-Message-Id: <174923509220.2557542.1218376992206094982@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Fri, 06 Jun 2025 18:39:04 -0000
+Message-Id: <174923514417.2558099.10416833577108922069@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+repo: pub/scm/bluetooth/bluez
 user: vudentz
 changes:
   - ref: refs/heads/master
-    old: 7615e0c7b24ad0a789a7722aaaa4656a00ec1ded
-    new: b4da091fed83d4cf3c217c1b6c563888ba058819
+    old: 8ad12fe7b4b93abf37b11e62b2e548cb245c2199
+    new: bbd10bb9bc5e3504b24dc65132d65b34d6188d69
     log: |
-         a214e21449f24d953922a58f88f931c014fcf107 Bluetooth: MGMT: Fix UAF on mgmt_remove_adv_monitor_complete
-         3812bd9eae38ea74e443777e665bc3912a413ab6 Bluetooth: MGMT: Protect mgmt_pending list with its own lock
-         73700cd6bd6aa2016f32f274bc7523d840bfa13b Bluetooth: Fix NULL pointer deference on eir_get_service_data
-         b4da091fed83d4cf3c217c1b6c563888ba058819 Bluetooth: hci_sync: Fix broadcast/PA when using an existing instance
+         4a7ee30978da919cc820116be6ced323b35e4ebd adapter: Fix exposing coordinate sets if LE Audio is disabled
+         04c32f3d312905bf7bece70735e6b2ca4bf3ca05 client: Add assistant.list
+         f09f33199858d103489c7064b7488209d02b9ce8 client: Add assistant.show
+         7d59391bb783c60f15803f97860094a6817894b2 shared/shell: Add support for -EINPROGRESS to bt_shell_noninteractive_quit
+         5499681bc63226c03984e3493eebd0dc4cd2243f client: Use -EINPROGRESS with scan and advertise command
+         bbd10bb9bc5e3504b24dc65132d65b34d6188d69 client: Add script to PBP
          
