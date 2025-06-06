@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5681076347934493139=="
+Content-Type: multipart/mixed; boundary="===============8899099647230308813=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 06 Jun 2025 17:04:31 -0000
-Message-Id: <174922947142.2477870.6040952164215906234@gitolite.kernel.org>
+Date: Fri, 06 Jun 2025 17:04:36 -0000
+Message-Id: <174922947642.2478205.14251495131626452594@gitolite.kernel.org>
 
---===============5681076347934493139==
+--===============8899099647230308813==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: 3cae906e1a6184cdc9e4d260e4dbdf9a118d94ad
     new: 82cbd06f327f3c2ccdee990bd356c9303ae168f9
     log: revlist-3cae906e1a61-82cbd06f327f.txt
 
---===============5681076347934493139==
+--===============8899099647230308813==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ cfc4ca8986bb1f6182da6cd7bb57f228590b4643 Merge tag 'uml-for-linux-6.16-rc1' of g
 87f7ce260a3c838b49e1dc1ceedf1006795157a2 ptp: remove ptp->n_vclocks check logic in ptp_vclock_in_use()
 82cbd06f327f3c2ccdee990bd356c9303ae168f9 net: enetc: fix the netc-lib driver build dependency
 
---===============5681076347934493139==--
+--===============8899099647230308813==--
