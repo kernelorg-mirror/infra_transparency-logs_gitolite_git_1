@@ -1,58 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============5059702850814516152=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Fri, 06 Jun 2025 21:38:14 -0000
-Message-Id: <174924589422.2712247.12464925738795526089@gitolite.kernel.org>
-
---===============5059702850814516152==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
+Date: Fri, 06 Jun 2025 21:44:55 -0000
+Message-Id: <174924629519.2718399.8026548654293146381@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
+user: frederic
 changes:
-  - ref: refs/heads/master
-    old: 6f78e874e96b0b3bac1767a1743b20af20cb0e2f
-    new: bf5fcc29eedc648d07a81477aeee70fb6e062665
+  - ref: refs/heads/kthread/core
+    old: 51623436957cbaa51f4fd61e5664868468af4664
+    new: 28f1af24580a7e0170ec52816a019bba8b42c4fc
     log: |
-         9a3a30061bb4a2027442d0f1567c157dbbcf63d8 Use PEP-735 dependency groups
-         e63bd80b7f866f1da136581f79cfd81c11302575 Specify optional dependencies in pyproject.toml
-         f4185d6bc8ea0ac6b8a9ae8df7aaf334b8a983d1 Specify dependencies in pyproject.toml
-         e8ead16ba4ad5f04de4d4b17420bb425f4d38ef9 Add ruff, remove all noqa comments
-         0be2cb4e31b36d531287a0e0fd6d81bfd4304d6d Remove `noinspection` comments
-         ec65df28096a90b0a3057052b59229d87b4db1b5 Add mypy
-         e4b094a3bfbd040aad4a4018e264916b341406e1 Add missing LoreTrailer.lmsg annotation
-         8633c7e830a5a75b6e34593cda98d0b6c0b1bb05 Check variables for None rather than exprs
-         ca13d4787e403627f7ca7c70e7339ce399402166 Make LoreSeries.indexes never None
-         7027afc6e0f0f2cc67a5e71df65f4025d9a89e3c Add missing type annotations
-         93a3d528151703169f1596de08165f35ff89a708 Merge patch series "uv compatibility, typing improvements"
-         37797c213f6f24082b6983c7482879d58388294f Further typing work to pass mypy strict checks
-         bf5fcc29eedc648d07a81477aeee70fb6e062665 Turn off pyright and set mypy to strict
+         ff870239a3a03e4dae001040cf22b6628c84eded kthread: Include kthreadd to the managed affinity list
+         0df2bfb4fef3ba360d2ce2f448da21b1697ed1cf kthread: Rely on HK_TYPE_DOMAIN for preferred affinity management
+         1ff45d1c83f6a193d4317e885b80fb90907c239b sched: Switch the fallback task cpumask to HK_TYPE_DOMAIN
+         7cc794d0e3339ad9ccf2d4feef08380e2700886f kthreads: Handle kthreads preferred affinity after cpuset changes
+         28f1af24580a7e0170ec52816a019bba8b42c4fc tracing
          
-
---===============5059702850814516152==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1749245928 -0400
-pushee gitolite.kernel.org:pub/scm/utils/b4/b4
-nonce 1749245893-74a5d783ba4e475250152aee34b7d6bc3c14335d
-
-6f78e874e96b0b3bac1767a1743b20af20cb0e2f bf5fcc29eedc648d07a81477aeee70fb6e062665 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaENf6AAKCRC2xBzjVmSZ
-bJDuAQDELzwHfBlnE28TOpGHqO6IGQI+Dmarw1Ga063cLyYqgwEA5Mop2rfbnN6b
-q9S+s84obtQz3GOU6lg6St4FtWcSfwM=
-=PRGU
------END PGP SIGNATURE-----
-
---===============5059702850814516152==--
