@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3007485093468097862=="
+Content-Type: multipart/mixed; boundary="===============6998560651808824551=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Fri, 06 Jun 2025 14:17:38 -0000
-Message-Id: <174921945867.2335208.13453644726168691954@gitolite.kernel.org>
+Date: Fri, 06 Jun 2025 14:21:48 -0000
+Message-Id: <174921970860.2339291.17476605851704695795@gitolite.kernel.org>
 
---===============3007485093468097862==
+--===============6998560651808824551==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,37 +16,40 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: ij
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/review-ilpo-fixes
-    old: 2325810c9405df7ee2c61f1c3768c4d2461d9818
+  - ref: refs/heads/review-ilpo-next
+    old: baf7a328738f194f58230f5e79c051145535f019
     new: e271ed52b344ac02d4581286961d0c40acc54c03
-    log: revlist-2325810c9405-e271ed52b344.txt
+    log: revlist-baf7a328738f-e271ed52b344.txt
 
---===============3007485093468097862==
+--===============6998560651808824551==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1749219490 +0300
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1749219737 +0300
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1749219454-49d8275048f56c88c2e5135ae5d0e5464078028e
+nonce 1749219701-e91d899abdd659891d22ffa75a5f0cad14eb10f3
 
-2325810c9405df7ee2c61f1c3768c4d2461d9818 e271ed52b344ac02d4581286961d0c40acc54c03 refs/heads/review-ilpo-fixes
+baf7a328738f194f58230f5e79c051145535f019 e271ed52b344ac02d4581286961d0c40acc54c03 refs/heads/review-ilpo-next
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaEL4pAAKCRBZrE9hU+XO
-MRK7APsHyAPlVjwDHECZ+IkREdpBZtGv+ovDXxuVnQ50Evl4mAEAt0UG1C6v9eCL
-KpFJBRFBLQR7UNyG6r0739jNmyQckAU=
-=04nv
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaEL5ngAKCRBZrE9hU+XO
+MSGNAP981c5+6aP0le2mBlSaKQvLmqormyOf+TxaZ02kFwyp6gEA8G3fS7YHjlB1
+AVT4VdDDKPPOAlqH5mCWkGsaJr3Qdg0=
+=T8t9
 -----END PGP SIGNATURE-----
 
---===============3007485093468097862==
+--===============6998560651808824551==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-2325810c9405-e271ed52b344.txt
+Content-Disposition: attachment; filename=revlist-baf7a328738f-e271ed52b344.txt
 
+534e9cf3782f1bd6adf0bd7d17ff414ea12a6bf2 Merge tag 'asoc-v6.16-2' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-next
+8b926f237743f020518162c62b93cb7107a2b5eb PCI/pwrctrl: Cancel outstanding rescan work when unregistering
+13bbf6a5f065f235bba69f6c21272d992ed5d5d0 PCI/pwrctrl: Rename pwrctrl Kconfig symbols and slot module
 52ddd0265bca80be19438f184cc9ce0bf4cf5a4f wifi: ath11k: switch to PCI_PWRCTRL_PWRSEQ
 d5fc1909349e1999427c86de31e98c4fa6e0b721 wifi: ath12k: switch to PCI_PWRCTRL_PWRSEQ
 46bc169f6f07eca9a7d2346c703ea59bff385e22 arm64: Kconfig: switch to HAVE_PWRCTRL
@@ -133,8 +136,6 @@ bb91f7547f79434e8818d3f235437e021d34c1cb octeontx2-af: NPC: Clear Unicast rule o
 b3456571cea18e64b9eaf55044db56d45326134d net: dlink: Correct endian treatment of t_SROM data
 d09a8a4ab57849d0401d7c0bc6583e367984d9f7 net: ethernet: mtk_eth_soc: Correct spelling
 0f8c0258bf042a7da8645148f96d063b9c2060b9 Merge tag 'mm-hotfixes-stable-2025-05-25-00-58' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-7ff5f091409f1c1bca6374bcce54d71e8328d17f platform/x86: asus-wmi: fix build without CONFIG_SUSPEND
-69157b00b526c31522a00b9908bfd53fa21b47f2 platform/x86/amd/hsmp: fix building with CONFIG_HWMON=m
 9f047636831a61ce0840929555245dd17695206a rust: platform: fix docs related to missing Markdown code spans
 673ec360cfb099a5f44dabee0f0e6c9b282efa7e rust: alloc: add missing Markdown code spans
 abd21a163d4188c180cabb6747b1d94e3c0586b9 rust: alloc: add missing Markdown code span
@@ -163,7 +164,6 @@ ba09aae9400a1b353dbc3eeac91120baa9bac151 Merge tag 'opp-updates-6.16' of git://g
 21d8a6857bc11f3fa14b19768d840cf6d1f3fccd rust: opp: Make the doctest example depend on CONFIG_OF
 1f3d9724e16d62c7d42c67d6613b8512f2887c22 exfat: fix double free in delayed_free
 46a557694b464881b3c2c4a0ba389a6436419a37 exfat: do not clear volume dirty flag during sync
-9c96808f10d84156b5e98e16176b725ec5a1386f thermal/drivers/acerhdf: Constify struct thermal_zone_device_ops
 405b0d610745fb5e84fc2961d9b960abb9f3d107 net: usb: aqc111: fix error handling of usbnet read calls
 6d5b940e1e14fcc20b5a3536647fe3c41b07d4f5 Merge tag 'vfs-6.16-rc1.async.dir' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 e8c35bfce4c131c8a0777d25d9adfcbb0db8314b net: dsa: microchip: Add SGMII port support to KSZ9477 switch
@@ -1072,4 +1072,4 @@ cfc4ca8986bb1f6182da6cd7bb57f228590b4643 Merge tag 'uml-for-linux-6.16-rc1' of g
 2c7e4a2663a1ab5a740c59c31991579b6b865a26 Merge tag 'net-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 e271ed52b344ac02d4581286961d0c40acc54c03 Merge tag 'pm-6.16-rc1-3' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 
---===============3007485093468097862==--
+--===============6998560651808824551==--
