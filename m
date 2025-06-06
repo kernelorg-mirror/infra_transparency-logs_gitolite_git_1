@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4285649072962838948=="
+Content-Type: multipart/mixed; boundary="===============6765220268684629257=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 06 Jun 2025 17:20:25 -0000
-Message-Id: <174923042536.2494225.9029202776174784850@gitolite.kernel.org>
+Date: Fri, 06 Jun 2025 17:20:30 -0000
+Message-Id: <174923043011.2494526.5515792705291729235@gitolite.kernel.org>
 
---===============4285649072962838948==
+--===============6765220268684629257==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 90b83efa6701656e02c86e7df2cb1765ea602d07
     new: 2c7e4a2663a1ab5a740c59c31991579b6b865a26
     log: revlist-90b83efa6701-2c7e4a2663a1.txt
 
---===============4285649072962838948==
+--===============6765220268684629257==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ cfc4ca8986bb1f6182da6cd7bb57f228590b4643 Merge tag 'uml-for-linux-6.16-rc1' of g
 71052a800371c64b4546a1d7f69ad515a779316f MAINTAINERS: add entry for crypto library
 2c7e4a2663a1ab5a740c59c31991579b6b865a26 Merge tag 'net-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============4285649072962838948==--
+--===============6765220268684629257==--
