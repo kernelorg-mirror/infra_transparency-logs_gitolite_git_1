@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5338358821680368951=="
+Content-Type: multipart/mixed; boundary="===============5426481285560738578=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 06 Jun 2025 16:52:04 -0000
-Message-Id: <174922872409.2467180.17279818852574719487@gitolite.kernel.org>
+Date: Fri, 06 Jun 2025 16:52:15 -0000
+Message-Id: <174922873531.2467502.7126812955821144538@gitolite.kernel.org>
 
---===============5338358821680368951==
+--===============5426481285560738578==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,31 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 3cae906e1a6184cdc9e4d260e4dbdf9a118d94ad
-    new: 82cbd06f327f3c2ccdee990bd356c9303ae168f9
-    log: revlist-3cae906e1a61-82cbd06f327f.txt
+  - ref: refs/heads/dev-queue
+    old: 6f5f64938d4937b3bccdaebdafe5659a44fe99b9
+    new: 694cb2b13d9e8a61a319871cc343e079554735aa
+    log: revlist-6f5f64938d49-694cb2b13d9e.txt
 
---===============5338358821680368951==
+--===============5426481285560738578==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-3cae906e1a61-82cbd06f327f.txt
+Content-Disposition: attachment; filename=revlist-6f5f64938d49-694cb2b13d9e.txt
 
-a660d9e885d6382235a2b0e3f57d056950b3e4d2 pinctrl: freescale: Enable driver if platform is enabled.
-1c9977b263475373b31bbf86af94a5c9ae2be42c pinctrl: mediatek: eint: Fix invalid pointer dereference for v1 platforms
-294d4a1c79c1e83adf283cb164488cf7d9e2a257 dt-bindings: trivial-devices: Add VZ89TE to trivial
-3e3169e64e3154770f263451cc821b4c3f043cc0 dt-bindings: display: bridge: renesas,dsi: allow properties from dsi-controller
-9000f663c511cac5beb04ee49066ff2dc9f8dd4c scsi: fnic: Replace memset() with eth_zero_addr()
-934a5c3230b9cc0759dec5485b3e442c148a8f50 scsi: mvsas: Fix typos in SAS/SATA VSP register comments
-7727a9d414c9617e295bb3a3ca396da2268eb316 scsi: ufs: qcom: dt-bindings: Document the SM8750 UFS Controller
-53755903b9357e69b2dd6a02fafbb1e30c741895 scsi: ufs: mcq: Delete ufshcd_release_scsi_cmd() in ufshcd_mcq_abort()
-25c2758e6e720bed930cdd03f19d8c0c97fc7522 scsi: sg: Remove unnecessary NULL check before unregister_sysctl_table()
-9ad5249b37b59baaf2da1014f397c2e23b605075 scsi: mpt3sas: Fix _ctl_get_mpt_mctp_passthru_adapter() to return IOC pointer
-0c52f621f5be7fa8dc04ca9382b8cdc8ff94b714 scsi: hisi_sas: Fix warning detected by sparse
-7f0047cb9d42786b62f7ad91c1a17e55940d2dfb scsi: target: core: Constify enabled() in struct target_opcode_descriptor
-fd2963e729ed69ced422c230a3f70fa6d5a5ce25 scsi: target: core: Constify struct target_opcode_descriptor
-5de775df3362090a6e90046d1f2d83fe62489aa0 rpmsg: qcom_smd: Fix uninitialized return variable in __qcom_smd_send()
 e23bb06b17f81982450beb880b9c5a7fb4251164 KVM: riscv: selftests: Align the trap information wiht pt_regs
 3608b174ece5633dbd1f9afe37a48a2a9a0f0499 KVM: riscv: selftests: Decode stval to identify exact exception type
 f80e9cc5c6c35ef46c8b980f076911d885941b7d KVM: riscv: selftests: Add vector extension tests
@@ -1050,5 +1036,19 @@ cfc4ca8986bb1f6182da6cd7bb57f228590b4643 Merge tag 'uml-for-linux-6.16-rc1' of g
 692eb9f8a5b71d852e873375d20cf5da7a046ea6 net: dsa: b53: fix untagged traffic sent via cpu tagged with VID 0
 87f7ce260a3c838b49e1dc1ceedf1006795157a2 ptp: remove ptp->n_vclocks check logic in ptp_vclock_in_use()
 82cbd06f327f3c2ccdee990bd356c9303ae168f9 net: enetc: fix the netc-lib driver build dependency
+3f768f48cc12ccc56c4f06c4634b23f75374d246 coccinelle: misc: secs_to_jiffies script: Create dummy report
+3f936ae290eee037e9c16f467a29c13a3d3b86b4 ice: fix lane number calculation
+f5c967d23f799c4d0b5e6515d1157ff482fa54fc ice: fix fwlog after driver reinit
+b8e46738dd64200203639e81411380d13100156b iavf: fix reset_task for early reset event
+442982d66370765f6b111169100c3debfa7ded06 ice: fix eswitch code memory leak in reset scenario
+f3c09edada436c47afdf2dfa2bc4da5b9da69655 i40e: return false from i40e_reset_vf if reset is in progress
+1bfabe47643681263aeb0956f15105daed3c065f i40e: retry VFLR handling if there is ongoing VF reset
+04ead2331ee6d78119485b0fec178ec834629ce7 ice/ptp: fix crosstimestamp reporting
+3f4e90baa9ceb1dd23be35fa72e0cdc7e73cad5d net: ice: Perform accurate aRFS flow match
+37891f9b8c169e91272820d0b5d459abae39f91b ice: add NULL check in eswitch lag check
+2f2d2d5ec6b6d73c84f4dc283309157520ef9a9e idpf: return 0 size for RSS key if not supported
+dd9505e05392f07b769bc1aeb12c3acefd48039d e1000e: set fixed clock frequency indication for Nahum 11 and Nahum 13
+8d5b49ddd7e01915962327901d1e3055e7a9a8d9 idpf: convert control queue mutex to a spinlock
+694cb2b13d9e8a61a319871cc343e079554735aa e1000: Move cancel_work_sync to avoid deadlock
 
---===============5338358821680368951==--
+--===============5426481285560738578==--
