@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dakr/linux
-Date: Fri, 06 Jun 2025 19:15:22 -0000
-Message-Id: <174923732250.2589987.10933160221436052754@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Fri, 06 Jun 2025 19:29:34 -0000
+Message-Id: <174923817483.2600455.11175316125855778699@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dakr/linux
-user: dakr
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/rust/wip/devres
-    old: 210d0831f325c7d94aaaf6ae719b73c216bba5e0
-    new: d5aba86a0433b8b20295347a34a8b30d34fd4af9
+  - ref: refs/heads/main
+    old: 13a3b46968fca4717c7596221dc4c9f4446dd2e1
+    new: d95baca68ff45f880faf3cf69926c47dbdbac493
     log: |
-         871f2d955263d3e3b3e9829a1111ae7a2e782d53 rust: devres: replace Devres::new_foreign_owned with ForeignDevres
-         f154d8896ba945caf805705168fa598c89d72e6c devres: rework to pin-init
-         d5aba86a0433b8b20295347a34a8b30d34fd4af9 devres: split into Devres and RevocableDevres
+         59df6ceeb259a81eb13cae36a44179981e95abde linux-firmware: update firmware for MT7922 WiFi device
+         dad32063a360ef149adc4419261c22d9fbe0e01c mediatek MT7921: update bluetooth firmware to 20250523111333
+         50bbf75a5c547e6e71c27b42ca9472a85eeb5ee4 mediatek MT7922: update bluetooth firmware to 20250523103438
+         d95baca68ff45f880faf3cf69926c47dbdbac493 Merge branch 'mediatek-mt972x' into 'main'
          
