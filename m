@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Fri, 06 Jun 2025 20:24:55 -0000
-Message-Id: <174924149592.2649122.12745691766669583987@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Fri, 06 Jun 2025 20:25:13 -0000
+Message-Id: <174924151378.2651002.15622832586834263798@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gustavoars/linux
-user: gustavoars
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/testing/wfamnae-next20250606
-    old: e940546f8ca68fe44d298098835297f585efc63f
-    new: 2aebeb5c325881159c6896f61fa4b16f2af46067
+  - ref: refs/heads/pending
+    old: 1a0cd048a23198337fba5a45843fb5e1e1bb5d8e
+    new: 70ae91b623918dc2d18eef5475cab6b5bad339be
     log: |
-         2aebeb5c325881159c6896f61fa4b16f2af46067 cgroup: Avoid -Wflex-array-member-not-at-end warnings
+         70ae91b623918dc2d18eef5475cab6b5bad339be wifi: ath11k: validate ath11k_crypto_mode on top of ath11k_core_qmi_firmware_ready
          
