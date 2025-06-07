@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0464210848771110718=="
+Content-Type: multipart/mixed; boundary="===============2730051568821971399=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sat, 07 Jun 2025 06:57:55 -0000
-Message-Id: <174927947599.3174502.15522144678963746992@gitolite.kernel.org>
+Date: Sat, 07 Jun 2025 06:58:00 -0000
+Message-Id: <174927948082.3174727.4751088839001452465@gitolite.kernel.org>
 
---===============0464210848771110718==
+--===============2730051568821971399==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 82f2b0b97b36ee3fcddf0f0780a9a0825d52fec3
+  - ref: refs/heads/usb-next
+    old: 882826f58b2c48cafc7084a799207e76f2c74fe0
     new: bdc7f8c5adad50dad2ec762e317f8b212f5782ac
-    log: revlist-82f2b0b97b36-bdc7f8c5adad.txt
+    log: revlist-882826f58b2c-bdc7f8c5adad.txt
 
---===============0464210848771110718==
+--===============2730051568821971399==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1749279509 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1749279514 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1749279474-2263a35782c3608b045564bc9754a26af6e8a92d
+nonce 1749279478-51c86bd42dda4558054b6082685b12338f93c428
 
-82f2b0b97b36ee3fcddf0f0780a9a0825d52fec3 bdc7f8c5adad50dad2ec762e317f8b212f5782ac refs/heads/usb-linus
+882826f58b2c48cafc7084a799207e76f2c74fe0 bdc7f8c5adad50dad2ec762e317f8b212f5782ac refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhD4xUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0x8P/jyKV55sqpKWX/PghU4W
-HlAJG5P4cljqM4DM54ldIjiXy2G3rVkXImCs38xwkYCUexi9do/XW//eUxPpa1Yd
-CuVCOfJSYttRF3idqfCi3pVACyiwjTTmam/6k8BHiwFB7PgwyD3QtnWfpiY6Levo
-89FIHpjnbZ+AFDWmiQfAy2hwjPgFOBmKAJOBw6ku7DgJunw1eE4FuLcNBRe1xwU4
-bhWgcF2gM6gqooxZNk77nebQiMGiNiYeYk+emiUpFzNKtD8Zx/b4BXVH4y0xSiMn
-6QjXY2yUHQYIbT9+dAPsxGVsWUu7/jowJB1Q3uMGqDBbovNkT5VpUQFEc3g1z6NV
-GSubIe2G233fuhgzWX98F47MMQM7/8XXsXHHpHZn4Z5keIeazM7Ph3nupSWN4Lh8
-dd5+AeQznoPCC82FGsYBWt9+b2XD0PaRo+Ing/KQeOVO89GSanEtPMXHU3PQQOzg
-BpNJj42lviGPSBYQ6PVMIC2vncEzSLyI5iPEPAxzLsTwX1I7p3K5hWDeSpdJBpaD
-POP8eYhQ96yYYo3NbX3FCEtG9ly0thXDdXiR+8fyYReBf6M8Q+0Ml3qGcEGrNAuX
-pwGyxTUWd2aByDFx+FQ+a+fshUII1CRMkbkP1DNGm0kR1r1/rNDiFcxIZgUU1GNr
-RrQkN5zLGSLc4KuxEJnEL5kt
-=Qw6i
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhD4xobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CtkP/jtq2tZ6pa0wj5+YbSsl
+/X7xwRAqueVWjSSZjzZukzYYep7I8N2AZpfPX9YsgBvH3riEOu4fNiNTP+/Ruc0+
+4t0Ta5AA9duLwhimR3Zw41wd8bzX4aTiWAj1p/a6y3gbcSgBVWo4M8ez2uU+JfF9
+vEALeH6WW6k2jWAXiFOaXfKUCG+5fUFWymmX2pvZOnwlj70uv5Cb3X6ohimX3zAz
+81auchrxgZCzcv5CXfl5uJAhFL7dwB8iRsRBoqUliOkKz8EJWPkAsYZ/yXqEs3zs
+03njmT0kusVvr9YkvhmDCYfMvmce7yThzsUxVr44qNA3mZLsOKGy+T4zsH6u6RwR
+xaSHNrU8201SOKvF/IPPUbY6anBwr2y7XHN9azmKmK6Ei/pRKsFi76JCOqxEj3uB
+vvUVs+BfQEBY5gacqppGCxFZAmxG9qGZSQnHd2M9GjAySvo75Hg2dEAHM3QURz1G
+6LPwK3b1WI03bOlrIvykH8ppLE9JmkUX9DaL/Y4gWX7FuljuE8hFepbXRqWKg9gJ
+1PmgVG24VfRL20eDxtvxYrwFsHUH4+qE/rx6hMMepJmH5lUJ8PUgW9E6v/z2z802
+KfmhrDaFCB3nOkB9bWvVwdcoZ45JgM+IgjskxQeJtcwrnicTYAW1UICWIoFe7wUg
+R06SH5xFA4qXvfuFbA1np1lO
+=ZAxG
 -----END PGP SIGNATURE-----
 
---===============0464210848771110718==
+--===============2730051568821971399==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-82f2b0b97b36-bdc7f8c5adad.txt
+Content-Disposition: attachment; filename=revlist-882826f58b2c-bdc7f8c5adad.txt
 
 5fa6f024596016edaed72c664fd3b4338529df73 octeontx2-pf: macsec: Get MACSEC capability flag from AF
 08ae62e1729fac589aae0be2ace848464760fd77 Merge branch 'octeontx2-pf-do-not-detect-macsec-block-based-on-silicon'
@@ -1082,4 +1082,4 @@ d94467aed34e5ac9cf26d6178a324eed7367e98c Merge tag 's390-6.16-2' of git://git.ke
 d3c82f618a9c2b764b7651afe16594ffeb50ade9 Merge tag 'mm-hotfixes-stable-2025-06-06-16-02' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 bdc7f8c5adad50dad2ec762e317f8b212f5782ac Merge tag 'mm-stable-2025-06-06-16-09' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 
---===============0464210848771110718==--
+--===============2730051568821971399==--
