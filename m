@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dakr/linux
-Date: Sat, 07 Jun 2025 12:55:38 -0000
-Message-Id: <174930093823.3529679.3036753962622732948@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/glaubitz/sh-linux
+Date: Sat, 07 Jun 2025 13:20:21 -0000
+Message-Id: <174930242173.3549473.32150780155501492@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dakr/linux
-user: dakr
+repo: pub/scm/linux/kernel/git/glaubitz/sh-linux
+user: glaubitz
 changes:
-  - ref: refs/heads/rust/wip/devres
-    old: d5aba86a0433b8b20295347a34a8b30d34fd4af9
-    new: 272072b4bb7d8a4549b492f3e9a5d67d298cbf65
+  - ref: refs/heads/for-next
+    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
+    new: 8a3682601ddaa4ef0c400f627a7f4b9388bbccef
     log: |
-         a11dc6326e48353c0b307497d42b6f22dfe50263 rust: devres: replace Devres::new_foreign_owned
-         de09ce8f0a3539059f5d23151df687bdc2ecb9ab devres: rework to pin-init
-         272e6671e44f20c3f9f3aa8954c08978e2a24a69 devres: split into Devres and RevocableDevres
-         272072b4bb7d8a4549b492f3e9a5d67d298cbf65 rust: devres: implement register_release()
+         9cc646950eefda5605111cbc387b00b1f741c239 sh: Replace __ASSEMBLY__ with __ASSEMBLER__ in all headers
+         ab0a168fcd984c2fc93eb0fb2367881c6aa62eb3 sh: ecovec24: Make SPI mode explicit
+         8a3682601ddaa4ef0c400f627a7f4b9388bbccef sh: kprobes: Remove unused variables in kprobe_exceptions_notify()
          
