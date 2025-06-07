@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3849876371335822165=="
+Content-Type: multipart/mixed; boundary="===============0816232939027902489=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sat, 07 Jun 2025 10:03:35 -0000
-Message-Id: <174929061522.3385452.894115660882287831@gitolite.kernel.org>
+Date: Sat, 07 Jun 2025 10:03:36 -0000
+Message-Id: <174929061660.3385622.15546074148213443122@gitolite.kernel.org>
 
---===============3849876371335822165==
+--===============0816232939027902489==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,58 +16,60 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.15.y
-    old: 1a4f65aed9a8b13e85d7c39b102a9a9736cdea43
-    new: 06376799fc74e4f977a9d8316cff77b8d7ea5e6a
-    log: revlist-1a4f65aed9a8-06376799fc74.txt
+  - ref: refs/heads/linux-6.1.y
+    old: 689d1f4d020d8f2efe2bbb51e283d687e6ffa2f9
+    new: 240f4a52ccba936960a36d23425dc4c8f5232e3d
+    log: revlist-689d1f4d020d-240f4a52ccba.txt
 
---===============3849876371335822165==
+--===============0816232939027902489==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1749290649 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1749290650 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1749290614-d9b34c9ea06457b1dfec91e99e1f39605b4fb662
+nonce 1749290615-65e4476acebe18051e0d4a2d553b71d228a54b4c
 
-1a4f65aed9a8b13e85d7c39b102a9a9736cdea43 06376799fc74e4f977a9d8316cff77b8d7ea5e6a refs/heads/linux-5.15.y
+689d1f4d020d8f2efe2bbb51e283d687e6ffa2f9 240f4a52ccba936960a36d23425dc4c8f5232e3d refs/heads/linux-6.1.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhEDpkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MEUP/iRzjUIjicPqgQZthSFP
-MQqRPMgoPnN2ujI9aXGeUAhr1ahnAaXXYCXA+JnmUjgP8ZdLy/7eXrJThdEBLRY0
-OIS5BxMru8E2+arQFCzoahzWT8aZU1kEFNXxo93IDVIOvwwMNtJ3V9peir46Y3EM
-K+7YUvRz3ASAX7DzorNnY+dVqh1V9m9IFEgVnJyXpDsegt7K6mgeChhfh/2kusi6
-lPKmgkUcpPUKCNrdXSRjJ8ggFuur2fgaS5LPNXgCX4VvwD8m5Nd5wuHby3xio/kg
-//HSG1XT9trtlTFngLAeGEuvSYYmFjy/qZis+P2u1wZ84JGcR9wnS1bdGYuQfHyq
-DmaLdiyAojJnj0hGcjMbaAheMIYis2RjNi/kBZmEozsYEJSN2bNS4xW1SeZUkWUb
-mov/Rpi0um0sZXQD0nTmRR9iUeG/37X7hVzNyPieEHXUXdfWYeMBugDq3xq1nYXK
-MlG8/ufSs1ti5OhDrQD8xvpVEgMdurHjV6y3MiI0iG4VkTRtBCREN6tNZGxtZ2mP
-Bipj6r75gsX9mMjAP5n8QBLFqAR7mrgbf2i/AulI9pmDqxy/VStTzUsx1wr9v3s8
-gd/TC1UtkIq0bczaidhbSBTfmpr9Z4zsHIZogwboijHmtRokji03U3z6NTQR6r19
-MpwJCkmKsuiKZ7Qhzmtym6qn
-=1MpV
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhEDpobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SjUQAJFAT+uJ4aqNieTE6AFA
+z6DFHv5rsDRdkeYITKoCFDMezaJq+MBsILhKC5nfH7HhOrTPOwyRZshewsElwfNZ
+8OYVYxOHkfGAuggelrGwfIA9X0tH6c1GJSvuXKD1XWFaooPnASC12uwjHYx2WfTX
+Cm5tH2uHpyCkpapD3m5lhlJ/F/LcLfJhw4iXhHUsiuUjAkT4LPYRG+cux1fMrDwk
+aLKo+lvnxE9I+KLhV0QgYlddgwpb0o3skhE05VvfQ0BOz0/9OqYxKWP/lOroa12Y
+GjARM0IcKnxLyyvqXXGTz6vEng2pYpCMIcbJdWBV8xEKqILEJEO8wawEx/8Uxttu
+xoid/gDoszLyXbeCpk1y7zNHDzPMSLUnUnQDVmMKX1WNqW7ZBYej/ntw7Cuyx6O1
+JCMrvYkvkbVqAQgePX0WRLwi1AQ4E+N1MYyAtINOqTeS3UYvYNLnBXq91fIYDPuw
+ZnUi5txOmxdlEB6crs3VMGf+wMf59YnDyye2Kfq+ApyhZcHek94hmt1cb/TusGpl
+uGULv+ViWS5D6VpXRfkIzWf654jsy1wLaLqkIhnohZ0fNNZBEyQTMzU/Mk+b+i2l
+M9uwNIhGp2hkiD6yJebFJAF+wgN1MlgYr2jTq65aFXKbMO9UKqCLpcObmmHfC1dG
+f6ZJotDb1ekbyEViFpkr+fl/
+=Uyi8
 -----END PGP SIGNATURE-----
 
---===============3849876371335822165==
+--===============0816232939027902489==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1a4f65aed9a8-06376799fc74.txt
+Content-Disposition: attachment; filename=revlist-689d1f4d020d-240f4a52ccba.txt
 
-68eeee382376a4e7108719c7723e48412122c360 tracing: Fix compilation warning on arm32
-e64bfed0141854fda76bcf45ad9054f592d8d959 pinctrl: armada-37xx: use correct OUTPUT_VAL register for GPIOs > 31
-de025ef39668733f3ca902f22ed40ac04db72ddf pinctrl: armada-37xx: set GPIO output value before setting direction
-7e7016694398851404f37c5ed178eb58d3f8f18e acpi-cpufreq: Fix nominal_freq units to KHz in get_max_boost_ratio()
-74b79b98c28a30b01d4d7321be9148bf94c284cc rtc: Make rtc_time64_to_tm() support dates before 1970
-0f8d1db9a46485078852e9274417f986e80834a7 rtc: Fix offset calculation for .start_secs < 0
-c173e7c76668315e28d2606ad60d94c1fdff0687 usb: quirks: Add NO_LPM quirk for SanDisk Extreme 55AE
-58124f3043ff27a9b3bbe11dd3592dab2d0566bf usb: storage: Ignore UAS driver for SanDisk 3.2 Gen2 storage device
-78fa3d86f92fb0fd76c87ffa20785a63b792791a USB: serial: pl2303: add new chip PL2303GC-Q20 and PL2303GT-2AB
-0dc5f5b6bae0f6b9787dfb36696902bb3ab76a89 usb: usbtmc: Fix timeout value in get_stb
-b747d3760b282639e455aa0752a441a8f644cff1 thunderbolt: Do not double dequeue a configuration request
-06376799fc74e4f977a9d8316cff77b8d7ea5e6a Linux 5.15.186-rc1
+e475ebb912ae852564161fe4ee22d986c5682864 mm/uffd: fix vma operation where start addr cuts part of vma
+1b0a143b9b49299c8722f9df0583dd1e98f7192b tracing: Fix compilation warning on arm32
+bddcc20f8aa26f8f07ce93f84055d2c755e1b766 pinctrl: armada-37xx: use correct OUTPUT_VAL register for GPIOs > 31
+76953b06db23167b4aa37f51ef855e07f46b4770 pinctrl: armada-37xx: set GPIO output value before setting direction
+f6c25cae6eee66b672c889f14eacf01d753c7668 acpi-cpufreq: Fix nominal_freq units to KHz in get_max_boost_ratio()
+29d3a4ed2494e391d504fb87a28e93685a754abb rtc: Make rtc_time64_to_tm() support dates before 1970
+cb7821cd5d605ee1736b47a36ca4a662bcdd7c3a rtc: Fix offset calculation for .start_secs < 0
+0bd05d6ea94d541f049c9e5d54c46e1f589b67e5 usb: quirks: Add NO_LPM quirk for SanDisk Extreme 55AE
+5b863e957d4a593ff573600a9ea35100c78afc26 usb: storage: Ignore UAS driver for SanDisk 3.2 Gen2 storage device
+ea9db587a2434d80e2bb10ad05ee3be51298d98a USB: serial: pl2303: add new chip PL2303GC-Q20 and PL2303GT-2AB
+20c6485d97ec2f80d9ed69848b6b8375cfa85268 Bluetooth: hci_qca: move the SoC type check to the right place
+db26683d8891b298aa40a7761ac22f5e29c379dc usb: usbtmc: Fix timeout value in get_stb
+7ec2f274c10fbac02e975c976819a4289bbf1978 thunderbolt: Do not double dequeue a configuration request
+240f4a52ccba936960a36d23425dc4c8f5232e3d Linux 6.1.142-rc1
 
---===============3849876371335822165==--
+--===============0816232939027902489==--
