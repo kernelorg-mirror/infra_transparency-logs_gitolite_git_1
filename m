@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6706976203855079954=="
+Content-Type: multipart/mixed; boundary="===============7112172152615722993=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sat, 07 Jun 2025 10:03:39 -0000
-Message-Id: <174929061983.3386000.6510922585866719940@gitolite.kernel.org>
+Date: Sat, 07 Jun 2025 10:03:40 -0000
+Message-Id: <174929062010.3386024.9050565398034867627@gitolite.kernel.org>
 
---===============6706976203855079954==
+--===============7112172152615722993==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.12.y
-    old: 72fb4fc89132ad922b30c05f626aa46abf3208ff
-    new: 473e0269f7b463429e35091569cee2fc6f46291d
-    log: revlist-72fb4fc89132-473e0269f7b4.txt
+  - ref: refs/heads/linux-6.14.y
+    old: e338eb71c247463accd9f6b3ff699cca1ae06767
+    new: 616cd96cb2128260bd87d515ec427d5c57f8710e
+    log: revlist-e338eb71c247-616cd96cb212.txt
 
---===============6706976203855079954==
+--===============7112172152615722993==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,55 +32,55 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1749290653 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1749290618-bb78714d4bb220147f1dec8aeb7bf41dbf4e2d8a
 
-72fb4fc89132ad922b30c05f626aa46abf3208ff 473e0269f7b463429e35091569cee2fc6f46291d refs/heads/linux-6.12.y
+e338eb71c247463accd9f6b3ff699cca1ae06767 616cd96cb2128260bd87d515ec427d5c57f8710e refs/heads/linux-6.14.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhEDp0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+i+wP/RJdqe4OnZMrYlXU40y8
-pqdJe0F8ddOAJIFwCHDv8YnAw9q6XGPlheQG9DQmAH2eTAq47CF/BO7tDJT3NO6w
-xY8Yl6lDp/J//bgvwnl+2v7ve07QDxrvque7UfgWutgLFa/WL286y8mz3JQ/SCIF
-2ajpbGabRoDUMlygw9iDoaL7l6MiLZ0uS0nqPX2jR8mODAqFQdwsPNsLMnJ6GVZW
-60cP0CFNjqCcjBH+KhmxfQ+JvdsICw8EafW1u446K4ZMzyU05Jy9hXLPV7Hcx5OM
-EEKlwIkAVPFT/ynf3yvVQHlQ3nJJsWDLX2F72vHalIvudjS6y1xQsTQ8pssdKW9g
-X3sohg6bGiF3uCw/EI7Zoh0ts4weet6c0JRUj3dIMHywcJqKHmaJntt00vubnciT
-86EwAgC0VLEmv0dhWCc183oUl+xeqlLbyld8jtF4g4vq1POwV2nkNba31Ml5hf3C
-0Uky8aS0kGraHO/xaqyi179g8ptA1VPrJmD34XEUaPUYL+z5ZeAzW0oleU0Lgo3d
-reTihDjRwh6Z13Q5T/+6eWDPH3CTeBxn9ueOUNrraXBGLgpgjCkikIsYQU8NfY/H
-6fm84I0vqu4iaub69Z1z31Xpmi9E0q85UdedQoUEtSdUZ452oiqvqjOQCBCCI3et
-4q1PPAhxXEFldRWDXtYoTHNM
-=T0KT
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+p8wQANVSjTZr7wqPrDwFHA2W
+z5IL5LmUMlnYtgD/qy7c4CQlwkeUiLt4CoAv92+VnmPEuWMC+z/EmkKpkZPC7f6H
+XyLm8swTGUFh1LizFGuJexIkKWVHeN4uimXeZMyz/P5A3gOeG8b0Hutr6BSl75zy
+Q1q77w0SWY+aHDa9DpPeXt3AkzrYOi2VHS7dRUTRoDWygINUioM6dMBP7qlUii2d
+jAF2KygNkVGDqWVngdxN1y2erBzhK9u8Kf5ZF+JMfqL3s4wY808Z6LcwGSPsK9+l
+/9eAhN4tnqC6t4Iijzq2tdw6KgNpctYIWbp6N/RVScW6hBUT7Gv4ONvEtgyQdjen
+WtEfA4CjlwAdi1iPxr0EX0jTjthj2AMW/J/Y2jpRvznVNPIvhLuScFiXUwBAIb8B
+iZm8+mr/aPsDYOt05L+4M9OxfeQl1VrLdHTpXenp4e4gAw1O9PZBVK7Fy/0IpHy3
+3nAFaM7W1KLKVe10rhMaOx/Lr2kTgA5ZnBgewNCXsVdZTQ2+jd+Bld6pjbewajpN
+JiUalhlXie2218Jz4ZCOxPmATIWf5cRsTzJxStZU6bcnp654VWbNDp3oJf2mLjBk
+kG/Jcg10V7d8M4Ig41eCa09X0P5BAh5CJDKkYumxeL3zo7KS3J3bJLnxdbBlVC5N
+VUBG4wB0zeDi/myzu08NsqDY
+=/xpp
 -----END PGP SIGNATURE-----
 
---===============6706976203855079954==
+--===============7112172152615722993==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-72fb4fc89132-473e0269f7b4.txt
+Content-Disposition: attachment; filename=revlist-e338eb71c247-616cd96cb212.txt
 
-2f34df4a124f5785afbf4910fc9f1d99ce47d48b tracing: Fix compilation warning on arm32
-6faf9b4b29228d9adbddfc40cfccaf25aee5d293 f2fs: fix to avoid accessing uninitialized curseg
-0c84ad37a415f911cbe18e5e2d23684621e44452 pinctrl: armada-37xx: use correct OUTPUT_VAL register for GPIOs > 31
-a1499833d056500b3e7ca463f12661c5dfc71fbe pinctrl: armada-37xx: set GPIO output value before setting direction
-ad1508abfc026602fc83e3faa9835ca0a6638b03 acpi-cpufreq: Fix nominal_freq units to KHz in get_max_boost_ratio()
-96ff606978eeeb7a889bb14bd80787146354feef Documentation: ACPI: Use all-string data node references
-4c8e6d9ea5a1f611c33a40a49458aa4a9ef78c7f rtc: Make rtc_time64_to_tm() support dates before 1970
-d5c461d6ea6edeeecdebe1e97407b9797300726b rtc: Fix offset calculation for .start_secs < 0
-a9851d41f8dca17c97476e2dc2821d9fbab3b31e accel/ivpu: Add initial Panther Lake support
-3c66223b540ee26ebc1287a3673e8a67a1d58766 accel/ivpu: Update power island delays
-88df10ae6170dfb65100418dde9d8171996ff576 PCI/ASPM: Disable L1 before disabling L1 PM Substates
-426355bec606c57ae397f03f03d9e14feee9ea9f block: fix adding folio to bio
-7ea9186f5ad8fd22b1a1eae606ce7e1d147be4a8 Revert "cpufreq: tegra186: Share policy per cluster"
-833c88773f12062c688977542a13e5317cbe7990 usb: quirks: Add NO_LPM quirk for SanDisk Extreme 55AE
-802d7b2a3bd7d606ecf8a26509065f78f5cf647e usb: storage: Ignore UAS driver for SanDisk 3.2 Gen2 storage device
-04ec4690a6d31d2cba547f6bbf1d2d0e263bc376 USB: serial: pl2303: add new chip PL2303GC-Q20 and PL2303GT-2AB
-1bf7b5a7f5c8fcb01e6bc040841f77eb3d237b1b usb: typec: ucsi: fix Clang -Wsign-conversion warning
-fff2e1b2c61ace825c7d2fd5565cbe1f7f0a125a Bluetooth: hci_qca: move the SoC type check to the right place
-ae433cee45faa36d2f73551cae505519040c0146 serial: jsm: fix NPE during jsm_uart_port_init
-359b38661469bc1f639a4df337a8c9738616d0f6 usb: usbtmc: Fix timeout value in get_stb
-58667065b7b78d984b5f5eb5616b4f6874e1290d thunderbolt: Do not double dequeue a configuration request
-02dd170928a6e9dc919adc1b86d28eae63276879 dt-bindings: usb: cypress,hx3: Add support for all variants
-d6546e2d2f14cf6bcc29269eb36ccd03fb6121c6 dt-bindings: phy: imx8mq-usb: fix fsl,phy-tx-vboost-level-microvolt property
-97d7ef808a6820ef676e334b3d4ed157ea387441 Revert "drm/amd/display: more liberal vmin/vmax update for freesync"
-473e0269f7b463429e35091569cee2fc6f46291d Linux 6.12.33-rc1
+0d42b37eb4e1781ccf551bb9e706d88d1aef9c04 tracing: Fix compilation warning on arm32
+9477ac93f5edaf7a08c88d64fab4da6c48982644 pinctrl: armada-37xx: use correct OUTPUT_VAL register for GPIOs > 31
+bd08d7bafbf55345494b2dc8ccd8460f97535700 pinctrl: armada-37xx: set GPIO output value before setting direction
+5bbeb99458f49b96a45b173672f0caef87d5269f clk: samsung: correct clock summary for hsi1 block
+ae96feec230c86f61f8b9054246cb62d225cdb1f acpi-cpufreq: Fix nominal_freq units to KHz in get_max_boost_ratio()
+82886ad6be17173923c6cc202d933b0fba9fd656 Documentation: ACPI: Use all-string data node references
+8497ac0253914699ba9c2b0d569e19b04fe96bc4 rtc: Make rtc_time64_to_tm() support dates before 1970
+155f02c0feb59881507dcb475f55ec0130f3aca7 rtc: Fix offset calculation for .start_secs < 0
+8ed0f4e15fd4812d91c425350a2f3ec369cc418b orangefs: adjust counting code to recover from 665575cf
+853d2a6f7c0a19691a1a45cadace88b46f17d0bd usb: quirks: Add NO_LPM quirk for SanDisk Extreme 55AE
+15ffcbb1143ff68bd8f5012298a5c9ba6c822fa0 usb: storage: Ignore UAS driver for SanDisk 3.2 Gen2 storage device
+f6d67e20cbfd45d7eb9ba994bd55ceb4178cb30a USB: serial: pl2303: add new chip PL2303GC-Q20 and PL2303GT-2AB
+9b9fa964e07346dc5a4027eb42598c549f27d5d6 usb: typec: ucsi: fix Clang -Wsign-conversion warning
+4bff5708e73f6275020170ac50d9273f0f7cc8ed Bluetooth: hci_qca: move the SoC type check to the right place
+5d0b5912f6459c6789876e3287904c0158b3422a serial: jsm: fix NPE during jsm_uart_port_init
+9b91262162b859fd699959ae5811ff0fba035743 nvmem: rmem: select CONFIG_CRC32
+a98e90ee0e9af63be36a5a4ffa00b9cb05dd6d9c usb: usbtmc: Fix timeout value in get_stb
+7c57c2f43b9e6d0b627f29ddd77c7b08f03592c9 binder: fix use-after-free in binderfs_evict_inode()
+d1b3ecc1b97970219935d7cfb69509967f0d9f60 binder: fix yet another UAF in binder_devices
+92ad5602ae18ebfc05b72028badf57a88a9606f4 thunderbolt: Do not double dequeue a configuration request
+5ceb1985520fe1adb83fc2c1a82a4f007078f742 dt-bindings: pwm: adi,axi-pwmgen: Fix clocks
+7e6d725a9054acd97f5af17eb602b2ee677bbe04 dt-bindings: usb: cypress,hx3: Add support for all variants
+600f450ca8211be24ddfd5dea5b49a7414064e71 dt-bindings: phy: imx8mq-usb: fix fsl,phy-tx-vboost-level-microvolt property
+2b56437c0c831a509cbfd8770f0617f4b35b75cb Revert "drm/amd/display: more liberal vmin/vmax update for freesync"
+616cd96cb2128260bd87d515ec427d5c57f8710e Linux 6.14.11-rc1
 
---===============6706976203855079954==--
+--===============7112172152615722993==--
