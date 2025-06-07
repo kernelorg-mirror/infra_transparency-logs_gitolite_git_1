@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7112172152615722993=="
+Content-Type: multipart/mixed; boundary="===============6667347898608008968=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Sat, 07 Jun 2025 10:03:40 -0000
-Message-Id: <174929062010.3386024.9050565398034867627@gitolite.kernel.org>
+Date: Sat, 07 Jun 2025 10:03:42 -0000
+Message-Id: <174929062260.3386190.17879986240213820744@gitolite.kernel.org>
 
---===============7112172152615722993==
+--===============6667347898608008968==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,71 +16,81 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.14.y
-    old: e338eb71c247463accd9f6b3ff699cca1ae06767
-    new: 616cd96cb2128260bd87d515ec427d5c57f8710e
-    log: revlist-e338eb71c247-616cd96cb212.txt
+  - ref: refs/heads/linux-6.15.y
+    old: 56e02019cca7fca0e038835c466c69a40d3dd205
+    new: cd8a81bb92a15859c5ec85e59b7bbbf554828b4d
+    log: revlist-56e02019cca7-cd8a81bb92a1.txt
 
---===============7112172152615722993==
+--===============6667347898608008968==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1749290653 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1749290656 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1749290618-bb78714d4bb220147f1dec8aeb7bf41dbf4e2d8a
+nonce 1749290620-fdde215b002b15e7a903898c59f351bcfa2f387b
 
-e338eb71c247463accd9f6b3ff699cca1ae06767 616cd96cb2128260bd87d515ec427d5c57f8710e refs/heads/linux-6.14.y
+56e02019cca7fca0e038835c466c69a40d3dd205 cd8a81bb92a15859c5ec85e59b7bbbf554828b4d refs/heads/linux-6.15.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhEDp0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+p8wQANVSjTZr7wqPrDwFHA2W
-z5IL5LmUMlnYtgD/qy7c4CQlwkeUiLt4CoAv92+VnmPEuWMC+z/EmkKpkZPC7f6H
-XyLm8swTGUFh1LizFGuJexIkKWVHeN4uimXeZMyz/P5A3gOeG8b0Hutr6BSl75zy
-Q1q77w0SWY+aHDa9DpPeXt3AkzrYOi2VHS7dRUTRoDWygINUioM6dMBP7qlUii2d
-jAF2KygNkVGDqWVngdxN1y2erBzhK9u8Kf5ZF+JMfqL3s4wY808Z6LcwGSPsK9+l
-/9eAhN4tnqC6t4Iijzq2tdw6KgNpctYIWbp6N/RVScW6hBUT7Gv4ONvEtgyQdjen
-WtEfA4CjlwAdi1iPxr0EX0jTjthj2AMW/J/Y2jpRvznVNPIvhLuScFiXUwBAIb8B
-iZm8+mr/aPsDYOt05L+4M9OxfeQl1VrLdHTpXenp4e4gAw1O9PZBVK7Fy/0IpHy3
-3nAFaM7W1KLKVe10rhMaOx/Lr2kTgA5ZnBgewNCXsVdZTQ2+jd+Bld6pjbewajpN
-JiUalhlXie2218Jz4ZCOxPmATIWf5cRsTzJxStZU6bcnp654VWbNDp3oJf2mLjBk
-kG/Jcg10V7d8M4Ig41eCa09X0P5BAh5CJDKkYumxeL3zo7KS3J3bJLnxdbBlVC5N
-VUBG4wB0zeDi/myzu08NsqDY
-=/xpp
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhEDqAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uUkQAKg2N1Ifmmu4SnHGwy7e
+G/RR1DtKi0UP08o3o7D0sRuVV1IhCEfLeexsiDqKYllTGhkbkiBWGOizx69y4YOR
+Z7MbQHHJWRB0aS4++StOmTbOpLsRWfPbL1kDTEiPiyTceboLylv+sf86YmMf6XSl
+fnU5o5BU5iHkitedoACd159uo0HtR2F7BNeV8SJeFyKovT9sshdY3k+/yvxgXeKe
+VI3l3ozumpUVzaFXnYnxgDPV0VMwQpAj+7UkVcrxlX680uLfysbirgCCZsnMnwYe
+w56W4W2MtVfQReeI457lRbMl1z+NQQGHybzXPCMzC5b33cDxidbUR/VwTjMy6Bf2
+FPzzNzfp42kbihi53mWcmtGMv0VWOsJxg2dJUMA5Paj2/Xzwznh3u68cUSMUnH4k
+2DhfLWEbiJZkV/+cfIK/6RM20p4bUa9I9LpnLNqRXau1odVngWwdrohblBfKipcR
+HwQejRrNg/JUj4tmshQyVfTxZeib7wKMnNQT6DKQMAdNgislCothulw+Lgam4pxI
+BojZDBtrYPmBNAHA+eBoANRNgKamKyKujw6zXjteVpDHzFwbSEfGD3pu0s5gU61w
+i70jlaFiC5zh60HXyQLXxlJRtlUyu0RUPLc0JZ6zwBRWZo1/bhmlm1SC3RgH3HSq
+XGDKvEpGxMi+gXLCCcy2XM4n
+=pyG7
 -----END PGP SIGNATURE-----
 
---===============7112172152615722993==
+--===============6667347898608008968==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e338eb71c247-616cd96cb212.txt
+Content-Disposition: attachment; filename=revlist-56e02019cca7-cd8a81bb92a1.txt
 
-0d42b37eb4e1781ccf551bb9e706d88d1aef9c04 tracing: Fix compilation warning on arm32
-9477ac93f5edaf7a08c88d64fab4da6c48982644 pinctrl: armada-37xx: use correct OUTPUT_VAL register for GPIOs > 31
-bd08d7bafbf55345494b2dc8ccd8460f97535700 pinctrl: armada-37xx: set GPIO output value before setting direction
-5bbeb99458f49b96a45b173672f0caef87d5269f clk: samsung: correct clock summary for hsi1 block
-ae96feec230c86f61f8b9054246cb62d225cdb1f acpi-cpufreq: Fix nominal_freq units to KHz in get_max_boost_ratio()
-82886ad6be17173923c6cc202d933b0fba9fd656 Documentation: ACPI: Use all-string data node references
-8497ac0253914699ba9c2b0d569e19b04fe96bc4 rtc: Make rtc_time64_to_tm() support dates before 1970
-155f02c0feb59881507dcb475f55ec0130f3aca7 rtc: Fix offset calculation for .start_secs < 0
-8ed0f4e15fd4812d91c425350a2f3ec369cc418b orangefs: adjust counting code to recover from 665575cf
-853d2a6f7c0a19691a1a45cadace88b46f17d0bd usb: quirks: Add NO_LPM quirk for SanDisk Extreme 55AE
-15ffcbb1143ff68bd8f5012298a5c9ba6c822fa0 usb: storage: Ignore UAS driver for SanDisk 3.2 Gen2 storage device
-f6d67e20cbfd45d7eb9ba994bd55ceb4178cb30a USB: serial: pl2303: add new chip PL2303GC-Q20 and PL2303GT-2AB
-9b9fa964e07346dc5a4027eb42598c549f27d5d6 usb: typec: ucsi: fix Clang -Wsign-conversion warning
-4bff5708e73f6275020170ac50d9273f0f7cc8ed Bluetooth: hci_qca: move the SoC type check to the right place
-5d0b5912f6459c6789876e3287904c0158b3422a serial: jsm: fix NPE during jsm_uart_port_init
-9b91262162b859fd699959ae5811ff0fba035743 nvmem: rmem: select CONFIG_CRC32
-a98e90ee0e9af63be36a5a4ffa00b9cb05dd6d9c usb: usbtmc: Fix timeout value in get_stb
-7c57c2f43b9e6d0b627f29ddd77c7b08f03592c9 binder: fix use-after-free in binderfs_evict_inode()
-d1b3ecc1b97970219935d7cfb69509967f0d9f60 binder: fix yet another UAF in binder_devices
-92ad5602ae18ebfc05b72028badf57a88a9606f4 thunderbolt: Do not double dequeue a configuration request
-5ceb1985520fe1adb83fc2c1a82a4f007078f742 dt-bindings: pwm: adi,axi-pwmgen: Fix clocks
-7e6d725a9054acd97f5af17eb602b2ee677bbe04 dt-bindings: usb: cypress,hx3: Add support for all variants
-600f450ca8211be24ddfd5dea5b49a7414064e71 dt-bindings: phy: imx8mq-usb: fix fsl,phy-tx-vboost-level-microvolt property
-2b56437c0c831a509cbfd8770f0617f4b35b75cb Revert "drm/amd/display: more liberal vmin/vmax update for freesync"
-616cd96cb2128260bd87d515ec427d5c57f8710e Linux 6.14.11-rc1
+d2a7213c36ca8fe7b54e2bdc88342d048b0669c1 tracing: Fix compilation warning on arm32
+2deebf0dba5e19f462772da64eb19473b09daba0 Revert "x86/smp: Eliminate mwait_play_dead_cpuid_hint()"
+4c529183f912d248ead1a3c55fe254c78aa7f7e3 ACPICA: Introduce ACPI_NONSTRING
+f1e8dd456bc2fb7d1a5ce533c026c3529054585e ACPICA: Apply ACPI_NONSTRING
+699f6b89a23f36ba548ac2e8ada0860d6eae66f6 ACPICA: Apply ACPI_NONSTRING in more places
+a923ed87ad2a1630fe2d4035647f9ecb2c127263 pinctrl: armada-37xx: use correct OUTPUT_VAL register for GPIOs > 31
+3ad27cd6c20414e4041c6a24b1744c2efa1e5be9 pinctrl: armada-37xx: set GPIO output value before setting direction
+9c702552560936de3db45228ca9daac1a43059bc clk: samsung: correct clock summary for hsi1 block
+3add31f287dd9c9ebda624da05ab0cf00464ae6d acpi-cpufreq: Fix nominal_freq units to KHz in get_max_boost_ratio()
+4c8d63a8fce20dec9792e718dfd0e008f2cd203d Documentation: ACPI: Use all-string data node references
+95201972c5c22a40680da2cfc9e8b8bd889acad7 pinctrl: mediatek: eint: Fix invalid pointer dereference for v1 platforms
+40efc4de9853e2c675ce695d7050e34cfcf83c7a rtc: Make rtc_time64_to_tm() support dates before 1970
+285ddf5b9937c87ffef783499fb0ebc038bedc7a rtc: Fix offset calculation for .start_secs < 0
+459e328ac2c7b39be2d8fb826e38dc571759e048 bcachefs: Kill un-reverted directory i_size code
+a18dab1735d90378ec6acacc02178a3cf3752ba5 bcachefs: Repair code for directory i_size
+880fa4287e7d0df86210a660e1146c08934316c2 bcachefs: delete dead code from may_delete_deleted_inode()
+ab35095d6eeb0230f51351837857a3ab16620a64 bcachefs: Run may_delete_deleted_inode() checks in bch2_inode_rm()
+38aeb841f5e2dc0e5085a997c6931320cab7941a bcachefs: Fix subvol to missing root repair
+10bd0ce6cd29e3f42f30d542332727601d722d3a usb: quirks: Add NO_LPM quirk for SanDisk Extreme 55AE
+d2fc648c231bd5c89ff3f442d5894ecf29951109 usb: storage: Ignore UAS driver for SanDisk 3.2 Gen2 storage device
+f3e16511a9e92e4a67f38da3f72aaec7d450de25 USB: serial: pl2303: add new chip PL2303GC-Q20 and PL2303GT-2AB
+942cde048c00217433bdcb81c0e34b7a965ae50b usb: typec: ucsi: fix Clang -Wsign-conversion warning
+a26af075b92b6f83359f3f425f6920e0dce2b67d Bluetooth: hci_qca: move the SoC type check to the right place
+a70405eea1ae1e2bcead5c23a09d7cc06c90d43b serial: jsm: fix NPE during jsm_uart_port_init
+50a318078532bcb22f6bb6a55aca2c71fe8cbbc4 nvmem: rmem: select CONFIG_CRC32
+36dd5fb36427317ac98a03ebb0ffc28e27c7d755 usb: usbtmc: Fix timeout value in get_stb
+80502c3d3fff90888eed514ea75870de278e036a binder: fix use-after-free in binderfs_evict_inode()
+279ac9d22efbadfcdc1b6f1e0e60264ee3210efd binder: fix yet another UAF in binder_devices
+1aefefe1ef96e0d9a75198783500fa0d71fcb5a4 thunderbolt: Do not double dequeue a configuration request
+ace95501f145d83b2ae7bbda3782607e3ec9b28d dt-bindings: pwm: adi,axi-pwmgen: Fix clocks
+b23bbc4a57e8f1cef603882067d763379256416e dt-bindings: remoteproc: qcom,sm8150-pas: Add missing SC8180X compatible
+7ea3dcb3acd83ee54093827b9bb3466fa88a16ce dt-bindings: usb: cypress,hx3: Add support for all variants
+2a626d8a8b9d92fdac9906ef833a2a1b030730d6 dt-bindings: phy: imx8mq-usb: fix fsl,phy-tx-vboost-level-microvolt property
+6b47daeef9304dfb2a127a2fbec598cacdef1d3e Revert "drm/amd/display: more liberal vmin/vmax update for freesync"
+cd8a81bb92a15859c5ec85e59b7bbbf554828b4d Linux 6.15.2-rc1
 
---===============7112172152615722993==--
+--===============6667347898608008968==--
