@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8795271791227147293=="
+Content-Type: multipart/mixed; boundary="===============4094332661959301078=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Sat, 07 Jun 2025 10:06:40 -0000
-Message-Id: <174929080045.3390245.17318244623979873132@gitolite.kernel.org>
+Message-Id: <174929080091.3390302.6448949991080984386@gitolite.kernel.org>
 
---===============8795271791227147293==
+--===============4094332661959301078==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,22 +16,23 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.4.y
-    old: 4cc786249f2ceedb46ef6b147bef5e4d6920b834
-    new: d9a268794706efce95ca831ccb9b40a81d2ba8a9
+  - ref: refs/heads/linux-5.10.y
+    old: fae5454520ed83be818d59afa14bda16e23e9322
+    new: a09f66c98fdd22dabc7b152a0e0c69b4e69b05b3
     log: |
-         dc24be789dd68a958678ebbe3ed856672f92876f tracing: Fix compilation warning on arm32
-         c7bd4dd1b403824be3ff0f9aafbc4478db193b01 pinctrl: armada-37xx: use correct OUTPUT_VAL register for GPIOs > 31
-         d00f69746ef2efbb4bed2782818036b86d24baa9 pinctrl: armada-37xx: set GPIO output value before setting direction
-         7d54605df7385875ea308cee4661ee4e11e12ec3 usb: quirks: Add NO_LPM quirk for SanDisk Extreme 55AE
-         1d1cb7847202c800ad647ac36cadc2c8d4727d81 usb: storage: Ignore UAS driver for SanDisk 3.2 Gen2 storage device
-         8f5b5deb2b3b7bfe6c3665efae3af7523ba06290 usb: usbtmc: Fix timeout value in get_stb
-         57925d30bd7925de9a85d7c03792ef1391566edd thunderbolt: Do not double dequeue a configuration request
-         33dee08ad3d37a997f4bc580f4e75048325faad8 netfilter: nft_socket: fix sk refcount leaks
-         d9a268794706efce95ca831ccb9b40a81d2ba8a9 Linux 5.4.295-rc1
+         09b37a0962733e15657e1d5684efaeb565818332 tracing: Fix compilation warning on arm32
+         02c7899b7c3ee169c4f2894dfeab119c059a0bc9 pinctrl: armada-37xx: use correct OUTPUT_VAL register for GPIOs > 31
+         84159618dfbc1269612378ac15b9c4a05388ac16 pinctrl: armada-37xx: set GPIO output value before setting direction
+         b267695cb917d7a82772ae0d3b74a161aad4bebe acpi-cpufreq: Fix nominal_freq units to KHz in get_max_boost_ratio()
+         3693b33ec2a80358593e7945a87f59157cefcf91 usb: quirks: Add NO_LPM quirk for SanDisk Extreme 55AE
+         f68c350c3be412f599114279f2d905cf3b33288c usb: storage: Ignore UAS driver for SanDisk 3.2 Gen2 storage device
+         b327db2cbd83ef3c28bf4ae27d9deb372c011871 usb: usbtmc: Fix timeout value in get_stb
+         dc753d0031eda6cc8e8b9765c6d352d9d1831d59 thunderbolt: Do not double dequeue a configuration request
+         87728490f931649e9feddbad057bdba7df433eda netfilter: nft_socket: fix sk refcount leaks
+         a09f66c98fdd22dabc7b152a0e0c69b4e69b05b3 Linux 5.10.239-rc1
          
 
---===============8795271791227147293==
+--===============4094332661959301078==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,25 +41,25 @@ Content-Disposition: attachment; filename=git-push-certificate.txt
 certificate version 0.1
 pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1749290834 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1749290798-e04cffc4f69f41a441bddd6417f56a09eab66f02
+nonce 1749290799-29d70e0ac9bd5ef80b4d2979bda93502e2ba59f7
 
-4cc786249f2ceedb46ef6b147bef5e4d6920b834 d9a268794706efce95ca831ccb9b40a81d2ba8a9 refs/heads/linux-5.4.y
+fae5454520ed83be818d59afa14bda16e23e9322 a09f66c98fdd22dabc7b152a0e0c69b4e69b05b3 refs/heads/linux-5.10.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhED1IbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MYgP/RD5SqT1VVlxZxAfyzRK
-+N1ZPUWgAyAgAPX/EiWdXfqdm/U3Xn7Y6H4Ud15frn2JP2D/MISAje1fpkJTCf78
-092Ai+Ok+7iJyGbFy+BX2vEA6E73FpGvgR7PwXunQF4DajQfjvArNz5Me9dS0HWn
-ltIcjVWlTFhb4RaL1f6PL5qRE2fAK46fx2b6vwR8XpJw9V6u0g9Kz67cSfGf9jbO
-hSEoiE1uusV0wNhbvqYacdxbog7OICX8BIKG9My6RkNHSGNwRcALhjlPjzUw0rad
-jxO0Q2XO7a+E7vIxo86kQ7VOYEk2et16WE76dPpWJi116RJ/U/jdG8ZuaRZnNO0s
-SEbjOyXM2PIq6C6E49AwRmEgC6YJ2H3fbdmacXhHpuLuT9OId4ETsTsPXcwYjbOz
-OtQF6kYzllez/JSgrcUIfgu7/JZ5oK1lwNh1zOLfRFLjLg3lfc0VIZSgK7IOqGx+
-A5tobdABpyoTsA2nBozO2E70Uoql0Z3ztRAXLT+gm/6q67Oc4GqnsPJbJQD7C89L
-6Z8G9AFOf+OEhGmUjcguWDh8iAeCvDR3g052ucDsnwFsSqbBT2wdWeGy6Pd9IBY5
-3mJa8hu/v1wDqpwyaCSr2j6vaWteAggNraJD3cgAIMeMrzRaukCY78s+HmzWWlWO
-wYFCjOolXctAZepTkJsMqGLl
-=LoJt
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhED1MbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qMsP/0bH8yvN0ZkrizHDqjWe
+SnLOF3hMjr54xsyJW/5NAXje9wZLcdszP7z1teZEpgqX7pSm4mEVTpoYsPjFYVX1
+7+QfIXCAAT9kzI0+iskZDnHLBnCtYsRZz2rXxAvPx1drX91XDdPx0SggMW4A1doC
+LE9/BhVswprl/zwQftt0VtNk/L5P21UUy3f4nu2lAiUCna0sH8IzTPA+gj/a9+Yu
+sbMxja56gp5OhJLrUchlQ1pE3PRoMyor47qLnbsgnz0iCnkcS3qryzBxVY9cvAyT
+bfyNYsS+XVZDrygdCRPJouv9xVc2e/1imPqlkVqoeenxqLgRuusKCK9QQI0JCwzA
+K2UkZtnRvEHckr8eN75HYZqYJAquSdhgeXw29mMjFRNulLTRnNgQibyGMJ+qDhvE
+5q66j88SkopsqdY2YMyErKQwcwhuVVjnvR19cvQsu9MMcmsBst1tjhP7VM+NCLrg
+URu/ZT5SBNQxwsQEzUGilEwH+KQzQgGX4GCeHBbVQc+0awDSsCtY20bIIIHos+pX
+M9OZxnb+HHocwBIKh9lWdN1aNt/6DMerYjPFsqxTOZJQRe9L90NtjUHHMAAS9JoK
+b72Z+XcRfsz3qeJVtM43lAc84eWRENfn2q9xF8B7pGiSBWnK4jOZv4FnawbYhV2K
+DRm41ts3DVdl9Orak3iCctMy
+=gHAe
 -----END PGP SIGNATURE-----
 
---===============8795271791227147293==--
+--===============4094332661959301078==--
