@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Sat, 07 Jun 2025 10:19:51 -0000
-Message-Id: <174929159192.3401276.1166582656357406209@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Sat, 07 Jun 2025 10:38:17 -0000
+Message-Id: <174929269747.3416235.6504315606314285699@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-user: chenhuacai
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/loongarch-next
-    old: 69327cb3b3ed611030ff668e43c285de2b58193a
-    new: f78fb2576f22b0ba5297412a9aa7691920666c41
-    log: |
-         53c762b47f726e4079a1f06f684bce2fc0d56fba platform/loongarch: laptop: Add backlight power control support
-         f78fb2576f22b0ba5297412a9aa7691920666c41 platform/loongarch: laptop: Unregister generic_sub_drivers on exit
-         
+  - ref: refs/heads/arm64/binutils-cleanup
+    old: 0000000000000000000000000000000000000000
+    new: 61189b46d4cae85952b67f48da9af226155e9dd7
