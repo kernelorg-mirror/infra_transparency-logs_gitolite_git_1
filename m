@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0440724869754391594=="
+Content-Type: multipart/mixed; boundary="===============3191118616866926445=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Sat, 07 Jun 2025 09:53:42 -0000
-Message-Id: <174929002204.3375453.15243063415784906873@gitolite.kernel.org>
+Message-Id: <174929002242.3375508.17829461021066632488@gitolite.kernel.org>
 
---===============0440724869754391594==
+--===============3191118616866926445==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,22 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: bafe5f23dee2bead4e1592781502b986f10c78ae
-    new: 76bb224aafb7063892697d95c7125f35ca5881c8
-    log: |
-         db6b1ddc173640b1b3be41a556250bb1e2fbf822 tracing: Fix compilation warning on arm32
-         fa34712ab641956a488e49cf061c4a508b9fdbbc pinctrl: armada-37xx: use correct OUTPUT_VAL register for GPIOs > 31
-         e3af6862064e2ea11e5715c0ff4a3127a44da59f pinctrl: armada-37xx: set GPIO output value before setting direction
-         a6933e21872b2f5877ef8295e7afb56a5ad057ae acpi-cpufreq: Fix nominal_freq units to KHz in get_max_boost_ratio()
-         2f7e9e8ca9f74d20e4b4a3a25d4a71e7c31efa0a usb: quirks: Add NO_LPM quirk for SanDisk Extreme 55AE
-         382f6406731b44c2dee9a1c96be26990554abb2b usb: storage: Ignore UAS driver for SanDisk 3.2 Gen2 storage device
-         7832fbbc73dce1f7ed8e9650ea38acb91b373414 usb: usbtmc: Fix timeout value in get_stb
-         8a96abc14307ae603dcc9c0c6137c1e184d26fb1 thunderbolt: Do not double dequeue a configuration request
-         76bb224aafb7063892697d95c7125f35ca5881c8 Linux 5.10.239-rc1
-         
+  - ref: refs/heads/linux-5.15.y
+    old: 4faf94a8116a7637b2b537d3f6e17eb3e5842c32
+    new: 1a4f65aed9a8b13e85d7c39b102a9a9736cdea43
+    log: revlist-4faf94a8116a-1a4f65aed9a8.txt
 
---===============0440724869754391594==
+--===============3191118616866926445==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,25 +30,44 @@ Content-Disposition: attachment; filename=git-push-certificate.txt
 certificate version 0.1
 pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1749290056 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1749290020-f8b38d5daa7bfd402c1ab7f1d5e810deb6f37133
+nonce 1749290021-b69b8c9d253bb57e48c8ea97fea4fe23f9b763c2
 
-bafe5f23dee2bead4e1592781502b986f10c78ae 76bb224aafb7063892697d95c7125f35ca5881c8 refs/heads/linux-5.10.y
+4faf94a8116a7637b2b537d3f6e17eb3e5842c32 1a4f65aed9a8b13e85d7c39b102a9a9736cdea43 refs/heads/linux-5.15.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhEDEgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+m1QP/1xl+yDKs3G7galVHOvE
-B3v2VkMrEOU3x84e2pL4ZaqFj6E2vVB9rNY5vE9ZD4DhJPkM2gfK4/XTqtFP4yRr
-iJ8dCahPhi8UACqqgzrB0BfSTbGVlg87URVmwhRJS7E0mxIdJqfVwTKRH0BpO1Mb
-SzyplecHC7tZ0gkS0iZ8qlSPC3ZSuNc5LX5lWgaElqHMUrvXEw86l2AaZB+NJG9U
-0lKM1WX2ZSrEBwYY9o6Y4uoMF/iolBGXZHM/F98iI+0SKKVn37ELZ/GzKP4P81BJ
-yw175+oCUXLaE6HH54MjZ0dWAK8FJAnXjM4mRbduPft35gp6O9DM/ML5JTxnZIDs
-YSN5Ff83noLC1xoE9Ccgwf7FryUpba/heRXd0yKCu2aoxSiB6cID4pN6lPQ9ucdW
-aalWTsJVrki+7kkAZbchvmiXsY+mhGGoruEGaD5DUyzolIQAsG6ZO0tkpDUU7Yyh
-zhXM/1ZaBPq02pHQhAehOacUNjjcGfSe1w7ncaj3JNA76N7Rj/7Bl6kN3UusmAc0
-3huz2TRCvB/vJu906m0h14LfzBPviMV30Juwtp150VxQA0kY4oPROejlAkro09Si
-SOpDvTDcRnWb6t5+m5fCD2MmNUhMvynNmzOAdTe4gpgyXl0wZ0IUdxjKNfrxkZOr
-BWWH+PVQolreRtCGTZOp5w8+
-=YvQl
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/RgQAKnxQ/mYog/7pkDIu3V3
+TS3vIAZjMvQxjIMVI8PN/Ev6ZyFyysmto/HygNXsAWKbwn3lNTyV4ga3JQoe5IPE
+SjWkgqPlJoEzYc1F4AnGYMprAeygxGbFESQ26AXQNV0t8glOmTstkI4lSpxtpxf2
+Z2p514xlO0ETzu9BTeZtktFBIbpL5J2Iq91Bnwq4hwzIc98gqpjfAlICVKlJCE5M
+kjndQEzPJ2mm/rBXRWXXb479gqbh6cypgFneQZnLBcgdvMsBi8y0fQWcYZTpChad
+TGOHH7d/t2ySAwXgod8t/nrB4+8LbF5BCeAR8xCpO4PdKeqKMtyu/bfKq1B5y/sW
+H7IO62jh/KNpO95aT9xzFOFBH+Tk3WgoHnuFRFlGOZNqnAg+Fn1VdFtfqRMRd/pP
+pQ9kx47k4C93iJ3f7FwEx8p+LbKwGlME3zkwhZDvtuozQ3J9HKMkn4bIEx5Y2+sg
+KHSCplziBmIWMxBbUFKRu46pGBfpiuuNykyXqA/si/4m+qz5/qFKqKwkAldr/GkP
+EC8Nf3xCoMZsgMRBHQ2aAl7VGT7B42u9md0ZqrDMXhLkp3P5rkCmsFzo5I1hqImk
+pPESEwIBE7Z/MamakoXElXMTch4inN9gqBKbHlS3g2iaLe68vryX3xhM46mlMyGN
+sQb8rqyKGeEezFRUqS8JN6bY
+=vycP
 -----END PGP SIGNATURE-----
 
---===============0440724869754391594==--
+--===============3191118616866926445==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-4faf94a8116a-1a4f65aed9a8.txt
+
+1bc18452d5ab50bb2995b9f4d9f18fd622c56955 tracing: Fix compilation warning on arm32
+d7e51a01918b4481bff7182c9b2959cb6f4a8178 pinctrl: armada-37xx: use correct OUTPUT_VAL register for GPIOs > 31
+b4f18ba293c26476375812be8ac76d0cd60e5038 pinctrl: armada-37xx: set GPIO output value before setting direction
+34020f7bab0e9631586e6f3358dd5461bb29a880 acpi-cpufreq: Fix nominal_freq units to KHz in get_max_boost_ratio()
+19981dd617a6267c5d11890114846c3d588c4d74 rtc: Make rtc_time64_to_tm() support dates before 1970
+c088a1bdf339ec1f913e61ba3d93b16d918b0472 rtc: Fix offset calculation for .start_secs < 0
+5c95edc6a4ca9196081f5fe25773cac96fc81d0b usb: quirks: Add NO_LPM quirk for SanDisk Extreme 55AE
+ca8e831e119ad87b68c04744e6114f6deb1e50e0 usb: storage: Ignore UAS driver for SanDisk 3.2 Gen2 storage device
+aa178774a56e5418140780b99e52e778b81b04a8 USB: serial: pl2303: add new chip PL2303GC-Q20 and PL2303GT-2AB
+41f5c02b0d717d8b185a6608cf6d1877dd67eec7 usb: usbtmc: Fix timeout value in get_stb
+e8862fabe2bda17f8c1179be5529bf62fa8faae4 thunderbolt: Do not double dequeue a configuration request
+1a4f65aed9a8b13e85d7c39b102a9a9736cdea43 Linux 5.15.186-rc1
+
+--===============3191118616866926445==--
