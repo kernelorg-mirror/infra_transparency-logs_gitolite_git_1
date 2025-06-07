@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2039715989537965533=="
+Content-Type: multipart/mixed; boundary="===============7560437436319358781=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sat, 07 Jun 2025 06:59:11 -0000
-Message-Id: <174927955124.3176056.8490493199136724430@gitolite.kernel.org>
+Date: Sat, 07 Jun 2025 06:59:17 -0000
+Message-Id: <174927955727.3176286.13083089078633469844@gitolite.kernel.org>
 
---===============2039715989537965533==
+--===============7560437436319358781==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
-    old: 82f2b0b97b36ee3fcddf0f0780a9a0825d52fec3
+  - ref: refs/heads/staging-next
+    old: a481f0ebf213e0ccb85f70c07bfcd733d2dc6783
     new: bdc7f8c5adad50dad2ec762e317f8b212f5782ac
-    log: revlist-82f2b0b97b36-bdc7f8c5adad.txt
+    log: revlist-a481f0ebf213-bdc7f8c5adad.txt
 
---===============2039715989537965533==
+--===============7560437436319358781==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1749279585 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1749279591 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1749279549-f79c722c876101444cbddf83c762ceb52117ee0b
+nonce 1749279554-540f05a608fd3731d09e1c5d89ed92e58faa0174
 
-82f2b0b97b36ee3fcddf0f0780a9a0825d52fec3 bdc7f8c5adad50dad2ec762e317f8b212f5782ac refs/heads/staging-linus
+a481f0ebf213e0ccb85f70c07bfcd733d2dc6783 bdc7f8c5adad50dad2ec762e317f8b212f5782ac refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhD42EbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Jc4QAKriPbamLGspTW6J1Eoc
-hbf9PtATmzGzHk0l3oj85FbKWKRu+35PMpg23shUDqRM5pXnVye70FRw+fOKHUkt
-2CTAPPdlBXEG+SGSUFZio+HPzED1vA6NYOdPyz46UMMbnToZmKIfSxRC9YxtE34C
-KDw4gxJ4glWJjYQKoSp8r4s+lrWtn6MuOrGAQxPGx2S0Nd/rE3wSazgGFo8jub3E
-KFlJd6fXj9C/Kj6oemVK6eREuRO9G40RHhN+1mV/Iq3bwrfW+Nt/XL3MV9HEgQK3
-mPF5iHiXWv9pZqmOCKQj/nLgnqrp+HF7qJSeo9OSI04Tk28VCty/GBfRAp80FWiA
-UjLUcj7mX3JYxEAsdSb5Wt4H2Rvf4lb+PSXKoiHtNP/dvI3lzwVoXJnV69aktiZv
-JftSquDC9Wh95CR+G83ULJH5z53MUM1bh57JRJreSOZAWhGr3H/GqcgBUx97IPwa
-bEc5F7B6vfc73jE0L6PIw7lhrhWZdm5zmMKkad7Qsn3G1PHqVAWgQVrwggTaWtaq
-6s8Dc4KcFQCR4fKXk9WvaE9eQiqhFFjYIkRW3vZHi1MfYGO4SgBuyb1ThVgYS2aB
-3Ka0AjpohdDtDUxRsVYrFKBd42IgWFWFmSXOWQ8K77fOxH/o9dJXTn99Bxh3vWby
-hwZtFOWrgpqE3AG09qhQCrsz
-=88g1
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhD42cbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Y/oQAIwPSsvT3SyQFLegAvOw
+68NKqRX8dVncoCiOH89NObFpf2twJnnab9v5P+2imgvtT1oBvgtlvubFDJNINe2z
+43e4I8HjpsIkAhJnD+Llk3SlFopQerXqtl1dz96buw5v4AwiApioI6W1fSYiR7dN
+wQbQn3Xb0uOgcNRgznrzYMHRXE/YuBruA9nhW1JcmriCNGJLDvo2rDzgCCisA//G
+r3QNxzaqa/EvADQBsSCUUqcEe6h/8xG6YMCU/276HyJlkVSUB2kl7zOEhY0E0XUc
++/7zyND2WxXGHugj2iJ0mE6p8DRTAFevMtK25NzhpSkO/DZfJ3nuDckKW/UlQW7B
+0A+YMj0GiBufKN/ekci3QaJa09lj3hg7yhkkvCLVezdoifxP6JhDU0K77XQ+g+ci
+4RVtzq1q1fx5AncSGmOdfmZbkJvrmJbym4y65pNB5Z6/3vUQGAbe5CLBH2E2Y61R
+MzqMRgYQBnfFC5PegPVnPhWFhJLd7LQdJbcj5wpWpTjbTUGKU7o/Rjn3TAVO0Czz
+wgqmQ40LnRCuLRFg82Jk3TvsO2pHqRfDFniGIMHLcD8/utfn2jlsXMOWog7Wo1Ld
+ohCcb9IbRUZdYcmnlY4D22fwjC33w0MPbWA+eLs+VB9vpGODOE4p0pE0OTX5vIdh
+ZSNnovr8Pr13KFTOtVtIAd0e
+=8a7S
 -----END PGP SIGNATURE-----
 
---===============2039715989537965533==
+--===============7560437436319358781==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-82f2b0b97b36-bdc7f8c5adad.txt
+Content-Disposition: attachment; filename=revlist-a481f0ebf213-bdc7f8c5adad.txt
 
 5fa6f024596016edaed72c664fd3b4338529df73 octeontx2-pf: macsec: Get MACSEC capability flag from AF
 08ae62e1729fac589aae0be2ace848464760fd77 Merge branch 'octeontx2-pf-do-not-detect-macsec-block-based-on-silicon'
@@ -1082,4 +1082,4 @@ d94467aed34e5ac9cf26d6178a324eed7367e98c Merge tag 's390-6.16-2' of git://git.ke
 d3c82f618a9c2b764b7651afe16594ffeb50ade9 Merge tag 'mm-hotfixes-stable-2025-06-06-16-02' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 bdc7f8c5adad50dad2ec762e317f8b212f5782ac Merge tag 'mm-stable-2025-06-06-16-09' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 
---===============2039715989537965533==--
+--===============7560437436319358781==--
