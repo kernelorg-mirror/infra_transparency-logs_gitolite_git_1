@@ -1,30 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============6065048954371356964=="
+Content-Type: multipart/mixed; boundary="===============3152125195321209685=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ojeda/linux
-Date: Sun, 08 Jun 2025 21:18:31 -0000
-Message-Id: <174941751121.964310.299909303675919698@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Sun, 08 Jun 2025 21:32:04 -0000
+Message-Id: <174941832466.975806.17103166571245116085@gitolite.kernel.org>
 
---===============6065048954371356964==
+--===============3152125195321209685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ojeda/linux
-user: ojeda
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/rust-fixes
-    old: 0ff41df1cb268fc69e703a08a57ee14ae967d0ca
+  - ref: refs/heads/master
+    old: 92a09c47464d040866cf2b4cd052bc60555185fb
     new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    log: revlist-0ff41df1cb26-19272b37aa4f.txt
+    log: revlist-92a09c47464d-19272b37aa4f.txt
+  - ref: refs/tags/v6.16-rc1
+    old: 0000000000000000000000000000000000000000
+    new: d9946fe286439c2aeaa7953b8c316efe5b83d515
 
---===============6065048954371356964==
+--===============3152125195321209685==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-0ff41df1cb26-19272b37aa4f.txt
+Content-Disposition: attachment; filename=revlist-92a09c47464d-19272b37aa4f.txt
 
 35a8b02e071a83dd2d42a8446a00a56f6147dc06 Merge tag 'mmc-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
 049294830bfaa1c4b56d5ccf21075f6f9990799e Merge tag 'thermal-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
@@ -1051,4 +1054,4 @@ be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' 
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
 
---===============6065048954371356964==--
+--===============3152125195321209685==--
