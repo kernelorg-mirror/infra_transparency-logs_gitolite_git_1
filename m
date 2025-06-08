@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Sun, 08 Jun 2025 22:18:33 -0000
-Message-Id: <174942111333.1016344.14397578605901514478@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Sun, 08 Jun 2025 22:19:20 -0000
+Message-Id: <174942116078.1016954.4901506427382990153@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/for-6.17
+  - ref: refs/heads/nfsd-6.15.y
     old: 0000000000000000000000000000000000000000
-    new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
+    new: 3ef49626da6dd67013fc2cf0a4e4c9e158bb59f7
