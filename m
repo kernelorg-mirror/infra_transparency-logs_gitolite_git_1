@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 08 Jun 2025 15:38:20 -0000
-Message-Id: <174939710075.685521.13823308673385477122@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/pciutils/pciutils
+Date: Sun, 08 Jun 2025 16:12:12 -0000
+Message-Id: <174939913209.713110.11263301957390756079@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/utils/pciutils/pciutils
+user: mj
 changes:
-  - ref: refs/heads/testing
-    old: b76176ec7d1664c498a983214f55ad62d99b7050
-    new: a20572ab69597603bcb2141167e0f9419e6f3148
+  - ref: refs/heads/master
+    old: a18c54811475c1322e3b83e99f089596c5129422
+    new: 7d2fa63f3ee038b425a30a0b0d60525792af7784
+    log: |
+         7d2fa63f3ee038b425a30a0b0d60525792af7784 Update pci.ids to the current snapshot
+         
