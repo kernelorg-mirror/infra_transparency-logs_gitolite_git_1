@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============7487870455657775458=="
+Content-Type: multipart/mixed; boundary="===============3090463584268779316=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Sun, 08 Jun 2025 11:54:26 -0000
-Message-Id: <174938366665.448729.6352789848036410858@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Sun, 08 Jun 2025 11:55:12 -0000
+Message-Id: <174938371263.458195.10866979190226533757@gitolite.kernel.org>
 
---===============7487870455657775458==
+--===============3090463584268779316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/main
     old: bdc7f8c5adad50dad2ec762e317f8b212f5782ac
     new: 8630c59e99363c4b655788fd01134aef9bcd9264
     log: revlist-bdc7f8c5adad-8630c59e9936.txt
 
---===============7487870455657775458==
+--===============3090463584268779316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1749383699 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1749383663-40ea327f013fb65b09702e4aad7df36237eeca16
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1749383745 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
+nonce 1749383709-004d7e43bde55f7645cd86d056523fef3d25676c
 
-bdc7f8c5adad50dad2ec762e317f8b212f5782ac 8630c59e99363c4b655788fd01134aef9bcd9264 refs/heads/master
+bdc7f8c5adad50dad2ec762e317f8b212f5782ac 8630c59e99363c4b655788fd01134aef9bcd9264 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhFehMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bboQAMukedT+IVPFIOGvanBf
-pP/kLhOpu+m/MjZo/aMkc+fet9D02G3Anq+CdFkH/7SyLA8Ll2MfUemhHYDJmFO6
-Rk0BOYDaZZNvjGTqJ+otA2B65X1vsoUSV/Q0VmmEX0nb0baUEyzv88C2ZdNWlOON
-2zl4F5vpB6w4MoB0OEpG6L/Hw0MBgifWsWCfYfHbHjrvBf3X+UhF0sUk7CXq8WvF
-9244DxtesItzMYFgr5Z39hS8zYAR2yHst2bgNrYzG3pKwgX0JUfw0W5YT0h5vb8d
-3Q5BTLcticw0DRyR3vSY7lxxNVildoW1v9tJOEeoXyTUTR/GIUrcwAwweI731K/c
-qbDb1oym7e1mJHPcoscTKpfUeFhOaamlFy5B7pLjO8F8mtIwId1D+2g3WKSPVT6s
-J0+Dya4q6S6mX0FigcM1Nh6Als1TcEvU5E/mPZWb4tzBrK8vw0w04l0Cp2/AdxhZ
-d1Rk0YowfMTP7nH4oRQDwePCQ3YS0f8iB24/sbbMo5X/Gv8EEnWQIxwvHEGCIXG4
-iV7DgMBZlrME57cDpYbUB2IKTxKuHfWblbioqf9Fv6Zgf0s2/Z+3u14iQSM/o9OK
-MCYzCFnwzD8ox2vbJW/U1PCtAV8gokmxG3hz7Zk/bfo1P9ROpDjI2ZoEM1K83l3X
-J2F0xnQiKL9ac6pRMYpaL3W6
-=hFhm
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhFekEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZtwP/A8yT1c9xF+O3g9KbeJT
+hcpQdBLVKh7yWRFluyoCJEpMyRSnysTxUrnZ4VVyRp/hGM+g6FmYomJgIPN+XB/l
+HcCqudQDfyDKcvA8fz8EGHRF1F9dgkvdXF5yQN0j5b6pFcW2RcK6NKsenfXLmtXN
+NVcJopQ1JVpYFz13C/M99YALA579aA3UIqHp5yfhf6yqufWxaMUtE85BKhy+l/Im
+iNVqNdBq3Ap6uIBYucsI+JGlwJYg9nqcVS/ARXHVdSNKHJ6Ew1KftWaS2i6FMT7h
++EowyELLhVd5FWPH42EXXm/B49MRSGT4A57bcAevU8T/7Zq6jZDj4LmL/sjLpiu3
+WEKKg8bktT190sGnrm1NKo4UKUlSXOh8i29aDA5AVEuQ4UWTekP4ly07R0Uj1O7S
+AkBLF8meQFV/roRMpoZJnyksyUElKsrzEPj/svZb1gtAfCUbZK4tlRMAMf6hiBKe
+9tSfAoxXggUlRztkDPicjZVZw7gbDpbAphJT7/e5SJ8tC9j44mtCtlQrQ9JsEKwG
+rQa9onHanv56dXuDkLqQ0QChjazdDcJSXyWuLVn5MR73C+UAZQcMBOqya4rKsF5y
+EXksUkHcPPAq8b/XDu2ClWQo1+Hjhj53dKv27Hhd0PkCpfilJttklSmtROtd2WdA
+oRsEecnXODeNJUqRKLgW3uHq
+=uXzl
 -----END PGP SIGNATURE-----
 
---===============7487870455657775458==
+--===============3090463584268779316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -146,4 +146,4 @@ b7191581a973ab2fca45d2ca64416065f1660ae0 Merge tag 'loongarch-6.16' of git://git
 b3154a6ff1f53b794c01096577700f35b1be9cc2 Merge tag 'sh-for-v6.16-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 8630c59e99363c4b655788fd01134aef9bcd9264 Merge tag 'kbuild-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 
---===============7487870455657775458==--
+--===============3090463584268779316==--
