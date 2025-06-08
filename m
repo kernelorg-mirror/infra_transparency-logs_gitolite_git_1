@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1567984229301671143=="
+Content-Type: multipart/mixed; boundary="===============0047118133804423288=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sun, 08 Jun 2025 22:41:09 -0000
-Message-Id: <174942246970.1036616.14015602383609250972@gitolite.kernel.org>
+Date: Sun, 08 Jun 2025 22:42:35 -0000
+Message-Id: <174942255543.1037365.7442575654695051641@gitolite.kernel.org>
 
---===============1567984229301671143==
+--===============0047118133804423288==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/kselftest-arm64-nolibc-header
-    old: 874170b41cdd086f5868b17e5479a4641afb5285
-    new: 4a551af571929f419232dce76021b4963cb2074b
-    log: revlist-874170b41cdd-4a551af57192.txt
+  - ref: refs/heads/kselftest-arm64-ssve-fixups
+    old: 340c9929a92407cfd3a544f0d61b011e574f13d3
+    new: b8869442da7681a180fe7e15af726796be6e2b33
+    log: revlist-340c9929a924-b8869442da76.txt
 
---===============1567984229301671143==
+--===============0047118133804423288==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-874170b41cdd-4a551af57192.txt
+Content-Disposition: attachment; filename=revlist-340c9929a924-b8869442da76.txt
 
-3702a515edec515fcc7e085053da636fefac88d6 Merge tag 'acpi-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-c89756bcf406af313d191cfe3709e7c175c5b0cd Merge tag 'pm-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 d005af3b6756e533caf688060281a91e1dae3479 f2fs: remove unused sbi argument from checksum functions
 9b6fc9888e03dbe69768ace00091173b169aec39 f2fs: add f2fs_bug_on() to detect potential bug
 5827e3c720e5a881bf97451e3c280445f67cba04 f2fs: add f2fs_bug_on() in f2fs_quota_read()
@@ -1048,7 +1046,9 @@ d8c0f5d973004f2ac86375ea54fae9625ac594fb tools/power turbostat: Add initial supp
 be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
-90f0b8401cb1e19c7b88bf40c58b31cfd6db5642 EDITME: cover title for kselftest-arm64-nolibc-header
-4a551af571929f419232dce76021b4963cb2074b kselftest/arm64: Convert tpidr2 test to use kselftest.h
+6dea933144ef3e4c5b4bc9a7f9651c7cec3ab98d kselftest/arm64: Update sve-ptrace for ABI changes
+e807a8748790249a27f9d09b58fb595a674f5a94 kselftest/arm64: Fix check for setting new VLs in sve-ptrace
+51d952b36d9b6203fe53085915ed33a244bd54e5 kselftest/arm64: Fix test for streaming FPSIMD write in sve-ptrace
+b8869442da7681a180fe7e15af726796be6e2b33 kselftest/arm64: Specify SVE data when testing VL set in sve-ptrace
 
---===============1567984229301671143==--
+--===============0047118133804423288==--
