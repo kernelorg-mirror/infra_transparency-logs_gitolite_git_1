@@ -1,43 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============7557127864971068945=="
+Content-Type: multipart/mixed; boundary="===============9047528660434614575=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
-Date: Sun, 08 Jun 2025 23:08:53 -0000
-Message-Id: <174942413322.1059504.1951094837676152056@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
+Date: Sun, 08 Jun 2025 23:23:50 -0000
+Message-Id: <174942503084.1071877.4787485421481212205@gitolite.kernel.org>
 
---===============7557127864971068945==
+--===============9047528660434614575==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ieee1394/linux1394
-user: takaswie
+repo: pub/scm/linux/kernel/git/boqun/linux
+user: boqun
 changes:
-  - ref: refs/heads/main
-    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
-    new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    log: revlist-0af2f6be1b42-19272b37aa4f.txt
+  - ref: refs/heads/rust-atomic-v1
+    old: 132527c17225df029b79837fb4b4bf9b8db53359
+    new: a0d0e49157933ce54209ff4fbf4b5e9454260d84
+    log: revlist-132527c17225-a0d0e4915793.txt
 
---===============7557127864971068945==
+--===============9047528660434614575==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-0af2f6be1b42-19272b37aa4f.txt
+Content-Disposition: attachment; filename=revlist-132527c17225-a0d0e4915793.txt
 
-35a8b02e071a83dd2d42a8446a00a56f6147dc06 Merge tag 'mmc-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
-049294830bfaa1c4b56d5ccf21075f6f9990799e Merge tag 'thermal-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-3702a515edec515fcc7e085053da636fefac88d6 Merge tag 'acpi-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-c89756bcf406af313d191cfe3709e7c175c5b0cd Merge tag 'pm-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-d005af3b6756e533caf688060281a91e1dae3479 f2fs: remove unused sbi argument from checksum functions
-9b6fc9888e03dbe69768ace00091173b169aec39 f2fs: add f2fs_bug_on() to detect potential bug
-5827e3c720e5a881bf97451e3c280445f67cba04 f2fs: add f2fs_bug_on() in f2fs_quota_read()
-70dd07c888451503c3e93b6821e10d1ea1ec9930 f2fs: use vmalloc instead of kvmalloc in .init_{,de}compress_ctx
-54ca9be0bc589a0e45959ba73c76cf3f65110c63 f2fs: introduce FAULT_VMALLOC
-fef1848809230ab6ca5338e0c02ed2ac6e786775 dt-bindings: net: dsa: mediatek,mt7530: Add airoha,an7583-switch
-d76556db10bf41cd3ae1ad1d705245afe077a701 net: dsa: mt7530: Add AN7583 support
-8bc3c234dcb65a018120dab96c83845cc7ff35c6 net: phy: mediatek: Add Airoha AN7583 PHY support
 0795b05a59b1371b18ffbf09d385296b12e9f5d5 net: phy: clear phydev->devlink when the link is deleted
 c59783780c8ad66f6076a9a7c74df3e006e29519 net: airoha: Fix an error handling path in airoha_alloc_gdm_port()
 c6bb8a21cdad8c975a3a646b9e5c8df01ad29783 net/mlx5: Add error handling in mlx5_query_nic_vport_node_guid()
@@ -1050,5 +1038,17 @@ d8c0f5d973004f2ac86375ea54fae9625ac594fb tools/power turbostat: Add initial supp
 be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
+ec48b707a9faaccf95cbbc056a7a0e1f191cf00b rust: Introduce atomic API helpers
+c6dd05dd136a63cc8f1adf61d317b2453fbf42ac rust: sync: Add basic atomic operation mapping framework
+421e461857d43e0369b3cc0579ab6e437f08f424 rust: sync: atomic: Add ordering annotation types
+f76ccad89284e74e39e9137b55f98ef8a6eb9314 rust: sync: atomic: Add generic atomics
+f20d3536bdcfd5117b05492d0645f551e7c7176f rust: sync: atomic: Add atomic {cmp,}xchg operations
+7a410add003c3c863209f6582330eb6987c0970a rust: sync: atomic: Add the framework of arithmetic operations
+f6f0e93d65dc340853dd882364a0d320d85e2e0a rust: sync: atomic: Add Atomic<u{32,64}>
+56c545b4a9698b785c1d4bbc69be71600af4a33f rust: sync: atomic: Add Atomic<{usize,isize}>
+d002873d7687a93b19c31c8b2d7ff4091378d1da rust: sync: atomic: Add Atomic<*mut T>
+bf1c0efa1fd563a33c4ef1f3b2d5a576b2bf8720 rust: sync: Add memory barriers
+2ca7335e615c71837e8dbc87bbec0d30af63b730 rust: sync: atomic: Introduce AtomicFlag
+a0d0e49157933ce54209ff4fbf4b5e9454260d84 rust: revocable: Use AtomicFlag to replace AtomicBool
 
---===============7557127864971068945==--
+--===============9047528660434614575==--
