@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3021849705353932750=="
+Content-Type: multipart/mixed; boundary="===============0924581082601097903=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
-Date: Sun, 08 Jun 2025 01:08:15 -0000
-Message-Id: <174934489511.4120579.8025706131213085458@gitolite.kernel.org>
+Date: Sun, 08 Jun 2025 01:08:34 -0000
+Message-Id: <174934491470.4120951.13589725299786197493@gitolite.kernel.org>
 
---===============3021849705353932750==
+--===============0924581082601097903==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 user: masahiroy
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/kbuild
     old: c50a04f8f45c7f13972f9097622d1d929033ea8c
     new: 8630c59e99363c4b655788fd01134aef9bcd9264
     log: revlist-c50a04f8f45c-8630c59e9936.txt
 
---===============3021849705353932750==
+--===============0924581082601097903==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ b7191581a973ab2fca45d2ca64416065f1660ae0 Merge tag 'loongarch-6.16' of git://git
 b3154a6ff1f53b794c01096577700f35b1be9cc2 Merge tag 'sh-for-v6.16-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 8630c59e99363c4b655788fd01134aef9bcd9264 Merge tag 'kbuild-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 
---===============3021849705353932750==--
+--===============0924581082601097903==--
