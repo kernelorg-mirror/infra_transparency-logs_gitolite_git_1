@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2188981998102105473=="
+Content-Type: multipart/mixed; boundary="===============7146098700326231646=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sun, 08 Jun 2025 11:55:35 -0000
-Message-Id: <174938373542.483849.8100512462397040954@gitolite.kernel.org>
+Date: Sun, 08 Jun 2025 11:55:37 -0000
+Message-Id: <174938373790.486657.5232434991313299504@gitolite.kernel.org>
 
---===============2188981998102105473==
+--===============7146098700326231646==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
+  - ref: refs/heads/usb-testing
     old: bdc7f8c5adad50dad2ec762e317f8b212f5782ac
     new: 8630c59e99363c4b655788fd01134aef9bcd9264
     log: revlist-bdc7f8c5adad-8630c59e9936.txt
 
---===============2188981998102105473==
+--===============7146098700326231646==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1749383770 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1749383772 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1749383734-df35e9655f171d4fc6e4754bc51c0a9a0d8e3ebd
+nonce 1749383737-08cb32b19525dc96bfa3ace0e9d664d3f8dcb834
 
-bdc7f8c5adad50dad2ec762e317f8b212f5782ac 8630c59e99363c4b655788fd01134aef9bcd9264 refs/heads/usb-next
+bdc7f8c5adad50dad2ec762e317f8b212f5782ac 8630c59e99363c4b655788fd01134aef9bcd9264 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhFelobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AjUQALvWJ/6Gbe24I3buuFsN
-47dRecf4x/XvLPPFBEjzGlZ8xxlpa3TmSCMe0Qm3oa3hvyJN9DaqYDW8AuMj5GLr
-KcfNfgvlLRpOrZBMard+MPBTLXuWGpVzXJFsc2f+oPgCjp4FTApSAPhgMAORnPdp
-Pgsp8PYz+JWxkZY7uu/JqSWRCz18lQvKhFYirjIo97YPKtLdDkse4vpv3uavXjBT
-rE2z+q/TbQi/kX3mKOjvaBYhlNE61dyAIMyQdygK3zV8YgIovSVCKXJ33Mp0PZgO
-r+393jVUA62R2R1wo5Mgxy0gk4fevEjgKC3lX0wIp2DVVmYUiQEg6WxliWNxM5aJ
-U8Kvxqc8lFc9F/LBqaiRJVmQ8TCa2rJPOaxs1ON8BasB92I45cRYHb+bpJNWR60z
-zjcaWGp3q15fRFHZvnBJ83R/Ym9/dpBi9gdZb2PZDq1QBMWk4wd6YTfCqzfDiOD5
-6fevuwkINQQ9wPej0Cot41VHEXtLJflWUBd4ibxFRl0qn/0l4FFBBErIPHWxwBzc
-STs4fhyAPA4Idue/NENC5CofA9OJp2jVX9gZO5ZQEnRSqDBeQn2N3VRgMLnvswKO
-KSb07cLRo7EmaHA1HGQpUS8fi41PPxJ6Ml+e7+tCgkP4NBixvDjwz1y6ka2bd1Ox
-D4/gPMAqKnL+WlIkohXxqx9X
-=87IW
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhFelwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ulwQAM+L5GeUZR6iAshLuwIV
+RLHNIZkmMr+yOEijL678mJwFqrgmW9i66AiYI1eXkdLWjdBUw7W4njTyM+F3IpcM
+NZ0qfuYXAKh6JoT1ViHaVtPaQ0aET98a0/yYkHhYYZAGV5ZeGuvIp4wo61D9CH1K
+zqdga7uqUoTDOxgrzWrCmvZqX6JiCl9wfP5YBHo+n6+f/67xaB2lWmdXd3HZrqBn
+03UyZRZUzhxx/VxD6Nr/xUUTcMPBxtqMuygbZbriGaVARGqW+r79xg3KGYla9QBB
+rr7TZBJ9FDZbC8y593/xhAtnIE6vgRFtUW/wv5bbt4N9vvIAk18InzXZi+o90lkP
+qDRxBtFU9YFUPh1CZ7yWL9OlW1jw68QlbWmt3l3imjQdANpDNLpMPRAmqLkaL2dk
+KPKCKUg/dpjt1FZM2toCu1Lki89h92x9Lytt0K9Qu4gGk2jrRBydn8jGAPD/S+tC
+mDh35/Nw6sfd1wVRVhXKCiux8O0kah4Ff31UmlXv6ssXfzKlXeLK+WRz5EeDnd5D
+0rP/WifM6moQssW0PePRvGFwh9ljjoy1TzRuYC0ik3bfWJmb5teKOoV67vZHOPPo
+TK4549gVnijZ/dyv2E65so3huoHOHM4R1vG9hDLCLPbd7eFbOqcmiPhkmC0eGd+F
+FOhWr0xpIaoN40zweLIIWDnA
+=Gqo/
 -----END PGP SIGNATURE-----
 
---===============2188981998102105473==
+--===============7146098700326231646==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -146,4 +146,4 @@ b7191581a973ab2fca45d2ca64416065f1660ae0 Merge tag 'loongarch-6.16' of git://git
 b3154a6ff1f53b794c01096577700f35b1be9cc2 Merge tag 'sh-for-v6.16-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 8630c59e99363c4b655788fd01134aef9bcd9264 Merge tag 'kbuild-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/masahiroy/linux-kbuild
 
---===============2188981998102105473==--
+--===============7146098700326231646==--
