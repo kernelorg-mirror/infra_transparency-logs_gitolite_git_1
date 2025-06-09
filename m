@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============6026112101591372309=="
+Content-Type: multipart/mixed; boundary="===============5991547491610774081=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 09 Jun 2025 10:28:50 -0000
-Message-Id: <174946493081.1683569.11648947995006198885@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Mon, 09 Jun 2025 10:29:01 -0000
+Message-Id: <174946494179.1683956.7523407020295594426@gitolite.kernel.org>
 
---===============6026112101591372309==
+--===============5991547491610774081==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
+  - ref: refs/heads/driver-core-next
     old: 8630c59e99363c4b655788fd01134aef9bcd9264
     new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
     log: revlist-8630c59e9936-19272b37aa4f.txt
 
---===============6026112101591372309==
+--===============5991547491610774081==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1749464962 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1749464929-e6a5d9c8aeb62c93fa651459891b1637f7799821
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1749464973 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
+nonce 1749464940-17b612e11b074fa165c375359a0ca968f42dd022
 
-8630c59e99363c4b655788fd01134aef9bcd9264 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 refs/heads/char-misc-testing
+8630c59e99363c4b655788fd01134aef9bcd9264 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhGt4IbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+714QAI/9UW6H4bfc9gyS/KhY
-WhL8zrZhXf2Q3SHMz+eBDfmPRFkMOGW95naP16izh2RU6KHeOxaN5GtwX0ypeDhM
-QqDV1TkZ3Dc7v9/D+os/89nk2T1JzDFyimGxJbX/3K06j6zvoPtBMeVrDHuNYBcq
-o2fAlixTM/wltlNhewv+iBZJPnaIWM1WOe4SAhfdxO22DvRM2Oqrua4fquTKHnOI
-pg9KReamNLH9phIimNZnp30A1igQX5jaUmZx6sslbhQxvzIoB2mORyX2XSOO+1en
-64lx3715U1HGUTt5lmlSAnA+ZiwtkbfjVJL+W8L1I80kg4TVUeDqeKTwYE1AVmGI
-yfASA2mZJZfqnZZI4GBLLB1EHP3An5gNepfkbz6VEuj5ehS9M7gBEFTtj/l6Tgln
-iVCe655c718v+k8hjMtesDoSbDIOb9aavhcA7iL/NCIrabei9M58R7eRdbQk0BI3
-viEko283tG+Sx33wM01yTTIhXLqOcypqkJkKtpP7N76hFr5uwVQiwpZJGqwjT08G
-Y1GRODLToEFuYPlMG1bCQMJEbtI1+v8+8+yFHVcsZmDfYG/jC1Mn8g5VyHgcaZl5
-l1aUPsCvAt0rMmN3uauMztj8vQUs7M5EMI63m2sCN4Lzn4na0UHgXpNduBmb5r8t
-JuWz6kJ3QrQfk4ZhnKTMVTKF
-=el2c
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhGt40bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YYQP/2ijWHwsO0ZKhoC0uWfz
+cd5MGD9aYs729FcQkSu9T9EjgMWnTw8BDwuogAFU0iHlRcaaCl+HdLJd0lDS5sjl
+jbolXtnqYtOKtqJMigbUi6iiF/qyU/9sx4fFmWug/V335jB3LHRHNjUnMpMoZhrh
+9QX2QNFbyo9Ljxc1neSWF0gqcSKWG1t45EUeT5r5TwYwaP2/8VXAAXTh5JNIBBKX
++Qdxw3mJHamA45ypvqAU2cl+suYY/sHuGfxeab6G5kkU+fRKSPfnmG5KYlUIJENg
+SidmAWJHk5Tz5M8ojWgxm0hnHsAA+wVdbHdc7SW5xZy1DvFn9LVNEXrxbdk1zqcm
+1KWeHIxdrpjuLL5J1n0zsJleXfHYT6tC6QCAGrI4I9vafl+JdBiC+0PK4uBlJ0be
+8FAR4gSwbVWQ0qJ4whaFQrvSeP4XILF+L8VT/L2/jZswW3fgIy4td9/6e/SrdhDs
+zEmyCaZmS8CJwE2ozcMYFvc76CSqfzaNaRtBV/dTS78viQxhEmKszpX1DGzXYxUr
+p0DmahGyrRk7OiCAqRfi1s1Rtw3oNR1kJb4xiG0ZGftim0Kt82mZZoUZkoGOQNiW
+KvHHCrElR3u9ih/NKiCcSzgVtMRecIy646K3p9dDK3jfkzOFhVvYx6JEKwn2hgKz
+JQuUWod9GXIfZaTj/uh7lHxq
+=1cxC
 -----END PGP SIGNATURE-----
 
---===============6026112101591372309==
+--===============5991547491610774081==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -120,4 +120,4 @@ be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' 
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
 
---===============6026112101591372309==--
+--===============5991547491610774081==--
