@@ -1,62 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============5031994371620983020=="
+Content-Type: multipart/mixed; boundary="===============1752762118655668430=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 09 Jun 2025 13:38:11 -0000
-Message-Id: <174947629102.1862080.10874199043353156385@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 09 Jun 2025 13:38:15 -0000
+Message-Id: <174947629505.1862275.18420815482745470409@gitolite.kernel.org>
 
---===============5031994371620983020==
+--===============1752762118655668430==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.16
+  - ref: refs/heads/asoc-6.16
     old: b7188a1c0d2d7b04f4558e10293651d49fcb2398
     new: a4e469c1e2e0ec7f08fff9ed29f5500f187ba9f2
     log: revlist-b7188a1c0d2d-a4e469c1e2e0.txt
-  - ref: refs/heads/for-6.17
-    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
+  - ref: refs/heads/asoc-6.17
+    old: 0000000000000000000000000000000000000000
     new: ac209bde018fd320b79976657a44c23113181af6
-    log: |
-         bb4a0f497bc19558ba7fe9feac814286fc7ebe85 ASoC: codecs: lpass: Drop unused AIF_INVALID first DAI identifier
-         039de8f598dd7f060c8fde2498a7163315466f6d ASoC: hdac_hdmi: remove hdac_hdmi_jack[_port]_init()
-         f4c77d5af0a9cd0ee22617baa8b49d0e151fbda7 ASoC: soc-dai: tidyup return value of snd_soc_xlate_tdm_slot_mask()
-         db1a7a6f28b84c5ccd84a800cd4827b5599c95b9 ASoC: dt-bindings: covert mxs-audio-sgtl5000.txt to yaml format
-         ac209bde018fd320b79976657a44c23113181af6 ASoC: tas2781: Drop the unnecessary symbol imply
-         
 
---===============5031994371620983020==
+--===============1752762118655668430==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1749476324 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1749476288-306f3c8f7bebe6fd9027ffdeeadd45f5f8836feb
+pusher C3F436CA30F5D8EB 1749476328 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1749476292-0bd83359a2bc0c41c8fddd0dbc0340b7c58b2620
 
-b7188a1c0d2d7b04f4558e10293651d49fcb2398 a4e469c1e2e0ec7f08fff9ed29f5500f187ba9f2 refs/heads/for-6.16
-19272b37aa4f83ca52bdf9c16d5d81bdd1354494 ac209bde018fd320b79976657a44c23113181af6 refs/heads/for-6.17
+b7188a1c0d2d7b04f4558e10293651d49fcb2398 a4e469c1e2e0ec7f08fff9ed29f5500f187ba9f2 refs/heads/asoc-6.16
+0000000000000000000000000000000000000000 ac209bde018fd320b79976657a44c23113181af6 refs/heads/asoc-6.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmhG4+QACgkQJNaLcl1U
-h9BR+Qf9H6lJ7f2ecknvfsneKG39T8/6PQm04MQ8t0qqJKM2/MaVlJOysmMaVIXE
-MTEW+308XAbU0sBy8g3PSzWipGCC3wpvIINYVVIC7SS0/z6GOf7euDgnTL2oRw2d
-UwuAtLAyLS/aCJrz009mDqqrNkJ8nWli4UGDTLVrUyEUqeR4jubasBBEi28ELwcO
-WfKggIqxJzWdQ1yaBredfWIYcdU1/5k5Rvke+Q1C+v0z6rG3LqoEGlLMWgOHHsei
-ki9weT5zOZzOxTCRR2lPMU1RUaYw5h+CbMGXVvGfbPKz10XoxWMiQgIw0V6vH1Jj
-RLrjCJPR6DdneQl1Xep7BJKZl2FNVQ==
-=PeOz
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmhG4+gACgkQJNaLcl1U
+h9D1XQf/d1nS5NIJEoCytnhwvSanzp3dL48KwV2tanpscu6HVBppQx9reoUkuiCK
+U/iikBQk12t7EEU5IP16mYlk0L7UsjI0CBsgtgoPSJioR8wFMokAU6yPtN+c1kbc
+s9pJrrKxmeU4a7Ae7WPO2kB/5yoRltFknq8n8YMvHYt3lQouC2UqR82wgcf1QiFM
+oXhNV2iZShKVjTrajFdGv06O54fFi/pIoAXtNYjyo0P1Kp39VwvctCUFQKAbjSK/
+2jzfO26vccXu5h3tolE4tgS1PGH31gQa60nWqA8hI/G01n0BKubkKGGuAPDyiFrS
+ZX7PRdcPflNtt55d/wsz1P2hmgJhZA==
+=4ycj
 -----END PGP SIGNATURE-----
 
---===============5031994371620983020==
+--===============1752762118655668430==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1087,4 +1080,4 @@ be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' 
 b44b2694005b501b2eaeb56aa778f3ca22de4659 ASoC: codecs: ES8326: Modify initialization configuration
 a4e469c1e2e0ec7f08fff9ed29f5500f187ba9f2 ASoC: loongson: Fix build warnings about export.h
 
---===============5031994371620983020==--
+--===============1752762118655668430==--
