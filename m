@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5469313251812780592=="
+Content-Type: multipart/mixed; boundary="===============6778658113087238373=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/linux
-Date: Mon, 09 Jun 2025 16:48:47 -0000
-Message-Id: <174948772743.2047758.2458896361978866514@gitolite.kernel.org>
+Date: Mon, 09 Jun 2025 16:49:49 -0000
+Message-Id: <174948778963.2048880.4496165004626795247@gitolite.kernel.org>
 
---===============5469313251812780592==
+--===============6778658113087238373==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,36 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/linux
 user: tnguy
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/for-next
     old: dd91b5e1d6448794c07378d1be12e3261c8769e7
     new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
     log: revlist-dd91b5e1d644-19272b37aa4f.txt
-  - ref: refs/tags/v6.15
-    old: 0000000000000000000000000000000000000000
-    new: 0a4b866d08c6adaea2f4592d31edac6deeb4dcbd
-  - ref: refs/tags/v6.15-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 8a834b0ac9ceb354a6e0b8cf5b363edca8221bdd
-  - ref: refs/tags/v6.15-rc3
-    old: 0000000000000000000000000000000000000000
-    new: f34da179a4517854b2ffbe4bce8c3405bd9be04e
-  - ref: refs/tags/v6.15-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 39d6783f6488786301f36b0e7c619f220c3e8d2c
-  - ref: refs/tags/v6.15-rc5
-    old: 0000000000000000000000000000000000000000
-    new: bc720facc421d0ff6d568323035d1a4d5d35ce84
-  - ref: refs/tags/v6.15-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 5cb8274d66c611b7889565c418a8158517810f9b
-  - ref: refs/tags/v6.15-rc7
-    old: 0000000000000000000000000000000000000000
-    new: c3223240f4b9bd8142c101420c76abe8ed1eae73
-  - ref: refs/tags/v6.16-rc1
-    old: 0000000000000000000000000000000000000000
-    new: d9946fe286439c2aeaa7953b8c316efe5b83d515
 
---===============5469313251812780592==
+--===============6778658113087238373==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1075,4 +1051,4 @@ be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' 
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
 
---===============5469313251812780592==--
+--===============6778658113087238373==--
