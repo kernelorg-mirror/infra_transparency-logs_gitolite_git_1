@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============1805858856226824970=="
+Content-Type: multipart/mixed; boundary="===============8033274567505922209=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 09 Jun 2025 19:32:23 -0000
-Message-Id: <174949754348.2189417.14780916536466831390@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 09 Jun 2025 19:32:27 -0000
+Message-Id: <174949754702.2189609.1186334499849995674@gitolite.kernel.org>
 
---===============1805858856226824970==
+--===============8033274567505922209==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.16
+  - ref: refs/heads/spi-6.16
     old: e51a086117ed857ea455c9ea774dbfb82f53e517
     new: bd30b995df8fd053e13d10f78dbc7b2fa5ed1aae
     log: |
@@ -25,37 +25,37 @@ changes:
          cf2c3eceb757e3f28e6f1034f9bc178e1535f5cc spi: stm32-ospi: Make usage of reset_control_acquire/release() API
          bd30b995df8fd053e13d10f78dbc7b2fa5ed1aae SPI: omap2-mcspi: Fix SPI CS behaviour around
          
-  - ref: refs/heads/for-6.17
+  - ref: refs/heads/spi-6.17
     old: c459262159f39e6e6336797feb975799344b749b
     new: 3d594a648b33663fe3bb5588b1359ee0c5dd5e4d
     log: revlist-c459262159f3-3d594a648b33.txt
 
---===============1805858856226824970==
+--===============8033274567505922209==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1749497577 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1749497541-1125001b5f684fd0501d173237f51163ec9c2b82
+pusher C3F436CA30F5D8EB 1749497580 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1749497544-036c7f6f441147b40b95d20830952f6c8b7a632b
 
-e51a086117ed857ea455c9ea774dbfb82f53e517 bd30b995df8fd053e13d10f78dbc7b2fa5ed1aae refs/heads/for-6.16
-c459262159f39e6e6336797feb975799344b749b 3d594a648b33663fe3bb5588b1359ee0c5dd5e4d refs/heads/for-6.17
+e51a086117ed857ea455c9ea774dbfb82f53e517 bd30b995df8fd053e13d10f78dbc7b2fa5ed1aae refs/heads/spi-6.16
+c459262159f39e6e6336797feb975799344b749b 3d594a648b33663fe3bb5588b1359ee0c5dd5e4d refs/heads/spi-6.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmhHNukACgkQJNaLcl1U
-h9D81wf/RTts9QE1xB7HP3wkY41FJfFms5olrVDFFOgNX6LKXlBOj9Yib2e6J2nm
-hJwSttP8kzJa2PKmYa5/fRNyuE+Z+AFqLLwx+E5S9jx7+81UftYKlOxlfOdFrYes
-+Qs9GW+JqtUdRw3SAYOzVsQjo4MPUhoTZhK99hwAsMUMwEVwGVdjfMHLqOoetfQf
-im5HrqqFNokrQ2HHk9LmDDk8SgB1RQeiv2gnmdbliIjDS2Eq/EmH0uA5rc8BhKmq
-Dd6pCtYudLCiTmeAPVrEsWup2B8fv62XUd94HUUzrH8CX0dq5eleFyaHM8/H9OW/
-xJUJOFNPZ7jaMhk4n1wbQ1Mb/bSyHw==
-=tnkw
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmhHNuwACgkQJNaLcl1U
+h9C0OAgAhTYpsfKvz7n/TUj4oxAHgLHKBLVG47E2+yncFeqQfZx94Lr6A2S4sVxF
+wW189y6K+nRwizeY/KA1gvFUee/aNKi0EHE1OFAhjfchUwaLD1ntsFSH0sc1ydm9
+feyXU2wa3b4Kr2+l/uLkbUQT1fDoHThqwBiQ8p2sEUyUzsYvm1BOGqcoabS2FPaj
+jI4TJb97el/OpUAS5uKbnmHI+WZlWvADxnseScVV+Y9HC55+qrwxjEhW/kEohBkx
+uRIsRo+JzlBtMPT7jJ3WChY18ncvjdyb6WFLlRHpDA36KWXZ0FFD+dCAvrTfmjbV
+2jshzwbAw3zDFl91XyaMME3QIlfubw==
+=F0dA
 -----END PGP SIGNATURE-----
 
---===============1805858856226824970==
+--===============8033274567505922209==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -73,4 +73,4 @@ be47ecfecf5a6f16d028fd572410251b502692bf dt-bindings: spi: dspi: Add S32G suppor
 9a30e332c36c52e92e5316b4a012d45284dedeb5 spi: spi-fsl-dspi: Enable support for S32G platforms
 3d594a648b33663fe3bb5588b1359ee0c5dd5e4d spi: spi-fsl-dspi: DSPI support for NXP S32G
 
---===============1805858856226824970==--
+--===============8033274567505922209==--
