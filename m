@@ -1,31 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============3794259912045317176=="
+Content-Type: multipart/mixed; boundary="===============8503129906912092505=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Mon, 09 Jun 2025 08:21:20 -0000
-Message-Id: <174945728066.1523178.6028547899672067033@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hkrogeru/usb
+Date: Mon, 09 Jun 2025 08:38:14 -0000
+Message-Id: <174945829427.1535993.12782373262752061202@gitolite.kernel.org>
 
---===============3794259912045317176==
+--===============8503129906912092505==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mingo/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/hkrogeru/usb
+user: hkrogeru
 changes:
-  - ref: refs/heads/WIP.core/bugs
-    old: bd17d5c34b36b75830100fefbdc413bab6ec1246
-    new: 21cecf756b79df0f519fac1249d912e7474b5869
-    log: revlist-bd17d5c34b36-21cecf756b79.txt
+  - ref: refs/heads/master
+    old: 0ff41df1cb268fc69e703a08a57ee14ae967d0ca
+    new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
+    log: revlist-0ff41df1cb26-19272b37aa4f.txt
 
---===============3794259912045317176==
+--===============8503129906912092505==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-bd17d5c34b36-21cecf756b79.txt
+Content-Disposition: attachment; filename=revlist-0ff41df1cb26-19272b37aa4f.txt
 
+35a8b02e071a83dd2d42a8446a00a56f6147dc06 Merge tag 'mmc-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
+049294830bfaa1c4b56d5ccf21075f6f9990799e Merge tag 'thermal-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+3702a515edec515fcc7e085053da636fefac88d6 Merge tag 'acpi-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+c89756bcf406af313d191cfe3709e7c175c5b0cd Merge tag 'pm-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+d005af3b6756e533caf688060281a91e1dae3479 f2fs: remove unused sbi argument from checksum functions
+9b6fc9888e03dbe69768ace00091173b169aec39 f2fs: add f2fs_bug_on() to detect potential bug
+5827e3c720e5a881bf97451e3c280445f67cba04 f2fs: add f2fs_bug_on() in f2fs_quota_read()
+70dd07c888451503c3e93b6821e10d1ea1ec9930 f2fs: use vmalloc instead of kvmalloc in .init_{,de}compress_ctx
+54ca9be0bc589a0e45959ba73c76cf3f65110c63 f2fs: introduce FAULT_VMALLOC
+fef1848809230ab6ca5338e0c02ed2ac6e786775 dt-bindings: net: dsa: mediatek,mt7530: Add airoha,an7583-switch
+d76556db10bf41cd3ae1ad1d705245afe077a701 net: dsa: mt7530: Add AN7583 support
+8bc3c234dcb65a018120dab96c83845cc7ff35c6 net: phy: mediatek: Add Airoha AN7583 PHY support
+0795b05a59b1371b18ffbf09d385296b12e9f5d5 net: phy: clear phydev->devlink when the link is deleted
+c59783780c8ad66f6076a9a7c74df3e006e29519 net: airoha: Fix an error handling path in airoha_alloc_gdm_port()
+c6bb8a21cdad8c975a3a646b9e5c8df01ad29783 net/mlx5: Add error handling in mlx5_query_nic_vport_node_guid()
+126cd7852a62c6fab11a4a4cb6fa96421929ab69 net: mctp: start tx queue on netdev open
+09d7ff0694ea133c50ad905fd6e548c13f8af458 tools: ynl: parse extack for sub-messages
 c8ef20fe7274c5766a317f9193b70bed717b6b3d tipc: use kfree_sensitive() for aead cleanup
 a540ee75945a96f606c6ac955bfed5410d318f7d net/mlx5: HWS, Fix an error code in mlx5hws_bwc_rule_create_complex()
 82fb5a369b8de625660c8c7f82e5286ec195be5e mlxsw: core_thermal: Constify struct thermal_zone_device_ops
@@ -1033,22 +1050,5 @@ d8c0f5d973004f2ac86375ea54fae9625ac594fb tools/power turbostat: Add initial supp
 be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
-5f11d34b5f9f0bdd98f8952c504b5edb987c61cd bugs/core: Extend __WARN_FLAGS() with the 'cond_str' parameter
-b42142840c5ca15cc41975b25f1515ed585cb9eb bugs/core: Pass down the condition string of WARN_ON_ONCE(cond) warnings to __WARN_FLAGS()
-87f4f32fd4338322f136e8a1544058cd821ffd80 bugs/core: Introduce the CONFIG_DEBUG_BUGVERBOSE_DETAILED Kconfig switch
-79c854a059416ee78aa4e5284dbe0b930800e4df bugs/x86: Extend _BUG_FLAGS() with the 'cond_str' parameter
-679fc7a28494c907e7cee01c41fef060d4ecefe6 bugs/x86: Augment warnings output by concatenating 'cond_str' with the regular __FILE__ string in _BUG_FLAGS()
-325ca2ac4f97ce85b4a3ab95b0a88e8bbd974a8d bugs/powerpc: Pass in 'cond_str' to BUG_ENTRY()
-5ddb36e228fa169006bc98cb2b9e87285832684c bugs/powerpc: Concatenate 'cond_str' with '__FILE__' in BUG_ENTRY(), to extend WARN_ON/BUG_ON output
-ef7075473e951632925c2b932e24e65e44075871 bugs/LoongArch: Pass in 'cond_str' to __BUG_ENTRY()
-20784b97e0b0fadae314227f645445fe6eeac76d bugs/LoongArch: Concatenate 'cond_str' with '__FILE__' in __BUG_ENTRY(), to extend WARN_ON/BUG_ON output
-844698101ecae1603e2b720bde5e0da12bdafe36 bugs/s390: Pass in 'cond_str' to __EMIT_BUG()
-7128294ca8b997efb1d85c7405c8c6e9af1a170d bugs/s390: Use 'cond_str' in __EMIT_BUG()
-dad40c1d1e3a59a6b09f6db34ab39f9a3873f137 bugs/riscv: Pass in 'cond_str' to __BUG_FLAGS()
-80783a871a2c16bf699e003974e3364927151f6d bugs/riscv: Concatenate 'cond_str' with '__FILE__' in __BUG_FLAGS(), to extend WARN_ON/BUG_ON output
-26cceb6048f60fb0120ff5ae1dd22bea25cfb151 bugs/parisc: Concatenate 'cond_str' with '__FILE__' in __WARN_FLAGS(), to extend WARN_ON/BUG_ON output
-8809891e47b12a713f2daac3191808f54b1b7fba sh: Concatenate 'cond_str' with '__FILE__' in __WARN_FLAGS(), to extend WARN_ON/BUG_ON output
-f288a0f2bcbc54bc8f0ae86fdb0e90cd8df5ba32 bugs/core: Reorganize fields in the first line of WARNING output, add ->comm[] output
-21cecf756b79df0f519fac1249d912e7474b5869 bugs/core: Test WARN_ON_ONCE()
 
---===============3794259912045317176==--
+--===============8503129906912092505==--
