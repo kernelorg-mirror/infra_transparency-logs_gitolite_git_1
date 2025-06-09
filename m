@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 09 Jun 2025 15:11:47 -0000
-Message-Id: <174948190705.1949350.8486928851046817842@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
+Date: Mon, 09 Jun 2025 15:13:01 -0000
+Message-Id: <174948198197.1950070.4887726326691132608@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
+repo: pub/scm/linux/kernel/git/printk/linux
+user: pmladek
 changes:
   - ref: refs/heads/for-next
-    old: e22b9ddaf3afd031abc350c303c7c07a51c569d8
-    new: 9d82ef9a1453eab270cb26c02bbb9e51d092c90b
+    old: 7fed738791e03e0ea0fe431514c9c0ba20547f6f
+    new: 87c59d7c12a1c25493bbd1e6652ea0639b84b4a0
     log: |
-         6d09c6e474bd27a86352deaf73d02c8c21eeec7c regulator: dt-bindings: rpi-panel: Add regulator for 7" Raspberry Pi 720x1280
-         d49305862fdc4d9ff1b1093b4ed7d8e0cb9971b4 regulator: rpi-panel-v2: Add regulator for 7" Raspberry Pi 720x1280
-         9d82ef9a1453eab270cb26c02bbb9e51d092c90b Merge remote-tracking branch 'regulator/for-6.17' into regulator-next
+         cf5543870186d6f99b631faaeca27beaa996d52f printk: Allow to use the printk kthread immediately even for 1st nbcon
+         87c59d7c12a1c25493bbd1e6652ea0639b84b4a0 Merge branch 'rework/optimizations' into for-next
          
