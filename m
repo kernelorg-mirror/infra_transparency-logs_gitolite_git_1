@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5166229854185331814=="
+Content-Type: multipart/mixed; boundary="===============0498762040700475810=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 09 Jun 2025 20:58:45 -0000
-Message-Id: <174950272547.2263677.5545259955600229760@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 09 Jun 2025 20:59:34 -0000
+Message-Id: <174950277478.2264838.1065810832634507308@gitolite.kernel.org>
 
---===============5166229854185331814==
+--===============0498762040700475810==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.17
-    old: 6ba68e5aa9d5d15c8877a655db279fcfc0b38b04
-    new: 2ccb77082853f6f034e2388228a3767049dab9cb
-    log: revlist-6ba68e5aa9d5-2ccb77082853.txt
+  - ref: refs/heads/for-next
+    old: b2d7b749715f6c4e30f18178809e52745000d306
+    new: 3bc28bdaca91cf78a9c13054387c8dbf67ab4b5c
+    log: revlist-b2d7b749715f-3bc28bdaca91.txt
 
---===============5166229854185331814==
+--===============0498762040700475810==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1749502758 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1749502722-06d0210bc073ad58bbad82acaa8ffbc2042e0dc2
-
-6ba68e5aa9d5d15c8877a655db279fcfc0b38b04 2ccb77082853f6f034e2388228a3767049dab9cb refs/heads/asoc-6.17
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmhHSyYACgkQJNaLcl1U
-h9Dz4wf7ByDCiAvRVGXbKTHOc+Z9RBHiU9kiM6pW4/4N71SL6nDbj6w0uhaXsqdS
-CFWDiKGMHL4qrrB19cIDwZcF8q0iYuepvDnSVBNV36lr+9vdG7APUMyx0hG5RmnI
-7Zos5lCSAHCeAuQoZSyykTdVJzhXY+FEU3f3ktljs5gHuBhKi7pqZzv+a9T5FT8U
-40xNvRmq1lDxnePPwZycqg41uYcRhxzuASAwmPyAeT6B+yKHgd05vCxG7ZozFS7u
-SArEYmXKrC1KLySVB4OkM8lwDeUZ/cQfU16Z6QPa83XWqmxmyN2Ft2/in0rqJL0L
-MiLdDdjmGRZHkoDBDWwONsRUmMC5aA==
-=gIyJ
------END PGP SIGNATURE-----
-
---===============5166229854185331814==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6ba68e5aa9d5-2ccb77082853.txt
+Content-Disposition: attachment; filename=revlist-b2d7b749715f-3bc28bdaca91.txt
 
 c4b79a2fbfb28308e958e4ffdd988f3cf678fe2a ASoC: qcom: sm8250: set card driver name from match data
 ed82808c6a0f333e51fee4e97cbe8e0189b7f354 ASoC: qcom: sm8250: add DisplayPort Jack support
@@ -92,5 +67,6 @@ d3de84858811ea2c501cb45f0aafcae5beba20b6 ASoC: remove component->id
 5f4f86d5e0c61b2b2687c2d39c77860548a5f439 ASoC: Add Richtek RTQ9124 support
 d1f2fa7ca1d644ff9ab1d9fdeb3417d44ba66921 Add DisplayPort sound support for Fairphone 5
 2ccb77082853f6f034e2388228a3767049dab9cb ASoC: codecs: More const and unused member cleanups
+3bc28bdaca91cf78a9c13054387c8dbf67ab4b5c Merge remote-tracking branch 'asoc/for-6.17' into asoc-next
 
---===============5166229854185331814==--
+--===============0498762040700475810==--
