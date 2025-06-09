@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============6293434547126844903=="
+Content-Type: multipart/mixed; boundary="===============5166229854185331814=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 09 Jun 2025 20:58:41 -0000
-Message-Id: <174950272144.2263422.8106506539755480445@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 09 Jun 2025 20:58:45 -0000
+Message-Id: <174950272547.2263677.5545259955600229760@gitolite.kernel.org>
 
---===============6293434547126844903==
+--===============5166229854185331814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.17
+  - ref: refs/heads/asoc-6.17
     old: 6ba68e5aa9d5d15c8877a655db279fcfc0b38b04
     new: 2ccb77082853f6f034e2388228a3767049dab9cb
     log: revlist-6ba68e5aa9d5-2ccb77082853.txt
 
---===============6293434547126844903==
+--===============5166229854185331814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1749502754 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1749502718-44d257d37c71dcd006aca2a72308bc655bca4d5e
+pusher C3F436CA30F5D8EB 1749502758 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1749502722-06d0210bc073ad58bbad82acaa8ffbc2042e0dc2
 
-6ba68e5aa9d5d15c8877a655db279fcfc0b38b04 2ccb77082853f6f034e2388228a3767049dab9cb refs/heads/for-6.17
+6ba68e5aa9d5d15c8877a655db279fcfc0b38b04 2ccb77082853f6f034e2388228a3767049dab9cb refs/heads/asoc-6.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmhHSyIACgkQJNaLcl1U
-h9ANeQf/VZ3euwGD9i8UZTyvG/9cWNCc8gTvmCnB3qNOIDFOJpuu9/BJscMUG3gI
-dJI6469fHcgoHFcAjQbxFNJ/gvBQzAd4tOdGr/siDCdAhAatZ2sKPaEj6LT544b/
-fgRiwNNijchWnhrM8+oidnuelJWwZwlSM1VPjMl7uGQlUERBBulhyuzlhhC3kTkU
-PxbNEs6sUAGs1JrdfK2UPYfBmFRce7S6yZvjvF/CyLGqioG1ACU/xIVNicLdvr+E
-Q08cq6ySZQlPv9Vt9Ihifa2GK4E5imZjQR2U5pyUPMil4ustA0U2O6r9RojK7zy0
-vHkgddTpyuXf04H3tki2tUs2XBbltw==
-=SFIK
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmhHSyYACgkQJNaLcl1U
+h9Dz4wf7ByDCiAvRVGXbKTHOc+Z9RBHiU9kiM6pW4/4N71SL6nDbj6w0uhaXsqdS
+CFWDiKGMHL4qrrB19cIDwZcF8q0iYuepvDnSVBNV36lr+9vdG7APUMyx0hG5RmnI
+7Zos5lCSAHCeAuQoZSyykTdVJzhXY+FEU3f3ktljs5gHuBhKi7pqZzv+a9T5FT8U
+40xNvRmq1lDxnePPwZycqg41uYcRhxzuASAwmPyAeT6B+yKHgd05vCxG7ZozFS7u
+SArEYmXKrC1KLySVB4OkM8lwDeUZ/cQfU16Z6QPa83XWqmxmyN2Ft2/in0rqJL0L
+MiLdDdjmGRZHkoDBDWwONsRUmMC5aA==
+=gIyJ
 -----END PGP SIGNATURE-----
 
---===============6293434547126844903==
+--===============5166229854185331814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -93,4 +93,4 @@ d3de84858811ea2c501cb45f0aafcae5beba20b6 ASoC: remove component->id
 d1f2fa7ca1d644ff9ab1d9fdeb3417d44ba66921 Add DisplayPort sound support for Fairphone 5
 2ccb77082853f6f034e2388228a3767049dab9cb ASoC: codecs: More const and unused member cleanups
 
---===============6293434547126844903==--
+--===============5166229854185331814==--
