@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Mon, 09 Jun 2025 16:35:39 -0000
-Message-Id: <174948693967.2036911.14580539969650445593@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 09 Jun 2025 16:36:01 -0000
+Message-Id: <174948696138.2037294.10149371813463622658@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/todo
-    old: b0e616e6d2a34dcac286e1046d47580d9754248c
-    new: c13a8be5f670b8e8c4f9eb634b8f316eefb48347
+  - ref: refs/heads/asoc-6.17
+    old: 474ec6ef8322d7d971ac0365a45de9c47542cf8f
+    new: 2ccb77082853f6f034e2388228a3767049dab9cb
     log: |
-         c9eea792abc0093702c6051046a5d0a044def502 Meta/Dothem: reorganize sanitization trigger a bit
-         c13a8be5f670b8e8c4f9eb634b8f316eefb48347 What's cooking (2025/06 #03)
+         2ccb77082853f6f034e2388228a3767049dab9cb ASoC: codecs: More const and unused member cleanups
          
