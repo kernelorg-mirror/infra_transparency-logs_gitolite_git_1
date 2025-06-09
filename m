@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9138460442572702328=="
+Content-Type: multipart/mixed; boundary="===============8536299442469065331=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 09 Jun 2025 11:24:50 -0000
-Message-Id: <174946829045.1739835.4494291070971395293@gitolite.kernel.org>
+Date: Mon, 09 Jun 2025 11:24:55 -0000
+Message-Id: <174946829561.1740128.3881814284549049417@gitolite.kernel.org>
 
---===============9138460442572702328==
+--===============8536299442469065331==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 90467079d7ec67d7fc50742e26fbb78f20f19007
-    new: 00108b669f880b96e46183c440fdda152d58b77d
-    log: revlist-90467079d7ec-00108b669f88.txt
+  - ref: refs/heads/m68k-queue
+    old: fa99129a56a325712276f4c0113a12c37432c010
+    new: 5cdfcf9cbee325dd1894d70ee9b22ee1f1202d8d
+    log: revlist-fa99129a56a3-5cdfcf9cbee3.txt
 
---===============9138460442572702328==
+--===============8536299442469065331==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-90467079d7ec-00108b669f88.txt
+Content-Disposition: attachment; filename=revlist-fa99129a56a3-5cdfcf9cbee3.txt
 
-049294830bfaa1c4b56d5ccf21075f6f9990799e Merge tag 'thermal-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-3702a515edec515fcc7e085053da636fefac88d6 Merge tag 'acpi-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 c89756bcf406af313d191cfe3709e7c175c5b0cd Merge tag 'pm-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 d005af3b6756e533caf688060281a91e1dae3479 f2fs: remove unused sbi argument from checksum functions
 9b6fc9888e03dbe69768ace00091173b169aec39 f2fs: add f2fs_bug_on() to detect potential bug
@@ -1049,6 +1047,8 @@ d8c0f5d973004f2ac86375ea54fae9625ac594fb tools/power turbostat: Add initial supp
 be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
-00108b669f880b96e46183c440fdda152d58b77d Merge tag 'v6.16-rc1'
+86e0dde4636fe34ae31f9d2d5db235c17ea6d0a8 m68k: atari: usb: Add ISP1160 USB host controller support
+3f75feb40b3d74c5adc2d3d943ed39f61f98cc66 m68k: atari: Update Kconfig.bus help text
+5cdfcf9cbee325dd1894d70ee9b22ee1f1202d8d m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============9138460442572702328==--
+--===============8536299442469065331==--
