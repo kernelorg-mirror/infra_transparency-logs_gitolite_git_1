@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0094755884578638144=="
+Content-Type: multipart/mixed; boundary="===============0383113308284753588=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 09 Jun 2025 10:11:49 -0000
-Message-Id: <174946390963.1614316.3100700988059289637@gitolite.kernel.org>
+Date: Mon, 09 Jun 2025 10:12:17 -0000
+Message-Id: <174946393761.1614778.7374354215793328328@gitolite.kernel.org>
 
---===============0094755884578638144==
+--===============0383113308284753588==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/westeri/thunderbolt
 user: westeri
 changes:
-  - ref: refs/heads/fixes
-    old: 0f73628e9da1ee39daf5f188190cdbaee5e0c98c
+  - ref: refs/heads/next
+    old: 36f6f7e2d4d094c828977938eaa4949ec5439380
     new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    log: revlist-0f73628e9da1-19272b37aa4f.txt
+    log: revlist-36f6f7e2d4d0-19272b37aa4f.txt
 
---===============0094755884578638144==
+--===============0383113308284753588==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-0f73628e9da1-19272b37aa4f.txt
+Content-Disposition: attachment; filename=revlist-36f6f7e2d4d0-19272b37aa4f.txt
 
 35a8b02e071a83dd2d42a8446a00a56f6147dc06 Merge tag 'mmc-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
 049294830bfaa1c4b56d5ccf21075f6f9990799e Merge tag 'thermal-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
@@ -1051,4 +1051,4 @@ be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' 
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
 
---===============0094755884578638144==--
+--===============0383113308284753588==--
