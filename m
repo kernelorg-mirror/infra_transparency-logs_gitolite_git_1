@@ -1,50 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============8061239199694392006=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 09 Jun 2025 15:38:41 -0000
-Message-Id: <174948352132.1975835.11233772888850626158@gitolite.kernel.org>
-
---===============8061239199694392006==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 09 Jun 2025 15:38:53 -0000
+Message-Id: <174948353322.1976237.5529511744634251443@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.16
-    old: 2b74aea6d078ade810a3b0f7d1bcfcba2eaad416
-    new: e51a086117ed857ea455c9ea774dbfb82f53e517
+  - ref: refs/heads/for-next
+    old: a2ff08850f9109c281151e816020f6500f09e0bd
+    new: b2d7b749715f6c4e30f18178809e52745000d306
     log: |
-         e51a086117ed857ea455c9ea774dbfb82f53e517 spi: offload: check offload ops existence before disabling the trigger
+         0779c0ad2a7cc0ae1865860c9bc8732613cc56b1 ASoC: amd: acp: Fix pointer assignments for snd_soc_acpi_mach structures
+         6ba68e5aa9d5d15c8877a655db279fcfc0b38b04 ASoC: renesas: msiof: Convert to <linux/spi/sh_msiof.h>
+         b2d7b749715f6c4e30f18178809e52745000d306 Merge remote-tracking branch 'asoc/for-6.17' into asoc-next
          
-
---===============8061239199694392006==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1749483555 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1749483519-89e8417aa6a9160463fad4682e3b3233aee283ce
-
-2b74aea6d078ade810a3b0f7d1bcfcba2eaad416 e51a086117ed857ea455c9ea774dbfb82f53e517 refs/heads/spi-6.16
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmhHACMACgkQJNaLcl1U
-h9B/Kwf/SFjhdxRPV88glObjGg5L+yfYj42Bw/10iFhfcgUQU9xjxsgdsNfmCD4l
-HHkqu5ajubq/BgIBiPz9gvm3wZ0IuC4WKTQI68Z0HXtdTWgeV2oEm/lNWWxtUVvn
-8WOYaWPhZHIKDQJCPNCeCxUVhcsbf3fSM2TL2Nr4/bfFzE0cZxUu5SXKE+wWnMv9
-3+pT9rJNcvfFY+MEfFzbc2Zo1Iyl+VwhUEhEDwzZE9OOvKfTkbeijHXsn0tP/90y
-JpIrvGF8Wd6nIn9cNCKxoM8niuPK7tT0sUE9VzTWCHrv63X5mEP+661fwV1O0xsD
-AMrTePsI/OrC5F389i9ZzMEccmxRaA==
-=vcUc
------END PGP SIGNATURE-----
-
---===============8061239199694392006==--
