@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Mon, 09 Jun 2025 10:38:25 -0000
-Message-Id: <174946550510.1696951.15921380510667910257@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+Date: Mon, 09 Jun 2025 10:38:54 -0000
+Message-Id: <174946553445.1697618.12914649422420807911@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+user: andy
 changes:
-  - ref: refs/heads/master
-    old: 5899e25072f8b722020ee3c93cadff6cb5e3f839
-    new: 471c38fb3c5c53c6df2fad4a7353559b330c1323
-    log: |
-         c23117a84d06083245ef0277602fec6e0762b596 man/man3/scalb*.3: NAME: Document the meaning of the name of these functions
-         471c38fb3c5c53c6df2fad4a7353559b330c1323 etc/checkpatch/checkpatch.conf: Ignore TYPO_SPELLING
-         
+  - ref: refs/tags/v6.15
+    old: 0000000000000000000000000000000000000000
+    new: 0a4b866d08c6adaea2f4592d31edac6deeb4dcbd
+  - ref: refs/tags/v6.15-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 5cb8274d66c611b7889565c418a8158517810f9b
+  - ref: refs/tags/v6.15-rc7
+    old: 0000000000000000000000000000000000000000
+    new: c3223240f4b9bd8142c101420c76abe8ed1eae73
+  - ref: refs/tags/v6.16-rc1
+    old: 0000000000000000000000000000000000000000
+    new: d9946fe286439c2aeaa7953b8c316efe5b83d515
