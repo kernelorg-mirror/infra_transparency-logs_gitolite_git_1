@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6419888634859271185=="
+Content-Type: multipart/mixed; boundary="===============0469954716041765588=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 09 Jun 2025 10:26:10 -0000
-Message-Id: <174946477013.1680322.8281745939705268935@gitolite.kernel.org>
+Date: Mon, 09 Jun 2025 10:26:16 -0000
+Message-Id: <174946477614.1680570.13905392560283763016@gitolite.kernel.org>
 
---===============6419888634859271185==
+--===============0469954716041765588==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/for-next
-    old: 92a251c3df8ea1991cd9fe00f1ab0cfce18d7711
+  - ref: refs/heads/for-rc
+    old: d0706bfd3ee40923c001c6827b786a309e2a8713
     new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    log: revlist-92a251c3df8e-19272b37aa4f.txt
+    log: revlist-d0706bfd3ee4-19272b37aa4f.txt
 
---===============6419888634859271185==
+--===============0469954716041765588==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-92a251c3df8e-19272b37aa4f.txt
+Content-Disposition: attachment; filename=revlist-d0706bfd3ee4-19272b37aa4f.txt
 
 35a8b02e071a83dd2d42a8446a00a56f6147dc06 Merge tag 'mmc-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
 049294830bfaa1c4b56d5ccf21075f6f9990799e Merge tag 'thermal-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
@@ -1051,4 +1051,4 @@ be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' 
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
 
---===============6419888634859271185==--
+--===============0469954716041765588==--
