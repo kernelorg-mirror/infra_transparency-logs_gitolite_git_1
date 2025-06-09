@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Mon, 09 Jun 2025 20:31:27 -0000
-Message-Id: <174950108711.2240089.18049274998367216919@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
+Date: Mon, 09 Jun 2025 20:41:23 -0000
+Message-Id: <174950168342.2248410.1511936628201379490@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/cxl/cxl
+user: djiang
 changes:
-  - ref: refs/heads/kdevops
-    old: 052bd8074b61159506eb164defe782fceaf188d2
-    new: d5b93dec7a48604cdd1e0779b78eb88f53c9b063
+  - ref: refs/heads/next
+    old: 540ea70daee5138f834c0be59269780236de577e
+    new: c91a65b87e9c1911701070a80731d342fbf27523
     log: |
-         d5b93dec7a48604cdd1e0779b78eb88f53c9b063 ref_tracker: remove dentries in workqueue context
+         c91a65b87e9c1911701070a80731d342fbf27523 Documentation: cxl: fix typos and improve clarity in memory-devices.rst
          
