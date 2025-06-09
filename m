@@ -1,56 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============8128314599767860471=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Mon, 09 Jun 2025 14:17:18 -0000
-Message-Id: <174947863831.1899288.8205507126489157378@gitolite.kernel.org>
-
---===============8128314599767860471==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
+Date: Mon, 09 Jun 2025 14:22:38 -0000
+Message-Id: <174947895827.1903990.10245357332718902059@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ulfh/mmc
+user: ulfh
 changes:
-  - ref: refs/heads/master
-    old: 4454c5eea3098db5f620d201816eb218d3025b29
-    new: 5229705b0d0c04d908cfb85d0172bd027bae6f17
+  - ref: refs/heads/fixes
+    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
+    new: 539d80575b810c7a5987c7ac8915e3bc99c03695
     log: |
-         5229705b0d0c04d908cfb85d0172bd027bae6f17 move 6.14.7 review to done state
+         009c3a4bc41e855fd76f92727f9fbae4e5917d7f mmc: core: sd: Apply BROKEN_SD_DISCARD quirk earlier
+         3358b836d4369ad47823c26834b3613778fe75b2 mmc: sdhci-of-k1: Fix error code in probe()
+         539d80575b810c7a5987c7ac8915e3bc99c03695 mtk-sd: Fix a pagefault in dma_unmap_sg() for not prepared data
          
-
---===============8128314599767860471==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1749478673 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1749478637-b2085809a5e0e81a45edb65c492a579f211757b8
-
-4454c5eea3098db5f620d201816eb218d3025b29 5229705b0d0c04d908cfb85d0172bd027bae6f17 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhG7REbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yGsQALHemVyvVUuYeG1nXQDZ
-EsLPlArNwVvYCMbBBen+VUt/+cqNIkKGt+dxOK8xF84laHMdQqOc4I+0PMEYlMxL
-keI2OCn20420pbnJYZfRCpIH47ZOcI4H/81x98ftejKOAQY9YteEIURFyB1DrJF9
-i2/DMs22MWYgPAo7pTfz59rQuy3kKK84FQmdnpD7gVSVUh97Srq5GyqaR45nXMVB
-AezwajColKGC1TjW5ZYKyDInsmkknUkrx+HeLEOfEEP2ktPxqbWTyX2wqG/gU+0x
-Hr1PtRGARRjjttR51bHA6obS+7qHKbPki8b/4RO96XjHBn1h+JnfB18JgCvYAqSn
-SKxZwf+uREui+T5ac2/63k6rrT9GrP1st0rT8WkMV+sP+YRO7DdmdqT6MhGBBTMC
-rbLOOyRjz6fERyJFu1/oRxRI9OY88uryu0RDoGIjzvohdfOpTJsWEecYmQFDCpZA
-5LqpqUm+J9JAGX+3RiVbUkHX+MplUvV6/PK9w2ey5toOlEzKZrHjdr3CNQ1OkcVv
-Fs4CSyYqj2n4N8OI9jSQqz8T1ecttHGXHu7vl+jyfXLH/4V1wFgqpWTRrxDmG2mI
-oZcxzxJxSyGwc/SD1Pc4cNknvDlhpphEdb5zFlC4h8dV3EYUQCPuxotI8wIwAMHl
-T1/O0XGfu5QbszblLO+Ndn3N
-=RU6k
------END PGP SIGNATURE-----
-
---===============8128314599767860471==--
