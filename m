@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7381621129308576376=="
+Content-Type: multipart/mixed; boundary="===============2926211998848960440=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Mon, 09 Jun 2025 10:48:00 -0000
-Message-Id: <174946608000.1707339.1821650136880726@gitolite.kernel.org>
+Date: Mon, 09 Jun 2025 10:48:30 -0000
+Message-Id: <174946611089.1707844.4272902723972588739@gitolite.kernel.org>
 
---===============7381621129308576376==
+--===============2926211998848960440==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
 user: andy
 changes:
-  - ref: refs/heads/for-next
-    old: ec0c0aab15243bbc6140a7cedd01e2dd9ad19878
+  - ref: refs/heads/fixes
+    old: 2014c95afecee3e76ca4a56956a936e23283f05b
     new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    log: revlist-ec0c0aab1524-19272b37aa4f.txt
+    log: revlist-2014c95afece-19272b37aa4f.txt
 
---===============7381621129308576376==
+--===============2926211998848960440==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-ec0c0aab1524-19272b37aa4f.txt
+Content-Disposition: attachment; filename=revlist-2014c95afece-19272b37aa4f.txt
 
 35a8b02e071a83dd2d42a8446a00a56f6147dc06 Merge tag 'mmc-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
 049294830bfaa1c4b56d5ccf21075f6f9990799e Merge tag 'thermal-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
@@ -1051,4 +1051,4 @@ be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' 
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
 
---===============7381621129308576376==--
+--===============2926211998848960440==--
