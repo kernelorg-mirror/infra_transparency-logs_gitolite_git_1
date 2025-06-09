@@ -1,61 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============1257767853995460066=="
+Content-Type: multipart/mixed; boundary="===============5492639537825083762=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 09 Jun 2025 13:38:48 -0000
-Message-Id: <174947632867.1863780.151847171039518471@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 09 Jun 2025 13:38:53 -0000
+Message-Id: <174947633327.1864068.18172601368737683079@gitolite.kernel.org>
 
---===============1257767853995460066==
+--===============5492639537825083762==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.16
+  - ref: refs/heads/spi-6.16
     old: 57cf46cd1fe351846e1b065ca9546eef66675ecd
     new: 2b74aea6d078ade810a3b0f7d1bcfcba2eaad416
     log: revlist-57cf46cd1fe3-2b74aea6d078.txt
-  - ref: refs/heads/for-6.17
-    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
+  - ref: refs/heads/spi-6.17
+    old: 0000000000000000000000000000000000000000
     new: c459262159f39e6e6336797feb975799344b749b
-    log: |
-         6c1ca9928ed48499f75101057079b92072077d44 spi: spi-qpic-snand: use NANDC_STEP_SIZE consistently
-         f73dc37ebf45573349aee0aae168e8dc3d13ecee spi: spi-qpic-snand: remove 'qpic_snand_op' structure
-         6b500757aef0b5b639253508cf93eb8134a2d340 spi: dt-bindings: mxs-spi: allow clocks properpty
-         c459262159f39e6e6336797feb975799344b749b spi: spi-pci1xxxx: Add support for 25MHz Clock frequency in C0
-         
 
---===============1257767853995460066==
+--===============5492639537825083762==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1749476361 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1749476325-5a90b347eb10e76cb213aa2e8a930ecd02a0d834
+pusher C3F436CA30F5D8EB 1749476366 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1749476330-c44bae65363d34a91454eb9ec82991b1a2419bbd
 
-57cf46cd1fe351846e1b065ca9546eef66675ecd 2b74aea6d078ade810a3b0f7d1bcfcba2eaad416 refs/heads/for-6.16
-19272b37aa4f83ca52bdf9c16d5d81bdd1354494 c459262159f39e6e6336797feb975799344b749b refs/heads/for-6.17
+57cf46cd1fe351846e1b065ca9546eef66675ecd 2b74aea6d078ade810a3b0f7d1bcfcba2eaad416 refs/heads/spi-6.16
+0000000000000000000000000000000000000000 c459262159f39e6e6336797feb975799344b749b refs/heads/spi-6.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmhG5AkACgkQJNaLcl1U
-h9BMAggAhsctEoQW+LLn+Jlxxs4UxdpMxxczAyJhuzC6sNIe0/UJMh35nqbgIM92
-rNPpwwjAXXuLF1IRPySrEL5Ha5G8x4OUsKmkOCvuWdYBWd69DUA9OkrDPhML5kKA
-ghR3SdhqS0E0FEU4az85oRuE04lJzRhHAefCQwghmKKDtZO8O/M11kwbr3Nr8I+r
-/3CRqWybaTeK6g4+frtvFR7c2scOSRQXXf+z4IsG50BZvr5rJZMvmonn5bWH737V
-DrfJHCxxkVaYrUI3SHYUGr7spdI9h+lgrkPqCtFxZzNMwJrpRtkYsOu+N4+1XoLo
-GG98xlcqeKsTGU+WFykUAuHuOi2GUQ==
-=f6A2
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmhG5A4ACgkQJNaLcl1U
+h9BioQf+OOFbCKHMOB4HGtfFjjHwO3cdsqiX4VK9Y1NJNhPWslsOnSBbFVRr55HF
+NS0/yMKiH2g11RCk1YO6/GN/UhCBTUF4Ie8wGZdTfvWRSrzH2lUFdDJ7ztJ34MQ/
+5HUUm7s/l1+8DFIVy3FQ+cXVeD6wLsWQx0cXdPxIRFHwW74zOxr+NXzT5gyEefVh
+poc+YEkOENJVEs+Eb22R5WbUxljBqhLnqlApR3g+3KTqDeUZjj2Px+COPsyxokMm
+EF5stbhVKDLjgPjldjQt1zWarpU8itkmPu2NCK9B5iz291GIb4mTrl1dIOUGV6vn
+V468xef9WFx8vzUhx8Q4pjvskz06yg==
+=CyMi
 -----END PGP SIGNATURE-----
 
---===============1257767853995460066==
+--===============5492639537825083762==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1086,4 +1080,4 @@ be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' 
 1dd630088332b5b310f3dd7eaacae9f3c4465651 spi: loongson: Fix build warnings about export.h
 2b74aea6d078ade810a3b0f7d1bcfcba2eaad416 spi: spi-pci1xxxx: Fix error code in probe
 
---===============1257767853995460066==--
+--===============5492639537825083762==--
