@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 09 Jun 2025 19:37:34 -0000
-Message-Id: <174949785491.2194363.8210157548946265777@gitolite.kernel.org>
+Date: Mon, 09 Jun 2025 19:43:08 -0000
+Message-Id: <174949818888.2198956.13672375305752348898@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
   - ref: refs/heads/pending
-    old: e8b03590ee79609023b3f6fad628d91721a267d3
-    new: bc3db579b3b7d2cbd3becdc03f2e13a55c925cdd
+    old: bc3db579b3b7d2cbd3becdc03f2e13a55c925cdd
+    new: 48479a15ddecd1ba678ab1adc0bc8c3c2aa8f724
     log: |
-         993182080c3006e5c93e5fa92a85c26d78906808 wifi: ath12k: Prepare ahvif scan link for parallel scan
-         bc3db579b3b7d2cbd3becdc03f2e13a55c925cdd wifi: ath12k: Split scan request for split band device
+         48479a15ddecd1ba678ab1adc0bc8c3c2aa8f724 wifi: ath12k: combine channel list for split-phy devices in single-wiphy
          
