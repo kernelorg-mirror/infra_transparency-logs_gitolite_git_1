@@ -1,32 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============1532253685604855777=="
+Content-Type: multipart/mixed; boundary="===============3464256016627795980=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
-Date: Mon, 09 Jun 2025 05:16:51 -0000
-Message-Id: <174944621122.1367230.17593134714153839103@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
+Date: Mon, 09 Jun 2025 05:17:52 -0000
+Message-Id: <174944627278.1367870.12242234704307210736@gitolite.kernel.org>
 
---===============1532253685604855777==
+--===============3464256016627795980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/phy/linux-phy
+repo: pub/scm/linux/kernel/git/vkoul/soundwire
 user: vkoul
 changes:
   - ref: refs/heads/fixes
-    old: b2ea5f49580c0762d17d80d8083cb89bc3acf74f
+    old: fd15594ba7d559d9da741504c322b9f57c4981e5
     new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    log: revlist-b2ea5f49580c-19272b37aa4f.txt
+    log: revlist-fd15594ba7d5-19272b37aa4f.txt
   - ref: refs/heads/master
     old: 0af2f6be1b4281385b618cb86ad946eded089ac8
     new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
     log: revlist-0af2f6be1b42-19272b37aa4f.txt
   - ref: refs/heads/next
-    old: 0c22287319741b4e7c7beaedac1f14fbe01a03b9
+    old: 62ada17a6217a50fbd1b23f10899890f56effc97
     new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    log: revlist-0c2228731974-19272b37aa4f.txt
+    log: revlist-62ada17a6217-19272b37aa4f.txt
   - ref: refs/tags/v6.16-rc1
     old: 0000000000000000000000000000000000000000
     new: d9946fe286439c2aeaa7953b8c316efe5b83d515
@@ -52,11 +52,11 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: c3223240f4b9bd8142c101420c76abe8ed1eae73
 
---===============1532253685604855777==
+--===============3464256016627795980==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-b2ea5f49580c-19272b37aa4f.txt
+Content-Disposition: attachment; filename=revlist-fd15594ba7d5-19272b37aa4f.txt
 
 35a8b02e071a83dd2d42a8446a00a56f6147dc06 Merge tag 'mmc-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
 049294830bfaa1c4b56d5ccf21075f6f9990799e Merge tag 'thermal-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
@@ -1083,7 +1083,7 @@ be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' 
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
 
---===============1532253685604855777==
+--===============3464256016627795980==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -2114,11 +2114,11 @@ be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' 
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
 
---===============1532253685604855777==
+--===============3464256016627795980==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-0c2228731974-19272b37aa4f.txt
+Content-Disposition: attachment; filename=revlist-62ada17a6217-19272b37aa4f.txt
 
 35a8b02e071a83dd2d42a8446a00a56f6147dc06 Merge tag 'mmc-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
 049294830bfaa1c4b56d5ccf21075f6f9990799e Merge tag 'thermal-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
@@ -3145,4 +3145,4 @@ be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' 
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
 
---===============1532253685604855777==--
+--===============3464256016627795980==--
