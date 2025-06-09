@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 09 Jun 2025 21:48:00 -0000
-Message-Id: <174950568023.2306367.4506459604323422655@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Mon, 09 Jun 2025 21:51:42 -0000
+Message-Id: <174950590204.2310373.8038046142921630436@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/pending
-    old: 48479a15ddecd1ba678ab1adc0bc8c3c2aa8f724
-    new: a84f57948024b9137871b4c10cf966eab0e904ae
+  - ref: refs/heads/kdevops
+    old: d5b93dec7a48604cdd1e0779b78eb88f53c9b063
+    new: aa068014503f7c21fad6f66004640afa03f6e92e
     log: |
-         7f564adfedf2e5baa3ce51f8bfdf8c0bbdf40dde wifi: ath12k: handle WMI event for real noise floor calculation
-         a84f57948024b9137871b4c10cf966eab0e904ae wifi: ath12k: use real noise floor instead of default value
+         aa068014503f7c21fad6f66004640afa03f6e92e ref_tracker: remove dentries in workqueue context
          
