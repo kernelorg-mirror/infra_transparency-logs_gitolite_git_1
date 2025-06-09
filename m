@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0040358991451243217=="
+Content-Type: multipart/mixed; boundary="===============3150547120545855614=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Mon, 09 Jun 2025 16:03:12 -0000
-Message-Id: <174948499209.2001037.17932843953200613419@gitolite.kernel.org>
+Date: Mon, 09 Jun 2025 16:03:45 -0000
+Message-Id: <174948502599.2001637.886668332467623522@gitolite.kernel.org>
 
---===============0040358991451243217==
+--===============3150547120545855614==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
-  - ref: refs/heads/kunit-fixes
-    old: b26c1a85f3fc3cc749380ff94199377fc2d0c203
+  - ref: refs/heads/next
+    old: 1107dc4c5b06188a3fb4897ceb197eb320a52e85
     new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    log: revlist-b26c1a85f3fc-19272b37aa4f.txt
+    log: revlist-1107dc4c5b06-19272b37aa4f.txt
 
---===============0040358991451243217==
+--===============3150547120545855614==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-b26c1a85f3fc-19272b37aa4f.txt
+Content-Disposition: attachment; filename=revlist-1107dc4c5b06-19272b37aa4f.txt
 
 35a8b02e071a83dd2d42a8446a00a56f6147dc06 Merge tag 'mmc-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
 049294830bfaa1c4b56d5ccf21075f6f9990799e Merge tag 'thermal-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
@@ -1051,4 +1051,4 @@ be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' 
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
 
---===============0040358991451243217==--
+--===============3150547120545855614==--
