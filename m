@@ -1,31 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============1358970777036067252=="
+Content-Type: multipart/mixed; boundary="===============1423015854636426566=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vgupta/arc
-Date: Mon, 09 Jun 2025 16:18:29 -0000
-Message-Id: <174948590966.2019008.6741384124447525614@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
+Date: Mon, 09 Jun 2025 16:18:52 -0000
+Message-Id: <174948593254.2019401.4128655164759519921@gitolite.kernel.org>
 
---===============1358970777036067252==
+--===============1423015854636426566==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vgupta/arc
-user: vgupta
+repo: pub/scm/linux/kernel/git/cxl/cxl
+user: djiang
 changes:
-  - ref: refs/heads/for-curr
-    old: 6ab657d8d2a41ea40152cb7c2f34b6e4fc412ffd
-    new: 179e949719fe81219a3e23f1e716ac2d02eea845
-    log: revlist-6ab657d8d2a4-179e949719fe.txt
+  - ref: refs/heads/fixes
+    old: 078d3ee7c162cd66d76171579c02d7890bd77daf
+    new: 87b42c114cdda76c8ad3002f2096699ad5146cb3
+    log: revlist-078d3ee7c162-87b42c114cdd.txt
 
---===============1358970777036067252==
+--===============1423015854636426566==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6ab657d8d2a4-179e949719fe.txt
+Content-Disposition: attachment; filename=revlist-078d3ee7c162-87b42c114cdd.txt
 
+049294830bfaa1c4b56d5ccf21075f6f9990799e Merge tag 'thermal-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+3702a515edec515fcc7e085053da636fefac88d6 Merge tag 'acpi-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+c89756bcf406af313d191cfe3709e7c175c5b0cd Merge tag 'pm-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 d005af3b6756e533caf688060281a91e1dae3479 f2fs: remove unused sbi argument from checksum functions
 9b6fc9888e03dbe69768ace00091173b169aec39 f2fs: add f2fs_bug_on() to detect potential bug
 5827e3c720e5a881bf97451e3c280445f67cba04 f2fs: add f2fs_bug_on() in f2fs_quota_read()
@@ -1046,9 +1049,6 @@ d8c0f5d973004f2ac86375ea54fae9625ac594fb tools/power turbostat: Add initial supp
 be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
-ea7caffedd011f7d40abe93a884ffbe46f122535 ARC: atomics: Implement arch_atomic64_cmpxchg using _relaxed
-857f4517965b282234e12f6bca0c21ef10eec09b ARC: unwind: Use built-in sort swap to reduce code size and improve performance
-2cb74be378675c860af0fcaf1ec2801beebdf028 ARC: Replace __ASSEMBLY__ with __ASSEMBLER__ in uapi headers
-179e949719fe81219a3e23f1e716ac2d02eea845 ARC: Replace __ASSEMBLY__ with __ASSEMBLER__ in the non-uapi headers
+87b42c114cdda76c8ad3002f2096699ad5146cb3 cxl: fix return value in cxlctl_validate_set_features()
 
---===============1358970777036067252==--
+--===============1423015854636426566==--
