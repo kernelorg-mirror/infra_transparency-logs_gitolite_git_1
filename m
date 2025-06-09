@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3986877336975002669=="
+Content-Type: multipart/mixed; boundary="===============8780659408566756534=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Mon, 09 Jun 2025 21:13:31 -0000
-Message-Id: <174950361199.2278067.10240300253539717961@gitolite.kernel.org>
+Date: Mon, 09 Jun 2025 21:13:39 -0000
+Message-Id: <174950361935.2278358.10744859104374787498@gitolite.kernel.org>
 
---===============3986877336975002669==
+--===============8780659408566756534==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,25 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pcmoore/selinux
 user: pcmoore
 changes:
-  - ref: refs/heads/dev
-    old: 05f1a939225ec895a97a6b2f1cf64e329b6474f5
-    new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    log: revlist-05f1a939225e-19272b37aa4f.txt
-  - ref: refs/heads/next
-    old: 05f1a939225ec895a97a6b2f1cf64e329b6474f5
-    new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    log: revlist-05f1a939225e-19272b37aa4f.txt
-  - ref: refs/tags/v6.16-rc1
-    old: 0000000000000000000000000000000000000000
-    new: d9946fe286439c2aeaa7953b8c316efe5b83d515
+  - ref: refs/heads/dev-staging
+    old: 39179678d2294b91585b36631ca74bcbddf1a963
+    new: 54169fe080d06771150a18c35cce420a93b3e6ea
+    log: revlist-39179678d229-54169fe080d0.txt
 
---===============3986877336975002669==
+--===============8780659408566756534==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-05f1a939225e-19272b37aa4f.txt
+Content-Disposition: attachment; filename=revlist-39179678d229-54169fe080d0.txt
 
-35a8b02e071a83dd2d42a8446a00a56f6147dc06 Merge tag 'mmc-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
 049294830bfaa1c4b56d5ccf21075f6f9990799e Merge tag 'thermal-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 3702a515edec515fcc7e085053da636fefac88d6 Merge tag 'acpi-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 c89756bcf406af313d191cfe3709e7c175c5b0cd Merge tag 'pm-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
@@ -1057,5 +1049,6 @@ d8c0f5d973004f2ac86375ea54fae9625ac594fb tools/power turbostat: Add initial supp
 be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
+54169fe080d06771150a18c35cce420a93b3e6ea selinux: add a 5 second sleep to /sys/fs/selinux/user
 
---===============3986877336975002669==--
+--===============8780659408566756534==--
