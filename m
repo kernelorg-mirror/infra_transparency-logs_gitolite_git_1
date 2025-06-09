@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4087783186566389069=="
+Content-Type: multipart/mixed; boundary="===============8320242030788176380=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Mon, 09 Jun 2025 01:44:17 -0000
-Message-Id: <174943345792.1195125.2807969156117661764@gitolite.kernel.org>
+Date: Mon, 09 Jun 2025 01:44:44 -0000
+Message-Id: <174943348409.1196164.6742138455100064238@gitolite.kernel.org>
 
---===============4087783186566389069==
+--===============8320242030788176380==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/hwmon
-    old: 9c32cda43eb78f78c73aee4aa344b777714e259b
-    new: 51e8af3c06fc1c195e2c06ba917629b7083889d1
-    log: revlist-9c32cda43eb7-51e8af3c06fc.txt
+  - ref: refs/heads/hwmon-next
+    old: 46d40b2479ab6417db4d7174f7a938c994435b3f
+    new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
+    log: revlist-46d40b2479ab-19272b37aa4f.txt
 
---===============4087783186566389069==
+--===============8320242030788176380==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-9c32cda43eb7-51e8af3c06fc.txt
+Content-Disposition: attachment; filename=revlist-46d40b2479ab-19272b37aa4f.txt
 
+35a8b02e071a83dd2d42a8446a00a56f6147dc06 Merge tag 'mmc-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
 049294830bfaa1c4b56d5ccf21075f6f9990799e Merge tag 'thermal-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 3702a515edec515fcc7e085053da636fefac88d6 Merge tag 'acpi-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 c89756bcf406af313d191cfe3709e7c175c5b0cd Merge tag 'pm-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
@@ -1049,6 +1050,5 @@ d8c0f5d973004f2ac86375ea54fae9625ac594fb tools/power turbostat: Add initial supp
 be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
-51e8af3c06fc1c195e2c06ba917629b7083889d1 hwmon: (ftsteutates) Fix TOCTOU race in fts_read()
 
---===============4087783186566389069==--
+--===============8320242030788176380==--
