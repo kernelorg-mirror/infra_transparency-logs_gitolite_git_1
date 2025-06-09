@@ -1,61 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============2618090522221271898=="
+Content-Type: multipart/mixed; boundary="===============1301598607482686769=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 09 Jun 2025 12:07:05 -0000
-Message-Id: <174947082543.1776890.2572485258776779048@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 09 Jun 2025 12:07:09 -0000
+Message-Id: <174947082948.1777073.2757474460002544057@gitolite.kernel.org>
 
---===============2618090522221271898==
+--===============1301598607482686769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.16
+  - ref: refs/heads/regulator-6.16
     old: 65271f868cb1dca709ff69e45939bbef8d6d0b70
     new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
     log: revlist-65271f868cb1-19272b37aa4f.txt
-  - ref: refs/heads/for-6.17
-    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
+  - ref: refs/heads/regulator-6.17
+    old: 0000000000000000000000000000000000000000
     new: 548d770c330cd1027549947a6ea899c56b5bc4e4
-    log: |
-         c266209eaef4fef863363557817f7d6a68314321 regulator: tps6594-regulator: Constify struct tps6594_regulator_irq_type
-         9bb3c7df546aac38ea64c736a839ef2c75297631 regulator: tps6594-regulator: Remove a useless static qualifier
-         d7181a2d43cffb19f1e5c19f6d2328f190c87d70 dt-bindings: regulator: add pca9450: Add regulator-allowed-modes
-         548d770c330cd1027549947a6ea899c56b5bc4e4 regulator: pca9450: Add support for mode operations
-         
 
---===============2618090522221271898==
+--===============1301598607482686769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1749470858 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1749470822-33f7683cb676ec576601f3c0d2f142d4253c62c9
+pusher C3F436CA30F5D8EB 1749470862 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1749470826-6d8680ad8216989a267803168400c4e1e0606b5e
 
-65271f868cb1dca709ff69e45939bbef8d6d0b70 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 refs/heads/for-6.16
-19272b37aa4f83ca52bdf9c16d5d81bdd1354494 548d770c330cd1027549947a6ea899c56b5bc4e4 refs/heads/for-6.17
+65271f868cb1dca709ff69e45939bbef8d6d0b70 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 refs/heads/regulator-6.16
+0000000000000000000000000000000000000000 548d770c330cd1027549947a6ea899c56b5bc4e4 refs/heads/regulator-6.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmhGzooACgkQJNaLcl1U
-h9CTrAf/c62asR1RFatTF1HuXqLEB2tZsFdePsL26DfFKSm6OCR15qRP9DtCC0Pu
-1towaxx/l29v4X8S+bfVaLgEkD0wHq/4MaFAESVajfLdJCVLiOcOHUHqTj8ft9UP
-iCCZuqVAkO4VcoTjnI9T50vqCoSI58CpfBVg2Nck/aOSPixwqRJ6dPvyjWFXaC0d
-QiHiXE/gZ99g+EiHrN3A116iMGiulkatsseDXH64JaJKRfpkh+PUpl2s7suTufmd
-Q3OGeLOPBZloNqP4zyt/W4DBf4DAw+39o4+ONE9/0e1LVm17z/EOezzlm3N8QSA2
-ZYV0tenLddJqujlekx6UxuoGKp6chQ==
-=ob1Y
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmhGzo4ACgkQJNaLcl1U
+h9CqUwf/YDQhmSpcKJvqGi39ZKMyLP6YPlcVl20/DudmYG1R9ZXE2lbVX32EtBUy
+n9uQsch7h/0RGlWluVehz00LRw8DVTnBEBIvY7So0o67U3N/IgS++Bbmd2bDE644
+YZ9IsjJgpjs/KeHDUNKJ2tnH5+/oaaSG/P3+6Smrxu7+jj4muNWuN8bKil4pXUwL
+mCr2kH8DN8OwzEmUe2ylP293Vlwqhlkbm9aHY9gdz67RXci0zVxqL0ZzfIYw4VeB
+VybtS8bFLJQaIieaLbAVhClBKMYHgxYhxbK9TNm4dk9U3lw/TDSIgiL+SZBr0XU/
+Yf8OpixyPiA2M7n23qMWgB/Qfo9c0w==
+=Wl1d
 -----END PGP SIGNATURE-----
 
---===============2618090522221271898==
+--===============1301598607482686769==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1086,4 +1080,4 @@ be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' 
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
 
---===============2618090522221271898==--
+--===============1301598607482686769==--
