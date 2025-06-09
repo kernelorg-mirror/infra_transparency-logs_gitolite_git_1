@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2049415166123898665=="
+Content-Type: multipart/mixed; boundary="===============2570433567416687310=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 09 Jun 2025 07:02:50 -0000
-Message-Id: <174945257091.1453546.2628147618721277660@gitolite.kernel.org>
+Date: Mon, 09 Jun 2025 07:03:17 -0000
+Message-Id: <174945259752.1453994.5087102472645491354@gitolite.kernel.org>
 
---===============2049415166123898665==
+--===============2570433567416687310==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,16 +16,23 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
+    old: f201e3829400411e5c26e501ac487f499260501e
+    new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
+  - ref: refs/heads/tip/urgent
     old: 337964c8abfbef645cbbe25245e25c11d9d1fc4c
-    new: f201e3829400411e5c26e501ac487f499260501e
-    log: revlist-337964c8abfb-f201e3829400.txt
+    new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
+    log: revlist-337964c8abfb-19272b37aa4f.txt
+  - ref: refs/tags/v6.16-rc1
+    old: 0000000000000000000000000000000000000000
+    new: d9946fe286439c2aeaa7953b8c316efe5b83d515
 
---===============2049415166123898665==
+--===============2570433567416687310==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-337964c8abfb-f201e3829400.txt
+Content-Disposition: attachment; filename=revlist-337964c8abfb-19272b37aa4f.txt
 
+cd956a5cb48aaccfa63291b4efd289d2f1e5b025 mips: ptrace: Improve code formatting and indentation
 9f6d908adabc11e5b407743696dbb333894b022e MIPS: BCM63XX: Replace strcpy() with strscpy() in board_prom_init()
 3b3704261e851e25983860e4c352f1f73786f4ab MIPS: Replace strcpy() with strscpy() in vpe_elfload()
 4f822ad5ee944ffafc21937a32dd055f1df5c28d Merge 6.15-rc4 into char-misc-next
@@ -1049,6 +1056,5 @@ d8c0f5d973004f2ac86375ea54fae9625ac594fb tools/power turbostat: Add initial supp
 be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
-f201e3829400411e5c26e501ac487f499260501e Merge branch 'linus'
 
---===============2049415166123898665==--
+--===============2570433567416687310==--
