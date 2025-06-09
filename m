@@ -1,73 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============1752762118655668430=="
+Content-Type: multipart/mixed; boundary="===============3529372539728033742=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 09 Jun 2025 13:38:15 -0000
-Message-Id: <174947629505.1862275.18420815482745470409@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Mon, 09 Jun 2025 13:38:22 -0000
+Message-Id: <174947630263.1862627.7298811256077108525@gitolite.kernel.org>
 
---===============1752762118655668430==
+--===============3529372539728033742==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regmap
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.16
-    old: b7188a1c0d2d7b04f4558e10293651d49fcb2398
-    new: a4e469c1e2e0ec7f08fff9ed29f5500f187ba9f2
-    log: revlist-b7188a1c0d2d-a4e469c1e2e0.txt
-  - ref: refs/heads/asoc-6.17
-    old: 0000000000000000000000000000000000000000
-    new: ac209bde018fd320b79976657a44c23113181af6
+  - ref: refs/heads/for-6.16
+    old: 1c12fbdf40e17df2efc24bf2009a0c3bfa75bfa7
+    new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
+    log: revlist-1c12fbdf40e1-19272b37aa4f.txt
+  - ref: refs/heads/for-6.17
+    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
+    new: c8c4694ede7ed42d8d4db0e8927dea9839a3e248
+    log: |
+         c8c4694ede7ed42d8d4db0e8927dea9839a3e248 regmap: kunit: Constify regmap_range_cfg array
+         
 
---===============1752762118655668430==
+--===============3529372539728033742==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1749476328 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1749476292-0bd83359a2bc0c41c8fddd0dbc0340b7c58b2620
+pusher C3F436CA30F5D8EB 1749476335 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
+nonce 1749476300-996998cd8ff278b53e762f532d8489817fa65360
 
-b7188a1c0d2d7b04f4558e10293651d49fcb2398 a4e469c1e2e0ec7f08fff9ed29f5500f187ba9f2 refs/heads/asoc-6.16
-0000000000000000000000000000000000000000 ac209bde018fd320b79976657a44c23113181af6 refs/heads/asoc-6.17
+1c12fbdf40e17df2efc24bf2009a0c3bfa75bfa7 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 refs/heads/for-6.16
+19272b37aa4f83ca52bdf9c16d5d81bdd1354494 c8c4694ede7ed42d8d4db0e8927dea9839a3e248 refs/heads/for-6.17
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmhG4+gACgkQJNaLcl1U
-h9D1XQf/d1nS5NIJEoCytnhwvSanzp3dL48KwV2tanpscu6HVBppQx9reoUkuiCK
-U/iikBQk12t7EEU5IP16mYlk0L7UsjI0CBsgtgoPSJioR8wFMokAU6yPtN+c1kbc
-s9pJrrKxmeU4a7Ae7WPO2kB/5yoRltFknq8n8YMvHYt3lQouC2UqR82wgcf1QiFM
-oXhNV2iZShKVjTrajFdGv06O54fFi/pIoAXtNYjyo0P1Kp39VwvctCUFQKAbjSK/
-2jzfO26vccXu5h3tolE4tgS1PGH31gQa60nWqA8hI/G01n0BKubkKGGuAPDyiFrS
-ZX7PRdcPflNtt55d/wsz1P2hmgJhZA==
-=4ycj
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmhG4+8ACgkQJNaLcl1U
+h9CI5gf/RD84f/04XK9W0lB1PFTaqdDle5BR/rvBjqil1BOvBuT4pk35t56OHl9p
+9hL7Tkq5eduE7j5FnuwnXa07CTzTaohzYWsckudHbDT0rk91rTrL0UfmgNt1Bera
++9AE+cXyi96KK+2W6RTS5AEyodmi+1g7s1GkXGQ487ez9dRkhO6Oo+pceUidhzqa
+bFFcpN73oJMjNL1VS8+4VzQyjn/etdj0nV3zSytR4qEny7mJdhpqr8F3jzzWu3Wt
+RXic8Vm+grQbesVqI9sjnmvLqcZ2nrLQoMOkwbjaGcr+GuyzA6JDz0kYQifLwMk5
+QivP1N33Z6yZpQ2g76Bpxyp9+iJYzg==
+=UCH6
 -----END PGP SIGNATURE-----
 
---===============1752762118655668430==
+--===============3529372539728033742==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-b7188a1c0d2d-a4e469c1e2e0.txt
+Content-Disposition: attachment; filename=revlist-1c12fbdf40e1-19272b37aa4f.txt
 
-e2d2115e56c4a02377189bfc3a9a7933552a7b0f bpf: Do not include stack ptr register in precision backtracking bookkeeping
-5ffb537e416ee22dbfb3d552102e50da33fec7f6 selftests/bpf: Add tests with stack ptr register in conditional jmp
-550ccb178de2f379f5e1a1833dd6f4bdafef4b68 Make 'cc-option' work correctly for the -Wno-xyzzy pattern
-bad14b5d2c9520740f3411182d833ff15f130e26 Remove legacy 'cc-disable-warning' use from the generic build scripts
-d48d8380d92ba2db4fcf81c566093276dbbb4ebc Merge tag 'chrome-platform-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/chrome-platform/linux
-11147c16a6e0649cc95f8bb90302e4a99ece30bc Merge tag 'pwm/for-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
-a9e6060bb2a6cae6d43a98ec0794844ad01273d3 Merge tag 'sound-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
-aacc73ceeb8bf664426f0e53db2778a59325bd9f Merge tag 'gpio-updates-for-v6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
-c971f11dbf1bff3d1226b92015302326c7c292c3 Merge tag 'regmap-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
-350d9ab73654c47ea3cf6214ef2ccd159bf134ad Merge tag 'regulator-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
-5722a6cecfff3e381b96bbbd7e9b3911731e80d9 Merge tag 'spi-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
-c7c18635363f06c1943514c2f4c8170b325302e8 Merge tag 'for-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply
-418da6ee1ea62090f6b66d95b8fcf7db2f42c00f Merge tag 'pmdomain-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm
 35a8b02e071a83dd2d42a8446a00a56f6147dc06 Merge tag 'mmc-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
 049294830bfaa1c4b56d5ccf21075f6f9990799e Merge tag 'thermal-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 3702a515edec515fcc7e085053da636fefac88d6 Merge tag 'acpi-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
@@ -155,6 +145,7 @@ a01e93ee44f7ed76f872d0ede82f8d31bf0a048a accel/ivpu: Improve buffer object loggi
 4557cc834712eca4eae7adbd9f0a06bdd8f79c99 accel/ivpu: Reorder Doorbell Unregister and Command Queue Destruction
 4dbe28c0fabd69842890ba38f185b96664cba26a rust: add helper for mutex_trylock
 8e86e73626527e5a69bf5263d6bbe9c2a86b4319 Merge branch 'kvm-lockdep-common' into HEAD
+bc4005ef43104da589951dba69291360c6a11ae7 ASoC: tas571x: fix tas5733 num_controls
 3ec8a8330a1aa846dffbf1d64479213366c55b54 s390/uv: Don't return 0 from make_hva_secure() if the operation was not successful
 bd428b8c79ed8e8658570e70c62c0092500e2eac s390/uv: Always return 0 from s390_wiggle_split_folio() if successful
 05e6d2ff6b6f9cc1d8dd06ee5d2b6623636b6571 ASoC: dt-bindings: qcom,sm8250: Add Fairphone 5 sound card
@@ -200,6 +191,7 @@ e9ba21fb5dcf88a9c0dee28df16866d3824adaf1 Merge tag 'kvm-s390-next-6.16-1' of htt
 0dad79cf81999a314affbc5a535898d30c3d8ee4 perf mem: Show absolute percent in mem_stat output
 55423e9c534d6b6139f7984d59c627eb86d5ce2e smb: client: Remove an unused function and variable
 e8718f9866e5aa25724bc85a518ed5d6ad9d4bb4 perf script: Print PERF_AUX_FLAG_COLLISION flag
+df7996076b1e1ba8a0690542d0e40f703f2f9eb7 ASoC: amd: yc: Add support for Lenovo Yoga 7 16ARP8
 c7a48ea9b919e2fa0e4a1d9938fdb03e9afe276c perf trace: Always print return value for syscalls returning a pid
 a56baa225308e697163e74bae0cc623a294073d4 Merge tag 'for-6.16-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 c69d8e9de00995ebc69392a470da99256127fdf1 Merge tag 'exfat-for-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat
@@ -616,6 +608,17 @@ bb13e79cc9ef3b4f18b905df0ab75f6f92725558 MAINTAINERS: remove obsolete file entry
 10eabeca45fdfa48e8efd2c7fc0fd97314b65266 um: chan_kern: use raw spinlock for irqs_to_free_lock
 477c1c21da0d6ffc4dfe924178b90377f2938ba5 um: vector: Clean up and modernize log messages
 b76d18b53a3f52880452a58cc982910abcccd111 um: vector: Use mac_pton() for MAC address parsing
+ff0045de4ee0288dec683690f66f2f369b7d3466 ASoC: codecs: hda: Fix RPM usage count underflow
+9ad1f3cd0d60444c69948854c7e50d2a61b63755 ASoC: Intel: avs: Fix deadlock when the failing IPC is SET_D0IX
+347c8d6db7c9d65d93ef226849b273823f54eaea ASoC: Intel: avs: Fix PPLCxFMT calculation
+2f78724d4f0c665c83e202e3989d5333a2cb1036 ASoC: Intel: avs: Fix possible null-ptr-deref when initing hw
+9e3285be55e6c0829e451b4a341e3059da47ec9d ASoC: Intel: avs: Fix paths in MODULE_FIRMWARE hints
+5f342aeee2724d31046172eb5caab8e0e8afd57d ASoC: Intel: avs: Verify kcalloc() status when setting constraints
+93e246b6769bdacb09cfff4ea0f00fe5ab4f0d7a ASoC: Intel: avs: Verify content returned by parse_int_array()
+38b1befc7a35a475d90ec32bfbe319f4412880a1 ASoC: Intel: avs: Include missing string.h
+9adf2de86611ac108d07e769a699556d87f052e2 ASoC: rt1320: fix speaker noise when volume bar is 100%
+59a4d9a9efd921ae2b722ffa52217124bcbc0acf ASoC: pcm: Do not open FEs with no BEs connected
+bae071aa7bcd034054cec91666c80f812adeccd9 ASoC: ti: omap-hdmi: Re-add dai_link->platform to fix card init
 57cf46cd1fe351846e1b065ca9546eef66675ecd spi: spi-qpic-snand: document the limited bit error reporting capability
 3382a1ed7f778db841063f5d7e317ac55f9e7f72 net: fix udp gso skb_segment after pull from frag_list
 e21560b7d33c4f692cc9cd5b75ff09024f5a69d2 arm64: Disable LLD linker ASSERT()s for the time being
@@ -638,6 +641,7 @@ af6e3defb11a1c67cd462485655b43b5d70524b1 PCI: WARN (not BUG()) when we fail to a
 ab72bfce7647522e01a181e3600c3d14ff5c143e ALSA: hda: Add new pci id for AMD GPU display HD audio controller
 3f100f524e75586537e337b34d18c8d604b398e7 ALSA: hda: Ignore unsol events for cards being shut down
 6a3439a417b910e662c666993798e0691bc81147 ALSA: usb-audio: Add implicit feedback quirk for RODE AI-1
+b3f3ca04ec3f0587b92fcffa4d581e73b335701a ASoC: Intel: avs: Set of functional fixes
 165815c296076132f0399bd892fd879fc597ac83 bcachefs: Convert BUG() to error
 d47db3e63679541f4dd4696ce4661b6917cb9684 bcachefs: Delete redundant fsck_err()
 95fafc0f3407a6446082c11849df585bd3246571 bcachefs: Kill un-reverted directory i_size code
@@ -703,6 +707,7 @@ a869d3a5eb011a9cf9bd864f31f5cf27362de8c7 net: airoha: Initialize PPE UPDMEM sour
 504a577c9b000f9e0e99e1b28616fb4eb369e1ef net: airoha: Fix IPv6 hw acceleration in bridge mode
 c86fac5365d3a068422beeb508f2741f1a2d734d net: airoha: Fix smac_id configuration in bridge mode
 b56bbaf8c9ffe02468f6ba8757668e95dda7e62c Merge branch 'net-airoha-fix-ipv6-hw-acceleration'
+065a651e2fb35209cbfe6fc5f1ababf92b66d4a4 ASoC: Intel: avs: Simplify verification of parse_int_array() result
 930faf1eb8d70226ac804b61e5cd79b17fb3261d ovpn: properly deconfigure UDP-tunnel
 ba499a07ce1d912e48e225eadd9b3f994b05fd58 ovpn: ensure sk is still valid during cleanup
 a6a5e87b3ee4cbf9c69a776565378c9b6a91dbfb ovpn: avoid sleep in atomic context in TCP RX error path
@@ -712,6 +717,7 @@ fdf4064aaebe4379e6d441141bed83d51b52ad04 selftest/net/ovpn: fix TCP socket creat
 8b2198f03776c5c25f0cafe0ba5c0c60807b554b Merge tag 'bitmap-for-6.16-rc1' of https://github.com/norov/linux
 04446eee58fcb2a6c9db5abff7f07cc2f38da9d0 Merge tag 'v6.16-p3' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 c00b28502470b7677c2f4ee2e9c899205fa78e27 Merge tag 'hyperv-next-signed-20250602' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
+b7188a1c0d2d7b04f4558e10293651d49fcb2398 ASoC: Intel: avs: boards: Fix rt5663 front end name
 f5164456c604f6b7cdc5d8ee2cf792b10fba3aa2 Merge tag 'xtensa-20250603' of https://github.com/jcmvbkbc/linux-xtensa
 76c21d225469780a005140037b6248e648f41ae4 Merge tag 'hwmon-for-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
 efe19d34f6361c6fc90a2c249796af929db7d4a8 Merge tag 'ata-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
@@ -1076,8 +1082,5 @@ d8c0f5d973004f2ac86375ea54fae9625ac594fb tools/power turbostat: Add initial supp
 be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
-22188b9df60dde48eaba276da22062aaf8e12dfe ASoC: cs48l32: Fix a signedness bug in cs48l32_hw_params()
-b44b2694005b501b2eaeb56aa778f3ca22de4659 ASoC: codecs: ES8326: Modify initialization configuration
-a4e469c1e2e0ec7f08fff9ed29f5500f187ba9f2 ASoC: loongson: Fix build warnings about export.h
 
---===============1752762118655668430==--
+--===============3529372539728033742==--
