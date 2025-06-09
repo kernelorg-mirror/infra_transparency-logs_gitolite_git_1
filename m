@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0369164089133494069=="
+Content-Type: multipart/mixed; boundary="===============5410072088418062134=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Mon, 09 Jun 2025 10:14:35 -0000
-Message-Id: <174946407587.1617813.4803132664365742907@gitolite.kernel.org>
+Date: Mon, 09 Jun 2025 10:15:13 -0000
+Message-Id: <174946411357.1620091.5118771897270663010@gitolite.kernel.org>
 
---===============0369164089133494069==
+--===============5410072088418062134==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: westeri
 changes:
-  - ref: refs/heads/review-mika
+  - ref: refs/heads/fixes
     old: 0af2f6be1b4281385b618cb86ad946eded089ac8
     new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
     log: revlist-0af2f6be1b42-19272b37aa4f.txt
 
---===============0369164089133494069==
+--===============5410072088418062134==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' 
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
 
---===============0369164089133494069==--
+--===============5410072088418062134==--
