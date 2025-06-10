@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============2264211917818105993=="
+Content-Type: multipart/mixed; boundary="===============5277765176285649924=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Tue, 10 Jun 2025 07:50:30 -0000
-Message-Id: <174954183044.2816661.16184096691912348215@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
+Date: Tue, 10 Jun 2025 07:50:31 -0000
+Message-Id: <174954183142.2816770.4891421148463165814@gitolite.kernel.org>
 
---===============2264211917818105993==
+--===============5277765176285649924==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
+repo: pub/scm/linux/kernel/git/krzk/linux-dt
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/next/dt
+  - ref: refs/heads/fixes
     old: 0af2f6be1b4281385b618cb86ad946eded089ac8
     new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
     log: revlist-0af2f6be1b42-19272b37aa4f.txt
 
---===============2264211917818105993==
+--===============5277765176285649924==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1749541863 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1749541827-ba4945bf2c10a75cbeaffbe1d56ed7a66c013875
+pusher krzk@kernel.org 1749541864 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
+nonce 1749541827-28176add16fe427f8763e4108684b3d28a0582e4
 
-0af2f6be1b4281385b618cb86ad946eded089ac8 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 refs/heads/next/dt
+0af2f6be1b4281385b618cb86ad946eded089ac8 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 refs/heads/fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmhH4+cQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1xFrD/wMbTNHf5lLjHaimw6U3aHewEowp7uAKc50
-KluYsHa+xNvlb/dFoKuzJXkc9A1NG90g+aTv6REYaW/3Iocc2WfcqCeUdc4PZ66t
-BMd2nZI7zYaU8GwU61vn2f7x1a3OrcDtnk2F5bagv5Ry1JVOZjFmag64c0NUo9iM
-eEhiPfDlPjoEXnpkEGM7qeXyilM191IfC9w/xMOHwQ8QfYogMuxNitodCWGoXlg6
-KynpE3ynXU42efm4RkSr8Y4W7lRdpYgUMHgekwWTWM0IX96xLPmEty2wB0FUDOZM
-QGeEWPruCg4/YovmFY93V4sD0wvjsTyF53oKnHDUN8lf9el07G87TQfZOQ1uGRA0
-kHh0zTUe4UwrfMESU2GLXKVmMBSAvUnwUN8VjY+RoQLPOkmlmWCCDuFoAU/zcXca
-FA6hwciIDzf0aTFcHXSkKXf58MojftgZx/+qDVd/jqsyhP+qc21lxgzCEsz9IVt5
-LIG0P1Q59FMQMnFAanhd58zO0RXiiXCecWJ/NPNFCl2FVIrQRUwFXFDkyLv+gi2y
-jw7NKbH0+/nHAAdtDos0zPvrC8tZ7YlWlQM0zG17Dicj1jvKrCPjOhdoZrrBny3l
-7DRBcCJGpheCYKgTIdOgC87On6qHDOEEjPadVYO2Vqvt+WdIj3OtSazpuN3He2B2
-6zfL/BWD2g==
-=zze+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmhH4+gQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD117UD/9l0QUWoYll6BVpoBRa4VDuFi2rz6Okg/YG
+at5ggshnMR6KSHmOF/2cptu2ElDf1aYNp1RFVx3ykZbpsxPcVhCVSZ5Q3h5liiKX
+6K7gWrs/pH994cjmYpXf0SfTL3Df9pVw92ahzLSUAA6HyBGK4OF6G4rIzp8Af5Z+
+HBMzyMxeFDc0IRn6s5fPK+qvuMQC0IDgEvI+gbUI18QagJqDQQM/LrbIOM1iizZQ
+88EwUkMIMfzjW+E9P6htGEImqXKvZlfVxLmEVY2N9U/yALatqmz6DzyBVutZd/i/
+Z7V5FYdBtJ1hwa5PwPafGk5QP6aXphAz5Q2pup+Qi8cxb4BAE5Uoqs6MHjXBPrJ9
+GNUKeMmb469Xfuu5X5cUTwUs6zBNNYL8pXttE3LgRgfE9tcEeTyjs/wmz89cYrHB
+xOKG72rMN/5NBTce/VDKnebgpOw7H0fn764dgya1AdomodlGs/JELpfGEF8oFaiq
+2AtWhWUSSznyXZVaYnZV2oRw4PURtU2RyE+q67hAkaK+pIcqdBjqpsCFeD6UJOb5
+JWBnf+9eGJqoistkzo8qkmIKQTOaPKbNMtmeAJGgUEKmzPsNmuaRK+jD57EnhtyX
+hgHHAn6Xd1g9BF4pXcvFG5tom6dwpVQsegd0uzl786+Dy7AZ6cdaOItJEuwcEkuj
+5yr8Xkp/UQ==
+=+v69
 -----END PGP SIGNATURE-----
 
---===============2264211917818105993==
+--===============5277765176285649924==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1082,4 +1082,4 @@ be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' 
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
 
---===============2264211917818105993==--
+--===============5277765176285649924==--
