@@ -1,57 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============5999199629875278901=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Tue, 10 Jun 2025 11:50:08 -0000
-Message-Id: <174955620837.3129239.7898080144516430139@gitolite.kernel.org>
-
---===============5999199629875278901==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 10 Jun 2025 11:54:11 -0000
+Message-Id: <174955645159.3131214.16461293940813932306@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
   - ref: refs/heads/master
-    old: 5229705b0d0c04d908cfb85d0172bd027bae6f17
-    new: b272c0784623709bedeab58687255984d92fa3a7
+    old: 5f862408d7adf77f0350f3b90515004f55ed8a1c
+    new: a9df16acef6b58de557455d77b658d35bb6e36e9
     log: |
-         1e30fa98d220a0ce282630825e666c212e24a15d updates based on new stable releases
-         b272c0784623709bedeab58687255984d92fa3a7 proposed: Add Allen's v6.14.[9/10] & v6.15.1 results
+         27d0fa1ca913a59ca0a468b534fbe97931cd9802 Fixes for 6.15
+         21f40a864cf387186c4b19107ea3cdf000d959f5 Fixes for 6.12
+         c10cf002dd18110d53d77d839162ce593312b460 Fixes for 6.6
+         09d42ddef6c8ad5fab61952c4a3ec28e74c993a1 Fixes for 6.1
+         932cc2dadd2848c786c039ce5f7432fc145cb85c Fixes for 5.15
+         0f06e9bc00d8db21b3e57a28e76acfc8d209ae7a Fixes for 5.10
+         a9df16acef6b58de557455d77b658d35bb6e36e9 Fixes for 5.4
          
-
---===============5999199629875278901==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1749556240 -0400
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1749556205-1b22f1e44d08d2d69507fd56fc5e073ede17db07
-
-5229705b0d0c04d908cfb85d0172bd027bae6f17 b272c0784623709bedeab58687255984d92fa3a7 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmhIHBEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/f0P/iQCAdvp4sxFCYbJjiTF
-7JooL/qTwnFGwN/UDGGj22jInVkmhBNbOHBDc0YnzpRsf0yiJgO6gzGjuAsowCzK
-GarHX4V/xFXgXbjgH7e6O2XD34J0RkwO69wsV85wZpvCpw4c89OJO6+EjNw4Y8ym
-kbgi3be9Rh8eBm9BI+QiF0lJVGBe7T8/Ct/tmFal3bkNVuuTg9W/Fkb1CEgkL12D
-Hf+UXSr1SLKdTCma0zeo4lsVSPtnkZRiNI7w3BjoIAjzyrUZac1lLic5mEB+vaV8
-lldncoB54yMiEE9Sh63vN0DNEGa98wQCZkrnVi+BxLXJK7Vx8cCSrJeX4DcOgirh
-bnV9EL758IGedse9XnnwEbtyRmsYW9H8BLzpEuWR0fCJxrTxTXWs3RKuAYv6xhWI
-gban3WLYDtCyo6Plbgv2MlSRGdOuuhu6+iTWoxaoh6Vh/hWSs1Ot0kinhhbx4Cbh
-ZYRTtycYWWxa1q2vuDp6FwT2bTTviV4GYV0S3FL818sIKV5AlaJ4NTROnI/pOGhP
-ue0drl9SvyHQPtgdbZ3wDQDgyGdeBlGCziSOdFHPGFNx/jcYSkPrx7YtMuodtQBp
-KcjIsufUGEDMNUktfsDxdc4aWKVdDEg6VUYeREUmC+yAwiR2MnXQE7h52FFCGB+i
-DIRVk4XyzWbn65wzucS5hl1H
-=+v7q
------END PGP SIGNATURE-----
-
---===============5999199629875278901==--
