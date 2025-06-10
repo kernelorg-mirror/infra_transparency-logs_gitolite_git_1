@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4387187716370745567=="
+Content-Type: multipart/mixed; boundary="===============5488387081421767313=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
-Date: Tue, 10 Jun 2025 13:27:22 -0000
-Message-Id: <174956204209.3213532.10306065234564843369@gitolite.kernel.org>
+Date: Tue, 10 Jun 2025 13:27:31 -0000
+Message-Id: <174956205103.3213872.711051709318165543@gitolite.kernel.org>
 
---===============4387187716370745567==
+--===============5488387081421767313==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/gnss-next
     old: 9c32cda43eb78f78c73aee4aa344b777714e259b
     new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
     log: revlist-9c32cda43eb7-19272b37aa4f.txt
 
---===============4387187716370745567==
+--===============5488387081421767313==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' 
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
 
---===============4387187716370745567==--
+--===============5488387081421767313==--
