@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7789081095423562610=="
+Content-Type: multipart/mixed; boundary="===============8524702555245216814=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 10 Jun 2025 02:04:59 -0000
-Message-Id: <174952109901.2526726.8294201605343724455@gitolite.kernel.org>
+Date: Tue, 10 Jun 2025 02:05:22 -0000
+Message-Id: <174952112291.2528934.9668240609885639581@gitolite.kernel.org>
 
---===============7789081095423562610==
+--===============8524702555245216814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,60 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: e8007fad5457ea547ca63bb011fdb03213571c7e
-    new: 5c3ba81923e02adae354ec8afd006f93289b4a3c
-    log: revlist-e8007fad5457-5c3ba81923e0.txt
+  - ref: refs/tags/mkp-scsi-queue
+    old: ce327097ebcbb52d8e399fc47c1a33a57c7e42eb
+    new: 233f989b18c06c1bb5968ca53d5f1389c9478406
+    log: revlist-ce327097ebcb-233f989b18c0.txt
 
---===============7789081095423562610==
+--===============8524702555245216814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1749521132 -0400
+pusher 75C5DE3D 1749521138 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1749521093-e3e15e4869044954f2133df16cd5e2c4fa463d7a
+nonce 1749521102-e456bf108d0a9d536aace725d62ce65b3be32e34
 
-e8007fad5457ea547ca63bb011fdb03213571c7e 5c3ba81923e02adae354ec8afd006f93289b4a3c refs/heads/fixes
+ce327097ebcbb52d8e399fc47c1a33a57c7e42eb 233f989b18c06c1bb5968ca53d5f1389c9478406 refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmhHkuwACgkQ7ulgGnXF
-3j3XyxAAlnaAL6ZBSyd1/obo95TP4E0ybYAYKdnrOJUpABuV6MU1aLbUTD0dg2Mv
-1Jk8sqz08oZfauz4aQ6k2KRRRFhKnBxBVXB0k2gh/ojLOjQ6+dqMdQeM15+OT1kl
-+UN/hofSgDV4juMXSvby3aPL2cUETU4ds8l2nrcbIJ3rlRaG89A49l6h+XG0HBXd
-tzvq/73r/IVt6z/TQ7nGoAMfJC6vyK8paiOMx0WDe6o4pnlJZsCUZVf53TO8izJc
-9dWKBSieXIpi7drXbVB+03S1IU9YOSVMEAlfSBmBl+jp6hN0rEEYP6ul+LlMGmkh
-konis7kvj7puMxaQsgX6gx/nUkxtPyeV2p3YOChQhbLiFa9aUg/q7+7uA0/uJhsJ
-MDUhffDxpI7JSD9E37nktKMU95fYTQYh2pyz+PjHQ7IhsHGnALHww92kBZPHYVED
-pH0zQz22ZABjfhH7eoSXmYa+pO5D7MoulQtBHaPSO3TMUbLAxH9OALal71EmCKsp
-QgK4wK3IPYpVEEzlPOo/5Pxmqckf/Zxkh1HwyTCsyydk6DvAAAL7sL/eKIgiYJIg
-5TqLOPsR4uBV7+wYb4CBvoSesRfq9wDaueUXr0IpANCd0P+YSr/aKU5DXOP99UTy
-ygF716SRM8CIwYh9JBPeHrvO5hs4ftvxHVR+71/cEnKwvpM6q+g=
-=IdOv
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmhHkvIACgkQ7ulgGnXF
+3j1dgA//Z+wH4QDOCG7McXiIkSu7P7sWaYoVONJPVTOHBKhPxK9222kesL37uk6R
+TqeP172jFrNs5FYotMS1O/6iXwtlMEe/MzSL8DAIH6MpjryyieN3mxgk97PYPvCv
+PtejGaOJz4Vgf1FWeeZCQ2JqLqVxFPB6pSubT3Emd3kR28M1toYofW/22os7lDs5
+sh4KGmlic9+YEQMp6mwsj7nJSX9bYMs/ZNlE6UGRnM0/kcLp8IL93lvy5n3McOIC
+5up3q+iCFOOdyL2XBlHfQKXHN8yJBs/f10RAR3vBTIQrVG6MinszJ91fjKjRLOVQ
+3+ywX6dyK8jW3k6OXLqjReokmnGItfjQCBzGy9ZputUyLxf+lmita1AWq3nBD+8g
+ltDkYrGgXvT4NVt457OmrrsXTmPm2j0hwl1FaoE0QwXpqSra5htU96fN6ZxWJOVA
+qJKAfj/JPucYOA7Ojsmh6MXXaiINYybFwK8A2aAxaIAYKipmav1bc37m0A9mBEan
+MBHsywBg0MEHvQ9WDxZ+SYFuZYnwj1M9OgfQhlnZHvnSRF9F/0mi2/aMm/1tJBfh
+Zvpc9U7PuVPM/NtZ/WqeJD+1WG0ZqhKrazwxnpxsvAVW4Qbga5Egk/JVpWGh0Lq2
+hKsHPipI+so+YKQtEg5+gpDiDBajJ8kEO+l6gLITgrhGFyZQ+Cc=
+=VMu8
 -----END PGP SIGNATURE-----
 
---===============7789081095423562610==
+--===============8524702555245216814==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-e8007fad5457-5c3ba81923e0.txt
+Content-Disposition: attachment; filename=revlist-ce327097ebcb-233f989b18c0.txt
 
+a9e6060bb2a6cae6d43a98ec0794844ad01273d3 Merge tag 'sound-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+aacc73ceeb8bf664426f0e53db2778a59325bd9f Merge tag 'gpio-updates-for-v6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
+c971f11dbf1bff3d1226b92015302326c7c292c3 Merge tag 'regmap-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
+350d9ab73654c47ea3cf6214ef2ccd159bf134ad Merge tag 'regulator-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
+5722a6cecfff3e381b96bbbd7e9b3911731e80d9 Merge tag 'spi-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+c7c18635363f06c1943514c2f4c8170b325302e8 Merge tag 'for-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply
+418da6ee1ea62090f6b66d95b8fcf7db2f42c00f Merge tag 'pmdomain-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm
+35a8b02e071a83dd2d42a8446a00a56f6147dc06 Merge tag 'mmc-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
+049294830bfaa1c4b56d5ccf21075f6f9990799e Merge tag 'thermal-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+3702a515edec515fcc7e085053da636fefac88d6 Merge tag 'acpi-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+c89756bcf406af313d191cfe3709e7c175c5b0cd Merge tag 'pm-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+d005af3b6756e533caf688060281a91e1dae3479 f2fs: remove unused sbi argument from checksum functions
+9b6fc9888e03dbe69768ace00091173b169aec39 f2fs: add f2fs_bug_on() to detect potential bug
+5827e3c720e5a881bf97451e3c280445f67cba04 f2fs: add f2fs_bug_on() in f2fs_quota_read()
 70dd07c888451503c3e93b6821e10d1ea1ec9930 f2fs: use vmalloc instead of kvmalloc in .init_{,de}compress_ctx
 54ca9be0bc589a0e45959ba73c76cf3f65110c63 f2fs: introduce FAULT_VMALLOC
 fef1848809230ab6ca5338e0c02ed2ac6e786775 dt-bindings: net: dsa: mediatek,mt7530: Add airoha,an7583-switch
@@ -82,14 +96,7 @@ e9cb929670a1e98b592b30f03f06e9e20110f318 net: phy: fix up const issues in to_mdi
 7a91722e0dd47bc5d1b4b8416966bf993c93a72f net: txgbe: Support the FDIR rules assigned to VFs
 3b9935586a9b54d2da27901b830d3cf46ad66a1e net: lan743x: Modify the EEPROM and OTP size for PCI1xxxx devices
 33f1b3677a13dda60a2a59858f7916672e7f1546 sctp: mark sctp_do_peeloff static
-e97633492f5a3eca7b3ff03b4ef6f993017f7955 scsi: ufs: core: Don't perform UFS clkscaling during host async scan
-c8426f258a0aa4c2fa0fb87806b73592b03dacac scsi: core: devinfo: Fix typo in comment
-0ae992637cf7011af0128e6136f3b595de54e03e scsi: aacraid: Remove useless code
-663d0c19f3acc0d697f623d34b8eb3b438bf2bda scsi: ufs: qcom: Check gear against max gear in vop freq_to_gear()
-8c5bcb3daeef9bc54c9939c36dca9a626126eb59 scsi: ufs: qcom: Map devfreq OPP freq to UniPro Core Clock freq
-c77b37dafb81660b939f82d81b637b91b0207cfe scsi: ufs: qcom: Call ufs_qcom_cfg_timers() in clock scaling path
 846992645b25ec4253167e3f931e4597eb84af56 net: phy: mscc: Fix memory leak when using one step timestamping
-7831003165d37ecb7b33843fcee05cada0359a82 scsi: ufs: qcom: Prevent calling phy_exit() before phy_init()
 429d410bf9eff7bc930e5850277c87ed47ceaeea selftests: netfilter: nft_queue.sh: include file transfer duration in log message
 88e47c93b3a2a45b55f03f238b68be826917bb2e net: devmem: move list_add to net_devmem_bind_dmabuf.
 170ebc60b79a5745addf7b408bce9b86bbd7c29d page_pool: fix ugly page_pool formatting
@@ -763,7 +770,6 @@ cc55f65dd352bdb7bdf8db1c36fb348c294c3b66 smb: client: make use of common smbdire
 66d590b828b1fd9fa337047ae58fe1c4c6f43609 cifs: deal with the channel loading lag while picking channels
 b5e3e6e28cf3853566ba5d816f79aba5be579158 cifs: serialize other channels when query server interfaces is pending
 42ca547b13a20e7cbb04fbdf8d5f089ac4bb35b7 cifs: do not disable interface polling on failure
-8a3514d348de87a9d5e2ac00fbac4faae0b97996 scsi: core: ufs: Fix a hang in the error handler
 a2f4c1ae163b815dc81e3cab97c3149fdc6639e3 selftests: ublk: kublk: improve behavior on init failure
 10f4a7cd724e34b7a6ff96e57ac49dc0cadececc nvme: fix command limits status code
 c4b680ac2863821e19d360fca62f78b68b1c8ece nvme: fix implicit bool to flags conversion
@@ -1074,11 +1080,5 @@ d8c0f5d973004f2ac86375ea54fae9625ac594fb tools/power turbostat: Add initial supp
 be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
-ad0f54842cd23127070d8c310dd06d8f7add025c scsi: mvsas: Fix typos in per-phy comments and SAS cmd port registers
-9b17621366d210ffee83262a8754086ebbde5e55 scsi: iscsi: Fix incorrect error path labels for flashnode operations
-9697ca0d53e3db357be26d2414276143c4a2cd49 scsi: s390: zfcp: Ensure synchronous unit_add
-a3da9388c66782dbd808a63709e376ebe81ccca5 Merge branch '6.16/scsi-queue' into 6.16/scsi-fixes
-b2f966568faaad326de97481096d0f3dc0971c43 scsi: storvsc: Increase the timeouts to storvsc_timeout
-5c3ba81923e02adae354ec8afd006f93289b4a3c scsi: error: alua: I/O errors for ALUA state transitions
 
---===============7789081095423562610==--
+--===============8524702555245216814==--
