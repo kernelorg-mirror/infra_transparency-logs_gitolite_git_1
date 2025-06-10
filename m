@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2227190177200242077=="
+Content-Type: multipart/mixed; boundary="===============6735858608874225281=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Tue, 10 Jun 2025 07:07:01 -0000
-Message-Id: <174953922178.2777787.15649141845727317379@gitolite.kernel.org>
+Date: Tue, 10 Jun 2025 07:08:05 -0000
+Message-Id: <174953928563.2778466.14676363334509004745@gitolite.kernel.org>
 
---===============2227190177200242077==
+--===============6735858608874225281==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chao/linux
 user: chao
 changes:
-  - ref: refs/heads/dev
-    old: 3f75783c1f20e52b81471b577266d8eee74786e5
-    new: 98f38f04650ba684f6f5929e8de74bc34cb7bed4
-    log: revlist-3f75783c1f20-98f38f04650b.txt
+  - ref: refs/heads/master
+    old: ab0a97cffa0bb3b529ca08b0caea772ddb3e0b5c
+    new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
+    log: revlist-ab0a97cffa0b-19272b37aa4f.txt
 
---===============2227190177200242077==
+--===============6735858608874225281==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-3f75783c1f20-98f38f04650b.txt
+Content-Disposition: attachment; filename=revlist-ab0a97cffa0b-19272b37aa4f.txt
 
+35a8b02e071a83dd2d42a8446a00a56f6147dc06 Merge tag 'mmc-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
 049294830bfaa1c4b56d5ccf21075f6f9990799e Merge tag 'thermal-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 3702a515edec515fcc7e085053da636fefac88d6 Merge tag 'acpi-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 c89756bcf406af313d191cfe3709e7c175c5b0cd Merge tag 'pm-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
@@ -1049,6 +1050,5 @@ d8c0f5d973004f2ac86375ea54fae9625ac594fb tools/power turbostat: Add initial supp
 be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
-98f38f04650ba684f6f5929e8de74bc34cb7bed4 f2fs: fix bio memleak when committing super block
 
---===============2227190177200242077==--
+--===============6735858608874225281==--
