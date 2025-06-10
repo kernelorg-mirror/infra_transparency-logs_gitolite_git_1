@@ -1,83 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============6963251447218871946=="
+Content-Type: multipart/mixed; boundary="===============0916767694220568734=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Tue, 10 Jun 2025 08:22:11 -0000
-Message-Id: <174954373171.2850739.2291716454391081941@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Tue, 10 Jun 2025 08:22:17 -0000
+Message-Id: <174954373709.2851016.12721941395944962168@gitolite.kernel.org>
 
---===============6963251447218871946==
+--===============0916767694220568734==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/for-next
-    old: 5cac59c59bbc81c3cd081ee575c41c917123d11a
-    new: 0688aa2e10990fec613ec3e0a9596ba131a03bee
+  - ref: refs/heads/mem-ctrl-next
+    old: 43f9c5c213074428ce0149f9525b98730422990e
+    new: e18c3f5cbd0243c60777f7a3a02e4506f5196c31
     log: |
-         952a81b137473cf679c229e7e7e175dce715cd2f dt-bindings: soc: samsung: exynos-pmu: Constrain google,pmu-intr-gen-syscon
-         f17d5b90947a7b89a27913abf47cb0c7063b3430 arm64: defconfig: update renamed PHY_SNPS_EUSB2
-         8d2c2fa2209e83d0eb10f7330d8a0bbdc1df32ff firmware: exynos-acpm: fix timeouts on xfers handling
-         29a9361f0b50be2b16d308695e30ee030fedea2c clk: samsung: gs101: fix CLK_DOUT_CMU_G3D_BUSD
-         ca243e653f71d8c4724a68c9033923f945b1084d clk: samsung: gs101: fix alternate mout_hsi0_usb20_ref parent clock
-         320e7efce30e2613c2c7877acc46a8e71192cdcd clk: samsung: exynos850: fix a comment
-         9597071ad1565e30310f4b5af9fed2bfb775b9a0 Merge branch 'fixes-soc' into for-next
-         0688aa2e10990fec613ec3e0a9596ba131a03bee Merge branches 'next/clk' and 'next/drivers' into for-next
+         6d8b18ae647bb456d2a2dac9771d007f243537cf memory: stm32_omm: Use syscon_regmap_lookup_by_phandle_args
+         04de50163466a0d11b24f6bb418889f3cc219dda dt-bindings: memory-controllers: convert arm,pl172.txt to yaml format
+         e18c3f5cbd0243c60777f7a3a02e4506f5196c31 memory: mtk-smi: Add ostd setting for mt8186
          
-  - ref: refs/heads/next/clk
-    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    new: 320e7efce30e2613c2c7877acc46a8e71192cdcd
-    log: |
-         29a9361f0b50be2b16d308695e30ee030fedea2c clk: samsung: gs101: fix CLK_DOUT_CMU_G3D_BUSD
-         ca243e653f71d8c4724a68c9033923f945b1084d clk: samsung: gs101: fix alternate mout_hsi0_usb20_ref parent clock
-         320e7efce30e2613c2c7877acc46a8e71192cdcd clk: samsung: exynos850: fix a comment
-         
-  - ref: refs/heads/next/drivers
-    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    new: 952a81b137473cf679c229e7e7e175dce715cd2f
-    log: |
-         952a81b137473cf679c229e7e7e175dce715cd2f dt-bindings: soc: samsung: exynos-pmu: Constrain google,pmu-intr-gen-syscon
-         
-  - ref: refs/heads/fixes-soc
-    old: 0000000000000000000000000000000000000000
-    new: 8d2c2fa2209e83d0eb10f7330d8a0bbdc1df32ff
 
---===============6963251447218871946==
+--===============0916767694220568734==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1749543765 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1749543729-270d0fe0940a8a2edd1be6401cc6549bd82ec7f4
+pusher krzk@kernel.org 1749543771 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
+nonce 1749543735-60dac4f746ea404a470b713e02eb22531a81e940
 
-5cac59c59bbc81c3cd081ee575c41c917123d11a 0688aa2e10990fec613ec3e0a9596ba131a03bee refs/heads/for-next
-19272b37aa4f83ca52bdf9c16d5d81bdd1354494 320e7efce30e2613c2c7877acc46a8e71192cdcd refs/heads/next/clk
-19272b37aa4f83ca52bdf9c16d5d81bdd1354494 952a81b137473cf679c229e7e7e175dce715cd2f refs/heads/next/drivers
-0000000000000000000000000000000000000000 8d2c2fa2209e83d0eb10f7330d8a0bbdc1df32ff refs/heads/fixes-soc
+43f9c5c213074428ce0149f9525b98730422990e e18c3f5cbd0243c60777f7a3a02e4506f5196c31 refs/heads/mem-ctrl-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmhH61UQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD16unEACORuJzWzIY9Wv6gSLhm818I9LUcwhTCQ0H
-mWjwRBaeJ1GmtjXHkXFgA4fsK6+bCa/cjKr7tGyyaMBpclRtCj9sCdZp8pp5dPMF
-eCiRCNYLjptlMFcSEidq5KSqMjm3Z/IrnHMNyGUnL+cP5ZR68dJlaOji+M/kTXLb
-twdfK/Ruw8Vw406IRp7fRey2xrqXvWErpD/agmnCsrmQEAyenuaeoA+AoZyuwKOM
-mBslE43r5QoBio0JF2WWfAWQW62g0PHW6N8wzA/j2KvIppWyJMxl22emG4dU3JrW
-B20UV1In7hfF121vZ4OdqmXTDAdQIfizF9A+gyiiSkox/hm/zfCAZycl4xBr2V3m
-aX3PpOIC9Jiu3FRpQOqh8jqFBgfVwUpKs7ViS4POVvEPalviByYnwAGcobb8T0WD
-DrhuDm06BDuNnHz32c8oFlwcGvOfsCKjUOuvSE9GYmnN2qo4BLe9TwP4z0iMVC8u
-8LmcxEhbYIlx45/wywPsduNh9Y5bFKxfa0wjkuCAhkrwoJ3bNSRdmuFxt96zce5a
-gRJntYqIJg1rNwqw2BeZs7z7j2/txR97J0Fhq4InoxzpMVKqw6X4LdiIzPghbQh7
-PMbE1LN73qss0eF8DAzUmupx9PqeP60R1bemvBIjkt4EpF626Y1sj/eEPZTGWuH0
-OZBvEuVkOg==
-=Bowm
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmhH61sQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1/H/D/48++52J4Nu2jKJbbegI1g5nylbOklz9Ctk
+cSZWotNphFztytevkbUskBfQmZXe5p4JXX7KwryXhKOkgLlZpvf/51IFhTxjFx82
+E1MtzmiSih0OmN219KYrQDsnDHBTpg4AUAA58QmbcFvZ75llNtNnEh1RhoCpkomC
+TBIjcCsEWQ97v5XwY5JZwFZ6N8LdDn66effxp/vstLmfoBNZPQwgyAqcidjil4vO
+rjtyMCxvITXUxpVpvlUXxE+75aGp297RGsUVFjYq9dF4dPltxGys32sL+EnsHfYq
+owqYhHS+cWAV49CgXrteFkacye8yiOsxNdyyCSkVjVilAix8BLZT4tWlqLhcyKux
+jTfcyIdOpc3Yqnywz9YyDhUCTTz0z3wjLEk5Osj1OYJipisFKB1v2K0h60MVzEhh
+GZgnbcin8WYRLB+r724wJ62qy490RkDTaRJN+2O5pEnvZKXWrioAD3FTIbmWekf7
+7iTWcnhj2XKzHOKqAbWgFlfQkMoNDZULL7hzcLQA1kg5kQ02oPBzdfwpT939O0WA
+6pEEL63rJFACWAKHO8H3k99tlFn/xPPOXNW4KWGPWRtWM63PmWUQ1HaIQGLGXFKb
+7xBqFz7msVIW6BxN0dE8qESngnkid8kA9VHRXSSqW08jOGlAJPwDCdD45Bbn2EsR
+bjAsprLg8Q==
+=i+s2
 -----END PGP SIGNATURE-----
 
---===============6963251447218871946==--
+--===============0916767694220568734==--
