@@ -1,50 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============1853873177764703555=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 10 Jun 2025 14:15:34 -0000
-Message-Id: <174956493476.3258850.315320913058330753@gitolite.kernel.org>
-
---===============1853873177764703555==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 10 Jun 2025 14:15:43 -0000
+Message-Id: <174956494316.3259308.18019507030923803279@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-6.17
-    old: d49305862fdc4d9ff1b1093b4ed7d8e0cb9971b4
-    new: d6fa0ca959db8efd4462d7beef4bdc5568640fd0
+  - ref: refs/heads/for-linus
+    old: a4e469c1e2e0ec7f08fff9ed29f5500f187ba9f2
+    new: 6325766d69900d1aa9733fc7572456fc4427b708
     log: |
-         d6fa0ca959db8efd4462d7beef4bdc5568640fd0 regulator: rpi-panel-v2: Add missing GPIOLIB dependency
+         6325766d69900d1aa9733fc7572456fc4427b708 ASoC: sdw_utils: Fix potential NULL pointer deref in is_sdca_endpoint_present()
          
-
---===============1853873177764703555==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1749564968 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1749564932-3c1a57f2c4e42ecb231050cee2a9687cebdce1bd
-
-d49305862fdc4d9ff1b1093b4ed7d8e0cb9971b4 d6fa0ca959db8efd4462d7beef4bdc5568640fd0 refs/heads/regulator-6.17
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmhIPigACgkQJNaLcl1U
-h9CllAf8D+mwAfMrQxdVkOYRRlc0CcFUZk3eIl772ruD0yKKk4XwZOPy7V8VMK2Y
-y5I3zwZ9FPu/CQxNuegsRY3o0M4oRK8CHraON2ydJ7QFwHsnORQPSF0lxRvo+VY7
-kF2nlempoy+ttccCozhwnWMWCb+0hjzZiwYuJTc3QkHsqkBBaxODOeS3DCSAIltD
-kCq4hmby/Rbh5WIfGto2qoh4epN6GxwqaHWKK9Z29z8wZCKF/c8kmynUi0Uirz7I
-Ai+fR8nrw43gGk/thqZsudC02rzevKobrmjfx0Klt/u+vaS1w6D3XKnCD9dDQ0+G
-84as10DDh4DuYqcGYr8F6tlA1Gvnrg==
-=ruzZ
------END PGP SIGNATURE-----
-
---===============1853873177764703555==--
+  - ref: refs/heads/for-next
+    old: 3bc28bdaca91cf78a9c13054387c8dbf67ab4b5c
+    new: 3cc97e7879ea2ba3e671f43c34031a35277813b3
+    log: |
+         6325766d69900d1aa9733fc7572456fc4427b708 ASoC: sdw_utils: Fix potential NULL pointer deref in is_sdca_endpoint_present()
+         7e10d7242ea8a5947878880b912ffa5806520705 ASoC: ops: dynamically allocate struct snd_ctl_elem_value
+         3cc97e7879ea2ba3e671f43c34031a35277813b3 Merge remote-tracking branch 'asoc/for-6.17' into asoc-next
+         
