@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 10 Jun 2025 21:48:25 -0000
-Message-Id: <174959210580.3658682.13869855572515072861@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 10 Jun 2025 21:52:48 -0000
+Message-Id: <174959236851.3662884.3800708616875043173@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: daveh
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/x86/urgent
-    old: f287822688eeb44ae1cf6ac45701d965efc33218
-    new: 0b3bc018e86afdc0cbfef61328c63d5c08f8b370
+  - ref: refs/heads/main
+    old: c09ef59e17c6921c577d54bc8da4331b955d01a7
+    new: 561939ed44932da639ba703ffcd4d4d5ff2c7569
     log: |
-         0b3bc018e86afdc0cbfef61328c63d5c08f8b370 x86/virt/tdx: Avoid indirect calls to TDX assembly functions
+         31557b3487b349464daf42bc4366153743c1e727 uapi: in6: restore visibility of most IPv6 socket options
+         1f07789152b8d1e646d6bfecd96a2cf7bd2b9a05 cxgb3/l2t: Remove unused t3_l2t_send_event
+         561939ed44932da639ba703ffcd4d4d5ff2c7569 net: remove unused sock_enable_timestamps
          
