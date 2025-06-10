@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8043122587636894090=="
+Content-Type: multipart/mixed; boundary="===============5359625732772572301=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 10 Jun 2025 02:05:35 -0000
-Message-Id: <174952113586.2529518.15162495578487329599@gitolite.kernel.org>
+Date: Tue, 10 Jun 2025 02:06:00 -0000
+Message-Id: <174952116017.2529934.2067230627058918517@gitolite.kernel.org>
 
---===============8043122587636894090==
+--===============5359625732772572301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,50 +16,46 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 7831003165d37ecb7b33843fcee05cada0359a82
-    new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    log: revlist-7831003165d3-19272b37aa4f.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 467a177dacda66b7dfce63ba743454ec1f183f96
+    new: fe4dd8df798775c00fd4298074ec1b75800efe09
+    log: revlist-467a177dacda-fe4dd8df7987.txt
 
---===============8043122587636894090==
+--===============5359625732772572301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1749521169 -0400
+pusher 75C5DE3D 1749521175 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1749521130-1b4384693cad4a0b3174efcd9dfba1291b00bbc7
+nonce 1749521139-9340a55f74a4414607832f0a13832df3e50a1afc
 
-7831003165d37ecb7b33843fcee05cada0359a82 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 refs/heads/queue
+467a177dacda66b7dfce63ba743454ec1f183f96 fe4dd8df798775c00fd4298074ec1b75800efe09 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmhHkxEACgkQ7ulgGnXF
-3j0VJQ/9HApD50saDbiLzW1f6kMZqVfj4/I8NB8Yvao5n8+k7j75UP6MDkR3tQHI
-i70BqWch6ZFHE9Oy09R+qWb5g2HfAKQFvjyUZuJrKqSJ6ZUerqStuZCfy5Ut1tr0
-kV/yd/30UoTyRk9HwTX3ewyJJKDbEUbeB+kvoW78y1KIr8acnFmxt82vKFP8DBza
-34LzzIHuNnO1Isr6POGvIhai5fC+ci8RQJ+9QnlZ3l7h0yMqw/RtU5eYGevRTky9
-HuYeZyGIzWI3oTlY0QB7qomz1siZjNTaQrE91d6VZ/VKkCBkBtsFFlopssq3fQYT
-jD4/wsvNaabWmEio9hYB/4ciDO+O+ZMlhQuOGL/Oy9PWtAZFNr1sd7FjxdJRllHV
-UKCLBe+HYtZ03JNnUo9LK2va/DSezs/FWwVs3ezzpbMGPTFlolLUmwAC7U5nv5Yv
-x7r1NVOs4Hxj3kNW3RsviDc6Lh7fIPBlBxdJX3Hyxzn2vpdQyeJZPHpSCxBlA99S
-2y/120S0zd+5TfIio4zcDJfN1VWjgHaxhugOCfp71MkVasM+wsTgshJ38a91RabN
-QRh8O02NVAPhDJmciPVSbXBCgXhwzn3uyOkSczrr6N8JyHwgYwCvlc52E25cfSV9
-RTiictJ8yZAJ3dXL5gK6pDi6dXERkV+KMSmT9a3yf9ECGO8yI8E=
-=bOvB
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmhHkxcACgkQ7ulgGnXF
+3j26Bg//cSAr/DNU6/d/neBbt0UrNmHELfN58s9hrO60fli11GHU8UpIRbbtCo+X
++5NPL1zKNVT+fghBp743vR0pXiyvUBSbON+KjuaZ6luAHQcqyfndzDxp62cx5pQ1
+ghlM1ndM6o1zRErrYWqlCpxTS9y0y+zeobElc5/C1UtuOliQXvuTXp1aTvHwjaef
+9bFmJRDkdB1gwgeqCOb02/7Afcm8xRd7a+/YMdww1it7KznjinQ90RuXmO+iuV1q
+XMMGsyVuawVN0vbQd4d/cSaYMmf6ckXdxQpMDsv7UzqqMFrncSn4AZnSYAWnkALg
+23eDjIg3G2HZIMGS2cBD3mD/5TOm72BkDZ4TT/Yr+0n7l0Q/cKd02+YBpB8nm4gS
+5GEgxDtWK+qH/otCgQsyvwCow4El6X1YeCtLxW0++zvpPcm7TdsMvvgHwZT7IR9Q
+bkTYk0i2PUz5oe8RUBs8pmytmArvwj3HMU4eOsbcts9jT1hscdRrXwFFXkoO4aow
+01wRSjpnB3XoXRgNYOiCIgGouSKsjlBi8lcwCp6ubo+waxiYF47oJ6vX2pGTKIpe
+TfDQumhp8C8UPqr8CAwMPgcLSSVwFeaDRMoKERxw0/HyDZK4p09JSNDhAaleHakP
+89Qj9myRFIDNkXwvsJCeYrchVlzFkQ3ot06hH/wYquTrnTvxvps=
+=9bjl
 -----END PGP SIGNATURE-----
 
---===============8043122587636894090==
+--===============5359625732772572301==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-7831003165d3-19272b37aa4f.txt
+Content-Disposition: attachment; filename=revlist-467a177dacda-fe4dd8df7987.txt
 
-a9e6060bb2a6cae6d43a98ec0794844ad01273d3 Merge tag 'sound-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
-aacc73ceeb8bf664426f0e53db2778a59325bd9f Merge tag 'gpio-updates-for-v6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
-c971f11dbf1bff3d1226b92015302326c7c292c3 Merge tag 'regmap-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
-350d9ab73654c47ea3cf6214ef2ccd159bf134ad Merge tag 'regulator-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 5722a6cecfff3e381b96bbbd7e9b3911731e80d9 Merge tag 'spi-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 c7c18635363f06c1943514c2f4c8170b325302e8 Merge tag 'for-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply
 418da6ee1ea62090f6b66d95b8fcf7db2f42c00f Merge tag 'pmdomain-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm
@@ -1080,5 +1076,9 @@ d8c0f5d973004f2ac86375ea54fae9625ac594fb tools/power turbostat: Add initial supp
 be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
+8b0b14614c1566de7857d6ee29e27ec9ac740578 scsi: fcoe: Remove fcoe_select_cpu()
+c6503be73fa37034fac87c1ffed9f2a82adb5441 scsi: fc_transport: docs: Add documentation for FC Remote Ports
+ae7795a8c2582b5fb7971132753810a3f158e7b2 scsi: ufs: core: Add HID support
+9d2c232d575a8c8dfa66276ed7edccfac482a4df scsi: trace: Show rtn in string for scsi_dispatch_cmd_error()
 
---===============8043122587636894090==--
+--===============5359625732772572301==--
