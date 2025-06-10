@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Tue, 10 Jun 2025 19:49:22 -0000
-Message-Id: <174958496214.3551445.15100873198262281586@gitolite.kernel.org>
+Date: Tue, 10 Jun 2025 19:50:42 -0000
+Message-Id: <174958504295.3554570.5752038978540031256@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,15 +12,15 @@ repo: pub/scm/linux/kernel/git/hid/hid
 user: jikos
 changes:
   - ref: refs/heads/for-6.16/upstream-fixes
-    old: fa10d4515817274a50af510d5d283d3c7fffc1ae
-    new: 1a8953f4f7746c6a515989774fe03047c522c613
+    old: 1a8953f4f7746c6a515989774fe03047c522c613
+    new: 9327e3ee5b077c4ab4495a09b67624f670ed88b6
     log: |
-         1a8953f4f7746c6a515989774fe03047c522c613 HID: Add IGNORE quirk for SMARTLINKTECHNOLOGY
+         9327e3ee5b077c4ab4495a09b67624f670ed88b6 HID: lenovo: Restrict F7/9/11 mode to compact keyboards only
          
   - ref: refs/heads/for-next
-    old: 0185246635022d08669744c9dbdb2a7d4fdb4c9e
-    new: 470aa953e26d7d3077057f513e89d32573e1adc6
+    old: 470aa953e26d7d3077057f513e89d32573e1adc6
+    new: 052b86bc80b76b4a5663f6b8cd0f7eda6e2cf864
     log: |
-         1a8953f4f7746c6a515989774fe03047c522c613 HID: Add IGNORE quirk for SMARTLINKTECHNOLOGY
-         470aa953e26d7d3077057f513e89d32573e1adc6 Merge branch 'for-6.16/upstream-fixes' into for-next
+         9327e3ee5b077c4ab4495a09b67624f670ed88b6 HID: lenovo: Restrict F7/9/11 mode to compact keyboards only
+         052b86bc80b76b4a5663f6b8cd0f7eda6e2cf864 Merge branch 'for-6.16/upstream-fixes' into for-next
          
