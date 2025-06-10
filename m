@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6479849393474949165=="
+Content-Type: multipart/mixed; boundary="===============6776732277212575628=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Tue, 10 Jun 2025 09:54:44 -0000
-Message-Id: <174954928401.2927170.12890438721363324219@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/i3c/linux
+Date: Tue, 10 Jun 2025 10:01:20 -0000
+Message-Id: <174954968097.2933832.6701456116386271840@gitolite.kernel.org>
 
---===============6479849393474949165==
+--===============6776732277212575628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelloni/linux
+repo: pub/scm/linux/kernel/git/i3c/linux
 user: abelloni
 changes:
-  - ref: refs/heads/rtc-fixes
-    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
+  - ref: refs/heads/i3c/next
+    old: 00286d7d643d3c98e48d9cc3a9f471b37154f462
     new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    log: revlist-0af2f6be1b42-19272b37aa4f.txt
+    log: revlist-00286d7d643d-19272b37aa4f.txt
 
---===============6479849393474949165==
+--===============6776732277212575628==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-0af2f6be1b42-19272b37aa4f.txt
+Content-Disposition: attachment; filename=revlist-00286d7d643d-19272b37aa4f.txt
 
 35a8b02e071a83dd2d42a8446a00a56f6147dc06 Merge tag 'mmc-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
 049294830bfaa1c4b56d5ccf21075f6f9990799e Merge tag 'thermal-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
@@ -1051,4 +1051,4 @@ be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' 
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
 
---===============6479849393474949165==--
+--===============6776732277212575628==--
