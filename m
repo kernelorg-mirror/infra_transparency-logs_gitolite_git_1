@@ -1,41 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8020223755082835369=="
+Content-Type: multipart/mixed; boundary="===============1822816464446030705=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
-Date: Tue, 10 Jun 2025 13:27:38 -0000
-Message-Id: <174956205899.3214186.1071796172247346245@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
+Date: Tue, 10 Jun 2025 13:33:59 -0000
+Message-Id: <174956243958.3219164.17980506317286659981@gitolite.kernel.org>
 
---===============8020223755082835369==
+--===============1822816464446030705==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/johan/gnss
-user: johan
+repo: pub/scm/linux/kernel/git/vbabka/linux
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/gnss-linus
-    old: 9c32cda43eb78f78c73aee4aa344b777714e259b
-    new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    log: revlist-9c32cda43eb7-19272b37aa4f.txt
+  - ref: refs/heads/b4/slub-percpu-sheaves
+    old: 2c0f15c218e8a99bdf025449a1bfde68e60fa806
+    new: f379968a7df8a4bd23f9c12b0f404bbd2ffe7830
+    log: revlist-2c0f15c218e8-f379968a7df8.txt
 
---===============8020223755082835369==
+--===============1822816464446030705==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1749562469 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
+nonce 1749562433-f54a6f53db90038f19309a11fb986f93921454d2
+
+2c0f15c218e8a99bdf025449a1bfde68e60fa806 f379968a7df8a4bd23f9c12b0f404bbd2ffe7830 refs/heads/b4/slub-percpu-sheaves
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCAAdFiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmhINGUACgkQu+CwddJF
+iJqBSwf+OhhVdpzaZK51LJf6xftCGUobZVV9JbMxHvrhhYJeETiy/I+vpCZCbzRz
+ZOYm2YPd26Ym0dfYaDm4+MCboGf7Dm7V0RpswMNOWFuhJ3K18KmYkQpSXvt6LY7b
+sH7tQ7OG55GwDsaEmRDOh+kxOpjmLIJgvltUtwTvDe+PqOCX+4xgGhbPmd7qoGDL
+58qzDrY1DqWdUvO3IB0hnAzds6wJ+KHpkbMsZTpNBI8daiRQuUjN+p93PYxmZ3fH
+kY/CEnewsAeK/TNx1XvWNYUdF1ggyyFwc4ByZf4hIMcmTY+RjDF1zpANnAFK6LL9
+xp4qTqIzdGpr+7lfuDv+dE2Pj78OmA==
+=UL+a
+-----END PGP SIGNATURE-----
+
+--===============1822816464446030705==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-9c32cda43eb7-19272b37aa4f.txt
+Content-Disposition: attachment; filename=revlist-2c0f15c218e8-f379968a7df8.txt
 
-35a8b02e071a83dd2d42a8446a00a56f6147dc06 Merge tag 'mmc-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
-049294830bfaa1c4b56d5ccf21075f6f9990799e Merge tag 'thermal-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-3702a515edec515fcc7e085053da636fefac88d6 Merge tag 'acpi-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-c89756bcf406af313d191cfe3709e7c175c5b0cd Merge tag 'pm-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-d005af3b6756e533caf688060281a91e1dae3479 f2fs: remove unused sbi argument from checksum functions
-9b6fc9888e03dbe69768ace00091173b169aec39 f2fs: add f2fs_bug_on() to detect potential bug
-5827e3c720e5a881bf97451e3c280445f67cba04 f2fs: add f2fs_bug_on() in f2fs_quota_read()
-70dd07c888451503c3e93b6821e10d1ea1ec9930 f2fs: use vmalloc instead of kvmalloc in .init_{,de}compress_ctx
-54ca9be0bc589a0e45959ba73c76cf3f65110c63 f2fs: introduce FAULT_VMALLOC
-fef1848809230ab6ca5338e0c02ed2ac6e786775 dt-bindings: net: dsa: mediatek,mt7530: Add airoha,an7583-switch
 d76556db10bf41cd3ae1ad1d705245afe077a701 net: dsa: mt7530: Add AN7583 support
 8bc3c234dcb65a018120dab96c83845cc7ff35c6 net: phy: mediatek: Add Airoha AN7583 PHY support
 0795b05a59b1371b18ffbf09d385296b12e9f5d5 net: phy: clear phydev->devlink when the link is deleted
@@ -1050,5 +1065,15 @@ d8c0f5d973004f2ac86375ea54fae9625ac594fb tools/power turbostat: Add initial supp
 be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
+9ac6d774262c5f2718b7ebd20a490c7f399137e7 SLUB percpu sheaves
+820d6ccf5c35c4ea3273eed946928b2bab82913c slab: add opt-in caching layer of percpu sheaves
+bdd89d8ce2fd55e906516310f4d65ece5a180741 slab: add sheaf support for batching kfree_rcu() operations
+37bba251474556cfb80f92aff7aaf9ecd320f6a4 slab: sheaf prefilling for guaranteed allocations
+bba793a2395921ee485d58be0f77cc68b6885bed slab: determine barn status racily outside of lock
+d3e26a84194b04c6a596e90938908fd04da99940 tools: Add testing support for changes to rcu and slab for sheaves
+0adbd5a50fda34f4e302468871d3cfb953954103 tools: Add sheaves support to testing infrastructure
+6ba9a20f42399598304067a6ff929554c4a0fc88 maple_tree: use percpu sheaves for maple_node_cache
+848c3cc6a08b7ad681bafd8a2356ebf59a3d9fd4 mm, vma: use percpu sheaves for vm_area_struct cache
+f379968a7df8a4bd23f9c12b0f404bbd2ffe7830 mm, slub: skip percpu sheaves for remote object freeing
 
---===============8020223755082835369==--
+--===============1822816464446030705==--
