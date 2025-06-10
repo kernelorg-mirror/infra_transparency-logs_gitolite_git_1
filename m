@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8444987762087318636=="
+Content-Type: multipart/mixed; boundary="===============2512216740485689455=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Tue, 10 Jun 2025 08:05:17 -0000
-Message-Id: <174954271704.2836770.12980914402638448076@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Tue, 10 Jun 2025 08:05:22 -0000
+Message-Id: <174954272226.2837070.1273647173084725707@gitolite.kernel.org>
 
---===============8444987762087318636==
+--===============2512216740485689455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 git_push_cert_status: Y
 changes:
   - ref: refs/heads/for-next
     old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    new: 43f9c5c213074428ce0149f9525b98730422990e
+    new: 5cac59c59bbc81c3cd081ee575c41c917123d11a
     log: |
-         43f9c5c213074428ce0149f9525b98730422990e memory: emif: Add missing kerneldoc for lpmode
+         5cac59c59bbc81c3cd081ee575c41c917123d11a mux: mmio: Fix missing CONFIG_REGMAP_MMIO
          
 
---===============8444987762087318636==
+--===============2512216740485689455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1749542751 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
-nonce 1749542715-d3e6ad912a175fd3c2ce55533df516119755a1de
+pusher krzk@kernel.org 1749542756 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1749542720-3b9c2df65f69ab3921acb083d9d1a3072be9a1bd
 
-19272b37aa4f83ca52bdf9c16d5d81bdd1354494 43f9c5c213074428ce0149f9525b98730422990e refs/heads/for-next
+19272b37aa4f83ca52bdf9c16d5d81bdd1354494 5cac59c59bbc81c3cd081ee575c41c917123d11a refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmhH518QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1wl2D/9YelTs+gbwAfo7s/9ukvt/flDEWYWya+8Y
-ofnEK/9wO09s/oQMFuqJR8hVjHst/gtwQukWEJb2t3Nm+L2qYNoDW7EZlZwCSNcY
-Wyg/BSZvjQEElyX34jaI4+kLiDkOWjWZGZy57GG1QKZPMW55de2PSxBIELjYF7ie
-1yMfEetECbFcYZMYg8TuQLu4iSGVZ0j2cieXSiWhFxJKuQ1T5CNz9jUMoCt5iFhX
-AtSiLeMJ1siRR3BRsX2WuG4sgBPkfC00M3XxyBdP0BG05UwR51+icqbPqqiRkDe+
-zXFB45O6nUmxFA+Mg6oe0zhO0MEP2VXHoUwXCyHLTFI8hi5d18BaaMSIccAG14U0
-jTCYIsVEVutHKoNmQGyJGWSt1W4GvpyOA2ZqufiDMdfGjgWidLVkRiZpAe0QKgIB
-qtsE7x5YObfzdNzQagEjJoBUeJuG4lP+6dbQzxkAKWsuJ5gjdthzyBDcAbtns0TR
-IOf3CNhGNvR7xikN6zUqti4BIDRb0cK+z2ldZa4+Z/PcKKx/EofFWWDp9Dedyr1W
-5Iy2m7l4AvjwJlcMcK/1LWBVlPCdkJA1S8y0ph3SczOVWgqQ1Z0I4eY0YMnaCLkO
-M63kwqtTT9ihwQDh87YBynpAkCoQMFB6+DBF/IZ8DHEp07pZuHZa07siXVasTqrr
-hn5erqTdCQ==
-=SxYg
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmhH52QQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD14W4D/49To6RPb5xDPCCV9GFo+76Vno7Fj0IFs7c
+nbcNXiexNxhzyfJN7LYOehOjDEwzI9RM+daM4PxugSKXAZW2EkF0LBfnrv2z8A2Y
+W8LKNi3D0ZiFv1VP+7YDE6gawCtbODkXmUWaWTfEWF4pLbS1ErQiPiU9IIQZNu6n
+SuYSpwNV7tIkSxEkpPvCx/oqtWYgBXINZ4pSQs7LsKTTg4XGHDckPoryjUhMjAOd
+CGF2nUQjyheF2eYCfxJk7ciocGJDwPjXPwKsf+NOidRvpMMAXaG/3Dk55qP0nyy2
++6tsawzBC9maBXTTVTVGYWN47/0aeSL5+glQAXJU6gGMeVNwprmTd/Yrqx5Wm9iN
+esRCQ9nMsL0I03tgXN3kT84f48uSvY2d8m9fsxhm3NryXUnFMD0svGZxLXC+/y/Z
+BgybxODyeYbh84zP1PI1BPHu8sknfxa2CMeo/lrkKU7y4WQSQhBnNfOQTIhcylx9
+1lsVq6x32BJR9+xa68Ci+xk8fyPig2e66TnAf9uZbLkKLFpJ1gbZIcVzwI2Dn8te
+S/rRLXe3yAc69IJ35TuV0G1SQET2hmq27tlQLmyMr2TIYeqALfyxl0IEyB0iN9e2
+PCGFUQ/AZRf8GZuB1pvb4t14tG9ciXkcOtCmL28UhzzIX1dZYX5ptM2klQY8QyQM
+iC6dn/9j0Q==
+=K3IN
 -----END PGP SIGNATURE-----
 
---===============8444987762087318636==--
+--===============2512216740485689455==--
