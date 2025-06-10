@@ -1,21 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Tue, 10 Jun 2025 21:03:07 -0000
-Message-Id: <174958938738.3618529.1270466429429520362@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8022030169249274996=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/utils/patatt/patatt
+Date: Tue, 10 Jun 2025 21:16:58 -0000
+Message-Id: <174959021814.3630331.14060391312580076029@gitolite.kernel.org>
+
+--===============8022030169249274996==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/utils/patatt/patatt
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: dd83c2d670dd9578bc8410ee07becd74469c6e8c
-    new: 95b72bbf1fe42216d02a5ebb99bd18e9b69b6064
+  - ref: refs/heads/main
+    old: 60309eefca64e34a8c15615f45235471824f891d
+    new: 7eb7dfaf4c9f6028519f5209041da1cb61302cd8
     log: |
-         4bae390858d0bfa434e4c2d43950480b248a8718 btdev: Fix not setting sid on BT_HCI_EVT_LE_PA_SYNC_ESTABLISHED
-         1e9dae5750472fec748d75608a032be31c329f1d iso-tester: Add more tests for getpeername
-         95b72bbf1fe42216d02a5ebb99bd18e9b69b6064 bap: Fix not responding to SetConfiguration
+         7eb7dfaf4c9f6028519f5209041da1cb61302cd8 Refactor to pass mypy strict checks
          
+
+--===============8022030169249274996==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1749590253 -0400
+pushee gitolite.kernel.org:pub/scm/utils/patatt/patatt
+nonce 1749590217-0980c462474701cef91c7d099f60e04d0ddb3644
+
+60309eefca64e34a8c15615f45235471824f891d 7eb7dfaf4c9f6028519f5209041da1cb61302cd8 refs/heads/main
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaEig7QAKCRC2xBzjVmSZ
+bA6KAP9rSNCFsBXQ+o5zsdnP6VFUXrnHHBxmhnbKREToKV1I9wD/blTa1/R3sRtV
+XWN8PsUvbug3fKpmXClZyOWixskGIAM=
+=jdIb
+-----END PGP SIGNATURE-----
+
+--===============8022030169249274996==--
