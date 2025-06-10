@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============0722259955044689107=="
+Content-Type: multipart/mixed; boundary="===============0141108749701532893=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
-Date: Tue, 10 Jun 2025 07:52:21 -0000
-Message-Id: <174954194100.2821443.7710663959533515778@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Tue, 10 Jun 2025 07:52:59 -0000
+Message-Id: <174954197964.2821914.5948908934954746952@gitolite.kernel.org>
 
---===============0722259955044689107==
+--===============0141108749701532893==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-dt
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
 user: krzk
 git_push_cert_status: Y
 changes:
   - ref: refs/heads/for-next
-    old: 78c8129aa236af618cd5926c286bbb64cc357899
+    old: 3c6f400411bb47081935ac0bd8f4ae394cd0fb4e
     new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    log: revlist-78c8129aa236-19272b37aa4f.txt
+    log: revlist-3c6f400411bb-19272b37aa4f.txt
 
---===============0722259955044689107==
+--===============0141108749701532893==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1749541974 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
-nonce 1749541938-dc14453a8683e126799bbb066fbacb52dcbc1e23
+pusher krzk@kernel.org 1749542013 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
+nonce 1749541976-d39ab311431074335a9521a5d418e6dc87334cb7
 
-78c8129aa236af618cd5926c286bbb64cc357899 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 refs/heads/for-next
+3c6f400411bb47081935ac0bd8f4ae394cd0fb4e 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmhH5FYQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1xlMD/0TJ8XBVSFuaLHjUmUIGjv260u6qHXqsRQc
-UKhWc3IUrQjq8B2b4mhDdtpopSStwu0L1W3Jgss040lCYF5/6S63AzQ31Yc0CNab
-yu/A/FfWrkrn/RWhW42TsOrY2jxevg6ysof1NDZcyltsrYjq8/dMFb/l+CWAwESj
-v4vrUgH/koW4iqvwjxlkH69TmkchqWvC3c7/ZpbS6Kx4HifeZ/7HR0YEDqgXR68H
-59Fask++04P93ul32XWGT/Io4+IFSH8ETDOW3Q4uY2cGUDzhnUAgro1cxBH7kaCG
-fxjRgSxF76iDjB6mFTcpCT/XGmUXh7Xeol/O4HI0+RmgNmbELAJ8Mg9qXfebpLMD
-XoTsWljAm4evDe3RmcAnVbRrxj58ZTcIqKI+LJhNRRemIecb6ZRvQZJ4k2q9z6PF
-TEheEYbh2xTiKWje6r1KAlOoIzwXuHmfygcrpGl/XGmcidlegkNJlLqXX7nAR68Q
-HCqbjn+9vhvNt0691XxNHov0IaqjbXsvCTKU7azS8oOKbLM9Im2EMiwnZCZNWqfj
-LkuHeaRkKPgVQzYZXs/m0YrK59i5bos7Pf6U718rmN0tVxZ5P/XOgBPgM+zt7Ord
-A2TfOM8Gyf2bXwQApXugY5SRQnI5zqvvKQT6Ud7q3OPhx2uqwQMngo+eAz7Xv0o8
-+X3QshsN0Q==
-=wlWD
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmhH5H0QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1w9OD/9oomGyn+HnaqZOiiPmnDvObqPWmPi30sd2
+voQMUYHiIVONVM9ggLnCKtF2lP6kKtHlTOHcwL371USTO7crsX8lXQBKTwKS0DDD
+FBUU7+nWbk23ftVD57MpUPJ4qG5cZTp8+f01BYWZlCax2iC3Exn5fJDXbox2S246
+IwuO873AWVnMtjNp6Eo7HofGOyScSuzv7TGdMjST2lr/qd8al6QViWm+PRqzAkXK
+fbQTHFiB9PUT6yA4LIKVZO33zH6VPWxCPlkpx2pKsxl6ZfLQBPxhJxPJoOaM9blM
+iQGqDEfoBhQzNya+6SDAqNPEcUeJjvzEjlx9/DvhKO/n3NDUiTUFjP272TNoyrbm
+hcJNB4ShzYAMKrBfKTLbakqVTdh1TKePpRt7hyEs9SlFc72QexZv8qtvZWjcfHAM
+c6BBgbb9+2qCC1E5vhLa+uCmbJtuyY+YNAI+EiCcUKnU4zRO1NMjFp4NLDQFDEVS
+JUNJ0RJ3AJ0/ChoGlqJfasfDx5tbGHkXEttdQsCbxmbQ/QY0xTCy4E2SEX8CeJoQ
+4J0MILPuPsClX9FHyXD2pAlitHobNo4T4VfAEY4hp12Ts1wNo8VNoyH1kmVC4r7V
+zCHRbEae2oRYLxRLLS5rDChVzwEcH7VJfI0Bcb4llvFO3o2EGaw6hd0I5SR5P0qf
+LXAkPYEQkQ==
+=l3Id
 -----END PGP SIGNATURE-----
 
---===============0722259955044689107==
+--===============0141108749701532893==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-78c8129aa236-19272b37aa4f.txt
+Content-Disposition: attachment; filename=revlist-3c6f400411bb-19272b37aa4f.txt
 
 35a8b02e071a83dd2d42a8446a00a56f6147dc06 Merge tag 'mmc-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
 049294830bfaa1c4b56d5ccf21075f6f9990799e Merge tag 'thermal-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
@@ -1082,4 +1082,4 @@ be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' 
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
 
---===============0722259955044689107==--
+--===============0141108749701532893==--
