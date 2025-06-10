@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux
-Date: Tue, 10 Jun 2025 15:20:18 -0000
-Message-Id: <174956881849.3314129.51882459976675935@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Tue, 10 Jun 2025 15:23:19 -0000
+Message-Id: <174956899988.3315526.18429431318305765933@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux
-user: shuah
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/tags/linux-cpupower-6.16-rc2-fixes
-    old: 0000000000000000000000000000000000000000
-    new: 55ad54f6464122ac1dfeb322f4c5b4651a09b3b0
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 0ec8aa558c3a54db02f6a2e4c553940a81a28f0f
+    new: 1190410772090a68995a758c979ba44b986e2df2
