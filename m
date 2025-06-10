@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1514299347674677204=="
+Content-Type: multipart/mixed; boundary="===============5620948573137299690=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
-Date: Tue, 10 Jun 2025 21:56:35 -0000
-Message-Id: <174959259528.3666902.5602860667009630563@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Tue, 10 Jun 2025 21:57:05 -0000
+Message-Id: <174959262599.3667389.6225626674481910674@gitolite.kernel.org>
 
---===============1514299347674677204==
+--===============5620948573137299690==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools
@@ -20,7 +20,7 @@ changes:
     new: 2125a2afe58f8bbe083b69d8a0ff1577e77c146d
     log: revlist-a913ef6fd883-2125a2afe58f.txt
 
---===============1514299347674677204==
+--===============5620948573137299690==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ f09079bd04a924c72d555cd97942d5f8d7eca98c Merge tag 'powerpc-6.16-2' of git://git
 7e5f06ff0ecb97a913a4b9302c61785198b29edd tools kvm headers arm64: Update KVM header from the kernel sources
 2125a2afe58f8bbe083b69d8a0ff1577e77c146d perf test event_uniquifying: Skip test on platforms without 'clockticks' events
 
---===============1514299347674677204==--
+--===============5620948573137299690==--
