@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5628259730649848280=="
+Content-Type: multipart/mixed; boundary="===============6865004385225567619=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Tue, 10 Jun 2025 03:14:13 -0000
-Message-Id: <174952525382.2587561.12966440152296414471@gitolite.kernel.org>
+Date: Tue, 10 Jun 2025 03:14:31 -0000
+Message-Id: <174952527192.2588329.7293225647731520518@gitolite.kernel.org>
 
---===============5628259730649848280==
+--===============6865004385225567619==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wbg/counter
 user: wbg
 changes:
-  - ref: refs/heads/counter-current
+  - ref: refs/heads/counter-fixes
     old: 7351312632e831e51383f48957d47712fae791ef
     new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
     log: revlist-7351312632e8-19272b37aa4f.txt
 
---===============5628259730649848280==
+--===============6865004385225567619==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' 
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
 
---===============5628259730649848280==--
+--===============6865004385225567619==--
