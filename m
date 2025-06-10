@@ -1,57 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============6865004385225567619=="
+Content-Type: multipart/mixed; boundary="===============4709989112097647801=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Tue, 10 Jun 2025 03:14:31 -0000
-Message-Id: <174952527192.2588329.7293225647731520518@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Tue, 10 Jun 2025 04:53:56 -0000
+Message-Id: <174953123634.2666317.10259184658841742372@gitolite.kernel.org>
 
---===============6865004385225567619==
+--===============4709989112097647801==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wbg/counter
-user: wbg
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/counter-fixes
-    old: 7351312632e831e51383f48957d47712fae791ef
-    new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    log: revlist-7351312632e8-19272b37aa4f.txt
+  - ref: refs/heads/work.mount
+    old: 20ce4a0d2187b2e09c367ff0c658a3a6cc7148c4
+    new: 726de40dccb378ebd60b440e6b7cf4247903d601
+    log: revlist-20ce4a0d2187-726de40dccb3.txt
 
---===============6865004385225567619==
+--===============4709989112097647801==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-7351312632e8-19272b37aa4f.txt
+Content-Disposition: attachment; filename=revlist-20ce4a0d2187-726de40dccb3.txt
 
-35a8b02e071a83dd2d42a8446a00a56f6147dc06 Merge tag 'mmc-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
-049294830bfaa1c4b56d5ccf21075f6f9990799e Merge tag 'thermal-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-3702a515edec515fcc7e085053da636fefac88d6 Merge tag 'acpi-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-c89756bcf406af313d191cfe3709e7c175c5b0cd Merge tag 'pm-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-d005af3b6756e533caf688060281a91e1dae3479 f2fs: remove unused sbi argument from checksum functions
-9b6fc9888e03dbe69768ace00091173b169aec39 f2fs: add f2fs_bug_on() to detect potential bug
-5827e3c720e5a881bf97451e3c280445f67cba04 f2fs: add f2fs_bug_on() in f2fs_quota_read()
-70dd07c888451503c3e93b6821e10d1ea1ec9930 f2fs: use vmalloc instead of kvmalloc in .init_{,de}compress_ctx
-54ca9be0bc589a0e45959ba73c76cf3f65110c63 f2fs: introduce FAULT_VMALLOC
-fef1848809230ab6ca5338e0c02ed2ac6e786775 dt-bindings: net: dsa: mediatek,mt7530: Add airoha,an7583-switch
-d76556db10bf41cd3ae1ad1d705245afe077a701 net: dsa: mt7530: Add AN7583 support
-8bc3c234dcb65a018120dab96c83845cc7ff35c6 net: phy: mediatek: Add Airoha AN7583 PHY support
-0795b05a59b1371b18ffbf09d385296b12e9f5d5 net: phy: clear phydev->devlink when the link is deleted
-c59783780c8ad66f6076a9a7c74df3e006e29519 net: airoha: Fix an error handling path in airoha_alloc_gdm_port()
-c6bb8a21cdad8c975a3a646b9e5c8df01ad29783 net/mlx5: Add error handling in mlx5_query_nic_vport_node_guid()
-126cd7852a62c6fab11a4a4cb6fa96421929ab69 net: mctp: start tx queue on netdev open
-09d7ff0694ea133c50ad905fd6e548c13f8af458 tools: ynl: parse extack for sub-messages
-c8ef20fe7274c5766a317f9193b70bed717b6b3d tipc: use kfree_sensitive() for aead cleanup
-a540ee75945a96f606c6ac955bfed5410d318f7d net/mlx5: HWS, Fix an error code in mlx5hws_bwc_rule_create_complex()
-82fb5a369b8de625660c8c7f82e5286ec195be5e mlxsw: core_thermal: Constify struct thermal_zone_device_ops
-08f8bad0255c7319f4ffe53d0f0eab50fa2cb5e9 cxgb4: Constify struct thermal_zone_device_ops
-d9d836bfa5e6e255c411733b4b1ce7a1f8346c54 selftests: net: move wait_local_port_listen to lib.sh
-cb575e5e9fd1cba99f1514c36375e74609f92e70 net: Kconfig NET_DEVMEM selects GENERIC_ALLOCATOR
-e9cb929670a1e98b592b30f03f06e9e20110f318 net: phy: fix up const issues in to_mdio_device() and to_phy_device()
-3920a758800762917177a6b5ab39707d8e376fe6 net: macb: Check return value of dma_set_mask_and_coherent()
-68927eb52d0af04863584930db06075d2610e194 net: lan743x: rename lan743x_reset_phy to lan743x_hw_reset_phy
 82d1096ca8b5dbb3158d707e6fb3ad21c3403a49 net: lan743x: Fix PHY reset handling during initialization and WOL
 65484f9dfd3c707f0bb9a615ec987bb82d6e3e7d Merge branch 'refactor-phy-reset-handling-and'
 1d887d6f810dbf908da9709393c95ae1a649d587 ipe: add errno field to IPE policy load auditing
@@ -1050,5 +1024,31 @@ d8c0f5d973004f2ac86375ea54fae9625ac594fb tools/power turbostat: Add initial supp
 be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
+ad4adfe272d1d94063d9266d74c278fe7e21ea3a copy_tree(): don't set ->mnt_mountpoint on the root of copy
+226f9518fc1ecb2a54451e000740b4759cf5209c constify mnt_has_parent()
+05355caabac77fac1be9084b8631f4ad23288409 pnode: lift peers() into pnode.h
+3adee60cb459ccf21b2ebdb18a84772cd4455706 new predicate: mount_is_ancestor()
+80ec95dfce82faae347d697007a1739c1feec4f6 constify is_local_mountpoint()
+f413d0104e6274a35a676af2f00421bae7085f01 new predicate: anon_ns_root(mount)
+8cd21cb72010cf234bb9ceec150f7e2f30c6302a dissolve_on_fput(): use anon_ns_root()
+2818254168c33c87f432f364db0c0c03b4cda565 don't set MNT_LOCKED on parentless mounts
+9ac4acea3801d8568ef1bb5e434e888dd90c832c clone_mnt(): simplify the propagation-related logics
+999a5bd8b3df5d9f3a8681952fb472ba9392262d do_umount(): simplify the "is it still mounted" checks
+11a39f05e134e70e42f1770022770b91f7f34adb sanitize handling of long-term internal mounts
+fdb87f76dae45801a6836c582729dd3460176d7b Rewrite of propagate_umount()
+5bc8863dd55006ebba83817ed300b486cba67e6d attach_mnt(): expand in attach_recursive_mnt(), then lose the flag argument
+f1e308f55b2d945f795312cbe05ae60ae52439c9 do_move_mount(): take dropping the old mountpoint into attach_recursive_mnt()
+ae1f57626602e10391d7972a2773d5ac22b06e03 get rid of mnt_set_mountpoint_beneath()
+a13c562e8e0e1fb964a4e3d93fae60abc33b3e40 make commit_tree() usable in same-namespace move case
+a1120b5281245ed276d4ba11c351eb436927306c attach_recursive_mnt(): unify the mnt_change_mountpoint() logics
+de024c2f9a27ddc760fe8c74059d078e9bda9ada attach_recursive_mnt(): pass destination mount in all cases
+ad883aa12d3505cc6b06e269a05fb2b8395d83e1 attach_recursive_mnt(): get rid of flags entirely
+26906ca73048fda8ca71404e427fa052881104ba do_move_mount(): get rid of 'attached' flag
+7db6d3e1983eb8a2d8bcae1cefb5241f15e26267 attach_recursive_mnt(): remove from expiry list on move
+d32c552c0b15bb56b9ef911ad86008f48d9a6d8b take ->mnt_expire handling under mount_lock [read_seqlock_excl]
+6080bf46aa2ea03805954e6e895d95b00134ce28 pivot_root(): reorder tree surgeries, collapse unhash_mnt() and put_mountpoint()
+0f41c783fc44c05817bbdc2da66083d9a6f2dbf1 combine __put_mountpoint() with unhash_mnt()
+00cd8717f769b724d0615584fa8348bb2170e9d6 get rid of mountpoint->m_count
+726de40dccb378ebd60b440e6b7cf4247903d601 don't have mounts pin their parents
 
---===============6865004385225567619==--
+--===============4709989112097647801==--
