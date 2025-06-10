@@ -1,56 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============2512216740485689455=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Tue, 10 Jun 2025 08:05:22 -0000
-Message-Id: <174954272226.2837070.1273647173084725707@gitolite.kernel.org>
-
---===============2512216740485689455==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Tue, 10 Jun 2025 08:11:52 -0000
+Message-Id: <174954311251.2841952.7638802618507337196@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/gpio/for-next
     old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    new: 5cac59c59bbc81c3cd081ee575c41c917123d11a
+    new: 114ab5afdf6640d40c8982170ea78c127c983dad
     log: |
-         5cac59c59bbc81c3cd081ee575c41c917123d11a mux: mmio: Fix missing CONFIG_REGMAP_MMIO
+         08894232efa4b53e7cd064450a6d444b92ab24ae dt-bindings: gpio: convert gpio-pisosr.txt to yaml format
+         32f6d31dc0401e6af7c48e5e2381997b6d957d85 usb: gadget: pxa25x_udc: Switch to use devm_gpio_request_one()
+         a5589313383074c48a1b3751d592a6e084ae0573 gpiolib: Remove unused devm_gpio_request()
+         0e3b7b8759a7f3597e64fc12a8a017111edbf777 dt-bindings: gpio: convert gpio-74xx-mmio.txt to yaml format
+         9b4d4c952e28f97c5e653c8b9453690f7e63cc5a gpio: Remove unused 'struct gpio' definition
+         6595ea2761df191c2ec500d5f54b57592b969f5c gpiolib: Move GPIO_DYNAMIC_* constants to its only user
+         114ab5afdf6640d40c8982170ea78c127c983dad dt-bindings: gpio: convert nxp,lpc1850-gpio.txt to yaml format
          
-
---===============2512216740485689455==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher krzk@kernel.org 1749542756 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1749542720-3b9c2df65f69ab3921acb083d9d1a3072be9a1bd
-
-19272b37aa4f83ca52bdf9c16d5d81bdd1354494 5cac59c59bbc81c3cd081ee575c41c917123d11a refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmhH52QQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD14W4D/49To6RPb5xDPCCV9GFo+76Vno7Fj0IFs7c
-nbcNXiexNxhzyfJN7LYOehOjDEwzI9RM+daM4PxugSKXAZW2EkF0LBfnrv2z8A2Y
-W8LKNi3D0ZiFv1VP+7YDE6gawCtbODkXmUWaWTfEWF4pLbS1ErQiPiU9IIQZNu6n
-SuYSpwNV7tIkSxEkpPvCx/oqtWYgBXINZ4pSQs7LsKTTg4XGHDckPoryjUhMjAOd
-CGF2nUQjyheF2eYCfxJk7ciocGJDwPjXPwKsf+NOidRvpMMAXaG/3Dk55qP0nyy2
-+6tsawzBC9maBXTTVTVGYWN47/0aeSL5+glQAXJU6gGMeVNwprmTd/Yrqx5Wm9iN
-esRCQ9nMsL0I03tgXN3kT84f48uSvY2d8m9fsxhm3NryXUnFMD0svGZxLXC+/y/Z
-BgybxODyeYbh84zP1PI1BPHu8sknfxa2CMeo/lrkKU7y4WQSQhBnNfOQTIhcylx9
-1lsVq6x32BJR9+xa68Ci+xk8fyPig2e66TnAf9uZbLkKLFpJ1gbZIcVzwI2Dn8te
-S/rRLXe3yAc69IJ35TuV0G1SQET2hmq27tlQLmyMr2TIYeqALfyxl0IEyB0iN9e2
-PCGFUQ/AZRf8GZuB1pvb4t14tG9ciXkcOtCmL28UhzzIX1dZYX5ptM2klQY8QyQM
-iC6dn/9j0Q==
-=K3IN
------END PGP SIGNATURE-----
-
---===============2512216740485689455==--
