@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3656235907351537895=="
+Content-Type: multipart/mixed; boundary="===============5628259730649848280=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Tue, 10 Jun 2025 03:13:33 -0000
-Message-Id: <174952521351.2587042.11804981898342274124@gitolite.kernel.org>
+Date: Tue, 10 Jun 2025 03:14:13 -0000
+Message-Id: <174952525382.2587561.12966440152296414471@gitolite.kernel.org>
 
---===============3656235907351537895==
+--===============5628259730649848280==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wbg/counter
 user: wbg
 changes:
-  - ref: refs/heads/counter-next
-    old: ae3392c0f12f179b969ce17856ed18bf8d69a35e
+  - ref: refs/heads/counter-current
+    old: 7351312632e831e51383f48957d47712fae791ef
     new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    log: revlist-ae3392c0f12f-19272b37aa4f.txt
+    log: revlist-7351312632e8-19272b37aa4f.txt
 
---===============3656235907351537895==
+--===============5628259730649848280==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-ae3392c0f12f-19272b37aa4f.txt
+Content-Disposition: attachment; filename=revlist-7351312632e8-19272b37aa4f.txt
 
 35a8b02e071a83dd2d42a8446a00a56f6147dc06 Merge tag 'mmc-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
 049294830bfaa1c4b56d5ccf21075f6f9990799e Merge tag 'thermal-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
@@ -1051,4 +1051,4 @@ be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' 
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
 
---===============3656235907351537895==--
+--===============5628259730649848280==--
