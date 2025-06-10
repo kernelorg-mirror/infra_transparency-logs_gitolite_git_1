@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6796416562384043463=="
+Content-Type: multipart/mixed; boundary="===============8820702409787417433=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Tue, 10 Jun 2025 03:11:09 -0000
-Message-Id: <174952506959.2585736.5530681879518246234@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
+Date: Tue, 10 Jun 2025 03:13:02 -0000
+Message-Id: <174952518292.2586593.5196303486377161086@gitolite.kernel.org>
 
---===============6796416562384043463==
+--===============8820702409787417433==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/wbg/counter
+user: wbg
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: 6c9bb86922728c7a4cceb99f131e00dd87514f20
+  - ref: refs/heads/master
+    old: b4432656b36e5cc1d50a1f2dc15357543add530e
     new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    log: revlist-6c9bb8692272-19272b37aa4f.txt
+    log: revlist-b4432656b36e-19272b37aa4f.txt
 
---===============6796416562384043463==
+--===============8820702409787417433==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6c9bb8692272-19272b37aa4f.txt
+Content-Disposition: attachment; filename=revlist-b4432656b36e-19272b37aa4f.txt
 
 35a8b02e071a83dd2d42a8446a00a56f6147dc06 Merge tag 'mmc-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
 049294830bfaa1c4b56d5ccf21075f6f9990799e Merge tag 'thermal-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
@@ -1051,4 +1051,4 @@ be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' 
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
 
---===============6796416562384043463==--
+--===============8820702409787417433==--
