@@ -1,41 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============3440398605990082787=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 10 Jun 2025 18:50:38 -0000
-Message-Id: <174958143869.3499350.12277163876318775298@gitolite.kernel.org>
-
---===============3440398605990082787==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Tue, 10 Jun 2025 19:09:20 -0000
+Message-Id: <174958256046.3512707.5339026682045469247@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/clone3-shadow-stack
-    old: ca0c730cc524e47da475cc1edb2e9a942e4ae2c3
-    new: de4fa50a133e0be7bdc287ae24247769add50466
-    log: revlist-ca0c730cc524-de4fa50a133e.txt
-
---===============3440398605990082787==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ca0c730cc524-de4fa50a133e.txt
-
-1d8d3a501d0eca96642707cd4498c567afeeea6e fork: Support shadow stacks in clone3()
-0b79155d3e157fb4ad0b03631be7c6a283960156 arm64/gcs: Return a success value from gcs_alloc_thread_stack()
-6fbff6e4fac714ba0b7b36b0e4065cfcd90cd640 Documentation: userspace-api: Add shadow stack API documentation
-7ce72aa0b3f4d2e97ba074ebd7808117f6a9aeaa selftests: Provide helper header for shadow stack testing
-53402f529ef58e303aaa77d1dc9d27459251d1ae fork: Add shadow stack support to clone3()
-ec72e7433700197fb6f2099e4a54732b07771fa5 arm64/gcs: Advertise clone3() support for GCS via hwcap
-c61a0b9ffc4db7bf012df9437715e22a8f00f34d selftests/clone3: Remove redundant flushes of output streams
-8e2e59198a99a7a5ceff3a19a4956b933c8837be selftests/clone3: Factor more of main loop into test_clone3()
-320e5bf7b5793e1322872ed1ba53e8e6b5c4e1e0 selftests/clone3: Allow tests to flag if -E2BIG is a valid error code
-ee8ea88e7beef5eeebd1d28be3f43881f1b26b9c selftests/clone3: Test shadow stack support
-de4fa50a133e0be7bdc287ae24247769add50466 kselftest/arm64: Add HWCAP3_CLONE3_GCS to the hwcap test
-
---===============3440398605990082787==--
+  - ref: refs/heads/bleeding-edge
+    old: a6c45d8ee73b910e8315f20456171eeb4505b094
+    new: c076d797607347c29fcdd221207183acd3f413a5
+    log: |
+         2f76d269073bdb2971b253ef87d1f96f1a94c50e ACPI: PAD: Update arguments of mwait_idle_with_hints()
+         bfa4d85130e7313d3b81b1b658482c46f1ba9daf Merge branch 'acpi-pad' into bleeding-edge
+         15eece6c5b05e5f9db0711978c3e3b7f1a2cfe12 ACPI: CPPC: Fix NULL pointer dereference when nosmp is used
+         c8e854d7faa030965780e16a529c8bfea2868411 Merge branch 'acpi-cppc' into bleeding-edge
+         7a0d59f6a913a2bc7680c663b8cf1e45d1bdbf26 ACPI: EC: Ignore ECDT tables with an invalid ID string
+         e26ef0473d2c703d772fcb187af4af910601704f Merge branch 'acpi-ec' into bleeding-edge
+         c99ad987d3e9b550e9839d5df22de97d90462e5f ACPI: resource: Use IRQ override on MACHENIKE 16P
+         e92b2f0823ab9d0991ee9e12acd36e8bbfff7c06 Merge branch 'acpi-resource' into bleeding-edge
+         72840238e2bcb8fb24cb35d8d1d5a822c04e62a4 intel_idle: Update arguments of mwait_idle_with_hints()
+         c076d797607347c29fcdd221207183acd3f413a5 Merge branch 'pm-cpuidle' into bleeding-edge
+         
