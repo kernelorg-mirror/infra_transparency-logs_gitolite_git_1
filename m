@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7354040034740123584=="
+Content-Type: multipart/mixed; boundary="===============8890664539250441538=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Tue, 10 Jun 2025 13:26:42 -0000
-Message-Id: <174956200242.3212583.4296754822759086483@gitolite.kernel.org>
+Date: Tue, 10 Jun 2025 13:27:04 -0000
+Message-Id: <174956202409.3212889.14378971378932799407@gitolite.kernel.org>
 
---===============7354040034740123584==
+--===============8890664539250441538==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-next
-    old: d3a889482bd5abf2bbdc1ec3d2d49575aa160c9c
+  - ref: refs/heads/master
+    old: 9c32cda43eb78f78c73aee4aa344b777714e259b
     new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    log: revlist-d3a889482bd5-19272b37aa4f.txt
+    log: revlist-9c32cda43eb7-19272b37aa4f.txt
 
---===============7354040034740123584==
+--===============8890664539250441538==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-d3a889482bd5-19272b37aa4f.txt
+Content-Disposition: attachment; filename=revlist-9c32cda43eb7-19272b37aa4f.txt
 
 35a8b02e071a83dd2d42a8446a00a56f6147dc06 Merge tag 'mmc-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
 049294830bfaa1c4b56d5ccf21075f6f9990799e Merge tag 'thermal-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
@@ -1051,4 +1051,4 @@ be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' 
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
 
---===============7354040034740123584==--
+--===============8890664539250441538==--
