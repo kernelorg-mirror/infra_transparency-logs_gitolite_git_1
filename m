@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 10 Jun 2025 21:43:33 -0000
-Message-Id: <174959181332.3654189.13011137603735274237@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/palmer/linux
+Date: Tue, 10 Jun 2025 21:44:32 -0000
+Message-Id: <174959187299.3655320.4932763177327973054@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/palmer/linux
+user: palmer
 changes:
-  - ref: refs/heads/main
-    old: fdd9ebccfc32c060d027ab9a2c957097e6997de6
-    new: dc9c67820f81ee0d34f9095195228fcb828315ff
+  - ref: refs/heads/for-next
+    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
+    new: 4d485a04f07b7f886a3cd52a1ced8729e7cb7e17
     log: |
-         dc9c67820f81ee0d34f9095195228fcb828315ff net: usb: r8152: Add device ID for TP-Link UE200
+         d35cd3b541e0e500701c0d193e14b7cc24c3beea raid6: riscv: Clean up unused header file inclusion
+         7c27b038be2814da0b9e9800af0b6facbb784dc8 raid6: riscv: Fix NULL pointer dereference issue
+         f6483d25a4ec58dc6a02122c2fe8d3c2cffcc818 raid6: riscv: Allow code to be compiled in userspace
+         7cd62c72c59eb71f0a530076f94eb99b37d0f1c9 raid6: test: Add support for RISC-V
+         4d485a04f07b7f886a3cd52a1ced8729e7cb7e17 Merge patch series "Fix a segmentation fault also add raid6test for RISC-V support"
          
