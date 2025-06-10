@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4838584584574647774=="
+Content-Type: multipart/mixed; boundary="===============4650273820203583405=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Tue, 10 Jun 2025 08:22:22 -0000
-Message-Id: <174954374282.2851337.5595217024943685911@gitolite.kernel.org>
+Date: Tue, 10 Jun 2025 08:22:27 -0000
+Message-Id: <174954374766.2851501.10292262068127970503@gitolite.kernel.org>
 
---===============4838584584574647774==
+--===============4650273820203583405==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,38 +16,43 @@ repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/for-nbe
-    old: 0000000000000000000000000000000000000000
+  - ref: refs/heads/for-next
+    old: 43f9c5c213074428ce0149f9525b98730422990e
     new: e18c3f5cbd0243c60777f7a3a02e4506f5196c31
+    log: |
+         6d8b18ae647bb456d2a2dac9771d007f243537cf memory: stm32_omm: Use syscon_regmap_lookup_by_phandle_args
+         04de50163466a0d11b24f6bb418889f3cc219dda dt-bindings: memory-controllers: convert arm,pl172.txt to yaml format
+         e18c3f5cbd0243c60777f7a3a02e4506f5196c31 memory: mtk-smi: Add ostd setting for mt8186
+         
 
---===============4838584584574647774==
+--===============4650273820203583405==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1749543777 +0200
+pusher krzk@kernel.org 1749543781 +0200
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
-nonce 1749543740-204a1eae7f144c0c8fda66691a2204b09b96fc79
+nonce 1749543745-9fb3b93125875fcf2b6384221b05d145330726bd
 
-0000000000000000000000000000000000000000 e18c3f5cbd0243c60777f7a3a02e4506f5196c31 refs/heads/for-nbe
+43f9c5c213074428ce0149f9525b98730422990e e18c3f5cbd0243c60777f7a3a02e4506f5196c31 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmhH62EQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD13SzD/9hXQa7Dp6xPYAhR/G/lKfmetHZqbLHjmxz
-F+roS4LozJ/8b4XILhbHlEJvWegQQVPiCe1nw9iOOdwPJT2bS1t3CXQzVdaxdjIu
-D92XNKqHE13D7tJVRTLKWbMLHZKMKftACNuxsglWTXWXtcvLsupi5Rv/2pZ+juQ5
-H3Pr8yHWFu8Nbp3U98p+3bIvuXZ3IFMRSxvBoNa+uZ1tqZORl77ZlSebA/DgwinB
-x1IOiNZ4fcaqe+bozBOCbUj4xdeYnwot61Zu+4uQbI0CCEwzqC010GJ/xPKCUOwJ
-B5F/mVh5xjKzxbn56fWRlrzfP45EG3mA+CVwVdZa/9RQllfQRUfbAjgLSPAPpfNb
-sMAO2TKDWf9oQTgsQ55VG+3SS8hXVrBiqNBgImUNkyftYrghwZU008GOhRbIiv7k
-5dL/8iuBYOhsdQigzfIpZ5jtf371o5zffq1wNJdRPaxGDV2Z/71XReY93B/M6/yW
-qTfHiwxpOWIy1A5nSqksjEGCSy9hQCOyfHzmxf1y2tJk35pihlRoseVYETjDtmyn
-F/sbsNqKWJS1JTATdk6gWvrjA1U9AmtGBO89PGD7LhEcZX5heEPIf9uxEh89CXPq
-JjXgNt5hfVQLsTbTf3i0wVeEjihsRmIrvxwwzy9XEsRfPzHFpXoReIqdOJr1zwmW
-sERMxV4NPg==
-=kD8h
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmhH62UQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD15azEACMXxmWRH+2/kBYpkXjsWMrjexvm2+ao93G
+Q3NCVX86IL6gHOTyUcsvaexzGt/l44FBJr31NtrrTZmn12rc+dwaub02fT0cpphX
+KbDRjsbbpQI/kI4r6m5ApAjsP+aPz81V33ak0kNLN5sl8Gqypfm4y5RaSaYg7wZI
+BEWhe2lKfLb3mD7yJAepRREQgY9MWqc4clw+vNtOhJ+pvTeOkDgxvi9W0dNPNmIb
+PgU1h9VQYeYtavN0ACnBWbC3gOCEoW9ujnb0R5a+AdXNG4ivorcimHyefQbN9SqQ
+feyS8y3dcJlW/lUaGcUTLbQ0hoNTn0o9ySZ1/fnvEtuo+Wzb0roEi3U+Z4iyHeY2
+Jn6TbX07TI5yVnUXZWgePa3SNq73IMyxOw3dkmwZbL/uppmqh4VrVFI3UwnysGpk
+NKAZuOvVaLPC1TaFEV7SIN5U1NykZ+izYjKcATbJ8HAFImF3Gb7/h3zrXkZnvh20
+62PyMnJlUe7evVTo894gHD4v3Ipun6X5xiMRD3e3iPzpBq7f5M1hvI1SliMJB36l
+dnepqkWYfqxczTXe9aa9DiuqsgwBfVCQ7kAQnF0I0oW1nofD7E0s7jLiw8QWPQrA
+nxm1a6RZ19sCffwuYDx9zSf+DHU6iooI5RBcbkBEajdyoQaFrJEPf0wWoq4q2nKB
+AmLaq6z/VQ==
+=0tlv
 -----END PGP SIGNATURE-----
 
---===============4838584584574647774==--
+--===============4650273820203583405==--
