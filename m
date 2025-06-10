@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8890664539250441538=="
+Content-Type: multipart/mixed; boundary="===============2445362959727460428=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Tue, 10 Jun 2025 13:27:04 -0000
-Message-Id: <174956202409.3212889.14378971378932799407@gitolite.kernel.org>
+Date: Tue, 10 Jun 2025 13:27:12 -0000
+Message-Id: <174956203254.3213239.16045887981027600309@gitolite.kernel.org>
 
---===============8890664539250441538==
+--===============2445362959727460428==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/master
-    old: 9c32cda43eb78f78c73aee4aa344b777714e259b
+  - ref: refs/heads/usb-linus
+    old: b4432656b36e5cc1d50a1f2dc15357543add530e
     new: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
-    log: revlist-9c32cda43eb7-19272b37aa4f.txt
+    log: revlist-b4432656b36e-19272b37aa4f.txt
 
---===============8890664539250441538==
+--===============2445362959727460428==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-9c32cda43eb7-19272b37aa4f.txt
+Content-Disposition: attachment; filename=revlist-b4432656b36e-19272b37aa4f.txt
 
 35a8b02e071a83dd2d42a8446a00a56f6147dc06 Merge tag 'mmc-v6.16' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
 049294830bfaa1c4b56d5ccf21075f6f9990799e Merge tag 'thermal-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
@@ -1051,4 +1051,4 @@ be54f8c558027a218423134dd9b8c7c46d92204a Merge tag 'timers-cleanups-2025-06-08' 
 939f15e640f193616691d3bcde0089760e75b0d3 Merge tag 'turbostat-2025.06.08' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 19272b37aa4f83ca52bdf9c16d5d81bdd1354494 Linux 6.16-rc1
 
---===============8890664539250441538==--
+--===============2445362959727460428==--
