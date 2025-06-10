@@ -1,27 +1,40 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/ethtool/ethtool
-Date: Tue, 10 Jun 2025 23:45:35 -0000
-Message-Id: <174959913570.3760300.17976729929006102896@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0873781399504460841=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 10 Jun 2025 23:47:35 -0000
+Message-Id: <174959925506.3761294.18390465762438530886@gitolite.kernel.org>
+
+--===============0873781399504460841==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/ethtool/ethtool
-user: mkubecek
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/next
-    old: 64226907d0d6734bef5098eb343fd2194cd140e2
-    new: e35fbe644b410e0cdc70111a053a7e1c04108677
-    log: |
-         d89f6ee9c12ac49a0692dc26080e81d8d190c941 hibmcge: add support dump registers for hibmcge driver
-         9338aa51d4856273539a052332de3695e09620bd Merge branch 'review/pretty-hibmcge'
-         d12a0a7b343e476c735e6bcde03be0ea20192aff netlink: add NULL check for get_string() in features.c
-         fd328ccb3cc0d74d6818817b14d9de25aac85331 json_print: add NULL check before jsonw_string_field() in print_string()
-         f111e854d99e3284893ef59efcfb6e5a5857d396 common: fix potential NULL dereference in print_rss_hkey()
-         33fffbbdc12d71b3bb23acd04b97ce1b485f3c60 fec: fix possible NULL dereference in fec_mode_walk()
-         7ca78b77af7482eb189d15e26c3464ddcb5b5d58 module_common: always print per-lane status in JSON
-         35eb71b0096898a566208613aaee8ff6f5933948 module_common: print loss / fault signals as bool
-         e35fbe644b410e0cdc70111a053a7e1c04108677 Merge branch 'review/json-per-lane'
-         
+  - ref: refs/heads/main
+    old: c4246f4cce05f1134fb9ea82460b5690ab6710a5
+    new: 34355b6712bf9c8b803b4616ed3c66a96ccbdfa4
+    log: revlist-c4246f4cce05-34355b6712bf.txt
+
+--===============0873781399504460841==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-c4246f4cce05-34355b6712bf.txt
+
+d08ad6c8613ba14ce5d0c42b841d754690548fda can: netlink: replace tabulation by space in assignment
+bee7e3322a2859a80a67077591128323bbc4052f can: bittiming: rename CAN_CTRLMODE_TDC_MASK into CAN_CTRLMODE_FD_TDC_MASK
+23c0dc95bfa86503eed9fa99423fa0bb39a3bcb0 can: bittiming: rename can_tdc_is_enabled() into can_fd_tdc_is_enabled()
+527b99f44def0decc39cef434fd26cdaef74d31c can: netlink: can_changelink(): rename tdc_mask into fd_tdc_flag_provided
+3064247120238f384ea53c70caad6c7c49d6c465 Merge patch series "can: netlink: preparation before introduction of CAN XL"
+9e97db3c075a77d15a6be26541e7dad22dbfc793 documentation: networking: can: Document alloc_candev_mqs()
+127c49624a0980ee7b8a5ba9094d6942332a48da can: add drop reasons in the receive path of AF_CAN
+81807451c2a6af59bbc58adfd0da69870c30d4ab can: add drop reasons in CAN protocols receive path
+af42404179c0e7b590ddfe56c4a753ace39cc1a4 Merge patch series "can: add drop reasons in the receive path"
+34355b6712bf9c8b803b4616ed3c66a96ccbdfa4 Merge tag 'linux-can-next-for-6.17-20250610' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can-next
+
+--===============0873781399504460841==--
