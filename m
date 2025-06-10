@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3964878567594077404=="
+Content-Type: multipart/mixed; boundary="===============2262926779496464033=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Tue, 10 Jun 2025 09:38:22 -0000
-Message-Id: <174954830212.2912064.16535426206529881225@gitolite.kernel.org>
+Date: Tue, 10 Jun 2025 09:38:36 -0000
+Message-Id: <174954831665.2912488.16652976176152546409@gitolite.kernel.org>
 
---===============3964878567594077404==
+--===============2262926779496464033==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,55 +16,41 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can-next
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: 6682bfc1b227fecedc6dad064ef240ec8abfe32d
-    new: 2c7e4a2663a1ab5a740c59c31991579b6b865a26
-    log: revlist-6682bfc1b227-2c7e4a2663a1.txt
-  - ref: refs/heads/master
-    old: 6682bfc1b227fecedc6dad064ef240ec8abfe32d
-    new: 2c7e4a2663a1ab5a740c59c31991579b6b865a26
-    log: revlist-6682bfc1b227-2c7e4a2663a1.txt
+  - ref: refs/heads/testing
+    old: 14a3993e87c2c0d16a7a2fe061baa5fa36647c1b
+    new: 93c5c3f4c18971f1612c159345c7ae814fbf86d1
+    log: revlist-14a3993e87c2-93c5c3f4c189.txt
 
---===============3964878567594077404==
+--===============2262926779496464033==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1749548333 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1749548348 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1749548295-e7bf4155babab2594452bf41c7525ed7c3eea312
+nonce 1749548312-b0b3c48ca9acf94103083cb3077b3453b17904ff
 
-6682bfc1b227fecedc6dad064ef240ec8abfe32d 2c7e4a2663a1ab5a740c59c31991579b6b865a26 refs/heads/main
-6682bfc1b227fecedc6dad064ef240ec8abfe32d 2c7e4a2663a1ab5a740c59c31991579b6b865a26 refs/heads/master
+14a3993e87c2c0d16a7a2fe061baa5fa36647c1b 93c5c3f4c18971f1612c159345c7ae814fbf86d1 refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAABCgAxFiEEn/sM2K9nqF/8FWzzDHRl3/mQkZwFAmhH/S0THG1rbEBwZW5n
-dXRyb25peC5kZQAKCRAMdGXf+ZCRnJ1IB/9SB3XDpwyn759Ccwb106MUEF2bR81V
-0W7rVuXBBHGFIiVmbA+9SJmydqA6+WpDnmgy5VNeFvi5/AQ8e6VOlqfk442OBWnp
-c1i8Shb1iof4npOxLPEIk5SU0QYXBKc16dfsWx7Rlxo3HmVRa8XNDMaB5mJYFXXt
-dMyzEv9eTH18zTpfS83zWLNVfkqpvX2zeb7niEJCs5JMHY7eaZXyU0Ip/RR0U1GE
-9p5MfspvCfrDcsrKg2qGSoaMR4FwuATfkZYI1pecYfUSaD4t3id66Mg7WJyhmtBH
-1GDRo+/2NeUhH13Tp7gWqbC4B0/Iy8Y0tMD6CsNjvsdlSZCD28KUh1QE
-=udIT
+iQFGBAABCgAxFiEEn/sM2K9nqF/8FWzzDHRl3/mQkZwFAmhH/TwTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRAMdGXf+ZCRnI+AB/Y16rcZu75uZh0Uv6JSToLmsN0HHauo
+FTDayDM1RLOy6CIQYOxAQSbQpjv2cXZ0hqT/qubFWZPuUYCXSVIKKEpOJMY3lcMo
+auuegcH9G9Y6sqDgn4kKUEtrWUIjOOYGHJde+N6yg71A7SugQmTAwPv7fSr7iUmg
+lbG1BMD0C94jEyCoVmAk4xHYQdFXTypBXCIEP0rqo+eW0wJVcLZ++B4tGnj6Ev8b
+914S8BqCV/EHe+MSEDwUtKvxwVZ/EFV0qrls9zvHeV+LC+GNCpshQufuR5cH+Uhi
+wufhrgzINQTkTcgC06Y4PXtgf+W5wJRv0snbmkiJT43/9XVS7vkBy98=
+=JOSn
 -----END PGP SIGNATURE-----
 
---===============3964878567594077404==
+--===============2262926779496464033==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6682bfc1b227-2c7e4a2663a1.txt
+Content-Disposition: attachment; filename=revlist-14a3993e87c2-93c5c3f4c189.txt
 
-533c87e2ed742454957f14d7bef9f48d5a72e72d selftests: ublk: add test for UBLK_F_QUIESCE
-e0f8e1a7c18bfbb203122e98dbd08e0e68dcbd76 Merge tag 'v6.15-rc8-ksmbd-server-fixes' of git://git.samba.org/ksmbd
-72b17676d3683040a0add8988ec051a2a5adafd7 spi: spi-qpic-snand: return early on error from qcom_spi_io_op()
-b00d6864a4c948529dc6ddd2df76bf175bf27c63 spi: spi-qpic-snand: extend bitmasks usage
-43a38a0ff8c63ee156d997cd13063c63cd55d812 ASoC: codecs: add support for ES8375
-a424b598e6a6c1e69a2bb801d6fd16e805ab2c38 PCI/DPC: Initialize aer_err_info before using it
-a0b62cc310239c7f1323fb20bd3789f21bdd8615 PCI/DPC: Log Error Source ID only when valid
-6fc4dae74afcf29ef82afbaaa9b082893871eda4 PCI/AER: Factor COR/UNCOR error handling out from aer_isr_one_error()
-6a1eda745967a1e84f6e4cae14c118c97319891e PCI/AER: Consolidate Error Source ID logging in aer_isr_one_error_type()
 f40bd2865501437bf5dfc7167be7b5c8f536b323 PCI/AER: Extract bus/dev/fn in aer_print_port_info() with PCI_BUS_NUM(), etc
 99c3fd0de8eb4e35459aaac5c1aa315a1a6843a6 PCI/AER: Rename aer_print_port_info() to aer_print_source()
 ca2426a570ab4bdf6185aea034ee09184420bd0d PCI/AER: Move aer_print_source() earlier in file
@@ -1080,5 +1066,14 @@ e9e668cd2756c1300f3bf84eba1d6711b886b531 Merge tag 'arm64-fixes' of git://git.ke
 cfc4ca8986bb1f6182da6cd7bb57f228590b4643 Merge tag 'uml-for-linux-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/uml/linux
 71052a800371c64b4546a1d7f69ad515a779316f MAINTAINERS: add entry for crypto library
 2c7e4a2663a1ab5a740c59c31991579b6b865a26 Merge tag 'net-6.16-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+d08ad6c8613ba14ce5d0c42b841d754690548fda can: netlink: replace tabulation by space in assignment
+bee7e3322a2859a80a67077591128323bbc4052f can: bittiming: rename CAN_CTRLMODE_TDC_MASK into CAN_CTRLMODE_FD_TDC_MASK
+23c0dc95bfa86503eed9fa99423fa0bb39a3bcb0 can: bittiming: rename can_tdc_is_enabled() into can_fd_tdc_is_enabled()
+527b99f44def0decc39cef434fd26cdaef74d31c can: netlink: can_changelink(): rename tdc_mask into fd_tdc_flag_provided
+3064247120238f384ea53c70caad6c7c49d6c465 Merge patch series "can: netlink: preparation before introduction of CAN XL"
+9e97db3c075a77d15a6be26541e7dad22dbfc793 documentation: networking: can: Document alloc_candev_mqs()
+127c49624a0980ee7b8a5ba9094d6942332a48da can: add drop reasons in the receive path of AF_CAN
+81807451c2a6af59bbc58adfd0da69870c30d4ab can: add drop reasons in CAN protocols receive path
+93c5c3f4c18971f1612c159345c7ae814fbf86d1 Merge patch "can: add drop reasons in the receive path of AF_CAN"
 
---===============3964878567594077404==--
+--===============2262926779496464033==--
